@@ -32,6 +32,7 @@ problem_types:
 difficulty: 3
 importance: 4
 status: 已填充
+stage: published
 sources:
   - 提炼-普化原理-第10章-氧化还原电化学
   - 教学逻辑提炼-Zchem-电化学-第一轮
@@ -251,4 +252,3 @@ $$2Mn^{3+}(aq) + 2H_2O(l) \longrightarrow Mn^{2+}(aq) + MnO_2(s) + 4H^+(aq)$$
 ## 十五、待完善项
 - [ ] 补充 Mn、N、Cl 等常见元素的 Frost 图数据表
 - [ ] 关联真题中涉及 Frost 图判断的例题
-

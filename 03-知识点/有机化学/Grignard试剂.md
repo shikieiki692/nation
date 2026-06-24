@@ -18,6 +18,7 @@ problem_types: [题型-Grignard反应]
 difficulty: 3
 importance: 5
 status: 已填充
+stage: published
 sources: []
 source_type: []
 review_cycle: 30d
@@ -333,6 +334,3 @@ Grignard 试剂
 
 ## 十五、待完善项
 - [待填充]
-
-
-

@@ -23,6 +23,7 @@ problem_types: [题型-产物预测, 题型-机理分析]
 difficulty: 4
 importance: 3
 status: 已填充
+stage: published
 sources: []
 source_type: []
 review_cycle: 30d
@@ -162,4 +163,3 @@ DMSO 有两个甲基（都有 α-H）：
 
 ## 十五、待完善项
 - [待补充]
-

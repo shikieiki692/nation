@@ -46,6 +46,7 @@ problem_types:
 difficulty: 3
 importance: 5
 status: 已填充
+stage: published
 sources:
   - Arrow Pushing in Inorganic Chemistry-总索引
 source_type:
@@ -60,7 +61,6 @@ key_images: []
 image_count: 0
 teaching_ready: false
 ---
-
 
 # 离去基与pKa
 
@@ -246,4 +246,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "离去基与pKa")
 SORT year DESC, difficulty ASC
 ```
-

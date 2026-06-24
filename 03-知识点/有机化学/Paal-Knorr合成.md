@@ -26,6 +26,7 @@ problem_types: [题型-产物预测, 题型-底物设计, 题型-合成设计]
 difficulty: 3
 importance: 5
 status: 已填充
+stage: published
 sources: ["ABOC §9.2"]
 source_type: []
 review_cycle: 30d

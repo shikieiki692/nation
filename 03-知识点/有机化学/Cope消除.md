@@ -27,6 +27,7 @@ problem_types: [题型-消除产物预测, 题型-立体化学分析, 题型-syn
 difficulty: 3
 importance: 3
 status: 已填充
+stage: published
 sources: ["ABOC §4.6"]
 source_type: []
 review_cycle: 30d
@@ -287,4 +288,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Cope消除")
 SORT year DESC, difficulty ASC
 ```
-

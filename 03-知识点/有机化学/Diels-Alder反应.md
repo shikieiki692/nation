@@ -25,6 +25,7 @@ problem_types: [题型-产物预测, 题型-立体化学推断, 题型-合成设
 difficulty: 4
 importance: 5
 status: 已填充
+stage: published
 template_version: v1.3
 updated: 2026-05-18
 sources: ["ABOC §7.2", "Clayden Ch34"]
@@ -487,4 +488,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Diels-Alder反应")
 SORT year DESC, difficulty ASC
 ```
-

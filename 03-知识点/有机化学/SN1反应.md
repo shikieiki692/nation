@@ -24,6 +24,7 @@ problem_types: [题型-SN1/SN2/E1/E2竞争判断, 题型-反应势能图判别, 
 difficulty: 4
 importance: 5
 status: 已填充
+stage: published
 sources:
   - "ABOC §2.9 饱和碳上的亲核取代反应（mineru/ABOC202505_1-200.md 行 1849-1920）"
   - "ABOC §2.9 离子对三层模型（行 1855-1864）"

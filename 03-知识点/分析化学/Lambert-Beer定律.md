@@ -18,6 +18,7 @@ problem_types: [题型-Beer定律计算]
 difficulty: 2
 importance: 5
 status: 已填充
+stage: published
 sources:
   - "[[提炼-分析化学第六版-第7-10章-氧化还原沉淀重量与光度法]]"
   - "[[分光光度法]]"
@@ -225,4 +226,3 @@ WHERE type = "题目"
   AND contains(knowledge_points, "Lambert-Beer定律")
 SORT difficulty ASC, year DESC
 ```
-

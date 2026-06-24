@@ -18,6 +18,7 @@ problem_types: [题型-Fischer投影转换]
 difficulty: 2
 importance: 4
 status: 已填充
+stage: published
 sources: []
 source_type: []
 review_cycle: 30d
@@ -373,6 +374,3 @@ Fischer投影式
 
 ## 十五、待完善项
 - [待填充]
-
-
-

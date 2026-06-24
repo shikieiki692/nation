@@ -23,10 +23,12 @@ problem_types: [题型-立体化学分析, 题型-产物预测]
 difficulty: 3
 importance: 4
 status: 已填充
+stage: published
 template_version: v1.3.2
 review_cycle: 30d
 updated: 2026-05-16
-teaching_ready: false
+teaching_ready: false
+
 source_notes: []
 key_images: []
 ---
@@ -182,5 +184,3 @@ SN1 反应中，离去基团尚未完全脱离时形成**紧密离子对**，亲
 ## 十五、待完善项
 
 - **v1.1（2026-05-16）**：填充核心原理，补充 SN2 过渡态轨道本质、离子对效应、两次翻转原理，添加外部资料出处。
-
-

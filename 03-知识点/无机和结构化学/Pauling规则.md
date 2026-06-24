@@ -18,6 +18,7 @@ problem_types: [题型-离子晶体结构判断, 题型-配位数预测]
 difficulty: 3
 importance: 4
 status: 已填充
+stage: published
 sources: []
 source_type: []
 review_cycle: 30d

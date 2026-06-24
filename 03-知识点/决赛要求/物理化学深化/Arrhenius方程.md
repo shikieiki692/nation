@@ -18,6 +18,7 @@ problem_types: [题型-活化能计算, 题型-速率常数估算]
 difficulty: 4
 importance: 5
 status: 已填充
+stage: published
 sources: []
 source_type: []
 source_notes: []
@@ -189,4 +190,3 @@ $$
 | 日期 | 版本 | 修订内容 | 修订人 |
 |-----|------|---------|-------|
 | 2026-05-16 | v1.0 | 基于Atkins主题17创建 | AI助手 |
-

@@ -24,6 +24,7 @@ problem_types: [题型-产物预测, 题型-氧化态分析]
 difficulty: 4
 importance: 3
 status: 已填充
+stage: published
 sources: []
 source_type: []
 review_cycle: 30d
@@ -195,4 +196,3 @@ $$\mathrm{3BrF_3 + 5H_2O \rightarrow HBrO_3 + Br_2 + 9HF + O_2}$$
 ## 十五、待完善项
 
 - [待填充]
-

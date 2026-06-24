@@ -24,6 +24,7 @@ problem_types: [题型-产物预测, 题型-机理书写, 题型-不对称二醇
 difficulty: 3
 importance: 4
 status: 已填充
+stage: published
 template_version: v1.3
 updated: 2026-05-18
 sources: ["Clayden Ch36"]
@@ -326,4 +327,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Pinacol重排")
 SORT year DESC, difficulty ASC
 ```
-

@@ -18,6 +18,7 @@ problem_types: [题型-pH计算]
 difficulty: 2
 importance: 5
 status: 已填充
+stage: published
 sources:
   - 提炼-普化原理-第8章-酸碱平衡
   - 教学逻辑提炼-周坤无机新课-酸碱理论与电化学-第一轮

@@ -25,6 +25,7 @@ problem_types: [题型-产物预测, 题型-区域选择性判断, 题型-合成
 difficulty: 4
 importance: 4
 status: 已填充
+stage: published
 sources: ["ABOC §9.4"]
 source_type: []
 review_cycle: 30d
@@ -260,4 +261,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Larock吲哚合成")
 SORT year DESC, difficulty ASC
 ```
-

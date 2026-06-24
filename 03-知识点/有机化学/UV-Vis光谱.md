@@ -23,6 +23,7 @@ problem_types: [题型-结构推求, 题型-λmax预测]
 difficulty: 2
 importance: 1
 status: 已填充
+stage: published
 sources: ["ABOC §10.1"]
 source_type: [教材, 资料提炼]
 review_cycle: 30d
@@ -332,4 +333,3 @@ SORT year DESC, difficulty ASC
 ---
 
 *本文件基于 ABOC §10.1 框架创建，遵循知识点模板 v1.3。*
-

@@ -41,6 +41,7 @@ problem_types:
 difficulty: 4
 importance: 5
 status: 已填充
+stage: published
 sources:
   - "ABOC §2.10 行 1940-1960"
   - "Clayden Ch.22-23"
@@ -362,4 +363,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Michael加成")
 SORT year DESC, difficulty ASC
 ```
-

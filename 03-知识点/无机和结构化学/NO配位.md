@@ -22,6 +22,7 @@ problem_types: [NO电子计数, 直线型vs弯曲型判断, {MNO}ⁿ记号应用
 difficulty: 4
 importance: 3
 status: 已填充
+stage: published
 sources:
   - 来源：Inorganic Chemistry（第6版，中文版）/ Weller
   - 章节：第22章 §22.17

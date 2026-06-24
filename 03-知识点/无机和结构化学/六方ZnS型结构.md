@@ -18,6 +18,7 @@ problem_types: [题型-晶体结构分析]
 difficulty: 3
 importance: 4
 status: 已填充
+stage: published
 sources:
   - 提炼-无机化学第五版-第7章-晶体结构
   - 教学逻辑提炼-Zchem-主族元素的结构化学I-第二轮深化

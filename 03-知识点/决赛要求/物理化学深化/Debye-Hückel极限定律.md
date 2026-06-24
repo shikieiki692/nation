@@ -23,6 +23,7 @@ problem_types: []
 difficulty: 5
 importance: 4
 status: 已填充
+stage: published
 sources:
   - "Atkins' Physical Chemistry（第11版），主题5F.4"
 source_type:
@@ -225,5 +226,3 @@ Davies公式在环境化学和生物化学中应用较广，但**超出化竞决
 ## 十五、待完善项
 
 - 北京大学《物理化学》教材，第7章 — 溶液与相平衡
-
-

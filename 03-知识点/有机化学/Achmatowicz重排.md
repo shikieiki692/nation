@@ -35,6 +35,7 @@ problem_types:
 difficulty: 4
 importance: 4
 status: 已填充
+stage: published
 sources: []
 review_cycle: 30d
 has_images: true
@@ -235,4 +236,3 @@ Achmatowicz 重排与 [5+2] 环加成是竞赛中的"机构常客"（ABOC 语）
 - [ ] 补充具体天然产物全合成中 Achmatowicz 重排的应用案例（如 Castanospermine 合成）
 - [ ] 补充不对称 Achmatowicz 重排的催化剂体系和立体选择性数据
 - [ ] 关联到具体外部教材提炼笔记后，回填 sources 字段
-

@@ -5,6 +5,7 @@ role: 子目录索引
 subject: 无机和结构化学
 updated: 2026-05-24
 tags: [系统, 索引, 无机和结构化学]
+  stage: review
 ---
 
 # 无机和结构化学

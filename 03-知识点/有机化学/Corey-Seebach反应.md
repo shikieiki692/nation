@@ -25,6 +25,7 @@ problem_types: [题型-合成设计, 题型-机理分析]
 difficulty: 4
 importance: 3
 status: 已填充
+stage: published
 sources: []
 source_type: []
 review_cycle: 30d
@@ -190,4 +191,3 @@ Corey-Seebach 路线：
 ## 十五、待完善项
 
 - [待填充]
-

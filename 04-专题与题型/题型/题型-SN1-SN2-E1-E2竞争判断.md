@@ -7,6 +7,7 @@ tags: [化竞, 有机化学, 题型, 机理判断]
 difficulty: 4
 importance: 5
 status: 框架
+stage: draft
 ---
 
 # 题型：SN1/SN2/E1/E2 竞争判断

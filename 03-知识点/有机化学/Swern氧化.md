@@ -18,6 +18,7 @@ problem_types: [题型-氧化反应试剂选择, 题型-机理推断]
 difficulty: 3
 importance: 4
 status: 已填充
+stage: published
 sources: [Arrow Pushing in Inorganic Chemistry-总索引]
 source_type: [书籍]
 review_cycle: 30d

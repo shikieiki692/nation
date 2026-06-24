@@ -25,6 +25,7 @@ problem_types: [题型-产物推断, 题型-合成设计]
 difficulty: 4
 importance: 5
 status: 已填充
+stage: published
 template_version: v1.3
 updated: 2026-06-04
 sources: ["ABOC §6.9", "Clayden Ch.36", "学而思有机化学基础第11讲"]
@@ -362,4 +363,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Baeyer-Villiger重排")
 SORT year DESC, difficulty ASC
 ```
-

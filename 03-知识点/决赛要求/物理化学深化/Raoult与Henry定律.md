@@ -18,6 +18,7 @@ problem_types: [题型-Raoult/Henry计算]
 difficulty: 4
 importance: 5
 status: 已填充
+stage: published
 sources: []
 source_type: []
 source_notes:
@@ -424,4 +425,3 @@ FROM "04-题库/真题"
 WHERE contains(knowledge_points, this.file.name) OR contains(file.outlinks, this.file.link)
 SORT year DESC, difficulty ASC
 ```
-

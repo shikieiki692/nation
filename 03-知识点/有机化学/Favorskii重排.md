@@ -25,6 +25,7 @@ problem_types: [题型-产物推断, 题型-机理推断]
 difficulty: 4
 importance: 3
 status: 已填充
+stage: published
 template_version: v1.3
 updated: 2026-05-18
 sources: ["ABOC §6.14", "Clayden Ch.36"]
@@ -332,4 +333,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Favorskii重排")
 SORT year DESC, difficulty ASC
 ```
-

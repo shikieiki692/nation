@@ -53,7 +53,7 @@ VAULT_ROOT = SCRIPT_DIR.parent.parent
 HANDOUT_SRC = VAULT_ROOT / "04-课件" / "学生讲义"
 HANDOUT_OUT = VAULT_ROOT / "06-学生侧材料" / "讲义"
 
-SRC_GLOB = "2026-06-23-*.md"
+SRC_GLOB = "*.md"
 
 # Pandoc 转换扩展
 PANDOC_EXTENSIONS = "markdown+tex_math_dollars+tex_math_single_backslash+pipe_tables+raw_tex"
@@ -208,9 +208,19 @@ def _preprocess_markdown(text: str) -> str:
        - \\underset{...}{...}  →  side annotation
        - \\displaylines{...}   →  separate equations
     """
-    # 1) Image embeds: ![[image.png]] → ![](image.png)
-    text = re.sub(r'!?\[\[([^\]]+\.(png|jpg|jpeg|gif|webp|svg))\]\]',
-                  r'![](\1)', text, flags=re.IGNORECASE)
+    # 1) Image embeds: ![[image.png]] or ![[image.png|alt text]] → ![alt](image.png)
+    text = re.sub(
+        r'!\[\[([^\]]+?)\.(png|jpg|jpeg|gif|webp|svg)(?:\|([^\]]*))?\]\]',
+        lambda m: f'![{m.group(3) or ""}]({m.group(1)}.{m.group(2)})',
+        text, flags=re.IGNORECASE)
+
+    # 1b) Excalidraw .md embeds → remove (cannot embed in docx)
+    text = re.sub(r'!?\[\[([^\]]+\.(md|excalidraw))\]\]',
+                  '', text, flags=re.IGNORECASE)
+
+    # 1c) Remove ⚠️ and 💡 emoji symbols (formatting artifacts)
+    text = text.replace('⚠️', '').replace('💡', '')
+    text = text.replace('⚠', '').replace('💡', '')
 
     # 2) Convert \ce{...} → \text{...} inside math blocks
     #    First handle display math $$...$$
@@ -432,6 +442,9 @@ def convert_file(
         # ── Stage 3: Post-process fonts ──
         postprocess(tmp_docx, verbose=verbose)
 
+        # ── Stage 3.5: Post-generation validation ──
+        _validate_docx(tmp_docx, md_path, tmp_md, verbose=verbose)
+
         # ── Rename temp → final ──
         tmp_docx.replace(out_path)
 
@@ -441,6 +454,68 @@ def convert_file(
             tmp_md.unlink()
 
     return out_path
+
+
+def _validate_docx(
+    docx_path: Path,
+    md_source: Path,
+    md_preprocessed: Path,
+    verbose: bool = False,
+) -> None:
+    """Validate generated docx for common issues.
+
+    Checks:
+    1) docx file size is reasonable (> 10 KB)
+    2) Image count in docx matches ![[media/...]] references in source
+    3) No raw [[wikilink]] syntax leaked through
+    """
+    issues: list[str] = []
+
+    # Check 1: file size
+    size = docx_path.stat().st_size
+    if size < 10_240:
+        issues.append(f"docx too small: {size} bytes (< 10 KB)")
+
+    # Check 2: image count match
+    source_text = md_source.read_text(encoding="utf-8")
+    src_images = set(re.findall(r'!\[\[media/([^\]]+)', source_text))
+    # Also match preprocessed markdown image embeds
+    prep_text = md_preprocessed.read_text(encoding="utf-8") if md_preprocessed.exists() else ""
+    prep_images = set(re.findall(r'!\[.*?\]\(media/([^)]+)\)', prep_text))
+
+    # Count images in docx
+    import zipfile
+    try:
+        with zipfile.ZipFile(docx_path) as z:
+            docx_images = [n for n in z.namelist() if n.startswith("word/media/")]
+    except Exception:
+        docx_images = []
+
+    if src_images and not docx_images:
+        issues.append(
+            f"Source has {len(src_images)} image(s) but docx has 0 — "
+            f"images may not have rendered"
+        )
+    elif len(docx_images) < len(src_images):
+        issues.append(
+            f"Image count mismatch: source {len(src_images)}, "
+            f"docx {len(docx_images)}"
+        )
+
+    # Check 3: raw wikilink leakage (only in preprocessed, not source)
+    # Source legitimately has wikilinks; check the preprocessed version
+    if prep_text:
+        leaked = re.findall(r'\[\[([^\]]+)\]\]', prep_text)
+        if leaked:
+            issues.append(
+                f"{len(leaked)} raw [[wikilink]]s leaked through preprocessing: "
+                f"{leaked[:3]}..."
+            )
+
+    if issues:
+        print(f"  [WARN] Validation: {'; '.join(issues)}", file=sys.stderr)
+    elif verbose:
+        print(f"  [OK] Validation passed (size={size}B, images={len(docx_images)})")
 
 
 def main():
@@ -473,8 +548,14 @@ def main():
         print(f"ERROR: No files matching '{SRC_GLOB}' found in {HANDOUT_SRC}", file=sys.stderr)
         sys.exit(1)
 
-    # Skip README
-    all_md = [f for f in all_md if f.stem != "README"]
+    # Skip non-handout files
+    EXCLUDED_STEMS = {"README"}
+    EXCLUDED_PREFIXES = {"讲义升级模式-"}
+    all_md = [
+        f for f in all_md
+        if f.stem not in EXCLUDED_STEMS
+        and not any(f.stem.startswith(p) for p in EXCLUDED_PREFIXES)
+    ]
 
     if args.file:
         files = [f for f in all_md if args.file in f.stem]

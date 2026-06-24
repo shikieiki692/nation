@@ -18,6 +18,7 @@ problem_types: [题型-E1cb机理判断]
 difficulty: 3
 importance: 4
 status: 已填充
+stage: published
 sources: []
 source_type: []
 review_cycle: 30d
@@ -342,6 +343,3 @@ WHERE type = "题目"
   AND contains(knowledge_points, "E1cb反应")
 SORT difficulty ASC, year DESC
 ```
-
-
-

@@ -22,6 +22,7 @@ problem_types: [题型-机理书写, 题型-合成设计, 题型-大环构建]
 difficulty: 5
 importance: 3
 status: 已填充
+stage: published
 template_version: v1.3
 updated: 2026-05-24
 sources: ["Clayden Ch36"]
@@ -327,4 +328,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Wharton碎片化反应")
 SORT year DESC, difficulty ASC
 ```
-

@@ -25,6 +25,7 @@ problem_types: [题型-产物预测, 题型-机理推断, 题型-合成设计]
 difficulty: 4
 importance: 4
 status: 已填充
+stage: published
 template_version: v1.3
 updated: 2026-05-18
 sources: ["ABOC §5.6", "Clayden Ch35"]

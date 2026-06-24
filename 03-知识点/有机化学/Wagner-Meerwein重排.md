@@ -23,6 +23,7 @@ problem_types: [题型-产物预测, 题型-机理书写, 题型-重排方向判
 difficulty: 4
 importance: 4
 status: 已填充
+stage: published
 sources: ["ABOC §1.3f", "Clayden Ch.36"]
 source_type: [教材, 资料提炼]
 review_cycle: 30d
@@ -244,4 +245,3 @@ source_notes: []
 ---
 
 *本 KP 填充于 2026-05-24，基于 ABOC §1.3f 和 Clayden Ch.36 资料*
-

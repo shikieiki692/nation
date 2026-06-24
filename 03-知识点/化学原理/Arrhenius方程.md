@@ -18,6 +18,7 @@ problem_types: [题型-Arrhenius方程计算, 题型-活化能求解]
 difficulty: 3
 importance: 5
 status: 已填充
+stage: published
 sources:
   - 提炼-普化原理-第7章-化学反应速率
   - 专题-化学动力学初步

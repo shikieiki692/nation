@@ -24,6 +24,7 @@ problem_types: [题型-产物预测, 题型-机理推断]
 difficulty: 3
 importance: 3
 status: 已填充
+stage: published
 sources: ["ABOC §9.6"]
 source_type: [教材, 资料提炼]
 review_cycle: 30d
@@ -217,4 +218,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Chichibabin反应")
 SORT year DESC, difficulty ASC
 ```
-

@@ -23,6 +23,7 @@ problem_types: [题型-产物预测, 题型-条件选择, 题型-立体化学分
 difficulty: 3
 importance: 3
 status: 已填充
+stage: published
 sources: ["ABOC §3.2"]
 source_type: [教材, 资料提炼]
 review_cycle: 30d
@@ -226,4 +227,3 @@ source_notes: []
 ---
 
 *本 KP 填充于 2026-05-24，基于 ABOC §3.2 资料*
-

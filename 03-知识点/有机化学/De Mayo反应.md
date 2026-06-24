@@ -23,6 +23,7 @@ problem_types: [题型-产物预测, 题型-逆合成切断, 题型-机理判断
 difficulty: 5
 importance: 2
 status: 已填充
+stage: published
 sources: ["ABOC Ch.11"]
 source_type: [教材, 资料提炼]
 review_cycle: 30d

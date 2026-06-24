@@ -24,6 +24,7 @@ problem_types: [题型-产物预测, 题型-与D-A区分, 题型-合成设计]
 difficulty: 3
 importance: 3
 status: 已填充
+stage: published
 template_version: v1.3
 updated: 2026-05-18
 sources: ["ABOC §7.6", "Clayden Ch34"]
@@ -362,4 +363,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Ene反应")
 SORT year DESC, difficulty ASC
 ```
-

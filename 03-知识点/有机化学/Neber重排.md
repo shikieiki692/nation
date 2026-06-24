@@ -24,6 +24,7 @@ problem_types: [题型-产物推断]
 difficulty: 3
 importance: 2
 status: 已填充
+stage: published
 sources: ["ABOC §6.7"]
 source_type: [教材, 资料提炼]
 review_cycle: 30d
@@ -197,4 +198,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Neber重排")
 SORT year DESC, difficulty ASC
 ```
-

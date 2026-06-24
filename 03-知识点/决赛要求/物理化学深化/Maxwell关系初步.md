@@ -18,6 +18,7 @@ problem_types: [题型-推导证明, 题型-偏导数转换]
 difficulty: 5
 importance: 5
 status: 已填充
+stage: published
 sources: []
 source_type: []
 source_notes: []
@@ -216,4 +217,3 @@ $$
 | 日期 | 版本 | 修订内容 | 修订人 |
 |-----|------|---------|-------|
 | 2026-05-16 | v1.0 | 基于Atkins主题3创建，含推导、记忆技巧、竞赛应用 | AI助手 |
-

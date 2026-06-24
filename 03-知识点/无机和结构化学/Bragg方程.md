@@ -31,6 +31,7 @@ problem_types:
 difficulty:
 importance: 4
 status: 已填充
+stage: published
 sources:
   - 提炼-普化原理-第13章-晶体与晶体结构.md
   - 提炼-Atkins物理化学-主题15-固体.md

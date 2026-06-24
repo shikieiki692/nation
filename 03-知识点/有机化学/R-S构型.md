@@ -18,6 +18,7 @@ problem_types: [题型-R/S构型判断]
 difficulty: 3
 importance: 5
 status: 已填充
+stage: published
 sources: []
 source_type: []
 review_cycle: 30d
@@ -363,6 +364,3 @@ R/S构型
 
 ## 十五、待完善项
 - [待填充]
-
-
-

@@ -18,6 +18,7 @@ problem_types: [题型-JT畸变判断]
 difficulty: 4
 importance: 4
 status: 已填充
+stage: published
 sources: []
 source_type: []
 source_notes:
@@ -47,8 +48,6 @@ source_extracts:
     date: "2026-06-01"
     status: "已回流"
 ---
-
-
 
 # Jahn-Teller 效应
 
@@ -482,4 +481,3 @@ SORT year DESC, difficulty ASC
 ## 十五、待完善项
 
 - [ ] 后续补一张“各 dⁿ 构型 Jahn-Teller 强弱总表”课堂图版
-

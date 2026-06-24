@@ -26,6 +26,7 @@ problem_types: [题型-对称烷烃合成, 题型-偶联机理书写, 题型-反
 difficulty: 3
 importance: 2
 status: 已填充
+stage: published
 sources: ["ABOC §2.7.3 行 1721-1730"]
 source_type: []
 review_cycle: 30d
@@ -307,4 +308,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Wurtz偶联")
 SORT year DESC, difficulty ASC
 ```
-

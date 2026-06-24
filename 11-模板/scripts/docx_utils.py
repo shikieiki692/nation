@@ -20,6 +20,7 @@ import re
 
 from docx import Document
 from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.shared import Cm, Pt, RGBColor
 
@@ -27,6 +28,7 @@ from docx.shared import Cm, Pt, RGBColor
 CN_BODY_FONT = "SimSun"       # 宋体 — 中文正文 / 表格正文
 CN_HEAD_FONT = "SimHei"       # 黑体 — 中文标题 / 表头
 EN_FONT = "Times New Roman"    # 英文 / 数字 / 变量
+CN_CAPTION_FONT = "FangSong"  # 仿宋 — 图例题注（仿宋五号居中）
 
 TITLE_COLOR = RGBColor(23, 50, 77)    # 深蓝 — 标题/表头
 SUB_COLOR = RGBColor(91, 105, 117)    # 灰蓝 — 副标题/注释
@@ -155,7 +157,7 @@ def bullet(doc: Document, text: str, level: int = 0) -> None:
 
 def simple_table(doc: Document, rows: list[list[str]],
                  widths: Optional[list] = None, font_size: float = 10.5) -> None:
-    """简单表格：表头自动黑体加粗，正文自动宋体。"""
+    """简单表格：表头自动黑体加粗，正文自动宋体，内容居中。"""
     if not rows:
         return
     table = doc.add_table(rows=len(rows), cols=len(rows[0]))
@@ -170,6 +172,7 @@ def simple_table(doc: Document, rows: list[list[str]],
             cell = table.cell(r, c)
             cell.width = widths_cm[c]
             cell_p = cell.paragraphs[0]
+            cell_p.alignment = WD_ALIGN_PARAGRAPH.CENTER  # 内容居中
             set_paragraph_spacing(cell_p, after=0, line=1.15)
             add_text(cell_p, str(value), size=font_size,
                      bold=(r == 0), color=TITLE_COLOR if r == 0 else None,
@@ -179,7 +182,7 @@ def simple_table(doc: Document, rows: list[list[str]],
 
 def picture_block(doc: Document, image_path: str, caption: str = "",
                   width_cm: float = 12.0) -> None:
-    """图片 + 居中题注。"""
+    """图片 + 居中题注（仿宋五号）。"""
     p = doc.add_paragraph()
     p.alignment = WD_ALIGN_PARAGRAPH.CENTER
     set_paragraph_spacing(p, after=2, before=2, line=1.0)
@@ -190,7 +193,82 @@ def picture_block(doc: Document, image_path: str, caption: str = "",
         cap = doc.add_paragraph()
         cap.alignment = WD_ALIGN_PARAGRAPH.CENTER
         set_paragraph_spacing(cap, after=6, line=1.0)
-        add_text(cap, caption, size=9.5, color=SUB_COLOR, cn_font=CN_BODY_FONT)
+        add_text(cap, caption, size=10.5, color=SUB_COLOR, cn_font=CN_CAPTION_FONT)
+
+
+# ── OMML 公式字号辅助函数（v3 新增）────────────────────────
+
+def _set_display_math_font_size(paragraph, size_pt: float = 14) -> bool:
+    """将段落中 OMML 显示公式（m:oMathPara）的默认字号设为 size_pt。
+
+    Pandoc 将 $$\\dots$$ 显示公式转换为 m:oMathPara 包装的 OMML 结构，
+    默认继承段落正文的 11.5pt。本函数在 m:ctrlPr 中插入 w:sz/w:szCs，
+    使公式以 size_pt（四号 = 14pt）渲染。
+
+    返回 True 表示已处理，False 表示该段落无显示公式。
+    """
+    para_elem = paragraph._element
+    oMathPara = para_elem.find(qn("m:oMathPara"))
+    if oMathPara is None:
+        # Also check inline math (m:oMath without oMathPara wrapper)
+        # Only resize if formula text content > 5 chars
+        oMath_list = para_elem.findall(qn("m:oMath"))
+        handled = False
+        for oMath in oMath_list:
+            # Skip if this oMath is inside an oMathPara (already handled above)
+            if oMath.getparent() is not None and oMath.getparent().tag == qn("m:oMathPara"):
+                continue
+            # Measure text content of the formula
+            text_parts = []
+            for t_elem in oMath.iter(qn("m:t")):
+                if t_elem.text:
+                    text_parts.append(t_elem.text)
+            formula_text = "".join(text_parts)
+            # Count non-whitespace characters
+            char_count = sum(1 for c in formula_text if not c.isspace())
+            if char_count > 5:
+                _inject_ctrlpr_font_size(oMath, qn("m:oMathPr"), "m:oMathPr", size_pt)
+                handled = True
+        return handled
+
+    _inject_ctrlpr_font_size(oMathPara, qn("m:oMathParaPr"), "m:oMathParaPr", size_pt)
+    return True
+
+
+def _inject_ctrlpr_font_size(
+    parent_elem,
+    pr_qn_tag: str,      # namespace-qualified tag for find()
+    pr_prefix_tag: str,   # prefix:localname tag for OxmlElement()
+    size_pt: float,
+) -> None:
+    """在 parent_elem（oMathPara 或 oMath）的 pr 子元素中插入字号设置。"""
+    pr = parent_elem.find(pr_qn_tag)
+    if pr is None:
+        pr = OxmlElement(pr_prefix_tag)
+        parent_elem.insert(0, pr)
+
+    ctrlPr = pr.find(qn("m:ctrlPr"))
+    if ctrlPr is None:
+        ctrlPr = OxmlElement("m:ctrlPr")
+        pr.append(ctrlPr)
+
+    rPr = ctrlPr.find(qn("w:rPr"))
+    if rPr is None:
+        rPr = OxmlElement("w:rPr")
+        ctrlPr.append(rPr)
+
+    half_pts = str(int(size_pt * 2))
+    sz = rPr.find(qn("w:sz"))
+    if sz is None:
+        sz = OxmlElement("w:sz")
+        rPr.append(sz)
+    sz.set(qn("w:val"), half_pts)
+
+    szCs = rPr.find(qn("w:szCs"))
+    if szCs is None:
+        szCs = OxmlElement("w:szCs")
+        rPr.append(szCs)
+    szCs.set(qn("w:val"), half_pts)
 
 
 # ── Pandoc 后处理函数（v2 新增）───────────────────────────
@@ -301,12 +379,14 @@ def postprocess_pandoc_docx(
                 if key in rFonts.attrib:
                     del rFonts.attrib[key]
 
-    # ── 表格字体 ──
+    # ── 表格字体 + 内容居中 ──
     for table in doc.tables:
         for i, row in enumerate(table.rows):
             cf = head_font if i == 0 else body_font
             for cell in row.cells:
                 for para in cell.paragraphs:
+                    # 表格内容居中
+                    para.alignment = WD_ALIGN_PARAGRAPH.CENTER
                     for run in para.runs:
                         run.font.name = EN_FONT
                         rPr = run._element.rPr
@@ -327,6 +407,35 @@ def postprocess_pandoc_docx(
                                 del rFonts.attrib[key]
                         if i == 0:
                             run.bold = True
+
+    # ── 图例题注：识别以"图"/"表"开头的居中短段落 → 仿宋五号 ──
+    #    Pandoc 将 ![*caption*](image.png) 输出为居中图片+居中斜体段落，
+    #    这些斜体段落通常格式为：纯文本、居中、以"图 "或"表 "开头。
+    for para in doc.paragraphs:
+        text_content = para.text.strip()
+        if not text_content:
+            continue
+        if text_content.startswith("图 ") or text_content.startswith("表 "):
+            # 强制居中（不论 pandoc 原始对齐方式）
+            para.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            for run in para.runs:
+                run.font.size = Pt(10.5)  # 五号
+                run.font.bold = False
+                run.font.italic = False  # 去斜体
+                rPr = run._element.rPr
+                if rPr is None:
+                    continue
+                rFonts = rPr.find(qn("w:rFonts"))
+                if rFonts is None:
+                    continue
+                rFonts.set(qn("w:eastAsia"), CN_CAPTION_FONT)
+                rFonts.set(qn("w:ascii"), EN_FONT)
+                rFonts.set(qn("w:hAnsi"), EN_FONT)
+
+    # ── OMML 公式字号：显示公式（$$...$$）→ 四号（14pt）──
+    #    长行内公式（>5 非空字符）→ 同样 14pt
+    for para in doc.paragraphs:
+        _set_display_math_font_size(para, size_pt=14)
 
     # ── 页面设置 ──
     section = doc.sections[0]

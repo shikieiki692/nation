@@ -26,6 +26,7 @@ problem_types: [题型-胺合成设计, 题型-产物推断]
 difficulty: 3
 importance: 4
 status: 已填充
+stage: published
 sources: ["ABOC §5.8", "学而思有机化学基础第13讲"]
 source_type: [教材, 网课课堂笔记]
 review_cycle: 30d
@@ -311,4 +312,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Gabriel合成")
 SORT year DESC, difficulty ASC
 ```
-

@@ -28,6 +28,7 @@ problem_types: [题型-定位预测, 题型-多步合成设计, 题型-产物推
 difficulty: 3
 importance: 5
 status: 已填充
+stage: published
 sources: ["ABOC §5.2"]
 source_type: []
 review_cycle: 30d

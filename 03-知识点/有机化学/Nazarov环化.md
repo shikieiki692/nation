@@ -26,6 +26,7 @@ problem_types: [题型-产物预测, 题型-机理推断, 题型-合成设计]
 difficulty: 4
 importance: 3
 status: 已填充
+stage: published
 sources: ["ABOC §7.4"]
 source_type: []
 review_cycle: 30d

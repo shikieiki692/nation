@@ -26,6 +26,7 @@ problem_types: [题型-消除机理判断, 题型-产物分布预测, 题型-E1/
 difficulty: 3
 importance: 3
 status: 已填充
+stage: published
 template_version: v1.3
 updated: 2026-05-17
 sources: ["ABOC Ch.4 §4.5"]
@@ -431,4 +432,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "E1cb机理")
 SORT year DESC, difficulty ASC
 ```
-

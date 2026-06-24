@@ -39,6 +39,7 @@ problem_types:
 difficulty: 4
 importance: 3
 status: 已填充
+stage: published
 sources:
   - "ABOC §8.4"
   - "Clayden Ch.31"
@@ -349,4 +350,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Peterson烯化反应")
 SORT year DESC, difficulty ASC
 ```
-

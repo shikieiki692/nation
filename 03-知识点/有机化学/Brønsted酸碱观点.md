@@ -33,6 +33,7 @@ problem_types:
 difficulty: 2
 importance: 4
 status: 已填充
+stage: published
 sources:
   - ABOC第1章绪论（Lewis酸碱对比及pKa数据）
   - 普化原理第4版
@@ -44,7 +45,8 @@ updated: 2026-05-17
 has_images: false
 image_count: 0
 images_priority: low
-images_note: "pKa标度表以文字/LaTeX呈现即可；无必需配图"
+images_note: "pKa标度表以文字/LaTeX呈现即可；无必需配图"
+
 key_images: []
 teaching_ready: false
 source_notes: []
@@ -294,5 +296,3 @@ ABOC 经验规则：共轭酸 pKa < 10 的基团通常是**好离去基**。
 - [ ] 补充更多典型有机物的 pKa 数据表
 - [ ] 关联真题中涉及酸性比较和离去基判断的例题
 - [ ] 补充溶剂效应对 pKa 的影响（DMSO vs 水）
-
-

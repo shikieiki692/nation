@@ -18,6 +18,7 @@ problem_types: [题型-能级图绘制, 题型-分裂能比较]
 difficulty: 4
 importance: 4
 status: 已填充
+stage: published
 sources: []
 source_type: []
 source_notes: []
@@ -164,4 +165,3 @@ $$\text{I}^- < \text{Br}^- < \text{SCN}^- < \text{Cl}^- < \text{NO}_3^- < \text{
 ## 十五、待完善项
 
 - [ ] 后续补一张“八面体 / 四面体 / 平方平面分裂图”并排对照
-

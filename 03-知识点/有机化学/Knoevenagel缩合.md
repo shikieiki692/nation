@@ -23,6 +23,7 @@ problem_types: [题型-产物预测]
 difficulty: 3
 importance: 2
 status: 已填充
+stage: published
 template_version: v1.3
 updated: 2026-05-25
 has_images: false
@@ -218,4 +219,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Knoevenagel缩合")
 SORT year DESC, difficulty ASC
 ```
-

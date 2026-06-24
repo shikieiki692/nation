@@ -25,6 +25,7 @@ problem_types: [题型-产物预测, 题型-与Suzuki比较]
 difficulty: 3
 importance: 3
 status: 已填充
+stage: published
 sources: ["ABOC §8.5"]
 source_type: []
 review_cycle: 30d

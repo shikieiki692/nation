@@ -25,6 +25,7 @@ problem_types: [题型-产物预测, 题型-机理推断, 题型-合成设计]
 difficulty: 3
 importance: 4
 status: 已填充
+stage: published
 sources: ["ABOC §9.5"]
 source_type: []
 review_cycle: 30d
@@ -248,4 +249,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Bischler-Napieralski反应")
 SORT year DESC, difficulty ASC
 ```
-

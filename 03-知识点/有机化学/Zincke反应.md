@@ -37,6 +37,7 @@ problem_types:
 difficulty: 2
 importance: 2
 status: 已填充
+stage: published
 sources:
   - ABOC §9.6
 source_type:
@@ -488,5 +489,3 @@ $$
 | **氨基酸** | N-氨基酸吡啶盐 |
 
 ---
-
-

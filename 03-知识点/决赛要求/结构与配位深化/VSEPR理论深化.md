@@ -18,6 +18,7 @@ problem_types: [题型-分子形状判断, 题型-键角比较, 题型-孤对电
 difficulty: 4
 importance: 4
 status: 已填充
+stage: published
 sources: []
 source_type: []
 source_notes: []
@@ -199,4 +200,3 @@ VSEPR理论深化
 ## 十五、待完善项
 
 - [ ] 后续补一张“VSEPR 适用 / 失效场景”对照表
-

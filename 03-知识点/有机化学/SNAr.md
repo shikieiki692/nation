@@ -23,6 +23,7 @@ problem_types: [题型-活性排序, 题型-产物预测, 题型-机理书写]
 difficulty: 4
 importance: 4
 status: 已填充
+stage: published
 sources: ["ABOC §5.4", "Clayden Ch.30", "初赛真题"]
 source_type: [教材, 资料提炼]
 review_cycle: 30d
@@ -256,4 +257,3 @@ $$
 ---
 
 *本 KP 填充于 2026-05-24，基于 ABOC §5.4、Clayden Ch.30 和初赛真题资料*
-

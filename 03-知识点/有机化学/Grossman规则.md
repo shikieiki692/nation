@@ -18,6 +18,7 @@ problem_types: [题型-机理书写, 题型-重排反应分析, 题型-多步合
 difficulty: 3
 importance: 5
 status: 已填充
+stage: published
 sources: ["ABOC §3.1.3", "ABOC §1.3.1", "ABOC §11解题策略", "Robert B. Grossman《The Art of Writing Reasonable Organic Reaction Mechanisms》(2nd ed., Springer, 2010)"]
 source_type: []
 review_cycle: 30d
@@ -426,4 +427,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Grossman规则")
 SORT year DESC, difficulty ASC
 ```
-

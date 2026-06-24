@@ -41,6 +41,7 @@ problem_types:
 difficulty: 3
 importance: 2
 status: 已填充
+stage: published
 sources:
   - ABOC §8.5
 source_type:
@@ -428,5 +429,3 @@ $$
 - 代价是必须处理有毒的锡副产物
 
 ---
-
-

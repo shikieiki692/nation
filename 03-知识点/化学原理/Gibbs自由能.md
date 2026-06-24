@@ -18,6 +18,7 @@ problem_types: [题型-自发反应判断, 题型-ΔG计算]
 difficulty: 4
 importance: 5
 status: 已填充
+stage: published
 sources:
   - 提炼-普化原理-第5章-化学热力学
   - 教学逻辑提炼-周坤无机新课-热力学与化学平衡-第一轮
@@ -313,5 +314,3 @@ WHERE type = "题目"
   AND contains(knowledge_points, "Gibbs自由能")
 SORT difficulty ASC, year DESC
 ```
-
-

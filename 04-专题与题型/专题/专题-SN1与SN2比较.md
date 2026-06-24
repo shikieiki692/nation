@@ -7,6 +7,7 @@ tags: [化竞, 有机化学, 亲核取代, 专题]
 difficulty: 4
 importance: 5
 status: 已审校
+stage: published
 updated: 2026-06-19
 topic_type: "mechanism"
 ---

@@ -5,6 +5,7 @@ role: 子目录索引
 subject: 决赛要求
 updated: 2026-05-24
 tags: [系统, 索引, 决赛要求]
+  stage: published
 ---
 
 # 决赛要求

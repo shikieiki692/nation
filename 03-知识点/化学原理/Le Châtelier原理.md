@@ -21,6 +21,7 @@ problem_types: []
 difficulty: 2
 importance: 3
 status: 已填充
+stage: published
 sources:
   - 提炼-普化原理-第6章-化学平衡
   - 提炼-无机化学第五版-第4章-化学平衡
@@ -230,4 +231,3 @@ $$
 ---
 
 *本 KP 由 Agent 填充，更新于 2026-05-24*
-

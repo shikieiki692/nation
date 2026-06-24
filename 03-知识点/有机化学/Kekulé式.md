@@ -18,6 +18,7 @@ problem_types: [题型-结构式书写]
 difficulty: 2
 importance: 4
 status: 已填充
+stage: published
 sources: []
 source_type: []
 review_cycle: 30d
@@ -336,6 +337,3 @@ CH₃-CH=CH-CH₃
 
 ## 十五、待完善项
 - [待填充]
-
-
-

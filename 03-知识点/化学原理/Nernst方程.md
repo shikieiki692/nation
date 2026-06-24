@@ -18,6 +18,7 @@ problem_types: [题型-电极电势计算, 题型-电动势计算]
 difficulty: 4
 importance: 5
 status: 已填充
+stage: published
 sources: [提炼-普化原理-第10章-氧化还原电化学, 教学逻辑提炼-周坤无机新课-酸碱理论与电化学-第一轮, 专题-氧化还原与电化学, 专题-电化学计算]
 source_type: [书籍提炼, 教学逻辑提炼, 专题归纳, 专题归纳]
 source_notes:
@@ -243,5 +244,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Nernst方程")
 SORT year DESC, difficulty ASC
 ```
-
-

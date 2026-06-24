@@ -32,6 +32,7 @@ problem_types:
 difficulty: 3
 importance: 4
 status: 已填充
+stage: published
 sources:
   - 提炼-普化原理-第10章-氧化还原电化学
   - 教学逻辑提炼-周坤无机新课-酸碱理论与电化学-第一轮
@@ -284,5 +285,3 @@ $$\mathrm{MnO_4^- \xrightarrow{+0.56} MnO_4^{2-} \xrightarrow{+0.60} MnO_2}$$
 ## 十五、待完善项
 - [ ] 补充更多元素的 Latimer 图实例（Mn、N、S 等）
 - [ ] 关联真题中涉及 Latimer 图判断的例题
-
-

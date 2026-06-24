@@ -23,6 +23,7 @@ problem_types: [题型-叶立德反应, 题型-烯烃合成]
 difficulty: 4
 importance: 5
 status: 已填充
+stage: published
 sources: [Arrow Pushing in Inorganic Chemistry-总索引]
 source_type: []
 review_cycle: 30d

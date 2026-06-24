@@ -23,6 +23,7 @@ problem_types: [题型-还原反应判断, 题型-机理推断]
 difficulty: 3
 importance: 5
 status: 已填充
+stage: published
 sources: [Arrow Pushing in Inorganic Chemistry-总索引]
 source_type: []
 review_cycle: 30d

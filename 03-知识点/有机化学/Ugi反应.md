@@ -25,6 +25,7 @@ problem_types: [题型-多组分反应识别, 题型-产物推断]
 difficulty: 4
 importance: 2
 status: 已填充
+stage: published
 sources: ["ABOC §5.11"]
 source_type: []
 review_cycle: 30d

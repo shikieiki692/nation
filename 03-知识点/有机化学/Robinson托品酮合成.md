@@ -17,6 +17,7 @@ problem_types: []
 difficulty: 5
 importance: 3
 status: 已填充
+stage: published
 sources:
   - Clayden Organic Chemistry Ch.42
 review_cycle: 90d
@@ -110,4 +111,3 @@ OHC-(CH2)2-CHO  +  MeNH2  +  CH2(CO2H)2
 ## 十五、待完善项
 
 - Clayden, *Organic Chemistry*, 2nd Ed., Chapter 42, p. 1200
-

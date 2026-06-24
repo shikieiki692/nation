@@ -18,6 +18,7 @@ problem_types: []
 difficulty: 2
 importance: 5
 status: 已填充
+stage: published
 sources: []
 source_type: []
 review_cycle: 30d
@@ -263,6 +264,3 @@ SORT year DESC, difficulty ASC
 ```
 
 *参考来源：Clayden Ch.4、有机化学教材（邢其毅等）*
-
-
-

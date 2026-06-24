@@ -18,6 +18,7 @@ problem_types: [题型-吸附等温线拟合, 题型-表面覆盖率计算]
 difficulty: 4
 importance: 4
 status: 已填充
+stage: published
 sources: []
 source_type: []
 source_notes: []
@@ -174,4 +175,3 @@ $$
 | 日期 | 版本 | 修订内容 | 修订人 |
 |-----|------|---------|-------|
 | 2026-05-16 | v1.0 | 基于Atkins主题19创建 | AI助手 |
-

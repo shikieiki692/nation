@@ -32,6 +32,7 @@ problem_types:
 difficulty: 3
 importance: 4
 status: 已填充
+stage: published
 sources:
   - 提炼-普化原理-第10章-氧化还原电化学
   - 教学逻辑提炼-周坤无机新课-酸碱理论与电化学-第一轮
@@ -253,4 +254,3 @@ $$E = E^{\ominus} - \frac{0.059\,\mathrm{V}}{\nu_e}\times\nu_p \times pH \quad (
 ## 十五、待完善项
 - [ ] 补充 Fe、Mn、Cu 等常见元素的 Pourbaix 图简化版
 - [ ] 关联真题中涉及环境化学/水体金属形态判断的例题
-

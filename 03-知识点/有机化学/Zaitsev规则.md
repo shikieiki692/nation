@@ -22,6 +22,7 @@ problem_types: [题型-产物分布预测, 题型-消除机理判断]
 difficulty: 2
 importance: 4
 status: 已填充
+stage: published
 review_cycle: 30d
 updated: 2026-05-16
 template_version: v1.3
@@ -177,4 +178,3 @@ $$
 ## 十五、待完善项
 
 - **v1.1（2026-05-16）**：填充核心原理，补充 E1/E2/E1cb 选择性对比、烯烃稳定性来源、碱位阻决定因素，添加外部资料出处。
-

@@ -48,6 +48,7 @@ problem_types:
 difficulty: 3
 importance: 3
 status: 已填充
+stage: published
 sources:
   - ABOC §10.5
 source_type:
@@ -324,5 +325,3 @@ $$
 - ³J trans ≈ 12–18 Hz，³J cis ≈ 6–12 Hz
 
 ---
-
-

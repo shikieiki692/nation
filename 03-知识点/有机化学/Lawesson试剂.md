@@ -18,6 +18,7 @@ problem_types: [题型-机理推断, 题型-合成设计]
 difficulty: 4
 importance: 3
 status: 已填充
+stage: published
 sources: [Arrow Pushing in Inorganic Chemistry-总索引]
 source_type: []
 review_cycle: 30d
@@ -284,4 +285,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Lawesson试剂")
 SORT year DESC, difficulty ASC
 ```
-

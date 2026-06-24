@@ -25,6 +25,7 @@ problem_types: [Barton反应机理书写, 产物预测, 与其他自由基反应
 difficulty: 4
 importance: 3
 status: 已填充
+stage: published
 sources:
   - [[07-资料提炼/书籍提炼/提炼-Clayden-第37章-自由基反应.md]]
 review_cycle: 30d
@@ -371,5 +372,3 @@ Step 4: 链传递
 ---
 
 *本 KP 基于 Clayden Ch.37 自由基反应提炼资料及Barton反应经典文献填充，更新于 2026-05-24*
-
-

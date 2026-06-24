@@ -18,6 +18,7 @@ problem_types: [题型-D/L构型判断]
 difficulty: 2
 importance: 4
 status: 已填充
+stage: published
 sources: []
 source_type: []
 review_cycle: 30d
@@ -276,6 +277,3 @@ H-C-OH
 
 ## 十五、待完善项
 - [待填充]
-
-
-

@@ -21,6 +21,7 @@ problem_types: []
 difficulty: 3
 importance: 3
 status: 已填充
+stage: published
 sources:
   - 提炼-普化原理-第2章-气体
   - 教学逻辑提炼-周坤无机新课-晶体配合物与气体-第一轮
@@ -308,5 +309,3 @@ $$
 ---
 
 *本 KP 由 Agent 填充，更新于 2026-05-24*
-
-

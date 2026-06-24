@@ -17,6 +17,7 @@ problem_types: []
 difficulty: 3
 importance: 3
 status: 已填充
+stage: published
 sources: []
 source_type: []
 review_cycle: 30d
@@ -215,5 +216,3 @@ WHERE type = "题目"
   AND contains(knowledge_points, "NMR谱学")
 SORT difficulty ASC, year DESC
 ```
-
-

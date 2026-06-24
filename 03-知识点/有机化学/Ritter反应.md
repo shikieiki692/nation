@@ -26,6 +26,7 @@ problem_types: [题型-酰胺合成, 题型-产物推断]
 difficulty: 3
 importance: 3
 status: 已填充
+stage: published
 sources: ["ABOC §5.8"]
 source_type: []
 review_cycle: 30d

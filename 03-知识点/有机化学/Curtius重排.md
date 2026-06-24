@@ -23,6 +23,7 @@ problem_types: [题型-机理推断, 题型-重排产物判断]
 difficulty: 4
 importance: 5
 status: 已填充
+stage: published
 sources: [Arrow Pushing in Inorganic Chemistry-总索引]
 source_type: []
 review_cycle: 30d
@@ -256,4 +257,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Curtius重排")
 SORT year DESC, difficulty ASC
 ```
-

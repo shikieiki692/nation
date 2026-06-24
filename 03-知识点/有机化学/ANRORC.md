@@ -37,6 +37,7 @@ problem_types:
 difficulty: 4
 importance: 2
 status: 已填充
+stage: published
 sources:
   - ABOC §9.6
 source_type:
@@ -553,5 +554,3 @@ $$
 | **离去基差** | 如 H⁻ |
 
 ---
-
-

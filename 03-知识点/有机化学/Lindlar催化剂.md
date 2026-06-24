@@ -26,6 +26,7 @@ problem_types: [题型-还原条件选择, 题型-立体化学判断, 题型-合
 difficulty: 3
 importance: 3
 status: 已填充
+stage: published
 sources: ["ABOC §3.10 行 2721-2740"]
 source_type: []
 review_cycle: 30d
@@ -284,4 +285,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Lindlar催化剂")
 SORT year DESC, difficulty ASC
 ```
-

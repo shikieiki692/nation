@@ -17,6 +17,7 @@ problem_types: [题型-分子构型判断, 题型-键角比较]
 difficulty: 3
 importance: 5
 status: 已填充
+stage: published
 sources: [提炼-普化原理-第12章-化学键与分子结构, 专题-分子结构基础]
 source_type: [书籍提炼, 专题归纳]
 source_notes:
@@ -49,6 +50,7 @@ source_extracts:
 tags:
   - 化竞
 ---
+
 ## 十五、待完善项
 
 - [待填充]
@@ -312,5 +314,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "VSEPR理论")
 SORT year DESC, difficulty ASC
 ```
-
-

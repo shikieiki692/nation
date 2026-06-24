@@ -26,6 +26,7 @@ problem_types: [题型-环化可行性判断, 题型-合成设计]
 difficulty: 4
 importance: 4
 status: 已填充
+stage: published
 sources: ["ABOC §6.13"]
 source_type: []
 review_cycle: 30d
@@ -326,4 +327,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Baldwin规则")
 SORT year DESC, difficulty ASC
 ```
-

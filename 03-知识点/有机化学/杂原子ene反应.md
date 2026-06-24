@@ -23,6 +23,7 @@ problem_types: [题型-产物预测, 题型-与D-A区分, 题型-合成设计]
 difficulty: 5
 importance: 2
 status: 已填充
+stage: published
 sources: ["ABOC §5.7", "Clayden Ch.34"]
 source_type: [教材, 资料提炼]
 review_cycle: 30d
@@ -261,4 +262,3 @@ source_notes: []
 ---
 
 *本 KP 填充于 2026-05-24，基于 ABOC §5.7 和 Clayden Ch.34 资料*
-

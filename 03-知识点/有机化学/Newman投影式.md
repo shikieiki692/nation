@@ -17,6 +17,7 @@ problem_types: [题型-优势构象判断, 题型-稳定性排序, 题型-纽曼
 difficulty: 2
 importance: 3
 status: 已填充
+stage: published
 sources: [ABOC第1章-绪论]
 source_type: [教材提炼]
 review_cycle: 30d
@@ -157,6 +158,3 @@ ABOC 第1章（绪论）在以下位置涉及 Newman 投影式：
 ## 十五、待完善项
 
 | 2026-05-17 | v1.0 | 基于 ABOC 第1章（行 1008-1023 及练习 1.2.2-3）创建 | AI助手 |
-
-
-

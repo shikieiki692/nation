@@ -18,6 +18,7 @@ problem_types: []
 difficulty: 2
 importance: 4
 status: 已填充
+stage: published
 sources: []
 source_type: []
 review_cycle: 30d
@@ -26,7 +27,8 @@ images_priority: low
 images_note: "当前未嵌入图像文件；如后续备课需要提升直观性，可补充结构示意图、构型图、能级图或反应路径图。"
 key_images: []
 updated: 2026-05-25
-teaching_ready: false
+teaching_ready: false
+
 source_notes:
   - "[[教学逻辑提炼-周坤无机新课-原子结构与分子结构-第一轮]]"
 source_extracts:
@@ -263,6 +265,3 @@ SORT year DESC, difficulty ASC
 ```
 
 *参考来源：Clayden Ch.4、有机化学教材（邢其毅等）*
-
-
-

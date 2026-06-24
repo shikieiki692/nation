@@ -23,6 +23,7 @@ problem_types: [题型-机理推断]
 difficulty: 3
 importance: 2
 status: 已填充
+stage: published
 sources: ["ABOC §9.7"]
 source_type: []
 review_cycle: 30d
@@ -179,4 +180,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Dimroth重排")
 SORT year DESC, difficulty ASC
 ```
-

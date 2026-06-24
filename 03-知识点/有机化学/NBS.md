@@ -23,6 +23,7 @@ problem_types: [题型-产物预测, 题型-条件选择]
 difficulty: 3
 importance: 4
 status: 已填充
+stage: published
 template_version: v1.3
 updated: 2026-05-25
 has_images: false
@@ -198,4 +199,3 @@ NBS 体系的 **低 Br₂ 浓度** 是选择性的关键。
 
 - **v1.3（2026-05-25）**：升级到 v1.3 模板格式。
 - **v1.1（2026-05-10）**：首次创建完整 v1.1 模板。基于 ABOC §2.8 过氧化物效应内容。含链式机理完整三步、为何只有 HBr、NBS 体系关联、§12 教学视角。Phase C 第五批+ Ch.2 衍生 KP。
-

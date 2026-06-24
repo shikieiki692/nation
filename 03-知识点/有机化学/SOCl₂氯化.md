@@ -44,6 +44,7 @@ problem_types:
 difficulty: 2
 importance: 3
 status: 已填充
+stage: published
 sources:
   - "ABOC §4.1（mineru/ABOC202505_1-200.md 行 2809-2880）"
 source_type:
@@ -54,7 +55,8 @@ updated: 2026-05-17
 has_images: false
 image_count: 0
 images_priority: low
-images_note: "机理可用文字/LaTeX描述，无需配图"
+images_note: "机理可用文字/LaTeX描述，无需配图"
+
 key_images: []
 teaching_ready: false
 source_notes: []
@@ -450,5 +452,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "SOCl₂氯化")
 SORT year DESC, difficulty ASC
 ```
-
-

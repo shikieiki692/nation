@@ -23,6 +23,7 @@ problem_types: [题型-机理分析, 题型-结构活性比较]
 difficulty: 3
 importance: 4
 status: 已填充
+stage: published
 review_cycle: 30d
 updated: 2026-05-16
 template_version: v1.3
@@ -186,4 +187,3 @@ $$
 ## 十五、待完善项
 
 - **v1.1（2026-05-16）**：填充核心原理，补充 SNAr 决速步、负电荷共振稳定化、与苯炔机理区分，添加外部资料出处。
-

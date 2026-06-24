@@ -18,6 +18,7 @@ problem_types: [题型-Dyotropic重排产物推断, 题型-Dyotropic重排立体
 difficulty: 5
 importance: 4
 status: 已填充
+stage: published
 sources: []
 source_type: []
 review_cycle: 30d
@@ -239,4 +240,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Dyotropic重排")
 SORT year DESC, difficulty ASC
 ```
-

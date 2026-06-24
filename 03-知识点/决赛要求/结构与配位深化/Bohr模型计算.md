@@ -18,6 +18,7 @@ problem_types: [题型-Bohr能级计算]
 difficulty: 4
 importance: 4
 status: 已填充
+stage: published
 sources: []
 source_type: []
 source_notes: []
@@ -30,8 +31,6 @@ teaching_ready: false
 key_images: []
 updated: 2026-05-25
 ---
-
-
 
 # Bohr 模型计算
 
@@ -475,4 +474,3 @@ SORT year DESC, difficulty ASC
 ## 十五、待完善项
 
 - [待填充]
-

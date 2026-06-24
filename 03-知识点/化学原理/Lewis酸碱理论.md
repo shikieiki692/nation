@@ -21,6 +21,7 @@ problem_types: []
 difficulty: 3
 importance: 5
 status: 已填充
+stage: published
 sources:
   - 教学逻辑提炼-周坤无机新课-酸碱理论与电化学-第一轮
   - 专题-酸碱理论
@@ -302,4 +303,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Lewis酸碱理论")
 SORT year DESC, difficulty ASC
 ```
-

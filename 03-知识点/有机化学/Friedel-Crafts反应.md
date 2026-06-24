@@ -26,6 +26,7 @@ images_note: "当前以文字、公式或表格表达为主，暂未单独配置
 teaching_ready: false
 source_notes: []
 status: 已填充
+stage: published
 updated: 2026-05-25
 template_version: v1.3
 redlink_freq: 5
@@ -457,4 +458,3 @@ $$\text{间硝基正丙苯}\quad (m\text{-}\ce{O2N-C6H4-CH2CH2CH3})$$
 |-----|------|---------|-------|
 | 2026-06-23 | v1.1 | 填充§二、§四-§十四全部内容；新增3道分层例题（★-★★★★）；补充教学视角和竞赛拓展 | AI助手 |
 | 2026-05-16 | v1.0 | 基于待建KP优先级清单（freq=5）创建 | AI助手 |
-

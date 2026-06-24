@@ -18,6 +18,7 @@ problem_types: [题型-Boltzmann计算]
 difficulty: 5
 importance: 4
 status: 已填充
+stage: published
 sources: []
 source_type: []
 source_notes: []
@@ -545,4 +546,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Boltzmann统计初步")
 SORT year DESC, difficulty ASC
 ```
-

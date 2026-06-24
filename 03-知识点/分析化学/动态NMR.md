@@ -21,6 +21,7 @@ problem_types: []
 difficulty: 5
 importance: 3
 status: 已填充
+stage: published
 sources: []
 source_type: []
 review_cycle: 30d
@@ -320,4 +321,3 @@ $$
 ---
 
 *本 KP 由 Claudian 填充，2026-05-24*
-

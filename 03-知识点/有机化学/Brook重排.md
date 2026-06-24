@@ -35,6 +35,7 @@ problem_types:
 difficulty: 4
 importance: 4
 status: 已填充
+stage: published
 sources: []
 review_cycle: 30d
 has_images: false
@@ -228,4 +229,3 @@ $$\,^–CH(R')–OSiR_3 \xrightarrow{\text{酸或热}} R_3Si–CH(R')–O^–$$
 - [ ] 补充不同硅基（TMS/TBS/TIPS/TBDPS）的迁移速率对比数据表
 - [ ] 补充串联 Brook-aldol 的具体实例和产率数据
 - [ ] 关联到具体外部教材提炼笔记后，回填 sources 字段
-

@@ -5,6 +5,7 @@ role: 子目录索引
 subject: 化学原理
 updated: 2026-05-24
 tags: [系统, 索引, 化学原理]
+  stage: review
 ---
 
 # 化学原理

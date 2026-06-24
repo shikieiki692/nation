@@ -2,6 +2,7 @@
 title: 题型总索引
 type: 题型索引
 tags: [化竞, 题型]
+  stage: published
 ---
 
 # 题型总索引

@@ -18,6 +18,7 @@ problem_types: [题型-气体计算]
 difficulty: 2
 importance: 5
 status: 已填充
+stage: published
 sources: [提炼-普化原理-第2章-气体, 教学逻辑提炼-质心-化学计量与气体-第一轮, 专题-化学计量与气体]
 source_type: [书籍提炼, 教学逻辑提炼, 专题归纳]
 source_notes:
@@ -217,5 +218,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Dalton分压定律")
 SORT year DESC, difficulty ASC
 ```
-
-

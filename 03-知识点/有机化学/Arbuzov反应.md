@@ -23,6 +23,7 @@ problem_types: [题型-机理推断, 题型-合成路线设计]
 difficulty: 3
 importance: 4
 status: 已填充
+stage: published
 sources: [Arrow Pushing in Inorganic Chemistry-总索引]
 source_type: []
 review_cycle: 30d
@@ -260,4 +261,3 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Arbuzov反应")
 SORT year DESC, difficulty ASC
 ```
-
