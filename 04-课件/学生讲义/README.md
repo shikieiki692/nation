@@ -398,8 +398,8 @@ if (noImg.length > 0) {
 
 ## 关联文件
 
-- Batch 1 计划：[[备课思路/Batch2-SHHS-Vol1-2-学生讲义计划]]
-- Batch 4 计划（有机）：[[备课思路/Batch3-SHHS-Vol4-有机学生讲义计划]]
+- Batch 1 计划：[[备课思路/审计归档/Batch2-SHHS-Vol1-2-学生讲义计划]]
+- Batch 4 计划（有机）：[[备课思路/审计归档/Batch3-SHHS-Vol4-有机学生讲义计划]]
 - 四轮完成度总表（§五）：[[备课思路/四轮内容完成度总表#五、学生讲义（SHHS提炼）层完成度（2026-06-23 新增）]]
 - 有机备课大纲索引：[[04-课件/备课大纲]]
 - Pipeline 转换脚本：[[11-模板/scripts/build-all-handout-docx.py]]

@@ -20,6 +20,7 @@ from __future__ import annotations
 
 import argparse
 import re
+import subprocess
 import sys
 import tempfile
 from pathlib import Path
@@ -111,6 +112,58 @@ def _resolve_wikilink(text: str) -> str:
     return text
 
 
+def _transform_callout_blocks(text: str) -> str:
+    """Transform emoji-prefixed callout blockquotes to bold-led paragraphs.
+
+    Obsidian callouts (> 🧠/🗣️/⚠️/etc...) render as plain indented text in Word.
+    This converts them to normal paragraphs with bold headers that stand out.
+
+    Before:   > 🧠 **教学洞察**：内容
+    After:    **🧠 教学洞察**：内容
+
+    Continuation lines (additional > lines) have their > prefix stripped.
+    """
+    CALLOUT_EMOJIS = '🧠🗣️⚠️💡⚡🔥📝🌟✅🔗'
+    # Match both:  > ⚠️ **header**   and   > **⚠️ header**
+    callemoji_re = re.compile(r'^>\s*(?:\*\*)?\s*([' + CALLOUT_EMOJIS + r'])')
+
+    lines = text.split('\n')
+    result: list[str] = []
+    i = 0
+
+    while i < len(lines):
+        line = lines[i]
+        m = callemoji_re.match(line.strip())
+        if m:
+            # Collect all consecutive > lines belonging to this callout
+            block: list[str] = []
+            while i < len(lines) and lines[i].strip().startswith('> '):
+                block.append(re.sub(r'^>\s*', '', lines[i]))
+                i += 1
+            # Boldify the emoji + bold header on the first line
+            if block:
+                first = block[0]
+                first = re.sub(
+                    r'^([' + CALLOUT_EMOJIS + r'])\s*\*\*(.*?)\*\*',
+                    r'**\1 \2**',
+                    first,
+                )
+                block[0] = first
+                # Insert a blank line before the callout for visual separation
+                if result and result[-1].strip() != '':
+                    result.append('')
+                result.extend(block)
+                result.append('')
+        else:
+            result.append(line)
+            i += 1
+
+    # Remove trailing blank lines
+    while result and result[-1].strip() == '':
+        result.pop()
+    return '\n'.join(result)
+
+
 def _preprocess_ce_in_math(text: str) -> str:
     """Convert \\ce{...} → \\text{...} inside math ($...$ / $$...$$) for OMML compat.
 
@@ -141,7 +194,14 @@ def _strip_metadata_blockquote(text: str) -> str:
         ---
 
         ## 学习目标
+
+    Works with:
+      - Standard metadata (short blockquote + ---)
+      - 超级充实版 (long blockquote with multiline > **深度边界** + > **版本说明**)
     """
+    # ── Quick self-test on import ──
+    _SELF_CHECK = "> **对应专题**：[[xxx]]\n> **深度边界**：多行内容\n>\n---"
+    _test = text if "SELF_CHECK" in globals() else None  # skip in production
     lines = text.split("\n")
     # Locate first # heading
     first_h = -1
@@ -208,19 +268,26 @@ def _preprocess_markdown(text: str) -> str:
        - \\underset{...}{...}  →  side annotation
        - \\displaylines{...}   →  separate equations
     """
+    # 0) Transform callout blockquotes (> 🧠/🗣️/⚠️) to bold-led paragraphs
+    text = _transform_callout_blocks(text)
+
     # 1) Image embeds: ![[image.png]] or ![[image.png|alt text]] → ![alt](image.png)
     text = re.sub(
         r'!\[\[([^\]]+?)\.(png|jpg|jpeg|gif|webp|svg)(?:\|([^\]]*))?\]\]',
         lambda m: f'![{m.group(3) or ""}]({m.group(1)}.{m.group(2)})',
         text, flags=re.IGNORECASE)
 
-    # 1b) Excalidraw .md embeds → remove (cannot embed in docx)
-    text = re.sub(r'!?\[\[([^\]]+\.(md|excalidraw))\]\]',
+    # 1b) Excalidraw .md embeds → warn + remove (cannot embed in docx)
+    # Note: [[link|alias]] format is handled by the (?:|\|[^\]]*)? optional group
+    excalibur_matches = list(re.finditer(r'!?\[\[([^\]]+\.(md|excalidraw))(?:\|[^\]]*)?\]\]', text, flags=re.IGNORECASE))
+    if excalibur_matches:
+        fnames = [m.group(1) for m in excalibur_matches]
+        print(f"  [WARN] {len(excalibur_matches)} Excalidraw embed(s) removed (not renderable in docx): {fnames}", file=sys.stderr)
+    text = re.sub(r'!?\[\[([^\]]+\.(md|excalidraw))(?:\|[^\]]*)?\]\]',
                   '', text, flags=re.IGNORECASE)
 
     # 1c) Remove ⚠️ and 💡 emoji symbols (formatting artifacts)
-    text = text.replace('⚠️', '').replace('💡', '')
-    text = text.replace('⚠', '').replace('💡', '')
+
 
     # 2) Convert \ce{...} → \text{...} inside math blocks
     #    First handle display math $$...$$
@@ -414,6 +481,65 @@ def convert_file(
     processed_body = _strip_metadata_blockquote(processed_body)
     # 1b) Strip attribution footer (*本讲义依据…*)
     processed_body = _strip_footer(processed_body)
+    # 1b2) Auto-render Excalidraw .md files to PNG if no sibling PNG exists
+    #      Uses the excalidraw-to-png.mjs script (Puppeteer headless browser)
+    for excal_match in re.finditer(r'!?\[\[([^\]]+\.(?:md|excalidraw))(?:\|[^\]]*)?\]\]', processed_body):
+        excal_path_str = excal_match.group(1)
+        excal_full = md_path.parent / excal_path_str
+        if not excal_full.exists():
+            continue
+        # Check if it's an Excalidraw file (has excalidraw-plugin frontmatter)
+        try:
+            first_lines = excal_full.read_text('utf-8', errors='replace')[:200]
+            if 'excalidraw-plugin:' not in first_lines:
+                continue
+        except Exception:
+            continue
+        # Check if PNG sibling exists
+        png_candidate = excal_full.with_suffix('.png')
+        if png_candidate.exists():
+            continue
+        # Render Excalidraw → PNG
+        script_dir = Path(__file__).parent
+        excal_script = script_dir / 'excalidraw-to-png.mjs'
+        if excal_script.exists():
+            if verbose:
+                print(f"  [EXCALIDRAW] Rendering {excal_path_str} → {png_candidate.name}...", file=sys.stderr)
+            subprocess.run(
+                ['node', str(excal_script), str(excal_full), str(png_candidate)],
+                capture_output=True, timeout=120000,
+            )
+            if png_candidate.exists():
+                print(f"  [EXCALIDRAW] {excal_path_str} → {png_candidate.name} (OK)", file=sys.stderr)
+            else:
+                print(f"  [WARN] Excalidraw render failed for {excal_path_str}", file=sys.stderr)
+
+    # 1b3) Replace .md image embeds with rendered PNG (if available)
+    #      The "Excalidraw" files are actually Mermaid diagrams; we render them to PNG.
+    #      Fallback: if no PNG exists, the .md ref will be removed by step 1b in _preprocess_markdown.
+    def _mermaid_png_fallback(m: re.Match) -> str:
+        """If [[media/xxx.md]] or [[xxx.md]] has a media/xxx.png sibling, use PNG."""
+        path = m.group(1)   # e.g. "media/excalidraw-xxx.md" or "excalidraw-xxx.md"
+        alias = m.group(2) or ""
+        # Normalize: strip the .md extension and find the png
+        base = re.sub(r'\.md$', '', path, flags=re.IGNORECASE)
+        # Also try with media/ prefix
+        candidates = [
+            md_path.parent / f"{base}.png",                              # relative to handout
+            md_path.parent / "media" / f"{Path(base).name}.png",         # media/ dir
+        ]
+        for cand in candidates:
+            if cand.exists():
+                if verbose:
+                    print(f"  [MERMAID] {path} → {cand.name}", file=sys.stderr)
+                return f'![[{cand.relative_to(md_path.parent)}|{alias}]]' if alias else f'![[{cand.relative_to(md_path.parent)}]]'
+        # No PNG found — let the pipeline's step 1b warn & remove it
+        return m.group(0)
+    processed_body = re.sub(
+        r'!?\[\[([^\]]+\.md)(?:\|([^\]]*))?\]\]',
+        _mermaid_png_fallback,
+        processed_body,
+    )
     # 1c) Standard markdown pre-processing
     processed_body = _preprocess_markdown(processed_body)
 
@@ -538,6 +664,11 @@ def main():
         "--output-dir", type=str, default=None,
         help="Output directory (default: 06-学生侧材料/讲义)",
     )
+    parser.add_argument(
+        "--parallel", type=int, nargs="?", const=4, default=None,
+        help="Enable parallel processing with N workers (default: 4). "
+             "Only effective for batch (non --file) mode.",
+    )
     args = parser.parse_args()
 
     output_dir = Path(args.output_dir).resolve() if args.output_dir else HANDOUT_OUT
@@ -577,27 +708,63 @@ def main():
     success = 0
     errors = 0
 
-    for md_path in files:
-        label = "DRY" if args.dry_run else ".."
-        print(f"[{label}] {md_path.name}", end="")
+    if args.parallel and not args.file and not args.dry_run:
+        # ── Parallel mode ──
+        import concurrent.futures
+        n_workers = args.parallel if isinstance(args.parallel, int) else 4
+        print(f"Parallel mode: {n_workers} workers\n")
 
-        if args.dry_run:
-            print()
-            continue
+        def _convert_one(md_path: Path) -> tuple[str, bool | str]:
+            """Wrapper for parallel execution; returns (filename, True|error_msg)."""
+            try:
+                out = convert_file(md_path, verbose=args.verbose, output_dir=output_dir)
+                if out:
+                    return (md_path.name, True)
+                return (md_path.name, "skipped")
+            except Exception as e:
+                if args.verbose:
+                    import traceback
+                    traceback.print_exc(file=sys.stderr)
+                return (md_path.name, str(e))
 
-        try:
-            out = convert_file(md_path, verbose=args.verbose, output_dir=output_dir)
-            if out:
-                print(f"  →  {out.name}")
-                success += 1
-            else:
-                print("  [skipped]")
-        except Exception as e:
-            print(f"  [ERROR] {e}", file=sys.stderr)
-            if args.verbose:
-                import traceback
-                traceback.print_exc(file=sys.stderr)
-            errors += 1
+        results = []
+        with concurrent.futures.ThreadPoolExecutor(max_workers=n_workers) as pool:
+            futures = {pool.submit(_convert_one, p): p for p in files}
+            for future in concurrent.futures.as_completed(futures):
+                fname, status = future.result()
+                if status is True:
+                    results.append((fname, True))
+                    print(f"[OK] {fname}  →  converted")
+                else:
+                    results.append((fname, status))
+                    print(f"[ERR] {fname}  →  {status}", file=sys.stderr)
+
+        success = sum(1 for _, s in results if s is True)
+        errors = sum(1 for _, s in results if s is not True)
+
+    else:
+        # ── Sequential mode (original) ──
+        for md_path in files:
+            label = "DRY" if args.dry_run else ".."
+            print(f"[{label}] {md_path.name}", end="")
+
+            if args.dry_run:
+                print()
+                continue
+
+            try:
+                out = convert_file(md_path, verbose=args.verbose, output_dir=output_dir)
+                if out:
+                    print(f"  →  {out.name}")
+                    success += 1
+                else:
+                    print("  [skipped]")
+            except Exception as e:
+                print(f"  [ERROR] {e}", file=sys.stderr)
+                if args.verbose:
+                    import traceback
+                    traceback.print_exc(file=sys.stderr)
+                errors += 1
 
     # ── Summary ──
     print()
