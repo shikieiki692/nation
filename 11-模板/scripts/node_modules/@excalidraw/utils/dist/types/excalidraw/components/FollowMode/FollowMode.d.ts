@@ -1,0 +1,10 @@
+import "./FollowMode.scss";
+import type { UserToFollow } from "../../types";
+interface FollowModeProps {
+    width: number;
+    height: number;
+    userToFollow: UserToFollow;
+    onDisconnect: () => void;
+}
+declare const FollowMode: ({ height, width, userToFollow, onDisconnect, }: FollowModeProps) => import("react/jsx-runtime").JSX.Element;
+export default FollowMode;
