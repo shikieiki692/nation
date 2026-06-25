@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "kb-vault": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "../kb-vault-mcp/dist/index.js"
+      ],
+      "env": {
+        "KB_VAULT_ROOT": "."
+      }
+    }
+  }
+}
