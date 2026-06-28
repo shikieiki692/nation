@@ -59,6 +59,9 @@ SRC_GLOB = "*.md"
 # Pandoc 转换扩展
 PANDOC_EXTENSIONS = "markdown+tex_math_dollars+tex_math_single_backslash+pipe_tables+raw_tex"
 
+# 参考模板（字体/页边距已预设好）
+REFERENCE_DOC = SCRIPT_DIR / "templates" / "custom-reference.docx"
+
 
 # ══════════════════════════════════════════════════════════════════
 #  Stage 1: Preprocess
@@ -286,7 +289,13 @@ def _preprocess_markdown(text: str) -> str:
     text = re.sub(r'!?\[\[([^\]]+\.(md|excalidraw))(?:\|[^\]]*)?\]\]',
                   '', text, flags=re.IGNORECASE)
 
-    # 1c) Remove ⚠️ and 💡 emoji symbols (formatting artifacts)
+    # 1c) Replace standalone --- with ___ to prevent Pandoc YAML parsing
+    #     Pandoc interprets --- as YAML metadata blocks, which breaks when
+    #     body content (e.g. **bold**) appears between paired ---.
+    #     ___ renders identically as a horizontal rule in Word.
+    text = re.sub(r'^---\s*$', '___', text, flags=re.MULTILINE)
+
+    # 1d) Remove ⚠️ and 💡 emoji symbols (formatting artifacts)
 
 
     # 2) Convert \ce{...} → \text{...} inside math blocks
@@ -361,6 +370,7 @@ def pandoc_convert(md_path: Path, docx_path: Path, resource_path: Path, verbose:
         f"--from={PANDOC_EXTENSIONS}",
         "--to=docx",
         f"--resource-path={resource_path}",
+        f"--reference-doc={REFERENCE_DOC}",
     ]
 
     if verbose:
@@ -509,10 +519,10 @@ def convert_file(
                 ['node', str(excal_script), str(excal_full), str(png_candidate)],
                 capture_output=True, timeout=120000,
             )
-            if png_candidate.exists():
-                print(f"  [EXCALIDRAW] {excal_path_str} → {png_candidate.name} (OK)", file=sys.stderr)
-            else:
-                print(f"  [WARN] Excalidraw render failed for {excal_path_str}", file=sys.stderr)
+        if png_candidate.exists():
+            print(f"  [EXCALIDRAW] {excal_path_str} → {png_candidate.name} (OK)", file=sys.stderr)
+        else:
+            print(f"  [WARN] Excalidraw render failed for {excal_path_str}", file=sys.stderr)
 
     # 1b3) Replace .md image embeds with rendered PNG (if available)
     #      The "Excalidraw" files are actually Mermaid diagrams; we render them to PNG.

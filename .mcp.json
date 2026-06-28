@@ -2,12 +2,12 @@
   "mcpServers": {
     "kb-vault": {
       "type": "stdio",
-      "command": "node",
+      "command": "C:\\Program Files\\nodejs\\node.exe",
       "args": [
-        "../kb-vault-mcp/dist/index.js"
+        "C:\\Obsidion\\妙妙屋\\kb-vault-mcp\\dist\\index.js"
       ],
       "env": {
-        "KB_VAULT_ROOT": "."
+        "KB_VAULT_ROOT": "C:\\Obsidion\\妙妙屋"
       }
     }
   }

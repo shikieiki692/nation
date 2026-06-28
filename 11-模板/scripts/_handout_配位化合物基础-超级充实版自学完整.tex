@@ -1,0 +1,1536 @@
+% ── chemistry-handout-preamble.tex ── 化学竞赛讲义 LaTeX 导言区（v6）
+\documentclass[a4paper,11pt]{ctexart}
+
+% ── 字体优化 ──
+% Windows 标准字体：SimSun 宋体正文，SimHei 黑体标题
+% 无需检测 Noto，直接使用 Windows 自带字体（稳定 + 快速）
+\setCJKmainfont[AutoFakeBold=true,BoldFont=SimHei]{SimSun}
+\setCJKsansfont{SimHei}
+
+% 化学式宏（mhchem）
+\usepackage[version=4]{mhchem}
+
+% ── 数学 ──
+\usepackage{amsmath,amssymb}
+
+% ── 图片 ──
+\usepackage{graphicx}
+
+% ── 表格（跨页+自动列宽）──
+\usepackage{booktabs}
+\usepackage{xltabular}
+\usepackage{array}
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}
+
+% ── 浮动体（[H] 强制定位）──
+\usepackage{float}
+
+% ── 页面 ──
+\usepackage[includeheadfoot,margin=2.2cm,headheight=14pt]{geometry}
+\setlength{\textwidth}{16.6cm}
+
+% ── 超链接(无红框) ──
+\usepackage[colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black]{hyperref}
+
+% ── 颜色 ──
+\usepackage[dvipsnames,svgnames]{xcolor}
+\definecolor{chapterblue}{RGB}{23,50,77}
+\definecolor{insightbg}{RGB}{235,240,250}
+\definecolor{warningbg}{RGB}{255,245,235}
+\definecolor{tipbg}{RGB}{235,250,235}
+
+% ── 页眉页脚 ──
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{chapterblue}\leftmark}
+\fancyhead[R]{\small\color{chapterblue}\thepage}
+\renewcommand{\headrule}{{\color{chapterblue}\hrule height 0.8pt}}
+
+% ── 章节编号与样式 ──
+\setcounter{secnumdepth}{1}
+\ctexset{
+  section = {
+    format = \Large\bfseries\heiti\color{chapterblue},
+    aftername = \hspace{0.5em},
+    beforeskip = 2ex,
+    afterskip = 1ex,
+  },
+  subsection = {
+    format = \large\bfseries\heiti,
+    beforeskip = 1.5ex,
+    afterskip = 0.5ex,
+  },
+}
+
+% ── 教学提示框（浅底色版）──
+\newenvironment{insightbox}{%
+  \par\smallskip
+  \noindent{\small\bfseries\color{RoyalBlue}🧠 认知冲突}\par
+  \leavevmode\colorbox{insightbg}{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{%
+  \ignorespaces}}%
+}{\par\smallskip}
+
+\newenvironment{warningbox}{%
+  \par\smallskip
+  \noindent{\small\bfseries\color{BrickRed}⚠️ 易错点}\par
+  \leavevmode\colorbox{warningbg}{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{%
+  \ignorespaces}}%
+}{\par\smallskip}
+
+\newenvironment{tipbox}{%
+  \par\smallskip
+  \noindent{\small\bfseries\color{ForestGreen}💡 理解提示}\par
+  \leavevmode\colorbox{tipbg}{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{%
+  \ignorespaces}}%
+}{\par\smallskip}
+
+% ── 列表（答案区加间距）──
+\usepackage{enumitem}
+\setlist{nosep}
+% 专门用于参考答案的列表（每项之间空一行）
+\newlist{answerlist}{enumerate}{1}
+\setlist[answerlist]{label=\arabic*., leftmargin=2em, itemsep=0.8em}
+
+% ── 防止内容溢出 ──
+\usepackage{microtype}
+\setlength{\emergencystretch}{2em}
+\setlength{\hfuzz}{2pt}
+\setlength{\overfullrule}{0pt}
+\sloppy
+
+% ── pandoc 兼容 ──
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\newenvironment{Shaded}{}{}
+\newenvironment{Highlighting}{}{}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\CommentTok}[1]{#1}
+\newcommand{\KeywordTok}[1]{#1}
+\newcommand{\StringTok}[1]{#1}
+\newcommand{\FunctionTok}[1]{#1}
+\newcommand{\DataTypeTok}[1]{#1}
+\newcommand{\NumberTok}[1]{#1}
+\newcommand{\ControlFlowTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{#1}
+\newcommand{\BaseNTok}[1]{#1}
+\newcounter{none}
+
+% ── 图片尺寸限制 ──
+\AtBeginDocument{\setkeys{Gin}{width=\textwidth,keepaspectratio}}
+
+% ── 防止图片跨节 ──
+\usepackage{placeins}
+
+% ── 自定义命令 ──
+% 练习题标题（去掉括号）
+% 例题标题（去掉中括号）
+% 这些需要在convert.py预处理中做正则替换
+
+\graphicspath{{C:/Temp/chem_media/}}
+\title{配位化合物基础}
+\date{}
+\setlength{\tabcolsep}{3.5pt}
+\small
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+\section{学生讲义：配位化合物基础（超级充实版·自学完整）}\label{ux5b66ux751fux8bb2ux4e49ux914dux4f4dux5316ux5408ux7269ux57faux7840ux8d85ux7ea7ux5145ux5b9eux7248ux81eaux5b66ux5b8cux6574}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{学习目标}\label{ux5b66ux4e60ux76eeux6807}
+
+\begin{itemize}
+\tightlist
+\item
+  ✅ 能说出配合物的组成（中心离子/原子、配体、配位原子、配位数、内界/外界），并用实验现象区分内界和外界
+\item
+  ✅ 能按 IUPAC 规则命名常见配合物（含配正离子、配负离子、中性配合物），并完成''名称↔化学式''的双向翻译
+\item
+  ✅ 能用价键理论（杂化轨道）解释配合物的空间构型和磁性，区分内轨/外轨型
+\item
+  ✅ 能用 EAN 18 电子规则判断羰基配合物的稳定性，理解奇电子配合物的稳定方式
+\item
+  ✅ 能用晶体场理论解释 d 轨道分裂机制，计算八面体/四面体/正方形场的 CFSE
+\item
+  ✅ 能根据 Δ 与 P 的相对大小判断高/低自旋，从磁矩数据反推 d 电子排布
+\item
+  ✅ 能用光谱化学序列比较配体场强，理解 σ 给体/π 给体/π 受体的分类框架
+\item
+  ✅ 能区分结构异构、几何异构和光学异构，用固定-变换法枚举异构体并判断手性
+\item
+  ✅ 能综合运用以上知识解决竞赛级配合物命名、构型判断、磁性分析和异构体枚举题
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{一、核心概念}\label{ux4e00ux6838ux5fc3ux6982ux5ff5}
+
+\textbf{关联知识点}：配合物 · 配位键 · 配位数
+
+\subsubsection{1.1 配位键不是''特殊键''------它是 Lewis 酸碱对的自然延伸}\label{ux914dux4f4dux952eux4e0dux662fux7279ux6b8aux952eux5b83ux662f-lewis-ux9178ux78b1ux5bf9ux7684ux81eaux7136ux5ef6ux4f38}
+
+从高中化学我们知道，NH\textsubscript{3} 有孤对电子，Cu\textsuperscript{2+} 有空轨道------当 Cu\textsuperscript{2+} 遇到 NH\textsubscript{3}，孤对电子进入空轨道，形成 Cu←NH\textsubscript{3} 配位键。这个过程的本质是：\textbf{Lewis 碱（配体）提供电子对给 Lewis 酸（中心离子/原子）}。
+
+换句话说，配位键不是一种''特殊的''化学键------它就是 Lewis 酸碱反应的产物，只不过成键的电子对\textbf{来自同一个原子}（配体），而不是两个原子各出一个。但一旦形成，配位键与普通共价键没有本质区别。
+
+\begin{quote}
+🧠 \textbf{认知冲突}：「配位键形成后，还''特殊''吗？」------配位键与普通共价键的差异只在形成阶段（电子对的来源不同），一旦形成，\textbf{两者完全相同}。例如 \([\mathrm{Co(NH_3)_6}]^{3+}\) 中的所有 Co---N 键都是等价的------无法区分哪个是''配位键''哪个是''普通共价键''。
+\end{quote}
+
+这就是配合物的本质：\textbf{中心原子（Lewis 酸）与配体（Lewis 碱）通过配位键结合形成的复杂化合物}。
+
+\subsubsection{1.2 配合物的组成}\label{ux914dux5408ux7269ux7684ux7ec4ux6210}
+
+配合物的结构可以写作：
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{配合物 = [内界] 外界}
+\NormalTok{          ↑       ↑}
+\NormalTok{      配位单元   离子键结合}
+\end{Highlighting}
+\end{Shaded}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+组成部分
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+定义
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+示例（{[}Cu(NH\textsubscript{3})\textsubscript{4}{]}SO\textsubscript{4}）
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{中心离子/原子} & 位于配离子中心，接受孤对电子的原子/离子 & Cu\textsuperscript{2+} \\
+\textbf{配体 (Ligand)} & 提供孤对电子的离子或分子 & NH\textsubscript{3}（4 个） \\
+\textbf{配位原子} & 配体中直接提供孤对电子的原子 & N（NH\textsubscript{3} 中的 N） \\
+\textbf{配位数} & 与中心离子直接键合的配位原子总数 & 4 \\
+\textbf{内界} & 配位单元（配离子或中性分子），书写在方括号内 & {[}Cu(NH\textsubscript{3})\textsubscript{4}{]}\textsuperscript{2+} \\
+\textbf{外界} & 内界以外的部分，与内界以离子键结合 & SO\textsubscript{4}\textsuperscript{2-} \\
+\end{longtable}
+}
+
+\begin{quote}
+🧠 \textbf{认知冲突}：「配合物一定有外界吗？」------不一定！中性配合物如 \([\mathrm{Ni(CO)_4}]\)、\([\mathrm{Fe(CO)_5}]\) \textbf{只有内界，没有外界}。它们整体呈电中性，不需要外界离子来平衡电荷。
+⚠️ \textbf{易错点}：配位数 ≠ 配体数！单齿配体时二者相等；多齿配体时\textbf{配位数 = 各配体齿数之和}。例如 \([\mathrm{Pt(en)_2}]^{2+}\) 配体数为 2，但每个 en 是双齿配体，因此配位数 = 2 × 2 = 4。
+\end{quote}
+
+\textbf{判断内界/外界的关键实验}：
+
+\textbf{例}：\([\mathrm{Cu(NH_3)_4}]SO_4\) 溶液中：
+- 加 NaOH → \textbf{无} Cu(OH)\textsubscript{2} 沉淀（几乎没有游离 Cu\textsuperscript{2+}------Cu\textsuperscript{2+} 在内界被 NH\textsubscript{3} 牢固配位）
+- 加 BaCl\textsubscript{2} → \textbf{有} BaSO\textsubscript{4} 白色沉淀（SO\textsubscript{4}\textsuperscript{2-} 在外界，自由存在）
+- 说明：溶液中主要存在 \([\mathrm{Cu(NH_3)_4}]^{2+}\) 和 SO\textsubscript{4}\textsuperscript{2-}
+
+\subsubsection{1.3 常见中心离子与配体}\label{ux5e38ux89c1ux4e2dux5fc3ux79bbux5b50ux4e0eux914dux4f53}
+
+\paragraph{中心离子}\label{ux4e2dux5fc3ux79bbux5b50}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{过渡金属离子}：Fe\textsuperscript{2+}/Fe\textsuperscript{3+}、Co\textsuperscript{2+}/Co\textsuperscript{3+}、Ni\textsuperscript{2+}、Cu\textsuperscript{2+}/Cu\textsuperscript{+}、Zn\textsuperscript{2+}、Cr\textsuperscript{3+}、Mn\textsuperscript{2+} 等（最常见，有 d 轨道）
+\item
+  \textbf{高氧化态主族金属/非金属}：Al\textsuperscript{3+}（\([\mathrm{AlF_6}]^{3-}\)）、Si(IV)（\([\mathrm{SiF_6}]^{2-}\)）
+\item
+  \textbf{中性原子}：Ni(0) 在 \([\mathrm{Ni(CO)_4}]\) 中
+\end{itemize}
+
+\begin{quote}
+🗣️ \textbf{课堂原话}：``过渡金属能做中心离子，是因为它们有\textbf{空的价层轨道}接受孤对电子------不全是 d 轨道，4s 和 4p（对第一过渡系）也参与。''
+\end{quote}
+
+\paragraph{常见配体}\label{ux5e38ux89c1ux914dux4f53}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3077}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3077}}
+  >{\centering\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3846}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+配体类型
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+实例
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+配位原子
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+单齿（1 个配位原子） & NH\textsubscript{3}、H\textsubscript{2}O、CO、CN\textsuperscript{-}、Cl\textsuperscript{-}、F\textsuperscript{-}、OH\textsuperscript{-}、NO\textsubscript{2}\textsuperscript{-}、SCN\textsuperscript{-} & N、O、C、卤素、S \\
+双齿（2 个配位原子） & en（乙二胺 H\textsubscript{2}N--CH\textsubscript{2}--CH\textsubscript{2}--NH\textsubscript{2}）、ox（草酸根 --OOC--COO\textsuperscript{-}）、gly\textsuperscript{-}（氨基乙酸 H\textsubscript{2}N--CH\textsubscript{2}--COO\textsuperscript{-}） & N、O \\
+多齿（≥3 个配位原子） & EDTA（6齿）、二乙烯三胺（3齿）、冠醚、穴醚 & N、O \\
+\end{longtable}
+}
+
+\begin{quote}
+⚠️ \textbf{易错点}：两可配体（ambidentate ligand）的配位原子需要根据情况判断。NO\textsubscript{2}\textsuperscript{-} 可通过 N 配位（硝基）也可通过 O 配位（亚硝酸根）；SCN\textsuperscript{-} 可通过 S 配位（硫氰酸根）也可通过 N 配位（异硫氰酸根）。这会导致\textbf{键合异构}。
+\end{quote}
+
+\subsubsection{1.4 配位数}\label{ux914dux4f4dux6570}
+
+常见配位数：\textbf{2、4、6}（少数 3、5、8）
+
+\textbf{影响配位数的因素}：
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+因素
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+趋势
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+解释
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+中心离子氧化数 & 氧化数越高 → 配位数越大 & Co\textsuperscript{3+} 配位数通常为 6，Co\textsuperscript{2+} 可为 4 或 6 \\
+中心离子半径 & 半径越大 → 配位数一般越大 & 但过大时配体间排斥增大→配位数反而下降（Hg\textsuperscript{2+} 配位数 4） \\
+配体体积 & 配体越大 → 配位数越小 & Al\textsuperscript{3+} 与 F\textsuperscript{-}（小）形成 \([\mathrm{AlF_6}]^{3-}\)（配位数 6），与 Cl\textsuperscript{-}（大）形成 \([\mathrm{AlCl_4}]^-\)（配位数 4） \\
+配体电荷 & 配体负电荷越高 → 配位数越小 & 配体间静电排斥增大 \\
+\end{longtable}
+}
+
+\begin{quote}
+📝 \textbf{练一练}：判断 \([\mathrm{Pt(en)_2}]^{2+}\) 中 Pt\textsuperscript{2+} 的配位数（en 为乙二胺，双齿配体）。
+\end{quote}
+
+\textbf{答案}：Pt\textsuperscript{2+} 配位数 = 2 个 en × 每个 en 提供 2 个配位原子 = \textbf{4}
+
+\subsubsection{1.5 配合物的命名------``名称↔化学式''双向翻译}\label{ux914dux5408ux7269ux7684ux547dux540dux540dux79f0ux5316ux5b66ux5f0fux53ccux5411ux7ffbux8bd1}
+
+\paragraph{命名顺序}\label{ux547dux540dux987aux5e8f}
+
+\begin{verbatim}
+配位数(汉字) → 配体名称 → "合" → 中心离子名称 → (氧化数罗马数字)
+\end{verbatim}
+
+\paragraph{配体顺序规则}\label{ux914dux4f53ux987aux5e8fux89c4ux5219}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{先负离子，后中性分子}：\([\mathrm{Co(NO_2)_4(NH_3)_2}]^-\) → 四硝基·二氨合钴(Ⅲ)离子
+\item
+  \textbf{先无机，后有机}：\([\mathrm{CoCl(SCN)(en)_2}]^+\) → 氯·硫氰酸根·二(乙二胺)合钴(Ⅲ)离子
+\item
+  \textbf{同类配体按配位原子元素符号字母顺序排列}
+\item
+  \textbf{配位原子相同，含原子数少的配体排前}
+\item
+  多种配体之间用 \textbf{·}（中圆点）隔开
+\end{enumerate}
+
+\begin{quote}
+🗣️ \textbf{课堂原话}：``命名不是死记硬背------它是『名称↔结构』的双向翻译能力。看到 K\textsubscript{3}{[}Fe(CN)\textsubscript{6}{]} 能写出六氰合铁(III)酸钾，反过来也要能写。''
+\end{quote}
+
+\paragraph{配合物命名速查表}\label{ux914dux5408ux7269ux547dux540dux901fux67e5ux8868}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+类型
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+命名规则
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+示例
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{含配正离子}（外界为简单阴离子） & \textbf{某化某} & \([\mathrm{Co(NH_3)_6}]Cl_3\) 三氯化六氨合钴(Ⅲ) \\
+\textbf{含配正离子}（外界为复杂阴离子） & \textbf{某酸某} & \([\mathrm{Cu(NH_3)_4}]SO_4\) 硫酸四氨合铜(Ⅱ) \\
+\textbf{含配负离子}（外界为 H\textsuperscript{+}） & \textbf{某酸} & \(\mathrm{H_2[SiF_6]}\) 六氟合硅(Ⅳ)酸 \\
+\textbf{含配负离子}（外界为其他阳离子） & \textbf{某酸某} & \(\mathrm{K_4[Fe(CN)_6]}\) 六氰合铁(Ⅱ)酸钾 \\
+\textbf{无外界（中性配合物）} & 配体名称 + 合 + 中心原子 & \(\mathrm{[Fe(CO)_5]}\) 五羰基合铁(0) \\
+\textbf{配阴离子为内界} & 词尾用''酸'' & \(\mathrm{K_3[Fe(CN)_6]}\) → 六氰合铁(Ⅲ)\textbf{酸钾} \\
+\textbf{配阳离子为内界} & 词尾用''化'' & \([\mathrm{Co(NH_3)_6}]Cl_3\) → 三氯化六氨合钴(Ⅲ) \\
+\end{longtable}
+}
+
+\begin{quote}
+📝 \textbf{练一练}：命名下列配合物，并指出中心离子氧化数和配位数：
+(1) \([\mathrm{Co(NH_3)_5Cl}]Cl_2\)
+(2) \(\mathrm{K_2[Zn(OH)_4]}\)
+(3) \([\mathrm{CrCl_2(H_2O)_4}]Cl\)
+\end{quote}
+
+\textbf{参考答案}：
+(1) 二氯化一氯·五氨合钴(Ⅲ)------Co\textsuperscript{3+}，配位数 6
+(2) 四羟基合锌(Ⅱ)酸钾------Zn\textsuperscript{2+}，配位数 4
+(3) 氯化二氯·四水合铬(Ⅲ)------Cr\textsuperscript{3+}，配位数 6
+
+相关 KP：配合物 · 配位键 · 配位数
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{二、规律与方法}\label{ux4e8cux89c4ux5f8bux4e0eux65b9ux6cd5}
+
+\subsubsection{2.1 价键理论（VB Theory）------从杂化轨道看配合物构型}\label{ux4ef7ux952eux7406ux8bbavb-theoryux4eceux6742ux5316ux8f68ux9053ux770bux914dux5408ux7269ux6784ux578b}
+
+价键理论是最早成功解释配合物空间构型和磁性的理论。它的核心逻辑链非常简洁：\textbf{中心离子提供空轨道 → 空轨道杂化 → 杂化轨道接受配体孤对电子 → 杂化方式决定空间构型。}
+
+\paragraph{要点}\label{ux8981ux70b9}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  中心离子有空的价层轨道，配体提供孤对电子
+\item
+  中心离子的空轨道先\textbf{杂化}，再接受配体孤对电子形成配位键
+\item
+  杂化类型决定配合物的\textbf{空间构型}
+\end{enumerate}
+
+\paragraph{杂化类型与空间构型}\label{ux6742ux5316ux7c7bux578bux4e0eux7a7aux95f4ux6784ux578b}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2778}}
+  >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2778}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2222}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2222}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\centering
+配位数
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+杂化类型
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+空间构型
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+典型示例
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+2 & sp & 直线形 & \([\mathrm{Ag(NH_3)_2}]^+\)、\([\mathrm{Cu(NH_3)_2}]^+\) \\
+3 & sp\textsuperscript{2} & 平面三角形 & \([\mathrm{CuCl_3}]^{2-}\)、\([\mathrm{HgI_3}]^-\) \\
+4 & sp\textsuperscript{3} & 正四面体 & \([\mathrm{ZnCl_4}]^{2-}\)、\([\mathrm{Ni(NH_3)_4}]^{2+}\) \\
+4 & dsp\textsuperscript{2} & 平面正方形 & \([\mathrm{Ni(CN)_4}]^{2-}\)、\([\mathrm{PtCl_4}]^{2-}\)、\([\mathrm{Cu(NH_3)_4}]^{2+}\) \\
+5 & dsp\textsuperscript{3} & 三角双锥 & \(\mathrm{[Fe(CO)_5]}\)、\([\mathrm{Ni(CN)_5}]^{3-}\) \\
+6 & sp\textsuperscript{3}d\textsuperscript{2} & 正八面体（外轨） & \([\mathrm{FeF_6}]^{3-}\)、\([\mathrm{Ti(H_2O)_6}]^{3+}\) \\
+6 & d\textsuperscript{2}sp\textsuperscript{3} & 正八面体（内轨） & \([\mathrm{Fe(CN)_6}]^{3-}\)、\([\mathrm{Co(NH_3)_6}]^{3+}\) \\
+\end{longtable}
+}
+
+\begin{quote}
+⚠️ \textbf{关键对比}：配位数相同时，杂化类型可以不同 → 空间构型不同。这是 VBT 的核心魅力------同样是 4 配位，Ni\textsuperscript{2+} 与 NH\textsubscript{3} 形成四面体（sp\textsuperscript{3}），与 CN\textsuperscript{-} 形成平面正方形（dsp\textsuperscript{2}）。
+\end{quote}
+
+\paragraph{内轨型 vs 外轨型配合物}\label{ux5185ux8f68ux578b-vs-ux5916ux8f68ux578bux914dux5408ux7269}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+特征
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+外轨型
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+内轨型
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{杂化方式} & 外层轨道（ns, np, nd）如 sp\textsuperscript{3}d\textsuperscript{2} & 内层 (n-1)d + ns + np，如 d\textsuperscript{2}sp\textsuperscript{3} \\
+\textbf{d 电子排布} & 不变，单电子数不变 & \textbf{重排}（电子归并），单电子数减少 \\
+\textbf{磁性} & 不变（顺磁/高自旋） & 可能变为反磁/低自旋 \\
+\textbf{键的性质} & 离子性较强，共价性较弱 & 共价性较强 \\
+\textbf{稳定性} & 稳定性较差 & 稳定性较好 \\
+\textbf{形成条件} & 弱场配体（F\textsuperscript{-}、H\textsubscript{2}O） & 强场配体（CN\textsuperscript{-}、CO） \\
+\end{longtable}
+}
+
+\begin{quote}
+🧠 \textbf{认知冲突}：「内轨型 = 低自旋，外轨型 = 高自旋------两个理论说的是同一回事吗？」------方向对但不完全等价。内/外轨型来自\textbf{价键理论}（关注哪些轨道参与杂化），高/低自旋来自\textbf{晶体场理论}（关注 Δ 与 P 的竞争）。在大多数情况下它们对应，但严格来说这是两个不同理论对同一现象的不同表述。
+\end{quote}
+
+\textbf{判断方法}：通过磁矩测定 → 计算单电子数 n → 判断是否发生 d 电子重排。
+
+\textbf{磁矩公式}：
+
+\[
+\mu = \sqrt{n(n+2)}\ (\text{B.M.})
+\]
+
+其中 n 为未成对电子数。\(\mu = 0\) → 反磁性；\(\mu > 0\) → 顺磁性。
+
+\textbf{例}：\([\mathrm{CoF_6}]^{3-}\) 磁矩 5.26 B.M. → n = 4 → d 电子未重排 → sp\textsuperscript{3}d\textsuperscript{2} 外轨型。
+\([\mathrm{Co(CN)_6}]^{3-}\) 磁矩 0 → n = 0 → d 电子归并 → d\textsuperscript{2}sp\textsuperscript{3} 内轨型。
+
+\begin{quote}
+🧠 \textbf{认知冲突}：「为什么 {[}Ni(CN)\textsubscript{4}{]}\textsuperscript{2-} 是平面四边形，而 {[}NiCl\textsubscript{4}{]}\textsuperscript{2-} 是四面体？」------Ni\textsuperscript{2+} 是 d\textsuperscript{8} 构型，VSEPR 预测四面体（4 对电子）。但 CN\textsuperscript{-} 是强场配体→迫使 Ni\textsuperscript{2+} 的 d 电子重排归并→空出一个 3d 轨道→dsp\textsuperscript{2} 杂化→平面四边形。Cl\textsuperscript{-} 是弱场配体→不能迫使电子重排→sp\textsuperscript{3} 杂化→四面体。\textbf{同一个金属离子，配体不同，不仅颜色和磁性不同------连形状都不同。}
+\end{quote}
+
+\paragraph{价键理论的局限性}\label{ux4ef7ux952eux7406ux8bbaux7684ux5c40ux9650ux6027}
+
+VBT 是一个\textbf{解释工具}，而非\textbf{预测工具}。它无法定量预测：
+- 配合物的颜色（d-d 跃迁能量）
+- 光谱化学序列的来源（为什么 CO 是强场？）
+- 分裂能 Δ 的具体数值
+
+这些问题需要\textbf{晶体场理论（CFT）}来解决。
+
+相关 KP：配合物 · 配位键 · 杂化轨道理论
+
+\subsubsection{2.2 EAN 18 电子规则------金属有机配合物的''八隅体''}\label{ean-18-ux7535ux5b50ux89c4ux5219ux91d1ux5c5eux6709ux673aux914dux5408ux7269ux7684ux516bux9685ux4f53}
+
+\textbf{有效原子序数（EAN）规则}：中心金属的价电子数 + 配体提供的 σ 电子数之和 = 18（即同周期稀有气体电子数，对应 ns\textsuperscript{2}np\textsuperscript{6}nd\textsuperscript{10} 满壳层）。
+
+\begin{quote}
+🗣️ \textbf{课堂原话}：``18 电子规则就像配合物世界的『八隅体规则』------金属原子利用全部 9 条价轨道（5 d + 1 s + 3 p）达到 18 电子稳定结构。''
+\end{quote}
+
+\paragraph{电子计数方法}\label{ux7535ux5b50ux8ba1ux6570ux65b9ux6cd5}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3077}}
+  >{\centering\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3846}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3077}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+配体类型
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+提供的电子数
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+示例
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+经典单齿配体（NH\textsubscript{3}、CO、Cl\textsuperscript{-}、H\textsuperscript{-}、R\textsuperscript{-}） & 2 & CO 提供 2e\textsuperscript{-} \\
+NO（一氧化氮） & 3 & NO = NO\textsuperscript{+} + e\textsuperscript{-}，NO\textsuperscript{+} 提供 2e\textsuperscript{-}（直线形配位） \\
+桥联 CO（M---CO---M） & 每条桥键为 1 个金属贡献 1e\textsuperscript{-} & \([\mathrm{Fe_2(CO)_9}]\) 中每个 Fe 从桥联 CO 获 3e\textsuperscript{-} \\
+M---M 金属键 & 1 & 每条金属键为 1 个金属贡献 1e\textsuperscript{-} \\
+ηⁿ 配体（如 η\textsuperscript{5}-C\textsubscript{5}H\textsubscript{5}\textsuperscript{-}） & n（奇数时从金属取 1 凑偶数） & η\textsuperscript{5}-C\textsubscript{5}H\textsubscript{5} 提供 6e\textsuperscript{-} \\
+配合物所带电荷 & 负电荷加电子，正电荷减电子 & \([\mathrm{Co(CO)_4}]^-\) 中 Co\textsuperscript{-} 相当于 Co 多 1e\textsuperscript{-} \\
+\end{longtable}
+}
+
+\paragraph{应用}\label{ux5e94ux7528}
+
+\textbf{① 判断稳定性}：18 电子结构稳定，奇电子（17 电子）不稳定。
+
+\textbf{奇电子配合物的稳定方式}：
+1. 从还原剂夺得 1e\textsuperscript{-} 成为负离子：\([\mathrm{M(CO)_n}]^-\)
+2. 与 H\textsuperscript{+} 或 X\textsuperscript{-} 结合：\(\mathrm{HM(CO)_n}\)、\(\mathrm{M(CO)_nX}\)
+3. 二聚化：\(\mathrm{Mn_2(CO)_{10}}\)------Mn(0) 7e\textsuperscript{-}，每个 Mn: \(5 \times CO + 1 \times Mn—Mn = 10 + 1 = 11e^-^\) 来自配体，加上 7 个价电子 → 18 ✅
+
+\begin{quote}
+⚠️ \textbf{易错点}：18 电子规则是\textbf{必要不充分条件}------满足 18 e\textsuperscript{-} 不意味着配合物一定稳定（还要看位阻、配体电子性质）。\([\mathrm{V(CO)_6}]\)（17e\textsuperscript{-}）不形成二聚体，因为配位数变为 7 时空阻太大。
+\end{quote}
+
+\textbf{② 预测反应方向}：
+\([\mathrm{Cr(CO)_6}] + \mathrm{C_6H_6} \rightarrow [\mathrm{Cr(C_6H_6)(CO)_3}] + 3\mathrm{CO}\)
+苯为 6e\textsuperscript{-} 给予体，取代 3 个 CO（每个 2e\textsuperscript{-}），电子总数不变，反应可进行。
+
+\textbf{③ 估算 M---M 键数（簇合物分析）}：
+如 \(\mathrm{Ir_4(CO)_{12}}\) → 总电子数 \(4 \times 9 + 12 \times 2 = 60\)，平均每个 Ir 15e\textsuperscript{-}，需 3 条 Ir---Ir 键 → 正四面体簇
+
+\begin{quote}
+📝 \textbf{练一练}：验证下列配合物是否符合 18 电子规则：
+(1) \(\mathrm{[Cr(CO)_6]}\)
+(2) \(\mathrm{[Mn_2(CO)_{10}]}\)（Mn 为 7 族）
+(3) \(\mathrm{[Fe(CO)_4H_2]}\)（H\textsuperscript{-} 为 2e\textsuperscript{-} 给体）
+\end{quote}
+
+\textbf{参考答案}：
+(1) Cr(0): 6e\textsuperscript{-} + 6×CO=12 → \textbf{18 ✅}
+(2) Mn(0): 7e\textsuperscript{-}，每个 Mn: 5×CO端基=10 + 1×Mn---Mn键=1 → \textbf{18 ✅}
+(3) Fe(II): 6e\textsuperscript{-} + 4×CO=8 + 2×H\textsuperscript{-}=4 → \textbf{18 ✅}
+
+相关 KP：18电子规则 · 反馈π键
+
+\subsubsection{2.3 晶体场理论（CFT）------为什么配合物有颜色和磁性？}\label{ux6676ux4f53ux573aux7406ux8bbacftux4e3aux4ec0ux4e48ux914dux5408ux7269ux6709ux989cux8272ux548cux78c1ux6027}
+
+如果说价键理论回答了''配合物是什么形状''，那么晶体场理论回答了更深层的问题：\textbf{为什么配合物有颜色？为什么有的配合物顺磁、有的反磁？为什么配体不同会导致磁性反转？}
+
+\begin{quote}
+🧠 \textbf{认知冲突}：「{[}Fe(CN)\textsubscript{6}{]}\textsuperscript{4-} 反磁性，{[}FeF\textsubscript{6}{]}\textsuperscript{4-} 顺磁性------同一个 Fe\textsuperscript{2+}！」------Fe\textsuperscript{2+} 是 d\textsuperscript{6}，按洪特规则应有 4 个未成对电子。但 {[}Fe(CN)\textsubscript{6}{]}\textsuperscript{4-} 是反磁性的（无未成对电子）！这正是晶体场理论要解释的核心现象。
+\end{quote}
+
+\paragraph{基本要点}\label{ux57faux672cux8981ux70b9}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  配体视为\textbf{点电荷}（或点偶极），与中心离子间为静电作用
+\item
+  中心离子的 d 轨道受配体负电场排斥作用 → \textbf{能级分裂}
+\item
+  d 电子重排 → 体系能量变化 → \textbf{晶体场稳定化能（CFSE）}
+\end{enumerate}
+
+\paragraph{八面体场中的 d 轨道分裂}\label{ux516bux9762ux4f53ux573aux4e2dux7684-d-ux8f68ux9053ux5206ux88c2}
+
+\begin{figure}[H]\centering
+\includegraphics[width=0.9\textwidth,keepaspectratio]{octahedral_splitting.png}
+\caption{图1 五个 d 轨道的空间取向 — 与配体相对位置决定能级分裂方式}
+\end{figure}
+
+在正八面体场中，6 个配体沿 ±x、±y、±z 方向接近中心离子。五个简并的 d 轨道分裂为两组：
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2632}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2105}}
+  >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2632}}
+  >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2632}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\centering
+轨道组
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+轨道
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+与配体方向
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+能量变化
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\(\mathrm{e_g}\)（dγ） & \(\mathrm{d_{x^2-y^2}, d_{z^2}}\) & \textbf{指向}配体 → 排斥大 & \(+6\ \mathrm{Dq}\)（升高） \\
+\(\mathrm{t_{2g}}\)（dε） & \(\mathrm{d_{xy}, d_{yz}, d_{xz}}\) & \textbf{指向}配体之间 → 排斥小 & \(-4\ \mathrm{Dq}\)（降低） \\
+\end{longtable}
+}
+
+分裂能 \(\Delta_o = E(\mathrm{e_g}) - E(\mathrm{t_{2g}}) = 10\ \mathrm{Dq}\)
+
+\textbf{能量守恒验证}：\(2 \times (+6) + 3 \times (-4) = 0\) ✓（重心不变原理）
+
+\begin{quote}
+🗣️ \textbf{课堂原话}：``想象 5 个 d 轨道是 5 个人站在操场上------配体像 6 个拿着水枪的同学从 ±x、±y、±z 方向喷水。站得正对着水枪方向的（e\_g）被喷得最惨，站得斜的（t\textsubscript{2}g）躲开了。所以 e\_g 能量升高，t\textsubscript{2}g 能量降低。''
+\end{quote}
+
+\begin{figure}[H]\centering
+\includegraphics[width=0.9\textwidth,keepaspectratio]{octahedral_splitting.png}
+\caption{图2 八面体场中 d 轨道分裂 — t2g 降低 4 Dq，e_g 升高 6 Dq，Δₒ = 10 Dq}
+\end{figure}
+
+\begin{figure}[H]\centering
+\includegraphics[width=0.9\textwidth,keepaspectratio]{octahedral_splitting.png}
+\caption{图2b 八面体场 d 轨道分裂示意图 — 左：六配位八面体场中六个配体沿 ±x、±y、±z 方向接近；右：d 轨道分裂为 t2g（低能）和 eg（高能），Δₒ = 10 Dq，重心守恒}
+\end{figure}
+
+\paragraph{其他配位场中的分裂}\label{ux5176ux4ed6ux914dux4f4dux573aux4e2dux7684ux5206ux88c2}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2632}}
+  >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2632}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2105}}
+  >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2632}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\centering
+配位场
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+分裂能
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+轨道能级顺序（从高到低）
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+图示
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+八面体（Oh） & \(\Delta_o = 10\ \mathrm{Dq}\) & \(\mathrm{d_{x^2-y^2} = d_{z^2} > d_{xy} = d_{xz} = d_{yz}}\) & \(e_g \uparrow 6\ \mathrm{Dq}\)，\(t_{2g} \downarrow 4\ \mathrm{Dq}\) \\
+四面体（Td） & \(\Delta_t = \frac{4}{9}\Delta_o \approx 4.45\ \mathrm{Dq}\) & \(\mathrm{d_{xy} = d_{xz} = d_{yz} > d_{x^2-y^2} = d_{z^2}}\) & \(t_2 \uparrow\)，\(e \downarrow\)（与 Oh \textbf{相反}） \\
+平面正方形（D\textsubscript{4}h） & \(\Delta_s \approx 17.42\ \mathrm{Dq}\) & \(\mathrm{d_{x^2-y^2} > d_{xy} > d_{z^2} > d_{xz} = d_{yz}}\) & dₓ\textsuperscript{2}₋ᵧ\textsuperscript{2} 最高，dₓ\textsubscript{2}=dᵧ\textsubscript{2} 最低 \\
+\end{longtable}
+}
+
+\begin{quote}
+⚠️ \textbf{易错点}：四面体场的轨道符号是 e 和 t\textsubscript{2}（\textbf{不是} e\_g 和 t\textsubscript{2}g）------因为四面体场没有对称中心（g 表示中心对称）。四面体场的分裂能约为八面体场的 4/9，这是因为：① 配位数少（4 vs 6）；② 配体与 d 轨道的重叠程度小。
+\end{quote}
+
+\begin{figure}[H]\centering
+\includegraphics[width=0.9\textwidth,keepaspectratio]{tetrahedral_vs_octahedral.png}
+\caption{图3 四面体场中 d 轨道分裂 — 与八面体场能级顺序相反（Δₜ 约为 Δₒ 的 4/9）}
+\end{figure}
+
+\begin{figure}[H]\centering
+\includegraphics[width=0.9\textwidth,keepaspectratio]{tetrahedral_vs_octahedral.png}
+\caption{图3b 不同几何场中 d 轨道分裂对比 — 左：Oh 场 t2g↓/eg↑（Δₒ）；中：Td 场 e↓/t2↑（Δₜ≈4/9Δₒ）；右：D4h 场四层分裂（Δₛₚ > Δₒ）。注意 Td 场的分裂顺序与 Oh 相反}
+\end{figure}
+
+\paragraph{\texorpdfstring{空白互动表：Oh/Td/D\textsubscript{4}h 分裂参数对比}{空白互动表：Oh/Td/D4h 分裂参数对比}}\label{ux7a7aux767dux4e92ux52a8ux8868ohtdd4h-ux5206ux88c2ux53c2ux6570ux5bf9ux6bd4}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1724}}
+  >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1724}}
+  >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1724}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1379}}
+  >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1724}}
+  >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1724}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\centering
+配位场
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+配位数
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+高点群
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+分裂模式
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Δ 表达式
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Δ 典型值
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{八面体} Oh & 6 & \(O_h\) & \(t_{2g} \downarrow\)，\(e_g \uparrow\) & \(\Delta_o\) & 基准 \\
+\textbf{四面体} Td & 4 & \(T_d\) & \_\_\_\_\_\_ & \$\Delta\emph{t = \$}\_\_\_\_\_ & ≈ \_\_\_\_\_\_ \\
+\textbf{正方形} D\textsubscript{4}h & 4 & \(D_{4h}\) & \_\_\_\_\_\_ & \(\Delta_{sp} \approx\)\_\_\_\_\_\_ & ≈ \_\_\_\_\_\_ \\
+\end{longtable}
+}
+
+（课堂填空：学生自行填写各场分裂模式和 Δ 表达式）
+
+\paragraph{高自旋 vs 低自旋}\label{ux9ad8ux81eaux65cb-vs-ux4f4eux81eaux65cb}
+
+对于 \(\mathrm{d^4 \sim d^7}\) 构型，电子排布有两种可能：
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{高自旋}：\(\Delta < P\)（弱场配体）→ 电子优先分占各轨道（洪特规则）
+\item
+  \textbf{低自旋}：\(\Delta > P\)（强场配体）→ 电子优先填满低能级（配对）
+\end{itemize}
+
+\begin{quote}
+🧠 \textbf{认知冲突}：「d\textsuperscript{1}-d\textsuperscript{3} 和 d\textsuperscript{8}-d\textsuperscript{10} 怎么不分高/低自旋？」------d\textsuperscript{1}-d\textsuperscript{3} 电子数太少，还不足以塞满 t\textsubscript{2}g 轨道，没有''配对 vs 上 e\_g''的选择；d\textsuperscript{8}-d\textsuperscript{10} 电子数太多，无论如何 e\_g 上必须有电子。\textbf{只有 d\textsuperscript{4}-d\textsuperscript{7} 才有高低自旋的选择空间。}
+\textbf{速记口诀}：「d\textsuperscript{4}-d\textsuperscript{7} 才需选，d\textsuperscript{1}-d\textsuperscript{3} 高自旋，d\textsuperscript{8}-d\textsuperscript{10} 低自旋（八面体场）。」
+\end{quote}
+
+\textbf{光谱化学序列}（配体场强由弱到强）：
+
+\[
+\mathrm{I^- < Br^- < S^{2-} < SCN^- < Cl^- < OH^- < C_2O_4^{2-} < H_2O < NH_3 < en < NO_2^- < CN^- < CO}
+\]
+
+\begin{quote}
+🧠 \textbf{认知冲突}：「为什么 CO 是中性的，场强却比带负电的 I\textsuperscript{-} 强得多？」------纯静电模型预言阴离子配体应当场强更大（负电吸引正电中心离子），但事实正好相反。原因是：CO 不仅有 σ 给电子（C 上的孤对电子给金属），还有 \textbf{π 反馈}（金属的 d 电子反馈到 CO 的 π* 空轨道）。这个 π 反馈增强了金属-配体键。I\textsuperscript{-} 是 \textbf{π 给体}------它的 π 电子和金属的 d 电子排斥------减弱了 Δ。
+\textbf{配体三分类}：
+- \textbf{σ 给体}（NH\textsubscript{3}, en）：只给 σ 电子 → Δ 中等
+- \textbf{π 给体}（I\textsuperscript{-}, Br\textsuperscript{-}, Cl\textsuperscript{-}, F\textsuperscript{-}）：有孤对 π 电子→推高 t\textsubscript{2}g→Δ 减小→\textbf{弱场}
+- \textbf{π 受体}（CO, CN\textsuperscript{-}, PPh\textsubscript{3}）：有空 π* 轨道→拉低 t\textsubscript{2}g→Δ 增大→\textbf{强场}
+\end{quote}
+
+\begin{quote}
+🗣️ \textbf{课堂原话}：``光谱化学序列是整个配位化学的『元素周期表』------必须能背诵到 H\textsubscript{2}O 前后。先用弱场/强场两端记住，再向中间填：I\textsuperscript{-} 最弱，CO 最强，NH\textsubscript{3} 在中间。''
+\end{quote}
+
+\begin{figure}[H]\centering
+\includegraphics[width=0.9\textwidth,keepaspectratio]{spectrochemical_series.png}
+\caption{图3c 光谱化学序列配体排序 — 从左至右场强递增：π 给体（I-, Br-, Cl-, F-, 红色）→ σ 给体（OH-, H2O, 黄色）→ σ 给体+螯合（NH3, en, 蓝色）→ π 受体（NO2-, CN-, CO, 绿色）。配体三分类决定 Δ 大小}
+\end{figure}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}lll@{}}
+\toprule\noalign{}
+场强 & 配体 & 自旋状态 \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{弱场} & I\textsuperscript{-}, Br\textsuperscript{-}, Cl\textsuperscript{-}, F\textsuperscript{-}, H\textsubscript{2}O & 高自旋（外轨型） \\
+\textbf{中强场} & NH\textsubscript{3}, en & 依金属离子而定 \\
+\textbf{强场} & CN\textsuperscript{-}, CO, NO\textsubscript{2}\textsuperscript{-} & 低自旋（内轨型） \\
+\end{longtable}
+}
+
+\begin{figure}[H]\centering
+\includegraphics[width=0.9\textwidth,keepaspectratio]{spin_state_decision.png}
+\caption{图4 高自旋与低自旋的 d 电子排布 — Δ 与 P 的相对大小决定电子排布方式（以 Fe2+/Fe3+ 为例）}
+\end{figure}
+
+\begin{figure}[H]\centering
+\includegraphics[width=0.9\textwidth,keepaspectratio]{spin_state_decision.png}
+\caption{图4b 高/低自旋判断决策树 — 从 dⁿ 组态出发，经几何构型判断，再到 Δ 与 P 的比较，最终决定 HS/LS 状态。附磁矩 μ = √[n(n+2)] 速查}
+\end{figure}
+
+\paragraph{晶体场稳定化能（CFSE）}\label{ux6676ux4f53ux573aux7a33ux5b9aux5316ux80fdcfse}
+
+CFSE 是 d 电子在配体场中排布后，相对于未分裂时的球形场，体系能量降低的值（越负越稳定）。
+
+\[
+\mathrm{CFSE_{Oh}} = n_{t_{2g}} \times (-4\ \mathrm{Dq}) + n_{e_g} \times (+6\ \mathrm{Dq})
+\]
+
+其中 \(n_{t_{2g}}\) 为 t\textsubscript{2}g 轨道上的电子数，\(n_{e_g}\) 为 e\_g 轨道上的电子数。
+
+考虑成对能修正（低自旋时需要额外克服配对能）：
+
+\[
+\mathrm{CFSE_{Oh}} = [n_{t_{2g}} \times (-4\ \mathrm{Dq}) + n_{e_g} \times (+6\ \mathrm{Dq})] - mP
+\]
+
+其中 m 为\textbf{成对数增加值}（相对于自由离子），P 为成对能。
+
+\begin{quote}
+🧠 \textbf{认知冲突}：「CFSE 越负配合物越稳定，d\textsuperscript{5} 高自旋的 CFSE = 0------是不是它『没有』稳定化能？」------是的，但注意 CFSE 只是配合物稳定性的一个因素。螯合效应、溶剂化能、熵效应同样重要。CFSE 为零不代表配合物不稳定------比如 \([\mathrm{Mn(H_2O)_6}]^{2+}\)（d\textsuperscript{5} 高自旋，CFSE = 0）在溶液中相当稳定。
+\end{quote}
+
+\begin{figure}[H]\centering
+\includegraphics[width=0.9\textwidth,keepaspectratio]{cfse_calculation.png}
+\caption{图4c CFSE 计算四步流程 — Step 1 dⁿ→Step 2 几何构型（Oh/Td/D4h）→Step 3 按分裂能级填充电子→Step 4 代入 CFSE 公式。右侧附高低自旋判断要点}
+\end{figure}
+
+\paragraph{\texorpdfstring{d\textsuperscript{1}-d\textsuperscript{10} CFSE 计算表（八面体场）}{d1-d10 CFSE 计算表（八面体场）}}\label{d1-d10-cfse-ux8ba1ux7b97ux8868ux516bux9762ux4f53ux573a}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1852}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1481}}
+  >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1852}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1481}}
+  >{\centering\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1852}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1481}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\centering
+dⁿ
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+高自旋排布
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+HS-CFSE (Dq)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+低自旋排布
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+LS-CFSE (Dq)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+说明
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+d\textsuperscript{0} & --- & 0 & --- & 0 & 无 d 电子 \\
+d\textsuperscript{1} & \(t_{2g}^1\) & -4 & --- & --- & 仅一种 \\
+d\textsuperscript{2} & \(t_{2g}^2\) & -8 & --- & --- & 仅一种 \\
+d\textsuperscript{3} & \(t_{2g}^3\) & -12 & --- & --- & 仅一种 \\
+d\textsuperscript{4} & \(t_{2g}^3 e_g^1\) & -6 & \(t_{2g}^4\) & -16 + P & 高低自旋分水岭 \\
+d\textsuperscript{5} & \(t_{2g}^3 e_g^2\) & \textbf{0} & \(t_{2g}^5\) & -20 + 2P & HS-CFSE=0 的特殊情况 \\
+d\textsuperscript{6} & \(t_{2g}^4 e_g^2\) & -4 & \(t_{2g}^6\) & \textbf{-24 + 2P} & LS 稳定化能最大 \\
+d\textsuperscript{7} & \(t_{2g}^5 e_g^2\) & -8 & \(t_{2g}^6 e_g^1\) & -18 + P & 最后的分水岭 \\
+d\textsuperscript{8} & \(t_{2g}^6 e_g^2\) & -12 & --- & --- & 仅一种 \\
+d\textsuperscript{9} & \(t_{2g}^6 e_g^3\) & -6 & --- & --- & 仅一种（有 JT 畸变） \\
+d\textsuperscript{10} & \(t_{2g}^6 e_g^4\) & 0 & --- & --- & 全满 \\
+\end{longtable}
+}
+
+\begin{quote}
+⚠️ \textbf{关键发现}：
+- d\textsuperscript{6} 低自旋的 CFSE = -24 Dq------这是所有 dⁿ 中\textbf{绝对值最大的}，解释了为什么 Co\textsuperscript{3+}（d\textsuperscript{6}）的配合物特别稳定
+- d\textsuperscript{5} 高自旋 CFSE = 0------高自旋和低自旋唯一相同的组态（\(t_{2g}^3\) 的 -12 刚好被 \(e_g^2\) 的 +12 抵消）
+- d\textsuperscript{4}-d\textsuperscript{7} 是唯一有高低自旋选择的区间------记住这个范围！
+- 四面体场中，因分裂能小（\(\Delta_t \approx 4/9 \Delta_o\)），通常只有\textbf{高自旋}
+\end{quote}
+
+\paragraph{CFSE 的应用}\label{cfse-ux7684ux5e94ux7528}
+
+\textbf{① 稳定性比较}：同构型配合物中，CFSE 越负 → 配合物越稳定。
+
+\textbf{② 解释 Jahn-Teller 效应}：\(\mathrm{d^9}\)（如 Cu\textsuperscript{2+}）、\(\mathrm{d^7}\)（高自旋）、\(\mathrm{d^4}\)（高自旋）构型发生畸变------基态简并的八面体配合物通过几何畸变消除简并，进一步降低能量。
+
+\textbf{Cu\textsuperscript{2+} 配合物为什么几乎总是拉长的八面体？}------d\textsuperscript{9} 的 e\_g 轨道上有 3 个电子（\(e_g^3\)），相当于 1 个空穴。拉长 z 轴配体后，d\_z\textsuperscript{2} 能量降低，空穴留在 dₓ\textsuperscript{2}₋ᵧ\textsuperscript{2} 上 → 额外稳定化能。
+
+\textbf{③ 解释配合物的颜色}：d-d 跃迁------电子从 t\textsubscript{2}g 激发到 e\_g，吸收特定波长的可见光。吸收波长 λ 与 Δ 的关系：
+
+\[
+\Delta_o = h\nu = \frac{hc}{\lambda}
+\]
+
+\begin{figure}[H]\centering
+\includegraphics[width=0.9\textwidth,keepaspectratio]{d-d-transition.png}
+\caption{图5 d-d 跃迁示意图 — 电子从 t2g 激发到 e_g，吸收特定波长可见光}
+\end{figure}
+
+\begin{figure}[H]\centering
+\includegraphics[width=0.9\textwidth,keepaspectratio]{14-7-ti-h2o-6-d-d-transition-absorption-spectrum.png}
+\caption{图6 [Ti(H2O)6]3+ 的 d-d 跃迁吸收光谱 — d1 体系在约 490 nm 处有一个吸收峰，配合物呈紫红色（普通化学原理第4版 图14.7）}
+\end{figure}
+
+\begin{quote}
+📝 \textbf{练一练}：已知 {[}Ti(H\textsubscript{2}O)\textsubscript{6}{]}\textsuperscript{3+} 的 \(\lambda_{\max} = 490\ \mathrm{nm}\)。
+(1) 计算 \(\Delta_o\)（单位 kJ/mol）
+(2) 预测配合物的颜色
+\end{quote}
+
+\textbf{参考答案}：
+(1) \(\Delta_o = N_A \times hc / \lambda = 6.02\times10^{23} \times 6.626\times10^{-34} \times 3.0\times10^8 / (490\times10^{-9}) \approx 239\ \mathrm{kJ/mol}\)
+(2) 吸收绿光（\textasciitilde490 nm），呈现\textbf{紫红色}（补色）
+
+相关 KP：晶体场理论 · 高自旋与低自旋 · 光谱化学序列 · d轨道分裂 · Jahn-Teller效应 · 磁矩
+
+\subsubsection{2.4 配合物的异构现象}\label{ux914dux5408ux7269ux7684ux5f02ux6784ux73b0ux8c61}
+
+配合物的异构现象比有机化学更丰富------不仅包括结构异构（化学式相同但成键方式不同），还包括几何异构（空间排列不同）和光学异构（手性）。
+
+\paragraph{空白互动表：异构体分类对比}\label{ux7a7aux767dux4e92ux52a8ux8868ux5f02ux6784ux4f53ux5206ux7c7bux5bf9ux6bd4}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2778}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2222}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2222}}
+  >{\centering\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2778}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\centering
+异构类型
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+识别要点
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+经典实例
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+手性可能
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{结构异构} & 原子连接方式不同 & \_\_\_\_\_\_ & 无关 \\
+├ 电离异构 & 内外界成分交换 & \_\_\_\_\_\_ & --- \\
+├ 水合异构 & H\textsubscript{2}O 在内界/外界分布不同 & \_\_\_\_\_\_ & --- \\
+├ 键合异构 & 两可配体以不同原子配位 & \_\_\_\_\_\_ & --- \\
+└ 配位异构 & 配正/负离子之间交换配体 & \_\_\_\_\_\_ & --- \\
+\textbf{几何异构} & 配体空间排列不同（cis/trans, fac/mer） & \_\_\_\_\_\_ & 顺式可能有 \\
+\textbf{光学异构} & 分子有手性（无σ/无i/无S\textsubscript{4}）→对映体 & \_\_\_\_\_\_ & 必然有 \\
+\end{longtable}
+}
+
+（课堂填空：学生填写各类型的实例）
+
+\begin{figure}[H]\centering
+\includegraphics[width=0.9\textwidth,keepaspectratio]{isomer_classification.png}
+\caption{图5 配合物异构现象分类体系 — 三类异构体：结构异构（电离/水合/键合/配位）、几何异构（cis/trans、fac/mer）、光学异构（Δ/Λ 对映体）}
+\end{figure}
+
+\paragraph{（1）结构异构（构造异构）}\label{ux7ed3ux6784ux5f02ux6784ux6784ux9020ux5f02ux6784}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+类型
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+特征
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+示例
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{电离异构} & 内外界交换成分，电离出不同离子 & \([\mathrm{CoBr(NH_3)_5}]SO_4\)（SO\textsubscript{4}\textsuperscript{2-}在外界，加 Ba\textsuperscript{2+} 有沉淀）vs \([\mathrm{CoSO_4(NH_3)_5}]Br\)（Br\textsuperscript{-}在外界，加 Ag\textsuperscript{+} 有沉淀） \\
+\textbf{水合异构} & 水分子在内界和外界的分布不同 & \([\mathrm{Cr(H_2O)_6}]Cl_3\)（紫色）vs \([\mathrm{CrCl(H_2O)_5}]Cl_2\cdot H_2O\)（蓝绿色）------颜色不同！ \\
+\textbf{键合异构} & 两可配体通过不同配位原子连接 & \([\mathrm{Co(NO_2)(NH_3)_5}]Cl_2\)（硝基，N-配位）vs \([\mathrm{Co(ONO)(NH_3)_5}]Cl_2\)（亚硝酸根，O-配位） \\
+\textbf{配位异构} & 配正/负离子之间交换配体 & \([\mathrm{Co(NH_3)_6}][\mathrm{Cr(CN)_6}]\) vs \([\mathrm{Cr(NH_3)_6}][\mathrm{Co(CN)_6}]\) \\
+\end{longtable}
+}
+
+\paragraph{（2）几何异构（顺反异构 + fac/mer）}\label{ux51e0ux4f55ux5f02ux6784ux987aux53cdux5f02ux6784-facmer}
+
+出现在配位数 ≥ 4 的配合物中，最常见于\textbf{平面正方形}和\textbf{八面体}配合物。
+
+\textbf{平面正方形 \(\mathrm{Ma_2c_2}\) 型}（如 \([\mathrm{Pt(NH_3)_2Cl_2}]\)）：
+- \textbf{顺式}（cis）：相同配体相邻 → 极性分子 → 有抗癌活性（顺铂）
+- \textbf{反式}（trans）：相同配体相对 → 非极性分子 → 无抗癌活性
+
+\textbf{八面体 \(\mathrm{Ma_4e_2}\) 型}（如 \([\mathrm{Co(NH_3)_4Cl_2}]^+\)）：
+- 顺式（cis/1,2-）：2 个 Cl 相邻 → 有光学活性
+- 反式（trans/1,6-）：2 个 Cl 相对 → 有对称面 → 无光学活性
+
+\textbf{八面体 \(\mathrm{Ma_3b_3}\) 型}（如 \([\mathrm{CoCl_3(NH_3)_3}]\)）：
+- \textbf{面式（fac）}：3 个相同配体共占八面体的一个面 → \textbf{有手性}（一对对映体）
+- \textbf{经式（mer）}：3 个相同配体共占八面体的一条经线 → 无手性
+
+\begin{quote}
+🧠 \textbf{认知冲突}：「Ma\textsubscript{3}b\textsubscript{3} 型八面体配合物有几种异构体？」------大多数学生只画出 fac 和 mer 两种几何异构就停了。但 fac 结构无对称面→有手性→存在\textbf{一对对映体}！所以总共是 3 种：反式 1 种 + 顺式一对（2 种）。\textbf{枚举异构体后别忘了检查手性！}
+\end{quote}
+
+\begin{quote}
+🗣️ \textbf{课堂原话}：「先定骨架，再排配体，最后查手性------这是枚举异构体的『固定-变换法』。配体种类越多，八面体的异构体越复杂，Ma\textsubscript{2}b\textsubscript{2}c\textsubscript{2} 有 6 种异构体（含光学异构）。」
+\end{quote}
+
+\paragraph{（3）光学异构（镜面异构/手性异构）}\label{ux5149ux5b66ux5f02ux6784ux955cux9762ux5f02ux6784ux624bux6027ux5f02ux6784}
+
+\textbf{条件}：分子无对称面、无对称中心、无交替轴（S\textsubscript{4}）→ 手性分子 → 存在一对对映体。
+
+\textbf{口诀}：「无 σ 无 i 无 S\textsubscript{4} 则 Chiral」
+
+\textbf{常见手性配合物}：
+- \(\mathrm{[M(AA)_3]}\) 型（AA 为双齿配体）：如 \([\mathrm{Co(en)_3}]^{3+}\)、\([\mathrm{Cr(ox)_3}]^{3-}\)------有 Λ 和 Δ 两种对映体
+- \(\mathrm{cis-[M(AA)_2X_2]}\) 型：如 \(cis-[\mathrm{Co(en)_2Cl_2}]^+\)
+- \textbf{四面体 \(\mathrm{Mabcd}\)} 型（四个不同配体）
+
+\begin{quote}
+💡 \textbf{判断技巧}：若配合物存在对称面或对称中心 → 无光学异构。\(\mathrm{trans-[M(AA)_2X_2]}\) 有对称面 → 无光学异构；\(\mathrm{cis-}\) 无对称面 → 有光学异构。
+\end{quote}
+
+相关 KP：配合物 · 配位异构 · 手性
+
+\subsubsection{2.5 常见误区与认知陷阱}\label{ux5e38ux89c1ux8befux533aux4e0eux8ba4ux77e5ux9677ux9631}
+
+\begin{quote}
+⚠️ \textbf{误区 1}：「配合物一定有外界。」
+\textbf{纠正}：\(\mathrm{[Ni(CO)_4]}\)、\(\mathrm{[Fe(CO)_5]}\) 等中性配合物只有内界，没有外界。配合物整体呈电中性时不需要外界离子。
+\end{quote}
+
+\begin{quote}
+⚠️ \textbf{误区 2}：「内轨型配合物一定有磁性变化。」
+\textbf{纠正}：d\textsuperscript{1}\textasciitilde d\textsuperscript{3} 构型本身有空的 d 轨道，形成内轨型配合物时 d 电子排布不变，磁性不变。例如 \([\mathrm{Cr(NH_3)_6}]^{3+}\)（Cr\textsuperscript{3+} d\textsuperscript{3}）为内轨型（d\textsuperscript{2}sp\textsuperscript{3}），但仍有 3 个未成对电子。
+\end{quote}
+
+\begin{quote}
+⚠️ \textbf{误区 3}：「高自旋 = 外轨型，低自旋 = 内轨型，两者完全等同。」
+\end{quote}
+
+\begin{quote}
+⚠️ \textbf{误区 4}：「所有八面体配合物都有高/低自旋之分。」
+\textbf{纠正}：d\textsuperscript{1}\textasciitilde d\textsuperscript{3} 只有一种排布（电子数太少，无法选择）；d\textsuperscript{8}\textasciitilde d\textsuperscript{10} 也只有一种排布。\textbf{只有 d\textsuperscript{4}\textasciitilde d\textsuperscript{7} 才有两种可能。}
+\end{quote}
+
+\begin{quote}
+⚠️ \textbf{误区 5}：「命名时配体顺序可以随意。」
+\textbf{纠正}：IUPAC 规则严格规定：先负离子→后中性分子→再按配位原子字母顺序。这个是命名题主要扣分点。
+\end{quote}
+
+\begin{quote}
+⚠️ \textbf{误区 6}：「CFSE 越大配合物就一定越稳定。」
+\textbf{纠正}：CFSE 是重要因素，但还需考虑螯合效应（熵增）、溶剂化能、配体间排斥等因素。例如 \([\mathrm{Ni(en)_3}]^{2+}\) 的 CFSE 比 \([\mathrm{Ni(NH_3)_6}]^{2+}\) 大不了很多，但前者\textbf{稳定得多}------这是螯合效应（熵增）的贡献。
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{三、典型例题}\label{ux4e09ux5178ux578bux4f8bux9898}
+
+\subsubsection{例 1 {[}配合物命名与组成 ⭐⭐}\label{ux4f8b-1-ux914dux5408ux7269ux547dux540dux4e0eux7ec4ux6210}
+
+\textbf{题目}：写出下列配合物的名称，并指出中心离子、配体、配位数：
+(1) \(\mathrm{K_3[Fe(CN)_6]}\) (2) \([\mathrm{Co(NH_3)_5(H_2O)}]Cl_3\) (3) \(\mathrm{H_2[SiF_6]}\)
+
+\textbf{完整解答}：
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1667}}
+  >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2083}}
+  >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2083}}
+  >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2083}}
+  >{\centering\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2083}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+配合物
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+名称
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+中心离子
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+配体
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+配位数
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\(\mathrm{K_3[Fe(CN)_6]}\) & 六氰合铁(Ⅲ)酸钾 & Fe\textsuperscript{3+} & 6 × CN\textsuperscript{-} & 6 \\
+\([\mathrm{Co(NH_3)_5(H_2O)}]Cl_3\) & 三氯化五氨·一水合钴(Ⅲ) & Co\textsuperscript{3+} & 5 × NH\textsubscript{3} + 1 × H\textsubscript{2}O & 6 \\
+\(\mathrm{H_2[SiF_6]}\) & 六氟合硅(Ⅳ)酸 & Si\textsuperscript{4+} & 6 × F\textsuperscript{-} & 6 \\
+\end{longtable}
+}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 0\tabcolsep) * \real{0.0556}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+\#\#\# 例 2 {[}内/外轨型+磁性判断 ⭐⭐⭐
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\#\#\# 例 3 {[}EAN 18 电子规则 ⭐⭐⭐ \\
+\textbf{题目}：判断下列配合物是否符合 18 电子规则：\(\mathrm{[Ni(CO)_4]}\)、\(\mathrm{[Mn(CO)_6]^+}\)、\(\mathrm{[Fe_2(CO)_9]}\) \\
+\textbf{思路分析}：中心原子价电子数 + 配体提供的电子数 = 18？ \\
+\textbf{完整解答}： \\
+\textbar{} 配合物 \textbar{} 中心原子价电子 \textbar{} 配体贡献 \textbar{} 总和 \textbar{} 符合？ \textbar{}
+\textbar:---\textbar:---:\textbar:---:\textbar:---:\textbar:---:\textbar{}
+\textbar{} \(\mathrm{[Ni(CO)_4]}\) \textbar{} Ni(0): 10e\textsuperscript{-} \textbar{} 4 × CO = 8e\textsuperscript{-} \textbar{} 18 \textbar{} ✅ \textbar{}
+\textbar{} \(\mathrm{[Mn(CO)_6]^+}\) \textbar{} Mn\textsuperscript{+}: 6e\textsuperscript{-} \textbar{} 6 × CO = 12e\textsuperscript{-} \textbar{} 18 \textbar{} ✅ \textbar{}
+\textbar{} \(\mathrm{[Fe_2(CO)_9]}\) \textbar{} Fe(0): 8e\textsuperscript{-} \textbar{} 3×桥CO=3e\textsuperscript{-} + 3×端CO=6e\textsuperscript{-} + 1×Fe-Fe=1e\textsuperscript{-} \textbar{} 18 \textbar{} ✅ \textbar{} \\
+\textbf{关键}：\(\mathrm{[Fe_2(CO)_9]}\) 中有 3 个桥联 CO（每个为每个 Fe 贡献 1e\textsuperscript{-}），3 个端基 CO（每个 2e\textsuperscript{-}），以及 1 条 Fe---Fe 键（1e\textsuperscript{-}），合计 \(8 + 3 + 6 + 1 = 18\)。 \\
+\end{longtable}
+}
+
+\subsubsection{例 4 {[}CFSE 计算 + 高/低自旋判断 ⭐⭐⭐⭐}\label{ux4f8b-4-cfse-ux8ba1ux7b97-ux9ad8ux4f4eux81eaux65cbux5224ux65ad}
+
+\textbf{题目}：比较 \([\mathrm{Fe(H_2O)_6}]^{2+}\) 和 \([\mathrm{Fe(CN)_6}]^{4-}\) 的 CFSE 和自旋状态。已知 Fe\textsuperscript{2+} 的 P = 179.4 kJ/mol，\(\Delta_o(\mathrm{H_2O}) = 124.4\ \mathrm{kJ/mol}\)，\(\Delta_o(\mathrm{CN^-}) = 394.7\ \mathrm{kJ/mol}\)。
+
+\textbf{思路分析}：比较 Δ 和 P → 判断高/低自旋 → 算 CFSE
+
+\textbf{完整解答}：
+
+\textbf{\([\mathrm{Fe(H_2O)_6}]^{2+}\)}：Δ = 124.4 \textless{} P = 179.4 → \textbf{高自旋}
+- d\textsuperscript{6} 高自旋：\(\mathrm{t_{2g}^4 e_g^2}\)（4 个电子在 t\textsubscript{2}g，2 个在 e\_g）
+- CFSE = \(4(-4\ \mathrm{Dq}) + 2(+6\ \mathrm{Dq}) = -4\ \mathrm{Dq}\)
+
+\textbf{\([\mathrm{Fe(CN)_6}]^{4-}\)}：Δ = 394.7 \textgreater{} P = 179.4 → \textbf{低自旋}
+- d\textsuperscript{6} 低自旋：\(\mathrm{t_{2g}^6 e_g^0}\)（6 个电子全部在 t\textsubscript{2}g）
+- CFSE = \(6(-4\ \mathrm{Dq}) + 0(+6\ \mathrm{Dq}) = -24\ \mathrm{Dq}\)
+
+\textbf{结论}：\([\mathrm{Fe(CN)_6}]^{4-}\) 的 CFSE 远大于 \([\mathrm{Fe(H_2O)_6}]^{2+}\)（差值 20 Dq），因此前者更稳定。配合物颜色的差异也源于 Δ 的不同------前者吸收蓝紫色光（Δ 大→\(\lambda\) 短），后者吸收红光（Δ 小→\(\lambda\) 长）。
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 0\tabcolsep) * \real{0.0556}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+\#\#\# 例 5 {[}异构体判断与枚举 ⭐⭐⭐⭐
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\#\#\# 例 6 {[}磁性 + 颜色 + 构型综合判断 ⭐⭐⭐⭐ \\
+\textbf{题目}：某含 Fe 配合物的化学式为 \(\mathrm{K_3[FeF_6]}\)，实验测得 \(\mu = 5.92\ \mathrm{B.M.}\)。
+(1) 判断 Fe 的氧化态和 dⁿ 组态；
+(2) 判断高/低自旋并写出 d 电子排布；
+(3) 计算 CFSE（以 Dq 为单位）；
+(4) 预测该配合物的颜色。 \\
+\textbf{完整解答}： \\
+(1) K\textsubscript{3} → 3 个 K\textsuperscript{+} → 配阴离子为 {[}FeF\textsubscript{6}{]}\textsuperscript{3-} → Fe 氧化态为 +3 → Fe\textsuperscript{3+} 为 d\textsuperscript{5} \\
+(2) \(\mu = \sqrt{n(n+2)} = 5.92 \rightarrow n = 5\) → 5 个未成对电子 → \textbf{高自旋}
+- 排布：\(\mathrm{t_{2g}^3 e_g^2}\) \\
+(3) CFSE = \(3(-4\ \mathrm{Dq}) + 2(+6\ \mathrm{Dq}) = 0\ \mathrm{Dq}\)
+- d\textsuperscript{5} 高自旋的 CFSE 恰好为零（\(t_{2g}^3\) 的 -12 Dq 与 \(e_g^2\) 的 +12 Dq 抵消） \\
+(4) F\textsuperscript{-} 是弱场配体 → Δ 小 → 吸收红光（\textasciitilde700 nm）→ 配合物呈\textbf{浅绿色}（补色）
+实际上 K\textsubscript{3}{[}FeF\textsubscript{6}{]} 为浅绿色晶体，与预测一致。 \\
+\end{longtable}
+}
+
+\subsection{四、拓展与联系}\label{ux56dbux62d3ux5c55ux4e0eux8054ux7cfb}
+
+\subsubsection{4.1 与竞赛真题的对接}\label{ux4e0eux7adeux8d5bux771fux9898ux7684ux5bf9ux63a5}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3077}}
+  >{\centering\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3846}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3077}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+考点
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+频率
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+说明
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+价键理论 + 内/外轨 + 磁性 & 每年 1-2 题 & 常给出磁矩数据反推结构 \\
+CFSE 计算 + 高/低自旋 & 每年 1 题 & 常与颜色、稳定性结合考查 \\
+几何异构/光学异构 & 隔年 1 题 & 常以 \([\mathrm{M(AA)_2X_2}]\) 或 \([\mathrm{M(AA)_3}]\) 形式出现 \\
+EAN 18 电子规则 & 隔年 1 题 & 金属有机配合物推断 \\
+配合物命名 & 每年 1 题 & 基础分，不可失 \\
+\end{longtable}
+}
+
+\subsubsection{4.2 跨专题联系}\label{ux8de8ux4e13ux9898ux8054ux7cfb}
+
+\begin{itemize}
+\tightlist
+\item
+  杂化轨道理论 → 价键理论的基础
+\item
+  分子轨道理论 → 配位场理论的更完整处理（ML\textsubscript{6} σ + π 成键）
+\item
+  晶体场理论 → Jahn-Teller 效应 → 配合物颜色与光谱
+\item
+  18电子规则 → 金属有机化学 → 羰基配合物
+\item
+  配位异构 → 手性 → 旋光性
+\item
+  过渡金属通性 → 配合物的元素化学特性
+\end{itemize}
+
+\subsubsection{4.3 深化方向（后续轮次展开）}\label{ux6df1ux5316ux65b9ux5411ux540eux7eedux8f6eux6b21ux5c55ux5f00}
+
+🔷 本节建立配位化学的入门基础，以下内容将在后续轮次深化：
+- \textbf{分子轨道理论处理配合物}（AOM、σ/π 成键、光谱化学序列的理论解释）------第三轮
+- \textbf{Jahn-Teller 效应的定量分析}（畸变能与结构预测）------第三轮结构深化
+- \textbf{配位催化循环}（Wacker 氧化、氢甲酰化）------第三轮金属有机
+- \textbf{生物无机配合物}（卟啉、铁硫簇、固氮酶）------决赛拓展
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{五、方法总结}\label{ux4e94ux65b9ux6cd5ux603bux7ed3}
+
+\subsubsection{5.1 配合物分析四步法}\label{ux914dux5408ux7269ux5206ux6790ux56dbux6b65ux6cd5}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{给定配合物信息（化学式、磁性、颜色等）}
+\NormalTok{    ↓}
+\NormalTok{Step 1: 识别}
+\NormalTok{   确定中心离子氧化态 + dⁿ 组态 + 配体种类和数目 → 配位数}
+\NormalTok{    ☐ 氧化态计算正确，注意配合物总电荷}
+\NormalTok{    ☐ 配体 denticity 正确（单齿/双齿/多齿）}
+\NormalTok{    ↓}
+\NormalTok{Step 2: 构型}
+\NormalTok{   由配位数和 dⁿ 判断构型（八面体/四面体/平面正方形）}
+\NormalTok{   考虑 Jahn{-}Teller 畸变可能（d\^{}4\^{} HS / d\^{}7\^{} LS / d\^{}9\^{}）}
+\NormalTok{    ☐ d\^{}0\^{} 无 CFSE 偏好，d\^{}8\^{}+强场→平面正方形}
+\NormalTok{    ↓}
+\NormalTok{Step 3: 电子排布}
+\NormalTok{   确定高/低自旋（看配体场强 vs dⁿ 范围）}
+\NormalTok{   写 t\textasciitilde{}2\textasciitilde{}gˣ e\_gʸ → 算 CFSE → 算未成对电子数 n → 磁矩 μ = √[n(n+2)]}
+\NormalTok{    ☐ d\^{}4\^{}{-}d\^{}7\^{} 才有高低自旋之分}
+\NormalTok{    ☐ 4d/5d 几乎总是低自旋}
+\NormalTok{    ☐ CFSE = n(t\textasciitilde{}2\textasciitilde{}g)({-}4) + n(e\_g)(+6) Dq（八面体场）}
+\NormalTok{    ↓}
+\NormalTok{Step 4: 性质推断}
+\NormalTok{   颜色（d{-}d 跃迁吸收补色）→ 稳定性 → 异构体计数}
+\NormalTok{    ☐ d\^{}0\^{}/d\^{}10\^{} 配合物通常无色}
+\NormalTok{    ☐ 枚举异构体后检查手性}
+\end{Highlighting}
+\end{Shaded}
+
+\subsubsection{5.2 核心速查表}\label{ux6838ux5fc3ux901fux67e5ux8868}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+概念
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+关键公式/规律
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+注意点
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{配合物组成} & 内界 + 外界；中心离子 + 配体 & 中性配合物无外界 \\
+\textbf{命名} & 配体数-配体名-``合''-中心离子-(氧化数) & 配体顺序：负→中，无→有，字母序 \\
+\textbf{价键理论} & 杂化类型 → 空间构型 & 相同配位数可不同杂化→不同构型 \\
+\textbf{内轨/外轨} & 内轨：(n-1)d 参与，d 电子重排；外轨：nd 参与，不重排 & 须磁矩实验判断 \\
+\textbf{EAN 规则} & 金属价电子 + 配体电子 = 18 & NO 按 3e\textsuperscript{-} 计；M---M 键 1e\textsuperscript{-}/条 \\
+\textbf{晶体场理论} & Δ \textgreater{} P → 低自旋；Δ \textless{} P → 高自旋 & d\textsuperscript{1-3}、d\textsuperscript{8-10} 无高低自旋之分 \\
+\textbf{CFSE（Oh）} & \(n_{t_{2g}}(-4) + n_{e_g}(+6)\) Dq & 零场 (d\textsuperscript{0}/d\textsuperscript{5}高/d\textsuperscript{10}弱场) → CFSE = 0 \\
+\textbf{磁矩公式} & \(\mu = \sqrt{n(n+2)}\) B.M. & μ = 0 → 反磁性；μ \textgreater{} 0 → 顺磁性 \\
+\textbf{光谱化学序列} & I\textsuperscript{-} \textless{} Br\textsuperscript{-} \textless{} Cl\textsuperscript{-} \textless{} F\textsuperscript{-} \textless{} H\textsubscript{2}O \textless{} NH\textsubscript{3} \textless{} en \textless{} NO\textsubscript{2}\textsuperscript{-} \textless{} CN\textsuperscript{-} \textless{} CO & 记住两端：I\textsuperscript{-} 最弱，CO 最强 \\
+\textbf{异构体} & 结构异构 + 几何异构 + 光学异构 & 反式有对称面→无光学活性；fac 有手性 \\
+\end{longtable}
+}
+
+\subsubsection{5.3 高/低自旋判断流程图}\label{ux9ad8ux4f4eux81eaux65cbux5224ux65adux6d41ux7a0bux56fe}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{给定中心离子 dⁿ 组态 + 配体}
+\NormalTok{    ↓}
+\NormalTok{dⁿ 在 d\^{}4\^{}\textasciitilde{}d\^{}7\^{} 范围内？}
+\NormalTok{├─ 否（d\^{}0\^{}{-}d\^{}3\^{} / d\^{}8\^{}{-}d\^{}10\^{}）→ 只有一种排布方式，无 HS/LS 之分}
+\NormalTok{└─ 是 → 查配体在光谱化学序列中的位置}
+\NormalTok{    ├─ 弱场配体（I\^{}{-}\^{}, Br\^{}{-}\^{}, Cl\^{}{-}\^{}, F\^{}{-}\^{}, H\textasciitilde{}2\textasciitilde{}O）→ Δ \textless{} P → 高自旋}
+\NormalTok{    ├─ 中强场（NH\textasciitilde{}3\textasciitilde{}, en）→ 依金属而定}
+\NormalTok{    └─ 强场配体（CN\^{}{-}\^{}, CO, NO\textasciitilde{}2\textasciitilde{}\^{}{-}\^{}）→ Δ \textgreater{} P → 低自旋}
+\NormalTok{        ↓}
+\NormalTok{写 d 电子排布 → 算 CFSE → 算 μ}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{六、练习题}\label{ux516dux7ec3ux4e60ux9898}
+
+\subsubsection{6.1 基础巩固}\label{ux57faux7840ux5de9ux56fa}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  命名下列配合物，并指出中心离子的氧化数和配位数：
+
+  \begin{enumerate}
+  \def\labelenumii{(\arabic{enumii})}
+  \tightlist
+  \item
+    \(\mathrm{[Cu(NH_3)_4]SO_4}\) (2) \(\mathrm{K_2[PtCl_6]}\) (3) \(\mathrm{[CoCl_2(en)_2]Cl}\)
+  \end{enumerate}
+\item
+  写出下列配合物的化学式：
+
+  \begin{enumerate}
+  \def\labelenumii{(\arabic{enumii})}
+  \tightlist
+  \item
+    六氰合铁(Ⅲ)酸钾 (2) 三氯化五氨·一水合钴(Ⅲ) (3) 四氯合铂(Ⅱ)酸四氨合铜(Ⅱ)
+  \end{enumerate}
+\item
+  判断 \(\mathrm{[Ni(CN)_4]^{2-}}\) 和 \(\mathrm{[Ni(NH_3)_4]^{2+}}\) 的空间构型分别是什么？为什么同一中心离子配位数相同但构型不同？
+\item
+  解释为什么 \([\mathrm{Cu(NH_3)_4}]SO_4\) 溶液中加 BaCl\textsubscript{2} 产生白色沉淀，加 NaOH 却不产生蓝色沉淀。
+\end{enumerate}
+
+\subsubsection{6.2 提高训练}\label{ux63d0ux9ad8ux8badux7ec3}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{4}
+\item
+  实验测得 \([\mathrm{Fe(H_2O)_6}]^{2+}\) 的磁矩为 5.30 B.M.，\([\mathrm{Fe(CN)_6}]^{4-}\) 的磁矩为 0 B.M.。请分别判断它们的 d 电子排布、杂化类型、内/外轨型和空间构型。
+\item
+  验证下列配合物是否符合 18 电子规则：
+
+  \begin{enumerate}
+  \def\labelenumii{(\arabic{enumii})}
+  \tightlist
+  \item
+    \(\mathrm{[Cr(CO)_6]}\) (2) \(\mathrm{[Mn_2(CO)_{10}]}\) (3) \(\mathrm{[Fe(CO)_4H_2]}\) (4) \(\mathrm{[V(CO)_6]}\)
+  \end{enumerate}
+\item
+  计算下列配合物在八面体场中的 CFSE（以 Dq 为单位）：
+
+  \begin{enumerate}
+  \def\labelenumii{(\arabic{enumii})}
+  \tightlist
+  \item
+    \([\mathrm{Ti(H_2O)_6}]^{3+}\)（d\textsuperscript{1}） (2) \([\mathrm{Co(NH_3)_6}]^{3+}\)（低自旋 d\textsuperscript{6}） (3) \([\mathrm{Mn(H_2O)_6}]^{2+}\)（高自旋 d\textsuperscript{5}）
+  \end{enumerate}
+\item
+  画出 \([\mathrm{Pt(NH_3)_2Cl_2}]\) 的所有几何异构体，并指出哪个有抗癌活性。
+\item
+  计算 \([\mathrm{Ni(CN)_4}]^{2-}\) 中 Ni\textsuperscript{2+} 的配位数。已知 CN\textsuperscript{-} 为单齿配体。
+\end{enumerate}
+
+\subsubsection{6.3 挑战题}\label{ux6311ux6218ux9898}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{9}
+\item
+  某八面体配合物 \(\mathrm{[Co(NH_3)_4Cl_2]^+}\) 的磁矩为 0 B.M.。
+
+  \begin{enumerate}
+  \def\labelenumii{(\arabic{enumii})}
+  \tightlist
+  \item
+    判断中心离子的 d 电子排布和自旋状态。
+  \item
+    推测该配合物可能的几何异构体数目，并判断各有无光学活性。
+  \item
+    若将 Cl\textsuperscript{-} 替换为 Br\textsuperscript{-}，异构体数目是否变化？为什么？
+  \end{enumerate}
+\item
+  \(\mathrm{Co^{3+}}\) 与 en（乙二胺）形成配合物 \(\mathrm{[Co(en)_3]^{3+}}\)。
+
+  \begin{enumerate}
+  \def\labelenumii{(\arabic{enumii})}
+  \tightlist
+  \item
+    画出该配合物的全部异构体。
+  \item
+    \(\mathrm{[Co(en)_2Cl_2]^+}\) 有多少种异构体？其中哪些有光学活性？
+  \item
+    用晶体场理论计算 \(\mathrm{[Co(en)_3]^{3+}}\) 的 CFSE（已知 en 为强场配体，d\textsuperscript{6} 低自旋）。
+  \end{enumerate}
+\item
+  已知 \(\mathrm{[Ti(H_2O)_6]^{3+}}\) 在 490 nm 处有最大吸收。计算其 Δₒ（单位 kJ/mol）并预测配合物颜色。
+\item
+  比较 \([\mathrm{CoF_6}]^{3-}\) 和 \([\mathrm{Co(CN)_6}]^{3-}\) 的自旋状态、磁矩和 CFSE，解释差异原因。
+\item
+  \(\mathrm{K_3[FeF_6]}\) 的磁矩为 5.92 B.M.，而 \(\mathrm{K_3[Fe(CN)_6]}\) 的磁矩约为 2.3 B.M.。解释磁矩差异的电子结构原因。
+\item
+  解释为什么 d\textsuperscript{5} 高自旋的 CFSE = 0，但 \([\mathrm{Mn(H_2O)_6}]^{2+}\) 仍然可以稳定存在。
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{七、参考答案与提示}\label{ux4e03ux53c2ux8003ux7b54ux6848ux4e0eux63d0ux793a}
+
+\textbf{6.1 基础巩固}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \begin{enumerate}
+  \def\labelenumii{(\arabic{enumii})}
+  \tightlist
+  \item
+    硫酸四氨合铜(Ⅱ)，Cu\textsuperscript{2+}，配位数 4
+  \item
+    六氯合铂(Ⅳ)酸钾，Pt\textsuperscript{4+}，配位数 6
+  \item
+    一氯化二氯·二(乙二胺)合钴(Ⅲ)，Co\textsuperscript{3+}，配位数 6
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumii{(\arabic{enumii})}
+  \tightlist
+  \item
+    \(\mathrm{K_3[Fe(CN)_6]}\) (2) \([\mathrm{Co(NH_3)_5(H_2O)}]Cl_3\) (3) \([\mathrm{Cu(NH_3)_4}][\mathrm{PtCl_4}]\)
+  \end{enumerate}
+\item
+  \([\mathrm{Ni(CN)_4}]^{2-}\)：dsp\textsuperscript{2} → 平面正方形；\([\mathrm{Ni(NH_3)_4}]^{2+}\)：sp\textsuperscript{3} → 正四面体。CN\textsuperscript{-} 为强场配体，使 Ni\textsuperscript{2+} 的 3d 电子重排归并，空出 3d 轨道形成 dsp\textsuperscript{2} 杂化。
+\item
+  \([\mathrm{Cu(NH_3)_4}]SO_4 \rightarrow [\mathrm{Cu(NH_3)_4}]^{2+} + SO_4^{2-}\)。SO\textsubscript{4}\textsuperscript{2-} 在外界，遇 Ba\textsuperscript{2+} 产生 BaSO\textsubscript{4} 白色沉淀；Cu\textsuperscript{2+} 在内界被 NH\textsubscript{3} 牢固配位，不释放 Cu\textsuperscript{2+}，故无 Cu(OH)\textsubscript{2} 沉淀。
+\end{enumerate}
+
+\textbf{6.2 提高训练}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{4}
+\item
+  \textbf{\([\mathrm{Fe(H_2O)_6}]^{2+}\)}（μ = 5.30 → n = 4）→ d\textsuperscript{6} 高自旋 \(\mathrm{t_{2g}^4 e_g^2}\) → sp\textsuperscript{3}d\textsuperscript{2} 外轨 → 正八面体
+  \textbf{\([\mathrm{Fe(CN)_6}]^{4-}\)}（μ = 0 → n = 0）→ d\textsuperscript{6} 低自旋 \(\mathrm{t_{2g}^6 e_g^0}\) → d\textsuperscript{2}sp\textsuperscript{3} 内轨 → 正八面体
+\item
+  \begin{enumerate}
+  \def\labelenumii{(\arabic{enumii})}
+  \tightlist
+  \item
+    Cr(0): 6e\textsuperscript{-} + 6×CO=12 → 18 ✅
+  \item
+    Mn(0): 7e\textsuperscript{-}，每个 Mn: 5×CO端基=10 + 1×Mn---Mn键=1 → 18 ✅
+  \item
+    Fe(II): 6e\textsuperscript{-} + 4×CO=8 + 2×H\textsuperscript{-}=4 → 18 ✅
+  \item
+    V(0): 5e\textsuperscript{-} + 6×CO=12 → 17 ❌（奇电子，空间位阻阻止二聚）
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumii{(\arabic{enumii})}
+  \tightlist
+  \item
+    d\textsuperscript{1} → \(\mathrm{t_{2g}^1}\) → CFSE = \(-4\ \mathrm{Dq}\)
+  \item
+    d\textsuperscript{6} 低自旋 → \(\mathrm{t_{2g}^6}\) → CFSE = \(-24\ \mathrm{Dq}\)
+  \item
+    d\textsuperscript{5} 高自旋 → \(\mathrm{t_{2g}^3 e_g^2}\) → CFSE = 0
+  \end{enumerate}
+\item
+  Pt\textsuperscript{2+} 为 d\textsuperscript{8}，平面正方形。顺式（cis）有抗癌活性，反式（trans）无抗癌活性。
+\item
+  Pt\textsuperscript{2+} 配位数 = 4（4 个单齿 CN\textsuperscript{-} 配体）
+\end{enumerate}
+
+\textbf{6.3 挑战题}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{9}
+\item
+  \begin{enumerate}
+  \def\labelenumii{(\arabic{enumii})}
+  \tightlist
+  \item
+    μ = 0 → n = 0 → Co\textsuperscript{3+} d\textsuperscript{6} 低自旋 → \(\mathrm{t_{2g}^6 e_g^0}\)
+  \item
+    \(\mathrm{[Co(NH_3)_4Cl_2]^+}\)（\(\mathrm{Ma_4e_2}\) 型）→ 顺式（1,2-）和反式（1,6-）。顺式无对称面 → 有光学活性（一对对映体）；反式有对称面 → 无光学活性。总计 3 种异构体。
+  \item
+    替换为 Br\textsuperscript{-} 后异构体数目不变，仍为 \(\mathrm{Ma_4e_2}\) 型。
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumii{(\arabic{enumii})}
+  \tightlist
+  \item
+    \([\mathrm{Co(en)_3}]^{3+}\)（\(\mathrm{[M(AA)_3]}\) 型）→ 一对光学异构体（Λ 和 Δ）。
+  \item
+    \([\mathrm{Co(en)_2Cl_2}]^+\)：反式（无光学活性）+ 顺式（一对对映体）= 共 3 种。
+  \item
+    en 为强场配体 → Co\textsuperscript{3+} d\textsuperscript{6} 低自旋 → \(\mathrm{t_{2g}^6}\) → CFSE = \(-24\ \mathrm{Dq}\)。
+  \end{enumerate}
+\item
+  \(\Delta_o = N_A hc/\lambda = 6.02\times10^{23} \times 6.626\times10^{-34} \times 3.0\times10^8 / (490\times10^{-9}) \approx 239\ \mathrm{kJ/mol}\)。吸收绿光（\textasciitilde490 nm），呈紫红色。
+\item
+  \([\mathrm{CoF_6}]^{3-}\)：F\textsuperscript{-} 弱场 → 高自旋 d\textsuperscript{6}（\(\mathrm{t_{2g}^4 e_g^2}\)，n=4，μ≈4.90 B.M.，CFSE=-4 Dq）。\([\mathrm{Co(CN)_6}]^{3-}\)：CN\textsuperscript{-} 强场 → 低自旋 d\textsuperscript{6}（\(\mathrm{t_{2g}^6}\)，n=0，μ=0，CFSE=-24 Dq）。Δ 与 P 的相对大小决定。
+\item
+  K\textsubscript{3}{[}FeF\textsubscript{6}{]}：F\textsuperscript{-} 弱场 → Fe\textsuperscript{3+} d\textsuperscript{5} 高自旋（5 个未成对电子，μ=5.92 B.M.）。K\textsubscript{3}{[}Fe(CN)\textsubscript{6}{]}：CN\textsuperscript{-} 强场 → Fe\textsuperscript{3+} d\textsuperscript{5} 低自旋（1 个未成对电子，μ≈2.3 B.M.，实验值因自旋-轨道耦合略高）。
+\item
+  d\textsuperscript{5} 高自旋的 \(\mathrm{t_{2g}^3 e_g^2}\) 排布中，t\textsubscript{2}g 的 -12 Dq 与 e\_g 的 +12 Dq 恰好抵消 → CFSE = 0。但配合物的稳定性不仅来自 CFSE，还来自配位键的强度、溶剂化能、螯合效应等。\([\mathrm{Mn(H_2O)_6}]^{2+}\) 的配位键本身就有相当的强度。
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{八、延伸阅读}\label{ux516bux5ef6ux4f38ux9605ux8bfb}
+
+\begin{itemize}
+\tightlist
+\item
+  配合物 --- 核心知识点详解
+\item
+  晶体场理论 --- 完整推导 + Jahn-Teller 效应 + CFSE 全表
+\item
+  18电子规则 --- 竞赛级应用详解
+\item
+  专题-配位化学 --- 专题知识系统总结（含解题套路+例题串讲）
+\item
+  12-教学洞察/教学洞察-配合物基础 --- 教学决策支持：认知冲突、高频错误、有效类比
+\item
+  光谱化学序列 --- 配体场强完整解析与 σ/π 解释
+\item
+  高自旋与低自旋 --- Δ vs P 判断逻辑 + dⁿ 组态速查
+\item
+  过渡金属通性 --- 配合物的元素化学特征
+\item
+  宋天佑《无机化学》§8-9 章（配合物 + 晶体场）
+\item
+  上海中学竞赛课程·化学·第二分册·第六讲
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\end{document}

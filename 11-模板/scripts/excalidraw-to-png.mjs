@@ -20,7 +20,7 @@ const outputFile = process.argv[3] || inputFile.replace(/\.md$/i, '.png');
 
 // 1. Read and extract JSON from Excalidraw .md file
 const mdContent = fs.readFileSync(inputFile, 'utf8');
-const jsonMatch = mdContent.match(/```json\n([\s\S]*?)\n```/);
+const jsonMatch = mdContent.match(/```json\r?\n([\s\S]*?)\r?\n```/);
 if (!jsonMatch) { process.exit(1); }
 const sceneData = JSON.parse(jsonMatch[1]);
 
@@ -192,7 +192,7 @@ try {
         } else if (el.type === 'text') {
           ctx.fillStyle = el.strokeColor || '#000';
           const fontSize = el.fontSize || 16;
-          ctx.font = `${fontSize}px Arial, sans-serif`; // Fallback font since Excalifont may not be available
+          ctx.font = `${fontSize}px Arial, sans-serif`;
           ctx.textAlign = el.textAlign || 'left';
           ctx.textBaseline = 'middle';
 
@@ -208,6 +208,40 @@ try {
             }
             ctx.fillText(line, x, startY + i * lineH + lineH / 2);
           }
+        } else if (el.type === 'ellipse') {
+          ctx.strokeStyle = el.strokeColor || '#000';
+          ctx.fillStyle = el.backgroundColor || 'transparent';
+          ctx.lineWidth = (el.strokeWidth || 1) * 1.5;
+          ctx.beginPath();
+          ctx.ellipse(el.x + el.width/2, el.y + el.height/2, el.width/2, el.height/2, 0, 0, Math.PI*2);
+          ctx.fill();
+          ctx.stroke();
+        } else if (el.type === 'line') {
+          ctx.strokeStyle = el.strokeColor || '#000';
+          ctx.lineWidth = (el.strokeWidth || 1) * 1.5;
+          if (el.strokeStyle === 'dashed') { ctx.setLineDash([6, 4]); }
+          else if (el.strokeStyle === 'dotted') { ctx.setLineDash([2, 3]); }
+          else { ctx.setLineDash([]); }
+          const pts = el.points || [[0, 0], [0, 60]];
+          ctx.beginPath();
+          ctx.moveTo(el.x + pts[0][0], el.y + pts[0][1]);
+          for (let i = 1; i < pts.length; i++) {
+            ctx.lineTo(el.x + pts[i][0], el.y + pts[i][1]);
+          }
+          ctx.stroke();
+          ctx.setLineDash([]);
+        } else if (el.type === 'diamond') {
+          ctx.strokeStyle = el.strokeColor || '#000';
+          ctx.fillStyle = el.backgroundColor || 'transparent';
+          ctx.lineWidth = (el.strokeWidth || 1) * 1.5;
+          ctx.beginPath();
+          ctx.moveTo(el.x + el.width/2, el.y);
+          ctx.lineTo(el.x + el.width, el.y + el.height/2);
+          ctx.lineTo(el.x + el.width/2, el.y + el.height);
+          ctx.lineTo(el.x, el.y + el.height/2);
+          ctx.closePath();
+          ctx.fill();
+          ctx.stroke();
         } else if (el.type === 'arrow') {
           ctx.strokeStyle = el.strokeColor || '#000';
           ctx.lineWidth = (el.strokeWidth || 1) * 1.5;

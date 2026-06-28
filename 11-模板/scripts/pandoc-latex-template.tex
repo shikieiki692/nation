@@ -1,0 +1,109 @@
+% Pandoc LaTeX Template for Chemistry Handouts
+% Uses ctex for Chinese support, geometry for A4 layout
+\documentclass[$if(fontsize)$$fontsize$$else$11pt$endif$]{article}
+
+% ── Chinese support ──
+\usepackage[UTF8, scheme=plain]{ctex}
+\setCJKmainfont{SimSun}
+\setCJKsansfont{SimHei}
+\setCJKmonofont{FangSong}
+
+% ── Page layout (A4) ──
+\usepackage[
+  a4paper,
+  left=2.2cm,
+  right=2.2cm,
+  top=2.0cm,
+  bottom=2.0cm
+]{geometry}
+
+% ── Math & Chemistry ──
+\usepackage{amsmath, amssymb}
+\usepackage[version=4]{mhchem}
+\usepackage{chemfig}
+\usepackage{siunitx}
+
+% ── Graphics ──
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[font={small,bf},labelsep=space]{caption}
+\usepackage[colorlinks=true, linkcolor=blue!60!black, urlcolor=blue!60!black]{hyperref}
+
+% ── Tables ──
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{tabularx}
+\usepackage{array}
+
+% ── Code / Listings ──
+\usepackage{listings}
+\usepackage{xcolor}
+\lstset{
+  basicstyle=\small\ttfamily,
+  breaklines=true,
+  frame=single,
+  backgroundcolor=\color{gray!5}
+}
+
+% ── Enumerations ──
+\usepackage{enumitem}
+\setlist{nosep, left=2em}
+
+% ── Colors ──
+\usepackage[dvipsnames]{xcolor}
+\definecolor{insight}{RGB}{220, 230, 241}
+\definecolor{warning}{RGB}{255, 240, 220}
+\definecolor{tip}{RGB}{230, 245, 230}
+
+% ── Custom environments ──
+\usepackage{tcolorbox}
+\tcbuselibrary{skins, breakable}
+
+\newtcolorbox{insightbox}{
+  colback=insight, colframe=blue!50!black!40,
+  arc=3pt, boxrule=0.5pt,
+  left=6pt, right=6pt, top=4pt, bottom=4pt,
+  breakable
+}
+
+\newtcolorbox{warningbox}{
+  colback=warning, colframe=orange!60!black,
+  arc=3pt, boxrule=0.5pt,
+  left=6pt, right=6pt, top=4pt, bottom=4pt,
+  breakable
+}
+
+\newtcolorbox{tipbox}{
+  colback=tip, colframe=green!50!black!50,
+  arc=3pt, boxrule=0.5pt,
+  left=6pt, right=6pt, top=4pt, bottom=4pt,
+  breakable
+}
+
+% ── Image path ──
+\graphicspath{{../../media/}}
+
+% ── Title formatting ──
+\usepackage{titlesec}
+\titleformat{\section}{\large\bfseries\heiti}{第\,\thesection\,讲}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries\heiti}{\thesubsection}{1em}{}
+
+% ── Metadata ──
+$if(title)$
+\title{$title$}
+$endif$
+$if(author)$
+\author{$author$}
+$endif$
+$if(date)$
+\date{$date$}
+$endif$
+
+\begin{document}
+$if(title)$
+\maketitle
+$endif$
+
+$body$
+
+\end{document}

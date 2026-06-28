@@ -271,7 +271,73 @@ def _inject_ctrlpr_font_size(
     szCs.set(qn("w:val"), half_pts)
 
 
-# ── Pandoc 后处理函数（v2 新增）───────────────────────────
+def _resize_and_center_images(doc: Document) -> None:
+    """约束超大图片宽度并居中所有含图片的段落。
+
+    文本区宽度 = A4(21cm) - 左2.2cm - 右2.2cm = 16.6cm。
+    最大图片宽度设为 13cm（≈4680000 EMU），超出则等比缩放。
+
+    注意：使用 body.iter('w:p') 而非 doc.paragraphs，因为后者
+    仅返回顶层段落，遗漏表格单元格内的图片段落。
+    """
+    MAX_W_EMU = 4680000  # 13cm（在16.6cm文本区内留白边）
+    W_NS = "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+    WP_NS = "http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+    A_NS = "http://schemas.openxmlformats.org/drawingml/2006/main"
+
+    body = doc.element.body
+    count_resized = 0
+    count_centered = 0
+
+    for p_elem in body.iter(f"{{{W_NS}}}p"):
+        drawings = p_elem.findall(f".//{{{W_NS}}}drawing")  # recursive: drawing inside w:r inside w:p
+        if not drawings:
+            continue
+
+        # 约束超大图片
+        for drawing in drawings:
+            inline = drawing.find(f"{{{WP_NS}}}inline")
+            if inline is None:
+                continue
+            extent = inline.find(f"{{{WP_NS}}}extent")
+            if extent is None:
+                continue
+            # cx/cy are bare attributes (no namespace)
+            cx_str = extent.get("cx")
+            cy_str = extent.get("cy")
+            if not cx_str or not cy_str:
+                continue
+            cx, cy = int(cx_str), int(cy_str)
+            if cx <= MAX_W_EMU:
+                continue
+            ratio = MAX_W_EMU / cx
+            new_cx, new_cy = MAX_W_EMU, int(cy * ratio)
+            extent.set("cx", str(new_cx))
+            extent.set("cy", str(new_cy))
+            # 同步更新 a:ext（形状边界）— cx/cy 也是裸属性
+            for aext in drawing.iter(f"{{{A_NS}}}ext"):
+                try:
+                    cur_cx = int(aext.get("cx", "0"))
+                    cur_cy = int(aext.get("cy", "0"))
+                except (ValueError, TypeError):
+                    continue
+                if cur_cx > 0 and cur_cy > 0 and abs(cur_cx / cur_cy - cx / cy) < 0.1:
+                    aext.set("cx", str(new_cx))
+                    aext.set("cy", str(new_cy))
+                    break
+            count_resized += 1
+
+        # 居中该段落
+        pPr = p_elem.find(f"{{{W_NS}}}pPr")
+        if pPr is None:
+            pPr = OxmlElement("w:pPr")
+            p_elem.insert(0, pPr)
+        jc = pPr.find(f"{{{W_NS}}}jc")
+        if jc is None:
+            jc = OxmlElement("w:jc")
+            pPr.append(jc)
+        jc.set(f"{{{W_NS}}}val", "center")
+        count_centered += 1
 
 def postprocess_pandoc_docx(
     input_path: Path,
@@ -436,6 +502,20 @@ def postprocess_pandoc_docx(
     #    长行内公式（>5 非空字符）→ 同样 14pt
     for para in doc.paragraphs:
         _set_display_math_font_size(para, size_pt=14)
+
+    # ── 教师注解着色：🧠 教学洞察 / 🗣️ 课堂原话 / ⚠️ 易错点 → 深蓝色 ──
+    TEACHER_EMOJIS = ('🧠', '🗣️', '⚠️', '📝', '💡')
+    TEACHER_COLOR = RGBColor(30, 64, 175)  # #1e40af 深蓝
+    for para in doc.paragraphs:
+        text = para.text.strip()
+        if not text:
+            continue
+        if any(emoji in text for emoji in TEACHER_EMOJIS):
+            for run in para.runs:
+                run.font.color.rgb = TEACHER_COLOR
+
+    # ── 图片约束与居中：防止宽图溢出页边距 ──
+    _resize_and_center_images(doc)
 
     # ── 页面设置 ──
     section = doc.sections[0]

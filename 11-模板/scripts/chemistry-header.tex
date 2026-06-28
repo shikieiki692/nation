@@ -1,0 +1,28 @@
+% chemistry-header.tex
+\usepackage[version=4]{mhchem}
+\usepackage{chemfig}
+\usepackage{siunitx}
+\usepackage{amsmath, amssymb}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins, breakable}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{graphicx}
+
+% 图片路径由预处理脚本在 ![](../../media/xxx) 中指定
+% 这里不设 \graphicspath，避免与绝对路径冲突
+
+% 教学提示框
+\newtcolorbox{insightbox}{
+  colback=blue!5!white, colframe=blue!50!black!40,
+  arc=3pt, boxrule=0.5pt, left=6pt, right=6pt, top=4pt, bottom=4pt, breakable
+}
+\newtcolorbox{warningbox}{
+  colback=orange!5!white, colframe=orange!60!black,
+  arc=3pt, boxrule=0.5pt, left=6pt, right=6pt, top=4pt, bottom=4pt, breakable
+}
+\newtcolorbox{tipbox}{
+  colback=green!5!white, colframe=green!50!black!50,
+  arc=3pt, boxrule=0.5pt, left=6pt, right=6pt, top=4pt, bottom=4pt, breakable
+}

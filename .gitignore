@@ -2,6 +2,7 @@
 .trash/
 .claude/
 .claudian/
+kb-vault-mcp/node_modules/
 
 .DS_Store
 Thumbs.db

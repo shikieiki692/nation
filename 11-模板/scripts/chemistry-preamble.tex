@@ -1,0 +1,160 @@
+% ── chemistry-handout-preamble.tex ── 化学竞赛讲义 LaTeX 导言区（v7 · 精排版）
+\documentclass[a4paper,11pt]{ctexart}
+
+% ── 字体优化 ──
+\setCJKmainfont[AutoFakeBold=true,BoldFont=SimHei]{SimSun}
+\setCJKsansfont{SimHei}
+
+% 化学式宏（mhchem）
+\usepackage[version=4]{mhchem}
+
+% ── 数学 ──
+\usepackage{amsmath,amssymb}
+
+% ── 图片 ──
+\usepackage{graphicx}
+
+% ── 表格（跨页+自动列宽）──
+\usepackage{booktabs}
+\usepackage{xltabular}
+\usepackage{array}
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}
+
+% ── 浮动体（[H] 强制定位）──
+\usepackage{float}
+
+% ── 页面 ──
+\usepackage[includeheadfoot,margin=2.2cm,headheight=14pt]{geometry}
+\setlength{\textwidth}{16.6cm}
+
+% ── 行间距 ──
+\usepackage{setspace}
+\setstretch{1.15}
+\setlength{\parskip}{0.3em}
+\setlength{\parindent}{2em}
+
+% ── 防止表格跨页 ──
+\usepackage{longtable}
+\setlength{\LTpre}{0pt}
+\setlength{\LTpost}{0pt}
+
+% ── 防止图片跨页（尽量）──
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.9}
+\setcounter{totalnumber}{10}
+\setcounter{topnumber}{10}
+\setcounter{bottomnumber}{10}
+
+% ── 超链接(无红框) ──
+\usepackage[colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black]{hyperref}
+
+% ── 颜色 ──
+\usepackage[dvipsnames,svgnames]{xcolor}
+\definecolor{chapterblue}{RGB}{23,50,77}
+\definecolor{insightbg}{RGB}{235,240,250}
+\definecolor{warningbg}{RGB}{255,245,235}
+\definecolor{tipbg}{RGB}{235,250,235}
+
+% ── 页眉页脚 ──
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{chapterblue}\leftmark}
+\fancyhead[R]{\small\color{chapterblue}\thepage}
+\renewcommand{\headrule}{{\color{chapterblue}\hrule height 0.8pt}}
+
+% ── 章节编号与样式 ──
+\setcounter{secnumdepth}{1}
+\ctexset{
+  section = {
+    format = \Large\bfseries\heiti\color{chapterblue},
+    aftername = \hspace{0.5em},
+    beforeskip = 2ex,
+    afterskip = 1ex,
+  },
+  subsection = {
+    format = \large\bfseries\heiti,
+    beforeskip = 1.5ex,
+    afterskip = 0.5ex,
+  },
+  subsubsection = {
+    format = \normalsize\bfseries\heiti,
+    beforeskip = 1ex,
+    afterskip = 0.3ex,
+  },
+  paragraph = {
+    format = \small\bfseries,
+    beforeskip = 0.5ex,
+    afterskip = 0.2ex,
+  },
+}
+
+% ── blockquote（引用/提示框）缩减 ──
+\usepackage{etoolbox}
+\AtBeginEnvironment{quote}{\small\setstretch{1.05}\leftskip=1em\rightskip=1em}
+
+% ── 教学提示框（浅底色版）──
+\newenvironment{insightbox}{%
+  \par\smallskip
+  \noindent{\small\bfseries\color{RoyalBlue}🧠 认知冲突}\par
+  \leavevmode\colorbox{insightbg}{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{%
+  \ignorespaces}}%
+}{\par\smallskip}
+
+\newenvironment{warningbox}{%
+  \par\smallskip
+  \noindent{\small\bfseries\color{BrickRed}⚠️ 易错点}\par
+  \leavevmode\colorbox{warningbg}{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{%
+  \ignorespaces}}%
+}{\par\smallskip}
+
+\newenvironment{tipbox}{%
+  \par\smallskip
+  \noindent{\small\bfseries\color{ForestGreen}💡 理解提示}\par
+  \leavevmode\colorbox{tipbg}{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{%
+  \ignorespaces}}%
+}{\par\smallskip}
+
+% ── 列表（答案区加间距）──
+\usepackage{enumitem}
+\setlist{nosep}
+% 专门用于参考答案的列表（每项之间空一行）
+\newlist{answerlist}{enumerate}{1}
+\setlist[answerlist]{label=\arabic*., leftmargin=2em, itemsep=0.8em}
+
+% ── 防止内容溢出 ──
+\usepackage{microtype}
+\setlength{\emergencystretch}{2em}
+\setlength{\hfuzz}{2pt}
+\setlength{\overfullrule}{0pt}
+\sloppy
+
+% ── pandoc 兼容 ──
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\newenvironment{Shaded}{}{}
+\newenvironment{Highlighting}{}{}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\CommentTok}[1]{#1}
+\newcommand{\KeywordTok}[1]{#1}
+\newcommand{\StringTok}[1]{#1}
+\newcommand{\FunctionTok}[1]{#1}
+\newcommand{\DataTypeTok}[1]{#1}
+\newcommand{\NumberTok}[1]{#1}
+\newcommand{\ControlFlowTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{#1}
+\newcommand{\BaseNTok}[1]{#1}
+\newcounter{none}
+
+% ── 图片尺寸限制 ──
+\AtBeginDocument{\setkeys{Gin}{width=\textwidth,keepaspectratio}}
+
+% ── 防止图片跨节 ──
+\usepackage{placeins}
+
+% ── 自定义命令 ──
+% 练习题标题（去掉括号）
+% 例题标题（去掉中括号）
+% 这些需要在convert.py预处理中做正则替换
