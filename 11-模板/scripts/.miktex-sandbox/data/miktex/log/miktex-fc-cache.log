@@ -1,0 +1,6 @@
+2026-06-29 10:01:46,595+0800 INFO  miktex-fc-cache - this process (5860) started by miktex in directory C:\Obsidion\妙妙屋 with command line: miktex-fc-cache --miktex-disable-maintenance --miktex-disable-diagnose
+2026-06-29 10:01:46,596+0800 INFO  miktex-fc-cache - running on Windows 10.0.26200
+2026-06-29 10:01:52,021+0800 INFO  miktex-fc-cache - this process (5860) finishes with exit code 0
+2026-07-01 10:29:20,241+0800 INFO  miktex-fc-cache - this process (31064) started by miktex in directory C:\Obsidion\妙妙屋 with command line: miktex-fc-cache --miktex-disable-maintenance --miktex-disable-diagnose
+2026-07-01 10:29:20,242+0800 INFO  miktex-fc-cache - running on Windows 10.0.26200
+2026-07-01 10:29:20,304+0800 INFO  miktex-fc-cache - this process (31064) finishes with exit code 0

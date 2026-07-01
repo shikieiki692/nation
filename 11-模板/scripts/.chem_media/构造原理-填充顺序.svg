@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 208 209">
+  <rect width="208" height="209" fill="#fff"/>
+  <g stroke-width="2">
+    <path d="m67 201 70-70m-132 38 87-87m-87 119 102-102m-73 102 85-87m-114 23 70-70m-70 38 54-54m-54 22 39-37m-39 5 22-22" stroke="#f00"/>
+    <path d="m32 9 160 160" stroke="#00f"/>
+  </g>
+  <path d="m65 203 3-8 1 4 4 1m-70-29 3-8 1 4 4 1m-8 35 3-8 1 4 4 1m21 3 3-8 1 4 4 1m-37-61 3-8 1 4 4 1m-8-29 3-8 1 4 4 1m-8-29 3-8 1 4 4 1m-8-29 3-8 1 4 4 1" fill="#f00"/>
+  <path d="m181 169 21 10-10-21-2 9" fill="#00f"/>
+  <g font-family="Times" font-size="26px">
+    <text x="3" y="43">1s</text>
+    <text x="3" y="75">2s</text><text x="32" y="75">2p</text>
+    <text x="3" y="107">3s</text><text x="32" y="107">3p</text><text x="65" y="107">3d</text>
+    <text x="3" y="139">4s</text><text x="32" y="139">4p</text><text x="65" y="139">4d</text><text x="96" y="139">4f</text>
+    <text x="3" y="171">5s</text><text x="32" y="171">5p</text><text x="65" y="171">5d</text><text x="96" y="171">5f</text>
+    <text x="3" y="203">6s</text><text x="32" y="203">6p</text><text x="65" y="203">6d</text>
+    <text x="96" y="203">...</text><text x="123" y="203">...</text><text x="123" y="171">...</text><text x="152" y="203">...</text>
+  </g>
+</svg>

@@ -1,6 +1,7 @@
 ---
 title: 提炼-Atkins物理化学-主题10-分子对称性
 type: 资料提炼
+source_book: Atkins Physical Chemistry 第11版
 template_version: v1.1
 source_file: mineru/物理化学（第11版）10章对称性402-429.md
 source_type: 书籍

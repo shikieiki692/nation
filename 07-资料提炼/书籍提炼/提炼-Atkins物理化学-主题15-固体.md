@@ -1,6 +1,7 @@
 ---
 title: 提炼-Atkins物理化学-主题15-固体
 type: 资料提炼
+source_book: Atkins Physical Chemistry 第11版
 template_version: v1.1
 source_file: mineru/物理化学（第11版）14章 固体649-694.md
 source_type: 书籍
@@ -172,4 +173,3 @@ handout_plan:
 - 建议将 [[晶体结构深化]] 的 prerequisite 设为 [[晶胞]]（初赛基础版）+ [[分子结构深化]]（MO理论），将 [[固体物理性质]] 的 prerequisite 设为 [[晶体结构深化]] + [[Boltzmann统计初步]]（Fermi-Dirac分布）。
 
 > 📎 相关专题：[[04-专题与题型/专题-晶体结构计算]] · [[04-专题与题型/专题-晶体与配合物深化]]
-

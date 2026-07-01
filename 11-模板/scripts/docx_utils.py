@@ -41,6 +41,16 @@ MARGIN_RIGHT = Cm(2.2)
 MARGIN_TOP = Cm(2.0)
 MARGIN_BOTTOM = Cm(2.0)
 
+# ── 段落间距常量（pt）──────────────────────────────────────
+SPACING_IMAGE_BEFORE = 8      # 图片段落前间距
+SPACING_IMAGE_AFTER = 4       # 图片段落后间距
+SPACING_TABLE_BEFORE = 6      # 表格前间距
+SPACING_TABLE_AFTER = 4       # 表格后间距
+SPACING_CAPTION_BEFORE = 2    # 图注与图片间距
+SPACING_CAPTION_AFTER = 8     # 图注与正文间距
+SPACING_HEADING_BEFORE = 14   # 标题前间距
+SPACING_HEADING_AFTER = 6     # 标题后间距
+LINE_SPACING_BODY = 1.25      # 正文行距
 
 # ── 字体设置函数 ──────────────────────────────────────────
 
@@ -108,6 +118,7 @@ def base_doc() -> Document:
     normal._element.rPr.rFonts.set(qn("w:ascii"), EN_FONT)
     normal._element.rPr.rFonts.set(qn("w:hAnsi"), EN_FONT)
     normal.font.size = Pt(11.5)
+    normal.paragraph_format.line_spacing = LINE_SPACING_BODY
     return doc
 
 
@@ -271,30 +282,49 @@ def _inject_ctrlpr_font_size(
     szCs.set(qn("w:val"), half_pts)
 
 
+def _has_cjk(text: str) -> bool:
+    """检测文本是否包含CJK字符（中日韩统一表意文字）。"""
+    for ch in text:
+        cp = ord(ch)
+        if (0x4E00 <= cp <= 0x9FFF or    # CJK统一汉字
+            0x3400 <= cp <= 0x4DBF or    # CJK扩展A
+            0xF900 <= cp <= 0xFAFF):     # CJK兼容汉字
+            return True
+    return False
+
+
 def _resize_and_center_images(doc: Document) -> None:
-    """约束超大图片宽度并居中所有含图片的段落。
+    """约束超大图片宽度、根据宽高比自适应缩放、居中。
+
+    策略：
+    1. 根据图片原始宽高比自适应缩放：
+       - 横向图（宽>高）：最大 10cm 宽
+       - 纵向图（高>宽）：最大 7cm 宽
+       - 方形图：最大 9cm 宽
+       - 超小图（<4cm原宽）：放大到 5cm
+    2. 所有图片保持 inline 模式，居中对齐
 
     文本区宽度 = A4(21cm) - 左2.2cm - 右2.2cm = 16.6cm。
-    最大图片宽度设为 13cm（≈4680000 EMU），超出则等比缩放。
-
-    注意：使用 body.iter('w:p') 而非 doc.paragraphs，因为后者
-    仅返回顶层段落，遗漏表格单元格内的图片段落。
     """
-    MAX_W_EMU = 4680000  # 13cm（在16.6cm文本区内留白边）
     W_NS = "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
     WP_NS = "http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
     A_NS = "http://schemas.openxmlformats.org/drawingml/2006/main"
 
+    # EMU constants
+    CM_TO_EMU = 360000  # 1cm = 360000 EMU
+    MAX_LANDSCAPE = int(10.0 * CM_TO_EMU)  # 横向图最大 10cm
+    MAX_PORTRAIT = int(7.0 * CM_TO_EMU)    # 纵向图最大 7cm
+    MAX_SQUARE = int(9.0 * CM_TO_EMU)      # 方形图最大 9cm
+    MIN_WIDTH = int(4.0 * CM_TO_EMU)       # 小于此宽度的图放大到 5cm
+    ENLARGE_TARGET = int(5.0 * CM_TO_EMU)
+
     body = doc.element.body
-    count_resized = 0
-    count_centered = 0
 
     for p_elem in body.iter(f"{{{W_NS}}}p"):
-        drawings = p_elem.findall(f".//{{{W_NS}}}drawing")  # recursive: drawing inside w:r inside w:p
+        drawings = p_elem.findall(f".//{{{W_NS}}}drawing")
         if not drawings:
             continue
 
-        # 约束超大图片
         for drawing in drawings:
             inline = drawing.find(f"{{{WP_NS}}}inline")
             if inline is None:
@@ -302,19 +332,43 @@ def _resize_and_center_images(doc: Document) -> None:
             extent = inline.find(f"{{{WP_NS}}}extent")
             if extent is None:
                 continue
-            # cx/cy are bare attributes (no namespace)
             cx_str = extent.get("cx")
             cy_str = extent.get("cy")
             if not cx_str or not cy_str:
                 continue
             cx, cy = int(cx_str), int(cy_str)
-            if cx <= MAX_W_EMU:
+            if cx <= 0 or cy <= 0:
                 continue
-            ratio = MAX_W_EMU / cx
-            new_cx, new_cy = MAX_W_EMU, int(cy * ratio)
+
+            # 根据宽高比确定最大宽度
+            aspect = cx / cy
+            if aspect > 1.3:  # 横向图
+                max_w = MAX_LANDSCAPE
+            elif aspect < 0.7:  # 纵向图
+                max_w = MAX_PORTRAIT
+            else:  # 方形图
+                max_w = MAX_SQUARE
+
+            # 超小图放大
+            if cx < MIN_WIDTH:
+                max_w = ENLARGE_TARGET
+
+            # 缩放
+            new_cx = cx
+            new_cy = cy
+            if cx > max_w:
+                ratio = max_w / cx
+                new_cx = max_w
+                new_cy = int(cy * ratio)
+            elif cx < MIN_WIDTH:
+                ratio = ENLARGE_TARGET / cx
+                new_cx = ENLARGE_TARGET
+                new_cy = int(cy * ratio)
+
+            # 更新 extent
             extent.set("cx", str(new_cx))
             extent.set("cy", str(new_cy))
-            # 同步更新 a:ext（形状边界）— cx/cy 也是裸属性
+            # 同步更新 a:ext
             for aext in drawing.iter(f"{{{A_NS}}}ext"):
                 try:
                     cur_cx = int(aext.get("cx", "0"))
@@ -325,9 +379,8 @@ def _resize_and_center_images(doc: Document) -> None:
                     aext.set("cx", str(new_cx))
                     aext.set("cy", str(new_cy))
                     break
-            count_resized += 1
 
-        # 居中该段落
+        # 居中段落
         pPr = p_elem.find(f"{{{W_NS}}}pPr")
         if pPr is None:
             pPr = OxmlElement("w:pPr")
@@ -337,7 +390,90 @@ def _resize_and_center_images(doc: Document) -> None:
             jc = OxmlElement("w:jc")
             pPr.append(jc)
         jc.set(f"{{{W_NS}}}val", "center")
-        count_centered += 1
+
+
+def _convert_inline_to_wrap_top_bottom(drawing, inline, cx, cy):
+    """将 wp:inline 转为 wp:anchor + wrapTopAndBottom。
+
+    wrapTopAndBottom 让图片浮动，文字只在图片上方和下方流动，
+    不会在两侧，适合学术文档的居中图片布局。
+    """
+    WP_NS = "http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+
+    # 创建 anchor 元素
+    anchor = OxmlElement("wp:anchor")
+    anchor.set("distT", "0")
+    anchor.set("distB", "0")
+    anchor.set("distL", "114300")   # 1mm 左侧距离
+    anchor.set("distR", "114300")   # 1mm 右侧距离
+    anchor.set("simplePos", "0")
+    anchor.set("relativeHeight", "251658240")
+    anchor.set("behindDoc", "0")
+    anchor.set("locked", "0")
+    anchor.set("layoutInCell", "1")
+    anchor.set("allowOverlap", "1")
+
+    # 简单位置（居中：相对于页面水平居中）
+    simplePos = OxmlElement("wp:simplePos")
+    simplePos.set("x", "0")
+    simplePos.set("y", "0")
+    anchor.append(simplePos)
+
+    # 水平位置：相对于栏居中
+    positionH = OxmlElement("wp:positionH")
+    positionH.set("relativeFrom", "column")
+    posOffset = OxmlElement("wp:posOffset")
+    posOffset.text = "0"  # 居中
+    positionH.append(posOffset)
+    anchor.append(positionH)
+
+    # 垂直位置：相对于段落
+    positionV = OxmlElement("wp:positionV")
+    positionV.set("relativeFrom", "paragraph")
+    posOffset2 = OxmlElement("wp:posOffset")
+    posOffset2.text = "0"
+    positionV.append(posOffset2)
+    anchor.append(positionV)
+
+    # extent（尺寸）
+    extent = OxmlElement("wp:extent")
+    extent.set("cx", str(cx))
+    extent.set("cy", str(cy))
+    anchor.append(extent)
+
+    # effectExtent
+    effectExtent = OxmlElement("wp:effectExtent")
+    effectExtent.set("l", "0")
+    effectExtent.set("t", "0")
+    effectExtent.set("r", "0")
+    effectExtent.set("b", "0")
+    anchor.append(effectExtent)
+
+    # wrapTopAndBottom — 关键！
+    wrapTab = OxmlElement("wp:wrapTopAndBottom")
+    anchor.append(wrapTab)
+
+    # docPr
+    docPr = inline.find(f"{{{WP_NS}}}docPr")
+    if docPr is not None:
+        anchor.append(docPr)
+
+    # graphic（图片数据）
+    graphic = inline.find(f"{{{WP_NS}}}graphic")
+    if graphic is not None:
+        anchor.append(graphic)
+
+    # 替换 inline 为 anchor
+    drawing.remove(inline)
+    drawing.insert(0, anchor)
+
+
+def _has_image(para) -> bool:
+    """判断段落是否包含图片（w:drawing 或 w:pict）。"""
+    el = para._element
+    return bool(el.findall('.//' + qn('w:drawing')) or
+                el.findall('.//' + qn('w:pict')))
+
 
 def postprocess_pandoc_docx(
     input_path: Path,
@@ -428,10 +564,14 @@ def postprocess_pandoc_docx(
             rFonts = rPr.find(qn("w:rFonts"))
             if rFonts is None:
                 continue
-            # 有主题引用才处理（避免不必要的改动）
             has_theme = any("Theme" in str(k) for k in rFonts.attrib)
-            if not has_theme and rFonts.get(qn("w:eastAsia")):
+            # 原逻辑：无主题且已有 eastAsia 字体 → 跳过
+            # 新逻辑：非CJK run 强制TNR（Unicode亚脚字符需要TNR渲染）
+            run_text = run.text or ""
+            if not has_theme and rFonts.get(qn("w:eastAsia")) and _has_cjk(run_text):
                 continue
+            # 选择中文字体：非CJK内容用TNR，CJK内容用原设定
+            cn = EN_FONT if not _has_cjk(run_text) else (head_font if is_heading else body_font)
             rFonts.set(qn("w:eastAsia"), cn)
             if not rFonts.get(qn("w:ascii")):
                 rFonts.set(qn("w:ascii"), EN_FONT)
@@ -461,7 +601,10 @@ def postprocess_pandoc_docx(
                         rFonts = rPr.find(qn("w:rFonts"))
                         if rFonts is None:
                             continue
-                        rFonts.set(qn("w:eastAsia"), cf)
+                        # 表格中非CJK内容也用TNR（Unicode亚脚字符等）
+                        run_text = run.text or ""
+                        cf_run = EN_FONT if not _has_cjk(run_text) else cf
+                        rFonts.set(qn("w:eastAsia"), cf_run)
                         rFonts.set(qn("w:ascii"), EN_FONT)
                         rFonts.set(qn("w:hAnsi"), EN_FONT)
                         for _attr in (
@@ -474,6 +617,24 @@ def postprocess_pandoc_docx(
                         if i == 0:
                             run.bold = True
 
+    # ── 表格前后间距：表格前段落加 space_after，表格后段落加 space_before ──
+    body_el = doc.element.body
+    children = list(body_el)
+    for idx, child in enumerate(children):
+        if child.tag == qn('w:tbl'):
+            # 表格前的段落 → 加 space_after
+            if idx > 0 and children[idx - 1].tag == qn('w:p'):
+                for p in doc.paragraphs:
+                    if p._element is children[idx - 1]:
+                        p.paragraph_format.space_after = Pt(SPACING_TABLE_AFTER)
+                        break
+            # 表格后的段落 → 加 space_before
+            if idx + 1 < len(children) and children[idx + 1].tag == qn('w:p'):
+                for p in doc.paragraphs:
+                    if p._element is children[idx + 1]:
+                        p.paragraph_format.space_before = Pt(SPACING_TABLE_BEFORE)
+                        break
+
     # ── 图例题注：识别以"图"/"表"开头的居中短段落 → 仿宋五号 ──
     #    Pandoc 将 ![*caption*](image.png) 输出为居中图片+居中斜体段落，
     #    这些斜体段落通常格式为：纯文本、居中、以"图 "或"表 "开头。
@@ -484,6 +645,9 @@ def postprocess_pandoc_docx(
         if text_content.startswith("图 ") or text_content.startswith("表 "):
             # 强制居中（不论 pandoc 原始对齐方式）
             para.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            # 图注间距：与上方图片紧凑，与下方正文留呼吸感
+            para.paragraph_format.space_before = Pt(SPACING_CAPTION_BEFORE)
+            para.paragraph_format.space_after = Pt(SPACING_CAPTION_AFTER)
             for run in para.runs:
                 run.font.size = Pt(10.5)  # 五号
                 run.font.bold = False
@@ -503,16 +667,31 @@ def postprocess_pandoc_docx(
     for para in doc.paragraphs:
         _set_display_math_font_size(para, size_pt=14)
 
-    # ── 教师注解着色：🧠 教学洞察 / 🗣️ 课堂原话 / ⚠️ 易错点 → 深蓝色 ──
-    TEACHER_EMOJIS = ('🧠', '🗣️', '⚠️', '📝', '💡')
+    # ── 教师注解着色：教学洞察 / 课堂原话 / 易错点 → 深蓝色 ──
+    TEACHER_LABELS = ('教学洞察', '课堂原话', '易错点', '注意', '高频错误',
+                      '理解要点', '记忆', '竞赛启示', '练一练', '算一算',
+                      '数值冲击', '核心思想', '关键认识', '掌握性要求', '应用')
     TEACHER_COLOR = RGBColor(30, 64, 175)  # #1e40af 深蓝
     for para in doc.paragraphs:
         text = para.text.strip()
         if not text:
             continue
-        if any(emoji in text for emoji in TEACHER_EMOJIS):
+        if any(label in text for label in TEACHER_LABELS):
             for run in para.runs:
                 run.font.color.rgb = TEACHER_COLOR
+
+    # ── 标题段落间距：Heading 前后增加间距，避免紧贴上文 ──
+    for para in doc.paragraphs:
+        style_name = para.style.name or ""
+        if style_name.startswith("Heading"):
+            para.paragraph_format.space_before = Pt(SPACING_HEADING_BEFORE)
+            para.paragraph_format.space_after = Pt(SPACING_HEADING_AFTER)
+
+    # ── 图片段落间距：图片前后增加间距，呼吸感 ──
+    for para in doc.paragraphs:
+        if _has_image(para):
+            para.paragraph_format.space_before = Pt(SPACING_IMAGE_BEFORE)
+            para.paragraph_format.space_after = Pt(SPACING_IMAGE_AFTER)
 
     # ── 图片约束与居中：防止宽图溢出页边距 ──
     _resize_and_center_images(doc)

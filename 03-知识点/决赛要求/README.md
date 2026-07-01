@@ -3,9 +3,9 @@ title: 决赛要求
 type: 系统
 role: 子目录索引
 subject: 决赛要求
-updated: 2026-05-24
+updated: 2026-06-29
 tags: [系统, 索引, 决赛要求]
-  stage: published
+stage: published
 ---
 
 # 决赛要求

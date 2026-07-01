@@ -1,0 +1,7 @@
+2026-06-29 10:01:27,819+0800 INFO  fc-conflist - this process (24256) started by node in directory C:\Obsidion\妙妙屋 with command line: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\miktex\bin\x64\fc-conflist.exe
+2026-06-29 10:01:27,819+0800 INFO  fc-conflist - running on Windows 10.0.26200
+2026-06-29 10:01:27,841+0800 INFO  fc-conflist - running One MiKTeX Utility to refresh the file name database
+2026-06-29 10:01:27,841+0800 INFO  fc-conflist.core - start process: miktex --quiet fndb refresh
+2026-06-29 10:01:33,589+0800 INFO  fc-conflist - running One MiKTeX Utility to create font map files
+2026-06-29 10:01:33,590+0800 INFO  fc-conflist.core - start process: miktex --quiet fontmaps configure
+2026-06-29 10:01:52,120+0800 INFO  fc-conflist - this process (24256) finishes with exit code 0

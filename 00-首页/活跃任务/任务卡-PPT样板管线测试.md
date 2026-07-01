@@ -2,12 +2,13 @@
 title: 任务卡-PPT样板管线测试
 type: 活跃任务卡
 task_type: 备课产出
-status: active
+status: completed
 priority: P2
 area: 课件体系
 owner: Agent+User
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-06-29
+completed: 2026-06-29
 description: >
   跑通第一条 KB→PPT 管线。选择分子结构VSEPR部分作为样板，走完：KP/讲义内容→加工页→PPT 全流程。
 source_notes: "用户要求：先出一份样板试试管线"
@@ -20,8 +21,11 @@ evidence:
   - 2026-06-25: Marp CLI(v4.4.0)工具验证通过——化学公式行内/显示/表格/本地图片/PPTX导出全OK
   - 2026-06-25: 原子结构§1发展史试点完成——20页Marp源文件(.marp.md) + PPTX产出(4.1MB含图)
   - "待办: 原子结构§2-§4完整PPT(40-50页)+Marp主题美化+管线集成"
+  - 2026-06-29: 样板测试目标已完成；后续是否继续做 PPT 量产，转由 `任务卡-PPT制作方法探究与试点` 在用户重新开启时承接。
 ---
 # 任务卡 · PPT样板管线测试
+
+> **当前状态（2026-06-29）**：样板测试目标已完成，本卡关闭。
 
 ## 任务描述
 

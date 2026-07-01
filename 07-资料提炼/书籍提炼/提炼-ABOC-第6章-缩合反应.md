@@ -6,7 +6,7 @@ chapter: 6
 chapter_title: 缩合反应
 syllabus_module: 基础要求-有机化学
 phase: B
-status: v1.0
+status: 已提炼
 updated: 2026-05-10
 handout_plan:
   - target: "醛酮羧酸"

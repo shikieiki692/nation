@@ -1,0 +1,180 @@
+2026-06-29 09:48:41,280+0800 INFO  miktex-xetex - this process (39904) started by miktex-makefmt in directory C:\Obsidion\妙妙屋\11-模板\scripts\.miktex-sandbox\tmp\mik46654 with command line: miktex-xetex.exe --miktex-disable-maintenance --miktex-disable-diagnose --interaction=nonstopmode --initialize --halt-on-error --alias=xelatex --job-name=xelatex --enable-etex xelatex.ini
+2026-06-29 09:48:41,280+0800 INFO  miktex-xetex - running on Windows 10.0.26200
+2026-06-29 09:48:41,281+0800 INFO  miktex-xetex - this is MiKTeX-XETEX 4.18.0 (0.999998) (MiKTeX 26.5)
+2026-06-29 09:48:41,301+0800 INFO  miktex-xetex - allowing known shell commands
+2026-06-29 09:50:14,097+0800 INFO  miktex-xetex - this process (39904) finishes with exit code 0
+2026-06-29 09:50:14,098+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:50:14,098+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:50:14,098+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:50:14,098+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:50:14,098+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:50:14,098+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:50:14,098+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:50:14,098+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:50:14,098+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:50:14,098+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:50:14,098+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:50:14,098+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:50:14,098+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:50:14,098+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:50:14,098+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:50:14,098+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmsy5.tfm
+2026-06-29 09:50:14,098+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:50:14,098+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:50:14,098+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:50:14,099+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:50:14,099+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\latex-fonts\linew10.tfm
+2026-06-29 09:50:14,099+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmex10.tfm
+2026-06-29 09:50:14,099+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\latex-fonts\lcirclew10.tfm
+2026-06-29 09:50:14,099+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\latex-fonts\lcircle10.tfm
+2026-06-29 09:50:14,099+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:50:14,099+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:50:14,099+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:50:14,099+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:50:14,099+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:50:14,099+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmmi5.tfm
+2026-06-29 09:50:14,099+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmmi7.tfm
+2026-06-29 09:50:14,099+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:50:14,099+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr5.tfm
+2026-06-29 09:50:14,099+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr7.tfm
+2026-06-29 09:50:14,099+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmmi10.tfm
+2026-06-29 09:50:14,099+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmsy7.tfm
+2026-06-29 09:50:14,099+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:50:14,099+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:50:14,099+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\latex-fonts\line10.tfm
+2026-06-29 09:50:14,099+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmsy10.tfm
+2026-06-29 09:50:14,764+0800 INFO  miktex-xetex - this process (37280) started by miktex-makefmt in directory C:\Obsidion\妙妙屋\11-模板\scripts\.miktex-sandbox\tmp\mik21252 with command line: miktex-xetex.exe --miktex-disable-maintenance --miktex-disable-diagnose --interaction=nonstopmode --initialize --halt-on-error --alias=xelatex --job-name=xelatex --enable-etex xelatex.ini
+2026-06-29 09:50:14,765+0800 INFO  miktex-xetex - running on Windows 10.0.26200
+2026-06-29 09:50:14,766+0800 INFO  miktex-xetex - this is MiKTeX-XETEX 4.18.0 (0.999998) (MiKTeX 26.5)
+2026-06-29 09:50:14,784+0800 INFO  miktex-xetex - allowing known shell commands
+2026-06-29 09:51:45,864+0800 INFO  miktex-xetex - this process (37280) finishes with exit code 0
+2026-06-29 09:51:45,864+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\latex-fonts\lcirclew10.tfm
+2026-06-29 09:51:45,864+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmmi7.tfm
+2026-06-29 09:51:45,864+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmsy10.tfm
+2026-06-29 09:51:45,864+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmsy5.tfm
+2026-06-29 09:51:45,864+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:51:45,864+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmmi10.tfm
+2026-06-29 09:51:45,864+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr5.tfm
+2026-06-29 09:51:45,864+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr7.tfm
+2026-06-29 09:51:45,864+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmsy7.tfm
+2026-06-29 09:51:45,864+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmmi5.tfm
+2026-06-29 09:51:45,864+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:51:45,865+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:51:45,865+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:51:45,865+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:51:45,865+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:51:45,865+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:51:45,865+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:51:45,865+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:51:45,865+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:51:45,865+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:51:45,865+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:51:45,865+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\latex-fonts\lcircle10.tfm
+2026-06-29 09:51:45,865+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:51:45,865+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:51:45,865+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:51:45,865+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:51:45,865+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:51:45,865+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:51:45,865+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:51:45,865+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:51:45,865+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\latex-fonts\line10.tfm
+2026-06-29 09:51:45,865+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\latex-fonts\linew10.tfm
+2026-06-29 09:51:45,865+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:51:45,865+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:51:45,865+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:51:45,866+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:51:45,866+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:51:45,866+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 09:51:45,866+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmex10.tfm
+2026-06-29 09:51:45,866+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm\public\cm\cmr10.tfm
+2026-06-29 10:02:17,384+0800 INFO  miktex-xetex - this process (39640) started by miktex-makefmt in directory C:\Users\蕾赛\AppData\Local\Temp\mik41369 with command line: miktex-xetex.exe --miktex-disable-maintenance --miktex-disable-diagnose --interaction=nonstopmode --initialize --halt-on-error --alias=xelatex --job-name=xelatex --enable-etex xelatex.ini
+2026-06-29 10:02:17,384+0800 INFO  miktex-xetex - running on Windows 10.0.26200
+2026-06-29 10:02:17,385+0800 INFO  miktex-xetex - this is MiKTeX-XETEX 4.18.0 (0.999998) (MiKTeX 26.5)
+2026-06-29 10:02:17,398+0800 INFO  miktex-xetex - allowing known shell commands
+2026-06-29 10:02:30,964+0800 INFO  miktex-xetex - this process (39640) finishes with exit code 0
+2026-06-29 10:02:30,964+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:02:30,964+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:02:30,964+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:02:30,964+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:02:30,964+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:02:30,964+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:02:30,965+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:02:30,965+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:02:30,965+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:02:30,965+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:02:30,965+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:02:30,965+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:02:30,965+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:02:30,965+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:02:30,965+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:02:30,965+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:02:30,965+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:02:30,965+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:02:30,965+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:02:30,965+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:02:30,965+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:02:30,965+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:02:30,966+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmmi5.tfm
+2026-06-29 10:02:30,966+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmr7.tfm
+2026-06-29 10:02:30,966+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmsy7.tfm
+2026-06-29 10:02:30,966+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmsy10.tfm
+2026-06-29 10:02:30,966+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/latex-fonts\lcircle10.tfm
+2026-06-29 10:02:30,966+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/latex-fonts\linew10.tfm
+2026-06-29 10:02:30,966+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmsy5.tfm
+2026-06-29 10:02:30,966+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmmi10.tfm
+2026-06-29 10:02:30,966+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/latex-fonts\lcirclew10.tfm
+2026-06-29 10:02:30,966+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmmi7.tfm
+2026-06-29 10:02:30,966+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmr5.tfm
+2026-06-29 10:02:30,966+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:02:30,966+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:02:30,966+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:02:30,966+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmex10.tfm
+2026-06-29 10:02:30,966+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/latex-fonts\line10.tfm
+2026-06-29 10:02:30,966+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:02:30,966+0800 WARN  miktex-xetex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:11:36,717+0800 INFO  miktex-xetex - this process (22620) started by miktex-makefmt in directory C:\Users\蕾赛\AppData\Local\Temp\mik21787 with command line: miktex-xetex.exe --miktex-disable-maintenance --miktex-disable-diagnose --interaction=nonstopmode --initialize --halt-on-error --alias=xelatex --job-name=xelatex --enable-etex xelatex.ini
+2026-06-29 10:11:36,717+0800 INFO  miktex-xetex - running on Windows 10.0.26200
+2026-06-29 10:11:36,718+0800 INFO  miktex-xetex - this is MiKTeX-XETEX 4.18.0 (0.999998) (MiKTeX 26.5)
+2026-06-29 10:11:36,732+0800 INFO  miktex-xetex - allowing known shell commands
+2026-06-29 10:11:50,391+0800 INFO  miktex-xetex - this process (22620) finishes with exit code 0
+2026-06-29 10:11:50,391+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:11:50,391+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:11:50,391+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:11:50,391+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:11:50,391+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:11:50,391+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:11:50,391+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:11:50,391+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:11:50,391+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:11:50,391+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:11:50,391+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:11:50,391+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/latex-fonts\line10.tfm
+2026-06-29 10:11:50,391+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/latex-fonts\linew10.tfm
+2026-06-29 10:11:50,392+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:11:50,392+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:11:50,392+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/latex-fonts\lcircle10.tfm
+2026-06-29 10:11:50,392+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:11:50,392+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmex10.tfm
+2026-06-29 10:11:50,392+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/latex-fonts\lcirclew10.tfm
+2026-06-29 10:11:50,392+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:11:50,392+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:11:50,392+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:11:50,392+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:11:50,392+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:11:50,392+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:11:50,392+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:11:50,392+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:11:50,392+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:11:50,392+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:11:50,392+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr5.tfm
+2026-06-29 10:11:50,392+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:11:50,392+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:11:50,392+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmsy5.tfm
+2026-06-29 10:11:50,392+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmmi7.tfm
+2026-06-29 10:11:50,392+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmsy7.tfm
+2026-06-29 10:11:50,392+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmmi5.tfm
+2026-06-29 10:11:50,392+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmmi10.tfm
+2026-06-29 10:11:50,393+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-06-29 10:11:50,393+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmsy10.tfm
+2026-06-29 10:11:50,393+0800 WARN  miktex-xetex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr7.tfm

@@ -1,0 +1,42 @@
+\contentsline {section}{\numberline {1}酸碱理论}{3}{section.1}%
+\contentsline {subsection}{学习目标}{3}{subsection*.2}%
+\contentsline {subsection}{一、为什么需要酸碱理论}{3}{subsection*.3}%
+\contentsline {subsection}{二、Brønsted 质子理论}{3}{subsection*.4}%
+\contentsline {subsubsection}{2.1 基本定义}{3}{subsubsection*.5}%
+\contentsline {subsubsection}{2.2 两性物质}{4}{subsubsection*.6}%
+\contentsline {subsubsection}{2.3 Brønsted 反应的三种类型}{4}{subsubsection*.7}%
+\contentsline {subsubsection}{2.4 拉平效应与区分效应}{4}{subsubsection*.8}%
+\contentsline {subsection}{三、共轭酸碱对与 Ka/Kb}{5}{subsection*.9}%
+\contentsline {subsubsection}{3.1 Ka 与 Kb 的关系}{5}{subsubsection*.10}%
+\contentsline {subsubsection}{3.2 Ka 的物理意义}{5}{subsubsection*.11}%
+\contentsline {subsubsection}{3.3 弱酸弱碱分类}{6}{subsubsection*.12}%
+\contentsline {subsection}{四、水的自偶电离与 pH}{6}{subsection*.13}%
+\contentsline {subsubsection}{4.1 水的离子积}{6}{subsubsection*.14}%
+\contentsline {subsubsection}{4.2 pH 定义与有效数字}{7}{subsubsection*.15}%
+\contentsline {subsection}{五、弱酸弱碱电离平衡}{7}{subsection*.16}%
+\contentsline {subsubsection}{5.1 单质子弱酸：假设-验证法}{7}{subsubsection*.17}%
+\contentsline {subsubsection}{5.2 精确法(二次方程)}{7}{subsubsection*.18}%
+\contentsline {subsubsection}{5.3 反例：简化公式失效}{8}{subsubsection*.19}%
+\contentsline {subsubsection}{5.4 弱酸溶液中 {[}H\textsuperscript {+}{]} 的精确处理}{8}{subsubsection*.20}%
+\contentsline {subsection}{六、多元弱酸与两性物质}{8}{subsection*.21}%
+\contentsline {subsubsection}{6.1 多元弱酸的分级电离}{8}{subsubsection*.22}%
+\contentsline {subsubsection}{6.2 两性物质的 pH}{9}{subsubsection*.23}%
+\contentsline {subsection}{七、缓冲溶液}{9}{subsection*.24}%
+\contentsline {subsubsection}{7.1 Henderson-Hasselbalch 方程}{9}{subsubsection*.25}%
+\contentsline {subsubsection}{7.2 缓冲溶液的设计原则}{9}{subsubsection*.26}%
+\contentsline {subsubsection}{7.3 缓冲容量的定量分析}{10}{subsubsection*.27}%
+\contentsline {subsubsection}{7.4 缓冲溶液的实际应用}{10}{subsubsection*.28}%
+\contentsline {subsection}{八、Lewis 酸碱与 HSAB 原理}{11}{subsection*.29}%
+\contentsline {subsubsection}{8.1 Lewis 酸碱}{11}{subsubsection*.30}%
+\contentsline {subsubsection}{8.2 HSAB 软硬分类}{11}{subsubsection*.31}%
+\contentsline {subsection}{九、中和反应与电离常数}{12}{subsection*.32}%
+\contentsline {subsubsection}{9.1 中和反应的平衡常数}{12}{subsubsection*.33}%
+\contentsline {subsubsection}{9.2 弱-弱中和的实例}{12}{subsubsection*.34}%
+\contentsline {subsection}{十、知识网络与方法论}{12}{subsection*.35}%
+\contentsline {subsubsection}{10.1 弱酸弱碱计算决策流程}{12}{subsubsection*.36}%
+\contentsline {subsubsection}{10.2 两性物质计算决策}{12}{subsubsection*.37}%
+\contentsline {subsubsection}{10.3 酸碱计算的''五个问题''}{12}{subsubsection*.38}%
+\contentsline {subsection}{十一、典型例题}{13}{subsection*.39}%
+\contentsline {subsection}{十二、本节总结速查}{15}{subsection*.40}%
+\contentsline {subsection}{十三、三级练习题}{15}{subsection*.41}%
+\contentsline {subsection}{十四、练习题答案}{16}{subsection*.42}%

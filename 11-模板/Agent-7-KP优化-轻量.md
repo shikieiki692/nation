@@ -2,6 +2,7 @@
 title: Agent 7 · KP优化
 type: agent-prompt-lightweight
 agent_id: 7
+updated: 2026-06-29
 version: v1.0
 tags: [agent, 维护]
 ---

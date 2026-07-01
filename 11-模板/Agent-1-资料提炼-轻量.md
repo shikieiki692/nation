@@ -2,6 +2,7 @@
 title: Agent 1 · 资料提炼
 type: agent-prompt-lightweight
 agent_id: 1
+updated: 2026-06-29
 version: v1.1
 tags: [agent, 构建]
 ---

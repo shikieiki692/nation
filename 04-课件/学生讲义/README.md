@@ -311,7 +311,7 @@ const total = handouts.length;
 const withImages = handouts.where(p => p.has_images).length;
 const totalImages = handouts.reduce((sum, p) => sum + (p.image_count || 0), 0);
 
-dv.paragraph(`🖼️ **配图覆盖率**：${withImages}/${total} 份（${(withImages/total*100).toFixed(0)}%）| 累计引用 ${totalImages} 次 | media/ 目录 ${dv.pages().where(p => p.file.path.startsWith("04-课件/学生讲义/media/")).length} 张`);
+dv.paragraph(`🖼️ **配图覆盖率**：${withImages}/${total} 份（${(withImages/total*100).toFixed(0)}%）| 累计引用 ${totalImages} 次 | media/ 目录 ${dv.pages().where(p => p.file.path.startsWith("media/")).length} 张`);
 
 const noImg = handouts.where(p => !p.has_images);
 if (noImg.length > 0) {
@@ -392,7 +392,7 @@ if (noImg.length > 0) {
 - Batch 3（元素化学）：元素推断综合训练
 - Batch 9（冲刺班）：真题模拟拆解
 
-`media/` 目录当前含 **261 张**图片，覆盖晶体结构（56张）、配位化学（18张）、分子结构（19张）、电化学（9张）、元素化学（58张，含Weller主族/副族）、共价键理论/离子键专题（13张）、物化与分析化学（17张）、有机化学（15张，含Batch 5 Wikimedia Commons图集）+ 原子结构与周期律（8张）+ 溶液与气体（6张）+ 化学平衡与水溶液（5张），来源为普通化学原理（第4版）第2/4/6/9/10/11/12/13/14章 + Weller《无机化学》第6版第11-23章 + 分析化学第六版 + Atkins《Physical Chemistry》+ Wikimedia Commons。
+根目录 `media/` 目录是当前唯一正式图片路径；讲义正文统一写 `![[media/xxx.ext]]`，PDF 管线也从这里同步到编译缓存。
 
 ---
 

@@ -18,7 +18,7 @@ tags:
   - NO
 related: [配合物, 晶体场理论, 分子轨道理论, CO配位, 18电子规则, Feltham-Enemark记号, 金属有机化学深化]
 prerequisite: [配合物, 分子轨道理论, 晶体场理论]
-problem_types: [NO电子计数, 直线型vs弯曲型判断, {MNO}ⁿ记号应用, NO与CO对比]
+problem_types: [NO电子计数, 直线型vs弯曲型判断, "{MNO}ⁿ记号应用", NO与CO对比]
 difficulty: 4
 importance: 3
 status: 已填充

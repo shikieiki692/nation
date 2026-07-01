@@ -1,3 +1,9 @@
+---
+title: 超级充实版讲义PDF生产工作流
+type: 系统
+updated: 2026-06-29
+---
+
 # 超级充实版讲义PDF生产工作流 · 原子结构样板经验总结
 
 > 本文档基于《原子结构-超级充实版（自学完整）》从Markdown到PDF的全过程改进总结。
@@ -24,7 +30,7 @@ PDF (完整性校验 %PDF- / %%EOF)
 
 **关键依赖**：
 - `chemistry-preamble.tex` — v7，导言区（ctexart, mhchem v4, geometry, float[H]）
-- `wrap_images.lua` — v4，图片宽度分类表（Excalidraw=0.45, 教材图=0.45, 趋势图=0.45, 氢光谱=0.6, 矩阵/流程图=0.5, 默认=0.45）
+- `wrap_images.lua` — v5，图片宽度分类表（默认=0.55, Excalidraw=0.60, 教材图=0.58, 氢光谱=0.70, 矩阵/流程图=0.68, 单图无高度限制）
 - `chem_media_aliases.json` — 中文别名→ASCII映射
 - `convert_handout_to_pdf.py` — v2，主管线
 
@@ -95,8 +101,8 @@ exemplar: true
 - [ ] αβγ 已用 `$\alpha$` 数学模式
 
 ### Step 2: 图片处理（最易出错！）
-- [ ] 检查 `C:\Temp\chem_media\` 中是否有该讲义的**全部图片**
-- [ ] 缺失的图片从 vault `/04-课件/学生讲义/media/` 复制
+- [ ] 检查 vault 根目录 `media/` 中是否有该讲义的**全部正式源图**
+- [ ] 编译时会自动同步到 `11-模板/scripts/.chem_media/`，无需手动维护第二套源图
 - [ ] 对教材扫描图（径向分布、趋势图等）：**打开图片肉眼确认内容**
 - [ ] 对自制图（Excalidraw）：确保 .png 已从 .md 渲染（用 `node excalidraw-to-png.mjs`）
 - [ ] 图片实际格式必须与扩展名一致（PIL `Image.open` 验证）
@@ -105,7 +111,7 @@ exemplar: true
 ### Step 3: 管线配置
 - [ ] `chem_media_aliases.json` 补充此讲义的新中文别名映射
 - [ ] `wrap_images.lua` 确认宽度分类覆盖此讲义的图片类别
-- [ ] `sync_media_to_temp.py` 确认需要跑一遍
+- [ ] 如需排查缓存异常，再检查 `sync_media_to_temp.py`；常规编译不需要手动运行
 
 ### Step 4: 构建与验证
 ```bash
@@ -145,25 +151,25 @@ python convert_handout_to_pdf.py --parallel ALL
 
 **保存参数**：`dpi=250, bbox_inches='tight'` → 约150KB JPG，PDF可清晰显示
 
-**脚本模板**：`C:\Temp\chem_media\plot_radial_distributions.py`
+**脚本模板建议位置**：`C:\Obsidion\妙妙屋\11-模板\scripts\plot_radial_distributions.py`
 
 ### 4.2 Excalidraw 图渲染
 - 源文件：`xxx.流程图.md` / `xxx.关系图.md`
 - 命令：`node excalidraw-to-png.mjs input.md output.png`
-- 放到 C:\Temp\chem_media\ 和 vault media/ 各一份
+- 统一放到 vault 根目录 `media/`；编译脚本会自动同步缓存
 
 ### 4.3 图片目录结构
 ```
-C:\Temp\chem_media\         ← 管线实际读取位置（必须是所有图片的最终版）
+C:\Obsidion\妙妙屋\media\   ← 图片正式源目录（唯一人工维护位置）
     hydrogen_emission_series.jpg
     11-21-radial-distribution-3s-3p-3d.jpg
     …
 
-C:\Obsidion\妙妙屋\04-课件\学生讲义\media\   ← md文件引用的位置
-    同上（用 Copy-Item 同步）
+C:\Obsidion\妙妙屋\11-模板\scripts\.chem_media\   ← 编译缓存（自动生成，不手动维护）
+    同步后的编译副本
 ```
 
-> **陷阱**：管线只检查 C:\Temp\chem_media\，替换图片必须同步到两处。
+> **陷阱**：不要手动维护两套源图；`.chem_media` 只是编译缓存，正式图片只放 `media/`。
 
 ---
 

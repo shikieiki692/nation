@@ -1,6 +1,7 @@
 ---
 title: 提炼-Zchem基础有机化学-批次Z-G-综合复习与例题
 type: 资料提炼
+source_book: Zchem 基础有机化学
 template_version: v1.3
 source_file: "[[7综合例题讲解_笔记]]、[[7.阶段复习_笔记]]、[[14.基础有机综合复习_笔记]]、[[15.综合例题讲解_笔记]]"
 source_type: 网课课堂笔记

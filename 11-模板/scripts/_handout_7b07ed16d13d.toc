@@ -1,0 +1,33 @@
+\contentsline {section}{\numberline {1}热力学初步}{3}{section.1}%
+\contentsline {subsection}{学习目标}{3}{subsection*.2}%
+\contentsline {subsection}{一、为什么需要热力学}{3}{subsection*.3}%
+\contentsline {subsection}{二、量热与反应热}{3}{subsection*.4}%
+\contentsline {subsubsection}{2.1 保温杯式量热计}{3}{subsubsection*.5}%
+\contentsline {subsubsection}{2.2 弹式量热计}{4}{subsubsection*.6}%
+\contentsline {subsection}{三、内能与焓}{4}{subsection*.7}%
+\contentsline {subsubsection}{3.1 热力学能(内能)U}{4}{subsubsection*.8}%
+\contentsline {subsubsection}{3.2 热力学第一定律}{4}{subsubsection*.9}%
+\contentsline {subsubsection}{3.3 焓 H}{5}{subsubsection*.10}%
+\contentsline {subsubsection}{3.4 ΔU 与 ΔH 的关系}{5}{subsubsection*.11}%
+\contentsline {subsection}{四、热化学方程式与盖斯定律}{6}{subsection*.12}%
+\contentsline {subsubsection}{4.1 热化学方程式}{6}{subsubsection*.13}%
+\contentsline {subsubsection}{4.2 盖斯定律}{6}{subsubsection*.14}%
+\contentsline {subsubsection}{4.3 三种焓变计算方法}{7}{subsubsection*.15}%
+\contentsline {subsubsection}{4.4 Born-Haber 循环}{7}{subsubsection*.16}%
+\contentsline {subsection}{五、熵与热力学第二定律}{8}{subsection*.17}%
+\contentsline {subsubsection}{5.1 为什么需要熵}{8}{subsubsection*.18}%
+\contentsline {subsubsection}{5.2 熵 S 的定义}{8}{subsubsection*.19}%
+\contentsline {subsubsection}{5.3 定性判断 ΔS 符号(六条经验规则)}{8}{subsubsection*.20}%
+\contentsline {subsection}{六、Gibbs 自由能与反应方向}{8}{subsection*.21}%
+\contentsline {subsubsection}{6.1 Gibbs 自由能 G}{8}{subsubsection*.22}%
+\contentsline {subsubsection}{6.2 四类反应的自发性}{9}{subsubsection*.23}%
+\contentsline {subsubsection}{6.3 \(\Delta G^\theta \) 与化学平衡常数}{9}{subsubsection*.24}%
+\contentsline {subsubsection}{6.4 \(\Delta G^\theta \) 与标准电动势 \(E^\theta \)}{10}{subsubsection*.25}%
+\contentsline {subsection}{七、典型例题}{10}{subsection*.26}%
+\contentsline {subsection}{八、知识网络与方法论}{11}{subsection*.27}%
+\contentsline {subsubsection}{8.1 热力学函数关系总图}{11}{subsubsection*.28}%
+\contentsline {subsubsection}{8.2 热化学计算三步法}{11}{subsubsection*.29}%
+\contentsline {subsubsection}{8.3 反应自发性判断流程}{11}{subsubsection*.30}%
+\contentsline {subsection}{九、本节总结速查}{11}{subsection*.31}%
+\contentsline {subsection}{十、三级练习题}{12}{subsection*.32}%
+\contentsline {subsection}{十一、练习题答案}{15}{subsection*.33}%

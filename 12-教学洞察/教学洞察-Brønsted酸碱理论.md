@@ -1,12 +1,14 @@
 ---
 title: 教学洞察-Brønsted酸碱理论
 type: 教学洞察
+subject: "化学原理"
 related_kp: "[[Brønsted酸碱理论]]"
 related_topics: ["[[专题-酸碱理论]]"]
 sources:
   - "[[教学逻辑提炼-质心-酸碱理论-第一轮]]"
   - "[[教学逻辑提炼-周坤无机新课-酸碱理论与电化学-第一轮]]"
 rounds: [第一轮, 第二轮]
+updated: 2026-06-29
 version: v1.0
 created: 2026-06-10
 tags: [教学洞察, 酸碱, Brønsted, 质子理论, 共轭酸碱对]

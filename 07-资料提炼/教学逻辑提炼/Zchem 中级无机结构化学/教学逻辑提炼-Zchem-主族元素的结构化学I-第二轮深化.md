@@ -9,7 +9,7 @@ related_kps: [NaCl型结构, 尖晶石, 六方最密堆积, 体心立方堆积, 
 applicable_rounds: [第二轮, 第三轮, 决赛]
 status: 草稿
 created: 2026-05-31
-updated: 2026-05-31（§八已按模板v1.1升级）
+updated: 2026-05-31
 tags: [教学逻辑, 资料提炼, 备课, 晶体结构, 中级无机]
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: 教学洞察-VSEPR
 type: 教学洞察
+subject: "无机和结构化学"
 related_kp: "[[VSEPR理论]]"
 related_topics: ["[[专题-分子结构基础]]"]
 sources:

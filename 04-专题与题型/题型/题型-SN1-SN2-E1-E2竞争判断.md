@@ -1,5 +1,6 @@
 ---
-title: 题型-SN1/SN2/E1/E2竞争判断
+title: 题型-SN1-SN2-E1-E2竞争判断
+aliases: ["题型-SN1/SN2/E1/E2竞争判断"]
 type: 题型
 subject: 有机化学
 syllabus_codes: [36, 38, 44]
@@ -8,6 +9,7 @@ difficulty: 4
 importance: 5
 status: 框架
 stage: draft
+updated: 2026-06-29
 ---
 
 # 题型：SN1/SN2/E1/E2 竞争判断

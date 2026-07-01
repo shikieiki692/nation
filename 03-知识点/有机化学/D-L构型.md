@@ -1,4 +1,5 @@
 ---
+title: D-L构型
 aliases: [D/L Configuration, Fischer-Rosanoff Convention, R/S命名]
 aliases: [D/L Configuration, Fischer-Rosanoff Convention]
 type: 知识点

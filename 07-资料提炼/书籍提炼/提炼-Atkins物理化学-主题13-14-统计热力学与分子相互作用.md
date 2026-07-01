@@ -1,6 +1,7 @@
 ---
 title: 提炼-Atkins物理化学-主题13-14-统计热力学与分子相互作用
 type: 资料提炼
+source_book: Atkins Physical Chemistry 第11版
 template_version: v1.1
 source_file: mineru/物理化学（第11版）第13章 统计热力学544-585.md; mineru/物理化学（第11版）14章 分子相互作用 594-649.md
 source_type: 书籍

@@ -61,6 +61,17 @@ EXCLUDE_PATTERNS = [
     ".obsidian", ".claude", ".git", "__pycache__", "node_modules",
     "09-审计报告", "06-外部资料导入",
     "00-首页",  # 系统入口页不由本脚本检查
+    ".chem_media",
+]
+EXCLUDE_FILE_PREFIXES = ["_pre_"]
+EXCLUDE_FILE_NAMES = {"_preprocessed.md", "_test_sup.md", "_test_sup2.md"}
+EXCLUDE_PATH_PREFIXES = [
+    "06-学生侧材料/讲义/media/",
+    "07-资料提炼/网课资料/无机化学-新课-周坤-2020-难度适中/笔记/",
+    "07-资料提炼/网课资料/无机化学-新课-周坤-2020-难度适中/学生讲义/",
+]
+LINK_RESOLUTION_EXTRA_PREFIXES = [
+    "06-外部资料导入/",
 ]
 
 # ── 各 type 的必填 frontmatter 字段 ──────────────────────────
@@ -83,13 +94,33 @@ REQUIRED_FIELDS: dict[str, list[str]] = {
     "工具卡": ["title", "type", "subject", "updated"],
 }
 
+FIELD_ALIASES_BY_PATH: dict[str, dict[str, list[str]]] = {
+    "02-考纲条目/": {
+        "status": ["coverage_status"],
+    },
+    "04-课件/备课大纲/": {
+        "lesson_round": ["round"],
+    },
+    "04-课件/学生讲义/": {
+        "serve_rounds": ["round"],
+    },
+    "07-资料提炼/": {
+        "source_book": ["source"],
+        "updated": ["extracted_date", "date"],
+    },
+}
+
 	# ── 允许的 status 枚举值（按 type）─────────────────────────────
 ALLOWED_STATUS: dict[str, list[str]] = {
-    "知识点": ["骨架", "初稿", "已填充"],
+    "知识点": ["骨架", "初稿", "已填充", "stub"],
     "活跃任务卡": ["active", "blocked", "completed", "paused"],
-    "考纲条目": ["active", "已完成"],
-    "专题": ["骨架", "初稿", "已填充"],
-    "默认": ["骨架", "初稿", "已填充", "active", "blocked", "completed", "draft", "review", "published"],
+    "考纲条目": ["active", "已完成", "未开始", "未覆盖", "部分填充", "已填充", "已覆盖"],
+    "专题": ["骨架", "初稿", "已填充", "草稿", "已审校", "精品"],
+    "题型": ["骨架", "初稿", "已填充", "框架"],
+    "题目": ["draft", "review", "published", "已入库"],
+    "资料提炼": ["草稿", "待审核", "待填充", "已提炼", "已填充"],
+    "教学逻辑提炼": ["草稿", "待审核", "已提炼"],
+    "备课大纲": ["骨架", "初稿", "已填充", "draft", "review", "published", "草稿", "已审校", "待确认"],
 }
 
 # ── 生命周期 stage 枚举 ────────────────────────────────────────
@@ -110,6 +141,7 @@ STAGE_GATES: dict[str, list[str]] = {
 
 def parse_frontmatter(text: str) -> tuple[dict[str, Any], str]:
     """Extract YAML frontmatter and return (metadata_dict, body_text)."""
+    text = text.lstrip("\ufeff")
     if not text.startswith("---"):
         return {}, text.strip()
     end = text.find("---", 3)
@@ -131,6 +163,47 @@ def parse_frontmatter_from_file(path: Path) -> tuple[dict[str, Any], str]:
     except Exception:
         return {}, ""
     return parse_frontmatter(text)
+
+
+def frontmatter_value_present(value: Any) -> bool:
+    """Return True when a frontmatter value should count as populated."""
+    return value is not None and value != ""
+
+
+def frontmatter_field_value(file: Path, fm: dict[str, Any], field: str) -> Any:
+    """Read a frontmatter field with path-scoped fallback aliases."""
+    value = fm.get(field)
+    if frontmatter_value_present(value):
+        return value
+
+    rel = file.relative_to(VAULT_ROOT).as_posix()
+    for prefix, aliases_by_field in FIELD_ALIASES_BY_PATH.items():
+        if not rel.startswith(prefix):
+            continue
+        for alias in aliases_by_field.get(field, []):
+            alias_value = fm.get(alias)
+            if frontmatter_value_present(alias_value):
+                return alias_value
+    return value
+
+
+def is_excluded_path(rel: str) -> bool:
+    """Return True when a relative path should be skipped by validation."""
+    normalized = rel.replace("\\", "/")
+    if any(normalized.startswith(prefix) for prefix in EXCLUDE_PATH_PREFIXES):
+        return True
+    parts = [part for part in normalized.split("/") if part]
+    if any(part in EXCLUDE_PATTERNS for part in parts):
+        return True
+
+    filename = parts[-1] if parts else ""
+    if filename.endswith(".excalidraw.md"):
+        return True
+    if any(filename.startswith(prefix) for prefix in EXCLUDE_FILE_PREFIXES):
+        return True
+    if filename in EXCLUDE_FILE_NAMES:
+        return True
+    return False
 
 
 # ══════════════════════════════════════════════════════════════════
@@ -174,15 +247,15 @@ def check_frontmatter(file: Path, fm: dict[str, Any], report: Report) -> None:
 
     # 必填字段检查
     required = REQUIRED_FIELDS.get(doc_type, ["title", "type", "updated"])
-    missing = [f for f in required if f not in fm or fm.get(f) is None or fm.get(f) == ""]
+    missing = [f for f in required if not frontmatter_value_present(frontmatter_field_value(file, fm, f))]
     if missing:
         report.error(rel, "frontmatter-缺失", f"缺字段: {', '.join(missing)}")
 
     # status 枚举值检查
-    status = fm.get("status")
+    status = frontmatter_field_value(file, fm, "status")
     if status is not None:
-        allowed = ALLOWED_STATUS.get(doc_type, ALLOWED_STATUS["默认"])
-        if status not in allowed:
+        allowed = ALLOWED_STATUS.get(doc_type)
+        if allowed is not None and status not in allowed:
             report.warning(rel, "status-枚举", f"status='{status}' 不在允许列表 {allowed} 中")
 
     # 日期格式检查
@@ -197,8 +270,9 @@ def check_wikilinks(file: Path, body: str, report: Report) -> None:
     rel = file.relative_to(VAULT_ROOT).as_posix()
     links = re.findall(r'\[\[([^\]]+)\]\]', body)
     for link in links:
-        # 分割显示名和实际路径： [[page|alias]] 或 [[page]]
-        target = link.split("|")[0].strip()
+        target = normalize_wikilink_target(link)
+        if not target:
+            continue
         # 处理图片嵌入 ![[image.png]] — 在 check_images 中处理
         if target.startswith("media/") or target.startswith("./media/"):
             continue
@@ -220,21 +294,72 @@ def check_wikilinks(file: Path, body: str, report: Report) -> None:
 # ── Wikilink 解析缓存 ──────────────────────────────────────────
 _FILENAME_INDEX: dict[str, list[Path]] | None = None
 """惰性构建：basename（无扩展名）→ 匹配的文件列表"""
+_LABEL_INDEX: dict[str, list[Path]] | None = None
+"""惰性构建：title/aliases（小写）→ 匹配的文件列表"""
+
+
+def is_link_resolution_extra_path(rel: str) -> bool:
+    """Return True when a path should participate in link resolution only."""
+    normalized = rel.replace("\\", "/")
+    return any(normalized.startswith(prefix) for prefix in LINK_RESOLUTION_EXTRA_PREFIXES)
+
+
+def iter_link_resolution_files(vault_root: Path):
+    """Yield files that can serve as wikilink targets, including extra source dirs."""
+    seen: set[Path] = set()
+    for f in vault_root.rglob("*.md"):
+        rel = f.relative_to(vault_root).as_posix()
+        if is_excluded_path(rel) and not is_link_resolution_extra_path(rel):
+            continue
+        if f in seen:
+            continue
+        seen.add(f)
+        yield f
 
 
 def build_filename_index(vault_root: Path) -> dict[str, list[Path]]:
     """遍历 vault 下所有 .md 文件，建立 basename → [Path, ...] 索引。"""
     index: dict[str, list[Path]] = {}
-    for f in vault_root.rglob("*.md"):
-        # 排除 .excalidraw.md、系统目录
-        if ".excalidraw" in f.name:
-            continue
-        rel = f.relative_to(vault_root).as_posix()
-        if any(rel.startswith(p) for p in EXCLUDE_PATTERNS):
-            continue
-        name = f.stem.lower()  # 不带 .md，小写
-        index.setdefault(name, []).append(f)
+    for f in iter_link_resolution_files(vault_root):
+        names = {f.stem.lower()}
+        normalized = re.sub(r"^[（(]\s*已压缩\s*[）)]", "", f.stem, count=1).strip().lower()
+        if normalized:
+            names.add(normalized)
+        for name in names:
+            index.setdefault(name, []).append(f)
     return index
+
+
+def build_label_index(vault_root: Path) -> dict[str, list[Path]]:
+    """遍历可解析目标文件，建立 title/aliases → [Path, ...] 索引。"""
+    index: dict[str, list[Path]] = {}
+    for f in iter_link_resolution_files(vault_root):
+        fm, _ = parse_frontmatter_from_file(f)
+        labels: set[str] = set()
+
+        for field in ("title", "aliases", "syllabus_code"):
+            value = fm.get(field)
+            if isinstance(value, str) and value.strip():
+                labels.add(value.strip().lower())
+            elif isinstance(value, list):
+                for item in value:
+                    if isinstance(item, str) and item.strip():
+                        labels.add(item.strip().lower())
+
+        for label in labels:
+            index.setdefault(label, []).append(f)
+    return index
+
+
+def normalize_wikilink_target(target: str) -> str:
+    """Normalize Obsidian wikilinks by stripping aliases and heading/block anchors."""
+    target = target.split("|", 1)[0].strip()
+    if not target or target.startswith("#"):
+        return ""
+    if "#" in target:
+        target = target.split("#", 1)[0].strip()
+    target = target.rstrip("/\\").strip()
+    return target
 
 
 def find_wikilink_target(target: str, vault_root: Path) -> Path | None:
@@ -243,17 +368,15 @@ def find_wikilink_target(target: str, vault_root: Path) -> Path | None:
 
     1. 精确路径匹配（当前行为）
     2. basename 匹配（处理 [[05-酸碱理论]] → 自动找对应文件）
-    3. 标题匹配（通过 frontmatter title 字段）
+    3. title/aliases 匹配（通过 frontmatter title/aliases 字段）
     """
-    global _FILENAME_INDEX
+    global _FILENAME_INDEX, _LABEL_INDEX
 
     # ── Level 1: 精确路径匹配 ──────────────────────────────
     candidates = [
-        vault_root / f"{target}.md",
-        vault_root / target if target.endswith(".md") else None,
+        vault_root / target,
+        vault_root / f"{target}.md" if not target.endswith(".md") else None,
     ]
-    if "/" in target and not target.endswith(".md"):
-        candidates.append(vault_root / f"{target}.md")
 
     for c in candidates:
         if c and c.exists() and c.is_file():
@@ -276,6 +399,34 @@ def find_wikilink_target(target: str, vault_root: Path) -> Path | None:
             if any(rel.startswith(d) or f"/{d}/" in rel for d in INCLUDE_DIRS):
                 return m
         return matches[0]
+
+    # ── Level 3: title / aliases 匹配 ───────────────────────
+    if _LABEL_INDEX is None:
+        _LABEL_INDEX = build_label_index(vault_root)
+
+    label_keys = []
+    target_key = target.strip().lower()
+    if target_key:
+        label_keys.append(target_key)
+    if target_basename != target_key:
+        label_keys.append(target_basename)
+
+    label_matches: list[Path] = []
+    seen: set[Path] = set()
+    for key in label_keys:
+        for match in _LABEL_INDEX.get(key, []):
+            if match not in seen:
+                seen.add(match)
+                label_matches.append(match)
+
+    if len(label_matches) == 1:
+        return label_matches[0]
+    elif len(label_matches) > 1:
+        for m in label_matches:
+            rel = m.relative_to(vault_root).as_posix()
+            if any(rel.startswith(d) or f"/{d}/" in rel for d in INCLUDE_DIRS):
+                return m
+        return label_matches[0]
 
     return None
 
@@ -411,7 +562,7 @@ def check_lifecycle(file: Path, fm: dict[str, Any], body: str, report: Report) -
     # 2. 门禁检查
     if stage == "review":
         # draft→review：所有必填 frontmatter 字段必须存在
-        missing = [f for f in required if f not in fm or fm.get(f) is None or fm.get(f) == ""]
+        missing = [f for f in required if not frontmatter_value_present(frontmatter_field_value(file, fm, f))]
         if missing:
             report.warning(rel, "stage-门禁",
                            f"stage=review 但缺必填字段: {', '.join(missing)}")
@@ -422,7 +573,7 @@ def check_lifecycle(file: Path, fm: dict[str, Any], body: str, report: Report) -
 
     elif stage == "published":
         # review→published：无断链 + 内容完整
-        missing = [f for f in required if f not in fm or fm.get(f) is None or fm.get(f) == ""]
+        missing = [f for f in required if not frontmatter_value_present(frontmatter_field_value(file, fm, f))]
         missing_critical = [f for f in missing if f in ("title", "type")]
         if missing_critical:
             report.warning(rel, "stage-门禁",
@@ -440,7 +591,9 @@ def check_lifecycle(file: Path, fm: dict[str, Any], body: str, report: Report) -
         if links:
             broken = 0
             for link in links:
-                target = link.split("|")[0].strip()
+                target = normalize_wikilink_target(link)
+                if not target:
+                    continue
                 if target.startswith("media/") or target.startswith("./media/"):
                     continue
                 if find_wikilink_target(target, VAULT_ROOT) is None:
@@ -477,7 +630,7 @@ def collect_md_files(root: Path, dirs: list[str]) -> list[Path]:
         for f in sorted(target.rglob("*.md")):
             # 排除 exclude 目录
             rel = f.relative_to(root).as_posix()
-            if any(rel.startswith(ep) for ep in EXCLUDE_PATTERNS):
+            if is_excluded_path(rel):
                 continue
             files.append(f)
     return files
@@ -485,6 +638,10 @@ def collect_md_files(root: Path, dirs: list[str]) -> list[Path]:
 
 def scan_file(file: Path, report: Report, quick: bool = False) -> None:
     """对单个文件执行所有检查。"""
+    rel = file.relative_to(VAULT_ROOT).as_posix()
+    if is_excluded_path(rel):
+        return
+
     report.stats["files_checked"] += 1
     report.all_files.add(file)
 

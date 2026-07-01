@@ -1,0 +1,135 @@
+2026-06-29 09:27:47,695+0800 INFO  miktex - this is One MiKTeX Utility 1.12 (MiKTeX 26.5)
+2026-06-29 09:27:47,695+0800 INFO  miktex - this process (9328) started by node in directory C:\Obsidion\妙妙屋 with command line: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX/miktex/bin/x64/miktex.exe packages check-update --repository C:/Users/蕾赛/AppData/Local/Programs/MiKTeX
+2026-06-29 09:27:48,478+0800 WARN  miktex.packagemanager - dependency problem: ms is required by _miktex-latex-packages
+2026-06-29 09:27:48,478+0800 WARN  miktex.packagemanager - dependency problem: showframe is required by _miktex-latex-packages
+2026-06-29 09:27:48,478+0800 WARN  miktex.packagemanager - dependency problem: thailatex is required by _miktex-latex-packages
+2026-06-29 09:27:48,480+0800 WARN  miktex.packagemanager - dependency problem: luxi is required by _miktex-fonts-type1
+2026-06-29 09:27:48,540+0800 INFO  miktex.packagemanager - searching for updateable packages
+2026-06-29 09:27:48,543+0800 FATAL miktex.core - No such file or directory: path="C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\miktex-zzdb3-2.9.tar.lzma", modeString="rb"
+2026-06-29 09:27:48,543+0800 FATAL miktex.core - Function: _wopen
+2026-06-29 09:27:48,543+0800 FATAL miktex.core - Result: 2
+2026-06-29 09:27:48,543+0800 FATAL miktex.core - Data: path="C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\miktex-zzdb3-2.9.tar.lzma", modeString="rb"
+2026-06-29 09:27:48,543+0800 FATAL miktex.core - Source: Libraries\MiKTeX\Core\File\win\winFile.cpp:543
+2026-06-29 09:29:02,355+0800 INFO  miktex - this is One MiKTeX Utility 1.12 (MiKTeX 26.5)
+2026-06-29 09:29:02,356+0800 INFO  miktex - this process (24448) started by node in directory C:\Obsidion\妙妙屋 with command line: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX/miktex/bin/x64/miktex.exe packages check-update --repository C:/Users/蕾赛/AppData/Local/Programs/MiKTeX
+2026-06-29 09:29:12,377+0800 FATAL miktex.core - The package database is locked and cannot be accessed.
+2026-06-29 09:29:12,377+0800 FATAL miktex.core - Data: 
+2026-06-29 09:29:12,377+0800 FATAL miktex.core - Source: Libraries\MiKTeX\PackageManager\PackageManagerImpl.cpp:111
+2026-06-29 09:29:12,378+0800 FATAL miktex - The package database is locked and cannot be accessed.
+2026-06-29 09:29:12,378+0800 FATAL miktex - Info: 
+2026-06-29 09:29:12,378+0800 FATAL miktex - Source: Libraries\MiKTeX\PackageManager\PackageManagerImpl.cpp
+2026-06-29 09:29:12,378+0800 FATAL miktex - Line: 111
+2026-06-29 09:29:12,378+0800 INFO  miktex - this process (24448) finishes with exit code 1
+2026-06-29 09:33:04,204+0800 INFO  miktex - this is One MiKTeX Utility 1.12 (MiKTeX 26.5)
+2026-06-29 09:33:04,205+0800 INFO  miktex - this process (34428) started by node in directory C:\Obsidion\妙妙屋 with command line: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX/miktex/bin/x64/miktex.exe diag --help
+2026-06-29 09:33:04,205+0800 FATAL miktex - --help: unknown command
+2026-06-29 09:33:04,205+0800 INFO  miktex - this process (34428) finishes with exit code 1
+2026-06-29 09:33:13,675+0800 INFO  miktex - this is One MiKTeX Utility 1.12 (MiKTeX 26.5)
+2026-06-29 09:33:13,676+0800 INFO  miktex - this process (16740) started by node in directory C:\Obsidion\妙妙屋 with command line: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX/miktex/bin/x64/miktex.exe diag
+2026-06-29 09:33:13,676+0800 FATAL miktex - missing command; try help
+2026-06-29 09:33:13,676+0800 INFO  miktex - this process (16740) finishes with exit code 1
+2026-06-29 09:33:24,246+0800 INFO  miktex - this is One MiKTeX Utility 1.12 (MiKTeX 26.5)
+2026-06-29 09:33:24,247+0800 INFO  miktex - this process (38236) started by node in directory C:\Obsidion\妙妙屋 with command line: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX/miktex/bin/x64/miktex.exe diag help
+2026-06-29 09:33:24,247+0800 INFO  miktex - this process (38236) finishes with exit code 0
+2026-06-29 09:43:37,126+0800 INFO  miktex - this is One MiKTeX Utility 1.12 (MiKTeX 26.5)
+2026-06-29 09:43:37,127+0800 INFO  miktex - this process (33856) started by node in directory C:\Obsidion\妙妙屋 with command line: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX/miktex/bin/x64/miktex.exe packages check-update --repository C:/Obsidion/妙妙屋/11-模板/scripts/.miktex-repo
+2026-06-29 09:43:37,936+0800 WARN  miktex.packagemanager - dependency problem: ms is required by _miktex-latex-packages
+2026-06-29 09:43:37,936+0800 WARN  miktex.packagemanager - dependency problem: showframe is required by _miktex-latex-packages
+2026-06-29 09:43:37,937+0800 WARN  miktex.packagemanager - dependency problem: thailatex is required by _miktex-latex-packages
+2026-06-29 09:43:37,938+0800 WARN  miktex.packagemanager - dependency problem: luxi is required by _miktex-fonts-type1
+2026-06-29 09:43:38,002+0800 INFO  miktex.packagemanager - searching for updateable packages
+2026-06-29 09:43:38,677+0800 FATAL miktex.core - A MiKTeX configuration file could not be loaded.
+2026-06-29 09:43:38,677+0800 FATAL miktex.core - Data: file="C:/Obsidion/妙妙屋/11-模板/scripts/.miktex-sandbox/data\miktex/cache\packages\miktex-zzdb3-2.9\package-manifests.ini", line="380640", error="the configuration file is not signed"
+2026-06-29 09:43:38,677+0800 FATAL miktex.core - Source: Libraries\MiKTeX\Core\Cfg\Cfg.cpp:1002
+2026-06-29 09:43:38,762+0800 FATAL miktex - A MiKTeX configuration file could not be loaded.
+2026-06-29 09:43:38,762+0800 FATAL miktex - Info: file="C:/Obsidion/妙妙屋/11-模板/scripts/.miktex-sandbox/data\miktex/cache\packages\miktex-zzdb3-2.9\package-manifests.ini", line="380640", error="the configuration file is not signed"
+2026-06-29 09:43:38,762+0800 FATAL miktex - Source: Libraries\MiKTeX\Core\Cfg\Cfg.cpp
+2026-06-29 09:43:38,762+0800 FATAL miktex - Line: 1002
+2026-06-29 09:43:38,763+0800 INFO  miktex - this process (33856) finishes with exit code 1
+2026-06-29 09:44:19,603+0800 INFO  miktex - this is One MiKTeX Utility 1.12 (MiKTeX 26.5)
+2026-06-29 09:44:19,603+0800 INFO  miktex - this process (35808) started by node in directory C:\Obsidion\妙妙屋 with command line: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX/miktex/bin/x64/miktex.exe packages check-update --repository C:/Obsidion/妙妙屋/11-模板/scripts/.miktex-proxy-install
+2026-06-29 09:44:20,403+0800 WARN  miktex.packagemanager - dependency problem: ms is required by _miktex-latex-packages
+2026-06-29 09:44:20,403+0800 WARN  miktex.packagemanager - dependency problem: showframe is required by _miktex-latex-packages
+2026-06-29 09:44:20,403+0800 WARN  miktex.packagemanager - dependency problem: thailatex is required by _miktex-latex-packages
+2026-06-29 09:44:20,405+0800 WARN  miktex.packagemanager - dependency problem: luxi is required by _miktex-fonts-type1
+2026-06-29 09:44:20,468+0800 INFO  miktex.packagemanager - searching for updateable packages
+2026-06-29 09:44:21,168+0800 FATAL miktex.core - A MiKTeX configuration file could not be loaded.
+2026-06-29 09:44:21,168+0800 FATAL miktex.core - Data: file="C:/Obsidion/妙妙屋/11-模板/scripts/.miktex-sandbox/data\miktex/cache\packages\miktex-zzdb3-2.9\package-manifests.ini", line="380640", error="the configuration file is not signed"
+2026-06-29 09:44:21,168+0800 FATAL miktex.core - Source: Libraries\MiKTeX\Core\Cfg\Cfg.cpp:1002
+2026-06-29 09:44:21,263+0800 FATAL miktex - A MiKTeX configuration file could not be loaded.
+2026-06-29 09:44:21,263+0800 FATAL miktex - Info: file="C:/Obsidion/妙妙屋/11-模板/scripts/.miktex-sandbox/data\miktex/cache\packages\miktex-zzdb3-2.9\package-manifests.ini", line="380640", error="the configuration file is not signed"
+2026-06-29 09:44:21,263+0800 FATAL miktex - Source: Libraries\MiKTeX\Core\Cfg\Cfg.cpp
+2026-06-29 09:44:21,263+0800 FATAL miktex - Line: 1002
+2026-06-29 09:44:21,263+0800 INFO  miktex - this process (35808) finishes with exit code 1
+2026-06-29 09:48:39,570+0800 INFO  miktex - this is One MiKTeX Utility 1.12 (MiKTeX 26.5)
+2026-06-29 09:48:39,570+0800 INFO  miktex - this process (17932) started by xelatex in directory C:\Obsidion\妙妙屋\11-模板\scripts with command line: miktex --disable-installer formats build xelatex --engine xetex
+2026-06-29 09:48:39,588+0800 INFO  miktex - Building format 'xelatex' with engine 'xetex'...
+2026-06-29 09:48:39,594+0800 INFO  miktex.core - start process: miktex-makefmt.exe --engine=xetex --dest-name=xelatex --no-dump xelatex.ini --miktex-disable-maintenance --miktex-disable-diagnose
+2026-06-29 09:50:13,076+0800 INFO  miktex - this is One MiKTeX Utility 1.12 (MiKTeX 26.5)
+2026-06-29 09:50:13,076+0800 INFO  miktex - this process (29968) started by xelatex in directory C:\Obsidion\妙妙屋\11-模板\scripts with command line: miktex --disable-installer formats build xelatex --engine xetex
+2026-06-29 09:50:13,095+0800 INFO  miktex - Building format 'xelatex' with engine 'xetex'...
+2026-06-29 09:50:13,101+0800 INFO  miktex.core - start process: miktex-makefmt.exe --engine=xetex --dest-name=xelatex --no-dump xelatex.ini --miktex-disable-maintenance --miktex-disable-diagnose
+2026-06-29 09:50:14,189+0800 INFO  miktex - this process (17932) finishes with exit code 0
+2026-06-29 09:51:45,919+0800 INFO  miktex - this process (29968) finishes with exit code 0
+2026-06-29 10:01:27,995+0800 INFO  miktex - this is One MiKTeX Utility 1.12 (MiKTeX 26.5)
+2026-06-29 10:01:27,995+0800 INFO  miktex - this process (39588) started by fc-conflist in directory C:\Obsidion\妙妙屋 with command line: miktex --quiet fndb refresh
+2026-06-29 10:01:27,997+0800 INFO  miktex - Creating FNDB for user root directory (C:\Obsidion\妙妙屋\11-模板\scripts\.miktex-sandbox\config)...
+2026-06-29 10:01:28,018+0800 INFO  miktex - Creating FNDB for user root directory (C:\Obsidion\妙妙屋\11-模板\scripts\.miktex-sandbox\data)...
+2026-06-29 10:01:28,052+0800 INFO  miktex - Creating FNDB for user root directory (C:\Users\蕾赛\AppData\Local\Programs\MiKTeX)...
+2026-06-29 10:01:30,970+0800 INFO  miktex - Creating FNDB for user root directory (C:\Obsidion\妙妙屋\11-模板\scripts\.miktex-sandbox\install)...
+2026-06-29 10:01:31,817+0800 WARN  miktex.packagemanager - dependency problem: ms is required by _miktex-latex-packages
+2026-06-29 10:01:31,817+0800 WARN  miktex.packagemanager - dependency problem: showframe is required by _miktex-latex-packages
+2026-06-29 10:01:31,817+0800 WARN  miktex.packagemanager - dependency problem: thailatex is required by _miktex-latex-packages
+2026-06-29 10:01:31,819+0800 WARN  miktex.packagemanager - dependency problem: luxi is required by _miktex-fonts-type1
+2026-06-29 10:01:31,882+0800 INFO  miktex - Refreshing FNDB for MPM...
+2026-06-29 10:01:33,583+0800 INFO  miktex - this process (39588) finishes with exit code 0
+2026-06-29 10:01:33,868+0800 INFO  miktex - this is One MiKTeX Utility 1.12 (MiKTeX 26.5)
+2026-06-29 10:01:33,869+0800 INFO  miktex - this process (36484) started by fc-conflist in directory C:\Obsidion\妙妙屋 with command line: miktex --quiet fontmaps configure
+2026-06-29 10:01:33,888+0800 INFO  miktex - Parsing configuration file C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\miktex/config\updmap.cfg...
+2026-06-29 10:01:45,978+0800 INFO  miktex - Writing C:\Obsidion\妙妙屋\11-模板\scripts\.miktex-sandbox\data\fonts\map\dvipdfmx\kanjix.map...
+2026-06-29 10:01:45,991+0800 INFO  miktex - Writing C:\Obsidion\妙妙屋\11-模板\scripts\.miktex-sandbox\data\fonts\map\dvips\builtin35.map...
+2026-06-29 10:01:46,003+0800 INFO  miktex - Writing C:\Obsidion\妙妙屋\11-模板\scripts\.miktex-sandbox\data\fonts\map\dvips\download35.map...
+2026-06-29 10:01:46,017+0800 INFO  miktex - Writing C:\Obsidion\妙妙屋\11-模板\scripts\.miktex-sandbox\data\fonts\map\dvips\ps2pk.map...
+2026-06-29 10:01:46,041+0800 INFO  miktex - Writing C:\Obsidion\妙妙屋\11-模板\scripts\.miktex-sandbox\data\fonts\map\dvips\psfonts_pk.map...
+2026-06-29 10:01:46,064+0800 INFO  miktex - Writing C:\Obsidion\妙妙屋\11-模板\scripts\.miktex-sandbox\data\fonts\map\dvips\psfonts_t1.map...
+2026-06-29 10:01:46,088+0800 INFO  miktex - Writing C:\Obsidion\妙妙屋\11-模板\scripts\.miktex-sandbox\data\fonts\map\pdftex\pdftex_dl14.map...
+2026-06-29 10:01:46,111+0800 INFO  miktex - Writing C:\Obsidion\妙妙屋\11-模板\scripts\.miktex-sandbox\data\fonts\map\pdftex\pdftex_ndl14.map...
+2026-06-29 10:01:46,135+0800 INFO  miktex - Copying C:\Obsidion\妙妙屋\11-模板\scripts\.miktex-sandbox\data\fonts\map\dvips\psfonts_t1.map
+2026-06-29 10:01:46,135+0800 INFO  miktex -      to C:\Obsidion\妙妙屋\11-模板\scripts\.miktex-sandbox\data\fonts\map\dvips\psfonts.map...
+2026-06-29 10:01:46,147+0800 INFO  miktex - Copying C:\Obsidion\妙妙屋\11-模板\scripts\.miktex-sandbox\data\fonts\map\pdftex\pdftex_dl14.map
+2026-06-29 10:01:46,147+0800 INFO  miktex -      to C:\Obsidion\妙妙屋\11-模板\scripts\.miktex-sandbox\data\fonts\map\pdftex\pdftex.map...
+2026-06-29 10:01:46,192+0800 INFO  miktex - running: miktex-fc-cache --miktex-disable-maintenance --miktex-disable-diagnose
+2026-06-29 10:01:46,192+0800 INFO  miktex.core - start process: miktex-fc-cache --miktex-disable-maintenance --miktex-disable-diagnose
+2026-06-29 10:01:52,080+0800 WARN  miktex.core - still open: C:\Obsidion\妙妙屋\11-模板\scripts\.miktex-sandbox\config\fontconfig\config\fonts.conf
+2026-06-29 10:01:52,080+0800 WARN  miktex.core - still open: C:/Users/蕾赛/AppData/Local/Programs/MiKTeX\fontconfig/config\fonts.conf.in
+2026-06-29 10:01:52,080+0800 INFO  miktex - this process (36484) finishes with exit code 0
+2026-06-29 10:02:16,512+0800 INFO  miktex - this is One MiKTeX Utility 1.12 (MiKTeX 26.5)
+2026-06-29 10:02:16,512+0800 INFO  miktex - this process (18544) started by xelatex in directory C:\Obsidion\妙妙屋\11-模板\scripts with command line: miktex --disable-installer formats build xelatex --engine xetex
+2026-06-29 10:02:16,524+0800 INFO  miktex - Building format 'xelatex' with engine 'xetex'...
+2026-06-29 10:02:16,529+0800 INFO  miktex.core - start process: miktex-makefmt.exe --engine=xetex --dest-name=xelatex --no-dump xelatex.ini --miktex-disable-maintenance --miktex-disable-diagnose
+2026-06-29 10:02:31,078+0800 INFO  miktex - this process (18544) finishes with exit code 0
+2026-06-29 10:11:35,726+0800 INFO  miktex - this is One MiKTeX Utility 1.12 (MiKTeX 26.5)
+2026-06-29 10:11:35,726+0800 INFO  miktex - this process (34796) started by xelatex in directory C:\Obsidion\妙妙屋 with command line: miktex --disable-installer formats build xelatex --engine xetex
+2026-06-29 10:11:35,740+0800 INFO  miktex - Building format 'xelatex' with engine 'xetex'...
+2026-06-29 10:11:35,744+0800 INFO  miktex.core - start process: miktex-makefmt.exe --engine=xetex --dest-name=xelatex --no-dump xelatex.ini --miktex-disable-maintenance --miktex-disable-diagnose
+2026-06-29 10:11:50,497+0800 INFO  miktex - this process (34796) finishes with exit code 0
+2026-07-01 10:29:13,307+0800 INFO  miktex - this is One MiKTeX Utility 1.12 (MiKTeX 26.5)
+2026-07-01 10:29:13,308+0800 INFO  miktex - this process (25608) started by xelatex in directory C:\Obsidion\妙妙屋 with command line: miktex fontmaps configure
+2026-07-01 10:29:13,317+0800 INFO  miktex - Parsing configuration file C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\miktex/config\updmap.cfg...
+2026-07-01 10:29:19,775+0800 INFO  miktex - Writing C:\Obsidion\妙妙屋\11-模板\scripts\.miktex-sandbox\data\fonts\map\dvipdfmx\kanjix.map...
+2026-07-01 10:29:19,778+0800 INFO  miktex - Writing C:\Obsidion\妙妙屋\11-模板\scripts\.miktex-sandbox\data\fonts\map\dvips\builtin35.map...
+2026-07-01 10:29:19,781+0800 INFO  miktex - Writing C:\Obsidion\妙妙屋\11-模板\scripts\.miktex-sandbox\data\fonts\map\dvips\download35.map...
+2026-07-01 10:29:19,785+0800 INFO  miktex - Writing C:\Obsidion\妙妙屋\11-模板\scripts\.miktex-sandbox\data\fonts\map\dvips\ps2pk.map...
+2026-07-01 10:29:19,799+0800 INFO  miktex - Writing C:\Obsidion\妙妙屋\11-模板\scripts\.miktex-sandbox\data\fonts\map\dvips\psfonts_pk.map...
+2026-07-01 10:29:19,811+0800 INFO  miktex - Writing C:\Obsidion\妙妙屋\11-模板\scripts\.miktex-sandbox\data\fonts\map\dvips\psfonts_t1.map...
+2026-07-01 10:29:19,826+0800 INFO  miktex - Writing C:\Obsidion\妙妙屋\11-模板\scripts\.miktex-sandbox\data\fonts\map\pdftex\pdftex_dl14.map...
+2026-07-01 10:29:19,840+0800 INFO  miktex - Writing C:\Obsidion\妙妙屋\11-模板\scripts\.miktex-sandbox\data\fonts\map\pdftex\pdftex_ndl14.map...
+2026-07-01 10:29:19,853+0800 INFO  miktex - Copying C:\Obsidion\妙妙屋\11-模板\scripts\.miktex-sandbox\data\fonts\map\dvips\psfonts_t1.map
+2026-07-01 10:29:19,853+0800 INFO  miktex -      to C:\Obsidion\妙妙屋\11-模板\scripts\.miktex-sandbox\data\fonts\map\dvips\psfonts.map...
+2026-07-01 10:29:19,858+0800 INFO  miktex - Copying C:\Obsidion\妙妙屋\11-模板\scripts\.miktex-sandbox\data\fonts\map\pdftex\pdftex_dl14.map
+2026-07-01 10:29:19,858+0800 INFO  miktex -      to C:\Obsidion\妙妙屋\11-模板\scripts\.miktex-sandbox\data\fonts\map\pdftex\pdftex.map...
+2026-07-01 10:29:19,877+0800 INFO  miktex - running: miktex-fc-cache --miktex-disable-maintenance --miktex-disable-diagnose
+2026-07-01 10:29:19,877+0800 INFO  miktex.core - start process: miktex-fc-cache --miktex-disable-maintenance --miktex-disable-diagnose
+2026-07-01 10:29:20,396+0800 WARN  miktex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fontconfig/config\fonts.conf.in
+2026-07-01 10:29:20,397+0800 WARN  miktex.core - still open: C:\Obsidion\妙妙屋\11-模板\scripts\.miktex-sandbox\config\fontconfig\config\fonts.conf
+2026-07-01 10:29:20,397+0800 INFO  miktex - this process (25608) finishes with exit code 0

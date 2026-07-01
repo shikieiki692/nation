@@ -1,6 +1,6 @@
 ---
 title: Baeyer-Villiger重排
-aliases: [Baeyer-Villiger Rearrangement, BV重排, 拜耳-维立格重排, 酮转酯]
+aliases: [Baeyer-Villiger Rearrangement, BV重排, 拜耳-维立格重排, 酮转酯, Baeyer-Villiger氧化]
 type: 知识点
 subject: 有机化学
 module: 有机化学

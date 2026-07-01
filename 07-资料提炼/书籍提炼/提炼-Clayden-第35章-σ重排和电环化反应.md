@@ -6,6 +6,7 @@ source_file: mineru/中文版clayden-chinese-34-36907-999.md (lines 1770-3056)
 chapter: 35
 template_version: v1.3
 extracted: 2026-05-18
+updated: 2026-05-18
 tags:
   - Clayden
   - 有机化学

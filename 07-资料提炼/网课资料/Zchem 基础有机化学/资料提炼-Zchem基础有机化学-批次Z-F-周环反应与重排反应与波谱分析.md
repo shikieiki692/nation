@@ -1,6 +1,7 @@
 ---
 title: 提炼-Zchem基础有机化学-批次Z-F-周环反应与重排反应与波谱分析
 type: 资料提炼
+source_book: Zchem 基础有机化学
 template_version: v1.3
 source_file: "[[11.周环反应_笔记]]、[[12.重排反应_笔记]]、[[13.有机波谱分析_笔记]]"
 source_type: 网课课堂笔记

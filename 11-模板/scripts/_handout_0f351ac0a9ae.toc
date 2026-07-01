@@ -1,0 +1,35 @@
+\contentsline {section}{\numberline {1}晶体结构基础 · 超级充实版}{3}{section.1}%
+\contentsline {subsection}{学习目标}{3}{subsection*.2}%
+\contentsline {subsection}{一、晶体学基础}{3}{subsection*.3}%
+\contentsline {subsubsection}{1.1 什么是晶体？---从宏观现象到微观本质}{3}{subsubsection*.4}%
+\contentsline {subsubsection}{1.2 七大晶系---晶体分类的''骨架''}{4}{subsubsection*.5}%
+\contentsline {subsubsection}{1.3 14种布拉维格子}{5}{subsubsection*.6}%
+\contentsline {subsection}{二、金属密堆积}{6}{subsection*.7}%
+\contentsline {subsubsection}{2.1 为什么金属原子要''挤''在一起？}{6}{subsubsection*.8}%
+\contentsline {subsubsection}{2.2 四种基本堆积方式}{6}{subsubsection*.9}%
+\contentsline {subsubsection}{2.3 空间利用率全推导}{14}{subsubsection*.10}%
+\contentsline {subsubsection}{2.4 空隙分析}{15}{subsubsection*.11}%
+\contentsline {subsection}{三、离子晶体结构类型}{18}{subsection*.12}%
+\contentsline {subsubsection}{3.1 为什么从金属堆积讲到离子晶体？}{18}{subsubsection*.13}%
+\contentsline {subsubsection}{3.2 常见AB型离子晶体}{20}{subsubsection*.14}%
+\contentsline {subsubsection}{3.3 其他常见结构}{23}{subsubsection*.15}%
+\contentsline {subsubsection}{3.4 结构类型对比总表}{26}{subsubsection*.16}%
+\contentsline {subsection}{四、半径比规则}{27}{subsection*.17}%
+\contentsline {subsubsection}{4.1 离子晶体的''尺寸决定论''}{27}{subsubsection*.18}%
+\contentsline {subsubsection}{4.2 临界值几何推导}{27}{subsubsection*.19}%
+\contentsline {subsubsection}{4.3 半径比与配位数的关系}{28}{subsubsection*.20}%
+\contentsline {subsection}{五、Pauling 规则与离子极化}{29}{subsection*.21}%
+\contentsline {subsubsection}{5.1 Pauling 电价规则---离子晶体结构的''电荷守恒''}{29}{subsubsection*.22}%
+\contentsline {subsubsection}{5.2 Pauling 其他规则}{30}{subsubsection*.23}%
+\contentsline {subsubsection}{5.3 离子极化与 Fajans 规则}{30}{subsubsection*.24}%
+\contentsline {subsection}{六、其他晶体类型}{32}{subsection*.25}%
+\contentsline {subsubsection}{6.1 四大晶体类型对比}{32}{subsubsection*.26}%
+\contentsline {subsubsection}{6.2 混合型晶体 --- 石墨}{33}{subsubsection*.27}%
+\contentsline {subsection}{七、典型例题}{34}{subsection*.28}%
+\contentsline {subsection}{八、方法总结}{36}{subsection*.29}%
+\contentsline {subsubsection}{8.1 晶体结构分析流程图}{36}{subsubsection*.30}%
+\contentsline {subsubsection}{8.2 核心速查表}{36}{subsubsection*.31}%
+\contentsline {subsubsection}{8.3 结构类型判断流程图}{36}{subsubsection*.32}%
+\contentsline {subsection}{九、练习题}{37}{subsection*.33}%
+\contentsline {subsection}{九、参考答案与提示}{38}{subsection*.34}%
+\contentsline {subsection}{延伸阅读}{39}{subsection*.35}%

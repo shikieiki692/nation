@@ -2,6 +2,7 @@
 title: Agent 4 · 题库拆分
 type: agent-prompt-lightweight
 agent_id: 4
+updated: 2026-06-29
 version: v1.0
 tags: [agent, 构建]
 ---

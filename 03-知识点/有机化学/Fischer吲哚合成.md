@@ -20,7 +20,7 @@ tags:
   - "[3,3]-σ迁移"
   - 芳香化
 related: [Paal-Knorr合成, 吡咯, Larock吲哚合成, Bartoli吲哚合成, 杂环合成]
-prerequisite: [缩合反应, [3,3]-σ迁移, 芳香性, 羰基化学, 周环反应]
+prerequisite: [缩合反应, "[3,3]-σ迁移", 芳香性, 羰基化学, 周环反应]
 problem_types: [题型-产物预测, 题型-机理推断, 题型-合成设计]
 difficulty: 4
 importance: 5

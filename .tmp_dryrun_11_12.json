@@ -1,0 +1,776 @@
+[
+  {
+    "file": "12-教学洞察/教学洞察-Brønsted酸碱理论.md",
+    "changes": {
+      "subject": "化学原理",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-Dalton分压定律.md",
+    "changes": {
+      "subject": "化学原理"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-Gibbs自由能.md",
+    "changes": {
+      "subject": "化学原理",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-Nernst方程.md",
+    "changes": {
+      "subject": "化学原理",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-VSEPR.md",
+    "changes": {
+      "subject": "无机和结构化学"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-亲核取代与消除反应.md",
+    "changes": {
+      "subject": "有机化学",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-人名反应系统归类.md",
+    "changes": {
+      "subject": "有机化学",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-元素化学深度与结构推断综合.md",
+    "changes": {
+      "subject": "综合",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-元素推断综合训练.md",
+    "changes": {
+      "subject": "综合",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-加成反应.md",
+    "changes": {
+      "subject": "有机化学",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-化学动力学基础.md",
+    "changes": {
+      "subject": "化学原理",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-化学动力学深化.md",
+    "changes": {
+      "subject": "化学原理",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-化学平衡.md",
+    "changes": {
+      "subject": "化学原理",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-化学计量.md",
+    "changes": {
+      "subject": "化学原理"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-原子结构.md",
+    "changes": {
+      "subject": "化学原理",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-周环反应.md",
+    "changes": {
+      "subject": "有机化学",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-容量分析基础与酸碱滴定.md",
+    "changes": {
+      "subject": "化学原理",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-晶体结构基础.md",
+    "changes": {
+      "subject": "无机和结构化学",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-晶体结构深化.md",
+    "changes": {
+      "subject": "无机和结构化学",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-晶体结构深度与推断.md",
+    "changes": {
+      "subject": "无机和结构化学",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-有效数字.md",
+    "changes": {
+      "subject": "化学原理"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-有机分子结构初探.md",
+    "changes": {
+      "subject": "化学原理",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-有机合成与金属有机.md",
+    "changes": {
+      "subject": "有机化学",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-有机立体化学与构象分析.md",
+    "changes": {
+      "subject": "有机化学",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-有机结构基础与电子效应.md",
+    "changes": {
+      "subject": "有机化学",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-杂化轨道.md",
+    "changes": {
+      "subject": "化学原理"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-杂原子与生物高分子.md",
+    "changes": {
+      "subject": "有机化学",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-氢与卤素.md",
+    "changes": {
+      "subject": "无机和结构化学",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-氧化还原与标准电极电势.md",
+    "changes": {
+      "subject": "化学原理",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-氧化还原滴定与沉淀滴定.md",
+    "changes": {
+      "subject": "分析化学",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-氧族与氮族元素.md",
+    "changes": {
+      "subject": "无机和结构化学",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-活性中间体与反应机理基础.md",
+    "changes": {
+      "subject": "有机化学",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-溶液浓度.md",
+    "changes": {
+      "subject": "化学原理",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-热力学与平衡深化.md",
+    "changes": {
+      "subject": "化学原理",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-焓与热力学第一定律.md",
+    "changes": {
+      "subject": "化学原理",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-熵与热力学第二定律.md",
+    "changes": {
+      "subject": "化学原理",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-物化综合计算.md",
+    "changes": {
+      "subject": "化学原理"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-理想气体状态方程.md",
+    "changes": {
+      "subject": "化学原理",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-真题模拟拆解.md",
+    "changes": {
+      "subject": "综合",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-碱金属碱土金属与稀有气体.md",
+    "changes": {
+      "subject": "无机和结构化学",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-碳族与硼族元素.md",
+    "changes": {
+      "subject": "无机和结构化学",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-立体化学与区域选择性.md",
+    "changes": {
+      "subject": "有机化学",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-络合滴定与重量分析.md",
+    "changes": {
+      "subject": "分析化学",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-羰基化学与缩合反应.md",
+    "changes": {
+      "subject": "有机化学",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-自由基反应.md",
+    "changes": {
+      "subject": "有机化学",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-芳香反应.md",
+    "changes": {
+      "subject": "有机化学",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-误差处理与分光光度法.md",
+    "changes": {
+      "subject": "分析化学",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-配合物与配位化学深化.md",
+    "changes": {
+      "subject": "化学原理",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-配合物基础.md",
+    "changes": {
+      "subject": "无机和结构化学",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-配合物结构深化.md",
+    "changes": {
+      "subject": "无机和结构化学",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-重排反应.md",
+    "changes": {
+      "subject": "有机化学",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-钛钒铬锰.md",
+    "changes": {
+      "subject": "无机和结构化学",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-铁钴镍铜锌.md",
+    "changes": {
+      "subject": "无机和结构化学",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-银金汞钼钨.md",
+    "changes": {
+      "subject": "无机和结构化学",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "12-教学洞察/教学洞察-高等有机机理与轨道理论.md",
+    "changes": {
+      "subject": "有机化学",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "11-模板/PDF生成策略-Agent一键说明.md",
+    "changes": {
+      "prepend_frontmatter": {
+        "title": "PDF生成策略-Agent一键说明",
+        "type": "系统",
+        "updated": "2026-06-29",
+        "tags": [
+          "系统",
+          "PDF",
+          "模板"
+        ]
+      }
+    }
+  },
+  {
+    "file": "11-模板/pptx-toolkit/README.md",
+    "changes": {
+      "prepend_frontmatter": {
+        "title": "pptx-toolkit README",
+        "type": "系统",
+        "updated": "2026-06-29",
+        "tags": [
+          "系统",
+          "PPTX",
+          "模板"
+        ]
+      }
+    }
+  },
+  {
+    "file": "11-模板/Agent-1-资料提炼-轻量.md",
+    "changes": {
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "11-模板/Agent-10-备课-轻量.md",
+    "changes": {
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "11-模板/Agent-11-答疑-轻量.md",
+    "changes": {
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "11-模板/Agent-2-知识点填充-轻量.md",
+    "changes": {
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "11-模板/Agent-3-习题提炼-轻量.md",
+    "changes": {
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "11-模板/Agent-4-题库拆分-轻量.md",
+    "changes": {
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "11-模板/Agent-5-交叉链接-轻量.md",
+    "changes": {
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "11-模板/Agent-6-质量审查-轻量.md",
+    "changes": {
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "11-模板/Agent-7-KP优化-轻量.md",
+    "changes": {
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "11-模板/Agent-8-KP合并弃用-轻量.md",
+    "changes": {
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "11-模板/Agent-9-健康检查-轻量.md",
+    "changes": {
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "11-模板/Agent提示词-PPT生成.md",
+    "changes": {
+      "type": "系统"
+    }
+  },
+  {
+    "file": "11-模板/MD讲义格式参考（原子结构样板）.md",
+    "changes": {
+      "role": "讲义样板"
+    }
+  },
+  {
+    "file": "11-模板/标准版考纲条目模板.md",
+    "changes": {
+      "type": "模板",
+      "title": "标准版考纲条目模板",
+      "role": "标准版考纲条目",
+      "version": "v1.0",
+      "updated": "2026-06-29",
+      "template_for": "考纲条目"
+    }
+  },
+  {
+    "file": "11-模板/模板-专题.md",
+    "changes": {
+      "role": "专题",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "11-模板/模板-专题练习卷.md",
+    "changes": {
+      "role": "专题练习卷",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "11-模板/模板-习题课.md",
+    "changes": {
+      "role": "习题课"
+    }
+  },
+  {
+    "file": "11-模板/模板-健康检查报告.md",
+    "changes": {
+      "role": "健康检查报告"
+    }
+  },
+  {
+    "file": "11-模板/模板-决赛理论题.md",
+    "changes": {
+      "type": "模板",
+      "title": "模板-决赛理论题",
+      "role": "决赛理论题",
+      "version": "v1.0",
+      "updated": "2026-06-29",
+      "template_for": "决赛理论题"
+    }
+  },
+  {
+    "file": "11-模板/模板-合并迁移计划.md",
+    "changes": {
+      "role": "合并迁移计划"
+    }
+  },
+  {
+    "file": "11-模板/模板-备课大纲.md",
+    "changes": {
+      "role": "备课大纲",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "11-模板/模板-复习课.md",
+    "changes": {
+      "role": "复习课"
+    }
+  },
+  {
+    "file": "11-模板/模板-复盘记录.md",
+    "changes": {
+      "role": "复盘记录"
+    }
+  },
+  {
+    "file": "11-模板/模板-学生讲义-自学完整版.md",
+    "changes": {
+      "role": "学生讲义-自学完整版"
+    }
+  },
+  {
+    "file": "11-模板/模板-学生讲义-课堂填空版.md",
+    "changes": {
+      "role": "学生讲义-课堂填空版"
+    }
+  },
+  {
+    "file": "11-模板/模板-学生讲义.md",
+    "changes": {
+      "role": "学生讲义"
+    }
+  },
+  {
+    "file": "11-模板/模板-学生闪卡.md",
+    "changes": {
+      "role": "学生闪卡",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "11-模板/模板-审计查询.md",
+    "changes": {
+      "role": "审计查询"
+    }
+  },
+  {
+    "file": "11-模板/模板-工具卡.md",
+    "changes": {
+      "role": "工具卡",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "11-模板/模板-差异对照表.md",
+    "changes": {
+      "role": "差异对照表"
+    }
+  },
+  {
+    "file": "11-模板/模板-教学洞察.md",
+    "changes": {
+      "role": "教学洞察",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "11-模板/模板-教学过程总表.md",
+    "changes": {
+      "role": "教学过程总表",
+      "version": "v1.0"
+    }
+  },
+  {
+    "file": "11-模板/模板-教学逻辑提炼.md",
+    "changes": {
+      "role": "教学逻辑提炼",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "11-模板/模板-新授课.md",
+    "changes": {
+      "role": "新授课"
+    }
+  },
+  {
+    "file": "11-模板/模板-方法微专题.md",
+    "changes": {
+      "role": "方法微专题"
+    }
+  },
+  {
+    "file": "11-模板/模板-方法策略卡.md",
+    "changes": {
+      "role": "方法策略卡",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "11-模板/模板-活跃任务卡.md",
+    "changes": {
+      "role": "活跃任务卡"
+    }
+  },
+  {
+    "file": "11-模板/模板-真题.md",
+    "changes": {
+      "title": "模板-真题",
+      "role": "真题",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "11-模板/模板-真题导入检查清单.md",
+    "changes": {
+      "type": "模板",
+      "role": "真题导入检查清单"
+    }
+  },
+  {
+    "file": "11-模板/模板-知识点.md",
+    "changes": {
+      "title": "模板-知识点",
+      "role": "知识点",
+      "updated": "2026-06-29",
+      "template_for": "知识点"
+    }
+  },
+  {
+    "file": "11-模板/模板-网课上课思路提炼.md",
+    "changes": {
+      "role": "网课上课思路提炼",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "11-模板/模板-考纲条目.md",
+    "changes": {
+      "type": "模板",
+      "title": "模板-考纲条目",
+      "role": "考纲条目",
+      "version": "v1.0",
+      "updated": "2026-06-29",
+      "template_for": "考纲条目"
+    }
+  },
+  {
+    "file": "11-模板/模板-课件产出规范.md",
+    "changes": {
+      "role": "课件产出规范",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "11-模板/模板-课件加工页.md",
+    "changes": {
+      "role": "课件加工页"
+    }
+  },
+  {
+    "file": "11-模板/模板-课件大纲.md",
+    "changes": {
+      "role": "课件大纲"
+    }
+  },
+  {
+    "file": "11-模板/模板-资料提炼-总索引模式.md",
+    "changes": {
+      "type": "模板",
+      "title": "模板-资料提炼-总索引模式",
+      "role": "资料提炼-总索引模式",
+      "updated": "2026-06-29",
+      "template_for": "资料提炼-总索引模式"
+    }
+  },
+  {
+    "file": "11-模板/模板-资料提炼.md",
+    "changes": {
+      "type": "模板",
+      "title": "模板-资料提炼",
+      "role": "资料提炼",
+      "updated": "2026-06-29",
+      "template_for": "资料提炼"
+    }
+  },
+  {
+    "file": "11-模板/模板-过程分评分表.md",
+    "changes": {
+      "role": "过程分评分表",
+      "version": "v1.0"
+    }
+  },
+  {
+    "file": "11-模板/模板-错题归因.md",
+    "changes": {
+      "role": "错题归因",
+      "updated": "2026-06-29"
+    }
+  },
+  {
+    "file": "11-模板/模板-题型.md",
+    "changes": {
+      "type": "模板",
+      "title": "模板-题型",
+      "role": "题型",
+      "version": "v1.0",
+      "updated": "2026-06-29",
+      "template_for": "题型"
+    }
+  },
+  {
+    "file": "11-模板/模板-题目.md",
+    "changes": {
+      "type": "模板",
+      "title": "模板-题目",
+      "role": "题目",
+      "version": "v1.0",
+      "updated": "2026-06-29",
+      "template_for": "题目"
+    }
+  },
+  {
+    "file": "11-模板/模板.md",
+    "changes": {
+      "type": "模板",
+      "version": "v1.0"
+    }
+  }
+]

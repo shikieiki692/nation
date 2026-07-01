@@ -2,6 +2,7 @@
 title: Agent 2 · 知识点填充
 type: agent-prompt-lightweight
 agent_id: 2
+updated: 2026-06-29
 version: v1.0
 tags: [agent, 构建]
 ---

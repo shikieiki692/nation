@@ -1,0 +1,1303 @@
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (INITEX)  29 JUN 2026 10:11
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**C:/Users/蕾赛/AppData/Local/Programs/MiKTeX/tex/latex/latexconfig/xelatex.ini
+(C:/Users/蕾赛/AppData/Local/Programs/MiKTeX/tex/latex/latexconfig/xelatex.ini
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/base\latex.ltx
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/base\texsys.cfg)
+\openout15 = `texsys.aux'.
+
+
+./texsys.aux found
+
+
+\@currdir set to: ./.
+
+
+Assuming \openin and \input 
+have the same search path.
+
+
+Defining UNIX/DOS style filename parser.
+
+catcodes, registers,
+\@inputcheck=\read0
+\@unused=\write0
+\maxdimen=\dimen10
+\hideskip=\skip10
+\p@=\dimen11
+\z@=\dimen12
+\z@skip=\skip11
+\voidb@x=\box10
+ parameters,
+\normalbaselineskip=\skip12
+\normallineskip=\skip13
+\normallineskiplimit=\dimen13
+\interfootnotelinepenalty=\count23
+\strutbox=\box11
+\LaTeXReleaseInfo=\toks10
+
+LaTeX2e <2026-06-01>
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.ltx
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3-code.tex
+Package: expl3 2026-05-26 L3 programming layer (code)
+\c_max_int=\count24
+\c_max_intarrray_int=\count25
+\l_tmpa_int=\count26
+\l_tmpb_int=\count27
+\g_tmpa_int=\count28
+\g_tmpb_int=\count29
+\l__seq_tmpa_int=\count30
+\l__seq_tmpb_int=\count31
+\g__kernel_prg_map_int=\count32
+\g__prop_prefix_int=\count33
+\c__ior_term_noprompt_ior=\count34
+\c_log_iow=\count35
+\l_iow_line_count_int=\count36
+\l__iow_line_target_int=\count37
+\l__iow_one_indent_int=\count38
+\l__iow_indent_int=\count39
+\c_zero_dim=\dimen14
+\c_max_dim=\dimen15
+\l_tmpa_dim=\dimen16
+\l_tmpb_dim=\dimen17
+\g_tmpa_dim=\dimen18
+\g_tmpb_dim=\dimen19
+\c_zero_skip=\skip14
+\c_max_skip=\skip15
+\l_tmpa_skip=\skip16
+\l_tmpb_skip=\skip17
+\g_tmpa_skip=\skip18
+\g_tmpb_skip=\skip19
+\c_zero_muskip=\muskip10
+\c_max_muskip=\muskip11
+\l_tmpa_muskip=\muskip12
+\l_tmpb_muskip=\muskip13
+\g_tmpa_muskip=\muskip14
+\g_tmpb_muskip=\muskip15
+\l_keys_choice_int=\count40
+\l__intarray_loop_int=\count41
+\c__intarray_sp_dim=\dimen20
+\g__intarray_font_int=\count42
+\c__fp_leading_shift_int=\count43
+\c__fp_middle_shift_int=\count44
+\c__fp_trailing_shift_int=\count45
+\c__fp_big_leading_shift_int=\count46
+\c__fp_big_middle_shift_int=\count47
+\c__fp_big_trailing_shift_int=\count48
+\c__fp_Bigg_leading_shift_int=\count49
+\c__fp_Bigg_middle_shift_int=\count50
+\c__fp_Bigg_trailing_shift_int=\count51
+\l__fp_function_arg_int=\count52
+\g__fp_array_int=\count53
+\l__fp_array_loop_int=\count54
+\l__bitset_tmp_int=\count55
+\g__cctab_allocate_int=\count56
+\l__sort_length_int=\count57
+\l__sort_min_int=\count58
+\l__sort_top_int=\count59
+\l__sort_max_int=\count60
+\l__sort_true_max_int=\count61
+\l__sort_block_int=\count62
+\l__sort_begin_int=\count63
+\l__sort_end_int=\count64
+\l__sort_A_int=\count65
+\l__sort_B_int=\count66
+\l__sort_C_int=\count67
+\l__str_modulo_int=\count68
+\l__tl_analysis_normal_int=\count69
+\l__tl_analysis_index_int=\count70
+\l__tl_analysis_nesting_int=\count71
+\l__tl_analysis_type_int=\count72
+\l__tl_peek_charcode_int=\count73
+\g__benchmark_nesting_int=\count74
+\g__benchmark_duration_int=\count75
+\g__benchmark_time_int=\count76
+\g__benchmark_time_a_int=\count77
+\g__benchmark_time_b_int=\count78
+\g__benchmark_time_c_int=\count79
+\g__benchmark_time_d_int=\count80
+\g__benchmark_repeat_int=\count81
+\g__benchmark_tictoc_int=\count82
+\l__regex_tmpa_int=\count83
+\l__regex_tmpb_int=\count84
+\l__regex_tmpc_int=\count85
+\l__regex_balance_int=\count86
+\l__regex_group_level_int=\count87
+\l__regex_mode_int=\count88
+\c__regex_cs_in_class_mode_int=\count89
+\c__regex_cs_mode_int=\count90
+\l__regex_catcodes_int=\count91
+\l__regex_default_catcodes_int=\count92
+\c__regex_catcode_L_int=\count93
+\c__regex_catcode_O_int=\count94
+\c__regex_catcode_A_int=\count95
+\c__regex_all_catcodes_int=\count96
+\l__regex_show_lines_int=\count97
+\l__regex_min_state_int=\count98
+\l__regex_max_state_int=\count99
+\l__regex_left_state_int=\count100
+\l__regex_right_state_int=\count101
+\l__regex_capturing_group_int=\count102
+\g__regex_case_int=\count103
+\l__regex_case_max_group_int=\count104
+\l__regex_min_pos_int=\count105
+\l__regex_max_pos_int=\count106
+\l__regex_curr_pos_int=\count107
+\l__regex_start_pos_int=\count108
+\l__regex_success_pos_int=\count109
+\l__regex_curr_char_int=\count110
+\l__regex_curr_catcode_int=\count111
+\l__regex_last_char_int=\count112
+\l__regex_last_char_success_int=\count113
+\l__regex_case_changed_char_int=\count114
+\l__regex_curr_state_int=\count115
+\l__regex_step_int=\count116
+\l__regex_min_thread_int=\count117
+\l__regex_max_thread_int=\count118
+\l__regex_replacement_csnames_int=\count119
+\l__regex_match_count_int=\count120
+\l__regex_min_submatch_int=\count121
+\l__regex_submatch_int=\count122
+\l__regex_zeroth_submatch_int=\count123
+\l__regex_added_begin_int=\count124
+\l__regex_added_end_int=\count125
+\g__regex_trace_regex_int=\count126
+\c_empty_box=\box12
+\l_tmpa_box=\box13
+\l_tmpb_box=\box14
+\g_tmpa_box=\box15
+\g_tmpb_box=\box16
+\l__box_delta_dim=\dimen21
+\l__box_voffset_dim=\dimen22
+\l__box_top_dim=\dimen23
+\l__box_bottom_dim=\dimen24
+\l__box_left_dim=\dimen25
+\l__box_right_dim=\dimen26
+\l__box_top_new_dim=\dimen27
+\l__box_bottom_new_dim=\dimen28
+\l__box_left_new_dim=\dimen29
+\l__box_right_new_dim=\dimen30
+\l__box_tmp_box=\box17
+\l__color_tmp_int=\count127
+\g__color_model_int=\count128
+\l__graphics_tmp_dim=\dimen31
+\l__graphics_page_int=\count129
+\l__graphics_llx_dim=\dimen32
+\l__graphics_lly_dim=\dimen33
+\l__graphics_urx_dim=\dimen34
+\l__graphics_ury_dim=\dimen35
+\l__graphics_tmp_box=\box18
+\g__pdf_backend_object_int=\count130
+\l__coffin_tmp_box=\box19
+\l__coffin_tmp_dim=\dimen36
+\l__coffin_offset_x_dim=\dimen37
+\l__coffin_offset_y_dim=\dimen38
+\l__coffin_x_dim=\dimen39
+\l__coffin_y_dim=\dimen40
+\l__coffin_x_prime_dim=\dimen41
+\l__coffin_y_prime_dim=\dimen42
+\c_empty_coffin=\box20
+\l__coffin_aligned_coffin=\box21
+\l__coffin_aligned_internal_coffin=\box22
+\l_tmpa_coffin=\box23
+\l_tmpb_coffin=\box24
+\g_tmpa_coffin=\box25
+\g_tmpb_coffin=\box26
+\l__coffin_bounding_shift_dim=\dimen43
+\l__coffin_left_corner_dim=\dimen44
+\l__coffin_right_corner_dim=\dimen45
+\l__coffin_bottom_corner_dim=\dimen46
+\l__coffin_top_corner_dim=\dimen47
+\l__coffin_scaled_total_height_dim=\dimen48
+\l__coffin_scaled_width_dim=\dimen49
+\c__coffin_empty_coffin=\box27
+\l__coffin_display_coffin=\box28
+\l__coffin_display_coord_coffin=\box29
+\l__coffin_display_pole_coffin=\box30
+\l__coffin_display_offset_dim=\dimen50
+\l__coffin_display_x_dim=\dimen51
+\l__coffin_display_y_dim=\dimen52
+\g__codepoint_data_ior=\read1
+))
+hacks, document commands,
+\l__cmd_current_arg_int=\count131
+\l__cmd_total_args_int=\count132
+\l__cmd_last_mandatory_arg_int=\count133
+\g__cmd_grabber_int=\count134
+\l__cmd_m_args_int=\count135
+\l__cmd_v_nesting_int=\count136
+\l__hook_labels_int=\count137
+\l__hook_patch_num_args_int=\count138
+ templates,
+\l__template_tmp_dim=\dimen53
+\l__template_tmp_int=\count139
+\l__template_tmp_muskip=\muskip16
+\l__template_tmp_skip=\skip20
+\@tempcnta=\count140
+\@tempcntb=\count141
+\@tempdima=\dimen54
+\@tempdimb=\dimen55
+\@tempdimc=\dimen56
+\@tempboxa=\box31
+\@tempskipa=\skip21
+\@tempskipb=\skip22
+\@temptokena=\toks11
+\@flushglue=\skip23
+ control, par,
+\everypar=\toks12
+\g_para_indent_box=\box32
+\g__kernel_target_int=\count142
+ spacing,
+\@savsk=\dimen57
+\@savsf=\count143
+\smallskipamount=\skip24
+\medskipamount=\skip25
+\bigskipamount=\skip26
+\sp@ce@skip=\skip27
+\fill=\skip28
+ files,
+\@mainaux=\write1
+\@partaux=\write2
+\@clubpenalty=\count144
+LaTeX Info: Redefining \IfFileExists on input line 9827.
+
+font encodings, lengths, NFSS base,
+\everymath=\toks13
+\everydisplay=\toks14
+\@math@level=\count145
+ NFSS axes,
+\series@check@toks=\toks15
+ NFSS tracing,
+\every@math@size=\toks16
+\lower@bound=\dimen58
+\upper@bound=\dimen59
+
+NFSS declarative interface,
+\c@localmathalphabets=\count146
+ NFSS initialization,
+\c@mv@normal=\count147
+\c@mv@bold=\count148
+
+====================================
+
+Local config file fonttext.cfg used
+
+====================================
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/base\fonttext.cfg
+File: fonttext.cfg 2025/06/05 v3.0l LaTeX Kernel (Uncustomized text font setup)
+ 
+
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/base\fonttext.ltx
+File: fonttext.ltx 2025/06/05 v3.0l LaTeX Kernel (Text font setup) 
+
+=== Don't modify this file, use a .cfg file instead ===
+
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/base\omlenc.def
+File: omlenc.def 2025/07/18 v2.1d Standard LaTeX file
+)
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/base\omsenc.def
+File: omsenc.def 2025/07/18 v2.1d Standard LaTeX file
+)
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/base\ot1enc.def
+File: ot1enc.def 2025/07/18 v2.1d Standard LaTeX file
+)
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/base\t1enc.def
+File: t1enc.def 2025/07/18 v2.1d Standard LaTeX file
+)
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/base\tuenc.def
+File: tuenc.def 2025/07/18 v2.1d Standard LaTeX file
+)
+LaTeX Font Info:    Trying to load font information for TU+lmr on input line 61
+.
+
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/base\tulmr.fd
+File: tulmr.fd 2021/07/23 v1.8a Standard LaTeX font definitions for Latin Moder
+n
+)
+LaTeX Font Info:    Trying to load font information for TU+lmss on input line 6
+2.
+
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/base\tulmss.fd
+File: tulmss.fd 2021/07/23 v1.8a Standard LaTeX font definitions for Latin Mode
+rn
+)
+LaTeX Font Info:    Trying to load font information for TU+lmtt on input line 6
+3.
+
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/base\tulmtt.fd
+File: tulmtt.fd 2021/07/23 v1.8a Standard LaTeX font definitions for Latin Mode
+rn
+)
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 6
+7.
+
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmr.fd
+File: t1cmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
+)
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/base\ot1cmr.fd
+File: ot1cmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
+)
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
+File: ts1cmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
+LaTeX Font Info:    Setting cmr sub-encoding to TS1/0 on input line 63.
+)
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmss.fd
+File: t1cmss.fd 2024/11/19 v2.5n Standard LaTeX font definitions
+)
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2024/11/19 v2.5n Standard LaTeX font definitions
+)
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/base\ot1cmss.fd
+File: ot1cmss.fd 2024/11/19 v2.5n Standard LaTeX font definitions
+)
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/base\ot1cmtt.fd
+File: ot1cmtt.fd 2024/11/19 v2.5n Standard LaTeX font definitions
+)
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmss.fd
+File: ts1cmss.fd 2024/11/19 v2.5n Standard LaTeX font definitions
+LaTeX Font Info:    Setting cmss sub-encoding to TS1/0 on input line 61.
+)
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmtt.fd
+File: ts1cmtt.fd 2024/11/19 v2.5n Standard LaTeX font definitions
+LaTeX Font Info:    Setting cmtt sub-encoding to TS1/0 on input line 59.
+)))
+====================================
+
+Local config file fontmath.cfg used
+
+====================================
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/base\fontmath.cfg
+File: fontmath.cfg 2025/06/05 v3.0l LaTeX Kernel (Uncustomized math font setup)
+ 
+
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/base\fontmath.ltx
+File: fontmath.ltx 2025/06/05 v3.0l LaTeX Kernel (Math font setup) 
+
+=== Don't modify this file, use a .cfg file instead ===
+
+LaTeX Font Info:    Redeclaring font encoding OML on input line 44.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 45.
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/base\omlcmm.fd
+File: omlcmm.fd 2024/11/19 v2.5n Standard LaTeX font definitions
+)
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmsy.fd
+File: omscmsy.fd 2024/11/19 v2.5n Standard LaTeX font definitions
+)
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/base\omxcmex.fd
+File: omxcmex.fd 2024/11/19 v2.5n Standard LaTeX font definitions
+)
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/base\ucmr.fd
+File: ucmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
+)
+\symoperators=\mathgroup0
+\symletters=\mathgroup1
+\symsymbols=\mathgroup2
+\symlargesymbols=\mathgroup3
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 63.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/m/it --> OML/cmm/b/it on input line 64.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/m/n --> OMS/cmsy/b/n on input line 65.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 73.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/m/it --> OT1/cmr/bx/it on input line 74.
+))
+====================================
+
+Local config file preload.cfg used
+
+=====================================
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/base\preload.cfg
+File: preload.cfg 2025/06/05 v3.0l LaTeX Kernel (Uncustomized preload font setu
+p) 
+
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/base\preload.ltx
+File: preload.ltx 2021/10/04 v2.1g LaTeX Kernel (Font Preloading)
+))
+LaTeX Encoding Info:    Redeclaring text command \textdollar (encoding ?) on in
+put line 14600.
+LaTeX Encoding Info:    Undeclare text command \textdollar (encoding OT1) on in
+put line 14601.
+LaTeX Encoding Info:    Redeclaring text command \textsterling (encoding ?) on 
+input line 14602.
+LaTeX Encoding Info:    Undeclare text command \textsterling (encoding OT1) on 
+input line 14603.
+LaTeX Encoding Info:    Undeclare text command \textperthousand (encoding T1) o
+n input line 14605.
+LaTeX Encoding Info:    Redeclaring text command \textasteriskcentered (encodin
+g ?) on input line 14606.
+LaTeX Encoding Info:    Redeclaring text command \textbullet (encoding ?) on in
+put line 14607.
+LaTeX Encoding Info:    Redeclaring text command \textdaggerdbl (encoding ?) on
+ input line 14608.
+LaTeX Encoding Info:    Redeclaring text command \textdagger (encoding ?) on in
+put line 14609.
+LaTeX Encoding Info:    Redeclaring text command \textparagraph (encoding ?) on
+ input line 14610.
+LaTeX Encoding Info:    Redeclaring text command \textperiodcentered (encoding 
+?) on input line 14611.
+LaTeX Encoding Info:    Redeclaring text command \textsection (encoding ?) on i
+nput line 14612.
+LaTeX Encoding Info:    Redeclaring text command \textcopyright (encoding ?) on
+ input line 14617.
+LaTeX Encoding Info:    Redeclaring text command \textordfeminine (encoding ?) 
+on input line 14624.
+LaTeX Encoding Info:    Redeclaring text command \textordmasculine (encoding ?)
+ on input line 14625.
+LaTeX Encoding Info:    Redeclaring text command \textregistered (encoding ?) o
+n input line 14630.
+LaTeX Encoding Info:    Redeclaring text command \texttrademark (encoding ?) on
+ input line 14635.
+LaTeX Encoding Info:    Redeclaring text command \textcircled (encoding ?) on i
+nput line 14641.
+LaTeX Encoding Info:    Redeclaring text command \t (encoding ?) on input line 
+14643.
+LaTeX Encoding Info:    Undeclare text command \textpertenthousand (encoding T1
+) on input line 14794.
+LaTeX Encoding Info:    Redeclaring text command \textbardbl (encoding ?) on in
+put line 14851.
+LaTeX Encoding Info:    Redeclaring text symbol \textdollaroldstyle (encoding T
+S1) on input line 14871.
+LaTeX Encoding Info:    Redeclaring text symbol \textcentoldstyle (encoding TS1
+) on input line 14872.
+LaTeX Font Info:    Setting ? sub-encoding to TS1/9 on input line 14874.
+LaTeX Font Info:    Setting ccr sub-encoding to TS1/0 on input line 14875.
+LaTeX Font Info:    Setting cmbr sub-encoding to TS1/0 on input line 14876.
+LaTeX Font Info:    Setting cmtl sub-encoding to TS1/0 on input line 14877.
+LaTeX Font Info:    Setting pxr sub-encoding to TS1/0 on input line 14878.
+LaTeX Font Info:    Setting pxss sub-encoding to TS1/0 on input line 14879.
+LaTeX Font Info:    Setting pxtt sub-encoding to TS1/0 on input line 14880.
+LaTeX Font Info:    Setting qag sub-encoding to TS1/0 on input line 14881.
+LaTeX Font Info:    Setting qbk sub-encoding to TS1/0 on input line 14882.
+LaTeX Font Info:    Setting qcr sub-encoding to TS1/0 on input line 14883.
+LaTeX Font Info:    Setting qcs sub-encoding to TS1/0 on input line 14884.
+LaTeX Font Info:    Setting qhvc sub-encoding to TS1/0 on input line 14885.
+LaTeX Font Info:    Setting qhv sub-encoding to TS1/0 on input line 14886.
+LaTeX Font Info:    Setting qpl sub-encoding to TS1/0 on input line 14887.
+LaTeX Font Info:    Setting qtm sub-encoding to TS1/0 on input line 14888.
+LaTeX Font Info:    Setting qzc sub-encoding to TS1/0 on input line 14889.
+LaTeX Font Info:    Setting txr sub-encoding to TS1/0 on input line 14890.
+LaTeX Font Info:    Setting txss sub-encoding to TS1/0 on input line 14891.
+LaTeX Font Info:    Setting txtt sub-encoding to TS1/0 on input line 14892.
+LaTeX Font Info:    Setting lmr sub-encoding to TS1/1 on input line 14893.
+LaTeX Font Info:    Setting lmdh sub-encoding to TS1/1 on input line 14894.
+LaTeX Font Info:    Setting lmss sub-encoding to TS1/1 on input line 14895.
+LaTeX Font Info:    Setting lmssq sub-encoding to TS1/1 on input line 14896.
+LaTeX Font Info:    Setting lmvtt sub-encoding to TS1/1 on input line 14897.
+LaTeX Font Info:    Setting lmtt sub-encoding to TS1/1 on input line 14898.
+LaTeX Font Info:    Setting ptmx sub-encoding to TS1/2 on input line 14899.
+LaTeX Font Info:    Setting ptmj sub-encoding to TS1/2 on input line 14900.
+LaTeX Font Info:    Setting ul8 sub-encoding to TS1/2 on input line 14901.
+LaTeX Font Info:    Setting bch sub-encoding to TS1/5 on input line 14902.
+LaTeX Font Info:    Setting futj sub-encoding to TS1/5 on input line 14903.
+LaTeX Font Info:    Setting futs sub-encoding to TS1/5 on input line 14904.
+LaTeX Font Info:    Setting futx sub-encoding to TS1/5 on input line 14905.
+LaTeX Font Info:    Setting pag sub-encoding to TS1/5 on input line 14906.
+LaTeX Font Info:    Setting pbk sub-encoding to TS1/5 on input line 14907.
+LaTeX Font Info:    Setting pcr sub-encoding to TS1/5 on input line 14908.
+LaTeX Font Info:    Setting phv sub-encoding to TS1/5 on input line 14909.
+LaTeX Font Info:    Setting pnc sub-encoding to TS1/5 on input line 14910.
+LaTeX Font Info:    Setting pplj sub-encoding to TS1/5 on input line 14911.
+LaTeX Font Info:    Setting pplx sub-encoding to TS1/5 on input line 14912.
+LaTeX Font Info:    Setting ppl sub-encoding to TS1/5 on input line 14913.
+LaTeX Font Info:    Setting ptm sub-encoding to TS1/5 on input line 14914.
+LaTeX Font Info:    Setting pzc sub-encoding to TS1/5 on input line 14915.
+LaTeX Font Info:    Setting ul9 sub-encoding to TS1/5 on input line 14916.
+LaTeX Font Info:    Setting dayroms sub-encoding to TS1/6 on input line 14917.
+LaTeX Font Info:    Setting dayrom sub-encoding to TS1/6 on input line 14918.
+LaTeX Font Info:    Setting augie sub-encoding to TS1/8 on input line 14919.
+LaTeX Font Info:    Setting put sub-encoding to TS1/8 on input line 14920.
+LaTeX Font Info:    Setting uag sub-encoding to TS1/8 on input line 14921.
+LaTeX Font Info:    Setting ugq sub-encoding to TS1/8 on input line 14922.
+LaTeX Font Info:    Setting zi4 sub-encoding to TS1/9 on input line 14923.
+LaTeX Font Info:    Setting hls sub-encoding to TS1/5 on input line 14924.
+LaTeX Font Info:    Setting hlst sub-encoding to TS1/5 on input line 14925.
+LaTeX Font Info:    Setting hlct sub-encoding to TS1/5 on input line 14926.
+LaTeX Font Info:    Setting hlh sub-encoding to TS1/5 on input line 14927.
+LaTeX Font Info:    Setting hlx sub-encoding to TS1/8 on input line 14928.
+LaTeX Font Info:    Setting hlce sub-encoding to TS1/8 on input line 14929.
+LaTeX Font Info:    Setting hlcn sub-encoding to TS1/8 on input line 14930.
+LaTeX Font Info:    Setting hlcw sub-encoding to TS1/8 on input line 14931.
+LaTeX Font Info:    Setting hlcf sub-encoding to TS1/8 on input line 14932.
+LaTeX Font Info:    Setting lato-LF sub-encoding to TS1/0 on input line 14933.
+LaTeX Font Info:    Setting lato-TLF sub-encoding to TS1/0 on input line 14933.
+
+LaTeX Font Info:    Setting lato-OsF sub-encoding to TS1/0 on input line 14933.
+
+LaTeX Font Info:    Setting lato-TOsF sub-encoding to TS1/0 on input line 14933
+.
+LaTeX Font Info:    Setting opensans-LF sub-encoding to TS1/0 on input line 149
+34.
+LaTeX Font Info:    Setting opensans-TLF sub-encoding to TS1/0 on input line 14
+934.
+LaTeX Font Info:    Setting opensans-OsF sub-encoding to TS1/0 on input line 14
+934.
+LaTeX Font Info:    Setting opensans-TOsF sub-encoding to TS1/0 on input line 1
+4934.
+LaTeX Font Info:    Setting cantarell-LF sub-encoding to TS1/0 on input line 14
+935.
+LaTeX Font Info:    Setting cantarell-TLF sub-encoding to TS1/0 on input line 1
+4935.
+LaTeX Font Info:    Setting cantarell-OsF sub-encoding to TS1/0 on input line 1
+4935.
+LaTeX Font Info:    Setting cantarell-TOsF sub-encoding to TS1/0 on input line 
+14935.
+LaTeX Font Info:    Setting tli sub-encoding to TS1/1 on input line 14936.
+LaTeX Font Info:    Setting fbb-LF sub-encoding to TS1/2 on input line 14937.
+LaTeX Font Info:    Setting fbb-TLF sub-encoding to TS1/2 on input line 14937.
+LaTeX Font Info:    Setting fbb-OsF sub-encoding to TS1/2 on input line 14937.
+LaTeX Font Info:    Setting fbb-TOsF sub-encoding to TS1/2 on input line 14937.
+
+LaTeX Font Info:    Setting Alegreya-LF sub-encoding to TS1/2 on input line 149
+38.
+LaTeX Font Info:    Setting Alegreya-TLF sub-encoding to TS1/2 on input line 14
+938.
+LaTeX Font Info:    Setting Alegreya-OsF sub-encoding to TS1/2 on input line 14
+938.
+LaTeX Font Info:    Setting Alegreya-TOsF sub-encoding to TS1/2 on input line 1
+4938.
+LaTeX Font Info:    Setting AlegreyaSans-LF sub-encoding to TS1/2 on input line
+ 14939.
+LaTeX Font Info:    Setting AlegreyaSans-TLF sub-encoding to TS1/2 on input lin
+e 14939.
+LaTeX Font Info:    Setting AlegreyaSans-OsF sub-encoding to TS1/2 on input lin
+e 14939.
+LaTeX Font Info:    Setting AlegreyaSans-TOsF sub-encoding to TS1/2 on input li
+ne 14939.
+LaTeX Font Info:    Setting BaskervilleF-LF sub-encoding to TS1/2 on input line
+ 14940.
+LaTeX Font Info:    Setting BaskervilleF-TLF sub-encoding to TS1/2 on input lin
+e 14940.
+LaTeX Font Info:    Setting BaskervilleF-OsF sub-encoding to TS1/2 on input lin
+e 14940.
+LaTeX Font Info:    Setting BaskervilleF-TOsF sub-encoding to TS1/2 on input li
+ne 14940.
+LaTeX Font Info:    Setting DejaVuSans-TLF sub-encoding to TS1/2 on input line 
+14941.
+LaTeX Font Info:    Setting DejaVuSansCondensed-TLF sub-encoding to TS1/2 on in
+put line 14942.
+LaTeX Font Info:    Setting DejaVuSansMono-TLF sub-encoding to TS1/2 on input l
+ine 14943.
+LaTeX Font Info:    Setting EBGaramond-LF sub-encoding to TS1/2 on input line 1
+4944.
+LaTeX Font Info:    Setting EBGaramond-TLF sub-encoding to TS1/2 on input line 
+14944.
+LaTeX Font Info:    Setting EBGaramond-OsF sub-encoding to TS1/2 on input line 
+14944.
+LaTeX Font Info:    Setting EBGaramond-TOsF sub-encoding to TS1/2 on input line
+ 14944.
+LaTeX Font Info:    Setting Merriwthr-OsF sub-encoding to TS1/2 on input line 1
+4945.
+LaTeX Font Info:    Setting MerriwthrSans-OsF sub-encoding to TS1/2 on input li
+ne 14946.
+LaTeX Font Info:    Setting Montserrat-LF sub-encoding to TS1/2 on input line 1
+4947.
+LaTeX Font Info:    Setting Montserrat-TLF sub-encoding to TS1/2 on input line 
+14947.
+LaTeX Font Info:    Setting Montserrat-OsF sub-encoding to TS1/2 on input line 
+14947.
+LaTeX Font Info:    Setting Montserrat-TOsF sub-encoding to TS1/2 on input line
+ 14947.
+LaTeX Font Info:    Setting MontserratAlternates-LF sub-encoding to TS1/2 on in
+put line 14948.
+LaTeX Font Info:    Setting MontserratAlternates-TLF sub-encoding to TS1/2 on i
+nput line 14948.
+LaTeX Font Info:    Setting MontserratAlternates-OsF sub-encoding to TS1/2 on i
+nput line 14948.
+LaTeX Font Info:    Setting MontserratAlternates-TOsF sub-encoding to TS1/2 on 
+input line 14948.
+LaTeX Font Info:    Setting NotoSansMono-TLF sub-encoding to TS1/2 on input lin
+e 14949.
+LaTeX Font Info:    Setting NotoSansMono-TOsF sub-encoding to TS1/2 on input li
+ne 14950.
+LaTeX Font Info:    Setting Tempora-TLF sub-encoding to TS1/2 on input line 149
+51.
+LaTeX Font Info:    Setting Tempora-TOsF sub-encoding to TS1/2 on input line 14
+952.
+LaTeX Font Info:    Setting XCharter-TLF sub-encoding to TS1/2 on input line 14
+953.
+LaTeX Font Info:    Setting XCharter-TOsF sub-encoding to TS1/2 on input line 1
+4954.
+LaTeX Font Info:    Setting erewhon-LF sub-encoding to TS1/2 on input line 1495
+5.
+LaTeX Font Info:    Setting erewhon-TLF sub-encoding to TS1/2 on input line 149
+55.
+LaTeX Font Info:    Setting erewhon-OsF sub-encoding to TS1/2 on input line 149
+55.
+LaTeX Font Info:    Setting erewhon-TOsF sub-encoding to TS1/2 on input line 14
+955.
+LaTeX Font Info:    Setting Arimo-TLF sub-encoding to TS1/3 on input line 14956
+.
+LaTeX Font Info:    Setting Crlt-LF sub-encoding to TS1/3 on input line 14957.
+LaTeX Font Info:    Setting Crlt-TLF sub-encoding to TS1/3 on input line 14957.
+
+LaTeX Font Info:    Setting Crlt-OsF sub-encoding to TS1/3 on input line 14957.
+
+LaTeX Font Info:    Setting Crlt-TOsF sub-encoding to TS1/3 on input line 14957
+.
+LaTeX Font Info:    Setting IBMPlexMono-TLF sub-encoding to TS1/3 on input line
+ 14958.
+LaTeX Font Info:    Setting IBMPlexSans-TLF sub-encoding to TS1/3 on input line
+ 14959.
+LaTeX Font Info:    Setting IBMPlexSerif-TLF sub-encoding to TS1/3 on input lin
+e 14960.
+LaTeX Font Info:    Setting SourceCodePro-TLF sub-encoding to TS1/3 on input li
+ne 14961.
+LaTeX Font Info:    Setting SourceCodePro-TOsF sub-encoding to TS1/3 on input l
+ine 14962.
+LaTeX Font Info:    Setting SourceSansPro-LF sub-encoding to TS1/3 on input lin
+e 14963.
+LaTeX Font Info:    Setting SourceSansPro-TLF sub-encoding to TS1/3 on input li
+ne 14963.
+LaTeX Font Info:    Setting SourceSansPro-OsF sub-encoding to TS1/3 on input li
+ne 14963.
+LaTeX Font Info:    Setting SourceSansPro-TOsF sub-encoding to TS1/3 on input l
+ine 14963.
+LaTeX Font Info:    Setting SourceSerifPro-LF sub-encoding to TS1/3 on input li
+ne 14964.
+LaTeX Font Info:    Setting SourceSerifPro-TLF sub-encoding to TS1/3 on input l
+ine 14964.
+LaTeX Font Info:    Setting SourceSerifPro-OsF sub-encoding to TS1/3 on input l
+ine 14964.
+LaTeX Font Info:    Setting SourceSerifPro-TOsF sub-encoding to TS1/3 on input 
+line 14964.
+LaTeX Font Info:    Setting Tinos-TLF sub-encoding to TS1/3 on input line 14965
+.
+LaTeX Font Info:    Setting AccanthisADFStdNoThree-LF sub-encoding to TS1/4 on 
+input line 14966.
+LaTeX Font Info:    Setting Cabin-TLF sub-encoding to TS1/4 on input line 14967
+.
+LaTeX Font Info:    Setting Caladea-TLF sub-encoding to TS1/4 on input line 149
+68.
+LaTeX Font Info:    Setting Chivo-LF sub-encoding to TS1/4 on input line 14969.
+
+LaTeX Font Info:    Setting Chivo-TLF sub-encoding to TS1/4 on input line 14969
+.
+LaTeX Font Info:    Setting Chivo-OsF sub-encoding to TS1/4 on input line 14969
+.
+LaTeX Font Info:    Setting Chivo-TOsF sub-encoding to TS1/4 on input line 1496
+9.
+LaTeX Font Info:    Setting ClearSans-TLF sub-encoding to TS1/4 on input line 1
+4970.
+LaTeX Font Info:    Setting Coelacanth-LF sub-encoding to TS1/4 on input line 1
+4971.
+LaTeX Font Info:    Setting CrimsonPro-LF sub-encoding to TS1/4 on input line 1
+4972.
+LaTeX Font Info:    Setting CrimsonPro-TLF sub-encoding to TS1/4 on input line 
+14972.
+LaTeX Font Info:    Setting CrimsonPro-OsF sub-encoding to TS1/4 on input line 
+14972.
+LaTeX Font Info:    Setting CrimsonPro-TOsF sub-encoding to TS1/4 on input line
+ 14972.
+LaTeX Font Info:    Setting FiraMono-TLF sub-encoding to TS1/4 on input line 14
+973.
+LaTeX Font Info:    Setting FiraMono-TOsF sub-encoding to TS1/4 on input line 1
+4974.
+LaTeX Font Info:    Setting FiraSans-LF sub-encoding to TS1/4 on input line 149
+75.
+LaTeX Font Info:    Setting FiraSans-TLF sub-encoding to TS1/4 on input line 14
+975.
+LaTeX Font Info:    Setting FiraSans-OsF sub-encoding to TS1/4 on input line 14
+975.
+LaTeX Font Info:    Setting FiraSans-TOsF sub-encoding to TS1/4 on input line 1
+4975.
+LaTeX Font Info:    Setting Go-TLF sub-encoding to TS1/4 on input line 14976.
+LaTeX Font Info:    Setting GoMono-TLF sub-encoding to TS1/4 on input line 1497
+7.
+LaTeX Font Info:    Setting InriaSans-LF sub-encoding to TS1/4 on input line 14
+978.
+LaTeX Font Info:    Setting InriaSans-TLF sub-encoding to TS1/4 on input line 1
+4978.
+LaTeX Font Info:    Setting InriaSans-OsF sub-encoding to TS1/4 on input line 1
+4978.
+LaTeX Font Info:    Setting InriaSans-TOsF sub-encoding to TS1/4 on input line 
+14978.
+LaTeX Font Info:    Setting InriaSerif-LF sub-encoding to TS1/4 on input line 1
+4979.
+LaTeX Font Info:    Setting InriaSerif-TLF sub-encoding to TS1/4 on input line 
+14979.
+LaTeX Font Info:    Setting InriaSerif-OsF sub-encoding to TS1/4 on input line 
+14979.
+LaTeX Font Info:    Setting InriaSerif-TOsF sub-encoding to TS1/4 on input line
+ 14979.
+LaTeX Font Info:    Setting LibertinusSans-LF sub-encoding to TS1/4 on input li
+ne 14980.
+LaTeX Font Info:    Setting LibertinusSans-TLF sub-encoding to TS1/4 on input l
+ine 14980.
+LaTeX Font Info:    Setting LibertinusSans-OsF sub-encoding to TS1/4 on input l
+ine 14980.
+LaTeX Font Info:    Setting LibertinusSans-TOsF sub-encoding to TS1/4 on input 
+line 14980.
+LaTeX Font Info:    Setting LibertinusSerif-LF sub-encoding to TS1/4 on input l
+ine 14981.
+LaTeX Font Info:    Setting LibertinusSerif-TLF sub-encoding to TS1/4 on input 
+line 14981.
+LaTeX Font Info:    Setting LibertinusSerif-OsF sub-encoding to TS1/4 on input 
+line 14981.
+LaTeX Font Info:    Setting LibertinusSerif-TOsF sub-encoding to TS1/4 on input
+ line 14981.
+LaTeX Font Info:    Setting LibreBodoni-TLF sub-encoding to TS1/4 on input line
+ 14982.
+LaTeX Font Info:    Setting LibreFranklin-TLF sub-encoding to TS1/4 on input li
+ne 14983.
+LaTeX Font Info:    Setting LinguisticsPro-LF sub-encoding to TS1/4 on input li
+ne 14984.
+LaTeX Font Info:    Setting LinguisticsPro-OsF sub-encoding to TS1/4 on input l
+ine 14985.
+LaTeX Font Info:    Setting LinuxBiolinumT-LF sub-encoding to TS1/4 on input li
+ne 14986.
+LaTeX Font Info:    Setting LinuxBiolinumT-TLF sub-encoding to TS1/4 on input l
+ine 14986.
+LaTeX Font Info:    Setting LinuxBiolinumT-OsF sub-encoding to TS1/4 on input l
+ine 14986.
+LaTeX Font Info:    Setting LinuxBiolinumT-TOsF sub-encoding to TS1/4 on input 
+line 14986.
+LaTeX Font Info:    Setting LinuxLibertineT-LF sub-encoding to TS1/4 on input l
+ine 14987.
+LaTeX Font Info:    Setting LinuxLibertineT-TLF sub-encoding to TS1/4 on input 
+line 14987.
+LaTeX Font Info:    Setting LinuxLibertineT-OsF sub-encoding to TS1/4 on input 
+line 14987.
+LaTeX Font Info:    Setting LinuxLibertineT-TOsF sub-encoding to TS1/4 on input
+ line 14987.
+LaTeX Font Info:    Setting MintSpirit-LF sub-encoding to TS1/4 on input line 1
+4988.
+LaTeX Font Info:    Setting MintSpirit-TLF sub-encoding to TS1/4 on input line 
+14988.
+LaTeX Font Info:    Setting MintSpirit-OsF sub-encoding to TS1/4 on input line 
+14988.
+LaTeX Font Info:    Setting MintSpirit-TOsF sub-encoding to TS1/4 on input line
+ 14988.
+LaTeX Font Info:    Setting MintSpiritNoTwo-LF sub-encoding to TS1/4 on input l
+ine 14989.
+LaTeX Font Info:    Setting MintSpiritNoTwo-TLF sub-encoding to TS1/4 on input 
+line 14989.
+LaTeX Font Info:    Setting MintSpiritNoTwo-OsF sub-encoding to TS1/4 on input 
+line 14989.
+LaTeX Font Info:    Setting MintSpiritNoTwo-TOsF sub-encoding to TS1/4 on input
+ line 14989.
+LaTeX Font Info:    Setting PTMono-TLF sub-encoding to TS1/4 on input line 1499
+0.
+LaTeX Font Info:    Setting PTSans-TLF sub-encoding to TS1/4 on input line 1499
+1.
+LaTeX Font Info:    Setting PTSansCaption-TLF sub-encoding to TS1/4 on input li
+ne 14992.
+LaTeX Font Info:    Setting PTSansNarrow-TLF sub-encoding to TS1/4 on input lin
+e 14993.
+LaTeX Font Info:    Setting PTSerif-TLF sub-encoding to TS1/4 on input line 149
+94.
+LaTeX Font Info:    Setting PTSerifCaption-TLF sub-encoding to TS1/4 on input l
+ine 14995.
+LaTeX Font Info:    Setting Raleway-TLF sub-encoding to TS1/4 on input line 149
+96.
+LaTeX Font Info:    Setting Raleway-TOsF sub-encoding to TS1/4 on input line 14
+997.
+LaTeX Font Info:    Setting Roboto-LF sub-encoding to TS1/4 on input line 14998
+.
+LaTeX Font Info:    Setting Roboto-TLF sub-encoding to TS1/4 on input line 1499
+8.
+LaTeX Font Info:    Setting Roboto-OsF sub-encoding to TS1/4 on input line 1499
+8.
+LaTeX Font Info:    Setting Roboto-TOsF sub-encoding to TS1/4 on input line 149
+98.
+LaTeX Font Info:    Setting RobotoMono-TLF sub-encoding to TS1/4 on input line 
+14999.
+LaTeX Font Info:    Setting RobotoSlab-TLF sub-encoding to TS1/4 on input line 
+15000.
+LaTeX Font Info:    Setting Rosario-LF sub-encoding to TS1/4 on input line 1500
+1.
+LaTeX Font Info:    Setting Rosario-TLF sub-encoding to TS1/4 on input line 150
+01.
+LaTeX Font Info:    Setting Rosario-OsF sub-encoding to TS1/4 on input line 150
+01.
+LaTeX Font Info:    Setting Rosario-TOsF sub-encoding to TS1/4 on input line 15
+001.
+LaTeX Font Info:    Setting SticksTooText-LF sub-encoding to TS1/4 on input lin
+e 15002.
+LaTeX Font Info:    Setting SticksTooText-TLF sub-encoding to TS1/4 on input li
+ne 15002.
+LaTeX Font Info:    Setting SticksTooText-OsF sub-encoding to TS1/4 on input li
+ne 15002.
+LaTeX Font Info:    Setting SticksTooText-TOsF sub-encoding to TS1/4 on input l
+ine 15002.
+LaTeX Font Info:    Setting UniversalisADFStd-LF sub-encoding to TS1/4 on input
+ line 15003.
+LaTeX Font Info:    Setting Almndr-OsF sub-encoding to TS1/5 on input line 1500
+4.
+LaTeX Font Info:    Setting Baskervaldx-LF sub-encoding to TS1/5 on input line 
+15005.
+LaTeX Font Info:    Setting Baskervaldx-TLF sub-encoding to TS1/5 on input line
+ 15005.
+LaTeX Font Info:    Setting Baskervaldx-OsF sub-encoding to TS1/5 on input line
+ 15005.
+LaTeX Font Info:    Setting Baskervaldx-TOsF sub-encoding to TS1/5 on input lin
+e 15005.
+LaTeX Font Info:    Setting Bttr-TLF sub-encoding to TS1/5 on input line 15006.
+
+LaTeX Font Info:    Setting Cinzel-LF sub-encoding to TS1/5 on input line 15007
+.
+LaTeX Font Info:    Setting CinzelDecorative-LF sub-encoding to TS1/5 on input 
+line 15008.
+LaTeX Font Info:    Setting Cochineal-LF sub-encoding to TS1/5 on input line 15
+009.
+LaTeX Font Info:    Setting Cochineal-TLF sub-encoding to TS1/5 on input line 1
+5009.
+LaTeX Font Info:    Setting Cochineal-OsF sub-encoding to TS1/5 on input line 1
+5009.
+LaTeX Font Info:    Setting Cochineal-TOsF sub-encoding to TS1/5 on input line 
+15009.
+LaTeX Font Info:    Setting DejaVuSerif-TLF sub-encoding to TS1/5 on input line
+ 15010.
+LaTeX Font Info:    Setting DejaVuSerifCondensed-TLF sub-encoding to TS1/5 on i
+nput line 15011.
+LaTeX Font Info:    Setting GilliusADF-LF sub-encoding to TS1/5 on input line 1
+5012.
+LaTeX Font Info:    Setting GilliusADFCond-LF sub-encoding to TS1/5 on input li
+ne 15013.
+LaTeX Font Info:    Setting GilliusADFNoTwo-LF sub-encoding to TS1/5 on input l
+ine 15014.
+LaTeX Font Info:    Setting GilliusADFNoTwoCond-LF sub-encoding to TS1/5 on inp
+ut line 15015.
+LaTeX Font Info:    Setting OldStandard-TLF sub-encoding to TS1/5 on input line
+ 15016.
+LaTeX Font Info:    Setting PlyfrDisplay-TLF sub-encoding to TS1/5 on input lin
+e 15017.
+LaTeX Font Info:    Setting PlyfrDisplay-TOsF sub-encoding to TS1/5 on input li
+ne 15018.
+LaTeX Font Info:    Setting TheanoDidot-TLF sub-encoding to TS1/5 on input line
+ 15019.
+LaTeX Font Info:    Setting TheanoDidot-TOsF sub-encoding to TS1/5 on input lin
+e 15020.
+LaTeX Font Info:    Setting TheanoModern-TLF sub-encoding to TS1/5 on input lin
+e 15021.
+LaTeX Font Info:    Setting TheanoModern-TOsF sub-encoding to TS1/5 on input li
+ne 15022.
+LaTeX Font Info:    Setting TheanoOldStyle-TLF sub-encoding to TS1/5 on input l
+ine 15023.
+LaTeX Font Info:    Setting TheanoOldStyle-TOsF sub-encoding to TS1/5 on input 
+line 15024.
+LaTeX Font Info:    Setting charssil-TLF sub-encoding to TS1/5 on input line 15
+025.
+LaTeX Font Info:    Setting Crimson-TLF sub-encoding to TS1/6 on input line 150
+26.
+LaTeX Font Info:    Setting LibertinusSerifDisplay-LF sub-encoding to TS1/6 on 
+input line 15027.
+LaTeX Font Info:    Setting LinuxLibertineDisplayT-LF sub-encoding to TS1/6 on 
+input line 15028.
+LaTeX Font Info:    Setting LinuxLibertineDisplayT-TLF sub-encoding to TS1/6 on
+ input line 15028.
+LaTeX Font Info:    Setting LinuxLibertineDisplayT-OsF sub-encoding to TS1/6 on
+ input line 15028.
+LaTeX Font Info:    Setting LinuxLibertineDisplayT-TOsF sub-encoding to TS1/6 o
+n input line 15028.
+LaTeX Font Info:    Setting LinuxLibertineMonoT-LF sub-encoding to TS1/6 on inp
+ut line 15029.
+LaTeX Font Info:    Setting LinuxLibertineMonoT-TLF sub-encoding to TS1/6 on in
+put line 15030.
+LaTeX Font Info:    Setting Ovrlck-LF sub-encoding to TS1/6 on input line 15031
+.
+LaTeX Font Info:    Setting ComicNeue-TLF sub-encoding to TS1/7 on input line 1
+5032.
+LaTeX Font Info:    Setting ComicNeueAngular-TLF sub-encoding to TS1/7 on input
+ line 15033.
+LaTeX Font Info:    Setting CormorantGaramond-LF sub-encoding to TS1/7 on input
+ line 15034.
+LaTeX Font Info:    Setting CormorantGaramond-TLF sub-encoding to TS1/7 on inpu
+t line 15034.
+LaTeX Font Info:    Setting CormorantGaramond-OsF sub-encoding to TS1/7 on inpu
+t line 15034.
+LaTeX Font Info:    Setting CormorantGaramond-TOsF sub-encoding to TS1/7 on inp
+ut line 15034.
+LaTeX Font Info:    Setting Heuristica-TLF sub-encoding to TS1/7 on input line 
+15035.
+LaTeX Font Info:    Setting Heuristica-TOsF sub-encoding to TS1/7 on input line
+ 15036.
+LaTeX Font Info:    Setting IMFELLEnglish-TLF sub-encoding to TS1/7 on input li
+ne 15037.
+LaTeX Font Info:    Setting LibreBskrvl-TLF sub-encoding to TS1/7 on input line
+ 15038.
+LaTeX Font Info:    Setting LibreCsln-LF sub-encoding to TS1/7 on input line 15
+039.
+LaTeX Font Info:    Setting LibreCsln-TLF sub-encoding to TS1/7 on input line 1
+5039.
+LaTeX Font Info:    Setting LibreCsln-OsF sub-encoding to TS1/7 on input line 1
+5039.
+LaTeX Font Info:    Setting LibreCsln-TOsF sub-encoding to TS1/7 on input line 
+15039.
+LaTeX Font Info:    Setting Lbstr-LF sub-encoding to TS1/7 on input line 15040.
+
+LaTeX Font Info:    Setting Mrcls-LF sub-encoding to TS1/7 on input line 15041.
+
+LaTeX Font Info:    Setting NotoSans-LF sub-encoding to TS1/7 on input line 150
+42.
+LaTeX Font Info:    Setting NotoSans-TLF sub-encoding to TS1/7 on input line 15
+042.
+LaTeX Font Info:    Setting NotoSans-OsF sub-encoding to TS1/7 on input line 15
+042.
+LaTeX Font Info:    Setting NotoSans-TOsF sub-encoding to TS1/7 on input line 1
+5042.
+LaTeX Font Info:    Setting NotoSerif-LF sub-encoding to TS1/7 on input line 15
+043.
+LaTeX Font Info:    Setting NotoSerif-TLF sub-encoding to TS1/7 on input line 1
+5043.
+LaTeX Font Info:    Setting NotoSerif-OsF sub-encoding to TS1/7 on input line 1
+5043.
+LaTeX Font Info:    Setting NotoSerif-TOsF sub-encoding to TS1/7 on input line 
+15043.
+LaTeX Font Info:    Setting Quattro-LF sub-encoding to TS1/7 on input line 1504
+4.
+LaTeX Font Info:    Setting QuattroSans-LF sub-encoding to TS1/7 on input line 
+15045.
+LaTeX Font Info:    Setting Frm-LF sub-encoding to TS1/7 on input line 15046.
+LaTeX Font Info:    Setting LibertinusMono-TLF sub-encoding to TS1/8 on input l
+ine 15047.
+LaTeX Font Info:    Setting AlgolRevived-TLF sub-encoding to TS1/9 on input lin
+e 15048.
+
+page nos., x-ref, environments, center,
+\@rightskip=\skip29
+ verbatim,
+\@verbvisiblespacebox=\box33
+ math definitions,
+\jot=\dimen60
+\interdisplaylinepenalty=\count149
+\rootbox=\box34
+LaTeX Info: Redefining \: on input line 15892.
+\c@equation=\count150
+\@eqcnt=\count151
+\@eqpen=\count152
+\@centering=\skip30
+\topsep=\skip31
+\partopsep=\skip32
+\itemsep=\skip33
+\parsep=\skip34
+\@topsep=\skip35
+\@topsepadd=\skip36
+\@outerparskip=\skip37
+\leftmargin=\dimen61
+\rightmargin=\dimen62
+\listparindent=\dimen63
+\itemindent=\dimen64
+\labelwidth=\dimen65
+\labelsep=\dimen66
+\linewidth=\dimen67
+\@totalleftmargin=\dimen68
+\leftmargini=\dimen69
+\leftmarginii=\dimen70
+\leftmarginiii=\dimen71
+\leftmarginiv=\dimen72
+\leftmarginv=\dimen73
+\leftmarginvi=\dimen74
+\@listdepth=\count153
+\@itempenalty=\count154
+\@beginparpenalty=\count155
+\@endparpenalty=\count156
+\@labels=\box35
+\par@deathcycles=\count157
+\@enumdepth=\count158
+\c@enumi=\count159
+\c@enumii=\count160
+\c@enumiii=\count161
+\c@enumiv=\count162
+\@itemdepth=\count163
+ boxes,
+\fboxrule=\dimen75
+\fboxsep=\dimen76
+\@mplistdepth=\count164
+\@mpfootins=\insert254
+LaTeX Info: Redefining \underline on input line 16604.
+\@gtempa=\dimen77
+\@gtempa=\dimen78
+\@gtempa=\dimen79
+\@gtempa=\dimen80
+\@gtempa=\dimen81
+\@gtempa=\dimen82
+\@gtempa=\dimen83
+\@gtempa=\dimen84
+\@gtempa=\dimen85
+\@gtempa=\dimen86
+\@gtempa=\dimen87
+\@gtempa=\dimen88
+\@gtempa=\dimen89
+\@gtempa=\dimen90
+\@nxttabmar=\count165
+\@curtabmar=\count166
+\@curtab=\count167
+\@hightab=\count168
+\@tabpush=\count169
+\@curline=\box36
+\@curfield=\box37
+\@tabfbox=\box38
+\tabbingsep=\dimen91
+\@chclass=\count170
+\@lastchclass=\count171
+\@chnum=\count172
+\arraycolsep=\dimen92
+\tabcolsep=\dimen93
+\arrayrulewidth=\dimen94
+\doublerulesep=\dimen95
+\@arstrutbox=\box39
+\@wholewidth=\dimen96
+\@halfwidth=\dimen97
+\unitlength=\dimen98
+\@picbox=\box40
+\@picht=\dimen99
+\@ovxx=\dimen100
+\@ovyy=\dimen101
+\@ovdx=\dimen102
+\@ovdy=\dimen103
+\@ovro=\dimen104
+\@ovri=\dimen105
+\@xarg=\count173
+\@yarg=\count174
+\@yyarg=\count175
+\@multicnt=\count176
+\@xdim=\dimen106
+\@ydim=\dimen107
+\@linechar=\box41
+\@linelen=\dimen108
+\@clnwd=\dimen109
+\@clnht=\dimen110
+\@dashdim=\dimen111
+\@dashbox=\box42
+\@dashcnt=\count177
+LaTeX Info: Command `\linethickness' is already robust on input line 17403.
+LaTeX Info: Command `\thinlines' is already robust on input line 17409.
+
+title, sectioning,
+\@secpenalty=\count178
+\c@secnumdepth=\count179
+\c@tocdepth=\count180
+ contents, floats,
+\@floatpenalty=\count181
+ footnotes,
+\footins=\insert253
+\c@footnote=\count182
+\c@mpfootnote=\count183
+\footnotesep=\dimen112
+ index, bibliography,
+\l__mark_box=\box43
+\l__mark_ii_box=\box44
+\g__mark_int=\count184
+\pkgcls@targetdate=\count185
+\l_shipout_box=\box45
+\l__shipout_raw_box=\box46
+\l__shipout_firstpage_box=\box47
+\l_shipout_box_ht_dim=\dimen113
+\l_shipout_box_dp_dim=\dimen114
+\l_shipout_box_wd_dim=\dimen115
+\l_shipout_box_ht_plus_dp_dim=\dimen116
+\l__shipout_tmp_box=\box48
+\g_shipout_readonly_int=\count186
+\g_shipout_totalpages_int=\count187
+ output,
+\bx@A=\insert252
+\bx@B=\insert251
+\bx@C=\insert250
+\bx@D=\insert249
+\bx@E=\insert248
+\bx@F=\insert247
+\bx@G=\insert246
+\bx@H=\insert245
+\bx@I=\insert244
+\bx@J=\insert243
+\bx@K=\insert242
+\bx@L=\insert241
+\bx@M=\insert240
+\bx@N=\insert239
+\bx@O=\insert238
+\bx@P=\insert237
+\bx@Q=\insert236
+\bx@R=\insert235
+\bx@S=\insert234
+\bx@T=\insert233
+\bx@U=\insert232
+\bx@V=\insert231
+\bx@W=\insert230
+\bx@X=\insert229
+\bx@Y=\insert228
+\bx@Z=\insert227
+\bx@AA=\insert226
+\bx@BB=\insert225
+\bx@CC=\insert224
+\bx@DD=\insert223
+\bx@EE=\insert222
+\bx@FF=\insert221
+\bx@GG=\insert220
+\bx@HH=\insert219
+\bx@II=\insert218
+\bx@JJ=\insert217
+\bx@KK=\insert216
+\bx@LL=\insert215
+\bx@MM=\insert214
+\bx@NN=\insert213
+\bx@OO=\insert212
+\bx@PP=\insert211
+\bx@QQ=\insert210
+\bx@RR=\insert209
+\bx@SS=\insert208
+\bx@TT=\insert207
+\bx@UU=\insert206
+\bx@VV=\insert205
+\bx@WW=\insert204
+\bx@XX=\insert203
+\bx@YY=\insert202
+\bx@ZZ=\insert201
+\topmargin=\dimen117
+\oddsidemargin=\dimen118
+\evensidemargin=\dimen119
+\headheight=\dimen120
+\headsep=\dimen121
+\footskip=\dimen122
+\textheight=\dimen123
+\textwidth=\dimen124
+\columnwidth=\dimen125
+\columnsep=\dimen126
+\columnseprule=\dimen127
+\marginparwidth=\dimen128
+\marginparsep=\dimen129
+\marginparpush=\dimen130
+\@begindvibox=\box49
+\@maxdepth=\dimen131
+\paperheight=\dimen132
+\paperwidth=\dimen133
+\stockheight=\dimen134
+\stockwidth=\dimen135
+\col@number=\count188
+\@topnum=\count189
+\@toproom=\dimen136
+\@dbltopnum=\count190
+\@dbltoproom=\dimen137
+\@botnum=\count191
+\@botroom=\dimen138
+\@colnum=\count192
+\@textmin=\dimen139
+\@fpmin=\dimen140
+\@colht=\dimen141
+\@colroom=\dimen142
+\@pageht=\dimen143
+\@pagedp=\dimen144
+\@mparbottom=\dimen145
+\@currtype=\count193
+\@outputbox=\box50
+\@leftcolumn=\box51
+\@holdpg=\box52
+\@outputbox@depth=\dimen146
+\@kludgeins=\insert200
+\@fpstype=\count194
+\@reqcolroom=\dimen147
+\@textfloatsheight=\dimen148
+\saved@reqcolroom=\dimen149
+\c@topnumber=\count195
+\c@bottomnumber=\count196
+\c@totalnumber=\count197
+\c@dbltopnumber=\count198
+\floatsep=\skip38
+\textfloatsep=\skip39
+\intextsep=\skip40
+\dblfloatsep=\skip41
+\dbltextfloatsep=\skip42
+\@fptop=\skip43
+\@fpsep=\skip44
+\@fpbot=\skip45
+\@dblfptop=\skip46
+\@dblfpsep=\skip47
+\@dblfpbot=\skip48
+\l__tag_block_flattened_level_int=\count199
+\g__tbl_col_int=\count266
+\g__tbl_row_int=\count267
+\g__tbl_missing_cells_int=\count268
+\@lowpenalty=\count269
+\@medpenalty=\count270
+\@highpenalty=\count271
+\c__mark_class_2e-left_mark=\marks1
+\c__mark_class_2e-right_mark=\marks2
+\c__mark_class_2e-right-nonempty_mark=\marks3
+
+ Unicode character data,
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/generic/unicode-data\load-unicod
+e-data.tex 
+load-unicode-data.tex v1.19 (2025-09-26)
+Reading Unicode data
+# UnicodeData-17.0.0.txt
+# Modified 2025-09-26 07:00 GMT [JAW]
+)
+===========================================
+Local configuration file hyphen.cfg used
+===========================================
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/generic/babel\hyphen.cfg
+File: hyphen.cfg 2026/05/20 v26.8 Babel hyphens
+
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/generic/babel\xebabel.def)
+I couldn't find the file language.dat, I will try the file hyphen.tex
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/generic/knuth-lib\hyphen.tex))
+\l@nohyphenation=\language1
+\pdfgentounicode=\count272
+
+(C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\tex/latex/firstaid\latex2e-first-aid
+-for-external-files.ltx
+File: latex2e-first-aid-for-external-files.ltx 2026-03-12 v1.1x LaTeX kernel fi
+xes to external files and packages
+)
+ ) )
+Beginning to dump on file xelatex.fmt
+ (preloaded format=xelatex 2026.6.29)
+95678 strings of total length 778483
+427326 memory locations dumped; current usage is 323&391729
+29039 multiletter control sequences
+\font\nullfont=nullfont
+\font\c__fp_exp_intarray=cmr10 at 0.00002pt
+\font\c__fp_trig_intarray=cmr10 at 0.00003pt
+\font\c_initex_cctab=cmr10 at 0.00005pt
+\font\c_other_cctab=cmr10 at 0.00006pt
+\font\c_str_cctab=cmr10 at 0.00008pt
+\font\g_tmpa_cctab=cmr10 at 0.00009pt
+\font\g_tmpb_cctab=cmr10 at 0.0001pt
+\font\g__regex_state_active_intarray=cmr10 at 0.00012pt
+\font\g__regex_thread_info_intarray=cmr10 at 0.00014pt
+\font\g__regex_submatch_prev_intarray=cmr10 at 0.00015pt
+\font\g__regex_submatch_begin_intarray=cmr10 at 0.00017pt
+\font\g__regex_submatch_end_intarray=cmr10 at 0.00018pt
+\font\g__regex_submatch_case_intarray=cmr10 at 0.0002pt
+\font\g__regex_balance_intarray=cmr10 at 0.00021pt
+\font\g__codepoint_category_index_intarray=cmr10 at 0.00023pt
+\font\g__codepoint_grapheme_index_intarray=cmr10 at 0.00024pt
+\font\g__codepoint_lowercase_index_intarray=cmr10 at 0.00026pt
+\font\g__codepoint_uppercase_index_intarray=cmr10 at 0.00027pt
+\font\g__codepoint_wordbreak_index_intarray=cmr10 at 0.00029pt
+\font\g__codepoint_category_blocks_intarray=cmr10 at 0.0003pt
+\font\g__codepoint_grapheme_blocks_intarray=cmr10 at 0.00032pt
+\font\g__codepoint_lowercase_blocks_intarray=cmr10 at 0.00034pt
+\font\g__codepoint_uppercase_blocks_intarray=cmr10 at 0.00035pt
+\font\g__codepoint_wordbreak_blocks_intarray=cmr10 at 0.00037pt
+\font\OMX/cmex/m/n/10=cmex10
+\font\tenln=line10
+\font\tenlnw=linew10
+\font\tencirc=lcircle10
+\font\tencircw=lcirclew10
+\font\OT1/cmr/m/n/5=cmr5
+\font\OT1/cmr/m/n/7=cmr7
+\font\OT1/cmr/m/n/10=cmr10
+\font\OML/cmm/m/it/5=cmmi5
+\font\OML/cmm/m/it/7=cmmi7
+\font\OML/cmm/m/it/10=cmmi10
+\font\OMS/cmsy/m/n/5=cmsy5
+\font\OMS/cmsy/m/n/7=cmsy7
+\font\OMS/cmsy/m/n/10=cmsy10
+\font\c_code_cctab=cmr10 at 0.00038pt
+\font\c_document_cctab=cmr10 at 0.0004pt
+627714 words of font info for 40 preloaded fonts
+14 hyphenation exceptions
+Hyphenation trie of length 6076 has 181 ops out of 35111
+  181 for language 0
+No pages of output.

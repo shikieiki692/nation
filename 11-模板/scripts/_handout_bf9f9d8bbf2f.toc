@@ -1,0 +1,25 @@
+\contentsline {section}{\numberline {1}配位化合物基础 · 超级充实版}{2}{section.1}%
+\contentsline {subsection}{学习目标}{2}{subsection*.2}%
+\contentsline {subsection}{一、核心概念}{2}{subsection*.3}%
+\contentsline {subsubsection}{1.1 配位键不是''特殊键''---它是 Lewis 酸碱对的自然延伸}{2}{subsubsection*.4}%
+\contentsline {subsubsection}{1.2 配合物的组成}{2}{subsubsection*.5}%
+\contentsline {subsubsection}{1.3 常见中心离子与配体}{4}{subsubsection*.6}%
+\contentsline {subsubsection}{1.4 配位数}{4}{subsubsection*.7}%
+\contentsline {subsubsection}{1.5 配合物的命名---``名称''双向翻译}{5}{subsubsection*.8}%
+\contentsline {subsection}{二、规律与方法}{5}{subsection*.9}%
+\contentsline {subsubsection}{2.1 价键理论(VB Theory)---从杂化轨道看配合物构型}{5}{subsubsection*.10}%
+\contentsline {subsubsection}{2.2 EAN 18 电子规则---金属有机配合物的''八隅体''}{7}{subsubsection*.11}%
+\contentsline {subsubsection}{2.3 晶体场理论(CFT)---为什么配合物有颜色和磁性？}{8}{subsubsection*.12}%
+\contentsline {subsubsection}{2.4 配合物的异构现象}{15}{subsubsection*.13}%
+\contentsline {subsubsection}{2.5 常见误区与认知陷阱}{17}{subsubsection*.14}%
+\contentsline {subsection}{三、典型例题}{18}{subsection*.15}%
+\contentsline {subsection}{四、拓展与联系}{19}{subsection*.16}%
+\contentsline {subsubsection}{4.1 与竞赛真题的对接}{19}{subsubsection*.17}%
+\contentsline {subsubsection}{4.2 跨专题联系}{19}{subsubsection*.18}%
+\contentsline {subsection}{五、方法总结}{19}{subsection*.19}%
+\contentsline {subsubsection}{5.1 配合物分析四步法}{19}{subsubsection*.20}%
+\contentsline {subsubsection}{5.2 核心速查表}{19}{subsubsection*.21}%
+\contentsline {subsubsection}{5.3 高/低自旋判断流程图}{20}{subsubsection*.22}%
+\contentsline {subsection}{六、练习题}{20}{subsection*.23}%
+\contentsline {subsection}{七、参考答案与提示}{21}{subsection*.24}%
+\contentsline {subsection}{八、延伸阅读}{24}{subsection*.25}%

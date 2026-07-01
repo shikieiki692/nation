@@ -2,6 +2,7 @@
 title: Agent 6 · 质量审查
 type: agent-prompt-lightweight
 agent_id: 6
+updated: 2026-06-29
 version: v1.0
 tags: [agent, 构建]
 ---

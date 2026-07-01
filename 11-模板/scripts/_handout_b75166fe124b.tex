@@ -1,0 +1,888 @@
+% ── chemistry-handout-preamble.tex ── 化学竞赛讲义 LaTeX 导言区（v7 · 精排版）
+\documentclass[a4paper,11pt]{ctexart}
+
+% ── 字体优化 ──
+\setCJKmainfont[AutoFakeBold=true,BoldFont=SimHei]{SimSun}
+\setCJKsansfont{SimHei}
+
+% 化学式宏（mhchem）
+\usepackage[version=4]{mhchem}
+
+% ── 数学 ──
+\usepackage{amsmath,amssymb}
+
+% ── 图片 ──
+\usepackage{graphicx}
+
+% ── 表格（跨页+自动列宽）──
+\usepackage{booktabs}
+\usepackage{xltabular}
+\usepackage{array}
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}
+
+% ── 浮动体（[H] 强制定位）──
+\usepackage{float}
+
+% ── 页面 ──
+\usepackage[includeheadfoot,margin=2.2cm,headheight=14pt]{geometry}
+\setlength{\textwidth}{16.6cm}
+
+% ── 行间距 ──
+\usepackage{setspace}
+\setstretch{1.15}
+\setlength{\parskip}{0.3em}
+\setlength{\parindent}{2em}
+
+% ── 防止表格跨页 ──
+\usepackage{longtable}
+\setlength{\LTpre}{0pt}
+\setlength{\LTpost}{0pt}
+
+% ── 防止图片跨页（尽量）──
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.9}
+\setcounter{totalnumber}{10}
+\setcounter{topnumber}{10}
+\setcounter{bottomnumber}{10}
+
+% ── 超链接(无红框) ──
+\usepackage[colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black]{hyperref}
+
+% ── 颜色 ──
+\usepackage[dvipsnames,svgnames]{xcolor}
+\definecolor{chapterblue}{RGB}{23,50,77}
+\definecolor{insightbg}{RGB}{235,240,250}
+\definecolor{warningbg}{RGB}{255,245,235}
+\definecolor{tipbg}{RGB}{235,250,235}
+
+% ── 页眉页脚 ──
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{chapterblue}\leftmark}
+\fancyhead[R]{\small\color{chapterblue}\thepage}
+\renewcommand{\headrule}{{\color{chapterblue}\hrule height 0.8pt}}
+
+% ── 章节编号与样式 ──
+\setcounter{secnumdepth}{1}
+\ctexset{
+  section = {
+    format = \Large\bfseries\heiti\color{chapterblue},
+    aftername = \hspace{0.5em},
+    beforeskip = 2ex,
+    afterskip = 1ex,
+  },
+  subsection = {
+    format = \large\bfseries\heiti,
+    beforeskip = 1.5ex,
+    afterskip = 0.5ex,
+  },
+  subsubsection = {
+    format = \normalsize\bfseries\heiti,
+    beforeskip = 1ex,
+    afterskip = 0.3ex,
+  },
+  paragraph = {
+    format = \small\bfseries,
+    beforeskip = 0.5ex,
+    afterskip = 0.2ex,
+  },
+}
+
+% ── blockquote（引用/提示框）缩减 ──
+\usepackage{etoolbox}
+\AtBeginEnvironment{quote}{\small\setstretch{1.05}\leftskip=1em\rightskip=1em}
+
+% ── 教学提示框（浅底色版）──
+\newenvironment{insightbox}{%
+  \par\smallskip
+  \noindent{\small\bfseries\color{RoyalBlue}🧠 认知冲突}\par
+  \leavevmode\colorbox{insightbg}{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{%
+  \ignorespaces}}%
+}{\par\smallskip}
+
+\newenvironment{warningbox}{%
+  \par\smallskip
+  \noindent{\small\bfseries\color{BrickRed}⚠️ 易错点}\par
+  \leavevmode\colorbox{warningbg}{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{%
+  \ignorespaces}}%
+}{\par\smallskip}
+
+\newenvironment{tipbox}{%
+  \par\smallskip
+  \noindent{\small\bfseries\color{ForestGreen}💡 理解提示}\par
+  \leavevmode\colorbox{tipbg}{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{%
+  \ignorespaces}}%
+}{\par\smallskip}
+
+% ── 列表（答案区加间距）──
+\usepackage{enumitem}
+\setlist{nosep}
+% 专门用于参考答案的列表（每项之间空一行）
+\newlist{answerlist}{enumerate}{1}
+\setlist[answerlist]{label=\arabic*., leftmargin=2em, itemsep=0.8em}
+
+% ── 防止内容溢出 ──
+\usepackage{microtype}
+\setlength{\emergencystretch}{2em}
+\setlength{\hfuzz}{2pt}
+\setlength{\overfullrule}{0pt}
+\sloppy
+
+% ── pandoc 兼容 ──
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\newenvironment{Shaded}{}{}
+\newenvironment{Highlighting}{}{}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\CommentTok}[1]{#1}
+\newcommand{\KeywordTok}[1]{#1}
+\newcommand{\StringTok}[1]{#1}
+\newcommand{\FunctionTok}[1]{#1}
+\newcommand{\DataTypeTok}[1]{#1}
+\newcommand{\NumberTok}[1]{#1}
+\newcommand{\ControlFlowTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{#1}
+\newcommand{\BaseNTok}[1]{#1}
+\newcounter{none}
+
+% ── 图片尺寸限制 ──
+\AtBeginDocument{\setkeys{Gin}{width=\textwidth,keepaspectratio}}
+
+% ── 防止图片跨节 ──
+\usepackage{placeins}
+
+% ── 自定义命令 ──
+% 练习题标题（去掉括号）
+% 例题标题（去掉中括号）
+% 这些需要在convert.py预处理中做正则替换
+
+\graphicspath{{C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/}}
+\title{溶液与相图}
+\date{}
+\setlength{\tabcolsep}{3.5pt}
+\small
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+\section{溶液与相图}\label{ux6eb6ux6db2ux4e0eux76f8ux56fe}
+
+\textbf{本讲定位}：溶液理论是化学热力学的第一个定量应用---蒸气压下降是''一切依数性的根源''，从它可以推导出沸点升高、凝固点降低和渗透压。相图则是用图形语言描述多相平衡的工具。
+\textbf{上节衔接}：← 热力学初步-超级充实版(自学完整)\textbar 热力学初步(Gibbs 自由能与相变)
+\textbf{下节衔接}：→ 2026-06-23-化学平衡\textbar 化学平衡(Q/K 分析方法)
+\textbf{主框架教材}：《普通化学原理》第4版 第4章
+\textbf{辅助教材}：上海中学竞赛课程第十三讲、质心化学原理 L9
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{学习目标}\label{ux5b66ux4e60ux76eeux6807}
+
+\begin{itemize}
+\tightlist
+\item
+  目标1：能进行七种浓度表示法之间的相互换算
+\item
+  目标2：能用 Raoult 定律计算溶液的蒸气压，理解蒸气压下降是一切依数性的根源
+\item
+  目标3：能用依数性公式(沸点升高、凝固点降低、渗透压)计算分子量和相关物理量
+\item
+  目标4：能用 Henry 定律计算气体溶解度，理解溶解度随温度和压力的变化趋势
+\item
+  目标5：能读懂单组分相图(水)和双组分相图(共晶、蒸馏)，应用相律 F = C − P + 2
+\item
+  目标6：了解胶体的基本性质(丁达尔效应、电泳、聚沉)
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{一、为什么需要溶液理论}\label{ux4e00ux4e3aux4ec0ux4e48ux9700ux8981ux6eb6ux6db2ux7406ux8bba}
+
+\textbf{动机段}：拉萨海拔 3650 m，水的沸点只有 87°C---不是 100°C！什么决定了沸点？往雪路上撒盐为什么能融雪？海水为什么不能直接喝？这些问题都指向同一个核心：\textbf{溶液的蒸气压与纯溶剂不同}。
+蒸气压下降是''一切依数性的根源''---从它可以推导出沸点升高、凝固点降低和渗透压。
+
+\textbf{核心认知}：依数性(colligative properties)只取决于溶质粒子的\textbf{数量}，而与溶质的\textbf{种类}无关。这就是为什么 1 mol/L 的蔗糖溶液和 1 mol/L 的尿素溶液具有相同的沸点升高。
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{二、浓度表示法}\label{ux4e8cux6d53ux5ea6ux8868ux793aux6cd5}
+
+\subsubsection{2.1 七种浓度表示法}\label{ux4e03ux79cdux6d53ux5ea6ux8868ux793aux6cd5}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}lclc@{}}
+\toprule\noalign{}
+名称 & 符号 & 定义 & 单位 \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+质量分数 & w & 溶质质量/溶液质量 × 100\% & \% \\
+摩尔分数 & x\_B & n\_B / n\_total & 无量纲 \\
+质量摩尔浓度 & b (m) & 溶质物质的量/溶剂质量(kg) & mol/kg \\
+物质的量浓度 & c & 溶质物质的量/溶液体积(L) & mol/L \\
+体积分数 & φ & 溶质体积/溶液体积 & 无量纲 \\
+比例浓度 & --- & 溶质质量:溶剂质量 & --- \\
+ppm / ppb & --- & 百万分之一/十亿分之一 & --- \\
+\end{longtable}
+}
+
+\textbf{依数性计算必须用质量摩尔浓度 b(mol/kg 溶剂)，不能用物质的量浓度 c(mol/L 溶液)！} 因为 b 不随温度变化，而 c 会随温度变化。
+
+\subsubsection{2.2 浓度换算示例}\label{ux6d53ux5ea6ux6362ux7b97ux793aux4f8b}
+
+\textbf{例}：将 98\% 浓 H\textsubscript{2}SO\textsubscript{4}(密度 1.84 g/mL)换算为物质的量浓度和质量摩尔浓度。
+
+\[
+c = \frac{1000 \times 1.84 \times 0.98}{98} = 18.4\ \mathrm{mol/L}
+\]
+
+\[
+b = \frac{1000 \times 1.84 \times 0.98 / 98}{1000 \times 1.84 \times 0.02 / 1000} = \frac{18.4}{0.0368} = 500\ \mathrm{mol/kg}
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{三、溶解度与''相似相溶''}\label{ux4e09ux6eb6ux89e3ux5ea6ux4e0eux76f8ux4f3cux76f8ux6eb6}
+
+\subsubsection{3.1 ``相似相溶''原则}\label{ux76f8ux4f3cux76f8ux6eb6ux539fux5219}
+
+极性溶质易溶于极性溶剂(如 NaCl 溶于水)，非极性溶质易溶于非极性溶剂(如 I\textsubscript{2} 溶于 CCl\textsubscript{4})。
+
+\textbf{判断方法}：比较溶质和溶剂的极性(介电常数、偶极矩)或分子间力类型。
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}llll@{}}
+\toprule\noalign{}
+溶质 & 溶剂 & 溶解性 & 原因 \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+NaCl & H\textsubscript{2}O & 易溶 & 离子-偶极力 \\
+NaCl & CCl\textsubscript{4} & 不溶 & 离子力 vs 弱色散力 \\
+I\textsubscript{2} & CCl\textsubscript{4} & 易溶 & 色散力匹配 \\
+I\textsubscript{2} & H\textsubscript{2}O & 微溶 & 色散力 vs 偶极力不匹配 \\
+C\textsubscript{2}H\textsubscript{5}OH & H\textsubscript{2}O & 互溶 & 氢键匹配 \\
+\end{longtable}
+}
+
+\subsubsection{3.2 溶解度与温度}\label{ux6eb6ux89e3ux5ea6ux4e0eux6e29ux5ea6}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}lll@{}}
+\toprule\noalign{}
+溶质类型 & 温度升高 & 示例 \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+大多数固体 & 溶解度增大 & KNO\textsubscript{3}、K\textsubscript{2}Cr\textsubscript{2}O\textsubscript{7} \\
+少数固体 & 溶解度降低 & Ca(OH)\textsubscript{2}、Ce\textsubscript{2}(SO\textsubscript{4})\textsubscript{3} \\
+气体 & 溶解度降低 & O\textsubscript{2}、N\textsubscript{2}、CO\textsubscript{2} \\
+\end{longtable}
+}
+
+\textbf{竞赛考点}：Ce\textsubscript{2}(SO\textsubscript{4})\textsubscript{3} 的溶解度随温度升高而降低---这是反常的，因为其溶解过程是放热的(ΔH\_sol \textless{} 0)。
+
+\subsubsection{3.3 过饱和溶液}\label{ux8fc7ux9971ux548cux6eb6ux6db2}
+
+某些溶液可以在没有晶种的情况下保持过饱和状态(如 NaAc·3H\textsubscript{2}O 的过饱和溶液)。加入晶种或搅拌可触发结晶。
+
+\textbf{三相点 \(\neq\) 冰点}：三相点是物质固、液、气三相共存的温度(纯物质特有)，而冰点是溶液中固液两相平衡的温度。水的三相点 = 0.01°C，冰点 = 0.00°C(标准大气压下)。
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{四、Raoult 定律与依数性}\label{ux56dbraoult-ux5b9aux5f8bux4e0eux4f9dux6570ux6027}
+
+\subsubsection{4.1 Raoult 定律}\label{raoult-ux5b9aux5f8b}
+
+\textbf{对难挥发非电解质稀溶液}，溶剂的蒸气压等于纯溶剂蒸气压乘以溶剂的摩尔分数：
+
+\[
+\boxed{p_A = p_A^* \cdot x_A}
+\]
+
+\textbf{蒸气压下降}：
+
+\[
+\boxed{\Delta p = p_A^* \cdot x_B}
+\]
+
+其中 x\_B 是溶质的摩尔分数。
+
+\textbf{物理本质}：溶质分子占据了溶液表面的部分位置，减少了单位面积上溶剂分子的''逃逸机会''，从而降低了蒸气压。
+
+\subsubsection{4.2 沸点升高}\label{ux6cb8ux70b9ux5347ux9ad8}
+
+\[
+\boxed{\Delta T_b = $K_{\1}$ \cdot b}
+\]
+
+其中 \(K_{\1}\) 是沸点升高常数(溶剂特有)，b 是质量摩尔浓度。
+
+\textbf{推导链}：Δp ∝ x\_B ∝ b → ΔT\_b ∝ Δp ∝ b → ΔT\_b = \(K_{\1}\) · b
+
+\textbf{常见溶剂的 \(K_{\1}\) 和 \(K_{\1}\)}：
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}lcc@{}}
+\toprule\noalign{}
+溶剂 & \(K_{\1}\) / (K·kg/mol) & \(K_{\1}\) / (K·kg/mol) \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+水 & 0.512 & 1.86 \\
+乙酸 & 3.07 & 3.90 \\
+苯 & 2.53 & 5.12 \\
+环己烷 & 2.79 & 20.0 \\
+乙醇 & 1.22 & --- \\
+氯仿 & 3.63 & --- \\
+硝基苯 & 5.24 & 6.90 \\
+萘 & --- & 6.94 \\
+酚 & 3.56 & 7.27 \\
+\end{longtable}
+}
+
+\textbf{竞赛提示}：测定分子量时优先选用 \(K_{\1}\) 大的溶剂(如环己烷 \(K_{\1}\) = 20.0)，因为同样的 b 产生的 ΔT\_f 更大，测量更精确。
+
+\subsubsection{4.3 凝固点降低}\label{ux51ddux56faux70b9ux964dux4f4e}
+
+\[
+\boxed{\Delta T_f = $K_{\1}$ \cdot b}
+\]
+
+\textbf{融雪原理}：往雪上撒盐(NaCl)，盐溶于雪水形成溶液，凝固点降低(ΔT\_f = \(K_{\1}\) · b)，使雪在 0°C 以下也能融化。但融雪后路面温度会更低---``盐不是热的，雪融化是因为凝固点降低了''。
+
+\subsubsection{4.4 渗透压}\label{ux6e17ux900fux538b}
+
+\[
+\boxed{\Pi = cRT \approx bRT}
+\]
+
+其中 c 是溶质的物质的量浓度(mol/L)，R = 8.314 kPa·L/(mol·K)。
+
+\textbf{van't Hoff 因子修正}(电解质溶液)：
+
+\[
+\Delta T_b = i \cdot $K_{\1}$ \cdot b \qquad \Delta T_f = i \cdot $K_{\1}$ \cdot b \qquad \Pi = i \cdot cRT
+\]
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}lcc@{}}
+\toprule\noalign{}
+溶质 & i(理论值) & i(实测值，0.1 m) \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+蔗糖 & 1 & 1.00 \\
+NaCl & 2 & 1.87 \\
+MgCl\textsubscript{2} & 3 & 2.70 \\
+CaCl\textsubscript{2} & 3 & 2.70 \\
+\end{longtable}
+}
+
+\textbf{最常见错误}：计算电解质溶液的依数性时忘记乘以 i！``忘了电离 = 全部算错''是依数性计算的第一条铁律。
+
+\textbf{渗透压的实际应用---反渗透海水淡化}：
+
+海水渗透压约 3.5 MPa。反渗透需要施加大于渗透压的压力(实际约 7.0 MPa 以达到 50\% 回收率)，迫使水分子逆浓度梯度通过半透膜。
+
+\subsubsection{4.5 依数性测定分子量的方法比较}\label{ux4f9dux6570ux6027ux6d4bux5b9aux5206ux5b50ux91cfux7684ux65b9ux6cd5ux6bd4ux8f83}
+
+对分子量为 12,000 g/mol 的蛋白质(1.00 g 溶于 100 g 水)：
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}lll@{}}
+\toprule\noalign{}
+方法 & 计算值 & 可行性 \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+蒸气压下降 & Δp = 0.000046 kPa & 太小，无法测量 \\
+沸点升高 & ΔT\_b = 0.00043 K & 太小，难以精确 \\
+凝固点降低 & ΔT\_f = 0.0016 K & 较小，但仍可测 \\
+\textbf{渗透压} & Π = 2.26 kPa & \textbf{最佳选择} \\
+\end{longtable}
+}
+
+\textbf{结论}：对大分子(蛋白质、高分子)，渗透压是测定分子量的最佳方法---因为 Π = cRT，即使 c 很小，Π 仍然可测。
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{五、Henry 定律与分配定律}\label{ux4e94henry-ux5b9aux5f8bux4e0eux5206ux914dux5b9aux5f8b}
+
+\subsubsection{5.1 Henry 定律}\label{henry-ux5b9aux5f8b}
+
+\textbf{在一定温度下，气体在液体中的溶解度(浓度)与该气体的分压成正比}：
+
+\[
+\boxed{c_g = K_H \cdot p_g}
+\]
+
+\textbf{``可乐气泡''类比}：打开可乐瓶盖，压力骤降，CO\textsubscript{2} 的分压减小 → 溶解度降低 → 气泡逸出。
+
+\textbf{Henry 定律的应用}：
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+场景 & 应用 \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+潜水 & 高压下 N\textsubscript{2} 溶入血液，减压过快 → 气泡形成 → 减压病 \\
+碳酸饮料 & 高压灌装 CO\textsubscript{2}，开瓶后释放 \\
+水中溶解氧 & 影响水生生物生存 \\
+\end{longtable}
+}
+
+\textbf{潜水减压问题}：潜水员在 30 m 深(4 atm)呼吸空气，血液中 N\textsubscript{2} 溶解度增大。若快速上升到水面(1 atm)，N\textsubscript{2} 从血液中逸出形成气泡，导致减压病。解决方案：缓慢减压或使用 He-O\textsubscript{2} 混合气(He 溶解度低)。
+
+\subsubsection{5.2 分配定律与萃取}\label{ux5206ux914dux5b9aux5f8bux4e0eux8403ux53d6}
+
+\textbf{溶质在两种不互溶溶剂中的分配}：
+
+\[
+\boxed{K = \frac{c_A^\alpha}{c_A^\beta}}
+\]
+
+其中 K 是分配常数，c\_A\^{}α 和 c\_A\^{}β 分别是溶质在两相中的浓度。
+
+\textbf{萃取效率公式}：
+
+单次萃取后剩余量：
+
+\[
+m_1 = m_0 \cdot \frac{V_W}{V_W + K \cdot V_0}
+\]
+
+n 次萃取后剩余量：
+
+\[
+m_n = m_0 \left(\frac{V_W}{V_W + K \cdot V_0}\right)^n
+\]
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{六、相图与相律}\label{ux516dux76f8ux56feux4e0eux76f8ux5f8b}
+
+\subsubsection{6.1 Gibbs 相律}\label{gibbs-ux76f8ux5f8b}
+
+\[
+\boxed{F = C - P + 2}
+\]
+
+其中 F = 自由度数，C = 组分数，P = 相数。
+
+\subsubsection{6.2 单组分相图(水)}\label{ux5355ux7ec4ux5206ux76f8ux56feux6c34}
+
+\textbf{水的相图}有三个关键区域(固相、液相、气相)和三条平衡线：
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}llc@{}}
+\toprule\noalign{}
+平衡线 & 两相共存 & 斜率 \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+熔化线(OA) & 固-液 & 负(冰的密度 \textless{} 水) \\
+沸腾线(OB) & 液-气 & 正 \\
+升华线(OC) & 固-气 & 正 \\
+\end{longtable}
+}
+
+\textbf{关键点}：
+- \textbf{三相点}(O)：0.01°C，0.611 kPa --- 三相共存，F = 0
+- \textbf{临界点}(B)：374°C，22.1 MPa --- 液气不可区分
+
+\textbf{三相点 \(\neq\) 冰点}：三相点是纯水的固有性质(0.01°C)，与外压无关；冰点受大气压影响(标准大气压下 0.00°C)。
+
+\textbf{等压冷却过程}(25°C → 低温)：
+
+从 25°C(气相区)等压冷却：
+1. 先进入气相区(降温)
+2. 到达沸点 → 开始凝结(气-液共存)
+3. 完全凝结后继续降温(液相区)
+4. 到达凝固点 → 开始结冰(液-固共存)
+5. 完全结冰后继续降温(固相区)
+
+\subsubsection{6.3 双组分相图}\label{ux53ccux7ec4ux5206ux76f8ux56fe}
+
+\paragraph{(1) 共晶相图(Bi-Cd 系统)}\label{ux5171ux6676ux76f8ux56febi-cd-ux7cfbux7edf}
+
+\textbf{共晶点}：特定组成的混合物在最低温度下同时析出两种固体。
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+组成 & 冷却过程 \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+纯 Bi & 液 → 固(固定温度) \\
+20\% Cd 合金 & 液 → 先析出 Bi → 到达共晶温度 → 共晶混合物析出 \\
+共晶组成(42\% Cd) & 液 → 固(固定温度，最低熔点) \\
+\end{longtable}
+}
+
+\textbf{杠杆规则}：在两相区内，两相的质量比等于组成点到两相区边界的距离之比。
+
+\paragraph{(2) 蒸馏相图(苯-甲苯系统)}\label{ux84b8ux998fux76f8ux56feux82ef-ux7532ux82efux7cfbux7edf}
+
+完全互溶的双液系统：
+- 沸点低于纯组分的组成 → 气相富集低沸点组分
+- 一次蒸馏不能完全分离 → 需要多次蒸馏(精馏)
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{七、胶体}\label{ux4e03ux80f6ux4f53}
+
+\subsubsection{7.1 胶体的基本概念}\label{ux80f6ux4f53ux7684ux57faux672cux6982ux5ff5}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}lll@{}}
+\toprule\noalign{}
+分散系 & 粒子大小 & 特征 \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+真溶液 & \textless{} 1 nm & 均相，稳定 \\
+\textbf{胶体} & 1 \textasciitilde{} 100 nm & 多相，丁达尔效应 \\
+粗分散系 & \textgreater{} 100 nm & 浑浊，不稳定 \\
+\end{longtable}
+}
+
+\subsubsection{7.2 胶体的性质}\label{ux80f6ux4f53ux7684ux6027ux8d28}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}lll@{}}
+\toprule\noalign{}
+性质 & 说明 & 应用 \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{丁达尔效应} & 光被胶体粒子散射，形成光路 & 区分胶体与真溶液 \\
+\textbf{电泳} & 胶体粒子在电场中移动 & 证明胶体带电 \\
+\textbf{聚沉} & 加入电解质使胶体粒子聚集沉降 & 水处理 \\
+\end{longtable}
+}
+
+\subsubsection{7.3 胶体的结构}\label{ux80f6ux4f53ux7684ux7ed3ux6784}
+
+以 Fe(OH)\textsubscript{3} 溶胶为例：
+
+\[
+\{m[\mathrm{Fe(OH)_3}] \cdot n\mathrm{FeO^+} \cdot (n-x)\mathrm{Cl^-}\}^{x+} \cdot x\mathrm{Cl^-}
+\]
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{胶核}：m 个 Fe(OH)\textsubscript{3} 分子聚集体
+\item
+  \textbf{电位离子}：FeO\textsuperscript{+}(使胶核带正电)
+\item
+  \textbf{反离子}：Cl\textsuperscript{-}(部分进入紧密层，部分在扩散层)
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{八、知识网络与方法论}\label{ux516bux77e5ux8bc6ux7f51ux7edcux4e0eux65b9ux6cd5ux8bba}
+
+\subsubsection{8.1 依数性计算流程}\label{ux4f9dux6570ux6027ux8ba1ux7b97ux6d41ux7a0b}
+
+\begin{verbatim}
+1. 确定溶质是否电解质 → 决定是否乘 i
+2. 计算质量摩尔浓度 b(mol/kg 溶剂)
+3. 选择合适的公式：ΔTb = i·Kb·b, ΔTf = i·Kf·b, Π = i·cRT
+4. 代入计算
+5. 检查：b 是否足够稀？i 取值是否合理？
+\end{verbatim}
+
+\subsubsection{8.2 相图阅读流程}\label{ux76f8ux56feux9605ux8bfbux6d41ux7a0b}
+
+\begin{verbatim}
+1. 确定是单组分还是双组分相图
+2. 找到起始点(温度、压力、组成)
+3. 沿指定路径移动(等压/等温/等组成)
+4. 标记相变点
+5. 用相律 F = C - P + 2 检查自由度
+6. 用杠杆规则计算两相比例
+\end{verbatim}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{九、典型例题}\label{ux4e5dux5178ux578bux4f8bux9898}
+
+\textbf{题干}：0.500 g 未知非电解质溶于 25.0 g 水中，溶液凝固点为 −0.260°C。求该物质的分子量。(\(K_{\1}\) = 1.86 K·kg/mol)
+
+\textbf{解析}：
+
+\[\Delta T_f = 0.260\ \mathrm{K} = $K_{\1}$ \cdot b = 1.86 \cdot \frac{0.500/M}{0.0250}\]
+
+\[M = \frac{1.86 \times 0.500}{0.260 \times 0.0250} = \frac{0.930}{0.00650} = 143\ \mathrm{g/mol}\]
+
+\textbf{答案}：M = 143 g/mol。
+
+本题用凝固点降低而非沸点升高，因为 \(K_{\1}\) \textgreater{} \(K_{\1}\)(水的 \(K_{\1}\) = 1.86 \textgreater{} \(K_{\1}\) = 0.512)，同样浓度下 ΔT\_f \textgreater{} ΔT\_b，测量更精确。
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{题干}：用 CCl\textsubscript{4} 萃取碘水中的 I\textsubscript{2}。已知分配常数 K = c(I\textsubscript{2},CCl\textsubscript{4})/c(I\textsubscript{2},H\textsubscript{2}O) = 85。现有含 0.10 g I\textsubscript{2} 的 100 mL 碘水，用 30 mL CCl\textsubscript{4} 一次性萃取和分三次每次 10 mL 萃取，分别计算剩余 I\textsubscript{2} 量。
+
+\textbf{解析}：
+
+单次萃取(30 mL)：
+
+\[m_1 = 0.10 \times \frac{100}{100 + 85 \times 30} = 0.10 \times \frac{100}{2650} = 0.0038\ \mathrm{g}\]
+
+三次萃取(每次 10 mL)：
+
+\[m_3 = 0.10 \times \left(\frac{100}{100 + 85 \times 10}\right)^3 = 0.10 \times \left(\frac{100}{950}\right)^3 = 0.10 \times 0.00117 = 0.00012\ \mathrm{g}\]
+
+\textbf{答案}：单次萃取剩余 0.0038 g(96.2\% 被萃取)；三次萃取剩余 0.00012 g(99.9\% 被萃取)。``少量多次''效果显著。
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{题干}：描述在 1 atm 下将 25°C 的水蒸气等压冷却至 −10°C 的全过程。
+
+\textbf{解析}：
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  25°C 气相区：蒸气降温
+\item
+  到达 100°C：开始凝结，气-液共存
+\item
+  完全凝结：液态水降温
+\item
+  到达 0°C：开始结冰，液-固共存
+\item
+  完全结冰：冰降温至 −10°C
+\end{enumerate}
+
+\textbf{关键}：等压冷却路径在相图上是一条水平线(固定 1 atm)，从右向左依次穿过各相区。
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{题干}：海水含 3.5\% NaCl(质量分数)，密度约 1.025 g/mL。计算 25°C 时海水的渗透压。若要实现 50\% 回收率，需要施加多大压力？
+
+\textbf{解析}：
+
+NaCl 摩尔质量 = 58.5 g/mol，i ≈ 1.9(考虑离子间相互作用)
+
+\[c = \frac{1000 \times 1.025 \times 0.035}{58.5} = 0.616\ \mathrm{mol/L}\]
+
+\[\Pi = i \cdot cRT = 1.9 \times 0.616 \times 8.314 \times 298 / 1000 = 2.9\ \mathrm{MPa}\]
+
+50\% 回收率时，浓缩海水中盐浓度翻倍，渗透压约 5.8 MPa，实际需施加约 7.0 MPa。
+
+\textbf{答案}：渗透压约 3 MPa，50\% 回收率需约 7 MPa。
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{十、本节总结速查}\label{ux5341ux672cux8282ux603bux7ed3ux901fux67e5}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}lll@{}}
+\toprule\noalign{}
+核心概念 & 关键公式 & 注意点 \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+蒸气压下降 & Δp = p*·x\_B & 难挥发非电解质稀溶液 \\
+沸点升高 & ΔT\_b = \(K_{\1}\)·b & 必须用 b(mol/kg)，不是 c \\
+凝固点降低 & ΔT\_f = \(K_{\1}\)·b & 优先选用 \(K_{\1}\) 大的溶剂 \\
+渗透压 & Π = cRT ≈ bRT & 电解质必须乘 i \\
+Henry 定律 & c\_g = K\_H·p\_g & 温度升高 → K\_H 增大 → 溶解度降低 \\
+分配定律 & K = c\textsuperscript{α/c}β & 少量多次萃取更高效 \\
+相律 & F = C − P + 2 & 三相点 F=0，自由度为零 \\
+杠杆规则 & m\_α/m\_β = l\_β/l\_α & 两相区内计算相比 \\
+van't Hoff 因子 & 电解质 i \textgreater{} 1 & 稀溶液 i ≈ 化学式中离子数 \\
+\end{longtable}
+}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{十一、三级练习题}\label{ux5341ux4e00ux4e09ux7ea7ux7ec3ux4e60ux9898}
+
+\textbf{1.} 将 5.0 g NaCl 溶于 500 g 水中，计算质量摩尔浓度 b。(NaCl = 58.5 g/mol)
+
+\textbf{2.} 计算 0.50 m 蔗糖水溶液的沸点升高和凝固点降低。(\(K_{\1}\) = 0.512, \(K_{\1}\) = 1.86)
+
+\textbf{3.} 0.10 m NaCl 溶液的凝固点降低实测值为 0.348°C，理论值为 0.186°C × 2 = 0.372°C。解释差异原因。
+
+\textbf{4.} 简述''相似相溶''原则，并各举一个''相似相溶''和''不相似不溶''的例子。
+
+\textbf{5.} Henry 定律的适用条件是什么？为什么高压下气体溶解度会偏离 Henry 定律？
+
+\textbf{6.} 在水的相图上，标出三相点和临界点的位置，说明两点的物理意义。
+
+\textbf{7.} 用 CCl\textsubscript{4} 萃取碘水中的 I\textsubscript{2}，为什么''少量多次''比''一次全用''效果更好？
+
+\textbf{8.} 渗透压法测定蛋白质分子量有什么优势？为什么不用沸点升高法？
+
+\textbf{9.} 计算 25°C 时，O\textsubscript{2} 在水中的溶解度(已知 K\_H = 1.3 × 10\textsuperscript{-3} mol/(L·atm)，空气中 O\textsubscript{2} 分压 = 0.21 atm)。
+
+\textbf{10.} 胶体粒子的大小范围是多少？丁达尔效应的物理本质是什么？
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{11.} \textbf{(浓度换算)} 浓盐酸质量分数 36\%，密度 1.19 g/mL。计算其物质的量浓度和质量摩尔浓度。
+
+\textbf{12.} \textbf{(依数性综合)} 将 0.650 g 某有机化合物溶于 25.0 g 苯中，溶液沸点升高 0.48°C。求该化合物的分子量。(苯 \(K_{\1}\) = 2.53)
+
+\textbf{13.} \textbf{(电解质依数性)} 计算 0.10 m MgCl\textsubscript{2} 溶液在 25°C 时的渗透压(假设完全电离)。实测值约为理论值的 83\%，解释原因。
+
+\textbf{14.} \textbf{(Henry 定律应用)} 潜水员在 40 m 深(5 atm)呼吸空气 1 小时后快速上升到水面。已知 N\textsubscript{2} 在血液中的 K\_H = 6.5 × 10\textsuperscript{-4} mol/(L·atm)。计算 37°C 时每升血液中释放的 N\textsubscript{2} 体积(假设血液中 N\textsubscript{2} 初始溶解量等于平衡溶解量)。
+
+\textbf{15.} \textbf{(分配定律)} 某溶质在水和 CCl\textsubscript{4} 中的分配常数 K = 85(CCl\textsubscript{4} 为 α 相)。现有 100 mL 含 0.10 g 溶质的水溶液，用 30 mL CCl\textsubscript{4} 萃取。计算萃取后水相中剩余溶质量。
+
+\textbf{16.} \textbf{(共晶相图)} Bi-Cd 共晶相图中，共晶点组成 = 42\% Cd，共晶温度 = 144°C。冷却 20\% Cd 合金从 300°C 到 100°C，描述各阶段的相变化。
+
+\textbf{17.} \textbf{(蒸馏相图)} 苯-甲苯系统的沸点组成图中，50\% 苯(摩尔分数)的混合物开始沸腾时，气相中苯的摩尔分数是多少？(已知苯沸点 80°C，甲苯沸点 111°C)
+
+\textbf{18.} \textbf{(过饱和溶液)} 20°C 时 NaAc·3H\textsubscript{2}O 的溶解度为 46.5 g/100 g 水。计算 20°C 时饱和溶液的质量摩尔浓度。若冷却至 0°C(溶解度 33 g/100 g 水)，多少克 NaAc·3H\textsubscript{2}O 会析出？
+
+\textbf{19.} \textbf{(胶体聚沉)} 向 Fe(OH)\textsubscript{3} 溶胶中分别加入 NaCl、Na\textsubscript{2}SO\textsubscript{4}、Na\textsubscript{3}PO\textsubscript{4}，哪种电解质的聚沉能力最强？为什么？
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{20.} \textbf{(蛋白质分子量)} 1.00 g 某蛋白质溶于 100 g 水，25°C 时渗透压为 0.684 kPa。求该蛋白质的分子量。
+
+\textbf{21.} \textbf{(反渗透设计)} 海水含 3.5\% NaCl(质量分数)，密度 1.025 g/mL。计算 25°C 时海水的渗透压。若设计一套反渗透装置处理 1000 L 海水，要回收 50\% 的淡水，需要施加多大压力？(假设回收的淡水含盐量可忽略)
+
+\textbf{22.} \textbf{(蒸气压平衡)} 两个烧杯 A 和 B 分别装有 0.50 m 和 0.20 m 的蔗糖溶液，用钟罩罩住。最终达到平衡时，哪个烧杯的体积增大？通过计算说明。
+
+\textbf{23.} \textbf{(电解质鉴定)} 两种未知化合物 X 和 Y，分子量均约为 300 g/mol。将 1.0 g 分别溶于 100 g 水中，测得凝固点降低分别为 0.031°C 和 0.093°C。判断哪个是电解质，哪个是非电解质，并估算电解质的 van't Hoff 因子。
+
+\textbf{24.} \textbf{(Henry 定律与潜水)} 潜水员在 60 m 深(7 atm)使用 He-O\textsubscript{2} 混合气(He:O\textsubscript{2} = 4:1)呼吸 2 小时后减压。已知 He 在 37°C 血液中的 K\_H = 1.5 × 10\textsuperscript{-3} mol/(L·atm)。计算每升血液中 He 的溶解量，以及快速上升到水面时每升血液释放的 He 体积(标准状况下)。
+
+\textbf{25.} \textbf{(综合计算)} 某有机物 A 不溶于水但溶于 CCl\textsubscript{4}。将 100 mL 含 0.50 g A 的 CCl\textsubscript{4} 溶液用 50 mL 水萃取(分配常数 K = c(A,CCl\textsubscript{4})/c(A,H\textsubscript{2}O) = 12)。
+(a) 计算单次萃取后 CCl\textsubscript{4} 相中剩余的 A 的质量。
+(b) 若改用 50 mL 水分两次每次 25 mL 萃取，CCl\textsubscript{4} 相中剩余的 A 的质量。
+(c) 比较两种方案的萃取效率。
+(d) 若 A 在 CCl\textsubscript{4} 和水中的分配常数 K = 0.5(即 A 更易溶于水)，上述结论如何变化？
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{十二、练习题答案}\label{ux5341ux4e8cux7ec3ux4e60ux9898ux7b54ux6848}
+
+\textbf{1.} b = 5.0/58.5 / 0.500 = 0.171 mol/kg
+
+\textbf{2.} ΔT\_b = 0.512 × 0.50 = 0.256°C，沸点 = 100.256°C
+ΔT\_f = 1.86 × 0.50 = 0.930°C，凝固点 = −0.930°C
+
+\textbf{3.} 理论值假设 i = 2(完全电离)，但实际 NaCl 在 0.10 m 时 i ≈ 1.87(离子间相互作用使有效粒子数减少)，所以实测值小于理论值。
+
+\textbf{4.} ``相似相溶''：极性溶质易溶于极性溶剂，非极性溶质易溶于非极性溶剂。例：NaCl 溶于水(离子-偶极力匹配)；I\textsubscript{2} 溶于 CCl\textsubscript{4}(色散力匹配)。反例：NaCl 不溶于 CCl\textsubscript{4}(离子力 vs 弱色散力不匹配)。
+
+\textbf{5.} Henry 定律适用于稀溶液中气体的溶解平衡。高压下气体浓度增大，分子间相互作用增强，偏离理想行为。
+
+\textbf{6.} 三相点(0.01°C, 0.611 kPa)：固、液、气三相共存，F = 0。临界点(374°C, 22.1 MPa)：液气不可区分。
+
+\textbf{7.} 由分配定律，每次萃取后剩余量与 (V\_W/(V\_W + K·V\_0))\^{}n 成正比。n 增大时剩余量指数下降，所以多次少量萃取更高效。
+
+\textbf{8.} 渗透压法对大分子最有效：Π = cRT，即使 c 很小，Π 仍然可测。而 ΔT\_b = \(K_{\1}\)·b 对大分子太小，难以精确测量。
+
+\textbf{9.} c = K\_H × p = 1.3×10\textsuperscript{-3} × 0.21 = 2.7×10\textsuperscript{-4} mol/L。
+
+\textbf{10.} 胶体粒子大小 1\textasciitilde100 nm。丁达尔效应本质是光被胶体粒子散射(Rayleigh 散射)。
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{11.} c = 1000 × 1.19 × 0.36/36.5 = 11.7 mol/L
+b = 1000 × 1.19 × 0.36/36.5 / (1000 × 1.19 × 0.64/1000) = 11.7/0.762 = 15.4 mol/kg
+
+\textbf{12.} ΔT\_b = \(K_{\1}\) · b = \(K_{\1}\) · (0.650/M) / 0.0250 = 0.48
+M = 2.53 × 0.650 / (0.48 × 0.0250) = 137 g/mol
+
+\textbf{13.} Π = i · cRT = 3 × 0.10 × 8.314 × 298 / 1000 = 0.743 MPa(理论值)
+实测值 ≈ 0.83 × 0.743 = 0.617 MPa。差异原因：离子间相互作用(Debye-Hückel 效应)使有效粒子数减少。
+
+\textbf{14.} 40 m 深 p(N\textsubscript{2}) = 4 × 0.79 = 3.16 atm(空气 79\% 是 N\textsubscript{2})
+c(N\textsubscript{2}) = K\_H × p = 6.5×10\textsuperscript{-4} × 3.16 = 2.05×10\textsuperscript{-3} mol/L
+水面 p(N\textsubscript{2}) = 0.79 atm，c = 5.14×10\textsuperscript{-4} mol/L
+释放量 = 2.05×10\textsuperscript{-3} − 5.14×10\textsuperscript{-4} = 1.54×10\textsuperscript{-3} mol/L
+V = 1.54×10\textsuperscript{-3} × 22.4 = 0.034 L = 34 mL/L 血液
+
+\textbf{15.} m\textsubscript{1} = 0.10 × 100/(100 + 85×30) = 0.10 × 100/2650 = 0.0038 g
+
+\textbf{16.} 300°C → 液相区(降温)→ 到达液相线 → 开始析出 Bi → 液相组成沿液相线变化 → 到达 144°C(共晶温度)→ 剩余液相同时析出 Bi 和 Cd(共晶混合物)→ 完全凝固 → 固相降温至 100°C。
+
+\textbf{17.} 苯的沸点(80°C)低于甲苯(111°C)，气相富集低沸点组分。由 Raoult + Dalton，气相中苯的摩尔分数 \textgreater{} 0.50(具体值取决于温度下的蒸气压数据)。
+
+\textbf{18.} 20°C：b = 46.5/136/0.100 = 3.42 mol/kg(NaAc·3H\textsubscript{2}O = 136 g/mol)
+冷却至 0°C：析出量 = (46.5 − 33) × m\_water/100 = 13.5 × m\_water/100
+
+\textbf{19.} Fe(OH)\textsubscript{3} 溶胶带正电(电位离子 FeO\textsuperscript{+})。聚沉能力取决于反离子电荷：PO\textsubscript{4}\textsuperscript{3-} \textgreater{} SO\textsubscript{4}\textsuperscript{2-} \textgreater{} Cl\textsuperscript{-}。Na\textsubscript{3}PO\textsubscript{4} 聚沉能力最强。
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{20.} Π = cRT → c = Π/(RT) = 0.684/(8.314×298/1000) = 2.76×10\textsuperscript{-4} mol/L
+溶液体积 ≈ 100 mL = 0.100 L
+n = 2.76×10\textsuperscript{-4} × 0.100 = 2.76×10\textsuperscript{-5} mol
+M = 1.00/2.76×10\textsuperscript{-5} = 36,200 g/mol
+
+\textbf{21.} c = 1000×1.025×0.035/58.5 = 0.616 mol/L
+Π = 1.9×0.616×8.314×298/1000 = 2.9 MPa
+50\% 回收时浓缩液浓度约 0.616×2 = 1.23 mol/L
+Π\_浓缩 ≈ 5.8 MPa，实际需施加约 7.0 MPa
+
+\textbf{22.} 水从低浓度(0.20 m，蒸气压高)向高浓度(0.50 m，蒸气压低)转移。烧杯 B(0.20 m)的水蒸发，烧杯 A(0.50 m)的水凝结。最终烧杯 A 体积增大。
+
+\textbf{23.} 非电解质理论 ΔT\_f = \(K_{\1}\) × b = 1.86 × (1.00/300/0.100) = 0.062°C
+X 的 ΔT\_f = 0.031°C ≈ 0.062/2 → i ≈ 0.5(异常，可能测量误差)
+Y 的 ΔT\_f = 0.093°C ≈ 0.062 × 1.5 → i ≈ 1.5(可能是弱电解质)
+
+\textbf{24.} p(He) = 6 × 0.80 = 4.8 atm(He:O\textsubscript{2} = 4:1，He 占 80\%)
+c(He) = 1.5×10\textsuperscript{-3} × 4.8 = 7.2×10\textsuperscript{-3} mol/L
+水面 p(He) = 0.80 atm，c = 1.2×10\textsuperscript{-3} mol/L
+释放量 = 6.0×10\textsuperscript{-3} mol/L → V = 0.134 L = 134 mL/L 血液
+
+\textbf{25.}
+(a) K = c(CCl\textsubscript{4})/c(H\textsubscript{2}O) = 12
+设水相浓度为 x，则 CCl\textsubscript{4} 相浓度为 12x
+m\_total = 12x × V\_CCl\textsubscript{4} + x × V\_H\textsubscript{2}O = 0.50 g
+12x × 50 + x × 50 = 0.50 → 650x = 0.50 → x = 7.7×10\textsuperscript{-4} g/mL
+CCl\textsubscript{4} 相剩余 = 12 × 7.7×10\textsuperscript{-4} × 50 = 0.46 g
+
+\begin{enumerate}
+\def\labelenumi{(\alph{enumi})}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  两次萃取(每次 25 mL 水)：
+  第一次：x\textsubscript{1}(12×50 + 25) = 0.50 → x\textsubscript{1} = 0.50/625 → CCl\textsubscript{4} 剩余 = 12x\textsubscript{1}×50 = 0.48 g
+  第二次：0.48(12×50 + 25)/(12×50) = 0.48 × 625/600 = 0.50 g\ldots{} 需要更仔细计算。
+\end{enumerate}
+
+实际：m\textsubscript{1} = 0.50 × (V\_CCl\textsubscript{4}/(V\_CCl\textsubscript{4} + K×V\_H\textsubscript{2}O)) = 0.50 × 50/(50 + 12×25) = 0.50 × 50/350 = 0.071 g
+m\textsubscript{2} = 0.071 × 50/350 = 0.010 g
+
+\begin{enumerate}
+\def\labelenumi{(\alph{enumi})}
+\setcounter{enumi}{2}
+\item
+  单次 50 mL：剩余 0.46 g(萃取 8\%)
+  两次 25 mL：剩余 0.010 g(萃取 98\%)
+  两次少量远优于一次大量。
+\item
+  K = 0.5 时，A 更易溶于水。此时萃取效率很高，单次 50 mL 水即可萃取大部分 A。
+\end{enumerate}
+
+\end{document}

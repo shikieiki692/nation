@@ -2,6 +2,7 @@
 title: Agent 8 · KP合并弃用
 type: agent-prompt-lightweight
 agent_id: 8
+updated: 2026-06-29
 version: v1.0
 tags: [agent, 维护]
 ---

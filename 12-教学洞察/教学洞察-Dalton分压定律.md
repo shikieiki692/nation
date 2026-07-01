@@ -1,6 +1,7 @@
 ---
 title: 教学洞察-Dalton分压定律
 type: 教学洞察
+subject: "化学原理"
 related_kp: "[[Dalton分压定律]]"
 related_topics: ["[[专题-化学计量与气体]]"]
 sources:

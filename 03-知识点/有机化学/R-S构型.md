@@ -1,6 +1,6 @@
 ---
 title: R/S构型
-aliases: [Cahn-Ingold-Prelog, CIP规则]
+aliases: [R/S构型, Cahn-Ingold-Prelog, CIP规则]
 type: 知识点
 template_version: v1.3
 subject: 有机化学

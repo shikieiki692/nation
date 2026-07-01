@@ -3,9 +3,9 @@ title: 化学原理
 type: 系统
 role: 子目录索引
 subject: 化学原理
-updated: 2026-05-24
+updated: 2026-06-29
 tags: [系统, 索引, 化学原理]
-  stage: review
+stage: review
 ---
 
 # 化学原理

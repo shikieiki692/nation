@@ -1,5 +1,6 @@
 ---
 title: Agent提示词-PPT课件生成
+type: "系统"
 version: v1.0
 tags: [agent, PPT, 课件, 提示词]
 updated: 2026-05-26

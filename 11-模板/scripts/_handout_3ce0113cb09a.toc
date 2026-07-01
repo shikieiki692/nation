@@ -1,0 +1,37 @@
+\contentsline {section}{\numberline {1}电化学基础}{3}{section.1}%
+\contentsline {subsection}{学习目标}{3}{subsection*.2}%
+\contentsline {subsection}{一、为什么需要电化学}{3}{subsection*.3}%
+\contentsline {subsection}{二、原电池与电动势}{3}{subsection*.4}%
+\contentsline {subsubsection}{2.1 原电池的基本结构}{3}{subsubsection*.5}%
+\contentsline {subsubsection}{2.2 电池符号表示}{4}{subsubsection*.6}%
+\contentsline {subsubsection}{2.3 四种常见电极类型}{4}{subsubsection*.7}%
+\contentsline {subsubsection}{2.4 电动势 E}{4}{subsubsection*.8}%
+\contentsline {subsection}{三、标准电极电势}{4}{subsection*.9}%
+\contentsline {subsubsection}{3.1 标准氢电极(SHE)}{4}{subsubsection*.10}%
+\contentsline {subsubsection}{3.2 标准电极电势表的使用}{5}{subsubsection*.11}%
+\contentsline {subsection}{四、Nernst 方程}{5}{subsection*.12}%
+\contentsline {subsubsection}{4.1 完整推导链}{5}{subsubsection*.13}%
+\contentsline {subsubsection}{4.2 Nernst 方程的典型应用}{6}{subsubsection*.14}%
+\contentsline {paragraph}{(1) 浓度对电极电势的影响}{6}{paragraph*.15}%
+\contentsline {paragraph}{(2) pH 对电极电势的影响}{6}{paragraph*.16}%
+\contentsline {paragraph}{(3) 沉淀对电极电势的影响}{6}{paragraph*.17}%
+\contentsline {paragraph}{(4) 配合物对电极电势的影响}{6}{paragraph*.18}%
+\contentsline {subsection}{五、\(\Delta ^{\circ }\) = −nFE° 与 \(\Delta ^{\circ }\) = −RT ln \(K^{\circ }\) 的统一}{7}{subsection*.19}%
+\contentsline {subsubsection}{5.1 三个核心桥梁公式}{7}{subsubsection*.20}%
+\contentsline {subsubsection}{5.2 示例：从 \(E^{\circ }\) 计算 \(K^{\circ }\)}{7}{subsubsection*.21}%
+\contentsline {subsubsection}{5.3 从 \(E^{\circ }\) 计算 \(K_{}\)}{7}{subsubsection*.22}%
+\contentsline {subsection}{六、Latimer 图与元素电势图}{8}{subsection*.23}%
+\contentsline {subsubsection}{6.1 Latimer 图}{8}{subsubsection*.24}%
+\contentsline {subsubsection}{6.2 从 Latimer 图计算非相邻物种的 \(E^{\circ }\)}{8}{subsubsection*.25}%
+\contentsline {subsubsection}{6.3 歧化反应的判断}{8}{subsubsection*.26}%
+\contentsline {subsection}{七、电化学腐蚀与防腐}{8}{subsection*.27}%
+\contentsline {subsubsection}{7.1 电化学腐蚀的类型}{8}{subsubsection*.28}%
+\contentsline {subsubsection}{7.2 防腐方法}{9}{subsubsection*.29}%
+\contentsline {subsection}{八、化学电源简介}{9}{subsection*.30}%
+\contentsline {subsubsection}{8.1 常见化学电源}{9}{subsubsection*.31}%
+\contentsline {subsubsection}{8.2 铅蓄电池详解}{9}{subsubsection*.32}%
+\contentsline {subsubsection}{8.3 燃料电池}{10}{subsubsection*.33}%
+\contentsline {subsection}{九、典型例题}{10}{subsection*.34}%
+\contentsline {subsection}{十、本节总结速查}{11}{subsection*.35}%
+\contentsline {subsection}{十一、三级练习题}{12}{subsection*.36}%
+\contentsline {subsection}{十二、练习题答案}{14}{subsection*.37}%

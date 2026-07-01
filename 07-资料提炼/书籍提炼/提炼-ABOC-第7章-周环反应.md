@@ -6,7 +6,7 @@ chapter: 7
 chapter_title: 周环反应
 syllabus_module: 基础要求-有机化学
 phase: B
-status: v1.0
+status: 已提炼
 updated: 2026-05-10
 handout_plan:
   - target: "烷烃烯烃炔烃"
@@ -417,4 +417,3 @@ $$
 *本文件由 Phase B 资料提炼 Agent 生成，基于 ABOC Ch.7 源内容。如需更新，请在 [[提炼-ABOC]] 母 MOC 中同步状态。*
 
 > 📎 相关专题：[[04-专题与题型/专题-周环反应]] · [[04-专题与题型/专题-高等有机机理与立体化学]]
-

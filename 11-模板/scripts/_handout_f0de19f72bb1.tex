@@ -1,0 +1,1272 @@
+% ── chemistry-handout-preamble.tex ── 化学竞赛讲义 LaTeX 导言区（v7 · 精排版）
+\documentclass[a4paper,11pt]{ctexart}
+
+% ── 字体优化 ──
+\setCJKmainfont[AutoFakeBold=true,BoldFont=SimHei]{SimSun}
+\setCJKsansfont{SimHei}
+
+% 化学式宏（mhchem）
+\usepackage[version=4]{mhchem}
+
+% ── 数学 ──
+\usepackage{amsmath,amssymb}
+
+% ── 图片 ──
+\usepackage{graphicx}
+\usepackage[font=small,labelfont=bf,skip=4pt]{caption}
+
+% ── 表格（跨页+自动列宽）──
+\usepackage{booktabs}
+\usepackage{xltabular}
+\usepackage{array}
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}
+
+% ── 浮动体（[H] 强制定位）──
+\usepackage{float}
+
+% ── 页面 ──
+\usepackage[includeheadfoot,margin=2.2cm,headheight=14pt]{geometry}
+\setlength{\textwidth}{16.6cm}
+
+% ── 行间距 ──
+\usepackage{setspace}
+\setstretch{1.15}
+\setlength{\parskip}{0.3em}
+\setlength{\parindent}{2em}
+
+% ── 防止表格跨页 ──
+\usepackage{longtable}
+\setlength{\LTpre}{0pt}
+\setlength{\LTpost}{0pt}
+
+% ── 防止图片跨页（尽量）──
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.9}
+\setcounter{totalnumber}{10}
+\setcounter{topnumber}{10}
+\setcounter{bottomnumber}{10}
+\setlength{\textfloatsep}{10pt plus 2pt minus 2pt}
+\setlength{\floatsep}{8pt plus 2pt minus 2pt}
+\setlength{\intextsep}{10pt plus 2pt minus 2pt}
+
+% ── 超链接(无红框) ──
+\usepackage[colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black]{hyperref}
+
+% ── 颜色 ──
+\usepackage[dvipsnames,svgnames]{xcolor}
+\definecolor{chapterblue}{RGB}{23,50,77}
+\definecolor{insightbg}{RGB}{235,240,250}
+\definecolor{warningbg}{RGB}{255,245,235}
+\definecolor{tipbg}{RGB}{235,250,235}
+
+% ── 页眉页脚 ──
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{chapterblue}\nouppercase{\leftmark}}
+\fancyhead[R]{\small\color{chapterblue}\thepage}
+\renewcommand{\headrule}{{\color{chapterblue}\hrule height 0.8pt}}
+% 去掉页眉中的"超级充实版"等后缀
+\renewcommand{\sectionmark}[1]{\markboth{#1}{}}
+\patchcmd{\section}{\markright{\thesection\ --\ #1}}{\markright{\thesection}}{}{}
+
+% ── 章节编号与样式 ──
+\setcounter{secnumdepth}{1}
+\ctexset{
+  section = {
+    format = \Large\bfseries\heiti\color{chapterblue},
+    aftername = \hspace{0.5em},
+    beforeskip = 2ex,
+    afterskip = 1ex,
+  },
+  subsection = {
+    format = \large\bfseries\heiti,
+    beforeskip = 1.5ex,
+    afterskip = 0.5ex,
+  },
+  subsubsection = {
+    format = \normalsize\bfseries\heiti,
+    beforeskip = 1ex,
+    afterskip = 0.3ex,
+  },
+  paragraph = {
+    format = \small\bfseries,
+    beforeskip = 0.5ex,
+    afterskip = 0.2ex,
+  },
+}
+
+% ── blockquote（引用/提示框）缩减 ──
+\usepackage{etoolbox}
+\AtBeginEnvironment{quote}{\small\setstretch{1.05}\leftskip=1em\rightskip=1em}
+
+% ── 教学提示框（浅底色版）──
+\newenvironment{insightbox}{%
+  \par\smallskip
+  \noindent{\small\bfseries\color{RoyalBlue}🧠 认知冲突}\par
+  \leavevmode\colorbox{insightbg}{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{%
+  \ignorespaces}}%
+}{\par\smallskip}
+
+\newenvironment{warningbox}{%
+  \par\smallskip
+  \noindent{\small\bfseries\color{BrickRed}⚠️ 易错点}\par
+  \leavevmode\colorbox{warningbg}{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{%
+  \ignorespaces}}%
+}{\par\smallskip}
+
+\newenvironment{tipbox}{%
+  \par\smallskip
+  \noindent{\small\bfseries\color{ForestGreen}💡 理解提示}\par
+  \leavevmode\colorbox{tipbg}{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{%
+  \ignorespaces}}%
+}{\par\smallskip}
+
+% ── 列表（答案区加间距）──
+\usepackage{enumitem}
+\setlist{nosep}
+% 专门用于参考答案的列表（每项之间空一行）
+\newlist{answerlist}{enumerate}{1}
+\setlist[answerlist]{label=\arabic*., leftmargin=2em, itemsep=0.8em}
+
+% ── 防止内容溢出 ──
+\usepackage{microtype}
+\setlength{\emergencystretch}{2em}
+\setlength{\hfuzz}{2pt}
+\setlength{\overfullrule}{0pt}
+\sloppy
+
+% ── pandoc 兼容 ──
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\newenvironment{Shaded}{}{}
+\newenvironment{Highlighting}{}{}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\CommentTok}[1]{#1}
+\newcommand{\KeywordTok}[1]{#1}
+\newcommand{\StringTok}[1]{#1}
+\newcommand{\FunctionTok}[1]{#1}
+\newcommand{\DataTypeTok}[1]{#1}
+\newcommand{\NumberTok}[1]{#1}
+\newcommand{\ControlFlowTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{#1}
+\newcommand{\BaseNTok}[1]{#1}
+\newcounter{none}
+
+% ── 图片尺寸限制 ──
+\AtBeginDocument{\setkeys{Gin}{width=\textwidth,keepaspectratio}}
+
+% ── 防止图片跨节 ──
+\usepackage{placeins}
+
+% ── 自定义命令 ──
+% 练习题标题（去掉括号）
+% 例题标题（去掉中括号）
+% 这些需要在convert.py预处理中做正则替换
+
+% ── Unicode 符号渲染命令（preprint 中调用，\ensuremath 避免 $...$ 切断 CJK 字间距）──
+\newcommand{\箭}{\ensuremath{\rightarrow}}
+\newcommand{\左箭}{\ensuremath{\leftarrow}}
+\newcommand{\上箭}{\ensuremath{\uparrow}}
+\newcommand{\下箭}{\ensuremath{\downarrow}}
+\newcommand{\衡}{\ensuremath{\rightleftharpoons}}
+\newcommand{\双箭}{\ensuremath{\leftrightarrow}}
+\newcommand{\约等于}{\ensuremath{\approx}}
+\newcommand{\小于等于}{\ensuremath{\leq}}
+\newcommand{\大于等于}{\ensuremath{\geq}}
+\newcommand{\不等于}{\ensuremath{\neq}}
+\newcommand{\西格马}{\ensuremath{\sigma}}
+\newcommand{\派}{\ensuremath{\pi}}
+
+\graphicspath{{C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/}}
+\title{酸碱理论}
+\date{}
+\setlength{\tabcolsep}{3.5pt}
+\small
+\begin{document}
+\thispagestyle{plain}
+\begin{center}
+{\zihao{2}\bfseries 酸碱理论\par}
+\end{center}
+\vspace{1em}
+\section{酸碱理论}\label{ux9178ux78b1ux7406ux8bba}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{学习目标}\label{ux5b66ux4e60ux76eeux6807}
+
+\begin{itemize}
+\tightlist
+\item
+  目标1：能用 Brønsted 质子理论识别酸、碱和两性物质，写出共轭酸碱对
+\item
+  目标2：能正确书写弱酸弱碱的电离平衡表达式，理解 Ka · Kb = Kw 的推导与应用
+\item
+  目标3：能用简化公式和精确法(假设-验证法)计算弱酸弱碱溶液的 pH
+\item
+  目标4：能计算两性物质溶液的 pH(NaHCO\textsubscript{3}、NaH\textsubscript{2}PO\textsubscript{4} 等)
+\item
+  目标5：能设计和计算缓冲溶液，理解 Henderson-Hasselbalch 方程的适用条件
+\item
+  目标6：了解 Lewis 酸碱理论和 HSAB 软硬分类的基本规则
+\item
+  目标7：了解溶剂理论中的拉平效应和区分效应
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{一、为什么需要酸碱理论}\label{ux4e00ux4e3aux4ec0ux4e48ux9700ux8981ux9178ux78b1ux7406ux8bba}
+
+\textbf{酸碱理论的演进}：
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}lclll@{}}
+\toprule\noalign{}
+理论 & 年代 & 酸的定义 & 碱的定义 & 适用范围 \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Arrhenius} & 1887 & 电离出 H\textsuperscript{+} & 电离出 OH\textsuperscript{-} & 水溶液 \\
+\textbf{Brønsted} & 1923 & 质子供体 & 质子受体 & 质子转移反应 \\
+\textbf{溶剂理论} & 1923 & 溶剂阳离子的来源 & 溶剂阴离子的来源 & 非水溶剂 \\
+\textbf{Lewis} & 1923 & 电子对受体 & 电子对供体 & 所有酸碱反应 \\
+\textbf{HSAB} & 1963 & 软/硬酸分类 & 软/硬碱分类 & 配位化学、有机金属 \\
+\end{longtable}
+}
+
+\begin{quote}
+\textbf{核心认知}：酸碱不是物质的固有属性，而是\textbf{反应角色}。同一物质在不同反应中可以扮演酸或碱---``有酸才有碱，有碱才有碱，酸中有碱，碱可变酸''。
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{二、Brønsted 质子理论}\label{ux4e8cbruxf8nsted-ux8d28ux5b50ux7406ux8bba}
+
+\subsubsection{2.1 基本定义}\label{ux57faux672cux5b9aux4e49}
+
+\textbf{酸}：质子供体(能给出 H\textsuperscript{+} 的物质)
+\textbf{碱}：质子受体(能接受 H\textsuperscript{+} 的物质)
+
+\[
+\text{酸} \rightleftharpoons \text{碱} + \mathrm{H}^+
+\]
+
+\textbf{共轭酸碱对}：酸失去一个质子后变成其共轭碱，碱接受一个质子后变成其共轭酸。
+
+\begin{quote}
+\textbf{类比理解}：共轭酸碱就像硬币的两面---``共轭酸碱对是同一物质的两种身份''。
+\end{quote}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}lll@{}}
+\toprule\noalign{}
+酸 & 共轭碱 & 说明 \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+HCl & Cl\textsuperscript{-} & 强酸的共轭碱极弱 \\
+HAc & Ac\textsuperscript{-} & 弱酸的共轭碱是弱碱 \\
+H\textsubscript{2}O & OH\textsuperscript{-} & 水既是酸又是碱 \\
+NH\textsubscript{4}\textsuperscript{+} & NH\textsubscript{3} & 铵离子是酸 \\
+H\textsubscript{3}O\textsuperscript{+} & H\textsubscript{2}O & 水合氢离子是酸 \\
+\end{longtable}
+}
+
+\subsubsection{2.2 两性物质}\label{ux4e24ux6027ux7269ux8d28}
+
+既能给出质子又能接受质子的物质：
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+物质
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+作为酸
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+作为碱
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{H\textsubscript{2}O} & H\textsubscript{2}O \箭 OH\textsuperscript{-} + H\textsuperscript{+} & H\textsubscript{2}O + H\textsuperscript{+} \箭 H\textsubscript{3}O\textsuperscript{+} \\
+\textbf{HCO\textsubscript{3}\textsuperscript{-}} & HCO\textsubscript{3}\textsuperscript{-} \箭 CO\textsubscript{3}\textsuperscript{2-} + H\textsuperscript{+} & HCO\textsubscript{3}\textsuperscript{-} + H\textsuperscript{+} \箭 H\textsubscript{2}CO\textsubscript{3} \\
+\textbf{HPO\textsubscript{4}\textsuperscript{2-}} & HPO\textsubscript{4}\textsuperscript{2-} \箭 PO\textsubscript{4}\textsuperscript{3-} + H\textsuperscript{+} & HPO\textsubscript{4}\textsuperscript{2-} + H\textsuperscript{+} \箭 H\textsubscript{2}PO\textsubscript{4}\textsuperscript{-} \\
+\textbf{H\textsubscript{2}O} & NH\textsubscript{3} + H\textsubscript{2}O \箭 NH\textsubscript{4}\textsuperscript{+} + OH\textsuperscript{-}(水是酸) & NH\textsubscript{3} + H\textsubscript{2}O \左箭 NH\textsubscript{4}\textsuperscript{+} + OH\textsuperscript{-}(水是碱) \\
+\end{longtable}
+}
+
+\begin{quote}
+水是最典型的两性物质---``这是 Brønsted 理论最优雅的推论之一''。在不同反应中，水可以扮演酸的角色(如与 NH\textsubscript{3} 反应)，也可以扮演碱的角色(如与 HCl 反应)。
+\end{quote}
+
+\subsubsection{2.3 Brønsted 反应的三种类型}\label{bruxf8nsted-ux53cdux5e94ux7684ux4e09ux79cdux7c7bux578b}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+类型
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+示例
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+特点
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{电离} & HAc + H\textsubscript{2}O \衡 H\textsubscript{3}O\textsuperscript{+} + Ac\textsuperscript{-} & 酸把质子给水 \\
+\textbf{自偶电离} & H\textsubscript{2}O + H\textsubscript{2}O \衡 H\textsubscript{3}O\textsuperscript{+} + OH\textsuperscript{-} & 水既给质子又接受质子 \\
+\textbf{中和} & H\textsubscript{3}O\textsuperscript{+} + OH\textsuperscript{-} \衡 2H\textsubscript{2}O & 酸和碱直接反应 \\
+\end{longtable}
+}
+
+\subsubsection{2.4 拉平效应与区分效应}\label{ux62c9ux5e73ux6548ux5e94ux4e0eux533aux5206ux6548ux5e94}
+
+\begin{quote}
+\textbf{溶剂理论的独特贡献}：不同溶剂对酸碱强度有不同的''拉平''或''区分''作用。
+\end{quote}
+
+\textbf{拉平效应}(Leveling Effect)：在水溶液中，所有比 H\textsubscript{3}O\textsuperscript{+} 强的酸都被''拉平''到 H\textsubscript{3}O\textsuperscript{+} 的水平。
+
+\[
+\mathrm{HClO_4 + H_2O \to H_3O^+ + ClO_4^-} \quad (\text{完全电离})
+\]
+\[
+\mathrm{HCl + H_2O \to H_3O^+ + Cl^-} \quad (\text{完全电离})
+\]
+
+在水中，HClO\textsubscript{4}、HCl、HNO\textsubscript{3} 都是''强酸''---因为它们都把质子完全转移给了水，生成的都是 H\textsubscript{3}O\textsuperscript{+}。水''拉平''了它们的强度差异。
+
+\textbf{区分效应}(Differentiating Effect)：换一种溶剂(如冰醋酸)，可以区分这些酸的强弱。
+
+\[
+\mathrm{HClO_4 + CH_3COOH \rightleftharpoons CH_3COOH_2^+ + ClO_4^-} \quad (\text{完全电离})
+\]
+\[
+\mathrm{HCl + CH_3COOH \rightleftharpoons CH_3COOH_2^+ + Cl^-} \quad (\text{部分电离})
+\]
+
+在冰醋酸中，HClO\textsubscript{4} 仍是强酸，但 HCl 变成了弱酸---溶剂''区分''了它们。
+
+\begin{quote}
+\textbf{竞赛考点}：判断某溶剂是否有拉平效应，就看该溶剂能否接受质子。水是质子受体，所以有拉平效应。己烷不能接受质子，没有拉平效应。
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{三、共轭酸碱对与 Ka/Kb}\label{ux4e09ux5171ux8f6dux9178ux78b1ux5bf9ux4e0e-kakb}
+
+\subsubsection{3.1 Ka 与 Kb 的关系}\label{ka-ux4e0e-kb-ux7684ux5173ux7cfb}
+
+对共轭酸碱对 HA/A\textsuperscript{-}：
+
+\[
+K_a = \frac{[\mathrm{H_3O^+}][\mathrm{A^-}]}{[\mathrm{HA}]} \qquad K_b = \frac{[\mathrm{HA}][\mathrm{OH^-}]}{[\mathrm{A^-}]}
+\]
+
+两式相乘：
+
+\[
+\boxed{K_a \cdot K_b = K_w = 1.0 \times 10^{-14} \quad (25°C)}
+\]
+
+\[
+\boxed{\mathrm{p}K_a + \mathrm{p}K_b = 14.00}
+\]
+
+\begin{quote}
+\textbf{推导}：Ka · Kb = {[}H\textsubscript{3}O\textsuperscript{+}{]}{[}A\textsuperscript{-}{]}/{[}HA{]} × {[}HA{]}{[}OH\textsuperscript{-}{]}/{[}A\textsuperscript{-}{]} = {[}H\textsubscript{3}O\textsuperscript{+}{]}{[}OH\textsuperscript{-}{]} = Kw
+\end{quote}
+
+\subsubsection{3.2 Ka 的物理意义}\label{ka-ux7684ux7269ux7406ux610fux4e49}
+
+\begin{itemize}
+\tightlist
+\item
+  Ka 越大 \箭 酸越强 \箭 越容易给出质子
+\item
+  Ka 越小 \箭 酸越弱 \箭 越不容易给出质子
+\item
+  Ka \textgreater{} 1：强酸(在水中完全电离)
+\item
+  Ka \textless{} 10\textsuperscript{-3}：弱酸
+\item
+  Ka \textless{} 10\textsuperscript{-7}：极弱酸
+\end{itemize}
+
+\textbf{常见酸的 pKa 值}(25°C)：
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}lcl@{}}
+\toprule\noalign{}
+酸 & pKa & 强度等级 \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+HClO\textsubscript{4} & −10 & 极强酸 \\
+HCl & −7 & 强酸 \\
+HNO\textsubscript{3} & −1.4 & 强酸 \\
+HF & 3.2 & 弱酸 \\
+HAc & 4.76 & 弱酸 \\
+H\textsubscript{2}CO\textsubscript{3} & 6.35(Ka\textsubscript{1}) & 极弱酸 \\
+H\textsubscript{2}S & 7.02(Ka\textsubscript{1}) & 极弱酸 \\
+HCN & 9.21 & 极弱酸 \\
+H\textsubscript{2}O & 15.7 & 极极弱酸 \\
+NH\textsubscript{3} & 38(作为酸) & 极极弱酸 \\
+\end{longtable}
+}
+
+\begin{quote}
+\textbf{易错点}：有机化学中常以 H\textsubscript{2}O 的 pKa = 15.7 作为参考，而无机化学中以 Kw = 10\textsuperscript{-14}(即 pKa = 14)作为参考。两者基准不同！
+\end{quote}
+
+\subsubsection{3.3 弱酸弱碱分类}\label{ux5f31ux9178ux5f31ux78b1ux5206ux7c7b}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}lll@{}}
+\toprule\noalign{}
+类型 & 示例 & 特点 \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{分子酸} & HF, HAc, H\textsubscript{2}S, HCN & 中性分子作为酸 \\
+\textbf{阳离子酸} & NH\textsubscript{4}\textsuperscript{+}, {[}Al(H\textsubscript{2}O)\textsubscript{6}{]}\textsuperscript{3+} & 阳离子作为酸(水解) \\
+\textbf{阴离子碱} & Ac\textsuperscript{-}, CN\textsuperscript{-}, S\textsuperscript{2-}, PO\textsubscript{4}\textsuperscript{3-} & 阴离子作为碱 \\
+\textbf{两性物质} & H\textsubscript{2}O, HCO\textsubscript{3}\textsuperscript{-}, HPO\textsubscript{4}\textsuperscript{2-} & 既可作酸又可作碱 \\
+\end{longtable}
+}
+
+\begin{quote}
+\textbf{金属离子水解}：高价金属离子如 Al\textsuperscript{3+}、Fe\textsuperscript{3+} 在水中以水合离子形式存在，如 {[}Al(H\textsubscript{2}O)\textsubscript{6}{]}\textsuperscript{3+}。这些水合离子可以逐步电离出 H\textsuperscript{+}：
+
+{[}Al(H\textsubscript{2}O)\textsubscript{6}{]}\textsuperscript{3+} \衡 [Al(H~2~O)~5~(OH)]\textsuperscript{2+} + H\textsuperscript{+} \衡 [Al(H~2~O)~4~(OH)~2~]\textsuperscript{+} + 2H\textsuperscript{+} \衡 \ldots{}
+
+这就是为什么 AlCl\textsubscript{3} 溶液呈酸性。离子势 z/r(电荷/半径)越大，水解程度越大，酸性越强。
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{四、水的自偶电离与 pH}\label{ux56dbux6c34ux7684ux81eaux5076ux7535ux79bbux4e0e-ph}
+
+\subsubsection{4.1 水的离子积}\label{ux6c34ux7684ux79bbux5b50ux79ef}
+
+\[
+\mathrm{H_2O + H_2O \rightleftharpoons H_3O^+ + OH^-}
+\]
+
+\[
+\boxed{K_w = [\mathrm{H_3O^+}][\mathrm{OH^-}] = 1.0 \times 10^{-14} \quad (25°C)}
+\]
+
+\textbf{Kw 的温度依赖}：
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}cc@{}}
+\toprule\noalign{}
+温度(°C) & Kw \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+0 & 0.114 × 10\textsuperscript{-14} \\
+10 & 0.293 × 10\textsuperscript{-14} \\
+20 & 0.681 × 10\textsuperscript{-14} \\
+25 & 1.00 × 10\textsuperscript{-14} \\
+37 & 2.42 × 10\textsuperscript{-14} \\
+50 & 5.47 × 10\textsuperscript{-14} \\
+100 & 51.3 × 10\textsuperscript{-14} \\
+\end{longtable}
+}
+
+\begin{quote}
+\textbf{温度升高 \箭 Kw 增大}：水的自偶电离是吸热过程(ΔH \textgreater{} 0)，升温促进电离。
+\textbf{37°C(体温)时 Kw = 2.42 × 10\textsuperscript{-14}}，此时中性 pH \约等于 6.81(不是 7.00！)。
+\end{quote}
+
+\subsubsection{4.2 pH 定义与有效数字}\label{ph-ux5b9aux4e49ux4e0eux6709ux6548ux6570ux5b57}
+
+\[
+\mathrm{pH} = -\lg[\mathrm{H_3O^+}]
+\]
+
+\textbf{有效数字规则}：pH 的有效数字位数由 {[}H\textsubscript{3}O\textsuperscript{+}{]} 的有效数字位数决定。
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}ccc@{}}
+\toprule\noalign{}
+{[}H\textsubscript{3}O\textsuperscript{+}{]} & 有效数字 & pH \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+1.0 × 10\textsuperscript{-3} & 2 位 & 3.00 \\
+1 × 10\textsuperscript{-3} & 1 位 & 3 \\
+0.00100 & 3 位 & 3.000 \\
+\end{longtable}
+}
+
+\begin{quote}
+\textbf{常见错误}：pH = 3.00 有 2 位有效数字，不是 3 位！小数点前的数字不计入有效数字。
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{五、弱酸弱碱电离平衡}\label{ux4e94ux5f31ux9178ux5f31ux78b1ux7535ux79bbux5e73ux8861}
+
+\subsubsection{5.1 单质子弱酸：假设-验证法}\label{ux5355ux8d28ux5b50ux5f31ux9178ux5047ux8bbe-ux9a8cux8bc1ux6cd5}
+
+\textbf{标准五步法}：
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  写出电离方程式
+\item
+  列 ICE 表
+\item
+  写 Ka 表达式
+\item
+  假设求解(简化法 or 精确法)
+\item
+  验证假设合理性
+\end{enumerate}
+
+\textbf{简化公式}：
+
+\[
+[\mathrm{H_3O^+}] \approx \sqrt{K_a \cdot c}
+\]
+
+\begin{quote}
+\textbf{适用条件}：\(c/K_a > 400\)(由 α \textless{} 5\% 推导：\(\frac{1-0.05}{0.05^2} = 380 \approx 400\))
+
+同时需要 \(c \cdot K_a > 10 K_w\)(确保水的电离可忽略)。
+
+\textbf{易错点}：如果 Ka 较大(如二氯乙酸 Ka = 4.5 × 10\textsuperscript{-2})，即使 c/Ka \textgreater{} 400 也可能不满足 α \textless{} 5\%，此时必须用精确法(二次方程)。
+\end{quote}
+
+\textbf{弱碱的对应公式}：
+
+\[
+[\mathrm{OH^-}] \approx \sqrt{K_b \cdot c} \qquad (c/K_b > 400)
+\]
+
+\subsubsection{5.2 精确法(二次方程)}\label{ux7cbeux786eux6cd5ux4e8cux6b21ux65b9ux7a0b}
+
+当简化条件不满足时，解精确方程：
+
+\[
+K_a = \frac{x^2}{c - x}
+\]
+
+\[
+x^2 + K_a x - K_a c = 0
+\]
+
+\[
+x = \frac{-K_a + \sqrt{K_a^2 + 4K_a c}}{2}
+\]
+
+\subsubsection{5.3 反例：简化公式失效}\label{ux53cdux4f8bux7b80ux5316ux516cux5f0fux5931ux6548}
+
+\textbf{Na\textsubscript{2}S 溶液}：Kb\textsubscript{1}(S\textsuperscript{2-}) = 8.3 × 10\textsuperscript{-2}，c = 0.10 M
+
+c/Kb\textsubscript{1} = 0.10/0.083 = 1.2 ≪ 400
+
+简化公式给出 {[}OH\textsuperscript{-}{]} = √(0.083 × 0.10) = 0.091 M(误差很大！)
+
+精确法：x\textsuperscript{2}/(0.10 − x) = 0.083 \箭 x\textsuperscript{2} + 0.083x − 0.0083 = 0 \箭 x = 0.059 M
+
+\begin{quote}
+\textbf{教训}：使用简化公式前，\textbf{必须}先检查 c/Ka \textgreater{} 400(或 c/Kb \textgreater{} 400)这个条件。``每次用简化公式前，先检查两个条件''是酸碱计算的第一条铁律。
+\end{quote}
+
+\subsubsection{\texorpdfstring{5.4 弱酸溶液中 {[}H\textsuperscript{+}{]} 的精确处理}{5.4 弱酸溶液中 {[}H+{]} 的精确处理}}\label{ux5f31ux9178ux6eb6ux6db2ux4e2d-h-ux7684ux7cbeux786eux5904ux7406}
+
+对弱酸 HA 溶液，精确的质子平衡方程(PBE)为：
+
+\[
+[\mathrm{H^+}] = [\mathrm{A^-}] + [\mathrm{OH^-}]
+\]
+
+即 H\textsuperscript{+} 既来自 HA 的电离，也来自水的电离。当 c·Ka \textgreater{} 10Kw 时，{[}OH\textsuperscript{-}{]} 可忽略，简化为 {[}H\textsuperscript{+}{]} \约等于 [A^-^]。
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{六、多元弱酸与两性物质}\label{ux516dux591aux5143ux5f31ux9178ux4e0eux4e24ux6027ux7269ux8d28}
+
+\subsubsection{6.1 多元弱酸的分级电离}\label{ux591aux5143ux5f31ux9178ux7684ux5206ux7ea7ux7535ux79bb}
+
+以 H\textsubscript{2}S 为例：
+
+\[
+\mathrm{H_2S \rightleftharpoons H^+ + HS^-} \quad K_{a1} = 1.0 \times 10^{-7}
+\]
+\[
+\mathrm{HS^- \rightleftharpoons H^+ + S^{2-}} \quad K_{a2} = 1.1 \times 10^{-12}
+\]
+
+\textbf{关键规则}：Ka\textsubscript{1} ≫ Ka\textsubscript{2}(通常差 10\textsuperscript{3}\textasciitilde10\textsuperscript{5} 倍)，因此：
+- {[}H\textsuperscript{+}{]} 主要由第一步电离决定
+- {[}S\textsuperscript{2-}{]} \约等于 Ka\textsubscript{2}(与 c 无关！)
+
+\[
+[\mathrm{H^+}] \approx \sqrt{K_{a1} \cdot c} \qquad [\mathrm{S^{2-}}] \approx K_{a2}
+\]
+
+\textbf{H\textsubscript{2}S 物种分布与 pH 的关系}：
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+pH 范围 & 主导物种 \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textless{} 7 & H\textsubscript{2}S \\
+7 \textasciitilde{} 12 & HS\textsuperscript{-} \\
+\textgreater{} 12 & S\textsuperscript{2-} \\
+\end{longtable}
+}
+
+\subsubsection{6.2 两性物质的 pH}\label{ux4e24ux6027ux7269ux8d28ux7684-ph}
+
+对 NaHCO\textsubscript{3} 溶液，HCO\textsubscript{3}\textsuperscript{-} 既电离又水解：
+
+\[
+\mathrm{HCO_3^- \rightleftharpoons H^+ + CO_3^{2-}} \quad K_{a2}
+\]
+\[
+\mathrm{HCO_3^- + H_2O \rightleftharpoons H_2CO_3 + OH^-} \quad K_b = K_w/K_{a1}
+\]
+
+\[
+\boxed{[\mathrm{H^+}] \approx \sqrt{K_{a1} \cdot K_{a2}}}
+\]
+
+\[
+\boxed{\mathrm{pH} = \frac{1}{2}(\mathrm{p}K_{a1} + \mathrm{p}K_{a2})}
+\]
+
+\textbf{实例}：0.20 M NaHCO\textsubscript{3}
+
+pKa\textsubscript{1} = 6.35, pKa\textsubscript{2} = 10.33
+
+pH = ½(6.35 + 10.33) = 8.34
+
+\begin{quote}
+\textbf{注意}：这个公式与浓度无关！只要 Ka\textsubscript{1} 和 Ka\textsubscript{2} 相差足够大(通常 \textgreater{} 10\textsuperscript{3})，且 c/Ka\textsubscript{1} \textgreater{} 400，公式就成立。
+
+反例：NaHC\textsubscript{2}O\textsubscript{4}(草酸氢钠)的 Ka\textsubscript{2} = 5.4 × 10\textsuperscript{-5}，c/Ka\textsubscript{2} \textless{} 400 时简化公式失效，需要精确处理。
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{七、缓冲溶液}\label{ux4e03ux7f13ux51b2ux6eb6ux6db2}
+
+\subsubsection{7.1 Henderson-Hasselbalch 方程}\label{henderson-hasselbalch-ux65b9ux7a0b}
+
+对弱酸 HA 及其共轭碱 A\textsuperscript{-} 的混合溶液：
+
+\[
+\boxed{\mathrm{pH} = \mathrm{p}K_a + \lg\frac{[\mathrm{A^-}]}{[\mathrm{HA}]}}
+\]
+
+对弱碱 B 及其共轭酸 BH\textsuperscript{+} 的混合溶液：
+
+\[
+\mathrm{pOH} = \mathrm{p}K_b + \lg\frac{[\mathrm{BH^+}]}{[\mathrm{B}]}
+\]
+
+\subsubsection{7.2 缓冲溶液的设计原则}\label{ux7f13ux51b2ux6eb6ux6db2ux7684ux8bbeux8ba1ux539fux5219}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+原则 & 说明 \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{选对 pKa} & pKa 应接近目标 pH(pKa ± 1 范围内) \\
+\textbf{比例接近 1:1} & {[}A\textsuperscript{-}{]}/{[}HA{]} = 1 时缓冲容量最大 \\
+\textbf{浓度足够大} & 浓度越高，缓冲容量越大 \\
+\end{longtable}
+}
+
+\textbf{常用缓冲溶液}：
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}lcc@{}}
+\toprule\noalign{}
+缓冲体系 & pKa & 有效缓冲范围 \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+HCOOH/HCOO\textsuperscript{-} & 3.75 & 2.75 \textasciitilde{} 4.75 \\
+HAc/Ac\textsuperscript{-} & 4.76 & 3.76 \textasciitilde{} 5.76 \\
+H\textsubscript{2}CO\textsubscript{3}/HCO\textsubscript{3}\textsuperscript{-} & 6.35 & 5.35 \textasciitilde{} 7.35 \\
+H\textsubscript{2}PO\textsubscript{4}\textsuperscript{-}/HPO\textsubscript{4}\textsuperscript{2-} & 7.20 & 6.20 \textasciitilde{} 8.20 \\
+NH\textsubscript{4}\textsuperscript{+}/NH\textsubscript{3} & 9.25 & 8.25 \textasciitilde{} 10.25 \\
+HPO\textsubscript{4}\textsuperscript{2-}/PO\textsubscript{4}\textsuperscript{3-} & 12.32 & 11.32 \textasciitilde{} 13.32 \\
+\end{longtable}
+}
+
+\subsubsection{7.3 缓冲容量的定量分析}\label{ux7f13ux51b2ux5bb9ux91cfux7684ux5b9aux91cfux5206ux6790}
+
+缓冲容量 β 定义为使 pH 改变 1 个单位所需加入的强酸或强碱的量。
+
+\textbf{关键结论}：
+- 当 {[}A\textsuperscript{-}{]}/{[}HA{]} = 1(即 pH = pKa)时，缓冲容量最大
+- 当 {[}A\textsuperscript{-}{]}/{[}HA{]} = 99:1 或 1:99 时，缓冲容量接近零
+- 缓冲溶液的总浓度越高，缓冲容量越大
+
+\textbf{实例}：向 1 L 缓冲溶液中加入 0.01 mol H\textsubscript{3}O\textsuperscript{+}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}cccc@{}}
+\toprule\noalign{}
+初始比例 {[}A\textsuperscript{-}{]}/{[}HA{]} & 初始 pH & 加入后 pH & ΔpH \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+1:1 & 4.76 & 4.74 & 0.02 \\
+10:1 & 5.76 & 5.53 & 0.23 \\
+99:1 & 6.76 & 5.00 & 1.76 \\
+\end{longtable}
+}
+
+\begin{quote}
+\textbf{比例 1:1 时缓冲能力最强}，这是设计缓冲溶液的黄金法则。
+\end{quote}
+
+\subsubsection{7.4 缓冲溶液的实际应用}\label{ux7f13ux51b2ux6eb6ux6db2ux7684ux5b9eux9645ux5e94ux7528}
+
+\textbf{血液缓冲系统}：人体血液 pH = 7.35 \textasciitilde{} 7.45，主要由 HCO\textsubscript{3}\textsuperscript{-}/H\textsubscript{2}CO\textsubscript{3} 缓冲体系维持。
+
+\[
+\mathrm{CO_2 + H_2O \rightleftharpoons H_2CO_3 \rightleftharpoons H^+ + HCO_3^-}
+\]
+
+\[
+\mathrm{pH} = \mathrm{p}K_{a1} + \lg\frac{[\mathrm{HCO_3^-}]}{[\mathrm{H_2CO_3}]} = 6.10 + \lg\frac{24}{1.2} = 7.40
+\]
+
+(正常血液中 {[}HCO\textsubscript{3}\textsuperscript{-}{]} = 24 mmol/L，{[}H\textsubscript{2}CO\textsubscript{3}{]} = 1.2 mmol/L)
+
+\textbf{血红蛋白的氧结合平衡}：
+
+\[
+\mathrm{HbH^+ + O_2 \rightleftharpoons HbO_2 + H^+}
+\]
+
+当 O\textsubscript{2} 与 Hb 结合时释放 H\textsuperscript{+}，H\textsuperscript{+} 又被 HCO\textsubscript{3}\textsuperscript{-} 缓冲---这就是 Bohr 效应的化学基础。
+
+\begin{quote}
+\textbf{缓冲的''海绵''类比}：缓冲溶液就像一块海绵---倒入一点酸，它吸收了，pH 几乎不变；倒入一点碱，它也吸收了，pH 也几乎不变。但如果倒入太多的酸或碱，海绵饱和了，pH 就会急剧变化。
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{八、Lewis 酸碱与 HSAB 原理}\label{ux516blewis-ux9178ux78b1ux4e0e-hsab-ux539fux7406}
+
+\subsubsection{8.1 Lewis 酸碱}\label{lewis-ux9178ux78b1}
+
+\textbf{Lewis 酸}：电子对受体(能接受电子对的物质)
+\textbf{Lewis 碱}：电子对供体(能给出电子对的物质)
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}lll@{}}
+\toprule\noalign{}
+Lewis 酸 & Lewis 碱 & 反应 \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+BF\textsubscript{3} & NH\textsubscript{3} & F\textsubscript{3}B\左箭NH\textsubscript{3}(配位键) \\
+H\textsuperscript{+} & H\textsubscript{2}O & H\textsubscript{3}O\textsuperscript{+} \\
+Cu\textsuperscript{2+} & NH\textsubscript{3} & {[}Cu(NH\textsubscript{3})\textsubscript{4}{]}\textsuperscript{2+} \\
+AlCl\textsubscript{3} & Cl\textsuperscript{-} & AlCl\textsubscript{4}\textsuperscript{-} \\
+\end{longtable}
+}
+
+\begin{quote}
+Lewis 酸碱理论是最广义的酸碱定义，涵盖了所有 Brønsted 酸碱反应(因为 H\textsuperscript{+} 本身就是 Lewis 酸)。
+\end{quote}
+
+\subsubsection{8.2 HSAB 软硬分类}\label{hsab-ux8f6fux786cux5206ux7c7b}
+
+\textbf{Hard and Soft Acids and Bases(软硬酸碱理论)}：
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+分类
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+酸
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+碱
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{硬酸} & H\textsuperscript{+}, Li\textsuperscript{+}, Na\textsuperscript{+}, Mg\textsuperscript{2+}, Al\textsuperscript{3+}, Fe\textsuperscript{3+}, BF\textsubscript{3} & H\textsubscript{2}O, OH\textsuperscript{-}, F\textsuperscript{-}, Cl\textsuperscript{-}, NH\textsubscript{3}, ROH \\
+\textbf{交界酸} & Fe\textsuperscript{2+}, Co\textsuperscript{2+}, Ni\textsuperscript{2+}, Cu\textsuperscript{2+}, Zn\textsuperscript{2+} & Br\textsuperscript{-}, N\textsubscript{3}\textsuperscript{-}, NO\textsubscript{2}\textsuperscript{-}, SO\textsubscript{3}\textsuperscript{2-} \\
+\textbf{软酸} & Cu\textsuperscript{+}, Ag\textsuperscript{+}, Au\textsuperscript{+}, Hg\textsuperscript{2+}, Pd\textsuperscript{2+}, Pt\textsuperscript{2+} & H\textsuperscript{-}, I\textsuperscript{-}, CN\textsuperscript{-}, CO, S\textsuperscript{2-}, RS\textsuperscript{-} \\
+\end{longtable}
+}
+
+\textbf{HSAB 亲和规则}：
+
+\begin{quote}
+\textbf{硬酸倾向与硬碱结合，软酸倾向与软碱结合。}
+\end{quote}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}lll@{}}
+\toprule\noalign{}
+组合 & 稳定性 & 示例 \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+硬酸 + 硬碱 & \textbf{稳定} & NaF(硬酸 Na\textsuperscript{+} + 硬碱 F\textsuperscript{-}) \\
+软酸 + 软碱 & \textbf{稳定} & AgI(软酸 Ag\textsuperscript{+} + 软碱 I\textsuperscript{-}) \\
+硬酸 + 软碱 & 不稳定 & AgF(软酸 Ag\textsuperscript{+} + 硬碱 F\textsuperscript{-}) \\
+软酸 + 硬碱 & 不稳定 & NaI(硬酸 Na\textsuperscript{+} + 软碱 I\textsuperscript{-}) \\
+\end{longtable}
+}
+
+\begin{quote}
+\textbf{HSAB 的''媒人''类比}：硬酸找硬碱就像两个''固执''的人在一起---稳定。软酸找软碱就像两个''温柔''的人在一起---也稳定。但硬配软就像性格不合，容易''分手''。
+
+\textbf{竞赛应用}：为什么 AgI 不溶于水而 AgF 溶于水？因为 Ag\textsuperscript{+} 是软酸，I\textsuperscript{-} 是软碱(稳定结合)，而 F\textsuperscript{-} 是硬碱(不稳定结合)。
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{九、中和反应与电离常数}\label{ux4e5dux4e2dux548cux53cdux5e94ux4e0eux7535ux79bbux5e38ux6570}
+
+\subsubsection{9.1 中和反应的平衡常数}\label{ux4e2dux548cux53cdux5e94ux7684ux5e73ux8861ux5e38ux6570}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}llcl@{}}
+\toprule\noalign{}
+反应类型 & 示例 & K 值 & 说明 \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+强酸 + 强碱 & HCl + NaOH & 1/Kw = 10\textsuperscript{14} & 反应极其彻底 \\
+强酸 + 弱碱 & HCl + NH\textsubscript{3} & Ka/Kw = 10\textsuperscript{9}·\textsuperscript{25} & 反应较彻底 \\
+弱酸 + 强碱 & HAc + NaOH & Kb/Kw = 10\textsuperscript{9}·\textsuperscript{24} & 反应较彻底 \\
+弱酸 + 弱碱 & HAc + NH\textsubscript{3} & Ka·Kb/Kw\textsuperscript{2} = 10\textsuperscript{4}·\textsuperscript{76} & 反应程度有限 \\
+\end{longtable}
+}
+
+\begin{quote}
+\textbf{规律}：反应物酸碱越强，中和反应的 K 越大，反应越彻底。
+\end{quote}
+
+\subsubsection{9.2 弱-弱中和的实例}\label{ux5f31-ux5f31ux4e2dux548cux7684ux5b9eux4f8b}
+
+\[
+\mathrm{H_2CO_3 + SiO_3^{2-} \to HCO_3^- + HSiO_3^-}
+\]
+
+K = Ka\textsubscript{1}(H\textsubscript{2}CO\textsubscript{3})/Ka\textsubscript{2}(H\textsubscript{2}SiO\textsubscript{3}) \约等于 10\textsuperscript{-6}·\textsuperscript{35}/10\textsuperscript{-12}·\textsuperscript{8} = 10\textsuperscript{6}·\textsuperscript{45}
+
+反应较彻底(K \textgreater{} 10\textsuperscript{6})，这就是为什么 CO\textsubscript{2} 通入硅酸钠溶液会产生硅酸沉淀。
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{十、知识网络与方法论}\label{ux5341ux77e5ux8bc6ux7f51ux7edcux4e0eux65b9ux6cd5ux8bba}
+
+\subsubsection{10.1 弱酸弱碱计算决策流程}\label{ux5f31ux9178ux5f31ux78b1ux8ba1ux7b97ux51b3ux7b56ux6d41ux7a0b}
+
+\begin{verbatim}
+已知 Ka 和 c
+  → 检查 c/Ka > 400？
+    → 是：用简化公式 [H⁺] = √(Ka·c)
+    → 否：用精确法（二次方程）
+  → 检查 c·Ka > 10Kw？
+    → 是：忽略水的电离
+    → 否：需考虑水的自偶电离
+\end{verbatim}
+
+\subsubsection{10.2 两性物质计算决策}\label{ux4e24ux6027ux7269ux8d28ux8ba1ux7b97ux51b3ux7b56}
+
+\begin{verbatim}
+物质是两性物质（如 NaHCO₃）
+  → 检查 Ka₂ 和 Kb = Kw/Ka₁ 的大小关系
+  → 若 Ka₂ ≈ Kb：用 [H⁺] = √(Ka₁·Ka₂)
+  → 若 Ka₂ ≫ Kb：视为弱酸处理
+  → 若 Kb ≫ Ka₂：视为弱碱处理
+\end{verbatim}
+
+\subsubsection{10.3 酸碱计算的''五个问题''}\label{ux9178ux78b1ux8ba1ux7b97ux7684ux4e94ux4e2aux95eeux9898}
+
+在做任何酸碱计算前，先问自己：
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{溶液中有哪些物种？}(分子、离子、两性物质)
+\item
+  \textbf{发生了哪些反应？}(电离、水解、中和)
+\item
+  \textbf{哪些可以忽略？}(水的电离、第二步电离等)
+\item
+  \textbf{哪些假设是合理的？}(c/Ka \textgreater{} 400、α \textless{} 5\%)
+\item
+  \textbf{答案是否合理？}(pH 范围、浓度正负)
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{十一、典型例题}\label{ux5341ux4e00ux5178ux578bux4f8bux9898}
+
+\textbf{题干}：指出下列反应中的共轭酸碱对：
+
+\[
+\mathrm{H_2S + CN^- \rightleftharpoons HS^- + HCN}
+\]
+
+\textbf{解析}：
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}lll@{}}
+\toprule\noalign{}
+反应物 & 角色 & 共轭对 \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+H\textsubscript{2}S \箭 HS\textsuperscript{-} & 酸 \箭 共轭碱 & H\textsubscript{2}S / HS\textsuperscript{-} \\
+CN\textsuperscript{-} \箭 HCN & 碱 \箭 共轭酸 & HCN / CN\textsuperscript{-} \\
+\end{longtable}
+}
+
+\textbf{答案}：两对共轭酸碱对为 (H\textsubscript{2}S/HS\textsuperscript{-}) 和 (HCN/CN\textsuperscript{-})。
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{题干}：计算 0.10 M HF 溶液的 pH(Ka = 7.2 × 10\textsuperscript{-4})。
+
+\textbf{解析}：
+
+c/Ka = 0.10/7.2×10\textsuperscript{-4} = 139 \textless{} 400，简化公式不适用，用精确法。
+
+设 {[}H\textsuperscript{+}{]} = x：
+
+\[K_a = \frac{x^2}{0.10 - x} = 7.2 \times 10^{-4}\]
+
+\[x^2 + 7.2 \times 10^{-4} x - 7.2 \times 10^{-5} = 0\]
+
+\[x = \frac{-7.2 \times 10^{-4} + \sqrt{(7.2 \times 10^{-4})^2 + 4 \times 7.2 \times 10^{-5}}}{2} = 7.8 \times 10^{-3}\]
+
+\[\mathrm{pH} = -\lg(7.8 \times 10^{-3}) = 2.11\]
+
+\[\alpha = \frac{7.8 \times 10^{-3}}{0.10} \times 100\% = 7.8\%\]
+
+\textbf{答案}：pH = 2.11，α = 7.8\%。
+
+\begin{quote}
+如果用简化公式：{[}H\textsuperscript{+}{]} = √(7.2×10\textsuperscript{-4} × 0.10) = 8.5×10\textsuperscript{-3}，pH = 2.07，误差约 9\%。c/Ka = 139 \textless{} 400 时误差不可忽略。
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{题干}：计算 0.20 M NaHCO\textsubscript{3} 溶液的 pH(Ka\textsubscript{1} = 4.47 × 10\textsuperscript{-7}，Ka\textsubscript{2} = 4.68 × 10\textsuperscript{-11})。
+
+\textbf{解析}：
+
+\[\mathrm{pH} = \frac{1}{2}(\mathrm{p}K_{a1} + \mathrm{p}K_{a2}) = \frac{1}{2}(6.35 + 10.33) = 8.34\]
+
+\textbf{答案}：pH = 8.34(碱性，符合 HCO\textsubscript{3}\textsuperscript{-} 水解大于电离的预期)。
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{题干}：用 HAc 和 NaAc 配制 pH = 5.00 的缓冲溶液 1.00 L，需要多少克 NaAc 和多少毫升冰醋酸(密度 1.05 g/mL)？(Ka = 1.75 × 10\textsuperscript{-5})
+
+\textbf{解析}：
+
+\[\lg\frac{[\mathrm{Ac^-}]}{[\mathrm{HAc}]} = \mathrm{pH} - \mathrm{p}K_a = 5.00 - 4.76 = 0.24\]
+
+\[\frac{[\mathrm{Ac^-}]}{[\mathrm{HAc}]} = 10^{0.24} = 1.74\]
+
+设 {[}HAc{]} = x，则 {[}Ac\textsuperscript{-}{]} = 1.74x，且 x + 1.74x = c\_total。
+
+取 c\_total = 0.50 M(任意选择，影响缓冲容量)：
+
+x = 0.18 M(HAc)，1.74x = 0.31 M(Ac\textsuperscript{-})
+
+NaAc 质量 = 0.31 × 1.00 × 82.03 = 25.4 g
+冰醋酸体积 = 0.18 × 1.00 × 60.05 / 1.05 = 10.3 mL
+
+\textbf{答案}：需要 25.4 g NaAc 和 10.3 mL 冰醋酸。
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{题干}：用 HSAB 原理预测以下配离子的稳定性顺序：
+(a) {[}AgF\textsubscript{2}{]}\textsuperscript{-} vs {[}AgI\textsubscript{2}{]}\textsuperscript{-}
+(b) {[}AlF\textsubscript{6}{]}\textsuperscript{3-} vs {[}AlI\textsubscript{6}{]}\textsuperscript{3-}
+
+\textbf{解析}：
+
+\begin{enumerate}
+\def\labelenumi{(\alph{enumi})}
+\item
+  Ag\textsuperscript{+} 是软酸，F\textsuperscript{-} 是硬碱，I\textsuperscript{-} 是软碱。
+  {[}AgI\textsubscript{2}{]}\textsuperscript{-}(软-软)比 {[}AgF\textsubscript{2}{]}\textsuperscript{-}(软-硬)稳定得多。
+\item
+  Al\textsuperscript{3+} 是硬酸，F\textsuperscript{-} 是硬碱，I\textsuperscript{-} 是软碱。
+  {[}AlF\textsubscript{6}{]}\textsuperscript{3-}(硬-硬)比 {[}AlI\textsubscript{6}{]}\textsuperscript{3-}(硬-软)稳定得多。
+\end{enumerate}
+
+\textbf{答案}：(a) {[}AgI\textsubscript{2}{]}\textsuperscript{-} \textgreater{} {[}AgF\textsubscript{2}{]}\textsuperscript{-}；(b) {[}AlF\textsubscript{6}{]}\textsuperscript{3-} \textgreater{} {[}AlI\textsubscript{6}{]}\textsuperscript{3-}。
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{十二、本节总结速查}\label{ux5341ux4e8cux672cux8282ux603bux7ed3ux901fux67e5}
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+核心概念
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+关键公式
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+注意点
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+共轭酸碱对 & Ka · Kb = Kw & pKa + pKb = 14 \\
+弱酸 pH & {[}H\textsuperscript{+}{]} = √(Ka·c) & 条件：c/Ka \textgreater{} 400 且 c·Ka \textgreater{} 10Kw \\
+两性物质 & {[}H\textsuperscript{+}{]} = √(Ka\textsubscript{1}·Ka\textsubscript{2}) & 条件：c/Ka\textsubscript{1} \textgreater{} 400 且 Ka\textsubscript{1}/Ka\textsubscript{2} \textgreater{} 10\textsuperscript{3} \\
+缓冲溶液 & pH = pKa + lg({[}A\textsuperscript{-}{]}/{[}HA{]}) & pKa ± 1 范围有效 \\
+Kw 温度依赖 & Kw 随温度升高而增大 & 37°C 时 Kw = 2.42×10\textsuperscript{-14} \\
+拉平效应 & 溶剂将强酸''拉平''到同一水平 & 水对强酸有拉平效应 \\
+HSAB & 硬亲硬，软亲软 & AgI 不溶于水，AgF 溶于水 \\
+中和 K & 强酸+强碱 K=10\textsuperscript{14} & 弱酸+弱碱 K 可能很小 \\
+\end{longtable}
+}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{十三、三级练习题}\label{ux5341ux4e09ux4e09ux7ea7ux7ec3ux4e60ux9898}
+
+\textbf{1.} 写出 NH\textsubscript{3} 在水中的 Brønsted 酸碱反应，指出共轭酸碱对。
+
+\textbf{2.} 已知 Ka(HAc) = 1.75 × 10\textsuperscript{-5}，求 Kb(Ac\textsuperscript{-})。
+
+\textbf{3.} 判断下列说法的正误：
+(a) 强酸的共轭碱也是强碱。
+(b) 缓冲溶液的 pH 恒定不变。
+(c) pH = 7 的溶液一定是中性溶液。
+(d) 两性物质溶液的 pH 与浓度无关。
+
+\textbf{4.} 计算 0.10 M NH\textsubscript{3} 溶液的 pH(Kb = 1.77 × 10\textsuperscript{-5})。
+
+\textbf{5.} 计算 0.20 M Na\textsubscript{2}CO\textsubscript{3} 溶液的 pH(Ka\textsubscript{1} = 4.47 × 10\textsuperscript{-7}，Ka\textsubscript{2} = 4.68 × 10\textsuperscript{-11})。
+
+\textbf{6.} 用 HAc 和 NaAc 配制 pH = 5.00 的缓冲溶液，{[}Ac\textsuperscript{-}{]}/{[}HAc{]} = ?
+
+\textbf{7.} 什么是拉平效应？为什么 HClO\textsubscript{4}、HCl、HNO\textsubscript{3} 在水中都是强酸？
+
+\textbf{8.} 根据 HSAB 理论，预测 NaF 和 NaI 哪个更稳定。
+
+\textbf{9.} 0.10 M HF 溶液中，c/Ka = 139 \textless{} 400。说明为什么不能用简化公式，并给出正确的处理方法。
+
+\textbf{10.} 人体血液 pH = 7.40，主要由 HCO\textsubscript{3}\textsuperscript{-}/H\textsubscript{2}CO\textsubscript{3} 缓冲。若 {[}HCO\textsubscript{3}\textsuperscript{-}{]} = 24 mmol/L，{[}H\textsubscript{2}CO\textsubscript{3}{]} = 1.2 mmol/L，验证 pH。
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{11.} \textbf{(混合弱酸)} 计算 0.10 M HAc 与 0.10 M HF 混合溶液的 pH(Ka(HAc) = 1.75×10\textsuperscript{-5}，Ka(HF) = 7.2×10\textsuperscript{-4})。
+
+\textbf{12.} \textbf{(共离子效应)} 在 0.10 M HAc 中加入 NaAc 固体使 {[}NaAc{]} = 1.0 M，计算新 pH 和 HAc 的电离度。
+
+\textbf{13.} \textbf{(缓冲容量)} 向 1 L pH = 4.76 的 HAc/NaAc 缓冲溶液({[}Ac\textsuperscript{-}{]}/{[}HAc{]} = 1:1)中加入 0.01 mol HCl，计算新 pH。
+
+\textbf{14.} \textbf{(多元酸分步电离)} 0.10 M H\textsubscript{3}PO\textsubscript{4} 溶液中，计算 {[}H\textsuperscript{+}{]}、{[}H\textsubscript{2}PO\textsubscript{4}\textsuperscript{-}{]}、{[}HPO\textsubscript{4}\textsuperscript{2-}{]}、{[}PO\textsubscript{4}\textsuperscript{3-}{]}。已知 Ka\textsubscript{1}=7.1×10\textsuperscript{-3}，Ka\textsubscript{2}=6.3×10\textsuperscript{-8}，Ka\textsubscript{3}=4.2×10\textsuperscript{-13}。
+
+\textbf{15.} \textbf{(弱酸电离度)} 某弱酸 HA 的 0.10 M 溶液 pH = 3.00，求 Ka 和 α。
+
+\textbf{16.} \textbf{(缓冲溶液配制)} 需要配制 pH = 9.25 的缓冲溶液 500 mL，选择 NH\textsubscript{3}/NH\textsubscript{4}Cl 体系。计算所需 NH\textsubscript{4}Cl 的质量和浓氨水(15 M)的体积。
+
+\textbf{17.} \textbf{(Na\textsubscript{2}S 精确计算)} 0.10 M Na\textsubscript{2}S 溶液，Kb\textsubscript{1} = 8.3×10\textsuperscript{-2}。用精确法计算 {[}OH\textsuperscript{-}{]} 和 pH。
+
+\textbf{18.} \textbf{(拉平效应分析)} 在液氨溶剂中，HCl 和 HAc 都是弱酸。解释为什么。
+
+\textbf{19.} \textbf{(非水溶剂酸碱)} 在液氨中，NaNH\textsubscript{2} 是强碱，NH\textsubscript{4}Cl 是强酸。写出它们在液氨中的酸碱反应。
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{20.} \textbf{(混合缓冲体系)} 用 0.10 M H\textsubscript{3}PO\textsubscript{4} 和 0.10 M Na\textsubscript{3}PO\textsubscript{4} 配制 pH = 7.21 的缓冲溶液。需要取多少体积的 H\textsubscript{3}PO\textsubscript{4} 和多少体积的 Na\textsubscript{3}PO\textsubscript{4}？(Ka\textsubscript{1}=7.1×10\textsuperscript{-3}，Ka\textsubscript{2}=6.3×10\textsuperscript{-8}，Ka\textsubscript{3}=4.2×10\textsuperscript{-13})
+
+\textbf{21.} \textbf{(多元酸完整物种计算)} 计算 0.10 M H\textsubscript{3}PO\textsubscript{4} 溶液中所有含磷物种的浓度，并绘制分布系数图(δ vs pH)。
+
+\textbf{22.} \textbf{(血红蛋白缓冲)} 正常动脉血 pH = 7.40，{[}HCO\textsubscript{3}\textsuperscript{-}{]} = 24 mmol/L。已知 CO\textsubscript{2} 在血液中的溶解度为 0.030 mmol/(L·mmHg)，pKa\textsubscript{1} = 6.10。计算血液中 CO\textsubscript{2} 的分压。
+
+\textbf{23.} \textbf{(弱酸 Ka 测定)} 用 0.1000 M NaOH 滴定 25.00 mL 未知弱酸 HA。当加入 12.50 mL NaOH 时，pH = 4.00；当加入 25.00 mL NaOH 时，pH = 8.00。求 HA 的 Ka。
+
+\textbf{24.} \textbf{(HSAB 与溶解性)} 解释以下现象：
+(a) AgCl 溶于浓氨水，AgI 不溶于浓氨水。
+(b) HgS 不溶于浓 HNO\textsubscript{3} 和王水，但溶于浓 Na\textsubscript{2}S 溶液。
+(c) HgCl\textsubscript{2} 是弱电解质，而 HgF\textsubscript{2} 是强电解质。
+
+\textbf{25.} \textbf{(综合计算)} 25°C 时，向 100 mL 0.10 M HAc 溶液中逐滴加入 0.10 M NaOH。
+(a) 计算未加 NaOH 时的 pH。
+(b) 计算加入 50 mL NaOH 后的 pH(半中和点)。
+(c) 计算加入 100 mL NaOH 后的 pH(等当点)。
+(d) 计算加入 150 mL NaOH 后的 pH。
+(e) 选择合适的指示剂，并解释为什么。
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{十四、练习题答案}\label{ux5341ux56dbux7ec3ux4e60ux9898ux7b54ux6848}
+
+\textbf{1.} NH\textsubscript{3} + H\textsubscript{2}O \衡 NH\textsubscript{4}\textsuperscript{+} + OH\textsuperscript{-}。共轭酸碱对：(NH\textsubscript{4}\textsuperscript{+}/NH\textsubscript{3}) 和 (H\textsubscript{2}O/OH\textsuperscript{-})。
+
+\textbf{2.} Kb(Ac\textsuperscript{-}) = Kw/Ka(HAc) = 1.0×10\textsuperscript{-14}/1.75×10\textsuperscript{-5} = 5.71×10\textsuperscript{-10}。
+
+\textbf{3.}
+(a) 错误。强酸的共轭碱极弱(如 Cl\textsuperscript{-} 是极弱碱)。
+(b) 错误。缓冲溶液的 pH 不是恒定不变，而是加入少量酸碱后变化很小。
+(c) 错误。37°C 时中性 pH \约等于 6.81(因为 Kw = 2.42×10\textsuperscript{-14})。
+(d) 正确。{[}H\textsuperscript{+}{]} = √(Ka\textsubscript{1}·Ka\textsubscript{2}) 与浓度无关。
+
+\textbf{4.} {[}OH\textsuperscript{-}{]} = √(Kb·c) = √(1.77×10\textsuperscript{-5} × 0.10) = 1.33×10\textsuperscript{-3} M。pOH = 2.88，pH = 11.12。
+
+\textbf{5.} CO\textsubscript{3}\textsuperscript{2-} 是二元碱：Kb\textsubscript{1} = Kw/Ka\textsubscript{2} = 2.14×10\textsuperscript{-4}，Kb\textsubscript{2} = Kw/Ka\textsubscript{1} = 2.24×10\textsuperscript{-8}。Kb\textsubscript{1} ≫ Kb\textsubscript{2}，按一元碱处理：{[}OH\textsuperscript{-}{]} = √(Kb\textsubscript{1}·c) = √(2.14×10\textsuperscript{-4} × 0.20) = 6.5×10\textsuperscript{-3} M。pOH = 2.19，pH = 11.81。
+
+\textbf{6.} lg({[}Ac\textsuperscript{-}{]}/{[}HAc{]}) = pH − pKa = 5.00 − 4.76 = 0.24。{[}Ac\textsuperscript{-}{]}/{[}HAc{]} = 10\^{}0.24 = 1.74。
+
+\textbf{7.} 拉平效应是指溶剂将不同强度的酸''拉平''到同一水平的现象。在水中，HClO\textsubscript{4}、HCl、HNO\textsubscript{3} 都把质子完全转移给水生成 H\textsubscript{3}O\textsuperscript{+}，因此在水中它们都是''强酸''，无法区分强弱。
+
+\textbf{8.} Na\textsuperscript{+} 是硬酸，F\textsuperscript{-} 是硬碱，I\textsuperscript{-} 是软碱。硬酸倾向与硬碱结合，所以 NaF 更稳定。
+
+\textbf{9.} c/Ka = 139 \textless{} 400，此时 α = 7.8\% \textgreater{} 5\%，简化公式的误差约 9\%。应使用精确法(二次方程)：x\textsuperscript{2} + Ka·x − Ka·c = 0。
+
+\textbf{10.} pH = pKa\textsubscript{1} + lg({[}HCO\textsubscript{3}\textsuperscript{-}{]}/{[}H\textsubscript{2}CO\textsubscript{3}{]}) = 6.10 + lg(24/1.2) = 6.10 + 1.30 = 7.40 ✓
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{11.} 混合弱酸中，Ka(HF) ≫ Ka(HAc)，HAc 的电离被抑制。近似认为 {[}H\textsuperscript{+}{]} \约等于 √(Ka(HF)·c) = √(7.2×10\textsuperscript{-4} × 0.10) = 8.5×10\textsuperscript{-3}，pH \约等于 2.07。
+
+\textbf{12.} 共离子效应：加入 NaAc 后，{[}Ac\textsuperscript{-}{]} 增大，平衡左移，{[}H\textsuperscript{+}{]} 减小。
+{[}H\textsuperscript{+}{]} = Ka·{[}HAc{]}/{[}Ac\textsuperscript{-}{]} = 1.75×10\textsuperscript{-5} × 0.10/1.0 = 1.75×10\textsuperscript{-6} M。pH = 5.76。
+α = {[}H\textsuperscript{+}{]}/c = 1.75×10\textsuperscript{-6}/0.10 = 0.00175\%(从原来的 1.3\% 降至 0.002\%)。
+
+\textbf{13.} {[}HAc{]} = {[}Ac\textsuperscript{-}{]} = c/2。加入 0.01 mol HCl 后：{[}Ac\textsuperscript{-}{]} = c/2 − 0.01，{[}HAc{]} = c/2 + 0.01。
+pH = pKa + lg((c/2−0.01)/(c/2+0.01))。若 c = 1.0 M：pH = 4.76 + lg(0.49/0.51) = 4.76 − 0.017 = 4.74。ΔpH = 0.02。
+
+\textbf{14.} H\textsubscript{3}PO\textsubscript{4} 三步电离，Ka\textsubscript{1} ≫ Ka\textsubscript{2} ≫ Ka\textsubscript{3}：
+{[}H\textsuperscript{+}{]} \约等于 [H~2~PO~4~^-^] \约等于 √(Ka\textsubscript{1}·c) = √(7.1×10\textsuperscript{-3} × 0.10) = 2.66×10\textsuperscript{-2} M
+{[}HPO\textsubscript{4}\textsuperscript{2-}{]} \约等于 Ka\textsubscript{2} = 6.3×10\textsuperscript{-8} M(与 c 无关)
+{[}PO\textsubscript{4}\textsuperscript{3-}{]} \约等于 Ka\textsubscript{2}·Ka\textsubscript{3}/{[}H\textsuperscript{+}{]} = 6.3×10\textsuperscript{-8} × 4.2×10\textsuperscript{-13}/2.66×10\textsuperscript{-2} = 1.0×10\textsuperscript{-18} M
+
+\textbf{15.} {[}H\textsuperscript{+}{]} = 10\textsuperscript{-3}·\textsuperscript{00} = 1.0×10\textsuperscript{-3} M。Ka = {[}H\textsuperscript{+}{]}\textsuperscript{2}/(c−{[}H\textsuperscript{+}{]}) = (1.0×10\textsuperscript{-3})\textsuperscript{2}/(0.10−0.001) = 1.01×10\textsuperscript{-5}。α = 1.0×10\textsuperscript{-3}/0.10 = 1.0\%。
+
+\textbf{16.} pH = 9.25 = pKa(NH\textsubscript{4}\textsuperscript{+})，所以 {[}NH\textsubscript{3}{]}/{[}NH\textsubscript{4}\textsuperscript{+}{]} = 1:1。
+设 c\_total = 0.50 M(任意选择)：{[}NH\textsubscript{3}{]} = {[}NH\textsubscript{4}\textsuperscript{+}{]} = 0.25 M。
+NH\textsubscript{4}Cl 质量 = 0.25 × 0.50 × 53.49 = 6.69 g。
+浓氨水体积 = 0.25 × 0.50/15 = 8.33 mL。
+
+\textbf{17.} Kb\textsubscript{1} = 8.3×10\textsuperscript{-2}，c = 0.10 M，c/Kb\textsubscript{1} = 1.2 ≪ 400，必须精确计算。
+设 {[}OH\textsuperscript{-}{]} = x：x\textsuperscript{2}/(0.10−x) = 0.083 \箭 x\textsuperscript{2} + 0.083x − 0.0083 = 0
+x = (−0.083 + √(0.083\textsuperscript{2} + 4×0.0083))/2 = (−0.083 + 0.201)/2 = 0.059 M
+pOH = 1.23，pH = 12.77。
+
+\textbf{18.} 在液氨中，NH\textsubscript{3} 是溶剂。HCl 和 HAc 都能把质子转移给 NH\textsubscript{3} 生成 NH\textsubscript{4}\textsuperscript{+}，但 NH\textsubscript{3} 的碱性不如 H\textsubscript{2}O 强(作为质子受体)，所以两种酸都只部分电离，表现为弱酸。
+
+\textbf{19.} NaNH\textsubscript{2} + NH\textsubscript{3} \箭 NH\textsubscript{2}\textsuperscript{-} + NH\textsubscript{4}\textsuperscript{+}(NaNH\textsubscript{2} 是强碱，完全夺取 NH\textsubscript{3} 的质子)
+NH\textsubscript{4}Cl + NH\textsubscript{3} \箭 NH\textsubscript{3} + NH\textsubscript{4}\textsuperscript{+} + Cl\textsuperscript{-}(NH\textsubscript{4}Cl 是强酸，完全给出质子给 NH\textsubscript{3})
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{20.} pH = 7.21 时，主要缓冲对是 H\textsubscript{2}PO\textsubscript{4}\textsuperscript{-}/HPO\textsubscript{4}\textsuperscript{2-}(pKa\textsubscript{2} = 7.20)。
+lg({[}HPO\textsubscript{4}\textsuperscript{2-}{]}/{[}H\textsubscript{2}PO\textsubscript{4}\textsuperscript{-}{]}) = 7.21 − 7.20 = 0.01 \箭 比例 = 1.02:1。
+
+H\textsubscript{3}PO\textsubscript{4} + Na\textsubscript{3}PO\textsubscript{4} \箭 3 NaH\textsubscript{2}PO\textsubscript{4}(完全反应后)
+但我们需要 H\textsubscript{2}PO\textsubscript{4}\textsuperscript{-}/HPO\textsubscript{4}\textsuperscript{2-} 缓冲，所以不能直接混合。
+
+更实际的方案：H\textsubscript{3}PO\textsubscript{4} + 2Na\textsubscript{3}PO\textsubscript{4} \箭 3Na\textsubscript{2}HPO\textsubscript{4}(控制比例)。
+或 H\textsubscript{3}PO\textsubscript{4} + NaOH \箭 NaH\textsubscript{2}PO\textsubscript{4} / Na\textsubscript{2}HPO\textsubscript{4} 缓冲。
+
+\textbf{21.} 三个 Ka 值差 10\textsuperscript{5}\textasciitilde10\textsuperscript{5} 倍，分布系数曲线在 pKa\textsubscript{1}、pKa\textsubscript{2}、pKa\textsubscript{3} 处交叉。
+- pH \textless{} 4.7：H\textsubscript{3}PO\textsubscript{4} 主导
+- 4.7 \textless{} pH \textless{} 9.8：H\textsubscript{2}PO\textsubscript{4}\textsuperscript{-} 主导
+- 9.8 \textless{} pH \textless{} 12.4：HPO\textsubscript{4}\textsuperscript{2-} 主导
+- pH \textgreater{} 12.4：PO\textsubscript{4}\textsuperscript{3-} 主导
+
+\textbf{22.} {[}H\textsubscript{2}CO\textsubscript{3}{]} = {[}HCO\textsubscript{3}\textsuperscript{-}{]}/10\^{}(pH−pKa\textsubscript{1}) = 24/10\^{}(7.40−6.10) = 24/20 = 1.2 mmol/L。
+{[}CO\textsubscript{2}{]} = 1.2 mmol/L。
+PCO\textsubscript{2} = {[}CO\textsubscript{2}{]}/0.030 = 1.2/0.030 = 40 mmHg(正常值 35-45 mmHg)。
+
+\textbf{23.} 半中和点(12.50 mL)时 pH = pKa = 4.00，所以 Ka = 10\textsuperscript{-4}·\textsuperscript{00} = 1.0×10\textsuperscript{-4}。
+等当点(25.00 mL)时生成 NaA，pH = 8.00 \箭 pOH = 6.00 \箭 [OH^-^] = 10\textsuperscript{-6}。
+Kb = {[}OH\textsuperscript{-}{]}\textsuperscript{2}/c = (10\textsuperscript{-6})\textsuperscript{2}/0.050 = 2.0×10\textsuperscript{-11}。
+Ka = Kw/Kb = 10\textsuperscript{-14}/2.0×10\textsuperscript{-11} = 5.0×10\textsuperscript{-4}。
+(两组数据给出不同 Ka，说明实验数据有误差，实际取平均或更精确处理。)
+
+\textbf{24.}
+(a) AgCl 溶于浓氨水：AgCl + 2NH\textsubscript{3} \箭 [Ag(NH~3~)~2~]\textsuperscript{+} + Cl\textsuperscript{-}，K = Ksp·Kf = 1.8×10\textsuperscript{-10} × 1.1×10\textsuperscript{7} = 2.0×10\textsuperscript{-3}(较大会溶解)。AgI 不溶：K = Ksp·Kf = 8.5×10\textsuperscript{-17} × 1.1×10\textsuperscript{7} = 9.4×10\textsuperscript{-10}(极小不溶)。
+
+\begin{enumerate}
+\def\labelenumi{(\alph{enumi})}
+\setcounter{enumi}{1}
+\item
+  HgS 极难溶(Ksp \约等于 10\textsuperscript{-52})，浓 HNO\textsubscript{3} 和王水无法提供足够的驱动力。但 Na\textsubscript{2}S 溶液中 S\textsuperscript{2-} 浓度高，与 Hg\textsuperscript{2+} 形成更稳定的 {[}HgS\textsubscript{2}{]}\textsuperscript{2-} 配离子，使溶解平衡右移。
+\item
+  Hg\textsuperscript{2+} 是软酸，F\textsuperscript{-} 是硬碱(不稳定)，Cl\textsuperscript{-} 是交界碱(较稳定)。HgF\textsubscript{2} 是离子化合物(强电解质)，HgCl\textsubscript{2} 是共价化合物(弱电解质)。
+\end{enumerate}
+
+\textbf{25.}
+(a) 未加 NaOH：0.10 M HAc，{[}H\textsuperscript{+}{]} = √(Ka·c) = √(1.75×10\textsuperscript{-5} × 0.10) = 1.32×10\textsuperscript{-3} M，pH = 2.88。
+
+\begin{enumerate}
+\def\labelenumi{(\alph{enumi})}
+\setcounter{enumi}{1}
+\item
+  加入 50 mL NaOH：半中和点，{[}Ac\textsuperscript{-}{]} = {[}HAc{]}，pH = pKa = 4.76。
+\item
+  加入 100 mL NaOH：等当点，生成 0.050 M NaAc。{[}OH\textsuperscript{-}{]} = √(Kb·c) = √(5.71×10\textsuperscript{-10} × 0.050) = 1.69×10\textsuperscript{-5} M。pOH = 4.77，pH = 9.23。
+\item
+  加入 150 mL NaOH：NaOH 过量 50 mL。{[}OH\textsuperscript{-}{]} = 0.10 × 50/250 = 0.020 M。pOH = 1.70，pH = 12.30。
+\item
+  等当点 pH = 9.23，应选酚酞(变色范围 8.2\textsubscript{10.0)作为指示剂。甲基橙(3.1}4.4)和甲基红(4.4\textasciitilde6.2)的变色范围都在酸性区域，不适合。
+\end{enumerate}
+
+\end{document}

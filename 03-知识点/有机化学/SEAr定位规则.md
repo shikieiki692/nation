@@ -1,6 +1,6 @@
 ﻿---
 title: SEAr定位规则
-aliases: [芳香亲电取代定位, SEAr Orientation, 定位效应, 间位定位基, 邻对位定位基, 活化基, 钝化基]
+aliases: [芳香亲电取代, 芳香亲电取代定位, SEAr Orientation, 定位效应, 间位定位基, 邻对位定位基, 活化基, 钝化基, 苯环取代定位规则, 取代基定位效应]
 type: 知识点
 template_version: v1.3
 subject: 有机化学

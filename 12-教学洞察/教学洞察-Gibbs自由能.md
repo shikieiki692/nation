@@ -1,12 +1,14 @@
 ---
 title: 教学洞察-Gibbs自由能
 type: 教学洞察
+subject: "化学原理"
 related_kp: "[[Gibbs自由能]]"
 related_topics: ["[[专题-热力学初步]]", "[[专题-化学平衡]]"]
 sources:
   - "[[教学逻辑提炼-质心-热力学初步-第一轮]]"
   - "[[教学逻辑提炼-Zchem-热力学-第一三轮]]"
 rounds: [第一轮, 第二轮, 第三轮]
+updated: 2026-06-29
 version: v1.0
 created: 2026-06-11
 tags: [教学洞察, 热力学, Gibbs自由能, 自发性, 相变, ΔG判据]

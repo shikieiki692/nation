@@ -1,6 +1,7 @@
 ---
 title: ¹H NMR
 aliases:
+  - 核磁共振
   - 核磁共振氢谱
   - 氢谱
   - ¹H-NMR

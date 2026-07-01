@@ -6,7 +6,7 @@ chapter: 4
 chapter_title: 取代与消除
 syllabus_module: 基础要求-有机化学
 phase: B
-status: v1.0
+status: 已提炼
 updated: 2026-05-10
 handout_plan:
   - target: "芳香烃与卤代烃"

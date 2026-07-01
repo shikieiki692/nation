@@ -52,9 +52,12 @@ from docx_utils import postprocess_pandoc_docx
 SCRIPT_DIR = Path(__file__).resolve().parent
 VAULT_ROOT = SCRIPT_DIR.parent.parent
 HANDOUT_SRC = VAULT_ROOT / "04-课件" / "学生讲义"
-HANDOUT_OUT = VAULT_ROOT / "06-学生侧材料" / "讲义"
+HANDOUT_OUT = VAULT_ROOT / "00-首页" / "学生讲义Word"
 
 SRC_GLOB = "*.md"
+
+# Vault root media directory (images are here, not in handout subdir)
+VAULT_MEDIA = VAULT_ROOT / "media"
 
 # Pandoc 转换扩展
 PANDOC_EXTENSIONS = "markdown+tex_math_dollars+tex_math_single_backslash+pipe_tables+raw_tex"
@@ -120,9 +123,10 @@ def _transform_callout_blocks(text: str) -> str:
 
     Obsidian callouts (> 🧠/🗣️/⚠️/etc...) render as plain indented text in Word.
     This converts them to normal paragraphs with bold headers that stand out.
+    Emoji symbols are stripped — only the label text (教学洞察, 易错点, etc.) remains.
 
     Before:   > 🧠 **教学洞察**：内容
-    After:    **🧠 教学洞察**：内容
+    After:    **教学洞察**：内容
 
     Continuation lines (additional > lines) have their > prefix stripped.
     """
@@ -143,12 +147,13 @@ def _transform_callout_blocks(text: str) -> str:
             while i < len(lines) and lines[i].strip().startswith('> '):
                 block.append(re.sub(r'^>\s*', '', lines[i]))
                 i += 1
-            # Boldify the emoji + bold header on the first line
+            # Boldify the label on the first line, strip emoji
             if block:
                 first = block[0]
+                # Remove emoji, keep only the **bold label**
                 first = re.sub(
                     r'^([' + CALLOUT_EMOJIS + r'])\s*\*\*(.*?)\*\*',
-                    r'**\1 \2**',
+                    r'**\2**',
                     first,
                 )
                 block[0] = first
@@ -168,13 +173,162 @@ def _transform_callout_blocks(text: str) -> str:
 
 
 def _preprocess_ce_in_math(text: str) -> str:
-    """Convert \\ce{...} → \\text{...} inside math ($...$ / $$...$$) for OMML compat.
+    r"""Convert \ce{...} → proper LaTeX inside math ($...$ / $$...$$) for OMML compat.
 
-    Pandoc passes \\ce{} through to OMML, but OMML doesn't understand the
-    mhchem package macros.  Wrapping in \\text{} preserves the content as
-    readable upright text in the Word equation editor.
+    Complete mhchem-to-LaTeX converter handling:
+      - Arrows: ->, <-, <=>, ->[text], <-[text]
+      - Charges: H+, ClO4-, Fe3+ (detected by trailing +/-)
+      - Subscripts: H2O → H_2O, Fe2O3 → Fe_2O_3
+      - Isotopes: ^{238}_{92}U → ^{238}_{92}U
+      - Comparison: >> → \\gg, << → \\ll
+      - Chinese text in formulas (preserved as-is inside \\text{})
+
+    Uses balanced-brace matching to handle nested {} inside \\ce{...}.
     """
-    return re.sub(r'\\ce\{([^}]*)\}', r'\\text{\1}', text)
+    def _find_ce_end(text, start):
+        r"""Find matching } for \ce{ starting at 'start'. Returns end index (exclusive)."""
+        if not text[start:].startswith('\\ce{'):
+            return -1
+        i = start + 4  # skip \ce{
+        depth = 1
+        while i < len(text) and depth > 0:
+            if text[i] == '{':
+                depth += 1
+            elif text[i] == '}':
+                depth -= 1
+            i += 1
+        return i if depth == 0 else -1
+
+    def _has_explicit_subscript(species):
+        """Check if species contains explicit _ (subscript) notation."""
+        i = 0
+        while i < len(species):
+            if species[i] == '\\' and i + 1 < len(species):
+                i += 2  # skip escaped char
+            elif species[i] == '{':
+                depth = 1
+                i += 1
+                while i < len(species) and depth > 0:
+                    if species[i] == '{': depth += 1
+                    elif species[i] == '}': depth -= 1
+                    i += 1
+            elif species[i] == '_':
+                return True
+            else:
+                i += 1
+        return False
+
+    def _parse_species(species):
+        """Convert a single mhchem species to LaTeX.
+
+        Rules:
+          1. ^{...} and _{...} preserved as-is
+          2. Bare ^x → ^{x}, bare _x → _{x}
+          3. Trailing charge (+, -, 2+, 3-, etc) → ^{...}
+          4. Bare digits after letters → _{digit}
+          5. Leading digits → _{digit}
+          6. Special chars (*, δ, Δ) preserved
+        """
+        import re as _re
+
+        # Already fully specified with ^ or _ — just normalize bare markers
+        if '^' in species or _has_explicit_subscript(species):
+            s = _re.sub(r'\^([^{])', r'^{\1}', species)
+            s = _re.sub(r'_([^{])', r'_{\1}', s)
+            return s
+
+        # Detect trailing charge: ClO4- → charge -, H3O+ → charge +
+        # Simple: match only the trailing +/- as the charge
+        # Note: Fe3+ → Fe_3^{+} (3 treated as subscript, not charge digit)
+        # This is acceptable — explicit ^{3+} notation is preferred for charge digits
+        charge_match = _re.search(r'([+\-])$', species)
+        if charge_match:
+            base = species[:charge_match.start()]
+            charge = charge_match.group(1)
+            # Convert subscripts in the base part (digit after letter → _{digit})
+            base = _re.sub(r'([A-Za-z\)}])(\d)', r'\1_{\2}', base)
+            return base + '^{' + charge + '}'
+
+        # No charge, no explicit subscripts — add subscripts for bare digits
+        result = _re.sub(r'([A-Za-z\)}])(\d)', r'\1_{\2}', species)
+        return result
+
+    def _convert_ce_content(inner):
+        """Convert full mhchem content to proper LaTeX.
+
+        1. Replace arrows (longest first)
+        2. Split by + and spaces (preserving arrow parts)
+        3. Parse each species
+        4. Recombine
+        """
+        import re as _re
+
+        s = inner
+
+        # Replace arrows (longest first to avoid partial matches)
+        # <-[text] and ->[text] with conditions
+        s = _re.sub(r'<-\[([^\]]*)\]', r'\\xleftarrow{\\text{\1}}', s)
+        s = _re.sub(r'->\[([^\]]*)\]', r'\\xrightarrow{\\text{\1}}', s)
+        # Equilibrium arrows
+        s = s.replace('<=>', r' \rightleftharpoons ')
+        s = s.replace('<=>', r' \rightleftharpoons ')  # double if needed
+        # Simple arrows
+        s = s.replace('->', r' \rightarrow ')
+        s = s.replace('<-', r' \leftarrow ')
+        # Comparison operators
+        s = s.replace('>>', r' \\gg ')
+        s = s.replace('<<', r' \\ll ')
+
+        # If result already has LaTeX commands (from arrow replacement), split and parse
+        has_latex = any(cmd in s for cmd in [
+            '\\rightarrow', '\\leftarrow', '\\rightleftharpoons',
+            '\\xrightarrow', '\\xleftarrow', '\\gg', '\\ll',
+        ])
+
+        if has_latex:
+            # Split by " + " (species separator, NOT charge +), parse each token
+            # In mhchem: "H+ + A-" → split by " + " → ["H+", "A-"]
+            tokens = _re.split(r'(\s\+\s|\\rightarrow|\\leftarrow|'
+                               r'\\rightleftharpoons|\\xrightarrow\{[^}]*\}|'
+                               r'\\xleftarrow\{[^}]*\}|\\gg|\\ll)', s)
+            parsed = []
+            for tok in tokens:
+                tok_stripped = tok.strip()
+                if tok_stripped in ('+', '-', '\\rightarrow', '\\leftarrow',
+                                    '\\rightleftharpoons', '\\gg', '\\ll'):
+                    parsed.append(' ' + tok_stripped + ' ')
+                elif tok_stripped.startswith('\\xrightarrow') or tok_stripped.startswith('\\xleftarrow'):
+                    parsed.append(' ' + tok_stripped + ' ')
+                elif tok_stripped:
+                    parsed.append(_parse_species(tok_stripped))
+                else:
+                    parsed.append(tok)
+            return ''.join(parsed)
+        else:
+            # No arrows — parse as space-separated species
+            parts = s.split()
+            parsed = [_parse_species(p) for p in parts if p]
+            return ' '.join(parsed)
+
+    # Find and replace all \ce{...} blocks with balanced brace matching
+    result = []
+    i = 0
+    while i < len(text):
+        ce_start = text.find('\\ce{', i)
+        if ce_start < 0:
+            result.append(text[i:])
+            break
+        # Copy text before this \ce
+        result.append(text[i:ce_start])
+        # Find balanced closing brace
+        end = _find_ce_end(text, ce_start)
+        if end < 0:
+            result.append(text[ce_start:])
+            break
+        inner = text[ce_start + 4:end - 1]  # content between \ce{ and }
+        result.append(_convert_ce_content(inner))
+        i = end
+    return ''.join(result)
 
 
 def _strip_metadata_blockquote(text: str) -> str:
@@ -215,13 +369,15 @@ def _strip_metadata_blockquote(text: str) -> str:
     if first_h < 0:
         return text
 
-    # Scan for blockquote region followed by ---
+    # Scan for blockquote region followed by --- or ## heading
     in_bq = False
     first_div = -1
+    bq_end = -1  # line after last blockquote line
     for i in range(first_h + 1, len(lines)):
         ln = lines[i]
         if ln.startswith("> "):
             in_bq = True
+            bq_end = i + 1
             continue
         if in_bq:
             if ln.strip() == "":
@@ -233,12 +389,18 @@ def _strip_metadata_blockquote(text: str) -> str:
             in_bq = False
             break
 
-    if first_div < 0:
-        return text
+    # Case A: blockquote + --- divider (original behavior)
+    if first_div >= 0:
+        kept = lines[: first_h + 1] + ["", lines[first_div]] + lines[first_div + 1 :]
+        return "\n".join(kept)
 
-    # Keep: heading + blank line + divider + everything after
-    kept = lines[: first_h + 1] + ["", lines[first_div]] + lines[first_div + 1 :]
-    return "\n".join(kept)
+    # Case B: blockquote followed by ## heading (no --- divider)
+    # Strip the entire blockquote region
+    if bq_end > first_h:
+        kept = lines[: first_h + 1] + [""] + lines[bq_end:]
+        return "\n".join(kept)
+
+    return text
 
 
 def _strip_footer(text: str) -> str:
@@ -295,18 +457,16 @@ def _preprocess_markdown(text: str) -> str:
     #     ___ renders identically as a horizontal rule in Word.
     text = re.sub(r'^---\s*$', '___', text, flags=re.MULTILINE)
 
-    # 1d) Remove ⚠️ and 💡 emoji symbols (formatting artifacts)
+    # 1d) Remove residual emoji symbols from callout labels (safety net)
+    text = re.sub(r'[🧠🗣️⚠️💡⚡🔥📝🌟✅🔗]\s*', '', text)
 
+    # 1e) #### headings → bold text (#### is too deep for Word, convert to bold)
+    text = re.sub(r'^####\s+(.+)$', r'**\1**', text, flags=re.MULTILINE)
 
-    # 2) Convert \ce{...} → \text{...} inside math blocks
-    #    First handle display math $$...$$
-    text = re.sub(r'(\$\$[^$]*?)\\ce\{([^}]*)\}([^$]*?\$\$)',
-                  lambda m: m.group(1) + '\\text{' + m.group(2) + '}' + m.group(3),
-                  text)
-    #    Then handle inline math $...$
-    text = re.sub(r'(\$[^$]*?)\\ce\{([^}]*)\}([^$]*?\$)',
-                  lambda m: m.group(1) + '\\text{' + m.group(2) + '}' + m.group(3),
-                  text)
+    # 2) \\ce{...} → standard LaTeX math inside $...$
+    #    Pandoc docx output does NOT support mhchem \\ce{}.
+    #    Convert to standard LaTeX with proper superscript/subscript notation.
+    text = _preprocess_ce_in_math(text)
 
     # 3) Wiki-links to plain text
     text = _resolve_wikilink(text)
@@ -495,7 +655,11 @@ def convert_file(
     #      Uses the excalidraw-to-png.mjs script (Puppeteer headless browser)
     for excal_match in re.finditer(r'!?\[\[([^\]]+\.(?:md|excalidraw))(?:\|[^\]]*)?\]\]', processed_body):
         excal_path_str = excal_match.group(1)
+        # Try handout dir first, then vault root media/
         excal_full = md_path.parent / excal_path_str
+        if not excal_full.exists():
+            # Try vault root media/ (e.g. media/xxx.md → C:\Obsidion\妙妙屋\media\xxx.md)
+            excal_full = VAULT_MEDIA / Path(excal_path_str).name
         if not excal_full.exists():
             continue
         # Check if it's an Excalidraw file (has excalidraw-plugin frontmatter)
@@ -527,6 +691,50 @@ def convert_file(
     # 1b3) Replace .md image embeds with rendered PNG (if available)
     #      The "Excalidraw" files are actually Mermaid diagrams; we render them to PNG.
     #      Fallback: if no PNG exists, the .md ref will be removed by step 1b in _preprocess_markdown.
+
+    # 1b2b) Auto-render SVG files to PNG if no sibling PNG exists
+    for svg_match in re.finditer(r'!\[\[([^\]]+\.svg)(?:\|[^\]]*)?\]\]', processed_body):
+        svg_path_str = svg_match.group(1)
+        # Try vault root media/ first, then handout dir
+        svg_full = VAULT_MEDIA / Path(svg_path_str).name
+        if not svg_full.exists():
+            svg_full = md_path.parent / svg_path_str
+        if not svg_full.exists():
+            continue
+        png_candidate = svg_full.with_suffix('.png')
+        if png_candidate.exists():
+            continue
+        # Render SVG → PNG
+        script_dir = Path(__file__).parent
+        svg_script = script_dir / 'svg-to-png.mjs'
+        if svg_script.exists():
+            if verbose:
+                print(f"  [SVG] Rendering {svg_path_str} → {png_candidate.name}...", file=sys.stderr)
+            subprocess.run(
+                ['node', str(svg_script), str(svg_full), str(png_candidate)],
+                capture_output=True, timeout=60000,
+            )
+        if png_candidate.exists():
+            print(f"  [SVG] {svg_path_str} → {png_candidate.name} (OK)", file=sys.stderr)
+        else:
+            print(f"  [WARN] SVG render failed for {svg_path_str}", file=sys.stderr)
+
+    # 1b2c) Replace SVG references with PNG (after rendering, before preprocess)
+    def _svg_to_png_ref(m: re.Match) -> str:
+        svg_path = m.group(1)
+        alias = m.group(2) or ""
+        png_name = Path(svg_path).stem + '.png'
+        # Check if PNG exists
+        for d in [VAULT_MEDIA, md_path.parent / 'media', md_path.parent]:
+            if (d / png_name).exists():
+                return f'![[media/{png_name}|{alias}]]' if alias else f'![[media/{png_name}]]'
+        return m.group(0)
+    processed_body = re.sub(
+        r'!\[\[([^\]]+\.svg)(?:\|([^\]]*))?\]\]',
+        _svg_to_png_ref,
+        processed_body,
+    )
+
     def _mermaid_png_fallback(m: re.Match) -> str:
         """If [[media/xxx.md]] or [[xxx.md]] has a media/xxx.png sibling, use PNG."""
         path = m.group(1)   # e.g. "media/excalidraw-xxx.md" or "excalidraw-xxx.md"
@@ -537,6 +745,7 @@ def convert_file(
         candidates = [
             md_path.parent / f"{base}.png",                              # relative to handout
             md_path.parent / "media" / f"{Path(base).name}.png",         # media/ dir
+            VAULT_MEDIA / f"{Path(base).name}.png",                      # vault root media/
         ]
         for cand in candidates:
             if cand.exists():
@@ -562,7 +771,7 @@ def convert_file(
     tmp_md.write_text(full_md, encoding="utf-8")
 
     # ── Sync media directory for image embeds ──
-    src_media = HANDOUT_SRC / "media"
+    src_media = VAULT_MEDIA
     dst_media = out_dir / "media"
     if src_media.exists():
         dst_media.mkdir(parents=True, exist_ok=True)
@@ -696,6 +905,7 @@ def main():
         f for f in all_md
         if f.stem not in EXCLUDED_STEMS
         and not any(f.stem.startswith(p) for p in EXCLUDED_PREFIXES)
+        and '超级充实' in f.stem
     ]
 
     if args.file:

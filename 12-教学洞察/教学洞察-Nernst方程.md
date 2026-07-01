@@ -1,6 +1,7 @@
 ---
 title: 教学洞察-Nernst方程
 type: 教学洞察
+subject: "化学原理"
 related_kp: "[[能斯特方程]]"
 related_topics: ["[[专题-氧化还原与电化学]]"]
 sources:
@@ -8,6 +9,7 @@ sources:
   - "[[教学逻辑提炼-周坤无机新课-酸碱理论与电化学-第一轮]]"
   - "[[提炼-普化原理-第10章-氧化还原电化学]]"
 rounds: [第一轮, 第二轮]
+updated: 2026-06-29
 created: 2026-06-09
 tags: [教学洞察, Nernst方程, 电化学]
 ---

@@ -2,6 +2,7 @@
 title: Agent 10 · 备课
 type: agent-prompt-lightweight
 agent_id: 10
+updated: 2026-06-29
 version: v1.4
 tags: [agent, 使用]
 ---

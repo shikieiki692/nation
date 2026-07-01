@@ -2,6 +2,7 @@
 title: Agent 5 · 交叉链接
 type: agent-prompt-lightweight
 agent_id: 5
+updated: 2026-06-29
 version: v1.0
 tags: [agent, 构建]
 ---

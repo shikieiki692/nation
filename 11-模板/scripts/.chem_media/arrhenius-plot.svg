@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="431" version="1.0" viewBox="-10 75 648 431" width="648">
+  <g style="fill:none;stroke:#000;stroke-width:1;font-family:Sans Serif" transform="matrix(0.8171101,0,0,0.7879745,98.170359,68.333172)">
+    <text style="fill:#000;stroke:none;stroke-width:1" transform="translate(100,50)">
+      <tspan style="font-size:25px" x="187" y="17">2 NO</tspan><tspan style="font-size:18px" dy="2.5">2</tspan><tspan style="font-size:25px" dy="-2.5"> → 2 NO + O</tspan><tspan style="font-size:18px" dy="2.5">2</tspan>
+    </text>
+    <g style="font-size:16.25px;font-weight:700;fill:#000;stroke:none;stroke-width:1" transform="matrix(0,-1,1,0,-113.81895,495.44612)">
+      <text style="font-size:16.25px" x="117.89995" y="15">ln(k [10</text>
+      <text style="font-size:10px" x="190.89996" y="9.5">-4</text>
+      <text style="font-size:16.25px" x="204.69998" y="15">cm</text>
+      <text style="font-size:10px" x="231.69998" y="9.5">3</text>
+      <text style="font-size:16.25px" x="240.89999" y="15">mol</text>
+      <text style="font-size:10px" x="272.89999" y="9.5">-1</text>
+      <text style="font-size:16.25px" x="286.70001" y="15">s</text>
+      <text style="font-size:10px" x="299.70001" y="9.5">-1</text>
+      <text style="font-size:16.25px" x="308.70001" y="15">])</text>
+    </g>
+    <g style="font-size:16.25px;fill:#000;stroke:none">
+      <text transform="translate(-66.818947,646.44612)" x="-13" y="-150">0</text>
+      <text transform="translate(-82.818947,586.44612)" x="-9" y="-135">0,5</text>
+      <text transform="translate(-66.818947,526.44612)" x="-13" y="-120">1</text>
+      <text transform="translate(-82.818947,466.44612)" x="-9" y="-105">1,5</text>
+      <text transform="translate(-66.818947,406.44612)" x="-13" y="-90">2</text>
+      <text transform="translate(-82.818947,346.44612)" x="-9" y="-75">2,5</text>
+      <text transform="translate(-66.818947,286.44612)" x="-13" y="-60">3</text>
+      <text transform="translate(-82.818947,226.44612)" x="-9" y="-45">3,5</text>
+      <text transform="translate(-66.818947,166.44612)" x="-13" y="-30">4</text>
+      <text transform="translate(-82.764591,99.964005)" x="-9" y="-15">23</text>
+      <text transform="translate(-66.764591,39.963996)" x="-35.548981" y="-0.8502813">23,5</text>
+    </g>
+    <path style="fill:none;stroke:#000;stroke-width:1" transform="translate(-118.81895,1.4461109)" d="M60,480L56,480M60,471L56,471M60,462L56,462M60,453L56,453M60,435L56,435M60,426L56,426M60,417L56,417M60,408L56,408M60,390L56,390M60,381L56,381M60,372L56,372M60,363L56,363M60,345L56,345M60,336L56,336M60,327L56,327M60,318L56,318M60,300L56,300M60,291L56,291M60,282L56,282M60,273L56,273M60,255L56,255M60,246L56,246M60,237L56,237M60,228L56,228M60,210L56,210M60,201L56,201M60,192L56,192M60,183L56,183M60,165L56,165M60,156L56,156M60,147L56,147M60,138L56,138M60,120L56,120M60,111L56,111M60,489L53,489M60,444L53,444M60,399L53,399M60,354L53,354M60,309L53,309M60,264L53,264M60,219L53,219M60,174L53,174M60,129L53,129" />
+    <path style="fill:none;stroke:#000;stroke-width:1" transform="translate(-118.76459,-5.0360045)" d="M60,75L56,75M60,66L56,66M60,57L56,57M60,48L56,48M60,84L53,84M60,39L53,39" />
+    <g style="fill:none;stroke:#000;stroke-width:1;" transform="matrix(1.1106348,0,0,0.8454097,-125.40709,77.119491)">
+      <polyline points="60,39 60,489" style="fill:none;stroke-width:1;" />
+    </g>
+    <text transform="translate(49,653)" style="font-size:16.25px;font-weight:700;fill:#000;stroke:none" x="252" y="-119.4">1/T [1/K]</text>
+    <text transform="translate(49,667)" style="font-size:16.25px;fill:#000;stroke:none" x="-12" y="-155">0,0015</text>
+    <text transform="translate(224,667)" style="font-size:16.25px;fill:#000;stroke:none" x="-56" y="-155">0,00155</text>
+    <text transform="translate(411,667)" style="font-size:16.25px;fill:#000;stroke:none" x="-103" y="-155">0,0016</text>
+    <text transform="translate(587,667)" style="font-size:16.25px;fill:#000;stroke:none" x="-147" y="-155">0,00165</text>
+    <text transform="translate(774,667)" style="font-size:16.25px;fill:#000;stroke:none" x="-193" y="-155">0,0017</text>
+    <path style="fill:none;stroke:#000;stroke-width:1" d="M87,490L87,494M114,490L114,494M142,490L142,494M169,490L169,494M223,490L223,494M250,490L250,494M278,490L278,494M305,490L305,494M359,490L359,494M386,490L386,494M414,490L414,494M441,490L441,494M495,490L495,494M522,490L522,494M550,490L550,494M577,490L577,494M60,490L60,497M196,490L196,497M332,490L332,497M468,490L468,497M604,490L604,497" />
+    <polyline points="60,490 604,490" style="fill:none;stroke:#000;stroke-width:1;" transform="matrix(1.0670195,0,0,1,-40.512758,0)" />
+    <path style="fill:none;stroke:#000;stroke-width:2" d="M575,331L483,308L318,234L139,157L126,137" />
+    <path style="fill:#000;stroke:#000;stroke-width:2" d="M 573,329L577,329L577,333L573,333L573,329M 481,306L485,306L485,310L481,310L481,306M 316,232L320,232L320,236L316,236L316,232M 137,155L141,155L141,159L137,159L137,155M 124,135L128,135L128,139L124,139L124,135"/>
+    <polyline points="621,356 52,116" style="fill:none;stroke:red;stroke-width:2;" transform="matrix(0.9689624,0,0,0.9652161,10.444152,8.2089916)" />
+    <path d="M -57.70,490.30 C -36.67,490.30 -15.64,490.30 5.39,490.30" style="fill:none;stroke:#000;stroke-width:1" />
+    <g transform="matrix(0.1738609,0,0,0.1745904,-68.672286,49.254868)">
+      <polyline points="621,356 52,116" style="fill:none;stroke:red;stroke-width:12;" transform="matrix(0.9689624,0,0,0.9652161,10.444152,8.2089916)" />
+    </g>
+    <path d="M -58.70,34.45 C -58.70,52.98 -58.70,71.51 -58.70,90.04" style="fill:none;stroke:#000;stroke-width:1" />
+    <polyline points="60,75 56,75" style="fill:none;stroke:#000;stroke-width:1" transform="translate(-119.61698,13.331639)" />
+    <text transform="translate(-50.912772,669.02817)" style="font-size:16.25px;fill:#000;stroke:none" x="-12" y="-155">0</text>
+    <polyline points="87,490 87,494" style="fill:none;stroke:#000;stroke-width:1" transform="translate(-118.68385,1.3517842)" />
+    <polyline points="114,490 114,494" style="fill:none;stroke:#000;stroke-width:1" transform="translate(-118.68385,1.3517842)" />
+    <polyline points="60,490 60,497" style="fill:none;stroke:#000;stroke-width:1" transform="translate(-118.68385,1.3517842)" />
+    <path d="M 37.74,120.81 C 37.82,100.45 37.82,100.61 37.82,100.61M -65.45,109.60 C -51.37,109.71 -51.48,109.71 -51.48,109.71M -66.54,90.55 C -52.46,90.67 -52.57,90.67 -52.57,90.67M 60.12,130.21 C 60.20,109.84 60.20,110 60.20,110.00M 6.15,500.66 C 6.64,480.64 6.64,480.80 6.64,480.80M 23.05,500.66 C 23.54,480.39 23.54,480.55 23.54,480.55" style="fill:none;stroke:#00f;stroke-width:1;" />
+    <path d="M87,490L87,494" style="fill:none;stroke:#000;stroke-width:1" transform="translate(-53.98437,0.4278365)" />
+  </g>
+</svg>

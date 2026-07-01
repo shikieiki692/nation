@@ -1,12 +1,12 @@
 ---
 title: 提炼-ABOC-第8章-过渡金属催化
- type: 资料提炼
+type: 资料提炼
 source: ABOC（中国化学奥林匹克基础要求自编教材）
 chapter: 8
 chapter_title: 过渡金属催化反应基础
 syllabus_module: 基础要求-有机化学
 phase: B
-status: v1.0
+status: 已提炼
 updated: 2026-05-10
 handout_plan:
   - target: "有机化学基础"

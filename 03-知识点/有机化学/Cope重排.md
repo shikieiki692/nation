@@ -1,6 +1,6 @@
 ---
 title: Cope重排
-aliases: [Cope Rearrangement, 柯普重排, [3,3]-σ迁移, 3,3-σ重排]
+aliases: ["Cope Rearrangement", 柯普重排, "[3,3]-σ迁移", 3,3-σ重排]
 type: 知识点
 subject: 有机化学
 module: 有机化学

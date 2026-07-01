@@ -1,0 +1,35 @@
+\contentsline {section}{\numberline {1}化学平衡}{3}{section.1}%
+\contentsline {subsection}{学习目标}{3}{subsection*.2}%
+\contentsline {subsection}{一、为什么需要化学平衡}{3}{subsection*.3}%
+\contentsline {subsection}{二、化学平衡的基本概念}{4}{subsection*.4}%
+\contentsline {subsubsection}{2.1 可逆反应与动态平衡}{4}{subsubsection*.5}%
+\contentsline {subsubsection}{2.2 平衡常数是反应的特征常数}{4}{subsubsection*.6}%
+\contentsline {subsection}{三、平衡常数}{5}{subsection*.7}%
+\contentsline {subsubsection}{3.1 实验平衡常数}{5}{subsubsection*.8}%
+\contentsline {subsubsection}{3.2 书写平衡常数的规则}{5}{subsubsection*.9}%
+\contentsline {subsubsection}{3.3 标准平衡常数 \(K^\theta \)}{6}{subsubsection*.10}%
+\contentsline {subsubsection}{3.4 \(\Delta G^\theta \) 与 \(K^\theta \) 的桥梁公式}{6}{subsubsection*.11}%
+\contentsline {subsubsection}{3.5 多重平衡规则}{7}{subsubsection*.12}%
+\contentsline {subsection}{四、反应方向判断：Q 与 K 的比较}{8}{subsection*.13}%
+\contentsline {subsubsection}{4.1 Q 的书写}{8}{subsubsection*.14}%
+\contentsline {subsubsection}{4.2 Q-K 判断的定量分析}{8}{subsubsection*.15}%
+\contentsline {subsection}{五、平衡移动}{8}{subsection*.16}%
+\contentsline {subsubsection}{5.1 勒夏特列原理(定性)}{8}{subsubsection*.17}%
+\contentsline {subsubsection}{5.2 浓度与压力的影响---改变 Q}{9}{subsubsection*.18}%
+\contentsline {subsubsection}{5.3 惰性气体的影响(竞赛高频)}{9}{subsubsection*.19}%
+\contentsline {subsubsection}{5.4 温度的影响---改变 K}{10}{subsubsection*.20}%
+\contentsline {subsubsection}{5.5 Clausius-Clapeyron 方程(相变平衡特例)}{10}{subsubsection*.21}%
+\contentsline {subsubsection}{5.6 恒压 vs 恒容升温对平衡移动程度的比较}{11}{subsubsection*.22}%
+\contentsline {subsection}{六、平衡计算}{11}{subsection*.23}%
+\contentsline {subsubsection}{6.1 ICE 表方法}{11}{subsubsection*.24}%
+\contentsline {subsubsection}{6.2 平衡转化率}{11}{subsubsection*.25}%
+\contentsline {subsubsection}{6.3 分解压}{12}{subsubsection*.26}%
+\contentsline {subsubsection}{6.4 平衡计算通用流程}{12}{subsubsection*.27}%
+\contentsline {subsection}{七、知识网络与方法论}{12}{subsection*.28}%
+\contentsline {subsubsection}{7.1 ``Q-K'' 分析框架}{12}{subsubsection*.29}%
+\contentsline {subsubsection}{7.2 三大核心公式的关系}{13}{subsubsection*.30}%
+\contentsline {subsubsection}{7.3 温度影响的两种处理}{13}{subsubsection*.31}%
+\contentsline {subsection}{八、典型例题}{13}{subsection*.32}%
+\contentsline {subsection}{九、本节总结速查}{15}{subsection*.33}%
+\contentsline {subsection}{十、三级练习题}{16}{subsection*.34}%
+\contentsline {subsection}{十一、练习题答案}{18}{subsection*.35}%

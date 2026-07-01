@@ -13,6 +13,10 @@
 
 % ── 图片 ──
 \usepackage{graphicx}
+\usepackage[font=small,labelfont=bf,skip=4pt]{caption}
+\usepackage{wrapfig}
+\setlength{\wrapfigureside}{12pt}
+\setlength{\wrapfigsep}{8pt}
 
 % ── 表格（跨页+自动列宽）──
 \usepackage{booktabs}
@@ -47,6 +51,9 @@
 \setcounter{totalnumber}{10}
 \setcounter{topnumber}{10}
 \setcounter{bottomnumber}{10}
+\setlength{\textfloatsep}{10pt plus 2pt minus 2pt}
+\setlength{\floatsep}{8pt plus 2pt minus 2pt}
+\setlength{\intextsep}{10pt plus 2pt minus 2pt}
 
 % ── 超链接(无红框) ──
 \usepackage[colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black]{hyperref}
@@ -62,9 +69,12 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{\small\color{chapterblue}\leftmark}
+\fancyhead[L]{\small\color{chapterblue}\nouppercase{\leftmark}}
 \fancyhead[R]{\small\color{chapterblue}\thepage}
 \renewcommand{\headrule}{{\color{chapterblue}\hrule height 0.8pt}}
+% 去掉页眉中的"超级充实版"等后缀
+\renewcommand{\sectionmark}[1]{\markboth{#1}{}}
+\patchcmd{\section}{\markright{\thesection\ --\ #1}}{\markright{\thesection}}{}{}
 
 % ── 章节编号与样式 ──
 \setcounter{secnumdepth}{1}
@@ -158,3 +168,17 @@
 % 练习题标题（去掉括号）
 % 例题标题（去掉中括号）
 % 这些需要在convert.py预处理中做正则替换
+
+% ── Unicode 符号渲染命令（preprint 中调用，\ensuremath 避免 $...$ 切断 CJK 字间距）──
+\newcommand{\箭}{\ensuremath{\rightarrow}}
+\newcommand{\左箭}{\ensuremath{\leftarrow}}
+\newcommand{\上箭}{\ensuremath{\uparrow}}
+\newcommand{\下箭}{\ensuremath{\downarrow}}
+\newcommand{\衡}{\ensuremath{\rightleftharpoons}}
+\newcommand{\双箭}{\ensuremath{\leftrightarrow}}
+\newcommand{\约等于}{\ensuremath{\approx}}
+\newcommand{\小于等于}{\ensuremath{\leq}}
+\newcommand{\大于等于}{\ensuremath{\geq}}
+\newcommand{\不等于}{\ensuremath{\neq}}
+\newcommand{\西格马}{\ensuremath{\sigma}}
+\newcommand{\派}{\ensuremath{\pi}}

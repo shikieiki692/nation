@@ -1,0 +1,40 @@
+\contentsline {section}{\numberline {1}第六讲：晶体学基础}{3}{section.1}%
+\contentsline {subsection}{学习目标}{3}{subsection*.2}%
+\contentsline {subsection}{一、晶体与晶体的基本性质}{3}{subsection*.3}%
+\contentsline {subsubsection}{1.1 晶体的定义}{3}{subsubsection*.4}%
+\contentsline {subsubsection}{1.2 晶体的四个基本性质}{3}{subsubsection*.5}%
+\contentsline {subsubsection}{1.3 晶体与非晶体的对比}{3}{subsubsection*.6}%
+\contentsline {subsection}{二、点阵理论}{4}{subsection*.7}%
+\contentsline {subsubsection}{2.1 结构基元与点阵}{4}{subsubsection*.8}%
+\contentsline {subsubsection}{2.2 平面点阵与正当单位}{5}{subsubsection*.9}%
+\contentsline {subsubsection}{2.3 空间点阵与14种布拉维格子}{5}{subsubsection*.10}%
+\contentsline {subsection}{三、七大晶系}{6}{subsection*.11}%
+\contentsline {subsubsection}{3.1 晶胞参数}{6}{subsubsection*.12}%
+\contentsline {subsubsection}{3.2 七大晶系的晶胞参数特征}{6}{subsubsection*.13}%
+\contentsline {subsubsection}{3.3 晶系的对称性判定}{7}{subsubsection*.14}%
+\contentsline {subsection}{四、晶胞}{7}{subsection*.15}%
+\contentsline {subsubsection}{4.1 晶胞的基本特征}{7}{subsubsection*.16}%
+\contentsline {subsubsection}{4.2 素晶胞与复晶胞}{7}{subsubsection*.17}%
+\contentsline {subsubsection}{4.3 晶胞中原子的分数坐标}{8}{subsubsection*.18}%
+\contentsline {subsubsection}{4.4 晶胞中的原子计数}{9}{subsubsection*.19}%
+\contentsline {subsection}{五、等同点系}{10}{subsection*.20}%
+\contentsline {subsubsection}{5.1 定义}{10}{subsubsection*.21}%
+\contentsline {subsubsection}{5.2 拆分规则}{10}{subsubsection*.22}%
+\contentsline {subsubsection}{5.3 应用示例}{10}{subsubsection*.23}%
+\contentsline {subsubsection}{5.4 等同点系与点阵的区别}{10}{subsubsection*.24}%
+\contentsline {subsection}{六、对称元素基础}{11}{subsection*.25}%
+\contentsline {subsubsection}{6.1 晶体中的对称元素}{11}{subsubsection*.26}%
+\contentsline {subsubsection}{6.2 晶体的对称性限制}{11}{subsubsection*.27}%
+\contentsline {subsubsection}{6.3 晶系与对称性的对应}{11}{subsubsection*.28}%
+\contentsline {subsection}{七、规律与方法}{12}{subsection*.29}%
+\contentsline {subsubsection}{7.1 晶体学分析的三步流程}{12}{subsubsection*.30}%
+\contentsline {subsubsection}{7.2 常见误区}{12}{subsubsection*.31}%
+\contentsline {subsection}{八、典型例题}{12}{subsection*.32}%
+\contentsline {subsection}{九、拓展与联系}{13}{subsection*.33}%
+\contentsline {subsubsection}{9.1 与竞赛真题的对接}{13}{subsubsection*.34}%
+\contentsline {subsubsection}{9.2 跨专题联系}{13}{subsubsection*.35}%
+\contentsline {subsubsection}{9.3 深化方向(后续轮次)}{14}{subsubsection*.36}%
+\contentsline {subsection}{十、本节总结 · 速查}{14}{subsection*.37}%
+\contentsline {subsection}{十一、练习题}{14}{subsection*.38}%
+\contentsline {subsection}{十二、参考答案与提示}{15}{subsection*.39}%
+\contentsline {subsection}{十三、延伸阅读}{16}{subsection*.40}%

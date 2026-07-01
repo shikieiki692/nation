@@ -1,0 +1,47 @@
+\contentsline {section}{\numberline {1}分子结构基础 · 超级充实版}{3}{section.1}%
+\contentsline {subsection}{学习目标}{3}{subsection*.2}%
+\contentsline {subsection}{一、化学键基础 --- 原子为什么成键？键有哪些类型？}{3}{subsection*.3}%
+\contentsline {subsubsection}{1.1 为什么原子要成键？}{3}{subsubsection*.4}%
+\contentsline {subsubsection}{1.2 三大基本键型}{3}{subsubsection*.5}%
+\contentsline {subsubsection}{1.3 电负性 --- 判断键型的标尺}{4}{subsubsection*.6}%
+\contentsline {subsubsection}{1.4 共价键的本质 --- 轨道重叠}{5}{subsubsection*.7}%
+\contentsline {subsubsection}{1.5 配位键 --- 特殊的共价键}{7}{subsubsection*.8}%
+\contentsline {subsection}{二、Lewis 结构 --- 成键的语言}{8}{subsection*.9}%
+\contentsline {subsubsection}{2.1 为什么从 Lewis 结构开始？}{8}{subsubsection*.10}%
+\contentsline {subsubsection}{2.2 Lewis 结构书写 --- 五步法}{8}{subsubsection*.11}%
+\contentsline {subsubsection}{2.2b 键数公式 --- 画 Lewis 结构前的''秒算''工具}{8}{subsubsection*.12}%
+\contentsline {subsubsection}{2.3 形式电荷(Formal Charge)}{9}{subsubsection*.13}%
+\contentsline {subsubsection}{2.4 共振结构}{9}{subsubsection*.14}%
+\contentsline {subsubsection}{2.5 Lewis 结构式的局限性}{10}{subsubsection*.15}%
+\contentsline {subsection}{三、VSEPR 理论 --- 猜形状}{11}{subsection*.16}%
+\contentsline {subsubsection}{3.1 核心思想}{11}{subsubsection*.17}%
+\contentsline {subsubsection}{3.2 AXₙEₘ 模型}{11}{subsubsection*.18}%
+\contentsline {subsubsection}{3.3 关键规则}{12}{subsubsection*.19}%
+\contentsline {subsubsection}{3.4 分子极性判断 --- 三步法}{13}{subsubsection*.20}%
+\contentsline {subsection}{四、杂化轨道理论 --- 解释为什么}{13}{subsection*.21}%
+\contentsline {subsubsection}{4.1 杂化类型与几何构型}{14}{subsubsection*.22}%
+\contentsline {subsubsection}{4.2 等性杂化 vs 不等性杂化}{14}{subsubsection*.23}%
+\contentsline {subsubsection}{4.3 操作口诀}{15}{subsubsection*.24}%
+\contentsline {subsection}{五、离域--- 超越定域键}{15}{subsection*.25}%
+\contentsline {subsubsection}{5.1 形成条件}{15}{subsubsection*.26}%
+\contentsline {subsubsection}{5.2 表示法}{15}{subsubsection*.27}%
+\contentsline {subsubsection}{5.3 常见实例}{16}{subsubsection*.28}%
+\contentsline {subsubsection}{5.4 d-p\ensuremath {\pi }键现象(点到为止)}{17}{subsubsection*.29}%
+\contentsline {subsection}{六、等电子体 --- 迁移预测的利器}{17}{subsection*.30}%
+\contentsline {subsubsection}{6.1 定义}{17}{subsubsection*.31}%
+\contentsline {subsubsection}{6.2 常用等电子体序列}{18}{subsubsection*.32}%
+\contentsline {subsection}{七、分子轨道(MO)理论 --- 最完整的画像}{18}{subsection*.33}%
+\contentsline {subsubsection}{7.1 为什么需要 MO 理论？}{18}{subsubsection*.34}%
+\contentsline {subsubsection}{7.2 基本概念}{19}{subsubsection*.35}%
+\contentsline {subsubsection}{7.3 第二周期双原子分子 MO 能级图}{19}{subsubsection*.36}%
+\contentsline {subsubsection}{7.4 典型分子的 MO 电子排布}{20}{subsubsection*.37}%
+\contentsline {subsection}{八、分子间作用力 --- 从分子到聚集态}{21}{subsection*.38}%
+\contentsline {subsubsection}{8.1 分子间力概述}{21}{subsubsection*.39}%
+\contentsline {subsubsection}{8.2 氢键}{22}{subsubsection*.40}%
+\contentsline {subsection}{九、典型例题}{22}{subsection*.41}%
+\contentsline {subsection}{十、方法总结 · 结构预测工具链}{23}{subsection*.42}%
+\contentsline {subsubsection}{10.1 使用顺序}{23}{subsubsection*.43}%
+\contentsline {subsubsection}{10.2 核心速查表}{24}{subsubsection*.44}%
+\contentsline {subsection}{十一、练习题}{24}{subsection*.45}%
+\contentsline {subsection}{十二、参考答案与提示}{26}{subsection*.46}%
+\contentsline {subsection}{十三、延伸阅读}{29}{subsection*.47}%

@@ -1,6 +1,7 @@
 ---
 title: 提炼-学而思有机化学基础-批次C-芳香烃与醇酚醚
 type: 资料提炼
+source_book: 学而思 有机化学基础
 template_version: v1.3
 source_file: "[[08.芳香烃_笔记]]、[[09.醇酚醚_笔记]]、[[09第七章醇学生版]]"
 source_type: 网课课堂笔记+学生讲义

@@ -1,6 +1,7 @@
 ---
 title: 提炼-学而思有机化学基础-批次D-醛酮
 type: 资料提炼
+source_book: 学而思 有机化学基础
 template_version: v1.3
 source_file: "[[10.醛酮（一）_笔记]]、[[11.醛酮（二）_笔记]]、[[10-11第九讲醛酮学生版]]"
 source_type: 网课课堂笔记+学生讲义

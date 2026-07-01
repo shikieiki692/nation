@@ -3,7 +3,7 @@ title: 提炼-ABOC-PhaseD-习题拆题清单
 type: 资料提炼
 source: ABOC（中国化学奥林匹克基础要求自编教材）
 phase: D
-status: v1.0
+status: 已提炼
 updated: 2026-05-10
 ---
 

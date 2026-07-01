@@ -1,0 +1,12 @@
++kanjix.map;fonts/map/dvipdfmx;
++builtin35.map;fonts/map/dvips;
++download35.map;fonts/map/dvips;
++ps2pk.map;fonts/map/dvips;
++psfonts_pk.map;fonts/map/dvips;
++psfonts_t1.map;fonts/map/dvips;
++pdftex_dl14.map;fonts/map/pdftex;
++pdftex_ndl14.map;fonts/map/pdftex;
++psfonts.map;fonts/map/dvips;
++pdftex.map;fonts/map/pdftex;
++2026-06-29-10-02-17.log;miktex/log/makefmt/xelatex;
++2026-06-29-10-11-36.log;miktex/log/makefmt/xelatex;

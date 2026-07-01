@@ -1,3 +1,10 @@
+---
+title: "pptx-toolkit README"
+type: "系统"
+updated: 2026-06-29
+tags: ["系统", "PPTX", "模板"]
+---
+
 # PPT 生成工具包（pptx-toolkit）
 
 > 位置：`11-模板/pptx-toolkit/`

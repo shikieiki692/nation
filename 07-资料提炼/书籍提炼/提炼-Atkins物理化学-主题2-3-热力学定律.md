@@ -1,6 +1,7 @@
 ---
 title: 提炼-Atkins物理化学-主题2-3-热力学定律
 type: 资料提炼
+source_book: Atkins Physical Chemistry 第11版
 template_version: v1.1
 source_file: mineru/物理化学/物理化学（第11版）热力学1-3章58-143.md
 source_type: 书籍
@@ -223,4 +224,3 @@ SORT year DESC, difficulty ASC
 ```
 
 > 📎 相关专题：[[04-专题与题型/专题-热力学初步]] · [[04-专题与题型/专题-物化综合计算]]
-

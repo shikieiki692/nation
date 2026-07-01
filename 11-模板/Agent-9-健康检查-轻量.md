@@ -2,6 +2,7 @@
 title: Agent 9 · 健康检查
 type: agent-prompt-lightweight
 agent_id: 9
+updated: 2026-06-29
 version: v1.0
 tags: [agent, 维护]
 ---

@@ -1,8 +1,10 @@
 ---
 title: 专题总索引
-type: 专题索引
-tags: [化竞, 专题]
-  stage: published
+type: 系统
+role: 专题索引
+updated: 2026-06-29
+tags: [系统, 索引, 化竞, 专题]
+stage: published
 ---
 
 # 专题总索引

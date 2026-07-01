@@ -18,7 +18,7 @@ tags:
   - 电子计数
 related: [NO配位, 配合物, 18电子规则, 亚硝酰配合物, 配体场理论, 金属有机化学深化]
 prerequisite: [NO配位, 配合物, 18电子规则, 晶体场理论]
-problem_types: [{MNO}ⁿ记号应用, 金属-NO配合物电子计数, NO配合物氧化态确定, 亚硝酰配合物结构预测]
+problem_types: ["{MNO}ⁿ记号应用", 金属-NO配合物电子计数, NO配合物氧化态确定, 亚硝酰配合物结构预测]
 difficulty: 5
 importance: 2
 status: 已填充
