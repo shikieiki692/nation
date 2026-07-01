@@ -5,6 +5,12 @@ param(
     [Parameter(Position = 1)]
     [string]$OutputDir,
 
+    [int]$Width = 1600,
+
+    [int]$Height = 2000,
+
+    [Nullable[int]]$Dpi = $null,
+
     [switch]$EmitPdf,
 
     [switch]$VerboseRender
@@ -14,8 +20,32 @@ param(
 $OutputEncoding = [Console]::OutputEncoding
 $env:PYTHONIOENCODING = 'utf-8'
 
-$python = 'C:\Users\蕾赛\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe'
-$script = 'C:\Obsidion\妙妙屋\11-模板\scripts\render_docx_windows.py'
+$scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+$script = Join-Path $scriptDir 'render_docx_windows.py'
+
+function Resolve-PythonRuntime {
+    $candidates = @()
+    if ($env:CODEX_BUNDLED_PYTHON) { $candidates += $env:CODEX_BUNDLED_PYTHON }
+    if ($env:CODEX_PYTHON) { $candidates += $env:CODEX_PYTHON }
+    if ($env:USERPROFILE) {
+        $candidates += (Join-Path $env:USERPROFILE '.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe')
+    }
+
+    foreach ($candidate in $candidates) {
+        if (-not [string]::IsNullOrWhiteSpace($candidate) -and (Test-Path -LiteralPath $candidate)) {
+            return (Resolve-Path -LiteralPath $candidate).Path
+        }
+    }
+
+    $pythonCmd = Get-Command python -ErrorAction SilentlyContinue
+    if ($pythonCmd) {
+        return $pythonCmd.Source
+    }
+
+    throw "Python runtime not found. Set CODEX_BUNDLED_PYTHON/CODEX_PYTHON or install python."
+}
+
+$python = Resolve-PythonRuntime
 
 if (-not (Test-Path -LiteralPath $InputPath)) {
     throw "Input file not found: $InputPath"
@@ -36,7 +66,15 @@ $args = @(
     $resolvedInput
     '--output_dir'
     $resolvedOutput
+    '--width'
+    $Width
+    '--height'
+    $Height
 )
+
+if ($Dpi -ne $null) {
+    $args += @('--dpi', [string]$Dpi)
+}
 
 if ($EmitPdf) {
     $args += '--emit_pdf'

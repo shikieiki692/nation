@@ -2432,3 +2432,79 @@
 2026-07-01 10:38:56,322+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/symbols\msam7.tfm
 2026-07-01 10:38:56,323+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
 2026-07-01 10:38:56,323+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr8.tfm
+2026-07-01 23:20:48,201+0800 INFO  xelatex - this process (28076) started by python in directory C:\Obsidion\妙妙屋 with command line: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\miktex\bin\x64\xelatex.exe --miktex-disable-installer --miktex-disable-maintenance --miktex-disable-diagnose -interaction=nonstopmode -output-directory=C:\Obsidion\妙妙屋\11-模板\scripts C:\Obsidion\妙妙屋\11-模板\scripts\_handout_355aaaa15ede.tex
+2026-07-01 23:20:48,202+0800 INFO  xelatex - running on Windows 10.0.26200
+2026-07-01 23:20:48,202+0800 INFO  xelatex - this is MiKTeX-XETEX 4.18.0 (0.999998) (MiKTeX 26.5)
+2026-07-01 23:20:48,217+0800 INFO  xelatex - allowing known shell commands
+2026-07-01 23:20:48,237+0800 INFO  xelatex - setting output directory: C:\Obsidion\妙妙屋\11-模板\scripts
+2026-07-01 23:20:48,237+0800 INFO  xelatex - setting aux directory: C:\Obsidion\妙妙屋\11-模板\scripts
+2026-07-01 23:22:12,457+0800 INFO  xelatex.core - start process: miktex-dvipdfmx.exe --miktex-disable-installer -q -E -o C:\Obsidion\妙妙屋\11-模板\scripts\_handout_355aaaa15ede.pdf
+2026-07-01 23:22:39,729+0800 INFO  xelatex - this process (28076) finishes with exit code 1
+2026-07-01 23:22:39,730+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-07-01 23:22:39,730+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-07-01 23:22:39,730+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-07-01 23:22:39,730+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/adobe/zapfding\pzdr.tfm
+2026-07-01 23:22:39,730+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/symbols\msam7.tfm
+2026-07-01 23:22:39,730+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr8.tfm
+2026-07-01 23:22:39,730+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/symbols\msbm7.tfm
+2026-07-01 23:22:39,730+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/cmextra\cmex7.tfm
+2026-07-01 23:22:39,730+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/symbols\msbm10.tfm
+2026-07-01 23:22:39,730+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr6.tfm
+2026-07-01 23:22:39,731+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-07-01 23:22:39,731+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/symbols\msbm5.tfm
+2026-07-01 23:22:39,731+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/symbols\msam5.tfm
+2026-07-01 23:22:39,731+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/symbols\msam10.tfm
+2026-07-01 23:22:39,731+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/cmextra\cmex7.tfm
+2026-07-01 23:22:39,731+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmex10.tfm
+2026-07-01 23:22:39,731+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/symbols\msbm7.tfm
+2026-07-01 23:22:39,731+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/symbols\msam10.tfm
+2026-07-01 23:22:39,731+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmmi8.tfm
+2026-07-01 23:22:39,731+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmmi10.tfm
+2026-07-01 23:22:39,731+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmsy10.tfm
+2026-07-01 23:22:39,731+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmsy6.tfm
+2026-07-01 23:22:39,731+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/cmextra\cmex8.tfm
+2026-07-01 23:22:39,731+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmsy8.tfm
+2026-07-01 23:22:39,731+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmmi6.tfm
+2026-07-01 23:22:39,731+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/cmextra\cmex7.tfm
+2026-07-01 23:22:39,731+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/symbols\msam10.tfm
+2026-07-01 23:22:39,731+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/symbols\msam7.tfm
+2026-07-01 23:22:39,731+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/symbols\msbm10.tfm
+2026-07-01 23:22:39,731+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/symbols\msbm10.tfm
+2026-07-01 23:22:40,119+0800 INFO  xelatex - this process (8212) started by python in directory C:\Obsidion\妙妙屋 with command line: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\miktex\bin\x64\xelatex.exe --miktex-disable-installer --miktex-disable-maintenance --miktex-disable-diagnose -interaction=nonstopmode -output-directory=C:\Obsidion\妙妙屋\11-模板\scripts C:\Obsidion\妙妙屋\11-模板\scripts\_handout_355aaaa15ede.tex
+2026-07-01 23:22:40,120+0800 INFO  xelatex - running on Windows 10.0.26200
+2026-07-01 23:22:40,120+0800 INFO  xelatex - this is MiKTeX-XETEX 4.18.0 (0.999998) (MiKTeX 26.5)
+2026-07-01 23:22:40,134+0800 INFO  xelatex - allowing known shell commands
+2026-07-01 23:22:40,153+0800 INFO  xelatex - setting output directory: C:\Obsidion\妙妙屋\11-模板\scripts
+2026-07-01 23:22:40,153+0800 INFO  xelatex - setting aux directory: C:\Obsidion\妙妙屋\11-模板\scripts
+2026-07-01 23:23:55,254+0800 INFO  xelatex.core - start process: miktex-dvipdfmx.exe --miktex-disable-installer -q -E -o C:\Obsidion\妙妙屋\11-模板\scripts\_handout_355aaaa15ede.pdf
+2026-07-01 23:24:23,417+0800 INFO  xelatex - this process (8212) finishes with exit code 1
+2026-07-01 23:24:23,417+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-07-01 23:24:23,417+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-07-01 23:24:23,417+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-07-01 23:24:23,417+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/adobe/zapfding\pzdr.tfm
+2026-07-01 23:24:23,417+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/symbols\msbm10.tfm
+2026-07-01 23:24:23,418+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr10.tfm
+2026-07-01 23:24:23,418+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr8.tfm
+2026-07-01 23:24:23,418+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/symbols\msbm7.tfm
+2026-07-01 23:24:23,418+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/symbols\msam7.tfm
+2026-07-01 23:24:23,418+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/symbols\msbm10.tfm
+2026-07-01 23:24:23,418+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/cmextra\cmex7.tfm
+2026-07-01 23:24:23,418+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/symbols\msbm7.tfm
+2026-07-01 23:24:23,418+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/symbols\msam5.tfm
+2026-07-01 23:24:23,418+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/symbols\msbm5.tfm
+2026-07-01 23:24:23,418+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmr6.tfm
+2026-07-01 23:24:23,418+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/cmextra\cmex7.tfm
+2026-07-01 23:24:23,418+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/symbols\msbm10.tfm
+2026-07-01 23:24:23,418+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/symbols\msam10.tfm
+2026-07-01 23:24:23,418+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/symbols\msam7.tfm
+2026-07-01 23:24:23,418+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/symbols\msam10.tfm
+2026-07-01 23:24:23,418+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/symbols\msam10.tfm
+2026-07-01 23:24:23,418+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmmi10.tfm
+2026-07-01 23:24:23,418+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmmi8.tfm
+2026-07-01 23:24:23,419+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmsy10.tfm
+2026-07-01 23:24:23,419+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmsy8.tfm
+2026-07-01 23:24:23,419+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmmi6.tfm
+2026-07-01 23:24:23,419+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmsy6.tfm
+2026-07-01 23:24:23,419+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/cm\cmex10.tfm
+2026-07-01 23:24:23,419+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/cmextra\cmex8.tfm
+2026-07-01 23:24:23,419+0800 WARN  xelatex.core - still open: C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\fonts/tfm/public/amsfonts/cmextra\cmex7.tfm

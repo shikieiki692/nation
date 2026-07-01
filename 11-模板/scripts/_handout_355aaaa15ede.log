@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.6.29)  1 JUL 2026 10:37
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.6.29)  1 JUL 2026 23:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1293,13 +1293,9 @@ and I'll forget about whatever was undefined.
 
 [1
 
-]
-File: C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/octahedral-coordination-3d.png 
-Graphic file (type bmp)
-<C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/octahedral-coordination-3d.png>
- [2] [3]
+] [2]
 ! Undefined control sequence.
-l.374 ... & 半径越大 \箭 配位数一般越大 & 但过大时配体间排斥增大\箭配位数反而下降
+l.397 ... & 半径越大 \箭 配位数一般越大 & 但过大时配体间排斥增大\箭配位数反而下降
                                                   (Hg\textsuperscript{2+} 配位...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1307,12 +1303,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no 📝 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 📝 in font [lmroman10-regular]:mapping=tex-text;!
 ! Undefined control sequence.
 <argument> 1.5 配合物的命名---``名称\双箭化学式 
                                    ''双向翻译
-l.386 ...名称\双箭化学式''双向翻译}{1.5 配合物的命名---``名称''双向翻译}}
+l.409 ...名称\双箭化学式''双向翻译}{1.5 配合物的命名---``名称''双向翻译}}
                                                   \label{ux914dux5408ux7269u...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1323,7 +1317,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> 1.5 配合物的命名---``名称\双箭化学式 
                                    ''双向翻译
-l.386 ...名称\双箭化学式''双向翻译}{1.5 配合物的命名---``名称''双向翻译}}
+l.409 ...名称\双箭化学式''双向翻译}{1.5 配合物的命名---``名称''双向翻译}}
                                                   \label{ux914dux5408ux7269u...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1361,28 +1355,19 @@ Package fontspec Info:
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
 (fontspec)             <->"FangSong/OT:script=hani;language=dflt;"
 
+[3]
 ! Undefined control sequence.
-l.412 \textbf{认知冲突}：「命名是死记硬背吗？」---不是。命名是「名称\双箭结构
-                                                」的双向翻译能力。看到 K\textsubscript{...
+l.435 \textbf{课堂原话}：``命名不是死记硬背---它是『名称\双箭结构
+                                           』的双向翻译能力。看到 K\textsubscript{3}{[}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[4]
-Missing character: There is no 📝 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 📝 in font [lmroman10-regular]:mapping=tex-text;!
-
-Underfull \hbox (badness 3108) in paragraph at lines 445--449
-[]\TU/lmr/m/n/10 📝 \TU/SimSun(1)/b/n/10 练 一 练\TU/SimSun(1)/m/n/10 ：|  命 名 下 列 配
- 合 物，|  并 指 出 中 心 离 子 氧 化 数 和 配 位 数：| \TU/lmr/m/n/10 (1) $\OT1/cmr/m/n/10 [[]]\
-OML/cmm/m/it/10 Cl[]$ \TU/lmr/m/n/10 (2)
- []
-
-[5]
+[4] [5]
 ! Undefined control sequence.
-l.566 ...(4 对电子)。但 CN\textsuperscript{-} 是强场配体\箭迫使
+l.589 ...(4 对电子)。但 CN\textsuperscript{-} 是强场配体\箭迫使
                                                    Ni\textsuperscript{2+} 的 ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1391,7 +1376,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.566 ...使 Ni\textsuperscript{2+} 的 d 电子重排归并\箭空出一个
+l.589 ...使 Ni\textsuperscript{2+} 的 d 电子重排归并\箭空出一个
                                                    3d 轨道\箭dsp\textsuperscrip...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1400,7 +1385,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.566 ...perscript{2+} 的 d 电子重排归并\箭空出一个 3d 轨道\箭dsp
+l.589 ...perscript{2+} 的 d 电子重排归并\箭空出一个 3d 轨道\箭dsp
                                                   \textsuperscript{2} 杂化\箭平面...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1409,7 +1394,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.566 ...个 3d 轨道\箭dsp\textsuperscript{2} 杂化\箭平面四边形
+l.589 ...个 3d 轨道\箭dsp\textsuperscript{2} 杂化\箭平面四边形
                                                   。Cl\textsuperscript{-} 是弱场...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1418,7 +1403,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.566 ...四边形。Cl\textsuperscript{-} 是弱场配体\箭不能迫使电子重排
+l.589 ...四边形。Cl\textsuperscript{-} 是弱场配体\箭不能迫使电子重排
                                                   \箭sp\textsuperscript{3} 杂化...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1427,7 +1412,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.566 ...Cl\textsuperscript{-} 是弱场配体\箭不能迫使电子重排\箭sp
+l.589 ...Cl\textsuperscript{-} 是弱场配体\箭不能迫使电子重排\箭sp
                                                   \textsuperscript{3} 杂化\箭四面...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1436,7 +1421,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.566 ...\箭不能迫使电子重排\箭sp\textsuperscript{3} 杂化\箭四面体
+l.589 ...\箭不能迫使电子重排\箭sp\textsuperscript{3} 杂化\箭四面体
                                                   。\textbf{同一个金属离子，配体不同，不仅颜色...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1444,16 +1429,14 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[6]
 Missing character: There is no η in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ⁿ in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no η in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no η in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ⁻ in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 📝 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 📝 in font [lmroman10-regular]:mapping=tex-text;!
+[6]
 ! Undefined control sequence.
-l.647 相关 KP：18电子规则 · 反馈\派键
+l.674 相关 KP：18电子规则 · 反馈\派键
                           
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1461,109 +1444,32 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+File: C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/coord-cft-octahedral-weller-20-
+2.jpg Graphic file (type bmp)
+<C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/coord-cft-octahedral-weller-20-2.jpg
+>
 [7]
-File: C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/octahedral-d-orbital-splitting.
-jpg Graphic file (type bmp)
-<C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/octahedral-d-orbital-splitting.jpg>
-
 Missing character: There is no γ in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ε in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ✓ in font [lmroman10-regular]:mapping=tex-text;!
-! Undefined control sequence.
-l.710 ...2}}\) 和 d\_z\textsuperscript{2} 正对配体\箭排斥大
-                                                  \箭能量升高(\(e_g\))；\(d_{xy}\)...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.710 ...和 d\_z\textsuperscript{2} 正对配体\箭排斥大\箭能量升高
-                                                  (\(e_g\))；\(d_{xy}\)、dₓᵤ、d...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Overfull \hbox (53.70615pt too wide) in paragraph at lines 762--762
+[]|$[]$|  
+ []
 
-Missing character: There is no ₓ in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ᵤ in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ᵧ in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ᵤ in font [lmroman10-regular]:mapping=tex-text;!
-! Undefined control sequence.
-l.710 ...量升高(\(e_g\))；\(d_{xy}\)、dₓᵤ、dᵧᵤ 斜对配体\箭排斥小
-                                                  \箭能量降低(t\textsubscript{2}g...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-l.710 ...e_g\))；\(d_{xy}\)、dₓᵤ、dᵧᵤ 斜对配体\箭排斥小\箭能量降低
-                                                  (t\textsubscript{2}g)。分裂的本...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Overfull \hbox (53.70615pt too wide) in paragraph at lines 763--763
+[]|$[]$|  
+ []
 
-File: C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/octahedral-field-splitting-bw.p
-ng Graphic file (type bmp)
-<C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/octahedral-field-splitting-bw.png>
+
+Overfull \hbox (53.70615pt too wide) in paragraph at lines 764--764
+[]|$[]$|  
+ []
+
 [8]
-Overfull \hbox (53.70615pt too wide) in paragraph at lines 740--740
-[]|$[]$|  
- []
-
-
-Overfull \hbox (53.70615pt too wide) in paragraph at lines 741--741
-[]|$[]$|  
- []
-
-
-Overfull \hbox (53.70615pt too wide) in paragraph at lines 742--742
-[]|$[]$|  
- []
-
-File: C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/tetrahedral-splitting.jpg Graph
-ic file (type bmp)
-<C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/tetrahedral-splitting.jpg>
-File: C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/three-field-splitting-compariso
-n-bw.png Graphic file (type bmp)
-<C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/three-field-splitting-comparison-bw.
-png>
-[9]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.789 ...d & 4 & \(T_d\) & \_\_\_\_\_\_ & \$\Delta
-                                                  \emph{t = \$}\_\_\_\_\_ & ...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.789 ..._\_\_ & \$\Delta\emph{t = \$}\_\_\_\_\_ &
-                                                   \约等于 \_\_\_\_\_\_ \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (5.62122pt too wide) in paragraph at lines 789--789
- []|\TU/lmr/m/n/10.95 $$\OT1/cmr/m/n/10.95 ^^A[][][][][][]$ 
- []
-
-
-Overfull \hbox (3.2771pt too wide) in paragraph at lines 790--790
- []|$\OT1/cmr/m/n/10.95 ^^A[] \OMS/cmsy/m/n/10.95 ^^Y$\TU/lmr/m/n/10.95 ______|
- 
- []
-
 ! Undefined control sequence.
-l.823 ...t{-}, F\textsuperscript{-})：有孤对 \派 电子\箭推高
+l.832 ...t{-}, F\textsuperscript{-})：有孤对 \派 电子\箭推高
                                                    t\textsubscript{2}g\箭Δ 减小...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1572,7 +1478,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.823 ...{-})：有孤对 \派 电子\箭推高 t\textsubscript{2}g\箭Δ
+l.832 ...{-})：有孤对 \派 电子\箭推高 t\textsubscript{2}g\箭Δ
                                                    减小\箭**弱场\textbf{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1581,7 +1487,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.824 ...t{-}, PPh\textsubscript{3})：有空 \派* 轨道\箭拉低
+l.833 ...t{-}, PPh\textsubscript{3})：有空 \派* 轨道\箭拉低
                                                    t\textsubscript{2}g\箭Δ 增大...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1590,7 +1496,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.824 ...{3})：有空 \派* 轨道\箭拉低 t\textsubscript{2}g\箭Δ
+l.833 ...{3})：有空 \派* 轨道\箭拉低 t\textsubscript{2}g\箭Δ
                                                    增大\箭**强场**
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1598,34 +1504,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-File: C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/sigma-pi-backbonding.png Graphi
-c file (type bmp)
-<C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/sigma-pi-backbonding.png>
-[10]
-File: C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/spectrochemical-series-bw.png G
+File: C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/coord-spin-d6-weller-20-5.jpg G
 raphic file (type bmp)
-<C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/spectrochemical-series-bw.png>
-File: C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/14-3b-fe-cn-outer-inner-orbital
--high-low-spin.jpg Graphic file (type bmp)
-<C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/14-3b-fe-cn-outer-inner-orbital-high
--low-spin.jpg>
-File: C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/high-low-spin-decision-tree-bw.
-png Graphic file (type bmp)
-<C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/high-low-spin-decision-tree-bw.png>
- [11]
-File: C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/cfse-calculation-flow-bw.png Gr
-aphic file (type bmp)
-<C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/cfse-calculation-flow-bw.png>
- [12]
+<C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/coord-spin-d6-weller-20-5.jpg>
+[9] [10]
 Missing character: There is no ⁿ in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ⁿ in font [lmroman10-regular]:mapping=tex-text;!
-[13]
+[11]
 Missing character: There is no λ in font [lmroman10-regular]:mapping=tex-text;!
 File: C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/d-d-transition.jpg Graphic file
  (type bmp)
 <C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/d-d-transition.jpg>
 ! Undefined control sequence.
-l.964 ...239\ \mathrm{kJ/mol}\)，配合物呈紫红色(吸收绿光\箭呈现补色
+l.1010 ...39\ \mathrm{kJ/mol}\)，配合物呈紫红色(吸收绿光\箭呈现补色
                                                   )。
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1637,33 +1528,13 @@ File: C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/14-7-ti-h2o-6-d-d-tran
 sorption-spectrum.jpg Graphic file (type bmp)
 <C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/14-7-ti-h2o-6-d-d-transition-absorpt
 ion-spectrum.jpg>
-[14]
-Missing character: There is no 📝 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 📝 in font [lmroman10-regular]:mapping=tex-text;!
+[12] [13]
+File: C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/coord-pt-cis-trans-puha-15-5.jp
+g Graphic file (type bmp)
+<C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/coord-pt-cis-trans-puha-15-5.jpg>
+ [14]
 ! Undefined control sequence.
-l.1018 ...分子有手性(无\西格马/无i/无S\textsubscript{4})\箭对映体
-                                                   & \_\_\_\_\_\_ & 必然有 \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[15]
-File: C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/isomer_classification.png Graph
-ic file (type bmp)
-<C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/isomer_classification.png>
-File: C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/14-3-fe-valence-bond-outer-inne
-r-orbital.jpg Graphic file (type bmp)
-<C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/14-3-fe-valence-bond-outer-inner-orb
-ital.jpg>
- [16]
-File: C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/cis-trans-isomers.png Graphic f
-ile (type bmp)
-<C:/Obsidion/妙妙屋/11-模板/scripts/.chem_media/cis-trans-isomers.png>
-
-! Undefined control sequence.
-l.1080 ...画出 fac 和 mer 两种几何异构就停了。但 fac 结构无对称面\箭有手性
+l.1175 ...画出 fac 和 mer 两种几何异构就停了。但 fac 结构无对称面\箭有手性
                                                   \箭存在**一对对映体\textbf{！所以总共是 ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1672,7 +1543,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.1080 ...ac 和 mer 两种几何异构就停了。但 fac 结构无对称面\箭有手性\箭存在
+l.1175 ...ac 和 mer 两种几何异构就停了。但 fac 结构无对称面\箭有手性\箭存在
                                                   **一对对映体\textbf{！所以总共是 3 种：...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1680,9 +1551,18 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[17]
+[15]
 ! Undefined control sequence.
-l.1128 \textbf{纠正}：IUPAC 规则严格规定：先负离子\箭后中性分子
+l.1237 ...性\textbf{无直接关系}---一个配合物可以热力学上很稳定(\(K_{\1
+                                                  }\) 大)，但动力学上很活泼(取代快)。
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1269 \textbf{纠正}：IUPAC 规则严格规定：先负离子\箭后中性分子
                                            \箭再按配位原子字母顺序。这个是命名题主要扣分点。
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1691,7 +1571,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.1128 ...纠正}：IUPAC 规则严格规定：先负离子\箭后中性分子\箭再按配位原子字母顺序
+l.1269 ...纠正}：IUPAC 规则严格规定：先负离子\箭后中性分子\箭再按配位原子字母顺序
                                                   。这个是命名题主要扣分点。
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1700,13 +1580,21 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 4621) in paragraph at lines 1140--1142
+Underfull \hbox (badness 4621) in paragraph at lines 1281--1283
 []\TU/SimSun(1)/b/n/10.95 题 目\TU/SimSun(1)/m/n/10.95 ：|  写 出 下 列 配 合 物 的 名 称，| 
  并 指 出 中 心 离 子、|  配 体、|  配 位 数：| \TU/lmr/m/n/10.95 (1) $[]$ (2)
  []
 
-[18]
+
+Overfull \hbox (26.45648pt too wide) in paragraph at lines 1310--1310
+[]|$\OT1/cmr/m/n/10.95 [[]]\OML/cmm/m/it/10.95 Cl[]$|  
+ []
+
+[16] [17]
 Missing character: There is no ⁿ in font [lmroman10-regular]:mapping=tex-text;!
+[18]
+Missing character: There is no 🔷 in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no 🔷 in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ⁿ in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ☐ in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ☐ in font [lmroman10-regular]:mapping=tex-text;!
@@ -1733,7 +1621,7 @@ Missing character: There is no ⁰ in font [lmroman10-regular]:mapping=tex-text;
 Missing character: There is no ⁰ in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ☐ in font [lmroman10-regular]:mapping=tex-text;!
 ! Undefined control sequence.
-l.1278 ...} & 配体数-配体名-``合''-中心离子-(氧化数) & 配体顺序：负\箭中
+l.1571 ...} & 配体数-配体名-``合''-中心离子-(氧化数) & 配体顺序：负\箭中
                                                   ，无\箭有，字母序 \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1742,7 +1630,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.1278 ...体数-配体名-``合''-中心离子-(氧化数) & 配体顺序：负\箭中，无\箭有
+l.1571 ...体数-配体名-``合''-中心离子-(氧化数) & 配体顺序：负\箭中，无\箭有
                                                   ，字母序 \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1751,7 +1639,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.1279 ...{价键理论} & 杂化类型 \箭 空间构型 & 相同配位数可不同杂化\箭不同构型
+l.1572 ...{价键理论} & 杂化类型 \箭 空间构型 & 相同配位数可不同杂化\箭不同构型
                                                    \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1762,7 +1650,7 @@ and I'll forget about whatever was undefined.
 Missing character: There is no μ in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no μ in font [lmroman10-regular]:mapping=tex-text;!
 ! Undefined control sequence.
-l.1286 ...构体} & 结构异构 + 几何异构 + 光学异构 & 反式有对称面\箭无光学活性
+l.1579 ...构体} & 结构异构 + 几何异构 + 光学异构 & 反式有对称面\箭无光学活性
                                                   ；fac 有手性 \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1798,23 +1686,589 @@ Missing character: There is no ⁻ in font [lmroman10-regular]:mapping=tex-text;
 Missing character: There is no ₂ in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ⁻ in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no μ in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 🌱 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 🔥 in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no 🏆 in font [lmroman10-regular]:mapping=tex-text;!
-[20] [21]
-Missing character: There is no ❌ in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ❌ in font [lmroman10-regular]:mapping=tex-text;!
-[22] [23]
+[20] [21] [22]
+! Undefined control sequence.
+l.1861 ...出一个3d轨道形成dsp\textsuperscript{2}杂化\箭平面正方形
+                                                  。NH\textsubscript{3}为弱场配体，...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1861 ...平面正方形。NH\textsubscript{3}为弱场配体，不引起重排\箭sp
+                                                  \textsuperscript{3}杂化\箭正四面体。
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1861 ...场配体，不引起重排\箭sp\textsuperscript{3}杂化\箭正四面体
+                                                  。
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1865 ...}：单齿配体。(b) en：双齿配体(两个N原子各提供1对孤对电子)\箭螯合配体
+                                                  。(c) EDTA：六齿配体(2个N+4个O)\箭强...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1865 ...对电子)\箭螯合配体。(c) EDTA：六齿配体(2个N+4个O)\箭强螯合配体
+                                                  。(d) NO\textsubscript{2}\t...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ✓ in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ✓ in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ✓ in font [lmroman10-regular]:mapping=tex-text;!
+! Undefined control sequence.
+l.1869 ...\(\mathrm{[Fe(H_2O)_6]^{2+}}\)：μ=5.30\箭n
+                                                  =4\箭d\textsuperscript{6}高自...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1869 ...thrm{[Fe(H_2O)_6]^{2+}}\)：μ=5.30\箭n=4\箭d
+                                                  \textsuperscript{6}高自旋\(t_...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no μ in font [lmroman10-regular]:mapping=tex-text;!
+! Undefined control sequence.
+l.1869 ...tsuperscript{6}高自旋\(t_{2g}^4 e_g^2\)\箭sp
+                                                  \textsuperscript{3}d\texts...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1869 ...perscript{3}d\textsuperscript{2}外轨\箭正八面体
+                                                  ；\(\mathrm{[Fe(CN)_6]^{4-}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1869 ...正八面体；\(\mathrm{[Fe(CN)_6]^{4-}}\)：μ=0\箭n
+                                                  =0\箭d\textsuperscript{6}低自...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1869 ...\(\mathrm{[Fe(CN)_6]^{4-}}\)：μ=0\箭n=0\箭d
+                                                  \textsuperscript{6}低自旋\(t_...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no μ in font [lmroman10-regular]:mapping=tex-text;!
+! Undefined control sequence.
+l.1869 ...\箭d\textsuperscript{6}低自旋\(t_{2g}^6\)\箭d
+                                                  \textsuperscript{2}sp\text...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1869 ...erscript{2}sp\textsuperscript{3}内轨\箭正八面体
+                                                  。
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ✓ in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ✓ in font [lmroman10-regular]:mapping=tex-text;!
+Missing character: There is no ✓ in font [lmroman10-regular]:mapping=tex-text;!
+! Undefined control sequence.
+l.1873 ...d\textsuperscript{1}\箭\(t_{2g}^1\)\箭CFSE
+                                                   = \(-4\) Dq；(b) d\textsup...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1873 ...extsuperscript{6}低自旋\箭\(t_{2g}^6\)\箭CFSE
+                                                   = \(-24\) Dq；(c) d\textsu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1873 ...erscript{5}高自旋\箭\(t_{2g}^3 e_g^2\)\箭CFSE
+                                                   = 0；(d) d\textsuperscript...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1873 ...erscript{6}高自旋\箭\(t_{2g}^4 e_g^2\)\箭CFSE
+                                                   = \(-4\) Dq。
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1875 ...3)_4Cl_2]^+}\)为\(\mathrm{Ma_4e_2}\)型\箭顺式
+                                                  (1,2-)和反式(1,6-)。顺式无对称面\箭有光...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1875 ...e_2}\)型\箭顺式(1,2-)和反式(1,6-)。顺式无对称面\箭有光学活性
+                                                  (一对对映体)；反式有对称面\箭无光学活性。总计3种...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1875 ...1,6-)。顺式无对称面\箭有光学活性(一对对映体)；反式有对称面\箭无光学活性
+                                                  。总计3种异构体。(c) 四面体\(\mathrm{...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1877 ...场下分裂，dsp\textsuperscript{2}杂化形成4个等价\西格马键
+                                                  。(c) Ni\textsuperscript{2+...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1877 ...superscript{-}强场下\(t_{2g}^6 e_g^2\)\箭dsp
+                                                  \textsuperscript{2}杂化\箭平面正...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1877 ...e_g^2\)\箭dsp\textsuperscript{2}杂化\箭平面正方形
+                                                  (正四面体会有2个未成对电子，能量更高)。
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1879 ... CN\textsuperscript{-}的\派*轨道与金属d轨道形成\派反键
+                                                  \箭增大分裂能Δ；F\textsuperscript...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1879 ...superscript{-}的\派*轨道与金属d轨道形成\派反键\箭增大分裂能Δ
+                                                  ；F\textsuperscript{-}的2p孤对...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1879 ...；F\textsuperscript{-}的2p孤对电子与金属d轨道形成\派反键
+                                                  \箭减小分裂能Δ。(c) \(\mathrm{[Fe...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1879 ...uperscript{-}的2p孤对电子与金属d轨道形成\派反键\箭减小分裂能Δ
+                                                  。(c) \(\mathrm{[Fe(CN)_6]^...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1879 ..._6]^{3-}}\)：CN\textsuperscript{-}强场\箭低自旋
+                                                  ；\(\mathrm{[FeF_6]^{3-}}\)...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1879 ...F_6]^{3-}}\)：F\textsuperscript{-}弱场\箭高自旋
+                                                  。
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1881 ...电子构型和配体场强度：d\textsuperscript{8}强场\箭平面正方形
+                                                  (dsp\textsuperscript{2})；d...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1881 ...script{5}/d\textsuperscript{10}或弱场\箭正四面体
+                                                  (sp\textsuperscript{3})。(c...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 4291) in paragraph at lines 1881--1882
+[]\TU/lmr/bx/n/10.95 13. \TU/lmr/m/n/10.95 (a) \TU/SimSun(1)/m/n/10.95 配 位 数 \T
+U/lmr/m/n/10.95 2\TU/SimSun(1)/m/n/10.95 ：| $[]$\TU/lmr/m/n/10.95 (\TU/SimSun(1
+)/m/n/10.95 直 线 形\TU/lmr/m/n/10.95 )\TU/SimSun(1)/m/n/10.95 ；|  配 位 数 \TU/lmr/m
+/n/10.95 4\TU/SimSun(1)/m/n/10.95 ：| $[]$\TU/lmr/m/n/10.95 (\TU/SimSun(1)/m/n/1
+0.95 平 面 正 方 形\TU/lmr/m/n/10.95 ) \TU/SimSun(1)/m/n/10.95 或
+ []
+
+! Undefined control sequence.
+l.1883 ...+}}\)：3个en取代6个NH\textsubscript{3}\箭粒子数增加
+                                                  \箭ΔS\textgreater0\箭ΔG更负\箭更...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1883 ...)：3个en取代6个NH\textsubscript{3}\箭粒子数增加\箭ΔS
+                                                  \textgreater0\箭ΔG更负\箭更稳定。(...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1883 ...bscript{3}\箭粒子数增加\箭ΔS\textgreater0\箭ΔG更负
+                                                  \箭更稳定。(b) EDTA(乙二胺四乙酸)：2个N...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1883 ...pt{3}\箭粒子数增加\箭ΔS\textgreater0\箭ΔG更负\箭更稳定
+                                                  。(b) EDTA(乙二胺四乙酸)：2个N+4个O=...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1883 ... EDTA(乙二胺四乙酸)：2个N+4个O=6个配位点\箭可同时占据八面体的全部
+                                                  6个配位点\箭极强螯合。(c) 组氨酸通过咪唑环上的...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1883 ...酸)：2个N+4个O=6个配位点\箭可同时占据八面体的全部6个配位点\箭极强螯合
+                                                  。(c) 组氨酸通过咪唑环上的N原子配位\箭通常配位...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1883 ...部6个配位点\箭极强螯合。(c) 组氨酸通过咪唑环上的N原子配位\箭通常配位数为
+                                                  2-4(如在血红蛋白中His与Fe配位)。
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1885 ...t{3}{[}FeF\textsubscript{6}{]}：μ=5.92\箭n
+                                                  =5(5个未成对电子)；K\textsubscrip...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 Missing character: There is no μ in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no μ in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ❌ in font [lmroman10-regular]:mapping=tex-text;!
+! Undefined control sequence.
+l.1885 ...[}Fe(CN)\textsubscript{6}{]}：μ\约等于2.3\箭n
+                                                  =1(1个未成对电子)。(b) FeF\textsu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1885 ...1个未成对)。(c) F\textsuperscript{-}弱场\箭分裂能Δ小
+                                                  \箭电子优先分占\箭高自旋；CN\textsuper...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1885 ...c) F\textsuperscript{-}弱场\箭分裂能Δ小\箭电子优先分占
+                                                  \箭高自旋；CN\textsuperscript{-...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1885 ...textsuperscript{-}弱场\箭分裂能Δ小\箭电子优先分占\箭高自旋
+                                                  ；CN\textsuperscript{-}强场\箭...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1885 ...优先分占\箭高自旋；CN\textsuperscript{-}强场\箭分裂能Δ大
+                                                  \箭电子优先配对\箭低自旋。
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1885 ...旋；CN\textsuperscript{-}强场\箭分裂能Δ大\箭电子优先配对
+                                                  \箭低自旋。
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1885 ...textsuperscript{-}强场\箭分裂能Δ大\箭电子优先配对\箭低自旋
+                                                  。
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[23]
+! Undefined control sequence.
+l.1887 \textbf{16.} (a) μ=0\箭n
+                              =0\箭Co\textsuperscript{3+}d\textsuperscript{6}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1887 \textbf{16.} (a) μ=0\箭n=0\箭Co
+                                    \textsuperscript{3+}d\textsuperscript{6}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 Missing character: There is no μ in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no μ in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no μ in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no μ in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no μ in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no μ in font [lmroman10-regular]:mapping=tex-text;!
-[24] [25] (C:\Obsidion\妙妙屋\11-模板\scripts\_handout_355aaaa15ede.aux)
+! Undefined control sequence.
+l.1887 ...Cl_2]^+}\)(\(\mathrm{Ma_4e_2}\)型)\箭顺式和反式
+                                                  。顺式无对称面\箭有光学活性(一对对映体)；反式有对...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1887 ...mathrm{Ma_4e_2}\)型)\箭顺式和反式。顺式无对称面\箭有光学活性
+                                                  (一对对映体)；反式有对称面\箭无光学活性。总计3种...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1887 ...顺式和反式。顺式无对称面\箭有光学活性(一对对映体)；反式有对称面\箭无光学活性
+                                                  。总计3种异构体。(c) 替换为Br\textsup...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1889 ...3+}}\)(\(\mathrm{[M(AA)_3]}\)型)\箭一对光学异构体
+                                                  (Λ和Δ)。(b) \(\mathrm{[Co(en...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1889 ...式(无光学活性)+ 顺式(一对对映体)= 共3种。(c) en为强场配体\箭Co
+                                                  \textsuperscript{3+}d\text...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1889 ...extsuperscript{6}低自旋\箭\(t_{2g}^6\)\箭CFSE
+                                                   = \(-24\) Dq。
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1891 ...ol。(b) 吸收绿光(\textasciitilde490 nm)\箭呈紫红色
+                                                  (补色)。(c) 1个电子从\(t_{2g}\)跃迁...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1893 ...bscript{2}g的-12 Dq与e\_g的+12 Dq恰好抵消\箭CFSE
+                                                   = 0。但配合物稳定性不仅来自CFSE：1.配位键...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ⁿ in font [lmroman10-regular]:mapping=tex-text;!
+! Undefined control sequence.
+l.1895 ...textsuperscript{8}离子且与强场配体形成平面正方形\箭可能为Ni
+                                                  \textsuperscript{2+}或Pd\te...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1895 ...uperscript{8}强场\箭\(t_{2g}^6 e_g^2\)\箭dsp
+                                                  \textsuperscript{2}杂化\箭平面正...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1895 ...e_g^2\)\箭dsp\textsuperscript{2}杂化\箭平面正方形
+                                                  ，无未成对电子。(c) 配合物呈黄色\箭吸收蓝紫光\...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1895 ...ipt{2}杂化\箭平面正方形，无未成对电子。(c) 配合物呈黄色\箭吸收蓝紫光
+                                                  \箭d-d跃迁在可见光区(\textasciitil...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1895 ...{2}杂化\箭平面正方形，无未成对电子。(c) 配合物呈黄色\箭吸收蓝紫光\箭d
+                                                  -d跃迁在可见光区(\textasciitilde4...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.1895 ...d-d跃迁在可见光区(\textasciitilde400-450 nm)\箭从
+                                                  \(t_{2g}\)到\(e_g\)的跃迁。
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ⁿ in font [lmroman10-regular]:mapping=tex-text;!
+[24] (C:\Obsidion\妙妙屋\11-模板\scripts\_handout_355aaaa15ede.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2022/07/14>
@@ -1824,16 +2278,16 @@ L3 programming layer <2022/07/14>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `_handout_355aaaa15ede.out' has not changed.
-(rerunfilecheck)             Checksum: 53ABC0626757EDD371B2306D5FF30621;3844.
+(rerunfilecheck)             Checksum: F0ECD123E54CA9A2514EBEFBE021704B;4332.
  ) 
 Here is how much of TeX's memory you used:
- 22617 strings out of 404578
- 494946 string characters out of 5471517
- 971957 words of memory out of 5000000
- 51226 multiletter control sequences out of 15000+600000
- 636438 words of font info for 115 fonts, out of 8000000 for 9000
+ 22500 strings out of 404578
+ 487539 string characters out of 5471517
+ 967908 words of memory out of 5000000
+ 51129 multiletter control sequences out of 15000+600000
+ 636414 words of font info for 112 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 93i,13n,111p,1515b,719s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,13n,111p,1515b,646s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on C:\Obsidion\妙妙屋\11-模板\scripts\_handout_355aaaa15ede.pdf (25 p
+Output written on C:\Obsidion\妙妙屋\11-模板\scripts\_handout_355aaaa15ede.pdf (24 p
 ages).

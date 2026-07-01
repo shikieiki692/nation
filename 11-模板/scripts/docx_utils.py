@@ -4,7 +4,8 @@ docx_utils.py — 学生讲义 Word 输出共享风格库 (v2)
 字体口径（依据用户反馈修正）：
   - 中文正文：宋体 SimSun（备选仿宋 FangSong）
   - 中文标题/表头：黑体 SimHei
-  - 英文/数字/变量：Times New Roman
+  - 英文/数字/变量/普通符号：Times New Roman
+  - 仅非常特殊、必须保留中文风格的符号跟随中文字体
 
 本库提供两类使用方式：
   A) 手动构建：base_doc() → title_block() → heading() → para() → simple_table()
@@ -14,6 +15,7 @@ docx_utils.py — 学生讲义 Word 输出共享风格库 (v2)
           tmp/docs/crystal-structure-docx/build-crystal-structure-docx.py
 """
 
+from copy import deepcopy
 from pathlib import Path
 from typing import Optional
 import re
@@ -25,10 +27,10 @@ from docx.oxml.ns import qn
 from docx.shared import Cm, Pt, RGBColor
 
 # ── 字体常量 ──────────────────────────────────────────────
-CN_BODY_FONT = "SimSun"       # 宋体 — 中文正文 / 表格正文
-CN_HEAD_FONT = "SimHei"       # 黑体 — 中文标题 / 表头
-EN_FONT = "Times New Roman"    # 英文 / 数字 / 变量
-CN_CAPTION_FONT = "FangSong"  # 仿宋 — 图例题注（仿宋五号居中）
+CN_BODY_FONT = "SimSun"        # 宋体 — 中文正文 / 表格正文
+CN_HEAD_FONT = "SimHei"        # 黑体 — 中文标题 / 表头
+EN_FONT = "Times New Roman"    # 英文 / 数字 / 变量 / 一般符号
+CN_CAPTION_FONT = "FangSong"   # 仿宋 — 图例题注（仿宋五号居中）
 
 TITLE_COLOR = RGBColor(23, 50, 77)    # 深蓝 — 标题/表头
 SUB_COLOR = RGBColor(91, 105, 117)    # 灰蓝 — 副标题/注释
@@ -62,12 +64,19 @@ def set_run_font(
     cn_font: str = CN_BODY_FONT,
     en_font: str = EN_FONT,
 ) -> None:
-    """同时设置中文字体（eastAsia）和英文字体（ascii/hAnsi）。"""
+    """同时设置中文字体（eastAsia）和西文字体（ascii/hAnsi）。
+
+    约定：
+      - 中文内容走 cn_font
+      - 英文/数字/一般符号统一走 Times New Roman
+      - 仅非常特殊且必须保留中文风格的符号跟随中文字体
+    """
     run.font.name = en_font
     rpr = run._element.rPr
     rpr.rFonts.set(qn("w:eastAsia"), cn_font)
     rpr.rFonts.set(qn("w:ascii"), en_font)
     rpr.rFonts.set(qn("w:hAnsi"), en_font)
+    rpr.rFonts.set(qn("w:cs"), en_font)
     run.font.size = Pt(size)
     run.bold = bold
     if color:
@@ -117,6 +126,7 @@ def base_doc() -> Document:
     normal._element.rPr.rFonts.set(qn("w:eastAsia"), CN_BODY_FONT)
     normal._element.rPr.rFonts.set(qn("w:ascii"), EN_FONT)
     normal._element.rPr.rFonts.set(qn("w:hAnsi"), EN_FONT)
+    normal._element.rPr.rFonts.set(qn("w:cs"), EN_FONT)
     normal.font.size = Pt(11.5)
     normal.paragraph_format.line_spacing = LINE_SPACING_BODY
     return doc
@@ -282,15 +292,228 @@ def _inject_ctrlpr_font_size(
     szCs.set(qn("w:val"), half_pts)
 
 
+def _is_cjk_char(ch: str) -> bool:
+    """Return True when the character is a CJK ideograph."""
+    cp = ord(ch)
+    return (
+        0x4E00 <= cp <= 0x9FFF or    # CJK统一汉字
+        0x3400 <= cp <= 0x4DBF or    # CJK扩展A
+        0xF900 <= cp <= 0xFAFF       # CJK兼容汉字
+    )
+
+
 def _has_cjk(text: str) -> bool:
     """检测文本是否包含CJK字符（中日韩统一表意文字）。"""
-    for ch in text:
-        cp = ord(ch)
-        if (0x4E00 <= cp <= 0x9FFF or    # CJK统一汉字
-            0x3400 <= cp <= 0x4DBF or    # CJK扩展A
-            0xF900 <= cp <= 0xFAFF):     # CJK兼容汉字
-            return True
-    return False
+    return any(_is_cjk_char(ch) for ch in text)
+
+
+SUPERSCRIPT_CHAR_MAP = {
+    "⁰": "0",
+    "¹": "1",
+    "²": "2",
+    "³": "3",
+    "⁴": "4",
+    "⁵": "5",
+    "⁶": "6",
+    "⁷": "7",
+    "⁸": "8",
+    "⁹": "9",
+    "⁺": "+",
+    "⁻": "-",
+    "⁼": "=",
+    "⁽": "(",
+    "⁾": ")",
+}
+
+SUBSCRIPT_CHAR_MAP = {
+    "₀": "0",
+    "₁": "1",
+    "₂": "2",
+    "₃": "3",
+    "₄": "4",
+    "₅": "5",
+    "₆": "6",
+    "₇": "7",
+    "₈": "8",
+    "₉": "9",
+    "₊": "+",
+    "₋": "-",
+    "₌": "=",
+    "₍": "(",
+    "₎": ")",
+}
+
+
+def _unicode_script_role(ch: str) -> Optional[str]:
+    """Return the vertical alignment role for a unicode script char."""
+    if ch in SUPERSCRIPT_CHAR_MAP:
+        return "superscript"
+    if ch in SUBSCRIPT_CHAR_MAP:
+        return "subscript"
+    return None
+
+
+def _normalize_unicode_script_char(ch: str) -> str:
+    """Map unicode super/subscript glyphs to their plain-text equivalent."""
+    if ch in SUPERSCRIPT_CHAR_MAP:
+        return SUPERSCRIPT_CHAR_MAP[ch]
+    if ch in SUBSCRIPT_CHAR_MAP:
+        return SUBSCRIPT_CHAR_MAP[ch]
+    return ch
+
+
+def _has_unicode_script_chars(text: str) -> bool:
+    """Check whether text contains unicode super/subscript glyphs."""
+    return any(_unicode_script_role(ch) is not None for ch in text)
+
+
+def _segment_text_by_script(text: str) -> list[tuple[str, bool]]:
+    """Split text into CJK and non-CJK segments.
+
+    The returned boolean indicates whether the segment should use the CJK font.
+    Symbols such as `²⁺⁻` are treated as non-CJK and should therefore follow
+    the western font policy (Times New Roman).
+    """
+    if not text:
+        return []
+    segments: list[tuple[str, bool]] = []
+    current_chars = [text[0]]
+    current_is_cjk = _is_cjk_char(text[0])
+    for ch in text[1:]:
+        is_cjk = _is_cjk_char(ch)
+        if is_cjk == current_is_cjk:
+            current_chars.append(ch)
+            continue
+        segments.append(("".join(current_chars), current_is_cjk))
+        current_chars = [ch]
+        current_is_cjk = is_cjk
+    segments.append(("".join(current_chars), current_is_cjk))
+    return segments
+
+
+def _run_is_safe_to_split(run) -> bool:
+    """Only split plain-text runs; skip drawings, fields, and other OOXML nodes."""
+    allowed = {
+        qn("w:rPr"),
+        qn("w:t"),
+        qn("w:tab"),
+        qn("w:br"),
+        qn("w:cr"),
+        qn("w:noBreakHyphen"),
+        qn("w:softHyphen"),
+    }
+    return all(child.tag in allowed for child in run._element)
+
+
+def _copy_run_rpr(src_run, dst_run) -> None:
+    """Copy run properties (rPr) from src to dst."""
+    dst_rpr = dst_run._element.rPr
+    if dst_rpr is not None:
+        dst_run._element.remove(dst_rpr)
+    src_rpr = src_run._element.rPr
+    if src_rpr is not None:
+        dst_run._element.insert(0, deepcopy(src_rpr))
+
+
+def _segment_text_by_vertical_align(text: str) -> list[tuple[str, Optional[str]]]:
+    """Split text into baseline / superscript / subscript segments."""
+    if not text:
+        return []
+    segments: list[tuple[str, Optional[str]]] = []
+    current_role = _unicode_script_role(text[0])
+    current_chars = [_normalize_unicode_script_char(text[0])]
+    for ch in text[1:]:
+        role = _unicode_script_role(ch)
+        mapped = _normalize_unicode_script_char(ch)
+        if role == current_role:
+            current_chars.append(mapped)
+            continue
+        segments.append(("".join(current_chars), current_role))
+        current_chars = [mapped]
+        current_role = role
+    segments.append(("".join(current_chars), current_role))
+    return segments
+
+
+def _apply_vertical_align(run, role: Optional[str]) -> None:
+    """Apply Word superscript/subscript formatting to a run."""
+    run.font.superscript = role == "superscript"
+    run.font.subscript = role == "subscript"
+
+
+def _split_mixed_script_runs_in_paragraph(paragraph) -> None:
+    """Split runs that mix CJK with latin/symbol text so fonts can be assigned precisely."""
+    original_runs = list(paragraph.runs)
+    for run in original_runs:
+        text = run.text or ""
+        if not text or not _has_cjk(text):
+            continue
+        if not _run_is_safe_to_split(run):
+            continue
+        segments = _segment_text_by_script(text)
+        if len(segments) <= 1:
+            continue
+        run.text = segments[0][0]
+        prev_run = run
+        for seg_text, _ in segments[1:]:
+            new_run = paragraph.add_run(seg_text)
+            _copy_run_rpr(run, new_run)
+            prev_run._element.addnext(new_run._element)
+            prev_run = new_run
+
+
+def _split_unicode_script_runs_in_paragraph(paragraph) -> None:
+    """Convert unicode super/subscript glyphs into dedicated Word-format runs."""
+    original_runs = list(paragraph.runs)
+    for run in original_runs:
+        text = run.text or ""
+        if not text or not _has_unicode_script_chars(text):
+            continue
+        if not _run_is_safe_to_split(run):
+            continue
+        segments = _segment_text_by_vertical_align(text)
+        if not segments:
+            continue
+
+        first_text, first_role = segments[0]
+        run.text = first_text
+        _apply_vertical_align(run, first_role)
+
+        prev_run = run
+        for seg_text, seg_role in segments[1:]:
+            new_run = paragraph.add_run(seg_text)
+            _copy_run_rpr(run, new_run)
+            _apply_vertical_align(new_run, seg_role)
+            prev_run._element.addnext(new_run._element)
+            prev_run = new_run
+
+
+def _iter_all_paragraphs(doc: Document):
+    """Yield paragraphs in body and tables."""
+    for para in doc.paragraphs:
+        yield para
+
+    def _iter_tables(tables):
+        for table in tables:
+            for row in table.rows:
+                for cell in row.cells:
+                    for para in cell.paragraphs:
+                        yield para
+                    yield from _iter_tables(cell.tables)
+
+    yield from _iter_tables(doc.tables)
+
+
+def _split_mixed_script_runs(doc: Document) -> None:
+    """Pre-split mixed-script runs before font normalization."""
+    for para in _iter_all_paragraphs(doc):
+        _split_mixed_script_runs_in_paragraph(para)
+
+
+def _split_unicode_script_runs(doc: Document) -> None:
+    """Convert unicode super/subscript glyphs before font normalization."""
+    for para in _iter_all_paragraphs(doc):
+        _split_unicode_script_runs_in_paragraph(para)
 
 
 def _resize_and_center_images(doc: Document) -> None:
@@ -475,11 +698,65 @@ def _has_image(para) -> bool:
                 el.findall('.//' + qn('w:pict')))
 
 
+def _center_first_heading(doc: Document) -> None:
+    """Center the first Heading 1 paragraph used as the handout title."""
+    for para in doc.paragraphs:
+        pPr = para._element.find(qn("w:pPr"))
+        if pPr is None:
+            continue
+        pStyle = pPr.find(qn("w:pStyle"))
+        if pStyle is None:
+            continue
+        if pStyle.get(qn("w:val")) == "Heading1":
+            para.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            return
+
+
+def _paragraph_has_page_field(paragraph) -> bool:
+    """Check whether a footer paragraph already contains a PAGE field."""
+    for instr in paragraph._element.iter(qn("w:instrText")):
+        if (instr.text or "").strip() == "PAGE":
+            return True
+    return False
+
+
+def _add_page_numbers(doc: Document) -> None:
+    """Insert a centered PAGE field into every section footer."""
+    for section in doc.sections:
+        footer = section.footer
+        footer.is_linked_to_previous = False
+        p = footer.paragraphs[0] if footer.paragraphs else footer.add_paragraph()
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        if _paragraph_has_page_field(p):
+            continue
+
+        run = p.add_run()
+        set_run_font(run, size=10, cn_font=EN_FONT, en_font=EN_FONT)
+        fld_char_begin = OxmlElement("w:fldChar")
+        fld_char_begin.set(qn("w:fldCharType"), "begin")
+        run._element.append(fld_char_begin)
+
+        run2 = p.add_run()
+        set_run_font(run2, size=10, cn_font=EN_FONT, en_font=EN_FONT)
+        instr_text = OxmlElement("w:instrText")
+        instr_text.set(qn("xml:space"), "preserve")
+        instr_text.text = " PAGE "
+        run2._element.append(instr_text)
+
+        run3 = p.add_run()
+        set_run_font(run3, size=10, cn_font=EN_FONT, en_font=EN_FONT)
+        fld_char_end = OxmlElement("w:fldChar")
+        fld_char_end.set(qn("w:fldCharType"), "end")
+        run3._element.append(fld_char_end)
+
+
 def postprocess_pandoc_docx(
     input_path: Path,
     output_path: Optional[Path] = None,
     body_font: str = CN_BODY_FONT,
     head_font: str = CN_HEAD_FONT,
+    center_title: bool = True,
+    add_page_numbers: bool = True,
 ) -> Document:
     """修正 pandoc 生成 docx 的字体和样式。
 
@@ -493,12 +770,21 @@ def postprocess_pandoc_docx(
         中文正文字体（默认 SimSun）。
     head_font : str
         中文标题/表头字体（默认 SimHei）。
+    center_title : bool
+        是否将首个 Heading 1 题头居中。
+    add_page_numbers : bool
+        是否在页脚写入 PAGE 域。
 
     返回
     -------
     docx.Document
     """
     doc = Document(str(input_path))
+
+    # 先按脚本拆分混合 run，避免 `Fe²⁺配位` 这类文本整段继承中文字体。
+    _split_mixed_script_runs(doc)
+    # 再把 `Fe²⁺ / H₂O / SO₄²⁻` 这类 Unicode 上下标改成 Word 原生上下标。
+    _split_unicode_script_runs(doc)
 
     # ── 全库样式字体清理：遍历所有样式，移除主题引用 ──
     for style in doc.styles:
@@ -534,6 +820,8 @@ def postprocess_pandoc_docx(
             rFonts.set(qn("w:ascii"), EN_FONT)
         if not rFonts.get(qn("w:hAnsi")):
             rFonts.set(qn("w:hAnsi"), EN_FONT)
+        if not rFonts.get(qn("w:cs")):
+            rFonts.set(qn("w:cs"), EN_FONT)
 
         # 移除全部主题引用 → 等线（DengXian）根源
         for _attr in (
@@ -558,6 +846,7 @@ def postprocess_pandoc_docx(
         cn = head_font if is_heading else body_font
 
         for run in para.runs:
+            run.font.name = EN_FONT
             rPr = run._element.rPr
             if rPr is None:
                 continue
@@ -577,6 +866,8 @@ def postprocess_pandoc_docx(
                 rFonts.set(qn("w:ascii"), EN_FONT)
             if not rFonts.get(qn("w:hAnsi")):
                 rFonts.set(qn("w:hAnsi"), EN_FONT)
+            if not rFonts.get(qn("w:cs")):
+                rFonts.set(qn("w:cs"), EN_FONT)
             for _attr in (
                 "w:eastAsiaTheme", "w:asciiTheme",
                 "w:hAnsiTheme", "w:cstheme",
@@ -607,6 +898,7 @@ def postprocess_pandoc_docx(
                         rFonts.set(qn("w:eastAsia"), cf_run)
                         rFonts.set(qn("w:ascii"), EN_FONT)
                         rFonts.set(qn("w:hAnsi"), EN_FONT)
+                        rFonts.set(qn("w:cs"), EN_FONT)
                         for _attr in (
                             "w:eastAsiaTheme", "w:asciiTheme",
                             "w:hAnsiTheme", "w:cstheme",
@@ -661,6 +953,7 @@ def postprocess_pandoc_docx(
                 rFonts.set(qn("w:eastAsia"), CN_CAPTION_FONT)
                 rFonts.set(qn("w:ascii"), EN_FONT)
                 rFonts.set(qn("w:hAnsi"), EN_FONT)
+                rFonts.set(qn("w:cs"), EN_FONT)
 
     # ── OMML 公式字号：显示公式（$$...$$）→ 四号（14pt）──
     #    长行内公式（>5 非空字符）→ 同样 14pt
@@ -704,6 +997,11 @@ def postprocess_pandoc_docx(
     section.right_margin = MARGIN_RIGHT
     section.top_margin = MARGIN_TOP
     section.bottom_margin = MARGIN_BOTTOM
+
+    if center_title:
+        _center_first_heading(doc)
+    if add_page_numbers:
+        _add_page_numbers(doc)
 
     # 保存
     save_path = output_path or input_path

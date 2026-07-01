@@ -808,3 +808,9 @@
 2026-07-01 10:38:29,376+0800 INFO  miktex-dvipdfmx - this process (25952) started by xelatex in directory C:\Obsidion\妙妙屋 with command line: miktex-dvipdfmx.exe --miktex-disable-installer -q -E -o C:\Obsidion\妙妙屋\11-模板\scripts\_handout_355aaaa15ede.pdf
 2026-07-01 10:38:29,377+0800 INFO  miktex-dvipdfmx - running on Windows 10.0.26200
 2026-07-01 10:38:56,249+0800 INFO  miktex-dvipdfmx - this process (25952) finishes with exit code 0
+2026-07-01 23:22:13,229+0800 INFO  miktex-dvipdfmx - this process (24072) started by xelatex in directory C:\Obsidion\妙妙屋 with command line: miktex-dvipdfmx.exe --miktex-disable-installer -q -E -o C:\Obsidion\妙妙屋\11-模板\scripts\_handout_355aaaa15ede.pdf
+2026-07-01 23:22:13,229+0800 INFO  miktex-dvipdfmx - running on Windows 10.0.26200
+2026-07-01 23:22:39,653+0800 INFO  miktex-dvipdfmx - this process (24072) finishes with exit code 0
+2026-07-01 23:23:55,678+0800 INFO  miktex-dvipdfmx - this process (7580) started by xelatex in directory C:\Obsidion\妙妙屋 with command line: miktex-dvipdfmx.exe --miktex-disable-installer -q -E -o C:\Obsidion\妙妙屋\11-模板\scripts\_handout_355aaaa15ede.pdf
+2026-07-01 23:23:55,678+0800 INFO  miktex-dvipdfmx - running on Windows 10.0.26200
+2026-07-01 23:24:23,226+0800 INFO  miktex-dvipdfmx - this process (7580) finishes with exit code 0
