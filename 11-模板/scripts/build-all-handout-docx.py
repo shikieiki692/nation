@@ -10,7 +10,7 @@ Batch converter: Markdown student handouts → uniformly formatted .docx (v2)
 用法:
     python build-all-handout-docx.py                          # 全量转换
     python build-all-handout-docx.py --dry-run                # 预览文件列表
-    python build-all-handout-docx.py --precheck-only          # 仅跑 Word 公式预检
+    python build-all-handout-docx.py --precheck-only          # 仅跑 Word 源稿预检（公式 + Mermaid）
     python build-all-handout-docx.py --file 化学平衡          # 单文件测试
     python build-all-handout-docx.py --file 原子结构 -v       # 单文件详细日志
 
@@ -380,7 +380,7 @@ def _run_word_formula_precheck(
     source_text: str,
     processed_text: str,
 ) -> WordFormulaPrecheckReport:
-    """Run Word formula precheck v1 on source and preprocessed markdown."""
+    """Run Word handout source precheck v1 on source and preprocessed markdown."""
     issues: list[WordFormulaPrecheckIssue] = []
     seen: set[tuple[str, str, str, int | None, str]] = set()
 
@@ -399,9 +399,64 @@ def _run_word_formula_precheck(
     caption_complex_math = re.compile(
         r"(?<!\\)\$(?!\$)|\\\(|\\\[|\\(?:frac|sqrt|ce|mathrm|Delta|theta|boxed|overset|underset)|[_^]"
     )
+    mermaid_fence_start = re.compile(
+        r"^[ \t]*(?P<fence>`{3,}|~{3,})[ \t]*mermaid(?:\s+.*)?$",
+        re.IGNORECASE,
+    )
+    md_embed = re.compile(r"!\[\[([^\]]+\.md)(?:\|([^\]]*))?\]\]", re.IGNORECASE)
+
+    in_mermaid_block = False
+    mermaid_fence_char = ""
+    mermaid_fence_len = 0
+    mermaid_start_line: int | None = None
+    mermaid_excerpt_lines: list[str] = []
 
     for idx, raw_line in enumerate(source_lines, start=1):
+        if not in_mermaid_block:
+            mermaid_start = mermaid_fence_start.match(raw_line)
+            if mermaid_start:
+                fence_token = mermaid_start.group("fence")
+                in_mermaid_block = True
+                mermaid_fence_char = fence_token[0]
+                mermaid_fence_len = len(fence_token)
+                mermaid_start_line = idx
+                mermaid_excerpt_lines = [raw_line.strip()]
+                continue
+        else:
+            stripped = raw_line.strip()
+            if stripped and len(mermaid_excerpt_lines) < 2:
+                mermaid_excerpt_lines.append(stripped)
+            if re.match(rf"^[ \t]*{re.escape(mermaid_fence_char)}{{{mermaid_fence_len},}}[ \t]*$", raw_line):
+                excerpt = " | ".join(mermaid_excerpt_lines[:2])
+                _append_precheck_issue(
+                    issues,
+                    seen,
+                    severity="ERROR",
+                    rule="mermaid_block_word_incompatible",
+                    message="检测到 Mermaid 代码块；学生讲义源稿不要直接保留 Mermaid，请改成 `![[media/...png]]` 或改写为表格/列表",
+                    line_no=mermaid_start_line,
+                    excerpt=excerpt,
+                )
+                in_mermaid_block = False
+                mermaid_fence_char = ""
+                mermaid_fence_len = 0
+                mermaid_start_line = None
+                mermaid_excerpt_lines = []
+            continue
+
         masked_line = masked_source_lines[idx - 1] if idx - 1 < len(masked_source_lines) else ""
+
+        for match in md_embed.finditer(raw_line):
+            embed_target = match.group(1)
+            _append_precheck_issue(
+                issues,
+                seen,
+                severity="WARN",
+                rule="legacy_md_embed",
+                message=f"检测到 `![[{embed_target}]]` 历史 `.md` 嵌入；正式讲义源稿请直接改成最终图片 `![[media/...png]]`，不要依赖兼容层",
+                line_no=idx,
+                excerpt=raw_line,
+            )
 
         for match in critical_bare_subscript.finditer(masked_line):
             token = match.group(0)
@@ -528,6 +583,18 @@ def _run_word_formula_precheck(
                 excerpt=excerpt,
             )
 
+    if in_mermaid_block:
+        excerpt = " | ".join(mermaid_excerpt_lines[:2])
+        _append_precheck_issue(
+            issues,
+            seen,
+            severity="ERROR",
+            rule="mermaid_block_unclosed",
+            message="检测到未闭合的 Mermaid 代码块；学生讲义源稿不要直接保留 Mermaid",
+            line_no=mermaid_start_line,
+            excerpt=excerpt,
+        )
+
     return WordFormulaPrecheckReport(md_path=md_path, issues=issues)
 
 
@@ -540,7 +607,7 @@ def _emit_word_formula_precheck(
     """Print precheck summary to stderr."""
     if not report.issues:
         if verbose:
-            print(f"  [precheck] OK — no formula issues found", file=sys.stderr)
+            print(f"  [precheck] OK — no source issues found", file=sys.stderr)
         return
     severities = {"ERROR", "WARN"}
     if include_info or verbose:
@@ -599,6 +666,120 @@ def _resolve_wikilink(text: str) -> str:
     # [[link]] → link
     text = re.sub(r'\[\[([^\]]+)\]\]', r'\1', text)
     return text
+
+
+_SIMPLE_SUPERSCRIPT_MAP = {
+    "0": "⁰",
+    "1": "¹",
+    "2": "²",
+    "3": "³",
+    "4": "⁴",
+    "5": "⁵",
+    "6": "⁶",
+    "7": "⁷",
+    "8": "⁸",
+    "9": "⁹",
+    "+": "⁺",
+    "-": "⁻",
+    "=": "⁼",
+    "(": "⁽",
+    ")": "⁾",
+}
+
+_SIMPLE_SUBSCRIPT_MAP = {
+    "0": "₀",
+    "1": "₁",
+    "2": "₂",
+    "3": "₃",
+    "4": "₄",
+    "5": "₅",
+    "6": "₆",
+    "7": "₇",
+    "8": "₈",
+    "9": "₉",
+    "+": "₊",
+    "-": "₋",
+    "=": "₌",
+    "(": "₍",
+    ")": "₎",
+}
+
+_SIMPLE_INLINE_SCRIPT_TOKEN_RE = re.compile(
+    r'(?<!\$)\$(?!\$)([A-Za-z0-9]+(?:(?:\^|_)(?:\{[^{}$\n]+\}|[^{}$\n]))+)\$(?!\$)'
+)
+_SCRIPT_PART_RE = re.compile(r'(\^|_)(\{[^{}$\n]+\}|[^{}$\n])')
+_SPLIT_INLINE_SCRIPT_RE = re.compile(
+    r'([A-Za-z0-9]+)\$(\^|_)(\{[^{}$\n]+\}|[^{}$\n])\$'
+)
+
+
+def _map_simple_script_arg(op: str, arg: str) -> str | None:
+    """Convert a simple script payload to unicode super/subscript glyphs."""
+    mapping = _SIMPLE_SUPERSCRIPT_MAP if op == "^" else _SIMPLE_SUBSCRIPT_MAP
+    converted: list[str] = []
+    for ch in arg:
+        mapped = mapping.get(ch)
+        if mapped is None:
+            return None
+        converted.append(mapped)
+    return "".join(converted)
+
+
+def _convert_simple_script_token(token: str) -> str | None:
+    """Convert simple inline math script tokens like `I_1` or `Na^+` to unicode."""
+    m = re.fullmatch(
+        r'([A-Za-z0-9]+)((?:(?:\^|_)(?:\{[^{}$\n]+\}|[^{}$\n]))+)',
+        token,
+    )
+    if not m:
+        return None
+
+    base = m.group(1)
+    suffix = m.group(2)
+    out = [base]
+    for op, raw_arg in _SCRIPT_PART_RE.findall(suffix):
+        arg = raw_arg[1:-1] if raw_arg.startswith("{") and raw_arg.endswith("}") else raw_arg
+        mapped = _map_simple_script_arg(op, arg)
+        if mapped is None:
+            return None
+        out.append(mapped)
+    return "".join(out)
+
+
+def _normalize_split_inline_scripts(text: str) -> str:
+    """Normalize `Na$^+$` / `2s$^2$` / `4f$_{+3}$` style split-script markup.
+
+    Strategy:
+      - simple superscript/subscript payloads → unicode form
+      - complex payloads (e.g. `$_{x(x^2-3y^2)}$`) → merged full math token
+    """
+
+    def _replace(match: re.Match[str]) -> str:
+        base = match.group(1)
+        op = match.group(2)
+        raw_arg = match.group(3)
+        token = f"{base}{op}{raw_arg}"
+        converted = _convert_simple_script_token(token)
+        if converted is not None:
+            return converted
+        return f"${base}{op}{raw_arg}$"
+
+    return _SPLIT_INLINE_SCRIPT_RE.sub(_replace, text)
+
+
+def _normalize_simple_inline_math_tokens(text: str) -> str:
+    """Convert simple inline math tokens to plain unicode-friendly text where safe."""
+
+    def _replace(match: re.Match[str]) -> str:
+        token = match.group(1)
+        converted = _convert_simple_script_token(token)
+        if converted is not None:
+            return converted
+        if token in {"Z^*", "Z^{*}"}:
+            return "Z*"
+        return match.group(0)
+
+    return _SIMPLE_INLINE_SCRIPT_TOKEN_RE.sub(_replace, text)
 
 
 def _normalize_strong_markup(text: str) -> str:
@@ -943,6 +1124,10 @@ def _preprocess_markdown(text: str) -> str:
     text = _transform_callout_blocks(text)
     # 0b) Normalize malformed strong emphasis with stray inner spaces
     text = _normalize_strong_markup(text)
+    # 0c) Normalize split-script inline math like `Na$^+$` / `2s$^2$`
+    text = _normalize_split_inline_scripts(text)
+    # 0d) Simplify safe inline tokens like `$I_1$` → `I₁`, `$Z^*$` → `Z*`
+    text = _normalize_simple_inline_math_tokens(text)
 
     # 1) Image embeds: ![[image.png]] or ![[image.png|alt text]] → ![alt](image.png)
     text = re.sub(
@@ -1137,7 +1322,7 @@ def precheck_file(
     md_path: Path,
     verbose: bool = False,
 ) -> WordFormulaPrecheckReport:
-    """Run Word formula precheck v1 for one markdown handout."""
+    """Run Word handout source precheck v1 for one markdown handout."""
     if not md_path.exists():
         raise FileNotFoundError(md_path)
     _, body, processed_body = _prepare_handout_markdown(md_path, verbose=verbose)
@@ -1388,7 +1573,7 @@ def main():
     )
     parser.add_argument(
         "--precheck-only", action="store_true",
-        help="Run Word formula precheck without converting to docx",
+        help="Run Word source precheck (formula + Mermaid) without converting to docx",
     )
     parser.add_argument(
         "--file", type=str, default=None,
@@ -1472,7 +1657,7 @@ def main():
     print(f"Found {len(all_md)} handouts in {HANDOUT_SRC}")
     print(f"Selected {len(files)} for processing")
     if args.precheck_only:
-        print("Mode: Word formula precheck only\n")
+        print("Mode: Word source precheck only (formula + Mermaid)\n")
     elif args.dry_run:
         print("Dry-run mode — no files will be written:\n")
     else:

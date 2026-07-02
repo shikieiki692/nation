@@ -8,7 +8,7 @@ tags: ["系统", "PDF", "模板"]
 # PDF 生成策略 · 一键告知 Agent
 
 **适用场景**：已有讲义要快速出 PDF。  
-**不适用场景**：新讲义定规范、系统性重构 Markdown、批量修图片资产。那类任务先读 [[11-模板/MD到产品PDF落地方案]] 和 [[11-模板/MD讲义格式参考（原子结构样板）]]。
+**不适用场景**：新讲义定规范、系统性重构 Markdown、批量修图片资产。那类任务先读 [[11-模板/MD通用规范（Word-PDF共同最优子集）]]、[[11-模板/MD讲义格式参考（原子结构样板）]] 和 [[11-模板/MD到产品PDF落地方案]]。
 
 **一键使用时，你要做的就是：先跑 `python 11-模板/scripts/pdf_preflight.py "04-课件/学生讲义/讲义名.md"`，再跑 `python 11-模板/scripts/convert_handout_to_pdf.py "讲义名.md"`，PDF 会出现在 `00-首页/学生讲义PDF/` 下。**
 
@@ -33,7 +33,7 @@ python 11-模板/scripts/convert_handout_to_pdf.py ALL --parallel
 
 - 源 Markdown：`04-课件/学生讲义/`
 - 成品 PDF：`00-首页/学生讲义PDF/`
-- 学生侧 `.docx`：`06-学生侧材料/学生讲义/`
+- 学生侧 `.docx`：`00-首页/学生讲义Word/`
 
 不要再把 PDF 和源 `.md` 混放在同一个目录里。
 
