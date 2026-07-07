@@ -6,7 +6,7 @@ source: "分析化学经典计算题"
 subject: 分析化学
 question_type: 计算题
 difficulty: 3
-knowledge_points: ["EDTA滴定", "水的硬度", "络合滴定应用"]
+knowledge_points: ["[[EDTA滴定]]", "[[水的硬度]]", "[[络合滴定应用]]"]
 tags: [化竞, 分析化学]
 updated: 2026-06-30
 ---

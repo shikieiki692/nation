@@ -13,7 +13,7 @@ question_type: 简答题
 difficulty: 2
 teaching_level: 基础
 syllabus_codes: []
-knowledge_points: [Knoevenagel反应, 亲核试剂, 碳负离子]
+knowledge_points: ["[[Knoevenagel反应]]", "[[亲核试剂]]", "[[碳负离子]]"]
 tags: [化竞, 真题, 26届]
 updated: 2026-06-30
 ---

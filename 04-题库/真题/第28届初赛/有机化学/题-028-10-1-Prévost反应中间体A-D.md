@@ -13,7 +13,7 @@ question_type: 机理书写题
 difficulty: 4
 teaching_level: 拓展
 syllabus_codes: []
-knowledge_points: [亲电加成, 鎓离子, 邻基参与, PréVOSt反应]
+knowledge_points: ["[[亲电加成]]", "[[鎓离子]]", "[[邻基参与]]", "[[PréVOSt反应]]"]
 tags: [化竞, 真题, 28届]
 updated: 2026-05-11
 ---

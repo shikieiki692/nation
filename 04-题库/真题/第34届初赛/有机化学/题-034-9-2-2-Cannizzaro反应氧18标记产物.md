@@ -13,7 +13,7 @@ question_type: 机理书写题
 difficulty: 4
 teaching_level: 竞赛拔高
 syllabus_codes: []
-knowledge_points: [Cannizzaro反应, 动力学同位素效应]
+knowledge_points: ["[[Cannizzaro反应]]", "[[动力学同位素效应]]"]
 tags: [化竞, 真题, 34届]
 updated: 2026-05-08
 ---

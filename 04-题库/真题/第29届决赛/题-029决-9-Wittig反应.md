@@ -15,7 +15,7 @@ question_type: 简答+画图
 difficulty: ★★★★☆
 teaching_level: 竞赛决赛
 syllabus_codes: []
-knowledge_points: ["Wittig反应", "共振结构", "NMR分析", "C=N构型", "猝灭反应"]
+knowledge_points: ["[[Wittig反应]]", "[[共振结构]]", "[[NMR分析]]", "[[C=N构型]]", "[[猝灭反应]]"]
 tags: [化竞, 真题, 29届, 决赛]
 updated: 2026-06-30
 ---

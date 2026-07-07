@@ -13,7 +13,7 @@ question_type: 计算题
 difficulty: 3
 teaching_level: 拓展
 syllabus_codes: []
-knowledge_points: [电化学平衡, NMR"分析化学", 平衡常数计算]
+knowledge_points: ["[[电化学平衡]]", "[[NMR"分析化学"]]", "[[平衡常数计算]]"]
 tags: [化竞, 真题, 36届]
 updated: 2026-05-11
 ---

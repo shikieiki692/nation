@@ -15,7 +15,7 @@ question_type: 综合题
 difficulty: ★★★★★
 teaching_level: 拔高
 syllabus_codes: []
-knowledge_points: ["晶体结构", "配位场理论", "分数坐标", "晶胞分析", "超导体"]
+knowledge_points: ["[[晶体结构]]", "[[配位场理论]]", "[[分数坐标]]", "[[晶胞分析]]", "[[超导体]]"]
 tags: [化竞, 真题, 28届, 决赛]
 updated: 2026-06-30
 ---

@@ -13,7 +13,7 @@ question_type: 机理题
 difficulty: 5
 teaching_level: 挑战
 syllabus_codes: []
-knowledge_points: [Vilsmeier反应, 酰胺生成, 分子内亲电取代]
+knowledge_points: ["[[Vilsmeier反应]]", "[[酰胺生成]]", "[[分子内亲电取代]]"]
 tags: [化竞, 真题, 25届]
 updated: 2026-06-30
 ---

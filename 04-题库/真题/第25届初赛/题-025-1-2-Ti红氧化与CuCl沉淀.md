@@ -13,7 +13,7 @@ question_type: 填空题
 difficulty: 2
 teaching_level: 基础
 syllabus_codes: []
-knowledge_points: [Ti氧化还原, CuCl沉淀, 配位效应]
+knowledge_points: ["[[Ti氧化还原]]", "[[CuCl沉淀]]", "[[配位效应]]"]
 tags: [化竞, 真题, 25届]
 updated: 2026-06-30
 ---

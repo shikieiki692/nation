@@ -13,7 +13,7 @@ question_type: 简答题
 difficulty: 3
 teaching_level: 拓展
 syllabus_codes: []
-knowledge_points: [Fischer投影式, 糖类化学, 立体化学, 山梨糖]
+knowledge_points: ["[[Fischer投影式]]", "[[糖类化学]]", "[[立体化学]]", "[[山梨糖]]"]
 tags: [化竞, 真题, 33届]
 updated: 2026-05-11
 ---

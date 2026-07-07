@@ -19,6 +19,7 @@ from copy import deepcopy
 from pathlib import Path
 from typing import Optional
 import re
+import zipfile
 
 from docx import Document
 from docx.enum.text import WD_ALIGN_PARAGRAPH
@@ -53,6 +54,62 @@ SPACING_CAPTION_AFTER = 8     # 图注与正文间距
 SPACING_HEADING_BEFORE = 14   # 标题前间距
 SPACING_HEADING_AFTER = 6     # 标题后间距
 LINE_SPACING_BODY = 1.25      # 正文行距
+WORD_NS = "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+
+
+def _repair_word_namespaces(docx_path: Path) -> bool:
+    """Repair missing `w` / `ns0` namespace declarations in Word XML parts.
+
+    Some Pandoc outputs mix `<w:...>` and `<ns0:...>` inside the same OOXML
+    part but declare only one prefix on the root node. `python-docx` then
+    fails while parsing that part. If detected, inject the missing namespace
+    declarations before loading the document.
+    """
+    with zipfile.ZipFile(docx_path, "r") as zin:
+        zip_entries = []
+        changed = False
+
+        for info in zin.infolist():
+            data = zin.read(info.filename)
+            if not info.filename.endswith(".xml"):
+                zip_entries.append((info, data))
+                continue
+
+            text = data.decode("utf-8", errors="replace")
+            head = text[:500]
+            need_w = "<w:" in text and 'xmlns:w="' not in head
+            need_ns0 = "<ns0:" in text and 'xmlns:ns0="' not in head
+
+            if need_w or need_ns0:
+                extra = ""
+                if need_w:
+                    extra += f' xmlns:w="{WORD_NS}"'
+                if need_ns0:
+                    extra += f' xmlns:ns0="{WORD_NS}"'
+
+                repaired_text, n = re.subn(
+                    r"(<[^!?][^>]*)(>)",
+                    rf"\1{extra}\2",
+                    text,
+                    count=1,
+                )
+                if n:
+                    text = repaired_text
+                    data = text.encode("utf-8")
+                    changed = True
+
+            zip_entries.append((info, data))
+
+        if not changed:
+            return False
+
+    tmp_path = docx_path.with_name(docx_path.stem + ".styles-fix.tmp" + docx_path.suffix)
+    with zipfile.ZipFile(tmp_path, "w") as zout:
+        for info, data in zip_entries:
+            zout.writestr(info, data)
+
+    tmp_path.replace(docx_path)
+    return True
 
 # ── 字体设置函数 ──────────────────────────────────────────
 
@@ -779,12 +836,13 @@ def postprocess_pandoc_docx(
     -------
     docx.Document
     """
+    _repair_word_namespaces(Path(input_path))
     doc = Document(str(input_path))
 
     # 先按脚本拆分混合 run，避免 `Fe²⁺配位` 这类文本整段继承中文字体。
     _split_mixed_script_runs(doc)
-    # 再把 `Fe²⁺ / H₂O / SO₄²⁻` 这类 Unicode 上下标改成 Word 原生上下标。
-    _split_unicode_script_runs(doc)
+    # 保留 `Fe²⁺ / H₂O / SO₄²⁻ / NO₂⁻` 这类简单 Unicode 写法本体。
+    # 若再拆成 Word 原生上下标 run，Word 中常会出现可见空隙。
 
     # ── 全库样式字体清理：遍历所有样式，移除主题引用 ──
     for style in doc.styles:

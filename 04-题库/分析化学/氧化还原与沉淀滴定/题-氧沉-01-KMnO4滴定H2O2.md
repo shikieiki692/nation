@@ -6,7 +6,7 @@ source: "分析化学经典计算题"
 subject: 分析化学
 question_type: 计算题
 difficulty: 3
-knowledge_points: ["高锰酸钾滴定", "氧化还原滴定", "过氧化氢测定"]
+knowledge_points: ["[[高锰酸钾滴定]]", "[[氧化还原滴定]]", "[[过氧化氢测定]]"]
 tags: [化竞, 分析化学]
 updated: 2026-06-30
 ---

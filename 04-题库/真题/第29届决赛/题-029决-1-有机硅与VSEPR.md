@@ -15,7 +15,7 @@ question_type: 简答+画图
 difficulty: ★★★☆☆
 teaching_level: 竞赛决赛
 syllabus_codes: []
-knowledge_points: ["硅氮化合物", "Na/NH₃体系", "VSEPR理论", "亲核取代反应", "离域π键"]
+knowledge_points: ["[[硅氮化合物]]", "[[Na/NH₃体系]]", "[[VSEPR理论]]", "[[亲核取代反应]]", "[[离域π键]]"]
 tags: [化竞, 真题, 29届, 决赛]
 updated: 2026-06-30
 ---

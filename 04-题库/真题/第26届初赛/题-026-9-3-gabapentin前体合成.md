@@ -13,7 +13,7 @@ question_type: 结构题
 difficulty: 3
 teaching_level: 基础
 syllabus_codes: []
-knowledge_points: [逆合成分析, Knoevenagel, gabapentin]
+knowledge_points: ["[[逆合成分析]]", "[[Knoevenagel]]", "[[gabapentin]]"]
 tags: [化竞, 真题, 26届]
 updated: 2026-06-30
 ---

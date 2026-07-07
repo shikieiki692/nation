@@ -13,7 +13,7 @@ question_type: 机理题
 difficulty: 5
 teaching_level: 挑战
 syllabus_codes: []
-knowledge_points: [Michael加成, 串联反应, 腈水解, 脱羧]
+knowledge_points: ["[[Michael加成]]", "[[串联反应]]", "[[腈水解]]", "[[脱羧]]"]
 tags: [化竞, 真题, 26届]
 updated: 2026-06-30
 ---

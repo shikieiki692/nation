@@ -15,7 +15,7 @@ question_type: 综合计算
 difficulty: 3
 teaching_level: 进阶
 syllabus_codes: []
-knowledge_points: [EDTA滴定, 缓冲溶液pH, Henderson-Hasselbalch方程, 配位滴定浓度计算]
+knowledge_points: ["[[EDTA滴定]]", "[[缓冲溶液pH]]", "[[Henderson-Hasselbalch方程]]", "[[配位滴定浓度计算]]"]
 tags: [化竞, 真题, 26届, 决赛]
 updated: 2026-06-30
 ---

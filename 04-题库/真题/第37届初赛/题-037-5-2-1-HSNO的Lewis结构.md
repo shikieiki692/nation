@@ -13,7 +13,7 @@ question_type: 简答题
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: []
-knowledge_points: [LeWiS结构, 共振论, 电负性]
+knowledge_points: ["[[LeWiS结构]]", "[[共振论]]", "[[电负性]]"]
 tags: [化竞, 真题, 37届]
 updated: 2026-05-11
 ---

@@ -15,7 +15,7 @@ question_type: 简答与推导
 difficulty: 中
 teaching_level: 决赛
 syllabus_codes: []
-knowledge_points: [缔合胶体, 胶束形成, 热力学驱动力, 熵效应, McBain理论]
+knowledge_points: ["[[缔合胶体]]", "[[胶束形成]]", "[[热力学驱动力]]", "[[熵效应]]", "[[McBain理论]]"]
 tags: [化竞, 真题, 27届, 决赛]
 updated: 2026-06-30
 ---

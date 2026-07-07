@@ -13,7 +13,7 @@ question_type: 简答题
 difficulty: 4
 teaching_level: 拓展
 syllabus_codes: []
-knowledge_points: ["Lewis酸催化", 一锅煮串联反应, 多米诺反应]
+knowledge_points: ["[[Lewis酸催化]]"]
 tags: [化竞, 真题, 32届]
 updated: 2026-05-11
 ---

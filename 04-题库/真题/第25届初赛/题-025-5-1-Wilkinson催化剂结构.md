@@ -13,7 +13,7 @@ question_type: 结构题
 difficulty: 3
 teaching_level: 进阶
 syllabus_codes: []
-knowledge_points: [Wilkinson催化剂, 16e规则, dsp2杂化]
+knowledge_points: ["[[Wilkinson催化剂]]", "[[16e规则]]", "[[dsp2杂化]]"]
 tags: [化竞, 真题, 25届]
 updated: 2026-06-30
 ---

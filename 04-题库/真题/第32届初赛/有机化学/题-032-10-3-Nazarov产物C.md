@@ -13,7 +13,7 @@ question_type: 简答题
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: []
-knowledge_points: [银离子催化, 环丙烷开环, 阳离子开环]
+knowledge_points: ["[[银离子催化]]", "[[环丙烷开环]]", "[[阳离子开环]]"]
 tags: [化竞, 真题, 32届]
 updated: 2026-05-11
 ---

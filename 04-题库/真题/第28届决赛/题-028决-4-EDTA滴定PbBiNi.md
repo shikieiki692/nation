@@ -15,7 +15,7 @@ question_type: 综合题
 difficulty: ★★★☆☆
 teaching_level: 拔高
 syllabus_codes: []
-knowledge_points: ["EDTA滴定", "配位滴定", "掩蔽剂", "指示剂", "分步滴定"]
+knowledge_points: ["[[EDTA滴定]]", "[[配位滴定]]", "[[掩蔽剂]]", "[[指示剂]]", "[[分步滴定]]"]
 tags: [化竞, 真题, 28届, 决赛]
 updated: 2026-06-30
 ---

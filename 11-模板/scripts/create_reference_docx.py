@@ -40,6 +40,7 @@ def set_style_font(style, cn_font="SimSun", en_font="Times New Roman",
     rFonts.set(qn("w:eastAsia"), cn_font)
     rFonts.set(qn("w:ascii"), en_font)
     rFonts.set(qn("w:hAnsi"), en_font)
+    rFonts.set(qn("w:cs"), en_font)
     for attr in ["w:eastAsiaTheme", "w:asciiTheme",
                  "w:hAnsiTheme", "w:cstheme"]:
         key = qn(attr)
@@ -60,6 +61,7 @@ style_configs = {
     "Subtitle": {"cn": "SimSun", "size": 12,
                  "color": RGBColor(91, 105, 117)},
     "Caption": {"cn": "FangSong", "size": 10.5},
+    "VerbatimChar": {"cn": "SimSun", "size": 10},
 }
 
 for style_name, cfg in style_configs.items():

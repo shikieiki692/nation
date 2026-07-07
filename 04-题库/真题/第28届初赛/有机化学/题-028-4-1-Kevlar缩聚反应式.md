@@ -13,7 +13,7 @@ question_type: 机理书写题
 difficulty: 2
 teaching_level: 入门
 syllabus_codes: []
-knowledge_points: [缩聚反应, 聚酰胺, 对苯二甲酰对苯二胺]
+knowledge_points: ["[[缩聚反应]]", "[[聚酰胺]]", "[[对苯二甲酰对苯二胺]]"]
 tags: [化竞, 真题, 28届]
 updated: 2026-05-11
 ---

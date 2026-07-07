@@ -648,6 +648,21 @@ def _clean_title(raw: str) -> str:
     return t
 
 
+def _clean_word_title(raw: str) -> str:
+    """Build a cleaner student-facing Word title."""
+    title = raw.strip()
+    for prefix in ["学生讲义：", "学生讲义-", "学生讲义"]:
+        if title.startswith(prefix):
+            title = title[len(prefix):].strip()
+    title = re.sub(
+        r"（(?:超级充实版(?:·自学完整)?|自学完整|超级充实版)）$",
+        "",
+        title,
+    ).strip()
+    title = title.rstrip("：:- ").strip()
+    return title or "学生讲义"
+
+
 def build_title(fm: dict[str, Any]) -> str:
     """Build display title from frontmatter."""
     yaml_title = fm.get("title", "")
@@ -711,6 +726,9 @@ _SCRIPT_PART_RE = re.compile(r'(\^|_)(\{[^{}$\n]+\}|[^{}$\n])')
 _SPLIT_INLINE_SCRIPT_RE = re.compile(
     r'([A-Za-z0-9]+)\$(\^|_)(\{[^{}$\n]+\}|[^{}$\n])\$'
 )
+_ATTACHED_SIMPLE_SCRIPT_RE = re.compile(
+    r'([^\s$]+)\$((?:(?:\^|_)(?:\{[^{}$\n]+\}|[^{}$\n]))+)\$'
+)
 
 
 def _map_simple_script_arg(op: str, arg: str) -> str | None:
@@ -744,6 +762,91 @@ def _convert_simple_script_token(token: str) -> str | None:
             return None
         out.append(mapped)
     return "".join(out)
+
+
+def _extract_markdown_h1(text: str) -> str | None:
+    """Return the first level-1 markdown heading text."""
+    m = re.search(r"^#\s+(.+?)\s*$", text, flags=re.MULTILINE)
+    if not m:
+        return None
+    return m.group(1).strip()
+
+
+def _normalize_markdown_heading_title(title: str) -> str:
+    """Normalize section titles for structural filtering."""
+    normalized = title.strip()
+    normalized = re.sub(r"^[一二三四五六七八九十]+[、.．]\s*", "", normalized)
+    normalized = re.sub(r"^\d+(?:\.\d+)*\s*", "", normalized)
+    return normalized.strip()
+
+
+_WORD_CLEAN_SECTION_TITLES = {
+    "与竞赛真题的对接",
+    "跨专题联系",
+    "深化方向",
+    "延伸阅读",
+}
+
+
+def _strip_markdown_sections_by_title(text: str, titles: set[str]) -> str:
+    """Remove markdown heading sections whose normalized titles match `titles`."""
+    lines = text.splitlines()
+    result: list[str] = []
+    skipping = False
+    skip_level = 99
+
+    for line in lines:
+        heading = re.match(r"^(#{2,6})\s+(.+?)\s*$", line)
+        if heading:
+            level = len(heading.group(1))
+            normalized = _normalize_markdown_heading_title(heading.group(2))
+            if skipping and level <= skip_level:
+                skipping = False
+            if normalized in titles:
+                skipping = True
+                skip_level = level
+                continue
+        if skipping:
+            continue
+        result.append(line)
+    return "\n".join(result)
+
+
+def _strip_non_image_wikilink_lines(text: str) -> str:
+    """Remove non-image knowledge-base link lines from a Word clean copy."""
+    kept_lines: list[str] = []
+    for line in text.splitlines():
+        if "[[" in line and "![[media/" not in line and "![[Media/" not in line:
+            continue
+        kept_lines.append(line)
+    return "\n".join(kept_lines)
+
+
+def _collapse_extra_blank_lines(text: str) -> str:
+    """Collapse repeated blank lines and duplicate horizontal rules."""
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    text = re.sub(r"(?:\n\s*___\s*){2,}", "\n\n___\n\n", text)
+    text = re.sub(r"(?:\n\s*---\s*){2,}", "\n\n---\n\n", text)
+    return text.strip()
+
+
+def _build_word_clean_body(fm: dict[str, Any], body: str) -> str:
+    """Build a student-facing Word clean copy from the markdown source."""
+    heading_title = _extract_markdown_h1(body)
+    clean_title = _clean_word_title(heading_title or build_title(fm))
+
+    main_match = re.search(r"^##\s+[一二三四五六七八九十]+、", body, flags=re.MULTILINE)
+    if main_match:
+        core = body[main_match.start():].strip()
+    else:
+        core = re.sub(r"^#\s+.+?\n+", "", body, count=1, flags=re.MULTILINE).strip()
+
+    core = _strip_markdown_sections_by_title(core, _WORD_CLEAN_SECTION_TITLES)
+    core = _strip_non_image_wikilink_lines(core)
+    core = re.sub(r"^\s*>\s*相关知识点：.*$", "", core, flags=re.MULTILINE)
+    core = re.sub(r"^\s*>\s*\*\*相关知识点\*\*：.*$", "", core, flags=re.MULTILINE)
+    core = _collapse_extra_blank_lines(core)
+    return f"# {clean_title}\n\n{core}\n"
 
 
 def _normalize_split_inline_scripts(text: str) -> str:
@@ -780,6 +883,24 @@ def _normalize_simple_inline_math_tokens(text: str) -> str:
         return match.group(0)
 
     return _SIMPLE_INLINE_SCRIPT_TOKEN_RE.sub(_replace, text)
+
+
+def _normalize_attached_simple_math_scripts(text: str) -> str:
+    """Convert `NO$_2^-$` / `[O=N-O]$^-$` style attached scripts to unicode."""
+
+    def _replace(match: re.Match[str]) -> str:
+        base = match.group(1)
+        suffix = match.group(2)
+        out = [base]
+        for op, raw_arg in _SCRIPT_PART_RE.findall(suffix):
+            arg = raw_arg[1:-1] if raw_arg.startswith("{") and raw_arg.endswith("}") else raw_arg
+            mapped = _map_simple_script_arg(op, arg)
+            if mapped is None:
+                return match.group(0)
+            out.append(mapped)
+        return "".join(out)
+
+    return _ATTACHED_SIMPLE_SCRIPT_RE.sub(_replace, text)
 
 
 def _normalize_strong_markup(text: str) -> str:
@@ -1128,6 +1249,8 @@ def _preprocess_markdown(text: str) -> str:
     text = _normalize_split_inline_scripts(text)
     # 0d) Simplify safe inline tokens like `$I_1$` → `I₁`, `$Z^*$` → `Z*`
     text = _normalize_simple_inline_math_tokens(text)
+    # 0e) Normalize attached simple scripts like `NO$_2^-$` / `[O=N-O]$^-$`
+    text = _normalize_attached_simple_math_scripts(text)
 
     # 1) Image embeds: ![[image.png]] or ![[image.png|alt text]] → ![alt](image.png)
     text = re.sub(
@@ -1209,15 +1332,20 @@ def build_subtitle(fm: dict[str, Any]) -> str | None:
 def _prepare_handout_markdown(
     md_path: Path,
     verbose: bool = False,
+    word_clean: bool = False,
 ) -> tuple[dict[str, Any], str, str]:
     """Read one markdown handout and return (frontmatter, source_body, processed_body)."""
     content = md_path.read_text(encoding="utf-8")
     fm, body = parse_frontmatter(content)
 
-    processed_body = body
+    source_body = _build_word_clean_body(fm, body) if word_clean else body
+    processed_body = source_body
 
     # 1a) Strip metadata blockquote between title and first ---.
-    processed_body = _strip_metadata_blockquote(processed_body)
+    # Word 清稿模式下，正文会直接从第一章开始，后文中的正常 blockquote
+    # 不应再被误判成顶层 metadata。
+    if not word_clean:
+        processed_body = _strip_metadata_blockquote(processed_body)
     # 1b) Strip attribution footer (*本讲义依据…*).
     processed_body = _strip_footer(processed_body)
     # 1b2) Auto-render Excalidraw .md files to PNG if no sibling PNG exists.
@@ -1315,7 +1443,7 @@ def _prepare_handout_markdown(
         processed_body,
     )
     processed_body = _preprocess_markdown(processed_body)
-    return fm, body, processed_body
+    return fm, source_body, processed_body
 
 
 def precheck_file(
@@ -1391,6 +1519,7 @@ def convert_file(
     render_preview: bool = False,
     render_output_dir: Path | None = None,
     emit_render_pdf: bool = False,
+    word_clean: bool = False,
 ) -> Path | None:
     """Convert a single .md handout to .docx via the three-stage pipeline.
 
@@ -1400,16 +1529,23 @@ def convert_file(
         print(f"  [SKIP] File not found: {md_path}", file=sys.stderr)
         return None
 
+    # ── Read & parse ──
+    fm, body, processed_body = _prepare_handout_markdown(
+        md_path,
+        verbose=verbose,
+        word_clean=word_clean,
+    )
     stem = md_path.stem
+    if word_clean:
+        title_candidate = _extract_markdown_h1(body) or build_title(fm)
+        stem = _clean_word_title(title_candidate) + "（Word清稿）"
+    stem = re.sub(r'[\\/:*?"<>|]+', "-", stem).strip()
     out_dir = Path(output_dir) if output_dir else HANDOUT_OUT
     out_path = out_dir / f"{stem}.docx"
 
     if dry_run:
         print(f"  [DRY] {md_path.name}  →  {out_path.name}")
         return None
-
-    # ── Read & parse ──
-    fm, body, processed_body = _prepare_handout_markdown(md_path, verbose=verbose)
 
     if verbose:
         yaml_title = fm.get("title", "")
@@ -1451,8 +1587,8 @@ def convert_file(
                 emit_pdf=emit_render_pdf,
                 verbose=verbose,
             )
-            if verbose:
-                print(f"  [render] Preview written to {preview_dir}", file=sys.stderr)
+        if verbose:
+            print(f"  [render] Preview written to {preview_dir}", file=sys.stderr)
 
     finally:
         # Cleanup temp markdown
@@ -1601,6 +1737,10 @@ def main():
         help="Render generated DOCX files to page PNGs for visual QA",
     )
     parser.add_argument(
+        "--word-clean", action="store_true",
+        help="Generate a student-facing Word clean copy that removes intro scaffolding and vault-only links",
+    )
+    parser.add_argument(
         "--render-output-dir", type=str, default=None,
         help="Root directory for rendered preview folders",
     )
@@ -1699,6 +1839,7 @@ def main():
                     render_preview=args.render_preview,
                     render_output_dir=render_output_dir,
                     emit_render_pdf=args.emit_render_pdf,
+                    word_clean=args.word_clean,
                 )
                 if out:
                     return (md_path.name, True)
@@ -1742,6 +1883,7 @@ def main():
                     render_preview=args.render_preview,
                     render_output_dir=render_output_dir,
                     emit_render_pdf=args.emit_render_pdf,
+                    word_clean=args.word_clean,
                 )
                 if out:
                     print(f"  →  {out.name}")

@@ -20,7 +20,7 @@ question_type: 综合题
 difficulty: 3-4
 teaching_level: 挑战
 syllabus_codes: []
-knowledge_points: [Michael加成, 胍盐离子液体, Knoevenagel缩合, 周环反应, "1,5-H迁移"]
+knowledge_points: ["[[Michael加成]]", "[[胍盐离子液体]]", "[[Knoevenagel缩合]]", "[[周环反应]]", "[["1]]", "[[5-H迁移"]]"]
 tags: [化竞, 真题, 25届, 决赛]
 updated: 2026-06-30
 ---
