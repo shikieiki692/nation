@@ -10,10 +10,11 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["31"]
-knowledge_points: ['[[结构基础]]', '[[Lewis酸碱]]', '[[电子效应]]', '[[碳正离子]]']
+knowledge_points: ["[[结构基础]]", "[[Lewis酸碱]]", "[[电子效应]]", "[[碳正离子]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch1-1.4.1]
 updated: 2026-07-04
+status: 已填充
 ---
 
 # 题-190：除了使用构象相互作用来制造船式构象，我还可以利用次级键来制造。比如说，我设计一个 14 环己二胺分子

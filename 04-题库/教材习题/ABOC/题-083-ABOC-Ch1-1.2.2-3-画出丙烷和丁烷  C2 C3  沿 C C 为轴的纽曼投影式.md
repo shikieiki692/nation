@@ -10,10 +10,11 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["31"]
-knowledge_points: ['[[结构基础]]', '[[Lewis酸碱]]', '[[电子效应]]', '[[碳正离子]]']
+knowledge_points: ["[[结构基础]]", "[[Lewis酸碱]]", "[[电子效应]]", "[[碳正离子]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch1-1.2.2-3]
 updated: 2026-07-04
+status: 已填充
 ---
 
 # 题-083：画出丙烷和丁烷 (C2-C3) 沿 C-C 为轴的纽曼投影式，找出其中最稳定的构象。

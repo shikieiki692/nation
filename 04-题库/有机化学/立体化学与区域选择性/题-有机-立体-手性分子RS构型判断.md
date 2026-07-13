@@ -14,7 +14,7 @@ teaching_level: 巩固
 syllabus_codes: ["25"]
 knowledge_points: ["[[手性]]", "[[R/S构型标记]]"]
 tags: [化竞, 题目, 有机化学, 第三轮]
-status: 已入库
+status: 已填充
 updated: 2026-06-06
 ---
 

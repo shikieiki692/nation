@@ -14,7 +14,7 @@ teaching_level: 入门
 syllabus_codes: ["28"]
 knowledge_points: ["[[芳香性]]", "[[芳香性]]", "[[芳香性]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 

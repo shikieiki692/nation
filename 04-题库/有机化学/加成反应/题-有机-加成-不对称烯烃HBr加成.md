@@ -14,7 +14,7 @@ teaching_level: 巩固
 syllabus_codes: ["31"]
 knowledge_points: ["[[加成反应]]", "[[碳正离子]]", "[[自由基加成]]"]
 tags: [化竞, 题目, 有机化学, 第三轮]
-status: 已入库
+status: 已填充
 updated: 2026-06-06
 ---
 

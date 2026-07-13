@@ -1,4 +1,4 @@
-﻿---
+---
 title: Suzuki偶联
 aliases: [Suzuki Coupling, Suzuki-Miyaura偶联, 铃木偶联, 钯催化交叉偶联]
 type: 知识点

@@ -12,9 +12,9 @@ question_type: 机理推断题
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["34", "28"]
-knowledge_points: ["[[碳正离子]]", "[[过碘酸氧化]]", 2-迁移与重排, Grossman规则]
+knowledge_points: ["[[碳正离子]]", "[[过碘酸氧化]]", "[[2-迁移与重排]]", "[[Grossman规则]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 

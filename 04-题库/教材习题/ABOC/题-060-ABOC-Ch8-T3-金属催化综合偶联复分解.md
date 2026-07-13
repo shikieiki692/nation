@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-060-ABOC-Ch8-T3-金属催化综合偶联复分解
 aliases: [ABOC-Ch8-T3]
 type: 题目
@@ -12,9 +12,9 @@ question_type: 合成设计题
 difficulty: 4
 teaching_level: 拓展
 syllabus_codes: ["50", "51"]
-knowledge_points: ["[[Suzuki偶联]]", "[[烯烃复分解反应]]", 过渡金属催化]
+knowledge_points: ["[[Suzuki偶联]]", "[[烯烃复分解]]", "[[过渡金属催化]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 
@@ -47,7 +47,7 @@ updated: 2026-05-10
 | 关联 KP | 考查角度 | 直接/间接 |
 |---|---|:---:|
 | [[Suzuki偶联]] | Pd 催化的 C(sp²)-C(sp²) 键形成 | 直接 |
-| [[烯烃复分解反应]] | Grubbs 催化的 RCM/CM 反应 | 直接 |
+| [[烯烃复分解]] | Grubbs 催化的 RCM/CM 反应 | 直接 |
 | [[过渡金属催化基础]] | Pd 和 Ru 催化剂的催化循环 | 直接 |
 
 ## 解题思路

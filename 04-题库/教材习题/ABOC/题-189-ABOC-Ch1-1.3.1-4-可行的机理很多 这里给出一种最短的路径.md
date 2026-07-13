@@ -10,10 +10,11 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["31"]
-knowledge_points: ['[[结构基础]]', '[[Lewis酸碱]]', '[[电子效应]]', '[[碳正离子]]']
+knowledge_points: ["[[结构基础]]", "[[Lewis酸碱]]", "[[电子效应]]", "[[碳正离子]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch1-1.3.1-4]
 updated: 2026-07-04
+status: 已填充
 ---
 
 # 题-189：可行的机理很多，这里给出一种最短的路径：

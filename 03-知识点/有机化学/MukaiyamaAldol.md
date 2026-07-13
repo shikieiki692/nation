@@ -1,4 +1,4 @@
-﻿---
+---
 title: MukaiyamaAldol
 aliases: [Mukaiyama Aldol, 向山Aldol, 烯醇硅醚Aldol, Lewis酸Aldol]
 type: 知识点

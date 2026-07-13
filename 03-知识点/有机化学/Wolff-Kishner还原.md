@@ -1,4 +1,4 @@
-﻿---
+---
 title: Wolff-Kishner还原
 aliases: [Wolff-Kishner Reduction, Wolff-Kishner-Huang Reduction, 黄鸣龙还原, Huang Minlon, 沃尔夫-基希纳-黄鸣龙]
 type: 知识点

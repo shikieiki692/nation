@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-021-FeO₂吸附Xe的结构分析
 aliases: [39届初赛-5.3, FeO₂-Xe复合物]
 type: 题目
@@ -14,6 +14,7 @@ syllabus_codes: [15, 16, 17]
 knowledge_points: ["[[稀有气体化合物]]", "[[晶胞投影图分析]]"]
 tags: [化竞, 39届, 晶体结构, 氙化学, 吸附, 三方晶系]
 updated: 2026-05-03
+status: 已填充
 ---
 
 # 题-021：FeO₂ 晶体吸附 Xe 的结构分析

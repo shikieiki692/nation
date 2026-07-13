@@ -10,10 +10,11 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["36"]
-knowledge_points: ['[[缩合反应]]', '[[Aldol缩合]]', '[[Claisen缩合]]']
+knowledge_points: ["[[缩合反应]]", "[[Aldol缩合]]", "[[Claisen缩合]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch6-6.12]
 updated: 2026-07-04
+status: 已填充
 ---
 
 # 题-160：写出以下反应的机理。(文献机理是错误的)

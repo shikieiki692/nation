@@ -16,6 +16,7 @@ syllabus_codes: []
 knowledge_points: ["[[Lewis酸催化]]"]
 tags: [化竞, 真题, 32届]
 updated: 2026-05-11
+status: 已填充
 ---
 
 # 题-032-10-4：Nazarov 产物 D

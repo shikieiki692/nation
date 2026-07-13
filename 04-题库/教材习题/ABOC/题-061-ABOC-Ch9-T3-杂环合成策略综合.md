@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-061-ABOC-Ch9-T3-杂环合成策略综合
 aliases: [ABOC-Ch9-T3]
 type: 题目
@@ -14,7 +14,7 @@ teaching_level: 拓展
 syllabus_codes: ["50", "52"]
 knowledge_points: ["[[Fischer吲哚合成]]", "[[吡啶化学]]", "[[杂环合成]]", "[[芳香亲核取代]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 

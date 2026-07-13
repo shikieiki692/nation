@@ -16,6 +16,7 @@ syllabus_codes: []
 knowledge_points: ["[[亲电加成]]", "[[鎓离子]]", "[[邻基参与]]", "[[PréVOSt反应]]"]
 tags: [化竞, 真题, 28届]
 updated: 2026-05-11
+status: 已填充
 ---
 
 # 题-028-10-1：Prévost反应中间体A-D

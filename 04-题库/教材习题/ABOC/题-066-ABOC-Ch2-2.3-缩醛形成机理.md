@@ -12,9 +12,9 @@ question_type: 机理推断题
 difficulty: 2
 teaching_level: 入门
 syllabus_codes: ["45"]
-knowledge_points: [缩醛, "[[亲核加成]]", 酸催化]
+knowledge_points: ["[[缩醛]]", "[[亲核加成]]", "[[酸催化]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 

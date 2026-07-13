@@ -19,7 +19,8 @@ difficulty: 3
 importance: 4
 status: 已填充
 stage: published
-sources: []
+sources:
+  - 赵鑫光《高中化学竞赛基本理论学习笔记》Ch4 §4.4（五规则逐条讲解+电价计算）
 source_type: []
 review_cycle: 30d
 has_images: false

@@ -10,10 +10,11 @@ difficulty: 3
 teaching_level: 拓展
 exam_stage: 初赛
 syllabus_codes: ["31"]
-knowledge_points: ['[[结构基础]]', '[[Lewis酸碱]]', '[[电子效应]]', '[[碳正离子]]']
+knowledge_points: ["[[结构基础]]", "[[Lewis酸碱]]", "[[电子效应]]", "[[碳正离子]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch1-T4]
 updated: 2026-07-04
+status: 已填充
 ---
 
 # 题-261：(33 届初赛)文献做错导致答案错误的初赛真题

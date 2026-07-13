@@ -6,13 +6,14 @@ source_path: mineru/中文版clayden-chinese30-33章787-907.md
 chapter: "31"
 pages: "787-907"
 updated: 2026-05-18
----
 handout_plan:
   - target: "杂环糖氨基酸"
     status: completed
     priority: P1
     source_sections: ["第31章 饱和杂环和立体电子效应（饱和杂环、异头碳效应、立体电子效应）"]
     estimated_pages: 6
+knowledge_points: [立体电子效应, 杂环化合物, 构象分析, 有机合成, NMR谱学]
+---
 
 # 提炼：Clayden 第31章 饱和杂环和立体电子效应
 
@@ -20,7 +21,7 @@ handout_plan:
 
 | 指标 | 评估 |
 |:---|:---|
-| **竞赛直接考察度** | **高** — 立体电子效应（尤其异头碳效应）是竞赛有机化学高频考点；Baldwin规则是合成设计核心工具 |
+| **竞赛直接考察度** | **高** — [[立体电子效应]]（尤其异头碳效应）是竞赛有机化学高频考点；Baldwin规则是合成设计核心工具 |
 | **与现有 KP 重叠度** | 低 — 库内缺少**立体电子效应**和**Baldwin规则**的系统 KP |
 | **增量价值** | ① 异头碳效应的轨道解释；② Baldwin规则系统总结；③ NMR（Karplus/NOE）在构象分析中的应用 |
 | **处理决策** | ✅ **新建 KP** [[立体电子效应]] + 本提炼笔记 |
@@ -32,7 +33,7 @@ handout_plan:
 
 ## 3. 核心概念：立体电子效应
 
-> **定义**：轨道在空间中的排列，在化学上造成的影响。
+> **定义**：[[立体电子效应]]是轨道在空间中的排列，在化学上造成的影响。
 
 ### 3.1 异头碳效应（Anomeric Effect）
 
@@ -42,7 +43,7 @@ handout_plan:
 - 氧的**直立孤对电子**与 C-X σ* 反键轨道平行重叠 → 稳定化
 - 平伏孤对电子只与环内键平行，无法提供此稳定化
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/4250bebdd878708549948a85e0e33a2c9871c4e93e75a107d6ab53634039e0ab.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/4250bebdd878708549948a85e0e33a2c9871c4e93e75a107d6ab53634039e0ab.jpg]]
 *异头效应轨道解释*
 
 **结构证据**：
@@ -53,7 +54,7 @@ handout_plan:
 - **双异头效应**：螺缩酮中，每个氧在另一环上处于直立的构象最稳定
 - **酯的顺式构象偏好**：乙基与O处于顺式时，氧孤对电子可与C=O π*相互作用
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/a62757fe46e52486b466e998d4ec1715471782d180323154e0f65a8069e7c5a5.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/a62757fe46e52486b466e998d4ec1715471782d180323154e0f65a8069e7c5a5.jpg]]
 *螺缩酮结构*
 
 ### 3.2 旁式效应（Gauche Effect）
@@ -66,10 +67,10 @@ handout_plan:
 | 杂环 | 特征 | 原因 |
 |:---|:---|:---|
 | 哌啶、吡咯烷 | 比非环状胺更亲核 | 烷基被"绑在后面"，避开孤对电子 |
-| 奎宁环 | 反应速率比三乙胺高63倍 | 桥连结构锁定构象 |
+| 奎宁环 | 反应速率比三乙胺高63倍 | 桥连结构锁定构象（[[杂环化合物]]构象效应） |
 | DABCO | 反应速率比三乙胺高40倍 | 桥连哌嗪，离去能力也较好 |
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/8ff126a15e4557057db2be36855deb2816ba43726c50b82667103741518e25ce.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/8ff126a15e4557057db2be36855deb2816ba43726c50b82667103741518e25ce.jpg]]
 *胺与碘甲烷反应速率对比*
 
 ## 4. 环的开环与关环反应
@@ -90,7 +91,7 @@ handout_plan:
 - 环上取代基增加关环速率和平衡常数
 - 原因：①小环中取代基减小键角；②大环中取代基限制构象，减小活化熵损失
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/84034d47a155410ea11a7647131199652d446dc6a6c20ae19417d3cc0d045a3f.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/84034d47a155410ea11a7647131199652d446dc6a6c20ae19417d3cc0d045a3f.jpg]]
 *Thorpe-Ingold效应：取代基促进环氧形成*
 
 ### 4.3 Baldwin 规则（核心工具）
@@ -108,10 +109,10 @@ handout_plan:
 
 > **最关键规则：5-endo-trig 是不利的！**
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/50e7973defae7938be0d9088ea9e3d6f2d515dc234fcda387135e6973ae9f9c0.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/50e7973defae7938be0d9088ea9e3d6f2d515dc234fcda387135e6973ae9f9c0.jpg]]
 *5-endo-trig不利反应*
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/e7fdf95364a2186a0f873b74e0fad68304f6def84bcdb4b7f374401a7149ca55.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/e7fdf95364a2186a0f873b74e0fad68304f6def84bcdb4b7f374401a7149ca55.jpg]]
 *5-exo-trig有利竞争反应*
 
 **例外情况**：
@@ -120,10 +121,10 @@ handout_plan:
 - 周环反应
 - 含第三周期元素（如硫）时
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/cb3472e57b7bfac60a8a99eb63b3411cc6fb801e610f7e16aea4c126d9d61769.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/cb3472e57b7bfac60a8a99eb63b3411cc6fb801e610f7e16aea4c126d9d61769.jpg]]
 *硫的5-endo-trig例外*
 
-## 5. NMR 在构象分析中的应用
+## 5. NMR 在[[构象分析]]中的应用
 
 ### 5.1 Karplus 关系
 
@@ -132,7 +133,7 @@ handout_plan:
   - 90°：约 0 Hz
   - 60° 和 120° 附近：变化最敏感
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/db94c251c0110bfcc4516717892d7fe0b0867165cd3eef2952f87ae84f1872d1.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/db94c251c0110bfcc4516717892d7fe0b0867165cd3eef2952f87ae84f1872d1.jpg]]
 *Karplus关系曲线*
 
 ### 5.2 NOE（核的欧沃豪斯效应）
@@ -141,7 +142,7 @@ handout_plan:
 - 增强程度 ∝ 1/r⁶
 - 应用：确定烯烃几何（E/Z）、三维立体化学
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/f6bd7c5148d0eeb32ce6fd3a4fda7a23f2d5f4c457e798ccdb554a3bc522094d.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/f6bd7c5148d0eeb32ce6fd3a4fda7a23f2d5f4c457e798ccdb554a3bc522094d.jpg]]
 *NOE实验原理*
 
 ### 5.3 环大小对偶合常数的影响

@@ -10,10 +10,11 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["34"]
-knowledge_points: ['[[取代反应]]', '[[消除反应]]', '[[SN1]]', '[[SN2]]']
+knowledge_points: ["[[取代反应]]", "[[消除反应]]", "[[SN1]]", "[[SN2]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch4-4.2.1]
 updated: 2026-07-04
+status: 已填充
 ---
 
 # 题-118：二甲亚砜 DMSO 是有机化学中常用的有机氧化剂，可以在较温和的条件下将醇氧化为醛酮。以下列出其作为

@@ -14,7 +14,7 @@ teaching_level: 巩固
 syllabus_codes: ["37", "43"]
 knowledge_points: ["[[鎓离子]]", "[[亲电加成]]", "[[原子经济性与反应选择性]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 

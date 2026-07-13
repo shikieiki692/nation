@@ -10,10 +10,11 @@ difficulty: 3
 teaching_level: 拓展
 exam_stage: 初赛
 syllabus_codes: ["31"]
-knowledge_points: ['[[结构基础]]', '[[Lewis酸碱]]', '[[电子效应]]', '[[碳正离子]]']
+knowledge_points: ["[[结构基础]]", "[[Lewis酸碱]]", "[[电子效应]]", "[[碳正离子]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch1-T7]
 updated: 2026-07-04
+status: 已填充
 ---
 
 # 题-286：Tropinone：鎓离子，缩合反应与 Curtin-Hamment 原理

@@ -10,10 +10,11 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["37"]
-knowledge_points: ['[[周环反应]]', '[[Diels-Alder反应]]', '[[电环化反应]]']
+knowledge_points: ["[[周环反应]]", "[[Diels-Alder反应]]", "[[电环化反应]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch7-7.1]
 updated: 2026-07-04
+status: 已填充
 ---
 
 # 题-164：写出以下反应的产物。提示：黑点表示氢朝上。

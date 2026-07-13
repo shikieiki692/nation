@@ -8,9 +8,11 @@ chapter: 14
 subject: 无机和结构化学
 question_type: 简答题
 difficulty: 4
-knowledge_points: ["[[晶体场理论]]", "[[配位场理论]]", "[[高自旋与低自旋]]", "[[CFSE]]"]
+knowledge_points: ["[[晶体场理论]]", "[[晶体场理论]]", "[[高自旋与低自旋]]", "[[CFSE]]"]
 tags: [化竞, 题库, 改编题, 配位化学, 结构化学]
 updated: 2026-07-04
+status: 已填充
+syllabus_codes: []
 ---
 
 # 题-改编-14-Fe八面体场高低自旋与CFSE

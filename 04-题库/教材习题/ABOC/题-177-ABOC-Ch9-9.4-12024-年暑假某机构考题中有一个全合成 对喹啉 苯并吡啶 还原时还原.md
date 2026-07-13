@@ -10,10 +10,11 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["39"]
-knowledge_points: ['[[杂环化合物]]', '[[杂环合成]]']
+knowledge_points: ["[[杂环化合物]]", "[[杂环合成]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch9-9.4-12024]
 updated: 2026-07-04
+status: 已填充
 ---
 
 # 题-177：年暑假某机构考题中有一个全合成，对喹啉(苯并吡啶)还原时还原了苯环，那里的老师给出了一种非常离谱的解

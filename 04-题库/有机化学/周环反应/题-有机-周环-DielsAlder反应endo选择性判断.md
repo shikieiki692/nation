@@ -14,7 +14,7 @@ teaching_level: 强化
 syllabus_codes: ["49"]
 knowledge_points: ["[[Diels-Alder反应]]", "[[周环反应]]"]
 tags: [化竞, 题目, 有机化学, 第三轮]
-status: 已入库
+status: 已填充
 updated: 2026-06-06
 ---
 

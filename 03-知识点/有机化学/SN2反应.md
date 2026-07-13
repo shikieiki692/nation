@@ -1,4 +1,4 @@
-﻿---
+---
 title: SN2反应
 aliases: [SN2, S_N2, 双分子亲核取代, 二级亲核取代, bimolecular nucleophilic substitution, 协同亲核取代, Walden 翻转]
 type: 知识点
@@ -347,7 +347,7 @@ $$\text{SN2 势能图} = \begin{cases} \text{峰：五配位过渡态（一峰�
   - "[[Mitsunobu反应]]（醇构型翻转 SN2）"
   - "[[Wittig反应]] 准备（卤代物 + PR₃ 的 SN2）"
   - 季铵盐合成（胺 + RX 的 SN2）
-  - "[[逆合成分析]] / [[保护基化学]] / [[Grignard试剂]] 合成"
+  - "[[逆合成分析]] / [[保护基策略]] / [[Grignard试剂]] 合成"
 
 ---
 

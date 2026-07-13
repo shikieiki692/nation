@@ -6,6 +6,8 @@ subject: 无机和结构化学
 updated: 2026-06-29
 tags: [系统, 索引, 无机和结构化学]
 stage: review
+template_version: v1.3
+status: 已填充
 ---
 
 # 无机和结构化学

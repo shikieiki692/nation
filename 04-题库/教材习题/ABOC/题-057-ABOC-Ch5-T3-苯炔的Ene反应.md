@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-057-ABOC-Ch5-T3-苯炔的Ene反应
 aliases: [ABOC-Ch5-T3]
 type: 题目
@@ -14,7 +14,7 @@ teaching_level: 拓展
 syllabus_codes: ["41", "49"]
 knowledge_points: ["[[苯炔]]", "[[Ene反应]]", "[[周环反应]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 

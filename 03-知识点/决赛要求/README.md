@@ -6,6 +6,8 @@ subject: 决赛要求
 updated: 2026-06-29
 tags: [系统, 索引, 决赛要求]
 stage: published
+template_version: v1.3
+status: 已填充
 ---
 
 # 决赛要求

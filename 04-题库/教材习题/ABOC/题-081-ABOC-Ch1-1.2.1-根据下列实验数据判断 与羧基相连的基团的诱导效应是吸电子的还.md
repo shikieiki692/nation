@@ -10,10 +10,11 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["31"]
-knowledge_points: ['[[结构基础]]', '[[Lewis酸碱]]', '[[电子效应]]', '[[碳正离子]]']
+knowledge_points: ["[[结构基础]]", "[[Lewis酸碱]]", "[[电子效应]]", "[[碳正离子]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch1-1.2.1]
 updated: 2026-07-04
+status: 已填充
 ---
 
 # 题-081：根据下列实验数据判断：与羧基相连的基团的诱导效应是吸电子的还是给电子的？并将它们按吸电子诱导效应（或

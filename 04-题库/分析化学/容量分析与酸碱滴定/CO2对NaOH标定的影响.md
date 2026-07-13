@@ -13,6 +13,7 @@ syllabus_codes: ["56"]
 knowledge_points: ["[[酸碱滴定]]", "[[指示剂选择]]"]
 tags: [化竞, 题目]
 updated: 2026-06-06
+status: 已填充
 ---
 
 # CO₂ 对 NaOH 标定的影响

@@ -6,13 +6,14 @@ source_path: mineru/中文版clayden-chinese30-33章787-907.md
 chapter: "30"
 pages: "787-907"
 updated: 2026-05-18
----
 handout_plan:
   - target: "杂环糖氨基酸"
     status: completed
     priority: P1
     source_sections: ["第30章 芳杂环合成（六元杂环、五元杂环、嘧啶、嘌呤、稠合杂环）"]
     estimated_pages: 8
+knowledge_points: [杂环化合物, 杂环合成, 杂环合成策略, 杂环芳香性, 富电子杂环, 芳香性, 有机合成, 人名反应, Diels-Alder反应, 1,3-偶极环加成]
+---
 
 # 提炼：Clayden 第30章 芳杂环 2：合成
 
@@ -22,13 +23,13 @@ handout_plan:
 |:---|:---|
 | **竞赛直接考察度** | **极高** — 杂环合成是有机合成核心考点，Fischer吲哚、Hantzsch吡啶、Skraup喹啉均为经典人名反应 |
 | **与现有 KP 重叠度** | 中等 — 库内 [[杂环化合物]] 已有基础，但缺少**系统性合成策略**和**药物实例** |
-| **增量价值** | ① 逆合成分析视角的杂环切断策略；② 1,3-偶极环加成（Click化学）；③ 大量药物合成实例（万艾可、舒马曲坦等） |
+| **增量价值** | ① 逆合成分析视角的[[杂环合成]]切断策略；② 1,3-偶极环加成（Click化学）；③ 大量药物合成实例（万艾可、舒马曲坦等） |
 | **处理决策** | ✅ **新建 KP** [[杂环合成策略]] + 本提炼笔记 |
 
 ## 2. 考纲映射
 
 - 对应考纲模块：基础要求-有机化学 → 有机合成
-- 关键能力：逆合成分析、杂环切断策略、人名反应识别与应用
+- 关键能力：逆合成分析、[[杂环合成]]切断策略、人名反应识别与应用
 
 ## 3. 核心合成策略（三种主要方法）
 
@@ -47,12 +48,12 @@ handout_plan:
 | **嘧啶** | 1,3-二羰基 + 脒/胍 | 环化脱水 | 两个分开的N |
 | **噻唑** | 硫代酰胺 + α-卤代酮 | 室温 | N进攻酮(硬)，S进攻卤代烃(软) |
 
-> **关键控制**：碱催化 → 羟醛产物（环戊烯）；酸催化 → 呋喃
+> **关键控制**：碱催化 → 羟醛产物（环戊烯）；酸催化 → 呋喃（体现[[杂环芳香性]]对反应路径的控制）
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/c632f1e94114b9b744cda939f6ba3167c5271c72bda6d22e0cd4e4f4ec8d0302.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/c632f1e94114b9b744cda939f6ba3167c5271c72bda6d22e0cd4e4f4ec8d0302.jpg]]
 *吡咯的 C-N 切断策略*
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/ae677f3003afe45e95662e9c29a5cfac57f3f1b4bd9f536481fe41f53282102c.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/ae677f3003afe45e95662e9c29a5cfac57f3f1b4bd9f536481fe41f53282102c.jpg]]
 *2,5-己二酮与氨反应生成 2,5-二甲基吡咯*
 
 ### 3.2 环加成反应
@@ -63,14 +64,14 @@ handout_plan:
 | **四唑** | 1,3-偶极环加成 | 腈 + 叠氮化钠 | LiCl/DMF/100°C |
 | **1,2,3-三唑** | Cu(I)催化Click | 叠氮根 + 端炔 | 1,4-二取代，区域专一 |
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/61a77c49e69eb78942e174ece4e137654f1b642446111d5c0c09289bddefcf44.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/61a77c49e69eb78942e174ece4e137654f1b642446111d5c0c09289bddefcf44.jpg]]
 *Cu(I)催化Click化学：1,4-二取代1,2,3-三唑*
 
 ### 3.3 环修饰（已有环的官能团化）
 
 | 反应类型 | 适用杂环 | 特点 |
 |:---|:---|:---|
-| **芳香亲电取代** | 吡咯、噻吩、呋喃、吲哚 | 富电子环，2,5-位活性高 |
+| **芳香亲电取代** | 吡咯、噻吩、呋喃、吲哚 | [[富电子杂环]]，2,5-位活性高 |
 | **芳香亲核取代** | 吡啶、喹啉、哒嗪、嘧啶 | 缺电子环，N邻/对位有利；常需先氯化(POCl₃) |
 | **杂原子邻位锂化** | 噻吩、呋喃 | 强碱(n-BuLi)在杂原子邻位去质子 |
 
@@ -79,10 +80,10 @@ handout_plan:
 ### 4.1 Knorr 吡咯合成法
 
 - **试剂**：β-酮酯 + 亚硝酸钠 → 肟 → 还原(Zn/AcOH)原位生成胺 → 与另一分子β-酮酯环化
-- **机理**：烯胺形成 → 分子内缩合 → 脱水芳构化
+- **机理**：烯胺形成 → 分子内缩合 → 脱水芳构化（恢复[[芳香性]]）
 - **特点**：经典的一锅法，产率高
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/c34c1e528a30e3a89d0d2cbf5416e37b68ff54b7988e45fcf45249c968c8f4ad.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/c34c1e528a30e3a89d0d2cbf5416e37b68ff54b7988e45fcf45249c968c8f4ad.jpg]]
 *Knorr吡咯合成：肟还原+胺与酮二酯环化*
 
 ### 4.2 Hantzsch 吡啶合成法
@@ -92,10 +93,10 @@ handout_plan:
 - **机理**：羟醛缩合 → Michael加成 → 氨进攻羰基 → 亚胺环化
 - **应用**：钙通道阻滞剂（非洛地平、氨氯地平）
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/d6ec56315b88f998b347e790a66b768b91279b2cf28588c84c24d8ad7638f69b.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/d6ec56315b88f998b347e790a66b768b91279b2cf28588c84c24d8ad7638f69b.jpg]]
 *Hantzsch四组分反应*
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/2a639ac009dfe896fe47e411473ebe66667ec47230dd76571f12da2df29da2ce.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/2a639ac009dfe896fe47e411473ebe66667ec47230dd76571f12da2df29da2ce.jpg]]
 *Hantzsch吡啶合成交互机理*
 
 ### 4.3 Fischer 吲哚合成法（核心）
@@ -107,10 +108,10 @@ handout_plan:
   3. **[3,3]-σ重排**（关键步骤：N-N键断裂，C-C键形成）
   4. 缩醛胺分解 → 逐出NH₃ → 芳香吲哚
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/b58562d1e60b0914825134cbe9cca5d13b0674861899170d6b60734983fbe6ce.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/b58562d1e60b0914825134cbe9cca5d13b0674861899170d6b60734983fbe6ce.jpg]]
 *Fischer机理：[3,3]-σ重排*
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/d7b20c406d02459bcfd1fef5dba1f671497f1054a784621d3095e18c3fa989f5.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/d7b20c406d02459bcfd1fef5dba1f671497f1054a784621d3095e18c3fa989f5.jpg]]
 *Fischer吲哚合成交互机理*
 
 - **区域控制**：
@@ -124,19 +125,19 @@ handout_plan:
 - **现代改良**：先制备共轭加合物 → 酸环化 → DDQ氧化
 - **机理**：甘油脱水→丙烯醛 → 共轭加成 → 环化 → 二氢喹啉 → 氧化芳构化
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/19191a0d462b7be3ad9f3e70ed59cda6903a3a39610d3268b8a7b7a3e28fcb75.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/19191a0d462b7be3ad9f3e70ed59cda6903a3a39610d3268b8a7b7a3e28fcb75.jpg]]
 *Skraup反应机理*
 
 ## 5. 药物合成实例库
 
 | 药物 | 核心杂环 | 关键反应 | 图片 |
 |:---|:---|:---|:---|
-| **万艾可(Viagra)** | 吡唑并嘧啶 | Claisen酯缩合+甲基肼区域控制 | ![[mineru/中文版clayden-chinese30-33章787-907_images/0af23bef1cde44bb294a3389f5eac1d65081f10bf62295859375ee2cee10ac2f.jpg]] |
-| **舒马曲坦(Sumatriptan)** | 吲哚 | Fischer吲哚合成 | ![[mineru/中文版clayden-chinese30-33章787-907_images/5cfa11717e73c6a59ac4907e4e939dfd64289361d09bf6ad970136c16eb82eb.jpg]] |
-| **昂丹司琼(Ondansetron)** | 吲哚+咪唑 | Fischer + Mannich反应 | ![[mineru/中文版clayden-chinese30-33章787-907_images/c9b34caca0cc0cf8311c39e876d62b76ad1c749a30aa86ec9ed1f2d61e11b825.jpg]] |
-| **非洛地平/氨氯地平** | 吡啶 | Hantzsch合成 | ![[mineru/中文版clayden-chinese30-33章787-907_images/1872b430a7b07537c47a2c748507dd0a6cb4e22725eb0d89b667f2c3ad934825.jpg]] |
-| **氧氟沙星/罗索沙星** | 喹诺酮 | 缩苹果酸酯+原甲酸乙酯环化 | ![[mineru/中文版clayden-chinese30-33章787-907_images/f62dc2d9384d73d953b9e8f1c52d1bee65bab74aca4f8606a7c13f8949ffa453.jpg]] |
-| **噻吗洛尔(Timolol)** | 1,2,5-噻二唑 | S₂Cl₂+氰胺环化 | ![[mineru/中文版clayden-chinese30-33章787-907_images/341f6fef4ab0812b986ec2f577a33ff1f5038fb51020e94636ed9bddce61283a.jpg]] |
+| **万艾可(Viagra)** | 吡唑并嘧啶 | Claisen酯缩合+甲基肼区域控制 | ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/0af23bef1cde44bb294a3389f5eac1d65081f10bf62295859375ee2cee10ac2f.jpg]] |
+| **舒马曲坦(Sumatriptan)** | 吲哚 | Fischer吲哚合成 | ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/5cfa11717e73c6a59ac4907e4e939dfd64289361d09bf6ad970136c16eb82eb.jpg]] |
+| **昂丹司琼(Ondansetron)** | 吲哚+咪唑 | Fischer + Mannich反应 | ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/c9b34caca0cc0cf8311c39e876d62b76ad1c749a30aa86ec9ed1f2d61e11b825.jpg]] |
+| **非洛地平/氨氯地平** | 吡啶 | Hantzsch合成 | ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/1872b430a7b07537c47a2c748507dd0a6cb4e22725eb0d89b667f2c3ad934825.jpg]] |
+| **氧氟沙星/罗索沙星** | 喹诺酮 | 缩苹果酸酯+原甲酸乙酯环化 | ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/f62dc2d9384d73d953b9e8f1c52d1bee65bab74aca4f8606a7c13f8949ffa453.jpg]] |
+| **噻吗洛尔(Timolol)** | 1,2,5-噻二唑 | S₂Cl₂+氰胺环化 | ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/341f6fef4ab0812b986ec2f577a33ff1f5038fb51020e94636ed9bddce61283a.jpg]] |
 
 ## 6. 例题提取
 

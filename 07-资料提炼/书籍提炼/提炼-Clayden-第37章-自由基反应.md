@@ -8,13 +8,14 @@ source_range: line 1–1802
 extracted_date: 2026-05-19
 template_version: v1.3
 status: 已提炼
----
 handout_plan:
   - target: "烷烃烯烃炔烃"
     status: completed
     priority: P1
     source_sections: ["第37章 自由基反应（链式反应、NBS溴代、自由基加成、Barton反应、自由基环化）"]
     estimated_pages: 6
+knowledge_points: [自由基, 自由基机理, 过氧化物效应, 自由基取代, 键解离能, 键的强度, 亲核取代, 共轭效应, 反马氏加成, 频哪醇偶联, McMurry反应, 有机还原反应, 共轭加成, 聚合反应, 天然产物合成, 化竞合成题, Baldwin规则]
+---
 
 # 提炼：Clayden 第37章——自由基反应（Radical Reactions）
 
@@ -22,7 +23,7 @@ handout_plan:
 
 ## 一、核心概念与定义
 
-### 1.1 自由基（Radical）
+### 1.1 自由基（Radical）[[自由基]]
 - **定义**：含有未成对电子的原子或分子物种。键发生**均裂（homolysis）**时产生：每个原子带走一个成键电子。
 - **与异裂对比**：异裂（heterolysis）产生离子；均裂产生自由基。
 - **表示法**：用点（•）标记未成对电子，如 Cl•、Br•、R•。
@@ -72,6 +73,7 @@ handout_plan:
 > 以上三种反应都是**例外**——大多数自由基反应是链式反应。
 
 ### 3.2 自由基链式反应
+[[自由基机理]]
 
 链式反应三步曲：
 
@@ -82,7 +84,7 @@ handout_plan:
 | **终止（Termination）** | 两个自由基结合或歧化 | 消耗自由基，结束链 |
 
 #### 3.2.1 HBr 对烯烃的自由基加成（反马氏加成）
-- **过氧化物效应**：ROOR → 2 RO• → 攫取 HBr 中的 H → Br• → 加成到烯烃较少取代端 → 形成较稳定的碳自由基 → 从 HBr 攫取 H → 产物 + Br•（链增长）。
+- **过氧化物效应**：ROOR → 2 RO• → 攫取 HBr 中的 H → Br• → 加成到烯烃较少取代端 → 形成较稳定的碳自由基 → 从 HBr 攫取 H → 产物 + Br•（链增长）。[[过氧化物效应]]
 - **区域选择性**：Br• 加成到烯烃的较少取代碳（位阻较小），形成更稳定的碳自由基中间体。
 - **立体化学**：若烯烃有立体中心，加成可能保持或翻转，取决于中间体构型。
 
@@ -90,9 +92,9 @@ handout_plan:
 - Cl₂ + hν → 2 Cl•
 - Cl• 从烷烃上攫取 H，形成烷基自由基 + HCl
 - 烷基自由基 + Cl₂ → 氯代烷 + Cl•（链增长）
-- **选择性差**：伯/仲/叔氢的相对活性约为 1 : 3.8 : 5（氯代）
+- **选择性差**：伯/仲/叔氢的相对活性约为 1 : 3.8 : 5（氯代）[[自由基取代]]
 
-![[mineru/中文版clayden-chinese37-401000-1132_images/4fcb1034562c529c813d6253b525c64ef658993d74d8f32e6399aa27e8af5fcd.jpg]] — 环己烷氯代（line ~996）
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/4fcb1034562c529c813d6253b525c64ef658993d74d8f32e6399aa27e8af5fcd.jpg]] — 环己烷氯代（line ~996）
 
 #### 3.2.3 烷烃的溴代（选择性更高）
 - Br• 活性低于 Cl•，因此更"挑剔"，选择性更好。
@@ -110,7 +112,7 @@ handout_plan:
 - **选择性**：C–Br 键最弱（280 kJ/mol），优先被还原；C–Cl 也可，但较慢；C–F 不反应。
 - AIBN 只需催化量（0.02–0.05 eq），Bu₃SnH 稍过量（1.2 eq）。
 
-![[mineru/中文版clayden-chinese37-401000-1132_images/fbcea936aca8a2bc8237335951584bb766a1dad718e02cfd0609a6b7360b3c8c.jpg]] — AIBN 热均裂引发（line ~1240）
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/fbcea936aca8a2bc8237335951584bb766a1dad718e02cfd0609a6b7360b3c8c.jpg]] — AIBN 热均裂引发（line ~1240）
 
 ### 3.3 用自由基形成 C–C 键
 
@@ -119,7 +121,7 @@ handout_plan:
 - •CCl₃ 加成到烯烃较少取代端（位阻+稳定性）→ 新自由基 → 攫取 BrCCl₃ 中的 Br → 产物 + •CCl₃（链增长）
 - 可发生分子内环化：若烯烃链上另有双键，自由基可加成成环。
 
-![[mineru/中文版clayden-chinese37-401000-1132_images/abf49bf770bfc80be4c31e3d64d40bf1dc0adca1935e5a1895c4e191fc9edc2e.jpg]] — 自由基环化反应（line ~1299）
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/abf49bf770bfc80be4c31e3d64d40bf1dc0adca1935e5a1895c4e191fc9edc2e.jpg]] — 自由基环化反应（line ~1299）
 
 #### 3.3.2 硼烷 + 氧产生烷基自由基
 - R₃B + O₂ → R•（烷基自由基）+ 硼酸酯
@@ -139,7 +141,7 @@ handout_plan:
 - 醋酸乙烯酯（亲核单体）+ 丙烯酸甲酯（亲电单体）在自由基引发下形成严格交替共聚物。
 - 机理：亲核自由基 → 加成亲电烯烃 → 亲电自由基 → 加成亲核烯烃 → 循环。
 
-![[mineru/中文版clayden-chinese37-401000-1132_images/eb070f2d2c25159dd4d9330ff2779d98f33c45f2a6cb15fa97a2035dbec931ac.jpg]] — 交替共聚反应（line ~1510）
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/eb070f2d2c25159dd4d9330ff2779d98f33c45f2a6cb15fa97a2035dbec931ac.jpg]] — 交替共聚反应（line ~1510）
 
 ### 3.5 自由基反应性模式与极性试剂的对比
 
@@ -203,15 +205,15 @@ handout_plan:
 
 ## 七、关键图片与反应方程式
 
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/73dea69ee1240e70f4738ee8abf6d227a750276b961fe78eacd76139c904784b.jpg]] — HCl 均裂形成 H• 和 Cl•（line ~42）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/5fba1d320aa3b5f33804148949567fa3cafbc79144873848b9ac7c336dadbb92.jpg]] — 过氧化物引发自由基链式反应（line ~73）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/870e1f841f301293623583cb40b210b252344148cffd769d590a7ea74dd0456a.jpg]] — 环己烷氯代的引发步骤（line ~1022）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/65f25216ae619b9f9553cc62f45e69ce58c1d33e76ae8c8fb0e9e42527d42d3b.jpg]] — 环己烷氯代的增长步骤（line ~1026）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/fbcea936aca8a2bc8237335951584bb766a1dad718e02cfd0609a6b7360b3c8c.jpg]] — AIBN 热均裂引发锡氢化物还原（line ~1240）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/862eeafe152388441182ea4d30e104528c3ee10f794927a31418d3b79b0924e0.jpg]] — Bu₃SnH 还原溴代物为烷烃（line ~1260）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/abf49bf770bfc80be4c31e3d64d40bf1dc0adca1935e5a1895c4e191fc9edc2e.jpg]] — 自由基分子内环化（line ~1299）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/5cc01cbd1630a3b61a33d0605bd7888164dc7aa1896f333389300f2509aea71f.jpg]] — 自由基 vs 离子型试剂反应性对比（line ~1554）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/eb070f2d2c25159dd4d9330ff2779d98f33c45f2a6cb15fa97a2035dbec931ac.jpg]] — 交替共聚反应实例（line ~1510）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/73dea69ee1240e70f4738ee8abf6d227a750276b961fe78eacd76139c904784b.jpg]] — HCl 均裂形成 H• 和 Cl•（line ~42）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/5fba1d320aa3b5f33804148949567fa3cafbc79144873848b9ac7c336dadbb92.jpg]] — 过氧化物引发自由基链式反应（line ~73）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/870e1f841f301293623583cb40b210b252344148cffd769d590a7ea74dd0456a.jpg]] — 环己烷氯代的引发步骤（line ~1022）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/65f25216ae619b9f9553cc62f45e69ce58c1d33e76ae8c8fb0e9e42527d42d3b.jpg]] — 环己烷氯代的增长步骤（line ~1026）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/fbcea936aca8a2bc8237335951584bb766a1dad718e02cfd0609a6b7360b3c8c.jpg]] — AIBN 热均裂引发锡氢化物还原（line ~1240）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/862eeafe152388441182ea4d30e104528c3ee10f794927a31418d3b79b0924e0.jpg]] — Bu₃SnH 还原溴代物为烷烃（line ~1260）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/abf49bf770bfc80be4c31e3d64d40bf1dc0adca1935e5a1895c4e191fc9edc2e.jpg]] — 自由基分子内环化（line ~1299）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/5cc01cbd1630a3b61a33d0605bd7888164dc7aa1896f333389300f2509aea71f.jpg]] — 自由基 vs 离子型试剂反应性对比（line ~1554）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/eb070f2d2c25159dd4d9330ff2779d98f33c45f2a6cb15fa97a2035dbec931ac.jpg]] — 交替共聚反应实例（line ~1510）
 
 ---
 

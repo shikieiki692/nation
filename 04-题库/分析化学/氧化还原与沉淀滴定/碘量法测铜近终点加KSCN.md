@@ -13,6 +13,7 @@ syllabus_codes: ["57"]
 knowledge_points: ["[[碘量法]]", "[[沉淀转化]]"]
 tags: [化竞, 题目]
 updated: 2026-06-06
+status: 已填充
 ---
 
 # 碘量法测铜——近终点加 KSCN

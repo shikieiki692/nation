@@ -10,10 +10,11 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["35"]
-knowledge_points: ['[[芳香族化合物]]', '[[芳香性]]', '[[亲电取代]]', '[[胺]]']
+knowledge_points: ["[[芳香族化合物]]", "[[芳香性]]", "[[亲电取代]]", "[[胺]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch5-5.2.3]
 updated: 2026-07-04
+status: 已填充
 ---
 
 # 题-130：写出 1,2,4-三甲基苯在质子酸或 Lewis 酸(用 LA 表示)存在下重排得到 1,3,5-三

@@ -14,7 +14,7 @@ teaching_level: 巩固
 syllabus_codes: ["36", "44"]
 knowledge_points: ["[[SN2反应]]", "[[SN1反应]]", "[[立体化学]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 

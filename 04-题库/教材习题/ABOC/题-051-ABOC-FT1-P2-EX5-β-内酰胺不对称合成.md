@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-051-ABOC-FT1-P2-EX5-β-内酰胺不对称合成
 aliases: [ABOC-FT1-P2-EX5]
 type: 题目
@@ -12,9 +12,9 @@ question_type: 方法学分析题
 difficulty: 5
 teaching_level: 竞赛拔高
 syllabus_codes: ["27", "46"]
-knowledge_points: [不对称合成, "[[立体化学]]", 缩合反应]
+knowledge_points: ["[[不对称合成]]", "[[立体化学]]", "[[缩合反应]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 

@@ -10,10 +10,11 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["35"]
-knowledge_points: ['[[芳香族化合物]]', '[[芳香性]]', '[[亲电取代]]', '[[胺]]']
+knowledge_points: ["[[芳香族化合物]]", "[[芳香性]]", "[[亲电取代]]", "[[胺]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch5-5.4.5-2]
 updated: 2026-07-04
+status: 已填充
 ---
 
 # 题-135：写出三氯化铝或三溴化硼分解苯甲醚的机理。

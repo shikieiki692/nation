@@ -10,10 +10,11 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["38"]
-knowledge_points: ['[[金属催化]]', '[[偶联反应]]', '[[Pd催化]]']
+knowledge_points: ["[[金属催化]]", "[[偶联反应]]", "[[Pd催化]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch8-8.7.2]
 updated: 2026-07-04
+status: 已填充
 ---
 
 # 题-171：写出 3a 变成 A 的可能机理。(无机反应，有机思维！)

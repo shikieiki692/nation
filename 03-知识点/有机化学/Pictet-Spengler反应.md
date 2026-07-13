@@ -1,4 +1,4 @@
-﻿---
+---
 title: Pictet-Spengler反应
 aliases: [Pictet-Spengler Reaction, 四氢异喹啉合成, 异喹啉合成, 生物碱合成]
 type: 知识点

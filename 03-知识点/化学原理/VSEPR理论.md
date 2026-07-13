@@ -16,9 +16,11 @@ prerequisite: [Lewis结构式, 共价键]
 problem_types: [题型-分子构型判断, 题型-键角比较]
 difficulty: 3
 importance: 5
+has_images: true
+key_images: ["[[media/zgxg-vsepr-summary-table.jpg]]", "[[media/zgxg-hybridization-summary-table.jpg]]"]
 status: 已填充
 stage: published
-sources: [提炼-普化原理-第12章-化学键与分子结构, 专题-分子结构基础]
+sources: [提炼-普化原理-第12章-化学键与分子结构, 专题-分子结构基础, 赵鑫光《高中化学竞赛基本理论学习笔记》Ch3 §3.4（VSEPR AXₙEₘ分类）]
 source_type: [书籍提炼, 专题归纳]
 source_notes:
   - "[[提炼-普化原理-第12章-化学键与分子结构]]"

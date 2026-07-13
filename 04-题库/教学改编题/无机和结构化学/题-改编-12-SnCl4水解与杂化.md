@@ -11,6 +11,8 @@ difficulty: 3
 knowledge_points: ["[[杂化轨道理论]]", "[[水解]]", "[[锡]]", "[[分子结构]]"]
 tags: [化竞, 题库, 改编题, 分子结构, 元素化学]
 updated: 2026-07-04
+status: 已填充
+syllabus_codes: []
 ---
 
 # 题-改编-12-SnCl4水解与杂化

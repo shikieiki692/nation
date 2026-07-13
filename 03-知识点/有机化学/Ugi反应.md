@@ -1,4 +1,4 @@
-﻿---
+---
 title: Ugi反应
 aliases: [Ugi Reaction, 乌吉反应, 四组分反应, 多组分反应, MCR]
 type: 知识点

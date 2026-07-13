@@ -1,4 +1,4 @@
-﻿---
+---
 title: Wittig反应
 aliases: [Wittig Reaction, Wittig 烯化, 维蒂希反应, 维蒂格反应, P-烯化]
 type: 知识点

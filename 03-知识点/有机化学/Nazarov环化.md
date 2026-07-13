@@ -1,4 +1,4 @@
-﻿---
+---
 title: Nazarov环化
 aliases: [Nazarov Cyclization, 纳扎罗夫环化, 阳离子4π电环化, 环戊烯酮合成]
 type: 知识点

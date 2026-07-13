@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-047-ABOC-FT1-P2-EX1-氢键导向分子内反应
 aliases: [ABOC-FT1-P2-EX1]
 type: 题目
@@ -14,7 +14,7 @@ teaching_level: 竞赛拔高
 syllabus_codes: ["42", "52"]
 knowledge_points: ["[[吡啶化学]]", "[[氢键]]", "[[芳香亲核取代]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 

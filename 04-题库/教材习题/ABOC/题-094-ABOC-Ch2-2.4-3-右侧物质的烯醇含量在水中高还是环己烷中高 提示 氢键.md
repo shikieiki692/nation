@@ -10,10 +10,11 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["32"]
-knowledge_points: ['[[基本反应]]', '[[氧化反应]]', '[[还原反应]]']
+knowledge_points: ["[[基本反应]]", "[[氧化反应]]", "[[还原反应]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch2-2.4-3]
 updated: 2026-07-04
+status: 已填充
 ---
 
 # 题-094：右侧物质的烯醇含量在水中高还是环己烷中高？提示：氢键。

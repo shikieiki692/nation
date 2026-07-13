@@ -6,6 +6,10 @@ subject: 无机和结构化学
 module: 决赛要求
 tags: [化竞, 知识点, 晶体结构]
 updated: 2026-07-07
+syllabus_code: [决赛04]
+template_version: v1.3
+status: 已填充
+stage: published
 ---
 
 # NbO型结构
@@ -45,3 +49,4 @@ updated: 2026-07-07
 - [[晶体结构]]
 - [[晶胞]]
 - [[化学键]]
+

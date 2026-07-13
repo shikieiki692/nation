@@ -14,13 +14,14 @@ tags:
   - 电环化反应
   - 周环反应
   - 资料提炼
----
 handout_plan:
   - target: "烷烃烯烃炔烃"
     status: completed
     priority: P1
     source_sections: ["第35章 σ重排和电环化反应（[3,3]-σ迁移、Cope/Claisen、电环化、Nazarov环化）"]
     estimated_pages: 6
+knowledge_points: [电环化反应, σ迁移反应, 重排反应, Claisen重排, Cope重排, 49-周环反应, 基础要求-有机化学, Diels-Alder反应, 前线轨道理论, Fischer吲哚合成, Cr(VI)氧化, 维生素D]
+---
 
 # 提炼：Clayden 第35章 — σ 重排和电环化反应
 
@@ -34,19 +35,19 @@ handout_plan:
 |:---|:---|:---|
 | **环加成** | Δσ = +2（形成两根新σ键）| 两个组分 |
 | **σ重排** | Δσ = 0（一根断裂，一根形成）| 一个组分内部 |
-| **电环化** | Δσ = ±1（一根新σ键形成或断裂）| 一个共轭π体系 |
+| **[[电环化反应]]** | Δσ = ±1（一根新σ键形成或断裂）| 一个共轭π体系 |
 
 > 电环化反应：新σ键跨一个共轭多烯的末端形成的过程及其逆过程。（p. 916, line 2659）
 
-### 1.2 σ重排（Sigmatropic Rearrangement）
+### 1.2 [[σ迁移反应|σ重排]]（Sigmatropic Rearrangement）
 
-**定义**：σ键看起来像是从一处地方移动到了另一处地方的协同周环反应。箭头中有一根开始于σ键而非π键。
+**定义**：σ键看起来像是从一处地方移动到了另一处地方的协同[[重排反应]]。箭头中有一根开始于σ键而非π键。
 
 **命名规则**：给旧σ键的两端都标为"1"，然后绕着两根方向，数到产物中新σ键的两端。例如新σ键两端的序号均为"3" → [3,3]-σ重排。
 
 **过渡态环大小规律**：方括号中两个数字之和 = 过渡态环大小。如 [3,3] → 六元环；[2,3] → 五元环；[1,5] → 六元环。
 
-### 1.3 电环化反应（Electrocyclic Reaction）
+### 1.3 [[电环化反应]]（Electrocyclic Reaction）
 
 **定义**：在一个单独的共轭π体系中，一根新σ键的形成（关环）或断裂（开环）的过程。
 
@@ -65,7 +66,7 @@ handout_plan:
 
 ### 2.1 [3,3]-σ重排
 
-#### 2.1.1 芳香族 Claisen 重排（原始发现）
+#### 2.1.1 芳香族 [[Claisen重排]]（原始发现）
 
 - **底物**：芳基烯丙基醚
 - **条件**：无溶剂，加热
@@ -73,9 +74,9 @@ handout_plan:
 - **第二步**：简单离子型质子转移 → 恢复芳香性 → 邻烯丙基酚
 - **不对称烯丙基醚**：重排时会"从里面翻出来"（立体专一性）
 
-![[mineru/中文版clayden-chinese-34-36907-999_images/d422ed6cff4d278fffe36b036fe5a2fbe10c58974e024abe64d9ef14eb6b6896.jpg]]
-![[mineru/中文版clayden-chinese-34-36907-999_images/50d23e9614d9922de87d75cce8b0fabb095ffd8d0ee34d88a1353c58bf995fd3.jpg]]
-![[mineru/中文版clayden-chinese-34-36907-999_images/5dbe9290c622cdddefaf52b2afeeacfca8ce8b83a18503c264b145b460aa9a87.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/d422ed6cff4d278fffe36b036fe5a2fbe10c58974e024abe64d9ef14eb6b6896.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/50d23e9614d9922de87d75cce8b0fabb095ffd8d0ee34d88a1353c58bf995fd3.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/5dbe9290c622cdddefaf52b2afeeacfca8ce8b83a18503c264b145b460aa9a87.jpg]]
 
 #### 2.1.2 脂肪族 Claisen 重排（Claisen-Cope 重排）
 
@@ -88,12 +89,12 @@ handout_plan:
 - 第一分子甲醇由SN1失去，第二分子由E1失去
 - 烯丙基乙烯基醚形成后立即重排
 
-![[mineru/中文版clayden-chinese-34-36907-999_images/bcd53e3e8a2f2c8b8ac7c1887b3541d0d83997f5232a7a86906b6911299c26bb.jpg]]
-![[mineru/中文版clayden-chinese-34-36907-999_images/7cf3087a7d17031f53438293d20de9ccf336392ced665e60efc1a543ec37c778.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/bcd53e3e8a2f2c8b8ac7c1887b3541d0d83997f5232a7a86906b6911299c26bb.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/7cf3087a7d17031f53438293d20de9ccf336392ced665e60efc1a543ec37c778.jpg]]
 
 **应用**：合成γ,δ-不饱和醛、酮、酯、酰胺的常规方法。
 
-#### 2.1.3 Cope 重排
+#### 2.1.3 [[Cope重排]]
 
 - **定义**：环中仅涉及碳原子的 [3,3]-σ重排
 - **最简单版本**：起始原料和产物相同（对称1,5-二烯）
@@ -109,9 +110,9 @@ handout_plan:
 - 产物是烯醇钾，比烷氧基钾起始原料更稳定
 - 可制得桥头烯烃（Bredt规则禁止的通常情况）
 
-![[mineru/中文版clayden-chinese-34-36907-999_images/e901f375e026b143bb73091d339863facbecbd4f3a984f83174cbd60262c6f66.jpg]]
-![[mineru/中文版clayden-chinese-34-36907-999_images/f6083b481db527213ff8f29108001a97f051cd3bfa03fc0c5c796033fdd90cad.jpg]]
-![[mineru/中文版clayden-chinese-34-36907-999_images/fd12db391091b0101ba7d50a30ac17730f4d52889de977ee89f5248119bb72f5.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/e901f375e026b143bb73091d339863facbecbd4f3a984f83174cbd60262c6f66.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/f6083b481db527213ff8f29108001a97f051cd3bfa03fc0c5c796033fdd90cad.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/fd12db391091b0101ba7d50a30ac17730f4d52889de977ee89f5248119bb72f5.jpg]]
 
 #### 2.1.4 Ireland-Claisen 重排
 
@@ -121,8 +122,8 @@ handout_plan:
 - **产物**：不饱和酸（后处理后）
 - **E选择性**：与普通Claisen相同的原因，双键强烈偏好反式(E)几何结构
 
-![[mineru/中文版clayden-chinese-34-36907-999_images/14f8ad7f789994f21c515d6725a82eb8b702ee2b42c0117ef0b019bd197d213e.jpg]]
-![[mineru/中文版clayden-chinese-34-36907-999_images/b64e045fb98f9e4832e0428e8ea5b3692010ca57b7e6379501e7486f95678c58.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/14f8ad7f789994f21c515d6725a82eb8b702ee2b42c0117ef0b019bd197d213e.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/b64e045fb98f9e4832e0428e8ea5b3692010ca57b7e6379501e7486f95678c58.jpg]]
 
 #### 2.1.5 Fischer 吲哚合成中的 [3,3]-σ重排
 
@@ -131,8 +132,8 @@ handout_plan:
 - 断裂的σ键是弱的N-N σ键，一根π键在苯环内
 - 产物：高度不稳定的双键亚胺 → 芳香性恢复 → 吲哚
 
-![[mineru/中文版clayden-chinese-34-36907-999_images/96a16a852b4229c113a0c4b6ad3191711f7bce13c77969fc517887e0748dad8d.jpg]]
-![[mineru/中文版clayden-chinese-34-36907-999_images/36c9317b22a277071e5d18652014dead9c8a5a64c8e011d8a97757b07174e1c.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/96a16a852b4229c113a0c4b6ad3191711f7bce13c77969fc517887e0748dad8d.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/36c9317b22a277071e5d18652014dead9c8a5a64c8e011d8a97757b07174e1c.jpg]]
 
 #### 2.1.6 Cr(VI) 氧化中的共轭氧化（Conjugate Oxidation）
 
@@ -141,7 +142,7 @@ handout_plan:
 - 第二步：铬酸酯基通过 [3,3]-σ重排转移到烯丙基末端
 - 两个氧和一个铬原子参与的 [3,3]-σ重排
 
-![[mineru/中文版clayden-chinese-34-36907-999_images/b7d2c75788b4343deadbca2485164f7f32588d3bf6b6372d02a45e858948d2f9.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/b7d2c75788b4343deadbca2485164f7f32588d3bf6b6372d02a45e858948d2f9.jpg]]
 
 ### 2.2 [2,3]-σ重排
 
@@ -158,8 +159,8 @@ handout_plan:
 - **平衡偏移**：氧阴离子比碳阴离子稳定得多
 - **立体化学**：类椅式过渡态，新π键反式形成，R取代基倾向平伏位点
 
-![[mineru/中文版clayden-chinese-34-36907-999_images/b39083f56a2976819ce147453966082c755801529782d63255a259f30b963eaa.jpg]]
-![[mineru/中文版clayden-chinese-34-36907-999_images/bf975d13d35a4d4268462804e7abbfdd8ffd79a0ddb13a2b4f32f2ab03891c4b.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/b39083f56a2976819ce147453966082c755801529782d63255a259f30b963eaa.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/bf975d13d35a4d4268462804e7abbfdd8ffd79a0ddb13a2b4f32f2ab03891c4b.jpg]]
 
 #### 2.2.3 硫/硒参与的 [2,3]-σ重排
 
@@ -170,8 +171,8 @@ handout_plan:
 - **逆向重排**：亚砜 + (MeO)3P（亲硫亲核试剂）/ MeOH / 加热 → 逆向[2,3]-σ重排 → 次磺酸酯被捕获 → 另一个烯丙基醇
 - **净结果**：烯丙型醇的"烷基化"（通常被认为不可能完成的转化）
 
-![[mineru/中文版clayden-chinese-34-36907-999_images/af43e9dff2bb2f523e453f0a8f34def28bc89a9315315e593df294900abbf06b.jpg]]
-![[mineru/中文版clayden-chinese-34-36907-999_images/f63fb2b1e7e160ce819ac3272edae335ab3a22bd7f0244fb9e56674332bb4960.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/af43e9dff2bb2f523e453f0a8f34def28bc89a9315315e593df294900abbf06b.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/f63fb2b1e7e160ce819ac3272edae335ab3a22bd7f0244fb9e56674332bb4960.jpg]]
 
 **SeO2 氧化烯烃（Riley氧化）**：
 - SeO2 + 烯烃 → [4+2]环加成 → 烯丙基亚硒酸
@@ -179,7 +180,7 @@ handout_plan:
 - 对甲基氧化 → 进一步氧化为醛/酮（烯基醛 enals）
 - 催化量SeO2 + t-BuOOH（后续氧化剂）
 
-![[mineru/中文版clayden-chinese-34-36907-999_images/b973b3582b4036d9ffceafc79cdde75fffa021fecb0234500cdaa121f2edfd92.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/b973b3582b4036d9ffceafc79cdde75fffa021fecb0234500cdaa121f2edfd92.jpg]]
 
 ### 2.3 [1,5]-σ氢移位
 
@@ -196,8 +197,8 @@ handout_plan:
 - **后果**：Diels-Alder反应通常得到三种加合物的混合物
 - **解决方案**：增强双烯活性（如与酯基共轭）→ Diels-Alder反应快于[1,5]H移位
 
-![[mineru/中文版clayden-chinese-34-36907-999_images/1f48f760f3ebf915d5e1c54e8cb1be598ba0f8f3d09b505582d9631477e79f1f.jpg]]
-![[mineru/中文版clayden-chinese-34-36907-999_images/05718182f8ac9a1f5f9b452d0951c916eef7f32a4f2f8725a7c9ea06991cb579.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/1f48f760f3ebf915d5e1c54e8cb1be598ba0f8f3d09b505582d9631477e79f1f.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/05718182f8ac9a1f5f9b452d0951c916eef7f32a4f2f8725a7c9ea06991cb579.jpg]]
 
 #### 2.3.3 前线轨道描述
 
@@ -225,8 +226,8 @@ handout_plan:
   3. 质子失去 + 异构化 → 环戊烯酮
 - **光化学条件**：对旋（与热反应相反）
 
-![[mineru/中文版clayden-chinese-34-36907-999_images/363c4ea88b7507d0b4fee43d5196efc6a34b4de2b6c219ddcd8eef83dd3e1958.jpg]]
-![[mineru/中文版clayden-chinese-34-36907-999_images/660535b7abfa6475f68e83465a91de18dfc3dfd68f9856fd49fb2401606e2835.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/363c4ea88b7507d0b4fee43d5196efc6a34b4de2b6c219ddcd8eef83dd3e1958.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/660535b7abfa6475f68e83465a91de18dfc3dfd68f9856fd49fb2401606e2835.jpg]]
 
 #### 2.4.3 环辛二烯基阴离子的电环化
 
@@ -235,7 +236,7 @@ handout_plan:
 - 顺旋光化学环化被环张力阻止（5,5反式稠合体系不可能）
 - 热电环化关环也被环张力阻止
 
-![[mineru/中文版clayden-chinese-34-36907-999_images/85ca891046c548cf16e2e3c5299e1d0d59e21e66dc77e0e471ce97ad7cce7362.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/85ca891046c548cf16e2e3c5299e1d0d59e21e66dc77e0e471ce97ad7cce7362.jpg]]
 
 #### 2.4.4 小环的电环化开环
 
@@ -251,8 +252,8 @@ handout_plan:
 - 叶立德可被亲偶极体通过[3+2]环加成捕捉
 - 产物立体化学证实开环是**顺旋**的（叶立德是4π电子体系）
 
-![[mineru/中文版clayden-chinese-34-36907-999_images/de986286bcb804289a9502f8d405307041cd3143dd52ef8378dbb36519dfc63a.jpg]]
-![[mineru/中文版clayden-chinese-34-36907-999_images/7e1e67174c1071d2b0b2be3f63ffc17c3467223c4e43fd08fe964204990e4379.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/de986286bcb804289a9502f8d405307041cd3143dd52ef8378dbb36519dfc63a.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/7e1e67174c1071d2b0b2be3f63ffc17c3467223c4e43fd08fe964204990e4379.jpg]]
 
 ### 2.5 维生素D生物合成中的电环化
 
@@ -262,8 +263,8 @@ handout_plan:
 - **第二步（无需光照）**：预钙化醇 → [1,7]H移位（异面）→ 维生素D3
   - 三烯体系足够灵活使氢从顶面迁移到底面
 
-![[mineru/中文版clayden-chinese-34-36907-999_images/67e667acaccde7e3a136b3ac8cdb5e7906307c87b8f6f24f64759da26b3e7ede.jpg]]
-![[mineru/中文版clayden-chinese-34-36907-999_images/187f3895603c7a1afa0810336b7fecdc55cf8e0bd1a10a70f16a324f4f429912.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/67e667acaccde7e3a136b3ac8cdb5e7906307c87b8f6f24f64759da26b3e7ede.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/187f3895603c7a1afa0810336b7fecdc55cf8e0bd1a10a70f16a324f4f429912.jpg]]
 
 ---
 
@@ -317,59 +318,59 @@ handout_plan:
 
 | 图片 | 内容 | 位置 |
 |:---|:---|:---|
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/d422ed6cff4d278fffe36b036fe5a2fbe10c58974e024abe64d9ef14eb6b6896.jpg]] | 芳香族Claisen重排：芳基烯丙基醚 → 邻烯丙基酚 | line ~1811 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/50d23e9614d9922de87d75cce8b0fabb095ffd8d0ee34d88a1353c58bf995fd3.jpg]] | Claisen重排机理（[3,3]标记） | line ~1819 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/b26460b7ee4d49ba1a9408b7be2659e53ba3ff2fc12ffeafc5243786ce8bc142.jpg]] | Claisen重排互动机理 | line ~1827 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/5dbe9290c622cdddefaf52b2afeeacfca8ce8b83a18503c264b145b460aa9a87.jpg]] | 质子转移恢复芳香性 | line ~1833 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/20a8a7d231ecb260bcab0aad0a38aa1a3b28b4bce9b400d187be20ccb58c862d.jpg]] | 不对称烯丙基醚的"翻出来" | line ~1843 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/bcd53e3e8a2f2c8b8ac7c1887b3541d0d83997f5232a7a86906b6911299c26bb.jpg]] | 脂肪族Claisen重排 | line ~1853 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/3886b5e16bd1c8d01abf2aee460f590e09cb83da4e39307a8896b85f228427d9.jpg]] | [3,3]-σ重排轨道描述 | line ~1869 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/c7e63f9c21ee3e267d2256bf5aa43c1ac4906546b934327a29a4649981013957.jpg]] | 椅式过渡态中R的平伏偏好 | line ~1883 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/870e959213cfb792dc8f81c9872372cc9c544ec13810d9b4a59e91e4ce505e8e.jpg]] | 产物中反式双键的形成 | line ~1893 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/7cf3087a7d17031f53438293d20de9ccf336392ced665e60efc1a543ec37c778.jpg]] | 缩醛交换法制备烯丙基乙烯基醚 | line ~1919 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/dde6a2eb92e599f0208627e450902068972b92607c4f0447fe29f878e5d51044.jpg]] | Woodward-Hoffmann规则应用于[3,3]-σ重排 | line ~1975 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/d800f4f038fd7347a90a712f95d33e45c54797a6a5b71690c37f4c8078c39284.jpg]] | σ键的s/a对称性（同面） | line ~2003 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/c970dc1d9de6ee6b84caa36ec399c8e1f16ca6fbbfa6cec4fcd620aaf3831b5c.jpg]] | σ键的s/a对称性（异面） | line ~2017 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/e901f375e026b143bb73091d339863facbecbd4f3a984f83174cbd60262c6f66.jpg]] | Cope重排（最简单的版本） | line ~2037 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/f6083b481db527213ff8f29108001a97f051cd3bfa03fc0c5c796033fdd90cad.jpg]] | Oxy-Cope/阴离子加速Cope | line ~2077 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/fd12db391091b0101ba7d50a30ac17730f4d52889de977ee89f5248119bb72f5.jpg]] | 桥头烯烃的制备（阴离子加速Cope） | line ~2089 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/14f8ad7f789994f21c515d6725a82eb8b702ee2b42c0117ef0b019bd197d213e.jpg]] | Ireland-Claisen重排（烯醇锂） | line ~2099 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/b64e045fb98f9e4832e0428e8ea5b3692010ca57b7e6379501e7486f95678c58.jpg]] | Ireland-Claisen（烯醇硅醚途径） | line ~2109 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/e22d3ed9a94e2f1c5de33cd14750ad18819776987eb0a77f6ec40086cb575b4e.jpg]] | 张力驱动的Cope重排（三元环断裂） | line ~2131 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/5221b16b595e7d2f6660f2918e18d11399494f76d121a4f9285bcf1af0dd84bc.jpg]] | 柠檬醛工业合成（Claisen + Cope） | line ~2151 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/36c9317b22a277071e5d18652014dead9c8a5a64c8e011d8a97757b07174e1c.jpg]] | Fischer吲哚合成的[3,3]-σ重排 | line ~2207 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/b7d2c75788b4343deadbca2485164f7f32588d3bf6b6372d02a45e858948d2f9.jpg]] | Cr(VI)共轭氧化的[3,3]-σ重排 | line ~2239 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/b39083f56a2976819ce147453966082c755801529782d63255a259f30b963eaa.jpg]] | [2,3]-σ重排（碳阴离子） | line ~2267 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/af43e9dff2bb2f523e453f0a8f34def28bc89a9315315e593df294900abbf06b.jpg]] | 次磺酸酯→亚砜的[2,3]-σ重排 | line ~2335 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/f63fb2b1e7e160ce819ac3272edae335ab3a22bd7f0244fb9e56674332bb4960.jpg]] | 亚砜的逆向[2,3]-σ重排 | line ~2347 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/b973b3582b4036d9ffceafc79cdde75fffa021fecb0234500cdaa121f2edfd92.jpg]] | SeO2氧化的[4+2]环加成+[2,3]-σ重排 | line ~2395 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/05718182f8ac9a1f5f9b452d0951c916eef7f32a4f2f8725a7c9ea06991cb579.jpg]] | 环戊二烯的[1,5]H移位 | line ~2435 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/bcf2a485e3f1e296ba443d8a12322f8f52098634d60268d6880c18bf9bce0267.jpg]] | E,Z-双烯的[1,5]H移位 | line ~2519 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/64ea3e2c8804deea903776c30da6acc07fd51a0486fd38ea7c46f6b789b7d999.jpg]] | [1,7]H移位的异面迁移 | line ~2533 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/d422ed6cff4d278fffe36b036fe5a2fbe10c58974e024abe64d9ef14eb6b6896.jpg]] | 芳香族Claisen重排：芳基烯丙基醚 → 邻烯丙基酚 | line ~1811 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/50d23e9614d9922de87d75cce8b0fabb095ffd8d0ee34d88a1353c58bf995fd3.jpg]] | Claisen重排机理（[3,3]标记） | line ~1819 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/b26460b7ee4d49ba1a9408b7be2659e53ba3ff2fc12ffeafc5243786ce8bc142.jpg]] | Claisen重排互动机理 | line ~1827 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/5dbe9290c622cdddefaf52b2afeeacfca8ce8b83a18503c264b145b460aa9a87.jpg]] | 质子转移恢复芳香性 | line ~1833 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/20a8a7d231ecb260bcab0aad0a38aa1a3b28b4bce9b400d187be20ccb58c862d.jpg]] | 不对称烯丙基醚的"翻出来" | line ~1843 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/bcd53e3e8a2f2c8b8ac7c1887b3541d0d83997f5232a7a86906b6911299c26bb.jpg]] | 脂肪族Claisen重排 | line ~1853 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/3886b5e16bd1c8d01abf2aee460f590e09cb83da4e39307a8896b85f228427d9.jpg]] | [3,3]-σ重排轨道描述 | line ~1869 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/c7e63f9c21ee3e267d2256bf5aa43c1ac4906546b934327a29a4649981013957.jpg]] | 椅式过渡态中R的平伏偏好 | line ~1883 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/870e959213cfb792dc8f81c9872372cc9c544ec13810d9b4a59e91e4ce505e8e.jpg]] | 产物中反式双键的形成 | line ~1893 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/7cf3087a7d17031f53438293d20de9ccf336392ced665e60efc1a543ec37c778.jpg]] | 缩醛交换法制备烯丙基乙烯基醚 | line ~1919 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/dde6a2eb92e599f0208627e450902068972b92607c4f0447fe29f878e5d51044.jpg]] | Woodward-Hoffmann规则应用于[3,3]-σ重排 | line ~1975 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/d800f4f038fd7347a90a712f95d33e45c54797a6a5b71690c37f4c8078c39284.jpg]] | σ键的s/a对称性（同面） | line ~2003 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/c970dc1d9de6ee6b84caa36ec399c8e1f16ca6fbbfa6cec4fcd620aaf3831b5c.jpg]] | σ键的s/a对称性（异面） | line ~2017 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/e901f375e026b143bb73091d339863facbecbd4f3a984f83174cbd60262c6f66.jpg]] | Cope重排（最简单的版本） | line ~2037 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/f6083b481db527213ff8f29108001a97f051cd3bfa03fc0c5c796033fdd90cad.jpg]] | Oxy-Cope/阴离子加速Cope | line ~2077 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/fd12db391091b0101ba7d50a30ac17730f4d52889de977ee89f5248119bb72f5.jpg]] | 桥头烯烃的制备（阴离子加速Cope） | line ~2089 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/14f8ad7f789994f21c515d6725a82eb8b702ee2b42c0117ef0b019bd197d213e.jpg]] | Ireland-Claisen重排（烯醇锂） | line ~2099 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/b64e045fb98f9e4832e0428e8ea5b3692010ca57b7e6379501e7486f95678c58.jpg]] | Ireland-Claisen（烯醇硅醚途径） | line ~2109 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/e22d3ed9a94e2f1c5de33cd14750ad18819776987eb0a77f6ec40086cb575b4e.jpg]] | 张力驱动的Cope重排（三元环断裂） | line ~2131 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/5221b16b595e7d2f6660f2918e18d11399494f76d121a4f9285bcf1af0dd84bc.jpg]] | 柠檬醛工业合成（Claisen + Cope） | line ~2151 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/36c9317b22a277071e5d18652014dead9c8a5a64c8e011d8a97757b07174e1c.jpg]] | Fischer吲哚合成的[3,3]-σ重排 | line ~2207 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/b7d2c75788b4343deadbca2485164f7f32588d3bf6b6372d02a45e858948d2f9.jpg]] | Cr(VI)共轭氧化的[3,3]-σ重排 | line ~2239 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/b39083f56a2976819ce147453966082c755801529782d63255a259f30b963eaa.jpg]] | [2,3]-σ重排（碳阴离子） | line ~2267 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/af43e9dff2bb2f523e453f0a8f34def28bc89a9315315e593df294900abbf06b.jpg]] | 次磺酸酯→亚砜的[2,3]-σ重排 | line ~2335 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/f63fb2b1e7e160ce819ac3272edae335ab3a22bd7f0244fb9e56674332bb4960.jpg]] | 亚砜的逆向[2,3]-σ重排 | line ~2347 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/b973b3582b4036d9ffceafc79cdde75fffa021fecb0234500cdaa121f2edfd92.jpg]] | SeO2氧化的[4+2]环加成+[2,3]-σ重排 | line ~2395 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/05718182f8ac9a1f5f9b452d0951c916eef7f32a4f2f8725a7c9ea06991cb579.jpg]] | 环戊二烯的[1,5]H移位 | line ~2435 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/bcf2a485e3f1e296ba443d8a12322f8f52098634d60268d6880c18bf9bce0267.jpg]] | E,Z-双烯的[1,5]H移位 | line ~2519 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/64ea3e2c8804deea903776c30da6acc07fd51a0486fd38ea7c46f6b789b7d999.jpg]] | [1,7]H移位的异面迁移 | line ~2533 |
 
 ### 电环化部分
 
 | 图片 | 内容 | 位置 |
 |:---|:---|:---|
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/185d5c667bbcbdc9f00b0b55c1011a23986fca0293bd26393d79c4ed2927bb0d.jpg]] | 周环反应三大类型区分 | line ~2615 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/a0e8acd8e59853fddeb187aeddcf28ac8e2633ead3c83a96ade80afbabc03679.jpg]] | 己三烯热环化 + 环丁烯开环 | line ~2637 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/b82dd7355cb07dd959495ce15ca8ebc7c83f788580011e55a8f29c48d251fbc2.jpg]] | 环丁烯开环的Woodward-Hoffmann处理 | line ~2678 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/1fc9c56a015c7141aa68aef6d10472c1ac6d875fdef52ef88fbd95db1d9c66ff.jpg]] | π4a轨道重新连接使反应允许 | line ~2731 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/283446a3a48a8d686f6b5a98c4e63827f5283698637ba0e6c4bcb0a8d8b48f9b.jpg]] | 己三烯对旋关环的立体化学 | line ~2754 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/9ad48841e37781f4758e53702707132ad27d4adb6d0d45ce8b25bf0cec466627.jpg]] | 环丁烯顺旋开环的立体化学 | line ~2766 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/92bc60bc6a759679663b110b169010707532963215044abed9e20a34319ca2c9.jpg]] | 丁二烯对旋关环（禁阻）vs 顺旋（允许） | line ~2776 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/86362ad7e82ca732c77b750fea812fbd3a34a846dc5efd4a1aabd12a152a1eca.jpg]] | 环丁烯顺旋开环互动机理 | line ~2800 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/038029860b297f25f314038ddbd78c33e392ba95197b135afb5f90c9f5b12b8a.jpg]] | 土楠酸D的8π顺旋电环化 | line ~2818 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/12e500657b1d261fff4a9d7332221ba0aa6f06e67bab212118a3253acea390e2.jpg]] | 土楠酸D/E的6π对旋电环化 | line ~2830 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/cd9f8d62f74111467350136da8f086f131e62e311b3480fa19f947ef89175d49.jpg]] | 土楠酸A的分子内Diels-Alder | line ~2842 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/b926d591f6bce8096a7ac698ab8d4810500763b0cf2a4f7d602d8b0830319688.jpg]] | 光化学电环化规则颠倒 | line ~2854 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/357754acbf0b09f2ffc3606ad61b57f8d914c33c63938219137617039d1670a2.jpg]] | 麦角甾醇→维生素原D2的光化学开环 | line ~2864 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/363c4ea88b7507d0b4fee43d5196efc6a34b4de2b6c219ddcd8eef83dd3e1958.jpg]] | Nazarov环化：4π电环化关环 | line ~2888 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/660535b7abfa6475f68e83465a91de18dfc3dfd68f9856fd49fb2401606e2835.jpg]] | Nazarov环化的质子失去和异构化 | line ~2898 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/0e65c12bcf3efb2be1ab824e73e1dacdc95c743d5b8436bce4fb7336dfc7b501.jpg]] | Nazarov环化热顺旋/光对旋证实 | line ~2908 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/85ca891046c548cf16e2e3c5299e1d0d59e21e66dc77e0e471ce97ad7cce7362.jpg]] | 环辛二烯基阴离子的6π对旋关环 | line ~2918 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/de986286bcb804289a9502f8d405307041cd3143dd52ef8378dbb36519dfc63a.jpg]] | 烯丙基阳离子↔环丙基阳离子的电环化 | line ~2938 |
-| ![[mineru/中文版clayden-chinese-34-36907-999_images/7e1e67174c1071d2b0b2be3f63ffc17c3467223c4e43fd08fe964204990e4379.jpg]] | 氮丙环电环化开环→甲亚铵叶立德 | line ~2960 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/185d5c667bbcbdc9f00b0b55c1011a23986fca0293bd26393d79c4ed2927bb0d.jpg]] | 周环反应三大类型区分 | line ~2615 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/a0e8acd8e59853fddeb187aeddcf28ac8e2633ead3c83a96ade80afbabc03679.jpg]] | 己三烯热环化 + 环丁烯开环 | line ~2637 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/b82dd7355cb07dd959495ce15ca8ebc7c83f788580011e55a8f29c48d251fbc2.jpg]] | 环丁烯开环的Woodward-Hoffmann处理 | line ~2678 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/1fc9c56a015c7141aa68aef6d10472c1ac6d875fdef52ef88fbd95db1d9c66ff.jpg]] | π4a轨道重新连接使反应允许 | line ~2731 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/283446a3a48a8d686f6b5a98c4e63827f5283698637ba0e6c4bcb0a8d8b48f9b.jpg]] | 己三烯对旋关环的立体化学 | line ~2754 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/9ad48841e37781f4758e53702707132ad27d4adb6d0d45ce8b25bf0cec466627.jpg]] | 环丁烯顺旋开环的立体化学 | line ~2766 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/92bc60bc6a759679663b110b169010707532963215044abed9e20a34319ca2c9.jpg]] | 丁二烯对旋关环（禁阻）vs 顺旋（允许） | line ~2776 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/86362ad7e82ca732c77b750fea812fbd3a34a846dc5efd4a1aabd12a152a1eca.jpg]] | 环丁烯顺旋开环互动机理 | line ~2800 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/038029860b297f25f314038ddbd78c33e392ba95197b135afb5f90c9f5b12b8a.jpg]] | 土楠酸D的8π顺旋电环化 | line ~2818 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/12e500657b1d261fff4a9d7332221ba0aa6f06e67bab212118a3253acea390e2.jpg]] | 土楠酸D/E的6π对旋电环化 | line ~2830 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/cd9f8d62f74111467350136da8f086f131e62e311b3480fa19f947ef89175d49.jpg]] | 土楠酸A的分子内Diels-Alder | line ~2842 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/b926d591f6bce8096a7ac698ab8d4810500763b0cf2a4f7d602d8b0830319688.jpg]] | 光化学电环化规则颠倒 | line ~2854 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/357754acbf0b09f2ffc3606ad61b57f8d914c33c63938219137617039d1670a2.jpg]] | 麦角甾醇→维生素原D2的光化学开环 | line ~2864 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/363c4ea88b7507d0b4fee43d5196efc6a34b4de2b6c219ddcd8eef83dd3e1958.jpg]] | Nazarov环化：4π电环化关环 | line ~2888 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/660535b7abfa6475f68e83465a91de18dfc3dfd68f9856fd49fb2401606e2835.jpg]] | Nazarov环化的质子失去和异构化 | line ~2898 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/0e65c12bcf3efb2be1ab824e73e1dacdc95c743d5b8436bce4fb7336dfc7b501.jpg]] | Nazarov环化热顺旋/光对旋证实 | line ~2908 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/85ca891046c548cf16e2e3c5299e1d0d59e21e66dc77e0e471ce97ad7cce7362.jpg]] | 环辛二烯基阴离子的6π对旋关环 | line ~2918 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/de986286bcb804289a9502f8d405307041cd3143dd52ef8378dbb36519dfc63a.jpg]] | 烯丙基阳离子↔环丙基阳离子的电环化 | line ~2938 |
+| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/7e1e67174c1071d2b0b2be3f63ffc17c3467223c4e43fd08fe964204990e4379.jpg]] | 氮丙环电环化开环→甲亚铵叶立德 | line ~2960 |
 
 ---
 

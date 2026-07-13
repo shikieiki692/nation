@@ -10,6 +10,8 @@ related: [亲核取代, 卤代烃]
 status: 骨架
 stage: draft
 updated: 2026-06-29
+syllabus_code: [36]
+template_version: v1.3
 ---
 
 # Finkelstein反应
@@ -26,3 +28,4 @@ Finkelstein 反应本质上是卤代烃的卤素交换反应，常被用来考�
 ## 三、关联页
 - [[亲核取代]]
 - [[溶剂效应]]
+

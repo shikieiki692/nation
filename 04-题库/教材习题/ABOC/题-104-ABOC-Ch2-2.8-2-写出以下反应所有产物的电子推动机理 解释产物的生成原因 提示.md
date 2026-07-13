@@ -10,10 +10,11 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["32"]
-knowledge_points: ['[[基本反应]]', '[[氧化反应]]', '[[还原反应]]']
+knowledge_points: ["[[基本反应]]", "[[氧化反应]]", "[[还原反应]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch2-2.8-2]
 updated: 2026-07-04
+status: 已填充
 ---
 
 # 题-104：写出以下反应所有产物的电子推动机理，解释产物的生成原因。提示：次氯酸可以被质子化从而产生氯正离子发动

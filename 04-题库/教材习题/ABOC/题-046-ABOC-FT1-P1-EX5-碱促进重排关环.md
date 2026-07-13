@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-046-ABOC-FT1-P1-EX5-碱促进重排关环
 aliases: [ABOC-FT1-P1-EX5]
 type: 题目
@@ -14,7 +14,7 @@ teaching_level: 竞赛拔高
 syllabus_codes: ["39", "46"]
 knowledge_points: ["[[Aldol缩合]]", "[[重排反应]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 

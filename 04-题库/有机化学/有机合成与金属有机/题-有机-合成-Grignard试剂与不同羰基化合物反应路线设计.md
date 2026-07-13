@@ -14,7 +14,7 @@ teaching_level: 强化
 syllabus_codes: ["44"]
 knowledge_points: ["[[Grignard试剂]]", "[[有机合成]]"]
 tags: [化竞, 题目, 有机化学, 第三轮]
-status: 已入库
+status: 已填充
 updated: 2026-06-06
 ---
 

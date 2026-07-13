@@ -10,10 +10,11 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["36"]
-knowledge_points: ['[[缩合反应]]', '[[Aldol缩合]]', '[[Claisen缩合]]']
+knowledge_points: ["[[缩合反应]]", "[[Aldol缩合]]", "[[Claisen缩合]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch6-6.10.3]
 updated: 2026-07-04
+status: 已填充
 ---
 
 # 题-159：写出乙酰乙酸乙酯在碳酸钠存在下与 1,3-二溴丙烷反应的主要产物，解释另一种产物无法生成的原因。

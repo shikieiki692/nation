@@ -6,6 +6,8 @@ subject: 化学原理
 updated: 2026-06-29
 tags: [系统, 索引, 化学原理]
 stage: review
+template_version: v1.3
+status: 已填充
 ---
 
 # 化学原理

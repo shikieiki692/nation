@@ -12,9 +12,9 @@ question_type: 机理推断题
 difficulty: 3
 teaching_level: 拓展
 syllabus_codes: ["40", "45"]
-knowledge_points: ["[[氧化还原反应]]", 保护基策略, "[[芳香性]]"]
+knowledge_points: ["[[氧化还原反应]]", "[[保护基策略]]", "[[芳香性]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 

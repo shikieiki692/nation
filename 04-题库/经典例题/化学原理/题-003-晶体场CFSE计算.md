@@ -13,7 +13,8 @@ difficulty: 4
 syllabus_codes: [12]
 knowledge_points: ["[[晶体场理论]]", "[[高自旋与低自旋]]"]
 tags: [化竞, 配位化学, CFSE]
-updated: 2026-05-03
+updated: 2026-05-03
+status: 已填充
 ---
 
 # 题-003：晶体场 CFSE 计算

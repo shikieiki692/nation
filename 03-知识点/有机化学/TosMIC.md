@@ -1,4 +1,4 @@
-﻿---
+---
 title: TosMIC
 aliases: [Van Leusen试剂, 对甲苯磺酰甲基异腈, 醛到腈]
 type: 知识点

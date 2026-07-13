@@ -12,9 +12,9 @@ question_type: 机理书写题
 difficulty: 4
 teaching_level: 竞赛拔高
 syllabus_codes: ["40"]
-knowledge_points: ["[[自由基]]", 链式反应]
+knowledge_points: ["[[自由基]]", "[[链式反应]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 

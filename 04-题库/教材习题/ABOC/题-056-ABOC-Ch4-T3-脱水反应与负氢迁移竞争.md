@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-056-ABOC-Ch4-T3-脱水反应与负氢迁移竞争
 aliases: [ABOC-Ch4-T3]
 type: 题目
@@ -12,9 +12,9 @@ question_type: 机理推断题
 difficulty: 4
 teaching_level: 拓展
 syllabus_codes: ["38", "39", "40"]
-knowledge_points: ["[[消除反应]]", 负氢迁移, "[[碳正离子]]"]
+knowledge_points: ["[[消除反应]]", "[[负氢迁移]]", "[[碳正离子]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 
@@ -49,7 +49,7 @@ updated: 2026-05-10
 | 关联 KP | 考查角度 | 直接/间接 |
 |---|---|:---:|
 | [[消除反应]] | E1 消除的区域选择性（Zaitsev vs Hofmann） | 直接 |
-| [[负氢迁移]] | 1,2-H 迁移的立体电子要求 | 直接 |
+| [[负氢转移]] | 1,2-H 迁移的立体电子要求 | 直接 |
 | [[碳正离子]] | 碳正离子稳定性对反应路径的控制 | 直接 |
 
 ## 解题思路

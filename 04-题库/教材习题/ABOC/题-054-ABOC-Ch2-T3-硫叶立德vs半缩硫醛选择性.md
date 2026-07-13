@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-054-ABOC-Ch2-T3-硫叶立德vs半缩硫醛选择性
 aliases: [ABOC-Ch2-T3]
 type: 题目
@@ -12,9 +12,9 @@ question_type: 反应性比较题
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["36", "45"]
-knowledge_points: [硫叶立德, 缩醛, "[[软硬酸碱理论]]"]
+knowledge_points: ["[[硫叶立德]]", "[[缩醛]]", "[[软硬酸碱理论]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 

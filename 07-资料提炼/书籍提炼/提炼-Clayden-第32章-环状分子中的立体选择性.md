@@ -6,13 +6,14 @@ source_path: mineru/中文版clayden-chinese30-33章787-907.md
 chapter: "32"
 pages: "787-907"
 updated: 2026-05-18
----
 handout_plan:
   - target: "有机化学基础"
     status: completed
     priority: P2
     source_sections: ["第32章 环状分子中的立体选择性（环己烷构象、多环体系、立体选择性控制）"]
     estimated_pages: 6
+knowledge_points: [环状分子的立体选择性, 立体化学, 立体选择性, 手性中心, 构象分析, 环己烷构象, 立体电子效应]
+---
 
 # 提炼：Clayden 第32章 环状分子中的立体选择性
 
@@ -20,9 +21,9 @@ handout_plan:
 
 | 指标 | 评估 |
 |:---|:---|
-| **竞赛直接考察度** | **极高** — 环状分子立体选择性是有机化学竞赛必考点，六元环直立/平伏进攻规律反复出现 |
+| **竞赛直接考察度** | **极高** — [[环状分子的立体选择性]]是有机化学竞赛必考点，六元环直立/平伏进攻规律反复出现 |
 | **与现有 KP 重叠度** | 中等 — [[立体化学]] 已有基础，但缺少**环状体系系统规律** |
-| **增量价值** | ① 四/五/六元环统一规律；② 桥环/稠环/螺环立体选择性；③ 氢键/螯合逆转选择性 |
+| **增量价值** | ① 四/五/六元环统一规律；② 桥环/稠环/螺环[[立体选择性]]；③ 氢键/螯合逆转选择性 |
 | **处理决策** | ✅ **新建 KP** [[环状分子的立体选择性]] + 本提炼笔记 |
 
 ## 2. 考纲映射
@@ -44,7 +45,7 @@ handout_plan:
 - 亲核试剂进攻**与大基团 anti** 的一面
 - 适用：烯醇盐烷基化、共轭加成、环氧化
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/63a3d39d12b9a5f38ecddc771911d3ea027076541220c8a468a6fa2531adfb13.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/63a3d39d12b9a5f38ecddc771911d3ea027076541220c8a468a6fa2531adfb13.jpg]]
 *扁桃酸缩醛形成→烯醇盐烷基化→构型保持*
 
 ### 准则 2：变平的六元环仅接受直立进攻
@@ -60,7 +61,7 @@ handout_plan:
 | MeLi | 35 | 65 |
 | t-BuMgBr | 0 | 100 |
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/4af8a0fb31694ef908a0d5e919bb853494dc3eddd49c5d117ffe29f9c5b5aa86.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/4af8a0fb31694ef908a0d5e919bb853494dc3eddd49c5d117ffe29f9c5b5aa86.jpg]]
 *4-叔丁基环己酮还原：大试剂平伏进攻，小试剂直立进攻*
 
 **含≥2个sp²碳（环己烯、环己烯酮）**：
@@ -68,7 +69,7 @@ handout_plan:
 - **仅接受直立进攻**（为直接形成椅式产物，避免扭船式过渡态）
 - 这是**动力学控制**
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/51d57dcd291b4a3b84e3b0e31e529d51b6a01b013db072e567685465a62eb44b.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/51d57dcd291b4a3b84e3b0e31e529d51b6a01b013db072e567685465a62eb44b.jpg]]
 *t-BuOK/CO₂Me对环己烯酮的共轭加成（直立进攻）*
 
 ### 准则 3：双环化合物在外面反应
@@ -78,14 +79,14 @@ handout_plan:
 - 试剂进攻**外侧面（exo）**
 - 樟脑因甲基阻碍，选择性逆转为**内侧面（endo）**
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/b352a04b2c02db02af13fe285f0a7aaa0b8b6a37c837db1dd86371a8b58c838e.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/b352a04b2c02db02af13fe285f0a7aaa0b8b6a37c837db1dd86371a8b58c838e.jpg]]
 *降冰片酮还原：外侧面进攻*
 
 **稠双环**：
 - **反式稠环**（如反式十氢化萘）：全椅式，烯醇盐直立烷基化
 - **顺式稠环**：蝴蝶形，外部反应（亲核加成、氢化、环氧化）；反式加成先外后内；环间成键在内部
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/14103e9c7b39a2e9501e412b41bfc69a2609b59cc02e2c9d06daefae23b6db6e.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/14103e9c7b39a2e9501e412b41bfc69a2609b59cc02e2c9d06daefae23b6db6e.jpg]]
 *反式十氢化萘结构*
 
 ### 准则 4：空阻大的一面反应可被促进
@@ -94,21 +95,21 @@ handout_plan:
 - 一般：m-CPBA从远离取代基面进攻（anti）
 - 烯丙醇例外：OH与过酸形成氢键 → syn环氧化（24:1至50:1）
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/9ef188a39249c3fe9affbc2307fcf4ffae68ee31e8e9797c0466213c73561972.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/9ef188a39249c3fe9affbc2307fcf4ffae68ee31e8e9797c0466213c73561972.jpg]]
 *烯丙醇syn环氧化（氢键稳定）*
 
 **B. 金属螯合传递**：
 - VO(acac)₂/t-BuOOH：钒酰将醇与过氧试剂螯合 → syn环氧化
 - 若OH被TBDMS保护 → 恢复anti（83:17）
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/07cb8e5aaa4b85dd83411c832f335a13ec271e3280973ab5e08281d6ff351f7e.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/07cb8e5aaa4b85dd83411c832f335a13ec271e3280973ab5e08281d6ff351f7e.jpg]]
 *VO(acac)₂/t-BuOOH螯合传递syn环氧化*
 
 **C. 被拴住的官能团**：
 - 碘代内酯化：羧酸根只能顺式跨环进攻
 - 桥固定构象，控制后续反应
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/b3584d87c24e482beef7f32f125c825fe8e8a060df0b9fbbe6a45bf3927eba07.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/b3584d87c24e482beef7f32f125c825fe8e8a060df0b9fbbe6a45bf3927eba07.jpg]]
 *碘代内酯化反应*
 
 ## 4. 环氧形成与开环的立体专一性
@@ -119,7 +120,7 @@ handout_plan:
 | **开环规则** | 氧化环己烯开环得**双直立产物**（SN2反式进攻） |
 | **过渡态同一性** | 形成与开环的过渡态相同（仅方向相反） |
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/0d0e28a86fa4de562540c906eb2c54edafb36e497c72e21529cbc6bcb3848d83.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/0d0e28a86fa4de562540c906eb2c54edafb36e497c72e21529cbc6bcb3848d83.jpg]]
 *环氧开环得双直立产物*
 
 ## 5. 例题提取
@@ -140,7 +141,7 @@ handout_plan:
 
 ## 6. 超纲标注
 
-- **螺环手性**：无手性中心也可能有手性（轴手性），国初不要求
+- **螺环手性**：无[[手性中心]]也可能有手性（轴手性），国初不要求
 - **碘代内酯化的可逆性**：竞赛通常按不可逆处理
 
 ## 7. 踩坑回流

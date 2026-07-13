@@ -1,7 +1,5 @@
 ---
-title: |-
-  Word管线总览
-  Word管线总览
+title: Word管线总览
 aliases:
   - Word 讲义管线总览
   - Word讲义生成总览

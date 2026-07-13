@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-058-ABOC-Ch6-T3-缩合策略综合
 aliases: [ABOC-Ch6-T3]
 type: 题目
@@ -14,7 +14,7 @@ teaching_level: 拓展
 syllabus_codes: ["45", "46"]
 knowledge_points: ["[[Aldol缩合]]", "[[Mannich反应]]", "[[Wittig反应]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 

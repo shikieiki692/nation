@@ -6,6 +6,10 @@ subject: 化学原理
 module: 决赛要求
 tags: [化竞, 知识点, 电化学]
 updated: 2026-07-07
+syllabus_code: [决赛05]
+template_version: v1.3
+status: 已填充
+stage: published
 ---
 
 # 离子强度与Debye-Hückel极限定律
@@ -55,3 +59,4 @@ $$\lg f_{\pm} = -A |z_+ z_-| \sqrt{I}$$
 - [[逸度与非理想气体]]
 - [[电化学深化]]
 - [[电导]]
+

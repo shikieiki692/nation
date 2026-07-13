@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-053-ABOC-Ch1-T1-金刚烷合成
 aliases: [ABOC-Ch1-T1]
 type: 题目
@@ -12,9 +12,9 @@ question_type: 机理推断题
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["34", "28"]
-knowledge_points: ["[[碳正离子]]", "[[过碘酸氧化]]", 2-迁移与重排, "[[立体化学]]"]
+knowledge_points: ["[[碳正离子]]", "[[过碘酸氧化]]", "[[2-迁移与重排]]", "[[立体化学]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 

@@ -10,10 +10,11 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["32"]
-knowledge_points: ['[[基本反应]]', '[[氧化反应]]', '[[还原反应]]']
+knowledge_points: ["[[基本反应]]", "[[氧化反应]]", "[[还原反应]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch2-2.7.1-1]
 updated: 2026-07-04
+status: 已填充
 ---
 
 # 题-097：类比以上信息，描述Zn 与盐酸反应产生氢气的机理。

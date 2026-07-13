@@ -11,6 +11,8 @@ difficulty: 3
 knowledge_points: ["[[Lewis结构式]]", "[[杂化轨道理论]]", "[[VSEPR理论]]"]
 tags: [化竞, 题库, 改编题, 分子结构, 结构化学]
 updated: 2026-07-04
+status: 已填充
+syllabus_codes: []
 ---
 
 # 题-改编-12-C3F4-SO4-XeF2结构与杂化

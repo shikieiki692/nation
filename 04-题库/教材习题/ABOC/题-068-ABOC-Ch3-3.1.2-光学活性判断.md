@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-068-ABOC-Ch3-3.1.2-光学活性判断
 aliases: [ABOC-Ch3-3.1.2]
 type: 题目
@@ -12,9 +12,9 @@ question_type: 选择题
 difficulty: 2
 teaching_level: 入门
 syllabus_codes: ["27"]
-knowledge_points: ["[[立体化学]]", 手性, "[[立体化学]]"]
+knowledge_points: ["[[立体化学]]", "[[手性]]", "[[立体化学]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 

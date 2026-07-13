@@ -787,6 +787,10 @@ _WORD_CLEAN_SECTION_TITLES = {
     "延伸阅读",
 }
 
+_WORD_CLEAN_LEADING_SECTION_TITLES = {
+    "学习目标",
+}
+
 
 def _strip_markdown_sections_by_title(text: str, titles: set[str]) -> str:
     """Remove markdown heading sections whose normalized titles match `titles`."""
@@ -822,6 +826,37 @@ def _strip_non_image_wikilink_lines(text: str) -> str:
     return "\n".join(kept_lines)
 
 
+def _collect_markdown_sections_by_title(text: str, titles: set[str]) -> str:
+    """Collect heading sections whose normalized titles match `titles`."""
+    lines = text.splitlines()
+    collected: list[str] = []
+    buffer: list[str] = []
+    collecting = False
+    collect_level = 99
+
+    for line in lines:
+        heading = re.match(r"^(#{2,6})\s+(.+?)\s*$", line)
+        if heading:
+            level = len(heading.group(1))
+            normalized = _normalize_markdown_heading_title(heading.group(2))
+            if collecting and level <= collect_level:
+                collected.extend(buffer)
+                buffer = []
+                collecting = False
+            if normalized in titles:
+                collecting = True
+                collect_level = level
+                buffer = [line]
+                continue
+        if collecting:
+            buffer.append(line)
+
+    if collecting and buffer:
+        collected.extend(buffer)
+
+    return "\n".join(collected).strip()
+
+
 def _collapse_extra_blank_lines(text: str) -> str:
     """Collapse repeated blank lines and duplicate horizontal rules."""
     text = re.sub(r"\n{3,}", "\n\n", text)
@@ -836,17 +871,28 @@ def _build_word_clean_body(fm: dict[str, Any], body: str) -> str:
     clean_title = _clean_word_title(heading_title or build_title(fm))
 
     main_match = re.search(r"^##\s+[一二三四五六七八九十]+、", body, flags=re.MULTILINE)
+    prefix_text = body[:main_match.start()] if main_match else body
+    leading_sections = _collect_markdown_sections_by_title(
+        prefix_text,
+        _WORD_CLEAN_LEADING_SECTION_TITLES,
+    )
     if main_match:
         core = body[main_match.start():].strip()
     else:
         core = re.sub(r"^#\s+.+?\n+", "", body, count=1, flags=re.MULTILINE).strip()
 
+    leading_sections = _strip_non_image_wikilink_lines(leading_sections)
+    leading_sections = _collapse_extra_blank_lines(leading_sections) if leading_sections.strip() else ""
     core = _strip_markdown_sections_by_title(core, _WORD_CLEAN_SECTION_TITLES)
     core = _strip_non_image_wikilink_lines(core)
     core = re.sub(r"^\s*>\s*相关知识点：.*$", "", core, flags=re.MULTILINE)
     core = re.sub(r"^\s*>\s*\*\*相关知识点\*\*：.*$", "", core, flags=re.MULTILINE)
     core = _collapse_extra_blank_lines(core)
-    return f"# {clean_title}\n\n{core}\n"
+    parts = [f"# {clean_title}"]
+    if leading_sections:
+        parts.append(leading_sections)
+    parts.append(core)
+    return "\n\n".join(parts).strip() + "\n"
 
 
 def _normalize_split_inline_scripts(text: str) -> str:
@@ -1587,8 +1633,8 @@ def convert_file(
                 emit_pdf=emit_render_pdf,
                 verbose=verbose,
             )
-        if verbose:
-            print(f"  [render] Preview written to {preview_dir}", file=sys.stderr)
+            if verbose:
+                print(f"  [render] Preview written to {preview_dir}", file=sys.stderr)
 
     finally:
         # Cleanup temp markdown
@@ -1773,7 +1819,7 @@ def main():
         f for f in all_md
         if f.stem not in EXCLUDED_STEMS
         and not any(f.stem.startswith(p) for p in EXCLUDED_PREFIXES)
-        and '超级充实' in f.stem
+        and ('超级充实' in f.stem or '基础版' in f.stem)
     ]
 
     if args.path:

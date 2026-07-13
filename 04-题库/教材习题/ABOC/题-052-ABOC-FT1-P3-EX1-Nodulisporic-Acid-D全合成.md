@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-052-ABOC-FT1-P3-EX1-Nodulisporic-Acid-D全合成
 aliases: [ABOC-FT1-P3-EX1]
 type: 题目
@@ -12,9 +12,9 @@ question_type: 全合成推断题
 difficulty: 5
 teaching_level: 竞赛拔高
 syllabus_codes: ["50", "52"]
-knowledge_points: ["[[烯烃复分解反应]]", "[[Fischer吲哚合成]]", 不对称合成]
+knowledge_points: ["[[烯烃复分解]]", "[[Fischer吲哚合成]]", "[[不对称合成]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 
@@ -50,7 +50,7 @@ updated: 2026-05-10
 
 | 关联 KP | 考查角度 | 直接/间接 |
 |---|---|:---:|
-| [[烯烃复分解反应]] | Grubbs 2nd Gen 催化的 RCM/CM 构建碳碳键 | 直接 |
+| [[烯烃复分解]] | Grubbs 2nd Gen 催化的 RCM/CM 构建碳碳键 | 直接 |
 | [[吲哚合成]] | 特征吲哚环的构建策略 | 直接 |
 | [[不对称合成]] | 多个手性中心的立体选择性控制 | 直接 |
 

@@ -17,7 +17,8 @@ teaching_level: 拔高
 syllabus_codes: []
 knowledge_points: [[Diels-Alder反应]], [[环加成]], [[捕获反应]], [[中间体]]
 tags: [化竞, 决赛, 理论]
-updated: 2020-11-16
+updated: 2020-11-16
+status: 已填充
 ---
 
 # 第 8 题 Diels-Alder反应 (4 分)

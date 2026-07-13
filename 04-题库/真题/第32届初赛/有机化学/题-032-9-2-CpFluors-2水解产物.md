@@ -16,6 +16,7 @@ syllabus_codes: []
 knowledge_points: ["[[醇的卤化]]", "[[水解反应]]", "[[环丙烯酮]]"]
 tags: [化竞, 真题, 32届]
 updated: 2026-05-11
+status: 已填充
 ---
 
 # 题-032-9-2：CpFluors-2 水解产物

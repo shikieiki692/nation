@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-043-ABOC-FT1-P1-EX2-Cu催化烯醇自由基
 aliases: [ABOC-FT1-P1-EX2]
 type: 题目
@@ -12,9 +12,9 @@ question_type: 机理书写题
 difficulty: 4
 teaching_level: 竞赛拔高
 syllabus_codes: ["40", "46"]
-knowledge_points: ["[[烯醇]]", "[[自由基]]", 铜催化]
+knowledge_points: ["[[烯醇]]", "[[自由基]]", "[[铜催化]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Wacker氧化
 aliases: [Wacker Oxidation, Wacker-Tsuji氧化, 烯烃氧化, 钯催化氧化]
 type: 知识点

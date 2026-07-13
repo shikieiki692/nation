@@ -10,10 +10,11 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["35"]
-knowledge_points: ['[[芳香族化合物]]', '[[芳香性]]', '[[亲电取代]]', '[[胺]]']
+knowledge_points: ["[[芳香族化合物]]", "[[芳香性]]", "[[亲电取代]]", "[[胺]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch5-5.12]
 updated: 2026-07-04
+status: 已填充
 ---
 
 # 题-151：写出3分解的机理，并设计 3 的制备方法。

@@ -12,9 +12,9 @@ question_type: 产物预测题
 difficulty: 3
 teaching_level: 拓展
 syllabus_codes: ["39"]
-knowledge_points: ["[[Beckmann重排]]", 酰胺, "[[立体化学]]"]
+knowledge_points: ["[[Beckmann重排]]", "[[酰胺]]", "[[立体化学]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 

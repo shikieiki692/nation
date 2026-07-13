@@ -10,10 +10,11 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["34"]
-knowledge_points: ['[[取代反应]]', '[[消除反应]]', '[[SN1]]', '[[SN2]]']
+knowledge_points: ["[[取代反应]]", "[[消除反应]]", "[[SN1]]", "[[SN2]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch4-4.2.3]
 updated: 2026-07-04
+status: 已填充
 ---
 
 # 题-119：类比硼氢化-氧化反应的机理，写出 ${ \mathsf { P h S i H } } _ { 3 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Robinson环化
 aliases: [Robinson Annulation, 罗宾逊环化, Michael-Aldol串联, 环己烯酮合成]
 type: 知识点

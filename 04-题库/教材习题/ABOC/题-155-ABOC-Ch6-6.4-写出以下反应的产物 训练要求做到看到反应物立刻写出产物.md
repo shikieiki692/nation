@@ -10,10 +10,11 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["36"]
-knowledge_points: ['[[缩合反应]]', '[[Aldol缩合]]', '[[Claisen缩合]]']
+knowledge_points: ["[[缩合反应]]", "[[Aldol缩合]]", "[[Claisen缩合]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch6-6.4]
 updated: 2026-07-04
+status: 已填充
 ---
 
 # 题-155：写出以下反应的产物，训练要求做到看到反应物立刻写出产物。

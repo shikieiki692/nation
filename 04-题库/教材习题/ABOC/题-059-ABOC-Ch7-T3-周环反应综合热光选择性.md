@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-059-ABOC-Ch7-T3-周环反应综合热光选择性
 aliases: [ABOC-Ch7-T3]
 type: 题目
@@ -14,7 +14,7 @@ teaching_level: 拓展
 syllabus_codes: ["49"]
 knowledge_points: ["[[Diels-Alder反应]]", "[[2+2环加成]]", "[[电环化反应]]", "[[前线轨道理论]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 

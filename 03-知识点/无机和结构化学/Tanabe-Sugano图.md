@@ -28,7 +28,15 @@ images_priority: high
 images_note: "d²-d⁸全套Tanabe-Sugano图已从Wikimedia Commons下载（CC BY-SA）→ ![[00-附件/weller_figures/TS_d2_diagram.png]] ![[00-附件/weller_figures/TS_d3_diagram.svg]] ![[00-附件/weller_figures/TS_d4_diagram.svg]] ![[00-附件/weller_figures/TS_d5_diagram.svg]] ![[00-附件/weller_figures/TS_d6_diagram.svg]] ![[00-附件/weller_figures/TS_d7_diagram.svg]] ![[00-附件/weller_figures/TS_d8_diagram.svg]]。Weller原版PDF页面渲染见 .obsidian/media/weller_pages/"
 teaching_ready: false
 source_notes: ["[[提炼-无机化学第6版-第20章-配位化学理论]]"]
-key_images: []
+key_images:
+  - "00-附件/weller_figures/Cr_spectrum_20.23.jpg"
+  - "00-附件/weller_figures/TS_d2_diagram.png"
+  - "00-附件/weller_figures/TS_d3_diagram.svg"
+  - "00-附件/weller_figures/TS_d4_diagram.svg"
+  - "00-附件/weller_figures/TS_d5_diagram.svg"
+  - "00-附件/weller_figures/TS_d6_diagram.svg"
+  - "00-附件/weller_figures/TS_d7_diagram.svg"
+  - "00-附件/weller_figures/TS_d8_diagram.svg"
 source_extracts:
   - source_file: "[[提炼-无机化学第6版-第20章-配位化学理论]]"
     asset_id: "20-4"
@@ -127,7 +135,7 @@ TS 图不是讲配合物颜色时的起点，而是讲到下面这些任务时�
 3. 需要由实验光谱**反推** $\Delta_0$、B 或比较不同配体下的参数变化；
 4. 题目开始出现“第三条带为何缺失/为何被遮蔽/为何极弱”等光谱细节。
 
-如果课堂还停留在“为什么有颜色、为什么颜色深浅不同”，更合适的入口应是 [[配位场理论]] 和 [[过渡元素颜色与配位行为]]。
+如果课堂还停留在“为什么有颜色、为什么颜色深浅不同”，更合适的入口应是 [[晶体场理论]] 和 [[过渡元素颜色与配位行为]]。
 
 ## 三、竞赛要点
 
@@ -191,7 +199,7 @@ TS 图不是讲配合物颜色时的起点，而是讲到下面这些任务时�
 
 - **前置知识**：
   - [[晶体场理论]] — Δ₀、d轨道分裂、高/低自旋的概念基础
-  - [[配位场理论]] — σ/π成键对Δ₀的影响、光谱化学序列
+  - [[晶体场理论]] — σ/π成键对Δ₀的影响、光谱化学序列
   - [[光谱项]] — Russell-Saunders偶合、Racah参数A/B/C、基谱项的Hund规则判断
   - [[原子轨道]] — d轨道角量子数l=2，组态→谱项的推导基础
 
@@ -217,7 +225,7 @@ TS 图不是讲配合物颜色时的起点，而是讲到下面这些任务时�
 
 > 本知识点**不可独立教学**。例题20.8的完整求解要求学生同时掌握：
 > 1. [[晶体场理论]] — dⁿ组态 → 高/低自旋判断 → 基谱项确定
-> 2. [[过渡元素颜色与配位行为]] / [[配位场理论]] — 先分清 d-d 与 CT、允许与禁阻、为什么有的带会很弱
+> 2. [[过渡元素颜色与配位行为]] / [[晶体场理论]] — 先分清 d-d 与 CT、允许与禁阻、为什么有的带会很弱
 > 3. [[光谱项]] / [[原子光谱与光谱项]] — Russell-Saunders偶合 → Racah参数B → 自由离子谱项能量
 > 3. **Tanabe-Sugano图**（本页）— E/B vs Δ₀/B 读图 → 比值匹配定位
 > 4. [[选律]] — 自旋选律(ΔS=0) + Laporte选律(g↔u) → 判断哪些跃迁在光谱中可观测

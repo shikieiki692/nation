@@ -10,10 +10,11 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["39"]
-knowledge_points: ['[[杂环化合物]]', '[[杂环合成]]']
+knowledge_points: ["[[杂环化合物]]", "[[杂环合成]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch9-9.4.1]
 updated: 2026-07-04
+status: 已填充
 ---
 
 # 题-178：写出吡啶酮和三氯氧磷反应得到 2-氯吡啶的机理。

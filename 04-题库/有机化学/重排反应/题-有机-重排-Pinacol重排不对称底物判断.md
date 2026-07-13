@@ -14,7 +14,7 @@ teaching_level: 强化
 syllabus_codes: ["46"]
 knowledge_points: ["[[1,2-迁移与重排]]", "[[Pinacol重排]]"]
 tags: [化竞, 题目, 有机化学, 第三轮]
-status: 已入库
+status: 已填充
 updated: 2026-06-06
 ---
 

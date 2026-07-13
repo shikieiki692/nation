@@ -10,10 +10,11 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["33"]
-knowledge_points: ['[[烯烃加成]]', '[[亲电加成]]', '[[Markovnikov规则]]']
+knowledge_points: ["[[烯烃加成]]", "[[亲电加成]]", "[[Markovnikov规则]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch3-3.1.1]
 updated: 2026-07-04
+status: 已填充
 ---
 
 # 题-109：在Clayden 教材中存在一个著名的错误：

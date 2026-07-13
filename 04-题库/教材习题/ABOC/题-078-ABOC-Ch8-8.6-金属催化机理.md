@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-078-ABOC-Ch8-8.6-金属催化机理
 aliases: [ABOC-Ch8-8.6]
 type: 题目
@@ -12,9 +12,9 @@ question_type: 机理推断题
 difficulty: 4
 teaching_level: 拓展
 syllabus_codes: ["51"]
-knowledge_points: [过渡金属催化, "[[氧化加成与还原消除]]", "[[氧化加成与还原消除]]"]
+knowledge_points: ["[[过渡金属催化]]", "[[氧化加成与还原消除]]", "[[氧化加成与还原消除]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 

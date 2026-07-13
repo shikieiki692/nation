@@ -10,6 +10,8 @@ related: [立体化学, 立体选择性, 不对称合成]
 status: 骨架
 stage: draft
 updated: 2026-06-29
+syllabus_code: [24]
+template_version: v1.3
 ---
 
 # Felkin-Anh模型
@@ -26,3 +28,4 @@ Felkin-Anh 模型用于预测亲核试剂对手性羰基化合物进攻时的立
 ## 三、关联页
 - [[立体选择性]]
 - [[不对称合成]]
+

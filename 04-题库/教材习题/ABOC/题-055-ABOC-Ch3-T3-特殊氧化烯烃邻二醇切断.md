@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-055-ABOC-Ch3-T3-特殊氧化烯烃邻二醇切断
 aliases: [ABOC-Ch3-T3]
 type: 题目
@@ -14,7 +14,7 @@ teaching_level: 巩固
 syllabus_codes: ["37", "43"]
 knowledge_points: ["[[臭氧化反应]]", "[[邻二醇切断]]", "[[立体化学]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 

@@ -10,10 +10,11 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["32"]
-knowledge_points: ['[[基本反应]]', '[[氧化反应]]', '[[还原反应]]']
+knowledge_points: ["[[基本反应]]", "[[氧化反应]]", "[[还原反应]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch2-2.10.2]
 updated: 2026-07-04
+status: 已填充
 ---
 
 # 题-107：完成下列反应，写出主要产物，并指出此反应是亲核加成还是亲电加成，是 1,2-加成还是 1,4-加成。

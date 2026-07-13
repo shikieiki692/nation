@@ -11,6 +11,8 @@ difficulty: 3
 knowledge_points: ["[[配合物]]", "[[元素分析]]", "[[钴]]", "[[晶体场理论]]"]
 tags: [化竞, 题库, 改编题, 配位化学, 结构化学]
 updated: 2026-07-04
+status: 已填充
+syllabus_codes: []
 ---
 
 # 题-改编-14-CoIII氨配合物化学式推断

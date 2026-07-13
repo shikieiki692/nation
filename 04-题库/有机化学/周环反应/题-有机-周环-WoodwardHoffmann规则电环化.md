@@ -14,7 +14,7 @@ teaching_level: 强化
 syllabus_codes: ["49"]
 knowledge_points: ["[[周环反应]]", "[[Woodward-Hoffmann规则]]", "[[电环化反应]]"]
 tags: [化竞, 题目, 有机化学, 第三轮]
-status: 已入库
+status: 已填充
 updated: 2026-06-06
 ---
 

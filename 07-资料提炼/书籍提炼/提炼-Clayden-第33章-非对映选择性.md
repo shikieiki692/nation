@@ -6,13 +6,14 @@ source_path: mineru/中文版clayden-chinese30-33章787-907.md
 chapter: "33"
 pages: "787-907"
 updated: 2026-05-18
----
 handout_plan:
   - target: "有机化学基础"
     status: completed
     priority: P2
     source_sections: ["第33章 非对映选择性（Cram规则、Felkin-Anh模型、手性辅助基、立体化学控制）"]
     estimated_pages: 6
+knowledge_points: [Felkin-Anh模型, 立体化学, 非对映选择性, 立体选择性, 手性中心, 不对称合成, Aldol缩合, 环状分子的立体选择性, 烯烃]
+---
 
 # 提炼：Clayden 第33章 非对映选择性
 
@@ -20,19 +21,19 @@ handout_plan:
 
 | 指标 | 评估 |
 |:---|:---|
-| **竞赛直接考察度** | **极高** — Felkin-Anh模型、Cram螯合模型、Zimmerman-Traxler过渡态均为决赛级考点 |
+| **竞赛直接考察度** | **极高** — [[Felkin-Anh模型]]、Cram螯合模型、Zimmerman-Traxler过渡态均为决赛级考点 |
 | **与现有 KP 重叠度** | 中等 — 库内 [[立体化学]] 有基础，但缺少**非环体系立体控制模型**的系统梳理 |
-| **增量价值** | ① Felkin-Anh模型系统分析步骤；② 螯合控制vs非螯合控制的决策流程；③ Zimmerman-Traxler过渡态与羟醛立体控制 |
+| **增量价值** | ① [[Felkin-Anh模型]]系统分析步骤；② 螯合控制vs非螯合控制的决策流程；③ Zimmerman-Traxler过渡态与羟醛立体控制 |
 | **处理决策** | ✅ **新建/深化 KP** [[非对映选择性]] + 本提炼笔记 |
 
 ## 2. 考纲映射
 
 - 对应考纲模块：基础要求-有机化学 → 立体化学 / 有机合成
-- 关键能力：预测手性羰基/烯烃反应的非对映选择性、选择合适试剂控制立体化学
+- 关键能力：预测手性羰基/烯烃反应的[[非对映选择性]]、选择合适试剂控制立体化学
 
 ## 3. 核心模型
 
-### 3.1 立体专一性反应（从几何异构体制备单一非对映体）
+### 3.1 [[立体选择性]]反应（从几何异构体制备单一非对映体）
 
 | 反应类型 | 立体化学结果 |
 |:---|:---|
@@ -42,7 +43,7 @@ handout_plan:
 | 环氧化 | 顺式烯烃→syn环氧；反式→anti |
 | 环氧开环（SN2） | 单一非对映体环氧→单一非对映体产物 |
 
-### 3.2 Felkin-Anh 模型（非螯合控制）
+### 3.2 [[Felkin-Anh模型]]（非螯合控制）
 
 **分析步骤**：
 1. 画出 Newman 投影式，**大基团或负电性基团与 C=O 正交**
@@ -50,27 +51,27 @@ handout_plan:
 3. 画出产物 Newman 投影式
 4. 摊平为一般结构式
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/2f29b84e6455b6e96459fee675665041c6370cab3e1e21a6e54f5c08106f887f.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/2f29b84e6455b6e96459fee675665041c6370cab3e1e21a6e54f5c08106f887f.jpg]]
 *羰基化合物最低能构象（L/M/S）*
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/3c5ec38e5becaf13b8f5bc9c8a506d73568e4087b9c783d0d480b9ec8769652b.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/3c5ec38e5becaf13b8f5bc9c8a506d73568e4087b9c783d0d480b9ec8769652b.jpg]]
 *产物 Newman 投影式摊平*
 
 **负电性原子的影响**：
 - 邻位有 N/O/S/卤素时，**负电性原子与 C=O 正交的构象更活泼**
 - 原因：π*(C=O) 与 σ*(C-X) 轨道重叠，形成新的低能 LUMO
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/9cbfb7ae72bda0dc89f0e53fd021d1051759050bef03a2694072d46833786758.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/9cbfb7ae72bda0dc89f0e53fd021d1051759050bef03a2694072d46833786758.jpg]]
 *LUMO轨道图*
 
 ### 3.3 Cram 螯合模型（螯合控制）
 
 **核心原理**：
-- 金属离子（Zn²⁺, Mg²⁺, Ti⁴⁺, Ce³⁺ 等）与羰基氧和邻位杂原子同时配位 → 形成螯合环
+- 金属离子（Zn²⁺, Mg²⁺, Ti⁴⁺, Ce³⁺ 等）与羰基氧和邻位[[手性中心]]杂原子同时配位 → 形成螯合环
 - 最活泼构象：**C=O 与杂原子在空间上接近（顺错式）**
 - 进攻仍在空阻较小路径，但立体化学结果**被颠倒**
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/16231b33bbe9507de3f61b364c4c949b82195e7d6081e662e1a4f10c673ce50b.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/16231b33bbe9507de3f61b364c4c949b82195e7d6081e662e1a4f10c673ce50b.jpg]]
 *Zn²⁺螯合控制还原*
 
 **涉及螯合的常见金属**：Li⁺, Mg²⁺, Zn²⁺, Cu²⁺, Ti⁴⁺, Ce³⁺, Mn²⁺  
@@ -84,13 +85,13 @@ handout_plan:
 **决策流程图**：
 ```
 手性中心上是否有杂原子？
-├── 否 → Felkin-Anh（最大基团与C=O正交）
+├── 否 → [[Felkin-Anh模型]]（最大基团与C=O正交）
 └── 是 → 金属离子能否螯合？
-    ├── 否 → Felkin-Anh（最负电性原子与C=O正交）
+    ├── 否 → [[Felkin-Anh模型]]（最负电性原子与C=O正交）
     └── 是 → 螯合模型（C=O和杂原子接近）
 ```
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/1326da32313f4da3b1034de48a1df6c9158067669e1da155019a37ddfbae65d0.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/1326da32313f4da3b1034de48a1df6c9158067669e1da155019a37ddfbae65d0.jpg]]
 *决策流程图*
 
 ### 3.4 Houk 模型（手性烯烃）
@@ -99,7 +100,7 @@ handout_plan:
 - 有顺式取代基时（烯丙位张力 / A¹,³张力），这是唯一重要构象
 - 无顺式取代基时，选择性降低
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/865945101cce089a510bd5e76b44ec8f0e340f89eba6114d02dbeb986f06515a.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/865945101cce089a510bd5e76b44ec8f0e340f89eba6114d02dbeb986f06515a.jpg]]
 *手性烯烃环氧化*
 
 ### 3.5 Zimmerman-Traxler 过渡态（羟醛反应）
@@ -113,10 +114,10 @@ handout_plan:
 - 锂由烯醇盐氧转移到亲电羰基氧上
 - 醛中的 R 基倾向于**假平伏**位置
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/402c5152bc77f4a5aba9b097ad42f13eabda4cd71f41b73225d47aff8b3c2dd3.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/402c5152bc77f4a5aba9b097ad42f13eabda4cd71f41b73225d47aff8b3c2dd3.jpg]]
 *反式烯醇盐椅式过渡态*
 
-![[mineru/中文版clayden-chinese30-33章787-907_images/84277e2f1b80eb5608053edced3cd3cbf7abb75a22a4cf6fecc7ee2dce8af4ac.jpg]]
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/84277e2f1b80eb5608053edced3cd3cbf7abb75a22a4cf6fecc7ee2dce8af4ac.jpg]]
 *syn羟醛过渡态交互模型*
 
 **控制烯醇盐几何的方法**：
@@ -148,7 +149,7 @@ A. NaBH₄  B. Zn(BH₄)₂  C. LiAlH₄  D. L-selectride
 
 ## 5. 超纲标注
 
-- **手性池策略**：使用天然氨基酸等光学纯起始原料，属于高级合成策略
+- **手性池策略**：使用天然氨基酸等光学纯起始原料，属于高级[[不对称合成]]策略
 - **烯醇硼的详细机理**：国初不要求掌握9-BBN-OTf等试剂的具体结构，但需知道其控制syn/anti的用途
 
 ## 6. 踩坑回流

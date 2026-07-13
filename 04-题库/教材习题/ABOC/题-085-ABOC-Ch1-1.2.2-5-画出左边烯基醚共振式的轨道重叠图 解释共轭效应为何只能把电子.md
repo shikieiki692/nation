@@ -10,10 +10,11 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["31"]
-knowledge_points: ['[[结构基础]]', '[[Lewis酸碱]]', '[[电子效应]]', '[[碳正离子]]']
+knowledge_points: ["[[结构基础]]", "[[Lewis酸碱]]", "[[电子效应]]", "[[碳正离子]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch1-1.2.2-5]
 updated: 2026-07-04
+status: 已填充
 ---
 
 # 题-085：画出左边烯基醚共振式的轨道重叠图，解释共轭效应为何只能把电子给到氧的 β位(距离氧 2 个原子)而不

@@ -16,12 +16,15 @@ prerequisite: [共价键, 八隅体规则]
 problem_types: [题型-Lewis结构式书写]
 difficulty: 2
 importance: 4
+has_images: true
+key_images: ["[[media/zgxg-sp3-hybridization-inequivalent.jpg]]", "[[media/zgxg-conjugated-pi-system.jpg]]"]
 status: 已填充
 stage: published
 sources:
   - 提炼-普化原理-第12章-化学键与分子结构
   - 教学逻辑提炼-周坤无机新课-原子结构与分子结构-第一轮
   - 专题-分子结构基础
+  - 赵鑫光《高中化学竞赛基本理论学习笔记》Ch3 §3.1（Lewis理论系统讲解）
 source_type:
   - 教材提炼
   - 教学逻辑提炼

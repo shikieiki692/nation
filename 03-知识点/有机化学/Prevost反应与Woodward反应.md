@@ -1,4 +1,4 @@
-﻿---
+---
 title: Prevost反应与Woodward反应
 aliases: [Prevost Reaction, Woodward Reaction, 碘鎓离子双羟化, 反式邻二醇, 顺式邻二醇, 无水双羟化, 有水双羟化]
 type: 知识点

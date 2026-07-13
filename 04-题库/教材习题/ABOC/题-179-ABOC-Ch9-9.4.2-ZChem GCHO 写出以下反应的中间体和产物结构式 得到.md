@@ -10,10 +10,11 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["39"]
-knowledge_points: ['[[杂环化合物]]', '[[杂环合成]]']
+knowledge_points: ["[[杂环化合物]]", "[[杂环合成]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch9-9.4.2]
 updated: 2026-07-04
+status: 已填充
 ---
 
 # 题-179：(ZChem-GCHO)写出以下反应的中间体和产物结构式。得到 B 的反应有两种导向都需要写出来。

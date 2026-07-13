@@ -1,4 +1,4 @@
-﻿---
+---
 title: Simmon-Smith反应
 aliases: [Simmon-Smith Reaction, 环丙烷化, 卡宾加成, 烯烃环丙烷化, 碘甲基锌, 类卡宾]
 type: 知识点

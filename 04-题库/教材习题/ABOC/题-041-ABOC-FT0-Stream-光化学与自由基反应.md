@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-041-ABOC-FT0-Stream-光化学与自由基反应
 aliases: [ABOC-FT0-Stream]
 type: 题目
@@ -12,9 +12,9 @@ question_type: 机理书写题/方法学分析题/全合成推断题
 difficulty: 5
 teaching_level: 竞赛拔高
 syllabus_codes: ["30", "40", "49"]
-knowledge_points: ["[[光氧化还原催化]]", "[[自由基]]", "[[有机光化学]]", Giese反应, Norrish反应]
+knowledge_points: ["[[光氧化还原催化]]", "[[自由基]]", "[[有机光化学]]", "[[Giese反应]]", "[[Norrish反应]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 

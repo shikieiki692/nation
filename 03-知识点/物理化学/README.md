@@ -3,6 +3,9 @@ title: 物理化学知识点
 type: 索引
 tags: [化竞, 知识点, 索引, 物理化学]
 updated: 2026-07-07
+template_version: v1.3
+status: 已填充
+stage: published
 ---
 
 # 物理化学知识点

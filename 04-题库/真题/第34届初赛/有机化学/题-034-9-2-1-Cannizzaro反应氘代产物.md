@@ -16,6 +16,7 @@ syllabus_codes: []
 knowledge_points: ["[[Cannizzaro反应]]", "[[动力学同位素效应]]"]
 tags: [化竞, 真题, 34届]
 updated: 2026-05-08
+status: 已填充
 ---
 
 # 题-034-9-2-1：Cannizzaro反应氘代产物

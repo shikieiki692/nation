@@ -17,9 +17,11 @@ prerequisite: [氧化还原, Gibbs自由能, 平衡常数]
 problem_types: [题型-电极电势计算, 题型-电动势计算]
 difficulty: 4
 importance: 5
+has_images: true
+key_images: ["[[media/physchem-nernst-e-vs-q.jpg]]", "[[media/zgxg-mn-latimer-diagram.jpg]]", "[[media/zgxg-zn-cu-galvanic-cell.jpg]]"]
 status: 已填充
 stage: published
-sources: [提炼-普化原理-第10章-氧化还原电化学, 教学逻辑提炼-周坤无机新课-酸碱理论与电化学-第一轮, 专题-氧化还原与电化学, 专题-电化学计算]
+sources: [提炼-普化原理-第10章-氧化还原电化学, 教学逻辑提炼-周坤无机新课-酸碱理论与电化学-第一轮, 专题-氧化还原与电化学, 专题-电化学计算, 赵鑫光《高中化学竞赛基本理论学习笔记》Ch6 §6.3（Nernst多场景应用）]
 source_type: [书籍提炼, 教学逻辑提炼, 专题归纳, 专题归纳]
 source_notes:
   - "[[提炼-普化原理-第10章-氧化还原电化学]]"

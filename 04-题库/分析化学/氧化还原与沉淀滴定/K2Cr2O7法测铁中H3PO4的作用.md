@@ -13,6 +13,7 @@ syllabus_codes: ["57"]
 knowledge_points: ["[[氧化还原滴定]]", "[[掩蔽]]", "[[Nernst方程]]"]
 tags: [化竞, 题目]
 updated: 2026-06-06
+status: 已填充
 ---
 
 # K₂Cr₂O₇ 法测铁中 H₃PO₄ 的双重作用

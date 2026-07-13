@@ -10,6 +10,8 @@ related: [环状分子的立体选择性, 立体化学]
 status: 骨架
 stage: draft
 updated: 2026-06-29
+syllabus_code: [28]
+template_version: v1.3
 ---
 
 # Bredt规则
@@ -26,3 +28,4 @@ updated: 2026-06-29
 ## 三、关联页
 - [[立体化学]]
 - [[环状分子的立体选择性]]
+

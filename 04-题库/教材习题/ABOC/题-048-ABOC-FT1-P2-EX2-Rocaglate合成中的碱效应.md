@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-048-ABOC-FT1-P2-EX2-Rocaglate合成中的碱效应
 aliases: [ABOC-FT1-P2-EX2]
 type: 题目
@@ -12,9 +12,9 @@ question_type: 方法学分析题
 difficulty: 4
 teaching_level: 竞赛拔高
 syllabus_codes: ["46", "39"]
-knowledge_points: [缩合反应, "[[碳正离子]]", "[[重排反应]]"]
+knowledge_points: ["[[缩合反应]]", "[[碳正离子]]", "[[重排反应]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 

@@ -10,10 +10,11 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["35"]
-knowledge_points: ['[[芳香族化合物]]', '[[芳香性]]', '[[亲电取代]]', '[[胺]]']
+knowledge_points: ["[[芳香族化合物]]", "[[芳香性]]", "[[亲电取代]]", "[[胺]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch5-5.6.4-2]
 updated: 2026-07-04
+status: 已填充
 ---
 
 # 题-142：写出过量 Li在质子溶剂中还原萘得到的产物和机理。自学练习 5.6.4-3 写出以下反应的机理。

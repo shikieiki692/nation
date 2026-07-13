@@ -1,5 +1,7 @@
 ---
 title: Word友好 Markdown 符号速查表
+type: 参考
+updated: 2026-07-03
 aliases:
   - Word Markdown 符号速查表
   - Word友好 Markdown 速查

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-36决理-2-10-Wharton碎片化反应
 aliases: []
 type: 题目
@@ -18,6 +18,7 @@ syllabus_codes: []
 knowledge_points: ["[[Wharton碎片化]]", "[[中环化合物]]", "[[自由基反应]]", "[[立体化学]]"]
 tags: [化竞, 决赛, 理论]
 updated: 2026-05-20
+status: 已填充
 ---
 
 # 第 10 题 Wharton碎片化反应 (11 分)

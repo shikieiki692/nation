@@ -10,6 +10,8 @@ related: [反应机理, 立体选择性, 过渡态理论]
 status: 骨架
 stage: draft
 updated: 2026-06-29
+syllabus_code: [32]
+template_version: v1.3
 ---
 
 # Curtin-Hammett原理
@@ -26,3 +28,4 @@ updated: 2026-06-29
 ## 三、关联页
 - [[立体选择性]]
 - [[反应机理]]
+

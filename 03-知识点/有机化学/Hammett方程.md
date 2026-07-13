@@ -10,6 +10,8 @@ related: [电子效应, 反应机理]
 status: 骨架
 stage: draft
 updated: 2026-06-29
+syllabus_code: [22]
+template_version: v1.3
 ---
 
 # Hammett方程
@@ -22,3 +24,4 @@ Hammett 方程用取代基常数与反应常数把“结构变化”和“速率
 - σ 描述取代基电子效应
 - ρ 描述反应对电子效应的敏感程度
 - 用符号和大小判断反应中心电荷发展趋势
+

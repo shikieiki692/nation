@@ -14,7 +14,7 @@ teaching_level: 巩固
 syllabus_codes: ["29", "28"]
 knowledge_points: ["[[给体-受体相互作用]]", "[[端基效应]]", "[[α效应]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 

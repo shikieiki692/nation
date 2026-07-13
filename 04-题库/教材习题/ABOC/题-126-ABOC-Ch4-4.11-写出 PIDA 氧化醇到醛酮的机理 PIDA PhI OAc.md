@@ -10,10 +10,11 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["34"]
-knowledge_points: ['[[取代反应]]', '[[消除反应]]', '[[SN1]]', '[[SN2]]']
+knowledge_points: ["[[取代反应]]", "[[消除反应]]", "[[SN1]]", "[[SN2]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch4-4.11]
 updated: 2026-07-04
+status: 已填充
 ---
 
 # 题-126：写出 PIDA 氧化醇到醛酮的机理。PIDA：PhI(OAc)2

@@ -12,9 +12,9 @@ question_type: 机理推断题
 difficulty: 4
 teaching_level: 拓展
 syllabus_codes: ["49"]
-knowledge_points: ["[[Diels-Alder反应]]", 共轭二烯, 逆向分析]
+knowledge_points: ["[[Diels-Alder反应]]", "[[共轭二烯]]", "[[逆向分析]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 

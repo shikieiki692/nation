@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-038-ABOC-FT0-Jack-Mutilin全合成
 aliases: [ABOC-FT0-Jack, Mutilin全合成, 罗佗平2022]
 type: 题目
@@ -12,9 +12,9 @@ question_type: 全合成推断题
 difficulty: 5
 teaching_level: 竞赛拔高
 syllabus_codes: ["50", "49", "46", "37"]
-knowledge_points: ["[[Aldol缩合]]", "[[Diels-Alder反应]]", "[[σ迁移反应]]", "[[光氧化还原催化]]", 联烯化学, "[[动力学同位素效应]]"]
+knowledge_points: ["[[Aldol缩合]]", "[[Diels-Alder反应]]", "[[σ迁移反应]]", "[[光氧化还原催化]]", "[[联烯化学]]", "[[动力学同位素效应]]"]
 tags: [化竞, ABOC, 有机化学, 全合成, Mutilin, 选择性控制]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 

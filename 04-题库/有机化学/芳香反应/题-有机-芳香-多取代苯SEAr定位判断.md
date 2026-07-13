@@ -14,7 +14,7 @@ teaching_level: 强化
 syllabus_codes: ["37"]
 knowledge_points: ["[[SEAr定位规则]]", "[[芳香亲电取代]]"]
 tags: [化竞, 题目, 有机化学, 第三轮]
-status: 已入库
+status: 已填充
 updated: 2026-06-06
 ---
 

@@ -16,6 +16,7 @@ syllabus_codes: []
 knowledge_points: ["[[Fischer投影式]]", "[[糖类化学]]", "[[立体化学]]", "[[山梨糖]]"]
 tags: [化竞, 真题, 33届]
 updated: 2026-05-11
+status: 已填充
 ---
 
 # 题-033-8-3-2：L-山梨糖和化合物 C 的 Fischer 投影式

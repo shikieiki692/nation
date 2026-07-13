@@ -8,22 +8,24 @@ source_range: line 5234–6854
 extracted_date: 2026-05-19
 template_version: v1.3
 status: 已提炼
----
 handout_plan:
   - target: "有机化学基础"
     status: completed
     priority: P2
     source_sections: ["第40章 金属有机化学（催化循环、氧化加成、迁移插入、β-H消除、还原消除）"]
     estimated_pages: 8
+knowledge_points: [金属有机与羰基化学, Grignard试剂, 有机金属试剂, 有机锂试剂, 51-金属有机, Heck反应, Suzuki偶联, Negishi偶联, Stille偶联, Sonogashira偶联, Buchwald-Hartwig胺化, Tsuji-Trost反应, Wacker氧化, 18电子规则, 氧化加成, 还原消除, 迁移插入, β-负氢消除, 羰基化反应, Vaska配合物, 炔烃化学, 环加成反应]
+---
 
 # 提炼：Clayden 第40章——金属有机化学（Organometallic Chemistry）
+[[金属有机与羰基化学]]
 
 ---
 
 ## 一、核心概念与定义
 
 ### 1.1 18电子规则（18 Electron Rule）
-- **定义**：若过渡金属配合物中心金属的价壳层具有18个电子（填满1个s、5个d和3个p轨道），则配合物稳定。
+- **定义**：若过渡金属配合物中心金属的价壳层具有18个电子（填满1个s、5个d和3个p轨道），则配合物稳定。[[Grignard试剂]]
 - **电子来源**：金属本身的价电子 + 所有配体贡献的电子。
 - **族号与价电子**：新族号1–18直接给出金属价电子数（如Pd为10e，Cr为6e）。
 - **例外**：Ti、Zr、Ni、Pd、Pt可形成稳定的16电子配合物（平面方形几何，空出一个高能轨道）。
@@ -62,7 +64,7 @@ handout_plan:
 ## 二、金属有机化学的基本反应步骤
 
 ### 2.1 氧化加成（Oxidative Addition）
-- **定义**：金属插入X–Y键，氧化态升高2（如M(0) → M(II)），配位数增加2。
+- **定义**：金属插入X–Y键，氧化态升高2（如M(0) → M(II)），配位数增加2。[[有机金属试剂]]
 - **底物范围**：
   - 非极性：H₂、R–H、R₃Si–H
   - 亲电/极性：H–X、R–X、X–X
@@ -117,6 +119,7 @@ handout_plan:
 - **通用机理**：氧化加成 → 转金属反应 → 还原消除
 - **卤代烃组分（R²–X）**：必须无β-H，X = I, Br, (Cl), OTf, OPO(OR)₂
 - **有机金属组分（R¹–M）**：M = MgX, ZnX, Cu, SnR₃, SiR₃, ZrCp₂Cl, AlMe₂, B(OR)₂, BF₄⁻；R¹可含β-H
+[[有机锂试剂]]
 
 ### 3.3 Stille偶联（line ~6111）
 - **有机金属组分**：有机锡烷（R¹SnR₃）
@@ -217,38 +220,38 @@ handout_plan:
 ## 五、重要图表与图片引用
 
 ### 5.1 基础概念
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/c3eafe27d6abae5cf6e3aee13b3d316586c18b6a4f43d1c25df41987bf18a4e6.jpg]] — Heck反应示例（line ~5273）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/6d3eee75a869f817aabe4f790e9eca7d3eba49cfb088bf38fa54d1f8a2177654.jpg]] — 18电子配合物示例：Cr(苯)(CO)₃与Pd(PPh₃)₄（line ~5295）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/7d18b723f66bd01778d7cd6cfa8f552afe6fd601088b5a11a70897884795ed87.jpg]] — σ配合物（η¹）与π配合物（η²）对比（line ~5308）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/ee78a5b0fd84f7c36ad7244b6301c98e1d3ff49144d75e41c26d2e2abcd360fd.jpg]] — σ成键：配体孤对电子→金属空轨道（line ~5419）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/2edb6c9da312fc907528042645b69085475b9e1d561398edb60f226dd2c24baa.jpg]] — π配合物成键：配体π→金属d + 金属d→配体π*（line ~5451）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/c3eafe27d6abae5cf6e3aee13b3d316586c18b6a4f43d1c25df41987bf18a4e6.jpg]] — Heck反应示例（line ~5273）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/6d3eee75a869f817aabe4f790e9eca7d3eba49cfb088bf38fa54d1f8a2177654.jpg]] — 18电子配合物示例：Cr(苯)(CO)₃与Pd(PPh₃)₄（line ~5295）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/7d18b723f66bd01778d7cd6cfa8f552afe6fd601088b5a11a70897884795ed87.jpg]] — σ配合物（η¹）与π配合物（η²）对比（line ~5308）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/ee78a5b0fd84f7c36ad7244b6301c98e1d3ff49144d75e41c26d2e2abcd360fd.jpg]] — σ成键：配体孤对电子→金属空轨道（line ~5419）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/2edb6c9da312fc907528042645b69085475b9e1d561398edb60f226dd2c24baa.jpg]] — π配合物成键：配体π→金属d + 金属d→配体π*（line ~5451）
 
 ### 5.2 基本反应步骤
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/0e465cbfea2da950ce89040e09c8dd6989c4fcd4c31aaa5f940bb2af93cb9c54.jpg]] — 氧化加成：M(0) + X–Y → M(II)（line ~5475）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/7034e5e918aa05d64aeaec6fbec6b5249b9262afd6cfd15aebfefce32ea2119c.jpg]] — Vaska配合物：H₂顺式加成 vs MeI反式加成（line ~5499）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/ed8c49401d8dab03ead07e81f36a53a3dbdfab6ab1d99f234a17796be57429fe.jpg]] — 还原消除：M(II) → M(0) + X–Y（line ~5511）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/cc4beabb47833abc1f0bbc3a67a3d900a96a29f87305ba7f59e5916a28e82b13.jpg]] — Wilkinson催化剂氢化机理：迁移插入 + 还原消除（line ~5539）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/574e9dfd60c32c759b1fff9904034618933ff1923203a9056a5a98791bd70ac7.jpg]] — OXO过程催化循环（line ~5603）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/0e465cbfea2da950ce89040e09c8dd6989c4fcd4c31aaa5f940bb2af93cb9c54.jpg]] — 氧化加成：M(0) + X–Y → M(II)（line ~5475）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/7034e5e918aa05d64aeaec6fbec6b5249b9262afd6cfd15aebfefce32ea2119c.jpg]] — Vaska配合物：H₂顺式加成 vs MeI反式加成（line ~5499）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/ed8c49401d8dab03ead07e81f36a53a3dbdfab6ab1d99f234a17796be57429fe.jpg]] — 还原消除：M(II) → M(0) + X–Y（line ~5511）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/cc4beabb47833abc1f0bbc3a67a3d900a96a29f87305ba7f59e5916a28e82b13.jpg]] — Wilkinson催化剂氢化机理：迁移插入 + 还原消除（line ~5539）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/574e9dfd60c32c759b1fff9904034618933ff1923203a9056a5a98791bd70ac7.jpg]] — OXO过程催化循环（line ~5603）
 
 ### 5.3 Pd催化偶联反应
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/74b20fa164b1387066be16d1bcef3512b26c8b53a3212db6402d5efdd350e1b4.jpg]] — Pd(0)配合物活化：配体解离形成14e活性物种（line ~5681）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/803337c94d29f03114eb66d1ea3c1af5a6c9067d1f6ba852c90a5614c76bec08.jpg]] — 碳钯化反应（carbopalladation）机理（line ~5691）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/d39a18a65fce73fea4260b8c9f248ef5dc7bd75412ad66b991013735e0cf8531.jpg]] — β-负氢消除与Pd(0)再生（line ~5701）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/efd411caa1668bd7fb997e6ee28e0169694c468ceab930704379c92b4c7c1678.jpg]] — Heck反应总方程式（line ~5736）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/e9e2489bf3bcafcba0af57795d9cd2a626e824914963d913c1317094f6d1ddd8.jpg]] — Heck反应实例：杂环底物偶联（line ~5892）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/5918b85142dcf48da351d17422918930ae70657d189c6af158537ab6fe77739e.jpg]] — 交叉偶联通用机理：氧化加成→转金属→还原消除（line ~6055）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/0ea057d29bfd18d805b81da1435a26c62e2cf4ac6adff5a77a0aab77f280f0f4.jpg]] — Stille偶联催化循环（line ~6125）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/a3184d8df3776ad6eb30ff074b0cb44f31795554f5e0b0ddfd3d7e8d9e7f4b94.jpg]] — Suzuki偶联转金属步骤："酸根"配合物（line ~6239）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/77e7ae309a1cf8a1e78829c87492521246e84cb055cb43e3be15f5cc596aa92b.jpg]] — Sonogashira偶联机理（line ~6283）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/74b20fa164b1387066be16d1bcef3512b26c8b53a3212db6402d5efdd350e1b4.jpg]] — Pd(0)配合物活化：配体解离形成14e活性物种（line ~5681）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/803337c94d29f03114eb66d1ea3c1af5a6c9067d1f6ba852c90a5614c76bec08.jpg]] — 碳钯化反应（carbopalladation）机理（line ~5691）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/d39a18a65fce73fea4260b8c9f248ef5dc7bd75412ad66b991013735e0cf8531.jpg]] — β-负氢消除与Pd(0)再生（line ~5701）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/efd411caa1668bd7fb997e6ee28e0169694c468ceab930704379c92b4c7c1678.jpg]] — Heck反应总方程式（line ~5736）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/e9e2489bf3bcafcba0af57795d9cd2a626e824914963d913c1317094f6d1ddd8.jpg]] — Heck反应实例：杂环底物偶联（line ~5892）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/5918b85142dcf48da351d17422918930ae70657d189c6af158537ab6fe77739e.jpg]] — 交叉偶联通用机理：氧化加成→转金属→还原消除（line ~6055）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/0ea057d29bfd18d805b81da1435a26c62e2cf4ac6adff5a77a0aab77f280f0f4.jpg]] — Stille偶联催化循环（line ~6125）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/a3184d8df3776ad6eb30ff074b0cb44f31795554f5e0b0ddfd3d7e8d9e7f4b94.jpg]] — Suzuki偶联转金属步骤："酸根"配合物（line ~6239）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/77e7ae309a1cf8a1e78829c87492521246e84cb055cb43e3be15f5cc596aa92b.jpg]] — Sonogashira偶联机理（line ~6283）
 
 ### 5.4 烯丙基Pd化学与Buchwald-Hartwig
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/1e98da679bf151366a57a8a000789c650d7d853868e6d9e48782f060c9be0aef.jpg]] — π-烯丙基钯催化循环：氧化加成→亲核进攻（line ~6331）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/b0d3fc339d817d905f4c9188ae4d92f643503dd0ea2b5f8e7a77d045a3d3a2ea.jpg]] — Pd π-烯丙基阳离子配合物的两种画法（line ~6366）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/172867c2e29048ebcaf09d08f5164fdb1a9c7157d138fe3a207a989e9a0dc50d.jpg]] — Buchwald-Hartwig胺化实例（line ~6533）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/1e98da679bf151366a57a8a000789c650d7d853868e6d9e48782f060c9be0aef.jpg]] — π-烯丙基钯催化循环：氧化加成→亲核进攻（line ~6331）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/b0d3fc339d817d905f4c9188ae4d92f643503dd0ea2b5f8e7a77d045a3d3a2ea.jpg]] — Pd π-烯丙基阳离子配合物的两种画法（line ~6366）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/172867c2e29048ebcaf09d08f5164fdb1a9c7157d138fe3a207a989e9a0dc50d.jpg]] — Buchwald-Hartwig胺化实例（line ~6533）
 
 ### 5.5 Pd(II)氧化化学
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/965234a616bd12688d71ac793812a621474f3b69ed771ce584d1f3c12f1a3bad.jpg]] — Pd(II)活化烯烃的亲核进攻（line ~6613）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/f7fe9cfbec8e642f03865ce6dfc41f1cd6a93515d33fd0053839e28f4c6698ed.jpg]] — Wacker氧化机理：末端烯烃→甲基酮（line ~6649）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/965234a616bd12688d71ac793812a621474f3b69ed771ce584d1f3c12f1a3bad.jpg]] — Pd(II)活化烯烃的亲核进攻（line ~6613）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/f7fe9cfbec8e642f03865ce6dfc41f1cd6a93515d33fd0053839e28f4c6698ed.jpg]] — Wacker氧化机理：末端烯烃→甲基酮（line ~6649）
 
 ---
 

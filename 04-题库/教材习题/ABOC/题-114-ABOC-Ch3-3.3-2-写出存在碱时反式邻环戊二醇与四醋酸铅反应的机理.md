@@ -10,10 +10,11 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["33"]
-knowledge_points: ['[[烯烃加成]]', '[[亲电加成]]', '[[Markovnikov规则]]']
+knowledge_points: ["[[烯烃加成]]", "[[亲电加成]]", "[[Markovnikov规则]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch3-3.3-2]
 updated: 2026-07-04
+status: 已填充
 ---
 
 # 题-114：写出存在碱时反式邻环戊二醇与四醋酸铅反应的机理。

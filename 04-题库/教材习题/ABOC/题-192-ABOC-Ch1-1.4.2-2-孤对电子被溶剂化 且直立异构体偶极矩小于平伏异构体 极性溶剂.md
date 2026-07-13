@@ -10,10 +10,11 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["31"]
-knowledge_points: ['[[结构基础]]', '[[Lewis酸碱]]', '[[电子效应]]', '[[碳正离子]]']
+knowledge_points: ["[[结构基础]]", "[[Lewis酸碱]]", "[[电子效应]]", "[[碳正离子]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch1-1.4.2-2]
 updated: 2026-07-04
+status: 已填充
 ---
 
 # 题-192：孤对电子被溶剂化，且直立异构体偶极矩小于平伏异构体，极性溶剂有利于稳定高极性异构体。(到9 章就会知

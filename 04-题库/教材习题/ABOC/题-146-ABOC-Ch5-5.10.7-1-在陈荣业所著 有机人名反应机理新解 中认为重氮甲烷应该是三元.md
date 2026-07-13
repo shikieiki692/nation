@@ -10,10 +10,11 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["35"]
-knowledge_points: ['[[芳香族化合物]]', '[[芳香性]]', '[[亲电取代]]', '[[胺]]']
+knowledge_points: ["[[芳香族化合物]]", "[[芳香性]]", "[[亲电取代]]", "[[胺]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch5-5.10.7-1]
 updated: 2026-07-04
+status: 已填充
 ---
 
 # 题-146：在陈荣业所著《有机人名反应机理新解》中认为重氮甲烷应该是三元环结构，描述如下：

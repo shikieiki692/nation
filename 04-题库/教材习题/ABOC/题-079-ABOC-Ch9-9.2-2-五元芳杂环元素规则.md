@@ -14,7 +14,7 @@ teaching_level: 巩固
 syllabus_codes: ["52"]
 knowledge_points: ["[[杂环化合物]]", "[[芳香性]]", "[[有机分子轨道]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 

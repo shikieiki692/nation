@@ -1,4 +1,4 @@
-﻿---
+---
 title: Negishi偶联
 aliases: [Negishi Coupling, 根岸偶联, 有机锌偶联, 钯催化交叉偶联]
 type: 知识点

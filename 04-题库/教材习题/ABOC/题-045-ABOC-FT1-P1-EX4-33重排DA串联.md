@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-045-ABOC-FT1-P1-EX4-33重排DA串联
 aliases: [ABOC-FT1-P1-EX4]
 type: 题目
@@ -14,7 +14,7 @@ teaching_level: 竞赛拔高
 syllabus_codes: ["49"]
 knowledge_points: ["[[σ迁移反应]]", "[[Diels-Alder反应]]", "[[Cope重排]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 

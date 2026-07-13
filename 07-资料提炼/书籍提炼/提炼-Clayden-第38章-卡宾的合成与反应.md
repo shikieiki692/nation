@@ -8,13 +8,14 @@ source_range: line 1803–3291
 extracted_date: 2026-05-19
 template_version: v1.3
 status: 已提炼
----
 handout_plan:
   - target: "有机化学基础"
     status: completed
     priority: P2
     source_sections: ["第38章 卡宾的合成与反应（卡宾生成、Simmon-Smith、C-H插入、金属卡宾）"]
     estimated_pages: 4
+knowledge_points: [卡宾, 34-有机活性中间体, 37-加成反应, 36-重排反应, 35-消除反应, 39-金属有机化学, Simmons-Smith反应, 环丙烷, 重排反应, 自由基, 碳阳离子, 周环反应, 烯烃复分解, N-杂环卡宾, Wolff重排, Curtius重排, Hofmann重排, Fischer卡宾, 卡宾体, 羧酸衍生物]
+---
 
 # 提炼：Clayden 第38章——卡宾的合成与反应（Carbene Synthesis and Reactions）
 
@@ -22,7 +23,7 @@ handout_plan:
 
 ## 一、核心概念与定义
 
-### 1.1 卡宾（Carbene）
+### 1.1 卡宾（Carbene）[[卡宾]]
 - **定义**：包含只具有六个价电子的碳原子的中性物种，通式为 $:CR_2$。
 - **与碳阳离子的区别**：卡宾鎓离子（carbenium ions，即碳阳离子如 $^+CH_3$）同样具有六个价电子，但卡宾是**中性**的，不带电荷。
 - **与自由基的类比**：卡宾和自由基一样，是尤其活泼的物种，但卡宾的电子状态更为复杂。
@@ -47,12 +48,14 @@ handout_plan:
 
 ### 1.4 N-杂环卡宾（NHC）
 - 卡宾碳被包含进五元环内，被两个邻位给电子氮原子以及大体积 N-取代基所稳定。
-- 1991 年首次制得结晶样品，X-射线显示卡宾 C 键角约 $102^{m o}$，$^{13}$C NMR 确认缺电子性。
+- 1991 年首次制得结晶样品，X-射线显示卡宾 C 键角约 $102^{
+m o}$，$^{13}$C NMR 确认缺电子性。
 - 现代 Grubbs II 和 Hoveyda-Grubbs 催化剂的关键配体。
 
 ---
 
 ## 二、重要反应与机理
+[[卡宾]]
 
 ### 2.1 卡宾的制备方法
 
@@ -169,53 +172,53 @@ handout_plan:
 ## 四、重要图表与图片引用
 
 ### 4.1 卡宾的结构与电子状态
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/288ae053310b88d1759595e69cc6f9006bcb27e61632d96015e6fffca2a574d2.jpg]] — 稳定的 N-杂环卡宾结构（line ~1998）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/88df1534bcf964ab0d853619e2e08588827634e962f063958fa12dcb6bb74b66.jpg]] — 假设的直线型卡宾（line ~2294）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/8ef4a1bd757a6b0ec8b3c1bef50ea7426a00acbe5be2697cefb64c6a0e5ec3f9.jpg]] — 弯曲 $sp^2$ 卡宾的两种电子排列（line ~2330）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/826385be931cc18a4674b272dcf61b41731206dc5f6ed430ec4972b1267fa140.jpg]] — 三线态卡宾电子结构（line ~2352）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/0ccfaa1022777ed845d75de8aed57bdddeb0d63acd78cbd4e58b7b7309b6a7d3.jpg]] — 单线态卡宾电子结构（line ~2364）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/8156311840e5a190443473fb7454eb31499423b994ccecec2f48fc467632479f.jpg]] — 三线态卡宾轨道示意图（line ~2378）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/6186fa583a1e0b9d3066037410ea1c3e6c3f5e42d0def4d2ff7ca65701434adc.jpg]] — 单线态卡宾轨道示意图（line ~2381）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/288ae053310b88d1759595e69cc6f9006bcb27e61632d96015e6fffca2a574d2.jpg]] — 稳定的 N-杂环卡宾结构（line ~1998）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/88df1534bcf964ab0d853619e2e08588827634e962f063958fa12dcb6bb74b66.jpg]] — 假设的直线型卡宾（line ~2294）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/8ef4a1bd757a6b0ec8b3c1bef50ea7426a00acbe5be2697cefb64c6a0e5ec3f9.jpg]] — 弯曲 $sp^2$ 卡宾的两种电子排列（line ~2330）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/826385be931cc18a4674b272dcf61b41731206dc5f6ed430ec4972b1267fa140.jpg]] — 三线态卡宾电子结构（line ~2352）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/0ccfaa1022777ed845d75de8aed57bdddeb0d63acd78cbd4e58b7b7309b6a7d3.jpg]] — 单线态卡宾电子结构（line ~2364）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/8156311840e5a190443473fb7454eb31499423b994ccecec2f48fc467632479f.jpg]] — 三线态卡宾轨道示意图（line ~2378）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/6186fa583a1e0b9d3066037410ea1c3e6c3f5e42d0def4d2ff7ca65701434adc.jpg]] — 单线态卡宾轨道示意图（line ~2381）
 
 ### 4.2 卡宾的制备
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/f663ad2e98efd9b2c70c0bb870de8b760a6ca90dc52e3ccbd166d25e748f1deb.jpg]] — 重氮甲烷的偶极结构（line ~1884）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/640289bd22fd3f63984591a51aac9f48cf3b656b1810d1a83b43443db1639090.jpg]] — 重氮甲烷甲基化羧酸的机理（line ~1894）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/18980d214c254a68307e2699773629aa3c93a0c652f52134bee9b7c9eba6ec96.jpg]] — 重氮羰基化合物热分解为卡宾（line ~2093）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/b736b0ef920f631698f36674b357863e8406b6b999215f646d700046fb33c0d7.jpg]] — 氯仿 $\alpha$ 消除形成二氯卡宾（line ~2163）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/d8ff258f472a940ea800b543308750413587856279792095900211194f69e8c9.jpg]] — 锂类卡宾的形成与分解（line ~2198）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/84266e8b7719f135dc69e7586786914d6cdbc9318a07fa236c87a6461f19abec.jpg]] — Simmons-Smith 锌类卡宾（line ~2218）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/ba2b72f57e81561a50bc259985a7cf729f5d86269eb98ffc0a7955bbf3d117a5.jpg]] — 咪唑鎓去质子形成 NHC（line ~2252）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/f663ad2e98efd9b2c70c0bb870de8b760a6ca90dc52e3ccbd166d25e748f1deb.jpg]] — 重氮甲烷的偶极结构（line ~1884）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/640289bd22fd3f63984591a51aac9f48cf3b656b1810d1a83b43443db1639090.jpg]] — 重氮甲烷甲基化羧酸的机理（line ~1894）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/18980d214c254a68307e2699773629aa3c93a0c652f52134bee9b7c9eba6ec96.jpg]] — 重氮羰基化合物热分解为卡宾（line ~2093）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/b736b0ef920f631698f36674b357863e8406b6b999215f646d700046fb33c0d7.jpg]] — 氯仿 $\alpha$ 消除形成二氯卡宾（line ~2163）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/d8ff258f472a940ea800b543308750413587856279792095900211194f69e8c9.jpg]] — 锂类卡宾的形成与分解（line ~2198）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/84266e8b7719f135dc69e7586786914d6cdbc9318a07fa236c87a6461f19abec.jpg]] — Simmons-Smith 锌类卡宾（line ~2218）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/ba2b72f57e81561a50bc259985a7cf729f5d86269eb98ffc0a7955bbf3d117a5.jpg]] — 咪唑鎓去质子形成 NHC（line ~2252）
 
 ### 4.3 环丙烷化反应
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/0dfd5bdf283776e9db5ffcbc2d1bf6f34b3ca82b9101236d3248a9a1d5c86f4a.jpg]] — 卡宾对烯烃的协同加成（line ~2470）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/61e4afa83a8a25b92b0acaed98ce61077c32318d6e84af5342fd0e120b413b61.jpg]] — 单线态卡宾立体专一性环丙烷化（line ~2482）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/668616822669ae92135202389c1c32afba46e956219677bc768a31625ac670f7.jpg]] — 三线态卡宾非立体专一性加成（line ~2494）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/5ff05cb9202eee5b38e493c2f0d3406d8177bbd9cad94a9c554596b8efc71a3b.jpg]] — 三线态卡宾的自由基加成机理（line ~2625）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/27a6ed0a76399446b04f3b71849ac46eb09714a3e8f205060da51e10ec9c502c.jpg]] — 单线态卡宾的 $[1+2]$ 环加成（line ~2635）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/484b4bb3687594f10ba5ee2d8a2e6221d3dce0dbff02aa97dee7c96545caf30b.jpg]] — 卡宾侧向接近烯烃的轨道相互作用（line ~2664）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/c45d9563ac13dcfd1cf1a2186e81ebef3c5d5aa7007730d47dd68de4074646bf.jpg]] — 卡宾"对接"到烯烃上（line ~2700）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/313abd3ed1a7023abb98d21c23c314fe74fcec42d8eb86e3116ceabaf349b83f.jpg]] — Simmons-Smith 反应（line ~2758）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/96fbdbefeaf3a1547c33122ef08cc2bd9eb070ac427aa17a35b580d6a24e44d4.jpg]] — 烯丙型醇的螯合导向环丙烷化（line ~2788）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/28249e3ed48c56b75971c38b16387a0b09ec8f6a15c77617b9a425d420d59f2f.jpg]] — "类宾"试剂比较：卡宾、Simmons-Smith、过酸环氧化、锍叶立德（line ~2846）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/0dfd5bdf283776e9db5ffcbc2d1bf6f34b3ca82b9101236d3248a9a1d5c86f4a.jpg]] — 卡宾对烯烃的协同加成（line ~2470）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/61e4afa83a8a25b92b0acaed98ce61077c32318d6e84af5342fd0e120b413b61.jpg]] — 单线态卡宾立体专一性环丙烷化（line ~2482）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/668616822669ae92135202389c1c32afba46e956219677bc768a31625ac670f7.jpg]] — 三线态卡宾非立体专一性加成（line ~2494）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/5ff05cb9202eee5b38e493c2f0d3406d8177bbd9cad94a9c554596b8efc71a3b.jpg]] — 三线态卡宾的自由基加成机理（line ~2625）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/27a6ed0a76399446b04f3b71849ac46eb09714a3e8f205060da51e10ec9c502c.jpg]] — 单线态卡宾的 $[1+2]$ 环加成（line ~2635）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/484b4bb3687594f10ba5ee2d8a2e6221d3dce0dbff02aa97dee7c96545caf30b.jpg]] — 卡宾侧向接近烯烃的轨道相互作用（line ~2664）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/c45d9563ac13dcfd1cf1a2186e81ebef3c5d5aa7007730d47dd68de4074646bf.jpg]] — 卡宾"对接"到烯烃上（line ~2700）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/313abd3ed1a7023abb98d21c23c314fe74fcec42d8eb86e3116ceabaf349b83f.jpg]] — Simmons-Smith 反应（line ~2758）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/96fbdbefeaf3a1547c33122ef08cc2bd9eb070ac427aa17a35b580d6a24e44d4.jpg]] — 烯丙型醇的螯合导向环丙烷化（line ~2788）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/28249e3ed48c56b75971c38b16387a0b09ec8f6a15c77617b9a425d420d59f2f.jpg]] — "类宾"试剂比较：卡宾、Simmons-Smith、过酸环氧化、锍叶立德（line ~2846）
 
 ### 4.4 C–H 插入与重排
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/825af6d35b7cc96dd16c816ab8ed89b67758d679b67e18f74ef1971a6254ff1d.jpg]] — 卡宾 1,2-氢迁移生成烯烃（line ~2872）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/e002f92c7da35aa2b5ee6d0c00796dad984fe57511483f3e3c7bcc81fb103d00.jpg]] — 分子内 C–H 插入（line ~2884）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/09f74e96fde01f0b9891a076ac1e942c99c6a3df4f76f7223afcac8043f5f3c.jpg]] — 铑催化选择性 C–H 插入成环（line ~2904）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/6b5892296c96d208dfdcba74818fd30d560617b8544e71a5d3cb27ddc9762e18.jpg]] — 单线态卡宾 C–H 插入的轨道相互作用（line ~2941）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/17c4c9a6bc9f5b84a0ada490d1f3b2c66d55fcba257794a738f60db70ff740fe.jpg]] — Wolff 重排（line ~2979）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/1e00a42fc05f5587a077a2ff8b950e5e526abd48956c896389aa780b3af8aa81.jpg]] — Arndt–Eistert 同系化（line ~2995）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/825af6d35b7cc96dd16c816ab8ed89b67758d679b67e18f74ef1971a6254ff1d.jpg]] — 卡宾 1,2-氢迁移生成烯烃（line ~2872）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/e002f92c7da35aa2b5ee6d0c00796dad984fe57511483f3e3c7bcc81fb103d00.jpg]] — 分子内 C–H 插入（line ~2884）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/09f74e96fde01f0b9891a076ac1e942c99c6a3df4f76f7223afcac8043f5f3c.jpg]] — 铑催化选择性 C–H 插入成环（line ~2904）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/6b5892296c96d208dfdcba74818fd30d560617b8544e71a5d3cb27ddc9762e18.jpg]] — 单线态卡宾 C–H 插入的轨道相互作用（line ~2941）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/17c4c9a6bc9f5b84a0ada490d1f3b2c66d55fcba257794a738f60db70ff740fe.jpg]] — Wolff 重排（line ~2979）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/1e00a42fc05f5587a077a2ff8b950e5e526abd48956c896389aa780b3af8aa81.jpg]] — Arndt–Eistert 同系化（line ~2995）
 
 ### 4.5 氮宾与复分解
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/777bbd149b1d595ba24fe34b8e4fd4c40aa39fbf9e022ae4e0b13162acf3ef20.jpg]] — 酰基叠氮形成氮宾（line ~3033）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/7ca232b789eca0dfae6ff96e4d55530f87443f1f0b57fdf8b6ad5e742dea0365.jpg]] — Curtius/Hofmann 重排（line ~3047）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/6e35765385f41b9d2d4f6d0f3e87c4363d895632a572569d05c76542ea667040.jpg]] — Ru-卡宾配合物（line ~3119）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/678ad427abbc97adca6ea6e55e6cef0302677c061b8acf9b109c50a7e97022f2.jpg]] — 关环复分解（line ~3129）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/8268a3985d3ffab76c78ca6b9997f35090a8264d3048ae2f0526da71c2998f51.jpg]] — $[2+2]$ 环加成形成金属代环丁烷（line ~3143）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/e2f5975b301e34acb59be8d830dfb053ab2f1cb078e0097de56c99e625626916.jpg]] — Grubbs II 催化剂（line ~3212）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/f05132aab1ea5546f1e6cacb7cad2e76031db081819f391be8b2fe1fe4d6e57f.jpg]] — Hoveyda-Grubbs 催化剂（line ~3222）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/ddb15ac3e725cf7e57520ba5065542ac9dfd68677b42862a72aa432924d7559e.jpg]] — 烯-炔复分解（line ~3248）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/238744f47c7030c2fe7d4ee6ddf7df6ccf5d954780b996e2c0e12d98c367cadc.jpg]] — 卡宾与其他活性中间体的关系总结（line ~3270）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/777bbd149b1d595ba24fe34b8e4fd4c40aa39fbf9e022ae4e0b13162acf3ef20.jpg]] — 酰基叠氮形成氮宾（line ~3033）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/7ca232b789eca0dfae6ff96e4d55530f87443f1f0b57fdf8b6ad5e742dea0365.jpg]] — Curtius/Hofmann 重排（line ~3047）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/6e35765385f41b9d2d4f6d0f3e87c4363d895632a572569d05c76542ea667040.jpg]] — Ru-卡宾配合物（line ~3119）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/678ad427abbc97adca6ea6e55e6cef0302677c061b8acf9b109c50a7e97022f2.jpg]] — 关环复分解（line ~3129）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/8268a3985d3ffab76c78ca6b9997f35090a8264d3048ae2f0526da71c2998f51.jpg]] — $[2+2]$ 环加成形成金属代环丁烷（line ~3143）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/e2f5975b301e34acb59be8d830dfb053ab2f1cb078e0097de56c99e625626916.jpg]] — Grubbs II 催化剂（line ~3212）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/f05132aab1ea5546f1e6cacb7cad2e76031db081819f391be8b2fe1fe4d6e57f.jpg]] — Hoveyda-Grubbs 催化剂（line ~3222）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/ddb15ac3e725cf7e57520ba5065542ac9dfd68677b42862a72aa432924d7559e.jpg]] — 烯-炔复分解（line ~3248）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/238744f47c7030c2fe7d4ee6ddf7df6ccf5d954780b996e2c0e12d98c367cadc.jpg]] — 卡宾与其他活性中间体的关系总结（line ~3270）
 
 ---
 

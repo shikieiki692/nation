@@ -8,19 +8,21 @@ source_range: line 3292–5233
 extracted_date: 2026-05-19
 template_version: v1.3
 status: 已提炼
----
 handout_plan:
   - target: "有机化学基础"
     status: completed
     priority: P2
     source_sections: ["第39章 探寻反应机理（动力学、同位素标记、立体化学探针、交叉实验）"]
     estimated_pages: 4
+knowledge_points: [有机反应机理, 过渡态, 动力学控制, Curtin-Hammett原理, 32-有机反应机理, 动力学同位素效应, Hammett方程, 酸碱催化, 中间体检测, 立体化学与机理, 活化熵, 交叉实验, 捕获实验, Cannizzaro反应, Favorskii重排, Beckmann重排, 碳正离子, 腈的化学]
+---
 
 # 提炼：Clayden 第39章——探寻反应机理（Investigating Reaction Mechanisms）
 
 ---
 
 ## 一、核心概念与定义
+[[有机反应机理]]
 
 ### 1.1 反应机理的"两类答案"
 - **类推得到的机理**：基于反应类型（如羰基亲核取代、SN2等）和离去基团评估，写出合理的电子推动过程。这是有机化学家日常"书写机理"的能力。
@@ -48,14 +50,14 @@ handout_plan:
 
 #### 2.1.1 光谱法确定结构与立体化学
 - 在机理调查前，必须先通过 NMR、MS 等方法精确确定产物的连接方式和立体化学。
-- **实例**：八元环烯醚在 HCl 条件下并非简单加成，而是通过跨环（transannular）反应形成 5/5 稠合体系——产物结构直接揭示了重排机理。
+- **实例**：八元环烯醚在 HCl 条件下并非简单加成，而是通过跨环（transannular）反应形成 5/5 稠合体系——产物结构直接揭示了重排机理。[[过渡态]]
 
 #### 2.1.2 标记实验（Labelling）
 - **同位素标记**：D、$^{13}$C、$^{18}$O 是最常用的标记。D 和 $^{13}$C 可通过 NMR 检测，$^{18}$O 可通过质谱检测。
 - **放射性标记**：T（$^3$H）和 $^{14}$C 是古老的方法，但需化学降解来确定标记位置，现已较少使用。
 - **实例**：Z-1-苯基丁二烯在酸中异构化为 E-双烯。机理预测质子化在 C2，但 D2O 实验表明氘最终出现在 C4——说明质子化发生在共轭体系端位，形成更稳定的共轭阳离子。
 
-![[mineru/中文版clayden-chinese37-401000-1132_images/2199032d87d17a112e1b7a31689b3e3c34b8ebf2e8a6431f7153516e6a958aec.jpg]] — Z-苯基丁二烯酸催化异构化（line ~3661）
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/2199032d87d17a112e1b7a31689b3e3c34b8ebf2e8a6431f7153516e6a958aec.jpg]] — Z-苯基丁二烯酸催化异构化（line ~3661）
 
 #### 2.1.3 双重标记实验
 - 当单一标记不足以区分多种可能机理时，使用双重标记（两个 $^{13}$C 标记相邻原子）。
@@ -67,7 +69,7 @@ handout_plan:
 - **方法**：使用 50:50 的标记/未标记起始原料混合物。若产物中出现"交叉产物"（只标记一次的产物），则反应涉及分子间步骤。
 - **实例**：烯丙基硫醚光异构化中，观察到 1:2:1 的（双苯基 : 苯基-对甲苯基 : 双对甲苯基）产物比例，证明 ArS 基与分子其余部分分离——支持自由基链式机理。
 
-![[mineru/中文版clayden-chinese37-401000-1132_images/66792f870c13921b4ded4a6157117a9c422c95dd424bb0b495c486234072e077.jpg]] — 交叉实验：烯丙基硫醚光异构化（line ~3797）
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/66792f870c13921b4ded4a6157117a9c422c95dd424bb0b495c486234072e077.jpg]] — 交叉实验：烯丙基硫醚光异构化（line ~3797）
 
 ---
 
@@ -84,19 +86,19 @@ handout_plan:
   - σ = 0：H（基准）
 - **σm vs σp**：间位取代主要反映诱导效应；对位取代同时反映诱导和共轭效应。共轭给电子基（NH2）的 σp 为负而 σm 为零。
 
-![[mineru/中文版clayden-chinese37-401000-1132_images/09e227a43743632eaf3107bdb72a11ff8da2d705d532ebdf82785771b009bd77.jpg]] — Hammett 图：酯水解速率 vs 酸 pKa（line ~3921）
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/09e227a43743632eaf3107bdb72a11ff8da2d705d532ebdf82785771b009bd77.jpg]] — Hammett 图：酯水解速率 vs 酸 pKa（line ~3921）
 
 #### 2.2.2 Hammett 反应常数 ρ
 - **定义**：log(kX/kH) 对 σ 作图的斜率。
 - **ρ 的符号含义**：
   - **ρ > 0**：过渡态中电子比起始原料多（电子流入芳环）
-  - **ρ < 0**：过渡态中电子比起始原料少（电子流出芳环）
+  - **ρ < 0**：过渡态中电子比起始原料少（电子流出芳环）[[动力学控制]]
 - **ρ 的大小含义**：
   - |ρ| ≈ 5：环上带完整电荷（如芳香亲核取代 ρ = +4.9，芳香亲电取代 ρ = -6.4）
   - |ρ| ≈ 2–3：与环相连的原子带部分电荷（如酯碱性水解 ρ = +2.6）
   - |ρ| < 1：环离反应中心太远，或两个反号 ρ 相互抵消，或无电荷变化（周环反应）
 
-![[mineru/中文版clayden-chinese37-401000-1132_images/a36d272cbcf9f94e8876eb893819fcc11a15e9b8ee213891f40e6f5683f29d9d.jpg]] — 典型 Hammett 图（line ~4041）
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/a36d272cbcf9f94e8876eb893819fcc11a15e9b8ee213891f40e6f5683f29d9d.jpg]] — 典型 Hammett 图（line ~4041）
 
 #### 2.2.3 ρ 值的典型应用
 | 反应类型 | ρ 值 | 机理推断 |
@@ -115,7 +117,7 @@ handout_plan:
 - **倒 V 形**：单一机理，但决速步改变。两侧都是同一机理，但速率在折点处最慢。
   - **实例**：分子内 Friedel-Crafts 酰基化。给电子基加速碳阳离子形成（负 ρ），吸电子基加速环化（正 ρ）。
 
-![[mineru/中文版clayden-chinese37-401000-1132_images/73d409b7f7f7e44a86f4a3ec2d6f9cc41cffb6ebc49795e6c21bb27271f40bbb.jpg]] — 非线性 Hammett 图：苯甲酰氯水解（line ~4267）
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/73d409b7f7f7e44a86f4a3ec2d6f9cc41cffb6ebc49795e6c21bb27271f40bbb.jpg]] — 非线性 Hammett 图：苯甲酰氯水解（line ~4267）
 
 #### 2.2.5 双探针 Hammett 实验
 - 同时在亲核试剂和亲电试剂上引入取代基，分别绘制 Hammett 图。
@@ -130,7 +132,7 @@ handout_plan:
 - 零点能（zero point energy）取决于成键原子质量：重原子零点能更低。
 - C–D 键比 C–H 键略强（零点能更低），因此断裂 C–D 键需要稍多能量 → $k_\mathrm{H} > k_\mathrm{D}$。
 
-![[mineru/中文版clayden-chinese37-401000-1132_images/77adb3a3e0545272806d2c5fcf483cf80f0496a28ffc3bd2b5db6f42d6b70a45.jpg]] — 零点能示意图：C-H vs C-D（line ~4347）
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/77adb3a3e0545272806d2c5fcf483cf80f0496a28ffc3bd2b5db6f42d6b70a45.jpg]] — 零点能示意图：C-H vs C-D（line ~4347）
 
 #### 2.3.2 KIE 的定义与数值范围
 $$
@@ -147,7 +149,7 @@ $$
 | 2–4 | 过渡态中 C–H 键部分断裂（如苯酚碘代中失去质子是决速步，$k_\mathrm{H}/k_\mathrm{D} = 4.1$）|
 | 5–7 | 决速步中 C–H 键完全断裂（如 E2 消除，$k_\mathrm{H}/k_\mathrm{D} = 7.1$）|
 
-![[mineru/中文版clayden-chinese37-401000-1132_images/d53650e12964501cdbec87cb8a0765cdcec8a18cfef655574bc7dfac24a6a326.jpg]] — KIE 实例：E2 消除反应（line ~4361）
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/d53650e12964501cdbec87cb8a0765cdcec8a18cfef655574bc7dfac24a6a326.jpg]] — KIE 实例：E2 消除反应（line ~4361）
 
 #### 2.3.4 KIE 与 Hammett 联用
 - **实例**：消除反应中，碱（ArO⁻）ρ 为负、离去基（ArSO₃⁻）ρ 为正，同时被进攻氢的 KIE = 7.1。
@@ -185,7 +187,7 @@ $$
   4. 溶剂逆同位素效应：$k(\mathrm{D}_2\mathrm{O}) > k(\mathrm{H}_2\mathrm{O})$（D₃O⁺ 比 H₃O⁺ 更强酸，因为 D₂O 溶剂化能力更弱）
 - **实例**：酯的酸性水解、缩醛水解、二烯基酮-苯酚重排。
 
-![[mineru/中文版clayden-chinese37-401000-1132_images/6338a010c01d6acf108db85c9c03316935533b88038ba28548376ea87914bf29.jpg]] — SAC 的溶剂逆同位素效应原理（line ~4521）
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/6338a010c01d6acf108db85c9c03316935533b88038ba28548376ea87914bf29.jpg]] — SAC 的溶剂逆同位素效应原理（line ~4521）
 
 #### 2.5.2 特殊碱催化（SBC）
 - **机理**：快速去质子平衡 + 阴离子的慢反应决速步。
@@ -209,7 +211,7 @@ $$
   - 恒定 pH 下，改变弱酸/弱碱浓度：若速率改变 → GAC/GBC；若不变 → SAC/SBC。
   - 溶剂同位素效应方向：逆效应 → SAC/SBC；正常效应 → GAC/GBC。
 
-![[mineru/中文版clayden-chinese37-401000-1132_images/3268932682ca0c69f035a1b34293815b636ad48f881a89b71e500581e8925b03.jpg]] — pH-速率剖面图：酯水解（line ~4610）
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/3268932682ca0c69f035a1b34293815b636ad48f881a89b71e500581e8925b03.jpg]] — pH-速率剖面图：酯水解（line ~4610）
 
 ---
 
@@ -224,7 +226,7 @@ $$
 - **芳香硝化中的酰胺捕获**：邻位酰胺基捕获 σ-复合物阳离子，形成顺式桥环产物。产物结构和立体化学与预期机理完全一致。
 - **苯炔的分子内 Diels-Alder 捕获**：邻氨基苯甲酸重氮化释放苯炔，被邻位呋喃通过分子内 Diels-Alder 捕获（产率 86%）。
 
-![[mineru/中文版clayden-chinese37-401000-1132_images/e700a2f630545b12b2547a4159c35e12d33050b467787df6161640d7e39d10e4.jpg]] — 苯炔的分子内捕获（line ~4876）
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/e700a2f630545b12b2547a4159c35e12d33050b467787df6161640d7e39d10e4.jpg]] — 苯炔的分子内捕获（line ~4876）
 
 #### 2.6.3 相关反应的中间体网络
 - **Favorskii 重排中间体网络**：
@@ -253,7 +255,7 @@ $$
 - 无 α-H 的醛在强碱下歧化：一半还原为醇，一半氧化为羧酸根。
 - 速率方程：总体三级（对醛二级，对 OH⁻ 一级），某些条件下为四级。
 
-![[mineru/中文版clayden-chinese37-401000-1132_images/96276bda3f4cfdb9e342e4d939e431186dbb5c3506cc9d94fd14ff4a899bcb91.jpg]] — 芳香醛 Cannizzaro 反应速率（line ~3536）
+![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/96276bda3f4cfdb9e342e4d939e431186dbb5c3506cc9d94fd14ff4a899bcb91.jpg]] — 芳香醛 Cannizzaro 反应速率（line ~3536）
 
 ### 3.2 机理的排除过程
 | 假设机理 | 检验方法 | 结果 |
@@ -300,31 +302,31 @@ $$
 ### 4.5 中间体与立体化学
 13. 交叉实验 = 1:2:1 比例 → 分子间过程；无交叉产物 → 分子内过程。
 14. 捕获实验是最可信的中间体证据之一。
-15. 立体化学（保持/翻转/顺式/反式）是区分相似机理的最有力工具之一。
+15. 立体化学（保持/翻转/顺式/反式）是区分相似机理的最有力工具之一。[[Curtin-Hammett原理]]
 
 ---
 
 ## 五、重要图表与图片引用
 
 ### 5.1 Hammett 关系相关
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/09e227a43743632eaf3107bdb72a11ff8da2d705d532ebdf82785771b009bd77.jpg]] — Hammett 图：酯水解速率 vs 取代基 σ（line ~3921）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/a36d272cbcf9f94e8876eb893819fcc11a15e9b8ee213891f40e6f5683f29d9d.jpg]] — 典型 Hammett 图及 ρ 值范围总结（line ~4041）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/e1c20f6a1bc1a874f69587c6801f612b60d238edfd80677e53ae5abb03c38aac.jpg]] — ρ 值解读总结图（line ~4174）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/73d409b7f7f7e44a86f4a3ec2d6f9cc41cffb6ebc49795e6c21bb27271f40bbb.jpg]] — 非线性 Hammett 图：苯甲酰氯水解（line ~4267）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/09e227a43743632eaf3107bdb72a11ff8da2d705d532ebdf82785771b009bd77.jpg]] — Hammett 图：酯水解速率 vs 取代基 σ（line ~3921）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/a36d272cbcf9f94e8876eb893819fcc11a15e9b8ee213891f40e6f5683f29d9d.jpg]] — 典型 Hammett 图及 ρ 值范围总结（line ~4041）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/e1c20f6a1bc1a874f69587c6801f612b60d238edfd80677e53ae5abb03c38aac.jpg]] — ρ 值解读总结图（line ~4174）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/73d409b7f7f7e44a86f4a3ec2d6f9cc41cffb6ebc49795e6c21bb27271f40bbb.jpg]] — 非线性 Hammett 图：苯甲酰氯水解（line ~4267）
 
 ### 5.2 同位素效应相关
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/77adb3a3e0545272806d2c5fcf483cf80f0496a28ffc3bd2b5db6f42d6b70a45.jpg]] — 零点能示意图：C-H vs C-D（line ~4347）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/d53650e12964501cdbec87cb8a0765cdcec8a18cfef655574bc7dfac24a6a326.jpg]] — KIE 实例：E2 消除反应（line ~4361）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/6338a010c01d6acf108db85c9c03316935533b88038ba28548376ea87914bf29.jpg]] — SAC 溶剂逆同位素效应原理（line ~4521）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/77adb3a3e0545272806d2c5fcf483cf80f0496a28ffc3bd2b5db6f42d6b70a45.jpg]] — 零点能示意图：C-H vs C-D（line ~4347）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/d53650e12964501cdbec87cb8a0765cdcec8a18cfef655574bc7dfac24a6a326.jpg]] — KIE 实例：E2 消除反应（line ~4361）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/6338a010c01d6acf108db85c9c03316935533b88038ba28548376ea87914bf29.jpg]] — SAC 溶剂逆同位素效应原理（line ~4521）
 
 ### 5.3 酸碱催化相关
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/3268932682ca0c69f035a1b34293815b636ad48f881a89b71e500581e8925b03.jpg]] — pH-速率剖面图（line ~4610）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/0ae0f05f060fa93e295d00f738ad87e2fa6f41b3c6447d93730df046389e0ef5.jpg]] — Z-烯丙醇脱水：多证据整合实例（line ~4563）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/3268932682ca0c69f035a1b34293815b636ad48f881a89b71e500581e8925b03.jpg]] — pH-速率剖面图（line ~4610）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/0ae0f05f060fa93e295d00f738ad87e2fa6f41b3c6447d93730df046389e0ef5.jpg]] — Z-烯丙醇脱水：多证据整合实例（line ~4563）
 
 ### 5.4 中间体与标记相关
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/445bc72e4df63bc8e74130c5943b72a7e05f82e143bacd9f3157e72ff69a1ecd.jpg]] — 各类活泼中间体一览（line ~4831）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/e700a2f630545b12b2547a4159c35e12d33050b467787df6161640d7e39d10e4.jpg]] — 苯炔的分子内 Diels-Alder 捕获（line ~4876）
-- ![[mineru/中文版clayden-chinese37-401000-1132_images/96276bda3f4cfdb9e342e4d939e431186dbb5c3506cc9d94fd14ff4a899bcb91.jpg]] — Cannizzaro 反应速率表（line ~3536）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/445bc72e4df63bc8e74130c5943b72a7e05f82e143bacd9f3157e72ff69a1ecd.jpg]] — 各类活泼中间体一览（line ~4831）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/e700a2f630545b12b2547a4159c35e12d33050b467787df6161640d7e39d10e4.jpg]] — 苯炔的分子内 Diels-Alder 捕获（line ~4876）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/96276bda3f4cfdb9e342e4d939e431186dbb5c3506cc9d94fd14ff4a899bcb91.jpg]] — Cannizzaro 反应速率表（line ~3536）
 
 ---
 

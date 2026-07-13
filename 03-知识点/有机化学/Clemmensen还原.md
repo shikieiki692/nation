@@ -10,6 +10,8 @@ related: [Wolff-Kishner还原, 有机还原反应, 醛酮]
 status: 骨架
 stage: draft
 updated: 2026-06-29
+syllabus_code: [40]
+template_version: v1.3
 ---
 
 # Clemmensen还原
@@ -26,3 +28,4 @@ Clemmensen 还原用于把醛、酮在强酸性条件下还原为亚甲基，常
 ## 三、关联页
 - [[有机还原反应]]
 - [[Wolff-Kishner还原]]
+

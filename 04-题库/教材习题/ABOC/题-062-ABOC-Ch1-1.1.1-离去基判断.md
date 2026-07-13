@@ -14,7 +14,7 @@ teaching_level: 入门
 syllabus_codes: ["36"]
 knowledge_points: ["[[离去基与pKa]]", "[[诱导效应]]", "[[共振论]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 

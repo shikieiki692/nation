@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-039-ABOC-FT0-Tech-Jujuyane全合成
 aliases: [ABOC-FT0-Tech]
 type: 题目
@@ -12,9 +12,9 @@ question_type: 全合成推断题
 difficulty: 5
 teaching_level: 竞赛拔高
 syllabus_codes: ["50", "49", "52"]
-knowledge_points: ["[[Diels-Alder反应]]", "[[杂环化合物]]", 呋喃化学, "[[Simmon-Smith反应]]"]
+knowledge_points: ["[[Diels-Alder反应]]", "[[杂环化合物]]", "[[呋喃化学]]", "[[Simmon-Smith反应]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 
@@ -50,7 +50,7 @@ T-3-2 为什么先 TPAP 氧化再还原的方法实现了羟基的翻转构型�
 | 关联 KP | 考查角度 | 直接/间接 |
 |---|---|:---:|
 | [[Diels-Alder反应]] | 呋喃衍生物的 [4+2] 环加成构建关键前体 | 直接 |
-| [[呋喃化学]] | 呋喃作为双烯体在全合成中的应用 | 直接 |
+| [[呋喃]] | 呋喃作为双烯体在全合成中的应用 | 直接 |
 | [[Simmon-Smith反应]] | 环丙烷化反应在合成中的可能应用 | 间接 |
 | [[杂环化合物]] | 含氧杂环的构建与转化 | 直接 |
 

@@ -25,13 +25,14 @@ syllabus_codes:
   - 46-羰基α位反应
   - 50-有机合成
 status: 已提炼
----
 handout_plan:
   - target: "杂环糖氨基酸"
     status: completed
     priority: P1
     source_sections: ["第42章 生命中的有机化学（核酸、蛋白质、糖类、脂类、天然产物生物合成）"]
     estimated_pages: 8
+knowledge_points: [53-糖类, 54-氨基酸, 52-杂环化合物, 46-羰基α位反应, 50-有机合成, 51-金属有机, 药物化学, 端基效应, 糖的构型与变旋, 肽键, 多肽合成, 氨基酸与等电点, 二糖与多糖, NADH, 辅酶A, 生物碱, 糖苷, 逆合成分析, 莽草酸途径, 脂肪酸生物合成, Robinson托品酮合成, 辅酶与生物氧化还原, 全合成, 待建KP优先级清单, 构象异构, 吡喃糖, 异头碳效应, 异头体, 核酸结构, 环状磷酸酯, 抗生素机理, 酰基亲核取代, Mannich反应, Aldol缩合, Robinson合成, 状态摘要, 工作日志]
+---
 
 # 提炼：Clayden 第42章 — 生命中的有机化学
 
@@ -68,6 +69,7 @@ handout_plan:
 ## 三、知识点提取清单
 
 ### 可直接并入的知识点
+[[药物化学]]
 
 | 知识点 | 现有状态 | 新增内容 | 并入后建议 |
 |:---|:---|:---|:---|
@@ -82,6 +84,7 @@ handout_plan:
 | [[糖苷]] | 骨架 | O/S/N-糖苷定义；自然界中糖作为保护基/转运载体；β-葡萄糖苷实例 (花青素/黑芥子苷)；糖苷酶水解 | 增量补充 |
 
 ### 需要新创建的知识点
+[[逆合成分析]]
 
 | 建议知识点名 | 对应考纲 | 优先级 | 理由 |
 |:---|:---:|:---:|:---|
@@ -90,6 +93,7 @@ handout_plan:
 | [[脂肪酸生物合成]] | 50-有机合成 | 🟡 中 | 乙酰 CoA + 丙二酰 CoA 缩合 → 还原 → 消除 → 再还原；偶数碳直链规律 |
 | [[Robinson托品酮合成]] | 50-有机合成 | 🟡 中 | 经典全合成；模拟生物合成的 Mannich + 羟醛串联 |
 | [[辅酶与生物氧化还原]] | 51-金属有机 | 🟡 中 | NADH/NADP、FAD、CoA 等辅酶的结构-功能关系；可作为决赛深化素材 |
+[[全合成]]
 
 ### 与待建KP优先级清单的对照
 
@@ -123,63 +127,63 @@ handout_plan:
 ### 5.1 糖类核心图 (考纲重点)
 
 1. **葡萄糖的椅式构象与开链平衡** (p. 1142)
-   - `![[mineru/中文版clayden-chinese-42章1164-1199_images/d3d63278f29c9e1f76ff767133d86a13841e025b0f85cf0b7bf90a77500e52b.jpg]]`
+   - `![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-42章1164-1199_images/d3d63278f29c9e1f76ff767133d86a13841e025b0f85cf0b7bf90a77500e52b.jpg]]`
    - 说明：葡萄糖六元环 (吡喃糖) 与开链醛式保持平衡；C1 为异头碳。
 
 2. **核糖的呋喃/吡喃/开链三态平衡** (p. 1143)
-   - `![[mineru/中文版clayden-chinese-42章1164-1199_images/6594873faceba0f2d8a3a41210038687c49cedff04b406d3565d1f4009e3ab50.jpg]]`
+   - `![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-42章1164-1199_images/6594873faceba0f2d8a3a41210038687c49cedff04b406d3565d1f4009e3ab50.jpg]]`
    - 说明：核糖可采取五元呋喃糖或开链形式；RNA 中为呋喃糖。
 
 3. **异头碳效应机理图** (p. 1144)
-   - `![[mineru/中文版clayden-chinese-42章1164-1199_images/44291d430a36d8e57f736e97f0d291dd5d16bf0f443d406fb1359873930c958b.jpg]]`
+   - `![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-42章1164-1199_images/44291d430a36d8e57f736e97f0d291dd5d16bf0f443d406fb1359873930c958b.jpg]]`
    - 说明：环内氧直立孤对电子 → 直立 OMe σ* 的给电子相互作用；解释 α 与 β 异头体的稳定性差异。
 
 4. **葡萄糖缩醛 (苯甲醛 / 丙酮) 的立体选择性** (p. 1145)
-   - `![[mineru/中文版clayden-chinese-42章1164-1199_images/7267cea2b36e10fab8fe0b3ac71c6c386d694870439be1e44e22fe326750cb9e.jpg]]`
+   - `![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-42章1164-1199_images/7267cea2b36e10fab8fe0b3ac71c6c386d694870439be1e44e22fe326750cb9e.jpg]]`
    - 说明：热力学控制下双环缩醛的立体选择性；顺式稠合 vs 反式稠合。
 
 ### 5.2 氨基酸与肽键核心图
 
 1. **蛋白质骨架中的肽键刚性** (p. 1139)
-   - `![[mineru/中文版clayden-chinese-42章1164-1199_images/ce4cef0bd7441918adc70b73018da2830788c5f62942c46dae660282d00890d5.jpg]]`
+   - `![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-42章1164-1199_images/ce4cef0bd7441918adc70b73018da2830788c5f62942c46dae660282d00890d5.jpg]]`
    - 说明：酰胺键 C=O 与 N 孤对电子共轭 → 平面刚性；反式构型主导。
 
 2. **谷胱甘肽 (γ-谷氨酰半胱氨酰甘氨酸) 结构** (p. 1140)
-   - `![[mineru/中文版clayden-chinese-42章1164-1199_images/ca4f18e80674ef9715d75e73ae13476959e06d9ddb42c33aa1e1f4ef37757a81.jpg]]`
+   - `![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-42章1164-1199_images/ca4f18e80674ef9715d75e73ae13476959e06d9ddb42c33aa1e1f4ef37757a81.jpg]]`
    - 说明：非典型肽键 (γ-CO₂H 参与)；硫醇氧化为二硫化物的解毒机理。
 
 3. **细菌细胞壁中的 D-Ala 与青霉素作用机理** (p. 1141)
-   - `![[mineru/中文版clayden-chinese-42章1164-1199_images/f4c5ab1f5325c1b0d64ec999ecd48f800242ae61597587d0be0da17a2e5183c9.jpg]]`
+   - `![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-42章1164-1199_images/f4c5ab1f5325c1b0d64ec999ecd48f800242ae61597587d0be0da17a2e5183c9.jpg]]`
    - 说明：青霉素 β-内酰胺 mimic D-Ala-D-Ala → 丝氨酸 OH 进攻 → 酶不可逆失活。
 
 ### 5.3 辅酶与生物化学机理核心图
 
 1. **NAD⁺ / NADH 的负氢转移** (p. 1150)
-   - `![[mineru/中文版clayden-chinese-42章1164-1199_images/9487967da8a0acec99466228479b65a0033eef2ae597c854a62b82734cd893f4.jpg]]`
+   - `![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-42章1164-1199_images/9487967da8a0acec99466228479b65a0033eef2ae597c854a62b82734cd893f4.jpg]]`
    - 说明：吡啶鎓环接受 H⁻ + 2e⁻ → 1,4-二氢吡啶；与 NaBH₄ 机理类比。
 
 2. **吡哆醛介导的还原胺化 / 转氨 / 脱羧** (p. 1151–1152)
-   - `![[mineru/中文版clayden-chinese-42章1164-1199_images/3e2dcdc98691f51e4ff4397d8ddea39c76129dcc9d780881a52312cf3ceea8f3.jpg]]`
-   - `![[mineru/中文版clayden-chinese-42章1164-1199_images/b381a8499b7d531cab53407be84544fcc2c019677c0c27456b21ad07ec191249.jpg]]`
+   - `![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-42章1164-1199_images/3e2dcdc98691f51e4ff4397d8ddea39c76129dcc9d780881a52312cf3ceea8f3.jpg]]`
+   - `![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-42章1164-1199_images/b381a8499b7d531cab53407be84544fcc2c019677c0c27456b21ad07ec191249.jpg]]`
    - 说明：吡哆醛-亚胺 → 质子转移 → 二氢吡啶 → 水解；酶控制对映面选择性。
 
 3. **醛缩酶催化的羟醛反应 (赖氨酸烯胺机理)** (p. 1154)
-   - `![[mineru/中文版clayden-chinese-42章1164-1199_images/cac682168d9689ea4109ccef5678d837cb33ca1641c988ce272e9f41955ff093.jpg]]`
-   - `![[mineru/中文版clayden-chinese-42章1164-1199_images/35e234adff62acc8284b590f4d3aeb967e9e2f69591425022053bd0f89ecdeea.jpg]]`
+   - `![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-42章1164-1199_images/cac682168d9689ea4109ccef5678d837cb33ca1641c988ce272e9f41955ff093.jpg]]`
+   - `![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-42章1164-1199_images/35e234adff62acc8284b590f4d3aeb967e9e2f69591425022053bd0f89ecdeea.jpg]]`
    - 说明：赖氨酸残基与磷酸二羟基丙酮形成亚胺 → 烯胺 → 进攻甘油醛醛基 → syn 羟醛。
 
 4. **辅酶 A 硫醇酯：Claisen 缩合与脂肪酸合成循环** (p. 1155–1162)
-   - `![[mineru/中文版clayden-chinese-42章1164-1199_images/7d4709097c09155ed13e4cda161741bff50f6ff1574104f09b0d102cb48d4e98.jpg]]`
+   - `![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-42章1164-1199_images/7d4709097c09155ed13e4cda161741bff50f6ff1574104f09b0d102cb48d4e98.jpg]]`
    - 说明：CoASH 结构；硫醇酯因共轭差而更易烯醇化/水解；乙酰 CoA + 丙二酰 CoA → 缩合 → 还原 → 消除 → 再还原，每轮 +2C。
 
 ### 5.4 天然产物核心图
 
 1. **Robinson 托品酮合成** (p. 1200)
-   - `![[mineru/中文版clayden-chinese-42章1164-1199_images/2acfa014da952a0ecf6ed2a92f744176c199b1b13cee14b6f8f5eb567769422e.jpg]]`
+   - `![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-42章1164-1199_images/2acfa014da952a0ecf6ed2a92f744176c199b1b13cee14b6f8f5eb567769422e.jpg]]`
    - 说明：C4 二醛 + MeNH₂ + 丙酮二羧酸 → Mannich + 分子内羟醛 + 脱羧。
 
 2. **Pictet–Spengler 反应合成异喹啉** (p. 1210)
-   - `![[mineru/中文版clayden-chinese-42章1164-1199_images/1141db159c102ee86bca34da527168e5521a4ba85d8a27ffaa53ef30ba5bfc84.jpg]]`
+   - `![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-42章1164-1199_images/1141db159c102ee86bca34da527168e5521a4ba85d8a27ffaa53ef30ba5bfc84.jpg]]`
    - 说明：醛 + β-芳基乙胺 → 亚胺 → 质子化 → 分子内芳香亲电取代 (Mannich 型环化)。
 
 ---
@@ -240,4 +244,4 @@ handout_plan:
   - CoA 硫醇酯的 Claisen 缩合 ↔ Ch25 (烯醇盐烷基化) / Ch26 (羟醛/Claisen)
   - 生物碱的 Mannich 环化 ↔ Ch21 (芳香亲电取代)
   - Robinson 托品酮合成 ↔ Ch28 (逆合成分析)
-- **图片资产**：本章 mineru 提取图片约 80+ 张，筛选后约 15–20 张可直接用于 KP 配图。完整图片列表见 `mineru/中文版clayden-chinese-42章1164-1199_images/`。
+- **图片资产**：本章 mineru 提取图片约 80+ 张，筛选后约 15–20 张可直接用于 KP 配图。完整图片列表见 `mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-42章1164-1199_images/`。

@@ -14,7 +14,7 @@ teaching_level: 巩固
 syllabus_codes: ["35"]
 knowledge_points: ["[[有机酸碱性]]", "[[诱导效应]]", "[[共振效应]]"]
 tags: [化竞, 题目, 有机化学, 第三轮]
-status: 已入库
+status: 已填充
 updated: 2026-06-06
 ---
 

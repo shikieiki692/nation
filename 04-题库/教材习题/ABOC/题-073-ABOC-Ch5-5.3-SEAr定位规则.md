@@ -14,7 +14,7 @@ teaching_level: 巩固
 syllabus_codes: ["41"]
 knowledge_points: ["[[芳香亲电取代反应]]", "[[SEAr定位规则]]", "[[共振论]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 

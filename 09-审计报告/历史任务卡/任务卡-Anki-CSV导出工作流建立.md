@@ -16,6 +16,7 @@ related_notes:
 evidence:
   - "[[00-首页/工作日志/2026-06-03]]"
   - "[[06-学生侧材料/闪卡/anki-export/README]]"
+tags: [系统, 任务卡, 历史]
 ---
 
 # Anki CSV 导出工作流建立

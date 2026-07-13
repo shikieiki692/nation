@@ -1,4 +1,4 @@
-﻿---
+---
 title: SN1反应
 aliases: [SN1, S_N1, 单分子亲核取代, 一级亲核取代, unimolecular nucleophilic substitution, 解离机理, 碳正离子机理]
 type: 知识点

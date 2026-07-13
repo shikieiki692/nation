@@ -8,13 +8,14 @@ source_range: line 3057–5140
 extracted_date: 2026-05-18
 template_version: v1.3
 status: 已提炼
----
 handout_plan:
   - target: "有机化学基础"
     status: completed
     priority: P2
     source_sections: ["第36章 碎片化与重排（碳正离子重排、Wagner-Meerwein、Beckmann、Hofmann降解）"]
     estimated_pages: 6
+knowledge_points: [重排反应, Wagner-Meerwein重排, 热力学控制, Pinacol重排, Baeyer-Villiger重排, 1,2-迁移与重排, Beckmann重排, Favorskii重排, Grob碎裂化反应, 邻基参与, 碳正离子, Semipinacol重排, Eschenmoser碎片化, 环氧化学]
+---
 
 # 提炼：Clayden 第36章——碎片化与重排（Fragmentation and Rearrangement）
 
@@ -28,7 +29,7 @@ handout_plan:
 - 邻基参与的共同特征：**环状中间体的形成**（三元环至五元环最常见）。
 - 邻基只有在**能加速反应时**才会参与——否则反应走普通 SN2 路径。
 
-### 1.2 重排（Rearrangement）
+### 1.2 重排（Rearrangement）[[重排反应]]
 - **定义**：分子骨架发生重组，一个原子或基团从分子中的一个位置迁移到另一个位置的反应。
 - **与参与的关系**：当参与基最终与另一个原子成键时，重排得以发生。
 - **驱动力**：生成更稳定的中间体/产物（更稳定的碳正离子、释放环张力、形成羰基、恢复芳香性等）。
@@ -82,7 +83,7 @@ handout_plan:
 ### 2.3 碳正离子重排——Wagner-Meerwein 重排（line ~3681）
 
 #### 2.3.1 基本特征
-- **定义**：包含 H 或烷基迁移的碳正离子重排。
+- **定义**：包含 H 或烷基迁移的碳正离子重排。[[Wagner-Meerwein重排]]
 - **驱动力**：生成更稳定的碳正离子（伯 → 仲 → 叔）。
 - **新戊基重排**（line ~3553）：新戊基碘在 Ag⁺/H₂O 条件下，甲基迁移 → 叔碳阳离子 → 水捕获。
 - **NMR 证据**：对甲苯磺酸新戊酯在超强酸中直接给出叔碳阳离子光谱，伯阳离子从未被观察到。
@@ -90,7 +91,7 @@ handout_plan:
 #### 2.3.2 分子轨道分析（line ~3661）
 - **甲基迁移**：LUMO = 阳离子空 p 轨道；HOMO = 断裂的 C-C σ 键。
 - **负氢迁移**：HOMO = C-H σ 键。
-- 甲基迁移后若生成伯阳离子则不利；负氢迁移生成叔阳离子 → 热力学控制。
+- 甲基迁移后若生成伯阳离子则不利；负氢迁移生成叔阳离子 → [[热力学控制]]。
 
 #### 2.3.3 扩环重排（line ~3776）
 - 与阳离子相邻的四元环 → 重排为五元环 → 释放环张力。
@@ -101,7 +102,7 @@ handout_plan:
 2. 产物阳离子必须比起始阳离子足够稳定。
 3. 捕获阳离子的过程必须可靠。
 
-### 2.4 频哪醇重排（Pinacol Rearrangement）（line ~3854）
+### 2.4 频哪醇重排（Pinacol Rearrangement）（line ~3854）[[Pinacol重排]]
 
 #### 2.4.1 机理
 - 1,2-二醇在酸中 → 一个 OH 质子化离去 → 碳正离子 → 邻位 C-C 键迁移 → 氧孤对电子稳定正电荷 → 失去质子 → 酮（频哪酮）。
@@ -163,7 +164,7 @@ handout_plan:
 #### 2.8.4 无法烯醇化的酮的二苯乙醇酸类机理
 - 无 α-H 的酮 → 亲核试剂直接进攻羰基 → 类似二苯乙醇酸重排的机理。
 
-### 2.9 Baeyer-Villiger 氧化（line ~4321）
+### 2.9 Baeyer-Villiger 氧化（line ~4321）[[Baeyer-Villiger重排]]
 
 #### 2.9.1 机理
 - 过酸（RCO₃H）对羰基加成 → 四面体中间体 → 羧酸根离去与重排协同 → 酯。
@@ -181,13 +182,13 @@ handout_plan:
 
 #### 2.9.3 立体化学保持
 - 迁移碳的 sp³ 轨道"滑"到新位置 → **立体化学保持**。
-- 所有 1,2-迁移中迁移基团都保持立体化学。
+- 所有 1,2-迁移中迁移基团都保持立体化学。[[1,2-迁移与重排]]
 
 #### 2.9.4 与 SN2 的对比
 - SN2：使用反键 σ* 轨道（小波节）→ 构型翻转。
 - 重排：使用成键 σ 轨道（大波节）→ 构型保持。
 
-### 2.10 Beckmann 重排（line ~4501）
+### 2.10 Beckmann 重排（line ~4501）[[Beckmann重排]]
 
 #### 2.10.1 机理
 - 肟 OH 被酸转化为离去基 → 水离去 → 烷基迁移到氮上 → 产物阳离子被水捕获 → 酰胺。
@@ -271,43 +272,43 @@ handout_plan:
 ## 四、重要图表与图片引用
 
 ### 4.1 邻基参与相关
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/8d8d4870307152af9561ddc5126ab490c594591675712648b0099f52d4ae7ee9.jpg]] — 溶剂解速率对比（line ~3101）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/532d07262d49f61e1d0f9e31558a79f87b62df167cd189894bbb41b7f587d3e4.jpg]] — anti/syn 立体化学差异（line ~3137）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/8b114f98d80f29273ec1b728f11be0a711ea827dcc257d9380119bf08cd5bf51.jpg]] — 环翻转与邻基参与（line ~3149）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/c6ba0f2eac28d8d1fd3ec60c3ac38d68df98cb2e3f2c8916b7ad3af14b4fc15e.jpg]] — π 参与（C=C 双键）（line ~3277）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/c2f5e66844ee6c28ef619fc8f9ff93b12d53e08b013485b51eb5e3a70de6a7ba.jpg]] — 苯基参与（苯鎓离子）（line ~3308）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/1eb7acf7ef3c21487ea73b70d15e4de14a14aa95d19da71b0e1fe14522cb199a.jpg]] — 苯鎓离子的对称性与手性（line ~3349）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/8d8d4870307152af9561ddc5126ab490c594591675712648b0099f52d4ae7ee9.jpg]] — 溶剂解速率对比（line ~3101）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/532d07262d49f61e1d0f9e31558a79f87b62df167cd189894bbb41b7f587d3e4.jpg]] — anti/syn 立体化学差异（line ~3137）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/8b114f98d80f29273ec1b728f11be0a711ea827dcc257d9380119bf08cd5bf51.jpg]] — 环翻转与邻基参与（line ~3149）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/c6ba0f2eac28d8d1fd3ec60c3ac38d68df98cb2e3f2c8916b7ad3af14b4fc15e.jpg]] — π 参与（C=C 双键）（line ~3277）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/c2f5e66844ee6c28ef619fc8f9ff93b12d53e08b013485b51eb5e3a70de6a7ba.jpg]] — 苯基参与（苯鎓离子）（line ~3308）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/1eb7acf7ef3c21487ea73b70d15e4de14a14aa95d19da71b0e1fe14522cb199a.jpg]] — 苯鎓离子的对称性与手性（line ~3349）
 
 ### 4.2 重排反应相关
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/9180eea8d8d8ad7c1c91779f13093e3f98530b13d5fdd6a2a5536def088b1c6b.jpg]] — 新戊基重排（line ~3567）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/5a3f696d6d9faff2a6c9f0a14822a770a26344dffe5887d55a3fb42ffed1c98c.jpg]] — 仲丁基 → 叔丁基阳离子重排（line ~3617）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/b99685e5504b35472944e31925930c2bde20a88cacbfbeee9af5867ab6ee08c2.jpg]] — 莰尼醇脱水 → 檀烯（W-M 重排）（line ~3685）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/41d57fba34db3da8b4d41625e0484f6d90591297f6c41057f332a6ceb5ffe6b8.jpg]] — 频哪醇重排（line ~3858）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/e9c5fe81ada8ba01ccb1dd591420ed767ba02e7434999c483680c318690014ac.jpg]] — 螺环频哪醇重排（line ~3898）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/9de12b570b571f3302ae19a03b0b30f00ddd7d18a7f0dec44266e4867943c68b.jpg]] — 半频哪醇重排（line ~4000）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/5a97d2edf5a8043929de65b004f7f94f23da4854c1674e481744655280ba8b99.jpg]] — 二苯乙醇酸重排（line ~4166）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/47ec3b4f563ee0dd7f9cb622b4692b8c4d813c764eb9c1e065f031fedfbb1881.jpg]] — Favorskii 重排：两种异构体给出相同产物（line ~4209）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/b7dad06ca1fbbde832b66e4629d4405b3a5d972bf6a4ed80a549b8e26d6bc466.jpg]] — 环己酮溴代 → Favorskii 缩环（line ~4251）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/9b745f3ea0278e5c34a3f2ceca92128b4324f5ddf4b07e8e9b34f412521ce774.jpg]] — Baeyer-Villiger 氧化（line ~4325）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/35a948961a7d0302b515c7c9167f67288b72d2ec7c644b56d267620fa3137845.jpg]] — B-V 过渡态中的正电荷分散（line ~4441）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/e0c3c0340c7642a6f32029fc15cecd4fdb773214e1434fb3c0baf334d490a2f1.jpg]] — 立体化学控制迁移（Tiffeneau-Demjanov）（line ~4493）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/fc7b7085644917667c8f30e0fe6f1ea166e1f5f80254647fad02f5389b58990c.jpg]] — Beckmann 重排（己内酰胺合成）（line ~4507）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/c4a18f3a884a57c34d0b5f964590fcf17fc2118935d38808f27e99f25aa501bd.jpg]] — Beckmann 反式迁移（line ~4547）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/088776e3e9047772ae0f52f48c57da6424cba114526bb9a49ad3b541c0169775.jpg]] — Beckmann 碎片化（樟脑）（line ~4613）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/9180eea8d8d8ad7c1c91779f13093e3f98530b13d5fdd6a2a5536def088b1c6b.jpg]] — 新戊基重排（line ~3567）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/5a3f696d6d9faff2a6c9f0a14822a770a26344dffe5887d55a3fb42ffed1c98c.jpg]] — 仲丁基 → 叔丁基阳离子重排（line ~3617）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/b99685e5504b35472944e31925930c2bde20a88cacbfbeee9af5867ab6ee08c2.jpg]] — 莰尼醇脱水 → 檀烯（W-M 重排）（line ~3685）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/41d57fba34db3da8b4d41625e0484f6d90591297f6c41057f332a6ceb5ffe6b8.jpg]] — 频哪醇重排（line ~3858）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/e9c5fe81ada8ba01ccb1dd591420ed767ba02e7434999c483680c318690014ac.jpg]] — 螺环频哪醇重排（line ~3898）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/9de12b570b571f3302ae19a03b0b30f00ddd7d18a7f0dec44266e4867943c68b.jpg]] — 半频哪醇重排（line ~4000）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/5a97d2edf5a8043929de65b004f7f94f23da4854c1674e481744655280ba8b99.jpg]] — 二苯乙醇酸重排（line ~4166）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/47ec3b4f563ee0dd7f9cb622b4692b8c4d813c764eb9c1e065f031fedfbb1881.jpg]] — Favorskii 重排：两种异构体给出相同产物（line ~4209）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/b7dad06ca1fbbde832b66e4629d4405b3a5d972bf6a4ed80a549b8e26d6bc466.jpg]] — 环己酮溴代 → Favorskii 缩环（line ~4251）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/9b745f3ea0278e5c34a3f2ceca92128b4324f5ddf4b07e8e9b34f412521ce774.jpg]] — Baeyer-Villiger 氧化（line ~4325）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/35a948961a7d0302b515c7c9167f67288b72d2ec7c644b56d267620fa3137845.jpg]] — B-V 过渡态中的正电荷分散（line ~4441）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/e0c3c0340c7642a6f32029fc15cecd4fdb773214e1434fb3c0baf334d490a2f1.jpg]] — 立体化学控制迁移（Tiffeneau-Demjanov）（line ~4493）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/fc7b7085644917667c8f30e0fe6f1ea166e1f5f80254647fad02f5389b58990c.jpg]] — Beckmann 重排（己内酰胺合成）（line ~4507）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/c4a18f3a884a57c34d0b5f964590fcf17fc2118935d38808f27e99f25aa501bd.jpg]] — Beckmann 反式迁移（line ~4547）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/088776e3e9047772ae0f52f48c57da6424cba114526bb9a49ad3b541c0169775.jpg]] — Beckmann 碎片化（樟脑）（line ~4613）
 
 ### 4.3 碎片化反应相关
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/3e525df932cafb8d9af7811edc4f084178c2323b2c67ca2014d5f233c7d8a497.jpg]] — 碎片化推-拉原理（line ~4647）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/f21a63dfde3d5089ed979d25b27abe48d22c6c0b6eee5507675b5c3c441e76d8.jpg]] — 环状二醇碎片化（line ~4659）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/d4605106647f0e586f292886375e0cf7d034b0edb077baa4ea75b12f65d17e5c.jpg]] — 碎片化立体化学控制（line ~4745）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/eef52eb25e4a3f5d1047069a3563a0c327ea6a5b22d12936b17bc7a5ff275639.jpg]] — 顺式构象（可碎片化）（line ~4755）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/6e4b26a2742645d004cca51143e3d155c86eee88027870e1b94fbbc83ff0fe77.jpg]] — 反式构象（不可碎片化，E2 为主）（line ~4759）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/7c416b6d2e3320b75e7cbeeb92db3c9b2fc4e68493e04474aacb0ed253ed2b68.jpg]] — 十氢化萘碎片化扩环（line ~4836）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/7ebeda109a672523e651bb7f9883359d9c3ff65923bf8982a81d4472c4f03795.jpg]] — Eschenmoser 碎片化（line ~4905）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/924c85f0df7aa92c58c60368cb88e126c276287043ed1aa5d4f09fe67a1b4cd8.jpg]] — Eschenmoser 碎片化机理（line ~4928）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/0f8c9b4ed95456c65e2e853fc722c054ad51ba262e16871cdb0855ad2101dea7.jpg]] — 石竹烯合成中的碎片化（line ~4881）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/e8df9a13d4ea476dd9395744c06a917dbbd1179a429d7cad2deba05be0a1100c.jpg]] — 诺卡酮合成：三元环碎片化（line ~5040）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/8209b8c0d3f2d383d9f95344b7f735390c987ef462aec1fa198c8c8d2c676a78.jpg]] — 诺卡酮合成：四元环碎片化（line ~5064）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/2078c337abd996d7598427f79f2038a94b01473e736ea8a3ae5664b8696f96a2.jpg]] — 诺卡酮合成：六元环碎片化（line ~5076）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/3e525df932cafb8d9af7811edc4f084178c2323b2c67ca2014d5f233c7d8a497.jpg]] — 碎片化推-拉原理（line ~4647）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/f21a63dfde3d5089ed979d25b27abe48d22c6c0b6eee5507675b5c3c441e76d8.jpg]] — 环状二醇碎片化（line ~4659）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/d4605106647f0e586f292886375e0cf7d034b0edb077baa4ea75b12f65d17e5c.jpg]] — 碎片化立体化学控制（line ~4745）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/eef52eb25e4a3f5d1047069a3563a0c327ea6a5b22d12936b17bc7a5ff275639.jpg]] — 顺式构象（可碎片化）（line ~4755）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/6e4b26a2742645d004cca51143e3d155c86eee88027870e1b94fbbc83ff0fe77.jpg]] — 反式构象（不可碎片化，E2 为主）（line ~4759）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/7c416b6d2e3320b75e7cbeeb92db3c9b2fc4e68493e04474aacb0ed253ed2b68.jpg]] — 十氢化萘碎片化扩环（line ~4836）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/7ebeda109a672523e651bb7f9883359d9c3ff65923bf8982a81d4472c4f03795.jpg]] — Eschenmoser 碎片化（line ~4905）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/924c85f0df7aa92c58c60368cb88e126c276287043ed1aa5d4f09fe67a1b4cd8.jpg]] — Eschenmoser 碎片化机理（line ~4928）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/0f8c9b4ed95456c65e2e853fc722c054ad51ba262e16871cdb0855ad2101dea7.jpg]] — 石竹烯合成中的碎片化（line ~4881）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/e8df9a13d4ea476dd9395744c06a917dbbd1179a429d7cad2deba05be0a1100c.jpg]] — 诺卡酮合成：三元环碎片化（line ~5040）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/8209b8c0d3f2d383d9f95344b7f735390c987ef462aec1fa198c8c8d2c676a78.jpg]] — 诺卡酮合成：四元环碎片化（line ~5064）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/2078c337abd996d7598427f79f2038a94b01473e736ea8a3ae5664b8696f96a2.jpg]] — 诺卡酮合成：六元环碎片化（line ~5076）
 
 ---
 

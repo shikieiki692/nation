@@ -14,7 +14,7 @@ teaching_level: 拓展
 syllabus_codes: ["49", "22"]
 knowledge_points: ["[[前线轨道理论]]", "[[有机分子轨道]]", "[[Diels-Alder反应]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 

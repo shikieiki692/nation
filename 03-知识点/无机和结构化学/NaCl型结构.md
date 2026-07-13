@@ -17,6 +17,8 @@ prerequisite: [立方密堆积, 填隙]
 problem_types: [题型-晶体结构分析]
 difficulty: 3
 importance: 5
+has_images: true
+key_images: ["[[media/zgxg-nacl-crystal-structure.jpg]]"]
 status: 已填充
 stage: published
 sources:

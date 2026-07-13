@@ -10,6 +10,8 @@ related: [晶体结构, 热力学计算]
 status: 骨架
 stage: draft
 updated: 2026-06-29
+syllabus_code: [16]
+template_version: v1.3
 ---
 
 # Born-Haber循环
@@ -22,3 +24,4 @@ Born-Haber 循环把生成离子晶体拆成若干可测热效应，用来间接
 - 电子亲和能、电离能、升华焓、键能的拼装方式
 - 会写能量台阶图
 - 会检查符号与能量方向
+

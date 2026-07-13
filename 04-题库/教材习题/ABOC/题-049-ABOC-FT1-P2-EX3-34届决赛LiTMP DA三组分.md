@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-049-ABOC-FT1-P2-EX3-34届决赛LiTMP+DA+三组分
 aliases: [ABOC-FT1-P2-EX3]
 type: 题目
@@ -12,9 +12,9 @@ question_type: 方法学分析题
 difficulty: 5
 teaching_level: 竞赛拔高
 syllabus_codes: ["49", "52"]
-knowledge_points: ["[[Diels-Alder反应]]", 锂试剂, "[[杂环化合物]]"]
+knowledge_points: ["[[Diels-Alder反应]]", "[[锂试剂]]", "[[杂环化合物]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已入库
+status: 已填充
 updated: 2026-05-10
 ---
 

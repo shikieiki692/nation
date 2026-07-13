@@ -7,13 +7,14 @@ source: "Clayden, Organic Chemistry, 2nd Ed., Chapter 34"
 template_version: v1.3
 updated: 2026-05-18
 tags: [化竞, 有机化学, 周环反应, 环加成, Diels-Alder, Clayden]
----
 handout_plan:
   - target: "烷烃烯烃炔烃"
     status: completed
     priority: P1
     source_sections: ["第34章 周环反应1——环加成（Diels-Alder、[2+2]环加成、前线轨道理论、endo规则）"]
     estimated_pages: 8
+knowledge_points: [周环反应, 协同反应, 轨道对称性, Diels-Alder反应, 2+2环加成, 49-周环反应, Ene反应, 前线轨道理论, 臭氧解, OsO4双羟基化, 1,3-偶极环加成]
+---
 
 # Clayden 第34章：周环反应1——环加成 资料提炼
 
@@ -21,10 +22,10 @@ handout_plan:
 
 ## 一、核心概念与定义
 
-### 1.1 周环反应（Pericyclic Reaction）
-- **定义**：电子绕一个环移动的反应，任何中间体上都没有正负电荷，**没有中间体**，一步协同完成。
+### 1.1 [[周环反应]]（Pericyclic Reaction）
+- **定义**：电子绕一个环移动的反应，任何中间体上都没有正负电荷，**没有中间体**，一步[[协同反应|协同]]完成。
 - **三类**：环加成（本章）、电环化（Ch35）、σ重排（Ch35）。
-- **核心特征**：协同机理、环状过渡态、轨道对称性控制。
+- **核心特征**：[[协同反应|协同]]机理、环状过渡态、[[轨道对称性]]控制。
 
 ### 1.2 环加成反应（Cycloaddition）
 - **定义**：两个共轭π体系之间，形成用于连接两个试剂各端的两根新σ键的一步成环反应。所有箭头起始于π键并绕一个环移动。
@@ -43,7 +44,7 @@ handout_plan:
 
 ## 二、重要反应与机理
 
-### 2.1 Diels-Alder 反应 [4+2] 环加成
+### 2.1 [[Diels-Alder反应]] [4+2] 环加成
 
 #### 基本特征
 - **反应物**：共轭二烯（diene）+ 亲双烯体（dienophile）
@@ -91,10 +92,10 @@ handout_plan:
 - **[4+3] 环加成**：氧烯丙基阳离子（oxyallyl cation）与双烯的环加成。三个原子、两个电子的烯丙型阳离子 + 双烯 → 七元环。电子总数为六，与 D-A 相同。被允许（一个 $(4q+2)_s$ 组分）。
 - **捕获活泼中间体**：苯炔可被 D-A 捕获（如蒽 + 苯炔 → 笼状结构）。
 
-### 2.2 [2+2] 环加成
+### 2.2 [[2+2环加成]]
 
 #### 一般规则
-- **热同面-同面禁阻**（4e = 4n，轨道对称性不匹配）。
+- **热同面-同面禁阻**（4e = 4n，[[轨道对称性]]不匹配）。
 - **光同面-同面允许**：激发态 HOMO（原 LUMO）相位改变。
 
 #### 光化学 [2+2] 环加成
@@ -237,71 +238,71 @@ handout_plan:
 ## 四、重要图表与图片引用
 
 ### Diels-Alder 反应
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/6d4b9c4aff50038d39573a6e97941ba8177b3db63b64518f5196c61c889ecf19.jpg]] —— D-A 协同机理，六电子绕环移动（lines 58-68）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/02fd3c99f8b7990d10887c60767e068da4d3a1b32fa7cad2a8331ce28b9c7fa5.jpg]] —— 轨道重叠形成新键（lines 79-87）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/a62f80299ffb52f791c28edbbb42b27bde3f77fc0ab7594f9d52ee7af5c493e9.jpg]] —— D-A 过渡态，芳香六电子（lines 88-97）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/5bd4043cec8a62a9ecc5f5f689c0497c1aa0b8c00fcdbef833660c52becf0ac7.jpg]] —— endo vs exo 产物（lines 420-441）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/79279a04d79bdd53cf851fc41a14aeac8c91dc5eb765e45d54f5dc4b6ef26227.jpg]] —— endo 过渡态中的次级轨道相互作用（lines 442-450）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/7b5565bdf8cc1da71099aa6ef226ccc62a59830c3b3f24a4997472dd0d0ddb85.jpg]] —— 环戊二烯二聚的 endo 轨道解释（lines 593-603）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/b6d736773bb6e96cd4aaa3926e679caa793dacd6bae27cf795bad69b07933ea7.jpg]] —— HOMO-LUMO 成键与次级轨道相互作用（lines 604-611）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/13b2e2e7e0ed6d1df87486fe70651e4989b7a9c25d9f3b86018c567cd33a0131.jpg]] —— 水溶剂加速 D-A 的例子（lines 652-662）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/6779e0167d8cda452a39642cf48bb2baa053732fed546dc94bc69e3d94c9612b.jpg]] —— 分子内 D-A 外型产物（lines 666-680）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/c2457a76ae4a3c8bf4aa185cdf317fe6f0def11fc0510c608bfd169c641cd299.jpg]] —— 分子内 D-A 内型产物（羰基折叠）（lines 683-690）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/9596f75b0275426e8f09a4d85930c4ab59e8986ecf33b58f88054a7bdc366c54.jpg]] —— 区域选择性总结：邻位/对位产物（lines 831-838）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/620a81efc022b3510476986c40582ede5f64dc64dce1e6c7fe51bcc29229c3cd.jpg]] —— Lewis 酸催化提高区域选择性（lines 849-860）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/e615e68fb1e3123742bfbc24ebe78c9a96ca01884fb86898e389d8031df54ed6.jpg]] —— FMO 能级图：HOMO(diene)-LUMO(dienophile)（lines 507-560）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/6d4b9c4aff50038d39573a6e97941ba8177b3db63b64518f5196c61c889ecf19.jpg]] —— D-A 协同机理，六电子绕环移动（lines 58-68）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/02fd3c99f8b7990d10887c60767e068da4d3a1b32fa7cad2a8331ce28b9c7fa5.jpg]] —— 轨道重叠形成新键（lines 79-87）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/a62f80299ffb52f791c28edbbb42b27bde3f77fc0ab7594f9d52ee7af5c493e9.jpg]] —— D-A 过渡态，芳香六电子（lines 88-97）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/5bd4043cec8a62a9ecc5f5f689c0497c1aa0b8c00fcdbef833660c52becf0ac7.jpg]] —— endo vs exo 产物（lines 420-441）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/79279a04d79bdd53cf851fc41a14aeac8c91dc5eb765e45d54f5dc4b6ef26227.jpg]] —— endo 过渡态中的次级轨道相互作用（lines 442-450）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/7b5565bdf8cc1da71099aa6ef226ccc62a59830c3b3f24a4997472dd0d0ddb85.jpg]] —— 环戊二烯二聚的 endo 轨道解释（lines 593-603）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/b6d736773bb6e96cd4aaa3926e679caa793dacd6bae27cf795bad69b07933ea7.jpg]] —— HOMO-LUMO 成键与次级轨道相互作用（lines 604-611）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/13b2e2e7e0ed6d1df87486fe70651e4989b7a9c25d9f3b86018c567cd33a0131.jpg]] —— 水溶剂加速 D-A 的例子（lines 652-662）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/6779e0167d8cda452a39642cf48bb2baa053732fed546dc94bc69e3d94c9612b.jpg]] —— 分子内 D-A 外型产物（lines 666-680）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/c2457a76ae4a3c8bf4aa185cdf317fe6f0def11fc0510c608bfd169c641cd299.jpg]] —— 分子内 D-A 内型产物（羰基折叠）（lines 683-690）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/9596f75b0275426e8f09a4d85930c4ab59e8986ecf33b58f88054a7bdc366c54.jpg]] —— 区域选择性总结：邻位/对位产物（lines 831-838）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/620a81efc022b3510476986c40582ede5f64dc64dce1e6c7fe51bcc29229c3cd.jpg]] —— Lewis 酸催化提高区域选择性（lines 849-860）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/e615e68fb1e3123742bfbc24ebe78c9a96ca01884fb86898e389d8031df54ed6.jpg]] —— FMO 能级图：HOMO(diene)-LUMO(dienophile)（lines 507-560）
 
 ### Woodward-Hoffmann 规则
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/0c9ece294dd6d767098e3f76e8b2ffcd0a895d1731545adb25e2e25fa4ffc1a9.jpg]] —— D-A 的 WH 分析：π4s + π2s（lines 901-918）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/0c9ece294dd6d767098e3f76e8b2ffcd0a895d1731545adb25e2e25fa4ffc1a9.jpg]] —— D-A 的 WH 分析：π4s + π2s（lines 901-918）
 
 ### 捕获活泼中间体
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/2657f41b3006d0478d693b766401919719f2468a876e44e7604530b5b9aed31a.jpg]] —— 苯炔的 D-A 捕获（lines 924-933）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/6efcfa866c236f11b650afeb7e8d4b06b9a2c27f86bcd6503dccf87d2c9bf747.jpg]] —— 蒽 + 苯炔 → 笼状产物（lines 944-954）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/dae8f09217d0e508bb15bf4c0a2a9bfd161167e0f60929f3ac068d3b4fd4eff6.jpg]] —— 氧烯丙基阳离子的形成（lines 963-973）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/593728c0f77ae884dce74196804f0f6cf716f9e68a84323524545670df8346a9.jpg]] —— [4+3] 环加成（lines 974-982）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/2657f41b3006d0478d693b766401919719f2468a876e44e7604530b5b9aed31a.jpg]] —— 苯炔的 D-A 捕获（lines 924-933）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/6efcfa866c236f11b650afeb7e8d4b06b9a2c27f86bcd6503dccf87d2c9bf747.jpg]] —— 蒽 + 苯炔 → 笼状产物（lines 944-954）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/dae8f09217d0e508bb15bf4c0a2a9bfd161167e0f60929f3ac068d3b4fd4eff6.jpg]] —— 氧烯丙基阳离子的形成（lines 963-973）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/593728c0f77ae884dce74196804f0f6cf716f9e68a84323524545670df8346a9.jpg]] —— [4+3] 环加成（lines 974-982）
 
 ### [4+6] 环加成
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/5376d988e6b82287cfe998b5f7d2f2b833b1e9cbc4e84a31c90e7470256948df.jpg]] —— [4+6] 环加成例子（lines 995-1009）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/5376d988e6b82287cfe998b5f7d2f2b833b1e9cbc4e84a31c90e7470256948df.jpg]] —— [4+6] 环加成例子（lines 995-1009）
 
 ### Alder 烯反应
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/b65fe4e1676a2f6e75d028102085ca95d68d064b0762e2c763d1c86f891f3389.jpg]] —— D-A vs Ene 对比（lines 1018-1035）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/0dbe05268d16019794244e445ad1a7572c9512884548846d0e64aa204ebee3d2.jpg]] —— Alder 烯反应机理（lines 1027-1035）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/4cff11883b492970abe086bd82eb51ef5ad83f5129b8b4475572900ec365b0b8.jpg]] —— β-蒎烯的烯反应（lines 1044-1055）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/b5e15526c644ac2fca160d75b5acc609a2362b187ec5fbe44e3cacf851646102.jpg]] —— 羰基烯反应（lines 1087-1092）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/5cdfc79b966dd35032f832aec36aeb5528c374d826d708a6409b946b0237f7e4.jpg]] —— 薄荷醇合成的分子内羰基烯反应（lines 1113-1132）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/489c8c7b27edee61fe368a84a1b4b2f33e18e662b8a623c0f7e4442102fed868.jpg]] —— 羰基烯反应的椅式过渡态（lines 1133-1135）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/b65fe4e1676a2f6e75d028102085ca95d68d064b0762e2c763d1c86f891f3389.jpg]] —— D-A vs Ene 对比（lines 1018-1035）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/0dbe05268d16019794244e445ad1a7572c9512884548846d0e64aa204ebee3d2.jpg]] —— Alder 烯反应机理（lines 1027-1035）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/4cff11883b492970abe086bd82eb51ef5ad83f5129b8b4475572900ec365b0b8.jpg]] —— β-蒎烯的烯反应（lines 1044-1055）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/b5e15526c644ac2fca160d75b5acc609a2362b187ec5fbe44e3cacf851646102.jpg]] —— 羰基烯反应（lines 1087-1092）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/5cdfc79b966dd35032f832aec36aeb5528c374d826d708a6409b946b0237f7e4.jpg]] —— 薄荷醇合成的分子内羰基烯反应（lines 1113-1132）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/489c8c7b27edee61fe368a84a1b4b2f33e18e662b8a623c0f7e4442102fed868.jpg]] —— 羰基烯反应的椅式过渡态（lines 1133-1135）
 
 ### 光化学 [2+2]
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/155c7f954a73cd4f4e2482e7bd4612684bb1665df5b5111c124beb7269deabc1.jpg]] —— 光激发 π→π*（lines 1156-1164）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/20c56b22ac2db61ad54ce82bef7ff7729a58803a2cb42ed53652ce1ba59b7b28.jpg]] —— 激发态与基态组合（lines 1166-1176）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/463f1ca24d9a49019c466d52b5990855d06b8cbefe595a57e26a75b11b333f3c.jpg]] —— 光化学 [2+2] 区域选择性（lines 1202-1212）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/32f02a3d9b0eb4d8dd910e1f8f9112b9441d51f3af59a18805745e3eda14a25e.jpg]] —— LUMO-LUMO 相互作用决定区域选择性（lines 1214-1220）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/155c7f954a73cd4f4e2482e7bd4612684bb1665df5b5111c124beb7269deabc1.jpg]] —— 光激发 π→π*（lines 1156-1164）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/20c56b22ac2db61ad54ce82bef7ff7729a58803a2cb42ed53652ce1ba59b7b28.jpg]] —— 激发态与基态组合（lines 1166-1176）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/463f1ca24d9a49019c466d52b5990855d06b8cbefe595a57e26a75b11b333f3c.jpg]] —— 光化学 [2+2] 区域选择性（lines 1202-1212）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/32f02a3d9b0eb4d8dd910e1f8f9112b9441d51f3af59a18805745e3eda14a25e.jpg]] —— LUMO-LUMO 相互作用决定区域选择性（lines 1214-1220）
 
 ### 热 [2+2] —— 烯酮
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/f6565aacec7199ce4b6b3669cd6d598896548f8f696d1869339a1f40279fcef2.jpg]] —— 烯酮和异氰酸酯的 [2+2]（lines 1244-1260）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/a89f5b3ccd38e3c0fee7877b38fc12154868413b4e8b8cb8c670968c162c4585.jpg]] —— 二氯烯酮 + 环戊二烯 [2+2]（lines 1266-1275）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/3817d8bbb3fdada74ddccce1e4bcf6523e1e27dfe3ac67a6e6927a3cfaef5039.jpg]] —— Zn 还原脱氯（lines 1280-1287）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/778391dd598762b73379f759ba1eca000d831df66145de066e75d42e5c012ce1.jpg]] —— 掩蔽烯酮等价物（lines 1289-1297）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/0b07cb18c83b3c85ed04b142b2e53b56501c4a1d11371bee54d0d5dcb1df561c.jpg]] —— β-内酰胺的 [2+2] 切断（lines 1342-1352）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/c34965533e55279a546ab06f42e84ef3521632f0a8264dbf4d1fa24b152583f8.jpg]] —— 二氯乙酰氯 + 亚胺 → β-内酰胺（lines 1353-1361）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/025aa95291d7dbe4ee5b7afd9f252572f898ee9b6ac09be14e70b34197e443d9.jpg]] —— 氯代硫酰异氰酸酯 + 烯烃（lines 1381-1389）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/f6565aacec7199ce4b6b3669cd6d598896548f8f696d1869339a1f40279fcef2.jpg]] —— 烯酮和异氰酸酯的 [2+2]（lines 1244-1260）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/a89f5b3ccd38e3c0fee7877b38fc12154868413b4e8b8cb8c670968c162c4585.jpg]] —— 二氯烯酮 + 环戊二烯 [2+2]（lines 1266-1275）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/3817d8bbb3fdada74ddccce1e4bcf6523e1e27dfe3ac67a6e6927a3cfaef5039.jpg]] —— Zn 还原脱氯（lines 1280-1287）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/778391dd598762b73379f759ba1eca000d831df66145de066e75d42e5c012ce1.jpg]] —— 掩蔽烯酮等价物（lines 1289-1297）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/0b07cb18c83b3c85ed04b142b2e53b56501c4a1d11371bee54d0d5dcb1df561c.jpg]] —— β-内酰胺的 [2+2] 切断（lines 1342-1352）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/c34965533e55279a546ab06f42e84ef3521632f0a8264dbf4d1fa24b152583f8.jpg]] —— 二氯乙酰氯 + 亚胺 → β-内酰胺（lines 1353-1361）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/025aa95291d7dbe4ee5b7afd9f252572f898ee9b6ac09be14e70b34197e443d9.jpg]] —— 氯代硫酰异氰酸酯 + 烯烃（lines 1381-1389）
 
 ### 1,3-偶极环加成
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/ec98717058d9dded04a1089c69fda14ad276ec9f7eb8ef8c81638f742e2e8ac2.jpg]] —— 1,3-偶极体的一般结构（lines 1405-1414）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/e1089522459f94d9b92b51a7102324aa5516bd90249c454a7b326f5d426a316c.jpg]] —— 硝酮与富电子/缺电子亲偶极体（lines 1428-1435）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/9b82d2489890141b3e326959ca7b71cb697521877b648ac79580d440e26bf4b7.jpg]] —— N-O 键还原断裂（lines 1493-1501）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/f1e30bef397a115e06fd02c6f06850641b3e0f8622b16c068d354f766b7f9b43.jpg]] —— 氧化腈的结构（lines 1506-1513）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/6ea64931888a4f9df9f674ba93649b15b17cc05e2d416c934d795edb83a4be28.jpg]] —— 氧化腈 [3+2] 环加成（lines 1514-1521）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/6d4cc458d58b6872c01654a85f5eb69cd7740ab4b121a2770e30e15598dbc371.jpg]] —— 叠氮-炔环加成（lines 1559-1566）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/f80445781c1ae72e3d937bbb59986654fffcb89bb43518212f0607f40aabde26.jpg]] —— 生物素合成中的分子内 [3+2]（lines 1608-1618）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/ec98717058d9dded04a1089c69fda14ad276ec9f7eb8ef8c81638f742e2e8ac2.jpg]] —— 1,3-偶极体的一般结构（lines 1405-1414）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/e1089522459f94d9b92b51a7102324aa5516bd90249c454a7b326f5d426a316c.jpg]] —— 硝酮与富电子/缺电子亲偶极体（lines 1428-1435）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/9b82d2489890141b3e326959ca7b71cb697521877b648ac79580d440e26bf4b7.jpg]] —— N-O 键还原断裂（lines 1493-1501）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/f1e30bef397a115e06fd02c6f06850641b3e0f8622b16c068d354f766b7f9b43.jpg]] —— 氧化腈的结构（lines 1506-1513）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/6ea64931888a4f9df9f674ba93649b15b17cc05e2d416c934d795edb83a4be28.jpg]] —— 氧化腈 [3+2] 环加成（lines 1514-1521）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/6d4cc458d58b6872c01654a85f5eb69cd7740ab4b121a2770e30e15598dbc371.jpg]] —— 叠氮-炔环加成（lines 1559-1566）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/f80445781c1ae72e3d937bbb59986654fffcb89bb43518212f0607f40aabde26.jpg]] —— 生物素合成中的分子内 [3+2]（lines 1608-1618）
 
 ### OsO₄ 与臭氧
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/6dea9b78b7fa99b579a3735c961620e24790a854474c2dafeb46cc717a2ef098.jpg]] —— OsO₄ [3+2] 环加成（lines 1646-1654）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/a6accf2c099410e86df77c45ec2d0fad6c90c8d48c8031d7f35cf2502974222d.jpg]] —— 催化双羟基化条件（lines 1665-1673）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/c40918766ee951fb91a25aad947bc5aaecb0705a02048585f15b932a83999fc8.jpg]] —— 臭氧的结构（lines 1689-1696）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/a3f280752edd6a303b44ab5368cd0e0fea994ac764526dfd519e7a0f656816b8.jpg]] —— 臭氧 + 烯烃 → 初级臭氧化物（lines 1697-1705）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/7f2e1063948a348a2f61849ccc6bcab3650435b0ec95ca23588226d90f5e736f.jpg]] —— 羰基氧化物 + 醛 → 臭氧化物（lines 1706-1715）
-- ![[mineru/中文版clayden-chinese-34-36907-999_images/b54883338f25897f9ac62e44d5d2c3d24832b0677fbc66b7c26f5630fa825c39.jpg]] —— 臭氧解总转换（lines 1727-1735）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/6dea9b78b7fa99b579a3735c961620e24790a854474c2dafeb46cc717a2ef098.jpg]] —— OsO₄ [3+2] 环加成（lines 1646-1654）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/a6accf2c099410e86df77c45ec2d0fad6c90c8d48c8031d7f35cf2502974222d.jpg]] —— 催化双羟基化条件（lines 1665-1673）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/c40918766ee951fb91a25aad947bc5aaecb0705a02048585f15b932a83999fc8.jpg]] —— 臭氧的结构（lines 1689-1696）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/a3f280752edd6a303b44ab5368cd0e0fea994ac764526dfd519e7a0f656816b8.jpg]] —— 臭氧 + 烯烃 → 初级臭氧化物（lines 1697-1705）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/7f2e1063948a348a2f61849ccc6bcab3650435b0ec95ca23588226d90f5e736f.jpg]] —— 羰基氧化物 + 醛 → 臭氧化物（lines 1706-1715）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/b54883338f25897f9ac62e44d5d2c3d24832b0677fbc66b7c26f5630fa825c39.jpg]] —— 臭氧解总转换（lines 1727-1735）
 
 ---
 
