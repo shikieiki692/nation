@@ -35,6 +35,9 @@ $$\mathrm{CH_2=CH_2},\quad \mathrm{CH_2=CHCHO},\quad \mathrm{CH_2=CHCN},\quad \m
 
 (4) 1,3-丁二烯与顺丁烯二酸酐在室温下即可迅速反应，而与乙烯需要高温。解释原因。
 
+
+![[diels-alder-butadiene-ethylene.svg]]
+
 ## 解析
 
 ### 分析
@@ -82,3 +85,4 @@ $$\mathrm{CH_2=C(CN)_2 > CH_2=CHCN > CH_2=CHCHO > CH_2=CH_2}$$
 ### 反思
 
 Diels-Alder 反应是初赛周环反应的核心考点。三个关键要素：**热允许的 [4+2] 环加成**（WH 规则）、**正常电子需求下的 FMO 控制**（吸电子基加速）、**顺式立体专一性**。切记，简单的二烯 + 简单亲二烯体需要高温，但引入恰当的电子效应和环张力可大幅降低反应温度。
+

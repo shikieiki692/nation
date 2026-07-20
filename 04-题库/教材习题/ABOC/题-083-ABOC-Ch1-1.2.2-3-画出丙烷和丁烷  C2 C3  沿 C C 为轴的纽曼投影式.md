@@ -1,4 +1,4 @@
----
+﻿---
 title: 题-083-ABOC-Ch1-1.2.2-3-画出丙烷和丁烷  C2 C3  沿 C C 为轴的纽曼投影式.md
 type: 题目
 source: ABOC 第1章 自学练习（ARX's Basic Organic Chemistry 第3版）
@@ -10,7 +10,7 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["31"]
-knowledge_points: ["[[结构基础]]", "[[Lewis酸碱]]", "[[电子效应]]", "[[碳正离子]]"]
+knowledge_points: ["[[晶体结构基础]]", "[[Lewis酸碱]]", "[[电子效应]]", "[[碳正离子]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch1-1.2.2-3]
 updated: 2026-07-04

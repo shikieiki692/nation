@@ -27,6 +27,9 @@ status: 已填充
 
 （3）预测乙酸乙酯与丙酸乙酯发生交叉Claisen缩合的主要产物。
 
+
+![[claisen-condensation.png]]
+
 ## 参考答案
 
 ### （1）Claisen酯缩合机理

@@ -31,6 +31,9 @@ $$
 \mathrm{CH_2\!=\!CHCHO + CH_2\!=\!C(CH_3)CH\!=\!CH_2 \xrightarrow{\Delta}}
 $$
 
+
+![[diels-alder-butadiene-ethylene.svg]]
+
 ## 参考答案
 
 ### (1) 环戊二烯的二聚

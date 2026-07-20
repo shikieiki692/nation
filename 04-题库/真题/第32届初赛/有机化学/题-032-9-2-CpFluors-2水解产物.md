@@ -14,7 +14,7 @@ difficulty: 3
 teaching_level: 巩固
 syllabus_codes: []
 knowledge_points: ["[[醇的卤化]]", "[[水解反应]]", "[[环丙烯酮]]"]
-tags: [化竞, 真题, 32届]
+tags: [化竞, 真题, 32届, 有机化学]
 updated: 2026-05-11
 status: 已填充
 ---

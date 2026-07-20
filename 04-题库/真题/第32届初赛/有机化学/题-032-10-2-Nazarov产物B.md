@@ -14,7 +14,7 @@ difficulty: 3
 teaching_level: 巩固
 syllabus_codes: []
 knowledge_points: ["[[给电子基效应]]", "[[原子经济性与反应选择性]]", "[[烯基给电子]]"]
-tags: [化竞, 真题, 32届]
+tags: [化竞, 真题, 32届, 有机化学]
 updated: 2026-05-11
 status: 已填充
 ---

@@ -14,7 +14,7 @@ difficulty: 5
 teaching_level: 挑战
 syllabus_codes: []
 knowledge_points: ["[[Vilsmeier反应]]", "[[酰胺生成]]", "[[分子内亲电取代]]"]
-tags: [化竞, 真题, 25届]
+tags: [化竞, 真题, 25届, 有机化学]
 updated: 2026-06-30
 status: 已填充
 ---

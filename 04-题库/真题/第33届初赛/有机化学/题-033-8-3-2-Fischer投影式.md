@@ -14,7 +14,7 @@ difficulty: 3
 teaching_level: 拓展
 syllabus_codes: []
 knowledge_points: ["[[Fischer投影式]]", "[[糖类化学]]", "[[立体化学]]", "[[山梨糖]]"]
-tags: [化竞, 真题, 33届]
+tags: [化竞, 真题, 33届, 有机化学]
 updated: 2026-05-11
 status: 已填充
 ---

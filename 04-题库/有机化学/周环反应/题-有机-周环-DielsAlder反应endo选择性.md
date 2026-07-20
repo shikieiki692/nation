@@ -31,6 +31,9 @@ status: 已填充
 
 （3）环戊二烯与马来酸酐反应，画出endo和exo两种产物的结构，并说明哪种为主要产物。
 
+
+![[diels-alder-butadiene-ethylene.svg]]
+
 ## 参考答案
 
 ### （1）双烯体活性判断

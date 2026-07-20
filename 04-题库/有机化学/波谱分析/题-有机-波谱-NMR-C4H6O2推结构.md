@@ -1,4 +1,4 @@
----
+﻿---
 title: "C₄H₆O₂的¹H NMR推结构"
 aliases: ["题-有机-波谱-11"]
 type: 题目
@@ -12,7 +12,7 @@ question_type: 推断题
 difficulty: 4
 teaching_level: 强化
 syllabus_codes: ["49"]
-knowledge_points: ["[[核磁共振]]", "[[不饱和度]]", "[[结构推断]]", "[[官能团鉴定]]"]
+knowledge_points: ["[[NMR谱学]]", "[[不饱和度]]", "[[结构推断]]", "[[官能团鉴定]]"]
 tags: [化竞, 题目, 有机化学]
 status: 已填充
 updated: 2026-07-10
@@ -96,7 +96,7 @@ $$\text{CH}_3\text{COOCH=CH}_2$$
 
 ## 知识点映射
 
-- [[核磁共振]]
+- [[NMR谱学]]
 - [[不饱和度]]
 - [[结构推断]]
 - [[官能团鉴定]]

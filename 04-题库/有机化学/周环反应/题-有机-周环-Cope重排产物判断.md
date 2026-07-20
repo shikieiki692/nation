@@ -28,6 +28,9 @@ updated: 2026-07-10
 
 **(3)** Cope 重排属于哪种类型的周环反应？其 Woodward-Hoffmann 分类是什么（热允许/禁阻）？
 
+
+![[wagner-meerwein.png]]
+
 ## 参考答案
 
 ### (1) 1,5-己二烯的 Cope 重排

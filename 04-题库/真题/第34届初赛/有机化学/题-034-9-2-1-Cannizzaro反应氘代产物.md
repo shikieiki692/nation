@@ -14,7 +14,7 @@ difficulty: 3
 teaching_level: 巩固
 syllabus_codes: []
 knowledge_points: ["[[Cannizzaro反应]]", "[[动力学同位素效应]]"]
-tags: [化竞, 真题, 34届]
+tags: [化竞, 真题, 34届, 有机化学]
 updated: 2026-05-08
 status: 已填充
 ---
@@ -29,6 +29,8 @@ status: 已填充
 9-2 Cannizzaro（康尼查罗）反应是醛在强碱浓溶液中发生的歧化反应。以苯甲醛为底物，根据所给条件和信息，回答以下问题：
 
 9-2-1 当反应在重水中进行，产物苯甲醇是否含有氘？
+
+![[cannizzaro-mechanism-benzaldehyde.png]]
 
 ## 参考答案
 

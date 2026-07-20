@@ -1,4 +1,4 @@
----
+﻿---
 title: 题-066-ABOC-Ch2-2.3-缩醛形成机理
 aliases: [ABOC-Ch2-2.3]
 type: 题目
@@ -23,6 +23,8 @@ updated: 2026-05-10
 ## 题目
 
 画出缩醛形成的完整机理（以醛与醇在酸催化下反应为例）。
+
+![[acetal-protection-cyclohexanone.png]]
 
 ## 参考答案
 

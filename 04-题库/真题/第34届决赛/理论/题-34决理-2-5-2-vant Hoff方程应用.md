@@ -16,7 +16,7 @@ difficulty: 5
 teaching_level: 拔高
 syllabus_codes: []
 knowledge_points: [[van't Hoff方程]], [[平衡常数]], [[温度影响]], [[化学热力学]]
-tags: [化竞, 决赛, 理论]
+tags: [化竞, 决赛, 理论, 化学原理]
 updated: 2020-11-16
 status: 已填充
 ---

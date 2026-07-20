@@ -1,4 +1,4 @@
----
+﻿---
 title: "二乙基醚类分子NMR信号数判断"
 aliases: ["题-有机-波谱-10"]
 type: 题目
@@ -12,7 +12,7 @@ question_type: 判断题
 difficulty: 4
 teaching_level: 强化
 syllabus_codes: ["49"]
-knowledge_points: ["[[核磁共振]]", "[[化学等价]]", "[[磁等价]]", "[[偶合裂分]]"]
+knowledge_points: ["[[NMR谱学]]", "[[化学等价]]", "[[磁等价]]", "[[偶合裂分]]"]
 tags: [化竞, 题目, 有机化学]
 status: 已填充
 updated: 2026-07-10
@@ -86,7 +86,7 @@ $$\text{CH}_3\text{-CH}_2\text{-O-CH}_2\text{-CH}_3$$
 
 ## 知识点映射
 
-- [[核磁共振]]
+- [[NMR谱学]]
 - [[化学等价]]
 - [[磁等价]]
 - [[偶合裂分]]

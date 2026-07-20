@@ -32,6 +32,9 @@ updated: 2026-06-06
 
 **(3)** 简要解释为什么环丁烯的开环温度（约 150°C）远低于环丙烷的开环温度（约 500°C 以上）？
 
+
+![[diels-alder-butadiene-ethylene.svg]]
+
 ## 参考答案
 
 ### Woodward-Hoffmann 规则速记

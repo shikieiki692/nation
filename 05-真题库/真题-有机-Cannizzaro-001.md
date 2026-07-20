@@ -32,6 +32,8 @@ updated: 2026-06-22
 
 (4) 为什么 Cannizzaro 反应仅适用于**无 α-H 的醛**（如苯甲醛、甲醛、三甲基乙醛）？若有 α-H 存在会发生什么竞争反应？
 
+![[cannizzaro-mechanism-benzaldehyde.png]]
+
 ## 解析
 
 ### 分析

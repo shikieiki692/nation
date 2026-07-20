@@ -14,7 +14,7 @@ difficulty: 4
 teaching_level: 竞赛拔高
 syllabus_codes: []
 knowledge_points: ["[[CAtiVA法]]", "[[ir配合物]]", "[["配合物异构"]]", "[[CO取代]]", "[[甲基迁移]]", "[[类比推理]]"]
-tags: [化竞, 真题, 30届]
+tags: [化竞, 真题, 30届, 有机化学]
 updated: 2026-05-12
 status: 已填充
 ---

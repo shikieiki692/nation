@@ -1,4 +1,4 @@
----
+﻿---
 title: "题-037-5-2-1：HSNO的Lewis结构"
 aliases: [37届初赛-5.2.1]
 type: 题目
@@ -13,8 +13,8 @@ question_type: 简答题
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: []
-knowledge_points: ["[[LeWiS结构]]", "[[共振论]]", "[[电负性]]"]
-tags: [化竞, 真题, 37届]
+knowledge_points: ["[[Lewis结构式]]", "[[共振论]]", "[[电负性]]"]
+tags: [化竞, 真题, 37届, 元素化学]
 updated: 2026-05-11
 status: 已填充
 ---

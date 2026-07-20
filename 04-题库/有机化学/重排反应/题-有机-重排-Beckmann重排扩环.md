@@ -28,6 +28,9 @@ updated: 2026-07-10
 
 **(3)** 己内酰胺（caprolactam）是合成尼龙-6 的重要单体。如何用 Beckmann 重排从环己酮出发合成己内酰胺？
 
+
+![[beckmann-mechanism.png]]
+
 ## 参考答案
 
 ### (1) 环己酮肟的 Beckmann 重排

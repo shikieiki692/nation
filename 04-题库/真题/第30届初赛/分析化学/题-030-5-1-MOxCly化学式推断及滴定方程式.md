@@ -14,7 +14,7 @@ difficulty: 4
 teaching_level: 竞赛拔高
 syllabus_codes: []
 knowledge_points: ["[[氧化还原滴定]]", "[[化学式推断]]", "[[沉淀滴定]]", "[[钒化合物]]", "[[VOCl3]]", "[[离子方程式]]", "[[摩尔质量计算]]"]
-tags: [化竞, 真题, 30届]
+tags: [化竞, 真题, 30届, 分析化学]
 updated: 2026-05-12
 status: 已填充
 ---

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Replacement Test判断分子NMR信号数"
 aliases: ["题-有机-波谱-08"]
 type: 题目
@@ -12,7 +12,7 @@ question_type: 判断题
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["49"]
-knowledge_points: ["[[核磁共振]]", "[[化学等价]]", "[[对称性分析]]"]
+knowledge_points: ["[[NMR谱学]]", "[[化学等价]]", "[[对称性分析]]"]
 tags: [化竞, 题目, 有机化学]
 status: 已填充
 updated: 2026-07-10
@@ -79,6 +79,6 @@ ClCH₂-CH₂Cl，结构高度对称。
 
 ## 知识点映射
 
-- [[核磁共振]]
+- [[NMR谱学]]
 - [[化学等价]]
 - [[对称性分析]]

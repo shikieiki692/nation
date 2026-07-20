@@ -33,6 +33,9 @@ updated: 2026-07-10
 
 **(3)** 如果一个二烯被环状结构固定为 s-trans 构象，是否有办法使其发生 [4+2] 环加成？
 
+
+![[diels-alder-butadiene-ethylene.svg]]
+
 ## 参考答案
 
 ### (1) DA反应的构象要求

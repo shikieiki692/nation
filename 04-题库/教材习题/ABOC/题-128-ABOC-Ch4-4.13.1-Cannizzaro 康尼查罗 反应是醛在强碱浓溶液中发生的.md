@@ -1,4 +1,4 @@
----
+﻿---
 title: 题-128-ABOC-Ch4-4.13.1-Cannizzaro 康尼查罗 反应是醛在强碱浓溶液中发生的.md
 type: 题目
 source: ABOC 第4章 自学练习（ARX's Basic Organic Chemistry 第3版）
@@ -31,6 +31,8 @@ Cannizzaro(康尼查罗)反应是醛在强碱浓溶液中发生的歧化反应�
 
 
 ---
+
+![[cannizzaro-mechanism-benzaldehyde.png]]
 
 ## 答案
 

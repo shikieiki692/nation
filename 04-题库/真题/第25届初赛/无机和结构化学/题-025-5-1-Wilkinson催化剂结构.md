@@ -14,7 +14,8 @@ difficulty: 3
 teaching_level: 进阶
 syllabus_codes: []
 knowledge_points: ["[[Wilkinson催化剂]]", "[[16e规则]]", "[[dsp2杂化]]"]
-tags: [化竞, 真题, 25届]
+tags: [化竞, 真题, 25届, 元素化学]
+used_in: [配位化合物题组]
 updated: 2026-06-30
 status: 已填充
 ---

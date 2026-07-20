@@ -28,6 +28,9 @@ updated: 2026-07-10
 
 **(3)** Wagner-Meerwein 重排的驱动力是什么？什么条件下重排更容易发生？
 
+
+![[wagner-meerwein.png]]
+
 ## 参考答案
 
 ### (1) 新戊基溴的溶剂解

@@ -14,7 +14,8 @@ difficulty: 3
 teaching_level: 进阶
 syllabus_codes: []
 knowledge_points: ["[[配位平衡]]", "[[氧化还原]]", "[[铜化学]]", "[[氰化物]]"]
-tags: [化竞, 真题, 27届]
+tags: [化竞, 真题, 27届, 元素化学]
+used_in: [配位化合物题组]
 updated: 2026-06-30
 status: 已填充
 ---

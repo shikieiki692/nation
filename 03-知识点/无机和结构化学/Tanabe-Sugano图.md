@@ -23,7 +23,7 @@ sources: ["Inorganic Chemistry (Weller, 6th ed.) §20.4(e), 例题20.8"]
 source_type: ["书籍"]
 review_cycle: 30d
 has_images: true
-image_count: 114
+image_count: 8
 images_priority: high
 images_note: "d²-d⁸全套Tanabe-Sugano图已从Wikimedia Commons下载（CC BY-SA）→ ![[00-附件/weller_figures/TS_d2_diagram.png]] ![[00-附件/weller_figures/TS_d3_diagram.svg]] ![[00-附件/weller_figures/TS_d4_diagram.svg]] ![[00-附件/weller_figures/TS_d5_diagram.svg]] ![[00-附件/weller_figures/TS_d6_diagram.svg]] ![[00-附件/weller_figures/TS_d7_diagram.svg]] ![[00-附件/weller_figures/TS_d8_diagram.svg]]。Weller原版PDF页面渲染见 .obsidian/media/weller_pages/"
 teaching_ready: false

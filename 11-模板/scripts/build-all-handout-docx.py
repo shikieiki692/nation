@@ -820,7 +820,7 @@ def _strip_non_image_wikilink_lines(text: str) -> str:
     """Remove non-image knowledge-base link lines from a Word clean copy."""
     kept_lines: list[str] = []
     for line in text.splitlines():
-        if "[[" in line and "![[media/" not in line and "![[Media/" not in line:
+        if "[[" in line and "![[" not in line:
             continue
         kept_lines.append(line)
     return "\n".join(kept_lines)
@@ -1668,10 +1668,11 @@ def _validate_docx(
 
     # Check 2: image count match
     source_text = md_source.read_text(encoding="utf-8")
-    src_images = set(re.findall(r'!\[\[media/([^\]]+)', source_text))
-    # Also match preprocessed markdown image embeds
+    # Match ALL image embeds: ![[media/...]], ![[mineru/...]], ![[06-外部资料导入/...]], etc.
+    src_images = set(re.findall(r'!\[\[([^\]]+)', source_text))
+    # Also match preprocessed markdown image embeds (converted to ![](path) format)
     prep_text = md_preprocessed.read_text(encoding="utf-8") if md_preprocessed.exists() else ""
-    prep_images = set(re.findall(r'!\[.*?\]\(media/([^)]+)\)', prep_text))
+    prep_images = set(re.findall(r'!\[.*?\]\(([^)]+)\)', prep_text))
     expected_math = _count_markdown_math_expressions(prep_text)
 
     import zipfile
@@ -1735,6 +1736,26 @@ def _validate_docx(
             issues.append(
                 f"Math count suspiciously low: expected about {expected_math}, docx OMML {docx_math}"
             )
+
+    # Check 4: answer-question number alignment (for exercise sets)
+    if source_text:
+        # Extract question numbers from "### 第N题" headings
+        q_nums = set(re.findall(r'###\s*第(\d+)题', source_text))
+        # Extract answer numbers from "**第N题**:" or "**第N题**：" markers
+        a_nums = set(re.findall(r'\*\*第(\d+)题\*\*\s*[：:]', source_text))
+        if q_nums and a_nums:
+            missing_answers = q_nums - a_nums
+            extra_answers = a_nums - q_nums
+            if missing_answers:
+                sorted_missing = sorted(missing_answers, key=int)
+                issues.append(
+                    f"Questions without answers: {sorted_missing}"
+                )
+            if extra_answers:
+                sorted_extra = sorted(extra_answers, key=int)
+                issues.append(
+                    f"Answers without matching question: {sorted_extra}"
+                )
 
     if issues:
         print(f"  [WARN] Validation: {'; '.join(issues)}", file=sys.stderr)

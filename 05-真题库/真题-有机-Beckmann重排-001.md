@@ -33,6 +33,9 @@ updated: 2026-06-22
 
 (4) 若使用不对称酮的肟（如苯乙酮肟 $\mathrm{PhC(=NOH)CH_3}$）进行 Beckmann 重排，如何预测哪个基团发生迁移？写出苯乙酮肟重排的两种可能产物并判断主产物。
 
+
+![[beckmann-mechanism.png]]
+
 ## 解析
 
 ### 分析
@@ -106,3 +109,4 @@ $$\mathrm{-\!C(=NH^+)\!-\! + H_2O \longrightarrow \!-\!C(=O)\!-\!NH\!-\! + H^+}$
 ### 反思
 
 Beckmann 重排的三要素：(1) **立体化学决定迁移基团**（与 OH 反式的基团迁移）；(2) **同步但异步**（N₂ 的离去和基团迁移协同但 timing 不同）；(3) **迁移倾向**：芳基 > 烷基 ~ H。与 Beckmann 重排类似的"缺电子氮上的重排"还有 Curtius 重排（酰基叠氮）、Hofmann 重排（酰胺 + Br₂/NaOH）、Schmidt 反应等——它们都属于"氮烯/nitrenium 化学"的范畴。
+

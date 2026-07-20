@@ -498,6 +498,16 @@ def _apply_vertical_align(run, role: Optional[str]) -> None:
     run.font.subscript = role == "subscript"
 
 
+def _clear_print_sensitive_rpr(rPr) -> None:
+    """Remove run-level spacing hints that can widen print output unexpectedly."""
+    if rPr is None:
+        return
+    for tag in ("w:spacing", "w:kern"):
+        elem = rPr.find(qn(tag))
+        if elem is not None:
+            rPr.remove(elem)
+
+
 def _split_mixed_script_runs_in_paragraph(paragraph) -> None:
     """Split runs that mix CJK with latin/symbol text so fonts can be assigned precisely."""
     original_runs = list(paragraph.runs)
@@ -841,8 +851,9 @@ def postprocess_pandoc_docx(
 
     # 先按脚本拆分混合 run，避免 `Fe²⁺配位` 这类文本整段继承中文字体。
     _split_mixed_script_runs(doc)
-    # 保留 `Fe²⁺ / H₂O / SO₄²⁻ / NO₂⁻` 这类简单 Unicode 写法本体。
-    # 若再拆成 Word 原生上下标 run，Word 中常会出现可见空隙。
+    # 再把 Unicode 上下标转成 Word 原生上下标。
+    # 这样打印链路不必依赖字体是否内置 `⁺⁻₀₂...` glyph，可减少方框和异常字距。
+    _split_unicode_script_runs(doc)
 
     # ── 全库样式字体清理：遍历所有样式，移除主题引用 ──
     for style in doc.styles:
@@ -859,6 +870,7 @@ def postprocess_pandoc_docx(
         rPr = style._element.rPr
         if rPr is None:
             continue
+        _clear_print_sensitive_rpr(rPr)
         rFonts = rPr.find(qn("w:rFonts"))
         if rFonts is None:
             continue
@@ -908,6 +920,7 @@ def postprocess_pandoc_docx(
             rPr = run._element.rPr
             if rPr is None:
                 continue
+            _clear_print_sensitive_rpr(rPr)
             rFonts = rPr.find(qn("w:rFonts"))
             if rFonts is None:
                 continue
@@ -947,6 +960,7 @@ def postprocess_pandoc_docx(
                         rPr = run._element.rPr
                         if rPr is None:
                             continue
+                        _clear_print_sensitive_rpr(rPr)
                         rFonts = rPr.find(qn("w:rFonts"))
                         if rFonts is None:
                             continue
@@ -1005,6 +1019,7 @@ def postprocess_pandoc_docx(
                 rPr = run._element.rPr
                 if rPr is None:
                     continue
+                _clear_print_sensitive_rpr(rPr)
                 rFonts = rPr.find(qn("w:rFonts"))
                 if rFonts is None:
                     continue

@@ -1,4 +1,4 @@
----
+﻿---
 title: "题-025-10-1：Vilsmeier试剂共振式"
 aliases: [25届初赛-10.1, Vilsmeier试剂, 共振式, 亲电性]
 type: 题目
@@ -13,8 +13,8 @@ question_type: 结构题
 difficulty: 3
 teaching_level: 基础
 syllabus_codes: []
-knowledge_points: ["[[共振式]]", "[[Vilsmeier试剂]]", "[[亲电性]]"]
-tags: [化竞, 真题, 25届]
+knowledge_points: ["[[共振结构]]", "[[Vilsmeier试剂]]", "[[亲电性]]"]
+tags: [化竞, 真题, 25届, 有机化学]
 updated: 2026-06-30
 status: 已填充
 ---
@@ -41,7 +41,7 @@ $$
 
 ## 知识点映射
 
-- [[共振式]]
+- [[共振结构]]
 - Vilsmeier试剂
 - 亲电性
 

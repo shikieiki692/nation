@@ -33,6 +33,9 @@ updated: 2026-06-06
 
 **(3)** Pinacol 重排与半频哪醇重排（semipinacol rearrangement）有什么区别？各举一例。
 
+
+![[wagner-meerwein.png]]
+
 ## 参考答案
 
 ### (1) 对称 Pinacol 重排机理

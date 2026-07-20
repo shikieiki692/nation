@@ -39,6 +39,8 @@ updated: 2026-06-22
 
 (3) 对比 E2 消除（如 2-溴丁烷 + KOH/EtOH）与 Hofmann 消除的异同，填表比较两者的底物、碱、区域选择性、过渡态特征。
 
+![[aboc-e2-transition-state.jpg]]
+
 ## 解析
 
 ### 分析

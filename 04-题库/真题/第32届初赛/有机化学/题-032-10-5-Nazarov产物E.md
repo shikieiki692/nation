@@ -14,7 +14,7 @@ difficulty: 4
 teaching_level: 拓展
 syllabus_codes: []
 knowledge_points: ["[[分子内捕获]]", "[[碳正离子捕获]]", "[[串联环化]]"]
-tags: [化竞, 真题, 32届]
+tags: [化竞, 真题, 32届, 有机化学]
 updated: 2026-05-11
 status: 已填充
 ---

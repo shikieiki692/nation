@@ -1,4 +1,4 @@
----
+﻿---
 title: 题-144-ABOC-Ch5-5.10.2-写出以上反应的机理 复习之前学过的反应.md
 type: 题目
 source: ABOC 第5章 自学练习（ARX's Basic Organic Chemistry 第3版）
@@ -10,7 +10,7 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["35"]
-knowledge_points: ["[[芳香族化合物]]", "[[芳香性]]", "[[亲电取代]]", "[[胺]]"]
+knowledge_points: ["[[芳香性]]", "[[芳香性]]", "[[亲电取代]]", "[[胺]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch5-5.10.2]
 updated: 2026-07-04

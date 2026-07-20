@@ -14,7 +14,7 @@ difficulty: 2
 teaching_level: 基础
 syllabus_codes: []
 knowledge_points: ["[[臭氧化]]", "[[Jones氧化]]", "[[酯化]]", "[[缩合反应]]", "[[LiAlH4还原]]"]
-tags: [化竞, 真题, 27届]
+tags: [化竞, 真题, 27届, 有机化学]
 updated: 2026-06-30
 status: 已填充
 ---

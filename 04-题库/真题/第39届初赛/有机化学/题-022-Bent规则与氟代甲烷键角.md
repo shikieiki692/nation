@@ -12,7 +12,7 @@ question_type: 选择题
 difficulty: 3
 syllabus_codes: [21, 28]
 knowledge_points: ["[[杂化轨道理论]]", "[[立体电子效应]]"]
-tags: [化竞, 39届, Bent规则, 键角, 氟化学, 电负性]
+tags: [化竞, 39届, Bent规则, 键角, 氟化学, 电负性, 有机化学]
 updated: 2026-05-03
 status: 已填充
 ---

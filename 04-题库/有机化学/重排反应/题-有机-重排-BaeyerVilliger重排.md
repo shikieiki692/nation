@@ -31,6 +31,9 @@ updated: 2026-07-10
 - **(a)** 甲基环己基酮（CH₃CO-C₆H₁₁）
 - **(b)** 苯乙酮（CH₃CO-C₆H₅）
 
+
+![[wagner-meerwein.png]]
+
 ## 参考答案
 
 ### (1) 环戊酮的 BV 氧化

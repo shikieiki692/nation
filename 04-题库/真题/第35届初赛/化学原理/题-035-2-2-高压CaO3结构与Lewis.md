@@ -13,7 +13,7 @@ difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["6", "10"]
 knowledge_points: ["[[盖斯定律]]", "[[Lewis结构式]]", "[[化学热力学]]"]
-tags: [化竞, 真题, 35届, 推断题, 高压化学, Lewis结构, 臭氧化物]
+tags: [化竞, 真题, 35届, 推断题, 高压化学, Lewis结构, 臭氧化物, 化学原理]
 updated: 2026-05-08
 status: 已填充
 ---

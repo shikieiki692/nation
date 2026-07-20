@@ -14,7 +14,8 @@ difficulty: 3
 teaching_level: 巩固
 syllabus_codes: []
 knowledge_points: ["[[VSEPR理论]]", "[[配位键]]", "[["VSEPR理论"]]", "[[HNH键角]]", "[["VSEPR理论"]]", "[[配合物]]"]
-tags: [化竞, 真题, 30届]
+tags: [化竞, 真题, 30届, 元素化学]
+used_in: [配位化合物题组]
 updated: 2026-05-12
 status: 已填充
 ---

@@ -16,7 +16,7 @@ difficulty: 5
 teaching_level: 拔高
 syllabus_codes: []
 knowledge_points: ["[[晶体结构]]", "[[晶体场理论]]", "[[分数坐标]]", "[[晶胞分析]]", "[[超导体]]"]
-tags: [化竞, 真题, 28届, 决赛]
+tags: [化竞, 真题, 28届, 决赛, 元素化学]
 updated: 2026-06-30
 status: 已填充
 ---
@@ -26,6 +26,8 @@ status: 已填充
 ## 题目
 
 高温超导体 $\mathrm{HgBa_2CuO_{4+\delta}}$ 是目前临界温度最高的铜氧化物超导体之一。围绕其晶体结构回答以下问题。
+
+![[perovskite_catio3_structure.jpg]]
 
 ### 5-1 (1分)
 

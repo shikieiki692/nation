@@ -1,4 +1,4 @@
----
+﻿---
 title: 题-211-ABOC-Ch3-3.6-环氧乙烷 硫化氢 然后与盐酸 ZnCl 反应即可自学练习 3.md
 type: 题目
 source: ABOC 第3章 自学练习（ARX's Basic Organic Chemistry 第3版）
@@ -10,7 +10,7 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["33"]
-knowledge_points: ["[[烯烃加成]]", "[[亲电加成]]", "[[Markovnikov规则]]"]
+knowledge_points: ["[[烯烃]]", "[[亲电加成]]", "[[Markovnikov规则]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch3-3.6]
 updated: 2026-07-04

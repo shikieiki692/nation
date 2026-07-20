@@ -16,7 +16,7 @@ difficulty: 3
 teaching_level: 决赛
 syllabus_codes: []
 knowledge_points: ["[[缔合胶体]]", "[[胶束形成]]", "[[热力学驱动力]]", "[[熵效应]]", "[[McBain理论]]"]
-tags: [化竞, 真题, 27届, 决赛]
+tags: [化竞, 真题, 27届, 决赛, 化学原理]
 updated: 2026-06-30
 status: 已填充
 ---

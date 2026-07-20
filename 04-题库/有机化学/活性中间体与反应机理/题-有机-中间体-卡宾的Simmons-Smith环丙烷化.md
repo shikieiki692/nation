@@ -31,6 +31,9 @@ updated: 2026-07-10
 
 **(3)** 与自由卡宾的环丙烷化相比，Simmons-Smith 反应有什么合成优势？
 
+
+![[carbene.png]]
+
 ## 参考答案
 
 ### (1) Simmons-Smith 试剂与反应

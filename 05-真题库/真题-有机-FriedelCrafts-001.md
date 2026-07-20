@@ -34,6 +34,9 @@ updated: 2026-06-22
 
 (4) 简述 Friedel-Crafts 烷基化反应的三个主要局限性。
 
+
+![[eas-mechanism.png]]
+
 ## 解析
 
 ### 分析
@@ -97,3 +100,4 @@ $$\mathrm{[C_6H_6\text{-}CH(CH_3)_2]^+ \longrightarrow C_6H_5CH(CH_3)_2 + H^+}$$
 ### 反思
 
 FC 烷基化是芳香亲电取代的必考内容，其最核心的考点就是**碳正离子重排**——1° 卤代烷的产物往往不是直接的正烷基苯，而是重排后的异构体。要避免重排，可使用 FC 酰基化 + Clemmensen/Wolff-Kishner 还原的组合策略间接引入正烷基。
+

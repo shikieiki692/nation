@@ -1,27 +1,20 @@
 ---
-title: Born-Haber循环
-aliases: [Born-Haber Cycle]
 type: 知识点
-subject: 无机和结构化学
-module: 无机和结构化学
-submodule: 离子晶体
-tags: [化竞, 无机化学, 热力学, 晶格能]
-related: [晶体结构, 热力学计算]
-status: 骨架
-stage: draft
-updated: 2026-06-29
-syllabus_code: [16]
-template_version: v1.3
+title: "Born-Haber循环"
+created: 2026-07-18
+updated: 2026-07-18
+tags: [化竞, 无机和结构化学, 晶体结构]
 ---
 
 # Born-Haber循环
 
-## 一、定位
+> [!note] 待完善
+> 此知识点笔记由系统自动创建，内容待补充。
 
-Born-Haber 循环把生成离子晶体拆成若干可测热效应，用来间接求晶格能或判断形成过程的热力学合理性。
+## 核心概念
 
-## 二、学习重点
-- 电子亲和能、电离能、升华焓、键能的拼装方式
-- 会写能量台阶图
-- 会检查符号与能量方向
+Born-Haber循环利用热力学数据（升华能、电离能、电子亲和能、晶格能等）通过Hess定律计算离子晶体的晶格能。
 
+## 相关题目
+
+- [[13-17]]

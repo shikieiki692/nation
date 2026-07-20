@@ -32,6 +32,9 @@ updated: 2026-06-06
 - **(B)** $\mathrm{NaOC(CH_3)_3}$（叔丁醇钠）在 $\mathrm{(CH_3)_3COH}$ 中，回流
 - **(C)** $\mathrm{NaOCH_3}$ 在 $\mathrm{CH_3OH}$ 中，$60^\circ\mathrm{C}$
 
+
+![[sn2-reaction.svg]]
+
 ## 参考答案
 
 ### 关键分析框架

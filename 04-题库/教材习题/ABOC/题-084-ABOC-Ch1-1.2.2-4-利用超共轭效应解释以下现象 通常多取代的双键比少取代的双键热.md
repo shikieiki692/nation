@@ -1,4 +1,4 @@
----
+﻿---
 title: 题-084-ABOC-Ch1-1.2.2-4-利用超共轭效应解释以下现象 通常多取代的双键比少取代的双键热.md
 type: 题目
 source: ABOC 第1章 自学练习（ARX's Basic Organic Chemistry 第3版）
@@ -10,7 +10,7 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["31"]
-knowledge_points: ["[[结构基础]]", "[[Lewis酸碱]]", "[[电子效应]]", "[[碳正离子]]"]
+knowledge_points: ["[[晶体结构基础]]", "[[Lewis酸碱]]", "[[电子效应]]", "[[碳正离子]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch1-1.2.2-4]
 updated: 2026-07-04

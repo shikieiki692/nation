@@ -32,6 +32,9 @@ updated: 2026-06-06
 | (d) | $\mathrm{CH_3CHBrCH_3}$ | $\mathrm{NaCN}$ / DMSO | $25^\circ\mathrm{C}$ |
 | (e) | 溴代环己烷 | $\mathrm{NaOH}$ / $\mathrm{H_2O}$ | $80^\circ\mathrm{C}$ |
 
+
+![[sn1-coordinate.png]]
+
 ## 参考答案
 
 ### 判断四步法

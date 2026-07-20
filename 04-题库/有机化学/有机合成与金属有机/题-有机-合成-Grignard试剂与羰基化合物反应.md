@@ -1,4 +1,4 @@
----
+﻿---
 title: "Grignard试剂与羰基化合物反应"
 aliases: []
 type: 题目
@@ -31,6 +31,8 @@ status: 已填充
 （2）设计一条从溴苯合成三苯甲醇的路线。
 
 （3）解释为什么Grignard试剂不能与含有活泼氢的化合物（如水、醇、胺）共存。
+
+![[grignard-mechanism-phbr-to-phcooh.png]]
 
 ## 参考答案
 

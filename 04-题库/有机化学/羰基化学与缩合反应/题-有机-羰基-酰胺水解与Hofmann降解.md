@@ -27,6 +27,9 @@ status: 已填充
 
 （3）比较酰胺水解和Hofmann降解的产物差异。
 
+
+![[beckmann-mechanism.png]]
+
 ## 参考答案
 
 ### （1）乙酰胺水解

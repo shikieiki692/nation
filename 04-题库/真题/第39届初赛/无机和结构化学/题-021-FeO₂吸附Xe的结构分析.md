@@ -12,7 +12,7 @@ question_type: 推断题
 difficulty: 5
 syllabus_codes: [15, 16, 17]
 knowledge_points: ["[[稀有气体化合物]]", "[[晶胞投影图分析]]"]
-tags: [化竞, 39届, 晶体结构, 氙化学, 吸附, 三方晶系]
+tags: [化竞, 39届, 晶体结构, 氙化学, 吸附, 三方晶系, 元素化学]
 updated: 2026-05-03
 status: 已填充
 ---

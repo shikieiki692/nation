@@ -32,6 +32,8 @@ updated: 2026-06-22
 
 (4) 在制备 Grignard 试剂时，能否使用乙醇或丙酮作为溶剂？为什么？应使用何种溶剂？
 
+![[grignard-mechanism-phbr-to-phcooh.png]]
+
 ## 解析
 
 ### 分析

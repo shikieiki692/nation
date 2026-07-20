@@ -27,6 +27,9 @@ status: 已填充
 
 （3）预测甲醛和苯甲醛在NaOH水溶液中的交叉Cannizzaro反应产物。
 
+
+![[carbocation-stability.png]]
+
 ## 参考答案
 
 ### （1）苯甲醛Cannizzaro反应机理

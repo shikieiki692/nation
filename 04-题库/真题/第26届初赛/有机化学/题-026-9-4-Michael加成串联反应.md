@@ -14,7 +14,7 @@ difficulty: 5
 teaching_level: 挑战
 syllabus_codes: []
 knowledge_points: ["[[Michael加成]]", "[[串联反应]]", "[[腈水解]]", "[[脱羧]]"]
-tags: [化竞, 真题, 26届]
+tags: [化竞, 真题, 26届, 有机化学]
 updated: 2026-06-30
 status: 已填充
 ---

@@ -1,4 +1,4 @@
----
+﻿---
 title: 题-209-ABOC-Ch3-3.3.4-1-无法形成形式上的二醇.md
 type: 题目
 source: ABOC 第3章 自学练习（ARX's Basic Organic Chemistry 第3版）
@@ -10,7 +10,7 @@ difficulty: 2
 teaching_level: 巩固
 exam_stage: 初赛
 syllabus_codes: ["33"]
-knowledge_points: ["[[烯烃加成]]", "[[亲电加成]]", "[[Markovnikov规则]]"]
+knowledge_points: ["[[烯烃]]", "[[亲电加成]]", "[[Markovnikov规则]]"]
 tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch3-3.3.4-1]
 updated: 2026-07-04

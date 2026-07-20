@@ -1,4 +1,4 @@
----
+﻿---
 title: 题-054-ABOC-Ch2-T3-硫叶立德vs半缩硫醛选择性
 aliases: [ABOC-Ch2-T3]
 type: 题目
@@ -25,6 +25,8 @@ updated: 2026-05-10
 （部分结构式见原书图片）
 
 比较硫叶立德与半缩硫醛在不同条件下的反应选择性，运用软硬酸碱理论解释。
+
+![[acetal-protection-cyclohexanone.png]]
 
 ## 参考答案
 

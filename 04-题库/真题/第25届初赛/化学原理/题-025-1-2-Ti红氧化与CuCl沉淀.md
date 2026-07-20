@@ -14,7 +14,7 @@ difficulty: 2
 teaching_level: 基础
 syllabus_codes: []
 knowledge_points: ["[[Ti氧化还原]]", "[[CuCl沉淀]]", "[[配位效应]]"]
-tags: [化竞, 真题, 25届]
+tags: [化竞, 真题, 25届, 化学原理]
 updated: 2026-06-30
 status: 已填充
 ---

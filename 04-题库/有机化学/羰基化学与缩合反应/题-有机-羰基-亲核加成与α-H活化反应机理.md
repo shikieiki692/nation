@@ -31,6 +31,9 @@ status: 已填充
 
 （4）乙醛在稀NaOH水溶液中的Aldol缩合
 
+
+![[base-catalysed-aldol.svg]]
+
 ## 参考答案
 
 ### 反应1：交叉Aldol缩合

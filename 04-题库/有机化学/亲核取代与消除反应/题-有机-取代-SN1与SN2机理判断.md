@@ -29,6 +29,9 @@ status: 已填充
 （4）$\ce{PhCH2Cl + NaOCH3 ->}$ 产物（甲醇中）
 （5）$\ce{(CH3)3CCl + AgNO3 ->}$ 产物（乙醇中）
 
+
+![[sn1-coordinate.png]]
+
 ## 参考答案
 
 | 底物 | 试剂/溶剂 | 主要机理 | 理由 |
