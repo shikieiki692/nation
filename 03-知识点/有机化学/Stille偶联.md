@@ -362,7 +362,6 @@ $$
 9. **Nicolaou K. C., Sorensen E. J. *Classics in Total Synthesis***, VCH, 1996. 多处涉及 Stille 偶联在全合成中的战略应用——适合竞赛拓展阅读，理解 Stille 在高复杂度合成中的不可替代地位
 
 ## 十五、待完善项
-- [待补充]
 
 ### 3.1 催化循环
 

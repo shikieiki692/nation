@@ -1,6 +1,6 @@
 {
   "name": "kb-vault-mcp",
-  "version": "2.0.0",
+  "version": "2.2.1",
   "description": "Stateful MCP Server for KB Vault with task state machine enforcement",
   "type": "module",
   "main": "dist/index.js",

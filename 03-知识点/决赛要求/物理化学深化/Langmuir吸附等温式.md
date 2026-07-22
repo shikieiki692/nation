@@ -30,6 +30,11 @@ images_note: "当前未嵌入图像文件；该主题具备一定可视化价值
 teaching_ready: false
 key_images: []
 updated: 2026-06-14
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Atkins物理化学-主题17-19-动力学与表面过程]]"
+    asset_id: "Atkins主题17-19"
+    asset_type: "书籍提炼"
+    asset_summary: "动力学与表面过程教材主干，含Langmuir吸附等温式、表面覆盖率"
 ---
 
 # Langmuir吸附等温式

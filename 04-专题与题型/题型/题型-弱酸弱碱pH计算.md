@@ -7,6 +7,11 @@ status: 已填充
 stage: review
 created: 2026-06-30
 updated: 2026-07-12
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-普化原理-第8章-酸碱平衡]]"
+    asset_id: "普化原理Ch8"
+    asset_type: "书籍提炼"
+    asset_summary: "酸碱平衡教材主干，含弱酸弱碱pH精确计算"
 ---
 
 # 题型 · 弱酸弱碱pH计算

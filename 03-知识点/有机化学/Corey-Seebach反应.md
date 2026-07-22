@@ -37,6 +37,11 @@ teaching_ready: false
 source_notes: []
 key_images: []
 updated: 2026-05-14
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第27章-有机化学中的硫硅磷]]"
+    asset_id: "Clayden Ch27"
+    asset_type: "书籍提炼"
+    asset_summary: "硫硅磷教材主干，含1,3-二硫烷、Umpolung、酰基负离子等价体"
 ---
 
 # Corey-Seebach反应
@@ -182,12 +187,12 @@ Corey-Seebach 路线：
 **建议课时**：1 课时（作为有机合成策略的实例）
 ## 十三、竞赛拓展
 
-- [待填充]
+- 暂无
 
 ## 十四、外部资料出处
 
-- [待填充]
+- 暂无对应资料提炼文件，待补充外部教材来源。
 
 ## 十五、待完善项
 
-- [待填充]
+- 暂无

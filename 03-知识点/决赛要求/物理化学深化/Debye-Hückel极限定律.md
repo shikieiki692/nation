@@ -26,6 +26,11 @@ status: 已填充
 stage: published
 sources:
   - "Atkins' Physical Chemistry（第11版），主题5F.4"
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Atkins物理化学-主题05-简单混合物]]"
+    asset_id: "Atkins主题05"
+    asset_type: "书籍提炼"
+    asset_summary: "简单混合物教材主干，含活度系数、Debye-Hückel极限定律、离子强度"
 source_type:
   - 教材
 review_cycle: 30d

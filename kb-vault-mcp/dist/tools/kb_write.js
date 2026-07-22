@@ -102,4 +102,3 @@ export const kbWriteTool = {
         required: ['path', 'content']
     }
 };
-//# sourceMappingURL=kb_write.js.map

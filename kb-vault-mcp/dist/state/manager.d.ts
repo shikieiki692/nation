@@ -99,6 +99,11 @@ export declare class StateManager {
      */
     saveCheckpoint(): Promise<void>;
     /**
+     * 原子追加：读出现有内容，拼接后写入临时文件，再 rename 替换
+     * rename 在 win32/posix 均为原子替换，崩溃时要么旧内容要么新内容，不会有半行
+     */
+    private atomicAppend;
+    /**
      * Rotate checkpoint files
      */
     private rotateCheckpoint;
@@ -135,4 +140,3 @@ export declare class StateManager {
         intentType?: IntentType;
     };
 }
-//# sourceMappingURL=manager.d.ts.map

@@ -27,13 +27,13 @@ status: 已填充
 stage: published
 template_version: v1.3
 updated: 2026-05-25
-has_images: false
-image_count: 0
-images_priority: low
-images_note: "当前以文字、公式或表格表达为主，暂未单独配置图像文件；后续备课如需增强直观性，再按需补图。"
+has_images: true
+image_count: 1
+images_priority: medium
+images_note: "已嵌入Hantzsch反应机理图像，显示多组分缩合构建吡咯环的过程。来源：Clayden有机化学教材。"
 teaching_ready: false
 source_notes: []
-key_images: []
+key_images: [media/clayden-hantzsch-mechanism.jpg]
 sources: ["ABOC §9.2"]
 source_type: [教材, 资料提炼]
 review_cycle: 30d
@@ -79,6 +79,9 @@ $$
 ## 三、核心原理
 
 ### 3.1 反应机理
+
+![Hantzsch机理](media/clayden-hantzsch-mechanism.jpg)
+*图：Hantzsch反应的详细机理，显示多组分缩合构建吡咯环的过程。来源：Clayden*
 
 **步骤 1：胺的亲核取代**
 $$
@@ -180,7 +183,7 @@ $$
 
 ## 十四、外部资料出处
 
-- [待补充]
+- 来源见 frontmatter source_extracts
 
 ---
 

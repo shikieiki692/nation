@@ -10,7 +10,7 @@ syllabus_stage: 第三轮
 tags: [化竞, 资料提炼, Zchem, 有机化学, 第三轮, 周环反应, 重排反应, 波谱分析]
 syllabus_codes: [30, 49, 39, 40]
 knowledge_points: [周环反应, Diels-Alder反应, 电环化反应, σ迁移反应, 重排反应, 邻基参与, Wagner-Meerwein重排, 频哪醇重排, Favorskii重排, Baeyer-Villiger重排, 霍夫曼重排, 贝克曼重排, 红外光谱, 质谱, 核磁共振, 紫外可见光谱]
-target_kp: ["[[03-知识点/有机化学/周环反应]]", "[[03-知识点/有机化学/Diels-Alder反应]]", "[[03-知识点/有机化学/电环化反应]]", "[[03-知识点/有机化学/σ迁移反应]]", "[[03-知识点/有机化学/重排反应]]", "[[03-知识点/有机化学/邻基参与]]", "[[03-知识点/有机化学/Wagner-Meerwein重排]]", "[[03-知识点/有机化学/Favorskii重排]]", "[[03-知识点/有机化学/Baeyer-Villiger重排]]", "[[03-知识点/有机化学/红外光谱]]", "[[03-知识点/有机化学/质谱]]"]
+target_kp: ["[[周环反应]]", "[[Diels-Alder反应]]", "[[电环化反应]]", "[[σ迁移反应]]", "[[重排反应]]", "[[邻基参与]]", "[[Wagner-Meerwein重排]]", "[[Favorskii重排]]", "[[Baeyer-Villiger重排]]", "[[红外光谱]]", "[[质谱]]"]
 topics: [第三轮专题8-周环与重排, 第三轮专题9-波谱与结构鉴定]
 problems_extracted: 25
 review_status: 待审核

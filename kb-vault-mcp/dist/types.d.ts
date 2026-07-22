@@ -166,4 +166,3 @@ export interface IndexResult extends ToolResult {
     generatedAt?: string;
     stale?: boolean;
 }
-//# sourceMappingURL=types.d.ts.map

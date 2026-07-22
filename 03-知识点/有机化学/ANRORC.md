@@ -522,7 +522,6 @@ $$\ce{1-R-5-NH2-三唑 ->[base] 1-R-4-NH2-三唑}$$
    "The SN(ANRORC) Mechanism: A New Chapter in Aromatic Substitution"——第一篇系统命名 ANRORC 的综述论文，适合理解**学术史背景**
 
 ## 十五、待完善项
-- [待补充]
 
 ### 3.1 机理步骤
 

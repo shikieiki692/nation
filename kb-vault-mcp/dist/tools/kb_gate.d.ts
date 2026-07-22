@@ -138,4 +138,3 @@ export declare const kbGateTool: {
         required: string[];
     };
 };
-//# sourceMappingURL=kb_gate.d.ts.map

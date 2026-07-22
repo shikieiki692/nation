@@ -55,6 +55,11 @@ template_version: v1.3
 key_images: []
 teaching_ready: false
 source_notes: []
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第26章-羟醛反应和Claisen反应]]"
+    asset_id: "Clayden Ch26"
+    asset_type: "书籍提炼"
+    asset_summary: "羟醛与Claisen教材主干，含硅基烯醇盐、Peterson烯化、羰基转化"
 ---
 
 # Peterson 烯化反应（Peterson Olefination）

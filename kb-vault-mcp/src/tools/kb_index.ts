@@ -5,12 +5,40 @@
 
 import * as fs from 'fs/promises';
 import * as path from 'path';
-import { exec } from 'child_process';
-import { promisify } from 'util';
-
-const execAsync = promisify(exec);
 
 const INDEX_FILE = '.kb/state/reverse_index.json';
+
+// 统一排除目录（与原 grep --exclude-dir 规则保持一致）
+const EXCLUDED_DIRS = new Set(['.git', '.claude', '.trash', 'node_modules']);
+
+/**
+ * 递归遍历 vault 内所有 .md 文件（纯 Node 实现，兼容中文路径与 LF/CRLF）
+ */
+async function walkMarkdownFiles(root: string): Promise<string[]> {
+  const results: string[] = [];
+
+  async function walk(dir: string): Promise<void> {
+    let entries;
+    try {
+      entries = await fs.readdir(dir, { withFileTypes: true });
+    } catch {
+      return; // 目录不可读时跳过
+    }
+    for (const entry of entries) {
+      const full = path.join(dir, entry.name);
+      if (entry.isDirectory()) {
+        if (!EXCLUDED_DIRS.has(entry.name)) {
+          await walk(full);
+        }
+      } else if (entry.isFile() && entry.name.endsWith('.md')) {
+        results.push(full);
+      }
+    }
+  }
+
+  await walk(root);
+  return results;
+}
 
 export interface IndexResult {
   success: boolean;
@@ -34,29 +62,29 @@ async function buildReverseIndex(vaultRoot: string): Promise<{
   let totalFiles = 0;
   let totalLinks = 0;
 
-  try {
-    // 使用 grep 查找所有 wikilink
-    const { stdout } = await execAsync(
-      `grep -rn "\\[\\[" "${vaultRoot}" --include="*.md" --exclude-dir=.git --exclude-dir=.claude --exclude-dir=.trash --exclude-dir=node_modules`,
-      { timeout: 60000, maxBuffer: 1024 * 1024 * 50 }
-    );
+  // 一次遍历收集所有结果，避免重复读盘
+  const files = await walkMarkdownFiles(vaultRoot);
+  const wikilinkRegex = /\[\[([^\]]+?)\]\]/g;
 
-    const lines = stdout.trim().split('\n').filter(l => l.length > 0);
-    const fileSet = new Set<string>();
+  for (const file of files) {
+    let content: string;
+    try {
+      content = await fs.readFile(file, 'utf-8');
+    } catch {
+      continue; // 读失败的文件跳过，不计入 totalFiles
+    }
 
-    for (const line of lines) {
-      const match = line.match(/^(.+?):(\d+):(.+)$/);
-      if (!match) continue;
+    totalFiles++;
+    const relativeFile = path.relative(vaultRoot, file);
 
-      const [, file, lineNum, content] = match;
-      const relativeFile = path.relative(vaultRoot, file);
-      fileSet.add(relativeFile);
-
-      // 提取所有 wikilink
-      const wikilinkRegex = /\[\[([^\]]+?)\]\]/g;
+    // 兼容 LF/CRLF 逐行扫描
+    const lines = content.split(/\r?\n/);
+    for (let i = 0; i < lines.length; i++) {
+      const lineText = lines[i];
+      wikilinkRegex.lastIndex = 0;
       let linkMatch;
 
-      while ((linkMatch = wikilinkRegex.exec(content)) !== null) {
+      while ((linkMatch = wikilinkRegex.exec(lineText)) !== null) {
         const linkText = linkMatch[1];
         // 规范化链接目标（去掉 # 锚点和 | 别名）
         const target = linkText.split('#')[0].split('|')[0].trim();
@@ -67,19 +95,12 @@ async function buildReverseIndex(vaultRoot: string): Promise<{
           }
           index[target].push({
             file: relativeFile,
-            line: parseInt(lineNum),
+            line: i + 1,
             linkText: linkText
           });
           totalLinks++;
         }
       }
-    }
-
-    totalFiles = fileSet.size;
-  } catch (error: any) {
-    // grep 返回 1 表示没有匹配，不是错误
-    if (error.code !== 1) {
-      throw error;
     }
   }
 

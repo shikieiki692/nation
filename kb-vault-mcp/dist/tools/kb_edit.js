@@ -198,4 +198,3 @@ export const kbEditTool = {
         required: ['path', 'edits']
     }
 };
-//# sourceMappingURL=kb_edit.js.map

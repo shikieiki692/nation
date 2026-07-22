@@ -29,13 +29,13 @@ stage: published
 sources: ["ABOC §4.9", "学而思有机化学基础第10讲"]
 source_type: [教材, 网课课堂笔记]
 review_cycle: 30d
-has_images: false
-image_count: 0
-images_priority: low
-images_note: "当前以文字、公式或表格表达为主，暂未单独配置图像文件；后续备课如需增强直观性，再按需补图。"
+has_images: true
+image_count: 1
+images_priority: high
+images_note: "已嵌入 Cannizzaro 反应机理图。"
 teaching_ready: false
 source_notes: ["[[提炼-学而思有机化学基础-批次D-醛酮]]"]
-key_images: []
+key_images: [media/cannizzaro-mechanism-benzaldehyde.png]
 template_version: v1.3
 updated: 2026-06-04
 source_extracts:
@@ -62,6 +62,9 @@ source_extracts:
 ---
 
 # Cannizzaro 反应（Cannizzaro Reaction）
+
+![Cannizzaro 反应机理](media/cannizzaro-mechanism-benzaldehyde.png)
+*图：Cannizzaro 反应机理示意图。苯甲醛在浓 NaOH 作用下发生歧化反应，一分子苯甲醛被氧化为苯甲酸，另一分子被还原为苯甲醇。关键步骤是 OH⁻ 进攻羰基碳，然后发生负氢迁移。来源：有机化学教材。*
 
 - 总览：[[中国化学奥林匹克基本要求-总览]]
 - 所属模块：[[基础要求-有机化学]]
@@ -335,7 +338,6 @@ A. 乙醛  B. 苯甲醛  C. 丙醛  D. 三甲基乙醛
 7. **相关KP**：[[醛酮化学]], [[氧化还原反应]], [[负氢转移]], [[Tishchenko反应]], 交叉Cannizzaro
 
 ## 十五、待完善项
-- [待补充]
 
 ---
 

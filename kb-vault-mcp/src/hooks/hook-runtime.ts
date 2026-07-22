@@ -60,9 +60,9 @@ export class HookRuntime {
         }
       }
       
-      console.log(`[H-G01] 会话初始化完成，已加载 ${entryFiles.length} 个入口文件指纹，发现 ${availableSkills.length} 个可用 skills`);
+      process.stderr.write(`[H-G01] 会话初始化完成，已加载 ${entryFiles.length} 个入口文件指纹，发现 ${availableSkills.length} 个可用 skills\n`);
     } catch (error) {
-      console.log('[H-G01] 会话初始化完成，已加载入口文件指纹');
+      process.stderr.write('[H-G01] 会话初始化完成，已加载入口文件指纹\n');
     }
 
     // 检查过期弃用文件（7天缓冲）
@@ -80,7 +80,7 @@ export class HookRuntime {
           // 如果目录超过7天，删除
           if (now - dirStat.mtimeMs > SEVEN_DAYS) {
             await fs.rm(dirPath, { recursive: true, force: true });
-            console.log(`[H-G01] 清理过期弃用目录: ${entry.name}`);
+            process.stderr.write(`[H-G01] 清理过期弃用目录: ${entry.name}\n`);
           }
         }
       }
@@ -106,7 +106,7 @@ export class HookRuntime {
     if (this.operationCount >= this.CHECKPOINT_INTERVAL) {
       this.operationCount = 0;
       await this.stateManager.saveCheckpoint();
-      console.log('[H-E03] 进度检查点已写入');
+      process.stderr.write('[H-E03] 进度检查点已写入\n');
       return true;
     }
     return false;
@@ -183,7 +183,7 @@ export class HookRuntime {
       await orchestrator.mergeOnClose();
     }
     
-    console.log(`[H-L03] Task ${taskId} 出口清理完成`);
+    process.stderr.write(`[H-L03] Task ${taskId} 出口清理完成\n`);
   }
 
   /**

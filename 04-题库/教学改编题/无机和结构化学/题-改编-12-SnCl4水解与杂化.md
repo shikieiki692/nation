@@ -20,7 +20,8 @@ syllabus_codes: []
 ## 题目
 
 (a) 写出下列反应的化学方程式（注明条件）：
-- 金属锡与浓盐酸反应生成四氯化锡
+- 金属锡与盐酸反应生成氯化亚锡（金属 Sn 与盐酸只能被氧化到 Sn(II)）
+- 锡与氯气直接化合生成四氯化锡
 - 四氯化锡水解生成锡酸
 
 (b) $\mathrm{SnCl_4}$ 分子中 Sn 的杂化方式是什么？画出其分子结构示意图。
@@ -28,8 +29,9 @@ syllabus_codes: []
 
 ## 参考答案
 
-- $\ce{Sn + 4HCl(浓) -> SnCl4 + 2H2}$
-- $\ce{SnCl4 + 4H2O -> H2SnO3 v + 4HCl}$（或写作 $\ce{SnO2. nH2O}$）
+- $\ce{Sn + 2HCl -> SnCl2 + H2 ^}$（盐酸无论浓稀均只能将 Sn 氧化到 +2 价）
+- $\ce{Sn + 2Cl2 -> SnCl4}$（SnCl4 需用 Cl2 直接氯化金属 Sn 制取）
+- $\ce{SnCl4 + 3H2O -> H2SnO3 v + 4HCl}$（或写作 $\ce{SnCl4 + (n + 2)H2O -> SnO2.nH2O v + 4HCl}$）
 - $\mathrm{SnCl_4}$ 中 Sn 为 $sp^3$ 杂化，分子为正四面体
 - $\mathrm{SnCl_4}$ 易水解而 $\mathrm{CCl_4}$ 不易水解，可从 Sn 的空轨道、Sn-Cl 键极性与亲核进攻难易解释
 

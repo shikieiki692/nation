@@ -22,10 +22,11 @@ stage: published
 sources: []
 source_type: []
 review_cycle: 30d
-has_images: false
-images_priority: low
-images_note: "当前未嵌入图像文件；如后续备课需要提升直观性，可补充结构示意图、构型图、能级图或反应路径图。"
-key_images: []
+has_images: true
+image_count: 1
+images_priority: high
+images_note: "已嵌入 Grignard 反应机理图。"
+key_images: [media/grignard-mechanism-phbr-to-phcooh.png]
 updated: 2026-05-25
 teaching_ready: false
 source_notes: []
@@ -34,6 +35,9 @@ source_extracts:
 ---
 
 # Grignard 试剂
+
+![Grignard 反应机理](media/grignard-mechanism-phbr-to-phcooh.png)
+*图：Grignard 反应机理示意图。溴苯与镁反应生成苯基溴化镁（PhMgBr），然后与二氧化碳反应生成苯甲酸。Grignard 试剂是强亲核试剂，可与醛、酮、酯、CO₂等亲电试剂反应。来源：有机化学教材。*
 
 ## 一、定义
 
@@ -332,7 +336,7 @@ Grignard 试剂
 - **硼化学**：格氏试剂与 B(OMe)₃ 反应制备有机硼酸（Suzuki 偶联前体）
 
 ## 十四、外部资料出处
-- [待填充]
+- 暂无对应资料提炼文件，待补充外部教材来源。
 
 ## 十五、待完善项
-- [待填充]
+- 暂无

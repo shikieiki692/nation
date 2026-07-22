@@ -17,6 +17,16 @@ prerequisite: [原子轨道, 配合物]
 problem_types: [题型-能级图绘制, 题型-分裂能比较]
 difficulty: 4
 importance: 4
+updated: 2026-07-22
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-无机化学第6版-第20章-配位化学理论]]"
+    asset_id: "Weller Ch20"
+    asset_type: "书籍提炼"
+    asset_summary: "配位化学理论教材主干，含晶体场理论、配位场理论、d轨道分裂"
+  - source_file: "[[07-资料提炼/网课提炼/资料提炼-周坤-晶体结构与配位化学]]"
+    asset_id: "周坤-配位化学"
+    asset_type: "网课提炼"
+    asset_summary: "晶体场分裂能、高低自旋、Jahn-Teller效应"
 status: 已填充
 stage: published
 sources: []

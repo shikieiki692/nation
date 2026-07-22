@@ -73,4 +73,3 @@ export declare const kbSearchTool: {
         required: string[];
     };
 };
-//# sourceMappingURL=kb_search.d.ts.map

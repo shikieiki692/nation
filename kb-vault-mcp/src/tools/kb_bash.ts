@@ -65,7 +65,10 @@ function containsWriteOperation(cmd: string): boolean {
   }
   
   // 检查重定向操作符
-  if (lowerCmd.match(/\s>>?\s/) || lowerCmd.startsWith('>')) {
+  // (?<![<=])>{1,2}(?![=&])：
+  //   - 匹配 > 或 >>，两侧空格可选（拦截 echo hi>out.md / echo hi > out.md / 2>err.log / &>all.log 等写文件重定向）
+  //   - 排除 2>&1、>&2（fd 复制，不写文件）、>=、=>（比较/箭头）；heredoc << 不含 > 天然不匹配
+  if (lowerCmd.match(/(?<![<=])>{1,2}(?![=&])/) || lowerCmd.startsWith('>')) {
     return true;
   }
   

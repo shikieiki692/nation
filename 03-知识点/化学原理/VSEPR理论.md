@@ -29,7 +29,7 @@ source_notes:
   - "[[04-课件/备课大纲/2026-06-02-分子结构基础-基础班]]"
 review_cycle: 30d
 has_images: true
-image_count: 1
+image_count: 3
 images_priority: medium
 images_note: 结构/轨道相关 KP，可用 Mermaid 或 LaTeX 绘制示意图，无需外部截图。
 teaching_ready: true
@@ -55,7 +55,7 @@ tags:
 
 ## 十五、待完善项
 
-- [待填充]
+- 暂无
 
 
 ---
@@ -100,6 +100,8 @@ tags:
 | 6 | 0 | AX₆ | 八面体 | 八面体 | 90° | SF₆ |
 | 6 | 1 | AX₅E | 八面体 | 四方锥 | — | BrF₅ |
 | 6 | 2 | AX₄E₂ | 八面体 | 平面正方形 | 90° | XeF₄ |
+
+![[media/zgxg-vsepr-summary-table.jpg]]
 
 ## 三、核心原理
 
@@ -164,6 +166,8 @@ graph TD
 | 6 | 0 | 八面体 | 八面体 | 90° | SF₆ |
 | 6 | 1 | 八面体 | 四方锥 | — | BrF₅ |
 | 6 | 2 | 八面体 | 平面正方形 | 90° | XeF₄ |
+
+![[media/12-21-vsepr-ax5-ax6-molecular-geometries.jpg]]
 
 ## 五、常见分类或情形
 
@@ -299,7 +303,7 @@ graph TD
 
 ## 十五、待完善项
 
-- [待填充]
+- 暂无
 
 
 ```dataview

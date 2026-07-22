@@ -5,41 +5,122 @@
  */
 import * as fs from 'fs/promises';
 import * as path from 'path';
-import { exec } from 'child_process';
-import { promisify } from 'util';
-const execAsync = promisify(exec);
+// 统一排除目录（与原 shell 命令的 --exclude-dir / ! -path 规则保持一致）
+const EXCLUDED_DIRS = new Set(['.git', '.claude', '.trash', 'node_modules']);
+/**
+ * 递归遍历文件（纯 Node 实现，Windows/POSIX/中文路径通用）
+ * @param root 起始目录
+ * @param filter 文件名过滤（如仅 .md），不传则收集所有文件
+ */
+async function walkFiles(root, filter) {
+    const results = [];
+    async function walk(dir) {
+        let entries;
+        try {
+            entries = await fs.readdir(dir, { withFileTypes: true });
+        }
+        catch {
+            return; // 目录不可读时跳过
+        }
+        for (const entry of entries) {
+            const full = path.join(dir, entry.name);
+            if (entry.isDirectory()) {
+                if (!EXCLUDED_DIRS.has(entry.name)) {
+                    await walk(full);
+                }
+            }
+            else if (entry.isFile()) {
+                if (!filter || filter(entry.name)) {
+                    results.push(full);
+                }
+            }
+        }
+    }
+    await walk(root);
+    return results;
+}
+/**
+ * 把 glob 模式转正则（支持 * 单段通配、** 跨目录、? 单字符）
+ */
+function globToRegExp(glob) {
+    const normalized = glob.replace(/\\/g, '/');
+    let re = '';
+    let i = 0;
+    while (i < normalized.length) {
+        const c = normalized[i];
+        if (c === '*') {
+            if (normalized[i + 1] === '*') {
+                if (normalized[i + 2] === '/') {
+                    re += '(?:.*/)?'; // '**/' 匹配零级或多级目录
+                    i += 3;
+                }
+                else {
+                    re += '.*';
+                    i += 2;
+                }
+            }
+            else {
+                re += '[^/]*'; // '*' 不跨目录段
+                i += 1;
+            }
+        }
+        else if (c === '?') {
+            re += '[^/]';
+            i += 1;
+        }
+        else {
+            re += c.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            i += 1;
+        }
+    }
+    return new RegExp(`^${re}$`);
+}
+/**
+ * 转义正则特殊字符
+ */
+function escapeRegExp(s) {
+    return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
 /**
  * 执行 grep 搜索
  */
 async function grepSearch(query, vaultRoot, scope, caseSensitive) {
     const results = [];
+    // query 按正则处理（与原 grep 行为一致）；非法正则回退为字面量匹配
+    let regex;
+    const flags = caseSensitive ? 'g' : 'gi';
     try {
-        const searchPath = scope ? path.join(vaultRoot, scope) : vaultRoot;
-        const caseFlag = caseSensitive ? '' : '-i';
-        // 排除 .git/.claude/trash/node_modules
-        const excludePattern = '--exclude-dir=.git --exclude-dir=.claude --exclude-dir=.trash --exclude-dir=node_modules';
-        const { stdout } = await execAsync(`grep -rn ${caseFlag} ${excludePattern} "${query}" "${searchPath}" --include="*.md"`, { timeout: 30000, maxBuffer: 1024 * 1024 * 10 });
-        const lines = stdout.trim().split('\n').filter(l => l.length > 0);
-        for (const line of lines) {
-            // 格式: file:line:content
-            const match = line.match(/^(.+?):(\d+):(.+)$/);
-            if (match) {
-                const [, file, lineNum, content] = match;
-                const relativeFile = path.relative(vaultRoot, file);
+        regex = new RegExp(query, flags);
+    }
+    catch {
+        regex = new RegExp(escapeRegExp(query), flags);
+    }
+    const searchPath = scope ? path.join(vaultRoot, scope) : vaultRoot;
+    // 一次遍历收集所有结果，避免重复读盘
+    const files = await walkFiles(searchPath, name => name.endsWith('.md'));
+    for (const file of files) {
+        let content;
+        try {
+            content = await fs.readFile(file, 'utf-8');
+        }
+        catch {
+            continue; // 读失败的文件跳过
+        }
+        // 兼容 LF/CRLF
+        const lines = content.split(/\r?\n/);
+        for (let i = 0; i < lines.length; i++) {
+            const lineText = lines[i];
+            regex.lastIndex = 0;
+            const m = regex.exec(lineText);
+            if (m) {
                 results.push({
-                    file: relativeFile,
-                    line: parseInt(lineNum),
-                    column: content.indexOf(query) + 1,
-                    match: content.trim(),
-                    context: content.trim()
+                    file: path.relative(vaultRoot, file),
+                    line: i + 1,
+                    column: m.index + 1,
+                    match: lineText.trim(),
+                    context: lineText.trim()
                 });
             }
-        }
-    }
-    catch (error) {
-        // grep 返回空结果时会抛出异常
-        if (error.code !== 1) {
-            throw error;
         }
     }
     return results;
@@ -47,17 +128,21 @@ async function grepSearch(query, vaultRoot, scope, caseSensitive) {
 /**
  * 执行 glob 搜索
  */
-async function globSearch(pattern, vaultRoot) {
-    try {
-        const { stdout } = await execAsync(`find "${vaultRoot}" -name "${pattern}" -type f ! -path "*/.git/*" ! -path "*/.claude/*" ! -path "*/.trash/*" ! -path "*/node_modules/*"`, { timeout: 10000 });
-        return stdout.trim()
-            .split('\n')
-            .filter(f => f.length > 0)
-            .map(f => path.relative(vaultRoot, f));
+async function globSearch(pattern, vaultRoot, scope) {
+    const searchPath = scope ? path.join(vaultRoot, scope) : vaultRoot;
+    const hasSep = /[/\\]/.test(pattern);
+    const regex = globToRegExp(pattern);
+    const files = await walkFiles(searchPath);
+    const results = [];
+    for (const file of files) {
+        const relativeFile = path.relative(vaultRoot, file);
+        // 含路径分隔符的模式对相对路径整体匹配（支持 **），否则只匹配文件名（与 find -name 一致）
+        const target = hasSep ? relativeFile.replace(/\\/g, '/') : path.basename(file);
+        if (regex.test(target)) {
+            results.push(relativeFile);
+        }
     }
-    catch {
-        return [];
-    }
+    return results.sort();
 }
 /**
  * 从缓存加载反向索引
@@ -113,7 +198,7 @@ export async function handleKbSearch(args, vaultRoot) {
                         error: { code: 'MISSING_PATTERN', detail: 'glob 搜索需要 pattern 参数' }
                     };
                 }
-                const results = await globSearch(pattern, vaultRoot);
+                const results = await globSearch(pattern, vaultRoot, scope);
                 return { success: true, type: 'glob', results };
             }
             case 'crossref': {
@@ -206,4 +291,3 @@ export const kbSearchTool = {
         required: ['type']
     }
 };
-//# sourceMappingURL=kb_search.js.map

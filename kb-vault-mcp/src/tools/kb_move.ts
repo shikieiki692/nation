@@ -7,10 +7,63 @@ import * as fs from 'fs/promises';
 import * as path from 'path';
 import { MoveResult } from '../types.js';
 import { StateManager } from '../state/manager.js';
-import { exec } from 'child_process';
-import { promisify } from 'util';
 
-const execAsync = promisify(exec);
+// 统一排除目录（与 kb_search/kb_index/kb_delete 保持一致）
+const EXCLUDED_DIRS = new Set(['.git', '.claude', '.trash', 'node_modules']);
+
+/**
+ * 递归遍历 vault 内所有 .md 文件（纯 Node 实现，Windows/POSIX/中文路径通用）
+ */
+async function walkMarkdownFiles(root: string): Promise<string[]> {
+  const results: string[] = [];
+
+  async function walk(dir: string): Promise<void> {
+    let entries;
+    try {
+      entries = await fs.readdir(dir, { withFileTypes: true });
+    } catch {
+      return; // 目录不可读时跳过
+    }
+    for (const entry of entries) {
+      const full = path.join(dir, entry.name);
+      if (entry.isDirectory()) {
+        if (!EXCLUDED_DIRS.has(entry.name)) {
+          await walk(full);
+        }
+      } else if (entry.isFile() && entry.name.endsWith('.md')) {
+        results.push(full);
+      }
+    }
+  }
+
+  await walk(root);
+  return results;
+}
+
+/**
+ * 提取文本中的所有 wikilink 目标（去掉 # 锚点和 | 别名）
+ */
+function extractWikilinkTargets(content: string): string[] {
+  const targets: string[] = [];
+  const re = /\[\[([^\]]+?)\]\]/g;
+  let m: RegExpExecArray | null;
+  while ((m = re.exec(content)) !== null) {
+    const target = m[1].split('#')[0].split('|')[0].trim();
+    if (target) {
+      targets.push(target);
+    }
+  }
+  return targets;
+}
+
+/**
+ * 判断 wikilink 目标是否指向指定文件名
+ * 兼容 [[文件名]]、[[路径/文件名]]、[[文件名|别名]]、[[文件名#锚点]]，正/反斜杠均可
+ */
+function linkTargetsFile(target: string, fileName: string): boolean {
+  const base = target.replace(/\\/g, '/').split('/').pop() || target;
+  return base === fileName || base === `${fileName}.md`;
+}
 
 /**
  * 查找引用指定文件的 wikilink
@@ -18,27 +71,36 @@ const execAsync = promisify(exec);
 async function findReferences(filePath: string, vaultRoot: string): Promise<string[]> {
   const fileName = path.basename(filePath, path.extname(filePath));
   const references: string[] = [];
-  
-  try {
-    // 使用 grep 查找 wikilink 引用
-    const { stdout } = await execAsync(
-      `grep -r "\\[\\[${fileName}\\]\\]" "${vaultRoot}" --include="*.md" -l`,
-      { timeout: 10000 }
-    );
-    
-    const files = stdout.trim().split('\n').filter(f => f.length > 0);
-    
+
+  // 统一为正斜杠用于自身路径比较
+  const normalize = (p: string) => p.replace(/\\/g, '/');
+  const selfNorm = normalize(filePath);
+
+  // 一次遍历收集所有结果
+  const files = await walkMarkdownFiles(vaultRoot);
+
+  for (const file of files) {
+    const relativePath = path.relative(vaultRoot, file);
+
     // 排除自身
-    for (const file of files) {
-      const relativePath = path.relative(vaultRoot, file);
-      if (relativePath !== filePath && !relativePath.endsWith(filePath)) {
-        references.push(relativePath);
-      }
+    const relNorm = normalize(relativePath);
+    if (relNorm === selfNorm || relNorm.endsWith(selfNorm)) {
+      continue;
     }
-  } catch (error) {
-    // grep 返回空结果时会抛出异常，忽略
+
+    let content: string;
+    try {
+      content = await fs.readFile(file, 'utf-8');
+    } catch {
+      continue; // 读失败的文件跳过
+    }
+
+    const targets = extractWikilinkTargets(content);
+    if (targets.some(t => linkTargetsFile(t, fileName))) {
+      references.push(relativePath);
+    }
   }
-  
+
   return references;
 }
 

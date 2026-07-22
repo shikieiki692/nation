@@ -60,6 +60,11 @@ images_note: "机理可用文字/LaTeX描述，无需配图"
 key_images: []
 teaching_ready: false
 source_notes: []
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第5章-有机反应]]"
+    asset_id: "Clayden Ch5"
+    asset_type: "书籍提炼"
+    asset_summary: "有机反应教材主干，含亲核取代、氯化试剂、SOCl₂机理"
 ---
 
 # SOCl₂ 氯化（Thionyl Chloride Chlorination）

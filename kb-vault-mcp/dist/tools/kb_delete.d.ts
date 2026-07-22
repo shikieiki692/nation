@@ -50,4 +50,3 @@ export declare const kbDeleteTool: {
         required: string[];
     };
 };
-//# sourceMappingURL=kb_delete.d.ts.map

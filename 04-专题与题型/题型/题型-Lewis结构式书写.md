@@ -1,6 +1,11 @@
 ---
 title: "题型-Lewis结构式书写"
 type: 题型
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-普化原理-第12章-化学键]]"
+    asset_id: "Ch12-Lewis"
+    asset_type: "书籍提炼"
+    asset_summary: "Lewis结构式书写规则：骨架连接、孤对电子分配、形式电荷最小化、共振结构"
 subject: 化学
 status: 可用
 stage: draft

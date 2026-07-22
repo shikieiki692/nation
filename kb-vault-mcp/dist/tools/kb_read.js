@@ -119,4 +119,3 @@ export const kbReadTool = {
         required: ['path']
     }
 };
-//# sourceMappingURL=kb_read.js.map

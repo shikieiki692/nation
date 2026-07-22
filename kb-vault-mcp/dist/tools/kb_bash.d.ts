@@ -32,4 +32,3 @@ export declare const kbBashTool: {
         required: string[];
     };
 };
-//# sourceMappingURL=kb_bash.d.ts.map

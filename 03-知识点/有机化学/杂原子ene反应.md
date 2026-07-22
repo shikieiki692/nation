@@ -36,6 +36,11 @@ template_version: v1.3
 updated: 2026-05-24
 teaching_ready: false
 source_notes: []
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第35章-σ迁移和电环化反应]]"
+    asset_id: "Clayden Ch35"
+    asset_type: "书籍提炼"
+    asset_summary: "σ迁移和电环化教材主干，含ene反应、杂原子变体、立体化学"
 ---
 
 # 杂原子 Ene 反应

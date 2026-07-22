@@ -190,6 +190,7 @@ export class StateManager {
             return child?.state === 'ARCHIVED';
         });
     }
+    // 当前无调用方（H-V02 预留，不要删除）
     /**
      * 增加 reworkCount
      */
@@ -360,18 +361,38 @@ export class StateManager {
                 children: task.children,
                 awaitingChildren: task.awaitingChildren,
                 dirtyModules: Array.from(task.dirtyModules)
-            }))
+            })),
+            readRegistry: Array.from(this.session.context.readRegistry.entries())
         };
-        // 追加写入
+        // 原子追加写入：读-拼-写临时文件-rename，避免进程崩溃留下半行 JSONL
         const line = JSON.stringify(snapshot) + '\n';
-        await fs.appendFile(checkpointPath, line, 'utf-8');
+        await this.atomicAppend(checkpointPath, line);
         // 检查是否需要 rotate
         const content = await fs.readFile(checkpointPath, 'utf-8');
         const lines = content.trim().split('\n');
         if (lines.length > MAX_LINES) {
             await this.rotateCheckpoint(checkpointPath, lines);
+            // 轮换后 checkpoint.jsonl 已被 rename 走，立即原子写回最新快照，消除恢复空窗
+            await this.atomicAppend(checkpointPath, line);
         }
         this.session.lastCheckpoint = new Date().toISOString();
+    }
+    /**
+     * 原子追加：读出现有内容，拼接后写入临时文件，再 rename 替换
+     * rename 在 win32/posix 均为原子替换，崩溃时要么旧内容要么新内容，不会有半行
+     */
+    async atomicAppend(filePath, line) {
+        let existing = '';
+        try {
+            existing = await fs.readFile(filePath, 'utf-8');
+        }
+        catch (error) {
+            if (error.code !== 'ENOENT')
+                throw error;
+        }
+        const tmpPath = `${filePath}.tmp-${process.pid}`;
+        await fs.writeFile(tmpPath, existing + line, 'utf-8');
+        await fs.rename(tmpPath, filePath);
     }
     /**
      * Rotate checkpoint files
@@ -412,9 +433,21 @@ export class StateManager {
             // 按 taskId 分组，取最后一行
             const taskSnapshots = new Map();
             let lastSession = null;
+            let lastReadRegistry = null;
             for (const line of lines) {
-                const snapshot = JSON.parse(line);
+                let snapshot;
+                try {
+                    snapshot = JSON.parse(line);
+                }
+                catch {
+                    // 跳过损坏行（历史遗留的半行 JSONL），避免整份检查点恢复失败
+                    continue;
+                }
                 lastSession = snapshot.session;
+                // 恢复 readRegistry（旧 checkpoint 行无此字段时保持上一有效值）
+                if (Array.isArray(snapshot.readRegistry)) {
+                    lastReadRegistry = snapshot.readRegistry;
+                }
                 for (const task of snapshot.tasks) {
                     taskSnapshots.set(task.id, task);
                 }
@@ -430,7 +463,8 @@ export class StateManager {
                     currentTaskId: lastSession.currentTaskId
                 },
                 tasks: Array.from(taskSnapshots.entries()),
-                readRegistry: [],
+                // 旧 checkpoint 没有 readRegistry 字段时降级为空表（向后兼容）
+                readRegistry: lastReadRegistry || [],
                 timestamp: new Date().toISOString()
             };
         }
@@ -554,4 +588,3 @@ export class StateManager {
         return { modules, syncChecklist };
     }
 }
-//# sourceMappingURL=manager.js.map

@@ -29,6 +29,11 @@ key_images: []
 updated: 2026-05-25
 teaching_ready: false
 source_notes: []
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第1章-什么是有机化学]]"
+    asset_id: "Clayden Ch1"
+    asset_type: "书籍提炼"
+    asset_summary: "有机化学入门教材主干，含结构表示法、Kekulé式、Lewis结构"
 ---
 
 # Kekulé 式（Kekulé Structure）
@@ -333,7 +338,7 @@ CH₃-CH=CH-CH₃
 | **价键理论现代发展**| 共振论与分子轨道理论的融合 | 理论化学 |
 
 ## 十四、外部资料出处
-- [待填充]
+- 暂无对应资料提炼文件，待补充外部教材来源。
 
 ## 十五、待完善项
-- [待填充]
+- 暂无

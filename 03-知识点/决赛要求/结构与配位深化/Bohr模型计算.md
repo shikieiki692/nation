@@ -17,6 +17,12 @@ prerequisite: [原子结构深化]
 problem_types: [题型-Bohr能级计算]
 difficulty: 4
 importance: 4
+updated: 2026-07-22
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Atkins物理化学-主题7-8-9-量子理论与结构]]"
+    asset_id: "Atkins主题7-8-9"
+    asset_type: "书籍提炼"
+    asset_summary: "量子理论与原子分子结构教材主干，含Bohr模型、箱中粒子、分子轨道"
 status: 已填充
 stage: published
 sources: []
@@ -473,4 +479,4 @@ SORT year DESC, difficulty ASC
 
 ## 十五、待完善项
 
-- [待填充]
+- 暂无

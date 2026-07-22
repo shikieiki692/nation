@@ -48,4 +48,3 @@ export declare class HookRuntime {
      */
     resetOperationCount(): void;
 }
-//# sourceMappingURL=hook-runtime.d.ts.map

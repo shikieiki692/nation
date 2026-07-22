@@ -30,6 +30,11 @@ teaching_ready: false
 source_notes: []
 key_images: []
 updated: 2026-05-06
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第26章-羟醛反应和Claisen反应]]"
+    asset_id: "Clayden Ch26"
+    asset_type: "书籍提炼"
+    asset_summary: "羟醛与Claisen教材主干，含硫叶立德、环氧化、羰基转化"
 ---
 
 # Corey–Chaykovsky 反应（JCC 反应）
@@ -244,19 +249,19 @@ $$
 
 ## 十二、🎯 教学视角
 
-- [待填充]
+- 暂无
 
 ## 十三、竞赛拓展
 
-- [待填充]
+- 暂无
 
 ## 十四、外部资料出处
 
-- [待填充]
+- 暂无对应资料提炼文件，待补充外部教材来源。
 
 ## 十五、待完善项
 
-- [待填充]
+- 暂无
 ```dataview
 TABLE file.name AS "文件名", year AS "年份", type AS "题型", difficulty AS "难度"
 FROM "04-题库"

@@ -697,12 +697,18 @@ def build_report_markdown(report: Report, scan_mode: str, target_dirs: list[str]
     lines.append("")
     lines.append("| 指标 | 值 |")
     lines.append("|:---|---:|")
+    # quick 模式跳过链接/断链类扫描，这些指标并未真实统计；
+    # 显示"未检测"而非误导性的 0，避免下游监控把假 0 当成真实清零（full 模式行为不变）。
+    link_checks_skipped = scan_mode == "quick"
+    def _stat(key: str) -> str:
+        return "未检测" if link_checks_skipped else str(report.stats[key])
+
     lines.append(f"| 受检文件 | {report.stats['files_checked']} |")
     lines.append(f"| 有 frontmatter | {report.stats['files_with_frontmatter']} |")
-    lines.append(f"| 断链 | {report.stats['broken_wikilinks']} |")
-    lines.append(f"| 图片缺失 | {report.stats['broken_images']} |")
-    lines.append(f"| 孤儿图片 | {report.stats['orphan_images']} |")
-    lines.append(f"| 孤儿文件 | {report.stats['orphan_files']} |")
+    lines.append(f"| 断链 | {_stat('broken_wikilinks')} |")
+    lines.append(f"| 图片缺失 | {_stat('broken_images')} |")
+    lines.append(f"| 孤儿图片 | {_stat('orphan_images')} |")
+    lines.append(f"| 孤儿文件 | {_stat('orphan_files')} |")
     lines.append(f"| 过期内容 | {report.stats['stale_files']} |")
     lines.append(f"| 标题跳跃 | {report.stats['heading_skips']} |")
     lines.append("")
@@ -767,15 +773,19 @@ def build_report_markdown(report: Report, scan_mode: str, target_dirs: list[str]
 def save_metrics(report: Report) -> None:
     """将关键指标追加到质量时序文件。"""
     today = datetime.date.today().isoformat()
+    # quick 模式跳过链接/断链类扫描，这些指标并未真实统计（stats 里是初始值 0）。
+    # 写入 null 哨兵值表示"未检测"，避免把假 0 写入时序、让监控误以为断链清零；
+    # full 模式照常写入真实数值。quick_mode 由 main() 在调用前挂到 report 上。
+    quick_mode = getattr(report, "quick_mode", False)
     metrics = {
         "date": today,
         "files_checked": report.stats["files_checked"],
         "errors": len(report.errors),
         "warnings": len(report.warnings),
         "infos": len(report.infos),
-        "broken_wikilinks": report.stats["broken_wikilinks"],
-        "orphan_files": report.stats["orphan_files"],
-        "orphan_images": report.stats["orphan_images"],
+        "broken_wikilinks": None if quick_mode else report.stats["broken_wikilinks"],
+        "orphan_files": None if quick_mode else report.stats["orphan_files"],
+        "orphan_images": None if quick_mode else report.stats["orphan_images"],
         "stale_files": report.stats["stale_files"],
     }
     METRICS_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -923,7 +933,9 @@ def main() -> None:
     report_path = REPORT_DIR / f"{today}-validation.md"
     report_path.write_text(md, encoding="utf-8")
 
-    # 保存指标
+    # 保存指标（把扫描模式挂到 report 上，供 save_metrics 识别 quick 模式，
+    # quick 模式下链接类指标写入 null 哨兵而非假 0）
+    report.quick_mode = quick
     save_metrics(report)
 
     # 如果是全量模式，构建依赖图

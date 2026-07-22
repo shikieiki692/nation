@@ -8,6 +8,7 @@ syllabus_module: 基础要求-有机化学
 phase: B
 status: 已提炼
 updated: 2026-05-10
+target_kp: ["[[有机化学基础]]", "[[有机反应机理]]"]
 ---
 
 # 提炼-ABOC-第12章-习题解析

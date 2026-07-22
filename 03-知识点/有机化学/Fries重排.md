@@ -202,7 +202,7 @@ $$
 
 ## 十四、外部资料出处
 
-- [待补充]
+- 来源见 frontmatter source_extracts
 
 ---
 

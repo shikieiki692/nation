@@ -322,11 +322,11 @@ $$
 
 ## 十四、外部资料出处
 
-- [待填充]
+- 暂无对应资料提炼文件，待补充外部教材来源。
 
 ## 十五、待完善项
 
-- [待填充]
+- 暂无
 ```dataview
 TABLE file.name AS "文件名", year AS "年份", type AS "题型", difficulty AS "难度"
 FROM "04-题库"

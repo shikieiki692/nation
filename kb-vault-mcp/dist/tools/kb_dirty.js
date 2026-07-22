@@ -107,4 +107,3 @@ export const kbDirtyTool = {
         required: ['action']
     }
 };
-//# sourceMappingURL=kb_dirty.js.map

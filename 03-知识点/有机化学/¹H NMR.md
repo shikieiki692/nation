@@ -56,13 +56,11 @@ source_type:
   - 教材
   - 资料提炼
 review_cycle: 30d
-has_images: false
-image_count: 0
-images_priority: low
-images_note: "当前以文字、公式或表格表达为主，暂未单独配置图像文件；后续备课如需增强直观性，再按需补图。"
-teaching_ready: false
-source_notes: []
-key_images: []
+has_images: true
+image_count: 2
+images_priority: high
+images_note: "已嵌入 NMR 裂分模式图和化学位移屏蔽图，来源于 ABOC 有机化学教材。"
+key_images: [media/aboc-nmr-splitting-pattern.jpg, media/aboc-nmr-chemical-shielding.jpg]
 updated: 2026-05-25
 source_extracts:
   - "[[07-资料提炼/书籍提炼/提炼-Clayden-第13章-核磁共振氢谱]]"
@@ -138,7 +136,6 @@ source_extracts:
 ---
 
 ## 十二、🎯 教学视角
-- [待补充]
 
 ## 十三、竞赛拓展
 
@@ -186,6 +183,9 @@ $$
 
 **影响因素**：
 
+![化学位移与屏蔽效应](media/aboc-nmr-chemical-shielding.jpg)
+*图：化学位移的屏蔽效应示意图。电子云密度高的区域（如烷基）产生屏蔽作用，化学位移向高场移动（δ 小）；电负性基团（如 O、N、Cl）通过诱导效应降低电子云密度，产生去屏蔽作用，化学位移向低场移动（δ 大）。来源：ABOC 有机化学教材。*
+
 | 因素 | 效应 | 例子 |
 |:---|:---|:---|
 | **诱导效应** | 电负性基团去屏蔽 → δ↑ | CH₃–Cl δ 3.0 vs CH₄ δ 0.2 |
@@ -217,6 +217,9 @@ $$
 ### 3.3 裂分与偶合（Splitting & Coupling）
 
 **n+1 规则**：相邻 n 个**磁等价**氢 → 裂分为 n+1 重峰
+
+![NMR 裂分模式图](media/aboc-nmr-splitting-pattern.jpg)
+*图：¹H NMR 裂分模式示意图。单峰（s）、双峰（d）、三重峰（t）、四重峰（q）的形成原理，以及 n+1 规则的应用。相邻 n 个等价氢导致峰裂分为 n+1 重峰，强度比符合 Pascal 三角形。来源：ABOC 有机化学教材。*
 
 | 相邻 H 数 | 裂分模式 | 峰数 | 相对强度 |
 |:---:|:---|:---:|:---|

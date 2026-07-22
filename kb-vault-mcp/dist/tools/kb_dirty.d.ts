@@ -43,4 +43,3 @@ export declare const kbDirtyTool: {
         required: string[];
     };
 };
-//# sourceMappingURL=kb_dirty.d.ts.map

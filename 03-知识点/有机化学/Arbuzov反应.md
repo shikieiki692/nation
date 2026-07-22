@@ -35,6 +35,11 @@ teaching_ready: false
 source_notes: []
 key_images: []
 updated: 2026-05-06
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第27章-有机化学中的硫硅磷]]"
+    asset_id: "Clayden Ch27"
+    asset_type: "书籍提炼"
+    asset_summary: "硫硅磷教材主干，含磷酸酯、Arbuzov重排、磷化学基础"
 ---
 
 # Arbuzov 反应（Michaelis-Arbuzov Reaction）
@@ -242,19 +247,19 @@ $$\ce{P(OEt)3 + Br-CH2-CO2Et ->[\Delta,\,140℃] (EtO)2P(=O)-CH2-CO2Et + EtBr}$$
 
 ## 十二、🎯 教学视角
 
-- [待填充]
+- 暂无
 
 ## 十三、竞赛拓展
 
-- [待填充]
+- 暂无
 
 ## 十四、外部资料出处
 
-- [待填充]
+- 暂无对应资料提炼文件，待补充外部教材来源。
 
 ## 十五、待完善项
 
-- [待填充]
+- 暂无
 ```dataview
 TABLE file.name AS "文件名", year AS "年份", type AS "题型", difficulty AS "难度"
 FROM "04-题库"

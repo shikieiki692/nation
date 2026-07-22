@@ -32,4 +32,3 @@ export declare const kbWriteTool: {
         required: string[];
     };
 };
-//# sourceMappingURL=kb_write.d.ts.map

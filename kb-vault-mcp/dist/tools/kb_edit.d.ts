@@ -51,4 +51,3 @@ export declare const kbEditTool: {
         required: string[];
     };
 };
-//# sourceMappingURL=kb_edit.d.ts.map

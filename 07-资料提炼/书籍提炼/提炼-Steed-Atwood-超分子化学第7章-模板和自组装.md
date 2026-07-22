@@ -29,6 +29,12 @@ handout_plan:
     priority: P2
     source_sections: ["第7章 模板和自组装（模板效应、配位自组装、氢键自组装、索烃/轮烷、螺旋状络合物）"]
     estimated_pages: 6
+  - target: "配位化合物基础"
+    status: pending
+    priority: P2
+    source_sections: ["第7章 模板和自组装（模板效应、配位自组装、氢键自组装、索烃/轮烷、螺旋状络合物）"]
+    estimated_pages: 6
+target_kp: ["[[超分子化学]]", "[[自组装]]", "[[模板效应]]", "[[机械互锁分子]]", "[[索烃和轮烷]]"]
 ---
 
 # 提炼：Steed & Atwood 超分子化学第7章 — 模板和自组装

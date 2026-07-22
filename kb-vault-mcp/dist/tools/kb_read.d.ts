@@ -37,4 +37,3 @@ export declare const kbReadTool: {
         required: string[];
     };
 };
-//# sourceMappingURL=kb_read.d.ts.map

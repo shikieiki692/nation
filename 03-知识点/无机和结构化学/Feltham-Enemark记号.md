@@ -39,6 +39,11 @@ template_version: v1.3
 updated: 2026-05-24
 teaching_ready: false
 source_notes: []
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-无机化学第6版-第20章-配位化学理论]]"
+    asset_id: "Weller Ch20"
+    asset_type: "书籍提炼"
+    asset_summary: "配位化学理论教材主干，含晶体场理论、配位场理论、电子光谱"
 ---
 
 # Feltham-Enemark记号

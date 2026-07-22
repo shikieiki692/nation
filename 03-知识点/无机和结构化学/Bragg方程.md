@@ -1,4 +1,4 @@
----
+﻿---
 title: Bragg方程
 aliases:
   - 布拉格方程
@@ -28,7 +28,7 @@ problem_types:
   - 晶面间距计算
   - 晶胞参数反推
   - XRD指标化
-difficulty:
+difficulty: 2
 importance: 4
 status: 已填充
 stage: published

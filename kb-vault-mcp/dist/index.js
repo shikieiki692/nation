@@ -34,7 +34,7 @@ const hookRuntime = new HookRuntime(stateManager, VAULT_ROOT);
  */
 const server = new Server({
     name: 'kb-vault-mcp',
-    version: '2.2.0',
+    version: '2.2.1',
 }, {
     capabilities: {
         tools: {},
@@ -152,7 +152,7 @@ async function main() {
     await server.connect(transport);
     console.error('KB Vault MCP Server 已启动');
     console.error(`Vault 根目录: ${VAULT_ROOT}`);
-    console.error('版本: 2.2.0 (Phase C)');
+    console.error('版本: 2.2.1 (Phase C)');
     console.error('组件: StateManager + Orchestrator + HookRuntime');
     console.error('工具: kb_read/write/edit/bash/session/gate/dirty/move/search/delete/index');
 }
@@ -160,4 +160,3 @@ main().catch((error) => {
     console.error('启动服务器失败:', error);
     process.exit(1);
 });
-//# sourceMappingURL=index.js.map

@@ -37,4 +37,3 @@ export declare const kbMoveTool: {
         required: string[];
     };
 };
-//# sourceMappingURL=kb_move.d.ts.map

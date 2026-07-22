@@ -4,4 +4,3 @@
  * Phase C: 增加 kb_search + kb_delete + kb_index
  */
 export {};
-//# sourceMappingURL=index.d.ts.map

@@ -1,6 +1,11 @@
 ---
 title: "题型-HSAB规则应用"
 type: 题型
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-无机化学第6版-第20章-配位化学理论]]"
+    asset_id: "Ch20-HSAB"
+    asset_type: "书籍提炼"
+    asset_summary: "HSAB软硬酸碱理论：酸碱分类、匹配规则、配合物稳定性与矿物溶解度预测"
 tags: [化竞, 题型]
 subject: 化学
 status: 已填充

@@ -10,7 +10,7 @@ syllabus_stage: 第三轮
 tags: [化竞, 资料提炼, 学而思, 有机化学, 第三轮]
 syllabus_codes: [39, 40, 43, 45, 46, 47, 48, 50]
 knowledge_points: [醛, 酮, 羰基亲核加成反应, 羰基化学, 羟基腈, Grignard反应, 亚胺, 烯胺, Beckmann重排, Baeyer-Villiger氧化, Cannizzaro反应]
-target_kp: ["[[03-知识点/有机化学/亚胺]]", "[[03-知识点/有机化学/烯胺]]", "[[03-知识点/有机化学/Beckmann重排]]", "[[03-知识点/有机化学/Cannizzaro反应]]"]
+target_kp: ["[[亚胺]]", "[[烯胺]]", "[[Beckmann重排]]", "[[Cannizzaro反应]]"]
 topics: [第三轮专题5-加成反应, 第三轮专题6-羰基化学与缩合反应, 第三轮专题7-重排反应, 第三轮专题11-有机合成与金属有机]
 problems_extracted: 15
 review_status: 待审核

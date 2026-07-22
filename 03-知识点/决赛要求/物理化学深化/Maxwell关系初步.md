@@ -30,6 +30,11 @@ images_note: "当前以文字、公式或表格表达为主，暂未单独配置
 teaching_ready: false
 key_images: []
 updated: 2026-06-14
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Atkins物理化学-主题2-3-热力学定律]]"
+    asset_id: "Atkins主题2-3"
+    asset_type: "书籍提炼"
+    asset_summary: "热力学定律教材主干，含热力学基本方程、Maxwell关系、偏导数转换"
 ---
 
 # Maxwell关系初步

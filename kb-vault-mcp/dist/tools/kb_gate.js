@@ -253,34 +253,18 @@ export async function handleKbGate(args, stateManager, hookRuntime, orchestrator
                         }
                     };
                 }
-                if (task.state !== 'CLOSING' && task.state !== 'VERIFYING') {
+                // 状态迁移表只允许 CLOSING→ARCHIVED（设计：verify→close→archive），
+                // 守卫与迁移表保持一致，archive 不再允许 VERIFYING 直接进入
+                if (task.state !== 'CLOSING') {
                     return {
                         success: false,
                         action,
                         error: {
                             code: 'INVALID_TASK_STATE',
-                            detail: `Task 当前在 ${task.state} 状态，只有 CLOSING 或 VERIFYING 状态可以归档`,
+                            detail: `Task 当前在 ${task.state} 状态，只有 CLOSING 状态可以归档（请先 action=close）`,
                             currentState: task.state
                         }
                     };
-                }
-                // Phase B: H-V02 REWORK 计数检查
-                if (hookRuntime && task.state === 'VERIFYING') {
-                    const reworkResult = hookRuntime.checkReworkLimit(task.id);
-                    if (!reworkResult.allowed) {
-                        // 转为 ERROR 状态
-                        stateManager.updateTaskState(task.id, 'ERROR');
-                        await stateManager.saveCheckpoint();
-                        return {
-                            success: false,
-                            action,
-                            requiresHumanIntervention: true,
-                            error: {
-                                code: 'REWORK_LIMIT_EXCEEDED',
-                                detail: `REWORK 次数超过限制（${reworkResult.reworkCount} > 2），需要人工干预`
-                            }
-                        };
-                    }
                 }
                 // 更新状态到 ARCHIVED
                 const success = stateManager.updateTaskState(task.id, 'ARCHIVED');
@@ -508,4 +492,3 @@ export const kbGateTool = {
         required: ['action']
     }
 };
-//# sourceMappingURL=kb_gate.js.map

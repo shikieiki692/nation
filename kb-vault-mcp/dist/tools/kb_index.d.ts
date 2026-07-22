@@ -38,4 +38,3 @@ export declare const kbIndexTool: {
         required: string[];
     };
 };
-//# sourceMappingURL=kb_index.d.ts.map

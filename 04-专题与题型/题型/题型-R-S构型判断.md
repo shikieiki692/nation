@@ -2,6 +2,11 @@
 title: "题型-R/S构型判断"
 aliases: ["题型-R-S构型判断"]
 type: 题型
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第2章-有机结构基础]]"
+    asset_id: "Ch2-stereochem"
+    asset_type: "书籍提炼"
+    asset_summary: "Cahn-Ingold-Prelog优先级规则、R/S构型判断、手性中心识别与立体化学基础"
 tags: [化竞, 题型]
 subject: 化学
 status: 已填充

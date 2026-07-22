@@ -41,4 +41,3 @@ export declare const kbSessionTool: {
         required: string[];
     };
 };
-//# sourceMappingURL=kb_session.d.ts.map

@@ -48,7 +48,7 @@ export class Orchestrator {
       
       // 30 分钟超时保护
       const timeout = setTimeout(() => {
-        console.log(`[AWAITING] Task ${parentTaskId} 超时，自动恢复 EXECUTING`);
+        process.stderr.write(`[AWAITING] Task ${parentTaskId} 超时，自动恢复 EXECUTING\n`);
         this.stateManager.updateTaskState(parentTaskId, 'EXECUTING');
         parentTask.awaitingChildren = [];
         this.childArchivedCallbacks.delete(parentTaskId);
