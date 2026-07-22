@@ -8,6 +8,7 @@ source_type: 书籍
 subject: 决赛要求
 syllabus_stage: 决赛
 tags: [化竞, 资料提炼, Atkins, 物理化学, 统计热力学, Boltzmann分布, 配分函数, 分子间相互作用, 偶极矩, 极化率, 氢键, 胶体, 表面膜]
+target_kp: [["[[统计热力学]]", "[[Boltzmann分布]]"]
 syllabus_codes: [决赛03, 决赛04, 决赛06, 决赛09]
 knowledge_points: [Boltzmann统计初步, 分子间相互作用深化, 胶体与表面活性剂, 胶束, 临界胶束浓度]
 topics: []

@@ -29,6 +29,11 @@ key_images: []
 updated: 2026-05-25
 teaching_ready: false
 source_notes: []
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第17章-消除反应]]"
+    asset_id: "Clayden-第17章-消除反应"
+    asset_type: "书籍提炼"
+    asset_summary: "E1cb反应相关内容"
 ---
 
 # E1cb 反应
@@ -203,7 +208,7 @@ E1cb 反应
 │   ├── [[Knoevenagel缩合]]（类似脱水）
 │   └── [[Claisen缩合]]（β-酮酯的类似消除）
 └── 应用
-    ├── [[α,β-不饱和羰基合成]]（脱水构建双键）
+    ├── α,β-不饱和羰基合成（脱水构建双键）
     └── [[Michael加成]]的前体（制备 Michael 受体）
 ```
 

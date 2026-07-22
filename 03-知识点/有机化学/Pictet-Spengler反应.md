@@ -36,6 +36,15 @@ teaching_ready: false
 source_notes: []
 key_images: []
 updated: 2026-05-25
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第9章-杂环合成]]"
+    asset_id: "ABOC-第9章-杂环合成"
+    asset_type: "书籍提炼"
+    asset_summary: "Pictet-Spengler反应相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Pictet-Spengler反应相关内容"
 ---
 # Pictet-Spengler 反应（Pictet-Spengler Reaction）
 - 总览：[[中国化学奥林匹克基本要求-总览]]
@@ -169,7 +178,7 @@ $$
 
 ## 八、与其他知识点的联系
 
-- **前置知识**：[[芳香胺]]、[[亚胺]]、[[SEAr定位规则]]
+- **前置知识**：芳香胺、[[亚胺]]、[[SEAr定位规则]]
 - **相关知识**：
   - "[[Bischler-Napieralski反应]]（异喹啉另一合成法）"
   - "[[Skraup合成]]（喹啉合成）"

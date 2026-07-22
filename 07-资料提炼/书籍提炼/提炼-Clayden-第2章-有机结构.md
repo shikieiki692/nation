@@ -10,6 +10,7 @@ chapter: "2"
 template_version: v1.3
 extracted_date: 2026-07-09
 status: 已提炼
+target_kp: [有机化学基础, 结构式, 同分异构]
 tags: [化竞, 有机化学, 结构, 官能团, 命名法, Clayden]
 handout_plan:
   - target: "有机化学基础"

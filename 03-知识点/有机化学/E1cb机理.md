@@ -35,6 +35,11 @@ images_priority: low
 key_images: []
 teaching_ready: false
 source_notes: []
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第17章-消除反应]]"
+    asset_id: "Clayden-第17章-消除反应"
+    asset_type: "书籍提炼"
+    asset_summary: "E1cb机理相关内容"
 ---
 
 # E1cb 机理（Elimination, unimolecular, conjugate base）

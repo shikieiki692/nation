@@ -6,6 +6,7 @@ source_type: 课堂实录
 subject: 无机和结构化学
 related_topic: "[[专题-碳族与硼族元素]]"
 related_kps: [硼化学, 硼酸盐, 碳的同素异形体, 二氧化硅结构, 惰性对效应, 镓, 氧化物, 石墨结构, 对角线规则, 硅基保护基, 离子极化, 分子晶体]
+target_kp: ["[[硼族元素]]", "[[碳族元素]]", "[[对角线规则]]"]
 applicable_rounds: [第一轮, 第二轮]
 status: 待审核
 created: 2026-06-23

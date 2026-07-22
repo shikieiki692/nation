@@ -10,6 +10,7 @@ chapter: "21"
 template_version: v1.3
 extracted_date: 2026-07-09
 status: 已提炼
+target_kp: [芳香性, Friedel-Crafts反应, 亲电取代]
 tags: [化竞, 有机化学, 芳香亲电取代, Friedel-Crafts, 定位效应, 活化, 钝化, 硝化, 卤化, 磺化, Clayden]
 handout_plan:
   - target: "有机化学基础"

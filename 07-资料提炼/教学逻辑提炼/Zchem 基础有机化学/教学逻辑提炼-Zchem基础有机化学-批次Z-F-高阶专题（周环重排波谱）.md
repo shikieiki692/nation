@@ -6,6 +6,7 @@ source_type: 网课课堂笔记
 subject: 有机化学
 related_topic: "[[第三轮总体备课框架]]"
 related_kps: [周环反应, Diels-Alder反应, 电环化反应, σ迁移反应, 重排反应, 红外光谱, 核磁共振, 质谱, 紫外可见光谱]
+target_kp: ["[[周环反应]]", "[[重排反应]]", "[[波谱分析]]", "[[NMR谱学]]"]
 applicable_rounds: [第三轮]
 status: 待审核
 pending_verifications: []

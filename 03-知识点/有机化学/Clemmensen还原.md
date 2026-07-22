@@ -12,6 +12,15 @@ stage: draft
 updated: 2026-06-29
 syllabus_code: [40]
 template_version: v1.3
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第23章-化学选择性和保护基]]"
+    asset_id: "Clayden-第23章-化学选择性和保护基"
+    asset_type: "书籍提炼"
+    asset_summary: "Clemmensen还原相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-上海中学竞赛课程-第四分册-芳香烃]]"
+    asset_id: "上海中学竞赛课程-第四分册-芳香烃"
+    asset_type: "书籍提炼"
+    asset_summary: "Clemmensen还原相关内容"
 ---
 
 # Clemmensen还原

@@ -7,6 +7,7 @@ chapter_title: 芳香族化合物与胺类化合物
 syllabus_module: 基础要求-有机化学
 phase: B
 status: 已提炼
+target_kp: [芳香性, 芳香亲电取代, 胺的化学, 苯胺]
 updated: 2026-05-10
 handout_plan:
   - target: "芳香烃与卤代烃"

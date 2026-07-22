@@ -1,6 +1,6 @@
 ---
 title: Grignard试剂
-aliases: [Grignard Reagent, 格氏试剂, RMgX]
+aliases: [Grignard Reagent, 格氏试剂, RMgX, Grignard反应]
 type: 知识点
 template_version: v1.3
 subject: 有机化学
@@ -29,6 +29,8 @@ key_images: []
 updated: 2026-05-25
 teaching_ready: false
 source_notes: []
+source_extracts:
+  - "[[07-资料提炼/书籍提炼/提炼-Clayden-第9章-有机金属试剂构建CC键]]"
 ---
 
 # Grignard 试剂
@@ -217,8 +219,8 @@ Grignard 试剂
 │   ├── [[Wurtz偶联]]（RMgX 与 R-X 的偶联副反应）
 │   └── [[有机还原反应]]（大位阻酮的副反应：单电子转移还原）
 └── 应用
-    ├── [[醇的合成]]（1°/2°/3° 醇的构建）
-    ├── [[羧酸合成]]（CO₂ 法增加一个碳）
+    ├── 醇的合成（1°/2°/3° 醇的构建）
+    ├── 羧酸合成（CO₂ 法增加一个碳）
     └── [[全合成]]（碳骨架延伸：环氧乙烷法增加两个碳）
 ```
 

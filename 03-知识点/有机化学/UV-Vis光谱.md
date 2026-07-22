@@ -36,6 +36,23 @@ source_notes: []
 key_images: []
 template_version: v1.3
 updated: 2026-05-25
+source_extracts:
+  - source_file: "[[07-资料提炼/赵鑫光-配位化合物-竞赛题集]]"
+    asset_id: "赵鑫光-配位化合物-竞赛题集"
+    asset_type: "题集提炼"
+    asset_summary: "UV-Vis光谱相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第10章-光谱与自由基]]"
+    asset_id: "ABOC-第10章-光谱与自由基"
+    asset_type: "书籍提炼"
+    asset_summary: "UV-Vis光谱相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "UV-Vis光谱相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第4章-分子结构]]"
+    asset_id: "Clayden-第4章-分子结构"
+    asset_type: "书籍提炼"
+    asset_summary: "UV-Vis光谱相关内容"
 ---
 
 # UV-Vis 光谱（紫外-可见光谱）

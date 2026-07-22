@@ -37,6 +37,15 @@ source_notes: []
 key_images: []
 template_version: v1.3
 updated: 2026-05-25
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第6章-缩合反应]]"
+    asset_id: "ABOC-第6章-缩合反应"
+    asset_type: "书籍提炼"
+    asset_summary: "Neber重排相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Neber重排相关内容"
 ---
 
 # Neber 重排（Neber Rearrangement）
@@ -130,7 +139,7 @@ $$
 
 ## 八、与其他知识点的联系
 
-- **前置知识**：[[肟的化学]]、[[重排反应]]
+- **前置知识**：肟的化学、[[重排反应]]
 - **相关知识**：[[Beckmann重排]]
 
 ---
@@ -164,8 +173,8 @@ $$
 
 ### 12.1 学习路径
 
-- **前置**：[[肟的化学]]、[[Beckmann重排]]
-- **后续**：[[氨基酮]]
+- **前置**：肟的化学、[[Beckmann重排]]
+- **后续**：氨基酮
 
 ### 12.4 现实类比
 

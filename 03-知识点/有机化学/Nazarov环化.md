@@ -37,6 +37,27 @@ teaching_ready: false
 source_notes: []
 key_images: []
 updated: 2026-05-25
+source_extracts:
+  - source_file: "[[07-资料提炼/提炼-第32届初赛试题解析]]"
+    asset_id: "第32届初赛试题解析"
+    asset_type: "真题解析"
+    asset_summary: "Nazarov环化相关内容"
+  - source_file: "[[07-资料提炼/知识点索引]]"
+    asset_id: "知识点索引"
+    asset_type: "资料提炼"
+    asset_summary: "Nazarov环化相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第7章-周环反应]]"
+    asset_id: "ABOC-第7章-周环反应"
+    asset_type: "书籍提炼"
+    asset_summary: "Nazarov环化相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Nazarov环化相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第35章-σ重排和电环化反应]]"
+    asset_id: "Clayden-第35章-σ重排和电环化反应"
+    asset_type: "书籍提炼"
+    asset_summary: "Nazarov环化相关内容"
 ---
 # Nazarov 环化（Nazarov Cyclization）
 - 总览：[[中国化学奥林匹克基本要求-总览]]
@@ -189,7 +210,7 @@ $$
 - **前置知识**：[[电环化反应]]、[[前线轨道理论]]
 - **相关知识**：
   - "[[环加成反应]]（同为周环反应）"
-  - "[[阳离子化学]]（Nazarov 的离子特性）"
+  - "阳离子化学（Nazarov 的离子特性）"
 - **应用知识**：
   - "[[题型-有机合成设计]]（五元环构建）"
   - "[[天然产物合成]]（萜类、前列腺素合成）"

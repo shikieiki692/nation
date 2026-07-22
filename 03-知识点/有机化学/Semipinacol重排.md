@@ -35,6 +35,11 @@ images_note: 包含半频哪醇重排机理图、Corey长叶烯合成应用图
 key_images: []
 teaching_ready: false
 source_notes: []
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第36章-碎片化与重排]]"
+    asset_id: "Clayden-第36章-碎片化与重排"
+    asset_type: "书籍提炼"
+    asset_summary: "Semipinacol重排相关内容"
 ---
 
 # Semipinacol 重排（Semipinacol Rearrangement）
@@ -90,7 +95,7 @@ $$
 
 > 半频哪醇重排中，仍是羟基"推"迁移基团，而"拉"迁移基团的则由水换成了其他离去基团。
 
-![[mineru/中文版clayden-chinese-34-36907-999_images/9de12b570b571f3302ae19a03b0b30f00ddd7d18a7f0dec44266e4867943c68b.jpg]]
+!mineru/中文版clayden-chinese-34-36907-999_images/9de12b570b571f3302ae19a03b0b30f00ddd7d18a7f0dec44266e4867943c68b.jpg
 
 ### 3.2 区域选择性优势
 
@@ -213,12 +218,12 @@ Semipinacol 重排
 │   ├── [[Pinacol重排]]（机理对照）
 │   └── [[立体化学]]（反叠要求）
 ├── 平行反应
-│   ├── [[Tiffeneau-Demjanov重排]]（氨基醇变体）
+│   ├── Tiffeneau-Demjanov重排（氨基醇变体）
 │   ├── [[Wagner-Meerwein重排]]（同为碳正离子重排）
 │   └── [[Grob碎裂化反应]]（碎片化的竞争路径）
 └── 应用
     ├── [[题型-有机合成设计]]（扩环/螺环的核心工具）
-    └── [[萜类合成]]（长叶烯、佛手柑油烯等）
+    └── 萜类合成（长叶烯、佛手柑油烯等）
 ```
 
 ---
@@ -286,7 +291,7 @@ $$
 
 - **前置**：[[Pinacol重排]] → [[碳正离子]] → [[立体化学]]
 - **本节**：Semipinacol 重排（离去基预活化 + 高选择性 + 合成应用）
-- **后续**：[[Tiffeneau-Demjanov重排]]（氨基变体）→ [[Grob碎裂化反应]]（碎片化竞争）
+- **后续**：Tiffeneau-Demjanov重排（氨基变体）→ [[Grob碎裂化反应]]（碎片化竞争）
 
 ### 12.2 认知误区
 

@@ -8,6 +8,7 @@ source_range: line 3292–5233
 extracted_date: 2026-05-19
 template_version: v1.3
 status: 已提炼
+target_kp: [有机反应机理, 反应动力学]
 handout_plan:
   - target: "有机化学基础"
     status: completed

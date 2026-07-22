@@ -4,6 +4,29 @@ title: "van't Hoff方程"
 created: 2026-07-18
 updated: 2026-07-18
 tags: [化竞, 化学原理, 化学平衡]
+source_extracts:
+  - source_file: "[[07-资料提炼/提炼-第30届初赛试题解析]]"
+    asset_id: "第30届初赛试题解析"
+    asset_type: "真题解析"
+    asset_summary: "van't Hoff方程相关内容"
+  - source_file: "[[07-资料提炼/提炼-第33届初赛试题解析]]"
+    asset_id: "第33届初赛试题解析"
+    asset_type: "真题解析"
+    asset_summary: "van't Hoff方程相关内容"
+  - source_file: "[[07-资料提炼/提炼-第37届初赛试题解析]]"
+    asset_id: "第37届初赛试题解析"
+    asset_type: "真题解析"
+    asset_summary: "van't Hoff方程相关内容"
+  - source_file: "[[07-资料提炼/提炼-第38届初赛试题解析]]"
+    asset_id: "第38届初赛试题解析"
+    asset_type: "真题解析"
+    asset_summary: "van't Hoff方程相关内容"
+  - source_file: "[[07-资料提炼/知识点索引]]"
+    asset_id: "知识点索引"
+    asset_type: "资料提炼"
+    asset_summary: "van't Hoff方程相关内容"
+subject: 化学原理
+status: 初稿
 ---
 
 # van't Hoff方程

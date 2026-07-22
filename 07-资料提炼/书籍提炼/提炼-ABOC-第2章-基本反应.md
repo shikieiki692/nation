@@ -17,6 +17,7 @@ topics: [六元环质子转移, 平衡思维, 硝酸氧化机理, 缩醛形成-�
 problems_extracted: 30
 tags: [化竞, ABOC, 有机化学, 资料提炼, 基本反应, 反应机理, 平衡思维]
 review_status: 进行中
+target_kp: [有机反应机理, 取代反应, 加成反应, 消除反应]
 parent_moc: "[[提炼-ABOC]]"
 updated: 2026-05-10
 handout_plan:

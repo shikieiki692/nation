@@ -10,6 +10,7 @@ chapter: "3"
 template_version: v1.3
 extracted_date: 2026-07-09
 status: 已提炼
+target_kp: [波谱分析, NMR谱学, IR光谱]
 tags: [化竞, 有机化学, 波谱, 质谱, NMR, IR, Clayden]
 handout_plan:
   - target: "有机化学基础"

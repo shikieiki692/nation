@@ -7,6 +7,7 @@ source: "Clayden, Organic Chemistry, 2nd Ed., Chapter 34"
 template_version: v1.3
 updated: 2026-05-18
 tags: [化竞, 有机化学, 周环反应, 环加成, Diels-Alder, Clayden]
+target_kp: [Diels-Alder反应, 环加成反应]
 handout_plan:
   - target: "烷烃烯烃炔烃"
     status: completed

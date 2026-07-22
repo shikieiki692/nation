@@ -1,4 +1,4 @@
----
+﻿---
 title: Fischer投影式
 aliases: [Fischer Projection, 费歇尔投影]
 type: 知识点
@@ -29,6 +29,27 @@ key_images: []
 updated: 2026-05-25
 teaching_ready: false
 source_notes: []
+source_extracts:
+  - source_file: "[[07-资料提炼/提炼-第33届初赛试题解析]]"
+    asset_id: "第33届初赛试题解析"
+    asset_type: "真题解析"
+    asset_summary: "Fischer投影式相关内容"
+  - source_file: "[[07-资料提炼/知识点索引]]"
+    asset_id: "知识点索引"
+    asset_type: "资料提炼"
+    asset_summary: "Fischer投影式相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第14章-立体化学]]"
+    asset_id: "Clayden-第14章-立体化学"
+    asset_type: "书籍提炼"
+    asset_summary: "Fischer投影式相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-上海中学竞赛课程-第四分册-有机化学准备知识]]"
+    asset_id: "上海中学竞赛课程-第四分册-有机化学准备知识"
+    asset_type: "书籍提炼"
+    asset_summary: "Fischer投影式相关内容"
+  - source_file: "[[07-资料提炼/网课资料/Zchem 基础有机化学/资料提炼-Zchem基础有机化学-批次Z-G-综合复习与例题]]"
+    asset_id: "Zchem基础有机化学-批次Z-G-综合复习与例题"
+    asset_type: "网课资料"
+    asset_summary: "Fischer投影式相关内容"
 ---
 
 # Fischer 投影式（Fischer Projection）

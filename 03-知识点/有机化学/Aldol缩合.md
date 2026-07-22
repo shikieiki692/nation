@@ -4,6 +4,11 @@ title: "Aldol缩合"
 created: 2026-07-18
 updated: 2026-07-18
 tags: [化竞, 有机化学, 缩合反应]
+source_extracts:
+  - "[[07-资料提炼/书籍提炼/提炼-ABOC-第6章-缩合反应]]"
+  - "[[07-资料提炼/书籍提炼/提炼-Clayden-第26章-羟醛反应和Claisen反应]]"
+subject: 有机化学
+status: 初稿
 ---
 
 # Aldol缩合

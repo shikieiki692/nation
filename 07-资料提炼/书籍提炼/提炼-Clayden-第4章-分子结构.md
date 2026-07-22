@@ -10,6 +10,7 @@ chapter: "4"
 template_version: v1.3
 extracted_date: 2026-07-09
 status: 已提炼
+target_kp: [共价键, 分子结构补充, 偶极矩]
 tags: [化竞, 有机化学, 分子结构, 化学键, 杂化, Clayden]
 handout_plan:
   - target: "有机化学基础"

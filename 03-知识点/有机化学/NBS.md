@@ -36,6 +36,27 @@ key_images: []
 sources: []
 source_type: []
 review_cycle: 30d
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第10章-光谱与自由基]]"
+    asset_id: "ABOC-第10章-光谱与自由基"
+    asset_type: "书籍提炼"
+    asset_summary: "NBS相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第2章-基本反应]]"
+    asset_id: "ABOC-第2章-基本反应"
+    asset_type: "书籍提炼"
+    asset_summary: "NBS相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第3章-烯烃加成]]"
+    asset_id: "ABOC-第3章-烯烃加成"
+    asset_type: "书籍提炼"
+    asset_summary: "NBS相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "NBS相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第19章-烯烃的亲电加成]]"
+    asset_id: "Clayden-第19章-烯烃的亲电加成"
+    asset_type: "书籍提炼"
+    asset_summary: "NBS相关内容"
 ---
 
 # NBS（N-溴代丁二酰亚胺）
@@ -133,7 +154,7 @@ NBS 体系的 **低 Br₂ 浓度** 是选择性的关键。
 ## 八、与其他知识点的联系
 
 - **前置**：[[自由基]]、[[烯烃]]、[[取代反应]]
-- **关联**：[[烯丙位]]、[[溴化反应]]
+- **关联**：烯丙位、溴化反应
 - **下游**：烯丙基溴是 **偶联反应**（Heck、Suzuki）和 **亲核取代** 的重要前体
 
 ## 九、典型题型

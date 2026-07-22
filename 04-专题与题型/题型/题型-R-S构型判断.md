@@ -37,7 +37,28 @@ R/S构型判断是有机化学竞赛中最基础的立体化学技能之一，�
 ### 1. CIP优先级排序规则
 
 | 规则 | 说明 | 示例 |
-|:---|:---|:---|
+|:source_extracts:
+  - source_file: "[[07-资料提炼/提炼-第31届初赛试题解析]]"
+    asset_id: "第31届初赛试题解析"
+    asset_type: "真题解析"
+    asset_summary: "手性中心相关内容"
+  - source_file: "[[07-资料提炼/提炼-第33届初赛试题解析]]"
+    asset_id: "第33届初赛试题解析"
+    asset_type: "真题解析"
+    asset_summary: "手性中心相关内容"
+  - source_file: "[[07-资料提炼/提炼-第39届决赛试题解析]]"
+    asset_id: "第39届决赛试题解析"
+    asset_type: "真题解析"
+    asset_summary: "手性中心相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第10章-光谱与自由基]]"
+    asset_id: "ABOC-第10章-光谱与自由基"
+    asset_type: "书籍提炼"
+    asset_summary: "手性中心相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第11章-解题训练]]"
+    asset_id: "ABOC-第11章-解题训练"
+    asset_type: "书籍提炼"
+    asset_summary: "手性中心相关内容"
+---|:---|:---|
 | 原子序数规则 | 直接相连原子，原子序数大者优先 | I > Br > Cl > F > O > N > C > H |
 | 逐层比较规则 | 距离为2的原子集合，先比最大原子序数 | -CH₂OH的C连(O,H,H) > -CH₃的C连(H,H,H) |
 | 多重键展开规则 | C=O视为连两个O，C≡C视为连三个C | -COOH > -CH₂OH |

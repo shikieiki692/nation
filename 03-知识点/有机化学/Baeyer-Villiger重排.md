@@ -33,6 +33,27 @@ review_cycle: 30d
 key_images: []
 teaching_ready: false
 source_notes: ["[[提炼-学而思有机化学基础-批次D-醛酮]]"]
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第6章-缩合反应]]"
+    asset_id: "ABOC-第6章-缩合反应"
+    asset_type: "书籍提炼"
+    asset_summary: "Baeyer-Villiger重排相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Baeyer-Villiger重排相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第36章-碎片化与重排]]"
+    asset_id: "Clayden-第36章-碎片化与重排"
+    asset_type: "书籍提炼"
+    asset_summary: "Baeyer-Villiger重排相关内容"
+  - source_file: "[[07-资料提炼/教学逻辑提炼/Zchem 基础有机化学/教学逻辑提炼-Zchem基础有机化学-批次Z-F-高阶专题（周环重排波谱）]]"
+    asset_id: "Zchem基础有机化学-批次Z-F-高阶专题（周环重排波谱）"
+    asset_type: "教学逻辑提炼"
+    asset_summary: "Baeyer-Villiger重排相关内容"
+  - source_file: "[[07-资料提炼/教学逻辑提炼/学而思 有机化学基础/教学逻辑提炼-学而思有机化学基础-批次D-羰基亲核加成与转化网络]]"
+    asset_id: "学而思有机化学基础-批次D-羰基亲核加成与转化网络"
+    asset_type: "教学逻辑提炼"
+    asset_summary: "Baeyer-Villiger重排相关内容"
 ---
 
 # Baeyer-Villiger 重排（Baeyer-Villiger Rearrangement）
@@ -196,7 +217,7 @@ $$
 
 ## 八、与其他知识点的联系
 
-- **前置知识**：[[酮的化学]]、[[过酸]]、[[酯的化学]]
+- **前置知识**：酮的化学、[[过酸]]、酯的化学
 - **相关知识**：
   - "[[Beckmann重排]]（另一"迁移型"重排）"
   - "[[Favorskii重排]]（另一环扩大/缩小重排）"
@@ -257,7 +278,7 @@ $$
 
 ### 12.1 学习路径
 
-- **前置**：[[酮的化学]]、[[过酸]]、[[重排反应]]
+- **前置**：酮的化学、[[过酸]]、[[重排反应]]
 - **后续**：[[Beckmann重排]]、[[Favorskii重排]]、[[题型-有机合成设计]]
 
 ### 12.2 学生易踩的认知误区

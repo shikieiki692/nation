@@ -1,3 +1,14 @@
+---
+
+
+title: _tempStudent
+type: 备课大纲
+updated: 2026-07-20
+created: 2026-07-20
+lesson_round: 第一轮
+
+
+---
 
 # 第一轮结构化学复习讲义（学生用）
 

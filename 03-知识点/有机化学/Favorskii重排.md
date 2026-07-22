@@ -33,6 +33,27 @@ review_cycle: 30d
 key_images: []
 teaching_ready: false
 source_notes: []
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第6章-缩合反应]]"
+    asset_id: "ABOC-第6章-缩合反应"
+    asset_type: "书籍提炼"
+    asset_summary: "Favorskii重排相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Favorskii重排相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第36章-碎片化与重排]]"
+    asset_id: "Clayden-第36章-碎片化与重排"
+    asset_type: "书籍提炼"
+    asset_summary: "Favorskii重排相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第39章-探寻反应机理]]"
+    asset_id: "Clayden-第39章-探寻反应机理"
+    asset_type: "书籍提炼"
+    asset_summary: "Favorskii重排相关内容"
+  - source_file: "[[07-资料提炼/教学逻辑提炼/Zchem 基础有机化学/教学逻辑提炼-Zchem基础有机化学-批次Z-F-高阶专题（周环重排波谱）]]"
+    asset_id: "Zchem基础有机化学-批次Z-F-高阶专题（周环重排波谱）"
+    asset_type: "教学逻辑提炼"
+    asset_summary: "Favorskii重排相关内容"
 ---
 
 # Favorskii 重排（Favorskii Rearrangement）
@@ -178,7 +199,7 @@ $$
 
 ## 八、与其他知识点的联系
 
-- **前置知识**：[[α-卤代酮]]、[[重排反应]]、[[环丙烷化学]]
+- **前置知识**：α-卤代酮、[[重排反应]]、环丙烷化学
 - **相关知识**：
   - "[[Beckmann重排]]（另一"骨架重组"重排）"
   - "[[Baeyer-Villiger重排]]（另一环扩大/缩小反应）"
@@ -240,7 +261,7 @@ $$
 
 ### 12.1 学习路径
 
-- **前置**：[[α-卤代酮]]、[[重排反应]]、[[环丙烷化学]]
+- **前置**：α-卤代酮、[[重排反应]]、环丙烷化学
 - **后续**：[[Beckmann重排]]、[[Baeyer-Villiger重排]]、[[题型-有机合成设计]]
 
 ### 12.2 学生易踩的认知误区

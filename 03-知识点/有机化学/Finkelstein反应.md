@@ -12,6 +12,11 @@ stage: draft
 updated: 2026-06-29
 syllabus_code: [36]
 template_version: v1.3
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第15章-饱和碳上的亲核取代]]"
+    asset_id: "Clayden-第15章-饱和碳上的亲核取代"
+    asset_type: "书籍提炼"
+    asset_summary: "Finkelstein反应相关内容"
 ---
 
 # Finkelstein反应

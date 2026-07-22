@@ -6,7 +6,7 @@ updated: 2026-06-29
 related:
   - "[[11-模板/LaTeX PDF管线使用手册]]"
   - "[[11-模板/PDF生成策略-Agent一键说明]]"
-  - "[[11-模板/scripts/LATEX_STRATEGY.md]]"
+  - "[[11-模板/scripts/LATEX_STRATEGY]]"
 ---
 
 # 学生讲义 PDF 目录说明

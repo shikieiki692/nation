@@ -265,7 +265,7 @@ Jahn-Teller效应
 │   └── [[晶体场理论]]（更精确的畸变计算）
 └── 竞赛拓展
     ├── [[Jahn-Teller效应]]（振动耦合）
-    └── [[ cooperative Jahn-Teller效应]]（晶格中的协同畸变）
+    └── cooperative Jahn-Teller效应（晶格中的协同畸变）
 ```
 
 ## 九、典型题型

@@ -37,6 +37,19 @@ teaching_ready: false
 source_notes: []
 key_images: []
 updated: 2026-05-25
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第5章-芳香与胺]]"
+    asset_id: "ABOC-第5章-芳香与胺"
+    asset_type: "书籍提炼"
+    asset_summary: "Ritter反应相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Ritter反应相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第15章-饱和碳上的亲核取代]]"
+    asset_id: "Clayden-第15章-饱和碳上的亲核取代"
+    asset_type: "书籍提炼"
+    asset_summary: "Ritter反应相关内容"
 ---
 # Ritter 反应（Ritter Reaction）
 - 总览：[[中国化学奥林匹克基本要求-总览]]

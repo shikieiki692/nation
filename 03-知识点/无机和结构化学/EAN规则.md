@@ -4,6 +4,29 @@ title: "EAN规则"
 created: 2026-07-18
 updated: 2026-07-18
 tags: [化竞, 无机和结构化学, 配位化学]
+source_extracts:
+  - source_file: "[[07-资料提炼/提炼-第25届初赛试题解析]]"
+    asset_id: "第25届初赛试题解析"
+    asset_type: "真题解析"
+    asset_summary: "EAN规则相关内容"
+  - source_file: "[[07-资料提炼/赵鑫光-配位化合物-竞赛题集-OCR忠实版]]"
+    asset_id: "赵鑫光-配位化合物-竞赛题集-OCR忠实版"
+    asset_type: "题集提炼"
+    asset_summary: "EAN规则相关内容"
+  - source_file: "[[07-资料提炼/赵鑫光-配位化合物-竞赛题集]]"
+    asset_id: "赵鑫光-配位化合物-竞赛题集"
+    asset_type: "题集提炼"
+    asset_summary: "EAN规则相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-化学竞赛初赛讲义-总索引]]"
+    asset_id: "化学竞赛初赛讲义-总索引"
+    asset_type: "书籍提炼"
+    asset_summary: "EAN规则相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-化学竞赛初赛讲义-第5讲-金属有机化学]]"
+    asset_id: "化学竞赛初赛讲义-第5讲-金属有机化学"
+    asset_type: "书籍提炼"
+    asset_summary: "EAN规则相关内容"
+subject: 无机和结构化学
+status: 初稿
 ---
 
 # EAN规则

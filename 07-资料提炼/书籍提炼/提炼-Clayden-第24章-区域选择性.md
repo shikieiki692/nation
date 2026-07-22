@@ -10,6 +10,7 @@ chapter: "24"
 template_version: v1.3
 extracted_date: 2026-07-09
 status: 已提炼
+target_kp: [区域选择性, Markovnikov规则]
 tags: [化竞, 有机化学, 区域选择性, Markovnikov, 硼氢化, SN2', 邻位锂化, 萘, 自由基加成, Clayden]
 handout_plan:
   - target: "区域选择性"

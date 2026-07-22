@@ -1,4 +1,4 @@
----
+﻿---
 title: Gibbs自由能
 aliases: [Gibbs Free Energy, G, 自由能, 吉布斯自由能]
 type: 知识点
@@ -252,7 +252,7 @@ $$\Delta_{\mathrm{r}} G^\circ = -nFE^\circ$$
 ## 八、与其他知识点的联系
 - 前置知识：[[焓]]、[[熵]]
 - 相关知识：[[平衡常数]]、[[化学势]]、[[标准态]]
-- 应用知识：[[Nernst方程]]、[[化学电源]]、[[Ellingham图]]
+- 应用知识：[[Nernst方程]]、[[化学电源]]、Ellingham图
 
 ## 九、典型题型
 - 题型-由 $\Delta H,\Delta S$ 判断自发区间

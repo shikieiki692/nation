@@ -30,6 +30,7 @@ tags:
   - 讲义
   - 有机化学
   - 速查
+target_kp: [["[[有机化学基础]]", "[[官能团]]"]
 updated: 2026-06-22
 handout_plan:
   - target: "有机化学基础"

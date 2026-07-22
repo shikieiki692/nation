@@ -16,6 +16,7 @@ topics: [电子推动机理, 给体-受体相互作用, β-硅基效应, 异头�
 problems_extracted: 29
 tags: [化竞, ABOC, 有机化学, 资料提炼, 电子效应, 立体电子效应]
 review_status: 进行中
+target_kp: [有机化学基础, 有机化合物, 结构式]
 parent_moc: "[[提炼-ABOC]]"
 updated: 2026-05-10
 handout_plan:

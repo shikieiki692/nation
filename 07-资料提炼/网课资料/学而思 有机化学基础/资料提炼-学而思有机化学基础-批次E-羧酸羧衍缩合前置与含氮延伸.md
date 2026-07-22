@@ -1,4 +1,4 @@
----
+﻿---
 title: 提炼-学而思有机化学基础-批次E-羧酸羧衍缩合前置与含氮延伸
 type: 资料提炼
 source_book: 学而思 有机化学基础
@@ -10,6 +10,7 @@ syllabus_stage: 第三轮
 tags: [化竞, 资料提炼, 学而思, 有机化学, 第三轮]
 syllabus_codes: [39, 40, 45, 46, 47, 48, 50, 52]
 knowledge_points: [羧酸, 羧酸及羧酸衍生物, 酰基亲核取代反应, 酰氯, 酸酐, 酯, 酰胺, 脱羧反应, Claisen缩合, Dieckmann环化, Michael反应, Mannich反应, Knoevenagel反应, Gabriel合成法, 安息香缩合]
+target_kp: ["[[03-知识点/有机化学/羧酸]]", "[[03-知识点/有机化学/Mannich反应]]", "[[03-知识点/有机化学/安息香缩合]]"]
 topics: [第三轮专题6-羰基化学与缩合反应, 第三轮专题7-重排反应, 第三轮专题11-有机合成与金属有机, 第三轮专题12-杂原子与生物高分子]
 problems_extracted: 18
 review_status: 待审核

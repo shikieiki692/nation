@@ -10,6 +10,7 @@ chapter: "14"
 template_version: v1.3
 extracted_date: 2026-07-09
 status: 已提炼
+target_kp: [立体化学, 手性, 对映异构]
 tags: [化竞, 有机化学, 立体化学, 手性, 对映体, Fisher投影, Clayden]
 handout_plan:
   - target: "有机化学基础"

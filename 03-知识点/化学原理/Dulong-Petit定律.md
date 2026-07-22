@@ -7,6 +7,11 @@ tags: [化竞, 化学原理, 物理化学]
 status: 已填充
 created: 2026-07-18
 updated: 2026-07-18
+source_extracts:
+  - source_file: "[[07-资料提炼/提炼-第29届初赛试题解析]]"
+    asset_id: "第29届初赛试题解析"
+    asset_type: "真题解析"
+    asset_summary: "Dulong-Petit定律相关内容"
 ---
 
 # Dulong-Petit定律

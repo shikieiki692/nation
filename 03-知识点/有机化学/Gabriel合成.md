@@ -1,6 +1,6 @@
 ---
 title: Gabriel合成
-aliases: [Gabriel Synthesis, 邻苯二甲酰亚胺合成, 1°胺制备, 伯胺合成, Fukuyama-Mitsunobu]
+aliases: [Gabriel Synthesis, 邻苯二甲酰亚胺合成, 1°胺制备, 伯胺合成, Fukuyama-Mitsunobu, Gabriel合成法]
 type: 知识点
 template_version: v1.3
 subject: 有机化学
@@ -38,6 +38,27 @@ teaching_ready: false
 source_notes: ["[[提炼-学而思有机化学基础-批次E-羧酸羧衍缩合前置与含氮延伸]]"]
 key_images: []
 updated: 2026-06-04
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第5章-芳香与胺]]"
+    asset_id: "ABOC-第5章-芳香与胺"
+    asset_type: "书籍提炼"
+    asset_summary: "Gabriel合成相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Gabriel合成相关内容"
+  - source_file: "[[07-资料提炼/教学逻辑提炼/Zchem 基础有机化学/教学逻辑提炼-Zchem基础有机化学-批次Z-G-综合复习与例题]]"
+    asset_id: "Zchem基础有机化学-批次Z-G-综合复习与例题"
+    asset_type: "教学逻辑提炼"
+    asset_summary: "Gabriel合成相关内容"
+  - source_file: "[[07-资料提炼/教学逻辑提炼/学而思 有机化学基础/教学逻辑提炼-学而思有机化学基础-批次E-酰基取代与活泼亚甲基工具箱]]"
+    asset_id: "学而思有机化学基础-批次E-酰基取代与活泼亚甲基工具箱"
+    asset_type: "教学逻辑提炼"
+    asset_summary: "Gabriel合成相关内容"
+  - source_file: "[[07-资料提炼/网课资料/Zchem 基础有机化学/资料提炼-Zchem基础有机化学-批次Z-G-综合复习与例题]]"
+    asset_id: "Zchem基础有机化学-批次Z-G-综合复习与例题"
+    asset_type: "网课资料"
+    asset_summary: "Gabriel合成相关内容"
 ---
 
 # Gabriel 合成（Gabriel Synthesis）
@@ -190,7 +211,7 @@ $$
 
 ## 八、与其他知识点的联系
 
-- **前置知识**：[[亲核取代]]、[[胺的化学]]、[[肼]]
+- **前置知识**：[[亲核取代]]、[[胺的化学]]、肼
 - **相关知识**：
   - "[[Mitsunobu反应]]（Fukuyama-Mitsunobu 变体）"
   - "[[还原胺化]]（另一制胺方法）"

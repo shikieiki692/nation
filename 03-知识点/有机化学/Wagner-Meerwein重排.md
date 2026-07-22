@@ -36,6 +36,27 @@ template_version: v1.3
 updated: 2026-05-24
 teaching_ready: false
 source_notes: []
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第1章-绪论]]"
+    asset_id: "ABOC-第1章-绪论"
+    asset_type: "书籍提炼"
+    asset_summary: "Wagner-Meerwein重排相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第36章-碎片化与重排]]"
+    asset_id: "Clayden-第36章-碎片化与重排"
+    asset_type: "书籍提炼"
+    asset_summary: "Wagner-Meerwein重排相关内容"
+  - source_file: "[[07-资料提炼/教学逻辑提炼/Zchem 基础有机化学/教学逻辑提炼-Zchem基础有机化学-批次Z-F-高阶专题（周环重排波谱）]]"
+    asset_id: "Zchem基础有机化学-批次Z-F-高阶专题（周环重排波谱）"
+    asset_type: "教学逻辑提炼"
+    asset_summary: "Wagner-Meerwein重排相关内容"
+  - source_file: "[[07-资料提炼/网课资料/Zchem 基础有机化学/资料提炼-Zchem基础有机化学-批次Z-F-周环反应与重排反应与波谱分析]]"
+    asset_id: "Zchem基础有机化学-批次Z-F-周环反应与重排反应与波谱分析"
+    asset_type: "网课资料"
+    asset_summary: "Wagner-Meerwein重排相关内容"
+  - source_file: "[[07-资料提炼/网课资料/Zchem 基础有机化学/资料提炼-Zchem基础有机化学-批次Z-G-综合复习与例题]]"
+    asset_id: "Zchem基础有机化学-批次Z-G-综合复习与例题"
+    asset_type: "网课资料"
+    asset_summary: "Wagner-Meerwein重排相关内容"
 ---
 
 # Wagner-Meerwein 重排

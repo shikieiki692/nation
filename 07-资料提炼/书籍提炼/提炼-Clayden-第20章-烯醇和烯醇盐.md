@@ -10,6 +10,7 @@ chapter: "20"
 template_version: v1.3
 extracted_date: 2026-07-09
 status: 已提炼
+target_kp: [烯醇, 烯醇负离子, 酮式-烯醇式互变]
 tags: [化竞, 有机化学, 烯醇, 烯醇盐, LDA, 烯醇硅醚, 卤仿反应, α-卤代, 互变异构, Clayden]
 handout_plan:
   - target: "有机化学基础"

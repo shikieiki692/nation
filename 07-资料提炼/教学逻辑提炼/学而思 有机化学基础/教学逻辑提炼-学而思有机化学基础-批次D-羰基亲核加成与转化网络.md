@@ -6,6 +6,7 @@ source_type: 网课课堂笔记 + 学生讲义
 subject: 有机化学
 related_topic: "[[第三轮总体备课框架]]"
 related_kps: [醛, 酮, 羰基亲核加成反应, Grignard反应, 亚胺, 烯胺, Beckmann重排, Baeyer-Villiger氧化, Cannizzaro反应]
+target_kp: ["[[羰基亲核加成]]", "[[醛酮]]", "[[Aldol缩合]]"]
 applicable_rounds: [第三轮]
 status: 待审核
 pending_verifications: []

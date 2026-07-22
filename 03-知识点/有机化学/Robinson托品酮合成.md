@@ -30,6 +30,11 @@ updated: 2026-05-18
 key_images: []
 teaching_ready: false
 source_notes: []
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第42章-生命中的有机化学]]"
+    asset_id: "Clayden-第42章-生命中的有机化学"
+    asset_type: "书籍提炼"
+    asset_summary: "Robinson托品酮合成相关内容"
 ---
 
 # Robinson 托品酮合成（Robinson Tropinone Synthesis）

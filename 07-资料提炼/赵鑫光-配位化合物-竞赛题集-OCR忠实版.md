@@ -6,6 +6,7 @@ source_type: 教材
 created: 2026-07-13
 stage: published
 tags: [竞赛习题, 配位化合物, OCR忠实提取]
+updated: 2026-07-20
 ---
 
 # 赵鑫光·配位化合物竞赛题集（OCR忠实版）

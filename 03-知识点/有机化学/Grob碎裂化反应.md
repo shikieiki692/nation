@@ -35,6 +35,23 @@ teaching_ready: false
 
 source_notes: []
 key_images: []
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第2章-基本反应]]"
+    asset_id: "ABOC-第2章-基本反应"
+    asset_type: "书籍提炼"
+    asset_summary: "Grob碎裂化反应相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第4章-取代与消除]]"
+    asset_id: "ABOC-第4章-取代与消除"
+    asset_type: "书籍提炼"
+    asset_summary: "Grob碎裂化反应相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Grob碎裂化反应相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第36章-碎片化与重排]]"
+    asset_id: "Clayden-第36章-碎片化与重排"
+    asset_type: "书籍提炼"
+    asset_summary: "Grob碎裂化反应相关内容"
 ---
 
 # Grob 碎裂化反应（Grob Fragmentation）

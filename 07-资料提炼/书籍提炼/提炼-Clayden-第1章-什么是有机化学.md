@@ -10,6 +10,7 @@ chapter: "1"
 template_version: v1.3
 extracted_date: 2026-07-09
 status: 已提炼
+target_kp: [有机化学基础]
 tags: [化竞, 有机化学, 导论, Clayden]
 handout_plan:
   - target: "有机化学基础"

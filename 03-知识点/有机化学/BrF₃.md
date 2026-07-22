@@ -36,6 +36,27 @@ teaching_ready: false
 source_notes: []
 key_images: []
 updated: 2026-05-14
+source_extracts:
+  - source_file: "[[07-资料提炼/赵鑫光-分子结构-竞赛题集]]"
+    asset_id: "赵鑫光-分子结构-竞赛题集"
+    asset_type: "题集提炼"
+    asset_summary: "BrF₃相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/主族元素化学-专题素材库]]"
+    asset_id: "主族元素化学-专题素材库"
+    asset_type: "书籍提炼"
+    asset_summary: "BrF₃相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-无机化学第6版-第11-18章-主族元素化学]]"
+    asset_id: "无机化学第6版-第11-18章-主族元素化学"
+    asset_type: "书籍提炼"
+    asset_summary: "BrF₃相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-无机化学第五版-第6章-分子结构]]"
+    asset_id: "无机化学第五版-第6章-分子结构"
+    asset_type: "书籍提炼"
+    asset_summary: "BrF₃相关内容"
+  - source_file: "[[07-资料提炼/教学逻辑提炼/Zchem 元素化学与结构化学/教学逻辑提炼-Zchem-卤素-第一轮]]"
+    asset_id: "Zchem-卤素-第一轮"
+    asset_type: "教学逻辑提炼"
+    asset_summary: "BrF₃相关内容"
 ---
 
 # BrF₃（三氟化溴）
@@ -133,8 +154,8 @@ $$\mathrm{BrF_3 + F^- \rightarrow BrF_4^-}$$
 ## 八、与其他知识点的联系
 
 - **前置**：[[卤素]]、[[VSEPR理论]]、[[氧化还原]]
-- **关联**：[[卤素]]、[[氟化学]]
-- **下游**：[[含氟有机物]]、[[芳环亲电取代]]
+- **关联**：[[卤素]]、氟化学
+- **下游**：含氟有机物、芳环亲电取代
 
 ## 九、典型题型
 

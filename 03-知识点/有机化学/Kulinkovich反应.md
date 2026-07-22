@@ -38,6 +38,15 @@ teaching_ready: false
 source_notes: []
 key_images: []
 updated: 2026-05-10
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第8章-过渡金属催化]]"
+    asset_id: "ABOC-第8章-过渡金属催化"
+    asset_type: "书籍提炼"
+    asset_summary: "Kulinkovich反应相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Kulinkovich反应相关内容"
 ---
 
 # Kulinkovich 反应（Kulinkovich Reaction）

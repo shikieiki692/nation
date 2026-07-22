@@ -31,6 +31,19 @@ teaching_ready: false
 
 source_notes: []
 key_images: []
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第14章-立体化学]]"
+    asset_id: "Clayden-第14章-立体化学"
+    asset_type: "书籍提炼"
+    asset_summary: "Walden翻转相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第15章-饱和碳上的亲核取代]]"
+    asset_id: "Clayden-第15章-饱和碳上的亲核取代"
+    asset_type: "书籍提炼"
+    asset_summary: "Walden翻转相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-上海中学竞赛课程-第四分册-卤代烃与有机金属化合物]]"
+    asset_id: "上海中学竞赛课程-第四分册-卤代烃与有机金属化合物"
+    asset_type: "书籍提炼"
+    asset_summary: "Walden翻转相关内容"
 ---
 
 # Walden翻转
@@ -147,7 +160,7 @@ SN1 反应中，离去基团尚未完全脱离时形成**紧密离子对**，亲
 ## 六、与其他知识点的联系
 
 - **前置知识**：[[SN2反应]]、[[旋光性]]、[[手性中心]]
-- **对比知识**：[[SN1反应]]、[[碳正离子]]、[[外消旋化]]
+- **对比知识**：[[SN1反应]]、[[碳正离子]]、外消旋化
 - **拓展**：[[邻基参与]]（可能改变立体化学结果）
 
 ---

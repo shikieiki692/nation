@@ -10,6 +10,7 @@ chapter: "26"
 template_version: v1.3
 extracted_date: 2026-07-09
 status: 已提炼
+target_kp: [Aldol缩合, Claisen缩合]
 tags: [化竞, 有机化学, 羟醛反应, Aldol, Claisen缩合, 烯醇盐, 烯醇硅醚, Dieckmann, Robinson增环, Knoevenagel, Reformatsky, Darzens, 碳上酰基化, Clayden]
 handout_plan:
   - target: "有机化学基础"

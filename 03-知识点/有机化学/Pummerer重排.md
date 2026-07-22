@@ -36,6 +36,15 @@ source_notes: []
 key_images: []
 template_version: v1.3
 updated: 2026-05-25
+source_extracts:
+  - source_file: "[[07-资料提炼/提炼-第34届初赛试题解析]]"
+    asset_id: "第34届初赛试题解析"
+    asset_type: "真题解析"
+    asset_summary: "Pummerer重排相关内容"
+  - source_file: "[[07-资料提炼/知识点索引]]"
+    asset_id: "知识点索引"
+    asset_type: "资料提炼"
+    asset_summary: "Pummerer重排相关内容"
 ---
 
 # Pummerer重排
@@ -117,7 +126,7 @@ R-CH₂-S(=O)-R' + (Ac)₂O
 
 ## 八、与其他知识点的联系
 
-- **前置**：[[含硫化合物]]、[[亚砜]]、[[氧化反应]]
+- **前置**：[[含硫化合物]]、亚砜、[[氧化反应]]
 - **关联**：[[Swern氧化]]（都涉及硫试剂的活化）
 - **下游**：α-官能团化后可进一步转化为醛、烯烃等
 

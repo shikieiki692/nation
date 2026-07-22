@@ -25,6 +25,7 @@ syllabus_codes:
   - 46-羰基α位反应
   - 50-有机合成
 status: 已提炼
+target_kp: [生物有机化学, 氨基酸, 核酸]
 handout_plan:
   - target: "杂环糖氨基酸"
     status: completed

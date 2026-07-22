@@ -7,6 +7,7 @@ chapter_title: 取代与消除
 syllabus_module: 基础要求-有机化学
 phase: B
 status: 已提炼
+target_kp: [SN1反应, SN2反应, E1反应, E2反应, 卤代烃]
 updated: 2026-05-10
 handout_plan:
   - target: "芳香烃与卤代烃"

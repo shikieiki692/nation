@@ -8,6 +8,7 @@ source_range: line 3057–5140
 extracted_date: 2026-05-18
 template_version: v1.3
 status: 已提炼
+target_kp: [重排反应, Beckmann重排]
 handout_plan:
   - target: "有机化学基础"
     status: completed

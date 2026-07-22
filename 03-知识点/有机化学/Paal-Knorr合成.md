@@ -37,6 +37,15 @@ teaching_ready: false
 source_notes: []
 key_images: []
 updated: 2026-05-25
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第9章-杂环合成]]"
+    asset_id: "ABOC-第9章-杂环合成"
+    asset_type: "书籍提炼"
+    asset_summary: "Paal-Knorr合成相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Paal-Knorr合成相关内容"
 ---
 # Paal-Knorr 合成（Paal-Knorr Synthesis）
 - 总览：[[中国化学奥林匹克基本要求-总览]]
@@ -167,7 +176,7 @@ $$
 - **前置知识**：[[缩合反应]]、[[金属有机与羰基化学]]、[[杂环化合物]]
 - **相关知识**：
   - "[[Hantzsch吡咯合成]]（另一吡咯合成法）"
-  - "[[Knorr吡咯合成]]（β-酮酯路线）"
+  - "Knorr吡咯合成（β-酮酯路线）"
 - **应用知识**：
   - "[[题型-有机合成设计]]（五元杂环构建）"
   - "[[天然产物合成]]（吡咯类生物碱）"

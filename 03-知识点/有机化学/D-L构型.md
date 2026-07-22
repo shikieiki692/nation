@@ -1,6 +1,5 @@
 ---
 title: D-L构型
-aliases: [D/L Configuration, Fischer-Rosanoff Convention, R/S命名]
 aliases: [D/L Configuration, Fischer-Rosanoff Convention]
 type: 知识点
 template_version: v1.3
@@ -30,6 +29,11 @@ key_images: []
 updated: 2026-05-25
 teaching_ready: false
 source_notes: []
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-上海中学竞赛课程-第四分册-有机化合物的命名]]"
+    asset_id: "上海中学竞赛课程-第四分册-有机化合物的命名"
+    asset_type: "书籍提炼"
+    asset_summary: "D-L构型相关内容"
 ---
 
 # D/L 构型（Fischer-Rosanoff 约定）

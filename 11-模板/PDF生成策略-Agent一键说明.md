@@ -12,7 +12,7 @@ tags: ["系统", "PDF", "模板"]
 
 **一键使用时，你要做的就是：先跑 `python 11-模板/scripts/pdf_preflight.py "04-课件/学生讲义/讲义名.md"`，再跑 `python 11-模板/scripts/convert_handout_to_pdf.py "讲义名.md"`，PDF 会出现在 `00-首页/学生讲义PDF/` 下。**
 
-> 完整策略和血泪教训见 [[11-模板/scripts/LATEX_STRATEGY.md]]
+> 完整策略和血泪教训见 [[11-模板/scripts/LATEX_STRATEGY]]
 
 ---
 
@@ -79,4 +79,4 @@ python 11-模板/scripts/convert_handout_to_pdf.py ALL --parallel
 11-模板/scripts/LATEX_STRATEGY.md              ← 完整策略 + 血泪教训（必读）
 ```
 
-**详细流程、决策理由、13条血泪教训 → 读 [[11-模板/scripts/LATEX_STRATEGY.md]]**
+**详细流程、决策理由、13条血泪教训 → 读 [[11-模板/scripts/LATEX_STRATEGY]]**

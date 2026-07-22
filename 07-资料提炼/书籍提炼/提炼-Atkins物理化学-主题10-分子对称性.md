@@ -7,6 +7,7 @@ source_file: mineru/物理化学（第11版）10章对称性402-429.md
 source_type: 书籍
 subject: 决赛要求
 tags: [化竞, 资料提炼, Atkins, 物理化学, 分子对称性, 群论, 特征标表, SALC, 选律]
+target_kp: [["[[对称性]]", "[[点群]]"]
 syllabus_codes: [决赛02]
 knowledge_points: [VSEPR理论深化, 杂化轨道理论深化, 分子光谱]
 topics: []

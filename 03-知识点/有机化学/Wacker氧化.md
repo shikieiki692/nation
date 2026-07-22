@@ -36,6 +36,27 @@ teaching_ready: false
 source_notes: []
 key_images: []
 updated: 2026-05-25
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第8章-过渡金属催化]]"
+    asset_id: "ABOC-第8章-过渡金属催化"
+    asset_type: "书籍提炼"
+    asset_summary: "Wacker氧化相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Wacker氧化相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第40章-金属有机化学]]"
+    asset_id: "Clayden-第40章-金属有机化学"
+    asset_type: "书籍提炼"
+    asset_summary: "Wacker氧化相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-无机化学第6版-第24-25章-材料化学与催化]]"
+    asset_id: "无机化学第6版-第24-25章-材料化学与催化"
+    asset_type: "书籍提炼"
+    asset_summary: "Wacker氧化相关内容"
+  - source_file: "[[07-资料提炼/网课资料/无机化学-新课-周坤-2020-难度适中/笔记/08.配位化学（二）_笔记]]"
+    asset_id: "08.配位化学（二）_笔记"
+    asset_type: "网课资料"
+    asset_summary: "Wacker氧化相关内容"
 ---
 # Wacker 氧化（Wacker Oxidation）
 - 总览：[[中国化学奥林匹克基本要求-总览]]
@@ -201,7 +222,7 @@ $$
   - "[[烯烃复分解]]（另一烯烃转化的金属催化反应）"
 - **应用知识**：
   - "[[题型-有机合成设计]]（甲基酮的构建）"
-  - "[[工业有机化学]]（丙酮、丁酮的工业生产）"
+  - "工业有机化学（丙酮、丁酮的工业生产）"
 
 ---
 

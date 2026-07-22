@@ -12,6 +12,11 @@ status: 已合并
 redirect: "[[Brønsted酸碱理论]]"
 template_version: v1.3
 stage: published
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第8章-酸性碱性和pKa]]"
+    asset_id: "Clayden-第8章-酸性碱性和pKa"
+    asset_type: "书籍提炼"
+    asset_summary: "Brønsted酸碱观点相关内容"
 ---
 
 # Brønsted酸碱观点

@@ -39,6 +39,27 @@ teaching_ready: false
 source_notes: []
 key_images: []
 updated: 2026-05-10
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第5章-芳香与胺]]"
+    asset_id: "ABOC-第5章-芳香与胺"
+    asset_type: "书籍提炼"
+    asset_summary: "Birch还原相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Birch还原相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第23章-化学选择性和保护基]]"
+    asset_id: "Clayden-第23章-化学选择性和保护基"
+    asset_type: "书籍提炼"
+    asset_summary: "Birch还原相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-上海中学竞赛课程-第四分册-二烯烃与炔烃]]"
+    asset_id: "上海中学竞赛课程-第四分册-二烯烃与炔烃"
+    asset_type: "书籍提炼"
+    asset_summary: "Birch还原相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-化学竞赛初赛讲义-附录B-有机化学知识要点]]"
+    asset_id: "化学竞赛初赛讲义-附录B-有机化学知识要点"
+    asset_type: "书籍提炼"
+    asset_summary: "Birch还原相关内容"
 ---
 
 # Birch 还原（Birch Reduction）
@@ -181,7 +202,7 @@ $$
 - **前置知识**：[[芳香性]]、[[氧化还原反应]]、[[自由基]]
 - **相关知识**：
   - "[[炔烃]]（Na/NH₃(l) 得 E-烯烃）"
-  - "[[催化氢化]]（芳环彻底还原）"
+  - "[[有机还原反应]]（芳环彻底还原，催化氢化）"
 - **应用知识**：
   - "[[题型-有机合成设计]]（选择性引入双键）"
   - "[[周环反应]]（1,4-二烯参与 D-A 反应）"

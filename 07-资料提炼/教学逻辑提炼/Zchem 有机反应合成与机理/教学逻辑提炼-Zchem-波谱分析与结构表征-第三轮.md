@@ -15,6 +15,10 @@ related_kps:
   - "[[X射线衍射]]"
   - "[[化学位移]]"
   - "[[偶合常数]]"
+target_kp:
+  - "[[NMR谱学]]"
+  - "[[IR光谱]]"
+  - "[[质谱]]"
 applicable_rounds:
   - 第三轮
 class_type: 提高班（波谱分析系统教学）

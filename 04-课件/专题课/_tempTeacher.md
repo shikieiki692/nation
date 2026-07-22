@@ -1,3 +1,14 @@
+---
+
+
+title: _tempTeacher
+type: 备课大纲
+updated: 2026-07-20
+created: 2026-07-20
+lesson_round: 第一轮
+
+
+---
 
 # 结构化学专题课：Lewis与VSEPR实战
 

@@ -6,6 +6,7 @@ source_type: 网课课堂笔记
 subject: 有机化学
 related_topic: "[[第三轮总体备课框架]]"
 related_kps: [有机化学综合, 反应机理判断, 定位效应, 多取代苯合成, 立体化学, 消除反应, 亲核取代, 芳香性, 共振结构, 含氮化合物, 糖类, 氨基酸, 蛋白质, 聚合物, 波谱分析, 备考策略]
+target_kp: ["[[有机化学基础]]", "[[有机合成]]"]
 applicable_rounds: [第三轮]
 status: 待审核
 pending_verifications: []

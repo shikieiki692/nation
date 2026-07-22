@@ -1,4 +1,5 @@
 ---
+
 title: Arrhenius方程
 aliases: [阿伦尼乌斯方程, Arrhenius Equation, 活化能]
 type: 知识点
@@ -30,6 +31,10 @@ images_note: "当前以文字、公式或表格表达为主，暂未单独配置
 teaching_ready: false
 key_images: []
 updated: 2026-06-14
+source_extracts:
+  - "[[07-资料提炼\书籍提炼\提炼-普化原理-第7章-化学反应速率.md]]"
+  - "[[07-资料提炼\教学逻辑提炼\Zchem 物理化学 下\教学逻辑提炼-Zchem-化学动力学-第一轮.md]]"
+
 ---
 
 # Arrhenius方程

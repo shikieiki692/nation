@@ -14,6 +14,10 @@ related_kps:
   - "[[范特霍夫方程]]"
   - "[[吉布斯自由能]]"
   - "[[熵判据]]"
+target_kp:
+  - "[[化学平衡]]"
+  - "[[平衡常数]]"
+  - "[[Le Chatelier原理]]"
 applicable_rounds:
   - 第一轮
   - 第三轮

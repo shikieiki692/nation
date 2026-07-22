@@ -10,6 +10,7 @@ chapter: "19"
 template_version: v1.3
 extracted_date: 2026-07-09
 status: 已提炼
+target_kp: [烯烃, 亲电加成]
 tags: [化竞, 有机化学, 亲电加成, Markovnikov, 溴鎓离子, 硼氢化, 环氧化, 双羟基化, 臭氧解, Clayden]
 handout_plan:
   - target: "烯烃的亲电加成反应机理与合成应用"

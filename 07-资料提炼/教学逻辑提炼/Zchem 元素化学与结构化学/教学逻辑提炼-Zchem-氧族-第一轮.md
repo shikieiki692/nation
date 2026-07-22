@@ -6,6 +6,7 @@ source_type: 课堂实录
 subject: 无机和结构化学
 related_topic: "[[专题-氧族与氮族元素]]"
 related_kps: [氧族元素, 超氧化物与臭氧化物, 氧化物, 价态-氧化态-形式电荷]
+target_kp: ["[[氧族元素]]", "[[硫]]", "[[硫酸]]"]
 applicable_rounds: [第一轮, 第二轮]
 status: 待审核
 created: 2026-06-23

@@ -8,6 +8,7 @@ source_type: 书籍
 subject: 决赛要求
 syllabus_stage: 决赛
 tags: [化竞, 资料提炼, Atkins, 物理化学, 简单混合物, 依数性, 活度]
+target_kp: [["[[溶液]]", "[[拉乌尔定律]]", "[[亨利定律]]"]
 syllabus_codes: [决赛04, 决赛05]
 knowledge_points: [稀溶液依数性, 活度与活度系数, Raoult与Henry定律, 渗透压, Debye-Hückel极限定律, 双组分相图]
 topics: []

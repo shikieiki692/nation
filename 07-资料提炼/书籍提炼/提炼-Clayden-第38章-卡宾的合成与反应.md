@@ -8,6 +8,7 @@ source_range: line 1803–3291
 extracted_date: 2026-05-19
 template_version: v1.3
 status: 已提炼
+target_kp: [卡宾, 卡宾化学]
 handout_plan:
   - target: "有机化学基础"
     status: completed

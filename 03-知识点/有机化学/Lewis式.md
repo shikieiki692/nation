@@ -35,6 +35,15 @@ teaching_ready: false
 source_notes: []
 key_images: []
 updated: 2026-05-10
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第1章-绪论]]"
+    asset_id: "ABOC-第1章-绪论"
+    asset_type: "书籍提炼"
+    asset_summary: "Lewis式相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Lewis式相关内容"
 ---
 
 > **本页内容已合并至 [[Lewis结构式]]（化学原理模块）。** 请前往 [[Lewis结构式]] 查看完整内容，包括 Lewis 结构书写流程、形式电荷、八隅体例外、经典vs有机Lewis式对比、共振式等全部知识点。

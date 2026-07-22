@@ -47,6 +47,15 @@ updated: 2026-05-18
 key_images: []
 teaching_ready: false
 source_notes: []
+source_extracts:
+  - source_file: "[[07-资料提炼/提炼-第37届初赛试题解析]]"
+    asset_id: "第37届初赛试题解析"
+    asset_type: "真题解析"
+    asset_summary: "Brook重排相关内容"
+  - source_file: "[[07-资料提炼/知识点索引]]"
+    asset_id: "知识点索引"
+    asset_type: "资料提炼"
+    asset_summary: "Brook重排相关内容"
 ---
 
 # Brook重排
@@ -140,8 +149,8 @@ $$\,^–CH(R')–OSiR_3 \xrightarrow{\text{酸或热}} R_3Si–CH(R')–O^–$$
 
 ## 九、典型题型
 - [[题型-合成路线设计]]：利用 Brook 重排实现极性翻转，构建传统方法难以形成的 C–C 键
-- [[题型-反应机理书写]]：画出 [1,2]-Brook 或 [1,4]-Brook 的详细机理（三元环过渡态/超价硅中间体）
-- [[题型-保护基策略分析]]：在多步合成中选择合适的硅基（TMS/TBS/TIPS），平衡迁移活性与稳定性
+- 题型-反应机理书写：画出 [1,2]-Brook 或 [1,4]-Brook 的详细机理（三元环过渡态/超价硅中间体）
+- 题型-保护基策略分析：在多步合成中选择合适的硅基（TMS/TBS/TIPS），平衡迁移活性与稳定性
 
 ## 十、例题
 

@@ -7,6 +7,7 @@ chapter_title: 过渡金属催化反应基础
 syllabus_module: 基础要求-有机化学
 phase: B
 status: 已提炼
+target_kp: [金属有机化学, 催化反应, 偶联反应]
 updated: 2026-05-10
 handout_plan:
   - target: "有机化学基础"

@@ -1,4 +1,5 @@
 ---
+
 title: VSEPR理论深化
 aliases: [VSEPR Theory Advanced, 价层电子对互斥理论深化, 分子形状判断深化]
 type: 知识点
@@ -30,6 +31,11 @@ images_note: "当前以文字、公式或表格表达为主，暂未单独配置
 teaching_ready: false
 key_images: []
 updated: 2026-06-14
+source_extracts:
+  - "[[07-资料提炼\书籍提炼\提炼-化学竞赛初赛讲义-第3讲-分子结构.md]]"
+  - "[[07-资料提炼\书籍提炼\提炼-无机化学第五版-第6章-分子结构.md]]"
+  - "[[07-资料提炼\教学逻辑提炼\质心 化学原理 上\教学逻辑提炼-质心-分子结构基础-第一轮.md]]"
+
 ---
 
 # VSEPR理论深化

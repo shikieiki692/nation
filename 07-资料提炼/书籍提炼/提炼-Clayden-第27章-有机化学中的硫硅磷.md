@@ -10,6 +10,7 @@ chapter: "27"
 template_version: v1.3
 extracted_date: 2026-07-09
 status: 已提炼
+target_kp: [Wittig反应, Horner-Wadsworth-Emmons]
 tags: [化竞, 有机化学, 硫化学, 硅化学, 磷化学, Wittig反应, Julia成烯, Peterson反应, Swern氧化, Horner-Wadsworth-Emmons, 硫叶立德, Corey-Chaykovsky, 二噻烷, 烯醇硅醚, 烯烃合成, Clayden]
 handout_plan:
   - target: "有机化学基础"

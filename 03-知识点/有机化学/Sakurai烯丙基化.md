@@ -36,6 +36,15 @@ images_note: "当前以文字、公式或表格表达为主，暂未单独配置
 teaching_ready: false
 source_notes: []
 key_images: []
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第1章-绪论]]"
+    asset_id: "ABOC-第1章-绪论"
+    asset_type: "书籍提炼"
+    asset_summary: "Sakurai烯丙基化相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Sakurai烯丙基化相关内容"
 ---
 
 # Sakurai 烯丙基化（Hosomi-Sakurai Reaction）
@@ -125,9 +134,9 @@ $$\mathrm{R_3Si\!-\!CH_2\!-\!CH\!=\!CH_2 \;+\; R'CHO \;\xrightarrow{\text{Lewis 
 ### 4.2 烯丙基硅烷的"反义性"（umpolung）特点
 
 - 普通烯丙位（如 R-CH₂-CH=CH₂）作为亲核体时，从 **α 端**进攻
-- 烯丙基硅烷由于 β-硅基效应，从 **γ 端**进攻 → 形式上类似 [[烯丙基金属]]（如 allyl-MgBr、allyl-SnBu₃）
+- 烯丙基硅烷由于 β-硅基效应，从 **γ 端**进攻 → 形式上类似 烯丙基金属（如 allyl-MgBr、allyl-SnBu₃）
 
-> Sakurai 烯丙基化常与 [[烯丙基锡试剂]] 一起被归为"烯丙基-3 位反应"族。
+> Sakurai 烯丙基化常与 烯丙基锡试剂 一起被归为"烯丙基-3 位反应"族。
 
 ### 4.3 与其他烯丙基化方法的对比
 
@@ -234,13 +243,13 @@ $$\mathrm{R_3Si\!-\!CH_2\!-\!CH\!=\!CH_2 \;+\; R'CHO \;\xrightarrow{\text{Lewis 
 - **前置知识**：[[β-硅基效应]]、[[给体-受体相互作用]]、[[碳正离子]]、[[反式共平面]]、[[Lewis酸]]
 - **相关知识**：
   - [[Peterson烯化反应]]（β-硅醇消除型反应；同样依赖 β-Si 离去）
-  - [[Mukaiyama醛缩反应]]（TMS-烯醇醚 + 醛，机理同源）
+  - Mukaiyama醛缩反应（TMS-烯醇醚 + 醛，机理同源）
   - [[共轭加成]]（Sakurai-1,4 在 α,β-不饱和体系中的应用）
-  - [[烯丙基化]]（一系列烯丙基反应的总览）
+  - 烯丙基化（一系列烯丙基反应的总览）
   - [[Brook重排]]（α-Si 的对照案例）
 - **应用知识**：
   - [[决赛11-金属有机化学]]
-  - [[31-有机物制备]]（合成应用）
+  - 31-有机物制备（合成应用）
   - [[原子经济性与反应选择性]]（反应选择性的分析方法）
 
 ---
@@ -354,7 +363,7 @@ $$\mathrm{Ph_3Si\!-\!CH(CH_3)\!-\!CH\!=\!CH_2 \;+\; CH_3CHO \;\xrightarrow{\math
   - [[Lewis酸]]（理解为什么醛要被 Lewis 酸激活）
 - **学完本 KP 后，自然过渡到**：
   - [[Peterson烯化反应]]（β-Si 离去型反应的"消除版本"）
-  - [[Mukaiyama醛缩反应]]（同样依赖 TMS-X 的 β-Si 类机理）
+  - Mukaiyama醛缩反应（同样依赖 TMS-X 的 β-Si 类机理）
 
 ### 12.2 学生易踩的认知误区
 

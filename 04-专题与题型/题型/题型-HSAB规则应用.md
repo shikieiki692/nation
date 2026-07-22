@@ -31,7 +31,20 @@ HSAB（Hard and Soft Acids and Bases）规则应用题的核心是预测配合�
 ### 1. 硬软酸碱分类表
 
 | 类型 | 酸的特征 | 典型酸 | 碱的特征 | 典型碱 |
-|:---|:---|:---|:---|:---|
+|:source_extracts:
+  - source_file: "[[07-资料提炼/教学逻辑提炼/Zchem 有机反应合成与机理/教学逻辑提炼-Zchem-羰基化学深化-第三轮]]"
+    asset_id: "Zchem-羰基化学深化-第三轮"
+    asset_type: "教学逻辑提炼"
+    asset_summary: "软硬酸碱理论相关内容"
+  - source_file: "[[教学逻辑提炼-周坤无机新课-酸碱理论与电化学-第一轮]]"
+    asset_id: "B2-关联"
+    asset_type: "关联引用"
+    asset_summary: "本KP未在周坤Batch 2资产清单中直接映射可提取资产，但Lewis酸碱理论是Ch5讲义§5的核心内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-化学竞赛初赛讲义-第4讲-配合物]]"
+    asset_id: "§4.1 例4.8-4.9"
+    asset_type: "竞赛拓展"
+    asset_summary: "Lewis酸碱的LUMO/HOMO能级解释（BF3 vs BCl3酸性对比）+ I2在不同溶剂中的颜色变化（Lewis碱→荷移跃迁→颜色）"
+---|:---|:---|:---|:---|
 | **硬** | 小半径、高电荷、低极化性 | H⁺, Li⁺, Na⁺, Mg²⁺, Al³⁺, Fe³⁺, Cr³⁺, BF₃ | 高电负性、难极化、不易失去电子 | F⁻, OH⁻, H₂O, NH₃, CO₃²⁻, O²⁻, RO⁻ |
 | **边界** | 中等半径、中等电荷 | Fe²⁺, Co²⁺, Ni²⁺, Cu²⁺, Zn²⁺ | 中等电负性 | Br⁻, NO₂⁻, SO₃²⁻, 吡啶 |
 | **软** | 大半径、低电荷、易极化 | Cu⁺, Ag⁺, Au⁺, Hg²⁺, Pt²⁺, BH₃ | 低电负性、易极化、易失去电子 | I⁻, S²⁻, CN⁻, CO, R₂S, PR₃, C₂H₄ |

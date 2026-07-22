@@ -8,6 +8,7 @@ source_range: line 5234–6854
 extracted_date: 2026-05-19
 template_version: v1.3
 status: 已提炼
+target_kp: [金属有机化学, 催化反应]
 handout_plan:
   - target: "有机化学基础"
     status: completed

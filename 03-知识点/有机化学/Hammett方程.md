@@ -12,6 +12,11 @@ stage: draft
 updated: 2026-06-29
 syllabus_code: [22]
 template_version: v1.3
+source_extracts:
+  - source_file: "[[07-资料提炼/教学逻辑提炼/Zchem 有机反应合成与机理/教学逻辑提炼-Zchem-物理有机与机理判断-第四轮]]"
+    asset_id: "Zchem-物理有机与机理判断-第四轮"
+    asset_type: "教学逻辑提炼"
+    asset_summary: "Hammett方程相关内容"
 ---
 
 # Hammett方程

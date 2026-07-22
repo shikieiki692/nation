@@ -37,6 +37,19 @@ key_images: []
 sources: ["ABOC §6.10"]
 source_type: [教材, 资料提炼]
 review_cycle: 30d
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第6章-缩合反应]]"
+    asset_id: "ABOC-第6章-缩合反应"
+    asset_type: "书籍提炼"
+    asset_summary: "Reformatsky反应相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Reformatsky反应相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第26章-羟醛反应和Claisen反应]]"
+    asset_id: "Clayden-第26章-羟醛反应和Claisen反应"
+    asset_type: "书籍提炼"
+    asset_summary: "Reformatsky反应相关内容"
 ---
 
 # Reformatsky 反应（Reformatsky Reaction）
@@ -183,9 +196,9 @@ $$
 - **前置知识**：[[Aldol缩合]]、[[Grignard试剂]]、[[卤代烃]]
 - **相关知识**：
   - [[烯醇盐]]（Reformatsky 的有机锌试剂是烯醇等价物）
-  - [[酯的化学]]（产物含酯基）
+  - 酯的化学（产物含酯基）
 - **应用知识**：
-  - [[合成设计]]（β-羟基酯的制备策略）
+  - 合成设计（β-羟基酯的制备策略）
   - [[天然产物合成]]（多羟基天然产物中间体）
 
 ---
@@ -242,7 +255,7 @@ $$
 ### 12.1 学习路径
 
 - **前置**：[[Aldol缩合]]、[[Grignard试剂]]
-- **后续**：[[合成设计]]、[[天然产物合成]]
+- **后续**：合成设计、[[天然产物合成]]
 
 ### 12.2 学生易踩的认知误区
 

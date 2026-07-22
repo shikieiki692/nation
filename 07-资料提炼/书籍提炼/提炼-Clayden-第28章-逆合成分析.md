@@ -9,6 +9,7 @@ source_path: clayden 有机化学/Clayden中文版_601-800.md
 source_range: line 3476–4376
 chapter: "28"
 status: 已提炼
+target_kp: [逆合成分析, 有机合成]
 extracted_date: 2026-07-09
 tags: [化竞, 有机化学, 逆合成分析, 切断法, 合成子, FGI, 双官能团切断, 极性反转, Umpolung, 羟醛反应, Claisen缩合, Michael加成, Mannich反应, Corey, Clayden]
 handout_plan:

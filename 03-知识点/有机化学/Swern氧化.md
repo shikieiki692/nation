@@ -29,6 +29,27 @@ teaching_ready: false
 source_notes: []
 key_images: []
 updated: 2026-05-25
+source_extracts:
+  - source_file: "[[07-资料提炼/提炼-第31届决赛试题解析]]"
+    asset_id: "第31届决赛试题解析"
+    asset_type: "真题解析"
+    asset_summary: "Swern氧化相关内容"
+  - source_file: "[[07-资料提炼/知识点索引]]"
+    asset_id: "知识点索引"
+    asset_type: "资料提炼"
+    asset_summary: "Swern氧化相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第4章-取代与消除]]"
+    asset_id: "ABOC-第4章-取代与消除"
+    asset_type: "书籍提炼"
+    asset_summary: "Swern氧化相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第23章-化学选择性和保护基]]"
+    asset_id: "Clayden-第23章-化学选择性和保护基"
+    asset_type: "书籍提炼"
+    asset_summary: "Swern氧化相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第27章-有机化学中的硫硅磷]]"
+    asset_id: "Clayden-第27章-有机化学中的硫硅磷"
+    asset_type: "书籍提炼"
+    asset_summary: "Swern氧化相关内容"
 ---
 # Swern 氧化
 - 总览：[[中国化学奥林匹克基本要求-总览]]
@@ -56,7 +77,7 @@ $$
 
 ### 3.1 反应总览
 
-![[ArrowPushinginInorganicChemistry_231-336_images/96c52415bf4e0389fb91ecf0f0226eccade0a5c3b0aa2ef89cd73976ccd33769.jpg]]
+!ArrowPushinginInorganicChemistry_231-336_images/96c52415bf4e0389fb91ecf0f0226eccade0a5c3b0aa2ef89cd73976ccd33769.jpg
 
 > 注：DMSO 中的硫氧 S=O 起亲核作用，先被草酰氯活化为高活性硫鎓中间体。
 
@@ -93,7 +114,7 @@ $$
 > 也不能直接在硫上发生消除；
 > 实际上 Et₃N 选择拔取 **硫鎓正离子的 α-CH₃** 上的 H（pKa ≈ 16-17），生成 **硫叶立德**：
 
-![[ArrowPushinginInorganicChemistry_231-336_images/b3b8ca7d3896c8e1aeee52c057affbbec14e2f52e8707e86542783575f865d61.jpg]]
+!ArrowPushinginInorganicChemistry_231-336_images/b3b8ca7d3896c8e1aeee52c057affbbec14e2f52e8707e86542783575f865d61.jpg
 
 $$
 \ce{R^1R^2CH-O-S^+(Me)2 ->[Et3N] R^1R^2CH-O-S^+(Me)(=CH2) ->[\text{tautomer}] R^1R^2CH-O-S(Me)-CH2^-}
@@ -103,7 +124,7 @@ $$
 
 硫叶立德经过 **五元环过渡态** 协同重排，硫上的 CH₂⁻ 拔取烷氧 α-H、同时 C–O 断裂，一步生成醛/酮 + Me₂S：
 
-![[ArrowPushinginInorganicChemistry_231-336_images/e29cd6134013ff39e2537727fc4dbaca407df0d5b5f5e0c2db20108416f5b164.jpg]]
+!ArrowPushinginInorganicChemistry_231-336_images/e29cd6134013ff39e2537727fc4dbaca407df0d5b5f5e0c2db20108416f5b164.jpg
 
 $$
 \ce{R^1R^2CH-O-S(Me)-CH2^- -> R^1R^2C=O + Me-S-CH3}
@@ -172,7 +193,7 @@ $$
 ## 八、与其他知识点的联系
 - 前置知识：[[醇的氧化]]、[[有机氧化反应]]、[[亲核取代反应]]、[[含硫化合物]]
 - 相关知识：[[Dess-Martin氧化]]（同样温和的现代醇氧化）、[[Corey-Chaykovsky反应]]（同源的硫叶立德）、[[Pummerer重排]]（α-乙酰氧基硫醚副反应路径）
-- 应用知识：[[有机合成]]、[[保护基策略]]、[[多步合成路线]]
+- 应用知识：[[有机合成]]、[[保护基策略]]、多步合成路线
 
 ## 九、典型题型
 - 题型-氧化反应试剂选择：根据底物选氧化剂

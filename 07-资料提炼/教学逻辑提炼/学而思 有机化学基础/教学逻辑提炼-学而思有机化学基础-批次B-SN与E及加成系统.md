@@ -6,6 +6,7 @@ source_type: 网课课堂笔记 + 学生讲义
 subject: 有机化学
 related_topic: "[[第三轮总体备课框架]]"
 related_kps: [卤代烃, 亲核取代反应, 消除反应, 烯烃, 炔烃, 自由基, 炔负离子, Markovnikov规则]
+target_kp: ["[[SN1反应]]", "[[SN2反应]]", "[[E1反应]]", "[[E2反应]]", "[[亲电加成]]"]
 applicable_rounds: [第三轮]
 status: 待审核
 pending_verifications: []

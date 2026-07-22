@@ -37,6 +37,15 @@ teaching_ready: false
 source_notes: []
 key_images: []
 updated: 2026-05-10
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第9章-杂环合成]]"
+    asset_id: "ABOC-第9章-杂环合成"
+    asset_type: "书籍提炼"
+    asset_summary: "Bischler-Napieralski反应相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Bischler-Napieralski反应相关内容"
 ---
 
 # Bischler-Napieralski 反应（Bischler-Napieralski Reaction）
@@ -161,7 +170,7 @@ $$
 
 ## 八、与其他知识点的联系
 
-- **前置知识**：[[酰胺]]、[[SEAr定位规则]]、[[脱水反应]]
+- **前置知识**：[[酰胺]]、[[SEAr定位规则]]、脱水反应
 - **相关知识**：
   - "[[Pictet-Spengler反应]]（互补的四氢异喹啉合成）"
 - **应用知识**：

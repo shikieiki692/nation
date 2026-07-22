@@ -38,6 +38,27 @@ source_notes: ["[[提炼-学而思有机化学基础-批次D-醛酮]]"]
 key_images: []
 template_version: v1.3
 updated: 2026-06-04
+source_extracts:
+  - source_file: "[[07-资料提炼/提炼-第34届初赛试题解析]]"
+    asset_id: "第34届初赛试题解析"
+    asset_type: "真题解析"
+    asset_summary: "Cannizzaro反应相关内容"
+  - source_file: "[[07-资料提炼/知识点索引]]"
+    asset_id: "知识点索引"
+    asset_type: "资料提炼"
+    asset_summary: "Cannizzaro反应相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第4章-取代与消除]]"
+    asset_id: "ABOC-第4章-取代与消除"
+    asset_type: "书籍提炼"
+    asset_summary: "Cannizzaro反应相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Cannizzaro反应相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第39章-探寻反应机理]]"
+    asset_id: "Clayden-第39章-探寻反应机理"
+    asset_type: "书籍提炼"
+    asset_summary: "Cannizzaro反应相关内容"
 ---
 
 # Cannizzaro 反应（Cannizzaro Reaction）
@@ -200,7 +221,7 @@ $$
 - **前置知识**：[[醛酮化学]]、[[氧化还原反应]]、[[负氢转移]]
 - **相关知识**：
   - "[[Tishchenko反应]]（同一机理的不同催化路径）"
-  - "[[交叉Cannizzaro]]（合成特定醇的方法）"
+  - "交叉Cannizzaro（合成特定醇的方法）"
 - **应用知识**：
   - "[[题型-有机合成设计]]（从芳香醛制备苯甲醇）"
 
@@ -262,7 +283,7 @@ A. 乙醛  B. 苯甲醛  C. 丙醛  D. 三甲基乙醛
 ### 12.1 学习路径
 
 - **前置**：[[醛酮化学]]、[[氧化还原反应]]
-- **后续**：[[Tishchenko反应]]、[[MPV还原]]、[[题型-有机合成设计]]
+- **后续**：[[Tishchenko反应]]、MPV还原、[[题型-有机合成设计]]
 
 ### 12.2 学生易踩的认知误区
 
@@ -311,7 +332,7 @@ A. 乙醛  B. 苯甲醛  C. 丙醛  D. 三甲基乙醛
 4. **March《Advanced Organic Chemistry》7th Ed.**：Ch.19 氧化与还原——Cannizzaro反应及其变体。
 5. **《化竞教程-有机化学》**：§8 醛酮化学——Cannizzaro反应与负氢迁移。
 6. **IChO历年真题**：Cannizzaro作为负氢迁移机理的入门案例，在机理书写题中反复出现；交叉Cannizzaro产物预测、无α-H底物判断为高频考点。
-7. **相关KP**：[[醛酮化学]], [[氧化还原反应]], [[负氢转移]], [[Tishchenko反应]], [[交叉Cannizzaro]]
+7. **相关KP**：[[醛酮化学]], [[氧化还原反应]], [[负氢转移]], [[Tishchenko反应]], 交叉Cannizzaro
 
 ## 十五、待完善项
 - [待补充]

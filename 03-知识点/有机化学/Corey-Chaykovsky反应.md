@@ -79,7 +79,7 @@ $$
 
 ### 3.2 与羰基的 JCC 反应机理（饱和酮）
 
-![[ArrowPushinginInorganicChemistry_231-336_images/779201b48b97ac8c623dee17b3f0c77afa70b534b1f4428bf0b0981477a5d37b.jpg]]
+!ArrowPushinginInorganicChemistry_231-336_images/779201b48b97ac8c623dee17b3f0c77afa70b534b1f4428bf0b0981477a5d37b.jpg
 
 **第 1 步**：叶立德的碳（带形式负电）亲核进攻羰基 C：
 
@@ -184,7 +184,7 @@ $$
   - "[[Corey-Seebach反应]]（1,3-二噻烷负离子的 umpolung 化学）"
   - "[[Swern氧化]]（同样使用硫叶立德的协同重排）"
   - "[[氧化物]]、[[环丙烷]] 的合成化学"
-- 应用知识：[[多步合成路线]]、[[原子经济性与反应选择性]]
+- 应用知识：多步合成路线、[[原子经济性与反应选择性]]
 
 ## 九、典型题型
 - 题型-机理推断：写出 JCC 反应机理（2 步：加成 + 闭环）

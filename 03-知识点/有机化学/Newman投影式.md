@@ -30,6 +30,15 @@ images_note: "当前以文字、公式或表格表达为主，暂未单独配置
 key_images: []
 teaching_ready: false
 source_notes: []
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第14章-立体化学]]"
+    asset_id: "Clayden-第14章-立体化学"
+    asset_type: "书籍提炼"
+    asset_summary: "Newman投影式相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第16章-构象分析]]"
+    asset_id: "Clayden-第16章-构象分析"
+    asset_type: "书籍提炼"
+    asset_summary: "Newman投影式相关内容"
 ---
 
 # Newman投影式

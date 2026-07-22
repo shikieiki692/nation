@@ -8,6 +8,7 @@ source_range: line 1–1233
 extracted_date: 2026-05-19
 template_version: v1.3
 status: 已提炼
+target_kp: [不对称合成, 手性催化, 对映选择性]
 handout_plan:
   - target: "有机化学基础"
     status: completed

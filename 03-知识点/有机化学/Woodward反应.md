@@ -36,6 +36,15 @@ template_version: v1.3
 updated: 2026-05-24
 teaching_ready: false
 source_notes: []
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第3章-烯烃加成]]"
+    asset_id: "ABOC-第3章-烯烃加成"
+    asset_type: "书籍提炼"
+    asset_summary: "Woodward反应相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Woodward反应相关内容"
 ---
 
 # Woodward 反应

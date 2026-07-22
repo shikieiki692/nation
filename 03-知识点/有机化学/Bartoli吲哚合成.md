@@ -36,6 +36,15 @@ source_notes: []
 key_images: []
 template_version: v1.3
 updated: 2026-05-25
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第9章-杂环合成]]"
+    asset_id: "ABOC-第9章-杂环合成"
+    asset_type: "书籍提炼"
+    asset_summary: "Bartoli吲哚合成相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Bartoli吲哚合成相关内容"
 ---
 
 # Bartoli 吲哚合成（Bartoli Indole Synthesis）
@@ -143,7 +152,7 @@ $$
 
 ## 八、与其他知识点的联系
 
-- **前置知识**：[[Grignard试剂]]、[[硝基化合物]]
+- **前置知识**：[[Grignard试剂]]、硝基化合物
 - **相关知识**：
   - "[[Fischer吲哚合成]]"
   - "[[Larock吲哚合成]]"
@@ -180,7 +189,7 @@ $$
 
 ### 12.1 学习路径
 
-- **前置**：[[Grignard试剂]]、[[硝基化合物]]
+- **前置**：[[Grignard试剂]]、硝基化合物
 - **后续**：[[题型-有机合成设计]]
 
 ### 12.2 现实类比

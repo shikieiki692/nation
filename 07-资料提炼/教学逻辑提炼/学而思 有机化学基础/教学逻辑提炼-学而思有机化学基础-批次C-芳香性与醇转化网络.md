@@ -6,6 +6,7 @@ source_type: 网课课堂笔记 + 学生讲义
 subject: 有机化学
 related_topic: "[[第三轮总体备课框架]]"
 related_kps: [芳香性, 苯, 芳香亲电取代反应, 醇, 酚, Grignard反应, 互变异构]
+target_kp: ["[[芳香性]]", "[[醇]]", "[[酚]]", "[[醚]]"]
 applicable_rounds: [第三轮]
 status: 待审核
 pending_verifications: []

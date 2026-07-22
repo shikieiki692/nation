@@ -37,6 +37,8 @@ images_note: "当前以公式、作图法与两点法计算为主，文字足够
 teaching_ready: false
 key_images: []
 updated: 2026-06-04
+source_extracts:
+  - "[[07-资料提炼/书籍提炼/提炼-普化原理-第7章-化学反应速率]]"
 ---
 
 # Arrhenius方程

@@ -4,6 +4,17 @@ title: "Marcus理论"
 created: 2026-07-18
 updated: 2026-07-18
 tags: [化竞, 无机和结构化学, 电化学]
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Atkins物理化学-主题17-19-动力学与表面过程]]"
+    asset_id: "Atkins物理化学-主题17-19-动力学与表面过程"
+    asset_type: "书籍提炼"
+    asset_summary: "Marcus理论相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-无机化学第6版-第21章-配位反应机理]]"
+    asset_id: "无机化学第6版-第21章-配位反应机理"
+    asset_type: "书籍提炼"
+    asset_summary: "Marcus理论相关内容"
+subject: 无机和结构化学
+status: 初稿
 ---
 
 # Marcus理论

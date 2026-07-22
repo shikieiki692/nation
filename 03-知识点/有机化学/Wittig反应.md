@@ -4,6 +4,9 @@ title: "Wittig反应"
 created: 2026-07-18
 updated: 2026-07-18
 tags: [化竞, 有机化学, 人名反应]
+source_extracts: ["[[07-资料提炼/书籍提炼/提炼-Clayden-第27章-有机化学中的硫硅磷.Replace('.md','')]]"]
+subject: 有机化学
+status: 初稿
 ---
 
 # Wittig反应

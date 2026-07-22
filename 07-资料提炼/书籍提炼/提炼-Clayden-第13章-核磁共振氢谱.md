@@ -10,6 +10,7 @@ chapter: "13"
 template_version: v1.3
 extracted_date: 2026-07-09
 status: 已提炼
+target_kp: [NMR谱学, 化学位移]
 tags: [化竞, 有机化学, NMR, 核磁共振, 氢谱, 偶合常数, Clayden]
 handout_plan:
   - target: "有机化学基础"

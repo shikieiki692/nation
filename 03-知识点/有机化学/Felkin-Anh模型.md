@@ -12,6 +12,19 @@ stage: draft
 updated: 2026-06-29
 syllabus_code: [24]
 template_version: v1.3
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第33章-非对映选择性]]"
+    asset_id: "Clayden-第33章-非对映选择性"
+    asset_type: "书籍提炼"
+    asset_summary: "Felkin-Anh模型相关内容"
+  - source_file: "[[07-资料提炼/教学逻辑提炼/Zchem 有机反应合成与机理/教学逻辑提炼-Zchem-羰基化学深化-第三轮]]"
+    asset_id: "Zchem-羰基化学深化-第三轮"
+    asset_type: "教学逻辑提炼"
+    asset_summary: "Felkin-Anh模型相关内容"
+  - source_file: "[[07-资料提炼/教学逻辑提炼/Zchem 有机反应合成与机理/教学逻辑提炼-Zchem-选择性与全合成-第三四轮]]"
+    asset_id: "Zchem-选择性与全合成-第三四轮"
+    asset_type: "教学逻辑提炼"
+    asset_summary: "Felkin-Anh模型相关内容"
 ---
 
 # Felkin-Anh模型

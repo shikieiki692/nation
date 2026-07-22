@@ -40,6 +40,7 @@ topics:
 problems_extracted: 20
 parent_moc: "[[提炼-ABOC]]"
 review_status: 已完成
+target_kp: [烯烃, 亲电加成, Markovnikov规则]
 updated: 2026-05-10
 handout_plan:
   - target: "烷烃烯烃炔烃"

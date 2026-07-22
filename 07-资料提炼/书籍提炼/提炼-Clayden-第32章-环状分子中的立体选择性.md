@@ -6,6 +6,7 @@ source_path: mineru/中文版clayden-chinese30-33章787-907.md
 chapter: "32"
 pages: "787-907"
 updated: 2026-05-18
+target_kp: [立体化学, 不对称合成]
 handout_plan:
   - target: "有机化学基础"
     status: completed

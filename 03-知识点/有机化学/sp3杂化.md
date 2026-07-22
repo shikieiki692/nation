@@ -29,6 +29,23 @@ key_images: []
 updated: 2026-05-25
 teaching_ready: false
 source_notes: []
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第2章-有机结构]]"
+    asset_id: "Clayden-第2章-有机结构"
+    asset_type: "书籍提炼"
+    asset_summary: "sp3杂化相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第4章-分子结构]]"
+    asset_id: "Clayden-第4章-分子结构"
+    asset_type: "书籍提炼"
+    asset_summary: "sp3杂化相关内容"
+  - source_file: "[[07-资料提炼/教学逻辑提炼/Zchem 基础有机化学/教学逻辑提炼-Zchem基础有机化学-批次Z-A到Z-E-结构与反应体系]]"
+    asset_id: "Zchem基础有机化学-批次Z-A到Z-E-结构与反应体系"
+    asset_type: "教学逻辑提炼"
+    asset_summary: "sp3杂化相关内容"
+  - source_file: "[[07-资料提炼/网课资料/无机化学-新课-周坤-2020-难度适中/笔记/04.晶体结构（一）_笔记]]"
+    asset_id: "04.晶体结构（一）_笔记"
+    asset_type: "网课资料"
+    asset_summary: "sp3杂化相关内容"
 ---
 
 # sp³ 杂化（sp³ Hybridization）
@@ -155,7 +172,7 @@ sp³杂化
 │   ├── [[构象异构]]（σ 键旋转产生的异构）
 │   └── [[手性中心]]（sp³ 碳连 4 个不同基团 → 手性）
 └── 应用
-    ├── [[烷烃化学]]（自由基取代）
+    ├── 烷烃化学（自由基取代）
     └── [[SN1/SN2反应]]（sp³ 碳的取代反应）
 ```
 

@@ -6,6 +6,7 @@ source_type: 课堂实录
 subject: 无机和结构化学
 related_topic: "[[专题-卤素]]"
 related_kps: [卤素, 类卤素, 卤素互化物, 含氧酸, 分子结构深化]
+target_kp: ["[[卤素]]", "[[卤素互化物]]"]
 applicable_rounds: [第一轮, 第二轮]
 status: 待审核
 created: 2026-06-23

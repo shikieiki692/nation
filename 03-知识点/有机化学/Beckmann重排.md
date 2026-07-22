@@ -1,4 +1,4 @@
----
+﻿---
 title: Beckmann重排
 aliases: [Beckmann Rearrangement, 贝克曼重排, 肟转酰胺, 反式迁移]
 type: 知识点
@@ -33,6 +33,7 @@ review_cycle: 30d
 key_images: []
 teaching_ready: false
 source_notes: ["[[提炼-学而思有机化学基础-批次D-醛酮]]"]
+source_extracts: ["[[07-资料提炼/书籍提炼/提炼-Clayden-第36章-碎片化与重排.Replace('.md','')]]"]
 ---
 
 # Beckmann 重排（Beckmann Rearrangement）
@@ -184,7 +185,7 @@ $$
 
 ## 八、与其他知识点的联系
 
-- **前置知识**：[[肟的化学]]、[[重排反应]]、[[酰胺化学]]
+- **前置知识**：肟的化学、[[重排反应]]、[[酰胺化学]]
 - **相关知识**：
   - "[[Baeyer-Villiger重排]]（另一"迁移型"重排）"
   - "[[Neber重排]]（肟的姐妹重排）"
@@ -246,7 +247,7 @@ $$
 
 ### 12.1 学习路径
 
-- **前置**：[[肟的化学]]、[[重排反应]]
+- **前置**：肟的化学、[[重排反应]]
 - **后续**：[[Baeyer-Villiger重排]]、[[Neber重排]]、[[题型-有机合成设计]]
 
 ### 12.2 学生易踩的认知误区

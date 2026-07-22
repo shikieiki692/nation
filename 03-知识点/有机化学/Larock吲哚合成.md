@@ -37,6 +37,15 @@ teaching_ready: false
 source_notes: []
 key_images: []
 updated: 2026-05-10
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第9章-杂环合成]]"
+    asset_id: "ABOC-第9章-杂环合成"
+    asset_type: "书籍提炼"
+    asset_summary: "Larock吲哚合成相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Larock吲哚合成相关内容"
 ---
 
 # Larock 吲哚合成（Larock Indole Synthesis）

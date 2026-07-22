@@ -6,6 +6,7 @@ source_type: 课堂实录
 subject: 无机和结构化学
 related_topic: "[[专题-主族元素化学]]"
 related_kps: [铝, 镓, 锗, 锡, 铅, p区金属, 惰性电子对效应]
+target_kp: ["[[铝族元素]]", "[[锗]]", "[[锑]]"]
 applicable_rounds: [第一轮, 第二轮]
 status: 草稿
 created: 2026-05-31

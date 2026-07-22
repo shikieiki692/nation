@@ -10,6 +10,7 @@ chapter: "11"
 template_version: v1.3
 extracted_date: 2026-07-09
 status: 已提炼
+target_kp: [羧酸衍生物, 酰卤]
 tags: [化竞, 有机化学, 羰基取代, 醛酮化学, Wittig, 亚胺, Clayden]
 handout_plan:
   - target: "有机化学基础"

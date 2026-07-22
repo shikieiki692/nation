@@ -8,6 +8,7 @@ source_type: 书籍
 subject: 决赛要求
 syllabus_stage: 决赛
 tags: [化竞, 资料提炼, Atkins, 物理化学, 固体物理, 晶体结构, 能带理论, X射线衍射, 半导体]
+target_kp: [["[[晶体结构基础]]", "[[离子晶体]]"]
 syllabus_codes: [决赛02, 决赛03]
 knowledge_points: [固体物理性质]
 topics: []

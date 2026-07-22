@@ -112,19 +112,19 @@ FIELD_ALIASES_BY_PATH: dict[str, dict[str, list[str]]] = {
 
 	# ── 允许的 status 枚举值（按 type）─────────────────────────────
 ALLOWED_STATUS: dict[str, list[str]] = {
-    "知识点": ["骨架", "初稿", "已填充", "stub"],
+    "知识点": ["骨架", "初稿", "已填充", "stub", "deprecated", "已合并", "已废弃"],
     "活跃任务卡": ["active", "blocked", "completed", "paused"],
     "考纲条目": ["active", "已完成", "未开始", "未覆盖", "部分填充", "已填充", "已覆盖"],
-    "专题": ["骨架", "初稿", "已填充", "草稿", "已审校", "精品"],
-    "题型": ["骨架", "初稿", "已填充", "框架"],
-    "题目": ["draft", "review", "published", "已入库"],
+    "专题": ["骨架", "初稿", "已填充", "草稿", "已审校", "精品", "完整"],
+    "题型": ["骨架", "初稿", "已填充", "框架", "完整", "可用"],
+    "题目": ["draft", "review", "published", "已入库", "已填充", "已补全答案"],
     "资料提炼": ["草稿", "待审核", "待填充", "已提炼", "已填充"],
     "教学逻辑提炼": ["草稿", "待审核", "已提炼"],
     "备课大纲": ["骨架", "初稿", "已填充", "draft", "review", "published", "草稿", "已审校", "待确认"],
 }
 
 # ── 生命周期 stage 枚举 ────────────────────────────────────────
-ALLOWED_STAGES = ["draft", "review", "published", "deprecated", "archived"]
+ALLOWED_STAGES = ["draft", "review", "published", "deprecated", "archived", "needs_review"]
 
 # ── stage 门禁：前置条件检查项 ──────────────────────────────────
 STAGE_GATES: dict[str, list[str]] = {
@@ -153,7 +153,18 @@ def parse_frontmatter(text: str) -> tuple[dict[str, Any], str]:
         fm = yaml.safe_load(yaml_block)
         return (fm, body) if isinstance(fm, dict) else ({}, body)
     except yaml.YAMLError:
-        return {}, body
+        # Regex fallback: extract top-level key: value pairs
+        fm: dict[str, Any] = {}
+        for m in re.finditer(r"^(\w[\w_-]*)\s*:\s*(.+)$", yaml_block, re.MULTILINE):
+            key, val = m.group(1), m.group(2).strip()
+            # Skip values that are clearly sub-items (indented list items)
+            if val.startswith("-"):
+                continue
+            # Strip surrounding quotes
+            if (val.startswith('"') and val.endswith('"')) or (val.startswith("'") and val.endswith("'")):
+                val = val[1:-1]
+            fm[key] = val
+        return (fm, body) if fm else ({}, body)
 
 
 def parse_frontmatter_from_file(path: Path) -> tuple[dict[str, Any], str]:

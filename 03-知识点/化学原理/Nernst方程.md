@@ -4,6 +4,10 @@ title: "Nernst方程"
 created: 2026-07-18
 updated: 2026-07-18
 tags: [化竞, 化学原理, 电化学]
+source_extracts:
+  - "[[07-资料提炼/书籍提炼/提炼-普化原理-第10章-氧化还原电化学]]"
+subject: 化学原理
+status: 初稿
 ---
 
 # Nernst方程

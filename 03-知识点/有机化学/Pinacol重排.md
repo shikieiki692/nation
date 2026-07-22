@@ -1,6 +1,6 @@
 ---
 title: Pinacol重排
-aliases: [Pinacol Rearrangement, 频哪醇重排, 邻二醇重排, 1,2-二醇重排]
+aliases: [Pinacol Rearrangement, 频哪醇重排, 邻二醇重排, 1,2-二醇重排, 频哪醇偶联]
 type: 知识点
 subject: 有机化学
 module: 有机化学
@@ -34,6 +34,11 @@ images_note: 包含频哪醇重排机理图、螺环构建图
 key_images: []
 teaching_ready: false
 source_notes: []
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-上海中学竞赛课程-第四分册-醇、醚与环氧化物]]"
+    asset_id: "上海中学竞赛课程-第四分册-醇、醚与环氧化物"
+    asset_type: "书籍提炼"
+    asset_summary: "Pinacol重排相关内容"
 ---
 
 # Pinacol 重排（Pinacol Rearrangement）
@@ -90,7 +95,7 @@ $$
 - **"拉"**：水离去（离去基带走电子对）→ 在邻位碳上产生正电荷，"拉"动迁移基团
 - **"推"**：氧孤对电子向正电中心推进 → 稳定碳正离子并形成羰基
 
-![[mineru/中文版clayden-chinese-34-36907-999_images/41d57fba34db3da8b4d41625e0484f6d90591297f6c41057f332a6ceb5ffe6b8.jpg]]
+!mineru/中文版clayden-chinese-34-36907-999_images/41d57fba34db3da8b4d41625e0484f6d90591297f6c41057f332a6ceb5ffe6b8.jpg
 
 ### 3.2 不对称二醇的选择性
 
@@ -117,7 +122,7 @@ $$
 
 Pinacol 重排的一个尤其有价值的用途是用于**形成螺环体系**。通过设计合适的邻二醇底物，可以使重排后生成的环与原有环共享一个碳原子，形成螺环骨架。
 
-![[mineru/中文版clayden-chinese-34-36907-999_images/e9c5fe81ada8ba01ccb1dd591420ed767ba02e7434999c483680c318690014ac.jpg]]
+!mineru/中文版clayden-chinese-34-36907-999_images/e9c5fe81ada8ba01ccb1dd591420ed767ba02e7434999c483680c318690014ac.jpg
 
 ---
 
@@ -194,7 +199,7 @@ Pinacol 重排
 ├── 平行反应
 │   ├── [[半频哪醇重排]]（离去基不同，机理类似）
 │   ├── [[Wagner-Meerwein重排]]（同为碳正离子重排）
-│   └── [[二苯乙醇酸重排]]（碱催化下的 1,2-芳基迁移）
+│   └── 二苯乙醇酸重排（碱催化下的 1,2-芳基迁移）
 └── 应用
     ├── [[题型-有机合成设计]]（螺环、扩环策略）
     └── [[天然产物合成]]（长叶烯等萜类骨架）

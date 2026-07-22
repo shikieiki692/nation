@@ -37,6 +37,15 @@ key_images: []
 sources: ["ABOC §9.2"]
 source_type: [教材, 资料提炼]
 review_cycle: 30d
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第9章-杂环合成]]"
+    asset_id: "ABOC-第9章-杂环合成"
+    asset_type: "书籍提炼"
+    asset_summary: "Hantzsch吡咯合成相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Hantzsch吡咯合成相关内容"
 ---
 
 # Hantzsch 吡咯合成（Hantzsch Pyrrole Synthesis）

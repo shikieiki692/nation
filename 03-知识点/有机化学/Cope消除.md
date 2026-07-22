@@ -39,6 +39,15 @@ teaching_ready: false
 source_notes: []
 key_images: []
 updated: 2026-05-10
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第4章-取代与消除]]"
+    asset_id: "ABOC-第4章-取代与消除"
+    asset_type: "书籍提炼"
+    asset_summary: "Cope消除相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Cope消除相关内容"
 ---
 
 # Cope 消除（Cope Elimination）

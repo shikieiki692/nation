@@ -6,6 +6,7 @@ source_type: 网课课堂笔记 + 学生讲义
 subject: 有机化学
 related_topic: "[[第三轮总体备课框架]]"
 related_kps: [羧酸, 羧酸及羧酸衍生物, 酰基亲核取代反应, 脱羧反应, Claisen缩合, Dieckmann环化, Michael反应, Mannich反应, Gabriel合成法, 安息香缩合]
+target_kp: ["[[有机合成]]", "[[立体化学]]", "[[对映选择性]]"]
 applicable_rounds: [第三轮]
 status: 待审核
 pending_verifications: []

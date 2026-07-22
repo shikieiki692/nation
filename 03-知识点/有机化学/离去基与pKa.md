@@ -60,6 +60,19 @@ source_notes: []
 key_images: []
 image_count: 0
 teaching_ready: false
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第1章-绪论]]"
+    asset_id: "ABOC-第1章-绪论"
+    asset_type: "书籍提炼"
+    asset_summary: "离去基与pKa相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "离去基与pKa相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第8章-酸性碱性和pKa]]"
+    asset_id: "Clayden-第8章-酸性碱性和pKa"
+    asset_type: "书籍提炼"
+    asset_summary: "离去基与pKa相关内容"
 ---
 
 # 离去基与pKa

@@ -6,6 +6,7 @@ source_path: mineru/中文版clayden-chinese30-33章787-907.md
 chapter: "30"
 pages: "787-907"
 updated: 2026-05-18
+target_kp: [杂环化合物, 杂环合成]
 handout_plan:
   - target: "杂环糖氨基酸"
     status: completed

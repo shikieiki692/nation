@@ -9,6 +9,7 @@ source_path: clayden 有机化学/Clayden中文版_601-800.md
 source_range: line 4377–5900
 chapter: "29"
 status: 已提炼
+target_kp: [杂环化合物, 吡咯, 呋喃]
 extracted_date: 2026-07-09
 tags: [化竞, 有机化学, 芳杂环, 吡啶, 吡咯, 呋喃, 噻吩, 咪唑, 喹啉, 异喹啉, 吲哚, 亲电取代, 亲核取代, Vilsmeier, Mannich, Diels-Alder, Clayden]
 handout_plan:

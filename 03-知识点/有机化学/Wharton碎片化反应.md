@@ -32,6 +32,11 @@ images_note: 包含碎片化推-拉原理图、立体化学控制图、Eschenmos
 key_images: []
 teaching_ready: false
 source_notes: []
+source_extracts:
+  - source_file: "[[07-资料提炼/提炼-第36届决赛试题解析]]"
+    asset_id: "第36届决赛试题解析"
+    asset_type: "真题解析"
+    asset_summary: "Wharton碎片化反应相关内容"
 ---
 
 # Wharton 碎片化反应（Wharton Fragmentation）
@@ -72,7 +77,7 @@ $$
 - **电子槽（拉）**：接受电子对，帮助断裂发生
 - **1,2,3,4 碎片化模式**：电子源（1）→ C2-C3 键断裂 → 电子槽（4，离去基）
 
-![[mineru/中文版clayden-chinese-34-36907-999_images/3e525df932cafb8d9af7811edc4f084178c2323b2c67ca2014d5f233c7d8a497.jpg]] — 碎片化推-拉原理
+! — 碎片化推-拉原理
 
 ### 2.2 反应机理
 
@@ -93,9 +98,9 @@ $$
 
 **注意**：离去基是**对甲苯亚磺酸根（ArSO2-）**而非对甲苯磺酸根——这是一个重要的细节。
 
-![[mineru/中文版clayden-chinese-34-36907-999_images/7ebeda109a672523e651bb7f9883359d9c3ff65923bf8982a81d4472c4f03795.jpg]] — Eschenmoser 碎片化
+! — Eschenmoser 碎片化
 
-![[mineru/中文版clayden-chinese-34-36907-999_images/924c85f0df7aa92c58c60368cb88e126c276287043ed1aa5d4f09fe67a1b4cd8.jpg]] — Eschenmoser 碎片化机理
+! — Eschenmoser 碎片化机理
 
 ### 2.3 1,2,3,4 碎片化模式
 
@@ -113,11 +118,11 @@ $$
 - 顺式异构体（两个取代基都平伏）→ 可碎片化
 - 反式异构体（OTs 直立）→ 无 C-C 键与 OTs 反叠 → 主要发生 E2 消除
 
-![[mineru/中文版clayden-chinese-34-36907-999_images/d4605106647f0e586f292886375e0cf7d034b0edb077baa4ea75b12f65d17e5c.jpg]] — 碎片化立体化学控制
+! — 碎片化立体化学控制
 
-![[mineru/中文版clayden-chinese-34-36907-999_images/eef52eb25e4a3f5d1047069a3563a0c327ea6a5b22d12936b17bc7a5ff275639.jpg]] — 顺式构象（可碎片化）
+! — 顺式构象（可碎片化）
 
-![[mineru/中文版clayden-chinese-34-36907-999_images/6e4b26a2742645d004cca51143e3d155c86eee88027870e1b94fbbc83ff0fe77.jpg]] — 反式构象（不可碎片化，E2 为主）
+! — 反式构象（不可碎片化，E2 为主）
 
 碎片化对双键几何是**立体专一性**的——类似 E2 消除。
 
@@ -172,7 +177,7 @@ Wharton 碎片化
 │   ├── [[半频哪醇重排]]（底物类似但路径不同）
 │   └── [[重排反应]]（与碎片化构成连续谱）
 └── 应用
-    ├── [[中环合成]]（大环酮构建）
+    ├── 中环合成（大环酮构建）
     ├── [[题型-有机合成设计]]（麝香酮、保幼激素等）
     └── [[全合成]]（天然产物合成）
 ```
@@ -256,7 +261,7 @@ Wharton 碎片化
 - 碎片化后得到十元环产物
 - 这是碎片化扩环的经典策略
 
-![[mineru/中文版clayden-chinese-34-36907-999_images/7c416b6d2e3320b75e7cbeeb92db3c9b2fc4e68493e04474aacb0ed253ed2b68.jpg]] — 十氢化萘碎片化扩环
+! — 十氢化萘碎片化扩环
 
 ---
 

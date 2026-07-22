@@ -29,6 +29,23 @@ key_images: []
 updated: 2026-05-25
 teaching_ready: false
 source_notes: []
+source_extracts:
+  - source_file: "[[07-资料提炼/提炼-第25届初赛试题解析]]"
+    asset_id: "第25届初赛试题解析"
+    asset_type: "真题解析"
+    asset_summary: "sp2杂化相关内容"
+  - source_file: "[[07-资料提炼/知识点索引]]"
+    asset_id: "知识点索引"
+    asset_type: "资料提炼"
+    asset_summary: "sp2杂化相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第2章-有机结构]]"
+    asset_id: "Clayden-第2章-有机结构"
+    asset_type: "书籍提炼"
+    asset_summary: "sp2杂化相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第4章-分子结构]]"
+    asset_id: "Clayden-第4章-分子结构"
+    asset_type: "书籍提炼"
+    asset_summary: "sp2杂化相关内容"
 ---
 
 # sp² 杂化（sp² Hybridization）

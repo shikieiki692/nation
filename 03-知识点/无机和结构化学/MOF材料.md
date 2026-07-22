@@ -4,6 +4,13 @@ title: "MOF材料"
 created: 2026-07-18
 updated: 2026-07-18
 tags: [化竞, 无机和结构化学, 材料化学]
+source_extracts:
+  - source_file: "[[07-资料提炼/教学逻辑提炼/质心 元素化学和结构化学 下/教学逻辑提炼-质心-钪钛钒-第一轮]]"
+    asset_id: "质心-钪钛钒-第一轮"
+    asset_type: "教学逻辑提炼"
+    asset_summary: "MOF材料相关内容"
+subject: 无机和结构化学
+status: 初稿
 ---
 
 # MOF材料

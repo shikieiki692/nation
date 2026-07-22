@@ -1,6 +1,6 @@
----
+﻿---
 title: R/S构型
-aliases: [R/S构型, Cahn-Ingold-Prelog, CIP规则]
+aliases: [R/S构型, Cahn-Ingold-Prelog, CIP规则, R/S命名]
 type: 知识点
 template_version: v1.3
 subject: 有机化学
@@ -29,13 +29,18 @@ key_images: []
 updated: 2026-05-25
 teaching_ready: false
 source_notes: []
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-上海中学竞赛课程-第四分册-有机化合物的命名]]"
+    asset_id: "上海中学竞赛课程-第四分册-有机化合物的命名"
+    asset_type: "书籍提炼"
+    asset_summary: "R-S构型相关内容"
 ---
 
 # R/S 构型
 
 - 总览：[[中国化学奥林匹克基本要求-总览]]
 - 所属模块：[[基础要求-有机化学]]
-- 对应考纲条目：[[24-R/S构型]]
+- 对应考纲条目：[[R/S构型]]
 
 ## 一、定义
 
@@ -193,7 +198,7 @@ Fischer 投影式有特殊的判定规则：
 R/S构型
 ├── 前置知识
 │   ├── [[对映异构]]（手性中心的基本概念）
-│   └── [[原子序数]]（CIP 规则的基础）
+│   └── 原子序数（CIP 规则的基础）
 ├── 核心关联
 │   ├── [[D-L构型]]（相对构型对照）
 │   ├── [[Fischer投影式]]（R/S 判定的投影方法）

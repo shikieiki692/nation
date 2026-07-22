@@ -37,6 +37,15 @@ key_images: []
 sources: ["ABOC §6.8"]
 source_type: [教材, 资料提炼]
 review_cycle: 30d
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第6章-缩合反应]]"
+    asset_id: "ABOC-第6章-缩合反应"
+    asset_type: "书籍提炼"
+    asset_summary: "Fries重排相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Fries重排相关内容"
 ---
 
 # Fries 重排（Fries Rearrangement）
@@ -135,8 +144,8 @@ $$
 
 ## 八、与其他知识点的联系
 
-- **前置知识**：[[SEAr定位规则]]、[[酚的化学]]
-- **相关知识**：[[Friedel-Crafts酰基化]]
+- **前置知识**：[[SEAr定位规则]]、酚的化学
+- **相关知识**：Friedel-Crafts酰基化
 
 ---
 
@@ -170,8 +179,8 @@ $$
 
 ### 12.1 学习路径
 
-- **前置**：[[SEAr定位规则]]、[[酚的化学]]
-- **后续**：[[Friedel-Crafts酰基化]]
+- **前置**：[[SEAr定位规则]]、酚的化学
+- **后续**：Friedel-Crafts酰基化
 
 ### 12.4 现实类比
 

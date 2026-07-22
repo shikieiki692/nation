@@ -38,6 +38,27 @@ teaching_ready: false
 source_notes: []
 key_images: []
 updated: 2026-05-10
+source_extracts:
+  - source_file: "[[07-资料提炼/提炼-第31届初赛试题解析]]"
+    asset_id: "第31届初赛试题解析"
+    asset_type: "真题解析"
+    asset_summary: "Baldwin规则相关内容"
+  - source_file: "[[07-资料提炼/知识点索引]]"
+    asset_id: "知识点索引"
+    asset_type: "资料提炼"
+    asset_summary: "Baldwin规则相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第6章-缩合反应]]"
+    asset_id: "ABOC-第6章-缩合反应"
+    asset_type: "书籍提炼"
+    asset_summary: "Baldwin规则相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Baldwin规则相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第31章-饱和杂环和立体电子效应]]"
+    asset_id: "Clayden-第31章-饱和杂环和立体电子效应"
+    asset_type: "书籍提炼"
+    asset_summary: "Baldwin规则相关内容"
 ---
 
 # Baldwin 规则（Baldwin's Rules）
@@ -195,7 +216,7 @@ updated: 2026-05-10
 
 ## 八、与其他知识点的联系
 
-- **前置知识**：[[合成设计基础]]、[[环状化合物]]、[[亲核取代]]
+- **前置知识**：合成设计基础、环状化合物、[[亲核取代]]
 - **相关知识**：
   - "[[Aldol缩合]]（分子内 Aldol 的环大小选择）"
   - "[[Michael加成]]（分子内 Michael 的环大小选择）"
@@ -263,7 +284,7 @@ updated: 2026-05-10
 
 ### 12.1 学习路径
 
-- **前置**：[[合成设计基础]]、[[环状化合物]]、[[亲核取代]]
+- **前置**：合成设计基础、环状化合物、[[亲核取代]]
 - **后续**：[[题型-有机合成设计]]、[[天然产物合成]]
 
 ### 12.2 学生易踩的认知误区

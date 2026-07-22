@@ -5,6 +5,7 @@ lesson_type: 题目驱动专题课
 audience_level: 基础班（第一轮）
 duration: 45min
 tags: [结构化学, 专题课, Lewis结构, VSEPR, Bent规则]
+updated: 2026-07-20
 ---
 
 # 结构化学专题课：Lewis与VSEPR实战

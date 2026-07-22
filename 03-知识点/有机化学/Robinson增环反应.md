@@ -1,9 +1,12 @@
 ---
 type: 知识点
 title: "Robinson增环反应"
+aliases: ["Robinson成环", "Robinson合成"]
 created: 2026-07-18
 updated: 2026-07-18
 tags: [化竞, 有机化学, 人名反应]
+subject: 有机化学
+status: 初稿
 ---
 
 # Robinson增环反应

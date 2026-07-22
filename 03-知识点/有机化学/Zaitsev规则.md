@@ -29,6 +29,15 @@ template_version: v1.3
 key_images: []
 teaching_ready: false
 source_notes: []
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第4章-取代与消除]]"
+    asset_id: "ABOC-第4章-取代与消除"
+    asset_type: "书籍提炼"
+    asset_summary: "Zaitsev规则相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第17章-消除反应]]"
+    asset_id: "Clayden-第17章-消除反应"
+    asset_type: "书籍提炼"
+    asset_summary: "Zaitsev规则相关内容"
 ---
 
 # Zaitsev规则

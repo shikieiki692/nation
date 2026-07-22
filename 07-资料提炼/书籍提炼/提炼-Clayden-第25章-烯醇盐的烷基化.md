@@ -10,6 +10,7 @@ chapter: "25"
 template_version: v1.3
 extracted_date: 2026-07-09
 status: 已提炼
+target_kp: [烯醇负离子, 烷基化]
 tags: [化竞, 有机化学, 烯醇盐, 烷基化, LDA, 烯醇硅醚, Michael受体, Robinson成环, Clayden]
 handout_plan:
   - target: "烯醇盐的烷基化"

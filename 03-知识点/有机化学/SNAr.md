@@ -36,6 +36,27 @@ template_version: v1.3
 updated: 2026-05-24
 teaching_ready: false
 source_notes: []
+source_extracts:
+  - source_file: "[[07-资料提炼/提炼-第27届初赛试题解析]]"
+    asset_id: "第27届初赛试题解析"
+    asset_type: "真题解析"
+    asset_summary: "SNAr相关内容"
+  - source_file: "[[07-资料提炼/知识点索引]]"
+    asset_id: "知识点索引"
+    asset_type: "资料提炼"
+    asset_summary: "SNAr相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第11章-解题训练]]"
+    asset_id: "ABOC-第11章-解题训练"
+    asset_type: "书籍提炼"
+    asset_summary: "SNAr相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第12章-习题解析]]"
+    asset_id: "ABOC-第12章-习题解析"
+    asset_type: "书籍提炼"
+    asset_summary: "SNAr相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第5章-芳香与胺]]"
+    asset_id: "ABOC-第5章-芳香与胺"
+    asset_type: "书籍提炼"
+    asset_summary: "SNAr相关内容"
 ---
 
 # SNAr（芳香亲核取代）

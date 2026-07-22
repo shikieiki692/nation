@@ -35,6 +35,15 @@ teaching_ready: false
 source_notes: []
 key_images: []
 updated: 2026-05-06
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第38章-卡宾的合成与反应]]"
+    asset_id: "Clayden-第38章-卡宾的合成与反应"
+    asset_type: "书籍提炼"
+    asset_summary: "Curtius重排相关内容"
+  - source_file: "[[07-资料提炼/网课资料/Zchem 基础有机化学/资料提炼-Zchem基础有机化学-批次Z-F-周环反应与重排反应与波谱分析]]"
+    asset_id: "Zchem基础有机化学-批次Z-F-周环反应与重排反应与波谱分析"
+    asset_type: "网课资料"
+    asset_summary: "Curtius重排相关内容"
 ---
 
 # Curtius 重排（Curtius Rearrangement）
@@ -172,7 +181,7 @@ $$\ce{R-CO-N3 + (CH3)3C-OH ->[\Delta] R-NH-C(=O)-O-C(CH3)3}$$
 
 ## 八、与其他知识点的联系
 - 前置知识：[[1,2-迁移与重排]]、[[卡宾]]、[[反应机理表示法]]、[[重氮化合物]]
-- 相关知识：[[Hofmann重排]]、[[Schmidt重排]]、[[Beckmann重排]]、[[Wolff重排]]、[[异氰酸酯]]
+- 相关知识：[[Hofmann重排]]、Schmidt重排、[[Beckmann重排]]、[[Wolff重排]]、异氰酸酯
 - 应用知识：[[39-重排反应]]、[[51-金属有机]]、[[34-有机活性中间体]]
 
 ## 九、典型题型

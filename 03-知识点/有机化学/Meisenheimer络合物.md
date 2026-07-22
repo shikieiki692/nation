@@ -4,6 +4,17 @@ title: "Meisenheimer络合物"
 created: 2026-07-18
 updated: 2026-07-18
 tags: [化竞, 有机化学, 反应中间体]
+source_extracts:
+  - source_file: "[[07-资料提炼/提炼-第37届初赛试题解析]]"
+    asset_id: "第37届初赛试题解析"
+    asset_type: "真题解析"
+    asset_summary: "Meisenheimer络合物相关内容"
+  - source_file: "[[07-资料提炼/网课资料/Zchem 基础有机化学/资料提炼-Zchem基础有机化学-批次Z-A到Z-E-结构与反应体系]]"
+    asset_id: "Zchem基础有机化学-批次Z-A到Z-E-结构与反应体系"
+    asset_type: "网课资料"
+    asset_summary: "Meisenheimer络合物相关内容"
+subject: 有机化学
+status: 初稿
 ---
 
 # Meisenheimer络合物

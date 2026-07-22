@@ -4,6 +4,29 @@ title: "Ene反应"
 created: 2026-07-18
 updated: 2026-07-18
 tags: [化竞, 有机化学, 周环反应]
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-PhaseD-习题拆题清单]]"
+    asset_id: "ABOC-PhaseD-习题拆题清单"
+    asset_type: "书籍提炼"
+    asset_summary: "Ene反应相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第5章-芳香与胺]]"
+    asset_id: "ABOC-第5章-芳香与胺"
+    asset_type: "书籍提炼"
+    asset_summary: "Ene反应相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第7章-周环反应]]"
+    asset_id: "ABOC-第7章-周环反应"
+    asset_type: "书籍提炼"
+    asset_summary: "Ene反应相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Ene反应相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第34章-环加成反应]]"
+    asset_id: "Clayden-第34章-环加成反应"
+    asset_type: "书籍提炼"
+    asset_summary: "Ene反应相关内容"
+subject: 有机化学
+status: 初稿
 ---
 
 # Ene反应

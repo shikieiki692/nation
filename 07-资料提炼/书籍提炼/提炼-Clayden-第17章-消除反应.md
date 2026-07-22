@@ -10,6 +10,7 @@ chapter: "17"
 template_version: v1.3
 extracted_date: 2026-07-09
 status: 已提炼
+target_kp: [E1反应, E2反应, 消除反应]
 tags: [化竞, 有机化学, 消除反应, E1, E2, E1cb, Zaitsev, Hofmann, Clayden]
 handout_plan:
   - target: "有机化学基础"

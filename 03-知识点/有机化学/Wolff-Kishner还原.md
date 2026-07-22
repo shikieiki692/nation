@@ -34,11 +34,24 @@ teaching_ready: false
 source_notes: []
 key_images: []
 updated: 2026-05-25
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第23章-化学选择性和保护基]]"
+    asset_id: "Clayden-第23章-化学选择性和保护基"
+    asset_type: "书籍提炼"
+    asset_summary: "Wolff-Kishner还原相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-上海中学竞赛课程-第四分册-芳香烃]]"
+    asset_id: "上海中学竞赛课程-第四分册-芳香烃"
+    asset_type: "书籍提炼"
+    asset_summary: "Wolff-Kishner还原相关内容"
+  - source_file: "[[07-资料提炼/网课资料/Zchem 基础有机化学/资料提炼-Zchem基础有机化学-批次Z-G-综合复习与例题]]"
+    asset_id: "Zchem基础有机化学-批次Z-G-综合复习与例题"
+    asset_type: "网课资料"
+    asset_summary: "Wolff-Kishner还原相关内容"
 ---
 # Wolff-Kishner 还原（Wolff-Kishner-黄鸣龙还原）
 - 总览：[[中国化学奥林匹克基本要求-总览]]
 - 所属模块：[[基础要求-有机化学]]
-- 对应考纲条目：[[47-氧化反应]]、[[51-金属有机]]
+- 对应考纲条目：47-氧化反应、[[51-金属有机]]
 
 ## 一、定义
 **Wolff-Kishner 还原**：将羰基化合物（醛/酮）的 C=O 还原为 **CH₂**（亚甲基）的反应。两步法：先与肼（NH₂NH₂）形成腙，再在强碱下加热脱 N₂ 得到亚甲基产物。
@@ -49,7 +62,7 @@ $$\ce{R^1-C(=O)-R^2 ->[NH2NH2,\,KOH,\,\Delta] R^1-CH2-R^2 + N2}$$
 > **黄鸣龙改良**（1946）：将传统的两步分离过程合并为"一锅法"——直接在乙二醇中加热反应，使该反应成为最实用的羰基还原至甲烯的方法。
 
 ## 二、考纲对应
-- 对应考纲条目：[[47-氧化反应]]、[[51-金属有机]]
+- 对应考纲条目：47-氧化反应、[[51-金属有机]]
 - 所属模块：[[基础要求-有机化学]]
 - 本知识点在考纲中的作用：经典名称反应，与 [[Clemmensen还原]] 互补，是碱性条件下"羰基 → 甲烯"的标准方法。竞赛考察机理填空与底物兼容性判断。
 
@@ -58,40 +71,26 @@ $$\ce{R^1-C(=O)-R^2 ->[NH2NH2,\,KOH,\,\Delta] R^1-CH2-R^2 + N2}$$
 ### 3.1 总反应方程式（黄鸣龙改良条件）
 腙在乙二醇 + 强碱（KOH 或 NaOH）下加热到约 200 ℃，N₂ 离去，烯醇质子化得到亚甲基产物：
 
-![[ArrowPushinginInorganicChemistry_101-230_images/07df36a148bf733e44435f7d5de7e7160ee41bfe9083baa68454b439d57e9a85.jpg)
-
-> 黄鸣龙改良的关键试剂：**乙二醇（高沸点溶剂，b.p. 198 ℃）+ KOH** ——既保证体系处于强碱性，也使温度足够高让 N₂ 离去。
-
-### 3.2 详细机理（5 步）
-
-#### 步骤 0：腙的形成（不在主机理之列）
-酮 + 肼（NH₂-NH₂）→ 腙（hydrazone, R₁R₂C=N-NH₂）+ H₂O
-
-机理：肼的 NH₂ 进攻 C=O，缩水。此为常规缩合，本节略去。
-
-#### 步骤 1：腙被去质子化（强碱）
-强碱 OH⁻ 攻击腙的 NH 质子（pKa ≈ 18），形成腙负离子：
-
-![[ArrowPushinginInorganicChemistry_101-230_images/e852690f80d9f6a161d934eef08f4ce93686e6fc148e8e13a91a90d85dd5cf5e.jpg]]
+!
 
 #### 步骤 2：异构化为偶氮（C 上质子化）
 腙负离子的 N⁻ 推电子，异构成"二亚胺式"碳负离子，然后在 C 上质子化：
 
-![[ArrowPushinginInorganicChemistry_101-230_images/51716a9b97e0607a51d03fc58122272e75422713a1e639225abc67ca970d0ce5.jpg]]
+!
 
 > 这步把负电荷从 N 移到 C 上——为后续脱 N₂ 做准备。
 
 #### 步骤 3：再次去质子化
 α-CH 又被强碱去质子，得到与重氮甲烷类似的"碳-N=N⁻"中间体：
 
-![[ArrowPushinginInorganicChemistry_101-230_images/36c589226c3f5cb97fdfc8167e7d0df7e9c6342fd6e86c02d228a5848fad1901.jpg]]
+!
 
 #### 步骤 4：N₂ 离去，生成碳负离子
 $$\ce{R^1R^2C=N-N: ^- -> R^1R^2C: ^- + N2}$$
 
 或更准确地说：α-碳上的 H 离开 + 同步 N₂ 离去（E1cb 类型机理）→ 形成 R₁R₂CH⁻ 碳负离子：
 
-![[ArrowPushinginInorganicChemistry_101-230_images/08cd480bd8513eebe028e74c66bad7f200d4e2a47ca83f4c68547ead6f4e9a73.jpg]]
+!
 
 #### 步骤 5：碳负离子被质子化得到产物 CH₂
 碳负离子在乙二醇/水中迅速被质子化：
@@ -192,8 +191,8 @@ $$\ce{R-CO-CH2-CO-OEt ->[\text{Wolff-Kishner}] R-CH2-CH2-CO-OEt}$$
 
 ## 八、与其他知识点的联系
 - 前置知识：[[亲核加成]]、[[反应机理表示法]]、[[有机酸碱性]]、[[E1cb反应]]
-- 相关知识：[[Clemmensen还原]]、[[Shapiro反应]]、[[重氮化合物]]、[[1,2-迁移与重排]]
-- 应用知识：[[51-金属有机]]、[[47-氧化反应]]
+- 相关知识：[[Clemmensen还原]]、Shapiro反应、[[重氮化合物]]、[[1,2-迁移与重排]]
+- 应用知识：[[51-金属有机]]、47-氧化反应
 
 ## 九、典型题型
 - 题型-还原反应判断

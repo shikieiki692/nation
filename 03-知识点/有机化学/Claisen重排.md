@@ -1,6 +1,6 @@
----
+﻿---
 title: Claisen重排
-aliases: ["Claisen Rearrangement", "[3,3]-σ迁移", 烯丙基芳基醚重排, 周环反应, 协同反应]
+aliases: ["Claisen Rearrangement", "[3,3]-σ迁移", 烯丙基芳基醚重排, 周环反应, 协同反应, Claisen缩合]
 type: 知识点
 subject: 有机化学
 module: 有机化学
@@ -33,6 +33,27 @@ review_cycle: 30d
 key_images: []
 teaching_ready: false
 source_notes: []
+source_extracts:
+  - source_file: "[[07-资料提炼/提炼-第37届初赛试题解析]]"
+    asset_id: "第37届初赛试题解析"
+    asset_type: "真题解析"
+    asset_summary: "Claisen重排相关内容"
+  - source_file: "[[07-资料提炼/知识点索引]]"
+    asset_id: "知识点索引"
+    asset_type: "资料提炼"
+    asset_summary: "Claisen重排相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-PhaseD-习题拆题清单]]"
+    asset_id: "ABOC-PhaseD-习题拆题清单"
+    asset_type: "书籍提炼"
+    asset_summary: "Claisen重排相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第5章-芳香与胺]]"
+    asset_id: "ABOC-第5章-芳香与胺"
+    asset_type: "书籍提炼"
+    asset_summary: "Claisen重排相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第7章-周环反应]]"
+    asset_id: "ABOC-第7章-周环反应"
+    asset_type: "书籍提炼"
+    asset_summary: "Claisen重排相关内容"
 ---
 
 # Claisen 重排（Claisen Rearrangement）
@@ -109,7 +130,7 @@ $$
 
 **共同特征**：产物都是 **γ,δ-不饱和羰基**——合成中需要此单元时，请使用 Claisen 重排
 
-![[mineru/中文版clayden-chinese-34-36907-999_images/7cf3087a7d17031f53438293d20de9ccf336392ced665e60efc1a543ec37c778.jpg]]
+!mineru/中文版clayden-chinese-34-36907-999_images/7cf3087a7d17031f53438293d20de9ccf336392ced665e60efc1a543ec37c778.jpg
 
 ### 3.4 立体化学——E 选择性的来源（Clayden Ch35）
 
@@ -118,7 +139,7 @@ $$
 - 原因：取代基倾向于在**椅式过渡态中处于平伏位置**
 - 产物中R保持平伏位点，新烯烃双键的反式构型已在过渡态中确定
 
-![[mineru/中文版clayden-chinese-34-36907-999_images/c7e63f9c21ee3e267d2256bf5aa43c1ac4906546b934327a29a4649981013957.jpg]]
+!mineru/中文版clayden-chinese-34-36907-999_images/c7e63f9c21ee3e267d2256bf5aa43c1ac4906546b934327a29a4649981013957.jpg
 
 ### 3.5 Claisen 重排的变体
 
@@ -137,8 +158,8 @@ $$
 - **产物**：不饱和酸（后处理后）
 - **E选择性**：与普通Claisen相同的原因，双键强烈偏好反式(E)
 
-![[mineru/中文版clayden-chinese-34-36907-999_images/14f8ad7f789994f21c515d6725a82eb8b702ee2b42c0117ef0b019bd197d213e.jpg]]
-![[mineru/中文版clayden-chinese-34-36907-999_images/b64e045fb98f9e4832e0428e8ea5b3692010ca57b7e6379501e7486f95678c58.jpg]]
+!mineru/中文版clayden-chinese-34-36907-999_images/14f8ad7f789994f21c515d6725a82eb8b702ee2b42c0117ef0b019bd197d213e.jpg
+!mineru/中文版clayden-chinese-34-36907-999_images/b64e045fb98f9e4832e0428e8ea5b3692010ca57b7e6379501e7486f95678c58.jpg
 
 ### 3.6 与 Cope 重排的关系
 
@@ -325,7 +346,7 @@ $$
 - 产物：高度不稳定的双键亚胺 → 芳香性恢复 → 吲哚
 - 这是包含**两个氮原子**的[3,3]-σ重排
 
-![[mineru/中文版clayden-chinese-34-36907-999_images/36c9317b22a277071e5d18652014dead9c8a5a64c8e011d8a97757b07174e1c.jpg]]
+!mineru/中文版clayden-chinese-34-36907-999_images/36c9317b22a277071e5d18652014dead9c8a5a64c8e011d8a97757b07174e1c.jpg
 
 ### 13.4 Cr(VI) 氧化中的共轭氧化（Clayden Ch35）
 
@@ -341,7 +362,7 @@ $$
 - Claisen的驱动力：羰基形成
 - Cope的驱动力：末端双键→三取代双键 + 共轭结构
 
-![[mineru/中文版clayden-chinese-34-36907-999_images/5221b16b595e7d2f6660f2918e18d11399494f76d121a4f9285bcf1af0dd84bc.jpg]]
+!mineru/中文版clayden-chinese-34-36907-999_images/5221b16b595e7d2f6660f2918e18d11399494f76d121a4f9285bcf1af0dd84bc.jpg
 
 ### 13.6 美洲蜚蠊酮 B 合成中的 Claisen/Cope 应用（Clayden Ch35）
 

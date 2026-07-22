@@ -8,6 +8,7 @@ source_type: 书籍
 subject: 决赛要求
 syllabus_stage: 决赛
 tags: [化竞, 资料提炼, Atkins, 物理化学, 相图, 相律, Clapeyron方程]
+target_kp: [["[[相图]]", "[[蒸气压]]"]
 syllabus_codes: [决赛04]
 knowledge_points: [相变热力学, 相律与相图, 克拉佩隆方程, 双组分相图]
 topics: []

@@ -10,6 +10,7 @@ chapter: "16"
 template_version: v1.3
 extracted_date: 2026-07-09
 status: 已提炼
+target_kp: [构象分析, 环己烷构象]
 tags: [化竞, 有机化学, 构象, Newman, 环己烷, 椅式, A值, Clayden]
 handout_plan:
   - target: "有机化学基础"

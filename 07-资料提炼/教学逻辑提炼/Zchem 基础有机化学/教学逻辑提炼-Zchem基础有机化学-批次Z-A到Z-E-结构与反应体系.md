@@ -6,6 +6,7 @@ source_type: 网课课堂笔记
 subject: 有机化学
 related_topic: "[[第三轮总体备课框架]]"
 related_kps: [有机化学绪论, 原子杂化, 共价键, 酸碱理论, pKa, 烷烃, 环烷烃, 构象异构, 自由基, 立体化学, 手性, R/S命名, 卤代烃, SN1, SN2, E1, E2, 消除反应, 醇, 醚, 烯烃, 炔烃, 共轭体系, 芳香性, 芳环取代, 醛酮, 羧酸, 羧酸衍生物, 胺, 缩合反应]
+target_kp: ["[[有机化学基础]]", "[[烷烃]]", "[[立体化学]]", "[[卤代烃]]", "[[亲核取代]]"]
 applicable_rounds: [第三轮]
 status: 待审核
 pending_verifications: []

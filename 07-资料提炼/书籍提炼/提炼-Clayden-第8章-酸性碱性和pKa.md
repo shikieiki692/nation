@@ -10,6 +10,7 @@ chapter: "8"
 template_version: v1.3
 extracted_date: 2026-07-09
 status: 已提炼
+target_kp: [酸碱质子理论, pKa, 酸碱强度]
 tags: [化竞, 有机化学, 酸碱, pKa, 互变异构, Clayden]
 handout_plan:
   - target: "有机化学基础"

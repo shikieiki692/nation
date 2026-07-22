@@ -7,6 +7,7 @@ chapter_title: 周环反应
 syllabus_module: 基础要求-有机化学
 phase: B
 status: 已提炼
+target_kp: [周环反应, Diels-Alder反应, 电环化反应]
 updated: 2026-05-10
 handout_plan:
   - target: "烷烃烯烃炔烃"

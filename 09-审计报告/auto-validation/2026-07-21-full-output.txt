@@ -1,0 +1,9 @@
+
+📊 结果:
+  ✅ 受检: 4433 文件
+  🔴 Error: 0
+  🟡 Warning: 467
+  ℹ️  Info: 982
+  📄 报告: C:\Obsidion\妙妙屋\09-审计报告\auto-validation\2026-07-21-validation.md
+🔍 开始验证（quick）...
+  受检文件: 4433

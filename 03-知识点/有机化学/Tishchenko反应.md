@@ -37,6 +37,15 @@ teaching_ready: false
 source_notes: []
 key_images: []
 updated: 2026-05-25
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第4章-取代与消除]]"
+    asset_id: "ABOC-第4章-取代与消除"
+    asset_type: "书籍提炼"
+    asset_summary: "Tishchenko反应相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Tishchenko反应相关内容"
 ---
 # Tishchenko 反应（Tishchenko Reaction）
 - 总览：[[中国化学奥林匹克基本要求-总览]]
@@ -167,7 +176,7 @@ $$
 - **前置知识**：[[醛酮化学]]、[[氧化还原反应]]、[[负氢转移]]
 - **相关知识**：
   - "[[Cannizzaro反应]]（同一机理的碱催化版本）"
-  - "[[酯的化学]]（产物类型）"
+  - "酯的化学（产物类型）"
 - **应用知识**：
   - "[[题型-有机合成设计]]（从醛制备酯）"
 
@@ -216,7 +225,7 @@ $$
 ### 12.1 学习路径
 
 - **前置**：[[Cannizzaro反应]]、[[氧化还原反应]]
-- **后续**：[[题型-有机合成设计]]、[[酯的化学]]
+- **后续**：[[题型-有机合成设计]]、酯的化学
 
 ### 12.2 学生易踩的认知误区
 

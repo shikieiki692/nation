@@ -7,6 +7,7 @@ chapter: 35
 template_version: v1.3
 extracted: 2026-05-18
 updated: 2026-05-18
+target_kp: [周环反应, 电环化反应, σ迁移]
 tags:
   - Clayden
   - 有机化学

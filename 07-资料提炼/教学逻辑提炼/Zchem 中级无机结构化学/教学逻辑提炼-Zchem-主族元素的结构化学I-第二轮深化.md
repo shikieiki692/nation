@@ -6,6 +6,7 @@ source_type: 课堂实录
 subject: 无机和结构化学
 related_topic: "[[专题-晶体结构深化]]"
 related_kps: [NaCl型结构, 尖晶石, 六方最密堆积, 体心立方堆积, 氢键, 非化学计量化合物]
+target_kp: ["[[主族元素]]", "[[共价键]]", "[[分子结构补充]]"]
 applicable_rounds: [第二轮, 第三轮, 决赛]
 status: 草稿
 created: 2026-05-31

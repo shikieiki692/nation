@@ -1,7 +1,6 @@
----
+﻿---
 title: NMR谱学
 aliases: [Nuclear Magnetic Resonance Spectroscopy, 核磁共振谱学, NMR, 核磁, 核磁共振, 化学位移, 红外光谱, 红外]
-aliases: [Nuclear Magnetic Resonance Spectroscopy, 核磁共振谱学, NMR, 核磁, 核磁共振, 化学位移]
 type: 知识点
 subject: 分析化学
 module: 分析化学
@@ -28,6 +27,7 @@ images_priority: 滴定曲线/光谱 medium，概念 low
 images_note: "当前以文字、公式或表格表达为主，暂未单独配置图像文件；后续备课如需增强直观性，再按需补图。"
 teaching_ready: false
 source_notes: []
+source_extracts: ["[[07-资料提炼/书籍提炼/提炼-ABOC-第10章-光谱与自由基.Replace('.md','')]]", "[[07-资料提炼/书籍提炼/提炼-Clayden-第13章-核磁共振氢谱.Replace('.md','')]]", "[[07-资料提炼/书籍提炼/提炼-Clayden-第18章-光谱法综述.Replace('.md','')]]", "[[07-资料提炼/书籍提炼/提炼-Clayden-第3章-有机结构的确定.Replace('.md','')]]"]
 key_images: []
 template_version: v1.3.2
 updated: 2026-05-25
@@ -135,7 +135,7 @@ $$
 
 - [[有机波谱分析]]：NMR 是有机波谱三兄弟（UV/MS/NMR）中最精细的结构表征手段
 - [[立体化学]]：NOE 和偶合常数是判断立体化学的核心工具
-- [[动态过程]]：变温 NMR 研究化学交换、构象翻转
+- 动态过程：变温 NMR 研究化学交换、构象翻转
 - [[配位化学]]：配位交换的动力学 NMR 研究
 
 ## 九、典型题型

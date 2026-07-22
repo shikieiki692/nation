@@ -37,6 +37,15 @@ source_notes: []
 key_images: []
 template_version: v1.3
 updated: 2026-05-25
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第9章-杂环合成]]"
+    asset_id: "ABOC-第9章-杂环合成"
+    asset_type: "书籍提炼"
+    asset_summary: "Skraup合成相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Skraup合成相关内容"
 ---
 
 # Skraup 合成（Skraup Synthesis）
@@ -166,7 +175,7 @@ $$
 
 ## 八、与其他知识点的联系
 
-- **前置知识**：[[芳香胺]]、[[Michael加成]]、[[缩合反应]]
+- **前置知识**：芳香胺、[[Michael加成]]、[[缩合反应]]
 - **相关知识**：
   - [[Pictet-Spengler反应]]（异喹啉合成）
   - [[Bischler-Napieralski反应]]（异喹啉另一方法）
@@ -214,7 +223,7 @@ $$
 
 ### 12.1 学习路径
 
-- **前置**：[[芳香胺]]、[[Michael加成]]
+- **前置**：芳香胺、[[Michael加成]]
 - **后续**：[[Pictet-Spengler反应]]、[[杂环合成]]
 
 ### 12.2 现实类比

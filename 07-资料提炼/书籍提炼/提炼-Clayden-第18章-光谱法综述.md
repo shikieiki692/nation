@@ -10,6 +10,7 @@ chapter: "18"
 template_version: v1.3
 extracted_date: 2026-07-09
 status: 已提炼
+target_kp: [波谱分析, NMR谱学, IR光谱]
 tags: [化竞, 有机化学, 波谱综合解析, 红外光谱, 质谱, NMR, 羰基, Clayden]
 handout_plan:
   - target: "光谱法综合解析与羰基化合物结构鉴定"

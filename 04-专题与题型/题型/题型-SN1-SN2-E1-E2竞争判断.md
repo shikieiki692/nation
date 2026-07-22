@@ -10,6 +10,19 @@ importance: 5
 status: 完整
 stage: published
 updated: 2026-06-29
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第4章-取代与消除]]"
+    asset_id: ""
+    asset_type: ""
+    asset_summary: ""
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第17章-消除反应]]"
+    asset_id: ""
+    asset_type: ""
+    asset_summary: ""
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第15章-饱和碳上的亲核取代]]"
+    asset_id: ""
+    asset_type: ""
+    asset_summary: ""
 ---
 
 # 题型：SN1/SN2/E1/E2 竞争判断

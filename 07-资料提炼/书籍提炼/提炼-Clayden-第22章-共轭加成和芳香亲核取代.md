@@ -9,6 +9,7 @@ source_path: clayden 有机化学/Clayden中文版_402-600.md
 source_range: line 3535–4447
 chapter: "22"
 status: 已提炼
+target_kp: [Michael加成, 芳香亲核取代]
 extracted_date: 2026-07-09
 tags: [化竞, 有机化学, 共轭加成, Michael加成, 芳香亲核取代, SNAr, 苯炔, Meisenheimer复合物, Clayden]
 handout_plan:

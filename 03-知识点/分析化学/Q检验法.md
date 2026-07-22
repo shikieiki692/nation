@@ -4,6 +4,8 @@ title: "Q检验法"
 created: 2026-07-18
 updated: 2026-07-18
 tags: [化竞, 分析化学, 数据处理]
+subject: 分析化学
+status: 初稿
 ---
 
 # Q检验法

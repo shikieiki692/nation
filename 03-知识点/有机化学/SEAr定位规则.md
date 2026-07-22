@@ -1,6 +1,6 @@
----
+﻿---
 title: SEAr定位规则
-aliases: [芳香亲电取代, 芳香亲电取代定位, SEAr Orientation, 定位效应, 间位定位基, 邻对位定位基, 活化基, 钝化基, 苯环取代定位规则, 取代基定位效应]
+aliases: [芳香亲电取代, 芳香亲电取代定位, SEAr Orientation, 定位效应, 间位定位基, 邻对位定位基, 活化基, 钝化基, 苯环取代定位规则, 取代基定位效应, 活化与钝化]
 type: 知识点
 template_version: v1.3
 subject: 有机化学
@@ -39,6 +39,11 @@ teaching_ready: false
 source_notes: []
 key_images: []
 updated: 2026-05-25
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-上海中学竞赛课程-第四分册-芳香烃]]"
+    asset_id: "上海中学竞赛课程-第四分册-芳香烃"
+    asset_type: "书籍提炼"
+    asset_summary: "SEAr定位规则相关内容"
 ---
 # SEAr 定位规则（SEAr Orientation Rules）
 - 总览：[[中国化学奥林匹克基本要求-总览]]

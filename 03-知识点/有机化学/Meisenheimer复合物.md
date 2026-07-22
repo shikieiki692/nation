@@ -30,6 +30,15 @@ template_version: v1.3
 key_images: []
 teaching_ready: false
 source_notes: []
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第22章-共轭加成和芳香亲核取代]]"
+    asset_id: "Clayden-第22章-共轭加成和芳香亲核取代"
+    asset_type: "书籍提炼"
+    asset_summary: "Meisenheimer复合物相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第24章-区域选择性]]"
+    asset_id: "Clayden-第24章-区域选择性"
+    asset_type: "书籍提炼"
+    asset_summary: "Meisenheimer复合物相关内容"
 ---
 
 # Meisenheimer复合物

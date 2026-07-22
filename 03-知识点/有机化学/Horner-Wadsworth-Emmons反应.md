@@ -33,6 +33,11 @@ teaching_ready: false
 
 source_notes: []
 key_images: []
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第24章-区域选择性]]"
+    asset_id: "Clayden-第24章-区域选择性"
+    asset_type: "书籍提炼"
+    asset_summary: "Horner-Wadsworth-Emmons反应相关内容"
 ---
 
 <!-- 📚 标杆样板（v1.3）：复制本模板创建新 KP 前，先看至少 1-2 个标杆样板
@@ -246,8 +251,8 @@ Horner-Wadsworth-Emmons反应
 ├── 等价方法
 │   ├── [[Wittig反应]]（鏻叶立德法）
 │   ├── [[Peterson烯化反应]]（硅基法）
-│   ├── [[Julia烯化]]（砜法）
-│   └── [[Tebbe试剂]]（钛法）
+│   ├── Julia烯化（砜法）
+│   └── Tebbe试剂（钛法）
 ├── 试剂制备
 │   └── [[Arbuzov反应]]（亚磷酸酯 → 膦酸酯）
 └── 应用场景

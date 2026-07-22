@@ -6,6 +6,7 @@ source_type: 课堂实录
 subject: 无机和结构化学
 related_topic: "[[专题-过渡金属]]"
 related_kps: [KP-钛化学, KP-铬化学, KP-锰化学, KP-18电子规则, KP-镧系收缩]
+target_kp: ["[[过渡金属通性]]", "[[稀土元素]]", "[[钛]]", "[[钒]]", "[[铬]]", "[[锰]]"]
 applicable_rounds: [第一轮, 第二轮]
 status: 待审核
 created: 2026-06-23

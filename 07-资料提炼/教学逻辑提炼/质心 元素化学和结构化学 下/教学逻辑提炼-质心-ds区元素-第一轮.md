@@ -6,6 +6,7 @@ source_type: 课堂实录
 subject: 无机和结构化学
 related_topic: "[[专题-过渡金属元素化学]]"
 related_kps: [铜副族, 锌副族, ds区元素, 氰化法, 惰性电子对效应, 混合价态]
+target_kp: ["[[铜副族]]", "[[锌副族]]"]
 applicable_rounds: [第一轮, 第二轮]
 status: 草稿
 created: 2026-05-31

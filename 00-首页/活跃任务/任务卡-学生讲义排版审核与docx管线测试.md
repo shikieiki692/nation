@@ -14,7 +14,7 @@ source_notes:
   - "[[Agent最小执行协议]]"
   - "[[状态摘要]]"
 related_notes:
-  - "[[04-课件/学生讲义/README.md]]"
+  - "[[04-课件/学生讲义/README]]"
   - "[[11-模板/scripts/build-all-handout-docx.py]]"
 evidence:
   - "docx管线4/4成功（分析化学板块）：滴定分析/容量分析/络合滴定/氧化还原滴定"

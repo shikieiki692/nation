@@ -38,6 +38,19 @@ teaching_ready: false
 source_notes: []
 key_images: []
 updated: 2026-05-25
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-PhaseD-习题拆题清单]]"
+    asset_id: "ABOC-PhaseD-习题拆题清单"
+    asset_type: "书籍提炼"
+    asset_summary: "Simmon-Smith反应相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第3章-烯烃加成]]"
+    asset_id: "ABOC-第3章-烯烃加成"
+    asset_type: "书籍提炼"
+    asset_summary: "Simmon-Smith反应相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Simmon-Smith反应相关内容"
 ---
 # Simmon-Smith 反应（Simmon-Smith Reaction）
 - 总览：[[中国化学奥林匹克基本要求-总览]]
@@ -192,7 +205,7 @@ CH₂I₂  +  Zn(Cu)  →  ICH₂-ZnI  （类卡宾，carbenoid）
   - "[[环丙烷]]（产物类型）"
   - "[[卡宾]]（Rh/Cu/Au 卡宾催化环丙烷化）"
 - **应用知识**：
-  - "[[小环似烯]]（环丙烷的特殊反应性）"
+  - "小环似烯（环丙烷的特殊反应性）"
   - "[[天然产物合成]]（环丙烷结构单元常见于天然产物）"
 
 ---
@@ -242,7 +255,7 @@ CH₂I₂  +  Zn(Cu)  →  ICH₂-ZnI  （类卡宾，carbenoid）
 ### 12.1 学习路径
 
 - **前置**：[[卡宾]]、[[烯烃]]
-- **后续**：[[环丙烷]]、[[小环似烯]]
+- **后续**：[[环丙烷]]、小环似烯
 
 ### 12.2 学生易踩的认知误区
 

@@ -53,6 +53,15 @@ source_notes:
   - "[[07-资料提炼/书籍提炼/提炼-普化原理-第13章-晶体与晶体结构]]"
   - "[[07-资料提炼/书籍提炼/提炼-Atkins物理化学-主题15-固体]]"
   - "[[07-资料提炼/书籍提炼/提炼-化学竞赛初赛讲义-第7讲-晶体结构]]"
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-普化原理-第13章-晶体与晶体结构]]"
+    asset_id: "普化原理-第13章-晶体与晶体结构"
+    asset_type: "书籍提炼"
+    asset_summary: "Bragg方程相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Atkins物理化学-主题15-固体]]"
+    asset_id: "Atkins物理化学-主题15-固体"
+    asset_type: "书籍提炼"
+    asset_summary: "Bragg方程相关内容"
 ---
 
 # Bragg方程

@@ -34,6 +34,11 @@ images_note: 包含Eschenmoser碎片化反应图、机理图
 key_images: []
 teaching_ready: false
 source_notes: []
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第36章-碎片化与重排]]"
+    asset_id: "Clayden-第36章-碎片化与重排"
+    asset_type: "书籍提炼"
+    asset_summary: "Eschenmoser碎片化相关内容"
 ---
 
 # Eschenmoser 碎片化（Eschenmoser Fragmentation）
@@ -91,7 +96,7 @@ $$
 
 **注意**：离去基是**对甲苯亚磺酸根（ArSO₂⁻）**而非对甲苯磺酸根——这是一个重要的细节。
 
-![[mineru/中文版clayden-chinese-34-36907-999_images/7ebeda109a672523e651bb7f9883359d9c3ff65923bf8982a81d4472c4f03795.jpg]]
+!mineru/中文版clayden-chinese-34-36907-999_images/7ebeda109a672523e651bb7f9883359d9c3ff65923bf8982a81d4472c4f03795.jpg
 
 ### 3.2 1,2,3,4 碎片化模式
 

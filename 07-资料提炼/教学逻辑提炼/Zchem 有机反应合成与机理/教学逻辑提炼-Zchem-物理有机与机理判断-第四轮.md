@@ -17,6 +17,9 @@ related_kps:
   - "[[Hammett方程]]"
   - "[[动力学同位素效应]]"
   - "[[过渡态]]"
+target_kp:
+  - "[[有机反应机理]]"
+  - "[[反应动力学]]"
 applicable_rounds:
   - 第三轮
   - 第四轮

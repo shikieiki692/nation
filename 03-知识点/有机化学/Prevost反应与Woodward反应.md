@@ -39,6 +39,11 @@ teaching_ready: false
 source_notes: []
 key_images: []
 updated: 2026-05-25
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Prevost反应与Woodward反应相关内容"
 ---
 # Prevost 反应与 Woodward 反应
 - 总览：[[中国化学奥林匹克基本要求-总览]]

@@ -38,6 +38,23 @@ teaching_ready: false
 source_notes: []
 key_images: []
 updated: 2026-05-10
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第8章-过渡金属催化]]"
+    asset_id: "ABOC-第8章-过渡金属催化"
+    asset_type: "书籍提炼"
+    asset_summary: "Heck反应相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第9章-杂环合成]]"
+    asset_id: "ABOC-第9章-杂环合成"
+    asset_type: "书籍提炼"
+    asset_summary: "Heck反应相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Heck反应相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第40章-金属有机化学]]"
+    asset_id: "Clayden-第40章-金属有机化学"
+    asset_type: "书籍提炼"
+    asset_summary: "Heck反应相关内容"
 ---
 
 # Heck 反应（Mizoroki-Heck Reaction）
@@ -205,7 +222,7 @@ $$
 
 ## 八、与其他知识点的联系
 
-- **前置知识**：[[过渡金属催化基础]]、[[氧化加成与还原消除]]、[[迁移插入]]、[[β-H消除]]
+- **前置知识**：[[过渡金属催化基础]]、[[氧化加成与还原消除]]、[[迁移插入]]、β-H消除
 - **相关知识**：
   - "[[Suzuki偶联]]（Pd 催化的另一核心反应）"
   - "[[Wacker氧化]]（另一 Pd 催化的烯烃反应）"
@@ -270,7 +287,7 @@ $$
 
 ### 12.1 学习路径
 
-- **前置**：[[过渡金属催化基础]]、[[迁移插入]]、[[β-H消除]]
+- **前置**：[[过渡金属催化基础]]、[[迁移插入]]、β-H消除
 - **后续**：[[Suzuki偶联]]、[[题型-有机合成设计]]、[[天然产物合成]]
 
 ### 12.2 学生易踩的认知误区

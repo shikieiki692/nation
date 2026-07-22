@@ -12,6 +12,19 @@ stage: draft
 updated: 2026-06-29
 syllabus_code: [28]
 template_version: v1.3
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第16章-构象分析]]"
+    asset_id: "Clayden-第16章-构象分析"
+    asset_type: "书籍提炼"
+    asset_summary: "Bredt规则相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第17章-消除反应]]"
+    asset_id: "Clayden-第17章-消除反应"
+    asset_type: "书籍提炼"
+    asset_summary: "Bredt规则相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第35章-σ重排和电环化反应]]"
+    asset_id: "Clayden-第35章-σ重排和电环化反应"
+    asset_type: "书籍提炼"
+    asset_summary: "Bredt规则相关内容"
 ---
 
 # Bredt规则

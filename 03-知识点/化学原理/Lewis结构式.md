@@ -4,6 +4,9 @@ title: "Lewis结构式"
 created: 2026-07-18
 updated: 2026-07-18
 tags: [化竞, 化学原理, 化学键]
+source_extracts: ["[[07-资料提炼/赵鑫光-分子结构-竞赛题集.Replace('.md','')]]"]
+subject: 化学原理
+status: 初稿
 ---
 
 # Lewis结构式

@@ -6,6 +6,7 @@ source_type: 课堂实录
 subject: 无机和结构化学
 related_topic: "[[专题-过渡金属]]"
 related_kps: [KP-铁化学, KP-钴化学, KP-镍化学, KP-催化循环入门, KP-18电子规则]
+target_kp: ["[[铁系元素]]", "[[铂系元素]]"]
 applicable_rounds: [第一轮, 第二轮]
 status: 待审核
 created: 2026-06-23

@@ -6,6 +6,7 @@ source_type: 课堂实录
 subject: 无机和结构化学
 related_topic: "[[专题-碱金属碱土金属与稀有气体]]"
 related_kps: [碱金属, 离子半径, 分子晶体, 稀有气体化合物, 氢化物, 对角线规则, 超氧化物与臭氧化物, 铍化学, 晶格能]
+target_kp: ["[[碱金属]]", "[[碱土金属]]", "[[氢]]"]
 applicable_rounds: [第一轮, 第二轮]
 status: 待审核
 created: 2026-06-23

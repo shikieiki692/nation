@@ -36,6 +36,15 @@ template_version: v1.3
 updated: 2026-05-24
 teaching_ready: false
 source_notes: []
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-PhaseD-习题拆题清单]]"
+    asset_id: "ABOC-PhaseD-习题拆题清单"
+    asset_type: "书籍提炼"
+    asset_summary: "De Mayo反应相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第11章-解题训练]]"
+    asset_id: "ABOC-第11章-解题训练"
+    asset_type: "书籍提炼"
+    asset_summary: "De Mayo反应相关内容"
 ---
 
 # De Mayo 反应
@@ -175,7 +184,7 @@ source_notes: []
 ### 12.1 学习路径
 
 - **前置**：[[周环反应]]、[[[2+2]环加成]]、[[光化学]]
-- **后续**：[[逆合成分析]]、[[全合成推断]]
+- **后续**：[[逆合成分析]]、全合成推断
 
 ### 12.2 学生易踩的认知误区
 

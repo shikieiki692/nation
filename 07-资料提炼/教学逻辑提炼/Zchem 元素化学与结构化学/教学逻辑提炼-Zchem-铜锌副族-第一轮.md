@@ -6,6 +6,7 @@ source_type: 课堂实录
 subject: 无机和结构化学
 related_topic: "[[专题-ds区元素]]"
 related_kps: [铜, 锌, 银, 汞, 钛铬锰铁钴镍铜锌基础元素化学, Jahn-Teller效应, 晶体场分裂与磁性]
+target_kp: ["[[铜副族]]", "[[锌副族]]", "[[ds区元素]]"]
 applicable_rounds: [第一轮, 第二轮]
 status: 待审核
 created: 2026-06-23

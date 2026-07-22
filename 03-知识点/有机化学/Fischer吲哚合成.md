@@ -37,6 +37,27 @@ teaching_ready: false
 source_notes: []
 key_images: []
 updated: 2026-05-10
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-PhaseD-习题拆题清单]]"
+    asset_id: "ABOC-PhaseD-习题拆题清单"
+    asset_type: "书籍提炼"
+    asset_summary: "Fischer吲哚合成相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第11章-解题训练]]"
+    asset_id: "ABOC-第11章-解题训练"
+    asset_type: "书籍提炼"
+    asset_summary: "Fischer吲哚合成相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第9章-杂环合成]]"
+    asset_id: "ABOC-第9章-杂环合成"
+    asset_type: "书籍提炼"
+    asset_summary: "Fischer吲哚合成相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Fischer吲哚合成相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第30章-芳杂环合成]]"
+    asset_id: "Clayden-第30章-芳杂环合成"
+    asset_type: "书籍提炼"
+    asset_summary: "Fischer吲哚合成相关内容"
 ---
 
 # Fischer 吲哚合成（Fischer Indole Synthesis）

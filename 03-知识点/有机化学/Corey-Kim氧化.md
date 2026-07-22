@@ -38,6 +38,15 @@ teaching_ready: false
 source_notes: []
 key_images: []
 updated: 2026-05-10
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第4章-取代与消除]]"
+    asset_id: "ABOC-第4章-取代与消除"
+    asset_type: "书籍提炼"
+    asset_summary: "Corey-Kim氧化相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Corey-Kim氧化相关内容"
 ---
 
 # Corey-Kim 氧化（Corey-Kim Oxidation）
@@ -170,7 +179,7 @@ $$
 - **前置知识**：[[醇]]、[[氧化还原反应]]、[[含硫化合物]]
 - **相关知识**：
   - "[[Swern氧化]]（机理兄弟）"
-  - "[[Dess-Martin氧化]]、[[PCC]]（其他温和氧化）"
+  - "[[Dess-Martin氧化]]、PCC（其他温和氧化）"
 - **应用知识**：
   - "[[题型-有机合成设计]]（醇的氧化策略选择）"
 

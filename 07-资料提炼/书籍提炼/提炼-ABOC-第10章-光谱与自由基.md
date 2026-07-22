@@ -7,6 +7,7 @@ chapter_title: 光谱化学与自由基化学
 syllabus_module: 基础要求-有机化学
 phase: B
 status: 已提炼
+target_kp: [自由基, 光谱分析, NMR谱学]
 updated: 2026-05-10
 handout_plan:
   - target: "杂环糖氨基酸"

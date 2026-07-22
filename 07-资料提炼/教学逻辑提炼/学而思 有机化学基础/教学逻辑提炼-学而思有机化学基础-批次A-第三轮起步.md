@@ -6,6 +6,7 @@ source_type: 网课课堂笔记 + 学生讲义
 subject: 有机化学
 related_topic: "[[第三轮总体备课框架]]"
 related_kps: [有机化学绪论, 烷烃, 环烷烃, 自由基, 立体化学, 构象异构, 手性, R/S命名]
+target_kp: ["[[有机化学基础]]", "[[烷烃]]", "[[立体化学]]"]
 applicable_rounds: [第三轮]
 status: 待审核
 pending_verifications: []

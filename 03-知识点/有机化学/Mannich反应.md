@@ -4,6 +4,29 @@ title: "Mannich反应"
 created: 2026-07-18
 updated: 2026-07-18
 tags: [化竞, 有机化学, 人名反应]
+source_extracts:
+  - source_file: "[[07-资料提炼/提炼-第30届初赛试题解析]]"
+    asset_id: "第30届初赛试题解析"
+    asset_type: "真题解析"
+    asset_summary: "Mannich反应相关内容"
+  - source_file: "[[07-资料提炼/知识点索引]]"
+    asset_id: "知识点索引"
+    asset_type: "资料提炼"
+    asset_summary: "Mannich反应相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-PhaseD-习题拆题清单]]"
+    asset_id: "ABOC-PhaseD-习题拆题清单"
+    asset_type: "书籍提炼"
+    asset_summary: "Mannich反应相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第6章-缩合反应]]"
+    asset_id: "ABOC-第6章-缩合反应"
+    asset_type: "书籍提炼"
+    asset_summary: "Mannich反应相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Mannich反应相关内容"
+subject: 有机化学
+status: 初稿
 ---
 
 # Mannich反应

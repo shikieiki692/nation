@@ -4,6 +4,8 @@ title: "CO2固定"
 created: 2026-07-18
 updated: 2026-07-18
 tags: [化竞, 无机和结构化学, 催化化学]
+subject: 无机和结构化学
+status: 初稿
 ---
 
 # CO2固定

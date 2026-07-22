@@ -30,6 +30,23 @@ teaching_ready: false
 source_notes: []
 key_images: []
 updated: 2026-05-06
+source_extracts:
+  - source_file: "[[07-资料提炼/提炼-第36届初赛试题解析（第二场）]]"
+    asset_id: "第36届初赛试题解析（第二场）"
+    asset_type: "真题解析"
+    asset_summary: "Dess-Martin氧化相关内容"
+  - source_file: "[[07-资料提炼/知识点索引]]"
+    asset_id: "知识点索引"
+    asset_type: "资料提炼"
+    asset_summary: "Dess-Martin氧化相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第4章-取代与消除]]"
+    asset_id: "ABOC-第4章-取代与消除"
+    asset_type: "书籍提炼"
+    asset_summary: "Dess-Martin氧化相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第23章-化学选择性和保护基]]"
+    asset_id: "Clayden-第23章-化学选择性和保护基"
+    asset_type: "书籍提炼"
+    asset_summary: "Dess-Martin氧化相关内容"
 ---
 
 # Dess–Martin 氧化（IBX 与 DMP）
@@ -61,7 +78,7 @@ $$
 ### 3.1 试剂的合成
 IBX 与 DMP 由 **2-碘苯甲酸 (2-iodobenzoic acid)** 与 **过氧硫酸氢钾 (Oxone, KHSO₅)** 氧化获得 IBX，再用乙酸酐乙酰化得到 DMP：
 
-![[ArrowPushinginInorganicChemistry_231-336_images/df9c22ab6b5f4518b6712588ee59c2b499162381a07d976434a0b63d4f8a2a1c.jpg]]
+!ArrowPushinginInorganicChemistry_231-336_images/df9c22ab6b5f4518b6712588ee59c2b499162381a07d976434a0b63d4f8a2a1c.jpg
 
 > 关键：
 > - I(I) → I(V)：KHSO₅ 提供两个 O，碘从 −1/+1 价升至 +5；
@@ -73,7 +90,7 @@ IBX 与 DMP 由 **2-碘苯甲酸 (2-iodobenzoic acid)** 与 **过氧硫酸氢钾
 
 醇的氧亲核进攻 IBX 的 I 中心，置换掉一个 OH（属 SN2-Si 类的"重元素亲核取代"，详见 [[SN2-Si机理]]）：
 
-![[ArrowPushinginInorganicChemistry_231-336_images/c721cf2250289e48a1f73ad25c890b11502b4f83dd9ab88c228682f68b88ea69.jpg]]
+!ArrowPushinginInorganicChemistry_231-336_images/c721cf2250289e48a1f73ad25c890b11502b4f83dd9ab88c228682f68b88ea69.jpg
 
 形成的 **烷氧基-λ⁵-碘烷中间体** $\ce{R-O-I(V)}$ 是关键中间体。
 
@@ -81,7 +98,7 @@ IBX 与 DMP 由 **2-碘苯甲酸 (2-iodobenzoic acid)** 与 **过氧硫酸氢钾
 
 烷氧基-λ⁵-碘烷经过 **五元环过渡态**：碘上的氧（属于 IBX 的羰基 O）拔取醇 α-H，同时 C–O–I 键断裂、I 还原为 I(III)。一步生成醛/酮 + 2-碘代苯甲酸（aryl-λ³-iodane）：
 
-![[ArrowPushinginInorganicChemistry_231-336_images/704ec006b8a19fea2b615cc51017b09b1457f35c1ecc8466b19be9ba697e1414.jpg]]
+!ArrowPushinginInorganicChemistry_231-336_images/704ec006b8a19fea2b615cc51017b09b1457f35c1ecc8466b19be9ba697e1414.jpg
 
 > 这一步与 [[Swern氧化]] 第 4 步（叶立德五元环 [2,3]-σ 重排）**机理同构**：都是"在 X(高价) 上配位的 R-O-，借助 X 上的 base 拔 α-H，协同还原 X、生成 C=O"。
 
@@ -91,13 +108,13 @@ IBX 与 DMP 由 **2-碘苯甲酸 (2-iodobenzoic acid)** 与 **过氧硫酸氢钾
 
 醇配位 I(V)，以 SN2-Si 类机理推走一个乙酸根，生成烷氧基-DMP 中间体：
 
-![[ArrowPushinginInorganicChemistry_231-336_images/3e0907800be3c173c28106d9a02eb4d71247c080cbc9d7c091388eba9b712ae0.jpg]]
+!ArrowPushinginInorganicChemistry_231-336_images/3e0907800be3c173c28106d9a02eb4d71247c080cbc9d7c091388eba9b712ae0.jpg
 
 **第 2 步：剩余的 OAc⁻ 拔 α-H**
 
 剩余的乙酸根（或新生成的醋酸盐内层亲核体）拔取烷氧 α-H，I(V) → I(III)，生成酮 + 2-碘代苯甲酸 + 2 AcOH：
 
-![[ArrowPushinginInorganicChemistry_231-336_images/c833ae7ca0e2b0414e46af507b9b3f3ee5737fc8f06604159ce01614631b3ec9.jpg]]
+!ArrowPushinginInorganicChemistry_231-336_images/c833ae7ca0e2b0414e46af507b9b3f3ee5737fc8f06604159ce01614631b3ec9.jpg
 
 > 注意：DMP 与 IBX 的本质相同（都是 λ⁵-碘烷氧化醇），区别仅在于"基底碘上挂的是 OAc 还是 OH"。
 
@@ -174,7 +191,7 @@ IBX 与 DMP 由 **2-碘苯甲酸 (2-iodobenzoic acid)** 与 **过氧硫酸氢钾
   - [[Swern氧化]]（同样温和的 S(IV) 介导氧化）
   - [[过碘酸氧化]]（I(VII) 氧化裂解 1,2-二醇）
   - [[高价碘试剂]]（λ³ 与 λ⁵-碘烷的总览）
-- 应用知识：[[有机合成]]、[[保护基策略]]、[[多步合成路线]]
+- 应用知识：[[有机合成]]、[[保护基策略]]、多步合成路线
 
 ## 九、典型题型
 - 题型-氧化反应试剂选择：从底物特征选 DMP/Swern/Jones/HIO₄

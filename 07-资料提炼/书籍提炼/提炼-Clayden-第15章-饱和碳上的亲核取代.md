@@ -10,6 +10,7 @@ chapter: "15"
 template_version: v1.3
 extracted_date: 2026-07-09
 status: 已提炼
+target_kp: [SN1反应, SN2反应]
 tags: [化竞, 有机化学, SN1, SN2, 亲核取代, 立体化学, Clayden]
 handout_plan:
   - target: "有机化学基础"
