@@ -1,6 +1,6 @@
 ---
 title: Prevost反应与Woodward反应
-aliases: [Prevost Reaction, Woodward Reaction, 碘鎓离子双羟化, 反式邻二醇, 顺式邻二醇, 无水双羟化, 有水双羟化]
+aliases: [Prevost Reaction, Woodward Reaction, 碘鎓离子双羟化, 反式邻二醇, 顺式邻二醇, 无水双羟化, 有水双羟化, Prevost反应, Woodward反应]
 type: 知识点
 template_version: v1.3
 subject: 有机化学
@@ -265,7 +265,39 @@ C=C  +  I₂   →   [碘鎓离子]⁺
 
 ---
 
-## 十三、修订记录
+## 十三、并入内容（自 [[Prevost反应]] 与 [[Woodward反应]]，2026-07-23 合并）
+
+### 13.1 并入例题
+
+**例题 A（★★）**：如何从顺-2-丁烯出发制备 meso-2,3-丁二醇？
+- meso-2,3-丁二醇 = 两个 OH 在异侧（anti 加成产物）
+- 顺-2-丁烯 → 要得 meso，需 **anti 加成** → 用 **Prevost**（无水 I₂/AgOAc）
+
+**例题 B（★★）**：如何从反-2-丁烯出发制备 meso-2,3-丁二醇？
+- 反-2-丁烯 → 要得 meso，需 **syn 加成** → 用 **Woodward**（I₂/AgOAc/H₂O）或 **OsO₄/NMO**
+
+### 13.2 补充对比表
+
+**Prevost vs 环氧开环**
+
+| | **Prevost** | **环氧开环** |
+|:---|:---|:---|
+| 立体化学 | anti | trans（酸/碱开环） |
+| 中间体 | 碘鎓离子 | 环氧 |
+| 路线 | 一步双羟化 | 两步（环氧化 + 开环） |
+| 选择性 | 中等 | 高 |
+
+**Woodward vs OsO₄**
+
+| | **Woodward** | **OsO₄/NMO** |
+|:---|:---|:---|
+| 试剂成本 | 较低 | 较高（Os 昂贵且剧毒） |
+| 立体化学 | syn | syn |
+| 中间体 | 碘鎓离子 | 锇酸酯 |
+| 操作安全性 | 较高 | 较低（OsO₄ 剧毒） |
+| 选择性 | 中等 | 高 |
+
+## 十四、修订记录
 
 - **v1.1（2026-05-10）**：首次创建。基于 ABOC §3.2.2 Prevost/Woodward 框架。涵盖碘鎓离子中间体、水对可逆性的影响、平衡思维解释、与其他双羟化方法对比。Phase C Ch.3 新建 KP。
 
@@ -278,8 +310,8 @@ WHERE contains(knowledge_points, "Prevost反应与Woodward反应")
 SORT year DESC, difficulty ASC
 ```
 
-## 十三、竞赛拓展
+## 十五、竞赛拓展
 
-## 十四、外部资料出处
+## 十六、外部资料出处
 
-## 十五、待完善项
+## 十七、待完善项

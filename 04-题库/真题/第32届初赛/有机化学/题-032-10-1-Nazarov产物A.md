@@ -13,7 +13,7 @@ question_type: 简答题
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: []
-knowledge_points: ["[[Nazarov环化]]", "[[4π电环化]]", "[[顺旋/对旋]]"]
+knowledge_points: ["[[Nazarov环化]]", "[[4π电环化]]", "[[题-032-10-1-Nazarov产物A]]"]
 tags: [化竞, 真题, 32届, 有机化学]
 updated: 2026-05-11
 status: 已填充

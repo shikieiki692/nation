@@ -1,6 +1,6 @@
 ---
 title: Robinson环化
-aliases: [Robinson Annulation, 罗宾逊环化, Michael-Aldol串联, 环己烯酮合成]
+aliases: [Robinson Annulation, 罗宾逊环化, Robinson增环反应, Robinson成环, Robinson合成, Michael-Aldol串联, 环己烯酮合成]
 type: 知识点
 template_version: v1.3
 subject: 有机化学
@@ -309,5 +309,31 @@ SORT year DESC, difficulty ASC
 ```
 
 ## 十四、外部资料出处
+
+## 附：并入自原 Robinson增环反应 版（2026-07-23 批次2合并）
+
+> 来源：原 `03-知识点/有机化学/Robinson增环反应.md`（已删除）
+
+### 入门例题
+
+**题目**：解释为什么2-甲基-1,3-环己二酮与甲基乙烯基酮的反应是Robinson增环反应。
+
+**解答**：2-甲基-1,3-环己二酮（活泼亚甲基化合物）与甲基乙烯基酮（Michael受体）先发生Michael加成，生成的Michael加成中间体是1,5-二酮，可发生分子内Aldol缩合形成新的六元环，得到双环[4.4.0]癸烯酮骨架。
+
+### 认知误区补充
+
+| 误区 | 正确理解 |
+|:---|:---|
+| 混淆Robinson增环和Robinson托品酮合成 | Robinson增环是通用方法，Robinson托品酮合成是其特定应用（构建托品酮骨架） |
+
+### 与现实世界的联系
+
+- **甾体合成**：Robinson增环是合成甾体（如睾酮、胆固醇）的核心方法，Torgov合成是经典应用
+- **天然产物全合成**：许多萜类和生物碱的合成路线中使用Robinson增环构建六元环
+- **药物合成**：某些抗炎药和激素类药物的合成涉及Robinson增环反应
+
+### 相关题目索引
+
+- [[题-030-8-1-化合物A到F结构简式]]
 
 ## 十五、待完善项

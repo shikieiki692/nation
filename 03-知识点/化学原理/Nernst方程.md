@@ -1,6 +1,7 @@
 ---
 type: 知识点
 title: "Nernst方程"
+aliases: [能斯特方程]
 created: 2026-07-18
 updated: 2026-07-18
 tags: [化竞, 化学原理, 电化学]

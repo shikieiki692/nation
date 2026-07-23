@@ -2,7 +2,8 @@
 title: 酸碱平衡与pH计算
 type: 专题
 module: 化学原理
-status: 精品
+status: 已填充
+重复候选: 与 [[专题-酸碱理论]] 主题重叠，待合并
 difficulty: ★★★
 source_extracts:
   - "[[酸碱平衡(核心结论)]]"

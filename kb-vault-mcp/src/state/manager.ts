@@ -128,7 +128,7 @@ export class StateManager {
     if (params.parentId) {
       const parentTask = this.tasks.get(params.parentId);
       if (parentTask) {
-        parentTask.children.push(taskId);
+        (parentTask.children ??= []).push(taskId);
       }
     }
 
@@ -384,12 +384,12 @@ export class StateManager {
 
     // META 意图写入 00-首页/ 需要警告（这里只是记录，不阻断）
     if (task.intentType === 'META' && normalizedPath.includes('00-首页/')) {
-      task.decisions.push(`WARNING: META 意图修改了 00-首页/ 下的文件: ${targetPath}`);
+      (task.decisions ??= []).push(`WARNING: META 意图修改了 00-首页/ 下的文件: ${targetPath}`);
     }
 
     // MAINTAIN 意图的删除操作需要软弃用（这里只是记录，实际实现在 kb_delete 中）
     if (task.intentType === 'MAINTAIN' && operation === 'delete') {
-      task.decisions.push('MAINTAIN 删除操作将自动降级为软弃用');
+      (task.decisions ??= []).push('MAINTAIN 删除操作将自动降级为软弃用');
     }
 
     return null;

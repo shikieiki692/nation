@@ -15,6 +15,7 @@ tags: [化竞, ABOC, 有机化学]
 aliases: [ABOC-Ch2-2.7.2-3]
 updated: 2026-07-04
 status: 已填充
+duplicate_of: "[[题-101-ABOC-Ch2-2.7.2-3-写出Li 和RX 反应的单电子转移机理]]"
 ---
 
 # 题-199：$L \dot { \mathsf { I } } + \mathsf { R } \mathsf 
