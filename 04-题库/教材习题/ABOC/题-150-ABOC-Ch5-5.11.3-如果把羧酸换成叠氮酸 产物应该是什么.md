@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-150-ABOC-Ch5-5.11.3-如果把羧酸换成叠氮酸 产物应该是什么.md
 type: 题目
 source: ABOC 第5章 自学练习（ARX's Basic Organic Chemistry 第3版）

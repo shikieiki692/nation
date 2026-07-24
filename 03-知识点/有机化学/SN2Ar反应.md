@@ -2,7 +2,7 @@
 type: 知识点
 title: "SN2Ar反应"
 created: 2026-07-18
-updated: 2026-07-18
+updated: 2026-07-23
 tags: [化竞, 有机化学, 取代反应]
 source_extracts:
   - source_file: "[[07-资料提炼/提炼-第28届初赛试题解析]]"
@@ -10,7 +10,7 @@ source_extracts:
     asset_type: "真题解析"
     asset_summary: "SN2Ar反应相关内容"
 subject: 有机化学
-status: 初稿
+status: 已填充
 importance: 3
 difficulty: 3
 ---

@@ -3,7 +3,7 @@ type: 知识点
 title: "Hofmann消除"
 aliases: ["Hofmann重排", "霍夫曼消除", "霍夫曼重排"]
 created: 2026-07-18
-updated: 2026-07-18
+updated: 2026-07-23
 tags: [化竞, 有机化学, 消除反应]
 source_extracts:
   - source_file: "[[07-资料提炼/提炼-第29届初赛试题解析]]"
@@ -15,7 +15,7 @@ source_extracts:
     asset_type: "资料提炼"
     asset_summary: "Hofmann消除相关内容"
 subject: 有机化学
-status: 初稿
+status: 已填充
 importance: 3
 difficulty: 2
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Fischer投影式
 aliases: [Fischer Projection, 费歇尔投影]
 type: 知识点

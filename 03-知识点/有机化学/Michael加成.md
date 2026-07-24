@@ -3,11 +3,11 @@ type: 知识点
 title: "Michael加成"
 aliases: ["Michael反应"]
 created: 2026-07-18
-updated: 2026-07-18
+updated: 2026-07-23
 tags: [化竞, 有机化学, 加成反应]
 source_extracts: ["[[07-资料提炼/书籍提炼/提炼-Clayden-第22章-共轭加成和芳香亲核取代.Replace('.md','')]]"]
 subject: 有机化学
-status: 初稿
+status: 已填充
 importance: 4
 difficulty: 3
 ---

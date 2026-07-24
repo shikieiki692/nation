@@ -1,3 +1,8 @@
+---
+deprecated: true
+deprecatedDate: 2026-07-23
+sunsetDate: 2026-07-30
+---
 ﻿---
 title: 题-197-ABOC-Ch2-2.7.2-1-写出格氏试剂 以 RMgX 表示 和二氧化碳反应得到羧酸根的.md
 type: 题目

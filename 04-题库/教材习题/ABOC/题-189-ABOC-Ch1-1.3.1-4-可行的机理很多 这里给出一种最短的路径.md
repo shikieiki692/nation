@@ -1,3 +1,8 @@
+---
+deprecated: true
+deprecatedDate: 2026-07-23
+sunsetDate: 2026-07-30
+---
 ﻿---
 title: 题-189-ABOC-Ch1-1.3.1-4-可行的机理很多 这里给出一种最短的路径.md
 type: 题目

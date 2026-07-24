@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-289-ABOC-Ch1-T10.md
 type: 题目
 source: ABOC 第1章 章末习题（ARX's Basic Organic Chemistry 第3版）

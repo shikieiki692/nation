@@ -1,4 +1,4 @@
-﻿---
+---
 title: Beckmann重排
 aliases: [Beckmann Rearrangement, 贝克曼重排, 肟转酰胺, 反式迁移]
 type: 知识点

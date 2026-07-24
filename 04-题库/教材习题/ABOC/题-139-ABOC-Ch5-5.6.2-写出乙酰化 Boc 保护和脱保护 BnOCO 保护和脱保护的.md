@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-139-ABOC-Ch5-5.6.2-写出乙酰化 Boc 保护和脱保护 BnOCO 保护和脱保护的.md
 type: 题目
 source: ABOC 第5章 自学练习（ARX's Basic Organic Chemistry 第3版）

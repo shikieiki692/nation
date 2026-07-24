@@ -2,7 +2,7 @@
 type: 知识点
 title: "van't Hoff方程"
 created: 2026-07-18
-updated: 2026-07-18
+updated: 2026-07-23
 tags: [化竞, 化学原理, 化学平衡]
 source_extracts:
   - source_file: "[[07-资料提炼/提炼-第30届初赛试题解析]]"
@@ -26,7 +26,7 @@ source_extracts:
     asset_type: "资料提炼"
     asset_summary: "van't Hoff方程相关内容"
 subject: 化学原理
-status: 初稿
+status: 已填充
 importance: 4
 difficulty: 3
 ---

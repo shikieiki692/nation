@@ -1,4 +1,7 @@
 ---
+deprecated: true
+deprecatedDate: 2026-07-23
+sunsetDate: 2026-07-30
 title: 题-201-ABOC-Ch2-2.8-1-写出氢碘酸与以下物种反应的主要产物 注意碳正离子重排.md
 type: 题目
 source: ABOC 第2章 自学练习（ARX's Basic Organic Chemistry 第3版）

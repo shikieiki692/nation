@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-082-ABOC-Ch1-1.2.2-2-超共轭效应.md
 type: 题目
 source: ABOC 第1章 自学练习（ARX's Basic Organic Chemistry 第3版）

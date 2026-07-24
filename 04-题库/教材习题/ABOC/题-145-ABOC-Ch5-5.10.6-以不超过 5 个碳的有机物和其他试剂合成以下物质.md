@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-145-ABOC-Ch5-5.10.6-以不超过 5 个碳的有机物和其他试剂合成以下物质.md
 type: 题目
 source: ABOC 第5章 自学练习（ARX's Basic Organic Chemistry 第3版）

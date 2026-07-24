@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-151-ABOC-Ch5-5.12-写出3分解的机理 并设计 3 的制备方法.md
 type: 题目
 source: ABOC 第5章 自学练习（ARX's Basic Organic Chemistry 第3版）

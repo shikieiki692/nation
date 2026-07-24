@@ -3,11 +3,11 @@ type: 知识点
 title: "Friedel-Crafts反应"
 aliases: ["Friedel-Crafts烷基化"]
 created: 2026-07-18
-updated: 2026-07-18
+updated: 2026-07-23
 tags: [化竞, 有机化学, 人名反应]
 source_extracts: ["[[07-资料提炼/书籍提炼/提炼-Clayden-第21章-芳香亲电取代.Replace('.md','')]]"]
 subject: 有机化学
-status: 初稿
+status: 已填充
 importance: 5
 difficulty: 2
 ---

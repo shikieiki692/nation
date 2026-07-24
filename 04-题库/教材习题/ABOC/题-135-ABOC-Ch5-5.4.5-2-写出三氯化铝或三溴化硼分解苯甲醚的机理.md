@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-135-ABOC-Ch5-5.4.5-2-写出三氯化铝或三溴化硼分解苯甲醚的机理.md
 type: 题目
 source: ABOC 第5章 自学练习（ARX's Basic Organic Chemistry 第3版）

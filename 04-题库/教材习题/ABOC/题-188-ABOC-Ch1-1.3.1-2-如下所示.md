@@ -1,3 +1,8 @@
+---
+deprecated: true
+deprecatedDate: 2026-07-23
+sunsetDate: 2026-07-30
+---
 ﻿---
 title: 题-188-ABOC-Ch1-1.3.1-2-如下所示.md
 type: 题目

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-114-ABOC-Ch3-3.3-2-写出存在碱时反式邻环戊二醇与四醋酸铅反应的机理.md
 type: 题目
 source: ABOC 第3章 自学练习（ARX's Basic Organic Chemistry 第3版）
@@ -40,7 +40,7 @@ status: 已填充
 
 ## 解题思路
 
-（待补充）
+类似 Grob 碎裂化。
 
 ---
 

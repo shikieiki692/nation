@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-054-ABOC-Ch2-T3-硫叶立德vs半缩硫醛选择性
 aliases: [ABOC-Ch2-T3]
 type: 题目

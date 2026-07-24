@@ -1,4 +1,4 @@
-﻿---
+---
 title: R/S构型
 aliases: [R/S构型, Cahn-Ingold-Prelog, CIP规则, R/S命名]
 type: 知识点

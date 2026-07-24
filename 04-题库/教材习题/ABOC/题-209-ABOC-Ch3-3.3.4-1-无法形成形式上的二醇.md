@@ -1,3 +1,8 @@
+---
+deprecated: true
+deprecatedDate: 2026-07-23
+sunsetDate: 2026-07-30
+---
 ﻿---
 title: 题-209-ABOC-Ch3-3.3.4-1-无法形成形式上的二醇.md
 type: 题目

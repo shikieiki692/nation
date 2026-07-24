@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-148-ABOC-Ch5-5.10.8-2-为了探究 Corey Fuchs 第二步的机理哪个正确 可以.md
 type: 题目
 source: ABOC 第5章 自学练习（ARX's Basic Organic Chemistry 第3版）

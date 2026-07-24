@@ -40,7 +40,7 @@ status: 已填充
 
 ## 解题思路
 
-（待补充）
+$L \dot { \mathsf { I } } + \mathsf { R } \mathsf { X } = \mathsf { L } \mathsf { I } \mathsf { X } + \mathsf { R } ^ { \prime } ; \mathsf { R } ^ { \prime } + \mathsf { L } \mathsf { I } = \mathsf { R } \mathsf { L } \dot { \mathsf { I } }$
 
 ---
 

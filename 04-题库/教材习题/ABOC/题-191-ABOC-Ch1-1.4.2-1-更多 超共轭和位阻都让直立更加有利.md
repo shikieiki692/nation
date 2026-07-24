@@ -1,3 +1,8 @@
+---
+deprecated: true
+deprecatedDate: 2026-07-23
+sunsetDate: 2026-07-30
+---
 ﻿---
 title: 题-191-ABOC-Ch1-1.4.2-1-更多 超共轭和位阻都让直立更加有利.md
 type: 题目

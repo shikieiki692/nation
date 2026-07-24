@@ -1,4 +1,4 @@
-﻿---
+---
 title: Agent提示词-知识库维护
 type: 系统
 template_type: agent提示词

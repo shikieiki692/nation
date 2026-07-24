@@ -1,3 +1,8 @@
+---
+deprecated: true
+deprecatedDate: 2026-07-23
+sunsetDate: 2026-07-30
+---
 ﻿---
 title: 题-208-ABOC-Ch3-3.2.3-这里只能反式消除 正负不要漏.md
 type: 题目

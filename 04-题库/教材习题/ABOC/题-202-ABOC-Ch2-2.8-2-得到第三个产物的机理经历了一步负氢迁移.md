@@ -1,4 +1,7 @@
 ---
+deprecated: true
+deprecatedDate: 2026-07-23
+sunsetDate: 2026-07-30
 title: 题-202-ABOC-Ch2-2.8-2-得到第三个产物的机理经历了一步负氢迁移.md
 type: 题目
 source: ABOC 第2章 自学练习（ARX's Basic Organic Chemistry 第3版）

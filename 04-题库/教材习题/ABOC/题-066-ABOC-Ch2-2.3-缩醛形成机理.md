@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-066-ABOC-Ch2-2.3-缩醛形成机理
 aliases: [ABOC-Ch2-2.3]
 type: 题目

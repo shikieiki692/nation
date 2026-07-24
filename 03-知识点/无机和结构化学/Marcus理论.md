@@ -2,7 +2,7 @@
 type: 知识点
 title: "Marcus理论"
 created: 2026-07-18
-updated: 2026-07-18
+updated: 2026-07-23
 tags: [化竞, 无机和结构化学, 电化学]
 source_extracts:
   - source_file: "[[07-资料提炼/书籍提炼/提炼-Atkins物理化学-主题17-19-动力学与表面过程]]"
@@ -14,19 +14,73 @@ source_extracts:
     asset_type: "书籍提炼"
     asset_summary: "Marcus理论相关内容"
 subject: 无机和结构化学
-status: 初稿
+status: 已填充
+stage: published
 importance: 2
 difficulty: 1
 ---
 
 # Marcus理论
 
-> [!note] 待完善
-> 此知识点笔记由系统自动创建，内容待补充。
 
 ## 核心概念
 
-Marcus电子转移理论将反应速率与重组能、驱动力联系起来：k = (2π/ℏ)|V|²(4πλkT)⁻¹/² exp[-(ΔG°+λ)²/(4λkT)]。
+Marcus电子转移理论将反应速率与重组能、驱动力联系起来，是理解电子转移反应动力学的核心理论。
+
+## §二 核心原理
+
+### Marcus方程
+
+电子转移反应的活化自由能：
+
+$$\Delta^{\ddagger}G = \frac{\lambda}{4}\left(1 + \frac{\Delta_r G^\ominus}{\lambda}\right)^2$$
+
+其中：
+- $\lambda$ 为重组能（reorganization energy）
+- $\Delta_r G^\ominus$ 为标准反应自由能（驱动力）
+
+### 自交换反应
+
+对于自交换反应，$\Delta_r G^\ominus = 0$，活化能简化为：
+
+$$\Delta^{\ddagger}G = \frac{\lambda}{4}$$
+
+即活化能仅由重组能决定。
+
+### 重组能组成
+
+$$\lambda = \lambda_{\text{内层}} + \lambda_{\text{外层}}$$
+
+| 组成 | 来源 |
+|:---|:---|
+| 内层重组能 $\lambda_{\text{内层}}$ | 键长/键角变化 |
+| 外层重组能 $\lambda_{\text{外层}}$ | 溶剂重排 |
+
+### 三个区域
+
+| 区域 | 条件 | 速率趋势 |
+|:---|:---|:---|
+| 正常区 | $|\Delta_r G^\ominus| < \lambda$ | 速率随驱动力增大而增大 |
+| 无势垒点 | $\Delta_r G^\ominus = -\lambda$ | 活化能为零，速率最大 |
+| 反转区 | $|\Delta_r G^\ominus| > \lambda$ | 速率反而降低 |
+
+**反转区**是Marcus理论最反直觉的预言，后被实验证实（如光诱导电子转移反应）。
+
+### 竞赛要求
+
+定性了解即可，决赛最深入可能涉及反转区概念。重点掌握：
+- 重组能的物理意义
+- 正常区的速率趋势
+- 反转区的存在
+
+## §三 与相关知识点的关系
+
+| 相关知识点 | 关系 |
+|:---|:---|
+| [[内层电子转移]] | Marcus理论可解释内层机理的速率差异 |
+| [[外层电子转移]] | Marcus理论定量描述外层机理 |
+| 活化能理论 | Marcus方程是活化能理论在电子转移中的应用 |
+| 光合作用 | 光合电子传递链涉及反转区现象 |
 
 ## 相关题目
 

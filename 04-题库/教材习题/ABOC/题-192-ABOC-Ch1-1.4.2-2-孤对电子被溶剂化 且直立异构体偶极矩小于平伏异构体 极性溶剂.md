@@ -1,3 +1,8 @@
+---
+deprecated: true
+deprecatedDate: 2026-07-23
+sunsetDate: 2026-07-30
+---
 ﻿---
 title: 题-192-ABOC-Ch1-1.4.2-2-孤对电子被溶剂化 且直立异构体偶极矩小于平伏异构体 极性溶剂.md
 type: 题目

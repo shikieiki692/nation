@@ -1,4 +1,7 @@
 ---
+deprecated: true
+deprecatedDate: 2026-07-23
+sunsetDate: 2026-07-30
 title: 题-205-ABOC-Ch2-2.10.2-如图所示 显然全部都是亲核加成.md
 type: 题目
 source: ABOC 第2章 自学练习（ARX's Basic Organic Chemistry 第3版）

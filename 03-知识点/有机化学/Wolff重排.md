@@ -2,7 +2,7 @@
 type: 知识点
 title: "Wolff重排"
 created: 2026-07-18
-updated: 2026-07-18
+updated: 2026-07-23
 tags: [化竞, 有机化学, 重排反应]
 source_extracts:
   - source_file: "[[07-资料提炼/提炼-第30届初赛试题解析]]"
@@ -22,7 +22,7 @@ source_extracts:
     asset_type: "教学逻辑提炼"
     asset_summary: "Wolff重排相关内容"
 subject: 有机化学
-status: 初稿
+status: 已填充
 importance: 2
 difficulty: 3
 ---

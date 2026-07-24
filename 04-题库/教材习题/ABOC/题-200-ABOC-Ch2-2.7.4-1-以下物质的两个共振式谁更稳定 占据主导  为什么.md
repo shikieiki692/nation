@@ -1,4 +1,7 @@
 ---
+deprecated: true
+deprecatedDate: 2026-07-23
+sunsetDate: 2026-07-30
 title: 题-200-ABOC-Ch2-2.7.4-1-以下物质的两个共振式谁更稳定 占据主导  为什么.md
 type: 题目
 source: ABOC 第2章 自学练习（ARX's Basic Organic Chemistry 第3版）

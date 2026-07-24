@@ -2,7 +2,7 @@
 type: 知识点
 title: "Ene反应"
 created: 2026-07-18
-updated: 2026-07-18
+updated: 2026-07-23
 tags: [化竞, 有机化学, 周环反应]
 source_extracts:
   - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-PhaseD-习题拆题清单]]"
@@ -26,7 +26,7 @@ source_extracts:
     asset_type: "书籍提炼"
     asset_summary: "Ene反应相关内容"
 subject: 有机化学
-status: 初稿
+status: 已填充
 importance: 2
 difficulty: 1
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "C₄H₆O₂的¹H NMR推结构"
 aliases: ["题-有机-波谱-11"]
 type: 题目

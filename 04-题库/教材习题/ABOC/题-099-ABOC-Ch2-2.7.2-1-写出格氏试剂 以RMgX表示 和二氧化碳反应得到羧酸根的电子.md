@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-099-ABOC-Ch2-2.7.2-1-写出格氏试剂 以RMgX表示 和二氧化碳反应得到羧酸根的电子.md
 type: 题目
 source: ABOC 第2章 自学练习（ARX's Basic Organic Chemistry 第3版）
@@ -42,7 +42,7 @@ status: 已填充
 
 ## 解题思路
 
-（待补充）
+写出格氏试剂（以 RMgX 表示）和二氧化碳反应得到羧酸根的电子推动机理。
 
 ---
 

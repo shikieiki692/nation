@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-112-ABOC-Ch3-3.2.3-卤代内酯化反应是一种简单的串联反应 已知反应.md
 type: 题目
 source: ABOC 第3章 自学练习（ARX's Basic Organic Chemistry 第3版）
@@ -40,7 +40,7 @@ status: 已填充
 
 ## 解题思路
 
-（待补充）
+这里只能反式消除！正负不要漏！
 
 ---
 

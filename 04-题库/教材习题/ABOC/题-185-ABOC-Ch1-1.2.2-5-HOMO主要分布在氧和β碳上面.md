@@ -1,3 +1,8 @@
+---
+deprecated: true
+deprecatedDate: 2026-07-23
+sunsetDate: 2026-07-30
+---
 ﻿---
 title: 题-185-ABOC-Ch1-1.2.2-5-HOMO主要分布在氧和β碳上面.md
 type: 题目

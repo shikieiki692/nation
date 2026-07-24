@@ -1,4 +1,4 @@
-﻿---
+---
 title: 提炼-Zchem基础有机化学-批次Z-F-周环反应与重排反应与波谱分析
 type: 资料提炼
 source_book: Zchem 基础有机化学

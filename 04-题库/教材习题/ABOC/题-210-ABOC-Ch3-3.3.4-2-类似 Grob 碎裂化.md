@@ -1,3 +1,8 @@
+---
+deprecated: true
+deprecatedDate: 2026-07-23
+sunsetDate: 2026-07-30
+---
 ﻿---
 title: 题-210-ABOC-Ch3-3.3.4-2-类似 Grob 碎裂化.md
 type: 题目

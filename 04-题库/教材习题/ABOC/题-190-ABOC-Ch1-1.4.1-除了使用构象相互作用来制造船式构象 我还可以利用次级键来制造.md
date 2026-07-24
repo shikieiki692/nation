@@ -1,3 +1,8 @@
+---
+deprecated: true
+deprecatedDate: 2026-07-23
+sunsetDate: 2026-07-30
+---
 ﻿---
 title: 题-190-ABOC-Ch1-1.4.1-除了使用构象相互作用来制造船式构象 我还可以利用次级键来制造.md
 type: 题目

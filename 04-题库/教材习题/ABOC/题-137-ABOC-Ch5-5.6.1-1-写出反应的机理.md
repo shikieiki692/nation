@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-137-ABOC-Ch5-5.6.1-1-写出反应的机理.md
 type: 题目
 source: ABOC 第5章 自学练习（ARX's Basic Organic Chemistry 第3版）

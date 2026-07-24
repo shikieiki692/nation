@@ -2,10 +2,10 @@
 type: 知识点
 title: "Q检验法"
 created: 2026-07-18
-updated: 2026-07-18
+updated: 2026-07-23
 tags: [化竞, 分析化学, 数据处理]
 subject: 分析化学
-status: 初稿
+status: 已填充
 source_extracts:
   - source_file: "[[07-资料提炼/书籍提炼/提炼-分析化学第六版-第3章-误差与数据处理]]"
     asset_id: "分析化学Ch3"

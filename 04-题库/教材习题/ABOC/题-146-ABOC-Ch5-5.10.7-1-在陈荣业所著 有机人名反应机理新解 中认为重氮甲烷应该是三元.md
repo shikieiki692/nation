@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-146-ABOC-Ch5-5.10.7-1-在陈荣业所著 有机人名反应机理新解 中认为重氮甲烷应该是三元.md
 type: 题目
 source: ABOC 第5章 自学练习（ARX's Basic Organic Chemistry 第3版）

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-144-ABOC-Ch5-5.10.2-写出以上反应的机理 复习之前学过的反应.md
 type: 题目
 source: ABOC 第5章 自学练习（ARX's Basic Organic Chemistry 第3版）

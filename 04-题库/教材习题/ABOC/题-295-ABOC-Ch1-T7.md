@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-295-ABOC-Ch1-T7.md
 type: 题目
 source: ABOC 第1章 章末习题（ARX's Basic Organic Chemistry 第3版）

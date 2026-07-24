@@ -13,7 +13,8 @@ difficulty: 4
 syllabus_codes: [8]
 knowledge_points: ["[[Nernst方程]]", "[[标准电极电势]]", "[[溶度积]]"]
 tags: [化竞, 电化学, Ksp测定]
-updated: 2026-05-03
+updated: 2026-05-03
+
 status: 已填充
 ---
 

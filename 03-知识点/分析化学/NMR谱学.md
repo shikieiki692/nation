@@ -1,4 +1,4 @@
-﻿---
+---
 title: NMR谱学
 aliases: [Nuclear Magnetic Resonance Spectroscopy, 核磁共振谱学, NMR, 核磁, 核磁共振, 化学位移, 红外光谱, 红外]
 type: 知识点

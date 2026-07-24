@@ -1,3 +1,8 @@
+---
+deprecated: true
+deprecatedDate: 2026-07-23
+sunsetDate: 2026-07-30
+---
 ﻿---
 title: 题-186-ABOC-Ch1-1.2.2-6-从碳正离子共振式发现 α 位富电子 β位缺电子.md
 type: 题目

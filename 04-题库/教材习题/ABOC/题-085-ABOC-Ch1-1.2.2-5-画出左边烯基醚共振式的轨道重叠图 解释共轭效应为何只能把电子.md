@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-085-ABOC-Ch1-1.2.2-5-画出左边烯基醚共振式的轨道重叠图 解释共轭效应为何只能把电子.md
 type: 题目
 source: ABOC 第1章 自学练习（ARX's Basic Organic Chemistry 第3版）
@@ -40,7 +40,7 @@ status: 已填充
 
 ## 解题思路
 
-（待补充）
+HOMO主要分布在氧和β碳上面。
 
 ---
 

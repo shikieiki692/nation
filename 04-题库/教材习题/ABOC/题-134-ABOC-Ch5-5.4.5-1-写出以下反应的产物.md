@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-134-ABOC-Ch5-5.4.5-1-写出以下反应的产物.md
 type: 题目
 source: ABOC 第5章 自学练习（ARX's Basic Organic Chemistry 第3版）

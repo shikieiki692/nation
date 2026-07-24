@@ -1,4 +1,7 @@
 ---
+deprecated: true
+deprecatedDate: 2026-07-23
+sunsetDate: 2026-07-30
 title: 题-203-ABOC-Ch2-2.9-写出以下反应的机理 解释机理的不同之处 并画出 A 的结构.md
 type: 题目
 source: ABOC 第2章 自学练习（ARX's Basic Organic Chemistry 第3版）

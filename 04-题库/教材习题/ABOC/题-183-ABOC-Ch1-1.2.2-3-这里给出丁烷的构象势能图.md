@@ -1,3 +1,8 @@
+---
+deprecated: true
+deprecatedDate: 2026-07-23
+sunsetDate: 2026-07-30
+---
 ﻿---
 title: 题-183-ABOC-Ch1-1.2.2-3-这里给出丁烷的构象势能图.md
 type: 题目

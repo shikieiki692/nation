@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-111-ABOC-Ch3-3.2.2-在有机反应中 反式邻二醇是一类重要原料 可以通过烯烃的氧化反.md
 type: 题目
 source: ABOC 第3章 自学练习（ARX's Basic Organic Chemistry 第3版）
@@ -40,7 +40,7 @@ status: 已填充
 
 ## 解题思路
 
-（待补充）
+自己看书！
 
 ---
 

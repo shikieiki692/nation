@@ -3,7 +3,7 @@ type: 知识点
 title: "Knoevenagel缩合"
 aliases: ["Knoevenagel反应"]
 created: 2026-07-18
-updated: 2026-07-18
+updated: 2026-07-23
 tags: [化竞, 有机化学, 缩合反应]
 source_extracts:
   - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第6章-缩合反应]]"
@@ -15,7 +15,7 @@ source_extracts:
     asset_type: "书籍提炼"
     asset_summary: "Knoevenagel缩合相关内容"
 subject: 有机化学
-status: 初稿
+status: 已填充
 importance: 2
 difficulty: 1
 ---

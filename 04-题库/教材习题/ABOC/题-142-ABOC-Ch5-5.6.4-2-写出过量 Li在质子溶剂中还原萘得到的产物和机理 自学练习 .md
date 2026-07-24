@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-142-ABOC-Ch5-5.6.4-2-写出过量 Li在质子溶剂中还原萘得到的产物和机理 自学练习 .md
 type: 题目
 source: ABOC 第5章 自学练习（ARX's Basic Organic Chemistry 第3版）

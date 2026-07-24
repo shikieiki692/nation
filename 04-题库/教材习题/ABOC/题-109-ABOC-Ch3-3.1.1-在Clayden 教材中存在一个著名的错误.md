@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-109-ABOC-Ch3-3.1.1-在Clayden 教材中存在一个著名的错误.md
 type: 题目
 source: ABOC 第3章 自学练习（ARX's Basic Organic Chemistry 第3版）

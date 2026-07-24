@@ -1,3 +1,8 @@
+---
+deprecated: true
+deprecatedDate: 2026-07-23
+sunsetDate: 2026-07-30
+---
 ﻿---
 title: 题-211-ABOC-Ch3-3.6-环氧乙烷 硫化氢 然后与盐酸 ZnCl 反应即可自学练习 3.md
 type: 题目

@@ -1,3 +1,8 @@
+---
+deprecated: true
+deprecatedDate: 2026-07-23
+sunsetDate: 2026-07-30
+---
 ﻿---
 title: 题-184-ABOC-Ch1-1.2.2-4-邻位氢可以σ π超共轭 从而降低体系能量.md
 type: 题目

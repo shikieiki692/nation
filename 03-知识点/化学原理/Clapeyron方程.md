@@ -2,7 +2,7 @@
 type: 知识点
 title: "Clapeyron方程"
 created: 2026-07-18
-updated: 2026-07-18
+updated: 2026-07-23
 tags: [化竞, 化学原理, 热力学]
 source_extracts:
   - source_file: "[[07-资料提炼/赵鑫光-热力学-竞赛题集]]"
@@ -22,7 +22,7 @@ source_extracts:
     asset_type: "书籍提炼"
     asset_summary: "Clapeyron方程相关内容"
 subject: 化学原理
-status: 初稿
+status: 已填充
 importance: 4
 difficulty: 3
 ---

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-081-ABOC-Ch1-1.2.1-根据下列实验数据判断 与羧基相连的基团的诱导效应是吸电子的还.md
 type: 题目
 source: ABOC 第1章 自学练习（ARX's Basic Organic Chemistry 第3版）
@@ -40,7 +40,7 @@ status: 已填充
 
 ## 解题思路
 
-（待补充）
+如下所示：
 
 ---
 

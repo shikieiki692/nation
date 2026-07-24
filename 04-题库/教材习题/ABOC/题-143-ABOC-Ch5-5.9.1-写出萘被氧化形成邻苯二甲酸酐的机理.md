@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-143-ABOC-Ch5-5.9.1-写出萘被氧化形成邻苯二甲酸酐的机理.md
 type: 题目
 source: ABOC 第5章 自学练习（ARX's Basic Organic Chemistry 第3版）

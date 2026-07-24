@@ -2,7 +2,7 @@
 type: 知识点
 title: "C-H活化"
 created: 2026-07-18
-updated: 2026-07-18
+updated: 2026-07-23
 tags: [化竞, 有机化学, 金属有机化学]
 source_extracts:
   - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第8章-过渡金属催化]]"
@@ -26,7 +26,7 @@ source_extracts:
     asset_type: "网课资料"
     asset_summary: "C-H活化相关内容"
 subject: 有机化学
-status: 初稿
+status: 已填充
 importance: 3
 difficulty: 2
 ---

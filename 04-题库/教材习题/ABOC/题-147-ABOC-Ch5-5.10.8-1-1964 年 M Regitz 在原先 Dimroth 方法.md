@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-147-ABOC-Ch5-5.10.8-1-1964 年 M Regitz 在原先 Dimroth 方法.md
 type: 题目
 source: ABOC 第5章 自学练习（ARX's Basic Organic Chemistry 第3版）

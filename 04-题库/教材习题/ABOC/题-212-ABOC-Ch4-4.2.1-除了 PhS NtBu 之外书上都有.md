@@ -1,4 +1,7 @@
 ---
+deprecated: true
+deprecatedDate: 2026-07-23
+sunsetDate: 2026-07-30
 title: 题-212-ABOC-Ch4-4.2.1-除了 PhS NtBu 之外书上都有.md
 type: 题目
 source: ABOC 第4章 自学练习（ARX's Basic Organic Chemistry 第3版）

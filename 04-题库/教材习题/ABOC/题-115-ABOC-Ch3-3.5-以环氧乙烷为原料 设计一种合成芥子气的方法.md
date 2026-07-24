@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-115-ABOC-Ch3-3.5-以环氧乙烷为原料 设计一种合成芥子气的方法.md
 type: 题目
 source: ABOC 第3章 自学练习（ARX's Basic Organic Chemistry 第3版）
@@ -40,7 +40,7 @@ status: 已填充
 
 ## 解题思路
 
-（待补充）
+环氧乙烷+硫化氢，然后与盐酸+ZnCl 反应即可自学练习 3.10 羟基诱导。
 
 ---
 

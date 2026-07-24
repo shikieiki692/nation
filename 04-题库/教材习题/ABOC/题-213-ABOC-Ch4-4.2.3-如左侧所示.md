@@ -1,4 +1,7 @@
 ---
+deprecated: true
+deprecatedDate: 2026-07-23
+sunsetDate: 2026-07-30
 title: 题-213-ABOC-Ch4-4.2.3-如左侧所示.md
 type: 题目
 source: ABOC 第4章 自学练习（ARX's Basic Organic Chemistry 第3版）

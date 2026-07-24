@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-113-ABOC-Ch3-3.3.4-1-解释以下问题 a 羟基酸 1 2 二酮 a 二酮  a 氨基.md
 type: 题目
 source: ABOC 第3章 自学练习（ARX's Basic Organic Chemistry 第3版）
@@ -40,7 +40,7 @@ status: 已填充
 
 ## 解题思路
 
-（待补充）
+无法形成形式上的二醇。
 
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Replacement Test判断分子NMR信号数"
 aliases: ["题-有机-波谱-08"]
 type: 题目

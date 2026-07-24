@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-080-ABOC-Ch1-1.1.2-在下图的框中使用推电子箭头描述以下反应可能的两种机理 硫酸 .md
 type: 题目
 source: ABOC 第1章 自学练习（ARX's Basic Organic Chemistry 第3版）

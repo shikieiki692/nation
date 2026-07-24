@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-149-ABOC-Ch5-5.11.1-写出以上三种异腈合成方法的机理.md
 type: 题目
 source: ABOC 第5章 自学练习（ARX's Basic Organic Chemistry 第3版）

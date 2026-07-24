@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bragg方程
 aliases:
   - 布拉格方程

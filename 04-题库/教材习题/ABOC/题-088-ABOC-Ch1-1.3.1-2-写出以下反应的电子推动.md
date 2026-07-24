@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-088-ABOC-Ch1-1.3.1-2-写出以下反应的电子推动.md
 type: 题目
 source: ABOC 第1章 自学练习（ARX's Basic Organic Chemistry 第3版）
@@ -40,7 +40,7 @@ status: 已填充
 
 ## 解题思路
 
-（待补充）
+如下所示：
 
 ---
 

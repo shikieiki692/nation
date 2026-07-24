@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-133-ABOC-Ch5-5.4.4-写出苯酚在浓硫酸或无水氯化锌的作用下与邻苯二甲酸酐反应生成酚.md
 type: 题目
 source: ABOC 第5章 自学练习（ARX's Basic Organic Chemistry 第3版）

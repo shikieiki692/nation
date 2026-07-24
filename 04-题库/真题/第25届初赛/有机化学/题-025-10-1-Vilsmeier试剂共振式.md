@@ -1,4 +1,4 @@
-﻿---
+---
 title: "题-025-10-1：Vilsmeier试剂共振式"
 aliases: [25届初赛-10.1, Vilsmeier试剂, 共振式, 亲电性]
 type: 题目

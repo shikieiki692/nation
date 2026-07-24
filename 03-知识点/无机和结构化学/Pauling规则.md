@@ -30,8 +30,16 @@ images_note: "配位多面体示意图有助于理解规则1和规则2"
 teaching_ready: false
 source_notes: []
 key_images: []
-source_extracts: []
-updated: 2026-06-01
+source_extracts:
+  - source_file: "[[07-资料提炼/网课资料/无机化学-新课-周坤-2020-难度适中/资料提炼/资料提炼-周坤-晶体结构与配位化学.md]]"
+    asset_id: "周坤-晶体结构与配位化学"
+    asset_type: "资料提炼"
+    asset_summary: "Pauling规则五条讲解、电价规则计算实例"
+  - source_file: "[[07-资料提炼/赵鑫光-教材结构与教学映射.md]]"
+    asset_id: "赵鑫光-教材结构与教学映射"
+    asset_type: "资料提炼"
+    asset_summary: "Pauling规则§4.4系统讲解、键强之和=阴离子电荷"
+updated: 2026-07-23
 ---
 
 # Pauling规则（Pauling's Rules）

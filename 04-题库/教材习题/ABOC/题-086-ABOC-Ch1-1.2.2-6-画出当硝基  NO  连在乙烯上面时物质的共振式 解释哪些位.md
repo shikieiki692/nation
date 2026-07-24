@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-086-ABOC-Ch1-1.2.2-6-画出当硝基  NO  连在乙烯上面时物质的共振式 解释哪些位.md
 type: 题目
 source: ABOC 第1章 自学练习（ARX's Basic Organic Chemistry 第3版）
@@ -40,7 +40,7 @@ status: 已填充
 
 ## 解题思路
 
-（待补充）
+从碳正离子共振式发现，α 位富电子，β位缺电子。
 
 ---
 

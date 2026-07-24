@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-141-ABOC-Ch5-5.6.4-1-以下转换中顺式烯烃是主产物 解释原因  暂时超纲.md
 type: 题目
 source: ABOC 第5章 自学练习（ARX's Basic Organic Chemistry 第3版）

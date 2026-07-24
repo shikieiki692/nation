@@ -1,4 +1,4 @@
-﻿---
+---
 title: 题-117-ABOC-Ch3-3.10-解释以下反应产物的选择性.md
 type: 题目
 source: ABOC 第3章 自学练习（ARX's Basic Organic Chemistry 第3版）

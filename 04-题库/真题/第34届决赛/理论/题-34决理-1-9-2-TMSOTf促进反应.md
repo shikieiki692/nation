@@ -17,7 +17,8 @@ teaching_level: 拔高
 syllabus_codes: []
 knowledge_points: [[TMSOTf]], [[Lewis酸催化]], [[环化反应]], [[有机合成]]
 tags: [化竞, 决赛, 理论, 有机化学]
-updated: 2020-11-16
+updated: 2020-11-16
+
 status: 已填充
 ---
 
