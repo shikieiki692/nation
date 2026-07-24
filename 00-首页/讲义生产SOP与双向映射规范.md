@@ -49,7 +49,7 @@ frontmatter 必须交代来源（见 §四），做到「任何一段内容能�
 - 讲义引图一律用**相对路径**，禁止使用绝对路径；导出 Word/PDF 时 media 目录随讲义一并打包。
 - 图片文件命名带语义：`主题-内容.类型.md`（自绘）或保留 mineru 原命名（提取图）；禁止 `img_8` 这类无语义命名新增（历史遗留不溯及）。
 - 讲义 frontmatter 必须维护 `has_images` 与 `image_count`，与正文实际引用数一致（审计脚本以此校验）。
-- 已知历史欠账：`mineru02/`、`高中化学竞赛笔记/`、`无机化学 习题集/` 三目录的图片相对路径待批量改写（见 [[知识库治理待办]] 结构专项），新讲义不得沿用这三处的旧路径写法。
+- 已知历史欠账（07-24 核实）：`mineru02/`、`高中化学竞赛笔记/`、`无机化学 习题集/` 三目录为原始数据存放目录，讲义中无引用，无需批量改写。新讲义引图一律从 `media/` 或同主题存量讲义引用池取，不从原始数据目录直接引用。
 
 ### 3.3 图片发现（SOP 试跑 v1.1 新增）
 
@@ -81,7 +81,9 @@ problems:               # ✳ 本讲引用题号（双向映射主键）
 has_images: true
 image_count: 10
 stage: draft            # draft → reviewed → published → taught
-template_version: 基础版 v3.0
+template_version: 基础版 v3.0         # 格式：<类型> vX.X，类型见命名约定
+                                        # 现有类型：自学完整版 / 基础版 / 教师增强版 / 超级充实融合版 / pipeline
+                                        # 与 version 字段不重复：template_version 标识模板版本，version 标识内容版本
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 last_audit: <最近审计记录，可省>
@@ -96,7 +98,7 @@ last_audit: <最近审计记录，可省>
 
 1. 讲义侧：`problems` 列出本讲全部引用题号（含例题与作业题）。
 2. 题目侧：`used_in` 回填**不在起草时做**，集中在**定稿（stage→published）时由独立批次**完成（一次回填本讲全部题号，避免起草任务变成多文件写任务）。
-3. **题号唯一性是硬前提**：`题-xxxx` 全库唯一。已知欠账：初赛讲义 4 个「题-001」、ABOC 约 20 对题面/答案拆页（见待办），未唯一化前这些题不进 `problems`。
+3. **题号唯一性是硬前提**：`题-xxxx` 全库唯一。初赛讲义题号唯一化与 ABOC 拆页合并已闭环（07-23）。新欠账：题库多题文件分题锚点问题（如题-051 一个文件装7题，讲义 `problems` 无法精确到题，需拆题规范）。
 4. 习题集 md 只组织题号清单（按节/难度分组），题干不复制；课堂用的「学生合集」允许嵌题全文，但由脚本从题库拼装生成，不手工抄。
 5. 受益：改题改一处，讲义零改动；可反查「这道题被哪些讲义用过」「这份讲义的题来自哪些 KP」。
 
@@ -107,8 +109,9 @@ last_audit: <最近审计记录，可省>
 ```
 1 备课思路      轮次/课时切分（备课思路/ 目录）定本讲目标与深度边界
 2 汇聚取材      按 §二 表格收齐骨架教材提炼页 + KP + 洞察 + 候选题号
-3 起草          agent 起草讲义源 md，严守三个模板文件；半截 math 零容忍
+3 起草          agent 起草讲义源 md，严守三个模板（[[学生讲义模板（v1.2 填充式）]] + [[学生讲义内容结构规划]] + [[学生讲义排版规范]]）；半截 math 零容忍
 4 校验          validate 脚本 + build_link_map 查链接 + 人工抽查两节
+  ↓ 通过标准：validate 0 error、build_link_map 零新增断链、人工抽查无事实错误；warning 可带入定稿但须在定稿前清零
 5 定稿          stage→published，回填 problems 与题目 used_in
 6 导出          docx/PDF → 06-学生侧材料（media 随行）
 7 上课          试印/讲授，stage→taught
@@ -130,7 +133,7 @@ last_audit: <最近审计记录，可省>
 - [ ] frontmatter 字段齐（含 sources/problems/has_images/image_count）
 - [ ] 图片全部相对路径且随包可导出
 - [ ] 无半截 math、无高风险符号写法（对照 Word 速查表）
-- [ ] build_link_map 复扫本讲链接零新增断链（入口：主代理或人在 Bash 跑 `python "11-模板/scripts/build_link_map.py" "C:\Obsidion\妙妙屋"`；待 kb_bash 白名单加只读 python 后 agent 可自跑）
+- [ ] build_link_map 复扫本讲链接零新增断链（入口：`python 11-模板/scripts/build_link_map.py`，脚本自动定位 vault 根目录；agent 可通过 kb_bash 执行）
 - [ ] problems 中题号全部唯一且题目侧已回填 used_in
 - [ ] stage 状态与实际一致
 - [ ] 正文无教师向元信息（深度边界/使用建议/审计等只在 frontmatter 或 HTML 注释）（v1.2）
