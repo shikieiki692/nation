@@ -1,22 +1,22 @@
 ---
-title: 题-130-ABOC-Ch5-5.2.3-写出 1 2 4 三甲基苯在质子酸或 Lewis 酸 用 L.md
+title: "题-130-ABOC-Ch5-5.2.3-写出 1 2 4 三甲基苯在质子酸或 Lewis 酸 用 L"
 type: 题目
-source: ABOC 第5章 自学练习（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 基础要求-有机化学
 submodule: Ch.5
-question_type: 机理书写题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 巩固
-exam_stage: 初赛
 syllabus_codes: ["35"]
-knowledge_points: ["[[芳香性]]", "[[芳香性]]", "[[亲电取代]]", "[[胺]]"]
+knowledge_points: ["[[芳香亲电取代]]", "[[Lewis酸碱]]"]
 tags: [化竞, ABOC, 有机化学]
-aliases: [ABOC-Ch5-5.2.3]
 updated: 2026-07-04
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第5章-芳香与胺]]"
+aliases: [ABOC-Ch5-5.2.3]
+source: ABOC 第5章 自学练习（ARX's Basic Organic Chemistry 第3版）
+cross_references: ["[[04-题库/教材习题/ABOC/题-135-ABOC-Ch5-5.4.5-2-写出三氯化铝或三溴化硼分解苯甲醚的机理]]"]
+module: 基础要求-有机化学
 status: 已填充
 ---
-
 # 题-130：写出 1,2,4-三甲基苯在质子酸或 Lewis 酸(用 LA 表示)存在下重排得到 1,3,5-三
 
 > **来源**：ABOC 第5章 自学练习 5.2.3
@@ -45,8 +45,6 @@ status: 已填充
 ---
 
 ## 知识点
-
-- [[]]
 
 ---
 

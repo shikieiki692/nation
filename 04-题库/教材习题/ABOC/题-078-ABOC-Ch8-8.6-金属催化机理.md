@@ -1,23 +1,21 @@
----
+﻿---
 title: 题-078-ABOC-Ch8-8.6-金属催化机理
-aliases: [ABOC-Ch8-8.6]
 type: 题目
-exam_stage: 初赛
-year: 
-source: ABOC 第8章 自学练习 8.6（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 基础概念
-question_type: 机理推断题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 4
 teaching_level: 拓展
 syllabus_codes: ["51"]
-knowledge_points: ["[[过渡金属催化]]", "[[氧化加成与还原消除]]", "[[氧化加成与还原消除]]"]
+knowledge_points: ["[[过渡金属催化]]", "[[氧化加成与还原消除]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第8章-过渡金属催化]]"
+aliases: [ABOC-Ch8-8.6]
+source: ABOC 第8章 自学练习 8.6（ARX's Basic Organic Chemistry 第3版）
+module: 有机化学
+status: 已填充
 ---
-
 # 题-078：金属催化机理
 
 ## 题目

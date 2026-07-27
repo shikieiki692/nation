@@ -1,27 +1,20 @@
 ---
-title: 题-34决理-9-2-TMSOTf促进反应
-aliases: []
+title: "题-34决理-1-9-2-TMSOTf促进反应"
 type: 题目
-exam_stage: 决赛
-exam_type: 理论
-exam_session: 第一场
-year: 2020
-exam_date: 2020-11-16
-source: 第34届中国化学奥林匹克(决赛)试题-1
-subject: 有机化学
-module: 决赛要求
 submodule: 有机合成
-question_type: 综合题
+exam_stage: 决赛
+subject: 有机化学
 difficulty: 4
 teaching_level: 拔高
 syllabus_codes: []
-knowledge_points: [[TMSOTf]], [[Lewis酸催化]], [[环化反应]], [[有机合成]]
+knowledge_points: TMSOTf, [[Lewis酸催化]], [[环化反应]], [[有机合成]]
 tags: [化竞, 决赛, 理论, 有机化学]
 updated: 2020-11-16
-
+aliases: []
+source: 第34届中国化学奥林匹克(决赛)试题-1
+module: 决赛要求
 status: 已填充
 ---
-
 # 第 9 题 TMSOTf促进反应 (3 分)
 
 9-2 上述产物 5 与化合物 6 在三氟甲磺酸三甲基硅酯（TMSOTf）存在下作用生成 7。画出该反应的关键中间体结构简式。
@@ -76,7 +69,7 @@ TMSOTf 的作用：
 
 ## 知识点映射
 
-- **直接 KP**：[[TMSOTf]], [[Lewis酸催化]], [[环化反应]]
+- **直接 KP**：TMSOTf, [[Lewis酸催化]], [[环化反应]]
 - **间接 KP**：[[氧鎓离子]], [[碳正离子]], [[亲核加成]]
 - **跨学科连接**：
   - 有机合成 ↔ 催化化学

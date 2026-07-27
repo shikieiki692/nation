@@ -1,23 +1,20 @@
 ---
-title: "Favorskii重排缩环反应"
-aliases: ["题-有机-重排-05"]
+title: "题-有机-重排-Favorskii重排缩环"
 type: 题目
-exam_stage: 初赛
-source: "Zchem基础有机化学"
-source_author: "Zchem网课提炼"
-subject: 有机化学
-module: 有机化学
 submodule: 重排反应
-question_type: 机理分析
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 4
 teaching_level: 强化
 syllabus_codes: ["49"]
 knowledge_points: ["[[Favorskii重排]]", "[[环丙酮中间体]]", "[[缩环反应]]"]
 tags: [化竞, 题目, 有机化学]
-status: 已填充
 updated: 2026-07-10
+aliases: ["题-有机-重排-05"]
+source: "Zchem基础有机化学"
+module: 有机化学
+status: 已填充
 ---
-
 # Favorskii重排缩环反应
 
 ## 题目

@@ -1,23 +1,22 @@
----
-title: 题-049-ABOC-FT1-P2-EX3-34届决赛LiTMP+DA+三组分
-aliases: [ABOC-FT1-P2-EX3]
+﻿---
+title: "题-049-ABOC-FT1-P2-EX3-34届决赛LiTMP DA三组分"
 type: 题目
-exam_stage: 决赛
-year: 2020
-source: ABOC 第11章 方法学分析题（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 方法学分析
-question_type: 方法学分析题
+exam_stage: 决赛
+subject: 有机化学
 difficulty: 5
 teaching_level: 竞赛拔高
 syllabus_codes: ["49", "52"]
 knowledge_points: ["[[Diels-Alder反应]]", "[[锂试剂]]", "[[杂环化合物]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第11章-解题训练]]"
+aliases: [ABOC-FT1-P2-EX3]
+source: ABOC 第11章 方法学分析题（ARX's Basic Organic Chemistry 第3版）
+cross_references: ["[[04-题库/教材习题/ABOC/题-039-ABOC-FT0-Tech-Jujuyane全合成]]"]
+module: 有机化学
+status: 已填充
 ---
-
 # 题-049：34 届决赛：LiTMP + D-A + 三组分
 
 ## 题目
@@ -41,7 +40,7 @@ updated: 2026-05-10
 
 | 关联 KP | 考查角度 | 直接/间接 |
 |---|---|:---:|
-| [[Diels-Alder反应]] | 热 [4+2] 环加成及活泼中间体的捕获 | 直接 |
+| Diels-Alder反应 | 热 [4+2] 环加成及活泼中间体的捕获 | 直接 |
 | [[有机锂试剂]] | LiTMP 的选择性去质子化 | 直接 |
 | [[杂环化合物]] | 硫杂环丁烷的参与及三组分反应 | 直接 |
 

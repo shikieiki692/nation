@@ -1,5 +1,5 @@
 ---
-title: "题-029决-1：有机硅与VSEPR"
+title: "题-029决-1-有机硅与VSEPR"
 aliases: [29届决赛-1, 29决-1]
 type: 题目
 exam_stage: 决赛

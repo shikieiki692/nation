@@ -1,24 +1,20 @@
 ---
-title: "题-026-9-4：Michael加成串联反应"
-aliases: [26届初赛-9.4, Michael加成, 串联反应, 脱羧]
+title: "题-026-9-4-Michael加成串联反应"
 type: 题目
-exam_stage: 初赛
-year: 2012
-exam_date: 2012-09-02
-source: "第26届中国化学奥林匹克（初赛）第9题第(9-4)小问"
-subject: 有机化学
-module: 有机化学
 submodule: "有机合成·串联反应"
-question_type: 机理题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 5
 teaching_level: 挑战
 syllabus_codes: []
 knowledge_points: ["[[Michael加成]]", "[[串联反应]]", "[[腈水解]]", "[[脱羧]]"]
 tags: [化竞, 真题, 26届, 有机化学]
 updated: 2026-06-30
+aliases: [26届初赛-9.4, Michael加成, 串联反应, 脱羧]
+source: "第26届中国化学奥林匹克（初赛）第9题第(9-4)小问"
+module: 有机化学
 status: 已填充
 ---
-
 # 题-026-9-4：Michael加成串联反应
 
 ## 题目

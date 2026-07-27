@@ -1,5 +1,5 @@
 ---
-title: "题-036b-6-1：SPS与ME反应方程式及平衡常数"
+title: "题-036b-6-1-SPS与ME反应方程式及平衡常数"
 aliases: [36届初赛第二场-6.1]
 type: 题目
 exam_stage: 初赛

@@ -1,23 +1,20 @@
 ---
-title: "手性分子R/S构型判断"
-aliases: ["题-有机-立体-02"]
+title: "题-有机-立体-手性分子RS构型判断"
 type: 题目
-exam_stage: 初赛
-source: "专题页提炼"
-source_author: "资料提炼综合"
-subject: 有机化学
-module: 有机化学
 submodule: 立体化学与区域选择性
-question_type: 选择题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["25"]
-knowledge_points: ["[[手性]]", "[[R/S构型标记]]"]
+knowledge_points: ["[[手性中心]]", "[[R/S构型标记]]"]
 tags: [化竞, 题目, 有机化学, 第三轮]
-status: 已填充
 updated: 2026-06-06
+aliases: ["题-有机-立体-02"]
+source: "专题页提炼"
+module: 有机化学
+status: 已填充
 ---
-
 # 手性分子 R/S 构型判断
 
 ## 题目
@@ -100,5 +97,5 @@ CIP 排序：$\mathrm{Br}$ (Z=35) > $\mathrm{Cl}$ (Z=17) > $\mathrm{CF_3}$ (F,F,
 
 ## 知识点映射
 
-- [[手性]]
+- [[手性中心]]
 - [[R/S构型标记]]

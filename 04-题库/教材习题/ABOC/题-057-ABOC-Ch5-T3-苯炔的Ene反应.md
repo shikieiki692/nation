@@ -1,23 +1,21 @@
----
+﻿---
 title: 题-057-ABOC-Ch5-T3-苯炔的Ene反应
-aliases: [ABOC-Ch5-T3]
 type: 题目
-exam_stage: 决赛
-year: 
-source: ABOC 第5章 章末习题 T3（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 周环反应
-question_type: 机理推断题
+exam_stage: 决赛
+subject: 有机化学
 difficulty: 4
 teaching_level: 拓展
 syllabus_codes: ["41", "49"]
 knowledge_points: ["[[苯炔]]", "[[Ene反应]]", "[[周环反应]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第5章-芳香与胺]]"
+aliases: [ABOC-Ch5-T3]
+source: ABOC 第5章 章末习题 T3（ARX's Basic Organic Chemistry 第3版）
+module: 有机化学
+status: 已填充
 ---
-
 # 题-057：苯炔的 Ene 反应
 
 ## 题目
@@ -44,7 +42,7 @@ updated: 2026-05-10
 | 关联 KP | 考查角度 | 直接/间接 |
 |---|---|:---:|
 | [[苯炔]] | 苯炔的生成与高度活泼性 | 直接 |
-| [[Ene反应]] | 六电子 Ene 反应的识别与机理 | 直接 |
+| Ene反应 | 六电子 Ene 反应的识别与机理 | 直接 |
 | [[周环反应]] | Ene 反应作为周环反应的特征 | 直接 |
 
 ## 解题思路

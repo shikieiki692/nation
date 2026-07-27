@@ -1,27 +1,20 @@
----
-title: 题-34决理-5-5-vant Hoff方程应用
-aliases: []
+﻿---
+title: "题-34决理-2-5-2-vant Hoff方程应用"
 type: 题目
-exam_stage: 决赛
-exam_type: 理论
-exam_session: 第二场
-year: 2020
-exam_date: 2020-11-16
-source: 第34届中国化学奥林匹克(决赛)试题-2
-subject: 化学原理
-module: 决赛要求
 submodule: 热力学
-question_type: 计算题
+exam_stage: 决赛
+subject: 化学原理
 difficulty: 5
 teaching_level: 拔高
 syllabus_codes: []
-knowledge_points: [[van't Hoff方程]], [[平衡常数]], [[温度影响]], [[化学热力学]]
+knowledge_points: ["[[平衡常数]]", "[[温度影响]]"]
 tags: [化竞, 决赛, 理论, 化学原理]
 updated: 2020-11-16
-
+aliases: []
+source: 第34届中国化学奥林匹克(决赛)试题-2
+module: 决赛要求
 status: 已填充
 ---
-
 # 第 5 题 van't Hoff方程应用 (3 分)
 
 5-2 计算 723.15 K 时合成氨反应的标准平衡常数 $K^{\ominus}$。

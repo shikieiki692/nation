@@ -1,24 +1,20 @@
 ---
-title: "题-033-8-3-2：L-山梨糖和C的Fischer投影式"
-aliases: [33届初赛-8.3.2, Fischer投影式, L-山梨糖, 维生素C合成]
+title: "题-033-8-3-2-Fischer投影式"
 type: 题目
-exam_stage: 初赛
-year: 2019
-exam_date: 2019-09-07
-source: "第33届中国化学奥林匹克（初赛）第8题第(8-3-2)小问"
-subject: 有机化学
-module: 有机化学
 submodule: "立体化学与糖类化学"
-question_type: 简答题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 3
 teaching_level: 拓展
 syllabus_codes: []
 knowledge_points: ["[[Fischer投影式]]", "[[糖类化学]]", "[[立体化学]]", "[[山梨糖]]"]
 tags: [化竞, 真题, 33届, 有机化学]
 updated: 2026-05-11
+aliases: [33届初赛-8.3.2, Fischer投影式, L-山梨糖, 维生素C合成]
+source: "第33届中国化学奥林匹克（初赛）第8题第(8-3-2)小问"
+module: 有机化学
 status: 已填充
 ---
-
 # 题-033-8-3-2：L-山梨糖和化合物 C 的 Fischer 投影式
 
 ## 题目

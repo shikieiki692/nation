@@ -1,22 +1,22 @@
 ---
-title: 题-159-ABOC-Ch6-6.10.3-写出乙酰乙酸乙酯在碳酸钠存在下与 1 3 二溴丙烷反应的主要.md
+title: "题-159-ABOC-Ch6-6.10.3-写出乙酰乙酸乙酯在碳酸钠存在下与 1 3 二溴丙烷反应的主要"
 type: 题目
-source: ABOC 第6章 自学练习（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 基础要求-有机化学
 submodule: Ch.6
-question_type: 机理书写题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 巩固
-exam_stage: 初赛
 syllabus_codes: ["36"]
 knowledge_points: ["[[缩合反应]]", "[[Aldol缩合]]", "[[Claisen缩合]]"]
 tags: [化竞, ABOC, 有机化学]
-aliases: [ABOC-Ch6-6.10.3]
 updated: 2026-07-04
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第6章-缩合反应]]"
+aliases: [ABOC-Ch6-6.10.3]
+source: ABOC 第6章 自学练习（ARX's Basic Organic Chemistry 第3版）
+cross_references: ["[[04-题库/教材习题/ABOC/题-160-ABOC-Ch6-6.12-写出以下反应的机理  文献机理是错误的]]", "[[04-题库/教材习题/ABOC/题-153-ABOC-Ch6-6.4.6-写出甲醛和乙醛反应得到季戊四醇的机理]]", "[[04-题库/教材习题/ABOC/题-156-ABOC-Ch6-6.5.4-画出底物的优势构象 写出以下反应的产物]]", "[[04-题库/教材习题/ABOC/题-155-ABOC-Ch6-6.4-写出以下反应的产物 训练要求做到看到反应物立刻写出产物]]", "[[04-题库/教材习题/ABOC/题-154-ABOC-Ch6-6.4.8-写出以下两个反应的产物]]"]
+module: 基础要求-有机化学
 status: 已填充
 ---
-
 # 题-159：写出乙酰乙酸乙酯在碳酸钠存在下与 1,3-二溴丙烷反应的主要产物，解释另一种产物无法生成的原因。
 
 > **来源**：ABOC 第6章 自学练习 6.10.3
@@ -45,8 +45,6 @@ status: 已填充
 ---
 
 ## 知识点
-
-- [[]]
 
 ---
 

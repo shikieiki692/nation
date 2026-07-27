@@ -1,23 +1,20 @@
----
-title: "卡宾的Simmons-Smith环丙烷化"
-aliases: ["题-有机-中间体-05"]
+﻿---
+title: "题-有机-中间体-卡宾的Simmons-Smith环丙烷化"
 type: 题目
-exam_stage: 决赛
-source: "Zchem有机反应合成与机理"
-source_author: "Zchem进阶课提炼"
-subject: 有机化学
-module: 有机化学
 submodule: 活性中间体与反应机理
-question_type: 机理题
+exam_stage: 决赛
+subject: 有机化学
 difficulty: 5
 teaching_level: 强化
 syllabus_codes: ["49"]
 knowledge_points: ["[[Simmons-Smith反应]]", "[[卡宾等价体]]", "[[环丙烷化]]", "[[有机锌]]"]
 tags: [化竞, 题目, 有机化学, 决赛]
-status: 已填充
 updated: 2026-07-10
+aliases: ["题-有机-中间体-05"]
+source: "Zchem有机反应合成与机理"
+module: 有机化学
+status: 已填充
 ---
-
 # 卡宾的Simmons-Smith环丙烷化
 
 ## 题目
@@ -83,7 +80,7 @@ ICH₂ZnI + 烯烃 → 环丙烷 + ZnI₂
 
 ## 知识点映射
 
-- [[Simmons-Smith反应]]
+- Simmons-Smith反应
 - [[卡宾等价体]]
 - [[环丙烷化]]
 - [[有机锌]]

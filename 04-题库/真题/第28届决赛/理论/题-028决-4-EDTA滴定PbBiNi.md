@@ -1,26 +1,20 @@
 ---
-title: "题-028决-4：EDTA滴定PbBiNi"
-aliases: [28届决赛-4, 28决-4]
+title: "题-028决-4-EDTA滴定PbBiNi"
 type: 题目
-exam_stage: 决赛
-exam_type: 理论
-exam_session: 第一场
-year: 2014
-exam_date: 2014-11-27
-source: 第28届中国化学奥林匹克(决赛)
-subject: 分析化学
-module: 配位滴定
 submodule: 配位滴定
-question_type: 综合题
+exam_stage: 决赛
+subject: 分析化学
 difficulty: 3
 teaching_level: 拔高
 syllabus_codes: []
 knowledge_points: ["[[EDTA滴定]]", "[[配位滴定]]", "[[掩蔽剂]]", "[[指示剂]]", "[[分步滴定]]"]
 tags: [化竞, 真题, 28届, 决赛, 分析化学]
 updated: 2026-06-30
+aliases: [28届决赛-4, 28决-4]
+source: 第28届中国化学奥林匹克(决赛)
+module: 配位滴定
 status: 已填充
 ---
-
 # 第 4 题 EDTA 滴定 Pb、Bi、Ni (6 分)
 
 ## 题目

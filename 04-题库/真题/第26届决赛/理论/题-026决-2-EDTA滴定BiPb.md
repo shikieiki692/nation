@@ -1,26 +1,20 @@
 ---
-title: "题-026决-2：EDTA滴定BiPb"
-aliases: [26届决赛-2, 26届决赛-EDTA滴定, Bi³⁺Pb²⁺同时测定]
+title: "题-026决-2-EDTA滴定BiPb"
 type: 题目
-exam_stage: 决赛
-exam_type: 理论
-exam_session: 第一场
-year: 2012
-exam_date: 2012-12-01
-source: "第26届中国化学奥林匹克（决赛）第2题"
-subject: 分析化学
-module: 配位滴定
 submodule: "EDTA滴定-缓冲溶液"
-question_type: 综合计算
+exam_stage: 决赛
+subject: 分析化学
 difficulty: 3
 teaching_level: 进阶
 syllabus_codes: []
 knowledge_points: ["[[EDTA滴定]]", "[[缓冲溶液pH]]", "[[Henderson-Hasselbalch方程]]", "[[配位滴定浓度计算]]"]
 tags: [化竞, 真题, 26届, 决赛, 分析化学]
 updated: 2026-06-30
+aliases: [26届决赛-2, 26届决赛-EDTA滴定, Bi³⁺Pb²⁺同时测定]
+source: "第26届中国化学奥林匹克（决赛）第2题"
+module: 配位滴定
 status: 已填充
 ---
-
 # 题-026决-2：EDTA滴定BiPb
 
 ## 题目

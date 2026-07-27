@@ -1,24 +1,20 @@
----
-title: "题-026-9-1：Knoevenagel亲核试剂"
-aliases: [26届初赛-9.1, Knoevenagel, 亲核试剂, 丙二酸二乙酯]
+﻿---
+title: "题-026-9-1-Knoevenagel亲核试剂"
 type: 题目
-exam_stage: 初赛
-year: 2012
-exam_date: 2012-09-02
-source: "第26届中国化学奥林匹克（初赛）第9题第(9-1)小问"
-subject: 有机化学
-module: 有机化学
 submodule: "有机反应·Knoevenagel"
-question_type: 简答题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 基础
 syllabus_codes: []
 knowledge_points: ["[[Knoevenagel反应]]", "[[亲核试剂]]", "[[碳负离子]]"]
 tags: [化竞, 真题, 26届, 有机化学]
 updated: 2026-06-30
+aliases: [26届初赛-9.1, Knoevenagel, 亲核试剂, 丙二酸二乙酯]
+source: "第26届中国化学奥林匹克（初赛）第9题第(9-1)小问"
+module: 有机化学
 status: 已填充
 ---
-
 # 题-026-9-1：Knoevenagel亲核试剂
 
 ## 题目
@@ -33,7 +29,7 @@ status: 已填充
 
 ## 知识点映射
 
-- [[Knoevenagel反应]]
+- Knoevenagel反应
 - 碳负离子
 
 ## 解题思路

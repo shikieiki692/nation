@@ -1,23 +1,20 @@
 ---
-title: "Replacement Test判断分子NMR信号数"
-aliases: ["题-有机-波谱-08"]
+title: "题-有机-波谱-NMR-ReplacementTest信号数判断"
 type: 题目
-exam_stage: 初赛
-source: "Zchem基础有机化学"
-source_author: "Zchem网课提炼"
-subject: 有机化学
-module: 有机化学
 submodule: 波谱分析
-question_type: 判断题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["49"]
-knowledge_points: ["[[NMR谱学]]", "[[化学等价]]", "[[对称性分析]]"]
+knowledge_points: ["[[NMR谱学]]", "[[化学等价]]", "[[对称元素与对称操作]]"]
 tags: [化竞, 题目, 有机化学]
-status: 已填充
 updated: 2026-07-10
+aliases: ["题-有机-波谱-08"]
+source: "Zchem基础有机化学"
+module: 有机化学
+status: 已填充
 ---
-
 # Replacement Test判断分子NMR信号数
 
 ## 题目
@@ -81,4 +78,4 @@ ClCH₂-CH₂Cl，结构高度对称。
 
 - [[NMR谱学]]
 - [[化学等价]]
-- [[对称性分析]]
+- [[对称元素与对称操作]]

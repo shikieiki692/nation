@@ -1,22 +1,21 @@
 ---
-title: 题-132-ABOC-Ch5-5.4.3-写出以下转换的反应机理 二烯酮 酚重排  并解释反应的驱动力.md
+title: "题-132-ABOC-Ch5-5.4.3-写出以下转换的反应机理 二烯酮 酚重排  并解释反应的驱动力"
 type: 题目
-source: ABOC 第5章 自学练习（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 基础要求-有机化学
 submodule: Ch.5
-question_type: 机理书写题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 巩固
-exam_stage: 初赛
 syllabus_codes: ["35"]
-knowledge_points: ["[[芳香性]]", "[[芳香性]]", "[[亲电取代]]", "[[胺]]"]
+knowledge_points: ["[[芳香亲电取代]]", "[[碳正离子]]"]
 tags: [化竞, ABOC, 有机化学]
-aliases: [ABOC-Ch5-5.4.3]
 updated: 2026-07-04
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第5章-芳香与胺]]"
+aliases: [ABOC-Ch5-5.4.3]
+source: ABOC 第5章 自学练习（ARX's Basic Organic Chemistry 第3版）
+module: 基础要求-有机化学
 status: 已填充
 ---
-
 # 题-132：写出以下转换的反应机理（二烯酮-酚重排），并解释反应的驱动力。
 
 > **来源**：ABOC 第5章 自学练习 5.4.3
@@ -45,8 +44,6 @@ status: 已填充
 ---
 
 ## 知识点
-
-- [[]]
 
 ---
 

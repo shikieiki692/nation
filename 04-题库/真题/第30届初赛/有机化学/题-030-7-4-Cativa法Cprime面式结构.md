@@ -1,24 +1,20 @@
 ---
-title: "题-030-7-4：Cativa法C'的面式结构示意图"
-aliases: [30届初赛-7.4, Cativa法, Ir配合物, 面式结构, CO取代, 甲基迁移]
+title: "题-030-7-4-Cativa法Cprime面式结构"
 type: 题目
-exam_stage: 初赛
-year: 2016
-exam_date: 2016-08-28
-source: "第30届中国化学奥林匹克（初赛）第7题第4小问"
-subject: 有机化学
-module: 有机化学
 submodule: ""
-question_type: 简答题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 4
 teaching_level: 竞赛拔高
 syllabus_codes: []
-knowledge_points: ["[[题-030-7-4-Cativa法Cprime面式结构]]", "[[题-030-7-4-Cativa法Cprime面式结构]]", "[["配合物异构"]]", "[[CO取代]]", "[[甲基迁移]]", "[[类比推理]]"]
+knowledge_points: ["[["配合物异构"]]", "[[CO取代]]", "[[甲基迁移]]", "[[类比推理]]"]
 tags: [化竞, 真题, 30届, 有机化学]
 updated: 2026-05-12
+aliases: [30届初赛-7.4, Cativa法, Ir配合物, 面式结构, CO取代, 甲基迁移]
+source: "第30届中国化学奥林匹克（初赛）第7题第4小问"
+module: 有机化学
 status: 已填充
 ---
-
 # 题-030-7-4：Cativa法C'的面式结构示意图
 
 ## 题目

@@ -1,22 +1,21 @@
 ---
-title: 题-104-ABOC-Ch2-2.8-2-写出以下反应所有产物的电子推动机理 解释产物的生成原因 提示.md
+title: "题-104-ABOC-Ch2-2.8-2-写出以下反应所有产物的电子推动机理 解释产物的生成原因 提示"
 type: 题目
-source: ABOC 第2章 自学练习（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 基础要求-有机化学
 submodule: Ch.2
-question_type: 机理书写题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 巩固
-exam_stage: 初赛
 syllabus_codes: ["32"]
-knowledge_points: ["[[基本反应]]", "[[氧化反应]]", "[[还原反应]]"]
+knowledge_points: ["[[亲电加成]]"]
 tags: [化竞, ABOC, 有机化学]
-aliases: [ABOC-Ch2-2.8-2]
 updated: 2026-07-04
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第2章-基本反应]]"
+aliases: [ABOC-Ch2-2.8-2]
+source: ABOC 第2章 自学练习（ARX's Basic Organic Chemistry 第3版）
+module: 基础要求-有机化学
 status: 已填充
 ---
-
 # 题-104：写出以下反应所有产物的电子推动机理，解释产物的生成原因。提示：次氯酸可以被质子化从而产生氯正离子发动
 
 > **来源**：ABOC 第2章 自学练习 2.8-2
@@ -45,8 +44,6 @@ status: 已填充
 ---
 
 ## 知识点
-
-- [[]]
 
 ---
 

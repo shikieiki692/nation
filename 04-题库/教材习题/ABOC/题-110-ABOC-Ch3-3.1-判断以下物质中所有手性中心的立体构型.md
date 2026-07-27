@@ -1,22 +1,22 @@
 ---
-title: 题-110-ABOC-Ch3-3.1-判断以下物质中所有手性中心的立体构型.md
+title: "题-110-ABOC-Ch3-3.1-判断以下物质中所有手性中心的立体构型"
 type: 题目
-source: ABOC 第3章 自学练习（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 基础要求-有机化学
 submodule: Ch.3
-question_type: 机理书写题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 巩固
-exam_stage: 初赛
 syllabus_codes: ["33"]
-knowledge_points: ["[[烯烃]]", "[[亲电加成]]", "[[Markovnikov规则]]"]
+knowledge_points: ["[[立体化学]]", "[[手性]]"]
 tags: [化竞, ABOC, 有机化学]
-aliases: [ABOC-Ch3-3.1]
 updated: 2026-07-04
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第3章-烯烃加成]]"
+aliases: [ABOC-Ch3-3.1]
+source: ABOC 第3章 自学练习（ARX's Basic Organic Chemistry 第3版）
+cross_references: ["[[04-题库/教材习题/ABOC/题-068-ABOC-Ch3-3.1.2-光学活性判断]]"]
+module: 基础要求-有机化学
 status: 已填充
 ---
-
 # 题-110：判断以下物质中所有手性中心的立体构型。
 
 > **来源**：ABOC 第3章 自学练习 3.1
@@ -45,8 +45,6 @@ status: 已填充
 ---
 
 ## 知识点
-
-- [[]]
 
 ---
 

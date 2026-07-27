@@ -1,24 +1,20 @@
 ---
-title: "题-025-10-1：Vilsmeier试剂共振式"
-aliases: [25届初赛-10.1, Vilsmeier试剂, 共振式, 亲电性]
+title: "题-025-10-1-Vilsmeier试剂共振式"
 type: 题目
-exam_stage: 初赛
-year: 2011
-exam_date: 2011-09-11
-source: "第25届中国化学奥林匹克（初赛）第10题第(10-1)小问"
-subject: 有机化学
-module: 有机化学
 submodule: "有机结构·共振式"
-question_type: 结构题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 3
 teaching_level: 基础
 syllabus_codes: []
 knowledge_points: ["[[共振结构]]", "[[Vilsmeier试剂]]", "[[亲电性]]"]
 tags: [化竞, 真题, 25届, 有机化学]
 updated: 2026-06-30
+aliases: [25届初赛-10.1, Vilsmeier试剂, 共振式, 亲电性]
+source: "第25届中国化学奥林匹克（初赛）第10题第(10-1)小问"
+module: 有机化学
 status: 已填充
 ---
-
 # 题-025-10-1：Vilsmeier试剂共振式
 
 ## 题目

@@ -1,23 +1,20 @@
 ---
-title: "二甲苯异构体的¹H NMR信号数比较"
-aliases: ["题-有机-波谱-09"]
+title: "题-有机-波谱-NMR-二甲苯异构体信号数"
 type: 题目
-exam_stage: 初赛
-source: "Zchem基础有机化学"
-source_author: "Zchem网课提炼"
-subject: 有机化学
-module: 有机化学
 submodule: 波谱分析
-question_type: 比较题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["49"]
 knowledge_points: ["[[NMR谱学]]", "[[化学等价]]", "[[对二甲苯]]", "[[邻二甲苯]]", "[[间二甲苯]]"]
 tags: [化竞, 题目, 有机化学]
-status: 已填充
 updated: 2026-07-10
+aliases: ["题-有机-波谱-09"]
+source: "Zchem基础有机化学"
+module: 有机化学
+status: 已填充
 ---
-
 # 二甲苯异构体的¹H NMR信号数比较
 
 ## 题目

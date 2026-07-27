@@ -1,23 +1,20 @@
 ---
-title: "自由基分子内环化与Baldwin规则"
-aliases: ["题-有机-自由基-03"]
+title: "题-有机-自由基-分子内环化与Baldwin规则"
 type: 题目
-exam_stage: 决赛
-source: "Zchem有机反应合成与机理"
-source_author: "Zchem进阶课提炼"
-subject: 有机化学
-module: 有机化学
 submodule: 自由基反应
-question_type: 机理题
+exam_stage: 决赛
+subject: 有机化学
 difficulty: 5
 teaching_level: 强化
 syllabus_codes: ["49"]
-knowledge_points: ["[[自由基环化]]", "[[Baldwin规则]]", "[[5-exo-trig]]", "[[6-endo-trig]]", "[[分子内反应]]"]
+knowledge_points: ["[[自由基环化]]", "[[Baldwin规则]]", "[[分子内反应]]"]
 tags: [化竞, 题目, 有机化学, 决赛]
-status: 已填充
 updated: 2026-07-10
+aliases: ["题-有机-自由基-03"]
+source: "Zchem有机反应合成与机理"
+module: 有机化学
+status: 已填充
 ---
-
 # 自由基分子内环化与Baldwin规则
 
 ## 题目

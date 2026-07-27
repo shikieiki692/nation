@@ -1,5 +1,5 @@
 ---
-title: "题-037-5-2-1：HSNO的Lewis结构"
+title: "题-037-5-2-1-HSNO的Lewis结构"
 aliases: [37届初赛-5.2.1]
 type: 题目
 exam_stage: 初赛

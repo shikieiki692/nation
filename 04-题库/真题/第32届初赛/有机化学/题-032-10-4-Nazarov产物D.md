@@ -1,24 +1,20 @@
 ---
-title: "题-032-10-4：Nazarov产物D"
-aliases: [32届初赛-10.4, Nazarov环化, Lewis酸催化, 一锅煮串联反应]
+title: "题-032-10-4-Nazarov产物D"
 type: 题目
-exam_stage: 初赛
-year: 2018
-exam_date: 2018-09-02
-source: "第32届中国化学奥林匹克（初赛）第10题第(10-4)小问"
-subject: 有机化学
-module: 有机化学
 submodule: "人名反应与串联反应"
-question_type: 简答题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 4
 teaching_level: 拓展
 syllabus_codes: []
 knowledge_points: ["[[Lewis酸催化]]"]
 tags: [化竞, 真题, 32届, 有机化学]
 updated: 2026-05-11
+aliases: [32届初赛-10.4, Nazarov环化, Lewis酸催化, 一锅煮串联反应]
+source: "第32届中国化学奥林匹克（初赛）第10题第(10-4)小问"
+module: 有机化学
 status: 已填充
 ---
-
 # 题-032-10-4：Nazarov 产物 D
 
 ## 题目

@@ -1,23 +1,21 @@
 ---
 title: 题-062-ABOC-Ch1-1.1.1-离去基判断
-aliases: [ABOC-Ch1-1.1.1]
 type: 题目
-exam_stage: 初赛
-year: 
-source: ABOC 第1章 自学练习 1.1.1（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 基础概念
-question_type: 选择题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 入门
 syllabus_codes: ["36"]
 knowledge_points: ["[[离去基与pKa]]", "[[诱导效应]]", "[[共振论]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第1章-绪论]]"
+aliases: [ABOC-Ch1-1.1.1]
+source: ABOC 第1章 自学练习 1.1.1（ARX's Basic Organic Chemistry 第3版）
+module: 有机化学
+status: 已填充
 ---
-
 # 题-062：离去基判断
 
 ## 题目

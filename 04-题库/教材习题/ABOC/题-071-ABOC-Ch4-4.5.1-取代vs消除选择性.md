@@ -1,23 +1,21 @@
----
+﻿---
 title: 题-071-ABOC-Ch4-4.5.1-取代vs消除选择性
-aliases: [ABOC-Ch4-4.5.1]
 type: 题目
-exam_stage: 初赛
-year: 
-source: ABOC 第4章 自学练习 4.5.1（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 基础概念
-question_type: 机理推断题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["36", "38"]
 knowledge_points: ["[[SN2反应]]", "[[E2反应]]", "[[消除反应]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第4章-取代与消除]]"
+aliases: [ABOC-Ch4-4.5.1]
+source: ABOC 第4章 自学练习 4.5.1（ARX's Basic Organic Chemistry 第3版）
+module: 有机化学
+status: 已填充
 ---
-
 # 题-071：取代 vs 消除选择性
 
 ## 题目
@@ -52,8 +50,8 @@ updated: 2026-05-10
 
 | 关联 KP | 考查角度 | 直接/间接 |
 |---|---|:---:|
-| [[SN2反应]] | 取代反应的条件和选择性 | 直接 |
-| [[E2反应]] | 消除反应的条件和区域选择性 | 直接 |
+| SN2反应 | 取代反应的条件和选择性 | 直接 |
+| E2反应 | 消除反应的条件和区域选择性 | 直接 |
 | [[消除反应]] | 取代与消除的竞争规律 | 直接 |
 
 ## 解题思路

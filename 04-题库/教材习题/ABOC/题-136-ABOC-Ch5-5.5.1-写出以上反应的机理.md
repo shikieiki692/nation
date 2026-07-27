@@ -1,22 +1,21 @@
 ---
-title: 题-136-ABOC-Ch5-5.5.1-写出以上反应的机理.md
+title: "题-136-ABOC-Ch5-5.5.1-写出以上反应的机理"
 type: 题目
-source: ABOC 第5章 自学练习（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 基础要求-有机化学
 submodule: Ch.5
-question_type: 机理书写题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 巩固
-exam_stage: 初赛
 syllabus_codes: ["35"]
-knowledge_points: ["[[芳香性]]", "[[芳香性]]", "[[亲电取代]]", "[[胺]]"]
+knowledge_points: ["[[芳香亲电取代]]"]
 tags: [化竞, ABOC, 有机化学]
-aliases: [ABOC-Ch5-5.5.1]
 updated: 2026-07-04
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第5章-芳香与胺]]"
+aliases: [ABOC-Ch5-5.5.1]
+source: ABOC 第5章 自学练习（ARX's Basic Organic Chemistry 第3版）
+module: 基础要求-有机化学
 status: 已填充
 ---
-
 # 题-136：写出以上反应的机理。
 
 > **来源**：ABOC 第5章 自学练习 5.5.1
@@ -45,8 +44,6 @@ status: 已填充
 ---
 
 ## 知识点
-
-- [[]]
 
 ---
 

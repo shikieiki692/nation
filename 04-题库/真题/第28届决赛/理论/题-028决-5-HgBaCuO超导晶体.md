@@ -1,26 +1,20 @@
 ---
-title: "题-028决-5：HgBaCuO超导晶体"
-aliases: [28届决赛-5, 28决-5]
+title: "题-028决-5-HgBaCuO超导晶体"
 type: 题目
-exam_stage: 决赛
-exam_type: 理论
-exam_session: 第一场
-year: 2014
-exam_date: 2014-11-27
-source: 第28届中国化学奥林匹克(决赛)
-subject: 无机和结构化学
-module: 晶体结构
 submodule: 晶体结构与配位化学
-question_type: 综合题
+exam_stage: 决赛
+subject: 无机和结构化学
 difficulty: 5
 teaching_level: 拔高
 syllabus_codes: []
 knowledge_points: ["[[晶体结构]]", "[[晶体场理论]]", "[[分数坐标]]", "[[晶胞分析]]", "[[超导体]]"]
 tags: [化竞, 真题, 28届, 决赛, 元素化学]
 updated: 2026-06-30
+aliases: [28届决赛-5, 28决-5]
+source: 第28届中国化学奥林匹克(决赛)
+module: 晶体结构
 status: 已填充
 ---
-
 # 第 5 题 Hg-Ba-Cu-O 超导晶体 (8 分)
 
 ## 题目

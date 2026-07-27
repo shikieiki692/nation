@@ -1,23 +1,20 @@
 ---
-title: "不同杂化C-H键的IR波数排序"
-aliases: ["题-有机-波谱-04"]
+title: "题-有机-波谱-IR-不同杂化C-H波数排序"
 type: 题目
-exam_stage: 初赛
-source: "Zchem基础有机化学"
-source_author: "Zchem网课提炼"
-subject: 有机化学
-module: 有机化学
 submodule: 波谱分析
-question_type: 排序题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["49"]
 knowledge_points: ["[[红外光谱]]", "[[杂化轨道]]", "[[s轨道成分]]"]
 tags: [化竞, 题目, 有机化学]
-status: 已填充
 updated: 2026-07-10
+aliases: ["题-有机-波谱-04"]
+source: "Zchem基础有机化学"
+module: 有机化学
+status: 已填充
 ---
-
 # 不同杂化C-H键的IR波数排序
 
 ## 题目

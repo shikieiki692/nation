@@ -1,22 +1,22 @@
 ---
-title: 题-175-ABOC-Ch9-9.3.2-在 有机人名反应机理新解 中 对 Bartoli 吲哚合成的.md
+title: "题-175-ABOC-Ch9-9.3.2-在 有机人名反应机理新解 中 对 Bartoli 吲哚合成的"
 type: 题目
-source: ABOC 第9章 自学练习（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 基础要求-有机化学
 submodule: Ch.9
-question_type: 机理书写题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 巩固
-exam_stage: 初赛
 syllabus_codes: ["39"]
 knowledge_points: ["[[杂环化合物]]", "[[杂环合成]]"]
 tags: [化竞, ABOC, 有机化学]
-aliases: [ABOC-Ch9-9.3.2]
 updated: 2026-07-04
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第9章-杂环合成]]"
+aliases: [ABOC-Ch9-9.3.2]
+source: ABOC 第9章 自学练习（ARX's Basic Organic Chemistry 第3版）
+cross_references: ["[[04-题库/教材习题/ABOC/题-178-ABOC-Ch9-9.4.1-写出吡啶酮和三氯氧磷反应得到 2 氯吡啶的机理]]", "[[04-题库/教材习题/ABOC/题-174-ABOC-Ch9-9.3.1-B 站之前有一个 屠酮少年终成 酮  的视频 讲述了 Fis]]", "[[04-题库/教材习题/ABOC/题-179-ABOC-Ch9-9.4.2-ZChem GCHO 写出以下反应的中间体和产物结构式 得到]]", "[[04-题库/教材习题/ABOC/题-172-ABOC-Ch9-9.1-36 届初赛第二场 AchR反应]]", "[[04-题库/教材习题/ABOC/题-173-ABOC-Ch9-9.2-1-写出吡咯多聚形成聚吡咯的机理 这种聚合反应是哪种聚合类型]]"]
+module: 基础要求-有机化学
 status: 已填充
 ---
-
 # 题-175：在《有机人名反应机理新解》中，对 Bartoli 吲哚合成的机理描述如下：
 
 > **来源**：ABOC 第9章 自学练习 9.3.2
@@ -45,8 +45,6 @@ status: 已填充
 ---
 
 ## 知识点
-
-- [[]]
 
 ---
 

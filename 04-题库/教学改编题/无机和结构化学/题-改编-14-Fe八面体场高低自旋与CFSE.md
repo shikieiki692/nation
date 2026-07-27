@@ -1,20 +1,20 @@
----
+﻿---
 title: "题-改编-14-Fe八面体场高低自旋与CFSE"
-aliases: ["改编-原子-30", "Fe八面体场高低自旋与CFSE"]
 type: 题目
+submodule: 配位化合物
 exam_stage: 决赛
-source: "第一轮结构化学主讲义替换存档（2026-07-03）"
-chapter: 14
 subject: 无机和结构化学
-question_type: 简答题
 difficulty: 4
-knowledge_points: ["[[晶体场理论]]", "[[晶体场理论]]", "[[高自旋与低自旋]]", "[[CFSE]]"]
+teaching_level: 拓展
+syllabus_codes: []
+knowledge_points: ["[[晶体场理论]]", "[[高自旋与低自旋]]", "[[CFSE]]"]
 tags: [化竞, 题库, 改编题, 配位化学, 结构化学]
 updated: 2026-07-04
+aliases: ["改编-原子-30", "Fe八面体场高低自旋与CFSE"]
+source: "第一轮结构化学主讲义替换存档（2026-07-03）"
+module: 配位化合物
 status: 已填充
-syllabus_codes: []
 ---
-
 # 题-改编-14-Fe八面体场高低自旋与CFSE
 
 ## 题目

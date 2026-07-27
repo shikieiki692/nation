@@ -1,23 +1,21 @@
 ---
 title: 题-063-ABOC-Ch1-1.2.2-1-S-C反键轨道与端基效应
-aliases: [ABOC-Ch1-1.2.2-1]
 type: 题目
-exam_stage: 初赛
-year: 
-source: ABOC 第1章 自学练习 1.2.2-1（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 基础概念
-question_type: 机理推断题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["29", "28"]
 knowledge_points: ["[[给体-受体相互作用]]", "[[端基效应]]", "[[α效应]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第1章-绪论]]"
+aliases: [ABOC-Ch1-1.2.2-1]
+source: ABOC 第1章 自学练习 1.2.2-1（ARX's Basic Organic Chemistry 第3版）
+module: 有机化学
+status: 已填充
 ---
-
 # 题-063：S-C反键轨道与端基效应
 
 ## 题目

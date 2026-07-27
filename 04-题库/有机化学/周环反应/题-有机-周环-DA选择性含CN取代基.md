@@ -1,23 +1,20 @@
----
-title: "Diels-Alder反应含CN取代基的选择性"
-aliases: ["题-有机-周环-05"]
+﻿---
+title: "题-有机-周环-DA选择性含CN取代基"
 type: 题目
-exam_stage: 初赛
-source: "Zchem基础有机化学"
-source_author: "Zchem网课提炼"
-subject: 有机化学
-module: 有机化学
 submodule: 周环反应
-question_type: 产物判断
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 4
 teaching_level: 强化
 syllabus_codes: ["49"]
 knowledge_points: ["[[Diels-Alder反应]]", "[[前线轨道理论]]", "[[区域选择性]]"]
 tags: [化竞, 题目, 有机化学]
-status: 已填充
 updated: 2026-07-10
+aliases: ["题-有机-周环-05"]
+source: "Zchem基础有机化学"
+module: 有机化学
+status: 已填充
 ---
-
 # Diels-Alder反应含CN取代基的选择性
 
 ## 题目
@@ -78,6 +75,6 @@ $$\text{CH}_2\text{=CHCN + CH}_2\text{=CH-CH=CH}_2 \xrightarrow{\Delta} \text{3-
 
 ## 知识点映射
 
-- [[Diels-Alder反应]]
+- Diels-Alder反应
 - [[前线轨道理论]]
 - [[区域选择性]]

@@ -1,23 +1,22 @@
 ---
 title: 题-053-ABOC-Ch1-T1-金刚烷合成
-aliases: [ABOC-Ch1-T1]
 type: 题目
-exam_stage: 决赛
-year: 
-source: ABOC 第1章 章末习题 T1（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 碳正离子与重排
-question_type: 机理推断题
+exam_stage: 决赛
+subject: 有机化学
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["34", "28"]
-knowledge_points: ["[[碳正离子]]", "[[过碘酸氧化]]", "[[2-迁移与重排]]", "[[立体化学]]"]
+knowledge_points: ["[[碳正离子]]", "[[过碘酸氧化]]", "[[立体化学]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第1章-绪论]]"
+aliases: [ABOC-Ch1-T1]
+source: ABOC 第1章 章末习题 T1（ARX's Basic Organic Chemistry 第3版）
+cross_references: ["[[04-题库/教材习题/ABOC/题-064-ABOC-Ch1-1.3.1-3-金刚烷合成（碳正离子重排）]]"]
+module: 有机化学
+status: 已填充
 ---
-
 # 题-053：金刚烷合成（碳正离子重排）
 
 ## 题目

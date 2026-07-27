@@ -1,22 +1,21 @@
----
-title: 题-171-ABOC-Ch8-8.7.2-写出 3a 变成 A 的可能机理  无机反应 有机思维.md
+﻿---
+title: "题-171-ABOC-Ch8-8.7.2-写出 3a 变成 A 的可能机理  无机反应 有机思维"
 type: 题目
-source: ABOC 第8章 自学练习（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 基础要求-有机化学
 submodule: Ch.8
-question_type: 机理书写题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 巩固
-exam_stage: 初赛
 syllabus_codes: ["38"]
 knowledge_points: ["[[金属催化]]", "[[偶联反应]]", "[[Pd催化]]"]
 tags: [化竞, ABOC, 有机化学]
-aliases: [ABOC-Ch8-8.7.2]
 updated: 2026-07-04
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第8章-过渡金属催化]]"
+aliases: [ABOC-Ch8-8.7.2]
+source: ABOC 第8章 自学练习（ARX's Basic Organic Chemistry 第3版）
+module: 基础要求-有机化学
 status: 已填充
 ---
-
 # 题-171：写出 3a 变成 A 的可能机理。(无机反应，有机思维！)
 
 > **来源**：ABOC 第8章 自学练习 8.7.2
@@ -45,8 +44,6 @@ status: 已填充
 ---
 
 ## 知识点
-
-- [[]]
 
 ---
 

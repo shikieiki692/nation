@@ -1,22 +1,22 @@
 ---
-title: 题-117-ABOC-Ch3-3.10-解释以下反应产物的选择性.md
+title: "题-117-ABOC-Ch3-3.10-解释以下反应产物的选择性"
 type: 题目
-source: ABOC 第3章 自学练习（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 基础要求-有机化学
 submodule: Ch.3
-question_type: 机理书写题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 巩固
-exam_stage: 初赛
 syllabus_codes: ["33"]
-knowledge_points: ["[[烯烃]]", "[[亲电加成]]", "[[Markovnikov规则]]"]
+knowledge_points: ["[[硼氢化-氧化]]", "[[立体化学]]"]
 tags: [化竞, ABOC, 有机化学]
-aliases: [ABOC-Ch3-3.10]
 updated: 2026-07-04
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第3章-烯烃加成]]"
+aliases: [ABOC-Ch3-3.10]
+source: ABOC 第3章 自学练习（ARX's Basic Organic Chemistry 第3版）
+cross_references: ["[[04-题库/教材习题/ABOC/题-116-ABOC-Ch3-3.8-在某著名搞笑教材 有机人名反应机理新解 中 把硼氢化 氧化的]]"]
+module: 基础要求-有机化学
 status: 已填充
 ---
-
 # 题-117：解释以下反应产物的选择性。
 
 > **来源**：ABOC 第3章 自学练习 3.10
@@ -45,8 +45,6 @@ status: 已填充
 ---
 
 ## 知识点
-
-- [[]]
 
 ---
 

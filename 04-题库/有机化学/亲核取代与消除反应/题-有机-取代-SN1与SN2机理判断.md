@@ -1,22 +1,20 @@
----
-title: "SN1与SN2反应机理判断"
-aliases: []
+﻿---
+title: "题-有机-取代-SN1与SN2机理判断"
 type: 题目
-exam_stage: 初赛
-source: "Zchem基础有机化学-第15讲"
-subject: 有机化学
-module: 有机化学
 submodule: "亲核取代与消除反应"
-question_type: 机理题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 3
 teaching_level: 强化
 syllabus_codes: []
 knowledge_points: ["[[SN1反应]]", "[[SN2反应]]", "[[碳正离子]]", "[[亲核取代]]"]
 tags: [化竞, 题库, 教材习题, 有机化学]
 updated: 2026-07-09
+aliases: []
+source: "Zchem基础有机化学-第15讲"
+module: 有机化学
 status: 已填充
 ---
-
 # SN1与SN2反应机理判断
 
 ## 题目

@@ -1,24 +1,20 @@
----
-title: 题-034-9-2-2：Cannizzaro反应氧18标记产物
-aliases: [34届初赛-9.2.2, Cannizzaro氧18标记]
+﻿---
+title: "题-034-9-2-2-Cannizzaro反应氧18标记产物"
 type: 题目
-exam_stage: 初赛
-year: 2020
-exam_date: 2020-09-12
-source: 第34届中国化学奥林匹克（初赛）第9题第(2-2)小问
-subject: 有机化学
-module: 有机化学
 submodule: 反应机理与同位素示踪
-question_type: 机理书写题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 4
 teaching_level: 竞赛拔高
 syllabus_codes: []
 knowledge_points: ["[[Cannizzaro反应]]", "[[动力学同位素效应]]"]
 tags: [化竞, 真题, 34届, 有机化学]
 updated: 2026-05-08
+aliases: [34届初赛-9.2.2, Cannizzaro氧18标记]
+source: 第34届中国化学奥林匹克（初赛）第9题第(2-2)小问
+module: 有机化学
 status: 已填充
 ---
-
 # 题-034-9-2-2：Cannizzaro反应氧18标记产物
 
 ## 题目
@@ -50,7 +46,7 @@ status: 已填充
 
 | 关联 KP | 考查角度 | 直接/间接 |
 |---|---|:---:|
-| [[Cannizzaro反应]] | 同位素示踪分析氧原子去向 | 直接 |
+| Cannizzaro反应 | 同位素示踪分析氧原子去向 | 直接 |
 | [[半缩醛可逆性]] | 羰基氧与溶剂氧的交换 | 直接 |
 | [[动力学同位素效应]] | $^{18}O$ 标记追踪原子迁移 | 直接 |
 | [[羰基化合物反应可逆性]] | 对可逆步骤的理解深度 | 间接 |

@@ -1,22 +1,22 @@
 ---
-title: 题-113-ABOC-Ch3-3.3.4-1-解释以下问题 a 羟基酸 1 2 二酮 a 二酮  a 氨基.md
+title: "题-113-ABOC-Ch3-3.3.4-1-解释以下问题 a 羟基酸 1 2 二酮 a 二酮  a 氨基"
 type: 题目
-source: ABOC 第3章 自学练习（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 基础要求-有机化学
 submodule: Ch.3
-question_type: 机理书写题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 巩固
-exam_stage: 初赛
 syllabus_codes: ["33"]
-knowledge_points: ["[[烯烃]]", "[[亲电加成]]", "[[Markovnikov规则]]"]
+knowledge_points: ["[[亲电加成]]", "[[环氧化反应]]"]
 tags: [化竞, ABOC, 有机化学]
-aliases: [ABOC-Ch3-3.3.4-1]
 updated: 2026-07-04
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第3章-烯烃加成]]"
+aliases: [ABOC-Ch3-3.3.4-1]
+source: ABOC 第3章 自学练习（ARX's Basic Organic Chemistry 第3版）
+cross_references: ["[[04-题库/教材习题/ABOC/题-112-ABOC-Ch3-3.2.3-卤代内酯化反应是一种简单的串联反应 已知反应]]"]
+module: 基础要求-有机化学
 status: 已填充
 ---
-
 # 题-113：解释以下问题：a-羟基酸、1,2-二酮(a-二酮)、a-氨基酮、1-氨基-2-羟基化合物在水中也能进
 
 > **来源**：ABOC 第3章 自学练习 3.3.4-1
@@ -45,8 +45,6 @@ status: 已填充
 ---
 
 ## 知识点
-
-- [[]]
 
 ---
 

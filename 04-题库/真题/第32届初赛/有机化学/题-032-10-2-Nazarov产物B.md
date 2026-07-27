@@ -1,24 +1,20 @@
 ---
-title: "题-032-10-2：Nazarov产物B"
-aliases: [32届初赛-10.2, Nazarov环化, 给电子基效应, 区域选择性]
+title: "题-032-10-2-Nazarov产物B"
 type: 题目
-exam_stage: 初赛
-year: 2018
-exam_date: 2018-09-02
-source: "第32届中国化学奥林匹克（初赛）第10题第(10-2)小问"
-subject: 有机化学
-module: 有机化学
 submodule: "人名反应与电环化"
-question_type: 简答题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: []
 knowledge_points: ["[[给电子基效应]]", "[[原子经济性与反应选择性]]", "[[烯基给电子]]"]
 tags: [化竞, 真题, 32届, 有机化学]
 updated: 2026-05-11
+aliases: [32届初赛-10.2, Nazarov环化, 给电子基效应, 区域选择性]
+source: "第32届中国化学奥林匹克（初赛）第10题第(10-2)小问"
+module: 有机化学
 status: 已填充
 ---
-
 # 题-032-10-2：Nazarov 产物 B
 
 ## 题目

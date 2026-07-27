@@ -1,24 +1,20 @@
----
-title: "题-025-10-3：Vilsmeier反应完成"
-aliases: [25届初赛-10.3, Vilsmeier反应, 酰胺生成, 分子内取代]
+﻿---
+title: "题-025-10-3-Vilsmeier反应完成"
 type: 题目
-exam_stage: 初赛
-year: 2011
-exam_date: 2011-09-11
-source: "第25届中国化学奥林匹克（初赛）第10题第(10-3)小问"
-subject: 有机化学
-module: 有机化学
 submodule: "有机反应·Vilsmeier反应"
-question_type: 机理题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 5
 teaching_level: 挑战
 syllabus_codes: []
 knowledge_points: ["[[Vilsmeier反应]]", "[[酰胺生成]]", "[[分子内亲电取代]]"]
 tags: [化竞, 真题, 25届, 有机化学]
 updated: 2026-06-30
+aliases: [25届初赛-10.3, Vilsmeier反应, 酰胺生成, 分子内取代]
+source: "第25届中国化学奥林匹克（初赛）第10题第(10-3)小问"
+module: 有机化学
 status: 已填充
 ---
-
 # 题-025-10-3：Vilsmeier反应完成
 
 ## 题目
@@ -41,7 +37,7 @@ status: 已填充
 
 ## 知识点映射
 
-- [[Vilsmeier反应]]
+- Vilsmeier反应
 - 酰胺生成
 - 分子内亲电取代
 - 共轭稳定化

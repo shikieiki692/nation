@@ -1,24 +1,20 @@
----
-title: 题-034-9-2-1：Cannizzaro反应氘代产物
-aliases: [34届初赛-9.2.1, Cannizzaro氘代]
+﻿---
+title: "题-034-9-2-1-Cannizzaro反应氘代产物"
 type: 题目
-exam_stage: 初赛
-year: 2020
-exam_date: 2020-09-12
-source: 第34届中国化学奥林匹克（初赛）第9题第(2-1)小问
-subject: 有机化学
-module: 有机化学
 submodule: 反应机理与同位素示踪
-question_type: 简答题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: []
 knowledge_points: ["[[Cannizzaro反应]]", "[[动力学同位素效应]]"]
 tags: [化竞, 真题, 34届, 有机化学]
 updated: 2026-05-08
+aliases: [34届初赛-9.2.1, Cannizzaro氘代]
+source: 第34届中国化学奥林匹克（初赛）第9题第(2-1)小问
+module: 有机化学
 status: 已填充
 ---
-
 # 题-034-9-2-1：Cannizzaro反应氘代产物
 
 ## 题目
@@ -46,7 +42,7 @@ status: 已填充
 
 | 关联 KP | 考查角度 | 直接/间接 |
 |---|---|:---:|
-| [[Cannizzaro反应]] | 负氢转移后的质子交换 | 直接 |
+| Cannizzaro反应 | 负氢转移后的质子交换 | 直接 |
 | [[动力学同位素效应]] | 重水作为溶剂时氘的引入 | 直接 |
 | [[活泼氢交换]] | 醇羟基氢与溶剂质子的快速交换 | 间接 |
 

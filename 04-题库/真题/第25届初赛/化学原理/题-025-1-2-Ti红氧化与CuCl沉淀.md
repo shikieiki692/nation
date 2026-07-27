@@ -1,24 +1,20 @@
 ---
-title: "题-025-1-2：Ti红氧化与CuCl沉淀"
-aliases: [25届初赛-1.2, Ti(III), CuCl, 氧化还原]
+title: "题-025-1-2-Ti红氧化与CuCl沉淀"
 type: 题目
-exam_stage: 初赛
-year: 2011
-exam_date: 2011-09-11
-source: "第25届中国化学奥林匹克（初赛）第1题第(1-2)小问"
-subject: 化学原理
-module: 化学原理
 submodule: "氧化还原与沉淀平衡"
-question_type: 填空题
+exam_stage: 初赛
+subject: 化学原理
 difficulty: 2
 teaching_level: 基础
 syllabus_codes: []
 knowledge_points: ["[[Ti氧化还原]]", "[[CuCl沉淀]]", "[[配位效应]]"]
 tags: [化竞, 真题, 25届, 化学原理]
 updated: 2026-06-30
+aliases: [25届初赛-1.2, Ti(III), CuCl, 氧化还原]
+source: "第25届中国化学奥林匹克（初赛）第1题第(1-2)小问"
+module: 化学原理
 status: 已填充
 ---
-
 # 题-025-1-2：Ti红氧化与CuCl沉淀
 
 ## 题目

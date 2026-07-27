@@ -1,26 +1,22 @@
 ---
-deprecated: true
-deprecatedDate: 2026-07-23
-sunsetDate: 2026-07-30
-title: 题-203-ABOC-Ch2-2.9-写出以下反应的机理 解释机理的不同之处 并画出 A 的结构.md
+title: "题-203-ABOC-Ch2-2.9-写出以下反应的机理 解释机理的不同之处 并画出 A 的结构"
 type: 题目
-source: ABOC 第2章 自学练习（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 基础要求-有机化学
 submodule: Ch.2
-question_type: 机理书写题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 巩固
-exam_stage: 初赛
 syllabus_codes: ["32"]
 knowledge_points: ["[[基本反应]]", "[[氧化反应]]", "[[还原反应]]"]
 tags: [化竞, ABOC, 有机化学]
-aliases: [ABOC-Ch2-2.9]
 updated: 2026-07-04
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第2章-基本反应]]"
+aliases: [ABOC-Ch2-2.9]
+source: ABOC 第2章 自学练习（ARX's Basic Organic Chemistry 第3版）
+cross_references: ["[[04-题库/教材习题/ABOC/题-202-ABOC-Ch2-2.8-2-得到第三个产物的机理经历了一步负氢迁移]]", "[[04-题库/教材习题/ABOC/题-205-ABOC-Ch2-2.10.2-如图所示 显然全部都是亲核加成]]", "[[04-题库/教材习题/ABOC/题-195-ABOC-Ch2-2.7-氧化性 还原性 还原性]]", "[[04-题库/教材习题/ABOC/题-199-ABOC-Ch2-2.7.2-3-L  dot    mathsf   I        ma]]", "[[04-题库/教材习题/ABOC/题-204-ABOC-Ch2-2.10.1-下列化合物与等物质的量的 Br 发生加成反应时 可能得到哪些]]"]
+module: 基础要求-有机化学
 status: 已填充
-duplicate_of: "[[题-105-ABOC-Ch2-2.9-写出以下反应的机理 解释机理的不同之处 并画出 A 的结构]]"
 ---
-
 # 题-203：写出以下反应的机理，解释机理的不同之处，并画出 A 的结构。
 
 > **来源**：ABOC 第2章 自学练习 2.9
@@ -49,8 +45,6 @@ duplicate_of: "[[题-105-ABOC-Ch2-2.9-写出以下反应的机理 解释机理�
 ---
 
 ## 知识点
-
-- [[]]
 
 ---
 

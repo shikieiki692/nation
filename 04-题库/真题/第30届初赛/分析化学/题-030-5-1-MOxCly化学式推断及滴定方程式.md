@@ -1,24 +1,20 @@
----
-title: "题-030-5-1：MOₓClᵧ化学式推断及滴定方程式"
-aliases: [30届初赛-5.1, 滴定分析, 氧化还原滴定, 化学式推断, 钒, VOCl3]
+﻿---
+title: "题-030-5-1-MOxCly化学式推断及滴定方程式"
 type: 题目
-exam_stage: 初赛
-year: 2016
-exam_date: 2016-08-28
-source: "第30届中国化学奥林匹克（初赛）第5题"
-subject: 分析化学
-module: 分析化学
 submodule: ""
-question_type: 计算题
+exam_stage: 初赛
+subject: 分析化学
 difficulty: 4
 teaching_level: 竞赛拔高
 syllabus_codes: []
 knowledge_points: ["[[氧化还原滴定]]", "[[化学式推断]]", "[[沉淀滴定]]", "[[钒化合物]]", "[[VOCl3]]", "[[离子方程式]]", "[[摩尔质量计算]]"]
 tags: [化竞, 真题, 30届, 分析化学]
 updated: 2026-05-12
+aliases: [30届初赛-5.1, 滴定分析, 氧化还原滴定, 化学式推断, 钒, VOCl3]
+source: "第30届中国化学奥林匹克（初赛）第5题"
+module: 分析化学
 status: 已填充
 ---
-
 # 题-030-5-1：MOₓClᵧ化学式推断及滴定方程式
 
 ## 题目

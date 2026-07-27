@@ -1,23 +1,21 @@
 ---
 title: 题-075-ABOC-Ch6-6.5.1-Beckmann重排产物
-aliases: [ABOC-Ch6-6.5.1]
 type: 题目
-exam_stage: 初赛
-year: 
-source: ABOC 第6章 自学练习 6.5.1（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 基础概念
-question_type: 产物预测题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 3
 teaching_level: 拓展
 syllabus_codes: ["39"]
 knowledge_points: ["[[Beckmann重排]]", "[[酰胺]]", "[[立体化学]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第6章-缩合反应]]"
+aliases: [ABOC-Ch6-6.5.1]
+source: ABOC 第6章 自学练习 6.5.1（ARX's Basic Organic Chemistry 第3版）
+module: 有机化学
+status: 已填充
 ---
-
 # 题-075：Beckmann 重排产物
 
 ## 题目

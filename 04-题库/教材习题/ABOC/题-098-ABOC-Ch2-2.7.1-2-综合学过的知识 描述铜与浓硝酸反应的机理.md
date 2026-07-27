@@ -1,22 +1,22 @@
 ---
-title: 题-098-ABOC-Ch2-2.7.1-2-综合学过的知识 描述铜与浓硝酸反应的机理.md
+title: "题-098-ABOC-Ch2-2.7.1-2-综合学过的知识 描述铜与浓硝酸反应的机理"
 type: 题目
-source: ABOC 第2章 自学练习（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 基础要求-有机化学
 submodule: Ch.2
-question_type: 机理书写题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 巩固
-exam_stage: 初赛
 syllabus_codes: ["32"]
-knowledge_points: ["[[基本反应]]", "[[氧化反应]]", "[[还原反应]]"]
+knowledge_points: ["[[自由基反应]]", "[[氧化反应]]"]
 tags: [化竞, ABOC, 有机化学]
-aliases: [ABOC-Ch2-2.7.1-2]
 updated: 2026-07-04
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第2章-基本反应]]"
+aliases: [ABOC-Ch2-2.7.1-2]
+source: ABOC 第2章 自学练习（ARX's Basic Organic Chemistry 第3版）
+cross_references: ["[[04-题库/教材习题/ABOC/题-095-ABOC-Ch2-2.5-工业制备 DMSO 当然不会利用这个方法 而是在     m]]"]
+module: 基础要求-有机化学
 status: 已填充
 ---
-
 # 题-098：综合学过的知识，描述铜与浓硝酸反应的机理。
 
 > **来源**：ABOC 第2章 自学练习 2.7.1-2
@@ -45,8 +45,6 @@ status: 已填充
 ---
 
 ## 知识点
-
-- [[]]
 
 ---
 

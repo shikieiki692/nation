@@ -1,22 +1,22 @@
 ---
-title: 题-084-ABOC-Ch1-1.2.2-4-利用超共轭效应解释以下现象 通常多取代的双键比少取代的双键热.md
+title: "题-084-ABOC-Ch1-1.2.2-4-利用超共轭效应解释以下现象 通常多取代的双键比少取代的双键热"
 type: 题目
-source: ABOC 第1章 自学练习（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 基础要求-有机化学
 submodule: Ch.1
-question_type: 机理书写题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 巩固
-exam_stage: 初赛
 syllabus_codes: ["31"]
-knowledge_points: ["[[晶体结构基础]]", "[[Lewis酸碱]]", "[[电子效应]]", "[[碳正离子]]"]
+knowledge_points: ["[[超共轭效应]]", "[[电子效应]]"]
 tags: [化竞, ABOC, 有机化学]
-aliases: [ABOC-Ch1-1.2.2-4]
 updated: 2026-07-04
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第1章-绪论]]"
+aliases: [ABOC-Ch1-1.2.2-4]
+source: ABOC 第1章 自学练习（ARX's Basic Organic Chemistry 第3版）
+cross_references: ["[[04-题库/教材习题/ABOC/题-082-ABOC-Ch1-1.2.2-2-超共轭效应]]"]
+module: 基础要求-有机化学
 status: 已填充
 ---
-
 # 题-084：利用超共轭效应解释以下现象：通常多取代的双键比少取代的双键热力学上更加稳定(如下所示)。
 
 > **来源**：ABOC 第1章 自学练习 1.2.2-4
@@ -45,8 +45,6 @@ status: 已填充
 ---
 
 ## 知识点
-
-- [[]]
 
 ---
 

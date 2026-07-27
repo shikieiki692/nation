@@ -1,23 +1,20 @@
 ---
-title: "Claisen酯缩合与乙酰乙酸乙酯合成法"
-aliases: ["题-有机-羰基-02"]
+title: "题-有机-羰基-Claisen酯缩合与乙酰乙酸乙酯合成法"
 type: 题目
-exam_stage: 初赛
-source: "专题页提炼"
-source_author: "资料提炼综合"
-subject: 有机化学
-module: 有机化学
 submodule: 羰基化学与缩合反应
-question_type: 合成题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 4
 teaching_level: 强化
 syllabus_codes: ["43"]
 knowledge_points: ["[[Claisen缩合]]", "[[乙酰乙酸乙酯合成法]]"]
 tags: [化竞, 题目, 有机化学, 第三轮]
-status: 已填充
 updated: 2026-06-06
+aliases: ["题-有机-羰基-02"]
+source: "专题页提炼"
+module: 有机化学
+status: 已填充
 ---
-
 # Claisen 酯缩合与乙酰乙酸乙酯合成法
 
 ## 题目

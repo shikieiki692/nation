@@ -1,23 +1,20 @@
----
-title: "Diels-Alder反应endo选择性判断"
-aliases: ["题-有机-周环-01"]
+﻿---
+title: "题-有机-周环-DielsAlder反应endo选择性判断"
 type: 题目
-exam_stage: 初赛
-source: "专题页提炼"
-source_author: "资料提炼综合"
-subject: 有机化学
-module: 有机化学
 submodule: 周环反应
-question_type: 机理题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 4
 teaching_level: 强化
 syllabus_codes: ["49"]
 knowledge_points: ["[[Diels-Alder反应]]", "[[周环反应]]"]
 tags: [化竞, 题目, 有机化学, 第三轮]
-status: 已填充
 updated: 2026-06-06
+aliases: ["题-有机-周环-01"]
+source: "专题页提炼"
+module: 有机化学
+status: 已填充
 ---
-
 # Diels-Alder 反应 endo 选择性判断
 
 ## 题目
@@ -116,5 +113,5 @@ CHO 和 CH₃ 在环己烯环上相互处于邻位（1,2-关系），这是由�
 
 ## 知识点映射
 
-- [[Diels-Alder反应]]
+- Diels-Alder反应
 - [[周环反应]]

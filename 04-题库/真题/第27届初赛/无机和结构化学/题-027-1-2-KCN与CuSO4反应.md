@@ -1,25 +1,20 @@
 ---
-title: "题-027-1-2：KCN与CuSO₄反应方程式"
-aliases: [27届初赛-1.2, 氰化钾, 硫酸铜, 氰化亚铜]
+title: "题-027-1-2-KCN与CuSO4反应"
 type: 题目
-exam_stage: 初赛
-year: 2013
-exam_date: 2013-09-08
-source: "第27届中国化学奥林匹克（初赛）第1题第(1-2)小问"
-subject: 无机化学
-module: 无机化学
 submodule: "化学方程式书写"
-question_type: 方程式书写
+exam_stage: 初赛
+subject: 无机化学
 difficulty: 3
 teaching_level: 进阶
 syllabus_codes: []
-knowledge_points: ["[[配位平衡]]", "[[氧化还原]]", "[[铜化学]]", "[[氰化物]]"]
+knowledge_points: ["[[配位平衡]]", "[[氧化还原]]", "[[铜]]", "[[氰化物]]"]
 tags: [化竞, 真题, 27届, 元素化学]
-used_in: [配位化合物题组]
 updated: 2026-06-30
+aliases: [27届初赛-1.2, 氰化钾, 硫酸铜, 氰化亚铜]
+source: "第27届中国化学奥林匹克（初赛）第1题第(1-2)小问"
+module: 无机化学
 status: 已填充
 ---
-
 # 题-027-1-2：KCN与CuSO₄反应方程式
 
 ## 题目

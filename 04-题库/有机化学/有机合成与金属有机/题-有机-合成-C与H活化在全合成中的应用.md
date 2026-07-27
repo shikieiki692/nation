@@ -1,23 +1,20 @@
----
-title: "C-H活化在全合成中的应用"
-aliases: ["题-有机-合成-06"]
+﻿---
+title: "题-有机-合成-C与H活化在全合成中的应用"
 type: 题目
-exam_stage: 决赛
-source: "Zchem有机反应合成与机理"
-source_author: "Zchem进阶课提炼"
-subject: 有机化学
-module: 有机化学
 submodule: 有机合成与金属有机
-question_type: 简答题
+exam_stage: 决赛
+subject: 有机化学
 difficulty: 5
 teaching_level: 强化
 syllabus_codes: ["49"]
 knowledge_points: ["[[C-H活化]]", "[[过渡金属催化]]", "[[导向基策略]]", "[[全合成]]"]
 tags: [化竞, 题目, 有机化学, 决赛]
-status: 已填充
 updated: 2026-07-10
+aliases: ["题-有机-合成-06"]
+source: "Zchem有机反应合成与机理"
+module: 有机化学
+status: 已填充
 ---
-
 # C-H活化在全合成中的应用
 
 ## 题目
@@ -90,7 +87,7 @@ Ph-C-NH-Py  +  Ar-I  →  Pd(OAc)₂/AgOAc
 
 ## 知识点映射
 
-- [[C-H活化]]
+- C-H活化
 - [[过渡金属催化]]
 - [[导向基策略]]
 - [[全合成]]

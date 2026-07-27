@@ -1,20 +1,20 @@
 ---
 title: "题-改编-14-CoIII氨配合物化学式推断"
-aliases: ["改编-配位-18", "CoIII氨配合物化学式推断"]
 type: 题目
+submodule: 配位化合物
 exam_stage: 初赛
-source: "第一轮结构化学主讲义替换存档（2026-07-03）"
-chapter: 14
 subject: 无机和结构化学
-question_type: 推断题
 difficulty: 3
+teaching_level: 巩固
+syllabus_codes: []
 knowledge_points: ["[[配合物]]", "[[元素分析]]", "[[钴]]", "[[晶体场理论]]"]
 tags: [化竞, 题库, 改编题, 配位化学, 结构化学]
 updated: 2026-07-04
+aliases: ["改编-配位-18", "CoIII氨配合物化学式推断"]
+source: "第一轮结构化学主讲义替换存档（2026-07-03）"
+module: 配位化合物
 status: 已填充
-syllabus_codes: []
 ---
-
 # 题-改编-14-CoIII氨配合物化学式推断
 
 ## 题目

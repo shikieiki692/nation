@@ -1,23 +1,21 @@
 ---
 title: 题-056-ABOC-Ch4-T3-脱水反应与负氢迁移竞争
-aliases: [ABOC-Ch4-T3]
 type: 题目
-exam_stage: 决赛
-year: 
-source: ABOC 第4章 章末习题 T3（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 消除与重排
-question_type: 机理推断题
+exam_stage: 决赛
+subject: 有机化学
 difficulty: 4
 teaching_level: 拓展
 syllabus_codes: ["38", "39", "40"]
 knowledge_points: ["[[消除反应]]", "[[负氢迁移]]", "[[碳正离子]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第4章-取代与消除]]"
+aliases: [ABOC-Ch4-T3]
+source: ABOC 第4章 章末习题 T3（ARX's Basic Organic Chemistry 第3版）
+module: 有机化学
+status: 已填充
 ---
-
 # 题-056：脱水反应与负氢迁移竞争
 
 ## 题目

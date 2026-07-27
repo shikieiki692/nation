@@ -1,23 +1,21 @@
----
+﻿---
 title: 题-070-ABOC-Ch4-4.1-SN2-vs-SN1判断与消旋化
-aliases: [ABOC-Ch4-4.1]
 type: 题目
-exam_stage: 初赛
-year: 
-source: ABOC 第4章 自学练习 4.1（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 基础概念
-question_type: 机理推断题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["36", "44"]
 knowledge_points: ["[[SN2反应]]", "[[SN1反应]]", "[[立体化学]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第4章-取代与消除]]"
+aliases: [ABOC-Ch4-4.1]
+source: ABOC 第4章 自学练习 4.1（ARX's Basic Organic Chemistry 第3版）
+module: 有机化学
+status: 已填充
 ---
-
 # 题-070：SN2 vs SN1 判断与消旋化
 
 ## 题目
@@ -51,8 +49,8 @@ updated: 2026-05-10
 
 | 关联 KP | 考查角度 | 直接/间接 |
 |---|---|:---:|
-| [[SN2反应]] | SN2 的立体化学特征（构型翻转） | 直接 |
-| [[SN1反应]] | SN1 的立体化学特征（外消旋化） | 直接 |
+| SN2反应 | SN2 的立体化学特征（构型翻转） | 直接 |
+| SN1反应 | SN1 的立体化学特征（外消旋化） | 直接 |
 | [[立体化学]] | 反应前后手性中心构型变化 | 直接 |
 
 ## 解题思路

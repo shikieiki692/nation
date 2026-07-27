@@ -1,23 +1,19 @@
 ---
-title: 题-035-2-2：高压CaO₃结构与Lewis结构
+title: "题-035-2-2-高压CaO3结构与Lewis"
 type: 题目
-exam_stage: 初赛
-year: 2021
-exam_date: 2021-09-20
-source: 第35届中国化学奥林匹克（初赛）第2题第2小问
-subject: 化学原理
-module: 化学原理
 submodule: 分子结构与化学键
-question_type: 推断题
+exam_stage: 初赛
+subject: 化学原理
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["6", "10"]
 knowledge_points: ["[[盖斯定律]]", "[[Lewis结构式]]", "[[化学热力学]]"]
 tags: [化竞, 真题, 35届, 推断题, 高压化学, Lewis结构, 臭氧化物, 化学原理]
 updated: 2026-05-08
+source: 第35届中国化学奥林匹克（初赛）第2题第2小问
+module: 化学原理
 status: 已填充
 ---
-
 # 题-035-2-2：高压CaO₃结构与Lewis结构
 
 ## 题目

@@ -1,22 +1,21 @@
 ---
-title: 题-101-ABOC-Ch2-2.7.2-3-写出Li 和RX 反应的单电子转移机理.md
+title: "题-101-ABOC-Ch2-2.7.2-3-写出Li 和RX 反应的单电子转移机理"
 type: 题目
-source: ABOC 第2章 自学练习（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 基础要求-有机化学
 submodule: Ch.2
-question_type: 机理书写题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 巩固
-exam_stage: 初赛
 syllabus_codes: ["32"]
-knowledge_points: ["[[基本反应]]", "[[氧化反应]]", "[[还原反应]]"]
+knowledge_points: ["[[自由基反应]]"]
 tags: [化竞, ABOC, 有机化学]
-aliases: [ABOC-Ch2-2.7.2-3]
 updated: 2026-07-04
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第2章-基本反应]]"
+aliases: [ABOC-Ch2-2.7.2-3]
+source: ABOC 第2章 自学练习（ARX's Basic Organic Chemistry 第3版）
+module: 基础要求-有机化学
 status: 已填充
 ---
-
 # 题-101：写出Li 和RX 反应的单电子转移机理。
 
 > **来源**：ABOC 第2章 自学练习 2.7.2-3
@@ -45,8 +44,6 @@ $L \dot { \mathsf { I } } + \mathsf { R } \mathsf { X } = \mathsf { L } \mathsf 
 ---
 
 ## 知识点
-
-- [[]]
 
 ---
 

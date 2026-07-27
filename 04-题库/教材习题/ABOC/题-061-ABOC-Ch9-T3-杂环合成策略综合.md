@@ -1,23 +1,22 @@
 ---
 title: 题-061-ABOC-Ch9-T3-杂环合成策略综合
-aliases: [ABOC-Ch9-T3]
 type: 题目
-exam_stage: 决赛
-year: 
-source: ABOC 第9章 章末习题 T3（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 杂环化学
-question_type: 合成设计题
+exam_stage: 决赛
+subject: 有机化学
 difficulty: 4
 teaching_level: 拓展
 syllabus_codes: ["50", "52"]
 knowledge_points: ["[[Fischer吲哚合成]]", "[[吡啶化学]]", "[[杂环合成]]", "[[芳香亲核取代]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第9章-杂环合成]]"
+aliases: [ABOC-Ch9-T3]
+source: ABOC 第9章 章末习题 T3（ARX's Basic Organic Chemistry 第3版）
+cross_references: ["[[04-题库/教材习题/ABOC/题-047-ABOC-FT1-P2-EX1-氢键导向分子内反应]]", "[[04-题库/教材习题/ABOC/题-050-ABOC-FT1-P2-EX4-吡啶官能团化PADI催化]]"]
+module: 有机化学
+status: 已填充
 ---
-
 # 题-061：杂环合成策略综合
 
 ## 题目

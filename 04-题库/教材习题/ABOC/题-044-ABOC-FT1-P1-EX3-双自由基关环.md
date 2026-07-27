@@ -1,23 +1,21 @@
 ---
 title: 题-044-ABOC-FT1-P1-EX3-双自由基关环
-aliases: [ABOC-FT1-P1-EX3]
 type: 题目
-exam_stage: 决赛
-year: 
-source: ABOC 第11章 机理书写题（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 周环反应与自由基
-question_type: 机理书写题
+exam_stage: 决赛
+subject: 有机化学
 difficulty: 4
 teaching_level: 竞赛拔高
 syllabus_codes: ["49"]
 knowledge_points: ["[[自由基]]", "[[周环反应]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第11章-解题训练]]"
+aliases: [ABOC-FT1-P1-EX3]
+source: ABOC 第11章 机理书写题（ARX's Basic Organic Chemistry 第3版）
+module: 有机化学
+status: 已填充
 ---
-
 # 题-044：双自由基关环
 
 ## 题目

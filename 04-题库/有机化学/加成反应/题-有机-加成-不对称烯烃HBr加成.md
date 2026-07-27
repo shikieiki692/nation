@@ -1,23 +1,20 @@
 ---
-title: "不对称烯烃HBr加成"
-aliases: ["题-有机-加成-01"]
+title: "题-有机-加成-不对称烯烃HBr加成"
 type: 题目
-exam_stage: 初赛
-source: "专题页提炼"
-source_author: "资料提炼综合"
-subject: 有机化学
-module: 有机化学
 submodule: 加成反应
-question_type: 机理题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["31"]
 knowledge_points: ["[[加成反应]]", "[[碳正离子]]", "[[自由基加成]]"]
 tags: [化竞, 题目, 有机化学, 第三轮]
-status: 已填充
 updated: 2026-06-06
+aliases: ["题-有机-加成-01"]
+source: "专题页提炼"
+module: 有机化学
+status: 已填充
 ---
-
 # 不对称烯烃 HBr 加成：马氏规则与过氧化物效应
 
 ## 题目

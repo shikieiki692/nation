@@ -1,23 +1,22 @@
----
+﻿---
 title: 题-072-ABOC-Ch5-5.1-芳香性判断
-aliases: [ABOC-Ch5-5.1]
 type: 题目
-exam_stage: 初赛
-year: 
-source: ABOC 第5章 自学练习 5.1（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 基础概念
-question_type: 选择题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 入门
 syllabus_codes: ["28"]
-knowledge_points: ["[[芳香性]]", "[[芳香性]]", "[[芳香性]]"]
+knowledge_points: ["[[芳香性]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第5章-芳香与胺]]"
+aliases: [ABOC-Ch5-5.1]
+source: ABOC 第5章 自学练习 5.1（ARX's Basic Organic Chemistry 第3版）
+cross_references: ["[[04-题库/教材习题/ABOC/题-149-ABOC-Ch5-5.11.1-写出以上三种异腈合成方法的机理]]", "[[04-题库/教材习题/ABOC/题-142-ABOC-Ch5-5.6.4-2-写出过量 Li在质子溶剂中还原萘得到的产物和机理 自学练习 ]]", "[[04-题库/教材习题/ABOC/题-145-ABOC-Ch5-5.10.6-以不超过 5 个碳的有机物和其他试剂合成以下物质]]", "[[04-题库/教材习题/ABOC/题-074-ABOC-Ch6-6.1-DDQ脱保护机理]]", "[[04-题库/教材习题/ABOC/题-079-ABOC-Ch9-9.2-2-五元芳杂环元素规则]]"]
+module: 有机化学
+status: 已填充
 ---
-
 # 题-072：芳香性判断
 
 ## 题目

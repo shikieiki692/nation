@@ -1,23 +1,20 @@
 ---
-title: "含Cl化合物质谱同位素峰强度比"
-aliases: ["题-有机-波谱-06"]
+title: "题-有机-波谱-MS-含Cl同位素峰强度比"
 type: 题目
-exam_stage: 初赛
-source: "Zchem基础有机化学"
-source_author: "Zchem网课提炼"
-subject: 有机化学
-module: 有机化学
 submodule: 波谱分析
-question_type: 计算题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["49"]
 knowledge_points: ["[[质谱]]", "[[同位素峰]]", "[[氯同位素]]"]
 tags: [化竞, 题目, 有机化学]
-status: 已填充
 updated: 2026-07-10
+aliases: ["题-有机-波谱-06"]
+source: "Zchem基础有机化学"
+module: 有机化学
+status: 已填充
 ---
-
 # 含Cl化合物质谱同位素峰强度比
 
 ## 题目

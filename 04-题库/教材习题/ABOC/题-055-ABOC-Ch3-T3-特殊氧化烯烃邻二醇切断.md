@@ -1,23 +1,21 @@
 ---
 title: 题-055-ABOC-Ch3-T3-特殊氧化烯烃邻二醇切断
-aliases: [ABOC-Ch3-T3]
 type: 题目
-exam_stage: 决赛
-year: 
-source: ABOC 第3章 章末习题 T3（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 氧化反应
-question_type: 产物预测题
+exam_stage: 决赛
+subject: 有机化学
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["37", "43"]
 knowledge_points: ["[[臭氧化反应]]", "[[邻二醇切断]]", "[[立体化学]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第3章-烯烃加成]]"
+aliases: [ABOC-Ch3-T3]
+source: ABOC 第3章 章末习题 T3（ARX's Basic Organic Chemistry 第3版）
+module: 有机化学
+status: 已填充
 ---
-
 # 题-055：特殊氧化（烯烃→邻二醇→切断）
 
 ## 题目

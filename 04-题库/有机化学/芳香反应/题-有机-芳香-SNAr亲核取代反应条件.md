@@ -1,22 +1,20 @@
----
-title: "SNAr芳环亲核取代反应"
-aliases: []
+﻿---
+title: "题-有机-芳香-SNAr亲核取代反应条件"
 type: 题目
-exam_stage: 初赛
-source: "Zchem基础有机化学-第7讲"
-subject: 有机化学
-module: 有机化学
 submodule: "芳香反应"
-question_type: 推断题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 3
 teaching_level: 强化
 syllabus_codes: []
 knowledge_points: ["[[SNAr反应]]", "[[芳环亲核取代]]", "[[吸电子基团]]", "[[离去基团]]"]
 tags: [化竞, 题库, 教材习题, 有机化学]
 updated: 2026-07-09
+aliases: []
+source: "Zchem基础有机化学-第7讲"
+module: 有机化学
 status: 已填充
 ---
-
 # SNAr芳环亲核取代反应
 
 ## 题目

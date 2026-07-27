@@ -1,24 +1,20 @@
 ---
-title: "题-032-10-5：Nazarov产物E"
-aliases: [32届初赛-10.5, Nazarov环化, 分子内捕获, 碳正离子捕获]
+title: "题-032-10-5-Nazarov产物E"
 type: 题目
-exam_stage: 初赛
-year: 2018
-exam_date: 2018-09-02
-source: "第32届中国化学奥林匹克（初赛）第10题第(10-5)小问"
-subject: 有机化学
-module: 有机化学
 submodule: "人名反应与串联反应"
-question_type: 简答题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 4
 teaching_level: 拓展
 syllabus_codes: []
 knowledge_points: ["[[分子内捕获]]", "[[碳正离子捕获]]", "[[串联环化]]"]
 tags: [化竞, 真题, 32届, 有机化学]
 updated: 2026-05-11
+aliases: [32届初赛-10.5, Nazarov环化, 分子内捕获, 碳正离子捕获]
+source: "第32届中国化学奥林匹克（初赛）第10题第(10-5)小问"
+module: 有机化学
 status: 已填充
 ---
-
 # 题-032-10-5：Nazarov 产物 E
 
 ## 题目

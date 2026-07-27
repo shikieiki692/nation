@@ -1,23 +1,20 @@
 ---
-title: "交叉Aldol缩合产物预测"
-aliases: ["题-有机-羰基-01"]
+title: "题-有机-羰基-交叉Aldol缩合产物预测"
 type: 题目
-exam_stage: 初赛
-source: "专题页提炼"
-source_author: "资料提炼综合"
-subject: 有机化学
-module: 有机化学
 submodule: 羰基化学与缩合反应
-question_type: 机理题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 4
 teaching_level: 强化
 syllabus_codes: ["42"]
 knowledge_points: ["[[Aldol缩合]]", "[[羰基亲核加成]]"]
 tags: [化竞, 题目, 有机化学, 第三轮]
-status: 已填充
 updated: 2026-06-06
+aliases: ["题-有机-羰基-01"]
+source: "专题页提炼"
+module: 有机化学
+status: 已填充
 ---
-
 # 交叉 Aldol 缩合产物预测
 
 ## 题目

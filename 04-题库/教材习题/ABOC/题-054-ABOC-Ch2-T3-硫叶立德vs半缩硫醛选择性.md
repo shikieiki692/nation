@@ -1,23 +1,21 @@
 ---
 title: 题-054-ABOC-Ch2-T3-硫叶立德vs半缩硫醛选择性
-aliases: [ABOC-Ch2-T3]
 type: 题目
-exam_stage: 决赛
-year: 
-source: ABOC 第2章 章末习题 T3（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 硫化学
-question_type: 反应性比较题
+exam_stage: 决赛
+subject: 有机化学
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["36", "45"]
 knowledge_points: ["[[硫叶立德]]", "[[缩醛]]", "[[软硬酸碱理论]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第2章-基本反应]]"
+aliases: [ABOC-Ch2-T3]
+source: ABOC 第2章 章末习题 T3（ARX's Basic Organic Chemistry 第3版）
+module: 有机化学
+status: 已填充
 ---
-
 # 题-054：硫叶立德 vs 半缩硫醛选择性
 
 ## 题目

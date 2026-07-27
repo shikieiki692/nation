@@ -1,23 +1,21 @@
 ---
 title: 题-069-ABOC-Ch3-3.4-鎓离子开环区域选择性
-aliases: [ABOC-Ch3-3.4]
 type: 题目
-exam_stage: 初赛
-year: 
-source: ABOC 第3章 自学练习 3.4（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 基础概念
-question_type: 机理推断题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["37", "43"]
 knowledge_points: ["[[鎓离子]]", "[[亲电加成]]", "[[原子经济性与反应选择性]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第3章-烯烃加成]]"
+aliases: [ABOC-Ch3-3.4]
+source: ABOC 第3章 自学练习 3.4（ARX's Basic Organic Chemistry 第3版）
+module: 有机化学
+status: 已填充
 ---
-
 # 题-069：鎓离子开环区域选择性
 
 ## 题目

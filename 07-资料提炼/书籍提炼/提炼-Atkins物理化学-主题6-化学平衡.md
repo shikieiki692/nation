@@ -8,7 +8,7 @@ source_type: 书籍
 subject: 决赛要求
 syllabus_stage: 决赛
 tags: [化竞, 资料提炼, Atkins, 物理化学, 化学平衡, 平衡常数, 范特霍夫方程, 能斯特方程, 电极电势, 电化学]
-target_kp: [["[[化学平衡]]", "[[平衡常数]]"]
+target_kp: ["[[化学平衡]]", "[[平衡常数]]"]
 syllabus_codes: [决赛04, 决赛10]
 knowledge_points: [化学势与平衡, 平衡近似, 范特霍夫等温式, 范特霍夫方程, 可逆电池, 电池电动势, 电极电势深化, 电极过程热力学, 电化学深化]
 topics: []
@@ -190,3 +190,4 @@ FROM "04-题库"
 WHERE contains(syllabus_codes, "决赛04") OR contains(syllabus_codes, "决赛10")
 SORT year DESC, difficulty ASC
 ```
+

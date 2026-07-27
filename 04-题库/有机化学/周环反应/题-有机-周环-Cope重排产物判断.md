@@ -1,23 +1,20 @@
 ---
-title: "Cope重排产物判断"
-aliases: ["题-有机-周环-07"]
+title: "题-有机-周环-Cope重排产物判断"
 type: 题目
-exam_stage: 初赛
-source: "Zchem基础有机化学"
-source_author: "Zchem网课提炼"
-subject: 有机化学
-module: 有机化学
 submodule: 周环反应
-question_type: 产物判断
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["49"]
 knowledge_points: ["[[Cope重排]]", "[[σ迁移反应]]", "[[周环反应]]"]
 tags: [化竞, 题目, 有机化学]
-status: 已填充
 updated: 2026-07-10
+aliases: ["题-有机-周环-07"]
+source: "Zchem基础有机化学"
+module: 有机化学
+status: 已填充
 ---
-
 # Cope重排产物判断
 
 ## 题目

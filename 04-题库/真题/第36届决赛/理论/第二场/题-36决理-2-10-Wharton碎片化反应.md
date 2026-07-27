@@ -1,26 +1,20 @@
 ---
 title: 题-36决理-2-10-Wharton碎片化反应
-aliases: []
 type: 题目
-exam_stage: 决赛
-exam_type: 理论
-exam_session: 第二场
-year: 2022
-exam_date: 2022-11-28
-source: 第36届中国化学奥林匹克(决赛)
-subject: 有机化学
-module: 决赛要求
 submodule: 有机合成方法学
-question_type: 综合题
+exam_stage: 决赛
+subject: 有机化学
 difficulty: 4
 teaching_level: 拔高
 syllabus_codes: []
 knowledge_points: ["[[Wharton碎片化]]", "[[中环化合物]]", "[[自由基反应]]", "[[立体化学]]"]
 tags: [化竞, 决赛, 理论, 有机化学]
 updated: 2026-05-20
+aliases: []
+source: 第36届中国化学奥林匹克(决赛)
+module: 决赛要求
 status: 已填充
 ---
-
 # 第 10 题 Wharton碎片化反应 (11 分)
 
 依据此信息，回答以下问题：

@@ -1,24 +1,20 @@
 ---
-title: "题-028-4-1：Kevlar缩聚反应式"
-aliases: [28届初赛-4.1, Kevlar, 缩聚反应]
+title: "题-028-4-1-Kevlar缩聚反应式"
 type: 题目
-exam_stage: 初赛
-year: 2014
-exam_date: 2014-08-31
-source: "第28届中国化学奥林匹克（初赛）第4题第(4-1)小问"
-subject: 有机化学
-module: 有机化学
 submodule: "高分子化学"
-question_type: 机理书写题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 入门
 syllabus_codes: []
 knowledge_points: ["[[缩聚反应]]", "[[聚酰胺]]", "[[对苯二甲酰对苯二胺]]"]
 tags: [化竞, 真题, 28届, 有机化学]
 updated: 2026-05-11
+aliases: [28届初赛-4.1, Kevlar, 缩聚反应]
+source: "第28届中国化学奥林匹克（初赛）第4题第(4-1)小问"
+module: 有机化学
 status: 已填充
 ---
-
 # 题-028-4-1：Kevlar缩聚反应式
 
 ## 题目

@@ -1,23 +1,22 @@
----
+﻿---
 title: 题-059-ABOC-Ch7-T3-周环反应综合热光选择性
-aliases: [ABOC-Ch7-T3]
 type: 题目
-exam_stage: 决赛
-year: 
-source: ABOC 第7章 章末习题 T3（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 周环反应
-question_type: 机理推断题
+exam_stage: 决赛
+subject: 有机化学
 difficulty: 4
 teaching_level: 拓展
 syllabus_codes: ["49"]
 knowledge_points: ["[[Diels-Alder反应]]", "[[2+2环加成]]", "[[电环化反应]]", "[[前线轨道理论]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第7章-周环反应]]"
+aliases: [ABOC-Ch7-T3]
+source: ABOC 第7章 章末习题 T3（ARX's Basic Organic Chemistry 第3版）
+cross_references: ["[[04-题库/教材习题/ABOC/题-170-ABOC-Ch7-7.6.2-2-写出以下反应的中间体和产物的结构]]", "[[04-题库/教材习题/ABOC/题-165-ABOC-Ch7-7.2.1-2-写出以下反应的产物]]", "[[04-题库/教材习题/ABOC/题-166-ABOC-Ch7-7.2.2-1-写出以下反应的产物]]", "[[04-题库/教材习题/ABOC/题-169-ABOC-Ch7-7.6.2-1-写出以下反应的轨道表示 判断哪些对称性允许 哪些对称性禁阻]]", "[[04-题库/教材习题/ABOC/题-168-ABOC-Ch7-7.4-周环反应小综合]]"]
+module: 有机化学
+status: 已填充
 ---
-
 # 题-059：周环反应综合（热/光选择性）
 
 ## 题目
@@ -45,7 +44,7 @@ updated: 2026-05-10
 
 | 关联 KP | 考查角度 | 直接/间接 |
 |---|---|:---:|
-| [[Diels-Alder反应]] | 热允许的 [4+2] 环加成 | 直接 |
+| Diels-Alder反应 | 热允许的 [4+2] 环加成 | 直接 |
 | [[2+2环加成]] | 光允许的 [2+2] 环加成 | 直接 |
 | [[电环化反应]] | 热/光条件下的旋向选择性 | 直接 |
 | [[前线轨道理论]] | HOMO-LUMO 对称性匹配原理 | 直接 |

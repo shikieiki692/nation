@@ -1,23 +1,21 @@
 ---
 title: 题-067-ABOC-Ch2-2.4-2-烯醇稳定性比较
-aliases: [ABOC-Ch2-2.4-2]
 type: 题目
-exam_stage: 初赛
-year: 
-source: ABOC 第2章 自学练习 2.4-2（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 基础概念
-question_type: 选择题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 入门
 syllabus_codes: ["25"]
 knowledge_points: ["[[互变异构体]]", "[[烯醇]]", "[[共轭效应]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第2章-基本反应]]"
+aliases: [ABOC-Ch2-2.4-2]
+source: ABOC 第2章 自学练习 2.4-2（ARX's Basic Organic Chemistry 第3版）
+module: 有机化学
+status: 已填充
 ---
-
 # 题-067：烯醇稳定性比较
 
 ## 题目

@@ -1,22 +1,22 @@
----
-title: 题-149-ABOC-Ch5-5.11.1-写出以上三种异腈合成方法的机理.md
+﻿---
+title: "题-149-ABOC-Ch5-5.11.1-写出以上三种异腈合成方法的机理"
 type: 题目
-source: ABOC 第5章 自学练习（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 基础要求-有机化学
 submodule: Ch.5
-question_type: 机理书写题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 巩固
-exam_stage: 初赛
 syllabus_codes: ["35"]
-knowledge_points: ["[[芳香性]]", "[[芳香性]]", "[[亲电取代]]", "[[胺]]"]
+knowledge_points: ["[[芳香性]]", "[[亲电取代]]", "[[胺]]"]
 tags: [化竞, ABOC, 有机化学]
-aliases: [ABOC-Ch5-5.11.1]
 updated: 2026-07-04
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第5章-芳香与胺]]"
+aliases: [ABOC-Ch5-5.11.1]
+source: ABOC 第5章 自学练习（ARX's Basic Organic Chemistry 第3版）
+cross_references: ["[[04-题库/教材习题/ABOC/题-138-ABOC-Ch5-5.6.1-2-以苯为原料合成以下物质]]", "[[04-题库/教材习题/ABOC/题-142-ABOC-Ch5-5.6.4-2-写出过量 Li在质子溶剂中还原萘得到的产物和机理 自学练习 ]]", "[[04-题库/教材习题/ABOC/题-145-ABOC-Ch5-5.10.6-以不超过 5 个碳的有机物和其他试剂合成以下物质]]", "[[04-题库/教材习题/ABOC/题-148-ABOC-Ch5-5.10.8-2-为了探究 Corey Fuchs 第二步的机理哪个正确 可以]]", "[[04-题库/教材习题/ABOC/题-137-ABOC-Ch5-5.6.1-1-写出反应的机理]]"]
+module: 基础要求-有机化学
 status: 已填充
 ---
-
 # 题-149：写出以上三种异腈合成方法的机理。
 
 > **来源**：ABOC 第5章 自学练习 5.11.1
@@ -45,8 +45,6 @@ status: 已填充
 ---
 
 ## 知识点
-
-- [[]]
 
 ---
 

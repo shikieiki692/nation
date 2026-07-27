@@ -1,20 +1,20 @@
----
+﻿---
 title: "题-改编-14-光谱化学序列排序与CFSE"
-aliases: ["改编-光谱化学序列-排序", "光谱化学序列排序"]
 type: 题目
+submodule: 配位化合物
 exam_stage: 初赛
-source: "教学改编题（知识点补充）"
-chapter: 14
 subject: 无机和结构化学
-question_type: 计算题
 difficulty: 3
+teaching_level: 巩固
+syllabus_codes: []
 knowledge_points: ["[[光谱化学序列]]", "[[晶体场理论]]", "[[CFSE]]"]
 tags: [化竞, 题库, 改编题, 光谱化学序列, 晶体场]
 updated: 2026-07-09
+aliases: ["改编-光谱化学序列-排序", "光谱化学序列排序"]
+source: "教学改编题（知识点补充）"
+module: 配位化合物
 status: 已填充
-syllabus_codes: []
 ---
-
 # 题-改编-14-光谱化学序列排序与CFSE
 
 ## 题目

@@ -1,5 +1,5 @@
----
-title: "题-029决-9：Wittig反应"
+﻿---
+title: "题-029决-9-Wittig反应"
 aliases: [29届决赛-9, 29决-9]
 type: 题目
 exam_stage: 决赛

@@ -1,22 +1,22 @@
 ---
-title: 题-133-ABOC-Ch5-5.4.4-写出苯酚在浓硫酸或无水氯化锌的作用下与邻苯二甲酸酐反应生成酚.md
+title: "题-133-ABOC-Ch5-5.4.4-写出苯酚在浓硫酸或无水氯化锌的作用下与邻苯二甲酸酐反应生成酚"
 type: 题目
-source: ABOC 第5章 自学练习（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 基础要求-有机化学
 submodule: Ch.5
-question_type: 机理书写题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 巩固
-exam_stage: 初赛
 syllabus_codes: ["35"]
-knowledge_points: ["[[芳香性]]", "[[芳香性]]", "[[亲电取代]]", "[[胺]]"]
+knowledge_points: ["[[芳香亲电取代]]", "[[电子效应]]"]
 tags: [化竞, ABOC, 有机化学]
-aliases: [ABOC-Ch5-5.4.4]
 updated: 2026-07-04
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第5章-芳香与胺]]"
+aliases: [ABOC-Ch5-5.4.4]
+source: ABOC 第5章 自学练习（ARX's Basic Organic Chemistry 第3版）
+cross_references: ["[[04-题库/教材习题/ABOC/题-131-ABOC-Ch5-5.4.1-已知E的酸性强于 C 则比较以下物质的酸性强弱]]"]
+module: 基础要求-有机化学
 status: 已填充
 ---
-
 # 题-133：写出苯酚在浓硫酸或无水氯化锌的作用下与邻苯二甲酸酐反应生成酚酞（如左图所示）的机理。酚酞除了两种常见
 
 > **来源**：ABOC 第5章 自学练习 5.4.4
@@ -45,8 +45,6 @@ status: 已填充
 ---
 
 ## 知识点
-
-- [[]]
 
 ---
 

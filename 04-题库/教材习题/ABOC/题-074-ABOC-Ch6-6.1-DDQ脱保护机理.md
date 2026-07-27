@@ -1,23 +1,21 @@
 ---
 title: 题-074-ABOC-Ch6-6.1-DDQ脱保护机理
-aliases: [ABOC-Ch6-6.1]
 type: 题目
-exam_stage: 初赛
-year: 
-source: ABOC 第6章 自学练习 6.1（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 基础概念
-question_type: 机理推断题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 3
 teaching_level: 拓展
 syllabus_codes: ["40", "45"]
 knowledge_points: ["[[氧化还原反应]]", "[[保护基策略]]", "[[芳香性]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第6章-缩合反应]]"
+aliases: [ABOC-Ch6-6.1]
+source: ABOC 第6章 自学练习 6.1（ARX's Basic Organic Chemistry 第3版）
+module: 有机化学
+status: 已填充
 ---
-
 # 题-074：DDQ 脱保护机理
 
 ## 题目

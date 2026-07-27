@@ -1,5 +1,5 @@
 ---
-title: "题-038-9-5-1：Friedel-Crafts酰基化"
+title: "题-038-9-5-1-Friedel-Crafts酰基化"
 aliases: [38届初赛-9.5.1]
 type: 题目
 exam_stage: 初赛

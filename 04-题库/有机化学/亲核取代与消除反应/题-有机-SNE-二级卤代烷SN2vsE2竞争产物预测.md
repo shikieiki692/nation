@@ -1,23 +1,20 @@
----
-title: "二级卤代烷SN2 vs E2竞争产物预测"
-aliases: ["题-有机-SNE-02"]
+﻿---
+title: "题-有机-SNE-二级卤代烷SN2vsE2竞争产物预测"
 type: 题目
-exam_stage: 初赛
-source: "专题页提炼"
-source_author: "资料提炼综合"
-subject: 有机化学
-module: 有机化学
 submodule: 亲核取代与消除反应
-question_type: 计算题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 4
 teaching_level: 强化
 syllabus_codes: ["28"]
 knowledge_points: ["[[SN2反应]]", "[[E2反应]]", "[[亲核取代]]", "[[消除反应]]"]
 tags: [化竞, 题目, 有机化学, 第三轮]
-status: 已填充
 updated: 2026-06-06
+aliases: ["题-有机-SNE-02"]
+source: "专题页提炼"
+module: 有机化学
+status: 已填充
 ---
-
 # 二级卤代烷 SN2 vs E2 竞争产物预测
 
 ## 题目
@@ -106,7 +103,7 @@ $\mathrm{CH_3O^-}$ 既是中等亲核试剂又是中等强碱，处于 SN2/E2 �
 
 ## 知识点映射
 
-- [[SN2反应]]
-- [[E2反应]]
+- SN2反应
+- E2反应
 - [[亲核取代]]
 - [[消除反应]]

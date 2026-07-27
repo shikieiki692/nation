@@ -1,23 +1,22 @@
----
+﻿---
 title: 题-039-ABOC-FT0-Tech-Jujuyane全合成
-aliases: [ABOC-FT0-Tech]
 type: 题目
-exam_stage: 决赛
-year: 
-source: ABOC 第11章 全合成推断题（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 全合成
-question_type: 全合成推断题
+exam_stage: 决赛
+subject: 有机化学
 difficulty: 5
 teaching_level: 竞赛拔高
 syllabus_codes: ["50", "49", "52"]
 knowledge_points: ["[[Diels-Alder反应]]", "[[杂环化合物]]", "[[呋喃化学]]", "[[Simmon-Smith反应]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第11章-解题训练]]"
+aliases: [ABOC-FT0-Tech]
+source: ABOC 第11章 全合成推断题（ARX's Basic Organic Chemistry 第3版）
+cross_references: ["[[04-题库/教材习题/ABOC/题-049-ABOC-FT1-P2-EX3-34届决赛LiTMP DA三组分]]"]
+module: 有机化学
+status: 已填充
 ---
-
 # 题-039：Jujuyane 全合成（Hee-Yoon Lee, 2021）
 
 ## 题目
@@ -49,9 +48,9 @@ T-3-2 为什么先 TPAP 氧化再还原的方法实现了羟基的翻转构型�
 
 | 关联 KP | 考查角度 | 直接/间接 |
 |---|---|:---:|
-| [[Diels-Alder反应]] | 呋喃衍生物的 [4+2] 环加成构建关键前体 | 直接 |
+| Diels-Alder反应 | 呋喃衍生物的 [4+2] 环加成构建关键前体 | 直接 |
 | [[呋喃]] | 呋喃作为双烯体在全合成中的应用 | 直接 |
-| [[Simmon-Smith反应]] | 环丙烷化反应在合成中的可能应用 | 间接 |
+| Simmon-Smith反应 | 环丙烷化反应在合成中的可能应用 | 间接 |
 | [[杂环化合物]] | 含氧杂环的构建与转化 | 直接 |
 
 ## 解题思路

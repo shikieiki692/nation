@@ -1,22 +1,22 @@
 ---
-title: 题-088-ABOC-Ch1-1.3.1-2-写出以下反应的电子推动.md
+title: "题-088-ABOC-Ch1-1.3.1-2-写出以下反应的电子推动"
 type: 题目
-source: ABOC 第1章 自学练习（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 基础要求-有机化学
 submodule: Ch.1
-question_type: 机理书写题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 巩固
-exam_stage: 初赛
 syllabus_codes: ["31"]
-knowledge_points: ["[[晶体结构基础]]", "[[Lewis酸碱]]", "[[电子效应]]", "[[碳正离子]]"]
+knowledge_points: ["[[电子效应]]", "[[碳正离子]]"]
 tags: [化竞, ABOC, 有机化学]
-aliases: [ABOC-Ch1-1.3.1-2]
 updated: 2026-07-04
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第1章-绪论]]"
+aliases: [ABOC-Ch1-1.3.1-2]
+source: ABOC 第1章 自学练习（ARX's Basic Organic Chemistry 第3版）
+cross_references: ["[[04-题库/教材习题/ABOC/题-277-ABOC-Ch1-T2]]", "[[04-题库/教材习题/ABOC/题-186-ABOC-Ch1-1.2.2-6-从碳正离子共振式发现 α 位富电子 β位缺电子]]", "[[04-题库/教材习题/ABOC/题-298-ABOC-Ch1-T6]]", "[[04-题库/教材习题/ABOC/题-275-ABOC-Ch1-T7]]", "[[04-题库/教材习题/ABOC/题-279-ABOC-Ch1-T5]]"]
+module: 基础要求-有机化学
 status: 已填充
 ---
-
 # 题-088：写出以下反应的电子推动。
 
 > **来源**：ABOC 第1章 自学练习 1.3.1-2
@@ -45,8 +45,6 @@ status: 已填充
 ---
 
 ## 知识点
-
-- [[]]
 
 ---
 

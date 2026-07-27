@@ -1,27 +1,22 @@
 ---
-deprecated: true
-deprecatedDate: 2026-07-23
-sunsetDate: 2026-07-30
----
-﻿---
-title: 题-207-ABOC-Ch3-3.2.2-自己看书.md
+title: "题-207-ABOC-Ch3-3.2.2-自己看书"
 type: 题目
-source: ABOC 第3章 自学练习（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 基础要求-有机化学
 submodule: Ch.3
-question_type: 机理书写题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 巩固
-exam_stage: 初赛
 syllabus_codes: ["33"]
 knowledge_points: ["[[烯烃]]", "[[亲电加成]]", "[[Markovnikov规则]]"]
 tags: [化竞, ABOC, 有机化学]
-aliases: [ABOC-Ch3-3.2.2]
 updated: 2026-07-04
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第3章-烯烃加成]]"
+aliases: [ABOC-Ch3-3.2.2]
+source: ABOC 第3章 自学练习（ARX's Basic Organic Chemistry 第3版）
+cross_references: ["[[04-题库/教材习题/ABOC/题-109-ABOC-Ch3-3.1.1-在Clayden 教材中存在一个著名的错误]]", "[[04-题库/教材习题/ABOC/题-210-ABOC-Ch3-3.3.4-2-类似 Grob 碎裂化]]", "[[04-题库/教材习题/ABOC/题-208-ABOC-Ch3-3.2.3-这里只能反式消除 正负不要漏]]", "[[04-题库/教材习题/ABOC/题-209-ABOC-Ch3-3.3.4-1-无法形成形式上的二醇]]", "[[04-题库/教材习题/ABOC/题-211-ABOC-Ch3-3.6-环氧乙烷 硫化氢 然后与盐酸 ZnCl 反应即可自学练习 3]]"]
+module: 基础要求-有机化学
 status: 已填充
 ---
-
 # 题-207：自己看书！
 
 > **来源**：ABOC 第3章 自学练习 3.2.2
@@ -50,8 +45,6 @@ status: 已填充
 ---
 
 ## 知识点
-
-- [[]]
 
 ---
 

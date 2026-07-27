@@ -2,7 +2,7 @@
 title: 数据库（筛选/浏览/监控层）
 type: 系统
 role: 筛选/浏览/监控层（非真实源）
-updated: 2026-07-20
+updated: 2026-07-25
 tags: [系统, 数据库, 索引, 监控]
 ---
 
@@ -24,13 +24,27 @@ tags: [系统, 数据库, 索引, 监控]
 
 | 文件 | 说明 |
 |------|------|
+| **Dataview索引页** | |
 | `数据库-知识点.md` | 知识点索引（Dataview 查询） |
 | `数据库-真题.md` | 真题索引（按届次/题型） |
 | `数据库-工作流.md` | 工作流状态监控 |
 | `数据库-外部资料.md` | 外部资料索引 |
 | `片段-真题组卷面板.md` | 真题组卷看板 |
-| `*.base` | Dataview 原始查询文件 |
-| `*.json` | 质量指标、迁移报告等 |
+| **Obsidian Bases查询** | |
+| `知识点.base` | 知识点 Bases 查询 |
+| `真题.base` | 真题 Bases 查询 |
+| `工作流.base` | 工作流 Bases 查询 |
+| `外部资料.base` | 外部资料 Bases 查询 |
+| `课件.base` | 课件 Bases 查询 |
+| `活跃任务.base` | 活跃任务 Bases 查询 |
+| **基础设施产物** | |
+| `dependency-map.json` | 全库依赖关系图（1.8MB） |
+| `link_map_*.{csv,json}` | 链接映射/重写管线输出（6文件） |
+| `shell_triage_raw.csv` | 文件分诊原始数据 |
+| `quality-metrics.jsonl` | 质量指标 |
+| `stage-migration-*.json` | 迁移跟踪报告 |
+| `薄壳KP分诊表.md` | KP分诊操作清单 |
+| `待物理删除清单.md` | 待清理文件清单 |
 
 ## 与其他系统的连接
 

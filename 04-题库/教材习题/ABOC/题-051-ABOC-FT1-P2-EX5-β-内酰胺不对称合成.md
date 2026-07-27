@@ -1,23 +1,21 @@
 ---
 title: 题-051-ABOC-FT1-P2-EX5-β-内酰胺不对称合成
-aliases: [ABOC-FT1-P2-EX5]
 type: 题目
-exam_stage: 决赛
-year: 
-source: ABOC 第11章 方法学分析题（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 方法学分析
-question_type: 方法学分析题
+exam_stage: 决赛
+subject: 有机化学
 difficulty: 5
 teaching_level: 竞赛拔高
 syllabus_codes: ["27", "46"]
 knowledge_points: ["[[不对称合成]]", "[[立体化学]]", "[[缩合反应]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第11章-解题训练]]"
+aliases: [ABOC-FT1-P2-EX5]
+source: ABOC 第11章 方法学分析题（ARX's Basic Organic Chemistry 第3版）
+module: 有机化学
+status: 已填充
 ---
-
 # 题-051：β-内酰胺不对称合成
 
 ## 题目

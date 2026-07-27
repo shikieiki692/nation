@@ -1,23 +1,21 @@
----
+﻿---
 title: 题-076-ABOC-Ch7-7.2.1-1-D-A底物推断（六苯基苯）
-aliases: [ABOC-Ch7-7.2.1-1]
 type: 题目
-exam_stage: 初赛
-year: 
-source: ABOC 第7章 自学练习 7.2.1-1（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 基础概念
-question_type: 机理推断题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 4
 teaching_level: 拓展
 syllabus_codes: ["49"]
 knowledge_points: ["[[Diels-Alder反应]]", "[[共轭二烯]]", "[[逆向分析]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第7章-周环反应]]"
+aliases: [ABOC-Ch7-7.2.1-1]
+source: ABOC 第7章 自学练习 7.2.1-1（ARX's Basic Organic Chemistry 第3版）
+module: 有机化学
+status: 已填充
 ---
-
 # 题-076：D-A 底物推断（六苯基苯）
 
 ## 题目
@@ -40,7 +38,7 @@ updated: 2026-05-10
 
 | 关联 KP | 考查角度 | 直接/间接 |
 |---|---|:---:|
-| [[Diels-Alder反应]] | D-A 反应在构建六元环中的应用 | 直接 |
+| Diels-Alder反应 | D-A 反应在构建六元环中的应用 | 直接 |
 | [[共轭二烯]] | 四苯基环戊二烯酮作为二烯体 | 直接 |
 | [[逆向分析]] | 从产物反推底物的逆合成思维 | 直接 |
 

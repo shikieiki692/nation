@@ -1,23 +1,20 @@
 ---
-title: "pKa六大因素比较"
-aliases: ["题-有机-结构-01"]
+title: "题-有机-结构-pKa六大因素比较"
 type: 题目
-exam_stage: 初赛
-source: "专题页提炼"
-source_author: "资料提炼综合"
-subject: 有机化学
-module: 有机化学
 submodule: 有机结构基础与电子效应
-question_type: 机理题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["35"]
 knowledge_points: ["[[有机酸碱性]]", "[[诱导效应]]", "[[共振效应]]"]
 tags: [化竞, 题目, 有机化学, 第三轮]
-status: 已填充
 updated: 2026-06-06
+aliases: ["题-有机-结构-01"]
+source: "专题页提炼"
+module: 有机化学
+status: 已填充
 ---
-
 # pKa六大因素比较
 
 ## 题目

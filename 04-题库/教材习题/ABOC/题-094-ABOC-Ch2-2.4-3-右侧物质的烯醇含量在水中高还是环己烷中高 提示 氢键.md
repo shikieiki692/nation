@@ -1,22 +1,21 @@
 ---
-title: 题-094-ABOC-Ch2-2.4-3-右侧物质的烯醇含量在水中高还是环己烷中高 提示 氢键.md
+title: "题-094-ABOC-Ch2-2.4-3-右侧物质的烯醇含量在水中高还是环己烷中高 提示 氢键"
 type: 题目
-source: ABOC 第2章 自学练习（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 基础要求-有机化学
 submodule: Ch.2
-question_type: 机理书写题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 巩固
-exam_stage: 初赛
 syllabus_codes: ["32"]
-knowledge_points: ["[[基本反应]]", "[[氧化反应]]", "[[还原反应]]"]
+knowledge_points: ["[[烯醇-酮互变异构]]"]
 tags: [化竞, ABOC, 有机化学]
-aliases: [ABOC-Ch2-2.4-3]
 updated: 2026-07-04
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第2章-基本反应]]"
+aliases: [ABOC-Ch2-2.4-3]
+source: ABOC 第2章 自学练习（ARX's Basic Organic Chemistry 第3版）
+module: 基础要求-有机化学
 status: 已填充
 ---
-
 # 题-094：右侧物质的烯醇含量在水中高还是环己烷中高？提示：氢键。
 
 > **来源**：ABOC 第2章 自学练习 2.4-3
@@ -45,8 +44,6 @@ status: 已填充
 ---
 
 ## 知识点
-
-- [[]]
 
 ---
 

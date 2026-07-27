@@ -1,22 +1,20 @@
 ---
-title: "烯醇互变异构与α-H活性"
-aliases: []
+title: "题-有机-羰基-烯醇互变异构与α-H活性"
 type: 题目
-exam_stage: 初赛
-source: "Zchem基础有机化学-第10讲"
-subject: 有机化学
-module: 有机化学
 submodule: "羰基化学与缩合反应"
-question_type: 推断题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 强化
 syllabus_codes: []
 knowledge_points: ["[[烯醇互变异构]]", "[[α-H酸性]]", "[[烯醇负离子]]", "[[酮式-烯醇式平衡]]"]
 tags: [化竞, 题库, 教材习题, 有机化学]
 updated: 2026-07-09
+aliases: []
+source: "Zchem基础有机化学-第10讲"
+module: 有机化学
 status: 已填充
 ---
-
 # 烯醇互变异构与α-H活性
 
 ## 题目

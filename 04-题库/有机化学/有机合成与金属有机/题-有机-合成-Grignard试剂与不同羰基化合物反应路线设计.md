@@ -1,23 +1,20 @@
 ---
-title: "Grignard试剂与不同羰基化合物反应路线设计"
-aliases: ["题-有机-合成-01"]
+title: "题-有机-合成-Grignard试剂与不同羰基化合物反应路线设计"
 type: 题目
-exam_stage: 初赛
-source: "专题页提炼"
-source_author: "资料提炼综合"
-subject: 有机化学
-module: 有机化学
 submodule: 有机合成与金属有机
-question_type: 合成题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 4
 teaching_level: 强化
 syllabus_codes: ["44"]
 knowledge_points: ["[[Grignard试剂]]", "[[有机合成]]"]
 tags: [化竞, 题目, 有机化学, 第三轮]
-status: 已填充
 updated: 2026-06-06
+aliases: ["题-有机-合成-01"]
+source: "专题页提炼"
+module: 有机化学
+status: 已填充
 ---
-
 # Grignard 试剂与不同羰基化合物反应路线设计
 
 ## 题目

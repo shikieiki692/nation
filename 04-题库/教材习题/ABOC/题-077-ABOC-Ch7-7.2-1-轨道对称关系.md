@@ -1,23 +1,22 @@
----
+﻿---
 title: 题-077-ABOC-Ch7-7.2-1-轨道对称关系
-aliases: [ABOC-Ch7-7.2-1]
 type: 题目
-exam_stage: 初赛
-year: 
-source: ABOC 第7章 自学练习 7.2-1（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 基础概念
-question_type: 机理推断题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 4
 teaching_level: 拓展
 syllabus_codes: ["49", "22"]
 knowledge_points: ["[[前线轨道理论]]", "[[有机分子轨道]]", "[[Diels-Alder反应]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第7章-周环反应]]"
+aliases: [ABOC-Ch7-7.2-1]
+source: ABOC 第7章 自学练习 7.2-1（ARX's Basic Organic Chemistry 第3版）
+cross_references: ["[[04-题库/教材习题/ABOC/题-059-ABOC-Ch7-T3-周环反应综合热光选择性]]"]
+module: 有机化学
+status: 已填充
 ---
-
 # 题-077：轨道对称关系
 
 ## 题目
@@ -47,7 +46,7 @@ updated: 2026-05-10
 |---|---|:---:|
 | [[前线轨道理论]] | FMO 理论分析 D-A 反应 | 直接 |
 | [[分子轨道理论]] | 取代基对轨道能量的影响 | 直接 |
-| [[Diels-Alder反应]] | 正常与反转电子需求的 D-A 反应 | 直接 |
+| Diels-Alder反应 | 正常与反转电子需求的 D-A 反应 | 直接 |
 
 ## 解题思路
 

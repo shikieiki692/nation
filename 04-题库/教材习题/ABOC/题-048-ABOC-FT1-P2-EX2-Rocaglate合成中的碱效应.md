@@ -1,23 +1,21 @@
 ---
 title: 题-048-ABOC-FT1-P2-EX2-Rocaglate合成中的碱效应
-aliases: [ABOC-FT1-P2-EX2]
 type: 题目
-exam_stage: 决赛
-year: 
-source: ABOC 第11章 方法学分析题（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 方法学分析
-question_type: 方法学分析题
+exam_stage: 决赛
+subject: 有机化学
 difficulty: 4
 teaching_level: 竞赛拔高
 syllabus_codes: ["46", "39"]
 knowledge_points: ["[[缩合反应]]", "[[碳正离子]]", "[[重排反应]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第11章-解题训练]]"
+aliases: [ABOC-FT1-P2-EX2]
+source: ABOC 第11章 方法学分析题（ARX's Basic Organic Chemistry 第3版）
+module: 有机化学
+status: 已填充
 ---
-
 # 题-048：Rocaglate 合成中的碱效应
 
 ## 题目

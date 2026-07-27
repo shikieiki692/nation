@@ -1,22 +1,22 @@
 ---
-title: 题-124-ABOC-Ch4-4.6.2-写出环氧产物加入三苯基膦实现异构化的方法.md
+title: "题-124-ABOC-Ch4-4.6.2-写出环氧产物加入三苯基膦实现异构化的方法"
 type: 题目
-source: ABOC 第4章 自学练习（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 基础要求-有机化学
 submodule: Ch.4
-question_type: 机理书写题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 巩固
-exam_stage: 初赛
 syllabus_codes: ["34"]
-knowledge_points: ["[[取代反应]]", "[[消除反应]]", "[[SN1]]", "[[SN2]]"]
+knowledge_points: ["[[环氧化物开环]]", "[[立体化学]]"]
 tags: [化竞, ABOC, 有机化学]
-aliases: [ABOC-Ch4-4.6.2]
 updated: 2026-07-04
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第4章-取代与消除]]"
+aliases: [ABOC-Ch4-4.6.2]
+source: ABOC 第4章 自学练习（ARX's Basic Organic Chemistry 第3版）
+cross_references: ["[[04-题库/教材习题/ABOC/题-123-ABOC-Ch4-4.6.1-完成下列反应式 注意产物的立体化学]]"]
+module: 基础要求-有机化学
 status: 已填充
 ---
-
 # 题-124：写出环氧产物加入三苯基膦实现异构化的方法。
 
 > **来源**：ABOC 第4章 自学练习 4.6.2
@@ -45,8 +45,6 @@ status: 已填充
 ---
 
 ## 知识点
-
-- [[]]
 
 ---
 

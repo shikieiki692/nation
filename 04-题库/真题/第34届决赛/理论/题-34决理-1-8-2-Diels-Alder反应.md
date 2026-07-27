@@ -1,27 +1,20 @@
 ---
-title: 题-34决理-8-2-Diels-Alder反应
-aliases: []
+title: "题-34决理-1-8-2-Diels-Alder反应"
 type: 题目
-exam_stage: 决赛
-exam_type: 理论
-exam_session: 第一场
-year: 2020
-exam_date: 2020-11-16
-source: 第34届中国化学奥林匹克(决赛)试题-1
-subject: 有机化学
-module: 决赛要求
 submodule: 有机合成
-question_type: 综合题
+exam_stage: 决赛
+subject: 有机化学
 difficulty: 5
 teaching_level: 拔高
 syllabus_codes: []
-knowledge_points: [[Diels-Alder反应]], [[环加成]], [[捕获反应]], [[中间体]]
+knowledge_points: Diels-Alder反应, [[环加成]], [[捕获反应]], [[中间体]]
 tags: [化竞, 决赛, 理论, 有机化学]
 updated: 2020-11-16
-
+aliases: []
+source: 第34届中国化学奥林匹克(决赛)试题-1
+module: 决赛要求
 status: 已填充
 ---
-
 # 第 8 题 Diels-Alder反应 (4 分)
 
 8-2 化合物 5 在加热条件下发生[4+2]环加成反应, 形成活泼中间体 B, B 被氘代硫醚 PhSCD₃ 捕获得到氘代产物 6 和 7。画出 B 以及由 B 到产物 6 转化过程所经历的关键中间体的结构简式。
@@ -73,7 +66,7 @@ Diels-Alder 反应：
 
 ## 知识点映射
 
-- **直接 KP**：[[Diels-Alder反应]], [[环加成]], [[捕获反应]]
+- **直接 KP**：Diels-Alder反应, [[环加成]], [[捕获反应]]
 - **间接 KP**：[[双烯体]], [[亲双烯体]], [[立体化学]]
 - **跨学科连接**：
   - 有机合成 ↔ 周环反应

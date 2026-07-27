@@ -1,23 +1,22 @@
----
+﻿---
 title: 题-038-ABOC-FT0-Jack-Mutilin全合成
-aliases: [ABOC-FT0-Jack, Mutilin全合成, 罗佗平2022]
 type: 题目
-exam_stage: 决赛
-year: 
-source: ABOC 第11章 FINAL TEST 0 [Jack]（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 全合成
-question_type: 全合成推断题
+exam_stage: 决赛
+subject: 有机化学
 difficulty: 5
 teaching_level: 竞赛拔高
 syllabus_codes: ["50", "49", "46", "37"]
 knowledge_points: ["[[Aldol缩合]]", "[[Diels-Alder反应]]", "[[σ迁移反应]]", "[[光氧化还原催化]]", "[[联烯化学]]", "[[动力学同位素效应]]"]
 tags: [化竞, ABOC, 有机化学, 全合成, Mutilin, 选择性控制]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第11章-解题训练]]"
+aliases: [ABOC-FT0-Jack, Mutilin全合成, 罗佗平2022]
+source: ABOC 第11章 FINAL TEST 0 [Jack]（ARX's Basic Organic Chemistry 第3版）
+cross_references: ["[[04-题库/教材习题/ABOC/题-045-ABOC-FT1-P1-EX4-33重排DA串联]]"]
+module: 有机化学
+status: 已填充
 ---
-
 # 题-038：ABOC FINAL TEST 0 [Jack] — Mutilin 全合成分析（Luo, 2022）
 
 ## 题目
@@ -99,13 +98,13 @@ Mutilin 是一种双萜类真菌代谢产物，具有独特的 5-6-8 稠合骨�
 | 关联 KP | 考查角度 | 直接/间接 |
 |---|---|:---:|
 | [[Aldol缩合]] | J-3-2 过渡态控制手性 | 直接 |
-| [[Diels-Alder反应]] | 与 [3,3] 重排的串联策略 | 间接 |
+| Diels-Alder反应 | 与 [3,3] 重排的串联策略 | 间接 |
 | [[σ迁移反应]] | J-1-4 [3,3]-σ 重排构建稠环 | 直接 |
 | [[光氧化还原催化]] | Stream 部分（本题未直接考查）| 间接 |
 | [[联烯化学]] | J-1-2 联烯构建与立体控制 | 直接 |
 | [[动力学同位素效应]] | J-2-3 利用 KIE 抑制副反应 | 直接 |
 | [[立体化学]] | 全题贯穿：R/S、syn/anti、过渡态 | 直接 |
-| [[De Mayo反应]] | 逆合成切断策略 | 间接 |
+| De Mayo反应 | 逆合成切断策略 | 间接 |
 
 ---
 
@@ -142,5 +141,5 @@ Mutilin 是一种双萜类真菌代谢产物，具有独特的 5-6-8 稠合骨�
 ## 拓展阅读
 
 - **原始文献**：Luo group, Peking University, 2022 (Mutilin 全合成)
-- **相关 KP**：[[De Mayo反应]]、[[全合成策略]]、[[不对称合成]]
+- **相关 KP**：De Mayo反应、[[全合成策略]]、[[不对称合成]]
 - **B 站解析**：ArCHO 联考题目分析频道（搜索 "ABOC FINAL TEST 0 Jack"）

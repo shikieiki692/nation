@@ -1,22 +1,22 @@
 ---
-title: 题-102-ABOC-Ch2-2.7.4-1-以下物质的两个共振式谁更稳定 占据主导  为什么.md
+title: "题-102-ABOC-Ch2-2.7.4-1-以下物质的两个共振式谁更稳定 占据主导  为什么"
 type: 题目
-source: ABOC 第2章 自学练习（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 基础要求-有机化学
 submodule: Ch.2
-question_type: 机理书写题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 巩固
-exam_stage: 初赛
 syllabus_codes: ["32"]
-knowledge_points: ["[[基本反应]]", "[[氧化反应]]", "[[还原反应]]"]
+knowledge_points: ["[[电子效应]]", "[[碳正离子]]"]
 tags: [化竞, ABOC, 有机化学]
-aliases: [ABOC-Ch2-2.7.4-1]
 updated: 2026-07-04
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第2章-基本反应]]"
+aliases: [ABOC-Ch2-2.7.4-1]
+source: ABOC 第2章 自学练习（ARX's Basic Organic Chemistry 第3版）
+cross_references: ["[[04-题库/教材习题/ABOC/题-277-ABOC-Ch1-T2]]", "[[04-题库/教材习题/ABOC/题-186-ABOC-Ch1-1.2.2-6-从碳正离子共振式发现 α 位富电子 β位缺电子]]", "[[04-题库/教材习题/ABOC/题-298-ABOC-Ch1-T6]]", "[[04-题库/教材习题/ABOC/题-275-ABOC-Ch1-T7]]", "[[04-题库/教材习题/ABOC/题-279-ABOC-Ch1-T5]]"]
+module: 基础要求-有机化学
 status: 已填充
 ---
-
 # 题-102：以下物质的两个共振式谁更稳定（占据主导）？为什么？
 
 > **来源**：ABOC 第2章 自学练习 2.7.4-1
@@ -45,8 +45,6 @@ status: 已填充
 ---
 
 ## 知识点
-
-- [[]]
 
 ---
 

@@ -1,23 +1,21 @@
 ---
 title: 题-060-ABOC-Ch8-T3-金属催化综合偶联复分解
-aliases: [ABOC-Ch8-T3]
 type: 题目
-exam_stage: 决赛
-year: 
-source: ABOC 第8章 章末习题 T3（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 金属催化
-question_type: 合成设计题
+exam_stage: 决赛
+subject: 有机化学
 difficulty: 4
 teaching_level: 拓展
 syllabus_codes: ["50", "51"]
 knowledge_points: ["[[Suzuki偶联]]", "[[烯烃复分解]]", "[[过渡金属催化]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第8章-过渡金属催化]]"
+aliases: [ABOC-Ch8-T3]
+source: ABOC 第8章 章末习题 T3（ARX's Basic Organic Chemistry 第3版）
+module: 有机化学
+status: 已填充
 ---
-
 # 题-060：金属催化综合（偶联/复分解）
 
 ## 题目

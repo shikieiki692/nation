@@ -1,23 +1,22 @@
----
+﻿---
 title: 题-068-ABOC-Ch3-3.1.2-光学活性判断
-aliases: [ABOC-Ch3-3.1.2]
 type: 题目
-exam_stage: 初赛
-year: 
-source: ABOC 第3章 自学练习 3.1.2（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 基础概念
-question_type: 选择题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 入门
 syllabus_codes: ["27"]
-knowledge_points: ["[[立体化学]]", "[[手性]]", "[[立体化学]]"]
+knowledge_points: ["[[立体化学]]", "[[手性]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第3章-烯烃加成]]"
+aliases: [ABOC-Ch3-3.1.2]
+source: ABOC 第3章 自学练习 3.1.2（ARX's Basic Organic Chemistry 第3版）
+cross_references: ["[[04-题库/教材习题/ABOC/题-110-ABOC-Ch3-3.1-判断以下物质中所有手性中心的立体构型]]", "[[04-题库/教材习题/ABOC/题-123-ABOC-Ch4-4.6.1-完成下列反应式 注意产物的立体化学]]", "[[04-题库/教材习题/ABOC/题-114-ABOC-Ch3-3.3-2-写出存在碱时反式邻环戊二醇与四醋酸铅反应的机理]]", "[[04-题库/教材习题/ABOC/题-124-ABOC-Ch4-4.6.2-写出环氧产物加入三苯基膦实现异构化的方法]]", "[[04-题库/教材习题/ABOC/题-055-ABOC-Ch3-T3-特殊氧化烯烃邻二醇切断]]"]
+module: 有机化学
+status: 已填充
 ---
-
 # 题-068：光学活性判断
 
 ## 题目

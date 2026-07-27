@@ -1,31 +1,20 @@
 ---
-title: "题-025决-8：GIL催化Michael加成"
-aliases:
-  - 25届决赛-8
-  - Michael加成
-  - 胍盐离子液体
-  - 周环反应
-  - "1,5-H迁移"
+title: "题-025决-8-GIL催化Michael加成"
 type: 题目
-exam_stage: 决赛
-exam_type: 理论
-exam_session: 第一场
-year: 2011
-exam_date: 2011-12-03
-source: "第25届中国化学奥林匹克（决赛）第8题(12分)"
-subject: 有机化学
-module: 有机化学
 submodule: "有机合成与机理"
-question_type: 综合题
+exam_stage: 决赛
+subject: 有机化学
 difficulty: 4
 teaching_level: 挑战
 syllabus_codes: []
-knowledge_points: ["[[Michael加成]]", "[[胍盐离子液体]]", "[[Knoevenagel缩合]]", "[[周环反应]]", "[["1]]", "[[5-H迁移"]]"]
+knowledge_points: ["[[Michael加成]]", "[[胍盐离子液体]]", "[[Knoevenagel缩合]]", "[[周环反应]]", "[["1]]"]
 tags: [化竞, 真题, 25届, 决赛, 有机化学]
 updated: 2026-06-30
+aliases: - 25届决赛-8
+source: "第25届中国化学奥林匹克（决赛）第8题(12分)"
+module: 有机化学
 status: 已填充
 ---
-
 # 题-025决-8：GIL催化Michael加成
 
 ## 题目

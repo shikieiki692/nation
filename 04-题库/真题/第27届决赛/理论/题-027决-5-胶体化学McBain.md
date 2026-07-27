@@ -1,5 +1,5 @@
 ---
-title: "题-027决-5：胶体化学与McBain理论"
+title: "题-027决-5-胶体化学McBain"
 aliases: [27届决赛-5, 胶体化学McBain, 脂肪酸钠胶束]
 type: 题目
 exam_stage: 决赛

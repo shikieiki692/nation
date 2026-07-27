@@ -1,23 +1,21 @@
----
+﻿---
 title: 题-041-ABOC-FT0-Stream-光化学与自由基反应
-aliases: [ABOC-FT0-Stream]
 type: 题目
-exam_stage: 决赛
-year: 
-source: ABOC 第11章 机理/方法学综合题（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 光化学与自由基
-question_type: 机理书写题/方法学分析题/全合成推断题
+exam_stage: 决赛
+subject: 有机化学
 difficulty: 5
 teaching_level: 竞赛拔高
 syllabus_codes: ["30", "40", "49"]
 knowledge_points: ["[[光氧化还原催化]]", "[[自由基]]", "[[有机光化学]]", "[[Giese反应]]", "[[Norrish反应]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第11章-解题训练]]"
+aliases: [ABOC-FT0-Stream]
+source: ABOC 第11章 机理/方法学综合题（ARX's Basic Organic Chemistry 第3版）
+module: 有机化学
+status: 已填充
 ---
-
 # 题-041：光化学与自由基反应（Photoredox Catalysis）
 
 ## 题目
@@ -61,8 +59,8 @@ ST-3-2 如果把 H 到 I 的条件中 PhSO2OSO2Ph 换成 Ac2O，之后条件不�
 | [[光氧化还原催化]] | 光催化剂的设计与机理 | 直接 |
 | [[有机光化学]] | Jablonski 图、激发态电子构型 | 直接 |
 | [[自由基]] | Fe 催化的氢自由基转移 | 直接 |
-| [[Giese反应]] | 自由基对不饱和体系的共轭加成 | 间接 |
-| [[Norrish反应]] | 光化学引发的羰基化合物反应 | 间接 |
+| Giese反应 | 自由基对不饱和体系的共轭加成 | 间接 |
+| Norrish反应 | 光化学引发的羰基化合物反应 | 间接 |
 
 ## 解题思路
 

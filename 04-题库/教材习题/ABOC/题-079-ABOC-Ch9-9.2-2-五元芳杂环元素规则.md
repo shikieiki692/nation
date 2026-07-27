@@ -1,23 +1,21 @@
 ---
 title: 题-079-ABOC-Ch9-9.2-2-五元芳杂环元素规则
-aliases: [ABOC-Ch9-9.2-2]
 type: 题目
-exam_stage: 初赛
-year: 
-source: ABOC 第9章 自学练习 9.2-2（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 基础概念
-question_type: 机理推断题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["52"]
 knowledge_points: ["[[杂环化合物]]", "[[芳香性]]", "[[有机分子轨道]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第9章-杂环合成]]"
+aliases: [ABOC-Ch9-9.2-2]
+source: ABOC 第9章 自学练习 9.2-2（ARX's Basic Organic Chemistry 第3版）
+module: 有机化学
+status: 已填充
 ---
-
 # 题-079：五元芳杂环元素规则
 
 ## 题目

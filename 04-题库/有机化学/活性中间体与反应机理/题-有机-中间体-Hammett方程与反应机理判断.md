@@ -1,23 +1,20 @@
 ---
-title: "Hammett方程与反应机理判断"
-aliases: ["题-有机-中间体-06"]
+title: "题-有机-中间体-Hammett方程与反应机理判断"
 type: 题目
-exam_stage: 决赛
-source: "Zchem有机反应合成与机理"
-source_author: "Zchem进阶课提炼"
-subject: 有机化学
-module: 有机化学
 submodule: 活性中间体与反应机理
-question_type: 简答题
+exam_stage: 决赛
+subject: 有机化学
 difficulty: 5
 teaching_level: 强化
 syllabus_codes: ["49"]
 knowledge_points: ["[[Hammett方程]]", "[[取代基效应]]", "[[反应机理]]", "[[线性自由能关系]]"]
 tags: [化竞, 题目, 有机化学, 决赛]
-status: 已填充
 updated: 2026-07-10
+aliases: ["题-有机-中间体-06"]
+source: "Zchem有机反应合成与机理"
+module: 有机化学
+status: 已填充
 ---
-
 # Hammett方程与反应机理判断
 
 ## 题目

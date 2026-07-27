@@ -1,23 +1,20 @@
 ---
-title: "Wagner-Meerwein重排同位素标记追踪"
-aliases: ["题-有机-重排-04"]
+title: "题-有机-重排-WagnerMeerwein标记追踪"
 type: 题目
-exam_stage: 初赛
-source: "Zchem基础有机化学"
-source_author: "Zchem网课提炼"
-subject: 有机化学
-module: 有机化学
 submodule: 重排反应
-question_type: 跟踪题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 3
 teaching_level: 强化
 syllabus_codes: ["49"]
-knowledge_points: ["[[碳正离子重排]]", "[[WagnerMeerwein重排]]", "[[同位素标记]]"]
+knowledge_points: ["[[碳正离子]]", "[[WagnerMeerwein重排]]", "[[同位素标记]]"]
 tags: [化竞, 题目, 有机化学]
-status: 已填充
 updated: 2026-07-10
+aliases: ["题-有机-重排-04"]
+source: "Zchem基础有机化学"
+module: 有机化学
+status: 已填充
 ---
-
 # Wagner-Meerwein重排同位素标记追踪
 
 ## 题目

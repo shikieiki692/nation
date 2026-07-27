@@ -1,23 +1,21 @@
 ---
 title: 题-052-ABOC-FT1-P3-EX1-Nodulisporic-Acid-D全合成
-aliases: [ABOC-FT1-P3-EX1]
 type: 题目
-exam_stage: 决赛
-year: 
-source: ABOC 第11章 全合成推断题（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 全合成
-question_type: 全合成推断题
+exam_stage: 决赛
+subject: 有机化学
 difficulty: 5
 teaching_level: 竞赛拔高
 syllabus_codes: ["50", "52"]
 knowledge_points: ["[[烯烃复分解]]", "[[Fischer吲哚合成]]", "[[不对称合成]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第11章-解题训练]]"
+aliases: [ABOC-FT1-P3-EX1]
+source: ABOC 第11章 全合成推断题（ARX's Basic Organic Chemistry 第3版）
+module: 有机化学
+status: 已填充
 ---
-
 # 题-052：Nodulisporic Acid D 全合成
 
 ## 题目

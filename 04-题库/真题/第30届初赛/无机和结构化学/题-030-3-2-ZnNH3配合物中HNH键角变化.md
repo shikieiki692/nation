@@ -1,25 +1,20 @@
----
-title: "题-030-3-2：[Zn(NH₃)₆]²⁺中H-N-H键角变化解释"
-aliases: [30届初赛-3.2, ZnNH3配合物, HNH键角, VSEPR, 配位键]
+﻿---
+title: "题-030-3-2-ZnNH3配合物中HNH键角变化"
 type: 题目
-exam_stage: 初赛
-year: 2016
-exam_date: 2016-08-28
-source: "第30届中国化学奥林匹克（初赛）第3题第2小问"
-subject: 无机和结构化学
-module: 无机和结构化学
 submodule: ""
-question_type: 简答题
+exam_stage: 初赛
+subject: 无机和结构化学
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: []
-knowledge_points: ["[[VSEPR理论]]", "[[配位键]]", "[["VSEPR理论"]]", "[[HNH键角]]", "[["VSEPR理论"]]", "[[配合物]]"]
+knowledge_points: ["[[VSEPR理论]]", "[[配位键]]", "[[HNH键角]]", "[[配合物]]"]
 tags: [化竞, 真题, 30届, 元素化学]
-used_in: [配位化合物题组]
 updated: 2026-05-12
+aliases: [30届初赛-3.2, ZnNH3配合物, HNH键角, VSEPR, 配位键]
+source: "第30届中国化学奥林匹克（初赛）第3题第2小问"
+module: 无机和结构化学
 status: 已填充
 ---
-
 # 题-030-3-2：[Zn(NH₃)₆]²⁺中H-N-H键角变化解释
 
 ## 题目

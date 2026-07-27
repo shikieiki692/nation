@@ -1,23 +1,21 @@
 ---
 title: 题-073-ABOC-Ch5-5.3-SEAr定位规则
-aliases: [ABOC-Ch5-5.3]
 type: 题目
-exam_stage: 初赛
-year: 
-source: ABOC 第5章 自学练习 5.3（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 基础概念
-question_type: 产物预测题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 巩固
 syllabus_codes: ["41"]
 knowledge_points: ["[[芳香亲电取代反应]]", "[[SEAr定位规则]]", "[[共振论]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第5章-芳香与胺]]"
+aliases: [ABOC-Ch5-5.3]
+source: ABOC 第5章 自学练习 5.3（ARX's Basic Organic Chemistry 第3版）
+module: 有机化学
+status: 已填充
 ---
-
 # 题-073：SEAr 定位规则
 
 ## 题目

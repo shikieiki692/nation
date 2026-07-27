@@ -1,23 +1,21 @@
 ---
 title: 题-040-ABOC-FT0-Speed-Taxol全合成
-aliases: [ABOC-FT0-Speed]
 type: 题目
-exam_stage: 决赛
-year: 
-source: ABOC 第11章 全合成推断题（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 全合成
-question_type: 全合成推断题
+exam_stage: 决赛
+subject: 有机化学
 difficulty: 5
 teaching_level: 竞赛拔高
 syllabus_codes: ["50", "40", "37"]
 knowledge_points: ["[[炔烃]]", "[[烯烃复分解]]", "[[自由基]]", "[[保护基策略]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第11章-解题训练]]"
+aliases: [ABOC-FT0-Speed]
+source: ABOC 第11章 全合成推断题（ARX's Basic Organic Chemistry 第3版）
+module: 有机化学
+status: 已填充
 ---
-
 # 题-040：Taxol 全合成
 
 ## 题目

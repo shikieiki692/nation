@@ -1,23 +1,20 @@
 ---
-title: "Pinacol重排不对称底物判断"
-aliases: ["题-有机-重排-01"]
+title: "题-有机-重排-Pinacol重排不对称底物判断"
 type: 题目
-exam_stage: 初赛
-source: "专题页提炼"
-source_author: "资料提炼综合"
-subject: 有机化学
-module: 有机化学
 submodule: 重排反应
-question_type: 机理题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 4
 teaching_level: 强化
 syllabus_codes: ["46"]
-knowledge_points: ["[[1,2-迁移与重排]]", "[[Pinacol重排]]"]
+knowledge_points: ["[[Pinacol重排]]"]
 tags: [化竞, 题目, 有机化学, 第三轮]
-status: 已填充
 updated: 2026-06-06
+aliases: ["题-有机-重排-01"]
+source: "专题页提炼"
+module: 有机化学
+status: 已填充
 ---
-
 # Pinacol 重排不对称底物判断
 
 ## 题目

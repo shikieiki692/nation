@@ -1,22 +1,20 @@
 ---
-title: "芳香性物质判断"
-aliases: []
+title: "题-有机-结构-芳香性物质判断Hückel规则"
 type: 题目
-exam_stage: 初赛
-source: "Zchem基础有机化学-第15讲"
-subject: 有机化学
-module: 有机化学
 submodule: "有机结构基础与电子效应"
-question_type: 推断题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 强化
 syllabus_codes: []
 knowledge_points: ["[[芳香性]]", "[[Hückel规则]]", "[[共轭体系]]"]
 tags: [化竞, 题库, 教材习题, 有机化学]
 updated: 2026-07-09
+aliases: []
+source: "Zchem基础有机化学-第15讲"
+module: 有机化学
 status: 已填充
 ---
-
 # 芳香性物质判断
 
 ## 题目

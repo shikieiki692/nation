@@ -1,23 +1,21 @@
----
+﻿---
 title: 题-058-ABOC-Ch6-T3-缩合策略综合
-aliases: [ABOC-Ch6-T3]
 type: 题目
-exam_stage: 决赛
-year: 
-source: ABOC 第6章 章末习题 T3（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 缩合反应
-question_type: 合成设计题
+exam_stage: 决赛
+subject: 有机化学
 difficulty: 4
 teaching_level: 拓展
 syllabus_codes: ["45", "46"]
 knowledge_points: ["[[Aldol缩合]]", "[[Mannich反应]]", "[[Wittig反应]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第6章-缩合反应]]"
+aliases: [ABOC-Ch6-T3]
+source: ABOC 第6章 章末习题 T3（ARX's Basic Organic Chemistry 第3版）
+module: 有机化学
+status: 已填充
 ---
-
 # 题-058：缩合策略综合
 
 ## 题目
@@ -49,8 +47,8 @@ updated: 2026-05-10
 | 关联 KP | 考查角度 | 直接/间接 |
 |---|---|:---:|
 | [[Aldol缩合]] | 碳碳键形成与 α,β-不饱和羰基构建 | 直接 |
-| [[Mannich反应]] | β-氨基羰基的合成策略 | 直接 |
-| [[Wittig反应]] | 烯烃的精确构建与几何控制 | 直接 |
+| Mannich反应 | β-氨基羰基的合成策略 | 直接 |
+| Wittig反应 | 烯烃的精确构建与几何控制 | 直接 |
 
 ## 解题思路
 

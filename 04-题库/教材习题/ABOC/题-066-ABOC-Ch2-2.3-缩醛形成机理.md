@@ -1,23 +1,21 @@
 ---
 title: 题-066-ABOC-Ch2-2.3-缩醛形成机理
-aliases: [ABOC-Ch2-2.3]
 type: 题目
-exam_stage: 初赛
-year: 
-source: ABOC 第2章 自学练习 2.3（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 基础概念
-question_type: 机理推断题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 入门
 syllabus_codes: ["45"]
 knowledge_points: ["[[缩醛]]", "[[亲核加成]]", "[[酸催化]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第2章-基本反应]]"
+aliases: [ABOC-Ch2-2.3]
+source: ABOC 第2章 自学练习 2.3（ARX's Basic Organic Chemistry 第3版）
+module: 有机化学
+status: 已填充
 ---
-
 # 题-066：缩醛形成机理
 
 ## 题目

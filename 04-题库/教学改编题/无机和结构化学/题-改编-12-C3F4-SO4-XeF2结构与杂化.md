@@ -1,20 +1,20 @@
 ---
 title: "题-改编-12-C3F4-SO4-XeF2结构与杂化"
-aliases: ["改编-分子-26", "C3F4-SO4-XeF2结构与杂化"]
 type: 题目
+submodule: 分子结构
 exam_stage: 初赛
-source: "第一轮结构化学主讲义替换存档（2026-07-03）"
-chapter: 12
 subject: 无机和结构化学
-question_type: 简答题
 difficulty: 3
+teaching_level: 巩固
+syllabus_codes: []
 knowledge_points: ["[[Lewis结构式]]", "[[杂化轨道理论]]", "[[VSEPR理论]]"]
 tags: [化竞, 题库, 改编题, 分子结构, 结构化学]
 updated: 2026-07-04
+aliases: ["改编-分子-26", "C3F4-SO4-XeF2结构与杂化"]
+source: "第一轮结构化学主讲义替换存档（2026-07-03）"
+module: 分子结构
 status: 已填充
-syllabus_codes: []
 ---
-
 # 题-改编-12-C3F4-SO4-XeF2结构与杂化
 
 ## 题目

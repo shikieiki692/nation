@@ -1,23 +1,20 @@
----
-title: "Evans Aldol过渡态分析"
-aliases: ["题-有机-羰基-11"]
+﻿---
+title: "题-有机-羰基-Evans Aldol过渡态分析"
 type: 题目
-exam_stage: 决赛
-source: "Zchem有机反应合成与机理"
-source_author: "Zchem进阶课提炼"
-subject: 有机化学
-module: 有机化学
 submodule: 羰基化学与缩合反应
-question_type: 机理题
+exam_stage: 决赛
+subject: 有机化学
 difficulty: 5
 teaching_level: 强化
 syllabus_codes: ["49"]
 knowledge_points: ["[[Evans Aldol]]", "[[Zimmerman-Traxler模型]]", "[[硼烯醇盐]]", "[[手性辅基]]"]
 tags: [化竞, 题目, 有机化学, 决赛]
-status: 已填充
 updated: 2026-07-10
+aliases: ["题-有机-羰基-11"]
+source: "Zchem有机反应合成与机理"
+module: 有机化学
+status: 已填充
 ---
-
 # Evans Aldol过渡态分析
 
 ## 题目
@@ -109,7 +106,7 @@ Z-硼烯醇盐 + R'CHO 的椅式过渡态：
 
 ## 知识点映射
 
-- [[Evans Aldol]]
+- Evans Aldol
 - [[Zimmerman-Traxler模型]]
 - [[硼烯醇盐]]
 - [[手性辅基]]

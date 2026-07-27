@@ -8,7 +8,7 @@ source_type: 书籍
 subject: 决赛要求
 syllabus_stage: 决赛
 tags: [化竞, 资料提炼, Atkins, 物理化学, 固体物理, 晶体结构, 能带理论, X射线衍射, 半导体]
-target_kp: [["[[晶体结构基础]]", "[[离子晶体]]"]
+target_kp: ["[[晶体结构基础]]", "[[离子晶体]]"]
 syllabus_codes: [决赛02, 决赛03]
 knowledge_points: [固体物理性质]
 topics: []
@@ -174,3 +174,4 @@ handout_plan:
 - 建议将 [[晶体结构深化]] 的 prerequisite 设为 [[晶胞]]（初赛基础版）+ [[分子结构深化]]（MO理论），将 [[固体物理性质]] 的 prerequisite 设为 [[晶体结构深化]] + [[Boltzmann统计初步]]（Fermi-Dirac分布）。
 
 > 📎 相关专题：[[04-专题与题型/专题-晶体结构计算]] · [[04-专题与题型/专题-晶体与配合物深化]]
+

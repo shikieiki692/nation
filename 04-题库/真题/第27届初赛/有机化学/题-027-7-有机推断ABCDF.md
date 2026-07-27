@@ -1,24 +1,20 @@
----
-title: "题-027-7：有机推断ABCDF"
-aliases: [27届初赛-7, 有机推断, 臭氧化, 缩合, 还原]
+﻿---
+title: "题-027-7-有机推断ABCDF"
 type: 题目
-exam_stage: 初赛
-year: 2013
-exam_date: 2013-09-08
-source: "第27届中国化学奥林匹克（初赛）第7题(5分)"
-subject: 有机化学
-module: 有机化学
 submodule: "有机推断"
-question_type: 结构画图
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 基础
 syllabus_codes: []
 knowledge_points: ["[[臭氧化]]", "[[Jones氧化]]", "[[酯化]]", "[[缩合反应]]", "[[LiAlH4还原]]"]
 tags: [化竞, 真题, 27届, 有机化学]
 updated: 2026-06-30
+aliases: [27届初赛-7, 有机推断, 臭氧化, 缩合, 还原]
+source: "第27届中国化学奥林匹克（初赛）第7题(5分)"
+module: 有机化学
 status: 已填充
 ---
-
 # 题-027-7：有机推断ABCDF
 
 ## 题目

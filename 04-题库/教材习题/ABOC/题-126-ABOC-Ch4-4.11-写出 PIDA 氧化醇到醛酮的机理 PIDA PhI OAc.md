@@ -1,22 +1,22 @@
----
-title: 题-126-ABOC-Ch4-4.11-写出 PIDA 氧化醇到醛酮的机理 PIDA PhI OAc.md
+﻿---
+title: "题-126-ABOC-Ch4-4.11-写出 PIDA 氧化醇到醛酮的机理 PIDA PhI OAc"
 type: 题目
-source: ABOC 第4章 自学练习（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 基础要求-有机化学
 submodule: Ch.4
-question_type: 机理书写题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 巩固
-exam_stage: 初赛
 syllabus_codes: ["34"]
-knowledge_points: ["[[取代反应]]", "[[消除反应]]", "[[SN1]]", "[[SN2]]"]
+knowledge_points: ["[[氧化反应]]", "[[Swern氧化]]"]
 tags: [化竞, ABOC, 有机化学]
-aliases: [ABOC-Ch4-4.11]
 updated: 2026-07-04
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第4章-取代与消除]]"
+aliases: [ABOC-Ch4-4.11]
+source: ABOC 第4章 自学练习（ARX's Basic Organic Chemistry 第3版）
+cross_references: ["[[04-题库/教材习题/ABOC/题-118-ABOC-Ch4-4.2.1-二甲亚砜 DMSO 是有机化学中常用的有机氧化剂 可以在较温]]"]
+module: 基础要求-有机化学
 status: 已填充
 ---
-
 # 题-126：写出 PIDA 氧化醇到醛酮的机理。PIDA：PhI(OAc)2
 
 > **来源**：ABOC 第4章 自学练习 4.11
@@ -45,8 +45,6 @@ status: 已填充
 ---
 
 ## 知识点
-
-- [[]]
 
 ---
 

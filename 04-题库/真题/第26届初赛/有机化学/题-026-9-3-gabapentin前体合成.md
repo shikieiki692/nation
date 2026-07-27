@@ -1,24 +1,20 @@
----
-title: "题-026-9-3：gabapentin前体合成"
-aliases: [26届初赛-9.3, gabapentin, 逆合成分析]
+﻿---
+title: "题-026-9-3-gabapentin前体合成"
 type: 题目
-exam_stage: 初赛
-year: 2012
-exam_date: 2012-09-02
-source: "第26届中国化学奥林匹克（初赛）第9题第(9-3)小问"
-subject: 有机化学
-module: 有机化学
 submodule: "有机合成·逆合成"
-question_type: 结构题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 3
 teaching_level: 基础
 syllabus_codes: []
 knowledge_points: ["[[逆合成分析]]", "[[Knoevenagel]]", "[[gabapentin]]"]
 tags: [化竞, 真题, 26届, 有机化学]
 updated: 2026-06-30
+aliases: [26届初赛-9.3, gabapentin, 逆合成分析]
+source: "第26届中国化学奥林匹克（初赛）第9题第(9-3)小问"
+module: 有机化学
 status: 已填充
 ---
-
 # 题-026-9-3：gabapentin前体合成
 
 ## 题目

@@ -1,23 +1,21 @@
 ---
 title: 题-043-ABOC-FT1-P1-EX2-Cu催化烯醇自由基
-aliases: [ABOC-FT1-P1-EX2]
 type: 题目
-exam_stage: 决赛
-year: 
-source: ABOC 第11章 机理书写题（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 有机化学
 submodule: 自由基化学
-question_type: 机理书写题
+exam_stage: 决赛
+subject: 有机化学
 difficulty: 4
 teaching_level: 竞赛拔高
 syllabus_codes: ["40", "46"]
 knowledge_points: ["[[烯醇]]", "[[自由基]]", "[[铜催化]]"]
 tags: [化竞, ABOC, 有机化学]
-status: 已填充
 updated: 2026-05-10
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第11章-解题训练]]"
+aliases: [ABOC-FT1-P1-EX2]
+source: ABOC 第11章 机理书写题（ARX's Basic Organic Chemistry 第3版）
+module: 有机化学
+status: 已填充
 ---
-
 # 题-043：Cu 催化烯醇自由基
 
 ## 题目

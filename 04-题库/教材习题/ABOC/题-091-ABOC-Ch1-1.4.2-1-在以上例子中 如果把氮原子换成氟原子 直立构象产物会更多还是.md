@@ -1,22 +1,21 @@
 ---
-title: 题-091-ABOC-Ch1-1.4.2-1-在以上例子中 如果把氮原子换成氟原子 直立构象产物会更多还是.md
+title: "题-091-ABOC-Ch1-1.4.2-1-在以上例子中 如果把氮原子换成氟原子 直立构象产物会更多还是"
 type: 题目
-source: ABOC 第1章 自学练习（ARX's Basic Organic Chemistry 第3版）
-subject: 有机化学
-module: 基础要求-有机化学
 submodule: Ch.1
-question_type: 机理书写题
+exam_stage: 初赛
+subject: 有机化学
 difficulty: 2
 teaching_level: 巩固
-exam_stage: 初赛
 syllabus_codes: ["31"]
-knowledge_points: ["[[晶体结构基础]]", "[[Lewis酸碱]]", "[[电子效应]]", "[[碳正离子]]"]
+knowledge_points: ["[[构象分析]]", "[[超共轭效应]]"]
 tags: [化竞, ABOC, 有机化学]
-aliases: [ABOC-Ch1-1.4.2-1]
 updated: 2026-07-04
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第1章-绪论]]"
+aliases: [ABOC-Ch1-1.4.2-1]
+source: ABOC 第1章 自学练习（ARX's Basic Organic Chemistry 第3版）
+module: 基础要求-有机化学
 status: 已填充
 ---
-
 # 题-091：在以上例子中，如果把氮原子换成氟原子，直立构象产物会更多还是更少？
 
 > **来源**：ABOC 第1章 自学练习 1.4.2-1
@@ -45,8 +44,6 @@ status: 已填充
 ---
 
 ## 知识点
-
-- [[]]
 
 ---
 

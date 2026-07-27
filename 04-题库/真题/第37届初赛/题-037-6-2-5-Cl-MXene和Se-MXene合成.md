@@ -1,5 +1,5 @@
 ---
-title: "题-037-6-2-5：Cl-MXene和Se-MXene合成"
+title: "题-037-6-2-5-Cl-MXene和Se-MXene合成"
 aliases: [37届初赛-6.2.5]
 type: 题目
 exam_stage: 初赛
