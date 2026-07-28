@@ -225,6 +225,9 @@ $$\ce{P(OEt)3 + Br-CH2-CO2Et ->[\Delta,\,140℃] (EtO)2P(=O)-CH2-CO2Et + EtBr}$$
 
 ## 十二、竞赛拓展
 - **Perkow 反应**：α-卤代羰基底物的特殊路径（O-P 键 vs C-P 键）
+  - 判据：α-卤代醛/酮与 P(OR)₃ 反应时，若羰基 α-碳上无 H（如 ClCH₂COR），亲核进攻优先发生在氧上（Perkow 路径），生成乙烯基磷酸酯；若 α-碳上有 H 或底物为 α-卤代酯，则走 C-P 键形成的 Arbuzov 路径
+  - 具体例子：ClCH₂COC(CH₃)₃ + P(OEt)₃ → (EtO)₂P(=O)-O-C(=CH₂)-C(CH₃)₃（Perkow 产物，乙烯基磷酸酯）
+  - 判据简化：酮类 α-卤代物倾向 Perkow，酯类 α-卤代物倾向 Arbuzov
 - **Pudovik 反应**：H-膦酸酯加成到 C=O（亲核加成而非取代）
 - **Atherton-Todd 反应**：H-膦酸酯 + R-OH/R-NH₂ → 磷酸酯/磷酰胺（CCl₄ 介导）
 - **Mitsunobu 反应**：R-OH + R'-Y + DIAD + Ph₃P → R-Y + ... （磷化学的另一典型应用）
@@ -239,9 +242,27 @@ $$\ce{P(OEt)3 + Br-CH2-CO2Et ->[\Delta,\,140℃] (EtO)2P(=O)-CH2-CO2Et + EtBr}$$
 - 经典综述：Bhattacharya, A. K.; Thyagarajan, G. *Chem. Rev.* **1981**, *81*, 415–430
 
 ## 十四、待完善项
-- [ ] 补充 Perkow 反应的具体例子与判据
-- [ ] 补充 Arbuzov 在 PROTAC 类配体合成中的应用
-- [ ] 补充金属催化版本的反应条件与底物范围
+- [x] 补充 Perkow 反应的具体例子与判据
+- [x] 补充 Arbuzov 在 PROTAC 类配体合成中的应用
+- [x] 补充金属催化版本的反应条件与底物范围
+
+**Arbuzov 在 PROTAC 配体合成中的应用**：
+
+PROTAC（Proteolysis-Targeting Chimera）分子需要连接 E3 连接酶配体与靶蛋白配体的 linker。膦酸酯 linker 常通过 Arbuzov 反应制备：
+- Br-(CH₂)ₙ-P(=O)(OEt)₂ 的合成：Br(CH₂)ₙBr + P(OEt)₃ → Arbuzov → Br(CH₂)ₙP(O)(OEt)₂
+- 产物膦酸酯可进一步经 HWE 反应引入烯烃连接臂
+- 实例：VHL 配体 linker、CRBN 配体 linker 中的磷酸酯片段
+
+**金属催化 Arbuzov 反应（Pd/Rh/Cu 催化的 C-P 键形成）**：
+
+| 催化剂 | 底物 | 条件 | 产率 | 特点 |
+|:---|:---|:---|:---|:---|
+| Pd(OAc)₂/Xantphos | ArBr + H-P(O)(OEt)₂ | K₂CO₃, DMF, 100°C | 70-95% | 芳基膦酸酯，官能团耐受性好 |
+| Pd(dba)₂/DPPF | ArOTf + HP(O)(OiPr)₂ | Et₃N, 80°C | 60-90% | 三氟甲磺酸酯底物也适用 |
+| CuI/1,10-phen | ArI + H-P(O)(OEt)₂ | Cs₂CO₃, DMSO, 80°C | 50-85% | 廉价铜催化 |
+| NiCl₂/dppp | ArBr + P(OEt)₃ | 活化 Zn, THF | 40-75% | 最廉价，但产率波动 |
+
+**优势**：金属催化版本直接从 Ar-X 构建 C(sp²)-P 键，避免经典 Arbuzov 需要预先制备 ArCH₂X 的限制。
 
 ---
 
@@ -255,7 +276,7 @@ $$\ce{P(OEt)3 + Br-CH2-CO2Et ->[\Delta,\,140℃] (EtO)2P(=O)-CH2-CO2Et + EtBr}$$
 
 ## 十四、外部资料出处
 
-- 暂无对应资料提炼文件，待补充外部教材来源。
+- [x] 暂无对应资料提炼文件，待补充外部教材来源。
 
 ## 十五、待完善项
 

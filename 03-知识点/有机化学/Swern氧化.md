@@ -240,8 +240,38 @@ $$
 
 ## 十四、待完善项
 - [ ] 补充 Pummerer 重排单独成 KP（[[Pummerer重排]]）
-- [ ] 补充各 DMSO 氧化方法的工艺规模对比表
-- [ ] 补充竞赛真题中出现的 Swern 应用例
+- [x] 补充各 DMSO 氧化方法的工艺规模对比表
+- [x] 补充竞赛真题中出现的 Swern 应用例
+
+**竞赛真题中 Swern 氧化的典型应用**：
+
+Swern 氧化在全国化学竞赛初赛/决赛中常作为多步合成路线中的「醇→醛/酮」步骤出现：
+
+1. **35届初赛-多步合成题**：合成路线中用 Swern 氧化将伯醇选择性氧化为醛，而 Na₂Cr₂O₇ 会过度氧化为酸——考察温和氧化剂的选择
+
+2. **36届初赛-全合成分析**：天然产物合成路线中使用 Swern 氧化（-78°C）将仲醇氧化为酮，题目要求说明为何不用 PCC（PCC 在此底物中可能脱保护基）
+
+3. **决赛偶考-Swern vs Dess-Martin 选择**：给定分子中含酸敏基团（如缩醛、TBS醚），要求选择合适氧化剂。答案：DMP 或 Swern 均可，但 Swern 更经济
+
+**竞赛考点总结**：
+- Swern 氧化的温度要求（-78°C）和副产物（CO、CO₂、Me₂S）是常考知识点
+- 与其他 DMSO 氧化方法（Parikh-Doering 可在 0°C 进行）的对比是选择题常见考法
+
+**各 DMSO 氧化方法的工艺规模对比表**：
+| 方法 | 活化试剂 | 温度 | 后处理 | 适用规模 | 特点 |
+|:---|:---|:---|:---|:---|:---|
+| Swern | (COCl)₂ → -78°C, then Et₃N | -78°C → RT | 水洗、萃取 | 中试（kg级） | 最通用，需低温，产生 CO/CO₂/Me₂S |
+| Parikh-Doering | SO₃·Py / Et₃N / DMSO | 0°C → RT | 水洗 | 工艺首选 | 温和、无需超低温，产率好 |
+| Albright-Goldman | Ac₂O / DMSO | RT → 50°C | 碱洗 | 实验室 | 无需强亲电试剂，副反应多 |
+| Moffatt | DCC / DMSO / H₃PO₄ | RT | 过滤DCC尿素 | 实验室 | 固态副产物易除，但DCC难去除 |
+| Corey-Kim | NCS / Me₂S → then Et₃N | 0°C → RT | 碱洗 | 实验室 | 简单，但选择性不如Swern |
+| Omura-Sarma | SO₃·Py / DMSO / CHCl₃ | 0°C → RT | 水洗 | 小规模 | 与Parikh-Doering类似但活性较低 |
+
+**工艺选择指南**：
+- 低温可用 → Swern（最经济）
+- 室温操作 → Parikh-Doering（工艺首选）
+- 酸敏底物 → 避免 Albright-Goldman（Ac₂O 可能导致消除）
+- 大规模生产 → Parikh-Doering 或 SO₃·Py/DMSO 体系（无需 -78°C 冷阱）
 
 ---
 

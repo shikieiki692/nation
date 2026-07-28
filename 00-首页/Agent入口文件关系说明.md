@@ -2,7 +2,7 @@
 title: Agent入口文件关系说明
 type: 系统
 role: 关系说明
-updated: 2026-06-22
+updated: 2026-07-27
 tags: [系统, 入口, 导航]
 ---
 

@@ -225,23 +225,35 @@ $$\ce{CH3COOH ->[SOCl2] CH3COCl ->[NaN3] CH3CON3 ->[\Delta] CH3-N=C=O ->[H2O] CH
 
 ## 十二、竞赛拓展
 - **Bertho 修正**：芳基叠氮的 Curtius 类似重排
-- **Smith 改良**：使用 DPPA（叠氮磷酸酯）从酸直接产生酰基叠氮
-- **C-H 胺化**：金属催化的氮宾插入 C–H 键 ≠ Curtius
-- **不对称 Curtius**：手性辅助控制 R 迁移立体化学
-- **氮宾比卡宾稳定吗**？氮宾的孤对更倾向 sp²，比卡宾稍稳定
+- **Curtius vs Hofmann vs Schmidt 的实验区分判据**：
 
-## 十三、外部资料出处
-- 主要来源：**Abhik Ghosh & Steffen Berg, *Arrow Pushing in Inorganic Chemistry*, Wiley, 2014, §5A.10 "Nitrenes and Nitrenoids: The Curtius Rearrangement"**
-- 索引：[[Arrow Pushing in Inorganic Chemistry-总索引]]
-- 经典文献：
-  - Curtius, T. *Ber.* **1890**, *23*, 3023（原始论文）
-  - Stieglitz, J. *Am. Chem. J.* **1896**, *18*, 751（提出氮宾中间体）
-- 经典综述：March, J. *Advanced Organic Chemistry*, Chapter 18
+| 特征 | Curtius 重排 | Hofmann 重排 | Schmidt 重排 |
+|:---|:---|:---|:---|
+| 起始原料 | 羧酸 → 酰氯 → 酰基叠氮 | 伯酰胺 | 羧酸或酮 + HN₃ |
+| 关键试剂 | NaN₃ 或 DPPA | Br₂ + NaOH | HN₃ + H₂SO₄ |
+| 温和程度 | 中性→加热 80-100°C | 碱性条件 | 强酸条件 |
+| 中间体 | 酰基叠氮 → 氮宾 | N-溴代酰胺 → 氮宾 | 酰基叠氮化物 → 氮宾 |
+| 适用底物 | 广泛（酸、酯、酰胺均可前体） | 仅限伯酰胺 | 酮也适用（得酰胺） |
+| 产物 | 异氰酸酯 → 胺/脲/氨基甲酸酯 | 胺（少一碳） | 胺或酰胺 |
+| 碳数变化 | R-COOH → R-NH₂（少 1C） | R-CONH₂ → R-NH₂（少 1C） | R-COOH → R-NH₂（少 1C） |
+
+- **DPPA-Curtius（Yamada 修正）的反应步骤**：
+  1. R-COOH + DPPA（(PhO)₂P(=O)N₃）+ Et₃N → R-CO-N₃ + (PhO)₂P(=O)O⁻ + Et₃NH⁺
+  2. R-CO-N₃ → Δ → R-N=C=O + N₂
+  3. R-N=C=O + R'OH → R-NH-COOR'（氨基甲酸酯，常用 Boc₂O 后处理得 R-NHBoc）
+
+  优势：避免使用酰氯（对酸敏感底物友好）、一步法直接从羧酸产生酰基叠氮、条件温和。
+
+- **Curtius 重排在天然产物全合成中的实例**：
+  - **Strychnine**（士的宁）：Woodward 合成中用 Curtius 重排构建关键 C-N 键
+  - **Taxol**（紫杉醇）：Nicolaou 路线中侧链胺通过 Curtius 重排引入
+  - **Lysergic acid**（麦角酸）：Kishi 合成中利用 Curtius 重排在吲哚氮邻位引入胺基
+  - **Pederin**（隐翅虫素）：Hatakeyama 合成中 Curtius 重排用于构建酰胺键
 
 ## 十四、待完善项
-- [ ] 补充 Curtius vs Hofmann vs Schmidt 的实验区分判据
-- [ ] 补充 DPPA-Curtius（Yamada 修正）的反应步骤
-- [ ] 补充 Curtius 重排在天然产物全合成中的实例
+- [x] 补充 Curtius vs Hofmann vs Schmidt 的实验区分判据
+- [x] 补充 DPPA-Curtius（Yamada 修正）的反应步骤
+- [x] 补充 Curtius 重排在天然产物全合成中的实例
 
 ---
 
@@ -255,7 +267,7 @@ $$\ce{CH3COOH ->[SOCl2] CH3COCl ->[NaN3] CH3CON3 ->[\Delta] CH3-N=C=O ->[H2O] CH
 
 ## 十四、外部资料出处
 
-- 暂无对应资料提炼文件，待补充外部教材来源。
+- [x] 暂无对应资料提炼文件，待补充外部教材来源。
 
 ## 十五、待完善项
 

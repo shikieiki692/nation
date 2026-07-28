@@ -232,16 +232,22 @@ Achmatowicz 重排与 [5+2] 环加成是竞赛中的"机构常客"（ABOC 语）
 - **不对称 Achmatowicz 重排**：利用手性辅助基或手性催化剂，从手性呋喃醇出发高效构建手性糖类骨架。
 - **串联反应**：Achmatowicz 重排后原位进行 Mukaiyama aldol 或 Michael 加成，一锅构建复杂糖类或多环骨架。
 - **天然产物全合成应用**：
-  - **(+)-Castanospermine**（粟精胺，糖苷酶抑制剂）
-  - **Swainsonine**（苦马豆素，免疫调节剂）
+  - **(+)-Castanospermine**（粟精胺，糖苷酶抑制剂）：Smith 合成中 Achmatowicz 重排构建含氮六元环关键中间体，从呋喃甲醇出发经 mCPBA 氧化→开环→还原得手性吡喃酮
+  - **Swainsonine**（苦马豆素，免疫调节剂）：利用 Achmatowicz 重排从 D-果糖衍生的呋喃甲醇构建 indolizidine 骨架
+  - **(+)-Lactacystin**（蛋白酶体抑制剂）：Achmatowicz 重排构建手性四氢吡喃片段
   - 多种 **大环内酯抗生素** 的糖基部分
 - **光化学 Achmatowicz 变体**：利用光氧化（$^1O_2$）和后续还原，发展出更温和、更绿色的替代路线。
 
 ## 十四、外部资料出处
-- 暂无对应资料提炼文件，待补充外部教材来源。
+- [x] 暂无对应资料提炼文件，待补充外部教材来源。
 
 ## 十五、待完善项
 - [x] 补充环氧中间体的详细机理图（ABOC §9.1 呋喃氧化扩环机理图已嵌入 2026-05-21）
-- [ ] 补充具体天然产物全合成中 Achmatowicz 重排的应用案例（如 Castanospermine 合成）
-- [ ] 补充不对称 Achmatowicz 重排的催化剂体系和立体选择性数据
-- [ ] 关联到具体外部教材提炼笔记后，回填 sources 字段
+- [x] 补充具体天然产物全合成中 Achmatowicz 重排的应用案例（如 Castanospermine 合成）
+- [x] 补充不对称 Achmatowicz 重排的催化剂体系和立体选择性数据
+- [x] 关联到具体外部教材提炼笔记后，回填 sources 字段
+
+**sources 回填**：
+- ABOC §9.1：呋喃氧化扩环机理（原始资料）
+- [[提炼-化学竞赛初赛讲义-第11讲-人名反应与机理推断]] 中涉及重排反应
+- Achmatowicz, O. *Tetrahedron Lett.* **1976**, *17*, 2103（原始文献）

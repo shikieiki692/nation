@@ -282,6 +282,63 @@ $$\mathrm{MnO_4^- \xrightarrow{+0.56} MnO_4^{2-} \xrightarrow{+0.60} MnO_2}$$
 - [[专题-氧化还原与电化学]]
 - [[专题-电化学计算]]
 
-## 十五、待完善项
-- [ ] 补充更多元素的 Latimer 图实例（Mn、N、S 等）
-- [ ] 关联真题中涉及 Latimer 图判断的例题
+## 十五、竞赛实例补充：重要元素 Latimer 图
+
+> 以下数据来自标准热力学表（298.15 K，酸性溶液 pH = 0）。竞赛中常需从 Latimer 图判断歧化/反歧化、计算未知电位或绘制对应 Frost 图。
+
+### 15.1 锰（Mn）—— 酸性溶液
+
+$$
+\mathrm{MnO_4^- \xrightarrow{+0.564} MnO_4^{2-} \xrightleftharpoons[歧化]{+2.26} MnO_2 \xrightarrow{+0.95} Mn^{3+} \xrightarrow{+1.51} Mn^{2+} \xrightarrow{-1.18} Mn}
+$$
+
+**竞赛要点**：
+- $\mathrm{MnO_4^{2-}}$ 在酸性中歧化（$E_右 = +2.26 > E_左 = +0.564$）
+- $\mathrm{Mn^{3+}}$ 在酸性中歧化（$E_右 = +1.51 > E_左 = +0.95$）→ 水溶液中 $\mathrm{Mn^{3+}}$ 极不稳定
+- $\mathrm{Mn^{2+}}$ 最稳定（$d^5$ 半满，CFSE = 0 但交换能最大）
+- 计算 $E^\ominus(\mathrm{MnO_4^-/Mn^{2+}})$：用加权平均 $E = (1×0.564 + 1×2.26 + 1×0.95 + 1×1.51 + 5×(-1.18)) / 5 = +0.74\,\mathrm{V}$（竞赛常考！）
+
+### 15.2 氮（N）—— 酸性溶液
+
+$$
+\mathrm{NO_3^- \xrightarrow{+0.80} N_2O_4 \xrightarrow{+1.07} HNO_2 \xrightarrow{+1.00} NO \xrightarrow{+1.59} N_2O \xrightarrow{+1.77} N_2 \xrightarrow{-3.04} N_2H_5^+ \xrightarrow{-0.23} NH_3OH^+ \xrightarrow{+1.28} N_2H_5^+}
+$$
+
+简化常用片段（碱性溶液 pH = 14）：
+$$
+\mathrm{NO_3^- \xrightarrow{+0.01} NO_2^- \xrightarrow{-0.46} NO \xrightarrow{-0.16} N_2O \xrightarrow{+0.94} N_2 \xrightarrow{-3.04} NH_3}
+$$
+
+**竞赛要点**：
+- $\mathrm{HNO_2}$ 在酸性中歧化倾向不大（$E_右(+1.00) < E_左(+1.07)$），但 $\mathrm{NO}$ 可歧化（$E_右(+1.59) > E_左(+1.00)$）
+- $\mathrm{N_2}$ 处于深低谷 → 极稳定 → 氮气的化学惰性
+- 碱性中 $\mathrm{NO_2^-}$ 有歧化倾向（$E_右(-0.46) < E_左(+0.01)$ → 不歧化），但 $\mathrm{N_2O}$ 歧化（$E_右(+0.94) > E_左(-0.16)$）
+
+### 15.3 硫（S）—— 酸性溶液
+
+$$
+\mathrm{SO_4^{2-} \xrightarrow{-0.22} S_2O_6^{2-} \xrightarrow{+0.57} H_2SO_3 \xrightarrow{+0.60} H_2S_2O_3 \xrightarrow{+0.60} S \xrightarrow{+0.14} H_2S}
+$$
+
+**竞赛要点**：
+- $\mathrm{H_2SO_3}$ 和 $\mathrm{S}$ 之间存在多个中间态，$\mathrm{S_2O_3^{2-}}$（硫代硫酸根）可歧化
+- $\mathrm{S}$ 在酸性中对 $\mathrm{H_2S}$ 的电位仅 $+0.14\,\mathrm{V}$，氧化性很弱
+- 亚硫酸/连二亚硫酸体系在工业漂白和分析化学中应用广泛
+
+## 十七、Latimer 图竞赛真题
+
+**例题 1**（类国初）：已知酸性溶液中溴的 Latimer 图：
+$$\ce{BrO4- ->[+1.82] BrO3- ->[+1.50] HBrO ->[+1.60] Br2 ->[+1.07] Br-}$$
+判断 $\ce{HBrO}$ 在酸性条件下是否发生歧化反应。
+
+**解答**：HBrO 左侧电位 (+1.50 V) < 右侧电位 (+1.60 V)，右高左低，HBrO 发生歧化：
+$$\ce{5HBrO -> 2Br2 + BrO3- + 3H2O + H+}$$
+
+**例题 2**（类国决）：利用上述溴的 Latimer 图，求 $\ce{BrO3- / Br-}$ 电对的标准电位。
+
+**解答**：$\ce{BrO3- -> HBrO}$ 转移 4e⁻，$\ce{HBrO -> Br2}$ 转移 1e⁻，$\ce{Br2 -> Br-}$ 转移 1e⁻。但需注意 Br₂ 是双原子分子。
+$$E^\circ = \frac{4 \times 1.50 + 1 \times 1.60 + 1 \times 1.07}{6} = \frac{6.0 + 1.60 + 1.07}{6} = \frac{8.67}{6} = +1.45\,\mathrm{V}$$
+
+## 十八、待完善项
+- [x] 补充更多元素的 Latimer 图实例（Mn、N、S 等）——已补充 §十五
+- [x] 关联真题中涉及 Latimer 图判断的例题 — 见§十七

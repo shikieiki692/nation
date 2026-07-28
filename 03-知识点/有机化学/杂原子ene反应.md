@@ -260,9 +260,32 @@ source_extracts:
 
 ## 十五、待完善项
 
-- [ ] 补充更多杂原子 Ene 的具体反应方程式
+- [x] 补充更多杂原子 Ene 的具体反应方程式
 - [ ] 补充初赛/决赛真题中的杂原子 Ene 案例
-- [ ] 评估是否需要配图（杂原子 Ene 过渡态示意图）
+- [x] 评估是否需要配图（杂原子 Ene 过渡态示意图）
+  > 结论：需要配图。Ene反应的六元环椅式过渡态需示意图。
+
+**杂原子 Ene 反应具体方程式补充**：
+
+1. **氧杂 Ene（羰基 ene）**：
+(CH₃)₂C=CHCH₃ + HCHO → Lewis acid (SnCl₄) → (CH₃)₂C(OH)CH=CHCH₃（烯丙醇产物）
+应用：工业上合成香茅醛/薄荷醇的关键步骤（Prins-ene 串联）。
+
+2. **氮杂 Ene（亚胺 ene）**：
+R₂C=CHCH₃ + TsN=CHR' → Lewis acid → R₂C(NHTs)CH=CHR'（烯丙胺产物）
+应用：亚胺作为 enophile 的 Ene 反应，用于 β-氨基酸合成。
+
+3. **硝基烯 Ene**：
+(CH₃)₂C=CH₂ + CH₂=CHNO₂ → Δ → (CH₃)₂C(CH₂NO₂)CH=CH₂
+应用：硝基烯作为 enophile，产物可还原为 γ-氨基酸。
+
+4. **磺酰基 Ene**：
+PhSO₂CH=CH₂ + (CH₃)₂C=CH₂ → Lewis acid → PhSO₂-烯丙基化产物
+应用：砜基引入后可经 Julia 成烯反应转化。
+
+5. **氧杂 Ene 的工业应用——Prins-ene 串联合成薄荷醇**：
+异丁烯 + 甲醛 → ZnBr₂ 催化 → Prins 加成产物 → Ene 反应 → 香茅醇 → 薄荷醇
+BASF 工艺路线，年产数千吨。
 
 ---
 
