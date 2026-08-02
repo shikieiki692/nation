@@ -27,13 +27,13 @@ status: 已填充
 stage: published
 template_version: v1.3
 updated: 2026-05-25
-has_images: false
-image_count: 0
-images_priority: low
-images_note: "当前以文字、公式或表格表达为主，暂未单独配置图像文件；后续备课如需增强直观性，再按需补图。"
+has_images: true
+image_count: 1
+images_note: "已配matplotlib原创图表：Fries重排温度选择性 + 动力学vs热力学控制能量图"
 teaching_ready: false
 source_notes: []
-key_images: []
+key_images:
+  - fries_rearrangement_selectivity.jpg
 sources: ["ABOC §6.8"]
 source_type: [教材, 资料提炼]
 review_cycle: 30d
@@ -92,6 +92,8 @@ $$
 - **酰基正离子是亲电体**
 - **OH（酚羟基）是强邻/对位定位基**
 - **低温有利于邻位，高温有利于对位**
+
+![[fries_rearrangement_selectivity.jpg]]
 
 ### 3.2 邻/对位选择性
 

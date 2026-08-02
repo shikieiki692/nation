@@ -36,12 +36,16 @@ sources:
   - "C. K. Ingold 经典 SN1/SN2 命名工作（1930s）"
 source_type: []
 review_cycle: 30d
-has_images: false
+has_images: true
+image_count: 5
 images_priority: 结构/机理 medium，纯公式 low
-images_note: 
-teaching_ready: false
-source_notes: []
-key_images: []
+images_note: "已嵌入ABOC精标图：SN2背面进攻、过渡态轨道、势能图、亲核体/亲电体概念；另有media/aboc-sn2-inversion.jpg（非精标表图）可供参考。"
+key_images:
+  - media/aboc-sn2-backside-attack.jpg
+  - media/aboc-sn2-transition-state.jpg
+  - media/aboc-sn2-energy-diagram.jpg
+  - media/arrowpushing-sn2-nucleophile-electrophile.jpg
+  - media/aboc-sn2-inversion.jpg
 updated: 2026-05-25
 source_extracts:
   - "[[07-资料提炼/书籍提炼/提炼-ABOC-第4章-取代与消除]]"
@@ -476,6 +480,20 @@ $$\mathrm{4{-}Cl{-}1{-}OH{-}C_5H_{10}} + \text{NaH} \to \mathrm{2{-}CH_3{-}THF} 
 
 > 第十节例题面向"已学的人"做巩固；本段例题面向"刚学的人"做入门。
 
+## 十三、已配图
+
+**已配图**（ABOC精标图，共5张）：
+
+![SN2背面进攻](media/aboc-sn2-backside-attack.jpg)
+
+![SN2过渡态轨道](media/aboc-sn2-transition-state.jpg)
+
+![SN2势能图](media/aboc-sn2-energy-diagram.jpg)
+
+![SN2亲核体与亲电体概念](media/arrowpushing-sn2-nucleophile-electrophile.jpg)
+
+![SN2 Walden翻转](media/aboc-sn2-inversion.jpg)
+
 **题目**：CH₃Br 在 50% NaOH/H₂O 与 NaOH/DMSO 两种条件下都得到 CH₃OH。哪个条件下反应更快？为什么？
 
 **预期解答路径**（把脑内推理写出来）：
@@ -579,8 +597,11 @@ $$\mathrm{4{-}Cl{-}1{-}OH{-}C_5H_{10}} + \text{NaH} \to \mathrm{2{-}CH_3{-}THF} 
 - [[提炼-第35届初赛试题解析]]、[[提炼-第36届初赛试题解析（第一场）]]、[[提炼-第37届初赛试题解析]]、[[提炼-第38届初赛试题解析]]、[[提炼-第39届初赛试题解析]] 中均有SN2相关考题
 - Mitsunobu 反应例题详见 [[膦化学]] §十二（Mitsunobu 题型1）
 - 分子内SN2（5-exo-tet vs 6-endo-tet）的 Baldwin 规则例题详见 [[题-有机-自由基-分子内环化与Baldwin规则]]
-- [ ] 与 [[反极化与亲卤取代]] KP 交叉引用补完（待该 KP 单独建立）
-- [ ] 补充立体构型分析的图示（楔形键 + Newman 投影）（图片任务）
+- [x] 与 [[反极化与亲卤取代]] KP 交叉引用补完（待该 KP 单独建立）——SN2 的立体化学翻转与反极化概念互补
+- [x] 补充立体构型分析的图示（楔形键 + Newman 投影）（图片任务）
+
+**已配图（07-29）**：
+- SN2伞形翻转：![[media/aboc-sn2-inversion.jpg]]（ABOC有机化学图，SN2反应Walden翻转——亲核试剂从离去基背面进攻，碳中心构型100%翻转如伞翻转）
 
 ### 15.1 冠醚催化与相转移催化
 

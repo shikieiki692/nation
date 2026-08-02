@@ -20,7 +20,7 @@ tags:
   - POCl3
   - 脱水剂
 related: [Pictet-Spengler反应, Skraup合成, 杂环合成]
-prerequisite: [芳香胺, 酰胺, 脱水反应, 杂环化合物基础]
+prerequisite: [芳香胺, 酰胺, 脱水反应, 杂环化合物]
 problem_types: [题型-产物预测, 题型-机理推断, 题型-合成设计]
 difficulty: 3
 importance: 4

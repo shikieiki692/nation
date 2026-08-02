@@ -28,16 +28,30 @@ review_cycle: 30d
 has_images: true
 image_count: 1
 images_priority: high
-images_note: "已补入普通化学原理中的立方 ZnS 型晶胞示意图，可直观支撑“fcc 骨架 + 半数四面体空隙占据”的结构辨识。"
+images_note: “已补入普通化学原理中的立方 ZnS 型晶胞示意图，可直观支撑”fcc 骨架 + 半数四面体空隙占据”的结构辨识。”
 teaching_ready: false
 source_notes:
-  - "[[提炼-普化原理-第13章-晶体与晶体结构]]"
-  - "[[07-资料提炼/书籍提炼/提炼-无机化学第五版-第7章-晶体结构]]"
-  - "[[04-课件/新授课/2026-06-17-晶体结构类型与稳定性-基础班]]"
-  - "[[04-课件/备课大纲/2026-06-17-晶体结构类型与稳定性-基础班]]"
+  - “[[提炼-普化原理-第13章-晶体与晶体结构]]”
+  - “[[07-资料提炼/书籍提炼/提炼-无机化学第五版-第7章-晶体结构]]”
+  - “[[04-课件/新授课/2026-06-17-晶体结构类型与稳定性-基础班]]”
+  - “[[04-课件/备课大纲/2026-06-17-晶体结构类型与稳定性-基础班]]”
 key_images:
-  - "立方 ZnS 型晶胞示意图"
-updated: 2026-06-18
+  - “立方 ZnS 型晶胞示意图”
+visualizations:
+  - type: crystal_structure
+    cif: “08-可视化资源/02-CIF文件库/02-离子晶体/ZnS-F-43m.cif”
+    description: “ZnS闪锌矿结构”
+  - type: crystal_structure
+    cif: “08-可视化资源/02-CIF文件库/03-共价晶体/SiC-F-43m.cif”
+    description: “SiC闪锌矿结构（类似）”
+  - type: crystal_structure
+    cif: “08-可视化资源/02-CIF文件库/03-共价晶体/BN-F-43m.cif”
+    description: “BN闪锌矿结构（类似）”
+related_cif:
+  - “[[08-可视化资源/02-CIF文件库/02-离子晶体/ZnS-F-43m.cif|ZnS]]”
+  - “[[08-可视化资源/02-CIF文件库/03-共价晶体/SiC-F-43m.cif|SiC]]”
+  - “[[08-可视化资源/02-CIF文件库/03-共价晶体/BN-F-43m.cif|BN]]”
+updated: 2026-08-02
 source_extracts:
   - source_file: "[[提炼-普化原理-第13章-晶体与晶体结构]]"
     asset_id: "第13章-ZnS型"

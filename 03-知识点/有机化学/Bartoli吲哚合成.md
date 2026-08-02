@@ -17,8 +17,8 @@ tags:
   - 7-取代吲哚
   - 格氏试剂
   - 硝基化合物
-related: [Fischer吲哚合成, Larock吲哚合成, 格氏试剂, 杂环合成]
-prerequisite: [格氏试剂, 硝基化合物, 芳香性, 杂环化合物基础]
+related: [Fischer吲哚合成, Larock吲哚合成, Grignard试剂, 杂环合成]
+prerequisite: [Grignard试剂, 硝基化合物, 芳香性, 杂环化合物]
 problem_types: [题型-产物预测, 题型-合成设计]
 difficulty: 3
 importance: 2

@@ -206,6 +206,10 @@ Achmatowicz 重排与 [5+2] 环加成是竞赛中的"机构常客"（ABOC 语）
 
 ### 12.3 入门级例题
 
+### 已配图
+
+![[media/aboc-achmatowicz-rearrangement.jpg]]（呋喃氧化扩环机理）
+
 **题目**：
 判断下列底物能否发生 Achmatowicz 重排，并说明理由：
 (A) 2-甲基呋喃（呋喃环 2-位连 $CH_3$）

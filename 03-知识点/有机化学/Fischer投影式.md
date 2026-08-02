@@ -22,10 +22,9 @@ stage: published
 sources: []
 source_type: []
 review_cycle: 30d
-has_images: false
-images_priority: low
-images_note: "当前未嵌入图像文件；如后续备课需要提升直观性，可补充结构示意图、构型图、能级图或反应路径图。"
-key_images: []
+has_images: true
+image_count: 1
+key_images: [media/fischer-projection-rules.jpg]
 updated: 2026-05-25
 teaching_ready: false
 source_notes: []
@@ -53,6 +52,8 @@ source_extracts:
 ---
 
 # Fischer 投影式（Fischer Projection）
+
+![[media/fischer-projection-rules.jpg]]
 
 ## 一、定义
 

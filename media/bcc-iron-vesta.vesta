@@ -1,0 +1,40 @@
+# VESTA input file: Body-Centered Cubic (BCC) Iron
+# Space group: Im-3m (229)
+# Lattice parameter: a = 2.87 Å
+# Reference: Kittel, Introduction to Solid State Physics
+#
+# Usage: Open in VESTA → Adjust view → File > Export Raster Image
+# Suggested: Polyhedral + Ball-and-stick style, [110] view
+
+STRUCTURAL_PARAMETER
+  TITLE = BCC Iron (α-Fe)
+  SPACE_GROUP = 229
+  CELL_LENGTH_A = 2.870
+  CELL_LENGTH_B = 2.870
+  CELL_LENGTH_C = 2.870
+  CELL_ANGLE_ALPHA = 90.0
+  CELL_ANGLE_BETA  = 90.0
+  CELL_ANGLE_GAMMA = 90.0
+END_STRUCTURAL_PARAMETER
+
+SITE
+  DISPLAY = true
+  LABEL = Fe
+  SITE_FRACTION = 1.0
+  STYLE = BALLANDSTICK
+  COLOR = 230,125,50
+  ATOM = Fe  0.000000  0.000000  0.000000
+END_SITE
+
+SITE
+  DISPLAY = true
+  LABEL = Fe
+  SITE_FRACTION = 1.0
+  STYLE = BALLANDSTICK
+  COLOR = 230,125,50
+  ATOM = Fe  0.500000  0.500000  0.500000
+END_SITE
+
+# Bond connectivity (optional, for showing nearest neighbors)
+# Nearest neighbor distance: a√3/2 ≈ 2.486 Å
+# Coordination number: 8

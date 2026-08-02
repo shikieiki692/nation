@@ -19,7 +19,7 @@ tags:
   - 亲核芳香取代
   - SNAr
 related: [吡啶化学, 芳香亲核取代反应, 杂环化合物]
-prerequisite: [芳香亲核取代反应, 吡啶化学, 杂环化合物基础]
+prerequisite: [芳香亲核取代, 吡啶化学, 杂环化合物]
 problem_types: [题型-产物预测, 题型-机理推断]
 difficulty: 3
 importance: 3

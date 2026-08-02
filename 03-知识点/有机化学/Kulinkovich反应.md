@@ -21,7 +21,7 @@ tags:
   - 格氏试剂
   - 酯的转化
 related: [卡宾, Simmons-Smith反应, 烯烃复分解, 合成设计]
-prerequisite: [过渡金属催化基础, 格氏试剂, 酯, 卡宾]
+prerequisite: [过渡金属催化基础, Grignard试剂, 酯, 卡宾]
 problem_types: [题型-产物预测, 题型-机理推断]
 difficulty: 3
 importance: 2

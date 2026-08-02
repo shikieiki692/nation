@@ -1,5 +1,9 @@
 ---
 type: 知识点
+template_version: v1.3
+subject: 有机化学
+module: 有机化学
+submodule: 周环反应
 title: "Diels-Alder反应"
 aliases: ["3-偶极环加成", 环加成反应]
 created: 2026-07-18
@@ -67,6 +71,12 @@ $$
 环己烯衍生物在高温下可裂解回二烯与烯烃。合成上常用作"隐藏/释放双烯"的策略（如用环戊二烯做保护），竞赛中常作为"隐藏的二烯"考点出现。
 
 ## 典型应用
+
+### 已配图
+
+![[media/clayden-da-basic-mechanism.jpg]]（DA 基本机理）
+![[media/clayden-da-orbital-overlap.jpg]]（DA 轨道重叠）
+![[media/clayden-da-endo-exo.jpg]]（DA endo/exo）
 
 - **六元环构建的万能工具**：天然产物（萜类、甾体）和药物分子中的六元环骨架，逆合成分析时优先寻找 D-A 断键点。
 - **三组分串联**：34 届决赛真题中 LiTMP 参与的 D-A 三组分反应，显示 D-A 在现代合成方法学中的生命力。

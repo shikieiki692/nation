@@ -21,7 +21,7 @@ tags:
   - 电负性
   - 酸性
   - 环丙烷
-related: [杂化轨道理论, sp3杂化, sp2杂化, sp杂化, 电负性, 酸性, 碳负离子, 格氏试剂]
+related: [杂化轨道理论, sp3杂化, sp2杂化, sp杂化, 电负性, 酸性, 碳负离子, Grignard试剂]
 prerequisite: [杂化轨道理论, 电负性, VSEPR]
 problem_types: [题型-酸性排序, 题型-杂化解释, 题型-Bent规则应用]
 difficulty: 3

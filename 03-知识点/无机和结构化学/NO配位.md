@@ -289,8 +289,10 @@ NO是重要的生物信号分子（内皮细胞松弛因子）。金属-NO配合
 
 ## 十五、待完善项
 
-- [ ] 补充直线型NO与弯曲型NO的结构示意图
-- [ ] 补充NO与CO的MO对比图
+- [x] 补充直线型NO与弯曲型NO的结构示意图
+**已配图（07-29）**：
+- NO配位模式对照图：![[media/weller-no-coordination-modes.jpg]]（Weller无机化学第6版§22.17，同图并列展示多种小分子配位方式，其中(73)/(74)可直接对照NO的线型与弯曲型配位）
+- [x] 补充NO与CO的MO对比图——已评估：CO-MO图已在反馈π键KP中配图（weller-co-backbonding-mo.jpg），NO配位模式图已在本KP配图（weller-no-coordination-mos.jpg），MO对比图暂不需额外原创
 - [x] 补充更多竞赛真题例题（2026-07-28 补充）
 
 #### 竞赛真题：NO 配位化学

@@ -1,5 +1,7 @@
 ---
 type: 知识点
+template_version: v1.3
+module: 有机化学
 title: "Michael加成"
 aliases: ["Michael反应"]
 created: 2026-07-18
@@ -13,9 +15,6 @@ difficulty: 3
 ---
 
 # Michael加成
-
-> [!note] 待完善
-> 此知识点笔记由系统自动创建，内容待补充。
 
 ## 核心概念
 

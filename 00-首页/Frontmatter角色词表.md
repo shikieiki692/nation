@@ -2,7 +2,7 @@
 title: Frontmatter角色词表
 type: 系统
 role: 规范词表
-updated: 2026-07-11
+updated: 2026-08-01
 tags: [系统, frontmatter, role, 规范]
 ---
 

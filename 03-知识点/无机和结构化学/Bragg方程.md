@@ -41,11 +41,13 @@ source_type:
   - 书籍提炼
   - 书籍提炼
 review_cycle: 30d
-has_images: false
-image_count: 0
+has_images: true
+image_count: 2
 images_priority: low
-images_note: "后续如补粉末衍射示意图可再加图"
-key_images: []
+images_note: "已嵌入Bragg衍射几何图和晶面反射示意图。"
+key_images:
+  - bragg-geometry.png
+  - 13-4-bragg-reflection.jpg
 template_version: v1.3
 updated: 2026-06-21
 teaching_ready: true
@@ -84,6 +86,9 @@ $$
 - $d$ 为相应晶面的晶面间距
 - $\theta$ 为 Bragg 角，等于入射线与晶面的夹角；实验图谱常给的是 $2\theta$
 
+![[media/bragg-geometry.png]]
+（Bragg 衍射几何：相邻晶面反射的光程差为 $2d\sin\theta$，相长干涉条件 $n\lambda = 2d\sin\theta$）
+
 ## 二、考纲对应
 
 主要服务晶体结构、晶胞参数、XRD 初步判断与结构题到实验表征题的桥梁入口。
@@ -93,6 +98,9 @@ $$
 ### 3.1 干涉条件的物理意义
 
 把晶体看成一组平行晶面。相邻晶面反射出的两束 X 射线若光程差恰好为整数倍波长，就会相长干涉并出现衍射峰。
+
+![[media/13-4-bragg-reflection.jpg]]
+（Bragg 反射示意图：入射波 A→B 与 A'→B'→C' 的光程差 = MB' + B'N = $2d\sin\theta$）
 
 ### 3.2 课堂最常用的三种调用方式
 

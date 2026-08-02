@@ -13,7 +13,7 @@ syllabus_code: [51]
 syllabus_module: [有机化学]
 tags: [化竞, 有机化学, 金属有机]
 related: [有机锂试剂, 铜锂试剂, 亲核加成, 羰基化学]
-prerequisite: [亲核加成, 无水无氧操作]
+prerequisite: [亲核加成, 无水无氧条件]
 problem_types: [题型-Grignard反应]
 difficulty: 3
 importance: 5

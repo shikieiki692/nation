@@ -46,7 +46,7 @@ source_type:
   - 专题归纳
   - 专题归纳
 has_images: true
-image_count: 1
+image_count: 2
 images_priority: high
 images_note: "Weller图5.11铁 + 图5.13锰"
 key_images:

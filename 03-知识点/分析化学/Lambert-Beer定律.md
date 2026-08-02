@@ -24,11 +24,10 @@ sources:
   - "[[分光光度法]]"
 source_type: [教材提炼, 知识点总入口]
 review_cycle: 30d
-has_images: false
-image_count: 0
-images_priority: 滴定曲线/光谱 medium，概念 low
-images_note: "当前以文字、公式或表格表达为主，暂未单独配置图像文件；后续备课如需增强直观性，再按需补图。"
-teaching_ready: false
+has_images: true
+image_count: 1
+key_images: [media/beer-lambert-law-plot.jpg]
+teaching_ready: true
 source_notes:
   - "本页是分光光度法链的公式页，主来源是教材提炼中的吸光光度法章节。"
 key_images: []
@@ -45,6 +44,8 @@ source_extracts:
 ---
 
 # Lambert-Beer 定律
+
+![[media/beer-lambert-law-plot.jpg]]
 
 - 总览：[[中国化学奥林匹克基本要求-总览]]
 - 所属模块：[[基础要求-分析化学]]

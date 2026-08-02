@@ -8,7 +8,7 @@ role: Word讲义入口说明
 purpose: 统一说明学生讲义 Markdown 到 Word 成品的当前主链路、依赖、脚本、目录和使用方式
 version: v1.0
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-08-01
 related:
   - "[[00-首页/Word友好 Markdown 符号速查表]]"
   - "[[11-模板/MD通用规范（Word-PDF共同最优子集）]]"

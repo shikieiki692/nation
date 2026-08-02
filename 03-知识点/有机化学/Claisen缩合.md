@@ -1,6 +1,7 @@
 ---
 title: Claisen缩合
 type: 知识点
+template_version: v1.3
 module: 有机化学
 subject: 有机化学
 tags: [化竞, 有机化学, 缩合反应, 酯缩合, β-酮酯, Dieckmann]

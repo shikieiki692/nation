@@ -29,8 +29,8 @@ sources: []
 source_type: []
 source_notes: []
 review_cycle: 30d
-has_images: false
-image_count: 0
+has_images: true
+image_count: 1
 images_priority: low
 images_note: "当前以文字、公式或表格表达为主，暂未单独配置图像文件；后续备课如需增强直观性，再按需补图。"
 teaching_ready: false
@@ -476,6 +476,11 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Bohr模型计算")
 SORT year DESC, difficulty ASC
 ```
+
+**已配图（07-30）**：
+- 里德伯公式：![[media/zhao_rydberg_formula.jpg]]（赵鑫光笔记Ch1-199，hv=E₂-E₁, hc/λ=E₂-E₁, 波数ν̃=1/λ，Bohr模型核心公式）
+
+**已配图字段更新**：has_images: true, image_count: 1
 
 ## 十五、待完善项
 

@@ -37,7 +37,13 @@ source_notes:
   - "[[04-课件/备课大纲/2026-06-17-晶体结构类型与稳定性-基础班]]"
 key_images:
   - "萤石型结构图"
-updated: 2026-06-18
+visualizations:
+  - type: crystal_structure
+    cif: "08-可视化资源/02-CIF文件库/02-离子晶体/CaF2-Fm-3m.cif"
+    description: "CaF₂萤石结构"
+related_cif:
+  - "[[08-可视化资源/02-CIF文件库/02-离子晶体/CaF2-Fm-3m.cif|CaF₂]]"
+updated: 2026-08-02
 source_extracts:
   - source_file: "[[提炼-普化原理-第13章-晶体与晶体结构]]"
     asset_id: "第13章-CaF2型"

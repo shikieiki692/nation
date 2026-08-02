@@ -1,6 +1,8 @@
 ---
 title: 高中化学基础
-type: knowledge_point
+type: 知识点
+template_version: v1.3
+subject: 高中化学基础
 module: 化学基础
 status: 已填充
 tags: [知识点, 高中基础, 竞赛衔接]

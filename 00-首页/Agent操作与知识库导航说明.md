@@ -5,7 +5,7 @@ role: 操作说明
 module: 全科
 subject: 系统
 tags: [化竞, 使用说明, Agent, 导航]
-updated: 2026-07-27
+updated: 2026-08-01
 ---
 
 # Agent操作与知识库导航说明

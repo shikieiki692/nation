@@ -34,10 +34,10 @@ source_extracts:
 source_type:
   - 教材
 review_cycle: 30d
-has_images: false
-image_count: 0
+has_images: true
+image_count: 1
 images_priority: low
-images_note: "当前以文字、公式或表格表达为主，暂未单独配置图像文件；后续备课如需增强直观性，再按需补图。"
+images_note: "已嵌入Debye-Hückel极限定律图，展示log(γ±)与√I的线性关系。"
 key_images: []
 template_version: v1.3
 updated: 2026-05-24
@@ -229,5 +229,8 @@ Davies公式在环境化学和生物化学中应用较广，但**超出化竞决
 - 北京大学《物理化学》教材，第7章 — 溶液与相平衡
 
 ## 十五、待完善项
+
+**已配图（07-29）**：
+- Debye-Hückel极限定律图：![[media/debye-huckel-limiting-law.jpg]]（展示log(γ±)与√I的线性关系，含极限定律/扩展/Davies方程对比）
 
 - 北京大学《物理化学》教材，第7章 — 溶液与相平衡

@@ -24,10 +24,10 @@ source_type: []
 source_notes:
   - "[[教学逻辑提炼-周坤无机新课-晶体配合物与气体-第一轮]]"
 review_cycle: 30d
-has_images: false
-image_count: 0
+has_images: true
+image_count: 2
 images_priority: low
-images_note: "当前以文字、公式或表格表达为主，暂未单独配置图像文件；后续备课如需增强直观性，再按需补图。"
+images_note: "已嵌入Raoult正偏差p-x图和Raoult/Henry对照图，展示两定律适用范围与偏差。"
 teaching_ready: false
 key_images: []
 updated: 2026-06-01
@@ -373,7 +373,11 @@ $$y_{甲苯} = \frac{27}{95} = 0.284$$
 
 
 
-- [ ] 后续补一个“Raoult 区 / Henry 区 / 正负偏差”对照图
+- [x] 后续补一个“Raoult 区 / Henry 区 / 正负偏差”对照图
+
+**已配图（07-29）**：
+- Raoult正偏差：![[media/physchem-raoult-positive-deviation.jpg]]（物理化学第11版§5图5A.13，CS₂-丙酮体系正偏差p-x图——实际蒸气压高于Raoult直线，A-B作用力弱于A-A和B-B）
+- Raoult/Henry对照：![[media/physchem-raoult-henry-comparison.jpg]]（物理化学第11版§5图5A.14，Raoult区（溶剂端x₁→1）与Henry区（溶质端x₂→0）对照，展示两定律适用范围）
 
 ## 五、常见分类
 

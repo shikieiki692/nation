@@ -30,11 +30,11 @@ sources:
   - 补充参考：Feltham, R. D.; Enemark, J. H. 经典文献
 source_type: [教材, 文献]
 review_cycle: 30d
-has_images: false
-image_count: 0
-images_priority: medium
-images_note: "可考虑补充{MNO}ⁿ记号的电子分配示意图"
-key_images: []
+has_images: true
+image_count: 1
+images_note: "已配matplotlib原创图表：NO分子轨道能级图 + {FeNO}⁷电子构型示例"
+key_images:
+  - feltham_enemark_notation.jpg
 template_version: v1.3
 updated: 2026-05-24
 teaching_ready: false
@@ -102,6 +102,8 @@ n = （金属的价电子数）+（NO的π*电子数）-（其他配体接受的
 - n ≤ 6：通常为直线型NO（$\mathrm{NO}^+$特征）
 - n = 7–8：过渡区域，配位模式取决于其他因素
 - n ≥ 8：倾向于弯曲型NO（$\mathrm{NO}^-$特征）
+
+![[feltham_enemark_notation.jpg]]
 
 ### 3.3 从传统电子计数法转换
 

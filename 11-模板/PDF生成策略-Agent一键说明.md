@@ -1,6 +1,6 @@
 ---
 title: "PDF生成策略-Agent一键说明"
-type: "系统"
+type: 系统
 updated: 2026-06-29
 tags: ["系统", "PDF", "模板"]
 ---

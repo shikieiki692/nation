@@ -13,7 +13,7 @@ syllabus_code: [决赛09]
 syllabus_module: [物理化学深化]
 tags: [化竞, 决赛, 物理化学, 表面化学, 吸附, Langmuir]
 related: [吸附, 表面与界面化学, 化学动力学深化]
-prerequisite: [化学平衡, 吸附概念]
+prerequisite: [化学平衡, 吸附]
 problem_types: [题型-吸附等温线拟合, 题型-表面覆盖率计算]
 difficulty: 4
 importance: 4
@@ -23,10 +23,10 @@ sources: []
 source_type: []
 source_notes: []
 review_cycle: 30d
-has_images: false
-image_count: 0
+has_images: true
+image_count: 1
 images_priority: medium
-images_note: "当前未嵌入图像文件；该主题具备一定可视化价值，后续备课时可优先补充结构示意图、关系图或谱图。"
+images_note: "已嵌入Langmuir吸附等温线图，展示不同K值下覆盖率随压力变化。"
 teaching_ready: false
 key_images: []
 updated: 2026-06-14
@@ -173,7 +173,10 @@ $$
 
 ## 十五、待完善项
 
-- [ ] 后续补一张“低压区 / 饱和区 Langmuir 等温线”示意图
+**已配图（07-29）**：
+- Langmuir等温线（低压区/饱和区）：![[media/physchem-langmuir-isotherm.jpg]]（Atkins物理化学第11版 图19B.2，展示不同α值下非解离吸附的覆盖分数随压力变化）
+
+- [x] 后续补一张“低压区 / 饱和区 Langmuir 等温线”示意图
 
 ## 四、修订记录
 

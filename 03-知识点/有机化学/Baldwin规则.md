@@ -30,13 +30,13 @@ stage: published
 sources: ["ABOC §6.13"]
 source_type: []
 review_cycle: 30d
-has_images: false
-image_count: 0
+has_images: true
+image_count: 1
 images_priority: medium
-images_note: "当前未嵌入图像文件；该主题具备一定可视化价值，后续备课时可优先补充结构示意图、关系图或谱图。"
+images_note: "已嵌入Baldwin规则分类图（3-exo-tet, 5-exo-trig, 6-endo-dig），来自Clayden Ch31。"
 teaching_ready: false
 source_notes: []
-key_images: []
+key_images: ["clayden_baldwin_rules_classification.jpg"]
 updated: 2026-05-10
 source_extracts:
   - source_file: "[[07-资料提炼/提炼-第31届初赛试题解析]]"
@@ -117,6 +117,9 @@ source_extracts:
 | **Dig** | sp | 炔烃碳 |
 
 ### 3.2 Baldwin 规则表
+
+![[clayden_baldwin_rules_classification.jpg]]
+*图：Baldwin规则分类示例（来源：Clayden Ch31）—— 3-exo-tet（三元环，不利）、5-exo-trig（五元环，有利）、6-endo-dig（六元环，有利）。*
 
 | 环大小 | Exo-Tet | Exo-Trig | Exo-Dig | Endo-Tet | Endo-Trig | Endo-Dig |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|

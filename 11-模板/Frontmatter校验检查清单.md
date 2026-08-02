@@ -24,8 +24,8 @@ updated: 2026-07-12
 | `tags` | ✅ | 必须包含 `化竞` | `[化竞, 化学原理]` |
 | `updated` | ✅ | 格式 `YYYY-MM-DD` | `2026-07-12` |
 | `template_version` | ✅ | 格式 `v1.x` | `v1.3` |
-| `status` | ✅ | 枚举：`骨架`/`已填充`/`完整` | `已填充` |
-| `stage` | ✅ | 枚举：`draft`/`published` | `published` |
+| `status` | ✅ | 枚举：`骨架`/`已填充`/`完整`/`重定向`/`草稿` | `已填充` |
+| `stage` | ✅ | 枚举：`draft`/`published`（或教学轮次标签：`基础`/`进阶`/`决赛`等） | `published` |
 | `subject` | ✅ | 非空字符串 | `化学原理` |
 | `difficulty` | ✅ | 整数1-5 | `3` |
 | `importance` | ✅ | 整数1-5 | `4` |

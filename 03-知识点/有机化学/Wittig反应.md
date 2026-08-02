@@ -1,5 +1,7 @@
 ---
 type: 知识点
+template_version: v1.3
+module: 有机化学
 title: "Wittig反应"
 created: 2026-07-18
 updated: 2026-07-23

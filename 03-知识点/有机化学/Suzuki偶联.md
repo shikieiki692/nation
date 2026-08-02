@@ -30,12 +30,13 @@ stage: published
 sources: ["ABOC §8.4"]
 source_type: []
 review_cycle: 30d
-has_images: false
+has_images: true
+image_count: 1
 images_priority: 结构/机理 medium，纯公式 low
-images_note: 
+images_note: "已嵌入Pd催化交叉偶联机理总结图（含Suzuki转金属步骤），来自Clayden Ch37。"
 teaching_ready: false
 source_notes: []
-key_images: []
+key_images: ["clayden_pd_cross_coupling_mechanisms.jpg"]
 updated: 2026-05-25
 source_extracts:
   - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-PhaseD-习题拆题清单]]"
@@ -91,6 +92,9 @@ $$
 ### 3.1 催化循环
 
 **Pd(0)/Pd(II) 循环四步曲**：
+
+![[clayden_pd_cross_coupling_mechanisms.jpg]]
+*图：Pd催化交叉偶联反应机理总结（来源：Clayden Ch37）—— Suzuki偶联的关键步骤为：氧化加成 → 转金属（有机金属行） → 还原消除。
 
 ```
 步骤 1：氧化加成（Oxidative Addition）

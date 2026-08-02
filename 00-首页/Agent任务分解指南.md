@@ -4,7 +4,7 @@ type: 系统
 role: 任务调度参考
 sop_version: v1.5.6
 tags: [系统, agent, 任务分解, 调度]
-updated: 2026-06-24
+updated: 2026-08-01
 ---
 
 # Agent 任务分解指南

@@ -241,7 +241,7 @@ $$
 - Aggarwal, V. K. *Angew. Chem. Int. Ed.* **2001**, *40*, 1433.（手性硫叶立德综述）
 
 ## 十四、待完善项
-- [ ] 补充 [[Corey-Seebach反应]] 单独成 KP（1,3-二噻烷 umpolung）
+- [x] 补充 [[Corey-Seebach反应]] 单独成 KP（1,3-二噻烷 umpolung）——KP已创建于 03-知识点/有机化学/Corey-Seebach反应.md
 - [x] 补充手性硫叶立德的不对称 JCC 应用例
 - [x] 补充 JCC 与 Darzens 缩合的对比（α-卤代酯 + 醛 → 环氧酯）
 
@@ -277,7 +277,7 @@ $$
 
 ## 十五、待完善项
 
-- 暂无
+- [x] 补充 [[Corey-Seebach反应]] 单独成 KP（1,3-二噻烷 umpolung）——已完成，Corey-Seebach反应KP已创建
 ```dataview
 TABLE file.name AS "文件名", year AS "年份", type AS "题型", difficulty AS "难度"
 FROM "04-题库"

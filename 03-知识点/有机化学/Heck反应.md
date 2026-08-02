@@ -30,13 +30,13 @@ stage: published
 sources: ["ABOC §8.3"]
 source_type: []
 review_cycle: 30d
-has_images: false
-image_count: 0
+has_images: true
+image_count: 1
 images_priority: medium
-images_note: "当前未嵌入图像文件；该主题具备一定可视化价值，后续备课时可优先补充结构示意图、关系图或谱图。"
+images_note: "已嵌入Pd催化交叉偶联机理总结图（Heck/Stille/Suzuki/Sonogashira/Buchwald-Hartwig），来自Clayden Ch37。"
 teaching_ready: false
 source_notes: []
-key_images: []
+key_images: ["clayden_pd_cross_coupling_mechanisms.jpg"]
 updated: 2026-05-10
 source_extracts:
   - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第8章-过渡金属催化]]"
@@ -91,6 +91,9 @@ $$
 ### 3.1 催化循环
 
 **Pd(0)/Pd(II) 循环**：
+
+![[clayden_pd_cross_coupling_mechanisms.jpg]]
+*图：Pd催化交叉偶联反应机理总结（来源：Clayden Ch37）—— 包含配体交换、迁移插入、β-负氢消除、还原消除等关键步骤。Heck反应对应图中"烯烃"行。*
 
 ```
 步骤 1：氧化加成（Oxidative Addition）

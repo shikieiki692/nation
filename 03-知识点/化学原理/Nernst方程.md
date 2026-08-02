@@ -21,6 +21,12 @@ stage: published
 importance: 5
 difficulty: 3
 template_version: v1.3
+has_images: true
+image_count: 1
+images_priority: medium
+images_note: "已嵌入Atkins Nernst E vs lgQ图。"
+key_images:
+  - media/physchem-nernst-e-vs-q.jpg
 ---
 
 # Nernst方程
@@ -132,6 +138,12 @@ $$K_{sp}(\mathrm{AgCl}) = 1.8\times10^{-8}\times 0.010 = 1.8\times10^{-10}$$
 **解答**：$E_{\text{池}}^{\ominus} = 0.34-(-0.76) = 1.10$ V；$E_{\text{池}} = 1.10 - \dfrac{0.0591}{2}\lg\dfrac{0.1}{0.001} = 1.10 - 0.059 = 1.04$ V。$E_{\text{池}} < E_{\text{池}}^{\ominus}$，正向倾向减小但仍自发。
 
 ### 例题 2（电极电势计算）
+
+## 十、已配图
+
+**已配图**（共1张）：
+
+![Atkins Nernst E vs lgQ图](media/physchem-nernst-e-vs-q.jpg)
 
 **题目**：计算 [Zn²⁺] = 0.010 mol·dm⁻³ 时 Zn²⁺/Zn 电对的电极电势（$E^{\ominus} = -0.76$ V）。
 

@@ -1,5 +1,8 @@
 ---
 type: 知识点
+template_version: v1.3
+subject: 有机化学
+module: 有机化学
 title: "Knoevenagel缩合"
 aliases: ["Knoevenagel反应"]
 created: 2026-07-18
@@ -21,9 +24,6 @@ difficulty: 1
 ---
 
 # Knoevenagel缩合
-
-> [!note] 待完善
-> 此知识点笔记由系统自动创建，内容待补充。
 
 ## 核心概念
 

@@ -1,5 +1,8 @@
 ---
 type: 知识点
+template_version: v1.3
+subject: 有机化学
+module: 有机化学
 title: "Hofmann消除"
 aliases: ["Hofmann重排", "霍夫曼消除", "霍夫曼重排"]
 created: 2026-07-18
@@ -21,9 +24,6 @@ difficulty: 2
 ---
 
 # Hofmann消除
-
-> [!note] 待完善
-> 此知识点笔记由系统自动创建，内容待补充。
 
 ## 核心概念
 

@@ -1,5 +1,8 @@
 ---
 type: 知识点
+template_version: v1.3
+subject: 无机和结构化学
+module: 无机和结构化学
 status: 已填充
 title: "NaCl型结构"
 created: 2026-07-18
@@ -28,9 +31,6 @@ importance: 4
 ---
 
 # NaCl型结构
-
-> [!note] 待完善
-> 此知识点笔记由系统自动创建，内容待补充。
 
 ## 核心概念
 

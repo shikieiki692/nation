@@ -18,7 +18,7 @@ tags:
   - 嘧啶
   - 开环闭环
 related: [杂环化合物, 吡啶化学, 嘧啶]
-prerequisite: [杂环化合物基础, 芳香性]
+prerequisite: [杂环化合物, 芳香性]
 problem_types: [题型-机理推断]
 difficulty: 3
 importance: 2

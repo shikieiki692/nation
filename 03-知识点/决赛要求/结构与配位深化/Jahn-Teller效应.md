@@ -25,12 +25,13 @@ source_notes:
   - "[[教学逻辑提炼-周坤无机新课-晶体配合物与气体-第一轮]]"
   - "[[教学逻辑提炼-质心-配位化学-第一轮]]"
 review_cycle: 30d
-has_images: false
-image_count: 0
-images_priority: low
-images_note: "当前以文字、公式或表格表达为主，暂未单独配置图像文件；后续备课如需增强直观性，再按需补图。"
-teaching_ready: false
-key_images: []
+has_images: true
+image_count: 2
+images_priority: medium
+images_note: "已嵌入赵鑫光JT效应图和Weller CFT分裂图。"
+key_images:
+  - media/zgxg-jahn-teller-effect.jpg
+  - media/weller-ch19-cft-splitting.jpg
 updated: 2026-06-01
 source_extracts:
   - source_file: "[[教学逻辑提炼-周坤无机新课-晶体配合物与气体-第一轮]]"
@@ -393,6 +394,14 @@ Cu²⁺为d⁹构型，在八面体场中：
 第六步：理解Cu²⁺ d⁹的典型畸变
 ```
 
+## 十三、已配图
+
+**已配图**（共2张）：
+
+![赵鑫光Jahn-Teller效应图](media/zgxg-jahn-teller-effect.jpg)
+
+![晶体场分裂图-弱场强场高自旋低自旋](media/weller-ch19-cft-splitting.jpg)
+
 ### 12.2 认知误区
 
 | 误区 | 学生为什么会这么想 | 正确认识 | 辨析口诀/方法 |
@@ -480,4 +489,26 @@ SORT year DESC, difficulty ASC
 
 ## 十五、待完善项
 
-- [ ] 后续补一张“各 dⁿ 构型 Jahn-Teller 强弱总表”课堂图版
+- [x] 后续补一张“各 dⁿ 构型 Jahn-Teller 强弱总表”课堂图版
+
+### 各 dⁿ 构型八面体场 Jahn-Teller 效应总表
+
+| d电子构型 | 举例离子 | eg占据 | t2g占据 | JT畸变强度 | 畸变类型 |
+|:---|:---|:---|:---|:---:|:---|
+| d⁰ | Ti⁴⁺, Sc³⁺ | 空 | 空 | 无 | — |
+| d¹ | Ti³⁺ | ↑ | — | 弱 | 拉长 |
+| d² | V³⁺ | ↑↑ | — | 弱 | 拉长 |
+| d³ | Cr³⁺ | ↑↑↑ | — | **无** | eg等占据 |
+| d⁴(HS) | Cr²⁺ | ↑↑ | ↑↑↑ | **强** | 拉长 |
+| d⁴(LS) | — | ↑↑ | ↑↑↑ | 弱 | 拉长 |
+| d⁵(HS) | Mn³⁺ | ↑↑ | ↑↑↑↑ | **强** | 拉长 |
+| d⁵(LS) | Fe³⁺ | ↑↑ | ↑↑↑↑ | 弱 | 拉长 |
+| d⁶(HS) | Fe²⁺ | ↑↑ | ↑↑↑↑ | 中 | 拉长 |
+| d⁶(LS) | Co³⁺ | ↑↑ | ↑↑↑↑↑ | **无** | eg等占据 |
+| d⁷(HS) | Co²⁺ | ↑↑ | ↑↑↑↑↑ | 中 | 拉长 |
+| d⁷(LS) | Ni³⁺ | ↑↑ | ↑↑↑↑↑ | 中 | 拉长 |
+| d⁸ | Ni²⁺ | ↑↑ | ↑↑↑↑↑↑ | **无** | eg等占据 |
+| d⁹ | Cu²⁺ | ↑↑ | ↑↑↑↑↑↑ | **强** | 拉长(最典型) |
+| d¹⁰ | Zn²⁺ | ↑↑ | ↑↑↑↑↑↑↑ | **无** | 完全填满 |
+
+**竞赛口诀**：eg 轨道不均匀占据 → 强 JT；t2g 不均匀 → 弱 JT；eg 均匀占据（d³/d⁸）或全空/全满 → 无 JT。

@@ -1,5 +1,8 @@
 ---
 type: 知识点
+template_version: v1.3
+subject: 化学原理
+module: 化学原理
 title: "van't Hoff方程"
 created: 2026-07-18
 updated: 2026-07-23
@@ -32,9 +35,6 @@ difficulty: 3
 ---
 
 # van't Hoff方程
-
-> [!note] 待完善
-> 此知识点笔记由系统自动创建，内容待补充。
 
 ## 核心概念
 

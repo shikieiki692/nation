@@ -1,0 +1,146 @@
+# Clayden有机化学 Ch41 - 天然产物合成、全合成策略、手性辅助剂 图片索引
+
+> 生成日期：2026-07-29
+> 来源：MinerU OCR提取的教科书图片
+> 范围：第41章（pp.1132-1164）
+> 覆盖知识点：手性辅助剂(Evans/Myers)、Sharpless不对称双羟化、不对称催化(CBS)、Ru催化不对称氢化、Sharpless环氧化、天然产物全合成
+
+## 图片索引
+
+| 文件名 | 内容描述 | 建议重命名 | 质量 | 关联KP |
+|:---|:---|:---|:---:|:---|
+| 40afd022f4ee500eff033bd92c37388bbb48d502eec14d1bcbff2571e86d4b4e.jpg | 脯氨酸催化的不对称Aldol反应（97% yield, 96% ee） | clayden_ch41_proline_aldol.jpg | HIGH | 不对称催化 |
+| 5d498b6c071cec3a093aa732f4adfd16f443c98832ea10f444dabe69cd17436f.jpg | Sharpless不对称双羟化的区域选择性模型（DHQ/DHQD） | clayden_ch41_sharpless_dh_model.jpg | HIGH | Sharpless双羟化 |
+| ae24f7c3322ac7577e8944ba34e12912af7972cc99a1f8f769bd66fb2bd8ac41.jpg | Evans噁唑烷酮辅助剂合成（(S)-缬氨酸→噁唑烷酮） | clayden_ch41_evans_auxiliary_syn.jpg | HIGH | Evans辅助剂 |
+| 7061926f1cd268184a787519bc25788402eb31e67b8b8b73ffe5b43098384bef.jpg | 蜗牛照片（天然产物来源示意） | clayden_ch41_snail_photo.jpg | MEDIUM | - |
+| 9612a0605b1af062b875a60c08f32ce3efb1182664e1304aaffba27f1ee7ab38.jpg | 所需对映体的氨基酸结构 | clayden_ch41_desired_enantiomer.jpg | MEDIUM | - |
+| a3342b3f57cda6a85773e6768b200690bf7426fde0c479303293e97a6a4cbe2c.jpg | Rh催化氢化的机理（18e→16e→14e Ru配合物） | clayden_ch41_rh_hydrogenation_mech.jpg | HIGH | Ru催化氢化 |
+| 3573ec9e5a74f439abda043421217276f473ff33b354f46ff9b5d7cfb6c12df4.jpg | 日本金龟子信息素结构（Z,R-内酯） | clayden_ch41_japanese_beetle.jpg | MEDIUM | - |
+| f72e27db14ab934137fd44545eb563e0586071093252cd8036b304ba54e9bcd5.jpg | Sharpless不对称双羟化的底物范围 | clayden_ch41_sharpless_dh_scope.jpg | HIGH | Sharpless双羟化 |
+| 673cf4e7a598f7b440f9de5fd66a82538c457a86957d9fa685fcb9d52265f1de.jpg | Evans噁唑烷酮的反应（LiOH/H2O2去除助剂） | clayden_ch41_evans_removal.jpg | HIGH | Evans辅助剂 |
+| 493d6e04458169553c6f849a93ea868b92bca36f6dc5c0b67485c1fb595a9f80.jpg | Evans噁唑烷酮的产物转化（醇/醛/酸/酮） | clayden_ch41_evans_transformations.jpg | HIGH | Evans辅助剂 |
+| 86d10a48952ee9eb1e912ccae7f7b756e7a9c050a52cd97bdbf41309ebb5bf6c.jpg | 紫外光/鼠标图标（非化学内容） | clayden_ch41_icon.jpg | MEDIUM | - |
+| ed6e8efe466e94f6c0ca8730aeb6a69667b27fc4df0f70c041692020705bbc9c.jpg | 复杂有机分子（可能为Fluoxetine类药物） | clayden_ch41_complex_molecule.jpg | MEDIUM | - |
+| e098781e64585ffdb187adac853e87bb1cbea9c105b516acb8cc8f96521ff7d9.jpg | 酒石酸溴乙酰化→环氧化机理 | clayden_ch41_tartaric_bromoacetylation.jpg | HIGH | 天然产物合成 |
+| 6be96c8a7973f3ddae79e84d46c4f4c96972385b66e174a4f3ee5509418901f8.jpg | D-甘露糖→(S)-甘油醛的保护策略 | clayden_ch41_mannose_protection.jpg | HIGH | 保护基策略 |
+| a2eacf74759efcee2ee2d5affdf974c8baaa8f708457fb80f26e9e49e17311f8.jpg | Evans噁唑烷酮的LiOBn裂解与助剂回收 | clayden_ch41_evans_recycle.jpg | HIGH | Evans辅助剂 |
+| e8e0da2e0c65bfe85ee2291edfe6038e5e451e60fb0aeb74c06add33087f724e.jpg | 酪氨酸结构 | clayden_ch41_tyrosine.jpg | MEDIUM | - |
+| 34c821eacac1a1f00b0bf31395461ffc4145426f5f213a998cb7c4d4729c5236.jpg | 酒石酸溴乙酰化→环氧化立体化学 | clayden_ch41_tartaric_stereo.jpg | HIGH | 天然产物合成 |
+| 912c7e7e4d04d59f0385d906727f5e3976ea7e1752d31dc3092e5b2b63fc3c1a.jpg | 复杂有机分子（含NMe2） | clayden_ch41_complex_nme2.jpg | MEDIUM | - |
+| 5b61da298ab16d78afadf5e10a8c83786c8a1b9bfdf2e39e4c0ab2aafd4d4ff7.jpg | Ti-酒石酸Sharpless环氧化机理 | clayden_ch41_sharpless_epoxidation.jpg | HIGH | Sharpless环氧化 |
+| 3ad8d95965e395171a151da735cb8b40af0b0a04f3772026f06c7aa314e233e1.jpg | Evans噁唑烷酮二烷基化过渡态 | clayden_ch41_evans_alkylation.jpg | HIGH | Evans辅助剂 |
+| 4a09cbc597bf16c6a1288cc207382ae087580b938383590ce264cc1eff75509d.jpg | 聚丙烯酸酯/聚合物结构 | clayden_ch41_polymer.jpg | MEDIUM | - |
+| 3fe024352194fe1c8cf8631f72f60308cf660e6944cb8344247ea6c4660d193f.jpg | (S)-(-)-小茴香烯醇的逆合成分析 | clayden_ch41_fenchol_retro.jpg | HIGH | 天然产物合成 |
+| 864148ac7e4f3deaf08c350c3415b4d02be983ab693b1978c81a375b500f69dc.jpg | CBS催化剂合成（(S)-脯氨酸→CBS） | clayden_ch41_cbs_catalyst.jpg | HIGH | 不对称催化 |
+| bd2b8176ebe67d31113bbce8ebcf7b5722a0a51ea24594b4ceb758a29e3baa75.jpg | CBS催化不对称还原酮（99% yield, 97% ee） | clayden_ch41_cbs_reduction.jpg | HIGH | 不对称催化 |
+| 48abccc3f7a6e0d17301852e96c663d832b8827a4e3afe271811c42a965b9463.jpg | 抗癌化合物圆皮海绵内酯（Aldol合成片段） | clayden_ch41_halichondrin.jpg | HIGH | 天然产物全合成 |
+| e2558c5122fcae654a2e723c3e10e7b0b860ba9e808c8a33995d5b17b70f9d5d.jpg | Ru-TsDPEN催化剂的形成机理 | clayden_ch41_ru_tsdpen.jpg | HIGH | Ru催化氢化 |
+| 0880ba286a0ef646f5fa27cef9174468f2e96d4a27dbbfed75d301e8bd13d716.jpg | Ru-BINAP催化不对称氢化（羧酸/醇） | clayden_ch41_ru_binap_hydrogenation.jpg | HIGH | Ru催化氢化 |
+| 2e32ccd3cf59020401d2a02b9581954ecdeb56f3d472deb3d973b8913f67c9d3.jpg | 脯氨酸催化的Aldol反应机理（烯胺/H键过渡态） | clayden_ch41_proline_aldol_mech.jpg | HIGH | 不对称催化 |
+| 0190c5e064eb80fabdc072b637723eb60b1d3bd0e9c05ed5a371b7851fb0f741.jpg | 麻黄碱结构（(-)-ephedrine） | clayden_ch41_ephedrine.jpg | MEDIUM | - |
+| 04a7c48a73c10d78bec506d30d73b389d6fa1fc33d9908f16e03eca41c14fa02.jpg | 复杂有机分子结构 | clayden_ch41_complex_struct.jpg | MEDIUM | - |
+| 07c300c172f52ae14ae5501addd726fc766940334edfaeae8d5ea22f56905586.jpg | 有机分子结构 | clayden_ch41_organic_mol.jpg | MEDIUM | - |
+| 08655bad60e8f069548ca7d7619a63972c7dfd5d34fab2d9adcced0bf528ea12.jpg | 有机分子结构 | clayden_ch41_organic_mol2.jpg | MEDIUM | - |
+| 100df4989ea3c52077f2ff38ec9c697501638878a83099377450aa8b5fa064c7.jpg | 有机分子结构 | clayden_ch41_organic_mol3.jpg | MEDIUM | - |
+| 107a1cbc5ae5a44e3adc11cfdb2f61f5a402000b7e9e2b7239a5047e766c77ff.jpg | 有机分子结构 | clayden_ch41_organic_mol4.jpg | MEDIUM | - |
+| 12af8dfb56496ee4aeaa16bbd9b102cf112525beef3d5de3e553496f9402683c.jpg | 有机分子结构 | clayden_ch41_organic_mol5.jpg | MEDIUM | - |
+| 13791279e8e6991173d79ba90901669b3c6fa4854219539477bea98b6c35cd22.jpg | 有机分子结构 | clayden_ch41_organic_mol6.jpg | MEDIUM | - |
+| 16ead03131e5b58811b8e1cfe69e7ac88bed2eccd85952ddb5a757d2c2900775.jpg | 有机分子结构 | clayden_ch41_organic_mol7.jpg | MEDIUM | - |
+| 173434901f6f4dc109e31e08c901327e3e20fe890e968b6d00457d0d644f9f2d.jpg | 有机分子结构 | clayden_ch41_organic_mol8.jpg | MEDIUM | - |
+| 188d27c5f8f3413cb9c02fd2bd2420094f1f80e866d4b677ea94e740d635962e.jpg | 有机分子结构 | clayden_ch41_organic_mol9.jpg | MEDIUM | - |
+| 1f37f8ed0fe58e51bb3d97992139ca4042ae9594c2c45bb5c9c9e6c27aa7a51c.jpg | 有机分子结构 | clayden_ch41_organic_mol10.jpg | MEDIUM | - |
+| 265d3cc0860f189715aeaae29f45745ee049c70dccb570cd6e5e232f3bcc2bb5.jpg | 有机分子结构 | clayden_ch41_organic_mol11.jpg | MEDIUM | - |
+| 270039236eaa530740154889f0f5a10de28fb36f7ccca7a86d6b6419f19506ad.jpg | 有机分子结构 | clayden_ch41_organic_mol12.jpg | MEDIUM | - |
+| 2c9a6f144e2e003986650335e8c502b5096c903c3cd1b50e42aec6c443faf938.jpg | 有机分子结构 | clayden_ch41_organic_mol13.jpg | MEDIUM | - |
+| 313d9ab93e534d5727c223877b9e44e99fa1a3a61a004c7b2968d1f81aeed87c.jpg | 有机分子结构 | clayden_ch41_organic_mol14.jpg | MEDIUM | - |
+| 36981b09261f05094c6b649f6041138e5ed880abedbfbf8281b1c20462a1156d.jpg | 有机分子结构 | clayden_ch41_organic_mol15.jpg | MEDIUM | - |
+| 3cf497db9dc8a29fb8d8bf3fb9abbac3bbca0ed01009c11e420220f7e2d7eed8.jpg | 有机分子结构 | clayden_ch41_organic_mol16.jpg | MEDIUM | - |
+| 3d0617d116a0809c458631fedfcce3dc013be4f4e96d9dcfd1624880219f1593.jpg | 有机分子结构 | clayden_ch41_organic_mol17.jpg | MEDIUM | - |
+| 3db7675100621c9bce3b021ebc23039cde3f2b2ebd68c217c03f139115bd618a.jpg | 有机分子结构 | clayden_ch41_organic_mol18.jpg | MEDIUM | - |
+| 3e8aab62a7c88d932e2ad40c29416ed818421be4619e92e1abcae30e371f4e64.jpg | 有机分子结构 | clayden_ch41_organic_mol19.jpg | MEDIUM | - |
+| 45417a4477c7229079d41ea775a514bc884c6f9af5a29b019f06eb178acca9c6.jpg | 有机分子结构 | clayden_ch41_organic_mol20.jpg | MEDIUM | - |
+| 462e1d62d6817dee5e3ae07e8cf4caa520fc1000a9b4c3433aa640554c54eba8.jpg | 有机分子结构 | clayden_ch41_organic_mol21.jpg | MEDIUM | - |
+| 4ad928fa16b78195d325ffedbe7346aecd37ba94113589ae279e7b025cd8243c.jpg | 有机分子结构 | clayden_ch41_organic_mol22.jpg | MEDIUM | - |
+| 4d90baa92e9934379556bfc40bd78102818e19060f0a16beb2b1003b768c9377.jpg | 有机分子结构 | clayden_ch41_organic_mol23.jpg | MEDIUM | - |
+| 4f90e7f6c54811ed453cfb3bd090acdeb31a8cd23cb53708ed8501136b869645.jpg | 有机分子结构 | clayden_ch41_organic_mol24.jpg | MEDIUM | - |
+| 500623091d9b0ac8d652c8fbd8d7997e465f2db020c3a00f1b31180db2f652b1.jpg | 有机分子结构 | clayden_ch41_organic_mol25.jpg | MEDIUM | - |
+| 507a994bb437a2a20b0133933c570c699652deb7f2d848498f66839116b54799.jpg | 有机分子结构 | clayden_ch41_organic_mol26.jpg | MEDIUM | - |
+| 5086b8f680f2088a53c63ed59d0c54ecf39c2ef06f45c6785a0612687f808414.jpg | 有机分子结构 | clayden_ch41_organic_mol27.jpg | MEDIUM | - |
+| 50d51bf75cb9b06749f6b3c54f347ec2b9508ceecdf7a3d3afe53b95294e6ae8.jpg | 有机分子结构 | clayden_ch41_organic_mol28.jpg | MEDIUM | - |
+| 530ad76b212a6a414aa48979bc4f16c0bfeacd50d8d540724383fc983f1d3b9f.jpg | 有机分子结构 | clayden_ch41_organic_mol29.jpg | MEDIUM | - |
+| 539cc4b8c79a1374dea3af665c3b078c90b0dfaa1efece948db30280afbb8495.jpg | 有机分子结构 | clayden_ch41_organic_mol30.jpg | MEDIUM | - |
+| 53b3ebede66a9101b5ce545f97ee8055af8a23d2f004c98045bc3d8adfc2eb64.jpg | 有机分子结构 | clayden_ch41_organic_mol31.jpg | MEDIUM | - |
+| 5768ac6b3b8ac2634a5cfa1b9a678ce24acef25aae80a841caa71b5f09aa8aaf.jpg | 有机分子结构 | clayden_ch41_organic_mol32.jpg | MEDIUM | - |
+| 5d30186c3e3501e1416183576c0c9f7d8ff960002718b913631079360fffff47.jpg | 有机分子结构 | clayden_ch41_organic_mol33.jpg | MEDIUM | - |
+| 5d63ef09dad839b8fc925b808bf38e2a093184cc4773f23edf4e6c0bd4c56817.jpg | 有机分子结构 | clayden_ch41_organic_mol34.jpg | MEDIUM | - |
+| 5de7cb38177a812548cdcdaf0801cf6484773ed6d920e87c00086d9be9f06b4e.jpg | 有机分子结构 | clayden_ch41_organic_mol35.jpg | MEDIUM | - |
+| 61767679dc2e016d37beb63b6f3a9327d42f71a88e9ef1ba4d58db465387e655.jpg | 有机分子结构 | clayden_ch41_organic_mol36.jpg | MEDIUM | - |
+| 667efadb827ae5f76ededc3ec191a1279c098cf5ba64a323df141fd8d082a981.jpg | 有机分子结构 | clayden_ch41_organic_mol37.jpg | MEDIUM | - |
+| 68df00f09b3f664dd11221ab26798791c2153b31b4ad7817c80626d73adfea38.jpg | 有机分子结构 | clayden_ch41_organic_mol38.jpg | MEDIUM | - |
+| 69510c98989f263e66431c8560c783ae089443a00d7ac87b7ca7a61e599d7a21.jpg | 有机分子结构 | clayden_ch41_organic_mol39.jpg | MEDIUM | - |
+| 6975573a12d7d1cb63d3adcf59e66b9b3a3da7d454244bd264f35708582b0f9e.jpg | 有机分子结构 | clayden_ch41_organic_mol40.jpg | MEDIUM | - |
+| 6bba792c5b3404b11c00231419d688e5f4098d12f18803f7756535f9ccc892e5.jpg | 有机分子结构 | clayden_ch41_organic_mol41.jpg | MEDIUM | - |
+| 6bd3ab8210f67c0d69819730b3d5ca793ceae91547f276879ea75811ef228a79.jpg | 有机分子结构 | clayden_ch41_organic_mol42.jpg | MEDIUM | - |
+| 6fa6f306bec2037b35308c4489271533d41a179a7131e7df5401bcbaee95afd5.jpg | 有机分子结构 | clayden_ch41_organic_mol43.jpg | MEDIUM | - |
+| 71754e3c132a08237d3a1e1ca9139dc1d89dba0a783ba061cc64304896d4845d.jpg | 有机分子结构 | clayden_ch41_organic_mol44.jpg | MEDIUM | - |
+| 7471cddf25eeef77e87c1a828091d6da90dcfefcd5b5b0107d89aa510d8716ca.jpg | 有机分子结构 | clayden_ch41_organic_mol45.jpg | MEDIUM | - |
+| 772bf53944f39e244b103ba0861fd50d2dc659b3c43359811acd7ae53a1aa2f8.jpg | 有机分子结构 | clayden_ch41_organic_mol46.jpg | MEDIUM | - |
+| 7753becb86f78d5cc4313e8fa61b63583cadd079ee535dc0aee7c72474f9cc2f.jpg | 有机分子结构 | clayden_ch41_organic_mol47.jpg | MEDIUM | - |
+| 7915a11ae4a547d5038e73c34113adb76d01f753c1d7d1d098aba3b312232a9c.jpg | 有机分子结构 | clayden_ch41_organic_mol48.jpg | MEDIUM | - |
+| 79928b96f1e92bc90637199f0cfe9e80e45b8e9795a2dafcf0527ecdd169a621.jpg | 有机分子结构 | clayden_ch41_organic_mol49.jpg | MEDIUM | - |
+| 7f65581e09d62b42ef5570f08536d544d3d48ca966820b4928977588b5c77dfb.jpg | 有机分子结构 | clayden_ch41_organic_mol50.jpg | MEDIUM | - |
+| 844a7daa1a6aeaf4297815b8d180cb5877305605a23a1631af72ca426317cfef.jpg | 有机分子结构 | clayden_ch41_organic_mol51.jpg | MEDIUM | - |
+| 862cfd165a6422e407b400952f8d0e082bc64e24b10cd748aa33579efb3f839d.jpg | 有机分子结构 | clayden_ch41_organic_mol52.jpg | MEDIUM | - |
+| 87092ff360bdfc46ff5c9b1538e7b9b89605ab5c41158a5471d8f991169daccc.jpg | 有机分子结构 | clayden_ch41_organic_mol53.jpg | MEDIUM | - |
+| 8c6a91b3d72d5bc790dbd03417858ea2989f44b2e876b22c0155e2518eea2d5e.jpg | 有机分子结构 | clayden_ch41_organic_mol54.jpg | MEDIUM | - |
+| 8d8a0821ede7c9e01f55058d520cff2dec9243f71086e16a05b0c300d9a3a237.jpg | 有机分子结构 | clayden_ch41_organic_mol55.jpg | MEDIUM | - |
+| 91898f0d740dd2eaaa428567277db0dc4e58d3ef263b958e495382df07b12c1b.jpg | 有机分子结构 | clayden_ch41_organic_mol56.jpg | MEDIUM | - |
+| 921bd5c7c7f027841273110db923183c67844d9c247a1d77c9dc4a0c3c6cc507.jpg | 有机分子结构 | clayden_ch41_organic_mol57.jpg | MEDIUM | - |
+| 93376b21b13174c6a9232a4bf749253ee917b81f6f21464c75d97364b231161b.jpg | 有机分子结构 | clayden_ch41_organic_mol58.jpg | MEDIUM | - |
+| 95b84164037e54db3ed4f5398367a2c94da92a6cd125924712d3b97f5a24c63c.jpg | 有机分子结构 | clayden_ch41_organic_mol59.jpg | MEDIUM | - |
+| 966909a938c3350a429de64e051349f5f169260e172ef6e77f2b5b6e07420d93.jpg | 有机分子结构 | clayden_ch41_organic_mol60.jpg | MEDIUM | - |
+| 97292dae9eabce14c6c9e27c35f5f984017bb5c70b6b3d386a70c9f377f3fb63.jpg | 有机分子结构 | clayden_ch41_organic_mol61.jpg | MEDIUM | - |
+| 973115d4856445412a675860d5ba8c43c442fdfe36933f8d9db3d3ac5b201976.jpg | 有机分子结构 | clayden_ch41_organic_mol62.jpg | MEDIUM | - |
+| 9af3e22748b1becf94c513d7a905acbdee981e6be98b987057a4ca38279f40e7.jpg | 有机分子结构 | clayden_ch41_organic_mol63.jpg | MEDIUM | - |
+| 9c6a824635e0e6c81a38aa0b345ba6689c0c1cbc2184f9da15c3b67eb0a84607.jpg | 有机分子结构 | clayden_ch41_organic_mol64.jpg | MEDIUM | - |
+| 9d30a1b8223620f36a754d526ee974ba14b8ede5ccd53d238280fe582605e70a.jpg | 有机分子结构 | clayden_ch41_organic_mol65.jpg | MEDIUM | - |
+| 9e40febb23f0819cf52103e389b63879451b8d40d75ab23cd08b42c85c5668e6.jpg | 有机分子结构 | clayden_ch41_organic_mol66.jpg | MEDIUM | - |
+| 9edd0a83b4cd7d35c528f705fd3bc0a603beec3ec288cfb60f5e6c838aebf407.jpg | 有机分子结构 | clayden_ch41_organic_mol67.jpg | MEDIUM | - |
+| 9fc5951c42423f1621ce117c9e83b1677cbe085873b10c2984af8e4f61868d60.jpg | 有机分子结构 | clayden_ch41_organic_mol68.jpg | MEDIUM | - |
+| a0d3ccca285137fe162d19aa8744e22f1307ae3012982da7e0e1235e86beb24a.jpg | 有机分子结构 | clayden_ch41_organic_mol69.jpg | MEDIUM | - |
+| a285e5431530a79eb6f68f46f076bf80743f95f3e52d7f293e37f7fe85182cde.jpg | 有机分子结构 | clayden_ch41_organic_mol70.jpg | MEDIUM | - |
+| a4e23923cf263f5e146950aac8ff28ab3219adbd6283779592abe7213b1c9c4c.jpg | 有机分子结构 | clayden_ch41_organic_mol71.jpg | MEDIUM | - |
+| a4f22bc430d12cf0aaeb075558b388704d65a7ad020712b9688bcee04ca0d91e.jpg | 有机分子结构 | clayden_ch41_organic_mol72.jpg | MEDIUM | - |
+| a61c161cff38ff29da1fdcf4457dab49b750f11d714abe752543166f17e61288.jpg | 有机分子结构 | clayden_ch41_organic_mol73.jpg | MEDIUM | - |
+| aa0dfeaa8e942255c82ceba767256a5b927d57f1e032ed6e958221cee00ec718.jpg | 有机分子结构 | clayden_ch41_organic_mol74.jpg | MEDIUM | - |
+| aa5fe152963b79f838f27f37b31d3f57179097a120e2cdfd94d31f828a07c7b0.jpg | 有机分子结构 | clayden_ch41_organic_mol75.jpg | MEDIUM | - |
+| ac20bea909443d9fa72338a9faa0586526cbf6a09c35ea61e60dbff7a34ce455.jpg | 有机分子结构 | clayden_ch41_organic_mol76.jpg | MEDIUM | - |
+| af82c4858f9cd80decaa641890db3bfb990920752a3816fe804d9f62bab707be.jpg | 有机分子结构 | clayden_ch41_organic_mol77.jpg | MEDIUM | - |
+| b34a7c15bffafeadb7ddb12a39622724dc662aadcb9f111c7e63bc37ee8c2f1b.jpg | 有机分子结构 | clayden_ch41_organic_mol78.jpg | MEDIUM | - |
+| b448a7f7ee529eee263ca6243194c3a2eb99229daed15fd2d46e9f0eced0413b.jpg | 有机分子结构 | clayden_ch41_organic_mol79.jpg | MEDIUM | - |
+| b51d7fe95245a1cdd6f28742f804c0f2787eb4d46eb57b4668e2a5fceb284362.jpg | 有机分子结构 | clayden_ch41_organic_mol80.jpg | MEDIUM | - |
+| bca58c3ddc533996ad86c4c6783021dccc9fbd6033f6e68cb5d9fd3239464dc2.jpg | 有机分子结构 | clayden_ch41_organic_mol81.jpg | MEDIUM | - |
+| bcd51d85a32b2e179dad1828c3daa360705c0941a41be46ea0713bafb707a767.jpg | 有机分子结构 | clayden_ch41_organic_mol82.jpg | MEDIUM | - |
+| bfb6d6680759e2659f9c2347ca2479e19d8169f6502183f70d3fdb59462d7679.jpg | 有机分子结构 | clayden_ch41_organic_mol83.jpg | MEDIUM | - |
+| c2f7febbdf61b9f2aef8073bcc2f8d61353b7734bec66e3ce07a0cdae10b3a37.jpg | 有机分子结构 | clayden_ch41_organic_mol84.jpg | MEDIUM | - |
+| c5ee53bf21c3dfa0a4292605627e385b7aa505461129877258b10c96f2ad85bf.jpg | 有机分子结构 | clayden_ch41_organic_mol85.jpg | MEDIUM | - |
+| c63b81ed906292072056df1e89456fdd32e112ee1c83879198a461375128de2e.jpg | 有机分子结构 | clayden_ch41_organic_mol86.jpg | MEDIUM | - |
+| c91c2345b137b5eb4752f7d61258b76c29817af346cc08ba65c4f07b8f9dbf98.jpg | 有机分子结构 | clayden_ch41_organic_mol87.jpg | MEDIUM | - |
+| c91f26ff1e5e60b28dd70c7ae7a417f6e72e1c7194e768ccd7181319933fbb3b.jpg | 有机分子结构 | clayden_ch41_organic_mol88.jpg | MEDIUM | - |
+| ccf1017faf1b66cb8eea124cc38ec63ae7ba2cacc740aee8f4d63a5005c8c213.jpg | 有机分子结构 | clayden_ch41_organic_mol89.jpg | MEDIUM | - |
+| cdb8f3c0276ef2d04eec91c83f6292c929e7f9fef593cd96f8bb5168463f5609.jpg | 有机分子结构 | clayden_ch41_organic_mol90.jpg | MEDIUM | - |
+| cf88dde184d4a078d871de3d07aed7a9136199e5272a2477de82d917c2179218.jpg | 有机分子结构 | clayden_ch41_organic_mol91.jpg | MEDIUM | - |
+| d24bd62344bdda4030114bc6625ba8d1b9a143dca794b31c04d7ef8639eaadab.jpg | 有机分子结构 | clayden_ch41_organic_mol92.jpg | MEDIUM | - |
+| d360e81d22457ed12b6ff84c6aeeb86d5e2e7b76dfe152874332d7be2859aca4.jpg | 有机分子结构 | clayden_ch41_organic_mol93.jpg | MEDIUM | - |
+| d54ef6947e37bf01099d98598607b47c82e53631590a3ee519b308ccc4b4ab20.jpg | 有机分子结构 | clayden_ch41_organic_mol94.jpg | MEDIUM | - |
+| d61fef6695268760834e149a3dd7aadca6f3af50a30ee213aa4385a581678db3.jpg | 有机分子结构 | clayden_ch41_organic_mol95.jpg | MEDIUM | - |
+| d64fe11e6398f81d0f41cf14d6a9ba01cc623976e43857aa47dc73ef0b3310ca.jpg | 有机分子结构 | clayden_ch41_organic_mol96.jpg | MEDIUM | - |
+| d92371446b8031c23768bea0611ed0a98c135a7f3d580e280cdf1633070957b8.jpg | 有机分子结构 | clayden_ch41_organic_mol97.jpg | MEDIUM | - |
+| da67a92e4a11cdb03be01baceea2889df4f3944af7b45592f00d2deff2dfd30b.jpg | 有机分子结构 | clayden_ch41_organic_mol98.jpg | MEDIUM | - |
+| de66e3d00b59ad43470f7ac1d00b253d91f36439479c2d5004b4f5a781465a21.jpg | 有机分子结构 | clayden_ch41_organic_mol99.jpg | MEDIUM | - |
+| e6a62d8345e9980544e603ceee94846b89d25b1fd17942a26b2b228303761a6c.jpg | 有机分子结构 | clayden_ch41_organic_mol100.jpg | MEDIUM | - |
+| eaf2c2db0bf3f07965b46661a3bd5e68c89754ec3ec3f6530f086b16fccf2b1e.jpg | 有机分子结构 | clayden_ch41_organic_mol101.jpg | MEDIUM | - |
+| eccbf6a54b4672b5bf12dcb76d44a139f6bafda95ff0e684da32a75c82adcdee.jpg | 有机分子结构 | clayden_ch41_organic_mol102.jpg | MEDIUM | - |
+| f4cf0af79c9ae4a57c172140cea7400b12a5e87d51ad7f4b73c16c98942336e1.jpg | 有机分子结构 | clayden_ch41_organic_mol103.jpg | MEDIUM | - |
+| f588f65d969353eebf764f254e2573b6e4e9b9d65074e25985e926ac66b1b22a.jpg | 有机分子结构 | clayden_ch41_organic_mol104.jpg | MEDIUM | - |
+| f814b5cc9bd8847b0be72fdb3609317a3133b70e3fd9cbaaf51137bfcc8a685f.jpg | 有机分子结构 | clayden_ch41_organic_mol105.jpg | MEDIUM | - |

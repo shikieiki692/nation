@@ -29,13 +29,13 @@ stage: published
 sources: ["ABOC §9.4"]
 source_type: []
 review_cycle: 30d
-has_images: false
-image_count: 0
+has_images: true
+image_count: 1
 images_priority: medium
-images_note: "当前未嵌入图像文件；该主题具备一定可视化价值，后续备课时可优先补充结构示意图、关系图或谱图。"
+images_note: "已嵌入吲哚与酰胺分子结构图（π电子数标注），来自赵鑫光笔记。"
 teaching_ready: false
 source_notes: []
-key_images: []
+key_images: ["zhao_indole_amide_pi_042e6d75.jpg"]
 updated: 2026-05-10
 source_extracts:
   - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-PhaseD-习题拆题清单]]"
@@ -69,6 +69,8 @@ source_extracts:
 ---
 
 ## 一、定义
+
+![[zhao_indole_amide_pi_042e6d75.jpg]]
 
 **Fischer 吲哚合成**：**芳基肼**与**酮或醛**在**酸催化**下反应，首先形成**苯腙**，随后经**[3,3]-σ 迁移**、**环化**和**芳构化**，生成**吲哚**衍生物的反应。
 

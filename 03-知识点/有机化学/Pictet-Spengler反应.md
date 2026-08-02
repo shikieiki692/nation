@@ -20,7 +20,7 @@ tags:
   - 生物碱合成
   - 亚胺
 related: [Skraup合成, Bischler-Napieralski反应, 杂环合成, 生物碱]
-prerequisite: [芳香胺, 亚胺, 缩合反应, 杂环化合物基础]
+prerequisite: [芳香胺, 亚胺, 缩合反应, 杂环化合物]
 problem_types: [题型-产物预测, 题型-机理推断, 题型-合成设计]
 difficulty: 3
 importance: 4

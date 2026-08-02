@@ -1,6 +1,6 @@
 ---
 title: "pptx-toolkit README"
-type: "系统"
+type: 系统
 updated: 2026-06-29
 tags: ["系统", "PPTX", "模板"]
 ---

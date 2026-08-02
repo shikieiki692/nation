@@ -37,6 +37,14 @@ key_images:
   - "00-附件/weller_figures/TS_d6_diagram.svg"
   - "00-附件/weller_figures/TS_d7_diagram.svg"
   - "00-附件/weller_figures/TS_d8_diagram.svg"
+visualizations:
+  - type: online_tool
+    url: "https://www.webqc.org/tanabe-sugano.php"
+    description: "WebQC交互式Tanabe-Sugano图（可选择dⁿ构型）"
+  - type: reference
+    description: "Wikimedia Commons d²-d⁸全套TS图（CC BY-SA）"
+related_tools:
+  - "[[08-可视化资源/01-工具指南/化学可视化深入专题-晶体场到反应机理#1.3 Tanabe-Sugano 图|TS图专题]]"
 source_extracts:
   - source_file: "[[提炼-无机化学第6版-第20章-配位化学理论]]"
     asset_id: "20-4"
@@ -45,7 +53,7 @@ source_extracts:
     target_section: "一 / 二 / 四"
     date: "2026-06-09"
     status: "已回流"
-updated: 2026-06-21
+updated: 2026-08-02
 ---
 
 # Tanabe-Sugano图（Tanabe-Sugano Diagram）

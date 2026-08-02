@@ -20,7 +20,7 @@ tags:
   - 钠
   - 卤代烷
   - 对称烷烃
-related: [自由基, 单电子反应, 金属有机, 偶联反应, Fittig反应, Kolbe电解, 格氏试剂]
+related: [自由基, 单电子反应, 金属有机, 偶联反应, Fittig反应, Kolbe电解, Grignard试剂]
 prerequisite: [自由基, 卤代烷, 氧化还原]
 problem_types: [题型-对称烷烃合成, 题型-偶联机理书写, 题型-反应条件选择]
 difficulty: 3

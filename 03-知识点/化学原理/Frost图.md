@@ -44,9 +44,9 @@ source_type:
   - 教学逻辑提炼
   - 专题归纳
 has_images: true
-image_count: 1
+image_count: 3
 images_priority: high
-images_note: "Weller图5.5一般形式 + 图5.6氮实例"
+images_note: "Weller图5.5一般形式 + 图5.6氮实例 + Mn酸性Frost + 卤素Frost"
 key_images:
   - "[[10-附件/图注/Frost图-一般形式]]"
   - "[[10-附件/图注/Frost图-氮元素实例]]"
@@ -186,6 +186,9 @@ $$2Mn^{3+}(aq) + 2H_2O(l) \longrightarrow Mn^{2+}(aq) + MnO_2(s) + 4H^+(aq)$$
 
 **反思**：Frost 图的"上方 = 不稳定"与日常直觉相反——学生容易记成"越高越稳定"，需要强调纵坐标是 $\nu E^{\ominus}$（∝ Gibbs 自由能），**越低（越负）越稳定**。
 
+![[mn-frost-diagram-acid.jpg]]
+> **锰在酸性溶液中的 Frost 图**：$Mn^{3+}$（N=+3）位于 $Mn^{2+}$ 和 $MnO_2$ 连线上方，不稳定发生歧化。
+
 ### 例题 2
 **题目**：参考氮的 Frost 图（图 5.6），比较 $NO_3^-$ 在酸性和碱性溶液中作为氧化剂的强弱。
 
@@ -196,6 +199,9 @@ $$2Mn^{3+}(aq) + 2H_2O(l) \longrightarrow Mn^{2+}(aq) + MnO_2(s) + 4H^+(aq)$$
 **分析**：比较 $NO_3^- \to$ 较低氧化态物种的线段斜率。斜率越陡，$E^{\ominus}$ 越大，氧化性越强。
 
 **解答**：酸性图中 $NO_3^- \to NH_4^+$ 的线段斜率远大于碱性图中对应线段的斜率，因此 $NO_3^-$ 在酸性溶液中是更强的氧化剂。
+
+![[halogen-frost-diagram.jpg]]
+> **卤素元素的 Frost 图**：对比 F、Cl、Br、I 在酸性溶液中的氧化态稳定性。氟的曲线最陡（最强氧化剂），碘最平缓。
 
 **反思**：这与化学直觉一致——硝酸在酸性条件下是强氧化剂，而在中性/碱性条件下氧化性显著减弱。
 

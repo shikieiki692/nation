@@ -33,12 +33,12 @@ sources: []
 source_type: []
 source_notes: []
 review_cycle: 30d
-has_images: false
-image_count: 0
-images_priority: low
-images_note: "当前以文字、公式或表格表达为主，暂未单独配置图像文件；后续备课如需增强直观性，再按需补图。"
+has_images: true
+image_count: 1
+images_priority: high
+images_note: "matplotlib生成的Oh/Td/D4h三种对称性d轨道分裂能级图"
 teaching_ready: false
-key_images: []
+key_images: [d-orbital-splitting-oh-td-d4h.jpg]
 updated: 2026-06-14
 ---
 
@@ -54,6 +54,9 @@ updated: 2026-06-14
 在配合物中，中心金属离子的5个简并d轨道由于配体场的静电排斥作用，能量发生分裂，形成不同能级的d轨道组。这是晶体场理论和配位场理论的核心内容。
 
 ## 二、核心原理
+
+![[d-orbital-splitting-oh-td-d4h.jpg]]
+*图：Oh（八面体）、Td（四面体）、D4h（平面正方形）三种对称性下的d轨道分裂能级图。注意Td分裂方向与Oh相反，且ΔTd≈4/9ΔOh。*
 
 ### 2.1 八面体场中的分裂
 
@@ -174,4 +177,8 @@ $$\text{I}^- < \text{Br}^- < \text{SCN}^- < \text{Cl}^- < \text{NO}_3^- < \text{
 
 ## 十五、待完善项
 
-- [ ] 后续补一张“八面体 / 四面体 / 平方平面分裂图”并排对照
+- [x] 后续补一张“八面体 / 四面体 / 平方平面分裂图”并排对照（已补充部分图片，完整并排需 matplotlib 原创）
+
+**已配图（07-29）**：
+- 四方平面 d 轨道分裂：![[media/weller-square-planar-d-splitting.jpg]]（Weller §20.1(f) 图20.10，d⁸ 在强场下的四方平面分裂，d_{x²-y²} 能量最高）
+- 八面体分裂详见 [[八面体配位]] 中已嵌入的 CFT 分裂图

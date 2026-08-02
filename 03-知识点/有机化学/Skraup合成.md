@@ -19,7 +19,7 @@ tags:
   - Michael加成
   - 芳香胺
 related: [Pictet-Spengler反应, Bischler-Napieralski反应, 杂环合成, 芳香胺]
-prerequisite: [芳香胺, Michael加成, 缩合反应, 杂环化合物基础]
+prerequisite: [芳香胺, Michael加成, 缩合反应, 杂环化合物]
 problem_types: [题型-产物预测, 题型-机理推断, 题型-合成设计]
 difficulty: 3
 importance: 4

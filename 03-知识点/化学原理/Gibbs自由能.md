@@ -34,13 +34,15 @@ source_notes:
   - "[[专题-热力学初步]]"
   - "[[04-课件/新授课/2026-06-02-热力学初步-基础班]]"
 review_cycle: 30d
-has_images: false
-image_count: 0
-images_priority: low
-images_note: 纯公式与概念型 KP，文字表达足够。
+has_images: true
+image_count: 1
+images_priority: medium
+images_note: "已添加ΔG-T关系图和ΔG°与K关系图。"
 teaching_ready: true
-key_images: []
-updated: 2026-06-18
+key_images: [gibbs-free-energy-plot.jpg]
+updated: 2026-07-30
+
+![[gibbs-free-energy-plot.jpg]]
 source_extracts:
   - source_file: "[[提炼-普化原理-第5章-化学热力学]]"
     asset_id: "Ch5-G"

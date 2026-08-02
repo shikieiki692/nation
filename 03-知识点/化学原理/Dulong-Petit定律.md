@@ -1,8 +1,9 @@
 ---
 type: 知识点
+template_version: v1.3
 title: "Dulong-Petit定律"
 subject: 化学原理
-module: 物理化学
+module: 化学原理
 tags: [化竞, 化学原理, 物理化学]
 status: 已填充
 created: 2026-07-18

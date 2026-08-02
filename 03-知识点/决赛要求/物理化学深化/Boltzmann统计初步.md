@@ -23,13 +23,15 @@ sources: []
 source_type: []
 source_notes: []
 review_cycle: 30d
-has_images: false
-image_count: 0
-images_priority: low
-images_note: "当前以文字、公式或表格表达为主，暂未单独配置图像文件；后续备课如需增强直观性，再按需补图。"
+has_images: true
+image_count: 1
+images_priority: medium
+images_note: "已添加Boltzmann能量分布和活化能与温度对速率常数影响图。"
 teaching_ready: false
-key_images: []
-updated: 2026-06-14
+key_images: [boltzmann-energy-distribution.jpg]
+updated: 2026-07-30
+
+![[boltzmann-energy-distribution.jpg]]
 source_extracts:
   - source_file: "[[07-资料提炼/书籍提炼/提炼-Atkins物理化学-主题13-14-统计热力学与分子相互作用]]"
     asset_id: "Atkins主题13-14"
@@ -217,7 +219,16 @@ $$q^{\mathrm{V}} = 1.031 \times 1.276 \times 1.028 = 1.352$$
 
 ## 十五、待完善项
 
-- [ ] 后续补一张“布居分布 → 配分函数 → 热力学量”流程图
+```mermaid
+graph LR
+    A["能级 εᵢ 布居 nᵢ"] -->|"Boltzmann分布"| B["配分函数 q = Σgᵢe^(-εᵢ/kT)"]
+    B --> C["U = -∂lnq/∂β"]
+    B --> D["S = k lnq + U/T"]
+    B --> E["Cv = ∂U/∂T"]
+    B --> F["G = -kT lnq"]
+```
+
+- [x] 后续补一张“布居分布 → 配分函数 → 热力学量”流程图
 
 ## 一、Boltzmann 熵公式
 

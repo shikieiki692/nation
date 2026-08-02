@@ -28,11 +28,10 @@ sources:
   - 2026-06-02-气体与溶液-基础班
 source_type: [书籍提炼, 教学逻辑提炼, 课件回流]
 review_cycle: 30d
-has_images: false
-image_count: 0
-images_priority: low
-images_note: "建议后续补 Z-p 偏差图和临界等温线图；当前先以公式、对比表和计算例题承担教学。"
-key_images: []
+has_images: true
+image_count: 1
+images_priority: medium
+images_note: "已配van der Waals等温线图，展示实际气体P-V关系。"
 template_version: v1.3
 updated: 2026-06-18
 source_extracts:

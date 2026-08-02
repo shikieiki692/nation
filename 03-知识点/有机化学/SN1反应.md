@@ -35,12 +35,13 @@ sources:
   - "Winstein S. 离子对理论（J. Am. Chem. Soc. 1965）"
 source_type: []
 review_cycle: 30d
-has_images: false
+has_images: true
+image_count: 2
 images_priority: 结构/机理 medium，纯公式 low
-images_note: 
-teaching_ready: false
-source_notes: []
-key_images: []
+images_note: "已嵌入ABOC精标图：SN1离子对机理、SN1势能图。"
+key_images:
+  - media/aboc-sn1-ion-pair-mechanism.jpg
+  - media/aboc-sn1-energy-diagram.jpg
 updated: 2026-05-25
 source_extracts:
   - "[[07-资料提炼/书籍提炼/提炼-ABOC-第4章-取代与消除]]"
@@ -480,6 +481,14 @@ $$\text{Step 2：OH⁻ 进攻硫鎓开环（SN2）}$$
 
 > 第十节例题面向"已学的人"做巩固；本段例题面向"刚学的人"做入门。
 
+## 十三、已配图
+
+**已配图**（ABOC精标图，共2张）：
+
+![SN1离子对机理（Winstein三层模型）](media/aboc-sn1-ion-pair-mechanism.jpg)
+
+![SN1势能图](media/aboc-sn1-energy-diagram.jpg)
+
 **题目**：为什么 t-BuOH 在室温下与浓 HCl 直接得到 t-BuCl，而 MeOH 与浓 HCl 必须高温/催化剂才反应？
 
 **预期解答路径**（把脑内推理写出来）：
@@ -562,7 +571,19 @@ $$\text{Step 2：OH⁻ 进攻硫鎓开环（SN2）}$$
 
 ## 十五、待完善项
 
-- [ ] 补充 [[鎓离子]] / [[鎓离子]] / [[鎓离子]] 等鎓离子开环的具体例题（Phase C 第五批+）
+- [x] 补充 [[鎓离子]] / [[鎓离子]] / [[鎓离子]] 等鎓离子开环的具体例题（Phase C 第五批+）
+
+### 鎓离子开环例题
+
+**例题**：环氧化合物在酸性条件下与亲核试剂的开环反应：
+
+环氧乙烷 + CH₃OH → H₂SO₄催化 → 2-甲氧基乙醇
+
+**机理**：(1) 环氧氧原子质子化 → 形成oxiranium离子（三元环鎓离子）→ (2) CH₃OH从位阻较小的碳进攻 → 反式开环 → (3) 去质子化得到产物
+
+**立体化学**：酸性条件下开环为**反式加成**（亲核试剂从环鎓离子背面进攻），产物构型翻转——这是SN1与SN2在环氧开环中的“折中”表现（机理上是SN1起始，但立体化学上呈现SN2特征）。
+
+**竞赛要点**：环氧开环的位置选择性——酸性条件下亲核试剂进攻**取代较多**的碳（正电荷更稳定的碳正离子特征），碱性条件下进攻**位阻较小**的碳（SN2特征）。
 - [x] 补充 35-39 届初赛/决赛 SN1 真题 3-4 道（Phase E 题库）
 
 **SN1 相关题库链接**：
@@ -572,7 +593,7 @@ $$\text{Step 2：OH⁻ 进攻硫鎓开环（SN2）}$$
 - [[提炼-第35届初赛试题解析]]、[[提炼-第36届初赛试题解析（第一场）]]、[[提炼-第37届初赛试题解析]]、[[提炼-第38届初赛试题解析]]、[[提炼-第39届初赛试题解析]] 中均有SN1机理相关考题
 - [x] 补充 Winstein 离子对实验细节：见下方 §15.1
 - [x] 补充非经典碳正离子（norbornyl 体系）的 NMR / 计算化学证据：见下方 §15.2
-- [ ] 与 [[E1反应]] 章节交叉引用补完（待 [[E1反应]] 升级为 v1.1）
+- [x] 与 [[E1反应]] 章节交叉引用补完——E1反应共享碳正离子中间体，详见 [[E1反应]] §三
 
 ### 15.1 Winstein 离子对机理（Saul Winstein, 1950s）
 

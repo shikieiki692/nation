@@ -239,7 +239,7 @@ $$
 - Tojo, G.; Fernández, M. *Oxidation of Alcohols to Aldehydes and Ketones*, Springer, 2006.
 
 ## 十四、待完善项
-- [ ] 补充 Pummerer 重排单独成 KP（[[Pummerer重排]]）
+- [x] 补充 Pummerer 重排单独成 KP（[[Pummerer重排]]）——已完成，Pummerer重排KP已创建
 - [x] 补充各 DMSO 氧化方法的工艺规模对比表
 - [x] 补充竞赛真题中出现的 Swern 应用例
 

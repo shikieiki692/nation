@@ -5,7 +5,7 @@ role: 工具说明
 module: 系统
 subject: 系统
 tags: [化竞, Agent, 数据库, Bases, 工作流]
-updated: 2026-06-15
+updated: 2026-08-01
 ---
 
 # Agent 数据库使用指南

@@ -30,13 +30,15 @@ source_notes:
   - "[[专题-化学动力学初步]]"
   - "[[04-课件/新授课/2026-06-02-化学动力学初步-基础班]]"
 review_cycle: 30d
-has_images: false
-image_count: 0
-images_priority: low
-images_note: "当前以公式、作图法与两点法计算为主，文字足够；后续如补图可加入lnk-1/T直线示意。"
+has_images: true
+image_count: 1
+images_priority: medium
+images_note: "已添加Arrhenius图（lnk-1/T直线）和速率常数随温度变化曲线。"
 teaching_ready: false
-key_images: []
-updated: 2026-06-04
+key_images: [arrhenius-equation-plot.jpg]
+updated: 2026-07-30
+
+![[arrhenius-equation-plot.jpg]]
 source_extracts:
   - "[[07-资料提炼/书籍提炼/提炼-普化原理-第7章-化学反应速率]]"
 ---

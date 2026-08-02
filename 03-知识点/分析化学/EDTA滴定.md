@@ -1,6 +1,9 @@
 ---
 
 type: 知识点
+template_version: v1.3
+subject: 分析化学
+module: 分析化学
 title: "EDTA滴定"
 created: 2026-07-18
 updated: 2026-07-18
@@ -34,9 +37,6 @@ difficulty: 3
 ---
 
 # EDTA滴定
-
-> [!note] 待完善
-> 此知识点笔记由系统自动创建，内容待补充。
 
 ## 核心概念
 

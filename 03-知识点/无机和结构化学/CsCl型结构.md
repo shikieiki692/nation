@@ -26,9 +26,9 @@ sources:
 source_type: [书籍提炼, 书籍提炼, 课件回流]
 review_cycle: 30d
 has_images: true
-image_count: 1
+image_count: 2
 images_priority: high
-images_note: "已补入 CsCl 型晶胞图，可直接观察 8:8 配位与简单立方骨架。"
+images_note: "已补入 CsCl 型晶胞图（Weller空间填充+普化原理晶胞线框），可直接观察 8:8 配位与简单立方骨架。"
 teaching_ready: false
 source_notes:
   - "[[提炼-普化原理-第13章-晶体与晶体结构]]"
@@ -52,7 +52,11 @@ source_extracts:
 
 ![[mineru/03-教材书籍/无机化学第6版Weller/无机化学第6版Weller/无机化学第6版主族364-564_images/e8c063cd097e9ee511f4b3756ae74d5379557d009dcad2e645ba84021d643f2d.jpg]]
 
-> 这类图最适合强调一个常见误区：`CsCl 型` 不是“体心立方点阵”，而是两套简单立方点阵互相穿插。
+> Weller 无机化学中的 CsCl 型结构空间填充图，展示 8:8 配位的紧密排列。
+
+![[media/puhua-cscl-unit-cell.jpg]]
+
+> 普通化学原理图 13.11(b) 的 CsCl 型晶胞线框图，清晰展示简单立方骨架 + 体心离子的 8:8 配位关系。注意顶点和体心是不同离子，因此是简单立方 P 点阵而非体心立方 I。
 
 - 总览：[[中国化学奥林匹克基本要求-总览]]
 - 所属模块：[[基础要求-无机和结构化学]]

@@ -19,7 +19,7 @@ tags:
   - β-酮酯
   - 氨
 related: [Paal-Knorr合成, 吡咯, 杂环合成]
-prerequisite: [缩合反应, 羰基化学, 卤代酮, 杂环化合物基础]
+prerequisite: [缩合反应, 羰基化学, 卤代酮, 杂环化合物]
 problem_types: [题型-产物预测, 题型-底物设计]
 difficulty: 3
 importance: 2
