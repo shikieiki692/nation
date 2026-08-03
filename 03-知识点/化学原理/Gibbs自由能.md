@@ -41,8 +41,6 @@ images_note: "已添加ΔG-T关系图和ΔG°与K关系图。"
 teaching_ready: true
 key_images: [gibbs-free-energy-plot.jpg]
 updated: 2026-07-30
-
-![[gibbs-free-energy-plot.jpg]]
 source_extracts:
   - source_file: "[[提炼-普化原理-第5章-化学热力学]]"
     asset_id: "Ch5-G"

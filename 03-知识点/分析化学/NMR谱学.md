@@ -1,6 +1,6 @@
 ---
 title: NMR谱学
-aliases: [Nuclear Magnetic Resonance Spectroscopy, 核磁共振谱学, NMR, 核磁, 核磁共振, 化学位移, 红外光谱, 红外]
+aliases: [Nuclear Magnetic Resonance Spectroscopy, 核磁共振谱学, NMR, 核磁, 核磁共振, 化学位移, 红外光谱, 红外, 偶合常数, 13C NMR, 1H NMR]
 type: 知识点
 subject: 分析化学
 module: 分析化学
@@ -27,7 +27,7 @@ images_priority: 滴定曲线/光谱 medium，概念 low
 images_note: "当前以文字、公式或表格表达为主，暂未单独配置图像文件；后续备课如需增强直观性，再按需补图。"
 teaching_ready: false
 source_notes: []
-source_extracts: ["[[07-资料提炼/书籍提炼/提炼-ABOC-第10章-光谱与自由基.Replace('.md','')]]", "[[07-资料提炼/书籍提炼/提炼-Clayden-第13章-核磁共振氢谱.Replace('.md','')]]", "[[07-资料提炼/书籍提炼/提炼-Clayden-第18章-光谱法综述.Replace('.md','')]]", "[[07-资料提炼/书籍提炼/提炼-Clayden-第3章-有机结构的确定.Replace('.md','')]]"]
+source_extracts: ["[[07-资料提炼/书籍提炼/提炼-ABOC-第10章-光谱与自由基]]", "[[07-资料提炼/书籍提炼/提炼-Clayden-第13章-核磁共振氢谱]]", "[[07-资料提炼/书籍提炼/提炼-Clayden-第18章-光谱法综述]]", "[[07-资料提炼/书籍提炼/提炼-Clayden-第3章-有机结构的确定]]"]
 key_images: []
 template_version: v1.3.2
 updated: 2026-05-25

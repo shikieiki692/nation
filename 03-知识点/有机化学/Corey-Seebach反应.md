@@ -20,6 +20,7 @@ importance: 4
 status: 已填充
 stage: published
 has_images: false
+updated: 2026-08-03
 ---
 
 # Corey-Seebach反应

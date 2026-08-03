@@ -4,6 +4,7 @@
 .claudian/
 kb-vault-mcp/node_modules/
 pptx-workspace/node_modules/
+.kb/
 
 .DS_Store
 Thumbs.db

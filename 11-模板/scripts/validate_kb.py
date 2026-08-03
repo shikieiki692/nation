@@ -72,6 +72,7 @@ EXCLUDE_PATH_PREFIXES = [
 ]
 LINK_RESOLUTION_EXTRA_PREFIXES = [
     "06-外部资料导入/",
+    "00-首页/",  # 系统入口页不扫描，但可作为链接目标（如 [[工作日志]] [[状态摘要]]）
 ]
 
 # ── 各 type 的必填 frontmatter 字段 ──────────────────────────
@@ -112,13 +113,13 @@ FIELD_ALIASES_BY_PATH: dict[str, dict[str, list[str]]] = {
 
 	# ── 允许的 status 枚举值（按 type）─────────────────────────────
 ALLOWED_STATUS: dict[str, list[str]] = {
-    "知识点": ["骨架", "初稿", "已填充", "stub", "deprecated", "已合并", "已废弃"],
+    "知识点": ["骨架", "初稿", "已填充", "stub", "deprecated", "已合并", "已废弃", "重定向"],
     "活跃任务卡": ["active", "blocked", "completed", "paused"],
     "考纲条目": ["active", "已完成", "未开始", "未覆盖", "部分填充", "已填充", "已覆盖"],
-    "专题": ["骨架", "初稿", "已填充", "草稿", "已审校", "精品", "完整"],
-    "题型": ["骨架", "初稿", "已填充", "框架", "完整", "可用"],
-    "题目": ["draft", "review", "published", "已入库", "已填充", "已补全答案"],
-    "资料提炼": ["草稿", "待审核", "待填充", "已提炼", "已填充"],
+    "专题": ["骨架", "初稿", "已填充", "草稿", "已审校", "精品", "完整", "deprecated"],
+    "题型": ["骨架", "初稿", "已填充", "框架", "完整", "可用", "deprecated"],
+    "题目": ["draft", "review", "published", "已入库", "已填充", "已补全答案", "deprecated", "待审核", "待填充"],
+    "资料提炼": ["草稿", "待审核", "待填充", "已提炼", "已填充", "进行中"],
     "教学逻辑提炼": ["草稿", "待审核", "已提炼"],
     "备课大纲": ["骨架", "初稿", "已填充", "draft", "review", "published", "草稿", "已审校", "待确认"],
 }
@@ -276,6 +277,39 @@ def check_frontmatter(file: Path, fm: dict[str, Any], report: Report) -> None:
             report.warning(rel, f"日期格式-{date_field}", f"'{val}' 不是 YYYY-MM-DD 格式")
 
 
+def is_placeholder_target(target: str) -> bool:
+    """判断 wikilink 目标是否为模板占位符（不应计为断链）。"""
+    if not target:
+        return True
+    # 模板变量语法 {…} / <…> / 某…
+    if "{" in target or "}" in target:
+        return True
+    if re.search(r"<[^>]+>", target):  # <日期> <主题> <KP> 等
+        return True
+    if re.search(r"[（(]?某[^）)]*[）)]?", target):  # 某知识点 / 某章节
+        return True
+    if re.search(r"相关(专题|真题|章节|讲义|知识点)", target):
+        return True
+    if re.search(r"知识点\d*$", target):  # 知识点1 / 知识点名
+        return True
+    if target.endswith("/path") or target.startswith("mineru/path"):
+        return True
+    if re.search(r"/\.\.\./", target) or target.endswith("/题号"):
+        return True
+    # 常见模板占位符模式
+    if re.fullmatch(r"[a-zA-Z]", target):  # 单字母 a/b 等
+        return True
+    if re.search(r"XX|XXX|§X", target):  # 大写占位符
+        return True
+    if re.search(r"KP[-_\s]?[XY\d]+", target):  # KP-1 / KP-X / KP_Y
+        return True
+    if re.fullmatch(r"(图名|完整相对路径|图片文件名|xxx)(\.\w+)?", target):
+        return True
+    if target in ("专题-XX", "题-XXX", "教学逻辑提炼-XX", "官能团"):
+        return True
+    return False
+
+
 def check_wikilinks(file: Path, body: str, report: Report) -> None:
     """提取 wikilink，标注断链。"""
     rel = file.relative_to(VAULT_ROOT).as_posix()
@@ -284,12 +318,28 @@ def check_wikilinks(file: Path, body: str, report: Report) -> None:
         target = normalize_wikilink_target(link)
         if not target:
             continue
+        # 模板占位符跳过
+        if is_placeholder_target(target):
+            continue
         # 处理图片嵌入 ![[image.png]] — 在 check_images 中处理
         if target.startswith("media/") or target.startswith("./media/"):
             continue
 
         # Wikilink 可能不带 .md，也可能带
         target_path = find_wikilink_target(target, VAULT_ROOT)
+        # Obsidian 目录链接：[[folder]] 指向存在的文件夹时视为有效
+        if target_path is None:
+            dir_candidate = VAULT_ROOT / target
+            if dir_candidate.is_dir():
+                target_path = dir_candidate
+        # 图片 wikilink：[[xxx.jpg]] 按全库 basename 解析（无 ! 前缀的图片引用）
+        if target_path is None and Path(target).suffix.lower() in {".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg"}:
+            global _IMAGE_INDEX
+            if _IMAGE_INDEX is None:
+                _IMAGE_INDEX = build_image_index(VAULT_ROOT)
+            matches = _IMAGE_INDEX.get(Path(target).name.lower(), [])
+            if matches:
+                target_path = matches[0]
         if target_path is None:
             report.warning(rel, "断链", f"[[{target}]] → 文件不存在")
 
@@ -399,7 +449,14 @@ def find_wikilink_target(target: str, vault_root: Path) -> Path | None:
         _FILENAME_INDEX = build_filename_index(vault_root)
 
     target_basename = target.split("/")[-1].lower()
+    if target_basename.endswith(".md"):
+        # 兼容 [[xxx.md]] 带后缀的写法
+        target_basename = target_basename[:-3]
     matches = _FILENAME_INDEX.get(target_basename, [])
+
+    # 也尝试去掉扩展名后再匹配（索引键 = f.stem.lower()，天然无 .md）
+    if not matches and Path(target_basename).suffix:
+        matches = _FILENAME_INDEX.get(Path(target_basename).stem.lower(), [])
 
     if len(matches) == 1:
         return matches[0]
@@ -442,18 +499,73 @@ def find_wikilink_target(target: str, vault_root: Path) -> Path | None:
     return None
 
 
+# ── 图片解析缓存（Obsidian 用全局 attachment 文件夹）──────
+_IMAGE_INDEX: dict[str, list[Path]] | None = None
+"""惰性构建：图片 basename（含扩展名）→ 匹配的文件列表（全库）"""
+
+
+def build_image_index(vault_root: Path) -> dict[str, list[Path]]:
+    """遍历 vault 下所有图片文件，建立 basename（含扩展名）→ [Path, ...] 索引。
+    Obsidian 的 attachmentFolderPath 是全局的（./assets、media/、.obsidian/media 等），
+    因此图片引用必须按全库 basename 解析，而不能只查单个固定目录。"""
+    index: dict[str, list[Path]] = {}
+    img_exts = {".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg"}
+    for f in vault_root.rglob("*"):
+        if not f.is_file():
+            continue
+        if f.suffix.lower() not in img_exts:
+            continue
+        rel = f.relative_to(vault_root).as_posix()
+        # .obsidian/media 是 Obsidian 全局附件库，可作为解析目标但跳过其他系统目录
+        if is_excluded_path(rel) and not rel.startswith(".obsidian/media/"):
+            continue
+        index.setdefault(f.name.lower(), []).append(f)
+    return index
+
+
+def is_placeholder_image_target(img_path: str) -> bool:
+    """判断图片引用是否为模板占位符（不应计为缺失）。"""
+    name = img_path.split("|")[0].strip()
+    base = Path(name).name.lower()
+    # 常见模板占位图片名
+    if re.fullmatch(r"(foo|xxx|filename|图名|图片文件名|文件名|example|placeholder|a|b)(\.[a-z0-9]+)?", base):
+        return True
+    if base.startswith("media/xxx") or base in ("media/...", "mineru/...", "..."):
+        return True
+    if re.search(r"(文件名|完整相对路径|占位图|示意图\.xxx)", base):
+        return True
+    if base.startswith("media/") and re.search(r"xxx|文件名|foo|placeholder", base):
+        return True
+    return False
+
+
 def check_images(file: Path, body: str, report: Report) -> None:
-    """检查 ![[media/...]] 引用是否存在。"""
+    """检查 ![[...]] 图片引用是否存在（全库 basename + 相对路径解析）。"""
+    global _IMAGE_INDEX
     rel = file.relative_to(VAULT_ROOT).as_posix()
     images = re.findall(r'!\[\[([^\]]+)\]\]', body)
     for img in images:
         # 提取实际路径（可能有 | 替代文本）
         img_path = img.split("|")[0].strip()
+        # 模板占位符跳过
+        if is_placeholder_image_target(img_path):
+            continue
         candidates = [
             VAULT_ROOT / img_path,
             VAULT_ROOT / "04-课件" / "学生讲义" / img_path,
         ]
         exists = any(c.is_file() for c in candidates)
+        if not exists and img_path.startswith("../"):
+            # 相对当前文件目录解析（Obsidian 允许 ../ 相对引用）
+            candidates.append((file.parent / img_path).resolve())
+            exists = any(c.is_file() for c in candidates)
+        if not exists:
+            # 全局 basename 索引（Obsidian 附件全局可解析）
+            if _IMAGE_INDEX is None:
+                _IMAGE_INDEX = build_image_index(VAULT_ROOT)
+            basename = Path(img_path).name.lower()
+            if basename in _IMAGE_INDEX:
+                exists = True
         if not exists:
             report.warning(rel, "图片缺失", f"![[{img_path}]] → 文件不存在")
 
@@ -597,7 +709,7 @@ def check_lifecycle(file: Path, fm: dict[str, Any], body: str, report: Report) -
         if not evidence:
             report.info(rel, "stage-建议",
                         "stage=published 但未设置 evidence 字段")
-        # 检查断链（published 不应有断链）
+        # 检查断链（published 不应有断链，图片目标按全库 basename 解析）
         links = re.findall(r'\[\[([^\]]+)\]\]', body)
         if links:
             broken = 0
@@ -605,10 +717,20 @@ def check_lifecycle(file: Path, fm: dict[str, Any], body: str, report: Report) -
                 target = normalize_wikilink_target(link)
                 if not target:
                     continue
+                if is_placeholder_target(target):
+                    continue
                 if target.startswith("media/") or target.startswith("./media/"):
                     continue
-                if find_wikilink_target(target, VAULT_ROOT) is None:
-                    broken += 1
+                if find_wikilink_target(target, VAULT_ROOT) is not None:
+                    continue
+                # 图片目标：按全库 basename 解析（Obsidian 附件全局可解析）
+                if Path(target).suffix.lower() in {".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg"}:
+                    global _IMAGE_INDEX
+                    if _IMAGE_INDEX is None:
+                        _IMAGE_INDEX = build_image_index(VAULT_ROOT)
+                    if _IMAGE_INDEX.get(Path(target).name.lower(), []):
+                        continue
+                broken += 1
             if broken > 0:
                 report.warning(rel, "stage-门禁",
                                f"stage=published 但存在 {broken} 处断链")

@@ -1141,7 +1141,7 @@ Cl-Cl + Br-Br.
 ㉜ H2O
 ㉝ H2O
 ㉟ H2O
-�YG H2O
+㉞ H2O
 ㉘ H2O
 ㉙ H2O
 ㉚ H2O

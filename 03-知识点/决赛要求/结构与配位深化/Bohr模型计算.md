@@ -1,6 +1,6 @@
 ---
 title: Bohr模型计算
-aliases: [Bohr Model, 氢原子能级, 类氢离子]
+aliases: [Bohr Model, 氢原子能级, 类氢离子, 玻尔模型]
 type: 知识点
 template_version: v1.3
 subject: 无机和结构化学
