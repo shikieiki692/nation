@@ -10,14 +10,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [39, 47]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - Neber重排
-  - 肟磺酸酯
-  - 氨基酮
-  - 氮宾
-  - 重排反应
+tags: [化竞, 有机化学, Neber重排, 肟磺酸酯, 氨基酮, 氮宾, 重排反应]
 related: [Beckmann重排, 肟, 氨基酮, 磺酸酯]
 prerequisite: [肟的化学, 重排反应, 氨基酮]
 problem_types: [题型-产物推断]

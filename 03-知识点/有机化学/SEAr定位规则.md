@@ -11,17 +11,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [41]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - SEAr
-  - 芳香亲电取代
-  - 定位规则
-  - 邻对位定位基
-  - 间位定位基
-  - 活化基
-  - 钝化基
-  - σ络合物
+tags: [化竞, 有机化学, SEAr, 芳香亲电取代, 定位规则, 邻对位定位基, 间位定位基, 活化基, 钝化基, σ络合物]
 related: [芳香性, 共轭效应, 诱导效应, 共振论, Friedel-Crafts反应, 硝化反应, 磺化反应]
 prerequisite: [芳香性, 共轭效应, 诱导效应, 共振论]
 problem_types: [题型-定位预测, 题型-多步合成设计, 题型-产物推断]

@@ -10,7 +10,7 @@ syllabus_codes: ["49"]
 knowledge_points: ["[[红外光谱]]", "[[杂化轨道]]", "[[s轨道成分]]"]
 tags: [化竞, 题目, 有机化学]
 updated: 2026-07-10
-aliases: ["题-有机-波谱-04"]
+aliases: ["题-有机-波谱-04", "题-1602"]
 source: "Zchem基础有机化学"
 module: 有机化学
 status: 已填充

@@ -5,6 +5,8 @@ module: 化学基础
 created: 2026-07-25
 updated: 2026-07-27
 tags: [初中基础, 导航, 目录]
+status: 待填充
+template_version: v1.3
 ---
 
 # 初中化学基础 — 知识点目录

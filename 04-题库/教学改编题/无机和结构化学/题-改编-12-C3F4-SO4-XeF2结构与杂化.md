@@ -10,7 +10,7 @@ syllabus_codes: []
 knowledge_points: ["[[Lewis结构式]]", "[[杂化轨道理论]]", "[[VSEPR理论]]"]
 tags: [化竞, 题库, 改编题, 分子结构, 结构化学]
 updated: 2026-07-04
-aliases: ["改编-分子-26", "C3F4-SO4-XeF2结构与杂化"]
+aliases: ["改编-分子-26", "C3F4-SO4-XeF2结构与杂化", "题-1035"]
 source: "第一轮结构化学主讲义替换存档（2026-07-03）"
 module: 分子结构
 status: 已填充

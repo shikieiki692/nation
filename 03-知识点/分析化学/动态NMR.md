@@ -10,11 +10,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 决赛要求-分析化学
 syllabus_code: []
 syllabus_module: [分析化学]
-tags:
-  - 化竞
-  - 分析化学
-  - 仪器分析
-  - NMR
+tags: [化竞, 分析化学, 仪器分析, NMR]
 related: [NMR谱学, 核磁共振, 化学动力学, 构象分析]
 prerequisite: [NMR谱学, 化学动力学]
 problem_types: []

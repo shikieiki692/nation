@@ -10,13 +10,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [36, 44]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - 亲核取代
-  - SN2
-  - 立体化学
-  - Walden翻转
+tags: [化竞, 有机化学, 亲核取代, SN2, 立体化学, Walden翻转]
 related: [SN2反应, SN1反应, 碳正离子, 旋光性, 对映异构]
 prerequisite: [SN2反应, 旋光性, 手性中心]
 problem_types: [题型-立体化学分析, 题型-产物预测]

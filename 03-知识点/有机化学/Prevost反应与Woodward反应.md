@@ -11,17 +11,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [37, 43]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - Prevost反应
-  - Woodward反应
-  - 邻二醇
-  - 反式双羟化
-  - 顺式双羟化
-  - 碘鎓离子
-  - 人名反应
-  - 立体化学
+tags: [化竞, 有机化学, Prevost反应, Woodward反应, 邻二醇, 反式双羟化, 顺式双羟化, 碘鎓离子, 人名反应, 立体化学]
 related: [双羟化反应, 碘鎓离子, 鎓离子, 环氧化反应, 烯烃, 立体化学, 氧化还原反应]
 prerequisite: [双羟化反应, 鎓离子, 立体化学]
 problem_types: [题型-邻二醇立体化学选择, 题型-Prevost/Woodward条件判断, 题型-人名反应机理]

@@ -4,6 +4,7 @@ type: 系统
 subject: 综合
 updated: 2026-08-01
 tags: [系统, 索引, 题库, 化竞]
+aliases: ["题-0655"]
 ---
 # 题库
 

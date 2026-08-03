@@ -10,15 +10,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [40]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - Cannizzaro反应
-  - 歧化反应
-  - 负氢迁移
-  - 醛
-  - 氧化还原
-  - 人名反应
+tags: [化竞, 有机化学, Cannizzaro反应, 歧化反应, 负氢迁移, 醛, 氧化还原, 人名反应]
 related: [氧化还原反应, Tishchenko反应, 醛酮化学, 负氢迁移, 交叉Cannizzaro]
 prerequisite: [醛酮化学, 氧化还原反应, 负氢迁移]
 problem_types: [题型-Cannizzaro产物预测, 题型-机理书写, 题型-合成设计]

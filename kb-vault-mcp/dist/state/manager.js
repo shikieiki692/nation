@@ -7,7 +7,7 @@ import * as path from 'path';
 import * as crypto from 'crypto';
 const CHECKPOINT_DIR = '.kb/state';
 const CHECKPOINT_FILE = 'checkpoint.jsonl';
-const MAX_LINES = 500;
+const MAX_LINES = 100;
 const MAX_ROTATED_FILES = 3;
 export class StateManager {
     session = null;

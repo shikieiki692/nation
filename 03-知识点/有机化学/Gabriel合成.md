@@ -11,15 +11,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [44]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - Gabriel合成
-  - 伯胺制备
-  - 邻苯二甲酰亚胺
-  - 胺合成
-  - Mitsunobu
-  - 人名反应
+tags: [化竞, 有机化学, Gabriel合成, 伯胺制备, 邻苯二甲酰亚胺, 胺合成, Mitsunobu, 人名反应]
 related: [Mitsunobu反应, 胺的化学, 亲核取代反应, 肼解, 还原胺化, Ritter反应]
 prerequisite: [亲核取代反应, 胺的化学, 肼]
 problem_types: [题型-胺合成设计, 题型-产物推断]

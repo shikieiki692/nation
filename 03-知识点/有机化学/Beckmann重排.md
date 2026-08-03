@@ -10,15 +10,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [39, 47]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - Beckmann重排
-  - 贝克曼重排
-  - 肟
-  - 酰胺
-  - 反式迁移
-  - 重排反应
+tags: [化竞, 有机化学, Beckmann重排, 贝克曼重排, 肟, 酰胺, 反式迁移, 重排反应]
 related: [Baeyer-Villiger重排, Neber重排, Favorskii重排, 肟, 酰胺, 己内酰胺]
 prerequisite: [肟的化学, 重排反应, 酰胺化学]
 problem_types: [题型-产物推断, 题型-机理推断]

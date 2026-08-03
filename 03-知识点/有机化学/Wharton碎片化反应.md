@@ -10,12 +10,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 决赛要求-有机化学
 syllabus_code: []
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 决赛
-  - 碎片化反应
-  - 中环合成
-  - 立体电子效应
+tags: [化竞, 决赛, 碎片化反应, 中环合成, 立体电子效应]
 related: [碎片化反应, 重排反应, 立体电子效应, 环氧化学, 中环合成]
 prerequisite: [立体电子效应, 环氧化学, 消除反应, 1,2-迁移与重排]
 problem_types: [题型-机理书写, 题型-合成设计, 题型-大环构建]

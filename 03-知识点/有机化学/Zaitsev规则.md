@@ -10,12 +10,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [38]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - 消除反应
-  - 区域选择性
-  - Zaitsev规则
+tags: [化竞, 有机化学, 消除反应, 区域选择性, Zaitsev规则]
 related: [消除反应, E2反应, E1反应, Hofmann规则, 反式共平面]
 prerequisite: [消除反应, E1反应, E2反应]
 problem_types: [题型-产物分布预测, 题型-消除机理判断]

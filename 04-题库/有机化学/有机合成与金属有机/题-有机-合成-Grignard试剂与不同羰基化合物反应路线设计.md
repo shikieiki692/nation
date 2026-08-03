@@ -10,7 +10,7 @@ syllabus_codes: ["44"]
 knowledge_points: ["[[Grignard试剂]]", "[[有机合成]]"]
 tags: [化竞, 题目, 有机化学, 第三轮]
 updated: 2026-06-06
-aliases: ["题-有机-合成-01"]
+aliases: ["题-有机-合成-01", "题-1597"]
 source: "专题页提炼"
 module: 有机化学
 status: 已填充

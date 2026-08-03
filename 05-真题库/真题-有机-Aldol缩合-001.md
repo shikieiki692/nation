@@ -9,14 +9,11 @@ difficulty: 3
 knowledge_points:
   - "Aldol缩合"
   - "烯醇负离子"
-tags:
-  - 化竞
-  - 真题
-  - 有机化学
-  - Aldol缩合
+tags: [化竞, 真题, 有机化学, Aldol缩合]
 related_notes:
   - "[[专题-羰基化学与缩合反应]]"
 updated: 2026-06-22
+teaching_level: 巩固
 ---
 
 # Aldol缩合-乙醛在碱催化下的缩合与脱水

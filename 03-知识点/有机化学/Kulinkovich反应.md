@@ -11,15 +11,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [50, 51]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - Kulinkovich反应
-  - 钛催化
-  - 环丙醇
-  - 环丙烷
-  - 格氏试剂
-  - 酯的转化
+tags: [化竞, 有机化学, Kulinkovich反应, 钛催化, 环丙醇, 环丙烷, 格氏试剂, 酯的转化]
 related: [卡宾, Simmons-Smith反应, 烯烃复分解, 合成设计]
 prerequisite: [过渡金属催化基础, Grignard试剂, 酯, 卡宾]
 problem_types: [题型-产物预测, 题型-机理推断]

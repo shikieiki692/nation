@@ -11,14 +11,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [52, 50]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - Pictet-Spengler反应
-  - 四氢异喹啉
-  - 异喹啉
-  - 生物碱合成
-  - 亚胺
+tags: [化竞, 有机化学, Pictet-Spengler反应, 四氢异喹啉, 异喹啉, 生物碱合成, 亚胺]
 related: [Skraup合成, Bischler-Napieralski反应, 杂环合成, 生物碱]
 prerequisite: [芳香胺, 亚胺, 缩合反应, 杂环化合物]
 problem_types: [题型-产物预测, 题型-机理推断, 题型-合成设计]

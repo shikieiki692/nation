@@ -11,15 +11,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [52, 50]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - Paal-Knorr合成
-  - 呋喃合成
-  - 吡咯合成
-  - 噻吩合成
-  - 五元杂环
-  - 1,4-二羰基
+tags: [化竞, 有机化学, Paal-Knorr合成, 呋喃合成, 吡咯合成, 噻吩合成, 五元杂环, 1,4-二羰基]
 related: [呋喃, 吡咯, 噻吩, 缩合反应, 杂环合成]
 prerequisite: [缩合反应, 羰基化学, 杂环化合物]
 problem_types: [题型-产物预测, 题型-底物设计, 题型-合成设计]

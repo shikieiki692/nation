@@ -11,16 +11,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [21]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - Bent规则
-  - 杂化轨道
-  - s成分
-  - p成分
-  - 电负性
-  - 酸性
-  - 环丙烷
+tags: [化竞, 有机化学, Bent规则, 杂化轨道, s成分, p成分, 电负性, 酸性, 环丙烷]
 related: [杂化轨道理论, sp3杂化, sp2杂化, sp杂化, 电负性, 酸性, 碳负离子, Grignard试剂]
 prerequisite: [杂化轨道理论, 电负性, VSEPR]
 problem_types: [题型-酸性排序, 题型-杂化解释, 题型-Bent规则应用]

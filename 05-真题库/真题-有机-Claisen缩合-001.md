@@ -10,14 +10,11 @@ knowledge_points:
   - "Claisen缩合"
   - "Aldol缩合"
   - "烯醇负离子"
-tags:
-  - 化竞
-  - 真题
-  - 有机化学
-  - Claisen缩合
+tags: [化竞, 真题, 有机化学, Claisen缩合]
 related_notes:
   - "[[专题-羰基化学与缩合反应]]"
 updated: 2026-06-22
+teaching_level: 拓展
 ---
 
 # Claisen缩合-乙酸乙酯在乙醇钠作用下的酯缩合

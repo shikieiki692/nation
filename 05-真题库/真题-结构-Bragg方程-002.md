@@ -8,15 +8,11 @@ type_tag: "计算"
 difficulty: 2
 knowledge_points:
   - "Bragg方程"
-tags:
-  - 化竞
-  - 真题
-  - Bragg方程
-  - XRD
-  - 晶体结构
+tags: [化竞, 真题, Bragg方程, XRD, 晶体结构]
 related_notes:
   - "[[专题-晶体结构计算]]"
 updated: 2026-06-22
+teaching_level: 基础
 ---
 
 # Bragg方程应用-从XRD衍射角和波长计算晶面间距

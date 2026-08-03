@@ -11,13 +11,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [48]
 syllabus_module: [膦化合物]
-tags:
-  - 化竞
-  - 有机化学
-  - 名称反应
-  - 膦化合物
-  - 烯烃合成
-  - 羰基烯化
+tags: [化竞, 有机化学, 名称反应, 膦化合物, 烯烃合成, 羰基烯化]
 related: [Wittig反应, 羰基烯化反应, E2反应, 膦化合物, Peterson烯化反应, Julia烯化]
 prerequisite: [Wittig反应, 羰基亲核加成, 膦化合物]
 problem_types: [题型-产物预测, 题型-机理分析, 题型-合成设计, 题型-试剂选择]

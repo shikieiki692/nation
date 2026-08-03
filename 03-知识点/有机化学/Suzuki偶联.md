@@ -11,15 +11,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [50, 51]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - Suzuki偶联
-  - 铃木偶联
-  - 钯催化
-  - 交叉偶联
-  - C-C键形成
-  - 有机硼酸
+tags: [化竞, 有机化学, Suzuki偶联, 铃木偶联, 钯催化, 交叉偶联, C-C键形成, 有机硼酸]
 related: [Heck反应, Negishi偶联, Stille偶联, 交叉偶联, 合成设计]
 prerequisite: [过渡金属催化基础, 氧化加成, 还原消除, 有机硼化合物]
 problem_types: [题型-产物预测, 题型-机理推断, 题型-合成设计]

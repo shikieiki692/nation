@@ -11,11 +11,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-化学原理
 syllabus_code: [08, 决赛10]
 syllabus_module: [化学原理]
-tags:
-  - 化竞
-  - 氧化还原
-  - 电化学
-  - Latimer图
+tags: [化竞, 氧化还原, 电化学, Latimer图]
 related:
   - Frost图
   - Pourbaix图

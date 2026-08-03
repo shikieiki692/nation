@@ -10,16 +10,8 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [49]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - Claisen重排
-  - "[3,3]-σ迁移"
-  - 周环反应
-  - 协同反应
-  - 烯丙基醚
-  - 热重排
-related: [Cope重排, 周环反应, 芳香亲电取代, Diels-Alder反应, 烯烃, 酚]
+tags: [化竞, 有机化学, Claisen重排, [3,3]
+-σ迁移, 周环反应, 协同反应, 烯丙基醚, 热重排]related: [Cope重排, 周环反应, 芳香亲电取代, Diels-Alder反应, 烯烃, 酚]
 prerequisite: [周环反应, 烯烃, 酚, 协同反应]
 problem_types: [题型-产物预测, 题型-机理推断, 题型-合成设计]
 difficulty: 4

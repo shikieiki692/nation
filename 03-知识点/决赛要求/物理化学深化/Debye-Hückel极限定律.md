@@ -10,13 +10,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 决赛要求-物理化学深化
 syllabus_code: ["决赛-物理化学深化"]
 syllabus_module: [物理化学深化]
-tags:
-  - 化竞
-  - 决赛
-  - 物理化学
-  - 电解质溶液
-  - 活度系数
-  - 离子强度
+tags: [化竞, 决赛, 物理化学, 电解质溶液, 活度系数, 离子强度]
 related: []
 prerequisite: []
 problem_types: []

@@ -10,15 +10,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [48, 51]
 syllabus_module: [有机化学, 名称反应]
-tags:
-  - 化竞
-  - 有机化学
-  - 名称反应
-  - 硅化学
-  - 烯烃合成
-  - 羰基烯化
-  - β-硅基效应
-  - Wittig变体
+tags: [化竞, 有机化学, 名称反应, 硅化学, 烯烃合成, 羰基烯化, β-硅基效应, Wittig变体]
 related:
   - Wittig反应
   - Horner-Wadsworth-Emmons反应

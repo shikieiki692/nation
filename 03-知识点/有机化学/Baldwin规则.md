@@ -11,15 +11,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [50]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - Baldwin规则
-  - 环化反应
-  - 合成设计
-  - 成环规则
-  - Exo-Endo
-  - Tet-Trig-Dig
+tags: [化竞, 有机化学, Baldwin规则, 环化反应, 合成设计, 成环规则, Exo-Endo, Tet-Trig-Dig]
 related: [合成设计, Aldol缩合, Michael加成, 亲核取代反应, 亲核加成反应]
 prerequisite: [合成设计基础, 环状化合物, 亲核取代反应, 亲核加成反应]
 problem_types: [题型-环化可行性判断, 题型-合成设计]

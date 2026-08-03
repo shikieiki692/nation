@@ -11,16 +11,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [38]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - Cope消除
-  - syn消除
-  - 热消除
-  - 叔胺氧化物
-  - 五元环过渡态
-  - 立体化学
-  - 人名反应
+tags: [化竞, 有机化学, Cope消除, syn消除, 热消除, 叔胺氧化物, 五元环过渡态, 立体化学, 人名反应]
 related: [消除反应, E2消除, 反式共平面, 胺类化合物, Hofmann消除]
 prerequisite: [消除反应, E2消除, 胺的化学]
 problem_types: [题型-消除产物预测, 题型-立体化学分析, 题型-synvsanti消除]

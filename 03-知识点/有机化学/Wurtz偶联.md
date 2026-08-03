@@ -10,16 +10,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [51]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - Wurtz偶联
-  - 偶联反应
-  - 单电子转移
-  - 自由基
-  - 钠
-  - 卤代烷
-  - 对称烷烃
+tags: [化竞, 有机化学, Wurtz偶联, 偶联反应, 单电子转移, 自由基, 钠, 卤代烷, 对称烷烃]
 related: [自由基, 单电子反应, 金属有机, 偶联反应, Fittig反应, Kolbe电解, Grignard试剂]
 prerequisite: [自由基, 卤代烷, 氧化还原]
 problem_types: [题型-对称烷烃合成, 题型-偶联机理书写, 题型-反应条件选择]

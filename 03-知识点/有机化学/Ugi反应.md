@@ -11,14 +11,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [45, 47]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - Ugi反应
-  - 多组分反应
-  - 异腈
-  - 酰胺合成
-  - 人名反应
+tags: [化竞, 有机化学, Ugi反应, 多组分反应, 异腈, 酰胺合成, 人名反应]
 related: [Passerini反应, 异腈, 酰胺, 亚胺, 缩合反应, TosMIC]
 prerequisite: [亚胺化学, 异腈, 羧酸衍生物, 亲核加成反应]
 problem_types: [题型-多组分反应识别, 题型-产物推断]

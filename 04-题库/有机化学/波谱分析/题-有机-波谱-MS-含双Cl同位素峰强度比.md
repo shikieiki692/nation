@@ -10,7 +10,7 @@ syllabus_codes: ["49"]
 knowledge_points: ["[[质谱]]", "[[同位素峰]]", "[[二项式分布]]"]
 tags: [化竞, 题目, 有机化学]
 updated: 2026-07-10
-aliases: ["题-有机-波谱-07"]
+aliases: ["题-有机-波谱-07", "题-1604"]
 source: "Zchem基础有机化学"
 module: 有机化学
 status: 已填充

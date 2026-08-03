@@ -1,6 +1,6 @@
 ---
 title: "K2Cr2O7法测铁中H3PO4的作用"
-aliases: ["题-分析-04"]
+aliases: ["题-分析-04", "题-0658"]
 type: 题目
 difficulty: 4
 teaching_level: 拓展

@@ -11,14 +11,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [52, 50]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - Larock吲哚合成
-  - 钯催化
-  - 吲哚合成
-  - 炔烃插入
-  - 交叉偶联
+tags: [化竞, 有机化学, Larock吲哚合成, 钯催化, 吲哚合成, 炔烃插入, 交叉偶联]
 related: [Fischer吲哚合成, Bartoli吲哚合成, Suzuki偶联, Heck反应, 杂环合成]
 prerequisite: [过渡金属催化基础, 交叉偶联, 炔烃, 芳香胺]
 problem_types: [题型-产物预测, 题型-区域选择性判断, 题型-合成设计]

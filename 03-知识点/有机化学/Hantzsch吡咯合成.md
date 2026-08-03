@@ -10,14 +10,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [52, 50]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - Hantzsch吡咯合成
-  - 吡咯合成
-  - 卤代酮
-  - β-酮酯
-  - 氨
+tags: [化竞, 有机化学, Hantzsch吡咯合成, 吡咯合成, 卤代酮, β-酮酯, 氨]
 related: [Paal-Knorr合成, 吡咯, 杂环合成]
 prerequisite: [缩合反应, 羰基化学, 卤代酮, 杂环化合物]
 problem_types: [题型-产物预测, 题型-底物设计]

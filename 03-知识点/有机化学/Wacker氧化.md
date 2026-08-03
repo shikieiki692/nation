@@ -11,14 +11,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [40, 51]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - Wacker氧化
-  - 烯烃氧化
-  - 钯催化
-  - 氧化反应
-  - 甲基酮合成
+tags: [化竞, 有机化学, Wacker氧化, 烯烃氧化, 钯催化, 氧化反应, 甲基酮合成]
 related: [Heck反应, 烯烃, 氧化还原反应, 合成设计]
 prerequisite: [过渡金属催化基础, 烯烃, 氧化还原反应]
 problem_types: [题型-产物预测, 题型-机理推断, 题型-合成设计]

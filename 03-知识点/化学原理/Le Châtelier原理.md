@@ -10,11 +10,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-化学原理
 syllabus_code: [7]
 syllabus_module: [化学原理]
-tags:
-  - 化竞
-  - 化学原理
-  - 化学平衡
-  - 平衡移动
+tags: [化竞, 化学原理, 化学平衡, 平衡移动]
 related: [化学平衡, 平衡常数, Gibbs自由能, 反应商, van't Hoff方程]
 prerequisite: [化学平衡, 平衡常数, 反应商Q]
 problem_types: []

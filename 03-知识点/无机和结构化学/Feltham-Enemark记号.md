@@ -10,12 +10,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 决赛要求-无机和结构化学
 syllabus_code: []
 syllabus_module: [无机和结构化学]
-tags:
-  - 化竞
-  - 无机和结构化学
-  - 配合物
-  - NO配位
-  - 电子计数
+tags: [化竞, 无机和结构化学, 配合物, NO配位, 电子计数]
 related: [NO配位, 配合物, 18电子规则, 亚硝酰配合物, 晶体场理论, 金属有机化学深化]
 prerequisite: [NO配位, 配合物, 18电子规则, 晶体场理论]
 problem_types: ["{MNO}ⁿ记号应用", 金属-NO配合物电子计数, NO配合物氧化态确定, 亚硝酰配合物结构预测]

@@ -10,14 +10,11 @@ knowledge_points:
   - "Friedel-Crafts反应"
   - "碳正离子"
   - "芳香亲电取代反应"
-tags:
-  - 化竞
-  - 真题
-  - 有机化学
-  - Friedel-Crafts反应
+tags: [化竞, 真题, 有机化学, Friedel-Crafts反应]
 related_notes:
   - "[[专题-芳香反应]]"
 updated: 2026-06-22
+teaching_level: 巩固
 ---
 
 # Friedel-Crafts反应-苯与1-氯丙烷的烷基化与碳正离子重排

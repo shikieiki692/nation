@@ -10,13 +10,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [39]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - Wagner-Meerwein重排
-  - 碳正离子重排
-  - 1,2-迁移
-  - 重排反应
+tags: [化竞, 有机化学, Wagner-Meerwein重排, 碳正离子重排, 1,2-迁移, 重排反应]
 related: [碳正离子, 频哪醇重排, 半频哪醇重排, 负氢迁移, 溶剂解反应, SN1]
 prerequisite: [碳正离子, SN1反应, 重排反应, 分子轨道理论]
 problem_types: [题型-产物预测, 题型-机理书写, 题型-重排方向判断]

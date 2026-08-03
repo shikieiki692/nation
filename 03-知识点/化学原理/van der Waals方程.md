@@ -10,11 +10,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-化学原理
 syllabus_code: [2]
 syllabus_module: [化学原理]
-tags:
-  - 化竞
-  - 化学原理
-  - 气体
-  - 实际气体
+tags: [化竞, 化学原理, 气体, 实际气体]
 related: [理想气体状态方程, 压缩系数, 临界参数, 对比状态定律, 气体分子运动论]
 prerequisite: [理想气体状态方程, 气体分子运动论]
 problem_types: []

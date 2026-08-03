@@ -20,14 +20,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_module:
   - 有机化学
-tags:
-  - 化竞
-  - 有机化学
-  - 波谱分析
-  - NMR
-  - ¹H NMR
-  - 结构推求
-  - 立体化学
+tags: [化竞, 有机化学, 波谱分析, NMR, ¹H NMR, 结构推求, 立体化学]
 related:
   - 质谱
   - UV-Vis光谱

@@ -11,16 +11,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [37, 43]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - Simmons-Smith反应
-  - 环丙烷化
-  - 卡宾
-  - 类卡宾
-  - 烯烃
-  - 立体化学
-  - 人名反应
+tags: [化竞, 有机化学, Simmons-Smith反应, 环丙烷化, 卡宾, 类卡宾, 烯烃, 立体化学, 人名反应]
 related: [卡宾, 烯烃, 环丙烷, 立体化学, 亲电加成, 金属卡宾, 鎓离子]
 prerequisite: [卡宾, 烯烃, 立体化学]
 problem_types: [题型-环丙烷化产物判断, 题型-立体化学分析, 题型-Simmons-Smith条件选择]

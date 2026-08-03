@@ -10,14 +10,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [45]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - Reformatsky反应
-  - 有机锌试剂
-  - β-羟基酯
-  - 亲核加成
-  - 人名反应
+tags: [化竞, 有机化学, Reformatsky反应, 有机锌试剂, β-羟基酯, 亲核加成, 人名反应]
 related: [Aldol缩合, Grignard试剂, 烯醇盐, 酯, 醛, 酮]
 prerequisite: [Aldol缩合, 卤代烃, 羰基化学]
 problem_types: [题型-产物预测, 题型-合成设计]

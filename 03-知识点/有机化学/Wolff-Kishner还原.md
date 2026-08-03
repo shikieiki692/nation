@@ -11,12 +11,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [47, 51]
 syllabus_module: [有机还原, 名称反应, 有机合成]
-tags:
-  - 化竞
-  - 有机还原反应
-  - 名称反应
-  - 黄鸣龙改良
-  - 一锅法
+tags: [化竞, 有机还原反应, 名称反应, 黄鸣龙改良, 一锅法]
 related: [Shapiro反应, Clemmensen还原, 重氮化合物, 肼, 1,2-迁移与重排]
 prerequisite: [有机还原反应, 亲核加成, 反应机理表示法]
 problem_types: [题型-还原反应判断, 题型-机理推断]

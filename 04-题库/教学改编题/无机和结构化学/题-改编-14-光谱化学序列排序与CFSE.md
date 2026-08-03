@@ -1,4 +1,4 @@
-﻿---
+---
 title: "题-改编-14-光谱化学序列排序与CFSE"
 type: 题目
 submodule: 配位化合物

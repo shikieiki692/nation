@@ -11,13 +11,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: []
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - BrF₃
-  - 三氟化溴
-  - 氟化
-  - 卤素互化物
+tags: [化竞, 有机化学, BrF₃, 三氟化溴, 氟化, 卤素互化物]
 related: [卤素, 氟化反应, 卤素互化物, 氧化反应, 无机氟化学]
 prerequisite: [卤素, 氧化还原, 电负性]
 problem_types: [题型-产物预测, 题型-氧化态分析]

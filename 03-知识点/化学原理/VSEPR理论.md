@@ -49,8 +49,7 @@ source_extracts:
     asset_type: "分类资产"
     asset_summary: "VSEPR 构型速查表（AXnEm → 理想构型 → 实际分子形状），讲义有完整表格"
     target_section: "§二"
-tags:
-  - 化竞
+tags: [化竞]
 ---
 
 ## 十五、待完善项

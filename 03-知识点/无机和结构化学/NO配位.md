@@ -10,12 +10,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 决赛要求-无机和结构化学
 syllabus_code: []
 syllabus_module: [无机和结构化学]
-tags:
-  - 化竞
-  - 无机和结构化学
-  - 配合物
-  - 配体
-  - NO
+tags: [化竞, 无机和结构化学, 配合物, 配体, NO]
 related: [配合物, 晶体场理论, 分子轨道理论, CO配位, 18电子规则, Feltham-Enemark记号, 金属有机化学深化]
 prerequisite: [配合物, 分子轨道理论, 晶体场理论]
 problem_types: [NO电子计数, 直线型vs弯曲型判断, "{MNO}ⁿ记号应用", NO与CO对比]

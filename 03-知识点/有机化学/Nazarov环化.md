@@ -11,15 +11,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [49]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - Nazarov环化
-  - 纳扎罗夫环化
-  - 环戊烯酮
-  - 阳离子电环化
-  - 4π电环化
-  - 周环反应
+tags: [化竞, 有机化学, Nazarov环化, 纳扎罗夫环化, 环戊烯酮, 阳离子电环化, 4π电环化, 周环反应]
 related: [电环化反应, 环加成反应, 合成设计, 天然产物合成]
 prerequisite: [电环化反应, 前线轨道理论, 烯酮, 阳离子化学]
 problem_types: [题型-产物预测, 题型-机理推断, 题型-合成设计]

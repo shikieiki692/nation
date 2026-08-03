@@ -11,16 +11,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [36, 44]
 syllabus_module: [取代反应, 脂肪族亲核取代反应]
-tags:
-  - 化竞
-  - 有机化学
-  - 亲核取代
-  - SN2
-  - SNi
-  - 醇转化
-  - 卤代反应
-  - 含硫化合物
-  - 立体化学
+tags: [化竞, 有机化学, 亲核取代, SN2, SNi, 醇转化, 卤代反应, 含硫化合物, 立体化学]
 related:
   - 消除反应
   - SN2反应

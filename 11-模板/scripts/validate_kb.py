@@ -401,7 +401,15 @@ def build_label_index(vault_root: Path) -> dict[str, list[Path]]:
         for field in ("title", "aliases", "syllabus_code"):
             value = fm.get(field)
             if isinstance(value, str) and value.strip():
-                labels.add(value.strip().lower())
+                # YAML 解析失败时 aliases 会退化为含方括号的字符串（如 "[a, b]"），拆分单项
+                text = value.strip()
+                if text.startswith("[") and text.endswith("]"):
+                    for item in text[1:-1].split(","):
+                        item = item.strip().strip('"').strip("'")
+                        if item:
+                            labels.add(item.lower())
+                else:
+                    labels.add(text.lower())
             elif isinstance(value, list):
                 for item in value:
                     if isinstance(item, str) and item.strip():
@@ -527,14 +535,20 @@ def is_placeholder_image_target(img_path: str) -> bool:
     """判断图片引用是否为模板占位符（不应计为缺失）。"""
     name = img_path.split("|")[0].strip()
     base = Path(name).name.lower()
-    # 常见模板占位图片名
-    if re.fullmatch(r"(foo|xxx|filename|图名|图片文件名|文件名|example|placeholder|a|b)(\.[a-z0-9]+)?", base):
+    # 模板变量语法 {…} / <…> / 反引号 / 通配符 *（示例或占位）
+    if any(c in name for c in "{}<>`*"):
         return True
-    if base.startswith("media/xxx") or base in ("media/...", "mineru/...", "..."):
+    # 常见模板占位图片名
+    if re.fullmatch(r"(foo|xxx|filename|图名|图片文件名|文件名|example|placeholder|image|旧图|新图|path|a|b)(\.[a-z0-9]+)?", base):
+        return True
+    # 任意位置含占位标记（pchem_solid_xxx.jpg 等）
+    if re.search(r"xxx|占位图|placeholder|文件名|旧图|新图", base):
+        return True
+    if base.startswith("media/xxx") or base in ("media/...", "mineru/...", "mineru/path", "media/path", "...", "path"):
         return True
     if re.search(r"(文件名|完整相对路径|占位图|示意图\.xxx)", base):
         return True
-    if base.startswith("media/") and re.search(r"xxx|文件名|foo|placeholder", base):
+    if base.startswith("media/") and re.search(r"xxx|文件名|foo|placeholder|旧图|新图|image", base):
         return True
     return False
 
@@ -543,10 +557,16 @@ def check_images(file: Path, body: str, report: Report) -> None:
     """检查 ![[...]] 图片引用是否存在（全库 basename + 相对路径解析）。"""
     global _IMAGE_INDEX
     rel = file.relative_to(VAULT_ROOT).as_posix()
+    # 模板目录（11-模板/）中的示例/占位图片不检查
+    if rel.startswith("11-模板/"):
+        return
     images = re.findall(r'!\[\[([^\]]+)\]\]', body)
     for img in images:
         # 提取实际路径（可能有 | 替代文本）
         img_path = img.split("|")[0].strip()
+        # block 引用（[[file#block]]）交给断链检查，不是图片
+        if "#" in img_path:
+            continue
         # 模板占位符跳过
         if is_placeholder_image_target(img_path):
             continue
@@ -1039,6 +1059,7 @@ def main() -> None:
         # 统计
         report.stats["broken_wikilinks"] = len([w for w in report.warnings if w[1] == "断链"])
         report.stats["broken_images"] = len([w for w in report.warnings if w[1] == "图片缺失"])
+        report.stats["heading_skips"] = len([w for w in report.warnings if w[1] == "标题跳跃"])
 
     # 孤儿文件检测（全量模式）
     if not quick and not args.changed:

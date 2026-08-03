@@ -10,13 +10,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: []
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - NBS
-  - 自由基
-  - 烯丙位溴化
-  - 溴化反应
+tags: [化竞, 有机化学, NBS, 自由基, 烯丙位溴化, 溴化反应]
 related: [自由基取代, 烯丙位, 溴化反应, 丁二酰亚胺, 自由基]
 prerequisite: [自由基, 烯烃, 取代反应]
 problem_types: [题型-产物预测, 题型-条件选择]

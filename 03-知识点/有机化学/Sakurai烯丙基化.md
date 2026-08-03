@@ -10,13 +10,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [13, 28, 31, 32]
 syllabus_module: [有机化学, 元素化学]
-tags:
-  - 化竞
-  - 有机化学
-  - 人名反应
-  - 烯丙基化
-  - β-硅基效应
-  - 主族金属有机
+tags: [化竞, 有机化学, 人名反应, 烯丙基化, β-硅基效应, 主族金属有机]
 related: [β-硅基效应, 给体-受体相互作用, 碳正离子, Lewis酸, Peterson烯化反应, 烯丙基化, 反式共平面]
 prerequisite: [β-硅基效应, 给体-受体相互作用, 碳正离子, 反式共平面]
 problem_types: [题型-机理推断, 题型-Sakurai产物预测, 题型-烯丙基硅烷反应]

@@ -10,15 +10,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [39, 47]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - Favorskii重排
-  - 法沃尔斯基重排
-  - α-卤代酮
-  - 环丙酮中间体
-  - 环缩小
-  - 重排反应
+tags: [化竞, 有机化学, Favorskii重排, 法沃尔斯基重排, α-卤代酮, 环丙酮中间体, 环缩小, 重排反应]
 related: [Beckmann重排, Baeyer-Villiger重排, α-卤代酮, 环丙酮, 羧酸]
 prerequisite: [α-卤代酮, 重排反应, 羧酸衍生物]
 problem_types: [题型-产物推断, 题型-机理推断]

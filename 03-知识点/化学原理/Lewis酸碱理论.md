@@ -11,10 +11,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-化学原理
 syllabus_code: [5]
 syllabus_module: [化学原理]
-tags:
-  - 化竞
-  - 酸碱
-  - 酸碱理论
+tags: [化竞, 酸碱, 酸碱理论]
 related: [Brønsted酸碱理论, 软硬酸碱理论, 配位键, 配合物, 酸碱平衡]
 prerequisite: [Brønsted酸碱理论, 共价键]
 problem_types: []

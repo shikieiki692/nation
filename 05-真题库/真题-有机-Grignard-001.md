@@ -8,14 +8,11 @@ type_tag: "推断"
 difficulty: 3
 knowledge_points:
   - "Grignard试剂"
-tags:
-  - 化竞
-  - 真题
-  - 有机化学
-  - Grignard试剂
+tags: [化竞, 真题, 有机化学, Grignard试剂]
 related_notes:
   - "[[专题-有机合成与金属有机]]"
 updated: 2026-06-22
+teaching_level: 巩固
 ---
 
 # Grignard试剂-溴苯经格氏反应制备苯甲酸

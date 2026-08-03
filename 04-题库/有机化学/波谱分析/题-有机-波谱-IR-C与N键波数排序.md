@@ -10,7 +10,7 @@ syllabus_codes: ["49"]
 knowledge_points: ["[[红外光谱]]", "[[化学键振动]]", "[[力常数]]"]
 tags: [化竞, 题目, 有机化学]
 updated: 2026-07-10
-aliases: ["题-有机-波谱-03"]
+aliases: ["题-有机-波谱-03", "题-1601"]
 source: "Zchem基础有机化学"
 module: 有机化学
 status: 已填充

@@ -11,14 +11,11 @@ knowledge_points:
   - "E2反应"
   - "Zaitsev规则"
   - "消除反应"
-tags:
-  - 化竞
-  - 真题
-  - 有机化学
-  - Hofmann消除
+tags: [化竞, 真题, 有机化学, Hofmann消除]
 related_notes:
   - "[[专题-亲核取代与消除反应]]"
 updated: 2026-06-22
+teaching_level: 拓展
 ---
 
 # Hofmann消除-季铵碱热消除生成烯烃

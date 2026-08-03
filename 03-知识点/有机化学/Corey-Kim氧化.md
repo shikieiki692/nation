@@ -11,15 +11,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [40, 50]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - Corey-Kim氧化
-  - 醇氧化
-  - NCS
-  - DMS
-  - 温和氧化
-  - 人名反应
+tags: [化竞, 有机化学, Corey-Kim氧化, 醇氧化, NCS, DMS, 温和氧化, 人名反应]
 related: [Swern氧化, Dess-Martin氧化, PCC, 醇的氧化, 氧化还原反应]
 prerequisite: [醇的化学, 氧化还原反应, 含硫化合物]
 problem_types: [题型-氧化试剂选择, 题型-机理推断]

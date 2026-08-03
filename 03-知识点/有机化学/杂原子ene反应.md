@@ -10,13 +10,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 决赛要求-有机化学
 syllabus_code: [49]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - 反应机理
-  - 周环反应
-  - 杂原子
-  - ene反应
+tags: [化竞, 有机化学, 反应机理, 周环反应, 杂原子, ene反应]
 related: [周环反应, Diels-Alder反应, Ene反应, 协同反应, σ迁移反应]
 prerequisite: [周环反应, 协同反应, Diels-Alder反应, Ene反应]
 problem_types: [题型-产物预测, 题型-与D-A区分, 题型-合成设计]

@@ -8,15 +8,11 @@ type_tag: "计算"
 difficulty: 3
 knowledge_points:
   - "晶格能"
-tags:
-  - 化竞
-  - 真题
-  - Born-Haber循环
-  - 晶格能
-  - 热化学
+tags: [化竞, 真题, Born-Haber循环, 晶格能, 热化学]
 related_notes:
   - "[[专题-热力学初步]]"
 updated: 2026-06-22
+teaching_level: 巩固
 ---
 
 # Born-Haber循环-从热力学数据计算NaCl的晶格能

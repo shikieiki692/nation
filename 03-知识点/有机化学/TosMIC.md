@@ -11,14 +11,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [45, 47]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - TosMIC
-  - Van Leusen反应
-  - 异腈
-  - 腈合成
-  - 醛转化
+tags: [化竞, 有机化学, TosMIC, Van Leusen反应, 异腈, 腈合成, 醛转化]
 related: [Ugi反应, 异腈, 腈的化学, 醛, 酰胺, 噁唑合成]
 prerequisite: [异腈, 醛的化学, 腈的化学, 亲核加成反应]
 problem_types: [题型-醛转化, 题型-产物推断]

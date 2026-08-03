@@ -22,6 +22,7 @@ evidence:
   - "2026-08-02: 机制恢复——cron 23 8 * * 1 会话级定时任务已建；validate_kb.py 降噪修复（5251→2648 warning）：图片全库 basename 解析 + status 枚举补全 + 目录链接识别 + 模板占位符排除 + 带.md后缀短链接兼容。基线 48 error / 2648 warning / 7296 info。"
   - "2026-08-02: 状态摘要 低优/定时任务区 + 知识库治理待办 已上线自动化区已同步记录。"
   - "2026-08-03: 全量验证确认基线 0 error / 2179 warning / 7293 info（6112 文件）；48 个 frontmatter 补齐后 error=0，脚本再降噪（图片全库解析+占位排除+published门禁复用图片解析），周巡检报告 [[09-审计报告/周巡检-2026-08-03]] 无异常增量。"
+  - "2026-08-03(第二轮): validate_kb.py build_label_index 修复——YAML 解析失败时 aliases 退化为含方括号字符串（如 \"[a, b]\"），索引把整串当一个 label 导致别名全部丢失；改为拆分为单项。断链 2559→2020（-539）、Warning 2986→2350。附带发现 300 个 KP frontmatter 存在 `tags: [X]`+缩进块列表 YAML 损坏 → **已用 [[11-模板/scripts/fix_tags_yaml.py]] 批量修复（357 文件）**，aliases 全部恢复。最终基线：0 error / 2134 warning / 1837 断链 / 86 图片缺失 / 196 标题跳跃 / 166 过期(Info)。"
 ---
 
 # validate_kb 每周运行（定时巡检）

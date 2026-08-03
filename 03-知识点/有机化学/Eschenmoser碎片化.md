@@ -10,14 +10,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 决赛要求-有机化学
 syllabus_code: []
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - 碎片化
-  - Eschenmoser碎片化
-  - 大环合成
-  - 扩环
-  - 炔烃合成
+tags: [化竞, 有机化学, 碎片化, Eschenmoser碎片化, 大环合成, 扩环, 炔烃合成]
 related: [Grob碎裂化反应, 重排反应, 半频哪醇重排, 环氧化反应, 合成设计]
 prerequisite: [碎片化反应, 环氧化反应, 对甲苯磺酰肼, 立体化学]
 problem_types: [题型-机理书写, 题型-合成设计, 题型-大环构建]

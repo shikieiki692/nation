@@ -12,10 +12,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module:
 syllabus_code: [15, 16, 17]
 syllabus_module:
-tags:
-  - 化竞
-  - 晶体结构
-  - XRD
+tags: [化竞, 晶体结构, XRD]
 related:
   - 晶体结构
   - 晶体结构深化

@@ -10,13 +10,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 决赛要求-有机化学
 syllabus_code: [49, 50]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - 人名反应
-  - 光化学
-  - 环加成
-  - 烯酮
+tags: [化竞, 有机化学, 人名反应, 光化学, 环加成, 烯酮]
 related: [周环反应, "[2+2]环加成", 光化学, 烯酮, 逆合成分析]
 prerequisite: [周环反应, "[2+2]环加成", 光化学基础, 烯酮]
 problem_types: [题型-产物预测, 题型-逆合成切断, 题型-机理判断]

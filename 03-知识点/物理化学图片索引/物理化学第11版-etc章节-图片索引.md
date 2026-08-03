@@ -2,6 +2,9 @@
 title: 物理化学第11版-etc章节-图片索引
 type: 图片索引
 updated: 2026-08-03
+status: 待填充
+template_version: v1.3
+tags: [化竞]
 ---
 
 # 物理化学第11版 - etc章节（补充内容）图片索引

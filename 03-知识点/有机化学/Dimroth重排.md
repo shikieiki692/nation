@@ -10,13 +10,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [52]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - Dimroth重排
-  - 杂环重排
-  - 嘧啶
-  - 开环闭环
+tags: [化竞, 有机化学, Dimroth重排, 杂环重排, 嘧啶, 开环闭环]
 related: [杂环化合物, 吡啶化学, 嘧啶]
 prerequisite: [杂环化合物, 芳香性]
 problem_types: [题型-机理推断]

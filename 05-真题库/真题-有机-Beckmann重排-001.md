@@ -9,14 +9,11 @@ difficulty: 4
 knowledge_points:
   - "Beckmann重排"
   - "1,2-迁移与重排"
-tags:
-  - 化竞
-  - 真题
-  - 有机化学
-  - Beckmann重排
+tags: [化竞, 真题, 有机化学, Beckmann重排]
 related_notes:
   - "[[专题-重排反应]]"
 updated: 2026-06-22
+teaching_level: 拓展
 ---
 
 # Beckmann重排-环己酮肟经酸催化生成己内酰胺

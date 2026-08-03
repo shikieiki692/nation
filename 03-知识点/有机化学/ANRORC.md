@@ -17,13 +17,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_module:
   - 有机化学
-tags:
-  - 化竞
-  - 有机化学
-  - ANRORC
-  - 吡啶
-  - 亲核取代
-  - 开环闭环
+tags: [化竞, 有机化学, ANRORC, 吡啶, 亲核取代, 开环闭环]
 related:
   - 吡啶化学
   - 芳香亲核取代反应

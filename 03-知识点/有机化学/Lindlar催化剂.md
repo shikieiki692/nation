@@ -10,16 +10,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [37, 43]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - Lindlar催化剂
-  - 选择性还原
-  - 毒化钯
-  - 顺式烯烃
-  - 炔烃还原
-  - 催化氢化
-  - Z-烯烃
+tags: [化竞, 有机化学, Lindlar催化剂, 选择性还原, 毒化钯, 顺式烯烃, 炔烃还原, 催化氢化, Z-烯烃]
 related: [炔烃, 烯烃, 催化氢化, 氧化还原反应, Birch还原, 硼氢化反应, 立体化学]
 prerequisite: [炔烃, 催化氢化, 立体化学]
 problem_types: [题型-还原条件选择, 题型-立体化学判断, 题型-合成设计]

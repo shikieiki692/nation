@@ -10,15 +10,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [39, 47]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - Baeyer-Villiger重排
-  - BV重排
-  - 酮转酯
-  - 过酸
-  - 迁移优先级
-  - 重排反应
+tags: [化竞, 有机化学, Baeyer-Villiger重排, BV重排, 酮转酯, 过酸, 迁移优先级, 重排反应]
 related: [Beckmann重排, 过酸, 酯, 内酯, 酮, Favorskii重排]
 prerequisite: [酮的化学, 酯的化学, 过酸, 重排反应]
 problem_types: [题型-产物推断, 题型-合成设计]

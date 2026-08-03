@@ -11,12 +11,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [48, 51]
 syllabus_module: [有机化学, 名称反应, 取代反应]
-tags:
-  - 化竞
-  - 名称反应
-  - 膦化合物
-  - SN2反应
-  - 烷基膦酸酯合成
+tags: [化竞, 名称反应, 膦化合物, SN2反应, 烷基膦酸酯合成]
 related: [Wittig反应, Horner-Wadsworth-Emmons反应, 鏻盐, SN2反应, 主族元素无机箭头推动法]
 prerequisite: [SN2反应, 反应机理表示法, 主族元素无机箭头推动法]
 problem_types: [题型-机理推断, 题型-合成路线设计]

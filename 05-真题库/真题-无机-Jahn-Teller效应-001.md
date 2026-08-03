@@ -9,15 +9,11 @@ difficulty: 4
 knowledge_points:
   - "Jahn-Teller效应"
   - "晶体场理论"
-tags:
-  - 化竞
-  - 真题
-  - Jahn-Teller效应
-  - 配合物
-  - 晶体场理论
+tags: [化竞, 真题, Jahn-Teller效应, 配合物, 晶体场理论]
 related_notes:
   - "[[专题-晶体与配合物深化]]"
 updated: 2026-06-22
+teaching_level: 拓展
 ---
 
 # Jahn-Teller效应-Cu2+配合物的拉长八面体

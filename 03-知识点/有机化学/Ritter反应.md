@@ -11,15 +11,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [45, 47]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - Ritter反应
-  - 腈
-  - 酰胺
-  - 碳正离子
-  - 胺合成
-  - 人名反应
+tags: [化竞, 有机化学, Ritter反应, 腈, 酰胺, 碳正离子, 胺合成, 人名反应]
 related: [Gabriel合成, 还原胺化, 腈的化学, 酰胺, 碳正离子]
 prerequisite: [碳正离子, 腈的化学, 酰胺化学]
 problem_types: [题型-酰胺合成, 题型-产物推断]

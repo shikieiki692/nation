@@ -10,13 +10,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [42]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - SNAr
-  - 芳香亲核取代
-  - 加成-消除
-  - Meisenheimer复合物
+tags: [化竞, 有机化学, SNAr, 芳香亲核取代, 加成-消除, Meisenheimer复合物]
 related: [芳香亲电取代, 亲核取代, 苯炔, 共振论, 芳香性]
 prerequisite: [芳香亲电取代, 亲核取代, 共振论, 离去基]
 problem_types: [题型-活性排序, 题型-产物预测, 题型-机理书写]

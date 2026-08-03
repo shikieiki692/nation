@@ -11,14 +11,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [45, 46]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - MukaiyamaAldol
-  - 向山Aldol
-  - 烯醇硅醚
-  - Lewis酸
-  - 人名反应
+tags: [化竞, 有机化学, MukaiyamaAldol, 向山Aldol, 烯醇硅醚, Lewis酸, 人名反应]
 related: [Aldol缩合, 烯醇硅醚, Lewis酸, 立体化学]
 prerequisite: [Aldol缩合, 烯醇盐, 硅醚化学]
 problem_types: [题型-产物预测, 题型-立体化学推断]

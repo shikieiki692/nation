@@ -11,10 +11,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 决赛要求-无机和结构化学
 syllabus_code: [13, 36]
 syllabus_module: [元素化学, 反应机理]
-tags:
-  - 化竞
-  - 反应机理
-  - 主族化学
+tags: [化竞, 反应机理, 主族化学]
 related: [主族元素无机箭头推动法, 缔合-离解过程, 高价化合物的成键, 取代反应, 配体交换反应]
 prerequisite: [反应机理表示法, 亲核体与亲电体, SN1反应]
 problem_types: [题型-机理推断, 题型-亲核取代]

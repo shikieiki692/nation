@@ -14,11 +14,7 @@ syllabus_code:
   - "50"
 syllabus_module:
   - 基础要求-有机化学
-tags:
-  - 化竞
-  - 有机合成
-  - 人名反应
-  - 杂环化学
+tags: [化竞, 有机合成, 人名反应, 杂环化学]
 related:
   - 杂环化合物
   - 呋喃

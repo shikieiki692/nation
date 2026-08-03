@@ -10,15 +10,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: ["36"]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - Barton反应
-  - 自由基反应
-  - 亚硝酸酯
-  - 光化学反应
-  - 脱羧反应
-  - 去氧反应
+tags: [化竞, 有机化学, Barton反应, 自由基反应, 亚硝酸酯, 光化学反应, 脱羧反应, 去氧反应]
 related: [自由基反应, 光化学反应, 亚硝酸酯, 脱羧反应, 去氧反应, 锡氢化物还原, 甾体化学]
 prerequisite: [自由基反应, 光化学基础, 羧酸衍生物, 醇的化学]
 problem_types: [Barton反应机理书写, 产物预测, 与其他自由基反应对比, 合成设计中的去氧策略]

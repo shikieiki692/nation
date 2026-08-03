@@ -11,15 +11,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [45, 46]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - Robinson环化
-  - 罗宾逊环化
-  - Michael加成
-  - Aldol缩合
-  - 环己烯酮
-  - 串联反应
+tags: [化竞, 有机化学, Robinson环化, 罗宾逊环化, Michael加成, Aldol缩合, 环己烯酮, 串联反应]
 related: [Aldol缩合, Mannich反应, Michael加成, 烯醇盐, 环己烯酮, 合成设计]
 prerequisite: [Aldol缩合, Michael加成, 烯醇盐, 羰基化学]
 problem_types: [题型-合成设计, 题型-产物预测]

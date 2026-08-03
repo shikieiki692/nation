@@ -11,12 +11,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [23, 21]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - 结构表达
-  - Lewis酸碱
-  - 形式电荷
+tags: [化竞, 有机化学, 结构表达, Lewis酸碱, 形式电荷]
 related: [Kekulé式, 键线式, 共振论, 形式电荷, 亲核体与亲电体, 反应机理表示法, 碳正离子, 卡宾, 自由基]
 prerequisite: [原子结构基础, 八隅律, 电负性]
 problem_types: [题型-Lewis结构式书写, 题型-形式电荷计算, 题型-共振式判断]

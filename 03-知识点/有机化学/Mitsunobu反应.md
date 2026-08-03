@@ -11,15 +11,7 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [36, 44]
 syllabus_module: [有机化学]
-tags:
-  - 化竞
-  - 有机化学
-  - Mitsunobu反应
-  - 构型翻转
-  - 膦化学
-  - 人名反应
-  - 亲核取代
-  - 醇的转化
+tags: [化竞, 有机化学, Mitsunobu反应, 构型翻转, 膦化学, 人名反应, 亲核取代, 醇的转化]
 related: [SN2反应, 亲核取代反应, Swern氧化, Appel反应, 醇的氧化, 膦化合物]
 prerequisite: [SN2反应, 醇的化学, 亲核试剂, 离去基]
 problem_types: [题型-立体化学推断, 题型-合成设计, 题型-机理书写]
