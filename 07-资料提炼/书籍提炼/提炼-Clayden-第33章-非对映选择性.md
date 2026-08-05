@@ -60,7 +60,7 @@ knowledge_points: [Felkin-Anh模型, 立体化学, 非对映选择性, 立体选
 
 **负电性原子的影响**：
 - 邻位有 N/O/S/卤素时，**负电性原子与 C=O 正交的构象更活泼**
-- 原因：π*(C=O) 与 σ*(C-X) 轨道重叠，形成新的低能 LUMO
+- 原因：π\*(C=O) 与 σ\*(C-X) 轨道重叠，形成新的低能 LUMO
 
 ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/9cbfb7ae72bda0dc89f0e53fd021d1051759050bef03a2694072d46833786758.jpg]]
 *LUMO轨道图*

@@ -28,7 +28,7 @@ Give mechanisms for these reactions and explain the regio- and stereochemical co
 
 ## 参考答案
 
-**Answer (English)**: The nitrone uses its LUMO (the π* of the C=N bond) to react with the HOMO of the diene whose largest coefficient is at the end away from the phenyl group (this is where an electrophile would react). There is no selectivity as there is no conjugation and no exo/endo selection.
+**Answer (English)**: The nitrone uses its LUMO (the π\* of the C=N bond) to react with the HOMO of the diene whose largest coefficient is at the end away from the phenyl group (this is where an electrophile would react). There is no selectivity as there is no conjugation and no exo/endo selection.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/bae519649929f59d70a02be5792303356422fc2745db6c6099e42b2520b12e2d.jpg]]
 
@@ -36,14 +36,14 @@ Reduction with zinc cleaves the N–O bond and MnO₂ oxidizes the allylic alcoh
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/1201dca7e28d62335621f73350f41819203bc1b74c0933e734ee8ed33f2a75df.jpg]]
 
-The stereochemistry is more difficult to explain. The product will choose a trans ring junction (the nitrogen can invert and trans 6,6-ring fusions are more stable), but that means the phenyl group has to be axial. It seems likely that this is the kinetic product. It looks as though the ring closes with the best overlap between the nitrogen lone pair and the π* orbital of the enone to give a cis ring junction that equilibrates by pyramidal inversion at nitrogen to the more stable trans ring junction.
+The stereochemistry is more difficult to explain. The product will choose a trans ring junction (the nitrogen can invert and trans 6,6-ring fusions are more stable), but that means the phenyl group has to be axial. It seems likely that this is the kinetic product. It looks as though the ring closes with the best overlap between the nitrogen lone pair and the π\* orbital of the enone to give a cis ring junction that equilibrates by pyramidal inversion at nitrogen to the more stable trans ring junction.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/05ec81a2ed4bb5cdf0d00389a1979061102134dab21c8638a7138290f57402d1.jpg]]
 
 **中文解析**：
 
 **环加成步骤**：
-1. **硝酮的LUMO**：C=N键的π*轨道与二烯体的HOMO相互作用
+1. **硝酮的LUMO**：C=N键的π\*轨道与二烯体的HOMO相互作用
 2. **区域选择性**：二烯体HOMO系数在远离Ph的一端最大（亲电试剂会进攻的位置）
 3. **立体选择性**：无明显选择性——没有共轭，也没有endo/exo选择
 
@@ -56,7 +56,7 @@ The stereochemistry is more difficult to explain. The product will choose a tran
 **立体化学解释**：
 1. **环连接方式**：产物选择trans环连接（N可翻转，trans 6,6-环融合更稳定）
 2. **Ph的轴向位置**：trans环连接迫使Ph处于轴向位置
-3. **机理**：环闭合时N孤对电子与烯酮π*轨道重叠最好 → 先形成cis环连接 → N的锥形翻转 → 更稳定的trans环连接
+3. **机理**：环闭合时N孤对电子与烯酮π\*轨道重叠最好 → 先形成cis环连接 → N的锥形翻转 → 更稳定的trans环连接
 4. **动力学控制**：这很可能是动力学产物
 
 ## 知识点映射
@@ -73,7 +73,7 @@ The stereochemistry is more difficult to explain. The product will choose a tran
 
 1. **读题定位**：画机理并解释区域/立体选择性 → 分析环加成和后续转化
 2. **🔑 环加成**：
-   - 硝酮LUMO（C=N的π*）与二烯体HOMO相互作用
+   - 硝酮LUMO（C=N的π\*）与二烯体HOMO相互作用
    - 区域选择性：二烯体HOMO系数在远离Ph端最大
    - 无endo/exo选择
 3. **🔑 后续转化**：

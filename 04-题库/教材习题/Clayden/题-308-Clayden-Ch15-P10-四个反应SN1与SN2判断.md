@@ -40,7 +40,7 @@ For each of the following reactions, determine whether the mechanism is SN1 or S
 
 **Answer (English)**:
 
-1. **SN2 (rare case)**: Normally tertiary carbons don't undergo SN2, but the adjacent C=O stabilizes the SN2 transition state by delocalizing the partial positive charge through its π* orbital. This is an exception to the general rule.
+1. **SN2 (rare case)**: Normally tertiary carbons don't undergo SN2, but the adjacent C=O stabilizes the SN2 transition state by delocalizing the partial positive charge through its π\* orbital. This is an exception to the general rule.
 
 2. **SN1**: The orthoester has three alkoxy groups. In acidic conditions, one OR is protonated and leaves, generating an oxonium ion (stabilized by the remaining two oxygens). This is an SN1 process through the oxonium ion.
 
@@ -52,7 +52,7 @@ For each of the following reactions, determine whether the mechanism is SN1 or S
 
 | 反应 | 机理 | 判断依据 |
 |------|------|---------|
-| 1. 叔碳+C=O+亲核试剂 | SN2（罕见） | C=O的π*轨道稳定SN2过渡态的部分正电荷 |
+| 1. 叔碳+C=O+亲核试剂 | SN2（罕见） | C=O的π\*轨道稳定SN2过渡态的部分正电荷 |
 | 2. 原酸酯+醇 | SN1 | 酸性条件下OR质子化离去 → 碳阳离子（氧鎓离子） |
 | 3. 丙醇+环氧化物（酸性） | SN1 | 质子化环氧化物 → 碳阳离子特征 → 进攻更取代位置 |
 | 4. 亲核试剂+环氧化物（碱性） | SN2 | 未质子化环氧化物 → 纯SN2 → 进攻位阻较小位置 |
@@ -61,7 +61,7 @@ For each of the following reactions, determine whether the mechanism is SN1 or S
 
 **反应1：叔碳的SN2（例外情况）**
 - 一般规律：叔碳底物不发生SN2（空间位阻太大）
-- 例外：当邻位有C=O时，C=O的π*轨道可以接受SN2过渡态中的部分正电荷
+- 例外：当邻位有C=O时，C=O的π\*轨道可以接受SN2过渡态中的部分正电荷
 - 这降低了SN2过渡态的能量，使反应可以进行
 - 这是一个重要的例外，考试中常考
 
@@ -100,6 +100,6 @@ For each of the following reactions, determine whether the mechanism is SN1 or S
 
 | 错误 | 原因 | 纠正 | 课堂提问 |
 |------|------|------|----------|
-| 认为叔碳一定不能SN2 | 没有掌握SN2的例外情况 | C=O的π*轨道可以稳定SN2过渡态 | 什么情况下叔碳可以发生SN2？ |
+| 认为叔碳一定不能SN2 | 没有掌握SN2的例外情况 | C=O的π\*轨道可以稳定SN2过渡态 | 什么情况下叔碳可以发生SN2？ |
 | 混淆酸性和碱性环氧化物开环 | 没有理解质子化对机理的影响 | 酸性→SN1-like（更取代位置）；碱性→SN2（位阻较小位置） | 为什么质子化会改变环氧化物开环的区域选择性？ |
 | 认为原酸酯反应是SN2 | 没有识别出氧鎓离子中间体 | 原酸酯在酸性条件下形成氧鎓离子，是SN1 | 原酸酯和普通酯在酸性条件下的反应有什么区别？ |

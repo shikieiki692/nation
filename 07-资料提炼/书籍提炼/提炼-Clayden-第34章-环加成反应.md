@@ -62,7 +62,7 @@ knowledge_points: [周环反应, 协同反应, 轨道对称性, Diels-Alder反�
 
 #### endo 规则（内型规则）
 - **定义**：亲双烯体上的吸电子取代基倾向于在产物的 **endo 位**（桥位，靠近新形成的双键）。
-- **原因**：endo 过渡态中，亲双烯体的π*轨道（LUMO）与二烯的后部存在额外的**次级轨道相互作用（成键相互作用）**，降低过渡态能量。
+- **原因**：endo 过渡态中，亲双烯体的π\*轨道（LUMO）与二烯的后部存在额外的**次级轨道相互作用（成键相互作用）**，降低过渡态能量。
 - **动力学 vs 热力学**：endo 是**动力学产物**（形成更快），exo 是**热力学产物**（更稳定）。
 - **例外**：分子内 D-A 反应中，endo 规则可能被破坏——通常倾向于外型产物，由空阻因素支配。
 
@@ -274,7 +274,7 @@ knowledge_points: [周环反应, 协同反应, 轨道对称性, Diels-Alder反�
 - ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/489c8c7b27edee61fe368a84a1b4b2f33e18e662b8a623c0f7e4442102fed868.jpg]] —— 羰基烯反应的椅式过渡态（lines 1133-1135）
 
 ### 光化学 [2+2]
-- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/155c7f954a73cd4f4e2482e7bd4612684bb1665df5b5111c124beb7269deabc1.jpg]] —— 光激发 π→π*（lines 1156-1164）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/155c7f954a73cd4f4e2482e7bd4612684bb1665df5b5111c124beb7269deabc1.jpg]] —— 光激发 π→π\*（lines 1156-1164）
 - ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/20c56b22ac2db61ad54ce82bef7ff7729a58803a2cb42ed53652ce1ba59b7b28.jpg]] —— 激发态与基态组合（lines 1166-1176）
 - ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/463f1ca24d9a49019c466d52b5990855d06b8cbefe595a57e26a75b11b333f3c.jpg]] —— 光化学 [2+2] 区域选择性（lines 1202-1212）
 - ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/32f02a3d9b0eb4d8dd910e1f8f9112b9441d51f3af59a18805745e3eda14a25e.jpg]] —— LUMO-LUMO 相互作用决定区域选择性（lines 1214-1220）

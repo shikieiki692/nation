@@ -260,8 +260,8 @@ knowledge_points: [芳香亲电取代, 亲电加成, 亲核取代, 消除反应,
 ![[clayden 有机化学/Clayden中文版_601-800_images/3fff60991ec77c38e28e931ac746d49bb66ee36b00904241a67f1c16dba201bd.jpg]] —— SN2与SN2'两种机理（file 2, line 97）
 
 ### 9.2 前线轨道解释
-- **简单SN2**：LUMO主要是σ*(C-Br)。
-- **SN2'**：π*(C=C)与相邻σ*(C-Br)相互作用，形成新的低能LUMO（π*+σ*）。
+- **简单SN2**：LUMO主要是σ\*(C-Br)。
+- **SN2'**：π\*(C=C)与相邻σ\*(C-Br)相互作用，形成新的低能LUMO（π\*+σ\*）。
 - 为最大化成键相互作用，所有原子轨道需平行排列。
 
 ![[clayden 有机化学/Clayden中文版_601-800_images/e870ec278f9758c7a019279add61034df6b9e62648ba780e20361c9a297a134e.jpg]] —— SN2'的前线轨道相互作用（file 2, line 112）

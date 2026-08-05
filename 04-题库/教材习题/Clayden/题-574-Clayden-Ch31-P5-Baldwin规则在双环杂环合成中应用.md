@@ -36,8 +36,8 @@ Draw a mechanism for the following multistep reaction. Do the cyclization steps 
 
 关键步骤：
 1. **缩醛水解**：酸催化下缩醛水解释放醛基，为后续反应提供亲电中心
-2. **第一步关环（5-exo-trig）**：胺对醛的Mannich型缩合形成亚胺离子——胺从醛的π*轨道的外侧(exo)进攻，形成五元环，符合Baldwin规则（5-exo-trig允许）
-3. **第二步关环（6-endo-trig）**：烯醇对亚胺离子的进攻——烯醇从亚胺离子π*轨道的内侧(endo)进攻，形成六元环，也符合Baldwin规则（6-endo-trig允许）
+2. **第一步关环（5-exo-trig）**：胺对醛的Mannich型缩合形成亚胺离子——胺从醛的π\*轨道的外侧(exo)进攻，形成五元环，符合Baldwin规则（5-exo-trig允许）
+3. **第二步关环（6-endo-trig）**：烯醇对亚胺离子的进攻——烯醇从亚胺离子π\*轨道的内侧(endo)进攻，形成六元环，也符合Baldwin规则（6-endo-trig允许）
 4. **椅式过渡态**：分子折叠成椅式构象，使p轨道有合理重叠
 
 > **注意**：6-endo-trig反应在形成六元环时是允许的——这是Baldwin规则的一个重要例外（一般endo-trig不利，但六元环除外）。

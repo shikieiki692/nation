@@ -57,7 +57,7 @@ knowledge_points: [金属有机与羰基化学, Grignard试剂, 有机金属试�
 
 ### 1.4 反馈成键（Back-bonding）
 - **σ给电子**：配体充满的spⁿ轨道与金属空的dsp轨道重叠，形成σ键。
-- **π反馈**：金属充满的d轨道与配体空的π*轨道重叠，减少金属电子密度。
+- **π反馈**：金属充满的d轨道与配体空的π\*轨道重叠，减少金属电子密度。
 - **证据**：CO配合物中C–O键长增加、红外伸缩频率下降。
 
 ---
@@ -225,7 +225,7 @@ knowledge_points: [金属有机与羰基化学, Grignard试剂, 有机金属试�
 - ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/6d3eee75a869f817aabe4f790e9eca7d3eba49cfb088bf38fa54d1f8a2177654.jpg]] — 18电子配合物示例：Cr(苯)(CO)₃与Pd(PPh₃)₄（line ~5295）
 - ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/7d18b723f66bd01778d7cd6cfa8f552afe6fd601088b5a11a70897884795ed87.jpg]] — σ配合物（η¹）与π配合物（η²）对比（line ~5308）
 - ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/ee78a5b0fd84f7c36ad7244b6301c98e1d3ff49144d75e41c26d2e2abcd360fd.jpg]] — σ成键：配体孤对电子→金属空轨道（line ~5419）
-- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/2edb6c9da312fc907528042645b69085475b9e1d561398edb60f226dd2c24baa.jpg]] — π配合物成键：配体π→金属d + 金属d→配体π*（line ~5451）
+- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/2edb6c9da312fc907528042645b69085475b9e1d561398edb60f226dd2c24baa.jpg]] — π配合物成键：配体π→金属d + 金属d→配体π\*（line ~5451）
 
 ### 5.2 基本反应步骤
 - ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/0e465cbfea2da950ce89040e09c8dd6989c4fcd4c31aaa5f940bb2af93cb9c54.jpg]] — 氧化加成：M(0) + X–Y → M(II)（line ~5475）
