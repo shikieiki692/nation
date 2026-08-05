@@ -66,8 +66,8 @@ exercise_levels: "基础5 + 进阶5 + 挑战5"
 |:--:|:---|:---|
 | 1 | 从 dU=TdS−pdV 经 Legendre 变换得到四大基本方程 | 能写出 U/H/A/G 的全微分 |
 | 2 | 记住四条 Maxwell 关系并会用记忆口诀 | 能由任一基本方程推出对应 Maxwell 式 |
-| 3 | 用 Maxwell 关系推导热容差 C_p−C_V 公式 | ≥ 85% 正确 |
-| 4 | 理解配分函数 q 的定义与分解 | 能写 q=q_T·q_R·q_V·q_E |
+| 3 | 用 Maxwell 关系推导热容差 $C_p$−$C_V$ 公式 | ≥ 85% 正确 |
+| 4 | 理解配分函数 q 的定义与分解 | 能写 q=$q_T$·$q_R$·$q_V$·$q_E$ |
 | 5 | 由 q 求内能 U 和熵 S | 定域/离域熵差 Nk·ln(e/N) 脱口而出 |
 
 ---
@@ -93,7 +93,7 @@ exercise_levels: "基础5 + 进阶5 + 挑战5"
 
 | 层级 | 内容 | 说明 |
 |:---:|:---|:---|
-| 📝 **决赛必会** | 四大基本方程；四条 Maxwell 关系及记忆口诀；C_p−C_V=α²TV/κ_T；Gibbs-Helmholtz 微分/积分式；Boltzmann 分布；配分函数定义与分解；U、S 由 q 求；定域/离域熵差 | 决赛04 核心，动手必练 |
+| 📝 **决赛必会** | 四大基本方程；四条 Maxwell 关系及记忆口诀；$C_p$−$C_V$=α²TV/κ_T；Gibbs-Helmholtz 微分/积分式；Boltzmann 分布；配分函数定义与分解；U、S 由 q 求；定域/离域熵差 | 决赛04 核心，动手必练 |
 | 🌟 **了解会用** | Sackur-Tetrode 方程；残余熵计算；Legendre 变换思想；各模式配分函数（q^T/q^R/q^V/q^E） | 会用即可，不深究推导 |
 | 🔒 **后置延伸** | 正则系综（13D）；配分函数算平衡常数（13F）；量子统计（Bose-Einstein/Fermi-Dirac）；统计热力学在光谱/吸附中的应用 | 超出决赛，大学物化再学 |
 
@@ -171,12 +171,12 @@ $$\left(\frac{\partial (G/T)}{\partial T}\right)_p = -\frac{H}{T^2}$$
 
 ### 3.2 变温应用
 
-对反应：$\Delta_r G^\circ$ 随温度变化
+对反应：$\Delta_r G^\theta$ 随温度变化
 
-$$\frac{\Delta G^\circ(T_2)}{T_2} - \frac{\Delta G^\circ(T_1)}{T_1} = -\Delta H^\circ\left(\frac{1}{T_2} - \frac{1}{T_1}\right)$$
+$$\frac{\Delta G^\theta(T_2)}{T_2} - \frac{\Delta G^\theta(T_1)}{T_1} = -\Delta H^\theta\left(\frac{1}{T_2} - \frac{1}{T_1}\right)$$
 
-- 已知某温度 $T_1$ 的 $\Delta G^\circ$，可用上式求另一温度 $T_2$ 的 $\Delta G^\circ$（假设 $\Delta H^\circ$ 不随温度变）。
-- 与 van't Hoff 的关系：$K$ 随温度由 $\Delta H^\circ$ 决定（物化综合计算 §〇 已讲），两者是**同一件事**在"自由能语言"与"平衡常数语言"下的表达。
+- 已知某温度 $T_1$ 的 $\Delta G^\theta$，可用上式求另一温度 $T_2$ 的 $\Delta G^\theta$（假设 $\Delta H^\theta$ 不随温度变）。
+- 与 van't Hoff 的关系：$K$ 随温度由 $\Delta H^\theta$ 决定（物化综合计算 §〇 已讲），两者是**同一件事**在"自由能语言"与"平衡常数语言"下的表达。
 
 ---
 
@@ -269,7 +269,7 @@ $$S = Nk\left[\ln\frac{V}{N\Lambda^3} + \frac{5}{2}\right] = nR\left[\ln\frac{V_
 | 内能 U | $U = NkT^2(\partial\ln q/\partial T)_V$ | 配分函数 |
 | 自由能 A | $A = -NkT\ln q$ | 配分函数 |
 | 热容 C | $\partial U/\partial T$ | 配分函数 |
-| 平衡常数 K | $\Delta A^\circ = -RT\ln K$ | 配分函数（拓展 13F） |
+| 平衡常数 K | $\Delta A^\theta = -RT\ln K$ | 配分函数（拓展 13F） |
 
 > **一句话**：宏观热力学解决"能发生什么"（判据），统计热力学解释"为什么"（微观起源）。Maxwell 关系是热力学内部的"变形金刚"，配分函数是宏观-微观的"翻译机"。
 
@@ -283,7 +283,7 @@ $$S = Nk\left[\ln\frac{V}{N\Lambda^3} + \frac{5}{2}\right] = nR\left[\ln\frac{V_
 | 四大基本方程 | dU/dH/dA/dG | 直接读偏导数 |
 | Maxwell 口诀 | 同侧同号，异侧异号 | 最常用第 3、4 条 |
 | 热容差 | $C_p-C_V = \alpha^2TV/\kappa_T$ | 理想气体 = nR |
-| Gibbs-Helmholtz | $(\partial(G/T)/\partial T)_p = -H/T^2$ | 变温求 ΔG° |
+| Gibbs-Helmholtz | $(\partial(G/T)/\partial T)_p = -H/T^2$ | 变温求 $\Delta G^\theta$ |
 | Boltzmann | $N_i/N = g_i e^{-\beta\varepsilon_i}/q$ | β=1/kT |
 | 配分函数 | $q = \sum g e^{-\beta\varepsilon}$ | 分解 q^T·q^R·q^V·q^E |
 | 内能 | $U-U(0) = NkT^2(\partial\ln q/\partial T)_V$ | 各自由度能量加和 |
@@ -316,7 +316,7 @@ $$S = Nk\left[\ln\frac{V}{N\Lambda^3} + \frac{5}{2}\right] = nR\left[\ln\frac{V_
 |:---|:---|:---|
 | Maxwell 关系 | 由四大基本方程二阶混合偏导推出 | 当成独立新公式背是错的；「同侧同号，异侧异号」 |
 | $C_p-C_V = \alpha^2TV/\kappa_T$ | 理想气体 = nR | 忘除以 $\kappa_T$ |
-| Gibbs-Helmholtz：$(\partial(G/T)/\partial T)_p = -H/T^2$ | 变温求 $\Delta G^\circ$ | 分子是 H 不是 G |
+| Gibbs-Helmholtz：$(\partial(G/T)/\partial T)_p = -H/T^2$ | 变温求 $\Delta G^\theta$ | 分子是 H 不是 G |
 
 ### 配分函数与统计熵
 
@@ -345,12 +345,12 @@ $$S = Nk\left[\ln\frac{V}{N\Lambda^3} + \frac{5}{2}\right] = nR\left[\ln\frac{V_
 2. 由 dA = −SdT − pdV 用二阶混合偏导推导 Maxwell 第 3 条：$(\partial S/\partial V)_T = (\partial p/\partial T)_V$。
 3. 写出 Boltzmann 分布与分子配分函数 q 的定义式，说明 β 的物理意义。
 4. 单原子理想气体，$N=1.0\times10^{23}$，$T=300$ K，$V=1.0$ L，$m=6.6\times10^{-26}$ kg。求热波长 Λ 与平动配分函数 q^T。
-5. 理想气体 C_p−C_V = nR：用 $\alpha=1/T$、$\kappa_T=1/p$ 代入热容差公式验证。
+5. 理想气体 $C_p$−$C_V$ = nR：用 $\alpha=1/T$、$\kappa_T=1/p$ 代入热容差公式验证。
 
 ### 竞赛入门（5 题）
 
 6. 用 Maxwell 第 4 条 $(\partial S/\partial p)_T = -(\partial V/\partial T)_p$，由状态方程 $pV=nRT$ 求 $(\partial S/\partial p)_T$。
-7. 已知 298K 某反应 $\Delta G^\circ = +50.0$ kJ/mol，$\Delta H^\circ = -20.0$ kJ/mol（不随温度变）。用 Gibbs-Helmholtz 求 350K 的 $\Delta G^\circ$。
+7. 已知 298K 某反应 $\Delta G^\theta = +50.0$ kJ/mol，$\Delta H^\theta = -20.0$ kJ/mol（不随温度变）。用 Gibbs-Helmholtz 求 350K 的 $\Delta G^\theta$。
 8. 双原子分子 CO，$\tilde{B}=1.93$ cm⁻¹，对称数 σ=1，$T=300$ K。求转动配分函数 q^R（$hc\tilde{B}$ 单位换算：$hc\tilde{B}/k \approx 2.78$ K）。
 9. 由配分函数求内能：某分子在 300K 时 $(\partial\ln q/\partial T)_V = 0.01$ K⁻¹，$N=1$ mol。求 $U-U(0)$。
 10. 比较：同温同压下，1 mol 离域理想气体的熵比"把同样 N 个粒子当定域处理"的熵小多少？（用公式说明）
