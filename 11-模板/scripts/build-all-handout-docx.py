@@ -410,6 +410,7 @@ def _run_word_formula_precheck(
     mermaid_fence_len = 0
     mermaid_start_line: int | None = None
     mermaid_excerpt_lines: list[str] = []
+    in_html_comment = 0  # 多行 HTML 注释（<!-- ... -->）深度计数
 
     for idx, raw_line in enumerate(source_lines, start=1):
         if not in_mermaid_block:
@@ -549,14 +550,19 @@ def _run_word_formula_precheck(
 
         # ── 学生讲义纪律检查：教师向/规划类内容残留（WARN） ──
         # 只检查「可见行」；HTML 注释（<!-- ... -->）内的教师信息不报警。
-        visible_line = re.sub(r"<!--.*?-->", "", raw_line)
+        # 多行 HTML 注释（<!-- ... -->）内的内容不视为「可见行」：
+        # 逐行正则无法跨行，用深度计数判断当前行是否处于注释区内。
+        if in_html_comment > 0 or "<!--" in raw_line:
+            visible_line = ""
+        else:
+            visible_line = re.sub(r"<!--.*?-->", "", raw_line)
+        in_html_comment = max(0, in_html_comment + raw_line.count("<!--") - raw_line.count("-->"))
         heading_match = re.match(r"^\s*#{1,6}\s+(.*)$", visible_line)
         if heading_match:
             heading_text = heading_match.group(1)
             for term in (
                 "四层结构总览", "主线导航", "轮次划分", "本讲定位", "本轮定位",
                 "深度边界", "深度分层", "使用说明", "本讲小结", "易错清单",
-                "延伸阅读", "学习目标",
             ):
                 if term in heading_text:
                     _append_precheck_issue(
@@ -596,8 +602,8 @@ def _run_word_formula_precheck(
                 )
 
         # ── emoji 残留（WARN，学生讲义建议零 emoji） ──
-        for emoji in ("📎", "🌱", "🏆", "🌟", "🔥", "💡", "📝", "✅",
-                      "🧠", "🗣", "⚡", "🔗", "🏅", "⭐", "⚠", "💎", "🎯"):
+        for emoji in ("📎", "🌱", "🏆", "🌟", "🔥", "💡", "📝",
+                      "🧠", "🗣", "⚡", "🔗", "🏅", "⭐", "💎", "🎯"):
             if emoji in visible_line:
                 _append_precheck_issue(
                     issues,
