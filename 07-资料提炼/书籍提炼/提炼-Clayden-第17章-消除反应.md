@@ -356,7 +356,7 @@ knowledge_points: [消除反应, E1cb机理, E2反应, 反式共平面, E1反应
 - ![[clayden 有机化学/Clayden中文版_402-600_images/b2a3c2d089555b1b037491a55f7452e34ba5068160ed97072194e16d365c2552.jpg]] —— E2 立体专一性：不同非对映异构体产物不同（line 673）
 
 ### 环己烷 E2
-- ![[clayden 有机化学/Clayden中文版_402-600_images/608cd2361de9c46adc8a1c479d34e5f085e54b49b0fea4b870b39ae6e5268e1.jpg]] —— 环己烷 E2 需要 C-H 和 C-X 都是直立键（line 695）
+- 📌 **图片待补：** 608cd2361de9c46adc8a1c479d34e5f085e54b49b0fea4b870b39ae6e5268e1.jpg —— 环己烷 E2 需要 C-H 和 C-X 都是直立键（line 695）
 - ![[clayden 有机化学/Clayden中文版_402-600_images/d6dc1534f60f80f9947e9f5f075fb73f0832711f70a3494f41cb136ee1b36115.jpg]] —— 构象锁定环己烷的 E2 差异（line 701）
 - ![[clayden 有机化学/Clayden中文版_402-600_images/8d1e301ad3b26edcf739ab000b96f0d379abdc2d23e8d6c1bf9aa9c1df5f9f7b.jpg]] —— 非对映异构体 A 的 E2 机理（line 713）
 - ![[clayden 有机化学/Clayden中文版_402-600_images/5d7943a3ca852c855957e31738ffac9f3dc22e6a4fcd19dbb22f2656cd3eb67f.jpg]] —— 非对映异构体 B 的 E2 机理（line 715）

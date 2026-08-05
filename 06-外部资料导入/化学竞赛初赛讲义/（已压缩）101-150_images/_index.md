@@ -17,11 +17,11 @@
 
 | 文件名 | 内容描述 | 建议重命名 | 质量 | 关联KP |
 |:---|:---|:---|:---:|:---|
-|47f26374efb2892b0691afab1671059ebcfdeff186646e1500cc15877e0cdf7d.jpg|多面体结构(截角二十面体等)|lecture_101-150_poly001.jpg|HIGH|结构化学|
-|f2c7be1342ca94d22ae6a394603ecf070998d34137086699ca199e6ffd3c38e5.jpg|晶格结构图|lecture_101-150_crystal001.jpg|HIGH|结构化学|
+| 47f26374efb2892b0691afab1671059ebcfdeff186646e1500cc15877e0cdf7d.jpg | 【机器误判修正】多面体结构(截角二十面体等) | lecture_101-150_poly001.jpg | HIGH | 结构化学 |
+| f2c7be1342ca94d22ae6a394603ecf070998d34137086699ca199e6ffd3c38e5.jpg | 【机器误判修正】晶格结构图 | lecture_101-150_crystal001.jpg | HIGH | 结构化学 |
 |6f025335755644bfa804d5213076df686d76267aeddf2a26d344fd32389a8aa5.jpg|摩尔质量计算公式|lecture_101-150_calc001.jpg|MEDIUM|结构化学|
-|1b4f33745339542bf31ff5e4b63bfc439c99e9f076c5edd9e19be35479238adb.jpg|晶体堆积图(面心立方)|lecture_101-150_crystal002.jpg|HIGH|结构化学|
-|594494112bc5e75a1204154453fa4c47c5f7e3f9898777f39face27dd7725882.jpg|晶格结构对比图|lecture_101-150_crystal003.jpg|HIGH|结构化学|
+| 1b4f33745339542bf31ff5e4b63bfc439c99e9f076c5edd9e19be35479238adb.jpg | 【机器误判修正】晶体堆积图(面心立方) | lecture_101-150_crystal002.jpg | HIGH | 结构化学 |
+| 594494112bc5e75a1204154453fa4c47c5f7e3f9898777f39face27dd7725882.jpg | 【机器误判修正】晶格结构对比图 | lecture_101-150_crystal003.jpg | HIGH | 结构化学 |
 |0a0ae257054b992f64634f627665c508acb8bb842311ca2730483b4d7d9fa1b9.jpg|[待分类]|lecture_101-150_xxx.jpg|MEDIUM|待定|
 |0f5db2af87645c0c4f7b75c68d7ccfe131c3b1e9885a8bd73328bc2de22d567d.jpg|[待分类]|lecture_101-150_xxx.jpg|MEDIUM|待定|
 |111645153cf8c0aab7c3782b987e0963f9e5477a9ccd2030dc45d367d77125c6.jpg|[待分类]|lecture_101-150_xxx.jpg|MEDIUM|待定|

@@ -387,7 +387,7 @@ knowledge_points: [碳负离子, Michael加成, Wittig反应, Horner-Wadsworth-E
 - ![[clayden 有机化学/Clayden中文版_601-800_images/bb6badb1a165efc78c58beb444defbd2ae43e5c2927675b5e8fb54b80c386347.jpg]] —— 铵盐的去质子（line 2734）
 - ![[clayden 有机化学/Clayden中文版_601-800_images/17dcd841bf37b83427c8deceb6a438792e92880f991a1cf80f7dc2dc30f53c08.jpg]] —— 磷叶立德 vs 硫叶立德对比（line 2738）
 - ![[clayden 有机化学/Clayden中文版_601-800_images/0a018dc3d092b8c9b9aebaa86399cd219af1ae9710f54e4597e6542219f3c5c0.jpg]] —— Corey-Chaykovsky 反应机理（line 2748）
-- ![[clayden 有机化学/Clayden中文版_601-800_images/793774f965993719437b14491eb7cc67d43b9198267d43b9198267d43b91.jpg]] —— 被稳定硫叶立德的环丙烷化（line 2766）
+- 📌 **图片待补：** 793774f965993719437b14491eb7cc67d43b9198267d43b9198267d43b91.jpg —— 被稳定硫叶立德的环丙烷化（line 2766）
 
 ### Swern 氧化
 - ![[clayden 有机化学/Clayden中文版_601-800_images/c639c4d60547e4500f0fc70a740200dcd9ad7d9413148aa0dc41ac71e3862476.jpg]] —— Swern 氧化概述（line 2800）
@@ -400,17 +400,17 @@ knowledge_points: [碳负离子, Michael加成, Wittig反应, Horner-Wadsworth-E
 
 ### Peterson 消除
 - ![[clayden 有机化学/Clayden中文版_601-800_images/eecf70258a4946c06c0f8ec66ee8db73832560c0f68a84d4b30a9989fb4b6831.jpg]] —— Peterson 消除概述（line 2880）
-- ![[clayden 有机化学/Clayden中文版_601-800_images/03466bb9e30ed6023c34cf15ed768696292e2cb7be6568045b24d6c9d38af6.jpg]] —— 酸促/碱促 Peterson 机理（line 3351）
+- 📌 **图片待补：** 03466bb9e30ed6023c34cf15ed768696292e2cb7be6568045b24d6c9d38af6.jpg —— 酸促/碱促 Peterson 机理（line 3351）
 - ![[clayden 有机化学/Clayden中文版_601-800_images/687e75dec6a506d57b0a25f1307f7fa11c665c17234feb65b5520bd32ce7e966.jpg]] —— Peterson 在紫杉醇合成中的应用（line 2886）
 
 ### β-硅基阳离子与乙烯基硅烷
 - ![[clayden 有机化学/Clayden中文版_601-800_images/af32ca97d6dce0685e8f5b4509df7b861e1764a1f24e8af7f3dcc0eccd6a16f5.jpg]] —— β-硅基阳离子稳定（line 2912）
-- ![[clayden 有机化学/Clayden中文版_601-800_images/5348203402f089ae44d8474a12344d07f79f0c284a2b5fcfdcc515254769369d2.jpg]] —— 乙烯基硅烷的区域和立体选择性（line 2964）
-- ![[clayden 有机化学/Clayden中文版_601-800_images/81efab29644761f2ed3e7dcba3999c24eacff3a65e35e766a3fb3b39c5e7fb.jpg]] —— 乙烯基硅烷反应机理（line 2968）
+- 📌 **图片待补：** 5348203402f089ae44d8474a12344d07f79f0c284a2b5fcfdcc515254769369d2.jpg —— 乙烯基硅烷的区域和立体选择性（line 2964）
+- 📌 **图片待补：** 81efab29644761f2ed3e7dcba3999c24eacff3a65e35e766a3fb3b39c5e7fb.jpg —— 乙烯基硅烷反应机理（line 2968）
 
 ### 烯丙基硅烷
 - ![[clayden 有机化学/Clayden中文版_601-800_images/1c020a1631d7e0e099950c49548567cc34d899fd078ad832fb1d5f4c7c5677f5.jpg]] —— 烯丙基硅烷的 C-Si/π 相互作用（line 3002）
-- ![[clayden 有机化学/Clayden中文版_601-800_images/4e2108cc1e95d2b3ebe1cfb03690f3ef2a7c150f436fda3e1bcbfd9aa1b27456.jpg]] —— 烯丙基硅烷的 γ-选择性（line 3006）
+- 📌 **图片待补：** 4e2108cc1e95d2b3ebe1cfb03690f3ef2a7c150f436fda3e1bcbfd9aa1b27456.jpg —— 烯丙基硅烷的 γ-选择性（line 3006）
 - ![[clayden 有机化学/Clayden中文版_601-800_images/e1bb6337c4dc7161300891099671e2fd90d7e6e0a822acb22ba485fcf904257a.jpg]] —— 烯丙基硅烷与各种亲电试剂（line 3014）
 
 ### Wittig 反应立体化学
@@ -420,13 +420,13 @@ knowledge_points: [碳负离子, Michael加成, Wittig反应, Horner-Wadsworth-E
 - ![[clayden 有机化学/Clayden中文版_601-800_images/f723557ffd93b932630b2cfcdd83b90a0fe7b4c7c2cf74adc14210f7e9784daa.jpg]] —— E-选择性 Wittig 机理（line 3446）
 
 ### Julia 成烯反应
-- ![[clayden 有机化学/Clayden中文版_601-800_images/c6593445f24616654f746121829629c97a06f5999b609c4b1f6d9616686751ba.jpg]] —— Julia 成烯反应三步法（line 3297）
+- 📌 **图片待补：** c6593445f24616654f746121829629c97a06f5999b609c4b1f6d9616686751ba.jpg —— Julia 成烯反应三步法（line 3297）
 - ![[clayden 有机化学/Clayden中文版_601-800_images/2e4e1abf170fd49879fd8ae52d554400a5b61b82105b67ca77a42a0c774fd3fb.jpg]] —— Julia 反应的 E 选择性结果（line 3303）
 - ![[clayden 有机化学/Clayden中文版_601-800_images/03a239bb5ea603e5758fdc3dbc0d68c18e049e7747c12b5b940cd5cabe62e289.jpg]] —— Julia-Kocieński 一步法（line 3321）
 
 ### 炔烃还原与烯烃合成
 - ![[clayden 有机化学/Clayden中文版_601-800_images/458e04a02711d741f0b29822d653ec26c2be5fa35f616149be4d2dc62926ba3c.jpg]] —— Lindlar 催化氢化（line 3193）
-- ![[clayden 有机化学/Clayden中文版_601-800_images/3faf1432797881146d3edbfa477dbdc6e34e32cd9e4694950bb2ed8bda534742.jpg]] —— Na/NH₃ 还原炔烃（line 3205）
+- 📌 **图片待补：** 3faf1432797881146d3edbfa477dbdc6e34e32cd9e4694950bb2ed8bda534742.jpg —— Na/NH₃ 还原炔烃（line 3205）
 - ![[clayden 有机化学/Clayden中文版_601-800_images/a9b8d7b875cab26b83273b1e207e03150caaff1556856f8da04057af18df9fe3.jpg]] —— 亚砜消除制烯基酮（line 3265）
 
 ---

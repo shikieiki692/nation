@@ -172,6 +172,8 @@ Word 成品中的公式应尽量保持：
 5. 图注中残留复杂公式
 6. 生成后 docx 内 `oMath`/`oMathPara` 数量异常少
 7. Markdown 中公式块很多，但 Word 中几乎没有公式对象
+8. 学生讲义正文残留教师向/规划类 section（本讲定位/深度边界/学习目标/主线导航/轮次划分/易错清单/本讲小结 等）—— WARN
+9. 学生讲义残留装饰性 emoji（📝🌟⚠🌱🔥🏆 等）—— WARN
 
 预检输出应按严重级别分 3 层：
 
@@ -230,6 +232,10 @@ Word 成品中的公式应尽量保持：
 ## 后续任务卡
 
 - [x] 实现 `Word 公式预检器 v1`
+- [x] 预检新增：教师向/规划类 section 残留 WARN（teacher_facing_section / teacher_facing_blockquote）
+- [x] 预检新增：装饰性 emoji 残留 WARN（decorative_emoji）
+- [x] `--file` 支持复习课/新课等任意学生讲义名字匹配（不再只认「超级充实/基础版」）
+- [x] `_strip_metadata_blockquote` 头部静默删除回归测试（`--self-test`）
 - [ ] 梳理 `custom-reference.docx` 样式矩阵
 - [ ] 给图注、表注、答案区建立正式样式
 - [ ] 增加并列图片布局策略

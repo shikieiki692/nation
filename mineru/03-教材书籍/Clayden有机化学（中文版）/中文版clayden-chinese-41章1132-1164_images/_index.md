@@ -9,34 +9,34 @@
 
 | 文件名 | 内容描述 | 建议重命名 | 质量 | 关联KP |
 |:---|:---|:---|:---:|:---|
-| 40afd022f4ee500eff033bd92c37388bbb48d502eec14d1bcbff2571e86d4b4e.jpg | 脯氨酸催化的不对称Aldol反应（97% yield, 96% ee） | clayden_ch41_proline_aldol.jpg | HIGH | 不对称催化 |
-| 5d498b6c071cec3a093aa732f4adfd16f443c98832ea10f444dabe69cd17436f.jpg | Sharpless不对称双羟化的区域选择性模型（DHQ/DHQD） | clayden_ch41_sharpless_dh_model.jpg | HIGH | Sharpless双羟化 |
-| ae24f7c3322ac7577e8944ba34e12912af7972cc99a1f8f769bd66fb2bd8ac41.jpg | Evans噁唑烷酮辅助剂合成（(S)-缬氨酸→噁唑烷酮） | clayden_ch41_evans_auxiliary_syn.jpg | HIGH | Evans辅助剂 |
+| 40afd022f4ee500eff033bd92c37388bbb48d502eec14d1bcbff2571e86d4b4e.jpg | 【机器误判修正】脯氨酸催化的不对称Aldol反应（97% yield, 96% ee） | clayden_ch41_proline_aldol.jpg | HIGH | 不对称催化 |
+| 5d498b6c071cec3a093aa732f4adfd16f443c98832ea10f444dabe69cd17436f.jpg | 【机器误判修正】Sharpless不对称双羟化的区域选择性模型（DHQ/DHQD） | clayden_ch41_sharpless_dh_model.jpg | HIGH | Sharpless双羟化 |
+| ae24f7c3322ac7577e8944ba34e12912af7972cc99a1f8f769bd66fb2bd8ac41.jpg | 【机器误判修正】Evans噁唑烷酮辅助剂合成（(S)-缬氨酸→噁唑烷酮） | clayden_ch41_evans_auxiliary_syn.jpg | HIGH | Evans辅助剂 |
 | 7061926f1cd268184a787519bc25788402eb31e67b8b8b73ffe5b43098384bef.jpg | 蜗牛照片（天然产物来源示意） | clayden_ch41_snail_photo.jpg | MEDIUM | - |
 | 9612a0605b1af062b875a60c08f32ce3efb1182664e1304aaffba27f1ee7ab38.jpg | 所需对映体的氨基酸结构 | clayden_ch41_desired_enantiomer.jpg | MEDIUM | - |
-| a3342b3f57cda6a85773e6768b200690bf7426fde0c479303293e97a6a4cbe2c.jpg | Rh催化氢化的机理（18e→16e→14e Ru配合物） | clayden_ch41_rh_hydrogenation_mech.jpg | HIGH | Ru催化氢化 |
+| a3342b3f57cda6a85773e6768b200690bf7426fde0c479303293e97a6a4cbe2c.jpg | 【机器误判修正】Rh催化氢化的机理（18e→16e→14e Ru配合物） | clayden_ch41_rh_hydrogenation_mech.jpg | HIGH | Ru催化氢化 |
 | 3573ec9e5a74f439abda043421217276f473ff33b354f46ff9b5d7cfb6c12df4.jpg | 日本金龟子信息素结构（Z,R-内酯） | clayden_ch41_japanese_beetle.jpg | MEDIUM | - |
-| f72e27db14ab934137fd44545eb563e0586071093252cd8036b304ba54e9bcd5.jpg | Sharpless不对称双羟化的底物范围 | clayden_ch41_sharpless_dh_scope.jpg | HIGH | Sharpless双羟化 |
-| 673cf4e7a598f7b440f9de5fd66a82538c457a86957d9fa685fcb9d52265f1de.jpg | Evans噁唑烷酮的反应（LiOH/H2O2去除助剂） | clayden_ch41_evans_removal.jpg | HIGH | Evans辅助剂 |
-| 493d6e04458169553c6f849a93ea868b92bca36f6dc5c0b67485c1fb595a9f80.jpg | Evans噁唑烷酮的产物转化（醇/醛/酸/酮） | clayden_ch41_evans_transformations.jpg | HIGH | Evans辅助剂 |
+| f72e27db14ab934137fd44545eb563e0586071093252cd8036b304ba54e9bcd5.jpg | 【机器误判修正】Sharpless不对称双羟化的底物范围 | clayden_ch41_sharpless_dh_scope.jpg | HIGH | Sharpless双羟化 |
+| 673cf4e7a598f7b440f9de5fd66a82538c457a86957d9fa685fcb9d52265f1de.jpg | 【机器误判修正】Evans噁唑烷酮的反应（LiOH/H2O2去除助剂） | clayden_ch41_evans_removal.jpg | HIGH | Evans辅助剂 |
+| 493d6e04458169553c6f849a93ea868b92bca36f6dc5c0b67485c1fb595a9f80.jpg | 【机器误判修正】Evans噁唑烷酮的产物转化（醇/醛/酸/酮） | clayden_ch41_evans_transformations.jpg | HIGH | Evans辅助剂 |
 | 86d10a48952ee9eb1e912ccae7f7b756e7a9c050a52cd97bdbf41309ebb5bf6c.jpg | 紫外光/鼠标图标（非化学内容） | clayden_ch41_icon.jpg | MEDIUM | - |
 | ed6e8efe466e94f6c0ca8730aeb6a69667b27fc4df0f70c041692020705bbc9c.jpg | 复杂有机分子（可能为Fluoxetine类药物） | clayden_ch41_complex_molecule.jpg | MEDIUM | - |
-| e098781e64585ffdb187adac853e87bb1cbea9c105b516acb8cc8f96521ff7d9.jpg | 酒石酸溴乙酰化→环氧化机理 | clayden_ch41_tartaric_bromoacetylation.jpg | HIGH | 天然产物合成 |
-| 6be96c8a7973f3ddae79e84d46c4f4c96972385b66e174a4f3ee5509418901f8.jpg | D-甘露糖→(S)-甘油醛的保护策略 | clayden_ch41_mannose_protection.jpg | HIGH | 保护基策略 |
-| a2eacf74759efcee2ee2d5affdf974c8baaa8f708457fb80f26e9e49e17311f8.jpg | Evans噁唑烷酮的LiOBn裂解与助剂回收 | clayden_ch41_evans_recycle.jpg | HIGH | Evans辅助剂 |
+| e098781e64585ffdb187adac853e87bb1cbea9c105b516acb8cc8f96521ff7d9.jpg | 【机器误判修正】酒石酸溴乙酰化→环氧化机理 | clayden_ch41_tartaric_bromoacetylation.jpg | HIGH | 天然产物合成 |
+| 6be96c8a7973f3ddae79e84d46c4f4c96972385b66e174a4f3ee5509418901f8.jpg | 【机器误判修正】D-甘露糖→(S)-甘油醛的保护策略 | clayden_ch41_mannose_protection.jpg | HIGH | 保护基策略 |
+| a2eacf74759efcee2ee2d5affdf974c8baaa8f708457fb80f26e9e49e17311f8.jpg | 【机器误判修正】Evans噁唑烷酮的LiOBn裂解与助剂回收 | clayden_ch41_evans_recycle.jpg | HIGH | Evans辅助剂 |
 | e8e0da2e0c65bfe85ee2291edfe6038e5e451e60fb0aeb74c06add33087f724e.jpg | 酪氨酸结构 | clayden_ch41_tyrosine.jpg | MEDIUM | - |
-| 34c821eacac1a1f00b0bf31395461ffc4145426f5f213a998cb7c4d4729c5236.jpg | 酒石酸溴乙酰化→环氧化立体化学 | clayden_ch41_tartaric_stereo.jpg | HIGH | 天然产物合成 |
+| 34c821eacac1a1f00b0bf31395461ffc4145426f5f213a998cb7c4d4729c5236.jpg | 【机器误判修正】酒石酸溴乙酰化→环氧化立体化学 | clayden_ch41_tartaric_stereo.jpg | HIGH | 天然产物合成 |
 | 912c7e7e4d04d59f0385d906727f5e3976ea7e1752d31dc3092e5b2b63fc3c1a.jpg | 复杂有机分子（含NMe2） | clayden_ch41_complex_nme2.jpg | MEDIUM | - |
-| 5b61da298ab16d78afadf5e10a8c83786c8a1b9bfdf2e39e4c0ab2aafd4d4ff7.jpg | Ti-酒石酸Sharpless环氧化机理 | clayden_ch41_sharpless_epoxidation.jpg | HIGH | Sharpless环氧化 |
-| 3ad8d95965e395171a151da735cb8b40af0b0a04f3772026f06c7aa314e233e1.jpg | Evans噁唑烷酮二烷基化过渡态 | clayden_ch41_evans_alkylation.jpg | HIGH | Evans辅助剂 |
+| 5b61da298ab16d78afadf5e10a8c83786c8a1b9bfdf2e39e4c0ab2aafd4d4ff7.jpg | 【机器误判修正】Ti-酒石酸Sharpless环氧化机理 | clayden_ch41_sharpless_epoxidation.jpg | HIGH | Sharpless环氧化 |
+| 3ad8d95965e395171a151da735cb8b40af0b0a04f3772026f06c7aa314e233e1.jpg | 【机器误判修正】Evans噁唑烷酮二烷基化过渡态 | clayden_ch41_evans_alkylation.jpg | HIGH | Evans辅助剂 |
 | 4a09cbc597bf16c6a1288cc207382ae087580b938383590ce264cc1eff75509d.jpg | 聚丙烯酸酯/聚合物结构 | clayden_ch41_polymer.jpg | MEDIUM | - |
-| 3fe024352194fe1c8cf8631f72f60308cf660e6944cb8344247ea6c4660d193f.jpg | (S)-(-)-小茴香烯醇的逆合成分析 | clayden_ch41_fenchol_retro.jpg | HIGH | 天然产物合成 |
-| 864148ac7e4f3deaf08c350c3415b4d02be983ab693b1978c81a375b500f69dc.jpg | CBS催化剂合成（(S)-脯氨酸→CBS） | clayden_ch41_cbs_catalyst.jpg | HIGH | 不对称催化 |
-| bd2b8176ebe67d31113bbce8ebcf7b5722a0a51ea24594b4ceb758a29e3baa75.jpg | CBS催化不对称还原酮（99% yield, 97% ee） | clayden_ch41_cbs_reduction.jpg | HIGH | 不对称催化 |
-| 48abccc3f7a6e0d17301852e96c663d832b8827a4e3afe271811c42a965b9463.jpg | 抗癌化合物圆皮海绵内酯（Aldol合成片段） | clayden_ch41_halichondrin.jpg | HIGH | 天然产物全合成 |
-| e2558c5122fcae654a2e723c3e10e7b0b860ba9e808c8a33995d5b17b70f9d5d.jpg | Ru-TsDPEN催化剂的形成机理 | clayden_ch41_ru_tsdpen.jpg | HIGH | Ru催化氢化 |
-| 0880ba286a0ef646f5fa27cef9174468f2e96d4a27dbbfed75d301e8bd13d716.jpg | Ru-BINAP催化不对称氢化（羧酸/醇） | clayden_ch41_ru_binap_hydrogenation.jpg | HIGH | Ru催化氢化 |
-| 2e32ccd3cf59020401d2a02b9581954ecdeb56f3d472deb3d973b8913f67c9d3.jpg | 脯氨酸催化的Aldol反应机理（烯胺/H键过渡态） | clayden_ch41_proline_aldol_mech.jpg | HIGH | 不对称催化 |
+| 3fe024352194fe1c8cf8631f72f60308cf660e6944cb8344247ea6c4660d193f.jpg | 【机器误判修正】(S)-(-)-小茴香烯醇的逆合成分析 | clayden_ch41_fenchol_retro.jpg | HIGH | 天然产物合成 |
+| 864148ac7e4f3deaf08c350c3415b4d02be983ab693b1978c81a375b500f69dc.jpg | 【机器误判修正】CBS催化剂合成（(S)-脯氨酸→CBS） | clayden_ch41_cbs_catalyst.jpg | HIGH | 不对称催化 |
+| bd2b8176ebe67d31113bbce8ebcf7b5722a0a51ea24594b4ceb758a29e3baa75.jpg | 【机器误判修正】CBS催化不对称还原酮（99% yield, 97% ee） | clayden_ch41_cbs_reduction.jpg | HIGH | 不对称催化 |
+| 48abccc3f7a6e0d17301852e96c663d832b8827a4e3afe271811c42a965b9463.jpg | 【机器误判修正】抗癌化合物圆皮海绵内酯（Aldol合成片段） | clayden_ch41_halichondrin.jpg | HIGH | 天然产物全合成 |
+| e2558c5122fcae654a2e723c3e10e7b0b860ba9e808c8a33995d5b17b70f9d5d.jpg | 【机器误判修正】Ru-TsDPEN催化剂的形成机理 | clayden_ch41_ru_tsdpen.jpg | HIGH | Ru催化氢化 |
+| 0880ba286a0ef646f5fa27cef9174468f2e96d4a27dbbfed75d301e8bd13d716.jpg | 【机器误判修正】Ru-BINAP催化不对称氢化（羧酸/醇） | clayden_ch41_ru_binap_hydrogenation.jpg | HIGH | Ru催化氢化 |
+| 2e32ccd3cf59020401d2a02b9581954ecdeb56f3d472deb3d973b8913f67c9d3.jpg | 【机器误判修正】脯氨酸催化的Aldol反应机理（烯胺/H键过渡态） | clayden_ch41_proline_aldol_mech.jpg | HIGH | 不对称催化 |
 | 0190c5e064eb80fabdc072b637723eb60b1d3bd0e9c05ed5a371b7851fb0f741.jpg | 麻黄碱结构（(-)-ephedrine） | clayden_ch41_ephedrine.jpg | MEDIUM | - |
 | 04a7c48a73c10d78bec506d30d73b389d6fa1fc33d9908f16e03eca41c14fa02.jpg | 复杂有机分子结构 | clayden_ch41_complex_struct.jpg | MEDIUM | - |
 | 07c300c172f52ae14ae5501addd726fc766940334edfaeae8d5ea22f56905586.jpg | 有机分子结构 | clayden_ch41_organic_mol.jpg | MEDIUM | - |

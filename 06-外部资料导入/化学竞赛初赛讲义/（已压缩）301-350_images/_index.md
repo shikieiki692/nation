@@ -17,11 +17,11 @@
 
 | 文件名 | 内容描述 | 建议重命名 | 质量 | 关联KP |
 |:---|:---|:---|:---:|:---|
-|926018c3cf18f57858c9a21eb311278968ddd6446c5b7ad242cf1242b714e416.jpg|内酯结构(含NMR偶合常数)|lecture_301-350_struct001.jpg|HIGH|有机化学|
-|1f9eaf3de894ad59057558530b9e66619c66e36be148445ce9f2c96f2fd897a9.jpg|1,4-二甲氧基苯结构|lecture_301-350_struct002.jpg|HIGH|有机化学|
-|98f7d1e6844c098be748b0f2e74c643662d5933335b74d1ca552001c1afdb4d4.jpg|NMR化学位移参考图|lecture_301-350_nmr001.jpg|HIGH|波谱分析|
+| 926018c3cf18f57858c9a21eb311278968ddd6446c5b7ad242cf1242b714e416.jpg | 【机器误判修正】内酯结构(含NMR偶合常数) | lecture_301-350_struct001.jpg | HIGH | 有机化学 |
+| 1f9eaf3de894ad59057558530b9e66619c66e36be148445ce9f2c96f2fd897a9.jpg | 【机器误判修正】1,4-二甲氧基苯结构 | lecture_301-350_struct002.jpg | HIGH | 有机化学 |
+| 98f7d1e6844c098be748b0f2e74c643662d5933335b74d1ca552001c1afdb4d4.jpg | 【机器误判修正】NMR化学位移参考图 | lecture_301-350_nmr001.jpg | HIGH | 波谱分析 |
 |a3177d7d84cfb1a4912a8bf2dc7bc5162af64eb088463856e116db4d47bb5bdd.jpg|重氮化合物与MeOH反应|lecture_301-350_rxn001.jpg|MEDIUM|有机化学|
-|7d4d3a59abc71c060baf6dce4afa0360398a468a9aab4e00892fd83ce85997e2.jpg|醌类化合物反应|lecture_301-350_rxn002.jpg|HIGH|有机化学|
+| 7d4d3a59abc71c060baf6dce4afa0360398a468a9aab4e00892fd83ce85997e2.jpg | 【机器误判修正】醌类化合物反应 | lecture_301-350_rxn002.jpg | HIGH | 有机化学 |
 |0658774f7d71fc89fcdf61b00ec41ad92a55daf1250fb65217b6a2b377b94e36.jpg|[待分类]|lecture_301-350_xxx.jpg|MEDIUM|待定|
 |08e3fa07433b0b14ec7979bd7fb18c16ecb082aff577374b6577698e7ff93cb4.jpg|[待分类]|lecture_301-350_xxx.jpg|MEDIUM|待定|
 |098dddc94ded2d35df4b4a570f3d858593a9b63ba4b117cc4f60962889f268a9.jpg|[待分类]|lecture_301-350_xxx.jpg|MEDIUM|待定|

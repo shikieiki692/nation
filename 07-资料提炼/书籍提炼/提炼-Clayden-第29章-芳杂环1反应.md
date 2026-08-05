@@ -327,12 +327,12 @@ knowledge_points: [芳香性, 吡啶, 吡咯, 呋喃, 噻吩, 咪唑, 三唑, �
 ### 吡啶的电子结构与反应性
 - ![[clayden 有机化学/Clayden中文版_601-800_images/596fbbee758da3f6d36515f3570d9a2cd4b4dfa4be7fa6873bc69e871466437a.jpg]] —— 苯→吡啶：CH被N替换（line 4446）
 - ![[clayden 有机化学/Clayden中文版_601-800_images/45b5966af115eda4ee1365b2c26fd6d8c46ac2b442047403eb9778745b80d806.jpg]] —— 吡啶的¹H NMR光谱（line 4450）
-- ![[clayden 有机化学/Clayden中文版_601-800_images/f05260f1551293e0e96dddb766f757094bfffaf8e202bb7898739ef747f45db.jpg]] —— 吡啶π轨道能量降低示意（line 4516）
+- 📌 **图片待补：** f05260f1551293e0e96dddb766f757094bfffaf8e202bb7898739ef747f45db.jpg —— 吡啶π轨道能量降低示意（line 4516）
 - ![[clayden 有机化学/Clayden中文版_601-800_images/375a1cfc78e43d666f73055dda7382b2995606aed7fe6a31b9b91ab331513f2b.jpg]] —— 吡啶亲电取代的不稳定中间体（line 4526）
 
 ### 吡啶的亲核取代
 - ![[clayden 有机化学/Clayden中文版_601-800_images/d2019a2d91be0e26636f8025ef2fa3cc694d11d267c82648eb920b4ad700c119.jpg]] —— 吡啶2,4-位亲核取代（line 4546）
-- ![[clayden 有机化学/Clayden中文版_601-800_images/9b97b32c042551283e8e7bc19e025072a36e8e5186979e6f7995f34cefb33496.jpg]] —— 吡啶亲核取代机理（类羰基机理）（line 4554）
+- 📌 **图片待补：** 9b97b32c042551283e8e7bc19e025072a36e8e5186979e6f7995f34cefb33496.jpg —— 吡啶亲核取代机理（类羰基机理）（line 4554）
 
 ### 吡啶N-氧化物
 - ![[clayden 有机化学/Clayden中文版_601-800_images/cfd1d413666b0ae9d77cb032baf9ba9c5aced3062f03d58b1a0c0e5817fa91a3.jpg]] —— 吡啶N-氧化物结构（line 4612）
@@ -345,7 +345,7 @@ knowledge_points: [芳香性, 吡啶, 吡咯, 呋喃, 噻吩, 咪唑, 三唑, �
 
 ### 吡咯的电子结构与反应性
 - ![[clayden 有机化学/Clayden中文版_601-800_images/fa428064f527fdf0eed75831d3b5e2cd3d322a06ee0d58d21920672e4f67b4c2.jpg]] —— 苯→吡咯：CH=CH被N替换（line 4469）
-- ![[clayden 有机化学/Clayden中文版_601-800_images/47056f68e86f929147a853aa83d5c0360ca9e0e840b0625f3bcb4.jpg]] —— 吡咯的¹H NMR光谱（line 4705）
+- 📌 **图片待补：** 47056f68e86f929147a853aa83d5c0360ca9e0e840b0625f3bcb4.jpg —— 吡咯的¹H NMR光谱（line 4705）
 - ![[clayden 有机化学/Clayden中文版_601-800_images/e6a03263515fa5a751e2248749adb28ce16aaa96e55071d5fff887317e26e257.jpg]] —— 吡咯与Br₂反应：全部四溴代（line 4715）
 - ![[clayden 有机化学/Clayden中文版_601-800_images/10be05f7783130ce9d74f399a703749bf937ee92da22532aa72bef57360aa127.jpg]] —— 吡咯碳上质子化→聚合（line 4719）
 
@@ -354,7 +354,7 @@ knowledge_points: [芳香性, 吡啶, 吡咯, 呋喃, 噻吩, 咪唑, 三唑, �
 - ![[clayden 有机化学/Clayden中文版_601-800_images/2e1dc36e8c9a0e011b72324391b8fac4a025fb54f7805fe0cc1bdd05ad1f8cf1.jpg]] —— 吡咯的Mannich反应（2-位选择性）（line 4745）
 
 ### 吡咯的区域选择性解释
-- ![[clayden 有机化学/Clayden中文版_601-800_images/fac73f30fa3b5de06a4e498967db62e2b2524bdaadc3232cb198403b41c1ea2.jpg]] —— 2-位反应的中间体：线形共轭（line 4753）
+- 📌 **图片待补：** fac73f30fa3b5de06a4e498967db62e2b2524bdaadc3232cb198403b41c1ea2.jpg —— 2-位反应的中间体：线形共轭（line 4753）
 - ![[clayden 有机化学/Clayden中文版_601-800_images/fe5a1905c4ce88d6c73a2944074c9fbe6e6542bbb281e2aeb517afe33102dbb4.jpg]] —— 3-位反应的中间体：交叉共轭（line 4755）
 
 ### 吡咯的N-酰基化
@@ -366,12 +366,12 @@ knowledge_points: [芳香性, 吡啶, 吡咯, 呋喃, 噻吩, 咪唑, 三唑, �
 - ![[clayden 有机化学/Clayden中文版_601-800_images/be3d5a7038635f9c66c9cfdf55634fd9777db8351cef4ae02c03282c4099e93e.jpg]] —— 呋喃在MeOH中与Br₂：加成而非取代（line 4787）
 
 ### 噻吩的反应性
-- ![[clayden 有机化学/Clayden中文版_601-800_images/2a63310014163fb150445432eb9d494418b76719deeebbebeb8d67593d41e.jpg]] —— 噻吩的Friedel-Crafts酰基化+脱硫（line 4823）
+- 📌 **图片待补：** 2a63310014163fb150445432eb9d494418b76719deeebbebeb8d67593d41e.jpg —— 噻吩的Friedel-Crafts酰基化+脱硫（line 4823）
 
 ### 咪唑与三唑
 - ![[clayden 有机化学/Clayden中文版_601-800_images/515bd25a34135078f73db604b7a58ffe00d356d318214935d952c967fbf6dd55.jpg]] —— 吡唑与咪唑结构（line 4921）
 - ![[clayden 有机化学/Clayden中文版_601-800_images/69e5b21f63197d87f99400f50e8cf24d5882e22a1fd8b2eb37cc9968cdb8b495.jpg]] —— 咪唑的碱性与对称性（line 4925）
-- ![[clayden 有机化学/Clayden中文版_601-800_images/fcb02e5802773a5c8290ed124a4b1f050575e4a5ce74ce9a76753d8d61f2955d.jpg]] —— 1,2,4-三唑的杀真菌剂（line 4983）
+- 📌 **图片待补：** fcb02e5802773a5c8290ed124a4b1f050575e4a5ce74ce9a76753d8d61f2955d.jpg —— 1,2,4-三唑的杀真菌剂（line 4983）
 
 ### 吲哚
 - ![[clayden 有机化学/Clayden中文版_601-800_images/7d639e0ddb28f3f549fa3e4e9931b3cf07547913ba4c11ab6c2448f88e5e96ad.jpg]] —— 吲哚结构（line 5025）

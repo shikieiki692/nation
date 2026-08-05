@@ -11,97 +11,98 @@
 
 ### 24.3 复合氧化物结构（p756-768）
 
-| # | 哈希文件名 | 内容 | 建议media/名 |
-|:---:|:---|:---|:---|
-| 1 | `063e7cb37010cbea96d6d629bdbf0289026c8d53b5aeb3ffeb8023c942f4bbb3.jpg` | **钙钛矿 ABO3 结构视图 (a)**：强调大阳离子的12配位，A/B/O原子球棍模型 | `perovskite-ABO3-view-a-cubic.jpg` |
-| 2 | `ada403dfd99579c30434b027971518fafede5777e09d7f952ee329fcb431ece6.jpg` | **钙钛矿 ABO3 结构视图 (b)+(c)**：B阳离子八面体配位及BO6多面体表示法 | `perovskite-ABO3-view-bc-octahedra.jpg` |
-| 3 | `bd30373e509a2789ee8ae9e4f986e08f8142d591e83d6211af45ffbb5157bdbb.jpg` | **四方 BaTiO3 结构**：铁电行为 Ti4+ 位移示意图 | `BaTiO3-tetragonal-ferroelectric.jpg` |
-| 4 | `11513a25d196a149cd27c46a353c451d610a47f23d03b3229e918d46e16e5905.jpg` | **尖晶石 AB2O4 结构**：AO4 四面体和 BO6 八面体共存于晶胞中 | `spinel-AB2O4-tetra-octa.jpg` |
+| # | 哈希文件名 | 内容 | 建议media/名 | 建议重命名 |
+|:---:|:---|:---|:---| --- |
+| :---: | :--- | :--- | :--- | - |
+| 1 | `063e7cb37010cbea96d6d629bdbf0289026c8d53b5aeb3ffeb8023c942f4bbb3.jpg` | **钙钛矿 ABO3 结构视图 (a)**：强调大阳离子的12配位，A/B/O原子球棍模型 | `perovskite-ABO3-view-a-cubic.jpg` | - |
+| 2 | `ada403dfd99579c30434b027971518fafede5777e09d7f952ee329fcb431ece6.jpg` | **钙钛矿 ABO3 结构视图 (b)+(c)**：B阳离子八面体配位及BO6多面体表示法 | `perovskite-ABO3-view-bc-octahedra.jpg` | - |
+| 3 | `bd30373e509a2789ee8ae9e4f986e08f8142d591e83d6211af45ffbb5157bdbb.jpg` | **四方 BaTiO3 结构**：铁电行为 Ti4+ 位移示意图 | `BaTiO3-tetragonal-ferroelectric.jpg` | - |
+| 4 | `11513a25d196a149cd27c46a353c451d610a47f23d03b3229e918d46e16e5905.jpg` | **尖晶石 AB2O4 结构**：AO4 四面体和 BO6 八面体共存于晶胞中 | `spinel-AB2O4-tetra-octa.jpg` | - |
 
 ### 24.4 超导体结构（p771-782）
 
-| # | 哈希文件名 | 内容 | 建议media/名 |
-|:---:|:---|:---|:---|
-| 5 | `85ab62308846be468f7178cacb5f1e2e35109955b6e6881056d572a89a7b97b5.jpg` | **K2NiF4 结构**：NiF6 八面体层状排列及 K+ 分布 | `K2NiF4-layered-octahedra.jpg` |
-| 6 | `67585b8ef976ed835325f1265bc7497ef23d9d0344f93ba29bb16bad47eb63ee.jpg` | **Ruddlesden-Popper 相**：A3B2O7 和 A4B3O10 多层钙钛矿结构 | `ruddlesden-popper-A3B2O7-A4B3O10.jpg` |
-| 7 | `29b29338c25fd1e1b744e304a06b1200f886a7af3a8cf97aa2a0c20558f73014.jpg` | **YBa2Cu3O7 超导体结构**：(a)晶胞 (b)氧多面体 (c)CuO5层与CuO4链 | `YBa2Cu3O7-superconductor-structure.jpg` |
-| 8 | `ee69014166ff85818a2a3c39fdc0f2083371f42adedaecce1af62470cb6864e7.jpg` | **Tl2Ba2Ca2Cu3O10 结构**：CuO2/Ca/Ba/Tl2O2 多层层状超导体 | `Tl2Ba2Ca2Cu3O10-layered-HTSC.jpg` |
-| 9 | `21a36fd7a1b667a57b21b0539e7d7846fd6c963362fb7858c611b22a53476a42.jpg` | **LaFeAsO 超导体结构**：La-O 层与 Fe-As 层双层排列 | `LaFeAsO-pnictide-superconductor.jpg` |
+| # | 哈希文件名 | 内容 | 建议media/名 | - |
+| :---: | :--- | :--- | :--- | - |
+| 5 | `85ab62308846be468f7178cacb5f1e2e35109955b6e6881056d572a89a7b97b5.jpg` | **K2NiF4 结构**：NiF6 八面体层状排列及 K+ 分布 | `K2NiF4-layered-octahedra.jpg` | - |
+| 6 | `67585b8ef976ed835325f1265bc7497ef23d9d0344f93ba29bb16bad47eb63ee.jpg` | **Ruddlesden-Popper 相**：A3B2O7 和 A4B3O10 多层钙钛矿结构 | `ruddlesden-popper-A3B2O7-A4B3O10.jpg` | - |
+| 7 | `29b29338c25fd1e1b744e304a06b1200f886a7af3a8cf97aa2a0c20558f73014.jpg` | **YBa2Cu3O7 超导体结构**：(a)晶胞 (b)氧多面体 (c)CuO5层与CuO4链 | `YBa2Cu3O7-superconductor-structure.jpg` | - |
+| 8 | `ee69014166ff85818a2a3c39fdc0f2083371f42adedaecce1af62470cb6864e7.jpg` | **Tl2Ba2Ca2Cu3O10 结构**：CuO2/Ca/Ba/Tl2O2 多层层状超导体 | `Tl2Ba2Ca2Cu3O10-layered-HTSC.jpg` | - |
+| 9 | `21a36fd7a1b667a57b21b0539e7d7846fd6c963362fb7858c611b22a53476a42.jpg` | **LaFeAsO 超导体结构**：La-O 层与 Fe-As 层双层排列 | `LaFeAsO-pnictide-superconductor.jpg` | - |
 
 ### 24.5-24.6 其他复合氧化物与磁性结构（p768-770）
 
-| # | 哈希文件名 | 内容 | 建议media/名 |
-|:---:|:---|:---|:---|
-| 10 | `9402ff608dca8a9ccce414d1b58d2119960f10d9c0df48c10fe83ebd8251b930.jpg` | **ReO3 结构**：ReO6 八面体共顶点三维排列 + ReO6 八面体球棍图 | `ReO3-octahedra-structure.jpg` |
-| 11 | `4e165db31c8c88d1fc3293ab2ba80ac703b9dd8b11269d3a9546168cd7feca0b.jpg` | **ReO3 能带结构**：Re 5dz2 轨道重叠与 t2g/eg 能带图 | `ReO3-band-structure-molecular-orbital.jpg` |
-| 13 | `b9b129cc6517c53c0406b9c0bfc7d607e317906764fa05b6b8b8968bdf51c886.jpg` | **V2O3 电导率-温度曲线**：金属-半导体转变（log sigma vs 1000K/T） | `V2O3-conductivity-metal-semiconductor-transition.jpg` |
+| # | 哈希文件名 | 内容 | 建议media/名 | - |
+| :---: | :--- | :--- | :--- | - |
+| 10 | `9402ff608dca8a9ccce414d1b58d2119960f10d9c0df48c10fe83ebd8251b930.jpg` | **ReO3 结构**：ReO6 八面体共顶点三维排列 + ReO6 八面体球棍图 | `ReO3-octahedra-structure.jpg` | - |
+| 11 | `4e165db31c8c88d1fc3293ab2ba80ac703b9dd8b11269d3a9546168cd7feca0b.jpg` | **ReO3 能带结构**：Re 5dz2 轨道重叠与 t2g/eg 能带图 | `ReO3-band-structure-molecular-orbital.jpg` | - |
+| 13 | `b9b129cc6517c53c0406b9c0bfc7d607e317906764fa05b6b8b8968bdf51c886.jpg` | **V2O3 电导率-温度曲线**：金属-半导体转变（log sigma vs 1000K/T） | `V2O3-conductivity-metal-semiconductor-transition.jpg` | - |
 
 ### 24.8 框架结构材料（p792-800）
 
-| # | 哈希文件名 | 内容 | 建议media/名 |
-|:---:|:---|:---|:---|
-| 14 | `248baa1aefba21990ecbc616e313fc3bdf1ec514398e05a04c42c5ef460bae35.jpg` | **合成沸石 UTD-1 通道结构**：四面体连接形成大孔径通道 | `zeolite-UTD1-main-channel.jpg` |
-| 15 | `ded819ee6b5614d84ab2ab09831c0c7608fce22bd3de3a540eaf4dd78cebb7bc.jpg` | **合成沸石 CIT-5 通道结构**：四面体连接形成大孔径通道 | `zeolite-CIT5-main-channel.jpg` |
-| 16 | `5b901f3a7e63a92b763fd7439f99ea4ac593cb5a3254adcdefbc0a47de6dcad7.jpg` | **沸石分子筛分示意**：(a)孔道扩散分离 (b)不同孔径沸石的分子吸附尺寸图 | `zeolite-molecular-sieving-NaA-CaA-NaY.jpg` |
-| 17 | `2721ae6424d002427443746a476fd2b4789a06becd9d9e9725470573b56f1881.jpg` | **斜发沸石（含 Cs+）结构**：Cs+ 捕获于沸石框架通道中 | `clinoptilolite-Cs-extraction-structure.jpg` |
-| 18 | `3408f0a1e32b3eed0f495903a58d389f6eba8d40cd86c3cfc7f2eb018d8a0bb5.jpg` | **羟基磷灰石 Ca5(OH)(PO4)3 结构**：Ca2+、PO4 3-、OH- 三维配位 | `hydroxyapatite-structure.jpg` |
-| 19 | `861f3f698d90d8a2f8f9e63b572c292584c2e6b3d1c9ecab100ce9f59b6d0685.jpg` | **黏土锂蒙脱石层状结构**：SiO4/Al-O/Mg-O 八面体-四面体层间含 Cs+ | `hectorite-clay-layered-structure.jpg` |
+| # | 哈希文件名 | 内容 | 建议media/名 | - |
+| :---: | :--- | :--- | :--- | - |
+| 14 | `248baa1aefba21990ecbc616e313fc3bdf1ec514398e05a04c42c5ef460bae35.jpg` | **合成沸石 UTD-1 通道结构**：四面体连接形成大孔径通道 | `zeolite-UTD1-main-channel.jpg` | - |
+| 15 | `ded819ee6b5614d84ab2ab09831c0c7608fce22bd3de3a540eaf4dd78cebb7bc.jpg` | **合成沸石 CIT-5 通道结构**：四面体连接形成大孔径通道 | `zeolite-CIT5-main-channel.jpg` | - |
+| 16 | `5b901f3a7e63a92b763fd7439f99ea4ac593cb5a3254adcdefbc0a47de6dcad7.jpg` | **沸石分子筛分示意**：(a)孔道扩散分离 (b)不同孔径沸石的分子吸附尺寸图 | `zeolite-molecular-sieving-NaA-CaA-NaY.jpg` | - |
+| 17 | `2721ae6424d002427443746a476fd2b4789a06becd9d9e9725470573b56f1881.jpg` | **斜发沸石（含 Cs+）结构**：Cs+ 捕获于沸石框架通道中 | `clinoptilolite-Cs-extraction-structure.jpg` | - |
+| 18 | `3408f0a1e32b3eed0f495903a58d389f6eba8d40cd86c3cfc7f2eb018d8a0bb5.jpg` | **羟基磷灰石 Ca5(OH)(PO4)3 结构**：Ca2+、PO4 3-、OH- 三维配位 | `hydroxyapatite-structure.jpg` | - |
+| 19 | `861f3f698d90d8a2f8f9e63b572c292584c2e6b3d1c9ecab100ce9f59b6d0685.jpg` | **黏土锂蒙脱石层状结构**：SiO4/Al-O/Mg-O 八面体-四面体层间含 Cs+ | `hectorite-clay-layered-structure.jpg` | - |
 
 ### 24.13 储氢材料结构（p807-810）
 
-| # | 哈希文件名 | 内容 | 建议media/名 |
-|:---:|:---|:---|:---|
-| 20 | `311029a3d1215367f46087a925fea31354bf1af157ef89421d98eb8c3e12a009.jpg` | **MgH2 金红石结构**：Mg-H 八面体配位排列 | `MgH2-rutile-hydrogen-storage.jpg` |
-| 21 | `b25134a27a13907bc8358d964ff34d6d1a29b95188b5ffdfff212c2fe93308cf.jpg` | **NaAlH4 结构 (a)**：Na+ 与 AlH4 四面体排列 | `NaAlH4-aluminum-hydride-structure.jpg` |
-| 22 | `ef1b32cf928c29f3d0bb7b42f0fbe8ee7deb0f853f225e3a610e080ffab32f96.jpg` | **Na3AlH6 结构 (b)**：Na+ 与 AlH6 八面体立方排列 | `Na3AlH6-aluminum-hydride-structure.jpg` |
+| # | 哈希文件名 | 内容 | 建议media/名 | - |
+| :---: | :--- | :--- | :--- | - |
+| 20 | `311029a3d1215367f46087a925fea31354bf1af157ef89421d98eb8c3e12a009.jpg` | **MgH2 金红石结构**：Mg-H 八面体配位排列 | `MgH2-rutile-hydrogen-storage.jpg` | - |
+| 21 | `b25134a27a13907bc8358d964ff34d6d1a29b95188b5ffdfff212c2fe93308cf.jpg` | **NaAlH4 结构 (a)**：Na+ 与 AlH4 四面体排列 | `NaAlH4-aluminum-hydride-structure.jpg` | - |
+| 22 | `ef1b32cf928c29f3d0bb7b42f0fbe8ee7deb0f853f225e3a610e080ffab32f96.jpg` | **Na3AlH6 结构 (b)**：Na+ 与 AlH6 八面体立方排列 | `Na3AlH6-aluminum-hydride-structure.jpg` | - |
 
 ### 24.14 颜料与分子材料结构（p811-815）
 
-| # | 哈希文件名 | 内容 | 建议media/名 |
-|:---:|:---|:---|:---|
-| 23 | `4bb36a92aa6dcbef959fe0f068f5a1e8897f2e2274941abe88f72e109fcb755e.jpg` | **埃及蓝/中国蓝 CaCuSi4O10 结构**：CuO4 平面四配位 + Si4O10 层 | `egyptian-blue-CaCuSi4O10-structure.jpg` |
-| 24 | `5cfb44f924269462f7981d8a32d5de013261269a21d5775cfe545ac9adb76938.jpg` | **普鲁士蓝 Fe4[Fe(CN)6]3 结构**：Fe-CN-Fe 立方框架 | `prussian-blue-Fe-CN-Fe-cubic.jpg` |
-| 25 | `a20882fe7d92052fbfabb732563b87c505533cb4a614330c6949bf58fe2bb6c4.jpg` | **群青 Na8[SiAlO4]6(S3)2 笼结构**：钠沸石笼 + S3- 基团 | `ultramarine-sodalite-cage-S3.jpg` |
+| # | 哈希文件名 | 内容 | 建议media/名 | - |
+| :---: | :--- | :--- | :--- | - |
+| 23 | `4bb36a92aa6dcbef959fe0f068f5a1e8897f2e2274941abe88f72e109fcb755e.jpg` | **埃及蓝/中国蓝 CaCuSi4O10 结构**：CuO4 平面四配位 + Si4O10 层 | `egyptian-blue-CaCuSi4O10-structure.jpg` | - |
+| 24 | `5cfb44f924269462f7981d8a32d5de013261269a21d5775cfe545ac9adb76938.jpg` | **普鲁士蓝 Fe4[Fe(CN)6]3 结构**：Fe-CN-Fe 立方框架 | `prussian-blue-Fe-CN-Fe-cubic.jpg` | - |
+| 25 | `a20882fe7d92052fbfabb732563b87c505533cb4a614330c6949bf58fe2bb6c4.jpg` | **群青 Na8[SiAlO4]6(S3)2 笼结构**：钠沸石笼 + S3- 基团 | `ultramarine-sodalite-cage-S3.jpg` | - |
 
 ### 24.16-24.17 TiO2 光催化剂结构（p817-822）
 
-| # | 哈希文件名 | 内容 | 建议media/名 |
-|:---:|:---|:---|:---|
-| 26 | `20a8d7edee49501ff40f190e328ac3a5ab9f86abb98fc449ce8ca845ebdb1b4b.jpg` | **TiO2 金红石型结构 (a)**：TiO6 八面体共棱连接 | `TiO2-rutile-crystal-structure.jpg` |
-| 27 | `b2b32f3f5111e63edcb565e4aeb39f580f49eba4206d951e44e11525c0afd5d2.jpg` | **TiO2 锐钛矿型结构 (b)**：TiO6 八面体共角连接 | `TiO2-anatase-crystal-structure.jpg` |
+| # | 哈希文件名 | 内容 | 建议media/名 | - |
+| :---: | :--- | :--- | :--- | - |
+| 26 | `20a8d7edee49501ff40f190e328ac3a5ab9f86abb98fc449ce8ca845ebdb1b4b.jpg` | **TiO2 金红石型结构 (a)**：TiO6 八面体共棱连接 | `TiO2-rutile-crystal-structure.jpg` | - |
+| 27 | `b2b32f3f5111e63edcb565e4aeb39f580f49eba4206d951e44e11525c0afd5d2.jpg` | **TiO2 锐钛矿型结构 (b)**：TiO6 八面体共角连接 | `TiO2-anatase-crystal-structure.jpg` | - |
 
 ### 24.20 C60 碳材料（p825-830）
 
-| # | 哈希文件名 | 内容 | 建议media/名 |
-|:---:|:---|:---|:---|
-| 28 | `8c40c31cca4d722bb9a4d8a4c75d56412366917032d15ea63ac06da2ad4c7875.jpg` | **C60 面心立方晶体结构**：C60 分子在 fcc 格子中的排列 | `C60-fcc-crystal-packing.jpg` |
-| 29 | `266f7754e8c8f5ef6b0cfe28070e643be32e702cbc733fc9062fb5a83bef0a41.jpg` | **K6C60 体心立方结构**：K+ 填充面心位点，C60 6- 占据角和体心 | `K6C60-body-centered-cubic.jpg` |
-| 30 | `58bc8c967e10b00382e987795e6c71f3cf798031fec5355bc84a6f926416dab7.jpg` | **K3C60 超导体结构**：K+ 填满 C60 3- 密堆积的所有四面体和八面体穴 | `K3C60-superconductor-structure.jpg` |
+| # | 哈希文件名 | 内容 | 建议media/名 | - |
+| :---: | :--- | :--- | :--- | - |
+| 28 | `8c40c31cca4d722bb9a4d8a4c75d56412366917032d15ea63ac06da2ad4c7875.jpg` | **C60 面心立方晶体结构**：C60 分子在 fcc 格子中的排列 | `C60-fcc-crystal-packing.jpg` | - |
+| 29 | `266f7754e8c8f5ef6b0cfe28070e643be32e702cbc733fc9062fb5a83bef0a41.jpg` | **K6C60 体心立方结构**：K+ 填充面心位点，C60 6- 占据角和体心 | `K6C60-body-centered-cubic.jpg` | - |
+| 30 | `58bc8c967e10b00382e987795e6c71f3cf798031fec5355bc84a6f926416dab7.jpg` | **K3C60 超导体结构**：K+ 填满 C60 3- 密堆积的所有四面体和八面体穴 | `K3C60-superconductor-structure.jpg` | - |
 
 ### 24.21 一维金属（p831-832）
 
-| # | 哈希文件名 | 内容 | 建议media/名 |
-|:---:|:---|:---|:---|
-| 31 | `a3b47b85e718d7e3fad21ee7fb48e860e02f4939ce4324a49a3cf9340bb68d2c.jpg` | **KCP 一维铂链 Pt(CN)4 结构**：Pt-Pt 链及 d 轨道重叠 | `KCP-Pt-chain-1D-metal.jpg` |
+| # | 哈希文件名 | 内容 | 建议media/名 | - |
+| :---: | :--- | :--- | :--- | - |
+| 31 | `a3b47b85e718d7e3fad21ee7fb48e860e02f4939ce4324a49a3cf9340bb68d2c.jpg` | **KCP 一维铂链 Pt(CN)4 结构**：Pt-Pt 链及 d 轨道重叠 | `KCP-Pt-chain-1D-metal.jpg` | - |
 
 ### 24.27 碳纳米管（p839-841）
 
-| # | 哈希文件名 | 内容 | 建议media/名 |
-|:---:|:---|:---|:---|
-| 32 | `7178b491f514ab059856667f2c7de0e4508e674105edc103027ec3a02d8e1858.jpg` | **石墨烯蜂窝结构与碳纳米管卷曲**：(a)石墨烯 (b-d) 扶手椅/之字形/手性纳米管 | `graphene-honeycomb-CNT-chirality.jpg` |
+| # | 哈希文件名 | 内容 | 建议media/名 | - |
+| :---: | :--- | :--- | :--- | - |
+| 32 | `7178b491f514ab059856667f2c7de0e4508e674105edc103027ec3a02d8e1858.jpg` | **石墨烯蜂窝结构与碳纳米管卷曲**：(a)石墨烯 (b-d) 扶手椅/之字形/手性纳米管 | `graphene-honeycomb-CNT-chirality.jpg` | - |
 
 ### 24.29-24.30 电池与半导体材料（p834-838）
 
-| # | 哈希文件名 | 内容 | 建议media/名 |
-|:---:|:---|:---|:---|
-| 33 | `59402efe47d2e48cdbdd45f4fd6fded8093b3a94ead48010d33e61042123209e.jpg` | **LiCoO2 层状结构**：CoO2 八面体层间嵌入 Li+ | `LiCoO2-layered-battery-cathode.jpg` |
-| 34 | `3d3de9f7c4324964d0af611ab50e417b6d1221155cc932f28a960986d26d8ea3.jpg` | **LiFePO4 结构**：FeO6 八面体和 PO4 四面体框架，Li+ 通道 | `LiFePO4-olivine-battery-cathode.jpg` |
-| 35 | `02672b88d00ef062189305f7d9a7c9b695a6b089fe2d55d9f3937c3fccc07cc3.jpg` | **锂离子电池充放电原理**：Li_xCoO2/Li_xC6 双极电池示意图 | `Li-ion-battery-charge-discharge-schematic.jpg` |
+| # | 哈希文件名 | 内容 | 建议media/名 | - |
+| :---: | :--- | :--- | :--- | - |
+| 33 | `59402efe47d2e48cdbdd45f4fd6fded8093b3a94ead48010d33e61042123209e.jpg` | **LiCoO2 层状结构**：CoO2 八面体层间嵌入 Li+ | `LiCoO2-layered-battery-cathode.jpg` | - |
+| 34 | `3d3de9f7c4324964d0af611ab50e417b6d1221155cc932f28a960986d26d8ea3.jpg` | **LiFePO4 结构**：FeO6 八面体和 PO4 四面体框架，Li+ 通道 | `LiFePO4-olivine-battery-cathode.jpg` | - |
+| 35 | `02672b88d00ef062189305f7d9a7c9b695a6b089fe2d55d9f3937c3fccc07cc3.jpg` | **锂离子电池充放电原理**：Li_xCoO2/Li_xC6 双极电池示意图 | `Li-ion-battery-charge-discharge-schematic.jpg` | - |
 
 ### 24.32 介孔材料（p848）
 
-| # | 哈希文件名 | 内容 | 建议media/名 |
-|:---:|:---|:---|:---|
+| # | 哈希文件名 | 内容 | 建议media/名 | - |
+| :---: | :--- | :--- | :--- | - |
 
 ---
 
@@ -109,48 +110,48 @@
 
 ### 半导体与能带（p819-824）
 
-| # | 哈希文件名 | 内容 | 建议media/名 |
-|:---:|:---|:---|:---|
-| 37 | `27e7257f8fb891b5d84fb24f05644b5fc6e40d5b846bb1fba7887e470aad05a0.jpg` | **p-n 结能带结构图**：n型/p型半导体导带-价带及掺杂剂带 | `pn-junction-band-diagram.jpg` |
-| 38 | `4ac281a55461227a4e63423427571dfab226583b00fc7490c6ce4f7fccc6d216.jpg` | **量子阱结构**：GaAs 夹在 AlxGa1-xAs 之间 | `quantum-well-GaAs-AlGaAs.jpg` |
+| # | 哈希文件名 | 内容 | 建议media/名 | - |
+| :---: | :--- | :--- | :--- | - |
+| 37 | `27e7257f8fb891b5d84fb24f05644b5fc6e40d5b846bb1fba7887e470aad05a0.jpg` | **p-n 结能带结构图**：n型/p型半导体导带-价带及掺杂剂带 | `pn-junction-band-diagram.jpg` | - |
+| 38 | `4ac281a55461227a4e63423427571dfab226583b00fc7490c6ce4f7fccc6d216.jpg` | **量子阱结构**：GaAs 夹在 AlxGa1-xAs 之间 | `quantum-well-GaAs-AlGaAs.jpg` | - |
 
 ### 框架结构（p792-800）
 
-| # | 哈希文件名 | 内容 | 建议media/名 |
-|:---:|:---|:---|:---|
-| 39 | `43303c9ed9e7d0525a38f083760b12e0490d49bdfcea0fa648239384ddd6cd03.jpg` | **钛硅酸盐 ETS-10 结构**：SiO4 四面体连接 TiO6 八面体链 + K3H(TiO)4(SiO4)3 | `ETS-10-titanosilicate-structure.jpg` |
-| 40 | `b7bdba4a92b3cd1c4336e6a5837966d48e9ad372d46e6f94b50014638bb03192.jpg` | **Mg2NiH4 储氢结构**：Mg-Ni-H 立方理想结构 | `Mg2NiH4-cubic-hydride-structure.jpg` |
-| 41 | `b031c94634ea127f185f586ce35151aeead00eca4bd22c6f75198fe15a19b131.jpg` | **普鲁士蓝立方晶胞（含 Fe-CN-X 标记）** | `prussian-blue-cubic-unit-cell-CN.jpg` |
+| # | 哈希文件名 | 内容 | 建议media/名 | - |
+| :---: | :--- | :--- | :--- | - |
+| 39 | `43303c9ed9e7d0525a38f083760b12e0490d49bdfcea0fa648239384ddd6cd03.jpg` | **钛硅酸盐 ETS-10 结构**：SiO4 四面体连接 TiO6 八面体链 + K3H(TiO)4(SiO4)3 | `ETS-10-titanosilicate-structure.jpg` | - |
+| 40 | `b7bdba4a92b3cd1c4336e6a5837966d48e9ad372d46e6f94b50014638bb03192.jpg` | **Mg2NiH4 储氢结构**：Mg-Ni-H 立方理想结构 | `Mg2NiH4-cubic-hydride-structure.jpg` | - |
+| 41 | `b031c94634ea127f185f586ce35151aeead00eca4bd22c6f75198fe15a19b131.jpg` | **普鲁士蓝立方晶胞（含 Fe-CN-X 标记）** | `prussian-blue-cubic-unit-cell-CN.jpg` | - |
 
 ### Si3N4 / Li3N / 染料敏化电池（p787-789）
 
-| # | 哈希文件名 | 内容 | 建议media/名 |
-|:---:|:---|:---|:---|
-| 43 | `82aa517815f43ec2fb9833ea2bfafa3478c8771f3ffda0c40dd6f1bd8b957ab7.jpg` | **Si3N4 结构**：SiN4 四面体网络 | `Si3N4-silicon-nitride-structure.jpg` |
-| 44 | `98a85296f806489d3e8509bdf5ed3dba9e0791b1729aef020c9a1476de0fc7bd.jpg` | **Li3N 结构**：Li+ 与 N3- 层状排列 | `Li3N-lithium-nitride-structure.jpg` |
+| # | 哈希文件名 | 内容 | 建议media/名 | - |
+| :---: | :--- | :--- | :--- | - |
+| 43 | `82aa517815f43ec2fb9833ea2bfafa3478c8771f3ffda0c40dd6f1bd8b957ab7.jpg` | **Si3N4 结构**：SiN4 四面体网络 | `Si3N4-silicon-nitride-structure.jpg` | - |
+| 44 | `98a85296f806489d3e8509bdf5ed3dba9e0791b1729aef020c9a1476de0fc7bd.jpg` | **Li3N 结构**：Li+ 与 N3- 层状排列 | `Li3N-lithium-nitride-structure.jpg` | - |
 
 ### 纳米材料与表征（p840-855）
 
-| # | 哈希文件名 | 内容 | 建议media/名 |
-|:---:|:---|:---|:---|
-| 45 | `7608b24d48fcdb8954a96b6a712923a4076c583f66fa9e11f90566c1acafc02b.jpg` | **碳纳米管有序结构 SEM**：MWNT自取向阵列/SWNT六方网络 | `CNT-ordered-array-SEM-multiple.jpg` |
-| 46 | `5fef20bf4d2f77d49290cafb74bf12ef515bdbaf803535c288f3d5f498688b61.jpg` | **Au/TiO2 芯鞘纳米线 SEM (a)**：低倍放大 | `Au-TiO2-core-sheath-nanowire-SEM-low.jpg` |
-| 47 | `8242d786674736572b5992ffe9de29e94743b8a1c780075b438a7589f8aea61a.jpg` | **Au/TiO2 芯鞘纳米线 SEM (b)**：高倍放大 | `Au-TiO2-core-sheath-nanowire-SEM-high.jpg` |
-| 48 | `025e86b0f99fad824af71c2b1c66ada3a3d9d04d64e40e175673762009b8f7be.jpg` | **刚玉 Al2O3 多面体视图**：八面体密堆积的另一种表示 | `corundum-Al2O3-polyhedral-view.jpg` |
+| # | 哈希文件名 | 内容 | 建议media/名 | - |
+| :---: | :--- | :--- | :--- | - |
+| 45 | `7608b24d48fcdb8954a96b6a712923a4076c583f66fa9e11f90566c1acafc02b.jpg` | **碳纳米管有序结构 SEM**：MWNT自取向阵列/SWNT六方网络 | `CNT-ordered-array-SEM-multiple.jpg` | - |
+| 46 | `5fef20bf4d2f77d49290cafb74bf12ef515bdbaf803535c288f3d5f498688b61.jpg` | **Au/TiO2 芯鞘纳米线 SEM (a)**：低倍放大 | `Au-TiO2-core-sheath-nanowire-SEM-low.jpg` | - |
+| 47 | `8242d786674736572b5992ffe9de29e94743b8a1c780075b438a7589f8aea61a.jpg` | **Au/TiO2 芯鞘纳米线 SEM (b)**：高倍放大 | `Au-TiO2-core-sheath-nanowire-SEM-high.jpg` | - |
+| 48 | `025e86b0f99fad824af71c2b1c66ada3a3d9d04d64e40e175673762009b8f7be.jpg` | **刚玉 Al2O3 多面体视图**：八面体密堆积的另一种表示 | `corundum-Al2O3-polyhedral-view.jpg` | - |
 
 ### 超晶格（p852-855）
 
-| # | 哈希文件名 | 内容 | 建议media/名 |
-|:---:|:---|:---|:---|
-| 49 | `db20ee14ff310dffd21ba4fdb96fee5287ad67ab372d35b598ed212aea6eb0b2.jpg` | **AlN/TiN 超晶格硬度曲线** | `AlN-TiN-superlattice-hardness.jpg` |
-| 50 | `6899e51d857b870f1539bce15b28b51a9b94ba67c8a6ac0af79148091f030c64.jpg` | **AB型超晶格结构 + Sr2TiO4 层状氧化物** | `AB-superlattice-Sr2TiO4-structure.jpg` |
-| 51 | `ac218f325de8cfd4713cb3b1938060bb9cc98711508ad6fef07797352705e4dc.jpg` | **SrTiO3/BaTiO3 超晶格 TEM** | `SrTiO3-BaTiO3-superlattice-TEM.jpg` |
+| # | 哈希文件名 | 内容 | 建议media/名 | - |
+| :---: | :--- | :--- | :--- | - |
+| 49 | `db20ee14ff310dffd21ba4fdb96fee5287ad67ab372d35b598ed212aea6eb0b2.jpg` | **AlN/TiN 超晶格硬度曲线** | `AlN-TiN-superlattice-hardness.jpg` | - |
+| 50 | `6899e51d857b870f1539bce15b28b51a9b94ba67c8a6ac0af79148091f030c64.jpg` | **AB型超晶格结构 + Sr2TiO4 层状氧化物** | `AB-superlattice-Sr2TiO4-structure.jpg` | - |
+| 51 | `ac218f325de8cfd4713cb3b1938060bb9cc98711508ad6fef07797352705e4dc.jpg` | **SrTiO3/BaTiO3 超晶格 TEM** | `SrTiO3-BaTiO3-superlattice-TEM.jpg` | - |
 
 ### 分子材料与其他
 
-| # | 哈希文件名 | 内容 | 建议media/名 |
-|:---:|:---|:---|:---|
-| 52 | `63a160e6b47271d78772f17ef0b4ed47d854864a4ae62911b9ccc52096f205c4.jpg` | **Li-xCoO2/Li-xC6 电池原理图**（另一视角） | `Li-ion-battery-working-principle.jpg` |
+| # | 哈希文件名 | 内容 | 建议media/名 | - |
+| :---: | :--- | :--- | :--- | - |
+| 52 | `63a160e6b47271d78772f17ef0b4ed47d854864a4ae62911b9ccc52096f205c4.jpg` | **Li-xCoO2/Li-xC6 电池原理图**（另一视角） | `Li-ion-battery-working-principle.jpg` | - |
 
 ---
 
@@ -276,11 +277,11 @@
 
 ## 统计
 
-| 分类 | 数量 | 占比 |
-|:---:|:---:|:---:|
-| HIGH | 36 | 16% |
-| MEDIUM | 14 | 6% |
-| LOW | ~180 | 78% |
-| **合计** | **~230** | 100% |
+| 分类 | 数量 | 占比 | - |
+| :---: | :---: | :---: | - |
+| HIGH | 36 | 16% | - |
+| MEDIUM | 14 | 6% | - |
+| LOW | ~180 | 78% | - |
+| **合计** | **~230** | 100% | - |
 
 > **注**：图片总数约 322 张（含大量重复/冗余提取），实际引用到正文的独立图片约 230 张。LOW 类别中许多为正文方程式、流程示意图和简单表格的截图，教学参考价值较低。

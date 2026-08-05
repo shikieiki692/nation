@@ -22,7 +22,7 @@ status: 已填充
 
 Explain why enantiomerically pure lactone gives syn but racemic product in this palladium-catalysed reaction.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/3b488132b28093f093bf74150e1b61335f13e3fec8cf9060e8d9ef64e7b639a0.jpg]]
+📌 **图片待补：** 3b488132b28093f093bf74150e1b61335f13e3fec8cf9060e8d9ef64e7b639a0.jpg
 
 **原文题目**：Explain why enantiomerically pure lactone gives syn but racemic product in this palladium-catalysed reaction.
 

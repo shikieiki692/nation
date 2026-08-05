@@ -290,7 +290,7 @@ NO是重要的生物信号分子（内皮细胞松弛因子）。金属-NO配合
 - [x] 补充NO与CO的MO对比图——已评估：CO-MO图已在反馈π键KP中配图（weller-co-backbonding-mo.jpg），NO配位模式图已在本KP配图（weller-no-coordination-mos.jpg），MO对比图暂不需额外原创
 - [x] 补充更多竞赛真题例题（2026-07-28 补充）
 
-#### 竞赛真题：NO 配位化学
+### 竞赛真题：NO 配位化学
 
 **例题1**（第35届初赛）：下列配合物中 M-O-N 键角最接近 180° 的是（ ）
 (A) [Fe(H₂O)₅(NO)]²⁺ (B) [Fe(CN)₅(NO)]²⁻ (C) [Co(NH₃)₅(NO)]²⁺ (D) [Cr(en)₂(NO)Cl]⁺

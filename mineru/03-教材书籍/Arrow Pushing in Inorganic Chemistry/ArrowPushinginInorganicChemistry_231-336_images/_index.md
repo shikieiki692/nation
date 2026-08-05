@@ -9,10 +9,10 @@
 
 | 文件名 | 内容描述 | 建议重命名 | 质量 | 关联KP |
 |:---|:---|:---|:---:|:---|
-| 62d98944b053ba6615a8e3343f48747a0c914af600a63ea3df5ee1a13af21f39.jpg | H2O与F2反应，F-F键异裂后H2O进攻（eq 7.24） | arrow_ch7_h2o_f2_reaction.jpg | HIGH | 无机反应机理 |
-| ffb3f6ed9b97f8dbd1e63d82c4e511f61560b94b09144744f83914fd7d8941d9.jpg | S(VI)胺氟化物与醇反应，经四面体S中间体（eq 6.109） | arrow_ch6_svi_fluoride.jpg | HIGH | 亲核加成 |
-| 1b2df1da0205ac0c67f8a774f589d9c94d462f5adf6f09556b938f09a7f52dca.jpg | F2均裂生成F自由基，链式反应（eq 7.25） | arrow_ch7_f2_homolysis.jpg | HIGH | 电子转移 |
-| c40265061042b61db2d8370f4204cb57e023d9cc115ba00f1f298b84c19a1f2e.jpg | ClO4-亲核进攻Cl(VII)，F-离去 | arrow_ch7_clO4_nucleophilic.jpg | HIGH | 亲核加成 |
+| 62d98944b053ba6615a8e3343f48747a0c914af600a63ea3df5ee1a13af21f39.jpg | 【机器误判修正】H2O与F2反应，F-F键异裂后H2O进攻（eq 7.24） | arrow_ch7_h2o_f2_reaction.jpg | HIGH | 无机反应机理 |
+| ffb3f6ed9b97f8dbd1e63d82c4e511f61560b94b09144744f83914fd7d8941d9.jpg | 【机器误判修正】S(VI)胺氟化物与醇反应，经四面体S中间体（eq 6.109） | arrow_ch6_svi_fluoride.jpg | HIGH | 亲核加成 |
+| 1b2df1da0205ac0c67f8a774f589d9c94d462f5adf6f09556b938f09a7f52dca.jpg | 【机器误判修正】F2均裂生成F自由基，链式反应（eq 7.25） | arrow_ch7_f2_homolysis.jpg | HIGH | 电子转移 |
+| c40265061042b61db2d8370f4204cb57e023d9cc115ba00f1f298b84c19a1f2e.jpg | 【机器误判修正】ClO4-亲核进攻Cl(VII)，F-离去 | arrow_ch7_clO4_nucleophilic.jpg | HIGH | 亲核加成 |
 | 803fd4af55d4eedecf6180327ae50564b09658eff5612be5a7f0a2abdef9075b.jpg | 醛与1,3-二硫醇缩合生成1,3-二噻烷 | arrow_ch6_dithiolane.jpg | MEDIUM | 无机反应机理 |
 | c013f7ec9fe3bcd6e49c00e1465cc3c2dae1cffce70c5a46fb5869f1cfa40696.jpg | Ph3Bi(CO3)氧化carvone，含Se中间体 | arrow_ch6_se_oxidation.jpg | MEDIUM | 氧化加成/还原消除 |
 | 1fe8bb1b011f326db4b4642fcb76edb4a5993d5baf11260700f601c81c91167d.jpg | 多环含Se/O杂环结构 | arrow_ch6_se_o_polyring.jpg | MEDIUM | 无机反应机理 |

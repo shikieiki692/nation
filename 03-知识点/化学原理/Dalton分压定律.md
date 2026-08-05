@@ -51,6 +51,7 @@ source_extracts:
     target_section: "§十-§十二"
     date: "2026-06-18"
     status: "已回流"
+teaching_insights: ["[[12-教学洞察/教学洞察-Dalton分压定律.md]]"]
 ---
 
 # Dalton分压定律

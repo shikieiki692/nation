@@ -1033,18 +1033,7 @@ def postprocess_pandoc_docx(
     for para in doc.paragraphs:
         _set_display_math_font_size(para, size_pt=14)
 
-    # ── 教师注解着色：教学洞察 / 课堂原话 / 易错点 → 深蓝色 ──
-    TEACHER_LABELS = ('教学洞察', '课堂原话', '易错点', '注意', '高频错误',
-                      '理解要点', '记忆', '竞赛启示', '练一练', '算一算',
-                      '数值冲击', '核心思想', '关键认识', '掌握性要求', '应用')
-    TEACHER_COLOR = RGBColor(30, 64, 175)  # #1e40af 深蓝
-    for para in doc.paragraphs:
-        text = para.text.strip()
-        if not text:
-            continue
-        if any(label in text for label in TEACHER_LABELS):
-            for run in para.runs:
-                run.font.color.rgb = TEACHER_COLOR
+
 
     # ── 标题段落间距：Heading 前后增加间距，避免紧贴上文 ──
     for para in doc.paragraphs:

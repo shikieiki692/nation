@@ -17,11 +17,11 @@
 
 | 文件名 | 内容描述 | 建议重命名 | 质量 | 关联KP |
 |:---|:---|:---|:---:|:---|
-|a7a6ab57d0c7975b74cc0e85b3b9433edaf406c1b908c7fad25581f47a5dbd13.jpg|两种有机分子(羟基炔烃与环酮)|lecture_201-250_struct001.jpg|HIGH|有机化学|
-|7d10fbfd6d196277007b0a763cc307303ae80ed85ede78a3acbc53a375831f61.jpg|Beckmann重排反应机理|lecture_201-250_mech001.jpg|HIGH|有机化学|
+| a7a6ab57d0c7975b74cc0e85b3b9433edaf406c1b908c7fad25581f47a5dbd13.jpg | 【机器误判修正】两种有机分子(羟基炔烃与环酮) | lecture_201-250_struct001.jpg | HIGH | 有机化学 |
+| 7d10fbfd6d196277007b0a763cc307303ae80ed85ede78a3acbc53a375831f61.jpg | 【机器误判修正】Beckmann重排反应机理 | lecture_201-250_mech001.jpg | HIGH | 有机化学 |
 |7ab17a9755eaea8d9fac4af45d1682b17bb9e38a1b70497ce98c118e5af2a557.jpg|G(C₈H₇Br)→H→I反应路线|lecture_201-250_rxn001.jpg|MEDIUM|有机化学|
-|707ff46ce56410a24a68f1b3796493cdbf208b3ed2ce01ce2a32eadfa56b7af7.jpg|Diels-Alder反应合成土楠酸|lecture_201-250_rxn002.jpg|HIGH|有机化学|
-|2dfc72507d0869d01d530605895544bb5f38449f6dc2ae2992302005e4b550b0.jpg|复杂有机分子(含MeO,ALO,NTs)|lecture_201-250_struct002.jpg|HIGH|有机化学|
+| 707ff46ce56410a24a68f1b3796493cdbf208b3ed2ce01ce2a32eadfa56b7af7.jpg | 【机器误判修正】Diels-Alder反应合成土楠酸 | lecture_201-250_rxn002.jpg | HIGH | 有机化学 |
+| 2dfc72507d0869d01d530605895544bb5f38449f6dc2ae2992302005e4b550b0.jpg | 【机器误判修正】复杂有机分子(含MeO,ALO,NTs) | lecture_201-250_struct002.jpg | HIGH | 有机化学 |
 |07b5d682bebb82c675a050354fb46f8e2b5d0a4cd946a253bc3f83aef796b92a.jpg|[待分类]|lecture_201-250_xxx.jpg|MEDIUM|待定|
 |088440590389952efab2c629489522bf13d2c71e7a692128fd652572d17848bf.jpg|[待分类]|lecture_201-250_xxx.jpg|MEDIUM|待定|
 |09a5d81eefc899281215e17657533a84105f60778042315a9bcd0ad25dced217.jpg|[待分类]|lecture_201-250_xxx.jpg|MEDIUM|待定|

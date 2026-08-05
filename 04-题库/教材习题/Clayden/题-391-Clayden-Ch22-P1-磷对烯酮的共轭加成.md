@@ -30,7 +30,7 @@ Draw a mechanism for this reaction. Why is base unnecessary?
 
 **Answer (English)**: The phosphine is a good soft nucleophile with a high energy lone pair, well able to add in a conjugate fashion without help. In particular, the neutral phosphine does not need to be converted into its anion. The intermediate is a good base and removes a proton from itself, not necessarily intramolecularly.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/1947e5d631adeacbabab02eaea264b32446da4a2a9d97468452939797f3f0b5a1.jpg]]
+📌 **图片待补：** 1947e5d631adeacbabab02eaea264b32446da4a2a9d97468452939797f3f0b5a1.jpg
 
 **中文解析**：
 

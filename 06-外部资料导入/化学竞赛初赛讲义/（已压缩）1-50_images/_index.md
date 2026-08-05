@@ -20,20 +20,20 @@
 |000ca8494e91964d27464f7c7b868f3c9ad2ca71fe5fc889adfce87b7fed6841.jpg|Mg₂B₂O₄(OH)₂与NH₄HCO₃反应方程式|lecture_1_eq001.jpg|MEDIUM|元素化学|
 |013ce531fcd87eced2294f4735e9b5cc282dab22a4b37fb668ae776af626256d.jpg|BrF₃水解反应方程式|lecture_1_eq002.jpg|MEDIUM|元素化学|
 |016960b430a3c1a96357807b93b4ef8026b3cedd7a6cce2e2cd94cf3f85c5c49.jpg|[待分类]|lecture_1_xxx.jpg|MEDIUM|待定|
-|035e4d3535fce652fd009673440d986c17c17ac7ea115d1d849ba0d438f67e0f.jpg|叠氮酸(N₃⁻)共振结构|lecture_1_struct001.jpg|HIGH|结构化学|
+| 035e4d3535fce652fd009673440d986c17c17ac7ea115d1d849ba0d438f67e0f.jpg | 【机器误判修正】叠氮酸(N₃⁻)共振结构 | lecture_1_struct001.jpg | HIGH | 结构化学 |
 |06f157535c350a1df5d0e44b8be48ebb5c4498b6d16cfa84f4e8027b993dea21.jpg|Na₆P₆O₁₈水解反应方程式|lecture_1_eq003.jpg|MEDIUM|元素化学|
-|0945c2189ac7f09dd14b7f1dfd4522b1ad9c2f7bf826aded5aea313cd4d67283.jpg|核反应：⁴⁸Ca + ²⁴⁹Cf → ²⁹⁴Og + 3¹n|lecture_1_nuclear001.jpg|HIGH|元素化学|
+| 0945c2189ac7f09dd14b7f1dfd4522b1ad9c2f7bf826aded5aea313cd4d67283.jpg | 【机器误判修正】核反应：⁴⁸Ca + ²⁴⁹Cf → ²⁹⁴Og + 3¹n | lecture_1_nuclear001.jpg | HIGH | 元素化学 |
 |0aa6798a1ad3cd7aaa1b0585d49697933291459ee590ff9c25c3b8b5c5da80ff.jpg|NaBH₄还原NiCl₂反应（未配平）|lecture_1_eq004.jpg|MEDIUM|氧化还原|
-|0ef7ad93177820a92aacccdf796c007f92133d09f88fe8018c62a6fe70cb3544.jpg|4-羟基苯甲腈分子结构|lecture_1_struct002.jpg|HIGH|有机化学|
+| 0ef7ad93177820a92aacccdf796c007f92133d09f88fe8018c62a6fe70cb3544.jpg | 【机器误判修正】4-羟基苯甲腈分子结构 | lecture_1_struct002.jpg | HIGH | 有机化学 |
 |13a14e30306a9f2d88d9f2c368e7aa0754966a303b74c626d920678396475c07.jpg|碳正离子共振结构|lecture_1_struct003.jpg|MEDIUM|有机化学|
 |188b2144eedbe9723ca6c468bcaa4d10a2057f32bba8b038a3784c9466df1e30.jpg|[待分类]|lecture_1_xxx.jpg|MEDIUM|待定|
 |1920d46f9f77609822aa53d8b22cc6c4a9128f7e38a9d3e67d85bdfe037e2ce3.jpg|K₃Fe(C₂O₄)₃光化学反应|lecture_1_eq005.jpg|MEDIUM|氧化还原|
 |19fdfd02c70401a40b54f2a97a51f342398c18606f01ac24839a94c85aa7e972.jpg|Mn²⁺碱性氧化反应方程式|lecture_1_eq006.jpg|MEDIUM|氧化还原|
-|1a3fbadd8cb42198ac05a9d2f0009bf3a42b9307a897b3ba897349ae2f390f2d.jpg|电离能与电子亲和能变化图|lecture_1_chart001.jpg|HIGH|结构化学|
+| 1a3fbadd8cb42198ac05a9d2f0009bf3a42b9307a897b3ba897349ae2f390f2d.jpg | 【机器误判修正】电离能与电子亲和能变化图 | lecture_1_chart001.jpg | HIGH | 结构化学 |
 |1c5ba88a49df3241eb28350271b7fa9fc2baf7ec89bd102e32df9b954b2c7474.jpg|[待分类]|lecture_1_xxx.jpg|MEDIUM|待定|
-|1cb40547cb7b79498866625a5c1f8467bbda0f3858dbd1c2f5fbb69824bf3b48.jpg|元素电负性周期表|lecture_1_table001.jpg|HIGH|结构化学|
-|20f8041c3721f2a9b0615ee15925c8a894b6b9d7381189a425d086ea99ebeaf6.jpg|原子轨道形状图(p, d, f)|lecture_1_orbital001.jpg|HIGH|结构化学|
-|25c13755b2eeb3072faafe37a2652ca43720ba0511e0ba67414a679a6d507a63.jpg|蒽分子结构与键长(r₁, r₂, r₃)|lecture_1_struct004.jpg|HIGH|有机化学|
+| 1cb40547cb7b79498866625a5c1f8467bbda0f3858dbd1c2f5fbb69824bf3b48.jpg | 【机器误判修正】元素电负性周期表 | lecture_1_table001.jpg | HIGH | 结构化学 |
+| 20f8041c3721f2a9b0615ee15925c8a894b6b9d7381189a425d086ea99ebeaf6.jpg | 【机器误判修正】原子轨道形状图(p, d, f) | lecture_1_orbital001.jpg | HIGH | 结构化学 |
+| 25c13755b2eeb3072faafe37a2652ca43720ba0511e0ba67414a679a6d507a63.jpg | 【机器误判修正】蒽分子结构与键长(r₁, r₂, r₃) | lecture_1_struct004.jpg | HIGH | 有机化学 |
 |263201ca25d3e226e06104d40125a51e9b8216f7ecb526db77a25e0c40d27625.jpg|[待分类]|lecture_1_xxx.jpg|MEDIUM|待定|
 |29018b29de72774e5bcd3ce0e1da9b237b2aa7088b4ab96cea5f18950e98df4a.jpg|[待分类]|lecture_1_xxx.jpg|MEDIUM|待定|
 |29b0ba432c876465d981d3f20c4e3aec9891e04312adc1712ab05e9efdc5b348.jpg|[待分类]|lecture_1_xxx.jpg|MEDIUM|待定|

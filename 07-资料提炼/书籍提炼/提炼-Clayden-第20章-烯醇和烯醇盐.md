@@ -319,7 +319,7 @@ knowledge_points: [烯醇, 互变异构, 烯醇化, 酮式-烯醇式平衡, 动�
 
 ### 其他
 - ![[clayden 有机化学/Clayden中文版_402-600_images/c5ada1cdd2fdf40784276bee93f0cc1109aceae4e5c30a75e214c8ac0e4a0bdb.jpg]] —— 烯醇 O-烷基化（line 2593）
-- ![[clayden 有机化学/Clayden中文版_402-600_images/53b6b37fa25d9d6b2012521b6f630a2fc466786e270b6fb4b1c9b.jpg]] —— 烯醇的硬亲电试剂反应（line 2604）
+- 📌 **图片待补：** 53b6b37fa25d9d6b2012521b6f630a2fc466786e270b6fb4b1c9b.jpg —— 烯醇的硬亲电试剂反应（line 2604）
 - ![[clayden 有机化学/Clayden中文版_402-600_images/65e3e8b04b662006ec6b761a4c2a9e94d1e490aa09a12198e99dbfb97ba864b5.jpg]] —— 缩醛分解制备烯醇醚（line 2608）
 - ![[clayden 有机化学/Clayden中文版_402-600_images/df2a7264ef28a09734fdfc941399beb4f421efac921f8cae68894f91cee8c0e3.jpg]] —— 布洛芬的外消旋化（line 2392）
 - ![[clayden 有机化学/Clayden中文版_402-600_images/1391b5225ccb8fe99d78c7d297b58846daf20ecd4f199a8e4757e1e07f40b0fb.jpg]] —— 氨基酸 N-乙酰化后的外消旋化（line 2380）

@@ -134,7 +134,7 @@ knowledge_points: [杂环化合物, 杂环合成, 杂环合成策略, 杂环芳�
 | 药物 | 核心杂环 | 关键反应 | 图片 |
 |:---|:---|:---|:---|
 | **万艾可(Viagra)** | 吡唑并嘧啶 | Claisen酯缩合+甲基肼区域控制 | ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/0af23bef1cde44bb294a3389f5eac1d65081f10bf62295859375ee2cee10ac2f.jpg]] |
-| **舒马曲坦(Sumatriptan)** | 吲哚 | Fischer吲哚合成 | ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/5cfa11717e73c6a59ac4907e4e939dfd64289361d09bf6ad970136c16eb82eb.jpg]] |
+| **舒马曲坦(Sumatriptan)** | 吲哚 | Fischer吲哚合成 | 📌 **图片待补：** 5cfa11717e73c6a59ac4907e4e939dfd64289361d09bf6ad970136c16eb82eb.jpg |
 | **昂丹司琼(Ondansetron)** | 吲哚+咪唑 | Fischer + Mannich反应 | ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/c9b34caca0cc0cf8311c39e876d62b76ad1c749a30aa86ec9ed1f2d61e11b825.jpg]] |
 | **非洛地平/氨氯地平** | 吡啶 | Hantzsch合成 | ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/1872b430a7b07537c47a2c748507dd0a6cb4e22725eb0d89b667f2c3ad934825.jpg]] |
 | **氧氟沙星/罗索沙星** | 喹诺酮 | 缩苹果酸酯+原甲酸乙酯环化 | ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese30-33章787-907_images/f62dc2d9384d73d953b9e8f1c52d1bee65bab74aca4f8606a7c13f8949ffa453.jpg]] |

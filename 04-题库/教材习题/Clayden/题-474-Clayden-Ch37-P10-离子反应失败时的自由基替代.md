@@ -42,7 +42,7 @@ The last step is initiated by AIBN which removes the iodine atom from the compou
 
 Anionic reactions cannot be used for this allylation. If the iodine were metallated, the organometallic compound would immediately expel the lactone bridge as carboxylate ion is a good leaving group. The radical is stable because the C–O bond is strong and not easily cleaved in radical reactions.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/278bf835e89f28110091fec17d3386ccc6d065838079dec57a03903c7a82383.jpg]]
+📌 **图片待补：** 278bf835e89f28110091fec17d3386ccc6d065838079dec57a03903c7a82383.jpg
 
 **中文解析**：
 

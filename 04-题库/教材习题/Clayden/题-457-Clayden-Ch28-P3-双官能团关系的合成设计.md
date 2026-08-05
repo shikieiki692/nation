@@ -46,7 +46,7 @@ If the keto-ester is used as starting material, it can be made by Claisen ester 
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/660e36d1cc5884fe99b9b834d70b46a6e6c524f82bebd5b7fefeafc598e4e989.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/fb804bbaeb65c9ba3b0a1ed1205eb864c9b73a829fc14ad527ce36f23d95898d.jpg]]
+📌 **图片待补：** fb804bbaeb65c9ba3b0a1ed1205eb864c9b73a829fc14ad527ce36f23d95898d.jpg
 
 **Compound 2 (1,5-relationship)**: The other compound has a 1,5-relationship between the two functional groups and will need conjugate addition. Since we must reduce only one of the two carbonyl groups, we choose an aldehyde and an ester.
 

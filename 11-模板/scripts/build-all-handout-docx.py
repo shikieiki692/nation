@@ -60,7 +60,7 @@ HANDOUT_OUT = VAULT_ROOT / "00-首页" / "学生讲义Word"
 SRC_GLOB = "*.md"
 
 # Vault root media directory (images are here, not in handout subdir)
-VAULT_MEDIA = VAULT_ROOT / "media"
+VAULT_MEDIA = VAULT_ROOT / "媒体仓库"
 
 # Pandoc 转换扩展
 PANDOC_EXTENSIONS = "markdown+tex_math_dollars+tex_math_single_backslash+pipe_tables+raw_tex"
@@ -546,6 +546,72 @@ def _run_word_formula_precheck(
                     line_no=idx,
                     excerpt=raw_line,
                 )
+
+        # ── 学生讲义纪律检查：教师向/规划类内容残留（WARN） ──
+        # 只检查「可见行」；HTML 注释（<!-- ... -->）内的教师信息不报警。
+        visible_line = re.sub(r"<!--.*?-->", "", raw_line)
+        heading_match = re.match(r"^\s*#{1,6}\s+(.*)$", visible_line)
+        if heading_match:
+            heading_text = heading_match.group(1)
+            for term in (
+                "四层结构总览", "主线导航", "轮次划分", "本讲定位", "本轮定位",
+                "深度边界", "深度分层", "使用说明", "本讲小结", "易错清单",
+                "延伸阅读", "学习目标",
+            ):
+                if term in heading_text:
+                    _append_precheck_issue(
+                        issues,
+                        seen,
+                        severity="WARN",
+                        rule="teacher_facing_section",
+                        message=(
+                            f"学生讲义出现教师向/规划类小节标题「{term}」；"
+                            "请移入 HTML 教师向注释区或删除（易错点并入「核心公式速查」）"
+                        ),
+                        line_no=idx,
+                        excerpt=raw_line,
+                    )
+                    break
+        bq_label_match = re.match(
+            r"^\s*>\s*\*{1,2}\s*([^：:]+?)\s*\*{0,2}\s*[：:]", visible_line
+        )
+        if bq_label_match:
+            label = bq_label_match.group(1).strip("* ")
+            if any(
+                t in label
+                for t in ("本讲定位", "本轮定位", "深度边界", "上节衔接",
+                          "下节衔接", "对应备课大纲", "对应专题", "主线导航", "轮次划分")
+            ):
+                _append_precheck_issue(
+                    issues,
+                    seen,
+                    severity="WARN",
+                    rule="teacher_facing_blockquote",
+                    message=(
+                        f"学生讲义正文出现教师向信息 `> **{label}**`；"
+                        "请移入 HTML 教师向注释区或删除"
+                    ),
+                    line_no=idx,
+                    excerpt=raw_line,
+                )
+
+        # ── emoji 残留（WARN，学生讲义建议零 emoji） ──
+        for emoji in ("📎", "🌱", "🏆", "🌟", "🔥", "💡", "📝", "✅",
+                      "🧠", "🗣", "⚡", "🔗", "🏅", "⭐", "⚠", "💎", "🎯"):
+            if emoji in visible_line:
+                _append_precheck_issue(
+                    issues,
+                    seen,
+                    severity="WARN",
+                    rule="decorative_emoji",
+                    message=(
+                        f"检测到装饰性 emoji `{emoji}`；学生讲义建议移除"
+                        "（Word 渲染不稳定），难度分级请用文字标签「基础/进阶/挑战」"
+                    ),
+                    line_no=idx,
+                    excerpt=raw_line,
+                )
+                break
 
     macro_descriptions = {
         r"\\ce\{": r"\ce{...}",
@@ -1242,6 +1308,9 @@ def _strip_metadata_blockquote(text: str) -> str:
             # Non-blank, non-bq, non-div → not metadata
             in_bq = False
             break
+        # Not in blockquote: metadata region ends at the first non-blank line
+        if ln.strip():
+            break
 
     # Case A: blockquote + --- divider (original behavior)
     if first_div >= 0:
@@ -1457,7 +1526,7 @@ def _prepare_handout_markdown(
         png_name = Path(svg_path).stem + '.png'
         for d in [VAULT_MEDIA, md_path.parent / 'media', md_path.parent]:
             if (d / png_name).exists():
-                return f'![[media/{png_name}|{alias}]]' if alias else f'![[media/{png_name}]]'
+                return f'![[{png_name}|{alias}]]' if alias else f'![[{png_name}]]'
         return m.group(0)
 
     processed_body = re.sub(
@@ -1480,7 +1549,7 @@ def _prepare_handout_markdown(
             if cand.exists():
                 if verbose:
                     print(f"  [MERMAID] {path} → {cand.name}", file=sys.stderr)
-                return f'![[media/{cand.name}|{alias}]]' if alias else f'![[media/{cand.name}]]'
+                return f'![[{cand.name}|{alias}]]' if alias else f'![[{cand.name}]]'
         return m.group(0)
 
     processed_body = re.sub(
@@ -1523,11 +1592,13 @@ def pandoc_convert(
       - Markdown tables      → Word tables
       - ![](image.png)       → embedded image
     """
+    lua_filter_path = SCRIPT_DIR / "callout_to_style.lua"
     extra_args = [
         f"--from={PANDOC_EXTENSIONS}",
         "--to=docx",
         f"--resource-path={resource_path}",
         f"--reference-doc={REFERENCE_DOC}",
+        f"--lua-filter={lua_filter_path}",
     ]
 
     if verbose:
@@ -1766,6 +1837,82 @@ def _validate_docx(
         )
 
 
+def _run_self_tests() -> bool:
+    """Internal regression self-tests for preprocess helpers.
+
+    Guard against the 2026-08-05 regression where `_strip_metadata_blockquote`
+    silently deleted document-head content (图1/图2) whenever a handout had no
+    title-adjacent metadata blockquote.
+    """
+    ok = True
+
+    # Case 1: 标题后直接跟正文/图片，无元信息 blockquote —— 头部必须原样保留
+    case_head_no_meta = (
+        "# 结构化学第一轮复习\n"
+        "\n"
+        "## 目录\n"
+        "- §1 元素周期律与元素周期系（考纲§4）\n"
+        "\n"
+        "![[ad990d2119aabbf46ff0645d1a49344a959b58d7ba554502912e765280ac770f.jpg]]\n"
+    )
+    out = _strip_metadata_blockquote(case_head_no_meta)
+    if "## 目录" not in out or "ad990d2119aabb" not in out:
+        print("  [FAIL] _strip_metadata_blockquote: 无元信息 blockquote 时误删头部内容", file=sys.stderr)
+        ok = False
+    else:
+        print("  [OK] _strip_metadata_blockquote keeps head when no metadata blockquote", file=sys.stderr)
+
+    # Case 2: 标准元信息 blockquote + --- 分隔线 —— 应剥离 blockquote、保留 --- 与后续标题
+    case_with_meta = (
+        "# 第四讲：化学平衡\n"
+        "\n"
+        "> **适用**：第一轮（初学）→ 第二轮（深化）\n"
+        "> **对应备课大纲**：[[...]]\n"
+        "> **前置要求**：热力学基础\n"
+        "\n"
+        "---\n"
+        "\n"
+        "## 学习目标\n"
+    )
+    out = _strip_metadata_blockquote(case_with_meta)
+    if "**适用**" in out or "**前置要求**" in out:
+        print("  [FAIL] _strip_metadata_blockquote: 未剥离元信息 blockquote", file=sys.stderr)
+        ok = False
+    else:
+        print("  [OK] _strip_metadata_blockquote strips standard metadata blockquote", file=sys.stderr)
+
+    # Case 3: 纯标题 + 正文（无 blockquote、无分隔线）—— 原样返回
+    case_title_only = "# 某讲义\n\n正文直接开始。\n"
+    out = _strip_metadata_blockquote(case_title_only)
+    if out.strip() != case_title_only.strip():
+        print("  [FAIL] _strip_metadata_blockquote: 纯标题文档被改动", file=sys.stderr)
+        ok = False
+    else:
+        print("  [OK] _strip_metadata_blockquote keeps title-only doc", file=sys.stderr)
+
+    # Case 4: 长 blockquote（超级充实版多行元信息）后跟 --- —— 只保留标题 + --- + 之后内容
+    case_long_meta = (
+        "# 原子结构\n"
+        "\n"
+        "> **本讲定位**：第一轮初学 → 第二轮深化参照\n"
+        "> **深度边界**：第一轮聚焦量子数、电子排布、Slater；\n"
+        "> 不展开角动量耦合、完整 Rydberg 方程推导。\n"
+        "> **版本说明**：v5.0\n"
+        "\n"
+        "---\n"
+        "\n"
+        "## 一、量子数与轨道\n"
+    )
+    out = _strip_metadata_blockquote(case_long_meta)
+    if "**本讲定位**" in out or "**深度边界**" in out or "**版本说明**" in out:
+        print("  [FAIL] _strip_metadata_blockquote: 未剥离长元信息 blockquote", file=sys.stderr)
+        ok = False
+    else:
+        print("  [OK] _strip_metadata_blockquote strips long metadata blockquote", file=sys.stderr)
+
+    return ok
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Batch-convert all student handouts from .md to .docx (v2)",
@@ -1815,7 +1962,15 @@ def main():
         "--emit-render-pdf", action="store_true",
         help="Keep the intermediate PDF when rendering preview pages",
     )
+    parser.add_argument(
+        "--self-test", action="store_true",
+        help="Run internal regression self-tests (e.g. _strip_metadata_blockquote) and exit",
+    )
     args = parser.parse_args()
+
+    if args.self_test:
+        ok = _run_self_tests()
+        sys.exit(0 if ok else 1)
 
     if args.dry_run and args.precheck_only:
         print("ERROR: --dry-run and --precheck-only cannot be used together", file=sys.stderr)
@@ -1836,12 +1991,16 @@ def main():
     # Skip non-handout files
     EXCLUDED_STEMS = {"README"}
     EXCLUDED_PREFIXES = {"讲义升级模式-"}
-    all_md = [
+    # 标准学生讲义（批量默认范围）：超级充实版 / 第一轮基础版 / 复习课 / 新课
+    HANDOUT_MARKERS = ("超级充实", "基础版", "复习", "-新课")
+
+    candidates = [
         f for f in all_md
         if f.stem not in EXCLUDED_STEMS
         and not any(f.stem.startswith(p) for p in EXCLUDED_PREFIXES)
-        and ('超级充实' in f.stem or '基础版' in f.stem)
     ]
+    # 批量默认只处理标准讲义；--file/--path 可在 candidates 内任意指定
+    all_md = [f for f in candidates if any(m in f.stem for m in HANDOUT_MARKERS)]
 
     if args.path:
         explicit = Path(args.path).expanduser().resolve()
@@ -1853,10 +2012,11 @@ def main():
             sys.exit(1)
         files = [explicit]
     elif args.file:
-        files = [f for f in all_md if args.file in f.stem]
+        # --file 按名字匹配任意学生讲义（含复习课/新课/专题合集等非批量默认文件）
+        files = [f for f in candidates if args.file in f.stem]
         if not files:
             print(f"ERROR: No files match --file '{args.file}'", file=sys.stderr)
-            print(f"  Available: {[f.stem for f in all_md]}", file=sys.stderr)
+            print(f"  Available: {[f.stem for f in candidates]}", file=sys.stderr)
             sys.exit(1)
     else:
         files = all_md

@@ -57,6 +57,7 @@ source_extracts:
     asset_type: "实例资产"
     asset_summary: "'放热但不自发'反例：H₂ + ½O₂ 需点燃，笔记明确提及"
     target_section: "§十二"
+teaching_insights: ["[[12-教学洞察/教学洞察-Gibbs自由能.md]]"]
 ---
 
 # Gibbs 自由能

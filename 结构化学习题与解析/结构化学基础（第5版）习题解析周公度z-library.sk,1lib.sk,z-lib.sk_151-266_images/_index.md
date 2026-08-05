@@ -22,45 +22,46 @@
 
 ## 图片索引（采样）
 
-| 文件名 | 大小 | 内容描述 | 质量 | 关联KP |
-|:---|:---:|:---|:---:|:---|
-| 001fe040421f7ab60c0fe52374cc46343e893402690a1412059056efa2dd0ce3.jpg | 16KB | 晶体结构示意图 | HIGH | 晶体结构 |
-| 016085bee3c486ff7b2c4afb567484efa44cf2ac600386ee250a255ec68f70d4.jpg | 5KB | 六边形分子对称图 (苯环编号) | HIGH | 分子对称性 |
-| 01d79f6c2c2bdb6b8e0786e1b45587528d8cc6ad024c4df71a7a9b636597e3d1.jpg | 33KB | 晶胞参数计算 (a*, b*, c*, β*) | HIGH | 晶体结构 |
-| 02031b25b3bfed9d372355118ab4eba1ed2eb91212f0125716b5e1d009c84755.jpg | 4KB | 泰勒展开式 eˣ = 1+x+x²/2!+... | MEDIUM | 量子力学基础 |
-| 02e7c7c02af69e90a98d29895d4c9ce42c3ef4947c2f6953e3ac7a0ebd9ed122.jpg | 5KB | 公式片段 | MEDIUM | 原子结构 |
-| 03d7010e86bcc18a9d822802f9f262edccba7d1789c17cdfb55a5e883693bfd3.jpg | 38KB | X射线衍射计算 (θ, d₂₂₀, a, Z) | HIGH | 晶体结构 |
-| 04cc04927b614c083be6227e34403d28239f8de13afe3389e1308a1f7c04f257.jpg | 1KB | Cs点群符号 | LOW | 分子对称性 |
-| 050c2f833c3c588919f25f6cf8b7923176392dc3cc22eb428196b349c132b182.jpg | 1KB | SO₄²⁻离子符号 | LOW | 配位化学 |
-| 058298dc17b30a5e0aae8fdf7f3123aaed2c9f2441008467d32003ad7983a081.jpg | 15KB | 波长计算 λ = 460 nm | HIGH | 量子力学基础 |
-| 063125e6e549e67ac4e0e4f65293badd12d0874fe024534d7b09863cfa983384.jpg | 46KB | NbO晶体结构（立方晶胞） | HIGH | 晶体结构 |
-| 068f00859ca0d524270db69ae5aa5255b2cf37ea4c0d0cf5290f11bed5487cbf.jpg | 19KB | 金字塔形分子结构 | HIGH | 分子对称性 |
-| 06d821ab601f1d19504efda4908259ab9e83878400bde9b32851a259c0f58043.jpg | 5KB | Z*屏蔽常数计算 | HIGH | 原子结构 |
-| 06fc3783ad880b43bc1505bcf9f645d565241d0af802294e2a226d2336f01839.jpg | 16KB | 能级跃迁公式 | HIGH | 原子结构 |
-| 07eb44445628b2e36e3dd29cbe1a8ce2882d2a2cbd4a791640ce12dca80a8686.jpg | 9KB | 波函数概率积分 P₁ | HIGH | 量子力学基础 |
-| 0a0f537f155de2d2f172b384df220a75904242337a7ab90db55562588b990f60.jpg | 84KB | 分子对称性表格（CH₄, SF₆, B₁₂, 环己烷, H₂O₂, C₂H₆） | HIGH | 分子对称性 |
-| 0a3f69e9cbcaea4ab77aec0d98694329911f2a5eb4e9878e8c5632ee9def522b.jpg | 6KB | 三棱双锥分子结构 | HIGH | 分子对称性 |
-| 0a48e9cd61308887bb775567e50ba9f5261184a637c1bb66091f3343dadd0203.jpg | 3KB | 体积计算 V = 5.0×10⁻²³ cm³ | MEDIUM | 晶体结构 |
-| 0a684f5f146b23d142ac7487c67a4c629663216da940c2642f7d8281b0117e61.jpg | 9KB | 立方晶体结构图 | HIGH | 晶体结构 |
-| 0aca4f021b7c05048608ff131f9e98484391907a65c37f5175f7a34c76cf27f8.jpg | 15KB | 密度计算 D = ZM/NₐV | HIGH | 晶体结构 |
-| 0bbc97533b3987fef7265060ded52f8204a92b848c2e3eefb8ddad4aec904d81.jpg | 20KB | 金刚石立方晶胞结构 | HIGH | 晶体结构 |
-| 0c7695cb5e766942bc36f4e78e80d47d60ca38bd5a61c05a450ef80b9937d55d.jpg | 2KB | BB₃三角形分子 | LOW | 分子对称性 |
-| 0c790c4f03c69ccdd0fd9518846568defca9cc0d5f3bbca30e35aa1b7c40ab7f.jpg | 13KB | d_hkl面间距公式 | HIGH | 晶体结构 |
-| 0d45b9cab4fc267a3c44fef7a11e63a32a73aabe7d79457ffb67e978197fd9b1.jpg | 5KB | Z-离子价键计算 | MEDIUM | 配位化学 |
-| 0e36a04058c1117336903559063f162df290d1f46f13707ad1a5f664b22b3d99.jpg | 9KB | 电子概率密度图 | HIGH | 量子力学基础 |
-| 0e57953cd1dea2b31a83e9b724c006675016988c296a65b8ae67819fe263891e.jpg | 31KB | 分子轨道能级图 | HIGH | 分子轨道理论 |
+| 文件名 | 大小 | 内容描述 | 质量 | 关联KP | 建议重命名 |
+|:---|:---:|:---|:---:|:---| --- |
+| :--- | :---: | :--- | :---: | :--- | - |
+| 001fe040421f7ab60c0fe52374cc46343e893402690a1412059056efa2dd0ce3.jpg | 16KB | 【机器误判修正】晶体结构示意图 | HIGH | 晶体结构 | ref__001fe040.jpg |
+| 016085bee3c486ff7b2c4afb567484efa44cf2ac600386ee250a255ec68f70d4.jpg | 5KB | 【机器误判修正】六边形分子对称图 (苯环编号) | HIGH | 分子对称性 | ref__016085be.jpg |
+| 01d79f6c2c2bdb6b8e0786e1b45587528d8cc6ad024c4df71a7a9b636597e3d1.jpg | 33KB | 【机器误判修正】晶胞参数计算 (a*, b*, c*, β*) | HIGH | 晶体结构 | ref__01d79f6c.jpg |
+| 02031b25b3bfed9d372355118ab4eba1ed2eb91212f0125716b5e1d009c84755.jpg | 4KB | 泰勒展开式 eˣ = 1+x+x²/2!+... | MEDIUM | 量子力学基础 | - |
+| 02e7c7c02af69e90a98d29895d4c9ce42c3ef4947c2f6953e3ac7a0ebd9ed122.jpg | 5KB | 公式片段 | MEDIUM | 原子结构 | - |
+| 03d7010e86bcc18a9d822802f9f262edccba7d1789c17cdfb55a5e883693bfd3.jpg | 38KB | 【机器误判修正】X射线衍射计算 (θ, d₂₂₀, a, Z) | HIGH | 晶体结构 | ref__03d7010e.jpg |
+| 04cc04927b614c083be6227e34403d28239f8de13afe3389e1308a1f7c04f257.jpg | 1KB | Cs点群符号 | LOW | 分子对称性 | - |
+| 050c2f833c3c588919f25f6cf8b7923176392dc3cc22eb428196b349c132b182.jpg | 1KB | SO₄²⁻离子符号 | LOW | 配位化学 | - |
+| 058298dc17b30a5e0aae8fdf7f3123aaed2c9f2441008467d32003ad7983a081.jpg | 15KB | 【视觉复核】波长计算 λ = hc/ΔE = 460 nm | HIGH | 量子力学基础 | ref__058298dc_wave_460nm.jpg |
+| 063125e6e549e67ac4e0e4f65293badd12d0874fe024534d7b09863cfa983384.jpg | 46KB | 【机器误判修正】NbO晶体结构（立方晶胞） | HIGH | 晶体结构 | ref__063125e6.jpg |
+| 068f00859ca0d524270db69ae5aa5255b2cf37ea4c0d0cf5290f11bed5487cbf.jpg | 19KB | 【机器误判修正】金字塔形分子结构 | HIGH | 分子对称性 | ref__068f0085.jpg |
+| 06d821ab601f1d19504efda4908259ab9e83878400bde9b32851a259c0f58043.jpg | 5KB | 【机器误判修正】Z*屏蔽常数计算 | HIGH | 原子结构 | ref__06d821ab.jpg |
+| 06fc3783ad880b43bc1505bcf9f645d565241d0af802294e2a226d2336f01839.jpg | 16KB | 【机器误判修正】能级跃迁公式 | HIGH | 原子结构 | ref__06fc3783.jpg |
+| 07eb44445628b2e36e3dd29cbe1a8ce2882d2a2cbd4a791640ce12dca80a8686.jpg | 9KB | 【机器误判修正】波函数概率积分 P₁ | HIGH | 量子力学基础 | ref__07eb4444.jpg |
+| 0a0f537f155de2d2f172b384df220a75904242337a7ab90db55562588b990f60.jpg | 84KB | 【机器误判修正】分子对称性表格（CH₄, SF₆, B₁₂, 环己烷, H₂O₂, C₂H₆） | HIGH | 分子对称性 | ref__0a0f537f.jpg |
+| 0a3f69e9cbcaea4ab77aec0d98694329911f2a5eb4e9878e8c5632ee9def522b.jpg | 6KB | 【机器误判修正】三棱双锥分子结构 | HIGH | 分子对称性 | ref__0a3f69e9.jpg |
+| 0a48e9cd61308887bb775567e50ba9f5261184a637c1bb66091f3343dadd0203.jpg | 3KB | 体积计算 V = 5.0×10⁻²³ cm³ | MEDIUM | 晶体结构 | - |
+| 0a684f5f146b23d142ac7487c67a4c629663216da940c2642f7d8281b0117e61.jpg | 9KB | 【机器误判修正】立方晶体结构图 | HIGH | 晶体结构 | ref__0a684f5f.jpg |
+| 0aca4f021b7c05048608ff131f9e98484391907a65c37f5175f7a34c76cf27f8.jpg | 15KB | 【机器误判修正】密度计算 D = ZM/NₐV | HIGH | 晶体结构 | ref__0aca4f02.jpg |
+| 0bbc97533b3987fef7265060ded52f8204a92b848c2e3eefb8ddad4aec904d81.jpg | 20KB | 【机器误判修正】金刚石立方晶胞结构 | HIGH | 晶体结构 | ref__0bbc9753.jpg |
+| 0c7695cb5e766942bc36f4e78e80d47d60ca38bd5a61c05a450ef80b9937d55d.jpg | 2KB | BB₃三角形分子 | LOW | 分子对称性 | - |
+| 0c790c4f03c69ccdd0fd9518846568defca9cc0d5f3bbca30e35aa1b7c40ab7f.jpg | 13KB | 【机器误判修正】d_hkl面间距公式 | HIGH | 晶体结构 | ref__0c790c4f.jpg |
+| 0d45b9cab4fc267a3c44fef7a11e63a32a73aabe7d79457ffb67e978197fd9b1.jpg | 5KB | Z-离子价键计算 | MEDIUM | 配位化学 | - |
+| 0e36a04058c1117336903559063f162df290d1f46f13707ad1a5f664b22b3d99.jpg | 9KB | 【机器误判修正】电子概率密度图 | HIGH | 量子力学基础 | ref__0e36a040.jpg |
+| 0e57953cd1dea2b31a83e9b724c006675016988c296a65b8ae67819fe263891e.jpg | 31KB | 【机器误判修正】分子轨道能级图 | HIGH | 分子轨道理论 | ref__0e57953c.jpg |
 
 ## KP分布估算
 
-| 知识点 | 估算数量 | 占比 |
-|:---|:---:|:---:|
-| 晶体结构 | ~150 | 32% |
-| 分子对称性 | ~100 | 21% |
-| 配位化学 | ~80 | 17% |
-| 超分子化学 | ~60 | 13% |
-| 分子轨道理论 | ~50 | 10% |
-| 原子结构 | ~23 | 5% |
-| 量子力学基础 | ~10 | 2% |
+| 知识点 | 估算数量 | 占比 | - |
+| :--- | :---: | :---: | - |
+| 晶体结构 | ~150 | 32% | - |
+| 分子对称性 | ~100 | 21% | - |
+| 配位化学 | ~80 | 17% | - |
+| 超分子化学 | ~60 | 13% | - |
+| 分子轨道理论 | ~50 | 10% | - |
+| 原子结构 | ~23 | 5% | - |
+| 量子力学基础 | ~10 | 2% | - |
 
 ## 备注
 

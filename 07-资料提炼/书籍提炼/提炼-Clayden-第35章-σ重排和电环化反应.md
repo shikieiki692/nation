@@ -134,7 +134,7 @@ knowledge_points: [电环化反应, σ迁移反应, 重排反应, Claisen重排,
 - 产物：高度不稳定的双键亚胺 → 芳香性恢复 → 吲哚
 
 ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/96a16a852b4229c113a0c4b6ad3191711f7bce13c77969fc517887e0748dad8d.jpg]]
-![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/36c9317b22a277071e5d18652014dead9c8a5a64c8e011d8a97757b07174e1c.jpg]]
+📌 **图片待补：** 36c9317b22a277071e5d18652014dead9c8a5a64c8e011d8a97757b07174e1c.jpg
 
 #### 2.1.6 Cr(VI) 氧化中的共轭氧化（Conjugate Oxidation）
 
@@ -329,7 +329,7 @@ knowledge_points: [电环化反应, σ迁移反应, 重排反应, Claisen重排,
 | ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/c7e63f9c21ee3e267d2256bf5aa43c1ac4906546b934327a29a4649981013957.jpg]] | 椅式过渡态中R的平伏偏好 | line ~1883 |
 | ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/870e959213cfb792dc8f81c9872372cc9c544ec13810d9b4a59e91e4ce505e8e.jpg]] | 产物中反式双键的形成 | line ~1893 |
 | ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/7cf3087a7d17031f53438293d20de9ccf336392ced665e60efc1a543ec37c778.jpg]] | 缩醛交换法制备烯丙基乙烯基醚 | line ~1919 |
-| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/dde6a2eb92e599f0208627e450902068972b92607c4f0447fe29f878e5d51044.jpg]] | Woodward-Hoffmann规则应用于[3,3]-σ重排 | line ~1975 |
+| 📌 **图片待补：** dde6a2eb92e599f0208627e450902068972b92607c4f0447fe29f878e5d51044.jpg | Woodward-Hoffmann规则应用于[3,3]-σ重排 | line ~1975 |
 | ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/d800f4f038fd7347a90a712f95d33e45c54797a6a5b71690c37f4c8078c39284.jpg]] | σ键的s/a对称性（同面） | line ~2003 |
 | ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/c970dc1d9de6ee6b84caa36ec399c8e1f16ca6fbbfa6cec4fcd620aaf3831b5c.jpg]] | σ键的s/a对称性（异面） | line ~2017 |
 | ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/e901f375e026b143bb73091d339863facbecbd4f3a984f83174cbd60262c6f66.jpg]] | Cope重排（最简单的版本） | line ~2037 |
@@ -339,7 +339,7 @@ knowledge_points: [电环化反应, σ迁移反应, 重排反应, Claisen重排,
 | ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/b64e045fb98f9e4832e0428e8ea5b3692010ca57b7e6379501e7486f95678c58.jpg]] | Ireland-Claisen（烯醇硅醚途径） | line ~2109 |
 | ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/e22d3ed9a94e2f1c5de33cd14750ad18819776987eb0a77f6ec40086cb575b4e.jpg]] | 张力驱动的Cope重排（三元环断裂） | line ~2131 |
 | ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/5221b16b595e7d2f6660f2918e18d11399494f76d121a4f9285bcf1af0dd84bc.jpg]] | 柠檬醛工业合成（Claisen + Cope） | line ~2151 |
-| ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/36c9317b22a277071e5d18652014dead9c8a5a64c8e011d8a97757b07174e1c.jpg]] | Fischer吲哚合成的[3,3]-σ重排 | line ~2207 |
+| 📌 **图片待补：** 36c9317b22a277071e5d18652014dead9c8a5a64c8e011d8a97757b07174e1c.jpg | Fischer吲哚合成的[3,3]-σ重排 | line ~2207 |
 | ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/b7d2c75788b4343deadbca2485164f7f32588d3bf6b6372d02a45e858948d2f9.jpg]] | Cr(VI)共轭氧化的[3,3]-σ重排 | line ~2239 |
 | ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/b39083f56a2976819ce147453966082c755801529782d63255a259f30b963eaa.jpg]] | [2,3]-σ重排（碳阴离子） | line ~2267 |
 | ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/af43e9dff2bb2f523e453f0a8f34def28bc89a9315315e593df294900abbf06b.jpg]] | 次磺酸酯→亚砜的[2,3]-σ重排 | line ~2335 |

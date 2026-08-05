@@ -17,11 +17,11 @@
 
 | 文件名 | 内容描述 | 建议重命名 | 质量 | 关联KP |
 |:---|:---|:---|:---:|:---|
-|581a4c3911c5e4bee553ff950e1db612534ad41a7c1bff29bdbf74f233efa154.jpg|压力-溶解度数据表|lecture_151-200_table001.jpg|HIGH|化学平衡|
+| 581a4c3911c5e4bee553ff950e1db612534ad41a7c1bff29bdbf74f233efa154.jpg | 【机器误判修正】压力-溶解度数据表 | lecture_151-200_table001.jpg | HIGH | 化学平衡 |
 |ec92fecefb7573b832c901878187b0159fa5a0d0f9122fefedcdbae6e53a3c13.jpg|数学不等式(含x,y,a)|lecture_151-200_math001.jpg|MEDIUM|化学平衡|
 |108f5b01dfdc293e0b2545a9639f8eb3df9cd07ee2ca8d2044842ca304212232.jpg|[A⁻]+[OH⁻]=[H⁺] 电荷平衡|lecture_151-200_eq001.jpg|MEDIUM|酸碱平衡|
-|43e0892dbac1b72babdc2e0f551076c6fe4ffa071cbd653c93a524608556bcd7.jpg|BINAP配体及有机分子结构|lecture_151-200_struct001.jpg|HIGH|有机化学|
-|792659e0e3b4942fe355b6a60a44ea59dd6789eafb81d249ad6de59ce2b636a8.jpg|环己烷椅式构象(轴向/平伏氢)|lecture_151-200_conf001.jpg|HIGH|有机化学|
+| 43e0892dbac1b72babdc2e0f551076c6fe4ffa071cbd653c93a524608556bcd7.jpg | 【机器误判修正】BINAP配体及有机分子结构 | lecture_151-200_struct001.jpg | HIGH | 有机化学 |
+| 792659e0e3b4942fe355b6a60a44ea59dd6789eafb81d249ad6de59ce2b636a8.jpg | 【机器误判修正】环己烷椅式构象(轴向/平伏氢) | lecture_151-200_conf001.jpg | HIGH | 有机化学 |
 |0ad931d804a39a14bc3d51384ab1cbabcc5f18c22898d3701652818531e1df8c.jpg|[待分类]|lecture_151-200_xxx.jpg|MEDIUM|待定|
 |0ba57953a9ffdd3aadcd2f90c72ff85e0bf55b444fb51ae92dfbc6c157bf89be.jpg|[待分类]|lecture_151-200_xxx.jpg|MEDIUM|待定|
 |0c11b089cf315188bc95643a662944b339a26efd0fab64b8366f72ef2fd37fbc.jpg|[待分类]|lecture_151-200_xxx.jpg|MEDIUM|待定|

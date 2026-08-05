@@ -17,11 +17,11 @@
 
 | 文件名 | 内容描述 | 建议重命名 | 质量 | 关联KP |
 |:---|:---|:---|:---:|:---|
-|cdc673bd172570152ee336f48b3c3d02b004260c52e918abb4d3085fe7c317e4.jpg|吲哚合成反应(TfOH催化)|lecture_251-300_rxn001.jpg|HIGH|有机化学|
-|7a8f8827fa9071993a1fec7a66d03a1e0ea3605d93edf3ec3f1cad819195e1a7.jpg|频哪醇重排反应(TsOH)|lecture_251-300_mech001.jpg|HIGH|有机化学|
+| cdc673bd172570152ee336f48b3c3d02b004260c52e918abb4d3085fe7c317e4.jpg | 【机器误判修正】吲哚合成反应(TfOH催化) | lecture_251-300_rxn001.jpg | HIGH | 有机化学 |
+| 7a8f8827fa9071993a1fec7a66d03a1e0ea3605d93edf3ec3f1cad819195e1a7.jpg | 【机器误判修正】频哪醇重排反应(TsOH) | lecture_251-300_mech001.jpg | HIGH | 有机化学 |
 |f2ca0434aef2976c4a1f0bcdd4a9be25cc6ce9b68943a20a10c8cf60b38133f1.jpg|喹唑啉酮合成路线|lecture_251-300_rxn002.jpg|MEDIUM|有机化学|
 |ed96ad51be5db26b8108926361edd05ca6d96ff266e1effc2e99217c146c3a8b.jpg|叠氮化合物反应(HBF₄)|lecture_251-300_rxn003.jpg|MEDIUM|有机化学|
-|7a7c31a141c048575e462c6bc9edd2c8be44a9ad473164372e376f71861d629a.jpg|复杂有机分子A(含NC,CO,Cl)|lecture_251-300_struct001.jpg|HIGH|有机化学|
+| 7a7c31a141c048575e462c6bc9edd2c8be44a9ad473164372e376f71861d629a.jpg | 【机器误判修正】复杂有机分子A(含NC,CO,Cl) | lecture_251-300_struct001.jpg | HIGH | 有机化学 |
 |0ab0ae94b4b4fe838498b24336d8068aebefee9ab26723742a336a760357df06.jpg|[待分类]|lecture_251-300_xxx.jpg|MEDIUM|待定|
 |0dc4e233fa65711e9af09bcfea904d3f2c737e7df086a668a6115487a2025e37.jpg|[待分类]|lecture_251-300_xxx.jpg|MEDIUM|待定|
 |0fbdb62a98c078ea1cc9b200fca44ff6343555ac3c73e5912a47fd372468839a.jpg|[待分类]|lecture_251-300_xxx.jpg|MEDIUM|待定|

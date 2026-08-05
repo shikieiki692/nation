@@ -10,37 +10,37 @@
 
 | 文件名 | 内容描述 | 建议重命名 | 质量 | 关联KP |
 |:---|:---|:---|:---:|:---|
-| 0c7969f5b4b116e23443ad5cbcb441ce0d6050279e638b6f4b1deac7e582ce0f.jpg | Fe物种Pourbaix图（Fe3+/Fe2+/Fe(OH)3/Fe(OH)2） | weller_ch7_pourbaix_fe.jpg | HIGH | 电极电势 |
-| d81e0ce900e653ec50238a0a05d8b72ccc436de1c934f0b601b6e41c9d8d9551.jpg | Mn物种Pourbaix图（MnO2/Mn2+/Mn2O3/Mn3O4） | weller_ch7_pourbaix_mn.jpg | HIGH | 电极电势 |
-| acf88a370298c5f8f7dc3d729bb72f3b17e6d31dcd9d1986c895ea8bb80c3c97.jpg | 水的稳定性Pourbaix图（天然水pH范围） | weller_ch7_pourbaix_water.jpg | HIGH | 电极电势 |
-| fcde02ee7ace031d147922b71c897d10817bbef27072c5b66170dae364c23f02.jpg | 标准电极电势总表（F2/Li+全系列） | weller_ch7_std_electrode_potentials.jpg | HIGH | 电极电势 |
-| 0a88f8a26db45c6aa4215edf6060b229ce5c097b590040efe4f36b5f09cdb1ee.jpg | 原电池示意图（Zn-H2盐桥电池） | weller_ch7_galvanic_cell.jpg | HIGH | 电池电动势 |
-| 3eb3993f5a1deacae37e972722799c1ea8d90231ada7bfa5a182cc4072b138d2.jpg | 燃料电池类型对比表（PEMFC/AFC/SOFC/DMFC） | weller_ch7_fuel_cell_table.jpg | HIGH | 电池电动势 |
-| 3ec6f85bbab0ee45a207978a1437f5e6aff9e27d662bf16f38f982170797b526.jpg | 氮元素Frost图（vE vs 氧化数） | weller_ch7_frost_nitrogen.jpg | HIGH | 元素电势图 |
-| 63fc9697b2f28e7339f42dd2e855d7429dd9c2e6b3abf45a86549a1ede2237c4.jpg | 氯元素Frost图（vE vs 氧化数） | weller_ch7_frost_chlorine.jpg | HIGH | 元素电势图 |
-| 814ade2e8973a071c138acf44350f5362281228e93dbe053a23aeac9c37ce2df.jpg | 氧元素Frost图（vE vs 氧化数） | weller_ch7_frost_oxygen.jpg | HIGH | 元素电势图 |
-| b7edfe7c8c28c4885882fa473f8a92969315f7c22cf1c3ae535f8b40bb99bff8.jpg | 锰元素Frost图（vE vs 氧化数） | weller_ch7_frost_manganese.jpg | HIGH | 元素电势图 |
-| 040195c45d808d70f0533029c7ab18afa6b72a329c4f2c44495ca41ceb3b5ada.jpg | 水环境Pourbaix图（地表水/海水/沼泽水） | weller_ch7_pourbaix_natural_water.jpg | HIGH | 电极电势 |
-| baf58d7828108c75e23a9e1f40ad1caedcd6830ac65e237dcc6c80b83edba173.jpg | 高炉炼铁反应示意图 | weller_ch7_ellingham_diagram.jpg | HIGH | 氧化还原反应 |
-| 0bfc7fc178a6ad40e1e4b5ad999f89142bbe829b42211816d2766e9e060dc9f7.jpg | 热力学循环（M→M+能量分解） | weller_ch7_thermodynamic_cycle.jpg | HIGH | 电极电势 |
-| 69089bb857bc3b559f7b5a199af927187a144e9367f641b400901da61fcc0915.jpg | Gibbs自由能循环（氧化还原） | weller_ch7_gibbs_cycle.jpg | HIGH | 电极电势 |
-| 933b9fc922c353205bc226a7007d78a8256a112418c6955549f3d82f3a137cd9.jpg | Nernst方程推导（含[H+]项） | weller_ch7_nernst_derivation.jpg | HIGH | Nernst方程 |
-| 5d61dc284a5d225bd6931502b9a36a5d5b37fa88725149242af20ddce6776699.jpg | Nernst方程一般形式（Q表达式） | weller_ch7_nernst_general.jpg | HIGH | Nernst方程 |
-| e7990910d5849db4e5ce8c448ed194c48b659ac11deac97ebd799cfb0a10b7a7.jpg | lnKsp与E°关系式（5.14） | weller_ch7_ksp_equation.jpg | HIGH | Nernst方程 |
-| 14c1c9bd487ba37e088a7c48b6caa157d0d1d28b9dbea012411896f01044b6de.jpg | Ksp与E°关系公式 | weller_ch7_ksp_derivation.jpg | HIGH | Nernst方程 |
-| 4d4ee36f68cd3290ac934ca4c480ff4b42b754ff99c60ece30021ea69ceca131.jpg | 热力学数据表（Li/Na/Cs/Ag） | weller_ch7_thermo_alkali.jpg | HIGH | 电极电势 |
-| d5d6e7fbfe36e3c19484fec5b121c1fc0a384d5e1b73b23f50513cf0b7f2e76b.jpg | Sc热力学数据表 | weller_ch7_thermo_scandium.jpg | HIGH | 电极电势 |
-| 80f90917624aa8daf67b31be4a3c81d41b9ef59d77ac4c7ee06ef2d8d170fea4.jpg | E°与K关系表（2V→10^34） | weller_ch7_e_k_table.jpg | HIGH | Nernst方程 |
-| 798f0777ceabed7a23ba88cf75e1043c30840dde91cc6f04b50bf3429ef983e8.jpg | MnO4-/HMnO4-半反应电势 | weller_ch7_permanganate_half.jpg | HIGH | 氧化还原反应 |
-| fbb748106c30afd36ac1f02cf67f13bd7e239e6e6769b7015bd0a900290f661a.jpg | ClO2-/ClO-半反应电势 | weller_ch7_chlorite_half.jpg | HIGH | 氧化还原反应 |
-| fe5b40fa0ba66572635746d2f1dbd7bdcdf9cc316709f5de81025c47c4b7ffdf.jpg | Cl元素Latimer图（ClO4-→Cl-） | weller_ch7_latimer_chlorine.jpg | HIGH | 元素电势图 |
-| da01ec0ba156ade56c9b4de61dc4c6958c492b53f247c3b45a9eaa8246cdadf1.jpg | 歧化反应判据示意图（Frost图） | weller_ch7_disproportionation.jpg | HIGH | 歧化反应 |
-| 43b1da5c7fbaed3a45ae2bd420f390049aa3f617ce208bf0fa25c4dbd9a7355a.jpg | 最稳定氧化态示意图（Frost图） | weller_ch7_stable_oxidation.jpg | HIGH | 元素电势图 |
-| 65329262d5101027dac2c8bb84294e73c257078cc94cc51538405f74d627d4d5.jpg | 高/低标准电位比较图 | weller_ch7_high_low_ep.jpg | HIGH | 电极电势 |
-| cf45a894bd8abf17d7eacddbfb27df5c5c7ff3ff8937648e98d56ce54b3aa9d2.jpg | v'E°'/v''E°''关系图（氧化数） | weller_ch7_vne_relation.jpg | HIGH | 元素电势图 |
-| 597b48a7005023b9eea90b0e046735377e89bc99816636d84ba0ca2eb4d11499.jpg | 歧化趋势示意图（Frost图） | weller_ch7_disproportion_trend.jpg | HIGH | 歧化反应 |
-| 66298a36a32d5e5083bee085da721ae3d1a31e3d51348f7ab696ef166efb65eb.jpg | 氧化还原对示意图（Frost图） | weller_ch7_redox_pair.jpg | HIGH | 氧化还原反应 |
-| b85d75913142b606bf21786b4d87032b3afc8043f4ab5cc73361e03ee854f4b6.jpg | ΔG计算示意图（平均值法） | weller_ch7_delta_g_calc.jpg | HIGH | 电池电动势 |
+| 0c7969f5b4b116e23443ad5cbcb441ce0d6050279e638b6f4b1deac7e582ce0f.jpg | 【机器误判修正】3d过渡金属(Cr-Cu)的水合焓与电离能数据表 | weller_ch7_pourbaix_fe.jpg | HIGH | 水合焓 |
+| d81e0ce900e653ec50238a0a05d8b72ccc436de1c934f0b601b6e41c9d8d9551.jpg | 【视觉复核】锰的E-pH图（MnO₂/Mn²⁺/Mn₂O₃/Mn₃O₄/Mn(OH)₂及水稳定线） | manganese_pourbaix_diagram.jpg | HIGH | 电化学/元素化学 |
+| acf88a370298c5f8f7dc3d729bb72f3b17e6d31dcd9d1986c895ea8bb80c3c97.jpg | 【机器误判修正】水的稳定性Pourbaix图（天然水pH范围） | weller_ch7_pourbaix_water.jpg | HIGH | 电极电势 |
+| fcde02ee7ace031d147922b71c897d10817bbef27072c5b66170dae364c23f02.jpg | 【机器误判修正】常见氧化还原对的标准电极电势表（含F2至Li+系列数据） | weller_ch7_std_electrode_potentials.jpg | HIGH | 标准电极电势 |
+| 0a88f8a26db45c6aa4215edf6060b229ce5c097b590040efe4f36b5f09cdb1ee.jpg | 【机器误判修正】由标准氢电极与锌电极组成的原电池示意图 | weller_ch7_galvanic_cell.jpg | HIGH | 标准氢电极 |
+| 3eb3993f5a1deacae37e972722799c1ea8d90231ada7bfa5a182cc4072b138d2.jpg | 【机器误判修正】四种典型燃料电池（PEMFC/AFC/SOFC/DMFC）的工作参数及电极反应对比表 | weller_ch7_fuel_cell_table.jpg | HIGH | 燃料电池 |
+| 3ec6f85bbab0ee45a207978a1437f5e6aff9e27d662bf16f38f982170797b526.jpg | 【视觉复核】氮元素在酸性和碱性水溶液中的Frost图（自由能-氧化态图） | weller_ch7_frost_nitrogen.jpg | HIGH | Frost图 |
+| 63fc9697b2f28e7339f42dd2e855d7429dd9c2e6b3abf45a86549a1ede2237c4.jpg | 【视觉复核】氯元素在酸性和碱性水溶液中的Frost图（自由能-氧化态图） | weller_ch7_frost_chlorine.jpg | HIGH | Frost图 |
+| 814ade2e8973a071c138acf44350f5362281228e93dbe053a23aeac9c37ce2df.jpg | 【机器误判修正】氧元素Frost图（vE vs 氧化数） | weller_ch7_frost_oxygen.jpg | HIGH | 元素电势图 |
+| b7edfe7c8c28c4885882fa473f8a92969315f7c22cf1c3ae535f8b40bb99bff8.jpg | 【视觉复核】Ellingham图：金属氧化物生成自由能与温度关系 | weller_ch7_ellingham_metal_oxide_formation.jpg | HIGH | 金属的冶炼 |
+| 040195c45d808d70f0533029c7ab18afa6b72a329c4f2c44495ca41ceb3b5ada.jpg | 【视觉复核】天然水环境 Pourbaix 图（地表水/沼泽水/湖水/海水及有机物水体） | pourbaix_natural_water_environment.jpg | HIGH | 电化学/环境化学 |
+| baf58d7828108c75e23a9e1f40ad1caedcd6830ac65e237dcc6c80b83edba173.jpg | 【机器误判修正】高炉炼铁各温区反应剖面图（非Ellingham图） | weller_ch7_ellingham_diagram.jpg | HIGH | 金属的冶炼 |
+| 0bfc7fc178a6ad40e1e4b5ad999f89142bbe829b42211816d2766e9e060dc9f7.jpg | 【视觉复核】热力学循环（M→M+能量分解） | weller_ch7_thermodynamic_cycle.jpg | HIGH | 电极电势 |
+| 69089bb857bc3b559f7b5a199af927187a144e9367f641b400901da61fcc0915.jpg | 【机器误判修正】Gibbs自由能循环（氧化还原） | weller_ch7_gibbs_cycle.jpg | HIGH | 电极电势 |
+| 933b9fc922c353205bc226a7007d78a8256a112418c6955549f3d82f3a137cd9.jpg | 【机器误判修正】Nernst方程推导（含[H+]项） | weller_ch7_nernst_derivation.jpg | HIGH | Nernst方程 |
+| 5d61dc284a5d225bd6931502b9a36a5d5b37fa88725149242af20ddce6776699.jpg | 【机器误判修正】Nernst方程一般形式（Q表达式） | weller_ch7_nernst_general.jpg | HIGH | Nernst方程 |
+| e7990910d5849db4e5ce8c448ed194c48b659ac11deac97ebd799cfb0a10b7a7.jpg | 【机器误判修正】lnKsp与E°关系式（5.14） | weller_ch7_ksp_equation.jpg | HIGH | Nernst方程 |
+| 14c1c9bd487ba37e088a7c48b6caa157d0d1d28b9dbea012411896f01044b6de.jpg | 【机器误判修正】Ksp与E°关系公式 | weller_ch7_ksp_derivation.jpg | HIGH | Nernst方程 |
+| 4d4ee36f68cd3290ac934ca4c480ff4b42b754ff99c60ece30021ea69ceca131.jpg | 【机器误判修正】热力学数据表（Li/Na/Cs/Ag） | weller_ch7_thermo_alkali.jpg | HIGH | 电极电势 |
+| d5d6e7fbfe36e3c19484fec5b121c1fc0a384d5e1b73b23f50513cf0b7f2e76b.jpg | 【机器误判修正】Sc热力学数据表 | weller_ch7_thermo_scandium.jpg | HIGH | 电极电势 |
+| 80f90917624aa8daf67b31be4a3c81d41b9ef59d77ac4c7ee06ef2d8d170fea4.jpg | 【机器误判修正】E°与K关系表（2V→10^34） | weller_ch7_e_k_table.jpg | HIGH | Nernst方程 |
+| 798f0777ceabed7a23ba88cf75e1043c30840dde91cc6f04b50bf3429ef983e8.jpg | 【机器误判修正】MnO4-/HMnO4-半反应电势 | weller_ch7_permanganate_half.jpg | HIGH | 氧化还原反应 |
+| fbb748106c30afd36ac1f02cf67f13bd7e239e6e6769b7015bd0a900290f661a.jpg | 【机器误判修正】ClO2-/ClO-半反应电势 | weller_ch7_chlorite_half.jpg | HIGH | 氧化还原反应 |
+| fe5b40fa0ba66572635746d2f1dbd7bdcdf9cc316709f5de81025c47c4b7ffdf.jpg | 【视觉复核】Cl元素Latimer图（ClO4-→Cl-） | weller_ch7_latimer_chlorine.jpg | HIGH | 元素电势图 |
+| da01ec0ba156ade56c9b4de61dc4c6958c492b53f247c3b45a9eaa8246cdadf1.jpg | 【机器误判修正】歧化反应判据示意图（Frost图） | weller_ch7_disproportionation.jpg | HIGH | 歧化反应 |
+| 43b1da5c7fbaed3a45ae2bd420f390049aa3f617ce208bf0fa25c4dbd9a7355a.jpg | 【机器误判修正】最稳定氧化态示意图（Frost图） | weller_ch7_stable_oxidation.jpg | HIGH | 元素电势图 |
+| 65329262d5101027dac2c8bb84294e73c257078cc94cc51538405f74d627d4d5.jpg | 【机器误判修正】高/低标准电位比较图 | weller_ch7_high_low_ep.jpg | HIGH | 电极电势 |
+| cf45a894bd8abf17d7eacddbfb27df5c5c7ff3ff8937648e98d56ce54b3aa9d2.jpg | 【机器误判修正】v'E°'/v''E°''关系图（氧化数） | weller_ch7_vne_relation.jpg | HIGH | 元素电势图 |
+| 597b48a7005023b9eea90b0e046735377e89bc99816636d84ba0ca2eb4d11499.jpg | 【机器误判修正】歧化趋势示意图（Frost图） | weller_ch7_disproportion_trend.jpg | HIGH | 歧化反应 |
+| 66298a36a32d5e5083bee085da721ae3d1a31e3d51348f7ab696ef166efb65eb.jpg | 【机器误判修正】氧化还原对示意图（Frost图） | weller_ch7_redox_pair.jpg | HIGH | 氧化还原反应 |
+| b85d75913142b606bf21786b4d87032b3afc8043f4ab5cc73361e03ee854f4b6.jpg | 【机器误判修正】ΔG计算示意图（平均值法） | weller_ch7_delta_g_calc.jpg | HIGH | 电池电动势 |
 
 ## MEDIUM 质量图片（有用但通用）
 

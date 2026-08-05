@@ -361,15 +361,15 @@ knowledge_points: [芳香性, 苯酚, σ络合物, 芳香亲电取代, 硝化反
 
 ### Friedel-Crafts 酰基化
 - ![[clayden 有机化学/Clayden中文版_402-600_images/786d0d837a35c0a3cb070be2323586af9f8e46bd613b73addf2e7cb0668534c7.jpg]] —— 酰基化机理（line 2969）
-- ![[clayden 有机化学/Clayden中文版_402-600_images/dbcb39ab99845dc964378ce3e3272d7bba8933add828a823c900caffeb1eae6e.jpg]] —— 苯乙酮和二苯甲酮（line 3434）
+- 📌 **图片待补：** dbcb39ab99845dc964378ce3e3272d7bba8933add828a823c900caffeb1eae6e.jpg —— 苯乙酮和二苯甲酮（line 3434）
 - ![[clayden 有机化学/Clayden中文版_402-600_images/06eff8a0f96126e0dbfacffbb243c40a3747caf7e3173fd38ab6041fc5b34255.jpg]] —— 丙酰氯酰基化（line 3426）
 
 ### 苯酚的亲电取代
 - ![[clayden 有机化学/Clayden中文版_402-600_images/55ce342ef40d9a44f99606b66a1043073c0a01b122ee83c2ac6b2edb6569bad8.jpg]] —— 3-戊酮的氘代（line 2766）
 - ![[clayden 有机化学/Clayden中文版_402-600_images/a70a7fd334c1808c31ddd6e8faccd843bc2275c798d3fb09497fc6776501e1e1.jpg]] —— 苯酚的烯醇式（line 2772）
 - ![[clayden 有机化学/Clayden中文版_402-600_images/66d3b925620f3b47b8984e4174feda4e5b52c0005e082e5c36ae994b164480ca.jpg]] —— 苯酚的三溴代（line 3003）
-- ![[clayden 有机化学/Clayden中文版_402-600_images/e30daa2feea85de259eb6cc37c7f6377c8a13071d421182f42e46d78c6a9bf0.jpg]] —— 苯酚溴代机理（对位）（line 3007）
-- ![[clayden 有机化学/Clayden中文版_402-600_images/0865885834390e25022e9abb4b11a7f9385040e25022e9abb4b11a7f9385040e2.jpg]] —— 苯酚溴代机理（邻位）（line 3013）
+- 📌 **图片待补：** e30daa2feea85de259eb6cc37c7f6377c8a13071d421182f42e46d78c6a9bf0.jpg —— 苯酚溴代机理（对位）（line 3007）
+- 📌 **图片待补：** 0865885834390e25022e9abb4b11a7f9385040e25022e9abb4b11a7f9385040e2.jpg —— 苯酚溴代机理（邻位）（line 3013）
 
 ### 苯酚/苯胺的 NMR 证据
 - ![[clayden 有机化学/Clayden中文版_402-600_images/bb541d4faf020d7c27ade88bd4909362b70c60fdf868b00f3a0936506a863cf1.jpg]] —— 苯酚的 ¹H NMR（line 2776）
@@ -378,35 +378,35 @@ knowledge_points: [芳香性, 苯酚, σ络合物, 芳香亲电取代, 硝化反
 
 ### 烷基苯的亲电取代
 - ![[clayden 有机化学/Clayden中文版_402-600_images/9b4c3ed8d691f0fc234690ab37afcd81c9ac5827558c651a9047a74ec27eaab2.jpg]] —— 甲苯的溴代（line 3146）
-- ![[clayden 有机化学/Clayden中文版_402-600_images/1648ab9656c8b070e91e2bbd5caf30f766de69f9f2519140c0ad0c80ae04307.jpg]] —— 甲苯溴代机理（line 3154）
-- ![[clayden 有机化学/Clayden中文版_402-600_images/fca542c96f8e99bca84df426c4aeadb5f405d6bcc1cc0707f3f59afc8be7f.jpg]] —— 邻位进攻的 σ 络合物（line 3158）
+- 📌 **图片待补：** 1648ab9656c8b070e91e2bbd5caf30f766de69f9f2519140c0ad0c80ae04307.jpg —— 甲苯溴代机理（line 3154）
+- 📌 **图片待补：** fca542c96f8e99bca84df426c4aeadb5f405d6bcc1cc0707f3f59afc8be7f.jpg —— 邻位进攻的 σ 络合物（line 3158）
 - ![[clayden 有机化学/Clayden中文版_402-600_images/f0588a4ef3f40c07bfe2ce2a76f3a0665ea2d91e95e94cb0dfa234b0633d9227.jpg]] —— 间位进攻的不利中间体（line 3162）
 - ![[clayden 有机化学/Clayden中文版_402-600_images/55436d0cb41e285a2a828fc5b714966d47d0f8f0a787f60bc46c94e9df6f354b.jpg]] —— 甲苯磺化机理（line 3184）
 
 ### 吸电子基的间位定位
-- ![[clayden 有机化学/Clayden中文版_402-600_images/f74adecb605a4786323ef2c5c7ae614ce24212201aebfc6a65a773e6a67c2ce.jpg]] —— 三甲铵基苯的硝化（line 3222）
+- 📌 **图片待补：** f74adecb605a4786323ef2c5c7ae614ce24212201aebfc6a65a773e6a67c2ce.jpg —— 三甲铵基苯的硝化（line 3222）
 - ![[clayden 有机化学/Clayden中文版_402-600_images/a34ec8ceb76948aa5e17c474f4b9bda327c3f37a12c72b90da730553d6f3027a.jpg]] —— 三氟甲基苯的硝化（line 3226）
 - ![[clayden 有机化学/Clayden中文版_402-600_images/a36da974db3d0e04f540c48658de4075bb5ab72d2695899a7f0b86843af51573.jpg]] —— 间位进攻机理（line 3230）
 - ![[clayden 有机化学/Clayden中文版_402-600_images/676f48346e3c497030a6ba98fdedc3495a89a7710b176f6cc532079de28493da.jpg]] —— 邻/对位进攻的不利中间体（line 3234）
 
 ### 卤素的特殊性
-- ![[clayden 有机化学/Clayden中文版_402-600_images/fa83cb92d6f677c7c041fc218e463bd17d2a009e27c103ad7f420b929edf759.jpg]] —— 卤素的双重效应（line 3330）
+- 📌 **图片待补：** fa83cb92d6f677c7c041fc218e463bd17d2a009e27c103ad7f420b929edf759.jpg —— 卤素的双重效应（line 3330）
 - ![[clayden 有机化学/Clayden中文版_402-600_images/bd8b5fdcc769a935ef1c856846e5e362db1109c24c65642998f2489a4a70910e.jpg]] —— 卤代苯的硝化数据（line 3342）
 
 ### Friedel-Crafts 的问题
 - ![[clayden 有机化学/Clayden中文版_402-600_images/667d29f23baa1ca26896c2762831046c98bd8b17cffdc43ac6c45e231bef64fc.jpg]] —— 烷基化的多取代问题（line 3400）
 - ![[clayden 有机化学/Clayden中文版_402-600_images/a06b1fe17a9bc335a75ad56afc26999924666c6a3a96722339e99f707fc72e99.jpg]] —— 烷基化重排（line 3404）
-- ![[clayden 有机化学/Clayden中文版_402-600_images/7f73603d57f8649c6cfd1f2a5fe7a4149dff53c8c5a9b184c7f2bc1b9e2ce4ecc.jpg]] —— 负氢重排机理（line 3416）
+- 📌 **图片待补：** 7f73603d57f8649c6cfd1f2a5fe7a4149dff53c8c5a9b184c7f2bc1b9e2ce4ecc.jpg —— 负氢重排机理（line 3416）
 
 ### 酰基化的优势
-- ![[clayden 有机化学/Clayden中文版_402-600_images/dbcb39ab99845dc964378ce3e3272d7bba8933add828a823c900caffeb1eae6e.jpg]] —— 苯乙酮和二苯甲酮（line 3434）
-- ![[clayden 有机化学/Clayden中文版_402-600_images/dce42d9ae574b522f8896212b4cb4fa5c3050ec5f1287d2ea1d466ea5a2fa8cd.jpg]] —— 酸酐的酰基化（line 3450）
-- ![[clayden 有机化学/Clayden中文版_402-600_images/7ddbc39b49b7ee85af977c095e70aa1260f3aa1888da23039c83cf8753e8301.jpg]] —— 环状酸酐的酰基化（line 3454）
+- 📌 **图片待补：** dbcb39ab99845dc964378ce3e3272d7bba8933add828a823c900caffeb1eae6e.jpg —— 苯乙酮和二苯甲酮（line 3434）
+- 📌 **图片待补：** dce42d9ae574b522f8896212b4cb4fa5c3050ec5f1287d2ea1d466ea5a2fa8cd.jpg —— 酸酐的酰基化（line 3450）
+- 📌 **图片待补：** 7ddbc39b49b7ee85af977c095e70aa1260f3aa1888da23039c83cf8753e8301.jpg —— 环状酸酐的酰基化（line 3454）
 
 ### 硝基化学的应用
 - ![[clayden 有机化学/Clayden中文版_402-600_images/7b8cbeb30790529ffd410cb9f29c387337bc744b8cd7b17efb4cfed8fdab375b.jpg]] —— 硝化-还原-重氮化策略（line 3482）
 - ![[clayden 有机化学/Clayden中文版_402-600_images/9d6d912d4b62c48610fd4304026016f3e3bd53e7c0ad511a78c4185ea5eb70fa.jpg]] —— 硝基还原为氨基（line 3488）
-- ![[clayden 有机化学/Clayden中文版_402-600_images/1efbaa1294da3a0a767db2eec9cafcea7e277ba2c1cfd88a66cc39a217d371304c.jpg]] —— 硝化-还原策略的应用（line 3494）
+- 📌 **图片待补：** 1efbaa1294da3a0a767db2eec9cafcea7e277ba2c1cfd88a66cc39a217d371304c.jpg —— 硝化-还原策略的应用（line 3494）
 - ![[clayden 有机化学/Clayden中文版_402-600_images/990250e065a9c035a6adc8b90f50b6e6aa9202d7c60caabb881983b22582b053.jpg]] —— 重氮盐的取代（line 3498）
 
 ### 其他

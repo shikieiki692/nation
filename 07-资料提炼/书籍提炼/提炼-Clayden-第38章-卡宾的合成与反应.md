@@ -205,7 +205,7 @@ m o}$，$^{13}$C NMR 确认缺电子性。
 ### 4.4 C–H 插入与重排
 - ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/825af6d35b7cc96dd16c816ab8ed89b67758d679b67e18f74ef1971a6254ff1d.jpg]] — 卡宾 1,2-氢迁移生成烯烃（line ~2872）
 - ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/e002f92c7da35aa2b5ee6d0c00796dad984fe57511483f3e3c7bcc81fb103d00.jpg]] — 分子内 C–H 插入（line ~2884）
-- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/09f74e96fde01f0b9891a076ac1e942c99c6a3df4f76f7223afcac8043f5f3c.jpg]] — 铑催化选择性 C–H 插入成环（line ~2904）
+- 📌 **图片待补：** 09f74e96fde01f0b9891a076ac1e942c99c6a3df4f76f7223afcac8043f5f3c.jpg — 铑催化选择性 C–H 插入成环（line ~2904）
 - ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/6b5892296c96d208dfdcba74818fd30d560617b8544e71a5d3cb27ddc9762e18.jpg]] — 单线态卡宾 C–H 插入的轨道相互作用（line ~2941）
 - ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/17c4c9a6bc9f5b84a0ada490d1f3b2c66d55fcba257794a738f60db70ff740fe.jpg]] — Wolff 重排（line ~2979）
 - ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese37-401000-1132_images/1e00a42fc05f5587a077a2ff8b950e5e526abd48956c896389aa780b3af8aa81.jpg]] — Arndt–Eistert 同系化（line ~2995）

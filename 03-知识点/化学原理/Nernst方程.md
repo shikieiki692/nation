@@ -27,6 +27,7 @@ images_priority: medium
 images_note: "已嵌入Atkins Nernst E vs lgQ图。"
 key_images:
   - media/physchem-nernst-e-vs-q.jpg
+teaching_insights: ["[[12-教学洞察/教学洞察-Nernst方程.md]]"]
 ---
 
 # Nernst方程

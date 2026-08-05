@@ -42,6 +42,7 @@ images_priority: low
 images_note: "LaTeX 公式已足够，无需配图。核心概念（质子给体/受体、共轭酸碱对）纯文字即可表达。"
 key_images: []
 teaching_ready: true
+teaching_insights: ["[[12-教学洞察/教学洞察-Brønsted酸碱理论.md]]"]
 ---
 
 # Brønsted 酸碱理论（质子理论）

@@ -160,7 +160,7 @@ knowledge_points: [不对称合成, 手性中心, 不对称氢化, 立体化学�
 
 ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-41章1132-1164_images/eccbf6a54b4672b5bf12dcb76d44a139f6bafda95ff0e684da32a75c82adcdee.jpg]] — Sharpless AE实例：94% ee（line ~831）
 
-![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-41章1132-1164_images/71754e3c132a08237d1a1e1ca9139dc1d89dba0a783ba061cc64304896d4845d.jpg]] — Ti-DET配合物结构（line ~849）
+📌 **图片待补：** 71754e3c132a08237d1a1e1ca9139dc1d89dba0a783ba061cc64304896d4845d.jpg — Ti-DET配合物结构（line ~849）
 
 ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-41章1132-1164_images/5d63ef09dad839b8fc925b808bf38e2a093184cc4773f23edf4e6c0bd4c56817.jpg]] — Sharpless AE对映选择性模型（line ~869）
 
@@ -274,7 +274,7 @@ knowledge_points: [不对称合成, 手性中心, 不对称氢化, 立体化学�
 - ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-41章1132-1164_images/0190c5e064eb80fabdc072b637723eb60b1d3bd0e9c05ed5a371b7851fb0f741.jpg]] — Ru/TsDPEN催化转移氢化（line ~621）
 - ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-41章1132-1164_images/d54ef6947e37bf01099d98598607b47c82e53631590a3ee519b308ccc4b4ab20.jpg]] — BINAP的合成与拆分（line ~815）
 - ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-41章1132-1164_images/eccbf6a54b4672b5bf12dcb76d44a139f6bafda95ff0e684da32a75c82adcdee.jpg]] — Sharpless AE实例（line ~831）
-- ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-41章1132-1164_images/71754e3c132a08237d1a1e1ca9139dc1d89dba0a783ba061cc64304896d4845d.jpg]] — Ti-DET双核配合物（line ~849）
+- 📌 **图片待补：** 71754e3c132a08237d1a1e1ca9139dc1d89dba0a783ba061cc64304896d4845d.jpg — Ti-DET双核配合物（line ~849）
 - ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-41章1132-1164_images/5d63ef09dad839b8fc925b808bf38e2a093184cc4773f23edf4e6c0bd4c56817.jpg]] — Sharpless AE对映面选择性模型（line ~869）
 - ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-41章1132-1164_images/68df00f09b3f664dd11221ab26798791c2153b31b4ad7817c80626d73adfea38.jpg]] — Jacobsen环氧化salen配体（line ~946）
 - ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-41章1132-1164_images/4ad928fa16b78195d325ffedbe7346aecd37ba94113589ae279e7b025cd8243c.jpg]] — Sharpless AD实例（line ~1014）

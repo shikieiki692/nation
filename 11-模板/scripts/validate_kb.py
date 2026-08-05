@@ -7,8 +7,8 @@ validate_kb.py — 知识库自动化健康检查 (v1)
 把人工验证的负担从 Agent 身上剥离。
 
 用法:
-    python validate_kb.py --full                    # 全量检查（完整报告）
-    python validate_kb.py --quick                   # 快速检查（仅断链+frontmatter）
+    python validate_kb.py --quick                   # 快速检查（仅 frontmatter，跳过断链/图片/标题等）
+    python validate_kb.py --full                    # 全量检查（含断链 + 图片引用实存 + 标题跳跃等）
     python validate_kb.py --changed file1.md file2.md  # 增量检查（仅改动的文件）
     python validate_kb.py --dir 03-知识点/化学原理    # 按目录检查
 
@@ -73,6 +73,8 @@ EXCLUDE_PATH_PREFIXES = [
 LINK_RESOLUTION_EXTRA_PREFIXES = [
     "06-外部资料导入/",
     "00-首页/",  # 系统入口页不扫描，但可作为链接目标（如 [[工作日志]] [[状态摘要]]）
+    "07-资料提炼/网课资料/无机化学-新课-周坤-2020-难度适中/笔记/",
+    "07-资料提炼/网课资料/无机化学-新课-周坤-2020-难度适中/学生讲义/",
 ]
 
 # ── 各 type 的必填 frontmatter 字段 ──────────────────────────
@@ -514,7 +516,7 @@ _IMAGE_INDEX: dict[str, list[Path]] | None = None
 
 def build_image_index(vault_root: Path) -> dict[str, list[Path]]:
     """遍历 vault 下所有图片文件，建立 basename（含扩展名）→ [Path, ...] 索引。
-    Obsidian 的 attachmentFolderPath 是全局的（./assets、media/、.obsidian/media 等），
+    Obsidian 的 attachmentFolderPath 是全局的（./assets、media/、媒体仓库 等），
     因此图片引用必须按全库 basename 解析，而不能只查单个固定目录。"""
     index: dict[str, list[Path]] = {}
     img_exts = {".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg"}
@@ -524,8 +526,8 @@ def build_image_index(vault_root: Path) -> dict[str, list[Path]]:
         if f.suffix.lower() not in img_exts:
             continue
         rel = f.relative_to(vault_root).as_posix()
-        # .obsidian/media 是 Obsidian 全局附件库，可作为解析目标但跳过其他系统目录
-        if is_excluded_path(rel) and not rel.startswith(".obsidian/media/"):
+        # 媒体仓库 是 Obsidian 全局附件库（普通可索引目录），其他系统目录跳过
+        if is_excluded_path(rel):
             continue
         index.setdefault(f.name.lower(), []).append(f)
     return index
@@ -591,11 +593,17 @@ def check_images(file: Path, body: str, report: Report) -> None:
 
 
 def check_headings(file: Path, body: str, report: Report) -> None:
-    """检查标题层级是否跳跃（如 # → ### 跳过了 ##）。"""
+    """检查标题层级是否跳跃（如 # → ### 跳过了 ##）。代码围栏内的 # 行不视为标题。"""
     rel = file.relative_to(VAULT_ROOT).as_posix()
     lines = body.split("\n")
     prev_level = 0
+    in_code = False
     for i, line in enumerate(lines):
+        if re.match(r'^(`{3,}|~{3,})', line.strip()):
+            in_code = not in_code
+            continue
+        if in_code:
+            continue
         m = re.match(r'^(#{1,6})\s', line)
         if m:
             level = len(m.group(1))

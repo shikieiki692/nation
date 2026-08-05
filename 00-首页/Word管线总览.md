@@ -8,7 +8,7 @@ role: Word讲义入口说明
 purpose: 统一说明学生讲义 Markdown 到 Word 成品的当前主链路、依赖、脚本、目录和使用方式
 version: v1.0
 created: 2026-07-03
-updated: 2026-08-01
+updated: 2026-08-04
 related:
   - "[[00-首页/Word友好 Markdown 符号速查表]]"
   - "[[11-模板/MD通用规范（Word-PDF共同最优子集）]]"
@@ -72,16 +72,18 @@ related:
 
 ### 3. 图片根目录
 
-- `media/`
+- `媒体仓库/`（物理仓，哈希原名）
 
-当前 Word 管线的正式图片根路径是 vault 根目录下的 `media/`。  
+当前 Word 管线的正式图片根路径是 `媒体仓库/`（v3，2026-08-04）。  
 讲义源稿里的正式图片写法应统一为：
 
 ```md
-![[media/xxx.png]]
+![[<物理哈希名>.jpg]]
 ```
 
-不要再把正式图片路径写成讲义子目录里的 `media/`，也不要继续扩散旧的裸图片引用兼容写法。
+- 新图一律以内容 SHA-256 哈希名落入 `媒体仓库/`，引用写 `![[哈希名.jpg]]`，禁止路径前缀。
+- 历史 `media/`（根目录）引用 `![[media/xxx.jpg]]` 仍被管线兼容解析（经 VAULT_ROOT），但不再新增。
+- 不要用英文别名、不要加 `mineru/` 前缀。
 
 ### 4. 脚本目录
 
@@ -109,7 +111,7 @@ Word / PDF 两条生成链路都在这里，但不是这里的所有文件都属
 
 - `HANDOUT_SRC = 04-课件/学生讲义`
 - `HANDOUT_OUT = 00-首页/学生讲义Word`
-- `VAULT_MEDIA = media`
+- `VAULT_MEDIA = 媒体仓库`
 
 ### 2. Word 后处理风格库
 
@@ -394,7 +396,7 @@ powershell -File 11-模板/scripts/render-docx.ps1 "00-首页/学生讲义Word/�
 当前 Word 管线已经收成一条比较清晰的主链路：
 
 - 源稿入口：`04-课件/学生讲义`
-- 图片入口：`media`
+- 图片入口：`媒体仓库`（哈希原名）
 - 生成入口：`build-all-handout-docx.py`
 - 样式核心：`custom-reference.docx` + `docx_utils.py`
 - 输出目录：`00-首页/学生讲义Word`

@@ -312,8 +312,8 @@ knowledge_points: [Michael加成, Meisenheimer复合物, SNAr, 共轭加成, 芳
 - ![[clayden 有机化学/Clayden中文版_402-600_images/06a4f1c3888a2d9805f479e83e3d4a02c5b7cfdd277d746b413050cd5b75e18f.jpg]] —— 苯炔的结构：异常三键（lines 4372-4375）
 - ![[clayden 有机化学/Clayden中文版_402-600_images/7d6b4fe1d286f836588b9b976d7413780f23e534788a6e96f633ea1d1583ad47.jpg]] —— 邻氯芳基醚经苯炔得间位产物（lines 4386-4389）
 - ![[clayden 有机化学/Clayden中文版_402-600_images/59d05d7068edbc2b69421da7bf6334870f34b0eb2f822d3ab4f70fbd751e0eca.jpg]] —— 消除-加成机理的完整步骤（lines 4390-4393）
-- ![[clayden 有机化学/Clayden中文版_402-600_images/46c5a51f113a010f8305fae1d0bf8a5aa8896a22ef9b86de10f681959a8d148.jpg]] —— 苯炔上亲核进攻的选择性解释（lines 4396-4401）
-- ![[clayden 有机化学/Clayden中文版_402-600_images/16513b8c2221c9ff56f86ed7f67f73c5ad4596979b42eb6950ad7ea11bce45f.jpg]] —— 苯炔的制备：重氮盐热分解（lines 4416-4421）
+- 📌 **图片待补：** 46c5a51f113a010f8305fae1d0bf8a5aa8896a22ef9b86de10f681959a8d148.jpg —— 苯炔上亲核进攻的选择性解释（lines 4396-4401）
+- 📌 **图片待补：** 16513b8c2221c9ff56f86ed7f67f73c5ad4596979b42eb6950ad7ea11bce45f.jpg —— 苯炔的制备：重氮盐热分解（lines 4416-4421）
 - ![[clayden 有机化学/Clayden中文版_402-600_images/5f34fb95fdd233d980e5cafd9d119ccf4617908561424749f87924d7fd261ae2.jpg]] —— 苯炔二聚体的结构（lines 4424-4427）
 
 ---

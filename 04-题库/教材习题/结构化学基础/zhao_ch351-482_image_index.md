@@ -16,7 +16,7 @@ updated: 2026-08-03
 - 总图片数：702
 - HIGH（表格/图表）：14
 - MEDIUM（公式片段）：688
-- HIGH图片已复制至：`.obsidian/media/zhao_ch351_*.jpg`
+- HIGH图片已复制至：`媒体仓库/zhao_ch351_*.jpg`
 
 ## HIGH 质量图片索引（表格/图表）
 

@@ -285,7 +285,7 @@ knowledge_points: [Michael加成, 逆合成分析, 切断法, 合成子, 官能�
 
 ### 双官能团切断
 - ![[clayden 有机化学/Clayden中文版_601-800_images/658ef8047ac2516c99ac4c1f5b5116571468b8b003f6876c169f0f0521daf2b8.jpg]] —— 1,2-双官能团切断：环氧策略（line 3762）
-- ![[clayden 有机化学/Clayden中文版_601-800_images/3d05a608923756b1995cc6505bf4209d84822c7a3503b48221e3e35b2f9b585e.jpg]] —— Michael加成与1,3-切断的关系（line 3832）
+- 📌 **图片待补：** 3d05a608923756b1995cc6505bf4209d84822c7a3503b48221e3e35b2f9b585e.jpg —— Michael加成与1,3-切断的关系（line 3832）
 - ![[clayden 有机化学/Clayden中文版_601-800_images/3b62072690fede246e29c0a4d49b72c25464aae3a5f2e06218462b42c9950716.jpg]] —— α,β-不饱和羰基合成子（line 3836）
 
 ### C-C切断
@@ -294,7 +294,7 @@ knowledge_points: [Michael加成, 逆合成分析, 切断法, 合成子, 官能�
 - ![[clayden 有机化学/Clayden中文版_601-800_images/af24c15884ce9abbc9753f532d0749b86a09e7b43f3caacb16ce09658b7c18a5.jpg]] —— 1,1 C-C切断：格氏试剂加成（line 3970）
 
 ### 1,3-双官能团化合物
-- ![[clayden 有机化学/Clayden中文版_601-800_images/66de1938039bb05adc9ddf6ff28ee4fb7b08604d4d8fb3c99f234c70f3fc173.jpg]] —— 羟醛反应与1,3-关系（line 4054）
+- 📌 **图片待补：** 66de1938039bb05adc9ddf6ff28ee4fb7b08604d4d8fb3c99f234c70f3fc173.jpg —— 羟醛反应与1,3-关系（line 4054）
 - ![[clayden 有机化学/Clayden中文版_601-800_images/87f6b5faab2944229fcfd85fa17b532be368bc06c0c382a2af63a02c6803f67c.jpg]] —— 1,3-diO切断总结图（line 4238）
 - ![[clayden 有机化学/Clayden中文版_601-800_images/0813cb39bd9b83a2eb8842fc4a91a1dd936c3c5df72debe47f5deb2b895df436.jpg]] —— 3-氨基酮/醇的Mannich切断（line 4242）
 - ![[clayden 有机化学/Clayden中文版_601-800_images/a0002796c402290b30f18e3fce9f4d95e92c0dcd4101e8610cf3f030ba9a15b6.jpg]] —— 1,3-二酮的Claisen切断（line 4246）
@@ -303,7 +303,7 @@ knowledge_points: [Michael加成, 逆合成分析, 切断法, 合成子, 官能�
 - ![[clayden 有机化学/Clayden中文版_601-800_images/d1508f2a71348d4312fc95c894a020b6956c43d15c40499848dea158db7b1b68.jpg]] —— 1,5-二羰基化合物的Michael切断（line 4254）
 
 ### 合成子分类
-- ![[clayden 有机化学/Clayden中文版_601-800_images/f619cb2b0b8f79220fa8e9da6350b24d9a19133db297ac6615f8d13a2ef9f13f4.jpg]] —— 给体/受体合成子分类（line 4038）
+- 📌 **图片待补：** f619cb2b0b8f79220fa8e9da6350b24d9a19133db297ac6615f8d13a2ef9f13f4.jpg —— 给体/受体合成子分类（line 4038）
 - ![[clayden 有机化学/Clayden中文版_601-800_images/3895ceadf57817d53cb759cac0b206e0f190bd69b1db8bea2e0c7f8b23d39f06.jpg]] —— 自然反应性：a¹, d², a³合成子（line 4276）
 - ![[clayden 有机化学/Clayden中文版_601-800_images/8e03b90229255cfa824467c6ddefd59de35272adbae1c8f2c3d7d1bd946cb794.jpg]] —— 极性反转合成子与等价试剂（line 4294）
 

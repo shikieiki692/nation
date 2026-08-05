@@ -17,11 +17,11 @@
 
 | 文件名 | 内容描述 | 建议重命名 | 质量 | 关联KP |
 |:---|:---|:---|:---:|:---|
-|3d28e07fb623cc8ccbe65dc2a55995fe9a801e58fcf33c84f3abce214d5116db.jpg|质子化二苯醚(含氢键)|lecture_351-400_struct001.jpg|HIGH|有机化学|
-|9255bb27b886124037520b99f9e6197494705264206fe3054c718a44a2bdfd4f.jpg|Fe₂(CO)₉簇合物结构|lecture_351-400_struct002.jpg|HIGH|配位化学|
-|5541e6890c3f28afc773468e917da7fc7b4a799f248736dc2131584465ca6e87.jpg|环丙基碳正离子|lecture_351-400_struct003.jpg|HIGH|有机化学|
+| 3d28e07fb623cc8ccbe65dc2a55995fe9a801e58fcf33c84f3abce214d5116db.jpg | 【机器误判修正】质子化二苯醚(含氢键) | lecture_351-400_struct001.jpg | HIGH | 有机化学 |
+| 9255bb27b886124037520b99f9e6197494705264206fe3054c718a44a2bdfd4f.jpg | 【机器误判修正】Fe₂(CO)₉簇合物结构 | lecture_351-400_struct002.jpg | HIGH | 配位化学 |
+| 5541e6890c3f28afc773468e917da7fc7b4a799f248736dc2131584465ca6e87.jpg | 【机器误判修正】环丙基碳正离子 | lecture_351-400_struct003.jpg | HIGH | 有机化学 |
 |b57765261fc308ab5b598d7faa6daa0b240eaedd96e645079eedbc24e20f938b.jpg|Re₂(CO)₁₀与Br₂反应|lecture_351-400_rxn001.jpg|MEDIUM|有机金属化学|
-|deb8dee03ce3dd8dceef3fc58943d9d6c8c3a5fd9d76b033514b22bb7692482a.jpg|含OTf基团的复杂分子|lecture_351-400_struct004.jpg|HIGH|有机化学|
+| deb8dee03ce3dd8dceef3fc58943d9d6c8c3a5fd9d76b033514b22bb7692482a.jpg | 【机器误判修正】含OTf基团的复杂分子 | lecture_351-400_struct004.jpg | HIGH | 有机化学 |
 |06e25470e450f08dfa97dc0e4e3990916ee8d0502ad22f14c0f6d15e9fbedb43.jpg|[待分类]|lecture_351-400_xxx.jpg|MEDIUM|待定|
 |079b1d3bb12365f5b1df5e2e38d2ea91d89579f1193703238e0a08e0b6314aca.jpg|[待分类]|lecture_351-400_xxx.jpg|MEDIUM|待定|
 |07b72b9e233ba1e3348487a9ffdaec698f5e83bcccdd1fb7403ab7dace50974b.jpg|[待分类]|lecture_351-400_xxx.jpg|MEDIUM|待定|

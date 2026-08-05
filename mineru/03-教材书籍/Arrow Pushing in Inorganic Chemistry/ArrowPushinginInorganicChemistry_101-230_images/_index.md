@@ -11,9 +11,9 @@
 |:---|:---|:---|:---:|:---|
 | 0a3b4942aace4aaa2f179af7b86f9a198dcf50561166dec787a9b348f294d1ea.jpg | As(OH)3亚砷酸结构 | arrow_ch4_arsenic_structure.jpg | MEDIUM | 无机反应机理 |
 | 1ee76b5ee6693a5e4cfd4109582fada5ccbac5c5e17a3d9f4857cedb13c70e6c.jpg | Ge(I)二聚体Ar*i-Pr4Ge-Ge*i-Pr4Ar结构 | arrow_ch4_ge_dimer.jpg | MEDIUM | 金属有机反应 |
-| 21117052a60e04ab2c21972eabc2d3e1d6f91b22a35a69f771eaeaad5350f99d.jpg | PCl5与甲酰胺反应机理，经四面体P中间体（eq 5B.81） | arrow_ch5_pcl5_mechanism.jpg | HIGH | 无机反应机理 |
-| 3a46752d31f7f799a0a2663dbfd2e37cd16270d8fdaa89a996b0a2117828e4b5.jpg | Ph3P与叠氮化物反应生成亚氨基磷烷（eq 5B.60） | arrow_ch5_ph3p_azide.jpg | HIGH | 无机反应机理 |
-| de609d8e55b19e7d086b0328248b0cca5ffd374f40ee5d14293bf83f17fa1b77.jpg | Ge(I)与环戊二烯环加成（eq 4.48） | arrow_ch4_ge_cyclization.jpg | HIGH | 迁移插入 |
+| 21117052a60e04ab2c21972eabc2d3e1d6f91b22a35a69f771eaeaad5350f99d.jpg | 【机器误判修正】PCl5与甲酰胺反应机理，经四面体P中间体（eq 5B.81） | arrow_ch5_pcl5_mechanism.jpg | HIGH | 无机反应机理 |
+| 3a46752d31f7f799a0a2663dbfd2e37cd16270d8fdaa89a996b0a2117828e4b5.jpg | 【机器误判修正】Ph3P与叠氮化物反应生成亚氨基磷烷（eq 5B.60） | arrow_ch5_ph3p_azide.jpg | HIGH | 无机反应机理 |
+| de609d8e55b19e7d086b0328248b0cca5ffd374f40ee5d14293bf83f17fa1b77.jpg | 【机器误判修正】Ge(I)与环戊二烯环加成（eq 4.48） | arrow_ch4_ge_cyclization.jpg | HIGH | 迁移插入 |
 | 05e74474daf42a3178e99cda930054fa722ee6f8a8376819c514dfd74691c823.jpg | 聚硒氧化物结构[-Se(O)-O-Se(O)-O-]n | arrow_ch5_selenium_polymer.jpg | MEDIUM | 无机反应机理 |
 | 49265907ae37bde570c906b00d0ec12deb81a664295199cd3633246b01878ab9.jpg | 2,5-二叔丁基噻吩砜合成 | arrow_ch5_thiophene_sulfone.jpg | MEDIUM | 无机反应机理 |
 | 82ad3646239c27b50be9623f82967da38ca0c0f2919e386e10ee1f374334901f.jpg | 含Se/O八元环结构 | arrow_ch5_se_o_ring.jpg | MEDIUM | 无机反应机理 |

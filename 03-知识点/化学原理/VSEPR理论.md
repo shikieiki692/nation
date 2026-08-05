@@ -50,6 +50,7 @@ source_extracts:
     asset_summary: "VSEPR 构型速查表（AXnEm → 理想构型 → 实际分子形状），讲义有完整表格"
     target_section: "§二"
 tags: [化竞]
+teaching_insights: ["[[12-教学洞察/教学洞察-VSEPR.md]]"]
 ---
 
 ## 十五、待完善项

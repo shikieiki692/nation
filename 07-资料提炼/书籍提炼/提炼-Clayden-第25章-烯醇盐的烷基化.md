@@ -170,7 +170,7 @@ knowledge_points: [烯醇, 乙酰乙酸乙酯合成法, 互变异构, Michael加
 - 强亲核性，与S_N2反应性亲电试剂反应良好。
 - **优势**：可适用于醛和酮；碱性强但不会加成到亚胺上。
 
-![[clayden 有机化学/Clayden中文版_601-800_images/9a954fb0cc3ecb40f95259d66090efc44c6ab04ee21d2025766a84fbdbe5c6da.jpg]] —— 烯胺盐的制备（line 655）
+📌 **图片待补：** 9a954fb0cc3ecb40f95259d66090efc44c6ab04ee21d2025766a84fbdbe5c6da.jpg —— 烯胺盐的制备（line 655）
 
 ![[clayden 有机化学/Clayden中文版_601-800_images/4413dd09c51f2a68ea9d0f73b4d586449b4ba854c62eddf63c5ef8ddb23d4eaa.jpg]] —— 烯胺盐的烷基化（line 667）
 
@@ -246,7 +246,7 @@ knowledge_points: [烯醇, 乙酰乙酸乙酯合成法, 互变异构, Michael加
 - **结果**：生成更稳定的烯醇盐（多取代的烯烃更稳定）。
 - **碱**：KH（强碱且小，不阻碍平衡建立）。
 
-![[clayden 有机化学/Clayden中文版_601-800_images/3529f986f5af90107b6614f1d4ca47e13541964d29748d2a25d3213a2ab16e95.jpg]] —— 热力学控制：2-苯基环己酮（line 795）
+📌 **图片待补：** 3529f986f5af90107b6614f1d4ca47e13541964d29748d2a25d3213a2ab16e95.jpg —— 热力学控制：2-苯基环己酮（line 795）
 
 ### 7.3 动力学控制的烯醇盐
 - **条件**：强碱、大位阻碱（LDA），低温（-78°C），短时间，过量LDA → 不可逆去质子。
@@ -331,7 +331,7 @@ knowledge_points: [烯醇, 乙酰乙酸乙酯合成法, 互变异构, Michael加
 
 ![[clayden 有机化学/Clayden中文版_601-800_images/2aa1393f21c1a98cb48534d9f5c2c1f83b716922ab785294db35012400fac99e.jpg]] —— 缩苹果酸酯的共轭加成（line 1006）
 
-![[clayden 有机化学/Clayden中文版_601-800_images/30935b00225782c3c9b937fa6e7fdc112ecbe2ccd89d1191de020f111bce9a7.jpg]] —— 共轭加成→脱羧→环状酸酐（line 1010）
+📌 **图片待补：** 30935b00225782c3c9b937fa6e7fdc112ecbe2ccd89d1191de020f111bce9a7.jpg —— 共轭加成→脱羧→环状酸酐（line 1010）
 
 ### 9.4 烯胺的共轭加成
 - 烯胺是中性、软的亲核试剂 → 对Michael受体的共轭加成非常合适。
@@ -356,7 +356,7 @@ knowledge_points: [烯醇, 乙酰乙酸乙酯合成法, 互变异构, Michael加
 
 ![[clayden 有机化学/Clayden中文版_601-800_images/554268e548fa0218ab4aeae865a3a652217f4da85fc9eb0f534f7d77bc6db39b.jpg]] —— 硝基烷的碱催化共轭加成（line 1120）
 
-![[clayden 有机化学/Clayden中文版_601-800_images/946c91e5da9744accccd6f0f6171e075d0a558c404593a2a1a0ccb6d78a4a607.jpg]] —— 碱性氧化铝催化的共轭加成（line 1130）
+📌 **图片待补：** 946c91e5da9744accccd6f0f6171e075d0a558c404593a2a1a0ccb6d78a4a607.jpg —— 碱性氧化铝催化的共轭加成（line 1130）
 
 ---
 

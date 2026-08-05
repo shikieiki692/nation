@@ -22,7 +22,7 @@ status: 已填充
 
 Suggest a mechanism for this reaction explaining why a mixture of diastereoisomers of the starting material gives a single diastereoisomer of the product. Is there any other form of selectivity?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/c3c99eb7f7408fe40a48ac6980550a9452d01f24c8e1c4cc3a09eda8577d297.jpg]]
+📌 **图片待补：** c3c99eb7f7408fe40a48ac6980550a9452d01f24c8e1c4cc3a09eda8577d297.jpg
 
 **原文题目**：Suggest a mechanism for this reaction explaining why a mixture of diastereoisomers of the starting material gives a single diastereoisomer of the product. Is there any other form of selectivity?
 

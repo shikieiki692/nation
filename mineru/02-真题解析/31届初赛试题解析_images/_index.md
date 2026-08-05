@@ -10,13 +10,13 @@
 
 | 文件名 | 内容描述 | 建议重命名 | 质量 | 关联KP |
 |:---|:---|:---|:---:|:---|
-| f0e17934...ebb9ea.jpg | 晶胞结构（FCC/NaCl型） | ccho_sol_31_unit_cell.jpg | HIGH | 结构化学 |
-| 8281311d...28ff358.jpg | 三维框架结构（3D network） | ccho_sol_31_framework.jpg | HIGH | 结构化学 |
-| a07d82eb...a733780.jpg | 椅式构象SN2反应机理 | ccho_sol_31_chair_sn2.jpg | HIGH | 有机化学 |
-| 33f55ac0...5664607.jpg | 内酰胺烯醇盐烷基化 | ccho_sol_31_lactam_alkyl.jpg | HIGH | 有机化学 |
-| 7a59beae...1a6fcbd0.jpg | 萘醌互变异构 | ccho_sol_31_tautomerism.jpg | HIGH | 有机化学 |
-| d95c36f6...18e586060.jpg | P4O10分子结构 | ccho_sol_31_p4o10.jpg | HIGH | 元素化学 |
-| cd4f9234...7c876e1a.jpg | NaHCO3水解机理 | ccho_sol_31_hydrolysis.jpg | HIGH | 有机化学 |
+| f0e1793429f3b74d6c6738ae9d99ca6070e2b88cc11e1c23c681a60139ebb9ea.jpg | 【机器误判修正】面心立方(FCC)晶胞与四面体空隙 | ccho_sol_31_fcc_tetrahedral_holes.jpg | HIGH | 结构化学 |
+| 8281311d3f65a872e8ab82f8b9a9a0cb4e2aec8c392d95b2d771e403328ff358.jpg | 【机器误判修正】简单立方(sc)三维晶格结构 | ccho_sol_31_simple_cubic_lattice.jpg | HIGH | 结构化学 |
+| a07d82ebe8f09b9dec90eaee483fa4b56b75d2bf7a071758fcebcd3f6a733780.jpg | 【机器误判修正】环己烷椅式构象的E2消除反应机理 | ccho_sol_31_cyclohexane_e2.jpg | HIGH | 有机化学 |
+| 33f55ac0c8bf7ccdf49ee578a799b4b323197f70c6e64df0b766c81375664607.jpg | 【机器误判修正】内酰胺烯醇负离子的Claisen酯缩合反应 | ccho_sol_31_lactam_claisen.jpg | HIGH | 有机化学 |
+| 7a59beae31e254cc65810429e989f44aa508c476c745d6d18710cd741a6fcbd0.jpg | 【机器误判修正】萘醌衍生物的酮-烯醇互变异构 | ccho_sol_31_naphthoquinone_tauto.jpg | HIGH | 有机化学 |
+| d95c36f61216015541b25b37151417a5cec713950e28845d36da6c518e586060.jpg | 【机器误判修正】P4O10分子结构 | ccho_sol_31_p4o10.jpg | HIGH | 元素化学 |
+| cd4f9234847c7b568b044ccd0981616c5bb49e73d9b0e004b529fc8d7c876e1a.jpg | 【机器误判修正】NaHCO3水解机理 | ccho_sol_31_hydrolysis.jpg | HIGH | 有机化学 |
 
 ### MEDIUM 质量（48张）
 

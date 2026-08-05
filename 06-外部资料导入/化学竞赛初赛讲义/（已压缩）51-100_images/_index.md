@@ -19,8 +19,8 @@
 |:---|:---|:---|:---:|:---|
 |37ae17198638b03271cd558b6f6d05a091c459b5a454f0fce24c9886af0dbee4.jpg|晶体场分裂图(A,B,C,D)|lecture_51-100_cfd001.jpg|MEDIUM|配位化学|
 |30f7d16c2ee2eef995ee4e8a2fae705187e0515149fef8c7ca8551ca0a0ba2a5.jpg|Bi(C₂O₄)(OH)分解反应|lecture_51-100_eq001.jpg|MEDIUM|元素化学|
-|7d1a981688d50bd1e9648855e733085612cdf60a20cfa3d92e7c926ac66a4d54.jpg|复杂簇合物分子结构|lecture_51-100_struct001.jpg|HIGH|配位化学|
-|9533fdd8aebb1bedd08d821022cf1c76e79a716f7853e734993da734d64192d4.jpg|轨道重叠/成键作用图|lecture_51-100_orbital001.jpg|HIGH|结构化学|
+| 7d1a981688d50bd1e9648855e733085612cdf60a20cfa3d92e7c926ac66a4d54.jpg | 【机器误判修正】复杂簇合物分子结构 | lecture_51-100_struct001.jpg | HIGH | 配位化学 |
+| 9533fdd8aebb1bedd08d821022cf1c76e79a716f7853e734993da734d64192d4.jpg | 【机器误判修正】轨道重叠/成键作用图 | lecture_51-100_orbital001.jpg | HIGH | 结构化学 |
 |f832dc3b41681aa6fb391457cc88c05580a59dcbfac3061c0b0b89f7ed1a95cf.jpg|晶体场分裂图(A,B,C,D)|lecture_51-100_cfd002.jpg|MEDIUM|配位化学|
 |08b8d4ab188ea6b0302b8e416a734ca55c2aea974e752668d255128f48fe0e11.jpg|[待分类]|lecture_51-100_xxx.jpg|MEDIUM|待定|
 |094c43f6f8f37fc5cb48d9303ae454f56174f4310c3c75ad1247a13440540156.jpg|[待分类]|lecture_51-100_xxx.jpg|MEDIUM|待定|

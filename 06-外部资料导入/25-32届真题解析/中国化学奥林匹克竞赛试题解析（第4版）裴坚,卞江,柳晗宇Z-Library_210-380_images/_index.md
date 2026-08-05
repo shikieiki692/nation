@@ -12,13 +12,13 @@
 
 | 文件名 | 内容描述 | 建议重命名 | 质量 | 关联KP |
 |:---|:---|:---|:---:|:---|
-| 00a1d462...jpg | 分压平衡方程 | pei_ccho_press_001.jpg | HIGH | 物理化学 |
-| 00b0f9ec...jpg | 电极电位计算 | pei_ccho_elec_001.jpg | HIGH | 电化学 |
-| 0142800b...jpg | 气体分压计算 | pei_ccho_calc_005.jpg | HIGH | 物理化学 |
-| 01b36893...jpg | Na2O2质量差计算 | pei_ccho_calc_006.jpg | HIGH | 元素化学 |
-| 032d9b62...jpg | N-甲基吡咯烷酮合成 | pei_ccho_org_005.jpg | HIGH | 有机化学 |
-| 047c1b9b...jpg | Friedel-Crafts酰基化反应 | pei_ccho_org_006.jpg | HIGH | 有机化学 |
-| 052597cf...jpg | 物质的量计算 | pei_ccho_calc_007.jpg | HIGH | 物理化学 |
+| 00a1d462e7437ada8c9a584f4b6679b03477bc5bdb7815ba324db35d7e06cb3c.jpg | 【机器误判修正】分压平衡方程 | pei_ccho_press_001.jpg | HIGH | 物理化学 |
+| 00b0f9ec4202c5d842e1956a77ca48188038246c89803e1345c3e0772ea44ffc.jpg | 【机器误判修正】电极电位计算 | pei_ccho_elec_001.jpg | HIGH | 电化学 |
+| 0142800bbc8f4f591cbf2f47ab0f60244ded4eb68276d37e874d5eec77506891.jpg | 【机器误判修正】气体分压计算 | pei_ccho_calc_005.jpg | HIGH | 物理化学 |
+| 01b368931e895f9183d0192b8dd332551a6842be441d454eeb928c9ba608b979.jpg | 【机器误判修正】Na2O2质量差计算 | pei_ccho_calc_006.jpg | HIGH | 元素化学 |
+| 032d9b62bc369a1c564e878d600ac54f81fc306994de3c1c9930dec7ac2b3aea.jpg | 【机器误判修正】N-甲基吡咯烷酮合成 | pei_ccho_org_005.jpg | HIGH | 有机化学 |
+| 047c1b9be17fea0ce133418a4d0d348afc458d9c93753fcb6a88583955e78e24.jpg | 【机器误判修正】Friedel-Crafts酰基化反应 | pei_ccho_org_006.jpg | HIGH | 有机化学 |
+| 052597cfacbee52e0b8928432444c54ea753f820cc9bb923c5a7287e7dbc21e5.jpg | 【机器误判修正】物质的量计算 | pei_ccho_calc_007.jpg | HIGH | 物理化学 |
 
 ## 质量评估
 

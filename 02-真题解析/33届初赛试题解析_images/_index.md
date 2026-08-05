@@ -9,26 +9,26 @@
 
 | 文件名 | 内容描述 | 建议重命名 | 质量 | 关联KP |
 |:---|:---|:---|:---:|:---|
-| fff140...9b9f.jpg | 硼三唑基配位化合物 | ccho_sol_33_boron_complex.jpg | HIGH | 配位化学 |
-| e2d3cc...5a7b0.jpg | SN1机理（PPh3） | ccho_sol_33_sn1_pph3.jpg | HIGH | 有机化学 |
-| 61bba5...56cb4.jpg | 含硫有机中间体 | ccho_sol_33_sulfur_intermediate.jpg | HIGH | 有机化学 |
-| f720fe...2a4d6.jpg | 铁催化硅化学反应 | ccho_sol_33_fe_si_reaction.jpg | HIGH | 有机化学 |
-| 46b1d2...cef7b.jpg | 方酸衍生物合成 | ccho_sol_33_squaric_acid.jpg | HIGH | 有机化学 |
-| 50d0f5...f9381.jpg | 光致变色化合物（螺吡喃） | ccho_sol_33_photochromic.jpg | HIGH | 有机化学 |
-| 54435d...20988.jpg | 茚三酮水合物 | ccho_sol_33_ninhydrin.jpg | HIGH | 有机化学 |
-| 6c57a5...189d.jpg | 过渡态示意图 | ccho_sol_33_transition_state.jpg | HIGH | 物理化学 |
-| c374ee...eb1d.jpg | 复杂有机合成（AlCl3/TiCl_n） | ccho_sol_33_lewis_acid.jpg | HIGH | 有机化学 |
-| 8dfb54...a922.jpg | 晶体结构（多面体） | ccho_sol_33_polyhedral.jpg | HIGH | 结构化学 |
-| 157a85...1e84.jpg | 晶体结构（MOF-like） | ccho_sol_33_mof_framework.jpg | HIGH | 结构化学 |
-| 6bf459...ce1c2.jpg | SN1溶剂解 | ccho_sol_33_sn1_solvolysis.jpg | HIGH | 有机化学 |
-| 752462...b14f.jpg | 聚酰亚胺合成 | ccho_sol_33_polyimide.jpg | HIGH | 有机化学 |
-| 11090f...7b0e2.jpg | 晶胞结构 | ccho_sol_33_unit_cell.jpg | HIGH | 结构化学 |
-| 803b34...896c2.jpg | 硫缩醛脱保护 | ccho_sol_33_thioacetal.jpg | HIGH | 有机化学 |
-| c1023e...98849.jpg | 硫胺素催化碳水化合物反应 | ccho_sol_33_thiamine.jpg | HIGH | 有机化学 |
-| 665612...782e4.jpg | 光化学（对硝基苯胺） | ccho_sol_33_photochemistry.jpg | HIGH | 物理化学 |
-| b5a320...41be1.jpg | Hg²⁺催化水合 | ccho_sol_33_hg_hydration.jpg | HIGH | 物理化学 |
-| e5f432...d3e8.jpg | 光激发示意图 | ccho_sol_33_photoexcitation.jpg | HIGH | 物理化学 |
-| 6a2449...4f15d.jpg | 硫缩酮化合物 | ccho_sol_33_thioketal.jpg | HIGH | 有机化学 |
+| fff140a862552d3ebf46b50793d4bf0bbbd805f1e3b3fe90d437943d80de9b9f.jpg | 【机器误判修正】硼三唑基配位化合物 | ccho_sol_33_boron_complex.jpg | HIGH | 配位化学 |
+| e2d3cc6436d163bc058ada6e106db14168dae7fb02dddac6b736ef4673e5a7b0.jpg | triphenylphosphine_nucleophilic_attack_carbocation_sn1_mechanism.jpg | 三苯基膦(PPh₃)亲核攻击碳正离子生成季鎓盐SN1反应历程示意图 | 有机化学/反应机理/SN1反应/碳正离子/鎓盐生成 | 有机化学 |
+| 61bba5fa2fedc6d07055e53b2739211b0adf46da57f279fbf73a1207b3e56cb4.jpg | 【机器误判修正】含硫有机中间体 | ccho_sol_33_sulfur_intermediate.jpg | HIGH | 有机化学 |
+| f720fee1ed95a7d29af085cfca2ffa6d1376e0442b6a504a1cc019f48922a4d6.jpg | silicon_directed_nazarov_cyclization_regioselectivity_mechanism.jpg | FeCl₃催化硅基导向Nazarov电环化与普通二烯酮环化区域选择性机理对比图 | 有机化学/反应机理/Nazarov环化/硅效应/区域选择性 | 有机化学 |
+| 46b1d2cfa96f64db47b089f02815708bf4ed46f14b15c7642007dea6a47cef7b.jpg | croconic_acid_cyanine_dye_synthesis_reaction_path.jpg | 克洛康酸与苯并噻唑鎓盐缩合生成花菁染料(Cyanine Dye)两步反应路线图 | 有机化学/功能材料/花菁染料/克洛康酸/缩合反应 | 有机化学 |
+| 50d0f5574727e1f0a9bb634da37aac68c4b0bcf6b73d45e8c815824a1e3f9381.jpg | 【机器误判修正】光致变色化合物（螺吡喃） | ccho_sol_33_photochromic.jpg | HIGH | 有机化学 |
+| 54435de736d7459d1d4e737dfe3a07aedea487f4fb5acf63e95628411f420988.jpg | 【机器误判修正】茚三酮水合物 | ccho_sol_33_ninhydrin.jpg | HIGH | 有机化学 |
+| 6c57a5393acc8dc8d10cc75692cf0d83f20e28fb9bcc0511fd60a5c222dd189d.jpg | 【机器误判修正】过渡态示意图 | ccho_sol_33_transition_state.jpg | HIGH | 物理化学 |
+| c374ee8e454fc199cd87ad93b920dcf924a943f258377d4387a723386f62eb1d.jpg | polyene_cationic_cascade_cyclization_steroid_synthesis_mechanism.jpg | AlCl₃/TiCl₄催化Nazarov环化与多烯阳离子多级串联关环合成甾体骨架反应机理图 | 有机化学/反应机理/Nazarov环化/多烯阳离子环化/甾体合成 | 有机化学 |
+| 8dfb5476b027ff7d8e91e49d1719fd908a4f58b94d19e8d2a4059824a60ba922.jpg | polyhedral_coordination_polymer_porous_network_structure.jpg | 第33届初赛试题多面体配位聚合物/多酸晶体结构孔道网络模型图 | 晶体化学/配位聚合物/多面体网络/孔道结构 | 结构化学 |
+| 157a854636ce841479f98e450779129c42f793d83f592838a74071e581631e84.jpg | 【机器误判修正】晶体结构（MOF-like） | ccho_sol_33_mof_framework.jpg | HIGH | 结构化学 |
+| 6bf459a6f4456286c09ef22dd554daaf690564c6822e8d8a241cd9a04b5ce1c2.jpg | 【机器误判修正】SN1溶剂解 | ccho_sol_33_sn1_solvolysis.jpg | HIGH | 有机化学 |
+| 75246210cac2ebb32742466517ad73b7e2628ead23d319a4a948636830a3b14f.jpg | 【机器误判修正】聚酰亚胺合成 | ccho_sol_33_polyimide.jpg | HIGH | 有机化学 |
+| 11090f4cb6d708043dce83a0e11beb9f0af82afc12055566e8203936e537b0e2.jpg | 【机器误判修正】晶胞结构 | ccho_sol_33_unit_cell.jpg | HIGH | 结构化学 |
+| 803b348110d38fe77e9ecdd371178dff44bbd26ce81e0414231078c06f6896c2.jpg | 【机器误判修正】硫缩醛脱保护 | ccho_sol_33_thioacetal.jpg | HIGH | 有机化学 |
+| c1023ea350960d7e3be2dd5dd8688c7b88f4229e93e15bd6c016ad622ba98849.jpg | 【机器误判修正】硫胺素催化碳水化合物反应 | ccho_sol_33_thiamine.jpg | HIGH | 有机化学 |
+| 665612c67e96a1f03928d6835b2dd77b7f73afa8db090b12fa47b3f0da8782e4.jpg | 【机器误判修正】光化学（对硝基苯胺） | ccho_sol_33_photochemistry.jpg | HIGH | 物理化学 |
+| b5a3205a3925f4c93ebeb3058c878561e50b7928a0a39431377d0ee41de41be1.jpg | enyne_hydration_and_cyclization_to_cyclopentenone_reaction.jpg | 烯炔Hg²⁺水解与异构化环化生成环戊烯酮反应历程示意图 | 有机化学/反应历程/炔烃水解/Nazarov环化/环戊烯酮 | 物理化学 |
+| e5f4320d39b0fc7de95c4648161b23f98238ac23eb26c9b1874fb135d836d3e8.jpg | 【机器误判修正】光激发示意图 | ccho_sol_33_photoexcitation.jpg | HIGH | 物理化学 |
+| 6a24494c1c72a58572f666b9ab849939b70b8072ca0b4540f1d1dc495f54f15d.jpg | 【机器误判修正】硫缩酮化合物 | ccho_sol_33_thioketal.jpg | HIGH | 有机化学 |
 
 ## MEDIUM 质量图片（103张）
 
