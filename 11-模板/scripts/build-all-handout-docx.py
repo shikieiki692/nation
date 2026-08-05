@@ -504,9 +504,9 @@ def _run_word_formula_precheck(
                 _append_precheck_issue(
                     issues,
                     seen,
-                    severity="ERROR",
+                    severity="WARN",
                     rule="standard_state_circ",
-                    message="检测到 `^\\circ` 标准态写法；本管线统一要求改为 `\\theta`/`θ`",
+                    message="检测到 `^\\circ` 标准态写法；管线会自动转成 `\\theta`，但建议源稿直接写 `\\theta`",
                     line_no=idx,
                     excerpt=raw_line,
                 )
@@ -518,9 +518,9 @@ def _run_word_formula_precheck(
                 _append_precheck_issue(
                     issues,
                     seen,
-                    severity="ERROR",
+                    severity="WARN",
                     rule="standard_state_degree_symbol",
-                    message="检测到公式语境中的 `°`；本管线统一要求改为 `θ` 或 `\\theta`",
+                    message="检测到公式语境中的 `°`；管线会自动转成 `θ`，但建议源稿直接写 `θ`",
                     line_no=idx,
                     excerpt=raw_line,
                 )
@@ -612,6 +612,56 @@ def _run_word_formula_precheck(
                     excerpt=raw_line,
                 )
                 break
+
+        # ── MO 反键星号未转义（WARN）──
+        # σ* / π* 在 Obsidian/Word 中成对出现会被当成斜体吞掉（2026-08-05 发现）。
+        # 只有同一行出现 ≥2 个才会成对触发，单星提及不报警。
+        mo_star_count = len(re.findall(r"σ\*(?!\*)|π\*(?!\*)", visible_line))
+        if mo_star_count >= 2:
+            _append_precheck_issue(
+                issues,
+                seen,
+                severity="WARN",
+                rule="mo_antibonding_star_unescaped",
+                message=(
+                    "检测到同一直行有 ≥2 个未转义的 MO 反键星号（σ*/π*）；在 Obsidian/Word 中会成对当成斜体吞掉，"
+                    "请写成 `σ\\*/π\\*`"
+                ),
+                line_no=idx,
+                excerpt=raw_line,
+            )
+
+        # ── MO 反键星号位置错误（WARN）──
+        # 规范：星号在轨道标号之后作上标（σ2s* / π2p*），不是 σ*2s / π*2p。
+        if re.search(r"σ\*[₀₁₂₃₄₅₆₇₈₉0-9ₛₚ]|π\*[₀₁₂₃₄₅₆₇₈₉0-9ₛₚ]", visible_line):
+            _append_precheck_issue(
+                issues,
+                seen,
+                severity="WARN",
+                rule="mo_antibonding_star_position",
+                message=(
+                    "MO 反键星号位置错误：应为 `σ2s*`/`π2p*`（星号在轨道标号后作上标），"
+                    "不是 `σ*2s`/`π*2p`"
+                ),
+                line_no=idx,
+                excerpt=raw_line,
+            )
+
+        # ── MO 轨道标号未用下标（WARN）──
+        # 规范：1s/2s/2p 是下标，应写作 σ₁ₛ/σ₂ₛ/π₂ₚ，不是 σ1s/σ2s/π2p。
+        if re.search(r"(σ|π)[0-9]+[sp]", visible_line):
+            _append_precheck_issue(
+                issues,
+                seen,
+                severity="WARN",
+                rule="mo_orbital_plain_subscript",
+                message=(
+                    "MO 轨道标号未用下标：应写作 `σ₁ₛ`/`σ₂ₛ`/`π₂ₚ`（1s/2s/2p 是下标），"
+                    "不是 `σ1s`/`σ2s`/`π2p`"
+                ),
+                line_no=idx,
+                excerpt=raw_line,
+            )
 
     macro_descriptions = {
         r"\\ce\{": r"\ce{...}",
@@ -1366,6 +1416,51 @@ def _preprocess_markdown(text: str) -> str:
     text = _normalize_simple_inline_math_tokens(text)
     # 0e) Normalize attached simple scripts like `NO$_2^-$` / `[O=N-O]$^-$`
     text = _normalize_attached_simple_math_scripts(text)
+    # 0f) Normalize MO orbital notation so Word/Obsidian render correctly.
+    #   a) subshell → Unicode subscript (σ2s/σ₂s → σ₂ₛ, π2p → π₂ₚ)
+    #   b) antibonding star AFTER the label + escaped (σ₂ₛ* → σ₂ₛ\*), so paired
+    #      `*` are never parsed as markdown emphasis. Legacy σ*2s is reordered.
+    _mo_sub_map = {'0': '₀', '1': '₁', '2': '₂', '3': '₃', '4': '₄',
+                   '5': '₅', '6': '₆', '7': '₇', '8': '₈', '9': '₉',
+                   's': 'ₛ', 'p': 'ₚ'}
+    _mo_sub_t = str.maketrans(_mo_sub_map)
+
+    def _mo_subshell(m: re.Match) -> str:
+        return m.group(1) + (m.group(2) + m.group(3)).translate(_mo_sub_t)
+
+    # 1) legacy star-before → move after: σ*2s → σ2s\*
+    text = re.sub(
+        r"(σ|π)\*([0-9₀₁₂₃₄₅₆₇₈₉]+)([sp])",
+        lambda m: m.group(1) + m.group(2) + m.group(3) + r"\*",
+        text,
+    )
+    # 2) plain/mixed subshell → Unicode subscripts: σ2s/σ₂s → σ₂ₛ, π2p → π₂ₚ
+    text = re.sub(
+        r"(σ|π)([0-9₀₁₂₃₄₅₆₇₈₉]+)([sp])",
+        _mo_subshell,
+        text,
+    )
+    # 3) star-after → escape: σ₂ₛ* → σ₂ₛ\*
+    text = re.sub(
+        r"(σ|π)([₀₁₂₃₄₅₆₇₈₉0-9ₛₚ]+)\*(?!\*)",
+        lambda m: m.group(1) + m.group(2) + r"\*",
+        text,
+    )
+    # 4) generic σ*/π* (no subshell) → escape
+    text = re.sub(
+        r"(σ|π)\*(?!\*)",
+        lambda m: m.group(1) + r"\*",
+        text,
+    )
+    # 0g) Standard-state notation: `^\circ` / `°` in standard-state contexts
+    #     → `\theta`/`θ` (ΔG° → ΔGθ). Degree contexts (90°, 37°C) kept.
+    def _std_state_circ(m: re.Match) -> str:
+        prev = _prev_significant_char(m.string, m.start())
+        nxt = _next_significant_char(m.string, m.end())
+        if prev and not prev.isdigit() and nxt not in {"C", "F"}:
+            return m.group(0).replace("\\circ", "\\theta").replace("°", "θ")
+        return m.group(0)
+    text = re.sub(r"\^\s*\{?\s*\\circ\s*\}?|°", _std_state_circ, text)
 
     # 1) Image embeds: ![[image.png]] or ![[image.png|alt text]] → ![alt](image.png)
     text = re.sub(

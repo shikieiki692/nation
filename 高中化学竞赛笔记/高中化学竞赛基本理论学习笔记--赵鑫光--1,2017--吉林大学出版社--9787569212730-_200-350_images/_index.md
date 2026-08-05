@@ -238,7 +238,7 @@
 | 2d1396dc190d214fffe488cde9d2e198bdbd82de0e804a6a8f9bc428c0d0dba0.jpg | 【机器误判修正】[Co(NH₃)₆]Cl₃、K₃[Cr(CN)₆]、Ni(CO)₄都是配位化合物 | HIGH | 配位化学 |
 | 2d8d1f8905d659ee5e97a74d5bdda329ea4ae741571590051bb8d1baa480705e.jpg | 【机器误判修正】ΔrGm=ΔrG⊖m+2.303RTlgQ计算SO₂/SO₃平衡，ΔrGm=12.4kJ/mol>0 | HIGH | 热力学 |
 | 2e140515c98f2a0ce8cf238a3f7974cc1fcfddd53b0cdc396fe429e5ba477a88.jpg | 空白图片 | LOW | - |
-| 2e20b36046cc7a908c0d1da6353bc02a2f75ed8371724637d9e615d3d7e9dcfb.jpg | 【机器误判修正】[Ni(NH₃)₄]²⁺与[Ni(CN)₄]²⁻对比表（外轨/内轨、磁矩、高/低自旋） | HIGH | 配位化学 |
+| 2e20b36046cc7a908c0d1da6353bc02a2f75ed8371724637d9e615d3d7e9dcfb.jpg | 【视觉复核】ClCH=CH-CH=CHCl有机片段（1,4-二氯丁二烯，内容过小不清晰） | LOW | 有机化学 |
 | 2e29195e2f86efb88839e5f3e0ce73624518caf574aaa5e500f37c1bae8da6f5.jpg | 【机器误判修正】四方平面配合物（A-A双齿配体，轴向D） | HIGH | 配位化学 |
 | 2e40e48da97380f352f72b86643345fa019e9d8a90c36d1abd68693d53dc52ae.jpg | Pt,H₂(p)|H⁺(c),Pt,Cl₂(p)|Cl⁻(c)电池符号 | HIGH | 电化学 |
 | 2e5ea2d45a461195a94dc353f645746a91a5c4e9279fb95db6f7e31d5aeed2aa.jpg | ClCH=CH-CH=CHCl有机片段（1,4-二氯丁二烯） | MEDIUM | 有机化学 |
@@ -278,22 +278,22 @@
 
 | 文件名 | 内容描述 | 质量 | 关联KP |
 |:---|:---|:---:|:---|
-| ffad108110a502ce7a66fa269927e53ba89ad3845a3a32f07ca2f801182d4e59.jpg | crystal_field_d_orbital_splitting_energy_table.jpg | 各种配位几何构型下d轨道晶体场分裂相对能量数值对照表（配位数1~12，14种构型d轨道能级系数） | 配位化学/晶体场理论/d轨道分裂 |
+| ffad108110a502ce7a66fa269927e53ba89ad3845a3a32f07ca2f801182d4e59.jpg | 【视觉复核】d轨道晶体场分裂相对能量数值对照表（配位数1~12，14种构型d轨道能级系数） | HIGH | 晶体场理论 |
 | 523ba0fa2b9496617d3aa3e4f7af603bf4df2069d6a528e9468e99ccc48ed903.jpg | 【机器误判修正】配合物命名表（H₂[SiF₆]/[Ag(NH₃)₂](OH)/[Cu(NH₃)₄]SO₄等16种配合物中文命名） | HIGH | 配位化学 |
-| d2e8a56a271fe72b61fce4f8c3ef92b8764cbcacc6317b41bef7bad2cd37af55.jpg | 【视觉复核】四方平面配合物几何与旋光异构体数目汇总表（24类） | HIGH | 配位化学 | square_planar_complex_isomer_count_table.jpg |
+| d2e8a56a271fe72b61fce4f8c3ef92b8764cbcacc6317b41bef7bad2cd37af55.jpg | 【视觉复核】四方平面配合物几何与旋光异构体数目汇总表（24类配体组合，含几何+旋光异构体数目） | HIGH | 配位化学/立体化学 |
 | e33adeb003cbfbd140e012575ce3981b1e196e25073ed8adbd6f5815267f311d.jpg | 【机器误判修正】四方平面配合物几何异构体汇总表（序号1-24，Ma₂b₂cd至M(ABCBA)d型，含几何+旋光异构体数目） | HIGH | 配位化学 |
 | 707969e33f1b866850be855206a586e7c250d46b64ddd0c944ce15b54d81a1a6.jpg | 【视觉复核】配合物吸收波长与互补色对照表 | HIGH | 配位化学/配合物光谱 | coordination_compound_absorption_color_table.jpg |
-| bc05d8d6f299254aa728e56a76faf54839c01c122d68cfbbda284f69506a4172.jpg | bioinorganic_complexes_heme_chlorophyll_vitamin_b12_structures.jpg | 三大生命金属配合物化学结构全景图（血红素Fe-卟啉、叶绿素Mg-卟啉、维生素B₁₂Co-咕啉） | 生物无机化学/卟啉配合物/血红素/叶绿素/维生素B12 |
+| bc05d8d6f299254aa728e56a76faf54839c01c122d68cfbbda284f69506a4172.jpg | 【视觉复核】三大生命金属配合物化学结构全景图（血红素Fe-卟啉、叶绿素Mg-卟啉、维生素B₁₂Co-咕啉） | HIGH | 生物无机化学 |
 | 4c27fee08a2e6b356393bf35b45f062c8d72934397769812110c90e1920d5585.jpg | 【机器误判修正】分子对称性与点群对照表（菲C₂ᵥ/碘仿C₃ᵥ/B₂H₆D₂h/环丙烷D₃h/C₆₀Iₕ/P₄O₆Tₐ/乙烷D₃ₕ等） | HIGH | 分子对称性与群论 |
-| fd5b7f66c5e0ac2f09cdc9b1972d4ac867193db5a4ab939f93e6f02e27a5ece0.jpg | 【机器误判修正】四方平面配合物Mabcdef的30种几何异构体结构图（全部a-f不同配体排列组合） | HIGH | 配位化学 |
+| fd5b7f66c5e0ac2f09cdc9b1972d4ac867193db5a4ab939f93e6f02e27a5ece0.jpg | 【视觉复核】d轨道在7种配位几何构型（正方形/三角双锥/四方锥/八面体/五角双锥/四方反棱柱/四面体）下晶体场分裂能级对比图 | HIGH | 晶体场理论 |
 | 5e38ef2c70d703e6bfd6927f795fa4a5c778b2ff4cdc518d59379ed60142552d.jpg | molecular_configurations_symmetry_elements_point_groups_table.jpg | 常见典型分子构型、对称元素与点群(Point Group)全景分类对照表（菲/碘仿/B₂H₆/C₆₀/P₄O₆/乙烷各构型） | 结构化学/分子对称性/点群/对称元素/群论 |
 | 57942585cc33a8e77736256fcb8cae4cb4a9ddb07e882f39285f7a36fef04571.jpg | 空白/模糊页面，无法辨认内容 | LOW | - |
-| 5917f923258e7611fcc104ac03f2d53dd6706ae9924aef58cfb28c7eb14b4a69.jpg | polarimeter_principle_and_coordination_enantiomers_model.jpg | 旋光仪测定原理与配合物手性光学异构体镜面对映比喻综合原理图 | 配位化学/立体化学/光学异构体/手性/旋光仪原理 |
+| 5917f923258e7611fcc104ac03f2d53dd6706ae9924aef58cfb28c7eb14b4a69.jpg | 【视觉复核】旋光仪测定原理与配合物手性光学异构体综合原理图（光源→起偏器→样品池→检测器+Cr配合物对映体） | HIGH | 配位化学/立体化学 |
 | 50fb148a0f8a1be5c226a4e27f60ab33674052c622ad078cc6afe4b6f9ad2800.jpg | 【机器误判修正】旋光仪原理图（光源→起偏器→样品池→检测器）+Cr配合物镜面对称异构体 | HIGH | 配位化学 |
 | e476f1569a0d8559df938bda0afda9a809ed0e7fae73d5b83f1641e3a0ed8bfb.jpg | 【机器误判修正】熵变定性判断示例（NH₄Cl分解/N₂O₄→2NO₂/CuSO₄·5H₂O脱水/NH₄HCO₃分解/Ba(OH)₂+NH₄SCN） | HIGH | 热力学 |
-| 9dc05edebcd5c77b5243059af9b209965767aeb34d1fe9eacd24e1e3dd367d21.jpg | 【机器误判修正】桥联配合物命名（Fe₂Cl₆二(μ-氯)/Fe₂(CO)₉三(μ-羰基)/[Co₂(OH)(ONO)(NH₃)₆]³⁺） | HIGH | 配位化学 |
-| 5da45d7c251a4167e8ddba41644f85fe8ee4fbcd62451fc1a580f4ab72ed893f.jpg | 【机器误判修正】KCl Born-Haber循环数据（K升华89kJ/Cl₂解离244kJ/Cl电子亲和-355kJ/K电离425kJ/KCl生成-438kJ） | HIGH | 热力学 |
-| 45c0bbeb313ddf67d1c381b84e7475106296c4ef3057e3d30ae12b15805b8441.jpg | tetrahedral_crystal_field_five_d_orbitals_3d_overlap_model.jpg | 正四面体晶体场中五种d轨道电子云空间分布与配体重叠示意图（dxy/dyz/dxz/dz²/dx²-y²与四面体顶点） | 配位化学/晶体场理论/d轨道空间分布/四面体场 |
+| 9dc05edebcd5c77b5243059af9b209965767aeb34d1fe9eacd24e1e3dd367d21.jpg | 【视觉复核】桥联配合物命名示例（Fe₂Cl₆二(μ-氯)/Fe₂(CO)₉三(μ-羰基)/[Co₂(OH)(ONO)(NH₃)₆]³⁺） | HIGH | 配位化学 |
+| 5da45d7c251a4167e8ddba41644f85fe8ee4fbcd62451fc1a580f4ab72ed893f.jpg | 【视觉复核】Ru(II)配合物[Ru(bpy)₂(SCN)₂]几何异构体（SCN/NCS顺反异构及旋光异构，有/无旋光活性标记） | HIGH | 配位化学 |
+| 45c0bbeb313ddf67d1c381b84e7475106296c4ef3057e3d30ae12b15805b8441.jpg | 【视觉复核】正四面体晶体场五种d轨道电子云空间分布与配体重叠示意图（dxy/dyz/dxz/dz²/dx²-y²与四面体顶点） | HIGH | 晶体场理论 |
 | ebe8d51ce07b95298d8d1eeda8fb3cb24765cdfd1c61d5161e573906c82b7255.jpg | 【机器误判修正】配合物命名表续（[Co(ONO)(NH₃)₃(H₂O)₂]Cl₂/[Co(N₂)(NH₃)₃]SO₄/[Cr(OH)(C₂O₄)(en)(H₂O)]） | HIGH | 配位化学 |
 | b32a0ace276c8386086d52fbf9ce694176cbbd054d3297538a9191abf47b2574.jpg | 【视觉复核】配合物中文命名表（[Co]/[Cr]配合物示例） | HIGH | 配位化学 | coordination_compound_nomenclature_examples.jpg |
 | d7478bf20a32aa03ee16330be21e886053c31e391be7a9bccdff6bd983732a43.jpg | 【机器误判修正】Ru(II)配合物[Ru(bpy)₂(SCN)₂]几何异构体（SCN/NCS顺反异构及旋光异构，有/无旋光活性标记） | HIGH | 配位化学 |
@@ -314,7 +314,7 @@
 | d2d4c9df41d37f35596c11239b3da63ab881a72d798eb4a98cf2dd47354f48fd.jpg | lithium_ion_battery_charging_discharging_mechanism.jpg | 锂离子电池(LiCoO₂/石墨)充放电工作原理与Li⁺嵌脱迁移结构示意图 | 电化学/二次电池/锂离子电池/嵌入脱嵌机制 |
 | 867736f603f300a1934fe1389fdb77975a4f12d94d84c4b89b0b136a9e34097d.jpg | 【机器误判修正】K⊖平衡常数表达式（含Kₐ⊖(HCN)/K稳([Pb(CN)₄]²⁻)/Ksp(Pb(OH)₂)/Kw复合平衡） | HIGH | 化学平衡/配位化学 |
 | a433d2f30d6e2f334b3dc77ece2679854ad37193c454f8e5b68b2902a6ed903a.jpg | five_d_orbitals_octahedral_orientations.jpg | 五种d轨道在八面体晶体场中的空间取向图（dxy/dyz/dxz/dz²/dx²-y²与x,y,z坐标轴） | 配位化学/晶体场理论/d轨道空间分布 |
-| f9827e5370202c50cd61ef46eb121b3f976bdb6a94552c93e2675424962a3446.jpg | 【机器误判修正】Ni配合物sp³d²与dsp²杂化对比（八面体[Ni(H₂O)₆]²⁺vs平面正方形[Ni(CH₃COO)₂(H₂O)₂]） | HIGH | 配位化学 |
+| f9827e5370202c50cd61ef46eb121b3f976bdb6a94552c93e2675424962a3446.jpg | 【视觉复核】Cu-Cu²⁺‖H⁺|H₂,Pt标准原电池实验装置图（电压表0.340V，电子流向H₂→Cu） | HIGH | 电化学 |
 | 79b1341fee2e2b7160c3903733efe53765acfd7a253de4d428a4b478b0a8614b.jpg | 原电池实验装置图（Cu-Cu²⁺||H⁺|H₂,Pt标准电池，电压表0.340V） | HIGH | 电化学 |
 | f99919e56334330c25515a79d3fc3867a4f9313da165d1a1f800c0ccf6609294.jpg | 【机器误判修正】金属羰基化合物Fe₃(CO)₁₂和Ir₄(CO)₁₂簇合物结构（三角形/四面体金属骨架） | HIGH | 配位化学 |
 | f1519a0a8a325052bdf9d0caabe03829ad1be7b20d298924fc0020708d851aa5.jpg | 【机器误判修正】Cr₂O₇²⁻/Cr³⁺和CrO₄²⁻/Cr(OH)₃能斯特方程表达式 | HIGH | 电化学/氧化还原 |
