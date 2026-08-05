@@ -562,7 +562,7 @@ def _run_word_formula_precheck(
             heading_text = heading_match.group(1)
             for term in (
                 "四层结构总览", "主线导航", "轮次划分", "本讲定位", "本轮定位",
-                "深度边界", "深度分层", "使用说明", "本讲小结", "易错清单",
+                "深度边界", "深度分层", "使用说明", "易错清单",
             ):
                 if term in heading_text:
                     _append_precheck_issue(
