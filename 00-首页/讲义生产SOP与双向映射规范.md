@@ -1,4 +1,5 @@
 ---
+title: 讲义生产SOP与双向映射规范
 type: 系统
 role: SOP
 date: 2026-07-24
