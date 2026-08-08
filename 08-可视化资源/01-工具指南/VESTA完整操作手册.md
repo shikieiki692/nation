@@ -982,7 +982,119 @@ Style → Rotation → Standard Orientations
 
 ---
 
-## 十一、常见问题
+## 十一、坐标整体平移：把某原子移到原点
+
+> 需求场景：将一个原子 A 移到原点 (0,0,0)，其余所有原子的相对位置保持不变（整体刚体平移）。
+
+### 11.1 核心原理
+
+VESTA 中原子位置用**分数坐标** (x, y, z) 表示（相对晶胞原点）。若目标原子 A 坐标为 (x₀, y₀, z₀)，则把所有原子（含 A）的坐标都**减去 (x₀, y₀, z₀)**，A 即到原点，其余原子相对位置不变。
+
+> ⚠️ VESTA **没有一键"移到原点"按钮**，需按下方方法操作。分数坐标允许负值，VESTA 会正常显示（可能 wrap 到相邻晶胞，但相对位置正确）。
+
+### 11.2 方法一：编辑 CIF 文件（最精确，推荐）
+
+**适用**：任意规模、需要精确坐标时。
+
+**步骤**：
+1. VESTA → File → Save As 保存为 `.cif`（或直接用原始 CIF）
+2. 用文本编辑器打开 CIF，找到原子坐标块：
+
+```
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+```
+
+3. 记下目标原子 A 的 `(x₀, y₀, z₀)`
+4. 将**每一行**原子的 x、y、z 都减去 `(x₀, y₀, z₀)`
+5. 保存，重新用 VESTA 打开 → A 在原点，其他原子同步平移
+
+### 11.3 方法二：Phase 对话框逐个编辑（适合原子少的分子）
+
+**适用**：原子数少（如单个分子、简单晶胞）。
+
+**步骤**：
+1. Edit → Edit Data → Phase（结构参数对话框）
+2. 在原子列表找到 A，记下其分数坐标 (x₀, y₀, z₀)
+3. 双击每个原子的 x/y/z，统一减去 (x₀, y₀, z₀)；A 本身改为 (0, 0, 0)
+4. 点 OK，视图即更新
+
+### 11.4 方法三：Python 脚本批量平移（最省力）
+
+本质：脚本自动读取 CIF，把目标原子的坐标记为 (x₀,y₀,z₀)，再把所有原子的坐标统一减去它，生成新 CIF。无需逐个手动改。
+
+**前提**：电脑已安装 Python。检查方法——命令行输入 `python --version`，有输出版本号即可；提示“不是内部或外部命令”则未安装，改用 11.2 方法一（记事本改 CIF）更省事。
+
+**推荐交互版脚本**（运行后逐个问你，不用改代码）：
+
+```python
+def shift_cif(cif_path, target_label, out_path):
+    with open(cif_path, encoding='utf-8') as f:
+        lines = f.readlines()
+    start = next(i for i,l in enumerate(lines) if l.strip().lower()=='loop_')
+    headers, j = [], start+1
+    while j < len(lines) and lines[j].strip().startswith('_'):
+        headers.append(lines[j].strip()); j += 1
+    xi = headers.index('_atom_site_fract_x')
+    yi = headers.index('_atom_site_fract_y')
+    zi = headers.index('_atom_site_fract_z')
+    rows = []
+    for line in lines[j:]:
+        t = line.split()
+        if len(t) == len(headers) and t[xi].replace('.','').replace('-','').isdigit():
+            rows.append(t)
+    target = next(r for r in rows if r[0]==target_label)
+    x0,y0,z0 = float(target[xi]), float(target[yi]), float(target[zi])
+    out = lines[:start] + ['loop_\n'] + [h+'\n' for h in headers]
+    for r in rows:
+        nr = [(float(r[xi])-x0),(float(r[yi])-y0),(float(r[zi])-z0)]
+        r[xi],r[yi],r[zi] = f'{nr[0]:.6f}',f'{nr[1]:.6f}',f'{nr[2]:.6f}'
+        out.append('  '+'  '.join(r)+'\n')
+    open(out_path,'w',encoding='utf-8').writelines(out)
+    print(f'OK: {target_label} 已移到原点，共平移 {len(rows)} 个原子 → {out_path}')
+
+cif = input('输入 CIF 文件名：').strip()
+tgt = input('输入目标原子标签：').strip()
+out = input('输出文件名（默认 shifted.cif）：').strip() or 'shifted.cif'
+shift_cif(cif, tgt, out)
+```
+
+**使用步骤**：
+1. 复制以上全部代码，粘贴到记事本，另存为 `shift_cif.py`（保存类型选“所有文件”，编码 UTF-8）
+2. 命令行 `cd` 到该文件夹，运行 `python shift_cif.py`
+3. 按提示依次输入：CIF 文件名 → 目标原子标签 → 输出文件名
+4. 出现 `OK: ... 已移到原点` 即成功；用 VESTA 打开输出文件，目标原子在原点，其余原子同步平移
+
+**“目标原子标签”填什么**：打开 CIF 找 `_atom_site_label` 列，它下面每行第一个字段就是标签（如 `Na1`、`Fe1`、`O5`）。标签必须与 CIF 完全一致（大小写、数字都对），否则报错 `StopIteration`。
+
+**原理示意**：想把 Na1(0.25,0.25,0.25) 挪到原点，则每行都减去该坐标——Na1 变 (0,0,0)，Cl1(0.75,0.75,0.75) 变 (0.5,0.5,0.5)，相对位置不变。
+
+**进阶**：若已安装 pymatgen，可三行完成：
+
+```python
+from pymatgen.core import Structure
+s = Structure.from_file('a.cif')
+s.translate_sites(range(len(s)), -s[0].frac_coords, frac_coords=True, to_unit_cell=True)
+s.to('a_shifted.cif')
+```
+
+### 11.5 关于 Transformation 矩阵的说明
+
+`Edit → Edit Data → Unit Cell → Transformation`（见 9.4 超胞创建）输入的是 **3×3 线性变换矩阵**，用于建超胞、晶系旋转，**不能表达纯平移**。"移到原点"请用本章坐标减法方法。
+
+### 11.6 注意事项
+
+- 若 CIF 带空间群对称操作，只需平移不对称单元内的所有原子，对称等效原子会自动跟随
+- 平移后建议 `File → Save As` 另存为新 CIF，保留原始数据
+- 若目标原子不在不对称单元内（由对称操作生成），需先定位其实际坐标，或改用方法一/三直接编辑完整坐标
+
+---
+
+## 十二、常见问题
 
 ### Q1：VESTA打不开CIF文件？
 
@@ -1030,7 +1142,7 @@ Style → Rotation → Standard Orientations
 
 ---
 
-## 十二、参考资源
+## 十三、参考资源
 
 ### 官方资源
 
@@ -1053,7 +1165,7 @@ Style → Rotation → Standard Orientations
 
 ---
 
-## 十三、附录
+## 十四、附录
 
 ### 附录A：常用快捷键
 
