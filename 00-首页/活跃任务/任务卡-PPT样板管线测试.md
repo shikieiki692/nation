@@ -2,7 +2,7 @@
 title: 任务卡-PPT样板管线测试
 type: 活跃任务卡
 task_type: 备课产出
-status: completed
+status: archived
 priority: P2
 area: 课件体系
 owner: Agent+User

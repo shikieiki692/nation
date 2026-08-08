@@ -1,7 +1,7 @@
 ---
 title: WARNING: META 意图修改了 00-首页/ 下的文件: 00-首页\状态摘要.md
 type: 活跃任务卡
-status: completed
+status: archived
 priority: P2
 area: 系统
 owner: Agent

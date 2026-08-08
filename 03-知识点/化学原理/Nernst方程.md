@@ -34,17 +34,17 @@ teaching_insights: ["[[12-教学洞察/教学洞察-Nernst方程.md]]"]
 
 ## 一、定义
 
-**Nernst 方程**描述任意浓度（或分压）下电极电势 $E$ 与标准电极电势 $E^{\ominus}$ 的关系，是电化学定量计算的核心方程。
+**Nernst 方程**描述任意浓度（或分压）下电极电势 $E$ 与标准电极电势 $E^{\theta}$ 的关系，是电化学定量计算的核心方程。
 
 对电极反应 $m\,\mathrm{ox} + n\mathrm{e^-} \rightleftharpoons q\,\mathrm{red}$（298 K）：
 
-$$E = E^{\ominus} - \frac{0.0591\ \mathrm{V}}{n}\lg\frac{(\mathrm{red})^q}{(\mathrm{ox})^m} = E^{\ominus} + \frac{0.0591\ \mathrm{V}}{n}\lg\frac{(\mathrm{ox})^m}{(\mathrm{red})^q}$$
+$$E = E^{\theta} - \frac{0.0591\ \mathrm{V}}{n}\lg\frac{(\mathrm{red})^q}{(\mathrm{ox})^m} = E^{\theta} + \frac{0.0591\ \mathrm{V}}{n}\lg\frac{(\mathrm{ox})^m}{(\mathrm{red})^q}$$
 
 对电池反应（电池电动势形式）：
 
-$$E_{\text{池}} = E_{\text{池}}^{\ominus} - \frac{0.0591\ \mathrm{V}}{n}\lg Q$$
+$$E_{\text{池}} = E_{\text{池}}^{\theta} - \frac{0.0591\ \mathrm{V}}{n}\lg Q$$
 
-其中 $Q$ 为反应商。一般形式为 $E = E^{\ominus} - \dfrac{RT}{nF}\ln Q$，298 K 时 $\dfrac{2.303RT}{F} = 0.0591\ \mathrm{V}$。
+其中 $Q$ 为反应商。一般形式为 $E = E^{\theta} - \dfrac{RT}{nF}\ln Q$，298 K 时 $\dfrac{2.303RT}{F} = 0.0591\ \mathrm{V}$。
 
 ## 二、考纲对应
 
@@ -56,26 +56,26 @@ $$E_{\text{池}} = E_{\text{池}}^{\ominus} - \frac{0.0591\ \mathrm{V}}{n}\lg Q$
 
 ### 3.1 推导思路
 
-由 van't Hoff 等温式 $\Delta G(T) = \Delta G^{\ominus}(T) + 2.303RT\lg Q$，代入 $\Delta G = -nFE$，两边约去 $-nF$ 即得电池形式的 Nernst 方程；再利用 $E_{\text{池}} = E_{\text{正}} - E_{\text{负}}$ 拆分到两个电极，即得电极形式。
+由 van't Hoff 等温式 $\Delta G(T) = \Delta G^{\theta}(T) + 2.303RT\lg Q$，代入 $\Delta G = -nFE$，两边约去 $-nF$ 即得电池形式的 Nernst 方程；再利用 $E_{\text{池}} = E_{\text{正}} - E_{\text{负}}$ 拆分到两个电极，即得电极形式。
 
-**要点**：对数项中的浓度是任意实际浓度（不是平衡浓度）；平衡时 $Q = K$、$E_{\text{池}} = 0$，于是回到 $E_{\text{池}}^{\ominus} = \dfrac{0.0591\ \mathrm{V}}{n}\lg K^{\ominus}$。
+**要点**：对数项中的浓度是任意实际浓度（不是平衡浓度）；平衡时 $Q = K$、$E_{\text{池}} = 0$，于是回到 $E_{\text{池}}^{\theta} = \dfrac{0.0591\ \mathrm{V}}{n}\lg K^{\theta}$。
 
 ### 3.2 符号规则
 
-- 用 "$+$" 号还是对数项中"氧化态在上"，二者必须配套：$E = E^{\ominus} + \dfrac{0.0591}{n}\lg\dfrac{(\mathrm{ox})^m}{(\mathrm{red})^q}$。
+- 用 "$+$" 号还是对数项中"氧化态在上"，二者必须配套：$E = E^{\theta} + \dfrac{0.0591}{n}\lg\dfrac{(\mathrm{ox})^m}{(\mathrm{red})^q}$。
 - **氧化态浓度升高 → $E$ 升高；还原态浓度升高 → $E$ 降低**。
-- 还原态为纯固体（如 Zn²⁺ + 2e⁻ ⇌ Zn(s)）时，$(\mathrm{red}) = 1$，方程简化为 $E = E^{\ominus} + \dfrac{0.0591}{n}\lg(\mathrm{Zn^{2+}})$。
-- $E$ 是强度量：方程式系数翻倍，$E^{\ominus}$ 不变，但对数项中各浓度的指数随系数变化。
+- 还原态为纯固体（如 Zn²⁺ + 2e⁻ ⇌ Zn(s)）时，$(\mathrm{red}) = 1$，方程简化为 $E = E^{\theta} + \dfrac{0.0591}{n}\lg(\mathrm{Zn^{2+}})$。
+- $E$ 是强度量：方程式系数翻倍，$E^{\theta}$ 不变，但对数项中各浓度的指数随系数变化。
 
 ### 3.3 浓度影响电极电势的四类情形（普化原理 §10.5 总结）
 
-1. **电极物质本身浓度变化**——浓差电池：$(-)\mathrm{Cu}|\mathrm{Cu^{2+}}(10^{-4})\|\mathrm{Cu^{2+}}(1)|\mathrm{Cu}(+)$，$E_{\text{池}}^{\ominus}=0$，$E_{\text{池}} = -\dfrac{0.0591}{2}\lg\dfrac{10^{-4}}{1} = +0.118\ \mathrm{V}$。
-2. **酸度（H⁺ 参与电极反应）**——以 $\mathrm{Cr_2O_7^{2-}} + 14\mathrm{H^+} + 6\mathrm{e^-} \rightleftharpoons 2\mathrm{Cr^{3+}} + 7\mathrm{H_2O}$（$E^{\ominus}=+1.36$ V）为例，(Cr₂O₇²⁻)=(Cr³⁺)=1 时：
+1. **电极物质本身浓度变化**——浓差电池：$(-)\mathrm{Cu}|\mathrm{Cu^{2+}}(10^{-4})\|\mathrm{Cu^{2+}}(1)|\mathrm{Cu}(+)$，$E_{\text{池}}^{\theta}=0$，$E_{\text{池}} = -\dfrac{0.0591}{2}\lg\dfrac{10^{-4}}{1} = +0.118\ \mathrm{V}$。
+2. **酸度（H⁺ 参与电极反应）**——以 $\mathrm{Cr_2O_7^{2-}} + 14\mathrm{H^+} + 6\mathrm{e^-} \rightleftharpoons 2\mathrm{Cr^{3+}} + 7\mathrm{H_2O}$（$E^{\theta}=+1.36$ V）为例，(Cr₂O₇²⁻)=(Cr³⁺)=1 时：
    - $(\mathrm{H^+}) = 10$：$E = +1.50$ V
-   - $(\mathrm{H^+}) = 1$：$E = E^{\ominus} = +1.36$ V
+   - $(\mathrm{H^+}) = 1$：$E = E^{\theta} = +1.36$ V
    - $(\mathrm{H^+}) = 10^{-3}$：$E = +0.95$ V
    酸度降低，Cr₂O₇²⁻ 氧化能力明显减弱。标准电极电势表因此分酸性表与碱性表。
-3. **生成难溶物（沉淀）**——Cu²⁺/Cu⁺ 的 $E^{\ominus} = +0.15$ V，看似不能氧化 I⁻（$E^{\ominus}(\mathrm{I_2/I^-})=+0.54$ V）；但 Cu⁺ 与 I⁻ 生成 CuI（$K_{sp}=1.3\times10^{-12}$），$(\mathrm{I^-})=1$ 时 $(\mathrm{Cu^+}) = 1.3\times10^{-12}$，代入 Nernst 方程得 $E(\mathrm{Cu^{2+}/CuI}) = 0.15 - 0.0591\lg(1.3\times10^{-12}) = +0.85$ V $> 0.54$ V，反应 $2\mathrm{Cu^{2+}} + 4\mathrm{I^-} \rightleftharpoons 2\mathrm{CuI} + \mathrm{I_2}$ 可进行。
+3. **生成难溶物（沉淀）**——Cu²⁺/Cu⁺ 的 $E^{\theta} = +0.15$ V，看似不能氧化 I⁻（$E^{\theta}(\mathrm{I_2/I^-})=+0.54$ V）；但 Cu⁺ 与 I⁻ 生成 CuI（$K_{sp}=1.3\times10^{-12}$），$(\mathrm{I^-})=1$ 时 $(\mathrm{Cu^+}) = 1.3\times10^{-12}$，代入 Nernst 方程得 $E(\mathrm{Cu^{2+}/CuI}) = 0.15 - 0.0591\lg(1.3\times10^{-12}) = +0.85$ V $> 0.54$ V，反应 $2\mathrm{Cu^{2+}} + 4\mathrm{I^-} \rightleftharpoons 2\mathrm{CuI} + \mathrm{I_2}$ 可进行。
 4. **生成络合物**——往铜电极溶液中加氨水，Cu²⁺ 形成 $\mathrm{Cu(NH_3)_4^{2+}}$ 使游离 Cu²⁺ 浓度下降，电极电势随之改变（与配位平衡联立计算见配位化学部分）。
 
 ### 3.4 应用：由电势测定求 $K_{sp}$ 或 pH
@@ -95,7 +95,7 @@ $$K_{sp}(\mathrm{AgCl}) = 1.8\times10^{-8}\times 0.010 = 1.8\times10^{-10}$$
 3. 氧化态浓度升 → $E$ 升；还原态浓度升 → $E$ 降；有 H⁺ 参与的电对，pH 影响极大。
 4. 沉淀与络合通过改变游离离子浓度间接改变电极电势，可翻转表观氧化还原方向（Cu²⁺ 氧化 I⁻ 例）。
 5. 反向使用 Nernst 方程：测 $E$ 求浓度 → $K_{sp}$、pH、离子选择性电极。
-6. 平衡时 $E_{\text{池}} = 0$ 且 $Q = K^{\ominus}$，故 $E_{\text{池}}^{\ominus}$ 与 $K^{\ominus}$ 可互算。
+6. 平衡时 $E_{\text{池}} = 0$ 且 $Q = K^{\theta}$，故 $E_{\text{池}}^{\theta}$ 与 $K^{\theta}$ 可互算。
 
 ## 五、适用条件与限制
 
@@ -104,16 +104,16 @@ $$K_{sp}(\mathrm{AgCl}) = 1.8\times10^{-8}\times 0.010 = 1.8\times10^{-10}$$
 | 0.0591 V 系数 | 298 K | 其他温度用 $2.303RT/F$ 重算 |
 | 浓度代入 | 稀溶液、理想行为 | 高浓度时应用活度代替浓度 |
 | 电极/电池两种形式 | 电极反应写成还原式 | "+" 号与"氧化态在上"必须配套，否则符号出错 |
-| $E^{\ominus}$ 查表 | 标准态（1 mol·dm⁻³，100 kPa） | 酸性表/碱性表不可混用 |
+| $E^{\theta}$ 查表 | 标准态（1 mol·dm⁻³，100 kPa） | 酸性表/碱性表不可混用 |
 
 ## 六、常见比较与易混点
 
 | 易混点 | 辨析 |
 |:---|:---|
-| $E^{\ominus}$ 任何条件都能用 | $E^{\ominus}$ 只对应标准态；非标准态必须用 Nernst 方程校正 |
+| $E^{\theta}$ 任何条件都能用 | $E^{\theta}$ 只对应标准态；非标准态必须用 Nernst 方程校正 |
 | Nernst 方程中的 $Q$ 是平衡常数 | $Q$ 是反应商；只有平衡时 $Q = K$（此时 $E_{\text{池}}=0$） |
 | 电极电势随方程式系数翻倍 | $E$ 是强度量不翻倍；但对数项中浓度指数等于系数 |
-| $E = E^{\ominus} - \frac{0.0591}{n}\lg\frac{(\mathrm{ox})}{(\mathrm{red})}$ | 符号写反：正确为 $\lg\frac{(\mathrm{ox})}{(\mathrm{red})}$ 配 "+" 号 |
+| $E = E^{\theta} - \frac{0.0591}{n}\lg\frac{(\mathrm{ox})}{(\mathrm{red})}$ | 符号写反：正确为 $\lg\frac{(\mathrm{ox})}{(\mathrm{red})}$ 配 "+" 号 |
 | 平衡时各电极 $E = 0$ | 平衡时 $E_{\text{池}} = 0$，单个电极电势不为零 |
 
 ## 七、与其他知识点的联系
@@ -136,7 +136,7 @@ $$K_{sp}(\mathrm{AgCl}) = 1.8\times10^{-8}\times 0.010 = 1.8\times10^{-10}$$
 
 **题目**：求电池 $(-)\mathrm{Zn}|\mathrm{Zn^{2+}}(0.1)\|\mathrm{Cu^{2+}}(0.001)|\mathrm{Cu}(+)$ 的电动势。
 
-**解答**：$E_{\text{池}}^{\ominus} = 0.34-(-0.76) = 1.10$ V；$E_{\text{池}} = 1.10 - \dfrac{0.0591}{2}\lg\dfrac{0.1}{0.001} = 1.10 - 0.059 = 1.04$ V。$E_{\text{池}} < E_{\text{池}}^{\ominus}$，正向倾向减小但仍自发。
+**解答**：$E_{\text{池}}^{\theta} = 0.34-(-0.76) = 1.10$ V；$E_{\text{池}} = 1.10 - \dfrac{0.0591}{2}\lg\dfrac{0.1}{0.001} = 1.10 - 0.059 = 1.04$ V。$E_{\text{池}} < E_{\text{池}}^{\theta}$，正向倾向减小但仍自发。
 
 ### 例题 2（电极电势计算）
 
@@ -146,18 +146,18 @@ $$K_{sp}(\mathrm{AgCl}) = 1.8\times10^{-8}\times 0.010 = 1.8\times10^{-10}$$
 
 ![Atkins Nernst E vs lgQ图](media/physchem-nernst-e-vs-q.jpg)
 
-**题目**：计算 [Zn²⁺] = 0.010 mol·dm⁻³ 时 Zn²⁺/Zn 电对的电极电势（$E^{\ominus} = -0.76$ V）。
+**题目**：计算 [Zn²⁺] = 0.010 mol·dm⁻³ 时 Zn²⁺/Zn 电对的电极电势（$E^{\theta} = -0.76$ V）。
 
 **解答**：$E = -0.76 + \dfrac{0.0591}{2}\lg(0.010) = -0.76 - 0.059 = -0.82$ V。
 
-**反思**：还原态为固体时不写入；浓度比标准态稀，电势比 $E^{\ominus}$ 更负，方向感可用来检验符号对错。
+**反思**：还原态为固体时不写入；浓度比标准态稀，电势比 $E^{\theta}$ 更负，方向感可用来检验符号对错。
 
 ## 十、易错点
 
 1. **对数项上下颠倒**：记"氧化态在上配加号"，或用"增大氧化态浓度应使电势升高"检验。
 2. **忘记 H⁺ 的指数**：Cr₂O₇²⁻ 电对中 $(\mathrm{H^+})^{14}$，酸度效应被指数放大。
 3. **系数 0.0591 用错温度**：只在 298 K 成立。
-4. **把平衡时的 $E_{\text{池}}=0$ 误当成 $E^{\ominus}=0$**。
+4. **把平衡时的 $E_{\text{池}}=0$ 误当成 $E^{\theta}=0$**。
 5. **沉淀/络合题的链式代入**：先由 $K_{sp}$ 或 $K_{\text{稳}}$ 求游离离子浓度，再代入 Nernst 方程，两步缺一不可。
 
 ## 十一、🎯 教学视角
@@ -170,7 +170,7 @@ Nernst 方程应在掌握标准电极电势和 $E_{\text{池}} = E_{\text{正}} 
 
 | 误区 | 正确理解 |
 |:---|:---|
-| 标准电极电势在任何条件下都适用 | E° 只在标准状态（1 mol·dm⁻³, 100 kPa, 298 K）下适用 |
+| 标准电极电势在任何条件下都适用 | Eθ 只在标准状态（1 mol·dm⁻³, 100 kPa, 298 K）下适用 |
 | Nernst 方程中的 Q 是平衡常数 | Q 是反应商，平衡时 Q = K，此时 E池 = 0 |
 | 电极电势与方程式系数无关，所以 lnQ 里指数也无关 | E 是强度量不随系数变，但对数项中浓度的指数等于计量系数 |
 | 电动势差一点点无所谓 | 0.0591 V 对应浓度差 10 倍（n=1），对数关系使小电压读出大浓度跨度 |

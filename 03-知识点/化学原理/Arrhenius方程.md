@@ -190,9 +190,9 @@ $$E_a = \frac{1.386 \times 8.314}{1.075 \times 10^{-4}} = 1.07 \times 10^5\ \mat
 ### 与热力学的关系（决赛深化）
 
 对于基元反应：
-$$E_a = \Delta^\ddagger H^\ominus + RT$$
+$$E_a = \Delta^\ddagger H^\theta + RT$$
 
-其中 $\Delta^\ddagger H^\ominus$ 为活化焓（过渡态理论）。
+其中 $\Delta^\ddagger H^\theta$ 为活化焓（过渡态理论）。
 
 **温度每升高10 K**，速率常数约增大为原来的2–4倍（van't Hoff规则）。
 

@@ -1,7 +1,7 @@
 ---
 title: Anki CSV 导出工作流建立
 type: 活跃任务卡
-status: completed
+status: archived
 priority: P3
 area: 学生侧材料
 owner: Agent

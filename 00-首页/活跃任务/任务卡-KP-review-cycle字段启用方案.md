@@ -1,7 +1,7 @@
 ---
 title: KP review_cycle 字段启用方案
 type: 活跃任务卡
-status: completed
+status: archived
 priority: P1
 area: 知识库系统
 owner: Agent

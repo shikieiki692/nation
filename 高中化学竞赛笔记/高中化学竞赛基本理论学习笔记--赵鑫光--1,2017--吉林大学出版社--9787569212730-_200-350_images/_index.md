@@ -289,42 +289,42 @@
 | 5e38ef2c70d703e6bfd6927f795fa4a5c778b2ff4cdc518d59379ed60142552d.jpg | molecular_configurations_symmetry_elements_point_groups_table.jpg | 常见典型分子构型、对称元素与点群(Point Group)全景分类对照表（菲/碘仿/B₂H₆/C₆₀/P₄O₆/乙烷各构型） | 结构化学/分子对称性/点群/对称元素/群论 |
 | 57942585cc33a8e77736256fcb8cae4cb4a9ddb07e882f39285f7a36fef04571.jpg | 空白/模糊页面，无法辨认内容 | LOW | - |
 | 5917f923258e7611fcc104ac03f2d53dd6706ae9924aef58cfb28c7eb14b4a69.jpg | 【视觉复核】旋光仪测定原理与配合物手性光学异构体综合原理图（光源→起偏器→样品池→检测器+Cr配合物对映体） | HIGH | 配位化学/立体化学 |
-| 50fb148a0f8a1be5c226a4e27f60ab33674052c622ad078cc6afe4b6f9ad2800.jpg | 【机器误判修正】旋光仪原理图（光源→起偏器→样品池→检测器）+Cr配合物镜面对称异构体 | HIGH | 配位化学 |
-| e476f1569a0d8559df938bda0afda9a809ed0e7fae73d5b83f1641e3a0ed8bfb.jpg | 【机器误判修正】熵变定性判断示例（NH₄Cl分解/N₂O₄→2NO₂/CuSO₄·5H₂O脱水/NH₄HCO₃分解/Ba(OH)₂+NH₄SCN） | HIGH | 热力学 |
+| 50fb148a0f8a1be5c226a4e27f60ab33674052c622ad078cc6afe4b6f9ad2800.jpg | 【视觉复核】四方平面配合物Mabcdef几何异构体结构图（10种配体排列组合示例） | HIGH | 配位化学/立体化学 |
+| e476f1569a0d8559df938bda0afda9a809ed0e7fae73d5b83f1641e3a0ed8bfb.jpg | 【视觉复核】熵变定性判断示例（NH₄Cl分解/N₂O₄→2NO₂/CuSO₄·5H₂O脱水/NH₄HCO₃分解/Ba(OH)₂+NH₄SCN） | HIGH | 热力学 |
 | 9dc05edebcd5c77b5243059af9b209965767aeb34d1fe9eacd24e1e3dd367d21.jpg | 【视觉复核】桥联配合物命名示例（Fe₂Cl₆二(μ-氯)/Fe₂(CO)₉三(μ-羰基)/[Co₂(OH)(ONO)(NH₃)₆]³⁺） | HIGH | 配位化学 |
 | 5da45d7c251a4167e8ddba41644f85fe8ee4fbcd62451fc1a580f4ab72ed893f.jpg | 【视觉复核】Ru(II)配合物[Ru(bpy)₂(SCN)₂]几何异构体（SCN/NCS顺反异构及旋光异构，有/无旋光活性标记） | HIGH | 配位化学 |
 | 45c0bbeb313ddf67d1c381b84e7475106296c4ef3057e3d30ae12b15805b8441.jpg | 【视觉复核】正四面体晶体场五种d轨道电子云空间分布与配体重叠示意图（dxy/dyz/dxz/dz²/dx²-y²与四面体顶点） | HIGH | 晶体场理论 |
 | ebe8d51ce07b95298d8d1eeda8fb3cb24765cdfd1c61d5161e573906c82b7255.jpg | 【机器误判修正】配合物命名表续（[Co(ONO)(NH₃)₃(H₂O)₂]Cl₂/[Co(N₂)(NH₃)₃]SO₄/[Cr(OH)(C₂O₄)(en)(H₂O)]） | HIGH | 配位化学 |
 | b32a0ace276c8386086d52fbf9ce694176cbbd054d3297538a9191abf47b2574.jpg | 【视觉复核】配合物中文命名表（[Co]/[Cr]配合物示例） | HIGH | 配位化学 | coordination_compound_nomenclature_examples.jpg |
 | d7478bf20a32aa03ee16330be21e886053c31e391be7a9bccdff6bd983732a43.jpg | 【机器误判修正】Ru(II)配合物[Ru(bpy)₂(SCN)₂]几何异构体（SCN/NCS顺反异构及旋光异构，有/无旋光活性标记） | HIGH | 配位化学 |
-| 5f17019ed47a446f6515092df204963ec690487335c040ce1b8bf22b9d631f8b.jpg | octahedral_crystal_field_d_orbital_splitting_energy_diagram.jpg | 正八面体晶体场作用下d轨道分裂能级图（自由离子→球形场→eg与t2g分裂能级及Dq参数） | 配位化学/晶体场理论/八面体场分裂/Dq参数 |
-| a0ac376e1616eb3e65c4085cd83b2b63f50487fa69949357da7497b93da4d68d.jpg | 【机器误判修正】五种配位多面体几何构型（三角棱柱/四方反棱柱/立方体/五角双锥/正十二面体） | HIGH | 配位化学 |
-| a86062f34ba34e60e73aab4990e0016821ff0e19b3bb32bda107514e89bd56b8.jpg | octahedral_complex_m_ab2c2_geometrical_optical_isomers.jpg | 八面体配合物M(AB)₂c₂型8种几何异构体与光学异构体立体排布全景图 | 配位化学/立体化学/几何异构/光学异构/8种异构体 |
-| f11843c835e0568e3fdb5480122108d97eb1ceb695e9f070bd210223d6364a9b.jpg | 【机器误判修正】氧电极电势随pH变化计算表（H⁺=10/1/10⁻³/10⁻⁷mol/L对应E=1.37/1.23/0.82/0.26V） | HIGH | 电化学 |
-| 434a111468d2b50500620ba6f8e8473d9e3677b655d9673f2088ee9da8b59020.jpg | silver_sp_and_beryllium_sp3_hybridization_comparison.jpg | Ag⁺的sp杂化[Ag(NH₃)₂]⁺与Be²⁺的sp³杂化[BeX₄]²⁻配位成键轨道与构型对比图 | 配位化学/价键理论/sp杂化/sp³杂化/配位构型 |
+| 5f17019ed47a446f6515092df204963ec690487335c040ce1b8bf22b9d631f8b.jpg | 【视觉复核】正八面体晶体场d轨道分裂能级图（自由离子→球形场→eg/t2g分裂，Δ₀=10Dq） | HIGH | 晶体场理论 |
+| a0ac376e1616eb3e65c4085cd83b2b63f50487fa69949357da7497b93da4d68d.jpg | 【视觉复核】五种配位多面体几何构型（三角棱柱/四方反棱柱/立方体/五角双锥/正十二面体） | HIGH | 晶体化学 |
+| a86062f34ba34e60e73aab4990e0016821ff0e19b3bb32bda107514e89bd56b8.jpg | 【视觉复核】八面体配合物M(AB)₂c₂型8种几何异构体与光学异构体立体排布全景图 | HIGH | 配位化学/立体化学 |
+| f11843c835e0568e3fdb5480122108d97eb1ceb695e9f070bd210223d6364a9b.jpg | 【视觉复核】氧电极电势随pH变化计算表（H⁺=10/1/10⁻³/10⁻⁷mol/L对应E=1.37/1.23/0.82/0.26V） | HIGH | 电化学 |
+| 434a111468d2b50500620ba6f8e8473d9e3677b655d9673f2088ee9da8b59020.jpg | 【视觉复核】Ag⁺ sp杂化与Be²⁺ sp³杂化配位成键轨道与构型对比图 | HIGH | 配位化学/价键理论 |
 | 4dc304b435b878a67108d5c163420d3a00abc639beeaf8d6d5e13cb9c10a07dd.jpg | 【机器误判修正】电解半反应与法拉第定律（Na⁺/Mg²⁺/Al³⁺还原的1mol产物质量和所需电量96500C倍数） | HIGH | 电化学 |
-| 5016704d532f7b1ad7caac8f615d8796ea3349d1dba90038855ccba99450f75c.jpg | octahedral_crystal_field_five_d_orbitals_3d_overlap_model.jpg | 正八面体配位场中五种d轨道空间电子云分布与配体重叠示意图（dxy/dyz/dxz/dz²/dx²-y²） | 配位化学/晶体场理论/d轨道空间分布/八面体场 |
+| 5016704d532f7b1ad7caac8f615d8796ea3349d1dba90038855ccba99450f75c.jpg | 【视觉复核】正八面体配位场五种d轨道空间电子云分布与配体重叠示意图 | HIGH | 晶体场理论 |
 | a1338493dfd8187d126254b83653d4d6f095d1b4d404afa844630f2509840f24.jpg | 【机器误判修正】正八面体场中五种d轨道空间取向图（dxy/dyz/dxz/dz²/dx²-y²在配体场中的分布） | HIGH | 配位化学/晶体场理论 |
 | 5c8e86168dbd151fc019aa4c94238ebbf20937f8537967852f4fcd48244a3552.jpg | faraday_law_electrolysis_quantity_and_charge_table.jpg | 法拉第电解定律产物质量与电量定量关系数据对照表（Na⁺/Mg²⁺/Al³⁺还原所需电量） | 电化学/电解池/法拉第电解定律/电量计算 |
-| 979c073cdb4859a06cb8b26118ba614d72feda25a4e2637b0617607e20683040.jpg | 【机器误判修正】热力学数据表（Al₂O₃/Al/CO₂/CO/C(石墨)的ΔfH⊖m与S⊖m值） | HIGH | 热力学 |
-| e24ca54201a580a51b1f8f186c77cbe441c61828d0d26ffee9ca68906aff3acd.jpg | 【机器误判修正】O₂/OH⁻电极电势能斯特方程计算+[Au(CN)₂]⁻解离平衡浓度计算 | HIGH | 电化学/配位化学 |
+| 979c073cdb4859a06cb8b26118ba614d72feda25a4e2637b0617607e20683040.jpg | 【视觉复核】O₂/OH⁻电极电势能斯特方程计算（E=+0.613V）+[Au(CN)₂]⁻解离平衡浓度计算 | HIGH | 电化学/配位化学 |
+| e24ca54201a580a51b1f8f186c77cbe441c61828d0d26ffee9ca68906aff3acd.jpg | 【视觉复核】热力学数据表（Al₂O₃/Al/CO₂/CO/C(石墨)的ΔfH⊖m与S⊖m值） | HIGH | 热力学 |
 | d4493c7d55441a3f8a202d0e5688bbdecb4ac20d29de2a0db68b211600d4ed48.jpg | 【机器误判修正】配体符号与名称对照表（F⁻氟/Cl⁻氯/OH⁻羟/CN⁻氰/NO₂⁻硝基/ONO⁻亚硝酸根/SO₄²⁻/NH₃） | HIGH | 配位化学 |
 | b305019f7dfdc4057dabdf7a27902f60aa20c762925cade82fc2a4446672d1c9.jpg | 【机器误判修正】正八面体场d轨道空间取向图（dxy/dyz/dxz/dz²/dx²-y²含配体位置标记） | HIGH | 配位化学/晶体场理论 |
-| 42b57f3be6373a202238ba213e1e83bcb123a6cb8ab8933a62b71dc4d6ce2da5.jpg | octahedral_crystal_field_five_d_orbitals_axes_orientations.jpg | 正八面体配位场中五种d轨道在xyz坐标轴上的空间取向示意图（视角二，dxy/dyz/dxz/dz²/dx²-y²） | 配位化学/晶体场理论/d轨道空间分布/八面体场 |
-| d2d4c9df41d37f35596c11239b3da63ab881a72d798eb4a98cf2dd47354f48fd.jpg | lithium_ion_battery_charging_discharging_mechanism.jpg | 锂离子电池(LiCoO₂/石墨)充放电工作原理与Li⁺嵌脱迁移结构示意图 | 电化学/二次电池/锂离子电池/嵌入脱嵌机制 |
+| 42b57f3be6373a202238ba213e1e83bcb123a6cb8ab8933a62b71dc4d6ce2da5.jpg | 【视觉复核】正八面体配位场五种d轨道在xyz坐标轴上空间取向示意图（视角二） | HIGH | 晶体场理论 |
+| d2d4c9df41d37f35596c11239b3da63ab881a72d798eb4a98cf2dd47354f48fd.jpg | 【视觉复核】锂离子电池(LiCoO₂/石墨)充放电工作原理与Li⁺嵌脱迁移结构示意图 | HIGH | 电化学/二次电池 |
 | 867736f603f300a1934fe1389fdb77975a4f12d94d84c4b89b0b136a9e34097d.jpg | 【机器误判修正】K⊖平衡常数表达式（含Kₐ⊖(HCN)/K稳([Pb(CN)₄]²⁻)/Ksp(Pb(OH)₂)/Kw复合平衡） | HIGH | 化学平衡/配位化学 |
-| a433d2f30d6e2f334b3dc77ece2679854ad37193c454f8e5b68b2902a6ed903a.jpg | five_d_orbitals_octahedral_orientations.jpg | 五种d轨道在八面体晶体场中的空间取向图（dxy/dyz/dxz/dz²/dx²-y²与x,y,z坐标轴） | 配位化学/晶体场理论/d轨道空间分布 |
+| a433d2f30d6e2f334b3dc77ece2679854ad37193c454f8e5b68b2902a6ed903a.jpg | 【视觉复核】五种d轨道在八面体晶体场中的空间取向图（dxy/dyz/dxz/dz²/dx²-y²与xyz坐标轴） | HIGH | 晶体场理论 |
 | f9827e5370202c50cd61ef46eb121b3f976bdb6a94552c93e2675424962a3446.jpg | 【视觉复核】Cu-Cu²⁺‖H⁺|H₂,Pt标准原电池实验装置图（电压表0.340V，电子流向H₂→Cu） | HIGH | 电化学 |
 | 79b1341fee2e2b7160c3903733efe53765acfd7a253de4d428a4b478b0a8614b.jpg | 原电池实验装置图（Cu-Cu²⁺||H⁺|H₂,Pt标准电池，电压表0.340V） | HIGH | 电化学 |
-| f99919e56334330c25515a79d3fc3867a4f9313da165d1a1f800c0ccf6609294.jpg | 【机器误判修正】金属羰基化合物Fe₃(CO)₁₂和Ir₄(CO)₁₂簇合物结构（三角形/四面体金属骨架） | HIGH | 配位化学 |
+| f99919e56334330c25515a79d3fc3867a4f9313da165d1a1f800c0ccf6609294.jpg | 【视觉复核】Ni配合物sp³d²与dsp²杂化对比（八面体[Ni(H₂O)₄(OAc)₂]vs平面正方形[Ni(OAc)₂(H₂O)₂]） | HIGH | 配位化学 |
 | f1519a0a8a325052bdf9d0caabe03829ad1be7b20d298924fc0020708d851aa5.jpg | 【机器误判修正】Cr₂O₇²⁻/Cr³⁺和CrO₄²⁻/Cr(OH)₃能斯特方程表达式 | HIGH | 电化学/氧化还原 |
-| 758058d6983279f1e6f87aecceed720fe245d6b988b863fe49910476b93342d4.jpg | 【机器误判修正】三种配位多面体（三方反棱柱/五角双锥含中心原子/十二面体） | HIGH | 配位化学 |
+| 758058d6983279f1e6f87aecceed720fe245d6b988b863fe49910476b93342d4.jpg | 【视觉复核】三种配位多面体几何构型（三方反棱柱/五角双锥含中心原子/正十二面体含中心原子） | HIGH | 晶体化学 |
 | 51e93ca43b7307fec7e57009c88fcbb1b40a498357bbba4e4b00250b3e7b5249.jpg | 空白/模糊页面，无法辨认内容 | LOW | - |
 | ab939e770450f9c9c95d8bc32332a24f73333d8ca517c90e4c4eb43574f4440e.jpg | 【视觉复核】O₃/O₂/H₂O₂ 与 MnO₄⁻→MnO₄²⁻→MnO₂→Mn³⁺→Mn²⁺/Mn 的 Latimer 图 | HIGH | 氧化还原/元素化学 | ozone_manganese_latimer_diagram.jpg |
 | a2d5e59a041b55f06c8f7b5ba35172689c501b0e2e806292eb238072850e7911.jpg | 【机器误判修正】E⊖(Cu²⁺/CuCl)计算（利用Ksp(CuCl)=1.2×10⁻⁶推导E⊖=0.503V） | HIGH | 电化学 |
 | 7b84b4d3237cd070775e19bc8430e7203bc9e0d58329d648a65e61be1b41254a.jpg | 【机器误判修正】O₃/O₂和H₂O₂/H₂O Latimer图+Mn的Latimer图（MnO₄⁻→MnO₄²⁻→MnO₂→Mn³⁺→Mn²⁺→Mn） | HIGH | 氧化还原 |
 | 7f184d5884f25df0c14d23f78c6c2b8a6cf5bf51f3c92bc50abe0506d1101e1f.jpg | cu_en2_complex_potential_and_stability_constant_formula.jpg | [Cu(en)₂]²⁺/Cu电极电势与稳定常数β₂计算算例公式片段（纯文字算式片段，不推荐讲义配图） | 电化学/配位化学/能斯特方程式/配合物电势 |
-| 7204a84300efa3361994331b71930abaf633a8a3bc1bb9230b1f5008fc2cdd08.jpg | 【机器误判修正】半导体光电化学电池原理图（导带/价带、hν光激发、e⁻/h⁺分离、H₂O→O₂和H⁺→H₂） | HIGH | 电化学 |
+| 7204a84300efa3361994331b71930abaf633a8a3bc1bb9230b1f5008fc2cdd08.jpg | 【视觉复核】Pt-C₂H₄ Zeise盐σ-π配键模型（Dewar-Chatt-Duncanson：dsp²+5dxz与π/π*轨道重叠） | HIGH | 配位化学/有机金属 |
 | f7100141f581fb6ddaf0665f6e343534016dfa42da1dcbd579cc33f3701cc5b1.jpg | 【机器误判修正】E([Cu(en)₂]²⁺/Cu)能斯特方程计算（含β₂稳定常数） | HIGH | 配位化学/电化学 |
 | b78f6ced2d3cbc355af9a0d4985b27ff2bffd5f0e68f91dcfa9220b192d92db4.jpg | sucrose_combustion_thermodynamic_data_table.jpg | 蔗糖C₁₂H₂₂O₁₁燃烧反应热力学生成焓与熵数据表格片段（文字/数值表格片段） | 热力学/燃烧热/生成焓与熵 |
 | 6258fe730f131a84d4855c27d1395481dfd1469c69e0f5b27c2ccf98ca13161b.jpg | 【机器误判修正】Cu²⁺/Cu和[Cu(NH₃)₄]²⁺/Cu能斯特方程计算（E⊖=-0.025V） | HIGH | 配位化学/电化学 |
@@ -333,15 +333,15 @@
 
 | 文件名 | 内容描述 | 质量 | 关联KP |
 |:---|:---|:---:|:---|
-| 3bf42e081ec46738ba851c1fd3200dd41a318d882b77b542f5fb9d4dc6cdd39b.jpg | chelation_concept_and_acac_complexes_overview.jpg | 螯合物概念与典型乙酰丙酮配合物结构综合图（[Cu(en)₂]²⁺与螃蟹螯合比喻、VO(acac)₂、Mn(acac)₃结构与3D模型） | 配位化学/螯合物/乙酰丙酮配合物 |
-| 39f49f72ee2c5c07150b3f9e7700a3103839a99827c118524cb1ca5a3faa6a7a.jpg | square_planar_crystal_field_splitting_diagram.jpg | 正方形晶体场作用下d轨道分裂能级图（自由离子→球形场→正方形场能级与Dq参数） | 配位化学/晶体场理论/正方形场分裂 |
+| 3bf42e081ec46738ba851c1fd3200dd41a318d882b77b542f5fb9d4dc6cdd39b.jpg | 【视觉复核】螯合物概念与乙酰丙酮配合物结构综合图（螃蟹螯合比喻+VO(acac)₂+Mn(acac)₃+3D模型） | HIGH | 配位化学/螯合物 |
+| 39f49f72ee2c5c07150b3f9e7700a3103839a99827c118524cb1ca5a3faa6a7a.jpg | 【视觉复核】正方形晶体场d轨道分裂能级图（自由离子→球形场→正方形场，Δs可视化） | HIGH | 晶体场理论 |
 | 990e74df33995d10212639cba59e2e44006a1271829594fb1e995feb5d27f6ac.jpg | 六方与立方晶体结构对比图（a/√3/2a晶格参数标注） | MEDIUM | 晶体化学 |
 | 3df5e8cdf1b5a800d29555cf67b92e5951699753d27b5177c1fa5c0bc021a6fe.jpg | 【机器误判修正】银氨配合物稳定常数计算（E⊖差值0.4272V，Kf⊖=1.6×10⁷） | HIGH | 配位化学/电化学 |
-| d90179078ba4abae521ad8ff24b31ce751104085bc517e0a99f627f3d22ac115.jpg | alkaline_hydrogen_oxygen_fuel_cell_diagram.jpg | 碱性氢氧燃料电池工作原理结构图（KOH电解质、H₂/O₂进出口与多孔石墨催化电极） | 电化学/原电池/燃料电池/氢氧燃料电池 |
+| d90179078ba4abae521ad8ff24b31ce751104085bc517e0a99f627f3d22ac115.jpg | 【视觉复核】碱性氢氧燃料电池工作原理结构图（KOH电解质、H₂/O₂进出口、多孔石墨催化电极） | HIGH | 电化学/燃料电池 |
 | 73eaf008d47450cea00ce285e903a5132e3e70c8dfe6e0a37e76fd7ba3a77cb0.jpg | 【机器误判修正】配体符号与名称对照表（py/en/PPh₃/NO/CO/H₂O） | HIGH | 配位化学 |
-| ee9b485597993726caba9ee5ff1aafb0f7f5487ff0f0ef1ceb866c22c9898723.jpg | 【机器误判修正】铂(II)配合物化学式分类（[Pt(NH₃)₂Cl₂]及其多核配合物n=1,2,3） | HIGH | 配位化学 |
+| ee9b485597993726caba9ee5ff1aafb0f7f5487ff0f0ef1ceb866c22c9898723.jpg | 【视觉复核】铂(II)配合物化学式分类（[Pt(NH₃)₂Cl₂]及其多核配合物n=1,2,3） | HIGH | 配位化学 |
 | 4df54c5e5a85fb972ef13f2020bda077c10071e04b93e8d1b952673f255874b2.jpg | 【机器误判修正】钴配合物能斯特方程计算（E⊖=0.58V，E=0.82V，涉及Co²⁺/Co³⁺和O₂） | HIGH | 电化学 |
-| b3f1a39aed7f7aa2a41bc2630c5709e4f62f4394551854fc83f40f0c51ae123b.jpg | uranium_redox_half_reactions_and_potentials.jpg | 铀元素四种氧化还原电极半反应方程式与标准电势E⊖数值（UO₂²⁺/U⁴⁺/U/UO₂⁺/U³⁺） | 元素化学/铀元素/电化学/电极电势 |
+| b3f1a39aed7f7aa2a41bc2630c5709e4f62f4394551854fc83f40f0c51ae123b.jpg | 【视觉复核】铀元素四种氧化还原电极半反应方程式与标准电势E⊖数值 | HIGH | 元素化学/电化学 |
 | cfbdf7cc95d5d56093668caf5603516cf7298dbf15df89d18a756fe9e1953ff8.jpg | 选择题答案表（题号1-15，答案CD等） | LOW | - |
 | 88cb1e8c2cabb80d583ba7b6bcd65d7ef1da11600845dd7a85daa17d4d276031.jpg | 【机器误判修正】钴(III)配合物结构（双核过氧桥联Co₂(O₂)(NH₃)₁₀⁴⁺和[Co(NH₃)₅(OH)]²⁺） | HIGH | 配位化学 |
 | f33b245f325893ba19c338e410bf21f154559108ea16f07c9f1235106caaf238.jpg | 【机器误判修正】O₃/O₂/OH⁻和MnO₄⁻/MnO₄²⁻/MnO₂/Mn(OH)₃/Mn(OH)₂/Mn的Latimer图 | HIGH | 氧化还原/电化学 |
@@ -352,17 +352,17 @@
 | dfbe172b8bcaa6f65c1b762551514c29ae0da76fd27c0310602ddc40cd6c07aa.jpg | coordination_complex_uv_vis_absorption_spectrum.jpg | 配合物电子吸收光谱(UV-Vis)波长与吸光系数关系曲线图（lgε~λ，吸收峰390/485/510/700/880nm） | 配位化学/晶体场理论/配合物颜色/紫外-可见吸收光谱 |
 | 3d2007987ff4ad000cc76dfb2dece5d191e26359fc19e57b22f259c6f65e4c79.jpg | 【机器误判修正】HAc/H₂电极电势计算公式（涉及Ka和HAc/Ac⁻浓度） | HIGH | 电化学 |
 | 4e4178bad0800f17ead90ba728ecb380588e9e206d986cba08a75f1ed14a4e14.jpg | 【机器误判修正】Mg₃N₂(s)标准生成焓计算（ΔfH⊖m=-480.8kJ/mol） | HIGH | 热力学 |
-| 60e4d8aeece1672565050553bcf9785485da6d0829307e966352fc9b1f8b9184.jpg | 【机器误判修正】八面体场d电子数与CFSE关系表（d⁰-d¹⁰，CFSE=0/4/8/12/6Dq） | HIGH | 配位化学/晶体场理论 |
-| d1489a9fdfe61c0e96418fbc0b2fbcd3808f1a9d8c33db8252033480657dea6d.jpg | 【机器误判修正】四种四方平面配合物几何异构体（A/B配体不同排列） | HIGH | 配位化学 |
+| 60e4d8aeece1672565050553bcf9785485da6d0829307e966352fc9b1f8b9184.jpg | 【视觉复核】八面体场d电子数(d⁰-d¹⁰)与CFSE关系表（CFSE=0/4/8/12/6Dq） | HIGH | 晶体场理论 |
+| d1489a9fdfe61c0e96418fbc0b2fbcd3808f1a9d8c33db8252033480657dea6d.jpg | 【视觉复核】四种四方平面配合物几何异构体（A/B配体不同排列，含对映体） | HIGH | 配位化学/立体化学 |
 | 4314b0ada0cc8ac555f9d4c680b6907fa708bdfed43857c973a37277f497b65f.jpg | elongated_octahedral_jahn_teller_splitting.jpg | 正八面体场与拉长八面体场d轨道Jahn-Teller分裂对比图（z轴拉伸，dx²-y²/dz²与dxy/dyz,dxz分裂） | 配位化学/晶体场理论/Jahn-Teller效应/拉长八面体 |
 | 6615521cb3fecbd6d7b963a825473d8f35836a7cd7288826e41dac64bdd44abf.jpg | electrical_double_layer_positive_metal_interface.jpg | 金属-溶液界面双电层结构与电位分布曲线图（金属带正电荷，溶液紧密/扩散层负电荷） | 电化学/界面电化学/双电层理论/Stern模型 |
 | 4f8757cfb0ca88fb21235028447cd1a7c085f84520b56169829462564aa90407.jpg | 【机器误判修正】吉布斯自由能不等式推导（TΔrS≥ΔrH-W非→ΔG≤W非） | HIGH | 热力学 |
 | 513610b3927f42b644d3a4f0faa1affa98f0fc6919c119bac08b8855131b01d5.jpg | 【视觉复核】Fe(III)-水杨酸根配合物随 pH 变化的配位数与颜色表（pH>9/4-8/2-3） | HIGH | 配位化学/元素推断 |
 | 972042a347ac371d4639c596a49dfa1c89f9db66d764958bb232f0509f26361b.jpg | 【机器误判修正】Cu²⁺/CuI和I₂/I⁻能斯特方程计算公式（涉及Ksp和平衡常数） | HIGH | 电化学 |
-| 60c1c4d659119312f4fa1e249c072dc20afb462baed838a78f818664377f6402.jpg | 【机器误判修正】铜浓差电池符号（含en配合物，Cu(NO₃)₂/KNO₃浓度标注） | HIGH | 电化学 |
+| 60c1c4d659119312f4fa1e249c072dc20afb462baed838a78f818664377f6402.jpg | 【视觉复核】铜浓差电池符号（含en配合物，Cu(NO₃)₂/KNO₃浓度标注） | HIGH | 电化学/浓差电池 |
 | a2c672a170d7ec75be4d7718e9c694df64a5462aaf78b615293cade43d2a9da3.jpg | 【机器误判修正】NaCl与AgCl溶解热力学数据表（ΔH⊖溶和ΔS⊖溶） | HIGH | 热力学 |
 | b048c0e0f903f1995d63652abf4186a346201716a5c637598d0aa0ef554226e0.jpg | electrical_double_layer_negative_metal_interface.jpg | 金属-溶液界面双电层结构与电位分布曲线图（金属带负电荷，溶液紧密/扩散层正电荷） | 电化学/界面电化学/双电层理论/Stern模型 |
-| 95fad056ca235c9c29f5fa516b9cb17585e17539ba2037c038a52fcbae39bda3.jpg | 【机器误判修正】水的E-pH图（Pourbaix图，a/b线H₂O稳定区，F/Ca电极电势线） | HIGH | 电化学 |
+| 95fad056ca235c9c29f5fa516b9cb17585e17539ba2037c038a52fcbae39bda3.jpg | 【视觉复核】水的E-pH Pourbaix图（a/b线H₂O稳定区，F/Ca电极电势线） | HIGH | 电化学/Pourbaix图 |
 | 63894d001e9064aed5dc3372f5f2e04004e3e0828a8a43702916f43b88a6ff46.jpg | 【机器误判修正】MnO₄⁻/Mn²⁺能斯特方程计算（E⊖=1.51V，涉及H⁺浓度的8次方） | HIGH | 电化学/氧化还原 |
 | 9a0de402967ae32da519474579afff1b0ebc8a5a8da02e8017b3dc082590009f.jpg | 【机器误判修正】葡萄糖燃烧热计算（ΔrH⊖m=-2816kJ/mol，6CO₂+6H₂O） | HIGH | 热力学 |
 | f65a9b2043dbdff65369145a1bf7e0d20420f286d3c5d900d7c237961d7efb1d.jpg | ni2plus_tetracyanonickelate_dsp2_hybridization_orbital_diagram.jpg | Ni²⁺自由离子与[Ni(CN)₄]²⁻平面正方形配合物dsp²杂化成键轨道电子排布图 | 配位化学/价键理论/平面正方形/dsp²杂化 |
@@ -373,13 +373,13 @@
 | 4770332458598fd165dfb7d1e6e181e3360d98e464c6750b8c6d99d5f3253343.jpg | 【视觉复核】金(III)配合物结构（含 [AuCl₄]⁻ 平面正方形配位） | HIGH | 配位化学/元素化学 |
 | 3d51af3adfaf85f21f07a23f843798ed82f1a8e6bcd2c4d178fde9ec6886a5f8.jpg | compressed_octahedral_jahn_teller_splitting.jpg | 正八面体场与压扁八面体场d轨道Jahn-Teller分裂对比图（z轴压缩，dz²/dx²-y²与dyz,dxz/dxy分裂） | 配位化学/晶体场理论/Jahn-Teller效应/压扁八面体 |
 | 6e806608dd9c17d1380b390968b3eb27db193de8882e71cccfd3c430fe3066bd.jpg | 【机器误判修正】NO₂/N₂O₄平衡常数计算（K⊖=0.803，α=0.66，p=26.345kPa） | HIGH | 化学平衡 |
-| a82daa2a396f82bc169e85301a3fa63b6f830a4fee73a84df4ea1e346f48fe8c.jpg | 【机器误判修正】砷的E-pH图（Pourbaix图，I线和As线，pH-1到3） | HIGH | 电化学 |
+| a82daa2a396f82bc169e85301a3fa63b6f830a4fee73a84df4ea1e346f48fe8c.jpg | 【视觉复核】砷的E-pH Pourbaix图（I线和As线，pH-1到3） | HIGH | 电化学/Pourbaix图 |
 | bab2c723881dfaf5e11a76b41b49b79b1ec63a72ca20f32a602adde561ddf283.jpg | 【机器误判修正】热力学过程途径图（始态1×10⁵Pa,2L→终态2×10⁵Pa,1L，两种不同途径） | HIGH | 热力学 |
 | 82779446fed29c16473aa28bc1014779762ed1f07b5e570bfbcc9436f022d36d.jpg | chromium_reduction_half_reactions_in_acid_base.jpg | 铬元素在酸性/碱性/强碱性介质下的三种电极还原半反应方程式（AD/HI/JL线段能斯特分析） | 元素化学/铬元素/氧化还原/电极反应 |
-| cd4ce6aff622d954f07b9cd3d9c2edc6641763a7393e0172bc39667b8bb7839d.jpg | 【机器误判修正】五种四方平面配合物几何异构体（a-e配体不同排列） | HIGH | 配位化学 |
-| 87ff2bf1eeca107e86ebef77b164cd2064b3af17c6853c0fbe92a8e6982d3716.jpg | 【机器误判修正】四种八面体配合物几何异构体（A-A双齿配体，b/c单齿配体不同排列） | HIGH | 配位化学 |
-| 6141ade87a33fe75e6ffc306b7913141917e69dbad583e4d7b67f94c2b98fbcd.jpg | 【机器误判修正】自由离子与球形电场中d轨道能级对比（晶体场理论基础） | HIGH | 配位化学/晶体场理论 |
-| 5c947f5b2e0684dcf8b818cd18ff4609fcf5a9914ab782d1cc74702ad8c3bb18.jpg | 【机器误判修正】六种八面体配合物几何异构体（a/b/c配体不同排列） | HIGH | 配位化学 |
+| cd4ce6aff622d954f07b9cd3d9c2edc6641763a7393e0172bc39667b8bb7839d.jpg | 【视觉复核】五种四方平面配合物几何异构体（a-e配体不同排列） | HIGH | 配位化学/立体化学 |
+| 87ff2bf1eeca107e86ebef77b164cd2064b3af17c6853c0fbe92a8e6982d3716.jpg | 【视觉复核】四种八面体配合物几何异构体（A-A双齿配体，b/c单齿配体不同排列） | HIGH | 配位化学/立体化学 |
+| 6141ade87a33fe75e6ffc306b7913141917e69dbad583e4d7b67f94c2b98fbcd.jpg | 【视觉复核】自由离子与球形电场中d轨道能级对比（晶体场理论基础） | HIGH | 晶体场理论 |
+| 5c947f5b2e0684dcf8b818cd18ff4609fcf5a9914ab782d1cc74702ad8c3bb18.jpg | 【视觉复核】六种八面体配合物几何异构体（a/b/c配体不同排列） | HIGH | 配位化学/立体化学 |
 | e8de5d921cd04a4341a70b45a5363822c1cd7aa8a417b392d4e5a446d851a97a.jpg | 【机器误判修正】Fe³⁺/Fe²⁺电极电势计算（E=0.36V，K稳比值10⁻⁷） | HIGH | 电化学/配位化学 |
 | f2ec439d7aacbd7a77dce3f0dc0ade388327327d733fe7c0a0f05c0c1f6a1429.jpg | 【机器误判修正】氧弹量热计结构图（搅拌器/温度计/引燃线/绝热套/水/氧弹） | HIGH | 热力学 |
 | 9ff9dbb7579c16efc090105cead50134ad1ca30519287ca05f86f855bbfbaefe.jpg | 【视觉复核】甘汞电极结构图（Hg/Hg₂Cl₂/饱和KCl/素瓷/KCl晶体） | HIGH | 电化学/元素化学 |

@@ -1,7 +1,7 @@
 ---
 title: 专题页 related-lessons 规范化
 type: 活跃任务卡
-status: completed
+status: archived
 priority: P2
 area: 专题页规范
 owner: Agent

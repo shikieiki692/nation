@@ -1,7 +1,7 @@
 ---
 title: 晶体结构KP填充
 type: 活跃任务卡
-status: completed
+status: archived
 priority: P1
 area: KP-深度修复
 owner: Agent

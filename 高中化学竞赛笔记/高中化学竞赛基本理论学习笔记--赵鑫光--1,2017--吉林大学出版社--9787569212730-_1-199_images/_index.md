@@ -23,11 +23,11 @@
 | 006d00542212bc194b9912e6f12f10fbf09dcb0472ff48ee10f3987b642472b2.jpg | 离子晶体结构分类表（NaCl/CsCl/ZnS/CaF₂/金红石型，含配位数与空隙类型）                             | zhao_ionic_structure_table.jpg      |  HIGH  | 晶体化学          | -   |
 | 008f47071560c0f21060513253780990122e2a617df17636164eaf49ae23c086.jpg | 简单立方晶胞示意图                                                                | zhao_simple_cubic_cell.jpg          |  HIGH  | 晶体化学          | -   |
 | 00b0e2d6bdd9281524a5daa2e99365b7073f2842eb46578106b5789c88ebecc7.jpg | 四量子数定义（n, l, m, ms取值规则）                                                  | zhao_quantum_numbers.jpg            |  HIGH  | 原子结构与元素周期律    | -   |
-| 08c493f825287a246bcfcf70c14356f04c5a658857d5bd685aca5233b92fdcb0.jpg | 电离能定义方程 E(g)=E⁺(g)+e⁻，I₁；E⁺(g)=E²⁺(g)+e⁻，I₂                              | zhao_ionization_energy_def.jpg      |  HIGH  | 原子结构与元素周期律    | -   |
+| 08c493f825287a246bcfcf70c14356f04c5a658857d5bd685aca5233b92fdcb0.jpg | 电离能定义方程 E(g)=E⁺(g)+e⁻，I₁；E⁺(g)=E²⁺(g)+e⁻，I₂（纯文字算式片段，不推荐讲义配图·批次34视觉降级）    | zhao_ionization_energy_def.jpg      | MEDIUM | 原子结构与元素周期律    | -   |
 | 097b690dcf8f555af8b940a61f8d3669930ca004f69e5cc82c26d172a32ab6d3.jpg | 碱金属原子发射光谱对比（H, Li, Na, K，350-700nm）                                      | zhao_emission_spectra.jpg           | MEDIUM | 原子结构与元素周期律    | -   |
 | 13528ed31899c48ae7ce5046ff4f67e177d0b740d95bc1fbd78c7231dc8e92a1.jpg | 空间填充分子模型（球棍堆积，多原子簇）                                                      | zhao_spacefill_cluster.jpg          |  HIGH  | 结构化学          | -   |
-| 2098abf7d232478ceca461314e10d7d1c2f56f4a150eced37dc4eb82cc90366c.jpg | 电子亲和能方程 F(g)+e⁻→F⁻(g)，ΔH₃=-322kJ/mol（释放能量）                               | zhao_electron_affinity_f.jpg        |  HIGH  | 原子结构与元素周期律    | -   |
-| 28049f0c5e0f3d24ded357040c0aa85e1e564177bbec8ec04e99385903afe380.jpg | 电离能数据表（Li-N，I₁-I₆，单位kJ/mol）                                              | zhao_ionization_energy_table.jpg    |  HIGH  | 原子结构与元素周期律    | -   |
+| 2098abf7d232478ceca461314e10d7d1c2f56f4a150eced37dc4eb82cc90366c.jpg | 电子亲和能方程 F(g)+e⁻→F⁻(g)，ΔH₃=-322kJ/mol（释放能量）（纯文字算式片段，不推荐讲义配图·批次34视觉降级）     | zhao_electron_affinity_f.jpg        | MEDIUM | 原子结构与元素周期律    | -   |
+| 28049f0c5e0f3d24ded357040c0aa85e1e564177bbec8ec04e99385903afe380.jpg | 电离能数据表（Li-N，I₁-I₆，单位kJ/mol）（纯文字数据表格，不推荐讲义配图·批次34视觉降级）                    | zhao_ionization_energy_table.jpg    | MEDIUM | 原子结构与元素周期律    | -   |
 | 3384d9781cc78ff175592ae63526b8915b63f577edb5a3ab7cfd548fa5f3e79c.jpg | N原子电子轨道排布图（2s²2p³，三未成对电子）                                                | zhao_n_orbital_diagram.jpg          |  HIGH  | 原子结构与元素周期律    | -   |
 | 3998dd31f126943564bd3074098c25f1b04cb6b3e58a863801c7fc2011368f54.jpg | 锯齿形原子链轨道排列（一维周期性σ键链结构）                                                   | zhao_zigzag_orbital_chain.jpg       |  HIGH  | 晶体化学          | -   |
 | 461e03f93a2bd8cf264fb15db1a605b5ccb0a8c4aeb097ca86bc43a6655592ad.jpg | 锯齿形链状晶体结构（聚合物/无限链）                                                       | zhao_zigzag_chain.jpg               |  HIGH  | 晶体化学          | -   |
@@ -37,8 +37,8 @@
 | 688a307dd45ec19541a2bc50651a4691bf16ebe4e307bd4b54bb06230c7e6375.jpg | CsCl晶体结构（两个穿插简单立方晶格）                                                     | zhao_cscl_crystal.jpg               | MEDIUM | 晶体化学          | -   |
 | 7641db3267f47aa594603c3127b04c0840ab81390c6a8ffb826daf0f22ee62ab.jpg | FCC晶胞基矢量表达式（a₁,a₂,a₃与îĵķ关系）                                              | zhao_fcc_vectors.jpg                |  HIGH  | 晶体化学          | -   |
 | 8b57a963593f8b758ae5a78172cd625262980655b9d35c7f6b16970d9f9e19e2.jpg | d-d轨道π键形成图（d_xy-d_xy→πd-d与π*d-d，含能量标度）                                   | zhao_dd_pi_bonding.jpg              |  HIGH  | 化学键理论         | -   |
-| 91b1faf77f6815aba707827b44d0aeda9550c3270dbe92ec9bf06be61f92fd67.jpg | NH₂OH与HN*O₂反应（羟胺氧化反应方程式）                                                 | zhao_nh2oh_reaction.jpg             |  HIGH  | 有机反应机理        | -   |
-| 9b48b088ea8992506337042902d9f48ce2f34f66c9c3b152ec7df7831d4961ac.jpg | Slater法轨道能量计算（E₃ₛ=-143.7eV，E₃d=-13.6eV）                                  | zhao_orbital_energy_calc.jpg        |  HIGH  | 量子力学基础        | -   |
+| 91b1faf77f6815aba707827b44d0aeda9550c3270dbe92ec9bf06be61f92fd67.jpg | NH₂OH与HN*O₂反应（羟胺氧化反应方程式）（纯文字算式片段，不推荐讲义配图·批次34视觉降级）                       | zhao_nh2oh_reaction.jpg             | MEDIUM | 有机反应机理        | -   |
+| 9b48b088ea8992506337042902d9f48ce2f34f66c9c3b152ec7df7831d4961ac.jpg | Slater法轨道能量计算（E₃ₛ=-143.7eV，E₃d=-13.6eV）（纯文字算式片段，不推荐讲义配图·批次34视觉降级）        | zhao_orbital_energy_calc.jpg        | MEDIUM | 量子力学基础        | -   |
 | a549010cd5b5069b19724818fe5f3d97e9e31a6e7d2536612d32af759847fb8e.jpg | 第一电离能周期表（H=1312至Rn=1037，单位kJ/mol）                                        | zhao_ie1_periodic_table.jpg         |  HIGH  | 原子结构与元素周期律    | -   |
 | b39c9764e28176471ea372aaec020ac6e9868815b558167f9deac7bbf31c57c0.jpg | 链状晶体结构（锯齿形原子链，配位聚合物）                                                     | zhao_chain_crystal.jpg              |  HIGH  | 晶体化学          | -   |
 | bca24189d0ac91fdbd447af85e56e05924bce7d566d3c7fe9dd7a27381b63a4e.jpg | 原子轨道重叠示意图（两球形轨道重叠，标注核间距r）                                                | zhao_orbital_overlap.jpg            |  HIGH  | 化学键理论         | -   |
@@ -620,6 +620,7 @@
 | 8fa73dbfb6278d2582a693e32b73100c1fd64ea1300b543f0510b75e7af6ad81.jpg | 波长计算λ=hc/ΔE=6.626×10⁻³⁴×3×10⁸/(3.923×10⁻¹⁹)=506.7nm                      | -                                   |  HIGH  | 量子力学基础        | -   |
 | f7e3ac900323d8dc5c9115776a96475cd913acb2e451075f49f763ea308f3ab9.jpg | 三斜晶胞原子坐标（α,β,γ角度标注，a,b,c轴不正交）                                            | -                                   |  HIGH  | 晶体化学          | -   |
 | 5ab8d00ed3abeec286ea6c64938f883d05248beecb3061642a83257341ffa46d.jpg | 球坐标系公式z=r·cosθ, y=r·sinθ·sinφ, x=r·sinθ·cosφ                             | -                                   |  HIGH  | 量子力学基础        | -   |
+|                                                                      |                                                                          |                                     |        |               |     |
 
 ## 高质量图片汇总（已复制到 媒体仓库/，共22张）
 

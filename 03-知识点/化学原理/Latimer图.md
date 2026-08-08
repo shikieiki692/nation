@@ -51,12 +51,12 @@ source_extracts:
   - source_file: "[[教学逻辑提炼-周坤无机新课-酸碱理论与电化学-第一轮]]"
     asset_id: "B2-10"
     asset_type: "反应资产"
-    asset_summary: "Latimer图计算规则：E°₃ = (n₁E°₁ + n₂E°₂)/(n₁+n₂)，笔记明确给出公式"
+    asset_summary: "Latimer图计算规则：Eθ₃ = (n₁Eθ₁ + n₂Eθ₂)/(n₁+n₂)，笔记明确给出公式"
     target_section: "§三"
   - source_file: "[[教学逻辑提炼-周坤无机新课-酸碱理论与电化学-第一轮]]"
     asset_id: "B2-11"
     asset_type: "实例资产"
-    asset_summary: "歧化反应判断规则：E°(右) > E°(左)则中间氧化态歧化，笔记有MnO₄²⁻实例"
+    asset_summary: "歧化反应判断规则：Eθ(右) > Eθ(左)则中间氧化态歧化，笔记有MnO₄²⁻实例"
     target_section: "§十二"
   - source_file: "[[教学逻辑提炼-Zchem-电化学-第一轮]]"
     asset_id: "10"
@@ -83,7 +83,7 @@ source_notes:
 
 ## 一、定义
 - **Latimer图**（Latimer diagram，又称还原电位图）是将某一元素在不同氧化态之间的标准还原电位，按氧化数从高到低依次排列而成的线性图示。
-- 图中氧化态写在水平连线的端点，标准电位 $E^{\ominus}$（单位 V）标注在连线上方。
+- 图中氧化态写在水平连线的端点，标准电位 $E^{\theta}$（单位 V）标注在连线上方。
 
 ## 二、考纲对应
 - 对应考纲条目：[[08-氧化还原与电化学]]、[[决赛10-电化学]]
@@ -97,14 +97,14 @@ source_notes:
 ### Latimer 图计算规则（笔记整理）
 
 若一个电对由两个相邻电对组合而成，**不能直接相加电位**，而应按 Gibbs 自由能加权：
-$$E°(a+b) = \frac{\nu(a)E°(a) + \nu(b)E°(b)}{\nu(a)+\nu(b)}$$
+$$Eθ(a+b) = \frac{\nu(a)Eθ(a) + \nu(b)Eθ(b)}{\nu(a)+\nu(b)}$$
 其中 $\nu$ 为各步转移的电子数。
 
-**记忆形式**：$E°_3 = \frac{n_1E°_1 + n_2E°_2}{n_1 + n_2}$
+**记忆形式**：$Eθ_3 = \frac{n_1Eθ_1 + n_2Eθ_2}{n_1 + n_2}$
 
 ### 3.1 基本构成
 - 元素最高氧化态写在最左端，向右依次降低。
-- 每条连线代表一个还原半反应，上方标注标准电位 $E^{\ominus}$。
+- 每条连线代表一个还原半反应，上方标注标准电位 $E^{\theta}$。
 - 氧化数可写在物种下方（或上方）。
 
 **示例：氯在酸性溶液中的 Latimer 图**
@@ -116,19 +116,19 @@ $$
 - 图中相邻两物种间的连线即代表一个还原半反应。
 - 写半反应时需补全 $H^+$、$H_2O$ 和电子。
 - 例如 $HClO \xrightarrow{+1.63} Cl_2$ 对应：
-$$2\,HClO(aq) + 2\,H^+(aq) + 2\,e^- \longrightarrow Cl_2(g) + 2\,H_2O(l) \quad E^{\ominus}=+1.63\,\mathrm{V}$$
+$$2\,HClO(aq) + 2\,H^+(aq) + 2\,e^- \longrightarrow Cl_2(g) + 2\,H_2O(l) \quad E^{\theta}=+1.63\,\mathrm{V}$$
 
 ### 3.3 不相邻物种的电位计算
 - 若一个电对由两个相邻电对组合而成，**不能直接相加电位**，而应按 Gibbs 自由能加权：
-$$E^{\ominus}(a+b) = \frac{\nu(a)E^{\ominus}(a) + \nu(b)E^{\ominus}(b)}{\nu(a)+\nu(b)}$$
+$$E^{\theta}(a+b) = \frac{\nu(a)E^{\theta}(a) + \nu(b)E^{\theta}(b)}{\nu(a)+\nu(b)}$$
 - 其中 $\nu$ 为各步转移的电子数。
 
 **示例**：碱性溶液中 $ClO_2^- / Cl_2$ 的电位
-$$E^{\ominus} = \frac{2\times(+0.68\,\mathrm{V}) + 1\times(+0.42\,\mathrm{V})}{3} = +0.59\,\mathrm{V}$$
+$$E^{\theta} = \frac{2\times(+0.68\,\mathrm{V}) + 1\times(+0.42\,\mathrm{V})}{3} = +0.59\,\mathrm{V}$$
 
 ### 3.4 歧化判据
 - 设某物种 $X(N)$ 在 Latimer 图中位于 $X(N+1)$（左）和 $X(N-1)$（右）之间。
-- **歧化条件**：$E^{\ominus}(\text{右}) > E^{\ominus}(\text{左})$，即右侧还原电位 > 左侧还原电位。
+- **歧化条件**：$E^{\theta}(\text{右}) > E^{\theta}(\text{左})$，即右侧还原电位 > 左侧还原电位。
 - 此时 $X(N)$ 不稳定，倾向于同时被氧化和还原为两侧物种。
 
 **示例：$H_2O_2$ 在酸性溶液中的歧化**
@@ -136,10 +136,10 @@ $$
 O_2 \xrightarrow{+0.70} H_2O_2 \xrightarrow{+1.76} H_2O
 $$
 右方 $(+1.76\,\mathrm{V}) >$ 左方 $(+0.70\,\mathrm{V})$，故 $H_2O_2$ 歧化：
-$$2\,H_2O_2(aq) \longrightarrow 2\,H_2O(l) + O_2(g) \quad E^{\ominus}_{cell}=+1.06\,\mathrm{V}$$
+$$2\,H_2O_2(aq) \longrightarrow 2\,H_2O(l) + O_2(g) \quad E^{\theta}_{cell}=+1.06\,\mathrm{V}$$
 
 ### 3.5 反歧化判据
-- 若 $E^{\ominus}(\text{右}) < E^{\ominus}(\text{左})$，则两侧物种倾向于反歧化（归中）生成中间物种。
+- 若 $E^{\theta}(\text{右}) < E^{\theta}(\text{左})$，则两侧物种倾向于反歧化（归中）生成中间物种。
 
 ### 3.6 歧化/反歧化判定流程图
 
@@ -149,7 +149,7 @@ $$2\,H_2O_2(aq) \longrightarrow 2\,H_2O(l) + O_2(g) \quad E^{\ominus}_{cell}=+1.
 flowchart TD
     Start["给定 Latimer 片段<br/>A --E(L)→ B --E(R)→ C"]
     Compare{"比较 E(R) 与 E(L)"}
-    Disp["B 歧化为 A + C<br/>E°cell = E(R) − E(L) > 0"]
+    Disp["B 歧化为 A + C<br/>Eθcell = E(R) − E(L) > 0"]
     Reverse["A + C 反歧化为 B<br/>(中间物种是稳定终点)"]
     Tie["B 与 (A+C) 共存平衡<br/>(实践中极少出现)"]
 
@@ -161,12 +161,12 @@ flowchart TD
 
 ## 四、关键结论
 - Latimer 图是**一维**的，只能展示单一元素在不同氧化态间的电位关系。
-- 酸碱条件对 Latimer 图影响很大（尤其涉及氧合阴离子时），必须注明 pH 条件（$E_A^{\ominus}$ 指酸性，$E_B^{\ominus}$ 指碱性）。
+- 酸碱条件对 Latimer 图影响很大（尤其涉及氧合阴离子时），必须注明 pH 条件（$E_A^{\theta}$ 指酸性，$E_B^{\theta}$ 指碱性）。
 - 不相邻电对的电位必须通过 Gibbs 自由能加权计算，**不可直接取算术平均**。
 
 ## 五、常见分类或情形
-- **酸性 Latimer 图**（$E_A^{\ominus}$，pH = 0）：适用于强酸性环境。
-- **碱性 Latimer 图**（$E_B^{\ominus}$，pH = 14）：适用于强碱性环境。
+- **酸性 Latimer 图**（$E_A^{\theta}$，pH = 0）：适用于强酸性环境。
+- **碱性 Latimer 图**（$E_B^{\theta}$，pH = 14）：适用于强碱性环境。
 - 若半反应不涉及 $H^+$（如 $Cl_2/Cl^-$），则酸碱条件下电位相同。
 
 ## 六、适用条件与限制
@@ -200,7 +200,7 @@ $$O_2 \xrightarrow{+0.70} H_2O_2 \xrightarrow{+1.76} H_2O$$
 **分析**：比较 $H_2O_2$ 左右两侧的标准电位。右侧电位 > 左侧电位时，中间物种歧化。
 
 **解答**：右侧 $(+1.76\,\mathrm{V}) >$ 左侧 $(+0.70\,\mathrm{V})$，故 $H_2O_2$ 不稳定，发生歧化：
-$$2H_2O_2 \longrightarrow 2H_2O + O_2 \quad E^{\ominus}_{cell} = 1.76 - 0.70 = +1.06\,\mathrm{V}$$
+$$2H_2O_2 \longrightarrow 2H_2O + O_2 \quad E^{\theta}_{cell} = 1.76 - 0.70 = +1.06\,\mathrm{V}$$
 
 **反思**：歧化反应电动势为**右减左**，不要搞反方向。
 
@@ -212,7 +212,7 @@ $$ClO_2^- \xrightarrow{+0.68} ClO^- \xrightarrow{+0.42} \frac{1}{2}Cl_2$$
 **分析**：不相邻电对，需按电子数加权。两步分别转移 2e⁻ 和 1e⁻。
 
 **解答**：
-$$E^{\ominus} = \frac{2\times0.68 + 1\times0.42}{3} = \frac{1.78}{3} = +0.59\,\mathrm{V}$$
+$$E^{\theta} = \frac{2\times0.68 + 1\times0.42}{3} = \frac{1.78}{3} = +0.59\,\mathrm{V}$$
 
 **反思**：若误取算术平均 $(0.68+0.42)/2 = 0.55\,\mathrm{V}$ 则错。
 
@@ -242,14 +242,14 @@ $$E^{\ominus} = \frac{2\times0.68 + 1\times0.42}{3} = \frac{1.78}{3} = +0.59\,\m
 | "左 > 右也歧化" | 混淆了氧化和还原的方向 | 中间物种被氧化需要左方电位低（不易氧化它），被还原需要右方电位高（容易还原它） | "右高左低，中间死掉" |
 
 **歧化判断规则（课堂笔记整理）**：
-给定 Latimer 图片段 $\mathrm{A \xrightarrow{E°(左)} B \xrightarrow{E°(右)} C}$，判断中间物种 B 的命运：
-- **若 $E°(右) > E°(左)$**：B 歧化为 A + C（中间物种不稳定）
-- **若 $E°(右) < E°(左)$**：A + C 反歧化为 B（中间物种稳定）
+给定 Latimer 图片段 $\mathrm{A \xrightarrow{Eθ(左)} B \xrightarrow{Eθ(右)} C}$，判断中间物种 B 的命运：
+- **若 $Eθ(右) > Eθ(左)$**：B 歧化为 A + C（中间物种不稳定）
+- **若 $Eθ(右) < Eθ(左)$**：A + C 反歧化为 B（中间物种稳定）
 
 **MnO₄²⁻ 歧化实例**（课堂笔记）：
 碱性溶液中锰的 Latimer 图（部分）：
 $$\mathrm{MnO_4^- \xrightarrow{+0.56} MnO_4^{2-} \xrightarrow{+0.60} MnO_2}$$
-- $E°(右) = +0.60\ \mathrm{V} > E°(左) = +0.56\ \mathrm{V}$
+- $Eθ(右) = +0.60\ \mathrm{V} > Eθ(左) = +0.56\ \mathrm{V}$
 - 故 MnO₄²⁻ 不稳定，发生歧化：$3\mathrm{MnO_4^{2-} + 2H_2O \longrightarrow 2MnO_4^- + MnO_2 + 4OH^-}$
 
 ### 12.3 入门级例题
@@ -268,7 +268,7 @@ $$\mathrm{MnO_4^- \xrightarrow{+0.56} MnO_4^{2-} \xrightarrow{+0.60} MnO_2}$$
 - 反例：$H_2O_2$ 在药店可以买到，似乎"稳定"——但那是动力学稳定（分解催化剂被除去），热力学上它极易歧化。
 
 ## 十三、竞赛拓展
-- Latimer 图与 Frost 图的数学等价性：$\nu E^{\ominus}$ 累加即得 Frost 图纵坐标。
+- Latimer 图与 Frost 图的数学等价性：$\nu E^{\theta}$ 累加即得 Frost 图纵坐标。
 - 利用 Latimer 图计算元素的平均标准氧化自由能。
 
 ## 十四、外部资料出处
@@ -292,7 +292,7 @@ $$
 - $\mathrm{MnO_4^{2-}}$ 在酸性中歧化（$E_右 = +2.26 > E_左 = +0.564$）
 - $\mathrm{Mn^{3+}}$ 在酸性中歧化（$E_右 = +1.51 > E_左 = +0.95$）→ 水溶液中 $\mathrm{Mn^{3+}}$ 极不稳定
 - $\mathrm{Mn^{2+}}$ 最稳定（$d^5$ 半满，CFSE = 0 但交换能最大）
-- 计算 $E^\ominus(\mathrm{MnO_4^-/Mn^{2+}})$：用加权平均 $E = (1×0.564 + 1×2.26 + 1×0.95 + 1×1.51 + 5×(-1.18)) / 5 = +0.74\,\mathrm{V}$（竞赛常考！）
+- 计算 $E^\theta(\mathrm{MnO_4^-/Mn^{2+}})$：用加权平均 $E = (1×0.564 + 1×2.26 + 1×0.95 + 1×1.51 + 5×(-1.18)) / 5 = +0.74\,\mathrm{V}$（竞赛常考！）
 
 ### 15.2 氮（N）—— 酸性溶液
 
@@ -333,7 +333,7 @@ $$\ce{5HBrO -> 2Br2 + BrO3- + 3H2O + H+}$$
 **例题 2**（类国决）：利用上述溴的 Latimer 图，求 $\ce{BrO3- / Br-}$ 电对的标准电位。
 
 **解答**：$\ce{BrO3- -> HBrO}$ 转移 4e⁻，$\ce{HBrO -> Br2}$ 转移 1e⁻，$\ce{Br2 -> Br-}$ 转移 1e⁻。但需注意 Br₂ 是双原子分子。
-$$E^\circ = \frac{4 \times 1.50 + 1 \times 1.60 + 1 \times 1.07}{6} = \frac{6.0 + 1.60 + 1.07}{6} = \frac{8.67}{6} = +1.45\,\mathrm{V}$$
+$$E^\theta = \frac{4 \times 1.50 + 1 \times 1.60 + 1 \times 1.07}{6} = \frac{6.0 + 1.60 + 1.07}{6} = \frac{8.67}{6} = +1.45\,\mathrm{V}$$
 
 ## 十八、待完善项
 - [x] 补充更多元素的 Latimer 图实例（Mn、N、S 等）——已补充 §十五

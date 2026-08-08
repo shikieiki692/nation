@@ -498,7 +498,7 @@ $$S_{\mathrm{m}} = R \ln \frac{V_{\mathrm{m}} e^{5/2}}{N_A \Lambda^3}$$
 
 标准摩尔熵：
 
-$$S_{\mathrm{m}}^{\ominus} = R \ln \frac{kT e^{5/2}}{p^{\ominus} \Lambda^3}$$
+$$S_{\mathrm{m}}^{\theta} = R \ln \frac{kT e^{5/2}}{p^{\theta} \Lambda^3}$$
 
 ### 7.5 残余熵
 
@@ -532,7 +532,7 @@ $$G(T) = G(0) - nRT \ln \frac{q}{N}$$
 
 对于气相反应 $a\mathrm{A} + b\mathrm{B} \longrightarrow c\mathrm{C} + d\mathrm{D}$：
 
-$$K = \left[\prod_j \left(\frac{q_{j,\mathrm{m}}^{\ominus}}{N_A}\right)^{\nu_j}\right] e^{-\Delta_{\mathrm{r}}E_0 / RT}$$
+$$K = \left[\prod_j \left(\frac{q_{j,\mathrm{m}}^{\theta}}{N_A}\right)^{\nu_j}\right] e^{-\Delta_{\mathrm{r}}E_0 / RT}$$
 
 其中 $\Delta_{\mathrm{r}}E_0$ 是反应物与产物的摩尔基态能量之差，可由键的解离能计算。
 
@@ -552,7 +552,7 @@ $$K = \left[\prod_j \left(\frac{q_{j,\mathrm{m}}^{\ominus}}{N_A}\right)^{\nu_j}\
 | 熵（定域子） | $S = [U(T)-U(0)]/T + Nk \ln q$ | 可分辨分子 |
 | 熵（离域子） | $S = [U(T)-U(0)]/T + Nk \ln(qe/N)$ | 气体 |
 | Helmholtz 能 | $A(T) = A(0) - kT \ln Q$ | 普遍适用 |
-| 平衡常数 | $K = \prod_j (q_{j,\mathrm{m}}^{\ominus}/N_A)^{\nu_j} e^{-\Delta_{\mathrm{r}}E_0/RT}$ | 气相反应 |
+| 平衡常数 | $K = \prod_j (q_{j,\mathrm{m}}^{\theta}/N_A)^{\nu_j} e^{-\Delta_{\mathrm{r}}E_0/RT}$ | 气相反应 |
 
 ## 关联题库
 

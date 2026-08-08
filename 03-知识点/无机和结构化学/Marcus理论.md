@@ -36,15 +36,15 @@ Marcus电子转移理论将反应速率与重组能、驱动力联系起来，�
 
 电子转移反应的活化自由能：
 
-$$\Delta^{\ddagger}G = \frac{\lambda}{4}\left(1 + \frac{\Delta_r G^\ominus}{\lambda}\right)^2$$
+$$\Delta^{\ddagger}G = \frac{\lambda}{4}\left(1 + \frac{\Delta_r G^\theta}{\lambda}\right)^2$$
 
 其中：
 - $\lambda$ 为重组能（reorganization energy）
-- $\Delta_r G^\ominus$ 为标准反应自由能（驱动力）
+- $\Delta_r G^\theta$ 为标准反应自由能（驱动力）
 
 ### 自交换反应
 
-对于自交换反应，$\Delta_r G^\ominus = 0$，活化能简化为：
+对于自交换反应，$\Delta_r G^\theta = 0$，活化能简化为：
 
 $$\Delta^{\ddagger}G = \frac{\lambda}{4}$$
 
@@ -63,9 +63,9 @@ $$\lambda = \lambda_{\text{内层}} + \lambda_{\text{外层}}$$
 
 | 区域 | 条件 | 速率趋势 |
 |:---|:---|:---|
-| 正常区 | $|\Delta_r G^\ominus| < \lambda$ | 速率随驱动力增大而增大 |
-| 无势垒点 | $\Delta_r G^\ominus = -\lambda$ | 活化能为零，速率最大 |
-| 反转区 | $|\Delta_r G^\ominus| > \lambda$ | 速率反而降低 |
+| 正常区 | $|\Delta_r G^\theta| < \lambda$ | 速率随驱动力增大而增大 |
+| 无势垒点 | $\Delta_r G^\theta = -\lambda$ | 活化能为零，速率最大 |
+| 反转区 | $|\Delta_r G^\theta| > \lambda$ | 速率反而降低 |
 
 **反转区**是Marcus理论最反直觉的预言，后被实验证实（如光诱导电子转移反应）。
 

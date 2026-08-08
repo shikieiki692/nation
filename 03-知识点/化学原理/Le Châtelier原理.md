@@ -111,13 +111,13 @@ $$
 温度改变会引起平衡常数 $K$ 的变化。由 van't Hoff 方程式：
 
 $$
-\lg \frac{K_{p_2}}{K_{p_1}} = \frac{\Delta H^\ominus}{2.30R}\left(\frac{T_2 - T_1}{T_1 T_2}\right)
+\lg \frac{K_{p_2}}{K_{p_1}} = \frac{\Delta H^\theta}{2.30R}\left(\frac{T_2 - T_1}{T_1 T_2}\right)
 $$
 
-- **升高温度**：平衡向**吸热**方向移动（$\Delta H^\ominus > 0$ 时 $K$ 增大；$\Delta H^\ominus < 0$ 时 $K$ 减小）
+- **升高温度**：平衡向**吸热**方向移动（$\Delta H^\theta > 0$ 时 $K$ 增大；$\Delta H^\theta < 0$ 时 $K$ 减小）
 - **降低温度**：平衡向**放热**方向移动
 
-> 例：合成氨反应 $\mathrm{N_2 + 3H_2 \rightleftharpoons 2NH_3}$，$\Delta H^\ominus = -91.8\,\mathrm{kJ\cdot mol^{-1}}$ 为放热反应。温度由 $298\,\mathrm{K}$ 升高到 $673\,\mathrm{K}$ 时，$K_p$ 由 $5.8 \times 10^5$ 降低为 $6.1 \times 10^{-4}$，平衡向左（吸热方向）移动。
+> 例：合成氨反应 $\mathrm{N_2 + 3H_2 \rightleftharpoons 2NH_3}$，$\Delta H^\theta = -91.8\,\mathrm{kJ\cdot mol^{-1}}$ 为放热反应。温度由 $298\,\mathrm{K}$ 升高到 $673\,\mathrm{K}$ 时，$K_p$ 由 $5.8 \times 10^5$ 降低为 $6.1 \times 10^{-4}$，平衡向左（吸热方向）移动。
 
 ### 4.4 催化剂对化学平衡的影响
 
@@ -221,7 +221,7 @@ $$
 
 ## 十三、竞赛拓展
 
-- **Van't Hoff 等温式的竞赛应用**：竞赛中常要求结合 $\Delta G = \Delta G^\ominus + RT\ln Q$ 和 $K_p$ 表达式，定量计算非标准态下平衡移动的程度，而非仅用 Le Châtelier 原理定性判断。
+- **Van't Hoff 等温式的竞赛应用**：竞赛中常要求结合 $\Delta G = \Delta G^\theta + RT\ln Q$ 和 $K_p$ 表达式，定量计算非标准态下平衡移动的程度，而非仅用 Le Châtelier 原理定性判断。
 - **惰性气体条件的细分**：恒容加惰性气体不移动、恒压加惰性气体向分子数增多方向移动是常见考点，竞赛还可能考察在恒温恒压下通入与反应无关的气体对转化率的影响。
 - **耦合反应的平衡移动**：工业上常将放热反应与吸热反应耦合（如合成氨与变换反应），利用产物的消耗驱动平衡正向移动，是竞赛信息题的常见情境。
 

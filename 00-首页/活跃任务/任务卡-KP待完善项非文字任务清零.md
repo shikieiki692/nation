@@ -2,12 +2,12 @@
 title: KP待完善项-非文字任务清零
 type: 活跃任务卡
 task_type: 知识库构建
-status: active
+status: blocked
 priority: P1
 area: 知识库内容
 owner: Agent
 created: 2026-07-28
-updated: 2026-07-30
+updated: 2026-08-07
 source_notes:
   - "[[工作日志/2026-07-28]]"
   - "[[工作日志/2026-07-30]]"
@@ -16,6 +16,7 @@ related_notes:
   - "[[图片索引]]"
 evidence:
   - "2026-07-30 18:00: 题库联动4项完成（Dalton分压定律22题+4真题、对称性构型判断3题、过渡元素颜色/磁性4题、Grossman例题1题+提炼文件）→27→21项。剩余21项全部为ChemDraw(8)/计算化学(5)/依赖KP(4)/录课(2)/长期(2)。"
+  - "2026-08-07: 降级 blocked——21 项全部为 Agent 不可做（需 ChemDraw/Gaussian/真人），等待用户介入决策（外包工具或人工处理）。"
   - "2026-07-30 16:00: D类7项完成（诱导效应衰减图、负氢转移表格、跨共轭/同共轭、Corey-Chaykovsky回链、Pummerer竞赛真题、Corey-Seebach对比、有机化学基础引用）→34→27项。"
   - "2026-07-30 08:30: Phase 2扩展94个KP嵌入赵鑫光HIGH图片，matplotlib checkbox清理8项。"
   - "2026-07-28: 文字内容填充完成（22个KP约40项checkbox），剩余~80项均为非文字类任务。"

@@ -18,8 +18,8 @@ tags: [学生讲义, 超级充实版, 物理化学, 第四轮, 统计热力学, 
 created: 2026-08-04
 has_images: true
 image_count: 3
-updated: 2026-08-04
-last_audit: "2026-08-04 新建（S2）：承接决赛04 热力学深半（Maxwell 初步 + 统计热力学配分函数），补物化综合计算 §〇 未覆盖部分；全篇 $E^\\theta$ 规范；图片以 📌 占位标记（待补 3 处）"
+updated: 2026-08-07
+last_audit: "2026-08-04 新建（S2）：承接决赛04 热力学深半（Maxwell 初步 + 统计热力学配分函数），补物化综合计算 §〇 未覆盖部分；全篇 $E^\\theta$ 规范；图片以 📌 占位标记（待补 3 处）；2026-08-07 R4教材审计：补 Boltzmann 分布推导链（构型/Stirling/最概然/Lagrange/β热力学身份）与配分函数连乘原理（Atkins 主题13A-B）；2026-08-07 R5原文级复核：修正 §3.2 Gibbs-Helmholtz 积分式符号 −→+；2026-08-07 R8语言打磨+教材审计：ΔA°→ΔG° 平衡常数式统一；去 Atkins/13A/13F 章节标签；补 Kirchhoff 定律、Debye T³ 微观解释、配分函数求平衡常数完整式"
 template_version: 自学完整版 v3.0
 stage: published
 sources:
@@ -38,7 +38,7 @@ exercise_levels: "基础5 + 进阶5 + 挑战5"
 > **前置知识**：第一轮热力学初步（ΔH/ΔS/ΔG、ΔG=ΔH−TΔS）；物化综合计算 §〇（化学势）
 > **对应专题页**：[[04-专题与题型/专题/专题-热力学初步]]（深化链上一站）
 
-> **R4 定位**：本讲是**决赛理论补完**，不是计算压轴。决赛要求的是"知道四大方程、会用 Maxwell 关系做偏导数变换、理解配分函数是所有热力学量的母函数"。**不展开**：正则系综严格推导（Atkins 13D）、配分函数算平衡常数的完整处理（13F）、统计热力学的量子统计细节。
+> **本讲定位**：本讲是**决赛理论补完**，不是计算压轴。决赛要求的是"知道四大方程、会用 Maxwell 关系做偏导数变换、理解配分函数是所有热力学量的母函数"。**不展开**：正则系综严格推导、配分函数算平衡常数的完整处理、统计热力学的量子统计细节。
 
 ============================================================================= -->
 
@@ -75,16 +75,16 @@ exercise_levels: "基础5 + 进阶5 + 挑战5"
 ## 认知冲突（本讲最值得停下来想的地方）
 
 > [!abstract] 冲突一：Maxwell 关系不是"新知识"，是"同一批偏导数的不同写法"
-> 学生觉得四条 Maxwell 关系是要背的四个新公式。**错**——它们是从四大基本方程（全是 dU=TdS−pdV 的变形）用"二阶混合偏导数相等"推出来的。背会四大基本方程 → 四条 Maxwell 自动出来。突破：**先背 1 条（dU=TdS−pdV），其余靠推导**。
+> 你觉得四条 Maxwell 关系是要背的四个新公式。**错**——它们是从四大基本方程（全是 dU=TdS−pdV 的变形）用"二阶混合偏导数相等"推出来的。背会四大基本方程 → 四条 Maxwell 自动出来。突破：**先背 1 条（dU=TdS−pdV），其余靠推导**。
 
 > [!abstract] 冲突二：配分函数是"统计热力学的宝典"
-> 学生问"配分函数到底有什么用"。**它是一台母机**：内能、熵、Helmholtz 自由能、压强、平衡常数全部能从 q 求出来。竞赛只需记住"U 和 S 怎么从 q 求"两条主线。突破：把 q 看成"一张牌"，U、S、A 都是从它翻出来的"牌面"。
+> 你也许会问"配分函数到底有什么用"。**它是一台母机**：内能、熵、Helmholtz 自由能、压强、平衡常数全部能从 q 求出来。竞赛只需记住"U 和 S 怎么从 q 求"两条主线。突破：把 q 看成"一张牌"，U、S、A 都是从它翻出来的"牌面"。
 
 > [!abstract] 冲突三：S=k·lnΩ 与热力学熵是"同一件事"
-> 学生把统计熵和热力学熵当两个概念。**它们是同一个熵**：统计熵是"微观起源"，热力学熵是"宏观测量"。Clausius 的 dS=δq_rev/T 与 Boltzmann 的 S=k·lnΩ 描述同一个量。突破：残余熵就是两者连接的证据（0 K 下热力学熵趋 0 而统计熵不为 0）。
+> 你也许会把统计熵和热力学熵当成两个概念。**它们是同一个熵**：统计熵是"微观起源"，热力学熵是"宏观测量"。Clausius 的 dS=δq_rev/T 与 Boltzmann 的 S=k·lnΩ 描述同一个量。突破：残余熵就是两者连接的证据（0 K 下热力学熵趋 0 而统计熵不为 0）。
 
 > [!abstract] 冲突四：定域子与离域子的熵差"Nk·ln(e/N)"
-> 同温同压下 1 mol 固体（定域）与 1 mol 理想气体（离域）的熵公式差一项 Nk·ln(e/N)。学生常忘。突破：离域粒子"不可区分"（全同粒子），除以 N! 使熵减小这一项——是 Gibbs 悖论（混合熵消失）的解法。
+> 同温同压下 1 mol 固体（定域）与 1 mol 理想气体（离域）的熵公式差一项 Nk·ln(e/N)——离域粒子"不可区分"（全同粒子），除以 N! 使熵减小这一项——是 Gibbs 悖论（混合熵消失）的解法。
 
 ---
 
@@ -127,8 +127,9 @@ $$dA = -S\,dT - p\,dV \qquad dG = -S\,dT + V\,dp$$
 
 从这四个方程可直接读出对应偏导数（如 $(\partial G/\partial p)_T = V$、$(\partial G/\partial T)_p = -S$）。
 
-> ![[4139b1fc7b31fe6f3b88daa5f719beaf05521ab0f86196d4c1d9259f7e76ca44.jpg]]
-*图 1 热力学四边形 (Born Square) 与 Maxwell 关系转换*：热力学四边形——U/H/A/G 四角，相邻函数关系，箭头标注 Legendre 变换方向，自然变量标注在边上。
+> [!note] 热力学四边形 (Born Square) 与 Maxwell 关系
+> U/H/A/G 四角方阵：左上 U(S,V) → 右上 H(S,p)（Legendre V→p）；左下 A(T,V)（Legendre S→T）→ 右下 G(T,p)。四条边标注自然变量，对角箭头标注 Maxwell 关系推导方向。
+
 
 ---
 
@@ -173,9 +174,10 @@ $$\left(\frac{\partial (G/T)}{\partial T}\right)_p = -\frac{H}{T^2}$$
 
 对反应：$\Delta_r G^\theta$ 随温度变化
 
-$$\frac{\Delta G^\theta(T_2)}{T_2} - \frac{\Delta G^\theta(T_1)}{T_1} = -\Delta H^\theta\left(\frac{1}{T_2} - \frac{1}{T_1}\right)$$
+$$\frac{\Delta G^\theta(T_2)}{T_2} - \frac{\Delta G^\theta(T_1)}{T_1} = +\Delta H^\theta\left(\frac{1}{T_2} - \frac{1}{T_1}\right)$$
 
 - 已知某温度 $T_1$ 的 $\Delta G^\theta$，可用上式求另一温度 $T_2$ 的 $\Delta G^\theta$（假设 $\Delta H^\theta$ 不随温度变）。
+- 若 $\Delta H^\theta$ 随温度变化，先用 **Kirchhoff 定律** $\Delta_r H^\theta(T_2)=\Delta_r H^\theta(T_1)+\int_{T_1}^{T_2}\Delta_r C_p^\theta\,dT$ 求出对应温度的 $\Delta H^\theta$，再代回上式。
 - 与 van't Hoff 的关系：$K$ 随温度由 $\Delta H^\theta$ 决定（物化综合计算 §〇 已讲），两者是**同一件事**在"自由能语言"与"平衡常数语言"下的表达。
 
 ---
@@ -190,14 +192,33 @@ $$\frac{N_i}{N} = \frac{g_i\, e^{-\beta \varepsilon_i}}{q}, \qquad \beta = \frac
 - $q$：**分子配分函数**（归一化因子），$q = \sum_j g_j e^{-\beta\varepsilon_j}$；
 - 物理意义：低温/高能级 → 占据数指数衰减；高温 → 各能级趋于均匀。
 
-### 4.2 配分函数的分解
+**推导链（为什么是 Boltzmann 分布）**：
+
+1. **构型与权重**：把 $N$ 个分子分配到能级 $\{\varepsilon_1, \varepsilon_2, \dots\}$，占据数 $\{N_1, N_2, \dots\}$ 称为一个**构型**；该构型的**权重**（微观状态数）$W = \dfrac{N!}{N_1!\,N_2!\,\cdots}$。
+2. **Stirling 近似**：$\ln n! \approx n\ln n - n$，故 $\ln W \approx N\ln N - \sum_j N_j\ln N_j$。
+3. **最概然分布**：等概率原理 → 宏观平衡态对应**微观状态数最多**的构型；$N$ 极大时最概然分布几乎必然出现，即观测分布 = 使 $W$ 最大的分布。
+4. **Lagrange 乘子法**：在约束 $\sum_j N_j = N$（粒子守恒）、$\sum_j N_j\varepsilon_j = U$（能量守恒）下最大化 $\ln W$，引入乘子 $\alpha,\ \beta$：
+$$\frac{\partial}{\partial N_j}\left[\ln W - \alpha\sum_j N_j - \beta\sum_j N_j\varepsilon_j\right] = 0 \;\Longrightarrow\; \frac{N_j}{N} = \frac{e^{-\beta\varepsilon_j}}{\sum_i e^{-\beta\varepsilon_i}}$$
+5. **简并度修正**：能级 $\varepsilon_j$ 若有简并度 $g_j$，其微观状态数扩 $g_j$ 倍 → $N_j \propto g_j e^{-\beta\varepsilon_j}$，即
+$$\frac{N_j}{N} = \frac{g_j\, e^{-\beta\varepsilon_j}}{\sum_i g_i e^{-\beta\varepsilon_i}} = \frac{g_j\, e^{-\beta\varepsilon_j}}{q}$$
+6. **$\beta$ 的热力学身份**：对比 $U - U(0) = NkT^2\left(\frac{\partial\ln q}{\partial T}\right)_V$ 与 $S = k\ln W$ 可证 $\beta = 1/(kT)$——**温度是分布参数**（温度的统计本质）。
+
+> [!tip] 记忆锚
+> 三个数：$\beta = 1/kT$、$q = \sum_j g_j e^{-\beta\varepsilon_j}$、$N_j/N = g_j e^{-\beta\varepsilon_j}/q$。推导只考思路（构型 → 最概然 → 乘子），不要求背 Lagrange 细节。
 
 分子能量近似可分解为平动 + 转动 + 振动 + 电子：
 
 $$q = q^T \cdot q^R \cdot q^V \cdot q^E$$
 
-> ![[55b591c48a387bf35292cc9de8a74c38ed5e9f7a5a22d1df7c1d1f05f19fd13d.jpg]]
-*图 2 分子配分函数 q 的分解与依赖变量关系图*：配分函数分解树——分子 q 分为 平动/转动/振动/电子 四支，每支标注其依赖的量（T、σ、ν̃ 等）。
+**为什么能连乘？** 能量可加 → $\varepsilon = \varepsilon^T + \varepsilon^R + \varepsilon^V + \varepsilon^E$，指数相乘 $e^{-\beta\varepsilon} = e^{-\beta\varepsilon^T}\cdot e^{-\beta\varepsilon^R}\cdot e^{-\beta\varepsilon^V}\cdot e^{-\beta\varepsilon^E}$；对全部能级求和后交叉项完全分离，$q$ 分解为四支**独立相乘**。每支只需知道该模式的“能量量子化方式”：平动靠容器 $V$、转动靠转动常数 $\tilde{B}$、振动靠波数 $\tilde{\nu}$、电子靠基态简并度与激发态能差。
+
+> [!note] 分子配分函数 q 的分解与依赖变量
+> q = q^T·q^R·q^V·q^E（四支独立相乘）
+> - 平动 q^T：依赖 V、T（热波长 Λ）
+> - 转动 q^R：依赖 T、σ、B̃
+> - 振动 q^V：依赖 T、ν̃
+> - 电子 q^E：依赖基态简并度 g₀
+
 
 ### 4.3 各模式配分函数（了解会用）
 
@@ -253,9 +274,13 @@ $$S = Nk\left[\ln\frac{V}{N\Lambda^3} + \frac{5}{2}\right] = nR\left[\ln\frac{V_
 - 残余熵 $S_0 = k\ln W_0$（$W_0$ 为 0 K 时的微观状态数）。
 - 例：CO 晶体每个分子有 2 种取向 → $W_0 = 2^{N}$ → $S_0 = Nk\ln 2 = R\ln 2$。
 - 意义：**统计熵与热力学熵在 0 K 的差异证据**（认知冲突三的落点）。
+- 微观解释：0 K 附近晶格热容服从 **Debye T³ 定律**（$C_V \propto T^3$），温度越低振动自由度冻结越彻底，故完美晶体 0 K 熵趋于 0；取向无序不受此限，留下残余熵。
 
-> ![[126fa04ad01b7940961ac90eff61f58a5fc39c1b9d03988f7b788ab5b0ea90f2.jpg]]
-*图 3 Sackur-Tetrode 方程：平动熵随 T 和 V 变化关系*：Sackur-Tetrode 熵随温度/体积变化示意；或残余熵示意（CO 分子取向无序）。
+> [!note] Sackur-Tetrode 方程与残余熵
+> 离域子平动熵：S = nR·ln(V_m·e^{5/2} / N_A·Λ³)
+> 残余熵：CO 晶体 0K 下 S₀ = k·ln(2^N) = R·ln2
+> Debye T³ 定律解释完美晶体 0K 熵→0
+
 
 ---
 
@@ -269,7 +294,7 @@ $$S = Nk\left[\ln\frac{V}{N\Lambda^3} + \frac{5}{2}\right] = nR\left[\ln\frac{V_
 | 内能 U | $U = NkT^2(\partial\ln q/\partial T)_V$ | 配分函数 |
 | 自由能 A | $A = -NkT\ln q$ | 配分函数 |
 | 热容 C | $\partial U/\partial T$ | 配分函数 |
-| 平衡常数 K | $\Delta A^\theta = -RT\ln K$ | 配分函数（拓展 13F） |
+| 平衡常数 K | $\Delta G^\theta = -RT\ln K$ | 配分函数 → 平衡常数 |
 
 > **一句话**：宏观热力学解决"能发生什么"（判据），统计热力学解释"为什么"（微观起源）。Maxwell 关系是热力学内部的"变形金刚"，配分函数是宏观-微观的"翻译机"。
 
@@ -308,7 +333,7 @@ $$S = Nk\left[\ln\frac{V}{N\Lambda^3} + \frac{5}{2}\right] = nR\left[\ln\frac{V_
 
 ## 核心公式速查
 
-> 考前一张纸：按模块查公式。易错提醒与正文各节 [!warning] 呼应。
+> 考前一张纸：按模块查公式。
 
 ### 热力学关系
 
@@ -359,9 +384,10 @@ $$S = Nk\left[\ln\frac{V}{N\Lambda^3} + \frac{5}{2}\right] = nR\left[\ln\frac{V_
 
 11. **Sackur-Tetrode**：Ar（$M=39.95$ g/mol，单原子），300K、1 atm，求摩尔绝对熵 $S_m$（已知 $N_A\Lambda^3/V_m$ 计算结果，代入公式）。
 12. **残余熵**：CO 晶体在 0 K 每个分子 2 种取向无序，求 1 mol CO 晶体的残余熵（用 $S_0 = Nk\ln2$）。
-13. **Boltzmann 分布应用**（Atkins 13A.1 类）：某分子基态简并度 1、第一激发态 $\varepsilon=2.0\times10^{-20}$ J、简并度 3。300K 时求激发态占据比例。
+13. **Boltzmann 分布应用**：某分子基态简并度 1、第一激发态 $\varepsilon=2.0\times10^{-20}$ J、简并度 3。300K 时求激发态占据比例。
 14. **Maxwell 综合**：证明理想气体 $C_p-C_V = nR$ 用热容差公式 + 理想气体状态方程。
-15. **拓展（13F 简要）**：说明为何配分函数能求平衡常数（$K \propto q_{产物}/q_{反应物}$），并指出其适用条件（理想气体、独立粒子）。
+15. **拓展**：说明为何配分函数能求平衡常数（$K \propto q_{产物}/q_{反应物}$），并指出其适用条件（理想气体、独立粒子）。
+- 参考完整式：$K=\dfrac{(q_{产物}/V)^{\nu_{产物}}}{(q_{反应物}/V)^{\nu_{反应物}}}\times\left(\dfrac{RT}{p^\circ}\right)^{\Delta\nu}$（$\Delta\nu$ 为产物计量数之和减反应物计量数之和）
 
 ---
 
@@ -377,6 +403,4 @@ $$S = Nk\left[\ln\frac{V}{N\Lambda^3} + \frac{5}{2}\right] = nR\left[\ln\frac{V_
 
 ---
 
-*本讲义依据 [[模板-学生讲义]] 自学完整版 v3.0 生成，承接 [[决赛04-热力学]]，4-7 物化线第三讲义。*
 
-*深度边界：不展开正则系综（Atkins 13D）、配分函数算平衡常数完整推导（13F）、量子统计、Debye 理论完整推导。*

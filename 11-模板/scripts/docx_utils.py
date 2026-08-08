@@ -57,13 +57,29 @@ LINE_SPACING_BODY = 1.25      # 正文行距
 WORD_NS = "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
 
 
+def _dedupe_first_tag_xmlns(first_tag: str) -> str:
+    """Remove duplicate xmlns declarations from the first start tag."""
+    attr_re = re.compile(r'xmlns(?::[A-Za-z_][A-Za-z0-9._-]*)?="[^"]*"')
+    attrs = attr_re.findall(first_tag)
+    if len(attrs) <= 1:
+        return first_tag
+    seen: dict[str, str] = {}
+    for attr in attrs:
+        key = attr.split("=", 1)[0]
+        seen.setdefault(key, attr)
+    cleaned = attr_re.sub("", first_tag).rstrip()
+    return cleaned + " " + " ".join(seen.values())
+
+
 def _repair_word_namespaces(docx_path: Path) -> bool:
     """Repair missing `w` / `ns0` namespace declarations in Word XML parts.
 
     Some Pandoc outputs mix `<w:...>` and `<ns0:...>` inside the same OOXML
     part but declare only one prefix on the root node. `python-docx` then
     fails while parsing that part. If detected, inject the missing namespace
-    declarations before loading the document.
+    declarations before loading the document. The first start tag is inspected
+    instead of only the head so a declaration placed later in the same tag is
+    not duplicated.
     """
     with zipfile.ZipFile(docx_path, "r") as zin:
         zip_entries = []
@@ -76,25 +92,25 @@ def _repair_word_namespaces(docx_path: Path) -> bool:
                 continue
 
             text = data.decode("utf-8", errors="replace")
-            head = text[:500]
-            need_w = "<w:" in text and 'xmlns:w="' not in head
-            need_ns0 = "<ns0:" in text and 'xmlns:ns0="' not in head
-
-            if need_w or need_ns0:
+            tag_match = re.search(r"(<[A-Za-z_][^>]*?)(/?>)", text, flags=re.DOTALL)
+            if tag_match:
+                first_tag = _dedupe_first_tag_xmlns(tag_match.group(1))
+                need_w = "<w:" in text and 'xmlns:w="' not in first_tag
+                need_ns0 = "<ns0:" in text and 'xmlns:ns0="' not in first_tag
                 extra = ""
                 if need_w:
                     extra += f' xmlns:w="{WORD_NS}"'
                 if need_ns0:
                     extra += f' xmlns:ns0="{WORD_NS}"'
-
-                repaired_text, n = re.subn(
-                    r"(<[^!?][^>]*)(>)",
-                    rf"\1{extra}\2",
-                    text,
-                    count=1,
-                )
-                if n:
-                    text = repaired_text
+                if extra:
+                    first_tag = first_tag.rstrip() + " " + extra.lstrip()
+                if first_tag != tag_match.group(1):
+                    text = (
+                        text[: tag_match.start(1)]
+                        + first_tag
+                        + tag_match.group(2)
+                        + text[tag_match.end(2) :]
+                    )
                     data = text.encode("utf-8")
                     changed = True
 
@@ -380,6 +396,47 @@ SUPERSCRIPT_CHAR_MAP = {
     "⁼": "=",
     "⁽": "(",
     "⁾": ")",
+    # 字母型上下标：TNR/SimSun 常缺字，打印会变空白框；统一转成 Word 原生上下标
+    "ʰ": "h",
+    "ʲ": "j",
+    "ʳ": "r",
+    "ʷ": "w",
+    "ʸ": "y",
+    "ᴬ": "A",
+    "ᴮ": "B",
+    "ᴰ": "D",
+    "ᴱ": "E",
+    "ᴳ": "G",
+    "ᴴ": "H",
+    "ᴵ": "I",
+    "ᴶ": "J",
+    "ᴷ": "K",
+    "ᴸ": "L",
+    "ᴹ": "M",
+    "ᴺ": "N",
+    "ᴼ": "O",
+    "ᴾ": "P",
+    "ᴿ": "R",
+    "ᵀ": "T",
+    "ᵁ": "U",
+    "ᵂ": "W",
+    "ᵃ": "a",
+    "ᵇ": "b",
+    "ᵈ": "d",
+    "ᵉ": "e",
+    "ᵍ": "g",
+    "ᵏ": "k",
+    "ᵐ": "m",
+    "ᵒ": "o",
+    "ᵖ": "p",
+    "ᵗ": "t",
+    "ᵘ": "u",
+    "ᵛ": "v",
+    "ᵟ": "δ",
+    "ᵠ": "φ",
+    "ᵡ": "χ",
+    "ⁱ": "i",
+    "ⁿ": "n",
 }
 
 SUBSCRIPT_CHAR_MAP = {
@@ -398,6 +455,28 @@ SUBSCRIPT_CHAR_MAP = {
     "₌": "=",
     "₍": "(",
     "₎": ")",
+    "ₐ": "a",
+    "ₑ": "e",
+    "ₒ": "o",
+    "ₓ": "x",
+    "ₔ": "ə",
+    "ₕ": "h",
+    "ₖ": "k",
+    "ₗ": "l",
+    "ₘ": "m",
+    "ₙ": "n",
+    "ₚ": "p",
+    "ₛ": "s",
+    "ₜ": "t",
+    "ᵢ": "i",
+    "ᵣ": "r",
+    "ᵤ": "u",
+    "ᵥ": "v",
+    "ᵦ": "β",
+    "ᵧ": "γ",
+    "ᵨ": "ρ",
+    "ᵩ": "φ",
+    "ᵪ": "χ",
 }
 
 

@@ -193,7 +193,7 @@ $$\mu_i = \mu_i^*(T,p) + RT\ln x_i$$
 
 **稀溶液中**：
 - 溶剂：$\mu_1 = \mu_1^* + RT\ln x_1$（Raoult定律）
-- 溶质：$\mu_2 = \mu_2^\ominus + RT\ln x_2$（Henry定律）
+- 溶质：$\mu_2 = \mu_2^\theta + RT\ln x_2$（Henry定律）
 
 其中溶质的标准态是假想的纯溶质状态（$x_2 = 1$时仍符合Henry定律的状态）。
 

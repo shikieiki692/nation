@@ -1,7 +1,7 @@
 ---
 title: 题库 Dataview 组卷查询验证
 type: 活跃任务卡
-status: completed
+status: archived
 completed: 2026-06-12
 priority: P1
 area: 题库系统

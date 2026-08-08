@@ -89,7 +89,7 @@ $$
 **第 1 步**：叶立德的碳（带形式负电）亲核进攻羰基 C：
 
 $$
-\ce{R^1R^2C=O + ^{\ominus}CH2-S^+Me2 -> R^1R^2C(O^-)-CH2-S^+Me2}
+\ce{R^1R^2C=O + ^{\theta}CH2-S^+Me2 -> R^1R^2C(O^-)-CH2-S^+Me2}
 $$
 
 形成 **甜菜碱（betaine）** 中间体（带 −O 与 +SMe₂）。

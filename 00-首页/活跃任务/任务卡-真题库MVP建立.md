@@ -1,7 +1,7 @@
 ---
 title: 真题库MVP建立
 type: 活跃任务卡
-status: completed
+status: archived
 priority: P1
 area: 真题库-深度修复
 owner: Agent

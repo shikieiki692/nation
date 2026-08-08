@@ -100,10 +100,10 @@ Pourbaix 图通过分析元素各氧化态物种之间的平衡反应，在 $E$-
 
 #### （1）水平线 — 只涉及电子转移（$E$ 与 $pH$ 无关）
 - 半反应不涉及 $H^+$：$Ox + \nu e^- \longrightarrow Red$
-- 能斯特方程：$E = E^{\ominus} - \frac{RT}{\nu F}\ln\frac{[Red]}{[Ox]}$
-- 在标准态下为水平线：$E = E^{\ominus}$
+- 能斯特方程：$E = E^{\theta} - \frac{RT}{\nu F}\ln\frac{[Red]}{[Ox]}$
+- 在标准态下为水平线：$E = E^{\theta}$
 
-**示例**：$Fe^{3+} + e^- \longrightarrow Fe^{2+} \quad E^{\ominus}=+0.77\,\mathrm{V}$
+**示例**：$Fe^{3+} + e^- \longrightarrow Fe^{2+} \quad E^{\theta}=+0.77\,\mathrm{V}$
 
 #### （2）竖直线 — 只涉及质子转移（非氧化还原反应）
 - 沉淀-溶解或酸碱反应，不涉及电子转移：$E$ 不出现于平衡式中。
@@ -116,7 +116,7 @@ Pourbaix 图通过分析元素各氧化态物种之间的平衡反应，在 $E$-
 #### （3）斜线 — 既涉及电子转移又涉及质子转移
 - 半反应涉及 $H^+$ 和 $e^-$：$Ox + \nu_e e^- + \nu_p H^+ \longrightarrow RedH_{\nu_p}$
 - 能斯特方程对 $pH$ 作图的斜率为：
-$$E = E^{\ominus} - \frac{0.059\,\mathrm{V}}{\nu_e}\times\nu_p \times pH \quad (25\,^{\circ}\mathrm{C})$$
+$$E = E^{\theta} - \frac{0.059\,\mathrm{V}}{\nu_e}\times\nu_p \times pH \quad (25\,^{\circ}\mathrm{C})$$
 - 斜率大小：$-(0.059\,\mathrm{V})\times\nu_p/\nu_e$
 
 **示例**：$Fe(OH)_3(s) + 3H^+ + e^- \longrightarrow Fe^{2+} + 3H_2O$
@@ -154,7 +154,7 @@ $$E = E^{\ominus} - \frac{0.059\,\mathrm{V}}{\nu_e}\times\nu_p \times pH \quad (
 
 | 比较项 | Latimer 图 | Frost 图 | Pourbaix 图 |
 |:---|:---|:---|:---|
-| 坐标 | 一维线性链 | $N$ vs $\nu E^{\ominus}$ | $pH$ vs $E$ |
+| 坐标 | 一维线性链 | $N$ vs $\nu E^{\theta}$ | $pH$ vs $E$ |
 | 核心变量 | 氧化态 | 氧化态 + Gibbs 自由能 | $pH$ + 电位 |
 | 能展示的内容 | 单一元素各氧化态间的电位 | 单一元素各氧化态的相对稳定性 | **特定条件下**哪种物种稳定 |
 | pH 信息 | 酸碱条件分别作图 | 酸碱条件分别作图 | **横轴直接为 pH** |

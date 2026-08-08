@@ -1,7 +1,7 @@
 ---
 title: 新 KP module 字段核对
 type: 活跃任务卡
-status: completed
+status: archived
 priority: P2
 area: Frontmatter治理
 owner: Agent

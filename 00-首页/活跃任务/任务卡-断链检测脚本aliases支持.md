@@ -1,7 +1,7 @@
 ---
 title: 断链检测脚本 aliases 支持
 type: 活跃任务卡
-status: completed
+status: archived
 priority: P2
 area: 脚本维护
 owner: Agent
