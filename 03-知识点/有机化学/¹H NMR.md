@@ -8,6 +8,8 @@ aliases:
   - Proton NMR
   - NMR谱图
   - 核磁氢谱
+  - n+1规则
+  - 化学等价
 type: 知识点
 template_version: v1.3
 subject: 有机化学

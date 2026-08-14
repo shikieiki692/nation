@@ -1,4 +1,7 @@
 ---
+deprecated: true
+deprecatedDate: 2026-08-13
+sunsetDate: 2026-08-20
 title: KP-提炼-题库挂接巡检表
 type: 系统
 role: 挂接度巡检

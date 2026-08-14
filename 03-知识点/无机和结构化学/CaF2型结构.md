@@ -1,6 +1,6 @@
 ---
 title: CaF2型结构
-aliases: [萤石型, Fluorite, 反萤石型]
+aliases: [萤石型, Fluorite, 反萤石型, 萤石型结构]
 type: 知识点
 template_version: v1.3
 subject: 无机和结构化学

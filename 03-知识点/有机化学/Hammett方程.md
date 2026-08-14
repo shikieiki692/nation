@@ -1,6 +1,6 @@
 ---
 title: Hammett方程
-aliases: [Hammett Equation]
+aliases: [Hammett Equation, 线性自由能关系]
 type: 知识点
 subject: 有机化学
 module: 有机化学

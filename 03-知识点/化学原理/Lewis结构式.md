@@ -3,6 +3,7 @@ type: 知识点
 template_version: v1.3
 module: 化学原理
 title: "Lewis结构式"
+aliases: [路易斯结构]
 created: 2026-07-18
 updated: 2026-07-23
 tags: [化竞, 化学原理, 化学键]

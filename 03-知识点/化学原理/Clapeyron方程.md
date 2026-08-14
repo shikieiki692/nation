@@ -4,6 +4,7 @@ template_version: v1.3
 subject: 化学原理
 module: 化学原理
 title: "Clapeyron方程"
+aliases: [克拉佩龙方程]
 created: 2026-07-18
 updated: 2026-07-23
 tags: [化竞, 化学原理, 热力学]

@@ -2,6 +2,7 @@
 type: 知识点
 template_version: v1.3
 title: "Cahn-Ingold-Prelog规则"
+aliases: [CIP排序规则]
 subject: 有机化学
 module: 立体化学
 tags: [化竞, 有机化学, 立体化学]

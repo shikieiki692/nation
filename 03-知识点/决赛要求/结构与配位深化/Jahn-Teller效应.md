@@ -1,6 +1,6 @@
 ---
 title: Jahn-Teller效应
-aliases: [Jahn-Teller Effect, JT畸变, 姜-泰勒效应]
+aliases: [Jahn-Teller Effect, JT畸变, 姜-泰勒效应, 姜泰勒效应]
 type: 知识点
 template_version: v1.3
 subject: 无机和结构化学

@@ -1,6 +1,6 @@
 ---
 title: Sakurai烯丙基化
-aliases: [Sakurai-Hosomi反应, Hosomi-Sakurai反应, Hosomi-Sakurai allylation, Sakurai allylation, 樱井烯丙基化, 烯丙基硅烷亲电加成, allylsilane addition]
+aliases: [Sakurai-Hosomi反应, Hosomi-Sakurai反应, Hosomi-Sakurai allylation, Sakurai allylation, 樱井烯丙基化, 烯丙基硅烷亲电加成, allylsilane addition, 烯丙基硅烷]
 type: 知识点
 subject: 有机化学
 module: 有机化学

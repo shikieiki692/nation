@@ -5,7 +5,7 @@ subject: 有机化学
 module: 有机化学
 submodule: 周环反应
 title: "Diels-Alder反应"
-aliases: ["3-偶极环加成", 环加成反应]
+aliases: ["3-偶极环加成", 环加成反应, "endo/exo", 共轭二烯, 逆电子需求]
 created: 2026-07-18
 updated: 2026-07-23
 tags: [化竞, 有机化学, 周环反应]

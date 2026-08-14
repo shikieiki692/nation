@@ -1,6 +1,6 @@
 ---
 title: Lambert-Beer定律
-aliases: [Beer定律, 光吸收定律, Beer-Lambert Law]
+aliases: [Beer定律, 光吸收定律, Beer-Lambert Law, 朗伯-比尔定律]
 type: 知识点
 template_version: v1.3
 subject: 分析化学

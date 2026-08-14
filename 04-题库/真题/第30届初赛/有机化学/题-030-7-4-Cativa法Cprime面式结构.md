@@ -7,7 +7,7 @@ subject: 有机化学
 difficulty: 4
 teaching_level: 竞赛拔高
 syllabus_codes: []
-knowledge_points: ["[["配合物异构"]]", "[[CO取代]]", "[[甲基迁移]]", "[[类比推理]]"]
+knowledge_points: ["[[配合物异构]]", "[[CO取代]]", "[[甲基迁移]]", "[[类比推理]]"]
 tags: [化竞, 真题, 30届, 有机化学]
 updated: 2026-05-12
 aliases: [30届初赛-7.4, Cativa法, Ir配合物, 面式结构, CO取代, 甲基迁移]

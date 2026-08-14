@@ -3,7 +3,7 @@ type: 知识点
 template_version: v1.3
 module: 有机化学
 title: "Friedel-Crafts反应"
-aliases: ["Friedel-Crafts烷基化"]
+aliases: ["Friedel-Crafts烷基化", "Friedel-Crafts酰基化"]
 created: 2026-07-18
 updated: 2026-07-23
 tags: [化竞, 有机化学, 人名反应]

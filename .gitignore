@@ -13,3 +13,20 @@ Thumbs.db
 
 __pycache__/
 *.pyc
+
+# PDF 不同步（不提交到远程）
+*.pdf
+*.PDF
+
+# 图片检索/下载脚本临时产物
+search_results.txt
+mismatches.json
+md_images*.txt
+mapping_flat.txt
+download_results*.json
+all_results.json
+
+# 扫描书页图（只同步 OCR 文本，不同步书页图）
+/无机化学下册/**/*.jpg
+/中级无机化学/**/*.jpg
+/各省预赛题目/**/*.jpg

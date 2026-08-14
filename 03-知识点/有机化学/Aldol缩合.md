@@ -4,6 +4,7 @@ template_version: v1.3
 subject: 有机化学
 module: 有机化学
 title: "逆羟醛缩合"
+aliases: [Zimmerman-Traxler模型]
 created: 2026-07-18
 updated: 2026-07-23
 tags: [化竞, 有机化学, 缩合反应]

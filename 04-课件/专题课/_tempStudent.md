@@ -1,4 +1,8 @@
 ---
+deprecated: true
+deprecatedDate: 2026-08-14
+sunsetDate: 2026-08-21
+supersededBy: 04-课件/专题课/第一轮结构化学专题课-学生用合集（完整版）.md
 
 
 title: _tempStudent

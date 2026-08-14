@@ -3,7 +3,7 @@ title: 金属晶体 CIF 文件库
 type: 资源索引
 purpose: 金属晶体结构 CIF 数据
 created: 2026-08-01
-updated: 2026-08-01
+updated: 2026-08-08
 tags: [可视化, CIF, 金属晶体]
 ---
 
@@ -22,6 +22,7 @@ tags: [可视化, CIF, 金属晶体]
 | Ti | 六方密堆（hcp） | P6₃/mmc | 12 | 轻质高强金属 |
 | Al | 面心立方（fcc） | Fm-3m | 12 | A1型密堆积 |
 | Cr | 体心立方（bcc） | Im-3m | 8 | 硬度高 |
+| MgB₂ | 金属间化合物 | P6/mmm | Mg:12 / B:6 | AlB₂型层状、超导Tc=39K |
 
 ## 密堆积对比
 
@@ -49,6 +50,7 @@ tags: [可视化, CIF, 金属晶体]
 | Cr-Im-3m.cif | Cr (体心立方) | Im-3m (229) | 教学标准数据 |
 | Ti-P63mmc.cif | Ti (六方密堆) | P6₃/mmc (194) | 教学标准数据 |
 | Zn-P63mmc.cif | Zn (六方密堆) | P6₃/mmc (194) | 教学标准数据 |
+| MgB2-P6mmm.cif | MgB₂ (二硼化镁) | P6/mmm (191) | COD 1526507 (Jorgensen, 2001) |
 | Pt-Fm-3m.cif | Pt (面心立方) | Fm-3m (225) | 教学标准数据 |
 
 ## 来源

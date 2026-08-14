@@ -13,7 +13,7 @@ question_type: 简答题
 difficulty: 4
 teaching_level: 竞赛拔高
 syllabus_codes: []
-knowledge_points: ["[[Friedel-Crafts酰基化]]"]
+knowledge_points: ["[[Friedel-Crafts反应]]", "[[动力学控制]]"]
 tags: [化竞, 真题, 38届, 有机化学]
 updated: 2026-05-11
 status: 已填充

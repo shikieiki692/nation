@@ -1,6 +1,6 @@
 ---
 title: Horner-Wadsworth-Emmons反应
-aliases: [HWE反应, Horner-Wadsworth-Emmons Reaction, Horner-Emmons反应, 膦酸酯烯化反应]
+aliases: [HWE反应, Horner-Wadsworth-Emmons, Horner-Wadsworth-Emmons Reaction, Horner-Emmons反应, 膦酸酯烯化反应]
 type: 知识点
 template_version: v1.3
 subject: 有机化学

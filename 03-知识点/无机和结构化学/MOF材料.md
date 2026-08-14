@@ -3,6 +3,7 @@ type: 知识点
 template_version: v1.3
 module: 无机和结构化学
 title: "MOF材料"
+aliases: [MOF材料深化, 多孔材料, 多孔材料深化, 沸石, 配位聚合物]
 created: 2026-07-18
 updated: 2026-07-18
 tags: [化竞, 无机和结构化学, 材料化学]

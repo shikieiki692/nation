@@ -3,6 +3,7 @@ type: 知识点
 template_version: v1.3
 module: 有机化学
 title: "Woodward-Hoffmann规则"
+aliases: [Orbital Symmetry, 轨道对称性守恒, 轨道对称性]
 created: 2026-07-18
 updated: 2026-07-23
 tags: [化竞, 有机化学, 周环反应]

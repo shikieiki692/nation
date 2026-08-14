@@ -751,6 +751,10 @@ def check_lifecycle(file: Path, fm: dict[str, Any], body: str, report: Report) -
                     continue
                 if find_wikilink_target(target, VAULT_ROOT) is not None:
                     continue
+                # Obsidian 目录链接：[[folder]] 指向存在的文件夹时视为有效
+                dir_candidate = VAULT_ROOT / target
+                if dir_candidate.is_dir():
+                    continue
                 # 图片目标：按全库 basename 解析（Obsidian 附件全局可解析）
                 if Path(target).suffix.lower() in {".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg"}:
                     global _IMAGE_INDEX
