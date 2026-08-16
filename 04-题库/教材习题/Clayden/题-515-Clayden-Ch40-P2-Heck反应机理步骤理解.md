@@ -53,7 +53,7 @@ Normally now the alkyl palladium(II) species would lose palladium by β-eliminat
 | Heck反应 | Heck反应的完整催化循环和变体 | 直接 |
 | [[氧化加成]] | Pd(0)对C-I键的氧化加成 | 直接 |
 | [[还原消除]] | 甲酸辅助的还原消除/转移氢化 | 直接 |
-| [[β-消除]] | 为什么此例中β-消除不可能 | 直接 |
+| β-消除 | 为什么此例中β-消除不可能 | 直接 |
 
 ## 解题思路
 

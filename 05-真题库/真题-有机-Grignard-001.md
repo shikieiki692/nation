@@ -2,6 +2,7 @@
 title: "Grignard试剂-溴苯经格氏反应制备苯甲酸"
 aliases: [Grignard试剂, 格氏反应, 苯甲酸合成]
 type: 真题
+status: 已填充
 year: 2021
 source: "中国化学奥林匹克(省级初赛)"
 type_tag: "推断"

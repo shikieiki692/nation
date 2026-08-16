@@ -7,7 +7,7 @@ subject: 有机化学
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["49"]
-knowledge_points: ["[[红外光谱]]", "[[杂化轨道]]", "[[s轨道成分]]"]
+knowledge_points: ["[[红外光谱]]", "[[杂化轨道]]", "s轨道成分"]
 tags: [化竞, 题目, 有机化学]
 updated: 2026-07-10
 aliases: ["题-有机-波谱-04", "题-1602"]
@@ -59,4 +59,4 @@ $$\text{~2850–2960 cm⁻¹} < \text{~3020–3100 cm⁻¹} < \text{~3300 cm⁻�
 
 - [[红外光谱]]
 - [[杂化轨道]]
-- [[s轨道成分]]
+- s轨道成分

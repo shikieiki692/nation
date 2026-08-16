@@ -3,6 +3,7 @@ title: 提炼-化学竞赛初赛讲义-附录A-元素化学复习问题
 aliases:
   - 初赛讲义附录A元素化学复习
 type: 资料提炼
+template_version: v1.2
 source_type: 讲义
 source_book: 化学竞赛初赛讲义
 source_files:

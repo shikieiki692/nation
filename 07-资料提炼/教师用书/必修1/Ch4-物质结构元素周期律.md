@@ -1,5 +1,6 @@
 ---
 title: "必修1 Ch4 - 物质结构 元素周期律 教师用书提炼"
+aliases: ["必修1 Ch4 - 物质结构 元素周期律 教师用书提炼", "必修1 Ch4-物质结构元素周期律 教师用书提炼"]
 type: teacher_edition_note
 source_textbook: "教师教学用书·必修第一册"
 chapter: "第四章 物质结构 元素周期律"

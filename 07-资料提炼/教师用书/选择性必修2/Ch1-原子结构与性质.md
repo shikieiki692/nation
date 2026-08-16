@@ -1,5 +1,6 @@
 ---
 title: "选修2 Ch1 - 原子结构与性质 教师用书提炼"
+aliases: ["选修2 Ch1 - 原子结构与性质 教师用书提炼"]
 type: teacher_edition_note
 source_textbook: "教师教学用书·选择性必修2 物质结构与性质"
 chapter: "第一章 原子结构与性质"

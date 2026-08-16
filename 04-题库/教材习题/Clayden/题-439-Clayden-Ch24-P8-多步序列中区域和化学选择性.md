@@ -66,7 +66,7 @@ Comment on the regioselectivity and chemoselectivity of the reactions in the seq
 |---|---|:---:|
 | [[区域选择性]] | 多个亲核位点中的选择性进攻 | 直接 |
 | [[化学选择性]] | NaBH4选择性还原C=N+而不还原C=C | 直接 |
-| [[苄基化学]] | 苄基位的亲核取代特殊性 | 间接 |
+| 苄基化学 | 苄基位的亲核取代特殊性 | 间接 |
 | [[吡啶]] | 吡啶氮的亲核性和吡啶鎓盐的反应性 | 间接 |
 
 ## 解题思路

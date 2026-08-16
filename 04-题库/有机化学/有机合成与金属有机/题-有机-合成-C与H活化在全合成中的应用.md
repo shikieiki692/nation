@@ -7,7 +7,7 @@ subject: 有机化学
 difficulty: 5
 teaching_level: 强化
 syllabus_codes: ["49"]
-knowledge_points: ["[[C-H活化]]", "[[过渡金属催化]]", "[[导向基策略]]", "[[全合成]]"]
+knowledge_points: ["[[C-H活化]]", "[[过渡金属催化]]", "导向基策略", "[[全合成]]"]
 tags: [化竞, 题目, 有机化学, 决赛]
 updated: 2026-07-10
 aliases: ["题-有机-合成-06"]
@@ -89,5 +89,5 @@ Ph-C-NH-Py  +  Ar-I  →  Pd(OAc)₂/AgOAc
 
 - C-H活化
 - [[过渡金属催化]]
-- [[导向基策略]]
+- 导向基策略
 - [[全合成]]

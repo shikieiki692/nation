@@ -7,7 +7,7 @@ subject: 有机化学
 difficulty: 4
 teaching_level: 强化
 syllabus_codes: ["49"]
-knowledge_points: ["[[NMR谱学]]", "[[化学等价]]", "[[磁等价]]", "[[偶合裂分]]"]
+knowledge_points: ["[[NMR谱学]]", "[[化学等价]]", "磁等价", "偶合裂分"]
 tags: [化竞, 题目, 有机化学]
 updated: 2026-07-10
 aliases: ["题-有机-波谱-10"]
@@ -85,5 +85,5 @@ $$\text{CH}_3\text{-CH}_2\text{-O-CH}_2\text{-CH}_3$$
 
 - [[NMR谱学]]
 - [[化学等价]]
-- [[磁等价]]
-- [[偶合裂分]]
+- 磁等价
+- 偶合裂分

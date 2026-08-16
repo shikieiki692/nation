@@ -1,6 +1,6 @@
 ---
 title: Fischer吲哚合成
-aliases: [Fischer Indole Synthesis, Fischer吲哚, 苯肼吲哚合成, 吲哚合成]
+aliases: [Fischer Indole Synthesis, Fischer吲哚, 苯肼吲哚合成, 吲哚合成, Fischer吲哚合成深化]
 type: 知识点
 template_version: v1.3
 subject: 有机化学

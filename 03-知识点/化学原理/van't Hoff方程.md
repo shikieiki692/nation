@@ -4,6 +4,7 @@ template_version: v1.3
 subject: 化学原理
 module: 化学原理
 title: "van't Hoff方程"
+aliases: [van't Hoff方程深化]
 created: 2026-07-18
 updated: 2026-07-23
 tags: [化竞, 化学原理, 化学平衡]

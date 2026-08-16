@@ -1,6 +1,6 @@
 ---
 title: Felkin-Anh模型
-aliases: [Felkin-Anh Model]
+aliases: [Felkin-Anh Model, 螯合控制]
 type: 知识点
 subject: 有机化学
 module: 有机化学

@@ -72,7 +72,7 @@ Give a mechanism for the elimination reaction in the formation of tamoxifen, a b
 |---|---|:---:|
 | E1反应 | E1消除的机理和特征 | 直接 |
 | [[消除反应]] | E1与E2的区分 | 直接 |
-| [[烯烃异构化]] | 产物平衡和50:50混合物 | 间接 |
+| 烯烃异构化 | 产物平衡和50:50混合物 | 间接 |
 
 ## 解题思路
 

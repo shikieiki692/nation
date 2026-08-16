@@ -7,7 +7,7 @@ subject: 有机化学
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["49"]
-knowledge_points: ["[[质谱]]", "[[同位素峰]]", "[[氯同位素]]"]
+knowledge_points: ["[[质谱]]", "[[同位素峰]]", "氯同位素"]
 tags: [化竞, 题目, 有机化学]
 updated: 2026-07-10
 aliases: ["题-有机-波谱-06"]
@@ -73,4 +73,4 @@ $$\boxed{M : M+2 : M+4 \approx 9 : 6 : 1}$$
 
 - [[质谱]]
 - [[同位素峰]]
-- [[氯同位素]]
+- 氯同位素

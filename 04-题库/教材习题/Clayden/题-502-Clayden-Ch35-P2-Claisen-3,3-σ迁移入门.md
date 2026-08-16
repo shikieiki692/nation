@@ -80,7 +80,7 @@ This product was used in a synthesis of chrysanthemic acid by Jacqueline Ficini 
 | [[σ迁移反应]] | [3,3]-σ迁移的定义和机理 | 直接 |
 | [[Claisen重排]] | 烯丙基乙烯基醚的[3,3]-σ迁移 | 直接 |
 | [[周环反应]] | 6电子同面迁移的Woodward-Hoffmann规则 | 间接 |
-| [[椅式构象]] | 过渡态的椅式构象对立体化学的控制 | 间接 |
+| 椅式构象 | 过渡态的椅式构象对立体化学的控制 | 间接 |
 
 ## 解题思路
 

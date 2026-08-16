@@ -1,5 +1,6 @@
 ---
 title: "选修3 Ch1 - 有机化合物的结构特点与研究方法 教师用书提炼"
+aliases: ["选修3 Ch1 - 有机化合物的结构特点与研究方法 教师用书提炼"]
 type: teacher_edition_note
 source_textbook: "教师教学用书·选择性必修3 有机化学基础"
 chapter: "第一章 有机化合物的结构特点与研究方法"

@@ -1,6 +1,7 @@
 ---
 title: 提炼-ABOC-第11章-解题训练
 type: 资料提炼
+template_version: v1.1
 source: ABOC（中国化学奥林匹克基础要求自编教材）
 chapter: 11
 chapter_title: 解题训练 · ABOC FINAL TEST

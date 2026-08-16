@@ -2,6 +2,7 @@
 title: "Born-Haber循环-从热力学数据计算NaCl的晶格能"
 aliases: [玻恩-哈伯循环, 晶格能计算, 热化学循环]
 type: 真题
+status: 已填充
 year: 2020
 source: "中国化学奥林匹克(省级初赛)"
 type_tag: "计算"

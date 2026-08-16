@@ -57,7 +57,7 @@ Conversion of acid derivatives into amines with the loss of the carbonyl group c
 | [[卡宾]] | 重氮酯分解生成卡宾，环丙烷化 | 直接 |
 | [[有机活性中间体]] | 氮烯作为卡宾的氮类似物 | 直接 |
 | [[环丙烷]] | 卡宾环丙烷化产物 | 间接 |
-| [[Hofmann降解]] | 酰胺→胺的降级反应，通过氮烯中间体 | 间接 |
+| Hofmann降解 | 酰胺→胺的降级反应，通过氮烯中间体 | 间接 |
 
 ## 解题思路
 

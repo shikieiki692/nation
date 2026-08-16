@@ -1,5 +1,6 @@
 ---
 title: "必修1 Ch3 - 铁 金属材料 教师用书提炼"
+aliases: ["必修1 Ch3 - 铁 金属材料 教师用书提炼", "必修1 Ch3-铁金属材料 教师用书提炼"]
 type: teacher_edition_note
 source_textbook: "教师教学用书·必修第一册"
 chapter: "第三章 铁 金属材料"

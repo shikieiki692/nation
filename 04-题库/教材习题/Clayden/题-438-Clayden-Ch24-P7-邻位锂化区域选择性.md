@@ -67,7 +67,7 @@ Phenyllithiums are more basic than benzyllithiums, because in benzyllithiums the
 | [[区域选择性]] | 氧原子配位引导的邻位锂化 | 直接 |
 | [[邻位锂化]] | BuLi与配位基团协同的邻位去质子化 | 直接 |
 | [[有机锂试剂]] | BuLi的碱性和配位导向作用 | 直接 |
-| [[双负离子]] | 双负离子中两个负离子的碱性差异和化学选择性 | 间接 |
+| 双负离子 | 双负离子中两个负离子的碱性差异和化学选择性 | 间接 |
 
 ## 解题思路
 

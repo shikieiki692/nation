@@ -2,6 +2,7 @@
 title: "Bragg方程应用-从XRD衍射角和波长计算晶面间距"
 aliases: [X射线衍射, 晶面间距, 衍射角]
 type: 真题
+status: 已填充
 year: 2019
 source: "中国化学奥林匹克(省级初赛)"
 type_tag: "计算"

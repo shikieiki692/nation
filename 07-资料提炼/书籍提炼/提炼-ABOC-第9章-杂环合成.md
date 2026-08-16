@@ -1,6 +1,7 @@
 ---
 title: 提炼-ABOC-第9章-杂环合成
 type: 资料提炼
+template_version: v1.1
 source: ABOC（中国化学奥林匹克基础要求自编教材）
 chapter: 9
 chapter_title: 复习挑战：杂环合成
@@ -323,7 +324,7 @@ Ch.1 结构基础 → Ch.2 基本反应 → Ch.3 烯烃加成 → Ch.4 取代与
 - [[ANRORC]] — 开环-闭环机理
 - [[Dimroth重排]] — 杂原子重排
 - [[Hantzsch吡咯合成]] — 取代吡咯
-- [[Knorr吡咯合成]] — β-酮酯路线
+- Knorr吡咯合成 — β-酮酯路线
 
 ---
 

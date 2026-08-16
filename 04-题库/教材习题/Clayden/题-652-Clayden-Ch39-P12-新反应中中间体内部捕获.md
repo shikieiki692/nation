@@ -94,7 +94,7 @@ Excess MeO⁻ drives the normal Favorskii by capturing the cyclopropanone. Witho
 | [[中间体检测]] | 氧烯丙基阳离子的检测证据 | 直接 |
 | [[Favorskii重排]] | 经典Favorskii与变体的关系 | 间接 |
 | [[电环化反应]] | Nazarov型4π电环化 | 间接 |
-| [[环丙酮]] | 环丙酮中间体的开环选择性 | 间接 |
+| 环丙酮 | 环丙酮中间体的开环选择性 | 间接 |
 
 ## 解题思路
 

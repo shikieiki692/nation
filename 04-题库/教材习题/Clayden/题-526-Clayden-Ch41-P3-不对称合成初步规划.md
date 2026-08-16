@@ -74,7 +74,7 @@ How would you make enantiomerically enriched samples of these compounds (either 
 | [[不对称合成]] | 根据目标结构特征选择不对称合成方法 | 直接 |
 | [[手性中心]] | 识别目标分子中需要构建的手性中心 | 直接 |
 | [[合成设计]] | 逆合成分析中匹配目标特征与合成方法 | 直接 |
-| [[不对称Diels-Alder]] | 构建含手性中心六元环的策略 | 间接 |
+| 不对称Diels-Alder | 构建含手性中心六元环的策略 | 间接 |
 | [[Sharpless不对称环氧化]] | 构建1,2-官能团化手性中心 | 间接 |
 | [[不对称双羟化]] | 构建邻二醇手性中心 | 间接 |
 

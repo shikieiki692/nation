@@ -3,6 +3,7 @@ title: 提炼-化学竞赛初赛讲义-附录B-有机化学知识要点
 aliases:
   - 初赛讲义附录B有机知识要点
 type: 资料提炼
+template_version: v1.2
 source_type: 讲义
 source_book: 化学竞赛初赛讲义
 source_files:
@@ -196,7 +197,7 @@ handout_plan:
 但如果后续决定填补区 13（立体电子效应）的 🔴 空白，可能需要新建以下紧凑桥页：
 - [[异头效应]]（Anomeric effect）
 - [[Baldwin规则]]（Baldwin's rules for ring closure）
-- [[Thorpe-Ingold效应]]（gem-dimethyl effect on cyclization）
+- Thorpe-Ingold效应（gem-dimethyl effect on cyclization）
 
 这三个概念在决赛有机中可能出现，但目前 KB 中独立页面均不存在。**建议暂不新建**——先标记为"待评估"，等后续教学中真正用到时再补。
 

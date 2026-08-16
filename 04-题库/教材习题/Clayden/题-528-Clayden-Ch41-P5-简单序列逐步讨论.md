@@ -79,7 +79,7 @@ The C–N bond can be cleaved reductively by hydrogenation as it is an N-benzyl 
 | [[立体化学基础]] | 非对映选择性控制新生成手性中心 | 直接 |
 | [[合成设计]] | 手性信息传递策略和官能团兼容性 | 直接 |
 | [[拆分技术]] | 苯乙胺的酒石酸盐拆分 | 间接 |
-| [[N-苄基保护]] | C-N键的催化氢化裂解 | 间接 |
+| N-苄基保护 | C-N键的催化氢化裂解 | 间接 |
 
 ## 解题思路
 

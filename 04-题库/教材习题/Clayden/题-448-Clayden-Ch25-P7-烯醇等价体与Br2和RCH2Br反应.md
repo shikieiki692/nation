@@ -67,7 +67,7 @@ In the reaction with the primary alkyl halide, the boot is on the other foot as 
 | [[烯醇负离子]] | 不同烯醇等价体的反应性差异 | 直接 |
 | [[烷基化]] | 烯醇盐与卤化物的SN2反应 | 直接 |
 | [[亲核取代]] | SN2反应中亲电试剂活性的影响 | 直接 |
-| [[卤代反应]] | 烯醇/烯醇盐的α-溴代反应 | 间接 |
+| 卤代反应 | 烯醇/烯醇盐的α-溴代反应 | 间接 |
 
 ## 解题思路
 

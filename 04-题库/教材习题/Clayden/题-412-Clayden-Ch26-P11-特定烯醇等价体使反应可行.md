@@ -66,7 +66,7 @@ The second example might just go with simple base (MeO⁻) catalysis as the conj
 | [[烯醇]] | 烯醇等价体的选择与应用 | 直接 |
 | [[烯醇硅醚]] | 硅基烯醇醚作为稳定烯醇等价体 | 直接 |
 | [[Claisen缩合]] | 烯醇盐/烯胺与酰氯的碳上酰化 | 间接 |
-| [[Stork烯胺合成]] | 烯胺作为醛的烯醇等价体进行酰化 | 间接 |
+| Stork烯胺合成 | 烯胺作为醛的烯醇等价体进行酰化 | 间接 |
 
 ## 解题思路
 

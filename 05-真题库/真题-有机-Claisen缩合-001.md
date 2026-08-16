@@ -2,6 +2,7 @@
 title: "Claisen缩合-乙酸乙酯在乙醇钠作用下的酯缩合"
 aliases: [Claisen缩合, 酯缩合, 乙酰乙酸乙酯合成]
 type: 真题
+status: 已填充
 year: 2023
 source: "中国化学奥林匹克(省级初赛)"
 type_tag: "推断"

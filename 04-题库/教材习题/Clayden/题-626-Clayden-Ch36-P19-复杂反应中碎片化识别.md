@@ -88,7 +88,7 @@ The fragmentation is initiated with base that removes the proton from the NHTs g
 | [[重排反应]] | 从简单酮到炔醛的多步重排序列 | 直接 |
 | [[机理书写]] | 设计反应步骤并画出完整机理 | 直接 |
 | [[环氧化]] | 碱性H₂O₂环氧化酮的α,β-位 | 间接 |
-| [[腙]] | tosylhydrazone作为碎片化前体 | 间接 |
+| 腙 | tosylhydrazone作为碎片化前体 | 间接 |
 
 ## 解题思路
 

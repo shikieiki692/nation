@@ -64,7 +64,7 @@ Finally the dibromide reacts with NaOH to give the new heterocycle. Both S_N2 di
 | [[自由基取代]] | NBS溴化的自由基链反应机理 | 直接 |
 | [[自由基]] | 苄基自由基的形成和稳定性 | 直接 |
 | [[键解离能]] | 苄位C-H键解离能低，易被夺取 | 间接 |
-| [[NBS溴化]] | NBS作为Br₂的缓释源 | 间接 |
+| NBS溴化 | NBS作为Br₂的缓释源 | 间接 |
 
 ## 解题思路
 

@@ -7,7 +7,7 @@ subject: 有机化学
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["49"]
-knowledge_points: ["[[紫外光谱]]", "[[共轭体系]]", "[[λmax]]", "[[Woodward规则]]"]
+knowledge_points: ["[[紫外光谱]]", "[[共轭体系]]", "λmax", "Woodward规则"]
 tags: [化竞, 题目, 有机化学]
 updated: 2026-07-10
 aliases: ["题-有机-波谱-12"]
@@ -92,5 +92,5 @@ status: 已填充
 
 - [[紫外光谱]]
 - [[共轭体系]]
-- [[λmax]]
-- [[Woodward规则]]
+- λmax
+- Woodward规则

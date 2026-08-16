@@ -7,7 +7,7 @@ subject: 有机化学
 difficulty: 5
 teaching_level: 强化
 syllabus_codes: ["49"]
-knowledge_points: ["[[自由基环化]]", "[[Baldwin规则]]", "[[分子内反应]]"]
+knowledge_points: ["自由基环化", "[[Baldwin规则]]", "[[分子内反应]]"]
 tags: [化竞, 题目, 有机化学, 决赛]
 updated: 2026-07-10
 aliases: ["题-有机-自由基-03"]
@@ -88,8 +88,8 @@ status: 已填充
 
 ## 知识点映射
 
-- [[自由基环化]]
+- 自由基环化
 - [[Baldwin规则]]
-- [[5-exo-trig]]
-- [[6-endo-trig]]
+- [[03-知识点/有机化学/Baldwin规则|5-exo-trig]]
+- [[03-知识点/有机化学/Baldwin规则|6-endo-trig]]
 - [[分子内反应]]

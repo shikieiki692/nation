@@ -1,5 +1,6 @@
 ---
 title: "必修2 Ch7 - 有机化合物 教师用书提炼"
+aliases: ["必修2 Ch7 - 有机化合物 教师用书提炼", "必修2 Ch7-有机化合物 教师用书提炼"]
 type: teacher_edition_note
 source_textbook: "教师教学用书·必修第二册"
 chapter: "第七章 有机化合物"

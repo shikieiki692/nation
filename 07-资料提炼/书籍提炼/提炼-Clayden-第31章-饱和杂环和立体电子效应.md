@@ -1,6 +1,7 @@
 ---
 title: 提炼-Clayden-第31章-饱和杂环和立体电子效应
 type: 资料提炼
+template_version: v1.2
 source: Clayden有机化学第2版第31章
 source_path: mineru/中文版clayden-chinese30-33章787-907.md
 chapter: "31"

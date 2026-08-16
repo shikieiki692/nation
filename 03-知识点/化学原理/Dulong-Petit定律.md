@@ -2,6 +2,7 @@
 type: 知识点
 template_version: v1.3
 title: "Dulong-Petit定律"
+aliases: [Debye模型, 晶格振动]
 subject: 化学原理
 module: 化学原理
 tags: [化竞, 化学原理, 物理化学]
@@ -15,6 +16,7 @@ source_extracts:
     asset_summary: "Dulong-Petit定律相关内容"
 importance: 2
 difficulty: 2
+aliases: [Debye模型, 晶格振动]
 ---
 
 # Dulong-Petit定律

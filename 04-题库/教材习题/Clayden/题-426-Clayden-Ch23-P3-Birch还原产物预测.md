@@ -44,7 +44,7 @@ Predict the products of Birch reduction of these aromatic compounds.
 | Birch还原 | 芳香环的Birch还原机理和产物预测 | 直接 |
 | [[保护基]] | Birch还原中的保护策略 | 间接 |
 | [[芳香性]] | 芳香环的还原和非芳香产物 | 直接 |
-| [[二负离子]] | Birch还原中二负离子中间体的稳定性 | 间接 |
+| 二负离子 | Birch还原中二负离子中间体的稳定性 | 间接 |
 
 ## 解题思路
 

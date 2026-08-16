@@ -2,6 +2,7 @@
 title: 提炼-ABOC-第1章-绪论
 aliases: [ABOC Ch.1, ABOC绪论, 电子推动与电子效应, ABOC第1章]
 type: 资料提炼
+template_version: v1.1
 source_book: "ARX's Basic Organic Chemistry：从建立基础体系开始（原书第3版）"
 source_author: "李家兴（粤-27-ARX，bilibili@ARXChem）"
 source_files:

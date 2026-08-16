@@ -61,7 +61,7 @@ How would you attempt to make the starting material? The original workers used a
 | [[卡宾]] | 分子内卡宾插入构建笼状结构 | 直接 |
 | [[关环反应]] | 卡宾插入同时形成多个环 | 直接 |
 | [[笼状化合物]] | 高度张力笼状酮的合成 | 直接 |
-| [[重氮酮]] | 重氮酮作为卡宾前体 | 间接 |
+| 重氮酮 | 重氮酮作为卡宾前体 | 间接 |
 
 ## 解题思路
 

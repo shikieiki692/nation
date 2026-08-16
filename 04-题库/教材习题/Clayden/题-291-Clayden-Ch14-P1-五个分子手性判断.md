@@ -79,7 +79,7 @@ The fifth molecule (spiro acetal) is chiral — the central sp³ carbon makes th
 | [[立体化学]] | 手性的判断标准（对称面） | 直接 |
 | [[手性]] | 手性分子vs非手性分子 | 直接 |
 | [[内消旋化合物]] | 分子1是内消旋体 | 间接 |
-| [[螺环化合物]] | 螺环正交结构和手性 | 间接 |
+| 螺环化合物 | 螺环正交结构和手性 | 间接 |
 
 ## 解题思路
 

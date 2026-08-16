@@ -1,6 +1,7 @@
 ---
 title: 提炼-Clayden-第33章-非对映选择性
 type: 资料提炼
+template_version: v1.2
 source: Clayden有机化学第2版第33章
 source_path: mineru/中文版clayden-chinese30-33章787-907.md
 chapter: "33"

@@ -1,6 +1,6 @@
 ---
 title: Arrhenius方程
-aliases: [Arrhenius Equation, 阿伦尼乌斯方程, 速率常数温度公式]
+aliases: [Arrhenius Equation, 阿伦尼乌斯方程, 速率常数温度公式, Arrhenius方程深化]
 type: 知识点
 template_version: v1.3
 subject: 化学原理

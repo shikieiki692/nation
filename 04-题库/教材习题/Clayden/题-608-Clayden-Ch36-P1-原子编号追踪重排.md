@@ -64,7 +64,7 @@ The third reaction involves a cyclization. Atoms 1 and 7 clearly make the new bo
 | [[重排反应]] | 通过原子编号追踪重排路径 | 直接 |
 | [[1,2-迁移与重排]] | OBO保护基合成中的迁移步骤 | 直接 |
 | [[Lewis酸]] | BF₃作为Lewis酸催化缩醛重排 | 间接 |
-| [[有机金属化学]] | 锌的氧化插入与亲核环化 | 间接 |
+| 有机金属化学 | 锌的氧化插入与亲核环化 | 间接 |
 
 ## 解题思路
 

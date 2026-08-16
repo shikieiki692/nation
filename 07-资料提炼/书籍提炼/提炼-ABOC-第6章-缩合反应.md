@@ -1,6 +1,7 @@
 ---
 title: 提炼-ABOC-第6章-缩合反应
 type: 资料提炼
+template_version: v1.1
 source: ABOC（中国化学奥林匹克基础要求自编教材）
 chapter: 6
 chapter_title: 缩合反应

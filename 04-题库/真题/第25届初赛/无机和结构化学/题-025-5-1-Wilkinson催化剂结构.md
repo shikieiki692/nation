@@ -7,7 +7,7 @@ subject: 无机和结构化学
 difficulty: 3
 teaching_level: 进阶
 syllabus_codes: []
-knowledge_points: ["[[Wilkinson催化剂]]", "[[16e规则]]", "[[dsp2杂化]]"]
+knowledge_points: ["[[Wilkinson催化剂]]", "16e规则", "dsp2杂化"]
 tags: [化竞, 真题, 25届, 元素化学]
 updated: 2026-06-30
 aliases: [25届初赛-5.1, Wilkinson催化剂, Rh(PPh3)3Cl, dsp2]
@@ -33,8 +33,8 @@ A = **Rh(PPh₃)₃Cl**（Wilkinson催化剂）
 
 ## 知识点映射
 
-- [[16e规则]]
-- [[dsp2杂化]]
+- 16e规则
+- dsp2杂化
 - PPh₃配体
 - 光谱化学序列
 

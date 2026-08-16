@@ -5,7 +5,7 @@ difficulty: 3
 teaching_level: 巩固
 source: "分析化学经典计算题"
 subject: 分析化学
-knowledge_points: ["[[EDTA滴定]]", "[[水的硬度]]", "[[络合滴定]]"]
+knowledge_points: ["[[EDTA滴定]]", "水的硬度", "[[络合滴定]]"]
 tags: [化竞, 分析化学]
 updated: 2026-06-30
 status: 已填充
@@ -48,5 +48,5 @@ M(CaCO₃) = 100.09 g/mol
 ## 知识点映射
 
 - [[EDTA滴定]]
-- [[水的硬度]]
-- [[络合滴定应用]]
+- 水的硬度
+- 络合滴定应用

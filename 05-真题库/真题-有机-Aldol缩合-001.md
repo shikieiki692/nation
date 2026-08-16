@@ -2,6 +2,7 @@
 title: "Aldol缩合-乙醛在碱催化下的缩合与脱水"
 aliases: [Aldol缩合, 乙醛缩合, 羟醛缩合]
 type: 真题
+status: 已填充
 year: 2020
 source: "中国化学奥林匹克(省级初赛)"
 type_tag: "推断"

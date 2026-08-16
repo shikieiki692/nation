@@ -2,6 +2,7 @@
 type: 知识点
 template_version: v1.3
 title: "Stokes-Einstein方程"
+aliases: [Brown运动, 扩散系数]
 subject: 化学原理
 module: 化学原理
 tags: [化竞, 化学原理, 物理化学]
@@ -15,6 +16,7 @@ source_extracts:
     asset_summary: "Stokes-Einstein方程相关内容"
 importance: 2
 difficulty: 3
+aliases: [扩散系数, Brown运动]
 ---
 
 # Stokes-Einstein方程
@@ -43,7 +45,7 @@ $$D = \frac{k_B T}{6\pi\eta r}$$
 
 - [[扩散系数]]
 - [[Brown运动]]
-- [[胶体化学]]
+- [[胶体性质]]
 
 ## 🎯 教学视角
 

@@ -2,6 +2,7 @@
 title: "Hofmann消除-季铵碱热消除生成烯烃"
 aliases: [Hofmann消除, 季铵碱热消除, Hofmann规则]
 type: 真题
+status: 已填充
 year: 2024
 source: "中国化学奥林匹克(省级初赛)"
 type_tag: "推断"

@@ -1,5 +1,6 @@
 ---
 title: "必修1 Ch1 - 物质及其变化 教师用书提炼"
+aliases: ["必修1 Ch1 - 物质及其变化 教师用书提炼"]
 type: teacher_edition_note
 source_textbook: "教师教学用书·必修第一册"
 chapter: "第一章 物质及其变化"

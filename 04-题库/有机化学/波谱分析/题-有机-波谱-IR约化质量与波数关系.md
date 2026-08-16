@@ -7,7 +7,7 @@ subject: 有机化学
 difficulty: 2
 teaching_level: 巩固
 syllabus_codes: ["49"]
-knowledge_points: ["[[红外光谱]]", "[[约化质量]]", "[[化学键振动]]"]
+knowledge_points: ["[[红外光谱]]", "约化质量", "[[化学键振动]]"]
 tags: [化竞, 题目, 有机化学]
 updated: 2026-07-10
 aliases: ["题-有机-波谱-01", "题-1603"]
@@ -66,5 +66,5 @@ $$\frac{\tilde{\nu}_{C-H}}{\tilde{\nu}_{C-C}} = \sqrt{\frac{\mu_{C-C}}{\mu_{C-H}
 ## 知识点映射
 
 - [[红外光谱]]
-- [[约化质量]]
+- 约化质量
 - [[化学键振动]]

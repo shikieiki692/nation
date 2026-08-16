@@ -70,7 +70,7 @@ The twisted alkene is unstable and rotates to the much more stable cis alkene ev
 | [[卡宾]] | 重氮化合物分解生成卡宾，卡宾通过周环过程重排 | 直接 |
 | [[周环反应]] | 卡宾到联烯的周环过程，Diels-Alder反应捕获 | 直接 |
 | [[波谱分析]] | NMR数据解析：J值判断烯烃几何，化学位移归属 | 直接 |
-| [[反式环烯烃]] | 反式环庚烯的不稳定性和手性 | 间接 |
+| 反式环烯烃 | 反式环庚烯的不稳定性和手性 | 间接 |
 
 ## 解题思路
 

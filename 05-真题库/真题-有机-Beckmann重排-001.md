@@ -2,6 +2,7 @@
 title: "Beckmann重排-环己酮肟经酸催化生成己内酰胺"
 aliases: [Beckmann重排, 环己酮肟, 己内酰胺, 肟的重排]
 type: 真题
+status: 已填充
 year: 2023
 source: "中国化学奥林匹克(省级初赛)"
 type_tag: "推断"

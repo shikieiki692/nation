@@ -49,7 +49,7 @@ Give a mechanism for this reaction, commenting on the position in the furan ring
 | [[呋喃]] | 呋喃的亲电取代位点选择性和反应性 | 直接 |
 | [[芳香亲电取代]] | 分子内亲电环化的区域选择性 | 直接 |
 | [[环化反应]] | 六元环vs八元环的关环速率差异（Baldwin规则相关） | 间接 |
-| [[烯丙基碳正离子]] | 烯丙基重排和碳正离子的稳定性 | 间接 |
+| 烯丙基碳正离子 | 烯丙基重排和碳正离子的稳定性 | 间接 |
 
 ## 解题思路
 

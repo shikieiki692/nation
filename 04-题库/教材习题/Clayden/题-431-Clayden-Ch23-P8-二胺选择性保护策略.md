@@ -52,7 +52,7 @@ This chemistry was used by chemists in Bordeaux and Manchester to build some new
 | [[保护基]] | Boc和Cbz保护基的选择性和正交性 | 直接 |
 | [[化学选择性]] | 伯胺vs仲胺的选择性保护 | 直接 |
 | [[胺的化学]] | 胺的亲核性和位阻对反应性的影响 | 直接 |
-| [[正交保护]] | 两种保护基可在不同条件下选择性脱除 | 间接 |
+| 正交保护 | 两种保护基可在不同条件下选择性脱除 | 间接 |
 
 ## 解题思路
 

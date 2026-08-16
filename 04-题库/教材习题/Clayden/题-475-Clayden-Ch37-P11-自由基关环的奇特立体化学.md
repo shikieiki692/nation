@@ -68,7 +68,7 @@ Acid-catalysed oxidation first hydrolyses the acetal and then oxidizes either th
 | [[自由基]] | Bu₃SnH介导的自由基关环 | 直接 |
 | [[立体化学]] | 空间位阻控制的非对映选择性 | 直接 |
 | [[关环反应]] | 5-exo vs 6-endo选择性 | 间接 |
-| [[缩醛化学]] | 缩醛水解和氧化 | 间接 |
+| 缩醛化学 | 缩醛水解和氧化 | 间接 |
 
 ## 解题思路
 

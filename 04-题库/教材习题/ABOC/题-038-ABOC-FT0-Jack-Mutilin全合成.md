@@ -141,5 +141,5 @@ Mutilin 是一种双萜类真菌代谢产物，具有独特的 5-6-8 稠合骨�
 ## 拓展阅读
 
 - **原始文献**：Luo group, Peking University, 2022 (Mutilin 全合成)
-- **相关 KP**：De Mayo反应、[[全合成策略]]、[[不对称合成]]
+- **相关 KP**：De Mayo反应、全合成策略、[[不对称合成]]
 - **B 站解析**：ArCHO 联考题目分析频道（搜索 "ABOC FINAL TEST 0 Jack"）

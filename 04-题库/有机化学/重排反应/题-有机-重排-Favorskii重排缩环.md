@@ -7,7 +7,7 @@ subject: 有机化学
 difficulty: 4
 teaching_level: 强化
 syllabus_codes: ["49"]
-knowledge_points: ["[[Favorskii重排]]", "[[环丙酮中间体]]", "[[缩环反应]]"]
+knowledge_points: ["[[Favorskii重排]]", "环丙酮中间体", "缩环反应"]
 tags: [化竞, 题目, 有机化学]
 updated: 2026-07-10
 aliases: ["题-有机-重排-05"]
@@ -76,5 +76,5 @@ status: 已填充
 ## 知识点映射
 
 - [[Favorskii重排]]
-- [[环丙酮中间体]]
-- [[缩环反应]]
+- 环丙酮中间体
+- 缩环反应

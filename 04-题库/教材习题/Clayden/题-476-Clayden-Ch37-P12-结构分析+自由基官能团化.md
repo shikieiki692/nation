@@ -63,7 +63,7 @@ Since both methyl groups are functionalized, unstable A must have one Br on each
 | [[自由基]] | 过氧化物引发的自由基烯丙位溴化 | 直接 |
 | [[波谱分析]] | 通过IR和NMR推断产物结构 | 直接 |
 | [[结构鉴定]] | DBE计算、官能团识别、耦合模式分析 | 间接 |
-| [[内酯化]] | 羧酸根的分子内S_N2环化 | 间接 |
+| 内酯化 | 羧酸根的分子内S_N2环化 | 间接 |
 
 ## 解题思路
 

@@ -1,5 +1,6 @@
 ---
 title: "选修1 Ch1 - 化学反应的热效应 教师用书提炼"
+aliases: ["选修1 Ch1 - 化学反应的热效应 教师用书提炼"]
 type: teacher_edition_note
 source_textbook: "教师教学用书·选择性必修1 化学反应原理"
 chapter: "第一章 化学反应的热效应"

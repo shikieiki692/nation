@@ -2,6 +2,7 @@
 title: "Cannizzaro反应-苯甲醛在浓碱中的歧化"
 aliases: [Cannizzaro反应, 歧化反应, 苯甲醛浓碱]
 type: 真题
+status: 已填充
 year: 2019
 source: "中国化学奥林匹克(省级初赛)"
 type_tag: "推断"

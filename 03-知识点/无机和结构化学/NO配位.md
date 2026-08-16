@@ -25,11 +25,12 @@ sources:
 source_type: [教材]
 review_cycle: 30d
 has_images: true
-image_count: 1
+image_count: 2
 images_priority: high
-images_note: "已补入 Weller 中 NO/N2 配位模式对照图，可直观支撑直线型与弯曲型 NO 配位方式的第一轮辨析。"
+images_note: "已补入 Weller 中 NO/N2 配位模式对照图，可直观支撑直线型与弯曲型 NO 配位方式的第一轮辨析。2026-08-15 补入中级无机化学Ch6教材原图（图6.21 两例亚硝酰配合物的结构）→ ![[媒体仓库/zjwx_ch6_nitroso_complexes.jpg]]"
 key_images:
   - "NO 配位模式对照图"
+  - "媒体仓库/zjwx_ch6_nitroso_complexes.jpg"
 template_version: v1.3
 updated: 2026-06-15
 teaching_ready: false
@@ -39,6 +40,13 @@ source_extracts:
     asset_id: "08.配位化学（二）_笔记"
     asset_type: "网课资料"
     asset_summary: "NO配位相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-中级无机化学-第6章-有机金属化学（一）]]"
+    asset_id: "B2-2"
+    asset_type: "书籍提炼"
+    asset_summary: "中级无机化学Ch6.3.2补强：NO为最强π酸（>CO）、d⁶线形/d⁸弯曲判据、νNO数据（自由1876/线形1800-1900/弯曲1500-1700）"
+    target_section: "## 十、本书补强"
+    date: "2026-08-15"
+    status: "已回流"
 ---
 
 # NO配位
@@ -191,6 +199,29 @@ NO配体具有独特的配位化学性质，其配位模式可在直线型和弯
 - 前置知识：[[配合物]]、[[分子轨道理论]]、[[晶体场理论]]
 - 相关知识：CO配位、[[18电子规则]]、[[Feltham-Enemark记号]]、[[金属有机化学深化]]
 - 应用知识：催化化学、生物无机化学（NO作为信号分子）
+
+## 十、本书补强：中级无机化学 Ch6.3.2（NO 为最强 π 酸 + d 电子判据）
+
+> 来源：[[07-资料提炼/书籍提炼/提炼-中级无机化学-第6章-有机金属化学（一）]]（资产 B2-2）
+
+### 10.1 NO 是比 CO 更强的 π 酸
+
+- NO（11e 自由基）失去一电子得 NO⁺，与 CO 等电子；但 NO 的 π* 能量更低 → π 接受性更强。
+- 类羰基配体 π-接受性排序：**CN⁻ < RNC < CO < NO**。
+- 结果：M—NO 反馈键更强，可稳定更低氧化态金属中心。
+
+### 10.2 线形/弯曲与 d 电子数判据
+
+- 线形 NO⁺（3e 供体，M—N—O ~180°）；弯曲 NO⁻（1e 供体，~120-150°）。
+- **d 电子判据**：低自旋 d⁶ → 线形（如 [Co(NH₃)₅(NO)]²⁺，Co³⁺ d⁶）；d⁸ → 弯曲。
+- 配位模式转换使金属电子数变化 2，可开放配位点引发缔合取代（对 18e 络合物也有效）。
+
+> 📷 **图 6.21 两例亚硝酰配合物的结构**（线形 vs 弯曲配位实例，《中级无机化学》Ch6 教材原图）
+> ![[媒体仓库/zjwx_ch6_nitroso_complexes.jpg]]
+
+### 10.3 νNO 判据
+
+- 自由 NO 1876 cm⁻¹；线形 1800-1900、弯曲 1500-1700 cm⁻¹。
 
 ## 九、典型题型
 

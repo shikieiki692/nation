@@ -50,7 +50,7 @@ What aromatic system might be based on this ring system? What sort of reactivity
 | [[杂环化合物]] | 吡咯并吡啶（pyrrocoline）的结构和反应性 | 直接 |
 | [[芳香性]] | 10电子芳香体系的判断（4n+2规则） | 直接 |
 | [[亲电取代]] | 富电子五元环vs缺电子六元环的反应性差异 | 间接 |
-| [[稠环体系]] | 稠杂环的电子计数方法 | 间接 |
+| 稠环体系 | 稠杂环的电子计数方法 | 间接 |
 
 ## 解题思路
 

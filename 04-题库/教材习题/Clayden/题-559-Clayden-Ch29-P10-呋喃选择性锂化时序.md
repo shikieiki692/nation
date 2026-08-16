@@ -50,7 +50,7 @@ Explain the order of events and the choice of bases in this sequence.
 | [[呋喃]] | 呋喃的邻位锂化和卤-锂交换 | 直接 |
 | [[邻位锂化]] | LDA定向去质子化（DoM）和BuLi卤-锂交换的区别 | 直接 |
 | [[有机锂试剂]] | LDA vs nBuLi的不同反应性（去质子化 vs 卤-锂交换） | 直接 |
-| [[选择性合成]] | 反应顺序对区域选择性的影响 | 间接 |
+| 选择性合成 | 反应顺序对区域选择性的影响 | 间接 |
 
 ## 解题思路
 

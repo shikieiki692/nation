@@ -7,7 +7,7 @@ subject: 有机化学
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["49"]
-knowledge_points: ["[[BaeyerVilliger重排]]", "[[过氧酸氧化]]", "[[迁移能力]]"]
+knowledge_points: ["BaeyerVilliger重排", "过氧酸氧化", "迁移能力"]
 tags: [化竞, 题目, 有机化学]
 updated: 2026-07-10
 aliases: ["题-有机-重排-06"]
@@ -89,6 +89,6 @@ $$p\text{-MeOC}_6\text{H}_4 > p\text{-MeC}_6\text{H}_4 > \text{C}_6\text{H}_5 > 
 
 ## 知识点映射
 
-- [[BaeyerVilliger重排]]
-- [[过氧酸氧化]]
-- [[迁移能力]]
+- BaeyerVilliger重排
+- 过氧酸氧化
+- 迁移能力

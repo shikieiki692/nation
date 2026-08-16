@@ -3,14 +3,12 @@ title: 酸碱平衡与pH计算
 type: 专题
 module: 化学原理
 status: deprecated
+tags: [化竞, 专题]
 superseded_by: [[专题-酸碱理论]]
 备注: 注水专题页，已降级
 difficulty: ★★★
 source_extracts:
-  - "[[酸碱平衡(核心结论)]]"
-  - "[[酸碱平衡(解题策略)]]"
-  - "[[弱酸弱碱pH计算]]"
-  - "[[缓冲溶液原理]]"
+  # 来源待补：原指向的 (核心结论)/(解题策略) 等页面不存在
 subject: 化学原理
 updated: 2026-07-23
 ---

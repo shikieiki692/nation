@@ -1,6 +1,7 @@
 ---
 title: 提炼-ABOC-第5章-芳香与胺
 type: 资料提炼
+template_version: v1.1
 source: ABOC（中国化学奥林匹克基础要求自编教材）
 chapter: 5
 chapter_title: 芳香族化合物与胺类化合物

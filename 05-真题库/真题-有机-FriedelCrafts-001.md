@@ -2,6 +2,7 @@
 title: "Friedel-Crafts反应-苯与1-氯丙烷的烷基化与碳正离子重排"
 aliases: [Friedel-Crafts烷基化, 碳正离子重排, 1-氯丙烷]
 type: 真题
+status: 已填充
 year: 2022
 source: "中国化学奥林匹克(省级初赛)"
 type_tag: "推断"

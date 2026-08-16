@@ -1,6 +1,6 @@
 ---
 title: Ugi反应
-aliases: [Ugi Reaction, 乌吉反应, 四组分反应, 多组分反应, MCR]
+aliases: [Ugi Reaction, 乌吉反应, 四组分反应, 多组分反应, MCR, 多组分反应深化]
 type: 知识点
 template_version: v1.3
 subject: 有机化学

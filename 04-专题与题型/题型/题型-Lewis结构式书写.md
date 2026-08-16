@@ -6,6 +6,14 @@ source_extracts:
     asset_id: "Ch12-Lewis"
     asset_type: "书籍提炼"
     asset_summary: "Lewis结构式书写规则：骨架连接、孤对电子分配、形式电荷最小化、共振结构"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-化学竞赛初赛讲义-第3讲-分子结构]]"
+    asset_id: "第3讲-VSEPR精细规则"
+    asset_type: "资料提炼"
+    asset_summary: "六级排斥力排序（含多重键）+ 三角双锥中电负性基团的轴向位置规则"
+  - source_file: "[[教学逻辑提炼-周坤无机新课-原子结构与分子结构-第一轮]]"
+    asset_id: "B3-8"
+    asset_type: "分类资产"
+    asset_summary: "VSEPR 构型速查表（AXnEm → 理想构型 → 实际分子形状），讲义有完整表格"
 subject: 化学
 status: 可用
 stage: draft
@@ -44,15 +52,6 @@ tags:
 > **Lewis 五步法**：算 → 排 → 连 → 填 → 查
 
 | 步骤 | 你在做什么 | 关键动作 | 常见错误 |
-|:source_extracts:
-  - source_file: "[[07-资料提炼/书籍提炼/提炼-化学竞赛初赛讲义-第3讲-分子结构]]"
-    asset_id: "第3讲-VSEPR精细规则"
-    asset_type: "资料提炼"
-    asset_summary: "六级排斥力排序（含多重键）+ 三角双锥中电负性基团的轴向位置规则"
-  - source_file: "[[教学逻辑提炼-周坤无机新课-原子结构与分子结构-第一轮]]"
-    asset_id: "B3-8"
-    asset_type: "分类资产"
-    asset_summary: "VSEPR 构型速查表（AXnEm → 理想构型 → 实际分子形状），讲义有完整表格"
 ---|:---|:---|:---|
 | **算** | 算总价电子数 | 各原子价电子数求和，阴离子加电荷，阳离子减电荷 | 漏掉离子电荷 |
 | **排** | 选中心原子和骨架 | 电负性较小者居中；H 和卤素通常在端基 | 把 O、F、H 放中心 |

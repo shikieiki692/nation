@@ -337,7 +337,7 @@ knowledge_points: [烯醇, 亲核加成, Reformatsky反应, Michael加成, 羟�
 | 考纲条目 | 对应内容 | Clayden 位置 |
 |:---|:---|:---|
 | [[羟醛反应]] | 碱/酸催化 Aldol，机理，脱水 | lines 1245–1310 |
-| [[交叉Aldol]] | 成功条件，选择性控制 | lines 1357–1392 |
+| 交叉Aldol | 成功条件，选择性控制 | lines 1357–1392 |
 | [[动力学烯醇盐]] | LDA/−78°C，少取代侧 | lines 1798–1830 |
 | [[热力学烯醇盐]] | 弱碱/室温，多取代侧 | lines 1858–1863 |
 | [[Mukaiyama Aldol]] | 烯醇硅醚 + TiCl₄ | lines 1592–1618 |

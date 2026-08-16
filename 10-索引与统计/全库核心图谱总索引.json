@@ -1,8 +1,8 @@
 {
   "meta": {
-    "built_at": "2026-08-06",
-    "total": 2796,
-    "in_media": 2796,
+    "built_at": "2026-08-14",
+    "total": 2703,
+    "in_media": 2703,
     "source_only": 0,
     "excluded_count": 0,
     "excluded_reasons": {}
@@ -1305,123 +1305,6 @@
       "in_media": true
     },
     {
-      "physical_filename": "185b5f9f58def3a4b6e4109970d0271a0713141f887d4302ead21379fe094aae.jpg",
-      "description": "氢元素摩尔量ν(H)计算算例数值文本片段（纯文字算式片段，不推荐讲义配图）",
-      "semantic_alias": "hydrogen_molar_amount_calculation_text.jpg",
-      "knowledge_points": "基础化学/化学计算/摩尔量/文本片段",
-      "source_file": "mineru/02-真题解析/33届初赛试题解析_images/_index.md",
-      "source_folder": "33届初赛试题解析",
-      "in_media": true
-    },
-    {
-      "physical_filename": "192cb03992522c173813100976288a69739af13ddcbf4c20bfde532c577a4578.jpg",
-      "description": "氘代溴乙烷光学对映体与手性碳原子 Wedge-Dash 立体构型示意图",
-      "semantic_alias": "deuterated_bromoethane_enantiomers_chiral_center_3d_structures.jpg",
-      "knowledge_points": "有机化学/立体化学/手性/同位素标记/对映体",
-      "source_file": "mineru/02-真题解析/33届初赛试题解析_images/_index.md",
-      "source_folder": "33届初赛试题解析",
-      "in_media": true
-    },
-    {
-      "physical_filename": "1a1e54aea4e62a355f7a4a0f1589520d119925c9148d999524016a2eeb489a3e.jpg",
-      "description": "NCS与二硫代缩醛亲核氯化生成鎓盐中间体1及丁二酰亚胺阴离子共振机理图",
-      "semantic_alias": "ncs_chlorination_dithioacetal_sulfonium_intermediate_mechanism.jpg",
-      "knowledge_points": "有机化学/反应机理/NCS亲核试剂/二硫代缩醛/锍盐中间体",
-      "source_file": "mineru/02-真题解析/33届初赛试题解析_images/_index.md",
-      "source_folder": "33届初赛试题解析",
-      "in_media": true
-    },
-    {
-      "physical_filename": "1a9acc6b564546c73995ea822e02b3c0dddd7f9bb61733c3c1a809834f00feb1.jpg",
-      "description": "试题第2题铁复盐摩尔质量与结晶水计算算例文本片段（纯文字算式片段，不推荐讲义配图）",
-      "semantic_alias": "iron_complex_molar_mass_calculation_formula_text.jpg",
-      "knowledge_points": "定量化学/化学计算/摩尔质量/算例文本",
-      "source_file": "mineru/02-真题解析/33届初赛试题解析_images/_index.md",
-      "source_folder": "33届初赛试题解析",
-      "in_media": true
-    },
-    {
-      "physical_filename": "1d39747a437f21be676ba289053cedff648671caba2507334bb14742c86c6e05.jpg",
-      "description": "试题第2题电子物质的量n(e⁻)计算算例文本片段（纯文字算式片段，不推荐讲义配图）",
-      "semantic_alias": "electron_molar_amount_calculation_formula_text.jpg",
-      "knowledge_points": "基础物理化学/阿伏伽德罗常数/电子质量/算例文本",
-      "source_file": "mineru/02-真题解析/33届初赛试题解析_images/_index.md",
-      "source_folder": "33届初赛试题解析",
-      "in_media": true
-    },
-    {
-      "physical_filename": "1d935d403699cc789cd366a33d04a2c4073efaa4b304b723660a517055e1617b.jpg",
-      "description": "热力学亥姆霍兹自由能dA基本公式文本片段（纯文字算式片段，不推荐讲义配图）",
-      "semantic_alias": "helmholtz_free_energy_basic_equation_text.jpg",
-      "knowledge_points": "热力学/亥姆霍兹自由能/基本公式/文本片段",
-      "source_file": "mineru/02-真题解析/33届初赛试题解析_images/_index.md",
-      "source_folder": "33届初赛试题解析",
-      "in_media": true
-    },
-    {
-      "physical_filename": "2055eaf44544606ddb8cd108ccffea2c1889fd11b47aaafa89016cd61724a214.jpg",
-      "description": "试题未知物A摩尔质量M(A)计算算例文本片段（纯文字算式片段，不推荐讲义配图）",
-      "semantic_alias": "molar_mass_calculation_formula_text.jpg",
-      "knowledge_points": "基础化学/化学计算/摩尔质量/算例文本",
-      "source_file": "mineru/02-真题解析/33届初赛试题解析_images/_index.md",
-      "source_folder": "33届初赛试题解析",
-      "in_media": true
-    },
-    {
-      "physical_filename": "2143126d7bb79878ba872e96049cbf70be7950515c3c8be55bf95de59e43b34f.jpg",
-      "description": "热力学吉布斯-亥姆霍兹方程推导推论方程组文本片段（纯文字算式片段，不推荐讲义配图）",
-      "semantic_alias": "gibbs_helmholtz_equation_derivation_text.jpg",
-      "knowledge_points": "热力学/吉布斯自由能/吉布斯-亥姆霍兹方程/推导方程",
-      "source_file": "mineru/02-真题解析/33届初赛试题解析_images/_index.md",
-      "source_folder": "33届初赛试题解析",
-      "in_media": true
-    },
-    {
-      "physical_filename": "289868aafea2f5f3284ae6543863349b393453c8c54f9fb6a6b4dfa2b1734e53.jpg",
-      "description": "芳香族聚酰亚胺(Polyimide)特种高分子重复单元化学结构式",
-      "semantic_alias": "aromatic_polyimide_repeating_unit_polymer_structure.jpg",
-      "knowledge_points": "高分子化学/特种工程塑料/聚酰亚胺/高分子结构式",
-      "source_file": "mineru/02-真题解析/33届初赛试题解析_images/_index.md",
-      "source_folder": "33届初赛试题解析",
-      "in_media": true
-    },
-    {
-      "physical_filename": "2a52dc4609e4a293e19297e6af4e505f45e5c18964772c9b1c676b313090f638.jpg",
-      "description": "二硫代缩醛锍盐中间体1开环驱使Pinacol型重排扩环生成七元环酮2反应机理图",
-      "semantic_alias": "sulfonium_intermediate_pinacol_rearrangement_ring_expansion.jpg",
-      "knowledge_points": "有机化学/反应机理/二硫代缩醛/锍盐重排/Pinacol重排/扩环反应",
-      "source_file": "mineru/02-真题解析/33届初赛试题解析_images/_index.md",
-      "source_folder": "33届初赛试题解析",
-      "in_media": true
-    },
-    {
-      "physical_filename": "2ac5b585c8c93b9006fc23d47b05456e14df4823d393e1749a572abb5ec18633.jpg",
-      "description": "三苯基膦(PPh₃)亲核进攻碳正离子SN1过渡态[R₃C···PPh₃]‡结构示意图",
-      "semantic_alias": "triphenylphosphine_nucleophilic_attack_carbocation_transition_state.jpg",
-      "knowledge_points": "有机化学/反应机理/SN1反应/过渡态/三苯基膦",
-      "source_file": "mineru/02-真题解析/33届初赛试题解析_images/_index.md",
-      "source_folder": "33届初赛试题解析",
-      "in_media": true
-    },
-    {
-      "physical_filename": "2e814d5091ee2c875d23c197ab024777319223ddb7ceda653f723b7cab76b885.jpg",
-      "description": "魔法酸(FSO₃H-SbF₅)超强酸质子化甲烷生成五配位鎓离子与碳正离子反应机理图",
-      "semantic_alias": "magic_acid_protonation_of_methane_carbocation_mechanism.jpg",
-      "knowledge_points": "有机化学/超强酸/魔法酸/甲烷质子化/五配位碳正离子",
-      "source_file": "mineru/02-真题解析/33届初赛试题解析_images/_index.md",
-      "source_folder": "33届初赛试题解析",
-      "in_media": true
-    },
-    {
-      "physical_filename": "2ff19f09c711bf8885ba16948c76edadb81d9181f116801636ef2a916fddb300.jpg",
-      "description": "热力学吉布斯自由能dG基本公式文本片段（纯文字算式片段，不推荐讲义配图）",
-      "semantic_alias": "gibbs_free_energy_basic_equation_text.jpg",
-      "knowledge_points": "热力学/吉布斯自由能/基本公式/文本片段",
-      "source_file": "mineru/02-真题解析/33届初赛试题解析_images/_index.md",
-      "source_folder": "33届初赛试题解析",
-      "in_media": true
-    },
-    {
       "physical_filename": "31f3a3a1fe3a90c63877f5972c3705248be55f35713e13983a5db9fc51f7874f.jpg",
       "description": "【机器误判修正】有机化学结构式/反应",
       "semantic_alias": "",
@@ -1462,24 +1345,6 @@
       "description": "【机器误判修正】有机化学结构式/反应",
       "semantic_alias": "",
       "knowledge_points": "有机化学",
-      "source_file": "mineru/02-真题解析/33届初赛试题解析_images/_index.md",
-      "source_folder": "33届初赛试题解析",
-      "in_media": true
-    },
-    {
-      "physical_filename": "46b1d2cfa96f64db47b089f02815708bf4ed46f14b15c7642007dea6a47cef7b.jpg",
-      "description": "克洛康酸与苯并噻唑鎓盐缩合生成花菁染料(Cyanine Dye)两步反应路线图",
-      "semantic_alias": "croconic_acid_cyanine_dye_synthesis_reaction_path.jpg",
-      "knowledge_points": "有机化学/功能材料/花菁染料/克洛康酸/缩合反应",
-      "source_file": "02-真题解析/33届初赛试题解析_images/_index.md",
-      "source_folder": "33届初赛试题解析",
-      "in_media": true
-    },
-    {
-      "physical_filename": "46b1d2cfa96f64db47b089f02815708bf4ed46f14b15c7642007dea6a47cef7b.jpg",
-      "description": "克洛康酸与苯并噻唑鎓盐缩合生成花菁染料(Cyanine Dye)两步反应路线图",
-      "semantic_alias": "croconic_acid_cyanine_dye_synthesis_reaction_path_v2.jpg",
-      "knowledge_points": "有机化学/功能材料/花菁染料/克洛康酸/缩合反应",
       "source_file": "mineru/02-真题解析/33届初赛试题解析_images/_index.md",
       "source_folder": "33届初赛试题解析",
       "in_media": true
@@ -1944,24 +1809,6 @@
       "in_media": true
     },
     {
-      "physical_filename": "8dfb5476b027ff7d8e91e49d1719fd908a4f58b94d19e8d2a4059824a60ba922.jpg",
-      "description": "第33届初赛试题多面体配位聚合物/多酸晶体结构孔道网络模型图",
-      "semantic_alias": "polyhedral_coordination_polymer_porous_network_structure.jpg",
-      "knowledge_points": "晶体化学/配位聚合物/多面体网络/孔道结构",
-      "source_file": "02-真题解析/33届初赛试题解析_images/_index.md",
-      "source_folder": "33届初赛试题解析",
-      "in_media": true
-    },
-    {
-      "physical_filename": "8dfb5476b027ff7d8e91e49d1719fd908a4f58b94d19e8d2a4059824a60ba922.jpg",
-      "description": "第33届初赛试题多面体配位聚合物/多酸晶体结构孔道网络模型图",
-      "semantic_alias": "polyhedral_coordination_polymer_porous_network_structure_v2.jpg",
-      "knowledge_points": "晶体化学/配位聚合物/多面体网络/孔道结构",
-      "source_file": "mineru/02-真题解析/33届初赛试题解析_images/_index.md",
-      "source_folder": "33届初赛试题解析",
-      "in_media": true
-    },
-    {
       "physical_filename": "8e6d176321933012021f7a1f068aee3f65b3a25aaf63fb4f6921475410ee060d.jpg",
       "description": "【机器误判修正】有机化学结构式/反应",
       "semantic_alias": "",
@@ -2034,37 +1881,10 @@
       "in_media": true
     },
     {
-      "physical_filename": "afe9ec0f2f3bc44d8819ec4f22f64adbca33153d895359b238f161916a673fdb.jpg",
-      "description": "试题文档末尾二维码图片（非化学内容，不推荐讲义配图）",
-      "semantic_alias": "document_qr_code_image.jpg",
-      "knowledge_points": "其他/垃圾图像",
-      "source_file": "mineru/02-真题解析/33届初赛试题解析_images/_index.md",
-      "source_folder": "33届初赛试题解析",
-      "in_media": true
-    },
-    {
       "physical_filename": "b03b9bea8cdbd92cb84d2155eb77f04df874d5ae8dd71e0e9507d01f34266bfc.jpg",
       "description": "【机器误判修正】有机化学结构式/反应",
       "semantic_alias": "",
       "knowledge_points": "有机化学",
-      "source_file": "mineru/02-真题解析/33届初赛试题解析_images/_index.md",
-      "source_folder": "33届初赛试题解析",
-      "in_media": true
-    },
-    {
-      "physical_filename": "b5a3205a3925f4c93ebeb3058c878561e50b7928a0a39431377d0ee41de41be1.jpg",
-      "description": "烯炔Hg²⁺水解与异构化环化生成环戊烯酮反应历程示意图",
-      "semantic_alias": "enyne_hydration_and_cyclization_to_cyclopentenone_reaction.jpg",
-      "knowledge_points": "有机化学/反应历程/炔烃水解/Nazarov环化/环戊烯酮",
-      "source_file": "02-真题解析/33届初赛试题解析_images/_index.md",
-      "source_folder": "33届初赛试题解析",
-      "in_media": true
-    },
-    {
-      "physical_filename": "b5a3205a3925f4c93ebeb3058c878561e50b7928a0a39431377d0ee41de41be1.jpg",
-      "description": "烯炔Hg²⁺水解与异构化环化生成环戊烯酮反应历程示意图",
-      "semantic_alias": "enyne_hydration_and_cyclization_to_cyclopentenone_reaction_v2.jpg",
-      "knowledge_points": "有机化学/反应历程/炔烃水解/Nazarov环化/环戊烯酮",
       "source_file": "mineru/02-真题解析/33届初赛试题解析_images/_index.md",
       "source_folder": "33届初赛试题解析",
       "in_media": true
@@ -2160,24 +1980,6 @@
       "in_media": true
     },
     {
-      "physical_filename": "c374ee8e454fc199cd87ad93b920dcf924a943f258377d4387a723386f62eb1d.jpg",
-      "description": "AlCl₃/TiCl₄催化Nazarov环化与多烯阳离子多级串联关环合成甾体骨架反应机理图",
-      "semantic_alias": "polyene_cationic_cascade_cyclization_steroid_synthesis_mechanism.jpg",
-      "knowledge_points": "有机化学/反应机理/Nazarov环化/多烯阳离子环化/甾体合成",
-      "source_file": "02-真题解析/33届初赛试题解析_images/_index.md",
-      "source_folder": "33届初赛试题解析",
-      "in_media": true
-    },
-    {
-      "physical_filename": "c374ee8e454fc199cd87ad93b920dcf924a943f258377d4387a723386f62eb1d.jpg",
-      "description": "AlCl₃/TiCl₄催化Nazarov环化与多烯阳离子多级串联关环合成甾体骨架反应机理图",
-      "semantic_alias": "polyene_cationic_cascade_cyclization_steroid_synthesis_mechanism_v2.jpg",
-      "knowledge_points": "有机化学/反应机理/Nazarov环化/多烯阳离子环化/甾体合成",
-      "source_file": "mineru/02-真题解析/33届初赛试题解析_images/_index.md",
-      "source_folder": "33届初赛试题解析",
-      "in_media": true
-    },
-    {
       "physical_filename": "c492c4326b2155093f85b3559646c46725c990040920ad0cb8b80fe3f19b7935.jpg",
       "description": "【机器误判修正】有机化学结构式/反应",
       "semantic_alias": "",
@@ -2245,24 +2047,6 @@
       "description": "【机器误判修正】有机化学结构式/反应",
       "semantic_alias": "",
       "knowledge_points": "有机化学",
-      "source_file": "mineru/02-真题解析/33届初赛试题解析_images/_index.md",
-      "source_folder": "33届初赛试题解析",
-      "in_media": true
-    },
-    {
-      "physical_filename": "e2d3cc6436d163bc058ada6e106db14168dae7fb02dddac6b736ef4673e5a7b0.jpg",
-      "description": "三苯基膦(PPh₃)亲核攻击碳正离子生成季鎓盐SN1反应历程示意图",
-      "semantic_alias": "triphenylphosphine_nucleophilic_attack_carbocation_sn1_mechanism.jpg",
-      "knowledge_points": "有机化学/反应机理/SN1反应/碳正离子/鎓盐生成",
-      "source_file": "02-真题解析/33届初赛试题解析_images/_index.md",
-      "source_folder": "33届初赛试题解析",
-      "in_media": true
-    },
-    {
-      "physical_filename": "e2d3cc6436d163bc058ada6e106db14168dae7fb02dddac6b736ef4673e5a7b0.jpg",
-      "description": "三苯基膦(PPh₃)亲核攻击碳正离子生成季鎓盐SN1反应历程示意图",
-      "semantic_alias": "triphenylphosphine_nucleophilic_attack_carbocation_sn1_mechanism_v2.jpg",
-      "knowledge_points": "有机化学/反应机理/SN1反应/碳正离子/鎓盐生成",
       "source_file": "mineru/02-真题解析/33届初赛试题解析_images/_index.md",
       "source_folder": "33届初赛试题解析",
       "in_media": true
@@ -2389,24 +2173,6 @@
       "description": "【机器误判修正】有机化学结构式/反应",
       "semantic_alias": "",
       "knowledge_points": "有机化学",
-      "source_file": "mineru/02-真题解析/33届初赛试题解析_images/_index.md",
-      "source_folder": "33届初赛试题解析",
-      "in_media": true
-    },
-    {
-      "physical_filename": "f720fee1ed95a7d29af085cfca2ffa6d1376e0442b6a504a1cc019f48922a4d6.jpg",
-      "description": "FeCl₃催化硅基导向Nazarov电环化与普通二烯酮环化区域选择性机理对比图",
-      "semantic_alias": "silicon_directed_nazarov_cyclization_regioselectivity_mechanism.jpg",
-      "knowledge_points": "有机化学/反应机理/Nazarov环化/硅效应/区域选择性",
-      "source_file": "02-真题解析/33届初赛试题解析_images/_index.md",
-      "source_folder": "33届初赛试题解析",
-      "in_media": true
-    },
-    {
-      "physical_filename": "f720fee1ed95a7d29af085cfca2ffa6d1376e0442b6a504a1cc019f48922a4d6.jpg",
-      "description": "FeCl₃催化硅基导向Nazarov电环化与普通二烯酮环化区域选择性机理对比图",
-      "semantic_alias": "silicon_directed_nazarov_cyclization_regioselectivity_mechanism_v2.jpg",
-      "knowledge_points": "有机化学/反应机理/Nazarov环化/硅效应/区域选择性",
       "source_file": "mineru/02-真题解析/33届初赛试题解析_images/_index.md",
       "source_folder": "33届初赛试题解析",
       "in_media": true
@@ -15743,7 +15509,7 @@
     {
       "physical_filename": "00e4dafc911a17e0d2d9f3588e8d5cb36eace903dd5fd1220824024f01bbb8c4.jpg",
       "description": "【视觉复核】Born–Haber 循环：K(s)+1/2Cl₂(g)→KCl(s)，含升华、电离、原子化、电子亲和与晶格能",
-      "semantic_alias": "born_haber_cycle_kcl_lattice_energy.jpg",
+      "semantic_alias": "",
       "knowledge_points": "热力学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -15752,7 +15518,7 @@
     {
       "physical_filename": "00eff43ed2eefe260ec218fe11342af9881e4ffdbabbe766f7ee39d2562c90e5.jpg",
       "description": "【视觉复核】铬酸根/重铬酸根—Cr(III) 氧化还原平衡常数 lgK 计算式（电势差换算）",
-      "semantic_alias": "chromium_redox_equilibrium_constant_lgk_calculation.jpg",
+      "semantic_alias": "",
       "knowledge_points": "氧化还原/电化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -15761,7 +15527,7 @@
     {
       "physical_filename": "0193a2535b7e81cb2a7cdf4280d506f97c102bbfbc9905aff05ec3ee2c9bf822.jpg",
       "description": "【视觉复核】正八面体配合物 M a₂bcde 的一种异构体排布示意（a 轴向配体；几何异构组）",
-      "semantic_alias": "octahedral_ma2bcde_isomer_arrangement.jpg",
+      "semantic_alias": "",
       "knowledge_points": "配位化学/立体异构",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -15770,17 +15536,8 @@
     {
       "physical_filename": "01a2dd0aa824f5a09f85082cb7b6c1169636221337b4cea3c96958d68a9c5bd4.jpg",
       "description": "【视觉复核】MoS₂ 氧化方程式（MoS₂+9/2O₂+3H₂O→H₂MoO₄+2H₂SO₄）",
-      "semantic_alias": "mos2_oxidation_equation.jpg",
+      "semantic_alias": "",
       "knowledge_points": "氧化还原",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "01bdf4ea9ef13de981a3a75a06039736bc601cbb34888357790f52ceb1ff3d74.jpg",
-      "description": "锌电极标准电极电势E⊖(Zn²⁺/Zn)计算算例文本片段（纯文字算式片段，不推荐讲义配图）",
-      "semantic_alias": "zinc_electrode_standard_potential_calculation_text.jpg",
-      "knowledge_points": "电化学/标准电极电势/锌电极/算例文本",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -15788,26 +15545,8 @@
     {
       "physical_filename": "0260b18d5224dbbd7775f12055136bfaa076c9443afd386449238f31abbe5dd1.jpg",
       "description": "【视觉复核】配位数—空间构型—杂化轨道类型表（CN=2–4，含 Ag/Cu/Zn/Cd 配合物实例）",
-      "semantic_alias": "coordination_number_geometry_hybridization_table.jpg",
+      "semantic_alias": "",
       "knowledge_points": "配位化学",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "028443c9b009a1ed24e3445e43f795d9e830467f7391ff72b3b5bce433a4a592.jpg",
-      "description": "标准反应摩尔焓变ΔrHm⊖算例数值文本片段（纯文字算式片段，不推荐讲义配图）",
-      "semantic_alias": "standard_enthalpy_of_reaction_calculation_text.jpg",
-      "knowledge_points": "热力学/反应热/盖斯定律/算例文本",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "0291ce58939840e57567792d42dd99cfb167f0ce58428c7f37c15cf81a4819fa.jpg",
-      "description": "八面体配合物M(AB)₂cd立体异构体三维结构示意图",
-      "semantic_alias": "octahedral_complex_m_ab2cd_isomer_3d_structure.jpg",
-      "knowledge_points": "配位化学/立体化学/八面体构型/立体异构体",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -15815,7 +15554,7 @@
     {
       "physical_filename": "031060307babdd13cc2440702ddcef5ed15f205c79d7aa5fdecfa4a6faa1e42a.jpg",
       "description": "【视觉复核】标准电极电势序列表（Zn²⁺/Zn 至 Cl₂/Cl⁻，氧化性与还原性增强方向）",
-      "semantic_alias": "standard_electrode_potential_series_zn_to_chlorine.jpg",
+      "semantic_alias": "",
       "knowledge_points": "电化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -15824,53 +15563,8 @@
     {
       "physical_filename": "034a4e0c6bf71044e177e261c430bef562adf141eb0cdaea26b710bcb137f21b.jpg",
       "description": "【视觉复核】Ag⁺/Ag 与 [Ag(NH₃)₂]⁺/Ag 标准电势对比及配合物稳定常数 Kf 计算",
-      "semantic_alias": "silver_ammonia_complex_potential_kf_calculation.jpg",
+      "semantic_alias": "",
       "knowledge_points": "配位化学/电化学",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "0359cb3107bc520af45995a6dc6f1bf1bcbea2bcc9da7856cac13bbd31e60893.jpg",
-      "description": "一氧化二氮N₂O生成热热力学化学方程式文本片段（纯文字算式片段，不推荐讲义配图）",
-      "semantic_alias": "n2o_formation_thermodynamic_equation_text.jpg",
-      "knowledge_points": "热力学/生成热/化学方程式/文本片段",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "04274dea1176b1d50fa09422242d0d42cc10696bbc0ce76e156c61f08267e893.jpg",
-      "description": "无水HF溶剂中高氯酸HClO₄酸碱质子电离化学方程式文本片段（纯文字算式片段，不推荐讲义配图）",
-      "semantic_alias": "hclo4_hf_non_aqueous_ionization_equation_text.jpg",
-      "knowledge_points": "无机化学/酸碱理论/非水溶剂/质子传递/文本片段",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "043198d7513f570321b34d571ac54c106bd7505fc862fff59c68fc84a777a368.jpg",
-      "description": "理想气体等温膨胀p-V状态变化与做功积分阴影面积曲线图（p由16降至1，V由1增至16）",
-      "semantic_alias": "isothermal_expansion_p_v_diagram_work_integral_area.jpg",
-      "knowledge_points": "物理化学/热力学第一定律/p-V图/体积功/积分面积",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "0474b55a05fc76c96a9ec529e671994246cecee19e5b80936996f1ed7c5b8b96.jpg",
-      "description": "碱性条件下NH₃还原CuO生成Cu与N₂氧化还原反应配平方程式文本片段（纯文字算式片段，不推荐讲义配图）",
-      "semantic_alias": "nh3_reduces_cuo_alkaline_redox_equation_text.jpg",
-      "knowledge_points": "无机化学/氧化还原/反应配平/文本片段",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "049f0ef5a6dbe3ab66097c495de592f9f9778251a97bad7b1e0293d206f4eaf3.jpg",
-      "description": "原电池正负极电势差E⁺(298.15K)-E⁻(298.15K)计算公式文本片段（纯文字算式片段，不推荐讲义配图）",
-      "semantic_alias": "galvanic_cell_potential_difference_formula_text.jpg",
-      "knowledge_points": "电化学/原电池/电势差/算例文本",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -15878,7 +15572,7 @@
     {
       "physical_filename": "04cf08acab843324934f9c0654c3be717c976a0addac6db115cdbfc4785e7e9e.jpg",
       "description": "【视觉复核】CrO₄²⁻/Cr₂O₇²⁻体系能斯特方程片段（含 Cr³⁺、OH⁻、H⁺浓度项）",
-      "semantic_alias": "chromate_dichromate_nernst_equation.jpg",
+      "semantic_alias": "",
       "knowledge_points": "电化学/氧化还原",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -15894,18 +15588,9 @@
       "in_media": true
     },
     {
-      "physical_filename": "056908772f4341f329594221183b9e1c76efb901329283e6b98ead9b065fe6d1.jpg",
-      "description": "丙烯C₃H₆标准燃烧热盖斯定律计算算例数值文本片段（纯文字算式片段，不推荐讲义配图）",
-      "semantic_alias": "propene_combustion_enthalpy_hess_law_calculation_text.jpg",
-      "knowledge_points": "热力学/燃烧热/盖斯定律/算例文本",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
       "physical_filename": "0611c2452f28aa77ab37edf957492337425e271e4652efa0a8757c1f871fc86c.jpg",
       "description": "【视觉复核】八面体配合物中 a/b 配体的空间排布（3a/3b 构型示意，非四方平面）",
-      "semantic_alias": "octahedral_ab_ligand_arrangement.jpg",
+      "semantic_alias": "",
       "knowledge_points": "配位化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -15914,17 +15599,8 @@
     {
       "physical_filename": "07149acdc7ba9f81cacafabd29edc599ce2b56be8d354836ce3dfa8abfe3d233.jpg",
       "description": "【视觉复核】Mg²⁺/Mg 电极能斯特计算式（E⊖与浓度项，−2.71 V）",
-      "semantic_alias": "mg_electrode_nernst_calculation.jpg",
+      "semantic_alias": "",
       "knowledge_points": "电化学",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "076ca306264a849756513b12779aa2d6a3555b6538634ab26ce696ddd837b88b.jpg",
-      "description": "配合物dsp²杂化轨道配位成键电子排布示意图（4d/5s/5p轨道与配体电子对）",
-      "semantic_alias": "dsp2_hybridization_coordination_orbital_electron_diagram.jpg",
-      "knowledge_points": "配位化学/价键理论/dsp²杂化/电子排布/平面正方形",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -15950,7 +15626,7 @@
     {
       "physical_filename": "083b8b083ee78de3d060a71e8b6771c024174c23641fb70ae92a005ae969dc18.jpg",
       "description": "【视觉复核】Job 连续变化法吸光度曲线（横轴 b/(a+b)，峰值约 0.7，指示约 2:1 组成）",
-      "semantic_alias": "job_method_continuous_variation_plot.jpg",
+      "semantic_alias": "",
       "knowledge_points": "配位化学/分析化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -15959,7 +15635,7 @@
     {
       "physical_filename": "088e55545fbe54108c422110df03766e4197662573e9b9d8b92eea2732fd5f9f.jpg",
       "description": "【视觉复核】LiNbO₃ 晶体结构单元（O/Nb/Li 三类位置，两种视角）",
-      "semantic_alias": "linbo3_crystal_structure_unit.jpg",
+      "semantic_alias": "",
       "knowledge_points": "晶体化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -15984,15 +15660,6 @@
       "in_media": true
     },
     {
-      "physical_filename": "0987e2dd276397060543f696247d8a86adec82f6110b1330e0284c3646c98f85.jpg",
-      "description": "八面体配合物配体空间排布与镜面对称面操作示意图（标有A/B/C配体及弧线螯合链，待上下文确认）",
-      "semantic_alias": "octahedral_complex_mirror_symmetry_model.jpg",
-      "knowledge_points": "配位化学/立体化学/配合物对称性",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
       "physical_filename": "09afcfd50bd7af101f6146a109ed4a36ec979464fdc5e0c11be9c342356d0c0f.jpg",
       "description": "【机器误判修正】MoS₂氧化方程 MoS₂+9/2O₂+3H₂O=H₂MoO₄+2H₂SO₄",
       "semantic_alias": "",
@@ -16004,7 +15671,7 @@
     {
       "physical_filename": "0a0235a580f61acddd0bd040ed1608d991b6a6bb2fc99a77f3f315b3205fc3d4.jpg",
       "description": "【视觉复核】恒外压体积功计算式（W=−p₁ΔV=−2×10⁵×(8−4)×10⁻³=−800 J）",
-      "semantic_alias": "constant_pressure_volume_work_calculation.jpg",
+      "semantic_alias": "",
       "knowledge_points": "热力学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -16013,7 +15680,7 @@
     {
       "physical_filename": "0a227751a79a215b6064aa4d656ffa95f48dae412762db5419cd1213bb9a6f10.jpg",
       "description": "【视觉复核】三角双锥与四方锥五配位构型对比图",
-      "semantic_alias": "trigonal_bipyramidal_square_pyramidal_comparison.jpg",
+      "semantic_alias": "",
       "knowledge_points": "配位化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -16022,7 +15689,7 @@
     {
       "physical_filename": "0a86b8ceaa57be068aa4f52233b62aa573ec919a14f1d39045f5d86c9e124f69.jpg",
       "description": "【视觉复核】氯气与水反应方程式（Cl₂+H₂O⇌H⁺+Cl⁻+HClO）",
-      "semantic_alias": "chlorine_water_reaction_equation.jpg",
+      "semantic_alias": "",
       "knowledge_points": "无机化学/卤素",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -16031,7 +15698,7 @@
     {
       "physical_filename": "0a9f322e86752df7176d6bb263b804e888a545e322332a795c225bd4bf569660.jpg",
       "description": "【视觉复核】A 配体配合物空间排布与旋转示意（具体几何构型需结合上下文）",
-      "semantic_alias": "a_ligand_complex_geometry_rotation.jpg",
+      "semantic_alias": "",
       "knowledge_points": "配位化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -16040,7 +15707,7 @@
     {
       "physical_filename": "0ad326db3a80445fe0481b6c7fd8136142c0c1e75b512529a9005e5881f852a9.jpg",
       "description": "【视觉复核】CrCl₂ 与 NH₃·H₂O 配合反应方程式片段（含 NH₄Cl、O₂）",
-      "semantic_alias": "crcl2_ammonia_complex_reaction.jpg",
+      "semantic_alias": "",
       "knowledge_points": "配位化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -16049,7 +15716,7 @@
     {
       "physical_filename": "0b378dc490f532300641b68fea536228efe8bf829889d16ef496a53b18187a08.jpg",
       "description": "【视觉复核】NO₂⁻还原半反应（NO₂⁻+5H₂O+6e⁻→NH₃+7OH⁻）",
-      "semantic_alias": "nitrite_reduction_half_reaction.jpg",
+      "semantic_alias": "",
       "knowledge_points": "氧化还原",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -16058,7 +15725,7 @@
     {
       "physical_filename": "0b7371e42520adf2534661f5208fa04eb232d2fd9ca0a2106342097764328087.jpg",
       "description": "【视觉复核】d¹、d²、d³、d⁸、d⁹ 电子排布示意（简并轨道填充）",
-      "semantic_alias": "d_orbital_electron_configurations.jpg",
+      "semantic_alias": "",
       "knowledge_points": "配位化学/晶体场理论",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -16067,7 +15734,7 @@
     {
       "physical_filename": "0bc133d334ae9bffe2ea602b77600042357afcbb1a6dc3e3f03187ccc45666cf.jpg",
       "description": "【视觉复核】ClO⁻还原半反应（ClO⁻+H₂O+2e⁻→Cl⁻+2OH⁻）",
-      "semantic_alias": "hypochlorite_reduction_half_reaction.jpg",
+      "semantic_alias": "",
       "knowledge_points": "氧化还原",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -16076,7 +15743,7 @@
     {
       "physical_filename": "0bea04a8ed3d10f33abbc9ee95d8274fef0f870266094522b397b7618c978b95.jpg",
       "description": "【视觉复核】连二硫酸根 S₂O₆²⁻ 结构（两个 SO₃ 单元通过 S–S 键连接）",
-      "semantic_alias": "dithionate_s2o6_structure.jpg",
+      "semantic_alias": "",
       "knowledge_points": "无机化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -16085,7 +15752,7 @@
     {
       "physical_filename": "0c8fb2e414522b969c48973e6397964dbeff87b4b2b8977df18008bd68f03e2a.jpg",
       "description": "【视觉复核】碘的 ΔrG⊖m–Frost 图（I⁻→I₂→IO⁻→IO₃⁻→H₅IO₆²⁻，氧化态 −1 到 +7）",
-      "semantic_alias": "iodine_frost_diagram.jpg",
+      "semantic_alias": "",
       "knowledge_points": "氧化还原",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -16121,7 +15788,7 @@
     {
       "physical_filename": "0e6dabb048cef84516825af0d4d40336cadb708f3aa6ed3d5cb9e1c8ea135ce0.jpg",
       "description": "【视觉复核】CO 生成反应方程式（C+1/2O₂→CO）",
-      "semantic_alias": "carbon_monoxide_formation_equation.jpg",
+      "semantic_alias": "",
       "knowledge_points": "热力学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -16130,7 +15797,7 @@
     {
       "physical_filename": "0ea5695ee0f859721da251cf110926cda02a9f31695c751be3a8954c119ab1ec.jpg",
       "description": "【视觉复核】Fe₄S₄ 铁硫簇结构（4 个 Fe 中心与硫配位，铁硫蛋白活性中心示意）",
-      "semantic_alias": "fe4s4_iron_sulfur_cluster.jpg",
+      "semantic_alias": "",
       "knowledge_points": "配位化学/生物无机化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -16139,7 +15806,7 @@
     {
       "physical_filename": "107a63a91809743e81c4b4eae8b5756d88fbb940310031ef09b0876db211dd43.jpg",
       "description": "【视觉复核】[Ag(NH₃)₂]⁺解离平衡与不稳常数关系",
-      "semantic_alias": "diammine_silver_dissociation_equilibrium.jpg",
+      "semantic_alias": "",
       "knowledge_points": "配位化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -16148,7 +15815,7 @@
     {
       "physical_filename": "107e1c97b80ce72c8211a9fff911a80717ae1351c132d33bff4d39bfe78f38a9.jpg",
       "description": "【视觉复核】Mn₂(CO)₁₀ 与 Co₂(CO)₈ 金属羰基二聚体结构及桥羰基示意",
-      "semantic_alias": "metal_carbonyl_dimers_mn2co10_co2co8.jpg",
+      "semantic_alias": "",
       "knowledge_points": "配位化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -16157,7 +15824,7 @@
     {
       "physical_filename": "1090a8b3865f0bdd602cc62c111c9b12f68f3369573b2cd5de0dd2420c02ada4.jpg",
       "description": "【视觉复核】Ag₂S 溶解—配位耦合平衡常数计算（K=1.5×10⁷）",
-      "semantic_alias": "silver_sulfide_complexation_equilibrium_constant.jpg",
+      "semantic_alias": "",
       "knowledge_points": "配位化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -16166,7 +15833,7 @@
     {
       "physical_filename": "10d434359f29491f7ff062df2e3d5b8cd030acdcb726af3c2ad5e379ca985d48.jpg",
       "description": "【视觉复核】Cr₂O₇²⁻/Cr³⁺电对能斯特方程",
-      "semantic_alias": "dichromate_nernst_equation.jpg",
+      "semantic_alias": "",
       "knowledge_points": "电化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -16175,7 +15842,7 @@
     {
       "physical_filename": "11597d56e0fe47108c76e5ba2f6600bee52bf06cd08d331d5ee0c566a308799d.jpg",
       "description": "【视觉复核】多面体晶体结构（双锥几何构型示意）",
-      "semantic_alias": "polyhedral_crystal_bipyramid_structure.jpg",
+      "semantic_alias": "",
       "knowledge_points": "晶体化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -16193,7 +15860,7 @@
     {
       "physical_filename": "126ea5e55c3e422ecebd23895d1028f3d590f67be98caf56b61dc2577f71d8b4.jpg",
       "description": "【视觉复核】[Fe₄S₃(NO)₇]⁻ 铁硫亚硝酰簇结构（X 射线结构题图）",
-      "semantic_alias": "fe4s3no7_iron_sulfur_nitrosyl_cluster_structure.jpg",
+      "semantic_alias": "",
       "knowledge_points": "配位化学/无机化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -16202,7 +15869,7 @@
     {
       "physical_filename": "12bec2988cbc4b39d6c61b364aac167906a21c64af718970fb455fd9c92df299.jpg",
       "description": "【视觉复核】干电池结构图（MnO₂/石墨正极、Zn 外壳负极、NH₄Cl/ZnCl₂ 糊状电解质）",
-      "semantic_alias": "dry_cell_structure_mno2_zn_nh4cl.jpg",
+      "semantic_alias": "",
       "knowledge_points": "电化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -16229,7 +15896,7 @@
     {
       "physical_filename": "14214a2621ae830220dab51c240a0e05bfef22151ede53302d963189a8f79aac.jpg",
       "description": "【视觉复核】铅蓄电池结构与充放电示意（PbO₂ 正极、Pb 负极、H₂SO₄ 电解液）",
-      "semantic_alias": "lead_acid_battery_structure_charge_discharge.jpg",
+      "semantic_alias": "",
       "knowledge_points": "电化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -16238,7 +15905,7 @@
     {
       "physical_filename": "142a015e6212a67bdda9b52420ee6887d87a4e68b0c6313358236f182620ef21.jpg",
       "description": "【视觉复核】铝在碱性硝酸根溶液中的氧化反应（8Al+3NO₃⁻+5OH⁻+18H₂O→8[Al(OH)₄]⁻+3NH₃）",
-      "semantic_alias": "aluminum_nitrate_alkaline_redox_equation.jpg",
+      "semantic_alias": "",
       "knowledge_points": "氧化还原",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -16283,7 +15950,7 @@
     {
       "physical_filename": "14c90e037aa38a619099181416dc0697e05d9519d8a49a359562897edec3288a.jpg",
       "description": "【视觉复核】正八面体配合物 M(AB)₃ 的一种异构体排布示意",
-      "semantic_alias": "octahedral_mab3_isomer_arrangement.jpg",
+      "semantic_alias": "",
       "knowledge_points": "配位化学/立体异构",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -16292,7 +15959,7 @@
     {
       "physical_filename": "14df45a01b515ea9970111e1851430cd340701216a53da595523b7910192f07a.jpg",
       "description": "【视觉复核】[Cr(OH)₄]⁻ 氧化为 CrO₄²⁻ 的碱性介质半反应（含电子配平）",
-      "semantic_alias": "chromium_hydroxide_oxidation_half_reaction.jpg",
+      "semantic_alias": "",
       "knowledge_points": "氧化还原",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -16310,7 +15977,7 @@
     {
       "physical_filename": "15290ad910f6e49ab973da1425c5b3f849bc183878b65a577ec87909936719d1.jpg",
       "description": "【视觉复核】A/B/C 配体配位构型与取代/重排箭头示意（具体机理待上下文）",
-      "semantic_alias": "abc_ligand_complex_rearrangement.jpg",
+      "semantic_alias": "",
       "knowledge_points": "配位化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -16319,7 +15986,7 @@
     {
       "physical_filename": "152f62d3705633852c9d58435798507caa3563fb4025ed49895dd71880f64069.jpg",
       "description": "【视觉复核】正八面体六配位构型与轴向配体/对称轴示意",
-      "semantic_alias": "octahedral_coordination_axis_geometry.jpg",
+      "semantic_alias": "",
       "knowledge_points": "配位化学/立体异构",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -16346,8 +16013,8 @@
     {
       "physical_filename": "155aec8b6513ebb49b367c10a561f9c6e75811e2e7ab82d5ed10067c51b148c1.jpg",
       "description": "【视觉复核】八面体配合物中 a/b 配体的空间排布（3a/3b，非四面体晶体场能级图）",
-      "semantic_alias": "octahedral_ab_ligand_arrangement_2.jpg",
-      "knowledge_points": "配位化学/晶体场理论",
+      "semantic_alias": "",
+      "knowledge_points": "配位化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -16362,18 +16029,9 @@
       "in_media": true
     },
     {
-      "physical_filename": "1618ec04e11fa1acb9fb151167036fa63660c74ee0ed0257d240e6dc7870acf8.jpg",
-      "description": "草酸与乙二醇缩聚/酯化产物结构式（单酯、六元环二酯、聚草酸乙二醇酯链）",
-      "semantic_alias": "oxalic_acid_ethylene_glycol_esters_and_polyester.jpg",
-      "knowledge_points": "有机化学/羧酸衍生物/缩聚反应/草酸酯",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
       "physical_filename": "164a79c69f5e1e97ad1e8740efabff49302269b8b2ede364b0117cc1901067d5.jpg",
       "description": "【视觉复核】钴氯配合物逐步 NH₃ 配体取代序列（Cl 配体逐步被 NH₃ 替换）",
-      "semantic_alias": "cobalt_chloro_ammonia_ligand_substitution_sequence.jpg",
+      "semantic_alias": "",
       "knowledge_points": "配位化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -16382,7 +16040,7 @@
     {
       "physical_filename": "17783f0ca6c089bcfe159e83e781a1267ba540858080cd5f13efb8b849cc975b.jpg",
       "description": "【视觉复核】四种配位几何模型对比（八面体、四面体、四方锥、三角双锥）",
-      "semantic_alias": "coordination_geometry_four_models.jpg",
+      "semantic_alias": "",
       "knowledge_points": "配位化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -16391,7 +16049,7 @@
     {
       "physical_filename": "1809f9684cd3ef0e67a373a0b0eae9db28c43affece1a1b94f0b81e592ea4882.jpg",
       "description": "【视觉复核】四氨合钴(III)草酸根溴化物配合物结构 [Co(NH₃)₄(C₂O₄)]Br",
-      "semantic_alias": "tetraammine_cobalt_oxalate_bromide_complex.jpg",
+      "semantic_alias": "",
       "knowledge_points": "配位化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -16434,33 +16092,6 @@
       "in_media": true
     },
     {
-      "physical_filename": "18b040b4d5b8a323ee286d7d1bbc21b99fd845c8256c40cb46bda4c7f64c321e.jpg",
-      "description": "希腊字母Δ符号片段（OCR切图碎片）",
-      "semantic_alias": "delta_symbol_fragment.jpg",
-      "knowledge_points": "字符与符号碎片",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "18fad1f9a09801bafa53240c71fa5fc0200c9dfdd7f9f7673e4060e261020b80.jpg",
-      "description": "热力学活塞压缩与体积功示意图（截面积S、位移ΔL、外力F）",
-      "semantic_alias": "piston_expansion_work_model.jpg",
-      "knowledge_points": "热力学第一定律/体积功",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "1938e1cf0f191590dc7ce745bcb73acdf8b45d2a8dd011cbd3eb1c89be35bab0.jpg",
-      "description": "热力学燃烧热基准态元素对应的基准产物分子式文本片段（纯文字分子式片段，不推荐讲义配图）",
-      "semantic_alias": "combustion_enthalpy_reference_states_formulas_text.jpg",
-      "knowledge_points": "热力学/燃烧热/基准态/文本片段",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
       "physical_filename": "196a05d522606f09610f7bfdf763facb0206b2eeab5730cbaa087fdaab4433f0.jpg",
       "description": "【机器误判修正】E⊖(HAc/H₂)=0+0.0591×lg(1.8×10⁻⁵)=-0.28V计算",
       "semantic_alias": "",
@@ -16479,24 +16110,6 @@
       "in_media": true
     },
     {
-      "physical_filename": "199cf8c84c10551fbc6d42d68054ba103eb81b446e46cc5a1a70a57725c99fad.jpg",
-      "description": "SiF₄-NMe₃路易斯酸碱配合物立体结构式（N→Si配位键，五配位Si）",
-      "semantic_alias": "sif4_nme3_lewis_adduct_structure.jpg",
-      "knowledge_points": "无机化学/路易斯酸碱理论/硅配位化合物",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "19b323d881e71b393625e805d2b3dfd052d77632119644f9020c8b70cc33932b.jpg",
-      "description": "八面体配合物配体空间排布示意图（标有A/B/c/d/e顶点与弧线螯合链，待上下文确认）",
-      "semantic_alias": "octahedral_complex_ligand_arrangement_model_2.jpg",
-      "knowledge_points": "配位化学/立体化学/配合物构型",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
       "physical_filename": "19cc65ef8c101fe209bf429aed3cd4593240bbd516e80b264951088b5deb14e2.jpg",
       "description": "【机器误判修正】2CN⁻+O₂+2OH⁻+2H₂O=2CO₃²⁻+2NH₃氰化物氧化反应",
       "semantic_alias": "",
@@ -16508,8 +16121,8 @@
     {
       "physical_filename": "19d7ed1cde72842067544c8e46dcdc1901ffee5f79d88d95df1233576fc1ae0e.jpg",
       "description": "【视觉复核】热力学状态边界条件示意（S=0、T=0 初态→p=1.013×10⁵ Pa 终态）",
-      "semantic_alias": "thermodynamic_state_boundary_conditions.jpg",
-      "knowledge_points": "配位化学",
+      "semantic_alias": "",
+      "knowledge_points": "热力学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -16528,15 +16141,6 @@
       "description": "【机器误判修正】Zn+CNS⁻+3H⁺=Zn²⁺+H₂S+HCN反应方程式",
       "semantic_alias": "",
       "knowledge_points": "无机化学",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "1ab1f9e7becfb525c6466f4f7d2db7715e7439ff44c23a4ea8d48e028932563b.jpg",
-      "description": "立方体顶点4个取代基D的6种空间排列几何构型图（共面/三角锥/正四面体/平行线/异面直线）",
-      "semantic_alias": "cube_4d_substituents_spatial_arrangements_symmetry.jpg",
-      "knowledge_points": "结构化学/分子对称性/群论/异构体计数",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -16641,37 +16245,10 @@
       "in_media": true
     },
     {
-      "physical_filename": "205092ae01f3c1bcb2c840fad6cfd3c9fa5145ea1477ea0210d5ddc27c63d3f6.jpg",
-      "description": "碳化三铁Fe₃C与硝酸HNO₃氧化还原反应配平方程式",
-      "semantic_alias": "fe3c_nitric_acid_redox_equation.jpg",
-      "knowledge_points": "无机化学/铁元素/氧化还原方程式配平",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
       "physical_filename": "20613c7634e456fca5c0a46abc8ec52e7301a67366912c8dcb974fda51d6f716.jpg",
       "description": "【机器误判修正】3Fe₃C+40HNO₃=9Fe(NO₃)₃+13NO+3CO₂+20H₂O氧化还原方程",
       "semantic_alias": "",
       "knowledge_points": "氧化还原",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "20721422b1e9f214b411cfab2b796703f39e96081b4738baf35493d713475802.jpg",
-      "description": "Cu-Sn合金六方晶胞结构图（Cu与Sn原子顶点交换两种视角，120°夹角标记）",
-      "semantic_alias": "cusn_alloy_hexagonal_unit_cell.jpg",
-      "knowledge_points": "晶体化学/合金晶体结构/六方晶系",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "209eda2b0c5fea8290caf0582bf06a8f583f2a0b0e18112cfa99860dc6364613.jpg",
-      "description": "双核配合物二聚结构图（氢键/氧桥联，含轴向Cl与吡啶配体）",
-      "semantic_alias": "dinuclear_complex_hydrogen_bonded_dimer.jpg",
-      "knowledge_points": "配位化学/双核配合物",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -16686,28 +16263,10 @@
       "in_media": true
     },
     {
-      "physical_filename": "217cf7db7c19c4a3dbb905a336b7728337a04d81f99cfb3886ce7af832b0fe4e.jpg",
-      "description": "Cu⁺/Cu电极电势自由能加和算例公式片段E=(2*0.337-1*0.153)/1=0.521V",
-      "semantic_alias": "cu_plus_cu_standard_potential_calculation_formula.jpg",
-      "knowledge_points": "电化学/电极电势/Latimer图计算",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
       "physical_filename": "21bd810ae87ee493bafa498da31dfd95d28ea4e570acebfa23b6119479b9d3dc.jpg",
       "description": "【机器误判修正】E⊖(Cu⁺/Cu)=(2×0.337-1×0.153)/1=0.521V电极电势计算",
       "semantic_alias": "",
       "knowledge_points": "电化学",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "21ce595c47cd7fb503e4c0689744778f41fac2e88bb7a0b8681daa42d9040a7e.jpg",
-      "description": "电池电动势与吉布斯自由能变关系式ΔrGm=-zFE_MF公式片段",
-      "semantic_alias": "electrochemical_gibbs_emf_formula.jpg",
-      "knowledge_points": "电化学/电池电动势与自由能",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -16767,15 +16326,6 @@
       "in_media": true
     },
     {
-      "physical_filename": "22a0f36e5332bd5846c5fa7d705990cda591cb50639455358b2707cc60490064.jpg",
-      "description": "CsCl型离子晶体晶胞结构示意图（顶角8个空心球与体心1个黑球配位）",
-      "semantic_alias": "cscl_simple_cubic_unit_cell_structure_model.jpg",
-      "knowledge_points": "晶体化学/离子晶体/CsCl型晶体结构",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
       "physical_filename": "22f20352a4b1b319915247f3b47c730d71bafada4ae4135ab3c3d7877cfff7d2.jpg",
       "description": "【机器误判修正】lg(K⊖₃₁₈/K⊖₂₉₈)范特霍夫方程计算，K⊖₂₉₈=0.723",
       "semantic_alias": "",
@@ -16789,15 +16339,6 @@
       "description": "【机器误判修正】ΔrU=Qp+W=Qp-pΔV=Qp-Δ(pV)内能公式",
       "semantic_alias": "",
       "knowledge_points": "热力学",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "23304dddadd706123d31a2cc993512ac9ace0dcba0236c3ff6b8bf630c923dce.jpg",
-      "description": "Fe³⁺/Fe²⁺电极电势能斯特方程式片段E=E⊖+0.0591lg([Fe³⁺]/[Fe²⁺])",
-      "semantic_alias": "fe3_fe2_nernst_equation.jpg",
-      "knowledge_points": "电化学/能斯特方程式",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -16884,28 +16425,10 @@
       "in_media": true
     },
     {
-      "physical_filename": "27b7f49fa55cc4c8b4260f2b97ccdc6fbc5955d5d7c2758a60a5f520d671b483.jpg",
-      "description": "化学反应标准摩尔熵变ΔrSm⊖计算算例公式片段",
-      "semantic_alias": "entropy_change_calculation_formula.jpg",
-      "knowledge_points": "热力学/反应熵变",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
       "physical_filename": "27f513a04755fb0068a5c2d1134595b40f34e016a6d03a21b0701699200a39cf.jpg",
       "description": "【机器误判修正】ΔrSm⊖=0.5×205.03+2×42.55-121=66.62J/(mol·K)熵变计算",
       "semantic_alias": "",
       "knowledge_points": "热力学",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "284742158669c7b5d2a9b73589b20f6cffe461ebbe6b693602f263b01817b70e.jpg",
-      "description": "[PtCl₆]²⁻正八面体配合物立体几何结构模型",
-      "semantic_alias": "ptcl6_octahedral_complex_structure.jpg",
-      "knowledge_points": "配位化学/配合物空间构型",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -16924,15 +16447,6 @@
       "description": "【机器误判修正】5C₆H₅-CH₂CH(CH₃)₂+8KMnO₄+12H₂SO₄=烷基苯氧化反应",
       "semantic_alias": "",
       "knowledge_points": "氧化还原",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "28b7b150549408567faac7628ceb888f0a8672c3051978d075d478e2cd0d7ae8.jpg",
-      "description": "9种杂化轨道类型与配位几何构型全景对比图（sp直线至d³sp³五角双锥几何多面体模型）",
-      "semantic_alias": "hybrid_orbitals_and_coordination_geometries_overview.jpg",
-      "knowledge_points": "杂化轨道理论/配位几何/配合物构型",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -16960,15 +16474,6 @@
       "description": "【机器误判修正】⑦Pb+PbO₂+4H⁺+2SO₄²⁻=2PbSO₄+2H₂O铅蓄电池反应",
       "semantic_alias": "",
       "knowledge_points": "电化学",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "2a182c99c27fc4a578c6f68e2c409d96ba2bd0efa037a7fd9661d57299297e7e.jpg",
-      "description": "卤化银AgX与硫代硫酸钠Na₂S₂O₃配位溶解化学反应方程式",
-      "semantic_alias": "silver_halide_thiosulfate_complexation_equation.jpg",
-      "knowledge_points": "无机化学/银元素/配位反应",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -17010,15 +16515,6 @@
       "in_media": true
     },
     {
-      "physical_filename": "2c7b2207315bcac9497e5d4616d68f45abbf4e616835a898502b54203038e414.jpg",
-      "description": "配合物概念举例说明文本片段([Co(NH₃)₆]Cl₃、K₃[Cr(CN)₆]、Ni(CO)₄)",
-      "semantic_alias": "coordination_complexes_definition_examples_text.jpg",
-      "knowledge_points": "配位化学/配合物基本概念",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
       "physical_filename": "2ce6320c28fc12d2569abba213c74880ec238944698ab0b5e85bd7d19c0f7476.jpg",
       "description": "【机器误判修正】四种四方平面配合物几何异构体（A-A双齿配体）",
       "semantic_alias": "",
@@ -17046,15 +16542,6 @@
       "in_media": true
     },
     {
-      "physical_filename": "2e20b36046cc7a908c0d1da6353bc02a2f75ed8371724637d9e615d3d7e9dcfb.jpg",
-      "description": "【机器误判修正】[Ni(NH₃)₄]²⁺与[Ni(CN)₄]²⁻对比表（外轨/内轨、磁矩、高/低自旋）",
-      "semantic_alias": "",
-      "knowledge_points": "配位化学",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
       "physical_filename": "2e29195e2f86efb88839e5f3e0ce73624518caf574aaa5e500f37c1bae8da6f5.jpg",
       "description": "【机器误判修正】四方平面配合物（A-A双齿配体，轴向D）",
       "semantic_alias": "",
@@ -17068,15 +16555,6 @@
       "description": "【机器误判修正】K⊖=[Ag(CN)₂⁻][Ag⁺][I⁻]/([Ag⁺][CN⁻]²)=Ksp(AgI)×K稳=1.5×10⁵",
       "semantic_alias": "",
       "knowledge_points": "化学平衡/配位化学",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "2ed7b24fa94703572baf9dd556c7a3190197d8b9faa9ec789d88bd5a1efb6cbd.jpg",
-      "description": "吡啶-2-甲酰胺双齿配位金属M形成五元螯合环配合物结构式",
-      "semantic_alias": "picolinamide_bidentate_metal_chelate_structure.jpg",
-      "knowledge_points": "有机化学/配位化学/螯合物/双齿配体/五元螯合环",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -17281,9 +16759,9 @@
     },
     {
       "physical_filename": "39f49f72ee2c5c07150b3f9e7700a3103839a99827c118524cb1ca5a3faa6a7a.jpg",
-      "description": "正方形晶体场作用下d轨道分裂能级图（自由离子→球形场→正方形场能级与Dq参数）",
-      "semantic_alias": "square_planar_crystal_field_splitting_diagram.jpg",
-      "knowledge_points": "配位化学/晶体场理论/正方形场分裂",
+      "description": "【视觉复核】正方形晶体场d轨道分裂能级图（自由离子→球形场→正方形场，Δs可视化）",
+      "semantic_alias": "",
+      "knowledge_points": "晶体场理论",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -17298,19 +16776,10 @@
       "in_media": true
     },
     {
-      "physical_filename": "3b0a3c4e1b3a0088a5e016e545fcd61644021b24e39c6d4b47d0708e7f5a9d06.jpg",
-      "description": "正二十面体(Icosahedron)立体几何多面体结构模型图（12顶点20三角形面，如B₁₂硼簇）",
-      "semantic_alias": "regular_icosahedron_polyhedron_structure_model.jpg",
-      "knowledge_points": "晶体化学/多面体几何/正二十面体/B₁₂硼簇",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
       "physical_filename": "3bf42e081ec46738ba851c1fd3200dd41a318d882b77b542f5fb9d4dc6cdd39b.jpg",
-      "description": "螯合物概念与典型乙酰丙酮配合物结构综合图（[Cu(en)₂]²⁺与螃蟹螯合比喻、VO(acac)₂、Mn(acac)₃结构与3D模型）",
-      "semantic_alias": "chelation_concept_and_acac_complexes_overview.jpg",
-      "knowledge_points": "配位化学/螯合物/乙酰丙酮配合物",
+      "description": "【视觉复核】螯合物概念与乙酰丙酮配合物结构综合图（螃蟹螯合比喻+VO(acac)₂+Mn(acac)₃+3D模型）",
+      "semantic_alias": "",
+      "knowledge_points": "配位化学/螯合物",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -17338,24 +16807,6 @@
       "description": "【机器误判修正】HAc/H₂电极电势计算公式（涉及Ka和HAc/Ac⁻浓度）",
       "semantic_alias": "",
       "knowledge_points": "电化学",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "3d51af3adfaf85f21f07a23f843798ed82f1a8e6bcd2c4d178fde9ec6886a5f8.jpg",
-      "description": "正八面体场与压扁八面体场d轨道Jahn-Teller分裂对比图（z轴压缩，dz²/dx²-y²与dyz,dxz/dxy分裂）",
-      "semantic_alias": "compressed_octahedral_jahn_teller_splitting.jpg",
-      "knowledge_points": "配位化学/晶体场理论/Jahn-Teller效应/压扁八面体",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "3d8a7c5a79efc28d4fb2b71000b02d9fc9d48631a592fb37a1238e47dac4c081.jpg",
-      "description": "六方密堆积（hcp）晶胞结构示意图（上下层顶点/面心阴影球与中间层3球）",
-      "semantic_alias": "hcp_crystal_unit_cell_structure.jpg",
-      "knowledge_points": "晶体化学/金属晶体/六方密堆积",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -17416,27 +16867,18 @@
     },
     {
       "physical_filename": "42b57f3be6373a202238ba213e1e83bcb123a6cb8ab8933a62b71dc4d6ce2da5.jpg",
-      "description": "正八面体配位场中五种d轨道在xyz坐标轴上的空间取向示意图（视角二，dxy/dyz/dxz/dz²/dx²-y²）",
-      "semantic_alias": "octahedral_crystal_field_five_d_orbitals_axes_orientations.jpg",
-      "knowledge_points": "配位化学/晶体场理论/d轨道空间分布/八面体场",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "4314b0ada0cc8ac555f9d4c680b6907fa708bdfed43857c973a37277f497b65f.jpg",
-      "description": "正八面体场与拉长八面体场d轨道Jahn-Teller分裂对比图（z轴拉伸，dx²-y²/dz²与dxy/dyz,dxz分裂）",
-      "semantic_alias": "elongated_octahedral_jahn_teller_splitting.jpg",
-      "knowledge_points": "配位化学/晶体场理论/Jahn-Teller效应/拉长八面体",
+      "description": "【视觉复核】正八面体配位场五种d轨道在xyz坐标轴上空间取向示意图（视角二）",
+      "semantic_alias": "",
+      "knowledge_points": "晶体场理论",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
     },
     {
       "physical_filename": "434a111468d2b50500620ba6f8e8473d9e3677b655d9673f2088ee9da8b59020.jpg",
-      "description": "Ag⁺的sp杂化[Ag(NH₃)₂]⁺与Be²⁺的sp³杂化[BeX₄]²⁻配位成键轨道与构型对比图",
-      "semantic_alias": "silver_sp_and_beryllium_sp3_hybridization_comparison.jpg",
-      "knowledge_points": "配位化学/价键理论/sp杂化/sp³杂化/配位构型",
+      "description": "【视觉复核】Ag⁺ sp杂化与Be²⁺ sp³杂化配位成键轨道与构型对比图",
+      "semantic_alias": "",
+      "knowledge_points": "配位化学/价键理论",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -17470,9 +16912,9 @@
     },
     {
       "physical_filename": "45c0bbeb313ddf67d1c381b84e7475106296c4ef3057e3d30ae12b15805b8441.jpg",
-      "description": "正四面体晶体场中五种d轨道电子云空间分布与配体重叠示意图（dxy/dyz/dxz/dz²/dx²-y²与四面体顶点）",
-      "semantic_alias": "tetrahedral_crystal_field_five_d_orbitals_3d_overlap_model.jpg",
-      "knowledge_points": "配位化学/晶体场理论/d轨道空间分布/四面体场",
+      "description": "【视觉复核】正四面体晶体场五种d轨道电子云空间分布与配体重叠示意图（dxy/dyz/dxz/dz²/dx²-y²与四面体顶点）",
+      "semantic_alias": "",
+      "knowledge_points": "晶体场理论",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -17498,7 +16940,7 @@
     {
       "physical_filename": "4770332458598fd165dfb7d1e6e181e3360d98e464c6750b8c6d99d5f3253343.jpg",
       "description": "【视觉复核】金(III)配合物结构（含 [AuCl₄]⁻ 平面正方形配位）",
-      "semantic_alias": "auiii_aucl4_square_planar_complex.jpg",
+      "semantic_alias": "",
       "knowledge_points": "配位化学/元素化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -17586,15 +17028,6 @@
       "in_media": true
     },
     {
-      "physical_filename": "4e05f37fd7411e92af69875986dc620cb9e7a6285f99e875ed7e88f6e07d5b00.jpg",
-      "description": "TiC与TiO₂热力学生成焓与反应焓算例数值文本片段（纯文字算式片段，不推荐讲义配图）",
-      "semantic_alias": "tic_tio2_thermodynamic_enthalpy_values_text.jpg",
-      "knowledge_points": "热力学/盖斯定律/生成焓/文本片段",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
       "physical_filename": "4e4178bad0800f17ead90ba728ecb380588e9e206d986cba08a75f1ed14a4e14.jpg",
       "description": "【机器误判修正】Mg₃N₂(s)标准生成焓计算（ΔfH⊖m=-480.8kJ/mol）",
       "semantic_alias": "",
@@ -17614,18 +17047,18 @@
     },
     {
       "physical_filename": "5016704d532f7b1ad7caac8f615d8796ea3349d1dba90038855ccba99450f75c.jpg",
-      "description": "正八面体配位场中五种d轨道空间电子云分布与配体重叠示意图（dxy/dyz/dxz/dz²/dx²-y²）",
-      "semantic_alias": "octahedral_crystal_field_five_d_orbitals_3d_overlap_model.jpg",
-      "knowledge_points": "配位化学/晶体场理论/d轨道空间分布/八面体场",
+      "description": "【视觉复核】正八面体配位场五种d轨道空间电子云分布与配体重叠示意图",
+      "semantic_alias": "",
+      "knowledge_points": "晶体场理论",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
     },
     {
       "physical_filename": "50fb148a0f8a1be5c226a4e27f60ab33674052c622ad078cc6afe4b6f9ad2800.jpg",
-      "description": "【机器误判修正】旋光仪原理图（光源→起偏器→样品池→检测器）+Cr配合物镜面对称异构体",
+      "description": "【视觉复核】四方平面配合物Mabcdef几何异构体结构图（10种配体排列组合示例）",
       "semantic_alias": "",
-      "knowledge_points": "配位化学",
+      "knowledge_points": "配位化学/立体化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -17633,7 +17066,7 @@
     {
       "physical_filename": "513610b3927f42b644d3a4f0faa1affa98f0fc6919c119bac08b8855131b01d5.jpg",
       "description": "【视觉复核】Fe(III)-水杨酸根配合物随 pH 变化的配位数与颜色表（pH>9/4-8/2-3）",
-      "semantic_alias": "fe_salicylate_ph_color_table.jpg",
+      "semantic_alias": "",
       "knowledge_points": "配位化学/元素推断",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -17686,9 +17119,9 @@
     },
     {
       "physical_filename": "5917f923258e7611fcc104ac03f2d53dd6706ae9924aef58cfb28c7eb14b4a69.jpg",
-      "description": "旋光仪测定原理与配合物手性光学异构体镜面对映比喻综合原理图",
-      "semantic_alias": "polarimeter_principle_and_coordination_enantiomers_model.jpg",
-      "knowledge_points": "配位化学/立体化学/光学异构体/手性/旋光仪原理",
+      "description": "【视觉复核】旋光仪测定原理与配合物手性光学异构体综合原理图（光源→起偏器→样品池→检测器+Cr配合物对映体）",
+      "semantic_alias": "",
+      "knowledge_points": "配位化学/立体化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -17739,28 +17172,19 @@
       "in_media": true
     },
     {
-      "physical_filename": "5c8e86168dbd151fc019aa4c94238ebbf20937f8537967852f4fcd48244a3552.jpg",
-      "description": "法拉第电解定律产物质量与电量定量关系数据对照表（Na⁺/Mg²⁺/Al³⁺还原所需电量）",
-      "semantic_alias": "faraday_law_electrolysis_quantity_and_charge_table.jpg",
-      "knowledge_points": "电化学/电解池/法拉第电解定律/电量计算",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
       "physical_filename": "5c947f5b2e0684dcf8b818cd18ff4609fcf5a9914ab782d1cc74702ad8c3bb18.jpg",
-      "description": "【机器误判修正】六种八面体配合物几何异构体（a/b/c配体不同排列）",
+      "description": "【视觉复核】六种八面体配合物几何异构体（a/b/c配体不同排列）",
       "semantic_alias": "",
-      "knowledge_points": "配位化学",
+      "knowledge_points": "配位化学/立体化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
     },
     {
       "physical_filename": "5da45d7c251a4167e8ddba41644f85fe8ee4fbcd62451fc1a580f4ab72ed893f.jpg",
-      "description": "【机器误判修正】KCl Born-Haber循环数据（K升华89kJ/Cl₂解离244kJ/Cl电子亲和-355kJ/K电离425kJ/KCl生成-438kJ）",
+      "description": "【视觉复核】Ru(II)配合物[Ru(bpy)₂(SCN)₂]几何异构体（SCN/NCS顺反异构及旋光异构，有/无旋光活性标记）",
       "semantic_alias": "",
-      "knowledge_points": "热力学",
+      "knowledge_points": "配位化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -17775,46 +17199,37 @@
       "in_media": true
     },
     {
-      "physical_filename": "5e38ef2c70d703e6bfd6927f795fa4a5c778b2ff4cdc518d59379ed60142552d.jpg",
-      "description": "常见典型分子构型、对称元素与点群(Point Group)全景分类对照表（菲/碘仿/B₂H₆/C₆₀/P₄O₆/乙烷各构型）",
-      "semantic_alias": "molecular_configurations_symmetry_elements_point_groups_table.jpg",
-      "knowledge_points": "结构化学/分子对称性/点群/对称元素/群论",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
       "physical_filename": "5f17019ed47a446f6515092df204963ec690487335c040ce1b8bf22b9d631f8b.jpg",
-      "description": "正八面体晶体场作用下d轨道分裂能级图（自由离子→球形场→eg与t2g分裂能级及Dq参数）",
-      "semantic_alias": "octahedral_crystal_field_d_orbital_splitting_energy_diagram.jpg",
-      "knowledge_points": "配位化学/晶体场理论/八面体场分裂/Dq参数",
+      "description": "【视觉复核】正八面体晶体场d轨道分裂能级图（自由离子→球形场→eg/t2g分裂，Δ₀=10Dq）",
+      "semantic_alias": "",
+      "knowledge_points": "晶体场理论",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
     },
     {
       "physical_filename": "60c1c4d659119312f4fa1e249c072dc20afb462baed838a78f818664377f6402.jpg",
-      "description": "【机器误判修正】铜浓差电池符号（含en配合物，Cu(NO₃)₂/KNO₃浓度标注）",
+      "description": "【视觉复核】铜浓差电池符号（含en配合物，Cu(NO₃)₂/KNO₃浓度标注）",
       "semantic_alias": "",
-      "knowledge_points": "电化学",
+      "knowledge_points": "电化学/浓差电池",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
     },
     {
       "physical_filename": "60e4d8aeece1672565050553bcf9785485da6d0829307e966352fc9b1f8b9184.jpg",
-      "description": "【机器误判修正】八面体场d电子数与CFSE关系表（d⁰-d¹⁰，CFSE=0/4/8/12/6Dq）",
+      "description": "【视觉复核】八面体场d电子数(d⁰-d¹⁰)与CFSE关系表（CFSE=0/4/8/12/6Dq）",
       "semantic_alias": "",
-      "knowledge_points": "配位化学/晶体场理论",
+      "knowledge_points": "晶体场理论",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
     },
     {
       "physical_filename": "6141ade87a33fe75e6ffc306b7913141917e69dbad583e4d7b67f94c2b98fbcd.jpg",
-      "description": "【机器误判修正】自由离子与球形电场中d轨道能级对比（晶体场理论基础）",
+      "description": "【视觉复核】自由离子与球形电场中d轨道能级对比（晶体场理论基础）",
       "semantic_alias": "",
-      "knowledge_points": "配位化学/晶体场理论",
+      "knowledge_points": "晶体场理论",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -17842,15 +17257,6 @@
       "description": "【机器误判修正】ΔrG⊖m(500K)≈ΔrH⊖m(298K)-500ΔrS⊖m(298K)=22.5kJ/mol计算",
       "semantic_alias": "",
       "knowledge_points": "热力学",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "6615521cb3fecbd6d7b963a825473d8f35836a7cd7288826e41dac64bdd44abf.jpg",
-      "description": "金属-溶液界面双电层结构与电位分布曲线图（金属带正电荷，溶液紧密/扩散层负电荷）",
-      "semantic_alias": "electrical_double_layer_positive_metal_interface.jpg",
-      "knowledge_points": "电化学/界面电化学/双电层理论/Stern模型",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -17983,9 +17389,9 @@
     },
     {
       "physical_filename": "7204a84300efa3361994331b71930abaf633a8a3bc1bb9230b1f5008fc2cdd08.jpg",
-      "description": "【机器误判修正】半导体光电化学电池原理图（导带/价带、hν光激发、e⁻/h⁺分离、H₂O→O₂和H⁺→H₂）",
+      "description": "【视觉复核】Pt-C₂H₄ Zeise盐σ-π配键模型（Dewar-Chatt-Duncanson：dsp²+5dxz与π/π*轨道重叠）",
       "semantic_alias": "",
-      "knowledge_points": "电化学",
+      "knowledge_points": "配位化学/有机金属",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -18010,9 +17416,9 @@
     },
     {
       "physical_filename": "758058d6983279f1e6f87aecceed720fe245d6b988b863fe49910476b93342d4.jpg",
-      "description": "【机器误判修正】三种配位多面体（三方反棱柱/五角双锥含中心原子/十二面体）",
+      "description": "【视觉复核】三种配位多面体几何构型（三方反棱柱/五角双锥含中心原子/正十二面体含中心原子）",
       "semantic_alias": "",
-      "knowledge_points": "配位化学",
+      "knowledge_points": "晶体化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -18045,15 +17451,6 @@
       "in_media": true
     },
     {
-      "physical_filename": "79ce77edaeceaa99790048d06a6f07e36f930dd37a01e43ec3fdd6bcae0d8285.jpg",
-      "description": "碳酸二甲酯O=C(OCH₃)₂与水合肼反应制备碳酰肼O=C(NHNH₂)₂化学方程式",
-      "semantic_alias": "dimethyl_carbonate_hydrazine_carbohydrazide_equation.jpg",
-      "knowledge_points": "有机化学/亲核取代/亲核酰基取代/碳酸酯",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
       "physical_filename": "7b84b4d3237cd070775e19bc8430e7203bc9e0d58329d648a65e61be1b41254a.jpg",
       "description": "【机器误判修正】O₃/O₂和H₂O₂/H₂O Latimer图+Mn的Latimer图（MnO₄⁻→MnO₄²⁻→MnO₂→Mn³⁺→Mn²⁺→Mn）",
       "semantic_alias": "",
@@ -18081,15 +17478,6 @@
       "in_media": true
     },
     {
-      "physical_filename": "7e6921cd3f3bd93711313a14e8fa675bf8df3f0b66a54efd0579026587af052c.jpg",
-      "description": "CN⁻水解常数Kb=Kw/Ka计算算例公式片段（纯文字算式片段，不推荐讲义配图）",
-      "semantic_alias": "cn_cyanide_hydrolysis_kb_calculation_formula.jpg",
-      "knowledge_points": "酸碱平衡/水解常数/公式片段",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
       "physical_filename": "7ee89934b6578c0f306577082b735ebcc2f6a7f1c907df12745a17cba0656ef4.jpg",
       "description": "【机器误判修正】热力学数据ΔrHm⊖=-281.66kJ/mol, ΔrGm⊖=-212.55kJ/mol",
       "semantic_alias": "",
@@ -18099,28 +17487,10 @@
       "in_media": true
     },
     {
-      "physical_filename": "7f184d5884f25df0c14d23f78c6c2b8a6cf5bf51f3c92bc50abe0506d1101e1f.jpg",
-      "description": "[Cu(en)₂]²⁺/Cu电极电势与稳定常数β₂计算算例公式片段（纯文字算式片段，不推荐讲义配图）",
-      "semantic_alias": "cu_en2_complex_potential_and_stability_constant_formula.jpg",
-      "knowledge_points": "电化学/配位化学/能斯特方程式/配合物电势",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
       "physical_filename": "80c4a5c9e317e75be6ea4c7e4f34020844a99d3b5d4dbc3449430c2af6c2b1a8.jpg",
       "description": "【机器误判修正】铀离子电极电势计算E⊖(UO₂⁺/U⁴⁺)=+0.58V",
       "semantic_alias": "",
       "knowledge_points": "电化学",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "82779446fed29c16473aa28bc1014779762ed1f07b5e570bfbcc9436f022d36d.jpg",
-      "description": "铬元素在酸性/碱性/强碱性介质下的三种电极还原半反应方程式（AD/HI/JL线段能斯特分析）",
-      "semantic_alias": "chromium_reduction_half_reactions_in_acid_base.jpg",
-      "knowledge_points": "元素化学/铬元素/氧化还原/电极反应",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -18139,15 +17509,6 @@
       "description": "【机器误判修正】ΔrU⊖m=ΔrH⊖m-ΔnRT=-282.1kJ/mol内能计算",
       "semantic_alias": "",
       "knowledge_points": "热力学",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "8364b28199021b169895ff37150d7b6683d14be400463ea07e094dfb7ea2c652.jpg",
-      "description": "NaCl型面心立方离子晶体晶胞结构模型图（黑白离子顶角/面心/棱心交替排列与配位几何）",
-      "semantic_alias": "nacl_fcc_crystal_unit_cell_model.jpg",
-      "knowledge_points": "晶体化学/离子晶体/NaCl型晶体结构",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -18189,19 +17550,10 @@
       "in_media": true
     },
     {
-      "physical_filename": "87ea5e7342a2b9340fd205b045653cd4a0c6418c7d93ad26a86ab0ca5017c049.jpg",
-      "description": "Fe³⁺/Fe²⁺与MnO₄⁻/Mn²⁺原电池符号表达文句片段（纯文字符号片段，不推荐讲义配图）",
-      "semantic_alias": "fe_mn_galvanic_cell_symbol_text.jpg",
-      "knowledge_points": "电化学/原电池/电池符号表达",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
       "physical_filename": "87ff2bf1eeca107e86ebef77b164cd2064b3af17c6853c0fbe92a8e6982d3716.jpg",
-      "description": "【机器误判修正】四种八面体配合物几何异构体（A-A双齿配体，b/c单齿配体不同排列）",
+      "description": "【视觉复核】四种八面体配合物几何异构体（A-A双齿配体，b/c单齿配体不同排列）",
       "semantic_alias": "",
-      "knowledge_points": "配位化学",
+      "knowledge_points": "配位化学/立体化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -18252,24 +17604,6 @@
       "in_media": true
     },
     {
-      "physical_filename": "8d1f7e5e97d902bf874cbc9e8352163d421ae0d27ba0b238d21c955fd595d411.jpg",
-      "description": "EDTA六齿配体包夹中心金属离子形成八面体配合物三维立体结构示意图",
-      "semantic_alias": "edta_hexadentate_octahedral_complex_3d_structure.jpg",
-      "knowledge_points": "配位化学/螯合物/EDTA配合物/六齿配体/八面体构型",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "8d223be7cdef9fc573ac2bcae32b711d424d4a4ab28a0691b4a4c69abf558481.jpg",
-      "description": "Cu²⁺/[CuCl₂]⁻配位电对标准电位与稳定常数Nernst计算算例公式片段（纯文字算式片段，不推荐讲义配图）",
-      "semantic_alias": "cu2plus_cucl2_minus_complex_potential_nernst_formula.jpg",
-      "knowledge_points": "电化学/配位化学/能斯特方程式/配合物电势",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
       "physical_filename": "8dfd838b4d26ac67b4abbccd30306b289c5f49142d9716212099100337037604.jpg",
       "description": "【机器误判修正】S²⁻浓度计算（Ksp表达式，H₂S二级解离，[S²⁻]=9.37×10⁻²³mol/L）",
       "semantic_alias": "",
@@ -18283,15 +17617,6 @@
       "description": "【机器误判修正】锰氧化半反应（Mn²⁺被氧化为MnO₄⁻配平片段）",
       "semantic_alias": "manganese_oxidation_half_reaction.jpg",
       "knowledge_points": "氧化还原",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "915dfc18a8a21086a62946a8cf5be0ef3223645de073bbf5923aa96dd8786465.jpg",
-      "description": "马格努斯盐[Pt(NH₃)₄][PtCl₄]与AgNO₃反应生成Ag₂[PtCl₄]沉淀方程式",
-      "semantic_alias": "magnus_salt_silver_nitrate_precipitation_equation.jpg",
-      "knowledge_points": "配位化学/铂配合物/沉淀反应",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -18325,9 +17650,9 @@
     },
     {
       "physical_filename": "95fad056ca235c9c29f5fa516b9cb17585e17539ba2037c038a52fcbae39bda3.jpg",
-      "description": "【机器误判修正】水的E-pH图（Pourbaix图，a/b线H₂O稳定区，F/Ca电极电势线）",
+      "description": "【视觉复核】水的E-pH Pourbaix图（a/b线H₂O稳定区，F/Ca电极电势线）",
       "semantic_alias": "",
-      "knowledge_points": "电化学",
+      "knowledge_points": "电化学/Pourbaix图",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -18352,9 +17677,9 @@
     },
     {
       "physical_filename": "979c073cdb4859a06cb8b26118ba614d72feda25a4e2637b0617607e20683040.jpg",
-      "description": "【机器误判修正】热力学数据表（Al₂O₃/Al/CO₂/CO/C(石墨)的ΔfH⊖m与S⊖m值）",
+      "description": "【视觉复核】O₂/OH⁻电极电势能斯特方程计算（E=+0.613V）+[Au(CN)₂]⁻解离平衡浓度计算",
       "semantic_alias": "",
-      "knowledge_points": "热力学",
+      "knowledge_points": "电化学/配位化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -18450,17 +17775,8 @@
       "in_media": true
     },
     {
-      "physical_filename": "9d9f7b256aa8eda173218481d573ddc3c1c4a3f0236d6ea7db411002f8f5a654.jpg",
-      "description": "钴配合物配位异构体化学式对比举例文本片段（纯文字化学式片段，不推荐讲义配图）",
-      "semantic_alias": "cobalt_coordination_isomers_chemical_formulas_text.jpg",
-      "knowledge_points": "配位化学/异构现象/配位异构/文本片段",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
       "physical_filename": "9dc05edebcd5c77b5243059af9b209965767aeb34d1fe9eacd24e1e3dd367d21.jpg",
-      "description": "【机器误判修正】桥联配合物命名（Fe₂Cl₆二(μ-氯)/Fe₂(CO)₉三(μ-羰基)/[Co₂(OH)(ONO)(NH₃)₆]³⁺）",
+      "description": "【视觉复核】桥联配合物命名示例（Fe₂Cl₆二(μ-氯)/Fe₂(CO)₉三(μ-羰基)/[Co₂(OH)(ONO)(NH₃)₆]³⁺）",
       "semantic_alias": "",
       "knowledge_points": "配位化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
@@ -18468,27 +17784,9 @@
       "in_media": true
     },
     {
-      "physical_filename": "9eaa90965e82cae92601b9cc249e492fd87a367fa41d1a41423c60837f35a966.jpg",
-      "description": "LiC₆晶体密度ρ计算算例公式片段（纯文字算式片段，不推荐讲义配图）",
-      "semantic_alias": "lic6_crystal_density_calculation_formula.jpg",
-      "knowledge_points": "晶体化学/晶胞计算/晶体密度",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "9ee3f1475e57835fb15df8514cdeec5d5f0115469c01c01894ee9b753e758ff5.jpg",
-      "description": "顶角8个空心球与内部2个黑球填隙晶胞结构示意图",
-      "semantic_alias": "cubic_unit_cell_with_two_interstitial_atoms.jpg",
-      "knowledge_points": "晶体化学/晶胞结构/填隙点阵",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
       "physical_filename": "9ff9dbb7579c16efc090105cead50134ad1ca30519287ca05f86f855bbfbaefe.jpg",
       "description": "【视觉复核】甘汞电极结构图（Hg/Hg₂Cl₂/饱和KCl/素瓷/KCl晶体）",
-      "semantic_alias": "calomel_electrode_structure.jpg",
+      "semantic_alias": "",
       "knowledge_points": "电化学/元素化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
@@ -18514,9 +17812,9 @@
     },
     {
       "physical_filename": "a0ac376e1616eb3e65c4085cd83b2b63f50487fa69949357da7497b93da4d68d.jpg",
-      "description": "【机器误判修正】五种配位多面体几何构型（三角棱柱/四方反棱柱/立方体/五角双锥/正十二面体）",
+      "description": "【视觉复核】五种配位多面体几何构型（三角棱柱/四方反棱柱/立方体/五角双锥/正十二面体）",
       "semantic_alias": "",
-      "knowledge_points": "配位化学",
+      "knowledge_points": "晶体化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -18586,9 +17884,9 @@
     },
     {
       "physical_filename": "a433d2f30d6e2f334b3dc77ece2679854ad37193c454f8e5b68b2902a6ed903a.jpg",
-      "description": "五种d轨道在八面体晶体场中的空间取向图（dxy/dyz/dxz/dz²/dx²-y²与x,y,z坐标轴）",
-      "semantic_alias": "five_d_orbitals_octahedral_orientations.jpg",
-      "knowledge_points": "配位化学/晶体场理论/d轨道空间分布",
+      "description": "【视觉复核】五种d轨道在八面体晶体场中的空间取向图（dxy/dyz/dxz/dz²/dx²-y²与xyz坐标轴）",
+      "semantic_alias": "",
+      "knowledge_points": "晶体场理论",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -18612,37 +17910,19 @@
       "in_media": true
     },
     {
-      "physical_filename": "a7cf9aedb7eaf044acd5c9a877734539f1bf48e3ad079b45272d97f370882204.jpg",
-      "description": "吉布斯自由能斜率k推导推演算式片段（纯文字算式片段，不推荐讲义配图）",
-      "semantic_alias": "gibbs_free_energy_slope_k_derivation_formula.jpg",
-      "knowledge_points": "热力学/吉布斯自由能/公式片段",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
       "physical_filename": "a82daa2a396f82bc169e85301a3fa63b6f830a4fee73a84df4ea1e346f48fe8c.jpg",
-      "description": "【机器误判修正】砷的E-pH图（Pourbaix图，I线和As线，pH-1到3）",
+      "description": "【视觉复核】砷的E-pH Pourbaix图（I线和As线，pH-1到3）",
       "semantic_alias": "",
-      "knowledge_points": "电化学",
+      "knowledge_points": "电化学/Pourbaix图",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
     },
     {
       "physical_filename": "a86062f34ba34e60e73aab4990e0016821ff0e19b3bb32bda107514e89bd56b8.jpg",
-      "description": "八面体配合物M(AB)₂c₂型8种几何异构体与光学异构体立体排布全景图",
-      "semantic_alias": "octahedral_complex_m_ab2c2_geometrical_optical_isomers.jpg",
-      "knowledge_points": "配位化学/立体化学/几何异构/光学异构/8种异构体",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "a8b9aeae557e2aa3d8d46398be4d0975b0f7e935775c6f906d8049b5d94c89c0.jpg",
-      "description": "两个相邻立方体晶胞组合与内部配位多面体空间结构图（A顶点/B体心/X棱心原子）",
-      "semantic_alias": "adjacent_cubes_coordination_polyhedron_crystal_structure.jpg",
-      "knowledge_points": "晶体化学/配位多面体/晶胞空间几何",
+      "description": "【视觉复核】八面体配合物M(AB)₂c₂型8种几何异构体与光学异构体立体排布全景图",
+      "semantic_alias": "",
+      "knowledge_points": "配位化学/立体化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -18652,15 +17932,6 @@
       "description": "【机器误判修正】U³⁺/U电极电势计算（E⊖=-1.64V）",
       "semantic_alias": "",
       "knowledge_points": "电化学",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "aa1fc1088e759987ec8e53da376b53f948e52b790baa744dfcb805d59bb74a21.jpg",
-      "description": "丹尼尔铜锌原电池(Daniell Cell)带盐桥与电流表工作原理装置图",
-      "semantic_alias": "daniell_cell_copper_zinc_galvanic_cell_with_salt_bridge.jpg",
-      "knowledge_points": "电化学/原电池/丹尼尔电池/盐桥/铜锌原电池",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -18679,15 +17950,6 @@
       "description": "【机器误判修正】吉布斯自由能计算ΔGm⊖=-nFE⊖=-65.62kJ/mol",
       "semantic_alias": "",
       "knowledge_points": "电化学",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "b048c0e0f903f1995d63652abf4186a346201716a5c637598d0aa0ef554226e0.jpg",
-      "description": "金属-溶液界面双电层结构与电位分布曲线图（金属带负电荷，溶液紧密/扩散层正电荷）",
-      "semantic_alias": "electrical_double_layer_negative_metal_interface.jpg",
-      "knowledge_points": "电化学/界面电化学/双电层理论/Stern模型",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -18739,9 +18001,9 @@
     },
     {
       "physical_filename": "b3f1a39aed7f7aa2a41bc2630c5709e4f62f4394551854fc83f40f0c51ae123b.jpg",
-      "description": "铀元素四种氧化还原电极半反应方程式与标准电势E⊖数值（UO₂²⁺/U⁴⁺/U/UO₂⁺/U³⁺）",
-      "semantic_alias": "uranium_redox_half_reactions_and_potentials.jpg",
-      "knowledge_points": "元素化学/铀元素/电化学/电极电势",
+      "description": "【视觉复核】铀元素四种氧化还原电极半反应方程式与标准电势E⊖数值",
+      "semantic_alias": "",
+      "knowledge_points": "元素化学/电化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -18765,15 +18027,6 @@
       "in_media": true
     },
     {
-      "physical_filename": "b4bda2ce65d06b3fdf57ddd701527e71aa691fad4e5c98de8a6a270adac85c63.jpg",
-      "description": "八面体配合物配体空间顶点排布与镜面对称操作对映映射示意图",
-      "semantic_alias": "octahedral_complex_ligand_mirror_mapping_model.jpg",
-      "knowledge_points": "配位化学/立体化学/手性/镜面对称",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
       "physical_filename": "b61af229d95730d9a856327412f8bbb94d4f1992438cce294a4a43897a18b3af.jpg",
       "description": "【机器误判修正】Co(OH)₃/Co(OH)₂电极电势计算公式",
       "semantic_alias": "",
@@ -18787,15 +18040,6 @@
       "description": "【机器误判修正】配合物逐级稳定常数ML₂+L=ML₃, K₃和β₃表达式",
       "semantic_alias": "",
       "knowledge_points": "配位化学",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "b78f6ced2d3cbc355af9a0d4985b27ff2bffd5f0e68f91dcfa9220b192d92db4.jpg",
-      "description": "蔗糖C₁₂H₂₂O₁₁燃烧反应热力学生成焓与熵数据表格片段（文字/数值表格片段）",
-      "semantic_alias": "sucrose_combustion_thermodynamic_data_table.jpg",
-      "knowledge_points": "热力学/燃烧热/生成焓与熵",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -18864,19 +18108,10 @@
       "in_media": true
     },
     {
-      "physical_filename": "bbf780645c2037e32d931431b4f64fcd5d3ebf1f932c4b1fea33eb58125fba1c.jpg",
-      "description": "四面体配合物[Ni(NH₃)₄]²⁺3d⁸电子排布与正四面体立体结构示意图",
-      "semantic_alias": "tetramminenickel_tetrahedral_complex_orbital_and_structure.jpg",
-      "knowledge_points": "配位化学/价键理论/四面体配合物/外轨型配合物",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
       "physical_filename": "bc05d8d6f299254aa728e56a76faf54839c01c122d68cfbbda284f69506a4172.jpg",
-      "description": "三大生命金属配合物化学结构全景图（血红素Fe-卟啉、叶绿素Mg-卟啉、维生素B₁₂Co-咕啉）",
-      "semantic_alias": "bioinorganic_complexes_heme_chlorophyll_vitamin_b12_structures.jpg",
-      "knowledge_points": "生物无机化学/卟啉配合物/血红素/叶绿素/维生素B12",
+      "description": "【视觉复核】三大生命金属配合物化学结构全景图（血红素Fe-卟啉、叶绿素Mg-卟啉、维生素B₁₂Co-咕啉）",
+      "semantic_alias": "",
+      "knowledge_points": "生物无机化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -19009,9 +18244,9 @@
     },
     {
       "physical_filename": "cd4ce6aff622d954f07b9cd3d9c2edc6641763a7393e0172bc39667b8bb7839d.jpg",
-      "description": "【机器误判修正】五种四方平面配合物几何异构体（a-e配体不同排列）",
+      "description": "【视觉复核】五种四方平面配合物几何异构体（a-e配体不同排列）",
       "semantic_alias": "",
-      "knowledge_points": "配位化学",
+      "knowledge_points": "配位化学/立体化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -19036,9 +18271,9 @@
     },
     {
       "physical_filename": "d1489a9fdfe61c0e96418fbc0b2fbcd3808f1a9d8c33db8252033480657dea6d.jpg",
-      "description": "【机器误判修正】四种四方平面配合物几何异构体（A/B配体不同排列）",
+      "description": "【视觉复核】四种四方平面配合物几何异构体（A/B配体不同排列，含对映体）",
       "semantic_alias": "",
-      "knowledge_points": "配位化学",
+      "knowledge_points": "配位化学/立体化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -19072,18 +18307,18 @@
     },
     {
       "physical_filename": "d2d4c9df41d37f35596c11239b3da63ab881a72d798eb4a98cf2dd47354f48fd.jpg",
-      "description": "锂离子电池(LiCoO₂/石墨)充放电工作原理与Li⁺嵌脱迁移结构示意图",
-      "semantic_alias": "lithium_ion_battery_charging_discharging_mechanism.jpg",
-      "knowledge_points": "电化学/二次电池/锂离子电池/嵌入脱嵌机制",
+      "description": "【视觉复核】锂离子电池(LiCoO₂/石墨)充放电工作原理与Li⁺嵌脱迁移结构示意图",
+      "semantic_alias": "",
+      "knowledge_points": "电化学/二次电池",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
     },
     {
       "physical_filename": "d2e8a56a271fe72b61fce4f8c3ef92b8764cbcacc6317b41bef7bad2cd37af55.jpg",
-      "description": "【视觉复核】四方平面配合物几何与旋光异构体数目汇总表（24类）",
-      "semantic_alias": "square_planar_complex_isomer_count_table.jpg",
-      "knowledge_points": "配位化学",
+      "description": "【视觉复核】四方平面配合物几何与旋光异构体数目汇总表（24类配体组合，含几何+旋光异构体数目）",
+      "semantic_alias": "",
+      "knowledge_points": "配位化学/立体化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -19125,15 +18360,6 @@
       "in_media": true
     },
     {
-      "physical_filename": "d8386d441a3ca47d6f602205964d83ea2205f47eed979a704e4c191c17ecff3d.jpg",
-      "description": "不同温度下标准摩尔吉布斯自由能变ΔrGm(T)近似计算算例公式片段",
-      "semantic_alias": "gibbs_free_energy_temperature_approximation_formula.jpg",
-      "knowledge_points": "热力学/吉布斯自由能变/Gibbs-Helmholtz近似",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
       "physical_filename": "d861dbaa2bf9027ac9c57551f9d8a63130ff76630c93b5bacb721e57afb9e105.jpg",
       "description": "【机器误判修正】吉布斯自由能与电极电势关系式（ΔrG_m(3)⊖ = -z_3FE_3⊖）",
       "semantic_alias": "gibbs_free_energy_potential_equation.jpg",
@@ -19144,9 +18370,9 @@
     },
     {
       "physical_filename": "d90179078ba4abae521ad8ff24b31ce751104085bc517e0a99f627f3d22ac115.jpg",
-      "description": "碱性氢氧燃料电池工作原理结构图（KOH电解质、H₂/O₂进出口与多孔石墨催化电极）",
-      "semantic_alias": "alkaline_hydrogen_oxygen_fuel_cell_diagram.jpg",
-      "knowledge_points": "电化学/原电池/燃料电池/氢氧燃料电池",
+      "description": "【视觉复核】碱性氢氧燃料电池工作原理结构图（KOH电解质、H₂/O₂进出口、多孔石墨催化电极）",
+      "semantic_alias": "",
+      "knowledge_points": "电化学/燃料电池",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -19156,15 +18382,6 @@
       "description": "【机器误判修正】d轨道晶体场分裂图dγ(eg)/dε(t2g)",
       "semantic_alias": "",
       "knowledge_points": "配位化学/晶体场理论",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "db4fdc348e1c48fc2001215ecb25ea20fb8e8ae55267fcb767887190d27fe9d0.jpg",
-      "description": "金红石型(TiO₂)四方晶系晶胞结构示意图（顶角/体心与内部配位原子）",
-      "semantic_alias": "rutile_tio2_tetragonal_unit_cell_structure.jpg",
-      "knowledge_points": "晶体化学/离子晶体/金红石型晶体结构",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -19197,24 +18414,6 @@
       "in_media": true
     },
     {
-      "physical_filename": "de6a517fb28a401381f843de6121bc438068cdaa5797252958985986ca85417f.jpg",
-      "description": "Co(OH)₃/Co(OH)₂沉淀电对标准电极电势Nernst计算公式片段",
-      "semantic_alias": "cobalt_hydroxide_precipitation_potential_nernst.jpg",
-      "knowledge_points": "电化学/能斯特方程式/沉淀对电势的影响",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
-      "physical_filename": "dfbe172b8bcaa6f65c1b762551514c29ae0da76fd27c0310602ddc40cd6c07aa.jpg",
-      "description": "配合物电子吸收光谱(UV-Vis)波长与吸光系数关系曲线图（lgε~λ，吸收峰390/485/510/700/880nm）",
-      "semantic_alias": "coordination_complex_uv_vis_absorption_spectrum.jpg",
-      "knowledge_points": "配位化学/晶体场理论/配合物颜色/紫外-可见吸收光谱",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
       "physical_filename": "e020f486f1278f9e5042a654321af71b759a7ffd9ca948bf4a6cdd789a245d2c.jpg",
       "description": "【机器误判修正】四种四方平面配合物几何异构体（a/b/c/d配体不同排列）",
       "semantic_alias": "",
@@ -19242,15 +18441,6 @@
       "in_media": true
     },
     {
-      "physical_filename": "e152bbf3857338c755bcbc0a4a192a91fc83b3840dd1ad93fb0e501260c2d0d8.jpg",
-      "description": "Fe³⁺自由离子与[Fe(CN)₆]³⁻内轨型八面体配合物d²sp³杂化成键轨道电子排布图",
-      "semantic_alias": "fe3plus_hexacyanoferrate_d2sp3_hybridization_orbital_diagram.jpg",
-      "knowledge_points": "配位化学/价键理论/内轨型配合物/d²sp³杂化",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
       "physical_filename": "e1601c120a3830ca38550c70459348220b78cb22bcfdbb8ba569fb530614a4f3.jpg",
       "description": "【机器误判修正】2CH₃COOK+2H₂O电解→CH₃-CH₃+2CO₂+H₂+2KOH（Kolbe电解）",
       "semantic_alias": "",
@@ -19270,9 +18460,9 @@
     },
     {
       "physical_filename": "e24ca54201a580a51b1f8f186c77cbe441c61828d0d26ffee9ca68906aff3acd.jpg",
-      "description": "【机器误判修正】O₂/OH⁻电极电势能斯特方程计算+[Au(CN)₂]⁻解离平衡浓度计算",
+      "description": "【视觉复核】热力学数据表（Al₂O₃/Al/CO₂/CO/C(石墨)的ΔfH⊖m与S⊖m值）",
       "semantic_alias": "",
-      "knowledge_points": "电化学/配位化学",
+      "knowledge_points": "热力学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -19297,7 +18487,7 @@
     },
     {
       "physical_filename": "e476f1569a0d8559df938bda0afda9a809ed0e7fae73d5b83f1641e3a0ed8bfb.jpg",
-      "description": "【机器误判修正】熵变定性判断示例（NH₄Cl分解/N₂O₄→2NO₂/CuSO₄·5H₂O脱水/NH₄HCO₃分解/Ba(OH)₂+NH₄SCN）",
+      "description": "【视觉复核】熵变定性判断示例（NH₄Cl分解/N₂O₄→2NO₂/CuSO₄·5H₂O脱水/NH₄HCO₃分解/Ba(OH)₂+NH₄SCN）",
       "semantic_alias": "",
       "knowledge_points": "热力学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
@@ -19396,7 +18586,7 @@
     },
     {
       "physical_filename": "ee9b485597993726caba9ee5ff1aafb0f7f5487ff0f0ef1ceb866c22c9898723.jpg",
-      "description": "【机器误判修正】铂(II)配合物化学式分类（[Pt(NH₃)₂Cl₂]及其多核配合物n=1,2,3）",
+      "description": "【视觉复核】铂(II)配合物化学式分类（[Pt(NH₃)₂Cl₂]及其多核配合物n=1,2,3）",
       "semantic_alias": "",
       "knowledge_points": "配位化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
@@ -19404,17 +18594,8 @@
       "in_media": true
     },
     {
-      "physical_filename": "ef108977065ea9c3aa87eed60acc04c19fc4e6dc8111da35253e47d0cfc07608.jpg",
-      "description": "金红石型(TiO₂)四方晶系晶胞结构视角二示意图（顶角/棱心金属与内部2个O原子）",
-      "semantic_alias": "rutile_tio2_tetragonal_unit_cell_view2.jpg",
-      "knowledge_points": "晶体化学/离子晶体/金红石型晶体结构",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
       "physical_filename": "f11843c835e0568e3fdb5480122108d97eb1ceb695e9f070bd210223d6364a9b.jpg",
-      "description": "【机器误判修正】氧电极电势随pH变化计算表（H⁺=10/1/10⁻³/10⁻⁷mol/L对应E=1.37/1.23/0.82/0.26V）",
+      "description": "【视觉复核】氧电极电势随pH变化计算表（H⁺=10/1/10⁻³/10⁻⁷mol/L对应E=1.37/1.23/0.82/0.26V）",
       "semantic_alias": "",
       "knowledge_points": "电化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
@@ -19503,15 +18684,6 @@
       "in_media": true
     },
     {
-      "physical_filename": "f65a9b2043dbdff65369145a1bf7e0d20420f286d3c5d900d7c237961d7efb1d.jpg",
-      "description": "Ni²⁺自由离子与[Ni(CN)₄]²⁻平面正方形配合物dsp²杂化成键轨道电子排布图",
-      "semantic_alias": "ni2plus_tetracyanonickelate_dsp2_hybridization_orbital_diagram.jpg",
-      "knowledge_points": "配位化学/价键理论/平面正方形/dsp²杂化",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
       "physical_filename": "f7100141f581fb6ddaf0665f6e343534016dfa42da1dcbd579cc33f3701cc5b1.jpg",
       "description": "【机器误判修正】E([Cu(en)₂]²⁺/Cu)能斯特方程计算（含β₂稳定常数）",
       "semantic_alias": "",
@@ -19548,17 +18720,8 @@
       "in_media": true
     },
     {
-      "physical_filename": "f9827e5370202c50cd61ef46eb121b3f976bdb6a94552c93e2675424962a3446.jpg",
-      "description": "【机器误判修正】Ni配合物sp³d²与dsp²杂化对比（八面体[Ni(H₂O)₆]²⁺vs平面正方形[Ni(CH₃COO)₂(H₂O)₂]）",
-      "semantic_alias": "",
-      "knowledge_points": "配位化学",
-      "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
-      "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
-      "in_media": true
-    },
-    {
       "physical_filename": "f99919e56334330c25515a79d3fc3867a4f9313da165d1a1f800c0ccf6609294.jpg",
-      "description": "【机器误判修正】金属羰基化合物Fe₃(CO)₁₂和Ir₄(CO)₁₂簇合物结构（三角形/四面体金属骨架）",
+      "description": "【视觉复核】Ni配合物sp³d²与dsp²杂化对比（八面体[Ni(H₂O)₄(OAc)₂]vs平面正方形[Ni(OAc)₂(H₂O)₂]）",
       "semantic_alias": "",
       "knowledge_points": "配位化学",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
@@ -19594,9 +18757,9 @@
     },
     {
       "physical_filename": "fd5b7f66c5e0ac2f09cdc9b1972d4ac867193db5a4ab939f93e6f02e27a5ece0.jpg",
-      "description": "【机器误判修正】四方平面配合物Mabcdef的30种几何异构体结构图（全部a-f不同配体排列组合）",
+      "description": "【视觉复核】d轨道在7种配位几何构型（正方形/三角双锥/四方锥/八面体/五角双锥/四方反棱柱/四面体）下晶体场分裂能级对比图",
       "semantic_alias": "",
-      "knowledge_points": "配位化学",
+      "knowledge_points": "晶体场理论",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true
@@ -19630,9 +18793,9 @@
     },
     {
       "physical_filename": "ffad108110a502ce7a66fa269927e53ba89ad3845a3a32f07ca2f801182d4e59.jpg",
-      "description": "各种配位几何构型下d轨道晶体场分裂相对能量数值对照表（配位数1~12，14种构型d轨道能级系数）",
-      "semantic_alias": "crystal_field_d_orbital_splitting_energy_table.jpg",
-      "knowledge_points": "配位化学/晶体场理论/d轨道分裂",
+      "description": "【视觉复核】d轨道晶体场分裂相对能量数值对照表（配位数1~12，14种构型d轨道能级系数）",
+      "semantic_alias": "",
+      "knowledge_points": "晶体场理论",
       "source_file": "高中化学竞赛笔记/高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350_images/_index.md",
       "source_folder": "高中化学竞赛基本理论学习笔记--赵鑫光--1,2017--吉林大学出版社--9787569212730-_200-350",
       "in_media": true

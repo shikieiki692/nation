@@ -66,7 +66,7 @@ To get the enzyme inhibitor we need to reduce the nitro group to an amine and ad
 |---|---|:---:|
 | [[吡啶]] | 吡啶酮的转化和吡啶环的反应性 | 直接 |
 | [[芳香亲电取代]] | 活化吡啶环的硝化反应和区域选择性 | 直接 |
-| [[NMR解析]] | 利用偶合常数和化学位移推断硝化位点 | 直接 |
+| NMR解析 | 利用偶合常数和化学位移推断硝化位点 | 直接 |
 | [[共轭加成]] | 胺对α,β-不饱和酯的Michael加成 | 间接 |
 
 ## 解题思路

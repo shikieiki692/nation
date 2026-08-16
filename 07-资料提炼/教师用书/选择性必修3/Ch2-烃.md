@@ -1,5 +1,6 @@
 ---
 title: "选修3 Ch2 - 烃 教师用书提炼"
+aliases: ["选修3 Ch2 - 烃 教师用书提炼"]
 type: teacher_edition_note
 source_textbook: "教师教学用书·选择性必修3 有机化学基础"
 chapter: "第二章 烃"

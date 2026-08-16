@@ -2,6 +2,7 @@
 title: "Jahn-Teller效应-Cu2+配合物的拉长八面体"
 aliases: [姜-泰勒效应, d9配合物, 拉长八面体]
 type: 真题
+status: 已填充
 year: 2020
 source: "中国化学奥林匹克(省级初赛)"
 type_tag: "简答"

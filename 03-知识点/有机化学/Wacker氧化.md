@@ -22,12 +22,14 @@ stage: published
 sources: ["ABOC §8.2"]
 source_type: []
 review_cycle: 30d
-has_images: false
-images_priority: 结构/机理 medium，纯公式 low
-images_note: 
+has_images: true
+image_count: 1
+images_priority: high
+images_note: "中级无机化学Ch8教材原图：图8.11 Wacker 催化循环（Pd/Cu 双循环）→ ![[媒体仓库/zjwx_ch8_wacker_cycle.jpg]]"
 teaching_ready: false
 source_notes: []
-key_images: []
+key_images:
+  - "媒体仓库/zjwx_ch8_wacker_cycle.jpg"
 updated: 2026-05-25
 source_extracts:
   - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第8章-过渡金属催化]]"
@@ -50,6 +52,10 @@ source_extracts:
     asset_id: "08.配位化学（二）_笔记"
     asset_type: "网课资料"
     asset_summary: "Wacker氧化相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-中级无机化学-第8章-配位催化反应]]"
+    asset_id: "中级无机化学 Ch8"
+    asset_type: "书籍提炼"
+    asset_summary: "配位催化反应：Wacker三反应耦合、[PdCl4]2-分步机理、CuCl2内球电子转移再氧化"
 ---
 # Wacker 氧化（Wacker Oxidation）
 - 总览：[[中国化学奥林匹克基本要求-总览]]
@@ -248,6 +254,26 @@ $$
 - CuCl₂ 自身被还原为 CuCl
 - CuCl 被 O₂ **再生为 CuCl₂**
 - **结论**：CuCl 是 Pd 的"再生助手"，O₂ 是最终的氧化剂
+
+## 十一、本书补强（中级无机化学 Ch8.6）
+
+**来源**：[[提炼-中级无机化学-第8章-配位催化反应]] §4.12。
+
+- **计量三反应耦合**：
+  - 主反应：C₂H₄ + PdCl₂ + H₂O → CH₃CHO + Pd + 2HCl；
+  - Pd 再生：Pd + 2CuCl₂ → PdCl₂ + 2CuCl（可能经氯桥**内球电子转移**）；
+  - Cu 再生：2CuCl + 2HCl + ½O₂ → 2CuCl₂ + H₂O；
+  - 总反应：C₂H₄ + ½O₂ → CH₃CHO（低 Pd 浓度即可定量进行）。
+- **分步机理（Cl⁻ > 0.2 mol·L⁻¹ 时 Pd 以 [PdCl₄]²⁻ 存在）**：
+  1. [PdCl₄]²⁻ + C₂H₄ → [PdCl₃(C₂H₄)]⁻ + Cl⁻（快）；
+  2. + H₂O → [PdCl₂(H₂O)(C₂H₄)] + Cl⁻；
+  3. **水亲核进攻配位烯烃** → Cl—Pd—CH₂CH₂OH（羟烷基配体——即 8.1.4 配体修饰的实例）；
+  4. β-H 消除/质子转移 → 乙醛 + Pd⁰。
+
+> 📷 **图 8.11 Wacker 催化循环**（Pd 主循环 + CuCl₂ 再生循环，《中级无机化学》Ch8 教材原图）
+> ![[媒体仓库/zjwx_ch8_wacker_cycle.jpg]]
+- **底物扩展**：末端烯烃 → 醛（乙烯 → 乙醛）；其他烯烃 → 酮（**丙烯 → 丙酮**）；可于醋酸、醇等非水介质进行。
+- **与配体修饰的统一**：第 3 步"水亲核进攻配位烯烃"正是配位活化配体（Wacker 的微观本质），把本 KP 与配位化学的反应机理主线打通。
 
 ### 10.3 例题 3（★★★ 不对称烯烃）
 

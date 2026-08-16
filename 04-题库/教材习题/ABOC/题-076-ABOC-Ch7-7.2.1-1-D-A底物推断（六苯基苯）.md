@@ -7,7 +7,7 @@ subject: 有机化学
 difficulty: 4
 teaching_level: 拓展
 syllabus_codes: ["49"]
-knowledge_points: ["[[Diels-Alder反应]]", "[[共轭二烯]]", "[[逆向分析]]"]
+knowledge_points: ["[[Diels-Alder反应]]", "[[共轭二烯]]", "逆向分析"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
 updated: 2026-05-10
 source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第7章-周环反应]]"
@@ -40,7 +40,7 @@ status: 已填充
 |---|---|:---:|
 | Diels-Alder反应 | D-A 反应在构建六元环中的应用 | 直接 |
 | [[共轭二烯]] | 四苯基环戊二烯酮作为二烯体 | 直接 |
-| [[逆向分析]] | 从产物反推底物的逆合成思维 | 直接 |
+| 逆向分析 | 从产物反推底物的逆合成思维 | 直接 |
 
 ## 解题思路
 

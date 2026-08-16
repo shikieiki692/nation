@@ -56,7 +56,7 @@ The second reaction is very similar. α-Elimination of HCl gives a carbene that 
 | [[卡宾]] | 卡宾的生成（α-消除）和反应（环加成） | 直接 |
 | Simmons-Smith反应 | 卡宾等价物对烯烃的环丙烷化 | 间接 |
 | [[环丙烷]] | 卡宾环加成产物为三元环 | 间接 |
-| [[α-消除]] | 卤仿在碱性条件下通过α-消除生成卡宾 | 直接 |
+| α-消除 | 卤仿在碱性条件下通过α-消除生成卡宾 | 直接 |
 
 ## 解题思路
 

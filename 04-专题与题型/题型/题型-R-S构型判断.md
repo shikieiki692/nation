@@ -7,6 +7,26 @@ source_extracts:
     asset_id: "Ch2-stereochem"
     asset_type: "书籍提炼"
     asset_summary: "Cahn-Ingold-Prelog优先级规则、R/S构型判断、手性中心识别与立体化学基础"
+  - source_file: "[[07-资料提炼/提炼-第31届初赛试题解析]]"
+    asset_id: "第31届初赛试题解析"
+    asset_type: "真题解析"
+    asset_summary: "手性中心相关内容"
+  - source_file: "[[07-资料提炼/提炼-第33届初赛试题解析]]"
+    asset_id: "第33届初赛试题解析"
+    asset_type: "真题解析"
+    asset_summary: "手性中心相关内容"
+  - source_file: "[[07-资料提炼/提炼-第39届决赛试题解析]]"
+    asset_id: "第39届决赛试题解析"
+    asset_type: "真题解析"
+    asset_summary: "手性中心相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第10章-光谱与自由基]]"
+    asset_id: "ABOC-第10章-光谱与自由基"
+    asset_type: "书籍提炼"
+    asset_summary: "手性中心相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第11章-解题训练]]"
+    asset_id: "ABOC-第11章-解题训练"
+    asset_type: "书籍提炼"
+    asset_summary: "手性中心相关内容"
 tags: [化竞, 题型]
 subject: 化学
 status: 已填充
@@ -42,27 +62,6 @@ R/S构型判断是有机化学竞赛中最基础的立体化学技能之一，�
 ### 1. CIP优先级排序规则
 
 | 规则 | 说明 | 示例 |
-|:source_extracts:
-  - source_file: "[[07-资料提炼/提炼-第31届初赛试题解析]]"
-    asset_id: "第31届初赛试题解析"
-    asset_type: "真题解析"
-    asset_summary: "手性中心相关内容"
-  - source_file: "[[07-资料提炼/提炼-第33届初赛试题解析]]"
-    asset_id: "第33届初赛试题解析"
-    asset_type: "真题解析"
-    asset_summary: "手性中心相关内容"
-  - source_file: "[[07-资料提炼/提炼-第39届决赛试题解析]]"
-    asset_id: "第39届决赛试题解析"
-    asset_type: "真题解析"
-    asset_summary: "手性中心相关内容"
-  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第10章-光谱与自由基]]"
-    asset_id: "ABOC-第10章-光谱与自由基"
-    asset_type: "书籍提炼"
-    asset_summary: "手性中心相关内容"
-  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第11章-解题训练]]"
-    asset_id: "ABOC-第11章-解题训练"
-    asset_type: "书籍提炼"
-    asset_summary: "手性中心相关内容"
 ---|:---|:---|
 | 原子序数规则 | 直接相连原子，原子序数大者优先 | I > Br > Cl > F > O > N > C > H |
 | 逐层比较规则 | 距离为2的原子集合，先比最大原子序数 | -CH₂OH的C连(O,H,H) > -CH₃的C连(H,H,H) |
@@ -185,8 +184,8 @@ R/S构型判断是有机化学竞赛中最基础的立体化学技能之一，�
 - [[对映异构]] — 对映体的定义与性质
 - [[手性中心]] — 手性元素的深入分析
 - [[Fischer投影式]] — 投影式转换规则
-- [[题型-立体化学分析]] — 产物立体关系判断
-- [[题型-Fischer投影式转换]] — 不同表示法的相互转换
+- [[专题-立体化学]] — 产物立体关系判断
+- [[Fischer投影式]] — 不同表示法的相互转换
 - [[SN2反应]] — 构型翻转的立体化学
 - [[亲电加成]] — syn/anti加成的立体化学
 - [[专题-立体化学与区域选择性]] — 立体化学综合专题

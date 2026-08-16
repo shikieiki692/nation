@@ -57,7 +57,7 @@ Second case: The chlorine on the heterocyclic ring is much more reactive towards
 | [[杂环化合物]] | 吡啶和哌嗪在亲核取代中的不同角色 | 直接 |
 | [[芳香亲核取代]] | SNAr反应的活化要求和中间体稳定性 | 直接 |
 | [[化学选择性]] | 同一分子中多个反应位点的选择性判断 | 直接 |
-| [[哌嗪]] | 哌嗪两个NH的碱性差异导致选择性单反应 | 间接 |
+| 哌嗪 | 哌嗪两个NH的碱性差异导致选择性单反应 | 间接 |
 
 ## 解题思路
 

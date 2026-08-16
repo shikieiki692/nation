@@ -7,7 +7,7 @@ subject: 化学原理
 difficulty: 2
 teaching_level: 基础
 syllabus_codes: []
-knowledge_points: ["[[Ti氧化还原]]", "[[CuCl沉淀]]", "[[配位效应]]"]
+knowledge_points: ["Ti氧化还原", "[[CuCl沉淀]]", "[[配位效应]]"]
 tags: [化竞, 真题, 25届, 化学原理]
 updated: 2026-06-30
 aliases: [25届初赛-1.2, Ti(III), CuCl, 氧化还原]
@@ -37,7 +37,7 @@ $$
 
 ## 知识点映射
 
-- [[Ti氧化还原]]
+- Ti氧化还原
 - CuCl沉淀与同离子效应
 - 配位效应对溶解度的影响
 

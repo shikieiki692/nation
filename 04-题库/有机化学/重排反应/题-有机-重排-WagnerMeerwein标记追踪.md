@@ -7,7 +7,7 @@ subject: 有机化学
 difficulty: 3
 teaching_level: 强化
 syllabus_codes: ["49"]
-knowledge_points: ["[[碳正离子]]", "[[WagnerMeerwein重排]]", "[[同位素标记]]"]
+knowledge_points: ["[[碳正离子]]", "WagnerMeerwein重排", "[[同位素标记]]"]
 tags: [化竞, 题目, 有机化学]
 updated: 2026-07-10
 aliases: ["题-有机-重排-04"]
@@ -86,5 +86,5 @@ $$\text{不稳定} \rightarrow \text{稳定}$$
 ## 知识点映射
 
 - [[碳正离子重排]]
-- [[WagnerMeerwein重排]]
+- WagnerMeerwein重排
 - [[同位素标记]]

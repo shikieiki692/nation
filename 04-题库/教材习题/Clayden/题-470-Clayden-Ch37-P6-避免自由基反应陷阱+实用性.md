@@ -57,7 +57,7 @@ Much more likely is a chain reaction. If we add the allylic radical to the alken
 | [[自由基]] | 高温均裂引发和自由基链反应 | 直接 |
 | [[自由基机理]] | 避免偶联陷阱，正确书写链反应 | 直接 |
 | [[键解离能]] | C-Cl键在高温下均裂 | 间接 |
-| [[工业有机合成]] | ICI工业过程中的自由基反应应用 | 间接 |
+| 工业有机合成 | ICI工业过程中的自由基反应应用 | 间接 |
 
 ## 解题思路
 

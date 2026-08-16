@@ -13,7 +13,7 @@ updated: 2026-07-04
 source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第2章-基本反应]]"
 aliases: [ABOC-Ch2-2.7.1-2]
 source: ABOC 第2章 自学练习（ARX's Basic Organic Chemistry 第3版）
-cross_references: ["[[04-题库/教材习题/ABOC/题-095-ABOC-Ch2-2.5-工业制备 DMSO 当然不会利用这个方法 而是在     m]]"]
+cross_references: ["[[04-题库/教材习题/ABOC/题-095-ABOC-Ch2-2.5-工业制备 DMSO 当然不会利用这个方法 而是在]]"]
 module: 基础要求-有机化学
 status: 已填充
 ---

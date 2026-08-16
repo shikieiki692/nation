@@ -1,5 +1,6 @@
 ---
 title: "必修2 Ch8 - 化学与可持续发展 教师用书提炼"
+aliases: ["必修2 Ch8 - 化学与可持续发展 教师用书提炼"]
 type: teacher_edition_note
 source_textbook: "教师教学用书·必修第二册"
 chapter: "第八章 化学与可持续发展"

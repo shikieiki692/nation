@@ -1,5 +1,6 @@
 ---
 title: "选修3 Ch4 - 生物大分子 教师用书提炼"
+aliases: ["选修3 Ch4 - 生物大分子 教师用书提炼", "选修3 Ch4-生物大分子 教师用书提炼"]
 type: teacher_edition_note
 source_textbook: "教师教学用书·选择性必修3 有机化学基础"
 chapter: "第四章 生物大分子"

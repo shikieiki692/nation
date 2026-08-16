@@ -82,7 +82,7 @@ The last example also produces a radical next to a cyclopropane ring but this ti
 | [[自由基]] | 环丙基甲基自由基的形成和开环 | 直接 |
 | [[键解离能]] | 环丙基C-H键的解离能和环张力释放 | 直接 |
 | [[共轭效应]] | 苄基自由基的稳定化加速开环 | 间接 |
-| [[ESR波谱]] | 通过耦合常数鉴定自由基结构 | 间接 |
+| ESR波谱 | 通过耦合常数鉴定自由基结构 | 间接 |
 
 ## 解题思路
 

@@ -2,6 +2,7 @@
 title: "Diels-Alder反应-1,3-丁二烯与乙烯的立体选择性"
 aliases: [Diels-Alder反应, 周环反应, 环加成]
 type: 真题
+status: 已填充
 year: 2021
 source: "中国化学奥林匹克(省级初赛)"
 type_tag: "推断"

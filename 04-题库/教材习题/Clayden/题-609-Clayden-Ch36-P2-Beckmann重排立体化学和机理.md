@@ -53,7 +53,7 @@ This example comes from a general investigation into the Beckmann and the relate
 | [[Beckmann重排]] | 肟→酰胺重排的完整机理 | 直接 |
 | [[重排反应]] | 1,2-迁移的立体化学控制 | 直接 |
 | [[立体化学]] | Anti迁移规则，肟的E/Z选择性 | 直接 |
-| [[肟]] | 肟的形成与热力学稳定性 | 间接 |
+| 肟 | 肟的形成与热力学稳定性 | 间接 |
 
 ## 解题思路
 

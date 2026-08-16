@@ -60,7 +60,7 @@ The symmetry of the spectrum suggests the para disubstituted compound as there a
 | [[NMR谱学]] | ¹³C NMR 中 F-C 偶合常数的大小与距离关系 | 直接 |
 | [[波谱分析]] | 综合 IR 和 NMR 数据确定分子结构 | 直接 |
 | [[13C NMR]] | ¹³C 化学位移区域判断杂化类型 | 直接 |
-| [[氟代芳烃]] | C-F 偶合常数随键数增加而递减的规律 | 间接 |
+| 氟代芳烃 | C-F 偶合常数随键数增加而递减的规律 | 间接 |
 
 ## 解题思路
 
