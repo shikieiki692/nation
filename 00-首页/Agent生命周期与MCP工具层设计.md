@@ -105,10 +105,10 @@ Task {
 |:---|:---|:---|
 | 1, 1B, 3, 4, 5, 6, 7, 8, 11 | **PURE_AGENT** | 完全由 Agent 提示词驱动，不使用 Skill |
 | 2 | **HYBRID** (kb-kp-creator + Agent填充) | Skill 建骨架，Agent 逐文件填充内容 |
-| 9 | **SKILL_DRIVEN** (kb-audit + kb-link-doctor) | Skill 自动扫描→修复→报告 |
+| 9 | **SKILL_DRIVEN** (kb-link-doctor + validate_kb.py) | Skill 自动扫描→修复→报告；全库验证走 validate_kb.py 周检 |
 | 10 | **HYBRID** (kb-lesson-planner + Agent审校) | Skill 生成大纲初稿，Agent 做认知判断和教学取舍 |
 
-> `*` kb-lesson-planner 的 SKILL.md 文件不存在，是原始体系已知缺口。参见 [§12](#12-已知约束与缺口)。
+> `*` kb-lesson-planner 的 SKILL.md 存在于用户级 `.claude/skills/`（备课大纲 65 份活跃产出）。参见 [§12](#12-已知约束与缺口)。
 
 ---
 
