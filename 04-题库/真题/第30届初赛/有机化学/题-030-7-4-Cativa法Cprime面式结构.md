@@ -2,7 +2,7 @@
 title: "题-030-7-4-Cativa法Cprime面式结构"
 type: 题目
 fidelity: 原书逐字
-submodule: ""
+submodule: 结构基础与波谱分析
 exam_stage: 初赛
 subject: 有机化学
 difficulty: 4

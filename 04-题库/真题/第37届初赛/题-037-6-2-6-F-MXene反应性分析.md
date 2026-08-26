@@ -19,7 +19,7 @@ tags: [化竞, 真题, 37届, 元素化学]
 updated: 2026-05-11
 status: 已填充
 big_question: "第6题"
-subject_module: 有机化学
+subject_module: 元素与分析
 pack: 模块习题集
 ---
 
