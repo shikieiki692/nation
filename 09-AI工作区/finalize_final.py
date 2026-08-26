@@ -10,8 +10,8 @@ from docx import Document
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 
-SRC = r"C:/Users/蕾赛/Desktop/第一轮-4.5小时综合测试（A卷+B卷）最终.docx"
-OUT = SRC  # in-place (backup exists)
+SRC = r"C:/Users/蕾赛/Desktop/第一轮-4.5小时综合测试（A卷+B卷）最终（备份）.docx"
+OUT = r"C:/Users/蕾赛/Desktop/第一轮-4.5小时综合测试（A卷+B卷）最终.docx"
 FANG = "仿宋"
 TNR = "Times New Roman"
 
@@ -77,12 +77,24 @@ for p in d.paragraphs:
         continue
     old = int(m.group(1))
     new_num += 1
-    for r in p.runs:
-        if r.text == '':
-            continue
-        if re.match(r'^\s*\d', r.text):
-            r.text = re.sub(r'^\s*\d+\.+\s*', f"{new_num}.", r.text, count=1)
+    # find k = first run whose cumulative text matches a leading "数字." pattern
+    acc = ''
+    k = -1
+    for ri, r in enumerate(p.runs):
+        acc += r.text
+        if re.match(r'^\s*\d+\.', acc):
+            k = ri
             break
+    if k < 0:
+        continue
+    # length (in acc) of the leading number prefix incl. dots/space
+    mfull = re.match(r'^\s*\d+\.+\s*', acc)
+    numlen = mfull.end()
+    pre = sum(len(p.runs[j].text) for j in range(k))   # chars before run k
+    suffix = p.runs[k].text[numlen - pre:]             # text after the number within run k
+    for j in range(k):
+        p.runs[j].text = ''
+    p.runs[k].text = f"{new_num}." + suffix
     mapping.append((old, new_num, p.text[:42]))
 
 # ----------------------------------------------------------------------
