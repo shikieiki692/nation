@@ -1,5 +1,1 @@
-<?xml version="1.0" encoding="ascii"?>
-<p:tagLst xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
-  <p:tag name="AS_UNIQUEID" val="8902"/>
-  <p:tag name="KSO_WM_DIAGRAM_VIRTUALLY_FRAME" val="{&quot;height&quot;:347.55,&quot;left&quot;:70.3,&quot;top&quot;:43.5,&quot;width&quot;:821.1}"/>
-</p:tagLst>
+<?xml version="1.0" encoding="UTF-8"?><p:tagLst xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main"><p:tag name="AS_UNIQUEID" val="8902"/><p:tag name="KSO_WM_DIAGRAM_VIRTUALLY_FRAME" val="{&quot;height&quot;:347.55,&quot;left&quot;:70.3,&quot;top&quot;:43.5,&quot;width&quot;:821.1}"/></p:tagLst>

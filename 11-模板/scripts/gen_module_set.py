@@ -3,12 +3,12 @@
 用法: python gen_module_set.py <模块名> <输出文件名>
 示例: python gen_module_set.py 有机化学 模块习题集-有机化学.md
 """
-import os, re, sys, io, collections
+import os, re, sys, io, collections, datetime
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
 BASE = "04-题库"
-TODAY = "2026-08-25"
+TODAY = datetime.date.today().isoformat()
 
 if len(sys.argv) < 3:
     print("用法: python gen_module_set.py <模块名> <输出文件名>")
@@ -58,6 +58,7 @@ for root, dirs, fs in os.walk(BASE):
         if not fm: continue
         y = fm.group(1)
         if not re.search(r"(?m)^type: 题目", y): continue
+        if re.search(r"(?m)^status:\s*deprecated", y): continue
         if not re.search(rf"(?m)^pack: 模块习题集", y): continue
         if not re.search(rf"(?m)^subject_module: {MODULE}$", y): continue
         if "used_in" in y: continue

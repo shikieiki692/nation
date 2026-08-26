@@ -1,0 +1,414 @@
+{
+  "root_files": [
+    {
+      "name": "Agent任务分解指南.md",
+      "size_kb": 9.24,
+      "ext": ".md"
+    },
+    {
+      "name": "Agent入口文件关系说明.md",
+      "size_kb": 3.34,
+      "ext": ".md"
+    },
+    {
+      "name": "Agent战略方向.md",
+      "size_kb": 32.35,
+      "ext": ".md"
+    },
+    {
+      "name": "Agent提示词-教学洞察自动生成.md",
+      "size_kb": 9.36,
+      "ext": ".md"
+    },
+    {
+      "name": "Agent操作与知识库导航说明.md",
+      "size_kb": 11.75,
+      "ext": ".md"
+    },
+    {
+      "name": "Agent数据库使用指南.md",
+      "size_kb": 9.64,
+      "ext": ".md"
+    },
+    {
+      "name": "Agent最小执行协议.md",
+      "size_kb": 16.92,
+      "ext": ".md"
+    },
+    {
+      "name": "Agent标准作业流程.md",
+      "size_kb": 69.18,
+      "ext": ".md"
+    },
+    {
+      "name": "Agent模块关系与收工同步清单.md",
+      "size_kb": 10.87,
+      "ext": ".md"
+    },
+    {
+      "name": "Agent生命周期与MCP工具层设计.md",
+      "size_kb": 51.52,
+      "ext": ".md"
+    },
+    {
+      "name": "Frontmatter角色词表.md",
+      "size_kb": 5.7,
+      "ext": ".md"
+    },
+    {
+      "name": "KP-提炼-题库挂接巡检表.md",
+      "size_kb": 22.22,
+      "ext": ".md"
+    },
+    {
+      "name": "KP复习清单.md",
+      "size_kb": 3.67,
+      "ext": ".md"
+    },
+    {
+      "name": "Word友好 Markdown 符号速查表.md",
+      "size_kb": 5.48,
+      "ext": ".md"
+    },
+    {
+      "name": "Word管线总览.md",
+      "size_kb": 11.28,
+      "ext": ".md"
+    },
+    {
+      "name": "使用说明.md",
+      "size_kb": 6.13,
+      "ext": ".md"
+    },
+    {
+      "name": "全局导航.md",
+      "size_kb": 12.54,
+      "ext": ".md"
+    },
+    {
+      "name": "图片待补清单.md",
+      "size_kb": 16.73,
+      "ext": ".md"
+    },
+    {
+      "name": "图片核验任务包.md",
+      "size_kb": 6.71,
+      "ext": ".md"
+    },
+    {
+      "name": "图片索引.md",
+      "size_kb": 13.32,
+      "ext": ".md"
+    },
+    {
+      "name": "基础设施优化备忘.md",
+      "size_kb": 3.7,
+      "ext": ".md"
+    },
+    {
+      "name": "工作日志.md",
+      "size_kb": 9.09,
+      "ext": ".md"
+    },
+    {
+      "name": "待建KP优先级清单.md",
+      "size_kb": 1.33,
+      "ext": ".md"
+    },
+    {
+      "name": "教材图片核验交接清单.md",
+      "size_kb": 18.72,
+      "ext": ".md"
+    },
+    {
+      "name": "教材提炼状态盘点.md",
+      "size_kb": 25.48,
+      "ext": ".md"
+    },
+    {
+      "name": "方法论-多源教学资料整合.md",
+      "size_kb": 11.31,
+      "ext": ".md"
+    },
+    {
+      "name": "方法论-题集构建工作流.md",
+      "size_kb": 15.67,
+      "ext": ".md"
+    },
+    {
+      "name": "模块连接覆盖表.md",
+      "size_kb": 3.38,
+      "ext": ".md"
+    },
+    {
+      "name": "活跃任务.md",
+      "size_kb": 25.44,
+      "ext": ".md"
+    },
+    {
+      "name": "状态摘要.md",
+      "size_kb": 83.51,
+      "ext": ".md"
+    },
+    {
+      "name": "知识库待补充清单.md",
+      "size_kb": 23.11,
+      "ext": ".md"
+    },
+    {
+      "name": "知识库日常操作过程建模.md",
+      "size_kb": 10.11,
+      "ext": ".md"
+    },
+    {
+      "name": "知识库治理待办.md",
+      "size_kb": 9.86,
+      "ext": ".md"
+    },
+    {
+      "name": "知识库系统架构.md",
+      "size_kb": 11.33,
+      "ext": ".md"
+    },
+    {
+      "name": "系统页角色索引.md",
+      "size_kb": 3.41,
+      "ext": ".md"
+    },
+    {
+      "name": "经验沉淀.md",
+      "size_kb": 109.16,
+      "ext": ".md"
+    },
+    {
+      "name": "给Agent下指令模板.md",
+      "size_kb": 8.25,
+      "ext": ".md"
+    },
+    {
+      "name": "自动汇总-说明.md",
+      "size_kb": 3.46,
+      "ext": ".md"
+    },
+    {
+      "name": "规则-讲义质量检查清单.md",
+      "size_kb": 3.59,
+      "ext": ".md"
+    },
+    {
+      "name": "规则-配图来源优先级.md",
+      "size_kb": 6.82,
+      "ext": ".md"
+    },
+    {
+      "name": "讲义生产SOP与双向映射规范.md",
+      "size_kb": 11.2,
+      "ext": ".md"
+    },
+    {
+      "name": "质量看板.md",
+      "size_kb": 6.43,
+      "ext": ".md"
+    },
+    {
+      "name": "连接工程总表.md",
+      "size_kb": 3.49,
+      "ext": ".md"
+    },
+    {
+      "name": "首页.md",
+      "size_kb": 27.46,
+      "ext": ".md"
+    }
+  ],
+  "subdirectories": {
+    "agent-prompts": {
+      "total_items": 0,
+      "md_count": 0,
+      "direct_files": [],
+      "subdirs": []
+    },
+    "scripts": {
+      "total_items": 9,
+      "md_count": 0,
+      "direct_files": [
+        "build_full_teaching_framework_doc.js",
+        "build_full_teaching_framework_full_schedule_doc.js",
+        "categorize-v3-core.ps1",
+        "compare-v2-v3-core.ps1",
+        "generate_flashcard_print_test.py",
+        "regen-gap-analysis-v3-core.ps1",
+        "run-categorize-v3.ps1",
+        "run-compare-v2-v3.ps1",
+        "run-regen-v3.ps1"
+      ],
+      "subdirs": []
+    },
+    "会话交接": {
+      "total_items": 8,
+      "md_count": 8,
+      "direct_files": [
+        "2026-06-24-Agent文件优化.md",
+        "2026-06-24-五支柱框架实施.md",
+        "2026-06-24-学生讲义排版与docx管线测试.md",
+        "2026-06-24-排版与内容结构规划.md",
+        "2026-07-26-习题库优化交接.md",
+        "2026-08-06-学生讲义L1L2与Word回归.md",
+        "2026-08-25-结构化学习题集A卷B卷审计.md",
+        "README.md"
+      ],
+      "subdirs": []
+    },
+    "备忘录": {
+      "total_items": 0,
+      "md_count": 0,
+      "direct_files": [],
+      "subdirs": []
+    },
+    "学生讲义PDF": {
+      "total_items": 20,
+      "md_count": 1,
+      "direct_files": [
+        "README.md",
+        "_new_原子结构-超级充实版（自学完整）.pdf",
+        "元素周期表与周期律-超级充实版（自学完整）.pdf",
+        "分子结构基础-超级充实版_v5测试.pdf",
+        "分子结构基础-超级充实版（自学完整）.pdf",
+        "化学平衡-超级充实版（自学完整）.pdf",
+        "原子结构-超级充实版（自学完整）.pdf",
+        "原子结构-超级充实版（自学完整）_v5测试.pdf",
+        "晶体学与晶体结构-超级充实版（自学完整）.pdf",
+        "晶体学基础-超级充实版_v5测试.pdf"
+      ],
+      "subdirs": []
+    },
+    "学生讲义Word": {
+      "total_items": 302,
+      "md_count": 0,
+      "direct_files": [
+        "2026-06-23-化学动力学基础.docx",
+        "2026-06-23-气体基础.docx",
+        "2026-06-23-溶液和胶体.docx",
+        "2026-06-23-热力学基础.docx",
+        "2026-06-23-电化学基础.docx",
+        "2026-06-23-酸碱理论.docx",
+        "2026-08-16-skills盘点评估.docx",
+        "_build_combined_docx.ps1",
+        "_fix_fonts.py",
+        "_fix_greek_v2.py"
+      ],
+      "subdirs": [
+        "_render_preview",
+        "原子结构-超级充实版（自学完整）",
+        "第一轮结构化学习题集（汇智精选版）_render",
+        "第一轮结构化学习题集（精选重组）_render",
+        "结构化学第一轮复习"
+      ]
+    },
+    "学生讲义Word-回归": {
+      "total_items": 1,
+      "md_count": 0,
+      "direct_files": [
+        "原子结构-超级充实版（自学完整）.docx"
+      ],
+      "subdirs": []
+    },
+    "学生讲义Word-回归2": {
+      "total_items": 1,
+      "md_count": 0,
+      "direct_files": [
+        "原子结构-超级充实版（自学完整）.docx"
+      ],
+      "subdirs": []
+    },
+    "工作日志": {
+      "total_items": 87,
+      "md_count": 87,
+      "direct_files": [
+        "2026-05-05.md",
+        "2026-05-06.md",
+        "2026-05-08.md",
+        "2026-05-09.md",
+        "2026-05-10.md",
+        "2026-05-11.md",
+        "2026-05-12.md",
+        "2026-05-14.md",
+        "2026-05-15.md",
+        "2026-05-16.md"
+      ],
+      "subdirs": []
+    },
+    "归档": {
+      "total_items": 68,
+      "md_count": 61,
+      "direct_files": [
+        "06-外部资料导入-优化计划.md",
+        "06-外部资料导入-提炼状态审计.md",
+        "2026-07-20-Phase1结构修复.md",
+        "2026-07-20-会话总结.md",
+        "2026-07-26-任务清单快照.md",
+        "2026-W19-工作日志.md",
+        "2026-W20-工作日志.md",
+        "2026-W20-执行清单.md",
+        "Ai助手使用规则（回答问题）（弃置中）.md",
+        "KP命名规范化分析报告.md"
+      ],
+      "subdirs": []
+    },
+    "活跃任务": {
+      "total_items": 37,
+      "md_count": 37,
+      "direct_files": [
+        "任务卡-2026-08-13-任务_task_178.md",
+        "任务卡-2026-08-14-MAINTAIN_删除操作将自动降级为软弃用.md",
+        "任务卡-2026-08-14-任务_task_178.md",
+        "任务卡-2026-08-15-WARNING__META_意图修改了_00_首页__下的文件__00_首页_工作日志_2026_08_15_md.md",
+        "任务卡-2026-08-15-任务_task_178.md",
+        "任务卡-2026-08-16-WARNING__META_意图修改了_00_首页__下的文件__00_首页_活跃任务_断链内容建设backlog_md.md",
+        "任务卡-2026-08-16-任务_task_178.md",
+        "任务卡-2026-08-17-任务_task_178.md",
+        "任务卡-2026-08-18-任务_task_178.md",
+        "任务卡-2026-08-20-任务_task_178.md"
+      ],
+      "subdirs": []
+    },
+    "自动汇总": {
+      "total_items": 7,
+      "md_count": 7,
+      "direct_files": [
+        "自动汇总-KP库存统计.md",
+        "自动汇总-任务卡健康检查.md",
+        "自动汇总-体系版本汇总.md",
+        "自动汇总-异常巡检.md",
+        "自动汇总-最近任务摘要.md",
+        "自动汇总-最近审计摘要.md",
+        "自动汇总-系统库存统计.md"
+      ],
+      "subdirs": []
+    },
+    "题组Word": {
+      "total_items": 75,
+      "md_count": 0,
+      "direct_files": [
+        "第一轮-4小时综合测试（A卷 高考+预赛 - B卷 竞赛）（Word清稿）.docx",
+        "第一轮化学原理-化学动力学习题集.docx",
+        "第一轮化学原理-化学平衡习题集.docx",
+        "第一轮化学原理-气体与溶液习题集.docx",
+        "第一轮化学原理-沉淀溶解平衡习题集.docx",
+        "第一轮化学原理-溶液与相图习题集.docx",
+        "第一轮化学原理-热力学习题集.docx",
+        "第一轮化学原理-电化学习题集.docx",
+        "第一轮化学原理-酸碱理论习题集.docx",
+        "第一轮化学原理·化学动力学 习题集（Word清稿）.docx"
+      ],
+      "subdirs": [
+        "第一轮-4小时综合测试（A卷 高考+预赛 - B卷 竞赛）（Word清稿）_render",
+        "第一轮结构化学 · 习题集（汇智精选版）（Word清稿）_render",
+        "第一轮结构化学 · 习题集（竞赛进阶 B卷）（Word清稿）_render"
+      ]
+    }
+  },
+  "task_cards": [],
+  "handoffs": [],
+  "recent_logs": []
+}
