@@ -2,7 +2,7 @@
 title: "题-030-3-2-ZnNH3配合物中HNH键角变化"
 type: 题目
 fidelity: 原书逐字
-submodule: ""
+submodule: 分子结构与化学键
 exam_stage: 初赛
 subject: 无机和结构化学
 difficulty: 3
