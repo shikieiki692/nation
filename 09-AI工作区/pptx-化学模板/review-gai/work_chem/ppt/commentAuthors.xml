@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="ascii"?>
+<p:cmAuthorLst xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cmAuthor id="1" name="&#38745;" initials="&#38745;" lastIdx="0" clrIdx="0"/>
+  <p:cmAuthor id="2" name="chenjing" initials="c" lastIdx="0" clrIdx="1"/>
+</p:cmAuthorLst>

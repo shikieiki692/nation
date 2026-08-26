@@ -1,0 +1,1676 @@
+<?xml version='1.0' encoding='ASCII'?>
+<p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" xmlns:p15="http://schemas.microsoft.com/office/powerpoint/2012/main" xmlns:p159="http://schemas.microsoft.com/office/powerpoint/2015/09/main" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld name="">
+    <p:spTree>
+      <p:nvGrpSpPr>
+        <p:cNvPr id="1" name=""/>
+        <p:cNvGrpSpPr/>
+        <p:nvPr>
+          <p:custDataLst>
+            <p:tags r:id="rId2"/>
+          </p:custDataLst>
+        </p:nvPr>
+      </p:nvGrpSpPr>
+      <p:grpSpPr>
+        <a:xfrm>
+          <a:off x="0" y="0"/>
+          <a:ext cx="0" cy="0"/>
+        </a:xfrm>
+      </p:grpSpPr>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="20" name="&#30697;&#24418; 19" title=""/>
+          <p:cNvSpPr/>
+          <p:nvPr>
+            <p:custDataLst>
+              <p:tags r:id="rId3"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="963674" y="-185067"/>
+            <a:ext cx="1826141" cy="928652"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="none">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="l">
+              <a:lnSpc>
+                <a:spcPct val="200000"/>
+              </a:lnSpc>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" sz="3200">
+                <a:latin typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                <a:sym typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#35838;&#22530;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" sz="3200" u="sng">
+                <a:latin typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                <a:sym typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#24635;&#32467;</a:t>
+            </a:r>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" sz="3200" u="sng">
+              <a:latin typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+              <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:grpSp>
+        <p:nvGrpSpPr>
+          <p:cNvPr id="36" name="&#32452;&#21512; 35" title=""/>
+          <p:cNvGrpSpPr/>
+          <p:nvPr>
+            <p:custDataLst>
+              <p:tags r:id="rId4"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvGrpSpPr>
+        <p:grpSpPr>
+          <a:xfrm>
+            <a:off x="597780" y="941862"/>
+            <a:ext cx="10928812" cy="5798412"/>
+            <a:chOff x="1583068" y="2095294"/>
+            <a:chExt cx="6293167" cy="2044032"/>
+          </a:xfrm>
+        </p:grpSpPr>
+        <p:sp>
+          <p:nvSpPr>
+            <p:cNvPr id="37" name="MMConnector"/>
+            <p:cNvSpPr/>
+            <p:nvPr>
+              <p:custDataLst>
+                <p:tags r:id="rId5"/>
+              </p:custDataLst>
+            </p:nvPr>
+          </p:nvSpPr>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="3544405" y="2753460"/>
+              <a:ext cx="871032" cy="436206"/>
+            </a:xfrm>
+            <a:custGeom>
+              <a:rect l="0" t="0" r="0" b="0"/>
+              <a:pathLst>
+                <a:path w="871032" h="436206">
+                  <a:moveTo>
+                    <a:pt x="687992" y="-323894"/>
+                  </a:moveTo>
+                  <a:lnTo>
+                    <a:pt x="881781" y="-320969"/>
+                  </a:lnTo>
+                  <a:cubicBezTo>
+                    <a:pt x="897101" y="-320738"/>
+                    <a:pt x="910318" y="-313112"/>
+                    <a:pt x="894998" y="-312880"/>
+                  </a:cubicBezTo>
+                  <a:lnTo>
+                    <a:pt x="687992" y="-309756"/>
+                  </a:lnTo>
+                  <a:cubicBezTo>
+                    <a:pt x="672672" y="-309524"/>
+                    <a:pt x="659114" y="-305059"/>
+                    <a:pt x="646655" y="-296140"/>
+                  </a:cubicBezTo>
+                  <a:lnTo>
+                    <a:pt x="62884" y="121744"/>
+                  </a:lnTo>
+                  <a:cubicBezTo>
+                    <a:pt x="50425" y="130662"/>
+                    <a:pt x="37045" y="144327"/>
+                    <a:pt x="22796" y="138694"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="19577" y="137422"/>
+                    <a:pt x="16803" y="135258"/>
+                    <a:pt x="14786" y="132337"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="12769" y="129416"/>
+                    <a:pt x="11728" y="126057"/>
+                    <a:pt x="11678" y="122596"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="11457" y="107276"/>
+                    <a:pt x="28974" y="99600"/>
+                    <a:pt x="41725" y="91106"/>
+                  </a:cubicBezTo>
+                  <a:lnTo>
+                    <a:pt x="646220" y="-311598"/>
+                  </a:lnTo>
+                  <a:cubicBezTo>
+                    <a:pt x="658971" y="-320092"/>
+                    <a:pt x="672672" y="-324126"/>
+                    <a:pt x="687992" y="-323894"/>
+                  </a:cubicBezTo>
+                  <a:close/>
+                </a:path>
+              </a:pathLst>
+            </a:custGeom>
+            <a:solidFill>
+              <a:srgbClr val="BA7C9B"/>
+            </a:solidFill>
+            <a:ln w="7600" cap="rnd">
+              <a:solidFill>
+                <a:srgbClr val="BA7C9B"/>
+              </a:solidFill>
+              <a:round/>
+            </a:ln>
+          </p:spPr>
+          <p:txBody>
+            <a:bodyPr/>
+            <a:lstStyle/>
+            <a:p>
+              <a:pPr>
+                <a:lnSpc>
+                  <a:spcPct val="120000"/>
+                </a:lnSpc>
+              </a:pPr>
+              <a:endParaRPr lang="zh-CN" altLang="en-US" sz="3200" b="1">
+                <a:latin typeface="Times New Roman"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                <a:sym typeface="+mn-lt"/>
+              </a:endParaRPr>
+            </a:p>
+          </p:txBody>
+        </p:sp>
+        <p:sp>
+          <p:nvSpPr>
+            <p:cNvPr id="38" name="MMConnector"/>
+            <p:cNvSpPr/>
+            <p:nvPr>
+              <p:custDataLst>
+                <p:tags r:id="rId6"/>
+              </p:custDataLst>
+            </p:nvPr>
+          </p:nvSpPr>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="3544405" y="3117310"/>
+              <a:ext cx="722118" cy="72396"/>
+            </a:xfrm>
+            <a:custGeom>
+              <a:rect l="0" t="0" r="0" b="0"/>
+              <a:pathLst>
+                <a:path w="722118" h="72396">
+                  <a:moveTo>
+                    <a:pt x="689691" y="38703"/>
+                  </a:moveTo>
+                  <a:lnTo>
+                    <a:pt x="881784" y="42745"/>
+                  </a:lnTo>
+                  <a:cubicBezTo>
+                    <a:pt x="897102" y="43068"/>
+                    <a:pt x="910308" y="50704"/>
+                    <a:pt x="894990" y="51027"/>
+                  </a:cubicBezTo>
+                  <a:lnTo>
+                    <a:pt x="689691" y="55347"/>
+                  </a:lnTo>
+                  <a:cubicBezTo>
+                    <a:pt x="674373" y="55669"/>
+                    <a:pt x="659478" y="54877"/>
+                    <a:pt x="644281" y="52930"/>
+                  </a:cubicBezTo>
+                  <a:lnTo>
+                    <a:pt x="202258" y="-3685"/>
+                  </a:lnTo>
+                  <a:cubicBezTo>
+                    <a:pt x="187060" y="-5631"/>
+                    <a:pt x="167937" y="-4757"/>
+                    <a:pt x="161407" y="-18617"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="159929" y="-21756"/>
+                    <a:pt x="159386" y="-25241"/>
+                    <a:pt x="159913" y="-28753"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="160439" y="-32264"/>
+                    <a:pt x="161980" y="-35435"/>
+                    <a:pt x="164314" y="-38000"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="174624" y="-49334"/>
+                    <a:pt x="192650" y="-42900"/>
+                    <a:pt x="207752" y="-40317"/>
+                  </a:cubicBezTo>
+                  <a:lnTo>
+                    <a:pt x="644422" y="34379"/>
+                  </a:lnTo>
+                  <a:cubicBezTo>
+                    <a:pt x="659525" y="36962"/>
+                    <a:pt x="674373" y="38381"/>
+                    <a:pt x="689691" y="38703"/>
+                  </a:cubicBezTo>
+                  <a:close/>
+                </a:path>
+              </a:pathLst>
+            </a:custGeom>
+            <a:solidFill>
+              <a:srgbClr val="BA7C9B"/>
+            </a:solidFill>
+            <a:ln w="7600" cap="rnd">
+              <a:solidFill>
+                <a:srgbClr val="BA7C9B"/>
+              </a:solidFill>
+              <a:round/>
+            </a:ln>
+          </p:spPr>
+          <p:txBody>
+            <a:bodyPr/>
+            <a:lstStyle/>
+            <a:p>
+              <a:pPr>
+                <a:lnSpc>
+                  <a:spcPct val="120000"/>
+                </a:lnSpc>
+              </a:pPr>
+              <a:endParaRPr lang="zh-CN" altLang="en-US" sz="3200" b="1">
+                <a:latin typeface="Times New Roman"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                <a:sym typeface="+mn-lt"/>
+              </a:endParaRPr>
+            </a:p>
+          </p:txBody>
+        </p:sp>
+        <p:sp>
+          <p:nvSpPr>
+            <p:cNvPr id="39" name="MMConnector"/>
+            <p:cNvSpPr/>
+            <p:nvPr>
+              <p:custDataLst>
+                <p:tags r:id="rId7"/>
+              </p:custDataLst>
+            </p:nvPr>
+          </p:nvSpPr>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="5455984" y="2436635"/>
+              <a:ext cx="205200" cy="7600"/>
+            </a:xfrm>
+            <a:custGeom>
+              <a:rect l="0" t="0" r="0" b="0"/>
+              <a:pathLst>
+                <a:path w="205200" h="7600">
+                  <a:moveTo>
+                    <a:pt x="26538" y="-9716"/>
+                  </a:moveTo>
+                  <a:cubicBezTo>
+                    <a:pt x="41942" y="-8575"/>
+                    <a:pt x="56855" y="-7431"/>
+                    <a:pt x="72129" y="-6218"/>
+                  </a:cubicBezTo>
+                  <a:lnTo>
+                    <a:pt x="79871" y="-5604"/>
+                  </a:lnTo>
+                  <a:cubicBezTo>
+                    <a:pt x="95145" y="-4392"/>
+                    <a:pt x="108219" y="3354"/>
+                    <a:pt x="92946" y="4566"/>
+                  </a:cubicBezTo>
+                  <a:lnTo>
+                    <a:pt x="72129" y="6218"/>
+                  </a:lnTo>
+                  <a:cubicBezTo>
+                    <a:pt x="56855" y="7431"/>
+                    <a:pt x="41942" y="8575"/>
+                    <a:pt x="26662" y="9706"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="11258" y="10848"/>
+                    <a:pt x="-3659" y="11933"/>
+                    <a:pt x="-18942" y="13024"/>
+                  </a:cubicBezTo>
+                  <a:lnTo>
+                    <a:pt x="-79858" y="17376"/>
+                  </a:lnTo>
+                  <a:cubicBezTo>
+                    <a:pt x="-95141" y="18467"/>
+                    <a:pt x="-113965" y="22816"/>
+                    <a:pt x="-122377" y="10010"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="-124330" y="7036"/>
+                    <a:pt x="-125400" y="3572"/>
+                    <a:pt x="-125400" y="0"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="-125400" y="-3572"/>
+                    <a:pt x="-124330" y="-7036"/>
+                    <a:pt x="-122377" y="-10010"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="-113965" y="-22816"/>
+                    <a:pt x="-95141" y="-18467"/>
+                    <a:pt x="-79858" y="-17376"/>
+                  </a:cubicBezTo>
+                  <a:lnTo>
+                    <a:pt x="-18942" y="-13024"/>
+                  </a:lnTo>
+                  <a:cubicBezTo>
+                    <a:pt x="-3659" y="-11933"/>
+                    <a:pt x="11258" y="-10848"/>
+                    <a:pt x="26538" y="-9716"/>
+                  </a:cubicBezTo>
+                  <a:close/>
+                </a:path>
+              </a:pathLst>
+            </a:custGeom>
+            <a:solidFill>
+              <a:srgbClr val="BA7C9B"/>
+            </a:solidFill>
+            <a:ln w="7600" cap="rnd">
+              <a:solidFill>
+                <a:srgbClr val="BA7C9B"/>
+              </a:solidFill>
+              <a:round/>
+            </a:ln>
+          </p:spPr>
+          <p:txBody>
+            <a:bodyPr/>
+            <a:lstStyle/>
+            <a:p>
+              <a:pPr>
+                <a:lnSpc>
+                  <a:spcPct val="120000"/>
+                </a:lnSpc>
+              </a:pPr>
+              <a:endParaRPr lang="zh-CN" altLang="en-US" sz="3200" b="1">
+                <a:latin typeface="Times New Roman"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                <a:sym typeface="+mn-lt"/>
+              </a:endParaRPr>
+            </a:p>
+          </p:txBody>
+        </p:sp>
+        <p:sp>
+          <p:nvSpPr>
+            <p:cNvPr id="40" name="MMConnector"/>
+            <p:cNvSpPr/>
+            <p:nvPr>
+              <p:custDataLst>
+                <p:tags r:id="rId8"/>
+              </p:custDataLst>
+            </p:nvPr>
+          </p:nvSpPr>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="5455984" y="3164335"/>
+              <a:ext cx="205200" cy="7600"/>
+            </a:xfrm>
+            <a:custGeom>
+              <a:rect l="0" t="0" r="0" b="0"/>
+              <a:pathLst>
+                <a:path w="205200" h="7600">
+                  <a:moveTo>
+                    <a:pt x="26538" y="-9716"/>
+                  </a:moveTo>
+                  <a:cubicBezTo>
+                    <a:pt x="41942" y="-8575"/>
+                    <a:pt x="56855" y="-7431"/>
+                    <a:pt x="72129" y="-6218"/>
+                  </a:cubicBezTo>
+                  <a:lnTo>
+                    <a:pt x="79871" y="-5604"/>
+                  </a:lnTo>
+                  <a:cubicBezTo>
+                    <a:pt x="95145" y="-4392"/>
+                    <a:pt x="108219" y="3354"/>
+                    <a:pt x="92946" y="4566"/>
+                  </a:cubicBezTo>
+                  <a:lnTo>
+                    <a:pt x="72129" y="6218"/>
+                  </a:lnTo>
+                  <a:cubicBezTo>
+                    <a:pt x="56855" y="7431"/>
+                    <a:pt x="41942" y="8575"/>
+                    <a:pt x="26662" y="9706"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="11258" y="10848"/>
+                    <a:pt x="-3659" y="11933"/>
+                    <a:pt x="-18942" y="13024"/>
+                  </a:cubicBezTo>
+                  <a:lnTo>
+                    <a:pt x="-79858" y="17376"/>
+                  </a:lnTo>
+                  <a:cubicBezTo>
+                    <a:pt x="-95141" y="18467"/>
+                    <a:pt x="-113965" y="22816"/>
+                    <a:pt x="-122377" y="10010"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="-124330" y="7036"/>
+                    <a:pt x="-125400" y="3572"/>
+                    <a:pt x="-125400" y="0"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="-125400" y="-3572"/>
+                    <a:pt x="-124330" y="-7036"/>
+                    <a:pt x="-122377" y="-10010"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="-113965" y="-22816"/>
+                    <a:pt x="-95141" y="-18467"/>
+                    <a:pt x="-79858" y="-17376"/>
+                  </a:cubicBezTo>
+                  <a:lnTo>
+                    <a:pt x="-18942" y="-13024"/>
+                  </a:lnTo>
+                  <a:cubicBezTo>
+                    <a:pt x="-3659" y="-11933"/>
+                    <a:pt x="11258" y="-10848"/>
+                    <a:pt x="26538" y="-9716"/>
+                  </a:cubicBezTo>
+                  <a:close/>
+                </a:path>
+              </a:pathLst>
+            </a:custGeom>
+            <a:solidFill>
+              <a:srgbClr val="BA7C9B"/>
+            </a:solidFill>
+            <a:ln w="7600" cap="rnd">
+              <a:solidFill>
+                <a:srgbClr val="BA7C9B"/>
+              </a:solidFill>
+              <a:round/>
+            </a:ln>
+          </p:spPr>
+          <p:txBody>
+            <a:bodyPr/>
+            <a:lstStyle/>
+            <a:p>
+              <a:pPr>
+                <a:lnSpc>
+                  <a:spcPct val="120000"/>
+                </a:lnSpc>
+              </a:pPr>
+              <a:endParaRPr lang="zh-CN" altLang="en-US" sz="3200" b="1">
+                <a:latin typeface="Times New Roman"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                <a:sym typeface="+mn-lt"/>
+              </a:endParaRPr>
+            </a:p>
+          </p:txBody>
+        </p:sp>
+        <p:sp>
+          <p:nvSpPr>
+            <p:cNvPr id="41" name="MMConnector"/>
+            <p:cNvSpPr/>
+            <p:nvPr>
+              <p:custDataLst>
+                <p:tags r:id="rId9"/>
+              </p:custDataLst>
+            </p:nvPr>
+          </p:nvSpPr>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="3544405" y="3387110"/>
+              <a:ext cx="716558" cy="329526"/>
+            </a:xfrm>
+            <a:custGeom>
+              <a:rect l="0" t="0" r="0" b="0"/>
+              <a:pathLst>
+                <a:path w="716558" h="329526">
+                  <a:moveTo>
+                    <a:pt x="690260" y="309010"/>
+                  </a:moveTo>
+                  <a:lnTo>
+                    <a:pt x="881783" y="312598"/>
+                  </a:lnTo>
+                  <a:cubicBezTo>
+                    <a:pt x="897102" y="312885"/>
+                    <a:pt x="910312" y="320518"/>
+                    <a:pt x="894993" y="320805"/>
+                  </a:cubicBezTo>
+                  <a:lnTo>
+                    <a:pt x="690260" y="324640"/>
+                  </a:lnTo>
+                  <a:cubicBezTo>
+                    <a:pt x="674941" y="324926"/>
+                    <a:pt x="661214" y="320960"/>
+                    <a:pt x="648410" y="312546"/>
+                  </a:cubicBezTo>
+                  <a:lnTo>
+                    <a:pt x="196278" y="15454"/>
+                  </a:lnTo>
+                  <a:cubicBezTo>
+                    <a:pt x="183474" y="7040"/>
+                    <a:pt x="165903" y="-572"/>
+                    <a:pt x="166141" y="-15892"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="166194" y="-19364"/>
+                    <a:pt x="167241" y="-22735"/>
+                    <a:pt x="169260" y="-25657"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="171277" y="-28579"/>
+                    <a:pt x="174054" y="-30746"/>
+                    <a:pt x="177276" y="-32021"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="191522" y="-37659"/>
+                    <a:pt x="204890" y="-23970"/>
+                    <a:pt x="217330" y="-15026"/>
+                  </a:cubicBezTo>
+                  <a:lnTo>
+                    <a:pt x="648952" y="295275"/>
+                  </a:lnTo>
+                  <a:cubicBezTo>
+                    <a:pt x="661392" y="304218"/>
+                    <a:pt x="674941" y="308724"/>
+                    <a:pt x="690260" y="309010"/>
+                  </a:cubicBezTo>
+                  <a:close/>
+                </a:path>
+              </a:pathLst>
+            </a:custGeom>
+            <a:solidFill>
+              <a:srgbClr val="BA7C9B"/>
+            </a:solidFill>
+            <a:ln w="7600" cap="rnd">
+              <a:solidFill>
+                <a:srgbClr val="BA7C9B"/>
+              </a:solidFill>
+              <a:round/>
+            </a:ln>
+          </p:spPr>
+          <p:txBody>
+            <a:bodyPr/>
+            <a:lstStyle/>
+            <a:p>
+              <a:pPr>
+                <a:lnSpc>
+                  <a:spcPct val="120000"/>
+                </a:lnSpc>
+              </a:pPr>
+              <a:endParaRPr lang="zh-CN" altLang="en-US" sz="3200" b="1">
+                <a:latin typeface="Times New Roman"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                <a:sym typeface="+mn-lt"/>
+              </a:endParaRPr>
+            </a:p>
+          </p:txBody>
+        </p:sp>
+        <p:sp>
+          <p:nvSpPr>
+            <p:cNvPr id="45" name="SubTopic"/>
+            <p:cNvSpPr/>
+            <p:nvPr>
+              <p:custDataLst>
+                <p:tags r:id="rId10"/>
+              </p:custDataLst>
+            </p:nvPr>
+          </p:nvSpPr>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="5558584" y="2104135"/>
+              <a:ext cx="2317651" cy="332500"/>
+            </a:xfrm>
+            <a:custGeom>
+              <a:gdLst>
+                <a:gd name="rtl" fmla="*/ 54150 w 2127642"/>
+                <a:gd name="rtt" fmla="*/ 15010 h 332500"/>
+                <a:gd name="rtr" fmla="*/ 2090475 w 2127642"/>
+                <a:gd name="rtb" fmla="*/ 303810 h 332500"/>
+              </a:gdLst>
+              <a:rect l="rtl" t="rtt" r="rtr" b="rtb"/>
+              <a:pathLst>
+                <a:path w="2127642" h="332500" stroke="0">
+                  <a:moveTo>
+                    <a:pt x="0" y="0"/>
+                  </a:moveTo>
+                  <a:lnTo>
+                    <a:pt x="2127642" y="0"/>
+                  </a:lnTo>
+                  <a:lnTo>
+                    <a:pt x="2127642" y="332500"/>
+                  </a:lnTo>
+                  <a:lnTo>
+                    <a:pt x="0" y="332500"/>
+                  </a:lnTo>
+                  <a:lnTo>
+                    <a:pt x="0" y="0"/>
+                  </a:lnTo>
+                  <a:close/>
+                </a:path>
+                <a:path w="2127642" h="332500" fill="none">
+                  <a:moveTo>
+                    <a:pt x="0" y="332500"/>
+                  </a:moveTo>
+                  <a:lnTo>
+                    <a:pt x="2127642" y="332500"/>
+                  </a:lnTo>
+                </a:path>
+              </a:pathLst>
+            </a:custGeom>
+            <a:noFill/>
+            <a:ln w="15200" cap="flat">
+              <a:solidFill>
+                <a:srgbClr val="BA7C9B"/>
+              </a:solidFill>
+              <a:round/>
+            </a:ln>
+          </p:spPr>
+          <p:txBody>
+            <a:bodyPr wrap="square" lIns="0" tIns="0" rIns="0" bIns="11000" rtlCol="0" anchor="ctr"/>
+            <a:lstStyle/>
+            <a:p>
+              <a:pPr algn="just">
+                <a:lnSpc>
+                  <a:spcPct val="120000"/>
+                </a:lnSpc>
+              </a:pPr>
+              <a:r>
+                <a:rPr sz="1400" b="1" err="1">
+                  <a:latin typeface="Times New Roman"/>
+                  <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                  <a:cs typeface="+mn-ea"/>
+                  <a:sym typeface="+mn-lt"/>
+                </a:rPr>
+                <a:t>&#23545;&#21516;&#19968;&#31867;&#20107;&#29289;&#25353;&#29031;&#23646;&#24615;&#36827;&#19968;&#27493;&#36827;&#34892;&#32454;&#21270;&#20998;&#31867;&#30340;&#26041;&#27861;&#65292;&#20998;&#32423;&#65292;&#36882;&#36827;&#65292;&#27599;&#19968;&#32423;&#19968;&#20010;&#20998;&#31867;&#26631;&#20934;</a:t>
+              </a:r>
+            </a:p>
+          </p:txBody>
+        </p:sp>
+        <p:sp>
+          <p:nvSpPr>
+            <p:cNvPr id="46" name="SubTopic"/>
+            <p:cNvSpPr/>
+            <p:nvPr>
+              <p:custDataLst>
+                <p:tags r:id="rId11"/>
+              </p:custDataLst>
+            </p:nvPr>
+          </p:nvSpPr>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="5558584" y="2831835"/>
+              <a:ext cx="1676788" cy="332500"/>
+            </a:xfrm>
+            <a:custGeom>
+              <a:gdLst>
+                <a:gd name="rtl" fmla="*/ 54150 w 2150442"/>
+                <a:gd name="rtt" fmla="*/ 15010 h 332500"/>
+                <a:gd name="rtr" fmla="*/ 2113275 w 2150442"/>
+                <a:gd name="rtb" fmla="*/ 303810 h 332500"/>
+              </a:gdLst>
+              <a:rect l="rtl" t="rtt" r="rtr" b="rtb"/>
+              <a:pathLst>
+                <a:path w="2150442" h="332500" stroke="0">
+                  <a:moveTo>
+                    <a:pt x="0" y="0"/>
+                  </a:moveTo>
+                  <a:lnTo>
+                    <a:pt x="2150442" y="0"/>
+                  </a:lnTo>
+                  <a:lnTo>
+                    <a:pt x="2150442" y="332500"/>
+                  </a:lnTo>
+                  <a:lnTo>
+                    <a:pt x="0" y="332500"/>
+                  </a:lnTo>
+                  <a:lnTo>
+                    <a:pt x="0" y="0"/>
+                  </a:lnTo>
+                  <a:close/>
+                </a:path>
+                <a:path w="2150442" h="332500" fill="none">
+                  <a:moveTo>
+                    <a:pt x="0" y="332500"/>
+                  </a:moveTo>
+                  <a:lnTo>
+                    <a:pt x="2150442" y="332500"/>
+                  </a:lnTo>
+                </a:path>
+              </a:pathLst>
+            </a:custGeom>
+            <a:noFill/>
+            <a:ln w="15200" cap="flat">
+              <a:solidFill>
+                <a:srgbClr val="BA7C9B"/>
+              </a:solidFill>
+              <a:round/>
+            </a:ln>
+          </p:spPr>
+          <p:txBody>
+            <a:bodyPr wrap="square" lIns="0" tIns="0" rIns="0" bIns="11000" rtlCol="0" anchor="ctr"/>
+            <a:lstStyle/>
+            <a:p>
+              <a:pPr algn="just">
+                <a:lnSpc>
+                  <a:spcPct val="120000"/>
+                </a:lnSpc>
+              </a:pPr>
+              <a:r>
+                <a:rPr sz="1400" b="1" err="1">
+                  <a:latin typeface="Times New Roman"/>
+                  <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                  <a:cs typeface="+mn-ea"/>
+                  <a:sym typeface="+mn-lt"/>
+                </a:rPr>
+                <a:t>&#26681;&#25454;&#19981;&#21516;&#30340;&#20998;&#31867;&#26631;&#20934;&#65292;&#23545;&#21516;&#19968;&#20107;&#29289;&#36827;&#34892;&#22810;&#31181;&#20998;&#31867;&#30340;&#19968;&#31181;&#20998;&#31867;&#26041;&#27861;</a:t>
+              </a:r>
+              <a:endParaRPr sz="1400" b="1">
+                <a:latin typeface="Times New Roman"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                <a:cs typeface="+mn-ea"/>
+                <a:sym typeface="+mn-lt"/>
+              </a:endParaRPr>
+            </a:p>
+          </p:txBody>
+        </p:sp>
+        <p:sp>
+          <p:nvSpPr>
+            <p:cNvPr id="42" name="MainIdea"/>
+            <p:cNvSpPr/>
+            <p:nvPr>
+              <p:custDataLst>
+                <p:tags r:id="rId12"/>
+              </p:custDataLst>
+            </p:nvPr>
+          </p:nvSpPr>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="1583068" y="2095294"/>
+              <a:ext cx="2660716" cy="2044032"/>
+            </a:xfrm>
+            <a:custGeom>
+              <a:gdLst>
+                <a:gd name="rtl" fmla="*/ 519402 w 2660716"/>
+                <a:gd name="rtt" fmla="*/ 776547 h 2044032"/>
+                <a:gd name="rtr" fmla="*/ 2183802 w 2660716"/>
+                <a:gd name="rtb" fmla="*/ 1156547 h 2044032"/>
+              </a:gdLst>
+              <a:rect l="rtl" t="rtt" r="rtr" b="rtb"/>
+              <a:pathLst>
+                <a:path w="2660716" h="2044031">
+                  <a:moveTo>
+                    <a:pt x="1068392" y="89317"/>
+                  </a:moveTo>
+                  <a:cubicBezTo>
+                    <a:pt x="1088336" y="557107"/>
+                    <a:pt x="1316777" y="349182"/>
+                    <a:pt x="1486768" y="85163"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="1497528" y="248706"/>
+                    <a:pt x="1579504" y="688600"/>
+                    <a:pt x="1990473" y="0"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="1665794" y="808834"/>
+                    <a:pt x="2191450" y="480531"/>
+                    <a:pt x="2312061" y="396246"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="2045476" y="650442"/>
+                    <a:pt x="2265517" y="602924"/>
+                    <a:pt x="2363051" y="573290"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="2059982" y="840731"/>
+                    <a:pt x="2513823" y="1127398"/>
+                    <a:pt x="2660716" y="1231744"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="2239381" y="1026292"/>
+                    <a:pt x="2358187" y="1248728"/>
+                    <a:pt x="2433818" y="1339748"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="2123075" y="1141622"/>
+                    <a:pt x="2277727" y="1416953"/>
+                    <a:pt x="2327650" y="1507471"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="2169587" y="1385520"/>
+                    <a:pt x="2025403" y="1305190"/>
+                    <a:pt x="2136163" y="1494958"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="1969603" y="1306780"/>
+                    <a:pt x="2086903" y="1641088"/>
+                    <a:pt x="2304754" y="1911587"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="1833643" y="1442907"/>
+                    <a:pt x="1980267" y="1799232"/>
+                    <a:pt x="2011280" y="1864188"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="1841638" y="1629077"/>
+                    <a:pt x="1882294" y="1748520"/>
+                    <a:pt x="1897476" y="1811928"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="1665023" y="1542997"/>
+                    <a:pt x="1655026" y="1593711"/>
+                    <a:pt x="1697763" y="1675190"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="1563053" y="1609726"/>
+                    <a:pt x="1632368" y="1827258"/>
+                    <a:pt x="1664725" y="1935896"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="1527064" y="1717156"/>
+                    <a:pt x="1466413" y="1747852"/>
+                    <a:pt x="1478991" y="1848651"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="1416429" y="1673118"/>
+                    <a:pt x="1319124" y="1795228"/>
+                    <a:pt x="1305669" y="1813340"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="1282468" y="1567687"/>
+                    <a:pt x="1156504" y="1656434"/>
+                    <a:pt x="1001789" y="2044032"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="1167168" y="1404871"/>
+                    <a:pt x="993884" y="1659104"/>
+                    <a:pt x="972649" y="1681449"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="1003215" y="1403536"/>
+                    <a:pt x="715964" y="1689131"/>
+                    <a:pt x="668763" y="1738557"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="685972" y="1627074"/>
+                    <a:pt x="567339" y="1773876"/>
+                    <a:pt x="542837" y="1799842"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="544013" y="1637752"/>
+                    <a:pt x="416051" y="1817917"/>
+                    <a:pt x="378354" y="1843208"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="514689" y="1634414"/>
+                    <a:pt x="432191" y="1637966"/>
+                    <a:pt x="411456" y="1637966"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="666645" y="1346150"/>
+                    <a:pt x="468036" y="1363500"/>
+                    <a:pt x="320374" y="1407312"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="615993" y="1222703"/>
+                    <a:pt x="377393" y="1264074"/>
+                    <a:pt x="191110" y="1319198"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="429378" y="1220702"/>
+                    <a:pt x="356068" y="1198682"/>
+                    <a:pt x="273617" y="1195284"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="566006" y="929769"/>
+                    <a:pt x="399578" y="762138"/>
+                    <a:pt x="0" y="712460"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="668930" y="754321"/>
+                    <a:pt x="399578" y="412340"/>
+                    <a:pt x="237907" y="255490"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="855899" y="702503"/>
+                    <a:pt x="695625" y="414736"/>
+                    <a:pt x="670418" y="355238"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="886021" y="552412"/>
+                    <a:pt x="690336" y="247056"/>
+                    <a:pt x="619207" y="133052"/>
+                  </a:cubicBezTo>
+                  <a:cubicBezTo>
+                    <a:pt x="877648" y="465481"/>
+                    <a:pt x="1043804" y="439007"/>
+                    <a:pt x="1068392" y="89317"/>
+                  </a:cubicBezTo>
+                  <a:close/>
+                </a:path>
+              </a:pathLst>
+            </a:custGeom>
+            <a:solidFill>
+              <a:schemeClr val="bg1"/>
+            </a:solidFill>
+            <a:ln w="15200" cap="flat">
+              <a:solidFill>
+                <a:srgbClr val="BA7C9B"/>
+              </a:solidFill>
+              <a:round/>
+            </a:ln>
+          </p:spPr>
+          <p:txBody>
+            <a:bodyPr wrap="square" lIns="0" tIns="0" rIns="0" bIns="11000" rtlCol="0" anchor="ctr"/>
+            <a:lstStyle/>
+            <a:p>
+              <a:pPr algn="ctr">
+                <a:lnSpc>
+                  <a:spcPct val="120000"/>
+                </a:lnSpc>
+              </a:pPr>
+              <a:r>
+                <a:rPr sz="2000" b="1" err="1">
+                  <a:latin typeface="Times New Roman"/>
+                  <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                  <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                  <a:sym typeface="+mn-lt"/>
+                </a:rPr>
+                <a:t>&#29289;&#36136;&#30340;&#20998;&#31867;</a:t>
+              </a:r>
+            </a:p>
+          </p:txBody>
+        </p:sp>
+        <p:sp>
+          <p:nvSpPr>
+            <p:cNvPr id="43" name="MainTopic"/>
+            <p:cNvSpPr/>
+            <p:nvPr>
+              <p:custDataLst>
+                <p:tags r:id="rId13"/>
+              </p:custDataLst>
+            </p:nvPr>
+          </p:nvSpPr>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="4448984" y="2292235"/>
+              <a:ext cx="904400" cy="288800"/>
+            </a:xfrm>
+            <a:custGeom>
+              <a:gdLst>
+                <a:gd name="rtl" fmla="*/ 135280 w 904400"/>
+                <a:gd name="rtt" fmla="*/ 60420 h 288800"/>
+                <a:gd name="rtr" fmla="*/ 773680 w 904400"/>
+                <a:gd name="rtb" fmla="*/ 220020 h 288800"/>
+              </a:gdLst>
+              <a:rect l="rtl" t="rtt" r="rtr" b="rtb"/>
+              <a:pathLst>
+                <a:path w="904399" h="288800">
+                  <a:moveTo>
+                    <a:pt x="30400" y="0"/>
+                  </a:moveTo>
+                  <a:lnTo>
+                    <a:pt x="874000" y="0"/>
+                  </a:lnTo>
+                  <a:cubicBezTo>
+                    <a:pt x="894429" y="0"/>
+                    <a:pt x="904400" y="9971"/>
+                    <a:pt x="904400" y="30400"/>
+                  </a:cubicBezTo>
+                  <a:lnTo>
+                    <a:pt x="904400" y="258400"/>
+                  </a:lnTo>
+                  <a:cubicBezTo>
+                    <a:pt x="904400" y="278829"/>
+                    <a:pt x="894429" y="288800"/>
+                    <a:pt x="874000" y="288800"/>
+                  </a:cubicBezTo>
+                  <a:lnTo>
+                    <a:pt x="30400" y="288800"/>
+                  </a:lnTo>
+                  <a:cubicBezTo>
+                    <a:pt x="9971" y="288800"/>
+                    <a:pt x="0" y="278829"/>
+                    <a:pt x="0" y="258400"/>
+                  </a:cubicBezTo>
+                  <a:lnTo>
+                    <a:pt x="0" y="30400"/>
+                  </a:lnTo>
+                  <a:cubicBezTo>
+                    <a:pt x="0" y="9971"/>
+                    <a:pt x="9971" y="0"/>
+                    <a:pt x="30400" y="0"/>
+                  </a:cubicBezTo>
+                  <a:close/>
+                </a:path>
+              </a:pathLst>
+            </a:custGeom>
+            <a:solidFill>
+              <a:schemeClr val="bg1"/>
+            </a:solidFill>
+            <a:ln w="15200" cap="flat">
+              <a:solidFill>
+                <a:srgbClr val="BA7C9B"/>
+              </a:solidFill>
+              <a:round/>
+            </a:ln>
+          </p:spPr>
+          <p:txBody>
+            <a:bodyPr wrap="none" lIns="0" tIns="0" rIns="0" bIns="11000" rtlCol="0" anchor="ctr"/>
+            <a:lstStyle/>
+            <a:p>
+              <a:pPr algn="ctr">
+                <a:lnSpc>
+                  <a:spcPct val="120000"/>
+                </a:lnSpc>
+              </a:pPr>
+              <a:r>
+                <a:rPr sz="2000" b="1">
+                  <a:latin typeface="Times New Roman"/>
+                  <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                  <a:cs typeface="+mn-ea"/>
+                  <a:sym typeface="+mn-lt"/>
+                </a:rPr>
+                <a:t>&#26641;&#29366;&#20998;&#31867;&#27861;</a:t>
+              </a:r>
+            </a:p>
+          </p:txBody>
+        </p:sp>
+        <p:sp>
+          <p:nvSpPr>
+            <p:cNvPr id="44" name="MainTopic"/>
+            <p:cNvSpPr/>
+            <p:nvPr>
+              <p:custDataLst>
+                <p:tags r:id="rId14"/>
+              </p:custDataLst>
+            </p:nvPr>
+          </p:nvSpPr>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="4448984" y="3019935"/>
+              <a:ext cx="904400" cy="288800"/>
+            </a:xfrm>
+            <a:custGeom>
+              <a:gdLst>
+                <a:gd name="rtl" fmla="*/ 135280 w 904400"/>
+                <a:gd name="rtt" fmla="*/ 60420 h 288800"/>
+                <a:gd name="rtr" fmla="*/ 773680 w 904400"/>
+                <a:gd name="rtb" fmla="*/ 220020 h 288800"/>
+              </a:gdLst>
+              <a:rect l="rtl" t="rtt" r="rtr" b="rtb"/>
+              <a:pathLst>
+                <a:path w="904399" h="288800">
+                  <a:moveTo>
+                    <a:pt x="30400" y="0"/>
+                  </a:moveTo>
+                  <a:lnTo>
+                    <a:pt x="874000" y="0"/>
+                  </a:lnTo>
+                  <a:cubicBezTo>
+                    <a:pt x="894429" y="0"/>
+                    <a:pt x="904400" y="9971"/>
+                    <a:pt x="904400" y="30400"/>
+                  </a:cubicBezTo>
+                  <a:lnTo>
+                    <a:pt x="904400" y="258400"/>
+                  </a:lnTo>
+                  <a:cubicBezTo>
+                    <a:pt x="904400" y="278829"/>
+                    <a:pt x="894429" y="288800"/>
+                    <a:pt x="874000" y="288800"/>
+                  </a:cubicBezTo>
+                  <a:lnTo>
+                    <a:pt x="30400" y="288800"/>
+                  </a:lnTo>
+                  <a:cubicBezTo>
+                    <a:pt x="9971" y="288800"/>
+                    <a:pt x="0" y="278829"/>
+                    <a:pt x="0" y="258400"/>
+                  </a:cubicBezTo>
+                  <a:lnTo>
+                    <a:pt x="0" y="30400"/>
+                  </a:lnTo>
+                  <a:cubicBezTo>
+                    <a:pt x="0" y="9971"/>
+                    <a:pt x="9971" y="0"/>
+                    <a:pt x="30400" y="0"/>
+                  </a:cubicBezTo>
+                  <a:close/>
+                </a:path>
+              </a:pathLst>
+            </a:custGeom>
+            <a:solidFill>
+              <a:schemeClr val="bg1"/>
+            </a:solidFill>
+            <a:ln w="15200" cap="flat">
+              <a:solidFill>
+                <a:srgbClr val="BA7C9B"/>
+              </a:solidFill>
+              <a:round/>
+            </a:ln>
+          </p:spPr>
+          <p:txBody>
+            <a:bodyPr wrap="none" lIns="0" tIns="0" rIns="0" bIns="11000" rtlCol="0" anchor="ctr"/>
+            <a:lstStyle/>
+            <a:p>
+              <a:pPr algn="ctr">
+                <a:lnSpc>
+                  <a:spcPct val="120000"/>
+                </a:lnSpc>
+              </a:pPr>
+              <a:r>
+                <a:rPr sz="2000" b="1">
+                  <a:latin typeface="Times New Roman"/>
+                  <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                  <a:cs typeface="+mn-ea"/>
+                  <a:sym typeface="+mn-lt"/>
+                </a:rPr>
+                <a:t>&#20132;&#21449;&#20998;&#31867;&#27861;</a:t>
+              </a:r>
+            </a:p>
+          </p:txBody>
+        </p:sp>
+        <p:sp>
+          <p:nvSpPr>
+            <p:cNvPr id="47" name="MainTopic"/>
+            <p:cNvSpPr/>
+            <p:nvPr>
+              <p:custDataLst>
+                <p:tags r:id="rId15"/>
+              </p:custDataLst>
+            </p:nvPr>
+          </p:nvSpPr>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="4448984" y="3559535"/>
+              <a:ext cx="904400" cy="288800"/>
+            </a:xfrm>
+            <a:custGeom>
+              <a:gdLst>
+                <a:gd name="rtl" fmla="*/ 135280 w 904400"/>
+                <a:gd name="rtt" fmla="*/ 60420 h 288800"/>
+                <a:gd name="rtr" fmla="*/ 773680 w 904400"/>
+                <a:gd name="rtb" fmla="*/ 220020 h 288800"/>
+              </a:gdLst>
+              <a:rect l="rtl" t="rtt" r="rtr" b="rtb"/>
+              <a:pathLst>
+                <a:path w="904399" h="288800">
+                  <a:moveTo>
+                    <a:pt x="30400" y="0"/>
+                  </a:moveTo>
+                  <a:lnTo>
+                    <a:pt x="874000" y="0"/>
+                  </a:lnTo>
+                  <a:cubicBezTo>
+                    <a:pt x="894429" y="0"/>
+                    <a:pt x="904400" y="9971"/>
+                    <a:pt x="904400" y="30400"/>
+                  </a:cubicBezTo>
+                  <a:lnTo>
+                    <a:pt x="904400" y="258400"/>
+                  </a:lnTo>
+                  <a:cubicBezTo>
+                    <a:pt x="904400" y="278829"/>
+                    <a:pt x="894429" y="288800"/>
+                    <a:pt x="874000" y="288800"/>
+                  </a:cubicBezTo>
+                  <a:lnTo>
+                    <a:pt x="30400" y="288800"/>
+                  </a:lnTo>
+                  <a:cubicBezTo>
+                    <a:pt x="9971" y="288800"/>
+                    <a:pt x="0" y="278829"/>
+                    <a:pt x="0" y="258400"/>
+                  </a:cubicBezTo>
+                  <a:lnTo>
+                    <a:pt x="0" y="30400"/>
+                  </a:lnTo>
+                  <a:cubicBezTo>
+                    <a:pt x="0" y="9971"/>
+                    <a:pt x="9971" y="0"/>
+                    <a:pt x="30400" y="0"/>
+                  </a:cubicBezTo>
+                  <a:close/>
+                </a:path>
+              </a:pathLst>
+            </a:custGeom>
+            <a:solidFill>
+              <a:schemeClr val="bg1"/>
+            </a:solidFill>
+            <a:ln w="15200" cap="flat">
+              <a:solidFill>
+                <a:srgbClr val="BA7C9B"/>
+              </a:solidFill>
+              <a:round/>
+            </a:ln>
+          </p:spPr>
+          <p:txBody>
+            <a:bodyPr wrap="none" lIns="0" tIns="0" rIns="0" bIns="11000" rtlCol="0" anchor="ctr"/>
+            <a:lstStyle/>
+            <a:p>
+              <a:pPr algn="ctr">
+                <a:lnSpc>
+                  <a:spcPct val="120000"/>
+                </a:lnSpc>
+              </a:pPr>
+              <a:r>
+                <a:rPr sz="2000" b="1">
+                  <a:latin typeface="Times New Roman"/>
+                  <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                  <a:cs typeface="+mn-ea"/>
+                  <a:sym typeface="+mn-lt"/>
+                </a:rPr>
+                <a:t>&#20998;&#31867;&#30340;&#24847;&#20041;</a:t>
+              </a:r>
+            </a:p>
+          </p:txBody>
+        </p:sp>
+      </p:grpSp>
+      <p:grpSp>
+        <p:nvGrpSpPr>
+          <p:cNvPr id="21" name="&#32452;&#21512; 20" title="">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{ACFAFA4F-2B86-50C8-2E06-21137EFC1FD0}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvGrpSpPr/>
+          <p:nvPr>
+            <p:custDataLst>
+              <p:tags r:id="rId16"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvGrpSpPr>
+        <p:grpSpPr>
+          <a:xfrm rot="10800000">
+            <a:off x="2781262" y="117726"/>
+            <a:ext cx="9247605" cy="447040"/>
+            <a:chOff x="-16047754" y="171449"/>
+            <a:chExt cx="18958094" cy="917123"/>
+          </a:xfrm>
+        </p:grpSpPr>
+        <p:sp>
+          <p:nvSpPr>
+            <p:cNvPr id="22" name="&#30452;&#35282;&#19977;&#35282;&#24418; 21">
+              <a:extLst>
+                <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                  <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{B6AEC30A-22EA-AA16-CAEC-B913115506D6}"/>
+                </a:ext>
+              </a:extLst>
+            </p:cNvPr>
+            <p:cNvSpPr/>
+            <p:nvPr>
+              <p:custDataLst>
+                <p:tags r:id="rId17"/>
+              </p:custDataLst>
+            </p:nvPr>
+          </p:nvSpPr>
+          <p:spPr>
+            <a:xfrm flipV="1">
+              <a:off x="1993217" y="171449"/>
+              <a:ext cx="917123" cy="917123"/>
+            </a:xfrm>
+            <a:prstGeom prst="rtTriangle">
+              <a:avLst/>
+            </a:prstGeom>
+            <a:solidFill>
+              <a:srgbClr val="CC0001"/>
+            </a:solidFill>
+            <a:ln>
+              <a:noFill/>
+            </a:ln>
+          </p:spPr>
+          <p:style>
+            <a:lnRef idx="2">
+              <a:schemeClr val="accent1">
+                <a:shade val="50000"/>
+              </a:schemeClr>
+            </a:lnRef>
+            <a:fillRef idx="1">
+              <a:schemeClr val="accent1"/>
+            </a:fillRef>
+            <a:effectRef idx="0">
+              <a:schemeClr val="accent1"/>
+            </a:effectRef>
+            <a:fontRef idx="minor">
+              <a:schemeClr val="lt1"/>
+            </a:fontRef>
+          </p:style>
+          <p:txBody>
+            <a:bodyPr rtlCol="0" anchor="ctr"/>
+            <a:lstStyle/>
+            <a:p>
+              <a:pPr marL="0" marR="0" lvl="0" indent="0" algn="ctr" defTabSz="914400" rtl="0" eaLnBrk="1" fontAlgn="auto" latinLnBrk="0" hangingPunct="1">
+                <a:lnSpc>
+                  <a:spcPct val="100000"/>
+                </a:lnSpc>
+                <a:spcBef>
+                  <a:spcPct val="0"/>
+                </a:spcBef>
+                <a:spcAft>
+                  <a:spcPct val="0"/>
+                </a:spcAft>
+                <a:buClrTx/>
+                <a:buSzTx/>
+                <a:buFontTx/>
+                <a:buNone/>
+                <a:defRPr/>
+              </a:pPr>
+              <a:endParaRPr kumimoji="0" lang="zh-CN" altLang="en-US" sz="1800" b="0" i="0" u="none" strike="noStrike" kern="1200" cap="none" spc="0" normalizeH="0" baseline="0" noProof="0">
+                <a:ln>
+                  <a:noFill/>
+                </a:ln>
+                <a:solidFill>
+                  <a:prstClr val="white"/>
+                </a:solidFill>
+                <a:effectLst/>
+                <a:uLnTx/>
+                <a:uFillTx/>
+                <a:latin typeface="Arial"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Arial"/>
+              </a:endParaRPr>
+            </a:p>
+          </p:txBody>
+        </p:sp>
+        <p:sp>
+          <p:nvSpPr>
+            <p:cNvPr id="23" name="&#30697;&#24418; 22">
+              <a:extLst>
+                <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                  <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{A211DF79-903B-B5CF-4374-8678489D695F}"/>
+                </a:ext>
+              </a:extLst>
+            </p:cNvPr>
+            <p:cNvSpPr/>
+            <p:nvPr>
+              <p:custDataLst>
+                <p:tags r:id="rId18"/>
+              </p:custDataLst>
+            </p:nvPr>
+          </p:nvSpPr>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="-16047754" y="171449"/>
+              <a:ext cx="18040975" cy="917123"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+            <a:solidFill>
+              <a:srgbClr val="CC0001"/>
+            </a:solidFill>
+            <a:ln>
+              <a:noFill/>
+            </a:ln>
+          </p:spPr>
+          <p:style>
+            <a:lnRef idx="2">
+              <a:schemeClr val="accent1">
+                <a:shade val="50000"/>
+              </a:schemeClr>
+            </a:lnRef>
+            <a:fillRef idx="1">
+              <a:schemeClr val="accent1"/>
+            </a:fillRef>
+            <a:effectRef idx="0">
+              <a:schemeClr val="accent1"/>
+            </a:effectRef>
+            <a:fontRef idx="minor">
+              <a:schemeClr val="lt1"/>
+            </a:fontRef>
+          </p:style>
+          <p:txBody>
+            <a:bodyPr rtlCol="0" anchor="ctr"/>
+            <a:lstStyle/>
+            <a:p>
+              <a:pPr marL="0" marR="0" lvl="0" indent="0" algn="ctr" defTabSz="914400" rtl="0" eaLnBrk="1" fontAlgn="auto" latinLnBrk="0" hangingPunct="1">
+                <a:lnSpc>
+                  <a:spcPct val="100000"/>
+                </a:lnSpc>
+                <a:spcBef>
+                  <a:spcPct val="0"/>
+                </a:spcBef>
+                <a:spcAft>
+                  <a:spcPct val="0"/>
+                </a:spcAft>
+                <a:buClrTx/>
+                <a:buSzTx/>
+                <a:buFontTx/>
+                <a:buNone/>
+                <a:defRPr/>
+              </a:pPr>
+              <a:endParaRPr kumimoji="0" lang="zh-CN" altLang="en-US" sz="1800" b="0" i="0" u="none" strike="noStrike" kern="1200" cap="none" spc="0" normalizeH="0" baseline="0" noProof="0">
+                <a:ln>
+                  <a:noFill/>
+                </a:ln>
+                <a:solidFill>
+                  <a:prstClr val="white"/>
+                </a:solidFill>
+                <a:effectLst/>
+                <a:uLnTx/>
+                <a:uFillTx/>
+                <a:latin typeface="Arial"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Arial"/>
+              </a:endParaRPr>
+            </a:p>
+          </p:txBody>
+        </p:sp>
+      </p:grpSp>
+      <p:grpSp>
+        <p:nvGrpSpPr>
+          <p:cNvPr id="24" name="&#32452;&#21512; 23" title="">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{A186FB2C-3D3D-4F4D-1FE3-7C728DDA7898}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvGrpSpPr/>
+          <p:nvPr>
+            <p:custDataLst>
+              <p:tags r:id="rId19"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvGrpSpPr>
+        <p:grpSpPr>
+          <a:xfrm>
+            <a:off x="-1" y="3384"/>
+            <a:ext cx="767044" cy="447234"/>
+            <a:chOff x="1337398" y="171449"/>
+            <a:chExt cx="1572942" cy="917123"/>
+          </a:xfrm>
+        </p:grpSpPr>
+        <p:sp>
+          <p:nvSpPr>
+            <p:cNvPr id="25" name="&#30452;&#35282;&#19977;&#35282;&#24418; 24">
+              <a:extLst>
+                <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                  <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{515B4004-DFD8-0E70-8B0A-465A6401A84C}"/>
+                </a:ext>
+              </a:extLst>
+            </p:cNvPr>
+            <p:cNvSpPr/>
+            <p:nvPr>
+              <p:custDataLst>
+                <p:tags r:id="rId20"/>
+              </p:custDataLst>
+            </p:nvPr>
+          </p:nvSpPr>
+          <p:spPr>
+            <a:xfrm flipV="1">
+              <a:off x="1993217" y="171449"/>
+              <a:ext cx="917123" cy="917123"/>
+            </a:xfrm>
+            <a:prstGeom prst="rtTriangle">
+              <a:avLst/>
+            </a:prstGeom>
+            <a:solidFill>
+              <a:srgbClr val="CC0001"/>
+            </a:solidFill>
+            <a:ln>
+              <a:noFill/>
+            </a:ln>
+          </p:spPr>
+          <p:style>
+            <a:lnRef idx="2">
+              <a:schemeClr val="accent1">
+                <a:shade val="50000"/>
+              </a:schemeClr>
+            </a:lnRef>
+            <a:fillRef idx="1">
+              <a:schemeClr val="accent1"/>
+            </a:fillRef>
+            <a:effectRef idx="0">
+              <a:schemeClr val="accent1"/>
+            </a:effectRef>
+            <a:fontRef idx="minor">
+              <a:schemeClr val="lt1"/>
+            </a:fontRef>
+          </p:style>
+          <p:txBody>
+            <a:bodyPr rtlCol="0" anchor="ctr"/>
+            <a:lstStyle/>
+            <a:p>
+              <a:pPr marL="0" marR="0" lvl="0" indent="0" algn="ctr" defTabSz="914400" rtl="0" eaLnBrk="1" fontAlgn="auto" latinLnBrk="0" hangingPunct="1">
+                <a:lnSpc>
+                  <a:spcPct val="100000"/>
+                </a:lnSpc>
+                <a:spcBef>
+                  <a:spcPct val="0"/>
+                </a:spcBef>
+                <a:spcAft>
+                  <a:spcPct val="0"/>
+                </a:spcAft>
+                <a:buClrTx/>
+                <a:buSzTx/>
+                <a:buFontTx/>
+                <a:buNone/>
+                <a:defRPr/>
+              </a:pPr>
+              <a:endParaRPr kumimoji="0" lang="zh-CN" altLang="en-US" sz="1800" b="0" i="0" u="none" strike="noStrike" kern="1200" cap="none" spc="0" normalizeH="0" baseline="0" noProof="0">
+                <a:ln>
+                  <a:noFill/>
+                </a:ln>
+                <a:solidFill>
+                  <a:prstClr val="white"/>
+                </a:solidFill>
+                <a:effectLst/>
+                <a:uLnTx/>
+                <a:uFillTx/>
+                <a:latin typeface="Arial"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Arial"/>
+              </a:endParaRPr>
+            </a:p>
+          </p:txBody>
+        </p:sp>
+        <p:sp>
+          <p:nvSpPr>
+            <p:cNvPr id="26" name="&#30697;&#24418; 25">
+              <a:extLst>
+                <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                  <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{E8AB2741-4B05-DBBB-9E63-EC090E2AB3C1}"/>
+                </a:ext>
+              </a:extLst>
+            </p:cNvPr>
+            <p:cNvSpPr/>
+            <p:nvPr>
+              <p:custDataLst>
+                <p:tags r:id="rId21"/>
+              </p:custDataLst>
+            </p:nvPr>
+          </p:nvSpPr>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="1337398" y="171449"/>
+              <a:ext cx="655817" cy="917123"/>
+            </a:xfrm>
+            <a:prstGeom prst="rect">
+              <a:avLst/>
+            </a:prstGeom>
+            <a:solidFill>
+              <a:srgbClr val="CC0001"/>
+            </a:solidFill>
+            <a:ln>
+              <a:noFill/>
+            </a:ln>
+          </p:spPr>
+          <p:style>
+            <a:lnRef idx="2">
+              <a:schemeClr val="accent1">
+                <a:shade val="50000"/>
+              </a:schemeClr>
+            </a:lnRef>
+            <a:fillRef idx="1">
+              <a:schemeClr val="accent1"/>
+            </a:fillRef>
+            <a:effectRef idx="0">
+              <a:schemeClr val="accent1"/>
+            </a:effectRef>
+            <a:fontRef idx="minor">
+              <a:schemeClr val="lt1"/>
+            </a:fontRef>
+          </p:style>
+          <p:txBody>
+            <a:bodyPr rtlCol="0" anchor="ctr"/>
+            <a:lstStyle/>
+            <a:p>
+              <a:pPr marL="0" marR="0" lvl="0" indent="0" algn="ctr" defTabSz="914400" rtl="0" eaLnBrk="1" fontAlgn="auto" latinLnBrk="0" hangingPunct="1">
+                <a:lnSpc>
+                  <a:spcPct val="100000"/>
+                </a:lnSpc>
+                <a:spcBef>
+                  <a:spcPct val="0"/>
+                </a:spcBef>
+                <a:spcAft>
+                  <a:spcPct val="0"/>
+                </a:spcAft>
+                <a:buClrTx/>
+                <a:buSzTx/>
+                <a:buFontTx/>
+                <a:buNone/>
+                <a:defRPr/>
+              </a:pPr>
+              <a:endParaRPr kumimoji="0" lang="zh-CN" altLang="en-US" sz="1800" b="0" i="0" u="none" strike="noStrike" kern="1200" cap="none" spc="0" normalizeH="0" baseline="0" noProof="0">
+                <a:ln>
+                  <a:noFill/>
+                </a:ln>
+                <a:solidFill>
+                  <a:prstClr val="white"/>
+                </a:solidFill>
+                <a:effectLst/>
+                <a:uLnTx/>
+                <a:uFillTx/>
+                <a:latin typeface="Arial"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Arial"/>
+              </a:endParaRPr>
+            </a:p>
+          </p:txBody>
+        </p:sp>
+      </p:grpSp>
+    <p:sp><p:nvSpPr><p:cNvPr id="48" name="ChemOrbit"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr><p:spPr><a:xfrm><a:off x="11207534" y="6149863"/><a:ext cx="837361" cy="284703"/></a:xfrm><a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom><a:noFill/><a:ln w="12000"><a:solidFill><a:srgbClr val="56CA95"><a:alpha val="60000"/></a:srgbClr></a:solidFill></a:ln></p:spPr><p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr lang="zh-CN"/></a:p></p:txBody></p:sp><p:sp><p:nvSpPr><p:cNvPr id="49" name="ChemOrbit"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr><p:spPr><a:xfrm rot="3600000"><a:off x="11207534" y="6149863"/><a:ext cx="837361" cy="284703"/></a:xfrm><a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom><a:noFill/><a:ln w="12000"><a:solidFill><a:srgbClr val="56CA95"><a:alpha val="60000"/></a:srgbClr></a:solidFill></a:ln></p:spPr><p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr lang="zh-CN"/></a:p></p:txBody></p:sp><p:sp><p:nvSpPr><p:cNvPr id="50" name="ChemOrbit"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr><p:spPr><a:xfrm rot="7200000"><a:off x="11207534" y="6149863"/><a:ext cx="837361" cy="284703"/></a:xfrm><a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom><a:noFill/><a:ln w="12000"><a:solidFill><a:srgbClr val="56CA95"><a:alpha val="60000"/></a:srgbClr></a:solidFill></a:ln></p:spPr><p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr lang="zh-CN"/></a:p></p:txBody></p:sp><p:sp><p:nvSpPr><p:cNvPr id="51" name="ChemNucleus"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr><p:spPr><a:xfrm><a:off x="11567599" y="6233599"/><a:ext cx="117230" cy="117230"/></a:xfrm><a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom><a:solidFill><a:srgbClr val="56CA95"><a:alpha val="72000"/></a:srgbClr></a:solidFill><a:ln><a:noFill/></a:ln></p:spPr><p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr lang="zh-CN"/></a:p></p:txBody></p:sp><p:sp><p:nvSpPr><p:cNvPr id="52" name="ChemHex"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr><p:spPr><a:xfrm><a:off x="11286744" y="226314"/><a:ext cx="678942" cy="678942"/></a:xfrm><a:prstGeom prst="hexagon"><a:avLst/></a:prstGeom><a:noFill/><a:ln w="12000"><a:solidFill><a:srgbClr val="56CA95"><a:alpha val="60000"/></a:srgbClr></a:solidFill></a:ln></p:spPr><p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr lang="zh-CN"/></a:p></p:txBody></p:sp><p:sp><p:nvSpPr><p:cNvPr id="53" name="ChemHexIn"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr><p:spPr><a:xfrm><a:off x="11456479" y="396049"/><a:ext cx="339471" cy="339471"/></a:xfrm><a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom><a:noFill/><a:ln w="11000"><a:solidFill><a:srgbClr val="56CA95"><a:alpha val="51000"/></a:srgbClr></a:solidFill></a:ln></p:spPr><p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr lang="zh-CN"/></a:p></p:txBody></p:sp><p:sp><p:nvSpPr><p:cNvPr id="54" name="ChemAtom"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr><p:spPr><a:xfrm><a:off x="11600754" y="879795"/><a:ext cx="50920" cy="50920"/></a:xfrm><a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom><a:solidFill><a:srgbClr val="56CA95"><a:alpha val="72000"/></a:srgbClr></a:solidFill><a:ln><a:noFill/></a:ln></p:spPr><p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr lang="zh-CN"/></a:p></p:txBody></p:sp><p:sp><p:nvSpPr><p:cNvPr id="55" name="ChemAtom"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr><p:spPr><a:xfrm><a:off x="11306764" y="710060"/><a:ext cx="50920" cy="50920"/></a:xfrm><a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom><a:solidFill><a:srgbClr val="56CA95"><a:alpha val="72000"/></a:srgbClr></a:solidFill><a:ln><a:noFill/></a:ln></p:spPr><p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr lang="zh-CN"/></a:p></p:txBody></p:sp><p:sp><p:nvSpPr><p:cNvPr id="56" name="ChemAtom"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr><p:spPr><a:xfrm><a:off x="11306764" y="370589"/><a:ext cx="50920" cy="50920"/></a:xfrm><a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom><a:solidFill><a:srgbClr val="56CA95"><a:alpha val="72000"/></a:srgbClr></a:solidFill><a:ln><a:noFill/></a:ln></p:spPr><p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr lang="zh-CN"/></a:p></p:txBody></p:sp><p:sp><p:nvSpPr><p:cNvPr id="57" name="ChemAtom"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr><p:spPr><a:xfrm><a:off x="11600754" y="200853"/><a:ext cx="50920" cy="50920"/></a:xfrm><a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom><a:solidFill><a:srgbClr val="56CA95"><a:alpha val="72000"/></a:srgbClr></a:solidFill><a:ln><a:noFill/></a:ln></p:spPr><p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr lang="zh-CN"/></a:p></p:txBody></p:sp><p:sp><p:nvSpPr><p:cNvPr id="58" name="ChemAtom"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr><p:spPr><a:xfrm><a:off x="11894745" y="370589"/><a:ext cx="50920" cy="50920"/></a:xfrm><a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom><a:solidFill><a:srgbClr val="56CA95"><a:alpha val="72000"/></a:srgbClr></a:solidFill><a:ln><a:noFill/></a:ln></p:spPr><p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr lang="zh-CN"/></a:p></p:txBody></p:sp><p:sp><p:nvSpPr><p:cNvPr id="59" name="ChemAtom"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr><p:spPr><a:xfrm><a:off x="11894745" y="710060"/><a:ext cx="50920" cy="50920"/></a:xfrm><a:prstGeom prst="ellipse"><a:avLst/></a:prstGeom><a:solidFill><a:srgbClr val="56CA95"><a:alpha val="72000"/></a:srgbClr></a:solidFill><a:ln><a:noFill/></a:ln></p:spPr><p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr lang="zh-CN"/></a:p></p:txBody></p:sp></p:spTree>
+    <p:extLst>
+      <p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+        <p14:creationId xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" val="2314403705"/>
+      </p:ext>
+    </p:extLst>
+  </p:cSld>
+  <p:clrMapOvr>
+    <a:masterClrMapping/>
+  </p:clrMapOvr>
+  <p:transition/>
+  <p:timing/>
+</p:sld>
