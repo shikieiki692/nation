@@ -1,6 +1,7 @@
 ---
 title: 题-586-Clayden-Ch32-P3-环中立体化学控制探索
 type: 题目
+fidelity: 原书逐字
 submodule: 立体选择性
 exam_stage: 初赛
 subject: 有机化学

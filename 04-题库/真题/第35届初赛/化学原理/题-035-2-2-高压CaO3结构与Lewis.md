@@ -1,6 +1,7 @@
 ---
 title: "题-035-2-2-高压CaO3结构与Lewis"
 type: 题目
+fidelity: 原书逐字
 submodule: 分子结构与化学键
 exam_stage: 初赛
 subject: 化学原理

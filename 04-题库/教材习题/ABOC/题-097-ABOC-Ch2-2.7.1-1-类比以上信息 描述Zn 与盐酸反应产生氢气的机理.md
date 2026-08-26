@@ -1,6 +1,7 @@
 ---
 title: "题-097-ABOC-Ch2-2.7.1-1-类比以上信息 描述Zn 与盐酸反应产生氢气的机理"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.2
 exam_stage: 初赛
 subject: 有机化学

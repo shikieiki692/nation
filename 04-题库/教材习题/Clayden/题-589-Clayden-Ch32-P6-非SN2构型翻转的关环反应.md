@@ -1,6 +1,7 @@
 ---
 title: 题-589-Clayden-Ch32-P6-非SN2构型翻转的关环反应
 type: 题目
+fidelity: 原书逐字
 submodule: 立体选择性
 exam_stage: 初赛
 subject: 有机化学

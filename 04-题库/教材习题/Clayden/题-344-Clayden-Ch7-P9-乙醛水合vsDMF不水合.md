@@ -1,6 +1,7 @@
 ---
 title: "题-344-Clayden-Ch7-P9-乙醛水合vsDMF不水合"
 type: 题目
+fidelity: 原书逐字
 submodule: 共轭效应
 exam_stage: 初赛
 subject: 有机化学

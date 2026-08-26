@@ -1,6 +1,7 @@
-﻿---
+---
 title: "题-034-9-2-1-Cannizzaro反应氘代产物"
 type: 题目
+fidelity: 原书逐字
 submodule: 反应机理与同位素示踪
 exam_stage: 初赛
 subject: 有机化学
@@ -14,6 +15,7 @@ aliases: [34届初赛-9.2.1, Cannizzaro氘代]
 source: 第34届中国化学奥林匹克（初赛）第9题第(2-1)小问
 module: 有机化学
 status: 已填充
+big_question: "第9题"
 ---
 # 题-034-9-2-1：Cannizzaro反应氘代产物
 
@@ -26,7 +28,7 @@ status: 已填充
 
 9-2-1 当反应在重水中进行，产物苯甲醇是否含有氘？
 
-![[cannizzaro-mechanism-benzaldehyde.png]]
+![[936c535497ee3e60ddcfbfd3369a47318002bb5538e1bbf30676a0862024db8b.jpg]]
 
 ## 参考答案
 
@@ -59,3 +61,20 @@ status: 已填充
 | 认为不含氘 | 只考虑负氢转移步骤，忽略后续的质子交换 | 苯甲醇负离子会从溶剂中获取质子/氘离子 | Cannizzaro 反应的最后一步是什么？ |
 | 认为只有羟基氢被氘代 | 没有理解苯甲醇负离子的形成过程 | 苯甲醇的亚甲基氢（$CH_2$）中的氢来自负氢转移，不是来自溶剂 | 苯甲醇中哪个氢来自负氢转移，哪个来自溶剂？ |
 | 混淆负氢转移与质子转移 | 对反应机理各步骤不清楚 | 负氢转移是 $H^{-}$ 迁移，质子转移是 $H^{+}$ 交换 | 负氢转移和质子转移有什么区别？ |
+
+## 🔗 同大题小问
+
+```dataviewjs
+const name = dv.current().file.name;
+const m = name.match(/^(题-\d+b?-\d+-)\d+-/);
+if (m) {
+  const prefix = m[1];
+  const pages = dv.pages('"04-题库/真题"')
+    .where(p => p.file.name.startsWith(prefix) && p.file.name !== name)
+    .sort(p => parseInt(p.file.name.match(/-(\d+)-/)[1]));
+  if (pages.length) {
+    dv.header(4, "🔗 同大题小问（按序）");
+    dv.list(pages.map(p => p.file.link));
+  }
+}
+```

@@ -1,6 +1,7 @@
 ---
 title: 题-278-Clayden-Ch8-P7-D2O中胍和Meldrum酸衍生物NMR
 type: 题目
+fidelity: 原书逐字
 submodule: 酸碱质子理论
 exam_stage: 初赛
 subject: 有机化学

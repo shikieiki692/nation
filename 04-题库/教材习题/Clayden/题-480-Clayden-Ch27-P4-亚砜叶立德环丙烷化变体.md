@@ -1,6 +1,7 @@
-﻿---
+---
 title: 题-480-Clayden-Ch27-P4-亚砜叶立德环丙烷化变体
 type: 题目
+fidelity: 原书逐字
 submodule: 硫硅磷化学
 exam_stage: 初赛
 subject: 有机化学

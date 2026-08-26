@@ -1,6 +1,7 @@
 ---
 title: "题-有机-波谱-UV-吸收与共轭体系判断"
 type: 题目
+fidelity: 原书逐字
 submodule: 波谱分析
 exam_stage: 初赛
 subject: 有机化学

@@ -30,3 +30,12 @@ all_results.json
 /无机化学下册/**/*.jpg
 /中级无机化学/**/*.jpg
 /各省预赛题目/**/*.jpg
+
+# 构建依赖与虚拟环境（2026-08-25 审计补充）
+node_modules/
+.venv/
+
+# 与知识库无关的个人目录
+eiki/
+copilot/
+.agents/

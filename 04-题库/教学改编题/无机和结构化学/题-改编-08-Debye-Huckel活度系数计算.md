@@ -1,6 +1,7 @@
 ---
 title: "题-改编-08-Debye-Huckel活度系数计算"
 type: 题目
+fidelity: 自编
 submodule: 电解质溶液
 exam_stage: 初赛
 subject: 无机和结构化学

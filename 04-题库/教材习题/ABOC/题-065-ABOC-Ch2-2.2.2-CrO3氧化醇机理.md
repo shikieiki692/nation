@@ -1,6 +1,7 @@
 ---
 title: 题-065-ABOC-Ch2-2.2.2-CrO3氧化醇机理
 type: 题目
+fidelity: 原书逐字
 submodule: 基础概念
 exam_stage: 初赛
 subject: 有机化学

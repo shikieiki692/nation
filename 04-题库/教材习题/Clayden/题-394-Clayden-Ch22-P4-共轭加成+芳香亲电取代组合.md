@@ -1,6 +1,7 @@
 ---
 title: 题-394-Clayden-Ch22-P4-共轭加成+芳香亲电取代组合
 type: 题目
+fidelity: 原书逐字
 submodule: 共轭加成
 exam_stage: 初赛
 subject: 有机化学

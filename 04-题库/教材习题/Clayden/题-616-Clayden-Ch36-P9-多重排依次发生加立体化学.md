@@ -1,6 +1,7 @@
 ---
 title: 题-616-Clayden-Ch36-P9-多重排依次发生加立体化学
 type: 题目
+fidelity: 原书逐字
 submodule: 重排反应
 exam_stage: 初赛
 subject: 有机化学

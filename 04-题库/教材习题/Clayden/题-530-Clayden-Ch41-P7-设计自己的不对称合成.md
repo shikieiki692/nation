@@ -1,6 +1,7 @@
 ---
 title: 题-530-Clayden-Ch41-P7-设计自己的不对称合成
 type: 题目
+fidelity: 原书逐字
 submodule: 不对称合成
 exam_stage: 决赛
 subject: 有机化学

@@ -1,6 +1,7 @@
 ---
 title: 题-437-Clayden-Ch24-P6-Friedel-Crafts和Wolff-Kishner序列中A和B
 type: 题目
+fidelity: 原书逐字
 submodule: 区域选择性
 exam_stage: 初赛
 subject: 有机化学

@@ -1,6 +1,7 @@
-﻿---
+---
 title: 题-504-Clayden-Ch35-P4-σ迁移+分子内DA两个周环反应
 type: 题目
+fidelity: 原书逐字
 submodule: 周环反应
 exam_stage: 决赛
 subject: 有机化学

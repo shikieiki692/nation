@@ -1,6 +1,7 @@
 ---
 title: 题-653-Clayden-Ch39-P13-物理数据+结构变化综合机理图景
 type: 题目
+fidelity: 原书逐字
 submodule: 有机反应机理
 exam_stage: 决赛
 subject: 有机化学

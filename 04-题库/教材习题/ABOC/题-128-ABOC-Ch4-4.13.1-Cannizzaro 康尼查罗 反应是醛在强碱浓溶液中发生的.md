@@ -1,6 +1,7 @@
-﻿---
+---
 title: "题-128-ABOC-Ch4-4.13.1-Cannizzaro 康尼查罗 反应是醛在强碱浓溶液中发生的"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.4
 exam_stage: 初赛
 subject: 有机化学

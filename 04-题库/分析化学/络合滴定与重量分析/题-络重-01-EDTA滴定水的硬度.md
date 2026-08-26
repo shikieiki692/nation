@@ -1,6 +1,7 @@
 ---
 title: "题-络重-01-EDTA滴定水的硬度"
 type: 题目
+fidelity: 原书逐字
 difficulty: 3
 teaching_level: 巩固
 source: "分析化学经典计算题"

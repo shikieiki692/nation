@@ -1,6 +1,7 @@
 ---
 title: "题-025-1-2-Ti红氧化与CuCl沉淀"
 type: 题目
+fidelity: 原书逐字
 submodule: "氧化还原与沉淀平衡"
 exam_stage: 初赛
 subject: 化学原理

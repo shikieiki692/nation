@@ -1,6 +1,7 @@
-﻿---
+---
 title: 题-300-Clayden-Ch15-P2-烷基溴对叠氮钠反应活性排序
 type: 题目
+fidelity: 原书逐字
 submodule: 亲核取代反应
 exam_stage: 初赛
 subject: 有机化学

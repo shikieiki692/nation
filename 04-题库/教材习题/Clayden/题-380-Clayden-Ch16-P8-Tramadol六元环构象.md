@@ -1,6 +1,7 @@
 ---
 title: 题-380-Clayden-Ch16-P8-Tramadol六元环构象
 type: 题目
+fidelity: 原书逐字
 submodule: 构象分析
 exam_stage: 初赛
 subject: 有机化学

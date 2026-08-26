@@ -1,6 +1,7 @@
 ---
 title: 题-322-Clayden-Ch19-P3-溴水对三个烯烃加成产物
 type: 题目
+fidelity: 原书逐字
 submodule: 烯烃的亲电加成
 exam_stage: 初赛
 subject: 有机化学

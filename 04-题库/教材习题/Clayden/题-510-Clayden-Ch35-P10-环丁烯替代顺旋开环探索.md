@@ -1,6 +1,7 @@
 ---
 title: 题-510-Clayden-Ch35-P10-环丁烯替代顺旋开环探索
 type: 题目
+fidelity: 原书逐字
 submodule: 周环反应
 exam_stage: 决赛
 subject: 有机化学

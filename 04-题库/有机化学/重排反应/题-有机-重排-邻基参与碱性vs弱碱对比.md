@@ -1,6 +1,7 @@
 ---
 title: "题-有机-重排-邻基参与碱性vs弱碱对比"
 type: 题目
+fidelity: 原书逐字
 submodule: 重排反应
 exam_stage: 初赛
 subject: 有机化学

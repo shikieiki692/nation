@@ -1,6 +1,7 @@
 ---
 title: "题-026-9-4-Michael加成串联反应"
 type: 题目
+fidelity: 原书逐字
 submodule: "有机合成·串联反应"
 exam_stage: 初赛
 subject: 有机化学

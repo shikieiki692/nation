@@ -1,6 +1,7 @@
 ---
 title: 题-509-Clayden-Ch35-P9-不稳定阴离子异构化+ABX-NMR
 type: 题目
+fidelity: 原书逐字
 submodule: 周环反应
 exam_stage: 决赛
 subject: 有机化学

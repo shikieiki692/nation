@@ -1,6 +1,7 @@
 ---
 title: 题-550-Clayden-Ch29-P1-杂环上亲电亲核取代产物预测
 type: 题目
+fidelity: 原书逐字
 submodule: 杂环化合物
 exam_stage: 初赛
 subject: 有机化学

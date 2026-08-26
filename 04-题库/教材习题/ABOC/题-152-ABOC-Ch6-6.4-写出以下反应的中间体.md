@@ -1,6 +1,7 @@
 ---
 title: "题-152-ABOC-Ch6-6.4-写出以下反应的中间体"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.6
 exam_stage: 初赛
 subject: 有机化学

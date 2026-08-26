@@ -1,6 +1,7 @@
 ---
 title: 题-288-Clayden-Ch9-P6-Rioprostil前体醇合成设计
 type: 题目
+fidelity: 原书逐字
 submodule: 有机金属试剂
 exam_stage: 初赛
 subject: 有机化学

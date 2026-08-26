@@ -1,6 +1,7 @@
 ---
 title: 题-360-Clayden-Ch11-P4-缩醛选择性水解和硫缩醛水解
 type: 题目
+fidelity: 原书逐字
 submodule: 缩醛与亚胺
 exam_stage: 初赛
 subject: 有机化学

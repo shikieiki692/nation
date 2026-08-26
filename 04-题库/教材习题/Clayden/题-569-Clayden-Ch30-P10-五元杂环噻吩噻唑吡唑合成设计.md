@@ -1,6 +1,7 @@
 ---
 title: 题-569-Clayden-Ch30-P10-五元杂环噻吩噻唑吡唑合成设计
 type: 题目
+fidelity: 原书逐字
 submodule: 杂环合成
 exam_stage: 初赛
 subject: 有机化学

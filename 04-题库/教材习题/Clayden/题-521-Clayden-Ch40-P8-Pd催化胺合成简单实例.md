@@ -1,6 +1,7 @@
 ---
 title: 题-521-Clayden-Ch40-P8-Pd催化胺合成简单实例
 type: 题目
+fidelity: 原书逐字
 submodule: 金属有机化学
 exam_stage: 初赛
 subject: 有机化学

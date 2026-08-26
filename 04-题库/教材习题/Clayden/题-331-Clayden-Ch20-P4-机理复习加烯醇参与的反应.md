@@ -1,6 +1,7 @@
 ---
 title: 题-331-Clayden-Ch20-P4-机理复习加烯醇参与的反应
 type: 题目
+fidelity: 原书逐字
 submodule: 烯醇和烯醇盐
 exam_stage: 初赛
 subject: 有机化学

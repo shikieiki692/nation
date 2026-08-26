@@ -1,6 +1,7 @@
 ---
 title: "题-119-ABOC-Ch4-4.2.3-类比硼氢化 氧化反应的机理 写出"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.4
 exam_stage: 初赛
 subject: 有机化学

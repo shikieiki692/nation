@@ -1,6 +1,7 @@
 ---
 title: "题-098-ABOC-Ch2-2.7.1-2-综合学过的知识 描述铜与浓硝酸反应的机理"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.2
 exam_stage: 初赛
 subject: 有机化学

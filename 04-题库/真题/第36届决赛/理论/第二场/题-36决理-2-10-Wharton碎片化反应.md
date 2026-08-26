@@ -1,6 +1,7 @@
 ---
 title: 题-36决理-2-10-Wharton碎片化反应
 type: 题目
+fidelity: 原书逐字
 submodule: 有机合成方法学
 exam_stage: 决赛
 subject: 有机化学

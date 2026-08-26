@@ -1,6 +1,7 @@
 ---
 title: "题-485-Clayden-Ch27-P9-砷稳定阴离子和甲磺酸酯氟化学"
 type: 题目
+fidelity: 原书逐字
 submodule: 硅硅磷化学
 exam_stage: 初赛
 subject: 有机化学

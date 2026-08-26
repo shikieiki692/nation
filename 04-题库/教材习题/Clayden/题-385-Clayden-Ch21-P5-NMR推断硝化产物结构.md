@@ -1,6 +1,7 @@
 ---
 title: 题-385-Clayden-Ch21-P5-NMR推断硝化产物结构
 type: 题目
+fidelity: 原书逐字
 submodule: 芳香亲电取代
 exam_stage: 初赛
 subject: 有机化学

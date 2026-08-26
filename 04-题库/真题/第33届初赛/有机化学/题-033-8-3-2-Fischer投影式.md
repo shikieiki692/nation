@@ -1,6 +1,7 @@
 ---
 title: "题-033-8-3-2-Fischer投影式"
 type: 题目
+fidelity: 原书逐字
 submodule: "立体化学与糖类化学"
 exam_stage: 初赛
 subject: 有机化学
@@ -14,6 +15,7 @@ aliases: [33届初赛-8.3.2, Fischer投影式, L-山梨糖, 维生素C合成]
 source: "第33届中国化学奥林匹克（初赛）第8题第(8-3-2)小问"
 module: 有机化学
 status: 已填充
+big_question: "第8题"
 ---
 # 题-033-8-3-2：L-山梨糖和化合物 C 的 Fischer 投影式
 
@@ -59,3 +61,20 @@ status: 已填充
 | 手性碳构型错误 | 伞形式转换为 Fischer 投影式时出错 | 水平键朝前，竖直键朝后 | 如何将伞形式正确转换为 Fischer 投影式？ |
 | L-山梨糖画成醛糖 | 未识别山梨糖是酮糖 | L-山梨糖是多羟基酮（酮糖） | 山梨糖是醛糖还是酮糖？ |
 | C 的结构画错 | 未理解 C 是氧化产物 | C 是 L-山梨糖氧化得到的羧酸 | 山梨糖氧化后得到什么产物？ |
+
+## 🔗 同大题小问
+
+```dataviewjs
+const name = dv.current().file.name;
+const m = name.match(/^(题-\d+b?-\d+-)\d+-/);
+if (m) {
+  const prefix = m[1];
+  const pages = dv.pages('"04-题库/真题"')
+    .where(p => p.file.name.startsWith(prefix) && p.file.name !== name)
+    .sort(p => parseInt(p.file.name.match(/-(\d+)-/)[1]));
+  if (pages.length) {
+    dv.header(4, "🔗 同大题小问（按序）");
+    dv.list(pages.map(p => p.file.link));
+  }
+}
+```

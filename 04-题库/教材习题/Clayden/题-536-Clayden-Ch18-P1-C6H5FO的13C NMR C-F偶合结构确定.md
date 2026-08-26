@@ -1,6 +1,7 @@
 ---
 title: 题-536-Clayden-Ch18-P1-C6H5FO的13C NMR C-F偶合结构确定
 type: 题目
+fidelity: 原书逐字
 submodule: 波谱综合解析
 exam_stage: 决赛
 subject: 有机化学

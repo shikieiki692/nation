@@ -1,6 +1,7 @@
-﻿---
+---
 title: "题-027-7-有机推断ABCDF"
 type: 题目
+fidelity: 原书逐字
 submodule: "有机推断"
 exam_stage: 初赛
 subject: 有机化学

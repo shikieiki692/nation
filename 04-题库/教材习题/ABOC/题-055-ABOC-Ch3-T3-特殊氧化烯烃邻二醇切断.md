@@ -1,6 +1,7 @@
 ---
 title: 题-055-ABOC-Ch3-T3-特殊氧化烯烃邻二醇切断
 type: 题目
+fidelity: 原书逐字
 submodule: 氧化反应
 exam_stage: 决赛
 subject: 有机化学

@@ -1,6 +1,7 @@
 ---
 title: 题-043-ABOC-FT1-P1-EX2-Cu催化烯醇自由基
 type: 题目
+fidelity: 原书逐字
 submodule: 自由基化学
 exam_stage: 决赛
 subject: 有机化学

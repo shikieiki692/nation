@@ -1,6 +1,7 @@
 ---
 title: 题-302-Clayden-Ch15-P4-醇→卤化物转化试剂选择
 type: 题目
+fidelity: 原书逐字
 submodule: 亲核取代反应
 exam_stage: 初赛
 subject: 有机化学

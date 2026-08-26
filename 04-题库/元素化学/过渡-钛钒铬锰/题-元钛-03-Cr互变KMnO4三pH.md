@@ -2,6 +2,7 @@
 title: "题-元钛-03-Cr互变KMnO4三pH"
 aliases: ["题-元钛-03"]
 type: 题目
+fidelity: 原书逐字
 difficulty: 4
 teaching_level: 挑战
 source: "教学改编（钛钒铬锰讲义 §三 铬锰）"

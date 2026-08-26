@@ -1,6 +1,7 @@
 ---
 title: 题-469-Clayden-Ch37-P5-烷基溴自由基关环到烯烃
 type: 题目
+fidelity: 原书逐字
 submodule: 自由基反应
 exam_stage: 初赛
 subject: 有机化学

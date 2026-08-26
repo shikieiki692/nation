@@ -1,6 +1,7 @@
 ---
 title: 题-439-Clayden-Ch24-P8-多步序列中区域和化学选择性
 type: 题目
+fidelity: 原书逐字
 submodule: 区域选择性
 exam_stage: 初赛
 subject: 有机化学

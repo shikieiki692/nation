@@ -1,6 +1,7 @@
 ---
 title: 题-604-Clayden-Ch33-P9-环状→开链立体化学关联
 type: 题目
+fidelity: 原书逐字
 submodule: 非对映选择性
 exam_stage: 初赛
 subject: 有机化学

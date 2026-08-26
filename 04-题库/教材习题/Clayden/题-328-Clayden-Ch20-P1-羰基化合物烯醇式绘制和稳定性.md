@@ -1,6 +1,7 @@
 ---
 title: 题-328-Clayden-Ch20-P1-羰基化合物烯醇式绘制和稳定性
 type: 题目
+fidelity: 原书逐字
 submodule: 烯醇和烯醇盐
 exam_stage: 初赛
 subject: 有机化学

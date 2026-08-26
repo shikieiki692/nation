@@ -1,6 +1,7 @@
 ---
 title: 题-644-Clayden-Ch39-P4-pH-速率曲线解读
 type: 题目
+fidelity: 原书逐字
 submodule: 有机反应机理
 exam_stage: 初赛
 subject: 有机化学

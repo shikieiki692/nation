@@ -1,6 +1,7 @@
 ---
 title: "题-095-ABOC-Ch2-2.5-工业制备 DMSO 当然不会利用这个方法 而是在"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.2
 exam_stage: 初赛
 subject: 有机化学

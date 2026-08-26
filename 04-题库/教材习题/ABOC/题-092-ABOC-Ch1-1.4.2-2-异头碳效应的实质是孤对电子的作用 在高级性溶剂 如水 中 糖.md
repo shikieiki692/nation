@@ -1,6 +1,7 @@
 ---
 title: "题-092-ABOC-Ch1-1.4.2-2-异头碳效应的实质是孤对电子的作用 在高级性溶剂 如水 中 糖"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.1
 exam_stage: 初赛
 subject: 有机化学

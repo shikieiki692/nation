@@ -1,6 +1,7 @@
-﻿---
+---
 title: 题-316-Clayden-Ch17-P7-三个消除反应中烯烃位置
 type: 题目
+fidelity: 原书逐字
 submodule: 消除反应
 exam_stage: 初赛
 subject: 有机化学

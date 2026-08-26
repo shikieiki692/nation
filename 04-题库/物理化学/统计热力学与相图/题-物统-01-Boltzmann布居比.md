@@ -2,6 +2,7 @@
 title: "题-物统-01-Boltzmann布居比"
 aliases: ["题-物统-01"]
 type: 题目
+fidelity: 原书逐字
 difficulty: 3
 teaching_level: 巩固
 source: "教学改编（统计热力学与Maxwell关系讲义 §二）"

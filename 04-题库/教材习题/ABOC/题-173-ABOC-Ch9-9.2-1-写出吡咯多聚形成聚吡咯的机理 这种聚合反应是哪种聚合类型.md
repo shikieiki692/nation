@@ -1,6 +1,7 @@
 ---
 title: "题-173-ABOC-Ch9-9.2-1-写出吡咯多聚形成聚吡咯的机理 这种聚合反应是哪种聚合类型"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.9
 exam_stage: 初赛
 subject: 有机化学

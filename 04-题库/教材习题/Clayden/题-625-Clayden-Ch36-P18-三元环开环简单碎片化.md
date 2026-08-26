@@ -1,6 +1,7 @@
 ---
 title: 题-625-Clayden-Ch36-P18-三元环开环简单碎片化
 type: 题目
+fidelity: 原书逐字
 submodule: 重排反应
 exam_stage: 复赛
 subject: 有机化学

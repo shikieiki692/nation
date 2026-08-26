@@ -1,6 +1,7 @@
 ---
 title: 题-362-Clayden-Ch11-P6-不同亲核试剂捕获中间体的机理
 type: 题目
+fidelity: 原书逐字
 submodule: 缩醛与亚胺
 exam_stage: 初赛
 subject: 有机化学

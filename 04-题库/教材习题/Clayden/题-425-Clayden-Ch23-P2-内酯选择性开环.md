@@ -1,6 +1,7 @@
 ---
 title: 题-425-Clayden-Ch23-P2-内酯选择性开环
 type: 题目
+fidelity: 原书逐字
 submodule: 化学选择性与保护基
 exam_stage: 初赛
 subject: 有机化学

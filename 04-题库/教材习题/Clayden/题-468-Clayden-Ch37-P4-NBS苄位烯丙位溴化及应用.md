@@ -1,6 +1,7 @@
 ---
 title: 题-468-Clayden-Ch37-P4-NBS苄位烯丙位溴化及应用
 type: 题目
+fidelity: 原书逐字
 submodule: 自由基反应
 exam_stage: 初赛
 subject: 有机化学

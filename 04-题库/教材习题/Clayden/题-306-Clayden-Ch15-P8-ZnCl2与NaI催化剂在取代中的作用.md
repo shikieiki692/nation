@@ -1,6 +1,7 @@
 ---
 title: 题-306-Clayden-Ch15-P8-ZnCl2与NaI催化剂在取代中的作用
 type: 题目
+fidelity: 原书逐字
 submodule: 亲核取代反应
 exam_stage: 初赛
 subject: 有机化学

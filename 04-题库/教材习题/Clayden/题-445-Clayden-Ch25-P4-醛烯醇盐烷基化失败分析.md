@@ -1,6 +1,7 @@
 ---
 title: 题-445-Clayden-Ch25-P4-醛烯醇盐烷基化失败分析
 type: 题目
+fidelity: 原书逐字
 submodule: 烯醇盐化学
 exam_stage: 初赛
 subject: 有机化学

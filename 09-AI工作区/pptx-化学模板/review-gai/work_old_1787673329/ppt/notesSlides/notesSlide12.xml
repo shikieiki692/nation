@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ascii"?>
+<p:notes xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
+  <p:cSld>
+    <p:spTree>
+      <p:nvGrpSpPr>
+        <p:cNvPr id="1" name=""/>
+        <p:cNvGrpSpPr/>
+        <p:nvPr/>
+      </p:nvGrpSpPr>
+      <p:grpSpPr/>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="2" name="Notes Placeholder 1"/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr>
+            <p:ph type="body"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="0" y="0"/>
+            <a:ext cx="0" cy="0"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" sz="1200" noProof="1"/>
+              <a:t>&#20154;&#20307;&#24517;&#38656;&#20803;&#32032;&#20030;&#38081;&#12289;&#30872;&#12289;&#38041;&#19977;&#20010;&#20363;&#23376;&#12290;&#23433;&#20840;&#37096;&#20998;&#21153;&#24517;&#23637;&#24320;&#65306;84 &#28040;&#27602;&#28082;&#26377;&#25928;&#25104;&#20998;&#26159;&#27425;&#27695;&#37240;&#38048; NaClO&#65292;&#27905;&#21397;&#28789;&#21547;&#30416;&#37240; HCl&#65292;&#28151;&#21512;&#21453;&#24212; NaClO+2HCl&#9552;NaCl+H&#8322;O+Cl&#8322;&#8593;&#65292;&#25918;&#20986;&#30340;&#27695;&#27668;&#26159;&#40644;&#32511;&#33394;&#12289;&#26377;&#21050;&#28608;&#24615;&#27668;&#21619;&#30340;&#26377;&#27602;&#27668;&#20307;&#65292;&#21560;&#20837;&#20250;&#28796;&#20260;&#21628;&#21560;&#36947;&#12290;&#38395;&#21040;&#24322;&#21619;&#31435;&#21051;&#24320;&#31383;&#36890;&#39118;&#12289;&#25764;&#21040;&#23460;&#22806;&#12290;&#65288;2 min&#65289;</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+    </p:spTree>
+  </p:cSld>
+  <p:clrMapOvr>
+    <a:masterClrMapping/>
+  </p:clrMapOvr>
+</p:notes>

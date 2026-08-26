@@ -1,6 +1,7 @@
 ---
 title: 题-413-Clayden-Ch26-P12-NMR分析酯间碱催化反应产物
 type: 题目
+fidelity: 原书逐字
 submodule: Aldol与Claisen反应
 exam_stage: 初赛
 subject: 有机化学

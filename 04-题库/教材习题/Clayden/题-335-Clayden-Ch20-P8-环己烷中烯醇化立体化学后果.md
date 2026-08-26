@@ -1,6 +1,7 @@
 ---
 title: 题-335-Clayden-Ch20-P8-环己烷中烯醇化立体化学后果
 type: 题目
+fidelity: 原书逐字
 submodule: 烯醇和烯醇盐
 exam_stage: 初赛
 subject: 有机化学

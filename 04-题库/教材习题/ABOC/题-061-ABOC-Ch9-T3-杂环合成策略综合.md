@@ -1,6 +1,7 @@
 ---
 title: 题-061-ABOC-Ch9-T3-杂环合成策略综合
 type: 题目
+fidelity: 原书逐字
 submodule: 杂环化学
 exam_stage: 决赛
 subject: 有机化学

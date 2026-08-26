@@ -1,6 +1,7 @@
 ---
 title: 题-611-Clayden-Ch36-P4-重排作为结构证明
 type: 题目
+fidelity: 原书逐字
 submodule: 重排反应
 exam_stage: 初赛
 subject: 有机化学

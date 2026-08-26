@@ -1,6 +1,7 @@
-﻿---
+---
 title: "题-169-ABOC-Ch7-7.6.2-1-写出以下反应的轨道表示 判断哪些对称性允许 哪些对称性禁阻"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.7
 exam_stage: 初赛
 subject: 有机化学

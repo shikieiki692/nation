@@ -1,6 +1,7 @@
 ---
 title: 题-617-Clayden-Ch36-P10-三元环扩张等于四元环收缩
 type: 题目
+fidelity: 原书逐字
 submodule: 重排反应
 exam_stage: 初赛
 subject: 有机化学

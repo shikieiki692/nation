@@ -1,6 +1,7 @@
-﻿---
+---
 title: "题-34决理-2-5-2-vant Hoff方程应用"
 type: 题目
+fidelity: 原书逐字
 submodule: 热力学
 exam_stage: 决赛
 subject: 化学原理

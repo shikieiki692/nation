@@ -1,6 +1,7 @@
 ---
 title: 题-584-Clayden-Ch32-P1-环己烯环氧化+胺开环构象分析
 type: 题目
+fidelity: 原书逐字
 submodule: 立体选择性
 exam_stage: 初赛
 subject: 有机化学

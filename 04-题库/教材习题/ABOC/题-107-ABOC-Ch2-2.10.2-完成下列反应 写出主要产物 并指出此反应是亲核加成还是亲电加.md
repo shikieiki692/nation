@@ -1,6 +1,7 @@
 ---
 title: "题-107-ABOC-Ch2-2.10.2-完成下列反应 写出主要产物 并指出此反应是亲核加成还是亲电加"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.2
 exam_stage: 初赛
 subject: 有机化学

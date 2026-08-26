@@ -1,6 +1,7 @@
 ---
 title: 题-343-Clayden-Ch7-P8-茚与溴的反应活性
 type: 题目
+fidelity: 原书逐字
 submodule: 共轭效应
 exam_stage: 初赛
 subject: 有机化学

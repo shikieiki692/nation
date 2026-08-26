@@ -1,6 +1,7 @@
-﻿---
+---
 title: 题-078-ABOC-Ch8-8.6-金属催化机理
 type: 题目
+fidelity: 原书逐字
 submodule: 基础概念
 exam_stage: 初赛
 subject: 有机化学

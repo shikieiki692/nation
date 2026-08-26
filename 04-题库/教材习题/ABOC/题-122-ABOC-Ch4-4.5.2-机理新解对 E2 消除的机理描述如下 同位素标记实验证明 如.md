@@ -1,6 +1,7 @@
 ---
 title: "题-122-ABOC-Ch4-4.5.2-机理新解对 E2 消除的机理描述如下 同位素标记实验证明 如"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.4
 exam_stage: 初赛
 subject: 有机化学

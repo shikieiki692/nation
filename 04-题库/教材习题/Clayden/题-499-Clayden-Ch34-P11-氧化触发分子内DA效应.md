@@ -1,6 +1,7 @@
-﻿---
+---
 title: 题-499-Clayden-Ch34-P11-氧化触发分子内DA效应
 type: 题目
+fidelity: 原书逐字
 submodule: 环加成反应
 exam_stage: 初赛
 subject: 有机化学

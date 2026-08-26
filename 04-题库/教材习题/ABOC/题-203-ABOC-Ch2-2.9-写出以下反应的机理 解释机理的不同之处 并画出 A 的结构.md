@@ -1,6 +1,7 @@
 ---
 title: "题-203-ABOC-Ch2-2.9-写出以下反应的机理 解释机理的不同之处 并画出 A 的结构"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.2
 exam_stage: 初赛
 subject: 有机化学

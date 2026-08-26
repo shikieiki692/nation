@@ -1,6 +1,7 @@
-﻿---
+---
 title: 题-483-Clayden-Ch27-P7-同时制备E和Z异构体
 type: 题目
+fidelity: 原书逐字
 submodule: 硫硅磷化学
 exam_stage: 初赛
 subject: 有机化学

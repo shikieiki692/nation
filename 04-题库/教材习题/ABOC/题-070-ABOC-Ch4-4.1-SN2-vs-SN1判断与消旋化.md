@@ -1,6 +1,7 @@
-﻿---
+---
 title: 题-070-ABOC-Ch4-4.1-SN2-vs-SN1判断与消旋化
 type: 题目
+fidelity: 原书逐字
 submodule: 基础概念
 exam_stage: 初赛
 subject: 有机化学

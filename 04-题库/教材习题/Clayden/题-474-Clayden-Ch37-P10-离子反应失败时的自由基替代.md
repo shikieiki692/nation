@@ -1,6 +1,7 @@
 ---
 title: 题-474-Clayden-Ch37-P10-离子反应失败时的自由基替代
 type: 题目
+fidelity: 原书逐字
 submodule: 自由基反应
 exam_stage: 初赛
 subject: 有机化学

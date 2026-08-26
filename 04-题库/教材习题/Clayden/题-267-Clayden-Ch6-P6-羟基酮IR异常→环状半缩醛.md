@@ -1,6 +1,7 @@
 ---
 title: 题-267-Clayden-Ch6-P6-羟基酮IR异常→环状半缩醛
 type: 题目
+fidelity: 原书逐字
 submodule: 羰基亲核加成
 exam_stage: 初赛
 subject: 有机化学

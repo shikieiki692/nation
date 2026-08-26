@@ -1,6 +1,7 @@
-﻿---
+---
 title: "题-168-ABOC-Ch7-7.4-周环反应小综合"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.7
 exam_stage: 初赛
 subject: 有机化学

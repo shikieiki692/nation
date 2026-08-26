@@ -1,6 +1,7 @@
 ---
 title: 题-268-Clayden-Ch6-P8-NaBH4还原氯醛水合物机理
 type: 题目
+fidelity: 原书逐字
 submodule: 羰基亲核加成
 exam_stage: 初赛
 subject: 有机化学

@@ -2,6 +2,7 @@
 title: "题-元钛-01-Ti水解TiO2结构"
 aliases: ["题-元钛-01"]
 type: 题目
+fidelity: 原书逐字
 difficulty: 3
 teaching_level: 巩固
 source: "教学改编（钛钒铬锰讲义 §一 钛）"

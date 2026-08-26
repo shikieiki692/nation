@@ -1,6 +1,7 @@
 ---
 title: 题-540-Clayden-Ch18-P5-多光谱证据区分两个结构
 type: 题目
+fidelity: 原书逐字
 submodule: 波谱综合解析
 exam_stage: 决赛
 subject: 有机化学

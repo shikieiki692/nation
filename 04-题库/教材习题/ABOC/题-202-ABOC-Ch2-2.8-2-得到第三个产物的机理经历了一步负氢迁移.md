@@ -1,6 +1,7 @@
 ---
 title: "题-202-ABOC-Ch2-2.8-2-得到第三个产物的机理经历了一步负氢迁移"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.2
 exam_stage: 初赛
 subject: 有机化学

@@ -1,6 +1,7 @@
 ---
 title: "题-132-ABOC-Ch5-5.4.3-写出以下转换的反应机理 二烯酮 酚重排  并解释反应的驱动力"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.5
 exam_stage: 初赛
 subject: 有机化学

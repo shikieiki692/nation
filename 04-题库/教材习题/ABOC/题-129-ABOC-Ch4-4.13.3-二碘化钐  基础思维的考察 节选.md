@@ -1,6 +1,7 @@
 ---
 title: "题-129-ABOC-Ch4-4.13.3-二碘化钐  基础思维的考察 节选"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.4
 exam_stage: 初赛
 subject: 有机化学

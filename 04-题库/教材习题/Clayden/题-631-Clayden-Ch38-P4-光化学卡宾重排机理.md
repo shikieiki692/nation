@@ -1,6 +1,7 @@
 ---
 title: 题-631-Clayden-Ch38-P4-光化学卡宾重排机理
 type: 题目
+fidelity: 原书逐字
 submodule: 有机活性中间体
 exam_stage: 初赛
 subject: 有机化学

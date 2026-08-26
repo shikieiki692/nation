@@ -1,6 +1,7 @@
 ---
 title: "题-498-Clayden-Ch34-P10-8+2环加成+芳香性复习"
 type: 题目
+fidelity: 原书逐字
 submodule: 环加成反应
 exam_stage: 初赛
 subject: 有机化学

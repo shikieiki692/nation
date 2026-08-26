@@ -1,6 +1,7 @@
 ---
 title: "题-134-ABOC-Ch5-5.4.5-1-写出以下反应的产物"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.5
 exam_stage: 初赛
 subject: 有机化学

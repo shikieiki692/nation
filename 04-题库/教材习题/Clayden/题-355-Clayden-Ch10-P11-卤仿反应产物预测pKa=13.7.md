@@ -1,6 +1,7 @@
 ---
 title: 题-355-Clayden-Ch10-P11-卤仿反应产物预测pKa=13.7
 type: 题目
+fidelity: 原书逐字
 submodule: 羧酸衍生物
 exam_stage: 初赛
 subject: 有机化学

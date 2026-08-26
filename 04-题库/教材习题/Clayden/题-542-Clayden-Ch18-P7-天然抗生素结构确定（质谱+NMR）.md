@@ -1,6 +1,7 @@
 ---
 title: 题-542-Clayden-Ch18-P7-天然抗生素结构确定（质谱+NMR）
 type: 题目
+fidelity: 原书逐字
 submodule: 波谱综合解析
 exam_stage: 决赛
 subject: 有机化学

@@ -1,6 +1,7 @@
 ---
 title: 题-435-Clayden-Ch24-P4-精细定位效应的芳香硝化
 type: 题目
+fidelity: 原书逐字
 submodule: 区域选择性
 exam_stage: 初赛
 subject: 有机化学

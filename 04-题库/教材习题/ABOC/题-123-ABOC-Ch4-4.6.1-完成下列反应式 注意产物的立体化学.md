@@ -1,6 +1,7 @@
 ---
 title: "题-123-ABOC-Ch4-4.6.1-完成下列反应式 注意产物的立体化学"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.4
 exam_stage: 初赛
 subject: 有机化学

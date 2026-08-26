@@ -1,6 +1,7 @@
 ---
 title: "题-599-Clayden-Ch33-P4-LDA烷基化中螯合控制"
 type: 题目
+fidelity: 原书逐字
 submodule: 非对映选择性
 exam_stage: 初赛
 subject: 有机化学

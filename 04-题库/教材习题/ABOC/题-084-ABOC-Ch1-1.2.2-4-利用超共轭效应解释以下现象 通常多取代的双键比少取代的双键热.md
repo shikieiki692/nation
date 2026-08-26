@@ -1,6 +1,7 @@
 ---
 title: "题-084-ABOC-Ch1-1.2.2-4-利用超共轭效应解释以下现象 通常多取代的双键比少取代的双键热"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.1
 exam_stage: 初赛
 subject: 有机化学

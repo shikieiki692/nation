@@ -1,6 +1,7 @@
 ---
 title: 题-350-Clayden-Ch10-P6-丁二酸酐选择性形成二酯vs单酯
 type: 题目
+fidelity: 原书逐字
 submodule: 羧酸衍生物
 exam_stage: 初赛
 subject: 有机化学

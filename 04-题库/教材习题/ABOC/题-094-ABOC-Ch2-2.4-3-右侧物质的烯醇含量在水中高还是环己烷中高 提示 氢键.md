@@ -1,6 +1,7 @@
 ---
 title: "题-094-ABOC-Ch2-2.4-3-右侧物质的烯醇含量在水中高还是环己烷中高 提示 氢键"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.2
 exam_stage: 初赛
 subject: 有机化学

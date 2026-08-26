@@ -1,6 +1,7 @@
 ---
 title: 题-379-Clayden-Ch16-P7-三醇与苯甲醛缩醛化非对映选择性
 type: 题目
+fidelity: 原书逐字
 submodule: 构象分析
 exam_stage: 初赛
 subject: 有机化学

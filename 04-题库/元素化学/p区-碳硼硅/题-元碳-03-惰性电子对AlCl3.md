@@ -2,6 +2,7 @@
 title: "题-元碳-03-惰性电子对AlCl3"
 aliases: ["题-元碳-03"]
 type: 题目
+fidelity: 原书逐字
 difficulty: 4
 teaching_level: 挑战
 source: "教学改编（元素化学深度讲义 §惰性对效应）"

@@ -1,6 +1,7 @@
 ---
 title: 题-552-Clayden-Ch29-P3-呋喃不寻常亲电取代选择性
 type: 题目
+fidelity: 原书逐字
 submodule: 杂环化合物
 exam_stage: 初赛
 subject: 有机化学

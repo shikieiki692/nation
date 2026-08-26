@@ -1,6 +1,7 @@
-﻿---
+---
 title: 题-041-ABOC-FT0-Stream-光化学与自由基反应
 type: 题目
+fidelity: 原书逐字
 submodule: 光化学与自由基
 exam_stage: 决赛
 subject: 有机化学

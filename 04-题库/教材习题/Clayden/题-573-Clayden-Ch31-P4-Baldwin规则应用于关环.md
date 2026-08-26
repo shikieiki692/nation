@@ -1,6 +1,7 @@
 ---
 title: 题-573-Clayden-Ch31-P4-Baldwin规则应用于关环
 type: 题目
+fidelity: 原书逐字
 submodule: 立体电子效应
 exam_stage: 初赛
 subject: 有机化学

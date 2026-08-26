@@ -1,6 +1,7 @@
-﻿---
+---
 title: "题-481-Clayden-Ch27-P5-Z烯烃制备NMR复习"
 type: 题目
+fidelity: 原书逐字
 submodule: 硫硅磷化学
 exam_stage: 初赛
 subject: 有机化学

@@ -1,6 +1,7 @@
 ---
 title: 题-570-Clayden-Ch31-P1-环状缩醛构象预测
 type: 题目
+fidelity: 原书逐字
 submodule: 立体电子效应
 exam_stage: 初赛
 subject: 有机化学

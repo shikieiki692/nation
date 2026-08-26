@@ -1,6 +1,7 @@
 ---
 title: 题-341-Clayden-Ch7-P6-吲哚薁吡喃酮腺嘌呤芳香性
 type: 题目
+fidelity: 原书逐字
 submodule: 共轭效应
 exam_stage: 初赛
 subject: 有机化学

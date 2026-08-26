@@ -1,6 +1,7 @@
 ---
 title: "题-025-5-1-Wilkinson催化剂结构"
 type: 题目
+fidelity: 原书逐字
 submodule: "有机金属化学"
 exam_stage: 初赛
 subject: 无机和结构化学

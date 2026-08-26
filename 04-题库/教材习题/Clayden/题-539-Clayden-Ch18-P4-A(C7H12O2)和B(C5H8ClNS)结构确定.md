@@ -1,6 +1,7 @@
 ---
 title: 题-539-Clayden-Ch18-P4-A(C7H12O2)和B(C5H8ClNS)结构确定
 type: 题目
+fidelity: 原书逐字
 submodule: 波谱综合解析
 exam_stage: 决赛
 subject: 有机化学

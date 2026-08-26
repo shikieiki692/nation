@@ -1,6 +1,7 @@
 ---
 title: 题-568-Clayden-Ch30-P9-Fischer吲哚合成变体Sterling药厂方法
 type: 题目
+fidelity: 原书逐字
 submodule: 杂环合成
 exam_stage: 初赛
 subject: 有机化学

@@ -1,6 +1,7 @@
 ---
 title: 题-067-ABOC-Ch2-2.4-2-烯醇稳定性比较
 type: 题目
+fidelity: 原书逐字
 submodule: 基础概念
 exam_stage: 初赛
 subject: 有机化学

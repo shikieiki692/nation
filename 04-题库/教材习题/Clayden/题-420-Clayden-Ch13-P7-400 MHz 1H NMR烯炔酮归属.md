@@ -1,6 +1,7 @@
 ---
 title: 题-420-Clayden-Ch13-P7-400 MHz 1H NMR烯炔酮归属
 type: 题目
+fidelity: 原书逐字
 submodule: NMR谱学
 exam_stage: 初赛
 subject: 有机化学

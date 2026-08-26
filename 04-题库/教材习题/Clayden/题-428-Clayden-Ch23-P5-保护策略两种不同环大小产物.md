@@ -1,6 +1,7 @@
 ---
 title: 题-428-Clayden-Ch23-P5-保护策略两种不同环大小产物
 type: 题目
+fidelity: 原书逐字
 submodule: 化学选择性与保护基
 exam_stage: 初赛
 subject: 有机化学

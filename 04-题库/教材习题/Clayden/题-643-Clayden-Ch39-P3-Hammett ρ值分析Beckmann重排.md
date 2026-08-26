@@ -1,6 +1,7 @@
 ---
 title: 题-643-Clayden-Ch39-P3-Hammett ρ值分析Beckmann重排
 type: 题目
+fidelity: 原书逐字
 submodule: 有机反应机理
 exam_stage: 决赛
 subject: 有机化学

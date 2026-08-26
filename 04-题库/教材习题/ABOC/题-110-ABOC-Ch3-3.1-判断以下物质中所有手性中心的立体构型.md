@@ -1,6 +1,7 @@
 ---
 title: "题-110-ABOC-Ch3-3.1-判断以下物质中所有手性中心的立体构型"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.3
 exam_stage: 初赛
 subject: 有机化学

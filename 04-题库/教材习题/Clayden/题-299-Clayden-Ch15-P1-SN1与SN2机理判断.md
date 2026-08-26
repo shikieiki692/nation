@@ -1,6 +1,7 @@
-﻿---
+---
 title: 题-299-Clayden-Ch15-P1-SN1与SN2机理判断
 type: 题目
+fidelity: 原书逐字
 submodule: 亲核取代反应
 exam_stage: 初赛
 subject: 有机化学

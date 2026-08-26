@@ -1,6 +1,7 @@
 ---
 title: 题-342-Clayden-Ch7-P7-COT二阴离子六硅基苯阴离子形状
 type: 题目
+fidelity: 原书逐字
 submodule: 共轭效应
 exam_stage: 初赛
 subject: 有机化学

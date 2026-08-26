@@ -1,6 +1,7 @@
 ---
 title: 题-580-Clayden-Ch31-P11-Ambruticin环丙烷复杂NMR解析
 type: 题目
+fidelity: 原书逐字
 submodule: 立体电子效应
 exam_stage: 初赛
 subject: 有机化学

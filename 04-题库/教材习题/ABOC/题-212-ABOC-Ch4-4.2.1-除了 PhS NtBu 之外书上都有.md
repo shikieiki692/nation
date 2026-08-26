@@ -1,6 +1,7 @@
 ---
 title: "题-212-ABOC-Ch4-4.2.1-除了 PhS NtBu 之外书上都有"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.4
 exam_stage: 初赛
 subject: 有机化学

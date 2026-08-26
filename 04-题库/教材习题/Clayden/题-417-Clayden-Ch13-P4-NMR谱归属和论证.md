@@ -1,6 +1,7 @@
 ---
 title: 题-417-Clayden-Ch13-P4-NMR谱归属和论证
 type: 题目
+fidelity: 原书逐字
 submodule: NMR谱学
 exam_stage: 初赛
 subject: 有机化学

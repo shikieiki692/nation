@@ -1,6 +1,7 @@
 ---
 title: "题-186-ABOC-Ch1-1.2.2-6-从碳正离子共振式发现 α 位富电子 β位缺电子"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.1
 exam_stage: 初赛
 subject: 有机化学

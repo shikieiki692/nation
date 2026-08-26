@@ -1,6 +1,7 @@
 ---
 title: "题-157-ABOC-Ch6-6.7.2-画出以下两个氧化反应主要产物 A 和B的结构式并解释"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.6
 exam_stage: 初赛
 subject: 有机化学

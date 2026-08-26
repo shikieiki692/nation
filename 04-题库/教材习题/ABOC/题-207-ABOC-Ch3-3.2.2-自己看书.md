@@ -1,6 +1,7 @@
 ---
 title: "题-207-ABOC-Ch3-3.2.2-自己看书"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.3
 exam_stage: 初赛
 subject: 有机化学

@@ -1,6 +1,7 @@
 ---
 title: 题-262-Clayden-Ch6-P1-硼氢化钠还原醛酮机理
 type: 题目
+fidelity: 原书逐字
 submodule: 羰基亲核加成
 exam_stage: 初赛
 subject: 有机化学

@@ -1,6 +1,7 @@
 ---
 title: "题-103-ABOC-Ch2-2.8-1-写出氢碘酸与以下物种反应的主要产物 注意碳正离子重排"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.2
 exam_stage: 初赛
 subject: 有机化学

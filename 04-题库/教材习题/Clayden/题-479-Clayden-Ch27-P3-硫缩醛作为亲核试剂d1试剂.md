@@ -1,6 +1,7 @@
 ---
 title: 题-479-Clayden-Ch27-P3-硫缩醛作为亲核试剂d1试剂
 type: 题目
+fidelity: 原书逐字
 submodule: 硫硅磷化学
 exam_stage: 初赛
 subject: 有机化学

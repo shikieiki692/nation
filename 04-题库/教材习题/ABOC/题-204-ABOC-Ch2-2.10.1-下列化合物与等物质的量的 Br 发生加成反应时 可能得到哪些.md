@@ -1,6 +1,7 @@
 ---
 title: "题-204-ABOC-Ch2-2.10.1-下列化合物与等物质的量的 Br 发生加成反应时 可能得到哪些"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.2
 exam_stage: 初赛
 subject: 有机化学

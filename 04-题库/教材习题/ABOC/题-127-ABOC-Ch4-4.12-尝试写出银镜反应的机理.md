@@ -1,6 +1,7 @@
 ---
 title: "题-127-ABOC-Ch4-4.12-尝试写出银镜反应的机理"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.4
 exam_stage: 初赛
 subject: 有机化学

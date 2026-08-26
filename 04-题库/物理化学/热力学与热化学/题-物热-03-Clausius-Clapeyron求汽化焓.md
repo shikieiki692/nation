@@ -2,6 +2,7 @@
 title: "题-物热-03-Clausius-Clapeyron求汽化焓"
 aliases: ["题-物热-03"]
 type: 题目
+fidelity: 原书逐字
 difficulty: 3
 teaching_level: 巩固
 source: "教学改编（物化综合计算讲义 §〇 前置概念）"

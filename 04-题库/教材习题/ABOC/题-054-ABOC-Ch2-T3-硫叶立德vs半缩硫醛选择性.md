@@ -1,6 +1,7 @@
 ---
 title: 题-054-ABOC-Ch2-T3-硫叶立德vs半缩硫醛选择性
 type: 题目
+fidelity: 原书逐字
 submodule: 硫化学
 exam_stage: 决赛
 subject: 有机化学

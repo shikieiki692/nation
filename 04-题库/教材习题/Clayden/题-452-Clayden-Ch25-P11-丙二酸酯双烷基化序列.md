@@ -1,6 +1,7 @@
 ---
 title: 题-452-Clayden-Ch25-P11-丙二酸酯双烷基化序列
 type: 题目
+fidelity: 原书逐字
 submodule: 烯醇盐化学
 exam_stage: 初赛
 subject: 有机化学

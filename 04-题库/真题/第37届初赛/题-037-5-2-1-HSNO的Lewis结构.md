@@ -2,6 +2,7 @@
 title: "题-037-5-2-1-HSNO的Lewis结构"
 aliases: [37届初赛-5.2.1]
 type: 题目
+fidelity: 原书逐字
 exam_stage: 初赛
 year: 2023
 exam_date: 2023-09-03
@@ -17,6 +18,7 @@ knowledge_points: ["[[Lewis结构式]]", "[[共振论]]", "[[电负性]]"]
 tags: [化竞, 真题, 37届, 元素化学]
 updated: 2026-05-11
 status: 已填充
+big_question: "第5题"
 ---
 
 ## 题目
@@ -75,3 +77,20 @@ $$
 - **连接方式错误**：题目明确原子次序即连接方式，不能写成H-N-S-O等。
 - **忽略共振**：只画一种结构，未考虑共振。
 - **八隅律不满足**：确保所有原子（除H外）满足八隅体。
+
+## 🔗 同大题小问
+
+```dataviewjs
+const name = dv.current().file.name;
+const m = name.match(/^(题-\d+b?-\d+-)\d+-/);
+if (m) {
+  const prefix = m[1];
+  const pages = dv.pages('"04-题库/真题"')
+    .where(p => p.file.name.startsWith(prefix) && p.file.name !== name)
+    .sort(p => parseInt(p.file.name.match(/-(\d+)-/)[1]));
+  if (pages.length) {
+    dv.header(4, "🔗 同大题小问（按序）");
+    dv.list(pages.map(p => p.file.link));
+  }
+}
+```

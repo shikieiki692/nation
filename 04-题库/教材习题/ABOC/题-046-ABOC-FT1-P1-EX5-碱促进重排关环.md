@@ -1,6 +1,7 @@
 ---
 title: 题-046-ABOC-FT1-P1-EX5-碱促进重排关环
 type: 题目
+fidelity: 原书逐字
 submodule: 重排反应
 exam_stage: 决赛
 subject: 有机化学

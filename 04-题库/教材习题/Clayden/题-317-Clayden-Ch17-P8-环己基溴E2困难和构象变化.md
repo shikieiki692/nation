@@ -1,6 +1,7 @@
-﻿---
+---
 title: 题-317-Clayden-Ch17-P8-环己基溴E2困难和构象变化
 type: 题目
+fidelity: 原书逐字
 submodule: 消除反应
 exam_stage: 初赛
 subject: 有机化学

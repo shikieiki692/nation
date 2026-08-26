@@ -1,6 +1,7 @@
 ---
 title: "题-028决-4-EDTA滴定PbBiNi"
 type: 题目
+fidelity: 原书逐字
 submodule: 配位滴定
 exam_stage: 决赛
 subject: 分析化学

@@ -1,6 +1,7 @@
 ---
 title: 题-064-ABOC-Ch1-1.3.1-3-金刚烷合成（碳正离子重排）
 type: 题目
+fidelity: 原书逐字
 submodule: 基础概念
 exam_stage: 初赛
 subject: 有机化学

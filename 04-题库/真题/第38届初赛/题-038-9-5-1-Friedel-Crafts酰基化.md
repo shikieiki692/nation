@@ -2,6 +2,7 @@
 title: "题-038-9-5-1-Friedel-Crafts酰基化"
 aliases: [38届初赛-9.5.1]
 type: 题目
+fidelity: 原书逐字
 exam_stage: 初赛
 year: 2024
 exam_date: 2024-09-01
@@ -17,6 +18,7 @@ knowledge_points: ["[[Friedel-Crafts反应]]", "[[动力学控制]]"]
 tags: [化竞, 真题, 38届, 有机化学]
 updated: 2026-05-11
 status: 已填充
+big_question: "第9题"
 ---
 
 > **来源**：[[mineru/02-真题解析/38届初赛试题解析]] | [[07-资料提炼/提炼-第38届初赛试题解析]]
@@ -75,3 +77,20 @@ Friedel-Crafts 酰基化反应不可逆，因此反应停留在动力学产物�
 - 需要画出酰基正离子中间体
 - 萘的 α 位取代是动力学产物
 - 注意联苯 C-C 键旋转导致的异构体
+
+## 🔗 同大题小问
+
+```dataviewjs
+const name = dv.current().file.name;
+const m = name.match(/^(题-\d+b?-\d+-)\d+-/);
+if (m) {
+  const prefix = m[1];
+  const pages = dv.pages('"04-题库/真题"')
+    .where(p => p.file.name.startsWith(prefix) && p.file.name !== name)
+    .sort(p => parseInt(p.file.name.match(/-(\d+)-/)[1]));
+  if (pages.length) {
+    dv.header(4, "🔗 同大题小问（按序）");
+    dv.list(pages.map(p => p.file.link));
+  }
+}
+```

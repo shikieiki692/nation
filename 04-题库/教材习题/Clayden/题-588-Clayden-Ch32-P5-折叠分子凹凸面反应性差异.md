@@ -1,6 +1,7 @@
 ---
 title: 题-588-Clayden-Ch32-P5-折叠分子凹凸面反应性差异
 type: 题目
+fidelity: 原书逐字
 submodule: 立体选择性
 exam_stage: 初赛
 subject: 有机化学

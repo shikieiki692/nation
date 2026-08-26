@@ -1,6 +1,7 @@
 ---
 title: 题-523-Clayden-Ch40-P10-Pd催化吲哚合成新反应
 type: 题目
+fidelity: 原书逐字
 submodule: 金属有机化学
 exam_stage: 初赛
 subject: 有机化学

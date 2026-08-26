@@ -1,6 +1,7 @@
 ---
 title: 题-641-Clayden-Ch39-P1-多种合理机理的反应研究
 type: 题目
+fidelity: 原书逐字
 submodule: 有机反应机理
 exam_stage: 初赛
 subject: 有机化学

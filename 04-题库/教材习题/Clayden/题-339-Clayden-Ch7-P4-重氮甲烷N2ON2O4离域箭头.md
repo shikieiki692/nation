@@ -1,6 +1,7 @@
 ---
 title: 题-339-Clayden-Ch7-P4-重氮甲烷N2ON2O4离域箭头
 type: 题目
+fidelity: 原书逐字
 submodule: 共轭效应
 exam_stage: 初赛
 subject: 有机化学

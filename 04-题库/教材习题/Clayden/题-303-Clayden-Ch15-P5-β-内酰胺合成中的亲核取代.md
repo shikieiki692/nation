@@ -1,6 +1,7 @@
-﻿---
+---
 title: 题-303-Clayden-Ch15-P5-β-内酰胺合成中的亲核取代
 type: 题目
+fidelity: 原书逐字
 submodule: 亲核取代反应
 exam_stage: 初赛
 subject: 有机化学

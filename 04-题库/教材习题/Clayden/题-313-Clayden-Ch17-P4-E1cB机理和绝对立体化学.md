@@ -1,6 +1,7 @@
-﻿---
+---
 title: 题-313-Clayden-Ch17-P4-E1cB机理和绝对立体化学
 type: 题目
+fidelity: 原书逐字
 submodule: 消除反应
 exam_stage: 初赛
 subject: 有机化学

@@ -1,6 +1,7 @@
 ---
 title: "题-028-10-1-Prévost反应中间体A-D"
 type: 题目
+fidelity: 原书逐字
 submodule: "反应机理与立体化学"
 exam_stage: 初赛
 subject: 有机化学

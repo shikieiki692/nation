@@ -1,6 +1,7 @@
 ---
 title: 题-348-Clayden-Ch10-P4-含环二羰基化合物亲核取代机理
 type: 题目
+fidelity: 原书逐字
 submodule: 羧酸衍生物
 exam_stage: 初赛
 subject: 有机化学

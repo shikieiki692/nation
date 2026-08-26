@@ -1,6 +1,7 @@
 ---
 title: 题-408-Clayden-Ch26-P7-分子内Claisen类似缩合制杂环酮
 type: 题目
+fidelity: 原书逐字
 submodule: Aldol与Claisen反应
 exam_stage: 初赛
 subject: 有机化学

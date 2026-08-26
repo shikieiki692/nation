@@ -1,6 +1,7 @@
 ---
 title: 题-651-Clayden-Ch39-P11-对比同位素效应详细机理分析
 type: 题目
+fidelity: 原书逐字
 submodule: 有机反应机理
 exam_stage: 决赛
 subject: 有机化学

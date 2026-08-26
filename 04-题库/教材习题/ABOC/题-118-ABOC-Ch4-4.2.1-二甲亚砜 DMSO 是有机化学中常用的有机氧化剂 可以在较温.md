@@ -1,6 +1,7 @@
-﻿---
+---
 title: "题-118-ABOC-Ch4-4.2.1-二甲亚砜 DMSO 是有机化学中常用的有机氧化剂 可以在较温"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.4
 exam_stage: 初赛
 subject: 有机化学

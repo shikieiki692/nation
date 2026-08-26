@@ -1,6 +1,7 @@
-﻿---
+---
 title: "题-519-Clayden-Ch40-P6-烯丙基Grignard吡啶合成Wacker氧化"
 type: 题目
+fidelity: 原书逐字
 submodule: 金属有机化学
 exam_stage: 初赛
 subject: 有机化学

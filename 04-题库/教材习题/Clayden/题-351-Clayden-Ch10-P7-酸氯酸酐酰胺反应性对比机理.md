@@ -1,6 +1,7 @@
 ---
 title: 题-351-Clayden-Ch10-P7-酸氯酸酐酰胺反应性对比机理
 type: 题目
+fidelity: 原书逐字
 submodule: 羧酸衍生物
 exam_stage: 初赛
 subject: 有机化学

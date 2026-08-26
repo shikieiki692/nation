@@ -1,6 +1,7 @@
 ---
 title: 题-642-Clayden-Ch39-P2-同位素标记+立体化学揭示重排
 type: 题目
+fidelity: 原书逐字
 submodule: 有机反应机理
 exam_stage: 初赛
 subject: 有机化学

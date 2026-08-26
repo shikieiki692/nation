@@ -1,6 +1,7 @@
 ---
 title: 题-529-Clayden-Ch41-P6-构象分析立体选择性拆分组合
 type: 题目
+fidelity: 原书逐字
 submodule: 不对称合成
 exam_stage: 决赛
 subject: 有机化学

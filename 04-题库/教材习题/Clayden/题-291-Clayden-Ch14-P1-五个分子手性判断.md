@@ -1,6 +1,7 @@
 ---
 title: 题-291-Clayden-Ch14-P1-五个分子手性判断
 type: 题目
+fidelity: 原书逐字
 submodule: 立体化学
 exam_stage: 初赛
 subject: 有机化学

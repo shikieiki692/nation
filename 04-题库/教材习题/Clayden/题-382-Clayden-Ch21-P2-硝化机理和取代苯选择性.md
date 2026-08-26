@@ -1,6 +1,7 @@
 ---
 title: 题-382-Clayden-Ch21-P2-硝化机理和取代苯选择性
 type: 题目
+fidelity: 原书逐字
 submodule: 芳香亲电取代
 exam_stage: 初赛
 subject: 有机化学

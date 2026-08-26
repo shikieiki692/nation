@@ -1,6 +1,7 @@
 ---
 title: "题-159-ABOC-Ch6-6.10.3-写出乙酰乙酸乙酯在碳酸钠存在下与 1 3 二溴丙烷反应的主要"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.6
 exam_stage: 初赛
 subject: 有机化学

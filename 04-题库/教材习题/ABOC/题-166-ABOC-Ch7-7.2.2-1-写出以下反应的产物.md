@@ -1,6 +1,7 @@
-﻿---
+---
 title: "题-166-ABOC-Ch7-7.2.2-1-写出以下反应的产物"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.7
 exam_stage: 初赛
 subject: 有机化学

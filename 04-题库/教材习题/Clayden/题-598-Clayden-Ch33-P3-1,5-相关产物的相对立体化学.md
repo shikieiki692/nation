@@ -1,6 +1,7 @@
 ---
 title: 题-598-Clayden-Ch33-P3-1,5-相关产物的相对立体化学
 type: 题目
+fidelity: 原书逐字
 submodule: 非对映选择性
 exam_stage: 初赛
 subject: 有机化学

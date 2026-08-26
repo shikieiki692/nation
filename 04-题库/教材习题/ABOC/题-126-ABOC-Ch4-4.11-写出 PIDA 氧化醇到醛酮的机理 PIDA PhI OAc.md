@@ -1,6 +1,7 @@
-﻿---
+---
 title: "题-126-ABOC-Ch4-4.11-写出 PIDA 氧化醇到醛酮的机理 PIDA PhI OAc"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.4
 exam_stage: 初赛
 subject: 有机化学

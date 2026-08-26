@@ -1,6 +1,7 @@
 ---
 title: 题-338-Clayden-Ch7-P3-胍鎓烯醇盐萘电荷分布
 type: 题目
+fidelity: 原书逐字
 submodule: 共轭效应
 exam_stage: 初赛
 subject: 有机化学

@@ -2,6 +2,7 @@
 title: "题-037-6-2-5-Cl-MXene和Se-MXene合成"
 aliases: [37届初赛-6.2.5]
 type: 题目
+fidelity: 原书逐字
 exam_stage: 初赛
 year: 2023
 exam_date: 2023-09-03
@@ -17,6 +18,7 @@ knowledge_points: ["[[氧化还原反应]]", "[[氧化还原反应方程式配�
 tags: [化竞, 真题, 37届, 元素化学]
 updated: 2026-05-11
 status: 已填充
+big_question: "第6题"
 ---
 
 ## 题目
@@ -72,3 +74,20 @@ $$
 - **产物形式错误**：$AlCl_{3}$在熔融$ZnCl_{2}$中可形成$Zn[AlCl_{4}]_{2}$，两种写法均合理。
 - **端基比例错误**：Se-MXene为$Ti_{3}C_{2}Se$（不是$Ti_{3}C_{2}Se_{2}$）。
 - **忽略熔盐条件**：反应3和4均在熔盐中进行，不是水溶液。
+
+## 🔗 同大题小问
+
+```dataviewjs
+const name = dv.current().file.name;
+const m = name.match(/^(题-\d+b?-\d+-)\d+-/);
+if (m) {
+  const prefix = m[1];
+  const pages = dv.pages('"04-题库/真题"')
+    .where(p => p.file.name.startsWith(prefix) && p.file.name !== name)
+    .sort(p => parseInt(p.file.name.match(/-(\d+)-/)[1]));
+  if (pages.length) {
+    dv.header(4, "🔗 同大题小问（按序）");
+    dv.list(pages.map(p => p.file.link));
+  }
+}
+```

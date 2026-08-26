@@ -1,6 +1,7 @@
 ---
 title: "题-131-ABOC-Ch5-5.4.1-已知E的酸性强于 C 则比较以下物质的酸性强弱"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.5
 exam_stage: 初赛
 subject: 有机化学

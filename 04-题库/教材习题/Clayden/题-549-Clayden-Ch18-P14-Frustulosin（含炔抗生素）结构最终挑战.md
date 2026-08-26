@@ -1,6 +1,7 @@
 ---
 title: 题-549-Clayden-Ch18-P14-Frustulosin（含炔抗生素）结构最终挑战
 type: 题目
+fidelity: 原书逐字
 submodule: 波谱综合解析
 exam_stage: 决赛
 subject: 有机化学

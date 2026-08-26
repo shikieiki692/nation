@@ -1,6 +1,7 @@
 ---
 title: 题-264-Clayden-Ch6-P3-硅基氰化物形成氰醇机理
 type: 题目
+fidelity: 原书逐字
 submodule: 羰基亲核加成
 exam_stage: 初赛
 subject: 有机化学

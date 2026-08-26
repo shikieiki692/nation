@@ -2,6 +2,7 @@
 title: "题-029决-1-有机硅与VSEPR"
 aliases: [29届决赛-1, 29决-1]
 type: 题目
+fidelity: 原书逐字
 exam_stage: 决赛
 exam_type: 理论
 exam_session: 第一场

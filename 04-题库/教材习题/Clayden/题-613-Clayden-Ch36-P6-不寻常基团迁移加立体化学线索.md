@@ -1,6 +1,7 @@
 ---
 title: 题-613-Clayden-Ch36-P6-不寻常基团迁移加立体化学线索
 type: 题目
+fidelity: 原书逐字
 submodule: 重排反应
 exam_stage: 初赛
 subject: 有机化学

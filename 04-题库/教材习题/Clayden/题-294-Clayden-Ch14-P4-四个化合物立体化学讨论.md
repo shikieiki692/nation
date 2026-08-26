@@ -1,6 +1,7 @@
 ---
 title: 题-294-Clayden-Ch14-P4-四个化合物立体化学讨论
 type: 题目
+fidelity: 原书逐字
 submodule: 立体化学
 exam_stage: 初赛
 subject: 有机化学

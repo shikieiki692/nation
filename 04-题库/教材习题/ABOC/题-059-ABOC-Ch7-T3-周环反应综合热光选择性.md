@@ -1,6 +1,7 @@
-﻿---
+---
 title: 题-059-ABOC-Ch7-T3-周环反应综合热光选择性
 type: 题目
+fidelity: 原书逐字
 submodule: 周环反应
 exam_stage: 决赛
 subject: 有机化学

@@ -1,6 +1,7 @@
 ---
 title: 题-340-Clayden-Ch7-P5-化合物芳香性电子计数
 type: 题目
+fidelity: 原书逐字
 submodule: 共轭效应
 exam_stage: 初赛
 subject: 有机化学

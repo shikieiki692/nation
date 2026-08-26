@@ -1,6 +1,7 @@
 ---
 title: 题-402-Clayden-Ch26-P1-最简单Aldol自缩合机理
 type: 题目
+fidelity: 原书逐字
 submodule: Aldol与Claisen反应
 exam_stage: 初赛
 subject: 有机化学

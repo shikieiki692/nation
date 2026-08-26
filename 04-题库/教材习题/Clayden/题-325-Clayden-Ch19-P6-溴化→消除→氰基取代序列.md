@@ -1,6 +1,7 @@
 ---
 title: 题-325-Clayden-Ch19-P6-溴化→消除→氰基取代序列
 type: 题目
+fidelity: 原书逐字
 submodule: 烯烃的亲电加成
 exam_stage: 初赛
 subject: 有机化学

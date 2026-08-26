@@ -1,6 +1,7 @@
 ---
 title: 题-571-Clayden-Ch31-P2-双环杂环立体专一性形成分析
 type: 题目
+fidelity: 原书逐字
 submodule: 立体电子效应
 exam_stage: 初赛
 subject: 有机化学

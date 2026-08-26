@@ -1,6 +1,7 @@
 ---
 title: 题-276-Clayden-Ch8-P5-酸碱组合产物预测
 type: 题目
+fidelity: 原书逐字
 submodule: 酸碱质子理论
 exam_stage: 初赛
 subject: 有机化学

@@ -1,6 +1,7 @@
 ---
 title: "题-190-ABOC-Ch1-1.4.1-除了使用构象相互作用来制造船式构象 我还可以利用次级键来制造"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.1
 exam_stage: 初赛
 subject: 有机化学

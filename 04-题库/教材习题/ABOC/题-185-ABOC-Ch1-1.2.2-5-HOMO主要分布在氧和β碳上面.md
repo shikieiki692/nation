@@ -1,6 +1,7 @@
 ---
 title: "题-185-ABOC-Ch1-1.2.2-5-HOMO主要分布在氧和β碳上面"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.1
 exam_stage: 初赛
 subject: 有机化学

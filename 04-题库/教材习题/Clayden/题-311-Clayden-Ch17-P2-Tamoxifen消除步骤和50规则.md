@@ -1,6 +1,7 @@
-﻿---
+---
 title: 题-311-Clayden-Ch17-P2-Tamoxifen消除步骤和50规则
 type: 题目
+fidelity: 原书逐字
 submodule: 消除反应
 exam_stage: 初赛
 subject: 有机化学

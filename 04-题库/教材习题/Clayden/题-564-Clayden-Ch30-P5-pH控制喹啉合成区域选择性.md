@@ -1,6 +1,7 @@
 ---
 title: 题-564-Clayden-Ch30-P5-pH控制喹啉合成区域选择性
 type: 题目
+fidelity: 原书逐字
 submodule: 杂环合成
 exam_stage: 初赛
 subject: 有机化学

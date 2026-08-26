@@ -1,6 +1,7 @@
-﻿---
+---
 title: 题-076-ABOC-Ch7-7.2.1-1-D-A底物推断（六苯基苯）
 type: 题目
+fidelity: 原书逐字
 submodule: 基础概念
 exam_stage: 初赛
 subject: 有机化学

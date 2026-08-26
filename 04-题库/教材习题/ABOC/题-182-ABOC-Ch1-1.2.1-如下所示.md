@@ -1,6 +1,7 @@
 ---
 title: "题-182-ABOC-Ch1-1.2.1-如下所示"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.1
 exam_stage: 初赛
 subject: 有机化学

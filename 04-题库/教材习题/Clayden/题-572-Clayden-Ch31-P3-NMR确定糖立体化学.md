@@ -1,6 +1,7 @@
 ---
 title: 题-572-Clayden-Ch31-P3-NMR确定糖立体化学
 type: 题目
+fidelity: 原书逐字
 submodule: 立体电子效应
 exam_stage: 初赛
 subject: 有机化学

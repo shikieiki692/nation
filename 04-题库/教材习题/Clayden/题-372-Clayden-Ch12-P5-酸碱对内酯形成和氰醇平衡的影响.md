@@ -1,6 +1,7 @@
 ---
 title: 题-372-Clayden-Ch12-P5-酸碱对内酯形成和氰醇平衡的影响
 type: 题目
+fidelity: 原书逐字
 submodule: 有机反应机理
 exam_stage: 初赛
 subject: 有机化学

@@ -1,6 +1,7 @@
-﻿---
+---
 title: 题-426-Clayden-Ch23-P3-Birch还原产物预测
 type: 题目
+fidelity: 原书逐字
 submodule: 化学选择性与保护基
 exam_stage: 初赛
 subject: 有机化学

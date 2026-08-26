@@ -1,6 +1,7 @@
 ---
 title: 题-558-Clayden-Ch29-P9-吡咯并吡啶芳香体系反应性和合成
 type: 题目
+fidelity: 原书逐字
 submodule: 杂环化合物
 exam_stage: 初赛
 subject: 有机化学

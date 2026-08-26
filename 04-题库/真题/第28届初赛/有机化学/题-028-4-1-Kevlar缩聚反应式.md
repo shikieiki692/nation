@@ -1,6 +1,7 @@
 ---
 title: "题-028-4-1-Kevlar缩聚反应式"
 type: 题目
+fidelity: 原书逐字
 submodule: "高分子化学"
 exam_stage: 初赛
 subject: 有机化学

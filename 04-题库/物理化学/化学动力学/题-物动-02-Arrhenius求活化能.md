@@ -2,6 +2,7 @@
 title: "题-物动-02-Arrhenius求活化能"
 aliases: ["题-物动-02"]
 type: 题目
+fidelity: 原书逐字
 difficulty: 3
 teaching_level: 巩固
 source: "教学改编（化学动力学讲义 §三 Arrhenius）"

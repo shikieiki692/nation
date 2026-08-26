@@ -1,6 +1,7 @@
 ---
 title: 题-547-Clayden-Ch18-P12-A(C10H13OP)和B(C12H17O2)结构（P偶合）
 type: 题目
+fidelity: 原书逐字
 submodule: 波谱综合解析
 exam_stage: 决赛
 subject: 有机化学

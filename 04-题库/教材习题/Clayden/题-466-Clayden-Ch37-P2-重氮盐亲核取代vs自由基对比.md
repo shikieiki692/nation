@@ -1,6 +1,7 @@
 ---
 title: 题-466-Clayden-Ch37-P2-重氮盐亲核取代vs自由基对比
 type: 题目
+fidelity: 原书逐字
 submodule: 自由基反应
 exam_stage: 初赛
 subject: 有机化学

@@ -1,6 +1,7 @@
 ---
 title: "题-177-ABOC-Ch9-9.4-12024-年暑假某机构考题中有一个全合成 对喹啉 苯并吡啶 还原时还原"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.9
 exam_stage: 初赛
 subject: 有机化学

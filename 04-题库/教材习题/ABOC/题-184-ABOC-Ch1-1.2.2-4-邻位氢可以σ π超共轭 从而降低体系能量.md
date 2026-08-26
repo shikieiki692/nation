@@ -1,6 +1,7 @@
 ---
 title: "题-184-ABOC-Ch1-1.2.2-4-邻位氢可以σ π超共轭 从而降低体系能量"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.1
 exam_stage: 初赛
 subject: 有机化学

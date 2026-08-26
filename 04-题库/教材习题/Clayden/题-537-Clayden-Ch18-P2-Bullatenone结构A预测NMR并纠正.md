@@ -1,6 +1,7 @@
 ---
 title: 题-537-Clayden-Ch18-P2-Bullatenone结构A预测NMR并纠正
 type: 题目
+fidelity: 原书逐字
 submodule: 波谱综合解析
 exam_stage: 决赛
 subject: 有机化学

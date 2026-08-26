@@ -1,6 +1,7 @@
 ---
 title: 题-527-Clayden-Ch41-P4-巧妙不对称诱导方法分析
 type: 题目
+fidelity: 原书逐字
 submodule: 不对称合成
 exam_stage: 决赛
 subject: 有机化学

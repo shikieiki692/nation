@@ -1,6 +1,7 @@
 ---
 title: 题-513-Clayden-Ch35-P13-复杂周环反应序列解析
 type: 题目
+fidelity: 原书逐字
 submodule: 周环反应
 exam_stage: 决赛
 subject: 有机化学

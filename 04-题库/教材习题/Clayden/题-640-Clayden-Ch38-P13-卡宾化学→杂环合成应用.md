@@ -1,6 +1,7 @@
 ---
 title: 题-640-Clayden-Ch38-P13-卡宾化学→杂环合成应用
 type: 题目
+fidelity: 原书逐字
 submodule: 有机活性中间体
 exam_stage: 初赛
 subject: 有机化学

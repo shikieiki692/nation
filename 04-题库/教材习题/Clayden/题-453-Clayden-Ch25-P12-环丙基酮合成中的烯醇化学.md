@@ -1,6 +1,7 @@
 ---
 title: 题-453-Clayden-Ch25-P12-环丙基酮合成中的烯醇化学
 type: 题目
+fidelity: 原书逐字
 submodule: 烯醇盐化学
 exam_stage: 初赛
 subject: 有机化学

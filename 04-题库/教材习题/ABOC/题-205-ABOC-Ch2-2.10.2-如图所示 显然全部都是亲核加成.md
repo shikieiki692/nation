@@ -1,6 +1,7 @@
 ---
 title: "题-205-ABOC-Ch2-2.10.2-如图所示 显然全部都是亲核加成"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.2
 exam_stage: 初赛
 subject: 有机化学

@@ -1,6 +1,7 @@
 ---
 title: "题-102-ABOC-Ch2-2.7.4-1-以下物质的两个共振式谁更稳定 占据主导  为什么"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.2
 exam_stage: 初赛
 subject: 有机化学

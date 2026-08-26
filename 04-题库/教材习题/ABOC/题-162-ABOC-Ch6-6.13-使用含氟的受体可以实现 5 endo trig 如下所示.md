@@ -1,6 +1,7 @@
 ---
 title: "题-162-ABOC-Ch6-6.13-使用含氟的受体可以实现 5 endo trig 如下所示"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.6
 exam_stage: 初赛
 subject: 有机化学

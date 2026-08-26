@@ -1,6 +1,7 @@
 ---
 title: 题-414-Clayden-Ch13-P1-五个化合物1H NMR信号和化学位移预测
 type: 题目
+fidelity: 原书逐字
 submodule: NMR谱学
 exam_stage: 初赛
 subject: 有机化学

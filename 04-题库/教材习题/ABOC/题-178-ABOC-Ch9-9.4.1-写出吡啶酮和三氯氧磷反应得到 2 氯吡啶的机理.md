@@ -1,6 +1,7 @@
 ---
 title: "题-178-ABOC-Ch9-9.4.1-写出吡啶酮和三氯氧磷反应得到 2 氯吡啶的机理"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.9
 exam_stage: 初赛
 subject: 有机化学

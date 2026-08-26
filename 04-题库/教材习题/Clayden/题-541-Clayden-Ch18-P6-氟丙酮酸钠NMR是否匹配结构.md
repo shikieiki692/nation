@@ -1,6 +1,7 @@
 ---
 title: 题-541-Clayden-Ch18-P6-氟丙酮酸钠NMR是否匹配结构
 type: 题目
+fidelity: 原书逐字
 submodule: 波谱综合解析
 exam_stage: 决赛
 subject: 有机化学

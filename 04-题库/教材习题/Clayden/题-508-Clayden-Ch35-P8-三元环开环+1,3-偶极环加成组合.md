@@ -1,6 +1,7 @@
 ---
 title: 题-508-Clayden-Ch35-P8-三元环开环+1,3-偶极环加成组合
 type: 题目
+fidelity: 原书逐字
 submodule: 周环反应
 exam_stage: 决赛
 subject: 有机化学

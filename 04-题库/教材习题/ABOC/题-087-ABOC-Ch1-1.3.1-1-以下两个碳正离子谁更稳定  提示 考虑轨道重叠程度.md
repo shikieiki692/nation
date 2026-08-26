@@ -1,6 +1,7 @@
 ---
 title: "题-087-ABOC-Ch1-1.3.1-1-以下两个碳正离子谁更稳定  提示 考虑轨道重叠程度"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.1
 exam_stage: 初赛
 subject: 有机化学

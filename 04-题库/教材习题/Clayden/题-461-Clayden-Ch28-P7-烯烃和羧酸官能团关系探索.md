@@ -1,6 +1,7 @@
 ---
 title: 题-461-Clayden-Ch28-P7-烯烃和羧酸官能团关系探索
 type: 题目
+fidelity: 原书逐字
 submodule: 逆合成分析
 exam_stage: 初赛
 subject: 有机化学

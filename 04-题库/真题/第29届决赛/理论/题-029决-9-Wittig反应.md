@@ -1,7 +1,8 @@
-﻿---
+---
 title: "题-029决-9-Wittig反应"
 aliases: [29届决赛-9, 29决-9]
 type: 题目
+fidelity: 原书逐字
 exam_stage: 决赛
 exam_type: 理论
 exam_session: 第一场

@@ -1,6 +1,7 @@
 ---
 title: 题-544-Clayden-Ch18-P9-环氧酮甲苯磺酰肼加合物结构
 type: 题目
+fidelity: 原书逐字
 submodule: 波谱综合解析
 exam_stage: 决赛
 subject: 有机化学

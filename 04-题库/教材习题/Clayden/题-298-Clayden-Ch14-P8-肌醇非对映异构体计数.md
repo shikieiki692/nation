@@ -1,6 +1,7 @@
 ---
 title: 题-298-Clayden-Ch14-P8-肌醇非对映异构体计数
 type: 题目
+fidelity: 原书逐字
 submodule: 立体化学
 exam_stage: 初赛
 subject: 有机化学

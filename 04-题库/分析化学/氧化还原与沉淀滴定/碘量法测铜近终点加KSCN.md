@@ -2,6 +2,7 @@
 title: "碘量法测铜近终点加KSCN"
 aliases: ["题-分析-03", "题-0659"]
 type: 题目
+fidelity: 原书逐字
 difficulty: 4
 teaching_level: 拓展
 source: "专题页提炼"

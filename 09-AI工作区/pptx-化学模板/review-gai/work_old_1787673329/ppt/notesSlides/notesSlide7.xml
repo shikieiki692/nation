@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ascii"?>
+<p:notes xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
+  <p:cSld>
+    <p:spTree>
+      <p:nvGrpSpPr>
+        <p:cNvPr id="1" name=""/>
+        <p:cNvGrpSpPr/>
+        <p:nvPr/>
+      </p:nvGrpSpPr>
+      <p:grpSpPr/>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="2" name="Notes Placeholder 1"/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr>
+            <p:ph type="body"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="0" y="0"/>
+            <a:ext cx="0" cy="0"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" sz="1200" noProof="1"/>
+              <a:t>&#25480;&#20104;&#21271;&#24029;&#36827;&#12289;&#32599;&#24067;&#26862;&#12289;&#20122;&#21513;&#12290;&#22823;&#30333;&#35805;&#65306;MOF &#23601;&#20687;&#29992;&#20998;&#23376;&#25645;&#30340;&#12300;&#25151;&#23376;&#12301;&#65292;&#37324;&#38754;&#20840;&#26159;&#23567;&#25151;&#38388;&#65292;&#33021;&#35013;&#27668;&#20307;&#12289;&#36865;&#33647;&#29289;&#12290;&#65288;&#26469;&#28304;&#65306;&#35834;&#36125;&#23572;&#22870;&#23448;&#26041;&#65289;&#65288;&#8594; &#19979;&#39029;&#65306;&#21270;&#23398;&#20026;&#20160;&#20040;&#36825;&#20040;&#37325;&#35201;&#65311;&#22240;&#20026;&#23427;&#26159;&#20013;&#24515;&#31185;&#23398;&#12290;&#65289;&#65288;2 min&#65289;</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+    </p:spTree>
+  </p:cSld>
+  <p:clrMapOvr>
+    <a:masterClrMapping/>
+  </p:clrMapOvr>
+</p:notes>

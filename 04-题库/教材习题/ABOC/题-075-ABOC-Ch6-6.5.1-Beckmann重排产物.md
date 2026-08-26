@@ -1,6 +1,7 @@
 ---
 title: 题-075-ABOC-Ch6-6.5.1-Beckmann重排产物
 type: 题目
+fidelity: 原书逐字
 submodule: 基础概念
 exam_stage: 初赛
 subject: 有机化学

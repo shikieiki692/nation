@@ -1,6 +1,7 @@
-﻿---
+---
 title: 题-518-Clayden-Ch40-P5-Pd催化烯丙基化细节
 type: 题目
+fidelity: 原书逐字
 submodule: 金属有机化学
 exam_stage: 初赛
 subject: 有机化学

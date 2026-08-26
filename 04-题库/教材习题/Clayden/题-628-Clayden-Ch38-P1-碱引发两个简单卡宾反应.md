@@ -1,6 +1,7 @@
 ---
 title: 题-628-Clayden-Ch38-P1-碱引发两个简单卡宾反应
 type: 题目
+fidelity: 原书逐字
 submodule: 有机活性中间体
 exam_stage: 初赛
 subject: 有机化学

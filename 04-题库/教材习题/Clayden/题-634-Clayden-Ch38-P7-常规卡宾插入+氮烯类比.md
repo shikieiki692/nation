@@ -1,6 +1,7 @@
 ---
 title: 题-634-Clayden-Ch38-P7-常规卡宾插入+氮烯类比
 type: 题目
+fidelity: 原书逐字
 submodule: 有机活性中间体
 exam_stage: 初赛
 subject: 有机化学

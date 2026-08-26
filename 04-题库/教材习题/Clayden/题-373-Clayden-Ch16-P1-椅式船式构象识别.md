@@ -1,6 +1,7 @@
 ---
 title: 题-373-Clayden-Ch16-P1-椅式船式构象识别
 type: 题目
+fidelity: 原书逐字
 submodule: 构象分析
 exam_stage: 初赛
 subject: 有机化学

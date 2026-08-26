@@ -1,6 +1,7 @@
 ---
 title: 题-538-Clayden-Ch18-P3-三个意外反应产物全光谱确定
 type: 题目
+fidelity: 原书逐字
 submodule: 波谱综合解析
 exam_stage: 决赛
 subject: 有机化学

@@ -1,6 +1,7 @@
-﻿---
+---
 title: "题-有机-周环-DielsAlder反应endo选择性判断"
 type: 题目
+fidelity: 原书逐字
 submodule: 周环反应
 exam_stage: 初赛
 subject: 有机化学

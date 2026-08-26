@@ -1,6 +1,7 @@
 ---
 title: "题-297-Clayden-Ch14-P7-RS构型标注"
 type: 题目
+fidelity: 原书逐字
 submodule: 立体化学
 exam_stage: 初赛
 subject: 有机化学

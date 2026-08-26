@@ -1,6 +1,7 @@
 ---
 title: "题-172-ABOC-Ch9-9.1-36 届初赛第二场 AchR反应"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.9
 exam_stage: 初赛
 subject: 有机化学

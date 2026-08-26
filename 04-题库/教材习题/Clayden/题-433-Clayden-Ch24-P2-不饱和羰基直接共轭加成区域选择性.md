@@ -1,6 +1,7 @@
 ---
 title: 题-433-Clayden-Ch24-P2-不饱和羰基直接共轭加成区域选择性
 type: 题目
+fidelity: 原书逐字
 submodule: 区域选择性
 exam_stage: 初赛
 subject: 有机化学

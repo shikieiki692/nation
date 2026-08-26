@@ -1,6 +1,7 @@
 ---
 title: 题-622-Clayden-Ch36-P15-Eschenmoser碎片化经典应用
 type: 题目
+fidelity: 原书逐字
 submodule: 重排反应
 exam_stage: 复赛
 subject: 有机化学

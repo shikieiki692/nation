@@ -1,6 +1,7 @@
 ---
 title: 题-056-ABOC-Ch4-T3-脱水反应与负氢迁移竞争
 type: 题目
+fidelity: 原书逐字
 submodule: 消除与重排
 exam_stage: 决赛
 subject: 有机化学

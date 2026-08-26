@@ -2,6 +2,7 @@
 title: "题-物电-02-EθΔGθK全链"
 aliases: ["题-物电-02"]
 type: 题目
+fidelity: 原书逐字
 difficulty: 3
 teaching_level: 巩固
 source: "教学改编（物化综合计算讲义 §四 Nernst 四场景）"

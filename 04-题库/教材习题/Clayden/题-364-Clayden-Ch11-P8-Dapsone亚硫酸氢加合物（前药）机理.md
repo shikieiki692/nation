@@ -1,6 +1,7 @@
 ---
 title: 题-364-Clayden-Ch11-P8-Dapsone亚硫酸氢加合物（前药）机理
 type: 题目
+fidelity: 原书逐字
 submodule: 缩醛与亚胺
 exam_stage: 初赛
 subject: 有机化学

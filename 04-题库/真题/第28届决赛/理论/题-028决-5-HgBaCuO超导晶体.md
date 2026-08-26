@@ -1,6 +1,7 @@
 ---
 title: "题-028决-5-HgBaCuO超导晶体"
 type: 题目
+fidelity: 原书逐字
 submodule: 晶体结构与配位化学
 exam_stage: 决赛
 subject: 无机和结构化学
@@ -21,7 +22,7 @@ status: 已填充
 
 高温超导体 $\mathrm{HgBa_2CuO_{4+\delta}}$ 是目前临界温度最高的铜氧化物超导体之一。围绕其晶体结构回答以下问题。
 
-![[perovskite_catio3_structure.jpg]]
+![[0be9b7ea226a27e77a164c01d6ce74895a9477db1854c8fe2b1f8eb4f944da22.jpg]]
 
 ### 5-1 (1分)
 

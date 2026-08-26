@@ -1,6 +1,7 @@
 ---
 title: 题-266-Clayden-Ch6-P5-茚三酮水合选择性
 type: 题目
+fidelity: 原书逐字
 submodule: 羰基亲核加成
 exam_stage: 初赛
 subject: 有机化学

@@ -1,6 +1,7 @@
 ---
 title: 题-371-Clayden-Ch12-P4-溶剂极性对三个反应速率的影响
 type: 题目
+fidelity: 原书逐字
 submodule: 反应动力学
 exam_stage: 初赛
 subject: 有机化学

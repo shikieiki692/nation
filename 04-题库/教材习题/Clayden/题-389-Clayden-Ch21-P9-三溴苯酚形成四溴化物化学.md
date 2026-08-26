@@ -1,6 +1,7 @@
 ---
 title: 题-389-Clayden-Ch21-P9-三溴苯酚形成四溴化物化学
 type: 题目
+fidelity: 原书逐字
 submodule: 芳香亲电取代
 exam_stage: 初赛
 subject: 有机化学

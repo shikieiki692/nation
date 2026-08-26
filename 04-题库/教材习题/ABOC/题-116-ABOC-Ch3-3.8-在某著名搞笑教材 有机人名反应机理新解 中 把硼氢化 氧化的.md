@@ -1,6 +1,7 @@
 ---
 title: "题-116-ABOC-Ch3-3.8-在某著名搞笑教材 有机人名反应机理新解 中 把硼氢化 氧化的"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.3
 exam_stage: 初赛
 subject: 有机化学

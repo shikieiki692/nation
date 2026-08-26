@@ -1,6 +1,7 @@
 ---
 title: "题-34决理-1-9-2-TMSOTf促进反应"
 type: 题目
+fidelity: 原书逐字
 submodule: 有机合成
 exam_stage: 决赛
 subject: 有机化学

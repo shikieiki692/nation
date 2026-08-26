@@ -1,6 +1,7 @@
 ---
 title: "题-026决-2-EDTA滴定BiPb"
 type: 题目
+fidelity: 原书逐字
 submodule: "EDTA滴定-缓冲溶液"
 exam_stage: 决赛
 subject: 分析化学

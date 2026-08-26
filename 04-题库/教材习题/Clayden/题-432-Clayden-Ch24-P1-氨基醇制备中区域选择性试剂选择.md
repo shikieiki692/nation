@@ -1,6 +1,7 @@
 ---
 title: 题-432-Clayden-Ch24-P1-氨基醇制备中区域选择性试剂选择
 type: 题目
+fidelity: 原书逐字
 submodule: 区域选择性
 exam_stage: 初赛
 subject: 有机化学

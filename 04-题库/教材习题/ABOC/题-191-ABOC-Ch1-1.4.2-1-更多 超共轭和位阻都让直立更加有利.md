@@ -1,6 +1,7 @@
 ---
 title: "题-191-ABOC-Ch1-1.4.2-1-更多 超共轭和位阻都让直立更加有利"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.1
 exam_stage: 初赛
 subject: 有机化学

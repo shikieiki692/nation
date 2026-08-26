@@ -1,6 +1,7 @@
 ---
 title: "题-407-Clayden-Ch26-P6-甲醛Aldol失败-Cannizzaro产物"
 type: 题目
+fidelity: 原书逐字
 submodule: Aldol与Claisen反应
 exam_stage: 初赛
 subject: 有机化学

@@ -1,6 +1,7 @@
 ---
 title: 题-507-Clayden-Ch35-P7-九元环热光电环化反应对比
 type: 题目
+fidelity: 原书逐字
 submodule: 周环反应
 exam_stage: 决赛
 subject: 有机化学

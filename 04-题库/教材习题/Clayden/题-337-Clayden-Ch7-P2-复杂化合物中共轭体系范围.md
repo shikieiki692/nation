@@ -1,6 +1,7 @@
 ---
 title: 题-337-Clayden-Ch7-P2-复杂化合物中共轭体系范围
 type: 题目
+fidelity: 原书逐字
 submodule: 共轭效应
 exam_stage: 初赛
 subject: 有机化学

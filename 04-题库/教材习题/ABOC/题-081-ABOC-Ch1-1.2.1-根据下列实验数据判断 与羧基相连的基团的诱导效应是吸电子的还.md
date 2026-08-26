@@ -1,6 +1,7 @@
 ---
 title: "题-081-ABOC-Ch1-1.2.1-根据下列实验数据判断 与羧基相连的基团的诱导效应是吸电子的还"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.1
 exam_stage: 初赛
 subject: 有机化学

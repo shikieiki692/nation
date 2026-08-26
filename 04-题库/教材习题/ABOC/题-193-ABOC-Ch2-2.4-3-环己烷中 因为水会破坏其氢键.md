@@ -1,6 +1,7 @@
 ---
 title: "题-193-ABOC-Ch2-2.4-3-环己烷中 因为水会破坏其氢键"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.2
 exam_stage: 初赛
 subject: 有机化学

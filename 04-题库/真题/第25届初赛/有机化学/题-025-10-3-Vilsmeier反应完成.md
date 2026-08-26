@@ -1,6 +1,7 @@
-﻿---
+---
 title: "题-025-10-3-Vilsmeier反应完成"
 type: 题目
+fidelity: 原书逐字
 submodule: "有机反应·Vilsmeier反应"
 exam_stage: 初赛
 subject: 有机化学

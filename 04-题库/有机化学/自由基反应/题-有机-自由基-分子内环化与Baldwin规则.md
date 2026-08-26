@@ -1,6 +1,7 @@
 ---
 title: "题-有机-自由基-分子内环化与Baldwin规则"
 type: 题目
+fidelity: 原书逐字
 submodule: 自由基反应
 exam_stage: 决赛
 subject: 有机化学

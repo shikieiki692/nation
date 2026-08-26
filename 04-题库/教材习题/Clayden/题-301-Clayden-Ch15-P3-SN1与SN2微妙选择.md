@@ -1,6 +1,7 @@
-﻿---
+---
 title: 题-301-Clayden-Ch15-P3-SN1与SN2微妙选择
 type: 题目
+fidelity: 原书逐字
 submodule: 亲核取代反应
 exam_stage: 初赛
 subject: 有机化学

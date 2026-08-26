@@ -1,6 +1,7 @@
 ---
 title: 题-374-Clayden-Ch16-P2-椅式环己烷axial-equatorial标注
 type: 题目
+fidelity: 原书逐字
 submodule: 构象分析
 exam_stage: 初赛
 subject: 有机化学

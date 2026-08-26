@@ -1,6 +1,7 @@
-﻿---
+---
 title: "题-有机-中间体-卡宾的Simmons-Smith环丙烷化"
 type: 题目
+fidelity: 原书逐字
 submodule: 活性中间体与反应机理
 exam_stage: 决赛
 subject: 有机化学

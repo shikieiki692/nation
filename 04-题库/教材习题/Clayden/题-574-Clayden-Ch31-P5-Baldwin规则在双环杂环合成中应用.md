@@ -1,6 +1,7 @@
 ---
 title: 题-574-Clayden-Ch31-P5-Baldwin规则在双环杂环合成中应用
 type: 题目
+fidelity: 原书逐字
 submodule: 立体电子效应
 exam_stage: 初赛
 subject: 有机化学

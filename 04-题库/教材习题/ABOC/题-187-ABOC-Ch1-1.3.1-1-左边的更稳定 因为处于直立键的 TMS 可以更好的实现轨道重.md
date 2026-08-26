@@ -1,6 +1,7 @@
 ---
 title: "题-187-ABOC-Ch1-1.3.1-1-左边的更稳定 因为处于直立键的 TMS 可以更好的实现轨道重"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.1
 exam_stage: 初赛
 subject: 有机化学

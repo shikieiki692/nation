@@ -1,6 +1,7 @@
 ---
 title: "题-209-ABOC-Ch3-3.3.4-1-无法形成形式上的二醇"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.3
 exam_stage: 初赛
 subject: 有机化学

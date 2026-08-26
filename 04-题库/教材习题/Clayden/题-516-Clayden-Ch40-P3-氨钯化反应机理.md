@@ -1,6 +1,7 @@
-﻿---
+---
 title: 题-516-Clayden-Ch40-P3-氨钯化反应机理
 type: 题目
+fidelity: 原书逐字
 submodule: 金属有机化学
 exam_stage: 初赛
 subject: 有机化学

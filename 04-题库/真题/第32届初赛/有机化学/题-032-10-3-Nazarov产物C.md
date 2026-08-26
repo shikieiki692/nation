@@ -1,6 +1,7 @@
 ---
 title: "题-032-10-3-Nazarov产物C"
 type: 题目
+fidelity: 原书逐字
 submodule: "人名反应与电环化"
 exam_stage: 初赛
 subject: 有机化学

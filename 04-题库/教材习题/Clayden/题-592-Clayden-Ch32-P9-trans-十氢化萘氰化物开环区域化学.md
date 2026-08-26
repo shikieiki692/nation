@@ -1,6 +1,7 @@
 ---
 title: 题-592-Clayden-Ch32-P9-trans-十氢化萘氰化物开环区域化学
 type: 题目
+fidelity: 原书逐字
 submodule: 立体选择性
 exam_stage: 初赛
 subject: 有机化学

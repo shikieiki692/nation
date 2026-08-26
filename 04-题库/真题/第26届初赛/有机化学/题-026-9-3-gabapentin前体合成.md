@@ -1,6 +1,7 @@
-﻿---
+---
 title: "题-026-9-3-gabapentin前体合成"
 type: 题目
+fidelity: 原书逐字
 submodule: "有机合成·逆合成"
 exam_stage: 初赛
 subject: 有机化学

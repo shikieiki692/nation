@@ -1,6 +1,7 @@
 ---
 title: 题-472-Clayden-Ch37-P8-环丙基取代基效应对自由基的影响
 type: 题目
+fidelity: 原书逐字
 submodule: 自由基反应
 exam_stage: 初赛
 subject: 有机化学

@@ -1,6 +1,7 @@
 ---
 title: 题-431-Clayden-Ch23-P8-二胺选择性保护策略
 type: 题目
+fidelity: 原书逐字
 submodule: 化学选择性与保护基
 exam_stage: 初赛
 subject: 有机化学

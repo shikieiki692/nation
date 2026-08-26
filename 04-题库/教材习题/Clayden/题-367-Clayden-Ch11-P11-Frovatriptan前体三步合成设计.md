@@ -1,6 +1,7 @@
 ---
 title: 题-367-Clayden-Ch11-P11-Frovatriptan前体三步合成设计
 type: 题目
+fidelity: 原书逐字
 submodule: 缩醛与亚胺
 exam_stage: 初赛
 subject: 有机化学

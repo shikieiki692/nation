@@ -1,6 +1,7 @@
 ---
 title: "题-112-ABOC-Ch3-3.2.3-卤代内酯化反应是一种简单的串联反应 已知反应"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.3
 exam_stage: 初赛
 subject: 有机化学

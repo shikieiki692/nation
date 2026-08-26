@@ -1,6 +1,7 @@
-﻿---
+---
 title: "题-164-ABOC-Ch7-7.1-写出以下反应的产物 提示 黑点表示氢朝上"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.7
 exam_stage: 初赛
 subject: 有机化学

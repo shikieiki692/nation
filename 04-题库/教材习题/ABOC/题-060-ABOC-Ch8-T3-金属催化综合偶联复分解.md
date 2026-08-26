@@ -1,6 +1,7 @@
 ---
 title: 题-060-ABOC-Ch8-T3-金属催化综合偶联复分解
 type: 题目
+fidelity: 原书逐字
 submodule: 金属催化
 exam_stage: 决赛
 subject: 有机化学

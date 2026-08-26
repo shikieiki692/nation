@@ -1,6 +1,7 @@
 ---
 title: "题-192-ABOC-Ch1-1.4.2-2-孤对电子被溶剂化 且直立异构体偶极矩小于平伏异构体 极性溶剂"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.1
 exam_stage: 初赛
 subject: 有机化学

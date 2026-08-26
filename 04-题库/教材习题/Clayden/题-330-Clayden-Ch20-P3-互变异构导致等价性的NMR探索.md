@@ -1,6 +1,7 @@
 ---
 title: 题-330-Clayden-Ch20-P3-互变异构导致等价性的NMR探索
 type: 题目
+fidelity: 原书逐字
 submodule: 烯醇和烯醇盐
 exam_stage: 初赛
 subject: 有机化学

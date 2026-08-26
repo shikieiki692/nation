@@ -1,6 +1,7 @@
 ---
 title: 题-605-Clayden-Ch33-P10-Ch33-P1扩展：氨基酸醇非对映选择性
 type: 题目
+fidelity: 原书逐字
 submodule: 非对映选择性
 exam_stage: 初赛
 subject: 有机化学

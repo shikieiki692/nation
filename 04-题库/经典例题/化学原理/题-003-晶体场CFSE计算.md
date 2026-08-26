@@ -2,6 +2,7 @@
 title: 题-003-晶体场CFSE计算
 aliases: [Co配合物CFSE]
 type: 题目
+fidelity: 自编
 difficulty: 4
 teaching_level: 拓展
 source: 经典例题

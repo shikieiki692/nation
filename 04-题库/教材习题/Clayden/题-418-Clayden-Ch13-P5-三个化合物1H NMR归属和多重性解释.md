@@ -1,6 +1,7 @@
 ---
 title: 题-418-Clayden-Ch13-P5-三个化合物1H NMR归属和多重性解释
 type: 题目
+fidelity: 原书逐字
 submodule: NMR谱学
 exam_stage: 决赛
 subject: 有机化学

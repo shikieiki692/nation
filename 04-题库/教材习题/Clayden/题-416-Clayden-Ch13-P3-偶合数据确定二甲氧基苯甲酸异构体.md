@@ -1,6 +1,7 @@
 ---
 title: 题-416-Clayden-Ch13-P3-偶合数据确定二甲氧基苯甲酸异构体
 type: 题目
+fidelity: 原书逐字
 submodule: NMR谱学
 exam_stage: 初赛
 subject: 有机化学

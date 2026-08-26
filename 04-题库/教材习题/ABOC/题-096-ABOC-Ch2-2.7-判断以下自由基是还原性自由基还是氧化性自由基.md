@@ -1,6 +1,7 @@
 ---
 title: "题-096-ABOC-Ch2-2.7-判断以下自由基是还原性自由基还是氧化性自由基"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.2
 exam_stage: 初赛
 subject: 有机化学

@@ -1,6 +1,7 @@
 ---
 title: 题-370-Clayden-Ch12-P3-氰醇形成能量图绘制
 type: 题目
+fidelity: 原书逐字
 submodule: 反应动力学
 exam_stage: 初赛
 subject: 有机化学

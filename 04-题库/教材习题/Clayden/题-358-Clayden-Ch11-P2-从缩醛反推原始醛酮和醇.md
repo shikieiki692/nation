@@ -1,6 +1,7 @@
 ---
 title: 题-358-Clayden-Ch11-P2-从缩醛反推原始醛酮和醇
 type: 题目
+fidelity: 原书逐字
 submodule: 缩醛与亚胺
 exam_stage: 初赛
 subject: 有机化学

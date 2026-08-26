@@ -1,6 +1,7 @@
 ---
 title: 题-430-Clayden-Ch23-P7-双环体系化学选择性和立体选择性
 type: 题目
+fidelity: 原书逐字
 submodule: 化学选择性与保护基
 exam_stage: 初赛
 subject: 有机化学

@@ -1,6 +1,7 @@
 ---
 title: "题-091-ABOC-Ch1-1.4.2-1-在以上例子中 如果把氮原子换成氟原子 直立构象产物会更多还是"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.1
 exam_stage: 初赛
 subject: 有机化学

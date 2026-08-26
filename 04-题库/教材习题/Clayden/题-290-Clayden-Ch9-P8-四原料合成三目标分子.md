@@ -1,6 +1,7 @@
 ---
 title: 题-290-Clayden-Ch9-P8-四原料合成三目标分子
 type: 题目
+fidelity: 原书逐字
 submodule: 有机金属试剂
 exam_stage: 初赛
 subject: 有机化学

@@ -1,6 +1,7 @@
 ---
 title: 题-494-Clayden-Ch34-P6-1,3-偶极环加成立体化学控制
 type: 题目
+fidelity: 原书逐字
 submodule: 环加成反应
 exam_stage: 初赛
 subject: 有机化学

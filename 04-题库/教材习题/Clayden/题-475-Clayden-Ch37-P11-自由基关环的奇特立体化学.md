@@ -1,6 +1,7 @@
 ---
 title: 题-475-Clayden-Ch37-P11-自由基关环的奇特立体化学
 type: 题目
+fidelity: 原书逐字
 submodule: 自由基反应
 exam_stage: 初赛
 subject: 有机化学

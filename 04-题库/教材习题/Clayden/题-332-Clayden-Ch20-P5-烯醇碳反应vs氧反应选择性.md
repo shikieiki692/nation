@@ -1,6 +1,7 @@
 ---
 title: 题-332-Clayden-Ch20-P5-烯醇碳反应vs氧反应选择性
 type: 题目
+fidelity: 原书逐字
 submodule: 烯醇和烯醇盐
 exam_stage: 初赛
 subject: 有机化学

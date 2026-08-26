@@ -1,6 +1,7 @@
 ---
 title: 题-324-Clayden-Ch19-P5-HBr加成后SN1水解（镇静剂合成）
 type: 题目
+fidelity: 原书逐字
 submodule: 烯烃的亲电加成
 exam_stage: 初赛
 subject: 有机化学

@@ -1,6 +1,7 @@
 ---
 title: 题-609-Clayden-Ch36-P2-Beckmann重排立体化学和机理
 type: 题目
+fidelity: 原书逐字
 submodule: 重排反应
 exam_stage: 初赛
 subject: 有机化学

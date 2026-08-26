@@ -1,6 +1,7 @@
-﻿---
+---
 title: "题-147-ABOC-Ch5-5.10.8-1-1964 年 M Regitz 在原先 Dimroth 方法"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.5
 exam_stage: 初赛
 subject: 有机化学

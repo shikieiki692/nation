@@ -1,6 +1,7 @@
 ---
 title: 题-042-ABOC-FT1-P1-EX1-CO2自由基负离子催化循环
 type: 题目
+fidelity: 原书逐字
 submodule: 自由基化学
 exam_stage: 决赛
 subject: 有机化学

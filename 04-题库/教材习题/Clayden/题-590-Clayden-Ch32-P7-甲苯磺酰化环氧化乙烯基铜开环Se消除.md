@@ -1,6 +1,7 @@
 ---
 title: 题-590-Clayden-Ch32-P7-甲苯磺酰化环氧化乙烯基铜开环Se消除
 type: 题目
+fidelity: 原书逐字
 submodule: 立体选择性
 exam_stage: 初赛
 subject: 有机化学

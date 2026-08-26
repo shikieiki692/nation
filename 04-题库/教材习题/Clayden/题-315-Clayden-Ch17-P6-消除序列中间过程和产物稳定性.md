@@ -1,6 +1,7 @@
 ---
 title: 题-315-Clayden-Ch17-P6-消除序列中间过程和产物稳定性
 type: 题目
+fidelity: 原书逐字
 submodule: 消除反应
 exam_stage: 初赛
 subject: 有机化学

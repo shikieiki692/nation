@@ -1,6 +1,7 @@
 ---
 title: "题-179-ABOC-Ch9-9.4.2-ZChem GCHO 写出以下反应的中间体和产物结构式 得到"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.9
 exam_stage: 初赛
 subject: 有机化学

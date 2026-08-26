@@ -1,6 +1,7 @@
 ---
 title: 题-506-Clayden-Ch35-P6-阴离子上的不寻常电环化反应
 type: 题目
+fidelity: 原书逐字
 submodule: 周环反应
 exam_stage: 决赛
 subject: 有机化学

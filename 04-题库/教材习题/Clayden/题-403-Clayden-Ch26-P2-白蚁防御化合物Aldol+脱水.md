@@ -1,6 +1,7 @@
 ---
 title: 题-403-Clayden-Ch26-P2-白蚁防御化合物Aldol+脱水
 type: 题目
+fidelity: 原书逐字
 submodule: Aldol与Claisen反应
 exam_stage: 初赛
 subject: 有机化学

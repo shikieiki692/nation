@@ -1,6 +1,7 @@
 ---
 title: 题-554-Clayden-Ch29-P5-吲哚Friedel-Crafts烷基化
 type: 题目
+fidelity: 原书逐字
 submodule: 杂环化合物
 exam_stage: 初赛
 subject: 有机化学

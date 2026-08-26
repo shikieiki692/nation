@@ -2,6 +2,7 @@
 title: "EDTA络合滴定中酸效应系数的计算"
 aliases: ["题-络合-01", "题-0660"]
 type: 题目
+fidelity: 原书逐字
 difficulty: 4
 teaching_level: 拓展
 source: "专题页提炼"

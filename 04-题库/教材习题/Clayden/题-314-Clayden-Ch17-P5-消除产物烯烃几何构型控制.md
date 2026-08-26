@@ -1,6 +1,7 @@
-﻿---
+---
 title: 题-314-Clayden-Ch17-P5-消除产物烯烃几何构型控制
 type: 题目
+fidelity: 原书逐字
 submodule: 消除反应
 exam_stage: 初赛
 subject: 有机化学

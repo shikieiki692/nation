@@ -1,6 +1,7 @@
 ---
 title: 题-526-Clayden-Ch41-P3-不对称合成初步规划
 type: 题目
+fidelity: 原书逐字
 submodule: 不对称合成
 exam_stage: 决赛
 subject: 有机化学

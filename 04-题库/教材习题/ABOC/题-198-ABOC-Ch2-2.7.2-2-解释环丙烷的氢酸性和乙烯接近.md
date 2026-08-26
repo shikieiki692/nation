@@ -1,6 +1,7 @@
 ---
 title: "题-198-ABOC-Ch2-2.7.2-2-解释环丙烷的氢酸性和乙烯接近"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.2
 exam_stage: 初赛
 subject: 有机化学

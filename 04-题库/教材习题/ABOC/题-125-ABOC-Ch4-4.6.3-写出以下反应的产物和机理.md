@@ -1,6 +1,7 @@
 ---
 title: "题-125-ABOC-Ch4-4.6.3-写出以下反应的产物和机理"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.4
 exam_stage: 初赛
 subject: 有机化学

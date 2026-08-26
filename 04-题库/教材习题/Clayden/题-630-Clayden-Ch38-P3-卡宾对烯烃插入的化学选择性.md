@@ -1,6 +1,7 @@
 ---
 title: 题-630-Clayden-Ch38-P3-卡宾对烯烃插入的化学选择性
 type: 题目
+fidelity: 原书逐字
 submodule: 有机活性中间体
 exam_stage: 初赛
 subject: 有机化学

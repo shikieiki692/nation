@@ -1,6 +1,7 @@
 ---
 title: 题-366-Clayden-Ch11-P10-含氮官能团转化试剂选择
 type: 题目
+fidelity: 原书逐字
 submodule: 缩醛与亚胺
 exam_stage: 初赛
 subject: 有机化学

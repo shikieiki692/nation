@@ -1,6 +1,7 @@
 ---
 title: "题-109-ABOC-Ch3-3.1.1-在Clayden 教材中存在一个著名的错误"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.3
 exam_stage: 初赛
 subject: 有机化学

@@ -1,6 +1,7 @@
 ---
 title: "题-108-ABOC-Ch2-2.11-碎裂化反应"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.2
 exam_stage: 初赛
 subject: 有机化学

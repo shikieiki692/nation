@@ -1,6 +1,7 @@
 ---
 title: 题-649-Clayden-Ch39-P9-标记实验探索机理
 type: 题目
+fidelity: 原书逐字
 submodule: 有机反应机理
 exam_stage: 初赛
 subject: 有机化学

@@ -1,6 +1,7 @@
 ---
 title: 题-585-Clayden-Ch32-P2-非反应对立体化学的影响
 type: 题目
+fidelity: 原书逐字
 submodule: 立体选择性
 exam_stage: 初赛
 subject: 有机化学

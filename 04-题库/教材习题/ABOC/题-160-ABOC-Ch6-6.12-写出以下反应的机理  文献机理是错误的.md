@@ -1,6 +1,7 @@
 ---
 title: "题-160-ABOC-Ch6-6.12-写出以下反应的机理  文献机理是错误的"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.6
 exam_stage: 初赛
 subject: 有机化学

@@ -1,6 +1,7 @@
 ---
 title: 题-553-Clayden-Ch29-P4-吡咯苯吡啶反应活性对比
 type: 题目
+fidelity: 原书逐字
 submodule: 杂环化合物
 exam_stage: 初赛
 subject: 有机化学

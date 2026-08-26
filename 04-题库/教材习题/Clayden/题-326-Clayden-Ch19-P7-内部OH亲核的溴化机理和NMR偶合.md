@@ -1,6 +1,7 @@
 ---
 title: 题-326-Clayden-Ch19-P7-内部OH亲核的溴化机理和NMR偶合
 type: 题目
+fidelity: 原书逐字
 submodule: 烯烃的亲电加成
 exam_stage: 初赛
 subject: 有机化学

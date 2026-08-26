@@ -1,6 +1,7 @@
 ---
 title: 题-375-Clayden-Ch16-P3-取代基轴向赤道混合判断
 type: 题目
+fidelity: 原书逐字
 submodule: 构象分析
 exam_stage: 初赛
 subject: 有机化学

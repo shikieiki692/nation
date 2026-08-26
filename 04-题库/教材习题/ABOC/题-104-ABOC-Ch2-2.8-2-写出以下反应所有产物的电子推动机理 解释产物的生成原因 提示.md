@@ -1,6 +1,7 @@
 ---
 title: "题-104-ABOC-Ch2-2.8-2-写出以下反应所有产物的电子推动机理 解释产物的生成原因 提示"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.2
 exam_stage: 初赛
 subject: 有机化学

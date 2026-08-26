@@ -1,6 +1,7 @@
 ---
 title: 题-548-Clayden-Ch18-P13-仅1H NMR确定小分子ABC
 type: 题目
+fidelity: 原书逐字
 submodule: 波谱综合解析
 exam_stage: 决赛
 subject: 有机化学

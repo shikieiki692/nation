@@ -1,6 +1,7 @@
 ---
 title: 题-329-Clayden-Ch20-P2-两个酮烯醇含量差异解释
 type: 题目
+fidelity: 原书逐字
 submodule: 烯醇和烯醇盐
 exam_stage: 初赛
 subject: 有机化学

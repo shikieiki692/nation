@@ -1,6 +1,7 @@
 ---
 title: 题-444-Clayden-Ch25-P3-烯胺类烷基化合成胺
 type: 题目
+fidelity: 原书逐字
 submodule: 烯醇盐化学
 exam_stage: 初赛
 subject: 有机化学

@@ -1,6 +1,7 @@
-﻿---
+---
 title: 题-045-ABOC-FT1-P1-EX4-33重排DA串联
 type: 题目
+fidelity: 原书逐字
 submodule: 周环反应
 exam_stage: 决赛
 subject: 有机化学

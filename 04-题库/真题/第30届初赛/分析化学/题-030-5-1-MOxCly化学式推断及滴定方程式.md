@@ -1,6 +1,7 @@
-﻿---
+---
 title: "题-030-5-1-MOxCly化学式推断及滴定方程式"
 type: 题目
+fidelity: 原书逐字
 submodule: ""
 exam_stage: 初赛
 subject: 分析化学

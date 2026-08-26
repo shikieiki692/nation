@@ -1,6 +1,7 @@
 ---
 title: 题-464-Clayden-Ch28-P10-手性蚂蚁信息素合成策略
 type: 题目
+fidelity: 原书逐字
 submodule: 逆合成分析
 exam_stage: 初赛
 subject: 有机化学

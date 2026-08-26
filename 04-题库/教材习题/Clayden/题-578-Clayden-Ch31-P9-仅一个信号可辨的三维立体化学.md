@@ -1,6 +1,7 @@
 ---
 title: 题-578-Clayden-Ch31-P9-仅一个信号可辨的三维立体化学
 type: 题目
+fidelity: 原书逐字
 submodule: 立体电子效应
 exam_stage: 初赛
 subject: 有机化学

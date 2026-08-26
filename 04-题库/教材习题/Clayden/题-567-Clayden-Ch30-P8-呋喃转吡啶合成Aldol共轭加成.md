@@ -1,6 +1,7 @@
 ---
 title: 题-567-Clayden-Ch30-P8-呋喃转吡啶合成Aldol共轭加成
 type: 题目
+fidelity: 原书逐字
 submodule: 杂环合成
 exam_stage: 初赛
 subject: 有机化学

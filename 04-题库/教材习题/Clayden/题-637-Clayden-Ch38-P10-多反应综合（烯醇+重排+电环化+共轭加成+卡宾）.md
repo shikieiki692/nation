@@ -1,6 +1,7 @@
 ---
 title: 题-637-Clayden-Ch38-P10-多反应综合（烯醇+重排+电环化+共轭加成+卡宾）
 type: 题目
+fidelity: 原书逐字
 submodule: 有机活性中间体
 exam_stage: 初赛
 subject: 有机化学

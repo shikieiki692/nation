@@ -1,6 +1,7 @@
 ---
 title: 题-448-Clayden-Ch25-P7-烯醇等价体与Br2和RCH2Br反应
 type: 题目
+fidelity: 原书逐字
 submodule: 烯醇盐化学
 exam_stage: 初赛
 subject: 有机化学

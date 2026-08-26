@@ -2,6 +2,7 @@
 title: "题-物热-02-Born-Haber循环求晶格能"
 aliases: ["题-物热-02"]
 type: 题目
+fidelity: 原书逐字
 difficulty: 3
 teaching_level: 巩固
 source: "教学改编（普化原理第4版 + 赵鑫光热力学题集）"

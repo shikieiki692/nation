@@ -1,6 +1,7 @@
 ---
 title: 题-587-Clayden-Ch32-P4-已有环侧关环反应立体化学控制
 type: 题目
+fidelity: 原书逐字
 submodule: 立体选择性
 exam_stage: 初赛
 subject: 有机化学

@@ -1,6 +1,7 @@
 ---
 title: 题-280-Clayden-Ch8-P9-半胱氨酸和精氨酸pKa及不同pH结构
 type: 题目
+fidelity: 原书逐字
 submodule: 酸碱质子理论
 exam_stage: 初赛
 subject: 有机化学

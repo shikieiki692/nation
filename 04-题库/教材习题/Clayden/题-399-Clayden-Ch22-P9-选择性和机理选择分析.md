@@ -1,6 +1,7 @@
 ---
 title: 题-399-Clayden-Ch22-P9-选择性和机理选择分析
 type: 题目
+fidelity: 原书逐字
 submodule: 共轭加成
 exam_stage: 初赛
 subject: 有机化学

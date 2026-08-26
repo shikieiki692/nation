@@ -1,6 +1,7 @@
 ---
 title: 题-062-ABOC-Ch1-1.1.1-离去基判断
 type: 题目
+fidelity: 原书逐字
 submodule: 基础概念
 exam_stage: 初赛
 subject: 有机化学

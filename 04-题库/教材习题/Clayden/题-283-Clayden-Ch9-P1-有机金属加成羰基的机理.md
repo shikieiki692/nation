@@ -1,6 +1,7 @@
 ---
 title: 题-283-Clayden-Ch9-P1-有机金属加成羰基的机理
 type: 题目
+fidelity: 原书逐字
 submodule: 有机金属试剂
 exam_stage: 初赛
 subject: 有机化学

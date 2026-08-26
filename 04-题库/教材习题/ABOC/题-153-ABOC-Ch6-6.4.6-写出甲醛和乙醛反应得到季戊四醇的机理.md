@@ -1,6 +1,7 @@
 ---
 title: "题-153-ABOC-Ch6-6.4.6-写出甲醛和乙醛反应得到季戊四醇的机理"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.6
 exam_stage: 初赛
 subject: 有机化学

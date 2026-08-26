@@ -1,6 +1,7 @@
 ---
 title: 题-050-ABOC-FT1-P2-EX4-吡啶官能团化PADI催化
 type: 题目
+fidelity: 原书逐字
 submodule: 方法学分析
 exam_stage: 决赛
 subject: 有机化学

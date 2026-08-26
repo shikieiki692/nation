@@ -1,6 +1,7 @@
 ---
 title: 题-397-Clayden-Ch22-P7-氯吡啶亲核取代选择性
 type: 题目
+fidelity: 原书逐字
 submodule: 共轭加成
 exam_stage: 初赛
 subject: 有机化学

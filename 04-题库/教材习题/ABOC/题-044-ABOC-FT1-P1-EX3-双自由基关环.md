@@ -1,6 +1,7 @@
 ---
 title: 题-044-ABOC-FT1-P1-EX3-双自由基关环
 type: 题目
+fidelity: 原书逐字
 submodule: 周环反应与自由基
 exam_stage: 决赛
 subject: 有机化学

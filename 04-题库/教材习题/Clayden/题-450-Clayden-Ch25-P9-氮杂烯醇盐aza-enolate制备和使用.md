@@ -1,6 +1,7 @@
 ---
 title: 题-450-Clayden-Ch25-P9-氮杂烯醇盐aza-enolate制备和使用
 type: 题目
+fidelity: 原书逐字
 submodule: 烯醇盐化学
 exam_stage: 初赛
 subject: 有机化学

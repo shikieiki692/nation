@@ -1,6 +1,7 @@
 ---
 title: 题-512-Clayden-Ch35-P12-三元环参与的σ迁移重排
 type: 题目
+fidelity: 原书逐字
 submodule: 周环反应
 exam_stage: 决赛
 subject: 有机化学

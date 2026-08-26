@@ -1,6 +1,7 @@
 ---
 title: 题-323-Clayden-Ch19-P4-环戊二烯单环氧化选择性
 type: 题目
+fidelity: 原书逐字
 submodule: 烯烃的亲电加成
 exam_stage: 初赛
 subject: 有机化学

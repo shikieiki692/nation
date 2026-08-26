@@ -1,6 +1,7 @@
 ---
 title: 题-354-Clayden-Ch10-P10-Amelfolide合成路线设计
 type: 题目
+fidelity: 原书逐字
 submodule: 羧酸衍生物
 exam_stage: 初赛
 subject: 有机化学

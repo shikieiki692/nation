@@ -1,6 +1,7 @@
-﻿---
+---
 title: 题-058-ABOC-Ch6-T3-缩合策略综合
 type: 题目
+fidelity: 原书逐字
 submodule: 缩合反应
 exam_stage: 决赛
 subject: 有机化学

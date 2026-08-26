@@ -1,6 +1,7 @@
 ---
 title: 题-441-Clayden-Ch24-P10-药物etalocib前体芳香合成
 type: 题目
+fidelity: 原书逐字
 submodule: 区域选择性
 exam_stage: 初赛
 subject: 有机化学

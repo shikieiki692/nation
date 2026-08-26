@@ -1,6 +1,7 @@
 ---
 title: 题-279-Clayden-Ch8-P8-五个苯酚pKa值排序
 type: 题目
+fidelity: 原书逐字
 submodule: 酸碱质子理论
 exam_stage: 初赛
 subject: 有机化学

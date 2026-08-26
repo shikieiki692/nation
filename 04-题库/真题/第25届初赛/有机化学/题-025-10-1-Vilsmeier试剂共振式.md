@@ -1,6 +1,7 @@
 ---
 title: "题-025-10-1-Vilsmeier试剂共振式"
 type: 题目
+fidelity: 原书逐字
 submodule: "有机结构·共振式"
 exam_stage: 初赛
 subject: 有机化学

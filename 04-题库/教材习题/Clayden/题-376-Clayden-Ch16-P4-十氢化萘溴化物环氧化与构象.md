@@ -1,6 +1,7 @@
 ---
 title: 题-376-Clayden-Ch16-P4-十氢化萘溴化物环氧化与构象
 type: 题目
+fidelity: 原书逐字
 submodule: 构象分析
 exam_stage: 初赛
 subject: 有机化学

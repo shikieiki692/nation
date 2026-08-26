@@ -1,6 +1,7 @@
 ---
 title: "题-189-ABOC-Ch1-1.3.1-4-可行的机理很多 这里给出一种最短的路径"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.1
 exam_stage: 初赛
 subject: 有机化学

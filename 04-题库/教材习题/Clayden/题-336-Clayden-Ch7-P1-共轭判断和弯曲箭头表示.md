@@ -1,6 +1,7 @@
 ---
 title: 题-336-Clayden-Ch7-P1-共轭判断和弯曲箭头表示
 type: 题目
+fidelity: 原书逐字
 submodule: 共轭效应
 exam_stage: 初赛
 subject: 有机化学

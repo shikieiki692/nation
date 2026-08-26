@@ -1,6 +1,7 @@
-﻿---
+---
 title: "题-034-9-2-2-Cannizzaro反应氧18标记产物"
 type: 题目
+fidelity: 原书逐字
 submodule: 反应机理与同位素示踪
 exam_stage: 初赛
 subject: 有机化学
@@ -14,6 +15,7 @@ aliases: [34届初赛-9.2.2, Cannizzaro氧18标记]
 source: 第34届中国化学奥林匹克（初赛）第9题第(2-2)小问
 module: 有机化学
 status: 已填充
+big_question: "第9题"
 ---
 # 题-034-9-2-2：Cannizzaro反应氧18标记产物
 
@@ -66,3 +68,20 @@ status: 已填充
 | 只画出产物1 | 对 Cannizzaro 机理理解不够深入，忽略半缩醛的可逆性 | 半缩醛形成是可逆的，羰基氧可以与溶剂氧交换 | 半缩醛结构为什么可以发生氧原子交换？ |
 | 标记位置错误 | 对机理中原子迁移路径不清楚 | 需要明确标出每个氧原子在机理中的来源和去向 | 在机理图中标注每个氧原子的来源 |
 | 认为只有苯甲酸含 $^{18}O$ | 没有考虑氧原子交换后苯甲醇也可能含 $^{18}O$ | 通过交换，苯甲醇的氧原子也可被 $^{18}O$ 取代 | 苯甲醇中的氧原子最终可能来自哪里？ |
+
+## 🔗 同大题小问
+
+```dataviewjs
+const name = dv.current().file.name;
+const m = name.match(/^(题-\d+b?-\d+-)\d+-/);
+if (m) {
+  const prefix = m[1];
+  const pages = dv.pages('"04-题库/真题"')
+    .where(p => p.file.name.startsWith(prefix) && p.file.name !== name)
+    .sort(p => parseInt(p.file.name.match(/-(\d+)-/)[1]));
+  if (pages.length) {
+    dv.header(4, "🔗 同大题小问（按序）");
+    dv.list(pages.map(p => p.file.link));
+  }
+}
+```

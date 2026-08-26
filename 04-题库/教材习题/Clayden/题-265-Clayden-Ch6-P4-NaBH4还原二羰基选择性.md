@@ -1,6 +1,7 @@
 ---
 title: 题-265-Clayden-Ch6-P4-NaBH4还原二羰基选择性
 type: 题目
+fidelity: 原书逐字
 submodule: 羰基亲核加成
 exam_stage: 初赛
 subject: 有机化学

@@ -1,6 +1,7 @@
 ---
 title: "题-114-ABOC-Ch3-3.3-2-写出存在碱时反式邻环戊二醇与四醋酸铅反应的机理"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.3
 exam_stage: 初赛
 subject: 有机化学

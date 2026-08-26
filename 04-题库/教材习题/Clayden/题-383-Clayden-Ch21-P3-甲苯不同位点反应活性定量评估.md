@@ -1,6 +1,7 @@
 ---
 title: 题-383-Clayden-Ch21-P3-甲苯不同位点反应活性定量评估
 type: 题目
+fidelity: 原书逐字
 submodule: 芳香亲电取代
 exam_stage: 初赛
 subject: 有机化学

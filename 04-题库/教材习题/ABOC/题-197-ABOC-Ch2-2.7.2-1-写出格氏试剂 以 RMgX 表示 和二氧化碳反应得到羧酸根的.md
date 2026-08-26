@@ -1,6 +1,7 @@
 ---
 title: "题-197-ABOC-Ch2-2.7.2-1-写出格氏试剂 以 RMgX 表示 和二氧化碳反应得到羧酸根的"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.2
 exam_stage: 初赛
 subject: 有机化学

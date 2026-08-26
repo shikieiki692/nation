@@ -1,6 +1,7 @@
 ---
 title: 题-566-Clayden-Ch30-P7-芳香亲核取代三唑合成机理
 type: 题目
+fidelity: 原书逐字
 submodule: 杂环合成
 exam_stage: 初赛
 subject: 有机化学

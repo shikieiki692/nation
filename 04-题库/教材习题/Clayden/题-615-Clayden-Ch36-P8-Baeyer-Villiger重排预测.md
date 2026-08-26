@@ -1,6 +1,7 @@
 ---
 title: 题-615-Clayden-Ch36-P8-Baeyer-Villiger重排预测
 type: 题目
+fidelity: 原书逐字
 submodule: 重排反应
 exam_stage: 初赛
 subject: 有机化学

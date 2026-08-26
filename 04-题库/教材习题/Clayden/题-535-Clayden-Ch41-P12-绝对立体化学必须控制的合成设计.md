@@ -1,6 +1,7 @@
 ---
 title: 题-535-Clayden-Ch41-P12-绝对立体化学必须控制的合成设计
 type: 题目
+fidelity: 原书逐字
 submodule: 不对称合成
 exam_stage: 决赛
 subject: 有机化学

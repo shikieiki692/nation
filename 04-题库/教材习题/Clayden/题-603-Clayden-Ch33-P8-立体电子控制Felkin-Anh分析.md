@@ -1,6 +1,7 @@
 ---
 title: 题-603-Clayden-Ch33-P8-立体电子控制Felkin-Anh分析
 type: 题目
+fidelity: 原书逐字
 submodule: 非对映选择性
 exam_stage: 初赛
 subject: 有机化学

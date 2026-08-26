@@ -1,6 +1,7 @@
 ---
 title: "题-113-ABOC-Ch3-3.3.4-1-解释以下问题 a 羟基酸 1 2 二酮 a 二酮  a 氨基"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.3
 exam_stage: 初赛
 subject: 有机化学

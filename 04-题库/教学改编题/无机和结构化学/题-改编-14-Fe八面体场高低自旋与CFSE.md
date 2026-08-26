@@ -1,6 +1,7 @@
-﻿---
+---
 title: "题-改编-14-Fe八面体场高低自旋与CFSE"
 type: 题目
+fidelity: 自编
 submodule: 配位化合物
 exam_stage: 决赛
 subject: 无机和结构化学

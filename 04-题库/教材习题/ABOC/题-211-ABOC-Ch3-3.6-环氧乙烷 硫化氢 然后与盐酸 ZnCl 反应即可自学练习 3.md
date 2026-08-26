@@ -1,6 +1,7 @@
 ---
 title: "题-211-ABOC-Ch3-3.6-环氧乙烷 硫化氢 然后与盐酸 ZnCl 反应即可自学练习 3"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.3
 exam_stage: 初赛
 subject: 有机化学

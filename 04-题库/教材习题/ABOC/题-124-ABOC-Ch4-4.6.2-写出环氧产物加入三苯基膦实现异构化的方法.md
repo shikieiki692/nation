@@ -1,6 +1,7 @@
 ---
 title: "题-124-ABOC-Ch4-4.6.2-写出环氧产物加入三苯基膦实现异构化的方法"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.4
 exam_stage: 初赛
 subject: 有机化学

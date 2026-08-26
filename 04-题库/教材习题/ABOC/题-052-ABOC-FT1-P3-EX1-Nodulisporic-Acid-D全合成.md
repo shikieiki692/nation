@@ -1,6 +1,7 @@
 ---
 title: 题-052-ABOC-FT1-P3-EX1-Nodulisporic-Acid-D全合成
 type: 题目
+fidelity: 原书逐字
 submodule: 全合成
 exam_stage: 决赛
 subject: 有机化学

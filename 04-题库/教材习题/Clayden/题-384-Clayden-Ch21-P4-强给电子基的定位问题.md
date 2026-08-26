@@ -1,6 +1,7 @@
 ---
 title: 题-384-Clayden-Ch21-P4-强给电子基的定位问题
 type: 题目
+fidelity: 原书逐字
 submodule: 芳香亲电取代
 exam_stage: 初赛
 subject: 有机化学

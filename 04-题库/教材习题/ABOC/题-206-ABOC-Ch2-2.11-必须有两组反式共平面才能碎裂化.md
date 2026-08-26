@@ -1,6 +1,7 @@
 ---
 title: "题-206-ABOC-Ch2-2.11-必须有两组反式共平面才能碎裂化"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.2
 exam_stage: 初赛
 subject: 有机化学

@@ -1,6 +1,7 @@
 ---
 title: 题-545-Clayden-Ch18-P10-环氧醇+LiBr产物A（环收缩）结构
 type: 题目
+fidelity: 原书逐字
 submodule: 波谱综合解析
 exam_stage: 决赛
 subject: 有机化学

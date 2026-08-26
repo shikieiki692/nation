@@ -1,6 +1,7 @@
 ---
 title: "题-福建35-09：抗肿瘤药 Pelitinib 的合成"
 type: 题目
+fidelity: 原书逐字
 submodule: 有机化学
 exam_stage: 省预赛
 province: 福建

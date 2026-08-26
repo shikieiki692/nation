@@ -1,6 +1,7 @@
 ---
 title: 题-378-Clayden-Ch16-P6-三环溴化物水解产物构象和立体化学
 type: 题目
+fidelity: 原书逐字
 submodule: 构象分析
 exam_stage: 初赛
 subject: 有机化学

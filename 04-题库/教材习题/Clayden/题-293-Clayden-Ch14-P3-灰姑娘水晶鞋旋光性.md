@@ -1,6 +1,7 @@
 ---
 title: 题-293-Clayden-Ch14-P3-灰姑娘水晶鞋旋光性
 type: 题目
+fidelity: 原书逐字
 submodule: 立体化学
 exam_stage: 初赛
 subject: 有机化学

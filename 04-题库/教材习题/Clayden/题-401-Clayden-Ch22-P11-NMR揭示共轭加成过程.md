@@ -1,6 +1,7 @@
 ---
 title: 题-401-Clayden-Ch22-P11-NMR揭示共轭加成过程
 type: 题目
+fidelity: 原书逐字
 submodule: 共轭加成
 exam_stage: 初赛
 subject: 有机化学

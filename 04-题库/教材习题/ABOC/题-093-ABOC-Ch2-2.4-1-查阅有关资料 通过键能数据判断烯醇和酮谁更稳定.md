@@ -1,6 +1,7 @@
 ---
 title: "题-093-ABOC-Ch2-2.4-1-查阅有关资料 通过键能数据判断烯醇和酮谁更稳定"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.2
 exam_stage: 初赛
 subject: 有机化学

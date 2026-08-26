@@ -1,6 +1,7 @@
 ---
 title: "题-520-Clayden-Ch40-P7-羰基化Stille偶联"
 type: 题目
+fidelity: 原书逐字
 submodule: 金属有机化学
 exam_stage: 初赛
 subject: 有机化学

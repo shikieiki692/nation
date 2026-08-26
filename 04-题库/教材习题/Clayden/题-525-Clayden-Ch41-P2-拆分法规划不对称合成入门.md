@@ -1,6 +1,7 @@
 ---
 title: 题-525-Clayden-Ch41-P2-拆分法规划不对称合成入门
 type: 题目
+fidelity: 原书逐字
 submodule: 不对称合成
 exam_stage: 决赛
 subject: 有机化学

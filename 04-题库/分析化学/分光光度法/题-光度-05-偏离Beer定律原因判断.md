@@ -2,6 +2,7 @@
 title: "题-光度-05-偏离Beer定律原因判断"
 aliases: ["题-光度-05"]
 type: 题目
+fidelity: 原书逐字
 difficulty: 2
 teaching_level: 基础
 source: "分析化学（第六版）第10章 教学改编"

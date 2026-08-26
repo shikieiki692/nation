@@ -1,6 +1,7 @@
 ---
 title: 题-272-Clayden-Ch8-P1-萘吡啶对甲苯甲酸混合物分离
 type: 题目
+fidelity: 原书逐字
 submodule: 酸碱质子理论
 exam_stage: 初赛
 subject: 有机化学

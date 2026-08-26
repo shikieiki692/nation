@@ -1,6 +1,7 @@
 ---
 title: 题-446-Clayden-Ch25-P5-烯胺形成和反应详细机理
 type: 题目
+fidelity: 原书逐字
 submodule: 烯醇盐化学
 exam_stage: 初赛
 subject: 有机化学

@@ -1,6 +1,7 @@
 ---
 title: "题-090-ABOC-Ch1-1.4.1-尝试提出一些其他方法破坏椅式构象 提示 关注椅式构象的 13"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.1
 exam_stage: 初赛
 subject: 有机化学

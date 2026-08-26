@@ -1,6 +1,7 @@
 ---
 title: 题-565-Clayden-Ch30-P6-饱和芳香杂环立体化学合成
 type: 题目
+fidelity: 原书逐字
 submodule: 杂环合成
 exam_stage: 初赛
 subject: 有机化学

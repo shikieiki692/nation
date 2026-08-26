@@ -1,6 +1,7 @@
 ---
 title: 题-533-Clayden-Ch41-P10-可不对称合成的结构特征识别
 type: 题目
+fidelity: 原书逐字
 submodule: 不对称合成
 exam_stage: 决赛
 subject: 有机化学

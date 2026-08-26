@@ -1,6 +1,7 @@
 ---
 title: 题-381-Clayden-Ch21-P1-复杂化合物中芳香环识别
 type: 题目
+fidelity: 原书逐字
 submodule: 芳香亲电取代
 exam_stage: 初赛
 subject: 有机化学

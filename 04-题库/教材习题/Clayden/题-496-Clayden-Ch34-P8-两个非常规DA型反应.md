@@ -1,6 +1,7 @@
-﻿---
+---
 title: 题-496-Clayden-Ch34-P8-两个非常规DA型反应
 type: 题目
+fidelity: 原书逐字
 submodule: 环加成反应
 exam_stage: 初赛
 subject: 有机化学

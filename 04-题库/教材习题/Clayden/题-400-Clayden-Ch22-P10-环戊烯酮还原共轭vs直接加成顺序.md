@@ -1,6 +1,7 @@
 ---
 title: 题-400-Clayden-Ch22-P10-环戊烯酮还原共轭vs直接加成顺序
 type: 题目
+fidelity: 原书逐字
 submodule: 共轭加成
 exam_stage: 初赛
 subject: 有机化学

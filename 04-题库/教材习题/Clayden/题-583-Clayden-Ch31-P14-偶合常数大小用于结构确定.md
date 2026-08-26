@@ -1,6 +1,7 @@
 ---
 title: 题-583-Clayden-Ch31-P14-偶合常数大小用于结构确定
 type: 题目
+fidelity: 原书逐字
 submodule: 立体电子效应
 exam_stage: 初赛
 subject: 有机化学

@@ -1,6 +1,7 @@
 ---
 title: "题-154-ABOC-Ch6-6.4.8-写出以下两个反应的产物"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.6
 exam_stage: 初赛
 subject: 有机化学

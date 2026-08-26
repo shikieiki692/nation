@@ -1,6 +1,7 @@
 ---
 title: "题-089-ABOC-Ch1-1.3.1-4-写出以下反应的机理 已知第一步三苯甲基正离子拔掉异丁烷的氢得"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.1
 exam_stage: 初赛
 subject: 有机化学

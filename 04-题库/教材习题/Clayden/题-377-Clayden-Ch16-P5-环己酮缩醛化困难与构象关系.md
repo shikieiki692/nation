@@ -1,6 +1,7 @@
 ---
 title: 题-377-Clayden-Ch16-P5-环己酮缩醛化困难与构象关系
 type: 题目
+fidelity: 原书逐字
 submodule: 构象分析
 exam_stage: 初赛
 subject: 有机化学

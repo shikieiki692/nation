@@ -1,6 +1,7 @@
 ---
 title: 题-593-Clayden-Ch32-P10-多取代天然产物构象探索
 type: 题目
+fidelity: 原书逐字
 submodule: 立体选择性
 exam_stage: 初赛
 subject: 有机化学

@@ -1,6 +1,7 @@
 ---
 title: 题-456-Clayden-Ch28-P2-单基团C-C切断练习
 type: 题目
+fidelity: 原书逐字
 submodule: 逆合成分析
 exam_stage: 初赛
 subject: 有机化学

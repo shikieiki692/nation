@@ -1,6 +1,7 @@
 ---
 title: "题-304-Clayden-Ch15-P6-tBuNMe2与乙酸酐机理"
 type: 题目
+fidelity: 原书逐字
 submodule: 亲核取代反应
 exam_stage: 初赛
 subject: 有机化学

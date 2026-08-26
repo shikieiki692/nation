@@ -1,6 +1,7 @@
 ---
 title: "题-161-ABOC-Ch6-6.13.3-写出以下反应的机理"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.6
 exam_stage: 初赛
 subject: 有机化学

@@ -1,6 +1,7 @@
 ---
 title: 题-053-ABOC-Ch1-T1-金刚烷合成
 type: 题目
+fidelity: 原书逐字
 submodule: 碳正离子与重排
 exam_stage: 决赛
 subject: 有机化学

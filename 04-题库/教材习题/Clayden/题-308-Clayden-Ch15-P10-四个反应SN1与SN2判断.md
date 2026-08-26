@@ -1,6 +1,7 @@
-﻿---
+---
 title: 题-308-Clayden-Ch15-P10-四个反应SN1与SN2判断
 type: 题目
+fidelity: 原书逐字
 submodule: 亲核取代反应
 exam_stage: 初赛
 subject: 有机化学

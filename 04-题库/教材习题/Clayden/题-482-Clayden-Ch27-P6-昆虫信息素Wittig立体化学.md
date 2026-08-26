@@ -1,6 +1,7 @@
-﻿---
+---
 title: 题-482-Clayden-Ch27-P6-昆虫信息素Wittig立体化学
 type: 题目
+fidelity: 原书逐字
 submodule: 硅硅磷化学
 exam_stage: 初赛
 subject: 有机化学

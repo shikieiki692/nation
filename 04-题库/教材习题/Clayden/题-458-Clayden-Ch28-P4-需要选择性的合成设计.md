@@ -1,6 +1,7 @@
 ---
 title: 题-458-Clayden-Ch28-P4-需要选择性的合成设计
 type: 题目
+fidelity: 原书逐字
 submodule: 逆合成分析
 exam_stage: 初赛
 subject: 有机化学

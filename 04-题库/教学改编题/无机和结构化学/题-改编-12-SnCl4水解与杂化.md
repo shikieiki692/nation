@@ -1,6 +1,7 @@
 ---
 title: "题-改编-12-SnCl4水解与杂化"
 type: 题目
+fidelity: 自编
 submodule: 分子结构
 exam_stage: 初赛
 subject: 无机和结构化学

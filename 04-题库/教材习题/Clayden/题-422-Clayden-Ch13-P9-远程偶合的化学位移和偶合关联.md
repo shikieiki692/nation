@@ -1,6 +1,7 @@
 ---
 title: 题-422-Clayden-Ch13-P9-远程偶合的化学位移和偶合关联
 type: 题目
+fidelity: 原书逐字
 submodule: NMR谱学
 exam_stage: 决赛
 subject: 有机化学

@@ -1,6 +1,7 @@
 ---
 title: "题-088-ABOC-Ch1-1.3.1-2-写出以下反应的电子推动"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.1
 exam_stage: 初赛
 subject: 有机化学

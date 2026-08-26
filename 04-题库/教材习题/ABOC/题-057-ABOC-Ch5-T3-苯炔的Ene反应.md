@@ -1,6 +1,7 @@
-﻿---
+---
 title: 题-057-ABOC-Ch5-T3-苯炔的Ene反应
 type: 题目
+fidelity: 原书逐字
 submodule: 周环反应
 exam_stage: 决赛
 subject: 有机化学

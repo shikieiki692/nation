@@ -1,6 +1,7 @@
 ---
 title: 题-273-Clayden-Ch8-P2-苯甲酸提取KOH浓度计算
 type: 题目
+fidelity: 原书逐字
 submodule: 酸碱质子理论
 exam_stage: 初赛
 subject: 有机化学

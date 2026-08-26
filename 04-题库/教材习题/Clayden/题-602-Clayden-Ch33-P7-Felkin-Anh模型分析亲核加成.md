@@ -1,6 +1,7 @@
 ---
 title: 题-602-Clayden-Ch33-P7-Felkin-Anh模型分析亲核加成
 type: 题目
+fidelity: 原书逐字
 submodule: 非对映选择性
 exam_stage: 初赛
 subject: 有机化学

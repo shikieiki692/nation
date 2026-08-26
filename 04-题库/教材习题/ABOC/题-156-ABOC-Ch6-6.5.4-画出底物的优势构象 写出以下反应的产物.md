@@ -1,6 +1,7 @@
 ---
 title: "题-156-ABOC-Ch6-6.5.4-画出底物的优势构象 写出以下反应的产物"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.6
 exam_stage: 初赛
 subject: 有机化学

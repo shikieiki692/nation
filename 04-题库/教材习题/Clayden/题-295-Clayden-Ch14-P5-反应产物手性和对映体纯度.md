@@ -1,6 +1,7 @@
 ---
 title: 题-295-Clayden-Ch14-P5-反应产物手性和对映体纯度
 type: 题目
+fidelity: 原书逐字
 submodule: 立体化学
 exam_stage: 初赛
 subject: 有机化学

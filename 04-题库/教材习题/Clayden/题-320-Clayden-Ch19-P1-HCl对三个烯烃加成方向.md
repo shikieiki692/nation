@@ -1,6 +1,7 @@
 ---
 title: 题-320-Clayden-Ch19-P1-HCl对三个烯烃加成方向
 type: 题目
+fidelity: 原书逐字
 submodule: 烯烃的亲电加成
 exam_stage: 初赛
 subject: 有机化学

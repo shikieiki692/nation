@@ -1,6 +1,7 @@
 ---
 title: "题-175-ABOC-Ch9-9.3.2-在 有机人名反应机理新解 中 对 Bartoli 吲哚合成的"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.9
 exam_stage: 初赛
 subject: 有机化学

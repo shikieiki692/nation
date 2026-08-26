@@ -1,6 +1,7 @@
 ---
 title: "题-027-1-2-KCN与CuSO4反应"
 type: 题目
+fidelity: 原书逐字
 submodule: "化学方程式书写"
 exam_stage: 初赛
 subject: 无机化学

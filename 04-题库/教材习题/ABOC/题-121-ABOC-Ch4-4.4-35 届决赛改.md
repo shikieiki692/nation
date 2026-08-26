@@ -1,6 +1,7 @@
 ---
 title: "题-121-ABOC-Ch4-4.4-35 届决赛改"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.4
 exam_stage: 初赛
 subject: 有机化学

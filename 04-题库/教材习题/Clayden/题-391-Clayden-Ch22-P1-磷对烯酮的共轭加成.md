@@ -1,6 +1,7 @@
 ---
 title: 题-391-Clayden-Ch22-P1-磷对烯酮的共轭加成
 type: 题目
+fidelity: 原书逐字
 submodule: 共轭加成
 exam_stage: 初赛
 subject: 有机化学

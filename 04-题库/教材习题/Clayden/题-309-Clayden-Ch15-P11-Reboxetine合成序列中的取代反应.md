@@ -1,6 +1,7 @@
 ---
 title: 题-309-Clayden-Ch15-P11-Reboxetine合成序列中的取代反应
 type: 题目
+fidelity: 原书逐字
 submodule: 亲核取代
 exam_stage: 初赛
 subject: 有机化学

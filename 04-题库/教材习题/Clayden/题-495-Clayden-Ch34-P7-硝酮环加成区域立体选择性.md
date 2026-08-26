@@ -1,6 +1,7 @@
 ---
 title: "题-495-Clayden-Ch34-P7-硝酮环加成区域立体选择性"
 type: 题目
+fidelity: 原书逐字
 submodule: 环加成反应
 exam_stage: 初赛
 subject: 有机化学

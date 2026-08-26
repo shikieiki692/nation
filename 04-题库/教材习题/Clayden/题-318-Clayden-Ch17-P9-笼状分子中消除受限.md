@@ -1,6 +1,7 @@
-﻿---
+---
 title: 题-318-Clayden-Ch17-P9-笼状分子中消除受限
 type: 题目
+fidelity: 原书逐字
 submodule: 消除反应
 exam_stage: 初赛
 subject: 有机化学

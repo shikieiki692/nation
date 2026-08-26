@@ -1,6 +1,7 @@
 ---
 title: 题-390-Clayden-Ch21-P10-考虑定位效应的合成路线选择
 type: 题目
+fidelity: 原书逐字
 submodule: 芳香亲电取代
 exam_stage: 初赛
 subject: 有机化学

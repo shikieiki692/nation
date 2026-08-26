@@ -1,6 +1,7 @@
-﻿---
+---
 title: 题-319-Clayden-Ch17-P10-差向异构溴化物消除结果对比
 type: 题目
+fidelity: 原书逐字
 submodule: 消除反应
 exam_stage: 初赛
 subject: 有机化学

@@ -1,6 +1,7 @@
 ---
 title: 题-575-Clayden-Ch31-P6-Baldwin规则判断力培养
 type: 题目
+fidelity: 原书逐字
 submodule: 立体电子效应
 exam_stage: 初赛
 subject: 有机化学

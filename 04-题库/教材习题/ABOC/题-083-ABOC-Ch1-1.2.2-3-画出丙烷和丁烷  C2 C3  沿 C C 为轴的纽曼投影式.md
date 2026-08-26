@@ -1,6 +1,7 @@
 ---
 title: "题-083-ABOC-Ch1-1.2.2-3-画出丙烷和丁烷  C2 C3  沿 C C 为轴的纽曼投影式"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.1
 exam_stage: 初赛
 subject: 有机化学

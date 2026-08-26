@@ -1,6 +1,7 @@
 ---
 title: "题-改编-14-CoIII氨配合物化学式推断"
 type: 题目
+fidelity: 自编
 submodule: 配位化合物
 exam_stage: 初赛
 subject: 无机和结构化学

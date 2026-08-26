@@ -1,6 +1,7 @@
 ---
 title: 题-447-Clayden-Ch25-P6-区域选择性烯醇烯醇盐制备
 type: 题目
+fidelity: 原书逐字
 submodule: 烯醇盐化学
 exam_stage: 初赛
 subject: 有机化学

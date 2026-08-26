@@ -1,6 +1,7 @@
 ---
 title: 题-561-Clayden-Ch30-P2-不熟悉杂环合成和芳香性判断
 type: 题目
+fidelity: 原书逐字
 submodule: 杂环合成
 exam_stage: 初赛
 subject: 有机化学

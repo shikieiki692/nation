@@ -1,6 +1,7 @@
-﻿---
+---
 title: "题-049-ABOC-FT1-P2-EX3-34届决赛LiTMP DA三组分"
 type: 题目
+fidelity: 原书逐字
 submodule: 方法学分析
 exam_stage: 决赛
 subject: 有机化学

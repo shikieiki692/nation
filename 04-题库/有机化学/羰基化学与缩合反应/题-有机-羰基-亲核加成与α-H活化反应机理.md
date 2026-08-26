@@ -1,6 +1,7 @@
 ---
 title: "题-有机-羰基-亲核加成与α-H活化反应机理"
 type: 题目
+fidelity: 原书逐字
 submodule: "羰基化学与缩合反应"
 exam_stage: 初赛
 subject: 有机化学

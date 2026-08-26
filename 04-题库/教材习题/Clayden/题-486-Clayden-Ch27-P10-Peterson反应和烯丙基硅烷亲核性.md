@@ -1,6 +1,7 @@
-﻿---
+---
 title: 题-486-Clayden-Ch27-P10-Peterson反应和烯丙基硅烷亲核性
 type: 题目
+fidelity: 原书逐字
 submodule: 硅硅磷化学
 exam_stage: 初赛
 subject: 有机化学

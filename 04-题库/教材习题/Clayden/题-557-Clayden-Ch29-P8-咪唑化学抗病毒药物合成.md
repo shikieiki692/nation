@@ -1,6 +1,7 @@
 ---
 title: 题-557-Clayden-Ch29-P8-咪唑化学抗病毒药物合成
 type: 题目
+fidelity: 原书逐字
 submodule: 杂环化合物
 exam_stage: 初赛
 subject: 有机化学

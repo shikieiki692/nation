@@ -1,6 +1,7 @@
 ---
 title: "题-117-ABOC-Ch3-3.10-解释以下反应产物的选择性"
 type: 题目
+fidelity: 原书逐字
 submodule: Ch.3
 exam_stage: 初赛
 subject: 有机化学

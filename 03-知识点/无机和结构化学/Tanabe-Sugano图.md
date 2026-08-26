@@ -25,7 +25,7 @@ review_cycle: 30d
 has_images: true
 image_count: 8
 images_priority: high
-images_note: "d²-d⁸全套Tanabe-Sugano图已从Wikimedia Commons下载（CC BY-SA）→ ![[00-附件/weller_figures/TS_d2_diagram.png]] ![[00-附件/weller_figures/TS_d3_diagram.svg]] ![[00-附件/weller_figures/TS_d4_diagram.svg]] ![[00-附件/weller_figures/TS_d5_diagram.svg]] ![[00-附件/weller_figures/TS_d6_diagram.svg]] ![[00-附件/weller_figures/TS_d7_diagram.svg]] ![[00-附件/weller_figures/TS_d8_diagram.svg]]。Weller原版PDF页面渲染见 媒体仓库/weller_pages/"
+images_note: "d²-d⁸全套Tanabe-Sugano图已从Wikimedia Commons下载（CC BY-SA）→ ![[00-附件/weller_figures/TS_d2_diagram.png]] ![[00-附件/weller_figures/TS_d3_diagram.svg]] ![[00-附件/weller_figures/TS_d4_diagram.svg]] ![[00-附件/weller_figures/TS_d5_diagram.svg]] ![[00-附件/weller_figures/TS_d6_diagram.svg]] ![[00-附件/weller_figures/TS_d7_diagram.svg]] ![[00-附件/weller_figures/TS_d8_diagram.svg]]。Weller原版PDF页面渲染见 00-附件/weller_figures/（weller_page_*.png）"
 teaching_ready: false
 source_notes: ["[[提炼-无机化学第6版-第20章-配位化学理论]]"]
 key_images:
@@ -241,7 +241,7 @@ TS 图不是讲配合物颜色时的起点，而是讲到下面这些任务时�
 - 主要来源：Weller, *Inorganic Chemistry* (第6版), 第20章 §20.4(e) "Tanabe-Sugano图" + 例题20.8
 - 提炼笔记：[[07-资料提炼/书籍提炼/提炼-无机化学第6版-第20章-配位化学理论]]
 - 补充参考：[[晶体场理论]]（Δ₀和LFSE基础）、光谱项（谱项符号体系）、选律（自旋/Laporte选律）
-- 关键图表：**已从原版PDF提取** → 打开 06-外部资料导入/OCR待整理/无机化学 第6版 (Welle)19-21章.pdf（Ch20区域），资源节6含 d²-d⁸ 全套TS图（8张）。页面渲染图位于 `媒体仓库/weller_pages/`
+- 关键图表：**已从原版PDF提取** → 打开 06-外部资料导入/OCR待整理/无机化学 第6版 (Welle)19-21章.pdf（Ch20区域），资源节6含 d²-d⁸ 全套TS图（8张）。页面渲染图位于 `00-附件/weller_figures/`（weller_page_*.png）
 - 考纲映射：11-配位化学（配位化学理论），决赛10（决赛级光谱分析）
 
 ### ⚠️ 教学耦合警示

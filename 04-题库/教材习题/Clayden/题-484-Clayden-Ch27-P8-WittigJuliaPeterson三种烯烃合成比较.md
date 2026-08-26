@@ -1,6 +1,7 @@
-﻿---
+---
 title: 题-484-Clayden-Ch27-P8-WittigJuliaPeterson三种烯烃合成比较
 type: 题目
+fidelity: 原书逐字
 submodule: 硅硅磷化学
 exam_stage: 初赛
 subject: 有机化学

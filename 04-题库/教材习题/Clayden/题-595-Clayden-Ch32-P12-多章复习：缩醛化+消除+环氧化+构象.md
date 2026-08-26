@@ -1,6 +1,7 @@
 ---
 title: 题-595-Clayden-Ch32-P12-多章复习：缩醛化+消除+环氧化+构象
 type: 题目
+fidelity: 原书逐字
 submodule: 立体选择性
 exam_stage: 初赛
 subject: 有机化学

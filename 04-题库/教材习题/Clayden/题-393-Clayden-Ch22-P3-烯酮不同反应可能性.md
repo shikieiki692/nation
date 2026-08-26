@@ -1,6 +1,7 @@
 ---
 title: 题-393-Clayden-Ch22-P3-烯酮不同反应可能性
 type: 题目
+fidelity: 原书逐字
 submodule: 共轭加成
 exam_stage: 初赛
 subject: 有机化学

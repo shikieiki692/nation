@@ -1,6 +1,7 @@
 ---
 title: 题-594-Clayden-Ch32-P11-溴醚化机理+NMR
 type: 题目
+fidelity: 原书逐字
 submodule: 立体选择性
 exam_stage: 初赛
 subject: 有机化学
