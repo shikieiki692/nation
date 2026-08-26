@@ -16,6 +16,7 @@ status: 已填充
 exam_stage: 决赛
 subject_module: 元素与分析
 pack: 模块习题集
+submodule: 主族元素化学
 ---
 # 题-元碳-03：惰性电子对效应与 AlCl₃ 双聚
 

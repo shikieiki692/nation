@@ -17,6 +17,7 @@ status: 已填充
 exam_stage: 初赛
 subject_module: 元素与分析
 pack: 章节练习
+submodule: 化学基础与计量
 ---
 # CO₂ 对 NaOH 标定的影响
 

@@ -16,6 +16,7 @@ status: 已填充
 exam_stage: 初赛
 subject_module: 元素与分析
 pack: 章节练习
+submodule: 过渡元素化学
 ---
 # 题-元钛-01：TiCl₄ 水解与金红石结构
 

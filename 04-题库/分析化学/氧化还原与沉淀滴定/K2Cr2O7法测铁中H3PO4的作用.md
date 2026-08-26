@@ -17,6 +17,7 @@ status: 已填充
 exam_stage: 初赛
 subject_module: 元素与分析
 pack: 模块习题集
+submodule: 化学基础与计量
 ---
 # K₂Cr₂O₇ 法测铁中 H₃PO₄ 的双重作用
 

@@ -14,6 +14,7 @@ exam_stage: 初赛
 module: 分析化学
 subject_module: 元素与分析
 pack: 章节练习
+submodule: 化学基础与计量
 ---
 # 题-络重-01：EDTA滴定水的硬度
 

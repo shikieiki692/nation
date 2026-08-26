@@ -17,6 +17,7 @@ status: 已填充
 exam_stage: 初赛
 subject_module: 元素与分析
 pack: 模块习题集
+submodule: 化学基础与计量
 ---
 # EDTA络合滴定中酸效应系数的计算
 

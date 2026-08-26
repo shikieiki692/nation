@@ -16,6 +16,7 @@ status: 已填充
 exam_stage: 决赛
 subject_module: 元素与分析
 pack: 模块习题集
+submodule: 过渡元素化学
 ---
 # 题-元银-03：杂多酸 Keggin 结构与 MoS₂ 润滑性
 

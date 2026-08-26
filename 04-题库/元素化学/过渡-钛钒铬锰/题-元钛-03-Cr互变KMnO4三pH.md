@@ -16,6 +16,7 @@ status: 已填充
 exam_stage: 决赛
 subject_module: 元素与分析
 pack: 模块习题集
+submodule: 离子反应与方程式
 ---
 # 题-元钛-03：CrO₄²⁻/Cr₂O₇²⁻ 互变与 KMnO₄ 三介质产物
 

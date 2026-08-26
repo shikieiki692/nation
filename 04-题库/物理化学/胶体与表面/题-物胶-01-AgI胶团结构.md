@@ -16,6 +16,7 @@ status: 已填充
 exam_stage: 决赛
 subject_module: 元素与分析
 pack: 章节练习
+submodule: 化学基础与计量
 ---
 # 题-物胶-01：AgI 溶胶胶团结构
 
