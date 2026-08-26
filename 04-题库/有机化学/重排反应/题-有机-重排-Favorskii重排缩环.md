@@ -28,9 +28,6 @@ pack: 模块习题集
 
 **(3)** Favorskii 重排与普通的碱性水解（消除 HCl）有什么本质区别？
 
-
-![[wagner-meerwein.png]]
-
 ## 参考答案
 
 ### (1) Favorskii 重排机理
