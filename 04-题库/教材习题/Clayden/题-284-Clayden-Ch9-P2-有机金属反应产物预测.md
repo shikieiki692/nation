@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 9 Problem 2
 cross_references: ["[[题-283-Clayden-Ch9-P1-有机金属加成羰基的机理]]", "[[题-285-Clayden-Ch9-P3-Fenarimol替代合成路线]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-284: 有机金属反应产物预测
 

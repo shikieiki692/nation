@@ -20,6 +20,8 @@ knowledge_points: ["[[Wittig反应]]", "[[共振结构]]", "[[NMR分析]]", "[[C
 tags: [化竞, 真题, 29届, 决赛, 有机化学]
 updated: 2026-06-30
 status: 已填充
+subject_module: 有机化学
+pack: 综合模拟卷
 ---
 
 ## 题目

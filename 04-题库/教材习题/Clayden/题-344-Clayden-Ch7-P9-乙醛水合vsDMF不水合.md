@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 7 Problem 9
 cross_references: ["[[题-266-Clayden-Ch6-P5-茚三酮水合选择性]]", "[[题-338-Clayden-Ch7-P3-胍鎓烯醇盐萘电荷分布]]", "[[题-343-Clayden-Ch7-P8-茚与溴的反应活性]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-344: 乙醛水合vs DMF不水合（离域效应）
 

@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 29 Problem 3
 cross_references: ["[[题-561-Clayden-Ch30-P2-不熟悉杂环合成和芳香性判断]]", "[[题-560-Clayden-Ch30-P1-吡咯并吡啶三环芳香杂环合成]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-552: 呋喃不寻常亲电取代选择性机理
 

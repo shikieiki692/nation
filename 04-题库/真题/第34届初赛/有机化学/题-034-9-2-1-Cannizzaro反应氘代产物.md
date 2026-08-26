@@ -16,6 +16,8 @@ source: 第34届中国化学奥林匹克（初赛）第9题第(2-1)小问
 module: 有机化学
 status: 已填充
 big_question: "第9题"
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-034-9-2-1：Cannizzaro反应氘代产物
 

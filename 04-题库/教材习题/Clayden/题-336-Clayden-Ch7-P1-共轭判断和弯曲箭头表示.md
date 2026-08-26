@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 7 Problem 1
 cross_references: ["[[题-337-Clayden-Ch7-P2-复杂化合物中共轭体系范围]]", "[[题-340-Clayden-Ch7-P5-化合物芳香性电子计数]]", "[[题-381-Clayden-Ch21-P1-复杂化合物中芳香环识别]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-336: 共轭判断和弯曲箭头表示
 

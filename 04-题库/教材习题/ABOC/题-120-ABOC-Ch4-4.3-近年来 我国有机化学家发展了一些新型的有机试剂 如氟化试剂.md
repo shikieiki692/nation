@@ -16,6 +16,8 @@ aliases: [ABOC-Ch4-4.3]
 source: ABOC 第4章 自学练习（ARX's Basic Organic Chemistry 第3版）
 module: 基础要求-有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-120：近年来，我国有机化学家发展了一些新型的有机试剂，如氟化试剂 CpFluors 系列。在这些氟试剂中，
 

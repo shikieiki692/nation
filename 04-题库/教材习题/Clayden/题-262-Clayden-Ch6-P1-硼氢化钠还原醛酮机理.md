@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 6 Problem 1
 cross_references: ["[[题-265-Clayden-Ch6-P4-NaBH4还原二羰基选择性]]", "[[题-268-Clayden-Ch6-P8-NaBH4还原氯醛水合物机理]]", "[[题-269-Clayden-Ch6-P10-Grignard加成+NaBH4选择性还原]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-262: NaBH₄/LiAlH₄还原醛酮机理
 

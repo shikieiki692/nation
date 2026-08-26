@@ -17,6 +17,8 @@ aliases: [福建35-9, Pelitinib合成]
 source: 2021年第35届中国化学奥林匹克（初赛）（福建卷）第9题
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 预赛专项
 ---
 
 # 题-福建35-09：抗肿瘤药 Pelitinib 的合成

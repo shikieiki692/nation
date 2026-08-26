@@ -17,6 +17,8 @@ source: ABOC 第5章 自学练习（ARX's Basic Organic Chemistry 第3版）
 cross_references: ["[[04-题库/教材习题/ABOC/题-135-ABOC-Ch5-5.4.5-2-写出三氯化铝或三溴化硼分解苯甲醚的机理]]"]
 module: 基础要求-有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-130：写出 1,2,4-三甲基苯在质子酸或 Lewis 酸(用 LA 表示)存在下重排得到 1,3,5-三
 

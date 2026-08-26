@@ -15,6 +15,8 @@ aliases: []
 source: 第36届中国化学奥林匹克(决赛)
 module: 决赛要求
 status: 已填充
+subject_module: 有机化学
+pack: 综合模拟卷
 ---
 # 第 10 题 Wharton碎片化反应 (11 分)
 

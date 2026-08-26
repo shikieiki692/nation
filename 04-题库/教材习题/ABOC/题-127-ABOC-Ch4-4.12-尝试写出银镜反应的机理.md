@@ -16,6 +16,8 @@ aliases: [ABOC-Ch4-4.12]
 source: ABOC 第4章 自学练习（ARX's Basic Organic Chemistry 第3版）
 module: 基础要求-有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-127：尝试写出银镜反应的机理。
 

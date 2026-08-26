@@ -17,6 +17,8 @@ source: ABOC 第5章 自学练习（ARX's Basic Organic Chemistry 第3版）
 cross_references: ["[[04-题库/教材习题/ABOC/题-133-ABOC-Ch5-5.4.4-写出苯酚在浓硫酸或无水氯化锌的作用下与邻苯二甲酸酐反应生成酚]]"]
 module: 基础要求-有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-131：已知E的酸性强于 C，则比较以下物质的酸性强弱。
 

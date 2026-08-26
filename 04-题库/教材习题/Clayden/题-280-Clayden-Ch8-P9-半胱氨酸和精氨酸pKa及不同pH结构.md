@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 8 Problem 9
 cross_references: ["[[题-274-Clayden-Ch8-P3-羟基酸在不同pH下的存在形式]]", "[[题-281-Clayden-Ch8-P10-两个戊二醇合成失败原因]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-280: 半胱氨酸和精氨酸pKa及不同pH结构
 

@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 8 Problem 7
 cross_references: ["[[题-277-Clayden-Ch8-P6-互变异构体关系与阴离子结构]]", "[[题-280-Clayden-Ch8-P9-半胱氨酸和精氨酸pKa及不同pH结构]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-278: D2O中胍和Meldrum酸衍生物NMR
 

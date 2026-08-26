@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 10 Problem 8
 cross_references: ["[[题-337-Clayden-Ch7-P2-复杂化合物中共轭体系范围]]", "[[题-369-Clayden-Ch12-P2-三阶酮水解机理推导]]", "[[题-368-Clayden-Ch12-P1-酯取代中间体两个碳正离子稳定性]]", "[[题-336-Clayden-Ch7-P1-共轭判断和弯曲箭头表示]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-352: 酸酐LiAlH4还原vsGrignard加成选择性
 

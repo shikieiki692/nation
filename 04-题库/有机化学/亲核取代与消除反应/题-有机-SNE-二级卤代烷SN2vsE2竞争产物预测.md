@@ -15,6 +15,8 @@ aliases: ["题-有机-SNE-02"]
 source: "专题页提炼"
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 二级卤代烷 SN2 vs E2 竞争产物预测
 

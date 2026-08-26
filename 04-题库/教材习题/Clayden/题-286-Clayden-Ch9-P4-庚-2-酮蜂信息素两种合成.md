@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 9 Problem 4
 cross_references: ["[[题-283-Clayden-Ch9-P1-有机金属加成羰基的机理]]", "[[题-290-Clayden-Ch9-P8-四原料合成三目标分子]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-286: 庚-2-酮（蜂信息素）两种合成
 

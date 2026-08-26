@@ -15,6 +15,8 @@ aliases: [32届初赛-10.4, Nazarov环化, Lewis酸催化, 一锅煮串联反应
 source: "第32届中国化学奥林匹克（初赛）第10题第(10-4)小问"
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-032-10-4：Nazarov 产物 D
 

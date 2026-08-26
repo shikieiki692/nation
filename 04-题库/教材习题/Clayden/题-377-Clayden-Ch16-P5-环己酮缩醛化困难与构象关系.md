@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 16 Problem 5
 cross_references: ["[[题-291-Clayden-Ch14-P1-五个分子手性判断]]", "[[题-456-Clayden-Ch28-P2-单基团C-C切断练习]]", "[[题-455-Clayden-Ch28-P1-单基团C-X切断练习]]", "[[题-292-Clayden-Ch14-P2-旋光值区分]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-377: 环己酮缩醛化困难与构象关系
 

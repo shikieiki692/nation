@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 15 Problem 7
 cross_references: ["[[题-307-Clayden-Ch15-P9-两个反应的立体化学]]", "[[题-294-Clayden-Ch14-P4-四个化合物立体化学讨论]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-305: 产物立体化学和对映/非对映关系
 

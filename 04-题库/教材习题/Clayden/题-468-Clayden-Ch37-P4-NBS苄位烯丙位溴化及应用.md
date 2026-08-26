@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 37 Problem 4
 cross_references: ["[[题-291-Clayden-Ch14-P1-五个分子手性判断]]", "[[题-465-Clayden-Ch37-P1-重要自由基反应复习]]", "[[题-292-Clayden-Ch14-P2-旋光值区分]]", "[[题-466-Clayden-Ch37-P2-重氮盐亲核取代vs自由基对比]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-468: NBS苄位/烯丙位溴化及后续环化
 

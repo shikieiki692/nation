@@ -15,6 +15,8 @@ aliases: [26届决赛-2, 26届决赛-EDTA滴定, Bi³⁺Pb²⁺同时测定]
 source: "第26届中国化学奥林匹克（决赛）第2题"
 module: 配位滴定
 status: 已填充
+subject_module: 结构化学
+pack: 综合模拟卷
 ---
 # 题-026决-2：EDTA滴定BiPb
 

@@ -15,6 +15,8 @@ aliases: [30届初赛-3.2, ZnNH3配合物, HNH键角, VSEPR, 配位键]
 source: "第30届中国化学奥林匹克（初赛）第3题第2小问"
 module: 无机和结构化学
 status: 已填充
+subject_module: 结构化学
+pack: 模块习题集
 ---
 # 题-030-3-2：[Zn(NH₃)₆]²⁺中H-N-H键角变化解释
 

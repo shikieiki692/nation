@@ -16,6 +16,8 @@ cross_references: ["[[题-501-Clayden-Ch35-P1-Nazarov关环+Grignard和cuprate�
 module: 有机化学
 status: 已填充
 knowledge_points: ["[[待人工标定]]"]
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-494: 1,3-偶极环加成立体化学控制
 

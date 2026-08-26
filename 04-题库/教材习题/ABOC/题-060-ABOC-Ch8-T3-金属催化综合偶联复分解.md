@@ -16,6 +16,8 @@ aliases: [ABOC-Ch8-T3]
 source: ABOC 第8章 章末习题 T3（ARX's Basic Organic Chemistry 第3版）
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-060：金属催化综合（偶联/复分解）
 

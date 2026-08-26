@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 9 Problem 6
 cross_references: ["[[题-285-Clayden-Ch9-P3-Fenarimol替代合成路线]]", "[[题-290-Clayden-Ch9-P8-四原料合成三目标分子]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-288: Rioprostil 前体醇合成设计
 

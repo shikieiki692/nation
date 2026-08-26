@@ -16,6 +16,8 @@ aliases: [ABOC-Ch7-7.2.1-1]
 source: ABOC 第7章 自学练习 7.2.1-1（ARX's Basic Organic Chemistry 第3版）
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-076：D-A 底物推断（六苯基苯）
 

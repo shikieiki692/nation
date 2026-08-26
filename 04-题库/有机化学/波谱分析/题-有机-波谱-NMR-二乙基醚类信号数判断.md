@@ -15,6 +15,8 @@ aliases: ["题-有机-波谱-10"]
 source: "Zchem基础有机化学"
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 二乙基醚类分子NMR信号数判断
 

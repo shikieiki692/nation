@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 34 Problem 4
 cross_references: ["[[题-502-Clayden-Ch35-P2-Claisen-3,3-σ迁移入门]]", "[[题-501-Clayden-Ch35-P1-Nazarov关环+Grignard和cuprate步骤]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-492: 分子间+分子内DA区域/立体选择性
 

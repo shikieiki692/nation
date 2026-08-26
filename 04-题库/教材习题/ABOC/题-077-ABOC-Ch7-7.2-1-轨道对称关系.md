@@ -17,6 +17,8 @@ source: ABOC 第7章 自学练习 7.2-1（ARX's Basic Organic Chemistry 第3版�
 cross_references: ["[[04-题库/教材习题/ABOC/题-059-ABOC-Ch7-T3-周环反应综合热光选择性]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-077：轨道对称关系
 

@@ -15,6 +15,8 @@ tags: [化竞, 题目]
 updated: 2026-06-06
 status: 已填充
 exam_stage: 初赛
+subject_module: 元素与分析
+pack: 模块习题集
 ---
 # 碘量法测铜——近终点加 KSCN
 

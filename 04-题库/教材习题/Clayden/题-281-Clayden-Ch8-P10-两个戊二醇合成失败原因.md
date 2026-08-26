@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 8 Problem 10
 cross_references: ["[[题-282-Clayden-Ch8-P11-选择合适的碱去质子化给定分子]]", "[[题-280-Clayden-Ch8-P9-半胱氨酸和精氨酸pKa及不同pH结构]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-281: 两个戊二醇合成失败原因
 

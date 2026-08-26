@@ -16,6 +16,8 @@ source: "第33届中国化学奥林匹克（初赛）第8题第(8-3-2)小问"
 module: 有机化学
 status: 已填充
 big_question: "第8题"
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-033-8-3-2：L-山梨糖和化合物 C 的 Fischer 投影式
 

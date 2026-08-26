@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 32 Problem 9
 cross_references: ["[[题-432-Clayden-Ch24-P1-氨基醇制备中区域选择性试剂选择]]", "[[题-433-Clayden-Ch24-P2-不饱和羰基直接共轭加成区域选择性]]", "[[题-291-Clayden-Ch14-P1-五个分子手性判断]]", "[[题-292-Clayden-Ch14-P2-旋光值区分]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-592: trans-十氢化萘氰化物开环区域化学
 

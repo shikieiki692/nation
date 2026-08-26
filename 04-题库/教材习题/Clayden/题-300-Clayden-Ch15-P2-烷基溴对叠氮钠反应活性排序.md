@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 15 Problem 2
 cross_references: ["[[题-308-Clayden-Ch15-P10-四个反应SN1与SN2判断]]", "[[题-295-Clayden-Ch14-P5-反应产物手性和对映体纯度]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-300: 烷基溴对叠氮钠反应活性排序
 

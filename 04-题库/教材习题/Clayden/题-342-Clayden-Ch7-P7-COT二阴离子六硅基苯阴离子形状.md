@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 7 Problem 7
 cross_references: ["[[题-340-Clayden-Ch7-P5-化合物芳香性电子计数]]", "[[题-341-Clayden-Ch7-P6-吲哚薁吡喃酮腺嘌呤芳香性]]", "[[题-343-Clayden-Ch7-P8-茚与溴的反应活性]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-342: COT二阴离子和六硅基苯阴离子形状
 

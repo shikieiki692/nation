@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 17 Problem 4
 cross_references: ["[[题-307-Clayden-Ch15-P9-两个反应的立体化学]]", "[[题-316-Clayden-Ch17-P7-三个消除反应中烯烃位置]]", "[[题-295-Clayden-Ch14-P5-反应产物手性和对映体纯度]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-313: E1cB机理和绝对立体化学
 

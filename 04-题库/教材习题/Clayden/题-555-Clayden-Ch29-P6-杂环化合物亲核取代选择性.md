@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 29 Problem 6
 cross_references: ["[[题-560-Clayden-Ch30-P1-吡咯并吡啶三环芳香杂环合成]]", "[[题-561-Clayden-Ch30-P2-不熟悉杂环合成和芳香性判断]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-555: 杂环化合物亲核取代选择性
 

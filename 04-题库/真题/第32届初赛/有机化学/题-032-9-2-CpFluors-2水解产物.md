@@ -15,6 +15,8 @@ aliases: [32届初赛-9.2, CpFluors-2, 水解反应, 环丙烯酮]
 source: "第32届中国化学奥林匹克（初赛）第9题第(9-2)小问"
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-032-9-2：CpFluors-2 水解产物
 

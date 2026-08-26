@@ -16,6 +16,8 @@ aliases: [ABOC-Ch4-4.13.3]
 source: ABOC 第4章 自学练习（ARX's Basic Organic Chemistry 第3版）
 module: 基础要求-有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-129：二碘化钐——基础思维的考察(节选)
 

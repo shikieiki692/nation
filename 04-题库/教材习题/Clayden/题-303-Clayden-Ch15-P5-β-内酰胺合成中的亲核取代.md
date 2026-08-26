@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 15 Problem 5
 cross_references: ["[[题-307-Clayden-Ch15-P9-两个反应的立体化学]]", "[[题-309-Clayden-Ch15-P11-Reboxetine合成序列中的取代反应]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-303: β-内酰胺合成中的亲核取代
 

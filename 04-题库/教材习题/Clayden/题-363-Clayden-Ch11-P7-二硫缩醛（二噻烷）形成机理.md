@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 11 Problem 7
 cross_references: ["[[题-329-Clayden-Ch20-P2-两个酮烯醇含量差异解释]]", "[[题-263-Clayden-Ch6-P2-环丙酮水合vs半缩醛稳定性]]", "[[题-328-Clayden-Ch20-P1-羰基化合物烯醇式绘制和稳定性]]", "[[题-262-Clayden-Ch6-P1-硼氢化钠还原醛酮机理]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-363: 二硫缩醛（二噻烷）形成机理
 

@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 6 Problem 10
 cross_references: ["[[题-262-Clayden-Ch6-P1-硼氢化钠还原醛酮机理]]", "[[题-265-Clayden-Ch6-P4-NaBH4还原二羰基选择性]]", "[[题-283-Clayden-Ch9-P1-有机金属加成羰基的机理]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-269: Grignard加成+NaBH₄选择性还原
 

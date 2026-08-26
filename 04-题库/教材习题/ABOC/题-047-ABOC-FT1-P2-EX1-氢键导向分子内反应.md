@@ -17,6 +17,8 @@ source: ABOC 第11章 方法学分析题（ARX's Basic Organic Chemistry 第3版
 cross_references: ["[[04-题库/教材习题/ABOC/题-050-ABOC-FT1-P2-EX4-吡啶官能团化PADI催化]]", "[[04-题库/教材习题/ABOC/题-061-ABOC-Ch9-T3-杂环合成策略综合]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-047：氢键导向分子内反应
 

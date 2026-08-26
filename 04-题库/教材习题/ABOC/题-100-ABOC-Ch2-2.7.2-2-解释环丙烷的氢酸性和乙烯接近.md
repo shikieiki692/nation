@@ -17,6 +17,8 @@ source: ABOC 第2章 自学练习（ARX's Basic Organic Chemistry 第3版）
 cross_references: ["[[04-题库/教材习题/ABOC/题-277-ABOC-Ch1-T2]]", "[[04-题库/教材习题/ABOC/题-186-ABOC-Ch1-1.2.2-6-从碳正离子共振式发现 α 位富电子 β位缺电子]]", "[[04-题库/教材习题/ABOC/题-298-ABOC-Ch1-T6]]", "[[04-题库/教材习题/ABOC/题-275-ABOC-Ch1-T7]]", "[[04-题库/教材习题/ABOC/题-279-ABOC-Ch1-T5]]"]
 module: 基础要求-有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-100：解释环丙烷的氢酸性和乙烯接近。
 

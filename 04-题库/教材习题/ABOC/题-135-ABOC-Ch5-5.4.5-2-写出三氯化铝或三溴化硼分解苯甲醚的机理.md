@@ -17,6 +17,8 @@ source: ABOC 第5章 自学练习（ARX's Basic Organic Chemistry 第3版）
 cross_references: ["[[04-题库/教材习题/ABOC/题-130-ABOC-Ch5-5.2.3-写出 1 2 4 三甲基苯在质子酸或 Lewis 酸 用 L]]"]
 module: 基础要求-有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-135：写出三氯化铝或三溴化硼分解苯甲醚的机理。
 

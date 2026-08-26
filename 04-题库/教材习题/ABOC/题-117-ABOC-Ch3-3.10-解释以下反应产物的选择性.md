@@ -17,6 +17,8 @@ source: ABOC 第3章 自学练习（ARX's Basic Organic Chemistry 第3版）
 cross_references: ["[[04-题库/教材习题/ABOC/题-116-ABOC-Ch3-3.8-在某著名搞笑教材 有机人名反应机理新解 中 把硼氢化 氧化的]]"]
 module: 基础要求-有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-117：解释以下反应产物的选择性。
 

@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 15 Problem 4
 cross_references: ["[[题-306-Clayden-Ch15-P8-ZnCl2与NaI催化剂在取代中的作用]]", "[[题-317-Clayden-Ch17-P8-环己基溴E2困难和构象变化]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-302: 醇→卤化物转化试剂选择
 

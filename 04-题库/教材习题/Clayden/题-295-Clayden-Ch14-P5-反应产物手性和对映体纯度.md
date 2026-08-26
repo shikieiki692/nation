@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 14 Problem 5
 cross_references: ["[[题-296-Clayden-Ch14-P6-碱性条件下外消旋化]]", "[[题-291-Clayden-Ch14-P1-五个分子手性判断]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-295: 反应产物手性和对映体纯度
 

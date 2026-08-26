@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 19 Problem 2
 cross_references: ["[[题-322-Clayden-Ch19-P3-溴水对三个烯烃加成产物]]", "[[题-325-Clayden-Ch19-P6-溴化→消除→氰基取代序列]]", "[[题-400-Clayden-Ch22-P10-环戊烯酮还原共轭vs直接加成顺序]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-321: 两个烯烃溴化机理和产物
 

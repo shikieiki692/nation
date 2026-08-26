@@ -14,6 +14,8 @@ tags: [化竞, 题目, 元素化学, s区, 对角线规则]
 updated: 2026-08-04
 status: 已填充
 exam_stage: 决赛
+subject_module: 元素与分析
+pack: 模块习题集
 ---
 # 题-元s-03：对角线规则（Li—Mg、Be—Al）
 

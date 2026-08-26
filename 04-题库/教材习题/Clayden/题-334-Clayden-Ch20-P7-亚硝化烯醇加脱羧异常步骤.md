@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 20 Problem 7
 cross_references: ["[[题-442-Clayden-Ch25-P1-烯醇烯醇盐烷基化路线选择]]", "[[题-402-Clayden-Ch26-P1-最简单Aldol自缩合机理]]", "[[题-275-Clayden-Ch8-P4-三个分子的质子化去质子化位点]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-334: 亚硝化烯醇+脱羧异常步骤
 

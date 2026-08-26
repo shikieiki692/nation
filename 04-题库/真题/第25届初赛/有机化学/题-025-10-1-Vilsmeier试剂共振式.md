@@ -15,6 +15,8 @@ aliases: [25届初赛-10.1, Vilsmeier试剂, 共振式, 亲电性]
 source: "第25届中国化学奥林匹克（初赛）第10题第(10-1)小问"
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-025-10-1：Vilsmeier试剂共振式
 

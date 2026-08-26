@@ -18,6 +18,8 @@ knowledge_points: ["[[电化学平衡]]", "[[分析化学]]", "[[平衡常数计
 tags: [化竞, 真题, 36届, 化学原理]
 updated: 2026-05-11
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 
 ## 题目

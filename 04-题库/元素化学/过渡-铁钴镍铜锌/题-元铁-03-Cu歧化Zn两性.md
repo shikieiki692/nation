@@ -14,6 +14,8 @@ tags: [化竞, 题目, 元素化学, 过渡金属, 铜, 锌]
 updated: 2026-08-04
 status: 已填充
 exam_stage: 初赛
+subject_module: 元素与分析
+pack: 章节练习
 ---
 # 题-元铁-03：Cu⁺ 歧化与 Zn(OH)₂ 两性
 

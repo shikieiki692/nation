@@ -16,6 +16,8 @@ aliases: [ABOC-FT1-P3-EX1]
 source: ABOC 第11章 全合成推断题（ARX's Basic Organic Chemistry 第3版）
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-052：Nodulisporic Acid D 全合成
 

@@ -17,6 +17,8 @@ source: ABOC 第1章 自学练习（ARX's Basic Organic Chemistry 第3版）
 cross_references: ["[[04-题库/教材习题/ABOC/题-085-ABOC-Ch1-1.2.2-5-画出左边烯基醚共振式的轨道重叠图 解释共轭效应为何只能把电子]]"]
 module: 基础要求-有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-086：画出当硝基(-NO )连在乙烯上面时物质的共振式，解释哪些位置富电子，哪些位置缺电子。
 

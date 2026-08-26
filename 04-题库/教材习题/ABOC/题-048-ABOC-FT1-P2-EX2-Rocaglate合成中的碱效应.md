@@ -16,6 +16,8 @@ aliases: [ABOC-FT1-P2-EX2]
 source: ABOC 第11章 方法学分析题（ARX's Basic Organic Chemistry 第3版）
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-048：Rocaglate 合成中的碱效应
 

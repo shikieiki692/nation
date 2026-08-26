@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 22 Problem 11
 cross_references: ["[[题-628-Clayden-Ch38-P1-碱引发两个简单卡宾反应]]", "[[题-320-Clayden-Ch19-P1-HCl对三个烯烃加成方向]]", "[[题-629-Clayden-Ch38-P2-另一种卡宾方法→天然抗生素]]", "[[题-321-Clayden-Ch19-P2-两个烯烃溴化机理和产物]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-401: NMR揭示共轭加成过程
 

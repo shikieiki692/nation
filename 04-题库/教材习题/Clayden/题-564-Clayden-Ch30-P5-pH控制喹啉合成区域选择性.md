@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 30 Problem 5
 cross_references: ["[[题-550-Clayden-Ch29-P1-杂环上亲电亲核取代产物预测]]", "[[题-551-Clayden-Ch29-P2-烷基吡啶LHMDS侧链延伸]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-564: pH控制喹啉合成区域选择性
 

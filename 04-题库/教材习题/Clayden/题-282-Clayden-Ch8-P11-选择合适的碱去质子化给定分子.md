@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 8 Problem 11
 cross_references: ["[[题-281-Clayden-Ch8-P10-两个戊二醇合成失败原因]]", "[[题-275-Clayden-Ch8-P4-三个分子的质子化去质子化位点]]", "[[题-276-Clayden-Ch8-P5-酸碱组合产物预测]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-282: 选择合适的碱去质子化给定分子
 

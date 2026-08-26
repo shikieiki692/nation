@@ -15,6 +15,8 @@ aliases: [27届初赛-7, 有机推断, 臭氧化, 缩合, 还原]
 source: "第27届中国化学奥林匹克（初赛）第7题(5分)"
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-027-7：有机推断ABCDF
 

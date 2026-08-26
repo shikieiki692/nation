@@ -17,6 +17,8 @@ source: ABOC 第3章 自学练习（ARX's Basic Organic Chemistry 第3版）
 cross_references: ["[[04-题库/教材习题/ABOC/题-068-ABOC-Ch3-3.1.2-光学活性判断]]"]
 module: 基础要求-有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-110：判断以下物质中所有手性中心的立体构型。
 

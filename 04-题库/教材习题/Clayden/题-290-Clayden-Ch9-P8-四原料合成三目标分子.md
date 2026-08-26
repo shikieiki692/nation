@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 9 Problem 8
 cross_references: ["[[题-286-Clayden-Ch9-P4-庚-2-酮蜂信息素两种合成]]", "[[题-288-Clayden-Ch9-P6-Rioprostil前体醇合成设计]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-290: 四原料合成三目标分子
 

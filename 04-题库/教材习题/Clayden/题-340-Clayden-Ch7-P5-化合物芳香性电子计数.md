@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 7 Problem 5
 cross_references: ["[[题-336-Clayden-Ch7-P1-共轭判断和弯曲箭头表示]]", "[[题-341-Clayden-Ch7-P6-吲哚薁吡喃酮腺嘌呤芳香性]]", "[[题-381-Clayden-Ch21-P1-复杂化合物中芳香环识别]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-340: 化合物芳香性（电子计数）
 

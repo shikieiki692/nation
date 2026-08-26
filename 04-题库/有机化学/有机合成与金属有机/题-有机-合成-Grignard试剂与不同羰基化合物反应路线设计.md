@@ -15,6 +15,8 @@ aliases: ["题-有机-合成-01", "题-1597"]
 source: "专题页提炼"
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # Grignard 试剂与不同羰基化合物反应路线设计
 

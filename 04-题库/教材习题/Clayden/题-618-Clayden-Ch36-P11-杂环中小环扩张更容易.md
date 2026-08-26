@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 36 Problem 11
 cross_references: ["[[题-432-Clayden-Ch24-P1-氨基醇制备中区域选择性试剂选择]]", "[[题-514-Clayden-Ch40-P1-烯醇醚溴化WittigPd化学入门]]", "[[题-433-Clayden-Ch24-P2-不饱和羰基直接共轭加成区域选择性]]", "[[题-515-Clayden-Ch40-P2-Heck反应机理步骤理解]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-618: 杂环中小环扩张更容易
 

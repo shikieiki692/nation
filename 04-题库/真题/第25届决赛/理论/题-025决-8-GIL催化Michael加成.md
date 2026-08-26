@@ -15,6 +15,8 @@ aliases: - 25届决赛-8
 source: "第25届中国化学奥林匹克（决赛）第8题(12分)"
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 综合模拟卷
 ---
 # 题-025决-8：GIL催化Michael加成
 

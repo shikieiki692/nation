@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 9 Problem 7
 cross_references: ["[[题-284-Clayden-Ch9-P2-有机金属反应产物预测]]", "[[题-287-Clayden-Ch9-P5-Biperidin结构预测和Procyclidine合成]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-289: Br/Li 交换选择性分析
 

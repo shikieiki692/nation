@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 8 Problem 4
 cross_references: ["[[题-274-Clayden-Ch8-P3-羟基酸在不同pH下的存在形式]]", "[[题-282-Clayden-Ch8-P11-选择合适的碱去质子化给定分子]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-275: 三个分子的质子化/去质子化位点
 

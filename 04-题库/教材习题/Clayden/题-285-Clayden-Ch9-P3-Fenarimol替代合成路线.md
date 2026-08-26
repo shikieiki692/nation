@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 9 Problem 3
 cross_references: ["[[题-284-Clayden-Ch9-P2-有机金属反应产物预测]]", "[[题-288-Clayden-Ch9-P6-Rioprostil前体醇合成设计]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-285: Fenarimol 替代合成路线
 

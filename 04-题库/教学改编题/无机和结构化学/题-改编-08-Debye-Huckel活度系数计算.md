@@ -15,6 +15,8 @@ aliases: ["改编-电解质-DebyeHuckel", "活度系数计算"]
 source: "教学改编题（知识点补充）"
 module: 电解质溶液
 status: 已填充
+subject_module: 元素与分析
+pack: 章节练习
 ---
 # 题-改编-08-Debye-Huckel活度系数计算
 

@@ -15,6 +15,8 @@ aliases: []
 source: "Zchem基础有机化学-第7讲"
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 碳氢酸性比较与pKa分析
 

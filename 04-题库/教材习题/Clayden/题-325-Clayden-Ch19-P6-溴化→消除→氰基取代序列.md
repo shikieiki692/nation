@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 19 Problem 6
 cross_references: ["[[题-321-Clayden-Ch19-P2-两个烯烃溴化机理和产物]]", "[[题-326-Clayden-Ch19-P7-内部OH亲核的溴化机理和NMR偶合]]", "[[题-400-Clayden-Ch22-P10-环戊烯酮还原共轭vs直接加成顺序]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-325: 溴化→消除→氰基取代序列
 

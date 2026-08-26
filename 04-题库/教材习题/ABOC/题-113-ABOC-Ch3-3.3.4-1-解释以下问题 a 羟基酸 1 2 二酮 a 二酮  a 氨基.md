@@ -17,6 +17,8 @@ source: ABOC 第3章 自学练习（ARX's Basic Organic Chemistry 第3版）
 cross_references: ["[[04-题库/教材习题/ABOC/题-112-ABOC-Ch3-3.2.3-卤代内酯化反应是一种简单的串联反应 已知反应]]"]
 module: 基础要求-有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-113：解释以下问题：a-羟基酸、1,2-二酮(a-二酮)、a-氨基酮、1-氨基-2-羟基化合物在水中也能进
 

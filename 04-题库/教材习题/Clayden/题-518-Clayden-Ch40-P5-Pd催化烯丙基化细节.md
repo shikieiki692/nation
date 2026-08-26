@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 40 Problem 5
 cross_references: ["[[题-477-Clayden-Ch27-P1-分子内硫叶立德共轭加成环丙烷化]]", "[[题-478-Clayden-Ch27-P2-硫叶立德化学区域和立体化学]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-518: Pd催化烯丙基化细节
 

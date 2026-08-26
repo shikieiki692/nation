@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 18 Problem 5
 cross_references: ["[[题-560-Clayden-Ch30-P1-吡咯并吡啶三环芳香杂环合成]]", "[[题-414-Clayden-Ch13-P1-五个化合物1H NMR信号和化学位移预测]]", "[[题-561-Clayden-Ch30-P2-不熟悉杂环合成和芳香性判断]]", "[[题-415-Clayden-Ch13-P2-酐加MeMgBr产物用IR 13C 1H NMR区分]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-540: 多光谱证据区分两个结构
 

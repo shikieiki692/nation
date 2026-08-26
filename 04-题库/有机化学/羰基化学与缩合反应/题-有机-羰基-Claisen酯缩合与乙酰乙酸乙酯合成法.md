@@ -15,6 +15,8 @@ aliases: ["题-有机-羰基-02"]
 source: "专题页提炼"
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # Claisen 酯缩合与乙酰乙酸乙酯合成法
 

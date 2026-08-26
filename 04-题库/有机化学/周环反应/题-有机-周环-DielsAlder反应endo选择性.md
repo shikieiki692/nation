@@ -15,6 +15,8 @@ aliases: []
 source: "Zchem基础有机化学-第11讲"
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # Diels-Alder反应立体选择性
 

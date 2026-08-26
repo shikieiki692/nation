@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 14 Problem 3
 cross_references: ["[[题-292-Clayden-Ch14-P2-旋光值区分]]", "[[题-291-Clayden-Ch14-P1-五个分子手性判断]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-293: 灰姑娘水晶鞋旋光性
 

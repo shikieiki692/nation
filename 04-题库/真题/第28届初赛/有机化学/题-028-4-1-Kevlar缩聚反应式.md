@@ -15,6 +15,8 @@ aliases: [28届初赛-4.1, Kevlar, 缩聚反应]
 source: "第28届中国化学奥林匹克（初赛）第4题第(4-1)小问"
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-028-4-1：Kevlar缩聚反应式
 

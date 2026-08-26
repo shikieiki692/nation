@@ -16,6 +16,8 @@ aliases: [ABOC-Ch4-4.2.3]
 source: ABOC 第4章 自学练习（ARX's Basic Organic Chemistry 第3版）
 module: 基础要求-有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-119：类比硼氢化-氧化反应的机理，写出 ${ \mathsf { P h S i H } } _ { 3 
 

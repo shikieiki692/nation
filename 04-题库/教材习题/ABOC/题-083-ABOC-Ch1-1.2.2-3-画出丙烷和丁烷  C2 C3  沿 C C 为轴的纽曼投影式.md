@@ -17,6 +17,8 @@ source: ABOC 第1章 自学练习（ARX's Basic Organic Chemistry 第3版）
 cross_references: ["[[04-题库/教材习题/ABOC/题-090-ABOC-Ch1-1.4.1-尝试提出一些其他方法破坏椅式构象 提示 关注椅式构象的 13]]"]
 module: 基础要求-有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-083：画出丙烷和丁烷 (C2-C3) 沿 C-C 为轴的纽曼投影式，找出其中最稳定的构象。
 

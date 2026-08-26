@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 13 Problem 5
 cross_references: ["[[题-561-Clayden-Ch30-P2-不熟悉杂环合成和芳香性判断]]", "[[题-536-Clayden-Ch18-P1-C6H5FO的13C NMR C-F偶合结构确定]]", "[[题-560-Clayden-Ch30-P1-吡咯并吡啶三环芳香杂环合成]]", "[[题-537-Clayden-Ch18-P2-Bullatenone结构A预测NMR并纠正]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-418: 三个化合物¹H NMR归属和多重性解释
 

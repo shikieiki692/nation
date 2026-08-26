@@ -15,6 +15,8 @@ aliases: ["改编-原子-30", "Fe八面体场高低自旋与CFSE"]
 source: "第一轮结构化学主讲义替换存档（2026-07-03）"
 module: 配位化合物
 status: 已填充
+subject_module: 结构化学
+pack: 模块习题集
 ---
 # 题-改编-14-Fe八面体场高低自旋与CFSE
 

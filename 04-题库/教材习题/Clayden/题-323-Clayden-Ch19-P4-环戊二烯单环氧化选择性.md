@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 19 Problem 4
 cross_references: ["[[题-400-Clayden-Ch22-P10-环戊烯酮还原共轭vs直接加成顺序]]", "[[题-392-Clayden-Ch22-P2-共轭加成本质和不发生的情况]]", "[[题-336-Clayden-Ch7-P1-共轭判断和弯曲箭头表示]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-323: 环戊二烯单环氧化选择性
 

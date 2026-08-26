@@ -17,6 +17,8 @@ source: ABOC 第1章 自学练习（ARX's Basic Organic Chemistry 第3版）
 cross_references: ["[[04-题库/教材习题/ABOC/题-084-ABOC-Ch1-1.2.2-4-利用超共轭效应解释以下现象 通常多取代的双键比少取代的双键热]]"]
 module: 基础要求-有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-082：超共轭效应
 

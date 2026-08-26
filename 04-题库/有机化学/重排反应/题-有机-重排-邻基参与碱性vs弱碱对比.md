@@ -15,6 +15,8 @@ aliases: ["题-有机-重排-03"]
 source: "Zchem基础有机化学"
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 邻基参与：碱性vs弱碱条件下产物差异
 

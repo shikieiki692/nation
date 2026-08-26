@@ -15,6 +15,8 @@ aliases: ["题-有机-波谱-03", "题-1601"]
 source: "Zchem基础有机化学"
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # C-N/C=N/C≡N键的IR波数排序
 

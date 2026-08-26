@@ -16,6 +16,8 @@ aliases: [ABOC-Ch3-T3]
 source: ABOC 第3章 章末习题 T3（ARX's Basic Organic Chemistry 第3版）
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-055：特殊氧化（烯烃→邻二醇→切断）
 

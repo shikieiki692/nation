@@ -15,6 +15,8 @@ aliases: ["改编-分子-26", "C3F4-SO4-XeF2结构与杂化", "题-1035"]
 source: "第一轮结构化学主讲义替换存档（2026-07-03）"
 module: 分子结构
 status: 已填充
+subject_module: 结构化学
+pack: 章节练习
 ---
 # 题-改编-12-C3F4-SO4-XeF2结构与杂化
 

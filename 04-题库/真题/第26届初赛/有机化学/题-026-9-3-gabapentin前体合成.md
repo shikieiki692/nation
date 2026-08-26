@@ -15,6 +15,8 @@ aliases: [26届初赛-9.3, gabapentin, 逆合成分析]
 source: "第26届中国化学奥林匹克（初赛）第9题第(9-3)小问"
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-026-9-3：gabapentin前体合成
 

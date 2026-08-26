@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 36 Problem 2
 cross_references: ["[[题-515-Clayden-Ch40-P2-Heck反应机理步骤理解]]", "[[题-514-Clayden-Ch40-P1-烯醇醚溴化WittigPd化学入门]]", "[[题-432-Clayden-Ch24-P1-氨基醇制备中区域选择性试剂选择]]", "[[题-433-Clayden-Ch24-P2-不饱和羰基直接共轭加成区域选择性]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-609: Beckmann重排的立体化学和机理
 

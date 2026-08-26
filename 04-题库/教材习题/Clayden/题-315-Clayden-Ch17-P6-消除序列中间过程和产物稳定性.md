@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 17 Problem 6
 cross_references: ["[[题-303-Clayden-Ch15-P5-β-内酰胺合成中的亲核取代]]", "[[题-313-Clayden-Ch17-P4-E1cB机理和绝对立体化学]]", "[[题-295-Clayden-Ch14-P5-反应产物手性和对映体纯度]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-315: 消除序列中间过程和产物稳定性
 

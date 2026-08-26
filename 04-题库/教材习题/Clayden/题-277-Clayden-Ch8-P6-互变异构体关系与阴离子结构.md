@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 8 Problem 6
 cross_references: ["[[题-278-Clayden-Ch8-P7-D2O中胍和Meldrum酸衍生物NMR]]", "[[题-274-Clayden-Ch8-P3-羟基酸在不同pH下的存在形式]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-277: 互变异构体关系与阴离子结构
 

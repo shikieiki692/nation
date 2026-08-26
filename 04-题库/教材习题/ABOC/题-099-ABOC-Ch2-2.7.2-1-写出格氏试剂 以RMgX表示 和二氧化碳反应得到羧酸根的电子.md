@@ -16,6 +16,8 @@ aliases: [ABOC-Ch2-2.7.2-1]
 source: ABOC 第2章 自学练习（ARX's Basic Organic Chemistry 第3版）
 module: 基础要求-有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-099：写出格氏试剂（以RMgX表示）和二氧化碳反应得到羧酸根的电子推动机理。
 

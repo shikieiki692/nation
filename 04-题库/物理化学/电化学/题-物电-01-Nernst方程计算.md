@@ -14,6 +14,8 @@ tags: [化竞, 题目, 物理化学, 电化学]
 updated: 2026-08-04
 status: 已填充
 exam_stage: 初赛
+subject_module: 化学原理
+pack: 章节练习
 ---
 # 题-物电-01：Nernst 方程计算电极电势
 

@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 8 Problem 2
 cross_references: ["[[题-272-Clayden-Ch8-P1-萘吡啶对甲苯甲酸混合物分离]]", "[[题-279-Clayden-Ch8-P8-五个苯酚pKa值排序]]", "[[题-328-Clayden-Ch20-P1-羰基化合物烯醇式绘制和稳定性]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-273: 苯甲酸提取KOH浓度计算
 

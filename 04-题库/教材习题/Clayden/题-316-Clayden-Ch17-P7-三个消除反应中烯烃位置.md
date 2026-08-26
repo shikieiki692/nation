@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 17 Problem 7
 cross_references: ["[[题-299-Clayden-Ch15-P1-SN1与SN2机理判断]]", "[[题-310-Clayden-Ch17-P1-两个消除反应机理]]", "[[题-317-Clayden-Ch17-P8-环己基溴E2困难和构象变化]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-316: 三个消除反应中烯烃位置
 

@@ -16,6 +16,8 @@ aliases: [ABOC-Ch2-2.2.2]
 source: ABOC 第2章 自学练习 2.2.2（ARX's Basic Organic Chemistry 第3版）
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-065：CrO3氧化醇机理
 

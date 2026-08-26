@@ -16,6 +16,8 @@ aliases: [ABOC-FT1-P1-EX3]
 source: ABOC 第11章 机理书写题（ARX's Basic Organic Chemistry 第3版）
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-044：双自由基关环
 

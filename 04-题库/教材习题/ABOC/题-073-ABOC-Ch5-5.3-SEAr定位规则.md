@@ -16,6 +16,8 @@ aliases: [ABOC-Ch5-5.3]
 source: ABOC 第5章 自学练习 5.3（ARX's Basic Organic Chemistry 第3版）
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-073：SEAr 定位规则
 

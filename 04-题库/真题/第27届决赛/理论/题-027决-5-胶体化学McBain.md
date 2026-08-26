@@ -20,6 +20,8 @@ knowledge_points: ["[[缔合胶体]]", "[[胶束形成]]", "[[热力学驱动力
 tags: [化竞, 真题, 27届, 决赛, 化学原理]
 updated: 2026-06-30
 status: 已填充
+subject_module: 元素与分析
+pack: 综合模拟卷
 ---
 
 ## 题目

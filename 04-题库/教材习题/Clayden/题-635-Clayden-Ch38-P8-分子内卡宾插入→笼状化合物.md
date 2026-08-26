@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 38 Problem 8
 cross_references: ["[[题-585-Clayden-Ch32-P2-非反应对立体化学的影响]]", "[[题-490-Clayden-Ch34-P2-分子内Diels-Alder速率差异]]", "[[题-489-Clayden-Ch34-P1-中等复杂Diels-Alder产物预测]]", "[[题-584-Clayden-Ch32-P1-环己烯环氧化+胺开环构象分析]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-635: 分子内卡宾插入→笼状化合物
 

@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 7 Problem 4
 cross_references: ["[[题-338-Clayden-Ch7-P3-胍鎓烯醇盐萘电荷分布]]", "[[题-340-Clayden-Ch7-P5-化合物芳香性电子计数]]", "[[题-342-Clayden-Ch7-P7-COT二阴离子六硅基苯阴离子形状]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-339: 重氮甲烷/N₂O/N₂O₄离域箭头
 

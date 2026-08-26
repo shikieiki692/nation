@@ -15,6 +15,8 @@ aliases: ["题-有机-结构-01"]
 source: "专题页提炼"
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # pKa六大因素比较
 

@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 20 Problem 5
 cross_references: ["[[题-442-Clayden-Ch25-P1-烯醇烯醇盐烷基化路线选择]]", "[[题-409-Clayden-Ch26-P8-碳上酰化失败分析]]", "[[题-282-Clayden-Ch8-P11-选择合适的碱去质子化给定分子]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-332: 烯醇碳反应vs氧反应选择性
 

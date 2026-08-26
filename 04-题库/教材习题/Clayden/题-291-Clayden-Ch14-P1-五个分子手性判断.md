@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 14 Problem 1
 cross_references: ["[[题-294-Clayden-Ch14-P4-四个化合物立体化学讨论]]", "[[题-298-Clayden-Ch14-P8-肌醇非对映异构体计数]]", "[[题-297-Clayden-Ch14-P7-RS构型标注]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-291: 五个分子手性判断
 

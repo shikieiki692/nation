@@ -17,6 +17,8 @@ source: ABOC 第4章 自学练习（ARX's Basic Organic Chemistry 第3版）
 cross_references: ["[[04-题库/教材习题/ABOC/题-213-ABOC-Ch4-4.2.3-如左侧所示]]"]
 module: 基础要求-有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-212：除了 PhS=NtBu+之外书上都有。
 

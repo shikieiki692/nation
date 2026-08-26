@@ -15,6 +15,8 @@ aliases: [28届决赛-5, 28决-5]
 source: 第28届中国化学奥林匹克(决赛)
 module: 晶体结构
 status: 已填充
+subject_module: 结构化学
+pack: 综合模拟卷
 ---
 # 第 5 题 Hg-Ba-Cu-O 超导晶体 (8 分)
 

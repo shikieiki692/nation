@@ -17,6 +17,8 @@ source: ABOC 第5章 自学练习（ARX's Basic Organic Chemistry 第3版）
 cross_references: ["[[04-题库/教材习题/ABOC/题-131-ABOC-Ch5-5.4.1-已知E的酸性强于 C 则比较以下物质的酸性强弱]]"]
 module: 基础要求-有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-133：写出苯酚在浓硫酸或无水氯化锌的作用下与邻苯二甲酸酐反应生成酚酞（如左图所示）的机理。酚酞除了两种常见
 

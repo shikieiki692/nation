@@ -17,6 +17,8 @@ source: ABOC 第1章 自学练习 1.3.1-3（ARX's Basic Organic Chemistry 第3�
 cross_references: ["[[04-题库/教材习题/ABOC/题-053-ABOC-Ch1-T1-金刚烷合成]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-064：金刚烷合成（碳正离子重排）
 

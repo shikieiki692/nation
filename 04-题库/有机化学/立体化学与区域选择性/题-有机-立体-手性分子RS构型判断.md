@@ -15,6 +15,8 @@ aliases: ["题-有机-立体-02"]
 source: "专题页提炼"
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 手性分子 R/S 构型判断
 

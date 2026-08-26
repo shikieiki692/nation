@@ -16,6 +16,8 @@ aliases: [ABOC-FT0-Stream]
 source: ABOC 第11章 机理/方法学综合题（ARX's Basic Organic Chemistry 第3版）
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-041：光化学与自由基反应（Photoredox Catalysis）
 

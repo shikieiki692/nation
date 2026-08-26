@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 9 Problem 1
 cross_references: ["[[题-284-Clayden-Ch9-P2-有机金属反应产物预测]]", "[[题-286-Clayden-Ch9-P4-庚-2-酮蜂信息素两种合成]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-283: 有机金属试剂加成羰基的机理
 

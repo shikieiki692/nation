@@ -14,6 +14,8 @@ tags: [化竞, 题目, 物理化学, 表面化学, Kelvin]
 updated: 2026-08-04
 status: 已填充
 exam_stage: 决赛
+subject_module: 元素与分析
+pack: 模块习题集
 ---
 # 题-物胶-03：Kelvin 方程与弯曲液面蒸气压
 

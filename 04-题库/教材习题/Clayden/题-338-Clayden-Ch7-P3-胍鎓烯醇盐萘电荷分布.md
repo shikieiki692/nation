@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 7 Problem 3
 cross_references: ["[[题-336-Clayden-Ch7-P1-共轭判断和弯曲箭头表示]]", "[[题-339-Clayden-Ch7-P4-重氮甲烷N2ON2O4离域箭头]]", "[[题-340-Clayden-Ch7-P5-化合物芳香性电子计数]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-338: 胍鎓/烯醇盐/萘电荷分布
 

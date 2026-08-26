@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 20 Problem 3
 cross_references: ["[[题-447-Clayden-Ch25-P6-区域选择性烯醇烯醇盐制备]]", "[[题-413-Clayden-Ch26-P12-NMR分析酯间碱催化反应产物]]", "[[题-278-Clayden-Ch8-P7-D2O中胍和Meldrum酸衍生物NMR]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-330: 互变异构导致等价性的NMR探索
 

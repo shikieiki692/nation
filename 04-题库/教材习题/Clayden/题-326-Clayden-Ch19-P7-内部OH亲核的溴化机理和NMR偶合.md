@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 19 Problem 7
 cross_references: ["[[题-322-Clayden-Ch19-P3-溴水对三个烯烃加成产物]]", "[[题-396-Clayden-Ch22-P6-SNAr机理和选择性]]", "[[题-336-Clayden-Ch7-P1-共轭判断和弯曲箭头表示]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-326: 内部OH亲核的溴化机理和NMR偶合
 

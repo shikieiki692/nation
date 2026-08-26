@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 19 Problem 5
 cross_references: ["[[题-320-Clayden-Ch19-P1-HCl对三个烯烃加成方向]]", "[[题-327-Clayden-Ch19-P8-烯烃区域立体选择性转化试剂选择]]", "[[题-401-Clayden-Ch22-P11-NMR揭示共轭加成过程]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-324: HBr加成后SN1水解（镇静剂合成）
 

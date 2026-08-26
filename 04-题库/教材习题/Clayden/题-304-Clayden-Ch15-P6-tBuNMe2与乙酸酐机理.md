@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 15 Problem 6
 cross_references: ["[[题-301-Clayden-Ch15-P3-SN1与SN2微妙选择]]", "[[题-310-Clayden-Ch17-P1-两个消除反应机理]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-304: t-BuNMe₂与乙酸酐机理
 

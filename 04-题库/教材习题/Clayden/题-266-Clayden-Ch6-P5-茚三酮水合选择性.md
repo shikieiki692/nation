@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 6 Problem 5
 cross_references: ["[[题-263-Clayden-Ch6-P2-环丙酮水合vs半缩醛稳定性]]", "[[题-267-Clayden-Ch6-P6-羟基酮IR异常→环状半缩醛]]", "[[题-268-Clayden-Ch6-P8-NaBH4还原氯醛水合物机理]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-266: 茚三酮（Ninhydrin）水合选择性
 

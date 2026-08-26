@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 8 Problem 3
 cross_references: ["[[题-280-Clayden-Ch8-P9-半胱氨酸和精氨酸pKa及不同pH结构]]", "[[题-275-Clayden-Ch8-P4-三个分子的质子化去质子化位点]]", "[[题-279-Clayden-Ch8-P8-五个苯酚pKa值排序]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-274: 羟基酸在不同pH下的存在形式
 

@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 6 Problem 8
 cross_references: ["[[题-262-Clayden-Ch6-P1-硼氢化钠还原醛酮机理]]", "[[题-265-Clayden-Ch6-P4-NaBH4还原二羰基选择性]]", "[[题-269-Clayden-Ch6-P10-Grignard加成+NaBH4选择性还原]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-268: NaBH₄还原氯醛水合物机理
 

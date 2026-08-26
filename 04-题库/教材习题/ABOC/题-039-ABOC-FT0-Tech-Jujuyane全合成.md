@@ -17,6 +17,8 @@ source: ABOC 第11章 全合成推断题（ARX's Basic Organic Chemistry 第3版
 cross_references: ["[[04-题库/教材习题/ABOC/题-049-ABOC-FT1-P2-EX3-34届决赛LiTMP DA三组分]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-039：Jujuyane 全合成（Hee-Yoon Lee, 2021）
 

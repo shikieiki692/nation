@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 7 Problem 8
 cross_references: ["[[题-341-Clayden-Ch7-P6-吲哚薁吡喃酮腺嘌呤芳香性]]", "[[题-342-Clayden-Ch7-P7-COT二阴离子六硅基苯阴离子形状]]", "[[题-320-Clayden-Ch19-P1-HCl对三个烯烃加成方向]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-343: 茚与溴的反应活性
 

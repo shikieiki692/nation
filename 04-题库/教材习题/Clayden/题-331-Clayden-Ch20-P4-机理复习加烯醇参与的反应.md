@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 20 Problem 4
 cross_references: ["[[题-448-Clayden-Ch25-P7-烯醇等价体与Br2和RCH2Br反应]]", "[[题-402-Clayden-Ch26-P1-最简单Aldol自缩合机理]]", "[[题-275-Clayden-Ch8-P4-三个分子的质子化去质子化位点]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-331: 机理复习+烯醇参与的反应
 

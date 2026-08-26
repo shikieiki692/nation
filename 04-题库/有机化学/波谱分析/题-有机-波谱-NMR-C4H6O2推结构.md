@@ -15,6 +15,8 @@ aliases: ["题-有机-波谱-11"]
 source: "Zchem基础有机化学"
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # C₄H₆O₂的¹H NMR推结构
 

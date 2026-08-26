@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 15 Problem 8
 cross_references: ["[[题-302-Clayden-Ch15-P4-醇→卤化物转化试剂选择]]", "[[题-316-Clayden-Ch17-P7-三个消除反应中烯烃位置]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-306: ZnCl₂与NaI催化剂在取代中的作用
 

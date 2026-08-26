@@ -16,6 +16,8 @@ aliases: [ABOC-Ch2-2.11]
 source: ABOC 第2章 自学练习（ARX's Basic Organic Chemistry 第3版）
 module: 基础要求-有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-108：碎裂化反应
 

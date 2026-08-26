@@ -15,6 +15,8 @@ aliases: [28届决赛-4, 28决-4]
 source: 第28届中国化学奥林匹克(决赛)
 module: 配位滴定
 status: 已填充
+subject_module: 结构化学
+pack: 综合模拟卷
 ---
 # 第 4 题 EDTA 滴定 Pb、Bi、Ni (6 分)
 

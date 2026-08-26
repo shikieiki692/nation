@@ -14,6 +14,8 @@ tags: [化竞, 题目, 元素化学, s区, 稀有气体]
 updated: 2026-08-04
 status: 已填充
 exam_stage: 初赛
+subject_module: 结构化学
+pack: 章节练习
 ---
 # 题-元s-02：Xe 化合物 VSEPR 构型预测
 

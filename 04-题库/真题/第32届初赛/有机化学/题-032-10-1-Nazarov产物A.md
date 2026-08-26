@@ -15,6 +15,8 @@ aliases: [32届初赛-10.1, Nazarov环化, 4π电环化, 顺旋/对旋]
 source: "第32届中国化学奥林匹克（初赛）第10题第(10-1)小问"
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-032-10-1：Nazarov 产物 A
 

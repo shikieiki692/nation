@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 27 Problem 1
 cross_references: ["[[题-424-Clayden-Ch23-P1-溴代醛选择性转化为两个产物]]", "[[题-425-Clayden-Ch23-P2-内酯选择性开环]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-477: 分子内硫叶立德共轭加成/环丙烷化
 

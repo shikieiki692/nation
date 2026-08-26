@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 19 Problem 8
 cross_references: ["[[题-320-Clayden-Ch19-P1-HCl对三个烯烃加成方向]]", "[[题-323-Clayden-Ch19-P4-环戊二烯单环氧化选择性]]", "[[题-392-Clayden-Ch22-P2-共轭加成本质和不发生的情况]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-327: 烯烃区域/立体选择性转化试剂选择
 

@@ -16,6 +16,8 @@ aliases: [ABOC-Ch6-6.1]
 source: ABOC 第6章 自学练习 6.1（ARX's Basic Organic Chemistry 第3版）
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-074：DDQ 脱保护机理
 

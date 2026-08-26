@@ -16,6 +16,8 @@ aliases: [ABOC-Ch2-2.4-1]
 source: ABOC 第2章 自学练习（ARX's Basic Organic Chemistry 第3版）
 module: 基础要求-有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-093：查阅有关资料，通过键能数据判断烯醇和酮谁更稳定。
 

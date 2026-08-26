@@ -16,6 +16,8 @@ aliases: [ABOC-Ch4-4.5.2]
 source: ABOC 第4章 自学练习（ARX's Basic Organic Chemistry 第3版）
 module: 基础要求-有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-122：机理新解对 E2 消除的机理描述如下。同位素标记实验证明，如果使用如苯基锂这样的强碱，确实有可能发生
 

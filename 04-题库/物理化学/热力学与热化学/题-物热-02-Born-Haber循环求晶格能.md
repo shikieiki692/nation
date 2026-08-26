@@ -14,6 +14,8 @@ tags: [化竞, 题目, 物理化学, 热力学, 晶格能]
 updated: 2026-08-04
 status: 已填充
 exam_stage: 初赛
+subject_module: 化学原理
+pack: 章节练习
 ---
 # 题-物热-02：Born-Haber 循环求晶格能
 

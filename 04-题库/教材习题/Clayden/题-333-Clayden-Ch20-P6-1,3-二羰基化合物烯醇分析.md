@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 20 Problem 6
 cross_references: ["[[题-442-Clayden-Ch25-P1-烯醇烯醇盐烷基化路线选择]]", "[[题-452-Clayden-Ch25-P11-丙二酸酯双烷基化序列]]", "[[题-402-Clayden-Ch26-P1-最简单Aldol自缩合机理]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-333: 1,3-二羰基化合物烯醇分析
 

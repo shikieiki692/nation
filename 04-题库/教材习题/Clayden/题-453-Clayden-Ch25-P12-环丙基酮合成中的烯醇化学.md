@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 25 Problem 12
 cross_references: ["[[题-402-Clayden-Ch26-P1-最简单Aldol自缩合机理]]", "[[题-328-Clayden-Ch20-P1-羰基化合物烯醇式绘制和稳定性]]", "[[题-403-Clayden-Ch26-P2-白蚁防御化合物Aldol+脱水]]", "[[题-329-Clayden-Ch20-P2-两个酮烯醇含量差异解释]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-453: 环丙基酮合成中的烯醇化学
 

@@ -15,6 +15,8 @@ aliases: [26届初赛-9.1, Knoevenagel, 亲核试剂, 丙二酸二乙酯]
 source: "第26届中国化学奥林匹克（初赛）第9题第(9-1)小问"
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-026-9-1：Knoevenagel亲核试剂
 

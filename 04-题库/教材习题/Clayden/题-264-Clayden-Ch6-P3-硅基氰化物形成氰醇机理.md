@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 6 Problem 3
 cross_references: ["[[题-262-Clayden-Ch6-P1-硼氢化钠还原醛酮机理]]", "[[题-363-Clayden-Ch11-P7-二硫缩醛（二噻烷）形成机理]]", "[[题-370-Clayden-Ch12-P3-氰醇形成能量图绘制]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-264: 硅基氰化物形成氰醇机理
 

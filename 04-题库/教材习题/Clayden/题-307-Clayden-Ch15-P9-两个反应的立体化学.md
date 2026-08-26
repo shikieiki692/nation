@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 15 Problem 9
 cross_references: ["[[题-305-Clayden-Ch15-P7-产物立体化学和对映非对映关系]]", "[[题-303-Clayden-Ch15-P5-β-内酰胺合成中的亲核取代]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-307: 两个反应的立体化学（含复杂情况）
 

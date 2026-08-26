@@ -16,6 +16,8 @@ aliases: [ABOC-Ch4-4.13.1]
 source: ABOC 第4章 自学练习（ARX's Basic Organic Chemistry 第3版）
 module: 基础要求-有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-128：Cannizzaro(康尼查罗)反应是醛在强碱浓溶液中发生的歧化反应。以苯甲醛为底物，根据所给条件和
 

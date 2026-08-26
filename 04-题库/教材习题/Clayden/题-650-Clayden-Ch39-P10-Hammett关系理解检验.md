@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 39 Problem 10
 cross_references: ["[[题-291-Clayden-Ch14-P1-五个分子手性判断]]", "[[题-584-Clayden-Ch32-P1-环己烯环氧化+胺开环构象分析]]", "[[题-292-Clayden-Ch14-P2-旋光值区分]]", "[[题-585-Clayden-Ch32-P2-非反应对立体化学的影响]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-650: Hammett关系理解检验
 

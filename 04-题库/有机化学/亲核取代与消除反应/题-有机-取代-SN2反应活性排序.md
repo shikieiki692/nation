@@ -15,6 +15,8 @@ aliases: []
 source: "Zchem基础有机化学-第7讲"
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 卤代烃SN2反应活性排序
 

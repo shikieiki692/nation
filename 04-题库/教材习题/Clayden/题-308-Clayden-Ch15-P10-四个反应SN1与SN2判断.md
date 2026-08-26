@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 15 Problem 10
 cross_references: ["[[题-299-Clayden-Ch15-P1-SN1与SN2机理判断]]", "[[题-301-Clayden-Ch15-P3-SN1与SN2微妙选择]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-308: 四个反应SN1与SN2判断（含环氧化物）
 

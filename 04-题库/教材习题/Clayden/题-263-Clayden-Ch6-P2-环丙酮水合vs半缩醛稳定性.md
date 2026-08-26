@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 6 Problem 2
 cross_references: ["[[题-266-Clayden-Ch6-P5-茚三酮水合选择性]]", "[[题-267-Clayden-Ch6-P6-羟基酮IR异常→环状半缩醛]]", "[[题-357-Clayden-Ch11-P1-缩醛和亚胺形成机理]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-263: 环丙酮水合vs半缩醛稳定性
 

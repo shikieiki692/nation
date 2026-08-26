@@ -17,6 +17,8 @@ source: ABOC 第11章 FINAL TEST 0 [Jack]（ARX's Basic Organic Chemistry 第3�
 cross_references: ["[[04-题库/教材习题/ABOC/题-045-ABOC-FT1-P1-EX4-33重排DA串联]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-038：ABOC FINAL TEST 0 [Jack] — Mutilin 全合成分析（Luo, 2022）
 

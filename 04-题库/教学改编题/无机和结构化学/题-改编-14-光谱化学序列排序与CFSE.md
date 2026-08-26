@@ -15,6 +15,8 @@ aliases: ["改编-光谱化学序列-排序", "光谱化学序列排序"]
 source: "教学改编题（知识点补充）"
 module: 配位化合物
 status: 已填充
+subject_module: 结构化学
+pack: 章节练习
 ---
 # 题-改编-14-光谱化学序列排序与CFSE
 

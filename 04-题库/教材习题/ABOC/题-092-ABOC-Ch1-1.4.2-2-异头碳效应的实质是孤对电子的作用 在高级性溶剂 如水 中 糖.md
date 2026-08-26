@@ -16,6 +16,8 @@ aliases: [ABOC-Ch1-1.4.2-2]
 source: ABOC 第1章 自学练习（ARX's Basic Organic Chemistry 第3版）
 module: 基础要求-有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-092：异头碳效应的实质是孤对电子的作用，在高级性溶剂（如水）中，糖类的异头碳效应会经常失效，请解释原因。
 

@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 14 Problem 7
 cross_references: ["[[题-291-Clayden-Ch14-P1-五个分子手性判断]]", "[[题-294-Clayden-Ch14-P4-四个化合物立体化学讨论]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-297: R/S构型标注
 

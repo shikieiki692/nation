@@ -14,6 +14,8 @@ tags: [化竞, 题目, 分光光度法, 双波长]
 updated: 2026-08-04
 status: 已填充
 exam_stage: 初赛
+subject_module: 元素与分析
+pack: 模块习题集
 ---
 # 题-光度-03：双波长联立测定 Ti 与 V 混合液
 

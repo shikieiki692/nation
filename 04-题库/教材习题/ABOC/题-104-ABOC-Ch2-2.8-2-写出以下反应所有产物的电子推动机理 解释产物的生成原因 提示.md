@@ -16,6 +16,8 @@ aliases: [ABOC-Ch2-2.8-2]
 source: ABOC 第2章 自学练习（ARX's Basic Organic Chemistry 第3版）
 module: 基础要求-有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-104：写出以下反应所有产物的电子推动机理，解释产物的生成原因。提示：次氯酸可以被质子化从而产生氯正离子发动
 

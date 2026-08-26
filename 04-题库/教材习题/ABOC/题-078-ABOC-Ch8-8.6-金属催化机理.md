@@ -16,6 +16,8 @@ aliases: [ABOC-Ch8-8.6]
 source: ABOC 第8章 自学练习 8.6（ARX's Basic Organic Chemistry 第3版）
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-078：金属催化机理
 

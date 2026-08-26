@@ -14,6 +14,8 @@ tags: [化竞, 电化学, Ksp测定]
 updated: 2026-05-03
 status: 已填充
 exam_stage: 初赛
+subject_module: 化学原理
+pack: 模块习题集
 ---
 # 题-002：Nernst 方程求 Ksp
 

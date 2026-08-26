@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 17 Problem 5
 cross_references: ["[[题-299-Clayden-Ch15-P1-SN1与SN2机理判断]]", "[[题-310-Clayden-Ch17-P1-两个消除反应机理]]", "[[题-294-Clayden-Ch14-P4-四个化合物立体化学讨论]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-314: 消除产物烯烃几何构型控制
 

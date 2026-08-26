@@ -15,6 +15,8 @@ aliases: ["题-有机-波谱-06"]
 source: "Zchem基础有机化学"
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 含Cl化合物质谱同位素峰强度比
 

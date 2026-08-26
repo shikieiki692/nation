@@ -15,6 +15,8 @@ aliases: ["题-有机-SNE-01"]
 source: "专题页提炼"
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # SN1/SN2/E1/E2 四选一判断
 

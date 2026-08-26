@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 12 Problem 1
 cross_references: ["[[题-336-Clayden-Ch7-P1-共轭判断和弯曲箭头表示]]", "[[题-337-Clayden-Ch7-P2-复杂化合物中共轭体系范围]]", "[[题-346-Clayden-Ch10-P2-酯化酸催化vs碱不反应分析]]", "[[题-345-Clayden-Ch10-P1-Phenaglycodol合成试剂选择]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-368: 酯取代中间体两个碳正离子稳定性
 

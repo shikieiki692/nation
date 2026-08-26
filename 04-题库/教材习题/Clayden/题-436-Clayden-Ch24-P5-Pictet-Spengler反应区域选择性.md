@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 24 Problem 5
 cross_references: ["[[题-609-Clayden-Ch36-P2-Beckmann重排立体化学和机理]]", "[[题-291-Clayden-Ch14-P1-五个分子手性判断]]", "[[题-292-Clayden-Ch14-P2-旋光值区分]]", "[[题-608-Clayden-Ch36-P1-原子编号追踪重排]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-436: Pictet-Spengler反应区域选择性
 

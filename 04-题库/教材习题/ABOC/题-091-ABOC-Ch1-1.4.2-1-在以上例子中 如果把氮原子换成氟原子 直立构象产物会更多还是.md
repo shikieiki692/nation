@@ -16,6 +16,8 @@ aliases: [ABOC-Ch1-1.4.2-1]
 source: ABOC 第1章 自学练习（ARX's Basic Organic Chemistry 第3版）
 module: 基础要求-有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-091：在以上例子中，如果把氮原子换成氟原子，直立构象产物会更多还是更少？
 

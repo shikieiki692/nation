@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 17 Problem 10
 cross_references: ["[[题-307-Clayden-Ch15-P9-两个反应的立体化学]]", "[[题-317-Clayden-Ch17-P8-环己基溴E2困难和构象变化]]", "[[题-294-Clayden-Ch14-P4-四个化合物立体化学讨论]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-319: 差向异构溴化物消除结果对比
 

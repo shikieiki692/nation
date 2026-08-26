@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 15 Problem 1
 cross_references: ["[[题-301-Clayden-Ch15-P3-SN1与SN2微妙选择]]", "[[题-310-Clayden-Ch17-P1-两个消除反应机理]]", "[[题-312-Clayden-Ch17-P3-消除区域选择性]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-299: SN1与SN2机理判断
 

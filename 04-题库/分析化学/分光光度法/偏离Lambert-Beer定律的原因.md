@@ -14,6 +14,8 @@ tags: [化竞, 题目, 分光光度法, 知识卡]
 updated: 2026-08-04
 status: 已填充
 exam_stage: 初赛
+subject_module: 元素与分析
+pack: 章节练习
 ---
 # 偏离 Lambert-Beer 定律的原因
 

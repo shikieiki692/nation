@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 7 Problem 6
 cross_references: ["[[题-340-Clayden-Ch7-P5-化合物芳香性电子计数]]", "[[题-342-Clayden-Ch7-P7-COT二阴离子六硅基苯阴离子形状]]", "[[题-381-Clayden-Ch21-P1-复杂化合物中芳香环识别]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-341: 吲哚/薁/α-吡喃酮/腺嘌呤芳香性
 

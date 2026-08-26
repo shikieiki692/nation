@@ -17,6 +17,8 @@ source: ABOC 第3章 自学练习（ARX's Basic Organic Chemistry 第3版）
 cross_references: ["[[04-题库/教材习题/ABOC/题-125-ABOC-Ch4-4.6.3-写出以下反应的产物和机理]]"]
 module: 基础要求-有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-115：以环氧乙烷为原料，设计一种合成芥子气的方法。
 

@@ -16,6 +16,8 @@ cross_references: ["[[题-502-Clayden-Ch35-P2-Claisen-3,3-σ迁移入门]]", "[[
 module: 有机化学
 status: 已填充
 knowledge_points: ["[[待人工标定]]"]
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-495: 硝酮环加成区域/立体选择性
 

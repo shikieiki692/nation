@@ -15,6 +15,8 @@ aliases: [30届初赛-7.4, Cativa法, Ir配合物, 面式结构, CO取代, 甲�
 source: "第30届中国化学奥林匹克（初赛）第7题第4小问"
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-030-7-4：Cativa法C'的面式结构示意图
 

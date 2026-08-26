@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 18 Problem 4
 cross_references: ["[[题-414-Clayden-Ch13-P1-五个化合物1H NMR信号和化学位移预测]]", "[[题-415-Clayden-Ch13-P2-酐加MeMgBr产物用IR 13C 1H NMR区分]]", "[[题-560-Clayden-Ch30-P1-吡咯并吡啶三环芳香杂环合成]]", "[[题-561-Clayden-Ch30-P2-不熟悉杂环合成和芳香性判断]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-539: A(C₇H₁₂O₂) 和 B(C₅H₈ClNS) 结构确定
 

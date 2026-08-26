@@ -15,6 +15,8 @@ aliases: [25届初赛-5.1, Wilkinson催化剂, Rh(PPh3)3Cl, dsp2]
 source: "第25届中国化学奥林匹克（初赛）第5题第(5-1)小问"
 module: 无机和结构化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-025-5-1：Wilkinson催化剂结构
 

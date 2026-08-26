@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 24 Problem 1
 cross_references: ["[[题-291-Clayden-Ch14-P1-五个分子手性判断]]", "[[题-608-Clayden-Ch36-P1-原子编号追踪重排]]", "[[题-609-Clayden-Ch36-P2-Beckmann重排立体化学和机理]]", "[[题-292-Clayden-Ch14-P2-旋光值区分]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-432: 氨基醇制备中区域选择性试剂选择
 

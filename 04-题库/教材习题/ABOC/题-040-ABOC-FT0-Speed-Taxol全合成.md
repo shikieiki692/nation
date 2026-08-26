@@ -16,6 +16,8 @@ aliases: [ABOC-FT0-Speed]
 source: ABOC 第11章 全合成推断题（ARX's Basic Organic Chemistry 第3版）
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-040：Taxol 全合成
 

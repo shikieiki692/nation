@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 19 Problem 3
 cross_references: ["[[题-321-Clayden-Ch19-P2-两个烯烃溴化机理和产物]]", "[[题-326-Clayden-Ch19-P7-内部OH亲核的溴化机理和NMR偶合]]", "[[题-392-Clayden-Ch22-P2-共轭加成本质和不发生的情况]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-322: 溴水对三个烯烃加成产物
 

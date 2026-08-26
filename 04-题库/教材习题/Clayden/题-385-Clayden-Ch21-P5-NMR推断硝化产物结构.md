@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 21 Problem 5
 cross_references: ["[[题-336-Clayden-Ch7-P1-共轭判断和弯曲箭头表示]]", "[[题-337-Clayden-Ch7-P2-复杂化合物中共轭体系范围]]", "[[题-525-Clayden-Ch41-P2-拆分法规划不对称合成入门]]", "[[题-524-Clayden-Ch41-P1-循环中间体创建新手性中心]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-385: NMR推断硝化产物结构
 

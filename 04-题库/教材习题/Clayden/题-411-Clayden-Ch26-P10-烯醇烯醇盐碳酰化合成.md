@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 26 Problem 10
 cross_references: ["[[题-329-Clayden-Ch20-P2-两个酮烯醇含量差异解释]]", "[[题-328-Clayden-Ch20-P1-羰基化合物烯醇式绘制和稳定性]]", "[[题-442-Clayden-Ch25-P1-烯醇烯醇盐烷基化路线选择]]", "[[题-443-Clayden-Ch25-P2-缩醛掩蔽的羰基化合物合成]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-411: 烯醇/烯醇盐碳酰化合成
 

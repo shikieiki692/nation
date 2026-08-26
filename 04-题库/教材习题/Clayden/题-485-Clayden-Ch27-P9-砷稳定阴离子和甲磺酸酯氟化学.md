@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 27 Problem 9
 cross_references: ["[[题-425-Clayden-Ch23-P2-内酯选择性开环]]", "[[题-424-Clayden-Ch23-P1-溴代醛选择性转化为两个产物]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-485: 砷稳定阴离子和甲磺酸酯+氟化学
 

@@ -17,6 +17,8 @@ source: ABOC 第2章 自学练习（ARX's Basic Organic Chemistry 第3版）
 cross_references: ["[[04-题库/教材习题/ABOC/题-105-ABOC-Ch2-2.9-写出以下反应的机理 解释机理的不同之处 并画出 A 的结构]]"]
 module: 基础要求-有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-103：写出氢碘酸与以下物种反应的主要产物，注意碳正离子重排。
 

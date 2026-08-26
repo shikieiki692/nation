@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 35 Problem 8
 cross_references: ["[[题-490-Clayden-Ch34-P2-分子内Diels-Alder速率差异]]", "[[题-489-Clayden-Ch34-P1-中等复杂Diels-Alder产物预测]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-508: 三元环开环+1,3-偶极环加成组合
 

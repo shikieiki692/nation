@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 6 Problem 6
 cross_references: ["[[题-263-Clayden-Ch6-P2-环丙酮水合vs半缩醛稳定性]]", "[[题-266-Clayden-Ch6-P5-茚三酮水合选择性]]", "[[题-360-Clayden-Ch11-P4-缩醛选择性水解和硫缩醛水解]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-267: 羟基酮IR异常→环状半缩醛结构推断
 

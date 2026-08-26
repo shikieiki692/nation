@@ -16,6 +16,8 @@ aliases: [ABOC-Ch3-3.4]
 source: ABOC 第3章 自学练习 3.4（ARX's Basic Organic Chemistry 第3版）
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-069：鎓离子开环区域选择性
 

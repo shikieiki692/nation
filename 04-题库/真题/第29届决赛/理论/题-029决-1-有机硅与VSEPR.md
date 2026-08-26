@@ -20,6 +20,8 @@ knowledge_points: ["[[硅氮化合物]]", "[[Na/NH₃体系]]", "[[VSEPR理论]]
 tags: [化竞, 真题, 29届, 决赛, 元素化学]
 updated: 2026-06-30
 status: 已填充
+subject_module: 结构化学
+pack: 综合模拟卷
 ---
 
 ## 题目

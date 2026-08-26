@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 28 Problem 6
 cross_references: ["[[题-291-Clayden-Ch14-P1-五个分子手性判断]]", "[[题-292-Clayden-Ch14-P2-旋光值区分]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 题-460: Nuciferal全合成逆合成分析
 

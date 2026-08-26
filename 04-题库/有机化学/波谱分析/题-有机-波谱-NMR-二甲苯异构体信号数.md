@@ -15,6 +15,8 @@ aliases: ["题-有机-波谱-09"]
 source: "Zchem基础有机化学"
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 二甲苯异构体的¹H NMR信号数比较
 

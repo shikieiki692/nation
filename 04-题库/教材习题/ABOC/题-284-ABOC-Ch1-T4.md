@@ -17,6 +17,8 @@ source: ABOC 第1章 章末习题（ARX's Basic Organic Chemistry 第3版）
 cross_references: ["[[04-题库/教材习题/ABOC/题-277-ABOC-Ch1-T2]]", "[[04-题库/教材习题/ABOC/题-275-ABOC-Ch1-T7]]", "[[04-题库/教材习题/ABOC/题-287-ABOC-Ch1-T8]]", "[[04-题库/教材习题/ABOC/题-265-ABOC-Ch1-T8]]", "[[04-题库/教材习题/ABOC/题-305-ABOC-Ch1-T2]]"]
 module: 基础要求-有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-284：(COBP+XChem-ArCHO) 一些杂题
 

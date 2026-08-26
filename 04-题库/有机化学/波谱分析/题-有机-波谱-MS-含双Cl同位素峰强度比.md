@@ -15,6 +15,8 @@ aliases: ["题-有机-波谱-07", "题-1604"]
 source: "Zchem基础有机化学"
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # 含双Cl化合物质谱M:M+2:M+4峰强度比
 

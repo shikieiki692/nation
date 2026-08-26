@@ -15,6 +15,8 @@ aliases: ["题-有机-加成-01"]
 source: "专题页提炼"
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 不对称烯烃 HBr 加成：马氏规则与过氧化物效应
 

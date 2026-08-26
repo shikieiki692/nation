@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 14 Problem 6
 cross_references: ["[[题-295-Clayden-Ch14-P5-反应产物手性和对映体纯度]]", "[[题-292-Clayden-Ch14-P2-旋光值区分]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-296: 碱性条件下外消旋化
 

@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 38 Problem 2
 cross_references: ["[[题-584-Clayden-Ch32-P1-环己烯环氧化+胺开环构象分析]]", "[[题-489-Clayden-Ch34-P1-中等复杂Diels-Alder产物预测]]", "[[题-585-Clayden-Ch32-P2-非反应对立体化学的影响]]", "[[题-490-Clayden-Ch34-P2-分子内Diels-Alder速率差异]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-629: 另一种卡宾方法→天然抗生素
 

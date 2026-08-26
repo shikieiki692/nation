@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 15 Problem 11
 cross_references: ["[[题-303-Clayden-Ch15-P5-β-内酰胺合成中的亲核取代]]", "[[题-295-Clayden-Ch14-P5-反应产物手性和对映体纯度]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-309: Reboxetine合成序列中的取代反应
 

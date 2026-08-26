@@ -14,6 +14,8 @@ tags: [化竞, 题目, 元素化学, 过渡金属, 钛]
 updated: 2026-08-04
 status: 已填充
 exam_stage: 初赛
+subject_module: 元素与分析
+pack: 章节练习
 ---
 # 题-元钛-01：TiCl₄ 水解与金红石结构
 

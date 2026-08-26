@@ -17,6 +17,8 @@ source: ABOC 第4章 自学练习（ARX's Basic Organic Chemistry 第3版）
 cross_references: ["[[04-题库/教材习题/ABOC/题-118-ABOC-Ch4-4.2.1-二甲亚砜 DMSO 是有机化学中常用的有机氧化剂 可以在较温]]"]
 module: 基础要求-有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-126：写出 PIDA 氧化醇到醛酮的机理。PIDA：PhI(OAc)2
 

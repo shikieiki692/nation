@@ -16,6 +16,8 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 22 Problem 5
 cross_references: ["[[题-629-Clayden-Ch38-P2-另一种卡宾方法→天然抗生素]]", "[[题-321-Clayden-Ch19-P2-两个烯烃溴化机理和产物]]", "[[题-628-Clayden-Ch38-P1-碱引发两个简单卡宾反应]]", "[[题-320-Clayden-Ch19-P1-HCl对三个烯烃加成方向]]"]
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-395: NMR确定亲核芳香取代产物
 

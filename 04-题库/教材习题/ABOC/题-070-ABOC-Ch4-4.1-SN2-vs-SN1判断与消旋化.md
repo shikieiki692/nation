@@ -16,6 +16,8 @@ aliases: [ABOC-Ch4-4.1]
 source: ABOC 第4章 自学练习 4.1（ARX's Basic Organic Chemistry 第3版）
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-070：SN2 vs SN1 判断与消旋化
 

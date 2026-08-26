@@ -17,6 +17,8 @@ source: ABOC 第3章 自学练习（ARX's Basic Organic Chemistry 第3版）
 cross_references: ["[[04-题库/教材习题/ABOC/题-114-ABOC-Ch3-3.3-2-写出存在碱时反式邻环戊二醇与四醋酸铅反应的机理]]"]
 module: 基础要求-有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-111：在有机反应中，反式邻二醇是一类重要原料，可以通过烯烃的氧化反应制备。下式给出了合成反式邻二醇的一种路
 

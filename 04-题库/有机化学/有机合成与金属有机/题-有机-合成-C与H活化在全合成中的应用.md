@@ -15,6 +15,8 @@ aliases: ["题-有机-合成-06"]
 source: "Zchem有机反应合成与机理"
 module: 有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 模块习题集
 ---
 # C-H活化在全合成中的应用
 

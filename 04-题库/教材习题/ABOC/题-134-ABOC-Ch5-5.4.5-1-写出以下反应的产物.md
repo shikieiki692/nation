@@ -16,6 +16,8 @@ aliases: [ABOC-Ch5-5.4.5-1]
 source: ABOC 第5章 自学练习（ARX's Basic Organic Chemistry 第3版）
 module: 基础要求-有机化学
 status: 已填充
+subject_module: 有机化学
+pack: 章节练习
 ---
 # 题-134：写出以下反应的产物。
 
