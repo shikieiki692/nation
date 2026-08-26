@@ -127,14 +127,19 @@ def main(root_dir):
             continue
         el, x, y, cx, cy = res
         accent = title_accent(el)
-        # vertical bar to the left of the title (in the margin)
+        # vertical bar to the left of the title (in the margin).
+        # Title placeholder boxes can have a negative y (extend above the
+        # slide); clamp the bar inside the canvas.
         bx = x - BAR_GAP - BAR_W
         if bx < 0:
             bx = x + cx + BAR_GAP  # put it to the RIGHT if no left room
         bh = max(BAR_MIN_H, min(cy, BAR_MAX_H))
-        by = y + (cy - bh) // 2  # vertically center on the title
+        by = max(y, 0)            # never above the slide top
+        by = min(by, H - bh)      # never below the slide bottom
         # underline below the title
         uy = y + cy + UNDER_GAP
+        uy = max(uy, 0)
+        uy = min(uy, H - UNDER_H)
         uw = min(cx, UNDER_MAX_W)
         sid += 1
         sp_tree.append(rect(sid, 'BrandBar', bx, by, BAR_W, bh, accent))
