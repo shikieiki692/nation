@@ -1856,7 +1856,13 @@ def _validate_docx(
     prep_images = set(re.findall(r'!\[.*?\]\(([^)]+)\)', prep_text))
     expected_math = _count_markdown_math_expressions(prep_text)
 
+    # Hard loss signals (raised in strict mode): a *real* media slot is missing, or a
+    # source image ref cannot be resolved to any file on disk at all.
     image_issues: list[str] = []
+    # Diagnostic-only signals (always WARN, never strict-raise): pandoc legitimately
+    # re-encodes images (.png → .jpg), so a docx media sha256 won't always equal the
+    # source file's. A content mismatch here is NOT proof of a dropped image.
+    image_diagnostics: list[str] = []
 
     import zipfile
     try:
@@ -1930,21 +1936,21 @@ def _validate_docx(
     if expected_images and not docx_images:
         image_issues.append(
             f"Expected {len(expected_images)} image(s) but docx has 0 — "
-            f"images may not have rendered"
+            f"images did not render"
         )
     elif len(docx_images) < len(expected_images):
         image_issues.append(
-            f"Image count mismatch: expected {len(expected_images)}, "
-            f"docx {len(docx_images)}"
+            f"{len(expected_images) - len(docx_images)} image(s) lost: expected "
+            f"{len(expected_images)}, docx {len(docx_images)}"
         )
     if missing_refs:
         image_issues.append(
             f"{len(missing_refs)} image ref(s) unresolvable on disk: {missing_refs[:4]}"
         )
     if missing_content_refs:
-        image_issues.append(
-            f"{len(missing_content_refs)} image(s) missing from docx content: "
-            f"{missing_content_refs[:4]}"
+        image_diagnostics.append(
+            f"{len(missing_content_refs)} image(s) content differs from source "
+            f"(likely pandoc re-encode, not a loss): {missing_content_refs[:4]}"
         )
 
     # Check 3: raw wikilink leakage (only in preprocessed, not source)
@@ -1996,11 +2002,17 @@ def _validate_docx(
                     f"Answers without matching question: {sorted_extra}"
                 )
 
-    # Merge image gate findings into the report. In strict mode, any image loss is a
-    # hard failure (raise) rather than a WARN, so a silently-dropped figure blocks the
-    # conversion instead of being reported as "OK".
+    # Merge image gate findings into the report. In strict mode, a *real* image loss is
+    # a hard failure (raise) rather than a WARN, so a silently-dropped figure blocks the
+    # conversion instead of being reported as "OK". Diagnostic-only findings (possible
+    # pandoc re-encode) never raise, even in strict mode.
     if image_issues:
         issues.extend(image_issues)
+    if image_diagnostics:
+        print(
+            f"  [WARN] Image diag: {'; '.join(image_diagnostics)}",
+            file=sys.stderr,
+        )
 
     if issues:
         if strict_images and image_issues:

@@ -17,6 +17,7 @@ module: 决赛要求
 status: 已填充
 subject_module: 有机化学
 pack: 综合模拟卷
+knowledge_points: ["[[反应机理]]"]
 ---
 # 第 9 题 TMSOTf促进反应 (3 分)
 

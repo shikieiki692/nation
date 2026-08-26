@@ -17,6 +17,7 @@ module: 决赛要求
 status: 已填充
 subject_module: 有机化学
 pack: 综合模拟卷
+knowledge_points: ["[[反应机理]]"]
 ---
 # 第 8 题 Diels-Alder反应 (4 分)
 
