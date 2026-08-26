@@ -2,7 +2,7 @@
 docx_utils.py — 学生讲义 Word 输出共享风格库 (v2)
 
 字体口径（依据用户反馈修正）：
-  - 中文正文：宋体 SimSun（备选仿宋 FangSong）
+  - 中文正文：仿宋 FangSong（原为宋体 SimSun，按需求替换）
   - 中文标题/表头：黑体 SimHei
   - 英文/数字/变量/普通符号：Times New Roman
   - 仅非常特殊、必须保留中文风格的符号跟随中文字体
@@ -18,7 +18,9 @@ docx_utils.py — 学生讲义 Word 输出共享风格库 (v2)
 from copy import deepcopy
 from pathlib import Path
 from typing import Optional
+import os
 import re
+import time
 import zipfile
 
 from docx import Document
@@ -28,7 +30,7 @@ from docx.oxml.ns import qn
 from docx.shared import Cm, Pt, RGBColor
 
 # ── 字体常量 ──────────────────────────────────────────────
-CN_BODY_FONT = "SimSun"        # 宋体 — 中文正文 / 表格正文
+CN_BODY_FONT = "FangSong"      # 仿宋 — 中文正文 / 表格正文（原宋体 SimSun，按需求改为仿宋）
 CN_HEAD_FONT = "SimHei"        # 黑体 — 中文标题 / 表头
 EN_FONT = "Times New Roman"    # 英文 / 数字 / 变量 / 一般符号
 CN_CAPTION_FONT = "FangSong"   # 仿宋 — 图例题注（仿宋五号居中）
@@ -55,6 +57,25 @@ SPACING_HEADING_BEFORE = 14   # 标题前间距
 SPACING_HEADING_AFTER = 6     # 标题后间距
 LINE_SPACING_BODY = 1.25      # 正文行距
 WORD_NS = "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+
+
+def _atomic_replace(src: Path, dst: Path, attempts: int = 6, delay: float = 0.25) -> None:
+    """Atomically move `src` onto `dst`, retrying on transient Windows locks.
+
+    Download/thumbnail/defender workers on Windows can briefly hold a freshly-written
+    .docx, making ``Path.replace`` raise ``PermissionError`` (WinError 5) inside the
+    parallel batch. This helper retries before giving up so a single transient lock
+    does not fail the whole conversion.
+    """
+    import errno
+    for attempt in range(attempts):
+        try:
+            os.replace(src, dst)
+            return
+        except OSError as exc:
+            if exc.errno not in (errno.EACCES, errno.EPERM, 5) or attempt == attempts - 1:
+                raise
+            time.sleep(delay)
 
 
 def _dedupe_first_tag_xmlns(first_tag: str) -> str:
@@ -119,12 +140,16 @@ def _repair_word_namespaces(docx_path: Path) -> bool:
         if not changed:
             return False
 
-    tmp_path = docx_path.with_name(docx_path.stem + ".styles-fix.tmp" + docx_path.suffix)
+    # Use a process-unique temp name so concurrent parallel workers never collide
+    # on a shared "styles-fix.tmp" path, then move atomically with retry.
+    tmp_path = docx_path.with_name(
+        f"{docx_path.stem}.styles-fix.{os.getpid()}.tmp{docx_path.suffix}"
+    )
     with zipfile.ZipFile(tmp_path, "w") as zout:
         for info, data in zip_entries:
             zout.writestr(info, data)
 
-    tmp_path.replace(docx_path)
+    _atomic_replace(tmp_path, docx_path)
     return True
 
 # ── 字体设置函数 ──────────────────────────────────────────
@@ -184,7 +209,7 @@ def add_text(
 # ── 手动构建函数（用于非 pandoc 场景）─────────────────────
 
 def base_doc() -> Document:
-    """A4 竖排页面，标准页边距，Normal 默认为 SimSun + TNR。"""
+    """A4 竖排页面，标准页边距，Normal 默认为 仿宋 FangSong + TNR。"""
     doc = Document()
     section = doc.sections[0]
     section.page_width = PAGE_WIDTH
@@ -232,7 +257,7 @@ def heading(doc: Document, text: str, level: int = 1) -> None:
 
 
 def para(doc: Document, text: str) -> None:
-    """正文段落（SimSun 11.5pt）。"""
+    """正文段落（仿宋 FangSong 11.5pt）。"""
     p = doc.add_paragraph()
     set_paragraph_spacing(p, after=5)
     add_text(p, text, size=11.5, cn_font=CN_BODY_FONT)
@@ -240,7 +265,7 @@ def para(doc: Document, text: str) -> None:
 
 
 def bullet(doc: Document, text: str, level: int = 0) -> None:
-    """项目符号段落（SimSun 11.5pt）。"""
+    """项目符号段落（仿宋 FangSong 11.5pt）。"""
     p = doc.add_paragraph(style="List Bullet")
     p.paragraph_format.left_indent = Cm(0.74 + 0.5 * level)
     p.paragraph_format.first_line_indent = Cm(-0.45)
@@ -913,7 +938,7 @@ def postprocess_pandoc_docx(
     output_path : Path or None
         修正后保存路径。为 None 时覆盖原文件。
     body_font : str
-        中文正文字体（默认 SimSun）。
+        中文正文字体（默认仿宋 FangSong）。
     head_font : str
         中文标题/表头字体（默认 SimHei）。
     center_title : bool
@@ -961,8 +986,10 @@ def postprocess_pandoc_docx(
         )
         cn = head_font if is_heading else body_font
 
-        # 补 eastAsia（若缺失）
-        if not rFonts.get(qn("w:eastAsia")):
+        # 补 eastAsia（若缺失）；若模板遗留了宋体 SimSun，也强制替换为目标字体，
+        # 避免 Normal 等默认样式继承时仍落到宋体。
+        cur_east = rFonts.get(qn("w:eastAsia"))
+        if not cur_east or cur_east == "SimSun":
             rFonts.set(qn("w:eastAsia"), cn)
         # 补 ascii/hAnsi（若缺失）
         if not rFonts.get(qn("w:ascii")):

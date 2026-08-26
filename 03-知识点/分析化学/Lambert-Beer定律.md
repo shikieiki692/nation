@@ -260,3 +260,9 @@ WHERE type = "题目"
   AND contains(knowledge_points, "Lambert-Beer定律")
 SORT difficulty ASC, year DESC
 ```
+
+
+## 核心理论图谱
+
+![[f3b13d5b25e048c72d46429249e6522dfd7dc3d27a991e4ff92da0340b283dce.jpg]]
+> *图释：分光光度法-图1：Lambert-Beer定律示意（比色管浓度递增→光减弱，A∝c·b）*（来源： / 分析讲义核验08-07）

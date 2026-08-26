@@ -21,7 +21,7 @@ stage: published
 sources: ["ABOC §2.7.3 行 1721-1730"]
 source_type: []
 review_cycle: 30d
-has_images: false
+has_images: true
 image_count: 0
 images_priority: low
 images_note: "当前以文字、公式或表格表达为主，暂未单独配置图像文件；后续备课如需增强直观性，再按需补图。"
@@ -307,3 +307,9 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Wurtz偶联")
 SORT year DESC, difficulty ASC
 ```
+
+
+## 核心理论图谱
+
+![[08bbde9dc7067e0093dcec7f30fa0a18d8c1afa3ddcdf60f7950168bb4c7de76.jpg]]
+> *图释：二甲基二氯合金属有机配合物 M(CH₃)₂Cl₂ 空间 3D 球棍立体构型模型*（来源：zx_dimethyl_dichloro_metal_complex_3d_model.jpg / 批次55-赵鑫光Ch200-350中篇）

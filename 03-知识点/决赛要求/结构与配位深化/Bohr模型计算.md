@@ -485,3 +485,9 @@ SORT year DESC, difficulty ASC
 ## 十五、待完善项
 
 - 暂无
+
+
+## 核心理论图谱
+
+![[3d9b7ea39f05416f0691bcc4b3988d4d7f297495e226ec02dfb781a61fe55bd6.png]]
+> *图释：氢原子能级跃迁与光谱线系对应*（来源： / 原子结构）

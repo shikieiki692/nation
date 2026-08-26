@@ -52,3 +52,9 @@ Friedel-Crafts反应应在掌握芳香亲电取代反应和Lewis酸催化之后�
 - **石油化工**：Friedel-Crafts烷基化是生产乙苯（苯乙烯前体）、异丙苯（苯酚/丙酮前体）的核心反应
 - **药物合成**：Friedel-Crafts酰基化用于在芳环上引入酰基，是合成酮类药物的重要方法
 - **高分子工业**：聚苯醚（PPO）等工程塑料的合成涉及Friedel-Crafts反应
+
+
+## 核心理论图谱
+
+![[ec7dfae6241ba68c378b031c01dad5bdee52ee8c26bce0bcb72586b7ed8597dc.jpg]]
+> *图释：4-氯联苯与衣康酸酐在AlCl3催化下的Friedel-Crafts酰基化反应机理图*（来源：clayden_sol_friedel_crafts_itaconic.jpg / 批次98-名著候选高阶清仓）

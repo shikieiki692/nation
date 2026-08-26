@@ -22,7 +22,7 @@ stage: published
 sources: []
 source_type: []
 review_cycle: 30d
-has_images: false
+has_images: true
 images_priority: low
 images_note: "当前未嵌入图像文件；如后续备课需要提升直观性，可补充结构示意图、构型图、能级图或反应路径图。"
 key_images: []
@@ -276,3 +276,12 @@ SORT year DESC, difficulty ASC
 ```
 
 *参考来源：Clayden Ch.4、有机化学教材（邢其毅等）*
+
+
+## 核心理论图谱
+
+![[9b91b6df76b071282335ad1939404efeee17cc9f380da82a969f1ed98728a500.jpg]]
+> *图释：sp2杂化轨道形成过程（BCl3平面三角）*（来源： / 结构化学第一轮复习）
+
+![[183bdbfd6b39bbadf149c56116342678f4d0e92a62b72c6a6af896b707f9e724.jpg]]
+> *图释：Zeise盐Pt(II)-C2H4之Dewar-Chatt-Duncanson（DCD）成键模型（dsp2杂化空轨道sigma给电子配键与dp满轨道反馈pi键重叠图）*（来源：zjwx_ch7_zeise_salt_dcd_bonding_orbital.jpg / 金属有机化学/成键理论/Dewar-Chatt-Duncanson模型/Zeise盐/反馈pi键）

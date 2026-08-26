@@ -344,3 +344,9 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Semipinacol重排")
 SORT year DESC, difficulty ASC
 ```
+
+
+## 核心理论图谱
+
+![[d592d5c4ea223ff4a58fafeda1c377d24fd3d5fd9b747992be0586f9a8b79779.jpg]]
+> *图释：2-苄基吲哚C3位烯丙基化后发生1,2-迁移重排生成2-苄基-3-烯丙基吲哚反应机理图*（来源：clayden_sol_indole_allyl_1_2_migration.jpg / 批次100-名著候选高阶清仓）

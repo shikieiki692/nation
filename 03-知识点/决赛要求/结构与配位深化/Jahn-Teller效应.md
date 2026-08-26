@@ -530,3 +530,12 @@ SORT year DESC, difficulty ASC
 | d¹⁰ | Zn²⁺ | ↑↑ | ↑↑↑↑↑↑↑ | **无** | 完全填满 |
 
 **竞赛口诀**：eg 轨道不均匀占据 → 强 JT；t2g 不均匀 → 弱 JT；eg 均匀占据（d³/d⁸）或全空/全满 → 无 JT。
+
+
+## 核心理论图谱
+
+![[f90ab8df6868eb136e8007f176fcd01336bdb483c7a7a314ed52ac04bf497cfc.jpg]]
+> *图释：d4高自旋/d7低自旋JT畸变对比*（来源： / 配合物深化）
+
+![[9ea24f1ec0a45fbba62b375e1af7cb45b61dcd26b98e0ac0377e4a5ca3f040b8.jpg]]
+> *图释：第一过渡系八面体金属水合离子水分子交换速率常数lg(k/s^-1)与d电子数关系曲线图（晶体场活化能CFAE与Jahn-Teller效应双峰双谷模型）*（来源：transition_metal_aqua_ion_water_exchange_rate_vs_d_electrons_cfae.jpg / 无机化学/反应动力学/水交换速率/晶体场活化能/Jahn-Teller效应）

@@ -22,7 +22,7 @@ stage: published
 sources: ["ABOC §5.2"]
 source_type: []
 review_cycle: 30d
-has_images: false
+has_images: true
 images_priority: 结构/机理 medium，纯公式 low
 images_note: 
 teaching_ready: false
@@ -340,3 +340,12 @@ SORT year DESC, difficulty ASC
 ## 十四、外部资料出处
 
 ## 十五、待完善项
+
+
+## 核心理论图谱
+
+![[bf9a04cbc8288489c7fbe85220b0bc7de33ee7b0e787369a689f070e20f5157a.jpg]]
+> *图释：芳香亲电取代 Wheland σ-络合物及正电荷离域共振式*（来源：clayden_wheland_sigma_complex.jpg / 批次50-有机S2核验）
+
+![[a26e57b5f6df151b2b440e26aa00d78c54f8f4f64d975350f9cf494d2d7edaa8.jpg]]
+> *图释：溴苯芳香亲电硝化反应邻对位定位效应*（来源：clayden_ch24_bromobenzene_nitration_orientation.jpg / 芳香亲电取代/定位效应）

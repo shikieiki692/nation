@@ -273,3 +273,12 @@ $$E = E^{\theta} - \frac{0.059\,\mathrm{V}}{\nu_e}\times\nu_p \times pH \quad (2
 ## 十七、待完善项
 - [x] 补充 Fe、Mn、Cu 等常见元素的 Pourbaix 图简化版 — Fe/Mn见§十例题，Cu见§十六，三元素对比表见§十六
 - [x] 关联真题中涉及环境化学/水体金属形态判断的例题 — 见§十六竞赛例题（矿山废水），§十例题1/2已覆盖
+
+
+## 核心理论图谱
+
+![[95fad056ca235c9c29f5fa516b9cb17585e17539ba2037c038a52fcbae39bda3.jpg]]
+> *图释：水的E-pH Pourbaix图（a/b线+F/Ca电极）*（来源： / 批次07-32）
+
+![[a82daa2a396f82bc169e85301a3fa63b6f830a4fee73a84df4ea1e346f48fe8c.jpg]]
+> *图释：砷的E-pH Pourbaix图（I线+As线）*（来源： / 批次07-32）

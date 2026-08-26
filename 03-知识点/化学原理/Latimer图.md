@@ -42,7 +42,7 @@ source_type:
   - 专题归纳
   - 专题归纳
 review_cycle: 30d
-has_images: false
+has_images: true
 image_count: 0
 images_priority: low
 images_note: "LaTeX 公式 + Mermaid 决策流程图已足够;原书 §5.12 不含图像截图,无需补图。"
@@ -338,3 +338,12 @@ $$E^\theta = \frac{4 \times 1.50 + 1 \times 1.60 + 1 \times 1.07}{6} = \frac{6.0
 ## 十八、待完善项
 - [x] 补充更多元素的 Latimer 图实例（Mn、N、S 等）——已补充 §十五
 - [x] 关联真题中涉及 Latimer 图判断的例题 — 见§十七
+
+
+## 核心理论图谱
+
+![[f33b245f325893ba19c338e410bf21f154559108ea16f07c9f1235106caaf238.jpg]]
+> *图释：碱性介质O₃/O₂与Mn的Latimer图（完整氧化还原序列）*（来源： / 批次07-32）
+
+![[fe5b40fa0ba66572635746d2f1dbd7bdcdf9cc316709f5de81025c47c4b7ffdf.jpg]]
+> *图释：Cl元素Latimer图（ClO4-→Cl-）*（来源：weller_ch7_latimer_chlorine.jpg / 批次01-06）

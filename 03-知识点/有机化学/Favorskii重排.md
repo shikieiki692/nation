@@ -346,3 +346,9 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Favorskii重排")
 SORT year DESC, difficulty ASC
 ```
+
+
+## 核心理论图谱
+
+![[5cb71e0e850e651c5a7dcbfc5e4676ad3d7a0f9150d5b22d00589adc58877e49.jpg]]
+> *图释：Favorskii重排对称环丙酮中间体形成机理图*（来源：clayden_ch34_favorskii_cyclopropanone_intermediate.jpg / 分子重排/Favorskii重排）

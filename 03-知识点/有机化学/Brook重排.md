@@ -33,7 +33,7 @@ status: 已填充
 stage: published
 sources: []
 review_cycle: 30d
-has_images: false
+has_images: true
 image_count: 0
 images_priority: medium
 images_note: "可补配[1,2]-Brook重排机理图（烷氧基负离子→硅基迁移→碳负离子）；当前用文字描述替代"
@@ -265,3 +265,15 @@ $$\,^–CH(R')–OSiR_3 \xrightarrow{\text{酸或热}} R_3Si–CH(R')–O^–$$
 - 立体选择性：syn/anti 取决于烯醇构型和 Brook 重排的立体化学
 
 **竞赛意义**：Brook-Aldol 串联是"一锅法"构建碳-碳键的强大策略，展示了硅基迁移如何"接力"产生新的碳负离子。
+
+
+## 核心理论图谱
+
+![[10a88fa958666590ab935c5df38ce652bff37d42168a1f7af15a075a6c0e2f41.jpg]]
+> *图释：Brook重排通式：硅基从碳迁移至氧*（来源：ccho_37_brook_rearrangement_general.jpg / 批次01-06）
+
+![[333cfbefa9360df749f303a6daa7c2eaebf3324f8447c5f72f02f39c446f283f.jpg]]
+> *图释：缩硫醛稳定碳负离子参与连续环氧开环与Brook重排*（来源：ccho_37_brook_rearrangement_sulfur_acetal.jpg / 批次01-06）
+
+![[6439399c70b3e8f7593e88a8d039b51fc6b72dbcc5206039b820eb399c621d69.jpg]]
+> *图释：Brook重排中缩硫醛碳负离子的轨道稳定化示意*（来源：ccho_37_brook_sulfur_acetal_orbital_stabilization.jpg / 批次01-06）

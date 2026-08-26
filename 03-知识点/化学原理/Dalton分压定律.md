@@ -28,7 +28,7 @@ source_notes:
   - "[[04-课件/新授课/2026-06-02-气体与溶液-基础班]]"
   - "[[04-课件/备课大纲/2026-06-02-气体与溶液-基础班]]"
 review_cycle: 30d
-has_images: false
+has_images: true
 image_count: 0
 images_priority: low
 images_note: 纯公式与概念型 KP，文字表达足够。
@@ -242,3 +242,9 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Dalton分压定律")
 SORT year DESC, difficulty ASC
 ```
+
+
+## 核心理论图谱
+
+![[77921da956f62569a2f6cb5f7a4d6866d533a6ad926581c07ed21c8879b53eb6.jpg]]
+> *图释：气体分压力测定装置（钯管）*（来源： / 气体基础）

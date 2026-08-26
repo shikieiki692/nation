@@ -22,7 +22,7 @@ stage: published
 sources: ["ABOC §7.4"]
 source_type: []
 review_cycle: 30d
-has_images: false
+has_images: true
 images_priority: 结构/机理 medium，纯公式 low
 images_note: 
 teaching_ready: false
@@ -329,3 +329,9 @@ SORT year DESC, difficulty ASC
 ## 十四、外部资料出处
 
 ## 十五、待完善项
+
+
+## 核心理论图谱
+
+![[0e65c12bcf3efb2be1ab824e73e1dacdc95c743d5b8436bce4fb7336dfc7b501.jpg]]
+> *图释：Nazarov环化反应4pi电环化Woodward-Hoffmann立体化学选律与顺旋对旋全景对比图*（来源：clayden_ch34_nazarov_cyclization_stereochemical_rules.jpg / 周环反应/电环化/Nazarov环化）

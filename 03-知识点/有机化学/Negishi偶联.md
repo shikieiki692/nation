@@ -22,7 +22,7 @@ stage: published
 sources: ["ABOC §8.5"]
 source_type: []
 review_cycle: 30d
-has_images: false
+has_images: true
 images_priority: 结构/机理 medium，纯公式 low
 images_note: 
 teaching_ready: false
@@ -261,3 +261,9 @@ SORT year DESC, difficulty ASC
 ## 十四、外部资料出处
 
 ## 十五、待完善项
+
+
+## 核心理论图谱
+
+![[099a8a788164c9537bbfb94c8289a24f3d79b61843e98058cd0d52d04aaa4a25.jpg]]
+> *图释：钯催化交叉偶联反应五大经典人名反应全景对照表：Heck/Stille/Suzuki/Sonogashira/Buchwald-Hartwig*（来源：clayden_ch37_pd_coupling_five_named_reactions_table.jpg / 过渡金属催化/交叉偶联/人名反应）

@@ -645,3 +645,15 @@ SORT year DESC, difficulty ASC
 ---
 
 *创建时间：2026-05-03（v1.0 初稿）· 升级时间：2026-05-10（v1.1 完整版）· 来源 ABOC §2.9 + 离子对理论 + 反极化视角 · ABOC「反极化与亲卤取代」是 SN2 的另一面——把 §1.4 给体-受体相互作用真正贯通进取代反应*
+
+
+## 核心理论图谱
+
+![[1e2054db7436bf3a08ada50660c715d8bfb4db2a177436c3f3fa74541e112b65.svg]]
+> *图释：SN2 反应背侧进攻五配位过渡态与 Walden 翻转*（来源：sn2_backside_attack_walden_inversion.svg / 批次50-有机S2核验）
+
+![[080eb35e688ac0e94111dbe3ba10f304f8f1e339cc6db33bcbb0c21bf05afdb6.jpg]]
+> *图释：SN2′反应γ位进攻构象与双直立键排斥*（来源：ccho_38_sn2_prime_gamma_attack_transition_state.jpg / 批次01-06）
+
+![[12dddcef7cba812f0fb7057a2bdcf89c11ed8c3a0922e24cc760c6aed259493c.jpg]]
+> *图释：SN2′反应β/γ位进攻路径与选择性比较*（来源：ccho_38_sn2_prime_beta_gamma_selectivity.jpg / 批次01-06）

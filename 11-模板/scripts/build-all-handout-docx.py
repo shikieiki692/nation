@@ -5,7 +5,7 @@ Batch converter: Markdown student handouts → uniformly formatted .docx (v2)
 三段式管线：
   1. Preprocess  — 剥 YAML frontmatter、解 [[wiki-link]]、预处理 \\ce{} 为 \\text{}
   2. Pandoc      — pypandoc 转换 markdown → docx（自动 LaTeX → OMML 公式）
-  3. Postprocess — python-docx 修正字体（正文 SimSun / 标题 SimHei / 英文 TNR）
+  3. Postprocess — python-docx 修正字体（正文 仿宋 FangSong / 标题 SimHei / 英文 TNR）
 
 用法:
     python build-all-handout-docx.py                          # 全量转换
@@ -27,6 +27,7 @@ import re
 import shutil
 import subprocess
 import sys
+import threading
 from pathlib import Path
 from typing import Any, Literal, Optional
 
@@ -50,7 +51,7 @@ except ImportError:
 
 # Add parent dir so docx_utils can be imported
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from docx_utils import postprocess_pandoc_docx
+from docx_utils import _atomic_replace, postprocess_pandoc_docx
 
 # ── Paths ────────────────────────────────────────────────────────
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -1782,13 +1783,16 @@ def convert_file(
 
     # Write to temp file
     out_dir.mkdir(parents=True, exist_ok=True)
-    tmp_md = out_dir / f"_{stem}.tmp.md"
+    # Unique per-process/thread temp base so parallel workers never collide on the
+    # same `_{stem}.tmp.*` path.
+    tmp_id = f"{os.getpid()}-{threading.get_ident()}"
+    tmp_md = out_dir / f"_{stem}.{tmp_id}.tmp.md"
     tmp_md.write_text(full_md, encoding="utf-8")
     resource_path = _build_resource_path(md_path, out_dir)
 
     try:
         # ── Stage 2: Pandoc ──
-        tmp_docx = out_dir / f"_{stem}.tmp.docx"
+        tmp_docx = out_dir / f"_{stem}.{tmp_id}.tmp.docx"
         pandoc_convert(tmp_md, tmp_docx, resource_path=resource_path, verbose=verbose)
 
         # ── Stage 3: Post-process fonts ──
@@ -1804,7 +1808,7 @@ def convert_file(
         )
 
         # ── Rename temp → final ──
-        tmp_docx.replace(out_path)
+        _atomic_replace(tmp_docx, out_path)
 
         if render_preview:
             preview_dir = _render_docx_preview(

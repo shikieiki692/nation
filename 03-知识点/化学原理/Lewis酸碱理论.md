@@ -40,7 +40,7 @@ source_extracts:
     target_section: "§十三 竞赛拓展"
     date: "2026-06-21"
     status: "已回流"
-has_images: false
+has_images: true
 images_priority: low
 images_note: "概念性理论，无需配图。Lewis 酸碱的本质是电子对转移，文字描述足够。"
 key_images: []
@@ -317,3 +317,9 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Lewis酸碱理论")
 SORT year DESC, difficulty ASC
 ```
+
+
+## 核心理论图谱
+
+![[9e509138c98a467fa8d1ab8271a7ffb2a76295a54da42fe2406e4ab6e233e1ff.jpg]]
+> *图释：烯基环氧化合物的Lewis酸催化重排与产物选择*（来源：ccho_37_lewis_acid_vinyl_epoxide_rearrangement.jpg / 批次01-06）

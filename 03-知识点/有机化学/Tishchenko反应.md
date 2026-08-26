@@ -22,7 +22,7 @@ stage: published
 sources: ["ABOC §4.11"]
 source_type: []
 review_cycle: 30d
-has_images: false
+has_images: true
 images_priority: 结构/机理 medium，纯公式 low
 images_note: 
 teaching_ready: false
@@ -273,3 +273,9 @@ SORT year DESC, difficulty ASC
 ## 十四、外部资料出处
 
 ## 十五、待完善项
+
+
+## 核心理论图谱
+
+![[01d87f7f57b212ec5b5f99e193d54682a5b41b8e335937492279b3e9791fc208.jpg]]
+> *图释：季先科Tishchenko反应铝醇盐催化醛歧化合成酯六元环过渡态氢负离子迁移催化循环机理图*（来源：tishchenko_reaction_aluminium_alkoxide_catalytic_cycle.jpg / 人名反应/催化循环/Tishchenko反应机理）

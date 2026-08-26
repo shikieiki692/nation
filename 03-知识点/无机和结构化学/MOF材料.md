@@ -114,3 +114,9 @@ difficulty: 1
 1. **气体储存**：MOF用于储存氢气、甲烷等清洁能源
 2. **分离纯化**：MOF用于气体分离和液体纯化
 3. **催化反应**：MOF作为高效催化剂载体
+
+
+## 核心理论图谱
+
+![[8dfb5476b027ff7d8e91e49d1719fd908a4f58b94d19e8d2a4059824a60ba922.jpg]]
+> *图释：第 33 届初赛试题多面体配位聚合物/多酸晶体结构孔道网络模型图（经典多面体网络）*（来源：polyhedral_coordination_polymer_porous_network_structure.jpg / 批次07-32）

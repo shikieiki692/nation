@@ -21,7 +21,7 @@ stage: published
 sources: ["ABOC §1.3f", "Clayden Ch.36"]
 source_type: [教材, 资料提炼]
 review_cycle: 30d
-has_images: false
+has_images: true
 image_count: 0
 images_priority: low
 images_note: 待评估
@@ -274,3 +274,9 @@ source_extracts:
 ---
 
 *本 KP 填充于 2026-05-24，基于 ABOC §1.3f 和 Clayden Ch.36 资料*
+
+
+## 核心理论图谱
+
+![[341b37e7cecb3e36fa2b7fea2d98937cc88f1350170337e8d8b1ba502171b236.jpg]]
+> *图释：Wagner-Meerwein重排复杂三环倍半萜碳正离子骨架重排机理图*（来源：clayden_ch34_wagner_meerwein_terpene_carbocation_rearrange.jpg / 分子重排/碳正离子/萜类化学）

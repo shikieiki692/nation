@@ -23,7 +23,7 @@ source_type: [教材提炼]
 review_cycle: 30d
 template_version: v1.3
 updated: 2026-05-17
-has_images: false
+has_images: true
 image_count: 0
 images_priority: low
 images_note: "当前以文字、公式或表格表达为主，暂未单独配置图像文件；后续备课如需增强直观性，再按需补图。"
@@ -201,3 +201,9 @@ ABOC 第1章（绪论）在以下位置涉及 Newman 投影式：
 ## 十五、待完善项
 
 | 2026-05-17 | v1.0 | 基于 ABOC 第1章（行 1008-1023 及练习 1.2.2-3）创建 | AI助手 |
+
+
+## 核心理论图谱
+
+![[044be860eb88470444347d9a2c1ee245a5b0b81f1a9259f280bd4f9ccdd2768b.jpg]]
+> *图释：环己烷椅型与船型构象立体模型、锯架式（Sawhorse）与双纽曼投影式（Newman）空间立体构象对照图*（来源：cyclohexane_chair_boat_sawhorse_newman_conformations.jpg / 有机化学/立体化学/构象分析/环己烷构象）

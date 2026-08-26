@@ -133,3 +133,8 @@ Hammett方程应在掌握电子效应（诱导、共轭）和反应动力学基�
 - **催化剂设计**：通过ρ值判断反应机理，指导催化剂的电子效应调控
 - **材料科学**：Hammett方程用于预测共轭聚合物中取代基对光电性质的影响
 
+
+## 核心理论图谱
+
+![[09e227a43743632eaf3107bdb72a11ff8da2d705d532ebdf82785771b009bd77.jpg]]
+> *图释：Hammett方程线性自由能关系LFER建立与取代苯甲酸酯水解速率相关图*（来源：clayden_ch37_hammett_lfer_benzoic_ester_hydrolysis.jpg / 物理有机化学/Hammett方程/LFER）

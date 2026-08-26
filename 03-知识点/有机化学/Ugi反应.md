@@ -22,7 +22,7 @@ stage: published
 sources: ["ABOC §5.11"]
 source_type: []
 review_cycle: 30d
-has_images: false
+has_images: true
 images_priority: 结构/机理 medium，纯公式 low
 images_note: 
 teaching_ready: false
@@ -282,3 +282,9 @@ SORT year DESC, difficulty ASC
 ## 十四、外部资料出处
 
 ## 十五、待完善项
+
+
+## 核心理论图谱
+
+![[78c4f1698d4e59512d3f715800dd5e65784ad560de9e0a3e7c3569a9a4818d7a.jpg]]
+> *图释：ARC多组分反应：ASG稳定碳负离子构筑复杂骨架*（来源：ccho_37_arc_multicomponent_reaction_route.jpg / 批次01-06）

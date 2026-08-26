@@ -325,3 +325,12 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Pinacol重排")
 SORT year DESC, difficulty ASC
 ```
+
+
+## 核心理论图谱
+
+![[263162ee51458cc23a559d44bba6d2ea2ade8f4ecfff1eb59dd5f9edbbb1eb04.jpg]]
+> *图释：Nicolaou紫杉醇Taxol全合成22步经典路线图包含SmI2频哪醇偶联与侧链内酰胺开环对接*（来源：nicolaou_taxol_total_synthesis_22_steps.jpg / 全合成/紫杉醇全合成/Nicolaou路线）
+
+![[7a8f8827fa9071993a1fec7a66d03a1e0ea3605d93edf3ec3f1cad819195e1a7.jpg]]
+> *图释：9-(二苯基羟甲基)-9-芴醇酸催化频哪醇重排反应：苯基 1,2-迁移与芴基环扩大迁移产物竞争路线图*（来源：fluorenol_pinacol_rearrangement_phenyl_migration_ring_expansion_scheme.jpg / 有机化学/分子重排/频哪醇重排/迁移能力与扩环竞争）

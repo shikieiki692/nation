@@ -22,7 +22,7 @@ stage: published
 sources: [Arrow Pushing in Inorganic Chemistry-总索引]
 source_type: []
 review_cycle: 30d
-has_images: false
+has_images: true
 image_count: 0
 images_priority: medium
 images_note: "当前未嵌入图像文件；该主题具备一定可视化价值，后续备课时可优先补充结构示意图、关系图或谱图。"
@@ -273,3 +273,9 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Curtius重排")
 SORT year DESC, difficulty ASC
 ```
+
+
+## 核心理论图谱
+
+![[0876473fb2e5b0f05ca2dd00741680eb1384d5d23d5050e9b46f712093bdabeb.jpg]]
+> *图释：酰基叠氮热解脱氮生成酰基氮宾中间体与异氰酸酯重排机理及衍生化（伯胺/氨基甲酸酯/取代脲）*（来源：peijian_curtius_nitrene_isocyanate_mechanism.jpg / 批次71-知识点高频缺口定向核验）

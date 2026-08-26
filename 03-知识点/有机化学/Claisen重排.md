@@ -382,3 +382,14 @@ WHERE contains(knowledge_points, "Claisen重排")
 SORT year DESC, difficulty ASC
 ```
 
+
+## 核心理论图谱
+
+![[dde6a2eb92e599f02086247e450902068972b92607c4f0447fe29f8785d51044.jpg]]
+> *图释：Claisen重排周环反应前线轨道对称性推导模型（pi2a + sigma2a + pi2s同面/异面轨道重叠图）*（来源：clayden_ch34_claisen_fmo_orbital_symmetry_model.jpg / 批次101-名著候选高阶清仓）
+
+![[90de85a9cf29da5d5a2ddf2a2d66fcda4a2f2660f3adf5b6a858cd5e18a66896.jpg]]
+> *图释：Claisen重排四大变体全景对比：醛缩醛/酮缩醛/原酸酯/原酰胺[3,3]迁移机理图*（来源：clayden_ch34_claisen_four_variants_rearrangements.jpg / 周环反应/[3,3]重排/Claisen重排）
+
+![[fee699c3a146816431f91c90609fdabaf00639ab258978e190e5938b94e3279b.jpg]]
+> *图释：Ireland-Claisen重排反应经硅基烯醇醚3,3-sigma迁移构建立体专一性木脂素天然产物内酯骨架全合成机理路线图*（来源：ireland_claisen_rearrangement_lignan_lactone_synthesis.jpg / 分子重排/Ireland-Claisen重排/[3,3]迁移）

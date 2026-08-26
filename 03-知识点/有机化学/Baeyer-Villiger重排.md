@@ -376,3 +376,12 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Baeyer-Villiger重排")
 SORT year DESC, difficulty ASC
 ```
+
+
+## 核心理论图谱
+
+![[119a223a1c68b7967d54c1f5b524e48d99f2778c76f1e6500fea13aee26bdad2.jpg]]
+> *图释：Baeyer-Villiger氧化反应迁移能力顺序与定量产率对比图*（来源：clayden_ch34_baeyer_villiger_migratory_aptitude_order.jpg / 氧化反应/Baeyer-Villiger）
+
+![[817d5048d784858f17a12c21ea7647f5a048bef92d3c17594ffdec5cfa230161.jpg]]
+> *图释：抗帕金森病药物L-多巴从酪氨酸经Dakin氧化与Baeyer-Villiger重排合成路线*（来源：clayden_ch34_l_dopa_synthesis_dakin_baeyer_villiger.jpg / 全合成/药物化学/重排反应）

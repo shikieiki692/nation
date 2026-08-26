@@ -316,3 +316,12 @@ WHERE type = "题目"
   AND contains(knowledge_points, "Gibbs自由能")
 SORT difficulty ASC, year DESC
 ```
+
+
+## 核心理论图谱
+
+![[59f0d818ec9ef92f679d9147f6eed8540973742ec48905ffeafdd126833ad798.jpg]]
+> *图释：化学热力学状态函数计算逻辑与任意温度Gibbs自由能推导全景决策流程图*（来源：thermodynamic_functions_gibbs_free_energy_flowchart.jpg / 化学热力学/状态函数/Gibbs自由能计算）
+
+![[80f90917624aa8daf67b31be4a3c81d41b9ef59d77ac4c7ee06ef2d8d170fea4.jpg]]
+> *图释：氧化物Ellingham埃林汉姆图吉布斯自由能Delta_rG与温度T关系及碳热还原冶金可行性判定曲线图*（来源：ellingham_diagram_oxide_gibbs_free_energy_vs_temperature.jpg / 无机热力学/冶金热力学/Ellingham图分析）

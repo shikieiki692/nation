@@ -127,7 +127,7 @@ Word / PDF 两条生成链路都在这里，但不是这里的所有文件都属
 
 当前字体总原则已经明确：
 
-- 中文正文：`SimSun`
+- 中文正文：`FangSong`（原为 `SimSun`，按需求改为仿宋）
 - 中文标题 / 表头：`SimHei`
 - 图注：`FangSong`
 - 英文、数字、变量、一般符号：`Times New Roman`

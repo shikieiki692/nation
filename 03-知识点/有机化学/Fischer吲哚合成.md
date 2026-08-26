@@ -396,3 +396,8 @@ WHERE contains(knowledge_points, "Fischer吲哚合成")
 SORT year DESC, difficulty ASC
 ```
 
+
+## 核心理论图谱
+
+![[e93a3573881083006100f86434987123a0d3b865327bc8ff523bddca22a823e5.jpg]]
+> *图释：Fischer吲哚合成反应[3,3]迁移重排与关环芳构化机理全过程*（来源：clayden_ch34_fischer_indole_synthesis_mechanism.jpg / 杂环合成/人名反应/Fischer吲哚）

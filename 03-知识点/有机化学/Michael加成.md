@@ -50,3 +50,12 @@ Michael加成应在掌握羰基亲核加成和共轭体系之后学习。建议�
 - **天然产物合成**：Michael加成是构建碳-碳键的重要方法，用于合成萜类、甾体等天然产物
 - **药物合成**：许多药物分子的碳骨架通过Michael加成构建
 - **高分子化学**：Michael加成可用于制备功能性聚合物，如含有Michael受体的交联剂
+
+
+## 核心理论图谱
+
+![[bec0db94a19a576ada3856f8c5cb304de095feb10f62cce58675a6e6ba0b6049.jpg]]
+> *图释：硼自由基引发的类Michael加成与β-碎裂路线*（来源：ccho_39_boron_radical_michael_addition_route.jpg / 批次01-06）
+
+![[19c8c2bf844cc0a8df66cedf4dbd1c23c9db579cbde17d125031d9baa4b0abad.jpg]]
+> *图释：亲核试剂对α,β-不饱和羰基1,4-共轭Michael加成反应机理*（来源：clayden_ch24_conjugate_michael_addition_mechanism.jpg / 共轭加成/烯醇负离子）

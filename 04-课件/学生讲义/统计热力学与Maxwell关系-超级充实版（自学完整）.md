@@ -277,7 +277,7 @@ $$S = Nk\left[\ln\frac{V}{N\Lambda^3} + \frac{5}{2}\right] = nR\left[\ln\frac{V_
 - 微观解释：0 K 附近晶格热容服从 **Debye T³ 定律**（$C_V \propto T^3$），温度越低振动自由度冻结越彻底，故完美晶体 0 K 熵趋于 0；取向无序不受此限，留下残余熵。
 
 > [!note] Sackur-Tetrode 方程与残余熵
-> 离域子平动熵：S = nR·ln(V_m·e^{5/2} / N_A·Λ³)
+> 离域子平动熵：$S = nR\ln\!\left(V_\mathrm{m}\,e^{5/2}\,/\,N_\mathrm{A}\Lambda^3\right)$
 > 残余熵：CO 晶体 0K 下 S₀ = k·ln(2^N) = R·ln2
 > Debye T³ 定律解释完美晶体 0K 熵→0
 

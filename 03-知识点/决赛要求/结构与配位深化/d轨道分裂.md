@@ -208,3 +208,15 @@ $$\Delta_o = E(e_g^*) - E(t_{2g})$$
 **已配图（07-29）**：
 - 四方平面 d 轨道分裂：![[media/weller-square-planar-d-splitting.jpg]]（Weller §20.1(f) 图20.10，d⁸ 在强场下的四方平面分裂，d_{x²-y²} 能量最高）
 - 八面体分裂详见 [[八面体配位]] 中已嵌入的 CFT 分裂图
+
+
+## 核心理论图谱
+
+![[2ed7b24fa94703572baf9dd556c7a3190197d8b9faa9ec789d88bd5a1efb6cbd.jpg]]
+> *图释：纠正机器误标“d轨道分裂能级”，实际为吡啶-2-甲酰胺双齿配位金属 M 形成五元螯合环配合物结构式*（来源：picolinamide_bidentate_metal_chelate_structure.jpg / 批次07-32）
+
+![[5f17019ed47a446f6515092df204963ec690487335c040ce1b8bf22b9d631f8b.jpg]]
+> *图释：5f17019ed…：确认为正八面体晶体场d轨道分裂能级图（自由离子→球形场→eg/t₂g分裂，Δ₀=10Dq）*（来源：octahedral_crystal_field_d_orbital_splitting_energy_diagram.jpg / 批次07-32）
+
+![[fd5b7f66c5e0ac2f09cdc9b1972d4ac867193db5a4ab939f93e6f02e27a5ece0.jpg]]
+> *图释：**纠偏**源索引误标 Mabcdef 30种异构体，实际为 d轨道7种配位几何构型（正方形/三角双锥/四方锥/八面体/五角双锥/四方反棱柱/四面体）晶体场分裂能级对比图*（来源： / 批次07-32）

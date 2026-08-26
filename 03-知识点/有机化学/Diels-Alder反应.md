@@ -82,6 +82,19 @@ $$
 - **三组分串联**：34 届决赛真题中 LiTMP 参与的 D-A 三组分反应，显示 D-A 在现代合成方法学中的生命力。
 - **智能高分子**：呋喃-马来酰亚胺 D-A 反应热可逆，用于自修复材料和热可逆交联聚合物。
 
+
+
+## 核心理论图谱
+
+![[055aac147e88b406bc8cfa677a926a28568979571e1aba49e6011020f0a43a4a.jpg]]
+> *图释：酚类衍生物经Pb(OAc)4氧化去芳构化与立体选择性分子内Diels-Alder反应（IMDA）级联全反应图*（来源：ccho_36_wessely_oxidation_imda_cascade.jpg / 批次101-名著候选高阶清仓）
+
+![[af24438c4fc6be473809c97585e05507d084ed482e73e7997b586a4424149d42.jpg]]
+> *图释：呋喃与马来酸酐可逆Diels-Alder反应之动力学与热力学控制对比图（内型endo vs 外型exo稳定性）*（来源：clayden_ch34_furan_maleic_anhydride_da_thermo.jpg / 批次102-名著候选高阶清仓）
+
+![[44b5934cfc02bb7d8caea4963cb58e805f5e4f801a6b1a7681a48e54946ef105.jpg]]
+> *图释：氮丙啶顺旋开环生成甲亚胺叶立德1,3-偶极环加成立体特异性机理图*（来源：clayden_ch34_azomethine_ylide_1_3_dipolar_cycloaddition.jpg / 周环反应/偶极环加成/杂环合成）
+
 ## 易错点
 
 | 易错点 | 正确理解 |

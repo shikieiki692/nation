@@ -22,7 +22,7 @@ stage: published
 sources: []
 source_type: []
 review_cycle: 30d
-has_images: false
+has_images: true
 images_priority: low
 images_note: "当前未嵌入图像文件；如后续备课需要提升直观性，可补充结构示意图、构型图、能级图或反应路径图。"
 key_images: []
@@ -281,3 +281,9 @@ SORT year DESC, difficulty ASC
 ```
 
 *参考来源：Clayden Ch.4、有机化学教材（邢其毅等）*
+
+
+## 核心理论图谱
+
+![[288591e7970514765c2433b04af147e60ba0c0b78d2837514a92c2e33d38d6a0.jpg]]
+> *图释：sp3杂化轨道形成过程（CH4正四面体）*（来源： / 结构化学第一轮复习）

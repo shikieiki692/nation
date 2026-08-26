@@ -21,7 +21,7 @@ stage: published
 sources: []
 source_type: []
 review_cycle: 30d
-has_images: false
+has_images: true
 image_count: 0
 images_priority: 滴定曲线/光谱 medium，概念 low
 images_note: "当前以文字、公式或表格表达为主，暂未单独配置图像文件；后续备课如需增强直观性，再按需补图。"
@@ -264,3 +264,12 @@ WHERE type = "题目"
   AND contains(knowledge_points, "NMR谱学")
 SORT difficulty ASC, year DESC
 ```
+
+
+## 核心理论图谱
+
+![[98f7d1e6844c098be748b0f2e74c643662d5933335b74d1ca552001c1afdb4d4.jpg]]
+> *图释：1H-NMR经典自旋-自旋偶合常数（Coupling Constants J值，Hz）特征对照图（涵盖邻位、同碳、顺反烯烃与芳环邻间位）*（来源：proton_nmr_coupling_constants_j_values_structure_correlation.jpg / 分析化学/波谱分析/核磁共振/1H-NMR偶合常数）
+
+![[be7cc82a034fd6da51562173b5deeed793f6fd94151b190f5c97190100e5d206.jpg]]
+> *图释：5-羟基-2-甲基吲哚-3-羧酸乙酯1H-NMR核磁共振氢谱图（含化学位移PPM、峰形裂分与积分曲线图）*（来源：5_hydroxy_2_methylindole_3_carboxylate_1h_nmr_spectrum.jpg / 有机化学/波谱解析/1H-NMR/吲哚衍生物谱图）

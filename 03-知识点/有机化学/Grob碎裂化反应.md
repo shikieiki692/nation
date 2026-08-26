@@ -681,3 +681,9 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Grob碎裂化反应")
 SORT year DESC, difficulty ASC
 ```
+
+
+## 核心理论图谱
+
+![[b51c8d00dcf497ad017fb24b2a6375639b55f2c7fa1e63845fa88f3a143a0b94.jpg]]
+> *图释：环丙基原醇酸催化裂解重排（Grob-type 碎片化）：协同裂解与分步裂解机理构建 (E)-烯基溴对比图*（来源：cyclopropyl_carbinol_grob_fragmentation_concerted_stepwise_mechanism.jpg / 有机化学/分子重排与裂解/Grob碎片化反应/小环开环机理）

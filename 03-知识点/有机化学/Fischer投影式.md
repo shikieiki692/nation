@@ -396,3 +396,12 @@ Fischer投影式
 
 ## 十五、待完善项
 - 暂无
+
+
+## 核心理论图谱
+
+![[1c947fa9be11ca9af316e689b99ebc8267087e6af5729a9f3f82c1db10c84dfa.jpg]]
+> *图释：Fischer投影式（甘油醛）*（来源： / 批次31）
+
+![[61938f9158209092e7ede5328d53aae01e675acca050d4d622b0a24d88cafca2.jpg]]
+> *图释：L-山梨糖与2-酮基-L-古洛糖酸从锯架式/透视式至标准 Fischer 费歇尔投影式之立体构型推导对照图*（来源：l_sorbose_fischer_projections_stereochemical_derivation_ccho33.jpg / 有机化学/糖化学/立体化学/Fischer投影式）

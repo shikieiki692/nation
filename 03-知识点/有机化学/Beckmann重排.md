@@ -315,3 +315,9 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Beckmann重排")
 SORT year DESC, difficulty ASC
 ```
+
+
+## 核心理论图谱
+
+![[c4a18f3a884a57c34d0b5f964590fcf17fc2118935d38808f27e99f25aa501bd.jpg]]
+> *图释：2-戊酮肟Beckmann重排反式迁移立体特异性验证图（正丙基vs甲基迁移生成73:27产物比）*（来源：clayden_ch34_pentan2one_oxime_beckmann_migration.jpg / 批次102-名著候选高阶清仓）

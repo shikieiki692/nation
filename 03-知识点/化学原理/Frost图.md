@@ -318,3 +318,12 @@ $$\ce{2Mn^3+ + 2H2O -> Mn^2+ + MnO2 + 4H+}$$
 ## 十八、待完善项
 - [x] 补充 Mn、N、Cl 等常见元素的 Frost 图数据表——已补充 §十五
 - [x] 关联真题中涉及 Frost 图判断的例题 — 见§十七
+
+
+## 核心理论图谱
+
+![[63fc9697b2f28e7339f42dd2e855d7429dd9c2e6b3abf45a86549a1ede2237c4.jpg]]
+> *图释：氯元素在酸性和碱性水溶液中的Frost图（自由能-氧化态图）*（来源：weller_ch7_frost_chlorine.jpg / 批次01-06）
+
+![[7cb7be3cb5bd1edc3f3b6ddf746102f0a174e3227de3692713fec283aec39ede.png]]
+> *图释：锰元素酸性介质 Frost 自由能-氧化态图*（来源：inorg_mn_frost_diagram_acidic.png / 批次51-讲义视觉核验）

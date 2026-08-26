@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ascii"?>
+<p:tagLst xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:tag name="AS_OS" val="Unix 3.10 unknown"/>
+  <p:tag name="AS_RELEASE_DATE" val="2023.03.31"/>
+  <p:tag name="AS_TITLE" val="Aspose.Slides for Java"/>
+  <p:tag name="AS_VERSION" val="23.3"/>
+  <p:tag name="COMMONDATA" val="eyJoZGlkIjoiMWZiNGQ1OWZiYTBjZWUyYjYyNDJmYTRkNzlhNzU3NTIifQ=="/>
+  <p:tag name="KSO_WPP_MARK_KEY" val="b41e63c3-dc62-4bce-8505-0b3652c1fca4"/>
+</p:tagLst>

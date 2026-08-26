@@ -22,7 +22,7 @@ stage: published
 sources: ["ABOC §5.5"]
 source_type: []
 review_cycle: 30d
-has_images: false
+has_images: true
 image_count: 0
 images_priority: medium
 images_note: "当前未嵌入图像文件；该主题具备一定可视化价值，后续备课时可优先补充结构示意图、关系图或谱图。"
@@ -317,3 +317,9 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Birch还原")
 SORT year DESC, difficulty ASC
 ```
+
+
+## 核心理论图谱
+
+![[6bbc147d4f4ed8701bc9d8598e53d94ce56fb2bd7848114eadeb13258cf4a24b.jpg]]
+> *图释：羰基/芳环单电子还原后的闭壳层阴离子结构*（来源：ccho_38_radical_anion_closed_shell_structure.jpg / 批次01-06）

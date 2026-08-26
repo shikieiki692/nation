@@ -22,7 +22,7 @@ stage: published
 sources: ["ABOC §4.2"]
 source_type: []
 review_cycle: 30d
-has_images: false
+has_images: true
 image_count: 0
 images_priority: medium
 images_note: "当前未嵌入图像文件；该主题具备一定可视化价值，后续备课时可优先补充结构示意图、关系图或谱图。"
@@ -320,3 +320,9 @@ FROM "04-题库"
 WHERE contains(knowledge_points, "Mitsunobu反应")
 SORT year DESC, difficulty ASC
 ```
+
+
+## 核心理论图谱
+
+![[0e511fedc64a89bb69df6e26f47408dbf8671c596a300a1aefcf8d533dae28b9.jpg]]
+> *图释：Appel反应：醇经CBr4/PPh3转化为卤代烃并发生构型翻转*（来源：ccho_37_appel_alcohol_to_halide.jpg / 批次01-06）
