@@ -1033,8 +1033,18 @@ def postprocess_pandoc_docx(
             has_theme = any("Theme" in str(k) for k in rFonts.attrib)
             # 原逻辑：无主题且已有 eastAsia 字体 → 跳过
             # 新逻辑：非CJK run 强制TNR（Unicode亚脚字符需要TNR渲染）
+            # 修正：pandoc 默认会把 CJK run 的 eastAsia 写成 SimSun，若沿用"已有
+            # eastAsia 就跳过"，正文就永远换不成仿宋。改为——已有 eastAsia 且非
+            # SimSun（如标题 SimHei、其它已有 CJK 字体）才保留；SimSun 一律落到
+            # 目标正文/标题字体，确保宋体残留能被替换干净。
             run_text = run.text or ""
-            if not has_theme and rFonts.get(qn("w:eastAsia")) and _has_cjk(run_text):
+            cur_east = rFonts.get(qn("w:eastAsia"))
+            if (
+                not has_theme
+                and cur_east
+                and cur_east != "SimSun"
+                and _has_cjk(run_text)
+            ):
                 continue
             # 选择中文字体：非CJK内容用TNR，CJK内容用原设定
             cn = EN_FONT if not _has_cjk(run_text) else (head_font if is_heading else body_font)
