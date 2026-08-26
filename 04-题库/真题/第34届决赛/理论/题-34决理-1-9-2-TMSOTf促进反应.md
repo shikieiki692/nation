@@ -8,7 +8,7 @@ subject: 有机化学
 difficulty: 4
 teaching_level: 拔高
 syllabus_codes: []
-knowledge_points: TMSOTf, [[Lewis酸催化]], [[环化反应]], [[有机合成]]
+knowledge_points: ["[[TMSOTf]]", "[[Lewis酸催化]]", "[[环化反应]]", "[[有机合成]]", "[[反应机理]]"]
 tags: [化竞, 决赛, 理论, 有机化学]
 updated: 2020-11-16
 aliases: []
@@ -17,7 +17,6 @@ module: 决赛要求
 status: 已填充
 subject_module: 有机化学
 pack: 综合模拟卷
-knowledge_points: ["[[反应机理]]"]
 ---
 # 第 9 题 TMSOTf促进反应 (3 分)
 

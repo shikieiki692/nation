@@ -1,6 +1,6 @@
 ---
 title: Corey-Chaykovsky反应
-aliases: [Johnson-Corey-Chaykovsky reaction, JCC reaction, Corey叶立德反应, 硫叶立德加成, 二甲基硫鎓甲叉, 二甲基亚砜鎓甲叉]
+aliases: [Johnson-Corey-Chaykovsky reaction, JCC reaction, Corey叶立德反应, 硫叶立德加成, 二甲基硫鎓甲叉, 二甲基亚砜鎓甲叉, 硫叶立德]
 type: 知识点
 template_version: v1.3
 subject: 有机化学

@@ -1,6 +1,6 @@
 ---
 title: Gibbs自由能
-aliases: [Gibbs Free Energy, G, 自由能, 吉布斯自由能]
+aliases: [Gibbs Free Energy, G, 自由能, 吉布斯自由能, Gibbs自由能与平衡, 标准Gibbs自由能]
 type: 知识点
 template_version: v1.3
 subject: 化学原理

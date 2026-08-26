@@ -1,5 +1,5 @@
 ---
-aliases: [范德华方程, 实际气体状态方程, van der Waals状态方程]
+aliases: [范德华方程, 实际气体状态方程, van der Waals状态方程, 实际气体]
 type: 知识点
 title: van der Waals方程
 subject: 化学原理

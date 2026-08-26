@@ -1,6 +1,6 @@
 ---
 title: Le Châtelier原理
-aliases: [勒夏特列原理, 平衡移动原理, Le Chatelier原理, 化学平衡移动]
+aliases: [勒夏特列原理, 平衡移动原理, Le Chatelier原理, 化学平衡移动, 平衡移动]
 type: 知识点
 subject: 化学原理
 module: 化学原理

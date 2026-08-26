@@ -1,6 +1,6 @@
 ---
 title: VSEPR理论
-aliases: [价层电子对互斥理论, 价电子对互斥理论]
+aliases: [价层电子对互斥理论, 价电子对互斥理论, 价电子, 孤对电子]
 type: 知识点
 template_version: v1.3
 subject: 无机和结构化学

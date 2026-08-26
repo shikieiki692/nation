@@ -1,6 +1,6 @@
 ---
 title: Robinson托品酮合成
-aliases: [Robinson Tropinone Synthesis, 托品酮合成, Mannich-羟醛串联]
+aliases: [Robinson Tropinone Synthesis, 托品酮合成, Mannich-羟醛串联, 托品酮]
 type: 知识点
 subject: 有机化学
 module: 有机化学

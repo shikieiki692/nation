@@ -1,6 +1,6 @@
 ---
 title: Corey-Kim氧化
-aliases: [Corey-Kim Oxidation, NCS/DMS氧化, 醇氧化, 温和氧化]
+aliases: [Corey-Kim Oxidation, NCS/DMS氧化, 醇氧化, 温和氧化, NCS]
 type: 知识点
 template_version: v1.3
 subject: 有机化学

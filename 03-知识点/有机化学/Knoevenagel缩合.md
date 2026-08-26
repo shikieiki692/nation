@@ -4,7 +4,7 @@ template_version: v1.3
 subject: 有机化学
 module: 有机化学
 title: "Knoevenagel缩合"
-aliases: ["Knoevenagel反应"]
+aliases: [Knoevenagel反应, Knoevenagel]
 created: 2026-07-18
 updated: 2026-07-23
 tags: [化竞, 有机化学, 缩合反应]

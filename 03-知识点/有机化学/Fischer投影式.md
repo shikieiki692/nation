@@ -1,6 +1,6 @@
 ---
 title: Fischer投影式
-aliases: [Fischer Projection, 费歇尔投影]
+aliases: [Fischer Projection, 费歇尔投影, 费歇尔投影式]
 type: 知识点
 template_version: v1.3
 subject: 有机化学

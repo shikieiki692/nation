@@ -12,7 +12,7 @@ status: 已填充
 stage: published
 created: 2026-07-22
 updated: 2026-07-22
-aliases: [Claisen condensation, 酯缩合反应, Dieckmann缩合, Dieckmann环化]
+aliases: [Claisen condensation, 酯缩合反应, Dieckmann缩合, Dieckmann环化, 酯缩合]
 related: [Aldol缩合, 烯醇负离子, 乙酰乙酸乙酯合成法, Dieckmann缩合, 酯]
 source_extracts:
   - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第26章-羟醛反应和Claisen反应]]"

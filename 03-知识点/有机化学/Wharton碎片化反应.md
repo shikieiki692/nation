@@ -1,6 +1,6 @@
 ---
 title: Wharton碎片化反应
-aliases: [Wharton Fragmentation, Eschenmoser碎片化, 碎片化反应]
+aliases: [Wharton Fragmentation, Eschenmoser碎片化, 碎片化反应, Wharton碎片化]
 type: 知识点
 subject: 有机化学
 module: 有机化学

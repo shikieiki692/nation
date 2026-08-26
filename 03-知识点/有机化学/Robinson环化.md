@@ -1,6 +1,6 @@
 ---
 title: Robinson环化
-aliases: [Robinson Annulation, 罗宾逊环化, Robinson增环反应, Robinson成环, Robinson合成, Michael-Aldol串联, 环己烯酮合成]
+aliases: [Robinson Annulation, 罗宾逊环化, Robinson增环反应, Robinson成环, Robinson合成, Michael-Aldol串联, 环己烯酮合成, Robinson增环]
 type: 知识点
 template_version: v1.3
 subject: 有机化学

@@ -8,7 +8,7 @@ subject: 有机化学
 difficulty: 5
 teaching_level: 拔高
 syllabus_codes: []
-knowledge_points: Diels-Alder反应, [[环加成]], [[捕获反应]], [[中间体]]
+knowledge_points: ["[[Diels-Alder反应]]", "[[环加成]]", "[[捕获反应]]", "[[中间体]]", "[[反应机理]]"]
 tags: [化竞, 决赛, 理论, 有机化学]
 updated: 2020-11-16
 aliases: []
@@ -17,7 +17,6 @@ module: 决赛要求
 status: 已填充
 subject_module: 有机化学
 pack: 综合模拟卷
-knowledge_points: ["[[反应机理]]"]
 ---
 # 第 8 题 Diels-Alder反应 (4 分)
 

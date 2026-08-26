@@ -1,6 +1,6 @@
 ---
 title: Dalton分压定律
-aliases: [Dalton's Law of Partial Pressures, 分压定律, 气体分压, Dalton分压]
+aliases: ["Dalton's Law of Partial Pressures", 分压定律, 气体分压, Dalton分压, 分压]
 type: 知识点
 template_version: v1.3
 subject: 化学原理

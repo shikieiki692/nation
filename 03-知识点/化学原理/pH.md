@@ -1,6 +1,6 @@
 ---
 title: pH
-aliases: [pH值, pOH]
+aliases: [pH值, pOH, pH控制, 水的离子积]
 type: 知识点
 template_version: v1.3
 subject: 化学原理

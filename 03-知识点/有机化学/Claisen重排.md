@@ -1,6 +1,6 @@
 ---
 title: Claisen重排
-aliases: ["Claisen Rearrangement", "[3,3]-σ迁移", 烯丙基芳基醚重排, 周环反应, 协同反应, Claisen缩合]
+aliases: [Claisen Rearrangement, "[3", "3]-σ迁移", 烯丙基芳基醚重排, 周环反应, 协同反应, Claisen缩合, Ireland-Claisen重排]
 type: 知识点
 subject: 有机化学
 module: 有机化学

@@ -1,6 +1,6 @@
 ---
 title: Cannizzaro反应
-aliases: [Cannizzaro Reaction, 康尼查罗反应, 歧化反应, 无α-H醛的氧化还原]
+aliases: [Cannizzaro Reaction, 康尼查罗反应, 歧化反应, 无α-H醛的氧化还原, 无α-H醛]
 type: 知识点
 subject: 有机化学
 module: 有机化学

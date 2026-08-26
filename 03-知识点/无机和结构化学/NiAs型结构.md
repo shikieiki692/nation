@@ -1,6 +1,6 @@
 ---
 title: NiAs型结构
-aliases: [Nickel Arsenide Structure, 砷化镍型结构, NiAs结构]
+aliases: [Nickel Arsenide Structure, 砷化镍型结构, NiAs结构, NiAs型]
 type: 知识点
 template_version: v1.3
 subject: 无机和结构化学

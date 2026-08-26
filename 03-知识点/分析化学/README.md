@@ -1,5 +1,6 @@
 ---
 title: 分析化学
+aliases: [分析化学]
 type: 系统
 role: 子目录索引
 subject: 分析化学

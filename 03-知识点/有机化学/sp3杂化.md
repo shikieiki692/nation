@@ -1,6 +1,6 @@
 ---
 title: sp³杂化
-aliases: [sp3杂化]
+aliases: [sp3杂化, sp3]
 type: 知识点
 template_version: v1.3
 subject: 有机化学

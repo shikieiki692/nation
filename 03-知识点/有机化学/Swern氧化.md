@@ -1,6 +1,6 @@
 ---
 title: Swern氧化
-aliases: [Swern Oxidation, 斯文氧化, DMSO氧化]
+aliases: [Swern Oxidation, 斯文氧化, DMSO氧化, Swern氧化机理]
 type: 知识点
 template_version: v1.3
 subject: 有机化学
