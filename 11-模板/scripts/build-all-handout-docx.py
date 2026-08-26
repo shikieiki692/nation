@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import argparse
 from dataclasses import dataclass
+import hashlib
 import os
 import re
 import shutil
@@ -1738,6 +1739,7 @@ def convert_file(
     render_output_dir: Path | None = None,
     emit_render_pdf: bool = False,
     word_clean: bool = False,
+    strict_images: bool = False,
 ) -> Path | None:
     """Convert a single .md handout to .docx via the three-stage pipeline.
 
@@ -1793,7 +1795,13 @@ def convert_file(
         postprocess(tmp_docx, verbose=verbose)
 
         # ── Stage 3.5: Post-generation validation ──
-        _validate_docx(tmp_docx, md_path, tmp_md, verbose=verbose)
+        _validate_docx(
+            tmp_docx,
+            md_path,
+            tmp_md,
+            verbose=verbose,
+            strict_images=strict_images,
+        )
 
         # ── Rename temp → final ──
         tmp_docx.replace(out_path)
@@ -1821,6 +1829,7 @@ def _validate_docx(
     md_source: Path,
     md_preprocessed: Path,
     verbose: bool = False,
+    strict_images: bool = False,
 ) -> None:
     """Validate generated docx for common issues.
 
@@ -1847,11 +1856,17 @@ def _validate_docx(
     prep_images = set(re.findall(r'!\[.*?\]\(([^)]+)\)', prep_text))
     expected_math = _count_markdown_math_expressions(prep_text)
 
+    image_issues: list[str] = []
+
     import zipfile
     try:
         with zipfile.ZipFile(docx_path) as z:
             namelist = set(z.namelist())
-            docx_images = [n for n in namelist if n.startswith("word/media/")]
+            # Count REAL media files. The `word/media/` directory entry is NOT an image.
+            docx_images = [
+                n for n in namelist
+                if n.startswith("word/media/") and not n.endswith("/")
+            ]
             document_xml = z.read("word/document.xml").decode("utf-8", errors="replace")
     except Exception as exc:
         issues.append(f"docx zip validation failed: {exc}")
@@ -1869,15 +1884,67 @@ def _validate_docx(
         issues.append(f"missing OOXML members: {sorted(missing_members)}")
 
     expected_images = prep_images or src_images
+
+    # ── Content-level image reconciliation ──
+    # Count alone is unreliable (re-encoded images, a `word/media/` dir entry, or a
+    # pandoc silent drop all shift media counts). Resolve each source image ref to its
+    # on-disk file and compare sha256 against the actual docx media payload.
+    expected_media_hashes: dict[str, str] = {}
+    missing_refs: list[str] = []
+
+    def _resolve_image_ref(ref: str) -> Path | None:
+        """Resolve an Obsidian image ref against the same roots pandoc searches."""
+        base = Path(ref)
+        candidates = [
+            md_source.parent / base,
+            VAULT_ROOT / base,
+            VAULT_MEDIA / base,
+            md_preprocessed.parent / base,
+        ]
+        for cand in candidates:
+            if cand.exists() and cand.is_file():
+                return cand
+        return None
+
+    for ref in expected_images:
+        found = _resolve_image_ref(ref)
+        if found is None:
+            missing_refs.append(ref)
+            continue
+        try:
+            expected_media_hashes[ref] = hashlib.sha256(found.read_bytes()).hexdigest()
+        except OSError:
+            missing_refs.append(ref)
+
+    # Actual docx media payload hashes.
+    docx_media_hashes: set[str] = set()
+    if docx_images:
+        with zipfile.ZipFile(docx_path) as z:
+            for name in docx_images:
+                docx_media_hashes.add(hashlib.sha256(z.read(name)).hexdigest())
+
+    missing_content_refs = [
+        ref for ref, h in expected_media_hashes.items() if h not in docx_media_hashes
+    ]
+
     if expected_images and not docx_images:
-        issues.append(
+        image_issues.append(
             f"Expected {len(expected_images)} image(s) but docx has 0 — "
             f"images may not have rendered"
         )
     elif len(docx_images) < len(expected_images):
-        issues.append(
+        image_issues.append(
             f"Image count mismatch: expected {len(expected_images)}, "
             f"docx {len(docx_images)}"
+        )
+    if missing_refs:
+        image_issues.append(
+            f"{len(missing_refs)} image ref(s) unresolvable on disk: {missing_refs[:4]}"
+        )
+    if missing_content_refs:
+        image_issues.append(
+            f"{len(missing_content_refs)} image(s) missing from docx content: "
+            f"{missing_content_refs[:4]}"
         )
 
     # Check 3: raw wikilink leakage (only in preprocessed, not source)
@@ -1929,7 +1996,17 @@ def _validate_docx(
                     f"Answers without matching question: {sorted_extra}"
                 )
 
+    # Merge image gate findings into the report. In strict mode, any image loss is a
+    # hard failure (raise) rather than a WARN, so a silently-dropped figure blocks the
+    # conversion instead of being reported as "OK".
+    if image_issues:
+        issues.extend(image_issues)
+
     if issues:
+        if strict_images and image_issues:
+            raise RuntimeError(
+                "Strict image validation failed: " + "; ".join(image_issues)
+            )
         print(f"  [WARN] Validation: {'; '.join(issues)}", file=sys.stderr)
     elif verbose:
         print(
@@ -2067,6 +2144,11 @@ def main():
         "--self-test", action="store_true",
         help="Run internal regression self-tests (e.g. _strip_metadata_blockquote) and exit",
     )
+    parser.add_argument(
+        "--strict-images", action="store_true",
+        help="Hard-fail conversion when any source image is missing from the generated "
+             "docx (count or content-hash mismatch), instead of only warning",
+    )
     args = parser.parse_args()
 
     if args.self_test:
@@ -2168,6 +2250,7 @@ def main():
                     render_output_dir=render_output_dir,
                     emit_render_pdf=args.emit_render_pdf,
                     word_clean=args.word_clean,
+                    strict_images=args.strict_images,
                 )
                 if out:
                     return (md_path.name, True)
@@ -2212,6 +2295,7 @@ def main():
                     render_output_dir=render_output_dir,
                     emit_render_pdf=args.emit_render_pdf,
                     word_clean=args.word_clean,
+                    strict_images=args.strict_images,
                 )
                 if out:
                     print(f"  →  {out.name}")
