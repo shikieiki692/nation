@@ -98,6 +98,31 @@ NOE（核Overhauser效应）可直接检测空间邻近的原子，用于确定�
 ### 9-7 答案
 P₂ 形成过程中的关键中间体为磷杂氧杂环丁烷（oxaphosphetane）。
 
+
+## 题目图示与结构参考
+
+![[6ccc070a6a2487aba7aa0eeea41ca490e9397a2d498b81eb5b60e973e8302e90.jpg]]
+
+![[60da07dfc7871ad1bb5a570be13ebab47df529666723e4089fa825192335c218.jpg]]
+
+![[9666d0b86d6667101c03c997adb28294d801b5272ffbb7422be0ee437f2ae2f7.jpg]]
+
+![[1d5652941b7e98e2ed916c419d3ea6c3bffb0a4568dff466b0086fc76b8b616c.jpg]]
+
+![[c26ce8c5f5122d9dac6402945a7dea45a75c9b9d03efbc086dedab845d488e51.jpg]]
+
+![[b93cb0b638f8d0f21f280c2f9c5e94dd444b2bb162ac1cb71a4348aee12fefe5.jpg]]
+
+![[85a6c80cec69e4d8dd35d8f13730243a98f38190e09101ca0832b079a6a50de2.jpg]]
+
+![[7fd379af8105bada285852a2eac32a303bae15fe2d4df1f135d4e5b82effc266.jpg]]
+
+![[178b0503d8a45544c18c4a87103acdcc5e6930a2612cd72e45383113863967c2.jpg]]
+
+![[c89bfe0e950ec6607510c853697990d736a143ee7c322b2ac7be94620f076a37.jpg]]
+
+![[ed4cbb0d60376013938baad8fdd472e7d9b6ccfcf088e7200a4d7ed27d4e73a0.jpg]]
+
 ## 知识点映射
 - **Wittig反应**: 碳碳双键的构建
 - **共振结构**: 电荷分布与反应活性

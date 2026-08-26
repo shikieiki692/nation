@@ -50,6 +50,15 @@ $$\left(\mathrm{C}_{6}\mathrm{H}_{5}\right)_{3}\mathrm{CNH}_{2} + 2\mathrm{Na} \
 ### 1-3 答案
 $\mathrm{CsF}_5$ 与 $\mathrm{XeF}_5^-$ 等电子，为 $\mathrm{AX}_5\mathrm{E}_2$ 构型，7 对电子呈五角双锥分布，两对孤对电子占据双锥位置，分子形状为正五边形。
 
+
+## 题目图示与结构参考
+
+![[190feea91e68d622e577b6b07e058417a82145c460f37f69ad570f363fc51e0d.jpg]]
+
+![[c1b161622e51aee7b69a93afb728b87a45a4ce9788b85500e725df62a80e70c1.jpg]]
+
+![[4953fc966093a0579390593e0eb79fb8a40df5afa2f9ad65423a3ac3d435b7a6.jpg]]
+
 ## 知识点映射
 - **硅氮化学**: Si-N 键的形成、硅胺化合物结构
 - **VSEPR理论**: 电子对排布、分子构型预测

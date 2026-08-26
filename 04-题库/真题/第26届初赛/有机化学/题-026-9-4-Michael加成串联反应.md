@@ -32,6 +32,25 @@ status: 已填充
 
 **C → D（NaOH/H₂O, Δ）**：酯基和酰胺水解→β-二羧酸不稳定→脱羧→D = gabapentin（C₉H₁₇NO₂）
 
+
+## 题目图示与结构参考
+
+![[f78d6996622e4c5320b59cdc9449d16534eaf43a328a1ae16b84a031fa6e3ef4.jpg]]
+
+![[60564579e0af0d28ed7def78f788267f72901f24e6f5eb920537bfd7e0315821.jpg]]
+
+![[c5a24c9ce3963d0acb531f71f44a669a25955a6af4404a09219bed1b6da563d2.jpg]]
+
+![[0a43a544f137d7908fc4bc6bd3e49f2c6097fed694c9bb37dc34f42553a4a472.jpg]]
+
+![[31b52f1a740bf306410302296acf84a018d0734579134778a4cc44657537a44f.jpg]]
+
+![[37d1ff4cc8cb58a562d2c94c158a220f6b6ac8c2c41dad7c893845d4a066a2ac.jpg]]
+
+![[4e893eb5571b52efd522e69b98a9a4a13e99b7ff123a5270cfffcbc3bfbc7b84.jpg]]
+
+![[5784458798fab2778a01d25ff505c5b251e08b3423d459c1f5fc35b356895340.jpg]]
+
 ## 知识点映射
 
 - [[Michael加成]]

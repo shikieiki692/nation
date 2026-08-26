@@ -36,6 +36,15 @@ $$
 
 **分析**：Zn将Ti(IV)还原为Ti(III)（紫色）。Ti(III)作为还原剂将Cu(II)还原为Cu(I)，在Cl⁻存在下生成白色CuCl沉淀。继续加入CuCl₂，Cl⁻浓度升高，通过配位效应使CuCl溶解形成CuCl₂⁻。
 
+
+## 题目图示与结构参考
+
+![[4e293826f39fd1fbde0c8bae1b5d6b43439298f7ae5da210010e5ebdc2c4871a.jpg]]
+
+![[ed2c9eaee823880bf399218d07b9596fecba1fc5a60c47719372d5208e7eaacc.jpg]]
+
+![[df8d66d087567b7be1c8cece58c9b5e1b662a94a51643513b283a8d0515ab38a.jpg]]
+
 ## 知识点映射
 
 - Ti氧化还原

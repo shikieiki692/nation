@@ -90,6 +90,13 @@ $$\Delta G = \Delta H - T\Delta S \approx -T\Delta S$$
 - 直径约 $\sim 2\text{-}4\,\mathrm{nm}$（含水化层）
 - 聚集数约为 $60\text{-}80$ 个单体
 
+
+## 题目图示与结构参考
+
+![[55125888c9038d0151cb59250696920f2ba5c5689bde8452fc567ba9f90e7e65.jpg]]
+
+![[e5acca06d7a32c043378347ad2efaabda37c533d57add849c6e0d99be487909c.jpg]]
+
 ## 知识点映射
 
 | 知识点 | 对应题目 | 竞赛要求 |

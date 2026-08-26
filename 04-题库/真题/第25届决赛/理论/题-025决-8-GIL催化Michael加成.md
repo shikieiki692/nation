@@ -45,6 +45,21 @@ status: 已填充
 - (1) **[1,5]氢迁移**（sigmatropic rearrangement）
 - (2) 驱动力：**形成芳环**，芳香稳定化能
 
+
+## 题目图示与结构参考
+
+![[9ed8fb03738941905b2273d273ede547de6b505900a9fca084fa01345ae337e5.jpg]]
+
+![[1499765b5ccffb54045757d4fabf2b2858566f966f34e8536de9fcd420dd466e.jpg]]
+
+![[e354613aa01b78b8bd6d2a0b3b42b880a5e578718d4cbc3193d9788e12ecb0cf.jpg]]
+
+![[6d1f03a53031049725eb8cf1e94e4ee57a845eb9c2010c4e2d3248da3f7cb4b6.jpg]]
+
+![[54d494dd08c041d37f58fe2121d97cc43f3cdf8040768bac19fd1e4ee4f03db4.jpg]]
+
+![[a86dfab9bd6075e82cc04e7b5d53153cadceba9f201935dcebad9aa23b7feaee.jpg]]
+
 ## 知识点映射
 
 | 知识点 | 对应内容 |
