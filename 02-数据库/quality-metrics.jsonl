@@ -269,3 +269,6 @@
 {"date": "2026-08-26", "files_checked": 6927, "errors": 0, "warnings": 0, "infos": 1052, "broken_wikilinks": null, "orphan_files": null, "orphan_images": null, "stale_files": 0}
 {"date": "2026-08-26", "files_checked": 6933, "errors": 0, "warnings": 0, "infos": 1052, "broken_wikilinks": null, "orphan_files": null, "orphan_images": null, "stale_files": 0}
 {"date": "2026-08-26", "files_checked": 6933, "errors": 0, "warnings": 0, "infos": 1052, "broken_wikilinks": null, "orphan_files": null, "orphan_images": null, "stale_files": 0}
+{"date": "2026-08-26", "files_checked": 6956, "errors": 2, "warnings": 0, "infos": 1052, "broken_wikilinks": null, "orphan_files": null, "orphan_images": null, "stale_files": 0}
+{"date": "2026-08-26", "files_checked": 6956, "errors": 2, "warnings": 457, "infos": 8141, "broken_wikilinks": 391, "orphan_files": 6951, "orphan_images": 0, "stale_files": 138}
+{"date": "2026-08-26", "files_checked": 6949, "errors": 0, "warnings": 0, "infos": 1052, "broken_wikilinks": null, "orphan_files": null, "orphan_images": null, "stale_files": 0}
