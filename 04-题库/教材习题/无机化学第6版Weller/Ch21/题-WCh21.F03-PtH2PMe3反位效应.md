@@ -7,10 +7,11 @@ subject: 无机和结构化学
 year: 2023
 difficulty: 5
 knowledge_points: ["[[反位效应]]", "[[配体交换反应]]"]
-status: 已填充
+status: deprecated
 tags: [化竞, 无机化学, Weller, 配位反应机理]
 created: 2026-08-27
 updated: 2026-08-27
+superseded_by: "[[Ch21-配位反应机理-习题]]"
 ---
 
 # 题-WCh21.F03-PtH2PMe3反位效应

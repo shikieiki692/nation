@@ -7,10 +7,11 @@ subject: 无机和结构化学
 year: 2023
 difficulty: 3
 knowledge_points: ["[[配位化学]]", "[[配体交换反应]]"]
-status: 已填充
+status: deprecated
 tags: [化竞, 无机化学, Weller, 配位反应机理]
 created: 2026-08-27
 updated: 2026-08-27
+superseded_by: "[[Ch21-配位反应机理-习题]]"
 ---
 
 # 题-WCh21.09-NiCN5取代速率
