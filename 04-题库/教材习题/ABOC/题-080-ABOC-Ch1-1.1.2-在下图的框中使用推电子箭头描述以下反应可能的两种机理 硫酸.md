@@ -8,7 +8,7 @@ subject: 有机化学
 difficulty: 2
 teaching_level: 巩固
 syllabus_codes: ["31"]
-knowledge_points: ["[[亲核取代]]", "[[Lewis酸碱]]", "[[碳正离子]]"]
+knowledge_points: ["[[亲核取代]]", "[[Lewis酸碱理论]]", "[[碳正离子]]"]
 tags: [化竞, ABOC, 有机化学]
 updated: 2026-07-04
 source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第1章-绪论]]"
