@@ -1,7 +1,7 @@
 ---
 title: "题-有机-中间体-Hammett方程与反应机理判断"
 type: 题目
-fidelity: 原书逐字
+fidelity: 自编
 submodule: 活性中间体与反应机理
 exam_stage: 决赛
 subject: 有机化学

@@ -1,7 +1,7 @@
 ---
 title: "题-有机-合成-Grignard试剂与羰基化合物反应"
 type: 题目
-fidelity: 原书逐字
+fidelity: 自编
 submodule: "有机合成与金属有机"
 exam_stage: 初赛
 subject: 有机化学

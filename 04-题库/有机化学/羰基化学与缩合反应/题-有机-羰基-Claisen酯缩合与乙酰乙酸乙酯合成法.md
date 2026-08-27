@@ -1,7 +1,7 @@
 ---
 title: "题-有机-羰基-Claisen酯缩合与乙酰乙酸乙酯合成法"
 type: 题目
-fidelity: 原书逐字
+fidelity: 自编
 submodule: 羰基化学与缩合反应
 exam_stage: 初赛
 subject: 有机化学

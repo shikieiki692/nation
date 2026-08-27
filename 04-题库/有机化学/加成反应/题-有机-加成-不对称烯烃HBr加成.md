@@ -1,7 +1,7 @@
 ---
 title: "题-有机-加成-不对称烯烃HBr加成"
 type: 题目
-fidelity: 原书逐字
+fidelity: 自编
 submodule: 加成反应
 exam_stage: 初赛
 subject: 有机化学

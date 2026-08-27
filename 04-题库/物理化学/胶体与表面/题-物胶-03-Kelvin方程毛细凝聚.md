@@ -2,7 +2,7 @@
 title: "题-物胶-03-Kelvin方程毛细凝聚"
 aliases: ["题-物胶-03"]
 type: 题目
-fidelity: 原书逐字
+fidelity: 自编
 difficulty: 4
 teaching_level: 挑战
 source: "教学改编（胶体与表面物理化学讲义 §三 表面）"

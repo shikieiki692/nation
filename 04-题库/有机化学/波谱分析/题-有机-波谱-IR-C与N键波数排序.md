@@ -1,7 +1,7 @@
 ---
 title: "题-有机-波谱-IR-C与N键波数排序"
 type: 题目
-fidelity: 原书逐字
+fidelity: 自编
 submodule: 波谱分析
 exam_stage: 初赛
 subject: 有机化学

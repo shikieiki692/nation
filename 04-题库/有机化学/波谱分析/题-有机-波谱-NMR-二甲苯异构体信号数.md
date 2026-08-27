@@ -1,7 +1,7 @@
 ---
 title: "题-有机-波谱-NMR-二甲苯异构体信号数"
 type: 题目
-fidelity: 原书逐字
+fidelity: 自编
 submodule: 波谱分析
 exam_stage: 初赛
 subject: 有机化学

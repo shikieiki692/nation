@@ -1,7 +1,7 @@
 ---
 title: "题-有机-羰基-Evans Aldol过渡态分析"
 type: 题目
-fidelity: 原书逐字
+fidelity: 自编
 submodule: 羰基化学与缩合反应
 exam_stage: 决赛
 subject: 有机化学

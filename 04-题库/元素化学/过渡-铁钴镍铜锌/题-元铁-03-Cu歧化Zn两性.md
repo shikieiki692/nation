@@ -2,7 +2,7 @@
 title: "题-元铁-03-Cu歧化Zn两性"
 aliases: ["题-元铁-03"]
 type: 题目
-fidelity: 原书逐字
+fidelity: 自编
 difficulty: 3
 teaching_level: 巩固
 source: "教学改编（铁钴镍铜锌讲义 §三 铜锌）"

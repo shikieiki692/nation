@@ -2,7 +2,7 @@
 title: "题-物胶-01-AgI胶团结构"
 aliases: ["题-物胶-01"]
 type: 题目
-fidelity: 原书逐字
+fidelity: 自编
 difficulty: 3
 teaching_level: 巩固
 source: "教学改编（胶体与表面物理化学讲义 §二 胶体）"

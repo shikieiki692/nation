@@ -1,7 +1,7 @@
 ---
 title: "题-有机-结构-碳氢酸性比较与pKa分析"
 type: 题目
-fidelity: 原书逐字
+fidelity: 自编
 submodule: "有机结构基础与电子效应"
 exam_stage: 初赛
 subject: 有机化学

@@ -1,7 +1,7 @@
 ---
 title: "题-有机-重排-Beckmann重排扩环"
 type: 题目
-fidelity: 原书逐字
+fidelity: 自编
 submodule: 重排反应
 exam_stage: 初赛
 subject: 有机化学

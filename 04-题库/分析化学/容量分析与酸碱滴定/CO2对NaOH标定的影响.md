@@ -2,7 +2,7 @@
 title: "CO2对NaOH标定的影响"
 aliases: ["题-分析-01", "题-0656"]
 type: 题目
-fidelity: 原书逐字
+fidelity: 自编
 difficulty: 3
 teaching_level: 巩固
 source: "专题页提炼"

@@ -2,7 +2,7 @@
 title: "偏离Lambert-Beer定律的原因"
 aliases: ["题-光度-知识卡2", "Beer定律偏离"]
 type: 题目
-fidelity: 原书逐字
+fidelity: 自编
 difficulty: 3
 teaching_level: 巩固
 source: "分析化学（第六版）第10章 教学改编"

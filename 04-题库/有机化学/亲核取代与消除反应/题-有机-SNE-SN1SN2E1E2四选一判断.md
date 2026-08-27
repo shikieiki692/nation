@@ -1,7 +1,7 @@
 ---
 title: "题-有机-SNE-SN1SN2E1E2四选一判断"
 type: 题目
-fidelity: 原书逐字
+fidelity: 自编
 submodule: 亲核取代与消除反应
 exam_stage: 初赛
 subject: 有机化学

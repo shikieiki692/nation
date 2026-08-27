@@ -2,7 +2,7 @@
 title: "题-物电-01-Nernst方程计算"
 aliases: ["题-物电-01"]
 type: 题目
-fidelity: 原书逐字
+fidelity: 自编
 difficulty: 3
 teaching_level: 巩固
 source: "教学改编（电化学基础讲义 §Nernst）"

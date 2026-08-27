@@ -2,7 +2,7 @@
 title: "题-元s-03-对角线规则LiMg"
 aliases: ["题-元s-03"]
 type: 题目
-fidelity: 原书逐字
+fidelity: 自编
 difficulty: 4
 teaching_level: 挑战
 source: "教学改编（元素化学深度讲义 §对角线规则）"

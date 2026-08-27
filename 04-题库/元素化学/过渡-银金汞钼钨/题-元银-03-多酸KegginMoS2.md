@@ -2,7 +2,7 @@
 title: "题-元银-03-多酸KegginMoS2"
 aliases: ["题-元银-03"]
 type: 题目
-fidelity: 原书逐字
+fidelity: 自编
 difficulty: 4
 teaching_level: 挑战
 source: "教学改编（银金汞钼钨讲义 §三 钼钨）"

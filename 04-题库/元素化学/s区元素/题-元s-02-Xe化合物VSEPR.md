@@ -2,7 +2,7 @@
 title: "题-元s-02-Xe化合物VSEPR"
 aliases: ["题-元s-02"]
 type: 题目
-fidelity: 原书逐字
+fidelity: 自编
 difficulty: 3
 teaching_level: 巩固
 source: "教学改编（碱金属碱土金属与稀有气体讲义 §Xe化合物）"

@@ -1,7 +1,7 @@
 ---
 title: "题-氧沉-01-KMnO4滴定H2O2"
 type: 题目
-fidelity: 原书逐字
+fidelity: 自编
 difficulty: 3
 teaching_level: 巩固
 source: "分析化学经典计算题"

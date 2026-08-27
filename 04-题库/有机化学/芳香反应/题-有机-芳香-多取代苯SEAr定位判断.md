@@ -1,7 +1,7 @@
 ---
 title: "题-有机-芳香-多取代苯SEAr定位判断"
 type: 题目
-fidelity: 原书逐字
+fidelity: 自编
 submodule: 芳香反应
 exam_stage: 初赛
 subject: 有机化学

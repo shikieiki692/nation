@@ -2,7 +2,7 @@
 title: "题-光度-03-双波长联立测定Ti与V"
 aliases: ["题-光度-03"]
 type: 题目
-fidelity: 原书逐字
+fidelity: 自编
 difficulty: 4
 teaching_level: 挑战
 source: "分析化学（第六版）第10章 教学改编"
