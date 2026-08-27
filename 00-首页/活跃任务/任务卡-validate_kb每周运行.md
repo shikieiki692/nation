@@ -54,14 +54,14 @@ python "11-模板/scripts/validate_kb.py" --full
 5. 顺带刷新媒体备份：`python scripts/backup_media.py`（manifest 落 10-索引与统计/媒体仓库清单.json），并检查 `09-审计报告/备份/media-backup-*.zip` 新鲜度（>7 天则重建 zip）
 6. 完成后桌面通知
 
-## 关键基线（2026-08-14 更新）
+## 关键基线（2026-08-27 更新）
 
 | 指标 | 值 |
 |:---|:---|
-| 受检文件 | 6266 |
-| Error | 0（2026-08-13 补跑归零，2 个 frontmatter 已修复） |
-| Warning | 1343（断链 1333，其中 ~1300+ 为预期 REDLINK） |
-| Info | 7442 |
+| 受检文件 | 6763 |
+| Error | 0 |
+| Warning | 461（断链 373，其中 ~300+ 为模板噪音） |
+| Info | 7948 |
 
 ## 说明
 

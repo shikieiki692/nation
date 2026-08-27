@@ -1,6 +1,6 @@
 ---
 title: Brønsted酸碱理论
-aliases: [质子酸碱理论, Brønsted-Lowry酸碱理论, 质子理论, Brønsted酸碱观点, 质子酸, 质子碱, 共轭酸碱对, 酸碱质子理论]
+aliases: [质子酸碱理论, Brønsted-Lowry酸碱理论, 质子理论, Brønsted酸碱观点, 质子酸, 质子碱, 共轭酸碱对, 酸碱质子理论, 超酸]
 type: 知识点
 template_version: v1.3
 subject: 化学原理
