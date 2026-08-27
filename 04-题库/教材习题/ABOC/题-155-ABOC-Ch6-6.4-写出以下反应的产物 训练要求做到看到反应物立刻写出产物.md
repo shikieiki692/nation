@@ -12,7 +12,7 @@ knowledge_points: ["[[缩合反应]]", "[[Aldol缩合]]", "[[Claisen缩合]]"]
 tags: [化竞, ABOC, 有机化学]
 updated: 2026-07-04
 source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第6章-缩合反应]]"
-aliases: [ABOC-Ch6-6.4]
+aliases: [ABOC-Ch6-6.4-155]
 source: ABOC 第6章 自学练习（ARX's Basic Organic Chemistry 第3版）
 cross_references: ["[[04-题库/教材习题/ABOC/题-160-ABOC-Ch6-6.12-写出以下反应的机理  文献机理是错误的]]", "[[04-题库/教材习题/ABOC/题-153-ABOC-Ch6-6.4.6-写出甲醛和乙醛反应得到季戊四醇的机理]]", "[[04-题库/教材习题/ABOC/题-156-ABOC-Ch6-6.5.4-画出底物的优势构象 写出以下反应的产物]]", "[[04-题库/教材习题/ABOC/题-154-ABOC-Ch6-6.4.8-写出以下两个反应的产物]]", "[[04-题库/教材习题/ABOC/题-152-ABOC-Ch6-6.4-写出以下反应的中间体]]"]
 module: 基础要求-有机化学

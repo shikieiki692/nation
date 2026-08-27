@@ -12,7 +12,7 @@ knowledge_points: ["[[晶体结构基础]]", "[[Lewis酸碱]]", "[[电子效应]
 tags: [化竞, ABOC, 有机化学]
 updated: 2026-07-04
 source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第1章-绪论]]"
-aliases: [ABOC-Ch1-T8]
+aliases: [ABOC-Ch1-T8-265]
 source: ABOC 第1章 章末习题（ARX's Basic Organic Chemistry 第3版）
 cross_references: ["[[04-题库/教材习题/ABOC/题-277-ABOC-Ch1-T2]]", "[[04-题库/教材习题/ABOC/题-275-ABOC-Ch1-T7]]", "[[04-题库/教材习题/ABOC/题-287-ABOC-Ch1-T8]]", "[[04-题库/教材习题/ABOC/题-185-ABOC-Ch1-1.2.2-5-HOMO主要分布在氧和β碳上面]]", "[[04-题库/教材习题/ABOC/题-305-ABOC-Ch1-T2]]"]
 module: 基础要求-有机化学

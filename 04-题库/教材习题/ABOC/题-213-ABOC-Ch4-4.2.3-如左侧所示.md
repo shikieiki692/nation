@@ -12,7 +12,7 @@ knowledge_points: ["[[取代反应]]", "[[消除反应]]", "[[SN1]]", "[[SN2]]"]
 tags: [化竞, ABOC, 有机化学]
 updated: 2026-07-04
 source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第4章-取代与消除]]"
-aliases: [ABOC-Ch4-4.2.3]
+aliases: [ABOC-Ch4-4.2.3-2]
 source: ABOC 第4章 自学练习（ARX's Basic Organic Chemistry 第3版）
 cross_references: ["[[04-题库/教材习题/ABOC/题-212-ABOC-Ch4-4.2.1-除了 PhS NtBu 之外书上都有]]"]
 module: 基础要求-有机化学
