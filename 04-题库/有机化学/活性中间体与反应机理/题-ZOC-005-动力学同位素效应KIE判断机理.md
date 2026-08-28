@@ -12,6 +12,10 @@ status: 已填充
 tags: [KIE, 同位素效应, Zchem]
 created: 2026-08-27
 updated: 2026-08-27
+subject_module: 有机化学
+pack: 模块习题集
+fidelity: 原书改写
+exam_stage: 初赛
 ---
 
 # 动力学同位素效应KIE判断机理

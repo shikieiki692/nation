@@ -3,7 +3,7 @@ title: 题-502-Clayden-Ch35-P2-Claisen-3,3-σ迁移入门
 type: 题目
 fidelity: 原书逐字
 submodule: 周环反应
-exam_stage: 复赛
+exam_stage: 初赛
 subject: 有机化学
 difficulty: 3
 teaching_level: 拓展

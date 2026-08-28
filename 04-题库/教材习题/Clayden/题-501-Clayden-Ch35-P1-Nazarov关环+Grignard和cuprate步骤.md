@@ -3,7 +3,7 @@ title: 题-501-Clayden-Ch35-P1-Nazarov关环+Grignard和cuprate步骤
 type: 题目
 fidelity: 原书逐字
 submodule: 周环反应
-exam_stage: 复赛
+exam_stage: 初赛
 subject: 有机化学
 difficulty: 3
 teaching_level: 拓展

@@ -11,6 +11,10 @@ status: 已填充
 tags: [化竞, 无机化学, Weller, 稀有气体]
 created: 2026-08-27
 updated: 2026-08-27
+subject_module: 元素与分析
+pack: 模块习题集
+fidelity: 原书逐字
+exam_stage: 决赛
 ---
 
 # Xe-N键化合物合成表征

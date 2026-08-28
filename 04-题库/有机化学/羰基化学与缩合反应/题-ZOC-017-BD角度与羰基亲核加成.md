@@ -11,6 +11,10 @@ status: 已填充
 tags: [BD角度, 亲核加成, 立体化学, Zchem]
 created: 2026-08-27
 updated: 2026-08-27
+subject_module: 有机化学
+pack: 模块习题集
+fidelity: 原书改写
+exam_stage: 初赛
 ---
 
 # BD角度与羰基亲核加成

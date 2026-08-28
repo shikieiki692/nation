@@ -3,7 +3,7 @@ title: 题-627-Clayden-Ch36-P20-重排+碎片化综合分析
 type: 题目
 fidelity: 原书逐字
 submodule: 重排反应
-exam_stage: 复赛
+exam_stage: 决赛
 subject: 有机化学
 difficulty: 5
 teaching_level: 竞赛拔高

@@ -1,4 +1,4 @@
----
+﻿---
 title: "题-XES-019-Diels-Alder逆合成"
 type: 题目
 source: "学而思有机化学基础 第6讲"
@@ -11,6 +11,10 @@ status: 已填充
 tags: [化竞, 有机化学, 学而思]
 created: 2026-08-27
 updated: 2026-08-27
+subject_module: 有机化学
+pack: 章节练习
+fidelity: 原书逐字
+exam_stage: 初赛
 ---
 
 # 题-XES-019：Diels-Alder逆合成
@@ -23,19 +27,15 @@ updated: 2026-08-27
 
 ## 题目
 
+> 📌 *本题原含 4 张学而思讲义图片，源文件图片未导入 vault*
+
 习题 15. 你如何使用 Diels-Alder 反应来制备下列产物？画出每种情况中起始的双烯和亲双烯体。
 
 (a)
 
-![[06第四章烯烃学生版_images/51edcd60f8d8c169056db0380359e5e1d6c83d5d274c2f0f6d5f918f66a02893.jpg]]
-
 (b)
 
-![[06第四章烯烃学生版_images/f3eec1a35ac14199ec6c23e454e8ddb4a7b32a035ffe535be3b5f00287f335cb.jpg]]
-
 (c)
-
-![[06第四章烯烃学生版_images/5af971a5a4f31ab13ef780f372343ccb32951baaaf27c32aadf4c6ff43459c36.jpg]]
 
 <details>
 <summary>chemical</summary>
@@ -44,8 +44,6 @@ Molecular structure of a fused bicyclic compound with two carbonyl groups and st
 </details>
 
 (d)
-
-![[06第四章烯烃学生版_images/ea8bc1e3e343c6c3a50f2eb6e40e9e6222d135a9f8631e2c4b54eef7b9aa265b.jpg]]
 
 ---
 

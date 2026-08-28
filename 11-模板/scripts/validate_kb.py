@@ -54,7 +54,7 @@ INCLUDE_DIRS = [
     "04-课件", "04-专题与题型", "04-题库",
     "06-学生侧材料",
     "07-资料提炼",
-    "11-模板",
+    # "11-模板",  # 2026-08-28: 移出受检范围——模板占位符链接（[[知识点名]]等）产生243条噪音断链
     "12-教学洞察",
 ]
 EXCLUDE_PATTERNS = [
@@ -64,7 +64,7 @@ EXCLUDE_PATTERNS = [
     ".chem_media",
 ]
 EXCLUDE_FILE_PREFIXES = ["_pre_"]
-EXCLUDE_FILE_NAMES = {"_preprocessed.md", "_test_sup.md", "_test_sup2.md"}
+EXCLUDE_FILE_NAMES = {"_preprocessed.md", "_test_sup.md", "_test_sup2.md", "新题入库SOP.md", "习题集体系总纲.md"}
 EXCLUDE_PATH_PREFIXES = [
     "06-学生侧材料/讲义/media/",
     "07-资料提炼/网课资料/无机化学-新课-周坤-2020-难度适中/笔记/",

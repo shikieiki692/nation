@@ -1,4 +1,4 @@
----
+﻿---
 title: "题-XES-012-SN1与SN2预测"
 type: 题目
 source: "学而思有机化学基础 第4-5讲"
@@ -12,6 +12,10 @@ status: 已填充
 tags: [化竞, 有机化学, 学而思]
 created: 2026-08-27
 updated: 2026-08-27
+subject_module: 有机化学
+pack: 章节练习
+fidelity: 原书逐字
+exam_stage: 初赛
 ---
 
 # 题-XES-012：SN1与SN2预测
@@ -24,11 +28,11 @@ updated: 2026-08-27
 
 ## 题目
 
+> 📌 *本题原含 2 张学而思讲义图片，源文件图片未导入 vault*
+
 习题 9. 预测下列取代反应可能是 $S_{N}1$ 还是 $S_{N}2$ :
 
 (a)
-
-![[04-05第六章卤代烃学生版_images/a9150999361afb334b8b6e6d8059cfdbcbc25dda23669423d3b20dca59985b90.jpg]]
 
 <details>
 <summary>chemical</summary>
@@ -37,8 +41,6 @@ Chemical reaction equation showing chlorination of cyclohexanol under acidic con
 </details>
 
 (b)
-
-![[04-05第六章卤代烃学生版_images/188361d4522dfff756f84041a4fb273adabad45babb6cef8fd2d460c86a54166.jpg]]
 
 <details>
 <summary>chemical</summary>

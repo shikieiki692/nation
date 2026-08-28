@@ -12,6 +12,10 @@ status: 已填充
 tags: [化竞, 有机化学, 学而思]
 created: 2026-08-27
 updated: 2026-08-27
+subject_module: 有机化学
+pack: 章节练习
+fidelity: 原书逐字
+exam_stage: 初赛
 ---
 
 # 题-XES-003：丙烷构象Newman投影

@@ -12,6 +12,10 @@ tags: [化竞, 无机化学, Weller, 配位反应机理]
 created: 2026-08-27
 updated: 2026-08-27
 superseded_by: "[[Ch21-配位反应机理-习题]]"
+subject_module: 结构化学
+pack: 模块习题集
+fidelity: 原书逐字
+exam_stage: 初赛
 ---
 
 # 题-WCh21.14-预测反应产物

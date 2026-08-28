@@ -199,7 +199,7 @@ subject: 化学原理 | 有机化学 | 无机和结构化学 | 分析化学
 question_type: 计算题 | 选择题 | 简答题 | 推断题 | 机理题 | 方程式
 difficulty: 1-5          # 1=入门, 5=决赛
 source: "来源教材/考试"
-knowledge_points: ["[[知识点名]]"]
+knowledge_points: ["知识点名"]
 tags: [化竞, ...]
 status: 已填充
 ---

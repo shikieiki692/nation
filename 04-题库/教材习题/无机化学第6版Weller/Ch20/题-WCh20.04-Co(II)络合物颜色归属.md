@@ -11,6 +11,10 @@ status: 已填充
 tags: [化竞, 无机化学, Weller, 晶体场理论]
 created: 2026-08-27
 updated: 2026-08-27
+subject_module: 结构化学
+pack: 章节练习
+fidelity: 原书逐字
+exam_stage: 初赛
 ---
 
 # Co(II)络合物颜色归属

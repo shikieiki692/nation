@@ -3,7 +3,7 @@ title: 题-503-Clayden-Ch35-P3-Nazarov关环另一种应用
 type: 题目
 fidelity: 原书逐字
 submodule: 周环反应
-exam_stage: 复赛
+exam_stage: 决赛
 subject: 有机化学
 difficulty: 4
 teaching_level: 拓展

@@ -3,7 +3,7 @@ title: 题-626-Clayden-Ch36-P19-复杂反应中碎片化识别
 type: 题目
 fidelity: 原书逐字
 submodule: 重排反应
-exam_stage: 复赛
+exam_stage: 决赛
 subject: 有机化学
 difficulty: 4
 teaching_level: 拓展

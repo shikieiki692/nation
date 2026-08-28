@@ -3,7 +3,7 @@ title: 题-621-Clayden-Ch36-P14-酯水解关联的碎片化
 type: 题目
 fidelity: 原书逐字
 submodule: 重排反应
-exam_stage: 复赛
+exam_stage: 决赛
 subject: 有机化学
 difficulty: 4
 teaching_level: 拓展
