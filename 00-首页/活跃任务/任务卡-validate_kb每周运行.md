@@ -49,27 +49,27 @@ python "11-模板/scripts/validate_kb.py" --full
 ## 巡检逻辑
 
 1. 读取 `09-审计报告/auto-validation/YYYY-MM-DD-validation.md`
-2. 对比基线（0 error / 2179 warning，2026-08-03）
+2. 对比基线（0 error / 2 warning，2026-08-28）
 3. 周报写入 `09-审计报告/周巡检-YYYY-MM-DD.md`，**仅报异常增量**
 4. 检查上轮 follow-up 断链清单是否已清
 5. 顺带刷新媒体备份：`python scripts/backup_media.py`（manifest 落 10-索引与统计/媒体仓库清单.json），并检查 `09-审计报告/备份/media-backup-*.zip` 新鲜度（>7 天则重建 zip）
 6. 完成后桌面通知
 
-## 关键基线（2026-08-28 full 更新）
+## 关键基线（2026-08-28 full 最终）
 
 | 指标 | 值 |
 |:---|:---|
-| 受检文件 | 6591 |
+| 受检文件 | 6509 |
 | Error | 0 |
-| Warning | 456（断链 337，其中模板噪音 243 + 真实 94；图片缺失 73；标题跳跃 46） |
-| Info | 7750 |
+| Warning | 2（断链 1 归档文件死图 + 图片缺失 1 归档文件） |
+| Info | 7674 |
 
 ## 最近运行记录
 
-- **2026-08-28 full**：6591 文件 · 0 error / 456 warning / 7750 info · 断链 337 / 图片缺失 73 / 标题跳跃 46。报告 [[09-审计报告/auto-validation/2026-08-28-validation]]
-- **2026-08-27 quick**：6591 文件 · 0 error / 0 warning / 1052 info（quick 模式不检测断链）
-- **2026-08-28 dir:04-题库**：4438 文件 · 0 error / 241 warning · 断链 169
-- **2026-08-16 full**：6266 文件 · 0 error / 1343 warning · 断链 1355（上一基线）
+- **2026-08-28 full 最终**：6509 文件 · 0 error / 2 warning / 7674 info · 断链 1 / 图片缺失 1 / 标题跳跃 0。修复：XES 50 条+33 届决赛 19 条+模块习题集 87 条+标题跳跃 2357 处+验证器排除噪音 254 条。报告 [[09-审计报告/auto-validation/2026-08-29-validation]]
+- **2026-08-28 full 中间**：6591 文件 · 0 error / 456 warning · 断链 337 / 图片缺失 73（修复前基线）
+- **2026-08-27 quick**：6591 文件 · 0 error / 0 warning（quick 模式不检测断链）
+- **2026-08-16 full**：6266 文件 · 0 error / 1343 warning · 断链 1355（历史基线）
 
 ## 说明
 
