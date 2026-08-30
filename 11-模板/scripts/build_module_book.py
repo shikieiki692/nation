@@ -9,6 +9,9 @@ TODAY = date.today().isoformat()
 # 个别源文件 subject_module 写错但路径/module 字段可靠；生成阶段先路由，不擅改源库
 PATH_SUBJECT_MODULE_OVERRIDES = {
     "分析化学/络合滴定与重量分析/返滴定法测铝.md": "元素与分析",
+    # 29届初赛第6题同一大题被误拆：6-3 的 subject_module 误标为元素与分析，
+    # 但 module/路径均为化学原理；路由到化学原理使其与 6-1/6-2/6-4 合并为 4.5。
+    "真题/第29届初赛/化学原理/题-029-6-3-除镍反应方程式.md": "化学原理",
 }
 WRITE = "--write" in sys.argv
 if "--dry-run" in sys.argv:
@@ -18,6 +21,8 @@ CLEAN = "--clean" in sys.argv
 STRICT = "--no-strict" not in sys.argv
 # 大题合并默认开启：同一道大题的全部小问并入一个题目小节；--no-merge 关闭
 MERGE_DA = "--no-merge" not in sys.argv
+# ---------------- 全书来源索引聚合器 ----------------
+ALL_NON_EXAM = []  # 每项: {module, num, title, source, fid}
 # --merge-keys-file 已废弃（历史上用于白名单部分合并），保留解析但不生效
 MERGE_KEYS = set()
 if "--merge-keys-file" in sys.argv:
@@ -832,6 +837,12 @@ def merge_da_items(items):
     return out
 
 
+def is_gap_item(item):
+    """含外部资料缺口的题（答案待补充 / 前驱待定位 / 图片待补）：不入习题书。"""
+    body = item.get("body", "")
+    return bool(re.search(r"答案待补充|前驱文件待定位|图片待补", body))
+
+
 def collapse_hrs(s):
     """折叠连续多个 --- 分隔线（允许空行间隔），并去掉文本尾部的孤分隔线。"""
     out = []
@@ -895,6 +906,11 @@ def build_book(module, out_dir, chapter_map, exclude_subs=None):
         clean_output_dir(out_dir)
     exclude_subs = set(exclude_subs or [])
     pool = [q for q in gather_questions(module) if q["submodule"] not in exclude_subs]
+    _gap = [q for q in pool if is_gap_item(q)]
+    if _gap:
+        print(f"  [gap-excluded] {module}: 剔除 {len(_gap)} 道需外部资料的缺口题"
+              f"（{', '.join(q['path'] for q in _gap)}）")
+        pool = [q for q in pool if not is_gap_item(q)]
     if MERGE_DA:
         # 先在模块池内按大题归并，再整体分类，避免同一大题被拆分到不同章节。
         pool = merge_da_items(pool)
@@ -920,6 +936,7 @@ def build_book(module, out_dir, chapter_map, exclude_subs=None):
         groups[key].sort(key=lambda x: x["difficulty"])
 
     # 生成章节文件
+    index_rows = []
     for (num, name), items in groups.items():
         fname = f"{num}-{name}.md"
         lines = []
@@ -1000,6 +1017,14 @@ def build_book(module, out_dir, chapter_map, exclude_subs=None):
             label = exam_label(item)
             if label:
                 head += f"（{label}）"
+            index_rows.append({
+                "num": f"{num}.{qn}",
+                "title": title,
+                "source": item.get("source", ""),
+                "fid": fid,
+                "path": item["path"],
+                "exam": label,
+            })
             lines.append(head)
             lines.append("")
             lines.append(q_text if q_text else "（题干见源文件）")
@@ -1041,6 +1066,21 @@ def build_book(module, out_dir, chapter_map, exclude_subs=None):
     toc.append("")
 
     write_output(os.path.join(out_dir, "目录.md"), "\n".join(toc))
+
+    # ---- 来源索引（全书聚合）：非真题题目的来源统一登记到书末总索引 ----
+    # 真题题目在正文小节头已带「第X届初赛」标注，此处不再重复；只收真题之外的来源。
+    non_exam = [r for r in index_rows if not r["exam"]]
+    for r in non_exam:
+        ALL_NON_EXAM.append({
+            "module": module,
+            "num": r["num"],
+            "title": r["title"],
+            "source": r["source"],
+            "fid": r["fid"],
+        })
+    if non_exam:
+        print(f"  {module} 来源索引汇总: {len(non_exam)} 条非真题来源")
+
     print(f"\n{module} 习题书生成完成: {len(groups)} 章, {total_q} 题")
 
 
@@ -1168,6 +1208,37 @@ if __name__ == "__main__":
     build_book("元素与分析", f"{book_root}/第四篇-元素与分析", YSFX_MAP)
 
     build_book("结构化学", f"{book_root}/第二篇-结构化学", STRUCTURE_MAP)
+
+    # ---- 全书来源索引（附于成书最后）：聚合四篇的全部非真题来源 ----
+    if ALL_NON_EXAM:
+        idx = []
+        idx.append("---")
+        idx.append(f'title: "习题书（来源索引 · {EDITION_LABEL}）"')
+        idx.append("type: 索引")
+        idx.append(f"edition: {EDITION}")
+        idx.append(f"updated: {TODAY}")
+        idx.append(f"question_count: {len(ALL_NON_EXAM)}")
+        idx.append("---")
+        idx.append("")
+        idx.append(f"# 习题书 · 来源索引（{EDITION_LABEL}）")
+        idx.append("")
+        idx.append(f"> 收录非真题题目 **{len(ALL_NON_EXAM)}** 条（真题已在正文标注届次来源）。")
+        idx.append("> 排序：先按来源，再按篇·题号。")
+        idx.append("")
+        by_src = collections.OrderedDict()
+        for r in sorted(ALL_NON_EXAM, key=lambda r: (r["source"], r["module"], r["num"])):
+            by_src.setdefault(r["source"] or "（来源未填）", []).append(r)
+        for src, rows in by_src.items():
+            idx.append(f"## {src}")
+            idx.append("")
+            idx.append("| 篇·题号 | 标题 | 保真 |")
+            idx.append("|:--|:--|:--|")
+            for r in rows:
+                tag = "🟢" if "逐字" in r["fid"] else ("🔵" if "自编" in r["fid"] else "🟡")
+                idx.append(f"| {r['module']}·{r['num']} | {r['title'] or '(无标题)'} | {tag} |")
+            idx.append("")
+        write_output(os.path.join(book_root, "来源索引.md"), "\n".join(idx))
+        print(f"  全书来源索引: {len(ALL_NON_EXAM)} 条非真题来源 → {book_root}/来源索引.md")
 
     # ---- 质量告警汇总（两篇版本共用，按类型聚合）----
     if WARNINGS:

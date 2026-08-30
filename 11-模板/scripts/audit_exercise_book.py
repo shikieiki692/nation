@@ -478,7 +478,7 @@ def scan_chapter(path: Path, root: Path, media_root: Path):
 def collect_chapters(root: Path):
     files = []
     for path in sorted(root.rglob("*.md")):
-        if path.name in {"目录.md", "_未分类submodule统计.md"}:
+        if path.name in {"目录.md", "_未分类submodule统计.md", "来源索引.md"}:
             continue
         files.append(path)
     return files
