@@ -23,15 +23,15 @@ pack: 模块习题集
 
 ## 题目
 
-The synthesis of six-membered ketones by intramolecular Claisen condensation was described in the chapter where we pointed out that it doesn't matter which way round the cyclization happens as the product is the same.
+**【中文】**本章介绍了通过分子内 Claisen 缩合合成六元环酮，并指出环化无论从哪个方向进行都无所谓，因为产物相同（见图）。奇怪的是，五元杂环酮也可以用类似的路线制备。此时起始原料不对称，可能有两种环化产物（见图）。画出这些产物的结构，并解释为什么生成哪一种都无关紧要。
+
+**【原文】**The synthesis of six-membered ketones by intramolecular Claisen condensation was described in the chapter where we pointed out that it doesn't matter which way round the cyclization happens as the product is the same.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/3b5e2892c9b59c74d8da1dd807f41eb30ca089df5d41515d2d80f99088af76c0.jpg]]
 
 Strangely enough, five-membered heterocyclic ketones can be made by a similar sequence. The starting material is not symmetrical and two cyclized products are possible. Draw structures for these products and explain why it is unimportant which is formed.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/bff2c138e1f22aeafda4024e87f5589b7c2b1ba650bc0f636bbbdb672bb5104c.jpg]]
-
-**原文题目**：The synthesis of six-membered ketones by intramolecular Claisen condensation was described in the chapter where we pointed out that it doesn't matter which way round the cyclization happens as the product is the same. Strangely enough, five-membered heterocyclic ketones can be made by a similar sequence. The starting material is not symmetrical and two cyclized products are possible. Draw structures for these products and explain why it is unimportant which is formed.
 
 ## 参考答案
 

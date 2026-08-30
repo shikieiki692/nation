@@ -16,11 +16,13 @@ aliases: [ABOC-Ch9-T3]
 source: ABOC 第9章 章末习题 T3（ARX's Basic Organic Chemistry 第3版）
 cross_references: ["[[04-题库/教材习题/ABOC/题-047-ABOC-FT1-P2-EX1-氢键导向分子内反应]]", "[[04-题库/教材习题/ABOC/题-050-ABOC-FT1-P2-EX4-吡啶官能团化PADI催化]]"]
 module: 有机化学
-status: 已填充
+status: deprecated
 subject_module: 有机化学
 pack: 模块习题集
 ---
 # 题-061：杂环合成策略综合
+
+> [!warning] 已弃用（2026-08-30）：经核实，本题并非原书 T3 的忠实转录，而是改编时自行拟写的原创题；目标分子缺失（仅有"部分结构式见原书图片"占位），内容与 ABOC 第9章 T3 完全不符，无法据以作答，故标记 deprecated，不再进入题组。
 
 ## 题目
 

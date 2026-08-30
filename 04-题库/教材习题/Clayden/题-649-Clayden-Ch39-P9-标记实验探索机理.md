@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Explain how both methyl groups in the product of this reaction come to be labelled. If the starting material is reisolated at 50% reaction, its methyl group is also labelled.
+**【中文】**解释该反应产物中的两个甲基为何都带上了标记。若在反应进行到 50% 时重新分离起始原料，其甲基上也带有标记。（反应式见图）
+
+**【原文】**Explain how both methyl groups in the product of this reaction come to be labelled. If the starting material is reisolated at 50% reaction, its methyl group is also labelled.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/1908eb1bd50e4789466db0e0f7df0969f10ff7598c7fe4e9d4e82593d5b197f3.jpg]]
-
-**原文题目**：Explain the labelling pattern: both methyl groups in the product are labelled, and reisolated starting material at 50% conversion also shows labelling.
 
 ## 参考答案
 

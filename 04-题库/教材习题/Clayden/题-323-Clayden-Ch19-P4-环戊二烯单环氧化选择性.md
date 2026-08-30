@@ -23,13 +23,12 @@ pack: 模块习题集
 
 ## 题目
 
+**【中文】**环戊二烯在低温、缓冲溶液条件下，与一当量 m-CPBA 反应。预测产物并解释选择性。
+
+**【原文】**
 Cyclopentadiene is treated with one equivalent of m-CPBA at low temperature, in buffered solution. Predict the product and explain the selectivity.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/ff024f867994b07cb762bd405c5891c688f233534d458434ee6389b398a84f80.jpg]]
-
-**原文题目**：
-
-环戊二烯在低温、缓冲溶液条件下，与一当量 m-CPBA 反应。预测产物并解释选择性。
 
 ## 参考答案
 

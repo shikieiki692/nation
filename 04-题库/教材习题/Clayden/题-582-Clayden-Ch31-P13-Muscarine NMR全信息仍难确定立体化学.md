@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-Muscarine, the poisonous component of the death cap mushroom, has the structure below. We give the proton NMR spectrum. Can you see any definite evidence for the stereochemistry? Couplings are in Hz, m stands for multiplet, and \* means that the proton exchanges with D₂O.
+**【中文】**毒蝇蕈碱（muscarine）是毒鹅膏菌（death cap mushroom）中的有毒成分，结构如下。我们给出其质子 NMR 谱。你能从中找到任何关于立体化学的确定性证据吗？偶合常数单位为 Hz，m 表示多重峰（multiplet），* 表示该质子可与 D₂O 交换。
+
+**【原文】**Muscarine, the poisonous component of the death cap mushroom, has the structure below. We give the proton NMR spectrum. Can you see any definite evidence for the stereochemistry? Couplings are in Hz, m stands for multiplet, and \* means that the proton exchanges with D₂O.
 
 $\delta_{H}$ 1.16 (3H, d, J 6.5), 1.86 (1H, ddd, J 12.5, 9.5, 9.5), 2.02 (1H, ddd, J 12.5, 6.0, 2.0), 3.36 (9H, s), 3.54 (1H, dd, J 13, 9.0), 3.92 (1H, dq, J 2.5, 6.5), 4.03 (1H, m), 4.30* (1H, d, J 3.5), and 4.68 (1H, m).
 

@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Suggest what the products of these nucleophilic substitutions might be.
+**【中文】**请推测图中所示的这些亲核取代反应可能的产物。
+
+**【原文】**Suggest what the products of these nucleophilic substitutions might be.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/51d5301caa17ac9c3aa10db6d8c743b5cfdd961cb7fe0da7c85df8dec3de6d25.jpg]]
-
-**原文题目**：Suggest what the products of these nucleophilic substitutions might be. Each compound has both potential nucleophilic and electrophilic sites.
 
 ## 参考答案
 

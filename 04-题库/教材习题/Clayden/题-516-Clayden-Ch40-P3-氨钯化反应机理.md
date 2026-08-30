@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Cyclization of this unsaturated amine with catalytic Pd(II) under an atmosphere of oxygen gives a cyclic unsaturated amine in 95% yield. How does the reaction work? Why is the atmosphere of oxygen necessary? Explain the stereochemistry and regiochemistry of the reaction. How would you remove the CO₂Bn group from the product?
+**【中文】**图中所示的不饱和胺在催化量 Pd(II)、氧气气氛下发生环化，以 95% 的产率得到环状不饱和胺。该反应是如何进行的？为什么需要氧气气氛？请解释该反应的立体化学和区域化学。你将如何从产物中脱除 CO₂Bn（苄氧羰基）基团？
+
+**【原文】**Cyclization of this unsaturated amine with catalytic Pd(II) under an atmosphere of oxygen gives a cyclic unsaturated amine in 95% yield. How does the reaction work? Why is the atmosphere of oxygen necessary? Explain the stereochemistry and regiochemistry of the reaction. How would you remove the CO₂Bn group from the product?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/c51b23ce0c98add7264e45cf231b2e0319738d65188bddf50b21256af29d6686.jpg]]
-
-**原文题目**：Cyclization of this unsaturated amine with catalytic Pd(II) under an atmosphere of oxygen gives a cyclic unsaturated amine in 95% yield.
 
 ## 参考答案
 

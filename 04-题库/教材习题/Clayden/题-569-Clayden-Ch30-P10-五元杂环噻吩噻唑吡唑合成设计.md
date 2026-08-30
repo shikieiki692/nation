@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-How would you synthesize these aromatic heterocycles?
+**【中文】**你将如何合成这些芳香杂环（见图）？
+
+**【原文】**How would you synthesize these aromatic heterocycles?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/59b4d785024898ba99db5b3914409fa654fd0617f6218810a3b3fdd39709cfcd.jpg]]
 

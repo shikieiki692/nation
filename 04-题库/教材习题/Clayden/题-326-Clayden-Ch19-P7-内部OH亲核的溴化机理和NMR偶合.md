@@ -23,13 +23,12 @@ pack: 模块习题集
 
 ## 题目
 
+**【中文】**当含有内部羟基的烯烃用 Br₂ 处理时，发生分子内反应。提出机理。产物的 NMR 谱图显示较大的 J 偶合常数，解释这告诉你关于构象的什么信息，并确定 Br 和 Me 的位置。
+
+**【原文】**
 When an alkene containing an internal hydroxyl group is treated with Br₂, an intramolecular reaction occurs. Propose a mechanism. The product's NMR spectrum shows large J coupling constants. Explain what this tells you about the conformation and identify the positions of Br and Me groups.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/a5aa6fa8ff71829af9864d7d7edf6c874027c0066bf6c878163b9fd9611f3abb.jpg]]
-
-**原文题目**：
-
-当含有内部羟基的烯烃用 Br₂ 处理时，发生分子内反应。提出机理。产物的 NMR 谱图显示较大的 J 偶合常数，解释这告诉你关于构象的什么信息，并确定 Br 和 Me 的位置。
 
 ## 参考答案
 

@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-Two diastereoisomers of this cyclic keto-lactam have been prepared. The NMR spectra have many overlapping signals but the marked proton can be seen clearly. In isomer A it is at $\delta_{H}$ 4.12 (1H, q, J 3.5) and in isomer B it is $\delta_{H}$ 3.30 (1H, dt, J 4, 11). Which isomer has which stereochemistry?
+**【中文】**已制备出该环状酮-内酰胺（见图）的两个非对映异构体。NMR 谱中有许多重叠信号，但标记的质子可以清楚辨认：在异构体 A 中它位于 $\delta_{H}$ 4.12 (1H, q, J 3.5)，在异构体 B 中位于 $\delta_{H}$ 3.30 (1H, dt, J 4, 11)。哪个异构体对应哪种立体化学？
+
+**【原文】**Two diastereoisomers of this cyclic keto-lactam have been prepared. The NMR spectra have many overlapping signals but the marked proton can be seen clearly. In isomer A it is at $\delta_{H}$ 4.12 (1H, q, J 3.5) and in isomer B it is $\delta_{H}$ 3.30 (1H, dt, J 4, 11). Which isomer has which stereochemistry?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/6e6c38ee29daf47a250422464ee56bab0cc1911ccd06e76fb225ba53899094b8.jpg]]
 

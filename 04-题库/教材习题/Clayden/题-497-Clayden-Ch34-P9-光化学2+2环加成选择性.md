@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-Photochemical cycloaddition of these two compounds is claimed to give the diastereoisomer shown. The chemists who did this work claimed that the stereochemistry of the adduct is simply proved by its conversion into a lactone on reduction. Comment on the validity of this deduction and explain the stereochemistry of the cycloaddition.
+**【中文】**据称这两个化合物的光化学环加成给出所示的非对映异构体。完成这项工作的化学家声称，加合物的立体化学可以简单地通过其还原后转化为内酯来证明。请评论这一推断的有效性，并解释该环加成的立体化学。（反应式见图）
+
+**【原文】**Photochemical cycloaddition of these two compounds is claimed to give the diastereoisomer shown. The chemists who did this work claimed that the stereochemistry of the adduct is simply proved by its conversion into a lactone on reduction. Comment on the validity of this deduction and explain the stereochemistry of the cycloaddition. The chemists who did this work claimed that the stereochemistry of the adduct is simply proved by its conversion into a lactone on reduction. Comment on the validity of this deduction and explain the stereochemistry of the cycloaddition.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/0111735922496617c747ba0b6df5d03eb9caa645798bdd2e7fdad104ba011c4c.jpg]]
 

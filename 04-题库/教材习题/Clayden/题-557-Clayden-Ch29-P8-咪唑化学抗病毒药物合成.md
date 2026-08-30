@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-The reactions outlined in the chart below were the early stages in a synthesis of an antiviral drug by the Parke-Davis company. Consider how the reactivity of imidazoles is illustrated in these reactions, which involve not only the skeleton of the molecule but also the reagent D. You will need to draw mechanisms for the reactions and explain how they are influenced by the heterocycles.
+**【中文】**下图所示的反应是 Parke-Davis 公司一种抗病毒药物合成路线的早期阶段。请思考这些反应如何体现咪唑（imidazole）的反应性——这不仅涉及分子骨架，还涉及试剂 D。你需要画出各反应的机理，并解释杂环是如何影响这些反应的。
+
+**【原文】**The reactions outlined in the chart below were the early stages in a synthesis of an antiviral drug by the Parke-Davis company. Consider how the reactivity of imidazoles is illustrated in these reactions, which involve not only the skeleton of the molecule but also the reagent D. You will need to draw mechanisms for the reactions and explain how they are influenced by the heterocycles.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/fbe128bace7b4a28afee240280a6af46dd0a6118fe022f57759261e116d7c6d0.jpg]]
-
-**原文题目**：Draw mechanisms for the reactions in the Parke-Davis antiviral drug synthesis and explain how the imidazole heterocycle influences each step.
 
 ## 参考答案
 

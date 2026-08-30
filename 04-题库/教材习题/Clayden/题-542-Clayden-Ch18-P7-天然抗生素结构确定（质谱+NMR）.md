@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-An antibiotic isolated from a microorganism was crystallized from water and formed different crystalline salts in either acid or base. The spectroscopic data were:
+**【中文】**从一种微生物中分离得到的一种抗生素可从水中结晶，并且在酸或碱中均能形成不同的晶态盐。其波谱数据如下：质谱 182 (M⁺, 9%)、109 (100%)、74 (15%)；δH（ppm，D₂O 中，pH<1）3.67 (2H, d, J 7)、4.57 (1H, t, J 7)、8.02 (2H, m)、8.37 (1H, m)；δC（ppm，D₂O 中，pH<1）33.5、52.8、130.1、130.6、130.9、141.3、155.9、170.2。请提出该抗生素的结构。本题目的：确定来自天然来源、具有生物活性的化合物的结构。
+
+**【原文】**An antibiotic isolated from a microorganism was crystallized from water and formed different crystalline salts in either acid or base. The spectroscopic data were:
 
 Mass spectrum 182 (M⁺, 9%), 109 (100%), and 74 (15%).
 

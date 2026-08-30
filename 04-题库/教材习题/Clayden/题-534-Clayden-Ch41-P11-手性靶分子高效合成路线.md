@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-This compound was developed by the Nutrasweet company as an artificial sweetener. Propose a strategy for its synthesis. Would your proposed approach still be suitable if the compound had turned out to be a successful product, required in multi-tonne quantities?
+**【中文】**图中所示的化合物是 Nutrasweet 公司开发的一种人工甜味剂。请为其合成提出一个策略。如果该化合物成为成功的产品、需要以数吨级（multi-tonne）规模生产，你提出的方案是否仍然适用？
+
+**【原文】**This compound was developed by the Nutrasweet company as an artificial sweetener. Propose a strategy for its synthesis. Would your proposed approach still be suitable if the compound had turned out to be a successful product, required in multi-tonne quantities?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/4b70eb2c1a766b75fe5b6314543c5fa7d73dd6452157c773e18c265bc3dfa76f.jpg]]
-
-**原文题目**：This compound was developed by the Nutrasweet company as an artificial sweetener. Propose a strategy for its synthesis. Would your proposed approach still be suitable if the compound had turned out to be a successful product, required in multi-tonne quantities?
 
 ## 参考答案
 

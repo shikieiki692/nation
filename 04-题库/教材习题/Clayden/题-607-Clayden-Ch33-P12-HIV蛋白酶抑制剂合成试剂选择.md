@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-The following sequences show parts of the syntheses of two different HIV protease inhibitors. What reagents are required for steps 1–4? (For steps 1 and 3, consider carefully how the stereochemistry of the product might be controlled.)
+**【中文】**以下反应序列（见图）展示了两种不同 HIV 蛋白酶抑制剂合成中的部分步骤。步骤 1–4 各需要什么试剂？（对于步骤 1 和 3，请仔细考虑如何控制产物的立体化学。）
+
+**【原文】**The following sequences show parts of the syntheses of two different HIV protease inhibitors. What reagents are required for steps 1–4? (For steps 1 and 3, consider carefully how the stereochemistry of the product might be controlled.)
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/ab521808b57eae618fa04f585b99ef1a6833de659a8c2c6d082d5d525b72bece.jpg]]
 

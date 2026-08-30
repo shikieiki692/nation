@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Explain why enantiomerically pure lactone gives syn but racemic product in this palladium-catalysed reaction.
+**【中文】**请解释为什么在图中所示的钯催化反应中，对映纯的内酯原料给出 syn（顺式）但却外消旋的产物。
 
-📌 **图片待补：** 3b488132b28093f093bf74150e1b61335f13e3fec8cf9060e8d9ef64e7b639a0.jpg
+**【原文】**Explain why enantiomerically pure lactone gives syn but racemic product in this palladium-catalysed reaction.
 
-**原文题目**：Explain why enantiomerically pure lactone gives syn but racemic product in this palladium-catalysed reaction.
+![[3b488132b28093f093bf74150e1b61335f13e3fec8cf9050e8d9ef64e7b639a0.jpg]]
 
 ## 参考答案
 

@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Explain the difference between these Hammett ρ values by mechanisms for the two reactions. In both cases the ring marked with the substituent X is varied. When R = H, ρ = -0.3 but when R = Ph, ρ = -5.1.
+**【中文】**请通过这两个反应的机理来解释它们 Hammett ρ 值的差异。两种情况下都是改变标有取代基 X 的环。当 R = H 时 ρ = -0.3，但当 R = Ph 时 ρ = -5.1。（反应式见图）
+
+**【原文】**Explain the difference between these Hammett ρ values by mechanisms for the two reactions. In both cases the ring marked with the substituent X is varied. When R = H, ρ = -0.3 but when R = Ph, ρ = -5.1.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/8f2f465fa620cc62f2c8997623b8539be1a1e3a4a35e4bf18e8dd8a0c9ad83d5.jpg]]
-
-**原文题目**：Explain the dramatic change in Hammett ρ value from -0.3 (R=H) to -5.1 (R=Ph) for nucleophilic substitution at a benzylic centre.
 
 ## 参考答案
 

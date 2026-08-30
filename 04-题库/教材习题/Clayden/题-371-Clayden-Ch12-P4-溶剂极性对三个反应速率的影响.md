@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-What would be the effect of solvent changes on these reactions? Would the reactions be accelerated or retarded by a change from a polar to a non-polar solvent?
+**【中文】**溶剂的改变会对这些反应产生什么影响？从极性溶剂换成非极性溶剂，反应会加速还是减慢？（反应式见图）
+
+**【原文】**What would be the effect of solvent changes on these reactions? Would the reactions be accelerated or retarded by a change from a polar to a non-polar solvent?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/46024414590bd7b65d18c6a47e10f44585fb69447e18aae1d6b257ee3362ce50.jpg]]
-
-**原文题目**：What would be the effect of solvent changes on these reactions? Would the reactions be accelerated or retarded by a change from a polar to a non-polar solvent?
 
 ## 参考答案
 

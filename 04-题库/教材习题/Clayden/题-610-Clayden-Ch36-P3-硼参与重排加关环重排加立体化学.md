@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-Draw mechanisms for the reactions and structures for the intermediates. Explain the stereochemistry, especially of the reactions involving boron. Why was 9-BBN chosen as the hydroborating agent?
+**【中文】**画出这些反应（见图）的机理和中间体的结构。解释其立体化学，特别是涉及硼的反应。为什么选择 9-BBN 作为硼氢化试剂？
+
+**【原文】**Draw mechanisms for the reactions and structures for the intermediates. Explain the stereochemistry, especially of the reactions involving boron. Why was 9-BBN chosen as the hydroborating agent?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/fc4a418a3a59951a295609e625eca69217d2484a75b6d2245919ff2a08e6455f.jpg]]
 

@@ -31,7 +31,7 @@ This sequence of reactions is used to make a precursor to the anti-asthma drug m
 
 ## 参考答案
 
-**Answer (English)**: Lithium aluminium hydride reduces esters to alcohols, so the only question here is whether it reduces one, or both esters. The IR tells us that there is an alcohol (3600 cm$^{-1}$) and no carbonyl group (which you would expect around 1700 cm$^{-1}$) so we can assume that both esters have been reduced. The diol structure below is consistent with the mass of the molecular ion.
+**Answer (English)**: Lithium aluminium hydride reduces esters to alcohols, so the only question here is whether it reduces one, or both esters. The IR tells us that there is an alcohol (3600 cm⁻¹) and no carbonyl group (which you would expect around 1700 cm⁻¹) so we can assume that both esters have been reduced. The diol structure below is consistent with the mass of the molecular ion.
 
 Alcohols react with acid chlorides to form esters, so again we have the choice between a single or double ester formation. The IR tells us that one of the alcohols is still present, along with a carbonyl at $1710 \, cm^{-1}$, and the mass of the product is consistent with the structure below.
 
@@ -41,12 +41,12 @@ Alcohols react with acid chlorides to form esters, so again we have the choice b
 
 关键步骤：
 1. **LiAlH₄还原酯**：LiAlH₄是强还原剂，可以将酯还原为醇。问题是：它会还原一个酯还是两个酯？
-   - **IR证据**：3600 cm$^{-1}$（O-H伸缩振动）表明有醇；1700 cm$^{-1}$附近没有羰基峰，说明两个酯都被还原了。
+   - **IR证据**：3600 cm⁻¹（O-H伸缩振动）表明有醇；1700 cm⁻¹附近没有羰基峰，说明两个酯都被还原了。
    - **质谱证据**：分子离子峰与二醇结构一致。
    - **结论**：化合物A是二醇（两个酯都被还原）。
 
 2. **醇与酰氯反应**：醇与酰氯反应生成酯。问题是：会形成单酯还是双酯？
-   - **IR证据**：3600 cm$^{-1}$（O-H）表明还有一个游离醇；1710 cm$^{-1}$（C=O）表明有一个酯基。
+   - **IR证据**：3600 cm⁻¹（O-H）表明还有一个游离醇；1710 cm⁻¹（C=O）表明有一个酯基。
    - **质谱证据**：分子离子峰与单酯结构一致。
    - **结论**：化合物B是单酯（一个醇被酰化，另一个保持游离）。
 
@@ -72,7 +72,7 @@ Alcohols react with acid chlorides to form esters, so again we have the choice b
 | 错误 | 原因 | 纠正 | 课堂提问 |
 |------|------|------|----------|
 | 认为LiAlH₄只还原一个酯 | 没有理解LiAlH₄的强还原性 | LiAlH₄会还原所有可还原的酯基 | 如何控制LiAlH₄只还原一个酯？ |
-| 忽略IR光谱证据 | 没有考虑3600和1700 cm$^{-1}$峰的意义 | 3600 cm$^{-1}$表明醇，1700 cm$^{-1}$表明羰基 | 如何用IR区分醇和酯？ |
+| 忽略IR光谱证据 | 没有考虑3600和1700 cm⁻¹峰的意义 | 3600 cm⁻¹表明醇，1700 cm⁻¹表明羰基 | 如何用IR区分醇和酯？ |
 | 混淆单酯和双酯的质谱 | 没有正确计算分子量 | 单酯和双酯的分子量不同，质谱可以区分 | 如何用质谱判断酰化程度？ |
 
 ## 图片资源

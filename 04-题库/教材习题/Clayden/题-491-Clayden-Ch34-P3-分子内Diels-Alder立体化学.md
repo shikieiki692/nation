@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-Justify the stereoselectivity in this intramolecular Diels-Alder reaction.
+**【中文】**论证这个分子内 Diels–Alder 反应中的立体选择性。（反应式见图）
+
+**【原文】**Justify the stereoselectivity in this intramolecular Diels-Alder reaction.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/c2da2a9cda575658b26899b5cde2360584a3c6c14ecb75350165fb69f9387157.jpg]]
 

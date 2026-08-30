@@ -24,6 +24,6 @@ exam_stage: 初赛
 
 ## 题目
 
-下表给出一些以八面体方式配位的离子的水合焓和配位场分裂参数 $\Delta_{0}$ 的值。（a）以水合焓对 d 电子数作图。（b）计算高自旋组态的 LFSE 值 ( $\Delta_{0}$ )。用给定的 $\Delta_{0}$ 值求算每一种离子的 LFSE (kJ·mol $^{-1}$ )。（c）将这种能量用作水合焓的矫正项，并标出没有配位场效应时 $\Delta H$ 的估算值。对此作讨论 (1 kJ·mol $^{-1}$ = 83.7 cm $^{-1}$ )。
+下表给出一些以八面体方式配位的离子的水合焓和配位场分裂参数 $\Delta_{0}$ 的值。（a）以水合焓对 d 电子数作图。（b）计算高自旋组态的 LFSE 值 ( $\Delta_{0}$ )。用给定的 $\Delta_{0}$ 值求算每一种离子的 LFSE (kJ·mol⁻¹ )。（c）将这种能量用作水合焓的矫正项，并标出没有配位场效应时 $\Delta H$ 的估算值。对此作讨论 (1 kJ·mol⁻¹ = 83.7 cm⁻¹ )。
 
 <table><tr><td>离子</td><td> $\Delta_{\text{hyd}}H/(kJ \cdot mol^{-1})$ </td><td> $\Delta_0/cm^{-1}$ </td></tr><tr><td> $Ca^{2+}$ </td><td>2 478</td><td>0</td></tr><tr><td> $V^{2+}$ </td><td>2 789</td><td>12 600</td></tr><tr><td> $Cr^{2+}$ </td><td>2 806</td><td>13 900</td></tr><tr><td> $Mn^{2+}$ </td><td>2 747</td><td>7 800</td></tr><tr><td> $Fe^{2+}$ </td><td>2 856</td><td>10 400</td></tr><tr><td> $Co^{2+}$ </td><td>2 927</td><td>9 300</td></tr><tr><td> $Ni^{2+}$ </td><td>3 007</td><td>8 300</td></tr><tr><td> $Cu^{2+}$ </td><td>3 011</td><td>12 600</td></tr><tr><td> $Zn^{2+}$ </td><td>2 969</td><td>0</td></tr></table>

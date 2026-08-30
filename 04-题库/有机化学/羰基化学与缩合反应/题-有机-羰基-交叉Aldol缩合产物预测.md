@@ -33,7 +33,7 @@ pack: 模块习题集
 **(4)** 如果使用过量的丙酮（如 3 当量）在 NaOH 中与 1 当量苯甲醛反应，产物是否相同？为什么？
 
 
-![[base-catalysed-aldol.svg]]
+![[64dab84c71e16b0c741ea1786a22bc388fd1bfe4764ef540b48f05fe975f4f20.svg]]
 
 ## 参考答案
 

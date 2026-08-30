@@ -23,11 +23,12 @@ pack: 模块习题集
 
 ## 题目
 
+**【中文】**该化合物是药物etalocib的合成前体。建议一种合成路线。提示：考虑使用亲核芳香取代。
+
+**【原文】**
 This compound is needed as a synthetic precursor to the drug etalocib. Suggest a synthesis. Hint: consider using nucleophilic aromatic substitution.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/be943425542323581bdee9446b83aab5ebcfba062331fd2ad6f3cd42cf2e1844.jpg]]
-
-**原文题目**：该化合物是药物etalocib的合成前体。建议一种合成路线。提示：考虑使用亲核芳香取代。
 
 ## 参考答案
 

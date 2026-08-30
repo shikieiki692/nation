@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Between pH 2 and 7 the rate of hydrolysis of this ester is independent of pH. At pH 5 the rate is proportional to the concentration of acetate ion (AcO⁻) in the buffer solution and the reaction goes twice as fast in H₂O as in D₂O. Suggest a mechanism for the pH-independent hydrolysis. Above pH 7 the rate increases with pH. What kind of change is this?
+**【中文】**在 pH 2 到 7 之间，该酯的水解速率与 pH 无关。在 pH 5 时，速率与缓冲溶液中乙酸根离子（AcO⁻）的浓度成正比，且反应在 H₂O 中的速率是在 D₂O 中的两倍。请为这种 pH 无关的水解提出一个机理。在 pH 7 以上，速率随 pH 增大而增大。这是一种什么样的变化？（结构式见图）
+
+**【原文】**Between pH 2 and 7 the rate of hydrolysis of this ester is independent of pH. At pH 5 the rate is proportional to the concentration of acetate ion (AcO⁻) in the buffer solution and the reaction goes twice as fast in H₂O as in D₂O. Suggest a mechanism for the pH-independent hydrolysis. Above pH 7 the rate increases with pH. What kind of change is this?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/ac407f8b5a5bf86a37a771b7d9b1ed5f313aa063a0d38bcb959d861ca32b133f.jpg]]
-
-**原文题目**：Interpret the pH-rate profile for the hydrolysis of this activated ester. At pH 2-7 rate is pH-independent; at pH 5 rate is proportional to [AcO⁻]; k(H₂O)/k(D₂O) = 2. Above pH 7 rate increases with pH.
 
 ## 参考答案
 

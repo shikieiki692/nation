@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import argparse
 from dataclasses import dataclass
+from datetime import date as date_cls
 import hashlib
 import os
 import re
@@ -52,6 +53,7 @@ except ImportError:
 # Add parent dir so docx_utils can be imported
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from docx_utils import _atomic_replace, postprocess_pandoc_docx
+from docx_utils import add_exercise_cover
 
 # ── Paths ────────────────────────────────────────────────────────
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -348,7 +350,7 @@ def _is_caption_line(line: str) -> bool:
     stripped = line.strip()
     stripped = re.sub(r"</?center>", "", stripped, flags=re.IGNORECASE).strip()
     stripped = stripped.strip("*").strip()
-    return bool(re.match(r"^(图|表)\s*\d*", stripped))
+    return bool(re.match(r"^(图|表)\s*(?:\d+(?:\.\d+)*|[A-Za-z])", stripped))
 
 
 def _append_precheck_issue(
@@ -1475,6 +1477,13 @@ def _preprocess_markdown(text: str) -> str:
         r'!\[\[([^\]]+?)\.(png|jpg|jpeg|gif|webp|svg)(?:\|([^\]]*))?\]\]',
         lambda m: f'![{m.group(3) or ""}]({m.group(1)}.{m.group(2)})',
         text, flags=re.IGNORECASE)
+    # Adjacent embeds in one table cell (e.g. `![[a.jpg]]![[b.jpg]]`) must be
+    # separated, otherwise pandoc merges the pair and drops one image.
+    text = re.sub(
+        r'(!\[[^\]]*?\]\([^)]+\))(?=\s*!\[[^\]]*?\]\()',
+        r'\1 ',
+        text,
+    )
 
     # 1b) Excalidraw .md embeds → warn + remove (cannot embed in docx)
     # Note: [[link|alias]] format is handled by the (?:|\|[^\]]*)? optional group
@@ -1517,6 +1526,35 @@ def _preprocess_markdown(text: str) -> str:
     text = re.sub(r'\\underset' + _arg + _arg,
                   lambda m: m.group(2)[1:-1] + ' \\;(' + m.group(1)[1:-1] + ')',
                   text)
+
+    # 4b2) \xlongequal → \xrightarrow / \rightarrow
+    #      texmath 不支持 \xlongequal；无花括号参数是 OCR 残留，退化为 \rightarrow。
+    text = re.sub(r'\\xlongequal(?=[ \t]*[A-Za-z\\])', r'\\rightarrow', text)
+    text = re.sub(r'\\xlongequal', r'\\xrightarrow', text)
+
+    # 4b3) \AA → \text{Å}（texmath 不支持 \AA）
+    text = re.sub(r'\\text\{\\AA\}', r'\\text{Å}', text)
+    text = re.sub(r'\\mathrm\{\\AA\}', r'\\text{Å}', text)
+    text = re.sub(r'\\AA', r'\\text{Å}', text)
+
+    # 4b4) 去掉 \Biggl/\Bigl/\biggl/\bigl 等尺寸前缀，保留后续定界符
+    text = re.sub(
+        r'\\(?:Biggl|Bigl|biggl|bigl|Biggr|Bigr|biggr|bigr)\s*',
+        '',
+        text,
+    )
+
+    # 4b5) 去掉 \tag{...}（texmath 不支持；兼容 `\tag {H}` 的空格写法）
+    text = re.sub(r'\s*\\tag\s*\{[^{}]*\}', '', text)
+
+    # 4b6) \xrightarrow{...\\...} 的条件内换行改为分号（texmath 不支持 \\）
+    def _fix_arrow_breaks(m: re.Match) -> str:
+        return m.group(1) + m.group(2).replace('\\\\', '; ') + m.group(3)
+    text = re.sub(
+        r'(\\xrightarrow(?:\[[^\]]*\])?\{)([^{}]*)(\})',
+        _fix_arrow_breaks,
+        text,
+    )
 
     # 4c) \displaylines{...} → split into separate display equations
     #     (handles one level of nested \text{} etc. inside)
@@ -1716,10 +1754,60 @@ def pandoc_convert(
     )
 
 
-def postprocess(docx_path: Path, verbose: bool = False) -> None:
+def _build_cover_meta(
+    md_path: Path,
+    fm: dict[str, Any],
+    body: str,
+) -> dict[str, str]:
+    """从章节文件 frontmatter/路径构建封面元信息。"""
+    chapter_title = _extract_markdown_h1(body) or build_title(fm)
+    part_label = ""
+    parent = md_path.parent.name
+    part_match = re.match(r"^(第[一二三四五六七八九十]+篇)[-—]?\s*(.+)$", parent)
+    if part_match:
+        part_label = f"{part_match.group(1)} {part_match.group(2)}"
+    else:
+        part_label = parent
+
+    question_count = ""
+    raw_count = fm.get("question_count")
+    if raw_count is not None:
+        question_count = str(raw_count)
+    else:
+        q_nums = re.findall(r"^###\s*第\d+题", body, flags=re.MULTILINE)
+        if q_nums:
+            question_count = str(len(q_nums))
+
+    edition = str(fm.get("edition", "")).strip()
+    if edition == "teacher":
+        edition_label = "教师版（含答案）"
+    elif edition == "student":
+        edition_label = "学生版（无答案）"
+    elif edition:
+        edition_label = edition
+    else:
+        edition_label = ""
+
+    return {
+        "book_title": "化学竞赛习题册",
+        "part_label": part_label,
+        "chapter_title": chapter_title,
+        "question_count": question_count,
+        "edition_label": edition_label,
+        "date": date_cls.today().isoformat(),
+    }
+
+
+def postprocess(
+    docx_path: Path,
+    verbose: bool = False,
+    cover_meta: dict[str, str] | None = None,
+) -> None:
     """Fix fonts on pandoc-generated docx, add page numbers, center title."""
     if verbose:
         print(f"  [fonts] Post-processing...", file=sys.stderr)
+    if cover_meta:
+        add_exercise_cover(docx_path, **cover_meta)
     postprocess_pandoc_docx(
         docx_path,
         center_title=True,
@@ -1741,6 +1829,8 @@ def convert_file(
     emit_render_pdf: bool = False,
     word_clean: bool = False,
     strict_images: bool = False,
+    cover: bool = False,
+    output_stem: str | None = None,
 ) -> Path | None:
     """Convert a single .md handout to .docx via the three-stage pipeline.
 
@@ -1756,10 +1846,14 @@ def convert_file(
         verbose=verbose,
         word_clean=word_clean,
     )
-    stem = md_path.stem
-    if word_clean:
+    cover_meta = _build_cover_meta(md_path, fm, body) if cover else None
+    if output_stem is not None:
+        stem = output_stem
+    elif word_clean:
         title_candidate = _extract_markdown_h1(body) or build_title(fm)
         stem = _clean_word_title(title_candidate) + "（Word清稿）"
+    else:
+        stem = md_path.stem
     stem = re.sub(r'[\\/:*?"<>|]+', "-", stem).strip()
     out_dir = Path(output_dir) if output_dir else HANDOUT_OUT
     out_path = out_dir / f"{stem}.docx"
@@ -1796,7 +1890,7 @@ def convert_file(
         pandoc_convert(tmp_md, tmp_docx, resource_path=resource_path, verbose=verbose)
 
         # ── Stage 3: Post-process fonts ──
-        postprocess(tmp_docx, verbose=verbose)
+        postprocess(tmp_docx, verbose=verbose, cover_meta=cover_meta)
 
         # ── Stage 3.5: Post-generation validation ──
         _validate_docx(
@@ -2128,6 +2222,11 @@ def main():
         help="Convert one explicit markdown file path",
     )
     parser.add_argument(
+        "--batch-root", type=str, default=None,
+        help="Batch-convert all chapter .md files under a root directory "
+             "(excludes 目录.md)",
+    )
+    parser.add_argument(
         "-v", "--verbose", action="store_true",
         help="Detailed per-file processing log",
     )
@@ -2165,6 +2264,10 @@ def main():
         help="Hard-fail conversion when any source image is missing from the generated "
              "docx (count or content-hash mismatch), instead of only warning",
     )
+    parser.add_argument(
+        "--cover", action="store_true",
+        help="Insert a chapter cover page (book/part/chapter title, question count, date)",
+    )
     args = parser.parse_args()
 
     if args.self_test:
@@ -2180,6 +2283,155 @@ def main():
         Path(args.render_output_dir).resolve()
         if args.render_output_dir else None
     )
+
+    # ── Optional exercise-book batch root (chapter files under 篇 dirs) ──
+    if args.batch_root:
+        batch_root = Path(args.batch_root).expanduser().resolve()
+        if not batch_root.is_dir():
+            print(f"ERROR: batch root not found: {batch_root}", file=sys.stderr)
+            sys.exit(2)
+        all_md = sorted(
+            p for p in batch_root.rglob("*.md")
+            if p.stem != "目录"
+            and p.stem != "README"
+            and not p.stem.startswith("_未分类")
+        )
+        if not all_md:
+            print(f"ERROR: no chapter .md files under {batch_root}", file=sys.stderr)
+            sys.exit(2)
+        print(f"Found {len(all_md)} chapter files in {batch_root}")
+        files = all_md
+        # Different 篇 (sections) may legitimately re-use the same chapter stem
+        # (e.g. "1-化学基础与计量" exists in both 化学原理 and 元素与分析).
+        # Output is named by stem only, so a duplicate stem would silently
+        # overwrite another chapter's .docx. Detect collisions and disambiguate
+        # by prefixing with the parent section folder name.
+        stem_counts: dict[str, int] = {}
+        for md_path in files:
+            stem = re.sub(r'[\\/:*?"<>|]+', "-", md_path.stem).strip()
+            stem_counts[stem] = stem_counts.get(stem, 0) + 1
+        output_stem_by_path: dict[Path, str | None] = {p: None for p in files}
+        for md_path in files:
+            stem = re.sub(r'[\\/:*?"<>|]+', "-", md_path.stem).strip()
+            if stem_counts[stem] > 1:
+                section = md_path.parent.name
+                output_stem_by_path[md_path] = f"{section}-{stem}"
+        if any(s for s in output_stem_by_path.values()):
+            print(
+                "Note: disambiguating duplicate chapter stems via parent section "
+                "folder: " + ", ".join(
+                    f"{p.name} -> {s}" for p, s in output_stem_by_path.items() if s
+                )
+            )
+        print(f"Selected {len(files)} for processing")
+        if args.precheck_only:
+            print("Mode: Word source precheck only (formula + Mermaid)\n")
+        elif args.dry_run:
+            print("Dry-run mode — no files will be written:\n")
+        else:
+            print(f"Output: {output_dir}\n")
+        # ── Process ──
+        success = 0
+        errors = 0
+
+        if args.precheck_only:
+            for md_path in files:
+                print(f"[CHK] {md_path.name}")
+                try:
+                    report = precheck_file(md_path, verbose=args.verbose)
+                    if report.has_errors:
+                        errors += 1
+                    else:
+                        success += 1
+                except Exception as e:
+                    print(f"  [ERROR] {e}", file=sys.stderr)
+                    if args.verbose:
+                        import traceback
+                        traceback.print_exc(file=sys.stderr)
+                    errors += 1
+        elif args.parallel and not args.dry_run:
+            import concurrent.futures
+            n_workers = args.parallel if isinstance(args.parallel, int) else 4
+            print(f"Parallel mode: {n_workers} workers\n")
+
+            def _convert_one(md_path: Path) -> tuple[str, bool | str]:
+                try:
+                    out = convert_file(
+                        md_path,
+                        verbose=args.verbose,
+                        output_dir=output_dir,
+                        render_preview=args.render_preview,
+                        render_output_dir=render_output_dir,
+                        emit_render_pdf=args.emit_render_pdf,
+                        word_clean=args.word_clean,
+                        strict_images=args.strict_images,
+                        cover=args.cover,
+                        output_stem=output_stem_by_path.get(md_path),
+                    )
+                    if out:
+                        return (md_path.name, True)
+                    return (md_path.name, "skipped")
+                except Exception as e:
+                    if args.verbose:
+                        import traceback
+                        traceback.print_exc(file=sys.stderr)
+                    return (md_path.name, str(e))
+
+            results = []
+            with concurrent.futures.ThreadPoolExecutor(max_workers=n_workers) as pool:
+                futures = {pool.submit(_convert_one, p): p for p in files}
+                for future in concurrent.futures.as_completed(futures):
+                    fname, status = future.result()
+                    if status is True:
+                        results.append((fname, True))
+                        print(f"[OK] {fname}  →  converted")
+                    else:
+                        results.append((fname, status))
+                        print(f"[ERR] {fname}  →  {status}", file=sys.stderr)
+
+            success = sum(1 for _, s in results if s is True)
+            errors = sum(1 for _, s in results if s is not True)
+        else:
+            for md_path in files:
+                label = "DRY" if args.dry_run else ".."
+                print(f"[{label}] {md_path.name}", end="")
+                if args.dry_run:
+                    print()
+                    continue
+                try:
+                    out = convert_file(
+                        md_path,
+                        verbose=args.verbose,
+                        output_dir=output_dir,
+                        render_preview=args.render_preview,
+                        render_output_dir=render_output_dir,
+                        emit_render_pdf=args.emit_render_pdf,
+                        word_clean=args.word_clean,
+                        strict_images=args.strict_images,
+                        cover=args.cover,
+                        output_stem=output_stem_by_path.get(md_path),
+                    )
+                    if out:
+                        print(f"  →  {out.name}")
+                        success += 1
+                    else:
+                        print("  [skipped]")
+                except Exception as e:
+                    print(f"  [ERROR] {e}", file=sys.stderr)
+                    if args.verbose:
+                        import traceback
+                        traceback.print_exc(file=sys.stderr)
+                    errors += 1
+
+        print()
+        if args.precheck_only:
+            print(f"Precheck complete. Passed: {success}, Files with errors: {errors}.")
+            sys.exit(1 if errors else 0)
+        if args.dry_run:
+            print(f"Dry-run complete. {len(files)} files listed.")
+            sys.exit(0)
+        print(f"Done. {success} converted, {errors} errors.")
+        sys.exit(1 if errors else 0)
 
     # ── Gather input files ──
     all_md = sorted(HANDOUT_SRC.glob(SRC_GLOB))
@@ -2267,6 +2519,7 @@ def main():
                     emit_render_pdf=args.emit_render_pdf,
                     word_clean=args.word_clean,
                     strict_images=args.strict_images,
+                    cover=args.cover,
                 )
                 if out:
                     return (md_path.name, True)
@@ -2312,6 +2565,7 @@ def main():
                     emit_render_pdf=args.emit_render_pdf,
                     word_clean=args.word_clean,
                     strict_images=args.strict_images,
+                    cover=args.cover,
                 )
                 if out:
                     print(f"  →  {out.name}")

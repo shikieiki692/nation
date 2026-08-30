@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Three chemical steps convert cyclohexane-1,4-dione into a compound which is used for the synthesis of the anti-migraine drug frovatriptan. Suggest how this transformation is carried out.
+**【中文】**三个化学步骤可将环己烷-1,4-二酮转化为一种用于合成抗偏头痛药物 frovatriptan（夫罗曲坦）的化合物。提出如何实现这一转化。（提示：涉及缩醛保护与还原胺化；反应式见图）
+
+**【原文】**Three chemical steps convert cyclohexane-1,4-dione into a compound which is used for the synthesis of the anti-migraine drug frovatriptan. Suggest how this transformation is carried out.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/e3e84bd56a7d352d4dbc48f6658327a501e3a2dcfa9dacc11428d9f7aa1a7531.jpg]]
-
-**原文题目**：Design a three-step synthesis converting cyclohexane-1,4-dione into a Frovatriptan precursor, involving acetal protection and reductive amination.
 
 ## 参考答案
 

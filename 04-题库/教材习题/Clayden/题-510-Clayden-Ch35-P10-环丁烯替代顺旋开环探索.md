@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-How would you make the starting material for these reactions? Treatment of the anhydride with butanol gives an ester that in turn gives two inseparable compounds on heating. On treatment with an amine, an easily separable mixture of an acidic and a neutral compound is formed. What are the components of the first mixture and how are they formed?
+**【中文】**你将如何制备这些反应的起始原料？用丁醇处理该酸酐得到一个酯，该酯加热时又生成两个无法分离的化合物。用胺处理时，则形成一个酸性化合物和一个中性化合物的易分离混合物。第一个混合物的组分是什么？它们是如何形成的？（反应式见图）
+
+**【原文】**How would you make the starting material for these reactions? Treatment of the anhydride with butanol gives an ester that in turn gives two inseparable compounds on heating. On treatment with an amine, an easily separable mixture of an acidic and a neutral compound is formed. What are the components of the first mixture and how are they formed?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/8d578eb2c07926f07c06e2adc67f8385d7a4136eeddbc0eee7b126b64eaf7fe2.jpg]]
 

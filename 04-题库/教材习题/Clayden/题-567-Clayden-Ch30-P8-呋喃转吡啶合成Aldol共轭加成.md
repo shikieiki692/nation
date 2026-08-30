@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-Give detailed mechanisms for this pyridine synthesis.
+**【中文】**给出这一吡啶合成（见图）的详细机理。
+
+**【原文】**Give detailed mechanisms for this pyridine synthesis.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/6714037fedead92289d2d3e6d5bd1e2588bc10b7e3329ed406ca2e9cc5e6bba1.jpg]]
 

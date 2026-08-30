@@ -29,7 +29,7 @@ pack: 章节练习
 （3）解释为什么乙酰丙酮（2,4-戊二酮）的烯醇式含量高达76%。
 
 
-![[base-catalysed-aldol.svg]]
+![[64dab84c71e16b0c741ea1786a22bc388fd1bfe4764ef540b48f05fe975f4f20.svg]]
 
 ## 参考答案
 

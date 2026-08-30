@@ -29,7 +29,7 @@ updated: 2026-08-03
 | 1a65bd4f6fc7495ad61a7faa446b927422136fbd42d6cd9c271b40f819dee9e7.jpg | 酸碱滴定数据表（NaOH滴定HCl，含pH计算） | zhao_ch351_acid_base_titration_data.jpg | HIGH | 化学实验 |
 | 201fc104b0be0b713095af3bdde1d74c85c8c0761faa5c32e0ddd37284bae1a2.jpg | 分光光度法数据表（波长vs吸光度） | zhao_ch351_spectrophotometry_data.jpg | HIGH | 化学实验 |
 | 481d8189d74f7a55bcddd2afb9c2f7512908a66b9222e0b1f207af6f212f4724.jpg | 缓冲溶液表（pKa、缓冲范围） | zhao_ch351_buffer_solutions.jpg | HIGH | 化学实验 |
-| 7a866df080a2538d9931b2929ae05d5636d21f819250c664b1425183487b3bfc.jpg | 酸碱指示剂表（变色范围、颜色、pK_HIn） | zhao_ch351_acid_base_indicators.jpg | HIGH | 化学实验 |
+| 7a866df080a2538d9931b2929ae05d5636d21f819250c664b1425183487b3bfc.jpg | 酸碱指示剂表（变色范围、颜色、$pK_\mathrm{HIn}$） | zhao_ch351_acid_base_indicators.jpg | HIGH | 化学实验 |
 | a10b48c97110b029a68d35c0e013f4a47e61f0c545c49d50745d61f8e1b97189.jpg | EDTA滴定常用指示剂表（离子、介质、终点颜色） | zhao_ch351_edta_indicators.jpg | HIGH | 化学实验 |
 | ab274f7786a599cd4ab17dd5271ff4d184270e95f0adf25f78213a413e05c168.jpg | 标准物质及干燥条件表（用于标定） | zhao_ch351_standard_substances.jpg | HIGH | 化学实验 |
 | ae62a91af5838b145270f968473485c1f917e9df583e5de248e244f1a7f31f2d.jpg | 氧化还原指示剂表（E theta、氧化态/还原态颜色） | zhao_ch351_redox_indicators.jpg | HIGH | 化学实验 |

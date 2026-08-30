@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-A synthesis of the Bristol-Myers Squibb anti-migraine drug Avitriptan (a 5-HT receptor antagonist) involves this palladium-catalysed indole synthesis. Suggest a mechanism and comment on the regioselectivity of the alkyne attachment.
+**【中文】**Bristol-Myers Squibb 公司抗偏头痛药物 Avitriptan（一种 5-HT 受体拮抗剂）的合成中包含图中所示的钯催化吲哚合成反应。请提出其机理，并评论炔烃连接步骤的区域选择性。
+
+**【原文】**A synthesis of the Bristol-Myers Squibb anti-migraine drug Avitriptan (a 5-HT receptor antagonist) involves this palladium-catalysed indole synthesis. Suggest a mechanism and comment on the regioselectivity of the alkyne attachment.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/3a0d122a4d20682a4897850d9378d613f0a1354ffafec0b6a7c8842805b3f0c0.jpg]]
-
-**原文题目**：A synthesis of Avitriptan involves this palladium-catalysed indole synthesis. Suggest a mechanism and comment on the regioselectivity of the alkyne attachment.
 
 ## 参考答案
 

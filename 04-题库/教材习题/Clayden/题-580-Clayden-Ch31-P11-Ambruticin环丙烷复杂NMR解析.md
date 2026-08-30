@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-The structure and stereochemistry of the antifungal antibiotic ambruticin was in part deduced from the NMR spectrum of this simple cyclopropane which forms part of its structure. Interpret the NMR and show how it gives definite information on the stereochemistry.
+**【中文】**抗真菌抗生素 ambruticin 的结构和立体化学，部分是通过推断其结构中这个简单环丙烷片段（见图）的 NMR 谱而确定的。请解析该 NMR 谱，并说明它如何给出关于立体化学的确定性信息。
+
+**【原文】**The structure and stereochemistry of the antifungal antibiotic ambruticin was in part deduced from the NMR spectrum of this simple cyclopropane which forms part of its structure. Interpret the NMR and show how it gives definite information on the stereochemistry.
 
 $\delta_{H}$ 1.21 (3H, d, J 7 Hz), 1.29 (3H, t, J 9), 1.60 (1H, t, J 6), 1.77 (1H, ddq, J 13, 6, 7), 2.16 (1H, dt, J 6, 13), 4.18 (2H, q, J 9), 6.05 (1H, d, J 20), and 6.62 (1H, dd, J 20, 13).
 

@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-The reaction below was expected to give the product A and did indeed give a compound with the correct molecular formula by its mass spectrum. However the NMR spectrum of this product was:
+**【中文】**下面的反应预期生成产物 A，质谱表明确实得到了分子式正确的化合物。然而该产物的 ¹H NMR 谱数据如下（见原文）。尽管这张谱缺少细节，你如何已经可以判断这不是预期的产物？
+
+**【原文】**The reaction below was expected to give the product A and did indeed give a compound with the correct molecular formula by its mass spectrum. However the NMR spectrum of this product was:
 
 δ_H (ppm) 1.27 (6H, s), 1.70 (4H, m), 2.88 (2H, m), 5.4–6.1 (2H, broad s, exchanges with D₂O) and 7.0–7.5 (3H, m).
 

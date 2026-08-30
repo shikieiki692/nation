@@ -23,6 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
+**【中文】**如何利用四种商品化起始原料（苯甲醛、碘乙烷、环戊基溴、CO₂）合成以下三个化合物？
+
+**【原文】**
 How could you use these four commercially available starting materials
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/19413417ed7b8c01f5980fb79ee63e1385bbb8437194836b159d50d53170c7b9.jpg]]
@@ -30,8 +33,6 @@ How could you use these four commercially available starting materials
 to make the following three compounds?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/1e887457003d14bf8ca65c2c73da7f4bc2ba5d5592ad1be6ab25b39e5498cd95.jpg]]
-
-**原文题目**：如何利用四种商品化起始原料（苯甲醛、碘乙烷、环戊基溴、CO₂）合成以下三个化合物？
 
 ## 参考答案
 

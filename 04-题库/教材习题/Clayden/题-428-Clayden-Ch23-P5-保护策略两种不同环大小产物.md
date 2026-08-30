@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-How would you convert this nitro compound into the two products shown? Explain the order of events with special regard for reduction steps.
+**【中文】**你会如何把这个硝基化合物转化为图中所示的两种产物？请解释各步的先后顺序，特别注意还原步骤。
+
+**【原文】**How would you convert this nitro compound into the two products shown? Explain the order of events with special regard for reduction steps.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/1e7c78a8530919faf130fe16e6f0cf9f993cad9ccb18b56abc2b34f67c64d490.jpg]]
 

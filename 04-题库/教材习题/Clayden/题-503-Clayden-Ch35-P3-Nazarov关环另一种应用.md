@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-Give mechanisms for this alternative synthesis of two fused five-membered rings.
+**【中文】**给出这个合成两个稠合五元环的替代路线的机理。（反应式见图）
+
+**【原文】**Give mechanisms for this alternative synthesis of two fused five-membered rings.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/4bb09cac695ef9750a620957dfda81c72d9925a16d1f226f5539f03f37f8cc8c.jpg]]
 

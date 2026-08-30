@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-A single enantiomer of the epoxide below rearranges with Lewis acid catalysis to give a single enantiomer of the product. Suggest a mechanism and comment on the stereochemistry.
+**【中文】**下面环氧化物的单一对映体在 Lewis 酸催化下重排，生成单一对映体的产物（见图）。请提出机理并评述其立体化学。
+
+**【原文】**A single enantiomer of the epoxide below rearranges with Lewis acid catalysis to give a single enantiomer of the product. Suggest a mechanism and comment on the stereochemistry.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/71cfe937f6a39aed8a0b9e9b743a4f3e67101c672dcc2b457e002646ea1de276.jpg]]
 

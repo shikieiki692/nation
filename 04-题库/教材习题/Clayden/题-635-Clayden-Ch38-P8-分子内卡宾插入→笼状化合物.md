@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Explain how this highly strained ketone is formed, albeit in very low yield, by these reactions. How would you attempt to make the starting material?
+**【中文】**解释这个高度张力的酮是如何通过这些反应生成的（尽管产率很低）。你会如何尝试合成其起始原料？（分子内卡宾插入是构建笼状化合物的有力方法。）（反应式见图）
+
+**【原文】**Explain how this highly strained ketone is formed, albeit in very low yield, by these reactions. How would you attempt to make the starting material? (Intramolecular carbene insertion is a powerful way to make cage compounds.)
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/81c39fba9c75474acde254df9a7cc4baa956e8728fcc3b05f92387db79c96963.jpg]]
-
-**原文题目**：Explain how this highly strained ketone is formed, albeit in very low yield, by these reactions. How would you attempt to make the starting material? (Intramolecular carbene insertion is a powerful way to make cage compounds.)
 
 ## 参考答案
 

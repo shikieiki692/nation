@@ -23,11 +23,12 @@ pack: 模块习题集
 
 ## 题目
 
+**【中文】**这个反应的两种可能异构产物是什么？你预期哪种结构占主要？每种的溴化产物是什么？
+
+**【原文】**
 What are the two possible isomeric products of this reaction? Which structure do you expect to predominate? What would be the bromination product from each?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/eaa7f45277f993606e4f6b66e69daa842eed0d3ab76f9eeb769b30b7f4d5df3c.jpg]]
-
-**原文题目**：这个反应的两种可能异构产物是什么？你预期哪种结构占主要？每种的溴化产物是什么？
 
 ## 参考答案
 

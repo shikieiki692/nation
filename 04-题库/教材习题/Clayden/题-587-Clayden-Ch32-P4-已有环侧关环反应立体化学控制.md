@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-What controls the stereochemistry of this product? You are advised to draw the mechanism first and then consider the stereochemistry.
+**【中文】**是什么控制了该产物（见图）的立体化学？建议你先画出机理，再考虑立体化学问题。
+
+**【原文】**What controls the stereochemistry of this product? You are advised to draw the mechanism first and then consider the stereochemistry.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/c157eb0db105a7ded3e35d0b270cce606b0573005fc8a49e954e9ddd3d3b2f6c.jpg]]
 

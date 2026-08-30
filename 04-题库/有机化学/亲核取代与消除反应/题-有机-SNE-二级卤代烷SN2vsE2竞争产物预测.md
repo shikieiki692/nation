@@ -33,7 +33,7 @@ pack: 模块习题集
 - **(C)** $\mathrm{NaOCH_3}$ 在 $\mathrm{CH_3OH}$ 中，$60^\circ\mathrm{C}$
 
 
-![[sn2-reaction.svg]]
+![[1e2054db7436bf3a08ada50660c715d8bfb4db2a177436c3f3fa74541e112b65.svg]]
 
 ## 参考答案
 

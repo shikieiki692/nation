@@ -23,13 +23,13 @@ pack: 模块习题集
 
 ## 题目
 
-The hydrolysis of this oxaziridine in 0.1M sulfuric acid has k(H₂O)/k(D₂O) = 0.7 and an entropy of activation of ΔS‡ = -76 J mol⁻¹ K⁻¹. Suggest a mechanism.
+**【中文】**该氧氮杂环丙烷（oxaziridine）在 0.1 M 硫酸中的水解具有 k(H₂O)/k(D₂O) = 0.7 的溶剂同位素效应，活化熵 ΔS‡ = -76 J mol⁻¹ K⁻¹。请提出一个机理。（反应式见下）
+
+**【原文】**The hydrolysis of this oxaziridine in 0.1M sulfuric acid has k(H₂O)/k(D₂O) = 0.7 and an entropy of activation of ΔS‡ = -76 J mol⁻¹ K⁻¹. Suggest a mechanism.
 
 $$
 \mathrm{Ph} \xrightarrow{\mathrm{O}} \mathrm{N-}t\text{-Bu} \xrightarrow[\mathrm{H_2O}]{\mathrm{H^+}} \text{PhCHO} + t\text{-BuNHOH}
 $$
-
-**原文题目**：The hydrolysis of an oxaziridine has k(H₂O)/k(D₂O) = 0.7 (inverse KIE) and ΔS‡ = -76 J mol⁻¹ K⁻¹. Suggest a mechanism consistent with these data.
 
 ## 参考答案
 

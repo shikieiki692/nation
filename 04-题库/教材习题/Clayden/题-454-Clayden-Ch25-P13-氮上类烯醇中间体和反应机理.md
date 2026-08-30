@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Give the structures of the intermediates in the following reaction sequence and mechanisms for the reactions.
+**【中文】**给出下列反应序列（见图）中各中间体的结构，并给出各反应的机理。
+
+**【原文】**Give the structures of the intermediates in the following reaction sequence and mechanisms for the reactions.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/d354a1b040e4727178a03a13c60eb2013eb40ab7b475a65b9669daf2030fa533.jpg]]
-
-**原文题目**：Give the structures of the intermediates in the following reaction sequence and mechanisms for the reactions.
 
 ## 参考答案
 

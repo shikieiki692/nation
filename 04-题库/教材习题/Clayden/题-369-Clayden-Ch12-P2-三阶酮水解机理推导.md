@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-This reaction shows third-order kinetics as the rate expression is
+**【中文】**该反应呈现三级动力学，速率表达式为 rate = [ketone][HO⁻]²（见下式）。为该反应提出机理。（反应式见图）
+
+**【原文】**This reaction shows third-order kinetics as the rate expression is
 
 $$
 \text{rate} = [\text{ketone}][\text{HO}^-]^2
@@ -32,8 +34,6 @@ $$
 Suggest a mechanism for the reaction.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/f2e943e5337b783a6767e3c824bdec292e67d7324398037e686f1966ca71a177.jpg]]
-
-**原文题目**：This reaction shows third-order kinetics as the rate expression is rate = [ketone][HO⁻]². Suggest a mechanism for the reaction.
 
 ## 参考答案
 

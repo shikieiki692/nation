@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-How would you carry out the first step in this sequence? Give a mechanism for the second step and suggest an explanation for the stereochemistry. You may find that a Newman projection helps.
+**【中文】**你将如何完成这一序列中的第一步？给出第二步的机理，并对其立体化学提出解释。你会发现 Newman 投影（纽曼投影）可能有所帮助。（反应式见图）
+
+**【原文】**How would you carry out the first step in this sequence? Give a mechanism for the second step and suggest an explanation for the stereochemistry. You may find that a Newman projection helps.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/9e926da5a622ae8f30e6cbbaeaa8f3d79579b53bb1d5c1d499428d13659023c0.jpg]]
 

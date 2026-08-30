@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-Explain how these reactions give different isomers of the same product.
+**【中文】**解释这些反应（见图）为何给出同一产物的不同异构体。
+
+**【原文】**Explain how these reactions give different isomers of the same product.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/f27c60a790165bcc000619196a8f34ec399250ed90e3d00bc58a9d57f6068ead.jpg]]
 

@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Explain the stereochemistry and mechanism in the synthesis of the chiral auxiliary 8-phenylmenthol from (+)-pulegone. After the reaction with Na in i-PrOH, what is the minor (13%) component of the mixture?
+**【中文】**请解释由 (+)-胡薄荷酮（(+)-pulegone）合成手性辅基 8-苯基薄荷醇（8-phenylmenthol）过程中的立体化学和机理。在用 Na 的 i-PrOH 溶液反应之后，混合物中的少量组分（13%）是什么？（反应式见图）
+
+**【原文】**Explain the stereochemistry and mechanism in the synthesis of the chiral auxiliary 8-phenylmenthol from (+)-pulegone. After the reaction with Na in i-PrOH, what is the minor (13%) component of the mixture?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/cd4e50be487e9dc0bf67ded50d83f046f4c996df18a79b8e6ceca7f4a6be398d.jpg]]
-
-**原文题目**：Explain the stereochemistry and mechanism in the synthesis of the chiral auxiliary 8-phenylmenthol from (+)-pulegone. After the reaction with Na in i-PrOH, what is the minor (13%) component of the mixture?
 
 ## 参考答案
 

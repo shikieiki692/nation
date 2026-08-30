@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-Treatment of this epoxy-ketone with tosyl hydrazine gives a compound with the spectra shown below. What is its structure?
+**【中文】**图中所示的环氧酮与对甲苯磺酰肼（tosyl hydrazine）反应，得到一个化合物，其波谱数据如下。它的结构是什么？m/z 138 (M⁺, 12%)、109 (56%)、95 (100%)、81 (83%)、82 (64%)、79 (74%)；IR 3290、2115、1710 cm⁻¹；δH（ppm，CDCl₃ 中）1.12 (6H, s)、2.02 (1H, t, J 3 Hz)、2.15 (3H, s)、2.28 (2H, d, J 3 Hz)、2.50 (2H, s)；δC（ppm，CDCl₃ 中）26、31、32、33、52、71、82、208。本题目的：进一步练习结构确定，其中包含一个反常的化学位移。
+
+**【原文】**Treatment of this epoxy-ketone with tosyl hydrazine gives a compound with the spectra shown below. What is its structure?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/d23280442b7c221d9b91ea580838e713785b9ad4c259ec1b8b00d938d5257e50.jpg]]
 

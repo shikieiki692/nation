@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-Reaction of the epoxy-alcohol below with LiBr in toluene gave a 92% yield of compound A. Suggest a structure for this compound from the data:
+**【中文】**图中所示的环氧醇与 LiBr 在甲苯中反应，以 92% 的产率得到化合物 A。请根据以下数据推测该化合物的结构：质谱给出分子式 C₈H₁₂O；νmax (cm⁻¹) 1685、1618；δH (ppm) 1.26 (6H, s)、1.83 (2H, t, J 7 Hz)、2.50 (2H, dt, J 2.6, 7 Hz)、6.78 (1H, t, J 2.6 Hz)、9.82 (1H, s)；δC (ppm) 189.2、153.4、152.7、43.6、40.8、30.3、25.9。本题目的：进一步练习结构确定，其中涉及碳骨架的变化——一次环收缩（ring contraction）。
+
+**【原文】**Reaction of the epoxy-alcohol below with LiBr in toluene gave a 92% yield of compound A. Suggest a structure for this compound from the data:
 
 mass spectrum gives C₈H₁₂O;
 

@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-The Hammett ρ value for migrating aryl groups in the acid-catalysed Beckmann rearrangement is -2.0. What does that tell us about the rate-determining step?
+**【中文】**酸催化 Beckmann 重排（Beckmann rearrangement）中，迁移芳基的 Hammett ρ 值为 -2.0。这告诉我们关于决速步的什么信息？（结构式见图）
+
+**【原文】**The Hammett ρ value for migrating aryl groups in the acid-catalysed Beckmann rearrangement is -2.0. What does that tell us about the rate-determining step?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/e92af6b7a99955a4021f2aa69c2d49970dcfbd5eb07d0eb60be437e247579df7.jpg]]
-
-**原文题目**：The Hammett ρ value for migrating aryl groups in the acid-catalysed Beckmann rearrangement is -2.0. What does that tell us about the rate-determining step?
 
 ## 参考答案
 

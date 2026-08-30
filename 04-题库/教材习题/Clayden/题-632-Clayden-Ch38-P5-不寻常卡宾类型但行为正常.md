@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Suggest a mechanism for the formation of this cyclopropane.
+**【中文】**为这个环丙烷的形成提出机理。（这是一种不寻常的卡宾类型，但其行为表现正常。）（反应式见图）
+
+**【原文】**Suggest a mechanism for the formation of this cyclopropane. (An unusual type of carbene but it behaves normally.)
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/1e15d0b46c99eba57b695c947a53e70bc3fc3166788a28a1733e717c53b26399.jpg]]
-
-**原文题目**：Suggest a mechanism for the formation of this cyclopropane. (An unusual type of carbene but it behaves normally.)
 
 ## 参考答案
 

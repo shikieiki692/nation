@@ -23,13 +23,13 @@ pack: 模块习题集
 
 ## 题目
 
-These two reactions of diazo compounds with carboxylic acids give gaseous nitrogen and esters as products. In both cases the rate of reaction is proportional to [diazo compound][RCO₂H]. Use the data for each reaction to suggest mechanisms and comment on the difference between them.
+**【中文】**重氮化合物与羧酸的这两个反应都生成气态氮气和酯作为产物。两种情况下反应速率均正比于 [重氮化合物][RCO₂H]。请利用每个反应的数据提出机理，并评述两者之间的差异。（反应式见图）
+
+**【原文】**These two reactions of diazo compounds with carboxylic acids give gaseous nitrogen and esters as products. In both cases the rate of reaction is proportional to [diazo compound][RCO₂H]. Use the data for each reaction to suggest mechanisms and comment on the difference between them.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/73191cd339166a8cdd4c97e86fbef0d44a6684fb34765cf89db5567ea7f36c47.jpg]]
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/e9179f11d9471acb78c31d7615f8f00c64fa3d6493908c07dda512c49a94585f.jpg]]
-
-**原文题目**：Compare the kinetic isotope effects for two diazo compound reactions with carboxylic acids and propose mechanisms consistent with the data.
 
 ## 参考答案
 
@@ -59,7 +59,7 @@ The second reaction follows much the same pathway except that loss of nitrogen i
 
 **Reaction 1：正常 KIE → 质子转移是决速步**
 
-正常 KIE (k_H/k_D > 1) 意味着 O-H 键的断裂发生在决速步中。机理如下：
+正常 KIE ($k_\mathrm{H}$/$k_\mathrm{D}$ > 1) 意味着 O-H 键的断裂发生在决速步中。机理如下：
 
 1. 重氮化合物的碳被羧酸的质子化（**决速步**）→ O-H 键断裂，形成碳正离子
 2. 碳正离子失去 N₂ → 生成卡宾等效体
@@ -69,7 +69,7 @@ The second reaction follows much the same pathway except that loss of nitrogen i
 
 **Reaction 2：逆 KIE → 质子化是快速平衡**
 
-逆 KIE (k_H/k_D < 1) 意味着 O-H 键的断裂/形成发生在快速平衡中（决速步之前）。机理如下：
+逆 KIE ($k_\mathrm{H}$/$k_\mathrm{D}$ < 1) 意味着 O-H 键的断裂/形成发生在快速平衡中（决速步之前）。机理如下：
 
 1. 重氮化合物被羧酸质子化（**快速平衡**）→ 质子化是可逆的
 2. 羧酸根通过 SN2 进攻质子化的碳，同时 N₂ 离去（**决速步**）

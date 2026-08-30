@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-Revision problem. Give mechanisms for each step in this synthesis and explain any regio- or stereochemistry.
+**【中文】**复习题。给出这一合成（见图）中每一步的机理，并解释其中涉及的任何区域选择性或立体化学。
+
+**【原文】**Revision problem. Give mechanisms for each step in this synthesis and explain any regio- or stereochemistry.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/bdbb608e10038fc89db737e95366aec44947f41cd62c99ceb025881972cf12e2.jpg]]
 

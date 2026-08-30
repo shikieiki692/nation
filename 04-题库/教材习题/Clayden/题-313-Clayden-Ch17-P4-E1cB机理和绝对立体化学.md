@@ -23,15 +23,14 @@ pack: 模块习题集
 
 ## 题目
 
+**【中文】**解释这些反应产物中烯烃的位置。起始原料是光学纯的。产物是否也是光学纯的？
+
+**【原文】**
 Explain the position of the alkene in the products of these reactions. The starting materials are enantiomerically pure. Are the products also enantiomerically pure?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/3c7395ff0357434f0be99ee61f163d6cdf83d63002e2b77840a87918b1ac5715.jpg]]
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/cf089cd29c12757ce476b450d7c8041e3876b4f4cb0b9600c71f9134907e322b.jpg]]
-
-**原文题目**：
-
-解释这些反应产物中烯烃的位置。起始原料是光学纯的。产物是否也是光学纯的？
 
 ## 参考答案
 

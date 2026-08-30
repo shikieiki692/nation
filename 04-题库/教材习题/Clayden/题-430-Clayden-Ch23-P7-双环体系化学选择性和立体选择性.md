@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-Account for the chemoselectivity of the first reaction and the stereoselectivity of the second. A conformational drawing of the intermediate is essential.
+**【中文】**解释第一个反应的化学选择性和第二个反应的立体选择性（见图）。必须画出中间体的构象图。
+
+**【原文】**Account for the chemoselectivity of the first reaction and the stereoselectivity of the second. A conformational drawing of the intermediate is essential.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/34b39bbfd8b9a9a6658fec3c1a8c5fdcfa459ecb2dc3e63209b4678d9ad8c140.jpg]]
 

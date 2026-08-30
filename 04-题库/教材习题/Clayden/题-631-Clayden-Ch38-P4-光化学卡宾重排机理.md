@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Suggest a mechanism for this ring contraction.
+**【中文】**为这个环收缩（ring contraction）反应提出机理。（练习为一个涉及光化学产生的卡宾的重排反应绘制机理。）（反应式见图）
+
+**【原文】**Suggest a mechanism for this ring contraction. (Drawing mechanisms for a rearrangement involving a carbene formed photochemically.)
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/a033b2d46d91d4a2a855ce8a14607764ed78d06c7c92b4f168e5ec9135aaceb4.jpg]]
-
-**原文题目**：Suggest a mechanism for this ring contraction. (Drawing mechanisms for a rearrangement involving a carbene formed photochemically.)
 
 ## 参考答案
 

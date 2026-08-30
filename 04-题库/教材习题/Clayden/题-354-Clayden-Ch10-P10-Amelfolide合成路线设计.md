@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Amelfolide is a drug used to treat cardiac arrhythmia. Suggest how it could be made from 4-nitrobenzoic acid and 2,5-dimethylaniline.
+**【中文】**Amelfolide 是一种用于治疗心律失常的药物。提出如何以 4-硝基苯甲酸和 2,5-二甲基苯胺为原料合成它。（结构见图）
+
+**【原文】**Amelfolide is a drug used to treat cardiac arrhythmia. Suggest how it could be made from 4-nitrobenzoic acid and 2,5-dimethylaniline.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/9be1d15280d1433d96ef7c56b85373ff494364fb7edc83ce5ec82a871c67070f.jpg]]
-
-**原文题目**：Amelfolide is a drug used to treat cardiac arrhythmia. Suggest how it could be made from 4-nitrobenzoic acid and 2,5-dimethylaniline.
 
 ## 参考答案
 

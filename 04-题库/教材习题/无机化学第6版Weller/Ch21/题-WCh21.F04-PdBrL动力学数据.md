@@ -25,7 +25,7 @@ exam_stage: 初赛
 
 ## 题目
 
-图 21.24(J. B. Goddard and F. Basolo, Inorg. Chem., 1968, 7, 936) 示出 $[PdBrL]^{+}$ 与各种 $Y^{-}$ 反应生成 $[PdYL]^{+}$ （反应物和产物中的 L 为 $Et_{2}NCH_{2}CH_{2}NHCH_{2}CH_{2}NEt_{2}$ ）的表观一级速率常数。注意 $S_{2}O_{3}^{2-}$ 的大斜率和 $Y^{-}=N_{3}^{-}$ 、 $I^{-}$ 、 $NO_{2}^{-}$ 和 $SCN^{-}$ 时的零斜率。试提出一种反应机理。
+图 21.24(J. B. Goddard and F. Basolo, Inorg. Chem., 1968, 7, 936) 示出 PdBrL 正离子与各种 Y 负离子反应生成 PdYL 正离子（反应物和产物中的 L 为 Et2NCH2CH2NHCH2CH2NEt2）的表观一级速率常数。注意 S2O3 2- 的大斜率和 Y 负离子为 N3-、I-、NO2- 和 SCN- 时的零斜率。试提出一种反应机理。
 
 ![](无机化学第6版Welle19-21章_images/2c2127442ba313530f9273fae094337d53fdb6b3b73809229b44a7ca2b1febf4.jpg)
 

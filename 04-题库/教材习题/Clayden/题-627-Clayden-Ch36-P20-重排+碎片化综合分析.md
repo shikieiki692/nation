@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Revision content. Suggest mechanisms for these reactions to explain the stereochemistry.
+**【中文】**复习内容。为这些反应提出机理，以解释其中的立体化学。（结构式见图）
+
+**【原文】**Revision content. Suggest mechanisms for these reactions to explain the stereochemistry.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/fa8cf15a7f8dd0d25191e436c57436199b7d0103da842e3faddee25ecb6c1905.jpg]]
-
-**原文题目**：Revision content. Suggest mechanisms for these reactions to explain the stereochemistry.
 
 ## 参考答案
 

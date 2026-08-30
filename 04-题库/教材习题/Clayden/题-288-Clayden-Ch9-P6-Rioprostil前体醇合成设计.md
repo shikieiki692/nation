@@ -23,6 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
+**【中文】**胃酸分泌抑制药物 Rioprostil 的合成需要这种醇。(a) 提出从酮和有机金属试剂出发的可能合成路线。(b) 提出(a)中各酮从醛和有机金属试剂出发的合成路线（别忘了 CrO₃ 氧化）。
+
+**【原文】**
 The synthesis of the gastric antisecretory drug rioprostil requires this alcohol.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/c12515a7b2ac10691f3611b6b9313a5fd2a788088256091e00920fdfe60e93ca.jpg]]
@@ -30,8 +33,6 @@ The synthesis of the gastric antisecretory drug rioprostil requires this alcohol
 (a) Suggest possible syntheses starting from ketones and organometallics.
 
 (b) Suggest possible syntheses of the ketones in part (a) from aldehydes and organometallics (don't forget about CrO₃ oxidation).
-
-**原文题目**：胃酸分泌抑制药物 Rioprostil 的合成需要这种醇。(a) 提出从酮和有机金属试剂出发的可能合成路线。(b) 提出(a)中各酮从醛和有机金属试剂出发的合成路线（别忘了 CrO₃ 氧化）。
 
 ## 参考答案
 

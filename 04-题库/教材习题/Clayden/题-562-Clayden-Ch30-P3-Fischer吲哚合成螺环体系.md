@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Suggest mechanisms for this unusual indole synthesis. How does the second mechanism relate to electrophilic substitution on indoles?
+**【中文】**请为图中所示的这个不寻常的吲哚合成提出机理。第二步反应的机理与吲哚上的亲电取代有何关联？
+
+**【原文】**Suggest mechanisms for this unusual indole synthesis. How does the second mechanism relate to electrophilic substitution on indoles?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/ac34efe6e0243c3ad47cc19e65e75975b7972242c60f076287084fa72e7f703e.jpg]]
-
-**原文题目**：Suggest mechanisms for this unusual indole synthesis involving a Fischer indole synthesis with a spiro ring system, followed by a Lewis acid-mediated rearrangement.
 
 ## 参考答案
 

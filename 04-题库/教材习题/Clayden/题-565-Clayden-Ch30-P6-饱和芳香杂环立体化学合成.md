@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Give mechanisms for these reactions used to prepare a fused pyridine. Why is it necessary to use a protecting group?
+**【中文】**请给出图中所示这些用于制备稠合吡啶（fused pyridine）的反应的机理。为什么必须使用保护基？
+
+**【原文】**Give mechanisms for these reactions used to prepare a fused pyridine. Why is it necessary to use a protecting group?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/b9b1c594716f93443884f32cb86f6e1abd500d2f065b519349a1d6f8427ecada.jpg]]
-
-**原文题目**：Give mechanisms for these reactions used to prepare a fused pyridine from a cyclic enamine. Why is it necessary to use a protecting group?
 
 ## 参考答案
 

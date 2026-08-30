@@ -23,15 +23,14 @@ pack: 模块习题集
 
 ## 题目
 
+**【中文】**为羧酸（如环己烷羧酸）用 NaNO₂/HCl 亚硝化生成肟的反应提出机理，包括不寻常的脱羧步骤：
+
+**【原文】**
 Propose a mechanism for the nitrosation of a carboxylic acid (e.g., cyclohexanecarboxylic acid) with NaNO₂/HCl to give an oxime, including the unusual decarboxylation step:
 
 R-COOH + NaNO₂ + HCl → R-C(=NOH)-H (oxime) + CO₂
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/23a1e469bad9116d8564a3cee6bfc600165863d6ea356a751ef051b95d1dd71a.jpg]]
-
-**原文题目**：
-
-为羧酸（如环己烷羧酸）用 NaNO₂/HCl 亚硝化生成肟的反应提出机理，包括不寻常的脱羧步骤：
 
 R-COOH + NaNO₂ + HCl → R-C(=NOH)-H（肟）+ CO₂
 

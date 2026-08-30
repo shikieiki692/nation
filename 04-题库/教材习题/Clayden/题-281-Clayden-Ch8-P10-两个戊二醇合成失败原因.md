@@ -23,11 +23,12 @@ pack: 模块习题集
 
 ## 题目
 
+**【中文】**解释为什么戊-1,4-二醇的合成在两种情况下失败：(1) 使用2当量的Grignard试剂，(2) 使用过量的Grignard试剂。OH（pKa ~ 16）会质子化Grignard试剂。
+
+**【原文】**
 Explain why the synthesis of pentan-1,4-diol fails in two cases: (1) using 2 equivalents of Grignard, (2) using excess Grignard. OH (pKa ~ 16) protonates Grignard reagent.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/3ad8c56813b6a5be5d9f7045a4c08d1f7fc5dcd92cf1a091f7fc60277e484402.jpg]]
-
-**原文题目**：解释为什么戊-1,4-二醇的合成在两种情况下失败：(1) 使用2当量的Grignard试剂，(2) 使用过量的Grignard试剂。OH（pKa ~ 16）会质子化Grignard试剂。
 
 ## 参考答案
 

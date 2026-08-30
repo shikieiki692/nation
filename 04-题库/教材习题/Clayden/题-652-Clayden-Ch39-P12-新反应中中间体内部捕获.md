@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Suggest mechanisms for these reactions and comment on their relevance to the Favorskii family of mechanisms.
+**【中文】**为这些反应提出机理，并评述它们与 Favorskii 重排（Favorskii rearrangement）机理家族的关系。（反应式见图）
+
+**【原文】**Suggest mechanisms for these reactions and comment on their relevance to the Favorskii family of mechanisms.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/fc651cac79df0a8a577616911b2590d188f7f58f51122001df52a2a3a4736e9c.jpg]]
-
-**原文题目**：Suggest mechanisms for three reactions involving bromoketones and base, and comment on their relevance to the Favorskii rearrangement.
 
 ## 参考答案
 
@@ -37,7 +37,7 @@ Suggest mechanisms for these reactions and comment on their relevance to the Fav
 
 The bromination occurs on the alkene to give a dibromide. Then the standard Favorskii mechanism applies until the last step: opening of the cyclopropane provides electrons to eliminate the second bromide and restore the alkene.
 
-📌 **图片待补：** abc320bfd872f0c7557cbfb1620cb10350d0a4c4ffd82608aac89187a4c53e4e.jpg
+![[abc320bfd872f0c7557cbfb1620cb10350d0a4c4ffd82608aacd9187a4c53e4e.jpg]]
 
 The stereochemistry of the initial bromination turns out to be irrelevant as it disappears when the oxyallyl cation is formed. The disrotatory closure of the oxyallyl cation goes preferentially one way with the H and CMe₂Br substituents going upwards.
 

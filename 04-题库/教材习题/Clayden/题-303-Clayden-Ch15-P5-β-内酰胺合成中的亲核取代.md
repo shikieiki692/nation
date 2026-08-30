@@ -23,14 +23,13 @@ pack: 模块习题集
 
 ## 题目
 
+**【中文】**为β-内酰胺（四元环酰胺）的合成提出机理，涉及两种亲核取代反应：
+
+**【原文】**
 Propose a mechanism for the synthesis of a β-lactam (four-membered cyclic amide) involving two nucleophilic substitutions:
 
 1. An SN2 displacement at a primary carbon
 2. A nucleophilic substitution at a carbonyl carbon by an NH₂ group
-
-**原文题目**：
-
-为β-内酰胺（四元环酰胺）的合成提出机理，涉及两种亲核取代反应：
 
 1. 伯碳上的SN2取代
 2. NH₂基团对羰基碳的亲核取代

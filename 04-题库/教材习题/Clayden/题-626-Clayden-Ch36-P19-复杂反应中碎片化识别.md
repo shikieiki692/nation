@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-What steps would be necessary to carry out an Eschenmoser fragmentation on this ketone, and what products would be formed?
+**【中文】**要对这个酮实施 Eschenmoser 碎片化（Eschenmoser fragmentation），需要哪些步骤？会生成什么产物？（结构式见图）
+
+**【原文】**What steps would be necessary to carry out an Eschenmoser fragmentation on this ketone, and what products would be formed?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/73d832db41168fc5b0ca9fca60cce9cb9c0ce78f452fe3dd60963bfa2978ffab.jpg]]
-
-**原文题目**：What steps would be necessary to carry out an Eschenmoser fragmentation on this ketone, and what products would be formed?
 
 ## 参考答案
 

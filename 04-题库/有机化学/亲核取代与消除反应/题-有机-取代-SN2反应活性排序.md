@@ -31,7 +31,7 @@ pack: 章节练习
 （5）$\ce{CH3CH2CH2Br}$（1-溴丙烷）
 
 
-![[sn2-reaction.svg]]
+![[1e2054db7436bf3a08ada50660c715d8bfb4db2a177436c3f3fa74541e112b65.svg]]
 
 ## 参考答案
 

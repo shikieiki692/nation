@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Propose three fundamentally different mechanisms (other than variations of the same mechanism with different kinds of catalysis) for this reaction. How would (a) D labelling and (b) $^{18}$O labelling help to distinguish the mechanisms? What other experiments would you carry out to rule out some of these mechanisms?
+**【中文】**为这个反应提出三种本质上不同的机理（不能只是同一机理在不同催化方式下的变体）。(a) 氘（D）标记和 (b) ¹⁸O 标记分别能如何帮助区分这些机理？你还会进行哪些其他实验来排除其中的一些机理？（反应式见图）
+
+**【原文】**Propose three fundamentally different mechanisms (other than variations of the same mechanism with different kinds of catalysis) for this reaction. How would (a) D labelling and (b) ¹⁸O labelling help to distinguish the mechanisms? What other experiments would you carry out to rule out some of these mechanisms?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/be2fd9f549d576b70e95a894d76f510276f48d6c743c28c1b82ffe5150cb7154.jpg]]
-
-**原文题目**：Propose three fundamentally different mechanisms for this ester hydrolysis reaction. Use D labelling and $^{18}$O labelling to distinguish them. Suggest other experiments.
 
 ## 参考答案
 
@@ -52,8 +52,8 @@ Hydroxide acts as a base to form an enolate from the ester, which undergoes elim
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/089ff4747e86e932f3a3e44e69ba3e1b18480c24198f7b36afe3b42a01f9c899.jpg]]
 
-- **D labelling**: Mechanism 3 requires exchange of at least one hydrogen with solvent. Using D$_2$O or deuterated starting material would show deuterium incorporation for mechanism 3, but not for mechanisms 1 or 2.
-- **$^{18}$O labelling**: In mechanisms 1 and 3, the added OH ends up in CO$_2$H; in mechanism 2, it ends up in the phenol. Using H$_2^{18}$O or labelling the ester oxygen as $^{18}$O separates mechanisms 1/3 from mechanism 2.
+- **D labelling**: Mechanism 3 requires exchange of at least one hydrogen with solvent. Using D₂O or deuterated starting material would show deuterium incorporation for mechanism 3, but not for mechanisms 1 or 2.
+- **¹⁸O labelling**: In mechanisms 1 and 3, the added OH ends up in CO₂H; in mechanism 2, it ends up in the phenol. Using H$_2^{18}$O or labelling the ester oxygen as ¹⁸O separates mechanisms 1/3 from mechanism 2.
 
 **Other experiments**: Trap the ketene intermediate via [2+2] cycloaddition; study reaction by UV to detect p-nitrophenolate release; change substrate structure to block certain mechanisms; measure substituent effects on rate; look for deuterium isotope effect.
 

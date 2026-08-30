@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-Consider the question of Baldwin's rules for each of these reactions. Why do you think they are both successful?
+**【中文】**针对以下每个反应（见图）考察 Baldwin 规则的适用性。你认为这两个反应为何都能成功发生？
+
+**【原文】**Consider the question of Baldwin's rules for each of these reactions. Why do you think they are both successful?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/8b7102b164c0d42dfbfac6d4c255a97f927702e6c1c957b6383ffe2f852c81d9.jpg]]
 

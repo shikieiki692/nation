@@ -23,11 +23,12 @@ pack: 模块习题集
 
 ## 题目
 
+**【中文】**下面的硝基化合物是合成止吐药所需的。有人提议通过硝化所示烃来制备。你认为这会成功吗？
+
+**【原文】**
 The nitro compound below was needed for the synthesis of an anti-emetic drug. It was proposed to make it by nitration of the hydrocarbon shown. How successful do you think this would be?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/12b83ce1e331b4f3e730ecb9fc9bb9b4a7b974f87073f1929ff6dadc151186dd.jpg]]
-
-**原文题目**：下面的硝基化合物是合成止吐药所需的。有人提议通过硝化所示烃来制备。你认为这会成功吗？
 
 ## 参考答案
 

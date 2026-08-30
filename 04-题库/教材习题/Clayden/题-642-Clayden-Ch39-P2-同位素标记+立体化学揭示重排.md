@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Explain the stereochemistry and labelling pattern in this reaction.
+**【中文】**解释这个反应中的立体化学和同位素标记分布规律。（反应式见图）
+
+**【原文】**Explain the stereochemistry and labelling pattern in this reaction.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/900a4fbabca19775882ab781f58434af311578c715d48b6c984d2ada9acd9f3f.jpg]]
-
-**原文题目**：Explain the stereochemistry and labelling pattern in the reaction of an allylic acetate with labeled methyl group under thermal conditions.
 
 ## 参考答案
 

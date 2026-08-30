@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Give mechanisms for the steps in this conversion of a five- into a six-membered aromatic heterocycle.
+**【中文】**为这个由五元芳香杂环转化为六元芳香杂环的各步反应给出机理。（展示卡宾化学在杂环合成中的用途。）（反应式见图）
+
+**【原文】**Give mechanisms for the steps in this conversion of a five- into a six-membered aromatic heterocycle. (Carbene chemistry to show its usefulness in heterocyclic synthesis.)
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/37b3b1f22c8d0b729585e8c62ef312f483693511b3334644cbc5c7a1f0e092d1.jpg]]
-
-**原文题目**：Give mechanisms for the steps in this conversion of a five- into a six-membered aromatic heterocycle. (Carbene chemistry to show its usefulness in heterocyclic synthesis.)
 
 ## 参考答案
 

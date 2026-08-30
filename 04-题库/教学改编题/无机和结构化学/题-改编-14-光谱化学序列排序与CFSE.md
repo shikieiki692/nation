@@ -28,7 +28,7 @@ $$\text{I}^- < \text{Br}^- < \text{Cl}^- < \text{F}^- < \text{OH}^- < \text{H}_2
 
 (a) 请将以下配体按场强由弱到强排序：$\text{SCN}^-$、$\text{NH}_3$、$\text{CN}^-$、$\text{Cl}^-$、$\text{H}_2\text{O}$。已知 $\text{SCN}^-$（以 S 配位）位于 $\text{Br}^-$ 与 $\text{Cl}^-$ 之间。
 
-(b) 对于 $d^6$ 构型的 Co$^{3+}$ 离子，分别计算在弱场配体 $\text{H}_2\text{O}$ 和强场配体 $\text{NH}_3$ 场中的 CFSE（晶体场稳定化能），假设 $\Delta_o(\text{H}_2\text{O}) = 18{,}600\ \text{cm}^{-1}$，$\Delta_o(\text{NH}_3) = 22{,}900\ \text{cm}^{-1}$，电子成对能 $P = 21{,}000\ \text{cm}^{-1}$。判断两种情况下的自旋态。
+(b) 对于 $d^6$ 构型的 Co³⁺ 离子，分别计算在弱场配体 $\text{H}_2\text{O}$ 和强场配体 $\text{NH}_3$ 场中的 CFSE（晶体场稳定化能），假设 $\Delta_o(\text{H}_2\text{O}) = 18{,}600\ \text{cm}^{-1}$，$\Delta_o(\text{NH}_3) = 22{,}900\ \text{cm}^{-1}$，电子成对能 $P = 21{,}000\ \text{cm}^{-1}$。判断两种情况下的自旋态。
 
 (c) 实验测得 [Co(H₂O)₆]³⁺ 为高自旋（磁矩约 5.0 B.M.），而 [Co(NH₃)₆]³⁺ 为低自旋（磁矩约 0 B.M.）。请解释这一现象，并说明光谱化学序列在此判断中的作用。
 

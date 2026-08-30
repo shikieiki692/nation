@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Explain why both these tricyclic ketones fragment to the same diastereoisomer of the same cyclo-octane.
+**【中文】**解释为什么这两个三环酮碎片化后都生成同一个环辛烷（cyclo-octane）的同一个非对映异构体。（结构式见图）
+
+**【原文】**Explain why both these tricyclic ketones fragment to the same diastereoisomer of the same cyclo-octane.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/a2ad6a3374bf6a360df172ea149cd29527fdeb15ed7d46095a86f13d68fc8d38.jpg]]
-
-**原文题目**：Explain why both these tricyclic ketones fragment to the same diastereoisomer of the same cyclo-octane.
 
 ## 参考答案
 

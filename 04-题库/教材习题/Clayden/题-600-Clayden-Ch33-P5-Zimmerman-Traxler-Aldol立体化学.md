@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-Explain the stereochemical control in this reaction, drawing all the intermediates.
+**【中文】**解释该反应（见图）中的立体化学控制，并画出所有中间体。
+
+**【原文】**Explain the stereochemical control in this reaction, drawing all the intermediates.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/37d53721fb029a130122be2279268a54a703ab45c3dee5a2751f2a473ff51e40.jpg]]
 

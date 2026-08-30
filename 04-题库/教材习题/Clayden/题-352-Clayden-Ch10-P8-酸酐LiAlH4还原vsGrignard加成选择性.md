@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Give mechanisms for these reactions, explaining the selectivity (or lack of it!) in each case.
+**【中文】**给出下列反应的机理，并解释每个反应中的选择性（或缺乏选择性！）。（反应式见图）
+
+**【原文】**Give mechanisms for these reactions, explaining the selectivity (or lack of it!) in each case.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/9dbf6bb6e38ebad729b933849e3293886151257d068f3a92386decc68ea1b1ec.jpg]]
-
-**原文题目**：Give mechanisms for these reactions, explaining the selectivity (or lack of it!) in each case.
 
 ## 参考答案
 

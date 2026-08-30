@@ -34,7 +34,7 @@ pack: 章节练习
 **(3)** 如果一个二烯被环状结构固定为 s-trans 构象，是否有办法使其发生 [4+2] 环加成？
 
 
-![[diels-alder-butadiene-ethylene.svg]]
+![[2c28d39b04d5f9811fd6d0b862d7a1ff61422b0062e1f67daad19fffd1e78c3d.svg]]
 
 ## 参考答案
 

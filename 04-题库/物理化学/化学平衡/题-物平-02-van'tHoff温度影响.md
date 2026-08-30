@@ -37,9 +37,9 @@ $$\frac{K_2}{K_1} = e^{-15.04} = 2.9\times10^{-7}\ \Rightarrow\ K_2 = 1.0\times1
 
 **答案**：$K_2 \approx 2.9\times10^{-4}$。
 
-> **核心辨析**：放热反应（ΔH°<0）升温 $K$ 减小——与 Le Châtelier 定性结论一致。van't Hoff 与 Clausius-Clapeyron、Arrhenius 三式同构，区别只在自变量（$K$/$p$/$k$）。
+> **核心辨析**：放热反应（ΔHθ<0）升温 $K$ 减小——与 Le Châtelier 定性结论一致。van't Hoff 与 Clausius-Clapeyron、Arrhenius 三式同构，区别只在自变量（$K$/$p$/$k$）。
 
 ## 知识点映射
 
 - [[van't Hoff方程]] · [[范特霍夫方程]] · [[平衡常数]] · [[焓变]]
-- 易错点：ΔH° 负值代入不丢符号；T 用开尔文；$K$ 无单位时按数值比处理
+- 易错点：ΔHθ 负值代入不丢符号；T 用开尔文；$K$ 无单位时按数值比处理

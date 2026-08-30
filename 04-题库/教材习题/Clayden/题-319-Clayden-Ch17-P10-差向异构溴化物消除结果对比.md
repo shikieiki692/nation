@@ -23,15 +23,14 @@ pack: 模块习题集
 
 ## 题目
 
+**【中文】**解释这两个反应的对比结果。
+
+**【原文】**
 Account for the constrasting results of these two reactions.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/7d31a198b9b3e193e85d4930052cbb5f90f0ae446f82808722bd8a1e6277f8fe.jpg]]
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/337b259db4c02caebc38d821a43f22e1d39c602bb980057d90678136c56f7da3.jpg]]
-
-**原文题目**：
-
-解释这两个反应的对比结果。
 
 ## 参考答案
 

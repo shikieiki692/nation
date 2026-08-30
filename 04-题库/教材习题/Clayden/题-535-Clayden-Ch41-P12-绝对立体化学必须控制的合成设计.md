@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-The two aldehydes below are valuable products in the perfumery industry (Tropional is a component of Issey Miyake's L'Eau d'Issey and Florhydral is a component of Allure by Chanel). How would you make them as single enantiomers?
+**【中文】**图中所示的两个醛是香料工业中的重要产品（Tropional 是三宅一生"一生之水"（L'Eau d'Issey）香水的成分，Florhydral 是香奈儿 Allure 香水的成分）。你将如何以单一对映体的形式制备它们？
+
+**【原文】**The two aldehydes below are valuable products in the perfumery industry (Tropional is a component of Issey Miyake's L'Eau d'Issey and Florhydral is a component of Allure by Chanel). How would you make them as single enantiomers?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/c67b7dc1c1251682a4037124b88cd11f377c91f5272e7fd3f54221d425e11dc3.jpg]]
-
-**原文题目**：The two aldehydes below are valuable products in the perfumery industry (Tropional is a component of Issey Miyake's L'Eau d'Issey and Florhydral is a component of Allure by Chanel). How would you make them as single enantiomers?
 
 ## 参考答案
 

@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-Suggest a synthesis for this compound.
+**【中文】**为该化合物（见图）设计一条合成路线。
+
+**【原文】**Suggest a synthesis for this compound.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/069bb8bd6fabaff790f9d25156966479fc210efc0af70fb8196d19df1774bd5c.jpg]]
 

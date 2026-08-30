@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Explain the reactions in this partial synthesis of methoxatin, the coenzyme of bacteria living on methanol.
+**【中文】**请解释 methoxatin（以甲醇为生的细菌的辅酶）的图中所示部分合成中的各步反应。
+
+**【原文】**Explain the reactions in this partial synthesis of methoxatin, the coenzyme of bacteria living on methanol.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/80f76cd5d6654e7485b05d0f85f07b26045bdd2d8aeb56e7c61abafc0a114b6f.jpg]]
-
-**原文题目**：Explain the reactions in this partial synthesis of methoxatin, involving diazotization, Fischer indole synthesis, conjugate addition, and oxidation.
 
 ## 参考答案
 

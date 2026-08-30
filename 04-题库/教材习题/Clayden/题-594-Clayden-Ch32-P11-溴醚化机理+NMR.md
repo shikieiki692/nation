@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-Suggest a mechanism for the following reaction. The product has the following signals in its ¹H NMR spectrum: δ_H 3.9 (1H, ddq, J 12, 4, 7) and 4.3 (1H, dd, J 11, 3). What is the stereochemistry and conformation of the product?
+**【中文】**为下列反应（见图）提出机理。产物在其 ¹H NMR 谱中有如下信号：δ_H 3.9 (1H, ddq, J 12, 4, 7) 和 4.3 (1H, dd, J 11, 3)。产物的立体化学和构象是什么？
+
+**【原文】**Suggest a mechanism for the following reaction. The product has the following signals in its ¹H NMR spectrum: δ_H 3.9 (1H, ddq, J 12, 4, 7) and 4.3 (1H, dd, J 11, 3). What is the stereochemistry and conformation of the product?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/ea7c1ed85dbaad19f9a44ff83b5fc5f86ed33726cff82be2852f4514a539f0d1.jpg]]
 

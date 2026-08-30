@@ -23,11 +23,12 @@ pack: 模块习题集
 
 ## 题目
 
+**【中文】**将下列三醇在酸性溶液中与苯甲醛反应，只产生一种缩醛的非对映异构体，而不产生另一种。为什么一种缩醛更优先？形成的缩醛中未定义中心的立体化学是什么？
+
+**【原文】**
 Treatment of the triol below with benzaldehyde in acid solution produces one diastereoisomer of an acetal but none of the alternative acetal. Why is one acetal preferred? (Hint: what controls acetal formation?) What is the stereochemistry of the undefined centre in the acetal that is formed?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/7bb7cc532e903cf0a1dc6b227779b7a0f529b2d8339abfc7593b6057affb8a9f.jpg]]
-
-**原文题目**：将下列三醇在酸性溶液中与苯甲醛反应，只产生一种缩醛的非对映异构体，而不产生另一种。为什么一种缩醛更优先？形成的缩醛中未定义中心的立体化学是什么？
 
 ## 参考答案
 

@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-Explain the regiochemistry and stereochemistry of this reaction.
+**【中文】**解释该反应的区域化学（regiochemistry）和立体化学。（反应式见图）
+
+**【原文】**Explain the regiochemistry and stereochemistry of this reaction.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/0785a91051afe95f5a90be4744625a314becfd8568edc1034c09e0d2f1ced27a.jpg]]
 

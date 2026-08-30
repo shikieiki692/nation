@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-Suggest structures for the products of these reactions.
+**【中文】**请推测这些反应产物的结构（反应式见图）。化合物 A：分子式 C₇H₁₂O₂；IR 1725 cm⁻¹；δH (ppm) 1.02 (6H, s)、1.66 (2H, t, J 7 Hz)、2.51 (2H, t, J 7 Hz)、4.6 (2H, s)。化合物 B：m/z 149/151（M⁺ 强度比 1:3）；IR 2250 cm⁻¹；δH (ppm) 2.0 (2H, quintet, J 7 Hz)、2.5 (2H, t, J 7 Hz)、2.9 (2H, t, J 7 Hz)、4.6 (2H, s)。本题目的：进一步练习完整结构确定这一重要技能。
+
+**【原文】**Suggest structures for the products of these reactions.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/2bb9a1672d5ef2afe82addd583cc537e16e28744920fa444eaf3a3e19020017d.jpg]]
 

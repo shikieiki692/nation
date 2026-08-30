@@ -32,7 +32,7 @@ $$
 $$
 
 
-![[diels-alder-butadiene-ethylene.svg]]
+![[2c28d39b04d5f9811fd6d0b862d7a1ff61422b0062e1f67daad19fffd1e78c3d.svg]]
 
 ## 参考答案
 

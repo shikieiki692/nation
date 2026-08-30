@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Suggest mechanisms for these reactions, pointing out why you chose the pathways.
+**【中文】**为这些反应（见图）提出机理，并说明你为什么选择这些途径。
+
+**【原文】**Suggest mechanisms for these reactions, pointing out why you chose the pathways.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/f2f01536bca0d7ef89790b840bd115707b65d545e235e985950befe03fb1ff58.jpg]]
-
-**原文题目**：For two different reactions, suggest mechanisms and explain why each pathway was chosen. Reaction 1: nucleophilic substitution where the nucleophile goes to the 'wrong' position (benzyne mechanism). Reaction 2: straightforward SNAr activated by a nitro group.
 
 ## 参考答案
 

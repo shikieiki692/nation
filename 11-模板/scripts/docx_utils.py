@@ -24,7 +24,7 @@ import time
 import zipfile
 
 from docx import Document
-from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_BREAK
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.shared import Cm, Pt, RGBColor
@@ -313,6 +313,103 @@ def picture_block(doc: Document, image_path: str, caption: str = "",
         cap.alignment = WD_ALIGN_PARAGRAPH.CENTER
         set_paragraph_spacing(cap, after=6, line=1.0)
         add_text(cap, caption, size=10.5, color=SUB_COLOR, cn_font=CN_CAPTION_FONT)
+
+
+def _add_bottom_border(paragraph, color: str = "4A6577", size: int = 8) -> None:
+    """给段落加一条细下边框，用于封面分隔线。"""
+    pPr = paragraph._element.get_or_add_pPr()
+    pBdr = OxmlElement("w:pBdr")
+    bottom = OxmlElement("w:bottom")
+    bottom.set(qn("w:val"), "single")
+    bottom.set(qn("w:sz"), str(size))
+    bottom.set(qn("w:space"), "4")
+    bottom.set(qn("w:color"), color)
+    pBdr.append(bottom)
+    pPr.append(pBdr)
+
+
+def _prepend_paragraphs(doc: Document, paragraphs) -> None:
+    """把 python-docx 段落按顺序插到正文最前面（封面块）。"""
+    body = doc.element.body
+    first = body.find(qn("w:p"))
+    if first is None:
+        first = body.find(qn("w:tbl"))
+    anchor_idx = list(body).index(first)
+    for para in reversed(list(paragraphs)):
+        body.insert(anchor_idx, para._element)
+
+
+def insert_exercise_cover(
+    doc: Document,
+    *,
+    book_title: str = "化学竞赛习题册",
+    part_label: str = "",
+    chapter_title: str = "",
+    question_count: str = "",
+    edition_label: str = "教师版（含答案）",
+    date: str = "",
+) -> None:
+    """在文档开头插入习题册章节封面：书名、篇名、章名、题量与版本信息。
+
+    封面使用普通居中段落（不依赖 Heading 样式），尾部带分页符，正文从第 2 页开始。
+    该函数在 `postprocess_pandoc_docx()` 之前调用，字体统一由后处理收口。
+    """
+    cover_doc = Document()
+
+    def _cover_para(size: float, bold: bool, color, cn_font: str = CN_HEAD_FONT,
+                    after: float = 10, before: float = 0, line: float = 1.15,
+                    text: str = ""):
+        p = cover_doc.add_paragraph()
+        p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        set_paragraph_spacing(p, after=after, before=before, line=line)
+        if text:
+            add_text(p, text, size=size, bold=bold, color=color, cn_font=cn_font)
+        return p
+
+    _cover_para(11, False, None, after=90, before=60)  # 顶部留白
+    _cover_para(32, True, TITLE_COLOR, after=16, text=book_title)
+
+    if part_label:
+        _cover_para(16, False, SUB_COLOR, after=6, text=part_label)
+
+    if chapter_title:
+        _cover_para(22, True, TITLE_COLOR, after=30, text=chapter_title)
+
+    p_rule = _cover_para(11, False, SUB_COLOR, after=30, before=6)
+    _add_bottom_border(p_rule)
+
+    if question_count:
+        _cover_para(12, False, SUB_COLOR, after=8,
+                    text=f"题量：{question_count}", cn_font=CN_BODY_FONT)
+
+    if edition_label:
+        _cover_para(12, False, SUB_COLOR, after=8,
+                    text=f"版本：{edition_label}", cn_font=CN_BODY_FONT)
+
+    if date:
+        _cover_para(12, False, SUB_COLOR, after=8,
+                    text=f"日期：{date}", cn_font=CN_BODY_FONT)
+
+    p_break = cover_doc.add_paragraph()
+    p_break.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    run = p_break.add_run()
+    run.add_break(WD_BREAK.PAGE)
+
+    _prepend_paragraphs(doc, cover_doc.paragraphs)
+
+
+def add_exercise_cover(
+    input_path: Path,
+    output_path: Optional[Path] = None,
+    **cover_meta,
+) -> Document:
+    """修复命名空间后插入习题册封面并保存（供 pandoc 后处理链调用）。"""
+    _repair_word_namespaces(Path(input_path))
+    doc = Document(str(input_path))
+    insert_exercise_cover(doc, **cover_meta)
+    save_path = output_path or input_path
+    doc.save(str(save_path))
+    return doc
 
 
 # ── OMML 公式字号辅助函数（v3 新增）────────────────────────

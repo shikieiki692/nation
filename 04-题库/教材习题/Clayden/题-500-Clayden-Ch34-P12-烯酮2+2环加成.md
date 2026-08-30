@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-Give mechanisms for these reactions, explaining the stereochemistry.
+**【中文】**给出这些反应的机理，并解释其立体化学。（反应式见图）
+
+**【原文】**Give mechanisms for these reactions, explaining the stereochemistry.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/a3c43ed702a619f0f567d63a60dfd7f31de8aaa9d80d9dcfbfb510fdccea065e.jpg]]
 

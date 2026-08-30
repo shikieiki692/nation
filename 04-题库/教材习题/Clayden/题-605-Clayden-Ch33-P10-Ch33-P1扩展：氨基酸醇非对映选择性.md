@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-How would you transform this alkene stereoselectively into either of the diastereoisomers of the amino alcohol?
+**【中文】**你将如何把该烯烃（见图）立体选择性地转化为该氨基醇两个非对映异构体中的任意一个？
+
+**【原文】**How would you transform this alkene stereoselectively into either of the diastereoisomers of the amino alcohol?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/8e4743457c6b568dc156a5e23e21919fc616eb3310207eaf50dbfd6e960d34b3.jpg]]
 

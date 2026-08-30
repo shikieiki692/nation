@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Suggest a mechanism for this reaction.
+**【中文】**为该反应（见图）提出一个机理。
+
+**【原文】**Suggest a mechanism for this reaction.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/3b7b9e745536252a529ce8ee16724631b59a957c3512b30c2a304ad60c161c63.jpg]]
-
-**原文题目**：Suggest a mechanism for the Lewis acid-catalyzed reaction of benzene with an enone, combining conjugate addition and Friedel-Crafts chemistry.
 
 ## 参考答案
 

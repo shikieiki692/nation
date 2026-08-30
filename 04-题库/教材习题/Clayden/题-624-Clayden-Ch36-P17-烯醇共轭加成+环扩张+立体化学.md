@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Give mechanisms for these reactions, commenting on the fragmentation.
+**【中文】**为这些反应给出机理，并对其中的碎片化过程加以评述。（结构式见图）
+
+**【原文】**Give mechanisms for these reactions, commenting on the fragmentation.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/448be5c1ecf4ab23c11ea9b3f813be285138989ef8465794dec739efeb1280b4.jpg]]
-
-**原文题目**：Give mechanisms for these reactions, commenting on the fragmentation.
 
 ## 参考答案
 

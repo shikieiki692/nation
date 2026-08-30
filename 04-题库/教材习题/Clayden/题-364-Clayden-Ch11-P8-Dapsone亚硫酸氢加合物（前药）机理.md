@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-In chapter 6 we described how the anti-leprosy drug dapsone could be made soluble by the formation of a 'bisulfite adduct'. Now that you know about the reactions described in chapter 11, you should be able to draw a mechanism for this reaction. The adduct is described as a 'prodrug', meaning that it is not the drug but gives rise to the drug by chemistry within the body. How might this happen?
+**【中文】**在第 6 章中，我们介绍了抗麻风病药物氨苯砜（dapsone）如何通过形成"亚硫酸氢盐加合物"（bisulfite adduct）而变得可溶。现在你已经了解了第 11 章所述的反应，应当能够为该反应画出机理。该加合物被称为"前药"（prodrug），意思是它本身不是药物，而是在体内通过化学反应生成药物。这一过程可能如何发生？（反应式见图）
+
+**【原文】**In chapter 6 we described how the anti-leprosy drug dapsone could be made soluble by the formation of a 'bisulfite adduct'. Now that you know about the reactions described in chapter 11, you should be able to draw a mechanism for this reaction. The adduct is described as a 'prodrug', meaning that it is not the drug but gives rise to the drug by chemistry within the body. How might this happen?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/428ea5a97d5d4306d96d6a543614d5226f7b592e8a49d3c0f916a485e601c92b.jpg]]
-
-**原文题目**：Draw a mechanism for the formation of a bisulfite adduct of dapsone (a prodrug), and explain how the drug is released in the body.
 
 ## 参考答案
 

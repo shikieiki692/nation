@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-How would the imine from problem 8 react with the reagents below? Draw mechanisms for each step: the reaction with LDA, the addition of BuBr, and the work-up.
+**【中文】**问题 8 中的亚胺会如何与下面的试剂反应？画出每一步的机理：与 LDA 的反应、BuBr 的加成，以及后处理（work-up）。
+
+**【原文】**How would the imine from problem 8 react with the reagents below? Draw mechanisms for each step: the reaction with LDA, the addition of BuBr, and the work-up.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/1c41b2bf12a4b24a4777d9273f857062272ff496df8e65b8a79699cbad98e454.jpg]]
-
-**原文题目**：How would the imine from problem 8 react with the reagents below? Draw mechanisms for each step: the reaction with LDA, the addition of BuBr, and the work-up.
 
 ## 参考答案
 

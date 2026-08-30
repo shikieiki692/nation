@@ -23,13 +23,13 @@ pack: 模块习题集
 
 ## 题目
 
-Cyclooctatetraene (see p. 158 of the textbook) reacts readily with potassium metal to form a salt, K₂[cyclooctatetraene]. What shape do you expect the ring to have in this compound? A similar reaction of hexa(trimethylsilyl)benzene with lithium also gives a salt. What shape do you expect this ring to have?
+**【中文】**环辛四烯（cyclooctatetraene，见教材第 158 页）很容易与金属钾反应生成盐 K₂[环辛四烯]。你预计该化合物中的环呈什么形状？六（三甲基硅基）苯与锂的类似反应也生成一种盐。你预计这个环又呈什么形状？（结构见图）
+
+**【原文】**Cyclooctatetraene (see p. 158 of the textbook) reacts readily with potassium metal to form a salt, K₂[cyclooctatetraene]. What shape do you expect the ring to have in this compound? A similar reaction of hexa(trimethylsilyl)benzene with lithium also gives a salt. What shape do you expect this ring to have?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/efc90a451b2ba516c3a7bd51843ff552fa9fd08d9c24f4400fbe3a905af0046b.jpg]]
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/3945852e3771aee6becfb5bbcd7f30ccd40af20dba28143bf278584bc7b2a74a.jpg]]
-
-**原文题目**：Cyclooctatetraene reacts readily with potassium metal to form a salt K₂[cyclooctatetraene]. What shape do you expect the ring to have? A similar reaction of hexa(trimethylsilyl)benzene with lithium also gives a salt. What shape do you expect this ring to have?
 
 ## 参考答案
 

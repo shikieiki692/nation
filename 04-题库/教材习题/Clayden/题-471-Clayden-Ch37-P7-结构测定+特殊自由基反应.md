@@ -23,15 +23,15 @@ pack: 模块习题集
 
 ## 题目
 
-Heating this compound to 560 °C gives two products with the spectroscopic data shown below. What are they and how are they formed?
+**【中文】**将该化合物（见图）加热到 560 °C 得到两个产物，其波谱数据如下所示。它们是什么？是如何形成的？
+
+**【原文】**Heating this compound to 560 °C gives two products with the spectroscopic data shown below. What are they and how are they formed?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/c3aea0ae5a4f54497de81eff1a5be14ee6164afde4066568c16040804fea4e41.jpg]]
 
 A has IR 1640 cm⁻¹; m/z 138 (100%) and 140 (33%), δ_H (ppm) 7.1 (4H, s), 6.5 (1H, dd, J 17, 11 Hz), 5.5 (1H, dd, J 17, 2 Hz), and 5.1 (1H, dd, J 11, 2 Hz).
 
 B has IR 1700 cm⁻¹; m/z 111 (45%), 113 (15%), 139 (60%), 140 (100%), 141 (20%), and 142 (33%), δ_H (ppm) 9.9 (1H, s), 7.75 (2H, d, J 9 Hz), and 7.43 (2H, d, J 9 Hz).
-
-**原文题目**：Heating this compound to 560 °C gives two products with the spectroscopic data shown below. What are they and how are they formed?
 
 ## 参考答案
 

@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-One of the sugar components of the antibiotic kijanimycin has the basic structure shown here and NMR spectrum given below. What is the stereochemistry? When you have deduced the structure, suggest which conformation the molecule will prefer.
+**【中文】**抗生素 kijanimycin 的一种糖组分具有如图所示的基本结构，其 NMR 谱数据如下。它的立体化学是什么？推断出结构后，请指出该分子倾向于采取哪种构象。
+
+**【原文】**One of the sugar components of the antibiotic kijanimycin has the basic structure shown here and NMR spectrum given below. What is the stereochemistry? When you have deduced the structure, suggest which conformation the molecule will prefer.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/96dd7948bf57509a34f56b896b0cb8807c752ee583cacff3accd4ab08255218a.jpg]]
 

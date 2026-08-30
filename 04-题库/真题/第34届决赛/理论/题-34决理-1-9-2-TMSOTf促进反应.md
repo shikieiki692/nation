@@ -22,9 +22,9 @@ pack: 综合模拟卷
 
 9-2 上述产物 5 与化合物 6 在三氟甲磺酸三甲基硅酯（TMSOTf）存在下作用生成 7。画出该反应的关键中间体结构简式。
 
-$$
-\left(\mathrm{TMSOTf} = \mathrm{Me} _ {3} \mathrm{SiO} - \underset {\mathrm{O}} {\overset {\mathrm{O}} {\mathrm{S}}} - \mathrm{CF} _ {3}\right)
-$$
+9-2 上述产物 5 与化合物 6 在三氟甲磺酸三甲基硅酯（$\mathrm{TMSOTf} = \mathrm{Me}_3\mathrm{SiO-S(=O)_2-CF_3}$）存在下作用生成 7。画出该反应的关键中间体结构简式。
+
+
 
 ## 问题
 

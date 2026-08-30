@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Explain why these two quinoline syntheses from the same starting materials give (mainly) different products.
+**【中文】**请解释为什么由相同原料出发的图中所示两个喹啉（quinoline）合成会（主要）给出不同的产物。
+
+**【原文】**Explain why these two quinoline syntheses from the same starting materials give (mainly) different products.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/3954533357ec146428360007de618034de7d57aa0b33be757b151b9cd2d4b703.jpg]]
-
-**原文题目**：Explain why these two quinoline syntheses from the same starting materials (2-aminobenzaldehyde + butanone) give mainly different products under different pH conditions. This is the Friedländer synthesis.
 
 ## 参考答案
 

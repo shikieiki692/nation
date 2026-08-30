@@ -23,11 +23,12 @@ pack: 模块习题集
 
 ## 题目
 
+**【中文】**用t-BuCOCl对苯进行Friedel-Crafts酰基化，预期酮A只是少量产物，还有少量叔丁基苯B，但主要产物是取代酮C。解释这些化合物是如何形成的，并建议形成化合物C时两个取代基的引入顺序。
+
+**【原文】**
 Attempted Friedel-Crafts acylation of benzene with t-BuCOCl gives some of the expected ketone A as a minor product, as well as some t-butylbenzene B, but the major product is the substituted ketone C. Explain how these compounds are formed and suggest the order in which the two substituents are added to form compound C.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/c1884d2acbff1542ee6de06c0d1b8d9e9215a412000219e5bf60f5a1f83d2d17.jpg]]
-
-**原文题目**：用t-BuCOCl对苯进行Friedel-Crafts酰基化，预期酮A只是少量产物，还有少量叔丁基苯B，但主要产物是取代酮C。解释这些化合物是如何形成的，并建议形成化合物C时两个取代基的引入顺序。
 
 ## 参考答案
 

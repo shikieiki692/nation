@@ -23,14 +23,14 @@ pack: 模块习题集
 
 ## 题目
 
-Work out the structures of the compounds in this sequence and suggest mechanisms for the reactions, explaining any selectivity.
+**【中文】**推断图中所示反应序列中各化合物的结构，并为各步反应提出机理，解释其中的一切选择性。B 的波谱数据：IR 1730、1710 cm⁻¹；δH 9.4 (1H, s)、2.6 (2H, s)、2.0 (3H, s)、1.0 (6H, s)。C 的波谱数据：IR 1710 cm⁻¹；δH 7.3 (1H, d, J 5.5 Hz)、6.8 (1H, d, J 5.5 Hz)、2.1 (2H, s)、1.15 (6H, s)。
+
+**【原文】**Work out the structures of the compounds in this sequence and suggest mechanisms for the reactions, explaining any selectivity.
 
 B has IR: 1730, 1710 cm⁻¹, δH 9.4 (1H, s), 2.6 (2H, s), 2.0 (3H, s), and 1.0 (6H, s).
 C has IR: 1710 cm⁻¹, δH 7.3 (1H, d, J 5.5 Hz), 6.8 (1H, d, J 5.5 Hz), 2.1 (2H, s), and 1.15 (6H, s).
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/8e621ca4c608871122843dddb1d69566e4476069cc1901eeb3258d1803e9f6ed.jpg]]
-
-**原文题目**：Work out the structures of the compounds in this sequence and suggest mechanisms for the reactions, explaining any selectivity.
 
 ## 参考答案
 

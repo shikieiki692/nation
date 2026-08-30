@@ -23,15 +23,15 @@ pack: 模块习题集
 
 ## 题目
 
-Suggest how 2-pyridone might be converted into the amine shown. This amine undergoes nitration to give compound A with the NMR spectrum given. What is the structure of A? Why is this isomer formed?
+**【中文】**请提出将 2-吡啶酮（2-pyridone）转化为图中所示胺的方法。该胺经硝化得到化合物 A，其 NMR 谱如下。A 的结构是什么？为什么生成的是这个异构体？A 的 NMR：δH 1.0 (3H, t, J 7 Hz)、1.7 (2H, sextet, J 7 Hz)、3.3 (2H, t, J 7 Hz)、5.9 (1H, broad s)、6.4 (1H, d, J 8 Hz)、8.1 (1H, dd, J 8 and 2 Hz)、8.9 (1H, d, J 2 Hz)。需要把化合物 A 转化为下图所示的酶抑制剂，这可以如何实现？
+
+**【原文】**Suggest how 2-pyridone might be converted into the amine shown. This amine undergoes nitration to give compound A with the NMR spectrum given. What is the structure of A? Why is this isomer formed?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/ff175fa4d92dce98f0cf83c31a71202b7354536539931b9c94e79ba8dcd11c3b.jpg]]
 
 NMR of A: δH 1.0 (3H, t, J 7 Hz), 1.7 (2H, sextet, J 7 Hz), 3.3 (2H, t, J 7 Hz), 5.9 (1H, broad s), 6.4 (1H, d, J 8 Hz), 8.1 (1H, dd, J 8 and 2 Hz), and 8.9 (1H, d, J 2 Hz). Compound A was needed for conversion into the enzyme inhibitor below. How might this be achieved?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/10a25afb8551a31e3d337ad061c6fbcf204336638632a8b48becfd00c789c901.jpg]]
-
-**原文题目**：Suggest how 2-pyridone might be converted into the amine shown. This amine undergoes nitration to give compound A with the given NMR spectrum. What is the structure of A? How might this be converted into the enzyme inhibitor?
 
 ## 参考答案
 

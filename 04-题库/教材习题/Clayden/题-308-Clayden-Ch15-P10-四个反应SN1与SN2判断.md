@@ -23,16 +23,15 @@ pack: 模块习题集
 
 ## 题目
 
+**【中文】**对于下列各反应，判断机理是SN1还是SN2，并解释：
+
+**【原文】**
 For each of the following reactions, determine whether the mechanism is SN1 or SN2 and explain:
 
 1. A tertiary carbon bearing a C=O group reacts with a nucleophile
 2. An orthoester reacts with an alcohol
 3. Propanol adds to a more substituted position of an epoxide
 4. An anion adds to the less hindered center of an epoxide
-
-**原文题目**：
-
-对于下列各反应，判断机理是SN1还是SN2，并解释：
 
 1. 一个带有C=O基团的叔碳与亲核试剂反应
 2. 原酸酯与醇反应

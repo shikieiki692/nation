@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Suggest mechanisms for these rearrangements, explaining the stereochemistry in the second reaction.
+**【中文】**为这些重排反应提出机理，并解释第二个反应中的立体化学。（结构式见图）
+
+**【原文】**Suggest mechanisms for these rearrangements, explaining the stereochemistry in the second reaction.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/5c461764055c249697954ea246df4f5ae831141e08bfb5c220b15f15956f3c19.jpg]]
-
-**原文题目**：建议这些重排反应的机理，并解释第二个反应中的立体化学。
 
 ## 参考答案
 

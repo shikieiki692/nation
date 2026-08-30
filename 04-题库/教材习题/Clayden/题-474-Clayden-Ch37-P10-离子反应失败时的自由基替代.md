@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-How would you make the starting material for this sequence of reactions? Give a mechanism for the first reaction that explains its regio- and stereoselectivity. Your answer should include a conformational drawing of the product. What is the mechanism of the last step? Attempts to carry out this last step by iodine/lithium exchange and reaction with allyl bromide failed. Why? Why is the alternative shown here successful?
+**【中文】**你将如何制备这一系列反应的起始原料？给出第一步反应的机理，并解释其区域选择性和立体选择性。你的答案应包括产物的构象图。最后一步的机理是什么？试图通过碘/锂交换再与烯丙基溴反应来完成最后一步的尝试失败了，为什么？为什么此处所示的替代方法能够成功？（反应式见图）
+
+**【原文】**How would you make the starting material for this sequence of reactions? Give a mechanism for the first reaction that explains its regio- and stereoselectivity. Your answer should include a conformational drawing of the product. What is the mechanism of the last step? Attempts to carry out this last step by iodine/lithium exchange and reaction with allyl bromide failed. Why? Why is the alternative shown here successful?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/1af86c62a92cc68f2812da3fad653257554972bf289a775fad4349449be298de.jpg]]
 
@@ -45,7 +47,7 @@ The last step is initiated by AIBN which removes the iodine atom from the compou
 
 Anionic reactions cannot be used for this allylation. If the iodine were metallated, the organometallic compound would immediately expel the lactone bridge as carboxylate ion is a good leaving group. The radical is stable because the C–O bond is strong and not easily cleaved in radical reactions.
 
-📌 **图片待补：** 278bf835e89f28110091fec17d3386ccc6d065838079dec57a03903c7a82383.jpg
+![[278bf835e89f28110091fec17d3386ccc6d065838079decf57a03903c7a82383.jpg]]
 
 **中文解析**：
 

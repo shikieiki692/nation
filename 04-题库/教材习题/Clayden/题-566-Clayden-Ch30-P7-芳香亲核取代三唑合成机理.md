@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Identify the intermediates and give mechanisms for the steps in this synthesis of a triazole.
+**【中文】**请指出图中所示三唑（triazole）合成中的各中间体，并给出各步反应的机理。
+
+**【原文】**Identify the intermediates and give mechanisms for the steps in this synthesis of a triazole.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/06b783d19497fe97e7b5f07d75a9946d64f9714dbd5609f4650e9a5d576e5d36.jpg]]
-
-**原文题目**：Identify the intermediates A, B, C and give mechanisms for the steps in this triazole synthesis involving an enamine and an aryl azide.
 
 ## 参考答案
 

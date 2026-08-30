@@ -23,7 +23,15 @@ pack: 模块习题集
 
 ## 题目
 
-A typical Darzens reaction involves the base-catalysed formation of an epoxide from an α-haloketone and an aldehyde. Suggest a mechanism consistent with the data below.
+**【中文】**典型的 Darzens 反应（Darzens reaction）是由 α-卤代酮和醛在碱催化下形成环氧化物的反应。请提出一个与下列数据相符的机理。
+
+(a) 速率表达式：rate = k₃[PhCOCH₂Cl][ArCHO][EtO⁻]
+
+(b) 当 Ar 变化时，Hammett ρ 值为 +2.5。
+
+(c) 以下尝试的 Darzens 反应给出了意外的结果（见图）。
+
+**【原文】**A typical Darzens reaction involves the base-catalysed formation of an epoxide from an α-haloketone and an aldehyde. Suggest a mechanism consistent with the data below.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/57760558769410181a8991ffb6aec8dbc4c64db5fc5894778232a16f4c11425c.jpg]]
 
@@ -34,8 +42,6 @@ A typical Darzens reaction involves the base-catalysed formation of an epoxide f
 (c) The following attempted Darzens reactions produced unexpected results:
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/c76bf2da574ea73372cbb73b95a2c7df63ff87eb4d1bc8a8550f2e363c08f62f.jpg]]
-
-**原文题目**：Suggest a mechanism for the Darzens reaction consistent with the rate law, Hammett ρ = +2.5, and the unexpected products from para-methoxybenzaldehyde and salicylaldehyde.
 
 ## 参考答案
 

@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Revision content. How would you carry out the first step in this sequence? Propose mechanisms for the remaining steps explaining any selectivity.
+**【中文】**复习内容。你将如何完成这个反应序列中的第一步？请为其余各步提出机理，并解释其中的任何选择性。（反应式见图）
+
+**【原文】**Revision content. How would you carry out the first step in this sequence? Propose mechanisms for the remaining steps explaining any selectivity.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/36255022dd64f9879b9d3ffbc836f6b8a900260cec5de702558cf4bf62399c0b.jpg]]
-
-**原文题目**：Revision content. How would you carry out the first step in this sequence? Propose mechanisms for the remaining steps explaining any selectivity.
 
 ## 参考答案
 

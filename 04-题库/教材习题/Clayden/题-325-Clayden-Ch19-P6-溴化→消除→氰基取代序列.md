@@ -23,6 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
+**【中文】**为以下三步反应序列提出机理：
+
+**【原文】**
 Propose mechanisms for the following three-step sequence:
 
 1. An alkene reacts with Br₂ → trans-dibromide
@@ -30,10 +33,6 @@ Propose mechanisms for the following three-step sequence:
 3. The allylic bromide reacts with NaCN → substitution product with a new C-C bond
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/ebb02885fd1a54221876a3f90531acb3c0ce1945c41a33b4ef50b4989896cdd4.jpg]]
-
-**原文题目**：
-
-为以下三步反应序列提出机理：
 
 1. 烯烃与 Br₂ 反应 → 反式二溴化物
 2. 二溴化物用碱处理 → 烯丙基溴化物（经 E2 消除）

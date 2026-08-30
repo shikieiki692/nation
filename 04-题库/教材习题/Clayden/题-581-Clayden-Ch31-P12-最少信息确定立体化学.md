@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-A reaction produces two diastereoisomers of the product below: isomer A has $\delta_{H}$ 3.08 (1H, dt, J 4, 9, 9) and 4.32 (1H, d, J 9), while isomer B has $\delta_{H}$ 4.27 (1H, d, J 4). All other protons (except those of the Me groups) overlap in the NMR. Isomer B is converted into isomer A in base. What is the stereochemistry of A and B?
+**【中文】**某反应生成了下列产物（见图）的两个非对映异构体：异构体 A 的 NMR 为 $\delta_{H}$ 3.08 (1H, dt, J 4, 9, 9) 和 4.32 (1H, d, J 9)，而异构体 B 为 $\delta_{H}$ 4.27 (1H, d, J 4)。其余所有质子（Me 基的除外）在 NMR 中相互重叠。异构体 B 在碱作用下可转化为异构体 A。A 和 B 的立体化学分别是什么？
+
+**【原文】**A reaction produces two diastereoisomers of the product below: isomer A has $\delta_{H}$ 3.08 (1H, dt, J 4, 9, 9) and 4.32 (1H, d, J 9), while isomer B has $\delta_{H}$ 4.27 (1H, d, J 4). All other protons (except those of the Me groups) overlap in the NMR. Isomer B is converted into isomer A in base. What is the stereochemistry of A and B?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/fe9fd88ca549be66e44edc1262d1defac65207832b580d14cf8ecf26c01f8661.jpg]]
 

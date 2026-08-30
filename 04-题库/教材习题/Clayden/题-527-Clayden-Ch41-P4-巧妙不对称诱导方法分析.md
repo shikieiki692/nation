@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-In the following reaction sequence, the stereochemistry of mandelic acid is transmitted to a new hydroxy-acid by stereochemically controlled reactions. Give mechanisms for each reaction and state whether it is stereospecific or stereoselective. Offer some rationalization for the creation of new stereogenic centres in the first and last reactions.
+**【中文】**在下面的反应序列中，扁桃酸（mandelic acid）的立体化学通过一系列立体化学控制的反应被传递到一个新的羟基酸中。请给出每一步反应的机理，并指出它是立体专一的（stereospecific）还是立体选择的（stereoselective）。对第一步和最后一步反应中新立体中心的产生给出合理的解释。（反应序列见图）
+
+**【原文】**In the following reaction sequence, the stereochemistry of mandelic acid is transmitted to a new hydroxy-acid by stereochemically controlled reactions. Give mechanisms for each reaction and state whether it is stereospecific or stereoselective. Offer some rationalization for the creation of new stereogenic centres in the first and last reactions.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/4880bf3de26bb7e329eeb8844d400458e5ac2b7aab6120d3c110faa7ea6e7c46.jpg]]
-
-**原文题目**：In the following reaction sequence, the stereochemistry of mandelic acid is transmitted to a new hydroxy-acid by stereochemically controlled reactions. Give mechanisms for each reaction and state whether it is stereospecific or stereoselective.
 
 ## 参考答案
 

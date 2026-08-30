@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-Draw a mechanism for the following multistep reaction. Do the cyclization steps follow Baldwin's rules?
+**【中文】**为下面的多步反应（见图）画出机理。各关环步骤是否符合 Baldwin 规则？
+
+**【原文】**Draw a mechanism for the following multistep reaction. Do the cyclization steps follow Baldwin's rules?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/4fb406f4386b74070a7fea8c00d4e62affe1ebbb1fc1cc4645dcba2c33b6757a.jpg]]
 

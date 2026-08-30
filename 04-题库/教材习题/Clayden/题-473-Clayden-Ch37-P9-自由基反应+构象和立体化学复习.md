@@ -23,15 +23,15 @@ pack: 模块习题集
 
 ## 题目
 
-The last few stages of Corey's epibatidine synthesis are shown here. Give mechanisms for the first two reactions and suggest a reagent for the last step.
+**【中文】**Corey 的 epibatidine（地棘蛙素）全合成的最后几步如下图所示。给出前两个反应的机理，并为最后一步建议一种试剂。
+
+**【原文】**The last few stages of Corey's epibatidine synthesis are shown here. Give mechanisms for the first two reactions and suggest a reagent for the last step.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/a5a5fa1e03d819c70baf85072c8525ab194b6b2a7f78ff1ab13810b20d36b80e.jpg]]
 
-**原文题目**：The last few stages of Corey's epibatidine synthesis are shown here. Give mechanisms for the first two reactions and suggest a reagent for the last step.
-
 ## 参考答案
 
-**Answer (English)**: The first step involves deprotonation of the rather acidic amide (the CF₃ group helps) and the displacement of the only possible bromide—the one on the opposite face of the six-membered ring as the S_N2 reaction must take place with inversion.
+**Answer (English)**: The first step involves deprotonation of the rather acidic amide (the CF₃ group helps) and the displacement of the only possible bromide—the one on the opposite face of the six-membered ring as the $S_\mathrm{N}2$ reaction must take place with inversion.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/9bc00c6b8c9c103e417cd56ef2c95a9a6d49677bb342a602ec237b306acacd2b.jpg]]
 

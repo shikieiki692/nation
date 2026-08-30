@@ -23,13 +23,14 @@ pack: 模块习题集
 
 ## 题目
 
+**【中文】**写出这些反应的机理并解释取代位置。
+
+**【原文】**
 Draw mechanisms for these reactions and explain the positions of substitution.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/0f1b8916e5e8e9c453cd9b781545b33121d35de3a5763adc52033d1824aa8a25.jpg]]
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/e57f329e3e1e3b436f9e096406953f580da3f44f5d1f07c44d0947d639ad1d22.jpg]]
-
-**原文题目**：写出这些反应的机理并解释取代位置。
 
 ## 参考答案
 

@@ -33,7 +33,7 @@ pack: 模块习题集
 （4）乙醛在稀NaOH水溶液中的Aldol缩合
 
 
-![[base-catalysed-aldol.svg]]
+![[64dab84c71e16b0c741ea1786a22bc388fd1bfe4764ef540b48f05fe975f4f20.svg]]
 
 ## 参考答案
 

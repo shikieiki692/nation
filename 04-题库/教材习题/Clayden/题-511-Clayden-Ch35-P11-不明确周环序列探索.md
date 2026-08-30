@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-Treatment of this keto-aldehyde (which exists largely as an enol) with the oxidizing agent DDQ (a quinone—see p. 764 of the textbook) gives an unstable compound that turns into the product shown. Explain the reactions and comment on the stereochemistry.
+**【中文】**用氧化剂 DDQ（一种醌——见教科书第 764 页）处理这个酮醛（它主要以烯醇形式存在），得到一个不稳定的化合物，随后转变为所示产物。请解释这些反应并评论其立体化学。（反应式见图）
+
+**【原文】**Treatment of this keto-aldehyde (which exists largely as an enol) with the oxidizing agent DDQ (a quinone—see p. 764 of the textbook) gives an unstable compound that turns into the product shown. Explain the reactions and comment on the stereochemistry. (a quinone—see p. 764 of the textbook) gives an unstable compound that turns into the product shown. Explain the reactions and comment on the stereochemistry.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/d53ce0f2a484178dc2a651cb70eed0736edd2127d443fb95037e1ca6a9cc0843.jpg]]
 

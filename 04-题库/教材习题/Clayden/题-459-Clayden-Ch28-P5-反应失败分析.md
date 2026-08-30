@@ -23,6 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
+**【中文】**这些反应本计划合成三种分子，但每个反应都给出了不同的产物。出了什么问题？建议能得到目标分子的合成路线。
+
+**【原文】**
 The reactions were planned to give syntheses of these three molecules. In the event each reaction gave a different product from what was expected. What went wrong? Suggest syntheses that would give the target molecules.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/89c8ef98fe420d781adfd427ce0d04d310d358888466d967826e598bb363c0f5.jpg]]
@@ -30,8 +33,6 @@ The reactions were planned to give syntheses of these three molecules. In the ev
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/e51d5c0cb5395719b5ae3986ebd7b6cba1db34b315fb77d0533dee2fd74a31fa.jpg]]
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/3d0bf839ad56ad9b5bc988e4ef87b8d7fdfcb2530536060e4be64699b81495dd.jpg]]
-
-**原文题目**：这些反应本计划合成三种分子，但每个反应都给出了不同的产物。出了什么问题？建议能得到目标分子的合成路线。
 
 ## 参考答案
 

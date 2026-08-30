@@ -23,9 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Suggest a mechanism for this reaction explaining why a mixture of diastereoisomers of the starting material gives a single diastereoisomer of the product. Is there any other form of selectivity?
+**【中文】**为该反应提出一个机理，解释为什么起始原料的非对映异构体混合物会给出单一非对映异构体的产物。是否还存在其他形式的选择性？（反应式见图）
 
-📌 **图片待补：** c3c99eb7f7408fe40a48ac6980550a9452d01f24c8e1c4cc3a09eda8577d297.jpg
+**【原文】**Suggest a mechanism for this reaction explaining why a mixture of diastereoisomers of the starting material gives a single diastereoisomer of the product. Is there any other form of selectivity?
+
+![[c3c99eb7f7408fe408a48ac6980550a9452d01f24c8e1c4cc3a09eda8577d297.jpg]]
 
 **原文题目**：Suggest a mechanism for this reaction explaining why a mixture of diastereoisomers of the starting material gives a single diastereoisomer of the product. Is there any other form of selectivity?
 

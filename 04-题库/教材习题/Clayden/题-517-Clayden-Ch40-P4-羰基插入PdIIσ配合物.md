@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Suggest a mechanism for this lactone synthesis.
+**【中文】**请为图中所示的内酯合成反应提出一个机理。
+
+**【原文】**Suggest a mechanism for this lactone synthesis.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/c2f5f91791d23eb9e1785f6230788c207337bc55b44c078fe8031ceca1238c85.jpg]]
-
-**原文题目**：Suggest a mechanism for this lactone synthesis.
 
 ## 参考答案
 

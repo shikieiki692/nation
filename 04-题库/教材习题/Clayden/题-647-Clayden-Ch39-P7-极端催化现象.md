@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Explain how chloride catalyses this reaction.
+**【中文】**解释氯离子（Cl⁻）是如何催化这个反应的。（反应式见图）
+
+**【原文】**Explain how chloride catalyses this reaction.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/c294a4a62ad1d8b83e4f57a11f0f0fae2442ab7d34ce5ef7df0dcda1880b5d62.jpg]]
-
-**原文题目**：Explain how chloride ion catalyses the methanolysis of an ester in MeCN.
 
 ## 参考答案
 

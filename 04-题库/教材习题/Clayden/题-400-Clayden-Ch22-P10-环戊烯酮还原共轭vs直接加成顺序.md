@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-When we discussed reduction of cyclopentenone to cyclopentanol, we suggested that conjugate addition of borohydride must occur before direct addition of borohydride: in other words, the scheme below must be followed. What is the alternative scheme? Why is the scheme shown definitely correct?
+**【中文】**在讨论环戊烯酮还原为环戊醇时，我们提出硼氢化物的共轭加成必须先于硼氢化物的直接加成：换句话说，必须遵循下图所示的路线。替代路线是什么？为什么图中所示的路线肯定是正确的？
+
+**【原文】**When we discussed reduction of cyclopentenone to cyclopentanol, we suggested that conjugate addition of borohydride must occur before direct addition of borohydride: in other words, the scheme below must be followed. What is the alternative scheme? Why is the scheme shown definitely correct?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/3faae2557ac9088b4acbe12b0b6d7166c12472d84be8f6682afbe6d0e1d78f0b.jpg]]
-
-**原文题目**：Explain why conjugate addition of NaBH₄ to cyclopentenone must occur before direct addition. What is the alternative order and why is it wrong?
 
 ## 参考答案
 

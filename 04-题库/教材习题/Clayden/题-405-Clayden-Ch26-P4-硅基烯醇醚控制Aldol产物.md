@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-How would you use a silyl enol ether to make this aldol product? Why is it necessary to use this particular intermediate? What would be the products be if the two carbonyl compounds were mixed and treated with base?
+**【中文】**你会如何使用硅基烯醇醚（silyl enol ether）来制备这个 aldol 产物（见图）？为什么必须使用这个特定的中间体？如果把两种羰基化合物混合后用碱处理，会得到什么产物？
+
+**【原文】**How would you use a silyl enol ether to make this aldol product? Why is it necessary to use this particular intermediate? What would be the products be if the two carbonyl compounds were mixed and treated with base?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/0d8bc445a15a0e657699182bc14b5ed776ed36df60ff310ac1be06c6b67eed42.jpg]]
-
-**原文题目**：How would you use a silyl enol ether to make this aldol product? Why is it necessary to use this particular intermediate? What would be the products be if the two carbonyl compounds were mixed and treated with base?
 
 ## 参考答案
 

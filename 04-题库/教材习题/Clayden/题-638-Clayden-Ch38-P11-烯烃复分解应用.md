@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-How would you attempt to make these alkenes by metathesis?
+**【中文】**你会如何尝试通过烯烃复分解（metathesis）来合成这些烯烃？（这一重要而有力的方法的应用。）（结构式见图）
+
+**【原文】**How would you attempt to make these alkenes by metathesis? (Applications of this important and powerful method.)
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/bec6fb58b16de4e7aed7ef94823ac623435b3efe02e650421c5b1a556539a338.jpg]]
-
-**原文题目**：How would you attempt to make these alkenes by metathesis? (Applications of this important and powerful method.)
 
 ## 参考答案
 

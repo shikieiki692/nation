@@ -25,7 +25,7 @@ pack: 章节练习
 
 Give the products of Baeyer-Villiger rearrangements on these compounds, with reasons.
 
-📌 **图片待补：** 9d163555d3797592ff048eb21d3e7cd31cb11c096669237afbedf48dbc01bf8.jpg
+![[9d163555d3797592ff048eb21d3e7cd31cb11c096669237af1bedf48dbc01bf8.jpg]]
 
 **原文题目**：给出这些化合物的Baeyer-Villiger重排产物，并说明理由。
 

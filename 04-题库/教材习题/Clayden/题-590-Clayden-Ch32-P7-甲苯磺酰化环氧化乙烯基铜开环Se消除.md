@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-The synthesis of a starting material used in chapter 32 is a good example of how cyclic compounds can be used in a simple way to control stereochemistry. Draw mechanisms for each reaction and explain the stereochemistry.
+**【中文】**第 32 章所用的一种起始原料的合成，是"如何以简单方式利用环状化合物控制立体化学"的一个很好的例子。请为每个反应（见图）画出机理并解释其立体化学。
+
+**【原文】**The synthesis of a starting material used in chapter 32 is a good example of how cyclic compounds can be used in a simple way to control stereochemistry. Draw mechanisms for each reaction and explain the stereochemistry.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/803fa665f503bd5a3ee08e243f0156e68063579bb7d4348f40e022146b05ea5c.jpg]]
 

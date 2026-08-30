@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-Further correlation of chemical shift and coupling with interpretation of longer-range coupling. (Detailed spectrum data provided in the OCR source.)
+**【中文】**进一步关联化学位移与偶合，并解析更长程的偶合。（详细谱图数据见 OCR 原始资料。）
+
+**【原文】**Further correlation of chemical shift and coupling with interpretation of longer-range coupling. (Detailed spectrum data provided in the OCR source.)
 
 ## 参考答案
 

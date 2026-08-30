@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-Give mechanisms for these reactions and explain the regio- and stereochemical control (or lack of it!). Note that MnO₂ oxidizes allylic alcohols to enones.
+**【中文】**给出这些反应的机理，并解释其中的区域和立体化学控制（或控制的缺失！）。注意：MnO₂ 可将烯丙醇氧化为烯酮（enone）。（反应式见图）
+
+**【原文】**Give mechanisms for these reactions and explain the regio- and stereochemical control (or lack of it!). Note that MnO₂ oxidizes allylic alcohols to enones.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/0726f6b4dc612685935915f20d7d191103459bbf10224850a46d121cae21af81.jpg]]
 

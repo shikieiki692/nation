@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Suggest how the following reactions might be made to work. You will probably have to select a specific enol equivalent.
+**【中文】**提出如何使下列反应（见图）得以进行。你可能需要选择一种特定的烯醇等价体（enol equivalent）。
+
+**【原文】**Suggest how the following reactions might be made to work. You will probably have to select a specific enol equivalent.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/1698c3fee62f72cd9d24d3d83b2fb6ebea00d8b80e8104de5db17813c7ec4c7f.jpg]]
-
-**原文题目**：Suggest how the following reactions might be made to work. You will probably have to select a specific enol equivalent.
 
 ## 参考答案
 

@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-If you believed that this reaction went by elimination followed by conjugate addition, what experiments would you carry out to try and prove that the enone is an intermediate?
+**【中文】**如果你认为这个反应按先消除、后共轭加成的机理进行，你会做哪些实验来设法证明烯酮（enone）是反应的中间体？（反应式见图）
+
+**【原文】**If you believed that this reaction went by elimination followed by conjugate addition, what experiments would you carry out to try and prove that the enone is an intermediate?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/6b4e2313599051b0805bcec632deedc189ed301621ea9ae7b00296067935506b.jpg]]
-
-**原文题目**：Design experiments to prove that the enone is an intermediate in the reaction (elimination followed by conjugate addition), rather than a direct SN2 mechanism.
 
 ## 参考答案
 
@@ -43,7 +43,7 @@ If you believed that this reaction went by elimination followed by conjugate add
 
 (b) conjugate addition
 
-📌 **图片待补：** 9c04e15a967bb8fa602f0a65dc13d8ab74981b8abb7b4ada7d00a16f80913fef.jpg
+![[9c04e15a967bb8fa062f0a65dc13d8ab74981b8abb7b4ada7d00a16f80913fef.jpg]]
 
 **Proposed experiments:**
 
@@ -91,7 +91,7 @@ If you believed that this reaction went by elimination followed by conjugate add
 - 消除-加成：烯酮的共轭体系使芳环与反应中心相连，ρ 值可能较大
 
 **实验 4：动力学同位素效应**
-如果机理 2 中 α-H 的断裂在决速步中，应该观察到一级动力学同位素效应 (k_H/k_D ≈ 2-7)。
+如果机理 2 中 α-H 的断裂在决速步中，应该观察到一级动力学同位素效应 ($k_\mathrm{H}$/$k_\mathrm{D}$ ≈ 2-7)。
 - SN2：无一级 KIE（α-H 不参与决速步）
 - 消除-加成：可能有一级 KIE
 

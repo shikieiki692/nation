@@ -23,13 +23,14 @@ pack: 模块习题集
 
 ## 题目
 
+**【中文】**用HNO₃/H₂SO₄对该杂环化合物硝化，得到单一硝化产物，其1H NMR谱如所示。建议形成了哪种产物以及为什么。
+
+**【原文】**
 Nitration of this heterocyclic compound with the usual HNO₃/H₂SO₄ mixture gives a single nitration product with the ¹H NMR spectrum shown below. Suggest which product is formed and why.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/4d8c1ce10957b7b854679ce4ff81456d463cb525a4af0c6485ee1d206e0d7509.jpg]]
 
 δH: 3.04 (2H, t, J 7 Hz), 3.68 (2H, t, J 7 Hz), 6.45 (1H, d, J 8 Hz), 7.28 (1H, broad s), 7.81 (1H, d, J 1 Hz), 7.90 (1H, dd, J 8, 1 Hz)
-
-**原文题目**：用HNO₃/H₂SO₄对该杂环化合物硝化，得到单一硝化产物，其1H NMR谱如所示。建议形成了哪种产物以及为什么。
 
 ## 参考答案
 

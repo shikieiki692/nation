@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-A tricyclic hydroxyketone was made by hydrolysis of a bis silyl ether. Further reaction gave a new compound. Explain these reactions including the stereochemistry. The diene has the proton NMR spectrum: δ_H 6.06 (1H, dd, J 10.3, 12.1), 6.23 (1H, dd, J 10.3, 14.7), 6.31 (1H, d, J 14.7), and 7.32 (1H, d, J 12.1). Does this agree with the structure given?
+**【中文】**一个三环羟基酮通过双硅醚（bis silyl ether）的水解制得。进一步反应生成了一个新化合物。请解释这些反应，包括立体化学。该二烯的质子 NMR 谱为：δ_H 6.06 (1H, dd, J 10.3, 12.1)、6.23 (1H, dd, J 10.3, 14.7)、6.31 (1H, d, J 14.7) 和 7.32 (1H, d, J 12.1)。这与所给的结构相符吗？（反应式见图）
+
+**【原文】**A tricyclic hydroxyketone was made by hydrolysis of a bis silyl ether. Further reaction gave a new compound. Explain these reactions including the stereochemistry. The diene has the proton NMR spectrum: δ_H 6.06 (1H, dd, J 10.3, 12.1), 6.23 (1H, dd, J 10.3, 14.7), 6.31 (1H, d, J 14.7), and 7.32 (1H, d, J 12.1). Does this agree with the structure given?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/df63e8977234813ab6682cb8008f0f9cfba2fd087bc04ba37fe8611701b1c05b.jpg]]
 
@@ -35,7 +37,7 @@ A tricyclic hydroxyketone was made by hydrolysis of a bis silyl ether. Further r
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/6ca694a0b7a3e7db60c485d8ac391a90a63c8a3a655d356ddf1dab218201f81f.jpg]]
 
-The tosylate is displaced with inversion by the excellent S_N2 nucleophile PhS⁻ and reduction of the ketone from the exo face followed by acetylation gives the key intermediate.
+The tosylate is displaced with inversion by the excellent $S_\mathrm{N}2$ nucleophile PhS⁻ and reduction of the ketone from the exo face followed by acetylation gives the key intermediate.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/5d686c66a2d58aeffe0cc8684537f679412bfe090fc71059ea224ef331493d1d.jpg]]
 
@@ -52,7 +54,7 @@ The NMR spectrum clearly shows that the E,E-diene is formed. The coupling consta
 **中文解析**：
 
 **整体机理概述**：
-本题是一个复杂的多步序列，涉及：(1) 烯醇醚的质子化和水解；(2) S_N2取代；(3) 酮还原+乙酰化；(4) retro-Diels-Alder反应（释放环戊二烯）；(5) 环丁烯的四电子顺旋电环化开环。最后通过NMR偶合常数判断产物是E,E-二烯。
+本题是一个复杂的多步序列，涉及：(1) 烯醇醚的质子化和水解；(2) $S_\mathrm{N}2$取代；(3) 酮还原+乙酰化；(4) retro-Diels-Alder反应（释放环戊二烯）；(5) 环丁烯的四电子顺旋电环化开环。最后通过NMR偶合常数判断产物是E,E-二烯。
 
 **步骤1：烯醇醚水解**：
 - 烯醇醚（enol ether）在酸性条件下质子化
@@ -60,10 +62,10 @@ The NMR spectrum clearly shows that the E,E-diene is formed. The coupling consta
 - 凸面进攻使OH基团被推入内侧（endo side）
 - 水解后得到羟基酮（hydroxy-ketone）和对甲苯磺酸酯（tosylate）
 
-**步骤2：S_N2取代**：
-- PhS⁻（硫醇负离子）是极好的S_N2亲核试剂
+**步骤2：$S_\mathrm{N}2$取代**：
+- PhS⁻（硫醇负离子）是极好的$S_\mathrm{N}2$亲核试剂
 - 发生构型翻转（inversion）取代OTs
-- 这是标准的S_N2反应——背面进攻导致Walden翻转
+- 这是标准的$S_\mathrm{N}2$反应——背面进攻导致Walden翻转
 
 **步骤3：酮还原+乙酰化**：
 - 从外侧（exo face）还原酮羰基
@@ -131,7 +133,7 @@ NMR数据与E,E-二烯结构完全一致，证实了顺旋电环化开环的立�
 ## 解题思路
 
 1. **读题定位**：题目要求解释反应和立体化学，并用NMR数据验证产物结构。关键词：stereochemistry, NMR spectrum, coupling constants
-2. **🔑 关键转换**：(a) 烯醇醚水解→羟基酮+OTs；(b) PhS⁻ S_N2取代（翻转）；(c) 还原+乙酰化；(d) retro-DA→释放Cp+环丁烯（反式）；(e) 顺旋开环→E,E-二烯；(f) NMR J=14.7Hz确认反式
+2. **🔑 关键转换**：(a) 烯醇醚水解→羟基酮+OTs；(b) PhS⁻ $S_\mathrm{N}2$取代（翻转）；(c) 还原+乙酰化；(d) retro-DA→释放Cp+环丁烯（反式）；(e) 顺旋开环→E,E-二烯；(f) NMR J=14.7Hz确认反式
 3. **验证**：检查NMR偶合常数——14.7Hz是明确的trans偶合；12.1Hz偏小但仍是trans（OAc电负性效应）；与E,E-二烯结构一致
 
 ## 易错分析

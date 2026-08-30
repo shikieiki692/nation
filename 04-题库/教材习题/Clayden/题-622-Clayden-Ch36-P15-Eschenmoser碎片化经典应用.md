@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Suggest a mechanism for this fragmentation and explain the stereochemistry of the alkenes in the product. This is a tricky problem, but find the mechanism and the stereochemistry will follow.
+**【中文】**为这个碎片化反应提出机理，并解释产物中烯烃的立体化学。这是一道棘手的题目，但只要找到机理，立体化学自然就能解释清楚。（结构式见图）
+
+**【原文】**Suggest a mechanism for this fragmentation and explain the stereochemistry of the alkenes in the product. This is a tricky problem, but find the mechanism and the stereochemistry will follow.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/543e905c5cda07eb0007eeaa5b4abcfced4e2194644b951266443269ad429e0e.jpg]]
-
-**原文题目**：Suggest a mechanism for this fragmentation and explain the stereochemistry of the alkenes in the product. This is a tricky problem, but find the mechanism and the stereochemistry will follow.
 
 ## 参考答案
 

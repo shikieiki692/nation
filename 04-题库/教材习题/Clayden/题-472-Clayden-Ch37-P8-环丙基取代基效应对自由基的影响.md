@@ -23,7 +23,13 @@ pack: 模块习题集
 
 ## 题目
 
-Treatment of methylcyclopropane with peroxides at very low temperature (-150 °C) gives an unstable species whose ESR spectrum consists of a triplet with coupling of 20.7 gauss and fine splitting showing dtt coupling of 2.0, 2.6, and 3.0 gauss. Warming to a mere -90 °C gives a new species whose ESR spectrum consists of a triplet of triplets with coupling 22.2 and 28.5 gauss and fine splitting showing small ddd coupling of less than 1 gauss.
+**【中文】**在极低温度（-150 °C）下用过氧化物处理甲基环丙烷，得到一种不稳定物种，其 ESR 谱为三重峰（偶合 20.7 高斯），精细裂分显示 dtt 偶合（2.0、2.6 和 3.0 高斯）。仅仅升温到 -90 °C 就生成一种新物种，其 ESR 谱为三重峰的三重峰（偶合 22.2 和 28.5 高斯），精细裂分显示小于 1 高斯的小 ddd 偶合（见图）。
+
+如果用 t-BuOCl 处理甲基环丙烷，会得到多种产物，但两个主要产物是 C 和 D。较低温度下生成更多 C，较高温度下生成更多 D（见图）。
+
+用 PhSH 和 AIBN 处理下图所示取代基更多的环丙烷，以定量收率得到单一产物。解释所有这些反应，鉴定 A 和 B，并说明各实验之间的差异（见图）。
+
+**【原文】**Treatment of methylcyclopropane with peroxides at very low temperature (-150 °C) gives an unstable species whose ESR spectrum consists of a triplet with coupling of 20.7 gauss and fine splitting showing dtt coupling of 2.0, 2.6, and 3.0 gauss. Warming to a mere -90 °C gives a new species whose ESR spectrum consists of a triplet of triplets with coupling 22.2 and 28.5 gauss and fine splitting showing small ddd coupling of less than 1 gauss.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/447def2a19994913f34bdebdee64d059b04b5e7958c33cd45f54a552fc1e2e08.jpg]]
 
@@ -34,8 +40,6 @@ If methylcyclopropane is treated with t-BuOCl, various products are obtained but
 Treatment of the more substituted cyclopropane below with PhSH and AIBN gives a single product in quantitative yield. Account for all these reactions, identifying A and B and explaining the differences between the various experiments.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/bfda658ea3825f5286fcca5119834ea534d3a909b241133904086fa0d6920927.jpg]]
-
-**原文题目**：Treatment of methylcyclopropane with peroxides at very low temperature (-150 °C) gives an unstable species whose ESR spectrum consists of a triplet... Warming to -90 °C gives a new species... If treated with t-BuOCl, various products... Treatment with PhSH and AIBN gives a single product... Account for all these reactions.
 
 ## 参考答案
 

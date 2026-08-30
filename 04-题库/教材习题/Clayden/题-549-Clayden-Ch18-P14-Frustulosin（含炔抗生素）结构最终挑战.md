@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-The yellow crystalline antibiotic frustulosin was isolated from a fungus in 1978 and it was suggested the structure was an equilibrium mixture of A and B. Apart from the difficulty that the NMR spectrum clearly shows one compound and not an equilibrium mixture of two compounds, what else makes you unsure of this assignment? Suggest a better structure. Signals marked * exchange with D₂O.
+**【中文】**黄色晶状抗生素 frustulosin 于 1978 年从一种真菌中分离得到，当时有人认为其结构是 A 和 B 两种结构的平衡混合物。除了 NMR 谱清楚地表明只存在一种化合物、而非两种化合物的平衡混合物这一困难之外，还有什么使你对这一结构指定产生怀疑？请提出一个更合理的结构。标有 * 的信号可与 D₂O 交换。Frustulosin 的数据：m/z 202 (100%)、174 (20%)；νmax (cm⁻¹) 3279、1645、1613、1522；δH (ppm) 2.06 (3H, dd, J 1.0, 1.6 Hz)、5.44 (1H, dq, J 2.0, 1.6 Hz)、5.52 (1H, dq, J 2.0, 1.0 Hz)、4.5* (1H, broad s)、7.16 (1H, d, J 9.0 Hz)、6.88 (1H, dd, J 9.0, 0.4 Hz)、10.31 (1H, d, J 0.4 Hz)、11.22* (1H, broad s)；δC (ppm) 22.8、80.8、100.6、110.6、118.4、118.7、112.6、125.2、129.1、151.8、154.5、196.6。警告！本题很难——毕竟原作者最初也搞错了。提示：如果不借助第二个环，不饱和度（DBE）可以如何实现？本题目的：作为最终挑战，完成一次真正而困难的天然产物结构确定。
+
+**【原文】**The yellow crystalline antibiotic frustulosin was isolated from a fungus in 1978 and it was suggested the structure was an equilibrium mixture of A and B. Apart from the difficulty that the NMR spectrum clearly shows one compound and not an equilibrium mixture of two compounds, what else makes you unsure of this assignment? Suggest a better structure. Signals marked * exchange with D₂O.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/8923d0e1d186a455453a704119fb912a516fa96f45917c3458886a62a66ba46a.jpg]]
 

@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-Suggest structures for the products of these reactions.
+**【中文】**请推测这些反应产物的结构（反应式见图）。化合物 A：分子式 C₁₀H₁₃OP；IR (cm⁻¹) 1610、1235；δH (ppm) 6.5–7.5 (5H, m)、6.42 (1H, t, J 17 Hz)、7.47 (1H, dd, J 17, 23 Hz)、2.43 (6H, d, J 25 Hz)。化合物 B：分子式 C₁₂H₁₇O₂；IR (cm⁻¹) 仅有 C–H 吸收和指纹区；δH (ppm) 7.25 (5H, s)、4.28 (1H, d, J 4.8 Hz)、3.91 (1H, d, J 4.8 Hz)、2.96 (3H, s)、1.26 (3H, s)、0.76 (3H, s)。本题目的：确定带有额外"机关"的反应产物的结构——一个带自旋的原子核（P）的偶合，以及同一碳原子上在 NMR 中表现不同的质子。
+
+**【原文】**Suggest structures for the products of these reactions.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/315fbe124daad03fe36d497b2df65b57eea5932ed13b9a135dde1de87b223383.jpg]]
 

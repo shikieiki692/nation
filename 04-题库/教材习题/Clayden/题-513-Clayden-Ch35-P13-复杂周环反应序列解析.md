@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Treatment of cyclohexa-1,3-dione with this acetylenic amine gives a stable enamine in good yield. Refluxing the enamine in nitrobenzene gives a pyridine after a remarkable series of reactions. Fill in the details, give mechanisms for the reaction, structures for the intermediates, and suitable explanations for each pericyclic step. A mechanism is not required for the last step as nitrobenzene simply acts as an oxidant.
+**【中文】**将 1,3-环己二酮与图中所示的炔胺（acetylenic amine）反应，可以良好的产率得到稳定的烯胺。将该烯胺在硝基苯中回流，经过一系列惊人的反应后生成吡啶。请补全反应的细节：给出反应机理、各中间体的结构，并对每一个周环步骤给出合适的解释。最后一步无需写出机理，因为硝基苯仅起氧化剂的作用。
+
+**【原文】**Treatment of cyclohexa-1,3-dione with this acetylenic amine gives a stable enamine in good yield. Refluxing the enamine in nitrobenzene gives a pyridine after a remarkable series of reactions. Fill in the details, give mechanisms for the reaction, structures for the intermediates, and suitable explanations for each pericyclic step. A mechanism is not required for the last step as nitrobenzene simply acts as an oxidant.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/4fcee61561ea230343a597e24c2ea970f4e0675e1ebb5b4a7bcfbea45e7ae21d.jpg]]
-
-**原文题目**：Treatment of cyclohexa-1,3-dione with this acetylenic amine gives a stable enamine in good yield. Refluxing the enamine in nitrobenzene gives a pyridine after a remarkable series of reactions. Fill in the details, give mechanisms for the reaction, structures for the intermediates, and suitable explanations for each pericyclic step. A mechanism is not required for the last step as nitrobenzene simply acts as an oxidant.
 
 ## 参考答案
 

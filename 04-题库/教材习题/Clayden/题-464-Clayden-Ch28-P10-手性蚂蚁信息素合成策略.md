@@ -23,11 +23,12 @@ pack: 模块习题集
 
 ## 题目
 
+**【中文】**害虫控制需要合成该对映体纯的蚂蚁信息素。给定对映体纯的烷基溴作为起始物，建议信息素的合成路线。
+
+**【原文】**
 A synthesis of this enantiomerically pure ant pheromone was required for the purposes of pest control. Given a supply of the enantiomerically pure alkyl bromide as a starting material, suggest a synthesis of the pheromone.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/ac971919e1537465d38262ff96bd54bdb33a2f908f0a1878329dd2878326c646.jpg]]
-
-**原文题目**：害虫控制需要合成该对映体纯的蚂蚁信息素。给定对映体纯的烷基溴作为起始物，建议信息素的合成路线。
 
 ## 参考答案
 

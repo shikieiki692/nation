@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-This problem concerns the structure and chemistry of an unsaturated nine-membered ring. Comment on the structure. Explain its different behaviour under thermal or photochemical conditions.
+**【中文】**本题涉及一个不饱和九元环的结构和化学。请评论其结构，并解释它在热条件和光化学条件下的不同表现。（反应式见图）
+
+**【原文】**This problem concerns the structure and chemistry of an unsaturated nine-membered ring. Comment on the structure. Explain its different behaviour under thermal or photochemical conditions. Comment on the structure. Explain its different behaviour under thermal or photochemical conditions.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/becfb50358b82c378fd0d7b7d53831fc71fcdf3acba71717cc22802103ca6c0f.jpg]]
 

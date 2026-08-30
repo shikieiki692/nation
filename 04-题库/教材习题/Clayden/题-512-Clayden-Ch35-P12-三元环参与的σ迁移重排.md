@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-Explain the following observations. Heating this phenol brings it into rapid equilibrium with a bicyclic compound that does not spontaneously give the final product unless treated with acid.
+**【中文】**解释以下观察结果。加热这个苯酚会使它与一个双环化合物快速达到平衡；该双环化合物不会自发地给出最终产物，除非用酸处理。（反应式见图）
+
+**【原文】**Explain the following observations. Heating this phenol brings it into rapid equilibrium with a bicyclic compound that does not spontaneously give the final product unless treated with acid. Heating this phenol brings it into rapid equilibrium with a bicyclic compound that does not spontaneously give the final product unless treated with acid.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/a4b2d333879f2cfa150470885d8c05d594d7c6fef3449a4f0905acc5bc825cca.jpg]]
 

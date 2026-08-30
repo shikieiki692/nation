@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-Attempts to produce the acid chloride from this unusual amino acid by treatment with SOCl₂ gave instead a β-lactam. What has happened?
+**【中文】**试图用 SOCl₂ 处理这种不寻常的氨基酸来制备酰氯（acid chloride），结果却得到了一个 β-内酰胺（β-lactam）。发生了什么？（结构式见图）
+
+**【原文】**Attempts to produce the acid chloride from this unusual amino acid by treatment with SOCl₂ gave instead a β-lactam. What has happened?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/1f7ab37350651c025e56db00b653edb7d0e8182606ee5395028f32b74b8ecc13.jpg]]
-
-**原文题目**：Attempts to produce the acid chloride from this unusual amino acid by treatment with SOCl₂ gave instead a β-lactam. What has happened?
 
 ## 参考答案
 

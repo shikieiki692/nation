@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-Thioketones, with a C=S bond, are not usually stable. However, this thioketone is quite stable and undergoes reaction with maleic anhydride to give an addition product. Comment on the stability of the thioketone, the mechanism of the reaction, and the stereochemistry of the product.
+**【中文】**含 C=S 键的硫酮（thioketone）通常不稳定。然而，这个硫酮相当稳定，并能与马来酸酐（maleic anhydride）反应生成加成产物。请评论该硫酮的稳定性、反应的机理以及产物的立体化学。（反应式见图）
+
+**【原文】**Thioketones, with a C=S bond, are not usually stable. However, this thioketone is quite stable and undergoes reaction with maleic anhydride to give an addition product. Comment on the stability of the thioketone, the mechanism of the reaction, and the stereochemistry of the product.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/03a2d7786b1bd052efb147c04dd04c9b8b10dc8868fc6e2c5960e645569d366e.jpg]]
 

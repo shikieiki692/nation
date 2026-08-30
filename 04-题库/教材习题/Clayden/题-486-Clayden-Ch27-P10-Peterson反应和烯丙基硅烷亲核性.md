@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-Give mechanisms for these reactions, explaining the role of silicon. Why is this type of lactone difficult to make by ordinary acid- or base-catalysed reactions?
+**【中文】**给出这些反应的机理，并解释硅（silicon）的作用。为什么这类内酯难以通过普通的酸催化或碱催化反应来制备？（反应式见图）
+
+**【原文】**Give mechanisms for these reactions, explaining the role of silicon. Why is this type of lactone difficult to make by ordinary acid- or base-catalysed reactions?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/468d2fe2e407cfaf661454ae75b7b26520b6133ffecd3b2c1c6a4318883043d0.jpg]]
 

@@ -19,7 +19,7 @@ tags: [系统, 索引, 物理化学, 题库]
 | 热力学与热化学 | 3 | ΔH-ΔU、Born-Haber 循环、Clausius-Clapeyron |
 | 化学平衡 | 3 | K/Q、van't Hoff、多重平衡与耦合 |
 | 化学动力学 | 3 | 速率级数、Arrhenius、稳态/平衡近似 |
-| 电化学 | 3 | Nernst、E°—ΔG°—K 全链、沉淀/配位影响 |
+| 电化学 | 3 | Nernst、Eθ—ΔGθ—K 全链、沉淀/配位影响 |
 | 胶体与表面 | 3 | 胶团结构、Langmuir 吸附、Kelvin 方程 |
 | 统计热力学与相图 | 3 | Boltzmann 分布、统计熵、相律与杠杆规则 |
 

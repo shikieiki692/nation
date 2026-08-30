@@ -32,7 +32,7 @@ pack: 模块习题集
 **(3)** 与自由卡宾的环丙烷化相比，Simmons-Smith 反应有什么合成优势？
 
 
-![[carbene.png]]
+![[56de3842c5c41f2cf6e78a14dea82b588b0a46a95e8a8ed83352b89663928e46.png]]
 
 ## 参考答案
 

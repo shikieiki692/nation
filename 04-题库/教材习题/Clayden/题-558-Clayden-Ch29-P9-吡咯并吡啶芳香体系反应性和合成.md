@@ -23,11 +23,11 @@ pack: 模块习题集
 
 ## 题目
 
-What aromatic system might be based on this ring system? What sort of reactivity might it display?
+**【中文】**图中所示的环系可能构成什么样的芳香体系？它可能表现出什么样的反应性？
+
+**【原文】**What aromatic system might be based on this ring system? What sort of reactivity might it display?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/b6ef16ca59abc29d3b5a56d074e68e562b82604b2de4deca5fe842dab4122350.jpg]]
-
-**原文题目**：What aromatic system might be based on this ring system? What sort of reactivity might it display? Consider the electron count and the nature of the nitrogen atom.
 
 ## 参考答案
 

@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-The Lolium alkaloids have a striking saturated heterocyclic skeleton. One way to make this skeleton appears below. Suggest a mechanism and explain the stereochemistry.
+**【中文】**Lolium 生物碱（毒麦生物碱）具有引人注目的饱和杂环骨架。下面给出了构建该骨架的一种方法。请提出反应机理并解释其立体化学。
+
+**【原文】**The Lolium alkaloids have a striking saturated heterocyclic skeleton. One way to make this skeleton appears below. Suggest a mechanism and explain the stereochemistry.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/e571d107f5c36064ab1a5b4bfd3182bd6bde6940cddbc9f7edab64fa928f6766.jpg]]
 

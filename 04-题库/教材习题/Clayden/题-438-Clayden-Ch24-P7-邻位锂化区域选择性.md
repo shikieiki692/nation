@@ -23,11 +23,12 @@ pack: 模块习题集
 
 ## 题目
 
+**【中文】**下面的反应序列展示了合成一种强效抗癌化合物所需中间体的过程。解释反应的区域选择性。为什么第二步需要两当量的BuLi？
+
+**【原文】**
 The sequence of reactions below shows the preparation of a compound needed for the synthesis of a powerful anti-cancer compound. Explain the regioselectivity of the reactions. Why do you think two equivalents of BuLi are needed in the second step?
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/68d294ad7fdb7d20677989acb3afcb4db6321b9b360adc7ef375205535b426e2.jpg]]
-
-**原文题目**：下面的反应序列展示了合成一种强效抗癌化合物所需中间体的过程。解释反应的区域选择性。为什么第二步需要两当量的BuLi？
 
 ## 参考答案
 

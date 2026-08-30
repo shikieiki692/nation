@@ -23,7 +23,9 @@ pack: 模块习题集
 
 ## 题目
 
-Suggest two syntheses of this spirocyclic ketone from the starting materials shown. Neither starting material is available.
+**【中文】**从所示的起始原料出发，提出这个螺环酮（spirocyclic ketone）的两种合成路线。注意这两种起始原料本身也无法直接获得（需要自行制备）。（结构见图）
+
+**【原文】**Suggest two syntheses of this spirocyclic ketone from the starting materials shown. Neither starting material is available.
 
 ![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/beed18e2361fa913141b01b50794418f33ed4b862233c21cc7196d2c838ce48d.jpg]]
 
