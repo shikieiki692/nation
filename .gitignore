@@ -47,3 +47,6 @@ _tmp_*
 suspects.txt
 mis_split_suspects.txt
 images_in_q.txt
+
+# 批量修改前的 md 备份快照（2026-09-01）
+.workbuddy/backups/
