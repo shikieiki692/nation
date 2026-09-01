@@ -42,7 +42,25 @@ pack: 章节练习
 
 ## 解题思路
 
-（待补充）
+
+以下答案是进攻对位的产物导向。另一种导向进攻邻位。
+
+![[31aa9b83f8c33ce0eaff926963c2467e85ea40f3c343992df13acd5c9c3da4e9.jpg]]  
+A
+
+![[f17d467a9d74d2c341c5b25b78ceea3b5b0948b47e0e7cc26269d837aa28be48.jpg]]  
+B
+
+![[50fa806a43cc75ae0d215809d881229962397c612c8666c89d2fcecdaab3190a.jpg]]  
+C
+
+![[2f3eeead528544140954a2fe4619baef1a1f84de7cd24e3290881c4e3d88f887.jpg]]  
+D
+
+![[3cc021eaf95e135288ad85d31c1973c0e155193217239bdcac4cf4fd12715983.jpg]]  
+E
+
+> 来源：ABOC 原书「习题解析」节逐字转录（OCR）。如与纸质原书有出入，以原书为准。
 
 ---
 
