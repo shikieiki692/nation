@@ -302,7 +302,7 @@ knowledge_points: [重排反应, Wagner-Meerwein重排, 热力学控制, Pinacol
 - ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/f21a63dfde3d5089ed979d25b27abe48d22c6c0b6eee5507675b5c3c441e76d8.jpg]] — 环状二醇碎片化（line ~4659）
 - ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/d4605106647f0e586f292886375e0cf7d034b0edb077baa4ea75b12f65d17e5c.jpg]] — 碎片化立体化学控制（line ~4745）
 - ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/eef52eb25e4a3f5d1047069a3563a0c327ea6a5b22d12936b17bc7a5ff275639.jpg]] — 顺式构象（可碎片化）（line ~4755）
-- 📌 **图片待补：** 6e4b26a2742645d004cca51143e3d155c86eee88027870e1b94fbbc83ff0fe77.jpg — 反式构象（不可碎片化，E2 为主）（line ~4759）
+- 📌 **图片待补：** 6e4b26a2742645d004cca51145e3d155c86eee88027870e1b94fbbc83ff0fe77.jpg — 反式构象（不可碎片化，E2 为主）（line ~4759）
 - ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/7c416b6d2e3320b75e7cbeeb92db3c9b2fc4e68493e04474aacb0ed253ed2b68.jpg]] — 十氢化萘碎片化扩环（line ~4836）
 - ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/7ebeda109a672523e651bb7f9883359d9c3ff65923bf8982a81d4472c4f03795.jpg]] — Eschenmoser 碎片化（line ~4905）
 - ![[mineru/03-教材书籍/Clayden有机化学（中文版）/中文版clayden-chinese-34-36907-999_images/924c85f0df7aa92c58c60368cb88e126c276287043ed1aa5d4f09fe67a1b4cd8.jpg]] — Eschenmoser 碎片化机理（line ~4928）

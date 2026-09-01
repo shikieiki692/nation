@@ -322,10 +322,10 @@ knowledge_points: [化学选择性, 保护基, TBDMS保护基, THP保护基, 苄
 - ![[clayden 有机化学/Clayden中文版_402-600_images/963891b0810ded303736fe45d341e25e7892a8e5249712cec2051c6b3e9e8d71.jpg]] —— 催化氢化的表面机理（lines 4672-4677）
 - ![[clayden 有机化学/Clayden中文版_402-600_images/d0667b3c65cc41d2df00db1146b8c765fe19fb9d7b7d3455fb5efda1ba6b640c.jpg]] —— 烯烃氢化的立体化学（syn加成）（lines 4678-4683）
 - ![[clayden 有机化学/Clayden中文版_402-600_images/6e6cd2299aa1dde3f4e8cf401dbf2660c6a4453123ec25fc6431721aa5dc5cc2.jpg]] —— Lindlar催化剂：炔烃→顺式烯烃（lines 4723-4728）
-- 📌 **图片待补：** 429cb1c4e1cfd0330f2c9ff9d97a028dea0c5b52499f43f695fde83956e0b6bd.jpg —— Rosenmund反应：酰氯→醛（lines 4729-4734）
+- 📌 **图片待补：** 429cb1c4e1cfd0330f2c9ff9d97a028dea0c5b52499f43f795fde83956e0b6bd.jpg —— Rosenmund反应：酰氯→醛（lines 4729-4734）
 
 ### 氢解与苄基
-- 📌 **图片待补：** f6ad2720f89d779d06cc464e6f07f85ee987b37b87f9375073a0283f5042c33a.jpg —— 苄基氢解（lines 4772-4778）
+- 📌 **图片待补：** f6ad2720f89d679d06cc464e6f07f85ee987b37b87f9375073a0283f5042c33a.jpg —— 苄基氢解（lines 4772-4778）
 - ![[clayden 有机化学/Clayden中文版_402-600_images/4ea395aeff02bf425cce195dfb18de7a7cc5fe04348744286dee6af3f1bdd4b3.jpg]] —— 苄基C-O键的氢解（lines 4778-4783）
 
 ### Birch还原
@@ -343,7 +343,7 @@ knowledge_points: [化学选择性, 保护基, TBDMS保护基, THP保护基, 苄
 - 📌 **图片待补：** c3e413b5ef5eaf56454404281d1311e781cce65288bc18a1ba83313cccce43f7.jpg —— 先双酰化再选择性水解（lines 5025-5031）
 - ![[clayden 有机化学/Clayden中文版_402-600_images/55f4e0de561a12ea59b04380856b297cf26e98af927fb583c11cbf59f68f8374.jpg]] —— 选择性水解产物（lines 5031-5035）
 - ![[clayden 有机化学/Clayden中文版_402-600_images/caccf0ac2dcbc9a1cc22f27a7a4eb1f7facbf47e9b30ee3b5de7898d4a241bdc.jpg]] —— 缩醛保护酮不受格氏试剂进攻（lines 5060-5074）
-- 📌 **图片待补：** ec3c0e2d2314168c461fb0ef6ef6c0fa593fef5002e62aa2ece21160774aeee4.jpg —— 保护格氏试剂中的酮（lines 5082-5086）
+- 📌 **图片待补：** ec3c0e2d2314168c461fb0ef5ef6c0fa593fef5002e62aa2ece21160774aeee4.jpg —— 保护格氏试剂中的酮（lines 5082-5086）
 - ![[clayden 有机化学/Clayden中文版_402-600_images/78d928dbdd815d5a232360461508f978b0f3cb16ce0455e589a18e9a14c845b4.jpg]] —— 二酮的缩醛保护（lines 5087-5091）
 
 ### 硅基保护基
@@ -363,11 +363,11 @@ knowledge_points: [化学选择性, 保护基, TBDMS保护基, THP保护基, 苄
 - ![[clayden 有机化学/Clayden中文版_402-600_images/7f70705b5191296180120f00b60a55d3a6ed366d7429f7e820414feaafe360b0.jpg]] —— 未加保护的偶联：三种亲核试剂竞争（lines 5194-5197）
 - ![[clayden 有机化学/Clayden中文版_402-600_images/b2863f331f34969f16b3c3dc32b556ce3f7baa539dba34d9c6d5f57ca04de2e6.jpg]] —— Cbz保护亮氨酸（lines 5213-5218）
 - ![[clayden 有机化学/Clayden中文版_402-600_images/a4e3634cb9bdfbe1d12eab47e132920bdb644c35939939c9d5b654ab8860f682.jpg]] —— Cbz上保护：氯甲酸苄酯（lines 5245-5249）
-- 📌 **图片待补：** 781046fd8c5c9311b6f5dd070b5a9563d36130e8d851466ee701256178b2c06f.jpg —— Cbz脱保护（HBr或H₂/Pd）（lines 5249-5253）
+- 📌 **图片待补：** 781046fd8c5c9311b6f5dd070b5a9563d36310e8d851466ee701256178b2c06f.jpg —— Cbz脱保护（HBr或H₂/Pd）（lines 5249-5253）
 - 📌 **图片待补：** 2e2a0d04a669ae2d6a1ba7daeca2d1a61f795f2c1f278e92ff0ff816ee6c80fd.jpg —— Cbz-亮氨酸对硝基苯酚酯偶联（lines 5255-5259）
 - ![[clayden 有机化学/Clayden中文版_402-600_images/8b04bb62c16844bab7a35ebcb2335c4754d307c5756ee6f67daf53795386a3a6.jpg]] —— Boc保护：Boc₂O（lines 5289-5293）
 - 📌 **图片待补：** 4c7feb2eb062ff079bff79ac45313519208c9f48d2d7001f6054c9e1ebc40f29.jpg —— 胃泌素C端四肽合成（lines 5275-5277）
-- 📌 **图片待补：** dd48c47f6b9d9ac83b1f62628a0064001c3e691d72e6f238457675bbcb54aca2.jpg —— Boc保护的逐步偶联（lines 5301-5304）
+- 📌 **图片待补：** dd48c47f6b9d9ac83b1f92628a0064001c3e691d72e6f238457675bbcb54aca2.jpg —— Boc保护的逐步偶联（lines 5301-5304）
 - ![[clayden 有机化学/Clayden中文版_402-600_images/a9326c4cb081f8cce1a86b9e44e31ae1ed424054379de2bda3edf146a30e6828.jpg]] —— Fmoc结构（lines 5306-5312）
 - ![[clayden 有机化学/Clayden中文版_402-600_images/1c17363800198af1257186e564cf143df9dc87c20b0b790b6e7d6ada02f3be35.jpg]] —— Fmoc碱性脱保护机理（lines 5313-5318）
 

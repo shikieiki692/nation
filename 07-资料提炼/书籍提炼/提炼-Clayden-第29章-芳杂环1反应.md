@@ -332,7 +332,7 @@ knowledge_points: [芳香性, 吡啶, 吡咯, 呋喃, 噻吩, 咪唑, 三唑, �
 
 ### 吡啶的亲核取代
 - ![[clayden 有机化学/Clayden中文版_601-800_images/d2019a2d91be0e26636f8025ef2fa3cc694d11d267c82648eb920b4ad700c119.jpg]] —— 吡啶2,4-位亲核取代（line 4546）
-- 📌 **图片待补：** 9b97b32c042551283e8e7bc19e025072a36e8e5186979e6f7995f34cefb33496.jpg —— 吡啶亲核取代机理（类羰基机理）（line 4554）
+- 📌 **图片待补：** 9b97b32c042551283e8e7bc19e025072a36e8e5186979e6f7995f34cefb13496.jpg —— 吡啶亲核取代机理（类羰基机理）（line 4554）
 
 ### 吡啶N-氧化物
 - ![[clayden 有机化学/Clayden中文版_601-800_images/cfd1d413666b0ae9d77cb032baf9ba9c5aced3062f03d58b1a0c0e5817fa91a3.jpg]] —— 吡啶N-氧化物结构（line 4612）

@@ -170,7 +170,7 @@ knowledge_points: [烯醇, 乙酰乙酸乙酯合成法, 互变异构, Michael加
 - 强亲核性，与S_N2反应性亲电试剂反应良好。
 - **优势**：可适用于醛和酮；碱性强但不会加成到亚胺上。
 
-📌 **图片待补：** 9a954fb0cc3ecb40f95259d66090efc44c6ab04ee21d2025766a84fbdbe5c6da.jpg —— 烯胺盐的制备（line 655）
+📌 **图片待补：** 9a954fb0cc3ecb04f95259d66090efc44c6ab04ee21d2025766a84fbdbe5c6da.jpg —— 烯胺盐的制备（line 655）
 
 ![[clayden 有机化学/Clayden中文版_601-800_images/4413dd09c51f2a68ea9d0f73b4d586449b4ba854c62eddf63c5ef8ddb23d4eaa.jpg]] —— 烯胺盐的烷基化（line 667）
 

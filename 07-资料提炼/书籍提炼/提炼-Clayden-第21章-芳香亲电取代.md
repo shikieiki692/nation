@@ -400,7 +400,7 @@ knowledge_points: [芳香性, 苯酚, σ络合物, 芳香亲电取代, 硝化反
 
 ### 酰基化的优势
 - 📌 **图片待补：** dbcb39ab99845dc964378ce3e3272d7bba8933add828a823c900caffeb1eae6e.jpg —— 苯乙酮和二苯甲酮（line 3434）
-- 📌 **图片待补：** dce42d9ae574b522f8896212b4cb4fa5c3050ec5f1287d2ea1d466ea5a2fa8cd.jpg —— 酸酐的酰基化（line 3450）
+- 📌 **图片待补：** dce42d9ae574b522f8856212b4cb4fa7c3050ec5f1287d2ea1d466ea5a2fa8cd.jpg —— 酸酐的酰基化（line 3450）
 - 📌 **图片待补：** 7ddbc39b49b7ee85af977c095e70aa1260f3aa1888da23039c83cf8753e8301.jpg —— 环状酸酐的酰基化（line 3454）
 
 ### 硝基化学的应用

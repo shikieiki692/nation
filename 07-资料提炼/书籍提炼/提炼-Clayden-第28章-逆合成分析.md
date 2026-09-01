@@ -285,7 +285,7 @@ knowledge_points: [Michael加成, 逆合成分析, 切断法, 合成子, 官能�
 
 ### 双官能团切断
 - ![[clayden 有机化学/Clayden中文版_601-800_images/658ef8047ac2516c99ac4c1f5b5116571468b8b003f6876c169f0f0521daf2b8.jpg]] —— 1,2-双官能团切断：环氧策略（line 3762）
-- 📌 **图片待补：** 3d05a608923756b1995cc6505bf4209d84822c7a3503b48221e3e35b2f9b585e.jpg —— Michael加成与1,3-切断的关系（line 3832）
+- 📌 **图片待补：** 3d05a608923756b1995cc6505bf4209d84822c7a3503b48521e3e35b2f9b585e.jpg —— Michael加成与1,3-切断的关系（line 3832）
 - ![[clayden 有机化学/Clayden中文版_601-800_images/3b62072690fede246e29c0a4d49b72c25464aae3a5f2e06218462b42c9950716.jpg]] —— α,β-不饱和羰基合成子（line 3836）
 
 ### C-C切断

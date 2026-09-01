@@ -301,7 +301,7 @@ knowledge_points: [烯醇, 亲核加成, Reformatsky反应, Michael加成, 羟�
 - ![[clayden 有机化学/Clayden中文版_601-800_images/5f68ba49dd481427c776b4f58aed727da9c3098e354035ed30a79b23fd2a4812.jpg]] —— Mannich 碱的形成（line 1436）
 
 ### 烯醇锂与烯醇硅醚
-- 📌 **图片待补：** 3bd8be3f2ff53536d9b2dc456f6115fda55763d0c8fa5499bdebce6771801688.jpg —— 烯醇锂的 Aldol 反应（六元环过渡态）（line 1552）
+- 📌 **图片待补：** 3bd8be3f2ff53536d9b2dc456f8115fda55763d0c8fa5499bdebce6771801688.jpg —— 烯醇锂的 Aldol 反应（六元环过渡态）（line 1552）
 - ![[clayden 有机化学/Clayden中文版_601-800_images/b5fcd6ce8f920677339e1e2376a137271679de137e6036d7406853e3613148f5.jpg]] —— Mukaiyama Aldol（烯醇硅醚 + TiCl₄）（line 1600）
 - ![[clayden 有机化学/Clayden中文版_601-800_images/b32ea3e6052ffa12da5094042c182fea4ed070bb433c9e0c06e28b682fa65eaf.jpg]] —— Mukaiyama Aldol 机理（line 1606）
 
