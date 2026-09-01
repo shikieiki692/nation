@@ -113,7 +113,7 @@ FIELD_ALIASES_BY_PATH: dict[str, dict[str, list[str]]] = {
     },
 }
 
-	# ── 允许的 status 枚举值（按 type）─────────────────────────────
+# ── 允许的 status 枚举值（按 type）─────────────────────────────
 ALLOWED_STATUS: dict[str, list[str]] = {
     "知识点": ["骨架", "初稿", "已填充", "stub", "deprecated", "已合并", "已废弃", "重定向"],
     "活跃任务卡": ["active", "blocked", "completed", "paused"],
@@ -125,6 +125,17 @@ ALLOWED_STATUS: dict[str, list[str]] = {
     "教学逻辑提炼": ["草稿", "待审核", "已提炼"],
     "备课大纲": ["骨架", "初稿", "已填充", "draft", "review", "published", "草稿", "已审校", "待确认"],
 }
+
+# ── 题库 frontmatter 枚举（与 audit_question_bank.py 同口径）────────
+QB_TYPES = {"题目", "真题", "例题", "题组", "题目集"}
+QB_ENUM: dict[str, list[str]] = {
+    "fidelity": ["原书逐字", "原书改写", "自编"],
+    "exam_stage": ["初赛", "决赛", "省预赛"],
+    "subject_module": ["化学原理", "结构化学", "有机化学", "元素与分析"],
+    "pack": ["章节练习", "模块习题集", "综合模拟卷", "预赛专项"],
+}
+# frontmatter 内可含 wikilink 的字段（正文断链已查，此处补查 frontmatter 盲区）
+QB_LINK_FIELDS = ["knowledge_points", "depends_on", "cross_references", "related"]
 
 # ── 生命周期 stage 枚举 ────────────────────────────────────────
 ALLOWED_STAGES = ["draft", "review", "published", "deprecated", "archived", "needs_review"]
@@ -277,6 +288,57 @@ def check_frontmatter(file: Path, fm: dict[str, Any], report: Report) -> None:
         val = fm.get(date_field)
         if val and isinstance(val, str) and not re.match(r"^\d{4}-\d{2}-\d{2}$", val):
             report.warning(rel, f"日期格式-{date_field}", f"'{val}' 不是 YYYY-MM-DD 格式")
+
+    # ── 题库六字段枚举（仅题目类文件；字段存在时校验，不强制要求）──
+    if doc_type in QB_TYPES:
+        for k, allowed in QB_ENUM.items():
+            v = fm.get(k)
+            if v is None:
+                continue
+            # 多值合法写法：exam_stage="初赛/决赛"（按 / 拆分，每项须在允许列表）
+            parts = [p.strip() for p in str(v).split("/") if p.strip()]
+            if parts and all(p in allowed for p in parts):
+                continue
+            report.warning(rel, "枚举-题库", f"{k}='{v}' 不在 {allowed}")
+
+        diff = fm.get("difficulty")
+        if diff is not None:
+            s = str(diff).strip()
+            ok = False
+            try:
+                if re.fullmatch(r"\d+", s) and 1 <= int(s) <= 5:
+                    ok = True
+                elif re.fullmatch(r"\d+-\d+", s):  # 区间写法（题组/合集难度范围）
+                    a, b = (int(x) for x in s.split("-"))
+                    ok = 1 <= a <= b <= 5
+            except (TypeError, ValueError):
+                ok = False
+            if not ok:
+                report.warning(rel, "枚举-题库", f"difficulty='{diff}' 非 1-5 整数或合法区间")
+
+        kp = fm.get("knowledge_points")
+        if isinstance(kp, list) and len(kp) == 0:
+            report.warning(rel, "枚举-题库", "knowledge_points 为空列表")
+
+    # ── frontmatter 内 wikilink 断链（正文断链由 check_wikilinks 覆盖，此处补 frontmatter 盲区）──
+    for field in QB_LINK_FIELDS:
+        vals = fm.get(field)
+        if isinstance(vals, str):
+            vals = [vals]
+        if not isinstance(vals, list):
+            continue
+        for v in vals:
+            if not isinstance(v, str):
+                continue
+            for tgt in re.findall(r"(?<!\!)\[\[([^\]|#]+)", v):
+                tgt = tgt.strip()
+                if not tgt or is_placeholder_target(tgt):
+                    continue
+                # 图片嵌入 ![[x.jpg]] 由 check_images 负责，此处跳过
+                if Path(tgt).suffix.lower() in {".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg"}:
+                    continue
+                if find_wikilink_target(tgt, VAULT_ROOT) is None:
+                    report.warning(rel, "断链-frontmatter", f"{field} → [[{tgt}]] 不存在")
 
 
 def is_placeholder_target(target: str) -> bool:

@@ -2356,10 +2356,12 @@ def main():
 
             def _convert_one(md_path: Path) -> tuple[str, bool | str]:
                 try:
+                    dynamic_output_dir = output_dir / md_path.parent.relative_to(batch_root) if args.batch_root else output_dir
+                    dynamic_output_dir.mkdir(parents=True, exist_ok=True)
                     out = convert_file(
                         md_path,
                         verbose=args.verbose,
-                        output_dir=output_dir,
+                        output_dir=dynamic_output_dir,
                         render_preview=args.render_preview,
                         render_output_dir=render_output_dir,
                         emit_render_pdf=args.emit_render_pdf,
@@ -2399,10 +2401,12 @@ def main():
                     print()
                     continue
                 try:
+                    dynamic_output_dir = output_dir / md_path.parent.relative_to(batch_root) if args.batch_root else output_dir
+                    dynamic_output_dir.mkdir(parents=True, exist_ok=True)
                     out = convert_file(
                         md_path,
                         verbose=args.verbose,
-                        output_dir=output_dir,
+                        output_dir=dynamic_output_dir,
                         render_preview=args.render_preview,
                         render_output_dir=render_output_dir,
                         emit_render_pdf=args.emit_render_pdf,
@@ -2555,17 +2559,20 @@ def main():
                 print()
                 continue
 
+            dynamic_output_dir = output_dir / md_path.parent.relative_to(batch_root) if args.batch_root else output_dir
+            dynamic_output_dir.mkdir(parents=True, exist_ok=True)
             try:
                 out = convert_file(
                     md_path,
                     verbose=args.verbose,
-                    output_dir=output_dir,
+                    output_dir=dynamic_output_dir,
                     render_preview=args.render_preview,
                     render_output_dir=render_output_dir,
                     emit_render_pdf=args.emit_render_pdf,
                     word_clean=args.word_clean,
                     strict_images=args.strict_images,
                     cover=args.cover,
+                    output_stem=output_stem_by_path.get(md_path) if 'output_stem_by_path' in locals() else None,
                 )
                 if out:
                     print(f"  →  {out.name}")

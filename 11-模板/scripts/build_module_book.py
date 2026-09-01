@@ -1,4 +1,4 @@
-import os, re, sys, io, collections
+import os, re, sys, io, time, collections
 from datetime import date
 from collections import Counter
 
@@ -23,6 +23,9 @@ STRICT = "--no-strict" not in sys.argv
 MERGE_DA = "--no-merge" not in sys.argv
 # ---------------- 全书来源索引聚合器 ----------------
 ALL_NON_EXAM = []  # 每项: {module, num, title, source, fid}
+# ---------------- 构建统计（供 README 自动同步） ----------------
+BOOK_STATS = {}  # module -> {"chapters": int, "questions": int, "dir": str}
+README_PATH = "04-课件/习题集/README.md"
 # --merge-keys-file 已废弃（历史上用于白名单部分合并），保留解析但不生效
 MERGE_KEYS = set()
 if "--merge-keys-file" in sys.argv:
@@ -51,13 +54,21 @@ EDITION_LABEL = "学生版" if EDITION == "student" else "教师版"
 
 
 def write_output(path, text):
-    """统一写盘；未加 --write 时仅打印将要写入的目标。"""
+    """统一写盘；未加 --write 时仅打印将要写入的目标。
+    Obsidian 等进程可能瞬时占用句柄（WinError 5），自动重试最多 6 次。"""
     if WRITE:
         if OUT_ROOT:
             path = os.path.join(OUT_ROOT, path)
         os.makedirs(os.path.dirname(path), exist_ok=True)
-        with open(path, "w", encoding="utf-8", newline="") as f:
-            f.write(text)
+        for attempt in range(10):
+            try:
+                with open(path, "w", encoding="utf-8", newline="") as f:
+                    f.write(text)
+                return
+            except PermissionError:
+                if attempt == 9:
+                    raise
+                time.sleep(2)
     else:
         print(f"  [dry-run] {os.path.relpath(path)} · {len(text.splitlines())} 行")
 
@@ -75,7 +86,15 @@ def clean_output_dir(path):
         else:
             kept.append(fn)
     for fn in removed:
-        os.remove(os.path.join(target, fn))
+        fp = os.path.join(target, fn)
+        for attempt in range(10):
+            try:
+                os.remove(fp)
+                break
+            except PermissionError:
+                if attempt == 9:
+                    raise
+                time.sleep(2)
     if removed:
         print(f"  [clean] {os.path.relpath(target)}: 删除 {len(removed)} 个旧生成文件；保留 {len(kept)} 个非生成文件")
 
@@ -546,6 +565,33 @@ def split_question_answer(body, source=""):
     return q_text.strip(), a_text
 
 
+def _fm_kps(y):
+    """从 frontmatter 文本提取 knowledge_points（flow/block 两种风格，剥离 wikilink）。"""
+    vals = []
+    m = re.search(r"(?ms)^knowledge_points:[ \t]*\n((?:[ \t]+-[^\n]*\n?)+)", y)
+    if m:
+        vals = [re.sub(r"^[ \t]+-[ \t]*", "", l).strip().strip("\"'")
+                for l in m.group(1).splitlines()]
+    else:
+        m2 = re.search(r"(?m)^knowledge_points:[ \t]*(.+)$", y)
+        if m2:
+            line = m2.group(1).strip()
+            if line.startswith("[") and line.endswith("]"):
+                vals = [v.strip().strip("\"'") for v in line[1:-1].split(",")]
+            elif line:
+                vals = [line]
+    out = []
+    for v in vals:
+        if not v:
+            continue
+        links = re.findall(r"\[\[([^\]|#]+)", v)
+        if links:
+            out.extend(s.strip() for s in links)
+        else:
+            out.append(v.strip())
+    return [o for o in out if o]
+
+
 def gather_questions(module):
     """收集指定模块、pack=模块习题集的所有题目"""
     pool = []
@@ -571,6 +617,8 @@ def gather_questions(module):
                 continue
             status = (re.search(r"(?m)^status: (.*)", y) or [None, ""])[1].strip()
             if status == "deprecated" and not INCLUDE_DEPRECATED:
+                sup = (re.search(r"(?m)^superseded_by: (.*)", y) or [None, ""])[1].strip()
+                print(f"  [deprecated-excluded] 跳过已被取代的题目: {rel}（superseded_by={sup or '未注明'}；--include-deprecated 可收入）")
                 continue
             diff = (re.search(r"(?m)^difficulty: (.*)", y) or [None, "3"])[1].strip()
             sub = (re.search(r"(?m)^submodule: (.*)", y) or [None, ""])[1].strip().strip('"')
@@ -589,6 +637,7 @@ def gather_questions(module):
                 "fidelity": fid,
                 "source": src,
                 "title": ttl,
+                "kps": _fm_kps(y),
                 "body": body,
             })
     return pool
@@ -602,13 +651,61 @@ def classify_by_keywords(item, chapter_map, module=None):
     # 路径与 module 是比 submodule 更可靠的来源线索；优先处理已知不可靠字段
     if module == "结构化学":
         p = item["path"]
+        fn = item["file"]
         if "Weller/Ch20" in p or "Weller/Ch21" in p:
             return (4, "配位化学")
+        # 无机化学例题与习题：Ch05=原子结构、Ch06=分子结构与共价键理论、Ch07=晶体结构、Ch11=配位化学基础
+        # （部分源文件 submodule 被清洗错标，以教材目录为准）
+        if "无机化学例题与习题/Ch05" in p:
+            return (1, "原子结构")
+        if "无机化学例题与习题/Ch07" in p:
+            return (3, "晶体结构")
+        if "无机化学例题与习题/Ch06" in p:
+            return (2, "分子结构与化学键")
+        if "无机化学例题与习题/Ch11" in p:
+            return (4, "配位化学")
+        # submodule 精确指明主题的，直接定章（2026-09-01 分类审计：晶体/配位等主题词入章）
+        # 但原子/分子两章先做晶体词裁决：submodule 错标时文件名中的 NaCl/晶胞等词优先
+        _fn_crystal = fn.lower() + " " + p.lower()
+        if sub in ("原子结构", "分子结构与化学键") and any(
+                kw.lower() in _fn_crystal for _n3, _nm3, _kws3 in chapter_map
+                if _nm3 == "晶体结构" for kw in _kws3):
+            return (3, "晶体结构")
+        if sub in ("晶体结构", "晶体与晶体结构", "离子键与离子晶体"):
+            return (3, "晶体结构")
+        if sub in ("配位化学", "配位化合物"):
+            return (4, "配位化学")
+        if sub == "原子结构":
+            return (1, "原子结构")
+        if sub == "分子结构与化学键":
+            return (2, "分子结构与化学键")
+        if sub == "对称性与群论":
+            return (5, "对称性与群论")
+        if sub == "超分子与材料化学":
+            return (6, "超分子与材料化学")
+        # 结构化学基础教材：文件名内嵌教材章节主题词 → 习题书章（比关键词推断更准）
+        m_topic = re.match(r"^题-\d+-结构化学基础-([^-]+)-", fn)
+        if m_topic:
+            tmap = {
+                "量子力学": (1, "原子结构"), "原子结构": (1, "原子结构"),
+                "共价键": (2, "分子结构与化学键"), "多原子分子": (2, "分子结构与化学键"),
+                "晶体结构": (3, "晶体结构"), "金属晶体": (3, "晶体结构"),
+                "离子化合物": (3, "晶体结构"),
+                "配位化学": (4, "配位化学"),
+                "对称性": (5, "对称性与群论"),
+                "超分子": (6, "超分子与材料化学"),
+                "综合": (7, "结构化学基础"),
+            }
+            topic = m_topic.group(1)
+            if topic in tmap:
+                return tmap[topic]
 
     if module == "元素与分析":
         mod = item.get("module", "").lower()
         p = item["path"]
         pl = p.lower()
+        if "元素推断" in pl:
+            return (5, "元素推断")
         if "分析化学" in mod or "分析化学/" in pl:
             return (6, "化学分析")
         if mod.startswith("过渡-") or "元素化学/过渡-" in pl or "无机化学例题与习题/ch19" in pl \
@@ -728,6 +825,12 @@ def classify_by_keywords(item, chapter_map, module=None):
 
     for num, name, keywords in chapter_map:
         for kw in keywords:
+            # 结构化学护栏①：裸词“原子”勿吸入“多原子分子”（分子结构主题）
+            if module == "结构化学" and num == 1 and kw == "原子" and "多原子" in text:
+                continue
+            # 结构化学护栏②：“晶体场”属配位化学，勿被晶体表的“晶体”截胡
+            if module == "结构化学" and num == 3 and kw == "晶体" and "晶体场" in text:
+                continue
             if kw.lower() in text:
                 return (num, name)
 
@@ -828,6 +931,7 @@ def merge_da_items(items):
                             key=lambda f: {"自编": 0, "原书改写": 1}.get(f, 2)),
             "source": g[0]["source"],
             "title": g[0].get("title", ""),
+            "kps": g[0].get("kps", []),
             "_q": "\n\n".join(q_parts),
             "_a": "\n\n".join(a_parts),
             "_merged_n": len(g),
@@ -838,9 +942,27 @@ def merge_da_items(items):
 
 
 def is_gap_item(item):
-    """含外部资料缺口的题（答案待补充 / 前驱待定位 / 图片待补）：不入习题书。"""
+    """含外部资料缺口的题（答案待补充 / 前驱文件待定位 / 图片待补 / 以下为各题要点与答案）：不入习题书。"""
     body = item.get("body", "")
-    return bool(re.search(r"答案待补充|前驱文件待定位|图片待补", body))
+    if bool(re.search(r"答案待补充|前驱文件待定位|图片待补|以下为各题要点与答案", body)):
+        return True
+        
+    q_match = re.search(r"## 题目\n(.*?)(?=\n## |$)", body, re.DOTALL)
+    if q_match:
+        q_text = q_match.group(1)
+        # 1. 题干中提到“图”但实际没贴图的题目（无法作答）
+        if re.search(r"(按图|如图|图\s*\d+[a-zA-Z\.\-\(\)]*)", q_text) and "![[" not in q_text:
+            return True
+            
+        # 2. 配合物手绘低质图（将结构化学/无机参考书的手绘解答图误入题干的低质题目）
+        mod_info = item.get("module", "") + " " + item.get("submodule", "")
+        if "配位" in mod_info or "配合物" in mod_info:
+            if "![[" in q_text:
+                src = item.get("source", "")
+                if "周公度" in src or "结构化学" in src or "无机化学" in src or "讲义" in src or "中级" in src:
+                    return True
+                    
+    return False
 
 
 def collapse_hrs(s):
@@ -867,23 +989,36 @@ def _warn(kind, msg):
 
 
 def short_title(item):
-    """小节标题：真题取文件名描述尾段；教材题剥掉模块名前缀；其余回退 frontmatter title。"""
+    """小节标题：提取文件尾缀，屏蔽不需要的前缀或 frontmatter title"""
     fn = item["file"][:-3] if item["file"].endswith(".md") else item["file"]
+    drop_words = ["赵鑫光", "上海中学竞赛教程", "上海中学竞赛课程", "上海中学"]
+
     m = re.match(r"^题-[\dA-Za-z]+(?:-\d+)+-(.+)$", fn)
     if m:
-        return m.group(1).strip()
-    t = re.sub(r"^题-\d+-", "", fn)
-    parts = t.split("-")
-    drop = {item.get("submodule", ""), item.get("module", ""),
-            "初赛讲义", "上海中学", "结构化学基础", "无机化学例题与习题", "例题与习题",
-            "赵鑫光", "汇智", "Clayden", "ABOC", "中级无机化学", "普通化学原理"}
-    while len(parts) > 1 and parts[0] in drop:
-        parts.pop(0)
-    t = "-".join(parts).strip()
+        t = m.group(1).strip()
+    else:
+        t = re.sub(r"^题-\d*-?", "", fn)
+        parts = t.split("-")
+        drop = {item.get("submodule", ""), item.get("module", ""),
+                "补充", "结构化学基础", "无机化学习题", "习题", "真题", 
+                "Clayden", "ABOC", "中级无机化学", "普通化学原理",
+                "赵鑫光", "上海中学"}
+        while len(parts) > 1 and parts[0] in drop:
+            parts.pop(0)
+        t = "-".join(parts).strip()
+
+    for w in drop_words:
+        t = t.replace(w, "")
+    t = re.sub(r"-+", "-", t).strip("-")
+
     if t and not re.fullmatch(r"[\d\-.]+", t):
         return t
+
     ttl = item.get("title", "")
-    ttl = re.sub(r"^题-[^\s：:]+[：:]\s*", "", ttl).strip()
+    for w in drop_words:
+        ttl = ttl.replace(w, "")
+    ttl = re.sub(r"-+", "-", ttl).strip("-")
+    ttl = re.sub(r"^[^\s：:]+[：:]\s*", "", ttl).strip()
     return ttl
 
 
@@ -931,9 +1066,12 @@ def build_book(module, out_dir, chapter_map, exclude_subs=None):
     # 按章节号排序
     groups = collections.OrderedDict(sorted(groups.items(), key=lambda x: x[0][0]))
 
-    # 每章按难度排序
+    # 每章排序：质量优先（fidelity 逐字 > 改写 > 自编），难度次之。
+    # 原则（2026-08-31 用户决策）：不做难度分级，按题目质量区分筛选；
+    # fidelity 为质量标签（🟢原书逐字 / 🟡原书改写 / 🔵自编）。
+    FID_RANK = {"原书逐字": 0, "原书改写": 1, "自编": 2}
     for key in groups:
-        groups[key].sort(key=lambda x: x["difficulty"])
+        groups[key].sort(key=lambda x: (FID_RANK.get(x.get("fidelity", ""), 9), x["difficulty"]))
 
     # 生成章节文件
     index_rows = []
@@ -1013,7 +1151,6 @@ def build_book(module, out_dir, chapter_map, exclude_subs=None):
             title = short_title(item)
             if title:
                 head += f" {title}"
-            head += f" 〔{tag} d{d}〕"
             label = exam_label(item)
             if label:
                 head += f"（{label}）"
@@ -1024,6 +1161,8 @@ def build_book(module, out_dir, chapter_map, exclude_subs=None):
                 "fid": fid,
                 "path": item["path"],
                 "exam": label,
+                "chapter_num": num,
+                "chapter_name": name,
             })
             lines.append(head)
             lines.append("")
@@ -1077,11 +1216,62 @@ def build_book(module, out_dir, chapter_map, exclude_subs=None):
             "title": r["title"],
             "source": r["source"],
             "fid": r["fid"],
+            "chapter_num": r.get("chapter_num", 0),
+            "chapter_name": r.get("chapter_name", ""),
         })
     if non_exam:
         print(f"  {module} 来源索引汇总: {len(non_exam)} 条非真题来源")
 
     print(f"\n{module} 习题书生成完成: {len(groups)} 章, {total_q} 题")
+
+    # 记录构建统计，供 main 末尾自动同步 README（防止数字漂移）
+    BOOK_STATS[module] = {"chapters": len(groups), "questions": total_q,
+                          "dir": os.path.basename(out_dir.rstrip("/\\"))}
+
+
+def sync_readme_stats():
+    """构建完成后自动回写 README.md 的题数/章节构成（WRITE 模式）。
+    防 2026-08-31 实测的"README 声称 1,685 题、实际 1,262 题"式漂移。"""
+    p = os.path.join(BASE.rsplit("/", 1)[0] if False else ".", README_PATH)
+    if not os.path.isfile(p):
+        print(f"  [sync-readme] ⚠️ README 不存在: {p}，跳过")
+        return
+    text = open(p, encoding="utf-8").read()
+    if not BOOK_STATS:
+        print("  [sync-readme] ⚠️ 无构建统计，跳过")
+        return
+    total = sum(s["questions"] for s in BOOK_STATS.values())
+    n_chapters = sum(s["chapters"] for s in BOOK_STATS.values())
+    total_str = f"{total:,}".replace(",", ",")
+    total_raw = str(total)
+    module_order = ["化学原理", "结构化学", "有机化学", "元素与分析"]
+    parts_line = "、".join(f"{m} {BOOK_STATS[m]['questions']}" for m in module_order if m in BOOK_STATS)
+    today = date.today().isoformat()
+
+    def repl(pattern, repl_text, count=1):
+        nonlocal text
+        new, n = re.subn(pattern, repl_text, text, count=count)
+        if n == 0:
+            print(f"  [sync-readme] ⚠️ 未匹配: {pattern}")
+        text = new
+
+    # 1) 页头四篇总数声明（保留"31 章 / N 题"结构）
+    repl(r"\*\*31 章 / [\d,]+ 题\*\*（磁盘实测[^）]*）", f"**{n_chapters} 章 / {total_str} 题**（构建实测 {today}）")
+    repl(r"\*\*31 章 / [\d,]+ 题\*\*", f"**{n_chapters} 章 / {total_str} 题**")
+    # 2) 双版本表格行（先学生版 0 答案块，再教师版 >0 答案块；避免把"0 答案块"误当答案数）
+    repl(r"31 章 / [\d,]+ 题 / 0 答案块", f"{n_chapters} 章 / {total_str} 题 / 0 答案块")
+    repl(r"31 章 / [\d,]+ 题 / [1-9][\d,]* 答案块", f"{n_chapters} 章 / {total_str} 题 / {total_str} 答案块")
+    # 3) 四篇构成行（行内 "化学原理 121、结构化学 ..." 整体替换）
+    repl(r"四篇构成（[^）]*）：[^\n]+",
+         f"四篇构成（构建实测 {today}）：{parts_line}。")
+    # 4) updated 日期
+    repl(r"(?m)^updated: \d{4}-\d{2}-\d{2}$", f"updated: {today}", count=2)
+    try:
+        with open(p, "w", encoding="utf-8") as f:
+            f.write(text)
+        print(f"  [sync-readme] ✅ README 已同步: {n_chapters} 章 / {total} 题（{parts_line}）")
+    except OSError as e:
+        print(f"  [sync-readme] ❌ 写入失败: {e}")
 
 
 # 化学原理习题书（酸碱置于化学平衡之前，避免 submodule「酸碱平衡」误入第 2 章）
@@ -1121,11 +1311,14 @@ YSFX_MAP = [
 ]
 
 # 结构化学习题书
+# 2026-09-01 分类审计裁决：晶体表置于化学键表之前——凡文本命中晶体主题词
+# （晶体/晶胞/晶格/点阵/堆积…）即判晶体章，即使化学键词（离子键/杂化）同时出现。
+# 匹配循环内置两条护栏：“多原子”不吸入原子章、“晶体场”不吸入晶体章。
 STRUCTURE_MAP = [
     (1, "原子结构", ["原子", "量子", "核外", "波函数", "电离", "光谱", "电子排布", "屏蔽效应", "电子亲和能", "放射性衰变", "核化学", "核反应", "超重元素", "外星周期系", "二维周期系"]),
-    (2, "分子结构与化学键", ["分子结构", "化学键", "共价键", "价键", "杂化", "vsepr", "lewis", "等电子体", "离域π键", "分子轨道", "氢键", "价键理论", "离子键", "化学键与分子结构", "分子结构与VSEPR"]),
     (3, "晶体结构", ["晶体", "晶胞", "晶格", "点阵", "堆积", "布拉维", "晶面", "晶胞计算", "晶胞计数", "密堆积", "金刚石", "NaCl", "ZnS", "钙钛矿", "沸石", "分子筛", "富勒烯", "六方氮化硼", "合金", "冰晶石", "NiAs", "高温超导", "缺陷晶体", "表面化学", "超四面体", "聚八面体", "最密堆积", "固体电解质", "金属晶体", "离子晶体", "储氢", "二维层状", "三维骨架", "冰"]),
-    (4, "配位化学", ["配位", "配合物", "晶体场", "分裂能", "配位数", "配体", "配合物结构", "配合物组成", "配合物化学", "配位立体异构", "配位场理论", "配位催化", "金属有机", "配合物磁性", "配合物杂化"]),
+    (2, "分子结构与化学键", ["分子结构", "化学键", "共价键", "价键", "杂化", "vsepr", "lewis", "等电子体", "离域π键", "分子轨道", "氢键", "价键理论", "离子键", "化学键与分子结构", "分子结构与VSEPR"]),
+    (4, "配位化学", ["配位", "配合物", "晶体场", "分裂能", "配位数", "配体", "配合物结构", "配合物组成", "配合物化学", "配位立体异构", "配位场理论", "配位催化", "金属有机", "有机金属", "配合物磁性", "配合物杂化"]),
     (5, "对称性与群论", ["对称性", "群论", "点群", "分子对称性"]),
     (6, "超分子与材料化学", ["超分子", "氢键网络", "三维骨架", "分子筛", "沸石", "MOF", "胶束", "表面化学", "纳米", "材料", "二维层状", "固体电解质", "锂离子电池"]),
     (7, "结构化学基础", ["结构化学基础", "化学计量", "物理化学", "无氧实验操作"]),
@@ -1209,8 +1402,10 @@ if __name__ == "__main__":
 
     build_book("结构化学", f"{book_root}/第二篇-结构化学", STRUCTURE_MAP)
 
-    # ---- 全书来源索引（附于成书最后）：聚合四篇的全部非真题来源 ----
+    # ---- 全书来源索引（附于成书最后）：按专题（篇·章）分组，便于按专题查阅 ----
+    # 2026-09-01 用户需求：改为"热力学题目来源""化学平衡题目来源"式按专题排列
     if ALL_NON_EXAM:
+        MODULE_ORDER = ["化学原理", "结构化学", "有机化学", "元素与分析"]
         idx = []
         idx.append("---")
         idx.append(f'title: "习题书（来源索引 · {EDITION_LABEL}）"')
@@ -1220,25 +1415,32 @@ if __name__ == "__main__":
         idx.append(f"question_count: {len(ALL_NON_EXAM)}")
         idx.append("---")
         idx.append("")
-        idx.append(f"# 习题书 · 来源索引（{EDITION_LABEL}）")
+        idx.append(f"# 习题书 · 来源索引（{EDITION_LABEL} · 按专题）")
         idx.append("")
         idx.append(f"> 收录非真题题目 **{len(ALL_NON_EXAM)}** 条（真题已在正文标注届次来源）。")
-        idx.append("> 排序：先按来源，再按篇·题号。")
+        idx.append("> 排序：先按篇·章（专题），章内再按题号；每节即该专题的题目来源清单。")
         idx.append("")
-        by_src = collections.OrderedDict()
-        for r in sorted(ALL_NON_EXAM, key=lambda r: (r["source"], r["module"], r["num"])):
-            by_src.setdefault(r["source"] or "（来源未填）", []).append(r)
-        for src, rows in by_src.items():
-            idx.append(f"## {src}")
+
+        def _mod_key(m):
+            return MODULE_ORDER.index(m) if m in MODULE_ORDER else 9
+
+        by_ch = collections.OrderedDict()
+        for r in sorted(ALL_NON_EXAM, key=lambda r: (_mod_key(r["module"]),
+                                                     int(r["chapter_num"]), r["num"])):
+            by_ch.setdefault((r["module"], int(r["chapter_num"]),
+                              r["chapter_name"]), []).append(r)
+        for (mod, cnum, cname), rows in by_ch.items():
+            idx.append(f"## {mod} · 第{cnum}章 {cname}题目来源（{len(rows)} 题）")
             idx.append("")
-            idx.append("| 篇·题号 | 标题 | 保真 |")
-            idx.append("|:--|:--|:--|")
+            idx.append("| 篇·题号 | 标题 | 来源 | 保真 |")
+            idx.append("|:--|:--|:--|:--|")
             for r in rows:
                 tag = "🟢" if "逐字" in r["fid"] else ("🔵" if "自编" in r["fid"] else "🟡")
-                idx.append(f"| {r['module']}·{r['num']} | {r['title'] or '(无标题)'} | {tag} |")
+                idx.append(f"| {r['module']}·{r['num']} | {r['title'] or '(无标题)'} "
+                           f"| {r['source'] or '（来源未填）'} | {tag} |")
             idx.append("")
         write_output(os.path.join(book_root, "来源索引.md"), "\n".join(idx))
-        print(f"  全书来源索引: {len(ALL_NON_EXAM)} 条非真题来源 → {book_root}/来源索引.md")
+        print(f"  全书来源索引（按专题）: {len(ALL_NON_EXAM)} 条非真题来源 → {book_root}/来源索引.md")
 
     # ---- 质量告警汇总（两篇版本共用，按类型聚合）----
     if WARNINGS:
@@ -1247,3 +1449,7 @@ if __name__ == "__main__":
             print(f"\n[{kind}] 共 {len(items)} 处")
             for msg in items[:9999]:
                 print(f"  - {msg}")
+
+    # ---- 构建后自动同步 README 题数/构成（仅写盘模式）----
+    if WRITE:
+        sync_readme_stats()

@@ -15,6 +15,64 @@ HASH_NAME_RE = re.compile(r"[0-9a-fA-F]{64}\.[A-Za-z0-9]+")
 """校验生成结果：题头数 = question_count = 答案 details 数，图片嵌入格式正确。"""
 
 
+def check_toc_consistency(root):
+    """校验每篇 目录.md 与其章节文件一致：章数/章名/题数。
+    防止出现"章节文件已 8 章而目录仍 7 章"的漂移（2026-08-31 实测发生）。"""
+    errs = []
+    toc_files = []
+    for dirpath, _, fns in os.walk(root):
+        if "目录.md" in fns:
+            toc_files.append(os.path.join(dirpath, "目录.md"))
+    toc_files.sort()
+    if not toc_files:
+        return errs
+    for toc_path in toc_files:
+        part_dir = os.path.dirname(toc_path)
+        toc_text = open(toc_path, encoding="utf-8").read()
+        # 解析目录条目：1. [[1-热力学|第 1 章 热力学]] — 44 题（d1=…）
+        entries = []
+        for m in re.finditer(r"(?m)^(\d+)\. \[\[([^\]|]+)\|([^\]]+)\]\] — (\d+) 题", toc_text):
+            entries.append({
+                "num": int(m.group(1)),
+                "fname": m.group(2).strip(),
+                "label": m.group(3).strip(),
+                "count": int(m.group(4)),
+            })
+        if not entries:
+            errs.append(f"{os.path.relpath(toc_path, root)}: 目录条目解析为空（格式可能已变）")
+            continue
+        # 实际章节文件（同目录下的 *.md，排除 目录.md）
+        actual = {}
+        for fn in sorted(os.listdir(part_dir)):
+            if not fn.endswith(".md") or fn == "目录.md":
+                continue
+            fp = os.path.join(part_dir, fn)
+            text = open(fp, encoding="utf-8").read()
+            qc = re.search(r"(?m)^question_count: (\d+)", text)
+            head = re.search(r"(?m)^# (.+)$", text)
+            actual[fn[:-3]] = {"count": int(qc.group(1)) if qc else -1,
+                               "head": head.group(1).strip() if head else ""}
+        # 对照
+        toc_names = {e["fname"] for e in entries}
+        act_names = set(actual.keys())
+        missing = act_names - toc_names   # 章节文件存在但目录未列
+        stale = toc_names - act_names     # 目录列出但文件缺失
+        if missing:
+            errs.append(f"{os.path.relpath(part_dir, root)}: 目录未收录 {len(missing)} 个章节文件（{sorted(missing)}）——章节文件漂移，重建目录或核对")
+        if stale:
+            errs.append(f"{os.path.relpath(part_dir, root)}: 目录列出但文件缺失 {len(stale)} 章（{sorted(stale)}）")
+        for e in entries:
+            a = actual.get(e["fname"])
+            if a is None:
+                continue
+            if a["count"] != e["count"]:
+                errs.append(f"{os.path.relpath(part_dir, root)}: 目录称 [{e['label']}] {e['count']} 题，章节文件实际 {a['count']} 题")
+            # 章名核对：目录 label「第 N 章 名称」 vs 文件 # 第 N 章 名称
+            if a["head"] and a["head"] != e["label"]:
+                errs.append(f"{os.path.relpath(part_dir, root)}: 目录 label「{e['label']}」与章节标题「{a['head']}」不一致")
+    return errs
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--root", default=".preview_build", help="习题书输出根目录")
@@ -35,7 +93,8 @@ def main():
     files = []
     for dirpath, _, fns in os.walk(root):
         for fn in fns:
-            if fn.endswith(".md") and fn not in {"目录.md", "_未分类submodule统计.md"}:
+            if fn.endswith(".md") and fn not in {"目录.md", "_未分类submodule统计.md"} \
+                    and not fn.startswith("来源索引") and not fn.startswith("附录"):
                 files.append(os.path.join(dirpath, fn))
     files.sort()
 
@@ -145,6 +204,11 @@ def main():
     print(f"疑似未闭合嵌入: {total_broken_embeds}")
     print(f"残留 Markdown 图链: {total_md_imgs}（非哈希按原样保留）")
     print(f"残留 !哈希.jpg 旧格式: {total_broken_bang}")
+
+    # ---- 目录.md 与章节文件一致性检查（防"章节文件漂移"未被发现）----
+    toc_errors = check_toc_consistency(root)
+    errors.extend(toc_errors)
+
     if errors:
         print("\n校验失败：")
         for e in errors:
