@@ -50,3 +50,5 @@ images_in_q.txt
 
 # 批量修改前的 md 备份快照（2026-09-01）
 .workbuddy/backups/
+# 体检/恢复脚本的运行时中间产物（2026-09-01，allobj.txt 18MB+ 仍会膨胀）
+.workbuddy/tmp/
