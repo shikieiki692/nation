@@ -15,7 +15,7 @@ handout_plan:
     priority: P1
     source_sections: ["第37章 自由基反应（链式反应、NBS溴代、自由基加成、Barton反应、自由基环化）"]
     estimated_pages: 6
-knowledge_points: [自由基, 自由基机理, 过氧化物效应, 自由基取代, 键解离能, 键的强度, 亲核取代, 共轭效应, 反马氏加成, 频哪醇偶联, McMurry反应, 有机还原反应, 共轭加成, 聚合反应, 天然产物合成, 化竞合成题, Baldwin规则]
+knowledge_points: [自由基, 自由基机理, 过氧化物效应, 自由基取代, 键解离能, 键的强度, 亲核取代, 共轭效应, 反马氏加成, 频哪醇偶联, McMurry反应, 有机还原反应, 共轭加成, 聚合反应, 天然产物合成, Baldwin规则]
 ---
 
 # 提炼：Clayden 第37章——自由基反应（Radical Reactions）

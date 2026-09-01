@@ -18,7 +18,7 @@ handout_plan:
     priority: P1
     source_sections: ["第2章 有机结构（碳骨架、官能团、IUPAC命名、氧化态分类）"]
     estimated_pages: 28
-knowledge_points: [官能团, sp3杂化, sp2杂化, 官能团识别, IUPAC命名法, 有机元素符号, 氧化程度分类, 结构绘制准则, 立体化学表示, 有机反应机理, 立体化学, 芳香化学, 羧酸衍生物, 氨基酸与蛋白质, 结构推断题, 命名题, 官能团转化]
+knowledge_points: [官能团, sp3杂化, sp2杂化, 官能团识别, IUPAC命名法, 有机元素符号, 氧化程度分类, 结构绘制准则, 立体化学表示, 有机反应机理, 立体化学, 芳香化学, 羧酸衍生物, 氨基酸与蛋白质, 官能团转化]
 ---
 
 # 提炼：Clayden 第2章——有机结构（Organic Structure）

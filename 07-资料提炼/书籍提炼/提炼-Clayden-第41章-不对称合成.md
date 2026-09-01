@@ -15,7 +15,7 @@ handout_plan:
     priority: P2
     source_sections: ["第41章 不对称合成（手性助剂、手性配体、Sharpless/Noyori不对称催化）"]
     estimated_pages: 6
-knowledge_points: [不对称合成, 手性中心, 不对称氢化, 立体化学基础, 非对映选择性, 羰基反应, Aldol缩合, 金属有机化学, 手性池合成, 拆分技术, 手性助剂, 不对称催化还原, 不对称环氧化, 不对称双羟基化, 配体加速催化, 药物合成, 天然产物合成, 化竞合成题]
+knowledge_points: [不对称合成, 手性中心, 不对称氢化, 立体化学基础, 非对映选择性, 羰基反应, Aldol缩合, 金属有机化学, 手性池合成, 拆分技术, 手性助剂, 不对称催化还原, 不对称环氧化, 不对称双羟基化, 配体加速催化, 药物合成, 天然产物合成]
 ---
 
 # 提炼：Clayden 第41章——不对称合成（Asymmetric Synthesis）

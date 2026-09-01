@@ -7,7 +7,7 @@ priority: P3
 area: 知识库系统
 owner: Agent
 created: 2026-08-02
-updated: 2026-08-31
+updated: 2026-09-01
 description: >
   每周一 08:23 运行 validate_kb.py 全量验证，对比基线只报异常增量，
   并检查上轮 follow-up 断链清单是否已清。目录/文件重组后必须立即补跑。
@@ -54,9 +54,9 @@ python "11-模板/scripts/scan_question_quality.py"       # 逐题质量扫描�
 ## 巡检逻辑
 
 1. 读取 `09-审计报告/auto-validation/YYYY-MM-DD-validation.md`
-2. 对比基线（0 error / 2,578 warning，2026-08-31 终检 full 实测；枚举 0，断链类存量按指示暂不处理）
+2. 对比基线（0 error / 1,641 warning，2026-09-01 深夜终检 full 实测；枚举 0，图片缺失 0，正文断链 45 + frontmatter 1,590 存量按指示暂不处理）
 3. 周报写入 `09-审计报告/周巡检-YYYY-MM-DD.md`，**仅报异常增量**；三件套对比基线：
-   - diag_remaining：`no_answer` 必须保持 0；题目计数 3,933（题目 3,870 + 真题 63）漂移即报
+   - diag_remaining：`no_answer` 必须保持 0；题目计数 3,942（diag 工具口径：type=题目 3,879 + 真题 63，09-01 实测；grep 原始 3,883+63=3,946，差 4 为 YAML 解析盲区，属已知偏差）漂移即报
    - scan_question_quality：候选总数 256 基线（答案占位 192 + 已核验误报/合法项），新增问题类即报
 4. 检查上轮 follow-up 断链清单是否已清
 5. 顺带刷新媒体备份：`python scripts/backup_media.py`（manifest 落 10-索引与统计/媒体仓库清单.json），并检查 `09-审计报告/备份/media-backup-*.zip` 新鲜度（>7 天则重建 zip）
@@ -66,16 +66,17 @@ python "11-模板/scripts/scan_question_quality.py"       # 逐题质量扫描�
 
 | 指标 | 值 |
 |:---|:---|
-| 受检文件 | 6162 |
+| 受检文件 | 6167 |
 | Error | 0 |
-| Warning | 2578（枚举 0；断链类存量 2553 = 正文断链 554 + frontmatter 断链 1642 + 图片缺失 357，按用户指示暂不处理；另标题跳跃 3 + stage-门禁 22） |
-| Info | 7332 |
-| 答案缺口 | no_answer 0 / placeholder 201（合法）/ 思路占位 211（ABOC 152 + 初赛讲义 59，原书无文字答案为主） |
-| 题目计数 | 3,933（type=题目 3,870 @04-题库 + 真题 63 @05-真题库，含汇智补题 4） |
+| Warning | 1641（枚举 0；图片缺失 0；存量 = 正文断链 45 + frontmatter 断链 1590，按用户指示分批消解；另标题跳跃 3 + stage-门禁 3） |
+| Info | 7338 |
+| 答案缺口 | no_answer 0 / placeholder 211（合法）/ short 27（ABOC 思路占位无源可补） |
+| 题目计数 | 3,946（grep 逐桶实测：type=题目 3,883【含 9 例题】+ 真题 63 @05-真题库；diag 工具口径 3,942。较 08-31 的 3,933 +13 = 教材习题 +10【无机例题与习题 +9（Ch09 例题转正等）+ 结构化学基础 +1】+ 教学改编 +3【择优补入】） |
 | 质量扫描 | 候选 256（2026-08-31 终检；答案占位 192 = ABOC/初赛讲义已知欠账 + 已核验误报/合法项，无可自动修复） |
 
 ## 最近运行记录
 
+- **2026-09-01 full（深夜终检）**：6167 文件 · **0 error / 1641 warning**。较 08-31（2,578）**-937**：图片缺失 357→0（355 处校验器误报修复 + 缺图恢复 + EDTA 真图挂接）、正文断链 554→45（子编号 26 处 + 阶段七~九治理 + 新建 4 个高频 KP）、frontmatter 1,642→1,590（非术语值 17 个 51 处清除）。报告 [[09-审计报告/auto-validation/2026-09-01-validation]]
 - **2026-08-31 full（终检）**：6162 文件 · **0 error / 2578 warning**。较盲区补齐基线（2,660）-82：路径式断链 34→0、KP 改指 50 处（frontmatter 断链 1,724→1,642）、汇智补题 4 题并恢复 9 处引用；status-枚举 4 处（补题 status 值）已修为 `已补全答案` 归零。报告 [[09-审计报告/auto-validation/2026-08-31-validation]]
 - **2026-08-31 full（盲区补齐后）**：6160 文件 · 0 error / 2660 warning。validate_kb 新增题库六字段枚举检查（仅题目类）+ frontmatter 内 wikilink 断链检查；枚举 0 告警，frontmatter 断链暴露存量 KP 红链 1724（knowledge_points 挂载不存在的 KP 标题，与 audit 同源，暂不处理）；2 个习题书附录 Error 已补 frontmatter 清零。报告 [[09-审计报告/auto-validation/2026-08-31-validation]]
 - **2026-08-28 full 最终**：6509 文件 · 0 error / 2 warning / 7674 info · 断链 1 / 图片缺失 1 / 标题跳跃 0。修复：XES 50 条+33 届决赛 19 条+模块习题集 87 条+标题跳跃 2357 处+验证器排除噪音 254 条。报告 [[09-审计报告/auto-validation/2026-08-29-validation]]

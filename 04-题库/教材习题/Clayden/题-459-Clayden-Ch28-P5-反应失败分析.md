@@ -74,7 +74,7 @@ The reactions were planned to give syntheses of these three molecules. In the ev
 |---|---|:---:|
 | [[逆合成分析]] | 分析失败原因并改进方案 | 直接 |
 | [[化学选择性]] | 多反应位点的选择性控制 | 直接 |
-| [[推断题]] | 从实际产物推断反应类型 | 直接 |
+| 推断题 | 从实际产物推断反应类型 | 直接 |
 | [[Aldol缩合]] | 烯醇化方向和自缩合 | 间接 |
 
 ## 解题思路

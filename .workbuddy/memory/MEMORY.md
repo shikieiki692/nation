@@ -4,10 +4,10 @@
 - `11-模板/scripts/` 下审计/校验脚本（`validate_kb.py`、`audit_question_bank.py`、`diag_remaining.py` 等）**必须用系统 Python 3.12**：`C:\Users\蕾赛\AppData\Local\Programs\Python\Python312\python.exe`（已装 PyYAML 6.0.2）。
 - managed 3.13.12 无 PyYAML，直接跑报 `ERROR: PyYAML is required`。
 
-## 题库口径基线（2026-08-31 晚实测，双口径闭合）
-- 题目总数 **3,933** = type=题目 3,870 @04-题库 + 真题 63 @05-真题库（晚补汇智 4 题：分子结构-36、晶体结构-65/73/75）。
+## 题库口径基线（2026-09-01 深夜实测，双口径闭合）
+- 题目总数 **3,946** = type=题目 3,883 @04-题库（grep 逐桶闭合：真题 396+化学原理 373+教材习题 2,810+有机 202+分析 31+教学改编 23+元素 21+物化 18+经典例题 9；含 9 例题）+ 真题 63 @05-真题库。diag_remaining 工具口径 3,879+63=3,942（差 4 为 YAML 解析盲区，每周比对用 diag 数）。较 08-31 的 3,933 **+13**：教材习题 +10（无机例题与习题 +9【Ch09 例题转正等】、结构化学基础 +1）+ 教学改编 +3（择优补入）。
 - 答案缺口：`no_answer: 0`（placeholder 211 / short 27 为合法占位——ABOC 211 条思路占位无源可补）。
-- `validate_kb.py --full` 基线（晚复查）：6,162 文件 · **Error 0 · Warning 2,578**（断链 554 + 断链-frontmatter 1,642 + 图片缺失 357 + 标题跳跃 3 + stage-门禁 22）。
+- `validate_kb.py --full` 基线（2026-09-01 深夜复查）：6,167 文件 · **Error 0 · Warning 1,641**（断链 45 + 断链-frontmatter 1,590 + 标题跳跃 3 + stage-门禁 3；图片缺失 0）。8-31 基线 2,578 已淘汰。
 - 六字段枚举：仅限题目类文件（QB_TYPES）；difficulty 允许 `1-5`/`\d+-\d+` 区间、exam_stage 允许 `/` 多值。
 
 ## 习题书基线（2026-09-01 治理收官）

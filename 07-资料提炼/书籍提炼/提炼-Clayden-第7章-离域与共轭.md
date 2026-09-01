@@ -18,7 +18,7 @@ handout_plan:
     priority: P1
     source_sections: ["第7章 离域与共轭（共轭二烯、1,2- vs 1,4-加成、共振论、芳香性初步）"]
     estimated_pages: 22
-knowledge_points: [共轭效应, 离域效应, 共振论, 分子轨道理论, 前线轨道理论, σ键与π键, 弯曲箭头, 光谱法测定结构, 共轭二烯的加成, 芳香亲电取代, 烯醇与烯醇盐, 杂环化学, Diels-Alder反应, 酰胺化学, 染料与色素设计, 蛋白质结构, 药物设计, 化竞机理题]
+knowledge_points: [共轭效应, 离域效应, 共振论, 分子轨道理论, 前线轨道理论, σ键与π键, 弯曲箭头, 光谱法测定结构, 共轭二烯的加成, 芳香亲电取代, 烯醇与烯醇盐, 杂环化学, Diels-Alder反应, 酰胺化学, 染料与色素设计, 蛋白质结构, 药物设计]
 ---
 
 # 提炼：Clayden 第7章——离域与共轭（Delocalization and Conjugation）
