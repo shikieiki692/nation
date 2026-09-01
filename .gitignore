@@ -52,3 +52,6 @@ images_in_q.txt
 .workbuddy/backups/
 # 体检/恢复脚本的运行时中间产物（2026-09-01，allobj.txt 18MB+ 仍会膨胀）
 .workbuddy/tmp/
+
+# 校验器每次全量重生成的依赖图（6.5 MB，每次提交 churn 约 20 万行）
+02-数据库/dependency-map.json
