@@ -39,3 +39,11 @@ node_modules/
 eiki/
 copilot/
 .agents/
+
+# 临时构建产物（2026-09-01）
+.tmp-*/
+.preview_build*/
+_tmp_*
+suspects.txt
+mis_split_suspects.txt
+images_in_q.txt
