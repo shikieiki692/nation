@@ -15,7 +15,7 @@ source: Clayden Organic Chemistry 2nd Ed. Chapter 34 Problem 7
 cross_references: ["[[题-502-Clayden-Ch35-P2-Claisen-3,3-σ迁移入门]]", "[[题-501-Clayden-Ch35-P1-Nazarov关环+Grignard和cuprate步骤]]"]
 module: 有机化学
 status: 已填充
-knowledge_points: ["[[待人工标定]]"]
+knowledge_points: ["[[立体化学]]", "[[周环反应]]"]
 subject_module: 有机化学
 pack: 模块习题集
 ---
