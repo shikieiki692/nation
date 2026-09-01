@@ -224,7 +224,7 @@ knowledge_points: [官能团, sp3杂化, sp2杂化, 官能团识别, IUPAC命名
 - **间（meta, m-）**：1,3-二取代
 - **对（para, p-）**：1,4-二取代
 
-![](clayden 有机化学/Clayden中文版_11-210_images/e632fc26ffa6389c993acbbbebb2ab54b8fdad07f4aae6cc28ea2f9e534a0ed.jpg) — 邻、间、对位取代苯的命名示例
+![[e632fc264ffa6389c993acbbbebb2ab54b8fdad07f4aae6cc28ea2f9e534a0ed.jpg]] — 邻、间、对位取代苯的命名示例
 
 ### 3.4 俗名 vs 系统命名
 

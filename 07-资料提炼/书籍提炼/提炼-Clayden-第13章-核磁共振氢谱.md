@@ -358,7 +358,7 @@ $$
 - **饱和体系**（如桃金娘醛的桥CH₂）：J较大（10–16 Hz）
 - 只有当CH₂上的两个氢不同时才可观测
 
-![](clayden 有机化学/Clayden中文版_211-405_images/4b69e4282c6c16eb03b3966ab69198802461e06e4a79b2bd801779fbc13b2fce4.jpg)
+![[4b69e4282c6c16eb03b3966ab6198802461e06e4a79b2bd801779fbc13b2fce4.jpg]]
 
 ### 3.9 单取代烯烃（乙烯基）的特征偶合
 
@@ -499,7 +499,7 @@ ABX体系是常见的复杂裂分模式：
 - ![](clayden 有机化学/Clayden中文版_211-405_images/5551e55a30c5c8cbf335c849c09996e3d73691d4a0578d901c83f360346d99ab.jpg) —— W-偶合（长程偶合）图示（line 3140）
 - ![](clayden 有机化学/Clayden中文版_211-405_images/79398e13e02b8988330d4d7acaf6ac68111e290d90055dbf5d0434fac52cadaf.jpg) —— 电负性对偶合常数的影响（line 3130）
 - ![](clayden 有机化学/Clayden中文版_211-405_images/19a9875b7207e687dea85d6c1a65df6816ce2ca1f3667b740134a9e9117f46ac.jpg) —— 丙烯酸乙酯乙烯基质子的裂分分配（line 3195）
-- ![](clayden 有机化学/Clayden中文版_211-405_images/4b69e4282c6c16eb03b3966ab69198802461e06e4a79b2bd801779fbc13b2fce4.jpg) —— 偶偶（geminal coupling）示例（line 3191）
+- ![[4b69e4282c6c16eb03b3966ab6198802461e06e4a79b2bd801779fbc13b2fce4.jpg]] —— 偶偶（geminal coupling）示例（line 3191）
 
 ### AB体系与仪器相关
 - ![](clayden 有机化学/Clayden中文版_211-405_images/31accf6c2bd1cae2ec8549f0f6f4682a4c0dde20e847c264068a2f56aa18a4a5.jpg) —— AX→AB→A₂转变过程（line 3168）

@@ -557,7 +557,7 @@ knowledge_points: [烯烃, 亲电加成, Markovnikov规则, 溴鎓离子, 环氧
 - O-O 键断裂 + 烷基从 B 迁移到 O（B→O 迁移）→ C-O 键形成
 - NaOH 去除硼 → 质子化得醇
 
-![](clayden 有机化学/Clayden中文版_402-600_images/49fc051fbb95bdc4a4a8c8f8545e412e86a9a3869be3aba7fc87dee6a9f2d42.jpg)
+![[49fc0551fbb95bdc4a4a8c8f8545e412e86a9a3869be3aba7fc87dee6a9f2d42.jpg]]
 
 ![](clayden 有机化学/Clayden中文版_402-600_images/a51f7aa20e1fe3580926837612eef1b4806a2784aa2af551744ac966281a5f31.jpg)
 
@@ -633,7 +633,7 @@ knowledge_points: [烯烃, 亲电加成, Markovnikov规则, 溴鎓离子, 环氧
 ### 硼氢化相关
 - ![](clayden 有机化学/Clayden中文版_402-600_images/09ab0b64727d27b887d9ed961e45a6e9bbd0390dac93fed86021c32da24d42bf.jpg) —— 9-BBN 结构（line 1926）
 - ![](clayden 有机化学/Clayden中文版_402-600_images/a280823ba23a09f691b9796165a02d29f934d6537f104b76f291a6a5738c4845.jpg) —— 硼氢化机理（line 1942）
-- ![](clayden 有机化学/Clayden中文版_402-600_images/49fc051fbb95bdc4a4a8c8f8545e412e86a9a3869be3aba7fc87dee6a9f2d42.jpg) —— 过氧氢根进攻硼（line 1951）
+- ![[49fc0551fbb95bdc4a4a8c8f8545e412e86a9a3869be3aba7fc87dee6a9f2d42.jpg]] —— 过氧氢根进攻硼（line 1951）
 - ![](clayden 有机化学/Clayden中文版_402-600_images/a51f7aa20e1fe3580926837612eef1b4806a2784aa2af551744ac966281a5f31.jpg) —— B→O 迁移机理（line 1955）
 
 ---

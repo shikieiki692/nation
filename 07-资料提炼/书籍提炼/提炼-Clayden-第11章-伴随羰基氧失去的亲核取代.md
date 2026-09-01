@@ -289,7 +289,7 @@ R₂C=O + Ph₃P=CR'₂ → R₂C=CR'₂ + Ph₃P=O
 ### 还原胺化与 Strecker 合成
 - ![](clayden 有机化学/Clayden中文版_211-405_images/c860551fd95fcb7a875852efd67f6f3ee74ac79616f5401aec609027568c9e18.jpg) —— Na(CN)BH₃ 选择性还原亚铵离子（line 1519）
 - ![](clayden 有机化学/Clayden中文版_211-405_images/5515ed8e1e1ac56def4ad880bc7492e7d214f79fc5412c705cbc13a395d30e7b.jpg) —— Na(CN)BH₃ 结构（line 1521）
-- ![](clayden 有机化学/Clayden中文版_211-405_images/cd835198081c0d3e6f0581059be83d7353bb43b35aebf541f7354c6615277df.jpg) —— 还原胺化反应总式（line 1531）
+- ![[cd835198081c0d3e6f0581059be83d73513bb43b35aebf541f7354c6615277df.jpg]] —— 还原胺化反应总式（line 1531）
 - ![](clayden 有机化学/Clayden中文版_211-405_images/19a0079ad4d0b6b0e71a792eeab571f00668a1d2500a5e26e12506639d61b5b9.jpg) —— 一锅法还原胺化实例（line 1535）
 - ![](clayden 有机化学/Clayden中文版_211-405_images/257db31b6c04d289ab0a91119743d851101bcf50f16074b5a6c6ed1039dc1e91.jpg) —— 丙氨酸的还原胺化合成（line 1551）
 - ![](clayden 有机化学/Clayden中文版_211-405_images/a27b574e96d21508524c7af9ffc4ea05a8a2c7a999603e6826d0db30c2b316bb.jpg) —— 生物体中丙氨酸合成（吡哆胺路线）（line 1559）
