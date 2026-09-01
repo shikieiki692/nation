@@ -7,7 +7,7 @@ priority: P3
 area: 知识库系统
 owner: Agent
 created: 2026-08-02
-updated: 2026-08-28
+updated: 2026-08-31
 description: >
   每周一 08:23 运行 validate_kb.py 全量验证，对比基线只报异常增量，
   并检查上轮 follow-up 断链清单是否已清。目录/文件重组后必须立即补跑。
@@ -30,6 +30,8 @@ evidence:
   - "2026-08-14(第二轮): 3 个同源 kp_target 断链修复后重跑（--full 6266 文件）——0 error / 1355 warning / 7442 info / 断链 -3。修复内容：资料提炼-周坤-定量化学分析 3 个指向未建文档的 kp_target 断链（[[OCR 公式修复指南]]、[[术语统一规范]]、[[OCR 噪声识别与过滤]]）统一改指 [[经验沉淀]]，消除自 08-02 起持续 7 轮报告的断链。基线更新为 0 error / 1355 warning。"
   - "2026-08-14(第三轮): 12 处同类 kp_target 断链修复后重跑（--full 6266 文件）——0 error / 1343 warning / 7442 info / 断链 -12。修复内容：周坤资料提炼 3 文件（原子结构与分子结构、热力学与化学平衡、电化学与溶液）踩坑回流段 12 个指向未建规划文档的 kp_target 断链——9 处改指 [[经验沉淀]]（OCR/格式、术语、OCR噪声/标题不匹配），3 处 10.3 mineru 漏图改指 [[00-首页/图片待补清单]]（与定量化学分析修复同型）。基线更新为 0 error / 1343 warning。"
   - "2026-08-28: 全库 --full 补跑——6591 文件 · 0 error / 456 warning / 7750 info。Warning 从 1343 降至 456（-66%），断链从 1355 降至 337（-75%）。新增图片缺失 73（学而思 XES 题 50 张 + 33 届决赛 19 张）和标题跳跃 46（习题书）。基线更新为 0 error / 456 warning。"
+  - "2026-08-31: validate_kb 盲区合并（题库六字段枚举检查仅题目类 + frontmatter 内 wikilink 断链检查）后 full 实测——6160 文件 · 0 error / 2660 warning（枚举 0；frontmatter 断链暴露存量 KP 红链 1724，与 audit 同源，用户指示暂不处理）；2 个习题书附录 Error 已补 frontmatter 清零。"
+  - "2026-08-31(终检): 全链收尾后 full 实测——6162 文件 · 0 error / 2578 warning（较 2660 -82：路径式断链 34→0、KP 改指 50 处、汇智补题 4 恢复引用 9 处等）。基线更新为 0 error / 2578 warning；三件套纳入周检（diag_remaining + scan_question_quality）。"
 ---
 
 # validate_kb 每周运行（定时巡检）
@@ -43,29 +45,39 @@ evidence:
 
 ```powershell
 cd "C:/Obsidion/妙妙屋"
-python "11-模板/scripts/validate_kb.py" --full
+# 三件套（2026-08-31 起纳入周检）——需用系统 Python 3.12（已装 PyYAML）
+python "11-模板/scripts/validate_kb.py" --full          # 全量校验（frontmatter/断链/图片/枚举）
+python "11-模板/scripts/diag_remaining.py"              # 答案缺口 + 命名 + 题目计数
+python "11-模板/scripts/scan_question_quality.py"       # 逐题质量扫描（OCR 特征/选项/答案/格式）
 ```
 
 ## 巡检逻辑
 
 1. 读取 `09-审计报告/auto-validation/YYYY-MM-DD-validation.md`
-2. 对比基线（0 error / 2 warning，2026-08-28）
-3. 周报写入 `09-审计报告/周巡检-YYYY-MM-DD.md`，**仅报异常增量**
+2. 对比基线（0 error / 2,578 warning，2026-08-31 终检 full 实测；枚举 0，断链类存量按指示暂不处理）
+3. 周报写入 `09-审计报告/周巡检-YYYY-MM-DD.md`，**仅报异常增量**；三件套对比基线：
+   - diag_remaining：`no_answer` 必须保持 0；题目计数 3,933（题目 3,870 + 真题 63）漂移即报
+   - scan_question_quality：候选总数 256 基线（答案占位 192 + 已核验误报/合法项），新增问题类即报
 4. 检查上轮 follow-up 断链清单是否已清
 5. 顺带刷新媒体备份：`python scripts/backup_media.py`（manifest 落 10-索引与统计/媒体仓库清单.json），并检查 `09-审计报告/备份/media-backup-*.zip` 新鲜度（>7 天则重建 zip）
 6. 完成后桌面通知
 
-## 关键基线（2026-08-28 full 最终）
+## 关键基线（2026-08-31 终检 full 实测）
 
 | 指标 | 值 |
 |:---|:---|
-| 受检文件 | 6509 |
+| 受检文件 | 6162 |
 | Error | 0 |
-| Warning | 2（断链 1 归档文件死图 + 图片缺失 1 归档文件） |
-| Info | 7674 |
+| Warning | 2578（枚举 0；断链类存量 2553 = 正文断链 554 + frontmatter 断链 1642 + 图片缺失 357，按用户指示暂不处理；另标题跳跃 3 + stage-门禁 22） |
+| Info | 7332 |
+| 答案缺口 | no_answer 0 / placeholder 201（合法）/ 思路占位 211（ABOC 152 + 初赛讲义 59，原书无文字答案为主） |
+| 题目计数 | 3,933（type=题目 3,870 @04-题库 + 真题 63 @05-真题库，含汇智补题 4） |
+| 质量扫描 | 候选 256（2026-08-31 终检；答案占位 192 = ABOC/初赛讲义已知欠账 + 已核验误报/合法项，无可自动修复） |
 
 ## 最近运行记录
 
+- **2026-08-31 full（终检）**：6162 文件 · **0 error / 2578 warning**。较盲区补齐基线（2,660）-82：路径式断链 34→0、KP 改指 50 处（frontmatter 断链 1,724→1,642）、汇智补题 4 题并恢复 9 处引用；status-枚举 4 处（补题 status 值）已修为 `已补全答案` 归零。报告 [[09-审计报告/auto-validation/2026-08-31-validation]]
+- **2026-08-31 full（盲区补齐后）**：6160 文件 · 0 error / 2660 warning。validate_kb 新增题库六字段枚举检查（仅题目类）+ frontmatter 内 wikilink 断链检查；枚举 0 告警，frontmatter 断链暴露存量 KP 红链 1724（knowledge_points 挂载不存在的 KP 标题，与 audit 同源，暂不处理）；2 个习题书附录 Error 已补 frontmatter 清零。报告 [[09-审计报告/auto-validation/2026-08-31-validation]]
 - **2026-08-28 full 最终**：6509 文件 · 0 error / 2 warning / 7674 info · 断链 1 / 图片缺失 1 / 标题跳跃 0。修复：XES 50 条+33 届决赛 19 条+模块习题集 87 条+标题跳跃 2357 处+验证器排除噪音 254 条。报告 [[09-审计报告/auto-validation/2026-08-29-validation]]
 - **2026-08-28 full 中间**：6591 文件 · 0 error / 456 warning · 断链 337 / 图片缺失 73（修复前基线）
 - **2026-08-27 quick**：6591 文件 · 0 error / 0 warning（quick 模式不检测断链）
