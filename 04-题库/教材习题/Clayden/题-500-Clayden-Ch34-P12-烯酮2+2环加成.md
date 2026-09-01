@@ -8,9 +8,9 @@ subject: 有机化学
 difficulty: 4
 teaching_level: 拓展
 syllabus_codes: ["21"]
-knowledge_points: ["[[2+2]]"]
+knowledge_points: ["[[2+2环加成]]"]
 tags: [化竞, Clayden, 有机化学, 环加成反应]
-updated: 2026-07-25
+updated: 2026-08-31
 aliases: [Clayden-Ch34-P12]
 source: Clayden Organic Chemistry 2nd Ed. Chapter 34 Problem 12
 cross_references: ["[[题-501-Clayden-Ch35-P1-Nazarov关环+Grignard和cuprate步骤]]", "[[题-502-Clayden-Ch35-P2-Claisen-3,3-σ迁移入门]]"]

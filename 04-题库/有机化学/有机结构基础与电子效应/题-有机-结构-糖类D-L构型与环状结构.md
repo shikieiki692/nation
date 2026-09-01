@@ -8,7 +8,7 @@ subject: 有机化学
 difficulty: 2
 teaching_level: 强化
 syllabus_codes: []
-knowledge_points: ["[[糖类]]", "[[D/L构型]]", "[[Fischer投影式]]", "[[Haworth投影式]]"]
+knowledge_points: ["[[糖类]]", "[[D-L构型]]", "[[Fischer投影式]]", "[[Haworth投影式]]"]
 tags: [化竞, 题库, 教材习题, 有机化学]
 updated: 2026-07-09
 aliases: []

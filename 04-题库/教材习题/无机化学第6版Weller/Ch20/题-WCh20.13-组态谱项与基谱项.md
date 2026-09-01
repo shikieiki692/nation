@@ -12,9 +12,11 @@ tags: [化竞, 无机化学, Weller, 晶体场理论]
 created: 2026-08-27
 updated: 2026-08-30
 subject_module: 结构化学
-pack: 模块习题集
+pack: 章节练习
 fidelity: 原书逐字
 exam_stage: 初赛
+demoted: 2026-09-01 习题书质量降级（考纲无关+篇幅过短）
+
 ---
 
 # 组态谱项与基谱项

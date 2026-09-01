@@ -81,6 +81,7 @@ This extensive study of the opening of three-membered heterocyclic rings came fr
 - 产物的五元环含有两个手性中心
 
 **整体立体化学总结**：
+
 | 基团 | 起始物 | 开环后 | 环加成产物 |
 |------|--------|--------|-----------|
 | 两个Ph | 顺式 | 一上一下(trans) | 一上一下(trans) |

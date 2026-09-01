@@ -7,13 +7,16 @@ year: 2019
 source: "中国化学奥林匹克(省级初赛)"
 type_tag: "推断"
 difficulty: 3
-knowledge_points:
-  - "Cannizzaro反应"
+knowledge_points: ["[[Cannizzaro反应]]"]
 tags: [化竞, 真题, 有机化学, Cannizzaro反应]
 related_notes:
   - "[[专题-羰基化学与缩合反应]]"
-updated: 2026-06-22
+updated: 2026-08-31
 teaching_level: 巩固
+fidelity: 原书改写
+exam_stage: 省预赛
+subject_module: 有机化学
+pack: 预赛专项
 ---
 
 # Cannizzaro反应-苯甲醛在浓碱中的歧化

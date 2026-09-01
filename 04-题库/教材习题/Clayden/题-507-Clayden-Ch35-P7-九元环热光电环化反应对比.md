@@ -82,6 +82,7 @@ This was an investigation into the aromaticity of the starting material by A. G.
 - 氮原子仍然不参与——两个反应中氮都是旁观者
 
 **热vs光的关键区别**：
+
 | 条件 | 电子数 | 规则 | 允许的旋转方式 |
 |------|--------|------|--------------|
 | 热 | 6e (4n+2) | Woodward-Hoffmann | 对旋 |

@@ -7,13 +7,16 @@ year: 2019
 source: "中国化学奥林匹克(省级初赛)"
 type_tag: "计算"
 difficulty: 2
-knowledge_points:
-  - "Bragg方程"
+knowledge_points: ["[[Bragg方程]]"]
 tags: [化竞, 真题, Bragg方程, XRD, 晶体结构]
 related_notes:
   - "[[专题-晶体结构计算]]"
-updated: 2026-06-22
+updated: 2026-08-31
 teaching_level: 基础
+fidelity: 原书改写
+exam_stage: 省预赛
+subject_module: 结构化学
+pack: 预赛专项
 ---
 
 # Bragg方程应用-从XRD衍射角和波长计算晶面间距

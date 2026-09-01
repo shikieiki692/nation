@@ -7,16 +7,16 @@ year: 2024
 source: "中国化学奥林匹克(省级初赛)"
 type_tag: "推断"
 difficulty: 4
-knowledge_points:
-  - "Hofmann消除"
-  - "E2反应"
-  - "Zaitsev规则"
-  - "消除反应"
+knowledge_points: ["[[Hofmann消除]]", "[[E2反应]]", "[[Zaitsev规则]]", "[[消除反应]]"]
 tags: [化竞, 真题, 有机化学, Hofmann消除]
 related_notes:
   - "[[专题-亲核取代与消除反应]]"
-updated: 2026-06-22
+updated: 2026-08-31
 teaching_level: 拓展
+fidelity: 原书改写
+exam_stage: 省预赛
+subject_module: 有机化学
+pack: 预赛专项
 ---
 
 # Hofmann消除-季铵碱热消除生成烯烃

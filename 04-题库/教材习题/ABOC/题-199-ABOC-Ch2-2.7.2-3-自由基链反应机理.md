@@ -20,7 +20,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 章节练习
 ---
-# 题-199：$L \dot { \mathsf { I } } + \mathsf { R } \mathsf 
+# 题-199：$L \dot { \mathsf { I } } + \mathsf { R } \mathsf { X } = \mathsf { L } \mathsf { I } \mathsf { X } + \mathsf { R } ^ { \prime } ; \mathsf { R } ^ { \prime } + \mathsf { L } \mathsf { I } = \mathsf { R } \mathsf { L } \dot { \mathsf { I } }$
 
 > **来源**：ABOC 第2章 自学练习 2.7.2-3
 > **难度**：⭐⭐
@@ -35,15 +35,17 @@ $L \dot { \mathsf { I } } + \mathsf { R } \mathsf { X } = \mathsf { L } \mathsf 
 
 ---
 
-## 答案
-
+## 参考答案
 （答案见 [[提炼-ABOC-第12章-习题解析]]）
 
 ---
 
 ## 解题思路
 
-（待补充）
+
+$L \dot { \mathsf { I } } + \mathsf { R } \mathsf { X } = \mathsf { L } \mathsf { I } \mathsf { X } + \mathsf { R } ^ { \prime } ; \mathsf { R } ^ { \prime } + \mathsf { L } \mathsf { I } = \mathsf { R } \mathsf { L } \dot { \mathsf { I } }$
+
+> 来源：ABOC 原书「习题解析」节逐字转录（OCR）。如与纸质原书有出入，以原书为准。
 
 ---
 

@@ -7,11 +7,9 @@ subject: 无机和结构化学
 year: 2023
 difficulty: 5
 knowledge_points: ["[[化学动力学]]", "[[配体取代机理]]"]
-status: deprecated
 tags: [化竞, 无机化学, Weller, 配位反应机理]
 created: 2026-08-27
 updated: 2026-08-27
-superseded_by: "[[Ch21-配位反应机理-习题]]"
 subject_module: 结构化学
 pack: 模块习题集
 fidelity: 原书逐字
@@ -27,7 +25,7 @@ exam_stage: 初赛
 
 图 21.24(J. B. Goddard and F. Basolo, Inorg. Chem., 1968, 7, 936) 示出 PdBrL 正离子与各种 Y 负离子反应生成 PdYL 正离子（反应物和产物中的 L 为 Et2NCH2CH2NHCH2CH2NEt2）的表观一级速率常数。注意 S2O3 2- 的大斜率和 Y 负离子为 N3-、I-、NO2- 和 SCN- 时的零斜率。试提出一种反应机理。
 
-![](无机化学第6版Welle19-21章_images/2c2127442ba313530f9273fae094337d53fdb6b3b73809229b44a7ca2b1febf4.jpg)
+![[2c2127442ba313530f9273fae094337d53fdb6b3b73809229b44a7ca2b1febf4.jpg]]
 
 <details>
 <summary>scatterplot</summary>

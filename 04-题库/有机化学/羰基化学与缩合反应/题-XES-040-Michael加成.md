@@ -8,6 +8,7 @@ year: 2023
 difficulty: 4
 knowledge_points: ["[[Michael加成]]"]
 status: 已补全答案
+syllabus_codes: [46]
 tags: [化竞, 有机化学, 学而思]
 created: 2026-08-27
 updated: 2026-08-30

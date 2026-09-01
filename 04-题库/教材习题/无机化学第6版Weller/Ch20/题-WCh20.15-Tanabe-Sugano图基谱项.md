@@ -8,6 +8,7 @@ year: 2023
 difficulty: 4
 knowledge_points: ["[[Tanabe-Sugano图]]", "[[八面体场]]"]
 status: 已补全答案
+syllabus_codes: [12]
 tags: [化竞, 无机化学, Weller, 晶体场理论]
 created: 2026-08-27
 updated: 2026-08-30

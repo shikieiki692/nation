@@ -11,7 +11,7 @@ syllabus_codes: []
 knowledge_points: ["[[Michael加成]]", "[[胍盐离子液体]]", "[[Knoevenagel缩合]]", "[[周环反应]]"]
 tags: [化竞, 真题, 25届, 决赛, 有机化学]
 updated: 2026-06-30
-aliases: - 25届决赛-8
+aliases: ["25届决赛-8"]
 source: "第25届中国化学奥林匹克（决赛）第8题(12分)"
 module: 有机化学
 status: 已填充

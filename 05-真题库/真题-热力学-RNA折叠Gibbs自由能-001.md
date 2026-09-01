@@ -7,17 +7,17 @@ year: 2024
 source: "中国化学奥林匹克(初赛) 第38届 第3题(3-4)"
 type_tag: "化学热力学-计算"
 difficulty: 4
-knowledge_points:
-  - "Gibbs自由能"
-  - "平衡常数"
-  - "线性拟合"
-  - "力致变构"
+knowledge_points: ["[[Gibbs自由能]]", "[[平衡常数]]", "[[线性拟合]]"]
 tags: [化竞, 真题, 38届, 热力学, RNA, 生物交叉]
-updated: 2026-08-25
+updated: 2026-08-31
 teaching_level: 竞赛拔高
 quality_tier: "🥇策略级"
 related_notes:
-  - "[[题-038-3-4-RNA折叠热力学计算]]"
+  - "[[题-038-3-螺吡喃机械力变色]]"
+fidelity: 原书改写
+exam_stage: 初赛
+subject_module: 化学原理
+pack: 模块习题集
 ---
 
 # RNA折叠-热力学参数的线性拟合与Gibbs自由能分析
@@ -30,7 +30,7 @@ related_notes:
 
 ## 原题
 
-完整题干与解答请见：[[题-038-3-4-RNA折叠热力学计算]]
+完整题干与解答请见：[[题-038-3-螺吡喃机械力变色]]
 
 ---
 

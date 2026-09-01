@@ -26,7 +26,11 @@ exam_stage: 初赛
 
 能量敏感于溶剂极性(因为激发态的极性大于基态)这一事实能够用来识别 MLCT 谱带。图 20.45 给出两个简化的分子轨道图。(a) 中的配体 $\pi$ 能级高于金属 d 轨道,(b) 中的金属 d 轨道能级与配体能级相同。两个 MLCT 谱带中哪一个对溶剂更敏感? 两种情况的例子分别为 $[W(CO)_4(\text{phen})]$ 和 $[W(CO)_4(^iPr-DAB)]$ , 式中 DAB=1,4-二氮杂-1,3-丁二烯(参阅: P. C. Servas, H. K. van Dijk, T. L. Snoeck, D. J. Stufkens, and A. Oskam, Inorg. Chem., 1985, 24, 4494)。讨论跃迁的 CT 特征与金属原子反馈程度的关系。
 
-![](无机化学第6版Welle19-21章_images/7f7449fd63ba1c74368596c320ef723bcd46af68f2b033ca3b7fa987aa790c5c.jpg)
+
+![[7f7449fd63ba1c74368596c320ef723bcd46af68f2b033ca3b7fa987aa790c5c.jpg]]
+
+## 参考答案
+
 
 <details>
 <summary>text_image</summary>
@@ -45,8 +49,6 @@ HOMO
 
 图 20.45 涉及 MLCT 跃迁的轨道表示
 配体 $\pi^{*}$ 轨道的能量相对于金属 d 轨道的能量发生了变化
-
-## 参考答案
 
 ### 1. 对溶剂更敏感的 MLCT 谱带
 

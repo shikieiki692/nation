@@ -7,13 +7,16 @@ year: 2020
 source: "中国化学奥林匹克(省级初赛)"
 type_tag: "计算"
 difficulty: 3
-knowledge_points:
-  - "晶格能"
+knowledge_points: ["[[晶格能]]"]
 tags: [化竞, 真题, Born-Haber循环, 晶格能, 热化学]
 related_notes:
   - "[[专题-热力学初步]]"
-updated: 2026-06-22
+updated: 2026-08-31
 teaching_level: 巩固
+fidelity: 原书改写
+exam_stage: 省预赛
+subject_module: 元素与分析
+pack: 预赛专项
 ---
 
 # Born-Haber循环-从热力学数据计算NaCl的晶格能
@@ -52,7 +55,7 @@ teaching_level: 巩固
 **(1) Born-Haber 循环图**
 
 ```
-Na(s) + 1/2 Cl2(g) ——ΔfH°=−411——→ NaCl(s)
+Na(s) + 1/2 Cl2(g) ——ΔfHθ=−411——→ NaCl(s)
     |                                      ↑
     | +108 (升华)                          | U = ?
     ↓                                      |

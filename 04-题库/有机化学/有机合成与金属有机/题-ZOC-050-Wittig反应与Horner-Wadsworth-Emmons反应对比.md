@@ -8,6 +8,7 @@ year: 2023
 difficulty: 4
 knowledge_points: ["[[偶联反应]]"]
 status: 已补全答案
+syllabus_codes: [48]
 tags: [Wittig, HWE, 烯烃合成, Zchem]
 created: 2026-08-27
 updated: 2026-08-30

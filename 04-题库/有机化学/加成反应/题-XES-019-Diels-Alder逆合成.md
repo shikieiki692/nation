@@ -1,4 +1,4 @@
-﻿---
+---
 title: "题-XES-019-Diels-Alder逆合成"
 type: 题目
 source: "学而思有机化学基础 第6讲"

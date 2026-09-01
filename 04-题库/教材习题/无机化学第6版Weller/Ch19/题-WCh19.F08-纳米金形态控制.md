@@ -8,6 +8,7 @@ year: 2023
 difficulty: 5
 knowledge_points: ["[[金化学]]"]
 status: 已补全答案
+syllabus_codes: [13]
 tags: [化竞, 无机化学, Weller, d区元素]
 created: 2026-08-27
 updated: 2026-08-30

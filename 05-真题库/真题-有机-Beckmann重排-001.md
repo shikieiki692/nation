@@ -7,14 +7,16 @@ year: 2023
 source: "中国化学奥林匹克(省级初赛)"
 type_tag: "推断"
 difficulty: 4
-knowledge_points:
-  - "Beckmann重排"
-  - "1,2-迁移与重排"
+knowledge_points: ["[[Beckmann重排]]", "[[1,2-迁移与重排]]"]
 tags: [化竞, 真题, 有机化学, Beckmann重排]
 related_notes:
   - "[[专题-重排反应]]"
-updated: 2026-06-22
+updated: 2026-08-31
 teaching_level: 拓展
+fidelity: 原书改写
+exam_stage: 省预赛
+subject_module: 有机化学
+pack: 预赛专项
 ---
 
 # Beckmann重排-环己酮肟经酸催化生成己内酰胺

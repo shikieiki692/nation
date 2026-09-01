@@ -1,0 +1,34 @@
+{
+ "generated": "2026-09-01",
+ "note": "习题书补入候选（章节练习层择优）；promote_questions.py 按此批量提升 pack。",
+ "total": 3,
+ "entries": [
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/无机化学例题与习题/Ch09-沉淀溶解平衡/例题/例9.5-弱酸存在下难溶盐的Ksp计算.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "《无机化学 例题与习题》第4版",
+   "submodule": "",
+   "syllabus": "kp[溶度积]直连考纲词表"
+  },
+  {
+   "subject_module": "结构化学",
+   "path": "教材习题/结构化学基础/题-005-结构化学基础-量子力学-习题1.5.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "周公度 段连运《结构化学基础（第5版）习题解析》第1章",
+   "submodule": "结构化学基础",
+   "syllabus": "syllabus_codes=决赛2"
+  },
+  {
+   "subject_module": "结构化学",
+   "path": "教材习题/结构化学基础/题-015-结构化学基础-量子力学-习题1.15.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "周公度 段连运《结构化学基础（第5版）习题解析》第1章",
+   "submodule": "结构化学基础",
+   "syllabus": "syllabus_codes=决赛2"
+  }
+ ]
+}

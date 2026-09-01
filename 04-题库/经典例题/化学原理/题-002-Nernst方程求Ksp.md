@@ -19,7 +19,11 @@ pack: 模块习题集
 ---
 # 题-002：Nernst 方程求 Ksp
 
-## 题目> 来源：经典例题已知 $E^{\ominus}(\mathrm{Ag^+/Ag}) = +0.799\text{ V}$，$E^{\ominus}(\mathrm{AgCl/Ag}) = +0.222\text{ V}$。求 AgCl 的 $K_{sp}$（25°C）。
+## 题目
+
+> **来源**：经典例题
+
+已知 $E^{\ominus}(\mathrm{Ag^+/Ag}) = +0.799\text{ V}$，$E^{\ominus}(\mathrm{AgCl/Ag}) = +0.222\text{ V}$。求 AgCl 的 $K_{sp}$（25°C）。
 
 ## 参考答案
 

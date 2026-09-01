@@ -7,17 +7,17 @@ year: 2024
 source: "中国化学奥林匹克(初赛) 第38届 第5题(5-2-1)"
 type_tag: "结构化学-晶体结构"
 difficulty: 4
-knowledge_points:
-  - "简单六方堆积"
-  - "原子坐标参数"
-  - "三棱柱空隙"
-  - "对称元素与对称操作"
+knowledge_points: ["[[六方密堆积]]", "[[原子坐标参数]]", "[[密堆积]]", "[[对称元素与对称操作]]"]
 tags: [化竞, 真题, 38届, 晶体结构, 六方晶系, 热电材料]
-updated: 2026-08-25
+updated: 2026-08-31
 teaching_level: 竞赛拔高
 quality_tier: "🥈讲评级"
 related_notes:
-  - "[[题-038-5-2-1-SrSb晶胞坐标]]"
+  - "[[题-038-5-1-FeCr合金晶胞组成]]"
+fidelity: 原书改写
+exam_stage: 初赛
+subject_module: 结构化学
+pack: 模块习题集
 ---
 
 # SrSb热电材料-简单六方结构的分数坐标推定
@@ -30,7 +30,7 @@ related_notes:
 
 ## 原题
 
-完整题干与解答请见：[[题-038-5-2-1-SrSb晶胞坐标]]
+完整题干与解答请见：[[题-038-5-1-FeCr合金晶胞组成]]
 
 ---
 

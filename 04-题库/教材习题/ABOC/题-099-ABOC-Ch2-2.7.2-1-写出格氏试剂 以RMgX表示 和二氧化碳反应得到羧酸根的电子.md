@@ -36,8 +36,7 @@ pack: 章节练习
 
 ![[grignard-mechanism-phbr-to-phcooh.png]]
 
-## 答案
-
+## 参考答案
 （答案见 [[提炼-ABOC-第12章-习题解析]]）
 
 ---
