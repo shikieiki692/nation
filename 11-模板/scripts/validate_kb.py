@@ -65,6 +65,11 @@ EXCLUDE_PATTERNS = [
 ]
 EXCLUDE_FILE_PREFIXES = ["_pre_"]
 EXCLUDE_FILE_NAMES = {"_preprocessed.md", "_test_sup.md", "_test_sup2.md", "新题入库SOP.md", "习题集体系总纲.md"}
+# EXCLUDE_FILE_NAMES 混了两件事：「不做 schema 校验」与「不能当链接目标」。
+# 对临时/测试文件两者都成立；但下面这些是正式文档，只是不入 schema 校验，
+# 它们真实存在、Obsidian 也能解析，因此仍应作为合法链接目标。
+# 2026-09-01：否则 [[习题集体系总纲]] 会被误报成断链。
+LINK_TARGET_ONLY_FILE_NAMES = {"新题入库SOP.md", "习题集体系总纲.md"}
 EXCLUDE_PATH_PREFIXES = [
     "06-学生侧材料/讲义/media/",
     "07-资料提炼/网课资料/无机化学-新课-周坤-2020-难度适中/笔记/",
@@ -434,7 +439,10 @@ def iter_link_resolution_files(vault_root: Path):
     seen: set[Path] = set()
     for f in vault_root.rglob("*.md"):
         rel = f.relative_to(vault_root).as_posix()
-        if is_excluded_path(rel) and not is_link_resolution_extra_path(rel):
+        # 仅因「在 EXCLUDE_FILE_NAMES 里」而被排除的正式文档，仍是合法链接目标
+        if f.name in LINK_TARGET_ONLY_FILE_NAMES:
+            pass
+        elif is_excluded_path(rel) and not is_link_resolution_extra_path(rel):
             continue
         if f in seen:
             continue
@@ -588,8 +596,16 @@ def build_image_index(vault_root: Path) -> dict[str, list[Path]]:
         if f.suffix.lower() not in img_exts:
             continue
         rel = f.relative_to(vault_root).as_posix()
-        # 媒体仓库 是 Obsidian 全局附件库（普通可索引目录），其他系统目录跳过
-        if is_excluded_path(rel):
+        # 媒体仓库 是 Obsidian 全局附件库（普通可索引目录），其他系统目录跳过。
+        #
+        # 但 LINK_RESOLUTION_EXTRA_PREFIXES 里的目录必须【例外放行】：
+        # 它们「不扫描内容，但可作为链接目标」（脚本自身的既定语义）。
+        # 2026-09-01 修复：此前图片索引只看 is_excluded_path()，导致
+        # 06-外部资料导入/ 下的图明明存在（Obsidian 也能正常显示），
+        # 却被当成「图片缺失」误报 —— 一次误报 283 个文件名 / 355 处引用。
+        # 普通双链能解析、图片却不能，属于自相矛盾，故统一为链接解析口径。
+        if is_excluded_path(rel) and not any(
+                rel.startswith(p) for p in LINK_RESOLUTION_EXTRA_PREFIXES):
             continue
         index.setdefault(f.name.lower(), []).append(f)
     return index
