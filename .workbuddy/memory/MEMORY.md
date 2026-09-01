@@ -68,3 +68,50 @@
 - **XML 层归一化颜色**：正则 `<w:color\b[^>]*/>` 改 000000（仅 val 非 auto 时）、`<w:highlight\b[^>]*/>` 删、`<w:shd>` fill 改 auto/clear、`<w:top|left|...>` 边框色改 000000、移除 `w:themeColor/Shade/Tint` 属性。**别忘** 头部用 `/>` 闭合才匹配，非闭合 `<w:color ...></w:color>` 会漏。
 - **DOCX 渲染验证备选**：Word COM 报 CO_E_SERVER_EXEC_FAILURE（沙箱/Click-to-Run 激活问题）→ 用 LibreOffice headless `--convert-to pdf` 兜底，公式排版大体可用，肉眼验证足够。
 - **页脚 PAGE/NUMPAGES 字段**：必须包含 `fldChar begin → instrText" PAGE " → fldChar separate → 文本占位"1" → fldChar end`，否则 Word 不重算显示 0。
+
+## 真题库「一题一文件」题组制（2026-09-01 确认，影响所有断链判断）
+- `04-题库/真题/第N届*/` 下**一个大题 = 一个 md 文件**，文件名取**首个小问的描述**。
+  例：`题-037-1-GaN刻蚀方程式.md` 内含（1）（2）（3）三个小问；
+  `题-036b-7-1-晶胞中化学式数目n.md` 内含 7-1-1…7-3 共 6 个小问。
+- 因此 `[[题-037-1-2-XXX]]` 这类"带子题号"的链接，**内容就在 `题-037-1-*` 里**，
+  折叠到父文件是正确的。**不要**因为"描述不同"就不敢折叠（阶段七的旧结论已作废）——
+  文件名取首问描述，描述不同是常态。正确判据是**按题号前缀匹配**，且父文件必须唯一。
+- 折叠前务必机器对账：父文件内小问标记数 `grep -c "^\*\*（[0-9]"` == 链接请求的子题数。
+
+## 校验器口径：禁止自己重写链接解析（2026-09-01 教训）
+- 自写正则扫全库 md 会得 33,392 条"断链"，而 `validate_kb.py --full` 只报 143。
+  差异来自：只扫 `INCLUDE_DIRS`、frontmatter 单列、排除 `09-审计报告`/`06-外部资料导入`/
+  `00-首页`、跳过占位符、图片按 basename 解析、目录链接视为有效。
+- **唯一正确做法**：`sys.path.insert(0,"11-模板/scripts"); import validate_kb as V`
+  → `V.collect_md_files(V.VAULT_ROOT, V.INCLUDE_DIRS)` → `V.scan_file(f, report)`
+  → 取 `report.warnings` 中 `check=="断链"` 的项。改脚本前先读 `INCLUDE_DIRS`/`EXCLUDE_*` 常量。
+- 跑校验器：`C:/Users/蕾赛/AppData/Local/Programs/Python/Python312/python.exe -X utf8 11-模板/scripts/validate_kb.py --full`（约 75 秒，建议后台跑）。
+
+## 批量改 md 的防坑清单
+- 分 frontmatter/正文：首行 `---` **且**头部含 `^[\w\-]+:` 才算 frontmatter（正文的 `---` 分隔线会误判）
+- 读写一律 `newline=""`，保留原换行符；用 `git diff --stat` 增删行数是否相等验证没发生 CRLF 整文件重写
+- 表格内 `[[目标\|别名]]` 的转义竖线必须保留，正则用 `(\\?\|[^\]]*)?`
+- 自动补别名时取末段 `t.rsplit("/",1)[-1]`，不要把整条路径当显示文本
+- 改完自查：别把 `09-审计报告/auto-validation/` 报告本身当成"被修复对象"
+
+## 「静默吸题」：断链数 ≠ 知识点覆盖度（2026-09-01 确立）
+- `find_wikilink_target()` 是 **三级兜底**：精确路径 → **basename** → **title/aliases**。
+  第 3 级会让**概念词静默指到题目文件**上（如 `[[羟醛缩合]]`→题-028-11、`[[配合物颜色]]`→真题-无机-过渡金属颜色-001）。
+- **校验器完全看不见这类错**（它不算断链）。要查必须二次筛查：
+  解析后读目标 frontmatter 的 `type`，若 `type ∈ V.QB_TYPES`（题目/真题/例题/题组/题目集）即为错位。
+- **分流判据（关键）**：target 若**就是该 md 的文件名**（Level-2 命中）→ 是**显式指题，设计意图，不动**；
+  只有靠 title/aliases 兜底才命中的才是真错位。按此分，03-知识点/04-专题与题型/12-教学洞察中
+  316 目标里有 **305 个是正常显式指题**，真错只有 11 个 —— 别一看到"连到题目"就当成 bug 批量改。
+- 反向陷阱也成立：文件名与内容不符时，**103 个 `[[Aldol缩合]]` 全部落到讲逆反应的文件上**
+  （`03-知识点/有机化学/Aldol缩合.md` 2.6 KB、`title:"逆羟醛缩合"`、正文通篇 retro-Aldol；
+  真内容在 `缩合反应.md` 20 KB §3.2.2）。此类**只能改写内容，不能改名**（改名=103 处全变红链）。
+- 巡检脚本：`.workbuddy/scripts/find_kp_links_to_questions.py` + `split_kp_mislink.py` + `find_silent_mislink_fix.py`。
+
+## 新建知识点文件的字段安全写法（2026-09-01 实测，4 个文件 0 Error 0 新断链）
+- 必填 `title/type/subject/status/updated`；`subject` **无枚举**（`综合` 目录用 `subject: 综合`）；
+  `module` 无枚举；`subject_module` 才有枚举（化学原理/结构化学/有机化学/元素与分析），**别混用**。
+- **`related`/`prerequisite` 写成纯文本数组**（不要 `[[]]`）——`QB_LINK_FIELDS` 含
+  `knowledge_points/depends_on/cross_references/related`，写 wikilink 会被当断链查。
+- **不写 `stage` 字段** → `_check_stage` 直接 return，绕开 published 门禁（要求 evidence + 无断链）。
+- 落笔前逐个验链接：`V.find_wikilink_target()` + 查 `type ∈ QB_TYPES` + 查 basename 是否重名。
+- 一词多义的知识点（如"水合物"）建**一个**文件、内部分节对照，不要拆两个（basename 重名会解析歧义）。
