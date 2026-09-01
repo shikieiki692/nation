@@ -10,7 +10,7 @@
 
 # 1）键的本质与定义 24:43
 
-![](504b40cbe91cc82c8c9d57a8582bc9736e1806fde5519fc0c2e97b34d3d5a9d8.jpg)
+![[504b40cbe91cc82c8c9d57a8582bc9736e1806fde5519fc0c2e97b34d3d5a9d8.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -34,7 +34,7 @@ G = k α₁α₂/r
 
 # 2）离⼦键的定义与特点 26:56
 
-![](d69ba56e2c4a0bc89246b25b430193275222483c8e9bb9a8fa40ac0a58b9d48f.jpg)
+![[d69ba56e2c4a0bc89246b25b430193275222483c8e9bb9a8fa40ac0a58b9d48f.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -50,7 +50,7 @@ B → B⁺
 
 # 3）共价键的定义与初始模型 30:59
 
-![](38ae42b5ae04cee9203b32109dcd9791e43a56079fbc87be32c7c6d6a68288c2.jpg)
+![[38ae42b5ae04cee9203b32109dcd9791e43a56079fbc87be32c7c6d6a68288c2.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -95,7 +95,7 @@ o 初始状态：电⼦云分别围绕各⾃原⼦核
 
 4）离⼦键与共价键的普遍存在 33:45
 
-![](a5d69b816868c7693d78e09edd54d8aac58106dd1d6a52b47e366a25e2948ba4.jpg)
+![[a5d69b816868c7693d78e09edd54d8aac58106dd1d6a52b47e366a25e2948ba4.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -131,7 +131,7 @@ o 硅酸盐中的硅氧键（SiO₄⁴⁻）
 
 5）成键的基本概念与判断成键的⽅式 34:29
 
-![](b5c6224643b6b33e73ef8ce5d96d4ad168909f4530d7c608820ba5f261aa3bef.jpg)
+![[b5c6224643b6b33e73ef8ce5d96d4ad168909f4530d7c608820ba5f261aa3bef.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -239,7 +239,7 @@ o 特例：C-F键能(约485kJ/mol) < C-Cl键能(约327kJ/mol)
 
 o 电负性差值与键的类型 41:11
 
-![](14a90e9a38a60a18429f821ba9484b551ab1e4356b65edeba3e2859773b05d8b.jpg)
+![[14a90e9a38a60a18429f821ba9484b551ab1e4356b65edeba3e2859773b05d8b.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -257,7 +257,7 @@ o 电负性差值与键的类型 41:11
 
 o 常⻅元素的电负性值 43:51
 
-![](1eb7596be601e2ab80e29894ba466374ab196d5ae439ae77569b9a0ca630a501.jpg)
+![[1eb7596be601e2ab80e29894ba466374ab196d5ae439ae77569b9a0ca630a501.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -391,7 +391,7 @@ Al
 
 # 实例判断键的类型 44:25
 
-![](14fd511465f9e6b33a335afe965dc671dfcfec63550136d05a9dc91488491515.jpg)
+![[14fd511465f9e6b33a335afe965dc671dfcfec63550136d05a9dc91488491515.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -532,7 +532,7 @@ o 电负性相对⼤⼩的重要性 49:44
 
 o 例题1:判断不同元素电负性的相对⼤⼩ 50:08
 
-![](c44ca949a4f8e728395e12e5847a368c601e67bcabca3a1e167c6a2f1ba7892e.jpg)
+![[c44ca949a4f8e728395e12e5847a368c601e67bcabca3a1e167c6a2f1ba7892e.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -593,7 +593,7 @@ o 电⼦亲和能与电负性的区别 55:48
 
 1）例题:电荷分布图
 
-![](fa5d320e40b238456b4a8a753272fc3096593002edf317748310a10c4ed25d19.jpg)
+![[fa5d320e40b238456b4a8a753272fc3096593002edf317748310a10c4ed25d19.jpg]]
 
 <details>
 <summary>chemical</summary>
@@ -607,7 +607,7 @@ Molecular reaction diagram showing Mg(S) + e⁻ → Mg⁻ formation in electric 
 
 # 2）例题:电荷分布图 01:17:07
 
-![](24e4cff56b25fa225e0a5b3f129592a75f05243978d3f806a80a35763e9ea616.jpg)
+![[24e4cff56b25fa225e0a5b3f129592a75f05243978d3f806a80a35763e9ea616.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -632,7 +632,7 @@ H
 
 # 3）例题:电荷分布图 01:20:29
 
-![](b480c74d92a54b9275f5e28627ffe362359e592b7efaedb4b0446168a055a351.jpg)
+![[b480c74d92a54b9275f5e28627ffe362359e592b7efaedb4b0446168a055a351.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -756,7 +756,7 @@ E
 
 1）预测是否形成正负离⼦ 01:24:25
 
-![](a9a9c776c6f75bfd1529a719ac6770f064bded3f50362b1e1e11de9fe0783291.jpg)
+![[a9a9c776c6f75bfd1529a719ac6770f064bded3f50362b1e1e11de9fe0783291.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -777,7 +777,7 @@ o 碳(퐶): [He]2s²2p² → 主要形成共价化合物
 
 2）预测相对size 01:32:25
 
-![](1f0e09afc446dea261e34866f8dbcf15f981286dc5a95552ed4d707d15e94acf.jpg)
+![[1f0e09afc446dea261e34866f8dbcf15f981286dc5a95552ed4d707d15e94acf.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -808,7 +808,7 @@ o 同电⼦构型: 电荷数越⼤，离⼦半径越⼩
 
 3）关于镧系收缩 01:35:38
 
-![](f59cefb7d31bced0687cab38857f959c150f04131199e801ad8c64f17c70c1f0.jpg)
+![[f59cefb7d31bced0687cab38857f959c150f04131199e801ad8c64f17c70c1f0.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -837,7 +837,7 @@ C 原因: 全满/半满4f轨道对外层电⼦屏蔽效应增强
 
 1）离⼦键键能的衡量标准 01:43:15
 
-![](cd006d960c297fe0c38f1ee33654109617b63ee8c0926f529837593424fe0dbb.jpg)
+![[cd006d960c297fe0c38f1ee33654109617b63ee8c0926f529837593424fe0dbb.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -855,7 +855,7 @@ M+(s) + X-(s) → MX(s) 8H
  重要性: 下学期热⼒学重要知识点，国初必考内容
 
 2）晶格能的影响因素 01:44:40  
-![](eea36c2aee6abfd7ec8a2eaaa44804fe25786a77a9fb0e2318bf69439e6067ac.jpg)
+![[eea36c2aee6abfd7ec8a2eaaa44804fe25786a77a9fb0e2318bf69439e6067ac.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -880,7 +880,7 @@ o 例:퐶푠퐹中퐶푠+过⼤，퐹- 过⼩，晶格能较低
 
 10. 共价键初步 01:49:02
 
-![](eadc012d9afcac23097e7f1632d7ef0aedf5e9b682272b95c77f8813437be813.jpg)
+![[eadc012d9afcac23097e7f1632d7ef0aedf5e9b682272b95c77f8813437be813.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -923,7 +923,7 @@ o 特殊说明：碳氧双键(퐶=푂)在不同化合物中键能不同， $C O 
 
 # 键能的影响因素
 
-![](c5d15984659b644b3f56f21ff5f7dae7b5053f67d39cf46b87c39165decffca4.jpg)
+![[c5d15984659b644b3f56f21ff5f7dae7b5053f67d39cf46b87c39165decffca4.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -975,7 +975,7 @@ h分子
 
 #  键能的应⽤
 
-![](41b7477d796724514cfd8b56e01104d3b44fb5fd2c4832184c792137b85cdc51.jpg)
+![[41b7477d796724514cfd8b56e01104d3b44fb5fd2c4832184c792137b85cdc51.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1015,7 +1015,7 @@ x(p)²⁻ > B  现光 A
 
 #  例题:甲烷与氯⽓反应键能计算
 
-![](e5b16dcb42eee929a64f6c0a6a8ef8534935086e391a8f85d18e7cad236bb9ff.jpg)
+![[e5b16dcb42eee929a64f6c0a6a8ef8534935086e391a8f85d18e7cad236bb9ff.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1080,7 +1080,7 @@ H-Cl 427.
  当퐴-퐵键能远⼤于퐴-퐶键能时，反应更易发⽣  
 本例中C-H键能(413)⼤于C-F(485)和C-Cl(339)，但整体反应仍放热
 
-![](5671bedd7c8ac4a145957c92ce957bc05b0ec086e90e108b8c25239da85645ec.jpg)
+![[5671bedd7c8ac4a145957c92ce957bc05b0ec086e90e108b8c25239da85645ec.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1118,7 +1118,7 @@ B.苯丙烯 断唑-酸键 A-B 钼线-酸键 A-C.
  ⽤晶格能衡量强度  
  键能通常较⼩
 
-![](9711c94aea56ec0a9bb47a322b9a38e6a7689d508e3a9797854a8c5c7b4003d7.jpg)
+![[9711c94aea56ec0a9bb47a322b9a38e6a7689d508e3a9797854a8c5c7b4003d7.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1403,7 +1403,7 @@ N
 
 o 共价键定义: 两个原⼦通过共⽤电⼦形成共价键，电⼦被束缚在两个原⼦之间。
 
-![](81ff32c2ae055f2aa6614a2e93089da70cac6f4c32d0d2991aa7d12adc3cf675.jpg)
+![[81ff32c2ae055f2aa6614a2e93089da70cac6f4c32d0d2991aa7d12adc3cf675.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1418,7 +1418,7 @@ o 共价键定义: 两个原⼦通过共⽤电⼦形成共价键，电⼦被束�
 
 高域中（电）成健样型 模型2：DeloardElecton Bondlg Mode 为，难应用.
 
-![](2ec435cdd3d82ccca2daec3c649bba6077a88029e8960f5a6e08fb4e975abfe3.jpg)
+![[2ec435cdd3d82ccca2daec3c649bba6077a88029e8960f5a6e08fb4e975abfe3.jpg]]
 
  成键的理论模型 02:25:46
 
@@ -1430,7 +1430,7 @@ o 定域电⼦成键模型定义: 每个原⼦周围的共价键是局部分析�
 
 o 特点: 易操作，但精度较低，偏差可能较⼤。
 
-![](f07982e871d2cdbe1dd1870694b3d19dc8b087dcee22b8db50e520f9cc5aa9da.jpg)
+![[f07982e871d2cdbe1dd1870694b3d19dc8b087dcee22b8db50e520f9cc5aa9da.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1445,7 +1445,7 @@ o 特点: 易操作，但精度较低，偏差可能较⼤。
 
 高域中子e）成程型.模型2DeloalreElecton Bondlyg Mode(高，难应用.
 
-![](9c14d1ae92d3992e1e8d0e9f78f8db668effc95e2f9ce72763d0160eaf051903.jpg)
+![[9c14d1ae92d3992e1e8d0e9f78f8db668effc95e2f9ce72763d0160eaf051903.jpg]]
 
  离域电⼦成键模型 02:28:08
 
@@ -1453,7 +1453,7 @@ o 离域电⼦成键模型定义: 将形成分⼦的所有原⼦的价电⼦当�
 
 o 特点: 精度⾼，但操作难度⼤。
 
-![](307bfdf4aaa4529129e13f56e234932932ed8ec981c99ebb033640d1c4875faa.jpg)
+![[307bfdf4aaa4529129e13f56e234932932ed8ec981c99ebb033640d1c4875faa.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1468,14 +1468,14 @@ o 特点: 精度⾼，但操作难度⼤。
 
 高域中子（电）成建程型.模型2：Deloalrd Electon Bonelg Model夜为，难应用.
 
-![](8c118642809f8a625f4c5c02a3663ba883916ef6f0f79b1ff5e3c1307a00493b.jpg)
+![[8c118642809f8a625f4c5c02a3663ba883916ef6f0f79b1ff5e3c1307a00493b.jpg]]
 
  两种模型的⽐较与应⽤ 02:30:25
 
 o ⽐较: 定域电⼦成键模型易操作但精度低，离域电⼦成键模型精度⾼但难应⽤。   
 o 应⽤: 在⼤学本科教育及化学竞赛范围内，主要学习定域电⼦成键模型，并⽤离域电⼦成键模型做修正项。
 
-![](fe079cdab5e5582a1a892ea15d30e3ec4f1d8872e441631a268f8299199a7d86.jpg)
+![[fe079cdab5e5582a1a892ea15d30e3ec4f1d8872e441631a268f8299199a7d86.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1498,7 +1498,7 @@ elocalized Electron Bonding Model
 
 o Lewis结构: 学会写路易斯结构式是理解共价键的重要步骤。
 
-![](953e526d6316d5e3c615ebf3b660097c4c54dd7bd4d3720da76effdf85f45320.jpg)
+![[953e526d6316d5e3c615ebf3b660097c4c54dd7bd4d3720da76effdf85f45320.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1529,7 +1529,7 @@ o VSEPR理论: ⽤于预测分⼦的⼏何形状，是理解共价键的重要�
 分⼦轨道理论（MO理论）: 描述分⼦中电⼦的分布和能量状态。  
 o 价键理论（VB理论）: 描述原⼦如何通过共⽤电⼦形成共价键。
 
-![](1682dd679dfa266dc9c0549d23e0e9665f1ef1182ed76f5266789152a1cb369d.jpg)
+![[1682dd679dfa266dc9c0549d23e0e9665f1ef1182ed76f5266789152a1cb369d.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1550,7 +1550,7 @@ Theory} = MO理论.
 o 后续安排: 第六次课将进⾏习题练习，梳理并强化2到5讲的知识点。  
 o 习题练习: 通过⼤量举例来加强理解，相当于⼀起做⼀节课的题。
 
-![](bcec9448b1c798365f14935882fad4188c71005e5cd3e5f04b30ef66eba3f327.jpg)
+![[bcec9448b1c798365f14935882fad4188c71005e5cd3e5f04b30ef66eba3f327.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1592,7 +1592,7 @@ o 孤对电⼦与共⽤电⼦对: 孤对电⼦是原⼦独⾃占有的电⼦对�
 
  例题1：⽔的路易斯结构式书写 02:48:38
 
-![](e1df5df9359e28cb73079d6e285e544ed52dfa75c5c261f5506f2de1e09e3079.jpg)
+![[e1df5df9359e28cb73079d6e285e544ed52dfa75c5c261f5506f2de1e09e3079.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1620,7 +1620,7 @@ C 题⽬解析
 步骤三: 算需要共⽤的电⼦对数。(12-8)/2=2。  
  步骤四: 画出合理结构。氧原⼦与两个氢原⼦通过两根共价键连接，氧原⼦周围有8个电⼦（包括4对孤对电⼦和2对共⽤电⼦），氢原⼦周围各有2个电⼦。
 
-![](c12fd4ae884ee1e0294b9443252623e3c6c46c6e896c811c27326d3d38845a3b.jpg)
+![[c12fd4ae884ee1e0294b9443252623e3c6c46c6e896c811c27326d3d38845a3b.jpg]]
 
 <details>
 <summary>text_image</summary>

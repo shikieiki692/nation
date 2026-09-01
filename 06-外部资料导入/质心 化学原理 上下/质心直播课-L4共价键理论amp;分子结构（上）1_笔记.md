@@ -18,7 +18,7 @@ o 作业态度：按时提交作业可获得基础分，未交作业直接零分
 
 # 2. 路易斯结构基础
 
-![](b6461ad2183e97ca2afc8c997879a7d8f16ea9b66a641669b8e484b28a2954ef.jpg)
+![[b6461ad2183e97ca2afc8c997879a7d8f16ea9b66a641669b8e484b28a2954ef.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -278,7 +278,7 @@ o 未交作业直接记为0分
 
 # 2）例题:基态电⼦排布单电⼦数 07:15
 
-![](f9e4beeb9c65b39d69168df928de983a092fb739790f2244ea33ca36424511e4.jpg)
+![[f9e4beeb9c65b39d69168df928de983a092fb739790f2244ea33ca36424511e4.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -297,7 +297,7 @@ Q2 A
 
 # 3）例题:泡利不相容原理 07:50
 
-![](150a1c0204e67e25283674a54e7532934d2d63ba697398fbb84b7c6fe9c2904a.jpg)
+![[150a1c0204e67e25283674a54e7532934d2d63ba697398fbb84b7c6fe9c2904a.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -318,7 +318,7 @@ Q4
 
 4）例题:原⼦序核外电⼦排布 08:41
 
-![](d9da93a3d8dffcaf84082d5b84b054815ebc2ba08fd92a80afc65423dae23ae2.jpg)
+![[d9da93a3d8dffcaf84082d5b84b054815ebc2ba08fd92a80afc65423dae23ae2.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -350,7 +350,7 @@ Pd
 
 3. 例题：第⼀电离能 20:42
 
-![](12afe4550610ebb716eb56371302567f06b4be9abe134e9d18f344fc63843c03.jpg)
+![[12afe4550610ebb716eb56371302567f06b4be9abe134e9d18f344fc63843c03.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -375,7 +375,7 @@ o 镧系收缩效应：4f电⼦填充导致第五、六周期同族元素半径�
 
 # 1）基本概念
 
-![](11c70ee37307f965a63751a9ee4a03a6e6de5b205ec735ad4853aca084d92ac8.jpg)
+![[11c70ee37307f965a63751a9ee4a03a6e6de5b205ec735ad4853aca084d92ac8.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -402,7 +402,7 @@ o 电⼦排布：半满/全满状态更稳定（如碳 $2 p ^ { 2 } \mathrm {  }
 
 # 5. 电负性⽐较
 
-![](56161351c0d21350f3467c1a4ef71ee654df85071ce10dc344777d5b29a1f9c7.jpg)
+![[56161351c0d21350f3467c1a4ef71ee654df85071ce10dc344777d5b29a1f9c7.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -436,7 +436,7 @@ o 判断技巧：优先考虑周期位置影响，再考虑半径效应
 
 # 1）绘制规则
 
-![](c2e85d50e3cb5973934ac06c85dbd50851bb38bf497707216514515f53cc9fd5.jpg)
+![[c2e85d50e3cb5973934ac06c85dbd50851bb38bf497707216514515f53cc9fd5.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -460,7 +460,7 @@ o 不需体现⽴体结构（如퐶푙 只需画:Cl-Cl:）
 
 # 2）典型分⼦示例
 
-![](2432a56d5aa7cb478abea962fee8573f2c67ea50ef05caba9b796b9a70d69900.jpg)
+![[2432a56d5aa7cb478abea962fee8573f2c67ea50ef05caba9b796b9a70d69900.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -487,7 +487,7 @@ $C l _ { 2 } O \colon$ ：氧原⼦居中，保持两对孤对电⼦
 
 7. 价键理论补充
 
-![](7daf8a47847ffe43dc68f53ba6ae7526bd3ce2ffd3603d24e9366bf2dae54d78.jpg)
+![[7daf8a47847ffe43dc68f53ba6ae7526bd3ce2ffd3603d24e9366bf2dae54d78.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -510,7 +510,7 @@ o 形式电荷：⽤于判断最稳定共振式的计算指标
 1. 共振结构 45:41  
 1）共振结构的概念与作⽤ 45:47
 
-![](a8a3e73981e81c0668571f167983df3e6e1c81c985a9827eb90867751a8d2a63.jpg)
+![[a8a3e73981e81c0668571f167983df3e6e1c81c985a9827eb90867751a8d2a63.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -532,7 +532,7 @@ Resonance Structure
  产⽣条件：当分⼦/离⼦存在多个符合路易斯规则的结构式时  
  表示⽅法：⽤双箭头"↔"连接各共振式，如BF₃的三种共振结构：
 
-![](161291a125949c4499ad97c692ce3bc39988ff1a154afe1e99e07a0262486b66.jpg)
+![[161291a125949c4499ad97c692ce3bc39988ff1a154afe1e99e07a0262486b66.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -540,7 +540,7 @@ Resonance Structure
 1. 关于很多小计：有不止一个“不能过” Lewis 纺织判断，关于底稿的好解释/展示份子中。Valence Election 的分布
 </details>
 
-![](6b03781f4af30f456c7dd4c88641ada8534a9d3762a0ce96b4baee6861c98127.jpg)
+![[6b03781f4af30f456c7dd4c88641ada8534a9d3762a0ce96b4baee6861c98127.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -567,7 +567,7 @@ eg1 BF₃. (每一个Resonace Structure 都P是“极限式”即不是 真实�
 
 4）示例：BF3的共振结构 47:37
 
-![](98fc1ce7f4164b6cc3ed8c8707913cd99722b961d9acba1789fb19ec0af53213.jpg)
+![[98fc1ce7f4164b6cc3ed8c8707913cd99722b961d9acba1789fb19ec0af53213.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -602,7 +602,7 @@ adj. 6e
 
 # 1）概念与计算公式
 
-![](e3c19ae18ce008a10a186cfb9961e96e9b12f9d4db6dd37abf6c2478e0065e3b.jpg)
+![[e3c19ae18ce008a10a186cfb9961e96e9b12f9d4db6dd37abf6c2478e0065e3b.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -625,7 +625,7 @@ D定义：⽤于判断带电物种中电荷分布情况的⼯具
 
 # 2）实际应⽤价值
 
-![](1bf8478584202de87e8b1a3280c7f4015922e99a0e90fef5df5475865226ce0e.jpg)
+![[1bf8478584202de87e8b1a3280c7f4015922e99a0e90fef5df5475865226ce0e.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -655,7 +655,7 @@ $$
 
 1）例题:路易斯结构计算电荷分布
 
-![](20a9ad8ecdfb73316e58ad3f7aaa17e8c47e288dad449a9aed29eab2aab322ac.jpg)
+![[20a9ad8ecdfb73316e58ad3f7aaa17e8c47e288dad449a9aed29eab2aab322ac.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -683,7 +683,7 @@ o ⽐较确定最稳定结构
 
 1）价电⼦计算
 
-![](7c1ae64885c0ffb142a453ff6b6e9958ec054851a0041c2b8a45d8f45919c942.jpg)
+![[7c1ae64885c0ffb142a453ff6b6e9958ec054851a0041c2b8a45d8f45919c942.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -704,7 +704,7 @@ Step3: 成键电子对称 BP = (22 - 24)/2 = 4 .
 
 # 2）路易斯结构绘制
 
-![](b05188b52695ae34724ed4d50e3ca36b1a51bb953d8d68f6e5bfa6dbab890a56.jpg)
+![[b05188b52695ae34724ed4d50e3ca36b1a51bb953d8d68f6e5bfa6dbab890a56.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -795,7 +795,7 @@ C 化学理论本质是实验现象的归纳总结，存在适⽤范围
 
 # 1）VSEPR理论基本规则
 
-![](503126f01c0dec6b3fcd59a53723e0863c5eb9729fdfad639e523ef24ab39008.jpg)
+![[503126f01c0dec6b3fcd59a53723e0863c5eb9729fdfad639e523ef24ab39008.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -824,7 +824,7 @@ BP = 4 LP = 0.
 
 # 2）解题步骤
 
-![](cdeee5264b3d0eb6717f8fccaccbdaa6714e65ef27b273a21f3f23ce660354cd.jpg)
+![[cdeee5264b3d0eb6717f8fccaccbdaa6714e65ef27b273a21f3f23ce660354cd.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -838,7 +838,7 @@ BP = 4 LP = 0.
 (注.BP,∠P都是指中心原子的α).
 </details>
 
-![](e0343db322eac73fd3c18bef741f332283e9f4ec14e71a5a93937f02ad1d3f9c.jpg)
+![[e0343db322eac73fd3c18bef741f332283e9f4ec14e71a5a93937f02ad1d3f9c.jpg]]
 
 . 步骤1：写出路易斯结构式푂::퐶::푂 ≡ 푂 = 퐶 = 푂
 
@@ -852,7 +852,7 @@ o 孤电⼦对：퐿푃=0
 
 # 3）结论
 
-![](9e23446d62bdbbce32c0feaaed4ba5c90eb699d3dc184ceb8649c5b33c852878.jpg)
+![[9e23446d62bdbbce32c0feaaed4ba5c90eb699d3dc184ceb8649c5b33c852878.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -873,7 +873,7 @@ eg 2
 
 # 1）路易斯结构式修正
 
-![](3b04904d6be430536623e7b8939cbe2e8af1dcdb7a0f943a5da52934232c1531.jpg)
+![[3b04904d6be430536623e7b8939cbe2e8af1dcdb7a0f943a5da52934232c1531.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -892,7 +892,7 @@ eg 2 SO₂. :S: :
 
 # 2）电⼦对排布
 
-![](5dcd6aed0344d953dd72ceacc53c1cc1821a8c59da1afe9ef4efe0a6a42e87d9.jpg)
+![[5dcd6aed0344d953dd72ceacc53c1cc1821a8c59da1afe9ef4efe0a6a42e87d9.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -914,7 +914,7 @@ step1: m = 6+6x2 = 18 ⇒ BP = (24-18)/2 = 3
  空间排布：平⾯三⻆形（120°夹⻆最优）
 
 3）分⼦构型判断   
-![](8a59cc7385a830d5f83b45ecc07ac2b3b044116418990024bed0b318fa5941e6.jpg)
+![[8a59cc7385a830d5f83b45ecc07ac2b3b044116418990024bed0b318fa5941e6.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1040,7 +1040,7 @@ n = 8x4 = 32
 
 3. 例题:甲醛分⼦结构  
 1）结构分析  
-![](30ef2739f08bff461e2fbc0c66da850d858b0c177606dd8b5c9892c2ba92e7f6.jpg)
+![[30ef2739f08bff461e2fbc0c66da850d858b0c177606dd8b5c9892c2ba92e7f6.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1066,7 +1066,7 @@ Q1: 平面三角形
 
 # 4. 例题：甲烷分⼦结构 01:48:47
 
-![](46f9e78886753aa6eca330c48f3295fca055465380c153ffffc44170f7445ed5.jpg)
+![[46f9e78886753aa6eca330c48f3295fca055465380c153ffffc44170f7445ed5.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1094,7 +1094,7 @@ o 键⻆为109.5°（典型四⾯体⻆度）
 
 # 5. 例题：氨分⼦结构 01:51:28
 
-![](a6c4d457ad1d46287a76df7179b89fb9196f31a6f43d13e6c190d0bffdb8ae7f.jpg)
+![[a6c4d457ad1d46287a76df7179b89fb9196f31a6f43d13e6c190d0bffdb8ae7f.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1135,7 +1135,7 @@ o 四⾯体电⼦对构型可能对应：四⾯体（CH₄）、三⻆锥（NH�
 
 # 6. 例题：五氯化磷分⼦结构 01:55:48
 
-![](ac99be0dc436bc5657edbb3d6f320f6300c57510b5ce164b40f06619609fc24d.jpg)
+![[ac99be0dc436bc5657edbb3d6f320f6300c57510b5ce164b40f06619609fc24d.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1189,7 +1189,7 @@ o 确定电⼦对理想⼏何构型
 
 # 7. 例题：四氟化硫分⼦结构 01:59:16
 
-![](bf2ec1e994586fcdf1324fc9a15e6f6087c9b401f7e2c7898c9eb603227f6534.jpg)
+![[bf2ec1e994586fcdf1324fc9a15e6f6087c9b401f7e2c7898c9eb603227f6534.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1217,7 +1217,7 @@ o 结论：构型b更稳定，因为其最⼤排斥组合(90° LP↔BP)的数量
 
 8. 例题：三负离⼦电⼦对排斥 02:06:49
 
-![](6a7180f1697af61fda6819061c428932f480d6ce887daaa9e88b87102186757c.jpg)
+![[6a7180f1697af61fda6819061c428932f480d6ce887daaa9e88b87102186757c.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1244,7 +1244,7 @@ o 存在例外情况，理论不能完全解释所有分⼦构型
 
 # 1）分⼦构型与孤对电⼦排斥
 
-![](a76eb826e15459c00a96d11e894d1ba7b9d89160bc9336e85ffe2388af227490.jpg)
+![[a76eb826e15459c00a96d11e894d1ba7b9d89160bc9336e85ffe2388af227490.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1263,7 +1263,7 @@ Offset Rule)
  孤对电⼦影响：5个电⼦对（4个单键+1个孤对电⼦）的排列⽅式导致构型变化  
  实际构型：由于孤对电⼦排斥作⽤，理论上应为直线型的分⼦实际呈现弯曲构型
 
-![](141ffa02fe963e2f016e0b8e3afab9d373ac8a488f339f9921bce21af012a9db.jpg)
+![[141ffa02fe963e2f016e0b8e3afab9d373ac8a488f339f9921bce21af012a9db.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1301,7 +1301,7 @@ Lewis Structure
 
 # 2）分⼦⼏何构型分析
 
-![](18500f151cddd0087af2aa2d03d7ec11d8de1d2b2768aae46953e6fb16080688.jpg)
+![[18500f151cddd0087af2aa2d03d7ec11d8de1d2b2768aae46953e6fb16080688.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1328,7 +1328,7 @@ F F F F
 
 # 1）三⻆双锥构型选择
 
-![](2f8d7b159f152af234db0bb1a61179bdbd786d2a395d816bf4f20b1e17e2e714.jpg)
+![[2f8d7b159f152af234db0bb1a61179bdbd786d2a395d816bf4f20b1e17e2e714.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1492,7 +1492,7 @@ A构型的电⼦排斥⼒显著⼩于B构型
 
 # 2）⼋隅体规则应⽤
 
-![](4b979ffad0523c77385bf60c294625198d154036d9ae9791cc651a85f0c376e6.jpg)
+![[4b979ffad0523c77385bf60c294625198d154036d9ae9791cc651a85f0c376e6.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1525,7 +1525,7 @@ J
 
 # 1）SF6路易斯结构计算
 
-![](10fe6f0095b92c40ac57509762732a5aff8acb9999b8be48175e9b33ab84cf42.jpg)
+![[10fe6f0095b92c40ac57509762732a5aff8acb9999b8be48175e9b33ab84cf42.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1554,7 +1554,7 @@ o 实际电⼦数12个（超过8电⼦规则）
 
 # 2）⼋⾯体电⼦排布
 
-![](cf4dfa26edeb78fad86ff6fa9552f36625deb77c3e2482e6496e5a965aa7262c.jpg)
+![[cf4dfa26edeb78fad86ff6fa9552f36625deb77c3e2482e6496e5a965aa7262c.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1580,7 +1580,7 @@ o 垂直平⾯⽅向各1个配体
 
 # 1）[SbCl6]3-离⼦分析
 
-![](a5e4704baa77efb7f4a6619a7aa4e2c5eede987eca0137a9c7ec5ef3ae66e4af.jpg)
+![[a5e4704baa77efb7f4a6619a7aa4e2c5eede987eca0137a9c7ec5ef3ae66e4af.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1608,7 +1608,7 @@ o 6组电⼦对（5BP+1LP）
 
 # 2）四⽅锥构型判断
 
-![](ce7bf7f8a88ddf81343eab50720a120b2a60d53902da1ebb76846b367a582816.jpg)
+![[ce7bf7f8a88ddf81343eab50720a120b2a60d53902da1ebb76846b367a582816.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1645,7 +1645,7 @@ o 孤电⼦对位置不影响分⼦⼏何形状
 
 # 1）XeF4分⼦分析
 
-![](0a98e8c7726e98bc7d836c107fb80fa8a43fc7c9dfb84de0c9fcc0a997de87d3.jpg)
+![[0a98e8c7726e98bc7d836c107fb80fa8a43fc7c9dfb84de0c9fcc0a997de87d3.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1686,7 +1686,7 @@ o 孤电⼦对位于轴向位置
 
 # 2）扩展案例
 
-![](a76d65b1bd256b52284ad713f202630b460b3bf2f02912160c2fecf8d2ebf140.jpg)
+![[a76d65b1bd256b52284ad713f202630b460b3bf2f02912160c2fecf8d2ebf140.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1823,7 +1823,7 @@ o 构型选择时优先考虑最⼤排斥⼒的最⼩化
 
 # 14. 例题：五氟化氙构型预测 02:26:35
 
-![](4d24f69105c0487e4ad72da940caa0af59d1b4acd31e967a66aa21a8c661630d.jpg)
+![[4d24f69105c0487e4ad72da940caa0af59d1b4acd31e967a66aa21a8c661630d.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1860,7 +1860,7 @@ o 电⼦对数：14 / 2 = 7对
 o 7对电⼦属于罕⻅情况，构型为变形⼋⾯体  
 o 变形⼋⾯体是在标准⼋⾯体基础上"突出"⼀个配位点的结构
 
-![](22bafe760e144c276f22cf97d015790fd2291491d5488f1912f748e09da1282f.jpg)
+![[22bafe760e144c276f22cf97d015790fd2291491d5488f1912f748e09da1282f.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1889,7 +1889,7 @@ o 电⼦对间排斥⼒遵循：孤对-孤对 > 孤对-键对 > 键对-键对
 
 # 15. 传统价键理论
 
-![](8ba6ee9d5cd44b32cbebf935e705f3bdd217e825a0166ff04cb08185079bb1f5.jpg)
+![[8ba6ee9d5cd44b32cbebf935e705f3bdd217e825a0166ff04cb08185079bb1f5.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1917,7 +1917,7 @@ o ⾃旋相反：两个电⼦的⾃旋⽅向相反
 o 键强关系：轨道重叠程度越⼤，形成的共价键越强  
 o 理论定位：传统价键理论（Valence Bond Theory）是定域电⼦模型
 
-![](050e91b1513a1dffc27b83a275b5df8cb3abca71b97c74bc7e0b6f83b4d3f252.jpg)
+![[050e91b1513a1dffc27b83a275b5df8cb3abca71b97c74bc7e0b6f83b4d3f252.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1949,7 +1949,7 @@ o 现代价键理论包含离域电⼦修正
 
 # 2. 例题：甲烷传统价键理论 02:41:10
 
-![](24714c8f76161fa82de385861a29fe3271439b7d802c4cdd8f66012405af8ed4.jpg)
+![[24714c8f76161fa82de385861a29fe3271439b7d802c4cdd8f66012405af8ed4.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1989,7 +1989,7 @@ o 轨道重叠：形成等价共价键
 
 # 1）六氟化硫案例
 
-![](dba028d839f260f51eacf28b31dcaa738265c047c13eed91d0c9398ea7b08415.jpg)
+![[dba028d839f260f51eacf28b31dcaa738265c047c13eed91d0c9398ea7b08415.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -2112,7 +2112,7 @@ o 激发态：需动⽤3d轨道获得6个单电⼦ 激发态：需动用3d轨道
 
 # 2）⽔分⼦案例
 
-![](f9aa32783c4f68496fdac92c6cf24c21aee0e8436d387535137c001e3b9128c8.jpg)
+![[f9aa32783c4f68496fdac92c6cf24c21aee0e8436d387535137c001e3b9128c8.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -2189,6 +2189,6 @@ o $s p ^ { 3 } d ^ { 2 }$ （⼋⾯体）
 
 <table><tr><td>知识点</td><td>核心内容</td><td>考试重点/易混淆点</td><td>难度系数</td></tr><tr><td>路易斯结构式</td><td>共价键电子对表示方法,八隅体规则应用</td><td>超八隅体结构判断(如 $SF_6$ )、形式电荷计算</td><td><img src="质心直播课-L4共价键理论amp;分子结构上1_笔记_images/8e9edd55e007d4c2cb1a1eadf6d7b03fb4e3e7288b90543ed9e18b4e9ed768fc.jpg"/></td></tr><tr><td>共振结构</td><td>多可能结构的叠加表示(如 $CO_3^{2-}$ )</td><td>真实结构是共振杂化体,键级非整数</td><td><img src="质心直播课-L4共价键理论amp;分子结构上1_笔记_images/dd4cc2494cba5e93583bf1119705d2e53253b94a8fcc5fd73cf760f4b66c4b00.jpg"/></td></tr><tr><td>VSEPR理论</td><td>电子对互斥与分子构型预测(2-6组电子对)</td><td>孤对电子影响(如 $H_2O$  vs.  $CH_4$ 构型差异)</td><td><img src="质心直播课-L4共价键理论amp;分子结构上1_笔记_images/65a755ac4047678e5ac14adf401dec0c9dc9ae933ec7c5b646b3a041841f1b9a.jpg"/></td></tr><tr><td>杂化轨道理论</td><td> $sp^3/sp^2/sp$ 杂化与分子几何构型关联</td><td>d轨道参与杂化(如 $SF_6$ 的 $sp^3 d^2$ )</td><td><img src="质心直播课-L4共价键理论amp;分子结构上1_笔记_images/3c7f684cf9386579436c0b54396ce9a57a779a0720d9cf7fc79854eb225a5b7b.jpg"/></td></tr><tr><td>电离能与电负性</td><td>周期性规律与反常现象(如N &gt; O电离能)</td><td>镧系收缩效应对原子半径的影响</td><td><img src="质心直播课-L4共价键理论amp;分子结构上1_笔记_images/7214d3eeaa785c05e54daefd6657e1d9ce568da13b8cb0704f90015e312b095f.jpg"/></td></tr><tr><td>分子轨道理论预告</td><td>双原子分子键级计算</td><td>σ/π键与反键轨道概念</td><td><img src="质心直播课-L4共价键理论amp;分子结构上1_笔记_images/78864bbae84bfd629dc84c4780ad875917938a7469631b88c8a5f573d6c17d91.jpg"/></td></tr></table>
 
-![](db65036654e76cd52a14fb51b1e158b11bf564ef64869f0586acdf6b6582937e.jpg)
+![[db65036654e76cd52a14fb51b1e158b11bf564ef64869f0586acdf6b6582937e.jpg]]
 
 <table><tr><td></td><td>(明日重点)</td><td></td><td></td></tr><tr><td>竞赛学习策略</td><td>多轮学习必要性,第一轮坚持要点</td><td>省一等奖获取核心是持续跟进</td><td>★★</td></tr></table>

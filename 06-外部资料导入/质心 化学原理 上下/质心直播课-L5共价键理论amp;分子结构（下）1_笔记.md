@@ -8,7 +8,7 @@
 
 # 2. 价键理论要点
 
-![](bf90ea1b2571d66f6b2c6a953a04c6ab2615ddc53fb30d98ba54017d802ab0ff.jpg)
+![[bf90ea1b2571d66f6b2c6a953a04c6ab2615ddc53fb30d98ba54017d802ab0ff.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -197,7 +197,7 @@ o 重叠程度越⼤，共价键越强（如퐼 、퐶푙 等分⼦）
 
 2）写路易斯结构式 06:52
 
-![](171993359dc7963276807f292163c8297dbd3ca7892f8990f2508b5e88dbf384.jpg)
+![[171993359dc7963276807f292163c8297dbd3ca7892f8990f2508b5e88dbf384.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -226,7 +226,7 @@ o 第三周期及以上元素: 常多于8电⼦（超⼋隅体结构）
 
 3）孤⽴电⼦对/孤对⼦ 08:37
 
-![](59995803cfb61fe46e5b53eeb4c36d39c583882b66a70dc68d52e6a30312d14c.jpg)
+![[59995803cfb61fe46e5b53eeb4c36d39c583882b66a70dc68d52e6a30312d14c.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -242,7 +242,7 @@ Lone Pair (LP) 孤电子对
 应⽤价值: 对VSEPR理论（价层电⼦对互斥理论）有重要参考价值  
 4）共振杂化 09:53
 
-![](8240c7012f72464ebe58b0c2475e825d8e81e2790fa72d4c8db5c3a925cc3a5f.jpg)
+![[8240c7012f72464ebe58b0c2475e825d8e81e2790fa72d4c8db5c3a925cc3a5f.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -267,7 +267,7 @@ o 所有RS的叠加反映真实的价电⼦分布
 
 5）形式电荷 12:15
 
-![](27e04d3d68776545282f11dd165b5f6dbecf2b963092585819725caf59a4742b.jpg)
+![[27e04d3d68776545282f11dd165b5f6dbecf2b963092585819725caf59a4742b.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -292,7 +292,7 @@ o 解释分⼦偶极矩等实验现象
 
 1）VSEPR的避免 16:54
 
-![](e962f6f18eb8adb23cf49ac1d142b269577e12c958f3712de8b1802d02e2d246.jpg)
+![[e962f6f18eb8adb23cf49ac1d142b269577e12c958f3712de8b1802d02e2d246.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -321,7 +321,7 @@ o 关键变量: 电⼦对组数x是核⼼变量，不同x值对应不同构型�
 
  中⼼原⼦周围电⼦对的影响 19:02
 
-![](3b97e6a695361dbdb235495aef599e1172f738a34b6ce7861db667c55504c706.jpg)
+![[3b97e6a695361dbdb235495aef599e1172f738a34b6ce7861db667c55504c706.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -352,7 +352,7 @@ o 区分要点:
 
  三组电⼦对的情况 20:50
 
-![](aef417decee045a8acd66f9eaf99fba63d0358a2ca86b69bece19bbbbf8f7542.jpg)
+![[aef417decee045a8acd66f9eaf99fba63d0358a2ca86b69bece19bbbbf8f7542.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -374,7 +374,7 @@ o 分⼦构型变化:
 
  四组电⼦对的情况 22:29
 
-![](6e7bb2e45bad69da51bec9002b465cf99afef6aeccb3a8b82c17dfa35e256bad.jpg)
+![[6e7bb2e45bad69da51bec9002b465cf99afef6aeccb3a8b82c17dfa35e256bad.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -398,7 +398,7 @@ o 分⼦构型变化:
 
  五组电⼦对的情况 23:04
 
-![](a24364a558f30aaccc5e02ca4da2a6a0798ae74153173a9971a1b48562ed62ba.jpg)
+![[a24364a558f30aaccc5e02ca4da2a6a0798ae74153173a9971a1b48562ed62ba.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -493,7 +493,7 @@ o 记忆技巧: 多数情况可⽤"只考虑最⼤排斥因素"规则判断，�
 
 六组电⼦对的情况 31:44
 
-![](c3991f1f52a6bafc622a9212443d23cd32e196f1e32518d6c43b05e47b0785b3.jpg)
+![[c3991f1f52a6bafc622a9212443d23cd32e196f1e32518d6c43b05e47b0785b3.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -530,7 +530,7 @@ o 分⼦构型变化:
 
 . 杂化轨道理论关联
 
-![](587d54d160bf59fc1697e69dcad595e3d58d06c3f59717af24efe13044ac14b4.jpg)
+![[587d54d160bf59fc1697e69dcad595e3d58d06c3f59717af24efe13044ac14b4.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -608,7 +608,7 @@ o 实例说明: 甲烷 $( C H _ { 4 } )$ ）中碳原⼦形成4组电⼦对，�
 
 1）传统价键理论复习 40:08
 
-![](c364102c04cdbb7c5502d121fc2a59015d2c3616bb910c7d2b0d656f571b8a69.jpg)
+![[c364102c04cdbb7c5502d121fc2a59015d2c3616bb910c7d2b0d656f571b8a69.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -639,7 +639,7 @@ c
  电⼦共享：重叠轨道中的电⼦为两个原⼦共有  
  重叠程度与键强关系：轨道重叠程度越⼤，形成的共价键越强 $( \sharp \sharp C H _ { 4 } ^ { } |$ 中碳的成键）
 
-![](b0e6314e7239945383fdee831096ee6c246c2f7e883b221406ab10f50574ed61.jpg)
+![[b0e6314e7239945383fdee831096ee6c246c2f7e883b221406ab10f50574ed61.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -669,7 +669,7 @@ C
 
  杂化轨道判断⽅法
 
-![](db0842511b1bdc492dccbcc52c3dddc9071714bc32f160c789383965e2190dfc.jpg)
+![[db0842511b1bdc492dccbcc52c3dddc9071714bc32f160c789383965e2190dfc.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -698,7 +698,7 @@ o 计算验证：杂化类型上标之和等于电⼦对数（如 $S P ^ { 3 } d
 
  例题:杂化轨道计算 43:11
 
-![](23c54ee9e7b6569074ea6ca052c835095a827551b40467aa6f5c09e74346de9e.jpg)
+![[23c54ee9e7b6569074ea6ca052c835095a827551b40467aa6f5c09e74346de9e.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -744,7 +744,7 @@ o 记忆技巧：杂化轨道数=中⼼原⼦周围电⼦对数，类型标记�
 
 # 1）判断杂化⽅式 44:44
 
-![](a717db15f925e53142e7c208753def1f26ba294f76cf20d2fb6eba27d5c59c9e.jpg)
+![[a717db15f925e53142e7c208753def1f26ba294f76cf20d2fb6eba27d5c59c9e.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -775,7 +775,7 @@ VSEPR理论核⼼：将中⼼原⼦周围的电⼦处理成相互排斥的电⼦
 
 # 2）SP3杂化示例 47:42
 
-![](aad055521b7169a11561310f3a43dc6998625580c0c37d6ec52db0889a753b49.jpg)
+![[aad055521b7169a11561310f3a43dc6998625580c0c37d6ec52db0889a753b49.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -795,7 +795,7 @@ sp3.
 o 未杂化问题：若直接⽤2s与1个氢成键，3个2p轨道与另外3个氢成键，会导致H-C-H键⻆为90°，⽆法形成正四⾯体  
 o 杂化优势：通过SP3杂化（1个s轨道+3个p轨道）形成4个等同的杂化轨道，键⻆109.5°，实现正四⾯体构型
 
-![](546e0ee0cb62a8858b4660ad52bc154abda8520ce4cf24e67fd97c8b2c34688e.jpg)
+![[546e0ee0cb62a8858b4660ad52bc154abda8520ce4cf24e67fd97c8b2c34688e.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -811,7 +811,7 @@ o 波函数特性：杂化后轨道具有特定相位分布（正负号区域）
 
 # 3）SP2杂化示例及问题 49:07
 
-![](f32fdfbca816c25e58474b9f2f9d7c9b6a37caf43ccc607680a21798232c513f.jpg)
+![[f32fdfbca816c25e58474b9f2f9d7c9b6a37caf43ccc607680a21798232c513f.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -837,7 +837,7 @@ o 轨道组成：1个s轨道与2个p轨道（如px、py）杂化，形成3个SP2
 
  未杂化问题：若不杂化⽆法实现平⾯三⻆形对称结构
 
-![](bc2fb52cad0f4d1b2a51ad264ff6554747ac8f1c643f6ece542dae14f67f1a4a.jpg)
+![[bc2fb52cad0f4d1b2a51ad264ff6554747ac8f1c643f6ece542dae14f67f1a4a.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -862,7 +862,7 @@ o 作业题表述可能存在⾮标准化情况，需后续讨论
 
 # 1. SP²杂化示意图 59:54
 
-![](e5030ea6b4bfc96d43da1ae9ab27e82b13806b07fd5d1147694151ac168f9e35.jpg)
+![[e5030ea6b4bfc96d43da1ae9ab27e82b13806b07fd5d1147694151ac168f9e35.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -883,7 +883,7 @@ Q2. P轨道的方向？
 
 # 2. 杂化轨道的形成原理 01:00:17
 
-![](8f44680e4985526aab93611bc73439108585080382d0b0659efe5cbec87406d4.jpg)
+![[8f44680e4985526aab93611bc73439108585080382d0b0659efe5cbec87406d4.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -910,7 +910,7 @@ SP 变化示意图.
 
 # 五、⼄炔的杂化情况 01:06:26
 
-![](ba747e5bff4c3e0a7c315cd32307aaf282c841d5be9d1e4693fe58c41a95ec2f.jpg)
+![[ba747e5bff4c3e0a7c315cd32307aaf282c841d5be9d1e4693fe58c41a95ec2f.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -942,7 +942,7 @@ o π键：剩余p轨道肩并肩重叠（蓝⾊表示py，绿⾊表示pz）
 
 # 1. 丙⼆烯分⼦构型分析
 
-![](11ae10de7966e5d9220d7aee93ec44a4729a37b5b9c0487191d1a19e06c2e0b7.jpg)
+![[11ae10de7966e5d9220d7aee93ec44a4729a37b5b9c0487191d1a19e06c2e0b7.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -966,7 +966,7 @@ o 四个氢原⼦不共⾯，分属两个垂直平⾯
 
 # 2. 成键规律总结
 
-![](07133de670883354c8b7721a1cbc0db153559d46f1b1d6138c211241ac1ea7d0.jpg)
+![[07133de670883354c8b7721a1cbc0db153559d46f1b1d6138c211241ac1ea7d0.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -995,7 +995,7 @@ o 轨道间斥⼒限制：同⼀原⼦⽆法形成两根σ键
 
 # 1. 例题:⼆氧化碳的杂化与电性
 
-![](02977e8c1d6d4c66e3fa19ec921b02271fcee7af4f52b3eaf6d99e6748064f96.jpg)
+![[02977e8c1d6d4c66e3fa19ec921b02271fcee7af4f52b3eaf6d99e6748064f96.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1027,7 +1027,7 @@ o 实际电⼦分布：碳带部分负电荷（δ-），氧带部分正电荷（
  分⼦偶极表示：箭头指向氧（δ+端），尾部带横线表示δ-端  
  特殊现象：⼀氧化碳作为配体时以碳端配位⾦属，与形式电荷预测⼀致2. 例题:⼆氟化氙的杂化与构型 01:36:02
 
-![](f0d58f3a85ba42d92ba6fc773c020f1a12c2b614b4a1f74b14c67aa1b87e89ca.jpg)
+![[f0d58f3a85ba42d92ba6fc773c020f1a12c2b614b4a1f74b14c67aa1b87e89ca.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1068,7 +1068,7 @@ o VSEPR理论中孤对电⼦优先占据⾚道位以减⼩排斥
 
 # 1）分⼦轨道理论
 
-![](029cf5671a45df4f4094490255542e46c32f8536a519044a461e164eaee611d7.jpg)
+![[029cf5671a45df4f4094490255542e46c32f8536a519044a461e164eaee611d7.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1085,7 +1085,7 @@ XeF2构型: XeF2分⼦呈直线型结构
  理论框架: 分⼦轨道理论(Molecular Orbital Theory)⽤于解释分⼦内电⼦分布和体系能量最低状态  
  基本原理
 
-![](c358b7df6730f3ff014434b0eba3d45b905f0ffc4f409619d569afcca411219b.jpg)
+![[c358b7df6730f3ff014434b0eba3d45b905f0ffc4f409619d569afcca411219b.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1101,7 +1101,7 @@ Part III Molecular Orbital Theory M
 P
 </details>
 
-![](cf813c79ef3247472748678013e51c75eb02ce8df510b11b3c14b2e04a2b9154.jpg)
+![[cf813c79ef3247472748678013e51c75eb02ce8df510b11b3c14b2e04a2b9154.jpg]]
 
 o 核⼼关注:
 
@@ -1130,7 +1130,7 @@ o 基本概念:
 
 #  SP杂化示例
 
-![](0e6e0bbff6e0e70155eb18babcba24e317aa1abcf0e55ddda2fdb45f90edbe86.jpg)
+![[0e6e0bbff6e0e70155eb18babcba24e317aa1abcf0e55ddda2fdb45f90edbe86.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1258,7 +1258,7 @@ o 应⽤实例: SP杂化是分⼦轨道理论的具体应⽤案例之⼀
 
 #  例题:氢分⼦轨道分析
 
-![](e039ffc303d9abe691732bac919565573e5477374478e8ce0b5c3ab1c9ac7242.jpg)
+![[e039ffc303d9abe691732bac919565573e5477374478e8ce0b5c3ab1c9ac7242.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1289,7 +1289,7 @@ o 理论选择原则: 当价键理论预测结果与实验相符时，优先使�
 
 o 价键理论分析
 
-![](a7c9b10034f9550193e12823e40a011b8357b00aeeed7d1f6d1dd1fb70387ba1.jpg)
+![[a7c9b10034f9550193e12823e40a011b8357b00aeeed7d1f6d1dd1fb70387ba1.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1315,7 +1315,7 @@ $$
 
 o 分⼦轨道理论分析
 
-![](ec5c001f29d54f07f3417d19c91ffafb7b6e13d22da43260f6699cab54fc961f.jpg)
+![[ec5c001f29d54f07f3417d19c91ffafb7b6e13d22da43260f6699cab54fc961f.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1358,7 +1358,7 @@ $$
 
  例题:氮⽓分⼦轨道图 02:09:05
 
-![](17f9bf6d4fab175869a2692ac0a02e05e7020d94fcb781982daf521b7c28ce42.jpg)
+![[17f9bf6d4fab175869a2692ac0a02e05e7020d94fcb781982daf521b7c28ce42.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1407,7 +1407,7 @@ o 重要区别: 氮⽓与氧⽓的分⼦轨道能级顺序不同，这是由sp�
 
 # 1）例题:氮⽓相关计算
 
-![](3805640b091e5bb3341f33516126d18acb2b44e927edde1022536f5a29e0521e.jpg)
+![[3805640b091e5bb3341f33516126d18acb2b44e927edde1022536f5a29e0521e.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1533,7 +1533,7 @@ $N _ { 2 } ^ { + }$ 键级： $\frac { 5 - 0 } { 2 } = 2 . 5$ （失去⼀个成
 o $N _ { 2 }$ 键级：  2 = 3 ${ \frac { 6 - 0 } { 2 } } = 3$   
 $N _ { \hat { 2 } } ^ { - }$ 键级： $\frac { 6 - 1 } { 2 } = 2 . 5$ （增加电⼦进⼊反键轨道）
 
-![](eb2a5470784b6069b091e21edba683451da556c416c1fb69e64f7c4f544fee09.jpg)
+![[eb2a5470784b6069b091e21edba683451da556c416c1fb69e64f7c4f544fee09.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1557,7 +1557,7 @@ o 实验规律：键级越⾼键⻓越短（如퐶 - 퐶单键>퐶 = 퐶双键>C
 o 原因：键能越强，轨道重叠越多，原⼦核被电⼦云拉得更近   
 ${ \underline { { N } } } _ { 2 }$ 系列排序： $N _ { 2 } ( 3 ) > N _ { 2 } ^ { + } ( 2 . 5 ) \approx N _ { 2 } ^ { - } ( 2 . 5 ) ^ { -- }$ 键⻓ $\underline { { N _ { 2 } } } < N _ { 2 } ^ { + } \approx N _ { 2 } ^ { - }$
 
-![](5534cc05721895748a5cea161a1c0aa1557b078f6ee70455e86e10a3d5064836.jpg)
+![[5534cc05721895748a5cea161a1c0aa1557b078f6ee70455e86e10a3d5064836.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1582,7 +1582,7 @@ $N _ { 2 }$ ⽆未成对电⼦（抗磁性）
 
 # 2）现代价键理论发展
 
-![](bfbcb5f90d51e5ecdc92ea69d6c43ed061c871e962d62394cdd1dca184e4f0ee.jpg)
+![[bfbcb5f90d51e5ecdc92ea69d6c43ed061c871e962d62394cdd1dca184e4f0ee.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1622,7 +1622,7 @@ o π键电⼦：分布在键轴上下⽅的⼴阔区域
 
 # 1）BF3的杂化⽅式
 
-![](6cb844aa4c4ee507c39704e4a2135c2cda498b87c1fe58789e53f352ed43d77d.jpg)
+![[6cb844aa4c4ee507c39704e4a2135c2cda498b87c1fe58789e53f352ed43d77d.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1647,7 +1647,7 @@ o 硼原⼦激发后形成3个SP2杂化轨道（各含1个电⼦）
 
 # 2）现代VB理论处理
 
-![](7718709f5f46bf6ce9704db9d4a59e27d27ef3d499e85f20f5bec9b96f60879d.jpg)
+![[7718709f5f46bf6ce9704db9d4a59e27d27ef3d499e85f20f5bec9b96f60879d.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1702,7 +1702,7 @@ o ⼤π键形成导致能量降低
 
 # 1）路易斯结构与杂化
 
-![](e1f1df27b51d612f1aa90ca36ce19919cde998a6fb50f101b6e4d93cbf2808e2.jpg)
+![[e1f1df27b51d612f1aa90ca36ce19919cde998a6fb50f101b6e4d93cbf2808e2.jpg]]
 
 <details>
 <summary>text_image</summary>
@@ -1729,7 +1729,7 @@ o 中⼼氧：3个SP2轨道（2个单电⼦+1对孤对电⼦）+1个充满的pz�
 
 # 2）⼤π键形成
 
-![](3df9e1f0a4253f430cbc561e1a4f3df9b77b214599c5dc3f75f460b25bf105cb.jpg)
+![[3df9e1f0a4253f430cbc561e1a4f3df9b77b214599c5dc3f75f460b25bf105cb.jpg]]
 
 <details>
 <summary>chemical</summary>
