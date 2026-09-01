@@ -23,24 +23,35 @@ DEEP = "--deep" in sys.argv
 IMG_EXT = (".jpg", ".jpeg", ".png", ".gif", ".svg", ".webp", ".bmp", ".tif", ".tiff")
 TXT_EXT = (".md", ".canvas", ".base")
 
+# 图片清单：这些目录不参与统计，也就【不会成为删除候选】
 SKIP_DIRS = {".git", ".workbuddy", "node_modules", ".obsidian", "__pycache__",
              ".trash", "_归档", "_archive", "备份"}
 
+# 引用扫描：范围【更宽】——归档/备份目录里的 md 也会引用图片，
+# 不扫它们的引用会把在用图片误判成孤儿（2026-09-01 阶段2 误删 110 张，即此坑）。
+REF_SKIP_DIRS = {".git", ".workbuddy", "node_modules", ".obsidian", "__pycache__", ".trash"}
+
 # 引用提取
-RE_WIKI = re.compile(r"!\[\[([^\]\|#]+)")
+# ① 双括号必须同时覆盖 ![[x]] 与 [[x]]：后者大量出现在 YAML frontmatter 的
+#    key_images: ["[[media/xxx.jpg]]"] 里，validate_kb.py 也认这种写法。
+RE_WIKI = re.compile(r"\[\[([^\]\|#\^]+)")
 RE_MDIMG = re.compile(r"!\[[^\]]*\]\(([^)\s]+)")
 RE_HTMLIMG = re.compile(r"<img[^>]+src=[\"']([^\"']+)[\"']", re.I)
+# ② canvas 是 JSON，图片写在 {"type":"file","file":"xxx.jpg"} 里，上面三个正则都抓不到
+RE_CANVAS = re.compile(r'"file"\s*:\s*"([^"]+)"')
 
 
 def walk_files():
     imgs, txts = [], []
     for root, dirs, files in os.walk(VAULT):
-        dirs[:] = [d for d in dirs if d not in SKIP_DIRS]
+        dirs[:] = [d for d in dirs if d not in REF_SKIP_DIRS]
         for f in files:
             p = os.path.join(root, f)
             low = f.lower()
             if low.endswith(IMG_EXT):
-                imgs.append(p)
+                # 归档/备份目录内的图片只登记、不作为删除候选
+                if not any(part in SKIP_DIRS for part in os.path.relpath(p, VAULT).split(os.sep)):
+                    imgs.append(p)
             elif low.endswith(TXT_EXT):
                 txts.append(p)
     return imgs, txts
@@ -68,6 +79,9 @@ def collect_refs(txts):
             if v.startswith(("http://", "https://", "data:")):
                 continue
             got.add(v.replace("\\", "/").split("/")[-1])
+        if p.lower().endswith(".canvas"):
+            for m in RE_CANVAS.finditer(t):
+                got.add(m.group(1).strip().replace("\\", "/").split("/")[-1])
         per_file[os.path.relpath(p, VAULT)] = len(got)
         refs |= got
     return refs, per_file
