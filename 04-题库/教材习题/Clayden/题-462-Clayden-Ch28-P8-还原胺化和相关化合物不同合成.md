@@ -6,6 +6,7 @@ submodule: 逆合成分析
 exam_stage: 初赛
 source_subject: 有机化学
 difficulty: 3
+question_type: [合成]
 teaching_level: 拓展
 syllabus_codes: ["21"]
 knowledge_points: ["[[逆合成分析]]"]

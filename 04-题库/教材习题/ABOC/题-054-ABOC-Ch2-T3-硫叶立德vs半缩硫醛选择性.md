@@ -6,6 +6,7 @@ submodule: 硫化学
 exam_stage: 决赛
 source_subject: 有机化学
 difficulty: 3
+question_type: [简答]
 teaching_level: 巩固
 syllabus_codes: ["36", "45"]
 knowledge_points: ["[[硫叶立德]]", "[[缩醛]]", "[[软硬酸碱理论]]"]

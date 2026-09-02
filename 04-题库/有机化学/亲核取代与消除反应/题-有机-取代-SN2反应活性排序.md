@@ -6,6 +6,7 @@ submodule: "亲核取代与消除反应"
 exam_stage: 初赛
 source_subject: 有机化学
 difficulty: 2
+question_type: [简答]
 teaching_level: 拓展
 syllabus_codes: []
 knowledge_points: ["[[SN2反应]]", "[[反应活性]]", "[[空间位阻效应]]", "[[离去基团]]"]

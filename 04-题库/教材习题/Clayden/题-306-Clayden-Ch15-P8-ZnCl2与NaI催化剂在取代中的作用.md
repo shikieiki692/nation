@@ -6,6 +6,7 @@ submodule: 亲核取代反应
 exam_stage: 初赛
 source_subject: 有机化学
 difficulty: 3
+question_type: [简答]
 teaching_level: 拓展
 syllabus_codes: ["3.2"]
 knowledge_points: ["[[亲核取代]]", "[[催化反应]]"]

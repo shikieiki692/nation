@@ -6,6 +6,7 @@ source_file: "06-外部资料导入/无机化学Weller/无机化学第6版Welle1
 source_subject: 无机和结构化学
 year: 2023
 difficulty: 3
+question_type: [简答]
 teaching_level: 巩固
 knowledge_points: ["[[高自旋与低自旋]]", "[[晶体场理论]]"]
 status: 已填充

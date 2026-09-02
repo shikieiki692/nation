@@ -13,6 +13,7 @@ source_subject: 无机和结构化学
 year: 2023
 
 difficulty: 5
+question_type: [简答]
 teaching_level: 竞赛
 
 knowledge_points: ["[[反位效应]]", "[[配体交换反应]]"]

@@ -6,6 +6,7 @@ submodule: 自由基反应
 exam_stage: 决赛
 source_subject: 有机化学
 difficulty: 5
+question_type: [简答]
 teaching_level: 拓展
 syllabus_codes: ["49"]
 knowledge_points:

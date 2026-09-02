@@ -6,6 +6,7 @@ submodule: Ch.1
 exam_stage: 初赛
 source_subject: 有机化学
 difficulty: 2
+question_type: [简答]
 teaching_level: 巩固
 syllabus_codes: ["31"]
 knowledge_points: ["[[超共轭效应]]", "[[电子效应]]"]

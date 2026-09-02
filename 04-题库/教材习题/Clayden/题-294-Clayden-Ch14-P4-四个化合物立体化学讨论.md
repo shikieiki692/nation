@@ -6,6 +6,7 @@ submodule: 立体化学
 exam_stage: 初赛
 source_subject: 有机化学
 difficulty: 3
+question_type: [简答]
 teaching_level: 巩固
 syllabus_codes: ["36"]
 knowledge_points: ["[[立体化学]]", "[[非对映异构]]"]

@@ -4,6 +4,7 @@ aliases: ["题-物统-01"]
 type: 题目
 fidelity: 自编
 difficulty: 3
+question_type: [计算]
 teaching_level: 巩固
 source: "教学改编（统计热力学与Maxwell关系讲义 §二）"
 module: "统计热力学与相图"

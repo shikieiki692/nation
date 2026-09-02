@@ -37,8 +37,10 @@ import validate_kb as V  # noqa: E402
 TARGET_DIRS = ["04-题库", "05-真题库"]
 
 # ── 词汇表 ───────────────────────────────────────────────────────
-# 9 种原子题型 + 2 个标记值
-ATOMIC = ["选择", "填空", "简答", "计算", "推断", "作图", "机理", "方程式书写", "推导"]
+# 10 种原子题型 + 2 个标记值
+# 2026-09-02 B6 新增「合成」：缺口档实测 91 题含「合成」（85 条是真指令，
+# 集中在 ABOC），原 9 种题型没有这一类，有机合成题全部无类型、组卷无法筛。
+ATOMIC = ["选择", "填空", "简答", "计算", "推断", "作图", "机理", "方程式书写", "推导", "合成"]
 MARKERS = ["例题", "综合"]          # 例题=角色标记；综合=未细分待人工拆
 VOCAB = set(ATOMIC) | set(MARKERS)
 
@@ -75,9 +77,14 @@ NORM = {
 # 因为「画出某某结构」其实是推断题的一部分。
 
 # 选项标记：形如 A. / A、/ （A） / A）
-# 注意「化合物 A、B、C、D」这种推断题的字母代号极易误判成选项，
-# 因此 detect_choice 额外要求相邻选项之间至少 2 个字符的内容。
-OPT_ANY = re.compile(r"(?<![\w.。（(])([ABCD])\s*[)）.、．]")
+# 排除误判「化合物 A、B、C、D」这种推断题的字母代号，靠 detect_choice 的
+# 「相邻选项之间至少 2 个字符内容」把关 —— 字母代号紧贴在一起，没有选项内容。
+#
+# 2026-09-02 修正：原写法是 (?<![\w.。（(])，负向断言把前面是 `(` 的情况也排除了，
+# 于是 `(A) 2; (B) 4; (C) 8; (D) 16` 这种**最常见**的选项排版 100% 检不出。
+# 实测全库 394 → 482（+88），零丢失，抽样 25 条全部是真选择题。
+# 现在的负向断言只保留「前面是字母/数字/句点」，避免把 `H2A)` 之类化学式当选项。
+OPT_ANY = re.compile(r"(?<![A-Za-z0-9.。])([ABCD])\s*[)）.、．]")
 
 # 计算档：动词 + 宾语双条件。
 # 只写「求 X 的浓度」这种指令式，不写「由晶格匹配计算结果，……」这种名词用法。
@@ -92,18 +99,91 @@ CALC_OBJ = (
     r"半衰期|速率|反应级数|百分[含数]|质量|体积|压强|压力|温度|电量|电流效率|"
     r"键级|磁矩|偶极矩|介电常数|电离能|电子亲和能|电负性|原子半径|离子半径)"
 )
-CALC_VERB = r"(?:计算|试求|求算|推算|估算|算(?:出|得)?|(?<![要需请追寻力求探证])求(?:出|得)?)"
-CALC_RE = re.compile(rf"{CALC_VERB}[^。！？；\n]{{0,24}}?{CALC_OBJ}")
+# 2026-09-02 B6 补动词：「多少 / 是多少 / 估计」此前完全没覆盖，而教材习题里
+# 「至少要取多少克 KClO₃」「估计总共用了多少千克氮气」是极常见的问法。
+CALC_VERB = (r"(?:计算|试求|求算|推算|估算|估计|算(?:出|得)?|"
+             r"(?<![要需请追寻力求探证])求(?:出|得)?|多少|是多少)")
+# 2026-09-02 B6 补宾语：教材习题的问法超出原词表很多。反例：
+#   「试求管中气体的分子数」——原词表有「物质的量」没有「分子数」
+#   「求氮气与氢气的分压」——原词表有「压力」但「分压」二字不挨着，匹配不上
+#   「计算水的总硬度」「推算 H⁻ 的半径」「计算…的键长/波长」——原词表全缺
+CALC_OBJ_EXTRA = (
+    # 热化学：原词表只有「焓变」，而教材习题高频问的是「生成焓/燃烧热/生成热」。
+    # 反例 05-05「由以下两个反应热求 NO 的生成焓」、05-27「金刚石的标准摩尔生成焓为多少」。
+    r"生成焓|生成热|生成自由能|燃烧热|溶解热|水合热|升华热|汽化热|熔化热|中和热|"
+    # LaTeX / Unicode 形式的热力学量。反例 05-18「求下列反应的 $\Delta H^{\ominus},
+    # \Delta G^{\ominus}$ 和 $\Delta S^{\ominus}$」——原正则只认中文「焓变/熵变」。
+    r"\\Delta\s*[HGSEUF]|Δ[HGSEUF]|"
+    r"分子数|原子数|电子数|质子数|中子数|离子数|粒子数|"
+    r"分压|总压|蒸气压|渗透压|"
+    r"硬度|解离度|电离度|回收率|"
+    r"物质的量之比|摩尔比|质量比|体积比|比值|比例|"
+    r"式量|摩尔体积|气体体积|"
+    r"克数|用量|投料量|产量|"
+    r"含量|品位|滴定度|酸度|碱度|缓冲容量|"
+    r"沸点|熔点|凝固点|"
+    r"能级|能量|波长|频率|波数|"
+    r"键长|键角|半径|晶胞参数值|"
+    r"电量|电荷量|电流|"
+    r"级数|速率值"
+)
+CALC_OBJ = (
+    r"(?:平衡常数|解离常数|电离常数|稳定常数|速率常数|平衡转化率|转化率|产率|收率|纯度|"
+    r"质量分数|摩尔分数|体积分数|物质的量|摩尔质量|相对分子质量|分子式|化学式|分子量|"
+    r"浓度|溶解度|溶度积|密度|晶胞参数|配位数|晶胞的体积|"
+    r"电动势|电极电势|电势|电位|电压|"
+    r"焓变|熵变|自由能|活化能|键能|晶格能|热效应|热量|反应热|"
+    r"pH|pOH|pK|K_\{?[a-zA-Z]|k_\{?[a-zA-Z]|"
+    r"半衰期|速率|反应级数|百分[含数]|质量|体积|压强|压力|温度|电量|电流效率|"
+    r"键级|磁矩|偶极矩|介电常数|电离能|电子亲和能|电负性|原子半径|离子半径|"
+    rf"{CALC_OBJ_EXTRA})"
+)
+# 2026-09-02 B6：窗口 24 → 60。反例「计算0.10 mol/L硼酸甘露醇溶液用0.10 mol/L
+# NaOH滴定时的计量点pH」——动词与宾语隔了 40+ 字符，24 的窗口根本够不着。
+#
+# 另加**宾语在前**的反向分支。中文问句常把疑问词放句尾：
+#   「金刚石的标准摩尔生成焓**为多少**？」「三价铁离子浓度**为何值**时…」
+# 原先只认「动词 + 宾语」，这两类一律漏判，然后被 T3S 的「为何」捡去误标成简答。
+# 反向分支的宾语表排除「配位数」。反例 题-元钛-01「金红石型 TiO₂ 晶胞中 Ti 与 O 的
+# **配位数**各为多少」——那是读已知结构，不是计算题。
+CALC_OBJ_REV = CALC_OBJ.replace("|配位数", "")
+CALC_RE = re.compile(
+    rf"(?:{CALC_VERB}[^。！？；\n]{{0,60}}?{CALC_OBJ})"
+    rf"|(?:{CALC_OBJ_REV}[^。！？；\n]{{0,10}}?(?:为|是|等于)?(?:多少|为何值|几[克个摩]))"
+)
 
 RULES: list[tuple[str, str, re.Pattern]] = [
     # T2 窄内容信号
     ("机理", "T2", re.compile(r"反应机理|反应历程|历程如下|写出.{0,6}机理|机理[，。、：]|用.{0,4}机理解释")),
-    ("推断", "T2", re.compile(r"试推断|推断[出其该]|.{0,4}推断.{0,6}结构|未知物|推断下列|推断是什么")),
+    # 2026-09-02 B6 放宽：原正则要求「推断」后面紧跟 其/出/该/结构，
+    # 于是「推断 A、C 的可能组成」「推断 X 并写出相应反应」这类元素推断题 100% 漏判。
+    # 题干里出现「推断」几乎必然是推断题；与机理/方程式书写并存时是多标签，不冲突。
+    #
+    # 不要加「判断」类分支：中文分词陷阱 —— 「判断**下列**说法是否正确」的字符序列
+    # 包含子串「判断下列」，会被误判成推断题（实测 题-络重-05 中招）。
+    # 而「判断下列说法」其实是判断题/简答题，根本不是推断。
+    #
+    # 「推断」作名词时要排除。实测三个反例：
+    #   ABOC-267/290「全合成**推断题目**的分析方法」——标题里的名词，实为合成分析题
+    #   Clayden-497「请评论这**一推断**的有效性」——评论题，不是推断题
+    ("推断", "T2", re.compile(r"推断(?!\s*(?:题目|的|有效性|结果|结论|过程|方法|依据))|未知物")),
+    # 2026-09-02 B6 新增「合成」题型。刻意排除名词用法「合成氨/合成气/合成橡胶」：
+    # 这些后面跟的是具体物质名，不会接 路线/方法/方案，也凑不出「以X为原料合成Y」。
+    ("合成", "T2", re.compile(
+        r"(?:设计|提出|给出|写出).{0,12}合成(?:路线|方法|方案|步骤)"
+        r"|以.{0,24}为原料合成|由.{0,20}为原料.{0,6}合成"
+        r"|合成路线|试合成|如何合成|怎样合成|合成下列")),
     ("方程式书写", "T2", re.compile(r"完成并配平|配平下列|写出.{0,10}(?:化学|离子|电极|热化学)反应?方程式|写出.{0,6}反应式")),
     ("作图", "T2", re.compile(r"画出.{0,12}(?:结构|构型|轨道|能级|相图|曲线|图像|示意|图)|[画作绘]制.{0,10}(?:图|曲线)|试画|作出.{0,8}图")),
     ("计算", "T2", CALC_RE),
-    # T3 弱兜底：只用于统计，不写
-    ("简答", "T3", re.compile(r"为什么|为何|解释|说明|简述|怎样|如何|比较|讨论|鉴别")),
+    # T3S 强解释信号：整题**没有**任何 T1/T2 命中时才写（2026-09-02 用户决策）。
+    # 与 T3 的区别在于动词是否明确指向"论述型回答"——「说明理由」是，「说明」不是。
+    # 「为何」必须排除「为何值」（浓度为何值 = 计算题，不是问原因）。
+    # 反例 09-07「试问当三价铁离子浓度为何值时，恰好有 Fe(OH)₃ 沉淀析出」。
+    ("简答", "T3S", re.compile(r"为什么|为何(?!值)|解释|简述|说明理由|(?:说明|解释)理由|加以说明|比较|讨论|鉴别")),
+    # T3 弱兜底：只用于统计，不写。这些词在化学题干里常作插入语，
+    # 单独命中不足以认定题型（「如图所示，说明…」「如何操作」）。
+    ("简答", "T3", re.compile(r"说明|怎样|如何|指出|描述|分析")),
 ]
 
 # 答案区边界：本库写法五花八门，除 ## 答案 / **答案：** / <details> 外，
@@ -119,6 +199,16 @@ ANS_CUT = re.compile(
     r")"
 )
 MAX_STEM = 3000
+
+# 竞争动作动词：题干里若同时出现这些动词，说明是**混合题**
+# （「解释…并写出方程式」「说明…并计算…」），单标一个题型会盖掉另一半。
+# 2026-09-02 B6 新增。反例：题-元钛-03「写出…平衡方程式，说明加酸/加碱的移动方向」
+# 只标「简答」就把方程式书写那一半吞掉了。
+# 「求」加了负向断言排除 要求/需求/请求/追求/寻求/求证，与 CALC_VERB 同一套处理。
+COMPETE_RE = re.compile(
+    r"写出|画出|绘制|作出|试画|配平|完成并|计算|试求|求算|推算|估算|合成|制备|分离|设计"
+    r"|(?<![要需请追寻力探证])求"
+)
 
 # ── 题干净化 ───────────────────────────────────────────────────
 # 文件名/标题里经常带「机理」「计算」「单选」等词（题-XXX-反应机理），
@@ -304,11 +394,14 @@ def split_subq(stem: str) -> list[str]:
     # 化学式、没有动词，会全部落空。把总起句拼进每一段。
     prefix = stem[: pos[0]]
     if len(prefix) > 300:
-        prefix = ""
+        # 2026-09-02 B6：原写法直接置空，长题干的多问题每一段就只剩化学式、
+        # 没有指令动词 —— 实测 287 条「切段后全段落空」就是这么来的。
+        # 指令动词通常紧邻第一个小问编号之前，保留末尾 200 字就能带出来。
+        prefix = prefix[-200:]
     segs = []
     for i, s in enumerate(pos):
         e = pos[i + 1] if i + 1 < len(pos) else len(stem)
-        if e - s >= 8:              # 太短的段没有推断价值
+        if e - s >= 4:              # 2026-09-02：8 → 4，「(2) 计算 pH」这种短问原先被滤掉
             segs.append(prefix + stem[s:e])
     return segs
 
@@ -320,7 +413,7 @@ def infer_multi(stem: str):
     像「计算下列溶液的 pH：(1)… (2)… (3)…」这种**同质多问题**，整题就是计
     算题，不该因为小问数 ≥3 就放弃。判定条件（宁可漏不可错）：
       · 至少切出 3 段
-      · 每一段都命中 T1/T2（任一段落空或落到 T3「没识别出题型」就整体放弃）
+      · 每一段都命中 T1/T2/T3S（任一段落空或落到 T3「没识别出题型」就整体放弃）
       · 各段题型的并集 ≤2（段间不一致说明是真综合题，留给人工）
     """
     segs = split_subq(stem)
@@ -337,7 +430,11 @@ def infer_multi(stem: str):
         union |= set(ty)
     if not union or len(union) > 2:
         return None, [], []
-    best = "T2" if any(r[0] == "T2" for r in res) else "T1"
+    best = "T3S"
+    for cand in ("T2", "T1"):
+        if any(r[0] == cand for r in res):
+            best = cand
+            break
     types = [x for x in ATOMIC if x in union]
     evs = [r[2].strip().replace("\n", " ")[:44] for r in res[:3]]
     return best, types, evs
@@ -380,13 +477,18 @@ def infer(stem: str):
 
     keep = [h for h in hits if h[0] in ("T1", "T2")]
     if not keep:
-        # 只有 T3 兜底信号 —— 不写，仅统计
+        # 只有兜底信号。**全部**命中强信号才算 T3S（可写）；
+        # 混入任何 T3 弱信号就降回 T3（不写）—— 弱信号说明题型不确定。
         types, evs = [], []
         for _, typ, e in hits:
             if typ not in types:
                 types.append(typ)
                 evs.append(e)
-        return "T3", types, evs
+        tier = "T3S" if all(h[0] == "T3S" for h in hits) else "T3"
+        # 竞争动词闸门：题干里还有别的动作动词 → 是混合题，单标「简答」会失真，不写。
+        if tier == "T3S" and COMPETE_RE.search(stem):
+            tier = "T3"
+        return tier, types, evs
 
     types, evs = [], []
     for _, typ, e in keep:
@@ -401,9 +503,15 @@ def infer(stem: str):
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--write", action="store_true", help="实写（默认 dry-run）")
-    ap.add_argument("--tiers", default="T1,T2", help="允许写入的档位，逗号分隔")
+    # 2026-09-02 B6：默认档位加入 T3S（强解释信号，仅整题无 T1/T2 命中时才写）。
+    # T3（说明/怎样/如何 等弱信号）默认仍不写。
+    ap.add_argument("--tiers", default="T1,T2,T3S", help="允许写入的档位，逗号分隔")
     ap.add_argument("--samples", type=int, default=25, help="每档抽样条数")
+    ap.add_argument("--per-label", type=int, default=0,
+                    help=">0 时**按题型标签**分组抽样，用于逐标签核精度（档位抽样看不出单个标签的误判）")
     ap.add_argument("--dump", default="", help="抽样证据落盘路径")
+    ap.add_argument("--pending-out", default="",
+                    help="dry-run 时把**将会被写入**的文件清单落盘，用于先打快照再实写、事后逐字节校验")
     ap.add_argument("--seed", type=int, default=20260902)
     args = ap.parse_args()
     allow = set(t.strip() for t in args.tiers.split(","))
@@ -414,7 +522,9 @@ def main() -> None:
     files = [p for p in files if p.name not in V.EXCLUDE_FILE_NAMES]
 
     stats: Counter = Counter()
-    samples: dict[str, list] = {"T1": [], "T2": [], "T3": [], "多问": [], "无": []}
+    samples: dict[str, list] = {"T1": [], "T2": [], "T3S": [], "T3": [], "多问": [], "无": []}
+    lab_samples: dict[str, list] = {}      # 按题型标签分组（--per-label）
+    pending: list[str] = []                # 待写文件清单（--pending-out）
     backlog_norm: list = []
     rng = random.Random(args.seed)
 
@@ -476,6 +586,7 @@ def main() -> None:
                     stats["归一化-已是规范写法"] += 1
                     continue
                 stats["归一化-待改写"] += 1
+                pending.append(rel)
                 if args.write:
                     i = find_key_line(lines, fe, "question_type")
                     if i is None:
@@ -503,6 +614,7 @@ def main() -> None:
                     key = tier
                     if tier in allow:
                         stats["推断-符合写入条件"] += 1
+                        pending.append(rel)
                         if args.write:
                             i = find_key_line(lines, fe, "difficulty")
                             idx = (i + 1) if i is not None else fe
@@ -518,6 +630,7 @@ def main() -> None:
                 key = tier
                 if tier in allow:
                     stats["推断-符合写入条件"] += 1
+                    pending.append(rel)
                     if args.write:
                         i = find_key_line(lines, fe, "difficulty")
                         idx = (i + 1) if i is not None else fe
@@ -527,6 +640,13 @@ def main() -> None:
 
             if len(samples[key]) < args.samples and (rng.random() < 0.35 or len(samples[key]) < 5):
                 samples[key].append((rel, types, evs, stem[:150].replace("\n", " ")))
+            # 只抽**会被写入**的条目（tier in allow）——把 T3 不写档的样本混进来
+            # 会让精度判断失真：看着一堆 🟡，其实那一半根本不会落盘。
+            if args.per_label and types and tier in allow and key == tier:
+                lkey = "+".join(types)
+                bucket = lab_samples.setdefault(lkey, [])
+                if len(bucket) < args.per_label:
+                    bucket.append((rel, tier, evs, stem[:150].replace("\n", " ")))
         except Exception as e:
             stats["异常跳过"] += 1
             if stats["异常跳过"] <= 5:
@@ -537,7 +657,7 @@ def main() -> None:
         print(f"  {k:34s} {v}")
 
     dump_lines: list[str] = []
-    for key in ["T1", "T2", "多问", "T3", "无"]:
+    for key in ["T1", "T2", "T3S", "多问", "T3", "无"]:
         if not samples[key]:
             continue
         hdr = f"\n═══ 抽样：{key}（{len(samples[key])} 条）═══"
@@ -553,12 +673,29 @@ def main() -> None:
             print(line3)
             dump_lines += [line1, line2, line3]
 
+    if lab_samples:
+        print("\n═══ 按题型标签抽样（逐标签核精度用）═══")
+        for lkey in sorted(lab_samples, key=lambda k: -len(lab_samples[k])):
+            rows = lab_samples[lkey]
+            hdr4 = f"\n--- 标签 [{lkey}]  样本 {len(rows)} 条 ---"
+            print(hdr4)
+            dump_lines.append(hdr4)
+            for rel, tier, evs, snip in rows:
+                line = (f"  [{tier}] {rel}\n        证据={evs}\n        题干: {snip}")
+                print(line)
+                dump_lines.append(line)
+
     if backlog_norm:
         print(f"\n═══ 归一化 backlog（无法拆分，保持原样）{len(backlog_norm)} 条 ═══")
         for rel, raw in backlog_norm[:10]:
             print(f"  {rel}  原值={raw}")
         if len(backlog_norm) > 10:
             print(f"  …共 {len(backlog_norm)} 条")
+
+    if args.pending_out and not args.write:
+        Path(args.pending_out).write_text("\n".join(sorted(set(pending))),
+                                          encoding="utf-8", newline="")
+        print(f"\n待写清单已写入：{args.pending_out}（{len(set(pending))} 个文件）")
 
     if args.dump:
         Path(args.dump).write_text("\n".join(dump_lines), encoding="utf-8", newline="")

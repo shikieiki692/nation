@@ -6,6 +6,7 @@ source_file: "06-外部资料导入/无机化学Weller/无机化学第6版Welle1
 source_subject: 无机和结构化学
 year: 2023
 difficulty: 4
+question_type: [计算]
 teaching_level: 拓展
 knowledge_points: ["[[稀有气体]]", "[[化学键]]"]
 status: 已补全答案

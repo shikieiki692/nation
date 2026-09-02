@@ -6,6 +6,7 @@ submodule: 金属催化
 exam_stage: 决赛
 source_subject: 有机化学
 difficulty: 4
+question_type: [合成]
 teaching_level: 拓展
 syllabus_codes: ["50", "51"]
 knowledge_points: ["[[Suzuki偶联]]", "[[烯烃复分解]]", "[[过渡金属催化]]"]

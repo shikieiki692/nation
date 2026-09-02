@@ -6,6 +6,7 @@ submodule: 烯醇和烯醇盐
 exam_stage: 初赛
 source_subject: 有机化学
 difficulty: 4
+question_type: [简答]
 teaching_level: 拓展
 syllabus_codes: ["2.5", "3.3"]
 knowledge_points: ["[[烯醇]]"]

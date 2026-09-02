@@ -6,6 +6,7 @@ submodule: 缩合反应
 exam_stage: 决赛
 source_subject: 有机化学
 difficulty: 4
+question_type: [合成]
 teaching_level: 拓展
 syllabus_codes: ["45", "46"]
 knowledge_points: ["[[Aldol缩合]]", "[[Mannich反应]]", "[[Wittig反应]]"]

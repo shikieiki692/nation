@@ -6,6 +6,7 @@ submodule: Ch.1
 exam_stage: 初赛
 source_subject: 有机化学
 difficulty: 3
+question_type: [推断]
 teaching_level: 拓展
 syllabus_codes: ["31"]
 knowledge_points: ["[[晶体结构基础]]", "[[Lewis酸碱理论]]", "[[电子效应]]", "[[碳正离子]]"]

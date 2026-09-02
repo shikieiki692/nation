@@ -6,6 +6,7 @@ submodule: 杂环化学
 exam_stage: 决赛
 source_subject: 有机化学
 difficulty: 4
+question_type: [合成]
 teaching_level: 拓展
 syllabus_codes: ["50", "52"]
 knowledge_points: ["[[Fischer吲哚合成]]", "[[吡啶化学]]", "[[杂环合成]]", "[[芳香亲核取代]]"]

@@ -6,6 +6,7 @@ submodule: 消除反应
 exam_stage: 初赛
 source_subject: 有机化学
 difficulty: 4
+question_type: [简答]
 teaching_level: 竞赛
 syllabus_codes: ["3.2"]
 knowledge_points: ["[[E2反应]]"]

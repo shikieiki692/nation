@@ -6,6 +6,7 @@ submodule: 基础概念
 exam_stage: 初赛
 source_subject: 有机化学
 difficulty: 3
+question_type: [简答]
 teaching_level: 巩固
 syllabus_codes: ["29", "28"]
 knowledge_points: ["[[给体-受体相互作用]]", "[[端基效应]]", "[[α效应]]"]

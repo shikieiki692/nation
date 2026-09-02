@@ -6,6 +6,7 @@ submodule: 羰基亲核加成
 exam_stage: 初赛
 source_subject: 有机化学
 difficulty: 3
+question_type: [简答]
 teaching_level: 拓展
 syllabus_codes: ["21"]
 knowledge_points: ["[[羰基亲核加成]]", "[[水合物]]"]

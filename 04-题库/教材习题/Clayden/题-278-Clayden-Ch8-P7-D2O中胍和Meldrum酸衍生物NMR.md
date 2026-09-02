@@ -6,6 +6,7 @@ submodule: 酸碱质子理论
 exam_stage: 初赛
 source_subject: 有机化学
 difficulty: 3
+question_type: [简答]
 teaching_level: 拓展
 syllabus_codes: []
 knowledge_points: ["[[pKa]]", "[[NMR谱学]]"]

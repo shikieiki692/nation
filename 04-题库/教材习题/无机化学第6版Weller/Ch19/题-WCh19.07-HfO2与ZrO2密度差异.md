@@ -13,6 +13,7 @@ source_subject: 无机和结构化学
 year: 2023
 
 difficulty: 3
+question_type: [简答]
 teaching_level: 巩固
 
 knowledge_points: ["[[过渡元素]]", "[[镧系收缩]]"]

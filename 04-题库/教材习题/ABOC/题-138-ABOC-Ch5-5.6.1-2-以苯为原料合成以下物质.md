@@ -6,6 +6,7 @@ submodule: Ch.5
 exam_stage: 初赛
 source_subject: 有机化学
 difficulty: 2
+question_type: [合成]
 teaching_level: 巩固
 syllabus_codes: ["35"]
 knowledge_points: ["[[芳香性]]", "[[亲电取代]]", "[[胺]]"]

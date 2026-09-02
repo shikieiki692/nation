@@ -6,6 +6,7 @@ submodule: 有机金属试剂
 exam_stage: 初赛
 source_subject: 有机化学
 difficulty: 3
+question_type: [合成]
 teaching_level: 拓展
 syllabus_codes: ["21"]
 knowledge_points: ["[[Grignard试剂]]", "[[有机锂试剂]]"]

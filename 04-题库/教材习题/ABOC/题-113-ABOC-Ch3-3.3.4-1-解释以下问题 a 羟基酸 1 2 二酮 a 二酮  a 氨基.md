@@ -6,6 +6,7 @@ submodule: Ch.3
 exam_stage: 初赛
 source_subject: 有机化学
 difficulty: 2
+question_type: [简答]
 teaching_level: 巩固
 syllabus_codes: ["33"]
 knowledge_points: ["[[亲电加成]]", "[[环氧化反应]]"]

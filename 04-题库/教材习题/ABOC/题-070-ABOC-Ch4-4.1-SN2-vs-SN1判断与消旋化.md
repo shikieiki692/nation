@@ -6,6 +6,7 @@ submodule: 基础概念
 exam_stage: 初赛
 source_subject: 有机化学
 difficulty: 3
+question_type: [简答]
 teaching_level: 巩固
 syllabus_codes: ["36", "44"]
 knowledge_points: ["[[SN2反应]]", "[[SN1反应]]", "[[立体化学]]"]
