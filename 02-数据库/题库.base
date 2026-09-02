@@ -1,7 +1,11 @@
 filters:
   and:
-    - file.inFolder("04-题库")
-    - type == "题目"
+    - or:
+        - file.inFolder("04-题库")
+        - file.inFolder("05-真题库")
+    - or:
+        - type == "题目"
+        - type == "真题"
 properties:
   file.name:
     displayName: 题目
@@ -31,6 +35,10 @@ properties:
     displayName: 来源科目
   status:
     displayName: 状态
+  deprecation_reason:
+    displayName: 废弃原因
+  superseded_by:
+    displayName: 取代于
   used_in:
     displayName: 已用于
 views:
@@ -83,21 +91,40 @@ views:
       - property: difficulty
         direction: ASC
   - type: table
-    name: 待治理
+    name: 待治理（废弃待决）
     filters:
       and:
         - or:
-            - status == "待填充"
             - status == "已入库"
             - status == "deprecated"
     order:
       - file.name
+      - file.folder
       - subject_module
       - pack
-      - difficulty
       - status
+      - deprecation_reason
+      - superseded_by
     sort:
       - property: subject_module
+        direction: ASC
+  - type: table
+    name: 部分填充待补全
+    filters:
+      and:
+        - status == "待填充"
+    order:
+      - file.name
+      - file.folder
+      - subject_module
+      - submodule
+      - pack
+      - difficulty
+      - exam_stage
+    sort:
+      - property: file.folder
+        direction: ASC
+      - property: file.name
         direction: ASC
   - type: table
     name: 题型待标注（按目录批量补）

@@ -32,6 +32,7 @@ fidelity: 原书逐字
 
 exam_stage: 初赛
 
+status: 已填充
 ---
 
 
