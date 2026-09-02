@@ -4,9 +4,10 @@
 - `11-模板/scripts/` 校验/审计脚本必须用系统 Python 3.12：`C:\Users\蕾赛\AppData\Local\Programs\Python\Python312\python.exe`（有 PyYAML）；managed 3.13.12 无 PyYAML。
 - 跑校验器：`...Python312\python.exe -X utf8 11-模板/scripts/validate_kb.py --full`（约 75 秒，后台跑）。
 
-## 关键基线（2026-09-02 实测）
-- 题目总数 **4,186** = 04-题库 4,123（type=题目，含省预赛 260：江苏 10+福建 10+浙江 240【09-02 拆题】）+ 05-真题库 63；`no_answer: 0`（ABOC 211 思路占位为合法）。
-- validate_kb --full：6,407 文件 · **Error 0 · Warning 1,641**（断链 45 + frontmatter 1,590 + 标题跳跃 3 + stage 门禁 3）。
+## 关键基线（2026-09-02 实测，B2a 后）
+- 题目总数 **4,134** = 04-题库 4,071（type=题目）+ 05-真题库 63（type=真题，非"题目"）。两仓 md 文件数：04-题库 4,260 / 05-真题库 64。
+- validate_kb --full：6,410 文件 · **Error 0 · Warning 209**（正文断链 45 + frontmatter 断链 158 + 标题跳跃 3 + stage 门禁 3）。基线 1,641 → 209 由 B1（拆 KP 两级）+ B2a 达成。
+- 字段覆盖（4,324 题文件口径）：source_subject 4,184 / subject_module 4,186 / teaching_level 4 档共 4,226 / year 960 / concepts 723 / question_type 仅 4.7%。
 - 习题书 **31 章 / 1,283 题**，单一事实源 = 04-题库/题库架构总览.md；docx 三版本在 `00-首页/题组Word/习题书/`。
 - 全库图片引用 23,654：真缺失 3,200 属资产丢失脚本不可修；剥 `../` 可修 440 全在归档目录；统计"可修"必须先排除根兜底命中 1,092。巡检脚本 `.workbuddy/scripts/audit_vault_images.py` + `gen_vault_img_report.py`。
 
@@ -16,6 +17,11 @@
 - 导入新题一律走 04-题库/新题入库SOP；文档里写语法示例用全角方括号防误报断链。
 - 汇智源编号 = 题库编号；答案只有图的题不要编造文字答案。
 - 六字段枚举仅限题目类文件（QB_TYPES）；difficulty 允许区间、exam_stage 允许 `/` 多值。
+- **校验器只约束 4 个字段**（QB_ENUM：fidelity/difficulty/exam_stage/subject_module）；teaching_level、question_type、source_subject **完全不校验** → 改它们零告警风险，但规范只能靠 SOP，改错也无人拦。
+- **字段分工（2026-09-02 定，勿再混淆）**：`source_subject` = 来源教材自己怎么分科（16 值，不收敛、不校验）；`subject_module` = 四大模块（QB_ENUM 约束，组卷与成书用它筛选）。**两者值不同是设计意图**（1,906 处，46.8%），切勿"修正"成一致。
+- `teaching_level` 只有 4 档：**基础 / 巩固 / 拓展 / 竞赛**（2026-09-02 由 14 种收敛）。长尾落点依据：`拔高/提高/进阶/决赛/高级` 100% 落在真题目录→竞赛；`强化/挑战` 全在教材习题→拓展。
+- 真题届数 → 年份：**`year = N + 1986`**（第27届=2013 … 第39届=2025；11 组配对 + 全量 356 条反查均 0 冲突）。
+- `knowledge_points` 只放能解析到 `03-知识点/` 的项，**不允许为空**；更细的概念走 `concepts`（纯文本，不校验断链）。
 - 真题「一题一文件」题组制：一个大题=一个 md，文件名取首问描述 → `[[题-037-1-2-X]]` 内容在 `题-037-1-*` 父文件里，**按题号前缀折叠**（描述不同是常态），折叠前对账小问数。
 - 构建防漂移：`build_module_book.py --write` 自动回写 README；`溯源映射.json` 成书题↔源文件；自检跑 `audit_book_quality.py`。
 
@@ -29,7 +35,14 @@
 - 批量改 md 前用 zipfile 打快照到 `.workbuddy/backups/`。
 
 ## 批量改 md 防坑
-- frontmatter 判定：首行 `---` 且头部含 `^[\w\-]+:`；读写一律 `newline=""`（防 CRLF 整文件重写，`git diff --stat` 增删行数应≈改动数）；自动补别名取路径末段；别把 `09-审计报告/` 报告的历史证据字段当修复对象。
+- frontmatter 判定：首行 `---` 且头部含 `^[\w\-]+:`；自动补别名取路径末段；别把 `09-审计报告/` 报告的历史证据字段当修复对象。
+- **行尾检测（2026-09-02 重要修正）**：本库 `.gitattributes` 有 `*.md text eol=lf`，**git 在 diff/add 时会做 CRLF 归一化**——旧的「`git diff --stat` vs `--ignore-cr-at-eol --stat` 对比」在本库**根本测不出 CRLF 污染**。改用：改前 zip 快照 + 改后逐行 diff（模板 `.workbuddy/scripts/verify_b2a.py`），断言 diff 只含 equal / replace(1:1) / insert 三种操作，且插入行行尾与邻居一致。
+- 读写一律 `newline=""`，且**必须用 `open()`**——`Path.read_text()` 不接受该参数，其默认 `newline=None` 会折叠 CRLF→LF，检测行尾时正好毁掉要测的东西。
+- 本库是**混合行尾**（抽样 4,189 文件含 134,919 个 CRLF）：`split("\n")` 后 `\r` 留在行尾 —— 原地改值安全（`\r` 落在正则 `\s*$` 里），但**插入新行必须按邻居风格补 `\r`**，否则在 CRLF 文件里插进裸 LF 行。
+- **bash heredoc 会吃掉紧跟冒号的反斜杠**：`:\s` → `:/s`，正则静默失效（`\s` 前是中文/括号/行首则无事）。含「冒号+反斜杠」的正则一律用 Write 写成 .py 文件，不走 heredoc。
+- **`git add` 会刷 ~150KB CRLF 警告**（归一化所致），不 `2>/dev/null` 会被 SIGTERM 打断并留下 `.git/index.lock` 空文件，之后所有 git 命令报 exit=128；用 PowerShell `Remove-Item` 清锁。
+- **改完文档要重跑校验再提交**：B1 在 题库架构总览.md 写了 `[[wikilink]]` 示例被当真实链接（Warning 209→210），B2a 才发现并改全角修回。文档里的语法示例一律全角 `［［…］］`。
+- git status 报 `M` 但 `git diff` 为空 = stat 缓存过期（内容字节相同），无害；提交时按显式 pathspec 暂存以避开无关目录。
 
 ## 批量 docx 经验
 - 走 python-docx + lxml + zipfile 后处理，**不走** tencent-docx HTML 往返（毁 OMML 公式与图位）。
@@ -39,6 +52,7 @@
 - 页脚 PAGE/NUMPAGES 需完整 fldChar begin→instrText→separate→占位文本→end。
 
 ## 新建知识点文件字段安全写法
+- 注意：2026-09-02 的 `subject → source_subject` 改名**只作用于 04-题库 / 05-真题库**，03-知识点 仍用 `subject`。
 - 必填 title/type/subject/status/updated；`subject_module` 才有枚举（subject/module 没有）；`related`/`prerequisite` 写纯文本数组（在 QB_LINK_FIELDS 里，写 wikilink 会被查断链）；不写 `stage` 字段绕 published 门禁；一词多义建一个文件内部分节，勿拆重名。
 
 ## 用户决策（2026-08-31）
@@ -46,11 +60,22 @@
 - 质量优先于难度：不做难度分级，构建排序 fidelity 优先（🟢逐字>🟡改写>🔵自编）。
 - 新题分层入库：默认 10-待审核区 P1 流程，P0 小额已核验直入。
 
+## 用户决策（2026-09-02 题库升级）
+- 主攻检索断裂；交付形态 = Bases 打底 + 工作台升级 + 保留 CLI。
+- 真题双仓（04-题库/真题=仓储层求全，05-真题库=交付层求深）**视图层合并，不移动文件**；真题统一收口到 `02-数据库/真题.base`。
+- 维度补齐只做 `teaching_level` 收敛 4 档 + `question_type`；不做 syllabus_codes、不强制补 used_in 历史。
+- 缺失值处置：能从 difficulty 推断就推断并紧贴 difficulty 行插入；**双重缺失（difficulty 也缺）不推断，留空**——与 B1「40 题 KP 不硬造」同一哲学。
+- 只排除错题回流闭环；B5 历史脚本收敛降为可选。讲义映射仅新讲义强制，历史按需。
+
 ## IMA / 资料库导出
 - IMA：md+相对路径图打 ZIP → 笔记模块 Notion 类型导入 → 关联知识库；双链转纯文本勿转 md 链接；批量 20~50/次。
 - `vault_to_ima_convert.py` 已跑通 03-知识点 → 943 篇 → `C:\Obsidion\导出_IMA\03-知识点.zip`（图解析 99.9%）。
 
 ## 遗留待办
+- **B2b（下一批）**：question_type 归一化到 8 种原子题型（选择/填空/简答/计算/推断/作图/机理/方程式书写）+ 角色值「例题」，列表化；**只写高置信（格式信号 ~6%）+ 来源语义明确可推的部分，其余留空**——实测启发式高置信仅 6%、无命中 26%，原估「4.5%→90%」不成立。聚合型来源（如「化学竞赛初赛讲义」n=320）内部题型混合，不可按来源批量标注。
+- **需在 Obsidian 里人工验证**：两个 base 的 `or` 嵌套 `and` 双仓 filter 是否真的同时拉到 04-题库/真题 与 05-真题库（命令行无法验证 Bases 渲染）。
+- 40 题 knowledge_points 全部解析不出，需人工指派（清单 `.workbuddy/backups/kp_empty_list_files.txt`）。
+- B3 组卷器升级（`组卷工作台.md` 加 EXCLUDE_USED/配额/难度梯度/随机种子）／B4 生命周期与讲义映射／B5 历史脚本收敛（177+，可选）。
 - 习题书 V3：题-033 查纸质原书补题补答；ABOC 211 条思路占位待人工。
 - Word precheck 少量 `^\circ`/裸下标 warning，源稿后续统一写 `\theta`。
 - 学生版-打印版 ~51% 图有效 DPI<150（源 72 DPI），是否回溯换源图待用户定。
