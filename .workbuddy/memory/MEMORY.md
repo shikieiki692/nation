@@ -11,6 +11,20 @@
 - 习题书 **31 章 / 1,283 题**，单一事实源 = 04-题库/题库架构总览.md；docx 三版本在 `00-首页/题组Word/习题书/`。
 - 全库图片引用 23,654：真缺失 3,200 属资产丢失脚本不可修；剥 `../` 可修 440 全在归档目录；统计"可修"必须先排除根兜底命中 1,092。巡检脚本 `.workbuddy/scripts/audit_vault_images.py` + `gen_vault_img_report.py`。
 
+## 组卷工作台（04-题库/组卷工作台.md，B3 后）
+- 三块 dataviewjs：快速筛选器 / 智能组卷器（梯度 2:5:3 + 模块配额 + 同来源限流 ≤3 + 可复现种子）/ 已用题回看。
+- **`used_in` 是 wikilink**（`used_in: "[[结构化学阶段测试卷]]"`，344 条全指向 4 份阶段测试卷且文件存在）。
+  → dataview 解析成 **Link 对象，没有 `.length`**；写 `p.used_in.length` 判空会**恒为假、静默失效**。
+  一律用 `hasUsed = u => u != null && (Array.isArray(u) ? u.length > 0 : true)`。
+- **dataviewjs 代码块之间不共享作用域**，三个工具函数（`hasUsed` / `diffNum` / `stageHit`）每块都要单独定义一遍。
+- `diffNum()` 取第一个整数：9 条例外写法（`3-5`/`4-5`/`3 # 1-5`）用 `Number()` 得 NaN 会被静默丢弃。
+- `stageHit()` 用 split("/")+some：`exam_stage` 有 `/` 多值。
+- 来源归一化 `srcKey()`：1,228 → 1,087 个来源（化学竞赛初赛讲义 496 / 赵鑫光 482 / 普通化学原理 306 / 周公度 285）。
+  不归一化「同来源限流 ≤3」形同虚设。改规则后用 `check_workbench_js.py` 比对 JS 版与 Python 版是否仍逐条一致。
+- **出卷闭环**：试卷写好题目链接后跑 `mark_used.py --paper "<试卷>.md"`（默认 dry-run，确认后 `--write`），
+  否则 `EXCLUDE_USED` 是摆设。它按 wikilink 回填，单值写标量、多值写数组。
+- `depends_on` 全库仅 4 条，承接题无法自动处理，只能人工看题面顶部 ⚠️ 提示。
+
 ## 题库操作铁律
 - 例题写 `type: 题目` + `question_type: 例题`（`type: 例题` 不被构建 gather 识别）。
 - 重建直接 `--clean --write`（已内置文件锁重试），勿先 rm；Python 调用加 `CODEBUDDY_SESSION_ID= CLAUDE_SESSION_ID=` 绕 safe-delete shim + `-X utf8`。
@@ -38,6 +52,12 @@
 - 「静默吸题」：`find_wikilink_target()` 三级兜底（路径→basename→title/aliases），只有靠 title/aliases 兜底连到题目文件的才是错位（basename 命中 = 显式指题设计意图，不动）；文件名与内容不符（如 Aldol缩合.md 实为逆羟醛缩合）只能改内容不能改名。巡检脚本 `find_kp_links_to_questions.py` 等。
 - `媒体仓库/` 被 .gitignore 不入库，来源仓（`06-外部资料导入/**_images` 等）反而入库 → 图片治理一律「复制进媒体仓库 + 源图保留」；12,413 basename 两仓共存是标准做法非异常。
 - 批量改 md 前用 zipfile 打快照到 `.workbuddy/backups/`。
+
+## 行尾与 shell 防坑（2026-09-02 补）
+- **查行尾只能用 Python 数 `b.count(b'\r\n')` vs `b.count(b'\n')`**。`grep -c $'\r' file` 在 Git Bash 下是**假阳性**（把纯 LF 文件报成"全行含 CR"）。
+- `git diff --stat` **证明不了行尾**：`.gitattributes` 有 `*.md text eol=lf`，diff 会归一化 CRLF。要验行尾必须读磁盘字节。
+- 题库是**真混合行尾**：04-题库+05-真题库 里 1,326 个全 CRLF + 2,557 个全 LF。插入新行必须按邻居风格补 `\r`（`mark_used.py` 的 `term_at()` / `line_term()` 是标准做法）。
+- **bash 双引号里 inline `python -c` 写含 `$` 的正则会被转义搞坏**：`r"^type:\s*(.+?)\s*$"` 直接失配（统计结果全变"无 type"且无报错）。含 `$` 或「冒号+反斜杠」的正则一律写成 .py 文件再跑。
 
 ## 批量改 md 防坑
 - frontmatter 判定：首行 `---` 且头部含 `^[\w\-]+:`；自动补别名取路径末段；别把 `09-审计报告/` 报告的历史证据字段当修复对象。
@@ -79,6 +99,9 @@
 - `vault_to_ima_convert.py` 已跑通 03-知识点 → 943 篇 → `C:\Obsidion\导出_IMA\03-知识点.zip`（图解析 99.9%）。
 
 ## 遗留待办
+- **B3 已完（提交 97709278）**；剩下 B4 生命周期（pack 准入 / status 收敛 / 僵尸字段豁免 / 新讲义强制 `problems`）、B5 可选。
+- **B3 待用户在 Obsidian 实跑验证**：三块 dataviewjs 的实际渲染（命令行只验了 JS 语法与 `srcKey` 跨语言一致性）；
+  重点看 `EXCLUDE_USED` 是否真把 344 条已用题排掉、智能组卷器的分档诊断有没有出现「候选不足」。
 - **2,970 条待补 question_type**：71% 在 `04-题库/教材习题`（结构化学 972 / 有机 962 / 元素与分析 597 / 化学原理 439），真题 254。走 `题库.base` → 「题型待标注（按目录批量补）」，按 `所在目录` 排序后同目录批量标。脚本 `.workbuddy/scripts/infer_question_type.py` 幂等可重跑。
 - **需在 Obsidian 里人工验证**：两个 base 的 `or` 嵌套 `and` 双仓 filter 是否真的同时拉到 04-题库/真题 与 05-真题库；新增的 `file.folder` 属性与「题型待标注·真题优先」视图（命令行无法验证 Bases 渲染）。
 - 40 题 knowledge_points 全部解析不出，需人工指派（清单 `.workbuddy/backups/kp_empty_list_files.txt`）。
