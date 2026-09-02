@@ -4,8 +4,12 @@
 - `11-模板/scripts/` 校验/审计脚本必须用系统 Python 3.12：`C:\Users\蕾赛\AppData\Local\Programs\Python\Python312\python.exe`（有 PyYAML）；managed 3.13.12 无 PyYAML。
 - 跑校验器：`...Python312\python.exe -X utf8 11-模板/scripts/validate_kb.py --full`（约 75 秒，后台跑）。
 
-## 关键基线（2026-09-02 实测，B2b 后）
-- 题目总数 **4,134** = 04-题库 4,071（type=题目）+ 05-真题库 63（type=真题，非"题目"）。两仓 md 文件数：04-题库 4,260 / 05-真题库 64。
+## 关键基线（2026-09-02 实测，B4 后）
+- 题目总数 **4,182** = 04-题库 4,119（`type: 题目`）+ 05-真题库 63（`type: 真题`，**不是"题目"**）。
+  ⚠️ 统计口径必须 `{题目, 真题}` 双 type：04-题库 下还有 140 个非题目 md（答案 19 / 系统 10 / 索引 7 / 题组 7 / 真题答案 5 / 真题卷 5 …），
+  只按目录过滤会多算；只写 `{题目}` 会漏掉 05-真题库 的 63 条。4,119 + 63 = 4,182 是唯一自洽口径
+  （与 题库架构总览、组卷工作台 `SCOPE="both"`、`mark_used.py` 三处一致）。
+- `status` 分布（覆盖率 100%）：已填充 3,377 / 已补全答案 792 / deprecated **8** / 待填充 5。
 - validate_kb --full：6,410 文件 · **Error 0 · Warning 209**（正文断链 45 + frontmatter 断链 158 + 标题跳跃 3 + stage 门禁 3）。基线 1,641 → 209 由 B1（拆 KP 两级）+ B2a 达成，B2b 后持平。
 - 字段覆盖（4,119 题文件口径）：source_subject 4,184 / subject_module 4,186 / teaching_level 4 档共 4,226 / year 960 / concepts 723 / **question_type 1,209（29.4%）**，仍缺 2,970。
 - 习题书 **31 章 / 1,283 题**，单一事实源 = 04-题库/题库架构总览.md；docx 三版本在 `00-首页/题组Word/习题书/`。
@@ -82,6 +86,37 @@
 - 注意：2026-09-02 的 `subject → source_subject` 改名**只作用于 04-题库 / 05-真题库**，03-知识点 仍用 `subject`。
 - 必填 title/type/subject/status/updated；`subject_module` 才有枚举（subject/module 没有）；`related`/`prerequisite` 写纯文本数组（在 QB_LINK_FIELDS 里，写 wikilink 会被查断链）；不写 `stage` 字段绕 published 门禁；一词多义建一个文件内部分节，勿拆重名。
 
+## 生命周期治理（B4，2026-09-02）
+- **废弃只有一套机制：`status: deprecated`**。组卷工作台（第 71 行）与 `build_module_book.py`
+  （第 618 行）都只挡这一个值。历史上有过 `deprecated: true` + `deprecatedDate` + `sunsetDate`
+  的「日落」写法，**不会被任何脚本排除**，题照样进卷子进书（2026-09-02 修掉 3 条拆题后父文件）。
+  已全部并入，日落日期写进 `deprecation_reason` 正文。
+- 废弃三件套：`status: deprecated` + `deprecation_reason`（必填）+ `superseded_by`（选填，
+  wikilink）。**取代文件的 pack 不作要求**（原 SOP 要求"模块习题集"，实测 7 条里 3 条是章节练习）。
+- **标废弃前必须先证伪「内容是否会丢」**：拆题父文件要逐条核对小问是否都已独立成题
+  （12.35-12.45 / 19.57-19.63 / 19.64+19.68-19.77 全部覆盖才敢标）。
+- **`superseded_by` 已加进 `validate_kb.QB_LINK_FIELDS`**（此前不校验断链 → 指到不存在的
+  文件时题目静默从习题书消失，即 SOP §七 记载的例6.5/13.4/14.8 事故）。
+- **判定"僵尸字段"的铁律：先 `grep -rn "字段名" --include="*.py" 11-模板/scripts`**。
+  有脚本读的一律不是遗留。`demoted`(12, demote_questions.py 写) / `promoted`(3, promote_questions.py 写) /
+  `depends_on`(4, 断链审计读) / `superseded_by`(7, build_module_book.py 读) 都是承重字段，
+  差点被当垃圾清掉。真正的野字段只有 `big_question` 16 / `source_author` 8 / `quality_tier` 5
+  （清单见 SOP §4.5）。
+- **改 frontmatter 前先打 zip 快照**，且**快照才是行尾基线**——`git show HEAD:` 给的是
+  `.gitattributes` 归一化后的 LF，磁盘可能是 CRLF，拿 HEAD 对比行尾必然误判。
+
+## 讲义 ↔ 题库 映射（B4 Task #11）
+- 脚本 `.workbuddy/scripts/check_lecture_problems.py`：讲义 `problems` 字段校验。
+  **按 `created` 切新旧**（默认 `>= 2026-09-02`），不按 `stage`——按 stage=published 强制会让
+  84 份已定稿的历史讲义一次性变红，与「存量不强制回填」冲突。
+  `--since` 可调口径，`--strict` 让历史欠账也失败，`--list-unresolved` 列明细。
+- **现状：217 份讲义里 22 份有 `problems`，148 条引用中 38 条（25.7%）解析不到。**
+  根因不是题丢了，是**引用粒度与文件命名不一致**：讲义写小问级 `题-039-1-1-雄黄…`，
+  实际文件是大题级 `题-039-1-雄黄…`（7 条降一级即可修）；另有 31 条是讲次内部自造编号
+  （`37届Q5-NO与H2S反应`），与题库文件名无关，只能人工对应。属规范 §五.3 同一笔欠账。
+- `problems` 规范写法 = **wikilink**。规范 §五 承诺的「反查这道题被哪些讲义用过」只有
+  反链能实现，纯文本做不到。校验器对 wikilink / 纯文本 / 全路径 / 章节号四种写法都兼容解析。
+
 ## 用户决策（2026-08-31）
 - 断链类存量暂不处理；索引口径历史数字保留原值；33 个非题目文件命名豁免。
 - 质量优先于难度：不做难度分级，构建排序 fidelity 优先（🟢逐字>🟡改写>🔵自编）。
@@ -99,11 +134,20 @@
 - `vault_to_ima_convert.py` 已跑通 03-知识点 → 943 篇 → `C:\Obsidion\导出_IMA\03-知识点.zip`（图解析 99.9%）。
 
 ## 遗留待办
-- **B3 已完（提交 97709278）**；剩下 B4 生命周期（pack 准入 / status 收敛 / 僵尸字段豁免 / 新讲义强制 `problems`）、B5 可选。
+- **B3 已完（97709278）；B4 四项全完**：Task#8 pack 准入规则（`check_pack_rule.py`，硬/软两级）、
+  Task#9 status 收敛 100% 覆盖 + `题库.base` 口径 4,119→4,182 对齐、Task#10 废弃机制收一套 + 僵尸字段、
+  Task#11 `check_lecture_problems.py`。提交：`ba03bb56` / `06c37ac0` / `a3c6f501`。剩 B5（可选）。
 - **B3 待用户在 Obsidian 实跑验证**：三块 dataviewjs 的实际渲染（命令行只验了 JS 语法与 `srcKey` 跨语言一致性）；
   重点看 `EXCLUDE_USED` 是否真把 344 条已用题排掉、智能组卷器的分档诊断有没有出现「候选不足」。
 - **2,970 条待补 question_type**：71% 在 `04-题库/教材习题`（结构化学 972 / 有机 962 / 元素与分析 597 / 化学原理 439），真题 254。走 `题库.base` → 「题型待标注（按目录批量补）」，按 `所在目录` 排序后同目录批量标。脚本 `.workbuddy/scripts/infer_question_type.py` 幂等可重跑。
-- **需在 Obsidian 里人工验证**：两个 base 的 `or` 嵌套 `and` 双仓 filter 是否真的同时拉到 04-题库/真题 与 05-真题库；新增的 `file.folder` 属性与「题型待标注·真题优先」视图（命令行无法验证 Bases 渲染）。
+- **需在 Obsidian 里人工验证**：`题库.base` 顶层改成 `or{inFolder(04-题库), inFolder(05-真题库)}` +
+  `or{type==题目, type==真题}` 后是否真显示 4,182 行；新增的「待治理（废弃待决）」8 行、
+  「部分填充待补全」5 行、「精选池」1,314 行是否对得上（命令行 `sim_base_views.py` 已模拟验证，
+  但 Bases 渲染无法离线验）。
+- **习题书下次重建会少 3 条**：12.35-12.45 / 分离鉴别制备19 / 简答题19 三个父文件已标 deprecated，
+  此前一直在书里（子题的冗余重复），已在 `04-课件/习题集/溯源映射.json` 里。
+- **讲义 problems 存量 38 条断链**：7 条可机械修（降一级编号），31 条需人工对应自造编号。
+  属已知欠账，建议随下次大修逐讲清理，勿批量改。
 - 40 题 knowledge_points 全部解析不出，需人工指派（清单 `.workbuddy/backups/kp_empty_list_files.txt`）。
 - 11 条 `question_type: 综合题` 无法拆分成原子题型，保持原样（上海中学 8 条 + 28 届决赛 2 条 + 1 条）。
 - B3 组卷器升级（`组卷工作台.md` 加 EXCLUDE_USED/配额/难度梯度/随机种子；注：组内「文末写 question_type 字段目前仅 7% 覆盖」已过时，应改 29.4%）／B4 生命周期与讲义映射／B5 历史脚本收敛（177+，可选）。
