@@ -7,7 +7,7 @@ priority: P3
 area: 知识库系统
 owner: Agent
 created: 2026-08-02
-updated: 2026-09-01
+updated: 2026-09-02
 description: >
   每周一 08:23 运行 validate_kb.py 全量验证，对比基线只报异常增量，
   并检查上轮 follow-up 断链清单是否已清。目录/文件重组后必须立即补跑。
@@ -66,7 +66,7 @@ python "11-模板/scripts/scan_question_quality.py"       # 逐题质量扫描�
 
 | 指标 | 值 |
 |:---|:---|
-| 受检文件 | 6407 |
+| 受检文件 | 6410 |
 | Error | 0 |
 | Warning | 1641（枚举 0；图片缺失 0；存量 = 正文断链 45 + frontmatter 断链 1590，按用户指示分批消解；另标题跳跃 3 + stage-门禁 3） |
 | Info | 7338 |
@@ -76,6 +76,7 @@ python "11-模板/scripts/scan_question_quality.py"       # 逐题质量扫描�
 
 ## 最近运行记录
 
+- **2026-09-02 full（三篇测试卷后，最新）**：6410 文件 · **0 error / 1641 warning**（省预赛 240 拆题 + 3 新卷 + 150 used_in 回填，warning 全程纹丝不动）。报告 [[09-审计报告/auto-validation/2026-09-02-validation]]
 - **2026-09-02 full（浙江拆题后）**：6407 文件 · **0 error / 1641 warning**（warning 纹丝不动 = 240 新题 0 断链 0 缺图）。报告 [[09-审计报告/auto-validation/2026-09-02-validation]]
 - **2026-09-01 full（深夜终检）**：6167 文件 · **0 error / 1641 warning**。较 08-31（2,578）**-937**：图片缺失 357→0（355 处校验器误报修复 + 缺图恢复 + EDTA 真图挂接）、正文断链 554→45（子编号 26 处 + 阶段七~九治理 + 新建 4 个高频 KP）、frontmatter 1,642→1,590（非术语值 17 个 51 处清除）。报告 [[09-审计报告/auto-validation/2026-09-01-validation]]
 - **2026-08-31 full（终检）**：6162 文件 · **0 error / 2578 warning**。较盲区补齐基线（2,660）-82：路径式断链 34→0、KP 改指 50 处（frontmatter 断链 1,724→1,642）、汇智补题 4 题并恢复 9 处引用；status-枚举 4 处（补题 status 值）已修为 `已补全答案` 归零。报告 [[09-审计报告/auto-validation/2026-08-31-validation]]
