@@ -3,9 +3,10 @@ title: "题-ZOC-004-溶剂效应对SN2反应速率的影响"
 type: 题目
 source: "Zchem有机反应合成与机理 上册L1"
 source_file: "06-外部资料导入/有机反应合成与机理 上/L1Equilibrium,RatesandMechanisms[高清]_笔记.md"
-subject: 有机化学
+source_subject: 有机化学
 year: 2023
 difficulty: 4
+teaching_level: 拓展
 knowledge_points: ["[[反应速率]]", "[[活化能]]"]
 status: 已补全答案
 tags: [溶剂效应, SN2, Zchem]

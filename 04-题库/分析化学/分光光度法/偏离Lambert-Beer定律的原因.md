@@ -7,7 +7,7 @@ difficulty: 3
 teaching_level: 巩固
 source: "分析化学（第六版）第10章 教学改编"
 module: "分光光度法"
-subject: 分析化学
+source_subject: 分析化学
 syllabus_codes: ["20"]
 knowledge_points: ["[[Lambert-Beer定律]]", "[[分光光度法]]"]
 tags: [化竞, 题目, 分光光度法, 知识卡]

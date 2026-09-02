@@ -4,9 +4,9 @@ type: 题目
 fidelity: 原书逐字
 submodule: "有机合成与机理"
 exam_stage: 决赛
-subject: 有机化学
+source_subject: 有机化学
 difficulty: 4
-teaching_level: 挑战
+teaching_level: 拓展
 syllabus_codes: []
 knowledge_points:
   - "[[Michael加成]]"
@@ -22,6 +22,7 @@ module: 有机化学
 status: 已填充
 subject_module: 有机化学
 pack: 综合模拟卷
+year: 2011
 ---
 # 题-025决-8：GIL催化Michael加成
 

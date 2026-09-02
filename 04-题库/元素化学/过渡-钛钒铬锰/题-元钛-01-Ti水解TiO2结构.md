@@ -7,7 +7,7 @@ difficulty: 3
 teaching_level: 巩固
 source: "教学改编（钛钒铬锰讲义 §一 钛）"
 module: "过渡-钛钒铬锰"
-subject: 元素化学
+source_subject: 元素化学
 syllabus_codes: ["15"]
 knowledge_points: ["[[钛]]", "[[金红石型结构]]"]
 tags: [化竞, 题目, 元素化学, 过渡金属, 钛]

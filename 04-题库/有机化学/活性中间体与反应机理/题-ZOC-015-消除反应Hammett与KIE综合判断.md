@@ -3,9 +3,10 @@ title: "题-ZOC-015-消除反应Hammett与KIE综合判断"
 type: 题目
 source: "Zchem有机反应合成与机理 上册L3"
 source_file: "06-外部资料导入/有机反应合成与机理 上/L3DeterminingReactionMechanisms[高清]_笔记.md"
-subject: 有机化学
+source_subject: 有机化学
 year: 2023
 difficulty: 5
+teaching_level: 竞赛
 syllabus_codes: ["35"]
 knowledge_points: ["[[Hammett方程]]", "[[动力学同位素效应]]"]
 status: 已补全答案

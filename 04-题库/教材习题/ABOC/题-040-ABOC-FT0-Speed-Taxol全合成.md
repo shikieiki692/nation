@@ -4,9 +4,9 @@ type: 题目
 fidelity: 原书逐字
 submodule: 全合成
 exam_stage: 决赛
-subject: 有机化学
+source_subject: 有机化学
 difficulty: 5
-teaching_level: 竞赛拔高
+teaching_level: 竞赛
 syllabus_codes: ["50", "40", "37"]
 knowledge_points: ["[[炔烃]]", "[[烯烃复分解]]", "[[自由基]]", "[[保护基策略]]"]
 tags: [化竞, ABOC, 有机化学]

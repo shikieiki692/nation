@@ -3,9 +3,10 @@ title: "题-ZOC-020-C=O双键键能排序与IR验证"
 type: 题目
 source: "Zchem有机反应合成与机理 上册L5"
 source_file: "06-外部资料导入/有机反应合成与机理 上/L5OrganicReactionsInvolvingCarbonyl_笔记.md"
-subject: 有机化学
+source_subject: 有机化学
 year: 2023
 difficulty: 4
+teaching_level: 拓展
 knowledge_points: ["[[羰基亲核加成]]"]
 status: 已补全答案
 tags: [键能, IR, 共轭效应, Zchem]

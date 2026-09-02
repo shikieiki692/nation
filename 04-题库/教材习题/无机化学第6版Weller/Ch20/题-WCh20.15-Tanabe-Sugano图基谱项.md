@@ -3,9 +3,10 @@ title: "题-WCh20.15-Tanabe-Sugano图基谱项"
 type: 题目
 source: "无机化学第6版Weller Ch20 练习题20.15"
 source_file: "06-外部资料导入/无机化学Weller/无机化学第6版Welle19-21章.md"
-subject: 无机和结构化学
+source_subject: 无机和结构化学
 year: 2023
 difficulty: 4
+teaching_level: 拓展
 knowledge_points: ["[[Tanabe-Sugano图]]", "[[八面体场]]"]
 status: 已补全答案
 syllabus_codes: [12]

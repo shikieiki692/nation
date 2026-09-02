@@ -9,12 +9,12 @@ exam_session: 第一场
 year: 2013
 exam_date: 2013-11-29
 source: "第27届中国化学奥林匹克（决赛）第5题"
-subject: 化学原理
+source_subject: 化学原理
 module: 胶体化学
 submodule: "缔合胶体与胶束形成"
 question_type: 简答与推导
 difficulty: 3
-teaching_level: 决赛
+teaching_level: 竞赛
 syllabus_codes: []
 knowledge_points:
   - "[[热力学驱动力]]"

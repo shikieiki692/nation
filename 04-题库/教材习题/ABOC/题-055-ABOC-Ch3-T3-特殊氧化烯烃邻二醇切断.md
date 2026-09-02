@@ -4,7 +4,7 @@ type: 题目
 fidelity: 原书逐字
 submodule: 氧化反应
 exam_stage: 决赛
-subject: 有机化学
+source_subject: 有机化学
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["37", "43"]

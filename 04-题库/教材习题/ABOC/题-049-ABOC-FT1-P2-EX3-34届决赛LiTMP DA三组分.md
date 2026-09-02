@@ -4,9 +4,9 @@ type: 题目
 fidelity: 原书逐字
 submodule: 方法学分析
 exam_stage: 决赛
-subject: 有机化学
+source_subject: 有机化学
 difficulty: 5
-teaching_level: 竞赛拔高
+teaching_level: 竞赛
 syllabus_codes: ["49", "52"]
 knowledge_points: ["[[Diels-Alder反应]]", "[[锂试剂]]", "[[杂环化合物]]"]
 tags: [化竞, ABOC, 有机化学]

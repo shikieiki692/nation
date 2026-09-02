@@ -7,7 +7,7 @@ difficulty: 3
 teaching_level: 巩固
 source: "教学改编（胶体与表面物理化学讲义 §四 吸附）"
 module: "胶体与表面"
-subject: 物理化学
+source_subject: 物理化学
 syllabus_codes: ["04"]
 knowledge_points: ["[[Langmuir吸附等温式]]", "[[吸附]]"]
 tags: [化竞, 题目, 物理化学, 表面化学, 吸附]

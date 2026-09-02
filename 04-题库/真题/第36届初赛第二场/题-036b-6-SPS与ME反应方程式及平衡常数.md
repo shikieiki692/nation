@@ -8,7 +8,7 @@ exam_stage: 初赛
 year: 2022
 exam_date: 2022-10-03
 source: 第36届中国化学奥林匹克（初赛）第二场第6题第(6-1)小问
-subject: 化学原理
+source_subject: 化学原理
 module: 化学原理
 submodule: 电化学平衡、NMR定量分析
 question_type: 计算题

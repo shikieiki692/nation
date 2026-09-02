@@ -7,7 +7,7 @@ difficulty: 3
 teaching_level: 巩固
 source: "教学改编（胶体与表面物理化学讲义 §二 胶体）"
 module: "胶体与表面"
-subject: 物理化学
+source_subject: 物理化学
 syllabus_codes: ["03", "04"]
 knowledge_points: ["[[胶体性质]]", "[[分散相与连续相]]", "[[胶束]]"]
 tags: [化竞, 题目, 物理化学, 胶体]

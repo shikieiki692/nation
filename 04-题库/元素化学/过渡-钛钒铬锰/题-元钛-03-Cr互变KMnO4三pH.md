@@ -4,10 +4,10 @@ aliases: ["题-元钛-03"]
 type: 题目
 fidelity: 自编
 difficulty: 4
-teaching_level: 挑战
+teaching_level: 拓展
 source: "教学改编（钛钒铬锰讲义 §三 铬锰）"
 module: "过渡-钛钒铬锰"
-subject: 元素化学
+source_subject: 元素化学
 syllabus_codes: ["15"]
 knowledge_points: ["[[铬]]", "[[铬的化合物]]", "[[锰]]", "[[六价铬]]"]
 tags: [化竞, 题目, 元素化学, 过渡金属, 铬, 锰]

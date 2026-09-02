@@ -4,9 +4,9 @@ type: 题目
 fidelity: 原书逐字
 submodule: 周环反应与自由基
 exam_stage: 决赛
-subject: 有机化学
+source_subject: 有机化学
 difficulty: 4
-teaching_level: 竞赛拔高
+teaching_level: 竞赛
 syllabus_codes: ["49"]
 knowledge_points: ["[[自由基]]", "[[周环反应]]"]
 tags: [化竞, ABOC, 有机化学]

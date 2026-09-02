@@ -4,10 +4,10 @@ aliases: ["题-元s-03"]
 type: 题目
 fidelity: 自编
 difficulty: 4
-teaching_level: 挑战
+teaching_level: 拓展
 source: "教学改编（元素化学深度讲义 §对角线规则）"
 module: "s区元素"
-subject: 元素化学
+source_subject: 元素化学
 syllabus_codes: ["15", "04"]
 knowledge_points: ["[[对角线规则]]", "[[碱金属]]", "[[离子极化]]"]
 tags: [化竞, 题目, 元素化学, s区, 对角线规则]

@@ -7,7 +7,7 @@ difficulty: 3
 teaching_level: 巩固
 source: "教学改编（普化原理第4版 + 赵鑫光热力学题集）"
 module: "热力学与热化学"
-subject: 物理化学
+source_subject: 物理化学
 syllabus_codes: ["06"]
 knowledge_points: ["[[Born-Haber循环]]", "[[晶格能]]", "[[标准生成焓]]", "[[电离能]]", "[[电子亲合能]]"]
 tags: [化竞, 题目, 物理化学, 热力学, 晶格能]

@@ -3,9 +3,10 @@ title: "题-XES-018-HBr加成重排机理"
 type: 题目
 source: "学而思有机化学基础 第6讲"
 source_file: "06-外部资料导入/学而思 有机化学基础 学生讲义/06第四章烯烃学生版.md"
-subject: 有机化学
+source_subject: 有机化学
 year: 2023
 difficulty: 4
+teaching_level: 拓展
 knowledge_points: ["[[亲电加成]]", "[[碳正离子重排]]", "[[马氏规则]]"]
 status: 已填充
 tags: [化竞, 有机化学, 学而思]

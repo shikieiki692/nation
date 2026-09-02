@@ -4,9 +4,9 @@ type: 题目
 fidelity: 自编
 submodule: "亲核取代与消除反应"
 exam_stage: 初赛
-subject: 有机化学
+source_subject: 有机化学
 difficulty: 3
-teaching_level: 强化
+teaching_level: 拓展
 syllabus_codes: []
 knowledge_points: ["[[SN1反应]]", "[[SN2反应]]", "[[碳正离子]]", "[[亲核取代]]"]
 tags: [化竞, 题库, 教材习题, 有机化学]

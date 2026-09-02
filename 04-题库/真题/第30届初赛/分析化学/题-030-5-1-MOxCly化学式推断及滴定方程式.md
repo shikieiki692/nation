@@ -4,9 +4,9 @@ type: 题目
 fidelity: 原书逐字
 submodule: 杂环化合物与含杂原子有机物
 exam_stage: 初赛
-subject: 分析化学
+source_subject: 分析化学
 difficulty: 4
-teaching_level: 竞赛拔高
+teaching_level: 竞赛
 syllabus_codes: []
 knowledge_points:
   - "[[氧化还原滴定]]"
@@ -25,6 +25,7 @@ module: 分析化学
 status: 已填充
 subject_module: 有机化学
 pack: 模块习题集
+year: 2016
 ---
 # 题-030-5-1：MOₓClᵧ化学式推断及滴定方程式
 

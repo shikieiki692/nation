@@ -4,7 +4,7 @@ type: 题目
 fidelity: 原书逐字
 submodule: Lewis结构与杂化轨道
 exam_stage: 初赛
-subject: 无机和结构化学
+source_subject: 无机和结构化学
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: []
@@ -32,6 +32,7 @@ module: 无机和结构化学
 status: 已填充
 subject_module: 结构化学
 pack: 模块习题集
+year: 2014
 ---
 
 ## 题目

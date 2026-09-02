@@ -3,9 +3,10 @@ title: "题-ZOC-032-Cope重排与氧杂Cope重排"
 type: 题目
 source: "Zchem有机反应合成与机理 中册L2"
 source_file: "06-外部资料导入/有机反应合成与机理 中/L2SigmatropicRearrangement[高清]_笔记.md"
-subject: 有机化学
+source_subject: 有机化学
 year: 2023
 difficulty: 5
+teaching_level: 竞赛
 knowledge_points: ["[[σ迁移反应]]", "[[周环反应]]"]
 status: 已补全答案
 tags: [Cope重排, σ迁移, Zchem]

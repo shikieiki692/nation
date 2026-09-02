@@ -3,9 +3,10 @@ title: "题-XES-040-Michael加成"
 type: 题目
 source: "学而思有机化学基础 第14讲"
 source_file: "06-外部资料导入/学而思 有机化学基础 学生讲义/14第十一章缩合反应学生版.md"
-subject: 有机化学
+source_subject: 有机化学
 year: 2023
 difficulty: 4
+teaching_level: 拓展
 knowledge_points: ["[[Michael加成]]"]
 status: 已补全答案
 syllabus_codes: [46]

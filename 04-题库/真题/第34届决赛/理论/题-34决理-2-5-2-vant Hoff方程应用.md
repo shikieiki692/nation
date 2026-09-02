@@ -4,9 +4,9 @@ type: 题目
 fidelity: 原书逐字
 submodule: 热力学
 exam_stage: 决赛
-subject: 化学原理
+source_subject: 化学原理
 difficulty: 5
-teaching_level: 拔高
+teaching_level: 竞赛
 syllabus_codes: []
 knowledge_points:
   - "[[平衡常数]]"
@@ -20,6 +20,7 @@ module: 决赛要求
 status: 已填充
 subject_module: 化学原理
 pack: 综合模拟卷
+year: 2020
 ---
 # 第 5 题 van't Hoff方程应用 (3 分)
 

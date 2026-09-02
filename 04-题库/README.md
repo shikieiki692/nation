@@ -1,7 +1,7 @@
 ---
 title: "README"
 type: 系统
-subject: 综合
+source_subject: 综合
 updated: 2026-08-30
 tags: [系统, 索引, 题库, 化竞]
 aliases: ["题-0655"]

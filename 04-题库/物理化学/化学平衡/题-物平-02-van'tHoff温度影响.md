@@ -7,7 +7,7 @@ difficulty: 3
 teaching_level: 巩固
 source: "教学改编（物化综合计算讲义 §〇 前置概念）"
 module: "化学平衡"
-subject: 物理化学
+source_subject: 物理化学
 syllabus_codes: ["07", "04"]
 knowledge_points: ["[[van't Hoff方程]]", "[[范特霍夫方程]]", "[[平衡常数]]", "[[焓变]]"]
 tags: [化竞, 题目, 物理化学, 化学平衡, van'tHoff]

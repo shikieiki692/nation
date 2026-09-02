@@ -4,9 +4,9 @@ type: 题目
 fidelity: 原书逐字
 submodule: 配位滴定
 exam_stage: 决赛
-subject: 分析化学
+source_subject: 分析化学
 difficulty: 3
-teaching_level: 拔高
+teaching_level: 竞赛
 syllabus_codes: []
 knowledge_points:
   - "[[EDTA滴定]]"
@@ -23,6 +23,7 @@ module: 配位滴定
 status: 已填充
 subject_module: 结构化学
 pack: 综合模拟卷
+year: 2014
 ---
 # 第 4 题 EDTA 滴定 Pb、Bi、Ni (6 分)
 

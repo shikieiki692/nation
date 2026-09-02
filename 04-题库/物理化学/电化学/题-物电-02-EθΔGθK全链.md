@@ -7,7 +7,7 @@ difficulty: 3
 teaching_level: 巩固
 source: "教学改编（物化综合计算讲义 §四 Nernst 四场景）"
 module: "电化学"
-subject: 物理化学
+source_subject: 物理化学
 syllabus_codes: ["10", "06"]
 knowledge_points: ["[[Nernst方程]]", "[[Gibbs自由能]]", "[[平衡常数]]", "[[电池电动势]]"]
 tags: [化竞, 题目, 物理化学, 电化学]

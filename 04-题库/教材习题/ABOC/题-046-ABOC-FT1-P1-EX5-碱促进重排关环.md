@@ -4,9 +4,9 @@ type: 题目
 fidelity: 原书逐字
 submodule: 重排反应
 exam_stage: 决赛
-subject: 有机化学
+source_subject: 有机化学
 difficulty: 4
-teaching_level: 竞赛拔高
+teaching_level: 竞赛
 syllabus_codes: ["39", "46"]
 knowledge_points: ["[[Aldol缩合]]", "[[重排反应]]"]
 tags: [化竞, ABOC, 有机化学]

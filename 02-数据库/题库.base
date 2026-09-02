@@ -19,10 +19,16 @@ properties:
     displayName: 保真
   teaching_level:
     displayName: 层次
+  question_type:
+    displayName: 题型
   concepts:
     displayName: 细粒度概念
   knowledge_points:
     displayName: 知识点
+  source_subject:
+    displayName: 来源科目
+  status:
+    displayName: 状态
   used_in:
     displayName: 已用于
 views:
@@ -87,22 +93,34 @@ views:
       - subject_module
       - pack
       - difficulty
+      - status
     sort:
       - property: subject_module
         direction: ASC
   - type: table
-    name: 真题（双仓合并）
+    name: 题型待标注
     filters:
       and:
-        - or:
-            - file.inFolder("04-题库/真题")
-            - file.inFolder("05-真题库")
+        - question_type.isEmpty()
     order:
       - file.name
-      - year
       - subject_module
+      - submodule
       - difficulty
-      - exam_stage
+      - teaching_level
     sort:
-      - property: year
-        direction: DESC
+      - property: subject_module
+        direction: ASC
+  - type: table
+    name: 层次待定
+    filters:
+      and:
+        - teaching_level.isEmpty()
+    order:
+      - file.name
+      - subject_module
+      - submodule
+      - difficulty
+    sort:
+      - property: subject_module
+        direction: ASC

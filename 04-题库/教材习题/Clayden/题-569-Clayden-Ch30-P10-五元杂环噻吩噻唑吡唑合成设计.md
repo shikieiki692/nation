@@ -4,9 +4,9 @@ type: 题目
 fidelity: 原书逐字
 submodule: 杂环合成
 exam_stage: 初赛
-subject: 有机化学
+source_subject: 有机化学
 difficulty: 4
-teaching_level: 竞赛拔高
+teaching_level: 竞赛
 syllabus_codes: ["21"]
 knowledge_points: ["[[杂环合成]]"]
 tags: [化竞, Clayden, 有机化学, 杂环合成]

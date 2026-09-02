@@ -3,9 +3,10 @@ title: "题-XES-017-EZ构型确定"
 type: 题目
 source: "学而思有机化学基础 第6讲"
 source_file: "06-外部资料导入/学而思 有机化学基础 学生讲义/06第四章烯烃学生版.md"
-subject: 有机化学
+source_subject: 有机化学
 year: 2023
 difficulty: 2
+teaching_level: 基础
 knowledge_points: ["[[顺反异构]]", "[[Cahn-Ingold-Prelog规则]]"]
 status: 已填充
 tags: [化竞, 有机化学, 学而思]

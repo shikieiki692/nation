@@ -4,9 +4,9 @@ type: 题目
 fidelity: 自编
 submodule: 芳香反应
 exam_stage: 初赛
-subject: 有机化学
+source_subject: 有机化学
 difficulty: 4
-teaching_level: 强化
+teaching_level: 拓展
 syllabus_codes: ["37"]
 knowledge_points: ["[[SEAr定位规则]]", "[[芳香亲电取代反应]]"]
 tags: [化竞, 题目, 有机化学, 第三轮]

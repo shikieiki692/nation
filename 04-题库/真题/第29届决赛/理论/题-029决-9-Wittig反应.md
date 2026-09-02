@@ -9,12 +9,12 @@ exam_session: 第一场
 year: 2015
 exam_date: 2015-11-28
 source: "第29届中国化学奥林匹克（决赛）第9题"
-subject: 有机化学
+source_subject: 有机化学
 module: 有机化学
 submodule: "有机反应机理"
 question_type: 简答+画图
 difficulty: 4
-teaching_level: 竞赛决赛
+teaching_level: 竞赛
 syllabus_codes: []
 knowledge_points:
   - "[[Wittig反应]]"

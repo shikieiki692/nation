@@ -6,9 +6,9 @@ submodule: 有机化学
 exam_stage: 省预赛
 province: 福建
 year: 2021
-subject: 有机化学
+source_subject: 有机化学
 difficulty: 3
-teaching_level: 提高
+teaching_level: 竞赛
 syllabus_codes: ["50", "44"]
 knowledge_points: ["[[有机合成]]"]
 tags: [化竞, 真题, 省预赛, 福建, 35届初赛, 药物合成, 有机合成]

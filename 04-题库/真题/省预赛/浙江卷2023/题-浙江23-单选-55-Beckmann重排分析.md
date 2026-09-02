@@ -3,7 +3,7 @@ title: "题-浙江23-单选-55-Beckmann重排分析"
 type: 题目
 submodule: 有机反应机理
 exam_stage: 省预赛
-subject: 有机化学
+source_subject: 有机化学
 difficulty: 2
 teaching_level: 巩固
 fidelity: 原书逐字

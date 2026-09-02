@@ -3,9 +3,10 @@ title: "题-ZOC-017-BD角度与羰基亲核加成"
 type: 题目
 source: "Zchem有机反应合成与机理 上册L4"
 source_file: "06-外部资料导入/有机反应合成与机理 上/L4OrganicReactionsInvolvingCarbonyl_笔记.md"
-subject: 有机化学
+source_subject: 有机化学
 year: 2023
 difficulty: 4
+teaching_level: 拓展
 knowledge_points: ["[[羰基亲核加成]]"]
 status: 已补全答案
 tags: [BD角度, 亲核加成, 立体化学, Zchem]

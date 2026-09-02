@@ -4,7 +4,7 @@ type: 题目
 fidelity: 原书逐字
 submodule: 人名反应与电环化
 exam_stage: 初赛
-subject: 有机化学
+source_subject: 有机化学
 difficulty: 4
 teaching_level: 巩固
 syllabus_codes: []
@@ -39,6 +39,7 @@ module: 有机化学
 status: 已填充
 subject_module: 有机化学
 pack: 模块习题集
+year: 2018
 ---
 
 ## 题目

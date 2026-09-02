@@ -4,9 +4,9 @@ type: 题目
 fidelity: 自编
 submodule: 自由基反应
 exam_stage: 决赛
-subject: 有机化学
+source_subject: 有机化学
 difficulty: 5
-teaching_level: 强化
+teaching_level: 拓展
 syllabus_codes: ["49"]
 knowledge_points:
   - "[[Baldwin规则]]"

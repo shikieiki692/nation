@@ -7,7 +7,7 @@ difficulty: 3
 teaching_level: 巩固
 source: "教学改编（碱金属碱土金属与稀有气体讲义 §Xe化合物）"
 module: "s区元素"
-subject: 元素化学
+source_subject: 元素化学
 syllabus_codes: ["15"]
 knowledge_points: ["[[稀有气体化合物]]", "[[VSEPR理论]]"]
 tags: [化竞, 题目, 元素化学, s区, 稀有气体]

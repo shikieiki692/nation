@@ -4,9 +4,9 @@ type: 题目
 fidelity: 自编
 submodule: 羰基化学与缩合反应
 exam_stage: 初赛
-subject: 有机化学
+source_subject: 有机化学
 difficulty: 4
-teaching_level: 强化
+teaching_level: 拓展
 syllabus_codes: ["43"]
 knowledge_points: ["[[Claisen缩合]]", "[[乙酰乙酸乙酯合成法]]"]
 tags: [化竞, 题目, 有机化学, 第三轮]

@@ -4,10 +4,10 @@ aliases: ["题-光度-03"]
 type: 题目
 fidelity: 自编
 difficulty: 4
-teaching_level: 挑战
+teaching_level: 拓展
 source: "分析化学（第六版）第10章 教学改编"
 module: "分光光度法"
-subject: 分析化学
+source_subject: 分析化学
 syllabus_codes: ["20"]
 knowledge_points: ["[[Lambert-Beer定律]]", "[[吸光度]]", "[[分光光度法]]"]
 tags: [化竞, 题目, 分光光度法, 双波长]

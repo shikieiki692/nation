@@ -4,9 +4,9 @@ type: 题目
 fidelity: 原书逐字
 submodule: 周环反应
 exam_stage: 决赛
-subject: 有机化学
+source_subject: 有机化学
 difficulty: 4
-teaching_level: 竞赛拔高
+teaching_level: 竞赛
 syllabus_codes: ["49"]
 knowledge_points: ["[[σ迁移反应]]", "[[Diels-Alder反应]]", "[[Cope重排]]"]
 tags: [化竞, ABOC, 有机化学]

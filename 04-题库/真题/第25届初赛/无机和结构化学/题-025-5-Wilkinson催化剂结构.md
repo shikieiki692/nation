@@ -4,9 +4,9 @@ type: 题目
 fidelity: 原书逐字
 submodule: 有机金属化学
 exam_stage: 初赛
-subject: 无机和结构化学
+source_subject: 无机和结构化学
 difficulty: 4
-teaching_level: 进阶
+teaching_level: 竞赛
 syllabus_codes: []
 knowledge_points:
 knowledge_points:
@@ -42,6 +42,7 @@ module: 无机和结构化学
 status: 已填充
 subject_module: 有机化学
 pack: 模块习题集
+year: 2011
 ---
 
 ## 题目

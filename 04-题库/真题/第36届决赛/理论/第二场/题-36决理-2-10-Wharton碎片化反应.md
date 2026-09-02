@@ -4,9 +4,9 @@ type: 题目
 fidelity: 原书逐字
 submodule: 有机合成方法学
 exam_stage: 决赛
-subject: 有机化学
+source_subject: 有机化学
 difficulty: 4
-teaching_level: 拔高
+teaching_level: 竞赛
 syllabus_codes: []
 knowledge_points: ["[[Wharton碎片化]]", "[[中环化合物]]", "[[自由基反应]]", "[[立体化学]]"]
 tags: [化竞, 决赛, 理论, 有机化学]
@@ -17,6 +17,7 @@ module: 决赛要求
 status: 已填充
 subject_module: 有机化学
 pack: 综合模拟卷
+year: 2022
 ---
 # 第 10 题 Wharton碎片化反应 (11 分)
 

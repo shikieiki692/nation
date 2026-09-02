@@ -6,7 +6,7 @@ fidelity: 自编
 difficulty: 4
 teaching_level: 拓展
 source: 经典例题
-subject: 化学原理
+source_subject: 化学原理
 module: 化学原理
 syllabus_codes: [8]
 knowledge_points: ["[[Nernst方程]]", "[[标准电极电势]]", "[[溶度积]]"]

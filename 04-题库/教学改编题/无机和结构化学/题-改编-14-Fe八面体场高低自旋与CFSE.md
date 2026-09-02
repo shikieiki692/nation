@@ -4,7 +4,7 @@ type: 题目
 fidelity: 自编
 submodule: 配位化合物
 exam_stage: 决赛
-subject: 无机和结构化学
+source_subject: 无机和结构化学
 difficulty: 4
 teaching_level: 拓展
 syllabus_codes: []

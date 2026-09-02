@@ -4,9 +4,9 @@ type: 题目
 fidelity: 原书逐字
 submodule: 有机合成
 exam_stage: 决赛
-subject: 有机化学
+source_subject: 有机化学
 difficulty: 4
-teaching_level: 拔高
+teaching_level: 竞赛
 syllabus_codes: []
 knowledge_points:
   - "[[Lewis酸催化]]"
@@ -23,6 +23,7 @@ module: 决赛要求
 status: 已填充
 subject_module: 有机化学
 pack: 综合模拟卷
+year: 2020
 ---
 # 第 9 题 TMSOTf促进反应 (3 分)
 

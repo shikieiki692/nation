@@ -7,7 +7,7 @@ difficulty: 3
 teaching_level: 巩固
 source: "教学改编（化学动力学讲义 §三 Arrhenius）"
 module: "化学动力学"
-subject: 物理化学
+source_subject: 物理化学
 syllabus_codes: ["08"]
 knowledge_points: ["[[Arrhenius方程]]", "[[活化能]]", "[[化学动力学]]"]
 tags: [化竞, 题目, 物理化学, 动力学]

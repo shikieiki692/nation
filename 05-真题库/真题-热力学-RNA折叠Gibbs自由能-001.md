@@ -10,7 +10,7 @@ difficulty: 4
 knowledge_points: ["[[Gibbs自由能]]", "[[平衡常数]]", "[[线性拟合]]"]
 tags: [化竞, 真题, 38届, 热力学, RNA, 生物交叉]
 updated: 2026-08-31
-teaching_level: 竞赛拔高
+teaching_level: 竞赛
 quality_tier: "🥇策略级"
 related_notes:
   - "[[题-038-3-螺吡喃机械力变色]]"

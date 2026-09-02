@@ -4,9 +4,9 @@ type: 题目
 fidelity: 自编
 submodule: 活性中间体与反应机理
 exam_stage: 决赛
-subject: 有机化学
+source_subject: 有机化学
 difficulty: 5
-teaching_level: 强化
+teaching_level: 拓展
 syllabus_codes: ["49"]
 knowledge_points:
   - "[[Simmons-Smith反应]]"

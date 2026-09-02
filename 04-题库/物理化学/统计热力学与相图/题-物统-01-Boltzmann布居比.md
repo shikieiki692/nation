@@ -7,7 +7,7 @@ difficulty: 3
 teaching_level: 巩固
 source: "教学改编（统计热力学与Maxwell关系讲义 §二）"
 module: "统计热力学与相图"
-subject: 物理化学
+source_subject: 物理化学
 syllabus_codes: ["04"]
 knowledge_points: ["[[Boltzmann统计初步]]"]
 tags: [化竞, 题目, 物理化学, 统计热力学]

@@ -4,7 +4,7 @@ type: 题目
 fidelity: 原书逐字
 submodule: 配位化学与晶体结构
 exam_stage: 初赛
-subject: 无机和结构化学
+source_subject: 无机和结构化学
 difficulty: 3
 teaching_level: 拓展
 syllabus_codes: []
@@ -36,6 +36,7 @@ status: 已填充
 subject_module: 结构化学
 pack: 模块习题集
 used_in: "[[结构化学阶段测试卷]]"
+year: 2019
 ---
 
 ## 题目

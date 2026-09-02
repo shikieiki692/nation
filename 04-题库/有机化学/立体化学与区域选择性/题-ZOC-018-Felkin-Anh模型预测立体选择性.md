@@ -3,9 +3,10 @@ title: "题-ZOC-018-Felkin-Anh模型预测立体选择性"
 type: 题目
 source: "Zchem有机反应合成与机理 上册L4"
 source_file: "06-外部资料导入/有机反应合成与机理 上/L4OrganicReactionsInvolvingCarbonyl_笔记.md"
-subject: 有机化学
+source_subject: 有机化学
 year: 2023
 difficulty: 5
+teaching_level: 竞赛
 syllabus_codes: ["27"]
 knowledge_points: ["[[Felkin-Anh模型]]", "[[立体选择性]]"]
 status: 已补全答案

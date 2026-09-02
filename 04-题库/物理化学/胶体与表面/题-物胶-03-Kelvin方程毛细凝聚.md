@@ -4,10 +4,10 @@ aliases: ["题-物胶-03"]
 type: 题目
 fidelity: 自编
 difficulty: 4
-teaching_level: 挑战
+teaching_level: 拓展
 source: "教学改编（胶体与表面物理化学讲义 §三 表面）"
 module: "胶体与表面"
-subject: 物理化学
+source_subject: 物理化学
 syllabus_codes: ["04"]
 knowledge_points:
   - "[[表面张力]]"

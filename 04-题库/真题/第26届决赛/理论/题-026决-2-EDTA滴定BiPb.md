@@ -4,9 +4,9 @@ type: 题目
 fidelity: 原书逐字
 submodule: "EDTA滴定-缓冲溶液"
 exam_stage: 决赛
-subject: 分析化学
+source_subject: 分析化学
 difficulty: 3
-teaching_level: 进阶
+teaching_level: 竞赛
 syllabus_codes: []
 knowledge_points: ["[[EDTA滴定]]", "[[缓冲溶液pH]]", "[[Henderson-Hasselbalch方程]]", "[[配位滴定浓度计算]]"]
 tags: [化竞, 真题, 26届, 决赛, 分析化学]
@@ -17,6 +17,7 @@ module: 配位滴定
 status: 已填充
 subject_module: 结构化学
 pack: 综合模拟卷
+year: 2012
 ---
 # 题-026决-2：EDTA滴定BiPb
 

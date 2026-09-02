@@ -4,9 +4,9 @@ type: 题目
 fidelity: 自编
 submodule: "芳香反应"
 exam_stage: 初赛
-subject: 有机化学
+source_subject: 有机化学
 difficulty: 3
-teaching_level: 强化
+teaching_level: 拓展
 syllabus_codes: []
 knowledge_points: ["[[SNAr反应]]", "[[芳环亲核取代]]", "[[吸电子基团]]", "[[离去基团]]"]
 tags: [化竞, 题库, 教材习题, 有机化学]

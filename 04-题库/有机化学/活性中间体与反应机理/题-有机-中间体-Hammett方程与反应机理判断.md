@@ -4,9 +4,9 @@ type: 题目
 fidelity: 自编
 submodule: 活性中间体与反应机理
 exam_stage: 决赛
-subject: 有机化学
+source_subject: 有机化学
 difficulty: 5
-teaching_level: 强化
+teaching_level: 拓展
 syllabus_codes: ["49"]
 knowledge_points: ["[[Hammett方程]]", "[[取代基效应]]", "[[反应机理]]", "[[线性自由能关系]]"]
 tags: [化竞, 题目, 有机化学, 决赛]

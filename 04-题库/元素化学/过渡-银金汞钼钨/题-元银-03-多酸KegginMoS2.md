@@ -4,10 +4,10 @@ aliases: ["题-元银-03"]
 type: 题目
 fidelity: 自编
 difficulty: 4
-teaching_level: 挑战
+teaching_level: 拓展
 source: "教学改编（银金汞钼钨讲义 §三 钼钨）"
 module: "过渡-银金汞钼钨"
-subject: 元素化学
+source_subject: 元素化学
 syllabus_codes: ["15"]
 knowledge_points: ["[[钼]]", "[[钨]]", "[[多金属氧酸盐]]"]
 tags: [化竞, 题目, 元素化学, 过渡金属, 钼, 多酸]

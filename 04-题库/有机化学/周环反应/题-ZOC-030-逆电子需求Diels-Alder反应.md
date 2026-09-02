@@ -3,9 +3,10 @@ title: "题-ZOC-030-逆电子需求Diels-Alder反应"
 type: 题目
 source: "Zchem有机反应合成与机理 中册L1"
 source_file: "06-外部资料导入/有机反应合成与机理 中/L1CycloadditionReactions[高清]_笔记.md"
-subject: 有机化学
+source_subject: 有机化学
 year: 2023
 difficulty: 5
+teaching_level: 竞赛
 knowledge_points: ["[[Diels-Alder反应]]"]
 status: 已补全答案
 tags: [逆电子需求, DA反应, Zchem]

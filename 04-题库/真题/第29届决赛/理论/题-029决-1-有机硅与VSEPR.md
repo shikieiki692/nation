@@ -9,12 +9,12 @@ exam_session: 第一场
 year: 2015
 exam_date: 2015-11-28
 source: "第29届中国化学奥林匹克（决赛）第1题"
-subject: 无机化学
+source_subject: 无机化学
 module: 无机化学
 submodule: "分子结构与化学键"
 question_type: 简答+画图
 difficulty: 3
-teaching_level: 竞赛决赛
+teaching_level: 竞赛
 syllabus_codes: []
 knowledge_points:
   - "[[VSEPR理论]]"

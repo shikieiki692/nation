@@ -4,7 +4,7 @@ type: 题目
 fidelity: 原书逐字
 submodule: 有机反应·Knoevenagel
 exam_stage: 初赛
-subject: 有机化学
+source_subject: 有机化学
 difficulty: 5
 teaching_level: 基础
 syllabus_codes: []
@@ -41,6 +41,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 模块习题集
 used_in: "[[有机化学阶段测试卷]]"
+year: 2012
 ---
 
 ## 题目

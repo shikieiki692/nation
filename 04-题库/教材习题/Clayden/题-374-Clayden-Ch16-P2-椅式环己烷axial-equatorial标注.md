@@ -4,9 +4,9 @@ type: 题目
 fidelity: 原书逐字
 submodule: 构象分析
 exam_stage: 初赛
-subject: 有机化学
+source_subject: 有机化学
 difficulty: 2
-teaching_level: 入门
+teaching_level: 基础
 syllabus_codes: ["21"]
 knowledge_points: ["[[构象分析]]"]
 tags: [化竞, Clayden, 有机化学]

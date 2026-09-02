@@ -4,9 +4,9 @@ type: 题目
 fidelity: 原书逐字
 submodule: 基础概念
 exam_stage: 初赛
-subject: 有机化学
+source_subject: 有机化学
 difficulty: 2
-teaching_level: 入门
+teaching_level: 基础
 syllabus_codes: ["36"]
 knowledge_points: ["[[离去基与pKa]]", "[[诱导效应]]", "[[共振论]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]

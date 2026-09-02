@@ -10,7 +10,7 @@ difficulty: 4
 knowledge_points: ["[[六方密堆积]]", "[[原子坐标参数]]", "[[密堆积]]", "[[对称元素与对称操作]]"]
 tags: [化竞, 真题, 38届, 晶体结构, 六方晶系, 热电材料]
 updated: 2026-08-31
-teaching_level: 竞赛拔高
+teaching_level: 竞赛
 quality_tier: "🥈讲评级"
 related_notes:
   - "[[题-038-5-1-FeCr合金晶胞组成]]"

@@ -4,9 +4,9 @@ type: 题目
 fidelity: 自编
 submodule: 波谱分析
 exam_stage: 初赛
-subject: 有机化学
+source_subject: 有机化学
 difficulty: 4
-teaching_level: 强化
+teaching_level: 拓展
 syllabus_codes: ["49"]
 knowledge_points: ["[[NMR谱学]]", "[[不饱和度]]", "[[结构推断]]", "[[官能团鉴定]]"]
 tags: [化竞, 题目, 有机化学]

@@ -4,9 +4,9 @@ type: 题目
 fidelity: 原书逐字
 submodule: 有机合成
 exam_stage: 决赛
-subject: 有机化学
+source_subject: 有机化学
 difficulty: 5
-teaching_level: 拔高
+teaching_level: 竞赛
 syllabus_codes: []
 knowledge_points: ["[[Diels-Alder反应]]", "[[环加成]]", "[[捕获反应]]", "[[中间体]]", "[[反应机理]]"]
 tags: [化竞, 决赛, 理论, 有机化学]
@@ -17,6 +17,7 @@ module: 决赛要求
 status: 已填充
 subject_module: 有机化学
 pack: 综合模拟卷
+year: 2020
 ---
 # 第 8 题 Diels-Alder反应 (4 分)
 

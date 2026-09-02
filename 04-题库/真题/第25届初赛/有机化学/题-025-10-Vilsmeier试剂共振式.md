@@ -4,7 +4,7 @@ type: 题目
 fidelity: 原书逐字
 submodule: 有机结构·共振式
 exam_stage: 初赛
-subject: 有机化学
+source_subject: 有机化学
 difficulty: 5
 teaching_level: 基础
 syllabus_codes: []
@@ -36,6 +36,7 @@ module: 有机化学
 status: 已填充
 subject_module: 有机化学
 pack: 模块习题集
+year: 2011
 ---
 
 ## 题目

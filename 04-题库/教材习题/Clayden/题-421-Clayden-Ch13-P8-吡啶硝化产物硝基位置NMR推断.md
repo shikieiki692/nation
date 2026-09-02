@@ -4,7 +4,7 @@ type: 题目
 fidelity: 原书逐字
 submodule: NMR谱学
 exam_stage: 决赛
-subject: 有机化学
+source_subject: 有机化学
 difficulty: 3
 teaching_level: 拓展
 syllabus_codes: ["21"]

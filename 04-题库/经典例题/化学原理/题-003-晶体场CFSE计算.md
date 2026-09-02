@@ -6,7 +6,7 @@ fidelity: 自编
 difficulty: 4
 teaching_level: 拓展
 source: 经典例题
-subject: 化学原理
+source_subject: 化学原理
 module: 化学原理
 syllabus_codes: [12]
 knowledge_points: ["[[晶体场理论]]", "[[高自旋与低自旋]]"]

@@ -3,9 +3,10 @@ title: "题-ZOC-047-DIBAL选择性还原酯基"
 type: 题目
 source: "Zchem有机反应合成与机理 下册L2"
 source_file: "06-外部资料导入/有机反应合成与机理 下/L2TotalSynthesisCaseStudies1[高清]_笔记.md"
-subject: 有机化学
+source_subject: 有机化学
 year: 2023
 difficulty: 3
+teaching_level: 巩固
 knowledge_points: ["[[羰基亲核加成]]"]
 status: 已填充
 tags: [DIBAL, 选择性还原, Zchem]

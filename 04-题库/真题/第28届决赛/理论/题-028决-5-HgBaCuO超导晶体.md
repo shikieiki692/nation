@@ -4,9 +4,9 @@ type: 题目
 fidelity: 原书逐字
 submodule: 晶体结构与配位化学
 exam_stage: 决赛
-subject: 无机和结构化学
+source_subject: 无机和结构化学
 difficulty: 5
-teaching_level: 拔高
+teaching_level: 竞赛
 syllabus_codes: []
 knowledge_points:
   - "[[晶体结构]]"
@@ -23,6 +23,7 @@ module: 晶体结构
 status: 已填充
 subject_module: 结构化学
 pack: 综合模拟卷
+year: 2014
 ---
 # 第 5 题 Hg-Ba-Cu-O 超导晶体 (8 分)
 

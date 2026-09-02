@@ -3,9 +3,10 @@ title: "题-XES-031-Wittig反应制备"
 type: 题目
 source: "学而思有机化学基础 第10-11讲"
 source_file: "06-外部资料导入/学而思 有机化学基础 学生讲义/10-11第九讲醛酮学生版.md"
-subject: 有机化学
+source_subject: 有机化学
 year: 2023
 difficulty: 3
+teaching_level: 巩固
 syllabus_codes: ["33", "35"]
 knowledge_points: ["[[Wittig反应]]", "[[醛酮]]"]
 status: 已填充

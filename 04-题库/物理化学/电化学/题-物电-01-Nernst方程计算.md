@@ -7,7 +7,7 @@ difficulty: 3
 teaching_level: 巩固
 source: "教学改编（电化学基础讲义 §Nernst）"
 module: "电化学"
-subject: 物理化学
+source_subject: 物理化学
 syllabus_codes: ["10"]
 knowledge_points: ["[[Nernst方程]]", "[[标准电极电势]]", "[[电极]]"]
 tags: [化竞, 题目, 物理化学, 电化学]

@@ -7,7 +7,7 @@ difficulty: 3
 teaching_level: 巩固
 source: "教学改编（铁钴镍铜锌讲义 §三 铜锌）"
 module: "过渡-铁钴镍铜锌"
-subject: 元素化学
+source_subject: 元素化学
 syllabus_codes: ["15"]
 knowledge_points: ["[[铜]]", "[[锌]]", "[[铜、锌副族]]"]
 tags: [化竞, 题目, 元素化学, 过渡金属, 铜, 锌]

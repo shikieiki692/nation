@@ -8,7 +8,7 @@ exam_stage: 初赛
 year: 2022
 exam_date: 2022-10-03
 source: 第36届中国化学奥林匹克（初赛）第二场第9题第(9-1)小问
-subject: 有机化学
+source_subject: 有机化学
 module: 有机化学
 submodule: Achmatowicz重排、氧化试剂
 question_type: 简答题

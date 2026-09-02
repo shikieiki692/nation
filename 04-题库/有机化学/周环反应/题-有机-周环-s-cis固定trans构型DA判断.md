@@ -4,7 +4,7 @@ type: 题目
 fidelity: 自编
 submodule: 周环反应
 exam_stage: 初赛
-subject: 有机化学
+source_subject: 有机化学
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["49"]

@@ -3,9 +3,10 @@ title: "题-ZOC-024-Diels-Alder反应的endo-exo选择性"
 type: 题目
 source: "Zchem有机反应合成与机理 中册L1"
 source_file: "06-外部资料导入/有机反应合成与机理 中/L1CycloadditionReactions[高清]_笔记.md"
-subject: 有机化学
+source_subject: 有机化学
 year: 2023
 difficulty: 4
+teaching_level: 拓展
 syllabus_codes: ["33"]
 knowledge_points: ["[[Diels-Alder反应]]", "[[立体选择性]]"]
 status: 已补全答案

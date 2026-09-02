@@ -7,7 +7,7 @@ difficulty: 3
 teaching_level: 巩固
 source: "教学改编（物化综合计算讲义 §〇 前置概念）"
 module: "热力学与热化学"
-subject: 物理化学
+source_subject: 物理化学
 syllabus_codes: ["06", "04"]
 knowledge_points: ["[[Clapeyron方程]]", "[[克拉佩隆方程]]", "[[沸点]]"]
 tags: [化竞, 题目, 物理化学, 相变热力学]

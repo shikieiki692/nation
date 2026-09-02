@@ -3,9 +3,10 @@ title: "题-XES-014-SN2构型翻转机理"
 type: 题目
 source: "学而思有机化学基础 第4-5讲"
 source_file: "06-外部资料导入/学而思 有机化学基础 学生讲义/04-05第六章卤代烃学生版.md"
-subject: 有机化学
+source_subject: 有机化学
 year: 2023
 difficulty: 4
+teaching_level: 拓展
 knowledge_points: ["[[SN2反应]]", "[[构型翻转]]"]
 status: 已填充
 tags: [化竞, 有机化学, 学而思]

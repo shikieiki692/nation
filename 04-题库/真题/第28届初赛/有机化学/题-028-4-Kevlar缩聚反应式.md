@@ -4,9 +4,9 @@ type: 题目
 fidelity: 原书逐字
 submodule: 高分子化学
 exam_stage: 初赛
-subject: 有机化学
+source_subject: 有机化学
 difficulty: 2
-teaching_level: 入门
+teaching_level: 基础
 syllabus_codes: []
 knowledge_points:
 knowledge_points:
@@ -33,6 +33,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 模块习题集
 used_in: "[[有机化学阶段测试卷]]"
+year: 2014
 ---
 
 ## 题目

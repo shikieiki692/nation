@@ -3,9 +3,10 @@ title: "题-XES-037-Gabriel伯胺合成"
 type: 题目
 source: "学而思有机化学基础 第13讲"
 source_file: "06-外部资料导入/学而思 有机化学基础/13.羧酸和羧衍（二）_笔记.md"
-subject: 有机化学
+source_subject: 有机化学
 year: 2023
 difficulty: 4
+teaching_level: 拓展
 syllabus_codes: ["35"]
 knowledge_points: ["[[Gabriel合成]]", "[[酰基亲核取代]]"]
 status: 已补全答案
