@@ -140,7 +140,11 @@ QB_ENUM: dict[str, list[str]] = {
     "pack": ["章节练习", "模块习题集", "综合模拟卷", "预赛专项"],
 }
 # frontmatter 内可含 wikilink 的字段（正文断链已查，此处补查 frontmatter 盲区）
-QB_LINK_FIELDS = ["knowledge_points", "depends_on", "cross_references", "related"]
+# superseded_by：2026-09-02 加入。废弃题指向取代目标的 wikilink，
+# 此前不校验 → 指到不存在的文件时题目静默从习题书消失（例6.5/13.4/14.8 事故，
+# 见 新题入库SOP §七）。加入后由「断链-frontmatter」规则兜住。
+QB_LINK_FIELDS = ["knowledge_points", "depends_on", "cross_references", "related",
+                  "superseded_by"]
 
 # ── 生命周期 stage 枚举 ────────────────────────────────────────
 ALLOWED_STAGES = ["draft", "review", "published", "deprecated", "archived", "needs_review"]

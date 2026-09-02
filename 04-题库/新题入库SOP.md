@@ -229,6 +229,51 @@ fidelity: 自编
 source_note: 自编补充题（原书无对应题号）
 ```
 
+### 4.4 废弃题：只有一种写法 `status: deprecated`
+
+```yaml
+status: deprecated
+deprecation_reason: "同习题号重复收录，2026-08-25 同题合并（保留内容更完整版）"
+superseded_by: "[[取代题文件名]]"   # 有取代文件才写；没有就整行省略
+```
+
+- **废弃只用 `status: deprecated` 一种写法。** 历史上还出现过 `deprecated: true`
+  + `deprecatedDate` + `sunsetDate` 的「日落」写法，已于 2026-09-02 全部并入
+  `status: deprecated`（日落日期并入 `deprecation_reason` 正文），**不再新增**。
+- 为什么必须统一：组卷工作台与 `build_module_book.py` 都只认 `status: deprecated`。
+  用别的字段标记废弃**不会被排除**——题照样进卷子、照样进习题书。
+  （2026-09-02 实测：3 个拆题后的父文件标了 `deprecated: true` 但 status 仍是
+  「已补全答案」，因此长期重复出现在组卷池和习题书里，已修。）
+- `deprecation_reason` 必填，写清「为什么废 + 日期」。
+- `superseded_by` 选填：有取代文件就写 wikilink（只写文件名即可，同目录能解析）；
+  没有取代文件时**整行省略**，并在 `deprecation_reason` 里写明「无取代文件」。
+- 取代文件的 `pack` **不作要求**。原规则要求「pack=模块习题集」，但实测 7 条里
+  有 3 条的取代目标是 `章节练习`，规则已按事实放宽。
+- 废弃题会进 `02-数据库/题库.base` 的「待治理（废弃待决）」视图，等决定恢复还是删除。
+
+### 4.5 遗留豁免字段（不新增、不删除、盘点时忽略）
+
+以下字段只存在于历史文件，**新题不要写**；它们不是错误，校验与盘点脚本需豁免：
+
+| 字段 | 条数 | 含义 | 为什么豁免 |
+|---|---|---|---|
+| `big_question` | 16 | 题组父题编号（如「第7题」） | 拆题前的历史标记，子题已各自独立 |
+| `source_author` | 8 | 来源作者 | 已被 `source` 覆盖，无任何脚本读取 |
+| `quality_tier` | 5 | 质量分级（如「🥈讲评级」） | 一次性评估产物，无任何脚本读取 |
+
+反过来，下面这些**条数少但承重**，不是遗留，**禁止清理**：
+
+| 字段 | 条数 | 谁在读 |
+|---|---|---|
+| `demoted` | 12 | `11-模板/scripts/demote_questions.py` 写入，习题书降级留痕 |
+| `promoted` | 3 | `11-模板/scripts/promote_questions.py` 写入，习题书择优留痕 |
+| `depends_on` | 4 | `audit_question_bank.py` 断链检查；写法见 §4.1 |
+| `superseded_by` | 7 | `build_module_book.py` 成书排除；写法见 §4.4 |
+| `deprecation_reason` | 11 | 废弃原因，见 §4.4 |
+
+判定方法：改字段前先 `grep -rn "字段名" --include="*.py" 11-模板/scripts`，
+**有脚本读的一律不是遗留字段**（`demoted`/`promoted` 就是这么捞回来的）。
+
 ---
 
 ## 五、入库后检查
@@ -318,6 +363,7 @@ python 11-模板/scripts/gen_module_set.py {模块名} "模块习题集-{模块�
 | 新题写 `subject` 字段 | 沿用旧字段名 | 字段名已改为 `source_subject`，`subject` 不再使用 |
 | 一题多问只写第一问的 `question_type` | 图省事 | 组卷会按题型抽到它却发现答非所问；多问题干要么留空、要么写全部小问的并集（见 2.2c） |
 | 「画出 A 的结构式」标成 `推断` | 觉得重点是推结构 | 按作答动作统一归 `作图`，规则见 2.2c |
+| 用 `deprecated: true` 标记废弃 | 以为布尔字段等价于 `status: deprecated` | **不会**被排除：组卷与成书都只认 `status: deprecated`，照旧进卷子进书（2026-09-02 修掉 3 条拆题后父文件）。见 §4.4 |
 
 ---
 
@@ -330,7 +376,9 @@ python 11-模板/scripts/gen_module_set.py {模块名} "模块习题集-{模块�
 - `pack` 必须为 `模块习题集`（生成器只收集该 pack 的题目进四篇习题书）。
 - `subject_module` 必须是四篇之一：`化学原理 / 结构化学 / 有机化学 / 元素与分析`。
 - `submodule` 用生成器能识别的章节关键词（如 `化学反应速率`、`晶体结构`），确保路由到正确章节；必须为**单行标量**（YAML 列表写法不被 gather 识别）。
-- 所有题目文件（含例题）一律 `type: 题目`；`status: deprecated` 弃用时必须写 `superseded_by` 且指向真实存在的、pack=模块习题集 的取代文件。
+- 所有题目文件（含例题）一律 `type: 题目`；废弃统一用 `status: deprecated`
+  （生成器与组卷工作台都按它排除），`deprecation_reason` 必填、`superseded_by` 选填；
+  取代文件的 `pack` 不作要求。完整写法与历史坑见 §4.4。
 
 ### 8.1 教学块不进成书
 

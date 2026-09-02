@@ -82,7 +82,9 @@ def in_folder(row, folder):
 
 VIEWS = [
     ("全部题目", lambda r: True),
-    ("精选池（可成书）", lambda r: val(r, "pack") == "模块习题集"),
+    # 与 build_module_book.py 的排除条件对齐：pack=模块习题集 且 status != deprecated
+    ("精选池（可成书）",
+     lambda r: val(r, "pack") == "模块习题集" and val(r, "status") != "deprecated"),
     ("未用过的题", lambda r: is_empty(r, "used_in")),
     ("待治理（废弃待决）", lambda r: val(r, "status") in ("已入库", "deprecated")),
     ("部分填充待补全", lambda r: val(r, "status") == "待填充"),

@@ -62,6 +62,7 @@ views:
     filters:
       and:
         - pack == "模块习题集"
+        - status != "deprecated"
     order:
       - file.name
       - subject_module
