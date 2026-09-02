@@ -1,0 +1,108 @@
+filters:
+  and:
+    - file.inFolder("04-题库")
+    - type == "题目"
+properties:
+  file.name:
+    displayName: 题目
+  subject_module:
+    displayName: 模块
+  submodule:
+    displayName: 子模块
+  pack:
+    displayName: 层级
+  difficulty:
+    displayName: 难度
+  exam_stage:
+    displayName: 阶段
+  fidelity:
+    displayName: 保真
+  teaching_level:
+    displayName: 层次
+  concepts:
+    displayName: 细粒度概念
+  knowledge_points:
+    displayName: 知识点
+  used_in:
+    displayName: 已用于
+views:
+  - type: table
+    name: 全部题目
+    order:
+      - file.name
+      - subject_module
+      - submodule
+      - pack
+      - difficulty
+      - exam_stage
+      - fidelity
+    sort:
+      - property: subject_module
+        direction: ASC
+      - property: difficulty
+        direction: ASC
+  - type: table
+    name: 精选池（可成书）
+    filters:
+      and:
+        - pack == "模块习题集"
+    order:
+      - file.name
+      - subject_module
+      - submodule
+      - difficulty
+      - exam_stage
+      - fidelity
+    sort:
+      - property: subject_module
+        direction: ASC
+      - property: difficulty
+        direction: ASC
+  - type: table
+    name: 未用过的题
+    filters:
+      and:
+        - used_in.isEmpty()
+    order:
+      - file.name
+      - subject_module
+      - pack
+      - difficulty
+      - exam_stage
+    sort:
+      - property: subject_module
+        direction: ASC
+      - property: difficulty
+        direction: ASC
+  - type: table
+    name: 待治理
+    filters:
+      and:
+        - or:
+            - status == "待填充"
+            - status == "已入库"
+            - status == "deprecated"
+    order:
+      - file.name
+      - subject_module
+      - pack
+      - difficulty
+    sort:
+      - property: subject_module
+        direction: ASC
+  - type: table
+    name: 真题（双仓合并）
+    filters:
+      and:
+        - or:
+            - file.inFolder("04-题库/真题")
+            - file.inFolder("05-真题库")
+    order:
+      - file.name
+      - year
+      - subject_module
+      - difficulty
+      - exam_stage
+    sort:
+      - property: year
+        direction: DESC
