@@ -132,7 +132,7 @@ def write_text_raw(path: Path, text: str) -> None:
         f.write(text)
 
 
-def process_file(path: Path, write: bool, stats: Counter, samples: list):
+def process_file(path: Path, write: bool, stats: Counter, samples: list, backlog: list):
     text = read_text_raw(path)
     fs, fe, lines = split_fm(text)
     if fs is None:
@@ -186,6 +186,16 @@ def process_file(path: Path, write: bool, stats: Counter, samples: list):
         stats["无需改动的文件"] += 1
         return
 
+    # 约定：knowledge_points 不允许为空。
+    # 见 fix_kb_phase2_apply.py:215「列表被清空：knowledge_points 不允许为空 → 保留原样」
+    # 与 audit_question_bank.py:344 将空列表判为 P1。
+    # 因此当全部项都解析不出时，不拆分、保留原样 —— 这类题需要人工指派一个真实 KP，
+    # 脚本不凭空造，也不该用空列表把缺口掩盖成另一种告警。
+    if not keep:
+        stats["全降级跳过（需人工指派KP）"] += 1
+        backlog.append((path.relative_to(VAULT).as_posix(), list(raw), concepts))
+        return
+
     stats["待改动文件"] += 1
     rel = path.relative_to(VAULT).as_posix()
     if len(samples) < 12:
@@ -195,7 +205,7 @@ def process_file(path: Path, write: bool, stats: Counter, samples: list):
         return
 
     # 原地替换 knowledge_points 区间，并在其后插入 concepts
-    new_field_lines = render_block("knowledge_points", keep) if keep else ["knowledge_points: []"]
+    new_field_lines = render_block("knowledge_points", keep)
     if concepts:
         new_field_lines += render_block("concepts", concepts)
     lines[vs:ve] = new_field_lines
@@ -219,11 +229,12 @@ def main() -> None:
 
     stats: Counter = Counter()
     samples: list = []
+    backlog: list = []
     print(f"扫描 {len(files)} 个文件（{', '.join(TARGET_DIRS)}）…")
 
     for p in files:
         try:
-            process_file(p, args.write, stats, samples)
+            process_file(p, args.write, stats, samples, backlog)
         except Exception as e:
             stats["异常跳过"] += 1
             if stats["异常跳过"] <= 5:
@@ -239,6 +250,13 @@ def main() -> None:
             print(f"\n[{style}] {rel}")
             print(f"   knowledge_points 保留 {len(keep)}: {keep[:4]}")
             print(f"   concepts 降级 {len(cp)}: {cp[:6]}")
+
+    if backlog:
+        print("\n═══ 全降级文件（知识点一个都解析不出，需人工指派 KP）═══")
+        for rel, raw_items, cp in backlog[:20]:
+            print(f"  {rel}")
+            print(f"      原 knowledge_points: {raw_items}")
+        print(f"  …共 {len(backlog)} 个文件（保持原样，未拆分）")
 
     print("\n" + ("已实写。" if args.write else "这是 DRY-RUN，加 --write 才会落盘。"))
 

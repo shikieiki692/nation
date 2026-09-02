@@ -8,7 +8,11 @@ subject: 有机化学
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["49"]
-knowledge_points: ["[[Beckmann重排]]", "酮肟", "[[酰胺合成]]"]
+knowledge_points:
+  - "[[Beckmann重排]]"
+  - "[[酰胺合成]]"
+concepts:
+  - 酮肟
 tags: [化竞, 题目, 有机化学]
 updated: 2026-07-10
 aliases: ["题-有机-重排-07"]

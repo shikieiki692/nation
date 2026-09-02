@@ -16,13 +16,15 @@ difficulty: 4
 teaching_level: 拓展
 syllabus_codes: []
 knowledge_points:
-- '[[Achmatowicz重排]]'
-- '[[氧化试剂]]'
-- '[[反应机理表示法]]'
-- '[[立体化学]]'
-- '[[有机合成]]'
-- '[[构象异构]]'
-- '[[Dess-Martin氧化]]'
+knowledge_points:
+  - "[[Achmatowicz重排]]"
+  - "[[反应机理表示法]]"
+  - "[[立体化学]]"
+  - "[[有机合成]]"
+  - "[[构象异构]]"
+  - "[[Dess-Martin氧化]]"
+concepts:
+  - 氧化试剂
 tags:
 - 化竞
 - 真题

@@ -9,19 +9,21 @@ difficulty: 5
 teaching_level: 基础
 syllabus_codes: []
 knowledge_points:
-- '[[Knoevenagel反应]]'
-- '[[亲核试剂]]'
-- '[[碳负离子]]'
-- '[[碱催化]]'
-- '[[亚胺活化]]'
-- '[[pKa]]'
-- '[[逆合成分析]]'
-- '[[Knoevenagel]]'
-- '[[gabapentin]]'
-- '[[Michael加成]]'
-- '[[串联反应]]'
-- '[[腈水解]]'
-- '[[脱羧]]'
+knowledge_points:
+  - "[[Knoevenagel反应]]"
+  - "[[亲核试剂]]"
+  - "[[碳负离子]]"
+  - "[[碱催化]]"
+  - "[[pKa]]"
+  - "[[逆合成分析]]"
+  - "[[Knoevenagel]]"
+  - "[[Michael加成]]"
+  - "[[串联反应]]"
+concepts:
+  - 亚胺活化
+  - gabapentin
+  - 腈水解
+  - 脱羧
 tags:
 - 化竞
 - 真题

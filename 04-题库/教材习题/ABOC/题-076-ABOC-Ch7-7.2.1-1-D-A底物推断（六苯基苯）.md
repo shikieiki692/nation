@@ -8,7 +8,11 @@ subject: 有机化学
 difficulty: 4
 teaching_level: 拓展
 syllabus_codes: ["49"]
-knowledge_points: ["[[Diels-Alder反应]]", "[[共轭二烯]]", "逆向分析"]
+knowledge_points:
+  - "[[Diels-Alder反应]]"
+  - "[[共轭二烯]]"
+concepts:
+  - 逆向分析
 tags: [化竞, ABOC, 有机化学, 自学练习]
 updated: 2026-05-10
 source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第7章-周环反应]]"

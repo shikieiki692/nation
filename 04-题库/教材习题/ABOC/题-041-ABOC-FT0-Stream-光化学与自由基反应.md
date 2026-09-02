@@ -8,7 +8,13 @@ subject: 有机化学
 difficulty: 5
 teaching_level: 竞赛拔高
 syllabus_codes: ["30", "40", "49"]
-knowledge_points: ["[[光氧化还原催化]]", "[[自由基]]", "[[有机光化学]]", "[[Giese反应]]", "[[Norrish反应]]"]
+knowledge_points:
+  - "[[光氧化还原催化]]"
+  - "[[自由基]]"
+  - "[[有机光化学]]"
+  - "[[Giese反应]]"
+concepts:
+  - Norrish反应
 tags: [化竞, ABOC, 有机化学]
 updated: 2026-05-10
 source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第11章-解题训练]]"

@@ -9,15 +9,17 @@ difficulty: 5
 teaching_level: 基础
 syllabus_codes: []
 knowledge_points:
-- '[[共振结构]]'
-- '[[Vilsmeier试剂]]'
-- '[[亲电性]]'
-- '[[芳香亲电取代]]'
-- '[[分子内亲核取代]]'
-- '[[亲核加成]]'
-- '[[Vilsmeier反应]]'
-- '[[酰胺生成]]'
-- '[[分子内亲电取代]]'
+knowledge_points:
+  - "[[共振结构]]"
+  - "[[Vilsmeier试剂]]"
+  - "[[亲电性]]"
+  - "[[芳香亲电取代]]"
+  - "[[分子内亲核取代]]"
+  - "[[亲核加成]]"
+  - "[[Vilsmeier反应]]"
+  - "[[分子内亲电取代]]"
+concepts:
+  - 酰胺生成
 tags:
 - 化竞
 - 真题

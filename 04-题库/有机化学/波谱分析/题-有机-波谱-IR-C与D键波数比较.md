@@ -8,7 +8,11 @@ subject: 有机化学
 difficulty: 2
 teaching_level: 巩固
 syllabus_codes: ["49"]
-knowledge_points: ["[[红外光谱]]", "[[同位素效应]]", "氘代标记"]
+knowledge_points:
+  - "[[红外光谱]]"
+  - "[[同位素效应]]"
+concepts:
+  - 氘代标记
 tags: [化竞, 题目, 有机化学]
 updated: 2026-07-10
 aliases: ["题-有机-波谱-02"]

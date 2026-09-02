@@ -9,12 +9,14 @@ difficulty: 2
 teaching_level: 入门
 syllabus_codes: []
 knowledge_points:
-- '[[缩聚反应]]'
-- '[[聚酰胺]]'
-- '[[对苯二甲酰对苯二胺]]'
-- '[[氢键]]'
-- '[[范德华力]]'
-- '[[芳环相互作用]]'
+knowledge_points:
+  - "[[缩聚反应]]"
+  - "[[氢键]]"
+  - "[[范德华力]]"
+concepts:
+  - 聚酰胺
+  - 对苯二甲酰对苯二胺
+  - 芳环相互作用
 tags:
 - 化竞
 - 真题

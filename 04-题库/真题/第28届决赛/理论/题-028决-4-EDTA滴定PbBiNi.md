@@ -8,7 +8,13 @@ subject: 分析化学
 difficulty: 3
 teaching_level: 拔高
 syllabus_codes: []
-knowledge_points: ["[[EDTA滴定]]", "[[配位滴定]]", "[[掩蔽剂]]", "[[指示剂]]", "[[分步滴定]]"]
+knowledge_points:
+  - "[[EDTA滴定]]"
+  - "[[配位滴定]]"
+  - "[[指示剂]]"
+concepts:
+  - 掩蔽剂
+  - 分步滴定
 tags: [化竞, 真题, 28届, 决赛, 分析化学]
 updated: 2026-06-30
 aliases: [28届决赛-4, 28决-4]

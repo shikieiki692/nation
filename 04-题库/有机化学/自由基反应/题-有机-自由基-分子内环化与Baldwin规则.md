@@ -8,7 +8,11 @@ subject: 有机化学
 difficulty: 5
 teaching_level: 强化
 syllabus_codes: ["49"]
-knowledge_points: ["自由基环化", "[[Baldwin规则]]", "[[分子内反应]]"]
+knowledge_points:
+  - "[[Baldwin规则]]"
+  - "[[分子内反应]]"
+concepts:
+  - 自由基环化
 tags: [化竞, 题目, 有机化学, 决赛]
 updated: 2026-07-10
 aliases: ["题-有机-自由基-03"]

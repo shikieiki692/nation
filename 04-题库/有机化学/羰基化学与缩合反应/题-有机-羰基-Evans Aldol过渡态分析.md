@@ -8,7 +8,12 @@ subject: 有机化学
 difficulty: 5
 teaching_level: 强化
 syllabus_codes: ["49"]
-knowledge_points: ["[[Evans Aldol]]", "[[Zimmerman-Traxler模型]]", "硼烯醇盐", "手性辅基"]
+knowledge_points:
+  - "[[Zimmerman-Traxler模型]]"
+concepts:
+  - Evans Aldol
+  - 硼烯醇盐
+  - 手性辅基
 tags: [化竞, 题目, 有机化学, 决赛]
 updated: 2026-07-10
 aliases: ["题-有机-羰基-11"]

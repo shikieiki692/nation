@@ -16,7 +16,13 @@ question_type: 简答+画图
 difficulty: 4
 teaching_level: 竞赛决赛
 syllabus_codes: []
-knowledge_points: ["[[Wittig反应]]", "[[共振结构]]", "[[NMR分析]]", "[[C=N构型]]", "[[猝灭反应]]"]
+knowledge_points:
+  - "[[Wittig反应]]"
+  - "[[共振结构]]"
+  - "[[NMR分析]]"
+concepts:
+  - C=N构型
+  - 猝灭反应
 tags: [化竞, 真题, 29届, 决赛, 有机化学]
 updated: 2026-06-30
 status: 已填充

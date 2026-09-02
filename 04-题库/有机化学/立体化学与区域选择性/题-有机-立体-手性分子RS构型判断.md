@@ -8,7 +8,10 @@ subject: 有机化学
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["25"]
-knowledge_points: ["[[手性中心]]", "R/S构型标记"]
+knowledge_points:
+  - "[[手性中心]]"
+concepts:
+  - R/S构型标记
 tags: [化竞, 题目, 有机化学, 第三轮]
 updated: 2026-06-06
 aliases: ["题-有机-立体-02"]

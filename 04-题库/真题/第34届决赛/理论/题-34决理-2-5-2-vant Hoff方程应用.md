@@ -8,7 +8,10 @@ subject: 化学原理
 difficulty: 5
 teaching_level: 拔高
 syllabus_codes: []
-knowledge_points: ["[[平衡常数]]", "[[温度影响]]"]
+knowledge_points:
+  - "[[平衡常数]]"
+concepts:
+  - 温度影响
 tags: [化竞, 决赛, 理论, 化学原理]
 updated: 2020-11-16
 aliases: []

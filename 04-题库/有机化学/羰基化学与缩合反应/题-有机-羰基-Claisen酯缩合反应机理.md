@@ -8,7 +8,12 @@ subject: 有机化学
 difficulty: 3
 teaching_level: 强化
 syllabus_codes: []
-knowledge_points: ["[[Claisen缩合]]", "[[酯缩合]]", "[[烯醇负离子]]", "[[β-酮酸酯]]"]
+knowledge_points:
+  - "[[Claisen缩合]]"
+  - "[[酯缩合]]"
+  - "[[烯醇负离子]]"
+concepts:
+  - β-酮酸酯
 tags: [化竞, 题库, 教材习题, 有机化学]
 updated: 2026-07-09
 aliases: []

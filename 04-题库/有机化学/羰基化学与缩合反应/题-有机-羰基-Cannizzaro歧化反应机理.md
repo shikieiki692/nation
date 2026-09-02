@@ -8,7 +8,12 @@ subject: 有机化学
 difficulty: 2
 teaching_level: 强化
 syllabus_codes: []
-knowledge_points: ["[[Cannizzaro反应]]", "[[歧化反应]]", "[[氢负转移]]", "[[无α-H醛]]"]
+knowledge_points:
+  - "[[Cannizzaro反应]]"
+  - "[[歧化反应]]"
+  - "[[无α-H醛]]"
+concepts:
+  - 氢负转移
 tags: [化竞, 题库, 教材习题, 有机化学]
 updated: 2026-07-09
 aliases: []

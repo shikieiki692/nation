@@ -9,13 +9,15 @@ difficulty: 4
 teaching_level: 拓展
 syllabus_codes: []
 knowledge_points:
-- '[[亲电加成]]'
-- '[[鎓离子]]'
-- '[[邻基参与]]'
-- '[[Prévost反应]]'
-- '[[水解机理]]'
-- '[[立体化学]]'
-- '[[邻二醇合成]]'
+knowledge_points:
+  - "[[亲电加成]]"
+  - "[[鎓离子]]"
+  - "[[邻基参与]]"
+  - "[[Prévost反应]]"
+  - "[[立体化学]]"
+concepts:
+  - 水解机理
+  - 邻二醇合成
 tags:
 - 化竞
 - 真题

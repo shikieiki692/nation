@@ -8,7 +8,11 @@ subject: 有机化学
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["40"]
-knowledge_points: ["[[氧化还原反应]]", "铬试剂", "[[反应机理表示法]]"]
+knowledge_points:
+  - "[[氧化还原反应]]"
+  - "[[反应机理表示法]]"
+concepts:
+  - 铬试剂
 tags: [化竞, ABOC, 有机化学, 自学练习]
 updated: 2026-05-10
 source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第2章-基本反应]]"

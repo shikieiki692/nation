@@ -8,7 +8,12 @@ subject: 有机化学
 difficulty: 4
 teaching_level: 强化
 syllabus_codes: []
-knowledge_points: ["[[羰基亲核加成]]", "[[α-H活化]]", "[[Aldol缩合]]", "[[亚胺形成]]"]
+knowledge_points:
+  - "[[羰基亲核加成]]"
+  - "[[Aldol缩合]]"
+concepts:
+  - α-H活化
+  - 亚胺形成
 tags: [化竞, 题库, 教材习题, 有机化学]
 updated: 2026-07-09
 aliases: []

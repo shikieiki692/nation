@@ -8,7 +8,11 @@ subject: 有机化学
 difficulty: 2
 teaching_level: 巩固
 syllabus_codes: ["49"]
-knowledge_points: ["[[红外光谱]]", "[[化学键振动]]", "力常数"]
+knowledge_points:
+  - "[[红外光谱]]"
+  - "[[化学键振动]]"
+concepts:
+  - 力常数
 tags: [化竞, 题目, 有机化学]
 updated: 2026-07-10
 aliases: ["题-有机-波谱-03", "题-1601"]

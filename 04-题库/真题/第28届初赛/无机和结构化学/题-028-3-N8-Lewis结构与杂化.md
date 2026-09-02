@@ -9,12 +9,14 @@ difficulty: 3
 teaching_level: 巩固
 syllabus_codes: []
 knowledge_points:
-- '[[Lewis结构式]]'
-- '[[杂化轨道理论]]'
-- '[[形式电荷]]'
-- '[[顺反异构]]'
-- '[[构型异构]]'
-- '[[链状结构]]'
+knowledge_points:
+  - "[[Lewis结构式]]"
+  - "[[杂化轨道理论]]"
+  - "[[形式电荷]]"
+  - "[[顺反异构]]"
+concepts:
+  - 构型异构
+  - 链状结构
 tags:
 - 化竞
 - 真题

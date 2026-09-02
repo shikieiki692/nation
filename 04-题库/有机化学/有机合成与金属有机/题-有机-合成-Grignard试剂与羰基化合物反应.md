@@ -8,7 +8,12 @@ subject: 有机化学
 difficulty: 3
 teaching_level: 强化
 syllabus_codes: []
-knowledge_points: ["[[Grignard试剂]]", "[[有机金属试剂]]", "[[亲核加成]]", "[[醇的合成]]"]
+knowledge_points:
+  - "[[Grignard试剂]]"
+  - "[[有机金属试剂]]"
+  - "[[亲核加成]]"
+concepts:
+  - 醇的合成
 tags: [化竞, 题库, 教材习题, 有机化学]
 updated: 2026-07-09
 aliases: []

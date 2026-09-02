@@ -8,7 +8,12 @@ subject: 有机化学
 difficulty: 5
 teaching_level: 强化
 syllabus_codes: ["49"]
-knowledge_points: ["[[Simmons-Smith反应]]", "卡宾等价体", "[[环丙烷化]]", "有机锌"]
+knowledge_points:
+  - "[[Simmons-Smith反应]]"
+  - "[[环丙烷化]]"
+concepts:
+  - 卡宾等价体
+  - 有机锌
 tags: [化竞, 题目, 有机化学, 决赛]
 updated: 2026-07-10
 aliases: ["题-有机-中间体-05"]

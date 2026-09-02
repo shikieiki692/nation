@@ -8,7 +8,12 @@ subject: 有机化学
 difficulty: 2
 teaching_level: 强化
 syllabus_codes: []
-knowledge_points: ["[[烯醇互变异构]]", "[[α-H酸性]]", "[[烯醇负离子]]", "[[酮式-烯醇式平衡]]"]
+knowledge_points:
+  - "[[烯醇互变异构]]"
+  - "[[烯醇负离子]]"
+  - "[[酮式-烯醇式平衡]]"
+concepts:
+  - α-H酸性
 tags: [化竞, 题库, 教材习题, 有机化学]
 updated: 2026-07-09
 aliases: []

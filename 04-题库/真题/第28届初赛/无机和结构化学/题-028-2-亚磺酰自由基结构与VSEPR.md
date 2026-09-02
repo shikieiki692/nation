@@ -9,12 +9,14 @@ difficulty: 3
 teaching_level: 入门
 syllabus_codes: []
 knowledge_points:
-- '[[自由基结构]]'
-- '[[VSEPR理论]]'
-- '[[硫的含氧酸]]'
-- '[[自由基链式反应]]'
-- '[[反应机理表示法]]'
-- '[[保险粉化学]]'
+knowledge_points:
+  - "[[自由基结构]]"
+  - "[[VSEPR理论]]"
+  - "[[自由基链式反应]]"
+  - "[[反应机理表示法]]"
+concepts:
+  - 硫的含氧酸
+  - 保险粉化学
 tags:
 - 化竞
 - 真题

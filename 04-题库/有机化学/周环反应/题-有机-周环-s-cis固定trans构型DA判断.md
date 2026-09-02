@@ -8,7 +8,11 @@ subject: 有机化学
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["49"]
-knowledge_points: ["[[Diels-Alder反应]]", "[[构象分析]]", "s-cis构象"]
+knowledge_points:
+  - "[[Diels-Alder反应]]"
+  - "[[构象分析]]"
+concepts:
+  - s-cis构象
 tags: [化竞, 题目, 有机化学]
 updated: 2026-07-10
 aliases: ["题-有机-周环-06"]
