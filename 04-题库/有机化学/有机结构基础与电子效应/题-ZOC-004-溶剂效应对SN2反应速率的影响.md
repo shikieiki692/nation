@@ -15,6 +15,7 @@ subject_module: 有机化学
 pack: 模块习题集
 fidelity: 原书改写
 exam_stage: 初赛
+used_in: "[[有机化学阶段测试卷]]"
 ---
 
 # 溶剂效应对SN2反应速率的影响

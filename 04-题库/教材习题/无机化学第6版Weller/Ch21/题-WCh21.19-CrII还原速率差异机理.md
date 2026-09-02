@@ -31,6 +31,7 @@ fidelity: 原书逐字
 
 exam_stage: 初赛
 
+used_in: "[[结构化学阶段测试卷]]"
 ---
 
 

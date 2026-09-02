@@ -18,6 +18,7 @@ module: 有机化学
 status: 已填充
 subject_module: 有机化学
 pack: 模块习题集
+used_in: "[[有机化学阶段测试卷]]"
 ---
 # 题-631: 光化学卡宾重排机理
 

@@ -17,6 +17,7 @@ module: 有机化学
 status: 已填充
 subject_module: 有机化学
 pack: 模块习题集
+used_in: "[[有机化学阶段测试卷]]"
 ---
 # Grignard 试剂与不同羰基化合物反应路线设计
 
