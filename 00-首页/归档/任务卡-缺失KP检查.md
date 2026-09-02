@@ -8,9 +8,9 @@ owner: Agent
 created: 2026-06-03
 updated: 2026-06-07
 completed: 2026-06-07
-source_notes: [[状态摘要]], [[Agent战略方向]]
-related_notes: [[化学热力学]], [[化学平衡]], [[平衡常数]], [[反应商]], [[Gibbs自由能]]
-evidence: [[Agent战略方向]], [[00-首页/工作日志/2026-06-07]]
+source_notes: ["[[状态摘要]]", "[[Agent战略方向]]"]
+related_notes: ["[[化学热力学]]", "[[化学平衡]]", "[[平衡常数]]", "[[反应商]]", "[[Gibbs自由能]]"]
+evidence: ["[[Agent战略方向]]", "[[00-首页/工作日志/2026-06-07]]"]
 ---
 
 # 缺失 KP 检查
