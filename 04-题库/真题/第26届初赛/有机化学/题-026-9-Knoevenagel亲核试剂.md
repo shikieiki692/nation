@@ -9,7 +9,6 @@ difficulty: 5
 teaching_level: 基础
 syllabus_codes: []
 knowledge_points:
-knowledge_points:
   - "[[Knoevenagel反应]]"
   - "[[亲核试剂]]"
   - "[[碳负离子]]"

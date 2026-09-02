@@ -10,7 +10,6 @@ question_type: [作图]
 teaching_level: 竞赛
 syllabus_codes: []
 knowledge_points:
-knowledge_points:
   - "[[Wilkinson催化剂]]"
   - "[[八面体配合物]]"
   - "[[EAN规则]]"

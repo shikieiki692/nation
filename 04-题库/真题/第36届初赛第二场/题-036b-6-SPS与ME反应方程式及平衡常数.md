@@ -16,7 +16,6 @@ difficulty: 3
 teaching_level: 拓展
 syllabus_codes: []
 knowledge_points:
-knowledge_points:
   - "[[电化学平衡]]"
   - "[[分析化学]]"
   - "[[平衡常数计算]]"

@@ -9,7 +9,6 @@ difficulty: 3
 teaching_level: 巩固
 syllabus_codes: []
 knowledge_points:
-knowledge_points:
   - "[[Lewis结构式]]"
   - "[[杂化轨道理论]]"
   - "[[形式电荷]]"

@@ -9,7 +9,6 @@ difficulty: 5
 teaching_level: 基础
 syllabus_codes: []
 knowledge_points:
-knowledge_points:
   - "[[共振结构]]"
   - "[[Vilsmeier试剂]]"
   - "[[亲电性]]"

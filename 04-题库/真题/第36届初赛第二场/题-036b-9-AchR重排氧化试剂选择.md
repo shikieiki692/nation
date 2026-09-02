@@ -16,7 +16,6 @@ difficulty: 4
 teaching_level: 拓展
 syllabus_codes: []
 knowledge_points:
-knowledge_points:
   - "[[Achmatowicz重排]]"
   - "[[反应机理表示法]]"
   - "[[立体化学]]"

@@ -9,7 +9,6 @@ difficulty: 4
 teaching_level: 拓展
 syllabus_codes: []
 knowledge_points:
-knowledge_points:
   - "[[亲电加成]]"
   - "[[鎓离子]]"
   - "[[邻基参与]]"

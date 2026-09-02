@@ -9,7 +9,6 @@ difficulty: 2
 teaching_level: 基础
 syllabus_codes: []
 knowledge_points:
-knowledge_points:
   - "[[缩聚反应]]"
   - "[[氢键]]"
   - "[[范德华力]]"

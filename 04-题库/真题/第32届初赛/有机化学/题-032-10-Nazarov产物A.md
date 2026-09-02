@@ -10,7 +10,6 @@ question_type: [作图]
 teaching_level: 巩固
 syllabus_codes: []
 knowledge_points:
-knowledge_points:
   - "[[Nazarov环化]]"
   - "[[4π电环化]]"
   - "[[原子经济性与反应选择性]]"

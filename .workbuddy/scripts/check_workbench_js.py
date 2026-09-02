@@ -8,6 +8,7 @@
 """
 from __future__ import annotations
 
+import argparse
 import json
 import re
 import subprocess
@@ -62,8 +63,14 @@ def collect_sources() -> list[str]:
 
 
 def main() -> None:
-    text = WORKBENCH.read_text(encoding="utf-8")
+    ap = argparse.ArgumentParser(description="校验 md 里的 dataviewjs：语法 + srcKey 两版一致性")
+    ap.add_argument("--file", default=str(WORKBENCH),
+                    help="待校验的 md 文件（默认 04-题库/组卷工作台.md；staging 草稿用此参数）")
+    args = ap.parse_args()
+    target = Path(args.file)
+    text = target.read_text(encoding="utf-8")
     blocks = BLOCK.findall(text)
+    print(f"校验目标：{target}")
     print(f"抽出 {len(blocks)} 块 dataviewjs")
 
     # ① 语法检查

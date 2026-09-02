@@ -10,7 +10,6 @@ question_type: [机理]
 teaching_level: 基础
 syllabus_codes: []
 knowledge_points:
-knowledge_points:
   - "[[自由基结构]]"
   - "[[VSEPR理论]]"
   - "[[自由基链式反应]]"
