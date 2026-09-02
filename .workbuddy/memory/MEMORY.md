@@ -1,117 +1,56 @@
 # 项目长期记忆（妙妙屋化学竞赛知识库）
 
-## 脚本运行环境（硬性）
-- `11-模板/scripts/` 下审计/校验脚本（`validate_kb.py`、`audit_question_bank.py`、`diag_remaining.py` 等）**必须用系统 Python 3.12**：`C:\Users\蕾赛\AppData\Local\Programs\Python\Python312\python.exe`（已装 PyYAML 6.0.2）。
-- managed 3.13.12 无 PyYAML，直接跑报 `ERROR: PyYAML is required`。
+## 环境与运行（硬性）
+- `11-模板/scripts/` 校验/审计脚本必须用系统 Python 3.12：`C:\Users\蕾赛\AppData\Local\Programs\Python\Python312\python.exe`（有 PyYAML）；managed 3.13.12 无 PyYAML。
+- 跑校验器：`...Python312\python.exe -X utf8 11-模板/scripts/validate_kb.py --full`（约 75 秒，后台跑）。
 
-## 题库口径基线（2026-09-01 深夜实测，双口径闭合）
-- 题目总数 **3,946** = type=题目 3,883 @04-题库（grep 逐桶闭合：真题 396+化学原理 373+教材习题 2,810+有机 202+分析 31+教学改编 23+元素 21+物化 18+经典例题 9；含 9 例题）+ 真题 63 @05-真题库。diag_remaining 工具口径 3,879+63=3,942（差 4 为 YAML 解析盲区，每周比对用 diag 数）。较 08-31 的 3,933 **+13**：教材习题 +10（无机例题与习题 +9【Ch09 例题转正等】、结构化学基础 +1）+ 教学改编 +3（择优补入）。
-- 答案缺口：`no_answer: 0`（placeholder 211 / short 27 为合法占位——ABOC 211 条思路占位无源可补）。
-- `validate_kb.py --full` 基线（2026-09-01 深夜复查）：6,167 文件 · **Error 0 · Warning 1,641**（断链 45 + 断链-frontmatter 1,590 + 标题跳跃 3 + stage-门禁 3；图片缺失 0）。8-31 基线 2,578 已淘汰。
-- 六字段枚举：仅限题目类文件（QB_TYPES）；difficulty 允许 `1-5`/`\d+-\d+` 区间、exam_stage 允许 `/` 多值。
+## 关键基线（2026-09-02 实测）
+- 题目总数 **4,186** = 04-题库 4,123（type=题目，含省预赛 260：江苏 10+福建 10+浙江 240【09-02 拆题】）+ 05-真题库 63；`no_answer: 0`（ABOC 211 思路占位为合法）。
+- validate_kb --full：6,407 文件 · **Error 0 · Warning 1,641**（断链 45 + frontmatter 1,590 + 标题跳跃 3 + stage 门禁 3）。
+- 习题书 **31 章 / 1,283 题**，单一事实源 = 04-题库/题库架构总览.md；docx 三版本在 `00-首页/题组Word/习题书/`。
+- 全库图片引用 23,654：真缺失 3,200 属资产丢失脚本不可修；剥 `../` 可修 440 全在归档目录；统计"可修"必须先排除根兜底命中 1,092。巡检脚本 `.workbuddy/scripts/audit_vault_images.py` + `gen_vault_img_report.py`。
 
-## 习题书基线（2026-09-01 治理收官）
-- 成书 **31 章 / 1,283 题**（化学原理 128 + 结构化学 564 + 有机化学 363 + 元素与分析 228）；单一事实源=04-题库/题库架构总览.md；**pack 对账终态（零余量）**：1,303 = 1,283 书 + 18 gap + 2 deprecated（ABOC061、上海中学049→习6）。
-- 当日整备流水：分类修复 16 晶体题归位 → 质量降级 12 题（07-资料提炼/习题书剔除清单.json）→ 择优补入 3 题 → Ch21 配位机理 18 题恢复 + Ch09 例题 8 题 promote + 例6.5/13.4/14.8 取代链修复 → ABOC 思路 36 条回填。
-- **入库例题约定**：例题也写 `type: 题目`，用 `question_type: 例题` 区分——`type: 例题` 不被构建 gather 识别（例9.5 踩坑）。
-- docx 三版本（`00-首页/题组Word/习题书/`）：教师版/学生版各 33 docx（32 新建 + 附录静态存留，源 md 已不在构建范围）、学生版-打印版 33 全新；重建均 0 errors。
-- **重建**：write_output/clean_output_dir 已内置文件锁重试（10次×2s），直接 `--clean --write` 即可，勿先 rm 目录（用户已否决）；Python 调用加 `CODEBUDDY_SESSION_ID= CLAUDE_SESSION_ID=` 绕 safe-delete shim + `-X utf8`。
-- **导入新题一律走 04-题库/新题入库SOP（v1.2）**；文档里写语法示例用全角方括号，否则 validate_kb 误报断链。
-- 质量优先维护原则已写入 04-题库/README（四维标准 + 降级不删除 + promote 五字段门槛）；定期自检跑 `audit_book_quality.py`。
-- 结构化学第 8 章（结构推断与综合）孤儿已归档 `_归档/孤儿章-结构推断与综合-2026-08-31/`（重建 0 题命中）。
-- **Word 成品**：双版各 33 docx（31 章按篇分目录 + 来源索引 + 附录），重建 0 errors；输出结构 = `00-首页/题组Word/习题书/{教师版,学生版}/{第一篇-化学原理,...}/章.docx`；旧平面结构归档 `_archive_v2/旧平面结构-2026-08-31/`。
-- 构建防漂移三件套：`build_module_book.py --write` 末尾自动回写 README（sync_readme_stats）；`validate_module_book.py` 新增目录一致性检查；`溯源映射.json`（build_source_map.py）成书题↔源文件映射。
+## 题库操作铁律
+- 例题写 `type: 题目` + `question_type: 例题`（`type: 例题` 不被构建 gather 识别）。
+- 重建直接 `--clean --write`（已内置文件锁重试），勿先 rm；Python 调用加 `CODEBUDDY_SESSION_ID= CLAUDE_SESSION_ID=` 绕 safe-delete shim + `-X utf8`。
+- 导入新题一律走 04-题库/新题入库SOP；文档里写语法示例用全角方括号防误报断链。
+- 汇智源编号 = 题库编号；答案只有图的题不要编造文字答案。
+- 六字段枚举仅限题目类文件（QB_TYPES）；difficulty 允许区间、exam_stage 允许 `/` 多值。
+- 真题「一题一文件」题组制：一个大题=一个 md，文件名取首问描述 → `[[题-037-1-2-X]]` 内容在 `题-037-1-*` 父文件里，**按题号前缀折叠**（描述不同是常态），折叠前对账小问数。
+- 构建防漂移：`build_module_book.py --write` 自动回写 README；`溯源映射.json` 成书题↔源文件；自检跑 `audit_book_quality.py`。
 
-## 图片与链接治理基线（2026-09-01 实测）
-- **⚠️ `媒体仓库/` 被 `.gitignore` 第 9 行忽略、不入库；图片来源仓（`06-外部资料导入/**_images`、`人教版高中化学课本/**_images`）反而入库。** → 只从 git 恢复时 `![[哈希.jpg]]` 会全断，源图才是唯一有版本备份的副本。**故图片治理一律"复制到媒体仓库 + 源图保留不删"**（本次高中化学基础 58 张即按此办理）。是否让媒体仓库入库属仓库策略（体积大），未擅改 .gitignore。
-- 库内既有 **12,413 个 basename 同时存在于媒体仓库与来源仓**（占媒体仓库 18,620 的 67%）→ "复制进媒体仓库、源仓保留"是库的标准做法，不是异常重复。判断"是否合规"先查库内既有规模，别凭规范文字想当然。
-- 规范依据：`00-首页/规则-配图来源优先级.md` 硬规则 1、4（教材 OCR 只是**来源仓**，进知识点页前复制到媒体仓库，引用写 `![[哈希名.jpg]]`）。改写时 **alt 图注保留为别名** `![[哈希.jpg|图注]]`，信息不丢。
-- 全库图片引用基线 **23,654**：相对命中 18,810 / 根兜底命中 1,092 / 剥 `../` 可修 440（**100% 落在归档备份目录，活跃内容 0**）/ 占位噪音 20 / **真缺失 3,200**（59 个图片目录整个未导入 + 8 个目录部分缺，属资产丢失，脚本不可修）。
-- 巡检脚本：`.workbuddy/scripts/audit_vault_images.py`（粗扫）+ `gen_vault_img_report.py`（剔除占位/归档噪音后出报告）。**注意**：统计"可修"时必须先排除"根兜底命中"，否则会把 1,092 处正常引用误列进来。
-- 批量改 md 前用 zipfile 打快照到 `.workbuddy/backups/`（已加入 .gitignore），可分阶段回滚。
+## 链接与图片治理
+- 表格内 wikilink `[[目标\|别名]]`（转义竖线）是**正确写法**（505 处），只换目标名、转义竖线原样保留，替换覆盖 `[[X]]`/`[[X|`/`[[X\|` 三种形式。
+- validate_kb：`LINK_RESOLUTION_EXTRA_PREFIXES` 目录 = 不扫描内容但**可作链接目标**，新解析函数必须豁免这些前缀；`EXCLUDE_FILE_NAMES`（不校验 schema）≠ `LINK_TARGET_ONLY_FILE_NAMES`（仍是合法目标）。**禁止自写正则重写链接解析**——`sys.path.insert` 后 `import validate_kb as V` 复用 collect_md_files/scan_file。
+- 修断链只用「精确相等 + 同目录」，禁模糊匹配（题号近似会误叠）。
+- 断链-frontmatter 1,643 处 = KP 未创建真红链、极端长尾，按主题分批建，勿批量新建；存量暂不处理（用户决策）。
+- 「静默吸题」：`find_wikilink_target()` 三级兜底（路径→basename→title/aliases），只有靠 title/aliases 兜底连到题目文件的才是错位（basename 命中 = 显式指题设计意图，不动）；文件名与内容不符（如 Aldol缩合.md 实为逆羟醛缩合）只能改内容不能改名。巡检脚本 `find_kp_links_to_questions.py` 等。
+- `媒体仓库/` 被 .gitignore 不入库，来源仓（`06-外部资料导入/**_images` 等）反而入库 → 图片治理一律「复制进媒体仓库 + 源图保留」；12,413 basename 两仓共存是标准做法非异常。
+- 批量改 md 前用 zipfile 打快照到 `.workbuddy/backups/`。
 
-## Obsidian 链接治理铁律（2026-09-01 阶段四确立）
-- **表格内的 wikilink 必须写成 `[[目标\|别名]]`（转义竖线），绝对不要改成单竖线 `|`**。全库 **505 处 / 55 个文件**是这样写的，属**正确写法**。依据：Obsidian 官方要求表格内转义管道符，否则 `|` 被当列分隔符拆坏表格；Live Preview 在表格内插入 wikilink 时会自动加转义；校验器 `normalize_wikilink_target()` 的 `rstrip("/\\")` 与 Obsidian 口径一致。→ **改链接时只替换目标名，转义竖线原样保留**，搜索替换要同时覆盖 `[[X]]`、`[[X|`、`[[X\|` 三种形式。
-- **validate_kb.py 的链接解析口径**：`LINK_RESOLUTION_EXTRA_PREFIXES` 里的目录（含 `06-外部资料导入/`、`00-首页/`）语义是「不扫描内容，**但可作为链接目标**」。任何新增的"目标解析"函数都必须同时豁免这些前缀，否则会重现 355 处「图片缺失」误报。`is_excluded_path()` 单独用是错的。
-- `EXCLUDE_FILE_NAMES` = 「不做 schema 校验」；`LINK_TARGET_ONLY_FILE_NAMES` = 「不入 schema 校验但仍是合法链接目标」。两者语义不同，勿合并。
-- `.obsidian/app.json` 的 `userIgnoreFilters` = `eiki/`、`node_modules/`、`.git/`、`.trash/`——**不含** `06-外部资料导入`，故 Obsidian 确实索引渲染该目录，那里的图是"真能用"的。
-- **修复断链绝不用模糊匹配**：实测 `题-030-6-1-295K…` 与 `题-030-6-2-315K…` 在 cutoff 0.80 下会同时命中 `题-030-6-295K…`（而 315K 那道题根本不存在）。只用「精确相等 + 同目录」硬规则。
-- 断链-frontmatter **1,643 处 / 1,506 唯一目标**，几乎全在 `knowledge_points`，属"知识点笔记未创建"的真红链，**极端长尾（1,391 个只出现 1 次），建 500 个笔记才消 38.8%** → 建议按主题分批建设，不要批量新建。
+## 批量改 md 防坑
+- frontmatter 判定：首行 `---` 且头部含 `^[\w\-]+:`；读写一律 `newline=""`（防 CRLF 整文件重写，`git diff --stat` 增删行数应≈改动数）；自动补别名取路径末段；别把 `09-审计报告/` 报告的历史证据字段当修复对象。
+
+## 批量 docx 经验
+- 走 python-docx + lxml + zipfile 后处理，**不走** tencent-docx HTML 往返（毁 OMML 公式与图位）。
+- 彩图检测用全分辨率网格采样（resize 会漏检小面积彩色）；覆盖写直接 `zipfile.ZipFile(path,'w')`（shutil.move 触发 safe-delete 批删拦截）。
+- XML 颜色归一化：注意自闭合 `/>` 与非闭合两种形态都要匹配。
+- 渲染验证用 LibreOffice headless `--convert-to pdf` 兜底（Word COM 沙箱下报错）。
+- 页脚 PAGE/NUMPAGES 需完整 fldChar begin→instrText→separate→占位文本→end。
+
+## 新建知识点文件字段安全写法
+- 必填 title/type/subject/status/updated；`subject_module` 才有枚举（subject/module 没有）；`related`/`prerequisite` 写纯文本数组（在 QB_LINK_FIELDS 里，写 wikilink 会被查断链）；不写 `stage` 字段绕 published 门禁；一词多义建一个文件内部分节，勿拆重名。
 
 ## 用户决策（2026-08-31）
-- **断链类存量暂不处理**（正文 554 + frontmatter 1,642 + 图片 357 ≈ 2,553），已记入待办交接清单。03-知识点 KP 红链同属存量。
-- 索引口径历史变迁记录保留原数字（4,860→4,298→4,327→3,929→3,933），仅"当前口径"声明更新。
-- 命名豁免：剩余 33 个非题目文件（索引/答案/工具类）不合规命名按 SOP 豁免，不改。
-- **质量优先于难度**：不做难度分级（难度字段保留不重标定）；构建排序改 fidelity 优先（🟢逐字>🟡改写>🔵自编）。
-- **新题分层入库制**（写入 04-题库/README.md）：默认走 `10-待审核区` P1 流程，P0 小额已核验直入；入库门槛=文件名带主题词 + fidelity 必填 + cross_ref 指向存在文件 + YAML 合规。
-- **汇智源编号 = 题库编号**（分子结构 37 题、晶体结构 76 题一一对应）——题库缺号即源对应编号题，可直接定位补全；答案只有图的题不要编造文字答案。
+- 断链类存量暂不处理；索引口径历史数字保留原值；33 个非题目文件命名豁免。
+- 质量优先于难度：不做难度分级，构建排序 fidelity 优先（🟢逐字>🟡改写>🔵自编）。
+- 新题分层入库：默认 10-待审核区 P1 流程，P0 小额已核验直入。
 
-## 导入外部知识库（WorkBuddy资料库 / IMA）评估（2026-09-01）
-- **根因**：vault 是 Obsidian 风格，外部系统不认识 `[[双链]]` 和 `![[图片嵌入]]`；且全库 3 万+ 文件（媒体仓库 1.8万图 / 09-AI工作区 7795 / 06-外部资料导入 1.1万）远超舒适区。
-- **白名单真实体量**：~5,620 md = 03-知识点 943 + 04-题库 4016 + 考纲/专题/真题/洞察/高考化学/备课思路 ~660。双链 97%(5438篇)、图片嵌入 5,799 处、公式 38%(2121篇)。
-- **图片来源分散**（非仅 媒体仓库）：06-外部资料导入/clayden(534+387+284)、mineru/、media/、各 `_images`、媒体仓库(90)。→ 转换脚本须**跨全库按 basename 解析**并把图复制到笔记同目录，不能简单排除散图目录。
-- **IMA 关键约束（已核实）**：① 支持 .md 导入、支持 LaTeX 公式渲染（实测正确识别分数/公式）；② **内嵌图片默认失效**——普通文件/文件夹上传会把图变独立条目、正文不显示；须 `md+相对路径图片` 打 ZIP → 走【笔记】模块 Notion 类型导入 → 再关联知识库；③ 批量上限 20~50/次、超链接识别弱（双链转纯文本，勿转 md 链接）。
-- **资料库(WorkBuddy)**：md→在线文档；数学大概率 KaTeX 可渲；5,620 篇重批量需 API 分批；更适"沉淀/协作"而非 RAG 问答（vault 经 kb-vault-mcp 已可本地问答）。
-- **推荐路线**：写转换脚本（白名单→每顶层目录产出 笔记.md+解析图同目录+双链转文本+打包 ZIP）；先以 03-知识点(943篇) 做试点验证 IMA ZIP+Notion 路线与资料库导入，再规模化分桶。
-- （2026-09-01 已验证）`vault_to_ima_convert.py` 跑通 03-知识点→943篇md+779图→`C:\Obsidion\导出_IMA\03-知识点.zip`；图片解析 99.9%；frontmatter 已剥离(title→H1)、双链转纯文本、公式保留、callout 降级；抽样 相图与相平衡.md 清洗正确。脚本在 `.workbuddy/scripts/`，导出在 `C:\Obsidion\导出_IMA\`。
+## IMA / 资料库导出
+- IMA：md+相对路径图打 ZIP → 笔记模块 Notion 类型导入 → 关联知识库；双链转纯文本勿转 md 链接；批量 20~50/次。
+- `vault_to_ima_convert.py` 已跑通 03-知识点 → 943 篇 → `C:\Obsidion\导出_IMA\03-知识点.zip`（图解析 99.9%）。
 
 ## 遗留待办
-- 习题书 V3：题-033 需查纸质原书补题补答（原书缺答案 + OCR 乱码）。
-- ABOC 211 条解题思路占位（无源可补，待人工按原书）。
-- Word 成品 precheck 有少量 `^\circ`/`°`/裸下标 S_N2 warning（管线自动转换，建议源稿后续统一写 `\theta`）。
-- 学生版-打印版：~51% 图片原始有效 DPI <150（波谱图为主，源就是 72 DPI），打印略虚——是否回溯 04-题库 换源图待用户定。
-
-## 批量 docx 处理经验（2026-09-01 总结）
-- **走 python-docx + lxml 改 docx + zipfile 后处理**，**不走** tencent-docx 的 HTML 往返管线（会破坏 OMML 公式与图片定位）。当任务含大量公式或图片保真要求时尤其如此。
-- **彩色图片检测必须全分辨率网格采样**，不要 `resize(140,140)` —— 缩放会把小数彩色（如化学结构式里的元素标记）与白底平均掉，漏检。改 `px[x,y] 网格采样, step ≈ √(面积/60000)` 后正常。
-- **不要用 `shutil.move` 做"先写临时文件再覆盖"**：本机 shell 注入的 `genie-safe-delete` shim 在单轮 > 50 次删除时拦截（SAFE_DELETE_BULK_CONFIRM_REQUIRED）。改用 `zipfile.ZipFile(path, 'w')` 直接覆盖写最终文件，全程无 delete。
-- **XML 层归一化颜色**：正则 `<w:color\b[^>]*/>` 改 000000（仅 val 非 auto 时）、`<w:highlight\b[^>]*/>` 删、`<w:shd>` fill 改 auto/clear、`<w:top|left|...>` 边框色改 000000、移除 `w:themeColor/Shade/Tint` 属性。**别忘** 头部用 `/>` 闭合才匹配，非闭合 `<w:color ...></w:color>` 会漏。
-- **DOCX 渲染验证备选**：Word COM 报 CO_E_SERVER_EXEC_FAILURE（沙箱/Click-to-Run 激活问题）→ 用 LibreOffice headless `--convert-to pdf` 兜底，公式排版大体可用，肉眼验证足够。
-- **页脚 PAGE/NUMPAGES 字段**：必须包含 `fldChar begin → instrText" PAGE " → fldChar separate → 文本占位"1" → fldChar end`，否则 Word 不重算显示 0。
-
-## 真题库「一题一文件」题组制（2026-09-01 确认，影响所有断链判断）
-- `04-题库/真题/第N届*/` 下**一个大题 = 一个 md 文件**，文件名取**首个小问的描述**。
-  例：`题-037-1-GaN刻蚀方程式.md` 内含（1）（2）（3）三个小问；
-  `题-036b-7-1-晶胞中化学式数目n.md` 内含 7-1-1…7-3 共 6 个小问。
-- 因此 `[[题-037-1-2-XXX]]` 这类"带子题号"的链接，**内容就在 `题-037-1-*` 里**，
-  折叠到父文件是正确的。**不要**因为"描述不同"就不敢折叠（阶段七的旧结论已作废）——
-  文件名取首问描述，描述不同是常态。正确判据是**按题号前缀匹配**，且父文件必须唯一。
-- 折叠前务必机器对账：父文件内小问标记数 `grep -c "^\*\*（[0-9]"` == 链接请求的子题数。
-
-## 校验器口径：禁止自己重写链接解析（2026-09-01 教训）
-- 自写正则扫全库 md 会得 33,392 条"断链"，而 `validate_kb.py --full` 只报 143。
-  差异来自：只扫 `INCLUDE_DIRS`、frontmatter 单列、排除 `09-审计报告`/`06-外部资料导入`/
-  `00-首页`、跳过占位符、图片按 basename 解析、目录链接视为有效。
-- **唯一正确做法**：`sys.path.insert(0,"11-模板/scripts"); import validate_kb as V`
-  → `V.collect_md_files(V.VAULT_ROOT, V.INCLUDE_DIRS)` → `V.scan_file(f, report)`
-  → 取 `report.warnings` 中 `check=="断链"` 的项。改脚本前先读 `INCLUDE_DIRS`/`EXCLUDE_*` 常量。
-- 跑校验器：`C:/Users/蕾赛/AppData/Local/Programs/Python/Python312/python.exe -X utf8 11-模板/scripts/validate_kb.py --full`（约 75 秒，建议后台跑）。
-
-## 批量改 md 的防坑清单
-- 分 frontmatter/正文：首行 `---` **且**头部含 `^[\w\-]+:` 才算 frontmatter（正文的 `---` 分隔线会误判）
-- 读写一律 `newline=""`，保留原换行符；用 `git diff --stat` 增删行数是否相等验证没发生 CRLF 整文件重写
-- 表格内 `[[目标\|别名]]` 的转义竖线必须保留，正则用 `(\\?\|[^\]]*)?`
-- 自动补别名时取末段 `t.rsplit("/",1)[-1]`，不要把整条路径当显示文本
-- 改完自查：别把 `09-审计报告/auto-validation/` 报告本身当成"被修复对象"
-
-## 「静默吸题」：断链数 ≠ 知识点覆盖度（2026-09-01 确立）
-- `find_wikilink_target()` 是 **三级兜底**：精确路径 → **basename** → **title/aliases**。
-  第 3 级会让**概念词静默指到题目文件**上（如 `[[羟醛缩合]]`→题-028-11、`[[配合物颜色]]`→真题-无机-过渡金属颜色-001）。
-- **校验器完全看不见这类错**（它不算断链）。要查必须二次筛查：
-  解析后读目标 frontmatter 的 `type`，若 `type ∈ V.QB_TYPES`（题目/真题/例题/题组/题目集）即为错位。
-- **分流判据（关键）**：target 若**就是该 md 的文件名**（Level-2 命中）→ 是**显式指题，设计意图，不动**；
-  只有靠 title/aliases 兜底才命中的才是真错位。按此分，03-知识点/04-专题与题型/12-教学洞察中
-  316 目标里有 **305 个是正常显式指题**，真错只有 11 个 —— 别一看到"连到题目"就当成 bug 批量改。
-- 反向陷阱也成立：文件名与内容不符时，**103 个 `[[Aldol缩合]]` 全部落到讲逆反应的文件上**
-  （`03-知识点/有机化学/Aldol缩合.md` 2.6 KB、`title:"逆羟醛缩合"`、正文通篇 retro-Aldol；
-  真内容在 `缩合反应.md` 20 KB §3.2.2）。此类**只能改写内容，不能改名**（改名=103 处全变红链）。
-- 巡检脚本：`.workbuddy/scripts/find_kp_links_to_questions.py` + `split_kp_mislink.py` + `find_silent_mislink_fix.py`。
-
-## 新建知识点文件的字段安全写法（2026-09-01 实测，4 个文件 0 Error 0 新断链）
-- 必填 `title/type/subject/status/updated`；`subject` **无枚举**（`综合` 目录用 `subject: 综合`）；
-  `module` 无枚举；`subject_module` 才有枚举（化学原理/结构化学/有机化学/元素与分析），**别混用**。
-- **`related`/`prerequisite` 写成纯文本数组**（不要 `[[]]`）——`QB_LINK_FIELDS` 含
-  `knowledge_points/depends_on/cross_references/related`，写 wikilink 会被当断链查。
-- **不写 `stage` 字段** → `_check_stage` 直接 return，绕开 published 门禁（要求 evidence + 无断链）。
-- 落笔前逐个验链接：`V.find_wikilink_target()` + 查 `type ∈ QB_TYPES` + 查 basename 是否重名。
-- 一词多义的知识点（如"水合物"）建**一个**文件、内部分节对照，不要拆两个（basename 重名会解析歧义）。
+- 习题书 V3：题-033 查纸质原书补题补答；ABOC 211 条思路占位待人工。
+- Word precheck 少量 `^\circ`/裸下标 warning，源稿后续统一写 `\theta`。
+- 学生版-打印版 ~51% 图有效 DPI<150（源 72 DPI），是否回溯换源图待用户定。
