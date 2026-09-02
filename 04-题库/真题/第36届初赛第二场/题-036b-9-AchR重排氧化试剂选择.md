@@ -11,7 +11,7 @@ source: 第36届中国化学奥林匹克（初赛）第二场第9题第(9-1)小�
 source_subject: 有机化学
 module: 有机化学
 submodule: Achmatowicz重排、氧化试剂
-question_type: 简答题
+question_type: [简答]
 difficulty: 4
 teaching_level: 拓展
 syllabus_codes: []

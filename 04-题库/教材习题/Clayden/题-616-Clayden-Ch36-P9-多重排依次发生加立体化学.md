@@ -6,6 +6,7 @@ submodule: 重排反应
 exam_stage: 初赛
 source_subject: 有机化学
 difficulty: 5
+question_type: [机理]
 teaching_level: 竞赛
 syllabus_codes: ["21"]
 knowledge_points: ["[[重排反应]]"]

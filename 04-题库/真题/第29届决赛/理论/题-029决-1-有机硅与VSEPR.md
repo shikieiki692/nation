@@ -12,7 +12,7 @@ source: "第29届中国化学奥林匹克（决赛）第1题"
 source_subject: 无机化学
 module: 无机化学
 submodule: "分子结构与化学键"
-question_type: 简答+画图
+question_type: [简答, 作图]
 difficulty: 3
 teaching_level: 竞赛
 syllabus_codes: []

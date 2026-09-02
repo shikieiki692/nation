@@ -6,6 +6,7 @@ submodule: 全合成
 exam_stage: 决赛
 source_subject: 有机化学
 difficulty: 5
+question_type: [推断]
 teaching_level: 竞赛
 syllabus_codes: ["50", "40", "37"]
 knowledge_points: ["[[炔烃]]", "[[烯烃复分解]]", "[[自由基]]", "[[保护基策略]]"]

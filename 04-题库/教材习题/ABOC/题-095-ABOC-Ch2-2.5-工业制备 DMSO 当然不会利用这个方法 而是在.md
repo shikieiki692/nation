@@ -6,6 +6,7 @@ submodule: Ch.2
 exam_stage: 初赛
 source_subject: 有机化学
 difficulty: 2
+question_type: [机理]
 teaching_level: 巩固
 syllabus_codes: ["32"]
 knowledge_points: ["[[氧化反应]]", "[[自由基反应]]"]

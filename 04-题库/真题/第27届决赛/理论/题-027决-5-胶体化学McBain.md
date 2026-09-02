@@ -12,7 +12,7 @@ source: "第27届中国化学奥林匹克（决赛）第5题"
 source_subject: 化学原理
 module: 胶体化学
 submodule: "缔合胶体与胶束形成"
-question_type: 简答与推导
+question_type: [简答, 推导]
 difficulty: 3
 teaching_level: 竞赛
 syllabus_codes: []

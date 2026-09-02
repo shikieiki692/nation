@@ -4,6 +4,7 @@ aliases: ["题-络合-01", "题-0660"]
 type: 题目
 fidelity: 自编
 difficulty: 4
+question_type: [计算]
 teaching_level: 拓展
 source: "专题页提炼"
 source_author: "资料提炼综合"

@@ -6,6 +6,7 @@ submodule: 热力学
 exam_stage: 决赛
 source_subject: 化学原理
 difficulty: 5
+question_type: [计算]
 teaching_level: 竞赛
 syllabus_codes: []
 knowledge_points:

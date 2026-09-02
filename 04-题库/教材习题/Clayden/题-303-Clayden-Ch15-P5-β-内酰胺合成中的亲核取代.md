@@ -6,6 +6,7 @@ submodule: 亲核取代反应
 exam_stage: 初赛
 source_subject: 有机化学
 difficulty: 4
+question_type: [机理]
 teaching_level: 拓展
 syllabus_codes: ["3.2"]
 knowledge_points: ["[[SN2反应]]", "[[SN1反应]]"]

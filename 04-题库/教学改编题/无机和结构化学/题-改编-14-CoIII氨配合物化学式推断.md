@@ -6,6 +6,7 @@ submodule: 配位化合物
 exam_stage: 初赛
 source_subject: 无机和结构化学
 difficulty: 3
+question_type: [作图]
 teaching_level: 巩固
 syllabus_codes: []
 knowledge_points: ["[[配合物]]", "[[元素分析]]", "[[钴]]", "[[晶体场理论]]"]

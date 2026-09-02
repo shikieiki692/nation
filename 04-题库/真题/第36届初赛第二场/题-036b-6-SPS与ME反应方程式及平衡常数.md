@@ -11,7 +11,7 @@ source: 第36届中国化学奥林匹克（初赛）第二场第6题第(6-1)小�
 source_subject: 化学原理
 module: 化学原理
 submodule: 电化学平衡、NMR定量分析
-question_type: 计算题
+question_type: [计算]
 difficulty: 3
 teaching_level: 拓展
 syllabus_codes: []

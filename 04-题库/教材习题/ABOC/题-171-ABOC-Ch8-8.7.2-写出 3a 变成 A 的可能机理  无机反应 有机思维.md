@@ -6,6 +6,7 @@ submodule: Ch.8
 exam_stage: 初赛
 source_subject: 有机化学
 difficulty: 2
+question_type: [机理]
 teaching_level: 巩固
 syllabus_codes: ["38"]
 knowledge_points: ["[[金属催化]]", "[[偶联反应]]", "[[Pd催化]]"]

@@ -13,6 +13,7 @@ source_subject: 无机和结构化学
 year: 2023
 
 difficulty: 5
+question_type: [机理]
 teaching_level: 竞赛
 
 knowledge_points: ["[[内层电子转移]]", "[[外层电子转移]]"]

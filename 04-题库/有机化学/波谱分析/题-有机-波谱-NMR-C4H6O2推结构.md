@@ -6,6 +6,7 @@ submodule: 波谱分析
 exam_stage: 初赛
 source_subject: 有机化学
 difficulty: 4
+question_type: [推断]
 teaching_level: 拓展
 syllabus_codes: ["49"]
 knowledge_points: ["[[NMR谱学]]", "[[不饱和度]]", "[[结构推断]]", "[[官能团鉴定]]"]

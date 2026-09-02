@@ -6,6 +6,7 @@ submodule: 基础概念
 exam_stage: 初赛
 source_subject: 有机化学
 difficulty: 3
+question_type: [机理]
 teaching_level: 拓展
 syllabus_codes: ["40", "45"]
 knowledge_points: ["[[氧化还原反应]]", "[[保护基策略]]", "[[芳香性]]"]

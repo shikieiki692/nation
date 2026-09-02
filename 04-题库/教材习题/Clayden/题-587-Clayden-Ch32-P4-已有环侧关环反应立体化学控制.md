@@ -6,6 +6,7 @@ submodule: 立体选择性
 exam_stage: 初赛
 source_subject: 有机化学
 difficulty: 4
+question_type: [机理]
 teaching_level: 拓展
 syllabus_codes: ["21"]
 knowledge_points: ["[[立体选择性]]"]

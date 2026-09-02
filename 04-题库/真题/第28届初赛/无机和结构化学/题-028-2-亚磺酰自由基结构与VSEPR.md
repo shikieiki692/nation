@@ -6,6 +6,7 @@ submodule: 分子结构与VSEPR
 exam_stage: 初赛
 source_subject: 无机和结构化学
 difficulty: 3
+question_type: [机理]
 teaching_level: 基础
 syllabus_codes: []
 knowledge_points:

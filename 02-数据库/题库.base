@@ -5,6 +5,8 @@ filters:
 properties:
   file.name:
     displayName: 题目
+  file.folder:
+    displayName: 所在目录
   subject_module:
     displayName: 模块
   submodule:
@@ -98,18 +100,36 @@ views:
       - property: subject_module
         direction: ASC
   - type: table
-    name: 题型待标注
+    name: 题型待标注（按目录批量补）
     filters:
       and:
         - question_type.isEmpty()
     order:
       - file.name
+      - file.folder
       - subject_module
       - submodule
       - difficulty
       - teaching_level
     sort:
-      - property: subject_module
+      - property: file.folder
+        direction: ASC
+      - property: difficulty
+        direction: ASC
+  - type: table
+    name: 题型待标注·真题优先
+    filters:
+      and:
+        - question_type.isEmpty()
+        - file.inFolder("04-题库/真题")
+    order:
+      - file.name
+      - file.folder
+      - subject_module
+      - difficulty
+      - exam_stage
+    sort:
+      - property: file.folder
         direction: ASC
   - type: table
     name: 层次待定

@@ -6,6 +6,7 @@ submodule: 人名反应与电环化
 exam_stage: 初赛
 source_subject: 有机化学
 difficulty: 4
+question_type: [作图]
 teaching_level: 巩固
 syllabus_codes: []
 knowledge_points:

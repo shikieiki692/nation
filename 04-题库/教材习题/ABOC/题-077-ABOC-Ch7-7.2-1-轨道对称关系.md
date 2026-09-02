@@ -6,6 +6,7 @@ submodule: 基础概念
 exam_stage: 初赛
 source_subject: 有机化学
 difficulty: 4
+question_type: [作图]
 teaching_level: 拓展
 syllabus_codes: ["49", "22"]
 knowledge_points: ["[[前线轨道理论]]", "[[有机分子轨道]]", "[[Diels-Alder反应]]"]

@@ -6,6 +6,7 @@ submodule: 重排反应
 exam_stage: 决赛
 source_subject: 有机化学
 difficulty: 4
+question_type: [机理]
 teaching_level: 拓展
 syllabus_codes: ["21"]
 knowledge_points: ["[[Grob碎裂化反应]]", "[[关环反应]]"]

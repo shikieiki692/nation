@@ -6,6 +6,7 @@ submodule: 硅硅磷化学
 exam_stage: 初赛
 source_subject: 有机化学
 difficulty: 4
+question_type: [机理]
 teaching_level: 竞赛
 syllabus_codes: ["21"]
 knowledge_points: ["[[烯丙基硅烷]]"]

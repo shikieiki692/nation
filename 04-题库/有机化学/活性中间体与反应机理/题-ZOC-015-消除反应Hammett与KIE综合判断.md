@@ -6,6 +6,7 @@ source_file: "06-外部资料导入/有机反应合成与机理 上/L3Determinin
 source_subject: 有机化学
 year: 2023
 difficulty: 5
+question_type: [推断, 机理]
 teaching_level: 竞赛
 syllabus_codes: ["35"]
 knowledge_points: ["[[Hammett方程]]", "[[动力学同位素效应]]"]

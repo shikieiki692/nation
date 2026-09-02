@@ -6,6 +6,7 @@ submodule: 周环反应
 exam_stage: 决赛
 source_subject: 有机化学
 difficulty: 4
+question_type: [机理]
 teaching_level: 拓展
 syllabus_codes: ["41", "49"]
 knowledge_points: ["[[苯炔]]", "[[Ene反应]]", "[[周环反应]]"]

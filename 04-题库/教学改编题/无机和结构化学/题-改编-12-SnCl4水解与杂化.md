@@ -6,6 +6,7 @@ submodule: 分子结构
 exam_stage: 初赛
 source_subject: 无机和结构化学
 difficulty: 3
+question_type: [作图]
 teaching_level: 巩固
 syllabus_codes: []
 knowledge_points: ["[[杂化轨道理论]]", "[[水解]]", "[[锡]]", "[[分子结构补充]]"]

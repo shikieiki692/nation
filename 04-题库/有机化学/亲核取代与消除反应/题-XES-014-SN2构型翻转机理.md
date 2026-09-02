@@ -6,6 +6,7 @@ source_file: "06-外部资料导入/学而思 有机化学基础 学生讲义/04
 source_subject: 有机化学
 year: 2023
 difficulty: 4
+question_type: [机理]
 teaching_level: 拓展
 knowledge_points: ["[[SN2反应]]", "[[构型翻转]]"]
 status: 已填充

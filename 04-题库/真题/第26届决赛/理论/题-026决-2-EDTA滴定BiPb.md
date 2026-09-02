@@ -6,6 +6,7 @@ submodule: "EDTA滴定-缓冲溶液"
 exam_stage: 决赛
 source_subject: 分析化学
 difficulty: 3
+question_type: [计算]
 teaching_level: 竞赛
 syllabus_codes: []
 knowledge_points: ["[[EDTA滴定]]", "[[缓冲溶液pH]]", "[[Henderson-Hasselbalch方程]]", "[[配位滴定浓度计算]]"]

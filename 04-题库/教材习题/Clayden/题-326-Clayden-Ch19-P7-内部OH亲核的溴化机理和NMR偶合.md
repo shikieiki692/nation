@@ -6,6 +6,7 @@ submodule: 烯烃的亲电加成
 exam_stage: 初赛
 source_subject: 有机化学
 difficulty: 4
+question_type: [机理]
 teaching_level: 拓展
 syllabus_codes: ["2.3", "4.1"]
 knowledge_points: ["[[溴鎓离子]]"]

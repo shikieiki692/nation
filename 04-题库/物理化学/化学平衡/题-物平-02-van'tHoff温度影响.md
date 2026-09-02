@@ -4,6 +4,7 @@ aliases: ["题-物平-02"]
 type: 题目
 fidelity: 自编
 difficulty: 3
+question_type: [计算]
 teaching_level: 巩固
 source: "教学改编（物化综合计算讲义 §〇 前置概念）"
 module: "化学平衡"

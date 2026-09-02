@@ -4,6 +4,7 @@ aliases: ["题-物动-02"]
 type: 题目
 fidelity: 自编
 difficulty: 3
+question_type: [计算]
 teaching_level: 巩固
 source: "教学改编（化学动力学讲义 §三 Arrhenius）"
 module: "化学动力学"

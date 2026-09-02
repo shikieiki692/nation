@@ -6,6 +6,7 @@ submodule: 全合成
 exam_stage: 决赛
 source_subject: 有机化学
 difficulty: 5
+question_type: [作图]
 teaching_level: 竞赛
 syllabus_codes: ["50", "49", "52"]
 knowledge_points: ["[[Diels-Alder反应]]", "[[杂环化合物]]", "[[呋喃化学]]", "[[Simmon-Smith反应]]"]

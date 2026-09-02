@@ -6,6 +6,7 @@ submodule: Ch.7
 exam_stage: 初赛
 source_subject: 有机化学
 difficulty: 2
+question_type: [机理]
 teaching_level: 巩固
 syllabus_codes: ["37"]
 knowledge_points: ["[[周环反应]]", "[[Diels-Alder反应]]", "[[电环化反应]]"]

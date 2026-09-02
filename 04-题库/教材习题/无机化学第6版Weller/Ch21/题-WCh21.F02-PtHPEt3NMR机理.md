@@ -13,6 +13,7 @@ source_subject: 无机和结构化学
 year: 2023
 
 difficulty: 4
+question_type: [机理]
 teaching_level: 拓展
 
 knowledge_points: ["[[配体取代机理]]", "[[化学动力学]]"]

@@ -12,7 +12,7 @@ source: "第29届中国化学奥林匹克（决赛）第9题"
 source_subject: 有机化学
 module: 有机化学
 submodule: "有机反应机理"
-question_type: 简答+画图
+question_type: [简答, 作图]
 difficulty: 4
 teaching_level: 竞赛
 syllabus_codes: []

@@ -6,6 +6,7 @@ submodule: Ch.9
 exam_stage: 初赛
 source_subject: 有机化学
 difficulty: 2
+question_type: [机理]
 teaching_level: 巩固
 syllabus_codes: ["39"]
 knowledge_points: ["[[杂环化合物]]", "[[杂环合成]]"]

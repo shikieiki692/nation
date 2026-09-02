@@ -6,6 +6,7 @@ submodule: Ch.1
 exam_stage: 初赛
 source_subject: 有机化学
 difficulty: 2
+question_type: [机理]
 teaching_level: 巩固
 syllabus_codes: ["31"]
 knowledge_points: ["[[亲核取代]]", "[[Lewis酸碱理论]]", "[[碳正离子]]"]
