@@ -883,6 +883,54 @@ def collect_md_files(root: Path, dirs: list[str]) -> list[Path]:
     return files
 
 
+# ---------------------------------------------------------------------------
+# 三模块视图（习题集/习题书/测试题）：teaching_level 目录漂移软检查
+# 视图按 teaching_level 分池（基础+巩固 / 拓展 / 竞赛），归属与目录无关；
+# 但某题的层级若在其所在二级目录为「孤例」，大概率是新题标错档——告警提示人工确认。
+# 只告警不阻断；同目录同层级出现第二例后告警自动消失（自愈）。
+# ---------------------------------------------------------------------------
+
+TL_RECORDS: list[tuple[str, str, str]] = []  # (rel, 二级目录桶, 层级)
+
+# 2026-09-02 基线盘点确认的存量孤例，豁免不报：(目录桶, 层级)
+TL_DRIFT_KNOWN: set[tuple[str, str]] = {("经典例题", "基础")}
+
+
+def _tl_levels(value: Any) -> list[str]:
+    """teaching_level 归一为非空层级列表（兼容标量/列表/带引号写法）。"""
+    if value is None:
+        return []
+    if isinstance(value, (list, tuple, set)):
+        return [str(v).strip().strip("\"'") for v in value if str(v).strip()]
+    s = str(value).strip().strip("\"'")
+    return [s] if s else []
+
+
+def record_tl_bucket(file: Path, rel: str, fm: dict[str, Any] | None) -> None:
+    """扫描时记录 题目/真题 的 (目录桶, teaching_level)，供 main 末尾统一检查。"""
+    if not fm or fm.get("type", "") not in ("题目", "真题"):
+        return
+    parts = rel.split("/")
+    if parts[0] != "04-题库" or len(parts) < 3:
+        return  # 仅约束 04-题库 二级目录；05-真题库 四档俱全不设限
+    for level in _tl_levels(frontmatter_field_value(file, fm, "teaching_level")):
+        TL_RECORDS.append((rel, parts[1], level))
+
+
+def check_teaching_level_drift(report: Report) -> None:
+    """层级在所在二级目录为孤例时告警（count==1 自愈式软门禁）。"""
+    counts: dict[str, dict[str, int]] = defaultdict(lambda: defaultdict(int))
+    for _rel, bucket, level in TL_RECORDS:
+        counts[bucket][level] += 1
+    for rel, bucket, level in TL_RECORDS:
+        if counts[bucket][level] == 1 and (bucket, level) not in TL_DRIFT_KNOWN:
+            report.warning(
+                rel, "层级-目录漂移",
+                f"teaching_level={level} 在 04-题库/{bucket}/ 为孤例——三模块视图按层级分池，"
+                "若为有意录入请忽略，若为标错请改档",
+            )
+
+
 def scan_file(file: Path, report: Report, quick: bool = False) -> None:
     """对单个文件执行所有检查。"""
     rel = file.relative_to(VAULT_ROOT).as_posix()
@@ -902,6 +950,8 @@ def scan_file(file: Path, report: Report, quick: bool = False) -> None:
     check_frontmatter(file, fm, report)
     # 生命周期 stage 检查
     check_lifecycle(file, fm, body, report)
+    # 三模块视图：记录层级-目录桶（全量口径在 main 末尾统一查漂移）
+    record_tl_bucket(file, rel, fm)
 
     if not quick:
         # 断链检查
@@ -1162,6 +1212,10 @@ def main() -> None:
     # 孤儿图片检测（全量模式）
     if not quick and not args.changed:
         check_orphan_images(report)
+
+    # 三模块视图层级漂移（仅全量口径；--dir/--changed 部分扫描会把完整目录误判成孤例）
+    if not quick and not args.changed and args.dir is None:
+        check_teaching_level_drift(report)
 
     # 生成报告
     md = build_report_markdown(report, scan_mode, target_dirs)
