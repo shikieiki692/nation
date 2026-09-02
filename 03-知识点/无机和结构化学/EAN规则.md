@@ -29,7 +29,6 @@ source_extracts:
     asset_id: "化学竞赛初赛讲义-第5讲-金属有机化学"
     asset_type: "书籍提炼"
     asset_summary: "EAN规则相关内容"
-subject: 无机和结构化学
 status: 已填充
 importance: 3
 ---

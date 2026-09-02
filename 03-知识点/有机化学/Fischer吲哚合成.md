@@ -11,8 +11,8 @@ parent_overview: 中国化学奥林匹克基本要求-总览
 parent_module: 基础要求-有机化学
 syllabus_code: [52, 50]
 syllabus_module: [有机化学]
-tags: [化竞, 有机化学, Fischer吲哚合成, 吲哚合成, 苯肼, [3,3]
--σ迁移, 芳香化]related: [Paal-Knorr合成, 吡咯, Larock吲哚合成, Bartoli吲哚合成, 杂环合成]
+tags: [化竞, 有机化学, Fischer吲哚合成, 吲哚合成, 苯肼, "[3,3]-σ迁移", 芳香化]
+related: [Paal-Knorr合成, 吡咯, Larock吲哚合成, Bartoli吲哚合成, 杂环合成]
 prerequisite: [缩合反应, "[3,3]-σ迁移", 芳香性, 羰基化学, 周环反应]
 problem_types: [题型-产物预测, 题型-机理推断, 题型-合成设计]
 difficulty: 4

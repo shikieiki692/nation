@@ -16,7 +16,6 @@ source_extracts:
     asset_id: "无机化学第6版-第21章-配位反应机理"
     asset_type: "书籍提炼"
     asset_summary: "Marcus理论相关内容"
-subject: 无机和结构化学
 status: 已填充
 stage: published
 importance: 2

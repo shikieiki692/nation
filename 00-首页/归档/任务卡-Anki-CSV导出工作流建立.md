@@ -2,9 +2,6 @@
 deprecated: true
 deprecatedDate: 2026-08-13
 sunsetDate: 2026-08-20
-deprecated: true
-deprecatedDate: 2026-08-13
-sunsetDate: 2026-08-20
 title: Anki CSV 导出工作流建立
 type: 活跃任务卡
 status: archived

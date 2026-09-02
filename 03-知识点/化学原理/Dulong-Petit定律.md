@@ -16,7 +16,6 @@ source_extracts:
     asset_summary: "Dulong-Petit定律相关内容"
 importance: 2
 difficulty: 2
-aliases: [Debye模型, 晶格振动]
 ---
 
 # Dulong-Petit定律

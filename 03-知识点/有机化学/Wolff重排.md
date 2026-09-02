@@ -24,7 +24,6 @@ source_extracts:
     asset_id: "Zchem-周环反应与活性中间体-第三轮"
     asset_type: "教学逻辑提炼"
     asset_summary: "Wolff重排相关内容"
-subject: 有机化学
 status: 已填充
 importance: 2
 difficulty: 3

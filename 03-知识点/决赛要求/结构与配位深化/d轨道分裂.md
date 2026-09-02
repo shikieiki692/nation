@@ -43,7 +43,6 @@ images_priority: high
 images_note: "matplotlib生成的Oh/Td/D4h三种对称性d轨道分裂能级图"
 teaching_ready: false
 key_images: [d-orbital-splitting-oh-td-d4h.jpg]
-updated: 2026-06-14
 ---
 
 # d轨道分裂

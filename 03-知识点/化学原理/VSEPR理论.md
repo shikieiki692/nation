@@ -28,12 +28,10 @@ source_notes:
   - "[[04-课件/新授课/2026-06-02-分子结构基础-基础班]]"
   - "[[04-课件/备课大纲/2026-06-02-分子结构基础-基础班]]"
 review_cycle: 30d
-has_images: true
 image_count: 3
 images_priority: medium
 images_note: 结构/轨道相关 KP，可用 Mermaid 或 LaTeX 绘制示意图，无需外部截图。
 teaching_ready: true
-key_images: []
 teaching_insight: "[[教学洞察-VSEPR]]"
 updated: 2026-06-21
 source_extracts:

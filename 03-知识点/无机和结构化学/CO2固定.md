@@ -5,12 +5,11 @@ module: 无机和结构化学
 title: "CO2固定"
 aliases: [铱化学深化, CO₂催化深化, CO₂活化深化]
 created: 2026-07-18
-updated: 2026-07-18
+updated: 2026-07-23
 tags: [化竞, 无机和结构化学, 催化化学]
 subject: 无机和结构化学
 status: 已填充
 stage: published
-updated: 2026-07-23
 source_extracts:
   - source_file: "[[07-资料提炼/书籍提炼/提炼-无机化学第6版-第11-18章-主族元素化学]]"
     asset_id: "Weller Ch11-18"

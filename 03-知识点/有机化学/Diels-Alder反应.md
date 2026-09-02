@@ -24,7 +24,6 @@ source_extracts:
     target_section: "—"
     date: 2026-07-23
     status: 待回流
-subject: 有机化学
 status: 已填充
 stage: published
 syllabus_code: [49]

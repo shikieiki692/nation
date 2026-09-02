@@ -28,7 +28,6 @@ source_extracts:
     asset_id: "Clayden-第35章-σ重排和电环化反应"
     asset_type: "书籍提炼"
     asset_summary: "Cope重排相关内容"
-subject: 有机化学
 status: 已填充
 importance: 3
 difficulty: 2

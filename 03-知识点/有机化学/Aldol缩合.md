@@ -17,7 +17,6 @@ source_extracts:
     asset_id: "知识点索引"
     asset_type: "资料提炼"
     asset_summary: "逆羟醛缩合相关内容"
-subject: 有机化学
 status: 已填充
 importance: 3
 difficulty: 2

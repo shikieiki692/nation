@@ -17,7 +17,6 @@ source_extracts:
     asset_id: "ABOC"
     asset_type: "书籍提炼"
     asset_summary: "Knoevenagel缩合相关内容"
-subject: 有机化学
 status: 已填充
 importance: 2
 difficulty: 1

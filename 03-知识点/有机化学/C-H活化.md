@@ -28,7 +28,6 @@ source_extracts:
     asset_id: "Zchem有机下-网课资料索引"
     asset_type: "网课资料"
     asset_summary: "C-H活化相关内容"
-subject: 有机化学
 status: 已填充
 importance: 3
 difficulty: 2

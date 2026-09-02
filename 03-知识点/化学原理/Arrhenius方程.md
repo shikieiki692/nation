@@ -38,12 +38,13 @@ teaching_ready: false
 key_images: [arrhenius-equation-plot.jpg]
 updated: 2026-07-30
 
-![[arrhenius-equation-plot.jpg]]
 source_extracts:
   - "[[07-资料提炼/书籍提炼/提炼-普化原理-第7章-化学反应速率]]"
 ---
 
 # Arrhenius方程
+
+![[arrhenius-equation-plot.jpg]]
 
 - 总览：[[中国化学奥林匹克基本要求-总览]]
 - 所属模块：[[基础要求-化学原理]]

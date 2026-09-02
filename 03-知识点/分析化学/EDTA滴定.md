@@ -29,7 +29,6 @@ source_extracts:
     asset_id: "赵鑫光-教材结构与教学映射"
     asset_type: "题集提炼"
     asset_summary: "EDTA滴定相关内容"
-subject: 分析化学
 status: 已填充
 
 importance: 4

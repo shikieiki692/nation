@@ -5,7 +5,7 @@ module: 无机和结构化学
 title: "MOF材料"
 aliases: [MOF材料深化, 多孔材料, 多孔材料深化, 沸石, 配位聚合物, 配位聚合物深化, 一维配位聚合物]
 created: 2026-07-18
-updated: 2026-07-18
+updated: 2026-07-23
 tags: [化竞, 无机和结构化学, 材料化学]
 source_extracts:
   - source_file: "[[07-资料提炼/教学逻辑提炼/质心 元素化学和结构化学 下/教学逻辑提炼-质心-钪钛钒-第一轮]]"
@@ -15,7 +15,6 @@ source_extracts:
 subject: 无机和结构化学
 status: 已填充
 stage: published
-updated: 2026-07-23
 importance: 2
 difficulty: 1
 ---

@@ -30,7 +30,6 @@ key_images: [media/beer-lambert-law-plot.jpg]
 teaching_ready: true
 source_notes:
   - "本页是分光光度法链的公式页，主来源是教材提炼中的吸光光度法章节。"
-key_images: []
 updated: 2026-05-25
 source_extracts:
   - source_file: "[[07-资料提炼/书籍提炼/提炼-分析化学第六版-第7-10章-氧化还原沉淀重量与光度法]]"

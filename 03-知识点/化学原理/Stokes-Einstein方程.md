@@ -16,7 +16,6 @@ source_extracts:
     asset_summary: "Stokes-Einstein方程相关内容"
 importance: 2
 difficulty: 3
-aliases: [扩散系数, Brown运动]
 ---
 
 # Stokes-Einstein方程

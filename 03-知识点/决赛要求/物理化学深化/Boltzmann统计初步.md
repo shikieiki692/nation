@@ -31,7 +31,6 @@ teaching_ready: false
 key_images: [boltzmann-energy-distribution.jpg]
 updated: 2026-07-30
 
-![[boltzmann-energy-distribution.jpg]]
 source_extracts:
   - source_file: "[[07-资料提炼/书籍提炼/提炼-Atkins物理化学-主题13-14-统计热力学与分子相互作用]]"
     asset_id: "Atkins主题13-14"
@@ -40,6 +39,8 @@ source_extracts:
 ---
 
 # Boltzmann 统计初步
+
+![[boltzmann-energy-distribution.jpg]]
 
 - 总览：[[中国化学奥林匹克基本要求-总览]]
 - 所属模块：[[决赛要求-物理化学深化]]

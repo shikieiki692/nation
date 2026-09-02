@@ -25,7 +25,6 @@ source_extracts:
     asset_id: "普化原理-第2章-气体"
     asset_type: "书籍提炼"
     asset_summary: "Clapeyron方程相关内容"
-subject: 化学原理
 status: 已填充
 importance: 4
 difficulty: 3

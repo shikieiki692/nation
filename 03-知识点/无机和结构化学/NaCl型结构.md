@@ -26,7 +26,6 @@ source_extracts:
     asset_id: "06.酸碱理论_笔记"
     asset_type: "网课资料"
     asset_summary: "NaCl型结构相关内容"
-subject: 无机和结构化学
 importance: 4
 ---
 
