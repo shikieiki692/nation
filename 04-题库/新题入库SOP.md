@@ -303,11 +303,15 @@ superseded_by: "[[取代题文件名]]"   # 有取代文件才写；没有就整
 - [ ] 题干与 OCR 一致（逐字比对）
 - [ ] 图片引用有效（文件在媒体仓库中）
 
-### 5.2 批量检查
+### 5.2 批量检查（入库闸门，2026-09-02 定为硬性一步）
 ```bash
-python 11-模板/scripts/validate_kb.py --quick
+# ① 增量受检本次入库文件——规则与全量一致（type 白名单/六字段/KP 可解析/行尾），
+#    退出码 0（0 error）才算过关；warning 逐条确认非本次引入
+python -X utf8 11-模板/scripts/validate_kb.py --changed <新文件1> <新文件2> ...
+# ② 整批完成后全量回归，不得高于基线
+python -X utf8 11-模板/scripts/validate_kb.py --full
 ```
-预期：0 error / 0 warning
+基线：Error 0 / Warning 209（2026-09-02）。升高即本次引入，先修复再提交。
 
 ### 5.2b 构建预演（pack=模块习题集 时必做）
 ```bash
@@ -345,7 +349,7 @@ python 11-模板/scripts/gen_module_set.py {模块名} "模块习题集-{模块�
 3. 题干逐字转录，不改动原文
 4. 图片复制到 媒体仓库/ 并用 ![[哈希]] 引用
 5. 查重：入库前搜索全库确认非重复
-6. 入库后运行 validate_kb --quick 确认 0 error
+6. 入库后运行 validate_kb --changed（列出新文件）作入库闸门，退出码 0 才算过；整批完成后跑 --full 确认不高于 Warning 209 基线
 7. 如题数 > 5，重新生成对应模块习题集
 8. 若该题会进入四篇习题书，须满足“习题书成书兼容规则”并跑 `gate_exercise_books.py`
 

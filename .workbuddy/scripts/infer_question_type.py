@@ -214,6 +214,8 @@ COMPETE_RE = re.compile(
 # 文件名/标题里经常带「机理」「计算」「单选」等词（题-XXX-反应机理），
 # 混进题干会被当成内容信号 —— 这是机理档误判的头号来源。
 SECTION_Q = re.compile(r"(?m)^##+\s*(?:题目|问题|原题|题干)\s*$")
+# B6.5（2026-09-02）：答案前置布局里，答案块之后的编号小节标题（## 5.11 / ## 18.1 …）
+NUM_SEC = re.compile(r"(?m)^##+\s*\d")
 H1_LINE = re.compile(r"(?m)^#\s+.*$")
 META_QUOTE = re.compile(
     r"(?m)^>\s*\[?!?\w*\]?\s*\*{0,2}(?:来源|难度|教学层级|题目类型|分值|知识点|标签|小问关联|答案)\*{0,2}\s*[：:]"
@@ -226,7 +228,20 @@ def clean_stem(text: str) -> str:
     body = "\n".join(lines[fe + 1:]) if fs is not None else text
     m = ANS_CUT.search(body)
     if m:
-        body = body[: m.start()]
+        # B6.5（2026-09-02）：答案前置布局——《无机化学例题与习题》选择题合集把
+        # 「## 参考答案」放在题目前面，题干全在答案块之后的编号小节（## 5.11 …）里。
+        # 旧逻辑切到答案区之前 → stem 只剩标题 → 假"无信号"。
+        # 三条件同时满足才改取编号小节起的内容：答案区出现极早 / 答案区后有编号小节 /
+        # 答案区前只有标题（≤200 字）。否则维持原切法（普通"题干→答案"布局零影响）。
+        m_num = NUM_SEC.search(body, m.end())
+        if (
+            m.start() <= 300
+            and m_num is not None
+            and len(body[: m.start()].strip()) <= 200
+        ):
+            body = body[m_num.start():]
+        else:
+            body = body[: m.start()]
     # 有 ## 题目 / ## 问题 小节的，只取其后的内容
     ms = list(SECTION_Q.finditer(body))
     if ms:
