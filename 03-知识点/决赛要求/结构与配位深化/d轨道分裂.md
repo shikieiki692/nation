@@ -23,7 +23,7 @@ source_extracts:
     asset_id: "Weller Ch20"
     asset_type: "书籍提炼"
     asset_summary: "配位化学理论教材主干，含晶体场理论、配位场理论、d轨道分裂"
-  - source_file: "[[07-资料提炼/网课提炼/资料提炼-周坤-晶体结构与配位化学]]"
+  - source_file: "[[资料提炼-周坤-晶体结构与配位化学]]"
     asset_id: "周坤-配位化学"
     asset_type: "网课提炼"
     asset_summary: "晶体场分裂能、高低自旋、Jahn-Teller效应"
