@@ -1,9 +1,10 @@
 ---
+deprecated: true
 type: 知识点
 template_version: v1.3
 subject: 无机和结构化学
 module: 无机和结构化学
-title: "EAN规则"
+title: EAN规则
 created: 2026-07-18
 updated: 2026-07-23
 tags: [化竞, 无机和结构化学, 配位化学]
@@ -29,7 +30,9 @@ source_extracts:
     asset_id: "化学竞赛初赛讲义-第5讲-金属有机化学"
     asset_type: "书籍提炼"
     asset_summary: "EAN规则相关内容"
-status: 已填充
+status: deprecated
+superseded_by: "[[18电子规则]]"
+deprecation_reason: "与 [[18电子规则]] 内容重复，已合并至该页（原文件内容保留）"
 importance: 3
 ---
 

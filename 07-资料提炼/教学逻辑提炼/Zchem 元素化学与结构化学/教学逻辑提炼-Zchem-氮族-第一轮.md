@@ -6,7 +6,7 @@ source_type: 课堂实录
 subject: 无机和结构化学
 related_topic: "[[专题-氧族与氮族元素]]"
 related_kps: [氮族元素, 磷化学, 氧化物, 价态-氧化态-形式电荷]
-target_kp: ["[[氮族元素]]", "[[磷]]", "[[砷]]"]
+target_kp: ["[[氮族元素]]", "[[磷及其化合物]]", "[[砷]]"]
 applicable_rounds: [第一轮, 第二轮]
 status: 待审核
 created: 2026-06-23

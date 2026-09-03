@@ -1,4 +1,5 @@
 ---
+deprecated: true
 title: SNAr
 aliases: [芳香亲核取代, SNAr反应, Nucleophilic Aromatic Substitution, 加成-消除机理]
 type: 知识点
@@ -16,7 +17,9 @@ prerequisite: [芳香亲电取代, 亲核取代, 共振论, 离去基]
 problem_types: [题型-活性排序, 题型-产物预测, 题型-机理书写]
 difficulty: 4
 importance: 4
-status: 已填充
+status: deprecated
+superseded_by: "[[芳香亲核取代]]"
+deprecation_reason: "与 [[芳香亲核取代]] 内容重复，已合并至该页（原文件内容保留）"
 stage: published
 sources: ["ABOC §5.4", "Clayden Ch.30", "初赛真题"]
 source_type: [教材, 资料提炼]
