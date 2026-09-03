@@ -39,7 +39,7 @@ tags: [系统, 数据库, 索引, 监控]
 | `活跃任务.base` | 活跃任务 Bases 查询 |
 | **基础设施产物** | |
 | `dependency-map.json` | 全库依赖关系图（1.8MB） |
-| `link_map_*.{csv,json}` | 链接映射/重写管线输出（6文件） |
+| `link_map_*.{csv,json}` | 链接映射/重写管线输出（6文件）——**2026-09-04 已归档至 `09-AI工作区/一次性产物归档/`** |
 | `shell_triage_raw.csv` | 文件分诊原始数据 |
 | `quality-metrics.jsonl` | 质量指标 |
 | `stage-migration-*.json` | 迁移跟踪报告 |
