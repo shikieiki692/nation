@@ -16,7 +16,6 @@ subject_module: 结构化学
 pack: 模块习题集
 fidelity: 原书逐字
 exam_stage: 初赛
-used_in: "[[结构化学阶段测试卷]]"
 ---
 
 # MnO4电荷转移与DeltaT
