@@ -165,6 +165,25 @@ for r, d, fs in os.walk(VAULT):
                     if lt and not resolve_any(lt) and not resolve_kp(lt):
                         E.append((os.path.relpath(p, VAULT), field, lt))
 
+# ── 4.5 KP 页面自身的导航字段断链（related / related_kp / prerequisite / parent_*）──
+#    注意：故意排除 sources / source_extracts —— 那是溯源信息，存量大且低危，不算导航断链。
+H = []
+for r, d, fs in os.walk(KP_DIR):
+    for fn in fs:
+        if not fn.endswith(".md"): continue
+        p_ = os.path.join(r, fn)
+        fm_ = load_fm(p_)
+        if not isinstance(fm_, dict) or "__parse_error__" in fm_: continue
+        rel_ = os.path.relpath(p_, VAULT)
+        for field in ("related", "related_kp", "prerequisite", "prerequisites",
+                      "parent_overview", "parent_module"):
+            if field not in fm_: continue
+            for item in as_list(fm_[field]):
+                for m in LINK_RE.findall(str(item)):
+                    lt = strip_link(m)
+                    if lt and not resolve_any(lt) and not resolve_kp(lt):
+                        H.append((rel_, field, lt))
+
 # ── 5. js-yaml 闸门 ───────────────────────────────────────────────
 jsy = None
 try:
@@ -184,6 +203,7 @@ except Exception:
 now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
 A_u = Counter(x[2] for x in A); C_u = Counter(x[2] for x in C)
 D_u = Counter(x[2] for x in D); E_u = Counter(x[2] for x in E)
+H_u = Counter(x[2] for x in H)
 
 lines = []
 lines.append("# KP 链接健康巡检")
@@ -199,6 +219,7 @@ rows = [
     ("C", "指向弃用页", len(C), len(C_u), "应清" if C else "干净"),
     ("D", "真孤儿", len(D), len(D_u), "应清" if D else "干净"),
     ("E", "source_notes/prereq 悬空", len(E), len(E_u), "低危"),
+    ("H", "KP 页面导航字段断链", len(H), len(H_u), "应清" if H else "干净"),
 ]
 for k, name, n, u, st in rows:
     flag = "⚠️" if st == "应清" else ("·" if st == "低危" else "✅")
@@ -210,7 +231,8 @@ lines.append("")
 
 for tag, title, rows_, cnt in [
     ("A", "A 带 .md 的断链", A, A_u), ("C", "C 指向弃用页", C, C_u),
-    ("D", "D 真孤儿", D, D_u), ("E", "E 悬空链", E, E_u)]:
+    ("D", "D 真孤儿", D, D_u), ("E", "E 悬空链", E, E_u),
+    ("H", "H KP 页面导航字段断链", H, H_u)]:
     if not rows_: continue
     lines.append("## %s（去重 %d）" % (title, len(cnt)))
     lines.append("")
@@ -250,6 +272,7 @@ print("  B 纯文本标签 %d" % len(B))
 print("  C 指向弃用页 %d（去重 %d）" % (len(C), len(C_u)))
 print("  D 真孤儿 %d（去重 %d）" % (len(D), len(D_u)))
 print("  E 悬空链 %d（去重 %d）" % (len(E), len(E_u)))
+print("  H KP 页面导航字段断链 %d（去重 %d）" % (len(H), len(H_u)))
 if jsy:
     print("  G js-yaml 失败 %d / 受检 %d" % (jsy[1], jsy[0]))
 if miss:
@@ -263,4 +286,4 @@ if REPORT:
     open(out, "w", encoding="utf-8", newline="").write("\n".join(lines))
     print("\n报告已写出:", os.path.relpath(out, VAULT))
 
-sys.exit(1 if (A or C or D) else 0)
+sys.exit(1 if (A or C or D or H) else 0)
