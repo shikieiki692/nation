@@ -286,4 +286,26 @@ if REPORT:
     open(out, "w", encoding="utf-8", newline="").write("\n".join(lines))
     print("\n报告已写出:", os.path.relpath(out, VAULT))
 
+    # 趋势追踪：把本次结果追加成一行，累积成时间序列
+    trend = os.path.join(d, "KP链接健康巡检_趋势.md")
+    g = jsy[1] if jsy else -1
+    verdict = "全绿" if (not A and not C and not D and not H and g == 0) else "待清"
+    row = "| %s | %d | %d | %d | %d | %d | %d | %s |" % (
+        datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),
+        len(A), len(C), len(D), len(H), len(E), g, verdict)
+    if not os.path.isfile(trend):
+        head = ["# KP 链接健康巡检 · 趋势", "",
+                "> 由 `kp_link_patrol.py --report` 自动追加。A/C/D/H/G 应为 0；E 允许 ≤3。",
+                "",
+                "| 巡检时间 | A 带.md断链 | C 指向弃用页 | D 真孤儿 | H KP导航断链 | E 悬空链 | G js-yaml失败 | 判定 |",
+                "|---|---|---|---|---|---|---|---|"]
+        open(trend, "w", encoding="utf-8", newline="").write("\n".join(head) + "\n")
+    body_t = open(trend, encoding="utf-8", newline="").read()
+    if row.split("|")[1].strip() not in body_t:      # 同一天不重复追加
+        with open(trend, "a", encoding="utf-8", newline="") as f:
+            f.write(row + "\n")
+        print("趋势已追加:", os.path.relpath(trend, VAULT))
+    else:
+        print("趋势已含当日记录，跳过追加")
+
 sys.exit(1 if (A or C or D or H) else 0)
