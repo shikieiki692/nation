@@ -1,49 +1,81 @@
 # 妙妙屋题库·长期记忆
 
 ## 环境
-- 脚本用系统 Python 3.12（有 PyYAML）：`...\Python312\python.exe -X utf8`；全量校验 `validate_kb.py --full`。
+- 系统 Python 3.12（有 PyYAML）：`...\Python312\python.exe -X utf8`；全量校验 `validate_kb.py --full`。
+- **所有数字随并行导入漂移，勿写死**；实时账本 `reconcile_counts.py`。题号双 type 白名单：`题目`(04-题库)+`真题`(05)。
+- Obsidian 索引：**只看 `.obsidian/app.json` 的 `userIgnoreFilters`**（不读 .gitignore）。现 10 项：`eiki/ .git/ node_modules/ .trash/ 09-审计报告/备份/ 高考化学/ 06-外部资料导入/ mineru/ mineru02/ kb-vault-mcp/`（09-03/04 加 6 项，减 ~2700 md）。`媒体仓库/`、`高中化学竞赛笔记/`、`clayden 有机化学/` 含被 `![[hash.jpg]]` 引用的图**不可排除**；`pptx-workspace/` 被历史日志活链引用暂缓。勘察报告见 `09-审计报告/知识库全局勘察-可优化项清单_2026-09-03.md`。
 
-## 关键基线（09-03）
-- 题目总数 **4,182** = 04-题库 4,119(`type:题目`) + 05-真题库 63(`type:真题`)；双 type 白名单，04-题库 另有 142 个非题目 md。
-- status 3,377/792/弃8/待填5 全覆盖；--full Error 0 Warning 209（曾 216，已修回）。
-- question_type **冻结**（09-03 决策：零消费方——工作台仅展示、.base 不用、脚本零读取；停止补全，存量 1,209 保留）。
-- 三模块=teaching_level 唯一决定：习题集=基础+巩固/习题书=拓展/测试题=竞赛；**行数随并行导入漂移勿写死，实时账本跑 reconcile_counts.py**（09-03 上午实测 1,769/1,525/1,022，总数 4,316，仍在微涨）。习题书事实源=题库架构总览.md；图片真缺失 3,200 不可修。
+## YAML 卫生（导入器必读）
+- **js-yaml 4（Dataview/Bases 同源）遇重复键/非法转义直接 THROW——整条文件在 Obsidian 消失（P0）**；PyYAML 只后值覆盖不报错。**validate_kb 抓不到 P0，只有 js-yaml 闸门能抓**。
+- 形态速查：值含裸 `: `、或以 `*`/`[`/`{` 开头→加引号；**含反斜杠的值一律用单引号**（双引号内 `\times` 静默变制表符）；全角引号非定界符；`aliases: - x` 单行非法；wikilink 逗号连写→引号化 inline list；含残留文本的段整段加双引号（零丢失勿硬拆）。
+- **新 P0 形态**：`related:` 已是 inline list，其后残留 block sequence 行 → bad indentation。修法：inline 已含该项时零丢失删残留行。
+- 其他：FM wikilink 路径一律 `/` 禁 `\`；FM 内禁独立行 `![[...]]`；QB_LINK_FIELDS 仅 knowledge_points/depends_on/cross_references/related/superseded_by；同名键取最后一次。
+- **写 L2 前必须 find 验证 KP**（`ls 03-知识点/有机化学/` 等整目录列名）：组合型/英文带空格/带 `-` 的名 90% 不存在（批29/30 严格执行 → 闸门① 零修复一次过）。真实 KP 如 [[化学式推断]]/[[标准电极电势]]/[[Clapeyron方程]]/[[Lewis结构式]]（非「路易斯结构式」）。有机章 KP 极全，多级引用勿臆造。存疑名一次 grep 全库即可。
 
-## YAML 卫生（09-03，导入器必读）
-- **js-yaml 4（Dataview/Bases 同源）遇重复键/非法转义直接 THROW——整条文件在 Obsidian 消失**；PyYAML 只后值覆盖不报错。导入闸门必含「js-yaml 解析 0 失败」。
-- **09-03 全库清零**（修 94 重复键+60 KP+48 长尾，fix_vault_yaml_syntax.py 11 类，提交 0b905a15）；同日上午复测库已涨至 md 10,113/有FM 9,520，失败仍=0。形态速查：值含裸 `: ` 或以 `*`/`[` 开头（如 [Re₂Cl₈]）→加引号；全角引号“”非定界符；`aliases: - x` 单行非法；wikilink 逗号连写→引号化 inline list，**含 §引用等残留文本的段整段加双引号**（零丢失勿硬拆）；裸化学名 token 用 `(?<!")` 防重复包裹。
-- frontmatter wikilink 路径一律 `/` 禁 `\`；FM 内禁独立行 `![[...]]`；QB_LINK_FIELDS 仅 knowledge_points/depends_on/cross_references/related/superseded_by；同名键取最后一次。
+## 常驻工具（`11-模板/scripts/`）
+- `kp_link_patrol.py` 链接巡检 A~H，`--report` 落报告+趋势（同日不重复），应清项退出 1。判据 **A/C/D/H/G=0、E≤3**（A 带.md断链／B 纯文本仅统计／C 指向弃用页／D 真孤儿／E 悬空／H KP 导航字段断链(排除 sources)／G js-yaml 失败）。正文图片 embed 断链是已知不可修存量。
+- `kp_dep_redirect.py` 弃用页改指 superseded_by，①-c 周期回涨**必须常驻**；`--scope=qb/kb/all` 三档（09-04 已扩展验证）：qb=题库仅 FM（周巡检默认，行为不变）；kb=11 个知识目录**全文扫描**+EXCLUDE 16 条语义不等价名单（价键理论/缺陷/白磷红磷磷酸/Wade规则族/糖/自由基加成/Sθ/*深化），`--apply` 写入。09-04 验证：kb 清后 **0 残留**；题库区 ~215 处回涨留 qb/收敛后处理。`kp_bclass.py` ①-b 纯文本二次分类，`--write` 落 09-审计报告。
+- `jsyaml_verify.js` js-yaml 4 闸门，`--list <清单>`/`--dir <目录>`；跑法：`NODE_PATH=C:/Users/蕾赛/.workbuddy/binaries/node/workspace/node_modules <受管node> 11-模板/scripts/jsyaml_verify.js --dir .`
+- 前三者纳入自动化「题库周巡检（异常才报）」（周一 08:00）。
 
-## 组卷与出卷
-- 组卷工作台：used_in 是 wikilink → Link **无 `.length`**（hasUsed 判空）；dataviewjs 块间不共享作用域；srcKey 归一 1,087 来源；出卷闭环 `mark_used.py --paper`；补弱 `gen_weak_drill.py --kp`；used_in 多标排查=卷内链接集合 vs 标记集合比对（09-03 结构化学卷 150 多标已修 4951742b）。
-- 三预设 staged `.workbuddy/staging/`，过 Gate ①② 贴工作台；`check_workbench_js.py --file` 校验。
+## 链接解析铁律
+- **分两张表：basename_map（文件名）优先、alias_map（title/alias）兜底**——Obsidian 真实行为。合成一张 setdefault 会让弃用页 alias 抢占活跃页文件名，误报「指向弃用页」且结果随 os.walk 顺序漂移。
+- 判链：**有前缀按路径、无前缀按文件名全库搜**。
+- 活跃页 alias 与弃用页文件名重名是既成撞车（配位化合物/理想气体状态方程/等电子体原理）：文件名优先→①-c 照改；反之 key 是**活跃页文件名**、弃用页的 alias，**绝不能改**。
+- **纯文本转链接要两步**：①父页加 alias ②题库 `"token"` 改 `"[[token]]"`。只加 alias 不会让纯文本生效。
+- 存量断链（frontmatter 1,643 条）不动；修断链只「精确相等+同目录」；basename 命中=设计意图，名实不符只改内容不改名；媒体仓库/ 不入库是设计。
+- **批量改指废弃页必须白名单**（废弃页 aliases 混泛化概念）：排除 `价键理论`/`缺陷`/`白磷红磷磷酸`/`Wade规则·硼烷结构·碳硼烷·硼族元素化学`/`糖`/`自由基加成·加成-消除机理`/`Sθ`/`*深化`。带锚点链接（`[[硼化学#教学视角]]`）会丢锚点需人工确认。
+
+## ①-b 处置基调（09-03 定）
+- **判据：一个 token 该不该成为 KP，看它有没有第二道题会用到**。「FeCl3与KI」只属于一道配平题；「配体效应」出现在所有均相催化题里。
+- 111 条纯文本全是一次性描述（反应对 49／制备 21／分离鉴别 16／性质规律 24／非化学 1），**保持纯文本是正确归宿**——可检索且不造单例孤儿。真概念缺口筛出 6 条已全部归口父页（零新建）。
+- **命名变体是 D 类孤儿最大来源**：中英文、`Clausius-Clapeyron方程` 与 `Clausius-Clapeyron 方程`（差一个空格）都断链。导入前应对 KP 名做去空格+大小写归一模糊匹配。
 
 ## 题库铁律
-- 例题写 `type:题目`+`question_type:例题`；重建直接 `--clean --write`（`CODEBUDDY_SESSION_ID= CLAUDE_SESSION_ID=` 绕 safe-delete）。
-- 校验器只约束 4 字段（fidelity/difficulty/exam_stage/subject_module）；`source_subject`=来源教材分科、`subject_module`=四大模块，两者不同是设计意图勿"修正"。**subject_module 合法值仅四选一：化学原理/结构化学/有机化学/元素与分析**——写「无机和结构化学」会被 validate --changed 抓 Warning。
-- teaching_level 仅 4 档；question_type 双维度+角色并存，画结构式归`作图`、`简答`兜底不推断、多问留空。
-- **knowledge_points 留空前必查「宏观近邻」**：原子轨道/元素周期律/元素周期表类宏观 KP 往往存在（validate 抓空列表 W）；细粒缺口才登记清单。照抄 OCR 半截 math 是惯性坑（批3 题-057、批5 题-097 连犯）——写文件时主动 grep `\$^{-1}\|\$_{` 自查。
-- **Edit 多行表格区块必须锚首尾两行**（只锚单行会把中间行误删）；改后 grep 行数验证。
-- **批量改字段脚本第一步：type 白名单 {题目,真题}**。真题 `year=N+1986`；题组子题按题号前缀折叠、折叠前对账小问数；细概念走 concepts。
-- 审计宏黑名单：`xlongequal|\AA\b|Biggl|xrightleftharpoons`——可逆箭头写裸 `\rightleftharpoons`（562 处主流不标记）；validate --changed 需显式传文件。半截 math（`$^{-1}$`/`$_{2}$`/`$^{1}$` 独立成 math）＝审计 P2 分裂记号 → 修 Unicode 或完整 math。
-- **校勘注/HTML 注释里禁逐字保留修复前形态**——audit 扫原始文本含注释，`$...$`、「## 」等字面引用会自证命中（P2/P1 假阳性）；注释用「上标X」等描述性写法。试题原文的 xlongequal 也是黑名单宏，转录直接写 xrightarrow（批4 题-062）。闸门④=audit_book_coverage.py（无独立 check_pack_rule.py）。
+- 例题 `type:题目`+`question_type:例题`；重建 `--clean --write`（`CODEBUDDY_SESSION_ID= CLAUDE_SESSION_ID=` 绕 safe-delete）。question_type **冻结**（零消费方，存量 1,209 保留）；teaching_level 仅 4 档。
+- `source_subject`=来源教材分科、`subject_module`=四大模块，不同是设计意图。**subject_module 仅四选一：化学原理/结构化学/有机化学/元素与分析**。
+- **KP 文件名多是英文/缩写写法**（`Lewis结构式`/`VSEPR理论`/`Lewis酸碱理论`），**不是中文**。**写 L2 前对每个 KP 做 `grep -rlE "\[\[关键词" 03-知识点` 验证**（写前必验证连续多批重犯）。
+- 审计黑名单：宏 `xlongequal|\AA\b|Biggl|xrightleftharpoons`（**可逆箭头写裸 `\rightleftharpoons`**）；图片 `!\[[^\]]*\]\([^)]+\)`（**必须 `![[hash.jpg]]` 无 alt**）；半截 math（`$^{-1}$`）= P2 分裂记号；OCR「<+字母」→ `<` 后加空格。校勘注/HTML 注释**禁逐字保留修复前形态**（audit 扫原文会自证命中）。台账类 md 也要 frontmatter。
 
-## 链接与图片
-- 链接解析禁自写正则：`import validate_kb as V` 复用；修断链只「精确相等+同目录」；frontmatter 断链 1,643 存量不动；basename 命中=设计意图、名实不符只改内容不改名；媒体仓库/ 不入库是设计；wikilink 示例用全角［［…］］防误报。
+## 批量改 md 防坑（细节见 skill `obsidian-frontmatter-batch-edit`）
+- **拼接坑（已犯 2 次）**：body 切片是 `t[e:]` 就只拼 `"---" + new_fm + body`；是 `t[e+4:]` 才补 `\n---`。**重拼只能补 `\n---` 不能补 `\n---\n`**。断言「全文行数不变 + fm 行数不变」。
+- **bash 内联 python 吃 `\$` 和反引号** → 正则静默失效，含正则的脚本一律 Write 成 .py 再跑（09-03 又犯：21 个废弃页的 `superseded_by` 全误报缺失）。
+- **量正文行数切 frontmatter 的坑**：`t.split("\n---",2)[-1]` 遇正文含 `---` 分隔线**只取末段**（18电子规则测得 1 行，实为 395 行）。须逐行找首个 `lines[i].strip()=="---"`。
+- **glob 坑**：`题-2[78][0-9]-*.md` 的 `[78]`/`[0-9]` 是字符位，批量脚本先 print 命中数。
+- **题号重名坑**：`find -name "题-396-*"` 同时命中 Clayden 与化学能力测试两套（题-390~399 撞号），定位须带完整文件名或目录限定。
+- 其他：`split("\n")` 元素禁含 `\n`；读写 `open(newline="")`；查行尾数 `b'\r\n'`；Edit 多行表格锚首尾两行；改前 zip 快照+写后逐行 diff；批量暂存 `git add --pathspec-from-file`；docx 走 python-docx+lxml+zipfile（禁 HTML 往返毁 OMML）。
 
-## 批量改 md/docx 防坑
-- **split("\n") 行列表元素禁含 `\n`**（join 翻倍空行）；插行/替换行行尾用 tr_of() 取实际行；读写 `open(newline="")`。查行尾只认 Python 数 `b'\r\n'`（grep 假阳性）；bash 双引号/heredoc 吃 `$`、`:\s` 与反引号 → 一律 Write 成 .py。
-- 改前 zip 快照 + 写后逐行 diff；zip arcname 正斜杠；批量显式暂存用 `git add --pathspec-from-file`。删行复验断言：LF 总差=1、CRLF 差∈{0,1}（删的可能是 LF 行）。
-- docx 批量走 python-docx+lxml+zipfile（禁 HTML 往返毁 OMML）+LibreOffice 验证；证据字段不当修复对象。
+## 并行现场（09-03 起，另一对话导入中）
+- 用户已明确：对方录入的题目**不用我管**；只做 03-知识点 侧工作。动 04-题库 前先看 mtime（久未动=非活跃批次）。
+- 区分「我的改动」：`git diff` 比 HEAD 会算上对方未提交工作 → 用①zip 快照对比 ②hunk 行号法。查跟踪状态必须 `git -c core.quotepath=false ls-files`（否则中文路径被八进制转义全误判为未跟踪）。
+- **共用 MEMORY.md，Edit 前必重读**（并行写入触发 stale 拒绝）。auto-validation 日期报告两会话互覆盖，全量结果跑完即时提取。
+
+## 查重与校勘（09-04 批35 补）
+- **同题异版文件可作 OCR 校勘旁证**：教程1 与上海中学第2分册/一分册测试大量共用题源（第4讲 22 题中 2 整道同题+2 异版）。题面数值存疑时先 grep 同主题异版文件比对（如实10 ΔH 缺负号由题-054 版 −398.2 证伪径改）。
+- 后续讲次查重重点排查：`上海中学竞赛课程/`、`一分册能力测试/`（对例4 与另一会话导入的一分册测试逐字同题）。
+- **教程一分册每讲答案区在 `化学竞赛教程1/竞赛教程第一分册_200-328.md`（试题在 `_1-199.md`），标准流程第 0 步先读答案区对应行号段再写 L2**——勿先写「整理者解答」再返工（批36 实战 13 题返工教训；第5讲答案区 L2929~3007，第6讲 L3009 起）。原书答案有错时以验算+同书互证定夺并记台账「答案区核对记录」。
 
 ## 新建 KP 与生命周期
 - 新建 KP：`subject→source_subject` 只作用 04/05-题库（03-知识点 仍 `subject`）；related/prerequisite 纯文本；不写 stage 绕门禁。
-- 废弃唯一机制 `status:deprecated`+`deprecation_reason`+`superseded_by`；标废弃前证伪「内容不丢」；判僵尸字段先 grep scripts。
+- **铁律例外**：成体系的独立知识域可破例新建 1 页（用户 09-03 授权「实验操作与仪器」），零散概念仍一律走 alias。跨模块放 `03-知识点/综合/`。
+- 废弃唯一机制 `status:deprecated`+`deprecation_reason`+`superseded_by`；标废弃前证伪「内容不丢」。
 
 ## 用户决策
-- 断链存量不动；质量优先于难度；新题默认 10-待审核区。
-- 2026-09-02：三模块=一库三视图；巡检周一0800 异常才报。
-- **并行现场（09-03 起，另一对话导入中）**：数字全在漂移；提交用显式 pathspec 排除对方文件；**共用 MEMORY.md，Edit 前必重读**（并行写入会触发 stale 拒绝）。
+- 断链存量不动；质量优先于难度；新题默认 10-待审核区；三模块=一库三视图；巡检周一 0800 异常才报。每批 L2 写完**立即**追加索引（批 12 漏做导致缺 20 行）。
 
-## 遗留待办
-- Gate ①②✅（09-03 三预设已装工作台，6 块全绿）。**汇合验收三件套**（jsyaml_scan_all + reconcile_counts + validate --full）待导入收敛后跑，过后统一刷工作台「零、字段底数」（现为 09-02 快照）。习题书 V3 题-033；40 题 KP 指派；讲义 38 断链勿批量。
+## 合并孪生页的标准手法（09-03 实践：克拉佩隆/Clapeyron）
+1. **先判重复还是分层**：分层页一律带「深化」后缀。只差译名/语言、教学视角结构雷同 → 是重复。
+2. **用引用量定方向，不用内容完整度**（克拉佩隆内容更好但引用 7 < Clapeyron 24 且后者承接 10 道题 → 选 Clapeyron，改指 7 个文件而非 24 个）。
+3. **加 alias 不够，必须实际改指**（文件名优先于 alias）。合并前 grep 两页全部引用，改指后对「同时链两页」的文件去重。
+4. 废弃页：`status:deprecated`+`deprecation_reason`+`superseded_by`，aliases 清空防与主页重复，正文换重定向说明。
+5. **多数「疑似孪生页」实为分层不宜合并**（分子间力vs范德华力+氢键、酸碱理论vs Brønsted/Lewis、电化学vs原电池/化学电源/电池电动势、杂化轨道理论vs配合物杂化轨道理论、π键vs离域π键、化学平衡vs化学平衡计算）。「共振结构 24引用/35行 vs 共振论 136/686」合并已列入候选、尚未执行。
+6. **03-知识点 内容厚度健康**（中位数 144 行、≤5 行 0 个，**「薄壳」假设已证伪**）。原 5 个高流量薄壳（离子晶体/分子轨道理论/构象分析/分子晶体/稀有气体化合物）**09-04 已按 v1.3 模板填实**（177~205 行，易错点为三列表格：常见错误|错在哪里|反例/判别要点）。剩余队列见 `02-数据库/薄壳KP分诊表.md` §八：79 项重扫 → 充实 32 / 中等 11 / **仍薄 32**（另 4 个废弃壳排除）。
+
+## 遗留待办（09-04 更新）
+- **新会话交接入口**：[[00-首页/会话交接/2026-09-04-KP链接治理与薄壳治理收口]] + 任务卡 `00-首页/活跃任务/任务卡-KP薄壳队列与治理后续.md`（status: active，状态查询 GATE 可 grep 命中）。
+- **勘察 6 项已全部处置**（09-03 拍板后 09-04 收口）：①废弃页改指 402 处 ✅ ②Obsidian 排除配置 ✅（10 项）③共振结构/共振论合并 → 待执行（唯一孪生候选）④扩 kp_dep_redirect 作用域 ✅（三档验证 kb 0 残留）⑤⑥已核销/缓办。本地 44 commit 领先最后已知推送边界 `8560b6c0`（含导入会话批次提交），仍待拍板「等导入收敛后一起推」。
+- 薄壳治理：首批 5 个已填实；剩余按分诊表 §八 优先 refs≥15（偶联反应/C-H活化/过渡金属催化/Hofmann消除/红外光谱/Cope重排/Michael加成）。
+- 一次性产物已归档 `09-AI工作区/一次性产物归档/`；`fix_image_refs.py` 归位 `11-模板/scripts/`。
+- **①-c 持续回涨**：导入器持续写 `[[配位化合物]]`/`[[等电子体原理]]`/`[[EAN规则]]`/`[[理想气体状态方程]]`（弃用页文件名=活跃页 alias）。题库区 ~215 处留 qb 周巡检；根治应改导入规范用活跃页名——**已提用户未拍板**。
+- **孤儿工作教训（4 次重犯）**：上轮超时中断的 turn 常已完成工作但未登记（402 改指/工具扩展/回链/分诊分类均是）。**接手遗留任务先核对现状（grep/dry-run/报告文件）再动手，勿重做。**
+- 导入收敛后跑汇合验收三件套（jsyaml_scan_all + reconcile_counts + validate --full），并统一 push。
