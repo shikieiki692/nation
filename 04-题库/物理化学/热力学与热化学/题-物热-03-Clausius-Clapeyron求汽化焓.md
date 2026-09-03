@@ -9,7 +9,7 @@ source: "教学改编（物化综合计算讲义 §〇 前置概念）"
 module: "热力学与热化学"
 source_subject: 物理化学
 syllabus_codes: ["06", "04"]
-knowledge_points: ["[[Clapeyron方程]]", "[[克拉佩隆方程]]", "[[沸点]]"]
+knowledge_points: ["[[Clapeyron方程]]", "[[沸点]]"]
 tags: [化竞, 题目, 物理化学, 相变热力学]
 updated: 2026-08-04
 status: 已填充
@@ -47,5 +47,5 @@ $$\ln\frac{p}{3.17} = 5137\times 4.99\times10^{-4} = 2.56\ \Rightarrow\ \frac{p}
 
 ## 知识点映射
 
-- [[Clapeyron方程]] · [[克拉佩隆方程]] · [[沸点]] · [[蒸气压]]
+- [[Clapeyron方程]] · [[沸点]] · [[蒸气压]]
 - 易错点：$T$ 必须用开尔文；1/T 差值为负要正确处理符号；近似常数时外推高温会偏大
