@@ -26,7 +26,7 @@ image_count: 1
 images_priority: high
 images_note: "已嵌入 Cannizzaro 反应机理图。"
 teaching_ready: false
-source_notes: ["[[提炼-学而思有机化学基础-批次D-醛酮]]"]
+source_notes: ["提炼-学而思有机化学基础-批次D-醛酮"]
 key_images: [media/cannizzaro-mechanism-benzaldehyde.png]
 template_version: v1.3
 updated: 2026-06-04

@@ -7,7 +7,7 @@ source_subject: 无机和结构化学
 year: 2023
 difficulty: 5
 teaching_level: 竞赛
-knowledge_points: ["[[金化学]]"]
+knowledge_points: ["[[金]]"]
 status: 已补全答案
 syllabus_codes: [13]
 tags: [化竞, 无机化学, Weller, d区元素]

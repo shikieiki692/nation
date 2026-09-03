@@ -7,7 +7,7 @@ source_subject: 无机和结构化学
 year: 2023
 difficulty: 3
 teaching_level: 巩固
-knowledge_points: ["[[光谱化学序列]]", "[[八面体场]]"]
+knowledge_points: ["[[光谱化学序列]]", "[[晶体场理论]]"]
 status: 已填充
 tags: [化竞, 无机化学, Weller, 晶体场理论]
 created: 2026-08-27

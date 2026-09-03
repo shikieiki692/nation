@@ -9,7 +9,7 @@ difficulty: 5
 question_type: [推断, 机理]
 teaching_level: 竞赛
 syllabus_codes: ["35"]
-knowledge_points: ["[[Hammett方程]]", "[[动力学同位素效应]]"]
+knowledge_points: ["[[Hammett方程]]", "[[同位素效应]]"]
 status: 已补全答案
 tags: [消除反应, 机理判断, Zchem]
 created: 2026-08-27

@@ -7,7 +7,7 @@ source_subject: 无机和结构化学
 year: 2023
 difficulty: 3
 teaching_level: 巩固
-knowledge_points: ["[[稀有气体化合物]]", "[[等电子体原理]]"]
+knowledge_points: ["[[稀有气体化合物]]", "[[等电子体]]"]
 status: 已填充
 tags: [化竞, 无机化学, Weller, 稀有气体]
 created: 2026-08-27

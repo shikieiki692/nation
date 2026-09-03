@@ -27,7 +27,7 @@ image_count: 0
 images_priority: medium
 images_note: "当前未嵌入图像文件；该主题具备一定可视化价值，后续备课时可优先补充结构示意图、关系图或谱图。"
 teaching_ready: false
-source_notes: ["[[提炼-学而思有机化学基础-批次E-羧酸羧衍缩合前置与含氮延伸]]"]
+source_notes: ["提炼-学而思有机化学基础-批次E-羧酸羧衍缩合前置与含氮延伸"]
 key_images: []
 updated: 2026-06-04
 source_extracts:

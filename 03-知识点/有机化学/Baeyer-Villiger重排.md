@@ -1,6 +1,6 @@
 ---
 title: Baeyer-Villiger重排
-aliases: [Baeyer-Villiger Rearrangement, BV重排, 拜耳-维立格重排, 酮转酯, Baeyer-Villiger氧化]
+aliases: [Baeyer-Villiger Rearrangement, BV重排, 拜耳-维立格重排, 酮转酯, Baeyer-Villiger氧化, "BaeyerVilliger重排"]
 type: 知识点
 subject: 有机化学
 module: 有机化学
@@ -24,7 +24,7 @@ sources: ["ABOC §6.9", "Clayden Ch.36", "学而思有机化学基础第11讲"]
 review_cycle: 30d
 key_images: []
 teaching_ready: false
-source_notes: ["[[提炼-学而思有机化学基础-批次D-醛酮]]"]
+source_notes: ["提炼-学而思有机化学基础-批次D-醛酮"]
 source_extracts:
   - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第6章-缩合反应]]"
     asset_id: "ABOC-第6章-缩合反应"

@@ -1,6 +1,6 @@
 ---
 title: NMR谱学
-aliases: [Nuclear Magnetic Resonance Spectroscopy, 核磁共振谱学, NMR, 核磁, 核磁共振, 化学位移, 红外光谱, 红外, 偶合常数, 13C NMR, 1H NMR]
+aliases: ["Nuclear Magnetic Resonance Spectroscopy", "核磁共振谱学", "NMR", "核磁", "核磁共振", "化学位移", "红外", "偶合常数", "13C NMR", "1H NMR", "NMR表征"]
 type: 知识点
 subject: 分析化学
 module: 分析化学
@@ -11,7 +11,7 @@ parent_module: 决赛要求-分析化学
 syllabus_code: []
 syllabus_module: [分析化学]
 tags: [化竞, NMR, 波谱分析, 结构表征, 动态NMR]
-related: [¹H NMR, 核磁共振, 化学位移, 有机波谱分析]
+related: ["¹H NMR", "核磁共振", "化学位移", "有机波谱分析", "红外光谱"]
 prerequisite: [原子结构, 磁矩, 有机化学基础]
 problem_types: []
 difficulty: 3

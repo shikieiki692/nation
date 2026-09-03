@@ -8,7 +8,7 @@ year: 2023
 difficulty: 4
 question_type: [简答]
 teaching_level: 拓展
-knowledge_points: ["[[晶体场理论]]", "[[八面体场]]"]
+knowledge_points: ["[[晶体场理论]]"]
 status: 已补全答案
 tags: [化竞, 无机化学, Weller, 晶体场理论]
 created: 2026-08-27

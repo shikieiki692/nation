@@ -9,7 +9,7 @@ difficulty: 5
 question_type: [机理]
 teaching_level: 竞赛
 syllabus_codes: ["21"]
-knowledge_points: ["[[动力学同位素效应]]"]
+knowledge_points: ["[[同位素效应]]"]
 tags: [化竞, Clayden, 有机化学, 同位素效应, 重氮化合物]
 updated: 2026-07-25
 aliases: [Clayden-Ch39-P11]

@@ -8,7 +8,7 @@ source_subject: 有机化学
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["31"]
-knowledge_points: ["[[加成反应]]", "[[碳正离子]]", "[[自由基加成]]"]
+knowledge_points: ["[[加成反应]]", "[[碳正离子]]", "[[反马氏加成]]"]
 tags: [化竞, 题目, 有机化学, 第三轮]
 updated: 2026-06-06
 aliases: ["题-有机-加成-01"]

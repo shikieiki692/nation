@@ -24,7 +24,7 @@ sources: ["ABOC §6.6", "Clayden Ch.36", "学而思有机化学基础第11讲"]
 review_cycle: 30d
 key_images: []
 teaching_ready: false
-source_notes: ["[[提炼-学而思有机化学基础-批次D-醛酮]]"]
+source_notes: ["提炼-学而思有机化学基础-批次D-醛酮"]
 source_extracts: ["[[07-资料提炼/书籍提炼/提炼-Clayden-第36章-碎片化与重排]]"]
 ---
 

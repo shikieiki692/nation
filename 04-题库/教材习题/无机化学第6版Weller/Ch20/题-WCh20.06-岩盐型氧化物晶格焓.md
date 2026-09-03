@@ -16,7 +16,7 @@ difficulty: 3
 question_type: [简答]
 teaching_level: 巩固
 
-knowledge_points: ["[[晶体场理论]]", "[[八面体场]]"]
+knowledge_points: ["[[晶体场理论]]"]
 
 status: 已填充
 

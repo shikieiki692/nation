@@ -8,7 +8,7 @@ year: 2023
 difficulty: 4
 teaching_level: 拓展
 syllabus_codes: ["33"]
-knowledge_points: ["[[动力学同位素效应]]", "[[反应机理]]"]
+knowledge_points: ["[[同位素效应]]", "[[反应机理]]"]
 status: 已补全答案
 tags: [KIE, 同位素效应, Zchem]
 created: 2026-08-27

@@ -8,7 +8,7 @@ source_subject: 有机化学
 difficulty: 5
 teaching_level: 竞赛
 syllabus_codes: ["50", "49", "46", "37"]
-knowledge_points: ["[[Aldol缩合]]", "[[Diels-Alder反应]]", "[[σ迁移反应]]", "[[光氧化还原催化]]", "[[联烯化学]]", "[[动力学同位素效应]]"]
+knowledge_points: ["[[Aldol缩合]]", "[[Diels-Alder反应]]", "[[σ迁移反应]]", "[[光氧化还原催化]]", "[[联烯化学]]", "[[同位素效应]]"]
 tags: [化竞, ABOC, 有机化学, 全合成, Mutilin, 选择性控制]
 updated: 2026-05-10
 source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第11章-解题训练]]"

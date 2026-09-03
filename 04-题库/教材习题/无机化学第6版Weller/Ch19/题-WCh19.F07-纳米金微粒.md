@@ -15,7 +15,7 @@ year: 2023
 difficulty: 3
 teaching_level: 巩固
 
-knowledge_points: ["[[金化学]]"]
+knowledge_points: ["[[金]]"]
 
 status: 已填充
 

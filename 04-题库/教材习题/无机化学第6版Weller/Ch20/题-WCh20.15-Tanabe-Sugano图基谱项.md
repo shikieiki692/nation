@@ -7,7 +7,7 @@ source_subject: 无机和结构化学
 year: 2023
 difficulty: 4
 teaching_level: 拓展
-knowledge_points: ["[[Tanabe-Sugano图]]", "[[八面体场]]"]
+knowledge_points: ["[[Tanabe-Sugano图]]", "[[晶体场理论]]"]
 status: 已补全答案
 syllabus_codes: [12]
 tags: [化竞, 无机化学, Weller, 晶体场理论]

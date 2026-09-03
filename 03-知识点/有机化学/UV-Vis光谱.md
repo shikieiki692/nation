@@ -1,6 +1,6 @@
 ---
 title: UV-Vis光谱
-aliases: [紫外可见光谱, UV-Vis Spectroscopy, 紫外光谱, 电子光谱, 紫外吸收光谱, 吸收光谱]
+aliases: [紫外可见光谱, UV-Vis Spectroscopy, 紫外光谱, 紫外吸收光谱, 吸收光谱, "发色团"]
 type: 知识点
 subject: 有机化学
 module: 有机化学

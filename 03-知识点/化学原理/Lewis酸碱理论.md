@@ -1,6 +1,6 @@
 ---
 title: Lewis酸碱理论
-aliases: [Lewis酸, Lewis碱, 电子酸碱理论]
+aliases: [Lewis酸, Lewis碱, 电子酸碱理论, "路易斯酸碱理论"]
 type: 知识点
 template_version: v1.3
 subject: 化学原理
