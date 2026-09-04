@@ -2,10 +2,11 @@
 title: KP薄壳队列与治理后续
 type: 活跃任务卡
 task_type: 系统维护
-status: active
+status: blocked
 priority: P2
 area: 知识点治理
 owner: Agent
+blocked_reason: "队列实质工作已全部完成（薄壳清零/孪生8组合并核销/中等档refs≥19填实9页），剩余仅 push+汇合验收与①-c 导入规范根治两项，均等导入收敛+用户拍板触发——按卡内规则转 blocked，待用户确认后关闭。"
 created: 2026-09-04
 updated: 2026-09-04
 description: >
