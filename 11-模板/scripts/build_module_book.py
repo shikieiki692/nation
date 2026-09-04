@@ -396,6 +396,8 @@ def strip_teaching_blocks(s):
     # 答案表内指向已删除教学块的悬空引用，改为指向下方保留的详细解答。
     s = re.sub(r"(?m)^(\s*\|.*?)见解题思路[^|\n]*(\|)", r"\1见下方详细解答\2", s)
     s = s.replace("见易错分析", "见下方易错说明")
+    # HTML 校勘注属内部工作信息，不进教学产物（2026-09-05 precheck bare_subscript 长尾治理）
+    s = re.sub(r"<!--.*?-->", "", s, flags=re.S)
     s = CALLOUT_EMOJI_RE.sub(r"\1", s)
     lines = s.splitlines()
     keep = []
@@ -602,7 +604,7 @@ def gather_questions(module):
             path = os.path.join(root, fn)
             rel = os.path.relpath(path, BASE).replace(os.sep, "/")
             s = open(path, encoding="utf-8", errors="replace").read()
-            fm = re.match(r"^---\n(.*?)\n---\n", s, re.S)
+            fm = re.match(r"^---\r?\n(.*?)\r?\n---\r?\n", s, re.S)  # CRLF 容忍（2026-09-05：1755 个历史 CRLF 文件的 FM 曾整体泄漏进产物）
             if not fm: continue
             y = fm.group(1)
             if not re.search(r"(?m)^type: 题目", y): continue
