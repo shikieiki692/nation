@@ -1,6 +1,6 @@
 ---
 title: Mitsunobu反应
-aliases: [Mitsunobu Reaction, 光延反应, 醇的构型翻转, DIAD, DEAD, PPh3, 膦化学]
+aliases: ["Mitsunobu Reaction", "光延反应", "醇的构型翻转", "DIAD", "DEAD", "PPh3"]
 type: 知识点
 template_version: v1.3
 subject: 有机化学
@@ -12,7 +12,7 @@ parent_module: 基础要求-有机化学
 syllabus_code: [36, 44]
 syllabus_module: [有机化学]
 tags: [化竞, 有机化学, Mitsunobu反应, 构型翻转, 膦化学, 人名反应, 亲核取代, 醇的转化]
-related: [SN2反应, 亲核取代反应, Swern氧化, Appel反应, 醇的氧化, 膦化合物]
+related: ["SN2反应", "亲核取代反应", "Swern氧化", "Appel反应", "醇的氧化", "膦化合物", "膦化学"]
 prerequisite: [SN2反应, 醇的化学, 亲核试剂, 离去基]
 problem_types: [题型-立体化学推断, 题型-合成设计, 题型-机理书写]
 difficulty: 4
@@ -199,7 +199,7 @@ $$
 - **前置知识**：[[SN2反应]]、[[醇]]、[[亲核试剂]]
 - **相关知识**：
   - "[[Appel反应]]（同为醇活化方法）"
-  - "[[膦化合物]]（PPh₃ 的化学）"
+  - "[[膦化学]]（PPh₃ 的化学）"
 - **应用知识**：
   - "[[题型-有机合成设计]]（复杂分子中醇的官能团转化）"
   - "[[Gabriel合成]]（Mitsunobu 变体制胺）"
@@ -259,7 +259,7 @@ A. CH₃COOH  B. CH₃OH  C. PhNH₂  D. HN₃
 ### 12.1 学习路径
 
 - **前置**：[[SN2反应]]、[[醇]]、[[亲核试剂]]
-- **后续**：[[题型-有机合成设计]]、[[Gabriel合成]]、[[膦化合物]]
+- **后续**：[[题型-有机合成设计]]、[[Gabriel合成]]、[[膦化学]]
 
 ### 12.2 学生易踩的认知误区
 
