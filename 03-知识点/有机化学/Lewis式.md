@@ -4,6 +4,7 @@ aliases: []
 type: 知识点
 template_version: v1.3
 module: 有机化学
+subject: 有机化学
 submodule: 结构表达
 status: deprecated
 deprecation_reason: "孪生页合并：Lewis式 与 Lewis结构式（化学原理模块，126 行含核心概念/画图步骤/三种例外/易错点/教学视角/相关题目）内容重复，经内容比对确认保页已覆盖全部知识点（唯一独有教学素材——漏标孤对误区、SCN⁻ 例题——已迁入保页）。"
