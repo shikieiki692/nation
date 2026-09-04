@@ -39,7 +39,7 @@
 - 本地 44 commit 领先 `8560b6c0`，待导入收敛后一起推。
 - ①-c 回涨：导入器写 `[[配位化合物]]`/`[[等电子体原理]]`/`[[EAN规则]]`/`[[理想气体状态方程]]`，题库区~215 处留 qb 周巡检；根治应改导入规范(待拍板)。
 - 薄壳治理剩余按分诊表 §八 优先 refs≥15。
-- ✅ 验收三件套已跑毕(2026-09-04 全绿；jsyaml_scan_all.js 在 .workbuddy/scripts/ 非 .py；validate 唯一 Error=Lewis式.md 缺 subject 属 KP 区待修)。
+- ✅ 验收三件套已跑毕(2026-09-04 全绿；jsyaml_scan_all.js 在 .workbuddy/scripts/ 非 .py；validate 唯一Error=Lewis式(deprecated)缺subject 已补清零)。
 - 一分册第 13~15 讲答案在 `_200-328.md` L3565~3879 但题面不在本目录源内，需另行寻源(待拍板)。
 
 ## 13-教案(人教版必修一，另一工作流)
