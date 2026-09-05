@@ -19,6 +19,8 @@
 ## 批量改 md 防坑
 - 重拼 fm：`t[e:]` 拼 `"---"+new_fm+body`；`t[e+4:]` 才补 `\n---`(不能补 `\n---\n`)；断言行数不变。
 - bash 内联 python 吃 `\$`/反引号→含正则脚本 Write 成 .py 跑。切 fm 逐行找首个 `---`。读写 `open(newline="")`。改前 zip 快照+写后逐行 diff。
+- 内联 heredoc 含 **emoji/非 ASCII** 正则会 mojibake 出假统计（2026-09-05 实锤：假报 104 emoji 实为 49）→ 一律 Write 成 .py 跑。
+- 批量插行禁用 `for+手动 i 推进`（无效→重复消费行双倍），必须 while-walk；改后对账「题数=标记数=溯源行数」＋行数对比快照（2026-09-05 溯源行曾 98=49×2，快照救回）。
 - glob `题-2[78][0-9]-*.md` 的 `[]` 是字符位，先 print 命中数。题号重名须带完整文件名/目录。同一文件多处 Edit 须串行(并行触发 stale 拒绝)。
 - 闸门参数：validate_kb `--changed` 无参检出 0，须显式列文件；清单若文本模式写盘 `\n`→`\r\n`，bash 须 `tr '\r\n' '  '`（仅 `tr '\n'` 残 `\r`→exists 全 False 受检 1/17）；jsyaml_verify `--list` 清单须 Windows 原生路径(/tmp 与 process substitution Node 读不到)；audit `--dir` 只认完整相对路径(别名"二分册"→受检 0)。
 
