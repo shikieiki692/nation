@@ -213,10 +213,21 @@ def main() -> None:
         sys.exit("没有找到任何题目文件，退出。")
 
     # ── 卷名：省略 --tag 时取试卷文件名，保证 used_in 与试卷文件严格对得上 ──
+    tag_is_uniq_short = False   # tag 为短链且 vault 内 basename 唯一 → 允许按末段等价判定已有
     if args.tag:
         tag = norm_tag(args.tag)
+        tag_is_uniq_short = "/" not in tag and len(list(VAULT.rglob(tag + ".md"))) == 1
     elif args.paper:
         tag = Path(args.paper.replace("\\", "/")).stem
+        # 撞名消歧（2026-09-05）：vault 中同 basename 存在多份文件（如题库侧智能卷与
+        # 课件侧正式卷同名）时，短链 [[卷名]] 解析有歧义 → 自动升级为相对 vault 全路径。
+        if len(list(VAULT.rglob(tag + ".md"))) > 1:
+            tag = args.paper.replace("\\", "/").strip("/")
+            if tag.endswith(".md"):
+                tag = tag[:-3]
+            print(f"ℹ️ basename「{Path(tag).stem}」在库中不唯一，used_in 写全路径：[[{tag}]]")
+        else:
+            tag_is_uniq_short = True
     else:
         sys.exit("用 --list 时必须显式给 --tag（清单文件没有可供推断的卷名）")
     if not tag:
@@ -251,7 +262,12 @@ def main() -> None:
                 cur = [norm_tag(x) for x in parse_used_in(raw_v)]
                 cur = [x for x in cur if x]
 
-            if tag in cur:
+            # 已有判定：字面相等，或（tag 为唯一短链时）已有值末段与之相同——
+            # basename 唯一保证末段相同必为同一文件，全路径旧值可安全识别（2026-09-05）
+            if tag in cur or (
+                tag_is_uniq_short
+                and any(x.split("/")[-1] == tag for x in cur)
+            ):
                 n_skip += 1
                 continue
 

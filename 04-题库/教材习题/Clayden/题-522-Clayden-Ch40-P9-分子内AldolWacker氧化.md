@@ -19,7 +19,7 @@ module: 有机化学
 status: 已填充
 subject_module: 有机化学
 pack: 模块习题集
-used_in: "[[有机化学阶段测试卷]]"
+used_in: ["[[有机化学阶段测试卷]]", "[[04-题库/有机化学阶段测试卷]]"]
 ---
 # 题-522: 分子内Aldol+Wacker氧化
 
