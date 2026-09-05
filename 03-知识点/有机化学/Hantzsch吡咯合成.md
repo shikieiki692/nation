@@ -1,6 +1,6 @@
 ---
 title: Hantzsch吡咯合成
-aliases: [Hantzsch Pyrrole Synthesis, Hantzsch合成, 吡咯合成, 卤代酮吡咯合成]
+aliases: [Hantzsch Pyrrole Synthesis, Hantzsch合成, 卤代酮吡咯合成]
 type: 知识点
 subject: 有机化学
 module: 有机化学

@@ -1,6 +1,6 @@
 ---
 title: Ritter反应
-aliases: [Ritter Reaction, 腈醇反应, 酰胺合成, 碳正离子机理]
+aliases: [Ritter Reaction, 腈醇反应, 酰胺合成]
 type: 知识点
 template_version: v1.3
 subject: 有机化学

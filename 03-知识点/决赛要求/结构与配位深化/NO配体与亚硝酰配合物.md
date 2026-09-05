@@ -1,9 +1,9 @@
 ---
 
-title: "NO配体与亚硝酰配合物"
+title: NO配体与亚硝酰配合物
 aliases: [NO配体, 亚硝酰, nitrosyl, 直线型NO, 弯曲型NO]
 type: 知识点
-subject: 无机和结构化学
+subject: 决赛要求
 module: 决赛要求
 tags: [化竞, 知识点, 配位化学]
 updated: 2026-07-07

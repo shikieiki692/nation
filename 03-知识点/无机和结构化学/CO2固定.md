@@ -2,7 +2,7 @@
 type: 知识点
 template_version: v1.3
 module: 无机和结构化学
-title: "CO2固定"
+title: CO2固定
 aliases: [铱化学深化, CO₂催化深化, CO₂活化深化]
 created: 2026-07-18
 updated: 2026-07-23

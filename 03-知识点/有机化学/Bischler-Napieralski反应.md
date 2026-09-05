@@ -1,6 +1,6 @@
 ---
 title: Bischler-Napieralski反应
-aliases: [Bischler-Napieralski Reaction, B-N反应, 二氢异喹啉合成, 异喹啉合成]
+aliases: [Bischler-Napieralski Reaction, B-N反应, 二氢异喹啉合成]
 type: 知识点
 template_version: v1.3
 subject: 有机化学

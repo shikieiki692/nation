@@ -12,7 +12,7 @@ parent_module: 基础要求-有机化学
 syllabus_code: [32, 29, 33]
 syllabus_module: [有机化学]
 tags: [化竞, 有机化学, 反应机理, 解题策略, ABOC核心思维]
-related: [反应机理表示法, 共振论, 1,2-迁移与重排, Wagner-Meerwein重排, 立体化学, R/S构型, 电子推动理论]
+related: ["反应机理表示法", "共振论", "2-迁移与重排", "Wagner-Meerwein重排", "立体化学", "R/S构型", "电子推动理论"]
 prerequisite: [反应机理表示法, R/S构型, 顺序规则]
 problem_types: [题型-机理书写, 题型-重排反应分析, 题型-多步合成机理推断]
 difficulty: 3

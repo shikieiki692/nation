@@ -12,7 +12,7 @@ parent_module: 基础要求-有机化学
 syllabus_code: [34, 39, 51]
 syllabus_module: [有机活性中间体, 有机重排, 有机合成]
 tags: [化竞, 有机重排, 名称反应, 氮宾, 1,2-迁移]
-related: [1,2-迁移与重排, 卡宾, 重氮化合物, Hofmann重排, 重氮甲烷, 异氰酸酯]
+related: ["2-迁移与重排", "卡宾", "重氮化合物", "Hofmann重排", "重氮甲烷", "异氰酸酯"]
 prerequisite: [1,2-迁移与重排, 反应机理表示法, 卡宾]
 problem_types: [题型-机理推断, 题型-重排产物判断]
 difficulty: 4

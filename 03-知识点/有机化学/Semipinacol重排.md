@@ -1,6 +1,6 @@
 ---
 title: Semipinacol重排
-aliases: [Semipinacol Rearrangement, 半频哪醇重排, 1,2-迁移重排, 离去基活化型频哪醇重排]
+aliases: ["Semipinacol Rearrangement", "半频哪醇重排", "2-迁移重排", "离去基活化型频哪醇重排"]
 type: 知识点
 subject: 有机化学
 module: 有机化学
@@ -11,7 +11,7 @@ parent_module: 基础要求-有机化学
 syllabus_code: ["39"]
 syllabus_module: [有机化学]
 tags: [化竞, 有机化学, 重排反应, Semipinacol重排, 半频哪醇, 1,2-迁移, 碳正离子, 扩环]
-related: [重排反应, Pinacol重排, Tiffeneau-Demjanov重排, 碳正离子, 1,2-迁移与重排]
+related: ["重排反应", "Pinacol重排", "Tiffeneau-Demjanov重排", "碳正离子", "2-迁移与重排"]
 prerequisite: [碳正离子, 亲核取代, 立体化学, 频哪醇重排]
 problem_types: [题型-产物预测, 题型-机理书写, 题型-合成设计, 题型-扩环策略]
 difficulty: 4

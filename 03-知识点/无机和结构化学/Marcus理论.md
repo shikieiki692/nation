@@ -3,7 +3,7 @@ type: 知识点
 template_version: v1.3
 subject: 无机和结构化学
 module: 无机和结构化学
-title: "Marcus理论"
+title: Marcus理论
 created: 2026-07-18
 updated: 2026-07-23
 tags: [化竞, 无机和结构化学, 电化学]

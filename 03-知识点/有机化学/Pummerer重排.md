@@ -12,7 +12,7 @@ parent_module: 基础要求-有机化学
 syllabus_code: [40, 50]
 syllabus_module: [有机化学]
 tags: [化竞, 有机化学, 重排反应, 含硫化合物, 氧化, 命名反应]
-related: [Swern氧化, 1,2-迁移与重排, 含硫化合物, 羰基化学]
+related: ["Swern氧化", "2-迁移与重排", "含硫化合物", "羰基化学"]
 prerequisite: [含硫化合物, 羰基化学, 氧化反应]
 problem_types: [题型-机理推断, 题型-氧化反应试剂选择]
 difficulty: 4

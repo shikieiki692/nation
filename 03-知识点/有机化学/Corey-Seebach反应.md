@@ -1,6 +1,6 @@
 ---
 title: Corey-Seebach反应
-aliases: [Corey-Seebach Reaction, 二噻烷 umpolung, 1,3-二噻烷]
+aliases: ["Corey-Seebach Reaction", "二噻烷 umpolung", "3-二噻烷"]
 type: 知识点
 template_version: v1.3
 subject: 有机化学

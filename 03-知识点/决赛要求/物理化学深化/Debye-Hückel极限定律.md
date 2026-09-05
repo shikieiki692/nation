@@ -2,7 +2,7 @@
 title: Debye-Hückel极限定律
 aliases: [Debye-Hückel limiting law, 德拜-休克尔极限定律, 离子活度系数公式, 德拜-休克尔理论]
 type: 知识点
-subject: 物理化学
+subject: 决赛要求
 module: 物理化学
 submodule: 电解质溶液
 syllabus_stage: 决赛

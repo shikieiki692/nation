@@ -1,8 +1,8 @@
 ---
-title: "离子强度与Debye-Hückel极限定律"
-aliases: [离子强度, Debye-Hückel, 活度因子, 电解质溶液]
+title: 离子强度与Debye-Hückel极限定律
+aliases: ["离子强度", "Debye-Hückel", "活度因子"]
 type: 知识点
-subject: 化学原理
+subject: 决赛要求
 module: 决赛要求
 tags: [化竞, 知识点, 电化学]
 updated: 2026-07-07
@@ -17,6 +17,8 @@ source_extracts:
     asset_id: "Atkins主题05"
     asset_type: "书籍提炼"
     asset_summary: "简单混合物教材主干，含活度系数、Debye-Hückel极限定律、离子强度"
+related: ["电解质溶液"]
+
 ---
 
 # 离子强度与Debye-Hückel极限定律

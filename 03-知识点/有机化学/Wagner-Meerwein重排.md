@@ -1,6 +1,6 @@
 ---
 title: Wagner-Meerwein重排
-aliases: [Wagner-Meerwein Rearrangement, 碳正离子重排, 1,2-迁移, W-M重排]
+aliases: ["Wagner-Meerwein Rearrangement", "碳正离子重排", "2-迁移", "W-M重排"]
 type: 知识点
 subject: 有机化学
 module: 重排反应

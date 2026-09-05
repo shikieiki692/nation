@@ -1,6 +1,6 @@
 ---
 title: Pinacol重排
-aliases: [Pinacol Rearrangement, 频哪醇重排, 邻二醇重排, 1,2-二醇重排, 频哪醇偶联]
+aliases: ["Pinacol Rearrangement", "频哪醇重排", "邻二醇重排", "2-二醇重排", "频哪醇偶联"]
 type: 知识点
 subject: 有机化学
 module: 有机化学
@@ -11,7 +11,7 @@ parent_module: 基础要求-有机化学
 syllabus_code: ["39"]
 syllabus_module: [有机化学]
 tags: [化竞, 有机化学, 重排反应, Pinacol重排, 频哪醇, 1,2-迁移, 碳正离子]
-related: [重排反应, 半频哪醇重排, Baeyer-Villiger重排, 碳正离子, 1,2-迁移与重排]
+related: ["重排反应", "半频哪醇重排", "Baeyer-Villiger重排", "碳正离子", "2-迁移与重排"]
 prerequisite: [碳正离子, 亲核加成, 芳香性, 立体化学]
 problem_types: [题型-产物预测, 题型-机理书写, 题型-不对称二醇选择性判断]
 difficulty: 3

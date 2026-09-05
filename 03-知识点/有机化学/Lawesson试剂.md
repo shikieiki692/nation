@@ -1,6 +1,6 @@
 ---
 title: Lawesson试剂
-aliases: [Lawesson Reagent, LR, 劳森试剂, 4-甲氧苯基-二硫代膦杂双(单硫)环, 2,4-bis(4-methoxyphenyl)-1,3,2,4-dithiadiphosphetane-2,4-disulfide, Lawesson 试剂]
+aliases: ["Lawesson Reagent", "LR", "劳森试剂", "4-甲氧苯基-二硫代膦杂双(单硫)环", "4-bis(4-methoxyphenyl)-1", "4-dithiadiphosphetane-2", "4-disulfide", "Lawesson 试剂"]
 type: 知识点
 template_version: v1.3
 subject: 有机化学

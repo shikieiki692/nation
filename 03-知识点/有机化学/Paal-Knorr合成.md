@@ -1,6 +1,6 @@
 ---
 title: Paal-Knorr合成
-aliases: [Paal-Knorr Synthesis, Paal-Knorr呋喃合成, Paal-Knorr吡咯合成, Paal-Knorr噻吩合成, 1,4-二羰基环化]
+aliases: ["Paal-Knorr Synthesis", "Paal-Knorr呋喃合成", "Paal-Knorr吡咯合成", "Paal-Knorr噻吩合成", "4-二羰基环化"]
 type: 知识点
 template_version: v1.3
 subject: 有机化学
