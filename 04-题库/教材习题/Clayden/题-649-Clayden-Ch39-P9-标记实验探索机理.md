@@ -78,7 +78,7 @@ The extra features are explained by methylation initially occurring on the **oxy
 |---|---|:---:|
 | [[有机反应机理]] | O-烷基化 vs C-烷基化的选择性 | 直接 |
 | [[交叉实验]] | 标记在不同分子间的转移 | 直接 |
-| [[动力学同位素效应]] | 同位素标记追踪甲基去向 | 直接 |
+| [[同位素效应]] | 同位素标记追踪甲基去向 | 直接 |
 | Friedel-Crafts反应 | 酰基正离子的生成和反应 | 间接 |
 | [[重排反应]] | O→C 甲基迁移 | 间接 |
 

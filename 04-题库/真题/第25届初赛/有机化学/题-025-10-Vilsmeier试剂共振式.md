@@ -9,7 +9,7 @@ difficulty: 5
 teaching_level: 基础
 syllabus_codes: []
 knowledge_points:
-  - "[[共振结构]]"
+  - "[[共振论]]"
   - "[[Vilsmeier试剂]]"
   - "[[亲电性]]"
   - "[[芳香亲电取代]]"
@@ -67,7 +67,7 @@ $$
 
 ## 知识点映射
 
-- [[共振结构]]
+- [[共振论]]
 - Vilsmeier试剂
 - 亲电性
 

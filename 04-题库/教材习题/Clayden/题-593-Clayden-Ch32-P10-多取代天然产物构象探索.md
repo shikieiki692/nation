@@ -48,7 +48,7 @@ These two sugar analogues are part structures of two compounds used to treat pou
 |---|---|:---:|
 | [[构象分析]] | 多取代环的构象优化 | 直接 |
 | [[立体化学]] | 异头碳效应vs空间效应的平衡 | 直接 |
-| [[糖化学]] | 糖类似物的构象偏好 | 直接 |
+| [[糖类]] | 糖类似物的构象偏好 | 直接 |
 
 ## 解题思路
 

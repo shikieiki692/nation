@@ -9,7 +9,7 @@ difficulty: 3
 question_type: [计算]
 teaching_level: 竞赛
 syllabus_codes: []
-knowledge_points: ["[[EDTA滴定]]", "[[缓冲溶液pH]]", "[[Henderson-Hasselbalch方程]]", "[[配位滴定浓度计算]]"]
+knowledge_points: ["[[络合滴定]]", "[[缓冲溶液pH]]", "[[Henderson-Hasselbalch方程]]", "[[配位滴定浓度计算]]"]
 tags: [化竞, 真题, 26届, 决赛, 分析化学]
 updated: 2026-06-30
 aliases: [26届决赛-2, 26届决赛-EDTA滴定, Bi³⁺Pb²⁺同时测定]

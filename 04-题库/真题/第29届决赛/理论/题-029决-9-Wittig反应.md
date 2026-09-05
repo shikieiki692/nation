@@ -18,8 +18,8 @@ teaching_level: 竞赛
 syllabus_codes: []
 knowledge_points:
   - "[[Wittig反应]]"
-  - "[[共振结构]]"
-  - "[[NMR分析]]"
+  - "[[共振论]]"
+  - "[[¹H NMR]]"
 concepts:
   - C=N构型
   - 猝灭反应

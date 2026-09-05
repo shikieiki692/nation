@@ -9,7 +9,7 @@ difficulty: 3
 teaching_level: 竞赛
 syllabus_codes: []
 knowledge_points:
-  - "[[EDTA滴定]]"
+  - "[[络合滴定]]"
   - "[[配位滴定]]"
   - "[[指示剂]]"
 concepts:

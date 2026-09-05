@@ -81,6 +81,6 @@ status: 已填充
 
 | 知识点 | 说明 |
 |---|---|
-| [[配位化合物]] | Be₄O(CH₃COO)₆ 与 Zn₄O(CH₃COO)₆ 同构「碱式醋酸盐」，中心 O sp³、4 配位 Be/Zn sp³、6 桥联 CH₃COO⁻ |
+| [[配合物]] | Be₄O(CH₃COO)₆ 与 Zn₄O(CH₃COO)₆ 同构「碱式醋酸盐」，中心 O sp³、4 配位 Be/Zn sp³、6 桥联 CH₃COO⁻ |
 | [[VSEPR理论]] | 中心 O AX₄ sp³；Be/Zn 周围 4 O 配位 sp³ |
 | [[化学键基础]] | Be 第二周期无 d 轨道 sp³ 后已饱和；Zn 第四周期有空 4d 轨道易被亲核进攻 |

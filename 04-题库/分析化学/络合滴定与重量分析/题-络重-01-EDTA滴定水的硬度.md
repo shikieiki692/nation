@@ -8,7 +8,7 @@ teaching_level: 巩固
 source: "分析化学经典计算题"
 source_subject: 分析化学
 knowledge_points:
-  - "[[EDTA滴定]]"
+  - "[[络合滴定]]"
   - "[[络合滴定]]"
 concepts:
   - 水的硬度
@@ -56,6 +56,6 @@ M(CaCO₃) = 100.09 g/mol
 
 ## 知识点映射
 
-- [[EDTA滴定]]
+- [[络合滴定]]
 - 水的硬度
 - 络合滴定应用
