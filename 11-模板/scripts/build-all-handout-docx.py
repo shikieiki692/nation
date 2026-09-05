@@ -1516,7 +1516,9 @@ def _preprocess_markdown(text: str) -> str:
 
     # 4a) \overset{+6}{Cr} / \overset{+6}{\mathrm{Cr_2}} → Cr^{(+6)} / \mathrm{Cr_2}^{(+6)}
     #     (oxidation number notation; no extra \mathrm wrapping to avoid nesting issues)
-    _arg = r'(\{(?:[^{}]|\{[^{}]*\})*\})'
+    # 2026-09-05: _arg 放宽到三层嵌套（\underset{k_{\mathrm{CO,des}}}{\stackrel{k_{\mathrm{CO,ads}}}{...}}
+    # 类参数曾超出单层限制导致 compat 转换失败、宏残留进 Word 产物，precheck compat_macro_residual ERROR）
+    _arg = r'(\{(?:[^{}]|\{(?:[^{}]|\{(?:[^{}]|\{[^{}]*\})*\})*\})*\})'
     text = re.sub(r'\\overset' + _arg + _arg,
                   lambda m: m.group(2)[1:-1] + '^{(' + m.group(1)[1:-1] + ')}',
                   text)

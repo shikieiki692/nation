@@ -43,7 +43,7 @@ status: 已填充
 
 > **来源**：化学竞赛能力测试·第6章·B卷第8题（10 分）
 
-酶促动力学在药物发现中重要。酶用 V_max 和 K_m 表征。
+酶促动力学在药物发现中重要。酶用 $V_{\max}$ 和 $K_m$ 表征。
 
 酶促反应：E + S ⇌ ES（k₁/k₋₁）、ES → E + P（k₂）。E 游离酶、S 底物、ES 复合物、P 产物。
 
@@ -55,7 +55,7 @@ status: 已填充
 
 **8-3** 推出用 [E]₀、[S] 表示 P 的生成速率。
 
-**8-4** V_max=k₂[E]₀ 时，推出用 V_max、[S] 表示 P 生成速率。
+**8-4** $V_{\max}=k_2[E]_0$ 时，推出用 $V_{\max}$、$[S]$ 表示 P 生成速率。
 
 GTP 环水解酶 II（cyclohydrolase II）催化细菌核黄素合成第一步：
 
@@ -69,7 +69,7 @@ GTP 环水解酶 II（cyclohydrolase II）催化细菌核黄素合成第一步�
 
 **8-6** 以 y=mx+c 表达 (5) 结果。
 
-**8-7** 推出 V_max 和 K_m。
+**8-7** 推出 $V_{\max}$ 和 $K_m$。
 
 <details>
 <summary>📖 查看答案与解析</summary>
@@ -102,7 +102,7 @@ $$\frac{1}{V_0} = \frac{K_\mathrm m}{V_\mathrm{max}}\cdot\frac{1}{[\mathrm S]} +
 
 **8-7** 1/V₀ 对 1/[S] 作图（y=mx+c）：
 
-1/Vmax = 截距 → **V_max = 0.114 μmol·dm⁻³·s⁻¹**；K_m/V_max = 斜率 → **K_m = 50.5 μmol·dm⁻³**。
+$1/V_{\max}$ = 截距 → **$V_{\max}$ = 0.114 μmol·dm⁻³·s⁻¹**；$K_m/V_{\max}$ = 斜率 → **$K_m$ = 50.5 μmol·dm⁻³**。
 
 </details>
 
@@ -113,7 +113,7 @@ $$\frac{1}{V_0} = \frac{K_\mathrm m}{V_\mathrm{max}}\cdot\frac{1}{[\mathrm S]} +
 | 知识点 | 本题应用 |
 |---|---|
 | [[酶动力学]] | Michaelis-Menten 稳态推导 |
-| [[酶催化]] | V_max、K_m 药物靶点表征 |
+| [[酶催化]] | $V_{\max}$、$K_m$ 药物靶点表征 |
 | [[稳态近似]] | ES 稳态 |
 | [[酶动力学]] | Michaelis-Menten 方程与双倒数作图 |
 | [[分光光度法]] | ε=9000 由 A=εcl |

@@ -80,7 +80,7 @@ $$\mathrm{CO(g) + \tfrac{1}{2}O_2(g) \longrightarrow CO_2(g)}$$
 
 (2) 假设 CO 和 O₂ 的吸附与脱附互不影响，且表面均匀，θ 表示覆盖度，气体的吸附速率与气体压力和空活性位数成正比。研究提出机理：
 
-$$\mathrm{CO + M \underset{k_{\mathrm{CO,des}}}{\overset{k_{\mathrm{CO,ads}}}{\rightleftharpoons}} OC-M}$$
+$$\mathrm{CO + M \underset{k_{\mathrm{CO,des}}}{\stackrel{k_{\mathrm{CO,ads}}}{\rightleftharpoons}} OC-M}$$
 
 $$\mathrm{O_2 + 2M \xrightarrow{k_{\mathrm{O_2,ads}}} 2O-M}$$
 
