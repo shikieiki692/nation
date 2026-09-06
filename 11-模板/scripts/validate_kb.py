@@ -138,6 +138,18 @@ QB_ENUM: dict[str, list[str]] = {
     "exam_stage": ["初赛", "决赛", "省预赛"],
     "subject_module": ["化学原理", "结构化学", "有机化学", "元素与分析"],
     "pack": ["章节练习", "模块习题集", "综合模拟卷", "预赛专项"],
+    # source_category：2026-09-06 全库落库（5,309 题），8 值白名单与
+    # .workbuddy/scripts/apply_source_category.py 同口径；磁盘实测分布见当日清单报告
+    "source_category": [
+        "竞赛导向·真题",
+        "竞赛导向·真题（省级）",
+        "竞赛导向·竞赛教材",
+        "竞赛导向·竞赛教辅",
+        "教材课后习题",
+        "其他类型·自编章节题",
+        "其他类型·教学改编",
+        "其他类型·教材例题",
+    ],
 }
 # frontmatter 内可含 wikilink 的字段（正文断链已查，此处补查 frontmatter 盲区）
 # superseded_by：2026-09-02 加入。废弃题指向取代目标的 wikilink，
@@ -300,6 +312,13 @@ def check_frontmatter(file: Path, fm: dict[str, Any], report: Report) -> None:
 
     # ── 题库六字段枚举（仅题目类文件；字段存在时校验，不强制要求）──
     if doc_type in QB_TYPES:
+        # source_category 必填（Error 级）：2026-09-06 起全库落库，
+        # 04-题库 下新题入库必须携带分类（05-真题库 未纳入不强制）
+        if rel.startswith("04-题库/") and doc_type in ("题目", "真题"):
+            sc = fm.get("source_category")
+            if not frontmatter_value_present(sc):
+                report.error(rel, "frontmatter-缺失", "缺字段: source_category（题库分类必填，见 新题入库SOP §2.2）")
+
         for k, allowed in QB_ENUM.items():
             v = fm.get(k)
             if v is None:

@@ -19,6 +19,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 模块习题集
 source_category: 教材课后习题
+source_grade: B
 ---
 # 题-342: COT二阴离子和六硅基苯阴离子形状
 

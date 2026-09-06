@@ -18,6 +18,7 @@ pack: 模块习题集
 fidelity: 原书改写
 exam_stage: 初赛
 source_category: 其他类型·自编章节题
+source_grade: B-
 ---
 
 # Diels-Alder反应的endo-exo选择性

@@ -20,6 +20,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
+source_grade: C
 ---
 # 题-174：B 站之前有一个“屠酮少年终成‘酮’”的视频，讲述了 Fischer反应一开始那个氮原子去进攻羰基，
 

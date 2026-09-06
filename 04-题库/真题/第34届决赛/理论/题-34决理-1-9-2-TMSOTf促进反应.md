@@ -26,6 +26,7 @@ subject_module: 有机化学
 pack: 综合模拟卷
 year: 2020
 source_category: 竞赛导向·真题
+source_grade: A
 ---
 # 第 9 题 TMSOTf促进反应 (3 分)
 

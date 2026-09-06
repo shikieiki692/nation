@@ -20,6 +20,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 模块习题集
 source_category: 教材课后习题
+source_grade: B
 ---
 # 题-379: 三醇与苯甲醛缩醛化非对映选择性
 

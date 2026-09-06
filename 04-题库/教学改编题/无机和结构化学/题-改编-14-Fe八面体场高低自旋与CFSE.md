@@ -18,6 +18,7 @@ status: 已填充
 subject_module: 结构化学
 pack: 模块习题集
 source_category: 其他类型·教学改编
+source_grade: B-
 ---
 # 题-改编-14-Fe八面体场高低自旋与CFSE
 

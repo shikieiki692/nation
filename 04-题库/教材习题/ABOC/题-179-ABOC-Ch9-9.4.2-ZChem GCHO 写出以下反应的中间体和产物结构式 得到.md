@@ -20,6 +20,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
+source_grade: C
 ---
 # 题-179：(ZChem-GCHO)写出以下反应的中间体和产物结构式。得到 B 的反应有两种导向都需要写出来。
 

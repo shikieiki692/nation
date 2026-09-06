@@ -37,6 +37,7 @@ used_in: ["[[化学原理阶段测试卷]]", "[[04-题库/化学原理阶段测�
 subject_module: 有机化学
 pack: 模块习题集
 source_category: 竞赛导向·真题
+source_grade: A
 ---
 
 ## 题目

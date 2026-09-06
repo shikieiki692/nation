@@ -21,6 +21,7 @@ source_file: "[[07-资料提炼/习题提炼/习题-一分册测试-Ch6-元素�
 cross_references: []
 status: 已填充
 source_category: 竞赛导向·竞赛教辅
+source_grade: A-
 ---
 
 # 题-110-一分册测试-Ch6B-3-Cs-Sr-Se-Cl四元素推断与量子数

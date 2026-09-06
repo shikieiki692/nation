@@ -21,6 +21,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
+source_grade: C
 ---
 # 题-175：在《有机人名反应机理新解》中，对 Bartoli 吲哚合成的机理描述如下：
 

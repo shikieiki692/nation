@@ -20,6 +20,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
+source_grade: C
 ---
 # 题-118：二甲亚砜 DMSO 是有机化学中常用的有机氧化剂，可以在较温和的条件下将醇氧化为醛酮。以下列出其作为
 

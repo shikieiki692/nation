@@ -19,6 +19,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 章节练习
 source_category: 教材课后习题
+source_grade: B
 ---
 # 题-344: 乙醛水合vs DMF不水合（离域效应）
 

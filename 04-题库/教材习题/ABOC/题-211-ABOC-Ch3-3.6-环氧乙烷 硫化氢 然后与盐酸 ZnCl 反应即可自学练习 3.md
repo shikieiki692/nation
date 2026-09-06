@@ -20,6 +20,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
+source_grade: C
 ---
 # 题-211：环氧乙烷+硫化氢，然后与盐酸+ZnCl 反应即可自学练习 3.10 羟基诱导。
 

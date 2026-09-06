@@ -47,6 +47,7 @@ source: 化学竞赛能力测试·第4章 配位化合物初步知识·B卷第8�
 source_file: "[[化学竞赛教程/（已压缩）化学竞赛能力测试]]"
 status: 已填充
 source_category: 竞赛导向·竞赛教辅
+source_grade: A
 ---
 
 # IrO₄⁺ 高价铱与 PtO₄²⁺

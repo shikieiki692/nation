@@ -21,6 +21,7 @@ subject_module: 有机化学
 pack: 模块习题集
 used_in: ["[[有机化学阶段测试卷]]", "[[04-题库/有机化学阶段测试卷]]"]
 source_category: 教材课后习题
+source_grade: B
 ---
 # 题-522: 分子内Aldol+Wacker氧化
 

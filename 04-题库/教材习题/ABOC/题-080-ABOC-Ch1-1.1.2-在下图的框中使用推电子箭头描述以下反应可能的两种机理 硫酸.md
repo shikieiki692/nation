@@ -21,6 +21,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
+source_grade: C
 ---
 # 题-080：在下图的框中使用推电子箭头描述以下反应可能的两种机理：硫酸(或者其他质子给体)把丙酮甲缩醛的甲氧负离
 

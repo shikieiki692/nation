@@ -21,6 +21,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
+source_grade: C
 ---
 # 题-147：1964 年，M.Regitz 在原先 Dimroth 方法的基础上发展了非常简便实用的制备 α-重
 

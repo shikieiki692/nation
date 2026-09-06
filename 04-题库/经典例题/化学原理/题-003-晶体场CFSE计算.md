@@ -18,6 +18,7 @@ subject_module: 结构化学
 pack: 模块习题集
 submodule: 配位化学
 source_category: 其他类型·教材例题
+source_grade: B-
 ---
 # 题-003：晶体场 CFSE 计算
 

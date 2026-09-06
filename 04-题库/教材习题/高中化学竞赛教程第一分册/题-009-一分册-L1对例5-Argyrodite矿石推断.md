@@ -37,6 +37,7 @@ source: 高中化学竞赛教程第一分册 第1讲【竞赛对接】例5
 source_file: "[[07-资料提炼/习题提炼/习题-一分册-第1讲-物质的量]]"
 status: 已填充
 source_category: 竞赛导向·竞赛教材
+source_grade: A-
 ---
 
 # Argyrodite 矿石推断

@@ -40,6 +40,7 @@ source: 化学竞赛能力测试·第5章 化学热力学初步知识·B卷第7�
 source_file: "[[化学竞赛教程/（已压缩）化学竞赛能力测试]]"
 status: 已填充
 source_category: 竞赛导向·竞赛教辅
+source_grade: A
 ---
 
 # S₄N₄ 合成 Born-Haber 与配位化学

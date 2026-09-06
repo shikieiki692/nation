@@ -17,6 +17,7 @@ exam_stage: 初赛
 subject_module: 结构化学
 pack: 章节练习
 source_category: 其他类型·自编章节题
+source_grade: B-
 ---
 # 题-元s-02：Xe 化合物 VSEPR 构型预测
 

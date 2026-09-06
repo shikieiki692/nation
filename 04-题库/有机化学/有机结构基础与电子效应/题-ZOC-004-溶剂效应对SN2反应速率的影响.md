@@ -18,6 +18,7 @@ fidelity: 原书改写
 exam_stage: 初赛
 used_in: ["[[有机化学阶段测试卷]]", "[[04-题库/有机化学阶段测试卷]]"]
 source_category: 其他类型·自编章节题
+source_grade: B-
 ---
 
 # 溶剂效应对SN2反应速率的影响

@@ -21,6 +21,7 @@ source_file: "[[07-资料提炼/习题提炼/习题-二分册-第6讲-配位化�
 cross_references: []
 status: 已填充
 source_category: 竞赛导向·竞赛教材
+source_grade: A
 ---
 # 题-935-二分册-L6例3-Ma3def与MAB2cd八面体异构体
 

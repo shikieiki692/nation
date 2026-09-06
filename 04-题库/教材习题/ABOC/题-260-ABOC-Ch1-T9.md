@@ -20,6 +20,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
+source_grade: C
 ---
 # 题-260：硼氢化可逆(36 届决赛 1)
 

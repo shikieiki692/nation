@@ -20,6 +20,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
+source_grade: C
 ---
 # 题-190：除了使用构象相互作用来制造船式构象，我还可以利用次级键来制造。比如说，我设计一个 14 环己二胺分子
 

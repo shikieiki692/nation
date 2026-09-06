@@ -19,6 +19,7 @@ knowledge_points: ["[[立体化学]]", "[[周环反应]]"]
 subject_module: 有机化学
 pack: 模块习题集
 source_category: 教材课后习题
+source_grade: B
 ---
 # 题-494: 1,3-偶极环加成立体化学控制
 

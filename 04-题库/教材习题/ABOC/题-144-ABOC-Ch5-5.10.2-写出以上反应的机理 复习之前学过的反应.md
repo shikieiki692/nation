@@ -21,6 +21,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
+source_grade: C
 ---
 # 题-144：写出以上反应的机理，复习之前学过的反应。
 

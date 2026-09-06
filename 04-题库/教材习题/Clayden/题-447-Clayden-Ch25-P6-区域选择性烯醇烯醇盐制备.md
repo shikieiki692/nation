@@ -19,6 +19,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 章节练习
 source_category: 教材课后习题
+source_grade: B
 ---
 # 题-447: 区域选择性烯醇/烯醇盐制备
 

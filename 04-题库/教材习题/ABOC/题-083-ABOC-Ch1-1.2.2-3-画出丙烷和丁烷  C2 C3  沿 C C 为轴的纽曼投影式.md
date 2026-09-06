@@ -20,6 +20,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
+source_grade: C
 ---
 # 题-083：画出丙烷和丁烷 (C2-C3) 沿 C-C 为轴的纽曼投影式，找出其中最稳定的构象。
 

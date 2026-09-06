@@ -22,6 +22,7 @@ cross_references: ["[[题-034-5-乙酸银溶度积测定]]"]
 status: 已填充
 used_in: "[[04-课件/习题集/化学原理阶段测试卷II]]"
 source_category: 竞赛导向·竞赛教材
+source_grade: A
 ---
 # 题-888-二分册-L3实15-Cu置换法验证CH3COOAg的Ksp
 

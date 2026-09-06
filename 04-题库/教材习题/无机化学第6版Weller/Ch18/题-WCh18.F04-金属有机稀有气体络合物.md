@@ -17,6 +17,7 @@ pack: 模块习题集
 fidelity: 原书逐字
 exam_stage: 决赛
 source_category: 教材课后习题
+source_grade: B+
 ---
 
 # 金属有机稀有气体络合物

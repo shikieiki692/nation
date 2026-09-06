@@ -18,6 +18,7 @@ fidelity: 原书逐字
 exam_stage: 初赛
 status: 已填充
 source_category: 教材课后习题
+source_grade: B+
 ---
 
 # 题-WCh21.F04-PdBrL动力学数据

@@ -21,6 +21,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
+source_grade: C
 ---
 # 题-173：写出吡咯多聚形成聚吡咯的机理。这种聚合反应是哪种聚合类型？
 

@@ -17,6 +17,7 @@ pack: 模块习题集
 fidelity: 原书逐字
 exam_stage: 初赛
 source_category: 教材课后习题
+source_grade: B+
 ---
 
 # Cr(III)水合离子与铬酸根颜色

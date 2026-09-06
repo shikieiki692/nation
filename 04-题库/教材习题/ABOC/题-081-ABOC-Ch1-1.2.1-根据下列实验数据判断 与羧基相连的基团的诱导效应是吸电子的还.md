@@ -19,6 +19,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
+source_grade: C
 ---
 # 题-081：根据下列实验数据判断：与羧基相连的基团的诱导效应是吸电子的还是给电子的？并将它们按吸电子诱导效应（或
 

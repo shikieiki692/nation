@@ -19,6 +19,7 @@ exam_stage: 初赛
 demoted: 2026-09-01 习题书质量降级（考纲无关+篇幅过短）
 
 source_category: 教材课后习题
+source_grade: B+
 ---
 
 # 组态谱项与基谱项

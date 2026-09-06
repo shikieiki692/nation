@@ -20,6 +20,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 模块习题集
 source_category: 竞赛导向·竞赛教材
+source_grade: C
 ---
 # 题-049：34 届决赛：LiTMP + D-A + 三组分
 

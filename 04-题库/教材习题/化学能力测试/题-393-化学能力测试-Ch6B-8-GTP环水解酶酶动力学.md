@@ -38,6 +38,7 @@ source: 化学竞赛能力测试·第6章 简单的化学动力学原理·B卷�
 source_file: "[[化学竞赛教程/（已压缩）化学竞赛能力测试]]"
 status: 已填充
 source_category: 竞赛导向·竞赛教辅
+source_grade: A
 ---
 
 # GTP 环水解酶酶动力学

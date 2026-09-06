@@ -26,6 +26,7 @@ pack: 综合模拟卷
 year: 2014
 used_in: "[[综合模拟卷II]]"
 source_category: 竞赛导向·真题
+source_grade: A
 ---
 # 第 5 题 Hg-Ba-Cu-O 超导晶体 (8 分)
 

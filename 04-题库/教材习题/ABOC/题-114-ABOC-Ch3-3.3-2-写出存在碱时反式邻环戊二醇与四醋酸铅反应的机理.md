@@ -21,6 +21,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
+source_grade: C
 ---
 # 题-114：写出存在碱时反式邻环戊二醇与四醋酸铅反应的机理。
 

@@ -20,6 +20,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 模块习题集
 source_category: 教材课后习题
+source_grade: B
 ---
 # 题-408: 分子内 Claisen 类似缩合制杂环酮
 

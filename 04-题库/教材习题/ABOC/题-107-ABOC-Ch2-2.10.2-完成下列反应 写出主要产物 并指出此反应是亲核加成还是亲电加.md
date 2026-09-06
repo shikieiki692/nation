@@ -19,6 +19,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
+source_grade: C
 ---
 # 题-107：完成下列反应，写出主要产物，并指出此反应是亲核加成还是亲电加成，是 1,2-加成还是 1,4-加成。
 

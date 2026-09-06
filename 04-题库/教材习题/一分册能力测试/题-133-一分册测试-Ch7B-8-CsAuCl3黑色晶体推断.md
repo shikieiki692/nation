@@ -21,6 +21,7 @@ source_file: "[[07-资料提炼/习题提炼/习题-一分册测试-Ch7-离子�
 cross_references: ["[[04-题库/教材习题/赵鑫光/题-赵鑫光-配位-综2]]"]
 status: 已填充
 source_category: 竞赛导向·竞赛教辅
+source_grade: A-
 ---
 
 # 题-133-一分册测试-Ch7B-8-CsAuCl3黑色晶体推断

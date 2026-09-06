@@ -19,6 +19,7 @@ fidelity: 原书逐字
 exam_stage: 初赛
 used_in: "[[结构化学阶段测试卷]]"
 source_category: 教材课后习题
+source_grade: B+
 ---
 
 # MLCT谱带溶剂效应

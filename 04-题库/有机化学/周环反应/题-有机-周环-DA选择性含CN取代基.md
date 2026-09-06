@@ -19,6 +19,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 模块习题集
 source_category: 其他类型·自编章节题
+source_grade: B-
 ---
 # Diels-Alder反应含CN取代基的选择性
 

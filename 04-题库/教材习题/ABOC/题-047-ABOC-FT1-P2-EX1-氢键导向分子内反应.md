@@ -22,6 +22,7 @@ subject_module: 有机化学
 pack: 模块习题集
 used_in: ["[[有机化学阶段测试卷]]", "[[04-题库/有机化学阶段测试卷]]"]
 source_category: 竞赛导向·竞赛教材
+source_grade: C
 ---
 # 题-047：氢键导向分子内反应
 

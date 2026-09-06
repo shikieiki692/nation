@@ -21,6 +21,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
+source_grade: C
 ---
 # 题-197：写出格氏试剂（以 RMgX 表示）和二氧化碳反应得到羧酸根的电子推动机理。
 

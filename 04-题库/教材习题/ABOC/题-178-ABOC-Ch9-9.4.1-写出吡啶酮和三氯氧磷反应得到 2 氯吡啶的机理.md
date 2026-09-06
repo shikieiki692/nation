@@ -21,6 +21,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
+source_grade: C
 ---
 # 题-178：写出吡啶酮和三氯氧磷反应得到 2-氯吡啶的机理。
 

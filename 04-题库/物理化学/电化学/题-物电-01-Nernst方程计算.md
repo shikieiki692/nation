@@ -18,6 +18,7 @@ exam_stage: 初赛
 subject_module: 化学原理
 pack: 章节练习
 source_category: 其他类型·自编章节题
+source_grade: B-
 ---
 # 题-物电-01：Nernst 方程计算电极电势
 

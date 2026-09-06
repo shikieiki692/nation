@@ -18,6 +18,7 @@ status: 已填充
 subject_module: 结构化学
 pack: 章节练习
 source_category: 其他类型·教学改编
+source_grade: B-
 ---
 # 题-改编-12-C3F4-SO4-XeF2结构与杂化
 

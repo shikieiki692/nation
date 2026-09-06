@@ -20,6 +20,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
+source_grade: C
 ---
 # 题-199：$L \dot { \mathsf { I } } + \mathsf { R } \mathsf { X } = \mathsf { L } \mathsf { I } \mathsf { X } + \mathsf { R } ^ { \prime } ; \mathsf { R } ^ { \prime } + \mathsf { L } \mathsf { I } = \mathsf { R } \mathsf { L } \dot { \mathsf { I } }$
 

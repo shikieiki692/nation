@@ -19,6 +19,7 @@ fidelity: 原书逐字
 exam_stage: 决赛
 used_in: "[[元素与分析阶段测试卷]]"
 source_category: 教材课后习题
+source_grade: B+
 ---
 
 # M+M负离子稳定性

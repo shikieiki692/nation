@@ -20,6 +20,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 章节练习
 source_category: 教材课后习题
+source_grade: B
 ---
 # 题-267: 羟基酮IR异常→环状半缩醛结构推断
 

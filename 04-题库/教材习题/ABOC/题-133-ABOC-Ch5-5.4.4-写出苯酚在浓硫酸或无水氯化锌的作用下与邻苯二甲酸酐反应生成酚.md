@@ -21,6 +21,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
+source_grade: C
 ---
 # 题-133：写出苯酚在浓硫酸或无水氯化锌的作用下与邻苯二甲酸酐反应生成酚酞（如左图所示）的机理。酚酞除了两种常见
 

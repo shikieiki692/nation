@@ -21,6 +21,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
+source_grade: C
 ---
 # 题-113：解释以下问题：a-羟基酸、1,2-二酮(a-二酮)、a-氨基酮、1-氨基-2-羟基化合物在水中也能进
 

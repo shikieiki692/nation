@@ -19,6 +19,7 @@ subject_module: 有机化学
 pack: 模块习题集
 used_in: ["[[有机化学阶段测试卷]]", "[[04-题库/有机化学阶段测试卷]]"]
 source_category: 其他类型·自编章节题
+source_grade: B-
 ---
 # Grignard 试剂与不同羰基化合物反应路线设计
 

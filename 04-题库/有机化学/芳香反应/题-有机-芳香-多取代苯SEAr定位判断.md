@@ -18,6 +18,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 模块习题集
 source_category: 其他类型·自编章节题
+source_grade: B-
 ---
 # 多取代苯 SEAr 定位判断
 

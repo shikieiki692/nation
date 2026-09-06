@@ -44,6 +44,7 @@ subject_module: 有机化学
 pack: 模块习题集
 year: 2011
 source_category: 竞赛导向·真题
+source_grade: A
 ---
 
 ## 题目

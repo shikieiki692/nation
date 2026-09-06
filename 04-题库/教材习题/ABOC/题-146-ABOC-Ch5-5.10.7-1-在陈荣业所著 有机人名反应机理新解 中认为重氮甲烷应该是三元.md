@@ -21,6 +21,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
+source_grade: C
 ---
 # 题-146：在陈荣业所著《有机人名反应机理新解》中认为重氮甲烷应该是三元环结构，描述如下：
 

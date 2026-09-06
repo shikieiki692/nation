@@ -35,6 +35,7 @@ fidelity: 原书逐字
 exam_stage: 决赛
 
 source_category: 教材课后习题
+source_grade: B+
 ---
 
 

@@ -33,6 +33,7 @@ source: 高中化学竞赛教程第一分册 第7讲·实战演练 4
 source_file: "[[07-资料提炼/习题提炼/习题-一分册-第7讲-离子键和离子晶体]]"
 status: 已填充
 source_category: 竞赛导向·竞赛教材
+source_grade: A-
 ---
 
 # 题-661-一分册-L7实4-复盐MxAy(DE4)z(OH)12计算推断

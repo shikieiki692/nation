@@ -39,6 +39,7 @@ source: 化学竞赛能力测试·第2章 原子结构和分子结构·A卷第7�
 source_file: "[[化学竞赛教程/（已压缩）化学竞赛能力测试]]"
 status: 已填充
 source_category: 竞赛导向·竞赛教辅
+source_grade: A
 ---
 
 # Te-Al-Cl 配合物与芳香性 Te₄²⁺

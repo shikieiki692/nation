@@ -24,6 +24,7 @@ pack: 模块习题集
 submodule: 化学基础与计量
 used_in: "[[元素与分析阶段测试卷]]"
 source_category: 其他类型·自编章节题
+source_grade: B-
 ---
 # K₂Cr₂O₇ 法测铁中 H₃PO₄ 的双重作用
 

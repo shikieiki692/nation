@@ -19,6 +19,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 模块习题集
 source_category: 教材课后习题
+source_grade: B
 ---
 # 题-535: 绝对立体化学必须控制的合成设计
 

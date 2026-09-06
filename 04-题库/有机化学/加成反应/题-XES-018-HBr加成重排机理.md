@@ -18,6 +18,7 @@ pack: 模块习题集
 fidelity: 原书逐字
 exam_stage: 初赛
 source_category: 其他类型·自编章节题
+source_grade: B-
 ---
 
 # 题-XES-018：HBr加成重排机理

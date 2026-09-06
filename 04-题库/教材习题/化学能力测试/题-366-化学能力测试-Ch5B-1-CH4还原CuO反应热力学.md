@@ -33,6 +33,7 @@ source_file: "[[化学竞赛教程/（已压缩）化学竞赛能力测试]]"
 status: 已填充
 used_in: "[[综合模拟卷IV]]"
 source_category: 竞赛导向·竞赛教辅
+source_grade: A
 ---
 
 # CH₄ 还原 CuO 反应热力学

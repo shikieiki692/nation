@@ -19,6 +19,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
+source_grade: C
 ---
 # 题-120：近年来，我国有机化学家发展了一些新型的有机试剂，如氟化试剂 CpFluors 系列。在这些氟试剂中，
 

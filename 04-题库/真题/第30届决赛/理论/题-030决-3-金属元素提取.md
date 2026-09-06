@@ -29,6 +29,7 @@ status: 已填充
 subject_module: 元素与分析
 pack: 综合模拟卷
 source_category: 竞赛导向·真题
+source_grade: A
 ---
 
 ## 题目

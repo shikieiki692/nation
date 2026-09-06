@@ -21,6 +21,7 @@ source_file: "[[07-资料提炼/习题提炼/习题-二分册-第3讲-难溶电�
 cross_references: ["[[题-415-化学能力测试-Ch7B-10-金属硫化物溶解性与酸]]"]
 status: 已填充
 source_category: 竞赛导向·竞赛教材
+source_grade: A
 ---
 # 题-878-二分册-L3实4-Tl2S与CuS溶解性计算解释
 

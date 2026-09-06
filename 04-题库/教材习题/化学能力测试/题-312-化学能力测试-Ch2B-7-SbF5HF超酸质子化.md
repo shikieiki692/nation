@@ -37,6 +37,7 @@ source_file: "[[化学竞赛教程/（已压缩）化学竞赛能力测试]]"
 status: 已填充
 source_category: 竞赛导向·竞赛教辅
 used_in: "[[综合模拟卷V]]"
+source_grade: A
 ---
 
 # SbF₅-HF 超酸质子化

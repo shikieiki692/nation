@@ -19,6 +19,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 模块习题集
 source_category: 教材课后习题
+source_grade: B
 ---
 # 题-307: 两个反应的立体化学（含复杂情况）
 

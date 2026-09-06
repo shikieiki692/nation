@@ -19,6 +19,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 模块习题集
 source_category: 教材课后习题
+source_grade: B
 ---
 # 题-472: 环丙基取代基对自由基稳定性和反应性的影响
 

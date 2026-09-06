@@ -20,6 +20,7 @@ pack: 模块习题集
 used_in: ["[[有机化学阶段测试卷]]", "[[04-题库/有机化学阶段测试卷]]"]
 year: 2013
 source_category: 竞赛导向·真题
+source_grade: A
 ---
 # 题-027-7：有机推断ABCDF
 

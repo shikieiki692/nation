@@ -17,6 +17,7 @@ pack: 章节练习
 fidelity: 原书逐字
 exam_stage: 初赛
 source_category: 教材课后习题
+source_grade: B+
 ---
 
 # 水合焓与LFSE矫正
