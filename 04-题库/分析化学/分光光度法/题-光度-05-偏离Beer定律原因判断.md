@@ -17,6 +17,7 @@ exam_stage: 初赛
 subject_module: 元素与分析
 pack: 章节练习
 submodule: 化学基础与计量
+source_category: 其他类型·自编章节题
 ---
 # 题-光度-05：偏离 Beer 定律原因判断
 

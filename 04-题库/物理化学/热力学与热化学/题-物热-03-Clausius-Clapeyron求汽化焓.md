@@ -16,6 +16,7 @@ status: 已填充
 exam_stage: 决赛
 subject_module: 化学原理
 pack: 章节练习
+source_category: 其他类型·自编章节题
 ---
 # 题-物热-03：Clausius-Clapeyron 求汽化焓
 

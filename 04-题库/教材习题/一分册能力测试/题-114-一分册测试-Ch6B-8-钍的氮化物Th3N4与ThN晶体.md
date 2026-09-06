@@ -20,6 +20,7 @@ source: 高中化学竞赛教程第一分册·配套能力测试 第6章
 source_file: "[[07-资料提炼/习题提炼/习题-一分册测试-Ch6-元素周期律和元素周期表]]"
 cross_references: []
 status: 已填充
+source_category: 竞赛导向·竞赛教辅
 ---
 
 # 题-114-一分册测试-Ch6B-8-钍的氮化物Th3N4与ThN晶体

@@ -23,6 +23,7 @@ module: 有机化学
 status: 已填充
 subject_module: 有机化学
 pack: 章节练习
+source_category: 其他类型·自编章节题
 ---
 # 二甲苯异构体的¹H NMR信号数比较
 

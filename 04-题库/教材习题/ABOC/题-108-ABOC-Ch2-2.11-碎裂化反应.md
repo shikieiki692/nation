@@ -18,6 +18,7 @@ module: 基础要求-有机化学
 status: 已填充
 subject_module: 有机化学
 pack: 章节练习
+source_category: 竞赛导向·竞赛教材
 ---
 # 题-108：碎裂化反应
 

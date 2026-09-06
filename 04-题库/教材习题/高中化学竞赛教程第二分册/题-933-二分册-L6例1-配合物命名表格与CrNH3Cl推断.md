@@ -20,6 +20,7 @@ source: 高中化学竞赛教程第二分册 第6讲
 source_file: "[[07-资料提炼/习题提炼/习题-二分册-第6讲-配位化学基础]]"
 cross_references: []
 status: 已填充
+source_category: 竞赛导向·竞赛教材
 ---
 # 题-933-二分册-L6例1-配合物命名表格与CrNH3Cl推断
 

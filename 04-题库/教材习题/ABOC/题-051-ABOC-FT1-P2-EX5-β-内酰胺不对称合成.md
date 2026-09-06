@@ -18,6 +18,7 @@ module: 有机化学
 status: 已填充
 subject_module: 有机化学
 pack: 模块习题集
+source_category: 竞赛导向·竞赛教材
 ---
 # 题-051：β-内酰胺不对称合成
 

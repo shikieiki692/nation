@@ -16,6 +16,7 @@ subject_module: 元素与分析
 pack: 章节练习
 fidelity: 原书逐字
 exam_stage: 决赛
+source_category: 教材课后习题
 ---
 
 # 氙化合物Lewis结构

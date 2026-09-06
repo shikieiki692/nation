@@ -17,6 +17,7 @@ subject_module: 元素与分析
 pack: 模块习题集
 fidelity: 原书逐字
 exam_stage: 决赛
+source_category: 教材课后习题
 ---
 
 # 铬催化烯烃聚合

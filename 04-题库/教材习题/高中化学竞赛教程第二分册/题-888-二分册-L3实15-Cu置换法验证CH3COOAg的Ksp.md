@@ -21,6 +21,7 @@ source_file: "[[07-资料提炼/习题提炼/习题-二分册-第3讲-难溶电�
 cross_references: ["[[题-034-5-乙酸银溶度积测定]]"]
 status: 已填充
 used_in: "[[04-课件/习题集/化学原理阶段测试卷II]]"
+source_category: 竞赛导向·竞赛教材
 ---
 # 题-888-二分册-L3实15-Cu置换法验证CH3COOAg的Ksp
 

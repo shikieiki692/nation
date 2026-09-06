@@ -20,6 +20,7 @@ source: 高中化学竞赛教程第二分册 第2讲 实战演练5
 source_file: "[[07-资料提炼/习题提炼/习题-二分册-第2讲-电解质溶液和电离平衡]]"
 cross_references: []
 status: 已填充
+source_category: 竞赛导向·竞赛教材
 ---
 # 题-855-二分册-L2实5-NaOH与一元酸HR中和体积判断
 

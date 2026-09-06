@@ -19,6 +19,7 @@ module: 基础要求-有机化学
 status: 已填充
 subject_module: 有机化学
 pack: 章节练习
+source_category: 竞赛导向·竞赛教材
 ---
 # 题-273：(Chemy 模拟题改编) 桥[3,3,0]-辛烷骨架的构建——向 AAOC 的浅浅过渡
 

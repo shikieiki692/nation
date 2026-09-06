@@ -22,6 +22,7 @@ module: 有机化学
 status: 已填充
 subject_module: 有机化学
 pack: 章节练习
+source_category: 其他类型·自编章节题
 ---
 # C-N/C=N/C≡N键的IR波数排序
 

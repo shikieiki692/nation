@@ -18,6 +18,7 @@ module: 分子结构
 status: 已填充
 subject_module: 结构化学
 pack: 章节练习
+source_category: 其他类型·教学改编
 ---
 # 题-改编-12-SnCl4水解与杂化
 

@@ -33,6 +33,7 @@ source: 化学竞赛能力测试·第2章 原子结构和分子结构·A卷第5�
 source_file: "[[化学竞赛教程/（已压缩）化学竞赛能力测试]]"
 status: 已填充
 used_in: "[[综合模拟卷III]]"
+source_category: 竞赛导向·竞赛教辅
 ---
 
 # NSF 同分异构与 Lewis 结构

@@ -36,6 +36,7 @@ status: 已填充
 used_in: ["[[化学原理阶段测试卷]]", "[[04-题库/化学原理阶段测试卷]]"]
 subject_module: 有机化学
 pack: 模块习题集
+source_category: 竞赛导向·真题
 ---
 
 ## 题目

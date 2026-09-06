@@ -18,6 +18,7 @@ module: 有机化学
 status: 已填充
 subject_module: 有机化学
 pack: 模块习题集
+source_category: 教材课后习题
 ---
 # 题-539: A(C₇H₁₂O₂) 和 B(C₅H₈ClNS) 结构确定
 

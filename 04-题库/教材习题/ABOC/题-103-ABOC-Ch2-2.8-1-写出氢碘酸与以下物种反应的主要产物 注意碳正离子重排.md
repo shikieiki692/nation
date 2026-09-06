@@ -19,6 +19,7 @@ module: 基础要求-有机化学
 status: 已填充
 subject_module: 有机化学
 pack: 章节练习
+source_category: 竞赛导向·竞赛教材
 ---
 # 题-103：写出氢碘酸与以下物种反应的主要产物，注意碳正离子重排。
 

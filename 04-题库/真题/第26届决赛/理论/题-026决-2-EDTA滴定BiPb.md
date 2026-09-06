@@ -19,6 +19,7 @@ status: 已填充
 subject_module: 结构化学
 pack: 综合模拟卷
 year: 2012
+source_category: 竞赛导向·真题
 ---
 # 题-026决-2：EDTA滴定BiPb
 

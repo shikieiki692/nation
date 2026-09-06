@@ -19,6 +19,7 @@ module: 有机化学
 status: 已填充
 subject_module: 有机化学
 pack: 模块习题集
+source_category: 教材课后习题
 ---
 # 题-450: 氮杂烯醇盐（aza-enolate）制备和使用
 

@@ -34,6 +34,7 @@ source: 化学竞赛能力测试·第3章 晶体结构初步知识·A卷第2题
 source_file: "[[化学竞赛教程/（已压缩）化学竞赛能力测试]]"
 status: 已填充
 used_in: "[[综合模拟卷III]]"
+source_category: 竞赛导向·竞赛教辅
 ---
 
 # Born-Haber 循环估算键能

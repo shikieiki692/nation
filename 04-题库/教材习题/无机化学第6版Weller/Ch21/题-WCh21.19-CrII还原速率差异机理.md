@@ -34,6 +34,7 @@ exam_stage: 初赛
 
 used_in: "[[结构化学阶段测试卷]]"
 status: 已填充
+source_category: 教材课后习题
 ---
 
 

@@ -19,6 +19,7 @@ module: 有机化学
 status: 已填充
 subject_module: 有机化学
 pack: 模块习题集
+source_category: 教材课后习题
 ---
 # 题-637: 多反应综合（烯醇+重排+电环化+共轭加成+卡宾）
 

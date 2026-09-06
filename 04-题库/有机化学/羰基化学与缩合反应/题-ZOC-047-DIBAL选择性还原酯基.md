@@ -16,6 +16,7 @@ subject_module: 有机化学
 pack: 章节练习
 fidelity: 原书改写
 exam_stage: 初赛
+source_category: 其他类型·自编章节题
 ---
 
 # DIBAL选择性还原酯基

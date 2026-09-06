@@ -18,6 +18,7 @@ module: 有机化学
 status: 已填充
 subject_module: 有机化学
 pack: 模块习题集
+source_category: 教材课后习题
 ---
 # 题-578: 仅一个信号可辨的三维立体化学
 

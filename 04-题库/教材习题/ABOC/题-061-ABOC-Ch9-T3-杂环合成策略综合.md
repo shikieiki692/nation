@@ -21,6 +21,7 @@ status: deprecated
 deprecation_reason: "自编冒充原书转录且目标分子缺失无法作答，2026-08-30 质量剔除；无取代文件，故 superseded_by 留空"
 subject_module: 有机化学
 pack: 模块习题集
+source_category: 竞赛导向·竞赛教材
 ---
 # 题-061：杂环合成策略综合
 

@@ -18,6 +18,7 @@ module: 有机化学
 status: 已填充
 subject_module: 有机化学
 pack: 章节练习
+source_category: 教材课后习题
 ---
 # 题-418: 三个化合物¹H NMR归属和多重性解释
 

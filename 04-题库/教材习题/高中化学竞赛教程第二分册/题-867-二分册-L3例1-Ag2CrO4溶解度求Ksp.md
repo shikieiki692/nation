@@ -20,6 +20,7 @@ source: 高中化学竞赛教程第二分册 第3讲
 source_file: "[[07-资料提炼/习题提炼/习题-二分册-第3讲-难溶电解质的沉淀溶解平衡]]"
 cross_references: []
 status: 已填充
+source_category: 竞赛导向·竞赛教材
 ---
 # 题-867-二分册-L3例1-Ag2CrO4溶解度求Ksp
 

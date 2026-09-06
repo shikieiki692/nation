@@ -22,6 +22,7 @@ exam_stage: 决赛
 subject_module: 元素与分析
 pack: 模块习题集
 submodule: 主族元素化学
+source_category: 其他类型·自编章节题
 ---
 # 题-物胶-03：Kelvin 方程与弯曲液面蒸气压
 

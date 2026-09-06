@@ -20,6 +20,7 @@ source: 高中化学竞赛教程第一分册·配套能力测试 第4章
 source_file: "[[07-资料提炼/习题提炼/习题-一分册测试-Ch4-化学反应中的能量变化]]"
 cross_references: []
 status: 已填充
+source_category: 竞赛导向·竞赛教辅
 ---
 
 # 题-070-一分册测试-Ch4B-2-AgCl溶解度与相似相溶

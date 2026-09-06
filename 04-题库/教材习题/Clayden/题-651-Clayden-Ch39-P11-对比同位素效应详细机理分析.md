@@ -19,6 +19,7 @@ module: 有机化学
 status: 已填充
 subject_module: 有机化学
 pack: 模块习题集
+source_category: 教材课后习题
 ---
 # 题-651: 对比同位素效应详细机理分析
 

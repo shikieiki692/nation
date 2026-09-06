@@ -20,6 +20,7 @@ module: 基础要求-有机化学
 status: 已填充
 subject_module: 有机化学
 pack: 章节练习
+source_category: 竞赛导向·竞赛教材
 ---
 # 题-116：在某著名搞笑教材《有机人名反应机理新解》中，把硼氢化-氧化的机理写成了这样：
 

@@ -24,6 +24,7 @@ status: 已填充
 subject_module: 结构化学
 pack: 综合模拟卷
 year: 2014
+source_category: 竞赛导向·真题
 ---
 # 第 4 题 EDTA 滴定 Pb、Bi、Ni (6 分)
 

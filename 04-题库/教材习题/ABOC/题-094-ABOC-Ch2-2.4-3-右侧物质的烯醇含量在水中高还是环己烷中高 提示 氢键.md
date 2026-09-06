@@ -18,6 +18,7 @@ module: 基础要求-有机化学
 status: 已填充
 subject_module: 有机化学
 pack: 章节练习
+source_category: 竞赛导向·竞赛教材
 ---
 # 题-094：右侧物质的烯醇含量在水中高还是环己烷中高？提示：氢键。
 

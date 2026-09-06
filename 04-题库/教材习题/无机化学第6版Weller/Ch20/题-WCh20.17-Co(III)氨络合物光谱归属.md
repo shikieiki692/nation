@@ -18,6 +18,7 @@ fidelity: 原书逐字
 exam_stage: 初赛
 demoted: 2026-09-01 习题书质量降级（考纲无关+篇幅过短）
 
+source_category: 教材课后习题
 ---
 
 # Co(III)氨络合物光谱归属

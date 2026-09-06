@@ -19,6 +19,7 @@ module: 基础要求-有机化学
 status: 已填充
 subject_module: 有机化学
 pack: 章节练习
+source_category: 竞赛导向·竞赛教材
 ---
 # 题-283：(36 届初赛第二场+HYS+Chemy 模拟题) 氟化学与动力学同位素效应专场
 

@@ -18,6 +18,7 @@ module: 有机化学
 status: 已填充
 subject_module: 有机化学
 pack: 章节练习
+source_category: 教材课后习题
 ---
 # 题-397: 氯吡啶亲核取代选择性（2/4 vs 3）
 

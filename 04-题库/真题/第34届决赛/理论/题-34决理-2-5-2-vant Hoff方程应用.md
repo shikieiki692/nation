@@ -22,6 +22,7 @@ status: 已填充
 subject_module: 化学原理
 pack: 综合模拟卷
 year: 2020
+source_category: 竞赛导向·真题
 ---
 # 第 5 题 van't Hoff方程应用 (3 分)
 

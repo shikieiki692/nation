@@ -19,6 +19,7 @@ module: 有机化学
 status: 已填充
 subject_module: 有机化学
 pack: 章节练习
+source_category: 教材课后习题
 ---
 # 题-312: 消除区域选择性（混合物vs单一产物）
 

@@ -18,6 +18,7 @@ module: 基础要求-有机化学
 status: 已填充
 subject_module: 有机化学
 pack: 章节练习
+source_category: 竞赛导向·竞赛教材
 ---
 # 题-093：查阅有关资料，通过键能数据判断烯醇和酮谁更稳定。
 

@@ -35,6 +35,7 @@ source: 化学竞赛能力测试·第4章 配位化合物初步知识·B卷第3�
 source_file: "[[化学竞赛教程/（已压缩）化学竞赛能力测试]]"
 status: 已填充
 used_in: "[[综合模拟卷IV]]"
+source_category: 竞赛导向·竞赛教辅
 ---
 
 # Fe 羰基硫醚配合物 CO 配位方式

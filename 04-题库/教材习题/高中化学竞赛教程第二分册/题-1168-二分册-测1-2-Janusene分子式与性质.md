@@ -32,6 +32,7 @@ source: 高中化学竞赛教程第二分册·书末测试题一·选择题第2�
 source_file: "[[07-资料提炼/习题提炼/习题-二分册-书末测试题一]]"
 cross_references: []
 status: 已填充
+source_category: 竞赛导向·竞赛教材
 ---
 
 # 题-1168-二分册-测1-2-Janusene分子式与性质

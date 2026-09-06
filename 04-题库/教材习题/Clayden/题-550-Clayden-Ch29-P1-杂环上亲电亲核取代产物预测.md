@@ -18,6 +18,7 @@ module: 有机化学
 status: 已填充
 subject_module: 有机化学
 pack: 章节练习
+source_category: 教材课后习题
 ---
 # 题-550: 杂环上亲电/亲核取代产物预测
 

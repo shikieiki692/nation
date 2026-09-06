@@ -17,6 +17,7 @@ subject_module: 有机化学
 pack: 模块习题集
 fidelity: 原书改写
 exam_stage: 初赛
+source_category: 其他类型·自编章节题
 ---
 
 # Felkin-Anh模型预测立体选择性

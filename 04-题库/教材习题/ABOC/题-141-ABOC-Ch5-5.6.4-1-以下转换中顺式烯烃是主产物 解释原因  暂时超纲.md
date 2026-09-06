@@ -20,6 +20,7 @@ module: 基础要求-有机化学
 status: 已填充
 subject_module: 有机化学
 pack: 章节练习
+source_category: 竞赛导向·竞赛教材
 ---
 # 题-141：以下转换中顺式烯烃是主产物，解释原因。(暂时超纲)
 

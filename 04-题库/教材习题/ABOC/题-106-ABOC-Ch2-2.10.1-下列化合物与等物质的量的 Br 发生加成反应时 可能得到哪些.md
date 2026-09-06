@@ -18,6 +18,7 @@ module: 基础要求-有机化学
 status: 已填充
 subject_module: 有机化学
 pack: 章节练习
+source_category: 竞赛导向·竞赛教材
 ---
 # 题-106：下列化合物与等物质的量的 Br 发生加成反应时，可能得到哪些产物？
 

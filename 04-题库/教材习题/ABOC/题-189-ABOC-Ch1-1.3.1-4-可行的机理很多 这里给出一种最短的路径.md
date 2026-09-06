@@ -19,6 +19,7 @@ module: 基础要求-有机化学
 status: 已填充
 subject_module: 有机化学
 pack: 章节练习
+source_category: 竞赛导向·竞赛教材
 ---
 # 题-189：可行的机理很多，这里给出一种最短的路径：
 

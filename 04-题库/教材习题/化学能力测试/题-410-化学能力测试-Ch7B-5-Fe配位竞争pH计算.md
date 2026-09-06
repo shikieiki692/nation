@@ -31,6 +31,7 @@ updated: 2026-09-03
 source: 化学竞赛能力测试·第7章 溶液中的平衡·B卷第5题
 source_file: "[[化学竞赛教程/（已压缩）化学竞赛能力测试]]"
 status: 已填充
+source_category: 竞赛导向·竞赛教辅
 ---
 
 # Fe³⁺/SCN⁻/F⁻ 竞争配位 pH

@@ -17,6 +17,7 @@ module: 电解质溶液
 status: 已填充
 subject_module: 元素与分析
 pack: 章节练习
+source_category: 其他类型·教学改编
 ---
 # 题-改编-08-Debye-Huckel活度系数计算
 

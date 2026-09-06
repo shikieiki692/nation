@@ -18,6 +18,7 @@ module: 有机化学
 status: 已填充
 subject_module: 有机化学
 pack: 章节练习
+source_category: 教材课后习题
 ---
 # 题-579: 取代环己酮NMR确定立体化学
 

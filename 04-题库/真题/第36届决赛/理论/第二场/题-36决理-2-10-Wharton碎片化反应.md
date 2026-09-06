@@ -19,6 +19,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 综合模拟卷
 year: 2022
+source_category: 竞赛导向·真题
 ---
 # 第 10 题 Wharton碎片化反应 (11 分)
 

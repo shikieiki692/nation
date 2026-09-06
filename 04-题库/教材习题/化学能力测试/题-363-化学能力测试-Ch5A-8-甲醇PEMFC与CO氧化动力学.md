@@ -38,6 +38,7 @@ updated: 2026-09-03
 source: 化学竞赛能力测试·第5章 化学热力学初步知识·A卷第8题
 source_file: "[[化学竞赛教程/（已压缩）化学竞赛能力测试]]"
 status: 已填充
+source_category: 竞赛导向·竞赛教辅
 ---
 
 # 甲醇 PEMFC 与 CO 氧化动力学

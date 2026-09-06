@@ -16,6 +16,7 @@ subject_module: 结构化学
 pack: 模块习题集
 fidelity: 原书逐字
 exam_stage: 初赛
+source_category: 教材课后习题
 ---
 
 # Irving-Williams序列

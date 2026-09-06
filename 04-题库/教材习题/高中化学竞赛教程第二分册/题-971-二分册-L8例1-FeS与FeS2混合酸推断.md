@@ -20,6 +20,7 @@ source: 高中化学竞赛教程第二分册 第8讲 正文例1
 source_file: "[[07-资料提炼/习题提炼/习题-二分册-第8讲-常见的过渡元素下]]"
 cross_references: []
 status: 已填充
+source_category: 竞赛导向·竞赛教材
 ---
 # 题-971-二分册-L8例1-FeS与FeS2混合酸推断
 

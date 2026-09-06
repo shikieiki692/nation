@@ -19,6 +19,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 模块习题集
 used_in: ["[[有机化学阶段测试卷]]", "[[04-题库/有机化学阶段测试卷]]"]
+source_category: 教材课后习题
 ---
 # 题-542: 天然抗生素结构确定（质谱+NMR）
 
