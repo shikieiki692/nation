@@ -1,0 +1,157 @@
+filters:
+  and:
+    - file.inFolder("03-知识点")
+    - type == "知识点"
+properties:
+  file.name:
+    displayName: 知识点
+  subject:
+    displayName: 模块
+  submodule:
+    displayName: 子模块
+  status:
+    displayName: 状态
+  difficulty:
+    displayName: 难度
+  importance:
+    displayName: 重要度
+  updated:
+    displayName: 更新日期
+views:
+  - type: table
+    name: 知识点总览
+    order:
+      - file.name
+      - subject
+      - status
+      - difficulty
+      - updated
+      - submodule
+      - importance
+    sort:
+      - property: subject
+        direction: DESC
+      - property: submodule
+        direction: DESC
+      - property: difficulty
+        direction: DESC
+      - property: importance
+        direction: DESC
+  - type: table
+    name: 待填充高优
+    filters:
+      and:
+        - status != "已填充"
+        - importance >= 4
+    order:
+      - file.name
+      - subject
+      - status
+      - importance
+      - difficulty
+    sort:
+      - property: importance
+        direction: DESC
+  - type: table
+    name: 核心竞赛考点
+    filters:
+      and:
+        - difficulty >= 4
+        - importance >= 4
+    order:
+      - file.name
+      - subject
+      - status
+    sort:
+      - property: importance
+        direction: DESC
+  - type: table
+    name: 有机-结构基础待填充
+    filters:
+      and:
+        - subject == "有机化学"
+        - submodule == "结构基础"
+        - status != "已填充"
+    order:
+      - file.name
+      - status
+      - importance
+      - difficulty
+    sort:
+      - property: importance
+        direction: DESC
+  - type: table
+    name: 有机-机理基础待填充
+    filters:
+      and:
+        - subject == "有机化学"
+        - submodule == "机理基础"
+        - status != "已填充"
+    order:
+      - file.name
+      - status
+      - importance
+      - difficulty
+    sort:
+      - property: importance
+        direction: DESC
+  - type: table
+    name: 有机-电子效应待填充
+    filters:
+      and:
+        - subject == "有机化学"
+        - submodule == "电子效应"
+        - status != "已填充"
+    order:
+      - file.name
+      - status
+      - importance
+      - difficulty
+    sort:
+      - property: importance
+        direction: DESC
+  - type: table
+    name: 有机-立体电子效应待填充
+    filters:
+      and:
+        - subject == "有机化学"
+        - submodule == "立体电子效应"
+        - status != "已填充"
+    order:
+      - file.name
+      - status
+      - importance
+      - difficulty
+    sort:
+      - property: importance
+        direction: DESC
+  - type: table
+    name: 有机-具体反应待填充
+    filters:
+      and:
+        - subject == "有机化学"
+        - submodule == "具体反应"
+        - status != "已填充"
+    order:
+      - file.name
+      - status
+      - importance
+      - difficulty
+    sort:
+      - property: importance
+        direction: DESC
+  - type: table
+    name: 有机-立体化学待填充
+    filters:
+      and:
+        - subject == "有机化学"
+        - submodule == "立体化学"
+        - status != "已填充"
+    order:
+      - file.name
+      - status
+      - importance
+      - difficulty
+    sort:
+      - property: importance
+        direction: DESC

@@ -1,0 +1,3367 @@
+﻿[
+    {
+        "Target":  "合成设计",
+        "Count":  90,
+        "Sources":  "2+2环加成.md; 2+2环加成.md; Aldol缩合.md"
+    },
+    {
+        "Target":  "天然产物合成",
+        "Count":  37,
+        "Sources":  "Aldol缩合.md; Baeyer-Villiger重排.md; Baldwin规则.md"
+    },
+    {
+        "Target":  "烯烃",
+        "Count":  29,
+        "Sources":  "Claisen重排.md; Claisen重排.md; Diels-Alder反应.md"
+    },
+    {
+        "Target":  "药物化学",
+        "Count":  21,
+        "Sources":  "2+2环加成.md; D-L构型.md; Fischer吲哚合成.md"
+    },
+    {
+        "Target":  "中国化学奥林匹克决赛要求-总览",
+        "Count":  21,
+        "Sources":  "Maxwell关系初步.md; 可逆电池.md; 基元反应.md"
+    },
+    {
+        "Target":  "过渡金属催化基础",
+        "Count":  20,
+        "Sources":  "C-H活化.md; C-H活化.md; Heck反应.md"
+    },
+    {
+        "Target":  "51-有机合成",
+        "Count":  19,
+        "Sources":  "硅基保护基.md; 硅基保护基.md; 硅基保护基.md"
+    },
+    {
+        "Target":  "Michael加成",
+        "Count":  18,
+        "Sources":  "Baldwin规则.md; E1cb反应.md; Horner-Wadsworth-Emmons反应.md"
+    },
+    {
+        "Target":  "芳香亲电取代",
+        "Count":  16,
+        "Sources":  "Friedel-Crafts反应.md; σ络合物.md; 区域选择性.md"
+    },
+    {
+        "Target":  "镧系收缩",
+        "Count":  16,
+        "Sources":  "稀土元素.md; 元素周期表分区.md; 元素周期表分区.md"
+    },
+    {
+        "Target":  "配合物基础",
+        "Count":  14,
+        "Sources":  "配合物稳定性.md; 催化循环入门.md; 催化循环入门.md"
+    },
+    {
+        "Target":  "决赛10",
+        "Count":  13,
+        "Sources":  "Frost图.md; Frost图.md; Latimer图.md"
+    },
+    {
+        "Target":  "全合成",
+        "Count":  13,
+        "Sources":  "催化循环入门.md; 催化循环入门.md; 金属有机化学深化.md"
+    },
+    {
+        "Target":  "Peterson烯化反应",
+        "Count":  12,
+        "Sources":  "硅基保护基.md; Horner-Wadsworth-Emmons反应.md; Sakurai烯丙基化.md"
+    },
+    {
+        "Target":  "生物化学",
+        "Count":  10,
+        "Sources":  "D-L构型.md; Fischer投影式.md; 二糖与多糖.md"
+    },
+    {
+        "Target":  "不对称合成",
+        "Count":  10,
+        "Sources":  "R-S构型.md; Robinson托品酮合成.md; 亲核加成.md"
+    },
+    {
+        "Target":  "羰基化学",
+        "Count":  9,
+        "Sources":  "Aldol缩合.md; Aldol缩合.md; Corey-Seebach反应.md"
+    },
+    {
+        "Target":  "39-有机重排",
+        "Count":  9,
+        "Sources":  "1,2-迁移与重排.md; 1,2-迁移与重排.md; 1,2-迁移与重排.md"
+    },
+    {
+        "Target":  "天然产物全合成",
+        "Count":  8,
+        "Sources":  "5加2环加成.md; Achmatowicz重排.md; Brook重排.md"
+    },
+    {
+        "Target":  "醇的化学",
+        "Count":  8,
+        "Sources":  "Corey-Kim氧化.md; Corey-Kim氧化.md; Mitsunobu反应.md"
+    },
+    {
+        "Target":  "元素化学综合比较",
+        "Count":  8,
+        "Sources":  "Frost图.md; Frost图.md; Latimer图.md"
+    },
+    {
+        "Target":  "Nernst 方程",
+        "Count":  8,
+        "Sources":  "化学平衡.md; 化学电源.md; 化学电源.md"
+    },
+    {
+        "Target":  "缩合反应",
+        "Count":  8,
+        "Sources":  "Fischer吲哚合成.md; Fischer吲哚合成.md; Hantzsch吡咯合成.md"
+    },
+    {
+        "Target":  "胺的化学",
+        "Count":  8,
+        "Sources":  "Cope消除.md; Cope消除.md; Gabriel合成.md"
+    },
+    {
+        "Target":  "原子结构",
+        "Count":  8,
+        "Sources":  "惰性对效应.md; 钛铬锰铁钴镍铜锌基础元素化学.md; 钛铬锰铁钴镍铜锌基础元素化学.md"
+    },
+    {
+        "Target":  "糖化学",
+        "Count":  7,
+        "Sources":  "Brook重排.md; D-L构型.md; Fischer投影式.md"
+    },
+    {
+        "Target":  "金属有机化学",
+        "Count":  7,
+        "Sources":  "sp杂化.md; Wurtz偶联.md; Wurtz偶联.md"
+    },
+    {
+        "Target":  "形式电荷",
+        "Count":  7,
+        "Sources":  "Lewis结构式.md; Lewis式.md; Lewis式.md"
+    },
+    {
+        "Target":  "化学键",
+        "Count":  7,
+        "Sources":  "8电子规则.md; 有机分子的几何构型.md; 有机分子的几何构型.md"
+    },
+    {
+        "Target":  "醛酮",
+        "Count":  6,
+        "Sources":  "NHK反应.md; NHK反应.md; 臭氧化反应.md"
+    },
+    {
+        "Target":  "元素化学",
+        "Count":  6,
+        "Sources":  "稀土元素.md; 元素周期表分区.md; 元素周期表分区.md"
+    },
+    {
+        "Target":  "原子结构基础",
+        "Count":  6,
+        "Sources":  "Bohr模型计算.md; 原子结构深化.md; 多电子原子能级.md"
+    },
+    {
+        "Target":  "配合物深化",
+        "Count":  6,
+        "Sources":  "VSEPR理论深化.md; 分子轨道理论深化.md; 原子结构补充.md"
+    },
+    {
+        "Target":  "决赛要求-有机与无机拓展",
+        "Count":  6,
+        "Sources":  "硅基保护基.md; 硅基保护基.md; 高价碘试剂.md"
+    },
+    {
+        "Target":  "糖类化学",
+        "Count":  6,
+        "Sources":  "Achmatowicz重排.md; 半缩醛.md; 邻二醇切断.md"
+    },
+    {
+        "Target":  "多步合成路线",
+        "Count":  6,
+        "Sources":  "高价碘试剂.md; Corey-Chaykovsky反应.md; Dess-Martin氧化.md"
+    },
+    {
+        "Target":  "酸碱理论",
+        "Count":  6,
+        "Sources":  "酸碱反应.md; E1cb机理.md; 亲核性与碱性比较.md"
+    },
+    {
+        "Target":  "决赛13-元素化学",
+        "Count":  6,
+        "Sources":  "稀土元素.md; 稀土元素.md; 稀土元素.md"
+    },
+    {
+        "Target":  "还原胺化",
+        "Count":  5,
+        "Sources":  "Gabriel合成.md; Gabriel合成.md; Ritter反应.md"
+    },
+    {
+        "Target":  "高分子化学",
+        "Count":  5,
+        "Sources":  "Beckmann重排.md; 二糖与多糖.md; 烯烃复分解反应.md"
+    },
+    {
+        "Target":  "有机反应机理",
+        "Count":  5,
+        "Sources":  "分子结构深化.md; Brønsted酸碱观点.md; Kekulé式.md"
+    },
+    {
+        "Target":  "醛酮化学",
+        "Count":  5,
+        "Sources":  "Cannizzaro反应.md; Cannizzaro反应.md; Tishchenko反应.md"
+    },
+    {
+        "Target":  "环己烷构象",
+        "Count":  5,
+        "Sources":  "楔形式.md; 环状分子的立体选择性.md; 立体电子效应.md"
+    },
+    {
+        "Target":  "天然产物化学",
+        "Count":  5,
+        "Sources":  "手性中心.md; 手性轴.md; 有机波谱分析.md"
+    },
+    {
+        "Target":  "热力学基础",
+        "Count":  5,
+        "Sources":  "动力学控制.md; 反应势能图.md; 反应势能图.md"
+    },
+    {
+        "Target":  "Bredt规则",
+        "Count":  5,
+        "Sources":  "SN1反应.md; SN1反应.md; SN2反应.md"
+    },
+    {
+        "Target":  "决赛要求-超分子与前沿专题",
+        "Count":  5,
+        "Sources":  "冠醚.md; 分子识别.md; 包结作用.md"
+    },
+    {
+        "Target":  "羟醛反应",
+        "Count":  5,
+        "Sources":  "Robinson托品酮合成.md; 脂肪酸生物合成.md; 莽草酸途径.md"
+    },
+    {
+        "Target":  "分子光谱",
+        "Count":  5,
+        "Sources":  "分子对称性初步.md; 分子结构深化.md; 偶极矩.md"
+    },
+    {
+        "Target":  "催化",
+        "Count":  5,
+        "Sources":  "反应级数.md; 速率方程.md; 过渡元素.md"
+    },
+    {
+        "Target":  "保护基策略",
+        "Count":  4,
+        "Sources":  "加成反应.md; 原子经济性与反应选择性.md; 取代反应.md"
+    },
+    {
+        "Target":  "Finkelstein反应",
+        "Count":  4,
+        "Sources":  "SN2反应.md; SN2反应.md; SN2反应.md"
+    },
+    {
+        "Target":  "取代基定位效应",
+        "Count":  4,
+        "Sources":  "σ络合物.md; σ络合物.md; 芳香体系中吸电子基作用.md"
+    },
+    {
+        "Target":  "环加成反应",
+        "Count":  4,
+        "Sources":  "5加2环加成.md; Nazarov环化.md; 有机分子轨道.md"
+    },
+    {
+        "Target":  "亚胺化学",
+        "Count":  4,
+        "Sources":  "Mannich反应.md; Mannich反应.md; Ugi反应.md"
+    },
+    {
+        "Target":  "Goldschmidt离子半径比规则",
+        "Count":  4,
+        "Sources":  "原子半径.md; 离子半径.md; 离子半径.md"
+    },
+    {
+        "Target":  "无机推断题",
+        "Count":  4,
+        "Sources":  "Frost图.md; Latimer图.md; Pourbaix图.md"
+    },
+    {
+        "Target":  "滴定分析",
+        "Count":  4,
+        "Sources":  "酸碱滴定.md; 化学计量.md; 有效数字.md"
+    },
+    {
+        "Target":  "晶体结构基础",
+        "Count":  4,
+        "Sources":  "材料化学.md; 材料化学.md; 晶胞投影图分析.md"
+    },
+    {
+        "Target":  "反应机理",
+        "Count":  4,
+        "Sources":  "反应级数.md; 速率方程.md; Grossman规则.md"
+    },
+    {
+        "Target":  "周环反应基础",
+        "Count":  4,
+        "Sources":  "2+2环加成.md; 2+2环加成.md; Ene反应.md"
+    },
+    {
+        "Target":  "羧酸",
+        "Count":  4,
+        "Sources":  "Ugi反应.md; 卤代内酯化反应.md; 卤代内酯化反应.md"
+    },
+    {
+        "Target":  "酯的化学",
+        "Count":  4,
+        "Sources":  "Baeyer-Villiger重排.md; Reformatsky反应.md; Tishchenko反应.md"
+    },
+    {
+        "Target":  "腈的化学",
+        "Count":  4,
+        "Sources":  "Ritter反应.md; Ritter反应.md; TosMIC.md"
+    },
+    {
+        "Target":  "溶解度规律",
+        "Count":  4,
+        "Sources":  "溶剂极性.md; 溶剂极性.md; 溶剂类型.md"
+    },
+    {
+        "Target":  "优先离域原则",
+        "Count":  4,
+        "Sources":  "共轭效应.md; 立体电子效应.md; 超共轭效应.md"
+    },
+    {
+        "Target":  "沸点比较",
+        "Count":  4,
+        "Sources":  "分子间相互作用深化.md; 分子极性.md; 氢键.md"
+    },
+    {
+        "Target":  "配位滴定",
+        "Count":  4,
+        "Sources":  "配合物稳定性.md; 氧化还原滴定.md; 沉淀滴定.md"
+    },
+    {
+        "Target":  "蛋白质结构",
+        "Count":  4,
+        "Sources":  "分子间相互作用深化.md; 氢键.md; 疏水相互作用.md"
+    },
+    {
+        "Target":  "酸性强弱比较",
+        "Count":  4,
+        "Sources":  "共轭效应.md; 诱导效应.md; 诱导效应.md"
+    },
+    {
+        "Target":  "有机酸碱理论",
+        "Count":  4,
+        "Sources":  "Lewis酸碱理论.md; 芳香体系中吸电子基作用.md; 质子转移可行性.md"
+    },
+    {
+        "Target":  "醛的化学",
+        "Count":  4,
+        "Sources":  "TosMIC.md; TosMIC.md; 安息香缩合.md"
+    },
+    {
+        "Target":  "异腈",
+        "Count":  4,
+        "Sources":  "TosMIC.md; TosMIC.md; Ugi反应.md"
+    },
+    {
+        "Target":  "肟的化学",
+        "Count":  4,
+        "Sources":  "Beckmann重排.md; Beckmann重排.md; Neber重排.md"
+    },
+    {
+        "Target":  "决赛08-反应动力学深化",
+        "Count":  4,
+        "Sources":  "基元反应.md; 平衡近似.md; 稳态近似.md"
+    },
+    {
+        "Target":  "结构推求综合",
+        "Count":  4,
+        "Sources":  "¹H NMR.md; ¹H NMR.md; 质谱.md"
+    },
+    {
+        "Target":  "配位化学",
+        "Count":  4,
+        "Sources":  "C-H活化.md; C-H活化.md; 不对称氢化.md"
+    },
+    {
+        "Target":  "题型-合成路线设计",
+        "Count":  4,
+        "Sources":  "5加2环加成.md; Achmatowicz重排.md; Brook重排.md"
+    },
+    {
+        "Target":  "标准曲线法",
+        "Count":  4,
+        "Sources":  "Lambert-Beer定律.md; 分光光度法.md; 吸光度.md"
+    },
+    {
+        "Target":  "Le Chatelier 原理",
+        "Count":  4,
+        "Sources":  "化学平衡.md; 化学平衡.md; 化学平衡.md"
+    },
+    {
+        "Target":  "Felkin-Anh模型",
+        "Count":  4,
+        "Sources":  "立体电子效应.md; 立体电子效应.md; 立体电子效应.md"
+    },
+    {
+        "Target":  "氧化还原",
+        "Count":  4,
+        "Sources":  "单质制备方法.md; 碱金属.md; BrF₃.md"
+    },
+    {
+        "Target":  "环丙烷",
+        "Count":  4,
+        "Sources":  "Bent规则.md; Corey-Chaykovsky反应.md; Simmon-Smith反应.md"
+    },
+    {
+        "Target":  "酯化反应",
+        "Count":  3,
+        "Sources":  "缩聚反应.md; 羧酸衍生物.md; 酰基亲核取代.md"
+    },
+    {
+        "Target":  "Passerini反应",
+        "Count":  3,
+        "Sources":  "TosMIC.md; Ugi反应.md; Ugi反应.md"
+    },
+    {
+        "Target":  "Mukaiyama醛缩反应",
+        "Count":  3,
+        "Sources":  "Sakurai烯丙基化.md; Sakurai烯丙基化.md; Sakurai烯丙基化.md"
+    },
+    {
+        "Target":  "酚类化合物",
+        "Count":  3,
+        "Sources":  "互变异构.md; 有机酸碱性.md; 芳香亲核取代.md"
+    },
+    {
+        "Target":  "质子守恒",
+        "Count":  3,
+        "Sources":  "物料守恒.md; 电荷守恒.md; 酸碱反应.md"
+    },
+    {
+        "Target":  "化学平衡-分压",
+        "Count":  3,
+        "Sources":  "Dalton分压定律.md; 反应级数.md; 速率方程.md"
+    },
+    {
+        "Target":  "迁移插入反应",
+        "Count":  3,
+        "Sources":  "金属有机与羰基化学.md; 金属有机与羰基化学.md; 金属有机与羰基化学.md"
+    },
+    {
+        "Target":  "容量分析计算",
+        "Count":  3,
+        "Sources":  "碘量法.md; 物料守恒.md; 酸碱反应.md"
+    },
+    {
+        "Target":  "提炼-分析化学-第10章",
+        "Count":  3,
+        "Sources":  "Lambert-Beer定律.md; 分光光度法.md; 比色分析.md"
+    },
+    {
+        "Target":  "铅四乙酸酯氧化",
+        "Count":  3,
+        "Sources":  "过碘酸氧化.md; 过碘酸氧化.md; 过碘酸氧化.md"
+    },
+    {
+        "Target":  "Claisen缩合",
+        "Count":  3,
+        "Sources":  "E1cb反应.md; 有机锂试剂.md; 烯醇负离子.md"
+    },
+    {
+        "Target":  "题型-反应机理书写",
+        "Count":  3,
+        "Sources":  "Achmatowicz重排.md; Brook重排.md; 烯烃复分解反应.md"
+    },
+    {
+        "Target":  "偶氮化合物",
+        "Count":  3,
+        "Sources":  "苯胺.md; 苯胺.md; 重氮化合物.md"
+    },
+    {
+        "Target":  "烯烃化学",
+        "Count":  3,
+        "Sources":  "催化循环入门.md; 催化循环入门.md; sp2杂化.md"
+    },
+    {
+        "Target":  "晶体结构",
+        "Count":  3,
+        "Sources":  "原子半径.md; 离子半径.md; 钛铬锰铁钴镍铜锌基础元素化学.md"
+    },
+    {
+        "Target":  "Sharpless不对称双羟化",
+        "Count":  3,
+        "Sources":  "不对称氢化.md; 双羟化反应.md; 双羟化反应.md"
+    },
+    {
+        "Target":  "选择性",
+        "Count":  3,
+        "Sources":  "动力学控制.md; 热力学控制.md; 过渡态.md"
+    },
+    {
+        "Target":  "芳香胺",
+        "Count":  3,
+        "Sources":  "Pictet-Spengler反应.md; Skraup合成.md; Skraup合成.md"
+    },
+    {
+        "Target":  "决赛要求",
+        "Count":  3,
+        "Sources":  "材料化学.md; 材料化学.md; 氧化加成与还原消除.md"
+    },
+    {
+        "Target":  "多酸",
+        "Count":  3,
+        "Sources":  "钒.md; 钨.md; 钼.md"
+    },
+    {
+        "Target":  "键线式",
+        "Count":  3,
+        "Sources":  "Kekulé式.md; Lewis式.md; Lewis式.md"
+    },
+    {
+        "Target":  "HOMO与LUMO",
+        "Count":  3,
+        "Sources":  "共轭效应.md; 超共轭效应.md; 超共轭效应.md"
+    },
+    {
+        "Target":  "配合物颜色",
+        "Count":  3,
+        "Sources":  "Jahn-Teller效应.md; 晶体场理论.md; 高自旋与低自旋.md"
+    },
+    {
+        "Target":  "Debye-Hückel极限定律",
+        "Count":  3,
+        "Sources":  "活度与活度系数.md; 活度与活度系数.md; 活度与活度系数.md"
+    },
+    {
+        "Target":  "55-氨基酸",
+        "Count":  3,
+        "Sources":  "多肽合成.md; 生物碱.md; 生物碱.md"
+    },
+    {
+        "Target":  "醛酮结构",
+        "Count":  3,
+        "Sources":  "单糖.md; 缩醛.md; 羰基亲核加成.md"
+    },
+    {
+        "Target":  "氧化还原基础",
+        "Count":  3,
+        "Sources":  "含硫化合物.md; 有机氧化反应.md; 有机还原反应.md"
+    },
+    {
+        "Target":  "卤素及其化合物",
+        "Count":  3,
+        "Sources":  "高价碘试剂.md; 过碘酸氧化.md; 过碘酸氧化.md"
+    },
+    {
+        "Target":  "Woodward-Hoffmann规则",
+        "Count":  3,
+        "Sources":  "分子对称性初步.md; Grossman规则.md; Grossman规则.md"
+    },
+    {
+        "Target":  "Hammond假说",
+        "Count":  3,
+        "Sources":  "反应势能图.md; 反应势能图.md; 过渡态.md"
+    },
+    {
+        "Target":  "硝基化合物",
+        "Count":  3,
+        "Sources":  "Bartoli吲哚合成.md; Bartoli吲哚合成.md; 芳香亲核取代.md"
+    },
+    {
+        "Target":  "醇的氧化",
+        "Count":  3,
+        "Sources":  "Dess-Martin氧化.md; Swern氧化.md; 过碘酸氧化.md"
+    },
+    {
+        "Target":  "Baeyer-Villiger氧化",
+        "Count":  3,
+        "Sources":  "α效应.md; 有机氧化反应.md; 重排反应.md"
+    },
+    {
+        "Target":  "还原反应",
+        "Count":  3,
+        "Sources":  "Achmatowicz重排.md; Grignard试剂.md; 氧化反应.md"
+    },
+    {
+        "Target":  "负氢迁移",
+        "Count":  3,
+        "Sources":  "Cannizzaro反应.md; Tishchenko反应.md; 氧化还原反应.md"
+    },
+    {
+        "Target":  "苯的芳香性",
+        "Count":  3,
+        "Sources":  "吡啶化学.md; 吡啶化学.md; 吡啶化学.md"
+    },
+    {
+        "Target":  "杂环化合物基础",
+        "Count":  3,
+        "Sources":  "Dimroth重排.md; Dimroth重排.md; Paal-Knorr合成.md"
+    },
+    {
+        "Target":  "Fajans 规则",
+        "Count":  3,
+        "Sources":  "对角线规则.md; 对角线规则.md; 对角线规则.md"
+    },
+    {
+        "Target":  "有机金属试剂",
+        "Count":  3,
+        "Sources":  "Negishi偶联.md; NHK反应.md; Stille偶联.md"
+    },
+    {
+        "Target":  "47-氧化反应",
+        "Count":  3,
+        "Sources":  "Wolff-Kishner还原.md; Wolff-Kishner还原.md; Wolff-Kishner还原.md"
+    },
+    {
+        "Target":  "03-知识点/分析化学",
+        "Count":  3,
+        "Sources":  "Horner-Wadsworth-Emmons反应.md; 羧酸衍生物.md; 膦化合物.md"
+    },
+    {
+        "Target":  "显色反应",
+        "Count":  3,
+        "Sources":  "分光光度法.md; 吸光度.md; 吸光度.md"
+    },
+    {
+        "Target":  "弱酸弱碱解离",
+        "Count":  3,
+        "Sources":  "化学平衡.md; 化学平衡.md; 解离常数.md"
+    },
+    {
+        "Target":  "配位场理论",
+        "Count":  3,
+        "Sources":  "Jahn-Teller效应.md; 晶体场理论.md; 高自旋与低自旋.md"
+    },
+    {
+        "Target":  "Barton反应",
+        "Count":  3,
+        "Sources":  "自由基.md; 自由基.md; 自由基取代.md"
+    },
+    {
+        "Target":  "配合物磁性",
+        "Count":  3,
+        "Sources":  "Jahn-Teller效应.md; 晶体场理论.md; 高自旋与低自旋.md"
+    },
+    {
+        "Target":  "酚",
+        "Count":  2,
+        "Sources":  "Claisen重排.md; Claisen重排.md"
+    },
+    {
+        "Target":  "金属有机催化",
+        "Count":  2,
+        "Sources":  "5加2环加成.md; 5加2环加成.md"
+    },
+    {
+        "Target":  "Knorr吡咯合成",
+        "Count":  2,
+        "Sources":  "Paal-Knorr合成.md; 吡咯.md"
+    },
+    {
+        "Target":  "Simmons-Smith反应",
+        "Count":  2,
+        "Sources":  "Kulinkovich反应.md; 卡宾.md"
+    },
+    {
+        "Target":  "Vilsmeier-Haack反应",
+        "Count":  2,
+        "Sources":  "苯酚.md; 苯酚.md"
+    },
+    {
+        "Target":  "不对称催化",
+        "Count":  2,
+        "Sources":  "手性轴.md; 手性面.md"
+    },
+    {
+        "Target":  "化学势",
+        "Count":  2,
+        "Sources":  "标准态.md; 标准态.md"
+    },
+    {
+        "Target":  "有机化学",
+        "Count":  2,
+        "Sources":  "非对映选择性.md; 非对映选择性.md"
+    },
+    {
+        "Target":  "相律",
+        "Count":  2,
+        "Sources":  "双组分相图.md; 双组分相图.md"
+    },
+    {
+        "Target":  "碳负离子化学",
+        "Count":  2,
+        "Sources":  "Brook重排.md; Brook重排.md"
+    },
+    {
+        "Target":  "烯醇与烯醇盐",
+        "Count":  2,
+        "Sources":  "Aldol缩合.md; Aldol缩合.md"
+    },
+    {
+        "Target":  "环状化合物",
+        "Count":  2,
+        "Sources":  "Baldwin规则.md; Baldwin规则.md"
+    },
+    {
+        "Target":  "自由基稳定性5规则",
+        "Count":  2,
+        "Sources":  "过氧化物效应.md; 过氧化物效应.md"
+    },
+    {
+        "Target":  "39-饱和碳上的取代反应",
+        "Count":  2,
+        "Sources":  "离子对机理.md; 离子对机理.md"
+    },
+    {
+        "Target":  "Mukaiyama缩合",
+        "Count":  2,
+        "Sources":  "硅基保护基.md; 硅基保护基.md"
+    },
+    {
+        "Target":  "杂化轨道理论与成键",
+        "Count":  2,
+        "Sources":  "有机分子的几何构型.md; 有机分子的几何构型.md"
+    },
+    {
+        "Target":  "O3氧化",
+        "Count":  2,
+        "Sources":  "过碘酸氧化.md; 过碘酸氧化.md"
+    },
+    {
+        "Target":  "纳米材料",
+        "Count":  2,
+        "Sources":  "材料化学.md; 材料化学.md"
+    },
+    {
+        "Target":  "手性与对映异构",
+        "Count":  2,
+        "Sources":  "生物碱.md; 生物碱.md"
+    },
+    {
+        "Target":  "49-有机物的氧化与还原",
+        "Count":  2,
+        "Sources":  "Lawesson试剂.md; Lawesson试剂.md"
+    },
+    {
+        "Target":  "单电子反应",
+        "Count":  2,
+        "Sources":  "Wurtz偶联.md; Wurtz偶联.md"
+    },
+    {
+        "Target":  "杂环化学",
+        "Count":  2,
+        "Sources":  "TosMIC.md; TosMIC.md"
+    },
+    {
+        "Target":  "Sharpless环氧化",
+        "Count":  2,
+        "Sources":  "环氧化反应.md; 环氧化反应.md"
+    },
+    {
+        "Target":  "肟",
+        "Count":  2,
+        "Sources":  "α效应.md; α效应.md"
+    },
+    {
+        "Target":  "α-卤代酮",
+        "Count":  2,
+        "Sources":  "Favorskii重排.md; Favorskii重排.md"
+    },
+    {
+        "Target":  "离去基",
+        "Count":  2,
+        "Sources":  "羧酸衍生物.md; 酰基亲核取代.md"
+    },
+    {
+        "Target":  "八隅律",
+        "Count":  2,
+        "Sources":  "Lewis式.md; Lewis式.md"
+    },
+    {
+        "Target":  "物理有机化学",
+        "Count":  2,
+        "Sources":  "动力学同位素效应.md; 电子转移.md"
+    },
+    {
+        "Target":  "气体扩散定律",
+        "Count":  2,
+        "Sources":  "Dalton分压定律.md; 理想气体状态方程.md"
+    },
+    {
+        "Target":  "皂化反应",
+        "Count":  2,
+        "Sources":  "羧酸衍生物.md; 酰基亲核取代.md"
+    },
+    {
+        "Target":  "萜类合成",
+        "Count":  2,
+        "Sources":  "Semipinacol重排.md; 脂肪酸生物合成.md"
+    },
+    {
+        "Target":  "有机电子效应",
+        "Count":  2,
+        "Sources":  "休克尔方法.md; 分子结构深化.md"
+    },
+    {
+        "Target":  "透光率",
+        "Count":  2,
+        "Sources":  "吸光度.md; 吸光度.md"
+    },
+    {
+        "Target":  "21-元素化学主族元素",
+        "Count":  2,
+        "Sources":  "方酸.md; 硼的硫族化合物.md"
+    },
+    {
+        "Target":  "50-有机合成设计",
+        "Count":  2,
+        "Sources":  "环状分子的立体选择性.md; 环状分子的立体选择性.md"
+    },
+    {
+        "Target":  "全合成策略",
+        "Count":  2,
+        "Sources":  "亲电加成.md; 取代反应.md"
+    },
+    {
+        "Target":  "35-取代反应",
+        "Count":  2,
+        "Sources":  "α效应.md; α效应.md"
+    },
+    {
+        "Target":  "环丙烷化学",
+        "Count":  2,
+        "Sources":  "Favorskii重排.md; Favorskii重排.md"
+    },
+    {
+        "Target":  "Born-Haber循环",
+        "Count":  2,
+        "Sources":  "离子键.md; 键能.md"
+    },
+    {
+        "Target":  "缩醛形成-分解",
+        "Count":  2,
+        "Sources":  "质子转移可行性.md; 质子转移可行性.md"
+    },
+    {
+        "Target":  "多组分同时测定",
+        "Count":  2,
+        "Sources":  "Lambert-Beer定律.md; 分光光度法.md"
+    },
+    {
+        "Target":  "45-酚与醌",
+        "Count":  2,
+        "Sources":  "苯酚.md; 苯酚.md"
+    },
+    {
+        "Target":  "1,3-偶极环加成",
+        "Count":  2,
+        "Sources":  "臭氧化反应.md; 臭氧化反应.md"
+    },
+    {
+        "Target":  "硫鎓离子",
+        "Count":  2,
+        "Sources":  "SN1反应.md; SN1反应.md"
+    },
+    {
+        "Target":  "同位素",
+        "Count":  2,
+        "Sources":  "质谱.md; 质谱.md"
+    },
+    {
+        "Target":  "极化",
+        "Count":  2,
+        "Sources":  "对角线规则.md; 静电力.md"
+    },
+    {
+        "Target":  "红外光谱",
+        "Count":  2,
+        "Sources":  "¹H NMR.md; 有机波谱分析.md"
+    },
+    {
+        "Target":  "Hess 定律",
+        "Count":  2,
+        "Sources":  "化学平衡.md; 标准态.md"
+    },
+    {
+        "Target":  "环丙烷化反应",
+        "Count":  2,
+        "Sources":  "卡宾.md; 卡宾.md"
+    },
+    {
+        "Target":  "Hofmann消除",
+        "Count":  2,
+        "Sources":  "Cope消除.md; Cope消除.md"
+    },
+    {
+        "Target":  "氮宾",
+        "Count":  2,
+        "Sources":  "高价碘试剂.md; 苯炔.md"
+    },
+    {
+        "Target":  "化学键基础",
+        "Count":  2,
+        "Sources":  "Brønsted酸碱观点.md; Brønsted酸碱观点.md"
+    },
+    {
+        "Target":  "提炼-Atkins物理化学-主题7-8-9-分子结构与成键",
+        "Count":  2,
+        "Sources":  "分子结构补充.md; 离域与分子稳定性.md"
+    },
+    {
+        "Target":  "化学生物学",
+        "Count":  2,
+        "Sources":  "多肽合成.md; 氨基酸与等电点.md"
+    },
+    {
+        "Target":  "Clemmensen还原",
+        "Count":  2,
+        "Sources":  "Wolff-Kishner还原.md; Wolff-Kishner还原.md"
+    },
+    {
+        "Target":  "SN1与SN2比较",
+        "Count":  2,
+        "Sources":  "亲核取代.md; 溶剂效应.md"
+    },
+    {
+        "Target":  "能带理论初步",
+        "Count":  2,
+        "Sources":  "材料化学.md; 材料化学.md"
+    },
+    {
+        "Target":  "Newman投影",
+        "Count":  2,
+        "Sources":  "反式共平面.md; 反式共平面.md"
+    },
+    {
+        "Target":  "库仑定律",
+        "Count":  2,
+        "Sources":  "静电力.md; 静电力.md"
+    },
+    {
+        "Target":  "生物无机化学",
+        "Count":  2,
+        "Sources":  "配合物稳定性.md; 高自旋与低自旋.md"
+    },
+    {
+        "Target":  "题型-天然产物结构推断",
+        "Count":  2,
+        "Sources":  "Achmatowicz重排.md; 生物碱.md"
+    },
+    {
+        "Target":  "决赛02-分子结构",
+        "Count":  2,
+        "Sources":  "分子结构补充.md; 离域与分子稳定性.md"
+    },
+    {
+        "Target":  "DNA双螺旋",
+        "Count":  2,
+        "Sources":  "分子间相互作用深化.md; 氢键.md"
+    },
+    {
+        "Target":  "相转移催化",
+        "Count":  2,
+        "Sources":  "SN2反应.md; 超分子识别.md"
+    },
+    {
+        "Target":  "辅酶A",
+        "Count":  2,
+        "Sources":  "脂肪酸生物合成.md; 辅酶与生物氧化还原.md"
+    },
+    {
+        "Target":  "歧化",
+        "Count":  2,
+        "Sources":  "Frost图.md; Latimer图.md"
+    },
+    {
+        "Target":  "有机合成-立体控制",
+        "Count":  2,
+        "Sources":  "非对映选择性.md; 非对映选择性.md"
+    },
+    {
+        "Target":  "共轭二烯",
+        "Count":  2,
+        "Sources":  "Diels-Alder反应.md; Diels-Alder反应.md"
+    },
+    {
+        "Target":  "超共轭",
+        "Count":  2,
+        "Sources":  "马氏规则.md; 马氏规则.md"
+    },
+    {
+        "Target":  "25-有机反应机理",
+        "Count":  2,
+        "Sources":  "环状分子的立体选择性.md; 环状分子的立体选择性.md"
+    },
+    {
+        "Target":  "电子效应",
+        "Count":  2,
+        "Sources":  "位阻效应.md; 位阻效应.md"
+    },
+    {
+        "Target":  "药物合成",
+        "Count":  2,
+        "Sources":  "原子经济性与反应选择性.md; 逆合成分析.md"
+    },
+    {
+        "Target":  "量子化学计算",
+        "Count":  2,
+        "Sources":  "原子结构深化.md; 箱中粒子模型.md"
+    },
+    {
+        "Target":  "燃料电池",
+        "Count":  2,
+        "Sources":  "化学电源.md; 化学电源.md"
+    },
+    {
+        "Target":  "38-自由基取代",
+        "Count":  2,
+        "Sources":  "过氧化物效应.md; 过氧化物效应.md"
+    },
+    {
+        "Target":  "过氧化物",
+        "Count":  2,
+        "Sources":  "氧化物.md; α效应.md"
+    },
+    {
+        "Target":  "胺的碱性",
+        "Count":  2,
+        "Sources":  "苯胺.md; 苯胺.md"
+    },
+    {
+        "Target":  "电解质溶液",
+        "Count":  2,
+        "Sources":  "溶剂化作用.md; 离子方程式.md"
+    },
+    {
+        "Target":  "乃春",
+        "Count":  2,
+        "Sources":  "中间体.md; 卡宾.md"
+    },
+    {
+        "Target":  "元素周期律和元素周期表",
+        "Count":  2,
+        "Sources":  "钛铬锰铁钴镍铜锌基础元素化学.md; 钛铬锰铁钴镍铜锌基础元素化学.md"
+    },
+    {
+        "Target":  "水的离子积",
+        "Count":  2,
+        "Sources":  "解离常数.md; 解离常数.md"
+    },
+    {
+        "Target":  "题型-歧化判断",
+        "Count":  2,
+        "Sources":  "Frost图.md; Latimer图.md"
+    },
+    {
+        "Target":  "羰基α位反应",
+        "Count":  2,
+        "Sources":  "有机合成.md; 烯醇.md"
+    },
+    {
+        "Target":  "理想气体方程",
+        "Count":  2,
+        "Sources":  "标态.md; 标态.md"
+    },
+    {
+        "Target":  "配合物化学",
+        "Count":  2,
+        "Sources":  "多电子原子能级.md; 等电子体.md"
+    },
+    {
+        "Target":  "过渡金属催化",
+        "Count":  2,
+        "Sources":  "光氧化还原催化.md; 光氧化还原催化.md"
+    },
+    {
+        "Target":  "染料化学",
+        "Count":  2,
+        "Sources":  "重氮盐.md; 重氮盐.md"
+    },
+    {
+        "Target":  "络合平衡",
+        "Count":  2,
+        "Sources":  "溶度积.md; 酸碱平衡.md"
+    },
+    {
+        "Target":  "Schlenk技术",
+        "Count":  2,
+        "Sources":  "无水无氧条件.md; 无水无氧条件.md"
+    },
+    {
+        "Target":  "SN1/SN2 反应",
+        "Count":  2,
+        "Sources":  "溶剂类型.md; 溶剂类型.md"
+    },
+    {
+        "Target":  "van\u0027t Hoff 方程",
+        "Count":  2,
+        "Sources":  "等温方程.md; 等温方程.md"
+    },
+    {
+        "Target":  "化学键与分子结构",
+        "Count":  2,
+        "Sources":  "材料化学.md; 材料化学.md"
+    },
+    {
+        "Target":  "Hofmann重排",
+        "Count":  2,
+        "Sources":  "Curtius重排.md; 反应机理表示法.md"
+    },
+    {
+        "Target":  "决赛01-分子结构补充",
+        "Count":  2,
+        "Sources":  "箱中粒子模型.md; NiAs型结构.md"
+    },
+    {
+        "Target":  "烯烃合成",
+        "Count":  2,
+        "Sources":  "E2反应.md; 叶立德.md"
+    },
+    {
+        "Target":  "羰基化合物的亲核加成",
+        "Count":  2,
+        "Sources":  "非对映选择性.md; 非对映选择性.md"
+    },
+    {
+        "Target":  "Bürgi-Dunitz角",
+        "Count":  2,
+        "Sources":  "立体电子效应.md; 立体电子效应.md"
+    },
+    {
+        "Target":  "Tiffeneau-Demjanov重排",
+        "Count":  2,
+        "Sources":  "Semipinacol重排.md; Semipinacol重排.md"
+    },
+    {
+        "Target":  "Corey-House合成",
+        "Count":  2,
+        "Sources":  "Wurtz偶联.md; Wurtz偶联.md"
+    },
+    {
+        "Target":  "合成设计基础",
+        "Count":  2,
+        "Sources":  "Baldwin规则.md; Baldwin规则.md"
+    },
+    {
+        "Target":  "小环似烯",
+        "Count":  2,
+        "Sources":  "Simmon-Smith反应.md; Simmon-Smith反应.md"
+    },
+    {
+        "Target":  "组合化学",
+        "Count":  2,
+        "Sources":  "Ugi反应.md; Ugi反应.md"
+    },
+    {
+        "Target":  "平衡思维",
+        "Count":  2,
+        "Sources":  "碳正离子.md; 碳正离子.md"
+    },
+    {
+        "Target":  "官能团",
+        "Count":  2,
+        "Sources":  "系统命名法.md; 高分子重复单元.md"
+    },
+    {
+        "Target":  "酮的化学",
+        "Count":  2,
+        "Sources":  "Baeyer-Villiger重排.md; Baeyer-Villiger重排.md"
+    },
+    {
+        "Target":  "腙",
+        "Count":  2,
+        "Sources":  "α效应.md; α效应.md"
+    },
+    {
+        "Target":  "酯水解",
+        "Count":  2,
+        "Sources":  "羧酸衍生物.md; 酰基亲核取代.md"
+    },
+    {
+        "Target":  "配合物结构",
+        "Count":  2,
+        "Sources":  "Jahn-Teller效应.md; 配合物稳定性.md"
+    },
+    {
+        "Target":  "摩尔体积",
+        "Count":  2,
+        "Sources":  "标态.md; 标态.md"
+    },
+    {
+        "Target":  "酸性与碱性",
+        "Count":  2,
+        "Sources":  "Bent规则.md; Bent规则.md"
+    },
+    {
+        "Target":  "Friedel-Crafts酰基化",
+        "Count":  2,
+        "Sources":  "Fries重排.md; Fries重排.md"
+    },
+    {
+        "Target":  "对称性",
+        "Count":  2,
+        "Sources":  "立体化学.md; 立体化学.md"
+    },
+    {
+        "Target":  "51-金属有机化学",
+        "Count":  2,
+        "Sources":  "Wurtz偶联.md; Wurtz偶联.md"
+    },
+    {
+        "Target":  "标准摩尔反应焓",
+        "Count":  2,
+        "Sources":  "标准态.md; 标准态.md"
+    },
+    {
+        "Target":  "二面角",
+        "Count":  2,
+        "Sources":  "反式共平面.md; 构象异构.md"
+    },
+    {
+        "Target":  "过渡金属硫化物",
+        "Count":  2,
+        "Sources":  "NiAs型结构.md; NiAs型结构.md"
+    },
+    {
+        "Target":  "Kolbe电解",
+        "Count":  2,
+        "Sources":  "Wurtz偶联.md; 自由基.md"
+    },
+    {
+        "Target":  "构象与稳定性",
+        "Count":  2,
+        "Sources":  "位阻效应.md; 环张力.md"
+    },
+    {
+        "Target":  "酰胺化学",
+        "Count":  2,
+        "Sources":  "Beckmann重排.md; Ritter反应.md"
+    },
+    {
+        "Target":  "标准平衡常数",
+        "Count":  2,
+        "Sources":  "标准态.md; 标准态.md"
+    },
+    {
+        "Target":  "官能团转化",
+        "Count":  2,
+        "Sources":  "氧化反应.md; 逆合成分析.md"
+    },
+    {
+        "Target":  "内酯",
+        "Count":  2,
+        "Sources":  "卤代内酯化反应.md; 卤代内酯化反应.md"
+    },
+    {
+        "Target":  "酰胺化反应",
+        "Count":  2,
+        "Sources":  "缩聚反应.md; 羧酸衍生物.md"
+    },
+    {
+        "Target":  "酚的化学",
+        "Count":  2,
+        "Sources":  "Fries重排.md; Fries重排.md"
+    },
+    {
+        "Target":  "氧化还原与电化学",
+        "Count":  2,
+        "Sources":  "钛铬锰铁钴镍铜锌基础元素化学.md; 钛铬锰铁钴镍铜锌基础元素化学.md"
+    },
+    {
+        "Target":  "非整比化合物",
+        "Count":  2,
+        "Sources":  "NiAs型结构.md; NiAs型结构.md"
+    },
+    {
+        "Target":  "Grob碎裂",
+        "Count":  2,
+        "Sources":  "反式共平面.md; 反式共平面.md"
+    },
+    {
+        "Target":  "Julia烯化",
+        "Count":  2,
+        "Sources":  "Horner-Wadsworth-Emmons反应.md; 膦化合物.md"
+    },
+    {
+        "Target":  "多步合成机理推断",
+        "Count":  2,
+        "Sources":  "Grossman规则.md; Grossman规则.md"
+    },
+    {
+        "Target":  "电化学储能",
+        "Count":  2,
+        "Sources":  "材料化学.md; 普鲁士蓝与滕氏蓝.md"
+    },
+    {
+        "Target":  "31-有机物制备",
+        "Count":  1,
+        "Sources":  "Sakurai烯丙基化.md"
+    },
+    {
+        "Target":  "结构鉴定",
+        "Count":  1,
+        "Sources":  "有机氧化反应.md"
+    },
+    {
+        "Target":  "手性",
+        "Count":  1,
+        "Sources":  "反轴.md"
+    },
+    {
+        "Target":  "环氧化学",
+        "Count":  1,
+        "Sources":  "邻基参与.md"
+    },
+    {
+        "Target":  "酚醛树脂",
+        "Count":  1,
+        "Sources":  "苯酚.md"
+    },
+    {
+        "Target":  "自旋交叉",
+        "Count":  1,
+        "Sources":  "高自旋与低自旋.md"
+    },
+    {
+        "Target":  "顺磁性",
+        "Count":  1,
+        "Sources":  "抗磁性.md"
+    },
+    {
+        "Target":  "大环合成策略",
+        "Count":  1,
+        "Sources":  "烯烃复分解反应.md"
+    },
+    {
+        "Target":  "题型-电子计数",
+        "Count":  1,
+        "Sources":  "金属有机与羰基化学.md"
+    },
+    {
+        "Target":  "各类具体反应",
+        "Count":  1,
+        "Sources":  "逆合成分析.md"
+    },
+    {
+        "Target":  "同离子效应",
+        "Count":  1,
+        "Sources":  "溶解度.md"
+    },
+    {
+        "Target":  "奥司他韦合成",
+        "Count":  1,
+        "Sources":  "莽草酸途径.md"
+    },
+    {
+        "Target":  "异丙苯氧化",
+        "Count":  1,
+        "Sources":  "苯酚.md"
+    },
+    {
+        "Target":  "金属有机反应",
+        "Count":  1,
+        "Sources":  "原子经济性与反应选择性.md"
+    },
+    {
+        "Target":  "糖苷键",
+        "Count":  1,
+        "Sources":  "二糖与多糖.md"
+    },
+    {
+        "Target":  "决赛02-原子结构补充",
+        "Count":  1,
+        "Sources":  "Bohr模型计算.md"
+    },
+    {
+        "Target":  "ArrowPushinginInorganicChemistry_231-336_images/8f10747ccf8c75c2aeb43d22b9a10735a340b375d335146f0ea876ecf5864791.jpg",
+        "Count":  1,
+        "Sources":  "高价碘试剂.md"
+    },
+    {
+        "Target":  "题型-周期律推断",
+        "Count":  1,
+        "Sources":  "稀土元素.md"
+    },
+    {
+        "Target":  "烯丙位",
+        "Count":  1,
+        "Sources":  "NBS.md"
+    },
+    {
+        "Target":  "36-有机反应种类",
+        "Count":  1,
+        "Sources":  "原子经济性与反应选择性.md"
+    },
+    {
+        "Target":  "Reimer-Tiemann反应",
+        "Count":  1,
+        "Sources":  "苯酚.md"
+    },
+    {
+        "Target":  "Ch.3",
+        "Count":  1,
+        "Sources":  "SN1反应.md"
+    },
+    {
+        "Target":  "决赛02-晶体学深化",
+        "Count":  1,
+        "Sources":  "晶体结构深化.md"
+    },
+    {
+        "Target":  "原子光谱分析",
+        "Count":  1,
+        "Sources":  "原子结构深化.md"
+    },
+    {
+        "Target":  "有机合成设计",
+        "Count":  1,
+        "Sources":  "原子经济性与反应选择性.md"
+    },
+    {
+        "Target":  "β-二羰基化合物",
+        "Count":  1,
+        "Sources":  "互变异构.md"
+    },
+    {
+        "Target":  "McMurry偶联",
+        "Count":  1,
+        "Sources":  "自由基.md"
+    },
+    {
+        "Target":  "PCC",
+        "Count":  1,
+        "Sources":  "Corey-Kim氧化.md"
+    },
+    {
+        "Target":  "定向金属化",
+        "Count":  1,
+        "Sources":  "有机锂试剂.md"
+    },
+    {
+        "Target":  "金属电子论",
+        "Count":  1,
+        "Sources":  "箱中粒子模型.md"
+    },
+    {
+        "Target":  "激光原理",
+        "Count":  1,
+        "Sources":  "Bohr模型计算.md"
+    },
+    {
+        "Target":  "固体电解质",
+        "Count":  1,
+        "Sources":  "材料化学.md"
+    },
+    {
+        "Target":  "Aldol反应",
+        "Count":  1,
+        "Sources":  "互变异构.md"
+    },
+    {
+        "Target":  "烯烃的化学",
+        "Count":  1,
+        "Sources":  "有机氧化反应.md"
+    },
+    {
+        "Target":  "Cieplak模型",
+        "Count":  1,
+        "Sources":  "立体电子效应.md"
+    },
+    {
+        "Target":  "极化率",
+        "Count":  1,
+        "Sources":  "反极化与亲卤取代.md"
+    },
+    {
+        "Target":  "极性反应",
+        "Count":  1,
+        "Sources":  "电子转移.md"
+    },
+    {
+        "Target":  "碘量法测定铜",
+        "Count":  1,
+        "Sources":  "氧化还原滴定.md"
+    },
+    {
+        "Target":  "亲核与亲电",
+        "Count":  1,
+        "Sources":  "电子转移.md"
+    },
+    {
+        "Target":  "σ迁移",
+        "Count":  1,
+        "Sources":  "周环反应.md"
+    },
+    {
+        "Target":  "题型-配合物颜色判断",
+        "Count":  1,
+        "Sources":  "过渡元素颜色与配位行为.md"
+    },
+    {
+        "Target":  "键角与空间排布",
+        "Count":  1,
+        "Sources":  "有机分子的几何构型.md"
+    },
+    {
+        "Target":  "题型-锕系氧化态判断",
+        "Count":  1,
+        "Sources":  "稀土元素.md"
+    },
+    {
+        "Target":  "NCS_NBS_NIS_NFSI亲电卤化",
+        "Count":  1,
+        "Sources":  "诱导效应.md"
+    },
+    {
+        "Target":  "FMO 理论",
+        "Count":  1,
+        "Sources":  "给体-受体相互作用.md"
+    },
+    {
+        "Target":  "放射性衰变",
+        "Count":  1,
+        "Sources":  "反应级数.md"
+    },
+    {
+        "Target":  "题型-构型偏好解释",
+        "Count":  1,
+        "Sources":  "对称性与配位构型.md"
+    },
+    {
+        "Target":  "硫代羰基化合物",
+        "Count":  1,
+        "Sources":  "Lawesson试剂.md"
+    },
+    {
+        "Target":  "同位素标记",
+        "Count":  1,
+        "Sources":  "中间体.md"
+    },
+    {
+        "Target":  "ArrowPushinginInorganicChemistry_101-230_images/8fc50b1c663f686801a6d26decf430b107e338869cac26fde1fb1dd20e5a564.jpg",
+        "Count":  1,
+        "Sources":  "重氮化合物.md"
+    },
+    {
+        "Target":  "烯醇盐化学",
+        "Count":  1,
+        "Sources":  "非对映选择性.md"
+    },
+    {
+        "Target":  "ArrowPushinginInorganicChemistry_101-230_images/cae3d9c177ddb53967060d28a77a0de7d527a910d6bf181e1ce28a171d1a0dda.jpg",
+        "Count":  1,
+        "Sources":  "硅基保护基.md"
+    },
+    {
+        "Target":  "VSEPR模型",
+        "Count":  1,
+        "Sources":  "有机分子的几何构型.md"
+    },
+    {
+        "Target":  "α,β-不饱和羰基合成",
+        "Count":  1,
+        "Sources":  "E1cb反应.md"
+    },
+    {
+        "Target":  "ArrowPushinginInorganicChemistry_231-336_images/704ec006b8a19fea2b615cc51017b09b1457f35c1ecc8466b19be9ba697e1414.jpg",
+        "Count":  1,
+        "Sources":  "Dess-Martin氧化.md"
+    },
+    {
+        "Target":  "碳酸分解",
+        "Count":  1,
+        "Sources":  "质子转移可行性.md"
+    },
+    {
+        "Target":  "题型-保护基策略分析",
+        "Count":  1,
+        "Sources":  "Brook重排.md"
+    },
+    {
+        "Target":  "扩散动力学",
+        "Count":  1,
+        "Sources":  "普鲁士蓝与滕氏蓝.md"
+    },
+    {
+        "Target":  "配合物光谱",
+        "Count":  1,
+        "Sources":  "原子光谱与光谱项.md"
+    },
+    {
+        "Target":  "MPV还原",
+        "Count":  1,
+        "Sources":  "Cannizzaro反应.md"
+    },
+    {
+        "Target":  "纳米化学",
+        "Count":  1,
+        "Sources":  "箱中粒子模型.md"
+    },
+    {
+        "Target":  "螺旋手性",
+        "Count":  1,
+        "Sources":  "手性面.md"
+    },
+    {
+        "Target":  "卤化银",
+        "Count":  1,
+        "Sources":  "难溶物.md"
+    },
+    {
+        "Target":  "Vilsmeier-Haack甲酰化",
+        "Count":  1,
+        "Sources":  "芳香亲电取代反应.md"
+    },
+    {
+        "Target":  "ArrowPushinginInorganicChemistry_101-230_images/280d8611f5bd7949285e42f93be13cfe49c7d9d702bc40037c88ac78ff675b04.jpg",
+        "Count":  1,
+        "Sources":  "重氮化合物.md"
+    },
+    {
+        "Target":  "脂肪族亲核取代反应",
+        "Count":  1,
+        "Sources":  "亲核取代.md"
+    },
+    {
+        "Target":  "亲电取代",
+        "Count":  1,
+        "Sources":  "自由基取代.md"
+    },
+    {
+        "Target":  "有机合成策略",
+        "Count":  1,
+        "Sources":  "催化循环入门.md"
+    },
+    {
+        "Target":  "卤素互化物",
+        "Count":  1,
+        "Sources":  "BrF₃.md"
+    },
+    {
+        "Target":  "酰基正离子",
+        "Count":  1,
+        "Sources":  "碳正离子.md"
+    },
+    {
+        "Target":  "储氢材料",
+        "Count":  1,
+        "Sources":  "氢化物.md"
+    },
+    {
+        "Target":  "提炼-结构化学-第1章-量子力学基础",
+        "Count":  1,
+        "Sources":  "箱中粒子模型.md"
+    },
+    {
+        "Target":  "有机物结构基础",
+        "Count":  1,
+        "Sources":  "有机波谱分析.md"
+    },
+    {
+        "Target":  "Blanc氯甲基化",
+        "Count":  1,
+        "Sources":  "苯酚.md"
+    },
+    {
+        "Target":  "Shapiro反应",
+        "Count":  1,
+        "Sources":  "Wolff-Kishner还原.md"
+    },
+    {
+        "Target":  "提炼-分析化学-第8章",
+        "Count":  1,
+        "Sources":  "沉淀滴定.md"
+    },
+    {
+        "Target":  "ArrowPushinginInorganicChemistry_231-336_images/8696f1dd67f2bf8acfc42c0ffa9a44feb1d088dbfe6dec1b6891af69f63b7f5b.jpg",
+        "Count":  1,
+        "Sources":  "高价碘试剂.md"
+    },
+    {
+        "Target":  "肼",
+        "Count":  1,
+        "Sources":  "Gabriel合成.md"
+    },
+    {
+        "Target":  "羰基保护",
+        "Count":  1,
+        "Sources":  "Corey-Seebach反应.md"
+    },
+    {
+        "Target":  "生物配位化学",
+        "Count":  1,
+        "Sources":  "配合物稳定性.md"
+    },
+    {
+        "Target":  "ArrowPushinginInorganicChemistry_101-230_images/08cd480bd8513eebe028e74c66bad7f200d4e2a47ca83f4c68547ead6f4e9a73.jpg",
+        "Count":  1,
+        "Sources":  "Wolff-Kishner还原.md"
+    },
+    {
+        "Target":  "决赛01-原子结构",
+        "Count":  1,
+        "Sources":  "离域与分子稳定性.md"
+    },
+    {
+        "Target":  "乙酰苯胺",
+        "Count":  1,
+        "Sources":  "苯胺.md"
+    },
+    {
+        "Target":  "摩尔质量",
+        "Count":  1,
+        "Sources":  "密度公式.md"
+    },
+    {
+        "Target":  "环氧化合物合成",
+        "Count":  1,
+        "Sources":  "叶立德.md"
+    },
+    {
+        "Target":  "水杨醛",
+        "Count":  1,
+        "Sources":  "苯酚.md"
+    },
+    {
+        "Target":  "PBr₃氯化",
+        "Count":  1,
+        "Sources":  "SOCl₂氯化.md"
+    },
+    {
+        "Target":  "晶体结构测定",
+        "Count":  1,
+        "Sources":  "键长.md"
+    },
+    {
+        "Target":  "反应监测",
+        "Count":  1,
+        "Sources":  "有机波谱分析.md"
+    },
+    {
+        "Target":  "Robinson增环",
+        "Count":  1,
+        "Sources":  "直接加成与共轭加成.md"
+    },
+    {
+        "Target":  "氨基酮",
+        "Count":  1,
+        "Sources":  "Neber重排.md"
+    },
+    {
+        "Target":  "手性标记法",
+        "Count":  1,
+        "Sources":  "Grossman规则.md"
+    },
+    {
+        "Target":  "cooperative Jahn-Teller效应",
+        "Count":  1,
+        "Sources":  "Jahn-Teller效应.md"
+    },
+    {
+        "Target":  "有机硼化合物",
+        "Count":  1,
+        "Sources":  "Suzuki偶联.md"
+    },
+    {
+        "Target":  "Ch.2 §2.3",
+        "Count":  1,
+        "Sources":  "SN1反应.md"
+    },
+    {
+        "Target":  "羧酸及羧酸衍生物",
+        "Count":  1,
+        "Sources":  "有机酸碱性.md"
+    },
+    {
+        "Target":  "题型-性质比较",
+        "Count":  1,
+        "Sources":  "材料化学.md"
+    },
+    {
+        "Target":  "酯化",
+        "Count":  1,
+        "Sources":  "SN1反应.md"
+    },
+    {
+        "Target":  "题型-预测反应主产物立体化学",
+        "Count":  1,
+        "Sources":  "非对映选择性.md"
+    },
+    {
+        "Target":  "α-烷基化羰基",
+        "Count":  1,
+        "Sources":  "烯醇负离子.md"
+    },
+    {
+        "Target":  "工业催化",
+        "Count":  1,
+        "Sources":  "金属有机与羰基化学.md"
+    },
+    {
+        "Target":  "配合物溶解性",
+        "Count":  1,
+        "Sources":  "溶剂极性.md"
+    },
+    {
+        "Target":  "核化学",
+        "Count":  1,
+        "Sources":  "稀土元素.md"
+    },
+    {
+        "Target":  "36-有机立体化学",
+        "Count":  1,
+        "Sources":  "Dyotropic重排.md"
+    },
+    {
+        "Target":  "题型-稀土性质",
+        "Count":  1,
+        "Sources":  "稀土元素.md"
+    },
+    {
+        "Target":  "端基异构",
+        "Count":  1,
+        "Sources":  "非对映异构.md"
+    },
+    {
+        "Target":  "有机反应的本质",
+        "Count":  1,
+        "Sources":  "场效应.md"
+    },
+    {
+        "Target":  "羰基α位卤化",
+        "Count":  1,
+        "Sources":  "互变异构.md"
+    },
+    {
+        "Target":  "弱酸解离",
+        "Count":  1,
+        "Sources":  "等温方程.md"
+    },
+    {
+        "Target":  "气态反应化学计量",
+        "Count":  1,
+        "Sources":  "标态.md"
+    },
+    {
+        "Target":  "Friedel-Crafts烷基化",
+        "Count":  1,
+        "Sources":  "σ络合物.md"
+    },
+    {
+        "Target":  "电化学",
+        "Count":  1,
+        "Sources":  "钛铬锰铁钴镍铜锌基础元素化学.md"
+    },
+    {
+        "Target":  "ArrowPushinginInorganicChemistry_231-336_images/779201b48b97ac8c623dee17b3f0c77afa70b534b1f4428bf0b0981477a5d37b.jpg",
+        "Count":  1,
+        "Sources":  "Corey-Chaykovsky反应.md"
+    },
+    {
+        "Target":  "ArrowPushinginInorganicChemistry_231-336_images/c721cf2250289e48a1f73ad25c890b11502b4f83dd9ab88c228682f68b88ea69.jpg",
+        "Count":  1,
+        "Sources":  "Dess-Martin氧化.md"
+    },
+    {
+        "Target":  "Felkin-Anh 模型",
+        "Count":  1,
+        "Sources":  "Grossman规则.md"
+    },
+    {
+        "Target":  "酸性比较",
+        "Count":  1,
+        "Sources":  "诱导效应.md"
+    },
+    {
+        "Target":  "文献阅读",
+        "Count":  1,
+        "Sources":  "系统命名法.md"
+    },
+    {
+        "Target":  "1,5-二羰基",
+        "Count":  1,
+        "Sources":  "烯醇负离子.md"
+    },
+    {
+        "Target":  "α卤代羰基",
+        "Count":  1,
+        "Sources":  "诱导效应.md"
+    },
+    {
+        "Target":  "Cram 模型",
+        "Count":  1,
+        "Sources":  "Grossman规则.md"
+    },
+    {
+        "Target":  "ArrowPushinginInorganicChemistry_231-336_images/3e0907800be3c173c28106d9a02eb4d71247c080cbc9d7c091388eba9b712ae0.jpg",
+        "Count":  1,
+        "Sources":  "Dess-Martin氧化.md"
+    },
+    {
+        "Target":  "烯丙基锡试剂",
+        "Count":  1,
+        "Sources":  "Sakurai烯丙基化.md"
+    },
+    {
+        "Target":  "Claisen反应",
+        "Count":  1,
+        "Sources":  "脂肪酸生物合成.md"
+    },
+    {
+        "Target":  "生物膜",
+        "Count":  1,
+        "Sources":  "疏水相互作用.md"
+    },
+    {
+        "Target":  "磷酸烯醇丙酮酸",
+        "Count":  1,
+        "Sources":  "莽草酸途径.md"
+    },
+    {
+        "Target":  "鎓离子消除",
+        "Count":  1,
+        "Sources":  "消除反应.md"
+    },
+    {
+        "Target":  "ZnS型结构",
+        "Count":  1,
+        "Sources":  "离子半径.md"
+    },
+    {
+        "Target":  "题型-f-f光谱分析",
+        "Count":  1,
+        "Sources":  "稀土元素.md"
+    },
+    {
+        "Target":  "54-糖类",
+        "Count":  1,
+        "Sources":  "二糖与多糖.md"
+    },
+    {
+        "Target":  "烯醇硅醚",
+        "Count":  1,
+        "Sources":  "MukaiyamaAldol.md"
+    },
+    {
+        "Target":  "ArrowPushinginInorganicChemistry_101-230_images/e6c5cf7f484ba83a0638a6de4803c2dcf1299a816794e1f581f18bb968311ad6.jpg",
+        "Count":  1,
+        "Sources":  "硅基保护基.md"
+    },
+    {
+        "Target":  "软硬亲核试剂",
+        "Count":  1,
+        "Sources":  "铜锂试剂.md"
+    },
+    {
+        "Target":  "Cotton能级图",
+        "Count":  1,
+        "Sources":  "多电子原子能级.md"
+    },
+    {
+        "Target":  "对苯醌",
+        "Count":  1,
+        "Sources":  "苯酚.md"
+    },
+    {
+        "Target":  "分子组装",
+        "Count":  1,
+        "Sources":  "范德华力.md"
+    },
+    {
+        "Target":  "分析化学",
+        "Count":  1,
+        "Sources":  "缓冲溶液.md"
+    },
+    {
+        "Target":  "53-杂环化合物",
+        "Count":  1,
+        "Sources":  "杂环合成.md"
+    },
+    {
+        "Target":  "原子光谱",
+        "Count":  1,
+        "Sources":  "Bohr模型计算.md"
+    },
+    {
+        "Target":  "顺序规则",
+        "Count":  1,
+        "Sources":  "Grossman规则.md"
+    },
+    {
+        "Target":  "超精细结构",
+        "Count":  1,
+        "Sources":  "Bohr模型计算.md"
+    },
+    {
+        "Target":  "环氧化物",
+        "Count":  1,
+        "Sources":  "Corey-Chaykovsky反应.md"
+    },
+    {
+        "Target":  "工业化学",
+        "Count":  1,
+        "Sources":  "原子经济性与反应选择性.md"
+    },
+    {
+        "Target":  "醇",
+        "Count":  1,
+        "Sources":  "半缩醛.md"
+    },
+    {
+        "Target":  "化竞合成题",
+        "Count":  1,
+        "Sources":  "逆合成分析.md"
+    },
+    {
+        "Target":  "吲哚",
+        "Count":  1,
+        "Sources":  "吡咯.md"
+    },
+    {
+        "Target":  "活化吸电子基团",
+        "Count":  1,
+        "Sources":  "诱导效应.md"
+    },
+    {
+        "Target":  "金属氢化物",
+        "Count":  1,
+        "Sources":  "有机还原反应.md"
+    },
+    {
+        "Target":  "题型-催化剂选择",
+        "Count":  1,
+        "Sources":  "烯烃复分解反应.md"
+    },
+    {
+        "Target":  "反应机理推断",
+        "Count":  1,
+        "Sources":  "前线轨道理论.md"
+    },
+    {
+        "Target":  "硫叶立德",
+        "Count":  1,
+        "Sources":  "Wittig反应.md"
+    },
+    {
+        "Target":  "群论",
+        "Count":  1,
+        "Sources":  "分子对称性初步.md"
+    },
+    {
+        "Target":  "题型-产物立体化学预测",
+        "Count":  1,
+        "Sources":  "环状分子的立体选择性.md"
+    },
+    {
+        "Target":  "硝化反应",
+        "Count":  1,
+        "Sources":  "SEAr定位规则.md"
+    },
+    {
+        "Target":  "阳离子化学",
+        "Count":  1,
+        "Sources":  "Nazarov环化.md"
+    },
+    {
+        "Target":  "ArrowPushinginInorganicChemistry_231-336_images/c833ae7ca0e2b0414e46af507b9b3f3ee5737fc8f06604159ce01614631b3ec9.jpg",
+        "Count":  1,
+        "Sources":  "Dess-Martin氧化.md"
+    },
+    {
+        "Target":  "硅烯醇醚",
+        "Count":  1,
+        "Sources":  "烯醇负离子.md"
+    },
+    {
+        "Target":  "容量分析",
+        "Count":  1,
+        "Sources":  "平衡常数.md"
+    },
+    {
+        "Target":  "含磷化合物",
+        "Count":  1,
+        "Sources":  "Lawesson试剂.md"
+    },
+    {
+        "Target":  "Thorpe-Ingold效应",
+        "Count":  1,
+        "Sources":  "卤代内酯化反应.md"
+    },
+    {
+        "Target":  "标准燃烧热",
+        "Count":  1,
+        "Sources":  "盖斯定律.md"
+    },
+    {
+        "Target":  "Wolff重排",
+        "Count":  1,
+        "Sources":  "Curtius重排.md"
+    },
+    {
+        "Target":  "题型-配位构型判断",
+        "Count":  1,
+        "Sources":  "对称性与配位构型.md"
+    },
+    {
+        "Target":  "ArrowPushinginInorganicChemistry_101-230_images/ccad7a1e598588438a49a46db22cab3c9e0f71388b189b79baa356c67352bf70.jpg",
+        "Count":  1,
+        "Sources":  "重氮化合物.md"
+    },
+    {
+        "Target":  "动态Jahn-Teller效应",
+        "Count":  1,
+        "Sources":  "Jahn-Teller效应.md"
+    },
+    {
+        "Target":  "49-有机合成",
+        "Count":  1,
+        "Sources":  "Dyotropic重排.md"
+    },
+    {
+        "Target":  "Hammett方程",
+        "Count":  1,
+        "Sources":  "诱导效应.md"
+    },
+    {
+        "Target":  "水杨酸",
+        "Count":  1,
+        "Sources":  "苯酚.md"
+    },
+    {
+        "Target":  "累积双键",
+        "Count":  1,
+        "Sources":  "sp杂化.md"
+    },
+    {
+        "Target":  "Pummerer反应",
+        "Count":  1,
+        "Sources":  "SN2反应.md"
+    },
+    {
+        "Target":  "Grubbs催化剂",
+        "Count":  1,
+        "Sources":  "卡宾.md"
+    },
+    {
+        "Target":  "ArrowPushinginInorganicChemistry_101-230_images/c22c0f896e2fb5140bf37a2fad4f40927c5904ea7f93ebce6e4aa44ca4e9baa5.jpg",
+        "Count":  1,
+        "Sources":  "Wittig反应.md"
+    },
+    {
+        "Target":  "卤代烃",
+        "Count":  1,
+        "Sources":  "Reformatsky反应.md"
+    },
+    {
+        "Target":  "有机物的命名",
+        "Count":  1,
+        "Sources":  "构造异构.md"
+    },
+    {
+        "Target":  "α,β-不饱和羰基",
+        "Count":  1,
+        "Sources":  "烯醇负离子.md"
+    },
+    {
+        "Target":  "完整相对路径",
+        "Count":  1,
+        "Sources":  "非对映选择性.md"
+    },
+    {
+        "Target":  "胺类化合物",
+        "Count":  1,
+        "Sources":  "有机酸碱性.md"
+    },
+    {
+        "Target":  "Born-Haber 循环",
+        "Count":  1,
+        "Sources":  "盖斯定律.md"
+    },
+    {
+        "Target":  "ArrowPushinginInorganicChemistry_231-336_images/b3b8ca7d3896c8e1aeee52c057affbbec14e2f52e8707e86542783575f865d61.jpg",
+        "Count":  1,
+        "Sources":  "Swern氧化.md"
+    },
+    {
+        "Target":  "食品化学",
+        "Count":  1,
+        "Sources":  "二糖与多糖.md"
+    },
+    {
+        "Target":  "电池能量密度",
+        "Count":  1,
+        "Sources":  "化学电源.md"
+    },
+    {
+        "Target":  "氰化物",
+        "Count":  1,
+        "Sources":  "安息香缩合.md"
+    },
+    {
+        "Target":  "芳环亲电取代",
+        "Count":  1,
+        "Sources":  "BrF₃.md"
+    },
+    {
+        "Target":  "pH 电极",
+        "Count":  1,
+        "Sources":  "电极.md"
+    },
+    {
+        "Target":  "烯丙基化",
+        "Count":  1,
+        "Sources":  "Sakurai烯丙基化.md"
+    },
+    {
+        "Target":  "决赛要求-元素化学",
+        "Count":  1,
+        "Sources":  "稀土元素.md"
+    },
+    {
+        "Target":  "Kolbe-Schmidt反应",
+        "Count":  1,
+        "Sources":  "苯酚.md"
+    },
+    {
+        "Target":  "反应方向判据",
+        "Count":  1,
+        "Sources":  "标准态.md"
+    },
+    {
+        "Target":  "Ipso取代",
+        "Count":  1,
+        "Sources":  "芳香亲电取代反应.md"
+    },
+    {
+        "Target":  "13-原子结构",
+        "Count":  1,
+        "Sources":  "硼的硫族化合物.md"
+    },
+    {
+        "Target":  "微扰理论",
+        "Count":  1,
+        "Sources":  "箱中粒子模型.md"
+    },
+    {
+        "Target":  "阿伏加德罗定律",
+        "Count":  1,
+        "Sources":  "标态.md"
+    },
+    {
+        "Target":  "Orgel图",
+        "Count":  1,
+        "Sources":  "晶体场理论.md"
+    },
+    {
+        "Target":  "合金",
+        "Count":  1,
+        "Sources":  "金属键.md"
+    },
+    {
+        "Target":  "醇的脱水",
+        "Count":  1,
+        "Sources":  "E1反应.md"
+    },
+    {
+        "Target":  "高分子",
+        "Count":  1,
+        "Sources":  "羧酸衍生物.md"
+    },
+    {
+        "Target":  "ArrowPushinginInorganicChemistry_231-336_images/df9c22ab6b5f4518b6712588ee59c2b499162381a07d976434a0b63d4f8a2a1c.jpg",
+        "Count":  1,
+        "Sources":  "Dess-Martin氧化.md"
+    },
+    {
+        "Target":  "二苯乙醇酸重排",
+        "Count":  1,
+        "Sources":  "Pinacol重排.md"
+    },
+    {
+        "Target":  "提炼-分析化学-第9章",
+        "Count":  1,
+        "Sources":  "重量分析.md"
+    },
+    {
+        "Target":  "蛋白质",
+        "Count":  1,
+        "Sources":  "溶剂化作用.md"
+    },
+    {
+        "Target":  "定位规则",
+        "Count":  1,
+        "Sources":  "芳香亲电取代反应.md"
+    },
+    {
+        "Target":  "溴化反应",
+        "Count":  1,
+        "Sources":  "NBS.md"
+    },
+    {
+        "Target":  "题型-生源合成分析",
+        "Count":  1,
+        "Sources":  "生物碱.md"
+    },
+    {
+        "Target":  "X射线谱",
+        "Count":  1,
+        "Sources":  "Bohr模型计算.md"
+    },
+    {
+        "Target":  "Kw",
+        "Count":  1,
+        "Sources":  "pH.md"
+    },
+    {
+        "Target":  "Claisen缩合初步",
+        "Count":  1,
+        "Sources":  "羰基α位烷基化.md"
+    },
+    {
+        "Target":  "P=O键",
+        "Count":  1,
+        "Sources":  "Lawesson试剂.md"
+    },
+    {
+        "Target":  "题型-水体中金属离子存在形式判断",
+        "Count":  1,
+        "Sources":  "Pourbaix图.md"
+    },
+    {
+        "Target":  "配位平衡计算",
+        "Count":  1,
+        "Sources":  "配合物稳定性.md"
+    },
+    {
+        "Target":  "钝化吸电子基团",
+        "Count":  1,
+        "Sources":  "诱导效应.md"
+    },
+    {
+        "Target":  "Henderson–Hasselbalch 方程",
+        "Count":  1,
+        "Sources":  "解离常数.md"
+    },
+    {
+        "Target":  "卤素离子测定",
+        "Count":  1,
+        "Sources":  "沉淀滴定.md"
+    },
+    {
+        "Target":  "有机活性中间体",
+        "Count":  1,
+        "Sources":  "负氢转移.md"
+    },
+    {
+        "Target":  "题型-选择性控制策略",
+        "Count":  1,
+        "Sources":  "环状分子的立体选择性.md"
+    },
+    {
+        "Target":  "立体化学基础",
+        "Count":  1,
+        "Sources":  "原子经济性与反应选择性.md"
+    },
+    {
+        "Target":  "芳胺合成",
+        "Count":  1,
+        "Sources":  "芳香亲核取代.md"
+    },
+    {
+        "Target":  "题型-IR光谱分析",
+        "Count":  1,
+        "Sources":  "金属有机与羰基化学.md"
+    },
+    {
+        "Target":  "题型-离去基判断",
+        "Count":  1,
+        "Sources":  "Brønsted酸碱观点.md"
+    },
+    {
+        "Target":  "晶体学点群",
+        "Count":  1,
+        "Sources":  "反轴.md"
+    },
+    {
+        "Target":  "题型-d轨道分裂图绘制",
+        "Count":  1,
+        "Sources":  "对称性与配位构型.md"
+    },
+    {
+        "Target":  "硬水软化",
+        "Count":  1,
+        "Sources":  "碱土金属.md"
+    },
+    {
+        "Target":  "氟化学",
+        "Count":  1,
+        "Sources":  "BrF₃.md"
+    },
+    {
+        "Target":  "决赛要求-结构与配位化学深化",
+        "Count":  1,
+        "Sources":  "桥连配体.md"
+    },
+    {
+        "Target":  "酒石酸",
+        "Count":  1,
+        "Sources":  "内消旋体与外消旋体.md"
+    },
+    {
+        "Target":  "固相合成",
+        "Count":  1,
+        "Sources":  "保护基化学.md"
+    },
+    {
+        "Target":  "32-有机反応機理",
+        "Count":  1,
+        "Sources":  "亲核体与亲电体.md"
+    },
+    {
+        "Target":  "提炼-分析化学-第7章",
+        "Count":  1,
+        "Sources":  "氧化还原滴定.md"
+    },
+    {
+        "Target":  "工业有机化学",
+        "Count":  1,
+        "Sources":  "Wacker氧化.md"
+    },
+    {
+        "Target":  "Fischer酯化",
+        "Count":  1,
+        "Sources":  "羧酸衍生物.md"
+    },
+    {
+        "Target":  "羧酸合成",
+        "Count":  1,
+        "Sources":  "Grignard试剂.md"
+    },
+    {
+        "Target":  "硼氢化氧化",
+        "Count":  1,
+        "Sources":  "反马氏加成.md"
+    },
+    {
+        "Target":  "有机反应种类",
+        "Count":  1,
+        "Sources":  "高分子重复单元.md"
+    },
+    {
+        "Target":  "Wittig重排",
+        "Count":  1,
+        "Sources":  "反式共平面.md"
+    },
+    {
+        "Target":  "题型-离子交换分离原理",
+        "Count":  1,
+        "Sources":  "稀土元素.md"
+    },
+    {
+        "Target":  "图名.png",
+        "Count":  1,
+        "Sources":  "非对映选择性.md"
+    },
+    {
+        "Target":  "题型-材料结构推断",
+        "Count":  1,
+        "Sources":  "材料化学.md"
+    },
+    {
+        "Target":  "Birch 还原",
+        "Count":  1,
+        "Sources":  "芳香亲电取代反应.md"
+    },
+    {
+        "Target":  "题型-解释非对映选择性实验结果",
+        "Count":  1,
+        "Sources":  "非对映选择性.md"
+    },
+    {
+        "Target":  "共轭体系",
+        "Count":  1,
+        "Sources":  "分子结构深化.md"
+    },
+    {
+        "Target":  "反应热估算",
+        "Count":  1,
+        "Sources":  "键能.md"
+    },
+    {
+        "Target":  "电离能计算",
+        "Count":  1,
+        "Sources":  "多电子原子能级.md"
+    },
+    {
+        "Target":  "环境化学",
+        "Count":  1,
+        "Sources":  "高分子重复单元.md"
+    },
+    {
+        "Target":  "机理验证",
+        "Count":  1,
+        "Sources":  "动力学同位素效应.md"
+    },
+    {
+        "Target":  "电泳",
+        "Count":  1,
+        "Sources":  "氨基酸与等电点.md"
+    },
+    {
+        "Target":  "ArrowPushinginInorganicChemistry_101-230_images/b0353198f8488d07a1aea451c1bcbf47e9875bb08cf8fdfef77265147cf85128.jpg",
+        "Count":  1,
+        "Sources":  "Wittig反应.md"
+    },
+    {
+        "Target":  "核磁共振",
+        "Count":  1,
+        "Sources":  "有机波谱分析.md"
+    },
+    {
+        "Target":  "色谱分离",
+        "Count":  1,
+        "Sources":  "分子极性.md"
+    },
+    {
+        "Target":  "ArrowPushinginInorganicChemistry_101-230_images/36c589226c3f5cb97fdfc8167e7d0df7e9c6342fd6e86c02d228a5848fad1901.jpg",
+        "Count":  1,
+        "Sources":  "Wolff-Kishner还原.md"
+    },
+    {
+        "Target":  "50-有机分析",
+        "Count":  1,
+        "Sources":  "Dyotropic重排.md"
+    },
+    {
+        "Target":  "45-周环反应",
+        "Count":  1,
+        "Sources":  "呋喃.md"
+    },
+    {
+        "Target":  "阳离子环化",
+        "Count":  1,
+        "Sources":  "SN1反应.md"
+    },
+    {
+        "Target":  "分子机器",
+        "Count":  1,
+        "Sources":  "超分子识别.md"
+    },
+    {
+        "Target":  "Stork烯胺烷基化",
+        "Count":  1,
+        "Sources":  "烯胺.md"
+    },
+    {
+        "Target":  "Faraday定律",
+        "Count":  1,
+        "Sources":  "电解池.md"
+    },
+    {
+        "Target":  "ArrowPushinginInorganicChemistry_101-230_images/51716a9b97e0607a51d03fc58122272e75422713a1e639225abc67ca970d0ce5.jpg",
+        "Count":  1,
+        "Sources":  "Wolff-Kishner还原.md"
+    },
+    {
+        "Target":  "三氟甲基效应",
+        "Count":  1,
+        "Sources":  "诱导效应.md"
+    },
+    {
+        "Target":  "吸收光谱",
+        "Count":  1,
+        "Sources":  "Lambert-Beer定律.md"
+    },
+    {
+        "Target":  "ArrowPushinginInorganicChemistry_101-230_images/31c4faf1da7c0115686a86708c5bb464890cd3a3b13e69f8a873ae804248d8c7.jpg",
+        "Count":  1,
+        "Sources":  "Wittig反应.md"
+    },
+    {
+        "Target":  "1,4-消除",
+        "Count":  1,
+        "Sources":  "反式共平面.md"
+    },
+    {
+        "Target":  "醚化",
+        "Count":  1,
+        "Sources":  "SN1反应.md"
+    },
+    {
+        "Target":  "题型-Frost图分析",
+        "Count":  1,
+        "Sources":  "Frost图.md"
+    },
+    {
+        "Target":  "醌氢醌",
+        "Count":  1,
+        "Sources":  "苯酚.md"
+    },
+    {
+        "Target":  "题型-晶体缺陷计算",
+        "Count":  1,
+        "Sources":  "材料化学.md"
+    },
+    {
+        "Target":  "题型-Pourbaix图分析",
+        "Count":  1,
+        "Sources":  "Pourbaix图.md"
+    },
+    {
+        "Target":  "1_2迁移",
+        "Count":  1,
+        "Sources":  "重排反应.md"
+    },
+    {
+        "Target":  "光谱解析",
+        "Count":  1,
+        "Sources":  "构造异构.md"
+    },
+    {
+        "Target":  "题型-环状反应机理分析",
+        "Count":  1,
+        "Sources":  "环状分子的立体选择性.md"
+    },
+    {
+        "Target":  "有机结构鉴定",
+        "Count":  1,
+        "Sources":  "有机波谱分析.md"
+    },
+    {
+        "Target":  "Schmidt重排",
+        "Count":  1,
+        "Sources":  "Curtius重排.md"
+    },
+    {
+        "Target":  "ArrowPushinginInorganicChemistry_101-230_images/07df36a148bf733e44435f7d5de7e7160ee41bfe9083baa68454b439d57e9a85.jpg)  \u003e 黄鸣龙改良的关键试剂：**乙二醇（高沸点溶剂，b.p. 198 ℃）+ KOH** ——既保证体系处于强碱性，也使温度足够高让 N₂ 离去。  ### 3.2 详细机理（5 步）  #### 步骤 0：腙的形成（不在主机理之列） 酮 + 肼（NH₂-NH₂）→ 腙（hydrazone, R₁R₂C=N-NH₂）+ H₂O  机理：肼的 NH₂ 进攻 C=O，缩水。此为常规缩合，本节略去。  #### 步骤 1：腙被去质子化（强碱） 强碱 OH⁻ 攻击腙的 NH 质子（pKa ≈ 18），形成腙负离子：  ![[ArrowPushinginInorganicChemistry_101-230_images/e852690f80d9f6a161d934eef08f4ce93686e6fc148e8e13a91a90d85dd5cf5e.jpg",
+        "Count":  1,
+        "Sources":  "Wolff-Kishner还原.md"
+    },
+    {
+        "Target":  "沸点规律",
+        "Count":  1,
+        "Sources":  "静电力.md"
+    },
+    {
+        "Target":  "COD测定",
+        "Count":  1,
+        "Sources":  "氧化还原滴定.md"
+    },
+    {
+        "Target":  "聚酮合成",
+        "Count":  1,
+        "Sources":  "脂肪酸生物合成.md"
+    },
+    {
+        "Target":  "薛定谔方程",
+        "Count":  1,
+        "Sources":  "箱中粒子模型.md"
+    },
+    {
+        "Target":  "Schomaker–Stevenson修正",
+        "Count":  1,
+        "Sources":  "共价半径.md"
+    },
+    {
+        "Target":  "Ch.3 鎓离子化学",
+        "Count":  1,
+        "Sources":  "SN1反应.md"
+    },
+    {
+        "Target":  "立体化学控制",
+        "Count":  1,
+        "Sources":  "Lindlar催化剂.md"
+    },
+    {
+        "Target":  "丙二酸酯合成",
+        "Count":  1,
+        "Sources":  "羰基α位烷基化.md"
+    },
+    {
+        "Target":  "Peterson烯烃化",
+        "Count":  1,
+        "Sources":  "含硅化合物.md"
+    },
+    {
+        "Target":  "冰的结构",
+        "Count":  1,
+        "Sources":  "氢键.md"
+    },
+    {
+        "Target":  "题型-产物预测",
+        "Count":  1,
+        "Sources":  "5加2环加成.md"
+    },
+    {
+        "Target":  "蛋白质折叠",
+        "Count":  1,
+        "Sources":  "范德华力.md"
+    },
+    {
+        "Target":  "跨共轭",
+        "Count":  1,
+        "Sources":  "共轭效应.md"
+    },
+    {
+        "Target":  "光电效应",
+        "Count":  1,
+        "Sources":  "Bohr模型计算.md"
+    },
+    {
+        "Target":  "ArrowPushinginInorganicChemistry_231-336_images/e29cd6134013ff39e2537727fc4dbaca407df0d5b5f5e0c2db20108416f5b164.jpg",
+        "Count":  1,
+        "Sources":  "Swern氧化.md"
+    },
+    {
+        "Target":  "ArrowPushinginInorganicChemistry_101-230_images/d253c8275664b3600043bd2a28493e9d3d9f8799e131a29a83ed6fec2161a405.jpg",
+        "Count":  1,
+        "Sources":  "重氮化合物.md"
+    },
+    {
+        "Target":  "磁化学",
+        "Count":  1,
+        "Sources":  "高自旋与低自旋.md"
+    },
+    {
+        "Target":  "配合物中的反馈π键",
+        "Count":  1,
+        "Sources":  "离域π键.md"
+    },
+    {
+        "Target":  "键焓",
+        "Count":  1,
+        "Sources":  "标准生成焓.md"
+    },
+    {
+        "Target":  "分子光谱学初步",
+        "Count":  1,
+        "Sources":  "原子光谱与光谱项.md"
+    },
+    {
+        "Target":  "大环内酯合成",
+        "Count":  1,
+        "Sources":  "Achmatowicz重排.md"
+    },
+    {
+        "Target":  "题型-碱性比较",
+        "Count":  1,
+        "Sources":  "生物碱.md"
+    },
+    {
+        "Target":  "醇的合成",
+        "Count":  1,
+        "Sources":  "Grignard试剂.md"
+    },
+    {
+        "Target":  "冠醚催化",
+        "Count":  1,
+        "Sources":  "SN2反应.md"
+    },
+    {
+        "Target":  "联苯胺重排",
+        "Count":  1,
+        "Sources":  "苯胺.md"
+    },
+    {
+        "Target":  "决赛03-分子间力与氢键",
+        "Count":  1,
+        "Sources":  "分子间相互作用深化.md"
+    },
+    {
+        "Target":  "题-039-8",
+        "Count":  1,
+        "Sources":  "端基效应.md"
+    },
+    {
+        "Target":  "ArrowPushinginInorganicChemistry_101-230_images/92d7aafa5e837183c70d0232c14ce1060b124507b7e623aa1b265c90ae9470c4.jpg",
+        "Count":  1,
+        "Sources":  "Wittig反应.md"
+    },
+    {
+        "Target":  "苯甲醚",
+        "Count":  1,
+        "Sources":  "苯酚.md"
+    },
+    {
+        "Target":  "烯烃的加成反应",
+        "Count":  1,
+        "Sources":  "消除反应.md"
+    },
+    {
+        "Target":  "重金属快速检测",
+        "Count":  1,
+        "Sources":  "比色分析.md"
+    },
+    {
+        "Target":  "同共轭",
+        "Count":  1,
+        "Sources":  "共轭效应.md"
+    },
+    {
+        "Target":  "α 效应",
+        "Count":  1,
+        "Sources":  "反式共平面.md"
+    },
+    {
+        "Target":  "亚磷酸酯",
+        "Count":  1,
+        "Sources":  "Arbuzov反应.md"
+    },
+    {
+        "Target":  "相对论效应",
+        "Count":  1,
+        "Sources":  "多电子原子能级.md"
+    },
+    {
+        "Target":  "电池热力学",
+        "Count":  1,
+        "Sources":  "化学电源.md"
+    },
+    {
+        "Target":  "决赛03-固体结构与性质",
+        "Count":  1,
+        "Sources":  "晶体结构深化.md"
+    },
+    {
+        "Target":  "醇的转化",
+        "Count":  1,
+        "Sources":  "SOCl₂氯化.md"
+    },
+    {
+        "Target":  "HSAB原理",
+        "Count":  1,
+        "Sources":  "α效应.md"
+    },
+    {
+        "Target":  "ArrowPushinginInorganicChemistry_231-336_images/85413a8fb0257b4dc58ff474acfe347e51e2ed8e4c5db500b60d36a4efd775ed.jpg",
+        "Count":  1,
+        "Sources":  "高价碘试剂.md"
+    },
+    {
+        "Target":  "Curtin-Hammett原理",
+        "Count":  1,
+        "Sources":  "热力学控制.md"
+    },
+    {
+        "Target":  "烯醇化学",
+        "Count":  1,
+        "Sources":  "Brønsted酸碱观点.md"
+    },
+    {
+        "Target":  "Meinwald重排",
+        "Count":  1,
+        "Sources":  "环氧化反应.md"
+    },
+    {
+        "Target":  "糖蛋白化学",
+        "Count":  1,
+        "Sources":  "糖的构型与变旋.md"
+    },
+    {
+        "Target":  "题型-反应方向预测",
+        "Count":  1,
+        "Sources":  "Brønsted酸碱观点.md"
+    },
+    {
+        "Target":  "E1/E2 反应",
+        "Count":  1,
+        "Sources":  "溶剂类型.md"
+    },
+    {
+        "Target":  "有机沉淀剂",
+        "Count":  1,
+        "Sources":  "重量分析.md"
+    },
+    {
+        "Target":  "题型-磁性推断电子组态",
+        "Count":  1,
+        "Sources":  "过渡元素颜色与配位行为.md"
+    },
+    {
+        "Target":  "烯丙基金属",
+        "Count":  1,
+        "Sources":  "Sakurai烯丙基化.md"
+    },
+    {
+        "Target":  "端基异构体",
+        "Count":  1,
+        "Sources":  "糖的构型与变旋.md"
+    },
+    {
+        "Target":  "金属卡宾",
+        "Count":  1,
+        "Sources":  "Simmon-Smith反应.md"
+    },
+    {
+        "Target":  "缺陷化学",
+        "Count":  1,
+        "Sources":  "材料化学.md"
+    },
+    {
+        "Target":  "决赛要求-有机化学",
+        "Count":  1,
+        "Sources":  "Eschenmoser碎片化.md"
+    },
+    {
+        "Target":  "Na/NH₃还原",
+        "Count":  1,
+        "Sources":  "Lindlar催化剂.md"
+    },
+    {
+        "Target":  "Appel反应",
+        "Count":  1,
+        "Sources":  "Mitsunobu反应.md"
+    },
+    {
+        "Target":  "水质分析",
+        "Count":  1,
+        "Sources":  "比色分析.md"
+    },
+    {
+        "Target":  "氢化反应",
+        "Count":  1,
+        "Sources":  "烯烃复分解反应.md"
+    },
+    {
+        "Target":  "题型-选择合适试剂控制立体化学",
+        "Count":  1,
+        "Sources":  "非对映选择性.md"
+    },
+    {
+        "Target":  "常见晶体结构",
+        "Count":  1,
+        "Sources":  "晶胞投影图分析.md"
+    },
+    {
+        "Target":  "环蕃化学",
+        "Count":  1,
+        "Sources":  "手性面.md"
+    },
+    {
+        "Target":  "ArrowPushinginInorganicChemistry_231-336_images/e9e4ef7bf43fb8b11fb484124cbd1e5b6c0e32721c36fdb4197b6abd2bb66970.jpg",
+        "Count":  1,
+        "Sources":  "高价碘试剂.md"
+    },
+    {
+        "Target":  "脱羧反应",
+        "Count":  1,
+        "Sources":  "Robinson托品酮合成.md"
+    },
+    {
+        "Target":  "原子序数",
+        "Count":  1,
+        "Sources":  "R-S构型.md"
+    },
+    {
+        "Target":  "van der Waals方程",
+        "Count":  1,
+        "Sources":  "理想气体状态方程.md"
+    },
+    {
+        "Target":  "04-题库",
+        "Count":  1,
+        "Sources":  "非对映选择性.md"
+    },
+    {
+        "Target":  "共沉淀分离",
+        "Count":  1,
+        "Sources":  "重量分析.md"
+    },
+    {
+        "Target":  "Gibbs 自由能",
+        "Count":  1,
+        "Sources":  "盖斯定律.md"
+    },
+    {
+        "Target":  "自由基反应",
+        "Count":  1,
+        "Sources":  "电子转移.md"
+    },
+    {
+        "Target":  "萃取",
+        "Count":  1,
+        "Sources":  "溶解度.md"
+    },
+    {
+        "Target":  "NMR谱学",
+        "Count":  1,
+        "Sources":  "立体电子效应.md"
+    },
+    {
+        "Target":  "ArrowPushinginInorganicChemistry_101-230_images/64878cf4e41f5faa43d5403efe1e328b1154a22810de0e631676c37eec872f7b.jpg",
+        "Count":  1,
+        "Sources":  "重氮化合物.md"
+    },
+    {
+        "Target":  "题型-反应机理判断",
+        "Count":  1,
+        "Sources":  "5加2环加成.md"
+    },
+    {
+        "Target":  "计算化学",
+        "Count":  1,
+        "Sources":  "过渡态.md"
+    },
+    {
+        "Target":  "卤代烷",
+        "Count":  1,
+        "Sources":  "Wurtz偶联.md"
+    },
+    {
+        "Target":  "生成焓",
+        "Count":  1,
+        "Sources":  "盖斯定律.md"
+    },
+    {
+        "Target":  "酰胺化",
+        "Count":  1,
+        "Sources":  "酰基亲核取代.md"
+    },
+    {
+        "Target":  "胶体",
+        "Count":  1,
+        "Sources":  "溶剂化作用.md"
+    },
+    {
+        "Target":  "解离常数测定",
+        "Count":  1,
+        "Sources":  "分光光度法.md"
+    },
+    {
+        "Target":  "锂离子电池",
+        "Count":  1,
+        "Sources":  "化学电源.md"
+    },
+    {
+        "Target":  "磺化反应",
+        "Count":  1,
+        "Sources":  "SEAr定位规则.md"
+    },
+    {
+        "Target":  "变分法",
+        "Count":  1,
+        "Sources":  "箱中粒子模型.md"
+    },
+    {
+        "Target":  "分子结构",
+        "Count":  1,
+        "Sources":  "8电子规则.md"
+    },
+    {
+        "Target":  "误差分析",
+        "Count":  1,
+        "Sources":  "吸光度.md"
+    },
+    {
+        "Target":  "Fajans规则",
+        "Count":  1,
+        "Sources":  "离子键.md"
+    },
+    {
+        "Target":  "异氰酸酯",
+        "Count":  1,
+        "Sources":  "Curtius重排.md"
+    },
+    {
+        "Target":  "卤化物水解",
+        "Count":  1,
+        "Sources":  "对角线规则.md"
+    },
+    {
+        "Target":  "极性反转",
+        "Count":  1,
+        "Sources":  "Corey-Seebach反应.md"
+    },
+    {
+        "Target":  "有机反应",
+        "Count":  1,
+        "Sources":  "系统命名法.md"
+    },
+    {
+        "Target":  "离子化合物",
+        "Count":  1,
+        "Sources":  "电极.md"
+    },
+    {
+        "Target":  "配合物稳定常数",
+        "Count":  1,
+        "Sources":  "化学平衡.md"
+    },
+    {
+        "Target":  "生物大分子",
+        "Count":  1,
+        "Sources":  "超分子识别.md"
+    },
+    {
+        "Target":  "惰性气体保护",
+        "Count":  1,
+        "Sources":  "无水无氧条件.md"
+    },
+    {
+        "Target":  "含氟有机物",
+        "Count":  1,
+        "Sources":  "BrF₃.md"
+    },
+    {
+        "Target":  "脱水反应",
+        "Count":  1,
+        "Sources":  "Bischler-Napieralski反应.md"
+    },
+    {
+        "Target":  "紫外-可见光谱",
+        "Count":  1,
+        "Sources":  "有机分子轨道.md"
+    },
+    {
+        "Target":  "活泼亚甲基",
+        "Count":  1,
+        "Sources":  "Knoevenagel缩合.md"
+    },
+    {
+        "Target":  "酸碱性强弱比较",
+        "Count":  1,
+        "Sources":  "共振论.md"
+    },
+    {
+        "Target":  "自由基环化",
+        "Count":  1,
+        "Sources":  "自由基.md"
+    },
+    {
+        "Target":  "题型-酸性比较",
+        "Count":  1,
+        "Sources":  "Brønsted酸碱观点.md"
+    },
+    {
+        "Target":  "交叉Cannizzaro",
+        "Count":  1,
+        "Sources":  "Cannizzaro反应.md"
+    },
+    {
+        "Target":  "Williamson醚合成",
+        "Count":  1,
+        "Sources":  "SN2反应.md"
+    },
+    {
+        "Target":  "有机锌试剂",
+        "Count":  1,
+        "Sources":  "有机锂试剂.md"
+    },
+    {
+        "Target":  "题型-Latimer图分析",
+        "Count":  1,
+        "Sources":  "Latimer图.md"
+    },
+    {
+        "Target":  "差向异构",
+        "Count":  1,
+        "Sources":  "非对映异构.md"
+    },
+    {
+        "Target":  "摩尔吸光系数",
+        "Count":  1,
+        "Sources":  "吸光度.md"
+    },
+    {
+        "Target":  "精细结构",
+        "Count":  1,
+        "Sources":  "Bohr模型计算.md"
+    },
+    {
+        "Target":  "冠醚化学",
+        "Count":  1,
+        "Sources":  "配合物稳定性.md"
+    },
+    {
+        "Target":  "Ellingham 图",
+        "Count":  1,
+        "Sources":  "单质制备方法.md"
+    },
+    {
+        "Target":  "蛋白质化学",
+        "Count":  1,
+        "Sources":  "氨基酸与等电点.md"
+    },
+    {
+        "Target":  "互变异构体",
+        "Count":  1,
+        "Sources":  "质子转移可行性.md"
+    },
+    {
+        "Target":  "芳醚合成",
+        "Count":  1,
+        "Sources":  "芳香亲核取代.md"
+    },
+    {
+        "Target":  "卤素-锂交换",
+        "Count":  1,
+        "Sources":  "有机锂试剂.md"
+    },
+    {
+        "Target":  "电极电势",
+        "Count":  1,
+        "Sources":  "等温方程.md"
+    },
+    {
+        "Target":  "有机化学基础",
+        "Count":  1,
+        "Sources":  "糖类.md"
+    },
+    {
+        "Target":  "Tebbe试剂",
+        "Count":  1,
+        "Sources":  "Horner-Wadsworth-Emmons反应.md"
+    },
+    {
+        "Target":  "Dalton 分压定律",
+        "Count":  1,
+        "Sources":  "标态.md"
+    },
+    {
+        "Target":  "酮的烷基化",
+        "Count":  1,
+        "Sources":  "互变异构.md"
+    },
+    {
+        "Target":  "分子构型判断",
+        "Count":  1,
+        "Sources":  "偶极矩.md"
+    },
+    {
+        "Target":  "Ch.5 SNAr",
+        "Count":  1,
+        "Sources":  "SN1反应.md"
+    },
+    {
+        "Target":  "合成子",
+        "Count":  1,
+        "Sources":  "逆合成分析.md"
+    },
+    {
+        "Target":  "ArrowPushinginInorganicChemistry_101-230_images/224a7f279b8eb8841afe2ef19308bbc498c122b7489a90239702b89891d97ea4.jpg",
+        "Count":  1,
+        "Sources":  "重氮化合物.md"
+    },
+    {
+        "Target":  "有效核电荷",
+        "Count":  1,
+        "Sources":  "多电子原子能级.md"
+    },
+    {
+        "Target":  "胺",
+        "Count":  1,
+        "Sources":  "亚胺.md"
+    },
+    {
+        "Target":  "ArrowPushinginInorganicChemistry_231-336_images/96c52415bf4e0389fb91ecf0f0226eccade0a5c3b0aa2ef89cd73976ccd33769.jpg",
+        "Count":  1,
+        "Sources":  "Swern氧化.md"
+    },
+    {
+        "Target":  "Cornforth模型",
+        "Count":  1,
+        "Sources":  "立体电子效应.md"
+    },
+    {
+        "Target":  "水解",
+        "Count":  1,
+        "Sources":  "解离常数.md"
+    },
+    {
+        "Target":  "反应介质设计",
+        "Count":  1,
+        "Sources":  "溶剂极性.md"
+    },
+    {
+        "Target":  "烷烃化学",
+        "Count":  1,
+        "Sources":  "sp3杂化.md"
+    },
+    {
+        "Target":  "Tanabe-Sugano图",
+        "Count":  1,
+        "Sources":  "晶体场理论.md"
+    },
+    {
+        "Target":  "材料科学",
+        "Count":  1,
+        "Sources":  "高分子重复单元.md"
+    },
+    {
+        "Target":  "ArrowPushinginInorganicChemistry_101-230_images/397ee788717b01085bd54956a5f3780af8766f91eca1e67f65fd4cbcbfeb06ac.jpg",
+        "Count":  1,
+        "Sources":  "重氮化合物.md"
+    },
+    {
+        "Target":  "题型-设计立体选择性合成路线",
+        "Count":  1,
+        "Sources":  "非对映选择性.md"
+    },
+    {
+        "Target":  "无机化学",
+        "Count":  1,
+        "Sources":  "软硬酸碱理论.md"
+    },
+    {
+        "Target":  "酸催化反应",
+        "Count":  1,
+        "Sources":  "Brønsted酸碱观点.md"
+    },
+    {
+        "Target":  "Fittig反应",
+        "Count":  1,
+        "Sources":  "Wurtz偶联.md"
+    },
+    {
+        "Target":  "方法学",
+        "Count":  1,
+        "Sources":  "铜锂试剂.md"
+    },
+    {
+        "Target":  "题型-镧系收缩应用",
+        "Count":  1,
+        "Sources":  "稀土元素.md"
+    },
+    {
+        "Target":  "题型-羰基化合物反应预测",
+        "Count":  1,
+        "Sources":  "金属有机与羰基化学.md"
+    },
+    {
+        "Target":  "有机化学中的共轭体系",
+        "Count":  1,
+        "Sources":  "离域π键.md"
+    },
+    {
+        "Target":  "不可约表示",
+        "Count":  1,
+        "Sources":  "分子对称性初步.md"
+    },
+    {
+        "Target":  "题型-LFSE计算与热化学解释",
+        "Count":  1,
+        "Sources":  "过渡元素颜色与配位行为.md"
+    },
+    {
+        "Target":  "Le Châtelier原理",
+        "Count":  1,
+        "Sources":  "平衡常数.md"
+    },
+    {
+        "Target":  "电池反应方向",
+        "Count":  1,
+        "Sources":  "电极.md"
+    },
+    {
+        "Target":  "脂类化学",
+        "Count":  1,
+        "Sources":  "顺反异构.md"
+    },
+    {
+        "Target":  "自由基聚合",
+        "Count":  1,
+        "Sources":  "自由基取代.md"
+    }
+]

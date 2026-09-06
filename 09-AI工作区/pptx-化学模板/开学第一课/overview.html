@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>开学第一课 · 总览</title>
+<style>
+  body { margin: 0; padding: 18px 24px; background: #FAF7F0;
+    font-family: "Microsoft YaHei", Arial, sans-serif; }
+  h1 { color: #1B4332; font-size: 20px; margin: 0 0 4px 0; }
+  .sub { color: #6B7280; font-size: 12px; margin-bottom: 14px; }
+  .sub a { color: #B45309; text-decoration: none; }
+  #grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; }
+  .cell { position: relative; background: #FFFFFF; border: 1px solid #DDD6C8; border-radius: 6px;
+    overflow: hidden; cursor: pointer; }
+  .cell:hover { border-color: #E8A33D; box-shadow: 0 2px 10px rgba(0,0,0,0.12); }
+  .cell iframe { width: 960px; height: 540px; border: 0; pointer-events: none;
+    transform: scale(0.2083); transform-origin: top left; }
+  .cell .num { position: absolute; right: 6px; bottom: 4px; color: #6B7280; font-size: 11px;
+    background: rgba(250,247,240,0.85); padding: 0 5px; border-radius: 3px; }
+</style>
+</head>
+<body>
+  <h1>开学第一课 · 25 页总览</h1>
+  <p class="sub">点击任意一页进入放映模式 · <a href="index.html">返回放映</a></p>
+  <div id="grid"></div>
+<script>
+const FILES = [
+  '01-cover.html', '02-daily.html', '03-agri.html', '04-what.html', '05-three.html',
+  '06-table-story.html', '07-nobel.html', '08-central.html', '09-medicine.html', '10-material.html',
+  '11-rare-earth.html', '12-safety.html', '13-beauty.html', '14-summary.html', '15-junior.html',
+  '16-content.html', '17-thinking.html', '18-method.html', '19-traps.html', '20-class.html',
+  '21-notebooks.html', '22-loop.html', '23-mindset.html', '24-words.html', '25-homework.html'
+];
+const grid = document.getElementById('grid');
+FILES.forEach((f, i) => {
+  const cell = document.createElement('div');
+  cell.className = 'cell';
+  cell.innerHTML = '<iframe loading="lazy" src="slides/' + f + '"></iframe><span class="num">' + (i + 1) + ' / 25</span>';
+  // 保持 16:9：iframe 可视区 200x112.5
+  cell.style.height = '112.5px';
+  cell.onclick = () => { location.href = 'index.html#' + (i + 1); };
+  grid.appendChild(cell);
+});
+</script>
+</body>
+</html>

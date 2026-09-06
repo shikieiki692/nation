@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html><head><style>
+html { background: #FFFFFF; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #FFFFFF; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header { background: #1C3F60; padding: 12pt 30pt; }
+.header h1 { color: #FFFFFF; font-size: 22pt; margin: 0; }
+.content { margin: 15pt 30pt; flex: 1; }
+
+.content { margin: 100pt 30pt 15pt 30pt; }
+.warning { background: #FFF3E0; border-left: 6pt solid #FF9800; padding: 8pt 12pt; margin-bottom: 10pt; }
+.warning p { color: #333333; font-size: 11pt; margin: 0; line-height: 1.5; }
+
+</style> </head>
+<body>
+<div class="header"><h1>简化公式的边界判据（最关键）</h1></div>
+<div class="content">
+<div class="warning">
+<p><b>反例</b>：0.010 mol/L 二氯代乙酸（Ka = 4.5×10⁻²）</p>
+<p>c/Ka = 0.22 ≪ 400 ❌ 不可用简化公式</p>
+<p>若错误使用：[H⁺] = 2.1×10⁻² > 0.010（荒谬！）</p>
+<p>精确解：[H⁺] = 8.4×10⁻³，α = 84%</p>
+</div>
+<p style="color:#666666; font-size:10pt; margin:0;">判据来源：α ≤ 5% 时，c/Ka = (1-α)/α² ≈ 400</p>
+</div>
+</body></html>

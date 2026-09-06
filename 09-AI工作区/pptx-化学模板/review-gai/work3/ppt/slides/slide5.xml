@@ -1,0 +1,1023 @@
+<?xml version='1.0' encoding='ASCII'?>
+<p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" xmlns:p15="http://schemas.microsoft.com/office/powerpoint/2012/main" xmlns:p159="http://schemas.microsoft.com/office/powerpoint/2015/09/main" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld name="">
+    <p:bg><p:bgPr><a:solidFill><a:srgbClr val="FAF7F0"/></a:solidFill><a:effectLst/></p:bgPr></p:bg><p:spTree>
+      <p:nvGrpSpPr>
+        <p:cNvPr id="1" name=""/>
+        <p:cNvGrpSpPr/>
+        <p:nvPr>
+          <p:custDataLst>
+            <p:tags r:id="rId3"/>
+          </p:custDataLst>
+        </p:nvPr>
+      </p:nvGrpSpPr>
+      <p:grpSpPr>
+        <a:xfrm>
+          <a:off x="0" y="0"/>
+          <a:ext cx="0" cy="0"/>
+        </a:xfrm>
+      </p:grpSpPr>
+      <p:sp><p:nvSpPr><p:cNvPr id="10150" name="SkinPageNum"/><p:cNvSpPr txBox="1"/><p:nvPr/></p:nvSpPr><p:spPr><a:xfrm><a:off x="7863840" y="4886325"/><a:ext cx="914400" cy="154305"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom><a:noFill/></p:spPr><p:txBody><a:bodyPr wrap="none" lIns="0" tIns="0" rIns="0" bIns="0" rtlCol="0" anchor="t"/><a:lstStyle/><a:p><a:pPr algn="r"/><a:r><a:rPr lang="zh-CN" altLang="en-US" sz="1000" dirty="0"><a:solidFill><a:srgbClr val="6B7280"/></a:solidFill><a:latin typeface="Arial"/><a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/></a:rPr><a:t>5 / 30</a:t></a:r></a:p></p:txBody></p:sp><p:sp><p:nvSpPr><p:cNvPr id="10149" name="SkinFooter"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr><p:spPr><a:xfrm><a:off x="548640" y="4860607"/><a:ext cx="8046720" cy="6172"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom><a:solidFill><a:srgbClr val="DDE5DD"/></a:solidFill><a:ln><a:noFill/></a:ln></p:spPr><p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr lang="zh-CN"><a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/></a:endParaRPr></a:p></p:txBody></p:sp><p:sp><p:nvSpPr><p:cNvPr id="10148" name="SkinProgress"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr><p:spPr><a:xfrm><a:off x="100584" y="4286250"/><a:ext cx="41148" cy="857250"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom><a:solidFill><a:srgbClr val="E8A33D"/></a:solidFill><a:ln><a:noFill/></a:ln></p:spPr><p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr lang="zh-CN"><a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/></a:endParaRPr></a:p></p:txBody></p:sp><p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="2" name="&#30697;&#24418;: &#22278;&#35282; 1" title=""/>
+          <p:cNvSpPr/>
+          <p:nvPr>
+            <p:custDataLst>
+              <p:tags r:id="rId4"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="697230" y="975510"/>
+            <a:ext cx="7863840" cy="3802230"/>
+          </a:xfrm>
+          <a:prstGeom prst="roundRect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+          <a:ln>
+            <a:solidFill>
+              <a:srgbClr val="3BB598"/>
+            </a:solidFill>
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1">
+              <a:shade val="15000"/>
+            </a:schemeClr>
+          </a:lnRef>
+          <a:fillRef idx="1">
+            <a:schemeClr val="accent1"/>
+          </a:fillRef>
+          <a:effectRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="lt1"/>
+          </a:fontRef>
+        </p:style>
+        <p:txBody>
+          <a:bodyPr rtlCol="0" anchor="ctr"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" sz="1350"><a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/></a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="4" name="&#30697;&#24418;: &#22278;&#35282; 3" title=""/>
+          <p:cNvSpPr/>
+          <p:nvPr>
+            <p:custDataLst>
+              <p:tags r:id="rId5"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="1897380" y="733503"/>
+            <a:ext cx="5255447" cy="461377"/>
+          </a:xfrm>
+          <a:prstGeom prst="roundRect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:solidFill>
+            <a:srgbClr val="3BB598"/>
+          </a:solidFill>
+          <a:ln>
+            <a:noFill/>
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1">
+              <a:shade val="15000"/>
+            </a:schemeClr>
+          </a:lnRef>
+          <a:fillRef idx="1">
+            <a:schemeClr val="accent1"/>
+          </a:fillRef>
+          <a:effectRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="lt1"/>
+          </a:fontRef>
+        </p:style>
+        <p:txBody>
+          <a:bodyPr rtlCol="0" anchor="ctr"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" sz="1350"><a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/></a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="8" name="TextBox 2" title=""/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr>
+            <p:custDataLst>
+              <p:tags r:id="rId6"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="873886" y="1263763"/>
+            <a:ext cx="7561454" cy="3287695"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="square" lIns="0" tIns="0" rIns="0" bIns="0" rtlCol="0">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr eaLnBrk="0" latinLnBrk="1" hangingPunct="0">
+              <a:lnSpc>
+                <a:spcPct val="150000"/>
+              </a:lnSpc>
+              <a:spcBef>
+                <a:spcPts val="109"/>
+              </a:spcBef>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>        &#27682;&#26159;&#20803;&#32032;&#21608;&#26399;&#34920;&#20013;&#21407;&#23376;&#24207;&#25968;&#20026;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>1</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>&#30340;&#20803;&#32032;&#65292;&#21547;&#27682;&#20803;&#32032;&#30340;&#29289;&#36136;&#26377; </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>H</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0" baseline="-25000">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>2</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>&#12289;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>H</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0" baseline="-25000">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>2</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>O</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>&#12289;</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr eaLnBrk="0" latinLnBrk="1" hangingPunct="0">
+              <a:lnSpc>
+                <a:spcPct val="150000"/>
+              </a:lnSpc>
+              <a:spcBef>
+                <a:spcPts val="109"/>
+              </a:spcBef>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>H</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0" baseline="-25000">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>2</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>SO</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0" baseline="-25000">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>4</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t> </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>&#31561;&#12290;&#30899;&#26159;&#32452;&#25104;&#29983;&#29289;&#20307;&#30340;&#20027;&#35201;&#20803;&#32032;&#20043;&#19968;&#65292;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>&#37329;&#21018;&#30707;&#12289;&#30707;&#22696;&#12289;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>C</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0" baseline="-25000">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>60</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>&#12289;&#28201;&#23460;&#27668;&#20307;&#20043;&#19968;&#30340;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>CO</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0" baseline="-25000">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>2</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>&#20013;&#37117;&#26377;&#30899;&#20803;&#32032;&#30340;&#36523;&#24433;&#12290;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>Na</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>&#26159;&#19968;&#31181;&#27963;&#27900;&#30340;&#37329;&#23646;&#65292;&#29983;&#29702;&#30416;&#27700;&#20013;&#30340; </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>NaCl</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>&#28342;&#28082;&#12289;&#30897;&#38754;&#37324;&#30340; </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>Na</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0" baseline="-25000">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>2</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>CO</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0" baseline="-25000">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>3</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>&#12289;&#31649;&#36947;&#30095;&#36890;&#21058;&#30340;&#26377;&#25928;&#25104;&#20998; </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>NaOH</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t> </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>&#20013;&#37117;&#21547;&#26377;&#38048;&#20803;&#32032;&#12290;&#38041;&#26159;&#29983;&#38271;&#21457;&#32946;&#25152;&#24517;&#38656;&#30340;&#20803;&#32032;&#65292;&#33258;&#28909;&#31859;&#39277;&#21457;&#28909;&#21253;&#20013;&#30340; </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>CaO</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>&#12289;&#29992;&#26469;&#26432;&#33740;&#38500;&#34411;&#30340;&#27874;&#23572;&#22810;&#28082;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>[</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>&#30001; </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>Ca(OH)</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0" baseline="-25000">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>2 </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>&#21644; </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>CuSO</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0" baseline="-25000">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>4</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t> </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>&#37197;&#21046;&#32780;&#25104;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>]</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>&#12289;&#22823;&#29702;&#30707;&#30340;&#20027;&#35201;&#25104;&#20998; </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>CaCO</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0" baseline="-25000">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>3</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t> </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>&#37117;&#21547;&#26377;&#38041;&#20803;&#32032;&#12290;&#38049;&#26159;&#29983;&#20135;&#32511;&#33394;&#28895;&#33457;&#24517;&#39035;&#28155;&#21152;&#30340;&#19968;&#31181;&#20803;&#32032;&#65292;&#29992;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>x</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>&#23556;&#32447;&#26816;&#26597;&#32928;&#32963;&#30149;&#26102;&#30149;&#20154;&#26381;&#29992;&#30340; </a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>BaSO</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0" baseline="-25000">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>4</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>&#27978;&#28082;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>(</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>&#20439;&#31216;&#38049;&#39184;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>)</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" b="1" kern="0">
+                <a:solidFill>
+                  <a:srgbClr val="000000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>&#24403;&#20013;&#20063;&#21547;&#26377;&#38049;&#20803;&#32032;&#12290;</a:t>
+            </a:r>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" b="1" baseline="-25000">
+              <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+              <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="10" name="&#25991;&#26412;&#26694; 9" title=""/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr>
+            <p:custDataLst>
+              <p:tags r:id="rId7"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="1991173" y="779526"/>
+            <a:ext cx="5161655" cy="369332"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="square">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="l"/>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN">
+                <a:solidFill>
+                  <a:schemeClr val="bg1"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>&#12304;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US">
+                <a:solidFill>
+                  <a:schemeClr val="bg1"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>&#38405;&#35835;&#26448;&#26009;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN">
+                <a:solidFill>
+                  <a:schemeClr val="bg1"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>&#12305;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US">
+                <a:solidFill>
+                  <a:schemeClr val="bg1"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>&#26377;&#38480;&#30340;&#20803;&#32032;&#32452;&#25104;&#20102;&#31181;&#31867;&#32321;&#22810;&#30340;&#29289;&#36136; </a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="5" name="&#30697;&#24418; 4" title="">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{44B71D6D-E7F5-6C64-A83B-71F109017E19}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr/>
+          <p:nvPr>
+            <p:custDataLst>
+              <p:tags r:id="rId8"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="73642" y="99837"/>
+            <a:ext cx="3393878" cy="369332"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="none">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr>
+              <a:tabLst>
+                <a:tab pos="1971675"/>
+              </a:tabLst>
+              <a:defRPr><a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/></a:defRPr>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" b="1" kern="100">
+                <a:solidFill>
+                  <a:srgbClr val="FFFFFF"/>
+                </a:solidFill>
+                <a:latin typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>&#20027;&#39064;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="100">
+                <a:solidFill>
+                  <a:srgbClr val="FFFFFF"/>
+                </a:solidFill>
+                <a:latin typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>1:</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" b="1">
+                <a:solidFill>
+                  <a:srgbClr val="FFFFFF"/>
+                </a:solidFill>
+                <a:effectLst>
+                  <a:glow rad="228600">
+                    <a:srgbClr val="618499">
+                      <a:satMod val="175000"/>
+                      <a:alpha val="40000"/>
+                    </a:srgbClr>
+                  </a:glow>
+                </a:effectLst>
+                <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:sym typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#29289;&#36136;&#30340;&#20998;&#31867;&#26631;&#20934;&#21450;&#20854;&#26041;&#27861;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="zh-CN" b="1">
+              <a:solidFill>
+                <a:srgbClr val="FFFFFF"/>
+              </a:solidFill>
+              <a:effectLst>
+                <a:glow rad="228600">
+                  <a:srgbClr val="618499">
+                    <a:satMod val="175000"/>
+                    <a:alpha val="40000"/>
+                  </a:srgbClr>
+                </a:glow>
+              </a:effectLst>
+              <a:latin typeface="Arial" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+              <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              <a:sym typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+    </p:spTree>
+  </p:cSld>
+  <p:clrMapOvr>
+    <a:masterClrMapping/>
+  </p:clrMapOvr>
+  <p:transition/>
+  <p:timing/>
+</p:sld>

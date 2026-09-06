@@ -1,0 +1,21 @@
+data_NaAlSiO4_nepheline
+_symmetry_space_group_name_H-M   'P 63'
+_cell_length_a    9.9900
+_cell_length_b    9.9900
+_cell_length_c    8.3500
+_cell_angle_alpha 90.000
+_cell_angle_beta  90.000
+_cell_angle_gamma 120.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Na1  Na  0.33333  0.66667  0.25000
+Al1  Al  0.00000  0.00000  0.00000
+Si1  Si  0.33333  0.33333  0.00000
+O1   O   0.12000  0.24000  0.10000
+O2   O   0.50000  0.00000  0.25000
+O3   O   0.25000  0.50000  0.25000

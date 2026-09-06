@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #FFFFFF; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #FFFFFF; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header { background: #1C3F60; padding: 12pt 30pt; }
+.header h1 { color: #FFFFFF; font-size: 22pt; margin: 0; }
+.content { margin: 12pt 30pt; flex: 1; }
+.step { margin-bottom: 6pt; }
+.step-title { color: #1C3F60; font-size: 12pt; font-weight: bold; margin: 0; }
+.step-desc { color: #333333; font-size: 11pt; margin: 0; margin-left: 10pt; }
+.arrow { color: #E07A5F; font-size: 11pt; margin: 0; margin-left: 10pt; margin-bottom: 6pt; }
+.relation { background: #E07A5F; color: #FFFFFF; padding: 5pt 10pt; border-radius: 4pt; font-size: 12pt; font-weight: bold; margin-top: 8pt; }
+</style>
+</head>
+<body>
+<div class="header"><h1>理论演进脉络</h1></div>
+<div class="content">
+<div class="step">
+<p class="step-title">Arrhenius（1887）：酸 = 电离出 H⁺，碱 = 电离出 OH⁻</p>
+</div>
+<p class="arrow">↓ 局限：无法解释 NH₃ 的碱性、非水体系</p>
+<div class="step">
+<p class="step-title">Brønsted（1923）：酸 = 质子给体，碱 = 质子受体</p>
+</div>
+<p class="arrow">↓ 局限：无法解释 BF₃ + NH₃（无质子转移）</p>
+<div class="step">
+<p class="step-title">Lewis（1923）：酸 = 电子对受体，碱 = 电子对给体</p>
+</div>
+<p class="arrow">↓ 局限：过于宽泛，缺乏定量标度</p>
+<div class="step">
+<p class="step-title">HSAB（1963）：在 Lewis 基础上按极化难易分类酸碱</p>
+</div>
+<div class="relation"><p>关系：Arrhenius ⊂ Brønsted ⊂ Lewis</p></div>
+</div>
+</body>
+</html>

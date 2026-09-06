@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ascii"?>
+<Properties xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes" xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties">
+  <Company>&#23398;&#31185;&#32593;</Company>
+  <PresentationFormat>On-screen Show (16:9)</PresentationFormat>
+  <Paragraphs>288</Paragraphs>
+  <Slides>30</Slides>
+  <Notes>8</Notes>
+  <TotalTime>0</TotalTime>
+  <HiddenSlides>0</HiddenSlides>
+  <MMClips>0</MMClips>
+  <ScaleCrop>0</ScaleCrop>
+  <HeadingPairs>
+    <vt:vector baseType="variant" size="6">
+      <vt:variant>
+        <vt:lpstr>Fonts used</vt:lpstr>
+      </vt:variant>
+      <vt:variant>
+        <vt:i4>16</vt:i4>
+      </vt:variant>
+      <vt:variant>
+        <vt:lpstr>Theme</vt:lpstr>
+      </vt:variant>
+      <vt:variant>
+        <vt:i4>1</vt:i4>
+      </vt:variant>
+      <vt:variant>
+        <vt:lpstr>Slide Titles</vt:lpstr>
+      </vt:variant>
+      <vt:variant>
+        <vt:i4>30</vt:i4>
+      </vt:variant>
+    </vt:vector>
+  </HeadingPairs>
+  <TitlesOfParts>
+    <vt:vector baseType="lpstr" size="47">
+      <vt:lpstr>Arial</vt:lpstr>
+      <vt:lpstr>&#24494;&#36719;&#38597;&#40657;</vt:lpstr>
+      <vt:lpstr>&#24188;&#22278;</vt:lpstr>
+      <vt:lpstr>Wingdings</vt:lpstr>
+      <vt:lpstr>Calibri</vt:lpstr>
+      <vt:lpstr>&#24605;&#28304;&#40657;&#20307; CN Medium</vt:lpstr>
+      <vt:lpstr>Times New Roman</vt:lpstr>
+      <vt:lpstr>&#21326;&#25991;&#20013;&#23435;</vt:lpstr>
+      <vt:lpstr>&#23435;&#20307;</vt:lpstr>
+      <vt:lpstr>&#40657;&#20307;</vt:lpstr>
+      <vt:lpstr>Calibri Light</vt:lpstr>
+      <vt:lpstr>&#27721;&#20202;&#26071;&#40657;-85S</vt:lpstr>
+      <vt:lpstr>&#26999;&#20307;</vt:lpstr>
+      <vt:lpstr>ADLaM Display</vt:lpstr>
+      <vt:lpstr>Gill Sans</vt:lpstr>
+      <vt:lpstr>EU-HX</vt:lpstr>
+      <vt:lpstr>A000120141119A01PPBG</vt:lpstr>
+      <vt:lpstr>PowerPoint Presentation</vt:lpstr>
+      <vt:lpstr>PowerPoint Presentation</vt:lpstr>
+      <vt:lpstr>PowerPoint Presentation</vt:lpstr>
+      <vt:lpstr>PowerPoint Presentation</vt:lpstr>
+      <vt:lpstr>PowerPoint Presentation</vt:lpstr>
+      <vt:lpstr>PowerPoint Presentation</vt:lpstr>
+      <vt:lpstr>PowerPoint Presentation</vt:lpstr>
+      <vt:lpstr>PowerPoint Presentation</vt:lpstr>
+      <vt:lpstr>PowerPoint Presentation</vt:lpstr>
+      <vt:lpstr>PowerPoint Presentation</vt:lpstr>
+      <vt:lpstr>PowerPoint Presentation</vt:lpstr>
+      <vt:lpstr>PowerPoint Presentation</vt:lpstr>
+      <vt:lpstr>PowerPoint Presentation</vt:lpstr>
+      <vt:lpstr>PowerPoint Presentation</vt:lpstr>
+      <vt:lpstr>PowerPoint Presentation</vt:lpstr>
+      <vt:lpstr>PowerPoint Presentation</vt:lpstr>
+      <vt:lpstr>PowerPoint Presentation</vt:lpstr>
+      <vt:lpstr>PowerPoint Presentation</vt:lpstr>
+      <vt:lpstr>PowerPoint Presentation</vt:lpstr>
+      <vt:lpstr>PowerPoint Presentation</vt:lpstr>
+      <vt:lpstr>PowerPoint Presentation</vt:lpstr>
+      <vt:lpstr>PowerPoint Presentation</vt:lpstr>
+      <vt:lpstr>PowerPoint Presentation</vt:lpstr>
+      <vt:lpstr>PowerPoint Presentation</vt:lpstr>
+      <vt:lpstr>PowerPoint Presentation</vt:lpstr>
+      <vt:lpstr>PowerPoint Presentation</vt:lpstr>
+      <vt:lpstr>PowerPoint Presentation</vt:lpstr>
+      <vt:lpstr>PowerPoint Presentation</vt:lpstr>
+      <vt:lpstr>PowerPoint Presentation</vt:lpstr>
+      <vt:lpstr>PowerPoint Presentation</vt:lpstr>
+    </vt:vector>
+  </TitlesOfParts>
+  <LinksUpToDate>0</LinksUpToDate>
+  <SharedDoc>0</SharedDoc>
+  <HyperlinksChanged>0</HyperlinksChanged>
+  <Application>Aspose.Slides for Java</Application>
+  <AppVersion>23.0300</AppVersion>
+</Properties>

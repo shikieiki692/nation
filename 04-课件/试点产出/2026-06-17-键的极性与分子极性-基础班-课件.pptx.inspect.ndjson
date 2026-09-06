@@ -1,0 +1,394 @@
+{"kind":"deck","id":"pr/8rue6p","name":"Deck"}
+{"kind":"layout","layoutId":"cce5e890-4954-44b7-9795-87ae2a4ec868","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"15b4a1ac-68c5-46be-b671-0277a4731975","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/o7eceb","slide":1,"title":"键的极性与分子极性","textShapes":8}
+{"kind":"shape","id":"sh/t83itgfm","slide":1,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/mhk3q5o7","slide":1,"bbox":[0,0,1280,150]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":1,"text":"键的极性与分子极性","textPreview":"键的极性与分子极性","textChars":9,"textLines":1,"bbox":[78,206,760,100]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":1,"text":"第一轮基础班桥梁增强课 | 从电负性差出发，建立“先看键，再看形，最后看矢量和”的极性判断链","textPreview":"第一轮基础班桥梁增强课 | 从电负性差出发，建立“先看键，再看形，最后看矢量和”的极性判断链","textChars":46,"textLines":1,"bbox":[78,316,780,88]}
+{"kind":"shape","id":"sh/twra5gbq","slide":1,"bbox":[80,442,128,34]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":1,"text":"CO₂ vs H₂O","textPreview":"CO₂ vs H₂O","textChars":10,"textLines":1,"bbox":[92,450,104,18]}
+{"kind":"shape","id":"sh/bq1oryts","slide":1,"bbox":[222,442,128,34]}
+{"kind":"textbox","id":"sh/47y1kre1","slide":1,"text":"BF₃ vs NH₃","textPreview":"BF₃ vs NH₃","textChars":10,"textLines":1,"bbox":[234,450,104,18]}
+{"kind":"shape","id":"sh/tsvu9kni","slide":1,"bbox":[364,442,154,34]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":1,"text":"CCl₄ vs CH₂Cl₂","textPreview":"CCl₄ vs CH₂Cl₂","textChars":14,"textLines":1,"bbox":[376,450,130,18]}
+{"kind":"shape","id":"sh/gfmlkjm1","slide":1,"bbox":[876,210,304,232]}
+{"kind":"textbox","id":"sh/rytsvu9k","slide":1,"text":"投影定位","textPreview":"投影定位","textChars":4,"textLines":1,"bbox":[894,222,268,22]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":1,"text":"• 这是课堂投影稿，不是全文讲义\n• 重点：判断流程、分子对照、易错点收束","textPreview":"• 这是课堂投影稿，不是全文讲义 | • 重点：判断流程、分子对照、易错点收束","textChars":37,"textLines":2,"bbox":[894,250,268,180]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":1,"text":"键的极性与分子极性 | 第一轮基础班桥梁增强课 | 1","textPreview":"键的极性与分子极性 | 第一轮基础班桥梁增强课 | 1","textChars":27,"textLines":1,"bbox":[64,684,1152,18]}
+{"kind":"notes","id":"nt/o7eceb","slide":1,"text":""}
+{"kind":"slide","id":"sl/a7jv54","slide":2,"title":"LESSON MAP","textShapes":11}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":2,"text":"LESSON MAP","textPreview":"LESSON MAP","textChars":10,"textLines":1,"bbox":[72,54,340,22]}
+{"kind":"textbox","id":"sh/ytsvu9kn","slide":2,"text":"本节问题与判断顺序","textPreview":"本节问题与判断顺序","textChars":9,"textLines":1,"bbox":[72,82,1000,44]}
+{"kind":"textbox","id":"sh/neloj2t8","slide":2,"text":"有极性键的分子，一定有极性吗？","textPreview":"有极性键的分子，一定有极性吗？","textChars":15,"textLines":1,"bbox":[72,124,1040,28]}
+{"kind":"shape","id":"sh/cbulwval","slide":2,"bbox":[72,158,140,0]}
+{"kind":"shape","id":"sh/5sneloj2","slide":2,"bbox":[72,198,514,182]}
+{"kind":"textbox","id":"sh/u54zidon","slide":2,"text":"课堂问题","textPreview":"课堂问题","textChars":4,"textLines":1,"bbox":[92,216,474,26]}
+{"kind":"textbox","id":"sh/nqxs72x4","slide":2,"text":"• 为什么 H₂O 是极性分子，而 CO₂ 不是？\n• 为什么 CCl₄ 每根键都有极性，整体却无极性？","textPreview":"• 为什么 H₂O 是极性分子，而 CO₂ 不是？ | • 为什么 CCl₄ 每根键都有极性，整体却无极性？","textChars":52,"textLines":2,"bbox":[92,254,474,110]}
+{"kind":"shape","id":"sh/gbq1oryt","slide":2,"bbox":[622,198,514,182]}
+{"kind":"textbox","id":"sh/5wjudg7a","slide":2,"text":"最短判断顺序","textPreview":"最短判断顺序","textChars":6,"textLines":1,"bbox":[642,216,474,26]}
+{"kind":"textbox","id":"sh/54zidony","slide":2,"text":"• 1. 这根键有没有极性\n• 2. 构型是否对称\n• 3. 各键矩能否抵消","textPreview":"• 1. 这根键有没有极性 | • 2. 构型是否对称 | • 3. 各键矩能否抵消","textChars":38,"textLines":3,"bbox":[642,254,474,110]}
+{"kind":"textbox","id":"sh/cj6tovah","slide":2,"text":"• 这节课不是背一串结论，而是训练一个可迁移的判断流程\n• 后续遇到新分子，也要按同一顺序走，而不是只记见过的答案","textPreview":"• 这节课不是背一串结论，而是训练一个可迁移的判断流程 | • 后续遇到新分子，也要按同一顺序走，而不是只记见过的答案","textChars":57,"textLines":2,"bbox":[86,430,720,90]}
+{"kind":"shape","id":"sh/nyd0z610","slide":2,"bbox":[836,430,300,118]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":2,"text":"教师提示","textPreview":"教师提示","textChars":4,"textLines":1,"bbox":[854,442,264,22]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":2,"text":"• 先问学生：分子极性和键极性是不是一回事\n• 让学生先说流程，再进例子","textPreview":"• 先问学生：分子极性和键极性是不是一回事 | • 让学生先说流程，再进例子","textChars":36,"textLines":2,"bbox":[854,470,264,66]}
+{"kind":"textbox","id":"sh/cvixczed","slide":2,"text":"键的极性与分子极性 | 第一轮基础班桥梁增强课 | 2","textPreview":"键的极性与分子极性 | 第一轮基础班桥梁增强课 | 2","textChars":27,"textLines":1,"bbox":[64,684,1152,18]}
+{"kind":"notes","id":"nt/a7jv54","slide":2,"text":""}
+{"kind":"slide","id":"sl/vl5u2g","slide":3,"title":"THREE LAYERS","textShapes":24}
+{"kind":"textbox","id":"sh/nqxs72x4","slide":3,"text":"THREE LAYERS","textPreview":"THREE LAYERS","textChars":12,"textLines":1,"bbox":[72,54,340,22]}
+{"kind":"textbox","id":"sh/cbulwval","slide":3,"text":"三层概念先分家","textPreview":"三层概念先分家","textChars":7,"textLines":1,"bbox":[72,82,1000,44]}
+{"kind":"textbox","id":"sh/5sneloj2","slide":3,"text":"先分清谁在“拉电子”，谁在“整体偏向”","textPreview":"先分清谁在“拉电子”，谁在“整体偏向”","textChars":19,"textLines":1,"bbox":[72,124,1040,28]}
+{"kind":"shape","id":"sh/ytsvu9kn","slide":3,"bbox":[72,158,140,0]}
+{"kind":"shape","id":"sh/neloj2t8","slide":3,"bbox":[72,198,160,62]}
+{"kind":"textbox","id":"sh/czed8v6p","slide":3,"text":"概念","textPreview":"概念","textChars":2,"textLines":1,"bbox":[80,205,144,48]}
+{"kind":"shape","id":"sh/5kb6xkf6","slide":3,"bbox":[232,198,200,62]}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":3,"text":"研究对象","textPreview":"研究对象","textChars":4,"textLines":1,"bbox":[240,205,184,48]}
+{"kind":"shape","id":"sh/n29gr2p8","slide":3,"bbox":[432,198,300,62]}
+{"kind":"textbox","id":"sh/fyxobm58","slide":3,"text":"核心问题","textPreview":"核心问题","textChars":4,"textLines":1,"bbox":[440,205,284,48]}
+{"kind":"shape","id":"sh/qd4vmtwr","slide":3,"bbox":[732,198,220,62]}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":3,"text":"一句话记忆","textPreview":"一句话记忆","textChars":5,"textLines":1,"bbox":[740,205,204,48]}
+{"kind":"shape","id":"sh/8jqh0fep","slide":3,"bbox":[72,260,160,62]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":3,"text":"电负性","textPreview":"电负性","textChars":3,"textLines":1,"bbox":[80,267,144,48]}
+{"kind":"shape","id":"sh/qpg3ex0n","slide":3,"bbox":[232,260,200,62]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":3,"text":"分子中的原子","textPreview":"分子中的原子","textChars":6,"textLines":1,"bbox":[240,267,184,48]}
+{"kind":"shape","id":"sh/8v6psfil","slide":3,"bbox":[432,260,300,62]}
+{"kind":"textbox","id":"sh/je9cvixc","slide":3,"text":"谁更会拉电子","textPreview":"谁更会拉电子","textChars":6,"textLines":1,"bbox":[440,267,284,48]}
+{"kind":"shape","id":"sh/qtcj6tov","slide":3,"bbox":[732,260,220,62]}
+{"kind":"textbox","id":"sh/u54zidon","slide":3,"text":"看原子","textPreview":"看原子","textChars":3,"textLines":1,"bbox":[740,267,204,48]}
+{"kind":"shape","id":"sh/nqxs72x4","slide":3,"bbox":[72,322,160,62]}
+{"kind":"textbox","id":"sh/cbulwval","slide":3,"text":"键的极性","textPreview":"键的极性","textChars":4,"textLines":1,"bbox":[80,329,144,48]}
+{"kind":"shape","id":"sh/5sneloj2","slide":3,"bbox":[232,322,200,62]}
+{"kind":"textbox","id":"sh/ytsvu9kn","slide":3,"text":"某一根键","textPreview":"某一根键","textChars":4,"textLines":1,"bbox":[240,329,184,48]}
+{"kind":"shape","id":"sh/neloj2t8","slide":3,"bbox":[432,322,300,62]}
+{"kind":"textbox","id":"sh/czed8v6p","slide":3,"text":"电子云偏向哪一端","textPreview":"电子云偏向哪一端","textChars":8,"textLines":1,"bbox":[440,329,284,48]}
+{"kind":"shape","id":"sh/5kb6xkf6","slide":3,"bbox":[732,322,220,62]}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":3,"text":"看局部","textPreview":"看局部","textChars":3,"textLines":1,"bbox":[740,329,204,48]}
+{"kind":"shape","id":"sh/n29gr2p8","slide":3,"bbox":[72,384,160,62]}
+{"kind":"textbox","id":"sh/d8bat47y","slide":3,"text":"分子极性","textPreview":"分子极性","textChars":4,"textLines":1,"bbox":[80,391,144,48]}
+{"kind":"shape","id":"sh/knih4byh","slide":3,"bbox":[232,384,200,62]}
+{"kind":"textbox","id":"sh/v6psfil0","slide":3,"text":"整个分子","textPreview":"整个分子","textChars":4,"textLines":1,"bbox":[240,391,184,48]}
+{"kind":"shape","id":"sh/2lszqtcj","slide":3,"bbox":[432,384,300,62]}
+{"kind":"textbox","id":"sh/d0z61032","slide":3,"text":"所有偏向加起来还剩不剩","textPreview":"所有偏向加起来还剩不剩","textChars":11,"textLines":1,"bbox":[440,391,284,48]}
+{"kind":"shape","id":"sh/kf6dcbul","slide":3,"bbox":[732,384,220,62]}
+{"kind":"textbox","id":"sh/vu9knih4","slide":3,"text":"看整体","textPreview":"看整体","textChars":3,"textLines":1,"bbox":[740,391,204,48]}
+{"kind":"shape","id":"sh/29gr2p8n","slide":3,"bbox":[72,486,610,122]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":3,"text":"为什么要分三层","textPreview":"为什么要分三层","textChars":7,"textLines":1,"bbox":[92,504,570,26]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":3,"text":"• 很多错误都来自把“原子会拉电子”“某根键有偏向”“整个分子有偶极矩”混成一句话","textPreview":"• 很多错误都来自把“原子会拉电子”“某根键有偏向”“整个分子有偶极矩”混成一句话","textChars":41,"textLines":1,"bbox":[92,542,570,50]}
+{"kind":"shape","id":"sh/oza1gvy9","slide":3,"bbox":[714,486,422,122]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":3,"text":"课堂口令","textPreview":"课堂口令","textChars":4,"textLines":1,"bbox":[734,504,382,26]}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":3,"text":"• 电负性看原子\n• 键极性看局部\n• 分子极性看整体","textPreview":"• 电负性看原子 | • 键极性看局部 | • 分子极性看整体","textChars":27,"textLines":3,"bbox":[734,542,382,50]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":3,"text":"键的极性与分子极性 | 第一轮基础班桥梁增强课 | 3","textPreview":"键的极性与分子极性 | 第一轮基础班桥梁增强课 | 3","textChars":27,"textLines":1,"bbox":[64,684,1152,18]}
+{"kind":"notes","id":"nt/vl5u2g","slide":3,"text":""}
+{"kind":"slide","id":"sl/hihsry","slide":4,"title":"BOND POLARITY","textShapes":22}
+{"kind":"textbox","id":"sh/nyd0z610","slide":4,"text":"BOND POLARITY","textPreview":"BOND POLARITY","textChars":13,"textLines":1,"bbox":[72,54,340,22]}
+{"kind":"textbox","id":"sh/cj6tovah","slide":4,"text":"键为什么会有极性","textPreview":"键为什么会有极性","textChars":8,"textLines":1,"bbox":[72,82,1000,44]}
+{"kind":"textbox","id":"sh/54zidony","slide":4,"text":"先看成键原子的电负性差","textPreview":"先看成键原子的电负性差","textChars":11,"textLines":1,"bbox":[72,124,1040,28]}
+{"kind":"shape","id":"sh/upwb2hwf","slide":4,"bbox":[72,158,140,0]}
+{"kind":"shape","id":"sh/nap4r65w","slide":4,"bbox":[72,204,120,54.5]}
+{"kind":"textbox","id":"sh/cvixczed","slide":4,"text":"键","textPreview":"键","textChars":1,"textLines":1,"bbox":[80,211,104,40.5]}
+{"kind":"shape","id":"sh/5gbq1ory","slide":4,"bbox":[192,204,120,54.5]}
+{"kind":"textbox","id":"sh/u18jqh0f","slide":4,"text":"电负性差","textPreview":"电负性差","textChars":4,"textLines":1,"bbox":[200,211,104,40.5]}
+{"kind":"shape","id":"sh/jm1cfa9w","slide":4,"bbox":[312,204,180,54.5]}
+{"kind":"textbox","id":"sh/b6xkf6dc","slide":4,"text":"课堂判断","textPreview":"课堂判断","textChars":4,"textLines":1,"bbox":[320,211,164,40.5]}
+{"kind":"shape","id":"sh/il0rqd4v","slide":4,"bbox":[72,258.5,120,54.5]}
+{"kind":"textbox","id":"sh/tcj6tova","slide":4,"text":"Cl-Cl","textPreview":"Cl-Cl","textChars":5,"textLines":1,"bbox":[80,265.5,104,40.5]}
+{"kind":"shape","id":"sh/0rqd4vmt","slide":4,"bbox":[192,258.5,120,54.5]}
+{"kind":"textbox","id":"sh/byhgn29g","slide":4,"text":"0","textPreview":"0","textChars":1,"textLines":1,"bbox":[200,265.5,104,40.5]}
+{"kind":"shape","id":"sh/idonyd0z","slide":4,"bbox":[312,258.5,180,54.5]}
+{"kind":"textbox","id":"sh/t47y1kre","slide":4,"text":"非极性键","textPreview":"非极性键","textChars":4,"textLines":1,"bbox":[320,265.5,164,40.5]}
+{"kind":"shape","id":"sh/0je9cvix","slide":4,"bbox":[72,313,120,54.5]}
+{"kind":"textbox","id":"sh/bulwval8","slide":4,"text":"H-Cl","textPreview":"H-Cl","textChars":4,"textLines":1,"bbox":[80,320,104,40.5]}
+{"kind":"shape","id":"sh/i9s36hcr","slide":4,"bbox":[192,313,120,54.5]}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":4,"text":"中等","textPreview":"中等","textChars":2,"textLines":1,"bbox":[200,320,104,40.5]}
+{"kind":"shape","id":"sh/zed8v6ps","slide":4,"bbox":[312,313,180,54.5]}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":4,"text":"极性键","textPreview":"极性键","textChars":3,"textLines":1,"bbox":[320,320,164,40.5]}
+{"kind":"shape","id":"sh/hk3q5o7q","slide":4,"bbox":[72,367.5,120,54.5]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":4,"text":"Na-Cl","textPreview":"Na-Cl","textChars":5,"textLines":1,"bbox":[80,374.5,104,40.5]}
+{"kind":"shape","id":"sh/zqtcj6to","slide":4,"bbox":[192,367.5,120,54.5]}
+{"kind":"textbox","id":"sh/obm58z25","slide":4,"text":"很大","textPreview":"很大","textChars":2,"textLines":1,"bbox":[200,374.5,104,40.5]}
+{"kind":"shape","id":"sh/hwfyxobm","slide":4,"bbox":[312,367.5,180,54.5]}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":4,"text":"离子性很强","textPreview":"离子性很强","textChars":5,"textLines":1,"bbox":[320,374.5,164,40.5]}
+{"kind":"shape","id":"sh/zupwb2hw","slide":4,"bbox":[526,204,610,148]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":4,"text":"这里要立刻纠偏","textPreview":"这里要立刻纠偏","textChars":7,"textLines":1,"bbox":[546,222,570,26]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":4,"text":"• 极性键不等于离子键\n• 极性键只是电子偏了，离子键接近电子转过去","textPreview":"• 极性键不等于离子键 | • 极性键只是电子偏了，离子键接近电子转过去","textChars":34,"textLines":2,"bbox":[546,260,570,76]}
+{"kind":"shape","id":"sh/7u54zido","slide":4,"bbox":[526,380,610,148]}
+{"kind":"textbox","id":"sh/ed8bat47","slide":4,"text":"给分子极性做准备","textPreview":"给分子极性做准备","textChars":8,"textLines":1,"bbox":[546,398,570,26]}
+{"kind":"textbox","id":"sh/lc7u54zi","slide":4,"text":"• 可以把一根极性键看成一个有方向的键矩\n• 后面问分子极性，本质是在问这些键矩加起来还剩不剩","textPreview":"• 可以把一根极性键看成一个有方向的键矩 | • 后面问分子极性，本质是在问这些键矩加起来还剩不剩","textChars":47,"textLines":2,"bbox":[546,436,570,76]}
+{"kind":"shape","id":"sh/wra5gbq1","slide":4,"bbox":[72,470,420,118]}
+{"kind":"textbox","id":"sh/36hcrmhk","slide":4,"text":"课堂动作","textPreview":"课堂动作","textChars":4,"textLines":1,"bbox":[90,482,384,22]}
+{"kind":"textbox","id":"sh/eloj2t83","slide":4,"text":"• 这页不要停太久，目标只是建立“键矩”语言\n• 真正拉开差异的在后面 CO₂ / H₂O 对照","textPreview":"• 这页不要停太久，目标只是建立“键矩”语言 | • 真正拉开差异的在后面 CO₂ / H₂O 对照","textChars":48,"textLines":2,"bbox":[90,510,384,66]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":4,"text":"键的极性与分子极性 | 第一轮基础班桥梁增强课 | 4","textPreview":"键的极性与分子极性 | 第一轮基础班桥梁增强课 | 4","textChars":27,"textLines":1,"bbox":[64,684,1152,18]}
+{"kind":"notes","id":"nt/hihsry","slide":4,"text":""}
+{"kind":"slide","id":"sl/tsw922","slide":5,"title":"COMPARE 1","textShapes":14}
+{"kind":"textbox","id":"sh/5wjudg7a","slide":5,"text":"COMPARE 1","textPreview":"COMPARE 1","textChars":9,"textLines":1,"bbox":[72,54,340,22]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":5,"text":"CO₂ vs H₂O","textPreview":"CO₂ vs H₂O","textChars":10,"textLines":1,"bbox":[72,82,1000,44]}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":5,"text":"同样都有极性键，整体结论却完全相反","textPreview":"同样都有极性键，整体结论却完全相反","textChars":17,"textLines":1,"bbox":[72,124,1040,28]}
+{"kind":"shape","id":"sh/gn29gr2p","slide":5,"bbox":[72,158,140,0]}
+{"kind":"shape","id":"sh/58z25kb6","slide":5,"bbox":[72,198,500,210]}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":5,"text":"CO₂：直线形，键矩完全抵消","textPreview":"CO₂：直线形，键矩完全抵消","textChars":14,"textLines":1,"bbox":[90,214,460,24]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":5,"text":"O","textPreview":"O","textChars":1,"textLines":1,"bbox":[152,284,54,54]}
+{"kind":"textbox","id":"sh/czed8v6p","slide":5,"text":"C","textPreview":"C","textChars":1,"textLines":1,"bbox":[294,280,62,62]}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":5,"text":"O","textPreview":"O","textChars":1,"textLines":1,"bbox":[438,284,54,54]}
+{"kind":"shape","id":"sh/x4nap4r6","slide":5,"bbox":[208,294,80,34]}
+{"kind":"shape","id":"sh/8jqh0fep","slide":5,"bbox":[358,294,80,34]}
+{"kind":"shape","id":"sh/fyxobm58","slide":5,"bbox":[708,198,500,210]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":5,"text":"H₂O：V 形，键矩不能完全抵消","textPreview":"H₂O：V 形，键矩不能完全抵消","textChars":16,"textLines":1,"bbox":[726,214,460,24]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":5,"text":"O","textPreview":"O","textChars":1,"textLines":1,"bbox":[928,288,62,62]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":5,"text":"H","textPreview":"H","textChars":1,"textLines":1,"bbox":[818,246,54,54]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":5,"text":"H","textPreview":"H","textChars":1,"textLines":1,"bbox":[1046,246,54,54]}
+{"kind":"shape","id":"sh/qpg3ex0n","slide":5,"bbox":[870,296,88,30]}
+{"kind":"shape","id":"sh/1gvy90je","slide":5,"bbox":[988,326,88,-30]}
+{"kind":"shape","id":"sh/8z25kb6x","slide":5,"bbox":[858,280,66,34]}
+{"kind":"shape","id":"sh/83itgfml","slide":5,"bbox":[992,280,66,34]}
+{"kind":"shape","id":"sh/xobm58z2","slide":5,"bbox":[72,448,1064,120]}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":5,"text":"这一组一定要讲透","textPreview":"这一组一定要讲透","textChars":8,"textLines":1,"bbox":[92,466,1024,26]}
+{"kind":"textbox","id":"sh/fil0rqd4","slide":5,"text":"• 局部极性不等于整体极性\n• 同样是两根极性键，构型不同，分子极性可能完全相反","textPreview":"• 局部极性不等于整体极性 | • 同样是两根极性键，构型不同，分子极性可能完全相反","textChars":40,"textLines":2,"bbox":[92,504,1024,48]}
+{"kind":"textbox","id":"sh/4fu18jqh","slide":5,"text":"键的极性与分子极性 | 第一轮基础班桥梁增强课 | 5","textPreview":"键的极性与分子极性 | 第一轮基础班桥梁增强课 | 5","textChars":27,"textLines":1,"bbox":[64,684,1152,18]}
+{"kind":"notes","id":"nt/tsw922","slide":5,"text":""}
+{"kind":"slide","id":"sl/14xyv0","slide":6,"title":"SYMMETRY","textShapes":34}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":6,"text":"SYMMETRY","textPreview":"SYMMETRY","textChars":8,"textLines":1,"bbox":[72,54,340,22]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":6,"text":"对称构型常通向非极性","textPreview":"对称构型常通向非极性","textChars":10,"textLines":1,"bbox":[72,82,1000,44]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":6,"text":"第一轮最实用的课堂入口：先看是否高度对称","textPreview":"第一轮最实用的课堂入口：先看是否高度对称","textChars":20,"textLines":1,"bbox":[72,124,1040,28]}
+{"kind":"shape","id":"sh/vmtwra5g","slide":6,"bbox":[72,158,140,0]}
+{"kind":"shape","id":"sh/61032lsz","slide":6,"bbox":[72,196,140,49.33]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":6,"text":"分子","textPreview":"分子","textChars":2,"textLines":1,"bbox":[80,203,124,35.33]}
+{"kind":"shape","id":"sh/o7qpg3ex","slide":6,"bbox":[212,196,200,49.33]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":6,"text":"构型","textPreview":"构型","textChars":2,"textLines":1,"bbox":[220,203,184,35.33]}
+{"kind":"shape","id":"sh/6tovahoz","slide":6,"bbox":[412,196,140,49.33]}
+{"kind":"textbox","id":"sh/c3ylc7u5","slide":6,"text":"键的极性","textPreview":"键的极性","textChars":4,"textLines":1,"bbox":[420,203,124,35.33]}
+{"kind":"shape","id":"sh/1kre1w7m","slide":6,"bbox":[552,196,180,49.33]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":6,"text":"分子极性","textPreview":"分子极性","textChars":4,"textLines":1,"bbox":[560,203,164,35.33]}
+{"kind":"shape","id":"sh/ji5snelo","slide":6,"bbox":[72,245.33,140,49.33]}
+{"kind":"textbox","id":"sh/crmhk3q5","slide":6,"text":"CO₂","textPreview":"CO₂","textChars":3,"textLines":1,"bbox":[80,252.33,124,35.33]}
+{"kind":"shape","id":"sh/1cfa9w3m","slide":6,"bbox":[212,245.33,200,49.33]}
+{"kind":"textbox","id":"sh/ulwval87","slide":6,"text":"直线形","textPreview":"直线形","textChars":3,"textLines":1,"bbox":[220,252.33,184,35.33]}
+{"kind":"shape","id":"sh/j6tovaho","slide":6,"bbox":[412,245.33,140,49.33]}
+{"kind":"textbox","id":"sh/8nqxs72x","slide":6,"text":"有","textPreview":"有","textChars":1,"textLines":1,"bbox":[420,252.33,124,35.33]}
+{"kind":"shape","id":"sh/18jqh0fe","slide":6,"bbox":[552,245.33,180,49.33]}
+{"kind":"textbox","id":"sh/1032lszq","slide":6,"text":"非极性","textPreview":"非极性","textChars":3,"textLines":1,"bbox":[560,252.33,164,35.33]}
+{"kind":"shape","id":"sh/cfa9w3m9","slide":6,"bbox":[72,294.67,140,49.33]}
+{"kind":"textbox","id":"sh/judg7ads","slide":6,"text":"BF₃","textPreview":"BF₃","textChars":3,"textLines":1,"bbox":[80,301.67,124,35.33]}
+{"kind":"shape","id":"sh/u9knih4b","slide":6,"bbox":[212,294.67,200,49.33]}
+{"kind":"textbox","id":"sh/1orytsvu","slide":6,"text":"平面三角形","textPreview":"平面三角形","textChars":5,"textLines":1,"bbox":[220,301.67,184,35.33]}
+{"kind":"shape","id":"sh/c7u54zid","slide":6,"bbox":[412,294.67,140,49.33]}
+{"kind":"textbox","id":"sh/jm1cfa9w","slide":6,"text":"有","textPreview":"有","textChars":1,"textLines":1,"bbox":[420,301.67,124,35.33]}
+{"kind":"shape","id":"sh/u18jqh0f","slide":6,"bbox":[552,294.67,180,49.33]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":6,"text":"非极性","textPreview":"非极性","textChars":3,"textLines":1,"bbox":[560,301.67,164,35.33]}
+{"kind":"shape","id":"sh/cvixczed","slide":6,"bbox":[72,344,140,49.33]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":6,"text":"CCl₄","textPreview":"CCl₄","textChars":4,"textLines":1,"bbox":[80,351,124,35.33]}
+{"kind":"shape","id":"sh/fepkzupw","slide":6,"bbox":[212,344,200,49.33]}
+{"kind":"textbox","id":"sh/4zidonyd","slide":6,"text":"正四面体","textPreview":"正四面体","textChars":4,"textLines":1,"bbox":[220,351,184,35.33]}
+{"kind":"shape","id":"sh/xkf6dcbu","slide":6,"bbox":[412,344,140,49.33]}
+{"kind":"textbox","id":"sh/mlkjm1cf","slide":6,"text":"有","textPreview":"有","textChars":1,"textLines":1,"bbox":[420,351,124,35.33]}
+{"kind":"shape","id":"sh/f6dcbulw","slide":6,"bbox":[552,344,180,49.33]}
+{"kind":"textbox","id":"sh/4r65wjud","slide":6,"text":"非极性","textPreview":"非极性","textChars":3,"textLines":1,"bbox":[560,351,164,35.33]}
+{"kind":"shape","id":"sh/xc3ylc7u","slide":6,"bbox":[72,393.33,140,49.33]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":6,"text":"PF₅","textPreview":"PF₅","textChars":3,"textLines":1,"bbox":[80,400.33,124,35.33]}
+{"kind":"shape","id":"sh/fu18jqh0","slide":6,"bbox":[212,393.33,200,49.33]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":6,"text":"三角双锥","textPreview":"三角双锥","textChars":4,"textLines":1,"bbox":[220,400.33,184,35.33]}
+{"kind":"shape","id":"sh/6dcbulwv","slide":6,"bbox":[412,393.33,140,49.33]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":6,"text":"有","textPreview":"有","textChars":1,"textLines":1,"bbox":[420,400.33,124,35.33]}
+{"kind":"shape","id":"sh/oj2t83it","slide":6,"bbox":[552,393.33,180,49.33]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":6,"text":"非极性","textPreview":"非极性","textChars":3,"textLines":1,"bbox":[560,400.33,164,35.33]}
+{"kind":"shape","id":"sh/61032lsz","slide":6,"bbox":[72,442.67,140,49.33]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":6,"text":"XeF₄","textPreview":"XeF₄","textChars":4,"textLines":1,"bbox":[80,449.67,124,35.33]}
+{"kind":"shape","id":"sh/o7qpg3ex","slide":6,"bbox":[212,442.67,200,49.33]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":6,"text":"平面正方形","textPreview":"平面正方形","textChars":5,"textLines":1,"bbox":[220,449.67,184,35.33]}
+{"kind":"shape","id":"sh/6tovahoz","slide":6,"bbox":[412,442.67,140,49.33]}
+{"kind":"textbox","id":"sh/gr2p8nqx","slide":6,"text":"有","textPreview":"有","textChars":1,"textLines":1,"bbox":[420,449.67,124,35.33]}
+{"kind":"shape","id":"sh/9cvixcze","slide":6,"bbox":[552,442.67,180,49.33]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":6,"text":"非极性","textPreview":"非极性","textChars":3,"textLines":1,"bbox":[560,449.67,164,35.33]}
+{"kind":"shape","id":"sh/r65wjudg","slide":6,"bbox":[768,206,368,122]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":6,"text":"课堂结论 1","textPreview":"课堂结论 1","textChars":6,"textLines":1,"bbox":[788,224,328,26]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":6,"text":"• 构型完全对称时，极性键往往彼此抵消，分子可能无极性","textPreview":"• 构型完全对称时，极性键往往彼此抵消，分子可能无极性","textChars":27,"textLines":1,"bbox":[788,262,328,50]}
+{"kind":"shape","id":"sh/yxobm58z","slide":6,"bbox":[768,350,368,98]}
+{"kind":"textbox","id":"sh/nih4byhg","slide":6,"text":"课堂结论 2","textPreview":"课堂结论 2","textChars":6,"textLines":1,"bbox":[788,368,328,26]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":6,"text":"• 这不是死背清单，而是用构型去判断矢量和","textPreview":"• 这不是死背清单，而是用构型去判断矢量和","textChars":21,"textLines":1,"bbox":[788,406,328,26]}
+{"kind":"shape","id":"sh/9s36hcrm","slide":6,"bbox":[768,472,368,110]}
+{"kind":"textbox","id":"sh/twra5gbq","slide":6,"text":"板书建议","textPreview":"板书建议","textChars":4,"textLines":1,"bbox":[786,484,332,22]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":6,"text":"• 至少把 CO₂、BF₃、CCl₄ 画出来\n• 不要只投表格结论","textPreview":"• 至少把 CO₂、BF₃、CCl₄ 画出来 | • 不要只投表格结论","textChars":33,"textLines":2,"bbox":[786,512,332,58]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":6,"text":"键的极性与分子极性 | 第一轮基础班桥梁增强课 | 6","textPreview":"键的极性与分子极性 | 第一轮基础班桥梁增强课 | 6","textChars":27,"textLines":1,"bbox":[64,684,1152,18]}
+{"kind":"notes","id":"nt/14xyv0","slide":6,"text":""}
+{"kind":"slide","id":"sl/73chg4","slide":7,"title":"ASYMMETRY","textShapes":28}
+{"kind":"textbox","id":"sh/wb2hwfyx","slide":7,"text":"ASYMMETRY","textPreview":"ASYMMETRY","textChars":9,"textLines":1,"bbox":[72,54,340,22]}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":7,"text":"不对称构型常通向极性","textPreview":"不对称构型常通向极性","textChars":10,"textLines":1,"bbox":[72,82,1000,44]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":7,"text":"极性分子往往不是“有极性键”，而是“有剩下的键矩”","textPreview":"极性分子往往不是“有极性键”，而是“有剩下的键矩”","textChars":25,"textLines":1,"bbox":[72,124,1040,28]}
+{"kind":"shape","id":"sh/loj2t83i","slide":7,"bbox":[72,158,140,0]}
+{"kind":"shape","id":"sh/w3m94fu1","slide":7,"bbox":[72,196,120,54]}
+{"kind":"textbox","id":"sh/3itgfmlk","slide":7,"text":"分子","textPreview":"分子","textChars":2,"textLines":1,"bbox":[80,203,104,40]}
+{"kind":"shape","id":"sh/ex0nuxc3","slide":7,"bbox":[192,196,160,54]}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":7,"text":"构型","textPreview":"构型","textChars":2,"textLines":1,"bbox":[200,203,144,40]}
+{"kind":"shape","id":"sh/szqtcj6t","slide":7,"bbox":[352,196,320,54]}
+{"kind":"textbox","id":"sh/il0rqd4v","slide":7,"text":"课堂判断理由","textPreview":"课堂判断理由","textChars":6,"textLines":1,"bbox":[360,203,304,40]}
+{"kind":"shape","id":"sh/b6xkf6dc","slide":7,"bbox":[672,196,160,54]}
+{"kind":"textbox","id":"sh/0rqd4vmt","slide":7,"text":"分子极性","textPreview":"分子极性","textChars":4,"textLines":1,"bbox":[680,203,144,40]}
+{"kind":"shape","id":"sh/tcj6tova","slide":7,"bbox":[72,250,120,54]}
+{"kind":"textbox","id":"sh/idonyd0z","slide":7,"text":"H₂O","textPreview":"H₂O","textChars":3,"textLines":1,"bbox":[80,257,104,40]}
+{"kind":"shape","id":"sh/byhgn29g","slide":7,"bbox":[192,250,160,54]}
+{"kind":"textbox","id":"sh/0je9cvix","slide":7,"text":"V 形","textPreview":"V 形","textChars":3,"textLines":1,"bbox":[200,257,144,40]}
+{"kind":"shape","id":"sh/t47y1kre","slide":7,"bbox":[352,250,320,54]}
+{"kind":"textbox","id":"sh/i9s36hcr","slide":7,"text":"两键矩夹角存在，不能完全抵消","textPreview":"两键矩夹角存在，不能完全抵消","textChars":14,"textLines":1,"bbox":[360,257,304,40]}
+{"kind":"shape","id":"sh/bulwval8","slide":7,"bbox":[672,250,160,54]}
+{"kind":"textbox","id":"sh/3itgfmlk","slide":7,"text":"极性","textPreview":"极性","textChars":2,"textLines":1,"bbox":[680,257,144,40]}
+{"kind":"shape","id":"sh/ex0nuxc3","slide":7,"bbox":[72,304,120,54]}
+{"kind":"textbox","id":"sh/loj2t83i","slide":7,"text":"NH₃","textPreview":"NH₃","textChars":3,"textLines":1,"bbox":[80,311,104,40]}
+{"kind":"shape","id":"sh/w3m94fu1","slide":7,"bbox":[192,304,160,54]}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":7,"text":"三角锥","textPreview":"三角锥","textChars":3,"textLines":1,"bbox":[200,311,144,40]}
+{"kind":"shape","id":"sh/e9cvixcz","slide":7,"bbox":[352,304,320,54]}
+{"kind":"textbox","id":"sh/lwval87e","slide":7,"text":"空间不对称","textPreview":"空间不对称","textChars":5,"textLines":1,"bbox":[360,311,304,40]}
+{"kind":"shape","id":"sh/wb2hwfyx","slide":7,"bbox":[672,304,160,54]}
+{"kind":"textbox","id":"sh/32lszqtc","slide":7,"text":"极性","textPreview":"极性","textChars":2,"textLines":1,"bbox":[680,311,144,40]}
+{"kind":"shape","id":"sh/ahoza1gv","slide":7,"bbox":[72,358,120,54]}
+{"kind":"textbox","id":"sh/knih4byh","slide":7,"text":"CH₃Cl","textPreview":"CH₃Cl","textChars":5,"textLines":1,"bbox":[80,365,104,40]}
+{"kind":"shape","id":"sh/d8bat47y","slide":7,"bbox":[192,358,160,54]}
+{"kind":"textbox","id":"sh/2lszqtcj","slide":7,"text":"四面体但取代不对称","textPreview":"四面体但取代不对称","textChars":9,"textLines":1,"bbox":[200,365,144,40]}
+{"kind":"shape","id":"sh/v6psfil0","slide":7,"bbox":[352,358,320,54]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":7,"text":"C-Cl 键矩不能被其余键完全抵消","textPreview":"C-Cl 键矩不能被其余键完全抵消","textChars":17,"textLines":1,"bbox":[360,365,304,40]}
+{"kind":"shape","id":"sh/d0z61032","slide":7,"bbox":[672,358,160,54]}
+{"kind":"textbox","id":"sh/29gr2p8n","slide":7,"text":"极性","textPreview":"极性","textChars":2,"textLines":1,"bbox":[680,365,144,40]}
+{"kind":"shape","id":"sh/vu9knih4","slide":7,"bbox":[72,412,120,54]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":7,"text":"SO₂","textPreview":"SO₂","textChars":3,"textLines":1,"bbox":[80,419,104,40]}
+{"kind":"shape","id":"sh/donyd0z6","slide":7,"bbox":[192,412,160,54]}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":7,"text":"V 形","textPreview":"V 形","textChars":3,"textLines":1,"bbox":[200,419,144,40]}
+{"kind":"shape","id":"sh/czed8v6p","slide":7,"bbox":[352,412,320,54]}
+{"kind":"textbox","id":"sh/neloj2t8","slide":7,"text":"与 CO₂ 对照可看出构型差异","textPreview":"与 CO₂ 对照可看出构型差异","textChars":15,"textLines":1,"bbox":[360,419,304,40]}
+{"kind":"shape","id":"sh/ytsvu9kn","slide":7,"bbox":[672,412,160,54]}
+{"kind":"textbox","id":"sh/5sneloj2","slide":7,"text":"极性","textPreview":"极性","textChars":2,"textLines":1,"bbox":[680,419,144,40]}
+{"kind":"shape","id":"sh/cbulwval","slide":7,"bbox":[864,210,272,116]}
+{"kind":"textbox","id":"sh/nqxs72x4","slide":7,"text":"课堂追问","textPreview":"课堂追问","textChars":4,"textLines":1,"bbox":[884,228,232,26]}
+{"kind":"textbox","id":"sh/u54zidon","slide":7,"text":"• 如果骨架一样，但取代基不完全相同，还能不能简单说“对称”","textPreview":"• 如果骨架一样，但取代基不完全相同，还能不能简单说“对称”","textChars":30,"textLines":1,"bbox":[884,266,232,44]}
+{"kind":"shape","id":"sh/5wjudg7a","slide":7,"bbox":[864,350,272,116]}
+{"kind":"textbox","id":"sh/gbq1oryt","slide":7,"text":"这就引到下一页","textPreview":"这就引到下一页","textChars":7,"textLines":1,"bbox":[884,368,232,26]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":7,"text":"• CCl₄ 与 CH₂Cl₂ 都是四面体骨架，但极性结论不同","textPreview":"• CCl₄ 与 CH₂Cl₂ 都是四面体骨架，但极性结论不同","textChars":31,"textLines":1,"bbox":[884,406,232,44]}
+{"kind":"textbox","id":"sh/fyxobm58","slide":7,"text":"键的极性与分子极性 | 第一轮基础班桥梁增强课 | 7","textPreview":"键的极性与分子极性 | 第一轮基础班桥梁增强课 | 7","textChars":27,"textLines":1,"bbox":[64,684,1152,18]}
+{"kind":"notes","id":"nt/73chg4","slide":7,"text":""}
+{"kind":"slide","id":"sl/dmwwdc","slide":8,"title":"COMPARE 2","textShapes":9}
+{"kind":"textbox","id":"sh/ed8v6psf","slide":8,"text":"COMPARE 2","textPreview":"COMPARE 2","textChars":9,"textLines":1,"bbox":[72,54,340,22]}
+{"kind":"textbox","id":"sh/p4r65wju","slide":8,"text":"CCl₄ vs CH₂Cl₂","textPreview":"CCl₄ vs CH₂Cl₂","textChars":14,"textLines":1,"bbox":[72,82,1000,44]}
+{"kind":"textbox","id":"sh/wjudg7ad","slide":8,"text":"构型相同，不代表分子极性相同","textPreview":"构型相同，不代表分子极性相同","textChars":14,"textLines":1,"bbox":[72,124,1040,28]}
+{"kind":"shape","id":"sh/7qpg3ex0","slide":8,"bbox":[72,158,140,0]}
+{"kind":"shape","id":"sh/i5sneloj","slide":8,"bbox":[72,204,474,250]}
+{"kind":"textbox","id":"sh/pwb2hwfy","slide":8,"text":"CCl₄","textPreview":"CCl₄","textChars":4,"textLines":1,"bbox":[92,222,434,26]}
+{"kind":"textbox","id":"sh/0bi9s36h","slide":8,"text":"• 正四面体\n• 四个取代基完全相同\n• 四个 C-Cl 键矩彼此抵消\n• 非极性分子","textPreview":"• 正四面体 | • 四个取代基完全相同 | • 四个 C-Cl 键矩彼此抵消 | • 非极性分子","textChars":43,"textLines":4,"bbox":[92,260,434,178]}
+{"kind":"shape","id":"sh/7ed8bat4","slide":8,"bbox":[590,204,546,250]}
+{"kind":"textbox","id":"sh/itgfmlkj","slide":8,"text":"CH₂Cl₂","textPreview":"CH₂Cl₂","textChars":6,"textLines":1,"bbox":[610,222,506,26]}
+{"kind":"textbox","id":"sh/cvixczed","slide":8,"text":"• 四面体骨架\n• 2 个 H + 2 个 Cl，取代不完全对称\n• 各键矩不能完全抵消\n• 极性分子","textPreview":"• 四面体骨架 | • 2 个 H + 2 个 Cl，取代不完全对称 | • 各键矩不能完全抵消 | • 极性分子","textChars":51,"textLines":4,"bbox":[610,260,506,178]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":8,"text":"• 这一页专门处理一个高频误区：'四面体分子一定非极性' 是错的\n• 真正该问的是：是否高度对称，取代是否相同","textPreview":"• 这一页专门处理一个高频误区：'四面体分子一定非极性' 是错的 | • 真正该问的是：是否高度对称，取代是否相同","textChars":55,"textLines":2,"bbox":[86,500,1040,70]}
+{"kind":"textbox","id":"sh/upwb2hwf","slide":8,"text":"键的极性与分子极性 | 第一轮基础班桥梁增强课 | 8","textPreview":"键的极性与分子极性 | 第一轮基础班桥梁增强课 | 8","textChars":27,"textLines":1,"bbox":[64,684,1152,18]}
+{"kind":"notes","id":"nt/dmwwdc","slide":8,"text":""}
+{"kind":"slide","id":"sl/zil4vv","slide":9,"title":"FLOW","textShapes":22}
+{"kind":"textbox","id":"sh/5wjudg7a","slide":9,"text":"FLOW","textPreview":"FLOW","textChars":4,"textLines":1,"bbox":[72,54,340,22]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":9,"text":"第一轮判断流程卡","textPreview":"第一轮判断流程卡","textChars":8,"textLines":1,"bbox":[72,82,1000,44]}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":9,"text":"碰到常见主族分子，优先按这四步走","textPreview":"碰到常见主族分子，优先按这四步走","textChars":16,"textLines":1,"bbox":[72,124,1040,28]}
+{"kind":"shape","id":"sh/gn29gr2p","slide":9,"bbox":[72,158,140,0]}
+{"kind":"shape","id":"sh/58z25kb6","slide":9,"bbox":[72,214,240,150]}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":9,"text":"Step 1","textPreview":"Step 1","textChars":6,"textLines":1,"bbox":[92,232,200,26]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":9,"text":"• 先写 Lewis 结构，确认中心原子周围电子对","textPreview":"• 先写 Lewis 结构，确认中心原子周围电子对","textChars":25,"textLines":1,"bbox":[92,270,200,78]}
+{"kind":"shape","id":"sh/czed8v6p","slide":9,"bbox":[334,214,240,150]}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":9,"text":"Step 2","textPreview":"Step 2","textChars":6,"textLines":1,"bbox":[354,232,200,26]}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":9,"text":"• 用 VSEPR 判断空间构型","textPreview":"• 用 VSEPR 判断空间构型","textChars":16,"textLines":1,"bbox":[354,270,200,78]}
+{"kind":"shape","id":"sh/8jqh0fep","slide":9,"bbox":[596,214,240,150]}
+{"kind":"textbox","id":"sh/fyxobm58","slide":9,"text":"Step 3","textPreview":"Step 3","textChars":6,"textLines":1,"bbox":[616,232,200,26]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":9,"text":"• 判断每根键是否有极性","textPreview":"• 判断每根键是否有极性","textChars":12,"textLines":1,"bbox":[616,270,200,78]}
+{"kind":"shape","id":"sh/xczed8v6","slide":9,"bbox":[858,214,278,150]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":9,"text":"Step 4","textPreview":"Step 4","textChars":6,"textLines":1,"bbox":[878,232,238,26]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":9,"text":"• 检查键矩能否因对称性而抵消","textPreview":"• 检查键矩能否因对称性而抵消","textChars":15,"textLines":1,"bbox":[878,270,238,78]}
+{"kind":"shape","id":"sh/qpg3ex0n","slide":9,"bbox":[72,404,250,47]}
+{"kind":"textbox","id":"sh/1gvy90je","slide":9,"text":"适合立刻练的分子","textPreview":"适合立刻练的分子","textChars":8,"textLines":1,"bbox":[80,411,234,33]}
+{"kind":"shape","id":"sh/8z25kb6x","slide":9,"bbox":[322,404,430,47]}
+{"kind":"textbox","id":"sh/83itgfml","slide":9,"text":"这一步主要练什么","textPreview":"这一步主要练什么","textChars":8,"textLines":1,"bbox":[330,411,414,33]}
+{"kind":"shape","id":"sh/xobm58z2","slide":9,"bbox":[72,451,250,47]}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":9,"text":"CO₂ / H₂O","textPreview":"CO₂ / H₂O","textChars":9,"textLines":1,"bbox":[80,458,234,33]}
+{"kind":"shape","id":"sh/fil0rqd4","slide":9,"bbox":[322,451,430,47]}
+{"kind":"textbox","id":"sh/4fu18jqh","slide":9,"text":"同样有极性键，构型不同","textPreview":"同样有极性键，构型不同","textChars":11,"textLines":1,"bbox":[330,458,414,33]}
+{"kind":"shape","id":"sh/x0nuxc3y","slide":9,"bbox":[72,498,250,47]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":9,"text":"BF₃ / NH₃","textPreview":"BF₃ / NH₃","textChars":9,"textLines":1,"bbox":[80,505,234,33]}
+{"kind":"shape","id":"sh/fu18jqh0","slide":9,"bbox":[322,498,430,47]}
+{"kind":"textbox","id":"sh/4r65wjud","slide":9,"text":"平面三角 vs 三角锥","textPreview":"平面三角 vs 三角锥","textChars":11,"textLines":1,"bbox":[330,505,414,33]}
+{"kind":"shape","id":"sh/xc3ylc7u","slide":9,"bbox":[72,545,250,47]}
+{"kind":"textbox","id":"sh/nap4r65w","slide":9,"text":"CCl₄ / CH₂Cl₂ / CH₃Cl","textPreview":"CCl₄ / CH₂Cl₂ / CH₃Cl","textChars":21,"textLines":1,"bbox":[80,552,234,33]}
+{"kind":"shape","id":"sh/upwb2hwf","slide":9,"bbox":[322,545,430,47]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":9,"text":"同骨架下的取代对称性","textPreview":"同骨架下的取代对称性","textChars":10,"textLines":1,"bbox":[330,552,414,33]}
+{"kind":"shape","id":"sh/cvixczed","slide":9,"bbox":[790,406,346,186]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":9,"text":"课堂用法","textPreview":"课堂用法","textChars":4,"textLines":1,"bbox":[808,418,310,22]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":9,"text":"• 做题前先停在这一页\n• 让学生先口头报流程，不要直接报极性","textPreview":"• 做题前先停在这一页 | • 让学生先口头报流程，不要直接报极性","textChars":31,"textLines":2,"bbox":[808,446,310,134]}
+{"kind":"textbox","id":"sh/54zidony","slide":9,"text":"键的极性与分子极性 | 第一轮基础班桥梁增强课 | 9","textPreview":"键的极性与分子极性 | 第一轮基础班桥梁增强课 | 9","textChars":27,"textLines":1,"bbox":[64,684,1152,18]}
+{"kind":"notes","id":"nt/zil4vv","slide":9,"text":""}
+{"kind":"slide","id":"sl/dw2kd5","slide":10,"title":"EXAMPLES","textShapes":14}
+{"kind":"textbox","id":"sh/hoza1gvy","slide":10,"text":"EXAMPLES","textPreview":"EXAMPLES","textChars":8,"textLines":1,"bbox":[72,54,340,22]}
+{"kind":"textbox","id":"sh/a1gvy90j","slide":10,"text":"例题承接页","textPreview":"例题承接页","textChars":5,"textLines":1,"bbox":[72,82,1000,44]}
+{"kind":"textbox","id":"sh/zidonyd0","slide":10,"text":"先讲最小对照，再进综合判断","textPreview":"先讲最小对照，再进综合判断","textChars":13,"textLines":1,"bbox":[72,124,1040,28]}
+{"kind":"shape","id":"sh/svu9knih","slide":10,"bbox":[72,158,140,0]}
+{"kind":"shape","id":"sh/hgn29gr2","slide":10,"bbox":[72,196,332,124]}
+{"kind":"textbox","id":"sh/ap4r65wj","slide":10,"text":"例题 1","textPreview":"例题 1","textChars":4,"textLines":1,"bbox":[92,214,292,26]}
+{"kind":"textbox","id":"sh/za1gvy90","slide":10,"text":"• 比较 HCl、HBr、HI 三种键的极性大小规律","textPreview":"• 比较 HCl、HBr、HI 三种键的极性大小规律","textChars":26,"textLines":1,"bbox":[92,252,292,52]}
+{"kind":"shape","id":"sh/sji5snel","slide":10,"bbox":[424,196,332,124]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":10,"text":"例题 2","textPreview":"例题 2","textChars":4,"textLines":1,"bbox":[444,214,292,26]}
+{"kind":"textbox","id":"sh/p4r65wju","slide":10,"text":"• 判断 CO₂ 和 H₂O 的分子极性，并解释原因","textPreview":"• 判断 CO₂ 和 H₂O 的分子极性，并解释原因","textChars":26,"textLines":1,"bbox":[444,252,292,52]}
+{"kind":"shape","id":"sh/wjudg7ad","slide":10,"bbox":[776,196,360,124]}
+{"kind":"textbox","id":"sh/7y1kre1w","slide":10,"text":"例题 3","textPreview":"例题 3","textChars":4,"textLines":1,"bbox":[796,214,320,26]}
+{"kind":"textbox","id":"sh/ed8v6psf","slide":10,"text":"• 判断 BF₃、NH₃、CCl₄、CH₃Cl 的分子极性","textPreview":"• 判断 BF₃、NH₃、CCl₄、CH₃Cl 的分子极性","textChars":29,"textLines":1,"bbox":[796,252,320,52]}
+{"kind":"shape","id":"sh/pwb2hwfy","slide":10,"bbox":[72,360,1064,118]}
+{"kind":"textbox","id":"sh/0bi9s36h","slide":10,"text":"例题 4","textPreview":"例题 4","textChars":4,"textLines":1,"bbox":[92,378,1024,26]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":10,"text":"• 判断 CO₂、SO₂、CH₂Cl₂、XeF₄ 的分子极性，并说明依据","textPreview":"• 判断 CO₂、SO₂、CH₂Cl₂、XeF₄ 的分子极性，并说明依据","textChars":36,"textLines":1,"bbox":[92,416,1024,46]}
+{"kind":"shape","id":"sh/i5sneloj","slide":10,"bbox":[72,514,1064,92]}
+{"kind":"textbox","id":"sh/pkzupwb2","slide":10,"text":"页序建议","textPreview":"页序建议","textChars":4,"textLines":1,"bbox":[90,526,1028,22]}
+{"kind":"textbox","id":"sh/0z61032l","slide":10,"text":"• 先 1 再 2，打透“局部 vs 整体”\n• 再 3、4，把构型和取代对称性都扫一遍","textPreview":"• 先 1 再 2，打透“局部 vs 整体” | • 再 3、4，把构型和取代对称性都扫一遍","textChars":44,"textLines":2,"bbox":[90,554,1028,40]}
+{"kind":"textbox","id":"sh/w7mp0bi9","slide":10,"text":"键的极性与分子极性 | 第一轮基础班桥梁增强课 | 10","textPreview":"键的极性与分子极性 | 第一轮基础班桥梁增强课 | 10","textChars":28,"textLines":1,"bbox":[64,684,1152,18]}
+{"kind":"notes","id":"nt/dw2kd5","slide":10,"text":""}
+{"kind":"slide","id":"sl/5x7mvx","slide":11,"title":"ERRORS","textShapes":21}
+{"kind":"textbox","id":"sh/7u54zido","slide":11,"text":"ERRORS","textPreview":"ERRORS","textChars":6,"textLines":1,"bbox":[72,54,340,22]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":11,"text":"易错点总表","textPreview":"易错点总表","textChars":5,"textLines":1,"bbox":[72,82,1000,44]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":11,"text":"最后一轮快扫，最适合课堂收口","textPreview":"最后一轮快扫，最适合课堂收口","textChars":14,"textLines":1,"bbox":[72,124,1040,28]}
+{"kind":"shape","id":"sh/eloj2t83","slide":11,"bbox":[72,158,140,0]}
+{"kind":"shape","id":"sh/36hcrmhk","slide":11,"bbox":[72,198,250,58.4]}
+{"kind":"textbox","id":"sh/wra5gbq1","slide":11,"text":"错误想法","textPreview":"错误想法","textChars":4,"textLines":1,"bbox":[80,205,234,44.4]}
+{"kind":"shape","id":"sh/lc7u54zi","slide":11,"bbox":[322,198,360,58.4]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":11,"text":"为什么错","textPreview":"为什么错","textChars":4,"textLines":1,"bbox":[330,205,344,44.4]}
+{"kind":"shape","id":"sh/7adsji5s","slide":11,"bbox":[682,198,454,58.4]}
+{"kind":"textbox","id":"sh/nqxs72x4","slide":11,"text":"正确理解","textPreview":"正确理解","textChars":4,"textLines":1,"bbox":[690,205,438,44.4]}
+{"kind":"shape","id":"sh/u54zidon","slide":11,"bbox":[72,256.4,250,58.4]}
+{"kind":"textbox","id":"sh/5sneloj2","slide":11,"text":"有极性键就一定是极性分子","textPreview":"有极性键就一定是极性分子","textChars":12,"textLines":1,"bbox":[80,263.4,234,44.4]}
+{"kind":"shape","id":"sh/cbulwval","slide":11,"bbox":[322,256.4,360,58.4]}
+{"kind":"textbox","id":"sh/neloj2t8","slide":11,"text":"忽略构型与矢量抵消","textPreview":"忽略构型与矢量抵消","textChars":9,"textLines":1,"bbox":[330,263.4,344,44.4]}
+{"kind":"shape","id":"sh/ytsvu9kn","slide":11,"bbox":[682,256.4,454,58.4]}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":11,"text":"先看键，再看形，再看和","textPreview":"先看键，再看形，再看和","textChars":11,"textLines":1,"bbox":[690,263.4,438,44.4]}
+{"kind":"shape","id":"sh/czed8v6p","slide":11,"bbox":[72,314.8,250,58.4]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":11,"text":"极性键就是离子键","textPreview":"极性键就是离子键","textChars":8,"textLines":1,"bbox":[80,321.8,234,44.4]}
+{"kind":"shape","id":"sh/yhgn29gr","slide":11,"bbox":[322,314.8,360,58.4]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":11,"text":"把“偏”误解成“转移”","textPreview":"把“偏”误解成“转移”","textChars":11,"textLines":1,"bbox":[330,321.8,344,44.4]}
+{"kind":"shape","id":"sh/z25kb6xk","slide":11,"bbox":[682,314.8,454,58.4]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":11,"text":"极性共价键仍然是共用电子","textPreview":"极性共价键仍然是共用电子","textChars":12,"textLines":1,"bbox":[690,321.8,438,44.4]}
+{"kind":"shape","id":"sh/d8v6psfi","slide":11,"bbox":[72,373.2,250,58.4]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":11,"text":"对称就是看上去差不多","textPreview":"对称就是看上去差不多","textChars":10,"textLines":1,"bbox":[80,380.2,234,44.4]}
+{"kind":"shape","id":"sh/vahoza1g","slide":11,"bbox":[322,373.2,360,58.4]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":11,"text":"没有先确定空间构型","textPreview":"没有先确定空间构型","textChars":9,"textLines":1,"bbox":[330,380.2,344,44.4]}
+{"kind":"shape","id":"sh/dg7adsji","slide":11,"bbox":[682,373.2,454,58.4]}
+{"kind":"textbox","id":"sh/61032lsz","slide":11,"text":"必须先确定 VSEPR 构型","textPreview":"必须先确定 VSEPR 构型","textChars":14,"textLines":1,"bbox":[690,380.2,438,44.4]}
+{"kind":"shape","id":"sh/vmtwra5g","slide":11,"bbox":[72,431.6,250,58.4]}
+{"kind":"textbox","id":"sh/loj2t83i","slide":11,"text":"四面体分子一定非极性","textPreview":"四面体分子一定非极性","textChars":10,"textLines":1,"bbox":[80,438.6,234,44.4]}
+{"kind":"shape","id":"sh/w3m94fu1","slide":11,"bbox":[322,431.6,360,58.4]}
+{"kind":"textbox","id":"sh/3itgfmlk","slide":11,"text":"忽略取代是否相同","textPreview":"忽略取代是否相同","textChars":8,"textLines":1,"bbox":[330,438.6,344,44.4]}
+{"kind":"shape","id":"sh/ex0nuxc3","slide":11,"bbox":[682,431.6,454,58.4]}
+{"kind":"textbox","id":"sh/lwval87e","slide":11,"text":"只有高度对称且取代相同才易完全抵消","textPreview":"只有高度对称且取代相同才易完全抵消","textChars":17,"textLines":1,"bbox":[690,438.6,438,44.4]}
+{"kind":"shape","id":"sh/wb2hwfyx","slide":11,"bbox":[72,526,1064,78]}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":11,"text":"推荐课堂动作","textPreview":"推荐课堂动作","textChars":6,"textLines":1,"bbox":[92,544,1024,26]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":11,"text":"• 讲完这一页后，可以让学生回头给前面的例题逐一对照自己属于哪类错误","textPreview":"• 讲完这一页后，可以让学生回头给前面的例题逐一对照自己属于哪类错误","textChars":34,"textLines":1,"bbox":[92,582,1024,6]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":11,"text":"键的极性与分子极性 | 第一轮基础班桥梁增强课 | 11","textPreview":"键的极性与分子极性 | 第一轮基础班桥梁增强课 | 11","textChars":28,"textLines":1,"bbox":[64,684,1152,18]}
+{"kind":"notes","id":"nt/5x7mvx","slide":11,"text":""}
+{"kind":"slide","id":"sl/17yxgv","slide":12,"title":"WRAP-UP","textShapes":10}
+{"kind":"textbox","id":"sh/ex0nuxc3","slide":12,"text":"WRAP-UP","textPreview":"WRAP-UP","textChars":7,"textLines":1,"bbox":[72,54,340,22]}
+{"kind":"textbox","id":"sh/loj2t83i","slide":12,"text":"本节收束","textPreview":"本节收束","textChars":4,"textLines":1,"bbox":[72,82,1000,44]}
+{"kind":"textbox","id":"sh/w3m94fu1","slide":12,"text":"先把判断顺序说顺，再追求做题速度","textPreview":"先把判断顺序说顺，再追求做题速度","textChars":16,"textLines":1,"bbox":[72,124,1040,28]}
+{"kind":"shape","id":"sh/3q5o7qpg","slide":12,"bbox":[72,158,140,0]}
+{"kind":"shape","id":"sh/e9cvixcz","slide":12,"bbox":[72,202,520,210]}
+{"kind":"textbox","id":"sh/lwval87e","slide":12,"text":"下课前至少带走三句话","textPreview":"下课前至少带走三句话","textChars":10,"textLines":1,"bbox":[92,220,480,26]}
+{"kind":"textbox","id":"sh/wb2hwfyx","slide":12,"text":"• 键的极性看电负性差\n• 分子极性看键矩矢量和\n• 构型对称性与取代对称性同样重要","textPreview":"• 键的极性看电负性差 | • 分子极性看键矩矢量和 | • 构型对称性与取代对称性同样重要","textChars":42,"textLines":3,"bbox":[92,258,480,138]}
+{"kind":"shape","id":"sh/32lszqtc","slide":12,"bbox":[624,202,512,210]}
+{"kind":"textbox","id":"sh/ahoza1gv","slide":12,"text":"课后立刻自测","textPreview":"课后立刻自测","textChars":6,"textLines":1,"bbox":[644,220,472,26]}
+{"kind":"textbox","id":"sh/cj6tovah","slide":12,"text":"• 1. CO₂ / H₂O\n• 2. BF₃ / NH₃\n• 3. CCl₄ / CH₂Cl₂ / CH₃Cl","textPreview":"• 1. CO₂ / H₂O | • 2. BF₃ / NH₃ | • 3. CCl₄ / CH₂Cl₂ / CH₃Cl","textChars":56,"textLines":3,"bbox":[644,258,472,138]}
+{"kind":"shape","id":"sh/54zidony","slide":12,"bbox":[72,456,1064,96]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":12,"text":"最后一句","textPreview":"最后一句","textChars":4,"textLines":1,"bbox":[90,468,1028,22]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":12,"text":"• 一乱就回到流程卡：先键、再形、后矢量和\n• 这节桥梁课的目标不是多，而是把判断顺序固定住","textPreview":"• 一乱就回到流程卡：先键、再形、后矢量和 | • 这节桥梁课的目标不是多，而是把判断顺序固定住","textChars":46,"textLines":2,"bbox":[90,496,1028,44]}
+{"kind":"textbox","id":"sh/cvixczed","slide":12,"text":"键的极性与分子极性 | 第一轮基础班桥梁增强课 | 12","textPreview":"键的极性与分子极性 | 第一轮基础班桥梁增强课 | 12","textChars":28,"textLines":1,"bbox":[64,684,1152,18]}
+{"kind":"notes","id":"nt/17yxgv","slide":12,"text":""}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ascii"?>
+<p:notes xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
+  <p:cSld>
+    <p:spTree>
+      <p:nvGrpSpPr>
+        <p:cNvPr id="1" name=""/>
+        <p:cNvGrpSpPr/>
+        <p:nvPr/>
+      </p:nvGrpSpPr>
+      <p:grpSpPr/>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="2" name="Notes Placeholder 1"/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr>
+            <p:ph type="body"/>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="0" y="0"/>
+            <a:ext cx="0" cy="0"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" sz="1200" noProof="1"/>
+              <a:t>&#31232;&#22303;&#19981;&#26159;&#12300;&#22303;&#12301;&#65292;&#26159; 17 &#31181;&#37329;&#23646;&#20803;&#32032;&#65292;&#38590;&#22312;&#20114;&#30456;&#20998;&#31163;&#8212;&#8212;&#23427;&#20204;&#24615;&#36136;&#22826;&#20687;&#20102;&#12290;&#24464;&#20809;&#23466;&#24314;&#31435;&#20018;&#32423;&#33795;&#21462;&#29702;&#35770;&#65292;&#22823;&#30333;&#35805;&#65306;&#29992;&#28342;&#21058;&#20687;&#25509;&#21147;&#36187;&#19968;&#26679;&#65292;&#19968;&#36941;&#21448;&#19968;&#36941;&#22320;&#25226;&#31232;&#22303;&#20804;&#24351;&#36880;&#20010;&#20998;&#24320;&#12290;&#20182;&#22240;&#27492;&#33719; 2008 &#24180;&#22269;&#23478;&#26368;&#39640;&#31185;&#23398;&#25216;&#26415;&#22870;&#12290;&#65288;&#26469;&#28304;&#65306;&#30693;&#35782;&#24211;/&#20844;&#24320;&#25253;&#36947;&#65289;&#65288;2 min&#65289;</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+    </p:spTree>
+  </p:cSld>
+  <p:clrMapOvr>
+    <a:masterClrMapping/>
+  </p:clrMapOvr>
+</p:notes>

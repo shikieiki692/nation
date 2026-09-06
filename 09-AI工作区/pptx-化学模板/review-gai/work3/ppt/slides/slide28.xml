@@ -1,0 +1,2795 @@
+<?xml version='1.0' encoding='ASCII'?>
+<p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" xmlns:p15="http://schemas.microsoft.com/office/powerpoint/2012/main" xmlns:p159="http://schemas.microsoft.com/office/powerpoint/2015/09/main" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld name="">
+    <p:bg><p:bgPr><a:solidFill><a:srgbClr val="FAF7F0"/></a:solidFill><a:effectLst/></p:bgPr></p:bg><p:spTree>
+      <p:nvGrpSpPr>
+        <p:cNvPr id="1" name="">
+          <a:extLst>
+            <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+              <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{3408673F-8724-92A8-6ED5-800AC7F9B9DE}"/>
+            </a:ext>
+          </a:extLst>
+        </p:cNvPr>
+        <p:cNvGrpSpPr/>
+        <p:nvPr>
+          <p:custDataLst>
+            <p:tags r:id="rId2"/>
+          </p:custDataLst>
+        </p:nvPr>
+      </p:nvGrpSpPr>
+      <p:grpSpPr>
+        <a:xfrm>
+          <a:off x="0" y="0"/>
+          <a:ext cx="0" cy="0"/>
+        </a:xfrm>
+      </p:grpSpPr>
+      <p:sp><p:nvSpPr><p:cNvPr id="10219" name="SkinPageNum"/><p:cNvSpPr txBox="1"/><p:nvPr/></p:nvSpPr><p:spPr><a:xfrm><a:off x="7863840" y="4886325"/><a:ext cx="914400" cy="154305"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom><a:noFill/></p:spPr><p:txBody><a:bodyPr wrap="none" lIns="0" tIns="0" rIns="0" bIns="0" rtlCol="0" anchor="t"/><a:lstStyle/><a:p><a:pPr algn="r"/><a:r><a:rPr lang="zh-CN" altLang="en-US" sz="1000" dirty="0"><a:solidFill><a:srgbClr val="6B7280"/></a:solidFill><a:latin typeface="Arial"/><a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/></a:rPr><a:t>28 / 30</a:t></a:r></a:p></p:txBody></p:sp><p:sp><p:nvSpPr><p:cNvPr id="10218" name="SkinFooter"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr><p:spPr><a:xfrm><a:off x="548640" y="4860607"/><a:ext cx="8046720" cy="6172"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom><a:solidFill><a:srgbClr val="DDE5DD"/></a:solidFill><a:ln><a:noFill/></a:ln></p:spPr><p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr lang="zh-CN"><a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/></a:endParaRPr></a:p></p:txBody></p:sp><p:sp><p:nvSpPr><p:cNvPr id="10217" name="SkinProgress"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr><p:spPr><a:xfrm><a:off x="100584" y="342900"/><a:ext cx="41148" cy="4800600"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom><a:solidFill><a:srgbClr val="E8A33D"/></a:solidFill><a:ln><a:noFill/></a:ln></p:spPr><p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr lang="zh-CN"><a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/></a:endParaRPr></a:p></p:txBody></p:sp><p:pic>
+        <p:nvPicPr>
+          <p:cNvPr id="12" name="&#22270;&#29255; 11" title="">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{68420539-BF9A-680E-A384-71DAFC3CA307}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvPicPr>
+            <a:picLocks noChangeAspect="1"/>
+          </p:cNvPicPr>
+          <p:nvPr>
+            <p:custDataLst>
+              <p:tags r:id="rId4"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvPicPr>
+        <p:blipFill>
+          <a:blip r:embed="rId3"/>
+          <a:stretch>
+            <a:fillRect/>
+          </a:stretch>
+        </p:blipFill>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="289019" y="562610"/>
+            <a:ext cx="664845" cy="744220"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+        </p:spPr>
+      </p:pic>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="13" name="&#25991;&#26412;&#26694; 12" title="">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{0D0DCA7B-D950-6A95-C6AB-20CD7D53A090}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr>
+            <p:custDataLst>
+              <p:tags r:id="rId5"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="984966" y="474345"/>
+            <a:ext cx="1500505" cy="460375"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+          <a:ln w="25400">
+            <a:solidFill>
+              <a:srgbClr val="00B0F0"/>
+            </a:solidFill>
+          </a:ln>
+          <a:effectLst>
+            <a:glow rad="228600">
+              <a:schemeClr val="accent2">
+                <a:satMod val="175000"/>
+                <a:alpha val="40000"/>
+              </a:schemeClr>
+            </a:glow>
+          </a:effectLst>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="square">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" sz="2400" b="1">
+                <a:solidFill>
+                  <a:srgbClr val="00B0F0"/>
+                </a:solidFill>
+                <a:latin typeface="Arial" panose="02010600030101010101" pitchFamily="2" charset="-122"/>
+                <a:cs typeface="&#23435;&#20307;" panose="02010600030101010101" pitchFamily="2" charset="-122"/>
+              <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/></a:rPr>
+              <a:t>&#35838;&#22530;&#26816;&#27979;</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:grpSp>
+        <p:nvGrpSpPr>
+          <p:cNvPr id="14" name="&#32452;&#21512; 13" title="">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{B4290E0D-27D6-E6C6-9230-4E06E7923385}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvGrpSpPr/>
+          <p:nvPr>
+            <p:custDataLst>
+              <p:tags r:id="rId6"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvGrpSpPr>
+        <p:grpSpPr>
+          <a:xfrm>
+            <a:off x="773430" y="1150620"/>
+            <a:ext cx="2783205" cy="7620"/>
+            <a:chOff x="2017" y="1426"/>
+            <a:chExt cx="4383" cy="12"/>
+          </a:xfrm>
+        </p:grpSpPr>
+        <p:cxnSp>
+          <p:nvCxnSpPr>
+            <p:cNvPr id="15" name="&#30452;&#25509;&#36830;&#25509;&#31526; 14">
+              <a:extLst>
+                <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                  <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{C5B2988C-21D3-087D-3F53-B698BCEE71F6}"/>
+                </a:ext>
+              </a:extLst>
+            </p:cNvPr>
+            <p:cNvCxnSpPr/>
+            <p:nvPr>
+              <p:custDataLst>
+                <p:tags r:id="rId7"/>
+              </p:custDataLst>
+            </p:nvPr>
+          </p:nvCxnSpPr>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="2017" y="1426"/>
+              <a:ext cx="1403" cy="9"/>
+            </a:xfrm>
+            <a:prstGeom prst="line">
+              <a:avLst/>
+            </a:prstGeom>
+            <a:ln w="38100">
+              <a:solidFill>
+                <a:srgbClr val="3D87BA"/>
+              </a:solidFill>
+            </a:ln>
+          </p:spPr>
+          <p:style>
+            <a:lnRef idx="1">
+              <a:schemeClr val="accent1"/>
+            </a:lnRef>
+            <a:fillRef idx="0">
+              <a:schemeClr val="accent1"/>
+            </a:fillRef>
+            <a:effectRef idx="0">
+              <a:schemeClr val="accent1"/>
+            </a:effectRef>
+            <a:fontRef idx="minor">
+              <a:schemeClr val="tx1"/>
+            </a:fontRef>
+          </p:style>
+        </p:cxnSp>
+        <p:cxnSp>
+          <p:nvCxnSpPr>
+            <p:cNvPr id="16" name="&#30452;&#25509;&#36830;&#25509;&#31526; 15">
+              <a:extLst>
+                <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                  <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{834455F8-1CA4-7192-851B-3E0B11FA7FB2}"/>
+                </a:ext>
+              </a:extLst>
+            </p:cNvPr>
+            <p:cNvCxnSpPr/>
+            <p:nvPr>
+              <p:custDataLst>
+                <p:tags r:id="rId8"/>
+              </p:custDataLst>
+            </p:nvPr>
+          </p:nvCxnSpPr>
+          <p:spPr>
+            <a:xfrm>
+              <a:off x="3400" y="1434"/>
+              <a:ext cx="3000" cy="4"/>
+            </a:xfrm>
+            <a:prstGeom prst="line">
+              <a:avLst/>
+            </a:prstGeom>
+            <a:ln w="38100">
+              <a:gradFill>
+                <a:gsLst>
+                  <a:gs pos="0">
+                    <a:schemeClr val="accent1">
+                      <a:lumMod val="5000"/>
+                      <a:lumOff val="95000"/>
+                    </a:schemeClr>
+                  </a:gs>
+                  <a:gs pos="100000">
+                    <a:srgbClr val="3F83BC"/>
+                  </a:gs>
+                  <a:gs pos="100000">
+                    <a:schemeClr val="accent1">
+                      <a:lumMod val="45000"/>
+                      <a:lumOff val="55000"/>
+                    </a:schemeClr>
+                  </a:gs>
+                  <a:gs pos="100000">
+                    <a:schemeClr val="accent1">
+                      <a:lumMod val="30000"/>
+                      <a:lumOff val="70000"/>
+                    </a:schemeClr>
+                  </a:gs>
+                </a:gsLst>
+                <a:lin ang="10800000" scaled="1"/>
+              </a:gradFill>
+              <a:prstDash val="sysDash"/>
+            </a:ln>
+          </p:spPr>
+          <p:style>
+            <a:lnRef idx="1">
+              <a:schemeClr val="accent1"/>
+            </a:lnRef>
+            <a:fillRef idx="0">
+              <a:schemeClr val="accent1"/>
+            </a:fillRef>
+            <a:effectRef idx="0">
+              <a:schemeClr val="accent1"/>
+            </a:effectRef>
+            <a:fontRef idx="minor">
+              <a:schemeClr val="tx1"/>
+            </a:fontRef>
+          </p:style>
+        </p:cxnSp>
+      </p:grpSp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="7" name="&#25991;&#26412;&#26694; 6" title=""/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr>
+            <p:custDataLst>
+              <p:tags r:id="rId9"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="621441" y="1306830"/>
+            <a:ext cx="5646420" cy="415498"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+          <a:ln w="9525">
+            <a:noFill/>
+          </a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="square">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr indent="200025"/>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" sz="2100" b="1">
+                <a:latin typeface="Arial"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                <a:sym typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>5.</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" sz="2100" b="1">
+                <a:latin typeface="Arial"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+              </a:rPr>
+              <a:t>&#19979;&#21015;&#29289;&#36136;&#30340;&#20998;&#31867;&#27491;&#30830;&#30340;&#26159;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" sz="2100" b="1">
+                <a:latin typeface="Arial"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+              </a:rPr>
+              <a:t>(</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" sz="2100" b="1">
+                <a:latin typeface="Arial"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+              </a:rPr>
+              <a:t>&#12288;&#12288;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" sz="2100" b="1">
+                <a:latin typeface="Arial"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+              </a:rPr>
+              <a:t>)</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="en-US" sz="2100" b="1">
+              <a:latin typeface="Arial"/>
+              <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+              <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:graphicFrame>
+        <p:nvGraphicFramePr>
+          <p:cNvPr id="8" name="&#34920;&#26684; 7" title="">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{0AD438C8-5423-ACCB-FD2E-FCEE5174E35E}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvGraphicFramePr>
+            <a:graphicFrameLocks noGrp="1"/>
+          </p:cNvGraphicFramePr>
+          <p:nvPr>
+            <p:custDataLst>
+              <p:tags r:id="rId10"/>
+            </p:custDataLst>
+            <p:extLst>
+              <p:ext uri="{D42A27DB-BD31-4B8C-83A1-F6EECF244321}">
+                <p14:modId xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" val="3936198373"/>
+              </p:ext>
+            </p:extLst>
+          </p:nvPr>
+        </p:nvGraphicFramePr>
+        <p:xfrm>
+          <a:off x="839039" y="1902460"/>
+          <a:ext cx="6602730" cy="2475167"/>
+        </p:xfrm>
+        <a:graphic>
+          <a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/table">
+            <a:tbl>
+              <a:tblPr/>
+              <a:tblGrid>
+                <a:gridCol w="388144">
+                  <a:extLst>
+                    <a:ext uri="{9D8B030D-6E8A-4147-A177-3AD203B41FA5}">
+                      <a16:colId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" val="20000"/>
+                    </a:ext>
+                  </a:extLst>
+                </a:gridCol>
+                <a:gridCol w="1063466">
+                  <a:extLst>
+                    <a:ext uri="{9D8B030D-6E8A-4147-A177-3AD203B41FA5}">
+                      <a16:colId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" val="20001"/>
+                    </a:ext>
+                  </a:extLst>
+                </a:gridCol>
+                <a:gridCol w="960120">
+                  <a:extLst>
+                    <a:ext uri="{9D8B030D-6E8A-4147-A177-3AD203B41FA5}">
+                      <a16:colId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" val="20002"/>
+                    </a:ext>
+                  </a:extLst>
+                </a:gridCol>
+                <a:gridCol w="978456">
+                  <a:extLst>
+                    <a:ext uri="{9D8B030D-6E8A-4147-A177-3AD203B41FA5}">
+                      <a16:colId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" val="20003"/>
+                    </a:ext>
+                  </a:extLst>
+                </a:gridCol>
+                <a:gridCol w="1613535">
+                  <a:extLst>
+                    <a:ext uri="{9D8B030D-6E8A-4147-A177-3AD203B41FA5}">
+                      <a16:colId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" val="20004"/>
+                    </a:ext>
+                  </a:extLst>
+                </a:gridCol>
+                <a:gridCol w="1599009">
+                  <a:extLst>
+                    <a:ext uri="{9D8B030D-6E8A-4147-A177-3AD203B41FA5}">
+                      <a16:colId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" val="20005"/>
+                    </a:ext>
+                  </a:extLst>
+                </a:gridCol>
+              </a:tblGrid>
+              <a:tr h="386715">
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr vert="horz" wrap="square"/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr indent="0" algn="ctr" fontAlgn="auto">
+                        <a:lnSpc>
+                          <a:spcPts val="4460"/>
+                        </a:lnSpc>
+                        <a:buNone/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t> </a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="en-US" sz="2100" b="1">
+                        <a:latin typeface="Arial"/>
+                        <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                        <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marL="51435" marR="51435" marT="0" marB="0" anchor="ctr">
+                    <a:lnL w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnL>
+                    <a:lnR w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnR>
+                    <a:lnT w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnT>
+                    <a:lnB w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnB>
+                    <a:lnTlToBr>
+                      <a:noFill/>
+                    </a:lnTlToBr>
+                    <a:lnBlToTr>
+                      <a:noFill/>
+                    </a:lnBlToTr>
+                    <a:noFill/>
+                  </a:tcPr>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr vert="horz" wrap="square"/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr indent="0" algn="ctr" fontAlgn="auto">
+                        <a:lnSpc>
+                          <a:spcPts val="4460"/>
+                        </a:lnSpc>
+                        <a:buNone/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>&#30897;</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="en-US" sz="2100" b="1">
+                        <a:latin typeface="Arial"/>
+                        <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                        <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marL="51435" marR="51435" marT="0" marB="0" anchor="ctr">
+                    <a:lnL w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnL>
+                    <a:lnR w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnR>
+                    <a:lnT w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnT>
+                    <a:lnB w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnB>
+                    <a:lnTlToBr>
+                      <a:noFill/>
+                    </a:lnTlToBr>
+                    <a:lnBlToTr>
+                      <a:noFill/>
+                    </a:lnBlToTr>
+                    <a:noFill/>
+                  </a:tcPr>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr vert="horz" wrap="square"/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr indent="0" algn="ctr" fontAlgn="auto">
+                        <a:lnSpc>
+                          <a:spcPts val="4460"/>
+                        </a:lnSpc>
+                        <a:buNone/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>&#37240;</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="en-US" sz="2100" b="1">
+                        <a:latin typeface="Arial"/>
+                        <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                        <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marL="51435" marR="51435" marT="0" marB="0" anchor="ctr">
+                    <a:lnL w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnL>
+                    <a:lnR w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnR>
+                    <a:lnT w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnT>
+                    <a:lnB w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnB>
+                    <a:lnTlToBr>
+                      <a:noFill/>
+                    </a:lnTlToBr>
+                    <a:lnBlToTr>
+                      <a:noFill/>
+                    </a:lnBlToTr>
+                    <a:noFill/>
+                  </a:tcPr>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr vert="horz" wrap="square"/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr indent="0" algn="ctr" fontAlgn="auto">
+                        <a:lnSpc>
+                          <a:spcPts val="4460"/>
+                        </a:lnSpc>
+                        <a:buNone/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>&#30416;</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="en-US" sz="2100" b="1">
+                        <a:latin typeface="Arial"/>
+                        <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                        <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marL="51435" marR="51435" marT="0" marB="0" anchor="ctr">
+                    <a:lnL w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnL>
+                    <a:lnR w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnR>
+                    <a:lnT w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnT>
+                    <a:lnB w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnB>
+                    <a:lnTlToBr>
+                      <a:noFill/>
+                    </a:lnTlToBr>
+                    <a:lnBlToTr>
+                      <a:noFill/>
+                    </a:lnBlToTr>
+                    <a:noFill/>
+                  </a:tcPr>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr vert="horz" wrap="square"/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr indent="0" algn="ctr" fontAlgn="auto">
+                        <a:lnSpc>
+                          <a:spcPts val="4460"/>
+                        </a:lnSpc>
+                        <a:buNone/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>&#30897;&#24615;&#27687;&#21270;&#29289;</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="en-US" sz="2100" b="1">
+                        <a:latin typeface="Arial"/>
+                        <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                        <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marL="51435" marR="51435" marT="0" marB="0" anchor="ctr">
+                    <a:lnL w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnL>
+                    <a:lnR w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnR>
+                    <a:lnT w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnT>
+                    <a:lnB w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnB>
+                    <a:lnTlToBr>
+                      <a:noFill/>
+                    </a:lnTlToBr>
+                    <a:lnBlToTr>
+                      <a:noFill/>
+                    </a:lnBlToTr>
+                    <a:noFill/>
+                  </a:tcPr>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr vert="horz" wrap="square"/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr indent="0" algn="ctr" fontAlgn="auto">
+                        <a:lnSpc>
+                          <a:spcPts val="4460"/>
+                        </a:lnSpc>
+                        <a:buNone/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>&#37240;&#24615;&#27687;&#21270;&#29289;</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="en-US" sz="2100" b="1">
+                        <a:latin typeface="Arial"/>
+                        <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                        <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marL="51435" marR="51435" marT="0" marB="0" anchor="ctr">
+                    <a:lnL w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnL>
+                    <a:lnR w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnR>
+                    <a:lnT w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnT>
+                    <a:lnB w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnB>
+                    <a:lnTlToBr>
+                      <a:noFill/>
+                    </a:lnTlToBr>
+                    <a:lnBlToTr>
+                      <a:noFill/>
+                    </a:lnBlToTr>
+                    <a:noFill/>
+                  </a:tcPr>
+                </a:tc>
+                <a:extLst>
+                  <a:ext uri="{0D108BD9-81ED-4DB2-BD59-A6C34878D82A}">
+                    <a16:rowId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" val="10000"/>
+                  </a:ext>
+                </a:extLst>
+              </a:tr>
+              <a:tr h="455295">
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr vert="horz" wrap="square"/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr indent="0" algn="ctr" fontAlgn="auto">
+                        <a:lnSpc>
+                          <a:spcPts val="4460"/>
+                        </a:lnSpc>
+                        <a:buNone/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>A</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="en-US" sz="2100" b="1">
+                        <a:latin typeface="Arial"/>
+                        <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                        <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marL="51435" marR="51435" marT="0" marB="0" anchor="ctr">
+                    <a:lnL w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnL>
+                    <a:lnR w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnR>
+                    <a:lnT w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnT>
+                    <a:lnB w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnB>
+                    <a:lnTlToBr>
+                      <a:noFill/>
+                    </a:lnTlToBr>
+                    <a:lnBlToTr>
+                      <a:noFill/>
+                    </a:lnBlToTr>
+                    <a:noFill/>
+                  </a:tcPr>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr vert="horz" wrap="square"/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr indent="0" algn="ctr" fontAlgn="auto">
+                        <a:lnSpc>
+                          <a:spcPts val="4460"/>
+                        </a:lnSpc>
+                        <a:buNone/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>Na</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1" baseline="-25000">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>2</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>CO</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1" baseline="-25000">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>3</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="en-US" sz="2100" b="1">
+                        <a:latin typeface="Arial"/>
+                        <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                        <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marL="51435" marR="51435" marT="0" marB="0" anchor="ctr">
+                    <a:lnL w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnL>
+                    <a:lnR w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnR>
+                    <a:lnT w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnT>
+                    <a:lnB w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnB>
+                    <a:lnTlToBr>
+                      <a:noFill/>
+                    </a:lnTlToBr>
+                    <a:lnBlToTr>
+                      <a:noFill/>
+                    </a:lnBlToTr>
+                    <a:noFill/>
+                  </a:tcPr>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr vert="horz" wrap="square"/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr indent="0" algn="ctr" fontAlgn="auto">
+                        <a:lnSpc>
+                          <a:spcPts val="4460"/>
+                        </a:lnSpc>
+                        <a:buNone/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>H</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1" baseline="-25000">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>2</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>SO</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1" baseline="-25000">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>4</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="en-US" sz="2100" b="1">
+                        <a:latin typeface="Arial"/>
+                        <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                        <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marL="51435" marR="51435" marT="0" marB="0" anchor="ctr">
+                    <a:lnL w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnL>
+                    <a:lnR w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnR>
+                    <a:lnT w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnT>
+                    <a:lnB w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnB>
+                    <a:lnTlToBr>
+                      <a:noFill/>
+                    </a:lnTlToBr>
+                    <a:lnBlToTr>
+                      <a:noFill/>
+                    </a:lnBlToTr>
+                    <a:noFill/>
+                  </a:tcPr>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr vert="horz" wrap="square"/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr indent="0" algn="ctr" fontAlgn="auto">
+                        <a:lnSpc>
+                          <a:spcPts val="4460"/>
+                        </a:lnSpc>
+                        <a:buNone/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>NaOH</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="en-US" sz="2100" b="1">
+                        <a:latin typeface="Arial"/>
+                        <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                        <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marL="51435" marR="51435" marT="0" marB="0" anchor="ctr">
+                    <a:lnL w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnL>
+                    <a:lnR w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnR>
+                    <a:lnT w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnT>
+                    <a:lnB w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnB>
+                    <a:lnTlToBr>
+                      <a:noFill/>
+                    </a:lnTlToBr>
+                    <a:lnBlToTr>
+                      <a:noFill/>
+                    </a:lnBlToTr>
+                    <a:noFill/>
+                  </a:tcPr>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr vert="horz" wrap="square"/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr indent="0" algn="ctr" fontAlgn="auto">
+                        <a:lnSpc>
+                          <a:spcPts val="4460"/>
+                        </a:lnSpc>
+                        <a:buNone/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>SO</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1" baseline="-25000">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>2</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="en-US" sz="2100" b="1">
+                        <a:latin typeface="Arial"/>
+                        <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                        <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marL="51435" marR="51435" marT="0" marB="0" anchor="ctr">
+                    <a:lnL w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnL>
+                    <a:lnR w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnR>
+                    <a:lnT w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnT>
+                    <a:lnB w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnB>
+                    <a:lnTlToBr>
+                      <a:noFill/>
+                    </a:lnTlToBr>
+                    <a:lnBlToTr>
+                      <a:noFill/>
+                    </a:lnBlToTr>
+                    <a:noFill/>
+                  </a:tcPr>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr vert="horz" wrap="square"/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr indent="0" algn="ctr" fontAlgn="auto">
+                        <a:lnSpc>
+                          <a:spcPts val="4460"/>
+                        </a:lnSpc>
+                        <a:buNone/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>CO</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1" baseline="-25000">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>2</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="en-US" sz="2100" b="1">
+                        <a:latin typeface="Arial"/>
+                        <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                        <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marL="51435" marR="51435" marT="0" marB="0" anchor="ctr">
+                    <a:lnL w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnL>
+                    <a:lnR w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnR>
+                    <a:lnT w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnT>
+                    <a:lnB w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnB>
+                    <a:lnTlToBr>
+                      <a:noFill/>
+                    </a:lnTlToBr>
+                    <a:lnBlToTr>
+                      <a:noFill/>
+                    </a:lnBlToTr>
+                    <a:noFill/>
+                  </a:tcPr>
+                </a:tc>
+                <a:extLst>
+                  <a:ext uri="{0D108BD9-81ED-4DB2-BD59-A6C34878D82A}">
+                    <a16:rowId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" val="10001"/>
+                  </a:ext>
+                </a:extLst>
+              </a:tr>
+              <a:tr h="508159">
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr vert="horz" wrap="square"/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr indent="0" algn="ctr" fontAlgn="auto">
+                        <a:lnSpc>
+                          <a:spcPts val="4460"/>
+                        </a:lnSpc>
+                        <a:buNone/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>B</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="en-US" sz="2100" b="1">
+                        <a:latin typeface="Arial"/>
+                        <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                        <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marL="51435" marR="51435" marT="0" marB="0" anchor="ctr">
+                    <a:lnL w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnL>
+                    <a:lnR w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnR>
+                    <a:lnT w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnT>
+                    <a:lnB w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnB>
+                    <a:lnTlToBr>
+                      <a:noFill/>
+                    </a:lnTlToBr>
+                    <a:lnBlToTr>
+                      <a:noFill/>
+                    </a:lnBlToTr>
+                    <a:noFill/>
+                  </a:tcPr>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr vert="horz" wrap="square"/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr indent="0" algn="ctr" fontAlgn="auto">
+                        <a:lnSpc>
+                          <a:spcPts val="4460"/>
+                        </a:lnSpc>
+                        <a:buNone/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>NaOH</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="en-US" sz="2100" b="1">
+                        <a:latin typeface="Arial"/>
+                        <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                        <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marL="51435" marR="51435" marT="0" marB="0" anchor="ctr">
+                    <a:lnL w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnL>
+                    <a:lnR w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnR>
+                    <a:lnT w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnT>
+                    <a:lnB w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnB>
+                    <a:lnTlToBr>
+                      <a:noFill/>
+                    </a:lnTlToBr>
+                    <a:lnBlToTr>
+                      <a:noFill/>
+                    </a:lnBlToTr>
+                    <a:noFill/>
+                  </a:tcPr>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr vert="horz" wrap="square"/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr indent="0" algn="ctr" fontAlgn="auto">
+                        <a:lnSpc>
+                          <a:spcPts val="4460"/>
+                        </a:lnSpc>
+                        <a:buNone/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>HCl</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="en-US" sz="2100" b="1">
+                        <a:latin typeface="Arial"/>
+                        <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                        <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marL="51435" marR="51435" marT="0" marB="0" anchor="ctr">
+                    <a:lnL w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnL>
+                    <a:lnR w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnR>
+                    <a:lnT w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnT>
+                    <a:lnB w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnB>
+                    <a:lnTlToBr>
+                      <a:noFill/>
+                    </a:lnTlToBr>
+                    <a:lnBlToTr>
+                      <a:noFill/>
+                    </a:lnBlToTr>
+                    <a:noFill/>
+                  </a:tcPr>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr vert="horz" wrap="square"/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr indent="0" algn="ctr" fontAlgn="auto">
+                        <a:lnSpc>
+                          <a:spcPts val="4460"/>
+                        </a:lnSpc>
+                        <a:buNone/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>NaCl</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="en-US" sz="2100" b="1">
+                        <a:latin typeface="Arial"/>
+                        <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                        <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marL="51435" marR="51435" marT="0" marB="0" anchor="ctr">
+                    <a:lnL w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnL>
+                    <a:lnR w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnR>
+                    <a:lnT w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnT>
+                    <a:lnB w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnB>
+                    <a:lnTlToBr>
+                      <a:noFill/>
+                    </a:lnTlToBr>
+                    <a:lnBlToTr>
+                      <a:noFill/>
+                    </a:lnBlToTr>
+                    <a:noFill/>
+                  </a:tcPr>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr vert="horz" wrap="square"/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr indent="0" algn="ctr" fontAlgn="auto">
+                        <a:lnSpc>
+                          <a:spcPts val="4460"/>
+                        </a:lnSpc>
+                        <a:buNone/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>Na</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1" baseline="-25000">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>2</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>O</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="en-US" sz="2100" b="1">
+                        <a:latin typeface="Arial"/>
+                        <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                        <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marL="51435" marR="51435" marT="0" marB="0" anchor="ctr">
+                    <a:lnL w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnL>
+                    <a:lnR w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnR>
+                    <a:lnT w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnT>
+                    <a:lnB w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnB>
+                    <a:lnTlToBr>
+                      <a:noFill/>
+                    </a:lnTlToBr>
+                    <a:lnBlToTr>
+                      <a:noFill/>
+                    </a:lnBlToTr>
+                    <a:noFill/>
+                  </a:tcPr>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr vert="horz" wrap="square"/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr indent="0" algn="ctr" fontAlgn="auto">
+                        <a:lnSpc>
+                          <a:spcPts val="4460"/>
+                        </a:lnSpc>
+                        <a:buNone/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>NO</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="en-US" sz="2100" b="1">
+                        <a:latin typeface="Arial"/>
+                        <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                        <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marL="51435" marR="51435" marT="0" marB="0" anchor="ctr">
+                    <a:lnL w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnL>
+                    <a:lnR w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnR>
+                    <a:lnT w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnT>
+                    <a:lnB w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnB>
+                    <a:lnTlToBr>
+                      <a:noFill/>
+                    </a:lnTlToBr>
+                    <a:lnBlToTr>
+                      <a:noFill/>
+                    </a:lnBlToTr>
+                    <a:noFill/>
+                  </a:tcPr>
+                </a:tc>
+                <a:extLst>
+                  <a:ext uri="{0D108BD9-81ED-4DB2-BD59-A6C34878D82A}">
+                    <a16:rowId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" val="10002"/>
+                  </a:ext>
+                </a:extLst>
+              </a:tr>
+              <a:tr h="492919">
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr vert="horz" wrap="square"/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr indent="0" algn="ctr" fontAlgn="auto">
+                        <a:lnSpc>
+                          <a:spcPts val="4460"/>
+                        </a:lnSpc>
+                        <a:buNone/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>C</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="en-US" sz="2100" b="1">
+                        <a:latin typeface="Arial"/>
+                        <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                        <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marL="51435" marR="51435" marT="0" marB="0" anchor="ctr">
+                    <a:lnL w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnL>
+                    <a:lnR w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnR>
+                    <a:lnT w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnT>
+                    <a:lnB w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnB>
+                    <a:lnTlToBr>
+                      <a:noFill/>
+                    </a:lnTlToBr>
+                    <a:lnBlToTr>
+                      <a:noFill/>
+                    </a:lnBlToTr>
+                    <a:noFill/>
+                  </a:tcPr>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr vert="horz" wrap="square"/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr indent="0" algn="ctr" fontAlgn="auto">
+                        <a:lnSpc>
+                          <a:spcPts val="4460"/>
+                        </a:lnSpc>
+                        <a:buNone/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>KOH</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="en-US" sz="2100" b="1">
+                        <a:latin typeface="Arial"/>
+                        <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                        <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marL="51435" marR="51435" marT="0" marB="0" anchor="ctr">
+                    <a:lnL w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnL>
+                    <a:lnR w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnR>
+                    <a:lnT w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnT>
+                    <a:lnB w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnB>
+                    <a:lnTlToBr>
+                      <a:noFill/>
+                    </a:lnTlToBr>
+                    <a:lnBlToTr>
+                      <a:noFill/>
+                    </a:lnBlToTr>
+                    <a:noFill/>
+                  </a:tcPr>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr vert="horz" wrap="square"/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr indent="0" algn="ctr" fontAlgn="auto">
+                        <a:lnSpc>
+                          <a:spcPts val="4460"/>
+                        </a:lnSpc>
+                        <a:buNone/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>HNO</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1" baseline="-25000">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>3</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="en-US" sz="2100" b="1">
+                        <a:latin typeface="Arial"/>
+                        <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                        <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marL="51435" marR="51435" marT="0" marB="0" anchor="ctr">
+                    <a:lnL w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnL>
+                    <a:lnR w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnR>
+                    <a:lnT w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnT>
+                    <a:lnB w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnB>
+                    <a:lnTlToBr>
+                      <a:noFill/>
+                    </a:lnTlToBr>
+                    <a:lnBlToTr>
+                      <a:noFill/>
+                    </a:lnBlToTr>
+                    <a:noFill/>
+                  </a:tcPr>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr vert="horz" wrap="square"/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr indent="0" algn="ctr" fontAlgn="auto">
+                        <a:lnSpc>
+                          <a:spcPts val="4460"/>
+                        </a:lnSpc>
+                        <a:buNone/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>CaCO</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1" baseline="-25000">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>3</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="en-US" sz="2100" b="1">
+                        <a:latin typeface="Arial"/>
+                        <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                        <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marL="51435" marR="51435" marT="0" marB="0" anchor="ctr">
+                    <a:lnL w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnL>
+                    <a:lnR w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnR>
+                    <a:lnT w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnT>
+                    <a:lnB w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnB>
+                    <a:lnTlToBr>
+                      <a:noFill/>
+                    </a:lnTlToBr>
+                    <a:lnBlToTr>
+                      <a:noFill/>
+                    </a:lnBlToTr>
+                    <a:noFill/>
+                  </a:tcPr>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr vert="horz" wrap="square"/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr indent="0" algn="ctr" fontAlgn="auto">
+                        <a:lnSpc>
+                          <a:spcPts val="4460"/>
+                        </a:lnSpc>
+                        <a:buNone/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>CaO</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="en-US" sz="2100" b="1">
+                        <a:latin typeface="Arial"/>
+                        <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                        <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marL="51435" marR="51435" marT="0" marB="0" anchor="ctr">
+                    <a:lnL w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnL>
+                    <a:lnR w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnR>
+                    <a:lnT w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnT>
+                    <a:lnB w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnB>
+                    <a:lnTlToBr>
+                      <a:noFill/>
+                    </a:lnTlToBr>
+                    <a:lnBlToTr>
+                      <a:noFill/>
+                    </a:lnBlToTr>
+                    <a:noFill/>
+                  </a:tcPr>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr vert="horz" wrap="square"/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr indent="0" algn="ctr" fontAlgn="auto">
+                        <a:lnSpc>
+                          <a:spcPts val="4460"/>
+                        </a:lnSpc>
+                        <a:buNone/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>Mn</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1" baseline="-25000">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>2</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>O</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1" baseline="-25000">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>7</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="en-US" sz="2100" b="1">
+                        <a:latin typeface="Arial"/>
+                        <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                        <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marL="51435" marR="51435" marT="0" marB="0" anchor="ctr">
+                    <a:lnL w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnL>
+                    <a:lnR w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnR>
+                    <a:lnT w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnT>
+                    <a:lnB w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnB>
+                    <a:lnTlToBr>
+                      <a:noFill/>
+                    </a:lnTlToBr>
+                    <a:lnBlToTr>
+                      <a:noFill/>
+                    </a:lnBlToTr>
+                    <a:noFill/>
+                  </a:tcPr>
+                </a:tc>
+                <a:extLst>
+                  <a:ext uri="{0D108BD9-81ED-4DB2-BD59-A6C34878D82A}">
+                    <a16:rowId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" val="10003"/>
+                  </a:ext>
+                </a:extLst>
+              </a:tr>
+              <a:tr h="447675">
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr vert="horz" wrap="square"/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr indent="0" algn="ctr" fontAlgn="auto">
+                        <a:lnSpc>
+                          <a:spcPts val="4460"/>
+                        </a:lnSpc>
+                        <a:buNone/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>D</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="en-US" sz="2100" b="1">
+                        <a:latin typeface="Arial"/>
+                        <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                        <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marL="51435" marR="51435" marT="0" marB="0" anchor="ctr">
+                    <a:lnL w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnL>
+                    <a:lnR w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnR>
+                    <a:lnT w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnT>
+                    <a:lnB w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnB>
+                    <a:lnTlToBr>
+                      <a:noFill/>
+                    </a:lnTlToBr>
+                    <a:lnBlToTr>
+                      <a:noFill/>
+                    </a:lnBlToTr>
+                    <a:noFill/>
+                  </a:tcPr>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr vert="horz" wrap="square"/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr indent="0" algn="ctr" fontAlgn="auto">
+                        <a:lnSpc>
+                          <a:spcPts val="4460"/>
+                        </a:lnSpc>
+                        <a:buNone/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>NaOH</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="en-US" sz="2100" b="1">
+                        <a:latin typeface="Arial"/>
+                        <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                        <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marL="51435" marR="51435" marT="0" marB="0" anchor="ctr">
+                    <a:lnL w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnL>
+                    <a:lnR w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnR>
+                    <a:lnT w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnT>
+                    <a:lnB w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnB>
+                    <a:lnTlToBr>
+                      <a:noFill/>
+                    </a:lnTlToBr>
+                    <a:lnBlToTr>
+                      <a:noFill/>
+                    </a:lnBlToTr>
+                    <a:noFill/>
+                  </a:tcPr>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr vert="horz" wrap="square"/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr indent="0" algn="ctr" fontAlgn="auto">
+                        <a:lnSpc>
+                          <a:spcPts val="4460"/>
+                        </a:lnSpc>
+                        <a:buNone/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>HCl</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="en-US" sz="2100" b="1">
+                        <a:latin typeface="Arial"/>
+                        <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                        <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marL="51435" marR="51435" marT="0" marB="0" anchor="ctr">
+                    <a:lnL w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnL>
+                    <a:lnR w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnR>
+                    <a:lnT w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnT>
+                    <a:lnB w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnB>
+                    <a:lnTlToBr>
+                      <a:noFill/>
+                    </a:lnTlToBr>
+                    <a:lnBlToTr>
+                      <a:noFill/>
+                    </a:lnBlToTr>
+                    <a:noFill/>
+                  </a:tcPr>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr vert="horz" wrap="square"/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr indent="0" algn="ctr" fontAlgn="auto">
+                        <a:lnSpc>
+                          <a:spcPts val="4460"/>
+                        </a:lnSpc>
+                        <a:buNone/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>CaF</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1" baseline="-25000">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>2</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="en-US" sz="2100" b="1">
+                        <a:latin typeface="Arial"/>
+                        <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                        <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marL="51435" marR="51435" marT="0" marB="0" anchor="ctr">
+                    <a:lnL w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnL>
+                    <a:lnR w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnR>
+                    <a:lnT w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnT>
+                    <a:lnB w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnB>
+                    <a:lnTlToBr>
+                      <a:noFill/>
+                    </a:lnTlToBr>
+                    <a:lnBlToTr>
+                      <a:noFill/>
+                    </a:lnBlToTr>
+                    <a:noFill/>
+                  </a:tcPr>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr vert="horz" wrap="square"/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr indent="0" algn="ctr" fontAlgn="auto">
+                        <a:lnSpc>
+                          <a:spcPts val="4460"/>
+                        </a:lnSpc>
+                        <a:buNone/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>Na</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1" baseline="-25000">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>2</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>O</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1" baseline="-25000">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>2</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="en-US" sz="2100" b="1">
+                        <a:latin typeface="Arial"/>
+                        <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                        <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marL="51435" marR="51435" marT="0" marB="0" anchor="ctr">
+                    <a:lnL w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnL>
+                    <a:lnR w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnR>
+                    <a:lnT w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnT>
+                    <a:lnB w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnB>
+                    <a:lnTlToBr>
+                      <a:noFill/>
+                    </a:lnTlToBr>
+                    <a:lnBlToTr>
+                      <a:noFill/>
+                    </a:lnBlToTr>
+                    <a:noFill/>
+                  </a:tcPr>
+                </a:tc>
+                <a:tc>
+                  <a:txBody>
+                    <a:bodyPr vert="horz" wrap="square"/>
+                    <a:lstStyle/>
+                    <a:p>
+                      <a:pPr indent="0" algn="ctr" fontAlgn="auto">
+                        <a:lnSpc>
+                          <a:spcPts val="4460"/>
+                        </a:lnSpc>
+                        <a:buNone/>
+                      </a:pPr>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>SO</a:t>
+                      </a:r>
+                      <a:r>
+                        <a:rPr lang="en-US" sz="2100" b="1" baseline="-25000">
+                          <a:latin typeface="Arial"/>
+                          <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                          <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                        </a:rPr>
+                        <a:t>2</a:t>
+                      </a:r>
+                      <a:endParaRPr lang="en-US" altLang="en-US" sz="2100" b="1">
+                        <a:latin typeface="Arial"/>
+                        <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                        <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                      </a:endParaRPr>
+                    </a:p>
+                  </a:txBody>
+                  <a:tcPr marL="51435" marR="51435" marT="0" marB="0" anchor="ctr">
+                    <a:lnL w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnL>
+                    <a:lnR w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnR>
+                    <a:lnT w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnT>
+                    <a:lnB w="12700" cap="flat" cmpd="sng">
+                      <a:solidFill>
+                        <a:srgbClr val="080000"/>
+                      </a:solidFill>
+                      <a:prstDash val="solid"/>
+                      <a:headEnd type="none" w="med" len="med"/>
+                      <a:tailEnd type="none" w="med" len="med"/>
+                    </a:lnB>
+                    <a:lnTlToBr>
+                      <a:noFill/>
+                    </a:lnTlToBr>
+                    <a:lnBlToTr>
+                      <a:noFill/>
+                    </a:lnBlToTr>
+                    <a:noFill/>
+                  </a:tcPr>
+                </a:tc>
+                <a:extLst>
+                  <a:ext uri="{0D108BD9-81ED-4DB2-BD59-A6C34878D82A}">
+                    <a16:rowId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" val="10004"/>
+                  </a:ext>
+                </a:extLst>
+              </a:tr>
+            </a:tbl>
+          </a:graphicData>
+        </a:graphic>
+      </p:graphicFrame>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="9" name="&#25991;&#26412;&#26694; 8" title="">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{BE2AE498-C619-2598-1831-B246F64736E3}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr>
+            <p:custDataLst>
+              <p:tags r:id="rId11"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="4230529" y="1306830"/>
+            <a:ext cx="341471" cy="415498"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="square" rtlCol="0">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" sz="2100" b="1">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Arial"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" charset="0"/>
+                <a:sym typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>C</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+    </p:spTree>
+    <p:extLst>
+      <p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+        <p14:creationId xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" val="1941008356"/>
+      </p:ext>
+    </p:extLst>
+  </p:cSld>
+  <p:clrMapOvr>
+    <a:masterClrMapping/>
+  </p:clrMapOvr>
+  <p:transition/>
+  <p:timing>
+    <p:tnLst>
+      <p:par>
+        <p:cTn id="1" dur="indefinite" restart="never" nodeType="tmRoot">
+          <p:childTnLst>
+            <p:seq concurrent="1" nextAc="seek">
+              <p:cTn id="2" dur="indefinite" nodeType="mainSeq">
+                <p:childTnLst>
+                  <p:par>
+                    <p:cTn id="3" fill="hold" nodeType="clickPar">
+                      <p:stCondLst>
+                        <p:cond delay="indefinite"/>
+                      </p:stCondLst>
+                      <p:childTnLst>
+                        <p:par>
+                          <p:cTn id="4" fill="hold">
+                            <p:stCondLst>
+                              <p:cond delay="0"/>
+                            </p:stCondLst>
+                            <p:childTnLst>
+                              <p:par>
+                                <p:cTn id="5" presetID="21" presetClass="entr" presetSubtype="1" fill="hold" grpId="0" nodeType="clickEffect">
+                                  <p:stCondLst>
+                                    <p:cond delay="0"/>
+                                  </p:stCondLst>
+                                  <p:childTnLst>
+                                    <p:set>
+                                      <p:cBhvr>
+                                        <p:cTn id="6" dur="1" fill="hold">
+                                          <p:stCondLst>
+                                            <p:cond delay="0"/>
+                                          </p:stCondLst>
+                                        </p:cTn>
+                                        <p:tgtEl>
+                                          <p:spTgt spid="9"/>
+                                        </p:tgtEl>
+                                        <p:attrNameLst>
+                                          <p:attrName>style.visibility</p:attrName>
+                                        </p:attrNameLst>
+                                      </p:cBhvr>
+                                      <p:to>
+                                        <p:strVal val="visible"/>
+                                      </p:to>
+                                    </p:set>
+                                    <p:animEffect transition="in" filter="wheel(1)">
+                                      <p:cBhvr>
+                                        <p:cTn id="7" dur="2000"/>
+                                        <p:tgtEl>
+                                          <p:spTgt spid="9"/>
+                                        </p:tgtEl>
+                                      </p:cBhvr>
+                                    </p:animEffect>
+                                  </p:childTnLst>
+                                </p:cTn>
+                              </p:par>
+                            </p:childTnLst>
+                          </p:cTn>
+                        </p:par>
+                      </p:childTnLst>
+                    </p:cTn>
+                  </p:par>
+                </p:childTnLst>
+              </p:cTn>
+              <p:prevCondLst>
+                <p:cond evt="onPrev" delay="0">
+                  <p:tgtEl>
+                    <p:sldTgt/>
+                  </p:tgtEl>
+                </p:cond>
+              </p:prevCondLst>
+              <p:nextCondLst>
+                <p:cond evt="onNext" delay="0">
+                  <p:tgtEl>
+                    <p:sldTgt/>
+                  </p:tgtEl>
+                </p:cond>
+              </p:nextCondLst>
+            </p:seq>
+          </p:childTnLst>
+        </p:cTn>
+      </p:par>
+    </p:tnLst>
+    <p:bldLst>
+      <p:bldP spid="9" grpId="0"/>
+    </p:bldLst>
+  </p:timing>
+</p:sld>

@@ -1,0 +1,60 @@
+filters:
+  and:
+    - file.inFolder("07-资料提炼")
+    - type == "资料提炼"
+properties:
+  file.name:
+    displayName: 提炼页
+  source_type:
+    displayName: 来源类型
+  year:
+    displayName: 年份
+  review_status:
+    displayName: 审核状态
+  problems_planned:
+    displayName: 计划题数
+  problems_extracted:
+    displayName: 已提取
+  file.mtime:
+    displayName: 最后修改
+views:
+  - type: table
+    name: 提炼进度
+    order:
+      - file.name
+      - source_type
+      - year
+      - review_status
+      - problems_extracted
+      - problems_planned
+      - file.mtime
+    sort:
+      - property: review_status
+        direction: ASC
+  - type: table
+    name: 进行中
+    filters:
+      and:
+        - review_status == "进行中"
+    order:
+      - file.name
+      - source_type
+      - year
+      - problems_extracted
+      - problems_planned
+    sort:
+      - property: file.mtime
+        direction: DESC
+  - type: table
+    name: 已完成
+    filters:
+      and:
+        - review_status == "已完成"
+    order:
+      - file.name
+      - source_type
+      - year
+      - problems_extracted
+    sort:
+      - property: year
+        direction: DESC

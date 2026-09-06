@@ -1,0 +1,174 @@
+filters:
+  and:
+    - or:
+        - file.inFolder("04-题库")
+        - file.inFolder("05-真题库")
+    - or:
+        - type == "题目"
+        - type == "真题"
+properties:
+  file.name:
+    displayName: 题目
+  file.folder:
+    displayName: 所在目录
+  subject_module:
+    displayName: 模块
+  submodule:
+    displayName: 子模块
+  pack:
+    displayName: 层级
+  difficulty:
+    displayName: 难度
+  exam_stage:
+    displayName: 阶段
+  fidelity:
+    displayName: 保真
+  teaching_level:
+    displayName: 层次
+  question_type:
+    displayName: 题型
+  concepts:
+    displayName: 细粒度概念
+  knowledge_points:
+    displayName: 知识点
+  source_subject:
+    displayName: 来源科目
+  status:
+    displayName: 状态
+  deprecation_reason:
+    displayName: 废弃原因
+  superseded_by:
+    displayName: 取代于
+  used_in:
+    displayName: 已用于
+views:
+  - type: table
+    name: 全部题目
+    order:
+      - file.name
+      - subject_module
+      - submodule
+      - pack
+      - difficulty
+      - exam_stage
+      - fidelity
+    sort:
+      - property: subject_module
+        direction: ASC
+      - property: difficulty
+        direction: ASC
+  - type: table
+    name: 精选池（可成书）
+    filters:
+      and:
+        - pack == "模块习题集"
+        - status != "deprecated"
+    order:
+      - file.name
+      - subject_module
+      - submodule
+      - difficulty
+      - exam_stage
+      - fidelity
+    sort:
+      - property: subject_module
+        direction: ASC
+      - property: difficulty
+        direction: ASC
+  - type: table
+    name: 未用过的题
+    filters:
+      and:
+        - used_in.isEmpty()
+    order:
+      - file.name
+      - subject_module
+      - pack
+      - difficulty
+      - exam_stage
+    sort:
+      - property: subject_module
+        direction: ASC
+      - property: difficulty
+        direction: ASC
+  - type: table
+    name: 待治理（废弃待决）
+    filters:
+      and:
+        - or:
+            - status == "已入库"
+            - status == "deprecated"
+    order:
+      - file.name
+      - file.folder
+      - subject_module
+      - pack
+      - status
+      - deprecation_reason
+      - superseded_by
+    sort:
+      - property: subject_module
+        direction: ASC
+  - type: table
+    name: 部分填充待补全
+    filters:
+      and:
+        - status == "待填充"
+    order:
+      - file.name
+      - file.folder
+      - subject_module
+      - submodule
+      - pack
+      - difficulty
+      - exam_stage
+    sort:
+      - property: file.folder
+        direction: ASC
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: 题型待标注（按目录批量补）
+    filters:
+      and:
+        - question_type.isEmpty()
+    order:
+      - file.name
+      - file.folder
+      - subject_module
+      - submodule
+      - difficulty
+      - teaching_level
+    sort:
+      - property: file.folder
+        direction: ASC
+      - property: difficulty
+        direction: ASC
+  - type: table
+    name: 题型待标注·真题优先
+    filters:
+      and:
+        - question_type.isEmpty()
+        - file.inFolder("04-题库/真题")
+    order:
+      - file.name
+      - file.folder
+      - subject_module
+      - difficulty
+      - exam_stage
+    sort:
+      - property: file.folder
+        direction: ASC
+  - type: table
+    name: 层次待定
+    filters:
+      and:
+        - teaching_level.isEmpty()
+    order:
+      - file.name
+      - subject_module
+      - submodule
+      - difficulty
+    sort:
+      - property: subject_module
+        direction: ASC

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="ascii"?>
+<p:sldLayout xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" xmlns:p15="http://schemas.microsoft.com/office/powerpoint/2012/main" xmlns:p159="http://schemas.microsoft.com/office/powerpoint/2015/09/main" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" showMasterSp="0" type="obj" preserve="1">
+  <p:cSld name="&#26631;&#39064;&#21644;&#20869;&#23481;">
+    <p:spTree>
+      <p:nvGrpSpPr>
+        <p:cNvPr id="1" name=""/>
+        <p:cNvGrpSpPr/>
+        <p:nvPr>
+          <p:custDataLst>
+            <p:tags r:id="rId1"/>
+          </p:custDataLst>
+        </p:nvPr>
+      </p:nvGrpSpPr>
+      <p:grpSpPr>
+        <a:xfrm>
+          <a:off x="0" y="0"/>
+          <a:ext cx="0" cy="0"/>
+        </a:xfrm>
+      </p:grpSpPr>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="12" name="&#25991;&#26412;&#26694; 11"/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr userDrawn="1">
+            <p:custDataLst>
+              <p:tags r:id="rId2"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="1664243" y="3444483"/>
+            <a:ext cx="2637790" cy="645160"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="none" rtlCol="0">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" sz="3600">
+                <a:solidFill>
+                  <a:prstClr val="white"/>
+                </a:solidFill>
+                <a:latin typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" charset="-122"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+              </a:rPr>
+              <a:t>CONTENTS</a:t>
+            </a:r>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" sz="3600">
+              <a:solidFill>
+                <a:prstClr val="white"/>
+              </a:solidFill>
+              <a:latin typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" charset="-122"/>
+              <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="13" name="&#25991;&#26412;&#26694; 12"/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr userDrawn="1">
+            <p:custDataLst>
+              <p:tags r:id="rId3"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="2395415" y="2461061"/>
+            <a:ext cx="1132840" cy="666115"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="none" rtlCol="0">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" sz="3735" b="1">
+                <a:solidFill>
+                  <a:prstClr val="white"/>
+                </a:solidFill>
+                <a:latin typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" charset="-122"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+              </a:rPr>
+              <a:t>&#30446;&#24405;</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+    </p:spTree>
+    <p:extLst>
+      <p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+        <p14:creationId xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" val="2249786509"/>
+      </p:ext>
+    </p:extLst>
+  </p:cSld>
+  <p:clrMapOvr>
+    <a:masterClrMapping/>
+  </p:clrMapOvr>
+  <p:transition/>
+  <p:timing/>
+</p:sldLayout>

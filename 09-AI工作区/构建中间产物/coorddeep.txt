@@ -1,0 +1,11 @@
+7937fa3a4ad6d5d9124ba067bca2710abd9c4ab591c0e70741f298f0452bda78.png|142|1 八面体场中 d 轨道分裂与高低能组的来源
+e2e8ec17997c6b450e61e34f4a577a45945dbb590b9d68d47c67c367085c1250.png|164|2 高低自旋判断顺序：先看 d 电子数，再看几何与分裂大小
+d72347c3cfbe30dc1a3de473003eec8081ff501dd0bd3a719c73a5b18f824230.png|176|3 光谱化学序列与配体场强的整体分布
+f89e4c238e305a028de1a6948f88e8e271b32284021b9432e65674ef6d8a9e9a.png|196|4 八面体场、四面体场与正方形场的 d 轨道分裂对比
+733d5cd6b7c50c4f85af83fda6c8d39a5745cc400e8c51ada56accd436f38d99.jpg|245|Jahn-Teller 拉长八面体：d⁹ 电子在 dz² 与 dx²-y² 之间不均匀占据，沿 z 轴拉长使体系能量降低
+f90ab8df6868eb136e8007f176fcd01336bdb483c7a7a314ed52ac04bf497cfc.jpg|279|d⁴ 高自旋与 d⁷ 低自旋的 Jahn-Teller 畸变对比——强 JT 的两个典型代表
+519355a1d2963cb7e13a9958eec7d708e31bdb051cc89b8fc9b4c1355d39b564.jpg|305|σ 配位键与 π 反馈键的协同机制（以 Zeise 盐为例）：配体 HOMO→金属 σ 给体 + 金属 d→配体 π\* 反馈
+b6cad1e8751a1996d7f9f262f4a72caaa81077100f178579ab10795fed76636c.jpg|393|反位效应指导合成路线：利用 Cl⁻ 与 NH₃ 反位效应强度差异，分别从 [PtCl₄]²⁻ 和 [Pt(NH₃)₄]²⁺ 出发合成顺铂和反铂
+5097664b1e3ddf262494a7ad69bc284567d027354d28d849281fb9515743f2cf.jpg|401|5 顺式与反式 Pt(II) 平面四方配合物的最基本几何对比
+23dda00dde38b339b9ab88f2811a0d5964b48be34da772322950fcbbada82a6e.jpg|450|6 Re₂Cl₈²⁻ 型金属-金属多重键 MO 图
+3b9af84fb5638c015b4ee6e95d855a5f2dc59589bf6f797983ea9deefe723dad.png|453|7 金属-金属 delta 键的三维形状示意

@@ -1,0 +1,1381 @@
+[
+    {
+        "Source":  "02-考纲条目/决赛要求/决赛07-化学动力学.md",
+        "Link":  "级数判定方法",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/决赛要求/决赛09-表面物理化学.md",
+        "Link":  "润湿与毛细现象",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/决赛要求/决赛11-金属有机化学.md",
+        "Link":  "18电子规则",
+        "FuzzyMatch":  "8电子规则",
+        "Confidence":  "高",
+        "Type":  "假性缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/分析化学/18-容量分析.md",
+        "Link":  "容量分析计算",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/分析化学/18-容量分析.md",
+        "Link":  "指示剂与终点判断",
+        "FuzzyMatch":  "指示剂",
+        "Confidence":  "高",
+        "Type":  "假性缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/分析化学/19-误差分析.md",
+        "Link":  "分析化学中的误差来源",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/分析化学/19-误差分析.md",
+        "Link":  "实验数据评价",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/分析化学/20-分光光度法.md",
+        "Link":  "吸光度",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/分析化学/20-分光光度法.md",
+        "Link":  "标准曲线建立与使用",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/分析化学/20-分光光度法.md",
+        "Link":  "吸光度误差来源",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/化学原理/01-有效数字.md",
+        "Link":  "实验读数",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/化学原理/02-气体.md",
+        "Link":  "标准态",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/化学原理/02-气体.md",
+        "Link":  "气体摩尔质量测定",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/化学原理/03-分散相与连续相.md",
+        "Link":  "分散相",
+        "FuzzyMatch":  "分散相与连续相",
+        "Confidence":  "高",
+        "Type":  "假性缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/化学原理/03-分散相与连续相.md",
+        "Link":  "连续相",
+        "FuzzyMatch":  "分散相与连续相",
+        "Confidence":  "高",
+        "Type":  "假性缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/化学原理/03-分散相与连续相.md",
+        "Link":  "浓度单位换算",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/化学原理/04-元素周期律和元素周期表.md",
+        "Link":  "元素周期表分区",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/化学原理/04-元素周期律和元素周期表.md",
+        "Link":  "过渡元素",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/化学原理/04-元素周期律和元素周期表.md",
+        "Link":  "铂系元素",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/化学原理/04-元素周期律和元素周期表.md",
+        "Link":  "稀土元素",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/化学原理/04-元素周期律和元素周期表.md",
+        "Link":  "对角线规则",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/化学原理/06-热力学初步.md",
+        "Link":  "标态",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/化学原理/07-化学平衡.md",
+        "Link":  "化学平衡",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/化学原理/07-化学平衡.md",
+        "Link":  "等温方程",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/化学原理/07-化学平衡.md",
+        "Link":  "解离常数",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/化学原理/08-氧化还原与电化学.md",
+        "Link":  "电极",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/化学原理/08-氧化还原与电化学.md",
+        "Link":  "化学电源",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/化学原理/09-原子结构.md",
+        "Link":  "原子半径",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/化学原理/09-原子结构.md",
+        "Link":  "离子半径",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/化学原理/09-原子结构.md",
+        "Link":  "共价半径",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/化学原理/11-分子间作用力.md",
+        "Link":  "静电力",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/化学原理/11-分子间作用力.md",
+        "Link":  "溶剂类型",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/化学原理/11-分子间作用力.md",
+        "Link":  "溶剂极性",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/无机和结构化学/13-元素化学.md",
+        "Link":  "过渡元素性质总览",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/无机和结构化学/13-元素化学.md",
+        "Link":  "无机物的酸碱性变化规律",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/无机和结构化学/13-元素化学.md",
+        "Link":  "无机物的氧化还原性变化规律",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/无机和结构化学/13-元素化学.md",
+        "Link":  "氢及其化合物",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/无机和结构化学/13-元素化学.md",
+        "Link":  "卤素及其化合物",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/无机和结构化学/13-元素化学.md",
+        "Link":  "钛铬锰铁钴镍铜锌基础元素化学",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/无机和结构化学/13-元素化学.md",
+        "Link":  "无机推断题",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/无机和结构化学/13-元素化学.md",
+        "Link":  "含氧酸及其盐的转化",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/无机和结构化学/13-元素化学.md",
+        "Link":  "过渡元素颜色与配位行为",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/无机和结构化学/14-对称性.md",
+        "Link":  "反轴",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/无机和结构化学/14-对称性.md",
+        "Link":  "对称性与分子结构",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/无机和结构化学/14-对称性.md",
+        "Link":  "对称性与光学活性",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/无机和结构化学/14-对称性.md",
+        "Link":  "对称性与配位构型",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/无机和结构化学/15-晶体结构.md",
+        "Link":  "晶体结构与物理性质",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/无机和结构化学/15-晶体结构.md",
+        "Link":  "晶体结构与性质关系",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/无机和结构化学/16-晶体基本概念.md",
+        "Link":  "晶体密度与几何计算",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/无机和结构化学/17-常见晶体结构.md",
+        "Link":  "NiAs型结构",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/无机和结构化学/17-常见晶体结构.md",
+        "Link":  "结构中的配位与计量关系",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/无机和结构化学/17-常见晶体结构.md",
+        "Link":  "经典晶体结构计算",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/21-杂化轨道理论与成键.md",
+        "Link":  "σ键与π键",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/21-杂化轨道理论与成键.md",
+        "Link":  "有机分子的几何构型",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/21-杂化轨道理论与成键.md",
+        "Link":  "键角与空间排布",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/21-杂化轨道理论与成键.md",
+        "Link":  "杂化方式与反应性",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/21-杂化轨道理论与成键.md",
+        "Link":  "杂化与分子构型",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/22-分子轨道理论.md",
+        "Link":  "成键轨道与反键轨道",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/22-分子轨道理论.md",
+        "Link":  "轨道重叠与成键",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/22-分子轨道理论.md",
+        "Link":  "共轭体系中的离域",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/22-分子轨道理论.md",
+        "Link":  "轨道观点下的稳定性",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/22-分子轨道理论.md",
+        "Link":  "共轭与离域",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/22-分子轨道理论.md",
+        "Link":  "轨道理论与芳香性",
+        "FuzzyMatch":  "芳香性",
+        "Confidence":  "高",
+        "Type":  "假性缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/23-有机物结构的表达.md",
+        "Link":  "键线式",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/23-有机物结构的表达.md",
+        "Link":  "楔线式",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/23-有机物结构的表达.md",
+        "Link":  "Newman投影式",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/23-有机物结构的表达.md",
+        "Link":  "结构表示之间的转换",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/23-有机物结构的表达.md",
+        "Link":  "立体信息的规范表达",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/23-有机物结构的表达.md",
+        "Link":  "有机结构表达方法总览",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/23-有机物结构的表达.md",
+        "Link":  "Fischer与楔线转换",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/23-有机物结构的表达.md",
+        "Link":  "考试中常见表示错误",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/24-有机物的异构现象.md",
+        "Link":  "位置异构",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/24-有机物的异构现象.md",
+        "Link":  "官能团异构",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/24-有机物的异构现象.md",
+        "Link":  "碳链异构",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/24-有机物的异构现象.md",
+        "Link":  "常见异构判断方法",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/24-有机物的异构现象.md",
+        "Link":  "异构与性质差异",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/25-互变异构体.md",
+        "Link":  "烯醇结构与稳定性",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/26-有机物的命名.md",
+        "Link":  "有机命名总则",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/26-有机物的命名.md",
+        "Link":  "主官能团优先顺序",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/26-有机物的命名.md",
+        "Link":  "主链选择规则",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/26-有机物的命名.md",
+        "Link":  "编号规则",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/26-有机物的命名.md",
+        "Link":  "取代基命名",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/26-有机物的命名.md",
+        "Link":  "烷烃烯烃炔烃命名",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/26-有机物的命名.md",
+        "Link":  "芳香化合物命名",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/26-有机物的命名.md",
+        "Link":  "含氧官能团化合物命名",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/26-有机物的命名.md",
+        "Link":  "含氮官能团化合物命名",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/26-有机物的命名.md",
+        "Link":  "复杂有机物命名训练",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/26-有机物的命名.md",
+        "Link":  "命名与结构互译",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/27-有机物的手性.md",
+        "Link":  "R_S构型判断",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/27-有机物的手性.md",
+        "Link":  "手性与对称性关系",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/27-有机物的手性.md",
+        "Link":  "R_S构型综合判断",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/27-有机物的手性.md",
+        "Link":  "手性与分子对称性",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/27-有机物的手性.md",
+        "Link":  "立体异构体分类",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/28-有机物结构的稳定性.md",
+        "Link":  "环张力",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/28-有机物结构的稳定性.md",
+        "Link":  "位阻效应",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/28-有机物结构的稳定性.md",
+        "Link":  "电子效应与稳定性",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/28-有机物结构的稳定性.md",
+        "Link":  "构象与稳定性",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/28-有机物结构的稳定性.md",
+        "Link":  "有机稳定性比较方法",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/29-共振论.md",
+        "Link":  "共振式的书写",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/29-共振论.md",
+        "Link":  "共振杂化体",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/29-共振论.md",
+        "Link":  "离域与共振稳定",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/29-共振论.md",
+        "Link":  "共振对酸碱性的影响",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/29-共振论.md",
+        "Link":  "共振对反应性的影响",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/29-共振论.md",
+        "Link":  "共振式书写规则",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/29-共振论.md",
+        "Link":  "共振与取代效应",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/30-有机波谱分析.md",
+        "Link":  "常见官能团红外特征",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/30-有机波谱分析.md",
+        "Link":  "化学位移",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/30-有机波谱分析.md",
+        "Link":  "积分与氢原子环境",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/30-有机波谱分析.md",
+        "Link":  "分子离子峰",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/30-有机波谱分析.md",
+        "Link":  "紫外光谱与共轭",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/30-有机波谱分析.md",
+        "Link":  "红外光谱官能团识别",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/30-有机波谱分析.md",
+        "Link":  "波谱综合解析",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/31-有机反应的本质.md",
+        "Link":  "有机反应的电子观点",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/31-有机反应的本质.md",
+        "Link":  "成键与断键",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/31-有机反应的本质.md",
+        "Link":  "亲核与亲电",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/31-有机反应的本质.md",
+        "Link":  "反应选择性的来源",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/31-有机反应的本质.md",
+        "Link":  "电子流动箭头规则",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/31-有机反应的本质.md",
+        "Link":  "有机反应分类总览",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/31-有机反应的本质.md",
+        "Link":  "结构与反应性的关系",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/32-有机反应机理.md",
+        "Link":  "速率决定步骤",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/32-有机反应机理.md",
+        "Link":  "机理中的电子箭头表示",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/32-有机反应机理.md",
+        "Link":  "逐步机理与协同机理",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/32-有机反应机理.md",
+        "Link":  "反应条件与机理变化",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/32-有机反应机理.md",
+        "Link":  "机理书写规范",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/32-有机反应机理.md",
+        "Link":  "机理推断方法",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/33-有机反应的分类.md",
+        "Link":  "极性反应分类",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/33-有机反应的分类.md",
+        "Link":  "有机反应分类总表",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/33-有机反应的分类.md",
+        "Link":  "反应类型识别",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/33-有机反应的分类.md",
+        "Link":  "结构变化与反应类型判断",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/35-有机酸碱理论.md",
+        "Link":  "Brønsted酸碱观点",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/35-有机酸碱理论.md",
+        "Link":  "pKa与酸碱强弱",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/35-有机酸碱理论.md",
+        "Link":  "结构对酸性的影响",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/35-有机酸碱理论.md",
+        "Link":  "结构对碱性的影响",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/35-有机酸碱理论.md",
+        "Link":  "酸碱性与稳定性",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/35-有机酸碱理论.md",
+        "Link":  "有机反应中的酸碱控制",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/35-有机酸碱理论.md",
+        "Link":  "酸碱性与反应条件选择",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/36-取代反应.md",
+        "Link":  "取代与消除竞争",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/37-加成反应.md",
+        "Link":  "羰基加成总览",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/38-消除反应.md",
+        "Link":  "取代消除竞争",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/39-重排反应.md",
+        "Link":  "重排对产物预测的影响",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/39-重排反应.md",
+        "Link":  "机理中的重排步骤",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/40-氧化还原反应.md",
+        "Link":  "过氧酸氧化",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/41-芳香亲电取代反应.md",
+        "Link":  "σ络合物",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/41-芳香亲电取代反应.md",
+        "Link":  "取代基定位效应",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/41-芳香亲电取代反应.md",
+        "Link":  "活化基与钝化基",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/41-芳香亲电取代反应.md",
+        "Link":  "Friedel_Crafts烷基化",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/41-芳香亲电取代反应.md",
+        "Link":  "Friedel_Crafts酰基化",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/41-芳香亲电取代反应.md",
+        "Link":  "活化基和钝化基整理",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/42-芳香亲核取代反应.md",
+        "Link":  "芳香体系中吸电子基作用",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/44-脂肪族亲核取代反应.md",
+        "Link":  "亲核性与碱性辨析",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/45-亲核加成反应.md",
+        "Link":  "缩醛",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/45-亲核加成反应.md",
+        "Link":  "半缩醛",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/45-亲核加成反应.md",
+        "Link":  "亚胺",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/45-亲核加成反应.md",
+        "Link":  "烯胺",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/45-亲核加成反应.md",
+        "Link":  "酸催化与碱催化条件下的羰基反应",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/46-羰基α位反应.md",
+        "Link":  "羰基α位烷基化",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/46-羰基α位反应.md",
+        "Link":  "羰基α位反应总整理",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/46-羰基α位反应.md",
+        "Link":  "酮烯醇互变与反应性",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/47-羧酸及羧酸衍生物.md",
+        "Link":  "羧酸及衍生物转化网络",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/48-膦化合物.md",
+        "Link":  "三苯基膦",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/48-膦化合物.md",
+        "Link":  "鏻盐",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/48-膦化合物.md",
+        "Link":  "羰基烯化反应",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/48-膦化合物.md",
+        "Link":  "Horner-Wadsworth-Emmons反应",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/48-膦化合物.md",
+        "Link":  "有机磷试剂基础整理",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/49-周环反应.md",
+        "Link":  "协同反应",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/49-周环反应.md",
+        "Link":  "周环反应立体化学",
+        "FuzzyMatch":  "周环反应",
+        "Confidence":  "高",
+        "Type":  "假性缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/49-周环反应.md",
+        "Link":  "ene反应",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/49-周环反应.md",
+        "Link":  "周环反应立体专一性",
+        "FuzzyMatch":  "周环反应",
+        "Confidence":  "高",
+        "Type":  "假性缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/50-有机合成.md",
+        "Link":  "官能团转化",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/50-有机合成.md",
+        "Link":  "碳骨架构建",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/50-有机合成.md",
+        "Link":  "选择性控制",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/50-有机合成.md",
+        "Link":  "合成路线设计",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/50-有机合成.md",
+        "Link":  "有机合成路线设计",
+        "FuzzyMatch":  "有机合成",
+        "Confidence":  "高",
+        "Type":  "假性缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/50-有机合成.md",
+        "Link":  "官能团转化网络",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/51-金属有机.md",
+        "Link":  "有机金属试剂的制备与保存",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/51-金属有机.md",
+        "Link":  "无水无氧条件",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/51-金属有机.md",
+        "Link":  "金属有机与羰基化学",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/52-杂环化合物.md",
+        "Link":  "吡咯",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/52-杂环化合物.md",
+        "Link":  "呋喃",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/52-杂环化合物.md",
+        "Link":  "噻吩",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/53-糖类.md",
+        "Link":  "糖类",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/53-糖类.md",
+        "Link":  "单糖",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/53-糖类.md",
+        "Link":  "Haworth式",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/53-糖类.md",
+        "Link":  "异头碳",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/53-糖类.md",
+        "Link":  "异头体",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/53-糖类.md",
+        "Link":  "变旋现象",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/53-糖类.md",
+        "Link":  "还原糖",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/53-糖类.md",
+        "Link":  "糖苷",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/53-糖类.md",
+        "Link":  "糖类结构表示法",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/54-氨基酸.md",
+        "Link":  "α_氨基酸",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/54-氨基酸.md",
+        "Link":  "两性离子",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/54-氨基酸.md",
+        "Link":  "氨基酸的酸碱性",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/54-氨基酸.md",
+        "Link":  "肽键",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/54-氨基酸.md",
+        "Link":  "缩合与成肽反应",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/54-氨基酸.md",
+        "Link":  "两性离子与等电点",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/54-氨基酸.md",
+        "Link":  "氨基酸结构与手性",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    },
+    {
+        "Source":  "02-考纲条目/基础要求/有机化学/55-高分子.md",
+        "Link":  "常见高分子材料整理",
+        "FuzzyMatch":  null,
+        "Confidence":  "",
+        "Type":  "真正缺失"
+    }
+]

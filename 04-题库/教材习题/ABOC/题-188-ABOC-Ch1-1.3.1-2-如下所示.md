@@ -1,0 +1,63 @@
+---
+title: "题-188-ABOC-Ch1-1.3.1-2-如下所示"
+type: 题目
+fidelity: 原书逐字
+submodule: Ch.1
+exam_stage: 初赛
+source_subject: 有机化学
+difficulty: 2
+teaching_level: 巩固
+syllabus_codes: ["31"]
+knowledge_points: ["[[晶体结构基础]]", "[[Lewis酸碱理论]]", "[[电子效应]]", "[[碳正离子]]"]
+tags: [化竞, ABOC, 有机化学]
+updated: 2026-07-04
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第1章-绪论]]"
+aliases: [ABOC-Ch1-1.3.1-2-188]
+source: ABOC 第1章 自学练习（ARX's Basic Organic Chemistry 第3版）
+cross_references: ["[[04-题库/教材习题/ABOC/题-277-ABOC-Ch1-T2]]", "[[04-题库/教材习题/ABOC/题-275-ABOC-Ch1-T7]]", "[[04-题库/教材习题/ABOC/题-287-ABOC-Ch1-T8]]", "[[04-题库/教材习题/ABOC/题-185-ABOC-Ch1-1.2.2-5-HOMO主要分布在氧和β碳上面]]", "[[04-题库/教材习题/ABOC/题-265-ABOC-Ch1-T8]]"]
+module: 基础要求-有机化学
+status: 已填充
+subject_module: 有机化学
+pack: 章节练习
+source_category: 竞赛导向·竞赛教材
+source_grade: C
+---
+# 题-188：如下所示：
+
+> **来源**：ABOC 第1章 自学练习 1.3.1-2
+> **难度**：⭐⭐
+> **教学层级**：巩固
+
+---
+
+## 题目
+
+写出以下反应的电子推动。
+
+![[b6b22c82661df0548d20440ed240de3bb873d9bfc08032d6fb210e5135657242.jpg]]
+
+（这个人名反应称为 Sakurai 烯丙基化，是一种常见的烯丙基化方法学。）
+
+---
+
+## 参考答案
+
+（自原书 OCR 提取）如下所示（电子推动机理图见原书图，OCR 未转出文字）。
+
+---
+
+## 解题思路
+
+原书仅给出机理图（见原书图），无文字解析。
+
+---
+
+## 知识点
+
+---
+
+## 相关题目
+
+- [[题-062-ABOC-Ch1-1.1.1-离去基判断]]
+- [[题-063-ABOC-Ch1-1.2.2-1-S-C反键轨道与端基效应]]
+- [[题-064-ABOC-Ch1-1.3.1-3-金刚烷合成（碳正离子重排）]]

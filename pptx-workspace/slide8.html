@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #FFFFFF; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  background: #FFFFFF; font-family: Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+.header { background: #1C3F60; padding: 15pt 30pt; }
+.header h1 { color: #FFFFFF; font-size: 24pt; margin: 0; }
+.content { margin: 20pt 30pt; flex: 1; }
+.formula {
+  background: #F0F4F8; padding: 15pt; border-radius: 8pt;
+  text-align: center; margin-bottom: 15pt;
+}
+.formula p { color: #333333; font-size: 18pt; margin: 0; }
+.mechanism { margin-bottom: 12pt; }
+.mechanism p { color: #333333; font-size: 13pt; margin: 0; }
+.range { background: #E8F5E9; padding: 10pt 15pt; border-radius: 4pt; }
+.range p { color: #2E7D32; font-size: 14pt; margin: 0; font-weight: bold; }
+</style>
+</head>
+<body>
+<div class="header"><h1>缓冲溶液与 Henderson-Hasselbalch 方程</h1></div>
+<div class="content">
+<div class="formula">
+<p>pH = pKa + lg([A⁻]/[HA])</p>
+</div>
+<div class="mechanism">
+<p><b>缓冲作用机制：</b></p>
+<p>外加 H⁺ → 被共轭碱 A⁻ 消耗 → A⁻ + H⁺ → HA</p>
+<p>外加 OH⁻ → 被弱酸 HA 消耗 → HA + OH⁻ → A⁻ + H₂O</p>
+<p>稀释 → 比值不变 → pH 不变</p>
+</div>
+<div class="range">
+<p>有效缓冲范围：pH = pKa ± 1</p>
+<p>缓冲容量最大条件：[A⁻] = [HA]（即 pH = pKa）</p>
+</div>
+</div>
+</body>
+</html>

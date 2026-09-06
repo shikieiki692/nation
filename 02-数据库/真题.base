@@ -1,0 +1,95 @@
+filters:
+  or:
+    - and:
+        - file.inFolder("04-题库/真题")
+        - type == "题目"
+    - and:
+        - file.inFolder("05-真题库")
+        - type == "真题"
+properties:
+  file.name:
+    displayName: 题目
+  file.folder:
+    displayName: 所在仓
+  year:
+    displayName: 年份
+  subject_module:
+    displayName: 模块
+  submodule:
+    displayName: 子模块
+  pack:
+    displayName: 层级
+  question_type:
+    displayName: 题型
+  difficulty:
+    displayName: 难度
+  teaching_level:
+    displayName: 层次
+  exam_stage:
+    displayName: 考试阶段
+  source_subject:
+    displayName: 来源科目
+  status:
+    displayName: 状态
+views:
+  - type: table
+    name: 全部真题
+    order:
+      - file.name
+      - file.folder
+      - year
+      - subject_module
+      - question_type
+      - difficulty
+      - teaching_level
+      - exam_stage
+    sort:
+      - property: year
+        direction: DESC
+  - type: table
+    name: 有机专项
+    filters:
+      and:
+        - subject_module == "有机化学"
+    order:
+      - file.name
+      - file.folder
+      - year
+      - submodule
+      - question_type
+      - difficulty
+      - teaching_level
+    sort:
+      - property: year
+        direction: DESC
+  - type: table
+    name: 高难度拔高题
+    filters:
+      and:
+        - difficulty >= 4
+    order:
+      - file.name
+      - file.folder
+      - year
+      - subject_module
+      - difficulty
+      - teaching_level
+    sort:
+      - property: difficulty
+        direction: DESC
+  - type: table
+    name: 待治理（缺年份或层次）
+    filters:
+      and:
+        - or:
+            - year.isEmpty()
+            - teaching_level.isEmpty()
+    order:
+      - file.name
+      - file.folder
+      - subject_module
+      - difficulty
+      - status
+    sort:
+      - property: file.folder
+        direction: ASC

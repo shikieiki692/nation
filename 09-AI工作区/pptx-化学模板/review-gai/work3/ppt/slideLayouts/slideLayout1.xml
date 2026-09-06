@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='ASCII'?>
+<p:sldLayout xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" xmlns:p15="http://schemas.microsoft.com/office/powerpoint/2012/main" xmlns:p159="http://schemas.microsoft.com/office/powerpoint/2015/09/main" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main" type="blank" preserve="1">
+  <p:cSld name="&#31354;&#30333;">
+    <p:bg><p:bgPr><a:solidFill><a:srgbClr val="FAF7F0"/></a:solidFill><a:effectLst/></p:bgPr></p:bg><p:spTree>
+      <p:nvGrpSpPr>
+        <p:cNvPr id="1" name=""/>
+        <p:cNvGrpSpPr/>
+        <p:nvPr>
+          <p:custDataLst>
+            <p:tags r:id="rId1"/>
+          </p:custDataLst>
+        </p:nvPr>
+      </p:nvGrpSpPr>
+      <p:grpSpPr>
+        <a:xfrm>
+          <a:off x="0" y="0"/>
+          <a:ext cx="0" cy="0"/>
+        </a:xfrm>
+      </p:grpSpPr>
+      <p:sp><p:nvSpPr><p:cNvPr id="10009" name="SkinTitleRule"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr><p:spPr><a:xfrm><a:off x="777240" y="632650"/><a:ext cx="1463040" cy="20574"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom><a:solidFill><a:srgbClr val="E8A33D"/></a:solidFill><a:ln><a:noFill/></a:ln></p:spPr><p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr lang="zh-CN"><a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/></a:endParaRPr></a:p></p:txBody></p:sp><p:sp><p:nvSpPr><p:cNvPr id="10008" name="SkinDot"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr><p:spPr><a:xfrm><a:off x="548640" y="576072"/><a:ext cx="109728" cy="113157"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom><a:solidFill><a:srgbClr val="1B4332"/></a:solidFill><a:ln><a:noFill/></a:ln></p:spPr><p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr lang="zh-CN"><a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/></a:endParaRPr></a:p></p:txBody></p:sp><p:sp><p:nvSpPr><p:cNvPr id="10007" name="SkinSpine"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr><p:spPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="100584" cy="5143500"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom><a:solidFill><a:srgbClr val="1B4332"/></a:solidFill><a:ln><a:noFill/></a:ln></p:spPr><p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr lang="zh-CN"><a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/></a:endParaRPr></a:p></p:txBody></p:sp><p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="2" name="Date Placeholder 1"/>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="dt" sz="half" idx="10"/>
+            <p:custDataLst>
+              <p:tags r:id="rId2"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="628650" y="4767266"/>
+            <a:ext cx="2057400" cy="273844"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p>
+            <a:fld id="{812CC066-29CF-4D1B-AFA1-0837D0F191C7}" type="datetimeFigureOut">
+              <a:rPr lang="zh-CN" altLang="en-US" smtClean="0">
+                <a:solidFill>
+                  <a:srgbClr val="5F5F5F"/>
+                </a:solidFill>
+              <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/></a:rPr>
+              <a:t>2025/4/15</a:t>
+            </a:fld>
+            <a:endParaRPr lang="zh-CN" altLang="en-US">
+              <a:solidFill>
+                <a:srgbClr val="5F5F5F"/>
+              </a:solidFill>
+            <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/></a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="3" name="Footer Placeholder 2"/>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="ftr" sz="quarter" idx="11"/>
+            <p:custDataLst>
+              <p:tags r:id="rId3"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="3028950" y="4767266"/>
+            <a:ext cx="3086100" cy="273844"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p>
+            <a:endParaRPr lang="zh-CN" altLang="en-US">
+              <a:solidFill>
+                <a:srgbClr val="5F5F5F"/>
+              </a:solidFill>
+            <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/></a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="4" name="Slide Number Placeholder 3"/>
+          <p:cNvSpPr>
+            <a:spLocks noGrp="1"/>
+          </p:cNvSpPr>
+          <p:nvPr>
+            <p:ph type="sldNum" sz="quarter" idx="12"/>
+            <p:custDataLst>
+              <p:tags r:id="rId4"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="6457950" y="4767266"/>
+            <a:ext cx="2057400" cy="273844"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p>
+            <a:fld id="{4D3D0621-7590-4572-A7EA-6CB7047C3969}" type="slidenum">
+              <a:rPr lang="zh-CN" altLang="en-US" smtClean="0">
+                <a:solidFill>
+                  <a:srgbClr val="5F5F5F"/>
+                </a:solidFill>
+              <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/></a:rPr>
+              <a:t>&#8249;#&#8250;</a:t>
+            </a:fld>
+            <a:endParaRPr lang="zh-CN" altLang="en-US">
+              <a:solidFill>
+                <a:srgbClr val="5F5F5F"/>
+              </a:solidFill>
+            <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/></a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+    </p:spTree>
+    <p:extLst>
+      <p:ext uri="{BB962C8B-B14F-4D97-AF65-F5344CB8AC3E}">
+        <p14:creationId xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" val="3220975432"/>
+      </p:ext>
+    </p:extLst>
+  </p:cSld>
+  <p:clrMapOvr>
+    <a:masterClrMapping/>
+  </p:clrMapOvr>
+  <p:transition/>
+  <p:timing/>
+</p:sldLayout>

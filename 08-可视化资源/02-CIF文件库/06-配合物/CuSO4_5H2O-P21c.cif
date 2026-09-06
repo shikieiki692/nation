@@ -1,0 +1,25 @@
+data_CuSO4_5H2O
+_symmetry_space_group_name_H-M   'P 21/c'
+_cell_length_a    6.1300
+_cell_length_b    10.6800
+_cell_length_c    5.9600
+_cell_angle_alpha 90.000
+_cell_angle_beta  107.430
+_cell_angle_gamma 90.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Cu1  Cu  0.50000  0.50000  0.50000
+S1   S   0.26230  0.34750  0.08710
+O1   O   0.10900  0.33060  0.93300
+O2   O   0.38500  0.44800  0.10500
+O3   O   0.19030  0.21900  0.10500
+O4   O   0.37180  0.34780  0.32000
+O5   O   0.71490  0.59770  0.42000
+O6   O   0.17470  0.57820  0.32000
+H1   H   0.05000  0.55000  0.30000
+H2   H   0.20000  0.65000  0.35000

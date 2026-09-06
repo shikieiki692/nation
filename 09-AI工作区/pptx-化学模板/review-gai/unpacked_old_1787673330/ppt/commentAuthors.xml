@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ascii"?>
+<p:cmAuthorLst xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cmAuthor id="0" name="&#20840;&#21697;&#25991;&#25945;" initials="" lastIdx="0" clrIdx="0"/>
+  <p:cmAuthor id="1" name="SkyUN.Org" initials="S" lastIdx="0" clrIdx="0"/>
+  <p:cmAuthor id="2" name="&#20316;&#32773;" initials="A" lastIdx="0" clrIdx="1"/>
+  <p:cmAuthor id="3" name="fafa" initials="f" lastIdx="0" clrIdx="1"/>
+  <p:cmAuthor id="4" name="&#29579;&#20064;&#20064;" initials="&#29579;" lastIdx="0" clrIdx="0"/>
+  <p:cmAuthor id="6" name="jwzx" initials="j" lastIdx="0" clrIdx="5"/>
+</p:cmAuthorLst>

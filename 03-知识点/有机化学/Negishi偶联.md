@@ -1,0 +1,269 @@
+---
+title: Negishi偶联
+aliases: [Negishi Coupling, 根岸偶联, 有机锌偶联, 钯催化交叉偶联]
+type: 知识点
+template_version: v1.3
+subject: 有机化学
+module: 有机化学
+submodule: 过渡金属催化
+syllabus_stage: 进阶
+parent_overview: 中国化学奥林匹克基本要求-总览
+parent_module: 基础要求-有机化学
+syllabus_code: [50, 51]
+syllabus_module: [有机化学]
+tags: [化竞, 有机化学, Negishi偶联, 根岸偶联, 钯催化, 交叉偶联, 有机锌]
+related: [Suzuki偶联, Stille偶联, Heck反应, 交叉偶联]
+prerequisite: [过渡金属催化基础, 有机金属试剂, 氧化加成, 还原消除]
+problem_types: [题型-产物预测, 题型-与Suzuki比较]
+difficulty: 3
+importance: 3
+status: 已填充
+stage: published
+sources: ["ABOC §8.5"]
+source_type: []
+review_cycle: 30d
+has_images: true
+images_priority: 结构/机理 medium，纯公式 low
+images_note: 
+teaching_ready: false
+source_notes: []
+key_images: []
+updated: 2026-05-25
+source_extracts:
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第8章-过渡金属催化]]"
+    asset_id: "ABOC-第8章-过渡金属催化"
+    asset_type: "书籍提炼"
+    asset_summary: "Negishi偶联相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC]]"
+    asset_id: "ABOC"
+    asset_type: "书籍提炼"
+    asset_summary: "Negishi偶联相关内容"
+  - source_file: "[[07-资料提炼/书籍提炼/提炼-Clayden-第40章-金属有机化学]]"
+    asset_id: "Clayden-第40章-金属有机化学"
+    asset_type: "书籍提炼"
+    asset_summary: "Negishi偶联相关内容"
+---
+# Negishi 偶联（Negishi Coupling）
+- 总览：[[中国化学奥林匹克基本要求-总览]]
+- 所属模块：[[基础要求-有机化学]]
+- 对应考纲条目：[[50-有机合成]]、[[51-金属有机]]
+---
+
+## 一、定义
+
+**Negishi 偶联**：在 **Pd(0) 或 Ni(0) 催化剂**存在下，**有机锌试剂**与**有机卤代物（或三氟甲磺酸酯）**发生交叉偶联，生成新的 C–C 键的反应。
+
+**通式**：
+$$
+\ce{R-ZnX + R'-X' ->[Pd(0) 或 Ni(0)] R-R' + X-ZnX'}
+$$
+
+**本质**：**有机锌试剂参与的交叉偶联**——反应性高于 Suzuki（有机硼），但锌试剂对水和空气敏感，操作要求更高。
+
+---
+
+## 二、考纲对应
+
+- 对应考纲条目：[[50-有机合成]]、[[51-金属有机]]
+- 所属模块：[[基础要求-有机化学]]
+- 本知识点在考纲中的作用：Negishi 偶联是 Suzuki 的重要补充，尤其对缺电子卤代物反应性更好。
+
+---
+
+## 三、核心原理
+
+### 3.1 催化循环
+
+**与 Suzuki 类似的三步循环**：
+
+```
+步骤 1：氧化加成
+  Pd(0) + R'-X → R'-Pd(II)-X
+
+步骤 2：转金属
+  R'-Pd(II)-X + R-ZnX → R'-Pd(II)-R + X-ZnX
+
+步骤 3：还原消除
+  R'-Pd(II)-R → R-R' + Pd(0)
+```
+
+**关键区别**：
+- Suzuki：硼酸 → 需碱活化
+- Negishi：有机锌 → **不需碱**（锌本身活化）
+- 转金属更快 → 反应速率更高
+
+### 3.2 有机锌试剂的制备
+
+**常用方法**：
+
+| 方法 | 反应式 | 特点 |
+|:---|:---|:---|
+| **锌插入法** | R-X + Zn → R-ZnX | 类似格氏试剂 |
+| **锂锌交换** | R-Li + ZnX₂ → R-ZnX + LiX | 低温进行 |
+| **硼锌交换** | R-B(OR')₂ + ZnX₂ → R-ZnX | 温和 |
+
+### 3.3 与 Suzuki 的比较
+
+| 特征 | **Negishi** | **Suzuki** |
+|:---|:---|:---|
+| **有机金属试剂** | 有机锌 R-ZnX | 有机硼酸 R-B(OH)₂ |
+| **反应性** | **更高** | 中等 |
+| **稳定性** | 对水/空气敏感 | 空气/水稳定 |
+| **需碱** | ❌ 不需要 | ✅ 必须 |
+| **毒性** | 低 | 无毒 |
+| **操作难度** | 较高 | 简单 |
+
+### 3.4 底物范围
+
+**有机锌试剂**：
+- 芳基锌（最常用）
+- 烯基锌
+- **烷基锌**（Negishi 的独特优势！Suzuki 很难做到）
+
+**卤代物**：
+- 芳基/烯基溴、碘
+- 芳基氯（Ni 催化更有效）
+- 三氟甲磺酸酯
+
+---
+
+## 四、关键结论
+
+1. **Negishi = 有机锌 + 卤代物 → 交叉偶联**
+2. **Pd(0) 或 Ni(0) 催化**
+3. **不需碱**（锌自身活化）
+4. **反应性高于 Suzuki**
+5. **可偶联烷基锌**（Suzuki 难做到）
+6. **锌试剂对水/空气敏感**
+
+---
+
+## 五、常见分类或情形
+
+### 5.1 按催化剂分类
+
+| 催化剂 | 适用底物 | 特点 |
+|:---|:---|:---|
+| **Pd(PPh₃)₄** | 芳基/烯基溴、碘 | 经典体系 |
+| **Ni(PPh₃)₄** | 芳基氯 | Ni 对氯更活泼 |
+| **Pd₂(dba)₃ / 膦配体** | 难反应底物 | 高活性 |
+
+---
+
+## 六、适用条件与限制
+
+1. **需要严格无水无氧**
+2. **有机锌试剂需新鲜制备**
+3. **官能团耐受性不如 Suzuki**（锌试剂较活泼）
+4. **烷基锌可发生 β-H 消除**——需控制条件
+5. **Ni 催化对芳基氯更有效**
+
+---
+
+## 七、常见比较与易混点
+
+### 7.1 Negishi vs Suzuki vs Stille
+
+| | **Negishi** | **Suzuki** | **Stille** |
+|:---|:---|:---|:---|
+| **试剂** | 有机锌 | 有机硼酸 | 有机锡 |
+| **反应性** | 最高 | 中 | 中 |
+| **稳定性** | 敏感 | 稳定 | 极稳定 |
+| **毒性** | 低 | 无毒 | **高** |
+| **需碱** | 否 | 是 | 否 |
+
+---
+
+## 八、与其他知识点的联系
+
+- **前置知识**：[[过渡金属催化基础]]、[[有机金属试剂]]
+- **相关知识**：
+  - "[[Suzuki偶联]]（最常用的交叉偶联）"
+  - "[[Stille偶联]]（另一互补偶联）"
+
+---
+
+## 九、典型题型
+
+- 题型-产物预测：给定有机锌和卤代物判断产物
+- 题型-与Suzuki比较：选择 Suzuki 还是 Negishi
+
+---
+
+## 十、例题
+
+### 10.1 例题 1（★ 基础）
+
+**题目**：Negishi 偶联和 Suzuki 偶联的根本区别是什么？
+
+**解答**：
+- Negishi：有机锌试剂，**不需碱**，反应性更高
+- Suzuki：有机硼酸，**必须加碱**活化，更稳定、操作更简单
+- Negishi 可偶联烷基，Suzuki 主要偶联芳基/烯基
+
+### 10.2 例题 2（★★ 选择）
+
+**题目**：以下哪种情况更适合用 Negishi 而非 Suzuki？
+
+**解答**：
+- 底物是**缺电子芳基氯**（Ni 催化 Negishi 更有效）
+- 需要偶联**烷基**（Negishi 可行，Suzuki 难）
+- 反应速率要求高（Negishi 更快）
+
+---
+
+## 十一、易错点
+
+1. ❌ **Negishi 需要碱** → Negishi **不需要碱**
+2. ❌ **Negishi 比 Suzuki 稳定** → 锌试剂**更敏感**
+3. ❌ **Negishi 只能 Pd 催化** → **Ni** 也可以（对氯更有效）
+
+---
+
+## 十二、🎯 教学视角
+
+### 12.1 学习路径
+
+- **前置**：[[过渡金属催化基础]]、[[Suzuki偶联]]
+- **后续**：[[Stille偶联]]、[[题型-有机合成设计]]
+
+### 12.2 学生易踩的认知误区
+
+| 误区 | 正确认识 | 辨析口诀 |
+|---|---|---|
+| "Negishi 要碱" | 不需要碱 | "Negishi 无碱行" |
+| "Negishi 最稳定" | 锌试剂敏感 | "Suzuki 稳，Negishi 快" |
+
+### 12.3 现实类比
+
+**Negishi 像"急性子的工匠"**：
+- 有机锌 = 锋利但易锈的刀具（反应性高但需小心保存）
+- Suzuki 的硼酸 = 不锈钢刀（稳定但稍钝）
+- 急性子工匠干活快（反应快），但需要精心维护工具（无水无氧）
+
+---
+
+## 十三、修订记录
+
+- **v1.1（2026-05-10）**：首次创建完整 v1.1 模板。基于 ABOC §8.5 Negishi 偶联框架。涵盖 Pd/Ni 催化循环、有机锌试剂制备、与 Suzuki/Stille 的比较、烷基偶联优势。Phase C Ch.8 拓展 KP。
+
+---
+
+```dataview
+TABLE file.name AS "文件名", year AS "年份", type AS "题型", difficulty AS "难度"
+FROM "04-题库"
+WHERE contains(knowledge_points, "Negishi偶联")
+SORT year DESC, difficulty ASC
+```
+
+## 十三、竞赛拓展
+
+## 十四、外部资料出处
+
+## 十五、待完善项
+
+
+## 核心理论图谱
+
+![[099a8a788164c9537bbfb94c8289a24f3d79b61843e98058cd0d52d04aaa4a25.jpg]]
+> *图释：钯催化交叉偶联反应五大经典人名反应全景对照表：Heck/Stille/Suzuki/Sonogashira/Buchwald-Hartwig*（来源：clayden_ch37_pd_coupling_five_named_reactions_table.jpg / 过渡金属催化/交叉偶联/人名反应）

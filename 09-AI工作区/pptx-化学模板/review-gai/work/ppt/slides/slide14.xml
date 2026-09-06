@@ -1,0 +1,829 @@
+<?xml version='1.0' encoding='ASCII'?>
+<p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p14="http://schemas.microsoft.com/office/powerpoint/2010/main" xmlns:p15="http://schemas.microsoft.com/office/powerpoint/2012/main" xmlns:p159="http://schemas.microsoft.com/office/powerpoint/2015/09/main" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld name="">
+    <p:bg><p:bgPr><a:solidFill><a:srgbClr val="FAF7F0"/></a:solidFill><a:effectLst/></p:bgPr></p:bg><p:spTree>
+      <p:nvGrpSpPr>
+        <p:cNvPr id="1" name=""/>
+        <p:cNvGrpSpPr/>
+        <p:nvPr>
+          <p:custDataLst>
+            <p:tags r:id="rId3"/>
+          </p:custDataLst>
+        </p:nvPr>
+      </p:nvGrpSpPr>
+      <p:grpSpPr>
+        <a:xfrm>
+          <a:off x="0" y="0"/>
+          <a:ext cx="0" cy="0"/>
+        </a:xfrm>
+      </p:grpSpPr>
+      <p:pic>
+        <p:nvPicPr>
+          <p:cNvPr id="6" name="&#24605;&#32500;&#23548;&#22270;1" title=""/>
+          <p:cNvPicPr>
+            <a:picLocks noChangeAspect="1"/>
+          </p:cNvPicPr>
+          <p:nvPr>
+            <p:custDataLst>
+              <p:tags r:id="rId5"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvPicPr>
+        <p:blipFill>
+          <a:blip r:embed="rId4"/>
+          <a:stretch>
+            <a:fillRect/>
+          </a:stretch>
+        </p:blipFill>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="842055" y="1371599"/>
+            <a:ext cx="4057650" cy="2400300"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+        </p:spPr>
+      </p:pic>
+      <p:pic>
+        <p:nvPicPr>
+          <p:cNvPr id="16" name="&#24605;&#32500;&#23548;&#22270;2" title=""/>
+          <p:cNvPicPr>
+            <a:picLocks noChangeAspect="1"/>
+          </p:cNvPicPr>
+          <p:nvPr>
+            <p:custDataLst>
+              <p:tags r:id="rId7"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvPicPr>
+        <p:blipFill>
+          <a:blip r:embed="rId6"/>
+          <a:stretch>
+            <a:fillRect/>
+          </a:stretch>
+        </p:blipFill>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="5535592" y="1650014"/>
+            <a:ext cx="1535906" cy="557213"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+        </p:spPr>
+      </p:pic>
+      <p:pic>
+        <p:nvPicPr>
+          <p:cNvPr id="17" name="&#24605;&#32500;&#23548;&#22270;3" title=""/>
+          <p:cNvPicPr>
+            <a:picLocks noChangeAspect="1"/>
+          </p:cNvPicPr>
+          <p:nvPr>
+            <p:custDataLst>
+              <p:tags r:id="rId9"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvPicPr>
+        <p:blipFill>
+          <a:blip r:embed="rId8"/>
+          <a:stretch>
+            <a:fillRect/>
+          </a:stretch>
+        </p:blipFill>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="5535592" y="3218539"/>
+            <a:ext cx="1535906" cy="557213"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+        </p:spPr>
+      </p:pic>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="18" name="&#25991;&#26412;2" title=""/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr>
+            <p:custDataLst>
+              <p:tags r:id="rId10"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="2690094" y="1137278"/>
+            <a:ext cx="816173" cy="513081"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="t"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr>
+              <a:lnSpc>
+                <a:spcPts val="2850"/>
+              </a:lnSpc>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" sz="1950" b="1">
+                <a:solidFill>
+                  <a:srgbClr val="006EFF">
+                    <a:alpha val="100000"/>
+                  </a:srgbClr>
+                </a:solidFill>
+                <a:latin typeface="Times New Roman" panose="020b0503020204020204" charset="-122"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+              </a:rPr>
+              <a:t>&#32452;&#25104;</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="19" name="&#25991;&#26412;3" title=""/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr>
+            <p:custDataLst>
+              <p:tags r:id="rId11"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="6139857" y="1116933"/>
+            <a:ext cx="816173" cy="513081"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="t"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr>
+              <a:lnSpc>
+                <a:spcPts val="2850"/>
+              </a:lnSpc>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" sz="1950" b="1">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000">
+                    <a:alpha val="100000"/>
+                  </a:srgbClr>
+                </a:solidFill>
+                <a:latin typeface="Times New Roman" panose="020b0503020204020204" charset="-122"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+              </a:rPr>
+              <a:t>&#24615;&#36136;</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="20" name="&#25991;&#26412;4" title=""/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr>
+            <p:custDataLst>
+              <p:tags r:id="rId12"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="841705" y="3771622"/>
+            <a:ext cx="5523905" cy="513081"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="t"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr>
+              <a:lnSpc>
+                <a:spcPts val="2850"/>
+              </a:lnSpc>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" sz="1950" b="1">
+                <a:solidFill>
+                  <a:srgbClr val="000000">
+                    <a:alpha val="100000"/>
+                  </a:srgbClr>
+                </a:solidFill>
+                <a:latin typeface="Times New Roman" panose="020b0503020204020204" charset="-122"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+              </a:rPr>
+              <a:t>&#22823;&#22810;&#25968;&#37329;&#23646;&#27687;&#21270;&#29289;&#26159;&#30897;&#24615;&#27687;&#21270;&#29289;</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="21" name="&#25991;&#26412;5" title=""/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr>
+            <p:custDataLst>
+              <p:tags r:id="rId13"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="841834" y="4284607"/>
+            <a:ext cx="5523905" cy="513081"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="t"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr>
+              <a:lnSpc>
+                <a:spcPts val="2850"/>
+              </a:lnSpc>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" sz="1950" b="1">
+                <a:solidFill>
+                  <a:srgbClr val="000000">
+                    <a:alpha val="100000"/>
+                  </a:srgbClr>
+                </a:solidFill>
+                <a:latin typeface="Times New Roman" panose="020b0503020204020204" charset="-122"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+              </a:rPr>
+              <a:t>&#22823;&#22810;&#25968;&#38750;&#37329;&#23646;&#27687;&#21270;&#29289;&#26159;&#37240;&#24615;&#27687;&#21270;&#29289;</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="22" name="&#25991;&#26412;4" title=""/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr>
+            <p:custDataLst>
+              <p:tags r:id="rId14"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="4899705" y="2667108"/>
+            <a:ext cx="872795" cy="513081"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="t"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr>
+              <a:lnSpc>
+                <a:spcPts val="2850"/>
+              </a:lnSpc>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US">
+                <a:solidFill>
+                  <a:srgbClr val="FF0000"/>
+                </a:solidFill>
+                <a:latin typeface="Times New Roman" panose="020b0503020204020204" charset="-122"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+              </a:rPr>
+              <a:t>&#20013;&#24615;</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="23" name="&#26925;&#22278; 22" title=""/>
+          <p:cNvSpPr/>
+          <p:nvPr>
+            <p:custDataLst>
+              <p:tags r:id="rId15"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="4318000" y="2708607"/>
+            <a:ext cx="495300" cy="339394"/>
+          </a:xfrm>
+          <a:prstGeom prst="ellipse">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+          <a:ln>
+            <a:solidFill>
+              <a:srgbClr val="FF0000"/>
+            </a:solidFill>
+          </a:ln>
+        </p:spPr>
+        <p:style>
+          <a:lnRef idx="2">
+            <a:schemeClr val="accent1">
+              <a:shade val="15000"/>
+            </a:schemeClr>
+          </a:lnRef>
+          <a:fillRef idx="1">
+            <a:schemeClr val="accent1"/>
+          </a:fillRef>
+          <a:effectRef idx="0">
+            <a:schemeClr val="accent1"/>
+          </a:effectRef>
+          <a:fontRef idx="minor">
+            <a:schemeClr val="lt1"/>
+          </a:fontRef>
+        </p:style>
+        <p:txBody>
+          <a:bodyPr rtlCol="0" anchor="ctr"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:endParaRPr lang="zh-CN" altLang="en-US" sz="1350"><a:latin typeface="Times New Roman"/><a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/></a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="5" name="&#25991;&#26412;2" title="">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{09F72807-7982-5888-A7A2-D92EA23C366C}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr>
+            <p:custDataLst>
+              <p:tags r:id="rId16"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="734824" y="480593"/>
+            <a:ext cx="5542886" cy="589748"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="t"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr>
+              <a:lnSpc>
+                <a:spcPts val="3450"/>
+              </a:lnSpc>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" b="1">
+                <a:solidFill>
+                  <a:srgbClr val="000000">
+                    <a:alpha val="100000"/>
+                  </a:srgbClr>
+                </a:solidFill>
+                <a:latin typeface="Times New Roman" panose="020b0503020204020204" charset="-122"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+              </a:rPr>
+              <a:t>[&#24605;&#32771;] &#29289;&#36136;&#32452;&#25104;&#21644;&#24615;&#36136;&#20043;&#38388;&#26159;&#21542;&#23384;&#22312;&#26576;&#31181;&#20851;&#32852;&#65311;</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="2" name="&#30697;&#24418; 1" title="">
+            <a:extLst>
+              <a:ext uri="{FF2B5EF4-FFF2-40B4-BE49-F238E27FC236}">
+                <a16:creationId xmlns:a16="http://schemas.microsoft.com/office/drawing/2014/main" id="{3BBF19FD-E40F-EC80-135C-612AA2903AA5}"/>
+              </a:ext>
+            </a:extLst>
+          </p:cNvPr>
+          <p:cNvSpPr/>
+          <p:nvPr>
+            <p:custDataLst>
+              <p:tags r:id="rId17"/>
+            </p:custDataLst>
+          </p:nvPr>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="73642" y="99837"/>
+            <a:ext cx="3393878" cy="369332"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect">
+            <a:avLst/>
+          </a:prstGeom>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr wrap="none">
+            <a:spAutoFit/>
+          </a:bodyPr>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr>
+              <a:tabLst>
+                <a:tab pos="1971675"/>
+              </a:tabLst>
+              <a:defRPr><a:latin typeface="Times New Roman"/><a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/></a:defRPr>
+            </a:pPr>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" b="1" kern="100">
+                <a:solidFill>
+                  <a:srgbClr val="FFFFFF"/>
+                </a:solidFill>
+                <a:latin typeface="Times New Roman" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>&#20027;&#39064;</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" altLang="zh-CN" b="1" kern="100">
+                <a:solidFill>
+                  <a:srgbClr val="FFFFFF"/>
+                </a:solidFill>
+                <a:latin typeface="Times New Roman" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;" panose="020b0503020204020204" pitchFamily="34" charset="-122"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              </a:rPr>
+              <a:t>1:</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="zh-CN" altLang="en-US" b="1">
+                <a:solidFill>
+                  <a:srgbClr val="FFFFFF"/>
+                </a:solidFill>
+                <a:effectLst>
+                  <a:glow rad="228600">
+                    <a:srgbClr val="618499">
+                      <a:satMod val="175000"/>
+                      <a:alpha val="40000"/>
+                    </a:srgbClr>
+                  </a:glow>
+                </a:effectLst>
+                <a:latin typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+                <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+                <a:sym typeface="+mn-ea"/>
+              </a:rPr>
+              <a:t>&#29289;&#36136;&#30340;&#20998;&#31867;&#26631;&#20934;&#21450;&#20854;&#26041;&#27861;</a:t>
+            </a:r>
+            <a:endParaRPr lang="en-US" altLang="zh-CN" b="1">
+              <a:solidFill>
+                <a:srgbClr val="FFFFFF"/>
+              </a:solidFill>
+              <a:effectLst>
+                <a:glow rad="228600">
+                  <a:srgbClr val="618499">
+                    <a:satMod val="175000"/>
+                    <a:alpha val="40000"/>
+                  </a:srgbClr>
+                </a:glow>
+              </a:effectLst>
+              <a:latin typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              <a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/>
+              <a:cs typeface="Times New Roman" panose="02020603050405020304" pitchFamily="18" charset="0"/>
+              <a:sym typeface="+mn-ea"/>
+            </a:endParaRPr>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+    <p:sp><p:nvSpPr><p:cNvPr id="28" name="SkinLeftBar"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr><p:spPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="101600" cy="5143500"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom><a:solidFill><a:srgbClr val="1B4332"/></a:solidFill><a:ln><a:noFill/></a:ln></p:spPr><p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr lang="zh-CN"/></a:p></p:txBody></p:sp><p:sp><p:nvSpPr><p:cNvPr id="29" name="SkinProgress"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr><p:spPr><a:xfrm><a:off x="0" y="2898096"/><a:ext cx="101600" cy="2245404"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom><a:solidFill><a:srgbClr val="E8A33D"/></a:solidFill><a:ln><a:noFill/></a:ln></p:spPr><p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr lang="zh-CN"/></a:p></p:txBody></p:sp><p:sp><p:nvSpPr><p:cNvPr id="30" name="SkinDivider"/><p:cNvSpPr/><p:nvPr/></p:nvSpPr><p:spPr><a:xfrm><a:off x="508000" y="4876800"/><a:ext cx="8128000" cy="12700"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom><a:solidFill><a:srgbClr val="DDE5DD"/></a:solidFill><a:ln><a:noFill/></a:ln></p:spPr><p:txBody><a:bodyPr/><a:lstStyle/><a:p><a:endParaRPr lang="zh-CN"/></a:p></p:txBody></p:sp><p:sp><p:nvSpPr><p:cNvPr id="31" name="SkinPageNum"/><p:cNvSpPr txBox="1"/><p:nvPr/></p:nvSpPr><p:spPr><a:xfrm><a:off x="7620000" y="4927600"/><a:ext cx="1016000" cy="254000"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom><a:noFill/></p:spPr><p:txBody><a:bodyPr wrap="none" lIns="0" tIns="0" rIns="0" bIns="0" rtlCol="0" anchor="t"/><a:lstStyle/><a:p><a:pPr algn="r"/><a:r><a:rPr lang="zh-CN" altLang="en-US" sz="1000" dirty="0"><a:solidFill><a:srgbClr val="6B7280"/></a:solidFill><a:latin typeface="Times New Roman"/><a:ea typeface="&#24494;&#36719;&#38597;&#40657;"/></a:rPr><a:t>14 / 30</a:t></a:r></a:p></p:txBody></p:sp></p:spTree>
+  </p:cSld>
+  <p:clrMapOvr>
+    <a:masterClrMapping/>
+  </p:clrMapOvr>
+  <p:transition/>
+  <p:timing>
+    <p:tnLst>
+      <p:par>
+        <p:cTn id="1" dur="indefinite" restart="never" nodeType="tmRoot">
+          <p:childTnLst>
+            <p:seq concurrent="1" nextAc="seek">
+              <p:cTn id="2" dur="indefinite" nodeType="mainSeq">
+                <p:childTnLst>
+                  <p:par>
+                    <p:cTn id="3" fill="hold" nodeType="clickPar">
+                      <p:stCondLst>
+                        <p:cond delay="indefinite"/>
+                      </p:stCondLst>
+                      <p:childTnLst>
+                        <p:par>
+                          <p:cTn id="4" fill="hold">
+                            <p:stCondLst>
+                              <p:cond delay="0"/>
+                            </p:stCondLst>
+                            <p:childTnLst>
+                              <p:par>
+                                <p:cTn id="5" presetID="22" presetClass="entr" presetSubtype="1" fill="hold" grpId="0" nodeType="clickEffect">
+                                  <p:stCondLst>
+                                    <p:cond delay="0"/>
+                                  </p:stCondLst>
+                                  <p:childTnLst>
+                                    <p:set>
+                                      <p:cBhvr>
+                                        <p:cTn id="6" dur="1" fill="hold">
+                                          <p:stCondLst>
+                                            <p:cond delay="0"/>
+                                          </p:stCondLst>
+                                        </p:cTn>
+                                        <p:tgtEl>
+                                          <p:spTgt spid="16"/>
+                                        </p:tgtEl>
+                                        <p:attrNameLst>
+                                          <p:attrName>style.visibility</p:attrName>
+                                        </p:attrNameLst>
+                                      </p:cBhvr>
+                                      <p:to>
+                                        <p:strVal val="visible"/>
+                                      </p:to>
+                                    </p:set>
+                                    <p:animEffect transition="in" filter="wipe(left)">
+                                      <p:cBhvr>
+                                        <p:cTn id="7" dur="300"/>
+                                        <p:tgtEl>
+                                          <p:spTgt spid="16"/>
+                                        </p:tgtEl>
+                                      </p:cBhvr>
+                                    </p:animEffect>
+                                  </p:childTnLst>
+                                </p:cTn>
+                              </p:par>
+                            </p:childTnLst>
+                          </p:cTn>
+                        </p:par>
+                      </p:childTnLst>
+                    </p:cTn>
+                  </p:par>
+                  <p:par>
+                    <p:cTn id="8" fill="hold" nodeType="clickPar">
+                      <p:stCondLst>
+                        <p:cond delay="indefinite"/>
+                      </p:stCondLst>
+                      <p:childTnLst>
+                        <p:par>
+                          <p:cTn id="9" fill="hold">
+                            <p:stCondLst>
+                              <p:cond delay="0"/>
+                            </p:stCondLst>
+                            <p:childTnLst>
+                              <p:par>
+                                <p:cTn id="10" presetID="22" presetClass="entr" presetSubtype="1" fill="hold" grpId="0" nodeType="clickEffect">
+                                  <p:stCondLst>
+                                    <p:cond delay="0"/>
+                                  </p:stCondLst>
+                                  <p:childTnLst>
+                                    <p:set>
+                                      <p:cBhvr>
+                                        <p:cTn id="11" dur="1" fill="hold">
+                                          <p:stCondLst>
+                                            <p:cond delay="0"/>
+                                          </p:stCondLst>
+                                        </p:cTn>
+                                        <p:tgtEl>
+                                          <p:spTgt spid="20"/>
+                                        </p:tgtEl>
+                                        <p:attrNameLst>
+                                          <p:attrName>style.visibility</p:attrName>
+                                        </p:attrNameLst>
+                                      </p:cBhvr>
+                                      <p:to>
+                                        <p:strVal val="visible"/>
+                                      </p:to>
+                                    </p:set>
+                                    <p:animEffect transition="in" filter="wipe(left)">
+                                      <p:cBhvr>
+                                        <p:cTn id="12" dur="300"/>
+                                        <p:tgtEl>
+                                          <p:spTgt spid="20"/>
+                                        </p:tgtEl>
+                                      </p:cBhvr>
+                                    </p:animEffect>
+                                  </p:childTnLst>
+                                </p:cTn>
+                              </p:par>
+                            </p:childTnLst>
+                          </p:cTn>
+                        </p:par>
+                      </p:childTnLst>
+                    </p:cTn>
+                  </p:par>
+                  <p:par>
+                    <p:cTn id="13" fill="hold" nodeType="clickPar">
+                      <p:stCondLst>
+                        <p:cond delay="indefinite"/>
+                      </p:stCondLst>
+                      <p:childTnLst>
+                        <p:par>
+                          <p:cTn id="14" fill="hold">
+                            <p:stCondLst>
+                              <p:cond delay="0"/>
+                            </p:stCondLst>
+                            <p:childTnLst>
+                              <p:par>
+                                <p:cTn id="15" presetID="22" presetClass="entr" presetSubtype="1" fill="hold" grpId="0" nodeType="clickEffect">
+                                  <p:stCondLst>
+                                    <p:cond delay="0"/>
+                                  </p:stCondLst>
+                                  <p:childTnLst>
+                                    <p:set>
+                                      <p:cBhvr>
+                                        <p:cTn id="16" dur="1" fill="hold">
+                                          <p:stCondLst>
+                                            <p:cond delay="0"/>
+                                          </p:stCondLst>
+                                        </p:cTn>
+                                        <p:tgtEl>
+                                          <p:spTgt spid="22"/>
+                                        </p:tgtEl>
+                                        <p:attrNameLst>
+                                          <p:attrName>style.visibility</p:attrName>
+                                        </p:attrNameLst>
+                                      </p:cBhvr>
+                                      <p:to>
+                                        <p:strVal val="visible"/>
+                                      </p:to>
+                                    </p:set>
+                                    <p:animEffect transition="in" filter="wipe(left)">
+                                      <p:cBhvr>
+                                        <p:cTn id="17" dur="300"/>
+                                        <p:tgtEl>
+                                          <p:spTgt spid="22"/>
+                                        </p:tgtEl>
+                                      </p:cBhvr>
+                                    </p:animEffect>
+                                  </p:childTnLst>
+                                </p:cTn>
+                              </p:par>
+                            </p:childTnLst>
+                          </p:cTn>
+                        </p:par>
+                      </p:childTnLst>
+                    </p:cTn>
+                  </p:par>
+                  <p:par>
+                    <p:cTn id="18" fill="hold" nodeType="clickPar">
+                      <p:stCondLst>
+                        <p:cond delay="indefinite"/>
+                      </p:stCondLst>
+                      <p:childTnLst>
+                        <p:par>
+                          <p:cTn id="19" fill="hold">
+                            <p:stCondLst>
+                              <p:cond delay="0"/>
+                            </p:stCondLst>
+                            <p:childTnLst>
+                              <p:par>
+                                <p:cTn id="20" presetID="22" presetClass="entr" presetSubtype="1" fill="hold" grpId="0" nodeType="clickEffect">
+                                  <p:stCondLst>
+                                    <p:cond delay="0"/>
+                                  </p:stCondLst>
+                                  <p:childTnLst>
+                                    <p:set>
+                                      <p:cBhvr>
+                                        <p:cTn id="21" dur="1" fill="hold">
+                                          <p:stCondLst>
+                                            <p:cond delay="0"/>
+                                          </p:stCondLst>
+                                        </p:cTn>
+                                        <p:tgtEl>
+                                          <p:spTgt spid="17"/>
+                                        </p:tgtEl>
+                                        <p:attrNameLst>
+                                          <p:attrName>style.visibility</p:attrName>
+                                        </p:attrNameLst>
+                                      </p:cBhvr>
+                                      <p:to>
+                                        <p:strVal val="visible"/>
+                                      </p:to>
+                                    </p:set>
+                                    <p:animEffect transition="in" filter="wipe(left)">
+                                      <p:cBhvr>
+                                        <p:cTn id="22" dur="300"/>
+                                        <p:tgtEl>
+                                          <p:spTgt spid="17"/>
+                                        </p:tgtEl>
+                                      </p:cBhvr>
+                                    </p:animEffect>
+                                  </p:childTnLst>
+                                </p:cTn>
+                              </p:par>
+                            </p:childTnLst>
+                          </p:cTn>
+                        </p:par>
+                      </p:childTnLst>
+                    </p:cTn>
+                  </p:par>
+                  <p:par>
+                    <p:cTn id="23" fill="hold" nodeType="clickPar">
+                      <p:stCondLst>
+                        <p:cond delay="indefinite"/>
+                      </p:stCondLst>
+                      <p:childTnLst>
+                        <p:par>
+                          <p:cTn id="24" fill="hold">
+                            <p:stCondLst>
+                              <p:cond delay="0"/>
+                            </p:stCondLst>
+                            <p:childTnLst>
+                              <p:par>
+                                <p:cTn id="25" presetID="22" presetClass="entr" presetSubtype="1" fill="hold" grpId="0" nodeType="clickEffect">
+                                  <p:stCondLst>
+                                    <p:cond delay="0"/>
+                                  </p:stCondLst>
+                                  <p:childTnLst>
+                                    <p:set>
+                                      <p:cBhvr>
+                                        <p:cTn id="26" dur="1" fill="hold">
+                                          <p:stCondLst>
+                                            <p:cond delay="0"/>
+                                          </p:stCondLst>
+                                        </p:cTn>
+                                        <p:tgtEl>
+                                          <p:spTgt spid="21"/>
+                                        </p:tgtEl>
+                                        <p:attrNameLst>
+                                          <p:attrName>style.visibility</p:attrName>
+                                        </p:attrNameLst>
+                                      </p:cBhvr>
+                                      <p:to>
+                                        <p:strVal val="visible"/>
+                                      </p:to>
+                                    </p:set>
+                                    <p:animEffect transition="in" filter="wipe(left)">
+                                      <p:cBhvr>
+                                        <p:cTn id="27" dur="300"/>
+                                        <p:tgtEl>
+                                          <p:spTgt spid="21"/>
+                                        </p:tgtEl>
+                                      </p:cBhvr>
+                                    </p:animEffect>
+                                  </p:childTnLst>
+                                </p:cTn>
+                              </p:par>
+                            </p:childTnLst>
+                          </p:cTn>
+                        </p:par>
+                      </p:childTnLst>
+                    </p:cTn>
+                  </p:par>
+                </p:childTnLst>
+              </p:cTn>
+              <p:prevCondLst>
+                <p:cond evt="onPrev" delay="0">
+                  <p:tgtEl>
+                    <p:sldTgt/>
+                  </p:tgtEl>
+                </p:cond>
+              </p:prevCondLst>
+              <p:nextCondLst>
+                <p:cond evt="onNext" delay="0">
+                  <p:tgtEl>
+                    <p:sldTgt/>
+                  </p:tgtEl>
+                </p:cond>
+              </p:nextCondLst>
+            </p:seq>
+          </p:childTnLst>
+        </p:cTn>
+      </p:par>
+    </p:tnLst>
+    <p:bldLst>
+      <p:bldP spid="16" grpId="0" animBg="1"/>
+      <p:bldP spid="17" grpId="0" animBg="1"/>
+      <p:bldP spid="20" grpId="0" animBg="1"/>
+      <p:bldP spid="21" grpId="0" animBg="1"/>
+      <p:bldP spid="22" grpId="0"/>
+    </p:bldLst>
+  </p:timing>
+</p:sld>

@@ -1,0 +1,492 @@
+{"kind":"deck","id":"pr/wsyp43","name":"Deck"}
+{"kind":"layout","layoutId":"53765d07-9df7-4447-b84f-2d9b5f4e8710","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"fa13847b-51ba-4f08-9a37-8411df7423e9","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/zxhf0a","slide":1,"title":"气体与溶液（基础班）","textShapes":10}
+{"kind":"shape","id":"sh/fa9w3m94","slide":1,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/8v6psfil","slide":1,"bbox":[0,0,1280,150]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":1,"text":"气体与溶液（基础班）","textPreview":"气体与溶液（基础班）","textChars":10,"textLines":1,"bbox":[78,208,740,100]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":1,"text":"第一轮课堂投影首版 | 计算规范、理想气体、Dalton 分压、浓度换算、依数性主线","textPreview":"第一轮课堂投影首版 | 计算规范、理想气体、Dalton 分压、浓度换算、依数性主线","textChars":42,"textLines":1,"bbox":[78,316,760,80]}
+{"kind":"shape","id":"sh/fyxobm58","slide":1,"bbox":[876,206,302,238]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":1,"text":"投影定位\n• 讲工具链，不搬整篇讲义\n• 公式与表格强调快速扫读\n• 推导和细算保留板书","textPreview":"投影定位 | • 讲工具链，不搬整篇讲义 | • 公式与表格强调快速扫读 | • 推导和细算保留板书","textChars":44,"textLines":4,"bbox":[900,234,252,182]}
+{"kind":"shape","id":"sh/x4nap4r6","slide":1,"bbox":[80,440,112,34]}
+{"kind":"textbox","id":"sh/q1orytsv","slide":1,"text":"理想气体","textPreview":"理想气体","textChars":4,"textLines":1,"bbox":[92,448,88,18]}
+{"kind":"shape","id":"sh/fmlkjm1c","slide":1,"bbox":[204,440,128,34]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":1,"text":"Dalton 分压","textPreview":"Dalton 分压","textChars":9,"textLines":1,"bbox":[216,448,104,18]}
+{"kind":"shape","id":"sh/q5o7qpg3","slide":1,"bbox":[344,440,120,34]}
+{"kind":"textbox","id":"sh/1w7mp0bi","slide":1,"text":"浓度换算","textPreview":"浓度换算","textChars":4,"textLines":1,"bbox":[356,448,96,18]}
+{"kind":"shape","id":"sh/8bat47y1","slide":1,"bbox":[476,440,128,34]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":1,"text":"依数性主线","textPreview":"依数性主线","textChars":5,"textLines":1,"bbox":[488,448,104,18]}
+{"kind":"shape","id":"sh/qh0fepkz","slide":1,"bbox":[80,506,524,92]}
+{"kind":"textbox","id":"sh/18jqh0fe","slide":1,"text":"教师使用提醒","textPreview":"教师使用提醒","textChars":6,"textLines":1,"bbox":[98,518,488,22]}
+{"kind":"textbox","id":"sh/8nqxs72x","slide":1,"text":"• 这版用于投影，不替代教师稿\n• 若学生跟不上，优先回到工具链总览页","textPreview":"• 这版用于投影，不替代教师稿 | • 若学生跟不上，优先回到工具链总览页","textChars":35,"textLines":2,"bbox":[98,546,488,40]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":1,"text":"气体与溶液 基础班 | 第一轮工具链 | 1","textPreview":"气体与溶液 基础班 | 第一轮工具链 | 1","textChars":22,"textLines":1,"bbox":[64,684,1152,18]}
+{"kind":"notes","id":"nt/zxhf0a","slide":1,"text":""}
+{"kind":"slide","id":"sl/7c4qjj","slide":2,"title":"LESSON MAP","textShapes":15}
+{"kind":"textbox","id":"sh/hwfyxobm","slide":2,"text":"LESSON MAP","textPreview":"LESSON MAP","textChars":10,"textLines":1,"bbox":[72,54,340,22]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":2,"text":"本节工具链","textPreview":"本节工具链","textChars":5,"textLines":1,"bbox":[72,82,940,44]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":2,"text":"先分类，再选公式，再核单位，再回看结果","textPreview":"先分类，再选公式，再核单位，再回看结果","textChars":19,"textLines":1,"bbox":[72,124,980,28]}
+{"kind":"shape","id":"sh/oza1gvy9","slide":2,"bbox":[72,158,140,0]}
+{"kind":"shape","id":"sh/hk3q5o7q","slide":2,"bbox":[72,198,250,180]}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":2,"text":"1. 理想气体","textPreview":"1. 理想气体","textChars":7,"textLines":1,"bbox":[92,216,210,26]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":2,"text":"• pV = nRT\n• R 值必须和 p、V 单位匹配\n• 温度必须用 K","textPreview":"• pV = nRT | • R 值必须和 p、V 单位匹配 | • 温度必须用 K","textChars":38,"textLines":3,"bbox":[92,254,210,108]}
+{"kind":"shape","id":"sh/orytsvu9","slide":2,"bbox":[348,198,250,180]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":2,"text":"2. Dalton 分压","textPreview":"2. Dalton 分压","textChars":12,"textLines":1,"bbox":[368,216,210,26]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":2,"text":"• 混合气体先判恒容/恒压\n• 排水集气一定扣水蒸气压","textPreview":"• 混合气体先判恒容/恒压 | • 排水集气一定扣水蒸气压","textChars":27,"textLines":2,"bbox":[368,254,210,108]}
+{"kind":"shape","id":"sh/oj2t83it","slide":2,"bbox":[624,198,250,180]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":2,"text":"3. 浓度换算","textPreview":"3. 浓度换算","textChars":7,"textLines":1,"bbox":[644,216,210,26]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":2,"text":"• 分清 w / c / b / x\n• 先选基准，再写定义","textPreview":"• 分清 w / c / b / x | • 先选基准，再写定义","textChars":30,"textLines":2,"bbox":[644,254,210,108]}
+{"kind":"shape","id":"sh/dsji5sne","slide":2,"bbox":[900,198,250,180]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":2,"text":"4. 依数性","textPreview":"4. 依数性","textChars":6,"textLines":1,"bbox":[920,216,210,26]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":2,"text":"• 先抓根源：蒸气压是否下降\n• 第一轮以定性判断为主","textPreview":"• 先抓根源：蒸气压是否下降 | • 第一轮以定性判断为主","textChars":27,"textLines":2,"bbox":[920,254,210,108]}
+{"kind":"textbox","id":"sh/61032lsz","slide":2,"text":"• 课堂节奏：工具链主线 + 代表例题 + 易错点收束\n• PPT 负责条件表、总框架、题干提示；详细运算过程留板书","textPreview":"• 课堂节奏：工具链主线 + 代表例题 + 易错点收束 | • PPT 负责条件表、总框架、题干提示；详细运算过程留板书","textChars":58,"textLines":2,"bbox":[86,430,720,96]}
+{"kind":"shape","id":"sh/dg7adsji","slide":2,"bbox":[834,430,302,132]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":2,"text":"板书口令","textPreview":"板书口令","textChars":4,"textLines":1,"bbox":[852,442,266,22]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":2,"text":"• 先分类\n• 再统一单位\n• 再列方程\n• 最后回看结果是否合理","textPreview":"• 先分类 | • 再统一单位 | • 再列方程 | • 最后回看结果是否合理","textChars":33,"textLines":4,"bbox":[852,470,266,80]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":2,"text":"气体与溶液 基础班 | 第一轮工具链 | 2","textPreview":"气体与溶液 基础班 | 第一轮工具链 | 2","textChars":22,"textLines":1,"bbox":[64,684,1152,18]}
+{"kind":"notes","id":"nt/7c4qjj","slide":2,"text":""}
+{"kind":"slide","id":"sl/nft9tu","slide":3,"title":"IDEAL GAS","textShapes":32}
+{"kind":"textbox","id":"sh/i5sneloj","slide":3,"text":"IDEAL GAS","textPreview":"IDEAL GAS","textChars":9,"textLines":1,"bbox":[72,54,340,22]}
+{"kind":"textbox","id":"sh/pwb2hwfy","slide":3,"text":"理想气体状态方程","textPreview":"理想气体状态方程","textChars":8,"textLines":1,"bbox":[72,82,940,44]}
+{"kind":"textbox","id":"sh/0bi9s36h","slide":3,"text":"第一眼先看 T、p、V、R 是否在同一单位体系","textPreview":"第一眼先看 T、p、V、R 是否在同一单位体系","textChars":23,"textLines":1,"bbox":[72,124,980,28]}
+{"kind":"shape","id":"sh/7y1kre1w","slide":3,"bbox":[72,158,140,0]}
+{"kind":"shape","id":"sh/ed8v6psf","slide":3,"bbox":[72,196,360,118]}
+{"kind":"textbox","id":"sh/p4r65wju","slide":3,"text":"pV = nRT","textPreview":"pV = nRT","textChars":8,"textLines":1,"bbox":[112,222,280,52]}
+{"kind":"textbox","id":"sh/wjudg7ad","slide":3,"text":"• 常用变形式见本页与板书\n• 密度法常回到 M = ρRT / p\n• 温度永远换成热力学温度 K","textPreview":"• 常用变形式见本页与板书 | • 密度法常回到 M = ρRT / p | • 温度永远换成热力学温度 K","textChars":50,"textLines":3,"bbox":[72,344,150,108]}
+{"kind":"shape","id":"sh/72x4nap4","slide":3,"bbox":[82,430,146,74]}
+{"kind":"textbox","id":"sh/ih4byhgn","slide":3,"text":"常用变形式","textPreview":"常用变形式","textChars":5,"textLines":1,"bbox":[100,444,110,22]}
+{"kind":"textbox","id":"sh/032lszqt","slide":3,"text":"n = pV / RT","textPreview":"n = pV / RT","textChars":11,"textLines":1,"bbox":[96,466,118,28]}
+{"kind":"shape","id":"sh/tovahoza","slide":3,"bbox":[238,340,206,178]}
+{"kind":"shape","id":"sh/ixczed8v","slide":3,"bbox":[258,372,166,110]}
+{"kind":"shape","id":"sh/bi9s36hc","slide":3,"bbox":[285.52,397.76,12,12]}
+{"kind":"shape","id":"sh/0fepkzup","slide":3,"bbox":[314.72,404.64,12,12]}
+{"kind":"shape","id":"sh/p0bi9s36","slide":3,"bbox":[373.12,401.2,12,12]}
+{"kind":"shape","id":"sh/i9s36hcr","slide":3,"bbox":[294.28,432.16,12,12]}
+{"kind":"shape","id":"sh/bulwval8","slide":3,"bbox":[341,422.7,12,12]}
+{"kind":"shape","id":"sh/0je9cvix","slide":3,"bbox":[387.72,418.4,12,12]}
+{"kind":"shape","id":"sh/t47y1kre","slide":3,"bbox":[317.64,451.08,12,12]}
+{"kind":"shape","id":"sh/xobm58z2","slide":3,"bbox":[367.28,444.2,12,12]}
+{"kind":"shape","id":"sh/83itgfml","slide":3,"bbox":[494,206,120,50]}
+{"kind":"textbox","id":"sh/fil0rqd4","slide":3,"text":"R 的数值","textPreview":"R 的数值","textChars":5,"textLines":1,"bbox":[502,213,104,36]}
+{"kind":"shape","id":"sh/qxs72x4n","slide":3,"bbox":[614,206,110,50]}
+{"kind":"textbox","id":"sh/x0nuxc3y","slide":3,"text":"p 单位","textPreview":"p 单位","textChars":4,"textLines":1,"bbox":[622,213,94,36]}
+{"kind":"shape","id":"sh/4fu18jqh","slide":3,"bbox":[724,206,110,50]}
+{"kind":"textbox","id":"sh/fu18jqh0","slide":3,"text":"V 单位","textPreview":"V 单位","textChars":4,"textLines":1,"bbox":[732,213,94,36]}
+{"kind":"shape","id":"sh/m94fu18j","slide":3,"bbox":[834,206,280,50]}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":3,"text":"课堂提醒","textPreview":"课堂提醒","textChars":4,"textLines":1,"bbox":[842,213,264,36]}
+{"kind":"shape","id":"sh/4r65wjud","slide":3,"bbox":[494,256,120,50]}
+{"kind":"textbox","id":"sh/ih4byhgn","slide":3,"text":"8.31","textPreview":"8.31","textChars":4,"textLines":1,"bbox":[502,263,104,36]}
+{"kind":"shape","id":"sh/72x4nap4","slide":3,"bbox":[614,256,110,50]}
+{"kind":"textbox","id":"sh/0nuxc3yl","slide":3,"text":"kPa","textPreview":"kPa","textChars":3,"textLines":1,"bbox":[622,263,94,36]}
+{"kind":"shape","id":"sh/p8nqxs72","slide":3,"bbox":[724,256,110,50]}
+{"kind":"textbox","id":"sh/itgfmlkj","slide":3,"text":"dm³","textPreview":"dm³","textChars":3,"textLines":1,"bbox":[732,263,94,36]}
+{"kind":"shape","id":"sh/7ed8bat4","slide":3,"bbox":[834,256,280,50]}
+{"kind":"textbox","id":"sh/0z61032l","slide":3,"text":"竞赛与普化计算最常用","textPreview":"竞赛与普化计算最常用","textChars":10,"textLines":1,"bbox":[842,263,264,36]}
+{"kind":"shape","id":"sh/pkzupwb2","slide":3,"bbox":[494,306,120,50]}
+{"kind":"textbox","id":"sh/i5sneloj","slide":3,"text":"0.0821","textPreview":"0.0821","textChars":6,"textLines":1,"bbox":[502,313,104,36]}
+{"kind":"shape","id":"sh/7qpg3ex0","slide":3,"bbox":[614,306,110,50]}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":3,"text":"atm","textPreview":"atm","textChars":3,"textLines":1,"bbox":[622,313,94,36]}
+{"kind":"shape","id":"sh/2hwfyxob","slide":3,"bbox":[724,306,110,50]}
+{"kind":"textbox","id":"sh/94fu18jq","slide":3,"text":"dm³","textPreview":"dm³","textChars":3,"textLines":1,"bbox":[732,313,94,36]}
+{"kind":"shape","id":"sh/kjm1cfa9","slide":3,"bbox":[834,306,280,50]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":3,"text":"英文资料常见","textPreview":"英文资料常见","textChars":6,"textLines":1,"bbox":[842,313,264,36]}
+{"kind":"shape","id":"sh/2p8nqxs7","slide":3,"bbox":[494,356,120,50]}
+{"kind":"textbox","id":"sh/9gr2p8nq","slide":3,"text":"8.314","textPreview":"8.314","textChars":5,"textLines":1,"bbox":[502,363,104,36]}
+{"kind":"shape","id":"sh/gvy90je9","slide":3,"bbox":[614,356,110,50]}
+{"kind":"textbox","id":"sh/re1w7mp0","slide":3,"text":"Pa","textPreview":"Pa","textChars":2,"textLines":1,"bbox":[622,363,94,36]}
+{"kind":"shape","id":"sh/2t83itgf","slide":3,"bbox":[724,356,110,50]}
+{"kind":"textbox","id":"sh/cvixczed","slide":3,"text":"m³","textPreview":"m³","textChars":2,"textLines":1,"bbox":[732,363,94,36]}
+{"kind":"shape","id":"sh/5gbq1ory","slide":3,"bbox":[834,356,280,50]}
+{"kind":"textbox","id":"sh/upwb2hwf","slide":3,"text":"SI 推导常用","textPreview":"SI 推导常用","textChars":7,"textLines":1,"bbox":[842,363,264,36]}
+{"kind":"shape","id":"sh/nap4r65w","slide":3,"bbox":[494,406,120,50]}
+{"kind":"textbox","id":"sh/cj6tovah","slide":3,"text":"62.4","textPreview":"62.4","textChars":4,"textLines":1,"bbox":[502,413,104,36]}
+{"kind":"shape","id":"sh/54zidony","slide":3,"bbox":[614,406,110,50]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":3,"text":"mmHg","textPreview":"mmHg","textChars":4,"textLines":1,"bbox":[622,413,94,36]}
+{"kind":"shape","id":"sh/nyd0z610","slide":3,"bbox":[724,406,110,50]}
+{"kind":"textbox","id":"sh/cfa9w3m9","slide":3,"text":"dm³","textPreview":"dm³","textChars":3,"textLines":1,"bbox":[732,413,94,36]}
+{"kind":"shape","id":"sh/1032lszq","slide":3,"bbox":[834,406,280,50]}
+{"kind":"textbox","id":"sh/5sneloj2","slide":3,"text":"旧题偶见","textPreview":"旧题偶见","textChars":4,"textLines":1,"bbox":[842,413,264,36]}
+{"kind":"shape","id":"sh/cbulwval","slide":3,"bbox":[494,484,642,126]}
+{"kind":"textbox","id":"sh/nqxs72x4","slide":3,"text":"三句硬提醒","textPreview":"三句硬提醒","textChars":5,"textLines":1,"bbox":[514,502,602,26]}
+{"kind":"textbox","id":"sh/u54zidon","slide":3,"text":"• T 不能直接用 °C\n• 不要把 22.4 当成所有题的固定体积\n• 最后再统一检查有效数字","textPreview":"• T 不能直接用 °C | • 不要把 22.4 当成所有题的固定体积 | • 最后再统一检查有效数字","textChars":48,"textLines":3,"bbox":[514,540,602,54]}
+{"kind":"shape","id":"sh/5kb6xkf6","slide":3,"bbox":[72,522,370,82]}
+{"kind":"textbox","id":"sh/czed8v6p","slide":3,"text":"板书顺序","textPreview":"板书顺序","textChars":4,"textLines":1,"bbox":[90,534,334,22]}
+{"kind":"textbox","id":"sh/neloj2t8","slide":3,"text":"• 先写 T = t + 273.15\n• 再写 p、V 单位并决定 R\n• 最后再写变形式","textPreview":"• 先写 T = t + 273.15 | • 再写 p、V 单位并决定 R | • 最后再写变形式","textChars":46,"textLines":3,"bbox":[90,562,334,30]}
+{"kind":"textbox","id":"sh/ytsvu9kn","slide":3,"text":"气体与溶液 基础班 | 第一轮工具链 | 3","textPreview":"气体与溶液 基础班 | 第一轮工具链 | 3","textChars":22,"textLines":1,"bbox":[64,684,1152,18]}
+{"kind":"notes","id":"nt/nft9tu","slide":3,"text":""}
+{"kind":"slide","id":"sl/3oyk0e","slide":4,"title":"DALTON","textShapes":28}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":4,"text":"DALTON","textPreview":"DALTON","textChars":6,"textLines":1,"bbox":[72,54,340,22]}
+{"kind":"textbox","id":"sh/ytsvu9kn","slide":4,"text":"Dalton 分压与排水集气","textPreview":"Dalton 分压与排水集气","textChars":14,"textLines":1,"bbox":[72,82,940,44]}
+{"kind":"textbox","id":"sh/neloj2t8","slide":4,"text":"先分清总压、分压、干气压，再决定怎么代入","textPreview":"先分清总压、分压、干气压，再决定怎么代入","textChars":20,"textLines":1,"bbox":[72,124,980,28]}
+{"kind":"shape","id":"sh/cbulwval","slide":4,"bbox":[72,158,140,0]}
+{"kind":"shape","id":"sh/5sneloj2","slide":4,"bbox":[72,196,324,180]}
+{"kind":"textbox","id":"sh/u54zidon","slide":4,"text":"核心关系","textPreview":"核心关系","textChars":4,"textLines":1,"bbox":[92,214,284,26]}
+{"kind":"textbox","id":"sh/nqxs72x4","slide":4,"text":"• 理想气体中：pᵢ = xᵢ · p总\n• 同温同压下：体积分数 = 摩尔分数","textPreview":"• 理想气体中：pᵢ = xᵢ · p总 | • 同温同压下：体积分数 = 摩尔分数","textChars":40,"textLines":2,"bbox":[92,252,284,108]}
+{"kind":"shape","id":"sh/gbq1oryt","slide":4,"bbox":[114,280,152,62]}
+{"kind":"textbox","id":"sh/5wjudg7a","slide":4,"text":"总压关系","textPreview":"总压关系","textChars":4,"textLines":1,"bbox":[132,294,116,22]}
+{"kind":"textbox","id":"sh/54zidony","slide":4,"text":"p总 = Σpᵢ","textPreview":"p总 = Σpᵢ","textChars":8,"textLines":1,"bbox":[128,316,124,16]}
+{"kind":"shape","id":"sh/cj6tovah","slide":4,"bbox":[420,196,324,180]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":4,"text":"排水集气校正","textPreview":"排水集气校正","textChars":6,"textLines":1,"bbox":[440,214,284,26]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":4,"text":"• 求物质的量时必须用干气压\n• 25 °C 常见 p(H₂O) = 3.17 kPa","textPreview":"• 求物质的量时必须用干气压 | • 25 °C 常见 p(H₂O) = 3.17 kPa","textChars":43,"textLines":2,"bbox":[440,252,284,108]}
+{"kind":"shape","id":"sh/5gbq1ory","slide":4,"bbox":[454,280,254,62]}
+{"kind":"textbox","id":"sh/cvixczed","slide":4,"text":"干气压","textPreview":"干气压","textChars":3,"textLines":1,"bbox":[472,294,218,22]}
+{"kind":"textbox","id":"sh/nap4r65w","slide":4,"text":"p干气 = p总 − p(H₂O)","textPreview":"p干气 = p总 − p(H₂O)","textChars":17,"textLines":1,"bbox":[468,316,226,16]}
+{"kind":"shape","id":"sh/upwb2hwf","slide":4,"bbox":[768,196,368,180]}
+{"kind":"textbox","id":"sh/1orytsvu","slide":4,"text":"条件判断","textPreview":"条件判断","textChars":4,"textLines":1,"bbox":[788,214,328,26]}
+{"kind":"textbox","id":"sh/c7u54zid","slide":4,"text":"• 恒容：先想分压\n• 恒压：先想分体积\n• 不同初压混合不能想当然直接相加","textPreview":"• 恒容：先想分压 | • 恒压：先想分体积 | • 不同初压混合不能想当然直接相加","textChars":38,"textLines":3,"bbox":[788,252,328,108]}
+{"kind":"shape","id":"sh/oza1gvy9","slide":4,"bbox":[878,264,216,82]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":4,"text":"教材图：NH₃ / HCl 扩散","textPreview":"教材图：NH₃ / HCl 扩散","textChars":16,"textLines":1,"bbox":[892,274,188,18]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":4,"text":"图2.4  雾环偏向 HCl 一侧","textPreview":"图2.4  雾环偏向 HCl 一侧","textChars":17,"textLines":1,"bbox":[892,324,188,14]}
+{"kind":"shape","id":"sh/obm58z25","slide":4,"bbox":[72,418,230,47.5]}
+{"kind":"textbox","id":"sh/hwfyxobm","slide":4,"text":"场景","textPreview":"场景","textChars":2,"textLines":1,"bbox":[80,425,214,33.5]}
+{"kind":"shape","id":"sh/65wjudg7","slide":4,"bbox":[302,418,330,47.5]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":4,"text":"第一反应","textPreview":"第一反应","textChars":4,"textLines":1,"bbox":[310,425,314,33.5]}
+{"kind":"shape","id":"sh/sfil0rqd","slide":4,"bbox":[632,418,460,47.5]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":4,"text":"常见错法","textPreview":"常见错法","textChars":4,"textLines":1,"bbox":[640,425,444,33.5]}
+{"kind":"shape","id":"sh/36hcrmhk","slide":4,"bbox":[72,465.5,230,47.5]}
+{"kind":"textbox","id":"sh/eloj2t83","slide":4,"text":"混合后求各组分贡献","textPreview":"混合后求各组分贡献","textChars":9,"textLines":1,"bbox":[80,472.5,214,33.5]}
+{"kind":"shape","id":"sh/lc7u54zi","slide":4,"bbox":[302,465.5,330,47.5]}
+{"kind":"textbox","id":"sh/wra5gbq1","slide":4,"text":"先判恒容还是恒压","textPreview":"先判恒容还是恒压","textChars":8,"textLines":1,"bbox":[310,472.5,314,33.5]}
+{"kind":"shape","id":"sh/7u54zido","slide":4,"bbox":[632,465.5,460,47.5]}
+{"kind":"textbox","id":"sh/ed8bat47","slide":4,"text":"只看见 xi 就盲套公式","textPreview":"只看见 xi 就盲套公式","textChars":12,"textLines":1,"bbox":[640,472.5,444,33.5]}
+{"kind":"shape","id":"sh/l0rqd4vm","slide":4,"bbox":[72,513,230,47.5]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":4,"text":"排水法收集气体","textPreview":"排水法收集气体","textChars":7,"textLines":1,"bbox":[80,520,214,33.5]}
+{"kind":"shape","id":"sh/7mp0bi9s","slide":4,"bbox":[302,513,330,47.5]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":4,"text":"先扣水蒸气压","textPreview":"先扣水蒸气压","textChars":6,"textLines":1,"bbox":[310,520,314,33.5]}
+{"kind":"shape","id":"sh/u54zidon","slide":4,"bbox":[632,513,460,47.5]}
+{"kind":"textbox","id":"sh/nqxs72x4","slide":4,"text":"直接把总压代入 pV=nRT","textPreview":"直接把总压代入 pV=nRT","textChars":14,"textLines":1,"bbox":[640,520,444,33.5]}
+{"kind":"shape","id":"sh/cbulwval","slide":4,"bbox":[72,560.5,230,47.5]}
+{"kind":"textbox","id":"sh/5sneloj2","slide":4,"text":"不同初压气体连通","textPreview":"不同初压气体连通","textChars":8,"textLines":1,"bbox":[80,567.5,214,33.5]}
+{"kind":"shape","id":"sh/ytsvu9kn","slide":4,"bbox":[302,560.5,330,47.5]}
+{"kind":"textbox","id":"sh/neloj2t8","slide":4,"text":"回到状态方程重新算","textPreview":"回到状态方程重新算","textChars":9,"textLines":1,"bbox":[310,567.5,314,33.5]}
+{"kind":"shape","id":"sh/czed8v6p","slide":4,"bbox":[632,560.5,460,47.5]}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":4,"text":"把原压强简单相加","textPreview":"把原压强简单相加","textChars":8,"textLines":1,"bbox":[640,567.5,444,33.5]}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":4,"text":"气体与溶液 基础班 | 第一轮工具链 | 4","textPreview":"气体与溶液 基础班 | 第一轮工具链 | 4","textChars":22,"textLines":1,"bbox":[64,684,1152,18]}
+{"kind":"image","id":"im/94fu18jq","slide":4,"name":"","bbox":[890,298,192,24]}
+{"kind":"notes","id":"nt/3oyk0e","slide":4,"text":""}
+{"kind":"slide","id":"sl/9kcd3d","slide":5,"title":"CONCENTRATION","textShapes":28}
+{"kind":"textbox","id":"sh/udg7adsj","slide":5,"text":"CONCENTRATION","textPreview":"CONCENTRATION","textChars":13,"textLines":1,"bbox":[72,54,340,22]}
+{"kind":"textbox","id":"sh/54zidony","slide":5,"text":"四种浓度语言","textPreview":"四种浓度语言","textChars":6,"textLines":1,"bbox":[72,82,940,44]}
+{"kind":"textbox","id":"sh/cj6tovah","slide":5,"text":"先分清分母是谁：溶液、溶剂、体积，还是总物质的量","textPreview":"先分清分母是谁：溶液、溶剂、体积，还是总物质的量","textChars":24,"textLines":1,"bbox":[72,124,980,28]}
+{"kind":"shape","id":"sh/nap4r65w","slide":5,"bbox":[72,158,140,0]}
+{"kind":"shape","id":"sh/upwb2hwf","slide":5,"bbox":[72,198,180,52.4]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":5,"text":"名称","textPreview":"名称","textChars":2,"textLines":1,"bbox":[80,205,164,38.4]}
+{"kind":"shape","id":"sh/cvixczed","slide":5,"bbox":[252,198,110,52.4]}
+{"kind":"textbox","id":"sh/jm1cfa9w","slide":5,"text":"符号","textPreview":"符号","textChars":2,"textLines":1,"bbox":[260,205,94,38.4]}
+{"kind":"shape","id":"sh/u18jqh0f","slide":5,"bbox":[362,198,304,52.4]}
+{"kind":"textbox","id":"sh/w3m94fu1","slide":5,"text":"定义","textPreview":"定义","textChars":2,"textLines":1,"bbox":[370,205,288,38.4]}
+{"kind":"shape","id":"sh/loj2t83i","slide":5,"bbox":[666,198,330,52.4]}
+{"kind":"textbox","id":"sh/ex0nuxc3","slide":5,"text":"最常见场景","textPreview":"最常见场景","textChars":5,"textLines":1,"bbox":[674,205,314,38.4]}
+{"kind":"shape","id":"sh/3itgfmlk","slide":5,"bbox":[72,250.4,180,52.4]}
+{"kind":"textbox","id":"sh/wb2hwfyx","slide":5,"text":"质量分数","textPreview":"质量分数","textChars":4,"textLines":1,"bbox":[80,257.4,164,38.4]}
+{"kind":"shape","id":"sh/lwval87e","slide":5,"bbox":[252,250.4,110,52.4]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":5,"text":"w","textPreview":"w","textChars":1,"textLines":1,"bbox":[260,257.4,94,38.4]}
+{"kind":"shape","id":"sh/3q5o7qpg","slide":5,"bbox":[362,250.4,304,52.4]}
+{"kind":"textbox","id":"sh/sneloj2t","slide":5,"text":"m溶质 / m溶液","textPreview":"m溶质 / m溶液","textChars":9,"textLines":1,"bbox":[370,257.4,288,38.4]}
+{"kind":"shape","id":"sh/l87ed8ba","slide":5,"bbox":[666,250.4,330,52.4]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":5,"text":"商品试剂标签","textPreview":"商品试剂标签","textChars":6,"textLines":1,"bbox":[674,257.4,314,38.4]}
+{"kind":"shape","id":"sh/wfyxobm5","slide":5,"bbox":[72,302.8,180,52.4]}
+{"kind":"textbox","id":"sh/7u54zido","slide":5,"text":"物质的量浓度","textPreview":"物质的量浓度","textChars":6,"textLines":1,"bbox":[80,309.8,164,38.4]}
+{"kind":"shape","id":"sh/ed8bat47","slide":5,"bbox":[252,302.8,110,52.4]}
+{"kind":"textbox","id":"sh/lc7u54zi","slide":5,"text":"c","textPreview":"c","textChars":1,"textLines":1,"bbox":[260,309.8,94,38.4]}
+{"kind":"shape","id":"sh/wra5gbq1","slide":5,"bbox":[362,302.8,304,52.4]}
+{"kind":"textbox","id":"sh/36hcrmhk","slide":5,"text":"n溶质 / V溶液","textPreview":"n溶质 / V溶液","textChars":9,"textLines":1,"bbox":[370,309.8,288,38.4]}
+{"kind":"shape","id":"sh/eloj2t83","slide":5,"bbox":[666,302.8,330,52.4]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":5,"text":"实验室配液、滴定","textPreview":"实验室配液、滴定","textChars":8,"textLines":1,"bbox":[674,309.8,314,38.4]}
+{"kind":"shape","id":"sh/wval87ed","slide":5,"bbox":[72,355.2,180,52.4]}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":5,"text":"质量摩尔浓度","textPreview":"质量摩尔浓度","textChars":6,"textLines":1,"bbox":[80,362.2,164,38.4]}
+{"kind":"shape","id":"sh/zed8v6ps","slide":5,"bbox":[252,355.2,110,52.4]}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":5,"text":"b 或 m","textPreview":"b 或 m","textChars":5,"textLines":1,"bbox":[260,362.2,94,38.4]}
+{"kind":"shape","id":"sh/hk3q5o7q","slide":5,"bbox":[362,355.2,304,52.4]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":5,"text":"n溶质 / m溶剂","textPreview":"n溶质 / m溶剂","textChars":9,"textLines":1,"bbox":[370,362.2,288,38.4]}
+{"kind":"shape","id":"sh/zqtcj6to","slide":5,"bbox":[666,355.2,330,52.4]}
+{"kind":"textbox","id":"sh/obm58z25","slide":5,"text":"依数性语言","textPreview":"依数性语言","textChars":5,"textLines":1,"bbox":[674,362.2,314,38.4]}
+{"kind":"shape","id":"sh/hwfyxobm","slide":5,"bbox":[72,407.6,180,52.4]}
+{"kind":"textbox","id":"sh/a9w3m94f","slide":5,"text":"摩尔分数","textPreview":"摩尔分数","textChars":4,"textLines":1,"bbox":[80,414.6,164,38.4]}
+{"kind":"shape","id":"sh/zupwb2hw","slide":5,"bbox":[252,407.6,110,52.4]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":5,"text":"x","textPreview":"x","textChars":1,"textLines":1,"bbox":[260,414.6,94,38.4]}
+{"kind":"shape","id":"sh/udg7adsj","slide":5,"bbox":[362,407.6,304,52.4]}
+{"kind":"textbox","id":"sh/54zidony","slide":5,"text":"ni / Σn","textPreview":"ni / Σn","textChars":7,"textLines":1,"bbox":[370,414.6,288,38.4]}
+{"kind":"shape","id":"sh/cj6tovah","slide":5,"bbox":[666,407.6,330,52.4]}
+{"kind":"textbox","id":"sh/nap4r65w","slide":5,"text":"理论推导、Raoult 定律","textPreview":"理论推导、Raoult 定律","textChars":14,"textLines":1,"bbox":[674,414.6,314,38.4]}
+{"kind":"shape","id":"sh/upwb2hwf","slide":5,"bbox":[72,494,496,118]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":5,"text":"先抓分母","textPreview":"先抓分母","textChars":4,"textLines":1,"bbox":[92,512,456,26]}
+{"kind":"textbox","id":"sh/cvixczed","slide":5,"text":"• w 的分母是溶液质量\n• b 的分母是溶剂质量\n• c 的分母是溶液体积，不是加水体积","textPreview":"• w 的分母是溶液质量 | • b 的分母是溶剂质量 | • c 的分母是溶液体积，不是加水体积","textChars":45,"textLines":3,"bbox":[92,550,456,46]}
+{"kind":"shape","id":"sh/jm1cfa9w","slide":5,"bbox":[600,494,536,118]}
+{"kind":"textbox","id":"sh/u18jqh0f","slide":5,"text":"课堂口径","textPreview":"课堂口径","textChars":4,"textLines":1,"bbox":[620,512,496,26]}
+{"kind":"textbox","id":"sh/47y1kre1","slide":5,"text":"• 换算题别跳步：先选基准，再写定义\n• 看到“定容”就提醒自己：不是“加固定体积的水”\n• 先看符号，再决定从质量还是体积入手","textPreview":"• 换算题别跳步：先选基准，再写定义 | • 看到“定容”就提醒自己：不是“加固定体积的水” | • 先看符号，再决定从质量还是体积入手","textChars":64,"textLines":3,"bbox":[620,550,496,46]}
+{"kind":"textbox","id":"sh/tsvu9kni","slide":5,"text":"气体与溶液 基础班 | 第一轮工具链 | 5","textPreview":"气体与溶液 基础班 | 第一轮工具链 | 5","textChars":22,"textLines":1,"bbox":[64,684,1152,18]}
+{"kind":"notes","id":"nt/9kcd3d","slide":5,"text":""}
+{"kind":"slide","id":"sl/nzdsps","slide":6,"title":"WORKFLOW","textShapes":22}
+{"kind":"textbox","id":"sh/eloj2t83","slide":6,"text":"WORKFLOW","textPreview":"WORKFLOW","textChars":8,"textLines":1,"bbox":[72,54,340,22]}
+{"kind":"textbox","id":"sh/lc7u54zi","slide":6,"text":"浓度换算主链","textPreview":"浓度换算主链","textChars":6,"textLines":1,"bbox":[72,82,940,44]}
+{"kind":"textbox","id":"sh/wra5gbq1","slide":6,"text":"把一题拆成可追踪的四步，而不是脑内跳跃","textPreview":"把一题拆成可追踪的四步，而不是脑内跳跃","textChars":19,"textLines":1,"bbox":[72,124,980,28]}
+{"kind":"shape","id":"sh/7u54zido","slide":6,"bbox":[72,158,140,0]}
+{"kind":"shape","id":"sh/ed8bat47","slide":6,"bbox":[72,204,240,150]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":6,"text":"Step 1 选基准","textPreview":"Step 1 选基准","textChars":10,"textLines":1,"bbox":[92,222,200,26]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":6,"text":"• 常选 100 g 溶液、1 kg 溶液或 1 dm³ 溶液\n• 保证质量、体积、物质的量能互相转","textPreview":"• 常选 100 g 溶液、1 kg 溶液或 1 dm³ 溶液 | • 保证质量、体积、物质的量能互相转","textChars":50,"textLines":2,"bbox":[92,260,200,78]}
+{"kind":"shape","id":"sh/7mp0bi9s","slide":6,"bbox":[334,204,240,150]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":6,"text":"Step 2 写定义","textPreview":"Step 2 写定义","textChars":10,"textLines":1,"bbox":[354,222,200,26]}
+{"kind":"textbox","id":"sh/0rqd4vmt","slide":6,"text":"• w = m质 / m液\n• c = n质 / V液\n• b = n质 / m剂\n• x = ni / Σn","textPreview":"• w = m质 / m液 | • c = n质 / V液 | • b = n质 / m剂 | • x = ni / Σn","textChars":55,"textLines":4,"bbox":[354,260,200,78]}
+{"kind":"shape","id":"sh/tcj6tova","slide":6,"bbox":[596,204,240,150]}
+{"kind":"textbox","id":"sh/il0rqd4v","slide":6,"text":"Step 3 补辅助量","textPreview":"Step 3 补辅助量","textChars":11,"textLines":1,"bbox":[616,222,200,26]}
+{"kind":"textbox","id":"sh/b6xkf6dc","slide":6,"text":"• 常补：密度、摩尔质量、溶剂质量、体积\n• 必要时先从质量走到物质的量","textPreview":"• 常补：密度、摩尔质量、溶剂质量、体积 | • 必要时先从质量走到物质的量","textChars":36,"textLines":2,"bbox":[616,260,200,78]}
+{"kind":"shape","id":"sh/0je9cvix","slide":6,"bbox":[858,204,278,150]}
+{"kind":"textbox","id":"sh/t47y1kre","slide":6,"text":"Step 4 再做换算","textPreview":"Step 4 再做换算","textChars":11,"textLines":1,"bbox":[878,222,238,26]}
+{"kind":"textbox","id":"sh/idonyd0z","slide":6,"text":"• 最后检查单位和数量级\n• 锚点公式放到下表统一看","textPreview":"• 最后检查单位和数量级 | • 锚点公式放到下表统一看","textChars":26,"textLines":2,"bbox":[878,260,238,78]}
+{"kind":"shape","id":"sh/byhgn29g","slide":6,"bbox":[72,400,260,47.5]}
+{"kind":"textbox","id":"sh/0fepkzup","slide":6,"text":"课堂锚点公式","textPreview":"课堂锚点公式","textChars":6,"textLines":1,"bbox":[80,407,244,33.5]}
+{"kind":"shape","id":"sh/p0bi9s36","slide":6,"bbox":[332,400,340,47.5]}
+{"kind":"textbox","id":"sh/tsvu9kni","slide":6,"text":"提醒","textPreview":"提醒","textChars":2,"textLines":1,"bbox":[340,407,324,33.5]}
+{"kind":"shape","id":"sh/47y1kre1","slide":6,"bbox":[72,447.5,260,47.5]}
+{"kind":"textbox","id":"sh/bm58z25k","slide":6,"text":"c = 1000ρw / M","textPreview":"c = 1000ρw / M","textChars":14,"textLines":1,"bbox":[80,454.5,244,33.5]}
+{"kind":"shape","id":"sh/m1cfa9w3","slide":6,"bbox":[332,447.5,340,47.5]}
+{"kind":"textbox","id":"sh/tgfmlkjm","slide":6,"text":"1000 来自 cm³ -> dm³；w 用小数","textPreview":"1000 来自 cm³ -> dm³；w 用小数","textChars":24,"textLines":1,"bbox":[340,454.5,324,33.5]}
+{"kind":"shape","id":"sh/4vmtwra5","slide":6,"bbox":[72,495,260,47.5]}
+{"kind":"textbox","id":"sh/bat47y1k","slide":6,"text":"b = w / [M(1−w)]","textPreview":"b = w / [M(1−w)]","textChars":16,"textLines":1,"bbox":[80,502,244,33.5]}
+{"kind":"shape","id":"sh/mp0bi9s3","slide":6,"bbox":[332,495,340,47.5]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":6,"text":"分母是溶剂质量，不是溶液质量","textPreview":"分母是溶剂质量，不是溶液质量","textChars":14,"textLines":1,"bbox":[340,502,324,33.5]}
+{"kind":"shape","id":"sh/4nap4r65","slide":6,"bbox":[72,542.5,260,47.5]}
+{"kind":"textbox","id":"sh/eloj2t83","slide":6,"text":"Π = cRT","textPreview":"Π = cRT","textChars":7,"textLines":1,"bbox":[80,549.5,244,33.5]}
+{"kind":"shape","id":"sh/36hcrmhk","slide":6,"bbox":[332,542.5,340,47.5]}
+{"kind":"textbox","id":"sh/wra5gbq1","slide":6,"text":"第一轮只要求理解“像气体方程”","textPreview":"第一轮只要求理解“像气体方程”","textChars":15,"textLines":1,"bbox":[340,549.5,324,33.5]}
+{"kind":"shape","id":"sh/lc7u54zi","slide":6,"bbox":[732,402,404,188]}
+{"kind":"textbox","id":"sh/ed8bat47","slide":6,"text":"教师提示","textPreview":"教师提示","textChars":4,"textLines":1,"bbox":[752,420,364,26]}
+{"kind":"textbox","id":"sh/7u54zido","slide":6,"text":"• 这一页适合投影讲“总路线”\n• 细算过程请现场板书，不要把每一步都压进同一页","textPreview":"• 这一页适合投影讲“总路线” | • 细算过程请现场板书，不要把每一步都压进同一页","textChars":40,"textLines":2,"bbox":[752,458,364,116]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":6,"text":"气体与溶液 基础班 | 第一轮工具链 | 6","textPreview":"气体与溶液 基础班 | 第一轮工具链 | 6","textChars":22,"textLines":1,"bbox":[64,684,1152,18]}
+{"kind":"notes","id":"nt/nzdsps","slide":6,"text":""}
+{"kind":"slide","id":"sl/nb03y4","slide":7,"title":"COLLIGATIVE","textShapes":27}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":7,"text":"COLLIGATIVE","textPreview":"COLLIGATIVE","textChars":11,"textLines":1,"bbox":[72,54,340,22]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":7,"text":"依数性：先抓根源","textPreview":"依数性：先抓根源","textChars":8,"textLines":1,"bbox":[72,82,940,44]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":7,"text":"第一轮只要建立主线：溶质粒子数改变了溶剂蒸气压","textPreview":"第一轮只要建立主线：溶质粒子数改变了溶剂蒸气压","textChars":23,"textLines":1,"bbox":[72,124,980,28]}
+{"kind":"shape","id":"sh/val87ed8","slide":7,"bbox":[72,158,140,0]}
+{"kind":"shape","id":"sh/6psfil0r","slide":7,"bbox":[72,202,330,124]}
+{"kind":"textbox","id":"sh/dcbulwva","slide":7,"text":"主逻辑","textPreview":"主逻辑","textChars":3,"textLines":1,"bbox":[92,220,290,26]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":7,"text":"• 溶质加入 -> 溶剂蒸气压下降\n• 后面三项都可以回到这条主线理解","textPreview":"• 溶质加入 -> 溶剂蒸气压下降 | • 后面三项都可以回到这条主线理解","textChars":35,"textLines":2,"bbox":[92,258,290,52]}
+{"kind":"shape","id":"sh/v6psfil0","slide":7,"bbox":[430,202,260,124]}
+{"kind":"textbox","id":"sh/2lszqtcj","slide":7,"text":"四个结果","textPreview":"四个结果","textChars":4,"textLines":1,"bbox":[450,220,220,26]}
+{"kind":"textbox","id":"sh/szqtcj6t","slide":7,"text":"• 沸点升高\n• 凝固点降低\n• 渗透压\n• 蒸气压下降本身","textPreview":"• 沸点升高 | • 凝固点降低 | • 渗透压 | • 蒸气压下降本身","textChars":30,"textLines":4,"bbox":[450,258,220,52]}
+{"kind":"shape","id":"sh/lkjm1cfa","slide":7,"bbox":[718,202,418,124]}
+{"kind":"textbox","id":"sh/at47y1kr","slide":7,"text":"本轮边界","textPreview":"本轮边界","textChars":4,"textLines":1,"bbox":[738,220,378,26]}
+{"kind":"textbox","id":"sh/3ex0nuxc","slide":7,"text":"• 会定性解释，不做复杂物化级推导\n• 电解质精确粒子数修正放到后续","textPreview":"• 会定性解释，不做复杂物化级推导 | • 电解质精确粒子数修正放到后续","textChars":34,"textLines":2,"bbox":[738,258,378,52]}
+{"kind":"shape","id":"sh/sneloj2t","slide":7,"bbox":[928,212,178,102]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":7,"text":"教材图：液面分子受力","textPreview":"教材图：液面分子受力","textChars":10,"textLines":1,"bbox":[942,222,150,18]}
+{"kind":"textbox","id":"sh/32lszqtc","slide":7,"text":"图3.1  表面分子更易逸出","textPreview":"图3.1  表面分子更易逸出","textChars":14,"textLines":1,"bbox":[942,292,150,14]}
+{"kind":"shape","id":"sh/wb2hwfyx","slide":7,"bbox":[72,362,170,48]}
+{"kind":"textbox","id":"sh/lwval87e","slide":7,"text":"现象","textPreview":"现象","textChars":2,"textLines":1,"bbox":[80,369,154,34]}
+{"kind":"shape","id":"sh/pkzupwb2","slide":7,"bbox":[242,362,200,48]}
+{"kind":"textbox","id":"sh/0z61032l","slide":7,"text":"课堂公式","textPreview":"课堂公式","textChars":4,"textLines":1,"bbox":[250,369,184,34]}
+{"kind":"shape","id":"sh/7ed8bat4","slide":7,"bbox":[442,362,694,48]}
+{"kind":"textbox","id":"sh/itgfmlkj","slide":7,"text":"一句话解释","textPreview":"一句话解释","textChars":5,"textLines":1,"bbox":[450,369,678,34]}
+{"kind":"shape","id":"sh/p8nqxs72","slide":7,"bbox":[72,410,170,48]}
+{"kind":"textbox","id":"sh/0nuxc3yl","slide":7,"text":"蒸气压下降","textPreview":"蒸气压下降","textChars":5,"textLines":1,"bbox":[80,417,154,34]}
+{"kind":"shape","id":"sh/72x4nap4","slide":7,"bbox":[242,410,200,48]}
+{"kind":"textbox","id":"sh/ih4byhgn","slide":7,"text":"Δp = p* · x溶质","textPreview":"Δp = p* · x溶质","textChars":13,"textLines":1,"bbox":[250,417,184,34]}
+{"kind":"shape","id":"sh/p4r65wju","slide":7,"bbox":[442,410,694,48]}
+{"kind":"textbox","id":"sh/wjudg7ad","slide":7,"text":"表面可蒸发的溶剂比例下降","textPreview":"表面可蒸发的溶剂比例下降","textChars":12,"textLines":1,"bbox":[450,417,678,34]}
+{"kind":"shape","id":"sh/uxc3ylc7","slide":7,"bbox":[72,458,170,48]}
+{"kind":"textbox","id":"sh/ji5snelo","slide":7,"text":"沸点升高","textPreview":"沸点升高","textChars":4,"textLines":1,"bbox":[80,465,154,34]}
+{"kind":"shape","id":"sh/c3ylc7u5","slide":7,"bbox":[242,458,200,48]}
+{"kind":"textbox","id":"sh/1kre1w7m","slide":7,"text":"ΔT₍b₎ = K₍b₎ · m","textPreview":"ΔT₍b₎ = K₍b₎ · m","textChars":16,"textLines":1,"bbox":[250,465,184,34]}
+{"kind":"shape","id":"sh/ulwval87","slide":7,"bbox":[442,458,694,48]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":7,"text":"必须升到更高温度才能与外压相等","textPreview":"必须升到更高温度才能与外压相等","textChars":15,"textLines":1,"bbox":[450,465,678,34]}
+{"kind":"shape","id":"sh/crmhk3q5","slide":7,"bbox":[72,506,170,48]}
+{"kind":"textbox","id":"sh/1cfa9w3m","slide":7,"text":"凝固点降低","textPreview":"凝固点降低","textChars":5,"textLines":1,"bbox":[80,513,154,34]}
+{"kind":"shape","id":"sh/qh0fepkz","slide":7,"bbox":[242,506,200,48]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":7,"text":"ΔT₍f₎ = K₍f₎ · m","textPreview":"ΔT₍f₎ = K₍f₎ · m","textChars":16,"textLines":1,"bbox":[250,513,184,34]}
+{"kind":"shape","id":"sh/3ylc7u54","slide":7,"bbox":[442,506,694,48]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":7,"text":"液相更稳定，固液平衡温度下移","textPreview":"液相更稳定，固液平衡温度下移","textChars":14,"textLines":1,"bbox":[450,513,678,34]}
+{"kind":"shape","id":"sh/h4byhgn2","slide":7,"bbox":[72,554,170,48]}
+{"kind":"textbox","id":"sh/sji5snel","slide":7,"text":"渗透压","textPreview":"渗透压","textChars":3,"textLines":1,"bbox":[80,561,154,34]}
+{"kind":"shape","id":"sh/3m94fu18","slide":7,"bbox":[242,554,200,48]}
+{"kind":"textbox","id":"sh/a5gbq1or","slide":7,"text":"Π = cRT","textPreview":"Π = cRT","textChars":7,"textLines":1,"bbox":[250,561,184,34]}
+{"kind":"shape","id":"sh/lszqtcj6","slide":7,"bbox":[442,554,694,48]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":7,"text":"半透膜两侧溶剂化学势差驱动","textPreview":"半透膜两侧溶剂化学势差驱动","textChars":13,"textLines":1,"bbox":[450,561,678,34]}
+{"kind":"textbox","id":"sh/zidonyd0","slide":7,"text":"气体与溶液 基础班 | 第一轮工具链 | 7","textPreview":"气体与溶液 基础班 | 第一轮工具链 | 7","textChars":22,"textLines":1,"bbox":[64,684,1152,18]}
+{"kind":"image","id":"im/tcj6tova","slide":7,"name":"","bbox":[940,246,154,44]}
+{"kind":"notes","id":"nt/nb03y4","slide":7,"text":""}
+{"kind":"slide","id":"sl/fuervt","slide":8,"title":"BOARD TEMPLATE","textShapes":22}
+{"kind":"textbox","id":"sh/al87ed8b","slide":8,"text":"BOARD TEMPLATE","textPreview":"BOARD TEMPLATE","textChars":14,"textLines":1,"bbox":[72,54,340,22]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":8,"text":"板书模板：气体题四步法","textPreview":"板书模板：气体题四步法","textChars":11,"textLines":1,"bbox":[72,82,940,44]}
+{"kind":"textbox","id":"sh/orytsvu9","slide":8,"text":"这一页专门服务课堂带做，不承担知识扩展","textPreview":"这一页专门服务课堂带做，不承担知识扩展","textChars":19,"textLines":1,"bbox":[72,124,980,28]}
+{"kind":"shape","id":"sh/zupwb2hw","slide":8,"bbox":[72,158,140,0]}
+{"kind":"shape","id":"sh/a9w3m94f","slide":8,"bbox":[72,202,250,168]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":8,"text":"Step 1 分类","textPreview":"Step 1 分类","textChars":9,"textLines":1,"bbox":[92,220,210,26]}
+{"kind":"textbox","id":"sh/sfil0rqd","slide":8,"text":"• 纯气体 / 混合气体 / 排水集气 / 密度法\n• 先判条件，再决定入口","textPreview":"• 纯气体 / 混合气体 / 排水集气 / 密度法 | • 先判条件，再决定入口","textChars":38,"textLines":2,"bbox":[92,258,210,96]}
+{"kind":"shape","id":"sh/zqtcj6to","slide":8,"bbox":[344,202,250,168]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":8,"text":"Step 2 统一单位","textPreview":"Step 2 统一单位","textChars":11,"textLines":1,"bbox":[364,220,210,26]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":8,"text":"• T → K\n• p、V 与 R 匹配\n• 必要时把 mL → dm³","textPreview":"• T → K | • p、V 与 R 匹配 | • 必要时把 mL → dm³","textChars":36,"textLines":3,"bbox":[364,258,210,96]}
+{"kind":"shape","id":"sh/5o7qpg3e","slide":8,"bbox":[616,202,250,168]}
+{"kind":"textbox","id":"sh/yxobm58z","slide":8,"text":"Step 3 列方程","textPreview":"Step 3 列方程","textChars":10,"textLines":1,"bbox":[636,220,210,26]}
+{"kind":"textbox","id":"sh/nih4byhg","slide":8,"text":"• 优先 pV = nRT\n• 混合气体补 Dalton\n• 排水法先扣 p(H₂O)","textPreview":"• 优先 pV = nRT | • 混合气体补 Dalton | • 排水法先扣 p(H₂O)","textChars":43,"textLines":3,"bbox":[636,258,210,96]}
+{"kind":"shape","id":"sh/gr2p8nqx","slide":8,"bbox":[888,202,248,168]}
+{"kind":"textbox","id":"sh/9cvixcze","slide":8,"text":"Step 4 回看结果","textPreview":"Step 4 回看结果","textChars":11,"textLines":1,"bbox":[908,220,208,26]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":8,"text":"• 数量级是否合理\n• 单位是否写对\n• 有效数字是否匹配","textPreview":"• 数量级是否合理 | • 单位是否写对 | • 有效数字是否匹配","textChars":29,"textLines":3,"bbox":[908,258,208,96]}
+{"kind":"shape","id":"sh/r65wjudg","slide":8,"bbox":[72,418,200,47]}
+{"kind":"textbox","id":"sh/gfmlkjm1","slide":8,"text":"题型","textPreview":"题型","textChars":2,"textLines":1,"bbox":[80,425,184,33]}
+{"kind":"shape","id":"sh/90je9cvi","slide":8,"bbox":[272,418,450,47]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":8,"text":"先写哪一句","textPreview":"先写哪一句","textChars":5,"textLines":1,"bbox":[280,425,434,33]}
+{"kind":"shape","id":"sh/4nap4r65","slide":8,"bbox":[72,465,200,47]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":8,"text":"钢瓶气体题","textPreview":"钢瓶气体题","textChars":5,"textLines":1,"bbox":[80,472,184,33]}
+{"kind":"shape","id":"sh/mhk3q5o7","slide":8,"bbox":[272,465,450,47]}
+{"kind":"textbox","id":"sh/twra5gbq","slide":8,"text":"先把 MPa / °C / L 统一到 kPa / K / dm³","textPreview":"先把 MPa / °C / L 统一到 kPa / K / dm³","textChars":33,"textLines":1,"bbox":[280,472,434,33]}
+{"kind":"shape","id":"sh/4byhgn29","slide":8,"bbox":[72,512,200,47]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":8,"text":"排水集气题","textPreview":"排水集气题","textChars":5,"textLines":1,"bbox":[80,519,184,33]}
+{"kind":"shape","id":"sh/m58z25kb","slide":8,"bbox":[272,512,450,47]}
+{"kind":"textbox","id":"sh/tsvu9kni","slide":8,"text":"先写 p干气 = p总 − p(H₂O)","textPreview":"先写 p干气 = p总 − p(H₂O)","textChars":20,"textLines":1,"bbox":[280,519,434,33]}
+{"kind":"shape","id":"sh/47y1kre1","slide":8,"bbox":[72,559,200,47]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":8,"text":"密度法分子式题","textPreview":"密度法分子式题","textChars":7,"textLines":1,"bbox":[80,566,184,33]}
+{"kind":"shape","id":"sh/7mp0bi9s","slide":8,"bbox":[272,559,450,47]}
+{"kind":"textbox","id":"sh/w7mp0bi9","slide":8,"text":"先写 M = ρRT / p","textPreview":"先写 M = ρRT / p","textChars":14,"textLines":1,"bbox":[280,566,434,33]}
+{"kind":"shape","id":"sh/psfil0rq","slide":8,"bbox":[760,420,376,186]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":8,"text":"投影用法","textPreview":"投影用法","textChars":4,"textLines":1,"bbox":[778,432,340,22]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":8,"text":"• 做例题前先停在这一页\n• 让学生先口头说出四步，再动笔","textPreview":"• 做例题前先停在这一页 | • 让学生先口头说出四步，再动笔","textChars":29,"textLines":2,"bbox":[778,460,340,134]}
+{"kind":"textbox","id":"sh/wval87ed","slide":8,"text":"气体与溶液 基础班 | 第一轮工具链 | 8","textPreview":"气体与溶液 基础班 | 第一轮工具链 | 8","textChars":22,"textLines":1,"bbox":[64,684,1152,18]}
+{"kind":"notes","id":"nt/fuervt","slide":8,"text":""}
+{"kind":"slide","id":"sl/gz0n7d","slide":9,"title":"EXAMPLE 1","textShapes":12}
+{"kind":"textbox","id":"sh/ytsvu9kn","slide":9,"text":"EXAMPLE 1","textPreview":"EXAMPLE 1","textChars":9,"textLines":1,"bbox":[72,54,340,22]}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":9,"text":"例 1：钢瓶氧气题","textPreview":"例 1：钢瓶氧气题","textChars":9,"textLines":1,"bbox":[72,82,940,44]}
+{"kind":"textbox","id":"sh/czed8v6p","slide":9,"text":"目标不是背答案，而是形成“先统一单位”的习惯","textPreview":"目标不是背答案，而是形成“先统一单位”的习惯","textChars":22,"textLines":1,"bbox":[72,124,980,28]}
+{"kind":"shape","id":"sh/nqxs72x4","slide":9,"bbox":[72,158,140,0]}
+{"kind":"shape","id":"sh/u54zidon","slide":9,"bbox":[72,198,1064,92]}
+{"kind":"textbox","id":"sh/5sneloj2","slide":9,"text":"题干","textPreview":"题干","textChars":2,"textLines":1,"bbox":[92,216,1024,26]}
+{"kind":"textbox","id":"sh/cbulwval","slide":9,"text":"• 50 L 氧气钢瓶在 20 °C、1.5 MPa 时，估算钢瓶中剩余 O₂ 的质量。","textPreview":"• 50 L 氧气钢瓶在 20 °C、1.5 MPa 时，估算钢瓶中剩余 O₂ 的质量。","textChars":44,"textLines":1,"bbox":[92,254,1024,20]}
+{"kind":"shape","id":"sh/nuxc3ylc","slide":9,"bbox":[72,324,494,220]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":9,"text":"解题流程","textPreview":"解题流程","textChars":4,"textLines":1,"bbox":[92,342,454,26]}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":9,"text":"• 1. 先把 1.5 MPa 换成 1500 kPa\n• 2. 50 L 直接视为 50 dm³\n• 3. T = 293 K，选 R = 8.31\n• 4. 先求 n，再乘 M(O₂)","textPreview":"• 1. 先把 1.5 MPa 换成 1500 kPa | • 2. 50 L 直接视为 50 dm³ | • 3. T = 293 K，选 R = 8.31 | • 4. 先求 n，再乘 M(O₂)","textChars":94,"textLines":4,"bbox":[92,380,454,148]}
+{"kind":"shape","id":"sh/hk3q5o7q","slide":9,"bbox":[596,324,540,220]}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":9,"text":"板书时强调","textPreview":"板书时强调","textChars":5,"textLines":1,"bbox":[616,342,500,26]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":9,"text":"• 如果 p 用 MPa 却直接配 8.31，结果会错 1000 倍\n• 最后别忘有效数字和单位","textPreview":"• 如果 p 用 MPa 却直接配 8.31，结果会错 1000 倍 | • 最后别忘有效数字和单位","textChars":48,"textLines":2,"bbox":[616,380,500,148]}
+{"kind":"shape","id":"sh/obm58z25","slide":9,"bbox":[72,562,1064,68]}
+{"kind":"textbox","id":"sh/hwfyxobm","slide":9,"text":"课堂动作","textPreview":"课堂动作","textChars":4,"textLines":1,"bbox":[90,574,1028,22]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":9,"text":"• 先让学生判断该选哪个 R\n• 不要一开始就给完整算式","textPreview":"• 先让学生判断该选哪个 R | • 不要一开始就给完整算式","textChars":28,"textLines":2,"bbox":[90,602,1028,16]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":9,"text":"气体与溶液 基础班 | 第一轮工具链 | 9","textPreview":"气体与溶液 基础班 | 第一轮工具链 | 9","textChars":22,"textLines":1,"bbox":[64,684,1152,18]}
+{"kind":"notes","id":"nt/gz0n7d","slide":9,"text":""}
+{"kind":"slide","id":"sl/trrqhx","slide":10,"title":"EXAMPLE 2","textShapes":14}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":10,"text":"EXAMPLE 2","textPreview":"EXAMPLE 2","textChars":9,"textLines":1,"bbox":[72,54,340,22]}
+{"kind":"textbox","id":"sh/gn29gr2p","slide":10,"text":"例 2：排水集气求干燥 H₂","textPreview":"例 2：排水集气求干燥 H₂","textChars":14,"textLines":1,"bbox":[72,82,940,44]}
+{"kind":"textbox","id":"sh/58z25kb6","slide":10,"text":"看到“排水法”就自动触发：总压里混了水蒸气","textPreview":"看到“排水法”就自动触发：总压里混了水蒸气","textChars":21,"textLines":1,"bbox":[72,124,980,28]}
+{"kind":"shape","id":"sh/y90je9cv","slide":10,"bbox":[72,158,140,0]}
+{"kind":"shape","id":"sh/nuxc3ylc","slide":10,"bbox":[72,198,1064,96]}
+{"kind":"textbox","id":"sh/gbq1oryt","slide":10,"text":"题干","textPreview":"题干","textChars":2,"textLines":1,"bbox":[92,216,1024,26]}
+{"kind":"textbox","id":"sh/5wjudg7a","slide":10,"text":"• 25 °C、100.5 kPa 下，用排水法收集 H₂ 250 mL，已知 p(H₂O) = 3.17 kPa，求干燥 H₂ 的物质的量。","textPreview":"• 25 °C、100.5 kPa 下，用排水法收集 H₂ 250 mL，已知 p(H₂O) = 3.17 kPa，求干燥 H₂ 的物质的量。","textChars":71,"textLines":1,"bbox":[92,254,1024,24]}
+{"kind":"shape","id":"sh/u54zidon","slide":10,"bbox":[72,328,472,188]}
+{"kind":"textbox","id":"sh/nqxs72x4","slide":10,"text":"关键一步","textPreview":"关键一步","textChars":4,"textLines":1,"bbox":[92,346,432,26]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":10,"text":"• p干气 = 100.5 - 3.17 = 97.33 kPa\n• 只有扣完水蒸气压，才允许代入气体方程","textPreview":"• p干气 = 100.5 - 3.17 = 97.33 kPa | • 只有扣完水蒸气压，才允许代入气体方程","textChars":53,"textLines":2,"bbox":[92,384,432,116]}
+{"kind":"shape","id":"sh/6hcrmhk3","slide":10,"bbox":[572,328,250,188]}
+{"kind":"textbox","id":"sh/d8v6psfi","slide":10,"text":"后续代入","textPreview":"后续代入","textChars":4,"textLines":1,"bbox":[592,346,210,26]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":10,"text":"• V = 0.250 dm³\n• T = 298 K\n• n = pV / RT","textPreview":"• V = 0.250 dm³ | • T = 298 K | • n = pV / RT","textChars":41,"textLines":3,"bbox":[592,384,210,116]}
+{"kind":"shape","id":"sh/vahoza1g","slide":10,"bbox":[850,328,286,188]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":10,"text":"最容易错","textPreview":"最容易错","textChars":4,"textLines":1,"bbox":[870,346,246,26]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":10,"text":"• 直接把 100.5 kPa 代入\n• 体积没换成 dm³\n• 最后写成“湿气体的物质的量”","textPreview":"• 直接把 100.5 kPa 代入 | • 体积没换成 dm³ | • 最后写成“湿气体的物质的量”","textChars":47,"textLines":3,"bbox":[870,384,246,116]}
+{"kind":"shape","id":"sh/ovahoza1","slide":10,"bbox":[72,554,1064,70]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":10,"text":"课堂口令","textPreview":"课堂口令","textChars":4,"textLines":1,"bbox":[90,566,1028,22]}
+{"kind":"textbox","id":"sh/61032lsz","slide":10,"text":"• 看到排水法，先别算，先扣水蒸气压\n• 这一题比的是流程稳定，不是心算速度","textPreview":"• 看到排水法，先别算，先扣水蒸气压 | • 这一题比的是流程稳定，不是心算速度","textChars":38,"textLines":2,"bbox":[90,594,1028,18]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":10,"text":"气体与溶液 基础班 | 第一轮工具链 | 10","textPreview":"气体与溶液 基础班 | 第一轮工具链 | 10","textChars":23,"textLines":1,"bbox":[64,684,1152,18]}
+{"kind":"notes","id":"nt/trrqhx","slide":10,"text":""}
+{"kind":"slide","id":"sl/ebd0so","slide":11,"title":"EXAMPLE 3","textShapes":15}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":11,"text":"EXAMPLE 3","textPreview":"EXAMPLE 3","textChars":9,"textLines":1,"bbox":[72,54,340,22]}
+{"kind":"textbox","id":"sh/mlkjm1cf","slide":11,"text":"例 3：标签浓度到物质的量浓度","textPreview":"例 3：标签浓度到物质的量浓度","textChars":15,"textLines":1,"bbox":[72,82,940,44]}
+{"kind":"textbox","id":"sh/f6dcbulw","slide":11,"text":"这类题本质上是“质量分数 + 密度 + 摩尔质量”三件套","textPreview":"这类题本质上是“质量分数 + 密度 + 摩尔质量”三件套","textChars":28,"textLines":1,"bbox":[72,124,980,28]}
+{"kind":"shape","id":"sh/4zidonyd","slide":11,"bbox":[72,158,140,0]}
+{"kind":"shape","id":"sh/xkf6dcbu","slide":11,"bbox":[72,198,1064,92]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":11,"text":"题干","textPreview":"题干","textChars":2,"textLines":1,"bbox":[92,216,1024,26]}
+{"kind":"textbox","id":"sh/fepkzupw","slide":11,"text":"• 市售浓硫酸密度 1.84 g·cm⁻³，质量分数 98%，求其物质的量浓度。","textPreview":"• 市售浓硫酸密度 1.84 g·cm⁻³，质量分数 98%，求其物质的量浓度。","textChars":40,"textLines":1,"bbox":[92,254,1024,20]}
+{"kind":"shape","id":"sh/83itgfml","slide":11,"bbox":[72,326,400,188]}
+{"kind":"textbox","id":"sh/xobm58z2","slide":11,"text":"模板公式","textPreview":"模板公式","textChars":4,"textLines":1,"bbox":[92,344,360,26]}
+{"kind":"textbox","id":"sh/dcbulwva","slide":11,"text":"• ρ 用 g·cm⁻³，w 用小数，M 用 g·mol⁻¹","textPreview":"• ρ 用 g·cm⁻³，w 用小数，M 用 g·mol⁻¹","textChars":30,"textLines":1,"bbox":[92,382,360,116]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":11,"text":"c = 1000ρw / M","textPreview":"c = 1000ρw / M","textChars":14,"textLines":1,"bbox":[108,402,250,30]}
+{"kind":"shape","id":"sh/val87ed8","slide":11,"bbox":[500,326,350,188]}
+{"kind":"textbox","id":"sh/6psfil0r","slide":11,"text":"操作顺序","textPreview":"操作顺序","textChars":4,"textLines":1,"bbox":[520,344,310,26]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":11,"text":"• 1. 先确认所求是 c\n• 2. 再确认已知量正好是 ρ、w、M\n• 3. 最后代入并判断数量级是否合理","textPreview":"• 1. 先确认所求是 c | • 2. 再确认已知量正好是 ρ、w、M | • 3. 最后代入并判断数量级是否合理","textChars":54,"textLines":3,"bbox":[520,382,310,116]}
+{"kind":"shape","id":"sh/k3q5o7qp","slide":11,"bbox":[878,326,258,188]}
+{"kind":"textbox","id":"sh/vixczed8","slide":11,"text":"课堂提醒","textPreview":"课堂提醒","textChars":4,"textLines":1,"bbox":[898,344,218,26]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":11,"text":"• “定容到 1 dm³”不等于“往 1 dm³ 水里加酸”\n• 如果题目继续要求 b 或 x，最好先选 100 g 溶液为基准","textPreview":"• “定容到 1 dm³”不等于“往 1 dm³ 水里加酸” | • 如果题目继续要求 b 或 x，最好先选 100 g 溶液为基准","textChars":64,"textLines":2,"bbox":[898,382,218,116]}
+{"kind":"shape","id":"sh/d0z61032","slide":11,"bbox":[72,548,1064,78]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":11,"text":"板书动作","textPreview":"板书动作","textChars":4,"textLines":1,"bbox":[90,560,1028,22]}
+{"kind":"textbox","id":"sh/0bi9s36h","slide":11,"text":"• 先问：这道题用不用选基准？\n• 再问：定义里分母到底是谁？","textPreview":"• 先问：这道题用不用选基准？ | • 再问：定义里分母到底是谁？","textChars":31,"textLines":2,"bbox":[90,588,1028,26]}
+{"kind":"textbox","id":"sh/pwb2hwfy","slide":11,"text":"气体与溶液 基础班 | 第一轮工具链 | 11","textPreview":"气体与溶液 基础班 | 第一轮工具链 | 11","textChars":23,"textLines":1,"bbox":[64,684,1152,18]}
+{"kind":"notes","id":"nt/ebd0so","slide":11,"text":""}
+{"kind":"slide","id":"sl/v80jkl","slide":12,"title":"PRACTICE","textShapes":12}
+{"kind":"textbox","id":"sh/bat47y1k","slide":12,"text":"PRACTICE","textPreview":"PRACTICE","textChars":8,"textLines":1,"bbox":[72,54,340,22]}
+{"kind":"textbox","id":"sh/4vmtwra5","slide":12,"text":"课堂练习承接页","textPreview":"课堂练习承接页","textChars":7,"textLines":1,"bbox":[72,82,940,44]}
+{"kind":"textbox","id":"sh/tgfmlkjm","slide":12,"text":"让学生先说方法，再独立落笔","textPreview":"让学生先说方法，再独立落笔","textChars":13,"textLines":1,"bbox":[72,124,980,28]}
+{"kind":"shape","id":"sh/m1cfa9w3","slide":12,"bbox":[72,158,140,0]}
+{"kind":"shape","id":"sh/bm58z25k","slide":12,"bbox":[72,202,332,180]}
+{"kind":"textbox","id":"sh/47y1kre1","slide":12,"text":"A 组：直接计算","textPreview":"A 组：直接计算","textChars":8,"textLines":1,"bbox":[92,220,292,26]}
+{"kind":"textbox","id":"sh/tsvu9kni","slide":12,"text":"• 1. 钢瓶氧气剩余质量\n• 2. 排水法 H₂ 的干气物质的量","textPreview":"• 1. 钢瓶氧气剩余质量 | • 2. 排水法 H₂ 的干气物质的量","textChars":33,"textLines":2,"bbox":[92,258,292,108]}
+{"kind":"shape","id":"sh/m58z25kb","slide":12,"bbox":[424,202,332,180]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":12,"text":"B 组：浓度换算","textPreview":"B 组：浓度换算","textChars":8,"textLines":1,"bbox":[444,220,292,26]}
+{"kind":"textbox","id":"sh/3ex0nuxc","slide":12,"text":"• 3. 37% 盐酸换算成 c\n• 4. 已知 w 和 ρ 继续求 b","textPreview":"• 3. 37% 盐酸换算成 c | • 4. 已知 w 和 ρ 继续求 b","textChars":36,"textLines":2,"bbox":[444,258,292,108]}
+{"kind":"shape","id":"sh/at47y1kr","slide":12,"bbox":[776,202,360,180]}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":12,"text":"C 组：判断题","textPreview":"C 组：判断题","textChars":7,"textLines":1,"bbox":[796,220,320,26]}
+{"kind":"textbox","id":"sh/szqtcj6t","slide":12,"text":"• 5. 海水为什么更难结冰？\n• 6. 为什么排水法要扣 p(H₂O)？","textPreview":"• 5. 海水为什么更难结冰？ | • 6. 为什么排水法要扣 p(H₂O)？","textChars":37,"textLines":2,"bbox":[796,258,320,108]}
+{"kind":"shape","id":"sh/32lszqtc","slide":12,"bbox":[72,430,1064,120]}
+{"kind":"textbox","id":"sh/ahoza1gv","slide":12,"text":"课堂安排","textPreview":"课堂安排","textChars":4,"textLines":1,"bbox":[90,442,1028,22]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":12,"text":"• 先做 A 组再转 B 组\n• C 组适合当口头追问收尾\n• 若时间紧，至少保留 A1 + A2","textPreview":"• 先做 A 组再转 B 组 | • C 组适合当口头追问收尾 | • 若时间紧，至少保留 A1 + A2","textChars":49,"textLines":3,"bbox":[90,470,1028,68]}
+{"kind":"textbox","id":"sh/sneloj2t","slide":12,"text":"气体与溶液 基础班 | 第一轮工具链 | 12","textPreview":"气体与溶液 基础班 | 第一轮工具链 | 12","textChars":23,"textLines":1,"bbox":[64,684,1152,18]}
+{"kind":"notes","id":"nt/v80jkl","slide":12,"text":""}
+{"kind":"slide","id":"sl/swmgqe","slide":13,"title":"ERRORS","textShapes":24}
+{"kind":"textbox","id":"sh/ed8bat47","slide":13,"text":"ERRORS","textPreview":"ERRORS","textChars":6,"textLines":1,"bbox":[72,54,340,22]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":13,"text":"易错点总表","textPreview":"易错点总表","textChars":5,"textLines":1,"bbox":[72,82,940,44]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":13,"text":"这一页建议上课末尾快扫一遍，再让学生自己补充","textPreview":"这一页建议上课末尾快扫一遍，再让学生自己补充","textChars":22,"textLines":1,"bbox":[72,124,980,28]}
+{"kind":"shape","id":"sh/36hcrmhk","slide":13,"bbox":[72,158,140,0]}
+{"kind":"shape","id":"sh/eloj2t83","slide":13,"bbox":[72,194,250,57.33]}
+{"kind":"textbox","id":"sh/lc7u54zi","slide":13,"text":"易错点","textPreview":"易错点","textChars":3,"textLines":1,"bbox":[80,201,234,43.33]}
+{"kind":"shape","id":"sh/wra5gbq1","slide":13,"bbox":[322,194,360,57.33]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":13,"text":"为什么错","textPreview":"为什么错","textChars":4,"textLines":1,"bbox":[330,201,344,43.33]}
+{"kind":"shape","id":"sh/epkzupwb","slide":13,"bbox":[682,194,454,57.33]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":13,"text":"正确做法","textPreview":"正确做法","textChars":4,"textLines":1,"bbox":[690,201,438,43.33]}
+{"kind":"shape","id":"sh/x4nap4r6","slide":13,"bbox":[72,251.33,250,57.33]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":13,"text":"°C 直接代入气体方程","textPreview":"°C 直接代入气体方程","textChars":11,"textLines":1,"bbox":[80,258.33,234,43.33]}
+{"kind":"shape","id":"sh/fyxobm58","slide":13,"bbox":[322,251.33,360,57.33]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":13,"text":"T 必须是热力学温度","textPreview":"T 必须是热力学温度","textChars":10,"textLines":1,"bbox":[330,258.33,344,43.33]}
+{"kind":"shape","id":"sh/xczed8v6","slide":13,"bbox":[682,251.33,454,57.33]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":13,"text":"先写 T = t + 273.15","textPreview":"先写 T = t + 273.15","textChars":17,"textLines":1,"bbox":[690,258.33,438,43.33]}
+{"kind":"shape","id":"sh/fa9w3m94","slide":13,"bbox":[72,308.67,250,57.33]}
+{"kind":"textbox","id":"sh/8z25kb6x","slide":13,"text":"R 随手乱选","textPreview":"R 随手乱选","textChars":6,"textLines":1,"bbox":[80,315.67,234,43.33]}
+{"kind":"shape","id":"sh/1gvy90je","slide":13,"bbox":[322,308.67,360,57.33]}
+{"kind":"textbox","id":"sh/loj2t83i","slide":13,"text":"R 依赖 p、V 单位体系","textPreview":"R 依赖 p、V 单位体系","textChars":13,"textLines":1,"bbox":[330,315.67,344,43.33]}
+{"kind":"shape","id":"sh/w3m94fu1","slide":13,"bbox":[682,308.67,454,57.33]}
+{"kind":"textbox","id":"sh/3itgfmlk","slide":13,"text":"先看 p、V 单位，再决定 R","textPreview":"先看 p、V 单位，再决定 R","textChars":15,"textLines":1,"bbox":[690,315.67,438,43.33]}
+{"kind":"shape","id":"sh/ex0nuxc3","slide":13,"bbox":[72,366,250,57.33]}
+{"kind":"textbox","id":"sh/lwval87e","slide":13,"text":"排水集气直接用总压","textPreview":"排水集气直接用总压","textChars":9,"textLines":1,"bbox":[80,373,234,43.33]}
+{"kind":"shape","id":"sh/wb2hwfyx","slide":13,"bbox":[322,366,360,57.33]}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":13,"text":"收集的是湿气，混有水蒸气","textPreview":"收集的是湿气，混有水蒸气","textChars":12,"textLines":1,"bbox":[330,373,344,43.33]}
+{"kind":"shape","id":"sh/e9cvixcz","slide":13,"bbox":[682,366,454,57.33]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":13,"text":"先算 p干气 = p总 - p(H₂O)","textPreview":"先算 p干气 = p总 - p(H₂O)","textChars":20,"textLines":1,"bbox":[690,373,438,43.33]}
+{"kind":"shape","id":"sh/sneloj2t","slide":13,"bbox":[72,423.33,250,57.33]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":13,"text":"把 b 的分母写成溶液质量","textPreview":"把 b 的分母写成溶液质量","textChars":13,"textLines":1,"bbox":[80,430.33,234,43.33]}
+{"kind":"shape","id":"sh/z25kb6xk","slide":13,"bbox":[322,423.33,360,57.33]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":13,"text":"质量摩尔浓度定义记错","textPreview":"质量摩尔浓度定义记错","textChars":10,"textLines":1,"bbox":[330,430.33,344,43.33]}
+{"kind":"shape","id":"sh/d8v6psfi","slide":13,"bbox":[682,423.33,454,57.33]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":13,"text":"b 的分母只能是溶剂质量","textPreview":"b 的分母只能是溶剂质量","textChars":12,"textLines":1,"bbox":[690,430.33,438,43.33]}
+{"kind":"shape","id":"sh/vahoza1g","slide":13,"bbox":[72,480.67,250,57.33]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":13,"text":"认为依数性看溶质种类","textPreview":"认为依数性看溶质种类","textChars":10,"textLines":1,"bbox":[80,487.67,234,43.33]}
+{"kind":"shape","id":"sh/dg7adsji","slide":13,"bbox":[322,480.67,360,57.33]}
+{"kind":"textbox","id":"sh/61032lsz","slide":13,"text":"第一轮没抓住“看粒子数”","textPreview":"第一轮没抓住“看粒子数”","textChars":12,"textLines":1,"bbox":[330,487.67,344,43.33]}
+{"kind":"shape","id":"sh/vmtwra5g","slide":13,"bbox":[682,480.67,454,57.33]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":13,"text":"先问蒸气压是否下降，再判表现","textPreview":"先问蒸气压是否下降，再判表现","textChars":14,"textLines":1,"bbox":[690,487.67,438,43.33]}
+{"kind":"shape","id":"sh/6xkf6dcb","slide":13,"bbox":[72,566,1064,70]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":13,"text":"投影用法","textPreview":"投影用法","textChars":4,"textLines":1,"bbox":[92,584,1024,26]}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":13,"text":"• 讲评错题时，可让学生对照这一页给自己的错误分类\n• 讲义中的“易错点总表”可作为课后追踪区","textPreview":"• 讲评错题时，可让学生对照这一页给自己的错误分类 | • 讲义中的“易错点总表”可作为课后追踪区","textChars":47,"textLines":2,"bbox":[92,622,1024,-2]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":13,"text":"气体与溶液 基础班 | 第一轮工具链 | 13","textPreview":"气体与溶液 基础班 | 第一轮工具链 | 13","textChars":23,"textLines":1,"bbox":[64,684,1152,18]}
+{"kind":"notes","id":"nt/swmgqe","slide":13,"text":""}
+{"kind":"slide","id":"sl/mlryip","slide":14,"title":"WRAP-UP","textShapes":12}
+{"kind":"textbox","id":"sh/tcj6tova","slide":14,"text":"WRAP-UP","textPreview":"WRAP-UP","textChars":7,"textLines":1,"bbox":[72,54,340,22]}
+{"kind":"textbox","id":"sh/il0rqd4v","slide":14,"text":"本节收束","textPreview":"本节收束","textChars":4,"textLines":1,"bbox":[72,82,940,44]}
+{"kind":"textbox","id":"sh/b6xkf6dc","slide":14,"text":"投影负责收口，练熟仍要靠讲义和板书反复走流程","textPreview":"投影负责收口，练熟仍要靠讲义和板书反复走流程","textChars":22,"textLines":1,"bbox":[72,124,980,28]}
+{"kind":"shape","id":"sh/0je9cvix","slide":14,"bbox":[72,158,140,0]}
+{"kind":"shape","id":"sh/t47y1kre","slide":14,"bbox":[72,202,520,240]}
+{"kind":"textbox","id":"sh/idonyd0z","slide":14,"text":"下课前要能说出","textPreview":"下课前要能说出","textChars":7,"textLines":1,"bbox":[92,220,480,26]}
+{"kind":"textbox","id":"sh/byhgn29g","slide":14,"text":"• 气体题四步：分类 → 统一单位 → 列方程 → 回看结果\n• 浓度换算四步：选基准 → 写定义 → 补辅助量 → 再换算\n• 依数性判断法：先看是否是稀溶液，再抓蒸气压主线","textPreview":"• 气体题四步：分类 → 统一单位 → 列方程 → 回看结果 | • 浓度换算四步：选基准 → 写定义 → 补辅助量 → 再换算 | • 依数性判断法：先看是否是稀溶液，再抓蒸气压主线","textChars":88,"textLines":3,"bbox":[92,258,480,168]}
+{"kind":"shape","id":"sh/0fepkzup","slide":14,"bbox":[624,202,512,240]}
+{"kind":"textbox","id":"sh/p0bi9s36","slide":14,"text":"课后立刻自测","textPreview":"课后立刻自测","textChars":6,"textLines":1,"bbox":[644,220,472,26]}
+{"kind":"textbox","id":"sh/x0nuxc3y","slide":14,"text":"• 1. 钢瓶氧气题\n• 2. 排水集气题\n• 3. 质量分数 → c → b 的换算题","textPreview":"• 1. 钢瓶氧气题 | • 2. 排水集气题 | • 3. 质量分数 → c → b 的换算题","textChars":44,"textLines":3,"bbox":[644,258,472,168]}
+{"kind":"shape","id":"sh/4fu18jqh","slide":14,"bbox":[72,474,520,92]}
+{"kind":"textbox","id":"sh/fu18jqh0","slide":14,"text":"最后一句","textPreview":"最后一句","textChars":4,"textLines":1,"bbox":[90,486,484,22]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":14,"text":"• 先把流程说顺，再追求速度\n• 做题时一乱，就回到工具链总页","textPreview":"• 先把流程说顺，再追求速度 | • 做题时一乱，就回到工具链总页","textChars":31,"textLines":2,"bbox":[90,514,484,40]}
+{"kind":"shape","id":"sh/xobm58z2","slide":14,"bbox":[624,474,512,92]}
+{"kind":"textbox","id":"sh/83itgfml","slide":14,"text":"当前版本定位","textPreview":"当前版本定位","textChars":6,"textLines":1,"bbox":[644,492,472,26]}
+{"kind":"textbox","id":"sh/fil0rqd4","slide":14,"text":"• 这版已经加入板书模板、练习承接和教师口令提示\n• 继续深化时，可再拆成三讲完整投影版","textPreview":"• 这版已经加入板书模板、练习承接和教师口令提示 | • 继续深化时，可再拆成三讲完整投影版","textChars":44,"textLines":2,"bbox":[644,530,472,20]}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":14,"text":"气体与溶液 基础班 | 第一轮工具链 | 14","textPreview":"气体与溶液 基础班 | 第一轮工具链 | 14","textChars":23,"textLines":1,"bbox":[64,684,1152,18]}
+{"kind":"notes","id":"nt/mlryip","slide":14,"text":""}

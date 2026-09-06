@@ -1,0 +1,58 @@
+---
+title: "题-087-ABOC-Ch1-1.3.1-1-以下两个碳正离子谁更稳定  提示 考虑轨道重叠程度"
+type: 题目
+fidelity: 原书逐字
+submodule: Ch.1
+exam_stage: 初赛
+source_subject: 有机化学
+difficulty: 2
+teaching_level: 巩固
+syllabus_codes: ["31"]
+knowledge_points: ["[[碳正离子]]", "[[超共轭效应]]"]
+tags: [化竞, ABOC, 有机化学]
+updated: 2026-07-04
+source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第1章-绪论]]"
+aliases: [ABOC-Ch1-1.3.1-1]
+source: ABOC 第1章 自学练习（ARX's Basic Organic Chemistry 第3版）
+module: 基础要求-有机化学
+status: 已填充
+subject_module: 有机化学
+pack: 章节练习
+source_category: 竞赛导向·竞赛教材
+source_grade: C
+---
+# 题-087：以下两个碳正离子谁更稳定？(提示：考虑轨道重叠程度)
+
+> **来源**：ABOC 第1章 自学练习 1.3.1-1
+> **难度**：⭐⭐
+> **教学层级**：巩固
+
+---
+
+## 题目
+
+以下两个碳正离子谁更稳定？(提示：考虑轨道重叠程度)
+
+
+---
+
+## 参考答案
+（答案见 [[提炼-ABOC-第12章-习题解析]]）
+
+---
+
+## 解题思路
+
+左边的更稳定，因为处于直立键的 TMS 可以更好的实现轨道重叠(和空p 轨道反式共平面)。
+
+---
+
+## 知识点
+
+---
+
+## 相关题目
+
+- [[题-062-ABOC-Ch1-1.1.1-离去基判断]]
+- [[题-063-ABOC-Ch1-1.2.2-1-S-C反键轨道与端基效应]]
+- [[题-064-ABOC-Ch1-1.3.1-3-金刚烷合成（碳正离子重排）]]

@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>原子结构与元素周期律</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <style>
+    /* ===== 基础重置 ===== */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 100%; height: 100%;
+      overflow: hidden;
+      background: #0f172a;
+      font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      color: #1e293b;
+    }
+
+    /* ===== 幻灯片严格 16:9 ===== */
+    .slide {
+      width: 1280px;
+      height: 720px;
+      aspect-ratio: 16 / 9;
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%) scale(var(--scale, 1));
+      transform-origin: center center;
+      background: #ffffff;
+      display: none;
+      flex-direction: column;
+      overflow: hidden;
+      box-shadow: 0 25px 80px rgba(0,0,0,0.4);
+      border-radius: 12px;
+    }
+    .slide.active { display: flex; }
+
+    /* ===== 通用布局组件 ===== */
+    .slide-header {
+      padding: 28px 50px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      border-bottom: 3px solid #1e40af;
+      background: linear-gradient(90deg, #1e3a8a 0%, #2563eb 100%);
+      color: #fff;
+      flex-shrink: 0;
+    }
+    .slide-header h2 {
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    .slide-header .page-num {
+      font-size: 16px;
+      opacity: 0.85;
+      font-weight: 500;
+    }
+
+    .slide-body {
+      flex: 1;
+      padding: 28px 50px 36px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .slide-footer {
+      padding: 10px 50px;
+      background: #f1f5f9;
+      font-size: 13px;
+      color: #64748b;
+      display: flex;
+      justify-content: space-between;
+      flex-shrink: 0;
+      border-top: 1px solid #e2e8f0;
+    }
+
+    /* ===== 封面特殊样式 ===== */
+    .cover-slide {
+      background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #2563eb 100%);
+      color: #fff;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .cover-slide .cover-content { max-width: 900px; padding: 0 60px; }
+    .cover-slide h1 {
+      font-size: 64px;
+      font-weight: 800;
+      margin-bottom: 20px;
+      letter-spacing: 4px;
+      text-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    }
+    .cover-slide .subtitle {
+      font-size: 28px;
+      font-weight: 300;
+      opacity: 0.9;
+      margin-bottom: 50px;
+    }
+    .cover-slide .meta-info {
+      font-size: 18px;
+      opacity: 0.75;
+      line-height: 2;
+    }
+    .cover-slide .decoration {
+      position: absolute;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.05);
+    }
+    .cover-slide .d1 { width: 400px; height: 400px; top: -100px; right: -100px; }
+    .cover-slide .d2 { width: 250px; height: 250px; bottom: -60px; left: -60px; }
+    .cover-slide .d3 { width: 120px; height: 120px; top: 60%; right: 15%; background: rgba(255,255,255,0.08); }
+
+    /* ===== 结束页样式 ===== */
+    .end-slide {
+      background: linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%);
+      color: #fff;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .end-slide h2 { font-size: 48px; margin-bottom: 30px; }
+    .end-slide .homework-box {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 16px;
+      padding: 36px 48px;
+      max-width: 900px;
+      text-align: left;
+    }
+    .end-slide .homework-box h3 {
+      font-size: 22px;
+      margin-bottom: 16px;
+      color: #93c5fd;
+    }
+    .end-slide .homework-box ul { margin-left: 20px; line-height: 2; font-size: 17px; opacity: 0.9; }
+
+    /* ===== 内容元素 ===== */
+    .highlight-box {
+      background: linear-gradient(90deg, #eff6ff, #dbeafe);
+      border-left: 5px solid #2563eb;
+      padding: 18px 24px;
+      border-radius: 0 10px 10px 0;
+      margin: 14px 0;
+    }
+    .highlight-box strong { color: #1e40af; }
+
+    .warning-box {
+      background: linear-gradient(90deg, #fff7ed, #ffedd5);
+      border-left: 5px solid #f97316;
+      padding: 14px 20px;
+      border-radius: 0 10px 10px 0;
+      margin: 10px 0;
+      font-size: 15px;
+    }
+    .warning-box strong { color: #c2410c; }
+
+    .formula-box {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 16px 24px;
+      margin: 12px 0;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    .electron-config {
+      font-family: "Cambria Math", "Times New Roman", serif;
+      font-size: 1.15em;
+      color: #1e40af;
+      font-weight: 600;
+    }
+
+    /* ===== 表格样式 ===== */
+    table.data-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 15.5px;
+      margin: 10px 0;
+    }
+    table.data-table th {
+      background: #1e40af;
+      color: #fff;
+      padding: 10px 14px;
+      text-align: center;
+      font-weight: 600;
+    }
+    table.data-table td {
+      padding: 9px 14px;
+      border-bottom: 1px solid #e2e8f0;
+      text-align: center;
+    }
+    table.data-table tr:nth-child(even) { background: #f8fafc; }
+    table.data-table tr:hover { background: #eff6ff; }
+    table.data-table td:first-child { font-weight: 600; color: #1e3a8a; }
+
+    table.compare-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 15px;
+      margin: 10px 0;
+    }
+    table.compare-table th {
+      background: #334155;
+      color: #fff;
+      padding: 10px 14px;
+      text-align: center;
+    }
+    table.compare-table td {
+      padding: 10px 14px;
+      border: 1px solid #cbd5e1;
+      text-align: center;
+    }
+    table.compare-table tr:nth-child(even) { background: #f1f5f9; }
+
+    /* ===== 多列布局 ===== */
+    .row-flex { display: flex; gap: 28px; flex: 1; }
+    .col-2 { flex: 1; }
+    .col-60 { flex: 0 0 58%; }
+    .col-40 { flex: 0 0 38%; }
+
+    /* ===== 列表样式 ===== */
+    .styled-list { list-style: none; margin: 10px 0; }
+    .styled-list li {
+      padding: 10px 0 10px 36px;
+      position: relative;
+      font-size: 16.5px;
+      line-height: 1.7;
+      border-bottom: 1px dashed #e2e8f0;
+    }
+    .styled-list li:last-child { border-bottom: none; }
+    .styled-list li::before {
+      content: attr(data-num);
+      position: absolute;
+      left: 0;
+      top: 10px;
+      width: 26px; height: 26px;
+      background: #2563eb;
+      color: #fff;
+      border-radius: 50%;
+      font-size: 13px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .check-list { list-style: none; margin: 8px 0; }
+    .check-list li {
+      padding: 6px 0 6px 30px;
+      position: relative;
+      font-size: 15px;
+    }
+    .check-list li::before {
+      content: "\2713";
+      position: absolute;
+      left: 0;
+      color: #16a34a;
+      font-weight: 700;
+    }
+
+    /* ===== 例题样式 ===== */
+    .problem-box {
+      background: #fff;
+      border: 2px solid #2563eb;
+      border-radius: 12px;
+      padding: 20px 26px;
+      margin: 12px 0;
+    }
+    .problem-box .prob-title {
+      font-size: 17px;
+      font-weight: 700;
+      color: #1e40af;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .problem-box .prob-title::before {
+      content: "";
+      display: inline-block;
+      width: 6px; height: 20px;
+      background: #2563eb;
+      border-radius: 3px;
+    }
+    .problem-box .prob-content {
+      font-size: 16px;
+      line-height: 1.8;
+      margin-bottom: 12px;
+    }
+    .problem-box .prob-answer {
+      background: #f0f9ff;
+      border-left: 4px solid #0ea5e9;
+      padding: 12px 18px;
+      border-radius: 0 8px 8px 0;
+      font-size: 15.5px;
+      line-height: 1.7;
+    }
+
+    /* ===== 口诀标签 ===== */
+    .mnemonic {
+      display: inline-block;
+      background: linear-gradient(90deg, #fef3c7, #fde68a);
+      color: #92400e;
+      padding: 6px 18px;
+      border-radius: 20px;
+      font-size: 17px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      border: 1px solid #f59e0b;
+    }
+
+    /* ===== 图片容器 ===== */
+    .img-container {
+      text-align: center;
+      padding: 10px;
+    }
+    .img-container img {
+      max-width: 100%;
+      max-height: 320px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .img-caption {
+      font-size: 13px;
+      color: #64748b;
+      margin-top: 8px;
+    }
+
+    /* ===== 导航控制 ===== */
+    .nav-controls {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 12px;
+      z-index: 1000;
+      background: rgba(15, 23, 42, 0.85);
+      padding: 10px 24px;
+      border-radius: 30px;
+      backdrop-filter: blur(8px);
+    }
+    .nav-btn {
+      background: transparent;
+      border: 1px solid rgba(255,255,255,0.3);
+      color: #fff;
+      padding: 8px 20px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: all 0.2s;
+    }
+    .nav-btn:hover { background: rgba(255,255,255,0.15); }
+    .nav-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+    .nav-indicator {
+      color: #fff;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      padding: 0 12px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* ===== 两栏内容文字大小适配 ===== */
+    .compact-text { font-size: 15px; line-height: 1.65; }
+    .compact-text p { margin-bottom: 8px; }
+    .compact-text h4 {
+      font-size: 17px;
+      color: #1e40af;
+      margin: 12px 0 6px;
+    }
+
+    /* ===== 强调文字 ===== */
+    .text-primary { color: #1e40af; font-weight: 700; }
+    .text-danger { color: #dc2626; font-weight: 700; }
+    .text-success { color: #16a34a; font-weight: 700; }
+
+    /* ===== 轨道示意小图 ===== */
+    .orbital-mini {
+      display: inline-flex;
+      gap: 4px;
+      align-items: center;
+      margin: 0 4px;
+    }
+    .orbital-box {
+      width: 28px; height: 28px;
+      border: 2px solid #475569;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .orbital-box.filled { background: #2563eb; color: #fff; border-color: #2563eb; }
+    .orbital-box.half { background: #93c5fd; color: #1e3a8a; border-color: #2563eb; }
+    .orbital-box.empty { background: #fff; color: #94a3b8; }
+    .orbital-box.up::after { content: "\2191"; font-size: 14px; }
+    .orbital-box.down::after { content: "\2193"; font-size: 14px; }
+
+    /* ===== 响应式微调 ===== */
+    @media (max-width: 1320px) {
+      .slide { border-radius: 0; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ==================== 第1页：封面 ==================== -->
+<div class="slide cover-slide active">
+  <div class="decoration d1"></div>
+  <div class="decoration d2"></div>
+  <div class="decoration d3"></div>
+  <div class="cover-content">
+    <h1>原子结构与元素周期律</h1>
+    <div class="subtitle">基础班 · 新授课（90 min）</div>
+    <div style="width:80px;height:4px;background:rgba(255,255,255,0.5);margin:0 auto 30px;border-radius:2px;"></div>
+    <div class="meta-info">
+      <p>核心知识点：原子结构 / 原子轨道 / 元素周期律 / 电离能 / 电负性</p>
+      <p>前置知识：原子核与核外电子 / 周期表基本结构</p>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== 第2页：核心结论 ==================== -->
+<div class="slide">
+  <div class="slide-header">
+    <h2>核心结论：先记住这三句话</h2>
+    <span class="page-num">02 / 12</span>
+  </div>
+  <div class="slide-body" style="justify-content:center;">
+    <ul class="styled-list">
+      <li data-num="1">
+        <strong style="font-size:18px;color:#1e40af;">元素性质由电子排布决定</strong><br>
+        电子排布遵循 <span class="text-primary">Aufbau 原理 + Pauli 不相容原理 + Hund 规则</span>
+      </li>
+      <li data-num="2">
+        <strong style="font-size:18px;color:#1e40af;">离子失电子先失 n 最大的轨道</strong><br>
+        如 Fe 先失 4s 而非 3d。书写时按 n 排序、填充时按能级高低——<span class="text-danger">三种场景三种顺序</span>
+      </li>
+      <li data-num="3">
+        <strong style="font-size:18px;color:#1e40af;">推断元素 / 比较性质 → 第一步先写电子排布</strong><br>
+        判断周期 / 族 / 区 → 调用周期律比较
+      </li>
+    </ul>
+    <div style="margin-top:30px;text-align:center;">
+      <span class="mnemonic">结构决定性质 · 排布决定一切</span>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span>原子结构与元素周期律</span>
+    <span>基础班新授课</span>
+  </div>
+</div>
+
+<!-- ==================== 第3页：量子数规则 ==================== -->
+<div class="slide">
+  <div class="slide-header">
+    <h2>量子数规则</h2>
+    <span class="page-num">03 / 12</span>
+  </div>
+  <div class="slide-body">
+    <p style="font-size:16px;margin-bottom:14px;">电子的运动状态由 <strong>四个量子数</strong> 共同确定：</p>
+    <table class="data-table">
+      <tr>
+        <th>量子数</th>
+        <th>符号</th>
+        <th>取值范围</th>
+        <th>物理意义</th>
+      </tr>
+      <tr>
+        <td>主量子数</td>
+        <td>$n$</td>
+        <td>$1, 2, 3, \dots$</td>
+        <td>电子层，决定主要能量</td>
+      </tr>
+      <tr>
+        <td>角量子数</td>
+        <td>$l$</td>
+        <td>$0, 1, \dots, n-1$</td>
+        <td>轨道形状（0=s, 1=p, 2=d, 3=f）</td>
+      </tr>
+      <tr>
+        <td>磁量子数</td>
+        <td>$m_l$</td>
+        <td>$-l, \dots, 0, \dots, +l$</td>
+        <td>轨道空间取向</td>
+      </tr>
+      <tr>
+        <td>自旋量子数</td>
+        <td>$m_s$</td>
+        <td>$+\frac12$ 或 $-\frac12$</td>
+        <td>电子自旋方向</td>
+      </tr>
+    </table>
+    <div class="row-flex" style="margin-top:18px;">
+      <div class="col-2">
+        <div class="highlight-box">
+          <strong>判断规则</strong>
+          <ul class="check-list">
+            <li>$l$ 必须 <span class="text-danger">$&lt; n$</span>（如 $n=2$ 时，$l$ 只能是 0 或 1）</li>
+            <li>$|m_l|$ 必须 <span class="text-danger">$\le l$</span></li>
+            <li>同一轨道中两个电子的 $m_s$ 必须 <span class="text-danger">相反</span>（Pauli 原理）</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="warning-box">
+          <strong>常见错误</strong><br>
+          把"<span class="text-danger">填充顺序</span>"和"<span class="text-danger">书写顺序</span>"混为一谈！
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span>原子结构与元素周期律</span>
+    <span>基础班新授课</span>
+  </div>
+</div>
+
+<!-- ==================== 第4页：电子排布三原则 ==================== -->
+<div class="slide">
+  <div class="slide-header">
+    <h2>电子排布三原则</h2>
+    <span class="page-num">04 / 12</span>
+  </div>
+  <div class="slide-body" style="justify-content:center;">
+    <div class="row-flex" style="gap:24px;">
+      <div class="col-2" style="background:#eff6ff;border-radius:12px;padding:24px;border-top:4px solid #2563eb;">
+        <h3 style="font-size:22px;color:#1e40af;margin-bottom:12px;">Aufbau 原理</h3>
+        <p style="font-size:15.5px;line-height:1.8;">电子优先占据 <strong>能量最低</strong> 的轨道。<br>填充顺序遵循 <span class="text-primary">$n+l$ 规则</span>：</p>
+        <div class="formula-box" style="margin:14px 0;">
+          $n+l$ 小者优先；$n+l$ 相同时，$n$ 小者优先
+        </div>
+        <p style="font-size:14px;color:#64748b;">例：$4\mathrm{s}\ (n+l=4)$ 先于 $3\mathrm{d}\ (n+l=5)$ 填充</p>
+      </div>
+      <div class="col-2" style="display:flex;flex-direction:column;gap:20px;">
+        <div style="background:#f0fdf4;border-radius:12px;padding:24px;border-top:4px solid #16a34a;">
+          <h3 style="font-size:22px;color:#166534;margin-bottom:12px;">Pauli 不相容原理</h3>
+          <p style="font-size:15.5px;line-height:1.8;">同一原子中 <strong>不存在</strong> 四个量子数完全相同的两个电子。</p>
+          <p style="font-size:15px;margin-top:10px;">→ 每个轨道最多容纳 <span class="text-success">2 个电子</span>，且自旋方向相反。</p>
+        </div>
+        <div style="background:#fff7ed;border-radius:12px;padding:24px;border-top:4px solid #f97316;">
+          <h3 style="font-size:22px;color:#9a3412;margin-bottom:12px;">Hund 规则</h3>
+          <p style="font-size:15.5px;line-height:1.8;">电子在 <strong>能量相等的轨道</strong>（简并轨道）上排布时，尽可能 <span class="text-danger">分占不同轨道</span> 且自旋平行。</p>
+          <p style="font-size:15px;margin-top:10px;">→ 决定 <strong>未成对电子数</strong> 和 <strong>磁性</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span>原子结构与元素周期律</span>
+    <span>基础班新授课</span>
+  </div>
+</div>
+
+<!-- ==================== 第5页：三种顺序对比 ==================== -->
+<div class="slide">
+  <div class="slide-header">
+    <h2>电子排布：三种顺序</h2>
+    <span class="page-num">05 / 12</span>
+  </div>
+  <div class="slide-body">
+    <div class="row-flex">
+      <div class="col-60">
+        <table class="compare-table">
+          <tr>
+            <th>场景</th>
+            <th>顺序规则</th>
+            <th>示例（Fe, Z=26）</th>
+          </tr>
+          <tr>
+            <td><strong>书写</strong><br><span style="font-size:13px;color:#64748b;">化学式 / 离子式</span></td>
+            <td>按主量子数 $n$ <strong>递增</strong></td>
+            <td><span class="electron-config">[Ar] 3d⁶ 4s²</span></td>
+          </tr>
+          <tr>
+            <td><strong>填充</strong><br><span style="font-size:13px;color:#64748b;">Aufbau 能级图</span></td>
+            <td>按能级高低<br>（$n+l$ 规则）</td>
+            <td>先填 <span class="electron-config">4s²</span><br>再填 <span class="electron-config">3d⁶</span></td>
+          </tr>
+          <tr>
+            <td><strong>失电子</strong><br><span style="font-size:13px;color:#64748b;">电离</span></td>
+            <td>先失 <span class="text-danger">$n$ 最大</span> 的轨道</td>
+            <td>Fe²⁺: <span class="electron-config">[Ar] 3d⁶</span><br><span style="font-size:13px;">（失去 4s²，不是 3d）</span></td>
+          </tr>
+        </table>
+        <div class="highlight-box" style="margin-top:16px;">
+          <strong>记忆口诀</strong><br>
+          <span class="mnemonic" style="margin-top:8px;display:inline-block;">书写看 n · 填充看能 · 失电子看层数</span>
+        </div>
+        <div class="warning-box" style="margin-top:12px;">
+          Fe³⁺: <span class="electron-config">[Ar] 3d⁵</span>（再失 1 个 3d，<strong>半满更稳定</strong>）
+        </div>
+      </div>
+      <div class="col-40">
+        <div class="img-container">
+          <img src="res/5_Pauling能级图.jpg" alt="Pauling近似能级图">
+          <div class="img-caption">Pauling 近似能级图 — 电子按箭头方向填充</div>
+        </div>
+        <p style="font-size:13px;color:#64748b;text-align:center;margin-top:8px;">注意：4s 先于 3d 填充，<br>但书写时按主量子数排序（3d⁶ 4s²）</p>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span>原子结构与元素周期律</span>
+    <span>基础班新授课</span>
+  </div>
+</div>
+
+<!-- ==================== 第6页：周期律趋势 — 同周期 ==================== -->
+<div class="slide">
+  <div class="slide-header">
+    <h2>周期律趋势：同周期（左 → 右）</h2>
+    <span class="page-num">06 / 12</span>
+  </div>
+  <div class="slide-body">
+    <table class="data-table">
+      <tr>
+        <th style="width:18%;">性质</th>
+        <th style="width:15%;">趋势</th>
+        <th style="width:32%;">核心原因</th>
+        <th style="width:35%;">反常点</th>
+      </tr>
+      <tr>
+        <td>原子半径</td>
+        <td><span class="text-success">↓ 减小</span></td>
+        <td>有效核电荷 $Z^*$ 增大，核引力增强</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>第一电离能 $I_1$</td>
+        <td><span class="text-success">↑ 增大</span>（总体）</td>
+        <td>$Z^*$ 增大，更难失电子</td>
+        <td><span class="text-danger">ⅡA > ⅢA</span>（p¹ 易失）<br><span class="text-danger">ⅤA > ⅥA</span>（p³ 半满稳定）</td>
+      </tr>
+      <tr>
+        <td>电负性 $\chi$</td>
+        <td><span class="text-success">↑ 增大</span></td>
+        <td>吸引电子能力增强</td>
+        <td>$\mathrm{F}$ 最大（4.0），稀有气体无定义</td>
+      </tr>
+      <tr>
+        <td>金属性</td>
+        <td><span class="text-danger">↓ 减弱</span></td>
+        <td>失电子能力减弱</td>
+        <td>—</td>
+      </tr>
+    </table>
+    <div class="row-flex" style="margin-top:20px;">
+      <div class="col-2">
+        <div class="highlight-box">
+          <strong>ⅡA > ⅢA 原因（以 Mg > Al 为例）</strong><br>
+          Mg: $3\mathrm{s}^2$（全满稳定） vs Al: $3\mathrm{s}^2 3\mathrm{p}^1$（p¹ 易失去）
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="highlight-box">
+          <strong>ⅤA > ⅥA 原因（以 N > O 为例）</strong><br>
+          N: $2\mathrm{p}^3$（半满稳定） vs O: $2\mathrm{p}^4$（失去一个可达半满）
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span>原子结构与元素周期律</span>
+    <span>基础班新授课</span>
+  </div>
+</div>
+
+<!-- ==================== 第7页：周期律趋势 — 同族与轨道 ==================== -->
+<div class="slide">
+  <div class="slide-header">
+    <h2>周期律趋势：同族 &amp; 轨道图像</h2>
+    <span class="page-num">07 / 12</span>
+  </div>
+  <div class="slide-body">
+    <div class="row-flex">
+      <div class="col-2">
+        <h3 style="font-size:18px;color:#1e40af;margin-bottom:10px;">同族趋势（上 → 下）</h3>
+        <table class="compare-table">
+          <tr>
+            <th>性质</th>
+            <th>趋势</th>
+            <th>核心原因</th>
+          </tr>
+          <tr>
+            <td>原子半径</td>
+            <td><span class="text-danger">↑ 增大</span></td>
+            <td>电子层数增加</td>
+          </tr>
+          <tr>
+            <td>电离能</td>
+            <td><span class="text-danger">↓ 减小</span></td>
+            <td>外层电子离核更远</td>
+          </tr>
+          <tr>
+            <td>金属性</td>
+            <td><span class="text-success">↑ 增强</span></td>
+            <td>更易失电子</td>
+          </tr>
+        </table>
+        <div style="margin-top:16px;">
+          <h3 style="font-size:18px;color:#1e40af;margin-bottom:10px;">反常点轨道解释</h3>
+          <div style="background:#f8fafc;border-radius:8px;padding:14px;font-size:14.5px;line-height:1.8;">
+            <p><strong>Mg ($3\mathrm{s}^2$)</strong>：s 轨道全满，稳定</p>
+            <p><strong>Al ($3\mathrm{s}^2 3\mathrm{p}^1$)</strong>：p 轨道只有一个电子，易失去</p>
+            <p style="margin-top:8px;"><strong>N ($2\mathrm{p}^3$)</strong>：p 轨道半满，交换能稳定化</p>
+            <p><strong>O ($2\mathrm{p}^4$)</strong>：失去一个可达半满，$I_1$ 反而更低</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="img-container" style="margin-bottom:10px;">
+          <img src="res/6_轨道空间分布图_sp.jpg" alt="s和p轨道空间分布">
+          <div class="img-caption">s 轨道与 p 轨道电子云空间分布</div>
+        </div>
+        <div class="img-container">
+          <img src="res/6_轨道空间分布图_d.jpg" alt="d轨道空间分布">
+          <div class="img-caption">d 轨道电子云空间分布</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span>原子结构与元素周期律</span>
+    <span>基础班新授课</span>
+  </div>
+</div>
+
+<!-- ==================== 第8页：例题1 — 量子数判断 ==================== -->
+<div class="slide">
+  <div class="slide-header">
+    <h2>课堂例题 1：量子数判断</h2>
+    <span class="page-num">08 / 12</span>
+  </div>
+  <div class="slide-body">
+    <div class="problem-box">
+      <div class="prob-title">题目</div>
+      <div class="prob-content">
+        判断下列各组量子数是否可能存在于原子中：<br>
+        (1) $n=2,\ l=2,\ m_l=0$ &emsp;&emsp;
+        (2) $n=3,\ l=1,\ m_l=-1$ &emsp;&emsp;
+        (3) $n=4,\ l=0,\ m_l=1$
+      </div>
+      <div class="prob-title" style="margin-top:16px;">分析提示</div>
+      <div class="prob-answer">
+        <ul class="check-list">
+          <li>检查 <strong>$l < n$</strong>？</li>
+          <li>检查 <strong>$|m_l| \le l$</strong>？</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row-flex" style="margin-top:16px;">
+      <div class="col-2">
+        <div style="background:#f0fdf4;border-radius:10px;padding:16px;border:1px solid #86efac;">
+          <strong style="color:#166534;">解答 (1)</strong>
+          <p style="margin-top:8px;line-height:1.7;">$n=2,\ l=2$：$l$ 必须 $\lt n$，即 $l \le 1$。<br><span class="text-danger">不可能。</span></p>
+        </div>
+      </div>
+      <div class="col-2">
+        <div style="background:#f0fdf4;border-radius:10px;padding:16px;border:1px solid #86efac;">
+          <strong style="color:#166534;">解答 (2)</strong>
+          <p style="margin-top:8px;line-height:1.7;">$n=3,\ l=1$：$l < n$ ✓；$m_l=-1$：$|m_l| \le l$ ✓<br><span class="text-success">可能。</span></p>
+        </div>
+      </div>
+      <div class="col-2">
+        <div style="background:#f0fdf4;border-radius:10px;padding:16px;border:1px solid #86efac;">
+          <strong style="color:#166534;">解答 (3)</strong>
+          <p style="margin-top:8px;line-height:1.7;">$n=4,\ l=0$：$l < n$ ✓；$m_l=1$：$|m_l| > l$<br><span class="text-danger">不可能。</span></p>
+        </div>
+      </div>
+    </div>
+    <div style="margin-top:16px;text-align:center;">
+      <span class="mnemonic">l < n · |m_l| ≤ l · 同轨自旋反</span>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span>原子结构与元素周期律</span>
+    <span>基础班新授课</span>
+  </div>
+</div>
+
+<!-- ==================== 第9页：例题2 — Fe 电子排布 ==================== -->
+<div class="slide">
+  <div class="slide-header">
+    <h2>课堂例题 2：电子排布与离子推断</h2>
+    <span class="page-num">09 / 12</span>
+  </div>
+  <div class="slide-body">
+    <div class="problem-box">
+      <div class="prob-title">题目</div>
+      <div class="prob-content">
+        写出 $\mathrm{Fe}$（$Z=26$）的基态电子排布式，以及 $\mathrm{Fe}^{2+}$ 和 $\mathrm{Fe}^{3+}$ 的电子排布式。
+      </div>
+      <div class="prob-title" style="margin-top:14px;">分析提示</div>
+      <div class="prob-answer">
+        <ol style="margin-left:18px;line-height:1.8;">
+          <li>基态 Fe：按 Aufbau 填充，<strong>书写时按 $n$ 排序</strong></li>
+          <li>$\mathrm{Fe}^{2+}$：先失哪个轨道的电子？</li>
+          <li>$\mathrm{Fe}^{3+}$：$3\mathrm{d}^5$ 有什么特殊稳定性？</li>
+        </ol>
+      </div>
+    </div>
+    <div class="row-flex" style="margin-top:16px;gap:16px;">
+      <div class="col-2" style="background:#eff6ff;border-radius:10px;padding:18px;text-align:center;">
+        <div style="font-size:14px;color:#64748b;margin-bottom:8px;">基态 Fe</div>
+        <div style="font-size:22px;font-weight:700;color:#1e40af;font-family:serif;">[Ar] 3d⁶ 4s²</div>
+        <div style="font-size:13px;color:#64748b;margin-top:6px;">书写顺序：$n$ 递增</div>
+      </div>
+      <div class="col-2" style="background:#fff7ed;border-radius:10px;padding:18px;text-align:center;">
+        <div style="font-size:14px;color:#64748b;margin-bottom:8px;">Fe²⁺（先失 4s²）</div>
+        <div style="font-size:22px;font-weight:700;color:#9a3412;font-family:serif;">[Ar] 3d⁶</div>
+        <div style="font-size:13px;color:#64748b;margin-top:6px;">失电子：先失 $n$ 最大</div>
+      </div>
+      <div class="col-2" style="background:#f0fdf4;border-radius:10px;padding:18px;text-align:center;">
+        <div style="font-size:14px;color:#64748b;margin-bottom:8px;">Fe³⁺（再失 1 个 3d）</div>
+        <div style="font-size:22px;font-weight:700;color:#166534;font-family:serif;">[Ar] 3d⁵</div>
+        <div style="font-size:13px;color:#64748b;margin-top:6px;">半满稳定（Hund 规则）</div>
+      </div>
+    </div>
+    <div class="warning-box" style="margin-top:14px;text-align:center;">
+      <strong>陷阱提醒：</strong>书写顺序 $\ne$ 填充顺序 $\ne$ 失电子顺序 —— <span class="text-danger">三种场景三种规则！</span>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span>原子结构与元素周期律</span>
+    <span>基础班新授课</span>
+  </div>
+</div>
+
+<!-- ==================== 第10页：例题3 — 元素推断 ==================== -->
+<div class="slide">
+  <div class="slide-header">
+    <h2>课堂例题 3：元素推断（综合）</h2>
+    <span class="page-num">10 / 12</span>
+  </div>
+  <div class="slide-body">
+    <div class="problem-box">
+      <div class="prob-title">题目</div>
+      <div class="prob-content">
+        某元素基态原子价电子排布为 <span class="electron-config">3d² 4s²</span>。<br>
+        (1) 该元素的原子序数是多少？<br>
+        (2) 它位于周期表第几周期、第几族？<br>
+        (3) 它有多少个未成对电子？
+      </div>
+    </div>
+    <div class="row-flex" style="margin-top:16px;">
+      <div class="col-2">
+        <div style="background:#f8fafc;border-radius:10px;padding:16px;border:1px solid #e2e8f0;">
+          <strong style="color:#1e40af;">分析思路</strong>
+          <ul class="check-list" style="margin-top:8px;">
+            <li>[Ar] 核心 = 18 个电子</li>
+            <li>最高 $n = 4$ → 周期数</li>
+            <li>价电子总数 = $2+2 = 4$ → 族数</li>
+            <li>$3\mathrm{d}^2$ 按 Hund 规则分占两个 d 轨道</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-2">
+        <div style="background:#f0fdf4;border-radius:10px;padding:16px;border:1px solid #86efac;">
+          <strong style="color:#166534;">解答</strong>
+          <div style="margin-top:10px;line-height:2;font-size:15.5px;">
+            <p><strong>(1)</strong> $Z = 18 + 2 + 2 = \mathbf{22}$（$\mathrm{Ti}$）</p>
+            <p><strong>(2)</strong> 第 <strong>四</strong> 周期、第 <strong>ⅣB</strong> 族、<strong>d 区</strong></p>
+            <p><strong>(3)</strong> <strong>2</strong> 个未成对电子</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="highlight-box" style="margin-top:14px;">
+      <strong>反思：</strong>过渡金属的"族数"是高频陷阱 —— 主族看 $\mathrm{s}/\mathrm{p}$ 电子，过渡族看 <span class="text-primary">$\mathrm{s} + \mathrm{d}$</span> 电子数。Hund 规则直接决定未成对电子数，进而影响磁性判断。
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span>原子结构与元素周期律</span>
+    <span>基础班新授课</span>
+  </div>
+</div>
+
+<!-- ==================== 第11页：易错点预警 ==================== -->
+<div class="slide">
+  <div class="slide-header">
+    <h2>易错点预警</h2>
+    <span class="page-num">11 / 12</span>
+  </div>
+  <div class="slide-body">
+    <table class="compare-table">
+      <tr>
+        <th style="width:28%;">错误想法</th>
+        <th style="width:32%;">为什么错</th>
+        <th style="width:40%;">正确理解</th>
+      </tr>
+      <tr>
+        <td>"离子失电子先失最后填的电子"</td>
+        <td>把填充顺序记忆迁移到电离过程</td>
+        <td><span class="text-success">先失 $n$ 最大</span>的轨道电子</td>
+      </tr>
+      <tr>
+        <td>"3d 在 4s 前面写是错的"</td>
+        <td>书写习惯混乱</td>
+        <td>书写按 <span class="text-success">$n$ 排序</span>：3d 在 4s <strong>前面</strong>（$n=3 \lt n=4$）</td>
+      </tr>
+      <tr>
+        <td>"Hund 规则可有可无"</td>
+        <td>忽略排布细节</td>
+        <td>决定 <span class="text-success">未成对电子数</span> 和 <span class="text-success">磁性</span></td>
+      </tr>
+      <tr>
+        <td>"全满/半满总是稳定"</td>
+        <td>过度推广</td>
+        <td>对 <span class="text-success">d 区</span>显著，主族元素影响小</td>
+      </tr>
+      <tr>
+        <td>"过渡金属族数 = 价电子数"</td>
+        <td>主族规则迁移</td>
+        <td>过渡族 = <span class="text-success">$\mathrm{s} + \mathrm{d}$</span> 电子数</td>
+      </tr>
+    </table>
+    <div style="margin-top:20px;text-align:center;">
+      <span class="mnemonic">书写看 n · 填充看能 · 失电子看层数 · 族数 s+d</span>
+    </div>
+  </div>
+  <div class="slide-footer">
+    <span>原子结构与元素周期律</span>
+    <span>基础班新授课</span>
+  </div>
+</div>
+
+<!-- ==================== 第12页：总结与作业 ==================== -->
+<div class="slide end-slide">
+  <div style="max-width:960px;padding:0 40px;">
+    <h2 style="margin-bottom:24px;">总结与课后作业</h2>
+    <div style="background:rgba(255,255,255,0.08);border-radius:12px;padding:20px 28px;margin-bottom:24px;text-align:left;border:1px solid rgba(255,255,255,0.1);">
+      <h3 style="font-size:18px;color:#93c5fd;margin-bottom:10px;">核心口诀</h3>
+      <p style="font-size:17px;line-height:1.8;opacity:0.9;">
+        量子数：$n$（层）$l$（形）$m_l$（向）$m_s$（旋）<br>
+        三种顺序：<strong>书写按 $n$</strong> · <strong>填充按能</strong> · <strong>失电子按层数</strong><br>
+        周期律反常：<strong>ⅡA > ⅢA</strong>，<strong>ⅤA > ⅥA</strong>（半满/全满稳定）
+      </p>
+    </div>
+    <div class="row-flex" style="gap:20px;">
+      <div class="col-2" style="background:rgba(255,255,255,0.06);border-radius:12px;padding:20px;border:1px solid rgba(255,255,255,0.1);text-align:left;">
+        <h3 style="font-size:17px;color:#86efac;margin-bottom:10px;">必做</h3>
+        <ul style="margin-left:18px;line-height:1.9;font-size:15px;opacity:0.9;">
+          <li>写出 $Z = 21\sim30$（$\mathrm{Sc}\sim\mathrm{Zn}$）所有元素的基态电子排布式</li>
+          <li>比较 $\mathrm{Na}$、$\mathrm{Mg}$、$\mathrm{Al}$ 的第一电离能大小，并解释为什么 $\mathrm{Mg} > \mathrm{Al}$</li>
+          <li>判断量子数 $(n=3, l=2, m_l=+3)$ 是否可能，说明理由</li>
+        </ul>
+      </div>
+      <div class="col-2" style="background:rgba(255,255,255,0.06);border-radius:12px;padding:20px;border:1px solid rgba(255,255,255,0.1);text-align:left;">
+        <h3 style="font-size:17px;color:#fde047;margin-bottom:10px;">选做</h3>
+        <ul style="margin-left:18px;line-height:1.9;font-size:15px;opacity:0.9;">
+          <li>解释为什么 $\mathrm{Cr}$ 的基态电子排布是 <span class="electron-config">[Ar] 3d⁵ 4s¹</span>，而不是 <span class="electron-config">[Ar] 3d⁴ 4s²</span></li>
+        </ul>
+        <p style="margin-top:14px;font-size:14px;opacity:0.7;border-top:1px solid rgba(255,255,255,0.1);padding-top:10px;">
+          下节课：酸碱理论 —— 从"原子如何失电子"到"如何给/受质子"
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 导航控制 ===== -->
+<div class="nav-controls">
+  <button class="nav-btn" id="btn-prev" onclick="changeSlide(-1)">上一页</button>
+  <span class="nav-indicator"><span id="curr">1</span> / <span id="total">12</span></span>
+  <button class="nav-btn" id="btn-next" onclick="changeSlide(1)">下一页</button>
+</div>
+
+<!-- ===== KaTeX 脚本 ===== -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/mhchem.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // 渲染所有数学公式
+    renderMathInElement(document.body, {
+      delimiters: [
+        {left: "$$", right: "$$", display: true},
+        {left: "$", right: "$", display: false}
+      ],
+      throwOnError: false,
+      trust: true,
+      strict: false
+    });
+
+    // 幻灯片逻辑
+    const slides = document.querySelectorAll('.slide');
+    const currEl = document.getElementById('curr');
+    const totalEl = document.getElementById('total');
+    const btnPrev = document.getElementById('btn-prev');
+    const btnNext = document.getElementById('btn-next');
+    let current = 0;
+    totalEl.textContent = slides.length;
+
+    function updateSlide() {
+      slides.forEach((s, i) => s.classList.toggle('active', i === current));
+      currEl.textContent = current + 1;
+      btnPrev.disabled = current === 0;
+      btnNext.disabled = current === slides.length - 1;
+      updateScale();
+    }
+
+    window.changeSlide = function(dir) {
+      const next = current + dir;
+      if (next >= 0 && next < slides.length) {
+        current = next;
+        updateSlide();
+      }
+    };
+
+    // 键盘控制
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === ' ') {
+        e.preventDefault();
+        changeSlide(1);
+      } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+        e.preventDefault();
+        changeSlide(-1);
+      } else if (e.key === 'Home') {
+        e.preventDefault();
+        current = 0;
+        updateSlide();
+      } else if (e.key === 'End') {
+        e.preventDefault();
+        current = slides.length - 1;
+        updateSlide();
+      }
+    });
+
+    // 缩放适配
+    function updateScale() {
+      const w = window.innerWidth;
+      const h = window.innerHeight;
+      const scale = Math.min(w / 1280, h / 720) * 0.94;
+      document.documentElement.style.setProperty('--scale', scale);
+    }
+
+    window.addEventListener('resize', updateScale);
+    updateSlide();
+  });
+</script>
+</body>
+</html>

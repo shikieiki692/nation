@@ -1,0 +1,92 @@
+filters:
+  and:
+    - file.inFolder("04-课件")
+    - type != "索引"
+properties:
+  file.name:
+    displayName: 课件
+  lesson_type:
+    displayName: 课型
+  module:
+    displayName: 专题
+  subject:
+    displayName: 所属模块
+  audience_level:
+    displayName: 层次
+  duration:
+    displayName: 时长
+  start_date:
+    displayName: 授课日期
+  related_kps:
+    displayName: 关联KP
+  updated:
+    displayName: 更新日期
+views:
+  - type: table
+    name: 全部课件
+    order:
+      - file.name
+      - lesson_type
+      - module
+      - subject
+      - audience_level
+      - duration
+      - start_date
+      - related_kps
+      - updated
+    sort:
+      - property: start_date
+        direction: ASC
+  - type: table
+    name: 新授课
+    filters:
+      and:
+        - lesson_type == "新授课"
+    order:
+      - file.name
+      - module
+      - subject
+      - audience_level
+      - duration
+      - start_date
+      - related_kps
+    sort:
+      - property: start_date
+        direction: ASC
+  - type: table
+    name: 复习课
+    filters:
+      and:
+        - lesson_type == "复习课"
+    order:
+      - file.name
+      - module
+      - subject
+      - audience_level
+      - duration
+      - start_date
+    sort:
+      - property: start_date
+        direction: ASC
+  - type: table
+    name: 习题课
+    filters:
+      and:
+        - lesson_type == "习题课"
+    order:
+      - file.name
+      - module
+      - subject
+      - audience_level
+      - duration
+      - start_date
+    sort:
+      - property: start_date
+        direction: ASC
+  - type: cards
+    name: 课件卡片
+    order:
+      - file.name
+      - module
+      - lesson_type
+      - start_date

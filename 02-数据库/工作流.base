@@ -1,0 +1,22 @@
+filters:
+  and:
+    - file.inFolder("00-首页/工作日志")
+properties:
+  file.name:
+    displayName: 工作日志
+  file.mtime:
+    displayName: 最后修改
+  file.ctime:
+    displayName: 创建时间
+views:
+  - type: table
+    name: 日志时间线
+    order:
+      - file.name
+      - file.mtime
+      - file.ctime
+    sort:
+      - property: file.mtime
+        direction: ASC
+  - type: cards
+    name: 视图
