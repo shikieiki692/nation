@@ -39,6 +39,7 @@ source_file: "[[07-资料提炼/习题提炼/习题-一分册测试-Ch8-共价�
 status: 已填充
 source_category: 竞赛导向·竞赛教辅
 source_grade: A-
+used_in: "[[综合模拟卷VI]]"
 ---
 
 # BNCP 联四唑合钴(III) 配合物与硝基苯酚氢键

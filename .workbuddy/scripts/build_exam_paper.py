@@ -31,6 +31,8 @@ PAPERS = [
     (QB / "综合模拟卷III.md", "综合模拟卷III"),
     (QB / "综合模拟卷IV.md", "综合模拟卷IV"),
     (QB / "综合模拟卷V.md", "综合模拟卷V"),
+    (QB / "综合模拟卷VI.md", "综合模拟卷VI"),
+    (QB / "结构化学专项卷.md", "结构化学专项卷"),
 ]
 
 LINK = re.compile(r"^#{2,3}\s+\[\[([^\]|]+?)(?:\|[^\]]+)?\]\](.*)$")
@@ -206,6 +208,9 @@ def extract_stem(path: Path):
     started = False
     for ln in lines:
         if not started:
+            if re.match(r"^#\s*题-\d+", ln):   # 「# 题-XXX：…」信息性标题不入卷（来源行已有）
+                started = True
+                continue
             if ln.startswith("# "):        # 顶层标题行：转粗体保留信息
                 out.append(f"**{ln[2:].strip()}**")
                 started = True
@@ -216,6 +221,11 @@ def extract_stem(path: Path):
                 started = True
                 continue                    # 转录声明/来源块quote不入卷（来源由 FM 汇总）
             started = True
+        # 通用过滤（任意位置）：源题元信息块与「题目」节标题
+        if re.match(r"^>\s*\*\*(来源|难度|教学层级)\*\*", ln):
+            continue
+        if re.match(r"^#{2,3}\s*题目\s*$", ln.strip()):
+            continue                        # 「## 题目」节标题（卷内已有「第 N 题」标题）
         if mode == "interleaved-skip":
             if not ln.strip() or SUBQ.match(ln):
                 mode = "normal"            # 空行或新小问 → 结束跳过
@@ -231,6 +241,8 @@ def extract_stem(path: Path):
             continue
         out.append(ln)
     stem = "\n".join(out).strip()
+    # 首部残线：元信息块被过滤后可能残留孤立 --- / 空行
+    stem = re.sub(r"^(?:\s|---)+", "", stem)
     # H1 降级（题面区中间出现的 # 一级标题 → ###）
     stem = re.sub(r"(?m)^# (.+)$", r"### \1", stem)
     # 复扫残留
