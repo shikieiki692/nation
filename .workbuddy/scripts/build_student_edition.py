@@ -10,6 +10,7 @@
   - 输出 staging：.workbuddy/tmp/student_build/（源文件不动）
 """
 import io
+import os
 import re
 import sys
 from pathlib import Path
@@ -17,12 +18,55 @@ from pathlib import Path
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
 VAULT = Path(r"C:\Obsidion\妙妙屋")
+QB_DIR = os.path.join(str(VAULT), "04-题库")
 SRC_DIR = VAULT / "04-课件" / "习题集"
 OUT = VAULT / ".workbuddy" / "tmp" / "student_build"
 
 ENTER = re.compile(r"^\s*(?:\*\*参考答案\*\*|\*\*答案[:：]|#{1,3}\s*[^\n]*参考答案)")
 ANS_SECTION = re.compile(r"^\s*#{1,3}\s*[^\n]*参考答案")
 LEAVE = re.compile(r"^\s*(?:#{3} |## |---\s*$|\*\*题目\*\*：)")
+# 来源行与尾部索引
+YUANTI = re.compile(r"^\s*>\s*原题[：:]\s*\[\[([^\]|]+)")
+INDEX_SEC = re.compile(r"^\s*#{1,3}\s*[^\n]*(?:来源索引|知识点索引|题目索引)")
+
+_real_cache = {}
+
+
+def is_real_exam(basename: str) -> bool:
+    """判定题库题目是否为真题（路径含 /真题/）。"""
+    if basename in _real_cache:
+        return _real_cache[basename]
+    hit = None
+    for dp, _, ns in os.walk(QB_DIR):
+        if basename + ".md" in ns:
+            hit = os.path.join(dp, basename + ".md")
+            break
+    res = bool(hit) and ("真题" in Path(hit).parts)
+    _real_cache[basename] = res
+    return res
+
+
+def strip_source_and_index(text: str):
+    """非真题的 `> 原题：` 行删除；尾部索引节（来源/知识点/题目索引）吞到 EOF。"""
+    lines = text.split("\n")
+    out, drop, sec = [], 0, False
+    for ln in lines:
+        if sec:
+            continue
+        if INDEX_SEC.match(ln):
+            sec = True
+            drop += 1
+            continue
+        m = YUANTI.match(ln)
+        if m:
+            stem = m.group(1).strip().rstrip("]").strip()
+            if not is_real_exam(stem):
+                drop += 1
+                continue
+        out.append(ln)
+    while out and not out[-1].strip():
+        out.pop()
+    return "\n".join(out) + "\n", drop
 
 
 def strip_answers(text: str):
@@ -71,6 +115,8 @@ def main():
         else:
             body = t
         new_body, removed = strip_answers(body)
+        new_body, dropped = strip_source_and_index(new_body)
+        removed += dropped
         # 复扫残留答案标记（题面区不应再有）
         residual = [
             (i + 1, ln[:50])
