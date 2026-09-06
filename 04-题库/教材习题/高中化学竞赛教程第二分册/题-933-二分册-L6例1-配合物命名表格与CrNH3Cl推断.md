@@ -22,6 +22,7 @@ cross_references: []
 status: 已填充
 source_category: 竞赛导向·竞赛教材
 source_grade: A
+used_in: "[[二分册专项卷III]]"
 ---
 # 题-933-二分册-L6例1-配合物命名表格与CrNH3Cl推断
 
