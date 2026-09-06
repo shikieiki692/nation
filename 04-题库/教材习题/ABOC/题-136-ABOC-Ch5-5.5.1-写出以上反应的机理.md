@@ -9,7 +9,7 @@ difficulty: 2
 question_type: [机理]
 teaching_level: 巩固
 syllabus_codes: ["35"]
-knowledge_points: ["[[芳香亲电取代]]"]
+knowledge_points: ["[[芳香亲电取代反应]]"]
 tags: [化竞, ABOC, 有机化学]
 updated: 2026-07-04
 source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第5章-芳香与胺]]"

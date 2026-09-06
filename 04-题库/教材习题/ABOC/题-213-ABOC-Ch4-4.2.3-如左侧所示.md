@@ -9,7 +9,7 @@ difficulty: 2
 question_type: [机理]
 teaching_level: 巩固
 syllabus_codes: ["34"]
-knowledge_points: ["[[取代反应]]", "[[消除反应]]", "[[SN1]]", "[[SN2]]"]
+knowledge_points: ["[[取代反应]]", "[[消除反应]]", "[[SN1反应]]", "[[SN2]]"]
 tags: [化竞, ABOC, 有机化学]
 updated: 2026-07-04
 source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第4章-取代与消除]]"

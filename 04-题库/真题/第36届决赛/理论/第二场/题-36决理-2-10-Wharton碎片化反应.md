@@ -9,7 +9,7 @@ difficulty: 4
 question_type: [作图]
 teaching_level: 竞赛
 syllabus_codes: []
-knowledge_points: ["[[Wharton碎片化]]", "[[中环化合物]]", "[[自由基反应]]", "[[立体化学]]"]
+knowledge_points: ["[[Wharton碎片化反应]]", "[[中环化合物]]", "[[自由基反应]]", "[[立体化学]]"]
 tags: [化竞, 决赛, 理论, 有机化学]
 updated: 2026-05-20
 aliases: []

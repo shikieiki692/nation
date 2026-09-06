@@ -8,7 +8,7 @@ source_subject: 有机化学
 difficulty: 4
 teaching_level: 拓展
 syllabus_codes: ["21"]
-knowledge_points: ["[[吡啶]]"]
+knowledge_points: ["[[吡啶化学]]"]
 tags: [化竞, Clayden, 有机化学, 杂环]
 updated: 2026-07-25
 aliases: [Clayden-Ch29-P7]

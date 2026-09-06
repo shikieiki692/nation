@@ -9,7 +9,7 @@ difficulty: 3
 question_type: [简答]
 teaching_level: 拓展
 syllabus_codes: ["21"]
-knowledge_points: ["[[芳香亲电取代]]"]
+knowledge_points: ["[[芳香亲电取代反应]]"]
 tags: [化竞, Clayden, 有机化学]
 updated: 2026-07-25
 aliases: [Clayden-Ch21-P9]

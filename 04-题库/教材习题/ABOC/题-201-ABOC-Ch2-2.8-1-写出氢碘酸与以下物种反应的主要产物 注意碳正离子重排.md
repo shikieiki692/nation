@@ -8,7 +8,7 @@ source_subject: 有机化学
 difficulty: 2
 teaching_level: 巩固
 syllabus_codes: ["32"]
-knowledge_points: ["[[基本反应]]", "[[氧化反应]]", "[[还原反应]]"]
+knowledge_points: ["[[基本反应类型]]", "[[氧化反应]]", "[[还原反应]]"]
 tags: [化竞, ABOC, 有机化学]
 updated: 2026-07-04
 source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第2章-基本反应]]"
