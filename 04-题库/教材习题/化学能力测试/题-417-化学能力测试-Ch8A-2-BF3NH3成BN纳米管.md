@@ -34,6 +34,7 @@ source: 化学竞赛能力测试·第8章 元素化学·A卷第2题
 source_file: "[[化学竞赛教程/（已压缩）化学竞赛能力测试]]"
 status: 已填充
 source_category: 竞赛导向·竞赛教辅
+used_in: "[[综合模拟卷V]]"
 ---
 
 # BF₃+NH₃ → BN 纳米管

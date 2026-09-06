@@ -19,6 +19,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
+used_in: "[[综合模拟卷V]]"
 ---
 # 题-121：(35 届决赛改)
 

@@ -36,6 +36,7 @@ source: 化学竞赛能力测试·第2章 原子结构和分子结构·B卷第7�
 source_file: "[[化学竞赛教程/（已压缩）化学竞赛能力测试]]"
 status: 已填充
 source_category: 竞赛导向·竞赛教辅
+used_in: "[[综合模拟卷V]]"
 ---
 
 # SbF₅-HF 超酸质子化

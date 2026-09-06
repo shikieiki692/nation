@@ -37,6 +37,7 @@ source: 化学竞赛能力测试·第4章 配位化合物初步知识·A卷第6�
 source_file: "[[化学竞赛教程/（已压缩）化学竞赛能力测试]]"
 status: 已填充
 source_category: 竞赛导向·竞赛教辅
+used_in: "[[综合模拟卷V]]"
 ---
 
 # GaAs 半导体前驱体合成

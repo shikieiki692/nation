@@ -29,6 +29,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 综合模拟卷
 source_category: 竞赛导向·真题
+used_in: "[[综合模拟卷V]]"
 ---
 
 ## 题目
