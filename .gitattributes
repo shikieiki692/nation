@@ -1,5 +1,0 @@
-*.md text eol=lf
-*.py text eol=lf
-*.csv text eol=lf
-*.base text eol=lf
-.gitattributes text eol=lf

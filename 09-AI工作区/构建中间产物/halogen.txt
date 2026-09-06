@@ -1,5 +1,0 @@
-019e2d55c9d2e04b748edae0bad9b315e40f85af4f098263f4af001b4d0bea99.jpg|148|1 固体氯、溴、碘的层状结构——从 Cl₂ 到 I₂ 分子间距离依次压缩，碘已呈现半导体性质
-e737fd7c6a5ba608b7e1fc80806807d1e5747cf1705719a7fa6b7d851bd4ab52.jpg|157|2 卤素分子键解离焓——F₂ 键能反常低（159 kJ/mol），低于 Br₂（193 kJ/mol）和 Cl₂（243 kJ/mol）
-63fc9697b2f28e7339f42dd2e855d7429dd9c2e6b3abf45a86549a1ede2237c4.jpg|236|3 氯元素在酸碱条件下的 Frost 图——中间氧化态位于两相邻物种连线上方时易发生歧化
-93eccf6f82977ee23ffabea9e9bb3a20f3da905da1d071fe43f7008446cb40b1.jpg|280|4 ClF₃ 的 T 型结构——3 个成键对 + 2 个孤对（sp³d），孤对位于平面位置
-9f50410ec1baa1a8bcca3aa0779e3c49d1791d03916370921589a17cc1b1f6c1.jpg|283|5 BrF₅ 的四方锥结构——5 个成键对 + 1 个孤对（sp³d²），孤对在棱锥顶点

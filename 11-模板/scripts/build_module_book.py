@@ -608,7 +608,13 @@ def gather_questions(module):
             if not fm: continue
             y = fm.group(1)
             if not re.search(r"(?m)^type: 题目", y): continue
-            if not re.search(r"(?m)^pack: 模块习题集", y): continue
+            # 2026-09-07 扩池：一分册/二分册正册的章节练习题（d≥4）纳入习题书
+            # （来源维度构建规范落地：A 类竞赛教材源，模块习题集层之外的高价值题）
+            is_fb_book = ("高中化学竞赛教程第一分册" in rel or "高中化学竞赛教程第二分册" in rel)
+            if not re.search(r"(?m)^pack: 模块习题集", y):
+                if not (is_fb_book and re.search(r"(?m)^pack: 章节练习", y)):
+                    continue
+                # 难度闸门在下方 diff 解析后执行（d≥4）
             override_target = PATH_SUBJECT_MODULE_OVERRIDES.get(rel)
             if override_target:
                 if module != override_target:
@@ -630,6 +636,8 @@ def gather_questions(module):
             ttl = (re.search(r"(?m)^title: (.*)", y) or [None, ""])[1].strip().strip('"').strip("'")
             body = s[fm.end():].strip()
             d = int(diff) if diff.isdigit() else 3
+            if is_fb_book and d < 4:
+                continue  # 扩池难度闸门：一分册/二分册章节练习题仅收 d≥4
             pool.append({
                 "file": fn,
                 "path": rel,

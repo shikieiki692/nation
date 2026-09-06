@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ascii"?>
-<cp:coreProperties xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties">
-  <dc:creator>rbm.xkw.com</dc:creator>
-  <cp:revision>1</cp:revision>
-  <cp:lastPrinted>2025-08-01T16:47:10.217</cp:lastPrinted>
-  <dcterms:created xsi:type="dcterms:W3CDTF">2025-08-01T16:47:10Z</dcterms:created>
-  <dcterms:modified xsi:type="dcterms:W3CDTF">2025-08-01T08:47:10Z</dcterms:modified>
-</cp:coreProperties>
