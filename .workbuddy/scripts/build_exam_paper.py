@@ -209,6 +209,24 @@ def extract_stem(path: Path):
     return stem, fm, warns
 
 
+def short_source(fm: dict, base: str) -> str:
+    """极简来源标签：真题→'第39届决赛'；教材→'《结构化学基础》习题 5.37'。"""
+    src = fm.get("source") or fm.get("source_subject") or ""
+    m = re.search(r"第\s*(\d+)\s*届.{0,14}?(决赛|初赛)", src)
+    if m:
+        return f"第{m.group(1)}届{m.group(2)}"
+    bm = re.search(r"《([^》]+?)》", src)
+    if bm:
+        book = re.sub(r"（第\d+版）", "", bm.group(1))
+        nm = re.search(r"(习题|例|T)([0-9]+(?:\.[0-9]+)*)$", base)
+        tail = f" {nm.group(1)} {nm.group(2)}" if nm else ""
+        return f"《{book}》{tail}"
+    seg = re.split(r"[·/|]", src)[0].strip()
+    seg = re.sub(r"（(忠实|逐字)转录[^）]*）|（辅导性作业）", "", seg)
+    seg = seg.replace("第6版Weller", "Weller ").replace("无机化学 例题与习题", "无机化学例题与习题")
+    return seg[:24]
+
+
 def build(paper_path: Path, title: str):
     t = paper_path.read_text(encoding="utf-8", newline="").replace("\r\n", "\n")
     body, _ = strip_fm(t)
@@ -259,8 +277,7 @@ def build(paper_path: Path, title: str):
             flags.append((base, "文件未找到"))
             continue
         stem, fm, warns = extract_stem(p)
-        src = fm.get("source") or fm.get("source_subject") or ""
-        meta = f"> **题源**：{base}" + (f" ｜ {src}" if src else "") + (f" ｜ {trail}" if trail else "")
+        meta = f"> 来源：{short_source(fm, base)}"
         out += [meta, "", stem, ""]
         for w in warns:
             flags.append((base, w))
