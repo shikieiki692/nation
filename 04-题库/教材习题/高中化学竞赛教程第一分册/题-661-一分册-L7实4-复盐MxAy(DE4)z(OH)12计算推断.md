@@ -34,6 +34,7 @@ source_file: "[[07-资料提炼/习题提炼/习题-一分册-第7讲-离子键�
 status: 已填充
 source_category: 竞赛导向·竞赛教材
 source_grade: A-
+used_in: "[[一分册专项卷IX]]"
 ---
 
 # 题-661-一分册-L7实4-复盐MxAy(DE4)z(OH)12计算推断
