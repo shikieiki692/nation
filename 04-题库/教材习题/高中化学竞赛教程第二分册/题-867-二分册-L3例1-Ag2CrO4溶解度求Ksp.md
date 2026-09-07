@@ -22,6 +22,7 @@ cross_references: []
 status: 已填充
 source_category: 竞赛导向·竞赛教材
 source_grade: A
+used_in: "[[二分册专项卷V]]"
 ---
 # 题-867-二分册-L3例1-Ag2CrO4溶解度求Ksp
 
