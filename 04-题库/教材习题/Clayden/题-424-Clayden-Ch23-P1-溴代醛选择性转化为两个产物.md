@@ -27,17 +27,17 @@ source_grade: B
 
 How would you convert this bromo-aldehyde chemoselectively into the two products shown?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/e907f7def4f01bf52eef5fece17c3fd69ac494f436dc44b551991fa68a0a161c.jpg]]
+![[e907f7def4f01bf52eef5fece17c3fd69ac494f436dc44b551991fa68a0a161c.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: For the product to the right, no protection is needed — a Grignard reagent will add directly to the aldehyde:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/ce42e38666a2fd98874c5cd7254dc661ea8015e0553da0ac772b2dd0489827e4.jpg]]
+![[ce42e38666a2fd98874c5cd7254dc661ea8015e0553da0ac772b2dd0489827e4.jpg]]
 
 For the other product, the aldehyde needs to be protected as an acetal before making the Grignard reagent from the aryl bromide. Then add to RCHO, and deprotect with acid:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/657560b43dbd425ae1cf12705c75697b155c0484ba8b83477bb93639281e6c52.jpg]]
+![[657560b43dbd425ae1cf12705c75697b155c0484ba8b83477bb93639281e6c52.jpg]]
 
 **中文解析**：
 

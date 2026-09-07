@@ -27,7 +27,7 @@ source_grade: B
 
 Predict the products of Birch reduction of these aromatic compounds.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/fe14e2ba72880f28d28d346069ec1edacea5215b3b8a34161cbdc811126b8f6b.jpg]]
+![[fe14e2ba72880f28d28d346069ec1edacea5215b3b8a34161cbdc811126b8f6b.jpg]]
 
 ## 参考答案
 

@@ -27,7 +27,7 @@ source_grade: B
 
 Which of the two routes suggested here would actually lead to the product?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/5642bc925c7b62117ce8ea3adc40645d2dd390166d24c8ea2fa3187114620e7c.jpg]]
+![[5642bc925c7b62117ce8ea3adc40645d2dd390166d24c8ea2fa3187114620e7c.jpg]]
 
 **原文题目**：Which of the two routes would lead to the product? Determine the correct order of addition for HCl and EtMgBr to achieve conjugate addition of chloride and direct addition of ethyl group.
 
@@ -35,11 +35,11 @@ Which of the two routes suggested here would actually lead to the product?
 
 **Answer (English)**: To get the product, the chloride must add in a conjugate fashion and ethyl Grignard in a direct fashion that removes the carbonyl group. Conjugate addition can happen only if the carbonyl group is intact so HCl must be added first.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/7e7f2fa0300d2d23da0dbdf9c2510cb2f06daab623faa67ab5bfe22bc2469e8c.jpg]]
+![[7e7f2fa0300d2d23da0dbdf9c2510cb2f06daab623faa67ab5bfe22bc2469e8c.jpg]]
 
 In the other sequence, EtMgBr is likely to add to the carbonyl group direct and further addition of HCl may either substitute on the allylic alcohol or add the 'wrong way round' to the alkene.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/14346801e7bef4f5a623369c11b30fdc58bd5dc794b2135491c00b35039fa2c8.jpg]]
+![[14346801e7bef4f5a623369c11b30fdc58bd5dc794b2135491c00b35039fa2c8.jpg]]
 
 **中文解析**：
 

@@ -27,13 +27,13 @@ source_grade: B
 
 How is the relative stereochemistry of this product controlled? Why was this method chosen?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/f9fde3011df5caf5ecc4bf0316062b4ef5d8b1980181f43e3987ccc9bea17335.jpg]]
+![[f9fde3011df5caf5ecc4bf0316062b4ef5d8b1980181f43e3987ccc9bea17335.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The relationship between the two chiral centres in the product is 1,5 and that is too remote for any realistic control. The only plan is to disconnect between the two centres and add a removable anion-stabilizing group to one side and a leaving group to the other. The starting materials must of course be single enantiomers—then only one diastereoisomer can be formed.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/286a256f6b34953f2aea918e829126f1b4b07bcee1a888deba606ad5aeeddcbc.jpg]]
+![[286a256f6b34953f2aea918e829126f1b4b07bcee1a888deba606ad5aeeddcbc.jpg]]
 
 **中文解析**：
 

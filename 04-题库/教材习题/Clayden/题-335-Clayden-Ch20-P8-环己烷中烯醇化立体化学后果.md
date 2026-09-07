@@ -31,13 +31,13 @@ source_grade: B
 **【原文】**
 A cyclohexane derivative bearing a carbonyl group and substituents is treated with base, causing equilibration through enolization. The product distribution is 92% equatorial product. Explain the stereochemical outcome through the mechanism of base-catalyzed enolization.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/aa4e0742106c87a2b2a0922f1521ccd3e68cae955f14630bd4010217f3869bd7.jpg]]
+![[aa4e0742106c87a2b2a0922f1521ccd3e68cae955f14630bd4010217f3869bd7.jpg]]
 
 ## 参考答案
 
 **Answer (English)**:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/4979eee36cd85126027f39657a71374a8ae9c55b993d29c0f36b3854ae909cdd.jpg]]
+![[4979eee36cd85126027f39657a71374a8ae9c55b993d29c0f36b3854ae909cdd.jpg]]
 
 **Mechanism of base-catalyzed enolization and equilibration**:
 

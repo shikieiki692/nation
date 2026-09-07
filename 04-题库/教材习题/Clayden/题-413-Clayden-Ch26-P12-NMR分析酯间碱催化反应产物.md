@@ -39,7 +39,7 @@ $$
 
 Compound B has IR 1740 cm⁻¹, δH 1.15–1.25 (four t, each 3H), 2.52 (2H, ABX system JAB 16 Hz), 3.04 (1H, X of ABX split into a further doublet by J 5 Hz), and 4.6 (1H, d, J 5 Hz). What are the structures of A and B?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/a171bd35d5f71a746d63957fa78c12513b7a48cd506aeeaed8b5cb657ef2ca15.jpg]]
+![[a171bd35d5f71a746d63957fa78c12513b7a48cd506aeeaed8b5cb657ef2ca15.jpg]]
 
 **原文题目**：Base-catalysed reaction between these two esters allows the isolation of a product A in 82% yield. The NMR spectrum of this product shows that two species are present... What are the structures of A and B?
 
@@ -49,11 +49,11 @@ Compound B has IR 1740 cm⁻¹, δH 1.15–1.25 (four t, each 3H), 2.52 (2H, ABX
 
 The compound A1 fits the formula for A and the ¹H NMR spectrum of the compound with the low field signal (assigned to the CHO proton). This structure would also show an ABX system in its ¹H NMR spectrum. But what is the other compound (A2)? It is obviously in equilibrium with A1 and it lacks both the aldehyde proton and the ABX system and it sounds like an enol. Compound A1 is chiral so the CH₂ group appears as an ABX system but A2 is not chiral so the CH₂ group is a singlet. Here are the structures with their NMR assignments.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/7c32bba6d6775068730a23ded8f8e4bb790a11bb460be4452c9e32d818b3487b.jpg]]
+![[7c32bba6d6775068730a23ded8f8e4bb790a11bb460be4452c9e32d818b3487b.jpg]]
 
 Treatment with acidic ethanol simply makes the acetal from the aldehyde group of A1. Since A1 and A2 are in equilibrium, all A2 is eventually converted into A1 and then into B. Compound B is again chiral so the ABX system reappears with further coupling of X with the acetal proton. There are now four triplets and four quartets from the four ethyl groups.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/acda30d0e1975b4449af030de60f4e1e4ce461674399f2dff63decb47f9bd139.jpg]]
+![[acda30d0e1975b4449af030de60f4e1e4ce461674399f2dff63decb47f9bd139.jpg]]
 
 **中文解析**：
 

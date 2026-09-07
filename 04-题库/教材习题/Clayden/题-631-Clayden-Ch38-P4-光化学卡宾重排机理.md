@@ -31,13 +31,13 @@ source_grade: B
 
 **【原文】**Suggest a mechanism for this ring contraction. (Drawing mechanisms for a rearrangement involving a carbene formed photochemically.)
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/a033b2d46d91d4a2a855ce8a14607764ed78d06c7c92b4f168e5ec9135aaceb4.jpg]]
+![[a033b2d46d91d4a2a855ce8a14607764ed78d06c7c92b4f168e5ec9135aaceb4.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: Reaction used by J. Froborg and G. Magnusson, J. Am. Chem. Soc., 1978, 100, 6728. The carbene formed by loss of nitrogen from the diazoketone rearranges with the migration of either C-C bond to give a ketene picked up by methanol.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/1a3d85dce50373aaf9822c2f0e39ed802a48eacdfaab30bd351edd5153fe2cdb.jpg]]
+![[1a3d85dce50373aaf9822c2f0e39ed802a48eacdfaab30bd351edd5153fe2cdb.jpg]]
 
 **中文解析**：
 

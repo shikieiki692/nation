@@ -27,17 +27,17 @@ source_grade: B
 
 Assign the NMR spectra of this compound and justify your assignments. 'Assign' means 'say which signal belongs to which atom'.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/2936590643a26250a3254368d6adf08ff081da1092365bfa1ed415ae105ee77d.jpg]]
+![[2936590643a26250a3254368d6adf08ff081da1092365bfa1ed415ae105ee77d.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/b5db8fa3671e11e80c84141184fce8d65c89442393ee4b7cc02b8a04449baeda.jpg]]
+![[b5db8fa3671e11e80c84141184fce8d65c89442393ee4b7cc02b8a04449baeda.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/d05ab6d30be1553c73e121c918f709b6da75aeff77af9e7c7259859eb8ccced8.jpg]]
+![[d05ab6d30be1553c73e121c918f709b6da75aeff77af9e7c7259859eb8ccced8.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: There is no coupling in this proton NMR spectrum which makes it much easier. Measure the chemical shifts and estimate the number of protons in each signal from the integration: δ_H (ppm) 1.4 (6H), 1.8 (3H), 2.9 (2H) and 5.6 (1H). The peak at 7.5 is CHCl₃ impurity in the CDCl₃ solvent. This is enough to assign the spectrum.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/08b56d55a79402139e182b8d9d93924521380958be3a2180c8a8a70ac046b81a.jpg]]
+![[08b56d55a79402139e182b8d9d93924521380958be3a2180c8a8a70ac046b81a.jpg]]
 
 The carbon spectrum: three peaks in the 0–50 ppm region (methyl on alkene, CH₂ group, and the pair of methyls on same carbon). The 1:1:1 triplet at 77 ppm is the solvent CDCl₃. The signal in the 50–100 ppm region is the carbon next to oxygen in the Me₂C group. The two signals in the 100–150 ppm region are the two carbons of the alkene, and the very small peak at 150 ppm is the carbonyl group.
 

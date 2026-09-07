@@ -30,17 +30,17 @@ source_grade: B
 
 **【原文】**Why is this particular amine formed by reductive amination here?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/53d979ad933c25e0e0c51b63ea201954325b3c1d558319f0b7046181a42ac42f.jpg]]
+![[53d979ad933c25e0e0c51b63ea201954325b3c1d558319f0b7046181a42ac42f.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The two acetals will be hydrolysed at pH 5.5 to give the amine a choice between cyclization to one or other of the two aldehydes:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/a588fc8ecf196558f3b2a38df1f54ba6fba9f9c36fbacd839599d2741623fa4c.jpg]]
+![[a588fc8ecf196558f3b2a38df1f54ba6fba9f9c36fbacd839599d2741623fa4c.jpg]]
 
 Cyclization to a five-membered ring is preferred to cyclization to a (strained) four-membered ring so reductive amination occurs to the right and not to the left (as drawn). Cyanoborohydride is stable under the weakly acidic conditions and does not reduce the remaining aldehyde.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/4d31f084731631dee2313090bc085a259d8b9ca92eab6ebfe6be8a3428ac8d71.jpg]]
+![[4d31f084731631dee2313090bc085a259d8b9ca92eab6ebfe6be8a3428ac8d71.jpg]]
 
 This problem is based on work by G. W. Gribble and R. M. Soll, J. Org. Chem., 1981, 46, 2433.
 

@@ -29,7 +29,7 @@ source_grade: B
 
 **【原文】**Explain how chloride catalyses this reaction.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/c294a4a62ad1d8b83e4f57a11f0f0fae2442ab7d34ce5ef7df0dcda1880b5d62.jpg]]
+![[c294a4a62ad1d8b83e4f57a11f0f0fae2442ab7d34ce5ef7df0dcda1880b5d62.jpg]]
 
 ## 参考答案
 
@@ -37,7 +37,7 @@ source_grade: B
 
 In this reaction it cannot be a nucleophilic catalyst (attack on the carbonyl simply regenerates starting material). It cannot be a specific base (too weak even in MeCN to remove a proton from methanol). But it can act as a **general base**: as methanol attacks the carbonyl group, its proton becomes more acidic, and in the transition state chloride is able to assist by accepting this proton.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/d7cfe1bf0e1642be33bc2c689c4cac957c334c98a26b22c523efc242253f8293.jpg]]
+![[d7cfe1bf0e1642be33bc2c689c4cac957c334c98a26b22c523efc242253f8293.jpg]]
 
 **中文解析**：
 

@@ -29,7 +29,7 @@ source_grade: B
 
 **【原文】**Treatment of this epoxy-ketone with tosyl hydrazine gives a compound with the spectra shown below. What is its structure?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/d23280442b7c221d9b91ea580838e713785b9ad4c259ec1b8b00d938d5257e50.jpg]]
+![[d23280442b7c221d9b91ea580838e713785b9ad4c259ec1b8b00d938d5257e50.jpg]]
 
 m/z 138 (M⁺, 12%), 109 (56%), 95 (100%), 81 (83%), 82 (64%), and 79 (74%);
 
@@ -47,7 +47,7 @@ IR 3290, 2115, 1710 cm⁻¹;
 
 ■ G. Magnusson and S. Thorén, J. Org. Chem., 1973, 38, 1380.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/f596b3c97bb9048cfe9106f39e281ad5a14b00acfe7620ea29fee6a348e125cd.jpg]]
+![[f596b3c97bb9048cfe9106f39e281ad5a14b00acfe7620ea29fee6a348e125cd.jpg]]
 
 **中文解析**：
 

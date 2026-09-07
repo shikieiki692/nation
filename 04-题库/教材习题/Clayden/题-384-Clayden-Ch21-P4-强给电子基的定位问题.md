@@ -31,19 +31,19 @@ source_grade: B
 **【原文】**
 Draw mechanisms for these reactions and explain the positions of substitution.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/0f1b8916e5e8e9c453cd9b781545b33121d35de3a5763adc52033d1824aa8a25.jpg]]
+![[0f1b8916e5e8e9c453cd9b781545b33121d35de3a5763adc52033d1824aa8a25.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/e57f329e3e1e3b436f9e096406953f580da3f44f5d1f07c44d0947d639ad1d22.jpg]]
+![[e57f329e3e1e3b436f9e096406953f580da3f44f5d1f07c44d0947d639ad1d22.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The OH group has a lone pair of electrons and dominates reactivity and selectivity. Steric hindrance favours the para product in the first reaction. The bromination has to occur ortho to the phenol as the para position is blocked. The second example has two Friedel-Crafts alkylations with tertiary alkyl halides. The first occurs para to bromine, a deactivating but ortho, para-directing group, preferring para because of steric hindrance. The second is a cyclization -- the new ring cannot stretch any further than the next atom.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/d4def8251719e8f5571500266fcdf5eaff78cbfa640d8fb210b7bed3c3b80b0b.jpg]]
+![[d4def8251719e8f5571500266fcdf5eaff78cbfa640d8fb210b7bed3c3b80b0b.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/57528e33fcd9add78ecf7ba2524efb74ddbcc4d5d9397234a6ba3e1246c12fc6.jpg]]
+![[57528e33fcd9add78ecf7ba2524efb74ddbcc4d5d9397234a6ba3e1246c12fc6.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/e12fae00ca0224bad2e23aeda2384a4e405522c17b7c98787d5c4945e3c83541.jpg]]
+![[e12fae00ca0224bad2e23aeda2384a4e405522c17b7c98787d5c4945e3c83541.jpg]]
 
 **中文解析**：
 

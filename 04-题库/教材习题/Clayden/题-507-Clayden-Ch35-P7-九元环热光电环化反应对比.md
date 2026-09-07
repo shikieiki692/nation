@@ -31,7 +31,7 @@ source_grade: B
 
 **【原文】**This problem concerns the structure and chemistry of an unsaturated nine-membered ring. Comment on the structure. Explain its different behaviour under thermal or photochemical conditions. Comment on the structure. Explain its different behaviour under thermal or photochemical conditions.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/becfb50358b82c378fd0d7b7d53831fc71fcdf3acba71717cc22802103ca6c0f.jpg]]
+![[becfb50358b82c378fd0d7b7d53831fc71fcdf3acba71717cc22802103ca6c0f.jpg]]
 
 **原文题目**：This problem concerns the structure and chemistry of an unsaturated nine-membered ring. Comment on the structure. Explain its different behaviour under thermal or photochemical conditions.
 
@@ -41,7 +41,7 @@ source_grade: B
 
 This was an investigation into the aromaticity of the starting material by A. G. Anastassiou and J. H. Gebrian, Tetrahedron Lett., 1969, 5239.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/b43b638e5b249e91af1980280fae7f079b5a20024e3e138978087006a36907a1.jpg]]
+![[b43b638e5b249e91af1980280fae7f079b5a20024e3e138978087006a36907a1.jpg]]
 
 **中文解析**：
 

@@ -27,7 +27,7 @@ source_grade: B
 
 Give a mechanism for the formation of this silylated ene-diol and explain why the Me₃SiCl is necessary.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/7d9b115de80b46feb2f08467971c6e7d9e979c7cea00b0dfa81910a313799fc6.jpg]]
+![[7d9b115de80b46feb2f08467971c6e7d9e979c7cea00b0dfa81910a313799fc6.jpg]]
 
 **原文题目**：Give a mechanism for the formation of this silylated ene-diol and explain why the Me₃SiCl is necessary.
 
@@ -35,11 +35,11 @@ Give a mechanism for the formation of this silylated ene-diol and explain why th
 
 **Answer (English)**: This is an acyloin condensation linking radicals derived from esters by electron donation from a dissolving metal (here sodium). If the esters can form enolates, the addition of Me₃SiCl protects against that problem by removing the MeO⁻ by-product.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/79e64a0afcf1d39d6fd6d577a5d8f148b90f343d9fc97d664473bd621680ae08.jpg]]
+![[79e64a0afcf1d39d6fd6d577a5d8f148b90f343d9fc97d664473bd621680ae08.jpg]]
 
 The first product is a very electrophilic 1,2-dione and it accepts electrons from sodium atoms even more readily than do the original esters. The product is an ene diolate that is also silylated under the reaction conditions.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/dc0b5884a6900f8896ee2b87560bfbfa3a68923ed5327887c1fcf3cb4fe7de41.jpg]]
+![[dc0b5884a6900f8896ee2b87560bfbfa3a68923ed5327887c1fcf3cb4fe7de41.jpg]]
 
 **中文解析**：
 

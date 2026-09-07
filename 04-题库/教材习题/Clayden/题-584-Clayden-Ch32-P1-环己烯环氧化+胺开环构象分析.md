@@ -27,17 +27,17 @@ source_grade: B
 
 Explain how the stereo- and regio-chemistry of these reactions are controlled. Why is the epoxidation only moderately diastereoselective, and why does the amine attack where it does?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/eb4a0d35db9ae3d354da3ce8d679036aa0da8ab0040cbace239eab8e0db36eb2.jpg]]
+![[eb4a0d35db9ae3d354da3ce8d679036aa0da8ab0040cbace239eab8e0db36eb2.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The conformation of the cyclohexene places the ester group in an equatorial position, almost in the plane of the alkene, so it offers only slight steric hindrance. The opening of the epoxide is dominated by conformation: approach a would give a twist-boat product but approach b gives the chair cyclohexane observed.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/4efab3b5db17512718409733054ccc7f3fe18f49e862994d8c90f230058c5dc6.jpg]]
+![[4efab3b5db17512718409733054ccc7f3fe18f49e862994d8c90f230058c5dc6.jpg]]
 
 Before cyclization, the compound must go into a boat form so that the amine and the ester can approach one another. This boat is fixed in the final bicyclic structure. The cyclization does not affect the stereochemistry.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/272f67da90fb54485b77e1c665aee31cb791e0cb4daf5ccae45a96201d7788e5.jpg]]
+![[272f67da90fb54485b77e1c665aee31cb791e0cb4daf5ccae45a96201d7788e5.jpg]]
 
 **中文解析**：
 

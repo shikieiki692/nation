@@ -33,15 +33,15 @@ Direct ester formation from carboxylic acids ($R^{1}CO_{2}H$) and alcohols ($R^{
 
 **Answer (English)**: The direct reaction works in acid solution as the carboxylic acid is protonated (at the carbonyl group, note) and becomes a good electrophile. Later the tetrahedral intermediate is protonated and can lose a molecule of water.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/258283506e63f255e08ce8dbf6f5fe4394fc2b6cd267938c56b2771e5e3444bc.jpg]]
+![[258283506e63f255e08ce8dbf6f5fe4394fc2b6cd267938c56b2771e5e3444bc.jpg]]
 
 In basic solution, the first thing that happens is the removal of the proton from the carboxylic acid to form a stable delocalized anion. Nucleophiles cannot attack this anion and no further reaction occurs.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/334b6dcb29452f4991b7815cee8eb65ed95a44fb16d277ff050a55924933e5f7.jpg]]
+![[334b6dcb29452f4991b7815cee8eb65ed95a44fb16d277ff050a55924933e5f7.jpg]]
 
 Acid anhydrides and acid chlorides do not have this acidic hydrogen so the alcohol attacks them readily and the base is helpful in removing the acidic proton from the intermediate. The weak base pyridine ($pK_{a}$ of the conjugate acid 5.5) is ideal. The product from the uncatalysed reaction would be HCl from the acid chloride and the base also removes that.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/929cb387babae9389fab13194503f8a67b9a60f62060709221a50bd961e2dcb9.jpg]]
+![[929cb387babae9389fab13194503f8a67b9a60f62060709221a50bd961e2dcb9.jpg]]
 
 **中文解析**：
 

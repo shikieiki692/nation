@@ -27,19 +27,19 @@ source_grade: B
 
 How many signals will there be in the ¹H NMR spectrum of each of these compounds? Estimate the chemical shifts of the signals.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/41a3fee36e3f166718e0354dc366caa9e2362270b639dded4e57f07fcd19dde4.jpg]]
+![[41a3fee36e3f166718e0354dc366caa9e2362270b639dded4e57f07fcd19dde4.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: Considerations of symmetry apply equally to ¹H and to ¹³C NMR. Different types of proton are marked with different letters:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/215d6dbaa81b119babf18e97f633031071b18f93cc6ac2e184039712294f1e00.jpg]]
+![[215d6dbaa81b119babf18e97f633031071b18f93cc6ac2e184039712294f1e00.jpg]]
 
 Estimating the chemical shift in ¹H NMR requires modifying your experience of ¹³C NMR to the narrower range of proton shifts and considering that aromatic protons are in a distinct region from alkene protons:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/5cfe74016b02e20578e280cf12eba415d6997a037b59ad5a77036b116f5ce426.jpg]]
+![[5cfe74016b02e20578e280cf12eba415d6997a037b59ad5a77036b116f5ce426.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/7ca86d6ea1d001c9635548349ef3327566fc2226816c83fba91c030d2b5210d1.jpg]]
+![[7ca86d6ea1d001c9635548349ef3327566fc2226816c83fba91c030d2b5210d1.jpg]]
 
 **中文解析**：
 

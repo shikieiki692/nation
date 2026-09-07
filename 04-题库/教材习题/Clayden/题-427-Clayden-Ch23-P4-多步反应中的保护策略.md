@@ -27,13 +27,13 @@ source_grade: B
 
 How would you carry out these reactions? In some cases more than one step may be required.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/761f29022a584420b3d84783191c29b0e2672ce65c382d0389ec3a779b6bd111.jpg]]
+![[761f29022a584420b3d84783191c29b0e2672ce65c382d0389ec3a779b6bd111.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: Every step is straightforward except the final reduction where a less reactive ester must be reduced in the presence of a more reactive ketone. Protection is the answer and an acetal is suitable:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/12c0d9c222532523654023f4d393073bfa5db53b93490053270953fdf8f2ec2b.jpg]]
+![[12c0d9c222532523654023f4d393073bfa5db53b93490053270953fdf8f2ec2b.jpg]]
 
 The final product was used to make an analogue of thromboxane, a human blood clotting agent, by M. Hayashi and group, Tetrahedron Lett., 1979, 3661.
 

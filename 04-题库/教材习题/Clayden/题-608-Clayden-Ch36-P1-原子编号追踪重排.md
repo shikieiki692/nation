@@ -28,11 +28,11 @@ source_grade: B
 
 Rearrangements by numbers: just draw a mechanism for each reaction.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/7b85d18aaeb1f64bbc09b4e835dd9977796fe772028e2ce994ef2d1fa78ca27b.jpg]]
+![[7b85d18aaeb1f64bbc09b4e835dd9977796fe772028e2ce994ef2d1fa78ca27b.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/aa30e782efbae497d517203a4df2fa950331f7a51e84bcc37c4f81e7a67d0566.jpg]]
+![[aa30e782efbae497d517203a4df2fa950331f7a51e84bcc37c4f81e7a67d0566.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/1bd19a610e2838cb84a3660bb23a905dfd552c61a94c5356c781cec270c21bd8.jpg]]
+![[1bd19a610e2838cb84a3660bb23a905dfd552c61a94c5356c781cec270c21bd8.jpg]]
 
 **原文题目**：对每个反应画出机理，通过编号追踪原子在重排前后的位置变化。
 
@@ -40,19 +40,19 @@ Rearrangements by numbers: just draw a mechanism for each reaction.
 
 **Answer (English)**: The first reaction is the preparation of Corey's 'OBO' protecting group for carboxylic acids. The Lewis acid complexes one of the oxygen atoms and all the atoms of the starting material survive in the product. Atoms 3 and 5 are easy to identify in the product and it doesn't much matter which of the CH₂ groups you label 1, 2, and 4. There is more than one reasonable mechanism.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/8f9a7c61b46a730fb11a00a1c2e5126cd8777e8f9dd058b9f4216a2220f03e3f.jpg]]
+![[8f9a7c61b46a730fb11a00a1c2e5126cd8777e8f9dd058b9f4216a2220f03e3f.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/4499906e3cc232a225bf0438da0259bf08a77b9494bbcef275ee9fea544ce5da.jpg]]
+![[4499906e3cc232a225bf0438da0259bf08a77b9494bbcef275ee9fea544ce5da.jpg]]
 
 The second reaction is even easier to work out. Atoms 2 and 3 are easy to find and they identify 1 and 4 in the product. As the compounds are acetals we must use oxonium ions and not S_N2 reactions.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/61afe9e1fc4621278a5e100acdd2c863097e7f302f2c94104d953f4be205b3dd.jpg]]
+![[61afe9e1fc4621278a5e100acdd2c863097e7f302f2c94104d953f4be205b3dd.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/cf06529711f5ed0b6b03382fb88a8250da8b21b457c4f3d8cec62e5edf4b4aaf.jpg]]
+![[cf06529711f5ed0b6b03382fb88a8250da8b21b457c4f3d8cec62e5edf4b4aaf.jpg]]
 
 The third reaction involves a cyclization. Atoms 1 and 7 clearly make the new bond and the rest of the atoms fit into place except that the bromine has gone and the alkene has moved from 7/8 to 8/9. Zinc inserts oxidatively into the C–Br bond and the mechanism follows from the nucleophilic nature of the organometallic compound.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/8ebc68d6ff35b2110eea0c8ae50704d210d2dfdd9b7c702def93f7d2504abcba.jpg]]
+![[8ebc68d6ff35b2110eea0c8ae50704d210d2dfdd9b7c702def93f7d2504abcba.jpg]]
 
 **中文解析**：
 

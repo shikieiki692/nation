@@ -30,17 +30,17 @@ source_grade: B
 
 **【原文】**Give mechanisms for these reactions, explaining the selectivity (or lack of it!) in each case.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/9dbf6bb6e38ebad729b933849e3293886151257d068f3a92386decc68ea1b1ec.jpg]]
+![[9dbf6bb6e38ebad729b933849e3293886151257d068f3a92386decc68ea1b1ec.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: One of the carbonyl groups of the anhydride must be attacked by $LiAlH_{4}$ and we need to follow that reaction through to see what happens next. The first addition of $AlH_{4}^{-}$ produces a tetrahedral intermediate that decomposes with the loss of the only possible leaving group, the carboxylate ion, to give an aldehyde. That too is quickly reduced by $AlH_{4}^{-}$ to give the hydroxy-acid as its anion, which is resistant to further reduction. In the acidic aqueous work-up, excess $LiAlH_{4}$ is instantly destroyed and the hydroxy-acid cyclizes to the lactone. The fact that the lactone is not formed under the reaction conditions is important: if it were, then it too would be reduced by the $LiAlH_{4}$.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/7d45347cad1979c1d6a4e582dc93b34eb1af637951d8ca0ff99e37ba406a556f.jpg]]
+![[7d45347cad1979c1d6a4e582dc93b34eb1af637951d8ca0ff99e37ba406a556f.jpg]]
 
 The second reaction starts similarly with the Grignard reagent adding to the ester carbonyl group and the tetrahedral intermediate losing the only possible leaving group. Again, a reactive carbonyl compound is produced: a ketone that is more electrophilic than the ester, so it adds the Grignard reagent even faster. Work-up in aqueous acid gives the diol.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/37107a39b8b6b062464f2a2e310d96c59823404f0c37b3a37861e3bb593ca397.jpg]]
+![[37107a39b8b6b062464f2a2e310d96c59823404f0c37b3a37861e3bb593ca397.jpg]]
 
 **中文解析**：
 

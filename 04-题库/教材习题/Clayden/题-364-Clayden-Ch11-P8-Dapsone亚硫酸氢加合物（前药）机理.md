@@ -30,7 +30,7 @@ source_grade: B
 
 **【原文】**In chapter 6 we described how the anti-leprosy drug dapsone could be made soluble by the formation of a 'bisulfite adduct'. Now that you know about the reactions described in chapter 11, you should be able to draw a mechanism for this reaction. The adduct is described as a 'prodrug', meaning that it is not the drug but gives rise to the drug by chemistry within the body. How might this happen?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/428ea5a97d5d4306d96d6a543614d5226f7b592e8a49d3c0f916a485e601c92b.jpg]]
+![[428ea5a97d5d4306d96d6a543614d5226f7b592e8a49d3c0f916a485e601c92b.jpg]]
 
 ## 参考答案
 
@@ -38,15 +38,15 @@ source_grade: B
 
 **The trap**: The trap is to go straight to the product by displacing hydroxide ion from the formaldehyde bisulfite adduct. Hydroxide is a very bad leaving group and reactions like this never occur.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/c916d5b1e6869a4e85cd315122fe61dbbc5696d65921ac39ff12a928e93c9aea.jpg]]
+![[c916d5b1e6869a4e85cd315122fe61dbbc5696d65921ac39ff12a928e93c9aea.jpg]]
 
 **The correct mechanism**: To avoid this trap we must use carbonyl chemistry. First we must make formaldehyde from its adduct and add it to the amino group of dapsone.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/f5730c11b8a2edb5aee972716e71c9cb7c11f82f260fd3a147ec05931fa863e7.jpg]]
+![[f5730c11b8a2edb5aee972716e71c9cb7c11f82f260fd3a147ec05931fa863e7.jpg]]
 
 Now we can form an iminium salt and add the bisulfite back into this reactive electrophile to give the final product. This is loss of carbonyl oxygen in an unusual setting as the carbonyl was not there at the start and is present only in the intermediates.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/e72deca17cb88218aca0b5efd1999d6f439326d68e77dca98e84f3b33ae42ffa.jpg]]
+![[e72deca17cb88218aca0b5efd1999d6f439326d68e77dca98e84f3b33ae42ffa.jpg]]
 
 **中文解析**：
 

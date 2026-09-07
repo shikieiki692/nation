@@ -28,7 +28,7 @@ source_grade: B
 
 One way to make cyanohydrins is illustrated here. Suggest a detailed mechanism for the process.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/11f261a8fa95d74f1dd8f4ed3cb1a449c7f5da46d84f2a38bf29a3215bdd407d.jpg]]
+![[11f261a8fa95d74f1dd8f4ed3cb1a449c7f5da46d84f2a38bf29a3215bdd407d.jpg]]
 
 **原文题目**：一种制备氰醇的方法如图所示。建议该过程的详细机理。
 
@@ -36,7 +36,7 @@ One way to make cyanohydrins is illustrated here. Suggest a detailed mechanism f
 
 **Answer (English)**: The silyl cyanide is an electrophile while the cyanide ion in the catalyst is the nucleophile. Cyanide adds to the carbonyl group and the oxyanion product is captured by silicon, liberating another cyanide ion for the next cycle.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/3422c2cf87b05665373d4346a0cbc368877d90ed0d62ac6abd736b3f6924f3c8.jpg]]
+![[3422c2cf87b05665373d4346a0cbc368877d90ed0d62ac6abd736b3f6924f3c8.jpg]]
 
 **中文解析**：
 

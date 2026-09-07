@@ -30,7 +30,7 @@ source_grade: B
 
 **【原文】**Photochemical cycloaddition of these two compounds is claimed to give the diastereoisomer shown. The chemists who did this work claimed that the stereochemistry of the adduct is simply proved by its conversion into a lactone on reduction. Comment on the validity of this deduction and explain the stereochemistry of the cycloaddition. The chemists who did this work claimed that the stereochemistry of the adduct is simply proved by its conversion into a lactone on reduction. Comment on the validity of this deduction and explain the stereochemistry of the cycloaddition.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/0111735922496617c747ba0b6df5d03eb9caa645798bdd2e7fdad104ba011c4c.jpg]]
+![[0111735922496617c747ba0b6df5d03eb9caa645798bdd2e7fdad104ba011c4c.jpg]]
 
 **原文题目**：Photochemical cycloaddition of these two compounds is claimed to give the diastereoisomer shown. The chemists who did this work claimed that the stereochemistry of the adduct is simply proved by its conversion into a lactone on reduction. Comment on the validity of this deduction and explain the stereochemistry of the cycloaddition.
 
@@ -38,11 +38,11 @@ source_grade: B
 
 **Answer (English)**: Either of the two starting materials could absorb the light to provide the SOMO for the cycloaddition. This does not affect the stereochemistry of the reaction. There is no endo effect in [2+2] photocycloadditions so the molecules simply come together with the rings arranged in an exo fashion to give the least steric hindrance.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/a8ff05d90d3c3dba7ea6d9b3d14c591e1a6ce66d8ecf71d132b0ab5dc4b8d2a4.jpg]]
+![[a8ff05d90d3c3dba7ea6d9b3d14c591e1a6ce66d8ecf71d132b0ab5dc4b8d2a4.jpg]]
 
 The stereochemistry is easy to explain as the molecule is folded in such a way that only the bottom face of the carbonyl group is open to nucleophilic attack. The oxyanion produced can immediately cyclize to form the lactone. Clearly this is possible only if the O⁻ group is up but also only if the CO₂Me groups are on the same side of the middle four-membered ring as the O⁻ group. The formation of the lactone does indeed prove the stereochemistry.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/c16cb99eaf8e06047254c0a63ac28e2317d6bcb066788000fbe457d7fdb08176.jpg]]
+![[c16cb99eaf8e06047254c0a63ac28e2317d6bcb066788000fbe457d7fdb08176.jpg]]
 
 **中文解析**：
 

@@ -31,13 +31,13 @@ source_grade: B
 **【原文】**
 Just for fun, you might try and work out just how many diastereoisomers there are of inositol and how many of them are chiral.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/07c8919f2afa78922e98d354fdfad9566853ea136de4b6d5a063a60bb408697e.jpg]]
+![[07c8919f2afa78922e98d354fdfad9566853ea136de4b6d5a063a60bb408697e.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: There are eight diastereoisomers altogether and, remarkably, only one is chiral. All the others have at least one plane of symmetry.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/6f24f96f14dfe4c2f39734066d49b07b99f602cc4d102b467e86a93d6704c0af.jpg]]
+![[6f24f96f14dfe4c2f39734066d49b07b99f602cc4d102b467e86a93d6704c0af.jpg]]
 
 **中文解析**：
 

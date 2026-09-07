@@ -27,7 +27,7 @@ source_grade: B
 
 The aldehyde and the ketone below are self-condensed with aqueous NaOH so that an unsaturated carbonyl compound is the product in both cases. Give a structure for each product and explain why you think this product is formed.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/8cb024c5d4922cc8e33084c49b66616a209881d637d5871f61e8843670741c9a.jpg]]
+![[8cb024c5d4922cc8e33084c49b66616a209881d637d5871f61e8843670741c9a.jpg]]
 
 **原文题目**：The aldehyde and the ketone below are self-condensed with aqueous NaOH so that an unsaturated carbonyl compound is the product in both cases. Give a structure for each product and explain why you think this product is formed.
 
@@ -35,11 +35,11 @@ The aldehyde and the ketone below are self-condensed with aqueous NaOH so that a
 
 **Answer (English)**: In both cases only one compound can form an enolate and only one compound—the same one—can be the electrophile. This is very obvious with the aldehyde.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/678da7412dce53d686b158deb48c1e02fa78269f1b0ceaaad77b95f8860a0506.jpg]]
+![[678da7412dce53d686b158deb48c1e02fa78269f1b0ceaaad77b95f8860a0506.jpg]]
 
 With the ketone, there is a question of regioselectivity in enolate formation, but the aldol product can lose water only if the enolate from the methyl group is the nucleophile. If we draw both enolates and combine them with the ketone in an aldol reaction, it is clear that one can dehydrate as it has two enolizable H atoms but the other cannot dehydrate as it has no H atoms on the vital carbon atom (in grey). The mechanism is the same as the one with the aldehyde and the elimination in both cases is by the E1cB mechanism.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/2e99c1d0f522470dc43a63ef1694ad5d984ad7b52f010e132c0314fe5c09e082.jpg]]
+![[2e99c1d0f522470dc43a63ef1694ad5d984ad7b52f010e132c0314fe5c09e082.jpg]]
 
 **中文解析**：
 

@@ -29,7 +29,7 @@ source_grade: B
 
 **【原文】**Heating this compound to 560 °C gives two products with the spectroscopic data shown below. What are they and how are they formed?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/c3aea0ae5a4f54497de81eff1a5be14ee6164afde4066568c16040804fea4e41.jpg]]
+![[c3aea0ae5a4f54497de81eff1a5be14ee6164afde4066568c16040804fea4e41.jpg]]
 
 A has IR 1640 cm⁻¹; m/z 138 (100%) and 140 (33%), δ_H (ppm) 7.1 (4H, s), 6.5 (1H, dd, J 17, 11 Hz), 5.5 (1H, dd, J 17, 2 Hz), and 5.1 (1H, dd, J 11, 2 Hz).
 
@@ -39,15 +39,15 @@ B has IR 1700 cm⁻¹; m/z 111 (45%), 113 (15%), 139 (60%), 140 (100%), 141 (20%
 
 **Answer (English)**: Compound A contains chlorine (m/z 138/140, 3:1) and that fits C₈H₇Cl. It still has the 1,4-disubstituted benzene ring (four aromatic Hs) and it is an alkene (IR 1640) with three hydrogens on it with characteristic coupling. We can write the structure immediately as there is no choice. The four aromatic hydrogens evidently have the same chemical shift.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/3a38264465510e5a41becc0a5fb1f331d2c861877a71902db7fd198ff41679c4.jpg]]
+![[3a38264465510e5a41becc0a5fb1f331d2c861877a71902db7fd198ff41679c4.jpg]]
 
 Compound B has m/z 140/142, 3:1 and a carbonyl group (at 1700 cm⁻¹) which fits C₇H₅ClO and looks like an aldehyde (δ_H 9.9). It still has the disubstituted benzene. The structure is even easier this time!
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/c5b5ea9e7452b41250c1b56f8db2e2ce4020069057668f8f70279f741bbd20bc.jpg]]
+![[c5b5ea9e7452b41250c1b56f8db2e2ce4020069057668f8f70279f741bbd20bc.jpg]]
 
 So how are these products formed? At such high temperatures, σ-bonds break and the weakest bonds in the molecule are the C–C and C–O bonds in the four-membered ring next to the benzene ring. Breaking these bonds releases strain and allows one of the radical products to be secondary and delocalized.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/120720de6fa79292dc0e3b348823e1f5341cf160a3579cea2e52ebac3bb770eb.jpg]]
+![[120720de6fa79292dc0e3b348823e1f5341cf160a3579cea2e52ebac3bb770eb.jpg]]
 
 **中文解析**：
 

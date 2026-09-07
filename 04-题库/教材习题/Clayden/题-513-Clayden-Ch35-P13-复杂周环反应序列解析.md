@@ -30,7 +30,7 @@ source_grade: B
 
 **【原文】**Treatment of cyclohexa-1,3-dione with this acetylenic amine gives a stable enamine in good yield. Refluxing the enamine in nitrobenzene gives a pyridine after a remarkable series of reactions. Fill in the details, give mechanisms for the reaction, structures for the intermediates, and suitable explanations for each pericyclic step. A mechanism is not required for the last step as nitrobenzene simply acts as an oxidant.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/4fcee61561ea230343a597e24c2ea970f4e0675e1ebb5b4a7bcfbea45e7ae21d.jpg]]
+![[4fcee61561ea230343a597e24c2ea970f4e0675e1ebb5b4a7bcfbea45e7ae21d.jpg]]
 
 ## 参考答案
 
@@ -38,17 +38,17 @@ source_grade: B
 
 This enamine is unusually stable and easy to form because it is a vinylogous amide (see p. 512 of the textbook).
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/769c31b3b4ae589a2e4e17cd670dbd2910081409c61371f55eba21046642e784.jpg]]
+![[769c31b3b4ae589a2e4e17cd670dbd2910081409c61371f55eba21046642e784.jpg]]
 
 The cascade of reactions in hot nitrobenzene starts with a [3,3]-sigmatropic rearrangement that is unusual in that it forms an allene but is otherwise straightforward. To get to the next intermediate, we must go from the ketone to the enol and back again, but with the alkene now in conjugation.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/fad8f9706b42c2101699c1974a61d4d22b1210513a5335942ca2a62c48bc9c30.jpg]]
+![[fad8f9706b42c2101699c1974a61d4d22b1210513a5335942ca2a62c48bc9c30.jpg]]
 
 K. Berg-Nielsen and L. Skattebøl, Acta Chem. Scand., 1978, B32B, 553.
 
 Now we can transfer a proton from nitrogen to the middle of the allene. This is formally a [1,5]-H shift and is, of course, allowed, but it may be an ionic reaction as nitrogen is involved. This gives a diene that can twist round for a six-electron electrocyclic reaction. This is no doubt disrotatory but we can't tell as no stereochemistry is involved.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/952dce39597c8f3d6dcc40220eb432372c443c3307ccac1d93a9208f2280b2a5.jpg]]
+![[952dce39597c8f3d6dcc40220eb432372c443c3307ccac1d93a9208f2280b2a5.jpg]]
 
 **中文解析**：
 

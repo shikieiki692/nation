@@ -30,21 +30,21 @@ source_grade: B
 
 **【原文】**In the following reaction sequence, the stereochemistry of mandelic acid is transmitted to a new hydroxy-acid by stereochemically controlled reactions. Give mechanisms for each reaction and state whether it is stereospecific or stereoselective. Offer some rationalization for the creation of new stereogenic centres in the first and last reactions.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/4880bf3de26bb7e329eeb8844d400458e5ac2b7aab6120d3c110faa7ea6e7c46.jpg]]
+![[4880bf3de26bb7e329eeb8844d400458e5ac2b7aab6120d3c110faa7ea6e7c46.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The first reaction amounts to cyclic acetal formation except that one of the 'alcohols' is a carboxylic acid. The reaction is stereospecific (no change) at the original chiral centre and stereoselective at the new one. The second reaction creates a lithium enolate and alkylates it. It is again stereospecific at the unchanged chiral centre and stereoselective at the new one. Finally, acetal hydrolysis preserves the new quaternary centre unchanged (stereospecific) by a mechanism that is the reverse of the first step.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/7e2f46941536f07421b5678842768a88b008237c976ed50bbb324e0b1c333df4.jpg]]
+![[7e2f46941536f07421b5678842768a88b008237c976ed50bbb324e0b1c333df4.jpg]]
 
 Now, as far as the rationalization is concerned, the first step takes place through a sequence of reversible reactions and therefore under thermodynamic control so the most stable product will be formed. It may seem surprising that this should be the cis compound, but the conformation of this chair-like five-membered ring prefers to have the two substituents pseudoequatorial.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/1cba4bafc5f47f7a30fa4560c434dbce569bf9205c7a81e23f158f172cf0ba52.jpg]]
+![[1cba4bafc5f47f7a30fa4560c434dbce569bf9205c7a81e23f158f172cf0ba52.jpg]]
 
 The alkylation is under kinetic control and, as a lithium enolate has more or less a flat ring, the alkyl halide approaches the opposite face to the t-Bu group. It has to approach orthogonally to the ring as it must overlap with the p orbital of the enolate.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/5bab13a343a40a8176a890382682f108c6e43b8abc798607a07b8961a3b25a9d.jpg]]
+![[5bab13a343a40a8176a890382682f108c6e43b8abc798607a07b8961a3b25a9d.jpg]]
 
 This is Seebach's clever method of preserving the knowledge of a chiral centre while it is destroyed in a reaction. First a temporary centre (at the t-butyl group) is created in a stereoselective reaction; the original centre is destroyed by enolization but the temporary centre can be used to re-create it.
 

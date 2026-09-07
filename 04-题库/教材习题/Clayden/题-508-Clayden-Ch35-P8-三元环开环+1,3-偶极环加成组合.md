@@ -30,7 +30,7 @@ source_grade: B
 
 **【原文】**Propose a mechanism for this reaction that accounts for the stereochemistry of the product.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/0a2476fa9ebc6471764d0578ab0630a830583b27fd3655fd23b9d04791463b27.jpg]]
+![[0a2476fa9ebc6471764d0578ab0630a830583b27fd3655fd23b9d04791463b27.jpg]]
 
 **原文题目**：Propose a mechanism for this reaction that accounts for the stereochemistry of the product.
 
@@ -40,7 +40,7 @@ source_grade: B
 
 This extensive study of the opening of three-membered heterocyclic rings came from Huisgen's group in Munich (J. Chem. Soc., Chem. Commun., 1971, 1187, 1188, 1190, and 1192).
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/f8fb02eb68aac31e2c120d2fbe91ecd8b40462893847efa6126e16e652bbcd08.jpg]]
+![[f8fb02eb68aac31e2c120d2fbe91ecd8b40462893847efa6126e16e652bbcd08.jpg]]
 
 **中文解析**：
 

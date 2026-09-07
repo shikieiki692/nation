@@ -27,7 +27,7 @@ source_grade: B
 
 Give mechanisms for these reactions, explaining the role of sulfur.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/489b2bb6a562c6a2772aec92a1d54a9b567cd10dc05d72acb11107c81b8edef9.jpg]]
+![[489b2bb6a562c6a2772aec92a1d54a9b567cd10dc05d72acb11107c81b8edef9.jpg]]
 
 **原文题目**：Give mechanisms for these reactions, explaining the role of sulfur.
 
@@ -35,13 +35,13 @@ Give mechanisms for these reactions, explaining the role of sulfur.
 
 **Answer (English)**: The first reaction is an acetal exchange controlled by entropy: three molecules go in and four come out (the product, two molecules of methanol and one of water).
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/5519e619c41bfe25fcb3faaf0eb663960acea5a0d3781b9c42044d90114806ef.jpg]]
+![[5519e619c41bfe25fcb3faaf0eb663960acea5a0d3781b9c42044d90114806ef.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/69a8fae5949cb98cfde4038593ebe365631704a9d3f2c31498c4f32c62fc5ed1.jpg]]
+![[69a8fae5949cb98cfde4038593ebe365631704a9d3f2c31498c4f32c62fc5ed1.jpg]]
 
 Now the sulfur atoms work to stabilize an anion (organolithium) formed by deprotonation. Alkylation and hydrolysis with a mercury catalyst gives the product.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/8df5fd8645d3147b8294c2ea604d464c642e6f2e9eda3a2b1350a2be948492c9.jpg]]
+![[8df5fd8645d3147b8294c2ea604d464c642e6f2e9eda3a2b1350a2be948492c9.jpg]]
 
 **中文解析**：
 

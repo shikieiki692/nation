@@ -34,13 +34,13 @@ source_grade: B
 B has IR: 1730, 1710 cm⁻¹, δH 9.4 (1H, s), 2.6 (2H, s), 2.0 (3H, s), and 1.0 (6H, s).
 C has IR: 1710 cm⁻¹, δH 7.3 (1H, d, J 5.5 Hz), 6.8 (1H, d, J 5.5 Hz), 2.1 (2H, s), and 1.15 (6H, s).
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/8e621ca4c608871122843dddb1d69566e4476069cc1901eeb3258d1803e9f6ed.jpg]]
+![[8e621ca4c608871122843dddb1d69566e4476069cc1901eeb3258d1803e9f6ed.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: B clearly has aldehyde and ketone functional groups with nothing but singlets in the NMR. On the other hand C has a cis disubstituted alkene with a small (and therefore cis) J value and is a cyclopentenone.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/d63005b846a137c50771508d133e9486b580b76a5d674ae8e9e871cec0656110.jpg]]
+![[d63005b846a137c50771508d133e9486b580b76a5d674ae8e9e871cec0656110.jpg]]
 
 **中文解析**：
 

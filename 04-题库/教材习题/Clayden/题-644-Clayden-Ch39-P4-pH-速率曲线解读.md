@@ -30,17 +30,17 @@ source_grade: B
 
 **【原文】**Between pH 2 and 7 the rate of hydrolysis of this ester is independent of pH. At pH 5 the rate is proportional to the concentration of acetate ion (AcO⁻) in the buffer solution and the reaction goes twice as fast in H₂O as in D₂O. Suggest a mechanism for the pH-independent hydrolysis. Above pH 7 the rate increases with pH. What kind of change is this?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/ac407f8b5a5bf86a37a771b7d9b1ed5f313aa063a0d38bcb959d861ca32b133f.jpg]]
+![[ac407f8b5a5bf86a37a771b7d9b1ed5f313aa063a0d38bcb959d861ca32b133f.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: Above pH 7, the rate increases with pH — this is the normal specific base-catalysed reaction in which hydroxide ion attacks the carbonyl group.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/e5e78e05cfd71694e8be780a512c0746b2ff8437859ddaba7b0db47916b16827.jpg]]
+![[e5e78e05cfd71694e8be780a512c0746b2ff8437859ddaba7b0db47916b16827.jpg]]
 
 This ester is special: the leaving group is a thiol (pKₐ ≈ 8) not an alcohol (pKₐ ≈ 16), so the thiolate is a much better leaving group. The CF₃ group is very electron-withdrawing so nucleophilic attack is unusually fast. This explains the pH-independent region. Acetate acts as a general base catalyst, not a nucleophile — the solvent deuterium isotope effect (k(H₂O)/k(D₂O) = 2) supports this. The change at pH 7 is a change of mechanism as the faster of two competing mechanisms takes over.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/79947523f1771173819ee06f8c4b3489055c7560e3fc070e2ad9db45bbfbddd4.jpg]]
+![[79947523f1771173819ee06f8c4b3489055c7560e3fc070e2ad9db45bbfbddd4.jpg]]
 
 **中文解析**：
 

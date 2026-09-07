@@ -31,7 +31,7 @@ source_grade: B
 
 **【原文】**Give mechanisms for these reactions, explaining the stereochemistry.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/a3c43ed702a619f0f567d63a60dfd7f31de8aaa9d80d9dcfbfb510fdccea065e.jpg]]
+![[a3c43ed702a619f0f567d63a60dfd7f31de8aaa9d80d9dcfbfb510fdccea065e.jpg]]
 
 **原文题目**：Give mechanisms for these reactions, explaining the stereochemistry.
 
@@ -41,17 +41,17 @@ source_grade: B
 
 **Reaction 1 (intramolecular)**: Treatment of acid chlorides with tertiary amines produces ketenes. In this case an intramolecular [2+2] cycloaddition is possible. The stereochemistry is trivial: a cis ring junction is the only one possible.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/3a745345bd6a23ee4a1e76c1dd0f9c40fc02cdfff460b17c5611edb53b368726.jpg]]
+![[3a745345bd6a23ee4a1e76c1dd0f9c40fc02cdfff460b17c5611edb53b368726.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/9d302891b7e0b03a7f197dcbb90f26c0dd295838105134f3d9a812dee9460531.jpg]]
+![[9d302891b7e0b03a7f197dcbb90f26c0dd295838105134f3d9a812dee9460531.jpg]]
 
 **Reaction 2 (intermolecular)**: If a more reactive alkene (in this case the electron-donating O makes the enol ether more reactive) is available, the ketene adds to that instead. Note that the alkene must be present as the ketene is generated. The mechanism and part of the stereochemistry are simple. Because the cyclic alkene has cis stereochemistry, the two hydrogens on the six-membered ring must be cis in the product. The regiochemistry arises because the alkene is an enol ether and the large coefficient in its HOMO interacts with the central atom of the ketene, the one with the larger LUMO coefficient.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/9a5e2b957eea46212bc0b8846011c069fc296628c79fc825c115a1f6b0ef1dbb.jpg]]
+![[9a5e2b957eea46212bc0b8846011c069fc296628c79fc825c115a1f6b0ef1dbb.jpg]]
 
 The stereochemistry at the remaining centre comes from the way the two molecules approach one another. The two components are orthogonal and the dotted lines in the middle diagram below show how the new bonds are formed. The carbonyl group of the ketene will prefer to be in the middle of the ring and the side chain of the ketene will bend down away from the top ring. These [2+2] thermal cycloadditions normally give an all cis product.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/3bb11903c85d93514d20ff4d2b1e8b5985fad6fe2d5e2d3b11c3a5a3ce02d2d8.jpg]]
+![[3bb11903c85d93514d20ff4d2b1e8b5985fad6fe2d5e2d3b11c3a5a3ce02d2d8.jpg]]
 
 **中文解析**：
 

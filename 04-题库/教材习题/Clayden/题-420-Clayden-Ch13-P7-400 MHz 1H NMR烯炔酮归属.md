@@ -29,9 +29,9 @@ source_grade: B
 
 **【原文】**Assign the 400 MHz ¹H NMR spectrum of this enynone as far as possible, justifying both chemical shifts and coupling patterns.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/385e95b78e445986b879c0f80c950c15e9fff8f5eec0423633b7ee345a986134.jpg]]
+![[385e95b78e445986b879c0f80c950c15e9fff8f5eec0423633b7ee345a986134.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/dea981c6b4856d752e37289e337da5a4bc4a637d256e4627d5a175dd0291211d.jpg]]
+![[dea981c6b4856d752e37289e337da5a4bc4a637d256e4627d5a175dd0291211d.jpg]]
 
 ## 参考答案
 
@@ -51,7 +51,7 @@ source_grade: B
 
 Three protons in the alkene region, five CH₂ groups and one solitary proton on the alkyne. In the alkene region, the multiplet is H² which couples to the CH₂ at C3 and the other two alkene Hs. On C1, H¹ᵃ has a large trans coupling (16 Hz) to H² while H¹ᵇ has a smaller cis coupling (10 Hz).
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/d3d0e846be51e0e2aa000a93f48af0eaab9dc752dc99d6f62a32b611fd0e64cb.jpg]]
+![[d3d0e846be51e0e2aa000a93f48af0eaab9dc752dc99d6f62a32b611fd0e64cb.jpg]]
 
 Of the five CH₂ groups, the quintet at small chemical shift must be C7. Those at C4, C6, and C8 have two neighbours and are basically triplets, but that at C3 couples to three protons and must be the quartet at 2.32 ppm.
 

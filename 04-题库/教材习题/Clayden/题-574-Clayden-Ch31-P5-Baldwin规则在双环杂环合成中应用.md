@@ -30,7 +30,7 @@ source_grade: B
 
 **【原文】**Draw a mechanism for the following multistep reaction. Do the cyclization steps follow Baldwin's rules?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/4fb406f4386b74070a7fea8c00d4e62affe1ebbb1fc1cc4645dcba2c33b6757a.jpg]]
+![[4fb406f4386b74070a7fea8c00d4e62affe1ebbb1fc1cc4645dcba2c33b6757a.jpg]]
 
 **原文题目**：Draw a mechanism for the multistep reaction. Do the cyclization steps follow Baldwin's rules?
 
@@ -38,7 +38,7 @@ source_grade: B
 
 **Answer (English)**: Hydrolysis of the acetal releases an aldehyde and Mannich-style condensation leads to the product. The iminium ion forms by (favoured) 5-exo-trig attack on the aldehyde. The cyclization step in which the enol attacks the iminium ion is 6-endo-trig and is thus also favoured. By folding the molecule into a chair a reasonable overlap between the required p orbitals is possible.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/05d20479b37e2a4b21a627cee498df5a3cd0364f637e35ce351dd273d9bc67ea.jpg]]
+![[05d20479b37e2a4b21a627cee498df5a3cd0364f637e35ce351dd273d9bc67ea.jpg]]
 
 **中文解析**：
 

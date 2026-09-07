@@ -30,23 +30,23 @@ source_grade: B
 
 **【原文】**Give mechanisms for these reactions, commenting on the fragmentation.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/448be5c1ecf4ab23c11ea9b3f813be285138989ef8465794dec739efeb1280b4.jpg]]
+![[448be5c1ecf4ab23c11ea9b3f813be285138989ef8465794dec739efeb1280b4.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The first step is enamine formation and the second is conjugate addition. This appears to lead to a dead end as we cannot find a way to make the intermediate from the product.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/9e7080a0b62b0fa6747d293855b34670c985bd4a7432daadeb2d180cc171d168.jpg]]
+![[9e7080a0b62b0fa6747d293855b34670c985bd4a7432daadeb2d180cc171d168.jpg]]
 
 The answer is to exchange the enamine of the ketone with the enamine of the aldehyde. Under the conditions, enamine formation is reversible and there are various ways you could draw details. Cyclization of this compound now gives the intermediate we are looking for.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/8ce5562ff784fe52ef18e8c2ea7f7f446ab94250966f8bc1f2c00bc02698178e.jpg]]
+![[8ce5562ff784fe52ef18e8c2ea7f7f446ab94250966f8bc1f2c00bc02698178e.jpg]]
 
 The last two diagrams show where the stereochemistry comes from. The final product has a chair six-membered ring. The 1,3-bridge on the bottom of this ring must be diaxial or it cannot reach round. The pyrrolidine is equatorial and the five-membered ring must be cis fused. No doubt the stereochemistry as well as the intermediates are under thermodynamic control.
 
 Finally the fragmentation itself. Methylation of the nitrogen makes it into a leaving group and addition of hydroxide to the ketone provides the electronic push. Notice that the C–N⁺ bond, the C–C bond being fragmented, and a lone pair on the O⁻ group are all parallel. The stereochemistry is already there in the intermediate.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/3f53a8cf30677ea92bfb1d8660899688864e1e5941e7318929101929fd301812.jpg]]
+![[3f53a8cf30677ea92bfb1d8660899688864e1e5941e7318929101929fd301812.jpg]]
 
 **中文解析**：
 

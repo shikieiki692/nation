@@ -31,13 +31,13 @@ source_grade: B
 **【原文】**
 Hydrolysis of the tricyclic bromide below in water gives an alcohol. What is the conformation of the bromide and what will be the stereochemistry of the alcohol?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/6b6cd5ce07ed22a4d7a7bac9bede75e4a63da1d3bae2e8bad7e839b3144b492c.jpg]]
+![[6b6cd5ce07ed22a4d7a7bac9bede75e4a63da1d3bae2e8bad7e839b3144b492c.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The mechanism of the reaction is obviously SN1 as it is a tertiary bromide and the reagent is water, a weak nucleophile. The water molecule can approach from either side of the planar cation intermediate. There is a unique conformation of the starting material with all three rings in chair conformations and this will be much preferred in the product. The reaction goes with retention as it is under thermodynamic control.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/772bb1b2f3b55f0ffaf5df00208d7350a1e2742cb25080097f27d928959765d7.jpg]]
+![[772bb1b2f3b55f0ffaf5df00208d7350a1e2742cb25080097f27d928959765d7.jpg]]
 
 **中文解析**：
 

@@ -31,7 +31,7 @@ source_grade: B
 **【原文】**
 This compound is needed as a synthetic precursor to the drug etalocib. Suggest a synthesis. Hint: consider using nucleophilic aromatic substitution.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/be943425542323581bdee9446b83aab5ebcfba062331fd2ad6f3cd42cf2e1844.jpg]]
+![[be943425542323581bdee9446b83aab5ebcfba062331fd2ad6f3cd42cf2e1844.jpg]]
 
 ## 参考答案
 
@@ -39,11 +39,11 @@ This compound is needed as a synthetic precursor to the drug etalocib. Suggest a
 
 There are lots of ortho relationships in this compound. Somehow we have to join the two aromatic rings together to make an ether. This can only really be done by nucleophilic aromatic substitution, so we need to look for an electron-withdrawing group to help us. The nitrile is in the right place, provided we have a leaving group (such as fluoride) ortho to it. So our last step can be as shown:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/19461c02b91807f33234ed44b9fbcc31b6309fc87a73f61c7e5b8d009c65ba96.jpg]]
+![[19461c02b91807f33234ed44b9fbcc31b6309fc87a73f61c7e5b8d009c65ba96.jpg]]
 
 To make the left hand ring we have to consider what methods are available to introduce the three substituents. It's always easier to add C-substituents than O-substituents, so we might consider how to alkylate the phenol below. The solution used was to use ortholithiation, making the dianion with two equivalents of BuLi and making use of the fact that two O substituents guide the BuLi in to deprotonate the position between them.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/6937d59aa9a0f0436a73a413bdaee86a84ee41264a14cc6ff43ce98c2aa3322e.jpg]]
+![[6937d59aa9a0f0436a73a413bdaee86a84ee41264a14cc6ff43ce98c2aa3322e.jpg]]
 
 **中文解析**：
 

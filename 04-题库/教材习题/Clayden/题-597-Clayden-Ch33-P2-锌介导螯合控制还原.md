@@ -27,15 +27,15 @@ source_grade: B
 
 Explain the stereochemistry shown in this sequence of reactions.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/2d2e63179ef58eee1fd2cc7b5bfd28b6813a21dcddcbb42fad0c0462a4925807.jpg]]
+![[2d2e63179ef58eee1fd2cc7b5bfd28b6813a21dcddcbb42fad0c0462a4925807.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/715bb26b2ba58ae0dae45241b86661f598f7b53befedcf26f4df4eb5f387c337.jpg]]
+![[715bb26b2ba58ae0dae45241b86661f598f7b53befedcf26f4df4eb5f387c337.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: In both reductions the zinc atom is coordinated to the oxygen of the nearer functional group (CO₂Bn in the first and OH in the second) and the oxygen of the ketone being reduced. This fixes the conformation of the molecule and the borohydride ion attacks from the less hindered side. Anti stereochemistry results in both cases.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/b32ed5116ab692ac209695512ba9b8d1142a3608df9ec442379a7dc35548ce95.jpg]]
+![[b32ed5116ab692ac209695512ba9b8d1142a3608df9ec442379a7dc35548ce95.jpg]]
 
 **中文解析**：
 

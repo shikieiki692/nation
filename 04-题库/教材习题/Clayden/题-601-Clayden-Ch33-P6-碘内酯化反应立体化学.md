@@ -27,13 +27,13 @@ source_grade: B
 
 Explain how the stereochemistry of this epoxide is controlled.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/3d625c680cf5dde9466b934f88f5ee5f57811fe0ebd415fa7d523a672d0e2c91.jpg]]
+![[3d625c680cf5dde9466b934f88f5ee5f57811fe0ebd415fa7d523a672d0e2c91.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The bicarbonate (NaHCO₃) is a strong enough base to remove the proton from the carboxylic acid. Iodine attacks the alkene reversibly to give a mixture of diastereoisomers of the iodonium ion. If the I⁺ and Me groups are on the same side of the chain, the carboxylate group can attack the iodonium ion from the back and set up a trans iodolactone. The iodolactone is cleaved by methoxide and the oxyanion displaces iodide to give the epoxide.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/8dc392c622ebb4685eaf37ac04f3702a41d896160e78dc9e8919d4055ec1a9e4.jpg]]
+![[8dc392c622ebb4685eaf37ac04f3702a41d896160e78dc9e8919d4055ec1a9e4.jpg]]
 
 **中文解析**：
 

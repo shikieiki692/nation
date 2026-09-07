@@ -30,17 +30,17 @@ source_grade: B
 
 **【原文】**Suggest a mechanism for this fragmentation and explain the stereochemistry of the alkenes in the product. This is a tricky problem, but find the mechanism and the stereochemistry will follow.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/543e905c5cda07eb0007eeaa5b4abcfced4e2194644b951266443269ad429e0e.jpg]]
+![[543e905c5cda07eb0007eeaa5b4abcfced4e2194644b951266443269ad429e0e.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The tosylate is obviously the leaving group, the two oxygens in the ring must become the ester group, and the CO₂⁻ must leave as CO₂. All that remains is to trace a pathway from CO₂⁻ to OTs via one of the ring oxygens using parallel bonds. Though you could draw a mechanism for this double fragmentation, it is not convincing. The only electrons anti-parallel to the C–OTs bond are those in the ring junction bond and the equatorial lone pair on one of the ring oxygens. Marking these with heavy lines, we carry out the first fragmentation. We've also drawn in the hydrogen that ends up on the alkene so you can see clearly where the trans geometry comes from.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/1cb769fbbda14c623517a9911737df9a89cfd6a906112ab77efafecc1561000c.jpg]]
+![[1cb769fbbda14c623517a9911737df9a89cfd6a906112ab77efafecc1561000c.jpg]]
 
 The second fragmentation is easier to see if we redraw the intermediate so that we can see which groups are antiparallel. A conformational drawing also reveals the correct alkene geometry.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/1c77e8e73b2fc2c401daf17c8ce20221ba4157fd7d64affa1ff02f380a631dc4.jpg]]
+![[1c77e8e73b2fc2c401daf17c8ce20221ba4157fd7d64affa1ff02f380a631dc4.jpg]]
 
 > 参考文献：Angew. Chem. Int. Ed. Engl., 1979, 18, 634, 636.
 

@@ -27,7 +27,7 @@ source_grade: B
 
 Given that the $pK_{a}$ of tribromomethane, $CHBr_{3}$ (also known as bromoform) is 13.7, suggest what will happen when this ketone is treated with sodium hydroxide.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/0e4a2462f149cee1479b2c83b2cfb80ae5fdc32ac154a382ee7c817d83f352af.jpg]]
+![[0e4a2462f149cee1479b2c83b2cfb80ae5fdc32ac154a382ee7c817d83f352af.jpg]]
 
 **原文题目**：Given that the $pK_{a}$ of tribromomethane, $CHBr_{3}$ (also known as bromoform) is 13.7, suggest what will happen when this ketone is treated with sodium hydroxide.
 
@@ -35,7 +35,7 @@ Given that the $pK_{a}$ of tribromomethane, $CHBr_{3}$ (also known as bromoform)
 
 **Answer (English)**: The best approach to new reactions is to start drawing curly arrows for steps you know are reasonable, and to see where they take you. Here, we are treating a carbonyl compound, an electrophile, with hydroxide, a nucleophile, so the first step is likely to be addition of hydroxide to the C=O group. You have seen many, many reactions that start this way.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/dfc5cd011bcf2de88e065669ef6733d40839e3268582aac170e2d3d0da76350b.jpg]]
+![[dfc5cd011bcf2de88e065669ef6733d40839e3268582aac170e2d3d0da76350b.jpg]]
 
 This reaction is known as the 'bromoform' reaction and is described on pp. 462-3 of the textbook.
 

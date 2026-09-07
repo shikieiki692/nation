@@ -27,7 +27,7 @@ source_grade: B
 
 It is possible to make either the diester or the monoester of butanedioic acid (succinic acid) from the cyclic anhydride as shown. Why does one method give the diester and one the monoester?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/3136e50cc789a2d7f88716b561910aa0d47572a13da936b9318bab55cb6ddc8e.jpg]]
+![[3136e50cc789a2d7f88716b561910aa0d47572a13da936b9318bab55cb6ddc8e.jpg]]
 
 **原文题目**：It is possible to make either the diester or the monoester of butanedioic acid (succinic acid) from the cyclic anhydride as shown. Why does one method give the diester and one the monoester?
 
@@ -35,13 +35,13 @@ It is possible to make either the diester or the monoester of butanedioic acid (
 
 **Answer (English)**: In basic solution the nucleophile is methoxide ion. This strong nucleophile attacks the carbonyl group to give a tetrahedral intermediate having two possible leaving groups. The ester anion is preferred ($pK_{a}$ of $RCO_{2}H$ about 5) to the alkoxide ion ($pK_{a}$ of ROH about 15). This carboxylate anion cannot be protonated in basic solution and is not attacked by methoxide ion.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/c7139f32283ee09dd6c96e075f94cd8cf9c6f49992b921ee9bc404fbe81e5ebd.jpg]]
+![[c7139f32283ee09dd6c96e075f94cd8cf9c6f49992b921ee9bc404fbe81e5ebd.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/e36773f7a5a20310ed7a32bfc01009998fa433b1f555236a07aab90acfb4bef7.jpg]]
+![[e36773f7a5a20310ed7a32bfc01009998fa433b1f555236a07aab90acfb4bef7.jpg]]
 
 In acid solution the first reaction is similar, though the tetrahedral intermediate is neutral, and the carboxyl is still the better leaving group. The second esterification is now all right because methanol can attack the protonated carboxylic acid and water can be driven out after a second protonation. The second step is an equilibrium, with water and methanol about equal as leaving groups, but methanol is present in large excess as the solvent and drives the equilibrium across. We have omitted proton transfer steps.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/0de34df544121077418875d2aac2f4a3c8d96008836911c55f0fc6cf6761be98.jpg]]
+![[0de34df544121077418875d2aac2f4a3c8d96008836911c55f0fc6cf6761be98.jpg]]
 
 **中文解析**：
 

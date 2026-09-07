@@ -27,7 +27,7 @@ source_grade: B
 
 Suggest a mechanism for this reaction and explain the stereochemistry.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/2488f9266b7b7d13d89806d3212e55136e33487346c3d618f0215c80ad026961.jpg]]
+![[2488f9266b7b7d13d89806d3212e55136e33487346c3d618f0215c80ad026961.jpg]]
 
 **原文题目**：Suggest a mechanism for this reaction and explain the stereochemistry. (Another important carbene method used in the synthesis of a natural antibiotic.)
 
@@ -35,11 +35,11 @@ Suggest a mechanism for this reaction and explain the stereochemistry.
 
 **Answer (English)**: This reaction established the skeleton of cycloeudesmol and was carried out by E. Y. Chen, Tetrahedron Lett., 1982, 23, 4769, at Sandoz.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/4efe2b8eb72b525cac93c93cce20de73046799ae6b9d0a80435f0ca1d59d80cb.jpg]]
+![[4efe2b8eb72b525cac93c93cce20de73046799ae6b9d0a80435f0ca1d59d80cb.jpg]]
 
 The diazo compound decomposes to gaseous nitrogen and a carbene under catalysis by Cu(II). Insertion into the exposed alkene gives the three-membered ring. The stereochemistry partly comes from the 'tether'—the linkage between the carbene and the rest of the molecule that delivers the carbene to the bottom face of the alkene. The rest comes from the inevitable cis fusion between the five- and three-membered rings.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/ef01e9c80ae62b356329e6ef79add0f1eaaeaa6faeab75eb73de8ee9a33e610b.jpg]]
+![[ef01e9c80ae62b356329e6ef79add0f1eaaeaa6faeab75eb73de8ee9a33e610b.jpg]]
 
 **中文解析**：
 

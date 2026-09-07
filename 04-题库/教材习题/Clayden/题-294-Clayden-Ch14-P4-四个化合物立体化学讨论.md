@@ -28,13 +28,13 @@ source_grade: B
 
 Discuss the stereochemistry of these compounds. Hint: this means saying how many diastereoisomers there are, drawing clear diagrams of each, and stating whether they are chiral or not.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/12ba9f76348529837307e8bb7235a053038e9efc8b0f560cfed5507279ab7283.jpg]]
+![[12ba9f76348529837307e8bb7235a053038e9efc8b0f560cfed5507279ab7283.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/c40a0ef4eec4eb03fa544f20f4987e93ee7740e5933464191260ecdd56e50e2a.jpg]]
+![[c40a0ef4eec4eb03fa544f20f4987e93ee7740e5933464191260ecdd56e50e2a.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/0f49122e8ddddec09ba4a1bd4c2a62bdd3943ca570f2eb26ca6d5546315854a4.jpg]]
+![[0f49122e8ddddec09ba4a1bd4c2a62bdd3943ca570f2eb26ca6d5546315854a4.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/7dd1dc9738ca20c3228cc45f0819ed9a5e328c9d8712808964605f8ba1144cbd.jpg]]
+![[7dd1dc9738ca20c3228cc45f0819ed9a5e328c9d8712808964605f8ba1144cbd.jpg]]
 
 **原文题目**：讨论这些化合物的立体化学。
 

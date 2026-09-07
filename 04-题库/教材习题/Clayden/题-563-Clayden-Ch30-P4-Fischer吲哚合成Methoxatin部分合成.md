@@ -29,21 +29,21 @@ source_grade: B
 
 **【原文】**Explain the reactions in this partial synthesis of methoxatin, the coenzyme of bacteria living on methanol.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/80f76cd5d6654e7485b05d0f85f07b26045bdd2d8aeb56e7c61abafc0a114b6f.jpg]]
+![[80f76cd5d6654e7485b05d0f85f07b26045bdd2d8aeb56e7c61abafc0a114b6f.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: There is clearly a Fischer indole synthesis in the second step but the first step makes the usual hydrazone in a most unusual way. The first reaction is a diazotization so we have to combine the diazonium salt with the enolate of the keto-ester. That creates a quaternary centre and the KOH deacylates it to give the aryl hydrazone needed for the next step.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/7e64cb3eaf8e379a55222e073a3b26c7d6fa031e979425cc5826252e4affce50.jpg]]
+![[7e64cb3eaf8e379a55222e073a3b26c7d6fa031e979425cc5826252e4affce50.jpg]]
 
 Now that we have the hydrazone, the Fischer indole step is straightforward and gives the indole-2-carboxylic acid derivative. There is only one site for an enamine and the indole is formed on the side of the benzene ring away from the other substituents.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/a4bca535f5fd652f60ce218968e953982c9ef1a831531a71e6dcd861f8e83665.jpg]]
+![[a4bca535f5fd652f60ce218968e953982c9ef1a831531a71e6dcd861f8e83665.jpg]]
 
 The next stage must involve the primary amine as nucleophile and the conjugated keto-diester as electrophile. Conjugate addition must occur first as the tertiary alcohol A can be isolated. The dehydration is acid-catalysed and the oxidation by air [or Ce(IV)] is also acid-catalysed.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/3c0b06ca83669f79bdb52c55824b4f4e3dd4927ebbae5c26132fd965611afa18.jpg]]
+![[3c0b06ca83669f79bdb52c55824b4f4e3dd4927ebbae5c26132fd965611afa18.jpg]]
 
 **中文解析**：
 

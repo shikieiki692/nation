@@ -27,7 +27,7 @@ source_grade: B
 
 The triatomine bug which causes Chagas' disease can be trapped by using synthetic samples of its communication pheromone, which consists of a 4:1 mixture of the enantiomers of this heterocycle. How would you synthesize the required mixture of enantiomers? Why would the other diastereoisomer of this compound be more of a challenge to make?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/3aa2f72c8e02cfa05b0fd391fdbbf65d969338d6dafa3fe240d923dbfb859554.jpg]]
+![[3aa2f72c8e02cfa05b0fd391fdbbf65d969338d6dafa3fe240d923dbfb859554.jpg]]
 
 **原文题目**：The triatomine bug which causes Chagas' disease can be trapped by using synthetic samples of its communication pheromone, which consists of a 4:1 mixture of the enantiomers of this heterocycle. How would you synthesize the required mixture of enantiomers? Why would the other diastereoisomer of this compound be more of a challenge to make?
 
@@ -35,7 +35,7 @@ The triatomine bug which causes Chagas' disease can be trapped by using syntheti
 
 **Answer (English)**: To make a 4:1 mixture of enantiomers you need either to mix them in the right proportions, or to mix equal amounts of racemic mixture and a single enantiomer. In either case you need an asymmetric synthesis. The target compound is an acetal that can be made from a chiral diol, so you should immediately consider asymmetric dihydroxylation. The advantage of Sharpless' asymmetric dihydroxylation is that it can very easily give either enantiomer: in fact, it is one reaction where the enantioselective version is better than the racemic one, so you would be advised to make the two enantiomers using the two alternative chiral ligands, mix them in the correct proportions, then form the acetal. Note that the starting alkene is trans.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/441ea4f25e4368f2fc37155b153475e4918570f46d9ba6b734ee69c7441b8ada.jpg]]
+![[441ea4f25e4368f2fc37155b153475e4918570f46d9ba6b734ee69c7441b8ada.jpg]]
 
 Making the other diastereoisomer would require the cis alkene. This is not a problem in itself, but more of a challenge for the catalyst, because now it has to distinguish between two similar groups (Et and Me) in order to oxidize one face of the alkene enantioselectively (for the trans alkene, the selection is between either Et and H or Me and H; switching Et for Me makes no difference to the outcome).
 

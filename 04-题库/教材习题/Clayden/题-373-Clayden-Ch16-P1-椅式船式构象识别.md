@@ -27,17 +27,17 @@ source_grade: B
 
 Identify the chair or boat rings in the following structures and say why this particular structure is adopted.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/6b68f2a86fcd2cc8cc45ce970a9bd23bd7417539baa1a5660de5cc326d142120.jpg]]
+![[6b68f2a86fcd2cc8cc45ce970a9bd23bd7417539baa1a5660de5cc326d142120.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/160df1d6fa11f5115f449838bcc2cb218a0cf16de14d567362db39234cb3d2db.jpg]]
+![[160df1d6fa11f5115f449838bcc2cb218a0cf16de14d567362db39234cb3d2db.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/ac3b8393456182d207e29f5bc17fa86372eb236511e4814672a4eb60a042cbfd.jpg]]
+![[ac3b8393456182d207e29f5bc17fa86372eb236511e4814672a4eb60a042cbfd.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/9d57aa3efc2b78ccd6a7bc71d42659b99af9abbd8fc392d3326005e759541b15.jpg]]
+![[9d57aa3efc2b78ccd6a7bc71d42659b99af9abbd8fc392d3326005e759541b15.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/db508065c7b8452ddf26f906e0e3ce4326dd283fdd016f205face3af02c91277.jpg]]
+![[db508065c7b8452ddf26f906e0e3ce4326dd283fdd016f205face3af02c91277.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/ac46baed03afa84e9149c51cf797f3f1f3ef5652a9ddd01b64fcff7141dafc1e.jpg]]
+![[ac46baed03afa84e9149c51cf797f3f1f3ef5652a9ddd01b64fcff7141dafc1e.jpg]]
 
 **原文题目**：识别下列结构中的椅式或船式环，并说明为什么采取这种特定构象。
 
@@ -45,23 +45,23 @@ Identify the chair or boat rings in the following structures and say why this pa
 
 **Answer (English)**: The first three are relatively simple. The first has a chair with all substituents equatorial. The second is forced to have a boat as no chair is possible but the third has a normal chair with a 1,3-diaxial bridge. Two have nothing but boats as chairs are impossible. One has three boats and the other just the one as there is only one six-membered ring. The remaining molecule is adamantane -- a tiny fragment of a diamond. It is more symmetrical than a paper diagram can show but a model reveals a beautifully symmetrical structure. All the rings are chairs, though some don't look very chair-like in our diagrams.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/1abaf89183849701b1aaea5bc52c562afa8e341f0b7f6237adce77e655b8c7f4.jpg]]
+![[1abaf89183849701b1aaea5bc52c562afa8e341f0b7f6237adce77e655b8c7f4.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/ebc2330ad9981c905c8d16de526c443368a5a3fa062a1ef807945a4c86c90416.jpg]]
+![[ebc2330ad9981c905c8d16de526c443368a5a3fa062a1ef807945a4c86c90416.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/efc117ec8811774173ea57263c4a78c8f30a76e3008d62fde0e1b26043afba27.jpg]]
+![[efc117ec8811774173ea57263c4a78c8f30a76e3008d62fde0e1b26043afba27.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/ac7c0da4e5b3bb7aae97c748a055f7adcfa3287a4ccf19f1a0b2e1ad15414bd1.jpg]]
+![[ac7c0da4e5b3bb7aae97c748a055f7adcfa3287a4ccf19f1a0b2e1ad15414bd1.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/d9a3bdcefd8e3365b17f68ba907ed85c7ad03e25856dba94af48d7deda97afa5.jpg]]
+![[d9a3bdcefd8e3365b17f68ba907ed85c7ad03e25856dba94af48d7deda97afa5.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/170f4446beb74f1acd8b9e83b974e92da15a2e86b799417d1027759ed589f682.jpg]]
+![[170f4446beb74f1acd8b9e83b974e92da15a2e86b799417d1027759ed589f682.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/ba0a91417016a58b35290340f5f0c545219cbae04810e8f531bd442e5dc92a21.jpg]]
+![[ba0a91417016a58b35290340f5f0c545219cbae04810e8f531bd442e5dc92a21.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/1e825dbf8defdfe4b57c4e31119c6a8e63c653f1045a3fb2e946b4ce7d59ad75.jpg]]
+![[1e825dbf8defdfe4b57c4e31119c6a8e63c653f1045a3fb2e946b4ce7d59ad75.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/eb85aa87b59d44b5989adeacb6d392a278f82af8a4b371007153a862527ce7ec.jpg]]
+![[eb85aa87b59d44b5989adeacb6d392a278f82af8a4b371007153a862527ce7ec.jpg]]
 
 **中文解析**：
 

@@ -29,19 +29,19 @@ source_grade: B
 
 **【原文】**The Hammett ρ value for migrating aryl groups in the acid-catalysed Beckmann rearrangement is -2.0. What does that tell us about the rate-determining step?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/e92af6b7a99955a4021f2aa69c2d49970dcfbd5eb07d0eb60be437e247579df7.jpg]]
+![[e92af6b7a99955a4021f2aa69c2d49970dcfbd5eb07d0eb60be437e247579df7.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The normal mechanism for the Beckmann rearrangement involves protonation at OH and migration of the group anti to the N-O bond: in this case the substituted benzene ring.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/a15ef307d2cc877a2f1ae6cb1b147eb14c61ba35b29f5a0afabc7f13c9061798.jpg]]
+![[a15ef307d2cc877a2f1ae6cb1b147eb14c61ba35b29f5a0afabc7f13c9061798.jpg]]
 
 The migration itself is the rate-determining step. The migration step breaks a C-C bond, forms a C-N bond and creates an unstable cation. The transition state must be a cationic species. Electron-donating groups on the migrating aryl ring stabilize the positive charge developing in the transition state, accelerating the reaction. This is consistent with a modest negative ρ value of -2.0.
 
 An alternative participation mechanism involving π-participation would place positive charge directly on the benzene ring, giving a much larger ρ value of about -5.0. The observed value of -2.0 rules this out. One reason is that in the planar starting material, the benzene ring p orbitals are orthogonal to the σ\* orbital of the N-O bond and cannot interact.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/224be3833aff7ead5ed64cd34e6f6da369f197fced2452fe55e95387ed0e72de.jpg]]
+![[224be3833aff7ead5ed64cd34e6f6da369f197fced2452fe55e95387ed0e72de.jpg]]
 
 **中文解析**：
 

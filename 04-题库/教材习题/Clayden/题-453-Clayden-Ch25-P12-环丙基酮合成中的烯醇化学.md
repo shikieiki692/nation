@@ -29,17 +29,17 @@ source_grade: B
 
 **【原文】**How does this synthesis of a cyclopropyl ketone work?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/d876a2d0105a37acf1e3df16f15d0afe7bb7c7c827396732dbf9cd75a170b422.jpg]]
+![[d876a2d0105a37acf1e3df16f15d0afe7bb7c7c827396732dbf9cd75a170b422.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: Alkylation of the enolate with the epoxide gives an alkoxide that cyclizes to give the lactone.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/609ef71e9a1d025081ac34dc4fdb44b089f3554f07f966e2e7104938e677a773.jpg]]
+![[609ef71e9a1d025081ac34dc4fdb44b089f3554f07f966e2e7104938e677a773.jpg]]
 
 Now SN2 opening of the protonated lactone with the soft nucleophile (bromide ion) gives the γ-bromoketone that cyclizes through its enolate. The formation of three-membered rings is favoured kinetically.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/4b6cdad16ac53c6b0c35efa43eabfd359fc77f72dabe2e736a12f7f34a06afdb.jpg]]
+![[4b6cdad16ac53c6b0c35efa43eabfd359fc77f72dabe2e736a12f7f34a06afdb.jpg]]
 
 **中文解析**：
 

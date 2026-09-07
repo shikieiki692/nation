@@ -31,21 +31,21 @@ source_grade: B
 
 **【原文】**Suggest syntheses for single enantiomers of these compounds.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/86b8bb5e36587eb2b907022cb58bf52d59f4f34228461d8b5508ea442eab8bdb.jpg]]
+![[86b8bb5e36587eb2b907022cb58bf52d59f4f34228461d8b5508ea442eab8bdb.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The first compound is an ester derived from a cyclic secondary alcohol that could be made from the corresponding enone by asymmetric reduction. Reduction with Corey's CBS reducing agent gave the alcohol in 93% ee.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/98be4563317de54355836cb061bb50aedbfcf992dac5732899c65c57ca42b3a5.jpg]]
+![[98be4563317de54355836cb061bb50aedbfcf992dac5732899c65c57ca42b3a5.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/2161062f994621105d4ac702b97c39e18349041d1a9bdca28670cffdf95c394a.jpg]]
+![[2161062f994621105d4ac702b97c39e18349041d1a9bdca28670cffdf95c394a.jpg]]
 
 The second compound could be made by a Wittig reaction with a stabilized ylid and the required diol aldehyde derived from an epoxy-alcohol and hence an allylic alcohol by Sharpless epoxidation.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/341c403c8b1d0c568a7fb449064932c2ce5e6c42ce81c87579a6a240a1eee64e.jpg]]
+![[341c403c8b1d0c568a7fb449064932c2ce5e6c42ce81c87579a6a240a1eee64e.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/6105e944be540598da02b935ea8f7b1cda473a9c7059b0943237618227ba468a.jpg]]
+![[6105e944be540598da02b935ea8f7b1cda473a9c7059b0943237618227ba468a.jpg]]
 
 **中文解析**：
 

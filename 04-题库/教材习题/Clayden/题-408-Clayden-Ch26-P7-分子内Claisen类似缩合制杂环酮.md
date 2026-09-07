@@ -30,17 +30,17 @@ source_grade: B
 
 **【原文】**The synthesis of six-membered ketones by intramolecular Claisen condensation was described in the chapter where we pointed out that it doesn't matter which way round the cyclization happens as the product is the same.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/3b5e2892c9b59c74d8da1dd807f41eb30ca089df5d41515d2d80f99088af76c0.jpg]]
+![[3b5e2892c9b59c74d8da1dd807f41eb30ca089df5d41515d2d80f99088af76c0.jpg]]
 
 Strangely enough, five-membered heterocyclic ketones can be made by a similar sequence. The starting material is not symmetrical and two cyclized products are possible. Draw structures for these products and explain why it is unimportant which is formed.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/bff2c138e1f22aeafda4024e87f5589b7c2b1ba650bc0f636bbbdb672bb5104c.jpg]]
+![[bff2c138e1f22aeafda4024e87f5589b7c2b1ba650bc0f636bbbdb672bb5104c.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The cyclization can occur in two different ways to give two different products as either ester can form an enolate that attacks the other in an intramolecular acylation. We should draw the two products.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/3efb99c94e2fcdd16307051831d8f2b2b73c83c1942fa7fb89d5270596aea079.jpg]]
+![[3efb99c94e2fcdd16307051831d8f2b2b73c83c1942fa7fb89d5270596aea079.jpg]]
 
 Though these compounds are different, each gives the same ketone after hydrolysis and decarboxylation as the ketone carbonyl group is on the same position in the ring in both compounds.
 

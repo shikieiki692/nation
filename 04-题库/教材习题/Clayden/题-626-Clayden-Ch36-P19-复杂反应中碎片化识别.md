@@ -29,17 +29,17 @@ source_grade: B
 
 **【原文】**What steps would be necessary to carry out an Eschenmoser fragmentation on this ketone, and what products would be formed?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/73d832db41168fc5b0ca9fca60cce9cb9c0ce78f452fe3dd60963bfa2978ffab.jpg]]
+![[73d832db41168fc5b0ca9fca60cce9cb9c0ce78f452fe3dd60963bfa2978ffab.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The Eschenmoser fragmentation (p. 965 of the textbook) uses the tosylhydrazone of an α,β-epoxy-ketone. The epoxide can be made with alkaline hydrogen peroxide and the tosylhydrazone needs just tosylhydrazine to form what is essentially an imine. Then the fun can begin. The stereochemistry doesn't matter for once.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/e9e22b31be424337c4a9c897eb50b8d39d7f026205e2ef0bd9b4b7218d7f1938.jpg]]
+![[e9e22b31be424337c4a9c897eb50b8d39d7f026205e2ef0bd9b4b7218d7f1938.jpg]]
 
 The fragmentation is initiated with base that removes the proton from the NHTs group. This anion fragments the molecule one way and then the oxyanion fragments it the other way with nitrogen gas and Ts⁻ as leaving groups. The product is an acetylenic aldehyde or ketone.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/723bcd95488581f7d3bff9534f242e1441d33d12f1515827e07284ea64d775a3.jpg]]
+![[723bcd95488581f7d3bff9534f242e1441d33d12f1515827e07284ea64d775a3.jpg]]
 
 **中文解析**：
 

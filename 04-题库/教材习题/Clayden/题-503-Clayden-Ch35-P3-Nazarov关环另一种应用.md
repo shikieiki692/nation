@@ -30,7 +30,7 @@ source_grade: B
 
 **【原文】**Give mechanisms for this alternative synthesis of two fused five-membered rings.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/4bb09cac695ef9750a620957dfda81c72d9925a16d1f226f5539f03f37f8cc8c.jpg]]
+![[4bb09cac695ef9750a620957dfda81c72d9925a16d1f226f5539f03f37f8cc8c.jpg]]
 
 **原文题目**：Give mechanisms for this alternative synthesis of two fused five-membered rings.
 
@@ -38,13 +38,13 @@ source_grade: B
 
 **Answer (English)**: The first stage is an aliphatic Friedel-Crafts reaction with an acylium ion attacking the alkene.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/75d6bef7c2deb4b694f71bdb6d9fbcba32e24888d4e14ccf3e03ec5388740d54.jpg]]
+![[75d6bef7c2deb4b694f71bdb6d9fbcba32e24888d4e14ccf3e03ec5388740d54.jpg]]
 
 Next, a Nazarov reaction catalysed by a different Lewis acid closes the five-membered ring and puts the alkene in the only place it can go. The electrocyclic step is conrotatory but that has no meaning with this achiral product.
 
 W. Oppolzer and K. Bättig., Helv. Chim. Acta, 1981, 64, 2489.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/74285a89b1293df7cfe336055f61f476f3ee30ce0edb4ac04ee82e2f3ff03f92.jpg]]
+![[74285a89b1293df7cfe336055f61f476f3ee30ce0edb4ac04ee82e2f3ff03f92.jpg]]
 
 **中文解析**：
 

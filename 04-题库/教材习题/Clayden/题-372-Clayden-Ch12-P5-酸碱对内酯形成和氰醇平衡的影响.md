@@ -27,7 +27,7 @@ source_grade: B
 
 Comment on the effect of acid and base on these equilibria.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/502e72468ab658ebbead6bffe41a5868d744359644fc8fba217d3de650310f30.jpg]]
+![[502e72468ab658ebbead6bffe41a5868d744359644fc8fba217d3de650310f30.jpg]]
 
 **原文题目**：Comment on the effect of acid and base on these equilibria.
 
@@ -37,11 +37,11 @@ Comment on the effect of acid and base on these equilibria.
 
 **Reaction 1 — Lactone (环酯) formation**: The first example is cyclic ester (lactone) formation that will go well in acid solution. In base the acidic proton will be removed and cyclization is no longer possible.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/0a6e34aff4cb7ed0d6922c860ca4bea4d5025a847387d71f658d6e3f1f82d429.jpg]]
+![[0a6e34aff4cb7ed0d6922c860ca4bea4d5025a847387d71f658d6e3f1f82d429.jpg]]
 
 **Reaction 2 — Cyanohydrin (氰醇) formation**: The reaction is reversible but in basic solution the cyanide anion is more stable than the oxyanion of the cyanohydrin and the carbonyl group is more stable than C-O plus C-C so the reaction runs backwards. In more acidic solution (pH less than about 12) the oxyanion will be protonated and the reaction driven towards the right.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/706dfbff3db25a38f4283ac9e73981fee4927e1a657e5e115f5c2cb3bd8a363f.jpg]]
+![[706dfbff3db25a38f4283ac9e73981fee4927e1a657e5e115f5c2cb3bd8a363f.jpg]]
 
 **中文解析**：
 

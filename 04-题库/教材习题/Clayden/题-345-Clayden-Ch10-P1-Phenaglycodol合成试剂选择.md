@@ -27,7 +27,7 @@ source_grade: B
 
 Suggest reagents to make the drug phenaglycodol by the route below.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/c69683aa9a29e81dea86b7bf868125fe3610c1db212f5b15a023725287c4660d.jpg]]
+![[c69683aa9a29e81dea86b7bf868125fe3610c1db212f5b15a023725287c4660d.jpg]]
 
 **原文题目**：Suggest reagents to make the drug phenaglycodol by the route below.
 
@@ -35,7 +35,7 @@ Suggest reagents to make the drug phenaglycodol by the route below.
 
 **Answer (English)**: The first step is a simple addition of cyanide to a ketone (p. 127 of the textbook) usually carried out with NaCN and an acid, such as acetic acid. The second step is an acid-catalysed addition of an alcohol to a nitrile (p.-213 of the textbook). Finally there is a double addition of an organometallic reagent to an ester (p. 216 of the textbook). One way of doing all this is shown below.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/21623f221df4edf4305e41ac894f835d09970f75a58dba6f592d0e0bb160a05e.jpg]]
+![[21623f221df4edf4305e41ac894f835d09970f75a58dba6f592d0e0bb160a05e.jpg]]
 
 **中文解析**：
 

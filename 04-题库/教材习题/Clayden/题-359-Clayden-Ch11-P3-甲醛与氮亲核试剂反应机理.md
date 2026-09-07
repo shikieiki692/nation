@@ -27,7 +27,7 @@ source_grade: B
 
 Suggest mechanisms for these two reactions of the smallest aldehyde, formaldehyde (methanal CH₂=O).
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/9b8039a5c766d5a7e1391215b92bd4133faff4701fee70258a6795488ba366ff.jpg]]
+![[9b8039a5c766d5a7e1391215b92bd4133faff4701fee70258a6795488ba366ff.jpg]]
 
 **原文题目**：Suggest mechanisms for two reactions of formaldehyde — one with a diamine to form an iminium ion, and one with an amino alcohol to form a five-membered ring.
 
@@ -35,11 +35,11 @@ Suggest mechanisms for these two reactions of the smallest aldehyde, formaldehyd
 
 **Answer (English)**: Both reactions start in the same way by attack of a nitrogen nucleophile on formaldehyde. Acid catalysis is not necessary for this step. The first reaction ends with the formation of the iminium ion by acid-catalysed dehydration.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/556bca953cdbef3094036dff71849abc7e417fddf7fc283decb79d243628c64e.jpg]]
+![[556bca953cdbef3094036dff71849abc7e417fddf7fc283decb79d243628c64e.jpg]]
 
 In the other reaction a second amino group is waiting to capture the iminium ion by cyclization to form a stable five-membered ring.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/c0b918abe174cc5f80e5587b2c071142cfa24d4c24950811c61728a31ea1eec5.jpg]]
+![[c0b918abe174cc5f80e5587b2c071142cfa24d4c24950811c61728a31ea1eec5.jpg]]
 
 **中文解析**：
 

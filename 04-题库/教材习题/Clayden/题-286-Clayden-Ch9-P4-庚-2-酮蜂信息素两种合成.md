@@ -27,7 +27,7 @@ source_grade: B
 
 Suggest two syntheses of the bee pheromone heptan-2-one.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/f670597b04d841867b7df3626dd0b7b05a507c1205020bc697a5c0a05cab477a.jpg]]
+![[f670597b04d841867b7df3626dd0b7b05a507c1205020bc697a5c0a05cab477a.jpg]]
 
 **原文题目**：提出庚-2-酮（蜂信息素）的两种合成方法。
 
@@ -35,7 +35,7 @@ Suggest two syntheses of the bee pheromone heptan-2-one.
 
 **Answer (English)**: There are of course many different solutions but the most obvious are to make the corresponding secondary alcohol and oxidize it. Two alternatives are shown here.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/7a6d6570415057cbb2222861896a2f852017efa5788ad1d3c3d6e9a3e4e2c98e.jpg]]
+![[7a6d6570415057cbb2222861896a2f852017efa5788ad1d3c3d6e9a3e4e2c98e.jpg]]
 
 **中文解析**：
 

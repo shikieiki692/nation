@@ -27,7 +27,7 @@ source_grade: B
 
 This compound is a precursor to a Novartis drug used for the control of inflammation. How might it be made from a chiral pool starting material?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/ab478f6b014e164694ced42dbe8ff7ece75f7e4614959db430ca478b91550dbe.jpg]]
+![[ab478f6b014e164694ced42dbe8ff7ece75f7e4614959db430ca478b91550dbe.jpg]]
 
 **原文题目**：This compound is a precursor to a Novartis drug used for the control of inflammation. How might it be made from a chiral pool starting material?
 
@@ -35,7 +35,7 @@ This compound is a precursor to a Novartis drug used for the control of inflamma
 
 **Answer (English)**: The hydrocarbon skeleton of the target is that of the amino acid phenylalanine. The configuration is (S), the same as the natural amino acid, so we can use the standard amino acid to hydroxy acid conversion via diazotization, which goes with retention of configuration. The aromatic ring needs hydrogenating too.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/7d8bb5924a53451cf6bd45a74eb61eab59ba6eea5585fd2a6c5cea94f12091fa.jpg]]
+![[7d8bb5924a53451cf6bd45a74eb61eab59ba6eea5585fd2a6c5cea94f12091fa.jpg]]
 
 **中文解析**：
 

@@ -27,7 +27,7 @@ source_grade: B
 
 How might these amines be prepared using enolate-style alkylation as part of the synthesis?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/f2c20178cd0a769841605eda679fb95f1a9007c18a7e998001845f27f6aa0d57.jpg]]
+![[f2c20178cd0a769841605eda679fb95f1a9007c18a7e998001845f27f6aa0d57.jpg]]
 
 **原文题目**：How might these amines be prepared using enolate-style alkylation as part of the synthesis?
 
@@ -35,11 +35,11 @@ How might these amines be prepared using enolate-style alkylation as part of the
 
 **Answer (English)**: The first amine could be made by reduction of a nitrile, and that could be made by alkylation of the 'enolate' from PhCH₂CN.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/5a47cf03858a6fc8bb88527ad342501c5af5042c72e5f41741f754db0250fb32.jpg]]
+![[5a47cf03858a6fc8bb88527ad342501c5af5042c72e5f41741f754db0250fb32.jpg]]
 
 The second amine could be made by reductive amination of a ketone so we need to make the ketone by alkylation of an enolate. You could have chosen various specific enol equivalents for this job — we have chosen an enamine.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/8faa5b8fe978c8676ab2ffa5256790fb5a65a35221da166a9a279f075f1f4cc7.jpg]]
+![[8faa5b8fe978c8676ab2ffa5256790fb5a65a35221da166a9a279f075f1f4cc7.jpg]]
 
 **中文解析**：
 

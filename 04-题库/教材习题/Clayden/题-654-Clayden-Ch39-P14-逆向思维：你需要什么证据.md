@@ -29,7 +29,7 @@ source_grade: B
 
 **【原文】**If you believed that this reaction went by elimination followed by conjugate addition, what experiments would you carry out to try and prove that the enone is an intermediate?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/6b4e2313599051b0805bcec632deedc189ed301621ea9ae7b00296067935506b.jpg]]
+![[6b4e2313599051b0805bcec632deedc189ed301621ea9ae7b00296067935506b.jpg]]
 
 ## 参考答案
 
@@ -41,7 +41,7 @@ source_grade: B
 
 (a) elimination
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/47b7ee499671e76f32123140bd9fcd78ce47387758608fdef28949d7e6c5a0c8.jpg]]
+![[47b7ee499671e76f32123140bd9fcd78ce47387758608fdef28949d7e6c5a0c8.jpg]]
 
 (b) conjugate addition
 
@@ -56,9 +56,9 @@ source_grade: B
 - Kinetic isotope effect might be found in mechanism 2
 - Stereochemistry: if a substituent were added to make the terminal carbon chiral, inversion would be expected for mechanism 1 and racemization for mechanism 2
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/3b5b1ea6a2b0a14d56bc05f2993b966b9413351e4f17ac4fcde8a501166792ea.jpg]]
+![[3b5b1ea6a2b0a14d56bc05f2993b966b9413351e4f17ac4fcde8a501166792ea.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/db1665579c8a9ac57a30a9305ab8bb8ac6413cd02e3861a81e383e825810071d.jpg]]
+![[db1665579c8a9ac57a30a9305ab8bb8ac6413cd02e3861a81e383e825810071d.jpg]]
 
 **中文解析**：
 

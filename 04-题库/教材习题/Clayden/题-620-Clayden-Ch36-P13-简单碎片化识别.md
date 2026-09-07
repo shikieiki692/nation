@@ -27,9 +27,9 @@ source_grade: B
 
 Just to check your skill at finding fragmentations by numbers, draw the mechanism for each of these one-step fragmentations in basic solution with acidic work-up.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/c5e18bdca4e973c6109d4c397e41b219fb24de6a2ae1780646adb58d6133a742.jpg]]
+![[c5e18bdca4e973c6109d4c397e41b219fb24de6a2ae1780646adb58d6133a742.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/3b43f0652c0e979f58a8e5d2560c72b8a6bf8176ec0520ebce0c4c79a4c48733.jpg]]
+![[3b43f0652c0e979f58a8e5d2560c72b8a6bf8176ec0520ebce0c4c79a4c48733.jpg]]
 
 **原文题目**：Just to check your skill at finding fragmentations by numbers, draw the mechanism for each of these one-step fragmentations in basic solution with acidic work-up.
 
@@ -37,15 +37,15 @@ Just to check your skill at finding fragmentations by numbers, draw the mechanis
 
 **Answer (English)**: We can identify the six-membered ring in both compounds—the sequence 1–6 is clearly the same in both with a side chain at C3. The fragmentation is easy enough too—the OH proton is removed and the mesylate must be the leaving group so the groups doing the 'pushing' and 'pulling' are clear from the start.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/0b7860cd8178ea63adeb93656abbf2877285ac61a751dffe439c05439f6f41f6.jpg]]
+![[0b7860cd8178ea63adeb93656abbf2877285ac61a751dffe439c05439f6f41f6.jpg]]
 
 The two CO₂H groups in the second product might cause a moment's concern but one is on a −CH₂−CH₂− side chain and the other is at a branch point and we can soon fill in the rest of the numbers.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/3a3ecade7f7506933a13163256f1d47140e5967c2468d30d6c59978c77f76e22.jpg]]
+![[3a3ecade7f7506933a13163256f1d47140e5967c2468d30d6c59978c77f76e22.jpg]]
 
 Clearly the OH proton is removed and one of the carboxyls is a leaving group. The stereochemistry disappears in the fragmentation but it is important, as the conformational drawing shows. One lone pair on the O⁻, the bond being fragmented, and the bond to the leaving group are all parallel (shown in thick lines).
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/c0b8219a72172dd6ccba942934cd8296bb081dcdd8c615df904545b76871a9d8.jpg]]
+![[c0b8219a72172dd6ccba942934cd8296bb081dcdd8c615df904545b76871a9d8.jpg]]
 
 **中文解析**：
 

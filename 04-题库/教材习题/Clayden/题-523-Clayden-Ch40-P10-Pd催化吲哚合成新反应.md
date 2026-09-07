@@ -30,13 +30,13 @@ source_grade: B
 
 **【原文】**A synthesis of the Bristol-Myers Squibb anti-migraine drug Avitriptan (a 5-HT receptor antagonist) involves this palladium-catalysed indole synthesis. Suggest a mechanism and comment on the regioselectivity of the alkyne attachment.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/3a0d122a4d20682a4897850d9378d613f0a1354ffafec0b6a7c8842805b3f0c0.jpg]]
+![[3a0d122a4d20682a4897850d9378d613f0a1354ffafec0b6a7c8842805b3f0c0.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: Although palladium(II) is added to the solution, the aryl iodide tells you that this is an oxidative insertion of Pd(0) produced by one of the methods described in the textbook. The resulting Pd(II) species complexes to the alkyne and the amine can now attack the triple bond. This gives a heterocycle with the Pd(II) in the ring. Coupling of the two organic fragments extrudes Pd(0) to start a new cycle. The nitrogen attacks the more hindered end of the alkyne so that the palladium can occupy the less hindered end.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/6221952960faf8f3bb56ca31abfce8356eba8a92ed442ce78e4c6e8e16888ca7.jpg]]
+![[6221952960faf8f3bb56ca31abfce8356eba8a92ed442ce78e4c6e8e16888ca7.jpg]]
 
 **中文解析**：
 

@@ -31,9 +31,9 @@ source_grade: B
 **【原文】**
 Account for the constrasting results of these two reactions.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/7d31a198b9b3e193e85d4930052cbb5f90f0ae446f82808722bd8a1e6277f8fe.jpg]]
+![[7d31a198b9b3e193e85d4930052cbb5f90f0ae446f82808722bd8a1e6277f8fe.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/337b259db4c02caebc38d821a43f22e1d39c602bb980057d90678136c56f7da3.jpg]]
+![[337b259db4c02caebc38d821a43f22e1d39c602bb980057d90678136c56f7da3.jpg]]
 
 ## 参考答案
 
@@ -41,7 +41,7 @@ Account for the constrasting results of these two reactions.
 
 The two compounds differ only in their configuration, and as they both have a tert-butyl group they have no choice about their conformation. The bromide must be the leaving group, and when you draw the molecules you find that it must also be axial. In the first case there is a proton antiperiplanar to it that can lead to a conjugated alkene. In the second case, the bond antiperiplanar to the bromine is a C–C bond, but that's OK on this occasion because decarboxylation can take place by the mechanism shown. There is an antiperiplanar C–H bond on the other side of course, but the decarboxylation must be faster than simple E2 elimination.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/2126801c4cfb2c5d030c3ef9867933fd074e56cde44f5960beec4cebc167face.jpg]]
+![[2126801c4cfb2c5d030c3ef9867933fd074e56cde44f5960beec4cebc167face.jpg]]
 
 **中文解析**：
 

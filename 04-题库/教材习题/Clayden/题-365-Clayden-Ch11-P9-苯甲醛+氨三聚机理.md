@@ -27,7 +27,7 @@ source_grade: B
 
 This stable product can be isolated from the reaction between benzaldehyde and ammonia. Suggest a mechanism.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/65a005d08500f10c09326b168beb632644bda6c1e3d7badd47969387af3368d8.jpg]]
+![[65a005d08500f10c09326b168beb632644bda6c1e3d7badd47969387af3368d8.jpg]]
 
 **原文题目**：Suggest a mechanism for the formation of the 1,3,5-triphenyl-1,3,5-triazine product from benzaldehyde and ammonia.
 
@@ -35,9 +35,9 @@ This stable product can be isolated from the reaction between benzaldehyde and a
 
 **Answer (English)**: Imine formation follows the usual pathway (pp. 230–32 of the textbook) but this imine is unstable, as are most primary imines, and it reacts with more benzaldehyde. This reaction starts normally enough but dehydration of the first intermediate produces a strange looking cation with two double bonds to the same nitrogen atom. Addition of another imine gives the final product. The benzene rings play no part in these reactions so we shall represent them as Ph, but they do stabilize the final product by conjugation with the imines.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/0334ba68129e97e9dbcf5bc56e561edc2deb03e83f66baedd322d760ec529b40.jpg]]
+![[0334ba68129e97e9dbcf5bc56e561edc2deb03e83f66baedd322d760ec529b40.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/1a1ccba7d546b9936ed8e3d6ac6907fffef6ad66f786e2b1b855e61fd4761393.jpg]]
+![[1a1ccba7d546b9936ed8e3d6ac6907fffef6ad66f786e2b1b855e61fd4761393.jpg]]
 
 **中文解析**：
 

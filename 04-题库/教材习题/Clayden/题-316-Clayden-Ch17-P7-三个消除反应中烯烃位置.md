@@ -27,7 +27,7 @@ source_grade: B
 
 Comment on the position taken by the alkene in these eliminations.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/439483e309f8fca86895802633f320fbf777a6f545be5ac3fdd1e37ef570915c.jpg]]
+![[439483e309f8fca86895802633f320fbf777a6f545be5ac3fdd1e37ef570915c.jpg]]
 
 **原文题目**：
 
@@ -39,15 +39,15 @@ Comment on the position taken by the alkene in these eliminations.
 
 The first is an E1cB reaction after methylation makes the amine into a leaving group. The alkene has to go where the amine was (and in conjugation with the ketone).
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/b1e076e2d5a57af3ea3764301a2588a956d8d3a1bb61c430d133aed23db4205f.jpg]]
+![[b1e076e2d5a57af3ea3764301a2588a956d8d3a1bb61c430d133aed23db4205f.jpg]]
 
 The second is also E1cB and so the alkene must end up conjugated with the ketone. But this time the leaving group is on the ring so that is where the alkene goes. The stereochemistry is irrelevant as the enolate has lost one chiral centre and there is no requirement in E1cB for H and OH to be antiperiplanar.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/d9373f476dc152b9349e15276fc33e6d5a9bacbf3597a76277a501a7f0ac9cde.jpg]]
+![[d9373f476dc152b9349e15276fc33e6d5a9bacbf3597a76277a501a7f0ac9cde.jpg]]
 
 The third is an E2 reaction so there is now a requirement for H and Br to be anti-periplanar. This means that the Br must be axial and only one hydrogen is then in the right place.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/c6afc8c210c4ece4215de45ad6b27a395acf9d2fcc841715bd85edfb10e54011.jpg]]
+![[c6afc8c210c4ece4215de45ad6b27a395acf9d2fcc841715bd85edfb10e54011.jpg]]
 
 **中文解析**：
 

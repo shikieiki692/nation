@@ -30,7 +30,7 @@ source_grade: B
 
 **【原文】**Explain the regiochemistry and stereochemistry of this reaction.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/0785a91051afe95f5a90be4744625a314becfd8568edc1034c09e0d2f1ced27a.jpg]]
+![[0785a91051afe95f5a90be4744625a314becfd8568edc1034c09e0d2f1ced27a.jpg]]
 
 **原文题目**：Explain the regiochemistry and stereochemistry of this reaction.
 
@@ -38,7 +38,7 @@ source_grade: B
 
 **Answer (English)**: The ylid is stabilized by conjugation with the ester group—you can think of it also as an enolate. We can expect reversible addition to the carbonyl group and hence conjugate addition under thermodynamic control. The stereochemistry of the ring junction is inevitable: only a cis ring can be made (a trans-fused ring would be too strained). The interesting centre is that of the ester on the three-membered ring. It too is in a more stable configuration: on the outside of a folded molecule. The intermediate is probably a mixture of diastereoisomers, but as the conjugate addition is reversible the cyclopropane may be formed by cyclization of only the diastereoisomer that can give the more stable product.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/2795ed97c0612cdefde347dcdf95c52792aec40a22fcda691778c6d9bbf08c01.jpg]]
+![[2795ed97c0612cdefde347dcdf95c52792aec40a22fcda691778c6d9bbf08c01.jpg]]
 
 **中文解析**：
 

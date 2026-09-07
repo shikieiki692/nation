@@ -27,7 +27,7 @@ source_grade: B
 
 How would you make enantiomerically enriched samples of these compounds (either enantiomer)?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/00efd358cf9e5f0e94c17eac9ea08967b476efd510b610043e52b1606017cdbb.jpg]]
+![[00efd358cf9e5f0e94c17eac9ea08967b476efd510b610043e52b1606017cdbb.jpg]]
 
 **原文题目**：How would you make enantiomerically enriched samples of these compounds (either enantiomer)?
 
@@ -35,7 +35,7 @@ How would you make enantiomerically enriched samples of these compounds (either 
 
 **Answer (English)**: There are many possible answers here. What we had in mind was some sort of asymmetric Diels-Alder reaction for the first, an asymmetric aldol for the second or else opening an epoxide made by Sharpless epoxidation, asymmetric dihydroxylation for the third, and perhaps asymmetric dihydroxylation of a Z-alkene for the fourth. Of course you might have used resolution or asymmetric hydrogenation, or the chiral pool, or any other strategy from chapter 41.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/ff7c8a762b6d756bbc2cc275487bbcb317bdf20abd221b8dcfc5a1619aa8f209.jpg]]
+![[ff7c8a762b6d756bbc2cc275487bbcb317bdf20abd221b8dcfc5a1619aa8f209.jpg]]
 
 **中文解析**：
 

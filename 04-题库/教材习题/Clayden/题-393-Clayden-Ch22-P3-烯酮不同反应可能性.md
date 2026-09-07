@@ -27,7 +27,7 @@ source_grade: B
 
 Suggest reasons for the different outcome of each of these reactions. Your answer must of course be mechanistically based.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/814f4d81d7982fcca62aaaec4d531f9afbb0045ce37e2b070e9666395864b6fc.jpg]]
+![[814f4d81d7982fcca62aaaec4d531f9afbb0045ce37e2b070e9666395864b6fc.jpg]]
 
 **原文题目**：Explain the different outcomes of three reactions with an enone: (1) silyl enol ether formation, (2) direct 1,2-addition, (3) conjugate 1,4-addition. Provide mechanistic reasoning.
 
@@ -35,7 +35,7 @@ Suggest reasons for the different outcome of each of these reactions. Your answe
 
 **Answer (English)**: The three reactions are: enolization and trapping with silicon, direct addition with a hard irreversible nucleophile, and conjugate addition with a softer reversible nucleophile.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/aec8f103fef6f01ff222e626c655869b32d37d0ca3a5f6da074fb1a2541c82c9.jpg]]
+![[aec8f103fef6f01ff222e626c655869b32d37d0ca3a5f6da074fb1a2541c82c9.jpg]]
 
 **中文解析**：
 

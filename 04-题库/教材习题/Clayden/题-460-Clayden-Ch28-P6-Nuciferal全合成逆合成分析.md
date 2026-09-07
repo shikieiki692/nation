@@ -35,7 +35,7 @@ source_grade: B
 
 **【原文】**The natural product nuciferal was synthesized by the route summarized here.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/c7a541d924eaf51b0bfaa4cc734b802f4d03ec5f92eec05b25bc6d50fc9b9caa.jpg]]
+![[c7a541d924eaf51b0bfaa4cc734b802f4d03ec5f92eec05b25bc6d50fc9b9caa.jpg]]
 
 (a) Suggest a synthesis of the starting material.
 (b) Suggest reagents for each step.
@@ -48,21 +48,21 @@ source_grade: B
 
 (a) Grignard reagents are made from the corresponding halide. Simple C-X disconnections.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/239eac79f2095df18c4701db305ae1f26f7aa5321b297716d04b0e8d3866ebd0.jpg]]
+![[239eac79f2095df18c4701db305ae1f26f7aa5321b297716d04b0e8d3866ebd0.jpg]]
 
 HBr addition to acrolein and acetal protection can be carried out in a single step.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/947bcbe03453163a3d637ae5720aac61b4896f7c0ea6fe471e315286c27f4fdc.jpg]]
+![[947bcbe03453163a3d637ae5720aac61b4896f7c0ea6fe471e315286c27f4fdc.jpg]]
 
 (b) The Grignard adds to a ketone to give the tertiary alcohol. Eliminate the benzylic alcohol and hydrogenate. Then Wittig reaction for the last step.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/39a78ea3030a5722dabc5eb840a72b77bb0ffb88af03355e1ef75d0f9556888f.jpg]]
+![[39a78ea3030a5722dabc5eb840a72b77bb0ffb88af03355e1ef75d0f9556888f.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/85e0562d949e618a998a6e7cc141d77f1d0d68e7b3555dc6d05b4f274dbfd0d4.jpg]]
+![[85e0562d949e618a998a6e7cc141d77f1d0d68e7b3555dc6d05b4f274dbfd0d4.jpg]]
 
 (c) and (d) The retrosynthetic analysis: the starting material represents a d3 reagent (Grignard with protected aldehyde). This is needed because the 1,4 relationship between OH and CHO requires umpolung.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/f8b8d2857d9d3e85780483d329227d5702b7507ba6ce4cfc87c7857ade52fb02.jpg]]
+![[f8b8d2857d9d3e85780483d329227d5702b7507ba6ce4cfc87c7857ade52fb02.jpg]]
 
 **中文解析**：
 

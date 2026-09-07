@@ -27,7 +27,7 @@ source_grade: B
 
 How would you prepare samples of both geometrical isomers of this compound?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/6273558e5681f61ee5c09014ba87cf04ee4428582fb0536ba06b0e17cfbbe355.jpg]]
+![[6273558e5681f61ee5c09014ba87cf04ee4428582fb0536ba06b0e17cfbbe355.jpg]]
 
 **原文题目**：How would you prepare samples of both geometrical isomers of this compound?
 
@@ -35,11 +35,11 @@ How would you prepare samples of both geometrical isomers of this compound?
 
 **Answer (English)**: There are many methods that can be used to tackle this question. The only snags are protecting the OH group if necessary and care in isolating the Z-compound as it may isomerize easily to the E-compound by reversible conjugate addition. One way to the Z-alkene uses reduction of an alkyne to control the stereochemistry.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/011d25bb56a91edd63277ddd42dd5a193b037efa8311075578285686b3822139.jpg]]
+![[011d25bb56a91edd63277ddd42dd5a193b037efa8311075578285686b3822139.jpg]]
 
 The E-alkene might be produced by reduction of the alkyne with an alkali metal in liquid ammonia but a Wittig reaction is probably easier. Either a phosphonium ylid or a phosphonate ester could be used.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/f5443693e005b0a8fdbbb25c0f9001079f062f650658f3585161d6f3febb3db9.jpg]]
+![[f5443693e005b0a8fdbbb25c0f9001079f062f650658f3585161d6f3febb3db9.jpg]]
 
 **中文解析**：
 

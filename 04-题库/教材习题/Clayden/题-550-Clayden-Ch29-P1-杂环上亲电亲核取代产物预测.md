@@ -27,13 +27,13 @@ source_grade: B
 
 For each of the following reactions (a) state what kind of substitution is suggested and (b) suggest what product might be formed if monosubstitution occurred.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/d720c7f85834c9282a93812b38b820c111282657a59a30f167338bafe4f6bb8c.jpg]]
+![[d720c7f85834c9282a93812b38b820c111282657a59a30f167338bafe4f6bb8c.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/c339db2224256e01d61b3d3c71ce2479a6046c2702c8858ab94b2b53d5360109.jpg]]
+![[c339db2224256e01d61b3d3c71ce2479a6046c2702c8858ab94b2b53d5360109.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/8471596a3836e73a90bff7e12bc6c395b8883d277299691070dfe4da780b8998.jpg]]
+![[8471596a3836e73a90bff7e12bc6c395b8883d277299691070dfe4da780b8998.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/6d4f15b9cbea85dfcb563baf2b472e9bfcadf1134b8c34250c94fdabede8cfa0.jpg]]
+![[6d4f15b9cbea85dfcb563baf2b472e9bfcadf1134b8c34250c94fdabede8cfa0.jpg]]
 
 **原文题目**：For each reaction, state the type of substitution and predict the product of monosubstitution.
 
@@ -41,11 +41,11 @@ For each of the following reactions (a) state what kind of substitution is sugge
 
 **Answer (English)**: The first three reactions are all electrophilic substitutions: a bromination of a pyrrole, the nitration of quinoline, and a Friedel-Crafts reaction of thiophene. Bromination of the pyrrole occurs at the only remaining site. Nitration of quinoline occurs on the benzene rather than the pyridine ring (actually giving a mixture of 5- and 8-nitroquinolines) and the acylation occurs next to sulfur.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/a767f2787afcd0c73566048c2aabfbc611e8a02f58c4b053b7ab475ffb50eb05.jpg]]
+![[a767f2787afcd0c73566048c2aabfbc611e8a02f58c4b053b7ab475ffb50eb05.jpg]]
 
 The last reaction is a nucleophilic aromatic substitution on a pyridine. It occurs only at the site where the negative charge in the intermediate can be delocalized onto the nitrogen.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/548048dc0dc7bbfadea61ca8d30f4d582e90f4ca5cbb92c88922898d5b9a2db3.jpg]]
+![[548048dc0dc7bbfadea61ca8d30f4d582e90f4ca5cbb92c88922898d5b9a2db3.jpg]]
 
 **中文解析**：
 

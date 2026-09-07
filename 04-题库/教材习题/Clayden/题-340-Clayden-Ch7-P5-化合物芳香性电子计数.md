@@ -27,7 +27,7 @@ source_grade: B
 
 Which (parts) of these compounds are aromatic? Justify your answer with some electron counting. You may treat rings separately or together as you wish. You may notice that two of them are compounds we met in problem 2 of this chapter.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/0de6b8314a1745b7042171ac83022e8622b95398a10fb67b3a445c956a8d97fa.jpg]]
+![[0de6b8314a1745b7042171ac83022e8622b95398a10fb67b3a445c956a8d97fa.jpg]]
 
 **原文题目**：Which (parts) of these compounds are aromatic? Justify your answer with some electron counting. You may treat rings separately or together as you wish.
 
@@ -43,17 +43,17 @@ The numbers show how many π electrons there are in each bond or at each atom.
 
 **Third compound**: has six π electrons in the ring including the lone pair on oxygen but not including the carbonyl group which is outside the ring. The compound is aromatic.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/62e0465a5f668e4cfb8d26bdf2be457ba756004efbd30654af87c47da3d59582.jpg]]
+![[62e0465a5f668e4cfb8d26bdf2be457ba756004efbd30654af87c47da3d59582.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/7ee34c54f243610acbb6242568ea55d11370554b81ac7c52ab8f68bd09801d44.jpg]]
+![[7ee34c54f243610acbb6242568ea55d11370554b81ac7c52ab8f68bd09801d44.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/e662f056b653698d2b9186b176a98b21f8bf95d67029b07fd14b967b58460954.jpg]]
+![[e662f056b653698d2b9186b176a98b21f8bf95d67029b07fd14b967b58460954.jpg]]
 
 For the rest, there are two aromatic rings in each compound. We don't count carbonyl group electrons as they are outside the ring. One ring in aklavinone has only four electrons and is not aromatic, while one of the seven-membered rings in colchicine is aromatic. Each compound has one saturated ring that cannot be aromatic.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/90ec37cddb5cde23719c5d976cab3067b40e18916f5bac9d2b1dd8dd09b43719.jpg]]
+![[90ec37cddb5cde23719c5d976cab3067b40e18916f5bac9d2b1dd8dd09b43719.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/9f3adf966431016d9d9a446b7ed1ac7cdb216f767e66bd51f1b728b8e4fb3130.jpg]]
+![[9f3adf966431016d9d9a446b7ed1ac7cdb216f767e66bd51f1b728b8e4fb3130.jpg]]
 
 **中文解析**：
 

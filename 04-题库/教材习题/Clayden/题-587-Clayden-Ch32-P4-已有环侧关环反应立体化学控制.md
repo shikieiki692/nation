@@ -30,21 +30,21 @@ source_grade: B
 
 **【原文】**What controls the stereochemistry of this product? You are advised to draw the mechanism first and then consider the stereochemistry.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/c157eb0db105a7ded3e35d0b270cce606b0573005fc8a49e954e9ddd3d3b2f6c.jpg]]
+![[c157eb0db105a7ded3e35d0b270cce606b0573005fc8a49e954e9ddd3d3b2f6c.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: Grignard reagents tend to do direct rather than conjugate addition to enones, and the product shows that the methyl group has done just that. But the OH group is in the wrong position to cyclize to the ester and there doesn't seem to be much scope for stereochemical control so we probably get a mixture of diastereoisomers.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/ae0dae7f5f350900f3a0d6a07be569c91a05442d91e26d8bec034326768a3309.jpg]]
+![[ae0dae7f5f350900f3a0d6a07be569c91a05442d91e26d8bec034326768a3309.jpg]]
 
 The first product is a tertiary allylic alcohol so it will lose water under the acidic work-up conditions to form a carbocation. Readdition of water to the other end of the allylic cation gives an alcohol that could cyclize to the final product.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/67fddee5edf22e4a15eb03ab3da5f051d07775a0c975df6ff59f823cd9b92b68.jpg]]
+![[67fddee5edf22e4a15eb03ab3da5f051d07775a0c975df6ff59f823cd9b92b68.jpg]]
 
 An alternative and probably better mechanism is that the ester, or the acid derived from it by hydrolysis, cyclizes onto the allylic cation. This cyclization gives the cis lactone directly from the allylic cation intermediate.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/6e33db3fed92b92483fe2d21c25fe8f57cb0a62aeff8435702d2855f905403d6.jpg]]
+![[6e33db3fed92b92483fe2d21c25fe8f57cb0a62aeff8435702d2855f905403d6.jpg]]
 
 **中文解析**：
 

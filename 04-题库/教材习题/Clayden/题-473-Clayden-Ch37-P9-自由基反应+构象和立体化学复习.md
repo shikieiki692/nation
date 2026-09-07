@@ -31,17 +31,17 @@ source_grade: B
 
 **【原文】**The last few stages of Corey's epibatidine synthesis are shown here. Give mechanisms for the first two reactions and suggest a reagent for the last step.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/a5a5fa1e03d819c70baf85072c8525ab194b6b2a7f78ff1ab13810b20d36b80e.jpg]]
+![[a5a5fa1e03d819c70baf85072c8525ab194b6b2a7f78ff1ab13810b20d36b80e.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The first step involves deprotonation of the rather acidic amide (the CF₃ group helps) and the displacement of the only possible bromide—the one on the opposite face of the six-membered ring as the $S_\mathrm{N}2$ reaction must take place with inversion.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/9bc00c6b8c9c103e417cd56ef2c95a9a6d49677bb342a602ec237b306acacd2b.jpg]]
+![[9bc00c6b8c9c103e417cd56ef2c95a9a6d49677bb342a602ec237b306acacd2b.jpg]]
 
 The second step is a standard dehalogenation by Bu₃SnH. AIBN generates Bu₃Sn· by hydrogen abstraction from the reagent and this removes the bromine. Make sure you complete the chain and do not use H· at any point.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/12e898c7f2cb4bb734c78fd341ff0661ed8807d540e8e49d89e423f6c5c267a7.jpg]]
+![[12e898c7f2cb4bb734c78fd341ff0661ed8807d540e8e49d89e423f6c5c267a7.jpg]]
 
 Finally we need to hydrolyse the amide. This normally requires strong acid or alkali but the CF₃ group makes this amide significantly more electrophilic than most and milder conditions can be used. Corey actually used NaOMe in methanol at 13 °C for two hours and got a yield of 96%. Any reasonable conditions you may have chosen would be fine too.
 

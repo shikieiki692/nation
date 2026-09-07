@@ -31,23 +31,23 @@ source_grade: B
 
 **【原文】**Explain how this highly strained ketone is formed, albeit in very low yield, by these reactions. How would you attempt to make the starting material? (Intramolecular carbene insertion is a powerful way to make cage compounds.)
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/81c39fba9c75474acde254df9a7cc4baa956e8728fcc3b05f92387db79c96963.jpg]]
+![[81c39fba9c75474acde254df9a7cc4baa956e8728fcc3b05f92387db79c96963.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: Oxalyl chloride makes the acid chloride, and diazomethane converts this into the diazoketone.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/7738afc06dba4739fd6d720342275e24d0d4fa3afc75b54f3efc0418989f3554.jpg]]
+![[7738afc06dba4739fd6d720342275e24d0d4fa3afc75b54f3efc0418989f3554.jpg]]
 
 Now the carbene chemistry. Treatment with Cu(I) removes nitrogen and forms the carbene. Remarkably, this is able to reach across the molecule and insert into the alkene, thus forming one three- and two new four-membered rings in one step. You will not be surprised at the yield: 10%.
 
 This very strained ketone was used in vain while attempting to make tetrahedrane by G. Maier and group (Angew. Chem. Int. Ed. Engl., 1983, 22, 990).
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/e0f15246e5e84a1c89baac66402f2e8a00a86e1be80cf05c290e7a6cc3464c97.jpg]]
+![[e0f15246e5e84a1c89baac66402f2e8a00a86e1be80cf05c290e7a6cc3464c97.jpg]]
 
 How would you attempt to make the starting material? The original workers used another carbene reaction—the Cu(I) catalysed insertion of a diazoester into bis-trimethylsilyl acetylene.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/736bf2b5bd40c3531d3e654655b60fb76fdc64e4372efd0f5e5b3b195de26823.jpg]]
+![[736bf2b5bd40c3531d3e654655b60fb76fdc64e4372efd0f5e5b3b195de26823.jpg]]
 
 **中文解析**：
 

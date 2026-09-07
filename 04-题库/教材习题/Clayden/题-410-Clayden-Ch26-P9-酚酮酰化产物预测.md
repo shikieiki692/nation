@@ -27,7 +27,7 @@ source_grade: B
 
 Acylation of the phenolic ketone gives compound A, which is converted into an isomeric compound B in base. Cyclization of B gives the product shown. Suggest mechanisms for the reactions and structures for A and B.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/ff69be955dedbd43a841233d5e82cd733ac0d856359868b5db69b015ae777df4.jpg]]
+![[ff69be955dedbd43a841233d5e82cd733ac0d856359868b5db69b015ae777df4.jpg]]
 
 **原文题目**：Acylation of the phenolic ketone gives compound A, which is converted into an isomeric compound B in base. Cyclization of B gives the product shown. Suggest mechanisms for the reactions and structures for A and B.
 
@@ -35,11 +35,11 @@ Acylation of the phenolic ketone gives compound A, which is converted into an is
 
 **Answer (English)**: The starting material is C₈H₈O₂ so A has an extra C₇H₄O. This looks like the addition of PhCOCl with the loss of HCl. The most obvious reaction is acylation of the phenolic oxygen rather than enolate formation as OH is much more acidic than CH and pyridine is a weak base. This phenol is unusually acidic as the carbonyl group helps to stabilize the anion. Compound A is simply the benzoate ester of the phenol. Treatment with KOH isomerizes A to B and this is the heart of the problem. An intramolecular acylation of the only possible enolate can be catalysed by KOH even though it produces only a little enol as cyclization to form a six-membered ring is so easy.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/3ee859ee0814f532c66bacc53d90495dcae3d8ee150afe7c9685a4e5c22c904a.jpg]]
+![[3ee859ee0814f532c66bacc53d90495dcae3d8ee150afe7c9685a4e5c22c904a.jpg]]
 
 The final step is acid-catalysed and clearly involves the attack of the phenolic OH group on one of the ketones. This intramolecular reaction much prefers to form a six-membered ring rather than a strained four-membered ring, and dehydration gives an aromatic ring—two electrons each from the double bonds and two from a lone pair on oxygen making six in all.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/13770c933ca925fbdf207df980a1846cbadb12d04008aa4b9033a2f53a7a710d.jpg]]
+![[13770c933ca925fbdf207df980a1846cbadb12d04008aa4b9033a2f53a7a710d.jpg]]
 
 **中文解析**：
 

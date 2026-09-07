@@ -29,7 +29,7 @@ source_grade: B
 
 **【原文】**The yellow crystalline antibiotic frustulosin was isolated from a fungus in 1978 and it was suggested the structure was an equilibrium mixture of A and B. Apart from the difficulty that the NMR spectrum clearly shows one compound and not an equilibrium mixture of two compounds, what else makes you unsure of this assignment? Suggest a better structure. Signals marked * exchange with D₂O.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/8923d0e1d186a455453a704119fb912a516fa96f45917c3458886a62a66ba46a.jpg]]
+![[8923d0e1d186a455453a704119fb912a516fa96f45917c3458886a62a66ba46a.jpg]]
 
 **Frustulosin:**
 
@@ -51,7 +51,7 @@ m/z 202 (100%), 174 (20%);
 
 ■ The true structure was later described with the help of NMR as you can read in R. C. Ronald et al., J. Org. Chem., 1982, 47, 2541 and M. S. Nair and M. Anchel, Phytochemistry, 1977, 16, 390, revised from M. S. Nair and M. Anchel, Tetrahedron Lett., 1975, 2641.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/7c952b30d8725308083d1f92da165b603cdf9a6017befd5b9cfe46baf429e5ac.jpg]]
+![[7c952b30d8725308083d1f92da165b603cdf9a6017befd5b9cfe46baf429e5ac.jpg]]
 
 **中文解析**：
 

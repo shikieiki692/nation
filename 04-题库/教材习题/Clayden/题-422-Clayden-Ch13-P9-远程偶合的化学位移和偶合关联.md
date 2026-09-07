@@ -33,11 +33,11 @@ source_grade: B
 
 **Answer (English)**: The ethyl group is easy to find — a typical 3H triplet at 1.2 ppm and a 2H quartet at 4.3 ppm. The large shift of the CH₂ group tells us it is next to O. The methyl group is also easy — a 3H singlet at 2.3 ppm, typical of a methyl group on an alkene. At the other end of the spectrum, the broad singlet at 12.5 ppm can only be the OH or the NH; the other is at 5.4 ppm. That leaves the three signals in the aromatic region: δ_H (ppm) 7.2 (1H, dd, J 9, 2 Hz), 7.5 (1H, d, J 9 Hz), and 8.4 (1H, d, J 2 Hz). The larger coupling is typical ortho and the small coupling typically meta:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/231586cb92bd0926f59d492aea623d6f868dd0b0280ce9d9b132a0717d525b2f.jpg]]
+![[231586cb92bd0926f59d492aea623d6f868dd0b0280ce9d9b132a0717d525b2f.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/2570b8066435cac2d13b9938342547dc552e589a932585fefb5c40c268d1245f.jpg]]
+![[2570b8066435cac2d13b9938342547dc552e589a932585fefb5c40c268d1245f.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/eba16415f54ce2d4487bf1c0a32a92db36f253911208d4c3797fe2974dfb3ae8.jpg]]
+![[eba16415f54ce2d4487bf1c0a32a92db36f253911208d4c3797fe2974dfb3ae8.jpg]]
 
 **中文解析**：
 

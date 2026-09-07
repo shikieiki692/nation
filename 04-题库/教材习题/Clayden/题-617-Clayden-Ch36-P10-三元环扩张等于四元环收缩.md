@@ -28,7 +28,7 @@ source_grade: B
 
 Give mechanisms for these reactions that explain any selectivity.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/a4f5bc835ed110fd2e7e740ff74b5c9e376ee7a271360958a529e7d20736b712.jpg]]
+![[a4f5bc835ed110fd2e7e740ff74b5c9e376ee7a271360958a529e7d20736b712.jpg]]
 
 **原文题目**：给出这些反应的机理，解释任何选择性。
 
@@ -36,15 +36,15 @@ Give mechanisms for these reactions that explain any selectivity.
 
 **Answer (English)**: The first mechanism is a pinacol rearrangement and the compound is symmetrical so it doesn't matter which alcohol is protonated. Both three- and four-membered rings are strained and the σ-bonds are more reactive than normal (they have a high energy HOMO). This makes ring contraction an easy reaction even though the strain is not relieved.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/908122168a069e7b174b260cc33a545ae18ab8e833d1bc2510c507dda50a1a84.jpg]]
+![[908122168a069e7b174b260cc33a545ae18ab8e833d1bc2510c507dda50a1a84.jpg]]
 
 The second example looks at first to be a similar pinacol rearrangement. But the resulting ketone cannot easily be transformed into the product.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/69be23a54c1a9daa7451b992f9fe0129dd5cf2a0359e533e499f45f7b9fe8437.jpg]]
+![[69be23a54c1a9daa7451b992f9fe0129dd5cf2a0359e533e499f45f7b9fe8437.jpg]]
 
 Breaking open one of the three-membered rings gets us off to a better start. This gives a hydroxy-ketone that can rearrange in a pinacol fashion with ring expansion of the remaining cyclopropane.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/ba1770da54e806149d0cc0a0b8b6c717e5a413df545007b51f6210c7caee70c7.jpg]]
+![[ba1770da54e806149d0cc0a0b8b6c717e5a413df545007b51f6210c7caee70c7.jpg]]
 
 **中文解析**：
 

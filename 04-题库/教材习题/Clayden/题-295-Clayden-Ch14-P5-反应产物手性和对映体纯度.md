@@ -27,13 +27,13 @@ source_grade: B
 
 In each case state, with explanations, whether the products of these reactions are chiral and/or enantiomerically pure.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/ea3441f0694f002bfac1f45a599df249dc64880a8bd2fc525684427b69d9313a.jpg]]
+![[ea3441f0694f002bfac1f45a599df249dc64880a8bd2fc525684427b69d9313a.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/9f742fb8a9ce50361285672b22fdcf56a32ff9ba2bd3b36b0fe9953ccf7cb749.jpg]]
+![[9f742fb8a9ce50361285672b22fdcf56a32ff9ba2bd3b36b0fe9953ccf7cb749.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/142332b0eae3aedfaefe159a08038c9b62944d227f0ae2d9aad6fee8b237de3d.jpg]]
+![[142332b0eae3aedfaefe159a08038c9b62944d227f0ae2d9aad6fee8b237de3d.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/01f258be777bb1bd6a77625a6f3ffa97cff8ca3c09799c4b04765fd7e287399c.jpg]]
+![[01f258be777bb1bd6a77625a6f3ffa97cff8ca3c09799c4b04765fd7e287399c.jpg]]
 
 **原文题目**：在每种情况下，说明反应产物是否有手性和/或对映体纯，并解释原因。
 

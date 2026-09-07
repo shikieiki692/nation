@@ -30,7 +30,7 @@ source_grade: B
 
 **【原文】**This unsaturated alcohol is perfectly stable until it is oxidized with Cr(VI): it then cyclizes to the product shown. Explain.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/a9b29e621adab696530a475e2a7b8def6134891d6fba8907eac2c1124ea47a96.jpg]]
+![[a9b29e621adab696530a475e2a7b8def6134891d6fba8907eac2c1124ea47a96.jpg]]
 
 **原文题目**：This unsaturated alcohol is perfectly stable until it is oxidized with Cr(VI): it then cyclizes to the product shown. Explain.
 
@@ -38,7 +38,7 @@ source_grade: B
 
 **Answer (English)**: The starting material might undergo a Diels-Alder reaction but the diene and the dienophile are poorly matched. Both have high energy HOMOs and there isn't a low energy LUMO in sight. Once the enone is formed, the alkene becomes electron-deficient: now the energies match well and cycloaddition is fast. The stereochemistry comes from an endo arrangement.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/8136793eabcb75086d29a9e366917034c456cb028c975480ef471e0cf716f366.jpg]]
+![[8136793eabcb75086d29a9e366917034c456cb028c975480ef471e0cf716f366.jpg]]
 
 **中文解析**：
 

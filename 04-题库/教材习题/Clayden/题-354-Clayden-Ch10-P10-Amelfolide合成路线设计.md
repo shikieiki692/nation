@@ -30,13 +30,13 @@ source_grade: B
 
 **【原文】**Amelfolide is a drug used to treat cardiac arrhythmia. Suggest how it could be made from 4-nitrobenzoic acid and 2,5-dimethylaniline.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/9be1d15280d1433d96ef7c56b85373ff494364fb7edc83ce5ec82a871c67070f.jpg]]
+![[9be1d15280d1433d96ef7c56b85373ff494364fb7edc83ce5ec82a871c67070f.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: It is tempting to try and react the amine directly with the acid, but unfortunately the only product this would give is the ammonium carboxylate salt: the amine deprotonates the acid, and the carboxylate anion that results is no longer electrophilic. With alcohols, esters can be formed from carboxylic acids under acid catalysis, but with amines the acid catalyst just protonates the amine, and it is no longer nucleophilic! The simplest solution is to convert the carboxylic acid to an acid chloride and allow that to react with the amine. Additional base will neutralize the HCl by-product.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/0b512546d274cae5082f1ac4d9169341f94793a043914fa9107b421567f4df39.jpg]]
+![[0b512546d274cae5082f1ac4d9169341f94793a043914fa9107b421567f4df39.jpg]]
 
 **中文解析**：
 

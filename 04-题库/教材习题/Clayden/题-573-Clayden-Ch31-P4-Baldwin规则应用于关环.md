@@ -27,7 +27,7 @@ source_grade: B
 
 Explain why this cyclization gives a preponderance (3:1) of the oxetane, though the tetrahydrofuran is much more stable.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/f5b5afb8cbab0c06e5d97bf03792f14d05df5bcf70bdc709fb7e44c20efb1cd7.jpg]]
+![[f5b5afb8cbab0c06e5d97bf03792f14d05df5bcf70bdc709fb7e44c20efb1cd7.jpg]]
 
 **原文题目**：Explain why the cyclization gives a preponderance (3:1) of the oxetane, though the tetrahydrofuran is much more stable.
 
@@ -35,13 +35,13 @@ Explain why this cyclization gives a preponderance (3:1) of the oxetane, though 
 
 **Answer (English)**: Iodine attacks the alkene and the OH group adds to the intermediate iodonium ion. Whether the oxetane or the tetrahydrofuran is formed depends on which end of the iodonium ion is attacked by the OH group. In terms of Baldwin's rules, oxetane formation is a simple 4-exo-tet reaction and is favoured. The THF formation is 5-exo-tet as far as the SN2 reaction is concerned, but in the transition state the nucleophile, the carbon atom under attack and the leaving group are also all in the same six-membered ring — there is disfavoured 6-endo-tet character. It is very difficult to get the two dotted lines in the transition state diagram at the required 180° to each other.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/1aeefbc2e98fad09a8b6aebd9afaca55049aff0a1ca246748c925e721d58c06a.jpg]]
+![[1aeefbc2e98fad09a8b6aebd9afaca55049aff0a1ca246748c925e721d58c06a.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/865950c5e3af9b723a16edfba2d28b978cc9fbf0a2309b6a55eab7c51a4bb65e.jpg]]
+![[865950c5e3af9b723a16edfba2d28b978cc9fbf0a2309b6a55eab7c51a4bb65e.jpg]]
 
 Each product has an all-trans arrangement of substituents around the ring. The two alkenes are diastereotopic and which one is attacked by iodine as well as on which face determines the stereochemistry. Iodine adds randomly and reversibly to both faces of both alkenes. Only when cyclization gives the most stable all-trans product does the reaction continue.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/4b701e8e917b80345b771f95e5c30b4640302d28e14de8048f06742438e260a1.jpg]]
+![[4b701e8e917b80345b771f95e5c30b4640302d28e14de8048f06742438e260a1.jpg]]
 
 **中文解析**：
 

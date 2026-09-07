@@ -27,9 +27,9 @@ source_grade: B
 
 Give mechanisms for these steps, commenting on the regioselectivity of the pericyclic step and the different regioselectivity of the two metals.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/691a44cd0d5694a5657abe15c29cdb5ed17c41a3dfb3ad503ecdb4ffbda0722a.jpg]]
+![[691a44cd0d5694a5657abe15c29cdb5ed17c41a3dfb3ad503ecdb4ffbda0722a.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/c37efedf0087cc75d000160f57130cd5677620a0f824c64fdd5494ec2e89bceb.jpg]]
+![[c37efedf0087cc75d000160f57130cd5677620a0f824c64fdd5494ec2e89bceb.jpg]]
 
 **原文题目**：Give mechanisms for these steps, commenting on the regioselectivity of the pericyclic step and the different regioselectivity of the two metals.
 
@@ -37,11 +37,11 @@ Give mechanisms for these steps, commenting on the regioselectivity of the peric
 
 **Answer (English)**: Grignard reagents generally prefer direct addition to conjugate addition, especially with unsaturated aldehydes. MnO₂ specializes in oxidizing allylic alcohols and is the gentle oxidant we need to produce the unstable enone.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/dfbe07ef89c942d772611a4ab4f71bc75042d926b42c718285d4ea03e2115ee4.jpg]]
+![[dfbe07ef89c942d772611a4ab4f71bc75042d926b42c718285d4ea03e2115ee4.jpg]]
 
 The pericyclic process comes next and it is a Nazarov reaction (p. 927 of the textbook), a conrotatory electrocyclic closure of a pentadienyl cation to give a cyclopentenyl cation. There is no stereochemistry and the only regiochemistry is the position of the alkene at the end of the reaction. It prefers the more substituted side of the ring.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/64cf3b60a2f1c82a1ebb18dd9fa9dcb1a78b49f9e9a7e5983f81d73536acc4ae.jpg]]
+![[64cf3b60a2f1c82a1ebb18dd9fa9dcb1a78b49f9e9a7e5983f81d73536acc4ae.jpg]]
 
 The final cuprate addition goes in a conjugate fashion as we should expect as this is what Cu(I) cuprates do. The cis 5,5 ring junction is much preferred to trans and can equilibrate on work-up by enolization.
 

@@ -28,11 +28,11 @@ source_grade: B
 
 On p. 479 of the textbook we explain the formation of 2,4,6-tribromophenol by bromination of phenol in water. It looks as though we can go no further as all the ortho and para positions are brominated. But we can if we treat the tribromo-compound with bromine in an organic solvent. Account for the formation of the tetrabromo-compound.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/887a3a3eb48c4ac44279d61c644cd3680e6e2adf30d31f674fd17f3f8f470e4a.jpg]]
+![[887a3a3eb48c4ac44279d61c644cd3680e6e2adf30d31f674fd17f3f8f470e4a.jpg]]
 
 The product is useful in brominations as it avoids using unpleasant Br₂. Suggest a mechanism for the following bromination and account for the selectivity.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/1b966b90d14c8263bbb229ea642b4f7c7135dd6f6f21f4eb9f8a0ae4de28d633.jpg]]
+![[1b966b90d14c8263bbb229ea642b4f7c7135dd6f6f21f4eb9f8a0ae4de28d633.jpg]]
 
 **原文题目**：教材中解释了苯酚在水中溴化形成2,4,6-三溴苯酚。看起来无法继续，因为所有邻位和对位都被溴化了。但如果在有机溶剂中用溴处理三溴化物，可以形成四溴化物。解释四溴化物的形成。
 
@@ -40,9 +40,9 @@ The product is useful in brominations as it avoids using unpleasant Br₂. Sugge
 
 **Answer (English)**: Phenol is so reactive that the fourth bromine adds in the para position. Now the molecule has a problem as there is no hydrogen on that carbon to be lost. So the phenolic hydrogen is lost instead. It is surprising but revealing that this loss of aromaticity is preferred to the alternative bromination at the meta position. In the second reaction, one of the reactive bromines in the para position is transferred to the amine. It could have added ortho or para to the NMe₂ group but CF₃ is small and NMe₂ is large, because the two methyl groups lie in the plane of the ring, so steric hindrance rules. The other product is recovered tribromophenol.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/ad34df6a19df82b124d92aa519216330c786d9ba18d9d3574770f7c893e8877c.jpg]]
+![[ad34df6a19df82b124d92aa519216330c786d9ba18d9d3574770f7c893e8877c.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/91789c16a1b284d2b3875e36ebd0c40c3ca9babc0564d9298a226d36e820c580.jpg]]
+![[91789c16a1b284d2b3875e36ebd0c40c3ca9babc0564d9298a226d36e820c580.jpg]]
 
 **中文解析**：
 

@@ -30,7 +30,7 @@ source_grade: B
 
 **【原文】**How would you synthesize these aromatic heterocycles?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/59b4d785024898ba99db5b3914409fa654fd0617f6218810a3b3fdd39709cfcd.jpg]]
+![[59b4d785024898ba99db5b3914409fa654fd0617f6218810a3b3fdd39709cfcd.jpg]]
 
 **原文题目**：How would you synthesize these five-membered aromatic heterocycles: a thiophene, a thiazole, and a pyrazole?
 
@@ -40,17 +40,17 @@ source_grade: B
 
 **Thiophene**: Removing the heteroatom from the thiophene reveals a 1,4-diketone to be made by one of the methods in chapter 28. We have chosen to propose an enamine and an α-bromoketone.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/62e5637e8740e75fc7cf2a9dd70a23c75637b0c046efff7c82675e829cb36ba5.jpg]]
+![[62e5637e8740e75fc7cf2a9dd70a23c75637b0c046efff7c82675e829cb36ba5.jpg]]
 
 **Thiazole**: We want to use a thioamide to make it. We should disconnect C-N and C-S bonds to give the thioamide and another α-bromoketone, remembering to let the nucleophiles exercise their natural preferences: sulfur attacking saturated carbon and nitrogen attacking the carbonyl group.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/b8aa7f36cfd528ade3613cc859addb07374a25ed592b7fb2e4fbd6368ee1e3b7.jpg]]
+![[b8aa7f36cfd528ade3613cc859addb07374a25ed592b7fb2e4fbd6368ee1e3b7.jpg]]
 
 **Pyrazole**: The two heteroatoms are joined together so we should keep them that way. We disconnect both C-N bonds revealing the hidden molecule of hydrazine (NH₂NH₂). We then need a 1,3-diketone so we need Claisen ester chemistry.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/64fc68b1b07e2b533e9ba092eaf474f4b5836338fc1e314a2673d6e1cad8f36b.jpg]]
+![[64fc68b1b07e2b533e9ba092eaf474f4b5836338fc1e314a2673d6e1cad8f36b.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/dc838647be70a2bb8096146b1da53c3d6b9eb699353305f0d19fe0916f105b54.jpg]]
+![[dc838647be70a2bb8096146b1da53c3d6b9eb699353305f0d19fe0916f105b54.jpg]]
 
 **中文解析**：
 

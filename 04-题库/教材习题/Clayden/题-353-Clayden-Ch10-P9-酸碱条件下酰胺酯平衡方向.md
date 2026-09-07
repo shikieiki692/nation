@@ -27,7 +27,7 @@ source_grade: B
 
 This reaction goes in one direction in acid solution and in the other direction in basic solution. Draw mechanisms for the reactions and explain why the product depends on the conditions.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/c6490c3614794e0110bfddb357aed98686c83252110200a4c9f50056682d7691.jpg]]
+![[c6490c3614794e0110bfddb357aed98686c83252110200a4c9f50056682d7691.jpg]]
 
 **原文题目**：This reaction goes in one direction in acid solution and in the other direction in basic solution. Draw mechanisms for the reactions and explain why the product depends on the conditions.
 
@@ -35,11 +35,11 @@ This reaction goes in one direction in acid solution and in the other direction 
 
 **Answer (English)**: The equilibrium we are concerned with is that between the two products and we can draw what would happen in neutral solution.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/c5c8b0b913bb21e3c0be42a8590c34a4bf297d642bc96e58240025f64dc0ae80.jpg]]
+![[c5c8b0b913bb21e3c0be42a8590c34a4bf297d642bc96e58240025f64dc0ae80.jpg]]
 
 The amine attacks the ester in the usual way to give the tetrahedral intermediate which decomposes with the loss of the better leaving group: phenols are reasonably acidic ($pK_{a}$ PhOH = 10) so the phenoxy anion is a much better leaving group than ArNH⁻. In strongly basic solution, the phenol product is fully deprotonated, so again, the equilibrium lies to the right. In acidic solution the starting amine is fully protonated, pulling the equilibrium back over to the left.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/714160e6ca2bf9e7570b5b9f0c3c6b4b26febbcce4a32b03aabc5daf8353be8b.jpg]]
+![[714160e6ca2bf9e7570b5b9f0c3c6b4b26febbcce4a32b03aabc5daf8353be8b.jpg]]
 
 **中文解析**：
 

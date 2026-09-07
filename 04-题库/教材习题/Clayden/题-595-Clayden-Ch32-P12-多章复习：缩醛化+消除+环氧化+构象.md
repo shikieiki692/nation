@@ -30,13 +30,13 @@ source_grade: B
 
 **【原文】**Revision problem. Give mechanisms for each step in this synthesis and explain any regio- or stereochemistry.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/bdbb608e10038fc89db737e95366aec44947f41cd62c99ceb025881972cf12e2.jpg]]
+![[bdbb608e10038fc89db737e95366aec44947f41cd62c99ceb025881972cf12e2.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The first step is the standard formation of an acetal from a ketone. The epoxidation occurs from the bottom face of the ring (as drawn) because the axial methyl group blocks the top face. Ring opening with HF gives the trans di-axial product. The elimination is by the E1cB mechanism and the hydroxyl group is easily lost as it is axial.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/5aae3386a4b52e5b738d3fd00db4e9f610bca8dc35e3d488c9c7eb34ef5b431e.jpg]]
+![[5aae3386a4b52e5b738d3fd00db4e9f610bca8dc35e3d488c9c7eb34ef5b431e.jpg]]
 
 **中文解析**：
 

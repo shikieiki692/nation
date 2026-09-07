@@ -28,7 +28,7 @@ source_grade: B
 
 Draw mechanisms for these elimination reactions.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/5a0d28c710aed5456531b1e993d44efd7e0faaee7806b285f0a749aa86adce62.jpg]]
+![[5a0d28c710aed5456531b1e993d44efd7e0faaee7806b285f0a749aa86adce62.jpg]]
 
 **原文题目**：画出这些消除反应的机理。
 
@@ -36,7 +36,7 @@ Draw mechanisms for these elimination reactions.
 
 **Answer (English)**: Both are E2 reactions as the leaving groups are on primary carbons. In fact both of these reactions are in the textbook (pp. 387 and 391).
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/1685e8598373dff7bb4406ef3d32561a4d6057225e54c5de38e8789b1290269f.jpg]]
+![[1685e8598373dff7bb4406ef3d32561a4d6057225e54c5de38e8789b1290269f.jpg]]
 
 **中文解析**：
 

@@ -27,7 +27,7 @@ source_grade: B
 
 Two alternative structures are shown for the products of these reactions. Explain in each case how you would decide which product is actually formed. Several pieces of evidence will be required and estimated values are better than general statements.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/d363838d7e88aecf17d4c252cd24176b9a668af3ab0f317710a08b9e85e9487f.jpg]]
+![[d363838d7e88aecf17d4c252cd24176b9a668af3ab0f317710a08b9e85e9487f.jpg]]
 
 **Purpose of the problem**: To get you thinking the other way round: from structure to data. What are the important pieces of evidence?
 
@@ -37,11 +37,11 @@ Two alternative structures are shown for the products of these reactions. Explai
 
 In the first example, one main difference is the ring size, seen mainly in the IR. Both are esters (about 1745 cm⁻¹) but we should add 30 cm⁻¹ for the five-membered ring. The functional group next to OCH₂ is also different — an OH in one case and an ester in another. There will be other differences too of course.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/9f6a70a109c51206ab1bdd080f0cb70704f1b802dcf9356a0fd25ef8f940d96f.jpg]]
+![[9f6a70a109c51206ab1bdd080f0cb70704f1b802dcf9356a0fd25ef8f940d96f.jpg]]
 
 In the second case there are also differences in the IR C=O stretch between the aldehyde (about 1730 cm⁻¹) and the conjugated ketone (about 1680 cm⁻¹). The aldehyde proton and the number of protons next to oxygen make a clear distinction. There will also be differences in the ¹H and ¹³C NMR signals of the benzene rings as one is conjugated to a C=O group and the other is not. This reaction actually gave a mixture of both compounds.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/d4db760e19fa042b8f13a6ec8eb4ccc8aea821ecbc4990f693b6e8fd35ac4418.jpg]]
+![[d4db760e19fa042b8f13a6ec8eb4ccc8aea821ecbc4990f693b6e8fd35ac4418.jpg]]
 
 **中文解析**：
 

@@ -27,7 +27,7 @@ source_grade: B
 
 Stirring thioacetic acid with acrolein (propenaldehyde) in acetone gives a compound with the NMR data shown below. What is the compound?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/38332535a437e68bda057ecc70de37259baa62217c8e0951533075677a0458d3.jpg]]
+![[38332535a437e68bda057ecc70de37259baa62217c8e0951533075677a0458d3.jpg]]
 
 δH: 2.28 (3H, s), 3.58 (2H, d, J 8), 4.35 (1H, td, J 8, 6), 6.44 (1H, t, J 6), 7.67 (1H, d, J 6).
 
@@ -41,7 +41,7 @@ Stirring thioacetic acid with acrolein (propenaldehyde) in acetone gives a compo
 
 This work is described by Lukas Hintermann in J. Org. Chem., 2012, 77, 11345.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/cdd00c9239671376f87bd0bd6758d7f4b752ff41bd9712cab0a93764c3c8ba40.jpg]]
+![[cdd00c9239671376f87bd0bd6758d7f4b752ff41bd9712cab0a93764c3c8ba40.jpg]]
 
 **中文解析**：
 

@@ -29,17 +29,17 @@ source_grade: B
 
 **【原文】**Suggest how the following reactions might be made to work. You will probably have to select a specific enol equivalent.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/1698c3fee62f72cd9d24d3d83b2fb6ebea00d8b80e8104de5db17813c7ec4c7f.jpg]]
+![[1698c3fee62f72cd9d24d3d83b2fb6ebea00d8b80e8104de5db17813c7ec4c7f.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The first reaction is a standard acylation of an aldehyde creating a quaternary centre. You might have used a silyl enol ether but an enamine, such as one made from a cyclic secondary amine, is probably better.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/3959dce86c6b8816afbd866a3c45591f75eb0960fa4a3bd4874b4e1a67f1afcd.jpg]]
+![[3959dce86c6b8816afbd866a3c45591f75eb0960fa4a3bd4874b4e1a67f1afcd.jpg]]
 
 The second example might just go with simple base (MeO⁻) catalysis as the conjugated ketone enolate is much more stable than the enolate of the ester. However, it's probably safer to use a lithium enolate (or a silyl enol ether—though you'd then have to use an acid chloride as the electrophile).
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/703e21e55e9c5ce684cfe127d646d968818dce01500d37ed3dc92de17da58e98.jpg]]
+![[703e21e55e9c5ce684cfe127d646d968818dce01500d37ed3dc92de17da58e98.jpg]]
 
 **中文解析**：
 

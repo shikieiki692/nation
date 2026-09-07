@@ -30,9 +30,9 @@ source_grade: B
 
 **【原文】**Suggest structures for the products of these reactions.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/315fbe124daad03fe36d497b2df65b57eea5932ed13b9a135dde1de87b223383.jpg]]
+![[315fbe124daad03fe36d497b2df65b57eea5932ed13b9a135dde1de87b223383.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/f6a4d67ca7c14f49a7a7bd82d4b9f645b106c7f8ec6c85346a794714c5bb5218.jpg]]
+![[f6a4d67ca7c14f49a7a7bd82d4b9f645b106c7f8ec6c85346a794714c5bb5218.jpg]]
 
 **Compound A:**
 
@@ -52,7 +52,7 @@ C₁₂H₁₇O₂, IR (cm⁻¹) C-H and fingerprint only;
 
 **Answer (English)**: The coupling constants ³J_PH across the alkene are very large. Typically cis ³J_PH is about 20 and trans ³J_PH about 40. Geminal (²J_PH) are also large but more variable. In B there is a stereogenic centre, meaning that the hydrogen atoms and methyl groups in the ring are different: they are either on the same side as MeO or the same side as Ph. (The term we will introduce in chapter 31 to describe such groups is 'diastereotopic'.) We cannot say which H gives which signal.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/654d7b9c32ec6c866e8fcbd64f242a8ef326b7b0ff903df904101022e8302bd4.jpg]]
+![[654d7b9c32ec6c866e8fcbd64f242a8ef326b7b0ff903df904101022e8302bd4.jpg]]
 
 **中文解析**：
 

@@ -27,7 +27,7 @@ source_grade: B
 
 The NMR spectra of sodium fluoropyruvate in D₂O are given below. Are these data compatible with the structure shown? If not, suggest how the compound might exist in this solution.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/43be9dfaf2682d24bc4f466d062655b131e41fc87a56949285b4bb5ca1b42e47.jpg]]
+![[43be9dfaf2682d24bc4f466d062655b131e41fc87a56949285b4bb5ca1b42e47.jpg]]
 
 δH (ppm) 4.43 (2H, d, J 47 Hz);
 
@@ -39,7 +39,7 @@ The NMR spectra of sodium fluoropyruvate in D₂O are given below. Are these dat
 
 **Answer (English)**: The proton NMR spectrum is all right as we expect a large shift: from the chart on p. 276 of the textbook, we can predict 1.3 + 1(C=O) + 2(F) = 4.3 ppm and the coupling to fluorine is fine. The carbon NMR shows the carboxylate carbon at 176 ppm with a small coupling to F as it is so far away. The CH₂ carbon is at 86.1 ppm with a huge coupling as it is joined directly to F. So far, so good. But what about the C=O group itself? We should expect it at about 200 ppm but it is at 83.5 with the expected intermediate coupling. It cannot be a carbonyl group at all. So what could have happened in D₂O? The obvious answer is that a hydrate is formed from this very electrophilic carbonyl group.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/ce26f9534ebb3a8604d9937f49862aaf625accdc2cfca7725cb1dccb37683d78.jpg]]
+![[ce26f9534ebb3a8604d9937f49862aaf625accdc2cfca7725cb1dccb37683d78.jpg]]
 
 **中文解析**：
 

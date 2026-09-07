@@ -29,7 +29,7 @@ source_grade: B
 
 **【原文】**Suggest mechanisms for these reactions. (Three reactions where different nucleophiles — carboxylic acid, ester nitrogen, cyanide — trap intermediates formed from carbonyl compounds and amines/alcohols.)
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/3c6c410b3af3543f15d1a5834dc92171b2cd4b3539280691223cefde365ddd2f.jpg]]
+![[3c6c410b3af3543f15d1a5834dc92171b2cd4b3539280691223cefde365ddd2f.jpg]]
 
 ## 参考答案
 
@@ -37,15 +37,15 @@ source_grade: B
 
 **Reaction 1** — The first reaction starts with the usual attack of an alcohol on the aldehyde but the second nucleophile is the carboxylic acid. Though a poor nucleophile, it is good enough to react with an oxonium ion, particularly in a cyclization.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/9e6d14b4657b65ebbd2f75e7d0c2769a737ad709f1cec0ac2f350fdf3efdbb26.jpg]]
+![[9e6d14b4657b65ebbd2f75e7d0c2769a737ad709f1cec0ac2f350fdf3efdbb26.jpg]]
 
 **Reaction 2** — The second reaction starts with nucleophilic attack by the amine on the more electrophilic carbonyl group — the ketone. Imine formation is followed by cyclization and this second step is normal nucleophilic substitution of an ester (chapter 10). The imine double bond moves into the ring to secure conjugation with the ester.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/cbfe2a9079e50a99e4c99d8f54d7e522b41f1e01f87468147849ccce106635a2.jpg]]
+![[cbfe2a9079e50a99e4c99d8f54d7e522b41f1e01f87468147849ccce106635a2.jpg]]
 
 **Reaction 3** — The third example uses very simple molecules and again starts with imine formation. Cyanide is the nucleophile that captures the iminium ion and a second imine formation completes the mechanism.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/7fa3365681fe41e066cacbc62e37589a63beba6baf6bf073858afa58a751ae56.jpg]]
+![[7fa3365681fe41e066cacbc62e37589a63beba6baf6bf073858afa58a751ae56.jpg]]
 
 **中文解析**：
 

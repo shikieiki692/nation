@@ -30,9 +30,9 @@ source_grade: B
 
 **【原文】**Consider the question of Baldwin's rules for each of these reactions. Why do you think they are both successful?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/8b7102b164c0d42dfbfac6d4c255a97f927702e6c1c957b6383ffe2f852c81d9.jpg]]
+![[8b7102b164c0d42dfbfac6d4c255a97f927702e6c1c957b6383ffe2f852c81d9.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/f729aa79ce19ef2c037f316dce0588b84b9cbadfccb046fe8fc3ccb71979c66d.jpg]]
+![[f729aa79ce19ef2c037f316dce0588b84b9cbadfccb046fe8fc3ccb71979c66d.jpg]]
 
 **原文题目**：Consider Baldwin's rules for each reaction. Why are they both successful?
 
@@ -40,11 +40,11 @@ source_grade: B
 
 **Answer (English)**: The first ring system is 6-endo-trig. Manganese dioxide is a specific oxidant for allylic alcohols and conjugate addition of the amine to the enone gives the bicyclic amine. This works because endo reactions are just about all right when six-membered rings are formed and because conjugate addition is under thermodynamic control: as long as some of the reaction occurs, the product is the most stable compound in the mixture — any competing attack of the amine on the ketone gives a much less stable four-membered ring.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/2c5afe5f0eb081bb66ab22e29b97f63fdb58240602dfa9c579a4a762a0316794.jpg]]
+![[2c5afe5f0eb081bb66ab22e29b97f63fdb58240602dfa9c579a4a762a0316794.jpg]]
 
 The second example is again 6-endo-trig but it is acid-catalysed: protonation increases the reactivity of the enone and reduces its rigidity. Both these 6-endo-trig reactions occur through chair-like transition states rather like the example in the previous problem.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/e8614bd8530dade639d4e211accfd46c9fe5a9fea185429e3a309df13979fc9e.jpg]]
+![[e8614bd8530dade639d4e211accfd46c9fe5a9fea185429e3a309df13979fc9e.jpg]]
 
 **中文解析**：
 

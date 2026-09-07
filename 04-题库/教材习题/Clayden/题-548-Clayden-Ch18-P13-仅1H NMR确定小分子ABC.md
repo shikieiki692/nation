@@ -27,7 +27,7 @@ source_grade: B
 
 Identify the compounds produced in these reactions. Warning! Do not attempt to deduce the structures from the starting materials, but use the data. These molecules are so small that you can identify them from ¹H NMR alone.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/5f4d7774e681c2ce0e7a452b8641c9e3459c749be76a4b5a6a31942ba35c54e2.jpg]]
+![[5f4d7774e681c2ce0e7a452b8641c9e3459c749be76a4b5a6a31942ba35c54e2.jpg]]
 
 Data for A: C₄H₆; δH (ppm) 5.35 (2H, s) and 1.00 (4H, s)
 
@@ -41,7 +41,7 @@ Data for C: C₄H₆O; δH (ppm) 3.02 (4H, t, J 5 Hz) and 1.00 (2H, quintet, J 5
 
 **Answer (English)**: The very small shifts of cyclopropane protons may have worried you but they often have shifts of less than 1 ppm. Compounds A and C are simple enough but B may have amazed you. It is unstable but can be isolated and the two three-membered rings sit at right angles to each other, so as in problem 12 the protons on each side of the cyclopropane ring are different.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/8cfb0dd65405060bb67595ca98090dc67225baf8256df1b66eb3df83589de0f3.jpg]]
+![[8cfb0dd65405060bb67595ca98090dc67225baf8256df1b66eb3df83589de0f3.jpg]]
 
 **中文解析**：
 

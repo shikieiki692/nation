@@ -29,17 +29,17 @@ source_grade: B
 
 **【原文】**Comment on the selectivity shown in these reactions. (A study in chemoselectivity during carbene insertion into alkenes.)
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/86b273d046b34df37b486e655a33022595227fc55a539f852259c6004d335112.jpg]]
+![[86b273d046b34df37b486e655a33022595227fc55a539f852259c6004d335112.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The first reaction is a variation on Simmons-Smith cyclopropanation. Though strictly a carbenoid rather than a carbene, it delivers a CH₂ group from an organozinc compound bound to an oxygen atom, in this case the OMe group. Only that alkene reacts.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/1cf507af94abe9e6d8f8526bba28f7ad4f60c79c578f0397176e8ddab5acbe16.jpg]]
+![[1cf507af94abe9e6d8f8526bba28f7ad4f60c79c578f0397176e8ddab5acbe16.jpg]]
 
 The second cyclopropanation occurs at the only remaining alkene with a carbene generated from a diazoester. The stereoselectivity comes from attack on the opposite side of the ring from the already established cyclopropane.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/8957fd05d1d6015e174f6dafdd319c3895176786dc87cee51c30b4a809c0634b.jpg]]
+![[8957fd05d1d6015e174f6dafdd319c3895176786dc87cee51c30b4a809c0634b.jpg]]
 
 There is little selectivity for the stereochemistry of the CO₂Et group but this fortunately did not matter in the synthesis of a natural defence substance from a sponge by G. A. Schieser and J. D. White, J. Org. Chem., 1980, 45, 1864.
 

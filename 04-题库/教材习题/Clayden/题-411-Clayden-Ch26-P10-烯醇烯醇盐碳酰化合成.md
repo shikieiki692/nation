@@ -27,7 +27,7 @@ source_grade: B
 
 How could these compounds be made using the acylation of an enol or enolate as a key step?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/37a792af5f19d3775d9414472800a04c5b5993cc30b7139c5b61fd85f1202ed3.jpg]]
+![[37a792af5f19d3775d9414472800a04c5b5993cc30b7139c5b61fd85f1202ed3.jpg]]
 
 **原文题目**：How could these compounds be made using the acylation of an enol or enolate as a key step?
 
@@ -35,11 +35,11 @@ How could these compounds be made using the acylation of an enol or enolate as a
 
 **Answer (English)**: The first problem has two possible solutions by direct acylation, labelled A and B in the diagram. A would have to be controlled as the straight chain ester could self-condense. B needs no control as only the ketone can enolize. Diethyl carbonate (EtO)₂CO is more electrophilic than a ketone and only the wanted product can enolize again and form a stable enolate under the reaction conditions. However, route B adds only one carbon atom.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/a82a02f58c80fbc65aba8c4779c854b07e49f80a49571c758886cbda2a7ce5c5.jpg]]
+![[a82a02f58c80fbc65aba8c4779c854b07e49f80a49571c758886cbda2a7ce5c5.jpg]]
 
 Route A can be realized with either a lithium enolate or a silyl enol ether, as explained on p. 649 of the textbook, using an acid chloride as the electrophile.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/5b1f101fe8d21d589b9a475a0515cd31fb04f673f1cfd1d37db3d1830197aae6.jpg]]
+![[5b1f101fe8d21d589b9a475a0515cd31fb04f673f1cfd1d37db3d1830197aae6.jpg]]
 
 Route B requires the synthesis of the ketone starting material and this could be done by Grignard methods (chapter 9) or by acylation of an organocopper compound with an acid chloride. Acylation with diethyl carbonate requires no special control.
 

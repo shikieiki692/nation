@@ -27,7 +27,7 @@ source_grade: B
 
 Predict the most favourable conformation for these insect pheromones.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/e9fea2c08d38200ab920665539e3046dfb0b390c53dcd71bfc18c30d2405d2fc.jpg]]
+![[e9fea2c08d38200ab920665539e3046dfb0b390c53dcd71bfc18c30d2405d2fc.jpg]]
 
 **原文题目**：Predict the most favourable conformation for these insect pheromones (cyclic acetal structures).
 
@@ -35,7 +35,7 @@ Predict the most favourable conformation for these insect pheromones.
 
 **Answer (English)**: There are many good ways to draw these conformations and yet more not quite so good. The one thing you must do is place each acetal oxygen atom axial on the other ring to enjoy the full anomeric effect. The natural products are two compounds in the middle according to R. Baker et al., J. Chem. Soc., 1982, 601.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/4aa65e0528f381e150860696974aeeb80d830b76b57a19141b617f5e23607c06.jpg]]
+![[4aa65e0528f381e150860696974aeeb80d830b76b57a19141b617f5e23607c06.jpg]]
 
 **中文解析**：
 

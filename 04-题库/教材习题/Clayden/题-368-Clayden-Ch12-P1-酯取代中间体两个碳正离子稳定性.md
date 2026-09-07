@@ -27,7 +27,7 @@ source_grade: B
 
 In the comparison of stability of the last intermediates in the substitution at the carbonyl group of acid chlorides or anhydrides to make esters (chapter 10) we preferred one of these intermediates to the other:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/de6e7ee1c50a68f5d2aa53fdf37bf6eb0ec69a77f073033cfce822b81dad0414.jpg]]
+![[de6e7ee1c50a68f5d2aa53fdf37bf6eb0ec69a77f073033cfce822b81dad0414.jpg]]
 
 Why is the one more stable than the other? If you were to treat an ester with acid, which of the two would be formed?
 
@@ -39,7 +39,7 @@ Why is the one more stable than the other? If you were to treat an ester with ac
 
 The positive charge on the more stable cation is delocalized over both oxygen atoms making it more stable than the other that has a localized cation on one oxygen atom. Protonation of the ester gives the more stable cation as both oxygens combine to make the carbonyl oxygen more nucleophilic.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/80b04ed072eb654c46db4949fdce92f6e60254a0031571f5071d2277558f117f.jpg]]
+![[80b04ed072eb654c46db4949fdce92f6e60254a0031571f5071d2277558f117f.jpg]]
 
 **中文解析**：
 

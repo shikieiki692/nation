@@ -31,7 +31,7 @@ source_grade: B
 **【原文】**
 Suggest a mechanism for this reaction and explain why the product is so stable.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/3eef08810d03e5e5b72746bc99745c5746af922181203b8a214abfe1d90a9a06.jpg]]
+![[3eef08810d03e5e5b72746bc99745c5746af922181203b8a214abfe1d90a9a06.jpg]]
 
 ## 参考答案
 
@@ -41,11 +41,11 @@ If you have already read chapter 20 you may have preferred to form the enol of t
 
 The obvious place to start is cyclization of the phenol onto a ketone to form a six-membered ring. The product is a hemiacetal that will surely eliminate by a combination of hemiacetal hydrolysis and the E1cB mechanism.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/99df56a69596f43cd8937d376a84359b62a855538eef743bea21819eb658461c.jpg]]
+![[99df56a69596f43cd8937d376a84359b62a855538eef743bea21819eb658461c.jpg]]
 
 The final product is particularly stable as the right hand ring is aromatic. It has two alkenes and a lone pair on oxygen, making six electrons in all. If you prefer you can show the delocalization to make the ring more benzene-like.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/623931c415c594ec88741394729521b004b56d46230be40eebd5a1e6786b2b54.jpg]]
+![[623931c415c594ec88741394729521b004b56d46230be40eebd5a1e6786b2b54.jpg]]
 
 **中文解析**：
 

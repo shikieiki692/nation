@@ -31,7 +31,7 @@ source_grade: B
 **【原文】**
 Cyclopentadiene is treated with one equivalent of m-CPBA at low temperature, in buffered solution. Predict the product and explain the selectivity.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/ff024f867994b07cb762bd405c5891c688f233534d458434ee6389b398a84f80.jpg]]
+![[ff024f867994b07cb762bd405c5891c688f233534d458434ee6389b398a84f80.jpg]]
 
 ## 参考答案
 
@@ -43,15 +43,15 @@ The product is **cyclopentadiene monoepoxide** (3,6-epoxycyclopent-1-ene or 2-ox
 
 The first epoxidation removes one double bond from conjugation. The remaining double bond is now an **isolated** alkene, which is less electron-rich (lower HOMO) and therefore less reactive toward a second equivalent of m-CPBA. This is why low temperature and stoichiometric control allow clean **monoepoxidation**.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/6979d916a362583a0013b4325e4f5186f94083caeaa098cb40938748183f544e.jpg]]
+![[6979d916a362583a0013b4325e4f5186f94083caeaa098cb40938748183f544e.jpg]]
 
 HOMO of the diene
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/cca4d590fd3e2325d9eae20795c373f4e370059d3f628d0ecf5cfd9efcf99cec.jpg]]
+![[cca4d590fd3e2325d9eae20795c373f4e370059d3f628d0ecf5cfd9efcf99cec.jpg]]
 
 **Buffer** is needed because the epoxide product is acid-sensitive: m-CPBA generates m-chlorobenzoic acid as a byproduct, and acid can catalyze ring-opening of the epoxide. The buffer neutralizes the acid.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/f8fdd23275ddaeb1186bcef3489765ad4e71178a77ff8807f0719f919d15ad9d.jpg]]
+![[f8fdd23275ddaeb1186bcef3489765ad4e71178a77ff8807f0719f919d15ad9d.jpg]]
 
 danger of decomposition by allyl cation formation
 

@@ -31,11 +31,11 @@ source_grade: B
 **【原文】**
 The reactions were planned to give syntheses of these three molecules. In the event each reaction gave a different product from what was expected. What went wrong? Suggest syntheses that would give the target molecules.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/89c8ef98fe420d781adfd427ce0d04d310d358888466d967826e598bb363c0f5.jpg]]
+![[89c8ef98fe420d781adfd427ce0d04d310d358888466d967826e598bb363c0f5.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/e51d5c0cb5395719b5ae3986ebd7b6cba1db34b315fb77d0533dee2fd74a31fa.jpg]]
+![[e51d5c0cb5395719b5ae3986ebd7b6cba1db34b315fb77d0533dee2fd74a31fa.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/3d0bf839ad56ad9b5bc988e4ef87b8d7fdfcb2530536060e4be64699b81495dd.jpg]]
+![[3d0bf839ad56ad9b5bc988e4ef87b8d7fdfcb2530536060e4be64699b81495dd.jpg]]
 
 ## 参考答案
 
@@ -43,17 +43,17 @@ The reactions were planned to give syntheses of these three molecules. In the ev
 
 **Case 1**: Aldol reaction planned but enol formation occurred on the wrong side in acid. Use base instead.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/99d0f18597efefe4e1f48fa610702327b79cd7eb36899aea7d4c4183661259c8.jpg]]
+![[99d0f18597efefe4e1f48fa610702327b79cd7eb36899aea7d4c4183661259c8.jpg]]
 
 **Case 2**: Alkylation of the enolate of the ketone was planned but the chloro-ester forms its enolate more easily. The Darzens condensation occurred instead. Use a specific enolate of the ketone (enamine or beta-ketoester).
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/30dd6d450c3328ce73557cfed89622f4e61d287cfb269b5e74642115d1fc7e47.jpg]]
+![[30dd6d450c3328ce73557cfed89622f4e61d287cfb269b5e74642115d1fc7e47.jpg]]
 
 **Case 3**: The cyclopentanone self-condensed and ignored the enone. Use a specific enolate (beta-ketoester). The six-membered ring is formed by intramolecular aldol (Robinson annellation). Finally hydrolyze and decarboxylate.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/ce181ed1082884a6f134df531fd0f886b89f7a9be94681fae44c03a015b6e29e.jpg]]
+![[ce181ed1082884a6f134df531fd0f886b89f7a9be94681fae44c03a015b6e29e.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/14ad56d4d3367e87d132a30e349cbd4f66048bd1a9175219f747f2870005b619.jpg]]
+![[14ad56d4d3367e87d132a30e349cbd4f66048bd1a9175219f747f2870005b619.jpg]]
 
 **中文解析**：
 

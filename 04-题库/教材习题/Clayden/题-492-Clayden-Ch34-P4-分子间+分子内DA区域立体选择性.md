@@ -30,9 +30,9 @@ source_grade: B
 
 **【原文】**Explain the formation of single adducts in these reactions.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/7d7297687ec32f0a6197b06ac01948dad5094152dbcee699323f768e3bb3b4bf.jpg]]
+![[7d7297687ec32f0a6197b06ac01948dad5094152dbcee699323f768e3bb3b4bf.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/b56b524e7ac83f3a6c9c387fa97952ce6398ff3cc6b2dd0dd0ccb7b7d0671dae.jpg]]
+![[b56b524e7ac83f3a6c9c387fa97952ce6398ff3cc6b2dd0dd0ccb7b7d0671dae.jpg]]
 
 **原文题目**：Explain the formation of single adducts in these reactions.
 
@@ -42,17 +42,17 @@ source_grade: B
 
 **Reaction 1 (intermolecular)**: The stereochemistry is straightforward: it gives the endo product.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/1bc31c30acfb701ff1c3048779b67a32878156dbf08fffcacccf575e7ec09340.jpg]]
+![[1bc31c30acfb701ff1c3048779b67a32878156dbf08fffcacccf575e7ec09340.jpg]]
 
 These are early steps in Corey's synthesis of the plant hormone gibberellic acid (E. J. Corey et al., J. Am. Chem. Soc., 1978, 100, 8031).
 
 The regiochemistry is not quite so simple. The diene has the larger HOMO coefficient at the top end as drawn, so we must deduce that the largest LUMO coefficient in the unsymmetrical quinone is at the top left as drawn. This would result from the electron-donating MeO group making the top carbonyl group and the right-hand alkene less electrophilic, while the bottom carbonyl activates the top end of the left-hand alkene. Or, if you use the mnemonic, this is an 'ortho' product.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/1b4a4f962c3e9826ca0980e490aba1be0165973c7fb4646bc3810ac2ca718d62.jpg]]
+![[1b4a4f962c3e9826ca0980e490aba1be0165973c7fb4646bc3810ac2ca718d62.jpg]]
 
 **Reaction 2 (intramolecular)**: The second example is intramolecular so the regiochemistry is determined by that alone: the ester linkage between the diene and the dienophile is too short for any variation. This same link ('tether') also forces the dienophile to approach the diene from below. All that remains is the endo/exo question and the diagram shows that the product is endo with the carbonyl group tucked under the back of the diene.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/dbc0357f610e081aad837563bf37e917e5c58b2091f07af987ed534503defced.jpg]]
+![[dbc0357f610e081aad837563bf37e917e5c58b2091f07af987ed534503defced.jpg]]
 
 **中文解析**：
 

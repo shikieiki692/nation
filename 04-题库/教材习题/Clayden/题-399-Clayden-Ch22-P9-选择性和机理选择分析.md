@@ -30,17 +30,17 @@ source_grade: B
 
 **【原文】**Suggest mechanisms for these reactions, pointing out why you chose the pathways.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/f2f01536bca0d7ef89790b840bd115707b65d545e235e985950befe03fb1ff58.jpg]]
+![[f2f01536bca0d7ef89790b840bd115707b65d545e235e985950befe03fb1ff58.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: In the first reaction, the nucleophile adds in the 'wrong' position (i.e. where the leaving group isn't) so a benzyne mechanism is likely. Notice that the nucleophile and the benzyne are formed with the same strong base, that the anion is recycled and that the nucleophile adds to the benzyne to put the negative charge next to OMe (p. 524 in the textbook).
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/fed35e6be55f77d7555d8086f07b48201c449bd42b9911ffdba046db6a22b2c0.jpg]]
+![[fed35e6be55f77d7555d8086f07b48201c449bd42b9911ffdba046db6a22b2c0.jpg]]
 
 The second reaction is a straightforward substitution by the addition-elimination mechanism activated by the nitro group. The amino group is a spectator.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/ff2681776a24d898a067a845c799a75b4edd02fdcf147038aa6b7a31a91171c1.jpg]]
+![[ff2681776a24d898a067a845c799a75b4edd02fdcf147038aa6b7a31a91171c1.jpg]]
 
 **中文解析**：
 

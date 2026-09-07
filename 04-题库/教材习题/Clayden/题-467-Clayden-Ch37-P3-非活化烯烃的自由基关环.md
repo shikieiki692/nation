@@ -27,7 +27,7 @@ source_grade: B
 
 Suggest a mechanism for this reaction and comment on the ring size formed. What is the minor product likely to be?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/4ebdbbad19ede233382c45d3a917a832a649849be29f5311a0f7d6be1012769c.jpg]]
+![[4ebdbbad19ede233382c45d3a917a832a649849be29f5311a0f7d6be1012769c.jpg]]
 
 **原文题目**：Suggest a mechanism for this reaction and comment on the ring size formed. What is the minor product likely to be?
 
@@ -35,11 +35,11 @@ Suggest a mechanism for this reaction and comment on the ring size formed. What 
 
 **Answer (English)**: The peroxide is a source of benzoyloxy radicals (PhCO₂·) and these capture hydrogen atoms to give the most stable radical. The best one here is stabilized by both CN and CO₂Et. Cyclization onto the alkene gives mainly a secondary radical on a six-membered ring and this abstracts a hydrogen from starting material to complete the cycle.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/e001e2a2a129f7daff5c5d9aa73028fe62540bf98ecf86f3c89d0187a2b040fc.jpg]]
+![[e001e2a2a129f7daff5c5d9aa73028fe62540bf98ecf86f3c89d0187a2b040fc.jpg]]
 
 The alternative is to add to the more substituted end of the alkene. This gives a less stable primary radical, but this '5-exo' ring closure is often preferred because the orbital alignment is better. The minor product has a five-membered ring.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/61ac7af60a454517c89bac76663edd505e1dbf951d0cba67ead9f3345933c0c3.jpg]]
+![[61ac7af60a454517c89bac76663edd505e1dbf951d0cba67ead9f3345933c0c3.jpg]]
 
 **中文解析**：
 

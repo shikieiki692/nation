@@ -30,7 +30,7 @@ source_grade: B
 
 **【原文】**Explain the following observations. Heating this phenol brings it into rapid equilibrium with a bicyclic compound that does not spontaneously give the final product unless treated with acid. Heating this phenol brings it into rapid equilibrium with a bicyclic compound that does not spontaneously give the final product unless treated with acid.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/a4b2d333879f2cfa150470885d8c05d594d7c6fef3449a4f0905acc5bc825cca.jpg]]
+![[a4b2d333879f2cfa150470885d8c05d594d7c6fef3449a4f0905acc5bc825cca.jpg]]
 
 **原文题目**：Explain the following observations. Heating this phenol brings it into rapid equilibrium with a bicyclic compound that does not spontaneously give the final product unless treated with acid.
 
@@ -38,13 +38,13 @@ source_grade: B
 
 **Answer (English)**: The first step is a Cope rearrangement—a [3,3]-sigmatropic rearrangement made favourable in this case because the σ-bond that is broken is in a three-membered ring. The product cannot go directly to an aromatic compound as that would require a [1,3] (or a [1,7] depending on how you count) hydrogen shift. Such a shift would have to be antarafacial on the π-system and that is impossible in such a rigid structure.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/e342ae734a51ae67fbbca72a02c7e90dcce5234afa5287c34347ddd00cb903e3.jpg]]
+![[e342ae734a51ae67fbbca72a02c7e90dcce5234afa5287c34347ddd00cb903e3.jpg]]
 
 This reaction was carried out as part of a mechanistic study by E. N. Marvell and S. W. Almond, Tetrahedron Lett., 1979, 2777.
 
 The aromatization can happen instead by an ionic mechanism. If the extended enol is protonated at the remote end, it can lose a proton from the ring junction to reform the phenol.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/594ff9b7d00bcf56aa22892091a66eb803c00d963d19880864bd8434865d2e27.jpg]]
+![[594ff9b7d00bcf56aa22892091a66eb803c00d963d19880864bd8434865d2e27.jpg]]
 
 **中文解析**：
 

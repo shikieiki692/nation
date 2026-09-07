@@ -27,7 +27,7 @@ source_grade: B
 
 Predict the structure of the product of this Diels-Alder reaction.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/8c71deb121eeb7e7c8bd5fbc2c209ee2083fe2d12e2ee5a8816991fd33e6cf07.jpg]]
+![[8c71deb121eeb7e7c8bd5fbc2c209ee2083fe2d12e2ee5a8816991fd33e6cf07.jpg]]
 
 **原文题目**：Predict the structure of the product of this Diels-Alder reaction.
 
@@ -35,11 +35,11 @@ Predict the structure of the product of this Diels-Alder reaction.
 
 **Answer (English)**: The diene is electron-rich and will use its HOMO in the cycloaddition. It will therefore prefer the alkene with the lowest LUMO and that must be the unsaturated ester. Both substituents on the diene direct reaction to the same end. We can predict this from electron donation from either of the oxygen atoms of the diene and in other ways.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/44ee14a12f82a4a50132e8b0f355f156fd3ee29b7e6846defb91157894cb126f.jpg]]
+![[44ee14a12f82a4a50132e8b0f355f156fd3ee29b7e6846defb91157894cb126f.jpg]]
 
 The stereochemistry of the alkene (H and CO₂Me cis) will be faithfully reproduced in the product. The stereochemistry at the OMe group comes from endo attack — we should tuck the ester group underneath (or above — makes no difference) the diene so that it can overlap with the orbitals of the middle two atoms of the diene. If you also said that this product would eliminate methanol on workup so that only the stereochemistry of the ring junction matters, you'd be right.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/9c45ff5ef6dfd03ad8e5b42b5434b879670fb1b23f3fc1fe161e51019c272cc9.jpg]]
+![[9c45ff5ef6dfd03ad8e5b42b5434b879670fb1b23f3fc1fe161e51019c272cc9.jpg]]
 
 **中文解析**：
 

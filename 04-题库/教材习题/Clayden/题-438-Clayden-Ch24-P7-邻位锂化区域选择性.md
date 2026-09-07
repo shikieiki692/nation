@@ -30,7 +30,7 @@ source_grade: B
 **【原文】**
 The sequence of reactions below shows the preparation of a compound needed for the synthesis of a powerful anti-cancer compound. Explain the regioselectivity of the reactions. Why do you think two equivalents of BuLi are needed in the second step?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/68d294ad7fdb7d20677989acb3afcb4db6321b9b360adc7ef375205535b426e2.jpg]]
+![[68d294ad7fdb7d20677989acb3afcb4db6321b9b360adc7ef375205535b426e2.jpg]]
 
 ## 参考答案
 
@@ -38,15 +38,15 @@ The sequence of reactions below shows the preparation of a compound needed for t
 
 Both reactions involve ortholithiation—deprotonation of the aromatic ring to form an intermediate aryllithium. The deprotonation occurs where the BuLi can be 'guided in' by coordinating oxygen atoms. The methoxymethyl acetal, with its two oxygen atoms, is very good at doing this, so we expect deprotonation at one of the two positions ortho to this group. The other acetal is also a complexing group, so the deprotonation happens in between the two oxygen atoms.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/18bbed80f46d9a7e384b8a1bc35bfbcd9617221122cfb9fe5605acba306dca98.jpg]]
+![[18bbed80f46d9a7e384b8a1bc35bfbcd9617221122cfb9fe5605acba306dca98.jpg]]
 
 In the second step, deprotonation can again take place next to the methoxymethyl group. Two equivalents of BuLi are needed because the most acidic proton is in fact one of the protons of the methyl group: a benzyl lithium forms first, and then a more reactive aryllithium. When the electrophile (DMF) is added, it reacts only with the last formed, more basic anion.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/ce3aadf323af042e95a3d48f2b7e4ee215329c4ee2691257dc3e23470b6002a5.jpg]]
+![[ce3aadf323af042e95a3d48f2b7e4ee215329c4ee2691257dc3e23470b6002a5.jpg]]
 
 Phenyllithiums are more basic than benzyllithiums, because in benzyllithiums the 'anion' is conjugated with the ring; in phenyllithiums the 'anion' is perpendicular to the π system (like the lone pair in pyridine).
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/09a5e1c90858684c9dec4c5b304daf49d2efab218d2345d89f59704159ed533d.jpg]]
+![[09a5e1c90858684c9dec4c5b304daf49d2efab218d2345d89f59704159ed533d.jpg]]
 
 **中文解析**：
 

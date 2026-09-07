@@ -27,7 +27,7 @@ source_grade: B
 
 Show how the relationship between the alkene and the carboxylic acid influences your suggestions for a synthesis of these three compounds.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/d6d0fe55c1fcc85d0422197c54a7b7fa0cf75230f379eb27fc03e6f7c8087228.jpg]]
+![[d6d0fe55c1fcc85d0422197c54a7b7fa0cf75230f379eb27fc03e6f7c8087228.jpg]]
 
 **原文题目**：展示烯烃和羧酸之间的官能团关系如何影响这三种化合物的合成建议。
 
@@ -37,17 +37,17 @@ Show how the relationship between the alkene and the carboxylic acid influences 
 
 **Compound 1 (conjugated, 1,2-relationship)**: alpha,beta-unsaturated carbonyl, best made by aldol reaction using specific enol equivalent (Wittig reagent, malonate, or silyl enol ether).
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/00a3f6ac188620c7f93e94ce2b193601bec9cf2815d578d743a6c896accdf8a5.jpg]]
+![[00a3f6ac188620c7f93e94ce2b193601bec9cf2815d578d743a6c896accdf8a5.jpg]]
 
 **Compound 2 (non-conjugated, 1,3-relationship)**: Difficult because the alkene can slip into conjugation. Use cyanide ion as synthetic equivalent of -CO2H since then the electrophile is an allylic halide.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/0a6f9520ba25d98acbce3a64bd2d0af3f9c7ab5ad51c87bbe301e8f5bd86372d.jpg]]
+![[0a6f9520ba25d98acbce3a64bd2d0af3f9c7ab5ad51c87bbe301e8f5bd86372d.jpg]]
 
 **Compound 3 (terminal, 1,4-relationship)**: Best approached by alkylation of malonate with allyl bromide followed by hydrolysis and decarboxylation.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/0415aef7de4373b8e61653db14a83150e602020ee41a275d0720d18c0b641330.jpg]]
+![[0415aef7de4373b8e61653db14a83150e602020ee41a275d0720d18c0b641330.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/11d279346bee51b7888ebe3746cb4a08260e77791462e9fa8bcaf7bd7dd076b5.jpg]]
+![[11d279346bee51b7888ebe3746cb4a08260e77791462e9fa8bcaf7bd7dd076b5.jpg]]
 
 **中文解析**：
 

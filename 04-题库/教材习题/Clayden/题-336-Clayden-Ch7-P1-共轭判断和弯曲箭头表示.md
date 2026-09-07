@@ -27,7 +27,7 @@ source_grade: B
 
 Are these molecules conjugated? Explain your answer in any reasonable way.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/6ee5d142fc5753a5993fb68da92f62dd1e041e843900e48e88a475206a42472f.jpg]]
+![[6ee5d142fc5753a5993fb68da92f62dd1e041e843900e48e88a475206a42472f.jpg]]
 
 **原文题目**：Are these molecules conjugated? Explain your answer in any reasonable way.
 
@@ -35,21 +35,21 @@ Are these molecules conjugated? Explain your answer in any reasonable way.
 
 **Answer (English)**: The first compound is straightforward with one conjugated system (an enone) and a non-conjugated alkene. You could draw curly arrows to show the conjugation, and/or give a diagram to show the distribution of the electrons.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/bc3d8678fdf2a3f30c553a5a881c7527a9fa0dfb21b82f73f0e412f8858523cf.jpg]]
+![[bc3d8678fdf2a3f30c553a5a881c7527a9fa0dfb21b82f73f0e412f8858523cf.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/b699111eb7ceca189a68f020b2f65083851022ee644a3dd8b79b74a8c96c60d7.jpg]]
+![[b699111eb7ceca189a68f020b2f65083851022ee644a3dd8b79b74a8c96c60d7.jpg]]
 
 The last three compounds obviously form a related group with the same skeleton and only the alkene moved round. There is of course ester conjugation in all three and this is the only conjugation in the last molecule. The first has extended conjugation between the nitrogen lone pair and the carbonyl group and the second has simple conjugation between the alkene and the ester.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/1ed3e3d06d53024765c45963d54f7f013bb44048281307371f227d90a8b84da4.jpg]]
+![[1ed3e3d06d53024765c45963d54f7f013bb44048281307371f227d90a8b84da4.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/b4665f83ddbb60380a6e311e7395c972cea7a54a84442f96ccf91274d9a33c4f.jpg]]
+![[b4665f83ddbb60380a6e311e7395c972cea7a54a84442f96ccf91274d9a33c4f.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/31512445caae67154c36b0819afddaf4e0a8abd8bc13b1783fac60ac54475c19.jpg]]
+![[31512445caae67154c36b0819afddaf4e0a8abd8bc13b1783fac60ac54475c19.jpg]]
 
 The only conjugation in the last compound is the delocalization of the ester oxygen lone pair. This is of course there in all the other compounds too.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/6b9cea1dde180bc7cfffe3923149c89a6b99627d3e0a95187c92e8107db824a2.jpg]]
+![[6b9cea1dde180bc7cfffe3923149c89a6b99627d3e0a95187c92e8107db824a2.jpg]]
 
 **中文解析**：
 

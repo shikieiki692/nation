@@ -28,7 +28,7 @@ source_grade: B
 
 The 'pinacol' dimer of cyclobutanone rearranges with expansion of one of the rings in acid solution to give a cyclopentanone fused spiro to the remaining four-membered ring. Draw a mechanism for this reaction. Reduction of the ketone gives an alcohol that rearranges to a bicyclic alkene also in acid. Suggest a mechanism for this reaction and suggest why the rearrangements happen.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/07dd6d2ec352380fa7bf1cd3e7cb70ab1d5c8e50078bf052d2c216841517f26a.jpg]]
+![[07dd6d2ec352380fa7bf1cd3e7cb70ab1d5c8e50078bf052d2c216841517f26a.jpg]]
 
 **原文题目**：环丁酮的"频哪醇"二聚体在酸性溶液中重排，一个环扩张为环戊酮螺环到剩余的四元环。画出机理。将酮还原为醇后，该醇在酸性条件下重排为双环烯烃。建议机理并解释为什么重排容易发生。
 
@@ -36,11 +36,11 @@ The 'pinacol' dimer of cyclobutanone rearranges with expansion of one of the rin
 
 **Answer (English)**: The first reaction is a simple pinacol rearrangement. The diol is symmetrical so protonation of either alcohol and migration of either C–C bond give the product.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/009ea83ccb5c4f4af3e7467c26ad9296b3416728e84dfaaa647f5360d5da082c.jpg]]
+![[009ea83ccb5c4f4af3e7467c26ad9296b3416728e84dfaaa647f5360d5da082c.jpg]]
 
 Reduction to the alcohol is trivial and then acid treatment allows the loss of water and ring expansion of the remaining four-membered ring. Elimination gives the most substituted alkene. Both rearrangements occur very easily because of the relief of strain in going from a four- to a five-membered ring.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/c50f202a5c14fb46697873476276da860f5b552175b256907e74377b69d5497a.jpg]]
+![[c50f202a5c14fb46697873476276da860f5b552175b256907e74377b69d5497a.jpg]]
 
 **中文解析**：
 

@@ -31,7 +31,7 @@ source_grade: B
 **【原文】**
 Only one of these bromides eliminates to give alkene A. Why? Neither alkene eliminates to give alkene B. Why not?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/2ea55eec559ad4d1bc7e55e5c067fa0e221b583565d1c16d9be561e0eeb7cc2e.jpg]]
+![[2ea55eec559ad4d1bc7e55e5c067fa0e221b583565d1c16d9be561e0eeb7cc2e.jpg]]
 
 ## 参考答案
 
@@ -39,7 +39,7 @@ Only one of these bromides eliminates to give alkene A. Why? Neither alkene elim
 
 The first molecule has one H antiperiplanar to the Br atom so elimination can occur. The second has no hydrogens antiperiplanar to Br. Alkene B is a bridgehead alkene and cannot exist (see the textbook, pp. 389–390).
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/5adf006b43e676954dc910a5f911464d29e912368e6d44ef0280d31e93a288bf.jpg]]
+![[5adf006b43e676954dc910a5f911464d29e912368e6d44ef0280d31e93a288bf.jpg]]
 
 **中文解析**：
 

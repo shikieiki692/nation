@@ -29,17 +29,17 @@ source_grade: B
 
 **【原文】**Comment on the control over stereochemistry achieved in this sequence.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/c3d54b84412391e09bfca73ecc3c2c801463f831537180bc16095d09fe096df1.jpg]]
+![[c3d54b84412391e09bfca73ecc3c2c801463f831537180bc16095d09fe096df1.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The reducing agent could attack either side of the ring in the first step but by reacting with the OH group it can deliver hydride intramolecularly from the bottom face. The mesylation does not affect the stereochemistry as no bonds are formed or broken at any of the stereogenic centres.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/d70024d204ebe031add84353c32bbc1f2ecfab6afc615e59143b940a30525026.jpg]]
+![[d70024d204ebe031add84353c32bbc1f2ecfab6afc615e59143b940a30525026.jpg]]
 
 The reaction with ammonia probably starts with displacement of the primary mesylate and the second displacement is intramolecular. It is also stereospecific as $S_\mathrm{N}2$ reactions must occur with inversion and, fortunately, the amine is on the bottom face.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/687cc3334f6cd170aa4ddcd5ddb3fedb9d8879cffacc2e89fb8de91d0cbade36.jpg]]
+![[687cc3334f6cd170aa4ddcd5ddb3fedb9d8879cffacc2e89fb8de91d0cbade36.jpg]]
 
 **中文解析**：
 

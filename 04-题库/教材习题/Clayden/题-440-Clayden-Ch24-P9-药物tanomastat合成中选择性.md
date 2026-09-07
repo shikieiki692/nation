@@ -30,7 +30,7 @@ source_grade: B
 **【原文】**
 Explain the regioselectivity displayed in this synthesis of the drug tanomastat.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/139ca9d8ebf004213c696843725a5f602db04e39df62a126846ca9636ffe94fa.jpg]]
+![[139ca9d8ebf004213c696843725a5f602db04e39df62a126846ca9636ffe94fa.jpg]]
 
 ## 参考答案
 
@@ -38,7 +38,7 @@ Explain the regioselectivity displayed in this synthesis of the drug tanomastat.
 
 The first reaction is a Friedel-Crafts acylation. There are two rings and two carbonyl groups. One ring is chlorinated: chlorine has a deactivating effect on electrophilic aromatic substitution, so the non-chlorinated ring reacts. The two carbonyls differ in that the top one is (a) less hindered and (b) not conjugated, both of which contribute to its greater reactivity. There is also the question of regioselectivity in the way that the acylation occurs at the para position of the non-chlorinated ring. Aryl substituents are ortho,para directing, and steric factors favour the para over the ortho positions.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/ec7dfae6241ba68c378b031c01dad5bdee52ee8c26bce0bcb72586b7ed8597dc.jpg]]
+![[ec7dfae6241ba68c378b031c01dad5bdee52ee8c26bce0bcb72586b7ed8597dc.jpg]]
 
 In the second step, thiophenol gives the conjugate addition, rather than the direct addition product to either carbonyl group. Sulfur nucleophiles are soft, and this is typical behaviour for thiols.
 

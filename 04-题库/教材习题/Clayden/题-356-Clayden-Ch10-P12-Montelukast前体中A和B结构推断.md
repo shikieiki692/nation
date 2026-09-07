@@ -27,7 +27,7 @@ source_grade: B
 
 This sequence of reactions is used to make a precursor to the anti-asthma drug montelukast (Singulair). Suggest structures for compounds A and B.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/7d9ddaf303faf96d8215a7d19f8499f8f37013ab4762954024d2c8463c1bb233.jpg]]
+![[7d9ddaf303faf96d8215a7d19f8499f8f37013ab4762954024d2c8463c1bb233.jpg]]
 
 **原文题目**：This sequence of reactions is used to make a precursor to the anti-asthma drug montelukast (Singulair). Suggest structures for compounds A and B.
 
@@ -37,7 +37,7 @@ This sequence of reactions is used to make a precursor to the anti-asthma drug m
 
 Alcohols react with acid chlorides to form esters, so again we have the choice between a single or double ester formation. The IR tells us that one of the alcohols is still present, along with a carbonyl at $1710 \, cm^{-1}$, and the mass of the product is consistent with the structure below.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/80a8de3db012bd8f623b3504aaeb6c02be9d63a27f14080288764b3b974c469b.jpg]]
+![[80a8de3db012bd8f623b3504aaeb6c02be9d63a27f14080288764b3b974c469b.jpg]]
 
 **中文解析**：
 

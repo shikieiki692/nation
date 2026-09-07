@@ -29,9 +29,9 @@ source_grade: B
 
 **【原文】**Cyclooctatetraene (see p. 158 of the textbook) reacts readily with potassium metal to form a salt, K₂[cyclooctatetraene]. What shape do you expect the ring to have in this compound? A similar reaction of hexa(trimethylsilyl)benzene with lithium also gives a salt. What shape do you expect this ring to have?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/efc90a451b2ba516c3a7bd51843ff552fa9fd08d9c24f4400fbe3a905af0046b.jpg]]
+![[efc90a451b2ba516c3a7bd51843ff552fa9fd08d9c24f4400fbe3a905af0046b.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/3945852e3771aee6becfb5bbcd7f30ccd40af20dba28143bf278584bc7b2a74a.jpg]]
+![[3945852e3771aee6becfb5bbcd7f30ccd40af20dba28143bf278584bc7b2a74a.jpg]]
 
 ## 参考答案
 
@@ -39,10 +39,10 @@ source_grade: B
 
 Cyclooctatetraene is 'tub-shaped' and not planar, because its eight π electrons do not form a 2n+2 number. However, two atoms of potassium can reduce the cyclooctatetraene to a dianion by giving it two electrons, so now it has ten electrons, is aromatic, and is planar.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/0469a591393d181c93fb7e8ebbbe650bcecdc6d185c46e124bcbe1a4aaee4e32.jpg]]
+![[0469a591393d181c93fb7e8ebbbe650bcecdc6d185c46e124bcbe1a4aaee4e32.jpg]]
 one way of drawing the flat, aromatic dianion
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/1bec27bcc8beee9bc5f9843a033e39517955fad29f2c13de171cbfea0158acbf.jpg]]
+![[1bec27bcc8beee9bc5f9843a033e39517955fad29f2c13de171cbfea0158acbf.jpg]]
 this dianion is no longer flat
 
 When lithium reduces hexa(trimethylsilyl)benzene, the aromatic sextet is increased to a total of eight delocalized electrons, so the compound is no longer aromatic. The six-membered ring in the salt is no longer flat.

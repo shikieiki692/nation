@@ -27,11 +27,11 @@ source_grade: B
 
 Assign the ¹H NMR spectra of these compounds and explain the multiplicity of the signals.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/61dd5d69db1455b2e46d80d1a8f2047dc36d75a8c3e4c2f14b4b2f96f2cfddee.jpg]]
+![[61dd5d69db1455b2e46d80d1a8f2047dc36d75a8c3e4c2f14b4b2f96f2cfddee.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/13d2ecca927c63e2db4fc3de1822b9a52b6c8ab587ea5a472d9dd266b194ed27.jpg]]
+![[13d2ecca927c63e2db4fc3de1822b9a52b6c8ab587ea5a472d9dd266b194ed27.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/254268f6439e18c1a8cda84a7d1075c3f4e44f97339f9f5cf055c7149e9f85c5.jpg]]
+![[254268f6439e18c1a8cda84a7d1075c3f4e44f97339f9f5cf055c7149e9f85c5.jpg]]
 
 ## 参考答案
 
@@ -45,7 +45,7 @@ Assign the ¹H NMR spectra of these compounds and explain the multiplicity of th
 
 The spectrum can be assigned by integration and splitting pattern without even looking at the chemical shifts — just counting the number of neighbours and adding one gives the multiplicity.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/029e665d8c3554c612040bba946ba8234273e1747920ec416e1cde0847a4a33b.jpg]]
+![[029e665d8c3554c612040bba946ba8234273e1747920ec416e1cde0847a4a33b.jpg]]
 
 Second compound (isopropyl piperazine):
 - δ 1.08 (6H, d, J 7 Hz)
@@ -55,17 +55,17 @@ Second compound (isopropyl piperazine):
 
 An isopropyl group gives a typical 6H doublet at about δ 1 ppm and a 1H septuplet with larger chemical shift. Assigning the two triplets for the two CH₂ groups in the ring is not so easy as they are very similar.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/d02271e7c724a44d0352ba7417eae30acc50859a6c39b34af5faee8e9bfef4d5.jpg]]
+![[d02271e7c724a44d0352ba7417eae30acc50859a6c39b34af5faee8e9bfef4d5.jpg]]
 
 Assignment by chemical shift:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/f3ba7d1572fbf67dd5f3b26aeec47e9484ce23bee8afa08cf592a3f99071dc2d.jpg]]
+![[f3ba7d1572fbf67dd5f3b26aeec47e9484ce23bee8afa08cf592a3f99071dc2d.jpg]]
 
 Aromatic ketone: all five aromatic protons overlapping (described as '5H, m' — monosubstituted benzene ring). The CH₂ group next to the ketone has the largest shift.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/74a8483382d5fa6bc20eb73c2c4bf3c8a8978b89643f0a8f80a40615b71911f4.jpg]]
+![[74a8483382d5fa6bc20eb73c2c4bf3c8a8978b89643f0a8f80a40615b71911f4.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/22cf8d18ea2bf33de0bf0491ce21badf748e25f51399bdfbb399cf5b044c88d9.jpg]]
+![[22cf8d18ea2bf33de0bf0491ce21badf748e25f51399bdfbb399cf5b044c88d9.jpg]]
 
 **中文解析**：
 

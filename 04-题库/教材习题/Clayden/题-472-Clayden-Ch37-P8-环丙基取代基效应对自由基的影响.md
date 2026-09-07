@@ -33,33 +33,33 @@ source_grade: B
 
 **【原文】**Treatment of methylcyclopropane with peroxides at very low temperature (-150 °C) gives an unstable species whose ESR spectrum consists of a triplet with coupling of 20.7 gauss and fine splitting showing dtt coupling of 2.0, 2.6, and 3.0 gauss. Warming to a mere -90 °C gives a new species whose ESR spectrum consists of a triplet of triplets with coupling 22.2 and 28.5 gauss and fine splitting showing small ddd coupling of less than 1 gauss.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/447def2a19994913f34bdebdee64d059b04b5e7958c33cd45f54a552fc1e2e08.jpg]]
+![[447def2a19994913f34bdebdee64d059b04b5e7958c33cd45f54a552fc1e2e08.jpg]]
 
 If methylcyclopropane is treated with t-BuOCl, various products are obtained but the two major products are C and D. At lower temperatures more of C is formed and at higher temperatures more of D.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/9995ab72973f58d7280b3b213f99d17ea7a37872c80b47697b8a22dd7f0c6572.jpg]]
+![[9995ab72973f58d7280b3b213f99d17ea7a37872c80b47697b8a22dd7f0c6572.jpg]]
 
 Treatment of the more substituted cyclopropane below with PhSH and AIBN gives a single product in quantitative yield. Account for all these reactions, identifying A and B and explaining the differences between the various experiments.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/bfda658ea3825f5286fcca5119834ea534d3a909b241133904086fa0d6920927.jpg]]
+![[bfda658ea3825f5286fcca5119834ea534d3a909b241133904086fa0d6920927.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The peroxide is a source of t-BuO· radicals and these abstract a hydrogen from the methyl group of the hydrocarbon. The first spectrum is that of the cyclopropylmethyl radical. The odd electron is in a p orbital represented by a circle and the planar CH₂· group is orthogonal to the plane of the ring but the two Hᵃs are the same because of rapid rotation. The odd electron has a large coupling to the two hydrogens (Hᵃ) on the same carbon, a smaller doublet coupling to Hᵇ, and small couplings to the two Hᶜs and two Hᵈs. The coupling to Hᵇ is small because the p orbital containing the odd electron is orthogonal to the C–Hᵇ bond.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/a7e465cf8dd9a05a45daa9d7752d23b4fef48c2b20f23772bdc3a66f41504b63.jpg]]
+![[a7e465cf8dd9a05a45daa9d7752d23b4fef48c2b20f23772bdc3a66f41504b63.jpg]]
 
 Warming to -90 °C causes decomposition to an open-chain radical. The odd electron is coupled to the two hydrogens on its own carbon (Hᵃ) and those on the next carbon (Hᵇ) each giving a triplet (22.2 and 28.5). Coupling to the more remote hydrogens is small.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/fe227e13303417145cfb357e25f8747d4b21dc54b4d22d305dc393225526059c.jpg]]
+![[fe227e13303417145cfb357e25f8747d4b21dc54b4d22d305dc393225526059c.jpg]]
 
 Decomposition of the same hydrocarbon with t-BuOCl produces the same sequence of radicals but they can now be intercepted by the chlorine atom of the reagent, releasing more t-BuO· radicals and a radical chain is started. At lower temperatures the ring opening is slower so more of the cyclopropane is captured.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/46a300ff5c3a6bf7a7ca535c396051b8ae9a4691e4848917e82d8c7156ad3c19.jpg]]
+![[46a300ff5c3a6bf7a7ca535c396051b8ae9a4691e4848917e82d8c7156ad3c19.jpg]]
 
 The last example also produces a radical next to a cyclopropane ring but this time it can decompose very easily to give a stable secondary benzylic radical. This captures a hydrogen atom from PhSH releasing PhS· and maintaining an efficient radical chain. Ring opening of cyclopropanes is now a standard way of detecting radicals.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/6ef3a9fd93f406f1f10b7697ae9ca28122b6bd79717e2093c4e349cb7b95f29d.jpg]]
+![[6ef3a9fd93f406f1f10b7697ae9ca28122b6bd79717e2093c4e349cb7b95f29d.jpg]]
 
 **中文解析**：
 

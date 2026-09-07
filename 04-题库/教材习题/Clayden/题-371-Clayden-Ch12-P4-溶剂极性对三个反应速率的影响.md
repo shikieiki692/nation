@@ -29,7 +29,7 @@ source_grade: B
 
 **【原文】**What would be the effect of solvent changes on these reactions? Would the reactions be accelerated or retarded by a change from a polar to a non-polar solvent?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/46024414590bd7b65d18c6a47e10f44585fb69447e18aae1d6b257ee3362ce50.jpg]]
+![[46024414590bd7b65d18c6a47e10f44585fb69447e18aae1d6b257ee3362ce50.jpg]]
 
 ## 参考答案
 
@@ -37,11 +37,11 @@ source_grade: B
 
 It is essential to draw a mechanism for each reaction and to identify the rate-determining step in each case. The first two reactions are one-step processes.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/bae46a4caf4b32a5ac319d44a4c98a970cf352a56de6651cb71586f3ffa4b962.jpg]]
+![[bae46a4caf4b32a5ac319d44a4c98a970cf352a56de6651cb71586f3ffa4b962.jpg]]
 
 Now we need to draw the transition state for each reaction so that we can assess whether it is more or less polar than the starting materials.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/6f0918a0234252fb1fe4c9d4337423955e6f2ec4ee7c504e3ff8b1e3a46bac50.jpg]]
+![[6f0918a0234252fb1fe4c9d4337423955e6f2ec4ee7c504e3ff8b1e3a46bac50.jpg]]
 
 **Reaction 1**: Uncharged starting materials form a partly charged transition state. A polar solvent will stabilize the transition state and accelerate the reaction.
 
@@ -49,7 +49,7 @@ Now we need to draw the transition state for each reaction so that we can assess
 
 **Reaction 3**: This is a carbonyl substitution — ammonia attacks the carbonyl group to form a tetrahedral intermediate that decomposes with the loss of the better leaving group.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/d8412adfb691c1c2b0d967bb7199f6a2815f8423aa9c702eeeb8a389adbfe01c.jpg]]
+![[d8412adfb691c1c2b0d967bb7199f6a2815f8423aa9c702eeeb8a389adbfe01c.jpg]]
 
 The rate-determining step is the first: the usual one for carbonyl substitutions. In this step, neutral starting materials turn into a charged (zwitterionic) intermediate so the transition state is becoming charged and the reaction is accelerated by more polar solvents.
 

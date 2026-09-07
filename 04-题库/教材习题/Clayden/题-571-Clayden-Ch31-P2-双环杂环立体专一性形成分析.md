@@ -31,11 +31,11 @@ source_grade: B
 
 **【原文】**The Lolium alkaloids have a striking saturated heterocyclic skeleton. One way to make this skeleton appears below. Suggest a mechanism and explain the stereochemistry.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/e571d107f5c36064ab1a5b4bfd3182bd6bde6940cddbc9f7edab64fa928f6766.jpg]]
+![[e571d107f5c36064ab1a5b4bfd3182bd6bde6940cddbc9f7edab64fa928f6766.jpg]]
 
 Lolium alkaloid skeleton
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/f3eee3eec1375612223c55bee1c79d1624163091bb5c2249f3f2d99138627465.jpg]]
+![[f3eee3eec1375612223c55bee1c79d1624163091bb5c2249f3f2d99138627465.jpg]]
 
 **原文题目**：Suggest a mechanism for the formation of the Lolium alkaloid skeleton and explain the stereochemistry.
 
@@ -43,7 +43,7 @@ Lolium alkaloid skeleton
 
 **Answer (English)**: Bromine attacks the alkene to form a bromonium ion. If it has the right stereochemistry, it cyclizes but, if it doesn't, it reverts to starting materials. The reaction may remind you of halolactonization (p. 568 of the textbook). This particular reaction was used by S. R. Wilson et al., J. Org. Chem., 1981, 46, 3887, to help establish the correct structure of the Lolium alkaloids.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/41dae0715000a18e69d20d22c0f817a0a602ad5a3fb122715fba186b598b061b.jpg]]
+![[41dae0715000a18e69d20d22c0f817a0a602ad5a3fb122715fba186b598b061b.jpg]]
 
 this bromonium ion can't cyclize
 

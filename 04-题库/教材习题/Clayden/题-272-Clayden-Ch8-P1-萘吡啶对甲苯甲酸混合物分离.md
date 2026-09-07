@@ -27,11 +27,11 @@ source_grade: B
 
 Separate a mixture of naphthalene, pyridine, and p-toluic acid into its three components.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/b689ebe8b19cc4808e9a4229f11e1396bd05c29e24f1e4a1c7ce3024e8b45d75.jpg]]
+![[b689ebe8b19cc4808e9a4229f11e1396bd05c29e24f1e4a1c7ce3024e8b45d75.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/a64696d78f1ea1dc564a3b95c5e5d23fb04573ec2a537a04834ad9d0116de806.jpg]]
+![[a64696d78f1ea1dc564a3b95c5e5d23fb04573ec2a537a04834ad9d0116de806.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/0be07abe76d120d368972a992feae8330394150452833ff1e36dee74dd7e24a3.jpg]]
+![[0be07abe76d120d368972a992feae8330394150452833ff1e36dee74dd7e24a3.jpg]]
 
 **原文题目**：分离萘、吡啶和对甲苯甲酸的混合物，得到三个独立的组分。
 

@@ -29,25 +29,25 @@ source_grade: B
 
 **【原文】**Suggest how 2-pyridone might be converted into the amine shown. This amine undergoes nitration to give compound A with the NMR spectrum given. What is the structure of A? Why is this isomer formed?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/ff175fa4d92dce98f0cf83c31a71202b7354536539931b9c94e79ba8dcd11c3b.jpg]]
+![[ff175fa4d92dce98f0cf83c31a71202b7354536539931b9c94e79ba8dcd11c3b.jpg]]
 
 NMR of A: δH 1.0 (3H, t, J 7 Hz), 1.7 (2H, sextet, J 7 Hz), 3.3 (2H, t, J 7 Hz), 5.9 (1H, broad s), 6.4 (1H, d, J 8 Hz), 8.1 (1H, dd, J 8 and 2 Hz), and 8.9 (1H, d, J 2 Hz). Compound A was needed for conversion into the enzyme inhibitor below. How might this be achieved?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/10a25afb8551a31e3d337ad061c6fbcf204336638632a8b48becfd00c789c901.jpg]]
+![[10a25afb8551a31e3d337ad061c6fbcf204336638632a8b48becfd00c789c901.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The first step requires nucleophilic substitution so we could convert the pyridine into 2-chloropyridine and displace the chlorine with the amine.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/186d7563e29d8ea638685108dd0bdfe1ac3d5554a532c0a78327e8ab21776185.jpg]]
+![[186d7563e29d8ea638685108dd0bdfe1ac3d5554a532c0a78327e8ab21776185.jpg]]
 
 The nitration occurs only because this pyridine is activated by the extra amino group. Key points from NMR: (i) A has only three aromatic protons so nitration has occurred on the ring, (ii) there is only one coupling large enough to be between ortho hydrogens (8 Hz), and (iii) there is a proton that has only meta coupling (2 Hz) a long way downfield. All this fits the structure shown. The amino group directs ortho, para and para is preferred sterically.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/990666fa1ea20be2360699c050f154bee5b77e2d8f184ee7de7b1b5a33b3a89f.jpg]]
+![[990666fa1ea20be2360699c050f154bee5b77e2d8f184ee7de7b1b5a33b3a89f.jpg]]
 
 To get the enzyme inhibitor we need to reduce the nitro group to an amine and add the new chain to the other amine. This conjugate addition is best done first while there is only one nucleophilic amine. The ester is probably the best derivative to use.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/bf8501bf0dcb4554c0f76d2e30ea45ccd7f35ff636f758e711cc532e4a9db2bd.jpg]]
+![[bf8501bf0dcb4554c0f76d2e30ea45ccd7f35ff636f758e711cc532e4a9db2bd.jpg]]
 
 **中文解析**：
 

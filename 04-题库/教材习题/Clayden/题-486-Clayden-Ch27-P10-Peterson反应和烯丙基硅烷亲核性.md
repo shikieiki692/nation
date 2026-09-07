@@ -30,7 +30,7 @@ source_grade: B
 
 **【原文】**Give mechanisms for these reactions, explaining the role of silicon. Why is this type of lactone difficult to make by ordinary acid- or base-catalysed reactions?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/468d2fe2e407cfaf661454ae75b7b26520b6133ffecd3b2c1c6a4318883043d0.jpg]]
+![[468d2fe2e407cfaf661454ae75b7b26520b6133ffecd3b2c1c6a4318883043d0.jpg]]
 
 **原文题目**：Give mechanisms for these reactions, explaining the role of silicon. Why is this type of lactone difficult to make by ordinary acid- or base-catalysed reactions?
 
@@ -38,11 +38,11 @@ source_grade: B
 
 **Answer (English)**: Acylation of the Grignard reagent is followed by a second attack on the ketone as expected but the tertiary alcohol is a Peterson intermediate and eliminates to give the alkene.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/eccd8c8bf6b8bf5349eb3bac54c164a6f913d45312243aeb73f2a4d495015ea1.jpg]]
+![[eccd8c8bf6b8bf5349eb3bac54c164a6f913d45312243aeb73f2a4d495015ea1.jpg]]
 
 Now a Lewis acid catalysed reaction of the allyl silane via a β-silyl cation gives the lactone. The double bond in these 'exo-methylene' lactones easily moves into the ring in acid or base so mild conditions are ideal for these reactions.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/65920307d73bf6c7a8121fa72fbde36a3d3b9239d25a43e2f7d07b5d0c4a7c65.jpg]]
+![[65920307d73bf6c7a8121fa72fbde36a3d3b9239d25a43e2f7d07b5d0c4a7c65.jpg]]
 
 **中文解析**：
 

@@ -35,7 +35,7 @@ Give the products of Baeyer-Villiger rearrangements on these compounds, with rea
 
 **Answer (English)**: There are a few minor traps here that we're sure you've avoided. The first compound has two carbonyl groups but esters don't do the Baeyer-Villiger rearrangement so only the ketone reacts. The more substituted carbon migrates with retention of configuration. The aldehyde rearranges with migration of the benzene ring in preference to the hydrogen atom. The last compound is C₂ symmetric so it doesn't matter which group you migrate as long as you ensure retention of configuration. Take care when drawing the product as the migrating group has to be drawn the other way up.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/4149ade44ae3ae3cbcb6a303651fd3a81f375865aea39f2b585da68d1b1ab007.jpg]]
+![[4149ade44ae3ae3cbcb6a303651fd3a81f375865aea39f2b585da68d1b1ab007.jpg]]
 
 **中文解析**：
 

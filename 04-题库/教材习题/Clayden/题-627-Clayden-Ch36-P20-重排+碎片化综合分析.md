@@ -30,17 +30,17 @@ source_grade: B
 
 **【原文】**Revision content. Suggest mechanisms for these reactions to explain the stereochemistry.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/fa8cf15a7f8dd0d25191e436c57436199b7d0103da842e3faddee25ecb6c1905.jpg]]
+![[fa8cf15a7f8dd0d25191e436c57436199b7d0103da842e3faddee25ecb6c1905.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The ring opening and the rearrangement cannot be concerted because the group on the 'wrong' side of the molecule migrates. There must be a cationic intermediate. In contrast, attack of bromide occurs stereospecifically from the side opposite the migrating group, so this is presumably concerted with the rearrangement.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/53172f74308ba6d5c3b33719c14f82f756454a9dfb3e1ac875da8f73ce7bbced.jpg]]
+![[53172f74308ba6d5c3b33719c14f82f756454a9dfb3e1ac875da8f73ce7bbced.jpg]]
 
 The second reaction is a fragmentation. Silver(I) is an excellent Lewis acid for halogens and probably produces a secondary carbocation intermediate. Push from the OH group completes the fragmentation.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/37f2e79f2f6075910e34c63fb86ac1ed62bcea08a853c6d0b08b221e684487b3.jpg]]
+![[37f2e79f2f6075910e34c63fb86ac1ed62bcea08a853c6d0b08b221e684487b3.jpg]]
 
 > 参考文献：P. H. Boyle et al., J. Chem. Soc., Chem. Commun., 1971, 395.（起始环氧化物为天然α-蒎烯的环氧化物，因此起始物和产物都是单一对映体。）
 

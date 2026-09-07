@@ -31,7 +31,7 @@ Draw diagrams to represent the conjugation in these molecules. Draw two types of
 
 (b) Indicate with dotted lines and partial charges (where necessary) the partial double bond (and charge) distribution.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/487469204a5e240dcb2d90087fe16df2a28bcfafa783b76deac24378a6ee4ae4.jpg]]
+![[487469204a5e240dcb2d90087fe16df2a28bcfafa783b76deac24378a6ee4ae4.jpg]]
 
 **原文题目**：Draw diagrams to represent the conjugation in these molecules: (a) Show curly arrows linking at least two different ways of representing the molecule; (b) Indicate with dotted lines and partial charges the partial double bond and charge distribution.
 
@@ -41,17 +41,17 @@ Draw diagrams to represent the conjugation in these molecules. Draw two types of
 
 **Guanidinium ion (胍鎓离子)**: Treating each compound separately, the first (the guanidinium ion) is a very stable cation because of conjugation. The charge is delocalized onto all three nitrogen atoms as the first three structures show. Each nitrogen has an equal positive charge so the fourth diagram shows one third + on each.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/6389dcb368b9832b5ed3a157bbb12c2b0de3a6c17732eeebee076034ace78e67.jpg]]
+![[6389dcb368b9832b5ed3a157bbb12c2b0de3a6c17732eeebee076034ace78e67.jpg]]
 
 **Enolate anion (烯醇盐)**: The second compound is an enolate anion. The negative charge is delocalized throughout the molecule, mostly on the oxygens but some on carbon. It is difficult to represent this with partial charges but the charges on the oxygens will be nearly a half each.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/3b4514c14eb5c59ef7edefea6f7a09d34f8adbc8c42e822f5f45829929b9cd2c.jpg]]
+![[3b4514c14eb5c59ef7edefea6f7a09d34f8adbc8c42e822f5f45829929b9cd2c.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/bce591b23c2fdeb7871b978b0cb87c763e33a13f022b5a82868f94562cedc410.jpg]]
+![[bce591b23c2fdeb7871b978b0cb87c763e33a13f022b5a82868f94562cedc410.jpg]]
 
 **Naphthalene (萘)**: The third compound is naphthalene. The structure drawn in the question is the best as both rings are benzene rings. The results of curly arrow diagrams show how naphthalene is delocalized all round the outer ring. These diagrams show the ten electrons in the outer ring — this is a 4n + 2 number and all three diagrams show that naphthalene is aromatic.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/5e1d3ce75a8c77b533f4435630f3d0b666ccf76957723bab2b58c533fd387001.jpg]]
+![[5e1d3ce75a8c77b533f4435630f3d0b666ccf76957723bab2b58c533fd387001.jpg]]
 
 **中文解析**：
 

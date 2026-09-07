@@ -37,7 +37,7 @@ $$
 
 **Answer (English)**: The aromatic rings are joined directly to the reacting nitrogen atoms, so the small ρ value cannot be explained by distance. The reaction must start with protonation of one of the nitrogens (fast equilibrium, large negative ρ for this step). The rate-determining step must then have a large positive ρ that nearly cancels out the large negative value. Attack by water on the protonated carbodiimide fits: the positive charge on N makes the carbon more electrophilic, giving a positive ρ for this step.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/4818893b71a09df41664bba638cfe1d0b8346ddb1d3ea0b91c46f619ce9c70dd.jpg]]
+![[4818893b71a09df41664bba638cfe1d0b8346ddb1d3ea0b91c46f619ce9c70dd.jpg]]
 
 The equilibrium ρ for protonation would be about -2.5 to -3, so the kinetic ρ for water attack would need to be about +2, giving a net ρ of -0.8. The rest involves proton transfers, hydrolysis of an imide, and decarboxylation.
 

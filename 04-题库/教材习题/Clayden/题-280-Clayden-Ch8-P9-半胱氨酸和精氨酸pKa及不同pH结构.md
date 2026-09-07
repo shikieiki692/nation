@@ -27,7 +27,7 @@ source_grade: B
 
 Draw the structures of cysteine and arginine at pH 1, 7, 10, and 14. Given pKa values: Cys (1.8, 8.3, 10.8), Arg (2.2, 9.0, 13.2).
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/416312e8ef601d47f6d2c035003c8011c66c5f8574ddef7d203126e70d91921b.jpg]]
+![[416312e8ef601d47f6d2c035003c8011c66c5f8574ddef7d203126e70d91921b.jpg]]
 
 **原文题目**：画出半胱氨酸和精氨酸在pH 1、7、10和14时的结构。已知pKa值：半胱氨酸（1.8、8.3、10.8），精氨酸（2.2、9.0、13.2）。
 
@@ -45,9 +45,9 @@ Draw the structures of cysteine and arginine at pH 1, 7, 10, and 14. Given pKa v
   - pH 10: CO2⁻, NH2 deprotonated, guanidinium protonated (net charge 0, zwitterion)
   - pH 14: CO2⁻, NH2, guanidine all deprotonated (net charge -1)
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/8431b9b3bb9911d21b822ffea72fe51fd8c04dfe5442cc162b4e97695f401a46.jpg]]
+![[8431b9b3bb9911d21b822ffea72fe51fd8c04dfe5442cc162b4e97695f401a46.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/454f8d4cb9b717bb1817d5c70a0720c7252ad3210bdb14959d0ad24b3d43f54b.jpg]]
+![[454f8d4cb9b717bb1817d5c70a0720c7252ad3210bdb14959d0ad24b3d43f54b.jpg]]
 
 **中文解析**：
 1. **半胱氨酸**（pKa = 1.8, 8.3, 10.8）：pH 1时全部质子化（净电荷+1）；pH 7时羧基去质子化（两性离子，净电荷0）；pH 10时氨基去质子化（净电荷-1）；pH 14时巯基也去质子化（净电荷-2）。

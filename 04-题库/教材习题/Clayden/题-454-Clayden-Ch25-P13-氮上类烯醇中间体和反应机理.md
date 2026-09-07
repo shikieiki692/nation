@@ -31,13 +31,13 @@ source_grade: B
 
 **【原文】**Give the structures of the intermediates in the following reaction sequence and mechanisms for the reactions.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/d354a1b040e4727178a03a13c60eb2013eb40ab7b475a65b9669daf2030fa533.jpg]]
+![[d354a1b040e4727178a03a13c60eb2013eb40ab7b475a65b9669daf2030fa533.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The first base removes the proton from nitrogen to make an enolate-like intermediate that reacts at nitrogen. Now that the NH is blocked, the second base makes the amide enolate that is alkylated on carbon.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/f26e5ad9c9e285d31d227217c986c1883854b7d5264fe16b77e96f9f16714540.jpg]]
+![[f26e5ad9c9e285d31d227217c986c1883854b7d5264fe16b77e96f9f16714540.jpg]]
 
 **中文解析**：
 

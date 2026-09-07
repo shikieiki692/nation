@@ -27,7 +27,7 @@ source_grade: B
 
 Suggest mechanisms for these reactions:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/f34494f453272f705f7ddc3f7d88331e3b0e8d26b6ca2d9ab8373d32f4482539.jpg]]
+![[f34494f453272f705f7ddc3f7d88331e3b0e8d26b6ca2d9ab8373d32f4482539.jpg]]
 
 **原文题目**：Suggest mechanisms for these reactions. (Two simple carbene reactions initiated by base.)
 
@@ -35,15 +35,15 @@ Suggest mechanisms for these reactions:
 
 **Answer (English)**: Going to the right we must remove the rather acidic proton from CHBr₃ to give the carbanion. This loses bromide to give dibromocarbene and insertion into cyclohexene gives the product.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/fcd08bae6a2356567023f6a5a0f1c39370b6db712571b0abf4e418ddfc3a7fc6.jpg]]
+![[fcd08bae6a2356567023f6a5a0f1c39370b6db712571b0abf4e418ddfc3a7fc6.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/10e13ef3a65bea35a698cb76011382b9fbbf8215d1cf8aac260bb61c0f24a76d.jpg]]
+![[10e13ef3a65bea35a698cb76011382b9fbbf8215d1cf8aac260bb61c0f24a76d.jpg]]
 
 The second reaction is very similar. α-Elimination of HCl gives a carbene that inserts into an alkene. These are the simplest reactions of carbenes and are very common.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/d8cbd42f13fe9e474873a0c82ef1df7c7308aa2102f476e80aa99d7e97cd6633.jpg]]
+![[d8cbd42f13fe9e474873a0c82ef1df7c7308aa2102f476e80aa99d7e97cd6633.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/a74c5f68e37578deca5eae2b4622fcc62e4ccf76dda64623ddeece17ae77729d.jpg]]
+![[a74c5f68e37578deca5eae2b4622fcc62e4ccf76dda64623ddeece17ae77729d.jpg]]
 
 **中文解析**：
 

@@ -27,16 +27,16 @@ source_grade: B
 
 The following compounds are considered to be aromatic. Account for this by identifying the appropriate number of delocalized electrons.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/bc7ff5a686743aa36dc5adc11b3ecd4907c0105975223af46d5511c7eadb0366.jpg]]
+![[bc7ff5a686743aa36dc5adc11b3ecd4907c0105975223af46d5511c7eadb0366.jpg]]
 indole
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/8af604f840a695df35de15bd534510553b41e397bd03bf74130d470262949110.jpg]]
+![[8af604f840a695df35de15bd534510553b41e397bd03bf74130d470262949110.jpg]]
 azulene
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/4b3207e881d4a6daeb9f413dbe612eb9f3315ca6f015afd27791c8276cd54e57.jpg]]
+![[4b3207e881d4a6daeb9f413dbe612eb9f3315ca6f015afd27791c8276cd54e57.jpg]]
 α-pyrone
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/76a726b771ad02a2ffd74e5563f2b9a3785004994fbbe89c72c17644201a5799.jpg]]
+![[76a726b771ad02a2ffd74e5563f2b9a3785004994fbbe89c72c17644201a5799.jpg]]
 adenine
 
 **原文题目**：The following compounds are considered to be aromatic. Account for this by identifying the appropriate number of delocalized electrons.
@@ -53,9 +53,9 @@ adenine
 
 **Adenine (腺嘌呤)**: Is one of the four bases which carry the genetic code in DNA. Its ten electrons arise as shown: eight from the double bonds and two from one of the nitrogen atoms in the five-membered ring. The other three nitrogens don't contribute their lone pairs, because they are not delocalized — like the lone pair in pyridine.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/3d111bab298e5c12b913170397a0d8f0439149a3f672f57257a4d1ec830bbf82.jpg]]
+![[3d111bab298e5c12b913170397a0d8f0439149a3f672f57257a4d1ec830bbf82.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/293b7e405986e3d2b30407b78f27e866adc7e0861b3658023571d5e60bb44e5f.jpg]]
+![[293b7e405986e3d2b30407b78f27e866adc7e0861b3658023571d5e60bb44e5f.jpg]]
 
 **中文解析**：
 

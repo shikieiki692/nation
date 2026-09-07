@@ -27,17 +27,17 @@ source_grade: B
 
 Draw conformational drawings for these compounds. State in each case why the substituents have the positions you give. To what extent could you confirm your predictions experimentally?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/5225985e7c3e5afaf3b04ea588aae6ee50615fc5bff5b1544b6b44312e82decf.jpg]]
+![[5225985e7c3e5afaf3b04ea588aae6ee50615fc5bff5b1544b6b44312e82decf.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The first two compounds have no choice about their conformation but the third does. The two functional groups prefer to be equatorial rather than axial.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/a1a1e9d4c520fe0fdc366910941cf12d388c04736bde2434d8d4f35517ce0a4b.jpg]]
+![[a1a1e9d4c520fe0fdc366910941cf12d388c04736bde2434d8d4f35517ce0a4b.jpg]]
 
 Confirming the conformations experimentally means measuring coupling constants in the proton NMR so we need to look at the vital protons and consider whether they can be seen in the spectrum.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/ecebdb1dbbf5430468f1f690ac9d74d9b419f9df9aa279786efcc8af88b94565.jpg]]
+![[ecebdb1dbbf5430468f1f690ac9d74d9b419f9df9aa279786efcc8af88b94565.jpg]]
 
 In the first molecule, proton H has two neighbours, one axial and one equatorial so it will appear as a double doublet with characteristic large axial/axial and small axial/equatorial couplings. By contrast the two marked equatorial Hs in the second compound have each got two axial and two equatorial neighbours and all the coupling constants will be about the same and small. They will both appear as narrow triplets of triplets but may be difficult to analyse. The important thing is that they have no large couplings. The two axial protons in the third example have each got two axial and two equatorial neighbours and will again appear as triple triplets but this time one triplet will have a large axial/axial coupling.
 

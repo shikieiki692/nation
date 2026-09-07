@@ -31,7 +31,7 @@ source_grade: B
 **【原文】**
 When an alkene containing an internal hydroxyl group is treated with Br₂, an intramolecular reaction occurs. Propose a mechanism. The product's NMR spectrum shows large J coupling constants. Explain what this tells you about the conformation and identify the positions of Br and Me groups.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/a5aa6fa8ff71829af9864d7d7edf6c874027c0066bf6c878163b9fd9611f3abb.jpg]]
+![[a5aa6fa8ff71829af9864d7d7edf6c874027c0066bf6c878163b9fd9611f3abb.jpg]]
 
 ## 参考答案
 
@@ -45,7 +45,7 @@ This tells us:
 - The ring is in a chair conformation.
 - **Br and Me are both equatorial** — because the C–H bonds on the same carbons are axial (J is large for axial H coupling to adjacent axial H). If Br or Me were axial, the adjacent C–H would be equatorial, giving a small J value.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/a0c9292d64431b3d7c1f7059b7404c33aec5488b5c30001ac3529e5c06d36e1b.jpg]]
+![[a0c9292d64431b3d7c1f7059b7404c33aec5488b5c30001ac3529e5c06d36e1b.jpg]]
 
 **中文解析**：
 

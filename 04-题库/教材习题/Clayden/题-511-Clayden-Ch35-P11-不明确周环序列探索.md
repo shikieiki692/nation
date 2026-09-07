@@ -30,7 +30,7 @@ source_grade: B
 
 **【原文】**Treatment of this keto-aldehyde (which exists largely as an enol) with the oxidizing agent DDQ (a quinone—see p. 764 of the textbook) gives an unstable compound that turns into the product shown. Explain the reactions and comment on the stereochemistry. (a quinone—see p. 764 of the textbook) gives an unstable compound that turns into the product shown. Explain the reactions and comment on the stereochemistry.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/d53ce0f2a484178dc2a651cb70eed0736edd2127d443fb95037e1ca6a9cc0843.jpg]]
+![[d53ce0f2a484178dc2a651cb70eed0736edd2127d443fb95037e1ca6a9cc0843.jpg]]
 
 **原文题目**：Treatment of this keto-aldehyde (which exists largely as an enol) with the oxidizing agent DDQ (a quinone—see p. 764 of the textbook) gives an unstable compound that turns into the product shown. Explain the reactions and comment on the stereochemistry.
 
@@ -40,7 +40,7 @@ source_grade: B
 
 This observation was vital in developing a synthesis of varucarin A, a natural product with antitumour activity. B. M. Trost and P. G. McDougal, J. Org. Chem., 1984, 49, 458.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/e0dd9b903a34b95f46b620684c2908378a520261cc8d31b073568bcc941a7f49.jpg]]
+![[e0dd9b903a34b95f46b620684c2908378a520261cc8d31b073568bcc941a7f49.jpg]]
 
 **中文解析**：
 

@@ -32,7 +32,7 @@ source_grade: B
 
 $\delta_{H}$ 1.21 (3H, d, J 7 Hz), 1.29 (3H, t, J 9), 1.60 (1H, t, J 6), 1.77 (1H, ddq, J 13, 6, 7), 2.16 (1H, dt, J 6, 13), 4.18 (2H, q, J 9), 6.05 (1H, d, J 20), and 6.62 (1H, dd, J 20, 13).
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/7b6e5fcd4da369d944bcf02d5a9f1dc472e11f1a9273e4772400236b015e3cca.jpg]]
+![[7b6e5fcd4da369d944bcf02d5a9f1dc472e11f1a9273e4772400236b015e3cca.jpg]]
 
 **原文题目**：Interpret the NMR of the cyclopropane subunit of ambruticin and determine its stereochemistry.
 
@@ -42,7 +42,7 @@ $\delta_{H}$ 1.21 (3H, d, J 7 Hz), 1.29 (3H, t, J 9), 1.60 (1H, t, J 6), 1.77 (1
 
 $\delta$ 1.21    $\delta$ 1.77
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/37d53721fb029a130122be2279268a54a703ab45c3dee5a2751f2a473ff51e40.jpg]]
+![[37d53721fb029a130122be2279268a54a703ab45c3dee5a2751f2a473ff51e40.jpg]]
 
 **中文解析**：
 

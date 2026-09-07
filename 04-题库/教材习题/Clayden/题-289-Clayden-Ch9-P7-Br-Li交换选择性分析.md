@@ -27,7 +27,7 @@ source_grade: B
 
 Why is it possible to make the lithium derivative A by Br/Li exchange, but not the lithium derivative B?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/03ecc795012228d55ab0c4e43ecf1dcc6d7b583d48cfb7c154662d029b6fcacd.jpg]]
+![[03ecc795012228d55ab0c4e43ecf1dcc6d7b583d48cfb7c154662d029b6fcacd.jpg]]
 
 **原文题目**：为什么可以通过 Br/Li 交换制备锂衍生物 A，却不能制备锂衍生物 B？
 

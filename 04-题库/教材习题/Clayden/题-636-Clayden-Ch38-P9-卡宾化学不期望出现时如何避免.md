@@ -27,7 +27,7 @@ source_grade: B
 
 Attempts to prepare compound A by phase-transfer catalysed cyclization required a solvent immiscible with water. When chloroform (CHCl₃) was used, compound B was formed instead and it was necessary to use the more toxic CCl₄ for success. What went wrong?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/7fa6dbfd3f3ca89f8e7c56cef981fee7e4ae8951dc4fbe3279faadb5a9fb3901.jpg]]
+![[7fa6dbfd3f3ca89f8e7c56cef981fee7e4ae8951dc4fbe3279faadb5a9fb3901.jpg]]
 
 **原文题目**：Attempts to prepare compound A by phase-transfer catalysed cyclization required a solvent immiscible with water. When chloroform (CHCl₃) was used, compound B was formed instead and it was necessary to use the more toxic CCl₄ for success. What went wrong? (Carbene chemistry is not always what is wanted: how do you avoid it?)
 
@@ -35,7 +35,7 @@ Attempts to prepare compound A by phase-transfer catalysed cyclization required 
 
 **Answer (English)**: Product B is clearly the adduct of product A and dichlorocarbene which must have come from the chloroform and base. The good news is that product A was evidently formed in the basic reaction mixture so, if we simply avoid a solvent that is also a carbene source, all is well.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/b05f30b77cb82f6c010acd8389ba38a65e0472ca86bae5c0703e3afaa822a009.jpg]]
+![[b05f30b77cb82f6c010acd8389ba38a65e0472ca86bae5c0703e3afaa822a009.jpg]]
 
 This chemistry was used to make new β-lactams at ICI by S. R. Fletcher and L. T. Kay, J. Chem. Soc., Chem. Commun., 1978, 903.
 

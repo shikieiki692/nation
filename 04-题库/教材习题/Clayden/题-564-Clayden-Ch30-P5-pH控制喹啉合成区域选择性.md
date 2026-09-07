@@ -29,13 +29,13 @@ source_grade: B
 
 **【原文】**Explain why these two quinoline syntheses from the same starting materials give (mainly) different products.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/3954533357ec146428360007de618034de7d57aa0b33be757b151b9cd2d4b703.jpg]]
+![[3954533357ec146428360007de618034de7d57aa0b33be757b151b9cd2d4b703.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: You have a choice here: either you first form an enol(ate) from butanone and do an aldol reaction with the aromatic ketone or you first make an imine and then form enamines from that. In either case, you would expect enol or enamine formation on the more substituted side in acid but the less substituted side in base.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/3057691438ee8568fd926f02a3bd1c1039819510d1890f03a46a8e48b57d97f3.jpg]]
+![[3057691438ee8568fd926f02a3bd1c1039819510d1890f03a46a8e48b57d97f3.jpg]]
 
 > This selective route to quinolines by the Friedländer synthesis was discovered by E. A. Fehnel, J. Org. Chem., 1966, 31, 2899.
 

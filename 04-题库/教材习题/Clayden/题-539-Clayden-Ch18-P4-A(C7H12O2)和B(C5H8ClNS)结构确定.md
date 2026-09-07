@@ -29,9 +29,9 @@ source_grade: B
 
 **【原文】**Suggest structures for the products of these reactions.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/2bb9a1672d5ef2afe82addd583cc537e16e28744920fa444eaf3a3e19020017d.jpg]]
+![[2bb9a1672d5ef2afe82addd583cc537e16e28744920fa444eaf3a3e19020017d.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/ab75a4c8464b7161ff340ef7318bb321b49e51a12dcdf0485e845c4107cab797.jpg]]
+![[ab75a4c8464b7161ff340ef7318bb321b49e51a12dcdf0485e845c4107cab797.jpg]]
 
 Compound A: C₇H₁₂O₂; IR 1725 cm⁻¹; δH (ppm) 1.02 (6H, s), 1.66 (2H, t, J 7 Hz), 2.51 (2H, t, J 7 Hz), and 4.6 (2H, s).
 
@@ -45,11 +45,11 @@ Compound B: m/z 149/151 (M⁺ ratio 1:3); IR 2250 cm⁻¹; δH (ppm) 2.0 (2H, qu
 
 **Compound A**: The starting material for A is C₇H₁₂O₃ and appears just to have lost an oxygen atom. As the reagent is NaBH₄, the chances are that two hydrogens have been added and the oxygen lost as a water molecule. The IR spectrum shows a carbonyl group and the frequency suggests an ester or a strained ketone. The NMR shows two joined CH₂ groups, one at 2.51 being next to a functional group, not O and so it must be C=O. There is also an unchanged CMe₂ group and an isolated CH₂ group next to oxygen at 3.9 ppm. There is only one reasonable structure.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/0d3eaaa9bb023bf3bc0e248c0e532b7dcddb9c739636faab010bf0f6e45890b1.jpg]]
+![[0d3eaaa9bb023bf3bc0e248c0e532b7dcddb9c739636faab010bf0f6e45890b1.jpg]]
 
 **Compound B**: The mass spectrum of compound B shows that it has chlorine in it, the IR shows a CN group and the proton NMR shows eight Hs. If we assume that no carbons have been lost, the most reasonable formula is C₅H₈ClNS. The compound has lost a water molecule. The NMR shows three linked CH₂ groups with triplets at the ends and a quintet in the middle. The shifts of the terminal CH₂s show that they are next to functional groups but not Cl. This means we must have a unit –SCH₂CH₂CH₂CN. All that remains is the isolated CH₂ group with a large chemical shift evidently joined to both the S and Cl. The large shift comes from 1.5 + 1 (S) + 2 (Cl) = 4.5 ppm. Again only one structure emerges.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/62ed077c6af4e53f173bd2db4e28af9ef0242e713192698471598d854b239c51.jpg]]
+![[62ed077c6af4e53f173bd2db4e28af9ef0242e713192698471598d854b239c51.jpg]]
 
 **中文解析**：
 

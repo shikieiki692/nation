@@ -27,11 +27,11 @@ source_grade: B
 
 Would the substituents in these molecules be axial, equatorial, or a mixture between the two?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/72c5ef9da0b3acea5f3794ccec1a81afebfc9830fd4cc062ad2dc8608ac2ff63.jpg]]
+![[72c5ef9da0b3acea5f3794ccec1a81afebfc9830fd4cc062ad2dc8608ac2ff63.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/84368df24a24665bd4a3fa4455f0d1c5cc040d9106fb584fb1b3a3ed5b013f69.jpg]]
+![[84368df24a24665bd4a3fa4455f0d1c5cc040d9106fb584fb1b3a3ed5b013f69.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/98bf8e7bc27f6a6dbfe484df208c2ace147bab38fb5e6908228d8084c4f3efc2.jpg]]
+![[98bf8e7bc27f6a6dbfe484df208c2ace147bab38fb5e6908228d8084c4f3efc2.jpg]]
 
 **原文题目**：这些分子中的取代基是轴向的、赤道的，还是两者的混合？
 
@@ -39,13 +39,13 @@ Would the substituents in these molecules be axial, equatorial, or a mixture bet
 
 **Answer (English)**: All three molecules have a free choice as the substituents aren't large and are about the same size. Note that all three molecules have their substituents 'trans' but in two they are both equatorial and in one they are axial/equatorial.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/c6f305492e65a35370f43c81e353621396bb814163d8ccecb8c667b1eeb8fcda.jpg]]
+![[c6f305492e65a35370f43c81e353621396bb814163d8ccecb8c667b1eeb8fcda.jpg]]
 both equatorial
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/d01567a9591bcd5f71368d62d34da85aebb77d78e215924508a61b1ae93abb37.jpg]]
+![[d01567a9591bcd5f71368d62d34da85aebb77d78e215924508a61b1ae93abb37.jpg]]
 about 50:50 -- one has to go axial
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/cc05e64dab4d75189b73d45b8ecac5bbcef89c092c446c0d022297216103d961.jpg]]
+![[cc05e64dab4d75189b73d45b8ecac5bbcef89c092c446c0d022297216103d961.jpg]]
 both equatorial
 
 **中文解析**：

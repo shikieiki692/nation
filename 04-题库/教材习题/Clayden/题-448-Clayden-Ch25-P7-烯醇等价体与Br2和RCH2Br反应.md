@@ -37,13 +37,13 @@ How would the enol(ate) equivalents we have just made react with (a) bromine and
 
 The two silyl enol ethers will react well with bromine and won't need Lewis acid catalysis as bromine is such a powerful electrophile — so powerful that it might be dangerous to react the lithium enolate directly with bromine and making the silyl enol ether first might be advisable.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/7a080c1bafbaa5759b3498bdd2e196b47fbaeedfac1e7df6d82f5a7086c70774.jpg]]
+![[7a080c1bafbaa5759b3498bdd2e196b47fbaeedfac1e7df6d82f5a7086c70774.jpg]]
 
 **(b) Reaction with primary alkyl halide:**
 
 In the reaction with the primary alkyl halide, the boot is on the other foot as there will be a good reaction with the lithium enolate but no reaction with the more stable silyl enol ethers. Lewis acid won't help here either as primary cations are unstable. Preliminary conversion into a lithium enolate or a 'naked' enolate (using fluoride ion) would be better.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/f4df5d72ca1318e5ba0b0ba5c967bfb3c6a83f90b1615c9aecade380e67f3fbe.jpg]]
+![[f4df5d72ca1318e5ba0b0ba5c967bfb3c6a83f90b1615c9aecade380e67f3fbe.jpg]]
 
 **中文解析**：
 

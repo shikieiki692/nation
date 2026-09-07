@@ -27,7 +27,7 @@ source_grade: B
 
 The compound below is the painkiller tramadol. Draw the most likely conformation of its six-membered ring.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/3876a5b9a96001a6a6628483cf5c5a24502caa8dce652d633a21aaeaec2f4b4d.jpg]]
+![[3876a5b9a96001a6a6628483cf5c5a24502caa8dce652d633a21aaeaec2f4b4d.jpg]]
 
 **原文题目**：下列化合物是止痛药曲马多（Tramadol）。画出其六元环最可能的构象。
 
@@ -35,7 +35,7 @@ The compound below is the painkiller tramadol. Draw the most likely conformation
 
 **Answer (English)**: As before, just draw a chair, then add substituents. Here we have one carbon with two substituents, but the large aryl ring will prefer to be equatorial. This also allows the amine substituent to be equatorial.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/b259e2a5c8757f142bf9ac3a8a6fb7f9f7bb5dd5243c727f3f19aa1fd1b90d48.jpg]]
+![[b259e2a5c8757f142bf9ac3a8a6fb7f9f7bb5dd5243c727f3f19aa1fd1b90d48.jpg]]
 
 **中文解析**：
 

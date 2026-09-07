@@ -30,13 +30,13 @@ source_grade: B
 
 **【原文】**Give a mechanism for this reaction, commenting on the position in the furan ring that reacts.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/6d8e34bc26694da3965962e3721da93473fd8c105298bda937bce3b23953fa9e.jpg]]
+![[6d8e34bc26694da3965962e3721da93473fd8c105298bda937bce3b23953fa9e.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: Furans normally prefer substitution at the α-positions (2 or 5) but one α-position is already blocked and the other is too far away to reach the allyl cation. Attack at the other end of the allylic system would give an eight-membered ring with a trans alkene in it. This would theoretically be possible but closure of a six-membered ring is much faster. In other words, the electrophile and nucleophile are tethered.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/16ab50799689a871b7903fa25953562d6edc306d614e8ed8409ec7886027f237.jpg]]
+![[16ab50799689a871b7903fa25953562d6edc306d614e8ed8409ec7886027f237.jpg]]
 
 **中文解析**：
 

@@ -28,7 +28,7 @@ source_grade: B
 
 Give a mechanism for the elimination reaction in the formation of tamoxifen, a breast cancer drug, and comment on the roughly 50:50 mixture of geometrical isomers (cis- and trans-alkenes).
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/437d2b3fa331671def6ebad51928d920f7db2ef9eb9b3a8e0780e8037b36943f.jpg]]
+![[437d2b3fa331671def6ebad51928d920f7db2ef9eb9b3a8e0780e8037b36943f.jpg]]
 
 **原文题目**：
 
@@ -38,7 +38,7 @@ Give a mechanism for the elimination reaction in the formation of tamoxifen, a b
 
 **Answer (English)**: The tertiary alcohol leaving group, the acid catalyst, and the 50:50 mixture all suggest E1 rather than E2. There is only one proton that can be lost and, as there is very little difference between the isomeric alkenes, equilibration probably gives the 50:50 mixture.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/c64a90abb6edfde420f1c0d1f24ed0b839b0a1f21a2a3410c5f3c9f3e798881e.jpg]]
+![[c64a90abb6edfde420f1c0d1f24ed0b839b0a1f21a2a3410c5f3c9f3e798881e.jpg]]
 
 **中文解析**：
 

@@ -30,13 +30,13 @@ source_grade: B
 
 **【原文】**Explain how these reactions give different isomers of the same product.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/f27c60a790165bcc000619196a8f34ec399250ed90e3d00bc58a9d57f6068ead.jpg]]
+![[f27c60a790165bcc000619196a8f34ec399250ed90e3d00bc58a9d57f6068ead.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: In each case we have nucleophilic attack on a carbonyl group with a neighbouring chiral centre. The Felkin-Anh analysis tells us first to put the largest group perpendicular to the carbonyl group and then to bring the nucleophile in alongside the smaller substituent. This is best shown as a Newman projection. In the first case it is better to rotate the front atom in the product so that the two Ph groups are at 180° and we can then draw the structure in the same arrangement.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/6c87e51418bcf54b96d03560e28a7dba312c2fbe4115b808a88e48fd71e5031a.jpg]]
+![[6c87e51418bcf54b96d03560e28a7dba312c2fbe4115b808a88e48fd71e5031a.jpg]]
 
 **中文解析**：
 

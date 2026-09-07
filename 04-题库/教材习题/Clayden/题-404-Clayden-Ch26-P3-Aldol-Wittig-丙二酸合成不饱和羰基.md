@@ -27,7 +27,7 @@ source_grade: B
 
 How would you synthesize the following compounds?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/c48e4ab960cf74f6ace7113f280d020682c2f58cd4e54ae55c66338517ce0b2e.jpg]]
+![[c48e4ab960cf74f6ace7113f280d020682c2f58cd4e54ae55c66338517ce0b2e.jpg]]
 
 **原文题目**：How would you synthesize the following compounds?
 
@@ -35,11 +35,11 @@ How would you synthesize the following compounds?
 
 **Answer (English)**: Just find the conjugated alkene and so find the hidden carbonyl group. In the first case, cyclohexanone provides two enols to react with benzaldehyde. The phenyl rings in the product lie trans to the carbonyl group so that they can be planar.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/88071c5a82b40d8f5702f1a9e2c79b44f7851b986097c3eb043b79ac47deef00.jpg]]
+![[88071c5a82b40d8f5702f1a9e2c79b44f7851b986097c3eb043b79ac47deef00.jpg]]
 
 In the second case, more options are available. Our solution suggests using a Wittig reaction for the first as we need the enolate of acetaldehyde (p. 628 in the textbook), and malonic acid for the second (p. 630 in the textbook). There are many alternatives such as using an aldol reaction for the first step, but with an excess of acetaldehyde, to compensate for self-condensation.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/5f56c02b07fdb43364efd04871537ba359a130f27ed757731c63511bdf12f84f.jpg]]
+![[5f56c02b07fdb43364efd04871537ba359a130f27ed757731c63511bdf12f84f.jpg]]
 
 **中文解析**：
 

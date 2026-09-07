@@ -28,7 +28,7 @@ source_grade: B
 
 How would you make these four compounds? Give your disconnections, explain why you chose them and then give reagents for the synthesis.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/227752bd8ff1473eec07166961b568a84c501578b6dce608a3ebb87d47a78037.jpg]]
+![[227752bd8ff1473eec07166961b568a84c501578b6dce608a3ebb87d47a78037.jpg]]
 
 **原文题目**：如何合成以下四种化合物？给出你的切断，解释为什么这样选择，然后给出合成试剂。
 
@@ -38,23 +38,23 @@ How would you make these four compounds? Give your disconnections, explain why y
 
 **Compound 1 (amine)**: Disconnect one C-N bond and prefer the one not to the benzene ring, aiming to use reductive amination as the best way to make amines.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/96c2002c78d98863a9d9e4537f2efa86c1b6e2e73431d6ff3287c188e4951e31.jpg]]
+![[96c2002c78d98863a9d9e4537f2efa86c1b6e2e73431d6ff3287c188e4951e31.jpg]]
 
 However the second aromatic amine can be made by nucleophilic aromatic substitution. The two nitro groups promote SNAr from the dinitro chloro compound made by direct nitration.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/110c25356700a9b12dd18ebc14a28304fc4d8d36cd1140527f853c355d8423e6.jpg]]
+![[110c25356700a9b12dd18ebc14a28304fc4d8d36cd1140527f853c355d8423e6.jpg]]
 
 Synthesis:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/bc42471c104e028184304f8f98d9fd73997b95c177b2f6af703c258bbd2b4b85.jpg]]
+![[bc42471c104e028184304f8f98d9fd73997b95c177b2f6af703c258bbd2b4b85.jpg]]
 
 **Compound 2 (ether)**: Prefer not to add the t-butyl group by SN2 and disconnect on the other side. The synthesis is trivial: mix the two reagents with base.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/a4fd0a979288b7f3808c4fb6df24dd2d1a2094a6967cd06943ae7574c7577ce8.jpg]]
+![[a4fd0a979288b7f3808c4fb6df24dd2d1a2094a6967cd06943ae7574c7577ce8.jpg]]
 
 **Compound 3 (sulfide)**: Use an SN2 reaction with a slight preference for the disconnection shown as the allylic halide is very reactive. A weak base suffices as SH is much more acidic than OH.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/3381306646917ee281a384586d97372d336a07ef9504b931e711c245e7f17279.jpg]]
+![[3381306646917ee281a384586d97372d336a07ef9504b931e711c245e7f17279.jpg]]
 
 **中文解析**：
 

@@ -27,11 +27,11 @@ source_grade: B
 
 Decomposition of this diazo compound in methanol gives an alkene A (C₈H₁₄O) whose NMR spectrum contains two signals in the alkene region: δ_H 3.50 (3H, s), 5.50 (1H, dd, J 17.9, 7.9), 5.80 (1H, ddd, J 17.9, 9.2, and 4.3), 4.20 (1H, m) and 1.3–2.7 (8H, m). What is its structure and geometry?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/be19e68495e7a96099da12da35aa07df8555c0c0bef843fe545a8a5727b32ed2.jpg]]
+![[be19e68495e7a96099da12da35aa07df8555c0c0bef843fe545a8a5727b32ed2.jpg]]
 
 When you have done that, suggest a mechanism for the reaction using this extra information: Compound A is unstable and even at 20 °C isomerizes to B. If the diazo compound is decomposed in methanol containing a diene, compound A is trapped as the adduct shown. Account for all these reactions.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/596b261b368152466a3a427d7c9ce85521094aebf6dee9b5440ae7ed3a067dac.jpg]]
+![[596b261b368152466a3a427d7c9ce85521094aebf6dee9b5440ae7ed3a067dac.jpg]]
 
 **原文题目**：Decomposition of this diazo compound in methanol gives an alkene A... What is its structure and geometry?... Account for all these reactions.
 
@@ -39,23 +39,23 @@ When you have done that, suggest a mechanism for the reaction using this extra i
 
 **Answer (English)**: The starting material is C₇H₁₀N₂ so it has lost nitrogen and gained CH₄O—one molecule of methanol. We can see the MeO group at δ_H 3.50 and the four CH₂ groups in the ring are still there (8H m at 1.3–2.7). All that is left is a multiplet at δ_H 4.2, obviously next to OMe, and a pair of alkene protons at δ_H 5.5 and 5.8, coupled with J 17.9—obviously a trans alkene.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/08289d37f00837f02a9077209c42f380c31028641026d960d739ad3e629f8dd2.jpg]]
+![[08289d37f00837f02a9077209c42f380c31028641026d960d739ad3e629f8dd2.jpg]]
 
 But these add up to C₂H₃ too much! Clearly the CH attached to OMe and the CH attached to the alkene are the same atom and the CH₂ at the other end of the alkene must be one end of the chain of four CH₂s. We now have a structure but it doesn't join up!
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/6b5f8481c8ce29fd7291dd8f9e8872e9e57dc00c357aeb6d4e4f5022b9124103.jpg]]
+![[6b5f8481c8ce29fd7291dd8f9e8872e9e57dc00c357aeb6d4e4f5022b9124103.jpg]]
 
 This is the test of your belief in spectroscopy—the dotted ends must join up to give A. Yes, this does put an E-alkene in a seven-membered ring, and it is difficult to draw, but you were warned that A is unstable.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/f93e13c3113f2b8f652528305ee475a2456a5d58742c78d3edc0264eb7b1f3e6.jpg]]
+![[f93e13c3113f2b8f652528305ee475a2456a5d58742c78d3edc0264eb7b1f3e6.jpg]]
 
 Now that we know the structure of A, it is easy enough to find a mechanism. Loss of nitrogen produces a carbene that gives an allene in a pericyclic process and this twisted compound (the two alkenes are at 90° to each other) and protonation gives the trans alkene as a cation that reacts with methanol to give A.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/04e21d6bd8bbdc2b00378f450938c4828cb4fdafda02fda1b0b1fcbfea6e689d.jpg]]
+![[04e21d6bd8bbdc2b00378f450938c4828cb4fdafda02fda1b0b1fcbfea6e689d.jpg]]
 
 The twisted alkene is unstable and rotates to the much more stable cis alkene even at 20 °C. It can rotate because the overlap between the p orbitals is weak as they are not parallel. Trapping in a Diels-Alder reaction preserves the trans stereochemistry.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/587f6060c5f5c5810cb2347e1e65d33bb26b80ce179dd2e7fd342eba8bf9891d.jpg]]
+![[587f6060c5f5c5810cb2347e1e65d33bb26b80ce179dd2e7fd342eba8bf9891d.jpg]]
 
 **中文解析**：
 

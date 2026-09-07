@@ -29,7 +29,7 @@ source_grade: B
 
 **【原文】**How would you make the starting material for these reactions? Treatment of the anhydride with butanol gives an ester that in turn gives two inseparable compounds on heating. On treatment with an amine, an easily separable mixture of an acidic and a neutral compound is formed. What are the components of the first mixture and how are they formed?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/8d578eb2c07926f07c06e2adc67f8385d7a4136eeddbc0eee7b126b64eaf7fe2.jpg]]
+![[8d578eb2c07926f07c06e2adc67f8385d7a4136eeddbc0eee7b126b64eaf7fe2.jpg]]
 
 **原文题目**：How would you make the starting material for these reactions? Treatment of the anhydride with butanol gives an ester that in turn gives two inseparable compounds on heating. On treatment with an amine, an easily separable mixture of an acidic and a neutral compound is formed. What are the components of the first mixture and how are they formed?
 
@@ -37,15 +37,15 @@ source_grade: B
 
 **Answer (English)**: The starting material is made by a photochemical [2+2] cycloaddition of acetylene and maleic anhydride. Treatment with butanol and base gives the monoester because, after butanol has attacked once, the product is the anion of a carboxylic acid and cannot be attacked again by the nucleophile.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/b49b5f0e0304cf3318bef483244f0d47fa85f365e622adaa4afc5077a112aece.jpg]]
+![[b49b5f0e0304cf3318bef483244f0d47fa85f365e622adaa4afc5077a112aece.jpg]]
 
 Heat opens the cyclobutene in a conrotatory four-electron electrocyclic reaction. As the two groups are cis on the cyclobutene, one must rotate outwards and one inwards. The two groups are similar but not the same so there is little selection and both products are formed.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/2eeae87c39602758bd1202b2851a8ad683edd26be4f03b4cc3ea1ed454fce868.jpg]]
+![[2eeae87c39602758bd1202b2851a8ad683edd26be4f03b4cc3ea1ed454fce868.jpg]]
 
 Treatment with the tertiary amine forms the anions of the carboxylic acids. The one from B can do a conjugate addition to the unsaturated ester and form a lactone but that of A is too far away and cannot react.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/c9cd8aa0be4be074bf8888fba92d455b7f8ded05dd19df043941e090567f6fc4.jpg]]
+![[c9cd8aa0be4be074bf8888fba92d455b7f8ded05dd19df043941e090567f6fc4.jpg]]
 
 **中文解析**：
 

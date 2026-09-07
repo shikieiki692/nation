@@ -28,7 +28,7 @@ source_grade: B
 
 Explain this series of reactions.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/70d19978f6626a6c8163c9ccc4a3b67babd9b0b8ea8cdafd1e0dc00b0129b6fd.jpg]]
+![[70d19978f6626a6c8163c9ccc4a3b67babd9b0b8ea8cdafd1e0dc00b0129b6fd.jpg]]
 
 **原文题目**：解释这一系列反应（酮→肟→Beckmann重排产物）。
 
@@ -36,7 +36,7 @@ Explain this series of reactions.
 
 **Answer (English)**: The first reaction forms the oxime by the usual mechanism (chapter 11). This reaction is under thermodynamic control so the OH group will bend away from the aryl substituent. Then we have the Beckmann rearrangement itself. The group anti to the OH group migrates from C to N and that gives the product after rehydration and adjustment of protons.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/0fb83f9537bbbc383c75f1327d638eaf5553e5f4eb95aa96e1726d33387b6388.jpg]]
+![[0fb83f9537bbbc383c75f1327d638eaf5553e5f4eb95aa96e1726d33387b6388.jpg]]
 
 This example comes from a general investigation into the Beckmann and the related Schmidt rearrangements by R. H. Prager et al., Aust. J. Chem., 1978, 31, 1989.
 

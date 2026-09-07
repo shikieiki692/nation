@@ -28,7 +28,7 @@ source_grade: B
 
 How would you make these compounds? Give your disconnections, explain why you chose them and then give reagents for the synthesis.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/887ee75926a57577152d55104884bb76c461c0ea19cdf673bded091881f76abd.jpg]]
+![[887ee75926a57577152d55104884bb76c461c0ea19cdf673bded091881f76abd.jpg]]
 
 **原文题目**：如何合成这些化合物？给出你的切断，解释为什么这样选择，然后给出合成试剂。
 
@@ -38,21 +38,21 @@ How would you make these compounds? Give your disconnections, explain why you ch
 
 **Compound 1 (alkyne)**: Disconnection next to the alkyne (but not on the side of the benzene ring) makes a simple synthesis.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/2eee06ccaea9700673a8ac326da17c8ade083e0ffc00d020dd14211dac154d1a.jpg]]
+![[2eee06ccaea9700673a8ac326da17c8ade083e0ffc00d020dd14211dac154d1a.jpg]]
 
 Synthesis:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/7ae0585fbc8552a557ebd09a9e8e2a7fe353aef3529ec49470b3957ecd02780d.jpg]]
+![[7ae0585fbc8552a557ebd09a9e8e2a7fe353aef3529ec49470b3957ecd02780d.jpg]]
 
 **Compound 2 (symmetric alcohol)**: The alcohol has symmetry. Use Grignard/organolithium chemistry and disconnect one or two of the identical groups using a ketone or ester as the electrophile. The double disconnection leads to a shorter synthesis.
 
 Analysis:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/e9b1c88d2f80a2fd5bdba3252131a507b6f5161f48df64b689907b1af1ba5192.jpg]]
+![[e9b1c88d2f80a2fd5bdba3252131a507b6f5161f48df64b689907b1af1ba5192.jpg]]
 
 Synthesis:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/decda7d7f0788ac6252951940559c9a31ecad99b0ad22c177222b3584a1da87c.jpg]]
+![[decda7d7f0788ac6252951940559c9a31ecad99b0ad22c177222b3584a1da87c.jpg]]
 
 **中文解析**：
 

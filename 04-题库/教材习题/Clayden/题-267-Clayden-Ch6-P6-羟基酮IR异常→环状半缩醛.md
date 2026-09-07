@@ -28,7 +28,7 @@ source_grade: B
 
 This hydroxyketone shows no peaks in its infrared spectrum between 1600 and 1800 cm⁻¹, but it does show a broad absorption at 3000–3400 cm⁻¹. In the ¹³C NMR spectrum there are no peaks above 150 ppm but there is a peak at 110 ppm. Suggest an explanation.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/5f83bb91da41a7d09d653a8277c301f0eb0af377287c845b7dd77306aee3dd7d.jpg]]
+![[5f83bb91da41a7d09d653a8277c301f0eb0af377287c845b7dd77306aee3dd7d.jpg]]
 
 **原文题目**：该羟基酮的IR在1600-1800 cm⁻¹无峰，但在3000-3400 cm⁻¹有宽吸收。¹³C NMR在150 ppm以上无峰，但在110 ppm有峰。建议解释。
 
@@ -36,7 +36,7 @@ This hydroxyketone shows no peaks in its infrared spectrum between 1600 and 1800
 
 **Answer (English)**: The evidence shows that there is no carbonyl group in the molecule but that there is an OH group. The peak at 110 ppm looks at first sight like an alkene, but it could also be an unusual saturated carbon atom bonded to two oxygens. The compound exists as a stable hemiacetal because it has a favourable five-membered ring.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/ab50892b557a3ae67d42c70cc29314e140417704132e57eaf35270c555c8c8f3.jpg]]
+![[ab50892b557a3ae67d42c70cc29314e140417704132e57eaf35270c555c8c8f3.jpg]]
 
 **中文解析**：
 

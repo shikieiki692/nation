@@ -32,7 +32,7 @@ For each of the following transformations, select the appropriate reagent(s) and
 3. Alkene → syn-diol
 4. Alkene → trans-diol
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/2ec1a53272da729cc332177e427f6dfb21d9c0bf9583b1f63e1c02f44e77ce04.jpg]]
+![[2ec1a53272da729cc332177e427f6dfb21d9c0bf9583b1f63e1c02f44e77ce04.jpg]]
 
 **原文题目**：
 
@@ -49,17 +49,17 @@ For each of the following transformations, select the appropriate reagent(s) and
 
 1. **Markovnikov alcohol**: **Acid-catalyzed hydration** (H₃O⁺, e.g., dilute H₂SO₄ in H₂O) or **oxymercuration–demercuration** (Hg(OAc)₂/H₂O, then NaBH₄). Protonation gives the more stable carbocation → water captures → Markovnikov product. Oxymercuration avoids carbocation rearrangements.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/756ab715caf52f1efed25d7388f6634c0982929daa7dec2da4b0c6103ffd750e.jpg]]
+![[756ab715caf52f1efed25d7388f6634c0982929daa7dec2da4b0c6103ffd750e.jpg]]
 
 2. **Anti-Markovnikov alcohol**: **Hydroboration–oxidation** (1) BH₃·THF (or 9-BBN, disiamylborane for terminal alkenes), (2) H₂O₂, NaOH. Boron adds to the less substituted carbon (sterics + electronics) → oxidation replaces B with OH → anti-Markovnikov. Syn addition.
 
 3. **Syn-diol**: **OsO₄** (catalytic, with NMO as co-oxidant, or stoichiometric). OsO₄ performs a [3+2] cycloaddition with the alkene → cyclic osmate ester → hydrolysis gives syn-diol. Stereochemistry: both OH groups add to the same face.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/830e6cfa3c6e4157b746173b5adae210d69c0044263f4fbb105248838b450a1d.jpg]]
+![[830e6cfa3c6e4157b746173b5adae210d69c0044263f4fbb105248838b450a1d.jpg]]
 
 4. **Trans-diol**: **m-CPBA (epoxidation) → H₃O⁺ (acid-catalyzed ring opening)**. m-CPBA gives the epoxide → acid protonates the epoxide oxygen → water attacks from the opposite face (inversion) → trans-diol. Anti addition overall.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/9f3f6f708322722e35d879e3e84b89e15b5d01495ccea3a3c40e6f33c837cfb7.jpg]]
+![[9f3f6f708322722e35d879e3e84b89e15b5d01495ccea3a3c40e6f33c837cfb7.jpg]]
 
 rotate about
 

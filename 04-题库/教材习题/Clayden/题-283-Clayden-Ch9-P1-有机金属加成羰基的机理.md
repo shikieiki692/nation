@@ -28,10 +28,10 @@ source_grade: B
 
 Propose mechanisms for the first four reactions in the chapter.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/5cf12db9d814ab5e196264780921d9097f1f0fbe903944843e173f9c2c1aff6b.jpg]]
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/ab9b40b868294c80a1f52c1a627878b6ae0a0e597b7b2a001f2a82a7a94fc05f.jpg]]
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/d39e2b6cb77c27169a729211be34fb8cf32bb88633de5027a2229f70194e377f.jpg]]
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/6b26eb49d0b5b38163b4eae7f5f30d21a4584294f67cd3845ae7504be6030dca.jpg]]
+![[5cf12db9d814ab5e196264780921d9097f1f0fbe903944843e173f9c2c1aff6b.jpg]]
+![[ab9b40b868294c80a1f52c1a627878b6ae0a0e597b7b2a001f2a82a7a94fc05f.jpg]]
+![[d39e2b6cb77c27169a729211be34fb8cf32bb88633de5027a2229f70194e377f.jpg]]
+![[6b26eb49d0b5b38163b4eae7f5f30d21a4584294f67cd3845ae7504be6030dca.jpg]]
 
 **原文题目**：为本章前四个反应各提出一个机理。
 
@@ -39,7 +39,7 @@ Propose mechanisms for the first four reactions in the chapter.
 
 **Answer (English)**: Each reaction involves nucleophilic attack of the organometallic reagent on the aldehyde or ketone followed by protonation. You may draw the intermediate as an anion or with an O-metal bond as you please. Note the atom-specific arrows to show which atom is the nucleophile. In the third reaction the allyl-Li might attack through either end.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/1a456291c6e232fa9ee11c9f39875eb614310f26b1df2a44d605d311bdfc9d2e.jpg]]
+![[1a456291c6e232fa9ee11c9f39875eb614310f26b1df2a44d605d311bdfc9d2e.jpg]]
 
 **中文解析**：
 

@@ -72,7 +72,7 @@ $$
 
 题目提示了使用VSEPR理论，因此很容易判断亚磺酰自由基呈 **V形**：
 
-![[mineru/02-真题解析/28届初赛试题解析_images/84d95d05cbe3cd5a715d9e60f7d5abcea6f97262ce54cc051bfb4cff1e589171.jpg]]
+![[84d95d05cbe3cd5a715d9e60f7d5abcea6f97262ce54cc051bfb4cff1e589171.jpg]]
 
 ## 知识点映射
 

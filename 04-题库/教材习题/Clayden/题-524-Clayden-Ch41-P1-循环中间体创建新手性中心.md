@@ -27,7 +27,7 @@ source_grade: B
 
 Explain how this synthesis of amino acids, starting with natural proline, works. Explain the stereoselectivity of each step after the first.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/1d8ed1caf6442f4f1e7cc33885ff5281943c7e9c3377f5f5e7bdeb9cf4abc7f8.jpg]]
+![[1d8ed1caf6442f4f1e7cc33885ff5281943c7e9c3377f5f5e7bdeb9cf4abc7f8.jpg]]
 
 **原文题目**：Explain how this synthesis of amino acids, starting with natural proline, works. Explain the stereoselectivity of each step after the first.
 
@@ -35,7 +35,7 @@ Explain how this synthesis of amino acids, starting with natural proline, works.
 
 **Answer (English)**: Nothing exciting happens until the hydrogenation step. The stereoselectivity of the reaction with ammonia is interesting but not of any consequence as that stereochemistry disappears in the elimination. This gives the E-enone as expected since the alkene and the carbonyl group are in the same plane. The new stereogenic centre is created in the hydrogenation step. The molecule is slightly folded and the catalyst interacts best with the outside (convex) face so that it adds hydrogen from the same face as the ring junction hydrogen. All that remains is to hydrolyse the product without racemization. The configuration of the new amino acid (S) is the same as that of the natural amino acids.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/591770853b655c6b1cf83ef1cb53f5af23e38cabdb668bb43cd8669133f32cad.jpg]]
+![[591770853b655c6b1cf83ef1cb53f5af23e38cabdb668bb43cd8669133f32cad.jpg]]
 
 **中文解析**：
 

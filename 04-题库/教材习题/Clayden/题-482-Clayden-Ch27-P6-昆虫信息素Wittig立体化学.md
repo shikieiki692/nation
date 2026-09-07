@@ -27,7 +27,7 @@ source_grade: B
 
 A single geometrical isomer of an insect pheromone was prepared in the following way. Which isomer is formed and why?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/b4e0aa0f63b690642ee7d715412cd0aa1c571b6296b0b72e15526e107c959bf8.jpg]]
+![[b4e0aa0f63b690642ee7d715412cd0aa1c571b6296b0b72e15526e107c959bf8.jpg]]
 
 **原文题目**：A single geometrical isomer of an insect pheromone was prepared in the following way. Which isomer is formed and why?
 
@@ -35,7 +35,7 @@ A single geometrical isomer of an insect pheromone was prepared in the following
 
 **Answer (English)**: The first Wittig with a stabilized ylid gives the E-enal A. The second, with an unstabilized ylid, gives a Z-alkene so the final product is an E,Z-diene.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/dfcbd4abd0f6002650dbda14191c50130c6d6edb71ee301d36c50538574ac094.jpg]]
+![[dfcbd4abd0f6002650dbda14191c50130c6d6edb71ee301d36c50538574ac094.jpg]]
 
 **中文解析**：
 

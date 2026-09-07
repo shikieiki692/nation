@@ -27,7 +27,7 @@ source_grade: B
 
 All you have to do is to spot the aromatic rings in these compounds. It may not be as easy as you think and you should give some reasons for questionable decisions.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/e0a1d6d2e20dec677d2aea176dfa4d787e199acd01db59f12cce53fcff7f7fb2.jpg]]
+![[e0a1d6d2e20dec677d2aea176dfa4d787e199acd01db59f12cce53fcff7f7fb2.jpg]]
 
 **原文题目**：识别这些化合物中的芳香环。这可能比你想的更难，你应该对有疑问的判断给出理由。
 
@@ -35,15 +35,15 @@ All you have to do is to spot the aromatic rings in these compounds. It may not 
 
 **Answer (English)**: Truly aromatic rings are marked with bold lines. Thyroxine has two benzene rings -- obviously aromatic -- and that's that. Aklavinone also has two aromatic benzene rings and we might argue about ring 2. It has four electrons as drawn, and you might think that you could push electrons round from the OH groups to give ring 2 six electrons as well. But if you try it, you'll find you can't.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/b3b208a22eb017235cae866d1bcd29368819239a408ff84ce9b3f2b95215e70f.jpg]]
+![[b3b208a22eb017235cae866d1bcd29368819239a408ff84ce9b3f2b95215e70f.jpg]]
 
 Colchicine has one benzene ring and a seven-membered conjugated ring with six electrons in double bonds (don't count the carbonyl electrons as they are out of the ring). It perhaps looks more aromatic if you delocalize the electrons and represent it as a zwitterion. Either representation is fine.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/2597f69f775af50aa6d16a80f63716cf42e6a19e6608b6a45e54ea3b2965df6c.jpg]]
+![[2597f69f775af50aa6d16a80f63716cf42e6a19e6608b6a45e54ea3b2965df6c.jpg]]
 
 Methoxatin has one benzene ring and one pyrrole ring -- an example of an aromatic compound with a five-membered ring. The six electrons come from two double bonds and the lone pair on the nitrogen atom. The middle ring is not aromatic -- even if you try drawing other delocalized structures, you can never get six electrons into this ring.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/4a19cadc06b6d355f13f9eaaf017969eecf1769c65e63fcf15cedd7141dce115.jpg]]
+![[4a19cadc06b6d355f13f9eaaf017969eecf1769c65e63fcf15cedd7141dce115.jpg]]
 
 **中文解析**：
 

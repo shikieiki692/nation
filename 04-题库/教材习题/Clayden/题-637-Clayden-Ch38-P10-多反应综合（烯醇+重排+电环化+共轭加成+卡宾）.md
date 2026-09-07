@@ -30,27 +30,27 @@ source_grade: B
 
 **【原文】**Revision content. How would you carry out the first step in this sequence? Propose mechanisms for the remaining steps explaining any selectivity.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/36255022dd64f9879b9d3ffbc836f6b8a900260cec5de702558cf4bf62399c0b.jpg]]
+![[36255022dd64f9879b9d3ffbc836f6b8a900260cec5de702558cf4bf62399c0b.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The first step requires a specific enol from an enone. Treatment with LDA achieves kinetic enolate formation by removing one of the more acidic hydrogens immediately next to the carbonyl group. The lithium enolate is trapped with Me₃SiCl to give the silyl enol ether.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/8f607db9e190e6daf4ab76c34fd7441821ba608ab13ad88a717835e5845871a3.jpg]]
+![[8f607db9e190e6daf4ab76c34fd7441821ba608ab13ad88a717835e5845871a3.jpg]]
 
 The next step is dichlorocarbene insertion into the more nucleophilic of the two alkenes. Dichlorocarbene is an electrophilic carbene so the main interaction is between the HOMO (π) of the alkene and the empty p orbital of the carbene. The carbene is formed by decarboxylation, a process that needs no strong base.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/5a72852144a469f0f66b930afde9a28f686d9906881c2ed25028305b296cc490.jpg]]
+![[5a72852144a469f0f66b930afde9a28f686d9906881c2ed25028305b296cc490.jpg]]
 
 You can draw the ring expansion in a number of ways. All start with the removal of the Me₃Si group with water. You might then simply use a one-step mechanism (a) but an electrocyclic process via the cyclopropyl cation (b) might be better. This is allowed since the inevitable cis ring junction requires H and OH to rotate outwards.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/f04a90f4aba72c458cb2cef1f79a605738f03194ad0bb2cd226dacdc5f0a1e76.jpg]]
+![[f04a90f4aba72c458cb2cef1f79a605738f03194ad0bb2cd226dacdc5f0a1e76.jpg]]
 
 Finally, a double conjugate addition of MeNH₂ to the dienone forms the bicyclic amine. Conjugate addition probably occurs first on the more electrophilic chloroenone, though it doesn't much matter. There is some stereoselectivity in that the remaining chlorine prefers the equatorial position on the new six-membered ring but this is thermodynamic control as that position is easily enolized.
 
 The product has the skeleton of the tropane alkaloids and this chemistry allowed T. L. Macdonald and R. Dolan (J. Org. Chem., 1979, 44, 4973) to make a number of these natural products.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/4e7398ead0909e5b40d6f7d1d3991c2a79670269f77b6455475ac36fff9d3cd7.jpg]]
+![[4e7398ead0909e5b40d6f7d1d3991c2a79670269f77b6455475ac36fff9d3cd7.jpg]]
 
 **中文解析**：
 

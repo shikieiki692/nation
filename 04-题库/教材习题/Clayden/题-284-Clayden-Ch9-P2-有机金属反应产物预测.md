@@ -27,7 +27,7 @@ source_grade: B
 
 What products would be formed in these reactions?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/6327debe88903212744c21130ec101826f6bcd27128bbacb299e74095c551a1c.jpg]]
+![[6327debe88903212744c21130ec101826f6bcd27128bbacb299e74095c551a1c.jpg]]
 
 **原文题目**：预测下列反应的产物。
 
@@ -35,9 +35,9 @@ What products would be formed in these reactions?
 
 **Answer (English)**: (a) EtMgBr acts as a base to deprotonate the terminal alkyne, forming the alkynyl Grignard reagent and ethane. (b) The Grignard reagent from cyclobutyl bromide adds to cyclobutanone to give a tertiary alcohol; cyclobutanone is more electrophilic due to ring strain. (c) ClCH₂CO₂H + RMgBr — bromine is replaced first (Br > Cl > F reactivity order for halogen-metal exchange), giving the carboxylic acid after work-up.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/3f5c8973945d463865f2ec00c79a7330e711bda71dc1dc03201a63c45b0954aa.jpg]]
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/7cbddf841e4315315fed5a85ae5010d0258c47a7d4f3c9cce6297e34311c8cad.jpg]]
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/b9469492a43f94673b1107b260d690cce719a1f843b37693664e75be156fc706.jpg]]
+![[3f5c8973945d463865f2ec00c79a7330e711bda71dc1dc03201a63c45b0954aa.jpg]]
+![[7cbddf841e4315315fed5a85ae5010d0258c47a7d4f3c9cce6297e34311c8cad.jpg]]
+![[b9469492a43f94673b1107b260d690cce719a1f843b37693664e75be156fc706.jpg]]
 
 **中文解析**：
 

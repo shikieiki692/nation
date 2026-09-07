@@ -31,19 +31,19 @@ source_grade: B
 
 **【原文】**Give mechanisms for these reactions used to prepare a fused pyridine. Why is it necessary to use a protecting group?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/b9b1c594716f93443884f32cb86f6e1abd500d2f065b519349a1d6f8427ecada.jpg]]
+![[b9b1c594716f93443884f32cb86f6e1abd500d2f065b519349a1d6f8427ecada.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The first starting material is a stable cyclic enamine and conjugate addition is what we should expect with an enone. If the aldehyde were unprotected, direct addition might occur there as well as carbonyl condensations. The product is in equilibrium with both its enols, one of which can cyclize to form the new six-membered ring.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/ed2ef32f8c2a84dbdce8316fd935395245a9ed492cfc72b9735e8cdeec3acf85.jpg]]
+![[ed2ef32f8c2a84dbdce8316fd935395245a9ed492cfc72b9735e8cdeec3acf85.jpg]]
 
 The enol must attack the five-membered ring in a cis fashion as the tether is too short to reach the other side. There is no control over one stereogenic centre (represented with a wiggly line) but that is unimportant as it is soon to disappear.
 
 Now the reaction with hydroxylamine in acid solution. Formation of the oxime of the ketone produces one molecule of water—just enough to hydrolyse the acetal—and the pyridine synthesis is completed by cyclization and a double dehydration.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/0acb37098fd11e72b62324b308d9f2a3fd96b874cc62e75b2b768f7867cf8afb.jpg]]
+![[0acb37098fd11e72b62324b308d9f2a3fd96b874cc62e75b2b768f7867cf8afb.jpg]]
 
 **中文解析**：
 

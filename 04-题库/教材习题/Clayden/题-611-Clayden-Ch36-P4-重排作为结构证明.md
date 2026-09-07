@@ -27,7 +27,7 @@ source_grade: B
 
 It is very difficult to prepare three-membered lactones. One attempted preparation, by the epoxidation of di-t-butyl ketone, gave an unstable compound with an IR stretch at 1900 cm⁻¹. This compound decomposed rapidly to a four-membered ring lactone that could be securely identified. Do you think they made the three-membered ring?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/67c147e6cfd3a493b57a3aaa926aea3a1fcd957786992823c1e23a27da335c25.jpg]]
+![[67c147e6cfd3a493b57a3aaa926aea3a1fcd957786992823c1e23a27da335c25.jpg]]
 
 **原文题目**：三元环内酯很难制备。通过二叔丁基酮的环氧化尝试制备，得到了一个不稳定的化合物（IR吸收在1900 cm⁻¹），该化合物迅速分解为可确认的四元环内酯。你认为他们成功制备了三元环吗？
 
@@ -35,7 +35,7 @@ It is very difficult to prepare three-membered lactones. One attempted preparati
 
 **Answer (English)**: The expected three-membered lactone would have a very high carbonyl stretching frequency because of ring strain. Three-membered cyclic ketones have carbonyl stretches at about 1815 cm⁻¹ and lactones have higher frequencies than ketones. So it might be the lactone. If it is, we should find a mechanism for the ring expansion to the four-membered lactone isolated. There is a good mechanism involving migration of a methyl group from one of the t-butyl groups.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/d6ea6bad93cc33126396fc1775ff65f364ea9492c877c0a2d2afe9dca1b8d3bf.jpg]]
+![[d6ea6bad93cc33126396fc1775ff65f364ea9492c877c0a2d2afe9dca1b8d3bf.jpg]]
 
 The general conclusion is that R. Wheeland and P. D. Bartlett did indeed make the first α-lactone.
 

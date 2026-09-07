@@ -31,7 +31,7 @@ source_grade: B
 
 **【原文】**A single enantiomer of the epoxide below rearranges with Lewis acid catalysis to give a single enantiomer of the product. Suggest a mechanism and comment on the stereochemistry.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/71cfe937f6a39aed8a0b9e9b743a4f3e67101c672dcc2b457e002646ea1de276.jpg]]
+![[71cfe937f6a39aed8a0b9e9b743a4f3e67101c672dcc2b457e002646ea1de276.jpg]]
 
 **原文题目**：下面环氧化物的单一对映体在Lewis酸催化下重排得到单一对映体产物。建议机理并讨论立体化学。
 
@@ -39,7 +39,7 @@ source_grade: B
 
 **Answer (English)**: The mechanism for the reaction must involve Lewis acid complexation of the epoxide oxygen atom, cation formation, and migration of CO₂Et. This last point may surprise you but inspection of the product shows that CO₂Et is indeed bonded to the other carbon of what was the epoxide.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/3d1080d1b8de454156397c861d1d04af899373c7fa374e6fbeec790598b75742.jpg]]
+![[3d1080d1b8de454156397c861d1d04af899373c7fa374e6fbeec790598b75742.jpg]]
 
 Although something like this must happen, our mechanism raises as many questions as it answers:
 
@@ -47,7 +47,7 @@ Although something like this must happen, our mechanism raises as many questions
 - **Why does CO₂Et migrate rather than the H atom?** For the same reason! If the H atom migrates, the product would be a cation (or at least a partial positive charge would appear in the transition state) next to the CO₂Et group.
 - **Surely the carbocation intermediate is planar and the product would be racemic?** This was the purpose of the investigation. One chiral centre is lost in the reaction so only absolute stereochemistry is relevant. One explanation is that the cation is short-lived and that bond rotation is fast in the direction shown (the CO₂Et group is already down and has to rotate by only 30° to get to the right position for migration). The other is that migration is concerted with epoxide opening.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/12cd4270d2088ca5ccfc45eefe48ca9b6761736110ad99e52422ca97c95a8183.jpg]]
+![[12cd4270d2088ca5ccfc45eefe48ca9b6761736110ad99e52422ca97c95a8183.jpg]]
 
 参考文献：R. D. Bach and coworkers, J. Am. Chem. Soc., 1976, 98, 1975 and 1978, 100, 1605.
 

@@ -30,17 +30,17 @@ source_grade: B
 
 **【原文】**Explain the difference between these Hammett ρ values by mechanisms for the two reactions. In both cases the ring marked with the substituent X is varied. When R = H, ρ = -0.3 but when R = Ph, ρ = -5.1.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/8f2f465fa620cc62f2c8997623b8539be1a1e3a4a35e4bf18e8dd8a0c9ad83d5.jpg]]
+![[8f2f465fa620cc62f2c8997623b8539be1a1e3a4a35e4bf18e8dd8a0c9ad83d5.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The reaction is nucleophilic substitution at the benzylic centre — we expect SN1 or SN2. When R = H, the reaction occurs at a primary alkyl group and SN2 is expected. When R = Ph, the reaction occurs at a secondary benzylic centre and SN1 is expected.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/fb486cc929fc07be87468c3358a0fd9cf5c1b1c02fec4d2619547f4afa76b07b.jpg]]
+![[fb486cc929fc07be87468c3358a0fd9cf5c1b1c02fec4d2619547f4afa76b07b.jpg]]
 
 Since SN1 produces a cation delocalized round the benzene ring in the slow step, a large negative Hammett ρ value is reasonable. For SN2, there is no build-up of negative charge on carbon in the transition state, so a small ρ value is expected. The actual value (-0.3) is very small but suggests a loose SN2 transition state with a small positive charge on carbon.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/61e4e60bec460687cea7dc46cd0425cfdb41aa71f1fb4e745a9cc4b9c086ef71.jpg]]
+![[61e4e60bec460687cea7dc46cd0425cfdb41aa71f1fb4e745a9cc4b9c086ef71.jpg]]
 
 **中文解析**：
 

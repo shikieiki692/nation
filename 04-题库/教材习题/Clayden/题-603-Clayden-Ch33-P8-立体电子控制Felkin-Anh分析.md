@@ -30,17 +30,17 @@ source_grade: B
 
 **【原文】**Explain the stereoselectivity of this reaction. What isomer of the epoxide would be produced by treatment of the product with base?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/f6563d05265a4c14ada6afdcb116fb4f31616601efb5db0403b5f369d27fd840.jpg]]
+![[f6563d05265a4c14ada6afdcb116fb4f31616601efb5db0403b5f369d27fd840.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: In this case the chloro substituent dominates because it has an electronic interaction with the carbonyl group. The two alkyl chains come out opposite one another so it is easy to draw the product in a reasonable fashion by imagining yourself observing the Newman projection from the top right.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/cb712c9013c8921576eabd748f055df3aeac2bd8c74a7307f1e4baeba86eda24.jpg]]
+![[cb712c9013c8921576eabd748f055df3aeac2bd8c74a7307f1e4baeba86eda24.jpg]]
 
 To draw the stereochemistry of the epoxide formation it is sensible to put the reacting groups in the plane of the paper and arranged so that the oxyanion can do an $S_\mathrm{N}2$ displacement.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/22d28d06a35fd52e021e46333b2f423ac9b500b8fc3efd6aef6896510202237f.jpg]]
+![[22d28d06a35fd52e021e46333b2f423ac9b500b8fc3efd6aef6896510202237f.jpg]]
 
 **中文解析**：
 

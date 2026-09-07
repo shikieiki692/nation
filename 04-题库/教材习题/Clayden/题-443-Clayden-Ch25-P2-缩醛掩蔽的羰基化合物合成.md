@@ -27,7 +27,7 @@ source_grade: B
 
 How might these compounds be made using alkylation of an enol or enolate as one step in the synthesis?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/8ed4338b202a7615f94992956ee234b40c2e3e1f8e100eea07da47acb5a5b308.jpg]]
+![[8ed4338b202a7615f94992956ee234b40c2e3e1f8e100eea07da47acb5a5b308.jpg]]
 
 **原文题目**：How might these compounds be made using alkylation of an enol or enolate as one step in the synthesis?
 
@@ -35,11 +35,11 @@ How might these compounds be made using alkylation of an enol or enolate as one 
 
 **Answer (English)**: The only functional group in either compound is an acetal. Cyclic acetals are made from diols and carbonyl compounds so we need to have a look at the deprotected molecules before taking any further decisions.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/83fd8b1cec75fc828e1e26196b2ebe2b20b6662d0ce077144933d296eda6a9af.jpg]]
+![[83fd8b1cec75fc828e1e26196b2ebe2b20b6662d0ce077144933d296eda6a9af.jpg]]
 
 If we are going to use enolate chemistry, we have to make the diols by reduction of carbonyl compounds. As both diols have a 1,3-relationship between the OH groups, the carbonyl precursors will be the very enolizable 1,3-dicarbonyl compounds, which can be alkylated and reduced. We have chosen arbitrarily to use ethyl esters here, so we should use ethoxide as the base in the alkylation step.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/5d009acbb0769abdbc0d74ba57eed308981c0f358484eab44bba43048e2c09b5.jpg]]
+![[5d009acbb0769abdbc0d74ba57eed308981c0f358484eab44bba43048e2c09b5.jpg]]
 
 **中文解析**：
 

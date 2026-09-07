@@ -35,11 +35,11 @@ CO₂H → [Br₂/(PhCO₂)₂] A → base B
 
 **Answer (English)**: The starting material is C₅H₈O₂ so the stable compound B has gained a bromine and lost three hydrogens. There must be an extra double bond equivalent (DBE) somewhere in B. The IR spectrum shows that the OH has gone and suggests a carbonyl group, possibly an ester because of the high frequency, and an alkene. The NMR shows that both methyl groups have gone and have been replaced by CH₂ groups. The bromine must be on one of them and the ester oxygen on the other. The extra DBE is a ring.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/b7c5df0a5bc29a884cd991b52805c3c616b07663dbda5123f9aecee9dbe3c10e.jpg]]
+![[b7c5df0a5bc29a884cd991b52805c3c616b07663dbda5123f9aecee9dbe3c10e.jpg]]
 
 Since both methyl groups are functionalized, unstable A must have one Br on each methyl group. The peroxide produces benzoyl radicals that abstract protons from both allylic positions to give stabilized radicals that attack bromine molecules to give bromide radicals to continue the chain reaction. In base the carboxylate cyclizes onto the cis CH₂Br group.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/87a7d790440cf09c0690eb993d42a07a7ae7ffca7d5d64f26df271cc7c139254.jpg]]
+![[87a7d790440cf09c0690eb993d42a07a7ae7ffca7d5d64f26df271cc7c139254.jpg]]
 
 **中文解析**：
 

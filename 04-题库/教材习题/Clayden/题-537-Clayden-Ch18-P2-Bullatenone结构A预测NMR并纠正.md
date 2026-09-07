@@ -27,7 +27,7 @@ source_grade: B
 
 The natural product bullatenone was isolated in the 1950s from a New Zealand myrtle and assigned the structure A. Then authentic compound A was synthesized and found not to be identical to natural bullatenone. Predict the expected ¹H NMR spectrum of A. Given the full spectroscopic data, not available in the 1950s, say why A is definitely wrong and suggest a better structure for bullatenone.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/5e07a8f97e825d9626dc2c4a767f1c82351404d81cd6f8e289234ad0b67fd0fd.jpg]]
+![[5e07a8f97e825d9626dc2c4a767f1c82351404d81cd6f8e289234ad0b67fd0fd.jpg]]
 
 Spectra of isolated bullatenone:
 
@@ -45,11 +45,11 @@ Infrared: 1604 and 1705 cm⁻¹
 
 The fragments we have are Ph, carbonyl, a CMe₂ group, and an alkene with one proton on it. That adds up to C₁₂H₁₂O leaving only one oxygen to fit in somewhere. There must still be a ring or there would not be enough hydrogen atoms and the ring must be five-membered (just try other possibilities yourself). There are three ring systems we can choose and each can have the Ph group at either end of the alkene, making six possibilities in all.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/b987ce591318df6888921741fcb8eae5ca8f54ece4eae33d03cd70067684e052.jpg]]
+![[b987ce591318df6888921741fcb8eae5ca8f54ece4eae33d03cd70067684e052.jpg]]
 
 The last four are esters (cyclic esters or lactones) and they would have a C=O frequency at 1745–1780 cm⁻¹ so D–G are all wrong. The hydrogen on the alkene cannot be next to oxygen as it would have a very large chemical shift indeed whereas it is close to the 'normal' alkene shift of 5.25 ruling out structure C. Structure B is correct and the spectrum can be assigned. Compound B has now been synthesized and proved identical to natural bullatenone.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/0371787ea97a55d5c4090a3d151f9353d7dddb7b9f82700386eae0bb21821ad5.jpg]]
+![[0371787ea97a55d5c4090a3d151f9353d7dddb7b9f82700386eae0bb21821ad5.jpg]]
 
 **中文解析**：
 

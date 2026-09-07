@@ -29,7 +29,7 @@ source_grade: B
 
 **【原文】**Thioketones, with a C=S bond, are not usually stable. However, this thioketone is quite stable and undergoes reaction with maleic anhydride to give an addition product. Comment on the stability of the thioketone, the mechanism of the reaction, and the stereochemistry of the product.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/03a2d7786b1bd052efb147c04dd04c9b8b10dc8868fc6e2c5960e645569d366e.jpg]]
+![[03a2d7786b1bd052efb147c04dd04c9b8b10dc8868fc6e2c5960e645569d366e.jpg]]
 
 **原文题目**：Thioketones, with a C=S bond, are not usually stable. However, this thioketone is quite stable and undergoes reaction with maleic anhydride to give an addition product. Comment on the stability of the thioketone, the mechanism of the reaction, and the stereochemistry of the product.
 
@@ -37,11 +37,11 @@ source_grade: B
 
 **Answer (English)**: This particular thioketone is stable because the C=S bond is very polarized by delocalization making the seven-membered ring an aromatic cation with six electrons in it.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/d0f8cd7ab989804dc2bc6bbef0a2c7768f524d38b7401e1f782035b4b8813e4b.jpg]]
+![[d0f8cd7ab989804dc2bc6bbef0a2c7768f524d38b7401e1f782035b4b8813e4b.jpg]]
 
 The cycloaddition uses maleic anhydride as a two-electron component with a low LUMO. Although in principle this could undergo a Diels-Alder reaction with one of the dienes in the thioketone, it prefers to react by including the sulfur atom, using eight electrons in a component with a high HOMO coefficient. The tricyclic product is clearly folded back on itself so that the triene in the seven-membered ring and the carbonyl groups in the anhydride are close to each other. From the outcome, it seems there must be an endo effect in this [8+2] cycloaddition.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/ccd440954d03ff1744ebe784bd954b0e894a496b42f6dcf608fadf7065e46999.jpg]]
+![[ccd440954d03ff1744ebe784bd954b0e894a496b42f6dcf608fadf7065e46999.jpg]]
 
 **中文解析**：
 

@@ -36,11 +36,11 @@ source_grade: B
 
 **Answer (English)**: Following the usual mechanism, the palladium complexes to the face of the alkene opposite the bridge. The ester leaves to give an allyl cation complex. This is attacked by the malonate anion from the opposite face to the palladium. So the overall result is retention of configuration, the syn starting material giving the syn product.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/4fc49339fb76b4244cbf5aeb489bf82cd03d078292b22b1c96ed1d49751b6f86.jpg]]
+![[4fc49339fb76b4244cbf5aeb489bf82cd03d078292b22b1c96ed1d49751b6f86.jpg]]
 
 The racemization comes from the structure of the allyl cation complex. It is symmetrical with a plane of symmetry running vertically through the complex as drawn. Attack by the malonate anion occurs equally at either side of the plane giving the two enantiomers of the syn diastereoisomer in equal amounts.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/b0667139ae87a1990d754121f5693444942b52cdc3e3af31bd5592302f65096f.jpg]]
+![[b0667139ae87a1990d754121f5693444942b52cdc3e3af31bd5592302f65096f.jpg]]
 
 **中文解析**：
 

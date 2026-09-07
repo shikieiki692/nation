@@ -27,7 +27,7 @@ source_grade: B
 
 Suggest a mechanism for this attempted aldol reaction. How could the aldol product be made?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/0808f02953afb1f3ececc0da6d590e184b68732cdf3ca7a322afb575ef6de50e.jpg]]
+![[0808f02953afb1f3ececc0da6d590e184b68732cdf3ca7a322afb575ef6de50e.jpg]]
 
 **原文题目**：Suggest a mechanism for this attempted aldol reaction. How could the aldol product be made?
 
@@ -35,7 +35,7 @@ Suggest a mechanism for this attempted aldol reaction. How could the aldol produ
 
 **Answer (English)**: The aldol reaction appears to have taken place and then the ketone has been reduced. The only possible reducing agent is more formaldehyde and the reduction takes place by the Cannizzaro reaction. The aldol can be successful if a weaker base such as Na₂CO₃ is used as the Cannizzaro requires a dianion intermediate.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/ff5aa41905857fc27046337ca88a77721ff496f5e95a8eb6e8ab4eab78581a40.jpg]]
+![[ff5aa41905857fc27046337ca88a77721ff496f5e95a8eb6e8ab4eab78581a40.jpg]]
 
 **中文解析**：
 

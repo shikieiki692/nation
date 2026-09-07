@@ -30,17 +30,17 @@ source_grade: B
 
 **【原文】**Explain the stereochemistry and mechanism in the synthesis of the chiral auxiliary 8-phenylmenthol from (+)-pulegone. After the reaction with Na in i-PrOH, what is the minor (13%) component of the mixture?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/cd4e50be487e9dc0bf67ded50d83f046f4c996df18a79b8e6ceca7f4a6be398d.jpg]]
+![[cd4e50be487e9dc0bf67ded50d83f046f4c996df18a79b8e6ceca7f4a6be398d.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The first reaction is a conjugate addition that evidently goes without any worthwhile stereoselectivity. The stereochemistry is not fixed in the addition but in the protonation of the enolate in the work-up. Equilibration of the mixture by reversible enolate formation with KOH in ethanol gives mostly the all-equatorial compound.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/198d3a966934aa8f302a598b73d61463a7f366faca55c5d3f5d335ad4f34ded9.jpg]]
+![[198d3a966934aa8f302a598b73d61463a7f366faca55c5d3f5d335ad4f34ded9.jpg]]
 
 Reduction by that smallest of reagents, an electron, gives the all-equatorial product. Since the stereochemical ratio in the product is the same as in the starting materials (87:13), the reduction must be totally stereoselective. The all-equatorial ketone gives 100% all-equatorial alcohol and the minor isomer must give one other diastereoisomer.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/98f8466d0a8ff06e9f15a138809bb3dfb3f02ab615b226a908c86a29f88f87e2.jpg]]
+![[98f8466d0a8ff06e9f15a138809bb3dfb3f02ab615b226a908c86a29f88f87e2.jpg]]
 
 The mixture still has to be separated and, as it is a mixture of diastereoisomers, it can be separated by physical means. The chloroacetate is just a convenient crystalline derivative.
 

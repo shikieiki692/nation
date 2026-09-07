@@ -27,7 +27,7 @@ source_grade: B
 
 Predict the position of equilibrium for each acid-base reaction: (a) PhO⁻ + AcOH, (b) similar reversed reaction, (c) CF3CO2H as acid.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/346b47c058bd0e60e6908fdd745926c9f6e228cef24871193d73ff68903cbfd8.jpg]]
+![[346b47c058bd0e60e6908fdd745926c9f6e228cef24871193d73ff68903cbfd8.jpg]]
 
 **原文题目**：预测以下酸碱反应的平衡位置：(a) PhO⁻ + AcOH，(b) 类似的反向反应，(c) CF3CO2H作为酸。
 
@@ -38,11 +38,11 @@ Predict the position of equilibrium for each acid-base reaction: (a) PhO⁻ + Ac
 - (b) Reversed equilibrium: If the weaker acid is on the right, equilibrium favors the right side.
 - (c) CF3CO2H (pKa ≈ 0.5) is a much stronger acid than acetic acid (pKa ≈ 4.75). Equilibrium strongly favors deprotonation.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/4cc314ad2b9ef01f62ff1e0958a0ca5e686e953d6e76d3a6570b5d7b469855ab.jpg]]
+![[4cc314ad2b9ef01f62ff1e0958a0ca5e686e953d6e76d3a6570b5d7b469855ab.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/4d6e597dd6ae7a7ea6aae206a904c57a42e2a7f35dcecdfa350568cb0add27e6.jpg]]
+![[4d6e597dd6ae7a7ea6aae206a904c57a42e2a7f35dcecdfa350568cb0add27e6.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/10beab8855fdf61244544f2c12bead704238f14c049b42a13834405d0c5b4b5b.jpg]]
+![[10beab8855fdf61244544f2c12bead704238f14c049b42a13834405d0c5b4b5b.jpg]]
 
 **中文解析**：
 1. **核心原理**：酸碱反应平衡总是偏向生成较弱酸和较弱碱的方向（pKa大的方向）。

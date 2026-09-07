@@ -30,7 +30,7 @@ source_grade: B
 
 **【原文】**Explain what is going on here.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/6cd14d440c3923e8599c5ce90319dbb175bbee7ceb268a4b21137e9f4e5d6f95.jpg]]
+![[6cd14d440c3923e8599c5ce90319dbb175bbee7ceb268a4b21137e9f4e5d6f95.jpg]]
 
 **原文题目**：Explain what is going on here.
 
@@ -40,11 +40,11 @@ source_grade: B
 
 The aromatic anion of cyclopentenone displaces tosylate from the alkyl group and then a [1,5] hydrogen shift gives the first product. Such a shift is allowed suprafacially on the ring.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/a6ff6d21a83c4793b5c6b7346da573ba4d9527c9e53f45e4ac25b52fc5b2c9fc.jpg]]
+![[a6ff6d21a83c4793b5c6b7346da573ba4d9527c9e53f45e4ac25b52fc5b2c9fc.jpg]]
 
 Now there is an intramolecular Diels-Alder reaction requiring a high temperature because the dienophile is not activated. The stereochemistry is not obvious but there is no endo effect so the molecule folds to give the new five-membered ring a cis junction with the old.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/df302fdffdf63974157cf99ca3d34f3cbe435bb748e11452a4c4ae700be07370.jpg]]
+![[df302fdffdf63974157cf99ca3d34f3cbe435bb748e11452a4c4ae700be07370.jpg]]
 
 **中文解析**：
 

@@ -27,13 +27,13 @@ source_grade: B
 
 These two sugar analogues are part structures of two compounds used to treat poultry diseases. Which conformation will they prefer?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/50ac1f353fe46bd9ca7eae6b9d4405038505ad7fcb1019b9bfb66e0979cfcd1c.jpg]]
+![[50ac1f353fe46bd9ca7eae6b9d4405038505ad7fcb1019b9bfb66e0979cfcd1c.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: Trial and error gives the conformation with the most equatorial substituents. The first compound can have all its substituents equatorial. The second can have three groups equatorial and one OH group axial, the preferred conformation due to the anomeric effect.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/eac6eb19d3399653b5217e9d1f1ccb1740ca20ef8b929441629a8cf6846fcff7.jpg]]
+![[eac6eb19d3399653b5217e9d1f1ccb1740ca20ef8b929441629a8cf6846fcff7.jpg]]
 
 **中文解析**：
 

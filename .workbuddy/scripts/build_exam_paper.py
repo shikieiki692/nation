@@ -260,6 +260,41 @@ def extract_stem(path: Path):
     return stem, fm, warns
 
 
+# 2026-09-07: 成品显示名清洗——题目名不出现来源教材词（用户规则）
+CLEAN_TITLE_SUBS = [
+    (re.compile(r"一分册测试-"), ""),
+    (re.compile(r"化学能力测试-"), ""),
+    (re.compile(r"二分册-测\d+-"), ""),
+]
+
+
+def clean_disp(name: str) -> str:
+    s = name
+    for pat, rep in CLEAN_TITLE_SUBS:
+        s = pat.sub(rep, s)
+    return s
+
+
+def extract_answer(path) -> str:
+    """教师版用：从 ANS_SECTION 边界起提取答案区（清洗 details/校验注释）"""
+    t = path.read_text(encoding="utf-8", newline="").replace("\r\n", "\n")
+    body, _fm = strip_fm(t)
+    body = re.sub(r"<details>.*?</details>", "", body, flags=re.S)
+    body = re.sub(r"<!--.*?-->", "", body, flags=re.S)
+    lines = body.split("\n")
+    idx = None
+    for i, ln in enumerate(lines):
+        if ANS_SECTION.match(ln.strip()) and ln.strip():
+            idx = i
+            break
+    if idx is None:
+        return ""
+    ans = "\n".join(lines[idx:]).strip()
+    ans = re.sub(r"(?m)^>\s*\*\*(来源|难度|教学层级)\*\*[^\n]*\n?", "", ans)
+    ans = re.sub(r"(?m)^!\[\[[0-9a-f]{64}\.\w+\]\]\s*$", "", ans)  # 纯图答案行保留（不剥）
+    return ans
+
+
 def short_source(fm: dict, base: str) -> str:
     """极简来源标签：真题→'第39届决赛'；教材→'《结构化学基础》习题 5.37'。"""
     src = fm.get("source") or fm.get("source_subject") or ""
@@ -278,7 +313,7 @@ def short_source(fm: dict, base: str) -> str:
     return seg[:24]
 
 
-def build(paper_path: Path, title: str):
+def build(paper_path: Path, title: str, max_q: int = 0):
     t = paper_path.read_text(encoding="utf-8", newline="").replace("\r\n", "\n")
     body, _ = strip_fm(t)
     lines = body.split("\n")
@@ -315,6 +350,28 @@ def build(paper_path: Path, title: str):
         header_txt,
         "",
     ]
+    # 2026-09-07: max_q 裁剪——按模块比例缩减（模拟卷 ≤15 题规则）
+    if max_q and len(entries) > max_q:
+        by_sec = {}
+        order = []
+        for e in entries:
+            if e[0] not in by_sec:
+                order.append(e[0])
+                by_sec[e[0]] = []
+            by_sec[e[0]].append(e)
+        quota, used = {}, 0
+        for i, sec in enumerate(order):
+            q = int(max_q * len(by_sec[sec]) / len(entries))  # floor 防超发
+            quota[sec] = q
+            used += q
+        i = 0
+        while used < max_q:
+            quota[order[i % len(order)]] += 1
+            used += 1
+            i += 1
+        entries = []
+        for sec in order:
+            entries += by_sec[sec][: quota[sec]]
     flags, cur_sec, n = [], None, 0
     for sec, base, trail in entries:
         if sec != cur_sec:
@@ -322,6 +379,7 @@ def build(paper_path: Path, title: str):
             cur_sec = sec
         p = find_file(base)
         n += 1
+        disp = clean_disp(base)
         out += [f"## 第 {n} 题", ""]
         if not p:
             out += [f"> ⚠️ 未找到题文件：{base}", ""]
@@ -332,25 +390,41 @@ def build(paper_path: Path, title: str):
         out += [meta, "", stem, ""]
         for w in warns:
             flags.append((base, w))
+        if TEACHER_MODE:
+            ans = extract_answer(p)
+            out += ["", "**参考答案**", "", (ans if ans else "（题库源文件未含结构化答案区，见题文件）"), ""]
     out += ["---", "", f"**汇编统计**：共 {n} 题。" +
             (f" 待复核 {len(flags)} 处。" if flags else " 无待复核项。"), ""]
-    dst = OUT / f"{title}.md"
-    dst.write_text("\n".join(out), encoding="utf-8", newline="")
-    print(f"[{title}] {n} 题 → {dst.name}  待复核 {len(flags)}")
+    suffix = "教师版" if TEACHER_MODE else "学生版"
+    head = out[:5]
+    head_txt = "\n".join(out)
+    if TEACHER_MODE:
+        head_txt = head_txt.replace("题面自含、不含答案；", "题面自含、含参考答案（教师用）；")
+    dst = OUT / f"{title}-{suffix}.md"
+    dst.write_text(head_txt, encoding="utf-8", newline="")
+    print(f"[{title}-{suffix}] {n} 题 → {dst.name}  待复核 {len(flags)}")
     for b, w in flags:
         print(f"   ⚠ {b}: {w}")
     return n, flags
 
 
+TEACHER_MODE = False
+SIMUL_MAX = 15
+
+
 def main():
+    global TEACHER_MODE
     OUT.mkdir(parents=True, exist_ok=True)
-    total, allflags = 0, []
-    for p, title in PAPERS:
-        n, flags = build(p, title)
-        total += n
-        allflags += [(title, b, w) for b, w in flags]
-    print("-" * 60)
-    print(f"合计 {total} 题；待复核 {len(allflags)} 处")
+    for teacher in (False, True):
+        TEACHER_MODE = teacher
+        total, allflags = 0, []
+        for p, title in PAPERS:
+            mx = SIMUL_MAX if "综合模拟卷" in title else 0
+            n, flags = build(p, title, max_q=mx)
+            total += n
+            allflags += [(title, b, w) for b, w in flags]
+        print("-" * 60)
+        print(f"{'教师版' if teacher else '学生版'} 合计 {total} 题；待复核 {len(allflags)} 处")
 
 
 if __name__ == "__main__":

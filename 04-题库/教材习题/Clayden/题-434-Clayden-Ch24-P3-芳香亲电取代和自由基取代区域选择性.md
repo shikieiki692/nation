@@ -28,7 +28,7 @@ source_grade: B
 
 Explain the different regioselectivity in these two brominations of 1,2-dimethylbenzene.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/2ba25f6e0b4f05ddb1cd6535ebd892a5a470151a5f7d1cb7b9a313f65f01dad4.jpg]]
+![[2ba25f6e0b4f05ddb1cd6535ebd892a5a470151a5f7d1cb7b9a313f65f01dad4.jpg]]
 
 **原文题目**：解释1,2-二甲基苯（邻二甲苯）的两种溴化反应为何具有不同的区域选择性。
 
@@ -38,15 +38,15 @@ Explain the different regioselectivity in these two brominations of 1,2-dimethyl
 
 **Electrophilic aromatic substitution (AlCl₃/Br₂)**: AlCl₃ activates Br₂ to form the electrophile 'Br⁺', which attacks the aromatic ring. Methyl groups are ortho,para directors, so any of the four unsubstituted positions could be attacked, but steric hindrance directs the first bromine to go to one of the positions that does not lead to a 1,2,3-trisubstituted ring.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/94a0c7941fdc1eeb2d64d989d422dcb16c561cb44e34057dbe13dac95b243f2e.jpg]]
+![[94a0c7941fdc1eeb2d64d989d422dcb16c561cb44e34057dbe13dac95b243f2e.jpg]]
 
 Now we have three ortho, para directors, and bromine (with its lone pairs) is the strongest, so the next bromine will go ortho to the bromine in the less sterically hindered of the two possibilities.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/ecd84bb61deb47ac3a850e4cc0cc7d0139f89f27a4ecc31d284bab6cc9685dd8.jpg]]
+![[ecd84bb61deb47ac3a850e4cc0cc7d0139f89f27a4ecc31d284bab6cc9685dd8.jpg]]
 
 **Radical substitution (Br₂/hv)**: In the presence of light, Br-Br bond undergoes homolysis, and Br· radicals are formed. One of these can abstract a hydrogen atom, breaking the weakest C-H bond. The methyl groups' C-H bonds are weaker than those of the phenyl ring because the benzyl radical that forms is delocalized into the aromatic ring. The benzyl radical attacks another molecule of bromine, and the cycle continues.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/725b36c3db2e8de6f90653d6308279ed86d9f838e0afa03f7efaebe318f1ca96.jpg]]
+![[725b36c3db2e8de6f90653d6308279ed86d9f838e0afa03f7efaebe318f1ca96.jpg]]
 
 **中文解析**：
 

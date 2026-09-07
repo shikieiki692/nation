@@ -27,13 +27,13 @@ source_grade: B
 
 The following products might possibly be formed from the reaction of MeMgBr with the cyclic anhydride shown. How would you tell the difference between these compounds using IR and ¹³C NMR? With ¹H NMR available as well, how would your task be easier?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/bfc9c7b3cbf2b1f9edcb0fe2d02d4a25cbfcd451cf693bbdf53aa44e7d846360.jpg]]
+![[bfc9c7b3cbf2b1f9edcb0fe2d02d4a25cbfcd451cf693bbdf53aa44e7d846360.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The molecular formula of the compounds varies so a mass spectrum would be useful. The compounds with an OH group would show a broad U-shaped band at above 3000 cm⁻¹. The cyclic ester would have a C=O stretch at about 1775 cm⁻¹, the ketones at about 1715 cm⁻¹, and the CO₂H group a band at about 1715 cm⁻¹ as well as a very broad band from 2500 to 3500 cm⁻¹. In the ¹³C NMR the acid and ester would have a carbonyl peak at about 170–180 ppm, but the ketones would have one at about 200 ppm:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/8668999e1dd55f3a44e43b707e51f6f5c304cf9cbc9abafbbf649d51bc002717.jpg]]
+![[8668999e1dd55f3a44e43b707e51f6f5c304cf9cbc9abafbbf649d51bc002717.jpg]]
 
 In the proton NMR, all compounds would show two linked CH₂ groups as a pair of triplets except in the second compound as there the symmetry makes the two the same and would give a singlet. All except the second have a 6H singlet for the CMe₂ group. The second compound has two singlets because of the symmetry. The last has an isolated Me group. The OH and CO₂H protons might show up as broad signals at any chemical shift.
 

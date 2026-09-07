@@ -27,9 +27,9 @@ source_grade: B
 
 Suggest mechanisms for these reactions, explaining the alkene geometry in the first case. Do you consider that they are fragmentations?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/143d2fba6a78d2ba454c8d7c15a59f3c0f3b563057b2a8112789b7f5b68bf388.jpg]]
+![[143d2fba6a78d2ba454c8d7c15a59f3c0f3b563057b2a8112789b7f5b68bf388.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/ea249e55f3f3172b4a72bdbaef966b4f40e8abfea2db8d194a034ddec1dbc84d.jpg]]
+![[ea249e55f3f3172b4a72bdbaef966b4f40e8abfea2db8d194a034ddec1dbc84d.jpg]]
 
 **原文题目**：Suggest mechanisms for these reactions, explaining the alkene geometry in the first case. Do you consider that they are fragmentations?
 
@@ -37,11 +37,11 @@ Suggest mechanisms for these reactions, explaining the alkene geometry in the fi
 
 **Answer (English)**: The first reaction is a fragmentation without any 'push' but that is all right because the bond that is being broken is in a three-membered ring. You may have drawn a concerted mechanism or a stepwise one with a cation as intermediate. Either may be correct. The stereochemistry of the alkene is thermodynamically controlled.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/b51c8d00dcf497ad017fb24b2a6375639b55f2c7fa1e63845fa88f3a143a0b94.jpg]]
+![[b51c8d00dcf497ad017fb24b2a6375639b55f2c7fa1e63845fa88f3a143a0b94.jpg]]
 
 The second reaction is base-catalysed and starts with the hydrolysis of the ester by NaOH. This fragmentation also needs 'push', though only a three-membered ring is being broken, because the leaving group is an enolate, nowhere near as electron-withdrawing as the water molecule or the carbocation in the first example. Are they fragmentations? In both cases a C–C bond is being broken but we would understand if you felt the first was not strictly a fragmentation, particularly if it goes stepwise. Neither reaction breaks the molecule into three pieces and the terminology is merely a matter of opinion.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/45f425ed3aa9c2b517fb342ad713c0c70565ba834a2f0d989d746e0b03663da9.jpg]]
+![[45f425ed3aa9c2b517fb342ad713c0c70565ba834a2f0d989d746e0b03663da9.jpg]]
 
 **中文解析**：
 

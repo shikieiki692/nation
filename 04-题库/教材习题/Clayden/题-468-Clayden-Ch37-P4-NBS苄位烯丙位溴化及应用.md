@@ -27,7 +27,7 @@ source_grade: B
 
 Treatment of this aromatic heterocycle with NBS (N-bromosuccinimide) and AIBN gives mainly one product but this is difficult to purify from minor impurities containing one or three bromine atoms. Further treatment with 10% aqueous NaOH gives one easily separable product in modest yield (50%). What are the mechanisms for the reactions?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/e7d7698a46752459e6b10b213c4975dbf1202d07ea573142e4c2fbe076e7aacf.jpg]]
+![[e7d7698a46752459e6b10b213c4975dbf1202d07ea573142e4c2fbe076e7aacf.jpg]]
 
 **原文题目**：Treatment of this aromatic heterocycle with NBS (N-bromosuccinimide) and AIBN gives mainly one product but this is difficult to purify from minor impurities containing one or three bromine atoms. Further treatment with 10% aqueous NaOH gives one easily separable product in modest yield (50%). What are the mechanisms for the reactions?
 
@@ -35,21 +35,21 @@ Treatment of this aromatic heterocycle with NBS (N-bromosuccinimide) and AIBN gi
 
 **Answer (English)**: Two preliminary reactions need to take place: NBS is a source of a low concentration of bromine molecules and AIBN initiates the radical chain by forming a nitrile-stabilized tertiary radical.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/723b09648b43a77da316883ea1d3b645246ff492e1591f2eb0a6ba794b9badb9.jpg]]
+![[723b09648b43a77da316883ea1d3b645246ff492e1591f2eb0a6ba794b9badb9.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/278dc79dd2833b128f45b553ccf5050f064c18365e5a6fc4b4634dc0d4ec872d.jpg]]
+![[278dc79dd2833b128f45b553ccf5050f064c18365e5a6fc4b4634dc0d4ec872d.jpg]]
 
 The new radical abstracts hydrogen atoms from the benzylic positions to make stable delocalized radicals. These react with bromine to give the benzylic bromide and release a bromine atom.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/0b37a8f2009e40535f308e7a4649a3d56c5d9387c4dedbdd5a063db22b0382c9.jpg]]
+![[0b37a8f2009e40535f308e7a4649a3d56c5d9387c4dedbdd5a063db22b0382c9.jpg]]
 
 All subsequent hydrogen abstractions are carried out by bromine atoms, either of the kind we have just seen or to remove a hydrogen atom from the other methyl group. This reaction provides the HBr that generates more bromine from NBS.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/34ef506a5d09c7d43f8d00dc83bf81338317c2d0fc1614a70459fea724f44a12.jpg]]
+![[34ef506a5d09c7d43f8d00dc83bf81338317c2d0fc1614a70459fea724f44a12.jpg]]
 
 Finally the dibromide reacts with NaOH to give the new heterocycle. Both S_N2 displacements are very easy at a benzylic centre and the second is intramolecular.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/59fac28ea87506252af3240e6a1a161df130e6f511d6c59f35fd9ca8f0682557.jpg]]
+![[59fac28ea87506252af3240e6a1a161df130e6f511d6c59f35fd9ca8f0682557.jpg]]
 
 **中文解析**：
 

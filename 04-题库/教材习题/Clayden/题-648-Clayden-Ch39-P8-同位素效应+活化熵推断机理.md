@@ -40,13 +40,13 @@ $$
 
 A likely mechanism involves protonation of the nitrogen (fast equilibrium), then cleavage of the three-membered ring in the protonated species:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/c196bda23f63d2adc9175c6048c58dca2786208c5b62447fc1ac4b3d43130b2a.jpg]]
+![[c196bda23f63d2adc9175c6048c58dca2786208c5b62447fc1ac4b3d43130b2a.jpg]]
 
 Once the three-membered ring is opened, the rest is acid-catalysed hemiacetal hydrolysis. The second or possibly the third step could be rate-determining.
 
 An alternative mechanism starts with protonation of the oxygen atom and ends with hydrolysis of an imine:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/14f3d5d3f567c3c97ba1dc7c19adc4691df74478869ba96bb01a4af24c02e195.jpg]]
+![[14f3d5d3f567c3c97ba1dc7c19adc4691df74478869ba96bb01a4af24c02e195.jpg]]
 
 **中文解析**：
 

@@ -30,13 +30,13 @@ source_grade: B
 
 **【原文】**Suggest a mechanism for this lactone synthesis.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/c2f5f91791d23eb9e1785f6230788c207337bc55b44c078fe8031ceca1238c85.jpg]]
+![[c2f5f91791d23eb9e1785f6230788c207337bc55b44c078fe8031ceca1238c85.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: Oxidative insertion into the aryl bromide, carbonylation, and nucleophilic attack on the carbonyl group with elimination of Pd(0) form the catalytic cycle. No doubt the palladium has a number (1 or 2?) of phosphine ligands complexed to it during the reaction and these keep the Pd(0) in solution between cycles.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/3e00860c1d8eebfe570c2b7a18489bd4f67da03582ca2cb25aca885660370294.jpg]]
+![[3e00860c1d8eebfe570c2b7a18489bd4f67da03582ca2cb25aca885660370294.jpg]]
 
 **中文解析**：
 

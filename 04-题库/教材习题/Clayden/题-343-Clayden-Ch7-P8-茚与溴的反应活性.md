@@ -27,7 +27,7 @@ source_grade: B
 
 How would you expect the hydrocarbon below to react with bromine, Br₂?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/4624e9a0c13dbb2069df483cdcd576b1c2cb888b1b627e9500243adae637b896.jpg]]
+![[4624e9a0c13dbb2069df483cdcd576b1c2cb888b1b627e9500243adae637b896.jpg]]
 
 **原文题目**：How would you expect the hydrocarbon below to react with bromine, Br₂?
 
@@ -37,7 +37,7 @@ How would you expect the hydrocarbon below to react with bromine, Br₂?
 
 Aromatic rings typically react by substitution, so that they can retain the aromatic sextet. By contrast, alkenes react by electrophilic addition — the classic test for an alkene is that they decolourize bromine water. So, how will our hydrocarbon (known as indene) react? It contains an aromatic ring, but the five-membered ring is not aromatic — it contains a saturated carbon atom. So there is a choice of substitution on the six-membered ring or addition to the alkene in the five-membered ring. Alkenes are more reactive than benzene, so the alkene reacts first.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/1e8d4aac923d6b4ac9326c7e5c01282709b2fc5d736c77cbaf874e30fb034fad.jpg]]
+![[1e8d4aac923d6b4ac9326c7e5c01282709b2fc5d736c77cbaf874e30fb034fad.jpg]]
 
 **中文解析**：
 

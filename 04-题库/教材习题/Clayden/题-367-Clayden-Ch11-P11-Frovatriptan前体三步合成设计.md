@@ -29,17 +29,17 @@ source_grade: B
 
 **【原文】**Three chemical steps convert cyclohexane-1,4-dione into a compound which is used for the synthesis of the anti-migraine drug frovatriptan. Suggest how this transformation is carried out.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/e3e84bd56a7d352d4dbc48f6658327a501e3a2dcfa9dacc11428d9f7aa1a7531.jpg]]
+![[e3e84bd56a7d352d4dbc48f6658327a501e3a2dcfa9dacc11428d9f7aa1a7531.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: Both carbonyl groups have undergone substitution. One of them is converted to an acetal, so we must treat the ketone with a diol and an acid catalyst.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/a2f64f5545870f754720a03fe8a9bede37f88f664b224c43be734d13b45d6b24.jpg]]
+![[a2f64f5545870f754720a03fe8a9bede37f88f664b224c43be734d13b45d6b24.jpg]]
 
 The other ketone must be converted into an amine, so we can use reductive amination: we could first make the imine with methylamine, and reduce it; alternatively we can use NaCNBH₃ to reduce the imine as it forms.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/ece1f5d69fdcca8242144b1497d13c75331fb879a1f45fd0c5b459f121b5ad2b.jpg]]
+![[ece1f5d69fdcca8242144b1497d13c75331fb879a1f45fd0c5b459f121b5ad2b.jpg]]
 
 **中文解析**：
 

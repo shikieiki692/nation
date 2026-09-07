@@ -29,7 +29,7 @@ source_grade: B
 
 **【原文】**Two diastereoisomers of this cyclic keto-lactam have been prepared. The NMR spectra have many overlapping signals but the marked proton can be seen clearly. In isomer A it is at $\delta_{H}$ 4.12 (1H, q, J 3.5) and in isomer B it is $\delta_{H}$ 3.30 (1H, dt, J 4, 11). Which isomer has which stereochemistry?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/6e6c38ee29daf47a250422464ee56bab0cc1911ccd06e76fb225ba53899094b8.jpg]]
+![[6e6c38ee29daf47a250422464ee56bab0cc1911ccd06e76fb225ba53899094b8.jpg]]
 
 **原文题目**：Assign stereochemistry to isomers A and B based on NMR of the marked proton.
 
@@ -39,17 +39,17 @@ source_grade: B
 
 one axial-equatorial coupling 4 Hz
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/5c61289b47d7e1b302f1624cec548d29aa113fc5d0e26aa761d177ee2e4f5c44.jpg]]
+![[5c61289b47d7e1b302f1624cec548d29aa113fc5d0e26aa761d177ee2e4f5c44.jpg]]
 
 The vital proton is clearly axial in isomer B as it has two large couplings (10 Hz) to other axial protons so this must be the trans isomer. Isomer A has three equal small couplings and this fits one conformation of the cis isomer.
 
 two axial-axial couplings
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/c8f82c3321ab8b00873b767a788a831bd27823de4474608ec4240c8a6bfaf4fd.jpg]]
+![[c8f82c3321ab8b00873b767a788a831bd27823de4474608ec4240c8a6bfaf4fd.jpg]]
 
 no axial-axial couplings
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/9b98f9fdfc8c068ac15f0953625289320dbc2cf04d3fc44828a72e43bdf0408c.jpg]]
+![[9b98f9fdfc8c068ac15f0953625289320dbc2cf04d3fc44828a72e43bdf0408c.jpg]]
 
 **中文解析**：
 

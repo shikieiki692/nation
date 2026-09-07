@@ -33,7 +33,7 @@ source_grade: B
 
 Though the detail is missing from this spectrum, how can you already tell that this is not the expected product?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/ee8e207681de93bcc21ee1d7e2372ac471ddc348fe2444ea33b8514b6c754e39.jpg]]
+![[ee8e207681de93bcc21ee1d7e2372ac471ddc348fe2444ea33b8514b6c754e39.jpg]]
 
 ## 参考答案
 
@@ -41,7 +41,7 @@ Though the detail is missing from this spectrum, how can you already tell that t
 
 This surprising result was reported by B. Amit and A. Hassner, Synthesis, 1978, 932. The expected reaction was a Beckmann rearrangement but what actually happened was a Beckmann fragmentation followed by intramolecular Friedel-Crafts alkylation:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/66bf92fed38b2916a1c676c3afdeb7c91574f419efcb9912b7c1e82ffb35c962.jpg]]
+![[66bf92fed38b2916a1c676c3afdeb7c91574f419efcb9912b7c1e82ffb35c962.jpg]]
 
 Now you know the structure of the product, you should be able to assign the spectrum and confirm the result.
 

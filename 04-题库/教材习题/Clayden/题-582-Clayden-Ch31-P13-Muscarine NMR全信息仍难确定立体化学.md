@@ -31,7 +31,7 @@ source_grade: B
 
 $\delta_{H}$ 1.16 (3H, d, J 6.5), 1.86 (1H, ddd, J 12.5, 9.5, 9.5), 2.02 (1H, ddd, J 12.5, 6.0, 2.0), 3.36 (9H, s), 3.54 (1H, dd, J 13, 9.0), 3.92 (1H, dq, J 2.5, 6.5), 4.03 (1H, m), 4.30* (1H, d, J 3.5), and 4.68 (1H, m).
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/6ef9011e8f5121eb7175fe29f4f02c77bab03b76cf034dc532e0cfce2bc08819.jpg]]
+![[6ef9011e8f5121eb7175fe29f4f02c77bab03b76cf034dc532e0cfce2bc08819.jpg]]
 
 **原文题目**：Can you see any definite evidence for the stereochemistry of muscarine from the NMR?
 
@@ -39,7 +39,7 @@ $\delta_{H}$ 1.16 (3H, d, J 6.5), 1.86 (1H, ddd, J 12.5, 9.5, 9.5), 2.02 (1H, dd
 
 **Answer (English)**: Couplings round five-membered rings tend to be much the same whether they are ²J (geminal), ³J_cis, or ³J_trans (vicinal). Even so, the two diastereotopic CH₂ groups are easy to find with their large ²J couplings of 13 and 12.5 Hz. The one with extra coupling must be in the side chain and the other in the ring. You will see that it is very difficult to get conclusive evidence on stereochemistry from NMR alone without using NOE. You should see that, in general, cis couplings in five-membered rings tend to be larger than trans, though there are many, many exceptions!
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/139d0671a45b1e1e86053439c23887bcf5cd12c78b26074c830a85cdb15c895b.jpg]]
+![[139d0671a45b1e1e86053439c23887bcf5cd12c78b26074c830a85cdb15c895b.jpg]]
 
 **中文解析**：
 

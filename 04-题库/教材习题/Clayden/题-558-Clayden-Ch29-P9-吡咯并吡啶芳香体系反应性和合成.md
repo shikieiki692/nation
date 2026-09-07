@@ -29,15 +29,15 @@ source_grade: B
 
 **【原文】**What aromatic system might be based on this ring system? What sort of reactivity might it display?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/b6ef16ca59abc29d3b5a56d074e68e562b82604b2de4deca5fe842dab4122350.jpg]]
+![[b6ef16ca59abc29d3b5a56d074e68e562b82604b2de4deca5fe842dab4122350.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The aromatic system has the poetic name 'pyrrocoline' and you will have found it by trial and error. One ring looks like a pyridine and one like a pyrrole but counting the electrons should have made you realize that you need the lone pair on nitrogen to give a ten electron system. The nitrogen is therefore pyrrole-like and so if you predicted that this compound would react well in electrophilic substitutions on the five-membered ring you would be right: that is exactly what it does. The easiest pyrrocolines to make have alkyl groups at position 3 and these compounds are nitrated to give the 4-nitro compounds. Friedel-Crafts reactions happen at the same atom.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/f9b4a86587b3671aa9b24151a009f575e9da238e0e50eebd782e6f1189aab704.jpg]]
+![[f9b4a86587b3671aa9b24151a009f575e9da238e0e50eebd782e6f1189aab704.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/53a54ec6565b40da4b5ae9824cf1f9848bf21c96b7352a8655bd776667f2b7b7.jpg]]
+![[53a54ec6565b40da4b5ae9824cf1f9848bf21c96b7352a8655bd776667f2b7b7.jpg]]
 
 **中文解析**：
 

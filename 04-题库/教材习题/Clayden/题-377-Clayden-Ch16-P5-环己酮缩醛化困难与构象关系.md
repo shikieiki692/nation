@@ -28,7 +28,7 @@ source_grade: B
 
 It is more difficult to form an acetal from the first of these compounds than from the second. Why is this?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/bbd3abec35ba58e14d012cf56977947a1c7da97e60770825dce4afc8553385b4.jpg]]
+![[bbd3abec35ba58e14d012cf56977947a1c7da97e60770825dce4afc8553385b4.jpg]]
 
 **原文题目**：第一个化合物比第二个更难形成缩醛，为什么？
 
@@ -36,7 +36,7 @@ It is more difficult to form an acetal from the first of these compounds than fr
 
 **Answer (English)**: The mechanism of the reaction is normal acetal formation and is irrelevant to the question as acetal formation is thermodynamically controlled: it is only the structure and stability of the product that matters. We need to look at the conformations of the molecules to find out which is the more stable. Axial groups 1,3-related to the ketone are not important as there is no axial group on the ketone. But one of the oxygen atoms in the acetal must be axial and there is now a bad 1,3-diaxial interaction with the methyl group in the first but not in the second acetal. Though the first ketone is slightly less stable than the second, the first acetal is markedly less stable than the second acetal.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/4b13bb01298043eb7cea818732d8deb256eed60ede51617070586e500ada16ed.jpg]]
+![[4b13bb01298043eb7cea818732d8deb256eed60ede51617070586e500ada16ed.jpg]]
 
 **中文解析**：
 

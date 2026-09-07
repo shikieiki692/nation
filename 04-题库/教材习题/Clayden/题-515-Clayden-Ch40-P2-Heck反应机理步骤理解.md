@@ -27,7 +27,7 @@ source_grade: B
 
 This Heck-style reaction does not lead to regeneration of the alkene. Why not? What is the purpose of the formic acid (HCO₂H) in the reaction mixture?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/7a1488123a7e28a4eeb7dfb37104ed760fc5efa8c8773d1c84402057a48be840.jpg]]
+![[7a1488123a7e28a4eeb7dfb37104ed760fc5efa8c8773d1c84402057a48be840.jpg]]
 
 **原文题目**：This Heck-style reaction does not lead to regeneration of the alkene. Why not? What is the purpose of the formic acid (HCO₂H) in the reaction mixture?
 
@@ -35,11 +35,11 @@ This Heck-style reaction does not lead to regeneration of the alkene. Why not? W
 
 **Answer (English)**: The reaction must start with the oxidative addition of Pd(0) into the Ph-I bond. The reagent added is Pd(II) so one of the reduction methods must provide enough Pd(0) to start the reaction going. The oxidative addition gives PhPdI and this does the Heck reaction on the alkene. Addition occurs on the less hindered top (exo-) face and the phenyl group is transferred to the same face.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/1594d3526a43c5a466d7bfad87520565b8938854456a9ebac8804fdab9997084.jpg]]
+![[1594d3526a43c5a466d7bfad87520565b8938854456a9ebac8804fdab9997084.jpg]]
 
 Normally now the alkyl palladium(II) species would lose palladium by β-elimination. This is impossible in this example as there is no hydrogen atom syn to the PdI group. Instead, an external reducing agent is needed and that is the role of the formate anion: it provides a hydride equivalent by 'transfer hydrogenation' when it loses CO₂.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/fcdf74bedb9bcb7a35caaf2cb263b3c91da4ce9164e2efef119d81a53453337e.jpg]]
+![[fcdf74bedb9bcb7a35caaf2cb263b3c91da4ce9164e2efef119d81a53453337e.jpg]]
 
 **中文解析**：
 

@@ -30,7 +30,7 @@ source_grade: B
 
 **【原文】**Suggest mechanisms for these rearrangements, explaining the stereochemistry in the second reaction.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/5c461764055c249697954ea246df4f5ae831141e08bfb5c220b15f15956f3c19.jpg]]
+![[5c461764055c249697954ea246df4f5ae831141e08bfb5c220b15f15956f3c19.jpg]]
 
 ## 参考答案
 
@@ -40,19 +40,19 @@ source_grade: B
 
 The amine is not involved, presumably because it is fully protonated. The final loss of proton might be concerted with the migration as this would help explain the position of the alkene in the product.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/bf1fabb7c9b2fa028098c3260e79a12ce0ce613030f39bdbe23c5eaf56b030de.jpg]]
+![[bf1fabb7c9b2fa028098c3260e79a12ce0ce613030f39bdbe23c5eaf56b030de.jpg]]
 
 **Reaction 2 — Bromination, amine cyclization, nitrogen migration:**
 
 The second reaction starts with bromination of the alkene and interception of the bromonium ion by the amine. Only when bromine adds to the opposite face of the alkene can the amine cyclize so this reaction resembles iodolactonization. Probably the bromination is reversible.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/ffd738e69ec8c3dc157554ea8b23488a3669fac03866aa01fba34b832381289c.jpg]]
+![[ffd738e69ec8c3dc157554ea8b23488a3669fac03866aa01fba34b832381289c.jpg]]
 
 Finally, the weak base bicarbonate (HCO₃⁻) is enough to remove a proton from the nitrogen atom and allow participation in nitrogen migration by displacement of bromide. This alkene is formed because the C-N⁺ bond to tertiary carbon is broken preferentially.
 
 参考文献：L. Moncovic et al., J. Am. Chem. Soc., 1973, 95, 647.（吗啡类似物的早期合成研究）
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/db2137edfb13391e0bc0eb2dc8d12d92e407617c3fe8025f2bc7c03f0944468e.jpg]]
+![[db2137edfb13391e0bc0eb2dc8d12d92e407617c3fe8025f2bc7c03f0944468e.jpg]]
 
 **中文解析**：
 

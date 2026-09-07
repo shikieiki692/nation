@@ -28,7 +28,7 @@ source_grade: B
 
 Draw clear conformational drawings of these molecules, labelling each substituent as axial or equatorial.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/624e396bf3f9f09199c49a62d89a3776a3e4f4782f68e4b86de0341427c66b75.jpg]]
+![[624e396bf3f9f09199c49a62d89a3776a3e4f4782f68e4b86de0341427c66b75.jpg]]
 
 **原文题目**：画出这些分子的清晰构象图，并标注每个取代基为axial（直立键）或equatorial（平伏键）。
 
@@ -36,9 +36,9 @@ Draw clear conformational drawings of these molecules, labelling each substituen
 
 **Answer (English)**: Your drawings may look different from ours but make sure the rings have parallel sides and don't 'climb upstairs'. Make sure that the axial bonds are vertical and the equatorial bonds parallel to the next ring bond but one. The easiest strategy with this question is to draw a ring accurately, and then to add the substituents. The first molecule is simple: there is only one substituent, a large bromine atom, so it goes equatorial. In the second molecule, the two substituents have to be on opposite sides of the ring: this allows them both to be equatorial, which of course they prefer. The last two molecules are dominated by the large t-butyl group which insists on being equatorial. Once you have put an equatorial t-butyl group on the last molecule you find that there is no choice but to put the Me and OH groups axial.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/2abfd9748a0953f5a89cde4361a518b8cbcddeabad7ec4ff52d113ccca7a66e6.jpg]]
+![[2abfd9748a0953f5a89cde4361a518b8cbcddeabad7ec4ff52d113ccca7a66e6.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/e81ff25df7d3054a3675abefb22ac753b7da4685510741c0631c3309649bd673.jpg]]
+![[e81ff25df7d3054a3675abefb22ac753b7da4685510741c0631c3309649bd673.jpg]]
 
 **中文解析**：
 

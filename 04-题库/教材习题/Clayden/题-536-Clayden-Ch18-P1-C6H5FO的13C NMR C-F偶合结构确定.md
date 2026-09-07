@@ -35,7 +35,7 @@ A compound C₆H₅FO has a broad peak in the infrared at about 3100–3400 cm�
 
 **Answer (English)**: All the signals are in the sp² region and two (at >150 ppm) are of carbons attached to electronegative elements. As the formula contains C₆, a benzene ring is strongly suggested. The IR spectrum tells us that we have an OH group, so the compound is one of three possible structures:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/b16e5fa62fac806b5f39d172de0f359bf3c786955d0a2fc75d0c90302b29eac3.jpg]]
+![[b16e5fa62fac806b5f39d172de0f359bf3c786955d0a2fc75d0c90302b29eac3.jpg]]
 
 The symmetry of the spectrum suggests the para disubstituted compound as there are only four types of carbon atom. We can assign the spectrum by noting that the very large coupling (J 229) must be a ²J_CF and the zero coupling must be the carbon furthest from F, i.e. the para carbon. The intermediate couplings are for the other two carbons and the CF coupling diminishes with distance.
 

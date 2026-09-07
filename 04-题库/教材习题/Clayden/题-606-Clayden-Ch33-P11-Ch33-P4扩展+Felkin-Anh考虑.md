@@ -30,21 +30,21 @@ source_grade: B
 
 **【原文】**Explain the formation of essentially one stereoisomer in this reaction.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/936601c8ef3111b142ff4ee9b70309e675198558ba1b999a8a75bd9b9ba32fcb.jpg]]
+![[936601c8ef3111b142ff4ee9b70309e675198558ba1b999a8a75bd9b9ba32fcb.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The syn selectivity of the aldol reactions comes from the chair conformation of the cyclic (Zimmerman-Traxler) transition state. Ignoring the stereochemistry of the aldehyde we have this simplified explanation. The transition state contains a chair in which the methyl group has no choice but to be axial while the aldehyde's R substituent chooses to be equatorial.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/3f62950fd46185d7b791418401e00c1d6e90c4c243177b8ffcf58f922bf03107.jpg]]
+![[3f62950fd46185d7b791418401e00c1d6e90c4c243177b8ffcf58f922bf03107.jpg]]
 
 We have inevitably drawn the syn aldol product as one enantiomer but so far we have no explanation for the control of absolute stereochemistry. The aldehyde itself is a single enantiomer so the two faces of the carbonyl group are diastereotopic and we might expect one would be chosen by the normal Felkin-Anh argument.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/821ef9e1a73efebf42599cde773c0a77ef9f126b90a17de9185fe5e3a7c2e1df.jpg]]
+![[821ef9e1a73efebf42599cde773c0a77ef9f126b90a17de9185fe5e3a7c2e1df.jpg]]
 
 To our surprise this is not the preferred isomer. In fact the 'anti-Felkin' isomer predominates by about 3:1. The compound is entirely the syn aldol, as predicted, but attack has occurred on the aldehyde in the alternative conformation.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/bd7566055d9005c78ecbdba64444dbc6e100ef93c1410cf64d1315bee0426758.jpg]]
+![[bd7566055d9005c78ecbdba64444dbc6e100ef93c1410cf64d1315bee0426758.jpg]]
 
 **中文解析**：
 

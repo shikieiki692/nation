@@ -30,9 +30,9 @@ source_grade: B
 
 **【原文】**Suggest a mechanism by which this cyclopropane might be formed. Attempts to repeat this synthesis on the related compound below led to a different type of product. What is different this time?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/43754c10434d70659f6623cdc2a898fb39b70051b95aa50eba9849340600b5bc.jpg]]
+![[43754c10434d70659f6623cdc2a898fb39b70051b95aa50eba9849340600b5bc.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/d16c87e1147e12617a210316aff96b9a23199d7ab7daa31584199cb7299d75e5.jpg]]
+![[d16c87e1147e12617a210316aff96b9a23199d7ab7daa31584199cb7299d75e5.jpg]]
 
 **原文题目**：Suggest a mechanism by which this cyclopropane might be formed. Attempts to repeat this synthesis on the related compound below led to a different type of product. What is different this time?
 
@@ -40,11 +40,11 @@ source_grade: B
 
 **Answer (English)**: The first reaction is a straightforward cyclopropane formation with a sulfoxonium ylid and a conjugated ketone. The only unusual feature, the MeO group, makes no difference.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/d322f7bd166a6c10d47a1843514ddfb33e32ce7c7828302725844ad5411ec99e.jpg]]
+![[d322f7bd166a6c10d47a1843514ddfb33e32ce7c7828302725844ad5411ec99e.jpg]]
 
 In the second example, the bromine atom and the phenolic OH evidently do make a difference. No doubt the reaction starts in the same way and a cyclopropane is formed. Under the reaction conditions, the phenol will exist as an anion and this displaces the bromine. This unusual SN2 reaction at a tertiary centre is possible because of activation by the carbonyl group.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/49ccde4772a0e03f0387a451284c3388f89805549347870b0af046e436b0c4ae.jpg]]
+![[49ccde4772a0e03f0387a451284c3388f89805549347870b0af046e436b0c4ae.jpg]]
 
 **中文解析**：
 

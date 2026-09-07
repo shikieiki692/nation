@@ -31,7 +31,7 @@ The enol (or enolate) of a ketone is an ambident nucleophile — it can react at
 1. Br₂ (bromine)
 2. An acid anhydride (e.g., Ac₂O)
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/f5b6af0d5903cc38ea83112925fc8bfe97c850684916af56775a8e359d9b69a3.jpg]]
+![[f5b6af0d5903cc38ea83112925fc8bfe97c850684916af56775a8e359d9b69a3.jpg]]
 
 **原文题目**：
 
@@ -44,7 +44,7 @@ The enol (or enolate) of a ketone is an ambident nucleophile — it can react at
 
 **Answer (English)**:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/62feaa41488d0a47fe6852de5ee8fd15fc0352e7f4a97a2cd058de7b0a711977.jpg]]
+![[62feaa41488d0a47fe6852de5ee8fd15fc0352e7f4a97a2cd058de7b0a711977.jpg]]
 
 1. **Br₂ → Reaction at C (carbon)**: Br₂ is a **soft electrophile**. According to HSAB theory, soft nucleophiles react preferentially with soft electrophiles. The carbon atom of the enol/enolate is the **softer** nucleophilic site (more polarizable, larger orbital), while the oxygen is the harder site. Therefore, Br₂ reacts at carbon to give the α-bromo ketone.
 

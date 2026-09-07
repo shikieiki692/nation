@@ -27,15 +27,15 @@ source_grade: B
 
 How would you convert this lactone selectively into either the hydroxyacid or the unfunctionalized acid?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/588de0671afe64bd93afb924aad9966436fd68b25d0441a16fa6ef922412e79d.jpg]]
+![[588de0671afe64bd93afb924aad9966436fd68b25d0441a16fa6ef922412e79d.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The conversion into the hydroxy-acid is just hydrolysis and can be carried out in aqueous base. Conversion into the unfunctionalized acid demands selective reduction of the C–O at the secondary benzylic centre. Possibilities include catalytic hydrogenolysis or HBr followed by C–Br reduction:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/c9d5efe18a091b1694beff58e09352cf3c4976f78467cf4b129e5ccd567a2537.jpg]]
+![[c9d5efe18a091b1694beff58e09352cf3c4976f78467cf4b129e5ccd567a2537.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/8fff024f1561dba4e74e532950bcea253ee433b6f42f3cdcedb7674c1d17b57c.jpg]]
+![[8fff024f1561dba4e74e532950bcea253ee433b6f42f3cdcedb7674c1d17b57c.jpg]]
 
 **中文解析**：
 

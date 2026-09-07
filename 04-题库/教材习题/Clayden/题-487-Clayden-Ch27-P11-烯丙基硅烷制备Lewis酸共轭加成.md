@@ -30,7 +30,7 @@ source_grade: B
 
 **【原文】**How would you carry out the first step in this sequence? Give a mechanism for the second step and suggest an explanation for the stereochemistry. You may find that a Newman projection helps.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/9e926da5a622ae8f30e6cbbaeaa8f3d79579b53bb1d5c1d499428d13659023c0.jpg]]
+![[9e926da5a622ae8f30e6cbbaeaa8f3d79579b53bb1d5c1d499428d13659023c0.jpg]]
 
 **原文题目**：How would you carry out the first step in this sequence? Give a mechanism for the second step and suggest an explanation for the stereochemistry.
 
@@ -38,15 +38,15 @@ source_grade: B
 
 **Answer (English)**: The best route to the allyl silane is the Wittig reaction. The ylid is not stabilized by extra conjugation so the Z-isomer is favoured.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/31073aead6735dbc2ca411cb89b8b5afacc99514f114a7de422288e2cc928f39.jpg]]
+![[31073aead6735dbc2ca411cb89b8b5afacc99514f114a7de422288e2cc928f39.jpg]]
 
 The reaction with EtAlCl₂ is a Lewis acid-catalysed conjugate addition of the allyl silane to the enone. Conjugate addition is preferred because the nucleophile (the allyl silane) is tethered to the electrophile (enone) and the five-membered ring is preferred to a seven-membered ring.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/b7c1956392971a9ebb0e60f7bb3d3e815bca5090a3bf7e1be5e11d695b521ca9.jpg]]
+![[b7c1956392971a9ebb0e60f7bb3d3e815bca5090a3bf7e1be5e11d695b521ca9.jpg]]
 
 The stereochemistry comes from the way the molecule prefers to fold and the Newman projection below should make that clear. The hydrogen atom on the allyl silane tucks underneath the six-membered ring while the double bond of the allyl silane projects out into space to give the stereochemistry found in the product. The ratio between this diastereoisomer and the other varies from 2:1 to 7.5:1 depending on conditions so the preference is really quite weak.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/45d94b174c33194968f39e408bef9202e1378f226a76ba286d47ee4ab9317703.jpg]]
+![[45d94b174c33194968f39e408bef9202e1378f226a76ba286d47ee4ab9317703.jpg]]
 
 **中文解析**：
 

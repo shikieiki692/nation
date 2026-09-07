@@ -27,7 +27,7 @@ source_grade: B
 
 In the textbook (p. 228) we say that the Grignard reagent below is 'an unstable structure — impossible to make.' Why is this? What would happen if you tried to make it?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/32f591ab956e4a503c3809d164f56ab1d4d01c3083f8e3f2eadc5624cb1ac6a9.jpg]]
+![[32f591ab956e4a503c3809d164f56ab1d4d01c3083f8e3f2eadc5624cb1ac6a9.jpg]]
 
 **原文题目**：Explain why a Grignard reagent with an acetal in the same molecule is impossible to make, and predict what would happen.
 
@@ -35,7 +35,7 @@ In the textbook (p. 228) we say that the Grignard reagent below is 'an unstable 
 
 **Answer (English)**: There are various possibilities that all arise from the presence of a carbonyl group and a Grignard in the same molecule. These two would react together. They might cyclize to form a four-membered ring or a bimolecular reaction might lead to a dimer and perhaps polymerization.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/257d8d2ca88a19ac628e75975e7ee81d13b5a31be5c0b2ac2db4c9ec338c75cb.jpg]]
+![[257d8d2ca88a19ac628e75975e7ee81d13b5a31be5c0b2ac2db4c9ec338c75cb.jpg]]
 
 **中文解析**：
 

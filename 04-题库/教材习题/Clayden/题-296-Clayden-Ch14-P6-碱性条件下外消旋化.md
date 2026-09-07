@@ -28,7 +28,7 @@ source_grade: B
 
 This compound racemizes in base. Why is that?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/56abb8e1193c3322c530e99e8963f375c51df87aa6ac83391dcb7fbee72dbe6b.jpg]]
+![[56abb8e1193c3322c530e99e8963f375c51df87aa6ac83391dcb7fbee72dbe6b.jpg]]
 
 **原文题目**：该化合物在碱性条件下外消旋化。为什么？
 
@@ -36,7 +36,7 @@ This compound racemizes in base. Why is that?
 
 **Answer (English)**: Ester exchange in base goes through a symmetrical (achiral) tetrahedral intermediate with a plane of symmetry. Loss of the right hand leaving group gives one enantiomer and loss of the left gives the other.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/796f2c7292ceca343ce45bd478936f32c61af141695fb99057e6518ba22fcff5.jpg]]
+![[796f2c7292ceca343ce45bd478936f32c61af141695fb99057e6518ba22fcff5.jpg]]
 
 **中文解析**：
 

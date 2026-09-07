@@ -28,7 +28,7 @@ source_grade: B
 
 Cyclopropanone exists as the hydrate in water but 2-hydroxyethanal does not exist as the hemiacetal. Explain.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/685c41560ff2ab0455ff8f16a9f130a62530fd294f7a7bffdc74b7b93cbdd035.jpg]]
+![[685c41560ff2ab0455ff8f16a9f130a62530fd294f7a7bffdc74b7b93cbdd035.jpg]]
 
 **原文题目**：环丙酮在水中以水合物形式存在，但2-羟基乙醛不以半缩醛形式存在。解释原因。
 

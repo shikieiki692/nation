@@ -27,7 +27,7 @@ source_grade: B
 
 Draw an energy profile diagram for this reaction. You will of course need to draw the mechanism first. Suggest which step in this mechanism is likely to be the slow step and what kinetics would be observed.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/5a34cc4a26b29a17b52874e5d253ee963daf8fbbd529bed294d091d973c2f03e.jpg]]
+![[5a34cc4a26b29a17b52874e5d253ee963daf8fbbd529bed294d091d973c2f03e.jpg]]
 
 **原文题目**：Draw an energy profile diagram for this reaction. You will of course need to draw the mechanism first. Suggest which step in this mechanism is likely to be the slow step and what kinetics would be observed.
 
@@ -37,11 +37,11 @@ Draw an energy profile diagram for this reaction. You will of course need to dra
 
 The first thing is to draw the mechanism of the reaction.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/3e63e6aa4c04dea5b8c0dd25ad399706e02fc314b095720a6e703ac6decbb161.jpg]]
+![[3e63e6aa4c04dea5b8c0dd25ad399706e02fc314b095720a6e703ac6decbb161.jpg]]
 
 The first step is bimolecular and forms a new C–C bond. The second step is just a proton transfer between oxygen atoms and is certainly fast. The first step must be the rate-determining step and the intermediate must have a higher energy than the starting material or the product.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/ced6b336703fc2156122bfd25a6f0f551bf9d65496f94320f55f7884199da3c3.jpg]]
+![[ced6b336703fc2156122bfd25a6f0f551bf9d65496f94320f55f7884199da3c3.jpg]]
 
 **中文解析**：
 

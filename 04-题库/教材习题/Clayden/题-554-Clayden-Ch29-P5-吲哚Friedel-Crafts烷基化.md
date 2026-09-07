@@ -27,7 +27,7 @@ source_grade: B
 
 Explain the formation of the product in this Friedel-Crafts alkylation of an indole.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/f6943ebb6d0f09d90c8442e2a1d98baa4f07ea04a549eabfd456054cd25ae94e.jpg]]
+![[f6943ebb6d0f09d90c8442e2a1d98baa4f07ea04a549eabfd456054cd25ae94e.jpg]]
 
 **原文题目**：Explain the formation of the product in this Friedel-Crafts alkylation of an indole with allyl bromide and a Lewis acid.
 
@@ -35,7 +35,7 @@ Explain the formation of the product in this Friedel-Crafts alkylation of an ind
 
 **Answer (English)**: The Lewis acid combines with allyl bromide to give either the allyl cation or the complex. In either case, electrophilic attack occurs at the 3-position of the indole. The benzyl group migrates to the 2-position where there is a proton that can be lost to restore aromaticity.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/d592d5c4ea223ff4a58fafeda1c377d24fd3d5fd9b747992be0586f9a8b79779.jpg]]
+![[d592d5c4ea223ff4a58fafeda1c377d24fd3d5fd9b747992be0586f9a8b79779.jpg]]
 
 **中文解析**：
 

@@ -29,13 +29,13 @@ source_grade: B
 
 **【原文】**Attempts to produce the acid chloride from this unusual amino acid by treatment with SOCl₂ gave instead a β-lactam. What has happened?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/1f7ab37350651c025e56db00b653edb7d0e8182606ee5395028f32b74b8ecc13.jpg]]
+![[1f7ab37350651c025e56db00b653edb7d0e8182606ee5395028f32b74b8ecc13.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: This surprising reaction is one way to make the important β-lactams present in penicillins and other antibiotics. The formation of the acid chloride might go to completion or it might be that some intermediate on the way to the acid chloride rearranges. We shall use an intermediate. Whichever you use, it is participation by nitrogen that starts the ring expansion going, though the next intermediate is very unstable. When chloride attacks the bicyclic cation, it cleaves the most strained bond, the one common to two three-membered rings.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/60fde976a761d722f0469b64bb6e65e6bfbe12ebc5f094b078689a4d2fb86eb6.jpg]]
+![[60fde976a761d722f0469b64bb6e65e6bfbe12ebc5f094b078689a4d2fb86eb6.jpg]]
 
 **中文解析**：
 

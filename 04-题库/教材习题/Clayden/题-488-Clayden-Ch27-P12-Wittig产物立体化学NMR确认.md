@@ -27,7 +27,7 @@ source_grade: B
 
 The following reaction between a phosphonium salt, base, and an aldehyde gives a hydrocarbon C₆H₁₂ with the 200 MHz ¹H NMR spectrum shown. Give a structure for the product and comment on its stereochemistry.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/4df28f9760ea3a60dfca2f7b4e57e5247c2e58804591c7969c8a12886236a86b.jpg]]
+![[4df28f9760ea3a60dfca2f7b4e57e5247c2e58804591c7969c8a12886236a86b.jpg]]
 
 **原文题目**：The following reaction between a phosphonium salt, base, and an aldehyde gives a hydrocarbon C₆H₁₂ with the 200 MHz ¹H NMR spectrum shown. Give a structure for the product and comment on its stereochemistry.
 
@@ -45,7 +45,7 @@ The following reaction between a phosphonium salt, base, and an aldehyde gives a
 
 From this alone we can see an alkene with two vicinal Hs, a methyl group, and an isopropyl group. That adds up to C₆H₁₂ so we have found everything. The isopropyl group contains a 7 Hz coupling between the two methyl groups and the H at 2.70 ppm which is coupled to one of the alkene protons with J = 4 Hz. The remaining coupling of the alkene proton at 5.15 ppm (10 Hz) must be to the other alkene proton and that fits with a cis double bond.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/cfd0b33bb19a90da69e1668091d4570e0569f0b83bdde0b43851708f3e0d5dc2.jpg]]
+![[cfd0b33bb19a90da69e1668091d4570e0569f0b83bdde0b43851708f3e0d5dc2.jpg]]
 
 The compound is cis (Z) 4-methylpent-2-ene. This is a Wittig reaction with an unstabilized ylid, so you should expect to find a cis double bond.
 

@@ -27,21 +27,21 @@ source_grade: B
 
 How would you convert this diamine to either of these two protected derivatives?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/d142aaf6101a58e2d5f90433ac528767aca3e62cae0072711989d8bc42b08a17.jpg]]
+![[d142aaf6101a58e2d5f90433ac528767aca3e62cae0072711989d8bc42b08a17.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The Boc group is a common acid-sensitive protecting group for amines. Making the first derivative is easy because the amine attached to the primary carbon is less hindered and more reactive. Treating the diamine with one equivalent of 'Boc anhydride' (Boc₂O) gives the correctly protected product:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/cd87f9c68724c12c575b15665277ded14e62c9f16cc0ab01a0c28620ccc18fdc.jpg]]
+![[cd87f9c68724c12c575b15665277ded14e62c9f16cc0ab01a0c28620ccc18fdc.jpg]]
 
 The second is more of a challenge — we need to protect the less reactive amino group. The solution is first to protect with a different protecting group: Cbz will do, using CbzCl (benzyl chloroformate) and base. Now the other amino group can be protected with Boc, and finally the Cbz protecting group removed by hydrogenation. Other protecting groups might be all right too, but they have to be removable without using acid, which would remove the Boc group.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/5c4e76bbabe381d9601aa8767f91a7b625d658f4f6cea9e224726126fa45899c.jpg]]
+![[5c4e76bbabe381d9601aa8767f91a7b625d658f4f6cea9e224726126fa45899c.jpg]]
 
 This chemistry was used by chemists in Bordeaux and Manchester to build some new polymeric structures out of the two different amine products:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/289a0d1806a62a5e71b5710d8ff2a2e9a49f03a963376fbd77758238e5767f3d.jpg]]
+![[289a0d1806a62a5e71b5710d8ff2a2e9a49f03a963376fbd77758238e5767f3d.jpg]]
 
 **中文解析**：
 

@@ -27,7 +27,7 @@ source_grade: B
 
 Suggest mechanisms for these reactions, explaining the role of palladium in the first step.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/07d0bd4193ad1458d23d27dc44e92870dc7d6ec33961bd6c1c3a9f840f4e0655.jpg]]
+![[07d0bd4193ad1458d23d27dc44e92870dc7d6ec33961bd6c1c3a9f840f4e0655.jpg]]
 
 **原文题目**：Suggest mechanisms for these reactions, explaining the role of palladium in the first step.
 
@@ -35,15 +35,15 @@ Suggest mechanisms for these reactions, explaining the role of palladium in the 
 
 **Answer (English)**: The first step is a reaction of an enol with an allylic acetate catalysed by palladium(0) via an η³ allyl cation. There is no regiochemistry to worry about as the diketone and allylic acetate are both symmetrical.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/4fbddb1b194a661974de2a0537d8957c1c50dc05c9f828fe4f5ca0b64c85a205.jpg]]
+![[4fbddb1b194a661974de2a0537d8957c1c50dc05c9f828fe4f5ca0b64c85a205.jpg]]
 
 NBS in aqueous solution is a polar brominating agent, ideal for reaction with an enol ether. The intermediate is hydrolysed to the ketone by the usual acetal style mechanism.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/d752d142998f1bc044d09860de0dc4db75df776b27145bc043867e53b506b231.jpg]]
+![[d752d142998f1bc044d09860de0dc4db75df776b27145bc043867e53b506b231.jpg]]
 
 Finally, an intramolecular Wittig reaction. This is a slightly unusual way to do what amounts to an aldol reaction but the 5,5 fused enone system is strained and the Wittig went under very mild conditions (K2CO3 in aqueous solution). The stereochemistry of the new double bond is the only one possible and Wittig reactions with stabilized ylids generally give the most stable of the possible alkene.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/6c71b14518833d0f9f6a665942cb060cfa01ab2834754602951e710c09dc61e9.jpg]]
+![[6c71b14518833d0f9f6a665942cb060cfa01ab2834754602951e710c09dc61e9.jpg]]
 
 **中文解析**：
 

@@ -30,29 +30,29 @@ source_grade: B
 
 **【原文】**The reactions outlined in the chart below were the early stages in a synthesis of an antiviral drug by the Parke-Davis company. Consider how the reactivity of imidazoles is illustrated in these reactions, which involve not only the skeleton of the molecule but also the reagent D. You will need to draw mechanisms for the reactions and explain how they are influenced by the heterocycles.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/fbe128bace7b4a28afee240280a6af46dd0a6118fe022f57759261e116d7c6d0.jpg]]
+![[fbe128bace7b4a28afee240280a6af46dd0a6118fe022f57759261e116d7c6d0.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The first reaction is the nitration of an imidazole in one of only two free positions. The position next to one nitrogen is more nucleophilic than the one between the two nitrogens. Imidazole has one pyridine-like and one pyrrole-like nitrogen so it is more nucleophilic than pyridine but less so than pyrrole.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/be1acc980e774c392ae56674df1075a679a87d5ac2008a046282a20533a75a68.jpg]]
+![[be1acc980e774c392ae56674df1075a679a87d5ac2008a046282a20533a75a68.jpg]]
 
 The second reaction is like an aldol condensation between the methyl group on the ring and the benzaldehyde as the electrophile. The nitro group provides some stabilization for the 'enolate' but that would not be enough without the imidazole.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/897a1c4d612ce982f6cfb6bf645592594f707681e5560bad026a59d04904327a.jpg]]
+![[897a1c4d612ce982f6cfb6bf645592594f707681e5560bad026a59d04904327a.jpg]]
 
 Next, alkylation occurs on one of the nitrogen atoms in the imidazole ring. Alkylation on the lower N is preferred because the product has the longer conjugated system.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/ac038b405988139ab8dd9e66e2efdee1939eb90105e02e13d318fb642a7e6231.jpg]]
+![[ac038b405988139ab8dd9e66e2efdee1939eb90105e02e13d318fb642a7e6231.jpg]]
 
 Ozonolysis of the alkene of C frees the carboxylic acid of D which reacts with carbonyl diimidazole E (CDI) in a nucleophilic substitution at the carbonyl group, with the relatively stable imidazole anion as the leaving group. The product is an 'activated ester' from which the anion of nitromethane displaces the second molecule of imidazole to give product F.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/20c005eefcd0c7fdcf7b50425e415bafe1b7d8c57cd111564c5f0e751624aba5.jpg]]
+![[20c005eefcd0c7fdcf7b50425e415bafe1b7d8c57cd111564c5f0e751624aba5.jpg]]
 
 E = carbonyl diimidazole (CDI):
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/9983d7139dadd877fd42d98ac1685b29bf6fa5ec3ab2e1999596dd77acbe81e3.jpg]]
+![[9983d7139dadd877fd42d98ac1685b29bf6fa5ec3ab2e1999596dd77acbe81e3.jpg]]
 
 **中文解析**：
 

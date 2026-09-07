@@ -29,13 +29,13 @@ source_grade: B
 
 **【原文】**Explain the stereochemical control in this reaction, drawing all the intermediates.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/37d53721fb029a130122be2279268a54a703ab45c3dee5a2751f2a473ff51e40.jpg]]
+![[37d53721fb029a130122be2279268a54a703ab45c3dee5a2751f2a473ff51e40.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The geometry of the enolate is all important and here the large t-butyl group will direct the formation of the cis lithium enolate. Then the aldol reaction goes through a six-membered cyclic transition state (Zimmerman-Traxler) with the R group of the aldehyde taking up an equatorial position. This gives the syn aldol product.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/3f8614096da47e2b334c51445fc0b9a077a4fdc0eb825f9c0065a43e16616608.jpg]]
+![[3f8614096da47e2b334c51445fc0b9a077a4fdc0eb825f9c0065a43e16616608.jpg]]
 
 **中文解析**：
 

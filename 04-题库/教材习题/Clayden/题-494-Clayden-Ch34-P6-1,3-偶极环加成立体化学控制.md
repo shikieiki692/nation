@@ -29,7 +29,7 @@ source_grade: B
 
 **【原文】**Draw mechanisms for these reactions and explain the stereochemistry.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/009d42ff0e0a0d9c265dd115b94667e909d9cc67e622ce9b7cc9214c9b6b23ad.jpg]]
+![[009d42ff0e0a0d9c265dd115b94667e909d9cc67e622ce9b7cc9214c9b6b23ad.jpg]]
 
 **原文题目**：Draw mechanisms for these reactions and explain the stereochemistry.
 
@@ -37,11 +37,11 @@ source_grade: B
 
 **Answer (English)**: The nitrile oxide adds in one step to the cis alkene to give a single diastereoisomer of the 1,3-dipolar cycloadduct. This is a [3+2] cycloaddition with the three-carbon dipole supplying four electrons. The two methyl groups on the alkene start cis and remain so in the adduct.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/32e9fc8acdc1bae2ace550c554264401004ef5bb74bd18d1d1db5db3c17d712d.jpg]]
+![[32e9fc8acdc1bae2ace550c554264401004ef5bb74bd18d1d1db5db3c17d712d.jpg]]
 
 The first reduction must be of the imine as it is stereoselective, with hydride being transferred to the face of the five-membered ring opposite to the methyl groups. N–O reduction follows.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/40b2fa8e3b8686647c85ff0b095d549c67fbcd4aae29eafb5b25f49b3d326c2f.jpg]]
+![[40b2fa8e3b8686647c85ff0b095d549c67fbcd4aae29eafb5b25f49b3d326c2f.jpg]]
 
 If reduction of the N–O bond occurred first, we should expect little control in the reduction of the open chain imine.
 

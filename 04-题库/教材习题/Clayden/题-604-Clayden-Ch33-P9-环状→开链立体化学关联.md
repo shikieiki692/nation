@@ -27,17 +27,17 @@ source_grade: B
 
 How could this cyclic compound be used to produce the open-chain compound with correct relative stereochemistry?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/4385168fd175935e8ef6184debc787ca3ef2090b8db805519b14b1592e563d87.jpg]]
+![[4385168fd175935e8ef6184debc787ca3ef2090b8db805519b14b1592e563d87.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: We should first discover which atoms in the cyclic compound provide which atoms in the product. Numbering the atoms is the easiest way and it shows little change except that C9 has gone and C8 has become an aldehyde.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/c4ecd361ae97a7cbc5a6a7ebf2e16391a71b3f526a0a588de21a13854d843bd4.jpg]]
+![[c4ecd361ae97a7cbc5a6a7ebf2e16391a71b3f526a0a588de21a13854d843bd4.jpg]]
 
 We need to hydrolyse the ester and the acetal and oxidize the 1,2-diol to cleave the C–C bond between the two OH groups. The stereochemistry at C3 and C7 is unchanged and neither is threatened by any of the reaction conditions.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/bae40e3d012be209e05522091f67b366927a0c16a194bc49e120ebbfa2fd9876.jpg]]
+![[bae40e3d012be209e05522091f67b366927a0c16a194bc49e120ebbfa2fd9876.jpg]]
 
 **中文解析**：
 

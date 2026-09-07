@@ -27,7 +27,7 @@ source_grade: B
 
 Is the heterocyclic ring created in this reaction aromatic? How does the reaction proceed? Comment on the regioselectivity of this cyclization.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/d34abe713abcca0749efebac177b88c2613fc80f21e8603932fdc53729de1232.jpg]]
+![[d34abe713abcca0749efebac177b88c2613fc80f21e8603932fdc53729de1232.jpg]]
 
 **原文题目**：Is the heterocyclic ring created in this reaction aromatic? How does the reaction proceed? Comment on the regioselectivity. This is the Pechmann reaction.
 
@@ -35,13 +35,13 @@ Is the heterocyclic ring created in this reaction aromatic? How does the reactio
 
 **Answer (English)**: The left-hand ring is obviously aromatic as it is a benzene ring. The right-hand ring has four electrons from the double bonds and can have two from a lone pair on oxygen, making six in all. This is more obvious in a delocalized form. Alternatively the whole system can be considered as a 10-electron molecule.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/deaf74489e7d6300208be91fb102d3cadaa7bef24c89209c4c307a26b5ca8153.jpg]]
+![[deaf74489e7d6300208be91fb102d3cadaa7bef24c89209c4c307a26b5ca8153.jpg]]
 
 > This is a very old reaction discovered by H. von Pechmann and C. Duisberg, Ber., 1883, 2119.
 
 The first step in the reaction is a transesterification and cyclization then occurs in the ortho position, para to the other hydroxyl group. Cyclization might have happened to the position in between the two substituents, but the position chosen is more reactive for both steric and electronic reasons.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/b661ecd0545edf7eb02699308e4011941aa40f5e7c694bcd349464b0d38b3fdc.jpg]]
+![[b661ecd0545edf7eb02699308e4011941aa40f5e7c694bcd349464b0d38b3fdc.jpg]]
 
 **中文解析**：
 

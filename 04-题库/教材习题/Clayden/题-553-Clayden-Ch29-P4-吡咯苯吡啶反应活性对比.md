@@ -27,7 +27,7 @@ source_grade: B
 
 Suggest which product might be formed in these reactions and justify your choice.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/a4ee3e3da9abb65dd214b607f4b97da075801f260edbced7f42161299135979e.jpg]]
+![[a4ee3e3da9abb65dd214b607f4b97da075801f260edbced7f42161299135979e.jpg]]
 
 **原文题目**：Suggest which product might be formed in these reactions and justify your choice. Each case involves a choice between reaction on a benzene ring or an aromatic heterocycle.
 
@@ -35,7 +35,7 @@ Suggest which product might be formed in these reactions and justify your choice
 
 **Answer (English)**: In each case we have a choice between reaction on a benzene ring or an aromatic heterocycle. The pyrrole is more reactive than the benzene and the pyridine less so. The pyrrole does a Vilsmeier reaction in the remaining free position while nitration occurs on the benzene. Pyridine acts as an electron-withdrawing and deactivating substituent, and therefore directs meta.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/d3864ec0a1c3fdc7f30fe5259ff584e59fed5daa484c9773af549196ef946dbd.jpg]]
+![[d3864ec0a1c3fdc7f30fe5259ff584e59fed5daa484c9773af549196ef946dbd.jpg]]
 
 **中文解析**：
 

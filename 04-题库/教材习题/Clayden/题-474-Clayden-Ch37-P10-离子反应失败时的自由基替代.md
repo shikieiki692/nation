@@ -31,7 +31,7 @@ source_grade: B
 
 **【原文】**How would you make the starting material for this sequence of reactions? Give a mechanism for the first reaction that explains its regio- and stereoselectivity. Your answer should include a conformational drawing of the product. What is the mechanism of the last step? Attempts to carry out this last step by iodine/lithium exchange and reaction with allyl bromide failed. Why? Why is the alternative shown here successful?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/1af86c62a92cc68f2812da3fad653257554972bf289a775fad4349449be298de.jpg]]
+![[1af86c62a92cc68f2812da3fad653257554972bf289a775fad4349449be298de.jpg]]
 
 **原文题目**：How would you make the starting material for this sequence of reactions? Give a mechanism for the first reaction that explains its regio- and stereoselectivity. Your answer should include a conformational drawing of the product. What is the mechanism of the last step? Attempts to carry out this last step by iodine/lithium exchange and reaction with allyl bromide failed. Why? Why is the alternative shown here successful?
 
@@ -39,15 +39,15 @@ source_grade: B
 
 **Answer (English)**: The starting material is an obvious Diels-Alder product as it is a cyclohexene with a carbonyl group outside the ring on the opposite side. The first step is iodolactonization. Iodine attacks the alkene reversibly on both sides but, when it attacks opposite the carboxylate anion, the lactone ring snaps shut.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/9a422879094cf8ded6eff61dd75dbdcb870f2d1b27a40ad0f96db884e4dd2d08.jpg]]
+![[9a422879094cf8ded6eff61dd75dbdcb870f2d1b27a40ad0f96db884e4dd2d08.jpg]]
 
 The problem asks for a conformational drawing of the product and indeed that is necessary. The 1,3-lactone bridge must be diaxial as that is the only way for the carboxylate to reach across and therefore it must attack from an axial direction too.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/2e8ca69db5f4d5f2e9409757810375740272b407128abc40e689626af9aa5041.jpg]]
+![[2e8ca69db5f4d5f2e9409757810375740272b407128abc40e689626af9aa5041.jpg]]
 
 The last step is initiated by AIBN which removes the iodine atom from the compound to make a secondary radical. This attacks the allyl stannane and the intermediate loses Bu₃Sn· and that takes over the job of removing iodine atoms to keep the chain going. The radical intermediate has no stereochemistry at the planar radical carbon and attack occurs from the bottom face to avoid the blocking lactone bridge.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/638cf23b3361784449266d6f8792f0013c9c83627c9a31bfb81235140c701a87.jpg]]
+![[638cf23b3361784449266d6f8792f0013c9c83627c9a31bfb81235140c701a87.jpg]]
 
 Anionic reactions cannot be used for this allylation. If the iodine were metallated, the organometallic compound would immediately expel the lactone bridge as carboxylate ion is a good leaving group. The radical is stable because the C–O bond is strong and not easily cleaved in radical reactions.
 

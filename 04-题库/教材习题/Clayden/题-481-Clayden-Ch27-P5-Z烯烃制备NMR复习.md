@@ -27,7 +27,7 @@ source_grade: B
 
 Deduce the structure of the product of this reaction from the NMR spectra and explain the stereochemistry. Compound A has δH 0.95 (6H, d, J 7 Hz), 1.60 (3H, d, J 5), 2.65 (1H, double septuplet, J 4 and 7), 5.10 (1H, dd, J 10 and 4), and 5.35 (1H, dq, J 10 and 5).
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/ead97408b32aca8c373dfc21463fe51aa8ee0d2fe9dd4a7da602ebaa1b98ceca.jpg]]
+![[ead97408b32aca8c373dfc21463fe51aa8ee0d2fe9dd4a7da602ebaa1b98ceca.jpg]]
 
 **原文题目**：Deduce the structure of the product of this reaction from the NMR spectra and explain the stereochemistry.
 
@@ -35,9 +35,9 @@ Deduce the structure of the product of this reaction from the NMR spectra and ex
 
 **Answer (English)**: This is obviously a Wittig reaction and we should expect a Z-alkene as the ylid is not stabilized by further conjugation. The evidence is plain: the signals at 5.10 and 5.35 are the alkene hydrogens and the coupling constant between them is 10 Hz. This is definitely a Z-alkene.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/a0dc3186193848a9d10af80e25147145c0315e95acfab3606f0976167f0c8540.jpg]]
+![[a0dc3186193848a9d10af80e25147145c0315e95acfab3606f0976167f0c8540.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/70272c9a8ee05f8da8580e0695b9a5e570469b506fd0d06c42020f1639d66ca4.jpg]]
+![[70272c9a8ee05f8da8580e0695b9a5e570469b506fd0d06c42020f1639d66ca4.jpg]]
 
 **中文解析**：
 

@@ -41,9 +41,9 @@ $\delta_{C}$ 8.15 (q), 22.5 (two qs), 28.3 (d), 33.1 (t), 42.0 (t), 131.8 (d), 1
 
 The distinctive features of ¹³C NMR spectra of C=O compounds are described on p. 408 of the textbook.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/37c864d54ba08bc87967d32342ffd875ca4ea27527a5bf3f750e522d2107d04b.jpg]]
+![[37c864d54ba08bc87967d32342ffd875ca4ea27527a5bf3f750e522d2107d04b.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/3f3fa11e2b116a7ae02542a60cff200dfe2697b9d6c29e5cf8d166f882b7cbde.jpg]]
+![[3f3fa11e2b116a7ae02542a60cff200dfe2697b9d6c29e5cf8d166f882b7cbde.jpg]]
 
 **中文解析**：
 

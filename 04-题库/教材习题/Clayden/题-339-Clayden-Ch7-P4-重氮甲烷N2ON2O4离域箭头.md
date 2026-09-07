@@ -41,9 +41,9 @@ Draw curly arrows linking alternative structures to show the delocalization in
 
 **(a) Diazomethane (重氮甲烷)**: The nitro group, although it is neutral, can be represented as a pair of delocalized structures containing charges. The same is true for the explosive gas diazomethane. It has a linear structure, and we can draw two alternative structures, both with charges, even though it is a neutral compound. They're linked with the double headed arrow used for alternative representations for the same compound. Remember to avoid the trap of giving nitrogen five bonds!
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/6c7a5b32163dba1d77ca6e92523e1e24f57fcc1249f05cfb708b18f122d53a23.jpg]]
+![[6c7a5b32163dba1d77ca6e92523e1e24f57fcc1249f05cfb708b18f122d53a23.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/29dab007bc6599c4ae7afbb373d14e06ed98f8c926f1687ee04657b6f053d2ce.jpg]]
+![[29dab007bc6599c4ae7afbb373d14e06ed98f8c926f1687ee04657b6f053d2ce.jpg]]
 
 These compounds are also isoelectronic with carbon dioxide and azide (N₃⁻).
 
@@ -51,7 +51,7 @@ These compounds are also isoelectronic with carbon dioxide and azide (N₃⁻).
 
 **(c) Dinitrogen tetroxide (四氧化二氮, N₂O₄)**: Dinitrogen tetroxide is a gas which decomposes to the more familiar brown air pollutant nitrogen dioxide (NO₂) at higher temperatures. The only way we can draw it seems most unsatisfactory: both nitrogens with positive charges! Even though these are not full positive charges, and this molecule does bring into focus the inadequacy of some valence bond representations, perhaps our discomfort with the structure is an indication of why this N–N bond is so weak.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/52ef130dade0994db759bc7450ba9390c7c7d1e87031942c262386dd1645a2d9.jpg]]
+![[52ef130dade0994db759bc7450ba9390c7c7d1e87031942c262386dd1645a2d9.jpg]]
 
 **中文解析**：
 

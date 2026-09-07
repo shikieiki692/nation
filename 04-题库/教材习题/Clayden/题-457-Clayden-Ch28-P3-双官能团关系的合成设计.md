@@ -27,7 +27,7 @@ source_grade: B
 
 Suggest ways to make these two compounds. Show your disconnections and make sure you number the functional group relationships.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/3fcd57ac48ce7c954e8fa7b81ad4f70bebffd86e65ae687503de37aba4206a6f.jpg]]
+![[3fcd57ac48ce7c954e8fa7b81ad4f70bebffd86e65ae687503de37aba4206a6f.jpg]]
 
 **原文题目**：建议合成这两种化合物的方法。展示你的切断并标注官能团关系的编号。
 
@@ -37,29 +37,29 @@ Suggest ways to make these two compounds. Show your disconnections and make sure
 
 Both compounds have two oxygens singly bonded to the same carbon atom: they are acetals so they come from a carbonyl compound. Disconnecting the acetals helps us see what we are really trying to make.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/301ead0aedbce5d385697d6b292b8f8bed14848da9240a10c790cf706f9a49e0.jpg]]
+![[301ead0aedbce5d385697d6b292b8f8bed14848da9240a10c790cf706f9a49e0.jpg]]
 
 **Compound 1 (1,3-diol acetal)**: The diol has a 1,3-relationship between the two alcohols so we need aldol or Claisen ester chemistry. We prefer to make the disconnection between C2 and C3 to cut the molecule more or less in half.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/42a33f276e1afd5454a44ab857db5ce204a683fcc15aa432fb5bc6e3f67c2971.jpg]]
+![[42a33f276e1afd5454a44ab857db5ce204a683fcc15aa432fb5bc6e3f67c2971.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/6797a7d1b35b7ba19d883663438d0d1dc02d0c72d9789caa22699d1be36ba8f1.jpg]]
+![[6797a7d1b35b7ba19d883663438d0d1dc02d0c72d9789caa22699d1be36ba8f1.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/d0021aa6fc98a008848204dc58860e81e8ab27d8b5e95046066ec6f388e9b3e7.jpg]]
+![[d0021aa6fc98a008848204dc58860e81e8ab27d8b5e95046066ec6f388e9b3e7.jpg]]
 
 If the keto-ester is used as starting material, it can be made by Claisen ester condensation. The advantage is that the synthesis involves a simple self-condensation of ethyl propionate.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/660e36d1cc5884fe99b9b834d70b46a6e6c524f82bebd5b7fefeafc598e4e989.jpg]]
+![[660e36d1cc5884fe99b9b834d70b46a6e6c524f82bebd5b7fefeafc598e4e989.jpg]]
 
 ![[fb804bbaeb65c9ba3b0a1ed1205eb464c9b73a829fc14ad527ce36f23d95898d.jpg]]
 
 **Compound 2 (1,5-relationship)**: The other compound has a 1,5-relationship between the two functional groups and will need conjugate addition. Since we must reduce only one of the two carbonyl groups, we choose an aldehyde and an ester.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/95dfbb49c9d0a8b5564fbaa742ddf233d50a6585d681cdd3ba85d2f9cc1f4f30.jpg]]
+![[95dfbb49c9d0a8b5564fbaa742ddf233d50a6585d681cdd3ba85d2f9cc1f4f30.jpg]]
 
 We must use a specific enol equivalent for the aldehyde enolate to avoid self-condensation: an enamine or a silyl enol ether would be fine. Since we must reduce the ester in the presence of the aldehyde, it makes sense to put the acetal in before we do this.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/9efca57044880e2cba7c39cc09ec0ecdef15dfa8d427a367d770843506b1fd6b.jpg]]
+![[9efca57044880e2cba7c39cc09ec0ecdef15dfa8d427a367d770843506b1fd6b.jpg]]
 
 **中文解析**：
 

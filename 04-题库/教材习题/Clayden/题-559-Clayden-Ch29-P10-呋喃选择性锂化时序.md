@@ -27,7 +27,7 @@ source_grade: B
 
 Explain the order of events and the choice of bases in this sequence.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/489abdf5f090ac1fa3c250eda007abda5fed3aeace6190f7f80c172b613850b8.jpg]]
+![[489abdf5f090ac1fa3c250eda007abda5fed3aeace6190f7f80c172b613850b8.jpg]]
 
 **原文题目**：Explain the order of events and the choice of bases in this sequence involving selective lithiation of a substituted furan.
 
@@ -35,7 +35,7 @@ Explain the order of events and the choice of bases in this sequence.
 
 **Answer (English)**: The allylic group evidently goes into the 2-position so deprotonation of the starting material by LDA must occur there, directed by both the oxygen and bromine atoms. The second electrophile (MeI) takes the place of the Br atom, so BuLi must lead to bromine-lithium exchange rather than deprotonation. The alternative order of events would require selective lithiation adjacent to the methyl group—not something you would expect to work reliably.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/656e12e1c5b3695427a813738c314ee6df94242d984a1a86644a1ac394d951f5.jpg]]
+![[656e12e1c5b3695427a813738c314ee6df94242d984a1a86644a1ac394d951f5.jpg]]
 
 > The product is related to a constituent of the perfume of roses and was made by N. D. Ly and M. Schlosser, Helv. Chim. Acta 1977, 60, 2085.
 

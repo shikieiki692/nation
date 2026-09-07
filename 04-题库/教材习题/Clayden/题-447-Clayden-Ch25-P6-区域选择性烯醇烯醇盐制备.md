@@ -27,7 +27,7 @@ source_grade: B
 
 How would you produce specific enols or enolates at the points marked with the arrows (not necessarily starting with the ketones themselves)?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/851588904e439219542e788955377618b9ae19e409854a7598b8c5022bf14a99.jpg]]
+![[851588904e439219542e788955377618b9ae19e409854a7598b8c5022bf14a99.jpg]]
 
 **原文题目**：How would you produce specific enols or enolates at the points marked with the arrows (not necessarily starting with the ketones themselves)?
 
@@ -35,7 +35,7 @@ How would you produce specific enols or enolates at the points marked with the a
 
 **Answer (English)**: The last two ketones have two different α-positions so there is a good chance of controlling enol formation from the parent ketone. But the first ketone has two primary α-positions and the difference appears only in the two β-positions. The obvious solution is conjugate addition and trapping. The thermodynamic enol is needed from the second ketone and direct silylation is a good bet. The third requires kinetic enolate formation and LDA is a good way to do that.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/fe6dd359ff667a298e53ff0e04f3d09a13adc12fe6a4b01e813979bd3969b048.jpg]]
+![[fe6dd359ff667a298e53ff0e04f3d09a13adc12fe6a4b01e813979bd3969b048.jpg]]
 
 **中文解析**：
 

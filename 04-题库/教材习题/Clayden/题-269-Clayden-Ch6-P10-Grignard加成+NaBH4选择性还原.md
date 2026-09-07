@@ -27,13 +27,13 @@ source_grade: B
 
 What would be the products of these reactions? In each case give a mechanism to justify your prediction.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/a4a42ff3707943f45f3d114fd7130c0343c2c2079f1a3174f8c10379232f1780.jpg]]
+![[a4a42ff3707943f45f3d114fd7130c0343c2c2079f1a3174f8c10379232f1780.jpg]]
 
 $\xrightarrow[\mathrm{Et}_{2}\mathrm{O}]{\mathrm{EtMgBr}}?$
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/c23a84710c769901adc4200a29c1a9c71a51221adbf99ee2e1f7887761cdb9be.jpg]]
+![[c23a84710c769901adc4200a29c1a9c71a51221adbf99ee2e1f7887761cdb9be.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/e26d0bb48a771001883853bc70b6c709749c53854fe54965df51ff77f510e64a.jpg]]
+![[e26d0bb48a771001883853bc70b6c709749c53854fe54965df51ff77f510e64a.jpg]]
 
 **原文题目**：这些反应的产物是什么？在每种情况下给出机理来支持你的预测。
 
@@ -41,11 +41,11 @@ $\xrightarrow[\mathrm{Et}_{2}\mathrm{O}]{\mathrm{EtMgBr}}?$
 
 **Answer (English)**: The Grignard reagent will add to the carbonyl group and the work-up will give a tertiary alcohol as the final product.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/2c38fc3ec1dac528baba5915b76411ef6f3a563922779d213b55f809c5706f0f.jpg]]
+![[2c38fc3ec1dac528baba5915b76411ef6f3a563922779d213b55f809c5706f0f.jpg]]
 
 The second reaction should give you brief pause for thought as you need to recall that borohydride reduces ketones but not esters.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/33c8bc120add3ea836ff5f97634b28d71aed3770a6a5f1bf8876c95f284572a7.jpg]]
+![[33c8bc120add3ea836ff5f97634b28d71aed3770a6a5f1bf8876c95f284572a7.jpg]]
 
 **中文解析**：
 

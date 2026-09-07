@@ -30,7 +30,7 @@ source_grade: B
 **【原文】**
 Comment on the regioselectivity and chemoselectivity of the reactions shown below.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/bbbdbe357b1de26b49f187cea4375bead4a29724689cd43aa5f67378ff598c90.jpg]]
+![[bbbdbe357b1de26b49f187cea4375bead4a29724689cd43aa5f67378ff598c90.jpg]]
 
 ## 参考答案
 
@@ -38,11 +38,11 @@ Comment on the regioselectivity and chemoselectivity of the reactions shown belo
 
 The reaction of an aldehyde with an amine gives an imine, and in acid (HCl), protonation gives an iminium ion, the electrophile that attacks the aromatic ring. The iminium ion is tethered to the ring, so it has only two choices of reaction site, since it can't reach any further than the positions ortho to the tether. The one it chooses is the less hindered. It is also para to an electron-donating methoxy group, so the reaction works well.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/20d27f40415dd15ae86701a141138580197287adccae706aec75218f42bfb420.jpg]]
+![[20d27f40415dd15ae86701a141138580197287adccae706aec75218f42bfb420.jpg]]
 
 In the second case, there is only one methoxy group, and both the positions ortho to the tether are meta to it, where it can't activate substitution. The positions ortho to itself, where it can activate, are too far away for the iminium to reach, so no substitution takes place. Presumably the iminium ion forms, but it is just hydrolysed back to the aldehyde.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/751320004f19806bd4bdd9694b2a352a0d1e7ea7ad6864991507a8121f1063b2.jpg]]
+![[751320004f19806bd4bdd9694b2a352a0d1e7ea7ad6864991507a8121f1063b2.jpg]]
 
 This reaction is a useful way of making some important alkaloid natural products (and indeed it mimics the way nature makes them). It is sometimes known as the 'Pictet-Spengler reaction'.
 

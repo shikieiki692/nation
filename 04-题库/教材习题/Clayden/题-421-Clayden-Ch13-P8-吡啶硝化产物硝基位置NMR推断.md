@@ -27,25 +27,25 @@ source_grade: B
 
 A nitration product (C₈H₁₁N₃O₂) of this pyridine has been isolated which has a nitro group somewhere in the molecule. From the spectrum deduce where the nitro group is and give a full analysis of the spectrum.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/f1cf70c45994abfe82ae85a0912f631c4e0dff4d012f992bc54330d4dbb31798.jpg]]
+![[f1cf70c45994abfe82ae85a0912f631c4e0dff4d012f992bc54330d4dbb31798.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/71410b6908a2ce5f787ca6cb188c3f3eb4fb02961a9b85bd6f9ccac7fee25bf9.jpg]]
+![[71410b6908a2ce5f787ca6cb188c3f3eb4fb02961a9b85bd6f9ccac7fee25bf9.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The nitro group might go on the pyridine ring or on the aliphatic side chain or even on the nitrogen atom. Checking the integral shows that it must have gone on the pyridine: the propyl side chain is still there (CH₃ triplet, CH₂ quintet, and a CH₂ triplet with large chemical shift). The NH proton is still there at 4.0 ppm. But there are now only three protons on the pyridine ring (at 6.7, 8.3, and 8.8 ppm).
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/e44a6b56f8e2ed56284b6c0a0ccdce63803cc9d807739be5ec0c64b2a03b536f.jpg]]
+![[e44a6b56f8e2ed56284b6c0a0ccdce63803cc9d807739be5ec0c64b2a03b536f.jpg]]
 
 There are four possible structures. The most significant feature is the proton at very large chemical shift (8.8) with only very small coupling. Protons next to nitrogen in pyridine rings have very large chemical shifts so this rules out all structures except the second. The nitro group also increases the shifts of neighbouring protons:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/255816f1ddc0413fa1a36e8a4a7b90c56c59b0e9f65b05bb110870964b188666.jpg]]
+![[255816f1ddc0413fa1a36e8a4a7b90c56c59b0e9f65b05bb110870964b188666.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/549cc364bb4270aa71f18068407e543b0b2c589881e669f1061d70bf499ca4ea.jpg]]
+![[549cc364bb4270aa71f18068407e543b0b2c589881e669f1061d70bf499ca4ea.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/994d46201c473c9a998d965c3261e0032c6a763cf6740d49769777ef22449953.jpg]]
+![[994d46201c473c9a998d965c3261e0032c6a763cf6740d49769777ef22449953.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/be7cc82a034fd6da51562173b5deeed793f6fd94151b190f5c97190100e5d206.jpg]]
+![[be7cc82a034fd6da51562173b5deeed793f6fd94151b190f5c97190100e5d206.jpg]]
 
 **中文解析**：
 

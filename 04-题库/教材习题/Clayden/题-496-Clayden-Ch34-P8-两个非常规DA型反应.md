@@ -30,7 +30,7 @@ source_grade: B
 
 **【原文】**Suggest a mechanism for this reaction and explain the stereo- and regiochemistry.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/31b8a8b8ab5b9c8bf69ab3d97cee4098d6c2eef6b39bd292bde3dee4ca9d513a.jpg]]
+![[31b8a8b8ab5b9c8bf69ab3d97cee4098d6c2eef6b39bd292bde3dee4ca9d513a.jpg]]
 
 **原文题目**：Suggest a mechanism for this reaction and explain the stereo- and regiochemistry.
 
@@ -38,7 +38,7 @@ source_grade: B
 
 **Answer (English)**: The reaction is clearly a cycloaddition but at first sight the selectivity is all wrong. The puzzle is solved when we realize that this is a reverse electron demand Diels-Alder. The diene is very electron-deficient with its two conjugated carbonyl groups so the dienophile needs to be electron-rich. It is not very electron rich as drawn, but its enol is. The first formed adduct loses carbon dioxide in a reverse cycloaddition.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/aec1dd79637e85928ec61c50023c3b1d5f7488206ac60a115e3bd3e2e0e1352e.jpg]]
+![[aec1dd79637e85928ec61c50023c3b1d5f7488206ac60a115e3bd3e2e0e1352e.jpg]]
 
 **中文解析**：
 

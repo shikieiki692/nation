@@ -30,7 +30,7 @@ source_grade: B
 
 **【原文】**A tricyclic hydroxyketone was made by hydrolysis of a bis silyl ether. Further reaction gave a new compound. Explain these reactions including the stereochemistry. The diene has the proton NMR spectrum: δ_H 6.06 (1H, dd, J 10.3, 12.1), 6.23 (1H, dd, J 10.3, 14.7), 6.31 (1H, d, J 14.7), and 7.32 (1H, d, J 12.1). Does this agree with the structure given?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/df63e8977234813ab6682cb8008f0f9cfba2fd087bc04ba37fe8611701b1c05b.jpg]]
+![[df63e8977234813ab6682cb8008f0f9cfba2fd087bc04ba37fe8611701b1c05b.jpg]]
 
 **原文题目**：A tricyclic hydroxyketone was made by hydrolysis of a bis silyl ether. Further reaction gave a new compound. Explain these reactions including the stereochemistry. The diene has the proton NMR spectrum: δ_H 6.06 (1H, dd, J 10.3, 12.1), 6.23 (1H, dd, J 10.3, 14.7), 6.31 (1H, d, J 14.7), and 7.32 (1H, d, J 12.1). Does this agree with the structure given?
 
@@ -38,21 +38,21 @@ source_grade: B
 
 **Answer (English)**: The first sequence of reactions is simple. Protonation of the enol ether occurs on the convex face so the OH group is pushed into the endo side. Hydrolysis gives the hydroxy-ketone and the tosylate.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/6ca694a0b7a3e7db60c485d8ac391a90a63c8a3a655d356ddf1dab218201f81f.jpg]]
+![[6ca694a0b7a3e7db60c485d8ac391a90a63c8a3a655d356ddf1dab218201f81f.jpg]]
 
 The tosylate is displaced with inversion by the excellent $S_\mathrm{N}2$ nucleophile PhS⁻ and reduction of the ketone from the exo face followed by acetylation gives the key intermediate.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/5d686c66a2d58aeffe0cc8684537f679412bfe090fc71059ea224ef331493d1d.jpg]]
+![[5d686c66a2d58aeffe0cc8684537f679412bfe090fc71059ea224ef331493d1d.jpg]]
 
 Heating this product leads to a retro Diels-Alder reaction: cyclopentadiene is released and a cyclobutene is formed stereospecifically trans. This now decomposes by a four-electron conrotatory electrocyclic reaction that could give either the E,E- or the Z,Z-diene.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/d8acc961f1beeece0f0c2a87a8b18437c73734d2c2dbf7702294b796734af3b8.jpg]]
+![[d8acc961f1beeece0f0c2a87a8b18437c73734d2c2dbf7702294b796734af3b8.jpg]]
 
 It's worth noting for future reference that enol ethers (and enol esters) often have surprisingly small alkene coupling constants.
 
 The NMR spectrum clearly shows that the E,E-diene is formed. The coupling constants for the simple doublets must be for the terminal hydrogens and 14.7 Hz is definitely a trans coupling. You might think 12.1 is a bit small for the other trans coupling as it is on the low side but the alkene has an electronegative substituent (OAc) and this reduces J.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/e4651e0973a414181a25cc1f6a5c7bd7f41fd597730eab5c51576b45d980b981.jpg]]
+![[e4651e0973a414181a25cc1f6a5c7bd7f41fd597730eab5c51576b45d980b981.jpg]]
 
 **中文解析**：
 

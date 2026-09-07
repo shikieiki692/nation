@@ -27,7 +27,7 @@ source_grade: B
 
 Explain the reactions in this sequence, commenting on the regioselectivity of the organometallic steps.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/17e1867bed525f6d5a3c68c7624a3c90452e310f140a7f36a1fc8a9c522930e0.jpg]]
+![[17e1867bed525f6d5a3c68c7624a3c90452e310f140a7f36a1fc8a9c522930e0.jpg]]
 
 **原文题目**：Explain the reactions in this sequence, commenting on the regioselectivity of the organometallic steps.
 
@@ -35,15 +35,15 @@ Explain the reactions in this sequence, commenting on the regioselectivity of th
 
 **Answer (English)**: The allylic Grignard reagent does direct addition from the end remote to the magnesium atom, as often happens. Hydrolysis of the silyl enol ether reveals an aldehyde.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/8fce2796d0d17a68a81df520c492a9551155e916166d783f8558f968f779e3bf.jpg]]
+![[8fce2796d0d17a68a81df520c492a9551155e916166d783f8558f968f779e3bf.jpg]]
 
 Now the Wacker oxidation must involve the addition of water to a Pd(II) π-complex of the alkene and β-elimination of palladium to give Pd(0) which is recycled by oxidation with oxygen mediated by copper.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/02353a3d7ea7745bd48adba2081481e48f13e1b292e0428b0b57f4ebdded721b.jpg]]
+![[02353a3d7ea7745bd48adba2081481e48f13e1b292e0428b0b57f4ebdded721b.jpg]]
 
 Finally, the pyridine synthesis is simply a double enamine/imine formation between ammonia and the two carbonyl groups. Probably the aldehyde reacts first.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/07e916b194e43dd4549af98b754983197780a20997d5ccf014173539c50b2fa2.jpg]]
+![[07e916b194e43dd4549af98b754983197780a20997d5ccf014173539c50b2fa2.jpg]]
 
 **中文解析**：
 

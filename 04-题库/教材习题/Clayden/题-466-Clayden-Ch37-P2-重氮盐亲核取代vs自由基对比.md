@@ -27,7 +27,7 @@ source_grade: B
 
 Heating the diazonium salt below in the presence of methyl acrylate gives a reasonable yield of a chloroacid. Why is this unlikely to be nucleophilic aromatic substitution by the S_N1 mechanism? Suggest an alternative mechanism that explains the regioselectivity.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/2108bfa5a57b10bd4f528a840dae2b1bcdff4b8d20b20624b04414f8313f8771.jpg]]
+![[2108bfa5a57b10bd4f528a840dae2b1bcdff4b8d20b20624b04414f8313f8771.jpg]]
 
 **原文题目**：Heating the diazonium salt below in the presence of methyl acrylate gives a reasonable yield of a chloroacid. Why is this unlikely to be nucleophilic aromatic substitution by the S_N1 mechanism (p. 520 of the textbook)? Suggest an alternative mechanism that explains the regioselectivity.
 
@@ -35,11 +35,11 @@ Heating the diazonium salt below in the presence of methyl acrylate gives a reas
 
 **Answer (English)**: The cation mechanism is perfectly reasonable as far as the diazonium salt is concerned but it will not do for the alkene. Conjugated esters are electrophilic and not nucleophilic alkenes. Even if it were to attack the aryl cation, we should find the reverse regioselectivity.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/a0960d4d7b9ab3270312065b10a34bf8a8e4d8697d666df28a9df6c21caf1379.jpg]]
+![[a0960d4d7b9ab3270312065b10a34bf8a8e4d8697d666df28a9df6c21caf1379.jpg]]
 
 The only way to produce the observed product is to decompose the diazonium salt homolytically. To do this we can draw the salt as a covalent compound or transfer one electron from the chloride ion to the diazonium salt. The other product would be a chlorine radical. Addition to the alkene gives the more stable radical which abstracts chlorine from the diazonium salt and keeps the chain going.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/9ca59c18100f1ea4884814f9cc8c11b584938f403fd80513a0fc3a6be4af237b.jpg]]
+![[9ca59c18100f1ea4884814f9cc8c11b584938f403fd80513a0fc3a6be4af237b.jpg]]
 
 **中文解析**：
 

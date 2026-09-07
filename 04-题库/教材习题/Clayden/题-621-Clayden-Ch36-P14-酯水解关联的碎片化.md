@@ -30,21 +30,21 @@ source_grade: B
 
 **【原文】**Explain why both these tricyclic ketones fragment to the same diastereoisomer of the same cyclo-octane.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/a2ad6a3374bf6a360df172ea149cd29527fdeb15ed7d46095a86f13d68fc8d38.jpg]]
+![[a2ad6a3374bf6a360df172ea149cd29527fdeb15ed7d46095a86f13d68fc8d38.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: It is obvious from the reactions that two features have disappeared from the starting materials: an ester group (OAc) and a four-membered ring. The ester can be hydrolysed by KOH and the four-membered ring disappears in the fragmentation. As usual, draw the mechanism first and worry about the stereochemistry later. For the first compound, this sequence gives the enolate of a diketone and hence the diketone itself.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/50929b956a97d92a861128fb1be7b023a3f43c258f23fdf1d94c46faa3224f45.jpg]]
+![[50929b956a97d92a861128fb1be7b023a3f43c258f23fdf1d94c46faa3224f45.jpg]]
 
 The second compound follows the same sequence and a different enolate emerges, but it is simply another enolate of the same ketone. Both compounds give the same basic structure.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/9f29a32031bd8ee169a6b78a7c1bd469c6f6f19a8d181a0de5750578d5738637.jpg]]
+![[9f29a32031bd8ee169a6b78a7c1bd469c6f6f19a8d181a0de5750578d5738637.jpg]]
 
 But what about stereochemistry? We are not told the stereochemistry of the starting materials but know that 5,4 fused rings must have a cis ring junction. This junction survives in the first compound so the stereochemistry must have changed. The second compound gives us the clue as to how. When it tautomerizes to the ketone it will select the more stable trans 8,5 ring junction. In the same way, the enolate from the first sequence is in equilibrium under the reaction conditions with all the other enolates of the same ketone, including those at ring junctions. This is a stereoselective reaction.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/09ed2eb64e1a6a1afae655c707057000300ba259e2772b9037a6b93eda9e8aaa.jpg]]
+![[09ed2eb64e1a6a1afae655c707057000300ba259e2772b9037a6b93eda9e8aaa.jpg]]
 
 **中文解析**：
 

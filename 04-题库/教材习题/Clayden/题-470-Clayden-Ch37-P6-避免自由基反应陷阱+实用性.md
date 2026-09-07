@@ -27,7 +27,7 @@ source_grade: B
 
 An ICI process for the manufacture of the diene used to make pyrethroid insecticides involved heating these compounds to 500 °C in a flow system. Propose a radical chain mechanism for the reaction.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/52d7c3649551be6ea627006a6fe24d36c792b8d6559d19bf1248c511bfd22269.jpg]]
+![[52d7c3649551be6ea627006a6fe24d36c792b8d6559d19bf1248c511bfd22269.jpg]]
 
 **原文题目**：An ICI process for the manufacture of the diene used to make pyrethroid insecticides involved heating these compounds to 500 °C in a flow system. Propose a radical chain mechanism for the reaction.
 
@@ -35,15 +35,15 @@ An ICI process for the manufacture of the diene used to make pyrethroid insectic
 
 **Answer (English)**: The most likely initiation at 500 °C is the homolytic cleavage of the C–Cl bond to release allyl and chloride radicals. The chloride radicals then attack the alkene and abstract a hydrogen atom to give more of the same allylic radical.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/d3f38289ff1c68b09c890faceffef3c5742ea40f337a088ff630aae6dfa16b66.jpg]]
+![[d3f38289ff1c68b09c890faceffef3c5742ea40f337a088ff630aae6dfa16b66.jpg]]
 
 The trap is to form the product by dimerizing the allylic radical. Dimerizing radicals does sometimes occur (in the acyloin reaction for example) but it is a rare process.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/a209b41d8be40d4693f65997058e5b3af2b47d294e28799e0b3bc0becdb25f58.jpg]]
+![[a209b41d8be40d4693f65997058e5b3af2b47d294e28799e0b3bc0becdb25f58.jpg]]
 
 Much more likely is a chain reaction. If we add the allylic radical to the alkene part of the allylic chloride we make a stable tertiary radical that can lose chloride radical and propagate the chain.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/c42ed66aefdcbeab3819e36c10efd9d21bedbf8549fa764c5d4a31d65a8c1204.jpg]]
+![[c42ed66aefdcbeab3819e36c10efd9d21bedbf8549fa764c5d4a31d65a8c1204.jpg]]
 
 **中文解析**：
 

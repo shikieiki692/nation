@@ -37,7 +37,7 @@ mass spectrum gives C₈H₁₂O;
 
 δC (ppm) 189.2, 153.4, 152.7, 43.6, 40.8, 30.3, and 25.9.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/77e97dadba08be1ed907299690c623ec1131f158f30b14b4cc8781a350cd50f5.jpg]]
+![[77e97dadba08be1ed907299690c623ec1131f158f30b14b4cc8781a350cd50f5.jpg]]
 
 **Purpose of the problem**: Further practice at structure determination including a change in the carbon skeleton—a ring contraction.
 
@@ -45,7 +45,7 @@ mass spectrum gives C₈H₁₂O;
 
 **Answer (English)**: The compound A is a simple cyclopentenal. The ¹³C NMR assignment is not at all certain.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/41ac1a205dc584041a1d0d0d8e61d8241265b252e47df614e4c0401cd90ec442.jpg]]
+![[41ac1a205dc584041a1d0d0d8e61d8241265b252e47df614e4c0401cd90ec442.jpg]]
 
 **中文解析**：
 

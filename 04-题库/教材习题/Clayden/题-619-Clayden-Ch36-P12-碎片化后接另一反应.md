@@ -29,13 +29,13 @@ source_grade: B
 
 **【原文】**Treatment of this hydroxy-ketone with base followed by acid gives the enone shown. What is the structure of intermediate A, how is it formed, and what is the mechanism of its conversion to the final product?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/ac3c304fd16aaf8eabec9df28b5a873038cb02e3210b9d8e7f13e7760187a8fd.jpg]]
+![[ac3c304fd16aaf8eabec9df28b5a873038cb02e3210b9d8e7f13e7760187a8fd.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: Removal of the hydroxyl proton by the base promotes a fragmentation that is a reverse aldol reaction. It works because the C–C bond being broken is in a four-membered ring. Then an acid catalysed aldol reaction in the normal direction and elimination via the enol (E1cB) allows the formation of the much more stable six-membered ring.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/102f6e99c7207ef66c6e0f3327f484a89a54ff333dec2720e1685c7f97296e3b.jpg]]
+![[102f6e99c7207ef66c6e0f3327f484a89a54ff333dec2720e1685c7f97296e3b.jpg]]
 
 **中文解析**：
 

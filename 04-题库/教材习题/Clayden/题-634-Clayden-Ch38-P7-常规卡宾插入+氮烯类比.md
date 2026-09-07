@@ -27,7 +27,7 @@ source_grade: B
 
 Give a mechanism for the formation of the three-membered ring in the first of these reactions and suggest how the ester might be converted into the amine with retention of configuration.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/018dd936d6686ac54f80f1863c049abeefb2aa8e9880b79f42d972bac134f225.jpg]]
+![[018dd936d6686ac54f80f1863c049abeefb2aa8e9880b79f42d972bac134f225.jpg]]
 
 **原文题目**：Give a mechanism for the formation of the three-membered ring in the first of these reactions and suggest how the ester might be converted into the amine with retention of configuration.
 
@@ -35,11 +35,11 @@ Give a mechanism for the formation of the three-membered ring in the first of th
 
 **Answer (English)**: The diazoester gives the carbene under Cu(I) catalysis and insertion into the alkene follows its usual course. The only extra is stereoselectivity: the insertion happens more easily if the two large groups (Ph and CO₂Et) keep as far apart as possible.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/31d19300ce73dd779de750d2c665491a44a2b2f0511bd95c6688790d4b43327d.jpg]]
+![[31d19300ce73dd779de750d2c665491a44a2b2f0511bd95c6688790d4b43327d.jpg]]
 
 Conversion of acid derivatives into amines with the loss of the carbonyl group can be done in various ways. In chapter 36 we recommended the Curtius and the Hofmann. The Hofmann degradation is the easier if we start with an ester, converting into the amide with ammonia and then treating with bromine in basic solution. The N-bromo amide undergoes α-elimination to a nitrene that rearranges to an isocyanate.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/00ab70f1304d5f31246890813c7d447330c7bf3cd2a9a5e14195dd445932967f.jpg]]
+![[00ab70f1304d5f31246890813c7d447330c7bf3cd2a9a5e14195dd445932967f.jpg]]
 
 **中文解析**：
 

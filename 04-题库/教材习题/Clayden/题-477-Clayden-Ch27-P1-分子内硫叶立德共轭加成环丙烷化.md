@@ -30,7 +30,7 @@ source_grade: B
 
 **【原文】**Suggest a mechanism for this reaction, commenting on the selectivity and the stereochemistry.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/d565534ad9bd7f2004594f4c09bccf7903578f475a321a0194dd29c25758c076.jpg]]
+![[d565534ad9bd7f2004594f4c09bccf7903578f475a321a0194dd29c25758c076.jpg]]
 
 **原文题目**：Suggest a mechanism for this reaction, commenting on the selectivity and the stereochemistry.
 
@@ -38,7 +38,7 @@ source_grade: B
 
 **Answer (English)**: The ylid forms in the usual way but can't reach across the ring to attack the carbonyl group directly so it has to do conjugate addition instead. It also has to attack from the top face as it is tethered there. Completion of the cyclopropane forming reaction leaves the sulfur still attached to the angular methyl group. Raney nickel reduces the C–S bond (this reagent is commonly used for this purpose). This reaction shows that simple sulfonium ylids can do conjugate addition—they just prefer to add to carbonyl groups if that possibility is available.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/8bc0021d8f08183cede657e2380a18f0c67bf19a6329c8090062460306ace291.jpg]]
+![[8bc0021d8f08183cede657e2380a18f0c67bf19a6329c8090062460306ace291.jpg]]
 
 **中文解析**：
 

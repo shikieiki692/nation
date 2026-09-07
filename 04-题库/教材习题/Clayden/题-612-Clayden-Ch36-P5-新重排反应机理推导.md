@@ -31,7 +31,7 @@ source_grade: B
 **【原文】**
 Suggest a mechanism for this rearrangement.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/eebfd658af12b168f8450eedff2ababf6babc095fd5fc1d57494f581a2a63760.jpg]]
+![[eebfd658af12b168f8450eedff2ababf6babc095fd5fc1d57494f581a2a63760.jpg]]
 
 ## 参考答案
 
@@ -39,7 +39,7 @@ Suggest a mechanism for this rearrangement.
 
 The starting material is an enamine and will react with bromine in the manner of an enol. Addition of hydroxide gives the starting material for the rearrangement. Notice that the nitrogen atom migrates rather than the carbon atom and this suggests that it does so by participation. If you numbered the atoms you would have found that the gem-dimethyl group and the nitrogen atom give the answer away immediately.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/9e51eef25077b4d46dbb279ae453c799116e381b7c9f98f6b3aa4e80770d6bae.jpg]]
+![[9e51eef25077b4d46dbb279ae453c799116e381b7c9f98f6b3aa4e80770d6bae.jpg]]
 
 **中文解析**：
 

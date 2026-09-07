@@ -31,7 +31,7 @@ Propose mechanisms for the following two reactions involving enol intermediates:
 1. Acid-catalyzed hydrolysis of an acetal → non-conjugated enone → isomerization to conjugated enone via enol
 2. Nitrile + Grignard reagent → ketone → enolization → bromination at the enol carbon
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/786b54257f302dd723b3c6f428f369235e8c5c4d458d153967a5609ec05111fb.jpg]]
+![[786b54257f302dd723b3c6f428f369235e8c5c4d458d153967a5609ec05111fb.jpg]]
 
 **原文题目**：
 
@@ -44,7 +44,7 @@ Propose mechanisms for the following two reactions involving enol intermediates:
 
 **Answer (English)**:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/e685c363539522bfa5d7b00aa8e7006c9456cbb174ce75c4ab60750ba2453307.jpg]]
+![[e685c363539522bfa5d7b00aa8e7006c9456cbb174ce75c4ab60750ba2453307.jpg]]
 
 **Reaction 1 — Acetal hydrolysis and enone isomerization**:
 
@@ -54,7 +54,7 @@ Step 2: The initial product is a **non-conjugated enone** (C=C is not conjugated
 
 **Reaction 2 — Nitrile + Grignard → ketone → enolization → bromination**:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/1a2c63cdc1bb41ffd108d3d9655cc460c90a366f3e37eefeb73830882850b5b4.jpg]]
+![[1a2c63cdc1bb41ffd108d3d9655cc460c90a366f3e37eefeb73830882850b5b4.jpg]]
 
 Step 1: R-MgBr adds to the nitrile (R-C≡N) to give an imine salt (R-C(=NMgBr)-R'). Acidic workup hydrolyzes the imine to a ketone.
 

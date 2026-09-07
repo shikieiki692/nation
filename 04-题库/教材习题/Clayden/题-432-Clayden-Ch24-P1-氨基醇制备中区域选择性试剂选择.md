@@ -27,7 +27,7 @@ source_grade: B
 
 Two routes are proposed for the preparation of this amino-alcohol. Which do you think is more likely to succeed and why?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/cf671bbed8e39dcb0349e0f931f870627ed41387c26e4c50ca6533682d31a5cb.jpg]]
+![[cf671bbed8e39dcb0349e0f931f870627ed41387c26e4c50ca6533682d31a5cb.jpg]]
 
 **原文题目**：给出两条制备该氨基醇的路线，哪一条更可能成功？为什么？
 
@@ -35,7 +35,7 @@ Two routes are proposed for the preparation of this amino-alcohol. Which do you 
 
 **Answer (English)**: Either route might give the product but enals are more likely to undergo direct addition to the carbonyl group rather than conjugate addition while conjugated esters are better at conjugate addition. So the ester is probably better.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/b12b0c41fae4d42858fae86b34a26e5c4205f55ff48e43ad20872869052c4d37.jpg]]
+![[b12b0c41fae4d42858fae86b34a26e5c4205f55ff48e43ad20872869052c4d37.jpg]]
 
 **中文解析**：
 

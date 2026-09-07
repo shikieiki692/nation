@@ -27,7 +27,7 @@ source_grade: B
 
 Give mechanisms for these reactions, explaining the role of silicon.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/c85f2f2aef491ff7b5faad76c0a5437b440c27e6f8588b81425c86bcccb5cb51.jpg]]
+![[c85f2f2aef491ff7b5faad76c0a5437b440c27e6f8588b81425c86bcccb5cb51.jpg]]
 
 **原文题目**：Give mechanisms for these reactions, explaining the role of silicon.
 
@@ -35,7 +35,7 @@ Give mechanisms for these reactions, explaining the role of silicon.
 
 **Answer (English)**: Sodium hydride removes a proton from the sulfone to give an anion that can act as a nucleophile. Displacement of mesylate gives an allyl silane, which is converted into an allylic anion by fluoride. Addition to the ketone gives a 5/5 fused system with the more stable cis ring junction.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/7f40e91bb29a204a1f7a341193081e32138f7d60bd8fbf5a9c338ec50d719066.jpg]]
+![[7f40e91bb29a204a1f7a341193081e32138f7d60bd8fbf5a9c338ec50d719066.jpg]]
 
 **中文解析**：
 

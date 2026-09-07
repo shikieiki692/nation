@@ -30,9 +30,9 @@ Suggest mechanisms and draw the products for the bromination of each of the foll
 1. (E)-But-2-ene
 2. Cyclohexene
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/797570787bfbcc56af4771b4a91ffee02dbf7d11c02350660c269857c7f14338.jpg]]
+![[797570787bfbcc56af4771b4a91ffee02dbf7d11c02350660c269857c7f14338.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/192dc69922920237ae98d7583286dafee230aa4250bb2db82dc8f9443d8f8367.jpg]]
+![[192dc69922920237ae98d7583286dafee230aa4250bb2db82dc8f9443d8f8367.jpg]]
 
 **原文题目**：
 
@@ -47,15 +47,15 @@ Suggest mechanisms and draw the products for the bromination of each of the foll
 
 1. **(E)-But-2-ene**: Br₂ approaches the alkene, and one bromine atom attacks to form a cyclic bromonium ion intermediate. The bromide ion then attacks from the opposite face (anti addition) at either of the two equivalent carbons, opening the bromonium ion. The product is (2R,3S)-2,3-dibromobutane — but since the starting material is symmetric and achiral, the product is a **meso** compound. A racemic mixture is NOT formed.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/f566d55a124d652991db20fa7aec9de2056dd157dc4d2bcb7cd36b29b71be951.jpg]]
+![[f566d55a124d652991db20fa7aec9de2056dd157dc4d2bcb7cd36b29b71be951.jpg]]
 
 2. **Cyclohexene**: Br₂ forms a bromonium ion on one face of the ring. Br⁻ attacks from the opposite face (trans/anti addition), giving *trans*-1,2-dibromocyclohexane. Both (1R,2R) and (1S,2S) enantiomers are formed equally → **racemic** mixture.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/011fa5e70e0ab7b8024c63716ae594588a02f75671d07b1266b338fa696e0126.jpg]]
+![[011fa5e70e0ab7b8024c63716ae594588a02f75671d07b1266b338fa696e0126.jpg]]
 
 The mechanism is bromonium ion formation by electrophilic attack of bromine on the alkene and trans opening of the bromonium ion by bromide ion.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/bca999e33610862134a85f7b907fce293a0cbed6252bf712bc3abcf14e97b543.jpg]]
+![[bca999e33610862134a85f7b907fce293a0cbed6252bf712bc3abcf14e97b543.jpg]]
 
 **中文解析**：
 

@@ -30,17 +30,17 @@ source_grade: B
 
 **【原文】**Suggest mechanisms for this unusual indole synthesis. How does the second mechanism relate to electrophilic substitution on indoles?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/ac34efe6e0243c3ad47cc19e65e75975b7972242c60f076287084fa72e7f703e.jpg]]
+![[ac34efe6e0243c3ad47cc19e65e75975b7972242c60f076287084fa72e7f703e.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The first step starts off as a normal Fischer indole synthesis; you just have to draw the molecules carefully to show the spiro ring system, and you have to stop before an indole is formed as the quaternary centre prevents aromatization.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/29eb8a51213e6eb97aeda4a7b63e70b767bb990620252445e8abd0c224f3378a.jpg]]
+![[29eb8a51213e6eb97aeda4a7b63e70b767bb990620252445e8abd0c224f3378a.jpg]]
 
 Treatment with a Lewis acid initiates a rearrangement very like those occurring when 3-substituted indoles are attacked by electrophiles. The aromatic ring is a better migrating group than the primary alkyl alternative and an indole can finally be formed.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/d5142fbe6d662804e007a1803691a4ce6d49fa936db38b9f13d0b52f5933696a.jpg]]
+![[d5142fbe6d662804e007a1803691a4ce6d49fa936db38b9f13d0b52f5933696a.jpg]]
 
 > The new seven-membered heterocycle (an azepine) is found in some tranquilizers: see T. S. T. Wang, Tetrahedron Lett., 1975, 1637.
 

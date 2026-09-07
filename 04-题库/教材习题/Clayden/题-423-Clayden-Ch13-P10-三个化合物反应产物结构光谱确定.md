@@ -27,7 +27,7 @@ source_grade: B
 
 Suggest structures for the products of these reactions, interpreting the spectroscopic data. Most of the reactions will be new to you, and you should aim to solve the structures from the data, not by guessing what might happen.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/ad9697d06d09f7ec570c8f3ec15c35881d47f7a99da434151fe4b1d0a7c30621.jpg]]
+![[ad9697d06d09f7ec570c8f3ec15c35881d47f7a99da434151fe4b1d0a7c30621.jpg]]
 
 **Compound A**: C₁₀H₁₄O, ν_max (cm⁻¹) C–H and fingerprint only, δ_C (ppm) 153, 141, 127, 115, 59, 33, 24, δ_H (ppm) 1.21 (6H, d, J 7 Hz), 2.83 (1H, septuplet, J 7 Hz), 3.72 (3H, s), 6.74 (2H, d, J 9 Hz) and 7.18 (2H, d, J 9 Hz)
 
@@ -41,25 +41,25 @@ Suggest structures for the products of these reactions, interpreting the spectro
 
 **Compound A**: Contains the two reagents combined with loss of HBr. The four Hs at 6.74 and 7.18 suggest the other reagent is attached to the benzene ring. The OMe group is still there (3H singlet at 3.72 ppm) and the new signals are a coupled 6H doublet and 1H septuplet — an isopropyl group.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/ccac0dd60eb8c1e2172c419664119fee8eeb9fb2c6b9d1dde6693d36f531f5a2.jpg]]
+![[ccac0dd60eb8c1e2172c419664119fee8eeb9fb2c6b9d1dde6693d36f531f5a2.jpg]]
 
 The two 2H doublets coupled with J 9 Hz show symmetry — only the para isomer fits.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/32bbe28511fd4590521eedd384603e4ca5ce139074b4dc30e5b45ad24f600cdd.jpg]]
+![[32bbe28511fd4590521eedd384603e4ca5ce139074b4dc30e5b45ad24f600cdd.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/255470e7a40edbb2c3fbe49eacf4d97c51f84ce4d195c25ce4e0a807073c69fe.jpg]]
+![[255470e7a40edbb2c3fbe49eacf4d97c51f84ce4d195c25ce4e0a807073c69fe.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/b1f8e1a2948d0db08972d42274854bdf63c000cf2cc0c4b5f93d1da71bbda5f9.jpg]]
+![[b1f8e1a2948d0db08972d42274854bdf63c000cf2cc0c4b5f93d1da71bbda5f9.jpg]]
 
 **Compound B**: Combines the two reagents with loss of Me₃Si and gain of H. Both IR and ¹³C NMR show a second carbonyl — ester (1745 cm⁻¹, 176 ppm) joined by aldehyde (1730 cm⁻¹, 202 ppm). Proton NMR shows it is an aldehyde (10.01, 1H, s). Two linked CH₂ groups (two triplets with J 7 Hz). The first structure is correct:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/195d96b861b204dcbe06473933fa47f1bf2cf265f4b0e9c166f0ca0aafd6d6ad.jpg]]
+![[195d96b861b204dcbe06473933fa47f1bf2cf265f4b0e9c166f0ca0aafd6d6ad.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/e9b25d243aa36e42c1789bec6b5f5a3b87cbdea44bc4cc2c043ed911ea0bf1e3.jpg]]
+![[e9b25d243aa36e42c1789bec6b5f5a3b87cbdea44bc4cc2c043ed911ea0bf1e3.jpg]]
 
 **Compound C**: Two reagents joined with loss of HF. 1,4-disubstituted benzene ring still present (same pattern as compound A), aldehyde present (1730 cm⁻¹, 191 ppm, 9.97 ppm). The NMe₂ group and CH₂-CH₂ chain survived. Fluoride displaced by oxygen of alcohol:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/62e4bf1d711be357decd7d8d1ad04b985fc6a3155ee00236ba4083ca11279bfe.jpg]]
+![[62e4bf1d711be357decd7d8d1ad04b985fc6a3155ee00236ba4083ca11279bfe.jpg]]
 
 **中文解析**：
 

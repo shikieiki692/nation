@@ -31,7 +31,7 @@ source_grade: B
 **【原文】**
 The synthesis of the gastric antisecretory drug rioprostil requires this alcohol.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/c12515a7b2ac10691f3611b6b9313a5fd2a788088256091e00920fdfe60e93ca.jpg]]
+![[c12515a7b2ac10691f3611b6b9313a5fd2a788088256091e00920fdfe60e93ca.jpg]]
 
 (a) Suggest possible syntheses starting from ketones and organometallics.
 
@@ -41,11 +41,11 @@ The synthesis of the gastric antisecretory drug rioprostil requires this alcohol
 
 **Answer (English)**: There are three one-step syntheses from ketones and organometallic compounds. We have used 'M' to indicate the metal — it might be Li or MgX (in other words, the organometallic could be an organolithium or a Grignard reagent).
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/7900712376726beb5b67bb5ea773644af766e51315d5ed8386edf2cc5e6acaed.jpg]]
+![[7900712376726beb5b67bb5ea773644af766e51315d5ed8386edf2cc5e6acaed.jpg]]
 
 Each of these ketones can be made by oxidation of an alcohol that can in turn be made from an organometallic compound and an aldehyde.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/fcce600d188296b9e21dfe621f2a4b958f88512e1fb3f599da0610c30b7dd8ec.jpg]]
+![[fcce600d188296b9e21dfe621f2a4b958f88512e1fb3f599da0610c30b7dd8ec.jpg]]
 
 **中文解析**：
 

@@ -31,7 +31,7 @@ In the following scheme
 
 (b) Suggest a reagent or reagents for carrying out each transformation represented by an arrow.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/fe19d20e483e7d251ba392335658967b70e56500bdef1fcc40a1f8ab009b1ac3.jpg]]
+![[fe19d20e483e7d251ba392335658967b70e56500bdef1fcc40a1f8ab009b1ac3.jpg]]
 
 **原文题目**：Identify functional groups and suggest reagents for transformations between amines, amides, imines, enamines, and their reduced products.
 
@@ -41,11 +41,11 @@ In the following scheme
 
 **Primary amines** are transformed into amides by substitution reactions of acid chlorides, and to imines by condensation with an aldehyde in the presence of an acid catalyst. Both amides and imines may be reduced to amines: amides need LiAlH₄, while imines may be reduced by sodium borohydride, sodium cyanoborohydride, or hydrogenation over a palladium catalyst.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/413339b74bfbfdd4c469b5bb58c3aadb0586f28f6fc5a08ae3f3779327615e70.jpg]]
+![[413339b74bfbfdd4c469b5bb58c3aadb0586f28f6fc5a08ae3f3779327615e70.jpg]]
 
 **Secondary amines** react with aldehydes to form enamines, which may be reduced to amines by hydrogenation, or (via their iminium ion tautomer) with sodium borohydride or sodium cyanoborohydride.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/7b952de1a3c1d01a2c7fbd612914c0c9c20772bd23e99e439e6fb5ba2433abd3.jpg]]
+![[7b952de1a3c1d01a2c7fbd612914c0c9c20772bd23e99e439e6fb5ba2433abd3.jpg]]
 
 **中文解析**：
 

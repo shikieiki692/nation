@@ -28,7 +28,7 @@ source_grade: B
 
 How reactive are the different sites in toluene? Nitration of toluene produces the three possible products in the ratios shown. What would be the ratios if all the sites were equally reactive? What is the actual relative reactivity of the three sites? You could express this as x:y:1 or as a:b:c where a+b+c = 100. Comment on the ratio you deduce.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/503fbc386efff6503bd83ea994ef81fffa59e64e95ea06f785344b534054bfc7.jpg]]
+![[503fbc386efff6503bd83ea994ef81fffa59e64e95ea06f785344b534054bfc7.jpg]]
 
 **原文题目**：甲苯中不同位点的反应活性如何？甲苯硝化产生三个可能产物的比例如图所示。如果所有位点活性相同，比例会是多少？三个位点的实际相对反应活性是多少？请评论你推导出的比例。
 
@@ -36,9 +36,9 @@ How reactive are the different sites in toluene? Nitration of toluene produces t
 
 **Answer (English)**: As there are two ortho and two meta sites, the ratio if all were equally reactive would be 2:2:1 o:m:p. The observed reactivity is 30:2:37 or 15:1:18 or 43:3:54 depending on how you expressed it. The ortho and para positions are roughly equally reactive because the methyl group is electron-donating. The para is slightly more reactive than the ortho because of steric hindrance. The meta position is an order of magnitude less reactive because the intermediate is not stabilized by electron-donation (σ-conjugation) from the methyl group.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/efa90d7682c0c91506dc131b9f1395b17b81ade21de120016415b53c37347516.jpg]]
+![[efa90d7682c0c91506dc131b9f1395b17b81ade21de120016415b53c37347516.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/3d89c1386f54f887191172e3241f01b3318152e65132bec937e35dd5b53fe1e8.jpg]]
+![[3d89c1386f54f887191172e3241f01b3318152e65132bec937e35dd5b53fe1e8.jpg]]
 
 **中文解析**：
 

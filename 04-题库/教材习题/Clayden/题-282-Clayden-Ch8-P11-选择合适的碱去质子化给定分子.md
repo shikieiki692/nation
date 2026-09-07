@@ -27,7 +27,7 @@ source_grade: B
 
 Match the bases (KOH, NaH, BuLi, NaHCO3) to the appropriate substrates: amine, alkyne, alcohol, carboxylic acid. Which base deprotonates which?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/bcf59e8f99773bc8a1baca6c0dc1bbf69a953de2e910065265766912ca1f747e.jpg]]
+![[bcf59e8f99773bc8a1baca6c0dc1bbf69a953de2e910065265766912ca1f747e.jpg]]
 
 **原文题目**：将碱（KOH、NaH、BuLi、NaHCO3）与合适的底物匹配：胺、炔烃、醇、羧酸。哪种碱去质子化哪种底物？
 
@@ -46,7 +46,7 @@ Match the bases (KOH, NaH, BuLi, NaHCO3) to the appropriate substrates: amine, a
 4. **羧酸**（CO2H pKa ~ 5）：只需弱碱如NaHCO3（共轭酸H2CO3 pKa ~ 6.4）或KOH即可。
 5. **核心原则**：碱的共轭酸pKa必须大于底物的pKa，才能有效去质子化。
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/44dd6ee684c7ebf8ff9004f18d627a70922c292c3f4390f4783522aed23e5388.jpg]]
+![[44dd6ee684c7ebf8ff9004f18d627a70922c292c3f4390f4783522aed23e5388.jpg]]
 
 ## 知识点映射
 

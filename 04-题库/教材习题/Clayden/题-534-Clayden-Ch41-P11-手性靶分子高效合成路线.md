@@ -29,19 +29,19 @@ source_grade: B
 
 **【原文】**This compound was developed by the Nutrasweet company as an artificial sweetener. Propose a strategy for its synthesis. Would your proposed approach still be suitable if the compound had turned out to be a successful product, required in multi-tonne quantities?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/4b70eb2c1a766b75fe5b6314543c5fa7d73dd6452157c773e18c265bc3dfa76f.jpg]]
+![[4b70eb2c1a766b75fe5b6314543c5fa7d73dd6452157c773e18c265bc3dfa76f.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The target can be best disconnected into three fragments at the amide bonds. The aminopyridine can be made by the standard methods of heterocycle synthesis, so we are more interested in the other two chiral fragments. The middle one is an amino acid, and you should recognize it as a member of the chiral pool, (S)-glutamic acid, so this poses no problem of synthesis. The final fragment is a simple chiral carboxylic acid, so we need a method for its asymmetric synthesis. The most obvious choice is probably an asymmetric alkylation using Evans' oxazolidinone auxiliary.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/709190b06689d8828ad7c66b83efa86d01b5df1455b7009687da2ec904f69a81.jpg]]
+![[709190b06689d8828ad7c66b83efa86d01b5df1455b7009687da2ec904f69a81.jpg]]
 
 If this compound were needed on the tonne scale then auxiliary chemistry is no good, however efficient recycling may be. A good alternative for the synthesis of compounds with unfunctionalized chiral centres adjacent to carboxylic acids or alcohols is the use of ruthenium-catalysed hydrogenation.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/7204ce8e1159631d8eda97b4fd40d22432588e10b3363943ab50493f1c014425.jpg]]
+![[7204ce8e1159631d8eda97b4fd40d22432588e10b3363943ab50493f1c014425.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/69dafe18e2073d350a1c391f937f6997c493bed028fd776dfa2e56dd1d6afafe.jpg]]
+![[69dafe18e2073d350a1c391f937f6997c493bed028fd776dfa2e56dd1d6afafe.jpg]]
 
 **中文解析**：
 

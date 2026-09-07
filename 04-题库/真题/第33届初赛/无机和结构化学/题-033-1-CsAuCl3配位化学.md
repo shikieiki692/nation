@@ -51,7 +51,7 @@ source_grade: A
 
 1-3 2019 年 1 月，嫦娥四号成功在月球着陆。探测器上的五星红旗由一类特殊的聚酰亚胺制成。以下为某种芳香族聚酰亚胺的合成路线：
 
-![[mineru/02-真题解析/33届初赛试题解析_images/75246210cac2ebb32742466517ad73b7e2628ead23d319a4a948636830a3b14f.jpg]]
+![[75246210cac2ebb32742466517ad73b7e2628ead23d319a4a948636830a3b14f.jpg]]
 
 画出 A、B、C 的结构简式。
 
@@ -71,13 +71,13 @@ Au(III) 电荷高、离子性强，为四配位；Au(I) 电荷低、共价性强
 
 **答案**：Au 的氧化态为 +1 与 +3 等物质的量分布。Au(I) 为二配位直线形，Au(III) 为四配位平面四方形。
 
-![[mineru/02-真题解析/33届初赛试题解析_images/5267ea22aaee9827287f5fb6e3e928d66b6f544a0615e0d1331e792f72acb9b6.jpg]]  
+![[5267ea22aaee9827287f5fb6e3e928d66b6f544a0615e0d1331e792f72acb9b6.jpg]]  
 透视图
 
-![[mineru/02-真题解析/33届初赛试题解析_images/157a854636ce841479f98e450779129c42f793d83f592838a74071e581631e84.jpg]]  
+![[157a854636ce841479f98e450779129c42f793d83f592838a74071e581631e84.jpg]]  
 $a$ 方向
 
-![[mineru/02-真题解析/33届初赛试题解析_images/913f13bf31911f3c100a4a431e9a2b59e47c56fcea4e388b0e4fc03761f44386.jpg]]  
+![[913f13bf31911f3c100a4a431e9a2b59e47c56fcea4e388b0e4fc03761f44386.jpg]]  
 $c$ 方向
 
 $\mathrm{CsAuCl}_{3}$ 的晶体结构，其中大灰球为 $\mathrm{Cs}$，小黑球为 $\mathrm{Cl}$，蓝色球为 $\mathrm{Au}$
@@ -120,7 +120,7 @@ $\mathrm{C}_{3}\mathrm{H}_{8}$ 只有一种可能的组合方式即丙烷，但�
 
 因此答案为：分子式 $\mathrm{C}_{2}\mathrm{H}_{4}\mathrm{O}$；结构简式为乙醛和环氧乙烷。
 
-![[mineru/02-真题解析/33届初赛试题解析_images/84db0fccc28fc38bfa27a1a9c1f40219dc17454e664109f4467ee94b3d317351.jpg]]
+![[84db0fccc28fc38bfa27a1a9c1f40219dc17454e664109f4467ee94b3d317351.jpg]]
 
 ## 知识点映射
 
@@ -157,15 +157,15 @@ $C_{10}H_{14}$ 的不饱和度为 $11 - 14/2 = 4$，结合产物聚酰亚胺结�
 
 A、B、C 的结构简式如下图所示：
 
-![[mineru/02-真题解析/33届初赛试题解析_images/84db0fccc28fc38bfa27a1a9c1f40219dc17454e664109f4467ee94b3d317351.jpg]]
+![[84db0fccc28fc38bfa27a1a9c1f40219dc17454e664109f4467ee94b3d317351.jpg]]
 
-![[mineru/02-真题解析/33届初赛试题解析_images/8e6d176321933012021f7a1f068aee3f65b3a25aaf63fb4f6921475410ee060d.jpg]]  
+![[8e6d176321933012021f7a1f068aee3f65b3a25aaf63fb4f6921475410ee060d.jpg]]  
 A
 
-![[mineru/02-真题解析/33届初赛试题解析_images/600b929a0c0171720925e97ffe0e15c664a5d0db49b75dec56c5cafe63aef59d.jpg]]  
+![[600b929a0c0171720925e97ffe0e15c664a5d0db49b75dec56c5cafe63aef59d.jpg]]  
 B
 
-![[mineru/02-真题解析/33届初赛试题解析_images/be9ef058dbe495b00a22747b2f70b968069fb13796d2c7cb0d69dc9620987b52.jpg]]  
+![[be9ef058dbe495b00a22747b2f70b968069fb13796d2c7cb0d69dc9620987b52.jpg]]  
 C
 
 ## 知识点映射

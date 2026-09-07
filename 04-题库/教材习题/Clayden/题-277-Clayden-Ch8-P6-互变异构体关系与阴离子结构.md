@@ -27,7 +27,7 @@ source_grade: B
 
 Two molecules differ only in the position of a hydrogen atom (on N vs on O). Both are aromatic. Show that deprotonation of either gives the same delocalized anion.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/b984879eb4559fbaaa1ad78b3764aa29561287d606c1688b42c9ece6c5c7bd0e.jpg]]
+![[b984879eb4559fbaaa1ad78b3764aa29561287d606c1688b42c9ece6c5c7bd0e.jpg]]
 
 **原文题目**：两个分子仅氢原子位置不同（在N上或在O上），两者均为芳香性。证明任一分子去质子化后都给出相同的离域阴离子。
 
@@ -35,7 +35,7 @@ Two molecules differ only in the position of a hydrogen atom (on N vs on O). Bot
 
 **Answer (English)**: The two molecules are tautomers — they differ only in the position of H (on N vs on O). Both are aromatic. Deprotonation of either tautomer gives the same delocalized anion, because the negative charge is spread over both N and O atoms through resonance. This is a classic example of keto-enol or lactam-lactim tautomerism where the anion is the same regardless of which tautomer is deprotonated.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/f3738c78335c0b6dce1de8a9670a50d2a7e71fe30f49ba54e91414bcb14a8d3f.jpg]]
+![[f3738c78335c0b6dce1de8a9670a50d2a7e71fe30f49ba54e91414bcb14a8d3f.jpg]]
 
 **中文解析**：
 1. **互变异构**：两个分子是互变异构体（tautomers），氢原子在N和O之间移动。两者均为芳香性结构。

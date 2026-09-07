@@ -28,7 +28,7 @@ source_grade: B
 
 How would you make each of the following compounds from benzene?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/feca147ce9cea6c9773051efcc379bcb927fdee9f7a91b13de821871de45290f.jpg]]
+![[feca147ce9cea6c9773051efcc379bcb927fdee9f7a91b13de821871de45290f.jpg]]
 
 **原文题目**：你如何从苯合成下列每种化合物？
 
@@ -36,15 +36,15 @@ How would you make each of the following compounds from benzene?
 
 **Answer (English)**: The first compound has a ketone substituent, which is electron-withdrawing and therefore meta-directing, and an amino group, which is electron-donating and therefore ortho,para-directing. Aromatic amino groups are best made by reduction of nitro groups, which are also meta directing, so there are two possibilities. We can either start with a Friedel-Crafts acylation of benzene to give the ketone, which we can nitrate in the meta position and then reduce, or we can start by nitrating benzene, then do the acylation and then reduce. Either is a reasonable solution.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/887db45757386e56643ccf9ee76f235fbb3db507979c4ece044b29cf32ed0b40.jpg]]
+![[887db45757386e56643ccf9ee76f235fbb3db507979c4ece044b29cf32ed0b40.jpg]]
 
 The second compound has a bromo substituent, which is ortho, para-directing, and a meta-directing nitro group. We need the para relationship, so we must put the bromine in first, then nitrate.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/79c277b5f08cbdff63d909b71e15c15f8605172144b4a8ed53c6b84885ad3c8a.jpg]]
+![[79c277b5f08cbdff63d909b71e15c15f8605172144b4a8ed53c6b84885ad3c8a.jpg]]
 
 Finally, a compound with two para-directors arranged meta to one another. This may seem a problem, but we must introduce the alkyl group by Friedel-Crafts acylation and reduction, since primary alkyl groups cannot be introduced by Friedel-Crafts alkylation. The acyl group will be meta directing, so that solves both problems. First acylate, then brominate, then reduce.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/f6c6a8ad763687f5bcacd650dbdc14834ec3a703443498f94ad5771089f722f2.jpg]]
+![[f6c6a8ad763687f5bcacd650dbdc14834ec3a703443498f94ad5771089f722f2.jpg]]
 
 **中文解析**：
 

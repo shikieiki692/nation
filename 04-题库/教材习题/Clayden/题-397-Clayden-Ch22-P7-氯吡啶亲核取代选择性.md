@@ -27,7 +27,7 @@ source_grade: B
 
 Pyridine is a six-electron aromatic system like benzene. You have not yet been taught anything systematic about pyridine (that will come in chapter 29) but see if you can work out why 2- and 4-chloropyridines react with nucleophiles but 3-chloropyridine does not.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/731b2a5fd7ab0571fb389006cadc0ae1d833b68057545df1f58e6ff1b2b7886b.jpg]]
+![[731b2a5fd7ab0571fb389006cadc0ae1d833b68057545df1f58e6ff1b2b7886b.jpg]]
 
 **原文题目**：Explain why 2- and 4-chloropyridines undergo nucleophilic aromatic substitution but 3-chloropyridine does not. Use the concept of negative charge stabilization in the intermediate.
 
@@ -35,11 +35,11 @@ Pyridine is a six-electron aromatic system like benzene. You have not yet been t
 
 **Answer (English)**: The problem is to find somewhere to park the negative charge in the intermediate and the only possible place is on the pyridine nitrogen atom. This is easy with 2- and 4-chloropyridine but impossible with 3-chloropyridine. Using a general nucleophile:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/7fe4cfc66983fc6dad322f8d06f05fab08f02cb7efc5db56c62d20220b87f640.jpg]]
+![[7fe4cfc66983fc6dad322f8d06f05fab08f02cb7efc5db56c62d20220b87f640.jpg]]
 
 Amine formation by this reaction is particularly important as you will see in chapters 29 and 30. The mechanism is the same with a few proton transfers.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/f751bc370417a27a08517282a0b5253fb5f0ef5eaa3bd2c3157b110a5a10807e.jpg]]
+![[f751bc370417a27a08517282a0b5253fb5f0ef5eaa3bd2c3157b110a5a10807e.jpg]]
 
 **中文解析**：
 

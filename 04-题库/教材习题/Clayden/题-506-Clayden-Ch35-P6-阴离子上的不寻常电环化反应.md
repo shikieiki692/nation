@@ -30,7 +30,7 @@ source_grade: B
 
 **【原文】**Treatment of this imine with base followed by an acidic work-up gives a cyclic product with two phenyl groups cis to one another. Why is this?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/30cead29d9be2f0ef91b423982a58b70d788c448f17ecdab32483f572d85cfe2.jpg]]
+![[30cead29d9be2f0ef91b423982a58b70d788c448f17ecdab32483f572d85cfe2.jpg]]
 
 **原文题目**：Treatment of this imine with base followed by an acidic work-up gives a cyclic product with two phenyl groups cis to one another. Why is this?
 
@@ -38,7 +38,7 @@ source_grade: B
 
 **Answer (English)**: The proton from the middle of the molecule is removed to give an anion stabilized by two nitrogens and three phenyl groups. A six-electron electrocyclic reaction closes the five-membered ring and this must be disrotatory, moving both phenyl groups up (or down).
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/9153cb1943fed2692dd2df2a3b1057b07b137603a9b3ed2446b4392e0299d0d9.jpg]]
+![[9153cb1943fed2692dd2df2a3b1057b07b137603a9b3ed2446b4392e0299d0d9.jpg]]
 
 **中文解析**：
 

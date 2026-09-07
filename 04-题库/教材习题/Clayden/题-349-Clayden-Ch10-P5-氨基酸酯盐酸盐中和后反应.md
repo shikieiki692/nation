@@ -37,11 +37,11 @@ $$
 
 **Answer (English)**: The amino acids do not usually react with themselves as they exist mostly as the zwitterion. But after the acid is esterified it is much more electrophilic and the amino group is now nucleophilic.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/e36830d55b2b42bdc0ad559b2af423de3d456913ac972f757a7aa10bea32b7b1.jpg]]
+![[e36830d55b2b42bdc0ad559b2af423de3d456913ac972f757a7aa10bea32b7b1.jpg]]
 
 The amine of one compound attacks the ester group of another to form a dimer (a peptide) which may cyclize to form a double amide, known as a diketopiperazine. The cyclization is usually faster than the dimerization as it is an intramolecular reaction forming a stable six-membered ring.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/42918b137e290ebb4f795b7f422bce6e04fe6f20308b4e372cadf2aa3b0443a5.jpg]]
+![[42918b137e290ebb4f795b7f422bce6e04fe6f20308b4e372cadf2aa3b0443a5.jpg]]
 
 **中文解析**：
 

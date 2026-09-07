@@ -30,13 +30,13 @@ source_grade: B
 
 **【原文】**Suggest a mechanism for this reaction.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/3b7b9e745536252a529ce8ee16724631b59a957c3512b30c2a304ad60c161c63.jpg]]
+![[3b7b9e745536252a529ce8ee16724631b59a957c3512b30c2a304ad60c161c63.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The weakly nucleophilic benzene has evidently added in conjugate fashion to the enone in a kind of Friedel-Crafts reaction and we can use the Lewis acid to make the enone into the necessary cation.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/bb222a992418c526fadbb91d6dace62e75bec5332539fdf465aaa56c4e07372d.jpg]]
+![[bb222a992418c526fadbb91d6dace62e75bec5332539fdf465aaa56c4e07372d.jpg]]
 
 **中文解析**：
 

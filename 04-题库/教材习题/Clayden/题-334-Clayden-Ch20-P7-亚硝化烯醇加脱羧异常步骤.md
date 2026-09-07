@@ -33,7 +33,7 @@ Propose a mechanism for the nitrosation of a carboxylic acid (e.g., cyclohexanec
 
 R-COOH + NaNO₂ + HCl → R-C(=NOH)-H (oxime) + CO₂
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/23a1e469bad9116d8564a3cee6bfc600165863d6ea356a751ef051b95d1dd71a.jpg]]
+![[23a1e469bad9116d8564a3cee6bfc600165863d6ea356a751ef051b95d1dd71a.jpg]]
 
 R-COOH + NaNO₂ + HCl → R-C(=NOH)-H（肟）+ CO₂
 
@@ -43,7 +43,7 @@ R-COOH + NaNO₂ + HCl → R-C(=NOH)-H（肟）+ CO₂
 
 This is the **tert-nitrosation** / **nitrosation-decarboxylation** of a carboxylic acid. The mechanism proceeds as follows:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/c6fed1f37667f61035069dcf9c6d6a38b8d0ec05050e9e3005e21dcccf5ccd18.jpg]]
+![[c6fed1f37667f61035069dcf9c6d6a38b8d0ec05050e9e3005e21dcccf5ccd18.jpg]]
 
 **Step 1 — Enolization**: Under acidic conditions, the carboxylic acid can enolize (tautomerize) to give the enol form: R-C(=O)OH ⇌ R-C(OH)=C(OH)H (simplified: the α-C-H of the acid forms an enol). Actually, more precisely: the carboxylic acid first loses water to form an acylium ion or, under the reaction conditions, the acid undergoes tautomerization to give an enol at the carboxyl C-H.
 
@@ -53,7 +53,7 @@ This is the **tert-nitrosation** / **nitrosation-decarboxylation** of a carboxyl
 
 **Step 4 — Decarboxylation**: The intermediate has a C=O group β to the C=N-OH (oxime) group. Decarboxylation occurs through a cyclic 6-membered transition state: the oxime N lone pair assists CO₂ departure. The CO₂ is lost, and the remaining fragment tautomerizes to give the oxime product R-CH=N-OH.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/0bc1e90eaa536041faef4ab3c23100f433dd09e054303f36e40db1cb299e6b2f.jpg]]
+![[0bc1e90eaa536041faef4ab3c23100f433dd09e054303f36e40db1cb299e6b2f.jpg]]
 
 **中文解析**：
 

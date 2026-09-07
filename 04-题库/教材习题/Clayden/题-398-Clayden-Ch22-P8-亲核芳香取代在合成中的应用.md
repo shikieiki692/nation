@@ -27,7 +27,7 @@ source_grade: B
 
 How would you carry out these two conversions?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/2f11a52ed031d0e9f66394aa22b2c16ecae963ca400f8dd020ab4dd709ce3505.jpg]]
+![[2f11a52ed031d0e9f66394aa22b2c16ecae963ca400f8dd020ab4dd709ce3505.jpg]]
 
 **原文题目**：Design synthetic routes for two conversions: (1) methoxybenzene to 2-amino-4-cyanomethoxybenzene, and (2) methoxybenzene to 3-amino-4-cyanomethoxybenzene. Explain why simple SNAr won't work.
 
@@ -35,11 +35,11 @@ How would you carry out these two conversions?
 
 **Answer (English)**: Usually you would think of introducing NH₂ by nitration and reduction (chapter 21), but the regioselectivity is wrong for the first reaction: the methoxy group will direct nitration ortho to itself. An alternative is to introduce both NH₂ and CN as nucleophiles, but the ring is unactivated so we can't use the addition-elimination mechanism (there is nowhere for the negative charge to go). The successful alternatives are electrophilic aromatic substitution followed by diazonium salt formation and the benzyne method. Here are two possible routes. Nitration will insert the nitro group ortho to the more strongly electron-donating MeO group. Reduction, diazotization and substitution with copper cyanide by the SN1 mechanism gives one product.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/1307e1054af2de64e74c9b28093ec9e452515483386a3b5fb900a44284147c90.jpg]]
+![[1307e1054af2de64e74c9b28093ec9e452515483386a3b5fb900a44284147c90.jpg]]
 
 The other product could come from chlorination, elimination to give a benzyne, addition of amide anion to put the anion ortho to MeO (p. 524 in the textbook) and protonation.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/cd0ea25e83448ad7cc42f62e8f23cab80622fbdc1f7a3b8779b6d1d035eda4c9.jpg]]
+![[cd0ea25e83448ad7cc42f62e8f23cab80622fbdc1f7a3b8779b6d1d035eda4c9.jpg]]
 
 **中文解析**：
 

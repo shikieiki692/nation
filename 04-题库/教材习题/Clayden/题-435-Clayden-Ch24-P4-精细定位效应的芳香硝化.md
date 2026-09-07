@@ -30,17 +30,17 @@ source_grade: B
 **【原文】**
 The nitro compound below was needed for the synthesis of an anti-emetic drug. It was proposed to make it by nitration of the hydrocarbon shown. How successful do you think this would be?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/12b83ce1e331b4f3e730ecb9fc9bb9b4a7b974f87073f1929ff6dadc151186dd.jpg]]
+![[12b83ce1e331b4f3e730ecb9fc9bb9b4a7b974f87073f1929ff6dadc151186dd.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The standard conditions for nitration generate the electrophile NO₂⁺. To get the product shown, this species has to attack the ring at a specific position. The intermediate cation looks quite reasonable since the positive charge can be delocalized even into the other ring.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/3667e06f559e6eb2c6e65566ae6d07366d5822dc1317d8433395221690a2f710.jpg]]
+![[3667e06f559e6eb2c6e65566ae6d07366d5822dc1317d8433395221690a2f710.jpg]]
 
 What about the alternatives? A similar cation is formed if the electrophile attacks position '1', but the nitro group is in a more hindered position here. Position '2' gives a cation that does not benefit from the same degree of stabilization (it cannot be delocalized into the other ring). Position 4 is similar but more hindered. Overall we can reasonably expect the reaction to give the product we want.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/40eaea16bc04c6e08b35fbc18482b75465d2dabc46d87c1126c19a1ce4e49e21.jpg]]
+![[40eaea16bc04c6e08b35fbc18482b75465d2dabc46d87c1126c19a1ce4e49e21.jpg]]
 
 **中文解析**：
 

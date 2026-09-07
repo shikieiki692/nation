@@ -28,7 +28,7 @@ source_grade: B
 
 Identify A and B and account for the selectivity displayed in this sequence of reactions.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/28afa9b08f22dc76ea2ec691ae1edeabbbc8b14fc42240d31bd0cc0545e5316d.jpg]]
+![[28afa9b08f22dc76ea2ec691ae1edeabbbc8b14fc42240d31bd0cc0545e5316d.jpg]]
 
 **原文题目**：鉴定A和B，并解释该反应序列中展示的选择性。
 
@@ -38,11 +38,11 @@ Identify A and B and account for the selectivity displayed in this sequence of r
 
 The Friedel-Crafts acylation in the first step is controlled by the bromo substituent, which is an ortho,para director: here we get para selectivity as usual for steric reasons. The product A is a ketoacid.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/7734284ba3cef5e79f621f3fa01e5325330479a0159a56cd170ed4182630806a.jpg]]
+![[7734284ba3cef5e79f621f3fa01e5325330479a0159a56cd170ed4182630806a.jpg]]
 
 The next step is the Wolff-Kishner reduction. The product is the acid B (or its potassium salt). Now adding acid forms a ring in another Friedel-Crafts acylation. The electrophile must be the acylium ion: usually Friedel-Crafts acylations need more than just strong acid, but this one is fast because it is intramolecular. The only positions the electrophile can reach are ortho to the carbon chain, so it must react there even though that means it has to attack meta to the Br group. It's still ortho to the alkyl chain, which is ortho,para directing.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/903e5ea21c280dcbc90190e70980d4ea9235439643382a2e181d0284cd048353.jpg]]
+![[903e5ea21c280dcbc90190e70980d4ea9235439643382a2e181d0284cd048353.jpg]]
 
 **中文解析**：
 

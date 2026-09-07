@@ -27,7 +27,7 @@ source_grade: B
 
 For each of the following molecules, predict which atom is protonated in acid and which is deprotonated in base: (a) piperidine, (b) a tertiary amine-alcohol, (c) an amidine-alkyne.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/cc9dfb8fac9fb56d6e425aff529ac1d68da70097e7c34548354f576cf59a0eb7.jpg]]
+![[cc9dfb8fac9fb56d6e425aff529ac1d68da70097e7c34548354f576cf59a0eb7.jpg]]
 
 **原文题目**：对于以下分子，预测在酸中被质子化的原子和在碱中被去质子化的原子：(a) 哌啶，(b) 叔胺-醇，(c) 脒-炔烃。
 
@@ -38,13 +38,13 @@ For each of the following molecules, predict which atom is protonated in acid an
 - (b) Tertiary amine-alcohol: TsOH protonates the amine (more basic); NaH deprotonates the OH (alcohol pKa ≈ 16).
 - (c) Amidine-alkyne: Protonation on imine N (delocalized cation with two equivalent resonance forms); NaH removes OH; BuLi removes alkyne H (terminal alkyne pKa ≈ 25).
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/c141c80711a31c595a8e847fdbbfc02702fb7968083c69812b79cdde08e6ca01.jpg]]
+![[c141c80711a31c595a8e847fdbbfc02702fb7968083c69812b79cdde08e6ca01.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/6d565124360bc17ba01c8e077d42c08e2f052b3068e8f532ccd9641774c02e7f.jpg]]
+![[6d565124360bc17ba01c8e077d42c08e2f052b3068e8f532ccd9641774c02e7f.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/d6f97b7116864891dd30421b5c5ad1ef94594825de71a0ae78efe4a1a35ca011.jpg]]
+![[d6f97b7116864891dd30421b5c5ad1ef94594825de71a0ae78efe4a1a35ca011.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/d379e3e66379ec728f73f423ec613bc05f8c5a4c88823c71d151b644a6f202f8.jpg]]
+![[d379e3e66379ec728f73f423ec613bc05f8c5a4c88823c71d151b644a6f202f8.jpg]]
 
 **中文解析**：
 1. **哌啶**：仲胺氮（pKa ~ 11）是碱性位点，酸中质子化；无酸性氢，碱中不易去质子化。

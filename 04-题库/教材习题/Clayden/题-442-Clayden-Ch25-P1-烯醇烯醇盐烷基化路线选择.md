@@ -27,9 +27,9 @@ source_grade: B
 
 Suggest how these compounds might be made by alkylation of an enol or enolate.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/ad3f0d5d1b178477ae2b957338bd67e7853d0b93daeca754849c100bce661eb4.jpg]]
+![[ad3f0d5d1b178477ae2b957338bd67e7853d0b93daeca754849c100bce661eb4.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/583fd44778b40a8e96b7796c22d8ff894d8b6d0c5073bc5699b5f2a7a1022e3f.jpg]]
+![[583fd44778b40a8e96b7796c22d8ff894d8b6d0c5073bc5699b5f2a7a1022e3f.jpg]]
 
 **原文题目**：Suggest how these compounds might be made by alkylation of an enol or enolate.
 
@@ -37,9 +37,9 @@ Suggest how these compounds might be made by alkylation of an enol or enolate.
 
 **Answer (English)**: As you can see from the carbonyl groups in these compounds, it is pretty obvious which is the new bond to be made. In both cases, the electrophile will need to be an allylic halide. These are good electrophiles for SN2 reactions so they will work well here. We need to use the electrophile twice in the first case and the enolate is that of diethyl malonate. The second case will require an enol or enolate equivalent to prevent self-condensation: a silyl enol ether or an enamine is ideal. If you use a silyl enol ether, don't forget the Lewis acid!
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/b128eb2dbaf04ed410fe280700d6842d70c50645804b00941740684aa78c7448.jpg]]
+![[b128eb2dbaf04ed410fe280700d6842d70c50645804b00941740684aa78c7448.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/7decf5e49283617b412d81fbbae18905f698765d24102f91bafae2dc5e847a87.jpg]]
+![[7decf5e49283617b412d81fbbae18905f698765d24102f91bafae2dc5e847a87.jpg]]
 
 **中文解析**：
 

@@ -29,9 +29,9 @@ source_grade: B
 
 **【原文】**Comment on the difference in rate between these two reactions.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/9e34abb82291217854522fda930b4cfe3cc196098dc4dfd143287c024f4c22ea.jpg]]
+![[9e34abb82291217854522fda930b4cfe3cc196098dc4dfd143287c024f4c22ea.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/78189116b9232b8a5b836d3d8d90934a2af33e16c63cc204b36265031198ff8f.jpg]]
+![[78189116b9232b8a5b836d3d8d90934a2af33e16c63cc204b36265031198ff8f.jpg]]
 
 **原文题目**：Comment on the difference in rate between these two reactions.
 
@@ -39,7 +39,7 @@ source_grade: B
 
 **Answer (English)**: The dienes are the same, the ring sizes are the same, and the only difference is the presence of a benzene ring in the faster reacting compound. We should draw a mechanism for one of the reactions to see what is happening.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/d1d2f22cafef48373fd5e508778e8c1e9ed0c220b76bd519bf27d3718a35af05.jpg]]
+![[d1d2f22cafef48373fd5e508778e8c1e9ed0c220b76bd519bf27d3718a35af05.jpg]]
 
 We are making two new rings. The six-membered ring containing an alkene in the product presents no problem. The eight-membered ring with a ketone in it might present a problem, but the ten-membered ring containing a trans alkene is definitely a problem. It is much easier to make medium rings (8- to 14-membered) when there is a cis alkene in the ring and the benzene ring helps there. It also increases the population of conformers with the ends of their chains close together and probably lowers the LUMO energy by conjugation with the ketone.
 

@@ -29,7 +29,7 @@ source_grade: B
 
 **【原文】**Justify the stereoselectivity in this intramolecular Diels-Alder reaction.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/c2da2a9cda575658b26899b5cde2360584a3c6c14ecb75350165fb69f9387157.jpg]]
+![[c2da2a9cda575658b26899b5cde2360584a3c6c14ecb75350165fb69f9387157.jpg]]
 
 **原文题目**：Justify the stereoselectivity in this intramolecular Diels-Alder reaction.
 
@@ -37,7 +37,7 @@ source_grade: B
 
 **Answer (English)**: Intramolecular Diels-Alder reactions can give endo- or exo- products. We should first discover which this is. Drawing the transition state for the endo reaction, we find that it is correct — the endo product is formed. So electronic factors dominate, perhaps because the dienophile has such a low-energy LUMO and it has two carbonyl groups for secondary orbital overlap with the back of the diene.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/0523a029f8caa5c1ebbaff2568fb849a83b6ede7b35abb38cfc457c4963ebeb7.jpg]]
+![[0523a029f8caa5c1ebbaff2568fb849a83b6ede7b35abb38cfc457c4963ebeb7.jpg]]
 
 **中文解析**：
 

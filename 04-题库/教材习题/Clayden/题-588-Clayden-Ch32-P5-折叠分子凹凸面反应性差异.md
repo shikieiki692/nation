@@ -27,13 +27,13 @@ source_grade: B
 
 Why is one of these esters more reactive than the other?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/64ee3ae5aa763625d9c9bf613284ef95b88b3720f55ad5225c00b1b4bbb1c3c3.jpg]]
+![[64ee3ae5aa763625d9c9bf613284ef95b88b3720f55ad5225c00b1b4bbb1c3c3.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The molecule is folded along the ring junction with one of the esters inside the fold (on the concave side) and one out in the open (on the convex side). In the rate-determining step of ester hydrolysis, the attack of the hydroxide ion on the carbonyl group, the forming tetrahedral intermediate is larger than the starting ester. This means that the ester on the outside, which has more room to 'expand', reacts faster than the ester on the inside.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/d375ea69ece70c1a2bccc17225ed9a109ea3f513b49d6a9e25ee3c22989ec748.jpg]]
+![[d375ea69ece70c1a2bccc17225ed9a109ea3f513b49d6a9e25ee3c22989ec748.jpg]]
 
 **中文解析**：
 

@@ -29,17 +29,17 @@ source_grade: B
 
 **【原文】**How would you attempt to make these alkenes by metathesis? (Applications of this important and powerful method.)
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/bec6fb58b16de4e7aed7ef94823ac623435b3efe02e650421c5b1a556539a338.jpg]]
+![[bec6fb58b16de4e7aed7ef94823ac623435b3efe02e650421c5b1a556539a338.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: Metathesis is usually E-selective and these are both E-alkenes so prospects are good. We must disconnect each compound at the alkene and add something to the end of each, probably just CH₂ as the by-product will then be volatile ethylene.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/68d6dc9254cf8c905fe7d5c3cf9072f3f71d7f7d96486e9f06c5af57432e4583.jpg]]
+![[68d6dc9254cf8c905fe7d5c3cf9072f3f71d7f7d96486e9f06c5af57432e4583.jpg]]
 
 Each starting material must now be made. The stereochemistry of the first tells us that we should add an allyl metal compound to an epoxide. The metathesis catalyst will be one of those mentioned in the chapter.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/d7b38b51d91d735b6549a3b1c962bf06072968c3e4fe3ca2cfba8f2c33b3f76f.jpg]]
+![[d7b38b51d91d735b6549a3b1c962bf06072968c3e4fe3ca2cfba8f2c33b3f76f.jpg]]
 
 The second molecule is not symmetrical but this is all right as it will be an intramolecular (ring-closing) metathesis so we can expect few cross-products. There are many ways to make the starting material: alkylation of a ketone is probably the simplest though conjugate addition would have its advantages. The same catalyst can be used and very little would be needed.
 

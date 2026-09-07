@@ -31,7 +31,7 @@ Propose a mechanism for the following two-step sequence in a tranquilizer synthe
 Step 1: An alkene (e.g., 2-methylbut-2-ene) reacts with HBr → alkyl bromide
 Step 2: The alkyl bromide is heated in water → alcohol
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/4b5ff85f540ec5b5a31a8d7dc836b44714a07a6eac0ad8d97f3c16bfe9846fd5.jpg]]
+![[4b5ff85f540ec5b5a31a8d7dc836b44714a07a6eac0ad8d97f3c16bfe9846fd5.jpg]]
 
 **原文题目**：
 
@@ -48,14 +48,14 @@ Step 2: The alkyl bromide is heated in water → alcohol
 - H⁺ protonates the double bond of 2-methylbut-2-ene at C-2 (less substituted terminal = Markovnikov), generating the **tertiary carbocation** at C-2 (CH₃C⁺(CH₃)CH₂CH₃).
 - Br⁻ captures the tertiary carbocation to give 2-bromo-2-methylbutane (tertiary alkyl bromide).
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/d4e5012f2ff192d3b41900379ff41a8dc186c226042a73909197eed69b8b3231.jpg]]
+![[d4e5012f2ff192d3b41900379ff41a8dc186c226042a73909197eed69b8b3231.jpg]]
 
 **Step 2 — SN1 hydrolysis**:
 - Water (nucleophile) attacks the tertiary carbon of the alkyl bromide. Since tertiary substrates are too sterically hindered for SN2, the C-Br bond dissociates first to form the tertiary carbocation (SN1 rate-determining step).
 - Water captures the carbocation → protonated alcohol (oxonium ion).
 - Deprotonation by water gives the final alcohol: 2-methylbutan-2-ol.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/2e008e5d459e27af6134112982cf8782de9f639143e3ca049da111da063d9e0e.jpg]]
+![[2e008e5d459e27af6134112982cf8782de9f639143e3ca049da111da063d9e0e.jpg]]
 
 **中文解析**：
 

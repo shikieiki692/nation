@@ -30,11 +30,11 @@ First, as some revision, write out the detailed mechanism for these steps:
 
 $$\mathrm{HNO}_{3} + \mathrm{H}_{2}\mathrm{SO}_{4} \longrightarrow {}^{\oplus}\mathrm{NO}_{2}$$
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/92cf016a3c87a781fbea1bc85fa48a82e102a5374f6867ab1f3092ae0ea0c3ca.jpg]]
+![[92cf016a3c87a781fbea1bc85fa48a82e102a5374f6867ab1f3092ae0ea0c3ca.jpg]]
 
 In a standard nitration reaction with, say, HNO₃ and H₂SO₄, each of these compounds forms a single nitration product. What is its structure? Explain your answer with at least a partial mechanism.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/d62d9dd660810019a1761ae2a8bb997b806631befa59ddd9a2716799a864a113.jpg]]
+![[d62d9dd660810019a1761ae2a8bb997b806631befa59ddd9a2716799a864a113.jpg]]
 
 **原文题目**：首先，作为复习，写出这些步骤的详细机理：HNO₃ + H₂SO₄ → NO₂⁺。在标准硝化反应中，每个化合物形成单一的硝化产物。其结构是什么？用至少部分机理解释你的答案。
 
@@ -42,9 +42,9 @@ In a standard nitration reaction with, say, HNO₃ and H₂SO₄, each of these 
 
 **Answer (English)**: The basic mechanisms for the formation of NO₂⁺ and its reaction with benzene appear on p. 476 of the textbook. Benzoic acid has an electron-withdrawing substituent so it reacts in the meta position. The second compound is activated in all positions by the weakly electron-donating alkyl groups (all positions are either ortho or para to one of these groups) but will react at one of the positions more remote from the alkyl groups because of steric hindrance. The remaining two compounds have competing ortho, para-directing substituents but in each case the one with the lone pair of electrons (N or O) is a more powerful director than the simple alkyl group. In the first case nitrogen directs ortho but in the second oxygen activates both ortho and para and steric hindrance makes the para position marginally more reactive.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/c35391c4428437188ba79dbe8315422764bba12e99275303633c421365e906af.jpg]]
+![[c35391c4428437188ba79dbe8315422764bba12e99275303633c421365e906af.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/cf83620e80864253ff4c2ac9177f9161ff22843bc2dcf5d657bc7f3ca5528e80.jpg]]
+![[cf83620e80864253ff4c2ac9177f9161ff22843bc2dcf5d657bc7f3ca5528e80.jpg]]
 
 **中文解析**：
 

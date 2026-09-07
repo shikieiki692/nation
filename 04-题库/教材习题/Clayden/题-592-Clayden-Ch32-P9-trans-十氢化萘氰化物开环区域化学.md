@@ -29,13 +29,13 @@ source_grade: B
 
 **【原文】**Predict which products would be formed on opening these epoxides with a nucleophile, say cyanide ion.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/062e802359348a78bd67e067563b623f2b055f09285ae8143d80829724a2c4ce.jpg]]
+![[062e802359348a78bd67e067563b623f2b055f09285ae8143d80829724a2c4ce.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The opening of cyclohexene epoxides is controlled by the need to get the trans diaxial products. To get the right answer we need merely to draw the only possible trans diaxial (i.e. with CN and O⁻ diaxial) product from each of these conformationally fixed trans decalins. Cyanide must, of course, open the epoxide with inversion so the OH group in the products is on the same side as the oxygen atom in the original epoxides.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/e022c195be22b6fdd3ed08cfc48957346d209f81e093014576acb70a1d7228de.jpg]]
+![[e022c195be22b6fdd3ed08cfc48957346d209f81e093014576acb70a1d7228de.jpg]]
 
 **中文解析**：
 

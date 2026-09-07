@@ -29,7 +29,7 @@ source_grade: B
 
 **【原文】**Reaction between this aldehyde and ketone in base gives a compound A with the proton NMR spectrum: $\delta_{H}$ 1.10 (9H, s), 1.17 (9H, s), 6.4 (1H, d, J 15), and 7.0 (1H, d, J 15). What is its structure? (Don't forget stereochemistry!). When this compound reacts with HBr it gives compound B with this NMR spectrum: $\delta_{H}$ 1.08 (9H, s), 1.13 (9H, s), 2.71 (1H, dd, J 1.9, 17.7), 3.25 (dd, J 10.0, 17.7), and 4.38 (1H, dd, J 1.9, 10.0). Suggest a structure, assign the spectrum, and give a mechanism for the formation of B.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/ab2547e775b6153493133b94fd8c603ca13aea44d412ea0b122760fa8d3dadd3.jpg]]
+![[ab2547e775b6153493133b94fd8c603ca13aea44d412ea0b122760fa8d3dadd3.jpg]]
 
 **原文题目**：Determine the structure of A and B from NMR, assign spectra, and give mechanism for B formation.
 
@@ -37,19 +37,19 @@ source_grade: B
 
 **Answer (English)**: The structure of A is easy. It has a trans alkene with two H's (J 15) and two tertiary butyl groups. There isn't much else except a carbonyl group so it must be an aldol product between the enolizable ketone and the unenolizable aldehyde.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/7f8247649ccb3b25501619bc95eefd01653288bd5dd177eec1ef61334888683b.jpg]]
+![[7f8247649ccb3b25501619bc95eefd01653288bd5dd177eec1ef61334888683b.jpg]]
 
 B is more difficult. The alkene has obviously gone (no signals beyond 4.48) and there is one extra H. It looks as though HBr has added. The 17.7 coupling cannot be a trans alkene as the chemical shifts are too small, so it must be geminal coupling. This means that the molecule must be chiral so that the two hydrogens on the same carbon are diastereotopic. In fact, the expected conjugate addition of HBr to the enone has occurred.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/78e563c650978128c5fc7ef0f1157ecfc6b4caa215195922d0de37cb193471a4.jpg]]
+![[78e563c650978128c5fc7ef0f1157ecfc6b4caa215195922d0de37cb193471a4.jpg]]
 
 The three hydrogens form an ABX system: A and B are the diastereotopic CH₂ group ($J_\mathrm{AB}$ = 17.7) and X is the CHBr proton ($J_\mathrm{AX}$ = 10 and $J_\mathrm{BX}$ = 1.9). It is not normally possible to say which proton is A and which B but here the large groups, along with the big difference between the two coupling constants, allow us to surmise there is one favoured conformation with dihedral angles of about 180° and 60°.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/195e618111e8c305016cfb4a4dd8ccbec8ffd42d10e516ab558ff7649f13f8db.jpg]]
+![[195e618111e8c305016cfb4a4dd8ccbec8ffd42d10e516ab558ff7649f13f8db.jpg]]
 
 favoured conformation has large groups antiperiplanar
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/5c7f8b5e548be9d276ef574697730feb1dd73ba4d53188b546caa4b39f312672.jpg]]
+![[5c7f8b5e548be9d276ef574697730feb1dd73ba4d53188b546caa4b39f312672.jpg]]
 
 ³J 1.9 Hz (60° angle)    (180° angle)
 

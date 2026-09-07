@@ -31,13 +31,13 @@ source_grade: B
 
 **【原文】**When this hydroxy-ester is treated with a two-fold excess of LDA and then alkylated, one diastereoisomer of the product predominates. Why?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/fd24fc9fc5cf324ca94deaf1c188e3cff0dd97666fcb625e83a64cc71052a7e5.jpg]]
+![[fd24fc9fc5cf324ca94deaf1c188e3cff0dd97666fcb625e83a64cc71052a7e5.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The first LDA molecule removes the OH proton and only the second gives the lithium enolate. The enolate is held in a ring by chelation to the first lithium atom so that the allyl group adds to the less hindered face—opposite the methyl group.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/c407392d0d9f4a9bdb997b36afe5c6763f618ee8b37c4b299af40f11df37f9d7.jpg]]
+![[c407392d0d9f4a9bdb997b36afe5c6763f618ee8b37c4b299af40f11df37f9d7.jpg]]
 
 **中文解析**：
 

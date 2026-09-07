@@ -27,7 +27,7 @@ source_grade: B
 
 Propose syntheses of these two compounds, explaining your choice of reagents and how any selectivity is achieved.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/00828cab6c9c12d6c58ead94862ad1305b96483316861f4a317a75c2fb7186e8.jpg]]
+![[00828cab6c9c12d6c58ead94862ad1305b96483316861f4a317a75c2fb7186e8.jpg]]
 
 **原文题目**：建议合成这两种化合物的路线，解释试剂选择以及如何实现选择性。
 
@@ -37,19 +37,19 @@ Propose syntheses of these two compounds, explaining your choice of reagents and
 
 **Compound 1 (enone)**: This is an alpha,beta-unsaturated carbonyl compound - the product of an aldol reaction. Disconnect the alkene and write a new carbonyl group. We need a crossed aldol reaction between two ketones so we also need chemoselectivity and regioselectivity. Use a lithium enolate, silyl enol ether, or beta-ketoester.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/2c08985ff21e1ccc941c5b5420d71fde458f07c0959e131a40fe9de2dd5a24fc.jpg]]
+![[2c08985ff21e1ccc941c5b5420d71fde458f07c0959e131a40fe9de2dd5a24fc.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/de8bfcf84839b0370222dcc9564d5db079ca2e54804eef6942f9dea48027d548.jpg]]
+![[de8bfcf84839b0370222dcc9564d5db079ca2e54804eef6942f9dea48027d548.jpg]]
 
 **Compound 2 (lactone)**: Disconnect the structural C-O bond first to see the carbon skeleton. We have a 1,5-relationship between the functional groups so we need conjugate addition. Change the alcohol into a ketone, and the acid group to an ester.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/3ab4fff2b9f5421d63167a135e872585f884094ad57edfca5d2729a232f4879b.jpg]]
+![[3ab4fff2b9f5421d63167a135e872585f884094ad57edfca5d2729a232f4879b.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/24b0c2e6e78f28772d8de37b17662de67185fb8237ddf196f007c30ce558623e.jpg]]
+![[24b0c2e6e78f28772d8de37b17662de67185fb8237ddf196f007c30ce558623e.jpg]]
 
 One possibility: add malonate to the unsaturated ketone (aldol dimer of acetone). Reduce the ketone, expect cyclization to be spontaneous, and decarboxylate.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/8f7934a3b4d80285f513864e278e8634ade770a5e869c60752fa8f14c74822b2.jpg]]
+![[8f7934a3b4d80285f513864e278e8634ade770a5e869c60752fa8f14c74822b2.jpg]]
 
 **中文解析**：
 

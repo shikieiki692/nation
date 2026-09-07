@@ -27,7 +27,7 @@ source_grade: B
 
 Draw mechanisms for these reactions, both of which involve loss of the carbonyl's oxygen atom.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/dc2a09eab9ff67ffa2334a622be42bd3c7d32b6dad4036facf6c7b96dd37dc83.jpg]]
+![[dc2a09eab9ff67ffa2334a622be42bd3c7d32b6dad4036facf6c7b96dd37dc83.jpg]]
 
 **原文题目**：Draw mechanisms for two reactions that both involve loss of the carbonyl oxygen atom — one is acetal formation with methanol/HCl, the other is imine formation with a primary amine.
 
@@ -35,11 +35,11 @@ Draw mechanisms for these reactions, both of which involve loss of the carbonyl'
 
 **Answer (English)**: As MeOH is present in large excess as the solvent, it probably adds first. This also makes the intermediate for the addition of chloride a stable oxonium ion. The mechanism is very like that for acetal formation and, if you added chloride first, that is also a reasonable mechanism.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/5ecd9a8b948cc7c5135cdebcb71418f0651610e2611b05028a2620ecf9c3e3c5.jpg]]
+![[5ecd9a8b948cc7c5135cdebcb71418f0651610e2611b05028a2620ecf9c3e3c5.jpg]]
 
 The second example is imine formation — attack by an amine nucleophile and dehydration of the intermediate. Don't forget to protonate the OH group so that it can leave as a water molecule.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/bce88b28c960bf02826a8aabda4e27279eb8a0063550c9ed86dc1f66acfdeb57.jpg]]
+![[bce88b28c960bf02826a8aabda4e27279eb8a0063550c9ed86dc1f66acfdeb57.jpg]]
 
 **中文解析**：
 

@@ -33,11 +33,11 @@ Suggest mechanisms for these reactions, explaining why these particular products
 
 **Answer (English)**: The acid chloride reacts rapidly with the water and the carboxylic acid produced reacts rapidly with a second molecule of acid chloride. The anhydride reacts much more slowly ($pK_{a}$ of HCl is -7 but the $pK_{a}$ of $RCO_{2}H$ is about 5) with water so there is a good chance of stopping the reaction there, especially when we use a low concentration of water in acetone solution. In this instance the chance is made a certainty because the anhydride precipitates from the solution and is no longer in equilibrium with the other reagents. It is usually possible to descend the reactivity sequence of acid derivatives.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/ab7486d13c2ff5180f600bc887c69e06c6b45cf51a4d1e19e1eb40bbdd85a975.jpg]]
+![[ab7486d13c2ff5180f600bc887c69e06c6b45cf51a4d1e19e1eb40bbdd85a975.jpg]]
 
 The second reaction is an example of the alkaline hydrolysis of amides. Though the nitrogen atom is never a good leaving group, it will leave from the dianion and, once gone, it is quickly protonated and does not come back. This example also benefits from the release of the slight strain in the five-membered ring.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/55945e04ad098523a3c7ed0b9d0eed6e2fb8bcb6bd7f81a4991121bc3d5fa09d.jpg]]
+![[55945e04ad098523a3c7ed0b9d0eed6e2fb8bcb6bd7f81a4991121bc3d5fa09d.jpg]]
 
 **中文解析**：
 

@@ -30,19 +30,19 @@ source_grade: B
 
 **【原文】**Give mechanisms for the steps in this conversion of a five- into a six-membered aromatic heterocycle. (Carbene chemistry to show its usefulness in heterocyclic synthesis.)
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/37b3b1f22c8d0b729585e8c62ef312f483693511b3334644cbc5c7a1f0e092d1.jpg]]
+![[37b3b1f22c8d0b729585e8c62ef312f483693511b3334644cbc5c7a1f0e092d1.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: Decomposition of trichloroacetate ion releases the Cl₃C⁻ carbanion. Loss of chloride gives dichlorocarbene and addition to one of the double bonds in the pyrrole gives a bicyclic intermediate.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/4af12ecfeab3f76453b069dd0532ad0a90acc79c33e853f07d6d9fec27240c38.jpg]]
+![[4af12ecfeab3f76453b069dd0532ad0a90acc79c33e853f07d6d9fec27240c38.jpg]]
 
 Ring expansion can be drawn in various ways. There is a direct route from the neutral amine, or its anion, that doesn't look very convincing, or you can ionize one of the chlorides first and open the cyclopropyl cation in an electrocyclic reaction. However you explain it, this is a good way to make 3-substituted pyridines.
 
 A. O. Fitton and R. K. Smalley, Practical heterocyclic chemistry, Academic Press, London, 1968, p. 17.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/75bf50b1a4e5d3d1d24aae9a22144029fd30dfa4a7f21f503d8e1acd47fc69dc.jpg]]
+![[75bf50b1a4e5d3d1d24aae9a22144029fd30dfa4a7f21f503d8e1acd47fc69dc.jpg]]
 
 **中文解析**：
 

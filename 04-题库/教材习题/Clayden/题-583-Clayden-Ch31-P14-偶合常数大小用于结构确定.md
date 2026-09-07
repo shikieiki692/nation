@@ -27,7 +27,7 @@ source_grade: B
 
 Treatment with base of the two compounds shown here gives an unknown compound with the spectra given below. What is its structure?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/203bd75592dcc5c078aeaf8ce527455771d758cbdc215138ba8b5c390afed613.jpg]]
+![[203bd75592dcc5c078aeaf8ce527455771d758cbdc215138ba8b5c390afed613.jpg]]
 
 m/z: 241 (M⁺, 60%), 90 (100%), 89 (62%)
 
@@ -41,7 +41,7 @@ $\delta_{C}$ (ppm in CDCl₃) 62, 64, 122, 125, 126, 127, 130, 136, and 148 (the
 
 **Answer (English)**: The compound is an epoxide: the coupling constants around the three-membered ring are small (3 Hz: contrast 10 Hz on the benzene ring) because of ring size and the oxygen atom. All the Hs on the Ph ring happen to come at the same chemical shift. Those on the nitrated ring are at lower field and separated by the nitro group.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/c2f32b02025e54d9e889676498916c9101749e92a8c78fbf8c638fecf87404f0.jpg]]
+![[c2f32b02025e54d9e889676498916c9101749e92a8c78fbf8c638fecf87404f0.jpg]]
 
 **中文解析**：
 

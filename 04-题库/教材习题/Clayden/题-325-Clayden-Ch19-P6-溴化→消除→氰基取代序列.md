@@ -35,7 +35,7 @@ Propose mechanisms for the following three-step sequence:
 2. The dibromide is treated with base → allylic bromide (via E2 elimination)
 3. The allylic bromide reacts with NaCN → substitution product with a new C-C bond
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/ebb02885fd1a54221876a3f90531acb3c0ce1945c41a33b4ef50b4989896cdd4.jpg]]
+![[ebb02885fd1a54221876a3f90531acb3c0ce1945c41a33b4ef50b4989896cdd4.jpg]]
 
 1. 烯烃与 Br₂ 反应 → 反式二溴化物
 2. 二溴化物用碱处理 → 烯丙基溴化物（经 E2 消除）
@@ -51,7 +51,7 @@ Propose mechanisms for the following three-step sequence:
 
 **Step 3 — SN2 with CN⁻**: Cyanide ion (NaCN) is a good nucleophile. It performs an SN2 attack on the allylic bromide at the carbon bearing Br. Allylic substrates are especially reactive in SN2 due to transition state stabilization by the adjacent π-system. The product is an allylic nitrile with a new C-C bond.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/1d04af6956e08b71f329ceb14f00a192d311f1fd5fbe8bdc87ac7ab5a464ab00.jpg]]
+![[1d04af6956e08b71f329ceb14f00a192d311f1fd5fbe8bdc87ac7ab5a464ab00.jpg]]
 
 **中文解析**：
 

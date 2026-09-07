@@ -27,17 +27,17 @@ source_grade: B
 
 How would you make each diastereoisomer of this product from the same alkene?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/85fe38d944b93101e525a14cf1801c2f89393b958371382d9e43c669692bd16a.jpg]]
+![[85fe38d944b93101e525a14cf1801c2f89393b958371382d9e43c669692bd16a.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The compounds are acetals and can be made from the corresponding diols with no change in stereochemistry. The question really is: how do you make cis and trans diols from the alkene?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/f5e144f247083c021bc318bde6572944d75211d2244d2af4d18f15f7fdba3d79.jpg]]
+![[f5e144f247083c021bc318bde6572944d75211d2244d2af4d18f15f7fdba3d79.jpg]]
 
 The cis diol is best made by dihydroxylation with OsO₄ as the reagent and a co-oxidant to regenerate it. The trans diol comes from the epoxide by nucleophilic attack with water.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/21b4ad3d557aabc56e3afaa6c4cbbf490f51f54dc5c44f27761e40b95dc7282d.jpg]]
+![[21b4ad3d557aabc56e3afaa6c4cbbf490f51f54dc5c44f27761e40b95dc7282d.jpg]]
 
 **中文解析**：
 

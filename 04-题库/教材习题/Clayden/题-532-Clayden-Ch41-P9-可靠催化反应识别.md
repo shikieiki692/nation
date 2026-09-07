@@ -27,14 +27,14 @@ source_grade: B
 
 Propose catalytic methods for the asymmetric synthesis of these four precursors to drug molecules.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/83e2e611dae2672f4ecf7d4311ce55dcfbeb15990744e7316421c7f9db8aa8ac.jpg]]
+![[83e2e611dae2672f4ecf7d4311ce55dcfbeb15990744e7316421c7f9db8aa8ac.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/904e669e76071183d0eb775e4f877a77b01881bb9ba82731f2f7508227e99a6e.jpg]]
+![[904e669e76071183d0eb775e4f877a77b01881bb9ba82731f2f7508227e99a6e.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/85d98a180cbeede1d549fa42fca83f5b084bae27ce68029ebb4ee45ccf12caa4.jpg]]  
+![[85d98a180cbeede1d549fa42fca83f5b084bae27ce68029ebb4ee45ccf12caa4.jpg]]  
 precursor to AZT
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/42bf1a4239365b2a50481df63b90ea93c780a647065f6104322688fc7bc90588.jpg]]  
+![[42bf1a4239365b2a50481df63b90ea93c780a647065f6104322688fc7bc90588.jpg]]  
 precursor to indicine
 
 **原文题目**：Propose catalytic methods for the asymmetric synthesis of these four precursors to drug molecules.
@@ -43,19 +43,19 @@ precursor to indicine
 
 **Answer (English)**: The sertraline precursor is a chiral alcohol with the stereogenic centre adjacent to an aromatic ring. An obvious approach is to make the hydroxyl group by asymmetric reduction of the corresponding ketone. CBS reduction is a possibility, as is a ruthenium-catalysed hydrogenation using the ligand TsDPEN.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/fb435fbb6dbcc9f607956615edeea7310355afb776188d8aee5b504048572578.jpg]]
+![[fb435fbb6dbcc9f607956615edeea7310355afb776188d8aee5b504048572578.jpg]]
 
 The second compound is a chiral sulfide. Although there are direct asymmetric ways of making chiral sulfur compounds, a reliable approach to sulfides is to use SN2 substitution of a more readily made chiral precursor, because a thiolate is usually a good nucleophile. The SN2 reaction goes with inversion, so we need the chiral alcohol shown below, converted to a derivative (such as a tosylate) capable of undergoing substitution.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/024e83325656d679480f328d1bbc4e7fec5b8d9195b1a887c2a4da699459f873.jpg]]
+![[024e83325656d679480f328d1bbc4e7fec5b8d9195b1a887c2a4da699459f873.jpg]]
 
 The third compound contains a 1,2,3-trifunctionalized arrangement that should prompt you to think of asymmetric epoxidation. Azide is a good nucleophile for opening epoxides, so we can start with the allylic alcohol shown here, carry out an asymmetric epoxidation, and convert to the target with inversion of configuration.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/3af4de88d0a5bc8d1b674d3ec270e95010131415cd025c17da0891564700d89b.jpg]]
+![[3af4de88d0a5bc8d1b674d3ec270e95010131415cd025c17da0891564700d89b.jpg]]
 
 The final compound is a diol, so asymmetric dihydroxylation is a possible approach. The precursor is a rather unreactive alkene, but asymmetric dihydroxylation is a versatile reaction which can still perform well on challenging substrates.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/dfd57905f46014bca656556039f98dc3b5a84fc143021746be477427d6788dd4.jpg]]
+![[dfd57905f46014bca656556039f98dc3b5a84fc143021746be477427d6788dd4.jpg]]
 
 **中文解析**：
 

@@ -27,17 +27,17 @@ source_grade: B
 
 One isomer of dimethoxybenzoic acid has the ¹H NMR spectrum δ_H (ppm) 3.85 (6H, s), 6.63 (1H, t, J 2 Hz), and 7.17 (2H, d, J 2 Hz). One isomer of coumalic acid has the ¹H NMR spectrum δ_H (ppm) 6.41 (1H, d, J 10 Hz), 7.82 (1H, dd, J 2, 10 Hz), and 8.51 (1H, d, J 2 Hz). In each case, which isomer is it? The bonds sticking into the centre of the ring can be to any carbon atom.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/e42a07aaabf6daa9e36c00addcc2672a9082a270613d091fea4156547597a792.jpg]]
+![[e42a07aaabf6daa9e36c00addcc2672a9082a270613d091fea4156547597a792.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The coupling constants in the first spectrum are all too small to be between hydrogens on neighbouring carbon atoms, and there must be symmetry in the molecule. There is only one structure that answers these criteria: 3,5-dimethoxybenzoic acid.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/f545617289e469e44ab7ba701dc0c7a5468a4f9489df5d2eee8e1035ca038fd6.jpg]]
+![[f545617289e469e44ab7ba701dc0c7a5468a4f9489df5d2eee8e1035ca038fd6.jpg]]
 
 The second compound has one coupling of 10 Hz (ortho coupling between protons on neighbouring carbons), and the other coupling of 2 Hz is too small to be anything but meta coupling. The first structure is correct, and you might have worked this out from the very large chemical shift — almost in the aldehyde region — of the isolated proton with only a 2 Hz coupling. This proton is on an alkene carbon bonded to oxygen in the first structure, but on a simple alkene carbon in the second.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/84f86d3dc7333d0154b9bfb17a17ce0624d4b846eda7c1feafe19b7872a80726.jpg]]
+![[84f86d3dc7333d0154b9bfb17a17ce0624d4b846eda7c1feafe19b7872a80726.jpg]]
 
 **中文解析**：
 

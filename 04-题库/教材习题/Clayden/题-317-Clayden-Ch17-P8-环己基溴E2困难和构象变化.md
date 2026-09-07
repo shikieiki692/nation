@@ -28,7 +28,7 @@ source_grade: B
 
 Why is it difficult (though not impossible) for cyclohexyl bromide to undergo an E2 reaction? What conformational changes must occur during this reaction?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/9342eb1563d0ca085e95e3be3682f858d45f586605da14414ffb37a9fe1eea9d.jpg]]
+![[9342eb1563d0ca085e95e3be3682f858d45f586605da14414ffb37a9fe1eea9d.jpg]]
 
 **原文题目**：
 
@@ -40,7 +40,7 @@ Why is it difficult (though not impossible) for cyclohexyl bromide to undergo an
 
 Cyclohexyl bromide prefers the chair conformation with the bromine equatorial. It cannot do an E2 reaction in this conformation as E2 requires the reacting C–H and C–Br bonds to be anti-periplanar. This can be achieved if the molecule first flips to put the C–Br bond in an unfavourable axial conformation.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/d79eb44eca13e599537327219ba451e278a32c064dcb4892ca595d49577bf416.jpg]]
+![[d79eb44eca13e599537327219ba451e278a32c064dcb4892ca595d49577bf416.jpg]]
 
 **中文解析**：
 

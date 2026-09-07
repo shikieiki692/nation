@@ -34,7 +34,7 @@ C. Bicyclo[2.2.1]heptane-2,3-dione (norbornane-2,3-dione)
 D. A 1,3-diketone with a tert-butyl group blocking one side
 E. Cyclobutane-1,3-dione
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/d621ddcc8d70aee7f9073416911e733900b45beef20a5eeec6765355e7c0103c.jpg]]
+![[d621ddcc8d70aee7f9073416911e733900b45beef20a5eeec6765355e7c0103c.jpg]]
 
 **原文题目**：
 
@@ -50,21 +50,21 @@ E. 环丁烷-1,3-二酮
 
 **Answer (English)**:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/3e9c6c17df955c6c97b028bd50c123b524ff118b086d0cb5ed8163c591cdd442.jpg]]
+![[3e9c6c17df955c6c97b028bd50c123b524ff118b086d0cb5ed8163c591cdd442.jpg]]
 
 **A. Acetylacetone**: ~76% enol. Standard 1,3-diketone with conjugated enol + intramolecular H-bond → 6-membered chelate ring. All factors favour enol.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/fae162f20e78553c8ee246a0815f6c6261a88265d8bc6c2b603b0876964ef876.jpg]]
+![[fae162f20e78553c8ee246a0815f6c6261a88265d8bc6c2b603b0876964ef876.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/ef835f76dec3f021952492b1c4dce7808f2ad3b410767ce31cc115f843dcf3e8.jpg]]
+![[ef835f76dec3f021952492b1c4dce7808f2ad3b410767ce31cc115f843dcf3e8.jpg]]
 
 **B. Dimedone**: ~100% enol. The cyclic 1,3-diketone with gem-dimethyl group at C-5. The enol form has extended conjugation through the ring, and the intramolecular H-bond forms a stable 6-membered ring. The gem-dimethyl group locks the conformation. Essentially all enol.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/5aca971a388c6da2f4246eea5d887b6f643bef2d0855d696baf12d249f3cf622.jpg]]
+![[5aca971a388c6da2f4246eea5d887b6f643bef2d0855d696baf12d249f3cf622.jpg]]
 
 **C. Norbornane-2,3-dione**: The bridgehead double bond (Bredt's rule) would be required for enolization toward the bridge → **impossible**. Enolization can only occur toward the exo/endo face, but this gives a strained bridgehead alkene which violates Bredt's rule. Therefore: **0% enol** (or very close to 0%). The ketone form is the only stable form.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/82a9676b20cbfd9b01fbf140ede03f86f99340c96375197e0954b417dbd41a06.jpg]]
+![[82a9676b20cbfd9b01fbf140ede03f86f99340c96375197e0954b417dbd41a06.jpg]]
 
 **D. t-Butyl blocked 1,3-diketone**: If one side has a tert-butyl group, enolization toward that side would place the bulky t-Bu group in the planar enol framework → severe steric clash. Enolization is greatly reduced. Much lower enol content than acetylacetone.
 

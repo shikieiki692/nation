@@ -27,7 +27,7 @@ source_grade: B
 
 Suggest mechanisms for these reactions.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/a45b34a5f2a1fd09001a69f46e4af99b98885b8f3e09e0a357d9fbf998d057c5.jpg]]
+![[a45b34a5f2a1fd09001a69f46e4af99b98885b8f3e09e0a357d9fbf998d057c5.jpg]]
 
 **原文题目**：Suggest mechanisms for these reactions.
 
@@ -35,7 +35,7 @@ Suggest mechanisms for these reactions.
 
 **Answer (English)**: Double alkylation of the malonate enolate gives the four-membered ring and hydrolysis and decarboxylation gives the carboxylic acid product.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/22e716edb49f0503d14fc1499c5701b444bb3c763429ed347fffce4037b4172e.jpg]]
+![[22e716edb49f0503d14fc1499c5701b444bb3c763429ed347fffce4037b4172e.jpg]]
 
 **中文解析**：
 

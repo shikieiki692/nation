@@ -27,7 +27,7 @@ source_grade: B
 
 There are three possible products from the reduction of this compound with sodium borohydride. What are their structures? How would you distinguish them spectroscopically, assuming you can isolate pure compounds?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/1ee0ee97e32ee44f1d810e4962de1c39b5c4b5cd3dce2875bc8906a6c7483742.jpg]]
+![[1ee0ee97e32ee44f1d810e4962de1c39b5c4b5cd3dce2875bc8906a6c7483742.jpg]]
 
 **原文题目**：该化合物用NaBH₄还原有三种可能产物。它们的结构是什么？假设可以分离纯品，如何用光谱法区分？
 
@@ -35,7 +35,7 @@ There are three possible products from the reduction of this compound with sodiu
 
 **Answer (English)**: The three compounds are easily drawn: one or other carbonyl group, or both, may be reduced.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/70141a4ddf2d665c66381504e358fc4eede2c8c9a932d93e390207cf12b6959c.jpg]]
+![[70141a4ddf2d665c66381504e358fc4eede2c8c9a932d93e390207cf12b6959c.jpg]]
 
 **中文解析**：
 

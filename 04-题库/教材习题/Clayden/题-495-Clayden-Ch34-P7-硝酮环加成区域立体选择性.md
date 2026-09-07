@@ -30,7 +30,7 @@ source_grade: B
 
 **【原文】**Give mechanisms for these reactions and explain the regio- and stereochemical control (or lack of it!). Note that MnO₂ oxidizes allylic alcohols to enones.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/0726f6b4dc612685935915f20d7d191103459bbf10224850a46d121cae21af81.jpg]]
+![[0726f6b4dc612685935915f20d7d191103459bbf10224850a46d121cae21af81.jpg]]
 
 **原文题目**：Give mechanisms for these reactions and explain the regio- and stereochemical control (or lack of it!). Note that MnO₂ oxidizes allylic alcohols to enones.
 
@@ -38,15 +38,15 @@ source_grade: B
 
 **Answer (English)**: The nitrone uses its LUMO (the π\* of the C=N bond) to react with the HOMO of the diene whose largest coefficient is at the end away from the phenyl group (this is where an electrophile would react). There is no selectivity as there is no conjugation and no exo/endo selection.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/bae519649929f59d70a02be5792303356422fc2745db6c6099e42b2520b12e2d.jpg]]
+![[bae519649929f59d70a02be5792303356422fc2745db6c6099e42b2520b12e2d.jpg]]
 
 Reduction with zinc cleaves the N–O bond and MnO₂ oxidizes the allylic alcohol to the enone. At this point there is only one chiral centre so the mixture of diastereoisomers has become one compound. Conjugate addition of the amine gives the new ring.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/1201dca7e28d62335621f73350f41819203bc1b74c0933e734ee8ed33f2a75df.jpg]]
+![[1201dca7e28d62335621f73350f41819203bc1b74c0933e734ee8ed33f2a75df.jpg]]
 
 The stereochemistry is more difficult to explain. The product will choose a trans ring junction (the nitrogen can invert and trans 6,6-ring fusions are more stable), but that means the phenyl group has to be axial. It seems likely that this is the kinetic product. It looks as though the ring closes with the best overlap between the nitrogen lone pair and the π\* orbital of the enone to give a cis ring junction that equilibrates by pyramidal inversion at nitrogen to the more stable trans ring junction.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/05ec81a2ed4bb5cdf0d00389a1979061102134dab21c8638a7138290f57402d1.jpg]]
+![[05ec81a2ed4bb5cdf0d00389a1979061102134dab21c8638a7138290f57402d1.jpg]]
 
 **中文解析**：
 

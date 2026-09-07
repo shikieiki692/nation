@@ -30,17 +30,17 @@ source_grade: B
 
 **【原文】**Explain how both methyl groups in the product of this reaction come to be labelled. If the starting material is reisolated at 50% reaction, its methyl group is also labelled.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/1908eb1bd50e4789466db0e0f7df0969f10ff7598c7fe4e9d4e82593d5b197f3.jpg]]
+![[1908eb1bd50e4789466db0e0f7df0969f10ff7598c7fe4e9d4e82593d5b197f3.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The role of silver ion (Ag⁺) is to remove the halide to give an acylium ion that reacts at the methyl group (not the carbonyl group) to give CO₂ and a methylated benzene ring. The simple Friedel-Crafts route explains how the added methyl group is labelled, but not why it is only partly labelled and how label gets into the other methyl group.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/ab824c7bdda08fa389edb7c3c793983d5029d8b9b6a4a1442ac36665cc752797.jpg]]
+![[ab824c7bdda08fa389edb7c3c793983d5029d8b9b6a4a1442ac36665cc752797.jpg]]
 
 The extra features are explained by methylation initially occurring on the **oxygen atom**, followed by transfer of the methyl group from oxygen to the benzene ring. O-alkylation provides an alkylating agent that can transfer either CH₃ or CD₃, and also explains the formation of trideuterotoluene.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/699a6d4825b96b07d6d454370b1ce08fb2679696ec6f121a05da2087cff2d3e2.jpg]]
+![[699a6d4825b96b07d6d454370b1ce08fb2679696ec6f121a05da2087cff2d3e2.jpg]]
 
 **中文解析**：
 

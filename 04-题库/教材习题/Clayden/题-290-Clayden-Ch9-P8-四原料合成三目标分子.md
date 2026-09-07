@@ -30,19 +30,19 @@ source_grade: B
 **【原文】**
 How could you use these four commercially available starting materials
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/19413417ed7b8c01f5980fb79ee63e1385bbb8437194836b159d50d53170c7b9.jpg]]
+![[19413417ed7b8c01f5980fb79ee63e1385bbb8437194836b159d50d53170c7b9.jpg]]
 
 to make the following three compounds?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/1e887457003d14bf8ca65c2c73da7f4bc2ba5d5592ad1be6ab25b39e5498cd95.jpg]]
+![[1e887457003d14bf8ca65c2c73da7f4bc2ba5d5592ad1be6ab25b39e5498cd95.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The first compound contains a phenyl and an ethyl group, so you could convert the ethyl iodide to a Grignard reagent and add it to the aldehyde. The product is an alcohol, so you need to use CrO₃ to oxidize it to the ketone. The second compound is a carboxylic acid, which can come from addition of the Grignard reagent derived from cyclopentyl bromide to carbon dioxide. The third compound is a tertiary alcohol, which you could make by addition of the same cyclopentyl Grignard reagent to a ketone. The ketone will also need to be made by oxidation of an alcohol, itself derived from benzaldehyde and the cyclopentyl Grignard reagent.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/dbb2a61241ca819d7d2e9b05d1bf7a1a725bd08416ab79fa58d5076c7dc131de.jpg]]
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/cfcac272d5191d8ce0dfc9c95ab61a84c0226ce620b42b6dab1cd14cf9a015d1.jpg]]
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/f8c274521fd33d178fcfabd95f1538d87533002bbd3f7b453ed0e48876a66827.jpg]]
+![[dbb2a61241ca819d7d2e9b05d1bf7a1a725bd08416ab79fa58d5076c7dc131de.jpg]]
+![[cfcac272d5191d8ce0dfc9c95ab61a84c0226ce620b42b6dab1cd14cf9a015d1.jpg]]
+![[f8c274521fd33d178fcfabd95f1538d87533002bbd3f7b453ed0e48876a66827.jpg]]
 
 **中文解析**：
 

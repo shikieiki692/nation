@@ -31,7 +31,7 @@ Explain the following observations about the NMR spectra:
 1. Dimethyl malonate (CH₃OOC-CH₂-COOCH₃) gives a complex ¹H NMR spectrum. Why?
 2. Dimedone (5,5-dimethylcyclohexane-1,3-dione) gives a surprisingly simple ¹H NMR spectrum in solution. Why?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/a161b74416eb51917bbdce44a66e640c10ea322b61083a11c7e236c1c8b3d516.jpg]]
+![[a161b74416eb51917bbdce44a66e640c10ea322b61083a11c7e236c1c8b3d516.jpg]]
 
 **原文题目**：
 
@@ -44,7 +44,7 @@ Explain the following observations about the NMR spectra:
 
 **Answer (English)**:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/74e1642ed33f3be6aaec4f70cc55d07e7e612b50c97f4492328fab813d9937bc.jpg]]
+![[74e1642ed33f3be6aaec4f70cc55d07e7e612b50c97f4492328fab813d9937bc.jpg]]
 
 1. **Dimethyl malonate**: The CH₂ protons are flanked by two ester groups. In the keto form, these protons appear as a singlet (equivalent). However, the molecule exists as a mixture of keto and enol forms at equilibrium. The **enol form** has a C=C double bond and an OH group — this breaks the symmetry, making the methyl ester groups and the ring/chain protons **non-equivalent**. The interconversion between keto and enol forms, if slow on the NMR timescale, gives separate signals for each tautomer, producing a complex spectrum with overlapping peaks.
 

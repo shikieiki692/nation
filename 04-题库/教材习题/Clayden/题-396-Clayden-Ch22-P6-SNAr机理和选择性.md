@@ -27,7 +27,7 @@ source_grade: B
 
 Suggest a mechanism for this reaction, explaining the selectivity.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/7abeb2b7d8d7657bc2bc2706d31555058d012bdb2d380f707e258422313e900a.jpg]]
+![[7abeb2b7d8d7657bc2bc2706d31555058d012bdb2d380f707e258422313e900a.jpg]]
 
 **原文题目**：Suggest a mechanism for the nucleophilic aromatic substitution of a pentafluorophenyl ketone with a heterocyclic amine, explaining the para selectivity.
 
@@ -35,7 +35,7 @@ Suggest a mechanism for this reaction, explaining the selectivity.
 
 **Answer (English)**: Both ortho and para positions are activated by the ketone towards nucleophilic attack by the amine, but the para position is preferred because of steric hindrance between the large heterocyclic ring and the ketone. The substitution works because those five fluorine atoms make the ring very electron-deficient.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/9727cc1e9068e735c65b64bd8c14b42cdf0837bb36dbbb6da250c653b3351d45.jpg]]
+![[9727cc1e9068e735c65b64bd8c14b42cdf0837bb36dbbb6da250c653b3351d45.jpg]]
 
 **中文解析**：
 

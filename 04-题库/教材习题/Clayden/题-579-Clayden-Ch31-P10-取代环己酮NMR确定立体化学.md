@@ -27,7 +27,7 @@ source_grade: B
 
 Given a sample of each of these two compounds, how would you determine the stereochemistry?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/e26eee96f01ce8eae13e9e21232365eab9b93eba6969bd06f88d2a51df7abad9.jpg]]
+![[e26eee96f01ce8eae13e9e21232365eab9b93eba6969bd06f88d2a51df7abad9.jpg]]
 
 **原文题目**：How would you determine the stereochemistry of these two substituted cyclohexanone compounds?
 
@@ -37,19 +37,19 @@ Given a sample of each of these two compounds, how would you determine the stere
 
 It is better to draw the carbonyl group at the 'end' of the ring, because then we can easily make it look planar.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/fbf4599708e664c2bf18052e631659df59a681f2db213cf0072fa36be72fd7d8.jpg]]
+![[fbf4599708e664c2bf18052e631659df59a681f2db213cf0072fa36be72fd7d8.jpg]]
 
 The key H atoms in the NMR are those shown below. In the first compound H^D tells us nothing as it has no neighbours and no coupling. H^B and H^C are useful as they tell us about H^A. H^A is easily identified by its quartet coupling to the methyl group. If it has a large axial-axial coupling (about 10 Hz) to H^B we have the cis compound, but if all its couplings are small (perhaps <4 Hz) then it is the trans compound.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/7c9181d9cd3afd0d540ad58d8c7990f86c0e6571cc1ba9ce28842c45525b62b3.jpg]]
+![[7c9181d9cd3afd0d540ad58d8c7990f86c0e6571cc1ba9ce28842c45525b62b3.jpg]]
 
 In the second compound a difficulty emerges: there is no coupling! We can tell by symmetry whether we have the symmetrical cis,cis- or trans,trans- compounds or the non-symmetrical cis,trans- compound. The symmetrical compounds will show only one peak for the two methyl groups. But how can we tell which of the symmetrical compounds we have? If we irradiate the signal for the methyl groups, we should get a strong NOE at H^A for the trans compound and not for the all-cis compound.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/a35e0003dfde6cb71517b6220448fea163ae978b2f96c828b7bbe670d03ccbd6.jpg]]
+![[a35e0003dfde6cb71517b6220448fea163ae978b2f96c828b7bbe670d03ccbd6.jpg]]
 
 symmetrical compounds
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/a0f01b1e265ad83aef0501536453b5f56e43b3b1ec5636fec84c64bed2ec5fed.jpg]]
+![[a0f01b1e265ad83aef0501536453b5f56e43b3b1ec5636fec84c64bed2ec5fed.jpg]]
 
 unsymmetrical compound
 

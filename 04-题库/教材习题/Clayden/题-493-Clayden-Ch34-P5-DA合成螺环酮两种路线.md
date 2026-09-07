@@ -30,7 +30,7 @@ source_grade: B
 
 **【原文】**Suggest two syntheses of this spirocyclic ketone from the starting materials shown. Neither starting material is available.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/beed18e2361fa913141b01b50794418f33ed4b862233c21cc7196d2c838ce48d.jpg]]
+![[beed18e2361fa913141b01b50794418f33ed4b862233c21cc7196d2c838ce48d.jpg]]
 
 **原文题目**：Suggest two syntheses of this spirocyclic ketone from the starting materials shown. Neither starting material is available.
 
@@ -40,21 +40,21 @@ source_grade: B
 
 **Route 1**: The most obvious disconnection is of the α,β-unsaturated ketone with an aldol reaction in mind. This reveals a 1,4-dicarbonyl compound. Direct disconnection to one of the starting materials is now possible and each can be made by a Diels-Alder reaction.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/c8904e42c9b2b4e90d51edc80c12f1326b6f72ac9987137f92fbda87b02ab1f8.jpg]]
+![[c8904e42c9b2b4e90d51edc80c12f1326b6f72ac9987137f92fbda87b02ab1f8.jpg]]
 
 The Diels-Alder reaction has the right ('para') regioselectivity, especially if we use a Lewis acid catalyst such as SnCl₄, and we shall need a non-basic specific enol equivalent for the alkylation: an enamine will do fine.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/cacb22d6f091de19d811d75f831bdd6b1181d74520c62d0d3bb36217bcf41699.jpg]]
+![[cacb22d6f091de19d811d75f831bdd6b1181d74520c62d0d3bb36217bcf41699.jpg]]
 
 **Route 2**: The other route demands a different disconnection of the keto-aldehyde plus one further aldol disconnection. The starting material is more easily made by Birch reduction than by a Diels-Alder reaction.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/d5559e8144c9c8ffd93ec668ffb72d33859dfcc9d36e4b9c7b53cae4dcf69608.jpg]]
+![[d5559e8144c9c8ffd93ec668ffb72d33859dfcc9d36e4b9c7b53cae4dcf69608.jpg]]
 
 The Birch reduction gives the enol ether of the ketone and demands careful hydrolysis to avoid the alkene moving into conjugation with the ketone. The aldol reaction requires some kind of control — perhaps the silyl enol ether of acetone will do. Now we need a reagent for '–CHO' that will do conjugate addition. The most obvious choices are cyanide ion or nitromethane. The last step is the same as in the first synthesis.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/4081ed9bf97d00da6c5633e5e816e274ab466d3cc9e19bbc977d172fc25982d9.jpg]]
+![[4081ed9bf97d00da6c5633e5e816e274ab466d3cc9e19bbc977d172fc25982d9.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/5f02b11e3d0df4e7370357dfd87eea73882a0583253d4a54315e4cf60c866042.jpg]]
+![[5f02b11e3d0df4e7370357dfd87eea73882a0583253d4a54315e4cf60c866042.jpg]]
 
 **中文解析**：
 

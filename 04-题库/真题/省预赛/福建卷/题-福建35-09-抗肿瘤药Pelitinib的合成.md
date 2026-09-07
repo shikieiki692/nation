@@ -35,15 +35,15 @@ source_grade: A-
 
 合成路线（前段：1 = 4-硝基-2-氨基苯酚，经 A/B/C 三步得 4 = 3-乙氧基-4-乙酰氨基苯胺）：
 
-![[各省预赛题目/省预赛图依赖题处理手册_images/c948809063cd9cde037be4e51abdc73bc35524df7798858b4aaad654421a227f.jpg]]
+![[c948809063cd9cde037be4e51abdc73bc35524df7798858b4aaad654421a227f.jpg]]
 
 合成路线（后段：6 → 7 → 8 → 9 → 10 = Pelitinib）：
 
-![[各省预赛题目/省预赛图依赖题处理手册_images/2b62dcd2acd8815c2ff3db1f821ba78db1c9b54c1fd83ad86428d646f1e4df81.jpg]]
+![[2b62dcd2acd8815c2ff3db1f821ba78db1c9b54c1fd83ad86428d646f1e4df81.jpg]]
 
 **9-2** 化合物 4 在加热回流条件下与 2-氰基-3-乙氧基丙烯酸乙酯反应经中间体 5a 转化为 5，化合物 5 在 250 °C 条件下经 6a，6b 中间体得到 6：画出中间体 5a，6a，6b 的结构简式。
 
-![[各省预赛题目/省预赛图依赖题处理手册_images/58d6d6d40e63d0324f4040ed3e733aa1d82b1cfe6b0ea753559924260a5e5ceb.jpg]]
+![[58d6d6d40e63d0324f4040ed3e733aa1d82b1cfe6b0ea753559924260a5e5ceb.jpg]]
 
 
 ## 参考答案

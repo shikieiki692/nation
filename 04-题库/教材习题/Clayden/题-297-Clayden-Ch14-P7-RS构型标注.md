@@ -27,7 +27,7 @@ source_grade: B
 
 Assign a configuration (R or S) to each of these compounds.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/d5bf98fff5f0ec6b3748708cb0d838eb3534d206239c1a47684a8d3744edaae0.jpg]]
+![[d5bf98fff5f0ec6b3748708cb0d838eb3534d206239c1a47684a8d3744edaae0.jpg]]
 
 **原文题目**：给这些化合物指定构型（R或S）。
 
@@ -35,7 +35,7 @@ Assign a configuration (R or S) to each of these compounds.
 
 **Answer (English)**: Carrying out the procedure given in the chapter: prioritize substituents 1-4 and deduce the configuration. In all cases '4' is H and goes at the back.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/006c0ea37d8eee29e0276b246dc431998eabe29f5f14b5818bb538f5a6a2b67b.jpg]]
+![[006c0ea37d8eee29e0276b246dc431998eabe29f5f14b5818bb538f5a6a2b67b.jpg]]
 
 (R)-2,2,2-三氟-1-(9-蒽基)乙醇
 

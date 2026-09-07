@@ -37,7 +37,7 @@ $$
 
 Suggest a mechanism for the reaction.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/f2e943e5337b783a6767e3c824bdec292e67d7324398037e686f1966ca71a177.jpg]]
+![[f2e943e5337b783a6767e3c824bdec292e67d7324398037e686f1966ca71a177.jpg]]
 
 ## 参考答案
 
@@ -45,7 +45,7 @@ Suggest a mechanism for the reaction.
 
 The hydroxide ion must attack the ketone to form a tetrahedral intermediate. The best leaving group from this intermediate is the hydroxide ion that has just come in (pKₐ of H₂O is about 15) rather than the alkyne anion. If we use the second hydroxide ion to deprotonate the intermediate, only one leaving group remains, though it is a poor one, and the decomposition of the dianion must be the rate-determining step. This mechanism is found for substitutions at the carbonyl group with very bad leaving groups, as in the hydrolysis of amides.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/1860ff2ce2316491c3450248094370d7bf54e7b031f43470a97ec93eb1a19f6f.jpg]]
+![[1860ff2ce2316491c3450248094370d7bf54e7b031f43470a97ec93eb1a19f6f.jpg]]
 
 **中文解析**：
 

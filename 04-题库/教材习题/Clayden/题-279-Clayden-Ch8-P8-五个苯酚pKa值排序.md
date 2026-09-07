@@ -27,7 +27,7 @@ source_grade: B
 
 Match the pKa values (4, 7, 9, 10, 11) to five phenols: 2,4-dinitrophenol, 4-nitrophenol, phenol, 2,4,6-trimethylphenol, and 4-chlorophenol.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/c9934c67f5a8b1a653443651197868a7b45729661cd709ea8eda5727674da468.jpg]]
+![[c9934c67f5a8b1a653443651197868a7b45729661cd709ea8eda5727674da468.jpg]]
 
 **原文题目**：将pKa值（4、7、9、10、11）匹配到五个苯酚：2,4-二硝基苯酚、4-硝基苯酚、苯酚、2,4,6-三甲基苯酚和4-氯苯酚。
 
@@ -40,7 +40,7 @@ Match the pKa values (4, 7, 9, 10, 11) to five phenols: 2,4-dinitrophenol, 4-nit
 - Phenol (reference): pKa ≈ 10
 - 2,4,6-Trimethylphenol (three Me, electron-donating): pKa ≈ 11
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/d942a94085352dfe637b1d306f07f7755af89baa479b0d9bf95bcf8a9060980f.jpg]]
+![[d942a94085352dfe637b1d306f07f7755af89baa479b0d9bf95bcf8a9060980f.jpg]]
 
 **中文解析**：
 1. **电子效应规律**：吸电子基（EWG）增强苯酚酸性（降低pKa），给电子基（EDG）减弱酸性（升高pKa）。

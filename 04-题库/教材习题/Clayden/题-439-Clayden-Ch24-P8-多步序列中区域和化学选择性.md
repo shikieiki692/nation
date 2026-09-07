@@ -27,7 +27,7 @@ source_grade: B
 
 Comment on the regioselectivity and chemoselectivity of the reactions in the sequence below.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/9fed04216a57280fc0dfc898f39a822a210097e01dc7d7d3351de8b7fe0cd769.jpg]]
+![[9fed04216a57280fc0dfc898f39a822a210097e01dc7d7d3351de8b7fe0cd769.jpg]]
 
 **原文题目**：评论下列反应序列中各步反应的区域选择性和化学选择性。
 
@@ -37,15 +37,15 @@ Comment on the regioselectivity and chemoselectivity of the reactions in the seq
 
 **Step 1**: Benzyl bromide is a good electrophile and reacts well with alkoxides to make ethers. With neutral alcohols, the substitution is very slow, so only the more nucleophilic (and more basic) pyridine nitrogen is attacked, to make a pyridinium salt.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/243ca4fe2162813cdbd67781ebea90f7493a28b0d6386c3c0af7faaeae9614cc.jpg]]
+![[243ca4fe2162813cdbd67781ebea90f7493a28b0d6386c3c0af7faaeae9614cc.jpg]]
 
 **Step 2**: The pyridinium salt is like an iminium ion, so sodium borohydride attacks it at the C=N+ bond to make a neutral enamine. The enamine is protonated to make another iminium, which can then be reduced. The final double bond is safe from attack, since it is an isolated, electron-rich alkene.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/d3d209ee6c2946857f42ef642e4faabeff4ed3bb6850501864ed32a2517a4252.jpg]]
+![[d3d209ee6c2946857f42ef642e4faabeff4ed3bb6850501864ed32a2517a4252.jpg]]
 
 **Step 3**: Methyl chloroformate reacts with the pyridine N (most nucleophilic atom). Then Cl- attacks the benzylic carbon (most susceptible to nucleophilic substitution due to the adjacent pi system), giving the final product.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/e911b465a16b4502ac7fcec05cd8f3099ffc33fffe4fec6141b8c77aa9be634c.jpg]]
+![[e911b465a16b4502ac7fcec05cd8f3099ffc33fffe4fec6141b8c77aa9be634c.jpg]]
 
 **中文解析**：
 

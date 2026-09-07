@@ -28,7 +28,7 @@ source_grade: B
 
 The triketone shown here is called 'ninhydrin' and is used for the detection of amino acids. It exists in aqueous solution as a hydrate. Which ketone is hydrated and why?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/358c183c9e6597ff4912a3f0ac36c5027e17439f0d54a60b36d0af19007b8b43.jpg]]
+![[358c183c9e6597ff4912a3f0ac36c5027e17439f0d54a60b36d0af19007b8b43.jpg]]
 
 **原文题目**：如图所示的三酮叫"茚三酮"，用于检测氨基酸。它在水溶液中以水合物形式存在。哪个酮被水合了？为什么？
 
@@ -36,7 +36,7 @@ The triketone shown here is called 'ninhydrin' and is used for the detection of 
 
 **Answer (English)**: The two ketones next to the benzene ring are stabilized by conjugation with it but also destabilized by the central ketone — two electron-withdrawing groups next to each other is a bad thing. The central carbonyl group is not stabilized by conjugation and is destabilized by two other ketones so it forms the hydrate. Did you remember that hydrate formation is thermodynamically controlled?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/c3080680046891eb63b2ac2273e88de681b81d296a2748ee4dde723d6f054d59.jpg]]
+![[c3080680046891eb63b2ac2273e88de681b81d296a2748ee4dde723d6f054d59.jpg]]
 
 **中文解析**：
 

@@ -51,29 +51,29 @@ source_grade: A
 
 以下正离子可以经过 $4\pi$ 电子体系的电环化反应形成环戊烯正离子，该离子可以失去质子形成共轭烯烃：
 
-![[mineru/02-真题解析/32届初赛试题解析_images/81e56e7abb4aa444496b9dd51365437918aef2939cf531ec16b9d9953ee8aef1.jpg]]
+![[81e56e7abb4aa444496b9dd51365437918aef2939cf531ec16b9d9953ee8aef1.jpg]]
 
 根据以上信息，画出下列反应主要产物的结构简式（产物指经后处理得到的化合物）。提示：i-Pr 是异丙基，n-Pr 是正丙基，$\mathrm{AlCl}_{3}$ 和 $\mathrm{TiCl}_{4}$ 是 Lewis 酸。
 
 10-1
 
-![[mineru/02-真题解析/32届初赛试题解析_images/556b2ec1342e65e1db1a6bae673d804e70385657a5403a0c3f15aacb50b58ed5.jpg]]
+![[556b2ec1342e65e1db1a6bae673d804e70385657a5403a0c3f15aacb50b58ed5.jpg]]
 
 10-2
 
-![[mineru/02-真题解析/32届初赛试题解析_images/0042a9dc88a7c400dc972ce1ae59e84f41c3bf92f3654bd9ff977240f7da6874.jpg]]
+![[0042a9dc88a7c400dc972ce1ae59e84f41c3bf92f3654bd9ff977240f7da6874.jpg]]
 
 10-3
 
-![[mineru/02-真题解析/32届初赛试题解析_images/73accc5aaf9d7eff695e6a35c4a40a3dedc4f379744f59d8d72ed7f87649860b.jpg]]
+![[73accc5aaf9d7eff695e6a35c4a40a3dedc4f379744f59d8d72ed7f87649860b.jpg]]
 
 10-4
 
-![[mineru/02-真题解析/32届初赛试题解析_images/77247a2d9f3b9133c1dae113733f508a942824963471947ac5f7facd655f81d5.jpg]]
+![[77247a2d9f3b9133c1dae113733f508a942824963471947ac5f7facd655f81d5.jpg]]
 
 10-5
 
-![[mineru/02-真题解析/32届初赛试题解析_images/7b1a6183b78b5306703928c77f533c81c213c11f3ef6b48131bfb5f6c307c9ea.jpg]]
+![[7b1a6183b78b5306703928c77f533c81c213c11f3ef6b48131bfb5f6c307c9ea.jpg]]
 
 ## 参考答案
 
@@ -87,7 +87,7 @@ source_grade: A
 
 10-1 比较苯环和烯烃的亲核和亲电性较为困难，相较而言，比较产物的稳定性更为直观：
 
-![[mineru/02-真题解析/32届初赛试题解析_images/52064ed745d1001bc86f843cdb19b0efd3eca9376158a6cf6ceb1194afc70c6e.jpg]]
+![[52064ed745d1001bc86f843cdb19b0efd3eca9376158a6cf6ceb1194afc70c6e.jpg]]
 
 ## 知识点映射
 
@@ -119,7 +119,7 @@ source_grade: A
 
 10-2 氧具有更强的给电子能力，因此电子从左侧双键流向右侧双键：
 
-![[mineru/02-真题解析/32届初赛试题解析_images/0042a9dc88a7c400dc972ce1ae59e84f41c3bf92f3654bd9ff977240f7da6874.jpg]]
+![[0042a9dc88a7c400dc972ce1ae59e84f41c3bf92f3654bd9ff977240f7da6874.jpg]]
 
 当然，也可以比较中间体碳正离子的稳定性和产物的稳定性：氧的给电子能力能够稳定碳正离子，氧和双键共轭也能使体系能量降低。
 
@@ -154,7 +154,7 @@ source_grade: A
 
 10-3 此小题是 Nazarov 反应的经典变体之一，通过银离子催化烯丙基二氯环丙烷的阳离子开环，也能得到类似的 $4\pi$ 电子体系正离子，发生 Nazarov 环化反应。
 
-![[mineru/02-真题解析/32届初赛试题解析_images/73accc5aaf9d7eff695e6a35c4a40a3dedc4f379744f59d8d72ed7f87649860b.jpg]]
+![[73accc5aaf9d7eff695e6a35c4a40a3dedc4f379744f59d8d72ed7f87649860b.jpg]]
 
 正丙基为给电子基团，氯为吸电子基团，根据上述方法可以非常容易得到 C 的结构。
 
@@ -193,11 +193,11 @@ source_grade: A
 
 (1) 反应机理中，电子从一个烯基流向另一个烯基。因此，我们可以将原料中的两个烯基区分为亲核烯基和亲电烯基。根据取代基的给电子性或吸电子性，我们就能判断出电子流动的方向，从而得到最终产物的正确结构。
 
-![[mineru/02-真题解析/32届初赛试题解析_images/7832965352a9bb10f9d6d2fe6f650f2a49cb305116f1d10ca804f9c0f53edf37.jpg]]
+![[7832965352a9bb10f9d6d2fe6f650f2a49cb305116f1d10ca804f9c0f53edf37.jpg]]
 
 (2) Nazarov 反应终究是一个碳正离子重排的过程，因此根据关键中间体碳正离子的稳定性或产物的稳定性，也能推断产物的结构。
 
-![[mineru/02-真题解析/32届初赛试题解析_images/fb3e0dc9bfff1b9eed3359fe78620f1a579ce0e4477be2a54f89960fb90555ac.jpg]]
+![[fb3e0dc9bfff1b9eed3359fe78620f1a579ce0e4477be2a54f89960fb90555ac.jpg]]
 
 ## 知识点映射
 

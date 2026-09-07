@@ -27,9 +27,9 @@ source_grade: B
 
 How extensive is the conjugated system(s) in these compounds?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/edb02e9b2197242317bfc38bd8bba80d7def1f198c7b224b0ddda1a95f171769.jpg]]
+![[edb02e9b2197242317bfc38bd8bba80d7def1f198c7b224b0ddda1a95f171769.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/9997bbc0f2b16eb360ce35a0d0d4a35699d55320571b473bc7412fcd4c8cb7c1.jpg]]
+![[9997bbc0f2b16eb360ce35a0d0d4a35699d55320571b473bc7412fcd4c8cb7c1.jpg]]
 
 **原文题目**：How extensive is the conjugated system(s) in these compounds?
 
@@ -37,7 +37,7 @@ How extensive is the conjugated system(s) in these compounds?
 
 **Answer (English)**: Both compounds are completely conjugated: even including the nitrogen atom in the first and the carbonyl group in the second. You can draw the arrows going either way round the ring to give different ways of writing the same structure. The arrows on the second compound should end on the carbonyl oxygen.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/a8e9c68c5d040466fe4a95ae9e47efa5e3ad145e5b80f3b32beef1f42da0ac48.jpg]]
+![[a8e9c68c5d040466fe4a95ae9e47efa5e3ad145e5b80f3b32beef1f42da0ac48.jpg]]
 
 **中文解析**：
 

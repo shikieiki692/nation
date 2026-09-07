@@ -27,7 +27,7 @@ source_grade: B
 
 This reaction sequence can be used to make enantiomerically enriched amino acids. Which compound is the origin of the chirality and how is it made? Suggest why this particular enantiomer of the product amino acid might be formed. Suggest reagents for the last stages of the process. Would the enantiomerically enriched starting material be recovered?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/3f0999c90c261ca36a937ecd3095c9dbb9a29eaa63afee94e2cef05b10f2ea5e.jpg]]
+![[3f0999c90c261ca36a937ecd3095c9dbb9a29eaa63afee94e2cef05b10f2ea5e.jpg]]
 
 **原文题目**：This reaction sequence can be used to make enantiomerically enriched amino acids. Which compound is the origin of the chirality and how is it made? Suggest why this particular enantiomer of the product amino acid might be formed. Suggest reagents for the last stages of the process. Would the enantiomerically enriched starting material be recovered?
 
@@ -35,15 +35,15 @@ This reaction sequence can be used to make enantiomerically enriched amino acids
 
 **Answer (English)**: The amine, phenylethylamine, is the origin of the chirality. It is easily made by resolution, for example by crystallizing the salt of the racemic amine with tartaric acid. This means that both enantiomers are readily available.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/c6f7e8a677357e9b89ebc5424f29715c0064bbbb1f8c1e59731516febc3495ae.jpg]]
+![[c6f7e8a677357e9b89ebc5424f29715c0064bbbb1f8c1e59731516febc3495ae.jpg]]
 
 The last stages of the process require cleavage of one C–N bond and hydrolysis of the nitrile. It will be important to do this without racemizing the newly created centre.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/56d7bbf449a0ba3202291385de2c413887b8551e017231e788d1d0083111ab95.jpg]]
+![[56d7bbf449a0ba3202291385de2c413887b8551e017231e788d1d0083111ab95.jpg]]
 
 The C–N bond can be cleaved reductively by hydrogenation as it is an N-benzyl bond. This would also hydrogenate the nitrile so that must first be hydrolysed using acid or base, as weak as possible. The starting material is not recovered and the chirality is lost as the by-product is just ethyl benzene, the nitrogen atom being transferred to the product.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/4caf918704f3485195ed5db1fd96f8a86c71bf08410eb11ef6195b7f570990c6.jpg]]
+![[4caf918704f3485195ed5db1fd96f8a86c71bf08410eb11ef6195b7f570990c6.jpg]]
 
 **中文解析**：
 

@@ -27,7 +27,7 @@ source_grade: B
 
 Predict the success or failure of these attempted substitutions at the carbonyl group. You should use estimated $pK_{a}$ values in your answer and, of course, draw mechanisms.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/f495c044dbb9a25e2e156ddbe39b31c0d9f8c932cd684e758e42c58ba43145e3.jpg]]
+![[f495c044dbb9a25e2e156ddbe39b31c0d9f8c932cd684e758e42c58ba43145e3.jpg]]
 
 **原文题目**：Predict the success or failure of these attempted substitutions at the carbonyl group. You should use estimated $pK_{a}$ values in your answer and, of course, draw mechanisms.
 
@@ -35,9 +35,9 @@ Predict the success or failure of these attempted substitutions at the carbonyl 
 
 **Answer (English)**: You need to draw mechanisms for the formation of the tetrahedral intermediate and check that it is in the right protonated form. Then you need to check which potential leaving group is the best, using appropriate estimated $pK_{a}$ values. The first and the last proposals will succeed but the second will not as chloride ion is a better leaving group than even a protonated amine and this reaction would go backwards.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/2b9f245fb7145f6aed3303247b17e965cbe7aa4219762818134c462ce1332229.jpg]]
+![[2b9f245fb7145f6aed3303247b17e965cbe7aa4219762818134c462ce1332229.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/5701921b863c19e8a12c8ba85323f91df6cb70332f5c86d84ff0089a7bb2b46e.jpg]]
+![[5701921b863c19e8a12c8ba85323f91df6cb70332f5c86d84ff0089a7bb2b46e.jpg]]
 
 **中文解析**：
 

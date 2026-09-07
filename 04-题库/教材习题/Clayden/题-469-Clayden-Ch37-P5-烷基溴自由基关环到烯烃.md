@@ -27,7 +27,7 @@ source_grade: B
 
 Propose a mechanism for this reaction accounting for the selectivity. Include a conformational drawing of the product.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/1ec07377ad3aca92d028c74e80305644541528956510f763489c799049fe1c64.jpg]]
+![[1ec07377ad3aca92d028c74e80305644541528956510f763489c799049fe1c64.jpg]]
 
 **原文题目**：Propose a mechanism for this reaction accounting for the selectivity. Include a conformational drawing of the product.
 
@@ -35,11 +35,11 @@ Propose a mechanism for this reaction accounting for the selectivity. Include a 
 
 **Answer (English)**: This time AIBN abstracts the hydrogen from Bu₃SnH and the tin radicals carry the chain along. First they remove the bromine atom from the starting material to make a vinyl radical that cyclizes onto the unsaturated ketone to give a radical stabilized by conjugation with the carbonyl group. The chain is completed by abstraction of hydrogen from another molecule of Bu₃SnH, the tin radical formed then allowing the cycle to restart.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/9e22d3622921681adabcfef225e1108b2bd8c157c29846061cf6e380378000ff.jpg]]
+![[9e22d3622921681adabcfef225e1108b2bd8c157c29846061cf6e380378000ff.jpg]]
 
 The stereochemistry of the product comes from the requirement of a 1,3-bridge to be diaxial as this is the only way the bridge can reach across the ring. At the moment of cyclization, the vinyl radical side chain must be in an axial position.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/75963cc8da3deb5a7f5d4644b62e70d6310aea2357c27ace1edb99144ff0f375.jpg]]
+![[75963cc8da3deb5a7f5d4644b62e70d6310aea2357c27ace1edb99144ff0f375.jpg]]
 
 **中文解析**：
 

@@ -27,7 +27,7 @@ source_grade: B
 
 Draw mechanisms for the formation of this enamine, its reaction with the alkyl halide, and the hydrolysis of the product.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/e589a7e8cbc91c437f092a18599db9e2849dc44335ce780bdd1c93be0a48063a.jpg]]
+![[e589a7e8cbc91c437f092a18599db9e2849dc44335ce780bdd1c93be0a48063a.jpg]]
 
 **原文题目**：Draw mechanisms for the formation of this enamine, its reaction with the alkyl halide, and the hydrolysis of the product.
 
@@ -37,21 +37,21 @@ Draw mechanisms for the formation of this enamine, its reaction with the alkyl h
 
 **Enamine formation mechanism:**
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/81068ed1039fd4f52dd835d4941f752f10e506cf162450d1365d0bfb1e07dd50.jpg]]
+![[81068ed1039fd4f52dd835d4941f752f10e506cf162450d1365d0bfb1e07dd50.jpg]]
 
 **Enamine reaction with alkyl halide:**
 
 The reaction of the enamine with the alkyl halide goes as expected — these very good SN2 electrophiles work particularly well with enamines and the first product under the reaction conditions is another enamine.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/0b4ef4b91ed34b940c21176c3548c943d284f072a30771e8cdc534c35eb60f25.jpg]]
+![[0b4ef4b91ed34b940c21176c3548c943d284f072a30771e8cdc534c35eb60f25.jpg]]
 
 **Hydrolysis of the product:**
 
 Finally the enamine is hydrolysed by reprotonation to the same iminium salt and addition of water. These steps are the exact reverse of what happens in enamine formation.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/bfbc62ae2e07d71afa6bf0acc6330be15b194140ee98fb7bb70b2e020d821154.jpg]]
+![[bfbc62ae2e07d71afa6bf0acc6330be15b194140ee98fb7bb70b2e020d821154.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/3a27362cb85c01d15f9e8f05f3e2565aca34b0fa3402d7b83ccbf1d3aa3516ab.jpg]]
+![[3a27362cb85c01d15f9e8f05f3e2565aca34b0fa3402d7b83ccbf1d3aa3516ab.jpg]]
 
 **中文解析**：
 

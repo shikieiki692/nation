@@ -30,7 +30,7 @@ source_grade: B
 **【原文】**
 Explain why the synthesis of pentan-1,4-diol fails in two cases: (1) using 2 equivalents of Grignard, (2) using excess Grignard. OH (pKa ~ 16) protonates Grignard reagent.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/3ad8c56813b6a5be5d9f7045a4c08d1f7fc5dcd92cf1a091f7fc60277e484402.jpg]]
+![[3ad8c56813b6a5be5d9f7045a4c08d1f7fc5dcd92cf1a091f7fc60277e484402.jpg]]
 
 ## 参考答案
 
@@ -40,9 +40,9 @@ Explain why the synthesis of pentan-1,4-diol fails in two cases: (1) using 2 equ
 - Case 2 (excess Grignard): Intramolecular deprotonation kills the reaction before addition can occur.
 - Solution: Use a protecting group (e.g., THP or silyl ether) to mask the OH groups before Grignard addition.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/e5763910c5fcd912e49d3a6683364b38d7d1db7983598453acf971c6d20ac25b.jpg]]
+![[e5763910c5fcd912e49d3a6683364b38d7d1db7983598453acf971c6d20ac25b.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/f39e1c05a589086880f1341ca0fbaa731a14e501ebc7fe04e8a5eb84e2c9f263.jpg]]
+![[f39e1c05a589086880f1341ca0fbaa731a14e501ebc7fe04e8a5eb84e2c9f263.jpg]]
 
 **中文解析**：
 1. **Grignard试剂的碱性**：RMgX是极强碱（共轭酸RH的pKa ~ 50），远强于任何醇（pKa ~ 16）。Grignard会优先质子化OH而不是进行亲核加成。

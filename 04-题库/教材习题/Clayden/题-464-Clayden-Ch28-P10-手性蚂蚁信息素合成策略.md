@@ -31,7 +31,7 @@ source_grade: B
 **【原文】**
 A synthesis of this enantiomerically pure ant pheromone was required for the purposes of pest control. Given a supply of the enantiomerically pure alkyl bromide as a starting material, suggest a synthesis of the pheromone.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/ac971919e1537465d38262ff96bd54bdb33a2f908f0a1878329dd2878326c646.jpg]]
+![[ac971919e1537465d38262ff96bd54bdb33a2f908f0a1878329dd2878326c646.jpg]]
 
 ## 参考答案
 
@@ -40,7 +40,7 @@ A synthesis of this enantiomerically pure ant pheromone was required for the pur
 We know what the disconnection must be, since we have been given one starting material. This looks like an enolate alkylation, and we need to use a specific enolate to stop the ketone self-condensing. The best enolate equivalent will be one that is not too basic, to avoid competing elimination. The simplest solution is probably to use a keto-ester, easily made by Claisen condensation with diethyl carbonate. After alkylation, the ester group is removed by decarboxylation.
 
 Analysis:
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/c4075cb84eb6a6a34fb93f53d03ebe18ef0439225ff7dde99b8e494e902478fb.jpg]]
+![[c4075cb84eb6a6a34fb93f53d03ebe18ef0439225ff7dde99b8e494e902478fb.jpg]]
 
 **中文解析**：
 

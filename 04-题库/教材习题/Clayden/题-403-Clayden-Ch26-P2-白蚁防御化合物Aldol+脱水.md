@@ -27,7 +27,7 @@ source_grade: B
 
 Propose mechanisms for the 'aldol' and dehydration steps in the termite defence compound presented on p. 623 in the textbook.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/92d4ea00869949f3d16e0c9c8650f3d2f2eaf2be9333a2aeb2a759f7e5e8190a.jpg]]
+![[92d4ea00869949f3d16e0c9c8650f3d2f2eaf2be9333a2aeb2a759f7e5e8190a.jpg]]
 
 **原文题目**：Propose mechanisms for the 'aldol' and dehydration steps in the termite defence compound presented on p. 623 in the textbook.
 
@@ -35,11 +35,11 @@ Propose mechanisms for the 'aldol' and dehydration steps in the termite defence 
 
 **Answer (English)**: The nitro group is twice as electron-withdrawing as a carbonyl group so it will readily form an 'enolate.' It cannot self-condense as nucleophilic attack rarely occurs on nitro groups so it attacks the aldehyde instead. Notice that the alkoxide product is basic enough to deprotonate another molecule of nitromethane so the reaction is catalytic in base.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/39a721a96c3cec2150a46ebd25edee5bd5c70abb24b236a73c5a9a56dc204ffa.jpg]]
+![[39a721a96c3cec2150a46ebd25edee5bd5c70abb24b236a73c5a9a56dc204ffa.jpg]]
 
 The elimination step involves acylation of the hydroxyl group and an E1cB elimination again driven by the 'enolate' of the nitro group. Note that pyridine, a weak base, is strong enough.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/807cb6c989403ade1dceb057c67d8d9d1ef4c46da5e6712648fd279298ad36f1.jpg]]
+![[807cb6c989403ade1dceb057c67d8d9d1ef4c46da5e6712648fd279298ad36f1.jpg]]
 
 **中文解析**：
 

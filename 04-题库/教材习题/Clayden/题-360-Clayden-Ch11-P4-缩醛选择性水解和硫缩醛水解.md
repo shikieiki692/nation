@@ -27,7 +27,7 @@ source_grade: B
 
 In the textbook (p. 104) we showed you a selective hydrolysis of an acetal. Why were the other acetals (one is a thioacetal) not affected by this treatment? How would you hydrolyse them? Chloroform (CHCl₃) is the solvent.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/46f5178d5eba9c090f9085e3ed44182aba086557461591603ed1ee1378bd6630.jpg]]
+![[46f5178d5eba9c090f9085e3ed44182aba086557461591603ed1ee1378bd6630.jpg]]
 
 **原文题目**：Explain the selective hydrolysis of one acetal in the presence of other acetals and a thioacetal, and suggest conditions to hydrolyse the remaining protecting groups.
 
@@ -35,7 +35,7 @@ In the textbook (p. 104) we showed you a selective hydrolysis of an acetal. Why 
 
 **Answer (English)**: Cyclic acetals are more stable than non-cyclic ones as we explain on p. 228 of the textbook. Hydrolysis needs more vigorous conditions. Thioacetals are much harder to hydrolyse because sulfides are even less basic than ethers. They can be hydrolysed using electrophiles that attack sulfur readily, such as Hg(II) or methylating agents. This is one possible solution:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/a45180c8afe6ec35f13edee701d41703180f64f561a10b4dda939683982217d4.jpg]]
+![[a45180c8afe6ec35f13edee701d41703180f64f561a10b4dda939683982217d4.jpg]]
 
 **中文解析**：
 

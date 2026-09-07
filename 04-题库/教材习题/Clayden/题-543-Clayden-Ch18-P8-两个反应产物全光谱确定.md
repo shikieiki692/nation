@@ -27,7 +27,7 @@ source_grade: B
 
 Suggest structures for the products of these two reactions.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/f59c9b198e81d11ae5cdc4dfa3f8a170950a0eb0987e16c49b6ccd4c6d02db37.jpg]]
+![[f59c9b198e81d11ae5cdc4dfa3f8a170950a0eb0987e16c49b6ccd4c6d02db37.jpg]]
 
 **Compound A:**
 m/z 170 (M⁺, 1%), 84 (77%), and 66 (100%);
@@ -49,19 +49,19 @@ IR 1670, 1720 cm⁻¹;
 
 **Compound A** is much simpler so we start with that. The two reagents are C₅H₆O₄ and C₅H₈O₂; these add up to C₁₀H₁₄O₆ (230) so 60 has been lost. This looks like C₂H₄O₂ or, less likely (because it must be saturated—it has no double bond equivalents), C₃H₈O. If the first is right, A is C₈H₁₀O₄ which at least fits the proton NMR. The IR suggests two carbonyl groups. The ¹³C NMR shows only one, but there must be some symmetry as there are only five signals for eight carbon atoms. The only unsaturation we have identified is the two carbonyl groups so the signal at 105 ppm is very strange. It must be next to two oxygen atoms to have such a large shift. Either 22 or 105 must be the C of CMe₂. C₈H₁₀O₄ would have four double bond equivalents, so the last two degrees of unsaturation must be rings. The cyclopropane provides one and the other must link the two oxygen atoms in the second part-structure. So we have:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/36af6bafda5d470645b283bf748819da8678bfa2486f919b86d98edb37da9d64.jpg]]
+![[36af6bafda5d470645b283bf748819da8678bfa2486f919b86d98edb37da9d64.jpg]]
 
 This accounts for all the atoms in A so all we need to do is join these two fragments together! The carbonyls are arranged rather like those in cyclic anhydrides and the two carbonyl peaks must be the symmetric and antisymmetric stretches.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/7676ef62edb0628542b7ed741d616fda95ae49738cea2e7078b24b143b857543.jpg]]
+![[7676ef62edb0628542b7ed741d616fda95ae49738cea2e7078b24b143b857543.jpg]]
 
 **Compound B** has nitrogen in it (it has an odd molecular weight) and clearly has a benzene ring from the NMR spectra, so we can put down PhN (= 91) as part of the structure. It also has two carbonyl groups (in the IR the one at 1670 cm⁻¹ looks like an amide) and they are both acid derivatives (you can see that in the ¹³C NMR). There are three aliphatic carbons, two CH₂s and one CH. Adding that together gives C₁₁H₁₀NO₃ = 188 so there is 17 missing that looks like OH. Since we need a second acid derivative and the OH is the only remaining heteroatom, it must be a carboxylic acid. Given that the CH is a triplet, it must be joined to one of the CH₂ groups and, as they are both multiplets, they must be joined to each other. There is one double bond equivalent to account for and that must be a ring. So we have:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/d639d10b2b923aac4059e85d25bb18eebb73401c56728a01770d3d86bcd80f17.jpg]]
+![[d639d10b2b923aac4059e85d25bb18eebb73401c56728a01770d3d86bcd80f17.jpg]]
 
 To assemble these three fragments into a molecule we must plug the amide into the C₃ fragment and put the CO₂H group in the last free position. We can do this in two ways. Proton NMR distinguishes them. The end CH₂ is attached either to the nitrogen atom (which would give an estimated shift of 3.2 ppm) or to the carbonyl group (estimated shift 2.2 ppm) of the amide. The observed value (3.92) fits the first better. A similar estimate for the CH gives the same answer and the first structure is indeed correct.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/317a00f89eb66fe8142e26be6390e08ff634105bb2bf68a423883b72513e6779.jpg]]
+![[317a00f89eb66fe8142e26be6390e08ff634105bb2bf68a423883b72513e6779.jpg]]
 
 **中文解析**：
 

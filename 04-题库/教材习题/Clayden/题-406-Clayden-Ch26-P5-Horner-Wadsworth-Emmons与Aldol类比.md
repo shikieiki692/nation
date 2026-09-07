@@ -27,7 +27,7 @@ source_grade: B
 
 In what way does this reaction resemble an aldol reaction? Comment on the choice of base. How can the same product be made without using phosphorus chemistry?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/11fa41d17903644f4d180fd472a075c6ccd3c64af2f954e2bf0150026607d756.jpg]]
+![[11fa41d17903644f4d180fd472a075c6ccd3c64af2f954e2bf0150026607d756.jpg]]
 
 **原文题目**：In what way does this reaction resemble an aldol reaction? Comment on the choice of base. How can the same product be made without using phosphorus chemistry?
 
@@ -35,15 +35,15 @@ In what way does this reaction resemble an aldol reaction? Comment on the choice
 
 **Answer (English)**: The formation of an alkene and the loss of phosphorus are typical of a Wittig reaction but the formation of an unsaturated carbonyl compound using an enolate is very like an aldol reaction. The phosphonate ester reagent is also like a 1,3-dicarbonyl compound, with P replacing C. The very weak base used shows how stable the enolate must be. The enolate attacks the aldehyde, perhaps to form an intermediate oxyanion.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/50dd4a60b9ba59ab1a08575607a02e7bab6c071431ee20c23c0010353bdae85d.jpg]]
+![[50dd4a60b9ba59ab1a08575607a02e7bab6c071431ee20c23c0010353bdae85d.jpg]]
 
 There is no doubt that the next intermediate is formed. It is a stable four-membered ring (phosphorus likes 90° bond angles). Finally phosphorus captures oxygen (the P–O bond is very strong) eliminating the alkene in its preferred trans stereochemistry.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/0a870328e8cc7940955eea12000f3ee493c496e9c081f6cdea46cf299fa59384.jpg]]
+![[0a870328e8cc7940955eea12000f3ee493c496e9c081f6cdea46cf299fa59384.jpg]]
 
 The final product could also be made by the aldol condensation of a silyl enol ether and the same aldehyde. The silyl enol ether is the less substituted possibility so it will have to be made via the lithium enolate. The product will be the aldol itself and this can be dehydrated to the enone with TsOH.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/364fdd214cbdbb91e59931cfb9dc3212090c995d4618faeab96be4f8fbef0202.jpg]]
+![[364fdd214cbdbb91e59931cfb9dc3212090c995d4618faeab96be4f8fbef0202.jpg]]
 
 **中文解析**：
 

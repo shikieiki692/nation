@@ -36,7 +36,7 @@ source_grade: B
 
 **【原文】**A typical Darzens reaction involves the base-catalysed formation of an epoxide from an α-haloketone and an aldehyde. Suggest a mechanism consistent with the data below.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/57760558769410181a8991ffb6aec8dbc4c64db5fc5894778232a16f4c11425c.jpg]]
+![[57760558769410181a8991ffb6aec8dbc4c64db5fc5894778232a16f4c11425c.jpg]]
 
 (a) Rate expression: rate = k₃[PhCOCH₂Cl][ArCHO][EtO⁻]
 
@@ -44,7 +44,7 @@ source_grade: B
 
 (c) The following attempted Darzens reactions produced unexpected results:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/c76bf2da574ea73372cbb73b95a2c7df63ff87eb4d1bc8a8550f2e363c08f62f.jpg]]
+![[c76bf2da574ea73372cbb73b95a2c7df63ff87eb4d1bc8a8550f2e363c08f62f.jpg]]
 
 ## 参考答案
 
@@ -52,7 +52,7 @@ source_grade: B
 
 The ethoxide is not incorporated into the product but appears in the rate expression — its role must be as a base. We start by making the enolate of the chloroketone. This cannot be the slow step as the aldehyde appears in the rate expression. Then we attack the aldehyde with the enolate and close the epoxide ring by nucleophilic displacement of chloride.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/f7ef05950c198ca02ead6fcf05345668f96b83497062da72705ff8e40a33f3af.jpg]]
+![[f7ef05950c198ca02ead6fcf05345668f96b83497062da72705ff8e40a33f3af.jpg]]
 
 The rate expression: rate = k₃[PhCOCH₂Cl][ArCHO][EtO⁻]
 
@@ -66,11 +66,11 @@ The Hammett ρ = +2.5 shows a modest gain of electrons near the Ar group in the 
 
 With p-methoxybenzaldehyde: the enolate ignores the unreactive aldehyde and reacts with unenolized chloroketone instead.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/751f18a004295d70c2783e88c8421aa1a79e72d51def0a0d88ca29091dd880e0.jpg]]
+![[751f18a004295d70c2783e88c8421aa1a79e72d51def0a0d88ca29091dd880e0.jpg]]
 
 With salicylaldehyde: the phenolic OH exists as an anion under the reaction conditions, allowing O-alkylation by the chloroketone, followed by enolate formation and intramolecular aldol.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/a373b1d639a148376324487723c149bfffe352d6349f685cbe86646d756b84b8.jpg]]
+![[a373b1d639a148376324487723c149bfffe352d6349f685cbe86646d756b84b8.jpg]]
 
 **中文解析**：
 

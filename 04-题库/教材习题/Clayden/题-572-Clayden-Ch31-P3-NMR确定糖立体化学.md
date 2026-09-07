@@ -31,7 +31,7 @@ source_grade: B
 
 **【原文】**One of the sugar components of the antibiotic kijanimycin has the basic structure shown here and NMR spectrum given below. What is the stereochemistry? When you have deduced the structure, suggest which conformation the molecule will prefer.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/96dd7948bf57509a34f56b896b0cb8807c752ee583cacff3accd4ab08255218a.jpg]]
+![[96dd7948bf57509a34f56b896b0cb8807c752ee583cacff3accd4ab08255218a.jpg]]
 
 $\delta_{H}$ 1.33 (3H, d, J 6 Hz), 1.61* (1H, broad s), 1.87 (1H, ddd, J 14, 3, 3.5 Hz), 2.21 (1H, ddd, J 14, 3, 1.5 Hz), 2.87 (1H, dd, J 10, 3 Hz), 3.40 (3H, s), 3.99 (1H, dq, J 10, 3 Hz), 3.47 (3H, s), 4.24 (1H, ddd, J 3, 3, 3.5 Hz) and 4.79 (1H, dd, J 3.5, 1.5 Hz). The signal marked \* exchanges with D₂O.
 
@@ -54,11 +54,11 @@ $\delta_{H}$ 1.33 (3H, d, J 6 Hz), 1.61* (1H, broad s), 1.87 (1H, ddd, J 14, 3, 
 | 4.24 | 1H, ddd, J 3, 3, 3.5 | small J must be equatorial | H⁴ or H⁵ |
 | 4.79 | 1H, dd, J 3.5, 1.5 | small J must be equatorial | H¹ |
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/b0ee828c5344f6349ce15228b9ebaca2199d98f21c8d87ad95ff478b3612862b.jpg]]
+![[b0ee828c5344f6349ce15228b9ebaca2199d98f21c8d87ad95ff478b3612862b.jpg]]
 
 Since H⁶ is a 10 Hz doublet coupled with H⁵, we know that H⁵ is at 2.87 and is axial. This gives the entire assignment and the stereochemistry: H⁵ and H⁶ are axial; H¹ and H⁴ are equatorial. That is why there are no large vicinal (³J) couplings to the diastereotopic CH₂ group (H² and H³). All couplings not shown on the diagram are <4 Hz.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/b89b964612a685134f6bb38e686873abc300e8539c8da0121e4c02918321ab30.jpg]]
+![[b89b964612a685134f6bb38e686873abc300e8539c8da0121e4c02918321ab30.jpg]]
 
 **中文解析**：
 

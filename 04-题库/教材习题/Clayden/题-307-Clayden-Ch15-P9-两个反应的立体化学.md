@@ -30,7 +30,7 @@ source_grade: B
 **【原文】**
 Describe the stereochemistry of the products of these reactions.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/87007809c9f79da293fe63e92f9a01ae9b3cde9b77ed840adbaaf2141f5258ad.jpg]]
+![[87007809c9f79da293fe63e92f9a01ae9b3cde9b77ed840adbaaf2141f5258ad.jpg]]
 
 ## 参考答案
 
@@ -38,11 +38,11 @@ Describe the stereochemistry of the products of these reactions.
 
 The ester in the first example is removed by reduction leaving an oxyanion that cyclizes by intramolecular $S_{N}2$ reaction with inversion giving one diastereoisomer (cis) of the product. The product is achiral.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/a33d5b7c7c65692185b793e6a79e40d8d20b35e842718bea429363c4d12e0e6b.jpg]]
+![[a33d5b7c7c65692185b793e6a79e40d8d20b35e842718bea429363c4d12e0e6b.jpg]]
 
 The second case involves an intramolecular $S_{N}2$ reaction on one end of the epoxide. The reaction occurs stereospecifically with inversion and so one enantiomer of one diastereoisomer of the product is formed.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/95ab0cc0ceecf3eb6ced39dd746761f53b16a5862fb292b695540f5c7899dca5.jpg]]
+![[95ab0cc0ceecf3eb6ced39dd746761f53b16a5862fb292b695540f5c7899dca5.jpg]]
 
 **中文解析**：
 

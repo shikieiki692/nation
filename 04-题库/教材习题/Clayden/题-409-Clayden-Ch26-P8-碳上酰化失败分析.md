@@ -27,7 +27,7 @@ source_grade: B
 
 Attempted acylation at carbon often fails. What would be the actual products of these attempted acylations and how would you successfully make the target molecules?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/8c144b4da7cbd2bab60b1ba6cef746beda3a497f613b696825a32d4f9dac320f.jpg]]
+![[8c144b4da7cbd2bab60b1ba6cef746beda3a497f613b696825a32d4f9dac320f.jpg]]
 
 **原文题目**：Attempted acylation at carbon often fails. What would be the actual products of these attempted acylations and how would you successfully make the target molecules?
 
@@ -35,19 +35,19 @@ Attempted acylation at carbon often fails. What would be the actual products of 
 
 **Answer (English)**: In the first case we want the aldehyde to form an enolate and then attack the ester. The first part is all right: the aldehyde will form an enolate more readily than the ester. But under these equilibrating conditions, the small amount of enolate that is formed will react faster with the aldehyde than with the less electrophilic ester. The aldehyde will self-condense in an aldol reaction.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/ddc338e4628ff09f818218118ae202267d88cffd74af6392733d39bd9a8f13a4.jpg]]
+![[ddc338e4628ff09f818218118ae202267d88cffd74af6392733d39bd9a8f13a4.jpg]]
 
 To make the required compound we shall need to convert the aldehyde into a specific enol equivalent. There are various alternatives of which the best are an enamine or a silyl enol ether. Esters fail to acylate either and an acid chloride should be used instead. Don't forget the Lewis acid if you use the silyl enol ether.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/d711214768a202546e4e1adee5b2e2b34a537c2d6af3c1947ecac150eee26b32.jpg]]
+![[d711214768a202546e4e1adee5b2e2b34a537c2d6af3c1947ecac150eee26b32.jpg]]
 
 The enolate formation in the second example is a separate step and will work well because the two carbonyl groups cooperate in forming a stable enolate and NaOMe is quite strong enough to convert the diketone entirely into the enolate. The problem is the acylation step. With a sodium enolate and a reactive acylating agent such as PhCOCl, a charge-controlled (hard/hard) interaction will occur at the oxygen atom to give an enol ester.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/68e01984abb5daa5b7c91ec799b3987189b9a92f4d15d44dbe2265f36c551f9e.jpg]]
+![[68e01984abb5daa5b7c91ec799b3987189b9a92f4d15d44dbe2265f36c551f9e.jpg]]
 
 The escape route from this problem suggested in the chapter was to use a lithium or magnesium enolate. Magnesium is chelated by the two oxygen atoms of the stable enolate and blocks attack there so that C-acylation occurs even with acid chlorides.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/aef812604ddb4ba66eadc9c85c3590d6af35d6021598f4644937f1081e4d78f0.jpg]]
+![[aef812604ddb4ba66eadc9c85c3590d6af35d6021598f4644937f1081e4d78f0.jpg]]
 
 **中文解析**：
 

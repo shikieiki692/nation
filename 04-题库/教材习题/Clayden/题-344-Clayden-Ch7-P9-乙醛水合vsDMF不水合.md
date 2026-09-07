@@ -27,7 +27,7 @@ source_grade: B
 
 In aqueous solution, acetaldehyde (ethanal) is about 50% hydrated. Draw the structure of the hydrate of acetaldehyde. Under the same conditions, the hydrate of N,N-dimethylformamide is undetectable. Why the difference?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/e1019b5b3ec60dc934820900b5834fd954154264d3f42f78f7d8c80d52ab9279.jpg]]
+![[e1019b5b3ec60dc934820900b5834fd954154264d3f42f78f7d8c80d52ab9279.jpg]]
 
 **原文题目**：In aqueous solution, acetaldehyde (ethanal) is about 50% hydrated. Draw the structure of the hydrate of acetaldehyde. Under the same conditions, the hydrate of N,N-dimethylformamide is undetectable. Why the difference?
 
@@ -37,7 +37,7 @@ In aqueous solution, acetaldehyde (ethanal) is about 50% hydrated. Draw the stru
 
 As you saw in chapter 6, aldehydes are readily hydrated. For amides, however, there is a price to pay: the delocalization that contributes to the stability of the amide would be lost on hydration, so dimethylformamide is not hydrated in aqueous solution.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/64781fbf7a722764380955ed659b375aa3882cdc2f498a0e719bb960ef76b162.jpg]]
+![[64781fbf7a722764380955ed659b375aa3882cdc2f498a0e719bb960ef76b162.jpg]]
 
 **中文解析**：
 

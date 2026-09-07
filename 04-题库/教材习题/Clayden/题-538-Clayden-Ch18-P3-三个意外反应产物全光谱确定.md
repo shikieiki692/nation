@@ -27,9 +27,9 @@ source_grade: B
 
 Suggest structures for each of these reaction products, interpreting the spectroscopic data. You are not expected to give mechanisms for the reactions and you must resist the temptation to say what 'ought to happen'. These are all unexpected products.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/a666508e23bdcc8b94839ae5ed57c1e4ac377aed0e71a826b97f9f0f9aacc74a.jpg]]
+![[a666508e23bdcc8b94839ae5ed57c1e4ac377aed0e71a826b97f9f0f9aacc74a.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/94f46470cf7321b495609a62fc50d388ce0de45ebbc81ef066ace09579f5e701.jpg]]
+![[94f46470cf7321b495609a62fc50d388ce0de45ebbc81ef066ace09579f5e701.jpg]]
 
 **Purpose of the problem**: A common situation in real life — you carry out a reaction, isolate the product, and it's something quite different from what you were expecting. What is it?
 
@@ -39,23 +39,23 @@ Suggest structures for each of these reaction products, interpreting the spectro
 
 **Compound A**: has a carbonyl group (IR) that is an acid derivative (179 ppm in the ¹³C NMR). The 9H singlet in the proton NMR must be a t-Bu group and the 3H singlet at 3.67 ppm must be an OMe group. Putting these four fragments together we get a structure immediately. The IR is typical for an ester (1715 + 30 = 1745 cm⁻¹).
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/e56593900e044fb644194b04bf886f6f2e772599947f7ed1b48418f228a5f985.jpg]]
+![[e56593900e044fb644194b04bf886f6f2e772599947f7ed1b48418f228a5f985.jpg]]
 
 **Compound B**: again has an ester (1745 cm⁻¹ and 170 ppm) but it also has a ketone (1710 cm⁻¹ and 203 ppm). The proton NMR shows an OEt group (3H triplet and 2H quartet) together with another methyl group next to something electron-withdrawing (that can only be a C=O as there isn't anything else), and a CH₂ group with no coupling at 3.24 ppm. This is 2 ppm away from a 'normal' CH₂ but it can't be next to O as we've used up all the O atoms already. It must be between two electron-withdrawing groups. These can only be carbonyls so this CH₂ is isolated between the two carbonyls and we have the structure.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/471e4c008236fa639f5707fdbebe3586b38d430d1f8231fbe536b20baf288390.jpg]]
+![[471e4c008236fa639f5707fdbebe3586b38d430d1f8231fbe536b20baf288390.jpg]]
 
 **Compound C**: has no formula given, just a molecular ion in the mass spectrum. The most obvious formula is C₅H₁₀O₃ but S is 32 while O is 16 so it might be C₅H₁₀OS. We must look at the rest of the spectra for clarification. There is a carbonyl group (1730 cm⁻¹) that is an aldehyde or ketone (202 ppm). The proton NMR shows a CMe₂ group (6H, s), a methyl group at 2.8 ppm that doesn't look like an OMe (expected 3–3.5 ppm), but might be an SMe. The carbon spectrum also suggests SMe rather than OMe at 45 ppm, and one hydrogen atom at 9.8 ppm that looks like an aldehyde. We have these fragments:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/eb1490f8e55f43ef4dc13621cfd531042d27731cf5d028583ab828ca6e1d0c82.jpg]]
+![[eb1490f8e55f43ef4dc13621cfd531042d27731cf5d028583ab828ca6e1d0c82.jpg]]
 
 It is not possible to construct a molecule with two extra oxygen atoms but without an OMe, and those we could propose look rather unstable:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/baa344257c32f282fff64bd539e9e6a40ac1624d3435d1e4c3812f5d672622dd.jpg]]
+![[baa344257c32f282fff64bd539e9e6a40ac1624d3435d1e4c3812f5d672622dd.jpg]]
 
 Only one compound is possible if we have an S atom — this fits the data very much better and indeed is the correct structure. It has a genuine aldehyde (not a formate ester) and SMe fits better than OMe the signal at δH 2.8 ppm and δC 45 ppm.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/90384d3c7f2c068b2d0caa41f39c8033edafc250cedb8abb1f1dea8b2a47b84d.jpg]]
+![[90384d3c7f2c068b2d0caa41f39c8033edafc250cedb8abb1f1dea8b2a47b84d.jpg]]
 
 **中文解析**：
 

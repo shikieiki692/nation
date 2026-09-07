@@ -30,7 +30,7 @@ source_grade: B
 
 **【原文】**Treatment of this amine with base at low temperature gives an unstable anion that isomerizes to another anion above -35°C. Aqueous work-up gives a bicyclic amine. What are the two anions? Explain the stereochemistry of the product. In the NMR spectrum of the product the two protons in the grey box appear as an ABX system with $J_\mathrm{AB}$ 15.4 Hz. Comment.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/921b2e51ea6f75dc45c2603ae0bc9412643f986a7f3b960b875635180f4eb290.jpg]]
+![[921b2e51ea6f75dc45c2603ae0bc9412643f986a7f3b960b875635180f4eb290.jpg]]
 
 **原文题目**：Treatment of this amine with base at low temperature gives an unstable anion that isomerizes to another anion above -35°C. Aqueous work-up gives a bicyclic amine. What are the two anions? Explain the stereochemistry of the product. In the NMR spectrum of the product the two protons in the grey box appear as an ABX system with $J_\mathrm{AB}$ 15.4 Hz. Comment.
 
@@ -38,11 +38,11 @@ source_grade: B
 
 **Answer (English)**: The first anion A is formed by removal of the only possible proton: one from the NCH₂ group. This anion might be considered aromatic (six electrons from the three alkenes, two from N and two from the anion) but it is clearly unstable as it closes in an electrocyclic reaction at >-35°C. This is a six-electron process and must therefore be disrotatory. The rotating hydrogens are shown on the structure of A. It is essential that the 5,5 ring closure must be cis and that demands a disrotatory reaction. Both anions A and B are extensively delocalized and it is a matter of choice where you draw the anion.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/c34f4fb9c9bbe7fa4cc0d80ae26014da6eeaaaeabd3bd030cb9ad8d689000c52.jpg]]
+![[c34f4fb9c9bbe7fa4cc0d80ae26014da6eeaaaeabd3bd030cb9ad8d689000c52.jpg]]
 
 Anion B is protonated by water with preservation of the right hand aromatic ring. The final product is a chiral molecule having no plane of symmetry so the boxed CH₂ group is diastereotopic with $J_\mathrm{AB}$ 15.4 Hz. This is larger than usual because of the π-contribution: a neighbouring π-bond increases ²J by about 2 Hz.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/283b235706f6fa90d3802e3fcb5277103cc6ee46e50b1db6271f1d03e4d7e60a.jpg]]
+![[283b235706f6fa90d3802e3fcb5277103cc6ee46e50b1db6271f1d03e4d7e60a.jpg]]
 
 This study was originally aimed at finding out the nature of the starting material, A. G. Anastassiou and group, J. Chem. Soc., Chem. Commun., 1981, 647.
 

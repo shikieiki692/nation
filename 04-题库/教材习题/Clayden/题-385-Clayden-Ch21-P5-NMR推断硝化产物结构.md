@@ -34,15 +34,15 @@ Nitration of these compounds gives products with the ¹H NMR spectra shown. Dedu
 
 **Answer (English)**: The first product has only eight hydrogens so two nitro groups must have been added. The molecule is clearly symmetrical and the coupling constant is right for neighbouring hydrogens so a substitution on each ring must have occurred in the para position. Note that the hydrogen next to the nitro group has the larger shift. We can deduce that each benzene ring is an ortho,para-directing group on the other because the intermediate cation is stabilized by conjugation.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/8ea36b4354629a7fac83d2b9f2e0bb2d3885ead16e1b04b49ad3b5d59173919b.jpg]]
+![[8ea36b4354629a7fac83d2b9f2e0bb2d3885ead16e1b04b49ad3b5d59173919b.jpg]]
 
 The hydrogen count reveals that the next two products are mono-nitro compounds. There are two hydrogens ortho to nitro in the second compound and one of them also has a typical ortho coupling to a neighbouring hydrogen while the other has only a small coupling (2 Hz) which must be a meta coupling. Substitution has occurred para to one of the chlorines and ortho to the other. The chlorines are ortho,para-directing thus activating all remaining positions so steric hindrance must explain the site of nitration.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/8c56767cf4faa21f41960fe1b08d4261469e3c76d4c00f88b6bdbed61d13034d.jpg]]
+![[8c56767cf4faa21f41960fe1b08d4261469e3c76d4c00f88b6bdbed61d13034d.jpg]]
 
 The third compound has the extra complication of couplings to fluorine. The coupling of 7 Hz shown by one hydrogen and 6 Hz shown by the other must be to fluorine as they occur once only. The symmetry of the compound and the typical ortho coupling between the hydrogens (8 Hz) shows that para substitution must have occurred.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/955013b244f1d5c3a7e97621bdd55d33d1cb49634007744ae7e2e7aac22f30a5.jpg]]
+![[955013b244f1d5c3a7e97621bdd55d33d1cb49634007744ae7e2e7aac22f30a5.jpg]]
 
 **中文解析**：
 

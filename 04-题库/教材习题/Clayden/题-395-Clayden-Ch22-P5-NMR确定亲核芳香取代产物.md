@@ -27,7 +27,7 @@ source_grade: B
 
 What is the structure of the product of this reaction and how is it formed? It has δC 191, 164, 132, 130, 115, 64, 41, 29 and δH 2.32 (6H, s), 3.05 (2H, t, J 6 Hz), 4.20 (2H, t, J 6 Hz), 6.97 (2H, d, J 7 Hz), 7.82 (2H, d, J 7 Hz), 9.97 (1H, s). You should obviously interpret the spectra to get the structure.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/8d0bc0b23f642578383e9f188c6a7aa6cd0c0c5c97fa519006a1d3fe5394d7e5.jpg]]
+![[8d0bc0b23f642578383e9f188c6a7aa6cd0c0c5c97fa519006a1d3fe5394d7e5.jpg]]
 
 **原文题目**：Determine the structure of the SNAr product using ¹H and ¹³C NMR data. The reaction involves nucleophilic aromatic substitution with an amino alcohol on a fluorinated benzaldehyde.
 
@@ -35,11 +35,11 @@ What is the structure of the product of this reaction and how is it formed? It h
 
 **Answer (English)**: Summing the formulae of the two starting materials shows that this is a substitution of fluoride (the product is the sum of the starting materials less HF). The aldehyde is still there (from the IR and the proton at 10 ppm) so the spectra are best interpreted by this structure:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/a5d5381e4766fc69ad9a86c5f2dc387149aedf4d464bc1c9d0fd048bd9d0c8b1.jpg]]
+![[a5d5381e4766fc69ad9a86c5f2dc387149aedf4d464bc1c9d0fd048bd9d0c8b1.jpg]]
 
 That suggests a simple nucleophilic aromatic substitution by the addition-elimination mechanism with both F and CHO assisting the first step.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/e66ed62a71929723a32cd3e967253c979018442d185b45e733ae731f3c18a075.jpg]]
+![[e66ed62a71929723a32cd3e967253c979018442d185b45e733ae731f3c18a075.jpg]]
 
 **中文解析**：
 

@@ -38,11 +38,11 @@ source_grade: B
 
 **Answer (English)**: The abstraction of bromine, at first by AIBN and thereafter by Bu₃Sn· produces a radical that again does not eliminate but adds to an alkene. A five-membered ring is formed (this is usually the more favourable closure) by attack on the alkene on the opposite side from that occupied by the i-Pr group. The product is a mixture of diastereoisomers as no change occurs at the acetal centre.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/3512eed2cea6406843d80483ea62fcc225d2a01e1b262b42bb646666e52ee6be.jpg]]
+![[3512eed2cea6406843d80483ea62fcc225d2a01e1b262b42bb646666e52ee6be.jpg]]
 
 Acid-catalysed oxidation first hydrolyses the acetal and then oxidizes either the hemiacetal or the aldehyde to the lactone. Now the molecule is one diastereoisomer as the ambiguous centre is planar. The other form of selectivity is the ring size (see the textbook, p. 1000).
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/712bf2a7f9db1771f1ecf7adfea1fdc983493cc9a55b154bd82fb37c0e00dfdc.jpg]]
+![[712bf2a7f9db1771f1ecf7adfea1fdc983493cc9a55b154bd82fb37c0e00dfdc.jpg]]
 
 **中文解析**：
 

@@ -30,17 +30,17 @@ source_grade: B
 
 **【原文】**Give a mechanism for this carbonylation reaction. Comment on the stereochemistry and explain why the yield is higher if the reaction is carried out under a carbon monoxide atmosphere. Hence explain this synthesis of part of the antifungal compound pyrenophorin.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/7d913c21e35beccc2c3b6a03e3361932c8303b6f37d23890985a1aed1c38fb7a.jpg]]
+![[7d913c21e35beccc2c3b6a03e3361932c8303b6f37d23890985a1aed1c38fb7a.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/8aae7079f6d45c4e80a58e2dfe7e8076492f86147ae7430e5ea078b27d95f61c.jpg]]
+![[8aae7079f6d45c4e80a58e2dfe7e8076492f86147ae7430e5ea078b27d95f61c.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/bc4a46e334b24451c16e1ed1c6c5cfe4660b0c15140a954a3f19031006971157.jpg]]
+![[bc4a46e334b24451c16e1ed1c6c5cfe4660b0c15140a954a3f19031006971157.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The tin-palladium exchange (transmetallation) occurs with retention of configuration at the alkene. The exchange of the benzyl group for the benzoyl group is necessary to get the reaction started.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/d314267c137c9b8fd8bc3c6ac76188c813180c2bead30dcb9c52f6ac6c506a15.jpg]]
+![[d314267c137c9b8fd8bc3c6ac76188c813180c2bead30dcb9c52f6ac6c506a15.jpg]]
 
 Now the coupling can take place on the palladium atom producing the product and Pd(0) which can insert oxidatively into the C-Cl bond. Transmetallation sets up a sustainable cycle of reactions. It is better to have an atmosphere of carbon monoxide because the acyl palladium complex can give off CO and leave a PdPh σ-complex. The atmosphere of CO reverses this reaction.
 
@@ -48,11 +48,11 @@ Now the coupling can take place on the palladium atom producing the product and 
 
 The second sequence starts with a radical hydrostannylation giving the E-vinyl stannane preferentially if a slight excess of Bu₃SnH is used.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/10353bfbf8f4f655ff5ac326da0f6b9deb44f4835c3fe08c82b24e6ee82d3b0f.jpg]]
+![[10353bfbf8f4f655ff5ac326da0f6b9deb44f4835c3fe08c82b24e6ee82d3b0f.jpg]]
 
 Now the coupling with the acid chloride takes place as before though this time we have an aliphatic carbonyl complex. There is no problem with β-elimination as that would give a ketene. Again, the stereochemistry of the vinyl stannane is retained in the product.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/23ef30f9a9aad14400893b2513a2f9052a29a48ab0083155f3cbe46e4fa5e2ba.jpg]]
+![[23ef30f9a9aad14400893b2513a2f9052a29a48ab0083155f3cbe46e4fa5e2ba.jpg]]
 
 **中文解析**：
 

@@ -27,7 +27,7 @@ source_grade: B
 
 What would happen if you tried this short cut for the reactions in problems 8 and 9?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/e4766f6b373974659ca48bca0704e2cd1ee1b2e521289b9b2b37f50d580aca88.jpg]]
+![[e4766f6b373974659ca48bca0704e2cd1ee1b2e521289b9b2b37f50d580aca88.jpg]]
 
 **原文题目**：What would happen if you tried this short cut for the reactions in problems 8 and 9?
 
@@ -35,7 +35,7 @@ What would happen if you tried this short cut for the reactions in problems 8 an
 
 **Answer (English)**: Some aldehydes can be converted directly into lithium enolates but this is not usually very successful because the rate of reaction of the lithium enolate with the very electrophilic aldehyde is too great and at least some aldol reaction will occur.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/964553f140e2d1ba9db84ea4558e24d40ff6a32d175f4bdb4b0f7d10e87164bc.jpg]]
+![[964553f140e2d1ba9db84ea4558e24d40ff6a32d175f4bdb4b0f7d10e87164bc.jpg]]
 
 **中文解析**：
 

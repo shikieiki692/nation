@@ -31,7 +31,7 @@ source_grade: B
 **【原文】**
 Nitration of this heterocyclic compound with the usual HNO₃/H₂SO₄ mixture gives a single nitration product with the ¹H NMR spectrum shown below. Suggest which product is formed and why.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/4d8c1ce10957b7b854679ce4ff81456d463cb525a4af0c6485ee1d206e0d7509.jpg]]
+![[4d8c1ce10957b7b854679ce4ff81456d463cb525a4af0c6485ee1d206e0d7509.jpg]]
 
 δH: 3.04 (2H, t, J 7 Hz), 3.68 (2H, t, J 7 Hz), 6.45 (1H, d, J 8 Hz), 7.28 (1H, broad s), 7.81 (1H, d, J 1 Hz), 7.90 (1H, dd, J 8, 1 Hz)
 
@@ -39,7 +39,7 @@ Nitration of this heterocyclic compound with the usual HNO₃/H₂SO₄ mixture 
 
 **Answer (English)**: The two 2H triplets and the broad NH signal show that the heterocyclic ring is intact. One nitro group has been added to the benzene ring. The proton at 7.81 with only one small (meta) coupling must be between the nitro group and the other ring and is marked on the two possible structures. You could argue that NH is ortho, para-directing and so the second structure is more likely. But this is a risky argument as the reaction is carried out in strong acid solution where the nitrogen will mostly be protonated. It is safer to use the predicted δH from tables.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/fe4d6ca3ea01c52abf76fc48d52a099b2bc7452f8330525f5c9736ebbf025928.jpg]]
+![[fe4d6ca3ea01c52abf76fc48d52a099b2bc7452f8330525f5c9736ebbf025928.jpg]]
 
 **中文解析**：
 

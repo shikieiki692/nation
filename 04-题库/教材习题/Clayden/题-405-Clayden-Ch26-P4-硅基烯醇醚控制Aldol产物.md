@@ -29,17 +29,17 @@ source_grade: B
 
 **【原文】**How would you use a silyl enol ether to make this aldol product? Why is it necessary to use this particular intermediate? What would be the products be if the two carbonyl compounds were mixed and treated with base?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/0d8bc445a15a0e657699182bc14b5ed776ed36df60ff310ac1be06c6b67eed42.jpg]]
+![[0d8bc445a15a0e657699182bc14b5ed776ed36df60ff310ac1be06c6b67eed42.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: This is about the most difficult type of aldol reaction: two slightly different aldehydes, both enolizable, both capable of self-condensation. The only solution is to couple the silyl enol ether of one aldehyde with the other aldehyde using a Lewis acid as catalyst. This gives the aldol itself that can be dehydrated to the enal.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/814667b5c9bc9e4e24cf38ae908d5d32002f64c0f1d0340787e12b43bd8a850f.jpg]]
+![[814667b5c9bc9e4e24cf38ae908d5d32002f64c0f1d0340787e12b43bd8a850f.jpg]]
 
 Without this control, each aldehyde would self-condense and would condense with the other aldehyde giving four products in unpredictable amounts. One of the cross-condensation products is, of course, the enal we are trying to make.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/65af176daac48f051213d9cfa92805c452a80eacfac52fa2b4583871d062b9f7.jpg]]
+![[65af176daac48f051213d9cfa92805c452a80eacfac52fa2b4583871d062b9f7.jpg]]
 
 **中文解析**：
 

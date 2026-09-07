@@ -29,17 +29,17 @@ source_grade: B
 
 **【原文】**How would you convert this nitro compound into the two products shown? Explain the order of events with special regard for reduction steps.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/1e7c78a8530919faf130fe16e6f0cf9f993cad9ccb18b56abc2b34f67c64d490.jpg]]
+![[1e7c78a8530919faf130fe16e6f0cf9f993cad9ccb18b56abc2b34f67c64d490.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The nitro group must be reduced to an amino group and cyclized onto the ketone or the carboxylic acid. Reductive amination allows the amine to cyclize onto the more electrophilic ketone (five-membered ring):
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/e35428c3337d76f7ba93308e8b1d46fae72615c5c2eb9475d2d9402cce5a5118.jpg]]
+![[e35428c3337d76f7ba93308e8b1d46fae72615c5c2eb9475d2d9402cce5a5118.jpg]]
 
 Forming the six-membered ring requires more control. Protection of the ketone (as the acetal) before reduction will give the six-membered cyclic amide. Now the amide carbonyl must be reduced with LiAlH₄ and the ketone deprotected:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/db8d4b0afcf5abec999df8b2b7fbe42e71e88cb371a9ced541c39a52d698cea7.jpg]]
+![[db8d4b0afcf5abec999df8b2b7fbe42e71e88cb371a9ced541c39a52d698cea7.jpg]]
 
 **中文解析**：
 

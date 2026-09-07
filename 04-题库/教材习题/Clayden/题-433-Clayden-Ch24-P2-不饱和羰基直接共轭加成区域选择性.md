@@ -27,7 +27,7 @@ source_grade: B
 
 Predict the products of these reactions.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/2e29e9cc80729d22fcf0d4a703d95875d2cbd9cbbfe61544a77915ff4ac3b4a5.jpg]]
+![[2e29e9cc80729d22fcf0d4a703d95875d2cbd9cbbfe61544a77915ff4ac3b4a5.jpg]]
 
 **原文题目**：预测下列反应的产物。
 
@@ -35,7 +35,7 @@ Predict the products of these reactions.
 
 **Answer (English)**: Both reactions involve addition of organometallic compounds to unsaturated carbonyl compounds. The key difference is the metal. With Cu(I) as catalyst, the Grignard reagent will give conjugate addition in the first case. MeLi will give direct addition in the second.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/a22d1f831e713cd6a5f5958f96af5297d5254c2fa19a71bf0821af05f8d58285.jpg]]
+![[a22d1f831e713cd6a5f5958f96af5297d5254c2fa19a71bf0821af05f8d58285.jpg]]
 
 **中文解析**：
 

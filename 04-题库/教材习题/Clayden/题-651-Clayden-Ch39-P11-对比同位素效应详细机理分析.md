@@ -30,9 +30,9 @@ source_grade: B
 
 **【原文】**These two reactions of diazo compounds with carboxylic acids give gaseous nitrogen and esters as products. In both cases the rate of reaction is proportional to [diazo compound][RCO₂H]. Use the data for each reaction to suggest mechanisms and comment on the difference between them.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/73191cd339166a8cdd4c97e86fbef0d44a6684fb34765cf89db5567ea7f36c47.jpg]]
+![[73191cd339166a8cdd4c97e86fbef0d44a6684fb34765cf89db5567ea7f36c47.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/e9179f11d9471acb78c31d7615f8f00c64fa3d6493908c07dda512c49a94585f.jpg]]
+![[e9179f11d9471acb78c31d7615f8f00c64fa3d6493908c07dda512c49a94585f.jpg]]
 
 ## 参考答案
 
@@ -40,11 +40,11 @@ source_grade: B
 
 **Reaction 1 (normal KIE):** Protonation of carbon is rate-determining.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/ef2bc4752e1c5c3e3aae23deea6762f388694ec4ee6413b7ece414decea07ae7.jpg]]
+![[ef2bc4752e1c5c3e3aae23deea6762f388694ec4ee6413b7ece414decea07ae7.jpg]]
 
 **Reaction 2 (inverse KIE):** Fast equilibrium protonation, then SN2 displacement of N₂ is rate-determining.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/5614d8b31b7dc018b941f4b8ec547ca0c2346acfc1f66b3dc3451fab41bf8c85.jpg]]
+![[5614d8b31b7dc018b941f4b8ec547ca0c2346acfc1f66b3dc3451fab41bf8c85.jpg]]
 
 The second reaction follows much the same pathway except that loss of nitrogen is now difficult because the cation would be very unstable (primary and next to a CO₂Et group) so the second step is SN2 and rate-determining.
 

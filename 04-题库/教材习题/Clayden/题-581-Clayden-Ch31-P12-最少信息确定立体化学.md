@@ -29,7 +29,7 @@ source_grade: B
 
 **【原文】**A reaction produces two diastereoisomers of the product below: isomer A has $\delta_{H}$ 3.08 (1H, dt, J 4, 9, 9) and 4.32 (1H, d, J 9), while isomer B has $\delta_{H}$ 4.27 (1H, d, J 4). All other protons (except those of the Me groups) overlap in the NMR. Isomer B is converted into isomer A in base. What is the stereochemistry of A and B?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/fe9fd88ca549be66e44edc1262d1defac65207832b580d14cf8ecf26c01f8661.jpg]]
+![[fe9fd88ca549be66e44edc1262d1defac65207832b580d14cf8ecf26c01f8661.jpg]]
 
 **原文题目**：Determine the stereochemistry of isomers A and B with minimum NMR information.
 
@@ -37,11 +37,11 @@ source_grade: B
 
 **Answer (English)**: There are only two diastereoisomers and the difference in coupling constants is striking. The observed Hs must be those next to the functional groups. These compounds are not true cyclohexanes as they are flattened by the benzene ring and are best drawn as cyclohexenes. You should imagine the benzene ring coming towards you from the double bond.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/7a39def3a0b87b5caa4dfa6292d91eb4583ff1f1b7f42104e88513a34c44f375.jpg]]
+![[7a39def3a0b87b5caa4dfa6292d91eb4583ff1f1b7f42104e88513a34c44f375.jpg]]
 
 The two protons we can see in isomer A must be H¹ and H² as they have the largest shifts. The proton with only one coupling must be H¹ as it has only one neighbour H². The coupling between these two is 9 Hz so they must both be axial. Isomer A is therefore the trans compound. H² is a double triplet because it has two axial neighbours and one equatorial neighbour (H⁴). Isomer B shows H¹ alone and it is clearly equatorial (J 4) and so it must be the cis isomer.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/053cd647d7093989761b21a64d92f84286936d60716e85f9d81be429dc0c9058.jpg]]
+![[053cd647d7093989761b21a64d92f84286936d60716e85f9d81be429dc0c9058.jpg]]
 
 A reminder: we are showing only relative configuration here: NMR tells us nothing about whether we have one or both enantiomers of each diastereoisomer.
 

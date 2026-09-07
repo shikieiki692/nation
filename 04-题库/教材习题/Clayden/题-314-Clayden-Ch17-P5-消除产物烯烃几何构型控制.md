@@ -28,7 +28,7 @@ source_grade: B
 
 Explain the stereochemistry of the alkenes in the products of these reactions.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/93485f2f7c809e7088f44f1aa8ee64983b9e4a70dd911bb845acdbc95b16d872.jpg]]
+![[93485f2f7c809e7088f44f1aa8ee64983b9e4a70dd911bb845acdbc95b16d872.jpg]]
 
 **原文题目**：
 
@@ -42,7 +42,7 @@ The first reaction is stereospecific cis addition of hydrogen to an alkyne to gi
 
 The hydrogenation of alkynes to give cis alkenes is described on p. 537 of the textbook.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/75230ba68e5efb3f8b767872b6de8418cc6c45788d440ae908f581982cf13cc5.jpg]]
+![[75230ba68e5efb3f8b767872b6de8418cc6c45788d440ae908f581982cf13cc5.jpg]]
 
 **中文解析**：
 

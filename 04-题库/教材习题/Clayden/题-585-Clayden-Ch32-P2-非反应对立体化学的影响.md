@@ -27,17 +27,17 @@ source_grade: B
 
 Explain the stereochemistry of this sequence of reactions, noting the second step in particular.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/bbd34c82d03c95255c2e370937a3a46f0a6aa13412616eaf2f001a8b8af8101f.jpg]]
+![[bbd34c82d03c95255c2e370937a3a46f0a6aa13412616eaf2f001a8b8af8101f.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The hydrogenation will add a molecule of hydrogen in cis fashion to give what appears at first to be the wrong product.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/ee012dc3dd92f16ad3d464b0caa309f114e262cd23de65c5a9e85d20f422dac7.jpg]]
+![[ee012dc3dd92f16ad3d464b0caa309f114e262cd23de65c5a9e85d20f422dac7.jpg]]
 
 The second step is important as it changes the stereochemistry. Ethoxide will form the enolate of the ester reversibly and allow it to move to the outside, convex face of the folded molecule. Though neutral nitrogen is not normally a chiral centre because it undergoes rapid pyramidal inversion, here it is fixed by the need of the 5/5 fused system to have a cis ring junction. The last step is just reduction of the ester with no change in stereochemistry.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/a4f9219b8be7129a41daacaf298e2f5f3d15401f33c3132c89e019957e2e6230.jpg]]
+![[a4f9219b8be7129a41daacaf298e2f5f3d15401f33c3132c89e019957e2e6230.jpg]]
 
 **中文解析**：
 

@@ -30,7 +30,7 @@ source_grade: B
 
 **【原文】**Suggest mechanisms for these reactions and comment on their relevance to the Favorskii family of mechanisms.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/fc651cac79df0a8a577616911b2590d188f7f58f51122001df52a2a3a4736e9c.jpg]]
+![[fc651cac79df0a8a577616911b2590d188f7f58f51122001df52a2a3a4736e9c.jpg]]
 
 ## 参考答案
 
@@ -44,19 +44,19 @@ The bromination occurs on the alkene to give a dibromide. Then the standard Favo
 
 The stereochemistry of the initial bromination turns out to be irrelevant as it disappears when the oxyallyl cation is formed. The disrotatory closure of the oxyallyl cation goes preferentially one way with the H and CMe₂Br substituents going upwards.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/44e7382842108328558941bc84861beedb97412d350ac85f09668ea2fc8131d4.jpg]]
+![[44e7382842108328558941bc84861beedb97412d350ac85f09668ea2fc8131d4.jpg]]
 
 **Reaction 2: Normal Favorskii**
 
 The three-membered ring opens by departure of the more stable carbanion (doubly benzylic).
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/45ec6a9ff313a850762f1a7392b82e5fb17c405bdc7af6b62f41b6e74c46d146.jpg]]
+![[45ec6a9ff313a850762f1a7392b82e5fb17c405bdc7af6b62f41b6e74c46d146.jpg]]
 
 **Reaction 3: Nazarov-like electrocyclic trapping**
 
 The oxyallyl cation is intercepted by one of the benzene rings in a four-electron conrotatory electrocyclic reaction like the Nazarov reaction.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/daefc14fc3696e71309535c55d6e73dc45a6a8b6578347e3159f85ba183007a5.jpg]]
+![[daefc14fc3696e71309535c55d6e73dc45a6a8b6578347e3159f85ba183007a5.jpg]]
 
 Excess MeO⁻ drives the normal Favorskii by capturing the cyclopropanone. Without excess MeO⁻, the oxyallyl cation lasts long enough for the five-membered ring to form.
 

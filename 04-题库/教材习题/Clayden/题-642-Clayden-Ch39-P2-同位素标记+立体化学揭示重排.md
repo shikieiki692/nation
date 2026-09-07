@@ -30,17 +30,17 @@ source_grade: B
 
 **【原文】**Explain the stereochemistry and labelling pattern in this reaction.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/900a4fbabca19775882ab781f58434af311578c715d48b6c984d2ada9acd9f3f.jpg]]
+![[900a4fbabca19775882ab781f58434af311578c715d48b6c984d2ada9acd9f3f.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The randomization of the label and the racemization suggest that the carboxylate falls off the allyl cation and then comes back on again at either end. While they are detached the distinction between the two ends of both cation and anion disappears as they are delocalized.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/5ac68b0ae010b6e5c62f2d387b740c06c95ef42556eec44fb8f8b35008248f25.jpg]]
+![[5ac68b0ae010b6e5c62f2d387b740c06c95ef42556eec44fb8f8b35008248f25.jpg]]
 
 The product is racemic because the two intermediates each have a plane of symmetry and are achiral. The retention of relative stereochemistry (formation of the trans product from trans starting material) could result from stereoselective recombination or from the two ions sticking together as an ion pair so that the acetate slides across one face of the cation. An alternative [3,3] sigmatropic rearrangement would not randomize the labels in the same way.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/59a59f95418bc0842551835195e72d5aeb38fa29a6aa91891dd3ffd0f315e135.jpg]]
+![[59a59f95418bc0842551835195e72d5aeb38fa29a6aa91891dd3ffd0f315e135.jpg]]
 
 **中文解析**：
 

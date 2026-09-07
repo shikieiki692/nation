@@ -27,7 +27,7 @@ source_grade: B
 
 Give a mechanism for this side-chain extension of a pyridine.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/a4391adc97bc9a95f32b6e89d72d756e7ef76a7a958e5d4dbc271a1aff509f05.jpg]]
+![[a4391adc97bc9a95f32b6e89d72d756e7ef76a7a958e5d4dbc271a1aff509f05.jpg]]
 
 **原文题目**：Give a mechanism for the side-chain extension of a methylpyridine using LHMDS and an acylating agent.
 
@@ -35,7 +35,7 @@ Give a mechanism for this side-chain extension of a pyridine.
 
 **Answer (English)**: The strong base (LHMDS, lithium hexamethyldisilazide) removes a proton from the methyl group so that the anion is stabilized both by the nitrile and the pyridine nitrogen atom. Acylation occurs outside the ring to preserve the aromaticity. If you drew the lithium atom covalently bound to nitrogen, your answer is better than ours.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/b4a0b796756147b5dd1819b15202777021b00db29df58d16079f6b1ffe75cf74.jpg]]
+![[b4a0b796756147b5dd1819b15202777021b00db29df58d16079f6b1ffe75cf74.jpg]]
 
 **中文解析**：
 

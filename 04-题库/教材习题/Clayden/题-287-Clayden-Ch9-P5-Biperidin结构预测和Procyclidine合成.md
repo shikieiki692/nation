@@ -28,11 +28,11 @@ source_grade: B
 
 The antispasmodic drug biperidin is made by the Grignard addition reaction shown here. What is the structure of the drug? Do not be put off by the apparent complexity of the structure: just use the chemistry of Chapter 9.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/46b559c3b62ec893d7deb56ee0a4043e4ebbe4b43e20c5f8d46cfc98831d23b6.jpg]]
+![[46b559c3b62ec893d7deb56ee0a4043e4ebbe4b43e20c5f8d46cfc98831d23b6.jpg]]
 
 How would you suggest that the drug procyclidine should be made?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/f1536b4fc5e5759c9e38195b8bcd765b8c61708685033cecd106981e618fac16.jpg]]
+![[f1536b4fc5e5759c9e38195b8bcd765b8c61708685033cecd106981e618fac16.jpg]]
 
 **原文题目**：抗痉挛药物 Biperidin 通过所示的 Grignard 加成反应制备。该药物的结构是什么？不要被表面的复杂性吓倒——只需运用第9章的化学。你建议如何合成药物 Procyclidine？
 
@@ -40,8 +40,8 @@ How would you suggest that the drug procyclidine should be made?
 
 **Answer (English)**: A Grignard reagent must be formed from the alkyl bromide and this must add to the ketone. Aqueous acidic work-up gives a tertiary alcohol and that is biperidin. To get procyclidine, we must change both the alkyl halide and the ketone but the reaction is very similar.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/005d74277f134b5c93873997484b67ca0dab5c53442cde92785b543facb916e3.jpg]]
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/75d6db79d23f83a7447d780fa8ec49d3365cbea7c021c83bfc3809c417a7b07b.jpg]]
+![[005d74277f134b5c93873997484b67ca0dab5c53442cde92785b543facb916e3.jpg]]
+![[75d6db79d23f83a7447d780fa8ec49d3365cbea7c021c83bfc3809c417a7b07b.jpg]]
 
 **中文解析**：
 

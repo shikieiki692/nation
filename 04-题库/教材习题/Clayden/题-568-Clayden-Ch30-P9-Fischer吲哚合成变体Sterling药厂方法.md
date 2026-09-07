@@ -30,7 +30,7 @@ source_grade: B
 
 **【原文】**Suggest a synthesis for this compound.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/069bb8bd6fabaff790f9d25156966479fc210efc0af70fb8196d19df1774bd5c.jpg]]
+![[069bb8bd6fabaff790f9d25156966479fc210efc0af70fb8196d19df1774bd5c.jpg]]
 
 **原文题目**：Suggest a synthesis for this indole derivative. Consider the Fischer indole synthesis and the Sterling drug company approach to protecting the amino group.
 
@@ -38,15 +38,15 @@ source_grade: B
 
 **Answer (English)**: This looks very much like a perfect subject for the Fischer indole synthesis.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/cf9c59e1fef4923024922b4aa9215468f09d4ad9af22c10d6117cdae136ef67e.jpg]]
+![[cf9c59e1fef4923024922b4aa9215468f09d4ad9af22c10d6117cdae136ef67e.jpg]]
 
 We may wonder how we are going to have an amino group in that position on the keto ester. Surely it will cyclize onto the ester to form a lactam? One solution would be to protect it with a Boc group, but the solution found by the Sterling drug company was partly motivated by a desire to make a variety of compounds with different amine substituents. They chose hydroxyl as an easily replaceable group and accepted that the starting material would exist as a lactone.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/7e7694606bf6a4160bbad6436b0132eff3603d218212f0cdbe9d57d8eea85de4.jpg]]
+![[7e7694606bf6a4160bbad6436b0132eff3603d218212f0cdbe9d57d8eea85de4.jpg]]
 
 The first step is a typical Claisen ester condensation and the second is an acid-catalysed thermodynamically controlled transesterification (the lactone and ethyl ester exchange alcohol partners) to give the more stable six-membered lactone, followed by decarboxylation. Now the Fischer indole synthesis works well and work-up with dry HCl in methanol gave the alkyl chloride that could be displaced with amines to give a series of anti-depressants.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/36f9d3a475313fb7095c77c32b777a22b88fc7286cdff3247bc97e6f3b36c4bd.jpg]]
+![[36f9d3a475313fb7095c77c32b777a22b88fc7286cdff3247bc97e6f3b36c4bd.jpg]]
 
 **中文解析**：
 

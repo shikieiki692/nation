@@ -28,9 +28,9 @@ source_grade: B
 
 Suggest mechanisms for these eliminations. Why does the first give a mixture and the second a single product?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/aa6eeb7e7db6d9d44acfb6095186d26a99c0fae75416d49cf766c480b91aad0c.jpg]]
+![[aa6eeb7e7db6d9d44acfb6095186d26a99c0fae75416d49cf766c480b91aad0c.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/e4437a6855a4bad6b970d861681ab3b3bc3a161e0c5dbbb02f980918cbc758d6.jpg]]
+![[e4437a6855a4bad6b970d861681ab3b3bc3a161e0c5dbbb02f980918cbc758d6.jpg]]
 
 **原文题目**：
 
@@ -42,11 +42,11 @@ Suggest mechanisms for these eliminations. Why does the first give a mixture and
 
 Whether the first reaction is E1 or E2, there are two sets of hydrogen atoms that could be lost in the elimination. The conditions suggest E1 and the major product may be so because of equilibration.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/b005cc9e83b8eaba5db0090c7b0795bb950c416459af39ce291d7019e9829ded.jpg]]
+![[b005cc9e83b8eaba5db0090c7b0795bb950c416459af39ce291d7019e9829ded.jpg]]
 
 The second reaction produces a more stable tertiary cation from which any of six protons could be lost, but all give the same product. Repetition gives the diene.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/ee18433aa5369ae2f1ab2dbacb6d74cd8b97b81ebcb9e7d542b37ef8d176eea5.jpg]]
+![[ee18433aa5369ae2f1ab2dbacb6d74cd8b97b81ebcb9e7d542b37ef8d176eea5.jpg]]
 
 **中文解析**：
 

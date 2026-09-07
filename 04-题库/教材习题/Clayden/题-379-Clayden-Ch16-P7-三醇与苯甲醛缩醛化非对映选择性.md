@@ -31,13 +31,13 @@ source_grade: B
 **【原文】**
 Treatment of the triol below with benzaldehyde in acid solution produces one diastereoisomer of an acetal but none of the alternative acetal. Why is one acetal preferred? (Hint: what controls acetal formation?) What is the stereochemistry of the undefined centre in the acetal that is formed?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/7bb7cc532e903cf0a1dc6b227779b7a0f529b2d8339abfc7593b6057affb8a9f.jpg]]
+![[7bb7cc532e903cf0a1dc6b227779b7a0f529b2d8339abfc7593b6057affb8a9f.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: Acetal formation is thermodynamically controlled so we need look only for the most stable possible product. The one that is not formed is a cis-decalin as that would be significantly less stable than the trans-decalin that is formed. The phenyl group prefers to adopt an equatorial position and that will decide the stereochemistry as all the acetals are in equilibrium. The remaining OH has to be axial because of its configuration in the starting material.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/a11517d923f7b91606a38dc4ad066434c0086aedfc2848bb7720bffebeaa656f.jpg]]
+![[a11517d923f7b91606a38dc4ad066434c0086aedfc2848bb7720bffebeaa656f.jpg]]
 
 **中文解析**：
 

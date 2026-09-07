@@ -30,17 +30,17 @@ source_grade: B
 
 **【原文】**Suggest a mechanism for the formation of this cyclopropane. (An unusual type of carbene but it behaves normally.)
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/1e15d0b46c99eba57b695c947a53e70bc3fc3166788a28a1733e717c53b26399.jpg]]
+![[1e15d0b46c99eba57b695c947a53e70bc3fc3166788a28a1733e717c53b26399.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: There is no doubt that t-BuO⁻ is a base, but which proton does it remove? The OH proton perhaps, but that doesn't lead to a carbene. The proton on the alkyne? That molecule has a leaving group, but is it too far away?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/c4d3759a07d13fd9655a7b6d6400b0d22592d0999f136de4672a726d16e5bcd0.jpg]]
+![[c4d3759a07d13fd9655a7b6d6400b0d22592d0999f136de4672a726d16e5bcd0.jpg]]
 
 Not if you push the electrons through the molecule in a γ-elimination. Normal elimination is β-elimination: both α- and γ-elimination can produce carbenes. The arrows are easy to make sense of if you think of a carbene as a carbon with both a + and a – charge. The carbene is an allenyl carbene with no substituent at the carbene centre. It inserts into the alkene in the other molecule.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/d811d4f39f6b3824fa49698d22a4bdb71747a651d331c0a4cabd0930c527129b.jpg]]
+![[d811d4f39f6b3824fa49698d22a4bdb71747a651d331c0a4cabd0930c527129b.jpg]]
 
 **中文解析**：
 

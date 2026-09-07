@@ -29,7 +29,7 @@ source_grade: B
 
 **【原文】**The following sequences show parts of the syntheses of two different HIV protease inhibitors. What reagents are required for steps 1–4? (For steps 1 and 3, consider carefully how the stereochemistry of the product might be controlled.)
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/ab521808b57eae618fa04f585b99ef1a6833de659a8c2c6d082d5d525b72bece.jpg]]
+![[ab521808b57eae618fa04f585b99ef1a6833de659a8c2c6d082d5d525b72bece.jpg]]
 
 ## 参考答案
 
@@ -37,11 +37,11 @@ source_grade: B
 
 In fact, this step was carried out with KCN in the presence of a Lewis acid (Me₃Al) because the bulky benzyl groups prevent the nitrogen participating in chelation.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/38195a5d5c585f5771229b68a78fc56109f585eb04a4d61360ed2f9aff666092.jpg]]
+![[38195a5d5c585f5771229b68a78fc56109f585eb04a4d61360ed2f9aff666092.jpg]]
 
 In the second sequence, the nucleophile in step 3 must be a vinyl anion equivalent, maybe vinylmagnesium bromide. Comparison of the relative configuration of this product with the one above it immediately suggests that Felkin-Anh control is not operative here, since the opposite diastereoisomer is formed. Drawn below is the expected reactive conformation for a reaction involving chelation control: note that the acidic NH proton must be removed by any basic nucleophile. The outcome is correct: we need to achieve chelation control, so a magnesium counterion is a good choice (Mg²⁺ readily takes part in chelated transition states). The final C=C bond cleavage in step 4 can be achieved by ozonolysis.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/0e660f56a1f84d7fd6de7b0f93c9b91dec6c667e0200af6eda6adf6c0ae8de0e.jpg]]
+![[0e660f56a1f84d7fd6de7b0f93c9b91dec6c667e0200af6eda6adf6c0ae8de0e.jpg]]
 
 **中文解析**：
 

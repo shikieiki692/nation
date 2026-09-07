@@ -31,7 +31,7 @@ Predict the products of the addition of HCl to each of the following alkenes:
 2. 2-Methylpropene (CH₂=C(CH₃)₂)
 3. Styrene (PhCH=CH₂)
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/b378e5ac6c79f01882743a021d1fa1507a55b283a3418da1c6ba6654e1dd3700.jpg]]
+![[b378e5ac6c79f01882743a021d1fa1507a55b283a3418da1c6ba6654e1dd3700.jpg]]
 
 **原文题目**：
 
@@ -47,15 +47,15 @@ Predict the products of the addition of HCl to each of the following alkenes:
 
 1. **Propene**: HCl adds to give 2-chloropropane (CH₃CHClCH₃). The proton adds to the terminal carbon to give the secondary carbocation (more stable), which is then captured by Cl⁻.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/e605a863f6c30d7a74020a00ef52052a9b156f620dbdd820c2f01a1db11ed485.jpg]]
+![[e605a863f6c30d7a74020a00ef52052a9b156f620dbdd820c2f01a1db11ed485.jpg]]
 
 2. **2-Methylpropene**: HCl adds to give 2-chloro-2-methylpropane (t-BuCl, (CH₃)₃CCl). Protonation gives the tertiary carbocation, the most stable option.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/e3af42fda21dc5f906fa19c87502dd500c09692c87ea403e2039a7c59e60d983.jpg]]
+![[e3af42fda21dc5f906fa19c87502dd500c09692c87ea403e2039a7c59e60d983.jpg]]
 
 3. **Styrene**: HCl adds to give 1-chloro-1-phenylethane (PhCHClCH₃). Protonation at the terminal carbon gives the benzylic carbocation, stabilized by resonance with the benzene ring.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/0d8962dd79dde7f33045766c4a7399eb42a3594f8ff9674a20dfe164d621baf5.jpg]]
+![[0d8962dd79dde7f33045766c4a7399eb42a3594f8ff9674a20dfe164d621baf5.jpg]]
 
 **中文解析**：
 

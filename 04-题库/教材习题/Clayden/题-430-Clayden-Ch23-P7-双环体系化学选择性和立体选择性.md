@@ -30,13 +30,13 @@ source_grade: B
 
 **【原文】**Account for the chemoselectivity of the first reaction and the stereoselectivity of the second. A conformational drawing of the intermediate is essential.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/34b39bbfd8b9a9a6658fec3c1a8c5fdcfa459ecb2dc3e63209b4678d9ad8c140.jpg]]
+![[34b39bbfd8b9a9a6658fec3c1a8c5fdcfa459ecb2dc3e63209b4678d9ad8c140.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The two ketones are different only because one is conjugated. Since acetal formation is a thermodynamically controlled reversible reaction, the one that is formed retains the enone as the stabilizing effect of conjugation can be retained. A conformational diagram of the intermediate shows that there is inevitably one axial oxygen atom belonging to the acetal preventing the bottom face of the alkene from getting close to the catalyst. The axial methyl group is further away and more in the plane of the alkene. Hydrogen is delivered from the top face and the observed product results:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/e3a0c438ac0c772eee61f30313d82c86f780eb2185a9aa2bbadfe9d2e7ca6bcf.jpg]]
+![[e3a0c438ac0c772eee61f30313d82c86f780eb2185a9aa2bbadfe9d2e7ca6bcf.jpg]]
 
 The conformation of decalin is discussed on pp. 378–9 of chapter 16 of the textbook. The 'flattening' effect of the alkene is dealt with in chapter 32.
 

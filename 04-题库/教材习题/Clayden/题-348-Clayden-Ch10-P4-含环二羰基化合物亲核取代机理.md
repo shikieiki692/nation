@@ -33,11 +33,11 @@ Suggest mechanisms for these reactions.
 
 **Answer (English)**: In the first reaction there are two nucleophilic substitutions and you must decide which nucleophile attacks first. The amine is a better nucleophile than the alcohol. The cyclization occurs because, in the intermediate for the second substitution, there are two alcohols as potential leaving groups. Either can leave but when the ring opens again, the alcohol is still part of the molecule and will re-cyclize, but if the ethoxide leaves it is lost into solution and does not come back.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/de39e8dcb8b977980f73b02ac0951adb9c00c5d0e2d56c80dc28c65d15bcd2e4.jpg]]
+![[de39e8dcb8b977980f73b02ac0951adb9c00c5d0e2d56c80dc28c65d15bcd2e4.jpg]]
 
 The second reaction is more straightforward. The amide proton is quite acidic and will be removed by the base making a better nucleophile. Notice that in these suggested solutions we are using the shorthand of the double-headed arrow on the carbonyl group.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/a40ed7863416b4a9b8e49e916e155fd401d59a9bcc748b698c51bf42732b582d.jpg]]
+![[a40ed7863416b4a9b8e49e916e155fd401d59a9bcc748b698c51bf42732b582d.jpg]]
 
 **中文解析**：
 

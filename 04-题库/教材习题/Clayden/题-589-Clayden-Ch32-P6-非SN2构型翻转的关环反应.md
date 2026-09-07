@@ -30,21 +30,21 @@ source_grade: B
 
 **【原文】**Explain the stereoselectivity in these reactions.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/1f9df2f88d16b4695c4b4bd51e903ab000f2f1a221ae2513577d6af0b2732277.jpg]]
+![[1f9df2f88d16b4695c4b4bd51e903ab000f2f1a221ae2513577d6af0b2732277.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The first stereoselective reaction is surprising as it may appear that the initial alkylation decides the stereochemistry. But that is not the case. The ester enolate is very easily formed as it is stabilized by the pyridine ring and the nitrile as well as by the ester. Even a weakish base such as carbonate is good enough.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/56927987274bd31123092c2781c1cd531a20d3e3024f9badcd104bc2e8e78c9b.jpg]]
+![[56927987274bd31123092c2781c1cd531a20d3e3024f9badcd104bc2e8e78c9b.jpg]]
 
 The first intermediate produced by alkylation with the primary alkyl bromide (or the epoxide) has two stereogenic centres and will no doubt be formed as a mixture of diastereoisomers. But this doesn't matter as the enolate has to be reformed for the next alkylation, and that destroys one of the chiral centres.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/d332989d07dffc1c2667cd0c52996d20b65300c6e31dd0e7c3a289aefe4da00d.jpg]]
+![[d332989d07dffc1c2667cd0c52996d20b65300c6e31dd0e7c3a289aefe4da00d.jpg]]
 
 All now depends on the arrangement of the molecule for the cyclization step. The mechanism is straightforward enough but drawing the transition state is tricky. The vital feature is that the enolate carbon and the C–O bond of the epoxide must be collinear. The molecule folds so that the five-membered ring bends upwards away from the large pyridine ring.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/5eef77f938497772134a1ff26a67015e0b31ffed25f5b1326bc5ecb4d319fc14.jpg]]
+![[5eef77f938497772134a1ff26a67015e0b31ffed25f5b1326bc5ecb4d319fc14.jpg]]
 
 **中文解析**：
 

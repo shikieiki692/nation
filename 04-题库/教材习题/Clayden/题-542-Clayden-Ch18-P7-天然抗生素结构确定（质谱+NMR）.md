@@ -42,13 +42,13 @@ Mass spectrum 182 (M⁺, 9%), 109 (100%), and 74 (15%).
 
 **Answer (English)**: The solubility and salt formation suggest the presence of both acidic and basic groups, perhaps CO₂H and NH₂ as this is a natural compound. If so, the ¹³C peak at 170.2 ppm is the CO₂H group. The five carbons in the sp² region and protons at 8.0 and 8.4 suggest an aromatic ring, probably a pyridine. The mass spectrum gives an even molecular ion (182) so there must be another nitrogen atom beyond the one in the pyridine. The two sets of aliphatic protons are coupled and the large shift of the ¹H signal at 4.57 ppm suggests a proton between CO₂H and NH₃⁺ (pH <1). We have these fragments:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/495ba9372316ba887901d63ef9802787deced0717f6a876cf8071767f5356a48.jpg]]
+![[495ba9372316ba887901d63ef9802787deced0717f6a876cf8071767f5356a48.jpg]]
 
 Presumably the aliphatic part must be X or Y, and that leaves just one oxygen atom for a formula of C₈H₁₀N₂O₃ = 182. Only six of the ten H atoms show up in the NMR because the OH, NH₃⁺, and CO₂H protons all exchange rapidly at pH <1.
 
 ■ The details of the structure and spectra are in S. Inouye et al., Chem. Pharm. Bull., 1975, 23, 2669; S. R. Schow et al., J. Org. Chem., 1994, 59, 6850 and B. Ye and T. R. Burke, J. Org. Chem., 1995, 60, 2640.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/58c2b162e26cb5600f69a0d71e84e3695b2915436702e96ae3942cc99ad0a4cd.jpg]]
+![[58c2b162e26cb5600f69a0d71e84e3695b2915436702e96ae3942cc99ad0a4cd.jpg]]
 
 **中文解析**：
 

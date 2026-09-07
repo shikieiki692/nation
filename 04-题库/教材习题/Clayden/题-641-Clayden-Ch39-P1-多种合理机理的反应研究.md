@@ -29,7 +29,7 @@ source_grade: B
 
 **【原文】**Propose three fundamentally different mechanisms (other than variations of the same mechanism with different kinds of catalysis) for this reaction. How would (a) D labelling and (b) ¹⁸O labelling help to distinguish the mechanisms? What other experiments would you carry out to rule out some of these mechanisms?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/be2fd9f549d576b70e95a894d76f510276f48d6c743c28c1b82ffe5150cb7154.jpg]]
+![[be2fd9f549d576b70e95a894d76f510276f48d6c743c28c1b82ffe5150cb7154.jpg]]
 
 ## 参考答案
 
@@ -38,21 +38,21 @@ source_grade: B
 **Mechanism 1: Normal ester hydrolysis (BAC2)**
 Hydroxide attacks the carbonyl group directly, forming a tetrahedral intermediate, then the p-nitrophenoxide leaves.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/f1aaec5ca17739ac06510cc8090fde133c678cb683cfb23c5408555bc37a2b76.jpg]]
+![[f1aaec5ca17739ac06510cc8090fde133c678cb683cfb23c5408555bc37a2b76.jpg]]
 
 **Mechanism 2: Nucleophilic aromatic substitution (SNAr)**
 The ester oxygen is attached to an aromatic ring with a para nitro group. Hydroxide attacks the aromatic ring (ipso substitution), forming a Meisenheimer complex, then the ester group departs.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/49f07ae287275cdacade21c76cee83d0432b933483c6e439cc3a30e4093468c4.jpg]]
+![[49f07ae287275cdacade21c76cee83d0432b933483c6e439cc3a30e4093468c4.jpg]]
 
 **Mechanism 3: Enolate elimination to give a ketene**
 Hydroxide acts as a base to form an enolate from the ester, which undergoes elimination to give a ketene intermediate. Hydroxide then attacks the ketene as a nucleophile.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/6d9ccf0af871bf4f5606492ae21d9424450925bd92441481b52567f9508e16a6.jpg]]
+![[6d9ccf0af871bf4f5606492ae21d9424450925bd92441481b52567f9508e16a6.jpg]]
 
 **Labelling experiments:**
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/089ff4747e86e932f3a3e44e69ba3e1b18480c24198f7b36afe3b42a01f9c899.jpg]]
+![[089ff4747e86e932f3a3e44e69ba3e1b18480c24198f7b36afe3b42a01f9c899.jpg]]
 
 - **D labelling**: Mechanism 3 requires exchange of at least one hydrogen with solvent. Using D₂O or deuterated starting material would show deuterium incorporation for mechanism 3, but not for mechanisms 1 or 2.
 - **¹⁸O labelling**: In mechanisms 1 and 3, the added OH ends up in CO₂H; in mechanism 2, it ends up in the phenol. Using H$_2^{18}$O or labelling the ester oxygen as ¹⁸O separates mechanisms 1/3 from mechanism 2.

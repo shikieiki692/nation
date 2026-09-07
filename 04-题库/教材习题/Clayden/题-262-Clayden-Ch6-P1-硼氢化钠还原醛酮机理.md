@@ -27,7 +27,7 @@ source_grade: B
 
 Draw mechanisms for these reactions:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/90028763c8698bcdf7acc75303dce16a17068b9487ca3eae39cc41db9d4c0e9a.jpg]]
+![[90028763c8698bcdf7acc75303dce16a17068b9487ca3eae39cc41db9d4c0e9a.jpg]]
 
 **原文题目**：Draw mechanisms for the NaBH₄ reduction and the LiAlH₄ reduction of the given aldehyde/ketone substrates.
 
@@ -35,7 +35,7 @@ Draw mechanisms for these reactions:
 
 **Answer (English)**: Draw out the BH₄⁻ and AlH₄⁻ anions, with the carbonyl compound positioned so that one of the hydrogens can be transferred to the carbonyl group, and then transfer the hydrogen from B or Al to C. A proton transfer is needed to make the alcohol: from the solvent in the first case and during the work-up with water in the second.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/76e73a40a537cb05ee91f50219b65b15a0ed683d3c6e2d09da43b5a461e3a1d0.jpg]]
+![[76e73a40a537cb05ee91f50219b65b15a0ed683d3c6e2d09da43b5a461e3a1d0.jpg]]
 
 **中文解析**：
 

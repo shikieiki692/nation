@@ -29,23 +29,23 @@ source_grade: B
 
 **【原文】**The synthesis of a starting material used in chapter 32 is a good example of how cyclic compounds can be used in a simple way to control stereochemistry. Draw mechanisms for each reaction and explain the stereochemistry.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/803fa665f503bd5a3ee08e243f0156e68063579bb7d4348f40e022146b05ea5c.jpg]]
+![[803fa665f503bd5a3ee08e243f0156e68063579bb7d4348f40e022146b05ea5c.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/bd24bfb5e42dba0689bfa56ac7e97d71d0e403c3910d109798c3f508019ca731.jpg]]
+![[bd24bfb5e42dba0689bfa56ac7e97d71d0e403c3910d109798c3f508019ca731.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: Tosylation of the primary alcohol is followed by ester exchange with methanol to release the anion of a secondary alcohol that promptly closes to an epoxide. There is no change at the stereogenic centre.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/accbbfdcf0f925c3281e911a1b294be49b15563b5b14316b7e2c327f0abbb19f.jpg]]
+![[accbbfdcf0f925c3281e911a1b294be49b15563b5b14316b7e2c327f0abbb19f.jpg]]
 
 Now the vinyl cuprate attacks the epoxide at its less substituted end, releasing the same oxyanion, which promptly closes the lactone again. Once more there is no change at the stereogenic centre.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/a4c22f1f8f58ed23893eb187ecca92ded7cf3c4b9ca930445f11d411a6925424.jpg]]
+![[a4c22f1f8f58ed23893eb187ecca92ded7cf3c4b9ca930445f11d411a6925424.jpg]]
 
 Finally, the double bond is introduced by selenium chemistry. The steps are straightforward and the geometry of the alkene is dictated by the ring.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/8479d8c30e17a5335ae375bc1a9eae37531a63e143c249fba7838cc45c634ba7.jpg]]
+![[8479d8c30e17a5335ae375bc1a9eae37531a63e143c249fba7838cc45c634ba7.jpg]]
 
 **中文解析**：
 

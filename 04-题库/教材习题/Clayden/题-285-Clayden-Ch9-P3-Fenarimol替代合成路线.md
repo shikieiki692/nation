@@ -34,7 +34,7 @@ Suggest alternative routes to fenarimol different from the one in the textbook o
 
 **Answer (English)**: Three aromatic rings are joined to a tertiary alcohol in fenarimol, so the alternatives are to make organometallic reagents from different aromatic compounds. Two aromatic compounds must be joined to form a ketone and the third added as an organometallic reagent. You'll need the insight from problem 2 above to help you choose Br as the functional group to be lithiated or converted into a Grignard reagent. Here are two possible methods:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/a3d8f7be41fcd3ed44e95072c432a05db38728e623f14beebb87dd38f6fea389.jpg]]
+![[a3d8f7be41fcd3ed44e95072c432a05db38728e623f14beebb87dd38f6fea389.jpg]]
 
 **中文解析**：
 

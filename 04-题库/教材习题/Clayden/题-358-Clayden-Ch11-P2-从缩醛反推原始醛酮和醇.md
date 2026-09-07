@@ -27,7 +27,7 @@ source_grade: B
 
 Each of these compounds is an acetal, that is a molecule made from an aldehyde or ketone and two alcohol groups. Which compounds were used to make these acetals?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/5795a4879a23c395f76c9118aaedea9afe56ce884d243a8445a9e928944d61ca.jpg]]
+![[5795a4879a23c395f76c9118aaedea9afe56ce884d243a8445a9e928944d61ca.jpg]]
 
 **原文题目**：Identify the aldehyde/ketone and alcohol precursors for each given acetal structure.
 
@@ -35,7 +35,7 @@ Each of these compounds is an acetal, that is a molecule made from an aldehyde o
 
 **Answer (English)**: All we have to do is to identify the hidden carbonyl group by finding the only carbon atom having two C–O bonds. This atom is marked with a grey circle. If you imagine breaking the two C–O bonds you will discover the carbonyl group and the alcohols.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/f988defbab5d5a40b1eeea62be30f8013666a1a779ad42b9273d417239ea431a.jpg]]
+![[f988defbab5d5a40b1eeea62be30f8013666a1a779ad42b9273d417239ea431a.jpg]]
 
 **中文解析**：
 

@@ -30,7 +30,7 @@ source_grade: B
 
 **【原文】**Draw mechanisms for the reactions and structures for the intermediates. Explain the stereochemistry, especially of the reactions involving boron. Why was 9-BBN chosen as the hydroborating agent?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/fc4a418a3a59951a295609e625eca69217d2484a75b6d2245919ff2a08e6455f.jpg]]
+![[fc4a418a3a59951a295609e625eca69217d2484a75b6d2245919ff2a08e6455f.jpg]]
 
 **原文题目**：画出反应的机理和中间体结构。解释立体化学，特别是涉及硼的反应。为什么选择9-BBN作为硼氢化试剂？
 
@@ -40,17 +40,17 @@ source_grade: B
 
 The starting material is symmetrical so it doesn't matter which face of which alkene you attack. The only important things are that boron binds to the more nucleophilic end of the alkene and that R₂BH and H are added cis. Alkaline H₂O₂ makes the hydroperoxide anion (HOO⁻) which attacks boron.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/27eb4513d1eab0d8da2060f6b19ac876bed3bfab384866677d1af627384c986a.jpg]]
+![[27eb4513d1eab0d8da2060f6b19ac876bed3bfab384866677d1af627384c986a.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/95a8507c9531f22ae716bffbf0193806d47053252bc716609e91bb3d0a624173.jpg]]
+![[95a8507c9531f22ae716bffbf0193806d47053252bc716609e91bb3d0a624173.jpg]]
 
 The mesylate cyclizes in aqueous base. The more nucleophilic end of the remaining alkene displaces the mesylate with inversion to make the cis ring junction much preferred by the 5,5 fused system. Water adds to the tertiary cation to give the next intermediate.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/2ce67fa013c9c5be8363d3d518e3dc44cf5c7bf7b4cc66eddb30dc3426d687b0.jpg]]
+![[2ce67fa013c9c5be8363d3d518e3dc44cf5c7bf7b4cc66eddb30dc3426d687b0.jpg]]
 
 Elimination of the alcohol (E1 of course as it is tertiary) gives the alkene and a repeat of the hydroboration from the outside (convex face) of the folded molecule gives the final alcohol with five new stereogenic centres.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/c67f71ffff4cd95e75de992051775ff80436d6bff8fce5f7f0ea34b3abb055a4.jpg]]
+![[c67f71ffff4cd95e75de992051775ff80436d6bff8fce5f7f0ea34b3abb055a4.jpg]]
 
 9-BBN was chosen because it is very large and reinforces the natural electronic preference of boron to bind to the less substituted end of the alkene with an extra steric effect. It also has bridgehead atoms bound to boron and they make poor migrating groups, forcing the migration of the third B substituent.
 

@@ -29,7 +29,7 @@ source_grade: B
 
 **【原文】**Suggest what the products of these nucleophilic substitutions might be.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/51d5301caa17ac9c3aa10db6d8c743b5cfdd961cb7fe0da7c85df8dec3de6d25.jpg]]
+![[51d5301caa17ac9c3aa10db6d8c743b5cfdd961cb7fe0da7c85df8dec3de6d25.jpg]]
 
 ## 参考答案
 
@@ -37,11 +37,11 @@ source_grade: B
 
 First case: The benzene ring is not activated towards nucleophilic substitution but the pyridine is, both by the pyridine nitrogen atom and by the ester group. The NH₂ on the benzene ring is much more nucleophilic than the pyridine nitrogen atom.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/c327718633ff0d91fdf9763d54bc0140bfb93b1c803f1562efe685fc63bf08a7.jpg]]
+![[c327718633ff0d91fdf9763d54bc0140bfb93b1c803f1562efe685fc63bf08a7.jpg]]
 
 Second case: The chlorine on the heterocyclic ring is much more reactive towards nucleophilic substitution as the intermediate is stabilized by two nitrogen atoms and the benzene ring is not disturbed. The saturated heterocycle (piperazine) can be made to react once only as the product under the reaction conditions is strictly the hydrochloride of the unreacted amino group. This is much more basic than the one that has reacted as that lone pair is conjugated with the heterocyclic ring.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/ac82645c8e63b7ae9a60a1ebc75ecfa84c87d962838e685cb3b798c7948c9617.jpg]]
+![[ac82645c8e63b7ae9a60a1ebc75ecfa84c87d962838e685cb3b798c7948c9617.jpg]]
 
 **中文解析**：
 

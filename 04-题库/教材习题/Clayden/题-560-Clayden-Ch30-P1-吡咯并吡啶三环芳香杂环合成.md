@@ -27,7 +27,7 @@ source_grade: B
 
 Suggest a mechanism for this synthesis of a tricyclic aromatic heterocycle.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/c1509a39407920aeee5f6897d36aecf19edcc104a9bf57606ac5de7c9a1eb5d8.jpg]]
+![[c1509a39407920aeee5f6897d36aecf19edcc104a9bf57606ac5de7c9a1eb5d8.jpg]]
 
 **原文题目**：Suggest a mechanism for the synthesis of a tricyclic aromatic heterocycle from a 2-aminopyridine and a cyclic ketone.
 
@@ -35,7 +35,7 @@ Suggest a mechanism for this synthesis of a tricyclic aromatic heterocycle.
 
 **Answer (English)**: The first step must be the formation of an enamine between the primary amine and the ketone. Now, because we have a pyridine and not a benzene ring, nucleophilic aromatic substitution can occur. These 'aza-indoles' are more easily formed than indoles.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/5f385e60160433ed54933eb6a21af3898a3671c5eb15e43288f6be3c2a255a75.jpg]]
+![[5f385e60160433ed54933eb6a21af3898a3671c5eb15e43288f6be3c2a255a75.jpg]]
 
 **中文解析**：
 

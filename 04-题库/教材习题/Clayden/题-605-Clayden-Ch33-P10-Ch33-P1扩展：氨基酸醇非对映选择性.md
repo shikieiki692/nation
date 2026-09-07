@@ -29,13 +29,13 @@ source_grade: B
 
 **【原文】**How would you transform this alkene stereoselectively into either of the diastereoisomers of the amino alcohol?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/8e4743457c6b568dc156a5e23e21919fc616eb3310207eaf50dbfd6e960d34b3.jpg]]
+![[8e4743457c6b568dc156a5e23e21919fc616eb3310207eaf50dbfd6e960d34b3.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: Opening the epoxide with a nitrogen nucleophile makes one isomer. At least the alkene is symmetrical so it doesn't matter which end of the epoxide is attacked by the nucleophile. We have chosen azide ion as the nucleophile.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/8b9d2ea7f2c4d4b6df31125725f2c85af2e539d559582fdccb84025867a71c70.jpg]]
+![[8b9d2ea7f2c4d4b6df31125725f2c85af2e539d559582fdccb84025867a71c70.jpg]]
 
 **中文解析**：
 

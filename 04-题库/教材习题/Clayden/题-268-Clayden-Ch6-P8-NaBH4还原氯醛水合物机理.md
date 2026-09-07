@@ -28,7 +28,7 @@ source_grade: B
 
 Trichloroethanol may be prepared by the direct reduction of chloral hydrate in water with sodium borohydride. Suggest a mechanism for this reaction. Take note that sodium borohydride does not displace hydroxide from carbon atoms!
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/aa6aa676300a73982ff563f893c757e1a599b881740da8a9b56319f2b705703a.jpg]]
+![[aa6aa676300a73982ff563f893c757e1a599b881740da8a9b56319f2b705703a.jpg]]
 
 **原文题目**：三氯乙醇可以通过NaBH₄在水中直接还原氯醛水合物制备。建议该反应的机理。注意：NaBH₄不会从碳原子上取代氢氧根！
 
@@ -36,7 +36,7 @@ Trichloroethanol may be prepared by the direct reduction of chloral hydrate in w
 
 **Answer (English)**: If sodium borohydride doesn't displace hydroxide from carbon atoms, then what does it do? We know it attacks carbonyl groups to give alcohols and to get trichloroethanol we should have to reduce chloral. Hemiacetals are in equilibrium with their carbonyl equivalents, so...
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/5e564cd9f4e51fc129720daa3efbd22b6740b8bcb64171bc5f8e4fff4d32aac6.jpg]]
+![[5e564cd9f4e51fc129720daa3efbd22b6740b8bcb64171bc5f8e4fff4d32aac6.jpg]]
 
 **中文解析**：
 

@@ -28,7 +28,7 @@ source_grade: B
 
 How would you make these compounds?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/67f347858bbae613d5adabad408ac115a705740e5bea99f060dc9f4609cf7609.jpg]]
+![[67f347858bbae613d5adabad408ac115a705740e5bea99f060dc9f4609cf7609.jpg]]
 
 **原文题目**：如何合成这些化合物？
 
@@ -39,24 +39,24 @@ How would you make these compounds?
 **Secondary amine**: Best made by reductive amination via the imine (not usually isolated).
 
 Synthesis:
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/f03c256b30c3ef2f93adedbc2765215210b0e843f1e27bf6980f3be14674a499.jpg]]
+![[f03c256b30c3ef2f93adedbc2765215210b0e843f1e27bf6980f3be14674a499.jpg]]
 
 **Secondary alcohol**: Made by Grignard chemistry. Cyclohexyl Grignard added to ethyl formate or cyclohexane aldehyde.
 
 Analysis:
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/c1ed60c3f2ba22d8bcbe97cb0706ccea168cd30354cf183d4cd7d22686c6bb0c.jpg]]
+![[c1ed60c3f2ba22d8bcbe97cb0706ccea168cd30354cf183d4cd7d22686c6bb0c.jpg]]
 
 Synthesis:
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/1d5bcee5a4ddf67e84960d6f681361511eb7d197b319c8121943fe18a1ac2964.jpg]]
+![[1d5bcee5a4ddf67e84960d6f681361511eb7d197b319c8121943fe18a1ac2964.jpg]]
 
 **Carboxylic acid**: Made by double alkylation of malonate or other specific enol equivalent.
 
 Analysis:
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/2e2dcc488b2ebaef9b85b2b2c1330ab5a77f5c41fba258d5169b9eb26f20e039.jpg]]
+![[2e2dcc488b2ebaef9b85b2b2c1330ab5a77f5c41fba258d5169b9eb26f20e039.jpg]]
 
 **Primary amine**: Made by reductive amination of a ketone that could be made by oxidation of the secondary alcohol. Alternatively, displacement of the tosylate of the same alcohol with azide ion and reduction.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/8df8a13436996797111388ccda026c34d454158254c56dfe49ddd28c970593ff.jpg]]
+![[8df8a13436996797111388ccda026c34d454158254c56dfe49ddd28c970593ff.jpg]]
 
 **中文解析**：
 

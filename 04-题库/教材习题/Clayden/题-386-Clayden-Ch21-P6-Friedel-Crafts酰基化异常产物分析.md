@@ -30,17 +30,17 @@ source_grade: B
 **【原文】**
 Attempted Friedel-Crafts acylation of benzene with t-BuCOCl gives some of the expected ketone A as a minor product, as well as some t-butylbenzene B, but the major product is the substituted ketone C. Explain how these compounds are formed and suggest the order in which the two substituents are added to form compound C.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/c1884d2acbff1542ee6de06c0d1b8d9e9215a412000219e5bf60f5a1f83d2d17.jpg]]
+![[c1884d2acbff1542ee6de06c0d1b8d9e9215a412000219e5bf60f5a1f83d2d17.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: The expected reaction to give A is a simple Friedel-Crafts acylation with the usual acylium ion intermediate. Product B must arise from a t-butyl cation and the only way that might be formed is by loss of carbon monoxide from the original acylium ion. Such a reaction happens only when the resulting carbocation is reasonably stable. The main product C comes from the addition of both these electrophiles, but which adds first? The ketone in A is deactivating and meta directing but the t-butyl group in B is activating and para-directing so it must be added first.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/72e3f8a89723f7e81449c692a27630ffe5a8befb12888a59a1e20eb0772cb2a9.jpg]]
+![[72e3f8a89723f7e81449c692a27630ffe5a8befb12888a59a1e20eb0772cb2a9.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/e1c136a77c45a9723d5eae260859c77a9dd32fb2b3de4c005953f8ab0313787e.jpg]]
+![[e1c136a77c45a9723d5eae260859c77a9dd32fb2b3de4c005953f8ab0313787e.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/ac9fea35f738ee1875e6320217d3a115551cfbfe959613008309d0fdb7a47d12.jpg]]
+![[ac9fea35f738ee1875e6320217d3a115551cfbfe959613008309d0fdb7a47d12.jpg]]
 
 That answers the question but you might like to go further. Both A and C are formed by the alkylation of benzene as the first step. The decomposition of the acylium ion is evidently faster than the acylation of benzene. However, when B reacts further, it is mainly by acylation as only a small amount of di-t-butyl benzene is formed. Evidently the decomposition of the acylium ion is slower than the acylation of B! This is not unreasonable as the t-butyl group accelerates electrophilic attack -- but it is a dramatic demonstration of that acceleration.
 

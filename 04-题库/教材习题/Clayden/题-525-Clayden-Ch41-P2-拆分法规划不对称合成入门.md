@@ -27,7 +27,7 @@ source_grade: B
 
 This is a synthesis of the racemic drug tazodolene. If the enantiomers of the drug are to be evaluated for biological activity, they must be separated. At which stage would you recommend separating the enantiomers and how would you do it?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/e9821760813490d2c58cda81ba6541d811c0cf44666f833c0454ef82d0847daa.jpg]]
+![[e9821760813490d2c58cda81ba6541d811c0cf44666f833c0454ef82d0847daa.jpg]]
 
 **原文题目**：This is a synthesis of the racemic drug tazodolene. If the enantiomers of the drug are to be evaluated for biological activity, they must be separated. At which stage would you recommend separating the enantiomers and how would you do it?
 
@@ -35,7 +35,7 @@ This is a synthesis of the racemic drug tazodolene. If the enantiomers of the dr
 
 **Answer (English)**: You need to ask: which is the first chiral intermediate? Can it be conveniently resolved? Will the chirality survive subsequent steps? The first intermediate is chiral but it enolizes very readily and the enol is achiral, so that's no good. The second intermediate is chiral but it has three chiral centres and these are evidently not controlled. We would have to separate the diastereoisomers before resolution and that would be a waste of time and material since all of them give the next intermediate anyway. The next intermediate, the amino alcohol is ideal: it has only one chiral centre and that is not affected by the last reaction. It has two 'handles' for resolution—the amine and the alcohol. We might make a salt with tartaric acid or an ester of the alcohol with some chiral acid. Alternatively we could resolve tazodolene itself: it still has an amino group and we could form a salt with a suitable acid.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/685d5c19d33967d0836dd2ed7b9e8c5c6b6c73267051e17932fe441eb0ee124f.jpg]]
+![[685d5c19d33967d0836dd2ed7b9e8c5c6b6c73267051e17932fe441eb0ee124f.jpg]]
 
 **中文解析**：
 

@@ -27,15 +27,15 @@ source_grade: B
 
 Are these molecules chiral? Draw diagrams to justify your answer.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/be80059564f156ed850e3b1449acf7e0658f6eacb7c1b1e4585c0c453edafc69.jpg]]
+![[be80059564f156ed850e3b1449acf7e0658f6eacb7c1b1e4585c0c453edafc69.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/01cd5f4442e831593a744781addadc499904b351c7a7c9b59399e5795da818ad.jpg]]
+![[01cd5f4442e831593a744781addadc499904b351c7a7c9b59399e5795da818ad.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/77105093280724d5a4968a6e7f2b4a9fe79d01d7932503cce9f9a29b8bf4b76d.jpg]]
+![[77105093280724d5a4968a6e7f2b4a9fe79d01d7932503cce9f9a29b8bf4b76d.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/4517841f3f147039d1cfbb9d0d65cf2d9cbbb5d1d5a7b7625774fde9510618da.jpg]]
+![[4517841f3f147039d1cfbb9d0d65cf2d9cbbb5d1d5a7b7625774fde9510618da.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/0cc1155757303f5dab5c30b494c4791951eda9c124b21d8c58056b3c03d908c8.jpg]]
+![[0cc1155757303f5dab5c30b494c4791951eda9c124b21d8c58056b3c03d908c8.jpg]]
 
 **原文题目**：这些分子是手性的吗？画图证明你的答案。
 
@@ -43,27 +43,27 @@ Are these molecules chiral? Draw diagrams to justify your answer.
 
 **Answer (English)**: Only one thing matters: does the molecule have a plane of symmetry? On no account look for chiral centres or carbon atoms with four different groups. Just look for a plane of symmetry.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/1b4a08b51a86e8a3a4f6021d66bca9772913dbbba68227451d8ee41ae29b048f.jpg]]
+![[1b4a08b51a86e8a3a4f6021d66bca9772913dbbba68227451d8ee41ae29b048f.jpg]]
 
 The second molecule has no plane of symmetry — the tetrahedral geometry prevents it:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/7e28e409d7a544dcc5c4eb0832289c2fc30982d75801bf8acb6fa05c21dd9a3f.jpg]]
+![[7e28e409d7a544dcc5c4eb0832289c2fc30982d75801bf8acb6fa05c21dd9a3f.jpg]]
 
 The third molecule (cyclohexanol) is highly symmetric — all CH₂ groups are equivalent:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/4c31622119cacd08ad06c49bd31c7c14d573ae04a3b78a9604a86a5b7721380d.jpg]]
+![[4c31622119cacd08ad06c49bd31c7c14d573ae04a3b78a9604a86a5b7721380d.jpg]]
 
 The fourth molecule (spiro compound) has a mirror plane perpendicular to the page:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/058412e5ac999ead3008f1c30cd0f8e3914434867d90d90b20332df40d87ebc1.jpg]]
+![[058412e5ac999ead3008f1c30cd0f8e3914434867d90d90b20332df40d87ebc1.jpg]]
 
 The fifth molecule (spiro acetal) is chiral — the central sp³ carbon makes the two rings orthogonal, and the oxygen atoms destroy any potential mirror plane:
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/9f763c4d6cec6a9a1f1451875dcf417893988cf900928500f6ee1d889d650662.jpg]]
+![[9f763c4d6cec6a9a1f1451875dcf417893988cf900928500f6ee1d889d650662.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/1b62970e6de7ef8324e9dc36e6283127a362f674e4c68906074c98dd8a0b42b0.jpg]]
+![[1b62970e6de7ef8324e9dc36e6283127a362f674e4c68906074c98dd8a0b42b0.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/a7991e732d703bbc8b9de4b40f9a1eea674997838dc7e607a916531a021e6fbf.jpg]]
+![[a7991e732d703bbc8b9de4b40f9a1eea674997838dc7e607a916531a021e6fbf.jpg]]
 
 **中文解析**：
 

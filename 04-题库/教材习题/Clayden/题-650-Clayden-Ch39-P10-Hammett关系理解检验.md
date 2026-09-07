@@ -33,7 +33,7 @@ The pKₐ values of some protonated pyridines are as follows:
 
 Can the Hammett correlation be applied to pyridines using the σ values for benzene? What equilibrium ρ value does it give and how do you interpret it? Why are no 2-substituted pyridines included in the list?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/8a81bf0670d64e2a2cbdedd62cc2865353a820934202549fef7df114cae61a1d.jpg]]
+![[8a81bf0670d64e2a2cbdedd62cc2865353a820934202549fef7df114cae61a1d.jpg]]
 
 **原文题目**：Apply the Hammett relationship to pyridinium ion acidities. Calculate ρ and explain its magnitude. Why are 2-substituted pyridines excluded?
 
@@ -41,11 +41,11 @@ Can the Hammett correlation be applied to pyridines using the σ values for benz
 
 **Answer (English)**: Plotting pKₐ values against σ values (meta for 3-substituted, para for 4-substituted) gives a good straight line with ρ = +5.9. The sign is positive because the same electronic effects that make benzoic acids more acidic also make pyridinium ions more acidic. The large ρ value reflects the fact that ionization of benzoic acids occurs outside the ring (charge not delocalized round the ring) while deprotonation of pyridinium ions occurs on the ring (charge delocalized round the ring).
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/abd4e42f39732af7369c138f0fc32cdbd3667433bf2c9e5b4c5d81bcaf0dd864.jpg]]
+![[abd4e42f39732af7369c138f0fc32cdbd3667433bf2c9e5b4c5d81bcaf0dd864.jpg]]
 
 There are no 2-substituted pyridines because, like ortho-substituted benzenes, steric effects prevent good Hammett correlation.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/da43346ca97b25635ab0976fb0de7e89cfb13393967a048e1efe7120aab9db99.jpg]]
+![[da43346ca97b25635ab0976fb0de7e89cfb13393967a048e1efe7120aab9db99.jpg]]
 
 **中文解析**：
 

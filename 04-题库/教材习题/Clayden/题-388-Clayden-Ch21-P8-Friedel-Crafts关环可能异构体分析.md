@@ -30,17 +30,17 @@ source_grade: B
 **【原文】**
 What are the two possible isomeric products of this reaction? Which structure do you expect to predominate? What would be the bromination product from each?
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/eaa7f45277f993606e4f6b66e69daa842eed0d3ab76f9eeb769b30b7f4d5df3c.jpg]]
+![[eaa7f45277f993606e4f6b66e69daa842eed0d3ab76f9eeb769b30b7f4d5df3c.jpg]]
 
 ## 参考答案
 
 **Answer (English)**: A Top Tip: when you have a formula for a product, but no structure, is to compare it with the formula for the starting material -- in this case, C₁₂H₁₈O₂. The reaction is a Friedel-Crafts cyclization, as you could have deduced by the simple loss of water. The resulting cation could cyclize in two ways, arbitrarily called A and B. Steric hindrance suggests that A would be the more likely product. Bromination will go either ortho or para to the methoxy group: A has two different positions ortho to the OMe, but the para position is blocked. The least sterically hindered position gives a 1,2,4,5-tetrasubstituted ring. B might give a mixture of ortho and para substitution.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/f7810893997b688a3eebf77de12f2a25d8db4ee0e109db146d34299d72bd8117.jpg]]
+![[f7810893997b688a3eebf77de12f2a25d8db4ee0e109db146d34299d72bd8117.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/30c7cdc4f5574b9f753afcdb30f0177e3df980399055c71c17391512bddb79f9.jpg]]
+![[30c7cdc4f5574b9f753afcdb30f0177e3df980399055c71c17391512bddb79f9.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/1be98e1205b4e8e088211405b51eb311d3517e5da52526cdcd8a75d755f4402f.jpg]]
+![[1be98e1205b4e8e088211405b51eb311d3517e5da52526cdcd8a75d755f4402f.jpg]]
 
 **中文解析**：
 

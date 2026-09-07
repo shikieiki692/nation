@@ -31,9 +31,9 @@ Predict the products of addition of Br₂/H₂O (bromine water) to each of the f
 2. But-1-ene
 3. 2-Methylpropene
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/bb2e14515e7fd29a6d192ffcd8e8263c3db5d5283493b28f70c54dab9fe2694b.jpg]]
+![[bb2e14515e7fd29a6d192ffcd8e8263c3db5d5283493b28f70c54dab9fe2694b.jpg]]
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/78806abb9cc65123160202162546cf3ae15d28a0a42655d535d7397c6000f469.jpg]]
+![[78806abb9cc65123160202162546cf3ae15d28a0a42655d535d7397c6000f469.jpg]]
 
 **原文题目**：
 
@@ -51,7 +51,7 @@ In all cases, Br₂ forms a bromonium ion intermediate. Water (the solvent, pres
 
 1. **Propene**: Bromonium ion forms. H₂O attacks C-2 (secondary, more substituted) with inversion → **1-bromopropan-2-ol** (CH₃CH(OH)CH₂Br). Anti addition.
 
-![[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/6e07a89b2af53853f354c2d6872ee55bd75a0eabdaaf5d84bf659ff372f4d48a.jpg]]
+![[6e07a89b2af53853f354c2d6872ee55bd75a0eabdaaf5d84bf659ff372f4d48a.jpg]]
 
 2. **But-1-ene**: H₂O attacks C-2 → **1-bromobutan-2-ol** (CH₃CH₂CH(OH)CH₂Br). Anti addition.
 3. **2-Methylpropene**: H₂O attacks C-2 (tertiary, most substituted) → **1-bromo-2-methylpropan-2-ol** ((CH₃)₂C(OH)CH₂Br). Anti addition.
