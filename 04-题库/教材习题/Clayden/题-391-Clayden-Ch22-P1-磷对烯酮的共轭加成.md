@@ -20,6 +20,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 教材课后习题
 source_grade: B
+used_in: "[[第二轮习题集-有机化学二]]"
 ---
 # 题-391: 磷对烯酮的共轭加成
 

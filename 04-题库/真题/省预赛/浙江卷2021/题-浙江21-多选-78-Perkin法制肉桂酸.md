@@ -23,6 +23,7 @@ updated: 2026-09-02
 aliases: [浙江21-多选78]
 source_category: 竞赛导向·真题（省级）
 source_grade: A-
+used_in: "[[预赛基础卷III]]"
 ---
 
 # 题-浙江21-多选-78-Perkin法制肉桂酸

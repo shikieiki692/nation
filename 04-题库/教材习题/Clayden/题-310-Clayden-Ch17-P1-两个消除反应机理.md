@@ -21,6 +21,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 教材课后习题
 source_grade: B
+used_in: "[[第二轮习题集-有机化学二]]"
 ---
 # 题-310: 两个消除反应机理
 

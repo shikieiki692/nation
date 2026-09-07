@@ -30,3 +30,5 @@
 - 组卷脚本：`.workbuddy/tmp/simul*.py`（模拟卷）、`special_papers.py`（专项卷）、`preselec.py`（省预赛）
 - 闸门：`validate_kb.py`（0 Error 出卷）＋`jsyaml_verify.js`＋`--strict-images`
 - ⚠️ C14005：带内嵌图 docx 在腾讯文档预览器打不开属预览器缺陷，文件本身合法
+| **`第二轮习题集/`** | 随堂基础·第二轮（章节练习 d2~d3，8 卷×20 题双版） | 16 |
+| **`预赛基础卷/`** | 各省预赛 d2~d3（3 卷×25 题双版） | 6 |

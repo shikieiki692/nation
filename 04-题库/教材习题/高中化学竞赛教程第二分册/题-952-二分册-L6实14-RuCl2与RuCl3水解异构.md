@@ -22,6 +22,7 @@ cross_references: []
 status: 已填充
 source_category: 竞赛导向·竞赛教材
 source_grade: A
+used_in: "[[二分册专项卷XI]]"
 ---
 # 题-952-二分册-L6实14-RuCl2与RuCl3水解异构
 

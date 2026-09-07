@@ -22,6 +22,7 @@ subject_module: 有机化学
 pack: 预赛专项
 source_category: 竞赛导向·真题（省级）
 source_grade: A-
+used_in: "[[预赛基础卷I]]"
 ---
 
 # 题-福建35-09：抗肿瘤药 Pelitinib 的合成

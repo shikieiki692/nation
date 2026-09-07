@@ -50,6 +50,7 @@ Tropinone：鎓离子，缩合反应与 Curtin-Hamment 原理
 
 ## 知识点
 
+used_in: "[[第二轮习题集-有机化学一]]"
 ---
 
 ## 相关题目

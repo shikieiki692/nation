@@ -20,6 +20,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 教材课后习题
 source_grade: B
+used_in: "[[第二轮习题集-有机化学一]]"
 ---
 # 题-445: 醛烯醇盐烷基化失败分析
 
