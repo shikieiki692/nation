@@ -1020,6 +1020,9 @@ def short_title(item):
     for w in drop_words:
         t = t.replace(w, "")
     t = re.sub(r"-+", "-", t).strip("-")
+    # 2026-09-07: 成品显示名清洗（主分支；与 build_exam_paper clean_disp 一致）
+    t = re.sub(r"一分册测试-|化学能力测试-|二分册-测\d+-", "", t)
+    t = re.sub(r"-+", "-", t).strip("-")
 
     if t and not re.fullmatch(r"[\d\-.]+", t):
         return t
@@ -1027,6 +1030,8 @@ def short_title(item):
     ttl = item.get("title", "")
     for w in drop_words:
         ttl = ttl.replace(w, "")
+    # 2026-09-07: 成品显示名清洗——题目名不出现来源教材词（用户规则，与 build_exam_paper clean_disp 一致）
+    ttl = re.sub(r"一分册测试-|化学能力测试-|二分册-测\d+-", "", ttl)
     ttl = re.sub(r"-+", "-", ttl).strip("-")
     ttl = re.sub(r"^[^\s：:]+[：:]\s*", "", ttl).strip()
     return ttl
