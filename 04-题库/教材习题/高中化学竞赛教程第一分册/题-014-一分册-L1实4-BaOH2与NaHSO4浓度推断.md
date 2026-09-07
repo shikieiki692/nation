@@ -32,6 +32,7 @@ source_file: "[[07-资料提炼/习题提炼/习题-一分册-第1讲-物质的�
 status: 已填充
 source_category: 竞赛导向·竞赛教材
 source_grade: A-
+used_in: "[[一分册专项卷VII]]"
 ---
 
 # Ba(OH)₂ 与 NaHSO₄ 浓度推断
