@@ -22,6 +22,7 @@ cross_references: []
 status: 已填充
 source_category: 竞赛导向·竞赛教材
 source_grade: A
+used_in: "[[二分册专项卷XI]]"
 ---
 # 题-949-二分册-L6实11-diars铁双配离子A与B
 
