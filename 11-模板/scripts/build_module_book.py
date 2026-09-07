@@ -163,6 +163,45 @@ META_QUOTE_LINE_RE = re.compile(
 )
 
 
+def wrap_bare_math(text: str) -> str:
+    """2026-09-07: 裸 LaTeX 数学块自动包 $$——转录残缺（丢 $$ 标记）的 array/公式行群
+    会在 pandoc 与 precheck 中整块漏出（曾致 1-原子结构 310 个 latex_outside_math）。
+    规则（保守）：行首直接以 \\begin{ 或 LaTeX 命令（\\mathrm/\\frac/\\lg/\\Delta 等）开头、
+    且不在 $$ 块内的连续行群（不跨空行），前后包 $$。已含 $$ 的行群不动。"""
+    if "$$" not in text:
+        pass
+    lines = text.split("\n")
+    out = []
+    i = 0
+    in_dd = False
+    MATH_HEAD = re.compile(r"^\s*(\\begin\{|\\(?:mathrm|frac|dfrac|lg|Delta|left|right|sum|int|sqrt|overline)\b|\\[a-zA-Z]+ ?[=\\ ])")
+    while i < len(lines):
+        ln = lines[i]
+        if "$$" in ln:
+            in_dd = (ln.count("$$") % 2 == 1) if not in_dd else (in_dd != (ln.count("$$") % 2 == 1))
+            out.append(ln)
+            i += 1
+            continue
+        if not in_dd and MATH_HEAD.match(ln) and ln.strip():
+            # 收集连续数学行（不跨空行）
+            j = i
+            grp = []
+            while j < len(lines) and lines[j].strip() and "$$" not in lines[j] and \
+                    (MATH_HEAD.match(lines[j]) or lines[j].lstrip().startswith(("\\\\", "&", "=", "+", "-", "{", "}")) or
+                     re.search(r"[\\^_]\{|\\[a-zA-Z]+| [0-9.]+ [A-Z]", lines[j])):
+                grp.append(lines[j])
+                j += 1
+            if grp:
+                out.append("$$")
+                out.extend(grp)
+                out.append("$$")
+                i = j
+                continue
+        out.append(ln)
+        i += 1
+    return "\n".join(out)
+
+
 def clean_section_text(s):
     """统一清理正文：保留图片嵌入，把源文件残留 H2 降级为 H3。"""
     s = strip_wikilinks(s)
@@ -540,6 +579,18 @@ def split_question_answer(body, source=""):
             q_text = "\n".join(q_lines).strip()
             a_text = "\n".join(a_lines).strip()
         return q_text.strip(), a_text
+
+    # 2026-09-07 数学块平衡保护：答案标记若落在 $$ 块内部会把数学块腰斩（孤 $$ 连锁
+    # 污染后续全部配对，曾致 1-原子结构 310 个 precheck error）；把落在块内的标记
+    # 回退到所在数学块的开 $$ 之前的行首，使整个数学块归入答案区。
+    _fixed = []
+    for (ms, me, kind) in markers:
+        if work[:ms].count("$$") % 2 == 1:
+            blk = work.rfind("$$", 0, ms)
+            ms = work.rfind("\n", 0, blk) + 1
+            me = ms
+        _fixed.append((ms, me, kind))
+    markers = sorted(_fixed, key=lambda m: m[0])
 
     q_start = qloc.end() if (qloc and qloc.start() < markers[0][0]) else 0
     label_positions = [m.start() for m in QUESTION_LABEL_RE.finditer(work)]
@@ -1143,6 +1194,8 @@ def build_book(module, out_dir, chapter_map, exclude_subs=None):
                 a_text = normalize_image_paragraphs(a_text)
                 q_text = collapse_hrs(q_text)
                 a_text = collapse_hrs(a_text)
+                q_text = wrap_bare_math(q_text)
+                a_text = wrap_bare_math(a_text)
 
             # ---- 质量告警（不打断生成，dry-run/正式均汇总打印）----
             loc = f"[{module}] {fname} #{num}.{qn} ← {item['path']}"
