@@ -22,6 +22,7 @@ cross_references: ["[[题-415-化学能力测试-Ch7B-10-金属硫化物溶解�
 status: 已填充
 source_category: 竞赛导向·竞赛教材
 source_grade: A
+used_in: "[[二分册专项卷VIII]]"
 ---
 # 题-878-二分册-L3实4-Tl2S与CuS溶解性计算解释
 
