@@ -16,8 +16,8 @@ related_notes:
   - "[[04-专题与题型/专题/专题-热力学初步]]"
 tags: [学生讲义, 超级充实版, 物理化学, 第四轮, 统计热力学, Maxwell关系, 自学完整]
 created: 2026-08-04
-has_images: true
-image_count: 3
+has_images: false
+image_count: 0
 updated: 2026-08-07
 last_audit: "2026-08-04 新建（S2）：承接决赛04 热力学深半（Maxwell 初步 + 统计热力学配分函数），补物化综合计算 §〇 未覆盖部分；全篇 $E^\\theta$ 规范；图片以 📌 占位标记（待补 3 处）；2026-08-07 R4教材审计：补 Boltzmann 分布推导链（构型/Stirling/最概然/Lagrange/β热力学身份）与配分函数连乘原理（Atkins 主题13A-B）；2026-08-07 R5原文级复核：修正 §3.2 Gibbs-Helmholtz 积分式符号 −→+；2026-08-07 R8语言打磨+教材审计：ΔA°→ΔG° 平衡常数式统一；去 Atkins/13A/13F 章节标签；补 Kirchhoff 定律、Debye T³ 微观解释、配分函数求平衡常数完整式"
 template_version: 自学完整版 v3.0
