@@ -611,10 +611,13 @@ def gather_questions(module):
             # 2026-09-07 扩池：一分册/二分册正册的章节练习题（d≥4）纳入习题书
             # （来源维度构建规范落地：A 类竞赛教材源，模块习题集层之外的高价值题）
             is_fb_book = ("高中化学竞赛教程第一分册" in rel or "高中化学竞赛教程第二分册" in rel)
+            # 2026-09-07 二次扩池：全部章节练习 pack 的 d2~d3 基础题纳入（每章「基础巩固」节）
+            is_jx_any = re.search(r"(?m)^pack: 章节练习", y) is not None
             if not re.search(r"(?m)^pack: 模块习题集", y):
-                if not (is_fb_book and re.search(r"(?m)^pack: 章节练习", y)):
+                if not is_jx_any:
                     continue
-                # 难度闸门在下方 diff 解析后执行（d≥4）
+                # 难度闸门在下方 diff 解析后执行：
+                #   一分册/二分册章节练习仅收 d≥4（扩池）；其他章节练习收 d2~d3 基础层（二次扩池）
             override_target = PATH_SUBJECT_MODULE_OVERRIDES.get(rel)
             if override_target:
                 if module != override_target:
@@ -638,6 +641,8 @@ def gather_questions(module):
             d = int(diff) if diff.isdigit() else 3
             if is_fb_book and d < 4:
                 continue  # 扩池难度闸门：一分册/二分册章节练习题仅收 d≥4
+            if (not is_fb_book) and is_jx_any and d > 3:
+                continue  # 二次扩池闸门：非教材主源的章节练习 d2~d3 基础层（d≥4 已由其他 pack 覆盖）
             pool.append({
                 "file": fn,
                 "path": rel,
@@ -1081,12 +1086,13 @@ def build_book(module, out_dir, chapter_map, exclude_subs=None):
     # 按章节号排序
     groups = collections.OrderedDict(sorted(groups.items(), key=lambda x: x[0][0]))
 
-    # 每章排序：质量优先（fidelity 逐字 > 改写 > 自编），难度次之。
-    # 原则（2026-08-31 用户决策）：不做难度分级，按题目质量区分筛选；
+    # 每章排序：2026-09-07 起章内分层——基础巩固（d≤3）在前，竞赛提升（d4~d5）在后；
+    # 各节内部维持质量优先（fidelity 逐字 > 改写 > 自编）+ 难度次之。
     # fidelity 为质量标签（🟢原书逐字 / 🟡原书改写 / 🔵自编）。
     FID_RANK = {"原书逐字": 0, "原书改写": 1, "自编": 2}
     for key in groups:
-        groups[key].sort(key=lambda x: (FID_RANK.get(x.get("fidelity", ""), 9), x["difficulty"]))
+        groups[key].sort(key=lambda x: (0 if x["difficulty"] <= 3 else 1,
+                                        FID_RANK.get(x.get("fidelity", ""), 9), x["difficulty"]))
 
     # 生成章节文件
     index_rows = []
@@ -1112,8 +1118,15 @@ def build_book(module, out_dir, chapter_map, exclude_subs=None):
         lines.append("")
 
         qn = 0
+        _last_tier = None
         for item in items:
             qn += 1
+            # 2026-09-07 章内分层节标题：基础巩固（d≤3）/ 竞赛提升（d4~d5）
+            tier = "基础巩固" if item["difficulty"] <= 3 else "竞赛提升"
+            if tier != _last_tier:
+                lines.append(f"## {tier}")
+                lines.append("")
+                _last_tier = tier
             fid = item["fidelity"]
             tag = "🟢" if "逐字" in fid else ("🔵" if "自编" in fid else "🟡")
             d = item["difficulty"]
