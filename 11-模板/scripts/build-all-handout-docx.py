@@ -59,7 +59,9 @@ from docx_utils import add_exercise_cover
 SCRIPT_DIR = Path(__file__).resolve().parent
 VAULT_ROOT = SCRIPT_DIR.parent.parent
 HANDOUT_SRC = VAULT_ROOT / "04-课件" / "学生讲义"
-HANDOUT_OUT = VAULT_ROOT / "00-首页" / "学生讲义Word"
+# 2026-09-07 收敛：产物统一放 06-学生侧材料/讲义（SOP 规定派生统一放 06-学生侧材料），
+# 不再堆在导航区 00-首页。旧版产物见 06-学生侧材料/讲义/_archive-旧版产物/
+HANDOUT_OUT = VAULT_ROOT / "06-学生侧材料" / "讲义"
 
 SRC_GLOB = "*.md"
 
@@ -2295,6 +2297,9 @@ def main():
     )
 
     # ── Optional exercise-book batch root (chapter files under 篇 dirs) ──
+    # 默认 batch_root = HANDOUT_SRC：产物按讲义源模块分子目录输出，
+    # 与 06-学生侧材料/讲义 的布局一致；传 --batch-root 时按习题书 篇 分目录（行为不变）。
+    batch_root = HANDOUT_SRC
     if args.batch_root:
         batch_root = Path(args.batch_root).expanduser().resolve()
         if not batch_root.is_dir():
@@ -2366,7 +2371,7 @@ def main():
 
             def _convert_one(md_path: Path) -> tuple[str, bool | str]:
                 try:
-                    dynamic_output_dir = output_dir / md_path.parent.relative_to(batch_root) if args.batch_root else output_dir
+                    dynamic_output_dir = output_dir / md_path.parent.relative_to(batch_root)
                     dynamic_output_dir.mkdir(parents=True, exist_ok=True)
                     out = convert_file(
                         md_path,
@@ -2411,7 +2416,7 @@ def main():
                     print()
                     continue
                 try:
-                    dynamic_output_dir = output_dir / md_path.parent.relative_to(batch_root) if args.batch_root else output_dir
+                    dynamic_output_dir = output_dir / md_path.parent.relative_to(batch_root)
                     dynamic_output_dir.mkdir(parents=True, exist_ok=True)
                     out = convert_file(
                         md_path,
@@ -2448,9 +2453,14 @@ def main():
         sys.exit(1 if errors else 0)
 
     # ── Gather input files ──
-    all_md = sorted(HANDOUT_SRC.glob(SRC_GLOB))
+    # 2026-09-07：讲义源按学科模块分了子目录，改为递归采集；排除 _归档（旧版）与 _ 开头的辅助目录
+    all_md = sorted(
+        p for p in HANDOUT_SRC.rglob("*.md")
+        if "_归档" not in p.relative_to(HANDOUT_SRC).parts
+        and not p.relative_to(HANDOUT_SRC).parts[0].startswith("_")
+    )
     if not all_md:
-        print(f"ERROR: No files matching '{SRC_GLOB}' found in {HANDOUT_SRC}", file=sys.stderr)
+        print(f"ERROR: No handout .md found under {HANDOUT_SRC}", file=sys.stderr)
         sys.exit(1)
 
     # Skip non-handout files
@@ -2569,7 +2579,7 @@ def main():
                 print()
                 continue
 
-            dynamic_output_dir = output_dir / md_path.parent.relative_to(batch_root) if args.batch_root else output_dir
+            dynamic_output_dir = output_dir / md_path.parent.relative_to(batch_root)
             dynamic_output_dir.mkdir(parents=True, exist_ok=True)
             try:
                 out = convert_file(
