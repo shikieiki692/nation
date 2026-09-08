@@ -2280,6 +2280,12 @@ def main():
         "--cover", action="store_true",
         help="Insert a chapter cover page (book/part/chapter title, question count, date)",
     )
+    parser.add_argument(
+        "--filename-suffix", type=str, default="",
+        help="Append a literal suffix to every batch output filename stem (e.g. '-教师版') "
+             "so teacher/student editions can share one flattened output directory "
+             "(used by gate_exercise_books.py for 00-首页/题组Word/习题书)",
+    )
     args = parser.parse_args()
 
     if args.self_test:
@@ -2338,6 +2344,13 @@ def main():
                     f"{p.name} -> {s}" for p, s in output_stem_by_path.items() if s
                 )
             )
+        if args.filename_suffix:
+            for md_path in files:
+                base = output_stem_by_path.get(md_path)
+                if base is None:
+                    base = re.sub(r'[\\/:*?"<>|]+', "-", md_path.stem).strip()
+                output_stem_by_path[md_path] = base + args.filename_suffix
+            print(f"Filename suffix applied: '{args.filename_suffix}'")
         print(f"Selected {len(files)} for processing")
         if args.precheck_only:
             print("Mode: Word source precheck only (formula + Mermaid)\n")

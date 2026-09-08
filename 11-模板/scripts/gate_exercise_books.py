@@ -49,9 +49,9 @@ def main() -> int:
                 *(("--edition", edition) if edition == "student" else ()),
             )
             results.append((f"build-{edition}", code == 0, tail))
-        for root, out in (
-            ("04-课件/习题集/习题书-教师版", "00-首页/题组Word/习题书/教师版"),
-            ("04-课件/习题集/习题书-学生版", "00-首页/题组Word/习题书/学生版"),
+        for root, out, suf in (
+            ("04-课件/习题集/习题书-教师版", "00-首页/题组Word/习题书", "-教师版"),
+            ("04-课件/习题集/习题书-学生版", "00-首页/题组Word/习题书", "-学生版"),
         ):
             code, tail = run(
                 "build-all-handout-docx.py",
@@ -59,6 +59,8 @@ def main() -> int:
                 root,
                 "--output-dir",
                 out,
+                "--filename-suffix",
+                suf,
                 "--strict-images",
                 "--cover",
                 "--parallel",

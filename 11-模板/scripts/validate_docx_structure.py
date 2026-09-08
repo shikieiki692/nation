@@ -14,14 +14,25 @@ from pathlib import Path
 from PIL import Image
 
 VAULT_ROOT = Path(__file__).resolve().parents[2]
-DOCX_ROOTS = [
-    VAULT_ROOT / "00-首页/题组Word/习题书/教师版",
-    VAULT_ROOT / "00-首页/题组Word/习题书/学生版",
-]
+# 2026-09-08 重组后：习题书 docx 拍平为 习题书/第X篇-…/章节-版本.docx（后缀式命名）
+DOCX_ROOT = VAULT_ROOT / "00-首页/题组Word/习题书"
+# 文件名后缀 → 版本（顺序敏感：先长后短）；打印版与学生版共用 md 源
+EDITION_SUFFIXES = (
+    ("-学生版-打印版", "学生版"),
+    ("-学生版", "学生版"),
+    ("-教师版", "教师版"),
+)
 MD_ROOTS = {
     "教师版": VAULT_ROOT / "04-课件/习题集/习题书-教师版",
     "学生版": VAULT_ROOT / "04-课件/习题集/习题书-学生版",
 }
+
+
+def parse_edition(stem: str) -> tuple[str | None, str]:
+    for suf, ed in EDITION_SUFFIXES:
+        if stem.endswith(suf):
+            return ed, stem[: -len(suf)]
+    return None, stem
 RENDER_DIRS = [
     "1-热力学",
     "3-晶体结构",
@@ -65,29 +76,31 @@ def png_nonblank(path: Path) -> float:
 
 def main() -> int:
     rows: list[dict] = []
-    for root in DOCX_ROOTS:
-        edition = root.name
-        for docx in sorted(root.glob("*.docx")):
-            stats = docx_stats(docx)
-            md = MD_ROOTS[edition] / docx.stem.replace("-", "-", 1)
-            md_candidates = list(MD_ROOTS[edition].rglob(f"{docx.stem}.md"))
-            md_unique, md_total = (
-                md_image_count(md_candidates[0]) if md_candidates else (-1, -1)
-            )
-            rows.append(
-                {
-                    "edition": edition,
-                    "chapter": docx.stem,
-                    "media": stats["media"],
-                    "tables": stats["tables"],
-                    "drawings": stats["drawings"],
-                    "blips": stats["blips"],
-                    "text_runs": stats["text_runs"],
-                    "md_images_unique": md_unique,
-                    "md_images_total": md_total,
-                    "media_match": md_unique < 0 or stats["media"] == md_unique,
-                }
-            )
+    skipped: list[str] = []
+    for docx in sorted(DOCX_ROOT.rglob("*.docx")):
+        edition, chapter_stem = parse_edition(docx.stem)
+        if edition is None:
+            skipped.append(docx.stem)
+            continue
+        stats = docx_stats(docx)
+        md_candidates = list(MD_ROOTS[edition].rglob(f"{chapter_stem}.md"))
+        md_unique, md_total = (
+            md_image_count(md_candidates[0]) if md_candidates else (-1, -1)
+        )
+        rows.append(
+            {
+                "edition": edition,
+                "chapter": chapter_stem,
+                "media": stats["media"],
+                "tables": stats["tables"],
+                "drawings": stats["drawings"],
+                "blips": stats["blips"],
+                "text_runs": stats["text_runs"],
+                "md_images_unique": md_unique,
+                "md_images_total": md_total,
+                "media_match": md_unique < 0 or stats["media"] == md_unique,
+            }
+        )
 
     render_rows: list[dict] = []
     for name in RENDER_DIRS:
@@ -164,9 +177,11 @@ def main() -> int:
     bad = [r for r in rows if not r["media_match"]]
     blank_total = sum(r["blank_count"] for r in render_rows)
     print(
-        f"docx={len(rows)} media_mismatch={len(bad)} "
+        f"docx={len(rows)} skipped_no_suffix={len(skipped)} media_mismatch={len(bad)} "
         f"rendered_pages={sum(r['pages'] for r in render_rows)} blank_pages={blank_total}"
     )
+    if skipped:
+        print("skipped:", ", ".join(skipped[:10]))
     return 1 if bad or blank_total else 0
 
 
