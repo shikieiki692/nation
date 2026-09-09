@@ -1578,6 +1578,40 @@ def _preprocess_markdown(text: str) -> str:
                   ),
                   text)
 
+    # 5) 行级数学平衡守卫（2026-09-09）：$$ 块外的文本行若含未闭合的 \( 或
+    #    \begin{env}（OCR 残片，如 2-分子结构与化学键 L3736「/>…\( \begin{array}{c}NH_2-N-…」），
+    #    pandoc 的 raw-TeX 解析会向前扫描到远处 \end{array}，把中间的图片/段落整块吞掉
+    #    （曾致单章 31/254 张图丢失、strict-images 拒收）。行尾自动补齐缺失终止符，
+    #    把破坏限制在单行内。$$ 块内的多行 array 属正常形态，不干预。
+    _paren_open = re.compile(r"\\\(")
+    _paren_close = re.compile(r"\\\)")
+    _env_open = re.compile(r"\\begin\{([A-Za-z*]+)\}")
+    _env_close = re.compile(r"\\end\{([A-Za-z*]+)\}")
+    out_lines: list[str] = []
+    in_display = False
+    for _ln in text.split("\n"):
+        if _ln.count("$$") % 2 == 1:
+            in_display = not in_display
+            out_lines.append(_ln)
+            continue
+        if not in_display:
+            n_open = len(_paren_open.findall(_ln))
+            n_close = len(_paren_close.findall(_ln))
+            missing_envs: list[str] = []
+            env_balance: dict[str, int] = {}
+            for m in _env_open.finditer(_ln):
+                env_balance[m.group(1)] = env_balance.get(m.group(1), 0) + 1
+            for m in _env_close.finditer(_ln):
+                env_balance[m.group(1)] = env_balance.get(m.group(1), 0) - 1
+            for env, k in env_balance.items():
+                missing_envs.extend([env] * k)
+            if n_open > n_close or missing_envs:
+                _ln = _ln + "\\)" * (n_open - n_close) + "".join(
+                    f"\\end{{{env}}}" for env in reversed(missing_envs)
+                )
+        out_lines.append(_ln)
+    text = "\n".join(out_lines)
+
     return text
 
 
@@ -2351,6 +2385,13 @@ def main():
                     base = re.sub(r'[\\/:*?"<>|]+', "-", md_path.stem).strip()
                 output_stem_by_path[md_path] = base + args.filename_suffix
             print(f"Filename suffix applied: '{args.filename_suffix}'")
+        # --file 定向过滤放最后：重名消歧与后缀始终按全量计算，保证命名稳定
+        # （2026-09-09：此前 batch_root 模式忽略 --file，定向重建会变成全量重建）
+        if args.file:
+            files = [f for f in files if args.file in f.stem]
+            if not files:
+                print(f"ERROR: No files match --file '{args.file}' under {batch_root}", file=sys.stderr)
+                sys.exit(2)
         print(f"Selected {len(files)} for processing")
         if args.precheck_only:
             print("Mode: Word source precheck only (formula + Mermaid)\n")
