@@ -1244,6 +1244,13 @@ def build_book(module, out_dir, chapter_map, exclude_subs=None):
             d = item["difficulty"]
             if "_q" in item:
                 q_text, a_text = item["_q"], item["_a"]
+                # 大题合并组路径同样过守卫链（曾致 4-配位化学 rebuild 后残留
+                # 裸 \begin{aligned} 块（缺 $$ 定界）→ precheck latex_outside_math
+                # 10 error；2-立体化学残留游离 $$ → 掩码错位 10 error）。
+                # 顺序关键：先清游离 $$ → 修断腿 → 最后 wrap_bare_math 包裸块，
+                # 否则 balance 会把 wrap 刚加的 $$ 误判为游离删掉。
+                q_text = wrap_bare_math(fix_broken_frac(balance_dollar_pairs(q_text)))
+                a_text = wrap_bare_math(fix_broken_frac(balance_dollar_pairs(a_text)))
             else:
                 q_text, a_text = split_question_answer(item["body"], item.get("source", ""))
                 q_text = clean_section_text(q_text)
