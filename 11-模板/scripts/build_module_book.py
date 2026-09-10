@@ -211,6 +211,10 @@ def clean_section_text(s):
     s = flatten_embedded_details(s)
     s = normalize_markdown_images(s)
     s = normalize_obsidian_embeds(s)
+    # 2026-09-10: split_question_answer 已移除题源首个 H1，此处残留的 H1
+    # 均为混入垃圾（下一讲导语标题、题面内例题标题等，曾致 3-化学动力学
+    # 生成「# 第9讲 溶液与化学分析」标题跳跃）。降级为加粗行，消除层级跳跃。
+    s = re.sub(r"(?m)^# (?!#)(.+)$", r"**\1**", s)
     s = re.sub(r"(?m)^##\s+", "### ", s)
     return s.strip()
 
