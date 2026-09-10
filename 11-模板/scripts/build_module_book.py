@@ -222,9 +222,21 @@ def balance_dollar_pairs(text: str) -> str:
     跨度 >8 行的游离 opener（后续为非数学行）/closer 删行，迭代至配对正常。"""
     MATH_HINT = ("\\frac", "\\begin", "\\mathrm", "\\times", "\\cdot", "\\dfrac",
                  "\\sum", "\\int", "\\approx", "\\\\", "^", "_", "$", "=", "\\(")
+    _LATEX_CMD_RE = re.compile(r"\\[a-zA-Z]+")
+    _CJK_RE = re.compile(r"[\u4e00-\u9fff]")
 
     def looks_math(line):
-        return any(h in line for h in MATH_HINT)
+        # 2026-09-10 两轮修复：
+        # ① hint 枚举漏 \\end/\\right/\\stackrel 等，曾把「\\end{array} 行 + $$ closer」
+        #   误判非数学而删合法 closer（2-立体化学/4-配位化学 22 precheck error）；
+        # ② 排序答案展示块「$$\n(e) < (d) < …\n$$」无枚举命中被误删（6-羰基化学等
+        #   6 error）。最终判定：含 LaTeX 命令 = 数学；含 CJK 中文 = 非数学；
+        #   其余（纯符号/排序行）保守保留。
+        if _LATEX_CMD_RE.search(line):
+            return True
+        if _CJK_RE.search(line):
+            return False
+        return True
 
     lines = text.split("\n")
     for _round in range(10):
@@ -235,27 +247,37 @@ def balance_dollar_pairs(text: str) -> str:
                     spans.append((opens.pop(), i))
                 else:
                     opens.append(i)
-        bad = sorted([(a, b) for a, b in spans if b - a > 8], key=lambda x: x[0])
-        if not bad and not opens:
-            break
+        # 2026-09-10 升级：题源存在「$$ 当视觉分隔符」形态（$$ 后紧跟中文说明，
+        # 再接裸 array——题-033-8-1 实证），这类 opener 无论跨度都应删除；
+        # 伪分隔检查应用于所有配对，无法判定的 span 跳过不阻断其他 span。
         if opens:
             a = opens[-1]
             del lines[a]
             continue
-        a, b = bad[0]
-        k = a + 1
-        while k < len(lines) and not lines[k].strip():
-            k += 1
-        if k < len(lines) and not looks_math(lines[k]):
-            del lines[a]
+        fixed = False
+        # opener 后首个非空行非数学 → 伪分隔符 opener，删除
+        for a, b in spans:
+            k = a + 1
+            while k < len(lines) and not lines[k].strip():
+                k += 1
+            if k < len(lines) and not looks_math(lines[k]):
+                del lines[a]
+                fixed = True
+                break
+        if fixed:
             continue
-        k = b - 1
-        while k >= 0 and not lines[k].strip():
-            k -= 1
-        if k >= 0 and not looks_math(lines[k]):
-            del lines[b]
+        # 跨度兜底：closer 前最后非空行非数学 → 删 closer（长跨度优先）
+        for a, b in sorted(spans, key=lambda x: -(x[1] - x[0])):
+            k = b - 1
+            while k >= 0 and not lines[k].strip():
+                k -= 1
+            if k >= 0 and not looks_math(lines[k]):
+                del lines[b]
+                fixed = True
+                break
+        if fixed:
             continue
-        break  # 无法自动判定，保留现状（质量告警会捕获）
+        break  # 所有 span 均无法自动判定，保留现状（质量告警会捕获）
     return "\n".join(lines)
 
 
