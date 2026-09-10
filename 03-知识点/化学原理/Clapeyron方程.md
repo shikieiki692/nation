@@ -61,6 +61,38 @@ $$\frac{d \ln p}{dT} = \frac{\Delta_{\text{vap}}H}{RT^2}$$
 - 外压增大使沸点升高
 - 高海拔地区气压低，水的沸点低于100°C
 
+## 相图两相线的斜率符号规则（竞赛核心）
+
+由 $\frac{dp}{dT} = \frac{\Delta_{\text{trans}}H}{T\,\Delta_{\text{trans}}V}$，$T>0$，斜率符号完全由 $\Delta_{\text{trans}}H$ 与 $\Delta_{\text{trans}}V$ 的符号决定：
+
+| 相界线 | $\Delta H$ | $\Delta V$ | 斜率 | 说明 |
+|:--|:--:|:--:|:--:|:--|
+| 液-气（蒸气压曲线） | $>0$ | $>0$ | 恒正 | 任意物质均如此 |
+| 固-气（升华曲线） | $>0$ | $>0$ | 恒正 | 同上，且因 $\Delta_{\text{sub}}H>\Delta_{\text{vap}}H$ 更陡 |
+| 固-液（熔化曲线） | $>0$ | 多数 $>0$ | 多数为正 | **水、镓、铋等例外**：$\Delta_{\text{fus}}V<0$，斜率为负 |
+
+- **水的负斜率**：冰密度 < 水密度，加压使冰熔化（滑冰原理、复冰效应）；冰 I–VII 多晶形使水相图高压区结构复杂
+- **CO₂ 的特殊三相点**：三相点压力 5.11 atm > 1 atm，常压下不存在液态 CO₂——干冰直接升华，这是「干冰」名字的来源
+- **水的三相点**：273.16 K / 611.65 Pa，是热力学温标的定义点，比冰点（被空气饱和、外压 1 atm）高约 0.01 K
+- 三条两相线在三相点交汇：由两相线斜率可反推第三相界线的相对走向，是分析陌生相图（如 He 的负膨胀异常）的通用工具
+
+## 特鲁顿规则（数量级估算工具）
+
+多数非极性/非缔合液体的摩尔汽化熵近似为常数：
+
+$$\Delta_{\text{vap}}S_m \approx \frac{\Delta_{\text{vap}}H_m}{T_b} \approx 85\ \mathrm{J\,mol^{-1}\,K^{-1}}$$
+
+- 已知正常沸点 $T_b$ 即可估算 $\Delta_{\text{vap}}H_m \approx 85\,T_b$，代入 Clausius-Clapeyron 方程做数量级估算
+- **失效场景**：氢键缔合液体（水 109、乙醇 111 J·mol⁻¹·K⁻¹，偏高）与正常沸点接近临界温度的液体（偏低）——竞赛判断题常考此例外
+
+## 推导要点（从相平衡条件出发）
+
+1. 纯物质两相平衡 $\iff$ 两相摩尔吉布斯自由能相等：$G_m(\alpha) = G_m(\beta)$
+2. 沿两相线移动时保持相等，取微分：$\mathrm{d}G_m(\alpha) = \mathrm{d}G_m(\beta)$
+3. 代入热力学基本方程 $\mathrm{d}G_m = -S_m\,\mathrm{d}T + V_m\,\mathrm{d}p$
+4. 整理得 $(V_m^\beta - V_m^\alpha)\,\mathrm{d}p = (S_m^\beta - S_m^\alpha)\,\mathrm{d}T$，即 $\frac{dp}{dT} = \frac{\Delta_{\text{trans}}S}{\Delta_{\text{trans}}V}$
+5. 可逆相变 $\Delta_{\text{trans}}S = \Delta_{\text{trans}}H / T$，代入即得 Clapeyron 方程——全程无近似，对任意两相平衡严格成立
+
 ## 典型应用
 
 - 计算不同海拔高度水的沸点
@@ -110,4 +142,23 @@ Clapeyron方程应在学习相平衡和热力学基本关系之后引入。先�
 2. **高海拔与高压锅**：海拔升高气压降低，水的沸点下降；高原地区用高压锅增大压力提高沸点，使食物更快煮熟
 3. **蒸馏技术**：工业蒸馏塔利用不同物质蒸气压的温度依赖性差异进行分离，克拉佩隆方程用于计算不同压力下的沸点、优化分离条件
 
+### 竞赛级例题
+
+**题目 3（负斜率定量）**：0 °C 时冰的熔化焓为 6.01 kJ/mol，冰的摩尔体积 19.7 cm³/mol，水的摩尔体积 18.0 cm³/mol。估算每升高 1 atm 压力冰熔点变化多少。
+**解答**：$\frac{dT}{dp} = \frac{T\,\Delta_{\text{fus}}V}{\Delta_{\text{fus}}H} = \frac{273.15 \times (18.0-19.7)\times10^{-6}}{6010}\ \mathrm{K/Pa} \approx -7.7\times10^{-8}\ \mathrm{K/Pa}$。换算 1 atm ≈ 1.013×10⁵ Pa，得 $\Delta T \approx -0.0075\ \mathrm{K/atm}$——熔点每升高 1 atm 降低约 0.0075 K，负号与水的负斜率一致；此微小数值也解释了为何熔化曲线在相图上近乎竖直。
+
+**题目 4（特鲁顿规则 + 外推）**：某液体正常沸点 350 K，用特鲁顿规则估算其摩尔汽化热，并求 300 K 下的蒸气压。
+**解答**：$\Delta_{\text{vap}}H \approx 85 \times 350 = 29.8\ \mathrm{kJ/mol}$。$\ln(p/101.3\,\mathrm{kPa}) = -\frac{29800}{8.314}\left(\frac{1}{300}-\frac{1}{350}\right) = -1.70$，$p \approx 18.3\ \mathrm{kPa}$。若该液体为氢键缔合型（如醇），实际 $\Delta_{\text{vap}}H$ 偏高，计算出的蒸气压会偏低——需按特鲁顿规则的失效条件修正判断。
+
+### 与范特霍夫方程的对照
+
+| 维度 | Clapeyron / Clausius-Clapeyron | 范特霍夫方程 |
+|:--|:--|:--|
+| 描述对象 | **相平衡**（纯物质两相） | **化学平衡**（多组分反应） |
+| 平衡条件 | $\mu_\alpha = \mu_\beta$ | $\Delta_r G = 0$ |
+| 数学结构 | $\frac{d\ln p}{dT} = \frac{\Delta_{\text{vap}}H}{RT^2}$ | $\frac{d\ln K}{dT} = \frac{\Delta_r H}{RT^2}$ |
+| 竞赛处理 | 完全同构：会其一即会其二，替换 $p \leftrightarrow K$、$\Delta_{\text{vap}}H \leftrightarrow \Delta_r H$ 即可互推 |
+
 ## 📝 待完善项
+
+- ⬜ 补充 He 相图（加压下液氩/液氦异常）作为负斜率的第二个实例（低优先级，现有内容已自洽）
