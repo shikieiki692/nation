@@ -202,6 +202,63 @@ def wrap_bare_math(text: str) -> str:
     return "\n".join(out)
 
 
+def fix_broken_frac(text: str) -> str:
+    """2026-09-10: 修复行首断腿公式——`\\frac` 被换行切成「前行尾=…」+「行首 rac{」
+    （曾致 3-化学动力学 precheck latex_outside_math 4 error）。合并回前行并还原 \\f。"""
+    lines = text.split("\n")
+    out = []
+    for ln in lines:
+        if ln.startswith("rac{") and out:
+            out[-1] = out[-1].rstrip() + "\\f" + ln
+        else:
+            out.append(ln)
+    return "\n".join(out)
+
+
+def balance_dollar_pairs(text: str) -> str:
+    """2026-09-10: 删除游离 $$（配对栈扫描）——聚合切分会把题源转录残缺的
+    $$ 带进习题书（1-化学基础与计量 3 行游离，致 precheck 全章误报 381 处）。
+    规则与 .workbuddy/tmp/fix_stray_dollars.py 一致：unclosed opener 删行；
+    跨度 >8 行的游离 opener（后续为非数学行）/closer 删行，迭代至配对正常。"""
+    MATH_HINT = ("\\frac", "\\begin", "\\mathrm", "\\times", "\\cdot", "\\dfrac",
+                 "\\sum", "\\int", "\\approx", "\\\\", "^", "_", "$", "=", "\\(")
+
+    def looks_math(line):
+        return any(h in line for h in MATH_HINT)
+
+    lines = text.split("\n")
+    for _round in range(10):
+        opens, spans = [], []
+        for i, l in enumerate(lines):
+            for _ in range(l.count("$$")):
+                if opens:
+                    spans.append((opens.pop(), i))
+                else:
+                    opens.append(i)
+        bad = sorted([(a, b) for a, b in spans if b - a > 8], key=lambda x: x[0])
+        if not bad and not opens:
+            break
+        if opens:
+            a = opens[-1]
+            del lines[a]
+            continue
+        a, b = bad[0]
+        k = a + 1
+        while k < len(lines) and not lines[k].strip():
+            k += 1
+        if k < len(lines) and not looks_math(lines[k]):
+            del lines[a]
+            continue
+        k = b - 1
+        while k >= 0 and not lines[k].strip():
+            k -= 1
+        if k >= 0 and not looks_math(lines[k]):
+            del lines[b]
+            continue
+        break  # 无法自动判定，保留现状（质量告警会捕获）
+    return "\n".join(lines)
+
+
 def clean_section_text(s):
     """统一清理正文：保留图片嵌入，把源文件残留 H2 降级为 H3。"""
     s = strip_wikilinks(s)
@@ -1200,6 +1257,10 @@ def build_book(module, out_dir, chapter_map, exclude_subs=None):
                 a_text = collapse_hrs(a_text)
                 q_text = wrap_bare_math(q_text)
                 a_text = wrap_bare_math(a_text)
+                q_text = fix_broken_frac(q_text)
+                a_text = fix_broken_frac(a_text)
+                q_text = balance_dollar_pairs(q_text)
+                a_text = balance_dollar_pairs(a_text)
 
             # ---- 质量告警（不打断生成，dry-run/正式均汇总打印）----
             loc = f"[{module}] {fname} #{num}.{qn} ← {item['path']}"
