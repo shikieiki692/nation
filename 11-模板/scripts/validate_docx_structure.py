@@ -98,7 +98,9 @@ def main() -> int:
                 "text_runs": stats["text_runs"],
                 "md_images_unique": md_unique,
                 "md_images_total": md_total,
-                "media_match": md_unique < 0 or stats["media"] == md_unique,
+                # 2026-09-10 口径校准：pandoc 对每处引用嵌一份 media（含同图被
+                # 多小问重复引用的合法情形），media 落在 [unique, total] 均为健康
+                "media_match": md_unique < 0 or stats["media"] in (md_unique, md_total),
             }
         )
 
