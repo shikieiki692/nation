@@ -72,9 +72,7 @@ related:
 
 Boltzmann 公式把这两个层次连起来：
 
-```
-S = k ln W
-```
+$$S = k \ln W$$
 
 $W$ 越大，熵越大。所以**熵本质上是「数出来的」**。要会数，就得先会组合数学。
 
@@ -106,9 +104,7 @@ $N=4$ 时「最概然」的优势不明显；当 $N=10^{23}$ 时，最概然分�
 
 ### 2.2 排列 $P(n,m)$：从 $n$ 个里取 $m$ 个**排成一列**
 
-```
-P(n,m) = n(n−1)(n−2)…(n−m+1) = n!/(n−m)!
-```
+$$P(n,m) = n(n-1)(n-2)\cdots(n-m+1) = \frac{n!}{(n-m)!}$$
 
 特例：$P(n,n) = n!$。约定 $0! = 1$。
 
@@ -116,9 +112,7 @@ P(n,m) = n(n−1)(n−2)…(n−m+1) = n!/(n−m)!
 
 排列里每组被重复数了 $m!$ 次（组内顺序），所以
 
-```
-C(n,m) = P(n,m)/m! = n! / ( m! (n−m)! )
-```
+$$C(n,m) = \frac{P(n,m)}{m!} = \frac{n!}{m!\,(n-m)!}$$
 
 性质（都很有用）：
 
@@ -179,9 +173,7 @@ $$
 
 **关键直觉：相对涨落**
 
-```
-σ/⟨n⟩ = sqrt(Np(1−p)) / (Np) = sqrt((1−p)/(Np)) ∝ 1/√N
-```
+$$\frac{\sigma}{\langle n\rangle} = \frac{\sqrt{Np(1-p)}}{Np} = \sqrt{\frac{1-p}{Np}} \propto \frac{1}{\sqrt{N}}$$
 
 - $N=1000$、$p=0.5$：$\sigma/\langle n\rangle = \sqrt{(1-p)/(Np)} = \sqrt{0.5/500} = 3.2\%$
 - $N=10^{23}$：$\sigma/\langle n\rangle \approx 3\times10^{-12}$
@@ -190,9 +182,7 @@ $$
 
 ### 3.4 $N$ 很大时的极限：正态分布
 
-```
-P(n) ≈ 1/(σ√(2π)) · exp( −(n−Np)² / (2σ²) )
-```
+$$P(n) \approx \frac{1}{\sigma\sqrt{2\pi}}\exp\!\left[-\frac{(n-Np)^2}{2\sigma^2}\right]$$
 
 （由 Stirling 代入 $C(N,n)$ 可推得，此处从略。）用于估计「偏离均值超过 $k\sigma$」的概率：
 
@@ -231,9 +221,7 @@ $$
 
 加上更精细的修正项（由 Euler-Maclaurin 或 Laplace 方法给出，此处不推）得**完整式**：
 
-```
-ln(N!) ≈ N ln N − N + (1/2) ln(2πN)      （Stirling 完整式）
-```
+$$\ln(N!) \approx N\ln N - N + \frac{1}{2}\ln(2\pi N) \qquad \text{（Stirling 完整式）}$$
 
 等价的阶乘形式：$N! \approx \sqrt{2\pi N}\,(N/e)^N$。
 
@@ -263,17 +251,13 @@ ln(N!) ≈ N ln N − N + (1/2) ln(2πN)      （Stirling 完整式）
 
 **推论 1**（$n\ll N$ 时）：
 
-```
-ln( N!/(N−n)! ) ≈ n ln N
-```
+$$\ln\frac{N!}{(N-n)!} \approx n\ln N$$
 
 推导：$N\ln N - N - [(N-n)\ln(N-n) - (N-n)]$，用 $\ln(N-n)\approx\ln N - n/N$ 展开即得（练习 16）。
 
 **推论 2**（二项式系数）：
 
-```
-ln C(2n, n) ≈ 2n ln 2 − (1/2) ln(π n)
-```
+$$\ln C(2n,n) \approx 2n\ln 2 - \frac{1}{2}\ln(\pi n)$$
 （即 $C(2n,n)\approx 4^n/\sqrt{\pi n}$）
 
 ---
@@ -284,26 +268,24 @@ ln C(2n, n) ≈ 2n ln 2 − (1/2) ln(π n)
 
 $N$ 个分子，其中 $N_1$ 个是 A、$N_2$ 个是 B（$N_1+N_2=N$）。分子**可区分**（经典极限），则把 $N$ 个位置分配给 A、B 的方式数：
 
-```
-W = N! / ( N₁! N₂! )
-```
+$$W = \frac{N!}{N_1!\,N_2!}$$
 
 （先全排列 $N!$，再除掉 A 内部 $N_1!$ 与 B 内部 $N_2!$ 的重复计数。）
 
 ### 5.2 代入 Stirling
 
-```
-ln W = ln N! − ln N₁! − ln N₂!
-     = (N ln N − N) − (N₁ ln N₁ − N₁) − (N₂ ln N₂ − N₂)
-     = N ln N − N₁ ln N₁ − N₂ ln N₂          （−N + N₁ + N₂ = 0，抵消）
-```
+$$\begin{aligned}
+\ln W &= \ln N! - \ln N_1! - \ln N_2! \\
+&= (N\ln N - N) - (N_1\ln N_1 - N_1) - (N_2\ln N_2 - N_2) \\
+&= N\ln N - N_1\ln N_1 - N_2\ln N_2 \qquad (\text{因 } -N+N_1+N_2=0\text{，抵消})
+\end{aligned}$$
 
 提出 $N$：令 $x_i = N_i/N$（摩尔分数），$N_i\ln N_i = N_i(\ln N + \ln x_i)$：
 
-```
-ln W = N ln N − (N₁+N₂) ln N − N₁ ln x₁ − N₂ ln x₂
-     = −N ( x₁ ln x₁ + x₂ ln x₂ )
-```
+$$\begin{aligned}
+\ln W &= N\ln N - (N_1+N_2)\ln N - N_1\ln x_1 - N_2\ln x_2 \\
+&= -N\,(x_1\ln x_1 + x_2\ln x_2)
+\end{aligned}$$
 
 **注意**：这一步里 $N\ln N$ 正好抵消，所以**高阶修正项才是主要误差源**——与 4.3 的警告一致。
 
@@ -453,9 +435,7 @@ $$
 
 ### 7.2 方差与标准差
 
-```
-σ² = ⟨x²⟩ − ⟨x⟩²
-```
+$$\sigma^2 = \langle x^2\rangle - \langle x\rangle^2$$
 
 $N$ 很大时 $\sigma \propto \sqrt{N}$，而均值 $\propto N$，故相对涨落 $\propto 1/\sqrt{N}$（3.3 已述）。
 

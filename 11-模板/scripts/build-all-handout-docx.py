@@ -413,8 +413,11 @@ def _run_word_formula_precheck(
     caption_complex_math = re.compile(
         r"(?<!\\)\$(?!\$)|\\\(|\\\[|\\(?:frac|sqrt|ce|mathrm|Delta|theta|boxed|overset|underset)|[_^]"
     )
+    # 注意：围栏可能写在引用块里（每行带 "> " 前缀），此时 Obsidian 不渲染、
+    # pandoc 也不识别，源码会原样落进 Word。故前后都要容忍 ">" 前缀。
+    _quote_prefix = r"(?:[ \t]*>[ \t]?)*"
     mermaid_fence_start = re.compile(
-        r"^[ \t]*(?P<fence>`{3,}|~{3,})[ \t]*mermaid(?:\s+.*)?$",
+        rf"^[ \t]*{_quote_prefix}(?P<fence>`{{3,}}|~{{3,}})[ \t]*mermaid(?:\s+.*)?$",
         re.IGNORECASE,
     )
     md_embed = re.compile(r"!\[\[([^\]]+\.md)(?:\|([^\]]*))?\]\]", re.IGNORECASE)
@@ -441,7 +444,10 @@ def _run_word_formula_precheck(
             stripped = raw_line.strip()
             if stripped and len(mermaid_excerpt_lines) < 2:
                 mermaid_excerpt_lines.append(stripped)
-            if re.match(rf"^[ \t]*{re.escape(mermaid_fence_char)}{{{mermaid_fence_len},}}[ \t]*$", raw_line):
+            if re.match(
+                rf"^[ \t]*{_quote_prefix}{re.escape(mermaid_fence_char)}{{{mermaid_fence_len},}}[ \t]*$",
+                raw_line,
+            ):
                 excerpt = " | ".join(mermaid_excerpt_lines[:2])
                 _append_precheck_issue(
                     issues,
