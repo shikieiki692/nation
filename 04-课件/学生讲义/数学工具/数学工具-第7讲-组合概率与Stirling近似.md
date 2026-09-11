@@ -360,9 +360,9 @@ $$
 
 给定分布 $\{N_i\}$ 的微观状态数：
 
-```
-W = N! / ( N₀! N₁! N₂! … ) × g₀^{N₀} g₁^{N₁} g₂^{N₂} …
-```
+$$
+W = \frac{N!}{N_0!\,N_1!\,N_2!\ \cdots} \times g_0^{N_0}\, g_1^{N_1}\, g_2^{N_2}\ \cdots
+$$
 
 （前半段是「哪些分子在哪一级」，后半段是「每级内部有 $g_i$ 个简并态可选」。）
 
@@ -376,16 +376,15 @@ W = N! / ( N₀! N₁! N₂! … ) × g₀^{N₀} g₁^{N₁} g₂^{N₂} …
 
 结果：
 
-```
-N_i / N = g_i e^{−ε_i/kT} / q
-q ≡ Σ_i g_i e^{−ε_i/kT}      （配分函数）
-```
+$$
+\frac{N_i}{N} = \frac{g_i\, e^{-\varepsilon_i/kT}}{q}, \qquad q \equiv \sum_i g_i\, e^{-\varepsilon_i/kT}\ \text{（配分函数）}
+$$
 
 这就是 **Boltzmann 分布**。两个直接推论：
 
-```
-N_j / N_i = (g_j/g_i) · e^{−(ε_j − ε_i)/kT}
-```
+$$
+\frac{N_j}{N_i} = \frac{g_j}{g_i}\ e^{-(\varepsilon_j - \varepsilon_i)/kT}
+$$
 
 - 温度 $T\to0$：只有最低能级有布居（$e^{-\Delta\varepsilon/kT}\to0$）
 - $T\to\infty$：各能级布居比趋于简并度之比 $g_j/g_i$（全部均匀摊开）
@@ -394,11 +393,13 @@ N_j / N_i = (g_j/g_i) · e^{−(ε_j − ε_i)/kT}
 
 设 $\varepsilon_0 = 0$、$\varepsilon_1 = \varepsilon$、简并度 $g_0=g_1=1$。
 
-```
-q = 1 + e^{−ε/kT}
-N₁/N₀ = e^{−ε/kT}
-N₁/N = e^{−ε/kT} / (1 + e^{−ε/kT})
-```
+$$
+\begin{aligned}
+q &= 1 + e^{-\varepsilon/kT} \\
+\frac{N_1}{N_0} &= e^{-\varepsilon/kT} \\
+\frac{N_1}{N} &= \frac{e^{-\varepsilon/kT}}{1 + e^{-\varepsilon/kT}}
+\end{aligned}
+$$
 
 **数值例**（取 $\varepsilon = 207.2\ \mathrm{cm^{-1}}$，恰好等于 298 K 的 $k_BT$，见第 6 讲 4.2 表）：
 
@@ -413,9 +414,9 @@ N₁/N = e^{−ε/kT} / (1 + e^{−ε/kT})
 
 ### 6.4 配分函数 $q$ 的物理意义
 
-```
-q = Σ_i g_i e^{−ε_i / kT}
-```
+$$
+q = \sum_i g_i\ e^{-\varepsilon_i/kT}
+$$
 
 - 它是「按 Boltzmann 因子加权后的**有效可及状态数**」。
 - 数值上：基态贡献 1，其余能级各贡献一个 `<1` 的数。故 $q \geq 1$。
@@ -423,10 +424,12 @@ q = Σ_i g_i e^{−ε_i / kT}
 
 **例 6-1**：三能级 $0,\ \varepsilon,\ 2\varepsilon$（简并度均 1），$T$ 使 $k_BT = \varepsilon$：
 
-```
-q = 1 + e^{−1} + e^{−2} = 1 + 0.368 + 0.135 = 1.503
-P₀ = 1/1.503 = 66.5%     P₁ = 0.368/1.503 = 24.5%     P₂ = 0.135/1.503 = 9.0%
-```
+$$
+\begin{aligned}
+q &= 1 + e^{-1} + e^{-2} = 1 + 0.368 + 0.135 = 1.503 \\
+P_0 &= \frac{1}{1.503} = 66.5\%, \quad P_1 = \frac{0.368}{1.503} = 24.5\%, \quad P_2 = \frac{0.135}{1.503} = 9.0\%
+\end{aligned}
+$$
 
 检验：$66.5+24.5+9.0 = 100\%$ ✓
 
@@ -442,9 +445,9 @@ $$
 
 对二项分布：$\langle n\rangle = Np$（3.3 已给）；对 Boltzmann 分布，平均能量：
 
-```
-⟨ε⟩ = Σ_i ε_i · g_i e^{−ε_i/kT} / q
-```
+$$
+\langle\varepsilon\rangle = \frac{\sum_i \varepsilon_i\, g_i\, e^{-\varepsilon_i/kT}}{q}
+$$
 
 （可用 $-\partial\ln q/\partial\beta$ 简洁求出，$\beta = 1/kT$；此处只要求会直接按定义算。）
 
