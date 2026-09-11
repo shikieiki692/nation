@@ -40,6 +40,11 @@ eiki/
 copilot/
 .agents/
 
+# 构建/工具工作区（2026-09-06 审计补充）
+pptx-workspace/
+scripts/
+skills/
+
 # 临时构建产物（2026-09-01）
 .tmp-*/
 .preview_build*/
@@ -55,3 +60,7 @@ images_in_q.txt
 
 # 校验器每次全量重生成的依赖图（6.5 MB，每次提交 churn 约 20 万行）
 02-数据库/dependency-map.json
+
+# Word / Office 打开文档时生成的临时锁文件（~$xxx.docx），非真实产物
+~$*.docx
+~$*.doc

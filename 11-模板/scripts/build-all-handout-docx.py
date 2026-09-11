@@ -71,6 +71,14 @@ VAULT_MEDIA = VAULT_ROOT / "媒体仓库"
 # Pandoc 转换扩展
 PANDOC_EXTENSIONS = "markdown+tex_math_dollars+tex_math_single_backslash+pipe_tables+raw_tex"
 
+# 是否把 `$X^{n}$` 这类「简单上标」行内公式降级成 Unicode 纯文本（`$10^{23}$` → `10²³`）。
+# 2026-09-11 起默认 **关闭**：降级会连 `$` 一起去掉，公式不再是 Word 公式对象（OMML），
+# 表格里的量纲 / 单位公式（`$MT^{-2}$`、`$ITN^{-1}$`、`$10^{23}$`）退化成带格式的文本，
+# 学生看到的实际内容是「MT-2」——没有公式语义，也无法用 Word 的公式工具编辑。
+# 已验证 pandoc 原生（tex_math_dollars）能正确转换这类公式，降级已无必要。
+# 需要对比旧行为时置 True 即可回滚。
+NORMALIZE_SIMPLE_INLINE_SCRIPTS = False
+
 # 参考模板（字体/页边距已预设好）
 REFERENCE_DOC = SCRIPT_DIR / "templates" / "custom-reference.docx"
 RENDER_SCRIPT = SCRIPT_DIR / "render_docx_windows.py"
@@ -1425,7 +1433,9 @@ def _preprocess_markdown(text: str) -> str:
     # 0c) Normalize split-script inline math like `Na$^+$` / `2s$^2$`
     text = _normalize_split_inline_scripts(text)
     # 0d) Simplify safe inline tokens like `$I_1$` → `I₁`, `$Z^*$` → `Z*`
-    text = _normalize_simple_inline_math_tokens(text)
+    #     默认关闭，保留为 Word 公式对象（见 NORMALIZE_SIMPLE_INLINE_SCRIPTS 注释）
+    if NORMALIZE_SIMPLE_INLINE_SCRIPTS:
+        text = _normalize_simple_inline_math_tokens(text)
     # 0e) Normalize attached simple scripts like `NO$_2^-$` / `[O=N-O]$^-$`
     text = _normalize_attached_simple_math_scripts(text)
     # 0f) Normalize MO orbital notation so Word/Obsidian render correctly.
