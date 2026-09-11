@@ -35,6 +35,11 @@ CN_HEAD_FONT = "SimHei"        # 黑体 — 中文标题 / 表头
 EN_FONT = "Times New Roman"    # 英文 / 数字 / 变量 / 一般符号
 CN_CAPTION_FONT = "FangSong"   # 仿宋 — 图例题注（仿宋五号居中）
 
+# 代码块 / 行内代码必须保持等宽网格，否则靠空格对齐的 ASCII 图、表、判断树会整体错位。
+# SimSun 是最省事的等宽选择：西文字形是半角等宽，汉字是全角，天然成网格，且字形仍是衬线、不刺眼。
+MONO_FONT = "SimSun"
+MONO_STYLES = {"VerbatimChar", "SourceCode"}   # pandoc 的行内代码字符样式 / 代码块段落样式
+
 TITLE_COLOR = RGBColor(23, 50, 77)    # 深蓝 — 标题/表头
 SUB_COLOR = RGBColor(91, 105, 117)    # 灰蓝 — 副标题/注释
 
@@ -1076,6 +1081,14 @@ def postprocess_pandoc_docx(
         if rFonts is None:
             continue
 
+        # 代码块/行内代码样式：豁免于"正文/标题字体"策略，保持等宽网格。
+        # 若不豁免，模板里 VerbatimChar 的 SimSun 会被替换成 FangSong、ascii 统一成 TNR，
+        # ASCII 图/表失去等宽网格后必然错位。
+        if sid in MONO_STYLES:
+            for _a in ("w:ascii", "w:hAnsi", "w:eastAsia", "w:cs"):
+                rFonts.set(qn(_a), MONO_FONT)
+            continue
+
         # 判断类别：标题类用 head_font，正文类用 body_font
         is_heading = bool(
             re.match(r"^(heading|Heading|Heading\s*\d+)", sid)
@@ -1117,6 +1130,21 @@ def postprocess_pandoc_docx(
             sv.startswith("Heading") or sv in ("Title", "Subtitle", "TOCHeading")
         )
         cn = head_font if is_heading else body_font
+
+        # 代码块段落：run 级也豁免，全段强制等宽（否则段落样式被豁免了、
+        # 但每个 run 上残留的 ascii=Times New Roman / eastAsia=FangSong 直格式仍会覆盖样式）。
+        if sv == "SourceCode":
+            for run in para.runs:
+                run.font.name = MONO_FONT
+                rPr = run._element.rPr
+                if rPr is None:
+                    continue
+                rFonts = rPr.find(qn("w:rFonts"))
+                if rFonts is None:
+                    continue
+                for _a in ("w:ascii", "w:hAnsi", "w:eastAsia", "w:cs"):
+                    rFonts.set(qn(_a), MONO_FONT)
+            continue
 
         for run in para.runs:
             run.font.name = EN_FONT
