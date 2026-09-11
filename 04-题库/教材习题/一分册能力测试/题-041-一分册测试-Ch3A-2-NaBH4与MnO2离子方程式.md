@@ -46,7 +46,7 @@ source_grade: A-
 答案：
 
 $$
-2 - 1 \quad 8 \mathrm{Au} ^ {3 +} + 3 \mathrm{BH} _ {4} ^ {-} + 2 4 \mathrm{OH} ^ {-} = 8 \mathrm{Au} + 3 \mathrm{BO} _ {2} ^ {-} + 1 8 \mathrm{H} _ {2} \mathrm{O}
+2 - 1 \quad 8 \mathrm{Au} ^ {3 +} + 3 \mathrm{BH} _ {4} ^ {-} + 24 \mathrm{OH} ^ {-} = 8 \mathrm{Au} + 3 \mathrm{BO} _ {2} ^ {-} + 18 \mathrm{H} _ {2} \mathrm{O}
 $$
 
 $$

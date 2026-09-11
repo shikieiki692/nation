@@ -96,7 +96,7 @@ $CH_{3}-CH-CH-C-CH_{2}-CH_{3}$ 分子中 $n_{1}=6,n_{2}=1,n_{3}=2,n_{4}=1$ 。�
 9 将 2-甲基丁烷进行一氯化反应, 已知其四种一氯化产物和相应的百分含量如下:
 
 $$
-\begin{array}{r l} & (\mathrm{CH} _ {3}) _ {2} \mathrm{CHCH} _ {2} \mathrm{CH} _ {3} + \mathrm{Cl} _ {2} \xrightarrow {\text {光}} \\ & \mathrm{ClCH} _ {2} \mathrm{CHCH} _ {2} \mathrm{CH} _ {3} + (\mathrm{CH} _ {3}) _ {2} \mathrm{CCH} _ {2} \mathrm{CH} _ {3} + (\mathrm{CH} _ {3}) _ {2} \mathrm{CHCHCH} _ {3} + \\ & \quad \mathrm{CH} _ {3} \\ & (2 7. 1 \% \quad 2 3. 1 \% \quad 3 6. 2 \% \\ & (\mathrm{CH} _ {3}) _ {2} \mathrm{CHCH} _ {2} \mathrm{CH} _ {2} \mathrm{Cl} \\ & 1 3. 6 \% \end{array}
+\begin{array}{r l} & (\mathrm{CH} _ {3}) _ {2} \mathrm{CHCH} _ {2} \mathrm{CH} _ {3} + \mathrm{Cl} _ {2} \xrightarrow {\text {光}} \\ & \mathrm{ClCH} _ {2} \mathrm{CHCH} _ {2} \mathrm{CH} _ {3} + (\mathrm{CH} _ {3}) _ {2} \mathrm{CCH} _ {2} \mathrm{CH} _ {3} + (\mathrm{CH} _ {3}) _ {2} \mathrm{CHCHCH} _ {3} + \\ & \quad \mathrm{CH} _ {3} \\ & (27.1 \% \quad 23.1 \% \quad 36.2 \% \\ & (\mathrm{CH} _ {3}) _ {2} \mathrm{CHCH} _ {2} \mathrm{CH} _ {2} \mathrm{Cl} \\ & 13.6 \% \end{array}
 $$
 
 试推算伯、仲、叔氢原子被氯取代的活性比。
@@ -390,7 +390,7 @@ O CHO
 ![](高中化学竞赛教程第2分册万长江编,Wanchangjiangbianzhuz-library.sk,1lib.sk,z-lib.sk_200-350_images/ad966eda4ac7a1bb804a8b4bf3a020a20bcf9c5b8e225c04914117a9e1de49ad.jpg)
 
 $$
-\mathrm{CH} _ {2} = \mathrm{CH} _ {2} + \mathrm{O} _ {2} \xrightarrow [ 1 2 0 \sim 1 3 0 ^ {\circ} \mathrm{C} ]{\mathrm{PdCl} _ {2} - \mathrm{CuCl} _ {2}} \mathrm{CH} _ {3} \mathrm{CHO}
+\mathrm{CH} _ {2} = \mathrm{CH} _ {2} + \mathrm{O} _ {2} \xrightarrow [ 120 \sim 130 ^ {\circ} \mathrm{C} ]{\mathrm{PdCl} _ {2} - \mathrm{CuCl} _ {2}} \mathrm{CH} _ {3} \mathrm{CHO}
 $$
 
 (3) 聚合反应 在引发剂或催化剂存在下, 烯烃打开双键自相加成生成高
@@ -645,7 +645,7 @@ $$
 在高温下,三个乙炔分子聚合成一个苯分子。
 
 $$
-3 \mathrm{HC} \equiv \mathrm{CH} \xrightarrow {5 0 0 ^ {\circ} \mathrm{C}} \mathrm{C} _ {6} \mathrm{H} _ {6}
+3 \mathrm{HC} \equiv \mathrm{CH} \xrightarrow {500 ^ {\circ} \mathrm{C}} \mathrm{C} _ {6} \mathrm{H} _ {6}
 $$
 
 ## (4) 炔化物的生成
@@ -707,7 +707,7 @@ $$
 物质的稳定性取决于分子内能的高低, 分子的内能愈低, 其分子愈稳定。分子内能的高低, 通常可通过测定其氢化热来进行比较。例如:
 
 $$
-\begin{array}{r l} \mathrm {CH_ {2}} & = \mathrm {CHCH_ {2} CH} = \mathrm {CH_ {2}} + 2 \mathrm {H_ {2}} \longrightarrow \mathrm {CH_ {3} CH_ {2} CH_ {2} CH_ {2} CH_ {3}} \\ & \Delta H = - 2 5 5 \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1} \\ \mathrm {CH_ {2}} & = \mathrm{CHCH} = \mathrm {CHCH_ {3}} + 2 \mathrm {H_ {2}} \longrightarrow \mathrm {CH_ {3} CH_ {2} CH_ {2} CH_ {2} CH_ {3}} \\ & \Delta H = - 2 2 7 \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1} \end{array}
+\begin{array}{r l} \mathrm {CH_ {2}} & = \mathrm {CHCH_ {2} CH} = \mathrm {CH_ {2}} + 2 \mathrm {H_ {2}} \longrightarrow \mathrm {CH_ {3} CH_ {2} CH_ {2} CH_ {2} CH_ {3}} \\ & \Delta H = - 255 \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1} \\ \mathrm {CH_ {2}} & = \mathrm{CHCH} = \mathrm {CHCH_ {3}} + 2 \mathrm {H_ {2}} \longrightarrow \mathrm {CH_ {3} CH_ {2} CH_ {2} CH_ {2} CH_ {3}} \\ & \Delta H = - 227 \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1} \end{array}
 $$
 
 从以上两反应式可以看出,虽然1,4-戊二烯与1,3-戊二烯氢化后都得到相同的产物,但其氢化热不同,1,3-戊二烯的氢化热比1,4-戊二烯的氢化热低,即1,3-戊二烯的内能比1,4-戊二烯的内能低,1,3-戊二烯较为稳定。
@@ -789,13 +789,13 @@ $C_{28}H_{20}$ 可以看成两个 A 组合而成, 两个碳碳叁键组合成四
 共轭二烯烃与某些具有碳碳双键的不饱和化合物发生 1,4-加成生成环状化合物的反应称为双烯合成,也叫狄尔斯-阿尔德(Diels-Alder)反应。这是共轭二烯烃特有的反应:
 
 $$
-\mathrm{CH} _ {2} = \mathrm{CH} _ {2} \xrightarrow {2 0 0 ^ {\circ} \mathrm{C}} \text {   (cyclohexyl)   }
+\mathrm{CH} _ {2} = \mathrm{CH} _ {2} \xrightarrow {200 ^ {\circ} \mathrm{C}} \text {   (cyclohexyl)   }
 $$
 
 一般把进行双烯合成的共轭二烯烃称作双烯体,另一个不饱和的化合物称为亲双烯体。实验证明,当亲双烯体的双键碳原子上连有一个吸电子基团时,则反应易于进行。如:
 
 $$
-\mathrm{CH} _ {2} = \mathrm{CH} _ {2} \mathrm{CHO} \xrightarrow {1 0 0 ^ {\circ} \mathrm{C}} \text {   -CHO   }
+\mathrm{CH} _ {2} = \mathrm{CH} _ {2} \mathrm{CHO} \xrightarrow {100 ^ {\circ} \mathrm{C}} \text {   -CHO   }
 $$
 
 ## (4) 聚合反应
@@ -909,7 +909,7 @@ $$
 【例 4】（2007 年全国初赛）石竹烯(Caryophyllene, $C_{15}H_{24}$ ) 是一种含有双键的天然产物，其中一个双键的构型是反式的，丁香花气味主要是由它引起的。可从下面的反应推断石竹烯及其相关化合物的结构。
 
 $$
-\text {   石竹烯   } \xrightarrow {\mathrm{H} _ {2} , \mathrm{Pd/C}} \mathrm{C} _ {1 5} \mathrm{H} _ {2 8}
+\text {   石竹烯   } \xrightarrow {\mathrm{H} _ {2} , \mathrm{Pd/C}} \mathrm{C} _ {15} \mathrm{H} _ {28}
 $$
 
 反应 1:
@@ -923,7 +923,7 @@ A
 反应3：
 
 $$
-\text {   石竹烯   } \xrightarrow {\text {   等摩尔   } \mathrm{BH} _ {3} , \mathrm{THF}} \xrightarrow {\mathrm{H} _ {2} \mathrm{O} _ {2} , \mathrm{NaOH} , \mathrm{H} _ {2} \mathrm{O}} \mathrm{C} (\mathrm{C} _ {1 5} \mathrm{H} _ {2 6} \mathrm{O})
+\text {   石竹烯   } \xrightarrow {\text {   等摩尔   } \mathrm{BH} _ {3} , \mathrm{THF}} \xrightarrow {\mathrm{H} _ {2} \mathrm{O} _ {2} , \mathrm{NaOH} , \mathrm{H} _ {2} \mathrm{O}} \mathrm{C} (\mathrm{C} _ {15} \mathrm{H} _ {26} \mathrm{O})
 $$
 
 反应 4:
@@ -1391,7 +1391,7 @@ $$
 苯环很稳定,但在特定条件下仍可以发生加成反应,如在钯、镍等催化下加氢:
 
 $$
-\mathrm{C} _ {6} \mathrm{H} _ {5} + 3 \mathrm{H} _ {2} \xrightarrow [ \mathrm{Ni} ]{2 0 0 ^ {\circ} \mathrm{C}} \mathrm{C} _ {6}
+\mathrm{C} _ {6} \mathrm{H} _ {5} + 3 \mathrm{H} _ {2} \xrightarrow [ \mathrm{Ni} ]{200 ^ {\circ} \mathrm{C}} \mathrm{C} _ {6}
 $$
 
 在紫外光照射下,苯可与氯加成生成六氯代环己烷(六六六)。
@@ -1572,7 +1572,7 @@ C: 丁内酰胺或 $\alpha$ -吡咯烷酮或 $\alpha$ -氧代四氢吡咯 D: 二
 【例2】（2009年全国初赛）1964年，合成大师Woodward提出了利用化合物A $\left(\mathrm{C}_{10}\mathrm{H}_{10}\right)$ 作为前体合成一种特殊的化合物B $\left(\mathrm{C}_{10}\mathrm{H}_{6}\right)$ 。化合物A有三种不同化学环境的氢，其数目比为6:3:1；化合物B分子中所有氢的化学环境相同，B在质谱仪中的自由区场中寿命约为1微秒，在常温下不能分离得到。三十年后化学家们终于由A合成了第一个碗形芳香二价阴离子C， $\left[C_{10}H_{6}\right]^{2-}$ 。化合物C中六个氢的化学环境相同，在一定条件下可以转化为B。化合物A转化为C的过程如下所示：
 
 $$
-\begin{array}{r l} \mathrm{C} _ {1 0} \mathrm{H} _ {1 0} & \xrightarrow [ (\mathrm{CH} _ {3}) _ {2} \mathrm{NCH} _ {2} \mathrm{CH} _ {2} \mathrm{N} (\mathrm{CH} _ {3}) _ {2} ]{n - \text {BuLi}, t - \text {BuOK}, n - \mathrm{C} _ {6} \mathrm{H} _ {1 4}} [ \mathrm{C} _ {1 0} \mathrm{H} _ {6} ] ^ {2 -} \cdot 2 \mathrm{K} ^ {+} \xrightarrow [ \mathrm{C} _ {2} \mathrm{H} _ {5} \mathrm{OC} _ {2} \mathrm{H} _ {5} ]{\mathrm{Me} _ {3} \mathrm{SnX}} \\ & \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad n - \mathrm{C} _ {6} \mathrm{H} _ {1 4} \\ & \xrightarrow [ \mathrm{CH} _ {3} \mathrm{OCH} _ {2} \mathrm{CH} _ {2} \mathrm{OCH} _ {3} ]{\text {MeLi}} [ \mathrm{C} _ {1 0} \mathrm{H} _ {6} ] ^ {2 -} \cdot 2 \mathrm{Li} ^ {+} \\ & \quad - 7 8 ^ {\circ} \mathrm{C} \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad C \cdot 2 L i ^ {+} \end{array}
+\begin{array}{r l} \mathrm{C} _ {10} \mathrm{H} _ {10} & \xrightarrow [ (\mathrm{CH} _ {3}) _ {2} \mathrm{NCH} _ {2} \mathrm{CH} _ {2} \mathrm{N} (\mathrm{CH} _ {3}) _ {2} ]{n - \text {BuLi}, t - \text {BuOK}, n - \mathrm{C} _ {6} \mathrm{H} _ {14}} [ \mathrm{C} _ {10} \mathrm{H} _ {6} ] ^ {2 -} \cdot 2 \mathrm{K} ^ {+} \xrightarrow [ \mathrm{C} _ {2} \mathrm{H} _ {5} \mathrm{OC} _ {2} \mathrm{H} _ {5} ]{\mathrm{Me} _ {3} \mathrm{SnX}} \\ & \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad n - \mathrm{C} _ {6} \mathrm{H} _ {14} \\ & \xrightarrow [ \mathrm{CH} _ {3} \mathrm{OCH} _ {2} \mathrm{CH} _ {2} \mathrm{OCH} _ {3} ]{\text {MeLi}} [ \mathrm{C} _ {10} \mathrm{H} _ {6} ] ^ {2 -} \cdot 2 \mathrm{Li} ^ {+} \\ & \quad - 78 ^ {\circ} \mathrm{C} \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad \quad C \cdot 2 L i ^ {+} \end{array}
 $$
 
 写出 A、B、C 的结构简式。
@@ -3206,7 +3206,7 @@ $$
 过程探究 酚与溴作用时发生苯环取代:
 
 $$
-\begin{array}{r l} \mathrm{C} _ {6} \mathrm{H} _ {4} (\mathrm{CH} _ {3}) \mathrm{OH} + n \mathrm{Br} _ {2} & \longrightarrow \mathrm{C} _ {6} \mathrm{H} _ {(4 - n)} (\mathrm{CH} _ {3}) \mathrm{OHBr} _ {n} \downarrow + n \mathrm{HBr} \\ 1 0 8 \mathrm{g} \cdot \mathrm{mol} ^ {- 1} & , (1 0 8 + 7 9 n) \mathrm{g} \cdot \mathrm{mol} ^ {- 1} \end{array}
+\begin{array}{r l} \mathrm{C} _ {6} \mathrm{H} _ {4} (\mathrm{CH} _ {3}) \mathrm{OH} + n \mathrm{Br} _ {2} & \longrightarrow \mathrm{C} _ {6} \mathrm{H} _ {(4 - n)} (\mathrm{CH} _ {3}) \mathrm{OHBr} _ {n} \downarrow + n \mathrm{HBr} \\ 108 \mathrm{g} \cdot \mathrm{mol} ^ {- 1} & , (108 + 79 n) \mathrm{g} \cdot \mathrm{mol} ^ {- 1} \end{array}
 $$
 
 根据题给条件,由 1 g 物质 A 可生成 3.93 g 物质 B,而由 108 g A 能生成 x g 的 B。
@@ -3460,7 +3460,7 @@ D脱水后生成E环己烯： $\text{苯环}$ ，E再与溴加成得到二溴环
 设与苯酚反应后过量的溴的物质的量为 $x \mathrm{~mol}$ , 根据下列关系式列方程有
 
 $$
-\begin{array}{r l} & {\mathrm {Br_ {2}} \sim \mathrm {I_ {2}} \sim 2 \mathrm {Na_ {2} S_ {2} O_ {3}}} \\ & {1 \mathrm{mol} \qquad 2 \mathrm{mol}} \\ & {x \mathrm{mol} \qquad 5. 2 \times 1 0 ^ {- 3} \mathrm{L} \times 0. 1 \mathrm{mol} \bullet \mathrm{L} ^ {- 1}} \\ & {\text {解得} x = 2. 6 \times 1 0 ^ {- 4}} \end{array}
+\begin{array}{r l} & {\mathrm {Br_ {2}} \sim \mathrm {I_ {2}} \sim 2 \mathrm {Na_ {2} S_ {2} O_ {3}}} \\ & {1 \mathrm{mol} \qquad 2 \mathrm{mol}} \\ & {x \mathrm{mol} \qquad 5.2 \times 10 ^ {- 3} \mathrm{L} \times 0.1 \mathrm{mol} \bullet \mathrm{L} ^ {- 1}} \\ & {\text {解得} x = 2.6 \times 10 ^ {- 4}} \end{array}
 $$
 
 所以与苯酚反应的溴的物质的量为： $0.05 \times 10/1000 \, mol - 2.6 \times 10^{-4} \, mol = 2.4 \times 10^{-4} \, mol$
@@ -3468,7 +3468,7 @@ $$
 设试样中苯酚的物质的量为 $y \mathrm{~mol}$ , 则有
 
 $$
-\begin{array}{r l} & {\mathrm {C_ {6} H_ {5} -OH\sim3Br_ {2}}} \\ & {1 \mathrm{mol} \qquad 3 \mathrm{mol}} \\ & {y \mathrm{mol} \qquad 2. 4 \times 1 0 ^ {- 4} \mathrm{mol}} \\ & {\text {解得} y = 0. 8 \times 1 0 ^ {- 4}} \end{array}
+\begin{array}{r l} & {\mathrm {C_ {6} H_ {5} -OH\sim3Br_ {2}}} \\ & {1 \mathrm{mol} \qquad 3 \mathrm{mol}} \\ & {y \mathrm{mol} \qquad 2.4 \times 10 ^ {- 4} \mathrm{mol}} \\ & {\text {解得} y = 0.8 \times 10 ^ {- 4}} \end{array}
 $$
 
 故苯酚试样中苯酚的纯度为： $\frac{0.8\times 10^{-4}\mathrm{mol}\times 94\mathrm{g}\cdot\mathrm{mol}^{-1}}{0.2\mathrm{g}\times 10 / 250} = 94\%$
@@ -3620,7 +3620,7 @@ $$
 在酸的存在下，醛、酮和卤素的卤代反应可控制在一卤代产物。
 
 $$
-\mathrm{Br} - \mathrm{C} _ {6} \mathrm{H} _ {5} - \mathrm{COCH} _ {3} + \mathrm{Br} _ {2} \xrightarrow {2 0 ^ {\circ} \mathrm{C}} \mathrm{Br} - \mathrm{C} _ {6} \mathrm{H} _ {5} - \mathrm{COCH} _ {2} \mathrm{Br}
+\mathrm{Br} - \mathrm{C} _ {6} \mathrm{H} _ {5} - \mathrm{COCH} _ {3} + \mathrm{Br} _ {2} \xrightarrow {20 ^ {\circ} \mathrm{C}} \mathrm{Br} - \mathrm{C} _ {6} \mathrm{H} _ {5} - \mathrm{COCH} _ {2} \mathrm{Br}
 $$
 
 在碱性催化下,卤代反应不能控制在一卤代产物,而是生成多卤代产物。α-碳原子上连有三个氢原子的醛酮,例如,乙醛和甲基酮,能与卤素的碱性溶液作用,生成三卤代物。三卤代物在碱性溶液中不稳定,立即分解成三卤甲烷和羧酸盐,这叫卤仿反应。常用的卤素是碘,称为碘仿反应。碘仿是淡黄色结晶,不溶于水析出,故碘仿反应常用来鉴别乙醛和甲基酮。次碘酸钠也是氧化剂, 可把乙醇及具有 $\mathrm{CH}_{3} \mathrm{CH(OH)}$ — 结构的仲醇分别氧化成相应的乙醛或甲
@@ -3821,7 +3821,7 @@ F 的组成是: $w(\mathrm{C})=44.18\%$ , $w(\mathrm{H})=8.82\%$ , $w(\mathrm{O}
 过程探究 先由 F 的组成: $M_{r}=136$ 求分子中各原子个数比:
 
 $$
-\mathrm{C:H:O} = \frac {1 3 6 \times 4 4 . 1 8}{1 2}: \frac {1 3 6 \times 8 . 8 2}{1}: \frac {1 3 6 \times 4 . 7}{1 6} = 5: 1 2: 4
+\mathrm{C:H:O} = \frac {136 \times 44.18}{12}: \frac {136 \times 8.82}{1}: \frac {136 \times 4.7}{16} = 5: 12: 4
 $$
 
 分子式是 $C_{5}H_{12}O_{4}$ 。不饱和度为 0，所有的氧原子必定是由醇或醚所有。它的相对分子质量是 136，乙酸酐 $\left(\mathrm{C}_{4}\mathrm{H}_{6}\mathrm{O}_{3}\right)$ 的相对分子质量是 102。题设 0.1 mol F 跟 0.4 mol 乙酸酐反应，可见 F 中有 4 个羟基。由此推想，A 是乙醛，B 是甲醛，乙醛中的 3 个 $\alpha-H$ 可以逐个与甲醛作用，得到的三羟甲基乙醛还可以被催化加氢生成季戊四醇 F，四个羟基都被乙酰化得化合物 G。
@@ -4113,13 +4113,13 @@ $$
 8. (1) 化合物 A 中:
 
 $$
-\mathrm{C:H:O} = \frac {4 8 . 6 0}{1 2}: \frac {8 . 1 0}{1}: \frac {4 3 . 3 0}{1 6} = 3: 6: 2
+\mathrm{C:H:O} = \frac {48.60}{12}: \frac {8.10}{1}: \frac {43.30}{16} = 3: 6: 2
 $$
 
 A 的最简式为 $C_{3}H_{6}O_{2}$ ，且 $M_{\mathrm{r}}(\mathrm{A})=74$ ，故 A 为 $CH_{3}-CH_{2}-COOH$ 。
 
 $$
-\mathrm{CH} _ {3} \mathrm{CH} _ {2} \mathrm{COOH} + \mathrm{AgOH} \longrightarrow \mathrm{CH} _ {3} \mathrm{CH} _ {2} \mathrm{COOAg} + \mathrm{H} _ {2} \mathrm{O} (\mathrm{M} _ {\mathrm{r}} = 1 8 1)
+\mathrm{CH} _ {3} \mathrm{CH} _ {2} \mathrm{COOH} + \mathrm{AgOH} \longrightarrow \mathrm{CH} _ {3} \mathrm{CH} _ {2} \mathrm{COOAg} + \mathrm{H} _ {2} \mathrm{O} (\mathrm{M} _ {\mathrm{r}} = 181)
 $$
 
 化合物 D 中: C : H : O = $\frac{54.54}{12}$ : $\frac{9.09}{1}$ : $\frac{36.37}{16}$ =2 : 4 : 1, D 的最简式为 $C_{2}H_{4}O$ , $M_{r}(D)$ =44, D 为 $CH_{3}CHO$ 。
@@ -4275,7 +4275,7 @@ $$
 羧酸与三氯化磷、五氯化磷、氯化亚砜等作用，生成酰氯。
 
 $$
-3 \mathrm{CH} _ {3} \mathrm{CH} _ {2} \mathrm{COOH} + \mathrm{PCl} _ {3} \xrightarrow {4 5 ^ {\circ} \mathrm{C}} 3 \mathrm{CH} _ {3} \mathrm{CH} _ {2} \mathrm{COCl} + \mathrm{H} _ {3} \mathrm{PO} _ {3}
+3 \mathrm{CH} _ {3} \mathrm{CH} _ {2} \mathrm{COOH} + \mathrm{PCl} _ {3} \xrightarrow {45 ^ {\circ} \mathrm{C}} 3 \mathrm{CH} _ {3} \mathrm{CH} _ {2} \mathrm{COCl} + \mathrm{H} _ {3} \mathrm{PO} _ {3}
 $$
 
 ![](高中化学竞赛教程第2分册万长江编,Wanchangjiangbianzhuz-library.sk,1lib.sk,z-lib.sk_200-350_images/d5ffdc7b58cdd8bb3f665e2cae19bd28c4216abd882366b129b74394154a291f.jpg)
@@ -4510,7 +4510,7 @@ $$
 $$
 
 $$
-\begin{array}{c c c} \mathrm{CH} _ {3} \mathrm{CHOHCOOH} & \mathrm{OHCH} _ {2} \mathrm{CH} _ {2} \mathrm{COOH} & \mathrm{CH} _ {3} \mathrm{CH} _ {2} \mathrm{COOH} \\ 3. 8 7 & 4. 5 1 & 4. 8 8 \end{array}
+\begin{array}{c c c} \mathrm{CH} _ {3} \mathrm{CHOHCOOH} & \mathrm{OHCH} _ {2} \mathrm{CH} _ {2} \mathrm{COOH} & \mathrm{CH} _ {3} \mathrm{CH} _ {2} \mathrm{COOH} \\ 3.87 & 4.51 & 4.88 \end{array}
 $$
 
 ## 2. 脱水反应

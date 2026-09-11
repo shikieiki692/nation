@@ -500,7 +500,7 @@ A 的结构示意图, 其中 Si=Si-Me, 楔形折点代表 NH, 虚线不表示键
 反应方程式为
 
 $$
-6 \mathrm{CH} _ {3} \mathrm{SiCl} _ {3} + 1 8 \mathrm{Na} + 9 \mathrm{NH} _ {3} \longrightarrow (\mathrm{CH} _ {3}) _ {6} \mathrm{Si} _ {6} (\mathrm{NH}) _ {9} + 1 8 \mathrm{NaCl} + 9 \mathrm{H} _ {2} \uparrow
+6 \mathrm{CH} _ {3} \mathrm{SiCl} _ {3} + 18 \mathrm{Na} + 9 \mathrm{NH} _ {3} \longrightarrow (\mathrm{CH} _ {3}) _ {6} \mathrm{Si} _ {6} (\mathrm{NH}) _ {9} + 18 \mathrm{NaCl} + 9 \mathrm{H} _ {2} \uparrow
 $$
 
 1-2 本题主要考查对有机物颜色、颜色互补效应、 $\mathrm{Na/NH_3}$ 体系的还原性，及三苯甲基结构等的理解和掌握，要求同学们掌握三苯甲基负离子的稳定性的原因，正确判断是 $\mathrm{Na/NH_3}$ 体系的还原性而不是碱性在起作用，并且能够从化合物的电子结构出发解释颜色。
@@ -532,19 +532,19 @@ $$
 由图可知，在 pH<6 时 pH 对电极电势没有影响， $\varphi_{Ag^{+}/Ag}$ 保持在 0.622 V 不变。根据半反应的 Nernst 方程：
 
 $$
-\begin{array}{r l} & \mathrm {Ag^ {+} (aq)+ e^ {-} \longrightarrow Ag(s)} \\ \varphi_ {\mathrm {Ag^ {+} /Ag}} = & \varphi_ {\mathrm {Ag^ {-} /Ag}} ^ {\ominus} + \frac {R T}{n F} \ln [ \mathrm {Ag^ {+}} ] = \varphi_ {\mathrm {Ag^ {+} /Ag}} ^ {\ominus} + 0. 0 5 9 2 \mathrm{V} \cdot \lg [ \mathrm {Ag^ {+}} ] \end{array}\tag{1}
+\begin{array}{r l} & \mathrm {Ag^ {+} (aq)+ e^ {-} \longrightarrow Ag(s)} \\ \varphi_ {\mathrm {Ag^ {+} /Ag}} = & \varphi_ {\mathrm {Ag^ {-} /Ag}} ^ {\ominus} + \frac {R T}{n F} \ln [ \mathrm {Ag^ {+}} ] = \varphi_ {\mathrm {Ag^ {+} /Ag}} ^ {\ominus} + 0.0592 \mathrm{V} \cdot \lg [ \mathrm {Ag^ {+}} ] \end{array}\tag{1}
 $$
 
 可知当 pH<6 时， $[Ag^{+}]$ 保持不变，说明此时体系中的 $NH_{3}$ 浓度太低，配位平衡可以忽略。所以
 
 $$
-\left[ \mathrm{Ag} ^ {+} \right] = c _ {\mathrm{Ag} ^ {+}, 0} = 1. 0 0 0 \times 1 0 ^ {- 3} \mathrm{mol} \mathrm{L} ^ {- 1}
+\left[ \mathrm{Ag} ^ {+} \right] = c _ {\mathrm{Ag} ^ {+}, 0} = 1.000 \times 10 ^ {- 3} \mathrm{mol} \mathrm{L} ^ {- 1}
 $$
 
 将 $\varphi_{\mathrm{Ag}^{+}/\mathrm{Ag}}$ 与 $[\mathrm{Ag}^{+}]$ 代入Nernst方程，可解出
 
 $$
-\varphi_ {\mathrm{Ag} ^ {+} / \mathrm{Ag}} ^ {\ominus} = 0. 7 9 9 \mathrm{V}
+\varphi_ {\mathrm{Ag} ^ {+} / \mathrm{Ag}} ^ {\ominus} = 0.799 \mathrm{V}
 $$
 
 2-2 本题需要考虑配位平衡，而且题目中要求计算逐级稳定常数，说明 $\mathrm{Ag(NH_3)^+}$ 与 $\mathrm{Ag(NH_3)_2^+}$ 同时存在，而且由于稳定常数未知，二者浓度的相对大小就未知，因此不能轻易忽略其中任何一方的浓度。对于这样的复杂体系，可以使用副反应系数和守恒方程来进行计算。
@@ -580,19 +580,19 @@ $$
 当 pH=8 时，由(1)式求出 $\left[Ag^{+}\right]=2.064\times10^{-6}\ mol\ L^{-1}$ ，由(3)式求出 $\left[NH_{3}\right]=5.319\times10^{-3}\ mol\ L^{-1}$ 。
 
 $$
-2. 0 6 4 \times 1 0 ^ {- 6} = \frac {c _ {\mathrm{Ag} ^ {+} , 0}}{1 + K _ {1} ^ {\ominus} \times 5 . 3 1 9 \times 1 0 ^ {- 3} + K _ {1} ^ {\ominus} K _ {2} ^ {\ominus} (5 . 3 1 9 \times 1 0 ^ {- 3}) ^ {2}}\tag{5}
+2.064 \times 10 ^ {- 6} = \frac {c _ {\mathrm{Ag} ^ {+} , 0}}{1 + K _ {1} ^ {\ominus} \times 5.319 \times 10 ^ {- 3} + K _ {1} ^ {\ominus} K _ {2} ^ {\ominus} (5.319 \times 10 ^ {- 3}) ^ {2}}\tag{5}
 $$
 
 当 $\mathrm{pH} > 12$ 时，由(1)式求出 $[\mathrm{Ag}^{+}] = 5.979 \times 10^{-9} \mathrm{~mol} \mathrm{L}^{-1}$ ，由于是强碱性环境，因此 $[\mathrm{NH}_{3}] = c_{\mathrm{NH}_{4}^{+},0} = 1.000 \times 10^{-1} \mathrm{~mol} \mathrm{L}^{-1}$ 。
 
 $$
-5. 9 7 9 \times 1 0 ^ {- 9} = \frac {c _ {\mathrm{Ag} ^ {+} , 0}}{1 + K _ {1} ^ {\ominus} \times 1 . 0 0 0 \times 1 0 ^ {- 1} + K _ {1} ^ {\ominus} K _ {2} ^ {\ominus} (1 . 0 0 0 \times 1 0 ^ {- 1}) ^ {2}}\tag{6}
+5.979 \times 10 ^ {- 9} = \frac {c _ {\mathrm{Ag} ^ {+} , 0}}{1 + K _ {1} ^ {\ominus} \times 1.000 \times 10 ^ {- 1} + K _ {1} ^ {\ominus} K _ {2} ^ {\ominus} (1.000 \times 10 ^ {- 1}) ^ {2}}\tag{6}
 $$
 
 (5)、(6)式联立可解得
 
 $$
-\begin{array}{l} K _ {1} ^ {\ominus} = 2. 0 7 \times 1 0 ^ {3} \\ K _ {2} ^ {\ominus} = 8. 0 7 \times 1 0 ^ {3} \end{array}
+\begin{array}{l} K _ {1} ^ {\ominus} = 2.07 \times 10 ^ {3} \\ K _ {2} ^ {\ominus} = 8.07 \times 10 ^ {3} \end{array}
 $$
 
 2-3 本题主要考查配位平衡对电极电势的影响。由已知简单离子的标准电极电势和配合物稳定常数，求配合物标准电极电势的问题，属于电化学中的简单问题，直接应用Nernst方程即可求解。
@@ -606,13 +606,13 @@ $$
 $\left[\mathrm{Ag}(\mathrm{NH}_{3})_{2}^{+}\right] = \left[\mathrm{NH}_{3}\right] = 1\mathrm{molL}^{-1}$ ，根据稳定常数表达式可知 $[\mathrm{Ag}^{+}] = \frac{1}{K_{1}^{\ominus}K_{2}^{\ominus}}$ 。代入(1)式可知
 
 $$
-\varphi_ {\mathrm{Ag} \left(\mathrm{NH} _ {3}\right) _ {2} ^ {+} / \mathrm{Ag}} ^ {\ominus} = \varphi_ {\mathrm{Ag} ^ {+} / \mathrm{Ag}} = \varphi_ {\mathrm{Ag} ^ {+} / \mathrm{Ag}} ^ {\ominus} + 0. 0 5 9 2 \mathrm{V} \cdot \lg \frac {1}{K _ {1} ^ {\ominus} K _ {2} ^ {\ominus}} = 0. 3 7 2 \mathrm{V}
+\varphi_ {\mathrm{Ag} \left(\mathrm{NH} _ {3}\right) _ {2} ^ {+} / \mathrm{Ag}} ^ {\ominus} = \varphi_ {\mathrm{Ag} ^ {+} / \mathrm{Ag}} = \varphi_ {\mathrm{Ag} ^ {+} / \mathrm{Ag}} ^ {\ominus} + 0.0592 \mathrm{V} \cdot \lg \frac {1}{K _ {1} ^ {\ominus} K _ {2} ^ {\ominus}} = 0.372 \mathrm{V}
 $$
 
 用 $\mathrm{Ag(NH_{3})_{2}^{+}/Ag}$ 做负极， $Ag^{+}/Ag$ 做正极，二者构成原电池反应：
 
 $$
-\begin{array}{r l} & \mathrm {Ag^ {+} (aq) + 2NH_ {3} (aq) = Ag(NH_ {3}) _ {2} ^ {+} (aq)} \\ & \therefore E ^ {\ominus} = \varphi_ {\mathrm {Ag^ {+} /Ag}} ^ {\ominus} - \varphi_ {\mathrm {Ag(NH_ {3}) _ {2} ^ {+} /Ag}} ^ {\ominus} = 0. 4 2 7 \mathrm{V} \end{array}
+\begin{array}{r l} & \mathrm {Ag^ {+} (aq) + 2NH_ {3} (aq) = Ag(NH_ {3}) _ {2} ^ {+} (aq)} \\ & \therefore E ^ {\ominus} = \varphi_ {\mathrm {Ag^ {+} /Ag}} ^ {\ominus} - \varphi_ {\mathrm {Ag(NH_ {3}) _ {2} ^ {+} /Ag}} ^ {\ominus} = 0.427 \mathrm{V} \end{array}
 $$
 
 (若用假定的稳定常数计算,则结果为 $E^{\ominus}=0.355\ V$ 。)
@@ -634,7 +634,7 @@ $$
 然后根据 $\mathrm{I}_2$ 和硫代硫酸根的关系即可列出方程：
 
 $$
-\frac {m}{1 3 7 . 3 3 x + 6 3 . 5 5 + 2 \times 1 6 . 0 0} \times (3 - 2 x) = 4 4. 5 4 \times 0. 1 0 0 \times 1 0 ^ {- 3}
+\frac {m}{137.33 x + 63.55 + 2 \times 16.00} \times (3 - 2 x) = 44.54 \times 0.100 \times 10 ^ {- 3}
 $$
 
 若按题目中的数据 $m = 1.00\mathrm{g}$ 解方程，则得出 $x = 0.985$ ，这个解并没有意义。按正确值 $m = 0.50\mathrm{g}$ 解方程，则可得 $x = 0.667$ ，即可得出A的化学式为 $\mathbf{Ba}_2\mathbf{Cu}_3\mathbf{O}_6$ ，也就是 $\mathrm{Ba_2Cu_1^II Cu_2^III O_6}$ 。
@@ -642,7 +642,7 @@ $$
 由于试卷上本题数据有误，根据卷面上的数据解此方程只能得到没有价值的解。A的组成的推断采用这种方法在考场上是不能成功的，但是有另一种解题方法能够判断出数据的错误。这种方法就是，先从两次滴定数据入手，第一次滴定： $S_{2}O_{3}^{2-}\sim Cu(II)+2Cu(III)$ ；第二次滴定： $S_{2}O_{3}^{2-}\sim Cu(II)+Cu(III)$ ，进而可以算出
 
 $$
-\frac {n (\mathrm{Cu(III)})}{n (\mathrm{Cu(II)})} = \frac {4 4 . 5 4 - 2 6 . 7 2}{2 7 . 6 2 - (4 4 . 5 4 - 2 6 . 7 2)} = 2. 0 0
+\frac {n (\mathrm{Cu(III)})}{n (\mathrm{Cu(II)})} = \frac {44.54 - 26.72}{27.62 - (44.54 - 26.72)} = 2.00
 $$
 
 根据此比例,考虑到 Cu 和 O 的比例是 1:2,则得出 A 的组成为 $Ba_{2}Cu_{3}O_{6}$ ,并能进一步判断该数据是错误的。而第一种计算方法不需要用到第二次滴定的数据,但也不能判断出错误的数据。
@@ -650,7 +650,7 @@ $$
 然后我们可以写出完整的反应方程式(注意物质的存在形式):
 
 $$
-\begin{array}{r l} & 2 \mathrm{Ba} _ {2} \mathrm{Cu} _ {3} \mathrm{O} _ {6} + 2 2 \mathrm{I} ^ {-} + 2 4 \mathrm{H} ^ {+} = 4 \mathrm{Ba} ^ {2 +} + 6 \mathrm{CuI} _ {2} ^ {-} + 1 2 \mathrm{H} _ {2} \mathrm{O} + 5 \mathrm{I} _ {2} \\ & \quad \mathrm{CuI} _ {2} ^ {-} = \mathrm{CuI} + \mathrm{I} ^ {-} \\ & \quad \mathrm{I} _ {3} ^ {-} + 2 \mathrm{S} _ {2} \mathrm{O} _ {3} ^ {2 -} = 3 \mathrm{I} ^ {-} + \mathrm{S} _ {4} \mathrm{O} _ {6} ^ {2 -} \\ & 2 \mathrm{Ba} _ {2} \mathrm{Cu} _ {3} \mathrm{O} _ {6} + 2 0 \mathrm{H} ^ {+} = 4 \mathrm{Ba} ^ {2 +} + 6 \mathrm{Cu} ^ {2 +} + 1 0 \mathrm{H} _ {2} \mathrm{O} + \mathrm{O} _ {2} \\ & \quad 2 \mathrm{Cu} ^ {2 +} + 4 \mathrm{I} ^ {-} = 2 \mathrm{CuI} + \mathrm{I} _ {2} \end{array}
+\begin{array}{r l} & 2 \mathrm{Ba} _ {2} \mathrm{Cu} _ {3} \mathrm{O} _ {6} + 22 \mathrm{I} ^ {-} + 24 \mathrm{H} ^ {+} = 4 \mathrm{Ba} ^ {2 +} + 6 \mathrm{CuI} _ {2} ^ {-} + 12 \mathrm{H} _ {2} \mathrm{O} + 5 \mathrm{I} _ {2} \\ & \quad \mathrm{CuI} _ {2} ^ {-} = \mathrm{CuI} + \mathrm{I} ^ {-} \\ & \quad \mathrm{I} _ {3} ^ {-} + 2 \mathrm{S} _ {2} \mathrm{O} _ {3} ^ {2 -} = 3 \mathrm{I} ^ {-} + \mathrm{S} _ {4} \mathrm{O} _ {6} ^ {2 -} \\ & 2 \mathrm{Ba} _ {2} \mathrm{Cu} _ {3} \mathrm{O} _ {6} + 20 \mathrm{H} ^ {+} = 4 \mathrm{Ba} ^ {2 +} + 6 \mathrm{Cu} ^ {2 +} + 10 \mathrm{H} _ {2} \mathrm{O} + \mathrm{O} _ {2} \\ & \quad 2 \mathrm{Cu} ^ {2 +} + 4 \mathrm{I} ^ {-} = 2 \mathrm{CuI} + \mathrm{I} _ {2} \end{array}
 $$
 
 B 的组成则需要根据热重分析数据进行推断, 不难设想 B 也是 Cu、Ba 的氧化物, 其失重应为失去 $O_{2}$ 转化为其他氧化物, 可能的组成形式有 $BaO, BaO_{2}, CuO$ 和 $Cu_{2}O_{3}$ [其实 Cu(Ⅲ) 的氧化物在加热失重后再降温并不会恢复原重, 但是在做题的时候不妨也将其考虑进去]。考虑到 $\mathrm{Cu(III)}$ 与 $O_{2}^{2-}$ 不会同时存在, 则可以把 B 的化学式写成 $BaO_{2} \cdot xBaO \cdot yCuO$ 或者
@@ -690,43 +690,43 @@ B 的推断过程中需要注意:题目中的信息不足以单纯从化学角�
 方程式(3)是本题的一个突破点,因为在(3)中只有 $CO_{2}$ 这一种气体,因此可以直接通过(3)的平衡常数得到 $CO_{2}$ 的平衡分压。
 
 $$
-p _ {\mathrm{CO} _ {2}} = \frac {1}{K _ {3} ^ {\ominus}} = 1. 0 8 9 p ^ {\ominus}\tag{7}
+p _ {\mathrm{CO} _ {2}} = \frac {1}{K _ {3} ^ {\ominus}} = 1.089 p ^ {\ominus}\tag{7}
 $$
 
 再根据平衡(2) $^{'}$ 有
 
 $$
-\frac {p _ {\mathrm{H} _ {2}}}{p _ {\mathrm{H} _ {2} \mathrm{O}}} = \sqrt {\frac {K _ {2} ^ {\ominus}}{p _ {\mathrm{CO} _ {2}}}} = 3. 4 2 2\tag{8}
+\frac {p _ {\mathrm{H} _ {2}}}{p _ {\mathrm{H} _ {2} \mathrm{O}}} = \sqrt {\frac {K _ {2} ^ {\ominus}}{p _ {\mathrm{CO} _ {2}}}} = 3.422\tag{8}
 $$
 
 根据平衡(1)有
 
 $$
-\frac {p _ {\mathrm{H} _ {2}} p _ {\mathrm{CO}}}{p _ {\mathrm{H} _ {2} \mathrm{O}}} = K _ {1} ^ {\ominus} = 1 4. 8 2\tag{9}
+\frac {p _ {\mathrm{H} _ {2}} p _ {\mathrm{CO}}}{p _ {\mathrm{H} _ {2} \mathrm{O}}} = K _ {1} ^ {\ominus} = 14.82\tag{9}
 $$
 
 将(8)式代入(9)式,可以得到
 
 $$
-p _ {\mathrm{co}} = 4. 3 3 1 p ^ {\ominus}
+p _ {\mathrm{co}} = 4.331 p ^ {\ominus}
 $$
 
 最后还有 $K_{4}^{\ominus}$ 的表达式：
 
 $$
-\frac {p _ {\mathrm{CH} _ {4}}}{(p _ {\mathrm{H} _ {2}}) ^ {2}} = K _ {4} ^ {\ominus} = 0. 0 3 1 9 6\tag{10}
+\frac {p _ {\mathrm{CH} _ {4}}}{(p _ {\mathrm{H} _ {2}}) ^ {2}} = K _ {4} ^ {\ominus} = 0.03196\tag{10}
 $$
 
 气体的总压为
 
 $$
-p _ {\mathrm{H} _ {2}} + p _ {\mathrm{CH} _ {4}} + p _ {\mathrm{CO}} + p _ {\mathrm{CO} _ {2}} + p _ {\mathrm{H} _ {2} \mathrm{O}} = 2 5. 0 p ^ {\ominus}\tag{11}
+p _ {\mathrm{H} _ {2}} + p _ {\mathrm{CH} _ {4}} + p _ {\mathrm{CO}} + p _ {\mathrm{CO} _ {2}} + p _ {\mathrm{H} _ {2} \mathrm{O}} = 25.0 p ^ {\ominus}\tag{11}
 $$
 
 将(8)式、(10)式和 $\mathrm{CO},\mathrm{CO}_2$ 的分压值代入(11)式，得到关于 $p_{\mathrm{H_2}}$ 的二次方程，解得
 
 $$
-p _ {\mathrm{H} _ {2}} = 1 1. 7 4 p ^ {\ominus}, \quad p _ {\mathrm{H} _ {2} \mathrm{O}} = 3. 4 3 1 p ^ {\ominus}, \quad p _ {\mathrm{CH} _ {4}} = 4. 4 0 5 p ^ {\ominus}
+p _ {\mathrm{H} _ {2}} = 11.74 p ^ {\ominus}, \quad p _ {\mathrm{H} _ {2} \mathrm{O}} = 3.431 p ^ {\ominus}, \quad p _ {\mathrm{CH} _ {4}} = 4.405 p ^ {\ominus}
 $$
 
 因此
@@ -740,25 +740,25 @@ $$
 体系中氢元素的物料守恒表达式为
 
 $$
-\begin{array}{r l} & n _ {\mathrm{H} _ {2}} + n _ {\mathrm{H} _ {2} \mathrm{O}} + 2 n _ {\mathrm{CH} _ {4}} = 2. 0 0 \mathrm{mol} \\ & n _ {\mathrm{H} _ {2}} = \frac {2 . 0 0 p _ {\mathrm{H} _ {2}}}{p _ {\mathrm{H} _ {2}} + 2 p _ {\mathrm{CH} _ {4}} + p _ {\mathrm{H} _ {2} \mathrm{O}}} = 0. 9 7 9 1 \mathrm{mol} \end{array}
+\begin{array}{r l} & n _ {\mathrm{H} _ {2}} + n _ {\mathrm{H} _ {2} \mathrm{O}} + 2 n _ {\mathrm{CH} _ {4}} = 2.00 \mathrm{mol} \\ & n _ {\mathrm{H} _ {2}} = \frac {2.00 p _ {\mathrm{H} _ {2}}}{p _ {\mathrm{H} _ {2}} + 2 p _ {\mathrm{CH} _ {4}} + p _ {\mathrm{H} _ {2} \mathrm{O}}} = 0.9791 \mathrm{mol} \end{array}
 $$
 
 进而可以求得达到平衡时其他气体的物质的量：
 
 $$
-n _ {\mathrm{H} _ {2} \mathrm{O}} = 0. 2 8 6 1 \mathrm{mol}, \quad n _ {\mathrm{CH} _ {4}} = 0. 3 6 7 4 \mathrm{mol}, \quad n _ {\mathrm{CO}} = 0. 3 6 1 2 \mathrm{mol}, \quad n _ {\mathrm{CO} _ {2}} = 0. 0 9 0 8 \mathrm{mol}
+n _ {\mathrm{H} _ {2} \mathrm{O}} = 0.2861 \mathrm{mol}, \quad n _ {\mathrm{CH} _ {4}} = 0.3674 \mathrm{mol}, \quad n _ {\mathrm{CO}} = 0.3612 \mathrm{mol}, \quad n _ {\mathrm{CO} _ {2}} = 0.0908 \mathrm{mol}
 $$
 
 再考虑氧元素和碳元素的守恒，可以求得
 
 $$
-n _ {\mathrm{C}} = 0. 5 9 5 0 \mathrm{mol}, \quad n _ {\mathrm{CaO}} = 1. 4 1 4 \mathrm{mol}, \quad n _ {\mathrm{CaCO} _ {3}} = 0. 5 8 5 6 \mathrm{mol}
+n _ {\mathrm{C}} = 0.5950 \mathrm{mol}, \quad n _ {\mathrm{CaO}} = 1.414 \mathrm{mol}, \quad n _ {\mathrm{CaCO} _ {3}} = 0.5856 \mathrm{mol}
 $$
 
 因此全过程的焓变为
 
 $$
-\begin{array}{r l} \Delta H & = [ 0. 2 8 6 1 \times (- 2 2 1. 7 6) + 0. 3 6 7 4 \times (- 4 6. 9 4) + 0. 3 6 1 2 \times (- 9 3. 6 5) \\ & + 0. 0 9 0 8 \times (- 3 6 8. 1) + 0. 5 9 5 0 \times 8. 7 0 + 1. 4 1 4 \times (- 6 0 6. 9 7) \\ & + 0. 5 8 5 6 \times (- 1 1 4 7. 4 0) + 0. 9 7 9 1 \times 1 6. 2 - 2. 0 0 \times 8. 7 0 - 2. 0 0 \\ & \times (- 6 0 6. 9 7) - 2. 0 0 \times (- 2 2 1. 7 6) ] \mathrm{kJ} \\ & = - 1 7. \mathrm{0kJ} \end{array}
+\begin{array}{r l} \Delta H & = [ 0.2861 \times (- 221.76) + 0.3674 \times (- 46.94) + 0.3612 \times (- 93.65) \\ & + 0.0908 \times (- 368.1) + 0.5950 \times 8.70 + 1.414 \times (- 606.97) \\ & + 0.5856 \times (- 1147.40) + 0.9791 \times 16.2 - 2.00 \times 8.70 - 2.00 \\ & \times (- 606.97) - 2.00 \times (- 221.76) ] \mathrm{kJ} \\ & = - 17. \mathrm{0kJ} \end{array}
 $$
 
 与官方参考答案有 0.5 kJ 的差值, 是由于运算中保留的有效数字位数不同造成的。
@@ -766,7 +766,7 @@ $$
 4-3 要求判断在 $600^{\circ}$ C 的条件下碳的氧化产物,实际上要求找到一个合理的方法来判断 $CO, CO_{2}$ 的稳定性。题目中没有给出 $O_{2}$ 的热力学数据,因此考虑 CO 的歧化反应:
 
 $$
-2 \mathrm{CO} (\mathrm{g}) \rightleftharpoons \mathrm{CO} _ {2} (\mathrm{g}) + \mathrm{C} (\mathrm{s}) \quad \Delta_ {\mathrm{r}} G _ {\mathrm{m}} ^ {\ominus} = - 1 7. 6 6 \mathrm{kJ} \mathrm{mol} ^ {- 1} <   0
+2 \mathrm{CO} (\mathrm{g}) \rightleftharpoons \mathrm{CO} _ {2} (\mathrm{g}) + \mathrm{C} (\mathrm{s}) \quad \Delta_ {\mathrm{r}} G _ {\mathrm{m}} ^ {\ominus} = - 17.66 \mathrm{kJ} \mathrm{mol} ^ {- 1} <   0
 $$
 
 由此得到 CO 在 $600^{\circ}$ C 不稳定，它会自发歧化为 C 和 $CO_{2}$ 。碳的氧化产物是 $CO_{2}$ 。
@@ -816,7 +816,7 @@ $$
 然后求 $c: c'$ 由6个八面体相对的三角形之间的间距和2个三棱柱的高组成。其中八面体和三棱柱中填隙原子和密堆积原子构成四面体，其高度 $h$ 由勾股定理和基本的几何关系得出等于 $2\sqrt{r_{\mathrm{Ti - X}}^2 - \left(\frac{r_{\mathrm{Ti - Ti}}}{\sqrt{3}}\right)^2}$ 。所以在相同的密堆积层中高度为 $447.2\mathrm{pm}$ ，不同的密堆积层中为 $242.2\mathrm{pm}, c = (6\times 242.2 + 2\times 447.2)\mathrm{pm} = 2347.6\mathrm{pm}$ 。代入密度计算公式算得密度：
 
 $$
-\begin{array}{r l} \rho = & \frac {Z M}{N _ {\mathrm{A}} V} = \frac {Z M}{N _ {\mathrm{A}} a ^ {2} c \sin 6 0 ^ {\circ}} \\ = & \frac {2 \times (1 4 . 0 1 \times 3 + 2 6 . 9 8 + 4 \times 4 7 . 8 7)}{6 . 0 2 \times 1 0 ^ {2 3} \times 2 9 7 . 0 ^ {2} \times 2 3 4 7 . 6 \times 1 0 ^ {- 3 0} \times \sin 6 0 ^ {\circ}} \mathrm{gcm} ^ {- 3} = 4. 8 2 \mathrm{gcm} ^ {- 3} \end{array}
+\begin{array}{r l} \rho = & \frac {Z M}{N _ {\mathrm{A}} V} = \frac {Z M}{N _ {\mathrm{A}} a ^ {2} c \sin 60 ^ {\circ}} \\ = & \frac {2 \times (14.01 \times 3 + 26.98 + 4 \times 47.87)}{6.02 \times 10 ^ {23} \times 297.0 ^ {2} \times 2347.6 \times 10 ^ {- 30} \times \sin 60 ^ {\circ}} \mathrm{gcm} ^ {- 3} = 4.82 \mathrm{gcm} ^ {- 3} \end{array}
 $$
 
 5-4 重点考查一定过程的热力学参数的变化。原子由气体变成固体，其排列由无序变得规则，所以无论高温还是常温，体系的熵一定减少， $\Delta S < 0$ 。高温下结晶过程是自发的，所以其 Gibbs 自由能变小于零， $\Delta G = \Delta H - T\Delta S$ ，则可知其焓变一定是小于零的，在温度降低的时候，反应依然自发。本题也可以类比晶体陈化的过程，其中小晶体的单位质量表面能比较大，所以也可以得到焓变小于零。
@@ -848,29 +848,29 @@ $$
 6-1 本题为热身题目,考查基本的化学热力学与平衡计算。首先写出两个温度下的平衡常数:
 
 $$
-K _ {1 8 0 \mathrm{K}} = \frac {x}{3 . 5 0 \times 1 0 ^ {5} \mathrm{Pa}}
+K _ {180 \mathrm{K}} = \frac {x}{3.50 \times 10 ^ {5} \mathrm{Pa}}
 $$
 
 $$
-K _ {2 4 0 \mathrm{K}} = \frac {x}{1 . 0 2 \mathrm{MPa}}
+K _ {240 \mathrm{K}} = \frac {x}{1.02 \mathrm{MPa}}
 $$
 
 其中 x 是表示 1 g 固体吸附 $1.242 \, cm^{3}$ 气体的一个物理量。然后就可计算出吸附反应的焓值，也即摩尔吸附焓变：
 
 $$
-\ln \frac {K _ {1 8 0 \mathrm{K}}}{K _ {2 4 0 \mathrm{K}}} = - \frac {\Delta_ {\mathrm{ad}} H _ {\mathrm{m}} ^ {\ominus}}{R} \left(\frac {1}{1 8 0 \mathrm{K}} - \frac {1}{2 4 0 \mathrm{K}}\right)
+\ln \frac {K _ {180 \mathrm{K}}}{K _ {240 \mathrm{K}}} = - \frac {\Delta_ {\mathrm{ad}} H _ {\mathrm{m}} ^ {\ominus}}{R} \left(\frac {1}{180 \mathrm{K}} - \frac {1}{240 \mathrm{K}}\right)
 $$
 
 代入 $K_{180\mathrm{K}}$ 和 $K_{240\mathrm{K}}$ ，消去 $x$ 即可求出摩尔吸附焓：
 
 $$
-\Delta_ {\mathrm{ad}} H _ {\mathrm{m}} ^ {\ominus} = - 6. 4 0 \mathrm{kJ} \mathrm{mol} ^ {- 1}
+\Delta_ {\mathrm{ad}} H _ {\mathrm{m}} ^ {\ominus} = - 6.40 \mathrm{kJ} \mathrm{mol} ^ {- 1}
 $$
 
 此外,也可以通过 Gibbs 自由能变来计算摩尔吸附焓:
 
 $$
-\begin{array}{l} \Delta_ {\mathrm{ad}} G _ {\mathrm{m} (1 8 0 \mathrm{K})} ^ {\ominus} = - R T \ln K _ {1 8 0 \mathrm{K}} = \Delta_ {\mathrm{ad}} H _ {\mathrm{m}} ^ {\ominus} - 1 8 0 \mathrm{K} \times \Delta_ {\mathrm{ad}} S _ {\mathrm{m}} ^ {\ominus} \\ \Delta_ {\mathrm{ad}} G _ {\mathrm{m} (2 4 0 \mathrm{K})} ^ {\ominus} = - R T \ln K _ {2 4 0 \mathrm{K}} = \Delta_ {\mathrm{ad}} H _ {\mathrm{m}} ^ {\ominus} - 2 4 0 \mathrm{K} \times \Delta_ {\mathrm{ad}} S _ {\mathrm{m}} ^ {\ominus} \end{array}
+\begin{array}{l} \Delta_ {\mathrm{ad}} G _ {\mathrm{m} (180 \mathrm{K})} ^ {\ominus} = - R T \ln K _ {180 \mathrm{K}} = \Delta_ {\mathrm{ad}} H _ {\mathrm{m}} ^ {\ominus} - 180 \mathrm{K} \times \Delta_ {\mathrm{ad}} S _ {\mathrm{m}} ^ {\ominus} \\ \Delta_ {\mathrm{ad}} G _ {\mathrm{m} (240 \mathrm{K})} ^ {\ominus} = - R T \ln K _ {240 \mathrm{K}} = \Delta_ {\mathrm{ad}} H _ {\mathrm{m}} ^ {\ominus} - 240 \mathrm{K} \times \Delta_ {\mathrm{ad}} S _ {\mathrm{m}} ^ {\ominus} \end{array}
 $$
 
 在一个较小的温度范围内， $\Delta_{\mathrm{ad}}H_{\mathrm{m}}^{\ominus}$ 和 $\Delta_{\mathrm{ad}}S_{\mathrm{m}}^{\ominus}$ 都可视做不变量。以上两式消去 $\Delta_{\mathrm{ad}}S_{\mathrm{m}}^{\ominus}$ ，就可计算出 $\Delta_{\mathrm{ad}}H_{\mathrm{m}}^{\ominus} = -6.40\mathrm{kJ mol^{-1}}$ 。
@@ -934,13 +934,13 @@ $$
 $$
 
 $$
-K _ {\mathbf {A}} = \frac {k _ {2}}{k _ {1}} = \frac {0 . 1 0 \mathrm{s} ^ {- 1}}{5 \mathrm{kPa} \mathrm{s} ^ {- 1}}
+K _ {\mathbf {A}} = \frac {k _ {2}}{k _ {1}} = \frac {0.10 \mathrm{s} ^ {- 1}}{5 \mathrm{kPa} \mathrm{s} ^ {- 1}}
 $$
 
 则在 $p_{\mathbf{A}} = 50 \mathrm{kPa}$ 时，
 
 $$
-\frac {\mathrm{d} p _ {\mathbf {B}}}{\mathrm{d} t} = k _ {1} \frac {K _ {\mathbf {A}} p _ {\mathbf {A}}}{K _ {\mathbf {A}} p _ {\mathbf {A}} + 1} = 2. 5 \mathrm{kPa} \mathrm{s} ^ {- 1}
+\frac {\mathrm{d} p _ {\mathbf {B}}}{\mathrm{d} t} = k _ {1} \frac {K _ {\mathbf {A}} p _ {\mathbf {A}}}{K _ {\mathbf {A}} p _ {\mathbf {A}} + 1} = 2.5 \mathrm{kPa} \mathrm{s} ^ {- 1}
 $$
 
 6-3 本题是6-2的扩展。但要注意的是，在这里“表面未覆盖率”为 $(1 - \theta_{\mathbf{A}^*} - \theta_{\mathbf{B}^*})$ 。对于两个快速平衡，我们有
@@ -974,7 +974,7 @@ $$
 速率常数 $k_{3} = \frac{10}{p_{\mathrm{B}}}\mathrm{kPa s^{-1}}$ ，故
 
 $$
-\begin{array}{r l} k _ {3} & = k _ {1} \frac {K _ {\mathbf {A}}}{K _ {\mathbf {B}} p _ {\mathbf {B}}} = \frac {1 0}{p _ {\mathbf {B}}} \mathrm{kPa} \mathrm{s} ^ {- 1} \\ & K _ {\mathbf {B}} = \mathbf {0 . 0 1 k P a} ^ {- 1} \end{array}
+\begin{array}{r l} k _ {3} & = k _ {1} \frac {K _ {\mathbf {A}}}{K _ {\mathbf {B}} p _ {\mathbf {B}}} = \frac {10}{p _ {\mathbf {B}}} \mathrm{kPa} \mathrm{s} ^ {- 1} \\ & K _ {\mathbf {B}} = \mathbf {0.01 k P a} ^ {- 1} \end{array}
 $$
 
 ## 第7题
@@ -1510,23 +1510,23 @@ Ketelaar 等还研究了这两种离子的迁移优先性。既然低温相到�
 根据题意,该化合物溶于水后产生了 $MO_{x}^{y+}$ 离子和氯离子,加入硝酸银得到了白色的氯化银沉淀,考虑到溶液中除氯离子外没有其他能与银离子沉淀的阴离子,故白色沉淀只是氯化银一种物质。由此可以计算出样品中氯的物质的量(测量溶液的体积是样品的1/5):
 
 $$
-n \left(\mathrm{Cl} ^ {-}\right) = 5 \times 1. 4 3 6 \mathrm{g} / (1 0 7. 9 + 3 5. 4 5) \mathrm{gmol} ^ {- 1} = 5 0. 0 9 \mathrm{mmol}
+n \left(\mathrm{Cl} ^ {-}\right) = 5 \times 1.436 \mathrm{g} / (107.9 + 35.45) \mathrm{gmol} ^ {- 1} = 50.09 \mathrm{mmol}
 $$
 
 题目涉及的滴定反应是氧化还原反应，氧化剂只能是 $\mathbf{MO}_x^{\mathrm{y} + }$ ，还原剂也只能是 $\mathrm{Fe}^{2 + }$ ，由于未知M的价态，故在此需要假设解题。题目中另一个重要信息是 $x$ 和 $y$ 都是正整数，故我们可以采用列举法找到答案。设在氧化还原反应中一个 $\mathbf{MO}_x^{\mathrm{y} + }$ 得到 $p$ 个电子， $\mathrm{Fe}^{2 + }$ 被氧化到 $\mathrm{Fe}^{3 + }$ ，故一个 $\mathbf{MO}_x^{\mathrm{y} + }$ 对应 $p$ 个 $\mathrm{Fe}^{2 + }$ ，于是
 
 $$
-n \left(\mathrm{MO} _ {x} ^ {\mathrm{y} +}\right) = 5 \times 3. 3 5 0 \mathrm{mmol} / p = (1 6. 7 5 / p) \mathrm{mmol}
+n \left(\mathrm{MO} _ {x} ^ {\mathrm{y} +}\right) = 5 \times 3.350 \mathrm{mmol} / p = (16.75 / p) \mathrm{mmol}
 $$
 
 $$
-y = n (\mathrm{Cl} ^ {-}) / n (\mathbf {M O} _ {x} ^ {y +}) = 2. 9 9 0 p \approx 3 p
+y = n (\mathrm{Cl} ^ {-}) / n (\mathbf {M O} _ {x} ^ {y +}) = 2.990 p \approx 3 p
 $$
 
 y 是 3 的倍数。如果 y=6, x 最小是 1，此时 M 氧化态为 +8，已是罕见的价态，容易自身氧化还原生成氯气，不甚合理。因此考虑 y 为 3 的情况。y=3, x=1 时：
 
 $$
-\begin{array}{r l} & M (\text { 未知物 }) = 2. 9 0 5 \mathrm{g/16.75mmol} = 1 7 3. 4 \mathrm{gmol} ^ {- 1} \\ & M (\mathbf {M}) = (1 7 3. 4 - 3 5. 4 5 \times 3 - 1 6) \mathrm{gmol} ^ {- 1} = 5 1. 0 5 \mathrm{gmol} ^ {- 1} \end{array}
+\begin{array}{r l} & M (\text { 未知物 }) = 2.905 \mathrm{g/16.75mmol} = 173.4 \mathrm{gmol} ^ {- 1} \\ & M (\mathbf {M}) = (173.4 - 35.45 \times 3 - 16) \mathrm{gmol} ^ {- 1} = 51.05 \mathrm{gmol} ^ {- 1} \end{array}
 $$
 
 这与钒的摩尔质量很接近。而在 x>1 时，摩尔质量并没有合理解。因此 M 为钒。化学式为 $VOCl_{3}$ 。
@@ -1544,7 +1544,7 @@ $$
 6-1 题目给了 295 K 下的平衡常数 $K_{p}$ ，题干中的平衡常数没有单位，而该反应后分子数变多了，因此该 $K_{p}$ 指的是用压强表示的标准平衡常数 $K^{\ominus}$ 。设 $NO_{2}$ 的分压为 x kPa，则 $N_{2}O_{4}$ 的分压为 $(100-x)\mathrm{kPa}$ 。根据平衡常数表达式列出方程：
 
 $$
-\begin{array}{r l} K ^ {\ominus} & = \frac {\left(\frac {x}{p ^ {\ominus}}\right) ^ {2}}{\frac {1 0 0 - x}{p ^ {\ominus}}} = 0. 1 0 0 \quad (p ^ {\ominus} = 1 0 0 \mathrm{kPa}) \\ & x = 2 7. 0 \mathrm{kPa} \end{array}
+\begin{array}{r l} K ^ {\ominus} & = \frac {\left(\frac {x}{p ^ {\ominus}}\right) ^ {2}}{\frac {100 - x}{p ^ {\ominus}}} = 0.100 \quad (p ^ {\ominus} = 100 \mathrm{kPa}) \\ & x = 27.0 \mathrm{kPa} \end{array}
 $$
 
 所以 $NO_{2}$ 分压为 27.0 kPa, $N_{2}O_{4}$ 分压为 73.0 kPa。
@@ -1552,7 +1552,7 @@ $$
 6-2 与 6-1 解法相同, 只需把平衡常数换做 0.400 即可:
 
 $$
-\begin{array}{r l} K ^ {\ominus} = \frac {\left(\frac {x}{p ^ {\ominus}}\right) ^ {2}}{\frac {1 0 0 - x}{p ^ {\ominus}}} & = 0. 4 0 0 \quad (p ^ {\ominus} = 1 0 0 \mathrm{kPa}) \\ & x = 4 6. 3 \mathrm{kPa} \end{array}
+\begin{array}{r l} K ^ {\ominus} = \frac {\left(\frac {x}{p ^ {\ominus}}\right) ^ {2}}{\frac {100 - x}{p ^ {\ominus}}} & = 0.400 \quad (p ^ {\ominus} = 100 \mathrm{kPa}) \\ & x = 46.3 \mathrm{kPa} \end{array}
 $$
 
 故 $N_{2}O_{4}$ 分压为 53.7 kPa, $NO_{2}$ 分压为 46.3 kPa。
@@ -1560,31 +1560,31 @@ $$
 6-3 此题中的恒量是氮元素的物质的量(因为是一个封闭的容器)，抓住这一点可以先求算出前后的物质的量之比。设 295 K 时 $NO_{2}$ 有 27.0q mol，则 $N_{2}O_{4}$ 有 73.0q mol，故氮元素的总量为
 
 $$
-(2 7. 0 q + 7 3. 0 q \times 2) \mathrm{mol} = 1 7 3. 0 q \mathrm{mol}
+(27.0 q + 73.0 q \times 2) \mathrm{mol} = 173.0 q \mathrm{mol}
 $$
 
 设 $315\mathrm{K}$ 时 $\mathrm{NO}_2$ 有 $x\mathrm{mol},\mathrm{N}_2\mathrm{O}_4$ 有 $y\mathrm{mol}$ ，可以列出方程组：
 
 $$
-\left\{ \begin{array}{l} x + 2 y = 1 7 3. 0 q \\ \frac {x}{y} = \frac {4 6 . 3}{5 3 . 7} \end{array} \right.
+\left\{ \begin{array}{l} x + 2 y = 173.0 q \\ \frac {x}{y} = \frac {46.3}{53.7} \end{array} \right.
 $$
 
 解得
 
 $$
-\left\{ \begin{array}{l} x = 5 2. 1 q \\ y = 6 0. 4 q \end{array} \right.
+\left\{ \begin{array}{l} x = 52.1 q \\ y = 60.4 q \end{array} \right.
 $$
 
 因此物质的量之比为
 
 $$
-\frac {n _ {2}}{n _ {1}} = \frac {5 2 . 1 q + 6 0 . 4 q}{2 7 . 0 q + 7 3 . 0 q} = 1. 1 2
+\frac {n _ {2}}{n _ {1}} = \frac {52.1 q + 60.4 q}{27.0 q + 73.0 q} = 1.12
 $$
 
 体积比为
 
 $$
-\frac {V _ {2}}{V _ {1}} = \frac {n _ {2} T _ {2}}{n _ {1} T _ {1}} = 1. 2 0
+\frac {V _ {2}}{V _ {1}} = \frac {n _ {2} T _ {2}}{n _ {1} T _ {1}} = 1.20
 $$
 
 6-4 设 $\mathrm{NO}_2$ 分压为 $z$ bar, 则 $\mathrm{N}_2\mathrm{O}_4$ 分压为 $(1 - z)$ bar, 根据平衡关系式:
@@ -1612,7 +1612,7 @@ $$
 分别将 295 K 下和 315 K 下的平衡常数代入, 可得
 
 $$
-\left\{ \begin{array}{l} \Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus} = 5 3. 6 \mathrm{kJ} \mathrm{mol} ^ {- 1} \\ \Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus} = 1 4 3. 2 \mathrm{J} \mathrm{mol} ^ {- 1} \mathrm{K} ^ {- 1} \end{array} \right.\tag{1}
+\left\{ \begin{array}{l} \Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus} = 53.6 \mathrm{kJ} \mathrm{mol} ^ {- 1} \\ \Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus} = 143.2 \mathrm{J} \mathrm{mol} ^ {- 1} \mathrm{K} ^ {- 1} \end{array} \right.\tag{1}
 $$
 
 式(1)变形,有
@@ -1624,7 +1624,7 @@ $$
 当 $T$ 不断增大， $\Delta_{\mathrm{r}}H_{\mathrm{m}}^{\ominus}/T$ 趋近于零，因此有 $\Delta_{\mathrm{r}}S_{\mathrm{m}}^{\ominus} \to R \ln K^{\ominus}$ ，继而
 
 $$
-K ^ {\ominus} \rightarrow \mathrm{e} ^ {\Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus} / R} = 3. 0 2 \times 1 0 ^ {7}
+K ^ {\ominus} \rightarrow \mathrm{e} ^ {\Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus} / R} = 3.02 \times 10 ^ {7}
 $$
 
 $$
@@ -2019,7 +2019,7 @@ $$
 ![](中国化学奥林匹克竞赛试题解析（第4版）裴坚,卞江,柳晗宇Z-Library_210-380_images/b996f289d1d0e411db4f2ac1e94eb02c52df7e1970471fd766379f9409ecfae5.jpg)
 
 $$
-\mathrm{R} \left(\mathrm{C} _ {1 7} \mathrm{H} _ {1 6} \mathrm{O} _ {2}\right) \xrightarrow [ \mathrm{DCM/MeOH,rt} ]{\mathrm{H} _ {2} \mathrm{O} _ {2} , \mathrm{NaOH}} \quad \mathrm{S} \xrightarrow [ 6 5 0 ^ {\circ} \mathrm{C} ]{\text {FVT}} \quad \mathrm{T} \left(\mathrm{C} _ {1 2} \mathrm{H} _ {1 0} \mathrm{O} _ {3}\right) \quad \text {备注：DCM = CH_{2} Cl_{2}}
+\mathrm{R} \left(\mathrm{C} _ {17} \mathrm{H} _ {16} \mathrm{O} _ {2}\right) \xrightarrow [ \mathrm{DCM/MeOH,rt} ]{\mathrm{H} _ {2} \mathrm{O} _ {2} , \mathrm{NaOH}} \quad \mathrm{S} \xrightarrow [ 650 ^ {\circ} \mathrm{C} ]{\text {FVT}} \quad \mathrm{T} \left(\mathrm{C} _ {12} \mathrm{H} _ {10} \mathrm{O} _ {3}\right) \quad \text {备注：DCM = CH_{2} Cl_{2}}
 $$
 
 9-1 请写出 M 及 Q、R、S、T 的结构简式(如为立体选择性反应产物,需标明立体化学结构)。①
@@ -2085,7 +2085,7 @@ $$
 它减去一个配体 $\mathbf{L}$ 的摩尔质量 $(240.23\mathrm{g mol}^{-1})$ ，剩余部分为 $26.43\mathrm{g mol}^{-1}$ ，小于一个镍原子的摩尔质量，即 $58.69\mathrm{g mol}^{-1}$ ；但若假设一分子 $\mathbf{M}$ 中含两个 $\mathbf{L}$ ，那么剩余部分便十分接近，为
 
 $$
-M _ {\text { metal }} = 5 3 3. 3 3 \mathrm{g} \mathrm{mol} ^ {- 1} - 2 \times 2 4 0. 2 3 \mathrm{g} \mathrm{mol} ^ {- 1} = 5 2. 8 7 \mathrm{g} \mathrm{mol} ^ {- 1}
+M _ {\text { metal }} = 533.33 \mathrm{g} \mathrm{mol} ^ {- 1} - 2 \times 240.23 \mathrm{g} \mathrm{mol} ^ {- 1} = 52.87 \mathrm{g} \mathrm{mol} ^ {- 1}
 $$
 
 此时考虑到镍氧化数为+2，故L作为配体时应带有一个负电荷，即L在配位时应当失去一个氢离子。此时剩余部分的摩尔质量为54.89 g mol $^{-1}$ ，与镍原子的摩尔质量接近，相差部分可能为实验误差。由上述推理可知化合物M的分子式为 $NiC_{26}H_{22}N_{8}O_{2}$ ，重新计算可知该化合物中氮的质量分数为20.9%，与题干所给21.0%十分接近，可以认定此即为得到的化合物M。
@@ -2155,7 +2155,7 @@ $$
 而 H 的摩尔质量扣除钠原子和两个氧原子的摩尔质量后, 剩余:
 
 $$
-M _ {\mathrm{H}} - M _ {\mathrm{Na}} - 2 M _ {\mathrm{O}} = 6. 0 1 \mathrm{g} \mathrm{mol} ^ {- 1}
+M _ {\mathrm{H}} - M _ {\mathrm{Na}} - 2 M _ {\mathrm{O}} = 6.01 \mathrm{g} \mathrm{mol} ^ {- 1}
 $$
 
 即不可能包含钠、氮、氧中的任何一种元素，因此 H 的化学式中不可能只含一个钠原子。假设 H 的化学式中只含有两个钠原子，则
@@ -2167,13 +2167,13 @@ $$
 H的摩尔质量扣除两个钠原子和两个氧原子的摩尔质量后,剩余:
 
 $$
-M _ {\mathrm{H}} - 2 M _ {\mathrm{Na}} - 2 M _ {\mathrm{O}} = 4 4. 0 2 \mathrm{g} \mathrm{mol} ^ {- 1}
+M _ {\mathrm{H}} - 2 M _ {\mathrm{Na}} - 2 M _ {\mathrm{O}} = 44.02 \mathrm{g} \mathrm{mol} ^ {- 1}
 $$
 
 恰好等于一个氧原子和两个氮原子的摩尔质量之和：
 
 $$
-2 M _ {\mathrm{N}} + M _ {\mathrm{O}} = 4 4. 0 2 \mathrm{g} \mathrm{mol} ^ {- 1}
+2 M _ {\mathrm{N}} + M _ {\mathrm{O}} = 44.02 \mathrm{g} \mathrm{mol} ^ {- 1}
 $$
 
 所以找到了一种 $\mathbf{H}$ 的合理的化学式 $\mathrm{Na_2N_2O_3}$ ，可以看做由 $\mathrm{Na_2N_2O_2}$ 加一个氧原子组成。 $\mathbf{H}$ 中包含 $\mathrm{O} - \mathrm{O}$ 键，可以推出 $\beta -\mathbf{H}$ 的阴离子的结构为
@@ -2195,7 +2195,7 @@ $$
 3-1 设 M 在其氧化物 A 中的氧化数为 x, M 的相对原子质量为 y, 则 A 可以表示成 $MO_{x/2}$ 。1.000 g 的 A 中所含 M 的物质的量与 1.584 g 晶体 $MCl_{3} \cdot 3H_{2}O$ 中相同，即有如下关系：
 
 $$
-\frac {1 . 0 0 0}{y + 8 . 0 0 x} = \frac {1 . 5 8 4}{y + 1 6 0 . 3 9 8}
+\frac {1.000}{y + 8.00 x} = \frac {1.584}{y + 160.398}
 $$
 
 化简得到 y 与 x 的关系为 y=274.654-21.699x。将常见的氧化数代入式中，当 x=8 时，y=101.07，与 Ru 的相对原子质量相同，且 $RuO_{4}$ 的性质与题中描述相符。故 M 为 Ru，A 为 $RuO_{4}$ ，金属 M 的价电子构型为 $4d^{7}5s^{1}$ 。
@@ -2205,19 +2205,19 @@ $$
 $\left[\mathrm{PtCl}_{4}\right]^{2-})$ 可解出
 
 $$
-\varphi_ {\mathrm{A}} ^ {\ominus} \left(\left[ \mathrm{PtCl} _ {6} \right] ^ {2 -} / \mathrm{Pt}\right) = \frac {0 . 7 5 5 \mathrm{V} \times 2 + 0 . 6 8 0 \mathrm{V} \times 2}{4} = 0. 7 1 8 \mathrm{V} <   \varphi_ {\mathrm{A}} ^ {\ominus} \left(\mathrm{NO} _ {3} ^ {-} / \mathrm{NO}\right)
+\varphi_ {\mathrm{A}} ^ {\ominus} \left(\left[ \mathrm{PtCl} _ {6} \right] ^ {2 -} / \mathrm{Pt}\right) = \frac {0.755 \mathrm{V} \times 2 + 0.680 \mathrm{V} \times 2}{4} = 0.718 \mathrm{V} <   \varphi_ {\mathrm{A}} ^ {\ominus} \left(\mathrm{NO} _ {3} ^ {-} / \mathrm{NO}\right)
 $$
 
 实际反应时， $\mathrm{H}^{+}$ 、 $\mathrm{Cl}^{-}$ 和 $\mathrm{NO}_3^-$ 浓度都大于 $1\mathrm{mol}\mathrm{L}^{-1}$ ，因此热力学上王水可以氧化除去 $\mathrm{Pt}$ 。步骤(1)中除去 $\mathrm{Pt}$ 的反应方程式为
 
 $$
-3 \mathrm{Pt} + 4 \mathrm{HNO} _ {3} + 1 8 \mathrm{HCl} = 3 \mathrm{H} _ {2} \left[ \mathrm{PtCl} _ {6} \right] + 4 \mathrm{NO} \uparrow + 8 \mathrm{H} _ {2} \mathrm{O}
+3 \mathrm{Pt} + 4 \mathrm{HNO} _ {3} + 18 \mathrm{HCl} = 3 \mathrm{H} _ {2} \left[ \mathrm{PtCl} _ {6} \right] + 4 \mathrm{NO} \uparrow + 8 \mathrm{H} _ {2} \mathrm{O}
 $$
 
 反应的标准电极电势为
 
 $$
-E ^ {\ominus} = 0. 9 5 7 \mathrm{V} - 0. 7 1 8 \mathrm{V} = 0. 2 3 9 \mathrm{V}
+E ^ {\ominus} = 0.957 \mathrm{V} - 0.718 \mathrm{V} = 0.239 \mathrm{V}
 $$
 
 电极电势与标准平衡常数的关系为
@@ -2285,13 +2285,13 @@ $$
 等式两端微分后得到
 
 $$
-\Delta (\lg T) = \lg e \cdot \Delta (\ln T) = 0. 4 3 4 \frac {\Delta T}{T} = - \varepsilon l \Delta c
+\Delta (\lg T) = \lg e \cdot \Delta (\ln T) = 0.434 \frac {\Delta T}{T} = - \varepsilon l \Delta c
 $$
 
 将此式重新代入 Lambert-Beer 定律, 得到
 
 $$
-\frac {\Delta c}{c} = 0. 4 3 4 \frac {\Delta T}{T \lg T}
+\frac {\Delta c}{c} = 0.434 \frac {\Delta T}{T \lg T}
 $$
 
 此处的 $\Delta c$ 可视为由 T 的绝对误差引起的 c 的绝对误差。
@@ -2299,7 +2299,7 @@ $$
 为求出使得相对误差 $\Delta c/c$ 最小的 T 值, 令等式右侧对 T 的导数等于 0, 得到关于 T 的方程:
 
 $$
-\frac {\mathrm{d}}{\mathrm{d} T} \left(\frac {0 . 4 3 4 \Delta T}{T \lg T}\right) = \frac {0 . 4 3 4 \Delta T (\lg T + 0 . 4 3 4)}{(T \lg T) ^ {2}} = 0
+\frac {\mathrm{d}}{\mathrm{d} T} \left(\frac {0.434 \Delta T}{T \lg T}\right) = \frac {0.434 \Delta T (\lg T + 0.434)}{(T \lg T) ^ {2}} = 0
 $$
 
 在此认为 T 的测量绝对误差与 T 无关，即式中 $\Delta T$ 为与 T 无关的常数。
@@ -2309,7 +2309,7 @@ $$
 1号钢样经上述分解步骤和显色反应后制备的溶液中 $\mathrm{Ni}^{2+}$ 的浓度为
 
 $$
-c _ {1} = \frac {A _ {1}}{\varepsilon l} = \frac {0 . 4 3 4}{6 . 6 0 \times 1 0 ^ {3} \mathrm{L} \mathrm{mol} ^ {- 1} \mathrm{cm} ^ {- 1} \times 2 \mathrm{cm}} = 3. 2 9 \times 1 0 ^ {- 5} \mathrm{mol} \mathrm{L} ^ {- 1}
+c _ {1} = \frac {A _ {1}}{\varepsilon l} = \frac {0.434}{6.60 \times 10 ^ {3} \mathrm{L} \mathrm{mol} ^ {- 1} \mathrm{cm} ^ {- 1} \times 2 \mathrm{cm}} = 3.29 \times 10 ^ {- 5} \mathrm{mol} \mathrm{L} ^ {- 1}
 $$
 
 1号钢样的质量为
@@ -2335,13 +2335,13 @@ $$
 因此 2 号钢样显色后的溶液中 Ni 的浓度为
 
 $$
-c _ {2} = c _ {1} \frac {A _ {2}}{A _ {1}} = - \frac {\lg T}{A _ {1}} \cdot c _ {1} = \frac {0 . 9 3 6}{0 . 4 3 4} \times 3. 2 9 \times 1 0 ^ {- 3} \mathrm{molL} ^ {- 1} = 7. 0 9 \times 1 0 ^ {- 5} \mathrm{molL} ^ {- 1}
+c _ {2} = c _ {1} \frac {A _ {2}}{A _ {1}} = - \frac {\lg T}{A _ {1}} \cdot c _ {1} = \frac {0.936}{0.434} \times 3.29 \times 10 ^ {- 3} \mathrm{molL} ^ {- 1} = 7.09 \times 10 ^ {- 5} \mathrm{molL} ^ {- 1}
 $$
 
 2号钢样中Ni的质量分数为
 
 $$
-\omega_ {2} = 7. 0 9 \times 1 0 ^ {- 5} \mathrm{mol} \mathrm{L} ^ {- 1} \times 0. 0 5 0 0 \mathrm{L} \times 5 8. 9 6 \mathrm{g} \mathrm{mol} ^ {- 1} \times \frac {1 0 0 \mathrm{mL}}{1 0 . 0 0 \mathrm{mL}} \div 0. 3 8 2 \mathrm{g} = 0. 5 4 5 \%
+\omega_ {2} = 7.09 \times 10 ^ {- 5} \mathrm{mol} \mathrm{L} ^ {- 1} \times 0.0500 \mathrm{L} \times 58.96 \mathrm{g} \mathrm{mol} ^ {- 1} \times \frac {100 \mathrm{mL}}{10.00 \mathrm{mL}} \div 0.382 \mathrm{g} = 0.545 \%
 $$
 
 ## 第5题
@@ -2361,7 +2361,7 @@ $$
 判断有无分离的配位离子,可以根据电价规则:A与12个X配位,因此1个A的正电荷平均分到12个X上;B与6个X配位,因此B的2个正电荷平均分到6个X上。由此计算X周围的负电荷等于
 
 $$
-4 \times \frac {1}{1 2} + 2 \times \frac {2}{6} = 1
+4 \times \frac {1}{12} + 2 \times \frac {2}{6} = 1
 $$
 
 即正、负电荷平衡，不存在分立的配位离子，结构能够保持稳定。
@@ -2369,7 +2369,7 @@ $$
 5-4 带隙的能量为电子从价带最高点激发到导带最低点所需的能量, 即电子被激发所需的最小能量。根据 $E_{g}=hc/\lambda_{max}$ , 得
 
 $$
-\lambda_ {\max} = \frac {h c}{E _ {\mathrm{g}}} = 8 0 1 \mathrm{nm}
+\lambda_ {\max} = \frac {h c}{E _ {\mathrm{g}}} = 801 \mathrm{nm}
 $$
 
 当电子由价带的其他位置激发到导带时吸收光能量会更大，即波长更长。由于能带的连续性，因此该晶体能够吸收波长在 801 nm 及以下的光。
@@ -2381,13 +2381,13 @@ $$
 计算 $r_{B}/r_{X}=0.655,0.655$ 介于满足八面体空隙的半径比最小值 0.414 和满足立方体空隙的半径比最小值 0.732 之间，由填隙的半径比规则，B 填在八面体空隙中。由于 X 离子不互相接触，由此求得晶胞参数：
 
 $$
-a = 2 r _ {\mathrm{B}} + 2 r _ {\mathrm{x}} = 6 7 2 \mathrm{pm}
+a = 2 r _ {\mathrm{B}} + 2 r _ {\mathrm{x}} = 672 \mathrm{pm}
 $$
 
 计算得到空隙半径：
 
 $$
-r = \frac {\sqrt {2} a}{2} - r _ {\mathbf {x}} = 2 7 2. 2 \mathrm{pm}
+r = \frac {\sqrt {2} a}{2} - r _ {\mathbf {x}} = 272.2 \mathrm{pm}
 $$
 
 填隙离子半径等于比率 b 与空隙半径的乘积，题目中 $b=0.9\sim1.05$ ，因此 A 离子半径范围为 245～286 pm。
@@ -2407,7 +2407,7 @@ $$
 6-1 本题利用 Gibbs 自由能与平衡常数进行计算即可。题目中表格提供的焓变数据为 $-\Delta_{f}H_{m}^{\ominus}$ ，计算时需注意符号问题。对于甲醇裂解制氢反应：
 
 $$
-\begin{array}{r l} & \mathrm {CH_ {3} OH(g)\longrightarrow CO(g) + 2H_ {2} (g)} \\ & \Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus} = \Delta_ {\mathrm{f}} H _ {\mathrm{m}} ^ {\ominus} (\mathrm{CO(g)}) - \Delta_ {\mathrm{f}} H _ {\mathrm{m}} ^ {\ominus} (\mathrm {CH_ {3} OH(g)}) = 9 0. 1 4 \mathrm{kJmol} ^ {- 1} \\ & \Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus} = S _ {\mathrm{m}} ^ {\ominus} (\mathrm{CO}) + 2 S _ {\mathrm{m}} ^ {\ominus} (\mathrm {H_ {2}}) - S _ {\mathrm{m}} ^ {\ominus} (\mathrm {CH_ {3} OH(g)}) = 2 1 9. 2 2 \mathrm{Jmol} ^ {- 1} \mathrm{K} ^ {- 1} \\ & \Delta_ {\mathrm{r}} G _ {\mathrm{m}} ^ {\ominus} = \Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus} - T \Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus} = 2. 4 6 \mathrm{kJmol} ^ {- 1} \\ & K ^ {\ominus} = \exp \left(- \frac {\Delta_ {\mathrm{r}} G _ {\mathrm{m}} ^ {\ominus}}{R T}\right) = 0. 4 7 7 \end{array}
+\begin{array}{r l} & \mathrm {CH_ {3} OH(g)\longrightarrow CO(g) + 2H_ {2} (g)} \\ & \Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus} = \Delta_ {\mathrm{f}} H _ {\mathrm{m}} ^ {\ominus} (\mathrm{CO(g)}) - \Delta_ {\mathrm{f}} H _ {\mathrm{m}} ^ {\ominus} (\mathrm {CH_ {3} OH(g)}) = 90.14 \mathrm{kJmol} ^ {- 1} \\ & \Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus} = S _ {\mathrm{m}} ^ {\ominus} (\mathrm{CO}) + 2 S _ {\mathrm{m}} ^ {\ominus} (\mathrm {H_ {2}}) - S _ {\mathrm{m}} ^ {\ominus} (\mathrm {CH_ {3} OH(g)}) = 219.22 \mathrm{Jmol} ^ {- 1} \mathrm{K} ^ {- 1} \\ & \Delta_ {\mathrm{r}} G _ {\mathrm{m}} ^ {\ominus} = \Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus} - T \Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus} = 2.46 \mathrm{kJmol} ^ {- 1} \\ & K ^ {\ominus} = \exp \left(- \frac {\Delta_ {\mathrm{r}} G _ {\mathrm{m}} ^ {\ominus}}{R T}\right) = 0.477 \end{array}
 $$
 
 6-2 本题考查甲醇的相变平衡,需要先计算出在该温度下甲醇的饱和蒸气压,进而计算出气相中甲醇的量。题目中给出了甲醇的大气沸点，即甲醇的饱和蒸气压达到外部压力时的温度。利用 Clausius-Clapeyron 方程即可计算出 298 K 下甲醇的饱和蒸气压。
@@ -2415,19 +2415,19 @@ $$
 首先计算甲醇的蒸发焓：
 
 $$
-\Delta_ {\mathrm{v}} H _ {\mathrm{m}} ^ {\ominus} = \Delta_ {\mathrm{f}} H _ {\mathrm{m}} ^ {\ominus} (\mathrm{CH} _ {3} \mathrm{OH(g)}) - \Delta_ {\mathrm{f}} H _ {\mathrm{m}} ^ {\ominus} (\mathrm{CH} _ {3} \mathrm{OH(l)}) = 3 8. 0 0 \mathrm{kJmol} ^ {- 1}
+\Delta_ {\mathrm{v}} H _ {\mathrm{m}} ^ {\ominus} = \Delta_ {\mathrm{f}} H _ {\mathrm{m}} ^ {\ominus} (\mathrm{CH} _ {3} \mathrm{OH(g)}) - \Delta_ {\mathrm{f}} H _ {\mathrm{m}} ^ {\ominus} (\mathrm{CH} _ {3} \mathrm{OH(l)}) = 38.00 \mathrm{kJmol} ^ {- 1}
 $$
 
 根据 Clausius-Clapeyron 方程：
 
 $$
-\ln \frac {p _ {2}}{1 0 0 . 0 \mathrm{kPa}} = \frac {\Delta_ {\mathrm{v}} H _ {\mathrm{m}} ^ {\ominus}}{R} \left(\frac {1}{3 3 7 . 7 \mathrm{K}} - \frac {1}{2 9 8 \mathrm{K}}\right)
+\ln \frac {p _ {2}}{100.0 \mathrm{kPa}} = \frac {\Delta_ {\mathrm{v}} H _ {\mathrm{m}} ^ {\ominus}}{R} \left(\frac {1}{337.7 \mathrm{K}} - \frac {1}{298 \mathrm{K}}\right)
 $$
 
 得到 $p_{2}=16.48\ kPa$ ，因此
 
 $$
-m _ {\mathrm{g}} = \frac {M p _ {2} V}{R T} = 0. 2 1 3 \mathrm{g}
+m _ {\mathrm{g}} = \frac {M p _ {2} V}{R T} = 0.213 \mathrm{g}
 $$
 
 所以， $m_{g}:m_{1}=1.0$ 。
@@ -2449,13 +2449,13 @@ $$
 为了方便计算,我们假设所有反应的甲醇全部转换成 $CO_{2}$ 。首先计算平衡常数:设平衡时 $CH_{3}OH$ 有 0.01y mol, $H_{2}O$ 有 0.01y mol, $CO_{2}$ 有 0.99y mol, $H_{2}$ 有 2.97y mol, 共有 3.98y mol, 则
 
 $$
-K ^ {\ominus} = \frac {p _ {\mathrm{CO} _ {2}} \cdot p _ {\mathrm{H} _ {2}} ^ {3}}{p _ {\mathrm{CH} _ {3} \mathrm{OH}} \cdot p _ {\mathrm{H} _ {2} \mathrm{O}} \cdot p ^ {\ominus 2}} = \frac {x _ {\mathrm{H} _ {2}} ^ {3} \cdot x _ {\mathrm{CO}} \cdot p _ {\text {total}} ^ {2}}{x _ {\mathrm{CH} _ {3} \mathrm{OH}} \cdot x _ {\mathrm{H} _ {2} \mathrm{O}} \cdot p ^ {\ominus 2}} = 1. 6 4 \times 1 0 ^ {4}
+K ^ {\ominus} = \frac {p _ {\mathrm{CO} _ {2}} \cdot p _ {\mathrm{H} _ {2}} ^ {3}}{p _ {\mathrm{CH} _ {3} \mathrm{OH}} \cdot p _ {\mathrm{H} _ {2} \mathrm{O}} \cdot p ^ {\ominus 2}} = \frac {x _ {\mathrm{H} _ {2}} ^ {3} \cdot x _ {\mathrm{CO}} \cdot p _ {\text {total}} ^ {2}}{x _ {\mathrm{CH} _ {3} \mathrm{OH}} \cdot x _ {\mathrm{H} _ {2} \mathrm{O}} \cdot p ^ {\ominus 2}} = 1.64 \times 10 ^ {4}
 $$
 
 对于该反应：
 
 $$
-\begin{array}{r l} \Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus} & = \Delta_ {\mathrm{f}} H _ {\mathrm{m}} ^ {\ominus} (\mathrm{CO} _ {2} (\mathrm{g})) - \Delta_ {\mathrm{f}} H _ {\mathrm{m}} ^ {\ominus} (\mathrm{CH} _ {3} \mathrm{OH} (\mathrm{g})) - \Delta_ {\mathrm{f}} H _ {\mathrm{m}} ^ {\ominus} (\mathrm{H} _ {2} \mathrm{O} (\mathrm{g})) = 4 8. 9 7 \mathrm{kJmol} ^ {- 1} \\ \Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus} & = S _ {\mathrm{m}} ^ {\ominus} (\mathrm{CO} _ {2}) + 3 S _ {\mathrm{m}} ^ {\ominus} (\mathrm{H} _ {2}) - S _ {\mathrm{m}} ^ {\ominus} (\mathrm{CH} _ {3} \mathrm{OH} (\mathrm{g})) - S _ {\mathrm{m}} ^ {\ominus} (\mathrm{H} _ {2} \mathrm{O} (\mathrm{g})) = 1 7 7. 1 4 \mathrm{Jmol} ^ {- 1} \mathrm{K} ^ {- 1} \\ T & = \frac {\Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus}}{\Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus} - R \ln K ^ {\ominus}} = 5 0 8 \mathrm{K} \end{array}
+\begin{array}{r l} \Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus} & = \Delta_ {\mathrm{f}} H _ {\mathrm{m}} ^ {\ominus} (\mathrm{CO} _ {2} (\mathrm{g})) - \Delta_ {\mathrm{f}} H _ {\mathrm{m}} ^ {\ominus} (\mathrm{CH} _ {3} \mathrm{OH} (\mathrm{g})) - \Delta_ {\mathrm{f}} H _ {\mathrm{m}} ^ {\ominus} (\mathrm{H} _ {2} \mathrm{O} (\mathrm{g})) = 48.97 \mathrm{kJmol} ^ {- 1} \\ \Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus} & = S _ {\mathrm{m}} ^ {\ominus} (\mathrm{CO} _ {2}) + 3 S _ {\mathrm{m}} ^ {\ominus} (\mathrm{H} _ {2}) - S _ {\mathrm{m}} ^ {\ominus} (\mathrm{CH} _ {3} \mathrm{OH} (\mathrm{g})) - S _ {\mathrm{m}} ^ {\ominus} (\mathrm{H} _ {2} \mathrm{O} (\mathrm{g})) = 177.14 \mathrm{Jmol} ^ {- 1} \mathrm{K} ^ {- 1} \\ T & = \frac {\Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus}}{\Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus} - R \ln K ^ {\ominus}} = 508 \mathrm{K} \end{array}
 $$
 
 6-4 对于甲醇裂解反应 $\mathrm{CH_{3}OH(g)}\longrightarrow\mathrm{CO(g)}+2\mathrm{H_{2}(g)}$ ，需要找出氧化产物和还原产物，进而判断正负极产物各是什么。显然，从氧化态来看，CO 是氧化产物， $H_{2}$ 是还原产物，因此负极生成 CO，正极生成 $H_{2}$ 。而 CO 是由甲醇放电产生，因此可以写出负极反应：
@@ -2515,13 +2515,13 @@ $$
 的能量为
 
 $$
-\varepsilon = \frac {3 5 1 . 6}{6 N _ {\mathrm{A}}} = 9. 7 3 \times 1 0 ^ {- 2 0} \mathrm{J}
+\varepsilon = \frac {351.6}{6 N _ {\mathrm{A}}} = 9.73 \times 10 ^ {- 20} \mathrm{J}
 $$
 
 利用 Pd 的原子半径 r 求单位表面能量。考虑晶胞中的对角面包含 2 个 Pd 原子，其长度为 4r，宽度为 $2\sqrt{2}r$ ，故单位表面能量为
 
 $$
-\gamma = \frac {2 \times 2 . 5 \varepsilon}{4 r \times 2 \sqrt {2} r} = 1. 3 4 \mathrm{Jm} ^ {- 2}
+\gamma = \frac {2 \times 2.5 \varepsilon}{4 r \times 2 \sqrt {2} r} = 1.34 \mathrm{Jm} ^ {- 2}
 $$
 
 ## 知识拓展
@@ -2535,17 +2535,17 @@ $$
 来计算 CO 的量。此反应为等容反应，所以不用考虑总压的影响，此时引入主反应系数 m，即用来生成 $CO_{2}$ 的 $CH_{3}OH$ 占所有反应的 $CH_{3}OH$ 的比例。题目中计算温度 508 K 下，该反应的平衡常数如下：
 
 $$
-\begin{array}{r l} \Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus} & = \Delta_ {\mathrm{f}} H _ {\mathrm{m}} ^ {\ominus} (\mathrm{CO} _ {2} (\mathrm{g})) - \Delta_ {\mathrm{f}} H _ {\mathrm{m}} ^ {\ominus} (\mathrm{CO} (\mathrm{g})) - \Delta_ {\mathrm{f}} H _ {\mathrm{m}} ^ {\ominus} (\mathrm{H} _ {2} \mathrm{O} (\mathrm{g})) = - 4 1. 1 7 \mathrm{kJmol} ^ {- 1} \\ \Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus} & = S _ {\mathrm{m}} ^ {\ominus} (\mathrm{CO} _ {2}) + S _ {\mathrm{m}} ^ {\ominus} (\mathrm{H} _ {2}) - S _ {\mathrm{m}} ^ {\ominus} (\mathrm{CO} (\mathrm{g})) - S _ {\mathrm{m}} ^ {\ominus} (\mathrm{H} _ {2} \mathrm{O} (\mathrm{g})) = - 4 2. 0 8 \mathrm{Jmol} ^ {- 1} \mathrm{K} ^ {- 1} \\ \Delta_ {\mathrm{r}} G _ {\mathrm{m}} ^ {\ominus} & = \Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus} - T \Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus} = - 1 9. 7 9 \mathrm{kJmol} ^ {- 1} \end{array}
+\begin{array}{r l} \Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus} & = \Delta_ {\mathrm{f}} H _ {\mathrm{m}} ^ {\ominus} (\mathrm{CO} _ {2} (\mathrm{g})) - \Delta_ {\mathrm{f}} H _ {\mathrm{m}} ^ {\ominus} (\mathrm{CO} (\mathrm{g})) - \Delta_ {\mathrm{f}} H _ {\mathrm{m}} ^ {\ominus} (\mathrm{H} _ {2} \mathrm{O} (\mathrm{g})) = - 41.17 \mathrm{kJmol} ^ {- 1} \\ \Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus} & = S _ {\mathrm{m}} ^ {\ominus} (\mathrm{CO} _ {2}) + S _ {\mathrm{m}} ^ {\ominus} (\mathrm{H} _ {2}) - S _ {\mathrm{m}} ^ {\ominus} (\mathrm{CO} (\mathrm{g})) - S _ {\mathrm{m}} ^ {\ominus} (\mathrm{H} _ {2} \mathrm{O} (\mathrm{g})) = - 42.08 \mathrm{Jmol} ^ {- 1} \mathrm{K} ^ {- 1} \\ \Delta_ {\mathrm{r}} G _ {\mathrm{m}} ^ {\ominus} & = \Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus} - T \Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus} = - 19.79 \mathrm{kJmol} ^ {- 1} \end{array}
 $$
 
 $$
-K ^ {\ominus} = \exp \left(- \frac {\Delta_ {\mathrm{r}} G _ {\mathrm{m}} ^ {\ominus}}{R T}\right) = 1 0 8 = \frac {0 . 9 9 m \cdot 0 . 9 9 (2 + m)}{0 . 9 9 (1 - m) \cdot (1 - 0 . 9 9 m)} = \frac {n _ {\mathrm{CO} _ {2}} \cdot n _ {\mathrm{H} _ {2}}}{n _ {\mathrm{CO}} \cdot n _ {\mathrm{H} _ {2} \mathrm{O}}}
+K ^ {\ominus} = \exp \left(- \frac {\Delta_ {\mathrm{r}} G _ {\mathrm{m}} ^ {\ominus}}{R T}\right) = 108 = \frac {0.99 m \cdot 0.99 (2 + m)}{0.99 (1 - m) \cdot (1 - 0.99 m)} = \frac {n _ {\mathrm{CO} _ {2}} \cdot n _ {\mathrm{H} _ {2}}}{n _ {\mathrm{CO}} \cdot n _ {\mathrm{H} _ {2} \mathrm{O}}}
 $$
 
 解得 m=0.85。说明原题假设甲醇完全转换成了 $CO_{2}$ 并不合理。不过我们可以通过这个数据进一步修正温度：
 
 $$
-\begin{array}{r l} K ^ {\ominus} = \frac {p _ {\mathrm{CO} _ {2}} \cdot p _ {\mathrm{H} _ {2}} ^ {3}}{p _ {\mathrm{CH} _ {3} \mathrm{OH}} \cdot p _ {\mathrm{H} _ {2} \mathrm{O}} \cdot p ^ {\ominus 2}} & = \frac {x _ {\mathrm{H} _ {2}} ^ {3} \cdot x _ {\mathrm{CO}} \cdot p _ {\text {total}} ^ {2}}{x _ {\mathrm{CH} _ {3} \mathrm{OH}} \cdot x _ {\mathrm{H} _ {2} \mathrm{O}} \cdot p ^ {\ominus 2}} = \frac {[ 0 . 9 9 (2 + m) ] ^ {3} \cdot 0 . 9 9 m}{0 . 0 1 \cdot (1 - 0 . 9 9 m) \cdot 3 . 9 8 ^ {2}} \\ T & = \frac {\Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus}}{\Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus} - R \ln K ^ {\ominus}} \end{array}
+\begin{array}{r l} K ^ {\ominus} = \frac {p _ {\mathrm{CO} _ {2}} \cdot p _ {\mathrm{H} _ {2}} ^ {3}}{p _ {\mathrm{CH} _ {3} \mathrm{OH}} \cdot p _ {\mathrm{H} _ {2} \mathrm{O}} \cdot p ^ {\ominus 2}} & = \frac {x _ {\mathrm{H} _ {2}} ^ {3} \cdot x _ {\mathrm{CO}} \cdot p _ {\text {total}} ^ {2}}{x _ {\mathrm{CH} _ {3} \mathrm{OH}} \cdot x _ {\mathrm{H} _ {2} \mathrm{O}} \cdot p ^ {\ominus 2}} = \frac {[ 0.99 (2 + m) ] ^ {3} \cdot 0.99 m}{0.01 \cdot (1 - 0.99 m) \cdot 3.98 ^ {2}} \\ T & = \frac {\Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus}}{\Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus} - R \ln K ^ {\ominus}} \end{array}
 $$
 
 通过代入上一次计算温度所对应的 m 即可得到此次计算的温度。通过多次代入运算后，计算的温度会收敛到一定值。这种方法便是迭代法，可以在方程比较复杂或者参数比较多时通过较为简单的一系列重复计算得到足够精确的解。本题最后 m 会收敛在 0.93，对应的温度为 431 K。同学们不妨将其作为一道思考题去练习。
@@ -2879,19 +2879,19 @@ $$
 1-3 这是一个氧化还原反应，除了两种含硼化合物外应该还有氯化钠生成，而硼氢化钠中的负氢有可能转化为氢气。对于书写方程式，题目给出了重要的提示：反应物的摩尔比与产物的摩尔比。故假设硼化镍的化学式为 $Ni_{x}B_{y}$ ，写出反应式并待定系数求解：
 
 $$
-\begin{array}{r l} 2 x \mathrm {NaBH_ {4}} + x \mathrm {NiCl_ {2}} + 9 \mathrm {H_ {2} O} & = \mathrm {Ni_ {x} B_ {y}} + 3 \mathrm {H_ {3} BO_ {3}} + a \mathrm {H_ {2}} \uparrow + 2 x \mathrm{NaCl} \\ & \left\{ \begin{array}{l l} \mathrm{B:} & 2 x = y + 3 \\ \mathrm{H:} & 8 x + 1 8 = 9 + 2 a \end{array} \right. \end{array}
+\begin{array}{r l} 2 x \mathrm {NaBH_ {4}} + x \mathrm {NiCl_ {2}} + 9 \mathrm {H_ {2} O} & = \mathrm {Ni_ {x} B_ {y}} + 3 \mathrm {H_ {3} BO_ {3}} + a \mathrm {H_ {2}} \uparrow + 2 x \mathrm{NaCl} \\ & \left\{ \begin{array}{l l} \mathrm{B:} & 2 x = y + 3 \\ \mathrm{H:} & 8 x + 18 = 9 + 2 a \end{array} \right. \end{array}
 $$
 
 故有
 
 $$
-4 x \mathrm{NaBH} _ {4} + 2 x \mathrm{NiCl} _ {2} + 1 8 \mathrm{H} _ {2} \mathrm{O} = 2 \mathrm{Ni} _ {x} \mathrm{B} _ {2 x - 3} + 6 \mathrm{H} _ {3} \mathrm{BO} _ {3} + (8 x + 9) \mathrm{H} _ {2} \uparrow + 4 x \mathrm{NaCl}
+4 x \mathrm{NaBH} _ {4} + 2 x \mathrm{NiCl} _ {2} + 18 \mathrm{H} _ {2} \mathrm{O} = 2 \mathrm{Ni} _ {x} \mathrm{B} _ {2 x - 3} + 6 \mathrm{H} _ {3} \mathrm{BO} _ {3} + (8 x + 9) \mathrm{H} _ {2} \uparrow + 4 x \mathrm{NaCl}
 $$
 
 由此可见，理论上这并不是一个可以配平出唯一解的方程式，故需要考虑何种组成可以实际存在。常见的硼化镍有 $Ni_{3}B_{2}$ 、 $Ni_{3}B$ 、 $Ni_{2}B$ 、 $NiB_{2}$ 几种；x=2 时，化学式为 $Ni_{2}B$ ，其他情况 $(\mathrm{Ni}_{3}\mathrm{B}_{3},\mathrm{Ni}_{4}\mathrm{B}_{5},\mathrm{Ni}_{5}\mathrm{B}_{7},\cdots)$ 均不合理。因此可以写出
 
 $$
-8 \mathrm{NaBH} _ {4} + 4 \mathrm{NiCl} _ {2} + 1 8 \mathrm{H} _ {2} \mathrm{O} = 2 \mathrm{Ni} _ {2} \mathrm{B} + 6 \mathrm{H} _ {3} \mathrm{BO} _ {3} + 2 5 \mathrm{H} _ {2} \uparrow + 8 \mathrm{NaCl}
+8 \mathrm{NaBH} _ {4} + 4 \mathrm{NiCl} _ {2} + 18 \mathrm{H} _ {2} \mathrm{O} = 2 \mathrm{Ni} _ {2} \mathrm{B} + 6 \mathrm{H} _ {3} \mathrm{BO} _ {3} + 25 \mathrm{H} _ {2} \uparrow + 8 \mathrm{NaCl}
 $$
 
 1-4 这是一个氧化还原反应，锰的氧化数由 +7 变为 +4，容易判断 $H_{2}O_{2}$ 在反应中是还原剂，被氧化为 $O_{2}$ 。1 mol $KMnO_{4}$ 被还原需要 3 mole $^{-}$ ，1 mol $H_{2}O_{2}$ 被氧化则失去 2 mole $^{-}$ 。书写方程式时注意，KF-HF 介质中的 KF 最好写为 $KHF_{2}$ 形式。最后可以写出
@@ -2933,7 +2933,7 @@ $$
 2-3 本题考查键能的应用。整个过程可视为断开一根 C=O 键、两根 O—H 键，形成一根 H—H 键和两根 C=O 键，因此整个过程的焓变可以通过键能进行估算。
 
 $$
-\begin{array}{r l} \Delta H _ {\mathrm{m}} & = \mathrm{BE(C=O)} + 2 \mathrm{BE(O-H)} - \mathrm{BE(H-H)} - 2 \mathrm{BE(C=O)} \\ & = 1 0 7 2 \mathrm {kJ mol^ {- 1}} + 2 \times 4 6 3 \mathrm {kJ mol^ {- 1}} - 4 3 6 \mathrm {kJ mol^ {- 1}} - 2 \times 7 9 9 \mathrm {kJ mol^ {- 1}} \\ & = - 3 6 \mathrm {kJ mol^ {- 1}} \end{array}
+\begin{array}{r l} \Delta H _ {\mathrm{m}} & = \mathrm{BE(C=O)} + 2 \mathrm{BE(O-H)} - \mathrm{BE(H-H)} - 2 \mathrm{BE(C=O)} \\ & = 1072 \mathrm {kJ mol^ {- 1}} + 2 \times 463 \mathrm {kJ mol^ {- 1}} - 436 \mathrm {kJ mol^ {- 1}} - 2 \times 799 \mathrm {kJ mol^ {- 1}} \\ & = - 36 \mathrm {kJ mol^ {- 1}} \end{array}
 $$
 
 可以看到,这是一个放热反应,因此在低温时反应更有利。
@@ -2941,13 +2941,13 @@ $$
 2-4 本题考查水溶液中的物料守恒和电荷守恒。根据题意，以反应前后溶液中 $S^{2-}$ 的浓度 $c_{0}, c_{1}$ 列出电荷守恒方程和物料守恒方程，即
 
 $$
-\begin{array}{r l} & 2 c _ {1} + 2 0 c _ {1} + 2 0 0 c _ {1} = 2 c _ {0} \\ & 1 0 c _ {1} + 2 \times 1 0 0 c _ {1} = \frac {0 . 0 8 0 \mathrm{g}}{3 2 \mathrm{gmol} ^ {- 1} \times 0 . 0 1 0 \mathrm{L}} = 0. 2 5 \mathrm{mol} \mathrm{L} ^ {- 1} \end{array}
+\begin{array}{r l} & 2 c _ {1} + 20 c _ {1} + 200 c _ {1} = 2 c _ {0} \\ & 10 c _ {1} + 2 \times 100 c _ {1} = \frac {0.080 \mathrm{g}}{32 \mathrm{gmol} ^ {- 1} \times 0.010 \mathrm{L}} = 0.25 \mathrm{mol} \mathrm{L} ^ {- 1} \end{array}
 $$
 
 由此解得
 
 $$
-\begin{array}{r l} c _ {1} & = 1. 2 \times 1 0 ^ {- 3} \mathrm{mol} \mathrm{L} ^ {- 1} \\ c _ {0} & = 0. 1 3 \mathrm{mol} \mathrm{L} ^ {- 1} \end{array}
+\begin{array}{r l} c _ {1} & = 1.2 \times 10 ^ {- 3} \mathrm{mol} \mathrm{L} ^ {- 1} \\ c _ {0} & = 0.13 \mathrm{mol} \mathrm{L} ^ {- 1} \end{array}
 $$
 
 ## 评注
@@ -2975,19 +2975,19 @@ $$
 由此可以得到 M 的摩尔质量。
 
 $$
-\begin{array}{r l} M (\mathbf {M}) & = \frac {1}{2} \times \left[ M \left(\mathbf {M} _ {2} \mathrm{O} _ {3}\right) - 3 \times M (\mathrm{O}) \right] = \frac {1}{2} \times (4 6 8 \mathrm{g} \mathrm{mol} ^ {- 1} - 3 \times 1 6 \mathrm{g} \mathrm{mol} ^ {- 1}) \\ & = 2 1 0 \mathrm{g} \mathrm{mol} ^ {- 1} \end{array}
+\begin{array}{r l} M (\mathbf {M}) & = \frac {1}{2} \times \left[ M \left(\mathbf {M} _ {2} \mathrm{O} _ {3}\right) - 3 \times M (\mathrm{O}) \right] = \frac {1}{2} \times (468 \mathrm{g} \mathrm{mol} ^ {- 1} - 3 \times 16 \mathrm{g} \mathrm{mol} ^ {- 1}) \\ & = 210 \mathrm{g} \mathrm{mol} ^ {- 1} \end{array}
 $$
 
 这样通过查阅元素周期表便可以确定 $\mathbf{M}$ 为Bi。接下来我们需要确定A中X是什么。通过沉淀 B 的化学式可以看出，X 为一种二价阴离子，因此在 A 的化学式中的未知量 n 可以确定为 3。到目前为止，我们推出了 A 的化学式为 $\mathrm{Bi}_{2}\mathrm{X}_{3} \cdot y\mathrm{H}_{2}\mathrm{O}(5 < y < 10)$ 。另一方面，这个二价阴离子热分解会放出无色无味的气体，在常见的二价阴离子中只有碳酸根、草酸根具有这种性质。常见碳酸盐中在 $300^{\circ}C$ 以下分解为氧化物和 $CO_{2}$ 的只有碳酸铵，其他化合物的热分解温度都高于 $300^{\circ}C$ ；而草酸盐的热分解温度通常较低。易求得
 
 $$
-\begin{array}{l} M (\mathrm{CO} _ {3} ^ {2 -}) = 6 0 \mathrm{g} \mathrm{mol} ^ {- 1} \\ M (\mathrm{C} _ {2} \mathrm{O} _ {4} ^ {2 -}) = 8 8 \mathrm{g} \mathrm{mol} ^ {- 1} \end{array}
+\begin{array}{l} M (\mathrm{CO} _ {3} ^ {2 -}) = 60 \mathrm{g} \mathrm{mol} ^ {- 1} \\ M (\mathrm{C} _ {2} \mathrm{O} _ {4} ^ {2 -}) = 88 \mathrm{g} \mathrm{mol} ^ {- 1} \end{array}
 $$
 
 并且，通过前面的条件可推得
 
 $$
-3 M (\mathbf {X}) + y \cdot M \left(\mathrm{H} _ {2} \mathrm{O}\right) = 8 1 1 \mathrm{g} \mathrm{mol} ^ {- 1} - 2 \times 2 1 0 \mathrm{g} \mathrm{mol} ^ {- 1} = 3 9 1 \mathrm{g} \mathrm{mol} ^ {- 1}
+3 M (\mathbf {X}) + y \cdot M \left(\mathrm{H} _ {2} \mathrm{O}\right) = 811 \mathrm{g} \mathrm{mol} ^ {- 1} - 2 \times 210 \mathrm{g} \mathrm{mol} ^ {- 1} = 391 \mathrm{g} \mathrm{mol} ^ {- 1}
 $$
 
 在 $y$ 取相应的值时， $M(\mathbf{X})$ 计算结果如下表：
@@ -2999,7 +2999,7 @@ $$
 3-2 根据 3-1 的结论可直接写出方程式, 即
 
 $$
-2 \mathrm{Bi} _ {2} \left(\mathrm{C} _ {2} \mathrm{O} _ {4}\right) _ {3} \cdot 7 \mathrm{H} _ {2} \mathrm{O} + 3 \mathrm{O} _ {2} = 2 \mathrm{Bi} _ {2} \mathrm{O} _ {3} + 1 2 \mathrm{CO} _ {2} + 1 4 \mathrm{H} _ {2} \mathrm{O}
+2 \mathrm{Bi} _ {2} \left(\mathrm{C} _ {2} \mathrm{O} _ {4}\right) _ {3} \cdot 7 \mathrm{H} _ {2} \mathrm{O} + 3 \mathrm{O} _ {2} = 2 \mathrm{Bi} _ {2} \mathrm{O} _ {3} + 12 \mathrm{CO} _ {2} + 14 \mathrm{H} _ {2} \mathrm{O}
 $$
 
 唯一需要注意的地方是:这个热解反应是在空气中进行的,氧气参与反应,因此碳全部转化为 $CO_{2}$ 。
@@ -3007,7 +3007,7 @@ $$
 3-3 B 的化学式为 $\mathrm{BiC}_{2}\mathrm{O}_{4}(\mathrm{OH})$ ，易求得
 
 $$
-M (\mathbf {B}) = 3 1 4 \mathrm{g} \mathrm{mol} ^ {- 1}
+M (\mathbf {B}) = 314 \mathrm{g} \mathrm{mol} ^ {- 1}
 $$
 
 因此剩余物总式量为
@@ -3019,7 +3019,7 @@ $$
 这个式量介于Bi的式量和 $\mathrm{BiO}_{1.5}$ 的式量之间，因此剩余物中应当有Bi和 $\mathrm{Bi}_2\mathrm{O}_3$ 两种物质，下面只需要计算出二者的比例即可。设单质Bi占产物中所有Bi的摩尔分数为 $x$ ，则可列出如下方程：
 
 $$
-x \cdot M (\mathrm{Bi}) + \frac {1 - x}{2} \cdot M (\mathrm{Bi} _ {2} \mathrm{O} _ {3}) = 2 2 1 \mathrm{g} \mathrm{mol} ^ {- 1}
+x \cdot M (\mathrm{Bi}) + \frac {1 - x}{2} \cdot M (\mathrm{Bi} _ {2} \mathrm{O} _ {3}) = 221 \mathrm{g} \mathrm{mol} ^ {- 1}
 $$
 
 解得 x=0.5，即两个组分中 Bi 的摩尔比为 1:1，因此 Bi 和 $Bi_{2}O_{3}$ 的摩尔比为 2:1，Bi 的摩尔分数为 0.33， $Bi_{2}O_{3}$ 的摩尔分数为 0.67。
@@ -3049,13 +3049,13 @@ $$
 晶胞结构中 Na-He 的间距为体对角线的 1/4，计算结果如下：
 
 $$
-d = \frac {1}{4} \times \sqrt {3} \times 3 9 5 \mathrm{pm} = 1 7 1 \mathrm{pm}
+d = \frac {1}{4} \times \sqrt {3} \times 395 \mathrm{pm} = 171 \mathrm{pm}
 $$
 
 晶胞中含有 8 个 Na 和 4 个 He, 晶体密度计算如下:
 
 $$
-\rho = \frac {Z M}{N _ {\mathrm{A}} \cdot a ^ {3}} = \frac {4 \times (2 2 . 9 9 \times 2 + 4 . 0 0)}{(6 . 0 2 \times 1 0 ^ {2 3}) \times (3 9 5 \times 1 0 ^ {- 1 0}) ^ {3}} \mathrm{gcm} ^ {- 3} = 5. 3 9 \mathrm{gcm} ^ {- 3}
+\rho = \frac {Z M}{N _ {\mathrm{A}} \cdot a ^ {3}} = \frac {4 \times (22.99 \times 2 + 4.00)}{(6.02 \times 10 ^ {23}) \times (395 \times 10 ^ {- 10}) ^ {3}} \mathrm{gcm} ^ {- 3} = 5.39 \mathrm{gcm} ^ {- 3}
 $$
 
 ## 第5题
@@ -3105,13 +3105,13 @@ $$
 5-2 确定了 A 为 $P_{4}S_{10}$ 之后， $FeP_{2}$ 与黄铁矿反应制备 A 的方程式就很容易给出。此题考查了氧化还原反应方程式的配平。分析各元素氧化数的改变：Fe 始终为 +2，P 由 -1 上升到 +5，S 由 -1 降低为 -2。由此得出 $FeP_{2}$ 、 $FeS_{2}$ 前的系数比应为 6:1，配平后的反应方程式为
 
 $$
-2 \mathrm{FeP} _ {2} + 1 2 \mathrm{FeS} _ {2} = \mathrm{P} _ {4} \mathrm{S} _ {1 0} + 1 4 \mathrm{FeS}
+2 \mathrm{FeP} _ {2} + 12 \mathrm{FeS} _ {2} = \mathrm{P} _ {4} \mathrm{S} _ {10} + 14 \mathrm{FeS}
 $$
 
 5-3 前面已经推出 B 是 FeS，与浓硫酸发生氧化还原反应，Fe 被氧化到 +3 氧化态，放出 $SO_{2}$ 气体。
 
 $$
-2 \mathrm{FeS} + 1 0 \mathrm{H} _ {2} \mathrm{SO} _ {4} = \mathrm{Fe} _ {2} (\mathrm{SO} _ {4}) _ {3} + 9 \mathrm{SO} _ {2} \uparrow + 1 0 \mathrm{H} _ {2} \mathrm{O}
+2 \mathrm{FeS} + 10 \mathrm{H} _ {2} \mathrm{SO} _ {4} = \mathrm{Fe} _ {2} (\mathrm{SO} _ {4}) _ {3} + 9 \mathrm{SO} _ {2} \uparrow + 10 \mathrm{H} _ {2} \mathrm{O}
 $$
 
 第6题
@@ -3123,7 +3123,7 @@ $$
 6-2 本题考查配合物的价键与杂化理论。第一问根据“暴露在空气中”可知氧气氧化了过渡金属配合物 $\left[\mathrm{Ru}\left(\mathrm{NH}_{3}\right)_{6}\right]\mathrm{Cl}_{3}$ ，钉的平均氧化数从 $+3$ 变为 $+10 / 3$ ；同时为了平衡电荷，水参与反应并提供质子。值得注意的是，题中有“氨水溶液”的描述，且反应也生成氨，所以生成物中不可直接写出质子。故可写出离子方程式：
 
 $$
-1 2 \left[ \mathrm{Ru} \left(\mathrm{NH} _ {3}\right) _ {6} \right] ^ {3 +} + \mathrm{O} _ {2} + 6 \mathrm{H} _ {2} \mathrm{O} = 4 \left[ \mathrm{Ru} _ {3} \mathrm{O} _ {2} \left(\mathrm{NH} _ {3}\right) _ {1 4} \right] ^ {6 +} + 1 2 \mathrm{NH} _ {4} ^ {+} + 4 \mathrm{NH} _ {3}
+12 \left[ \mathrm{Ru} \left(\mathrm{NH} _ {3}\right) _ {6} \right] ^ {3 +} + \mathrm{O} _ {2} + 6 \mathrm{H} _ {2} \mathrm{O} = 4 \left[ \mathrm{Ru} _ {3} \mathrm{O} _ {2} \left(\mathrm{NH} _ {3}\right) _ {14} \right] ^ {6 +} + 12 \mathrm{NH} _ {4} ^ {+} + 4 \mathrm{NH} _ {3}
 $$
 
 根据题中“无金属键”和“均为六配位”的描述，可知钌红阳离子中两个氧原子提供4对孤对电子，均为 $\mu_{2}$ -配位；且 $NH_{3}$ 只有一对孤对电子，不可作为桥连配体。所以两个 $\mu_{2}-O$ 只能以Ru—O—Ru—O—Ru的形式桥接起三个Ru中心，剩下的空位全部留给 $NH_{3}$ 即可。氧化态的标注也很容易，首先可以计算出Ru的氧化数之和是+10，故只有一个Ru(Ⅲ)被氧化。中间的Ru连接了两个 $\mu_{2}-O$ ，为+4氧化态；旁边的Ru为+3氧化态。另外，从对称性的角度也可以得出答案：
@@ -3355,7 +3355,7 @@ $$
 将该混合物置于水中，充分反应后离心分离得到白色沉淀和 $0.1 \, dm^{3}$ 无色溶液。向该溶液中通入 0.01 mol 氨气,无沉淀生成;若将氨气换成 0.01 mol NaF,则有白色沉淀生成。试指出该混合物中肯定存在的物质、肯定不存在的物质、不能判断是否存在的物质各有哪些。并对肯定存在的物质简要说明理由。
 
 $$
-\begin{array}{l l} K _ {\mathrm{a} _ {1}} ^ {\ominus} (\mathrm{H} _ {2} \mathrm{SO} _ {3}) = 1. 3 \times 1 0 ^ {- 2} & K _ {\mathrm{a} _ {2}} ^ {\ominus} (\mathrm{H} _ {2} \mathrm{SO} _ {3}) = 6. 2 \times 1 0 ^ {- 8} \\ K _ {\mathrm{b}} ^ {\ominus} (\mathrm{NH} _ {3} \cdot \mathrm{H} _ {2} \mathrm{O}) = 1. 8 \times 1 0 ^ {- 5} & K _ {\mathrm{sp}} ^ {\ominus} (\mathrm{CaSO} _ {4}) = 4. 9 \times 1 0 ^ {- 5} \\ K _ {\mathrm{sp}} ^ {\ominus} (\mathrm{CaSO} _ {3}) = 6. 8 \times 1 0 ^ {- 8} & K _ {\mathrm{sp}} ^ {\ominus} (\mathrm{MgSO} _ {3}) = 3. 2 \times 1 0 ^ {- 3} \\ K _ {\mathrm{sp}} ^ {\ominus} (\mathrm{CaCrO} _ {4}) = 7. 1 \times 1 0 ^ {- 4} & K _ {\mathrm{sp}} ^ {\ominus} (\mathrm{CaF} _ {2}) = 5. 3 \times 1 0 ^ {- 9} \\ K _ {\mathrm{sp}} ^ {\ominus} (\mathrm{MgF} _ {2}) = 5. 2 \times 1 0 ^ {- 1 1} & K _ {\mathrm{sp}} ^ {\ominus} (\mathrm{Mg(OH)} _ {2}) = 5. 6 \times 1 0 ^ {- 1 2} \\ K _ {\mathrm{sp}} ^ {\ominus} (\mathrm{Ca(OH)} _ {2}) = 5. 5 \times 1 0 ^ {- 6} & \end{array}
+\begin{array}{l l} K _ {\mathrm{a} _ {1}} ^ {\ominus} (\mathrm{H} _ {2} \mathrm{SO} _ {3}) = 1.3 \times 10 ^ {- 2} & K _ {\mathrm{a} _ {2}} ^ {\ominus} (\mathrm{H} _ {2} \mathrm{SO} _ {3}) = 6.2 \times 10 ^ {- 8} \\ K _ {\mathrm{b}} ^ {\ominus} (\mathrm{NH} _ {3} \cdot \mathrm{H} _ {2} \mathrm{O}) = 1.8 \times 10 ^ {- 5} & K _ {\mathrm{sp}} ^ {\ominus} (\mathrm{CaSO} _ {4}) = 4.9 \times 10 ^ {- 5} \\ K _ {\mathrm{sp}} ^ {\ominus} (\mathrm{CaSO} _ {3}) = 6.8 \times 10 ^ {- 8} & K _ {\mathrm{sp}} ^ {\ominus} (\mathrm{MgSO} _ {3}) = 3.2 \times 10 ^ {- 3} \\ K _ {\mathrm{sp}} ^ {\ominus} (\mathrm{CaCrO} _ {4}) = 7.1 \times 10 ^ {- 4} & K _ {\mathrm{sp}} ^ {\ominus} (\mathrm{CaF} _ {2}) = 5.3 \times 10 ^ {- 9} \\ K _ {\mathrm{sp}} ^ {\ominus} (\mathrm{MgF} _ {2}) = 5.2 \times 10 ^ {- 11} & K _ {\mathrm{sp}} ^ {\ominus} (\mathrm{Mg(OH)} _ {2}) = 5.6 \times 10 ^ {- 12} \\ K _ {\mathrm{sp}} ^ {\ominus} (\mathrm{Ca(OH)} _ {2}) = 5.5 \times 10 ^ {- 6} & \end{array}
 $$
 
 ## 第 4 题(8 分)
@@ -3447,7 +3447,7 @@ $$
 6-3 晶体的宏观对称性与构成该晶体的分子的对称性是否完全相同？从下列物质中选择实例说明：
 
 $$
-\mathrm{HMTA}, \mathrm{CO} _ {2}, (\mathrm{NH} _ {2}) _ {2} \mathrm{CO}, \mathrm{Fe} (\mathrm{C} _ {5} \mathrm{H} _ {5}) _ {2}, \mathrm{C} _ {6} \mathrm{H} _ {6}, \mathrm{C} _ {6 0}
+\mathrm{HMTA}, \mathrm{CO} _ {2}, (\mathrm{NH} _ {2}) _ {2} \mathrm{CO}, \mathrm{Fe} (\mathrm{C} _ {5} \mathrm{H} _ {5}) _ {2}, \mathrm{C} _ {6} \mathrm{H} _ {6}, \mathrm{C} _ {60}
 $$
 
 6-4-1 指出 HMTA 晶体的点阵型式；说明该点阵的轴次最高的对称轴及其方向。
@@ -3499,15 +3499,15 @@ $$
 $$
 
 $$
-\xrightarrow [ 8 5 ^ {\circ} \mathrm{C} ]{\text {DBU}} \quad \mathrm{D} \quad \xrightarrow [ (2) \mathrm{H} _ {2} \mathrm{O} , \mathrm{H} ^ {+} ]{(1) \mathrm{CH} _ {3} (\mathrm{CH} _ {2}) _ {5} \mathrm{MgBr} , \mathrm{AlCl} _ {3} , - 1 5 ^ {\circ} \mathrm{C}} \quad \begin{array}{c c c c} & \mathbf {E} & + & \mathbf {F} \\ & 4 & : & 1 \end{array} (\mathrm{C} _ {1 8} \mathrm{H} _ {3 1} \mathrm{NO} _ {4})
+\xrightarrow [ 85 ^ {\circ} \mathrm{C} ]{\text {DBU}} \quad \mathrm{D} \quad \xrightarrow [ (2) \mathrm{H} _ {2} \mathrm{O} , \mathrm{H} ^ {+} ]{(1) \mathrm{CH} _ {3} (\mathrm{CH} _ {2}) _ {5} \mathrm{MgBr} , \mathrm{AlCl} _ {3} , - 15 ^ {\circ} \mathrm{C}} \quad \begin{array}{c c c c} & \mathbf {E} & + & \mathbf {F} \\ & 4 & : & 1 \end{array} (\mathrm{C} _ {18} \mathrm{H} _ {31} \mathrm{NO} _ {4})
 $$
 
 $$
-\cdot \quad E \xrightarrow [ \mathrm{PtO} _ {2} ]{\mathrm{H} _ {2}} G \xrightarrow [ (2) \mathrm{H} _ {2} \mathrm{O} , \mathrm{H} ^ {+} ]{(1) \text {DIBAL - H, 0 °C}} \xrightarrow [ \text {OH} ]{\mathrm{nC} _ {6} \mathrm{H} _ {1 3}} \xrightarrow [ \mathrm{Et} _ {3} \mathrm{N} , - 7 8 ° C ]{(\mathrm{COCl}) _ {2} , \mathrm{DMSO}} H \xrightarrow [ \mathrm{NaH} ]{(\mathrm{EtO}) _ {2} \mathrm{POCH} _ {2} \mathrm{CO} _ {2} \mathrm{Et}}
+\cdot \quad E \xrightarrow [ \mathrm{PtO} _ {2} ]{\mathrm{H} _ {2}} G \xrightarrow [ (2) \mathrm{H} _ {2} \mathrm{O} , \mathrm{H} ^ {+} ]{(1) \text {DIBAL - H, 0 °C}} \xrightarrow [ \text {OH} ]{\mathrm{nC} _ {6} \mathrm{H} _ {13}} \xrightarrow [ \mathrm{Et} _ {3} \mathrm{N} , - 78 ° C ]{(\mathrm{COCl}) _ {2} , \mathrm{DMSO}} H \xrightarrow [ \mathrm{NaH} ]{(\mathrm{EtO}) _ {2} \mathrm{POCH} _ {2} \mathrm{CO} _ {2} \mathrm{Et}}
 $$
 
 $$
-I \xrightarrow [ \mathrm{PtO} _ {2} ]{\mathrm{H} _ {2}} J \xrightarrow [ \text {MeOH} ]{\mathrm{HCl}} K \left(\mathrm{C} _ {1 5} \mathrm{H} _ {2 9} \mathrm{NO} _ {2}\right) \xrightarrow [ \triangle ]{i \mathrm{Pr} _ {2} \mathrm{NEt}} L \xrightarrow [ (2) \mathrm{H} _ {3} \mathrm{O} ^ {+} ]{(1) \mathrm{LiAlH} _ {4}} M \left(\mathrm{C} _ {1 4} \mathrm{H} _ {2 7} \mathrm{N}\right)
+I \xrightarrow [ \mathrm{PtO} _ {2} ]{\mathrm{H} _ {2}} J \xrightarrow [ \text {MeOH} ]{\mathrm{HCl}} K \left(\mathrm{C} _ {15} \mathrm{H} _ {29} \mathrm{NO} _ {2}\right) \xrightarrow [ \triangle ]{i \mathrm{Pr} _ {2} \mathrm{NEt}} L \xrightarrow [ (2) \mathrm{H} _ {3} \mathrm{O} ^ {+} ]{(1) \mathrm{LiAlH} _ {4}} M \left(\mathrm{C} _ {14} \mathrm{H} _ {27} \mathrm{N}\right)
 $$
 
 $$
@@ -3529,29 +3529,29 @@ $$
 根据氧化还原转移电子数的关系得到金属与气体的摩尔比：
 
 $$
-\mathrm{Zn} \propto \mathrm{H} _ {2} \quad \mathrm{Al} \propto 1. 5 \mathrm{H} _ {2} \quad \mathrm{Zn} \propto \mathrm{SO} _ {2} \quad \mathrm{Cu} \propto \mathrm{SO} _ {2} \quad \mathrm{Al} \propto 1. 5 \mathrm{SO} _ {2}
+\mathrm{Zn} \propto \mathrm{H} _ {2} \quad \mathrm{Al} \propto 1.5 \mathrm{H} _ {2} \quad \mathrm{Zn} \propto \mathrm{SO} _ {2} \quad \mathrm{Cu} \propto \mathrm{SO} _ {2} \quad \mathrm{Al} \propto 1.5 \mathrm{SO} _ {2}
 $$
 
 根据 $pV = nRT$ ，求算 $\mathrm{H}_2$ 和 $\mathrm{SO}_2$ 的物质的量：
 
 $$
-n \left(\mathrm{H} _ {2}\right) = p V / R T = \left[ 1 0 1. 3 2 5 \times 0. 1 4 9 3 / (8. 3 1 4 \times 2 9 8. 1 5) \right] \mathrm{mol} = 6. 1 0 3 \times 1 0 ^ {- 3} \mathrm{mol}
+n \left(\mathrm{H} _ {2}\right) = p V / R T = \left[ 101.325 \times 0.1493 / (8.314 \times 298.15) \right] \mathrm{mol} = 6.103 \times 10 ^ {- 3} \mathrm{mol}
 $$
 
 $$
-n \left(\mathrm{SO} _ {2}\right) = p V / R T = \left[ 1 0 1. 3 2 5 \times 0. 4 1 1 1 / (8. 3 1 4 \times 2 9 8. 1 5) \right] \mathrm{mol} = 1. 6 8 0 \times 1 0 ^ {- 2} \mathrm{mol}
+n \left(\mathrm{SO} _ {2}\right) = p V / R T = \left[ 101.325 \times 0.4111 / (8.314 \times 298.15) \right] \mathrm{mol} = 1.680 \times 10 ^ {- 2} \mathrm{mol}
 $$
 
 设在 0.1000 g 合金中，Zn、Al、Cu 的物质的量分别为 $n_{Zn}$ 、 $n_{Al}$ 、 $n_{Cu}$ 。根据两个反应方程式和质量守恒关系：
 
 $$
-\left\{ \begin{array}{l} n _ {\mathrm{Zn}} + 1. 5 n _ {\mathrm{Al}} = 6. 1 0 3 \times 1 0 ^ {- 3} \mathrm{mol} \\ n _ {\mathrm{Zn}} + 1. 5 n _ {\mathrm{Al}} + n _ {\mathrm{Cu}} = 1. 6 8 0 \times 1 0 ^ {- 2} \mathrm{mol} \\ (6 5. 3 8 n _ {\mathrm{Zn}} + 2 6. 9 8 n _ {\mathrm{Al}} + 6 3. 5 5 n _ {\mathrm{Cu}}) \mathrm{g} \mathrm{mol} ^ {- 1} = 1. 0 0 0 \mathrm{g} \end{array} \right.
+\left\{ \begin{array}{l} n _ {\mathrm{Zn}} + 1.5 n _ {\mathrm{Al}} = 6.103 \times 10 ^ {- 3} \mathrm{mol} \\ n _ {\mathrm{Zn}} + 1.5 n _ {\mathrm{Al}} + n _ {\mathrm{Cu}} = 1.680 \times 10 ^ {- 2} \mathrm{mol} \\ (65.38 n _ {\mathrm{Zn}} + 26.98 n _ {\mathrm{Al}} + 63.55 n _ {\mathrm{Cu}}) \mathrm{g} \mathrm{mol} ^ {- 1} = 1.000 \mathrm{g} \end{array} \right.
 $$
 
 解得
 
 $$
-\left\{ \begin{array}{l} n _ {\mathrm{Zn}} = 4. 4 4 0 \times 1 0 ^ {- 3} \mathrm{mol} \\ n _ {\mathrm{Al}} = 1. 1 0 9 \times 1 0 ^ {- 3} \mathrm{mol} \\ n _ {\mathrm{Cu}} = 1. 0 7 0 \times 1 0 ^ {- 2} \mathrm{mol} \end{array} \right.
+\left\{ \begin{array}{l} n _ {\mathrm{Zn}} = 4.440 \times 10 ^ {- 3} \mathrm{mol} \\ n _ {\mathrm{Al}} = 1.109 \times 10 ^ {- 3} \mathrm{mol} \\ n _ {\mathrm{Cu}} = 1.070 \times 10 ^ {- 2} \mathrm{mol} \end{array} \right.
 $$
 
 所以 Zn、Al、Cu 的质量分数分别为
@@ -3607,41 +3607,41 @@ $$
 而
 
 $$
-m (\mathrm{Na} _ {2} \mathrm{O} _ {2}) - m (\mathrm{O} _ {2}) = 2. 7 2 \mathrm{g}
+m (\mathrm{Na} _ {2} \mathrm{O} _ {2}) - m (\mathrm{O} _ {2}) = 2.72 \mathrm{g}
 $$
 
 解得
 
 $$
-m \left(\mathrm{Na} _ {2} \mathrm{O} _ {2}\right) = 3. 4 2 \mathrm{g}
+m \left(\mathrm{Na} _ {2} \mathrm{O} _ {2}\right) = 3.42 \mathrm{g}
 $$
 
 2-2 左杯中加入 $2.72 \, g \, ZnCl_{2}$ ，故
 
 $$
-n \left(\mathrm{ZnCl} _ {2}\right) = m \left(\mathrm{ZnCl} _ {2}\right) / M \left(\mathrm{ZnCl} _ {2}\right) = [ 2. 7 2 / (6 5. 3 8 + 3 5. 4 5 \times 2) ] \mathrm{mol} = 2. 0 0 \times 1 0 ^ {- 2} \mathrm{mol}
+n \left(\mathrm{ZnCl} _ {2}\right) = m \left(\mathrm{ZnCl} _ {2}\right) / M \left(\mathrm{ZnCl} _ {2}\right) = [ 2.72 / (65.38 + 35.45 \times 2) ] \mathrm{mol} = 2.00 \times 10 ^ {- 2} \mathrm{mol}
 $$
 
 $$
-2 \left[ Z n ^ {2 +} \right] = \left[ C l ^ {-} \right] = (2 \times 2. 0 0 \times 1 0 ^ {- 2} / 1. 0 0) \mathrm{mol} \mathrm{dm} ^ {- 3} = 4. 0 0 \times 1 0 ^ {- 2} \mathrm{mol} \mathrm{dm} ^ {- 3}
+2 \left[ Z n ^ {2 +} \right] = \left[ C l ^ {-} \right] = (2 \times 2.00 \times 10 ^ {- 2} / 1.00) \mathrm{mol} \mathrm{dm} ^ {- 3} = 4.00 \times 10 ^ {- 2} \mathrm{mol} \mathrm{dm} ^ {- 3}
 $$
 
 左杯中通入 $H_{2}S$ 气体, 发生如下反应:
 
 $$
-\begin{array}{r l}&\mathrm {Zn^ {2 + } (aq)+ H_ {2} S(aq)\rightleftharpoons ZnS(s) + 2H^ {+} (aq)}\\&K ^ {\ominus} = \frac {K _ {\mathrm{a} _ {1}} ^ {\ominus} (\mathrm {H_ {2} S}) \cdot K _ {\mathrm{a} _ {2}} ^ {\ominus} (\mathrm {H_ {2} S})}{K _ {\mathrm{sp}} ^ {\ominus} (\mathrm{ZnS})} = 5 7\end{array}
+\begin{array}{r l}&\mathrm {Zn^ {2 + } (aq)+ H_ {2} S(aq)\rightleftharpoons ZnS(s) + 2H^ {+} (aq)}\\&K ^ {\ominus} = \frac {K _ {\mathrm{a} _ {1}} ^ {\ominus} (\mathrm {H_ {2} S}) \cdot K _ {\mathrm{a} _ {2}} ^ {\ominus} (\mathrm {H_ {2} S})}{K _ {\mathrm{sp}} ^ {\ominus} (\mathrm{ZnS})} = 57\end{array}
 $$
 
 容易判断 ZnS 沉淀完全，即沉淀出 $2.00 \times 10^{-2}$ mol 的 ZnS。而 $[H_{2}S] = 0.100 \, mol \, dm^{-3}$ ，即在沉淀完 ZnS 以后，又通入 $H_{2}S$ 气体：
 
 $$
-0. 1 0 0 \times 1. 0 0 \mathrm{mol} = 0. 1 0 0 \mathrm{mol}
+0.100 \times 1.00 \mathrm{mol} = 0.100 \mathrm{mol}
 $$
 
 故共通入 $\mathrm{H}_2\mathrm{S}$ 气体：
 
 $$
-(0. 1 0 0 + 2. 0 0 \times 1 0 ^ {- 2}) \mathrm{mol} = 0. 1 2 0 \mathrm{mol}
+(0.100 + 2.00 \times 10 ^ {- 2}) \mathrm{mol} = 0.120 \mathrm{mol}
 $$
 
 右杯中第一次加入了 $3.42 \, g \, Na_{2}O_{2}$ ，生成了 NaOH。
@@ -3651,7 +3651,7 @@ $$
 $$
 
 $$
-n (\mathrm{NaOH}) = 2 n \left(\mathrm{Na} _ {2} \mathrm{O} _ {2}\right) = [ 2 \times 3. 4 2 / (2 2. 9 9 \times 2 + 1 6. 0 0 \times 2) ] \mathrm{mol} = 8. 7 7 \times 1 0 ^ {- 2} \mathrm{mol}
+n (\mathrm{NaOH}) = 2 n \left(\mathrm{Na} _ {2} \mathrm{O} _ {2}\right) = [ 2 \times 3.42 / (22.99 \times 2 + 16.00 \times 2) ] \mathrm{mol} = 8.77 \times 10 ^ {- 2} \mathrm{mol}
 $$
 
 通入 $H_{2}S$ 气体后, 发生中和:
@@ -3661,17 +3661,17 @@ $$
 $$
 
 $$
-\left[ \mathrm{HS} ^ {-} \right] = (8. 7 7 \times 1 0 ^ {- 2} / 1. 0 0) \mathrm{mol} \mathrm{dm} ^ {- 3} = 8. 7 7 \times 1 0 ^ {- 2} \mathrm{mol} \mathrm{dm} ^ {- 3}
+\left[ \mathrm{HS} ^ {-} \right] = (8.77 \times 10 ^ {- 2} / 1.00) \mathrm{mol} \mathrm{dm} ^ {- 3} = 8.77 \times 10 ^ {- 2} \mathrm{mol} \mathrm{dm} ^ {- 3}
 $$
 
 $$
-\left[ \mathrm{H} _ {2} \mathrm{S} \right] = \left[ (0. 1 2 0 - 8. 7 7 \times 1 0 ^ {- 2}) / 1. 0 0 \right] \mathrm{mol} \mathrm{dm} ^ {- 3} = 3. 2 \times 1 0 ^ {- 2} \mathrm{mol} \mathrm{dm} ^ {- 3}
+\left[ \mathrm{H} _ {2} \mathrm{S} \right] = \left[ (0.120 - 8.77 \times 10 ^ {- 2}) / 1.00 \right] \mathrm{mol} \mathrm{dm} ^ {- 3} = 3.2 \times 10 ^ {- 2} \mathrm{mol} \mathrm{dm} ^ {- 3}
 $$
 
 根据缓冲溶液 pH 计算公式：
 
 $$
-\mathrm{pH} = \mathrm{pK} _ {\mathrm{a} _ {1}} ^ {\ominus} (\mathrm{H} _ {2} \mathrm{S}) + \lg ([ \mathrm{HS} ^ {-} ] / [ \mathrm{H} _ {2} \mathrm{S} ]) = 7. 4
+\mathrm{pH} = \mathrm{pK} _ {\mathrm{a} _ {1}} ^ {\ominus} (\mathrm{H} _ {2} \mathrm{S}) + \lg ([ \mathrm{HS} ^ {-} ] / [ \mathrm{H} _ {2} \mathrm{S} ]) = 7.4
 $$
 
 2-3 左杯中通入 HCl 气体时, ZnS 固体发生溶解:
@@ -3683,31 +3683,31 @@ $$
 ZnS溶解一半，即溶解了 $1.00 \times 10^{-2} \mathrm{~mol}, [Zn^{2+}] = (1.00 \times 10^{-2} / 1.00) \mathrm{~mol} \mathrm{dm}^{-3} = 1.00 \times 10^{-2} \mathrm{~mol} \mathrm{dm}^{-3}$ ，而因为 $\mathrm{H}_{2} \mathrm{~S}$ 已达饱和，故生成的 $\mathrm{H}_{2} \mathrm{~S}$ 会逸出 $1.00 \times 10^{-2} \mathrm{~mol}, [\mathrm{H}_{2} \mathrm{~S}] = 0.100 \mathrm{~mol} \mathrm{dm}^{-3}$ 。根据2-2中的标准平衡常数求出 $[\mathrm{H}^{+}]$ ：
 
 $$
-\begin{array}{r l} & K ^ {\ominus} = [ \mathrm{H} ^ {+} ] ^ {2} / [ \mathrm{Zn} ^ {2 +} ] [ \mathrm{H} _ {2} \mathrm{S} ] \\ & [ \mathrm{H} ^ {+} ] = 0. 2 3 9 \mathrm{mol} \mathrm{dm} ^ {- 3} \end{array}
+\begin{array}{r l} & K ^ {\ominus} = [ \mathrm{H} ^ {+} ] ^ {2} / [ \mathrm{Zn} ^ {2 +} ] [ \mathrm{H} _ {2} \mathrm{S} ] \\ & [ \mathrm{H} ^ {+} ] = 0.239 \mathrm{mol} \mathrm{dm} ^ {- 3} \end{array}
 $$
 
 在 2-2 中，ZnS 沉淀产生了 $4.00 \times 10^{-2} \, mol \, dm^{-3}$ 的 HCl， $H_{2}S$ 气体逸出带走了 $2.00 \times 10^{-2} \, mol$ 的 $H^{+}$ ，所以通入的 HCl 物质的量应为
 
 $$
-[ (0. 2 3 9 - 4. 0 0 \times 1 0 ^ {- 2}) \times 1. 0 0 + 2. 0 0 \times 1 0 ^ {- 2} ] \mathrm{mol} = 0. 2 1 9 \mathrm{mol}
+[ (0.239 - 4.00 \times 10 ^ {- 2}) \times 1.00 + 2.00 \times 10 ^ {- 2} ] \mathrm{mol} = 0.219 \mathrm{mol}
 $$
 
 而原有的 $\mathrm{Cl}^{-}$ 物质的量为
 
 $$
-(4. 0 0 \times 1 0 ^ {- 2} \times 1. 0 0) \mathrm{mol} = 4. 0 0 \times 1 0 ^ {- 2} \mathrm{mol}
+(4.00 \times 10 ^ {- 2} \times 1.00) \mathrm{mol} = 4.00 \times 10 ^ {- 2} \mathrm{mol}
 $$
 
 所以总的 $\mathrm{Cl}^{-}$ 浓度为
 
 $$
-\left[ \mathrm{Cl} ^ {-} \right] = \left[ (0. 2 1 9 + 4. 0 0 \times 1 0 ^ {- 2}) / 1. 0 0 \right] \mathrm{mol} \mathrm{dm} ^ {- 3} = 0. 2 5 9 \mathrm{mol} \mathrm{dm} ^ {- 3}
+\left[ \mathrm{Cl} ^ {-} \right] = \left[ (0.219 + 4.00 \times 10 ^ {- 2}) / 1.00 \right] \mathrm{mol} \mathrm{dm} ^ {- 3} = 0.259 \mathrm{mol} \mathrm{dm} ^ {- 3}
 $$
 
 2-4 在 2-3 中, 左杯共通入 $0.219 \mathrm{~mol} \mathrm{HCl}$ 而逸出了 $1.00 \times 10^{-2} \mathrm{~mol} \mathrm{H}_{2} \mathrm{~S}$ , 因此质量增加:
 
 $$
-\begin{array}{r l} \Delta m & = m (\mathrm{HCl}) - m (\mathrm{H} _ {2} \mathrm{S}) \\ & = [ 0. 2 1 9 \times (1. 0 0 8 + 3 5. 4 5) - 1. 0 0 \times 1 0 ^ {- 2} \times (1. 0 0 8 \times 2 + 3 2. 0 7) ] \mathrm{g} = 7. 6 4 \mathrm{g} \end{array}
+\begin{array}{r l} \Delta m & = m (\mathrm{HCl}) - m (\mathrm{H} _ {2} \mathrm{S}) \\ & = [ 0.219 \times (1.008 + 35.45) - 1.00 \times 10 ^ {- 2} \times (1.008 \times 2 + 32.07) ] \mathrm{g} = 7.64 \mathrm{g} \end{array}
 $$
 
 因此右杯质量同样需要增加 7.64 g 才能使天平平衡。
@@ -3715,7 +3715,7 @@ $$
 先大致判断在通入 HCl 过程中 $H_{2}S$ 是否会逸出: 原溶液中 $H_{2}S$ 的浓度为 $3.2 \times 10^{-2} \, mol \, dm^{-3}$ ，因此使 $H_{2}S$ 达到饱和时通入 HCl 质量为
 
 $$
-m = \left[ (0. 1 0 0 - 3. 2 \times 1 0 ^ {- 2}) \times 1. 0 0 \times (1. 0 0 8 + 3 5. 4 5) \right] \mathrm{g} = 2. 5 \mathrm{g}
+m = \left[ (0.100 - 3.2 \times 10 ^ {- 2}) \times 1.00 \times (1.008 + 35.45) \right] \mathrm{g} = 2.5 \mathrm{g}
 $$
 
 而此时仅增重 2.5 g，需继续通入 HCl 气体。
@@ -3723,7 +3723,7 @@ $$
 其次判断过量 $H_{2}S$ 全部逸出时的情况。此时共有 0.120 mol $H_{2}S$ ，其中 0.100 mol $H_{2}S$ 溶于水并形成饱和溶液，剩下 $2.0 \times 10^{-2}$ mol $H_{2}S$ 气体逸出。共通入 HCl 气体：
 
 $$
-m = [ 8. 7 7 \times 1 0 ^ {- 2} \times 1. 0 0 \times (1. 0 0 8 + 3 5. 4 5) ] \mathrm{g} = 3. 2 0 \mathrm{g}
+m = [ 8.77 \times 10 ^ {- 2} \times 1.00 \times (1.008 + 35.45) ] \mathrm{g} = 3.20 \mathrm{g}
 $$
 
 仍然不足 7.64 g。
@@ -3731,7 +3731,7 @@ $$
 故 HCl 过量, 逸出 $2.0 \times 10^{-2}$ mol $H_{2}S$ 气体。所以通入 HCl 气体的质量应为
 
 $$
-m (\mathrm{HCl}) = \Delta m + m \left(\mathrm{H} _ {2} \mathrm{S}\right) = [ 7. 6 4 + 2. 0 \times 1 0 ^ {- 2} \times (1. 0 0 8 \times 2 + 3 2. 0 7) ] \mathrm{g} = 8. 3 2 \mathrm{g}
+m (\mathrm{HCl}) = \Delta m + m \left(\mathrm{H} _ {2} \mathrm{S}\right) = [ 7.64 + 2.0 \times 10 ^ {- 2} \times (1.008 \times 2 + 32.07) ] \mathrm{g} = 8.32 \mathrm{g}
 $$
 
 ## 第3题
@@ -3749,21 +3749,21 @@ $$
 接下来继续讨论可能含有的物质是否可以确定存在或可以排除。若混合物中无 $\mathrm{CaSO_{4}}$ ，由于混合物加入水后会产生沉淀，此时沉淀可能为 $\mathrm{MgSO_{3}}$ ，近似计算产生 $\mathrm{MgSO_{3}}$ 沉淀的最小pH：
 
 $$
-\left[ \mathrm{SO} _ {3} ^ {2 -} \right] = \frac {K _ {\mathrm{sp}}}{\left[ \mathrm{Mg} ^ {2 +} \right]} = (3. 2 \times 1 0 ^ {- 3} \div 0. 1) \mathrm{molL} ^ {- 1} = 0. 0 3 2 \mathrm{molL} ^ {- 1}
+\left[ \mathrm{SO} _ {3} ^ {2 -} \right] = \frac {K _ {\mathrm{sp}}}{\left[ \mathrm{Mg} ^ {2 +} \right]} = (3.2 \times 10 ^ {- 3} \div 0.1) \mathrm{molL} ^ {- 1} = 0.032 \mathrm{molL} ^ {- 1}
 $$
 
 $$
-\begin{array}{r l} \left[ \mathrm{H} ^ {+} \right] & = \frac {\left[ \mathrm{HSO} _ {3} ^ {-} \right] \times K _ {\mathrm{a} _ {2}}}{\left[ \mathrm{SO} _ {3} ^ {2 -} \right]} = \frac {0 . 0 6 8 \times 6 . 2 \times 1 0 ^ {- 8}}{0 . 0 3 2} \mathrm{molL} ^ {- 1} = 1. 3 \times 1 0 ^ {- 7} \mathrm{molL} ^ {- 1} \\ & \approx 1 0 ^ {- 7} \mathrm{molL} ^ {- 1} \end{array}
+\begin{array}{r l} \left[ \mathrm{H} ^ {+} \right] & = \frac {\left[ \mathrm{HSO} _ {3} ^ {-} \right] \times K _ {\mathrm{a} _ {2}}}{\left[ \mathrm{SO} _ {3} ^ {2 -} \right]} = \frac {0.068 \times 6.2 \times 10 ^ {- 8}}{0.032} \mathrm{molL} ^ {- 1} = 1.3 \times 10 ^ {- 7} \mathrm{molL} ^ {- 1} \\ & \approx 10 ^ {- 7} \mathrm{molL} ^ {- 1} \end{array}
 $$
 
 为达到这个 pH, 额外的质子只能由铵根提供, 此时氨的浓度:
 
 $$
-[ \mathrm{NH} _ {3} ] = 0. 0 6 8 \mathrm{molL} ^ {- 1}
+[ \mathrm{NH} _ {3} ] = 0.068 \mathrm{molL} ^ {- 1}
 $$
 
 $$
-\left[ \mathrm{NH} _ {4} ^ {+} \right] = (1. 8 \div 1 0 ^ {- 5} \div 1 0 ^ {- 1 4} \times 1. 3 \times 1 0 ^ {- 7} \times 0. 0 6 8) \mathrm{molL} ^ {- 1} = 1 6 \mathrm{molL} ^ {- 1}
+\left[ \mathrm{NH} _ {4} ^ {+} \right] = (1.8 \div 10 ^ {- 5} \div 10 ^ {- 14} \times 1.3 \times 10 ^ {- 7} \times 0.068) \mathrm{molL} ^ {- 1} = 16 \mathrm{molL} ^ {- 1}
 $$
 
 但实际上并不能提供这么多“酸”(铵根)调低 pH，所以在题目条件的铵根离子浓度下 $MgSO_{3}$ 确实可以沉淀，只是并不完全。我们此时考虑的是“ $CaSO_{4}$ 是否肯定存在”，因此若在满足不存在 $CaSO_{4}$ 的情况下，只有通入氨气也可以不产生沉淀时，才可得知 $CaSO_{4}$ 不是必需的。但由于没有 $CaSO_{4}$ 存在时的 $MgSO_{3}$ 是沉淀不完全的，因此一旦通入碱性的氨气，会立即产生新的 $MgSO_{3}$ 沉淀，即断定 $CaSO_{4}$ 一定存在。也由于 $CaSO_{4}$ 存在，比较溶度积常数得知混合后的白色沉淀必然不含镁。因此镁离子浓度仍为 0.1 mol L $^{-1}$ 。
@@ -3771,13 +3771,13 @@ $$
 此时已知铵根必然存在,那么通入氨气之后溶液则是氨缓冲溶液。最后需要知道不让 $\mathrm{Mg(OH)}_{2}$ 生成需要的铵根的最小浓度:
 
 $$
-\left[ \mathrm{OH} ^ {-} \right] = \sqrt {\frac {K _ {\mathrm{sp}}}{\left[ \mathrm{Mg} ^ {2 +} \right]}} = 7. 5 \times 1 0 ^ {- 6} \mathrm{molL} ^ {- 1}
+\left[ \mathrm{OH} ^ {-} \right] = \sqrt {\frac {K _ {\mathrm{sp}}}{\left[ \mathrm{Mg} ^ {2 +} \right]}} = 7.5 \times 10 ^ {- 6} \mathrm{molL} ^ {- 1}
 $$
 
 此为氢氧根浓度的最大值。为使 pH 不高于此值：
 
 $$
-\left[ \mathrm{NH} _ {4} ^ {+} \right] = \frac {K _ {\mathrm{b}} \times \left[ \mathrm{NH} _ {3} \right]}{\left[ \mathrm{OH} ^ {-} \right]} = \frac {1 . 8 \times 1 0 ^ {- 5} \times 0 . 1}{7 . 5 \times 1 0 ^ {- 6}} \mathrm{molL} ^ {- 1} = 0. 2 4 \mathrm{molL} ^ {- 1}
+\left[ \mathrm{NH} _ {4} ^ {+} \right] = \frac {K _ {\mathrm{b}} \times \left[ \mathrm{NH} _ {3} \right]}{\left[ \mathrm{OH} ^ {-} \right]} = \frac {1.8 \times 10 ^ {- 5} \times 0.1}{7.5 \times 10 ^ {- 6}} \mathrm{molL} ^ {- 1} = 0.24 \mathrm{molL} ^ {- 1}
 $$
 
 因此需要 $(\mathrm{NH}_4)_2\mathrm{SO}_3$ 、 $\mathrm{NH_4Cl}$ 都存在才能满足此浓度。得出结论：
@@ -3795,13 +3795,13 @@ $$
 4-1 本题描述了分析化学的配位滴定实验中标准溶液的标定过程。题目中利用锌作为基准试剂，先将其配成标准溶液，再用来标定 EDTA 标准溶液的浓度。解这道题时，只需抓住物质的量之间的关系，便可使其迎刃而解。根据题意，首先计算锌标准溶液的浓度：
 
 $$
-c _ {\mathrm{Zn}} = \frac {m _ {\mathrm{Zn}} / M _ {\mathrm{Zn}}}{V} = \frac {0 . 3 2 8 9 \mathrm{g} / (6 5 . 3 9 \mathrm{gmol} ^ {- 1})}{0 . 2 5 0 0 \mathrm{L}} = 0. 0 2 0 1 2 \mathrm{molL} ^ {- 1}
+c _ {\mathrm{Zn}} = \frac {m _ {\mathrm{Zn}} / M _ {\mathrm{Zn}}}{V} = \frac {0.3289 \mathrm{g} / (65.39 \mathrm{gmol} ^ {- 1})}{0.2500 \mathrm{L}} = 0.02012 \mathrm{molL} ^ {- 1}
 $$
 
 然后计算 EDTA 标准溶液的浓度：
 
 $$
-c _ {\mathrm{EDTA}} = \frac {(c V) _ {\mathrm{Zn}}}{V _ {\mathrm{EDTA}}} = \frac {0 . 0 2 0 1 2 \mathrm{mol} \mathrm{L} ^ {- 1} \times 2 5 . 0 0 \mathrm{mL}}{2 0 . 2 4 \mathrm{mL}} = 0. 0 2 4 8 2 \mathrm{mol} \mathrm{L} ^ {- 1}
+c _ {\mathrm{EDTA}} = \frac {(c V) _ {\mathrm{Zn}}}{V _ {\mathrm{EDTA}}} = \frac {0.02012 \mathrm{mol} \mathrm{L} ^ {- 1} \times 25.00 \mathrm{mL}}{20.24 \mathrm{mL}} = 0.02482 \mathrm{mol} \mathrm{L} ^ {- 1}
 $$
 
 在计算过程中还要注意有效数字,本题中取四位即可。
@@ -3809,67 +3809,67 @@ $$
 4-2 本题是一道信息题,需要结合题目中给出的误差计算公式计算结果。本题的主要难点在于要求熟悉分析化学实验的一般流程,清晰地认识到测量过程中获取数据的次数。若对实验过程有比较清晰的认识,将很容易解出本题。首先我们需要清晰地认识到,用分析天平以及用滴定管进行测量都采用的是两次读数结果的差值,因此可以得到
 
 $$
-\begin{array}{r l} \Delta m _ {\mathrm{Zn}} & = \sqrt {(0 . 1 \mathrm{mg}) ^ {2} + (0 . 1 \mathrm{mg}) ^ {2}} \\ \Delta V _ {2 5 0 \mathrm{mL}} & = \Delta V _ {2 5 \mathrm{mL}} = 0. 0 1 \mathrm{mL} \\ \Delta V _ {\mathrm{EDTA}} & = \sqrt {(0 . 0 1 \mathrm{mL}) ^ {2} + (0 . 0 1 \mathrm{mL}) ^ {2}} \end{array}
+\begin{array}{r l} \Delta m _ {\mathrm{Zn}} & = \sqrt {(0.1 \mathrm{mg}) ^ {2} + (0.1 \mathrm{mg}) ^ {2}} \\ \Delta V _ {250 \mathrm{mL}} & = \Delta V _ {25 \mathrm{mL}} = 0.01 \mathrm{mL} \\ \Delta V _ {\mathrm{EDTA}} & = \sqrt {(0.01 \mathrm{mL}) ^ {2} + (0.01 \mathrm{mL}) ^ {2}} \end{array}
 $$
 
 因此可由公式计算得到
 
 $$
-\begin{array}{r l} \Delta c _ {\mathrm{Zn}} & = | c _ {\mathrm{Zn}} | \sqrt {\left(\frac {\Delta m _ {\mathrm{Zn}}}{m _ {\mathrm{Zn}}}\right) ^ {2} + \left(\frac {\Delta V _ {2 5 0 \mathrm{mL}}}{V _ {2 5 0 \mathrm{mL}}}\right) ^ {2}} \\ & = | 0. 0 2 0 1 2 \mathrm{mol} \mathrm{L} ^ {- 1} | \times \sqrt {\left(\frac {\sqrt {(0 . 1 \times 1 0 ^ {- 3} \mathrm{g}) ^ {2} + (0 . 1 \times 1 0 ^ {- 3} \mathrm{g}) ^ {2}}}{0 . 3 2 8 9 \mathrm{g}}\right) ^ {2} + \left(\frac {0 . 0 1 \mathrm{mL}}{2 5 0 . 0 \mathrm{mL}}\right) ^ {2}} \\ & = 9 \times 1 0 ^ {- 6} \mathrm{mol} \mathrm{L} ^ {- 1} \end{array}
+\begin{array}{r l} \Delta c _ {\mathrm{Zn}} & = | c _ {\mathrm{Zn}} | \sqrt {\left(\frac {\Delta m _ {\mathrm{Zn}}}{m _ {\mathrm{Zn}}}\right) ^ {2} + \left(\frac {\Delta V _ {250 \mathrm{mL}}}{V _ {250 \mathrm{mL}}}\right) ^ {2}} \\ & = | 0.02012 \mathrm{mol} \mathrm{L} ^ {- 1} | \times \sqrt {\left(\frac {\sqrt {(0.1 \times 10 ^ {- 3} \mathrm{g}) ^ {2} + (0.1 \times 10 ^ {- 3} \mathrm{g}) ^ {2}}}{0.3289 \mathrm{g}}\right) ^ {2} + \left(\frac {0.01 \mathrm{mL}}{250.0 \mathrm{mL}}\right) ^ {2}} \\ & = 9 \times 10 ^ {- 6} \mathrm{mol} \mathrm{L} ^ {- 1} \end{array}
 $$
 
 最后计算最终结果的最小标准差：
 
 $$
-\begin{array}{r l} \Delta c _ {\mathrm{Zn}} & = | c _ {\mathrm{EDTA}} | \sqrt {\left(\frac {\Delta c _ {\mathrm{Zn}}}{c _ {\mathrm{Zn}}}\right) ^ {2} + \left(\frac {\Delta V _ {2 5 \mathrm{mL}}}{V _ {2 5 \mathrm{mL}}}\right) ^ {2} + \left(\frac {\Delta V _ {\mathrm{EDTA}}}{V _ {\mathrm{EDTA}}}\right) ^ {2}} \\ & = | 0. 0 2 4 8 2 \mathrm{mol} \mathrm{L} ^ {- 1} | \times \sqrt {\left(\frac {9 \times 1 0 ^ {- 6} \mathrm{mol} \mathrm{L} ^ {- 1}}{0 . 0 2 0 1 2 \mathrm{mol} \mathrm{L} ^ {- 1}}\right) ^ {2} + \left(\frac {0 . 0 1 \mathrm{mL}}{2 5 . 0 0 \mathrm{mL}}\right) ^ {2} + \left(\frac {\sqrt {(0 . 0 1 \mathrm{mL}) ^ {2} \times 2}}{2 0 . 2 4 \mathrm{mL}}\right) ^ {2}} \\ & = 2 \times 1 0 ^ {- 5} \mathrm{mol} \mathrm{L} ^ {- 1} \end{array}
+\begin{array}{r l} \Delta c _ {\mathrm{Zn}} & = | c _ {\mathrm{EDTA}} | \sqrt {\left(\frac {\Delta c _ {\mathrm{Zn}}}{c _ {\mathrm{Zn}}}\right) ^ {2} + \left(\frac {\Delta V _ {25 \mathrm{mL}}}{V _ {25 \mathrm{mL}}}\right) ^ {2} + \left(\frac {\Delta V _ {\mathrm{EDTA}}}{V _ {\mathrm{EDTA}}}\right) ^ {2}} \\ & = | 0.02482 \mathrm{mol} \mathrm{L} ^ {- 1} | \times \sqrt {\left(\frac {9 \times 10 ^ {- 6} \mathrm{mol} \mathrm{L} ^ {- 1}}{0.02012 \mathrm{mol} \mathrm{L} ^ {- 1}}\right) ^ {2} + \left(\frac {0.01 \mathrm{mL}}{25.00 \mathrm{mL}}\right) ^ {2} + \left(\frac {\sqrt {(0.01 \mathrm{mL}) ^ {2} \times 2}}{20.24 \mathrm{mL}}\right) ^ {2}} \\ & = 2 \times 10 ^ {- 5} \mathrm{mol} \mathrm{L} ^ {- 1} \end{array}
 $$
 
 注:官方给出的答案中认为,移液管移取锌标准溶液的体积的误差为两次误差的叠加,即
 
 $$
-\Delta V _ {2 5 \mathrm{mL}} = \sqrt {(0 . 0 1 \mathrm{mL}) ^ {2} + (0 . 0 1 \mathrm{mL}) ^ {2}}
+\Delta V _ {25 \mathrm{mL}} = \sqrt {(0.01 \mathrm{mL}) ^ {2} + (0.01 \mathrm{mL}) ^ {2}}
 $$
 
 笔者认为这种说法并不妥当。在用移液管(而不是吸量管)移取液体时,不存在读取两次数据的差值的操作,而应是一次的误差更为合理:
 
 $$
-\Delta V _ {2 5 \mathrm{mL}} = 0. 0 1 \mathrm{mL}
+\Delta V _ {25 \mathrm{mL}} = 0.01 \mathrm{mL}
 $$
 
 4-3 本题是对主题干内容的计算,要求一定程度的分析化学知识,整体比较容易。第一份滴定中,pH=1 的条件下,铁可以与 EDTA 形成较好的配位,而钼则不行,因此以磺基水杨酸为指示剂的滴定只测定了铁。而在第二份滴定中,除去了铁并将钼还原之后,在 pH = 5.0 的条件下,以二甲酚橙为指示剂的滴定只测定了钼。因此可以分别计算两份溶液中铁与钼的物质的量。第一份溶液中铁的物质的量为
 
 $$
-n _ {\mathrm{Fe}} = (c V) _ {\mathrm{EDTA}} = 0. 0 2 4 8 2 \mathrm{mol} \mathrm{L} ^ {- 1} \times 0. 0 2 4 4 0 \mathrm{L} = 6. 0 5 6 \times 1 0 ^ {- 4} \mathrm{mol}
+n _ {\mathrm{Fe}} = (c V) _ {\mathrm{EDTA}} = 0.02482 \mathrm{mol} \mathrm{L} ^ {- 1} \times 0.02440 \mathrm{L} = 6.056 \times 10 ^ {- 4} \mathrm{mol}
 $$
 
 第二份溶液中钼的物质的量为
 
 $$
-\begin{array}{r l} n _ {\mathrm{Mo}} & = (c V) _ {\mathrm{EDTA}} - (c V) _ {\mathrm{Zn}} = 0. 0 2 4 8 2 \mathrm{mol} \mathrm{L} ^ {- 1} \times 0. 0 2 5 0 0 \mathrm{L} - 0. 0 2 0 1 2 \mathrm{mol} \mathrm{L} ^ {- 1} \times 0. 0 2 2 1 2 \mathrm{L} \\ & = 1. 7 5 4 \times 1 0 ^ {- 4} \mathrm{mol} \end{array}
+\begin{array}{r l} n _ {\mathrm{Mo}} & = (c V) _ {\mathrm{EDTA}} - (c V) _ {\mathrm{Zn}} = 0.02482 \mathrm{mol} \mathrm{L} ^ {- 1} \times 0.02500 \mathrm{L} - 0.02012 \mathrm{mol} \mathrm{L} ^ {- 1} \times 0.02212 \mathrm{L} \\ & = 1.754 \times 10 ^ {- 4} \mathrm{mol} \end{array}
 $$
 
 注意到两份溶液的体积比为 1:2，立即得到铁与钼的原子个数比例：
 
 $$
-N _ {\mathrm{Fe}}: N _ {\mathrm{Mo}} = 2 n _ {\mathrm{Fe}} \div n _ {\mathrm{Mo}} = 6. 9 0 5
+N _ {\mathrm{Fe}}: N _ {\mathrm{Mo}} = 2 n _ {\mathrm{Fe}} \div n _ {\mathrm{Mo}} = 6.905
 $$
 
 4-4 本题考查缓冲溶液的配制过程。由题意得
 
 $$
-c _ {\mathrm{b}} = \frac {m / M}{V} = \frac {1 1 . 8 \mathrm{g} / (8 2 . 0 \mathrm{gmol} ^ {- 1})}{1 . 0 \mathrm{L}} = 0. 1 4 4 \mathrm{mol} \mathrm{L} ^ {- 1}
+c _ {\mathrm{b}} = \frac {m / M}{V} = \frac {11.8 \mathrm{g} / (82.0 \mathrm{gmol} ^ {- 1})}{1.0 \mathrm{L}} = 0.144 \mathrm{mol} \mathrm{L} ^ {- 1}
 $$
 
 然后利用公式
 
 $$
-\begin{array}{r l} & \mathrm {pH = pK_ {a} + lg \frac {c_ {b}}{c_ {a}}} \\ & 5. 0 0 = 4. 7 4 + \lg \frac {0 . 1 4 4 \mathrm{molL} ^ {- 1}}{c _ {a}} \end{array}
+\begin{array}{r l} & \mathrm {pH = pK_ {a} + lg \frac {c_ {b}}{c_ {a}}} \\ & 5.00 = 4.74 + \lg \frac {0.144 \mathrm{molL} ^ {- 1}}{c _ {a}} \end{array}
 $$
 
 解得
 
 $$
-\begin{array}{r l} c _ {\mathrm{a}} & = 0. 0 7 9 9 \mathrm{mol} \mathrm{L} ^ {- 1} \\ V _ {\mathrm{HAc}} & = \frac {c _ {\mathrm{a}} V M}{\rho} = \frac {0 . 0 7 9 9 \mathrm{mol} \mathrm{L} ^ {- 1} \times 1 . 0 \mathrm{L} \times 6 0 . 0 \mathrm{g} \mathrm{mol} ^ {- 1}}{1 . 0 5 \times 1 0 ^ {3} \mathrm{g} \mathrm{L} ^ {- 1}} = 4. 6 \times 1 0 ^ {- 3} \mathrm{L} \end{array}
+\begin{array}{r l} c _ {\mathrm{a}} & = 0.0799 \mathrm{mol} \mathrm{L} ^ {- 1} \\ V _ {\mathrm{HAc}} & = \frac {c _ {\mathrm{a}} V M}{\rho} = \frac {0.0799 \mathrm{mol} \mathrm{L} ^ {- 1} \times 1.0 \mathrm{L} \times 60.0 \mathrm{g} \mathrm{mol} ^ {- 1}}{1.05 \times 10 ^ {3} \mathrm{g} \mathrm{L} ^ {- 1}} = 4.6 \times 10 ^ {- 3} \mathrm{L} \end{array}
 $$
 
 ## 第5题
@@ -3929,25 +3929,25 @@ $$
 根据题意, $Ce^{3+}$ 不水解,因此只需推导 $Ce^{4+}$ 的浓度与 $\mathrm{Ce(IV)}$ 的总浓度的关系即可。我们已在5-1-2中推导过,
 
 $$
-\beta_ {i} ^ {\ominus} = \frac {[ \mathrm{Ce(OH)} _ {i} ^ {(4 - i) +} ]}{[ \mathrm{Ce} ^ {4 +} ] ([ \mathrm{OH} ^ {-} ] / m ^ {\ominus}) ^ {i}} = \frac {[ \mathrm{Ce(OH)} _ {i} ^ {(4 - i) +} ]}{[ \mathrm{Ce} ^ {4 +} ] (1 0 ^ {\mathrm{pH} - 1 4}) ^ {i}}
+\beta_ {i} ^ {\ominus} = \frac {[ \mathrm{Ce(OH)} _ {i} ^ {(4 - i) +} ]}{[ \mathrm{Ce} ^ {4 +} ] ([ \mathrm{OH} ^ {-} ] / m ^ {\ominus}) ^ {i}} = \frac {[ \mathrm{Ce(OH)} _ {i} ^ {(4 - i) +} ]}{[ \mathrm{Ce} ^ {4 +} ] (10 ^ {\mathrm{pH} - 14}) ^ {i}}
 $$
 
 因此
 
 $$
-\left[ \mathrm{Ce} (\mathrm{OH}) _ {i} ^ {(4 - i) +} \right] = \beta_ {i} ^ {\ominus} \left[ \mathrm{Ce} ^ {4 +} \right] (1 0 ^ {\mathrm{pH} - 1 4}) ^ {i}
+\left[ \mathrm{Ce} (\mathrm{OH}) _ {i} ^ {(4 - i) +} \right] = \beta_ {i} ^ {\ominus} \left[ \mathrm{Ce} ^ {4 +} \right] (10 ^ {\mathrm{pH} - 14}) ^ {i}
 $$
 
 由此推得
 
 $$
-\frac {\left[ \mathrm{Ce} ^ {4 +} \right]}{\left[ \mathrm{Ce(IV)} \right]} = \frac {\left[ \mathrm{Ce} ^ {4 +} \right]}{\left[ \mathrm{Ce} ^ {4 +} \right] + \sum_ {i = 1} ^ {4} \beta_ {i} ^ {\ominus} \left[ \mathrm{Ce} ^ {4 +} \right] (1 0 ^ {\mathrm{pH} - 1 4}) ^ {i}} = \frac {1}{1 + \sum_ {i = 1} ^ {4} \beta_ {i} ^ {\ominus} (1 0 ^ {\mathrm{pH} - 1 4}) ^ {i}}
+\frac {\left[ \mathrm{Ce} ^ {4 +} \right]}{\left[ \mathrm{Ce(IV)} \right]} = \frac {\left[ \mathrm{Ce} ^ {4 +} \right]}{\left[ \mathrm{Ce} ^ {4 +} \right] + \sum_ {i = 1} ^ {4} \beta_ {i} ^ {\ominus} \left[ \mathrm{Ce} ^ {4 +} \right] (10 ^ {\mathrm{pH} - 14}) ^ {i}} = \frac {1}{1 + \sum_ {i = 1} ^ {4} \beta_ {i} ^ {\ominus} (10 ^ {\mathrm{pH} - 14}) ^ {i}}
 $$
 
 代入Nernst方程得到函数关系
 
 $$
-\varphi = \varphi^ {\ominus} - \frac {R T}{F} \ln \frac {[ \mathrm{Ce} ^ {3 +} ] \left\{1 + \sum_ {i = 1} ^ {4} \beta_ {i} ^ {\ominus} (1 0 ^ {\mathrm{pH} - 1 4}) ^ {i} \right\}}{[ \mathrm{Ce(IV)} ]}
+\varphi = \varphi^ {\ominus} - \frac {R T}{F} \ln \frac {[ \mathrm{Ce} ^ {3 +} ] \left\{1 + \sum_ {i = 1} ^ {4} \beta_ {i} ^ {\ominus} (10 ^ {\mathrm{pH} - 14}) ^ {i} \right\}}{[ \mathrm{Ce(IV)} ]}
 $$
 
 其中 $\varphi^{\ominus}$ 为半电池反应的标准电极电势。
@@ -4021,7 +4021,7 @@ $$
 在题目所给 pH 条件下， $\left[Ce^{4+}\right]$ 非常低，再根据题中所给数据估计，
 
 $$
-\frac {K K _ {\mathrm{OH}} \left[ \mathrm{Ce} ^ {4 +} \right]}{\left[ \mathrm{H} ^ {+} \right]} = \frac {0 . 2 7 \mathrm{mol} \mathrm{L} ^ {- 1} \times 1 2 0 \mathrm{L} \mathrm{mol} ^ {- 1} \left[ \mathrm{Ce} ^ {4 +} \right]}{\left[ \mathrm{H} ^ {+} \right]} \ll 1
+\frac {K K _ {\mathrm{OH}} \left[ \mathrm{Ce} ^ {4 +} \right]}{\left[ \mathrm{H} ^ {+} \right]} = \frac {0.27 \mathrm{mol} \mathrm{L} ^ {- 1} \times 120 \mathrm{L} \mathrm{mol} ^ {- 1} \left[ \mathrm{Ce} ^ {4 +} \right]}{\left[ \mathrm{H} ^ {+} \right]} \ll 1
 $$
 
 因此可将后一项忽略,即可以认为
@@ -4135,11 +4135,11 @@ $C_{60}$ 分子与晶体的对称性显然不同。该分子为 $I_{h}$ 点群�
 6-5 每个正当晶胞中含有2个HMTA分子(化学式为 $\mathrm{C_6H_{12}N_4}$ )。
 
 $$
-M = (1 2. 0 1 \times 6 + 1. 0 0 8 \times 1 2 + 1 4. 0 1 \times 4) \mathrm{g} \mathrm{mol} ^ {- 1} = 1 4 0. 2 0 \mathrm{g} \mathrm{mol} ^ {- 1}, \quad z = 2
+M = (12.01 \times 6 + 1.008 \times 12 + 14.01 \times 4) \mathrm{g} \mathrm{mol} ^ {- 1} = 140.20 \mathrm{g} \mathrm{mol} ^ {- 1}, \quad z = 2
 $$
 
 $$
-\rho = \frac {z M}{N _ {\mathrm{A}} V} = \frac {z M}{N _ {\mathrm{A}} a ^ {3}} = \frac {2 \times 1 4 0 . 2 0}{6 . 0 2 2 \times 1 0 ^ {2 3} \times (7 . 0 2 \times 1 0 ^ {- 8}) ^ {3}} \mathrm{gcm} ^ {- 3} = 1. 3 5 \mathrm{gcm} ^ {- 3}
+\rho = \frac {z M}{N _ {\mathrm{A}} V} = \frac {z M}{N _ {\mathrm{A}} a ^ {3}} = \frac {2 \times 140.20}{6.022 \times 10 ^ {23} \times (7.02 \times 10 ^ {- 8}) ^ {3}} \mathrm{gcm} ^ {- 3} = 1.35 \mathrm{gcm} ^ {- 3}
 $$
 
 ## 第7题
@@ -4367,7 +4367,7 @@ F聚乙烯 G聚丙烯腈 H反式聚异戊二烯 I聚异丁烯
 将 0.0167 mol I₂ 和 0.0167 mol H₂ 置于预先抽真空的特制 1 L 密闭容器中，加热到 1500 K，体系达平衡，总压强为 4.56 bar(1 bar=100 kPa)。体系中存在如下反应关系：
 
 $$
-\begin{array}{l l}(1) \mathrm {I_ {2} (g)} \rightleftharpoons 2 \mathrm{I(g)}&K _ {p 1} = 2. 0 0\\(2) \mathrm {I_ {2} (g)+ H_ {2} (g)} \rightleftharpoons 2 \mathrm{HI(g)}&K _ {p 2}\\(3) \mathrm{HI(g)} \rightleftharpoons \mathrm{I(g)+H(g)}&K _ {p 3} = 8. 0 \times 1 0 ^ {- 6}\\(4) \mathrm {H_ {2} (g)} \rightleftharpoons 2 \mathrm{H(g)}&K _ {p 4}\end{array}
+\begin{array}{l l}(1) \mathrm {I_ {2} (g)} \rightleftharpoons 2 \mathrm{I(g)}&K _ {p 1} = 2.00\\(2) \mathrm {I_ {2} (g)+ H_ {2} (g)} \rightleftharpoons 2 \mathrm{HI(g)}&K _ {p 2}\\(3) \mathrm{HI(g)} \rightleftharpoons \mathrm{I(g)+H(g)}&K _ {p 3} = 8.0 \times 10 ^ {- 6}\\(4) \mathrm {H_ {2} (g)} \rightleftharpoons 2 \mathrm{H(g)}&K _ {p 4}\end{array}
 $$
 
 6-1 计算 $1500\mathrm{K}$ 体系中 $\mathrm{I}_2(\mathrm{g})$ 和 $\mathrm{H}_2(\mathrm{g})$ 未分解时的分压。（ $R = 8.314\mathrm{J mol}^{-1}\mathrm{K}^{-1}$ ）
@@ -4466,7 +4466,7 @@ $$
 1-1 首先,不论是根据平时积累的元素知识,还是根据 Si 和 N 的常见化合价,都可以得出氮化硅的化学式为 $Si_{3}N_{4}$ 。氮化硅可以由 $SiH_{4}$ 与 $NH_{3}$ 反应制得。在 $SiH_{4}$ 中,硅为正价,氢为负价。不难知道,在制备氮化硅的反应中,硅和氮都没有发生化合价的变化,而氢发生归中反应生成氢气,因此化学反应方程式为
 
 $$
-3 \mathrm{SiH} _ {4} + 4 \mathrm{NH} _ {3} = \mathrm{Si} _ {3} \mathrm{N} _ {4} + 1 2 \mathrm{H} _ {2}
+3 \mathrm{SiH} _ {4} + 4 \mathrm{NH} _ {3} = \mathrm{Si} _ {3} \mathrm{N} _ {4} + 12 \mathrm{H} _ {2}
 $$
 
 1-2 铜与浓硫酸的反应十分复杂，并不像我们高中学过的生成 $SO_{2}$ 和 $CuSO_{4}$ 那么简单。浓硫酸与常见的水溶液体系不一样，部分水溶性的盐在浓硫酸中无法溶解，因此不能用离子反应的知识来判断浓硫酸体系中的反应。
@@ -4488,7 +4488,7 @@ $$
 1-3 首先判断出碲氢化钠的化学式为 NaHTe，可类比硫氢化钠，或源自碲化氢 $H_{2}Te$ 。若所有的 $NaBH_{4}$ 均用于还原单质碲，在配平的过程中我们发现，反应物中不可避免地要加入 NaOH，得到如下化学反应方程式：
 
 $$
-1 6 \mathrm{Te} + 4 \mathrm{NaBH} _ {4} + 1 4 \mathrm{NaOH} + 3 \mathrm{H} _ {2} \mathrm{O} = 1 6 \mathrm{NaHTe} + \mathrm{Na} _ {2} \mathrm{B} _ {4} \mathrm{O} _ {5} (\mathrm{OH}) _ {4} \cdot 8 \mathrm{H} _ {2} \mathrm{O}
+16 \mathrm{Te} + 4 \mathrm{NaBH} _ {4} + 14 \mathrm{NaOH} + 3 \mathrm{H} _ {2} \mathrm{O} = 16 \mathrm{NaHTe} + \mathrm{Na} _ {2} \mathrm{B} _ {4} \mathrm{O} _ {5} (\mathrm{OH}) _ {4} \cdot 8 \mathrm{H} _ {2} \mathrm{O}
 $$
 
 然而，题目中并未提及 NaOH 溶液这样重要的反应体系的信息，私自加入 NaOH 明显是存在问题的。一般来说，题目中可能会缺失一些不太重要的产物的信息，例如 $H_{2}O$ 等，而很少会忽略反应物，尤其是反应条件，例如酸碱性。
@@ -4498,13 +4498,13 @@ $$
 本题的化学方程式的配平和一般的氧化还原反应不同，由于不能在反应物中加入NaOH，本题的配平主要依据元素守恒而非电子得失守恒。先后利用B元素守恒和Na元素守恒即可完成配平，该化学反应方程式为
 
 $$
-1 7 \mathrm{H} _ {2} \mathrm{O} + 2 \mathrm{Te} + 4 \mathrm{NaBH} _ {4} = 2 \mathrm{NaHTe} + \mathrm{Na} _ {2} \mathrm{B} _ {4} \mathrm{O} _ {5} (\mathrm{OH}) _ {4} \cdot 8 \mathrm{H} _ {2} \mathrm{O} + 1 4 \mathrm{H} _ {2}
+17 \mathrm{H} _ {2} \mathrm{O} + 2 \mathrm{Te} + 4 \mathrm{NaBH} _ {4} = 2 \mathrm{NaHTe} + \mathrm{Na} _ {2} \mathrm{B} _ {4} \mathrm{O} _ {5} (\mathrm{OH}) _ {4} \cdot 8 \mathrm{H} _ {2} \mathrm{O} + 14 \mathrm{H} _ {2}
 $$
 
 事实上， $NaBH_{4}$ 加入水中得到的体系确实为碱性，因此体系中存在 NaOH 并不是那么不合理。我们不妨写出 $NaBH_{4}$ 和水生成 NaOH 的化学方程式：
 
 $$
-4 \mathrm{NaBH} _ {4} + 1 9 \mathrm{H} _ {2} \mathrm{O} = \mathrm{Na} _ {2} \mathrm{B} _ {4} \mathrm{O} _ {5} (\mathrm{OH}) _ {4} \cdot 8 \mathrm{H} _ {2} \mathrm{O} + 1 6 \mathrm{H} _ {2} + 2 \mathrm{NaOH}
+4 \mathrm{NaBH} _ {4} + 19 \mathrm{H} _ {2} \mathrm{O} = \mathrm{Na} _ {2} \mathrm{B} _ {4} \mathrm{O} _ {5} (\mathrm{OH}) _ {4} \cdot 8 \mathrm{H} _ {2} \mathrm{O} + 16 \mathrm{H} _ {2} + 2 \mathrm{NaOH}
 $$
 
 将该化学方程式与本小题第一个化学方程式加和，消去 $\mathrm{NaOH}$ 恰好就得到了最后的答案。据此，我们也可以更好地理解这个反应：该反应的确是在碱性条件下发生的，而碱性是由 $\mathrm{NaBH}_4$ 溶于水后产生的。在该反应中， $\mathrm{NaOH}$ 应该被视为一种中间产物，而非反应物，不应该被写到化学反应方程式的左侧。
@@ -4518,7 +4518,7 @@ $$
 氧化剂 $CO_{2}$ 中的 C 为 +4 价，氧化产物 $CH_{4}$ 中的 C 为 -4 价，一个 $CH_{4}$ 得 8 个电子；还原剂 $Fe_{2}SiO_{4}$ 中的 Fe 为 +2 价，还原产物 $Fe_{3}O_{4}$ [或写成 $\mathrm{Fe(II)O\cdot Fe(III)_{2}O_{3}}$ ] 中的 Fe 为 +3 价，一个 $Fe_{3}O_{4}$ 失去 2 个电子。因此 $n(\mathrm{CH}_{4}):n(\mathrm{Fe}_{3}\mathrm{O}_{4})=1:4$ 。再根据元素守恒即可完成配平：
 
 $$
-1 8 \mathrm{Mg} _ {2} \mathrm{SiO} _ {4} + 6 \mathrm{Fe} _ {2} \mathrm{SiO} _ {4} + 2 6 \mathrm{H} _ {2} \mathrm{O} + \mathrm{CO} _ {2} = 1 2 \mathrm{Mg} _ {3} \mathrm{Si} _ {2} \mathrm{O} _ {5} (\mathrm{OH}) _ {4} + \mathrm{CH} _ {4} + 4 \mathrm{Fe} _ {3} \mathrm{O} _ {4}
+18 \mathrm{Mg} _ {2} \mathrm{SiO} _ {4} + 6 \mathrm{Fe} _ {2} \mathrm{SiO} _ {4} + 26 \mathrm{H} _ {2} \mathrm{O} + \mathrm{CO} _ {2} = 12 \mathrm{Mg} _ {3} \mathrm{Si} _ {2} \mathrm{O} _ {5} (\mathrm{OH}) _ {4} + \mathrm{CH} _ {4} + 4 \mathrm{Fe} _ {3} \mathrm{O} _ {4}
 $$
 
 评注
@@ -4578,7 +4578,7 @@ $$
 假设 D 和 I 中 A 的化合价相差 1，即 x - y = 0.5。
 
 $$
-M (\mathbf {A O} _ {x}) = (0. 5 \times 16.00 / 15.3\%) \text { g mol} ^ {- 1} = 52.29 \text { g mol} ^ {- 1}
+M (\mathbf {A O} _ {x}) = (0.5 \times 16.00 / 15.3\%) \text { g mol} ^ {- 1} = 52.29 \text { g mol} ^ {- 1}
 $$
 
 若 $x = 1, M(\mathbf{A}) = 36.29 \mathrm{~g} \mathrm{~mol}^{-1}$ , 没有符合的元素。
@@ -4648,7 +4648,7 @@ Y 为乙烷。
 题目要求通过计算得出 Y 的化学式,需计算 Y 的摩尔质量:
 
 $$
-M = \frac {a ^ {3} \rho N _ {\mathrm{A}}}{Z} = \frac {(5 3 0 . 4 \times 1 0 ^ {- 1 0}) ^ {3} \times 0 . 6 6 9 \times 6 . 0 2 2 \times 1 0 ^ {2 3}}{2} \mathrm{g} \mathrm{mol} ^ {- 1} = 3 0. 0 \mathrm{g} \mathrm{mol} ^ {- 1}
+M = \frac {a ^ {3} \rho N _ {\mathrm{A}}}{Z} = \frac {(530.4 \times 10 ^ {- 10}) ^ {3} \times 0.669 \times 6.022 \times 10 ^ {23}}{2} \mathrm{g} \mathrm{mol} ^ {- 1} = 30.0 \mathrm{g} \mathrm{mol} ^ {- 1}
 $$
 
 4-2-3 阳极半反应式：
@@ -4672,19 +4672,19 @@ $^{85}Rb^{35}Cl$ 、 $^{87}Rb^{35}Cl$ 、 $^{85}Rb^{37}Cl$ 和 $^{87}Rb^{37}Cl$ 
 5-1-2 ${}^{87}Rb^{35}Cl$ 和 ${}^{85}Rb^{37}Cl$ 的质量数是相同的，因此共有 3 种质量数，分别为：120、122 和 124。
 
 $$
-\begin{array}{r l} \omega_ {1 2 0} & = 0. 7 5 \times 0. 7 2 = 0. 5 4 \\ \omega_ {1 2 2} & = 0. 2 5 \times 0. 7 2 + 0. 7 5 \times 0. 2 8 = 0. 3 9 \\ \omega_ {1 2 4} & = 0. 2 5 \times 0. 2 8 = 0. 0 7 \\ \omega_ {1 2 0}: \omega_ {1 2 2}: \omega_ {1 2 4} & = 5 4: 3 9: 7 \end{array}
+\begin{array}{r l} \omega_ {120} & = 0.75 \times 0.72 = 0.54 \\ \omega_ {122} & = 0.25 \times 0.72 + 0.75 \times 0.28 = 0.39 \\ \omega_ {124} & = 0.25 \times 0.28 = 0.07 \\ \omega_ {120}: \omega_ {122}: \omega_ {124} & = 54: 39: 7 \end{array}
 $$
 
 5-2-1 核反应方程式由于不常出现在真题中,是比较容易被遗忘的考点之一。在书写核反应方程式时,须将所有离子的(核)电荷数和质量数标出,同时保证(核)电荷数和质量数守恒。 $^{176}$ Lu 的 $\beta$ 衰变反应式为
 
 $$
-{ } _ { 7 1 } ^ { 1 7 6 } \mathrm{Lu} \longrightarrow { } _ { 7 2 } ^ { 1 7 6 } \mathrm{Hf} + { } _ { - 1 } ^ { 0 } \mathrm{e}
+{ } _ { 71 } ^ { 176 } \mathrm{Lu} \longrightarrow { } _ { 72 } ^ { 176 } \mathrm{Hf} + { } _ { - 1 } ^ { 0 } \mathrm{e}
 $$
 
 5-2-2 已知 $^{176}$ Lu 衰变反应的半衰期为 $3.716 \times 10^{10}$ a，即 $t = 3.716 \times 10^{10}$ a 时， $c/c_{0} = 0.5$ ，因此
 
 $$
-k = \frac {\ln 2}{t} = \frac {\ln 2}{3 . 7 1 6 \times 1 0 ^ {1 0} \mathrm{a}} = 1. 8 6 5 \times 1 0 ^ {- 1 1} \mathrm{a} ^ {- 1}
+k = \frac {\ln 2}{t} = \frac {\ln 2}{3.716 \times 10 ^ {10} \mathrm{a}} = 1.865 \times 10 ^ {- 11} \mathrm{a} ^ {- 1}
 $$
 
 计算反应速率的时候,要注意最后结果的单位。
@@ -4692,23 +4692,23 @@ $$
 5-2-3 已知 $^{177}$ Hf 为稳定同位素且无放射性来源，可认为其含量保持不变，不妨假设为 1。 $^{176}$ Lu 发生 $\beta$ 衰变生成 $^{176}$ Hf，减少的 $^{176}$ Lu 等于增加的 $^{176}$ Hf：
 
 $$
-{ } ^ { 1 7 6 } \mathrm{Lu} _ { 0 } - { } ^ { 1 7 6 } \mathrm{Lu} = { } ^ { 1 7 6 } \mathrm{Hf} - { } ^ { 1 7 6 } \mathrm{Hf} _ { 0 }
+{ } ^ { 176 } \mathrm{Lu} _ { 0 } - { } ^ { 176 } \mathrm{Lu} = { } ^ { 176 } \mathrm{Hf} - { } ^ { 176 } \mathrm{Hf} _ { 0 }
 $$
 
 将 $^{176}Lu_{0}=^{176}Lu\times e^{kt}$ 代入上式：
 
 $$
-{ } ^ { 1 7 6 } \mathrm{Lu} ( e ^ { k t } - 1 ) = { } ^ { 1 7 6 } \mathrm{Hf} - { } ^ { 1 7 6 } \mathrm{Hf} _ { 0 }
+{ } ^ { 176 } \mathrm{Lu} ( e ^ { k t } - 1 ) = { } ^ { 176 } \mathrm{Hf} - { } ^ { 176 } \mathrm{Hf} _ { 0 }
 $$
 
 代入样本1和样本2的数据：
 
 $$
-0. 4 2 8 5 0 \left(\mathrm{e} ^ {k t} - 1\right) = 0. 2 8 6 3 0 - ^ {1 7 6} \mathrm{Hf} _ {0}
+0.42850 \left(\mathrm{e} ^ {k t} - 1\right) = 0.28630 - ^ {176} \mathrm{Hf} _ {0}
 $$
 
 $$
-0. 0 1 4 7 0 (\mathrm{e} ^ {k t} - 1) = 0. 2 8 2 3 9 - ^ {1 7 6} \mathrm{Hf} _ {0}
+0.01470 (\mathrm{e} ^ {k t} - 1) = 0.28239 - ^ {176} \mathrm{Hf} _ {0}
 $$
 
 可解得 $t = 5.043 \times 10^{8} \mathrm{~a}, ^{176} \mathrm{Hf}_{0} = 0.28225$ 。
@@ -4730,7 +4730,7 @@ $$
 6-1 最基础的气体状态方程的运用：
 
 $$
-x _ {0} = y _ {0} = \frac {n R T}{V} = \frac {0 . 0 1 6 7 \times 8 . 3 1 4 \times 1 5 0 0}{1} \mathrm{kPa} = 2 0 8 \mathrm{kPa}
+x _ {0} = y _ {0} = \frac {n R T}{V} = \frac {0.0167 \times 8.314 \times 1500}{1} \mathrm{kPa} = 208 \mathrm{kPa}
 $$
 
 6-2 本题的计算较为复杂,我们首先将能得到的关系式一一列出:
@@ -4738,29 +4738,29 @@ $$
 $H_{2}$ 、 $I_{2}$ 和 HI 之间的相互转化是不会引起气压的改变的，气压的增加是由于生成自由基 $\mathrm{H(g)}$ 和 $\mathrm{I(g)}$ ：
 
 $$
-x _ {2} + y _ {2} = (4. 5 6 - 2. 0 8 \times 2) \mathrm{bar} \times 2 = 0. 8 0 \mathrm{bar}
+x _ {2} + y _ {2} = (4.56 - 2.08 \times 2) \mathrm{bar} \times 2 = 0.80 \mathrm{bar}
 $$
 
 平衡式(1)和(3)的平衡关系：
 
 $$
-\frac {(x _ {2} / p ^ {\ominus}) ^ {2}}{x _ {1} / p ^ {\ominus}} = 2. 0 0
+\frac {(x _ {2} / p ^ {\ominus}) ^ {2}}{x _ {1} / p ^ {\ominus}} = 2.00
 $$
 
 $$
-\frac {x _ {2} y _ {2} / p ^ {\ominus^ {2}}}{z / p ^ {\ominus}} = 8. 0 0 \times 1 0 ^ {- 6}
+\frac {x _ {2} y _ {2} / p ^ {\ominus^ {2}}}{z / p ^ {\ominus}} = 8.00 \times 10 ^ {- 6}
 $$
 
 碘元素守恒：
 
 $$
-x _ {1} + \frac {x _ {2}}{2} + \frac {z}{2} = 2. 0 8 \mathrm{bar}
+x _ {1} + \frac {x _ {2}}{2} + \frac {z}{2} = 2.08 \mathrm{bar}
 $$
 
 共有 4 个方程，4 个未知数： $x_{1}$ 、 $x_{2}$ 、 $y_{2}$ 、z，方程可解。将前三式代入第四式可解得
 
 $$
-\begin{array}{l} x _ {1} = 3 2 \mathrm{kPa} \\ x _ {2} = 8 0 \mathrm{kPa} \\ y _ {1} = 7 2 \mathrm{kPa} \\ z = 2 7 2 \mathrm{kPa} \end{array}
+\begin{array}{l} x _ {1} = 32 \mathrm{kPa} \\ x _ {2} = 80 \mathrm{kPa} \\ y _ {1} = 72 \mathrm{kPa} \\ z = 272 \mathrm{kPa} \end{array}
 $$
 
 此为最准确的解法。
@@ -4770,13 +4770,13 @@ $$
 6-3 根据 $K_{\rho 2}$ 的表达式可计算：
 
 $$
-K _ {p 2} = \frac {z ^ {2}}{x _ {1} y _ {1}} = \frac {2 7 2 ^ {2}}{3 2 \times 7 2} = 3 2
+K _ {p 2} = \frac {z ^ {2}}{x _ {1} y _ {1}} = \frac {272 ^ {2}}{32 \times 72} = 32
 $$
 
 6-4 通过平衡反应之间的换算可以计算 $K_{p4}$ :
 
 $$
-\mathbf {K} _ {p 4} = \frac {\mathbf {K} _ {p 2}}{\mathbf {K} _ {p 1}} \cdot \mathbf {K} _ {p 3} ^ {2} = 1. 0 \times 1 0 ^ {- 9}
+\mathbf {K} _ {p 4} = \frac {\mathbf {K} _ {p 2}}{\mathbf {K} _ {p 1}} \cdot \mathbf {K} _ {p 3} ^ {2} = 1.0 \times 10 ^ {- 9}
 $$
 
 评注

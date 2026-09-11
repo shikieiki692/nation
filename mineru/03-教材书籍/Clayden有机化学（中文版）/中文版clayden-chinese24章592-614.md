@@ -603,7 +603,7 @@ Chemical reaction equation showing conversion of 10- to 11-dihydroxybutyric acid
 译者注：目前有人将离子型的，用碱去质子的过程也称作“攫氢”，这是不严谨的。
 
 $$
-\mathrm{Br} \xrightarrow {\text {光照} (h v)} 2 \times \mathrm{Br} ^ {\bullet} \quad \Delta G ^ {\ddagger} = 1 9 2 \mathrm{kJ} \mathrm{mol} ^ {- 1}
+\mathrm{Br} \xrightarrow {\text {光照} (h v)} 2 \times \mathrm{Br} ^ {\bullet} \quad \Delta G ^ {\ddagger} = 192 \mathrm{kJ} \mathrm{mol} ^ {- 1}
 $$
 
 自由基都非常活泼、不稳定，这些溴自由基也许会仅仅重新结合，也许会与其他化合物反应。您已经知道，溴阴离子是 $S_{N}2$ 反应中好的亲核试剂，但溴自由基则发生两种很不同的反应：攫取和加成。Br 自由基可能从烯烃上攫取一个氢原子 (简称攫氢)，也可能加成到 $\pi$ 键上。注意每个反应都生成一个新的碳自由基，第一种情况下还得到 HBr 分子。与离子反应不同的是，自由基反应受键能主导，上述情境中 Br–Br 键弱，而 H–Br 键则强得多 (366 kJ mol $^{-1}$ ).

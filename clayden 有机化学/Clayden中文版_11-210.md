@@ -5584,7 +5584,7 @@ $$
 利用 $\mathrm{pK_a}$ ，我们可以用数据衡量前文介绍的盐酸和醋酸的酸性。HCl是比醋酸强得多的酸：HCl的 $\mathrm{pK_a}$ 在-7左右，醋酸在4.76左右。这告诉我们，在溶液中，盐酸的 $K_{\mathrm{a}}$ 是 $10^{7} \, \mathrm{mol} \, \mathrm{dm}^{-3}$ 。这是一个巨大的数值：每10,000,000(一千万)个分子中只有一个未解离，因此它基本上是充分解离的。但醋酸的 $K_{\mathrm{a}}$ 只有 $10^{-4.76} = 1.74 \times 10^{-5} \, \mathrm{mol} \, \mathrm{dm}^{-3}$ ，因此它根本就很难解离：每一百万个醋酸中只有几分子以醋酸根离子的形式存在。
 
 $$
-\mathrm{HCl} + \mathrm{H} _ {2} \mathrm{O} \quad \xrightarrow {\text {   }} \quad \mathrm{H} _ {3} \mathrm{O} ^ {\oplus} + \mathrm{Cl} ^ {\ominus} \quad K _ {\mathrm{a}} = 1 0 ^ {7}
+\mathrm{HCl} + \mathrm{H} _ {2} \mathrm{O} \quad \xrightarrow {\text {   }} \quad \mathrm{H} _ {3} \mathrm{O} ^ {\oplus} + \mathrm{Cl} ^ {\ominus} \quad K _ {\mathrm{a}} = 10 ^ {7}
 $$
 
 ![](Clayden中文版_11-210_images/16512963e06d8bf371f53af946191dd4bdf642ebbb5f654b6be057c741814de8.jpg)
@@ -5718,7 +5718,7 @@ $$
 最重要的有机氮化合物是胺和酰胺。胺氮可以与烷基或芳基相连 (与芳基相连的胺被称为苯胺 anilines)。它们都在氮上具有一对孤电子，可能还在氮上具有氢原子。由于氮的电负性比氧小，您可能预料到，胺的酸性会比醇小，共轭碱的碱性会比醇的大。它们就是如此。质子化的胺的 $pK_{a}$ 值大约为 10 (水和醇大约为 0)，胺做酸时的 $pK_{a}$ 值非常高，有时是 35 (醇大约为 15)。因此铵盐大约于苯酚酸性相当，胺会在 pH 7 的水中被质子化。这也是为什么氨基酸 (p. 167) 在水中会以内盐形式存在。
 
 $$
-\begin{array}{r l r l r l} \mathrm{RNH} _ {3} ^ {\oplus} & \xrightarrow [ \text {于pH7} ]{\mathrm{pK} _ {\mathrm{a}} = \sim 1 0} & \mathrm{RNH} _ {2} & \xrightarrow [ \text {于pH>10} ]{\mathrm{pK} _ {\mathrm{a}} = \sim 3 5} & \mathrm{RNH} ^ {\ominus} \\ & \text {氨基酸内盐} \end{array}
+\begin{array}{r l r l r l} \mathrm{RNH} _ {3} ^ {\oplus} & \xrightarrow [ \text {于pH7} ]{\mathrm{pK} _ {\mathrm{a}} = \sim 10} & \mathrm{RNH} _ {2} & \xrightarrow [ \text {于pH>10} ]{\mathrm{pK} _ {\mathrm{a}} = \sim 35} & \mathrm{RNH} ^ {\ominus} \\ & \text {氨基酸内盐} \end{array}
 $$
 
 从胺上移去一个质子是非常难的，因为其阴离子 (被称为 “胺基” 阴离子) 是非常不稳定并且碱性非常强的。成功的唯一办法是使用非常强的碱，通常是烷基锂。“阴离子” 会具有一根 N-Li 键并可溶于有机溶剂。左侧的例子，被称为 LDA，在有机化学中常被当作强碱使用。

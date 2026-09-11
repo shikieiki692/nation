@@ -37,7 +37,7 @@
 解 按密排的知识,相邻的 3 株树呈正三角形排列时,植株数目最多,如图 7.2 所示。每株所占的面积为
 
 $$
-2 \mathrm{m} \times 2 \mathrm{m} \times \sin 6 0 ^ {\circ} = 3. 4 6 4 \mathrm{m} ^ {2}
+2 \mathrm{m} \times 2 \mathrm{m} \times \sin 60 ^ {\circ} = 3.464 \mathrm{m} ^ {2}
 $$
 
 1 公顷地最多的植树株数为： $10000 \, m^{2}/3.464 \, m^{2}=2887$ （株）
@@ -66,13 +66,13 @@ $$
 晶胞边长 $a$ 和 $b$ 可按下式计算：
 
 $$
-a = b = 2 \times 1 4 2 \mathrm{pm} \times \cos 3 0 ^ {\circ} = 2 4 6 \mathrm{pm}
+a = b = 2 \times 142 \mathrm{pm} \times \cos 30 ^ {\circ} = 246 \mathrm{pm}
 $$
 
 晶胞面积可按下式计算：
 
 $$
-a \times b \times \sin 6 0 ^ {\circ} = 2 4 6 \mathrm{pm} \times 2 4 6 \mathrm{pm} \times \sin 6 0 ^ {\circ} = 5. 2 4 \times 1 0 ^ {4} \mathrm{pm} ^ {2}
+a \times b \times \sin 60 ^ {\circ} = 246 \mathrm{pm} \times 246 \mathrm{pm} \times \sin 60 ^ {\circ} = 5.24 \times 10 ^ {4} \mathrm{pm} ^ {2}
 $$
 
 晶胞中含 2 个 C 原子, 3 根 C—C 键。  
@@ -83,7 +83,7 @@ $$
 在聚乙烯、聚乙烯醇和聚氯乙烯分子中，C原子以 $\mathrm{sp}^3$ 杂化轨道成键，呈四面体构型，C—C键长 $154\mathrm{pm}$ ， $\angle C - C - C$ 为 $109.5^{\circ}$ ，全部C原子都处在同一平面上，呈伸展的构象。重复周期长度前两个为 $252\mathrm{pm}$ ，这数值正好等于
 
 $$
-2 \times 1 5 4 \mathrm{pm} \times \sin \left(\frac {1 0 9 . 5 ^ {\circ}}{2}\right) = 2 5 2 \mathrm{pm}
+2 \times 154 \mathrm{pm} \times \sin \left(\frac {109.5 ^ {\circ}}{2}\right) = 252 \mathrm{pm}
 $$
 
 聚氯乙烯因 Cl 原子的范德华半径为 184 pm, 需要交错排列, 因而它的周期接近 252 pm 的 2 倍。
@@ -283,7 +283,7 @@ $C_{3h}$ 和 $D_{3h}$ 点群中包含有六次反轴( $\overline{6}$ ), $\overli
 解 $z$ 值相同的 $\mathrm{Ti - O}$ 键是 $\mathrm{Ti}(0,0,0)$ 和 $\mathrm{O}(0.31,0.31,0)$ 之间的键，其键长 $r_{\mathrm{Ti - O}}$ 为
 
 $$
-\begin{array}{r l} r _ {\mathrm{Ti-O}} & = \sqrt {(0 . 3 1 a) ^ {2} + (0 . 3 1 a) ^ {2}} \\ & = 0. 4 3 8 a \\ & = 0. 4 3 8 \times 4 5 8 \mathrm{pm} \\ & = 2 0 1 \mathrm{pm} \end{array}
+\begin{array}{r l} r _ {\mathrm{Ti-O}} & = \sqrt {(0.31 a) ^ {2} + (0.31 a) ^ {2}} \\ & = 0.438 a \\ & = 0.438 \times 458 \mathrm{pm} \\ & = 201 \mathrm{pm} \end{array}
 $$
 
 【7.17】许多由有机分子堆积成的晶体属于单斜晶系， $C_{2h}^{5}-P2_{1}/c$ 空间群。说明空间群记号中各符号的意义，画出 $P2_{1}/c$ 空间群对称元素的分布，推出晶胞中和原子(0.15,0.25,0.10)属同一等效点系的其他3个原子的坐标，并作图表示。
@@ -317,15 +317,15 @@ $$
 故
 
 $$
-d _ {2 0 0} = a (2 ^ {2}) ^ {- \frac {1}{2}} = \frac {1}{2} a = 1 7 6. 2 \mathrm{pm}
+d _ {200} = a (2 ^ {2}) ^ {- \frac {1}{2}} = \frac {1}{2} a = 176.2 \mathrm{pm}
 $$
 
 $$
-d _ {1 1 1} = a (1 ^ {2} + 1 ^ {2} + 1 ^ {2}) ^ {- \frac {1}{2}} = a / \sqrt {3} = 2 0 3. 5 \mathrm{pm}
+d _ {111} = a (1 ^ {2} + 1 ^ {2} + 1 ^ {2}) ^ {- \frac {1}{2}} = a / \sqrt {3} = 203.5 \mathrm{pm}
 $$
 
 $$
-d _ {2 2 0} = a (2 ^ {2} + 2 ^ {2}) ^ {- \frac {1}{2}} = a / \sqrt {8} = 1 2 4. 6 \mathrm{pm}
+d _ {220} = a (2 ^ {2} + 2 ^ {2}) ^ {- \frac {1}{2}} = a / \sqrt {8} = 124.6 \mathrm{pm}
 $$
 
 【7.21】什么是晶体衍射的两个要素？它们与晶体结构（例如晶胞的两要素）有何对应关系？写出能够阐明这些对应关系的表达式，并指出式中各符号的意义。晶体衍射的两要素在X射线粉末衍射图上有何反映？
@@ -366,7 +366,7 @@ $$
 图 7.23 二水合草酸晶体的点阵(实线)和倒易点阵(虚线)
 
 $$
-\begin{array}{r l} a ^ {*} & = 1 / d _ {1 0 0} = 1 / a \cos (1 0 5. 7 8 ^ {\circ} - 9 0 ^ {\circ}) \\ & = 1 / 0. 6 0 9 6 8 \mathrm{nm} \times \cos 1 5. 7 8 ^ {\circ} \\ & = 1. 7 0 4 \mathrm{nm} ^ {- 1} \\ b ^ {*} & = 1 / d _ {0 1 0} = 1 / 0. 3 4 9 7 5 \mathrm{nm} \times \cos 0 ^ {\circ} \\ & = 2. 8 6 \mathrm{nm} ^ {- 1} \\ c ^ {*} & = 1 / d _ {0 0 1} = 1 / 1. 1 9 4 6 \mathrm{nm} \times \cos (1 0 5. 7 8 ^ {\circ} - 9 0 ^ {\circ}) \\ & = 0. 8 7 0 \mathrm{nm} ^ {- 1} \\ \alpha^ {*} & = \gamma^ {*} = 9 0 ^ {\circ} \\ \beta^ {*} & = 1 8 0 ^ {\circ} - 1 0 5. 7 8 ^ {\circ} = 7 4. 2 2 ^ {\circ} \end{array}
+\begin{array}{r l} a ^ {*} & = 1 / d _ {100} = 1 / a \cos (105.78 ^ {\circ} - 90 ^ {\circ}) \\ & = 1 / 0.60968 \mathrm{nm} \times \cos 15.78 ^ {\circ} \\ & = 1.704 \mathrm{nm} ^ {- 1} \\ b ^ {*} & = 1 / d _ {010} = 1 / 0.34975 \mathrm{nm} \times \cos 0 ^ {\circ} \\ & = 2.86 \mathrm{nm} ^ {- 1} \\ c ^ {*} & = 1 / d _ {001} = 1 / 1.1946 \mathrm{nm} \times \cos (105.78 ^ {\circ} - 90 ^ {\circ}) \\ & = 0.870 \mathrm{nm} ^ {- 1} \\ \alpha^ {*} & = \gamma^ {*} = 90 ^ {\circ} \\ \beta^ {*} & = 180 ^ {\circ} - 105.78 ^ {\circ} = 74.22 ^ {\circ} \end{array}
 $$
 
 【7.24】用 $\mathrm{CuK}\alpha$ 射线收集二水合草酸晶体的衍射数据时，按7.23题所得数据计算：（1）由倒易点阵原点指向倒易点阵点的 $H_{200}$ 和 $H_{202}$ 的数值；（2）计算衍射200和202的衍射角 $2\theta$ 数值；（3）画出衍射202产生衍射时倒易点阵和反射球的几何关系。
@@ -376,13 +376,13 @@ $$
 (1) 已知 $Cu K_{\alpha}$ 的波长 ( $\lambda$ ) 为 0.1542 nm, 得反射球的半径和直径:
 
 $$
-\begin{array}{r l} & {\text {反射球半径:} 1 / \lambda = 6. 4 8 5 \mathrm{nm} ^ {- 1}} \\ & {\text {反射球直径:} 2 / \lambda = 1 2. 9 7 \mathrm{nm} ^ {- 1}} \\ & {H _ {2 0 0} = 2 a ^ {*} = 2 \times 1. 7 0 4 \mathrm{nm} ^ {- 1} = 3. 4 0 8 \mathrm{nm} ^ {- 1}} \\ & {H _ {2 0 2} = 2 \sqrt {a ^ {* 2} + c ^ {* 2} - 2 a ^ {*} c ^ {*} \cos (1 8 0 ^ {\circ} - \beta^ {*})}} \\ & {= 2 \sqrt {1 . 7 0 4 ^ {2} + 0 . 8 7 0 ^ {2} - 2 \times 1 . 7 0 4 \times 0 . 8 7 0 \times \cos 1 0 5 . 7 8 ^ {\circ}}} \\ & {= 4. 2 2 7 \mathrm{nm} ^ {- 1}} \end{array}
+\begin{array}{r l} & {\text {反射球半径:} 1 / \lambda = 6.485 \mathrm{nm} ^ {- 1}} \\ & {\text {反射球直径:} 2 / \lambda = 12.97 \mathrm{nm} ^ {- 1}} \\ & {H _ {200} = 2 a ^ {*} = 2 \times 1.704 \mathrm{nm} ^ {- 1} = 3.408 \mathrm{nm} ^ {- 1}} \\ & {H _ {202} = 2 \sqrt {a ^ {* 2} + c ^ {* 2} - 2 a ^ {*} c ^ {*} \cos (180 ^ {\circ} - \beta^ {*})}} \\ & {= 2 \sqrt {1.704 ^ {2} + 0.870 ^ {2} - 2 \times 1.704 \times 0.870 \times \cos 105.78 ^ {\circ}}} \\ & {= 4.227 \mathrm{nm} ^ {- 1}} \end{array}
 $$
 
 (2) 利用反射球和 $H_{200}$ 、 $H_{202}$ 的几何关系, 可分别算得 $2\theta$ 值:
 
 $$
-\begin{array}{r l} & {\sin \theta_ {2 0 0} = 3. 4 0 8 \mathrm{nm} ^ {- 1} / 1 2. 9 7 \mathrm{nm} ^ {- 1} = 0. 2 6 2 7} \\ & {\qquad \theta_ {2 0 0} = 1 5. 2 3 ^ {\circ}} \\ & {\qquad 2 \theta_ {2 0 0} = 3 0. 4 6 ^ {\circ}} \\ & {\sin \theta_ {2 0 2} = 4. 2 2 7 \mathrm{nm} ^ {- 1} / 1 2. 9 7 \mathrm{nm} ^ {- 1} = 0. 3 2 5 9} \\ & {\qquad \theta_ {2 0 2} = 1 9. 0 2 ^ {\circ}} \\ & {\qquad 2 \theta_ {2 0 2} = 3 8. 0 4 ^ {\circ}} \end{array}
+\begin{array}{r l} & {\sin \theta_ {200} = 3.408 \mathrm{nm} ^ {- 1} / 12.97 \mathrm{nm} ^ {- 1} = 0.2627} \\ & {\qquad \theta_ {200} = 15.23 ^ {\circ}} \\ & {\qquad 2 \theta_ {200} = 30.46 ^ {\circ}} \\ & {\sin \theta_ {202} = 4.227 \mathrm{nm} ^ {- 1} / 12.97 \mathrm{nm} ^ {- 1} = 0.3259} \\ & {\qquad \theta_ {202} = 19.02 ^ {\circ}} \\ & {\qquad 2 \theta_ {202} = 38.04 ^ {\circ}} \end{array}
 $$
 
 (3) 反射球和衍射 $H_{202}$ 的衍射方向示于图 7.24。
@@ -434,7 +434,7 @@ $$
 由 $\theta$ 求得 $d$ 为
 
 $$
-\begin{array}{r l} d _ {3 3 3} & = \lambda / 2 \sin (8 1 ^ {\circ} 1 7 ^ {\prime}) = 1 5 4. 2 \mathrm{pm} / 2 \times 0. 9 8 8 4 \\ & = 7 8. 0 0 \mathrm{pm} \\ a & = d _ {3 3 3} (3 ^ {2} + 3 ^ {2} + 3 ^ {2}) ^ {\frac {1}{2}} = 7 8. 0 0 \mathrm{pm} \times 5. 1 9 6 \\ & = 4 0 5. 3 \mathrm{pm} \end{array}
+\begin{array}{r l} d _ {333} & = \lambda / 2 \sin (81 ^ {\circ} 17 ^ {\prime}) = 154.2 \mathrm{pm} / 2 \times 0.9884 \\ & = 78.00 \mathrm{pm} \\ a & = d _ {333} (3 ^ {2} + 3 ^ {2} + 3 ^ {2}) ^ {\frac {1}{2}} = 78.00 \mathrm{pm} \times 5.196 \\ & = 405.3 \mathrm{pm} \end{array}
 $$
 
 【评注】对高角度应考虑用 $Cu K_{\alpha_{1}}=154.056\ pm$ 计算，则 a=404.9 pm。
@@ -450,7 +450,7 @@ $$
 解（1）按求晶胞中分子数 $Z$ 的公式，得
 
 $$
-\begin{array}{r l} Z & = N _ {\mathrm{A}} V D / M \\ & = 6. 0 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1} (1 0 4 8 \times 1 2 9 2 \times 2 4 5 5) \mathrm{pm} ^ {3} \\ & \quad \times 1 0 ^ {- 3 0} \mathrm{cm} ^ {3} \mathrm{pm} ^ {- 3} \times 2. 0 7 (\mathrm{gcm} ^ {- 3}) / 8 \times 3 2. 0 6 \mathrm{gmol} ^ {- 1} \\ & \approx 1 6 \end{array}
+\begin{array}{r l} Z & = N _ {\mathrm{A}} V D / M \\ & = 6.02 \times 10 ^ {23} \mathrm{mol} ^ {- 1} (1048 \times 1292 \times 2455) \mathrm{pm} ^ {3} \\ & \quad \times 10 ^ {- 30} \mathrm{cm} ^ {3} \mathrm{pm} ^ {- 3} \times 2.07 (\mathrm{gcm} ^ {- 3}) / 8 \times 32.06 \mathrm{gmol} ^ {- 1} \\ & \approx 16 \end{array}
 $$
 
 (2) 按正交晶系公式：
@@ -462,7 +462,7 @@ $$
 代入有关数据,得
 
 $$
-\begin{array}{r l} d _ {2 2 4} & = \left[ \left(\frac {2 ^ {2}}{1 . 0 4 8 ^ {2}} + \frac {2 ^ {2}}{1 . 2 9 2 ^ {2}} + \frac {4 ^ {2}}{2 . 4 5 5 ^ {2}}\right) \times \frac {1}{1 0 ^ {6} \mathrm{pm} ^ {2}} \right] ^ {- \frac {1}{2}} \\ & = \left[ (3. 6 4 2 + 2. 3 9 6 + 2. 6 5 5) \times \frac {1}{1 0 ^ {6} \mathrm{pm} ^ {2}} \right] ^ {- \frac {1}{2}} \\ & = 3 3 9. 2 \mathrm{pm} \\ \theta & = \arcsin \left(\frac {1 5 4 . 2 \mathrm{pm}}{2 \times 3 3 9 . 2 \mathrm{pm}}\right) = 1 3. 1 4 ^ {\circ} \end{array}
+\begin{array}{r l} d _ {224} & = \left[ \left(\frac {2 ^ {2}}{1.048 ^ {2}} + \frac {2 ^ {2}}{1.292 ^ {2}} + \frac {4 ^ {2}}{2.455 ^ {2}}\right) \times \frac {1}{10 ^ {6} \mathrm{pm} ^ {2}} \right] ^ {- \frac {1}{2}} \\ & = \left[ (3.642 + 2.396 + 2.655) \times \frac {1}{10 ^ {6} \mathrm{pm} ^ {2}} \right] ^ {- \frac {1}{2}} \\ & = 339.2 \mathrm{pm} \\ \theta & = \arcsin \left(\frac {154.2 \mathrm{pm}}{2 \times 339.2 \mathrm{pm}}\right) = 13.14 ^ {\circ} \end{array}
 $$
 
 (3) $S_{8}$ 分子属于点群 $D_{4d}$ ，独立的对称元素有： $I_{8}, 4C_{2}, 4\sigma_{d}$ 。
@@ -472,7 +472,7 @@ $$
 解 按求 Avogadro 常数 $N_{A}$ 的公式, 得
 
 $$
-\begin{array}{r l} N _ {\mathrm{A}} & = Z M / V D \\ & = \frac {8 \times 2 8 . 0 8 5 \mathrm{gmol} ^ {- 1}}{(5 4 3 . 0 8 9 \mathrm{pm}) ^ {3} \times (1 0 ^ {- 3 0} \mathrm{cm} ^ {3} \mathrm{pm} ^ {- 3}) \times 2 . 3 2 8 3 \mathrm{gcm} ^ {- 3}} \\ & = 6. 0 2 4 5 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1} \end{array}
+\begin{array}{r l} N _ {\mathrm{A}} & = Z M / V D \\ & = \frac {8 \times 28.085 \mathrm{gmol} ^ {- 1}}{(543.089 \mathrm{pm}) ^ {3} \times (10 ^ {- 30} \mathrm{cm} ^ {3} \mathrm{pm} ^ {- 3}) \times 2.3283 \mathrm{gcm} ^ {- 3}} \\ & = 6.0245 \times 10 ^ {23} \mathrm{mol} ^ {- 1} \end{array}
 $$
 
 【7.30】已知某立方晶系晶体的密度为 $2.16 \, g cm^{-3}$ ，相对分子质量为 234。用 Cu Kα 射线在 154
@@ -482,7 +482,7 @@ $$
 解 用下面公式由 L 值可求得 $\theta$ 值：
 
 $$
-\begin{array}{r l} & \theta = 1 8 0 ^ {\circ} \times 2 L / 4 \pi R = 1 8 0 ^ {\circ} \times 2 2. 3 \mathrm{mm} / 2 \pi \times 5 7. 3 \mathrm{mm} \\ & = 1 1. 1 5 ^ {\circ} \\ d _ {2 2 0} = \lambda / 2 \sin \theta = 1 5 4. 2 \mathrm{pm} / 2 \times 0. 1 9 3 4 \\ & = 3 9 8. 7 \mathrm{pm} \\ a = d _ {2 2 0} (2 ^ {2} + 2 ^ {2}) ^ {\frac {1}{2}} \\ & = 1 1 2 7. 6 \mathrm{pm} \\ Z = N _ {\mathrm{A}} V D / M \\ & = 6. 0 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1} \times (1 1 2 7. 6 \times 1 0 ^ {- 1 0} \mathrm{cm}) ^ {3} \times 2. 1 6 \mathrm{gcm} ^ {- 3} / 2 3 4 \mathrm{gmol} ^ {- 1} \\ & \approx 8 \end{array}
+\begin{array}{r l} & \theta = 180 ^ {\circ} \times 2 L / 4 \pi R = 180 ^ {\circ} \times 22.3 \mathrm{mm} / 2 \pi \times 57.3 \mathrm{mm} \\ & = 11.15 ^ {\circ} \\ d _ {220} = \lambda / 2 \sin \theta = 154.2 \mathrm{pm} / 2 \times 0.1934 \\ & = 398.7 \mathrm{pm} \\ a = d _ {220} (2 ^ {2} + 2 ^ {2}) ^ {\frac {1}{2}} \\ & = 1127.6 \mathrm{pm} \\ Z = N _ {\mathrm{A}} V D / M \\ & = 6.02 \times 10 ^ {23} \mathrm{mol} ^ {- 1} \times (1127.6 \times 10 ^ {- 10} \mathrm{cm}) ^ {3} \times 2.16 \mathrm{gcm} ^ {- 3} / 234 \mathrm{gmol} ^ {- 1} \\ & \approx 8 \end{array}
 $$
 
 【7.31】核糖核酸酶-S蛋白质晶体的晶体学数据如下：晶胞体积 $167 \, nm^{3}$ ，晶胞中分子数 6，晶体密度 $1.282 \, g cm^{-3}$ 。如蛋白质在晶体中占 68%（质量分数），计算该蛋白质的相对分子质量。
@@ -490,7 +490,7 @@ $$
 解
 
 $$
-\begin{array}{r l} M & = N _ {\mathrm{A}} V D / Z \\ & = 6. 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1} \times 1 6 7 \times 1 0 ^ {- 2 1} \mathrm{cm} ^ {3} \times 1. 2 8 2 \mathrm{gcm} ^ {- 3} \times 0. 6 8 / 6 \\ & = 1 4 6 1 2 \end{array}
+\begin{array}{r l} M & = N _ {\mathrm{A}} V D / Z \\ & = 6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1} \times 167 \times 10 ^ {- 21} \mathrm{cm} ^ {3} \times 1.282 \mathrm{gcm} ^ {- 3} \times 0.68 / 6 \\ & = 14612 \end{array}
 $$
 
 【7.32】CaS 晶体具有 NaCl 型结构, 晶体密度为 $2.581 \, g cm^{-3}$ , Ca 和 S 的相对原子质量分别为 40.08 和 32.06。试回答下列问题:
@@ -508,13 +508,13 @@ $$
 (2) 为求晶胞参数, 先求晶胞体积 V:
 
 $$
-\begin{array}{r l} V & = \frac {M Z}{N _ {\mathrm{A}} D} = \frac {4 (4 0 . 0 8 + 3 2 . 0 6) \mathrm{g} \mathrm{mol} ^ {- 1}}{6 . 0 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1} \times 2 . 5 8 1 \mathrm{g} \mathrm{cm} ^ {- 3}} \\ & = 1. 8 5 7 \times 1 0 ^ {- 2 2} \mathrm{cm} ^ {3} \\ a & = (V) ^ {\frac {1}{3}} = (1 8 5. 7 \times 1 0 ^ {- 2 4} \mathrm{cm} ^ {3}) ^ {\frac {1}{3}} \\ & = 5. 7 0 5 \times 1 0 ^ {- 8} \mathrm{cm} = 5 7 0. 5 \mathrm{pm} \end{array}
+\begin{array}{r l} V & = \frac {M Z}{N _ {\mathrm{A}} D} = \frac {4 (40.08 + 32.06) \mathrm{g} \mathrm{mol} ^ {- 1}}{6.02 \times 10 ^ {23} \mathrm{mol} ^ {- 1} \times 2.581 \mathrm{g} \mathrm{cm} ^ {- 3}} \\ & = 1.857 \times 10 ^ {- 22} \mathrm{cm} ^ {3} \\ a & = (V) ^ {\frac {1}{3}} = (185.7 \times 10 ^ {- 24} \mathrm{cm} ^ {3}) ^ {\frac {1}{3}} \\ & = 5.705 \times 10 ^ {- 8} \mathrm{cm} = 570.5 \mathrm{pm} \end{array}
 $$
 
 (3) 最小可观测的衍射为 111。
 
 $$
-\begin{array}{r l} d _ {1 1 1} & = a / (1 + 1 + 1) ^ {\frac {1}{2}} = 5 7 0. 5 \mathrm{pm} / \sqrt {3} \\ & = 3 2 9. 4 \mathrm{pm} \\ \theta & = \arcsin (\lambda / 2 d) = \arcsin (1 5 4. 2 \mathrm{pm} / 2 \times 3 2 9. 4 \mathrm{pm}) \\ & = 1 3. 5 4 ^ {\circ} \end{array}
+\begin{array}{r l} d _ {111} & = a / (1 + 1 + 1) ^ {\frac {1}{2}} = 570.5 \mathrm{pm} / \sqrt {3} \\ & = 329.4 \mathrm{pm} \\ \theta & = \arcsin (\lambda / 2 d) = \arcsin (154.2 \mathrm{pm} / 2 \times 329.4 \mathrm{pm}) \\ & = 13.54 ^ {\circ} \end{array}
 $$
 
 【7.33】 $\delta$ -TiCl $_{3}$ 微晶是乙烯、丙烯聚合催化剂的活性组分。用 X 射线粉末法 (Cu K $_{\alpha}$ 线) 测定
@@ -530,13 +530,13 @@ $$
 001衍射：
 
 $$
-\begin{array}{r l} \Delta B & = 1. 3 ^ {\circ} - 0. 4 0 ^ {\circ} = 0. 9 ^ {\circ} = 0. 0 1 5 7 \text {弧度} \\ D _ {\mathrm{p,001}} & = (0. 9 \times 0. 1 5 4 \mathrm{nm}) / 0. 0 1 5 7 \times \cos 7. 5 5 ^ {\circ} \\ & = 8. 9 \mathrm{nm} \end{array}
+\begin{array}{r l} \Delta B & = 1.3 ^ {\circ} - 0.40 ^ {\circ} = 0.9 ^ {\circ} = 0.0157 \text {弧度} \\ D _ {\mathrm{p,001}} & = (0.9 \times 0.154 \mathrm{nm}) / 0.0157 \times \cos 7.55 ^ {\circ} \\ & = 8.9 \mathrm{nm} \end{array}
 $$
 
 100 衍射：
 
 $$
-\begin{array}{r l} \Delta B & = 1. 5 ^ {\circ} - 0. 5 5 ^ {\circ} = 0. 9 5 ^ {\circ} = 0. 0 1 6 5 8 \text {弧度} \\ D _ {\mathrm{p,100}} & = (0. 9 \times 0. 1 5 4 \mathrm{nm}) / 0. 0 1 6 5 8 \times \cos 2 6 ^ {\circ} \\ & = 9. 3 \mathrm{nm} \end{array}
+\begin{array}{r l} \Delta B & = 1.5 ^ {\circ} - 0.55 ^ {\circ} = 0.95 ^ {\circ} = 0.01658 \text {弧度} \\ D _ {\mathrm{p,100}} & = (0.9 \times 0.154 \mathrm{nm}) / 0.01658 \times \cos 26 ^ {\circ} \\ & = 9.3 \mathrm{nm} \end{array}
 $$
 
 【7.34】冰为六方晶系晶体，晶胞参数 $a = 452.27\mathrm{pm}, c = 736.71\mathrm{pm}$ ，晶胞中含 $4\mathrm{H}_2\mathrm{O}$ ，括弧内为 $\mathrm{O}$ 原子分数坐标 $(0,0,0;0,0,0.375;2/3,1/3,1/2;2/3,1/3,0.875)$ 。请据此计算或说明：
@@ -548,7 +548,7 @@ $$
 (3) 冰的点阵型式是什么？结构基元包含哪些内容？
 
 $$
-\begin{array}{r l} & {(1) \text {密度} D = Z M / N _ {\mathrm{A}} V} \\ & {\quad V = (4 5 2. 2 7 \mathrm{pm}) ^ {2} \sin 6 0 ^ {\circ} \times 7 3 6. 7 1 \mathrm{pm} = 1. 3 0 5 \times 1 0 ^ {8} \mathrm{pm} ^ {3}} \\ & {\qquad = 1. 3 0 5 \times 1 0 ^ {- 2 2} \mathrm{cm} ^ {3}} \\ & {\quad D = 4 (2 \times 1. 0 0 8 + 1 6. 0 0) \mathrm{g} \mathrm{mol} ^ {- 1} / 6. 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1} \times 1. 3 0 5 \times 1 0 ^ {- 2 2} \mathrm{cm} ^ {3}} \\ & {\qquad = 0. 9 1 7 \mathrm{g} \mathrm{cm} ^ {- 3}} \end{array}
+\begin{array}{r l} & {(1) \text {密度} D = Z M / N _ {\mathrm{A}} V} \\ & {\quad V = (452.27 \mathrm{pm}) ^ {2} \sin 60 ^ {\circ} \times 736.71 \mathrm{pm} = 1.305 \times 10 ^ {8} \mathrm{pm} ^ {3}} \\ & {\qquad = 1.305 \times 10 ^ {- 22} \mathrm{cm} ^ {3}} \\ & {\quad D = 4 (2 \times 1.008 + 16.00) \mathrm{g} \mathrm{mol} ^ {- 1} / 6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1} \times 1.305 \times 10 ^ {- 22} \mathrm{cm} ^ {3}} \\ & {\qquad = 0.917 \mathrm{g} \mathrm{cm} ^ {- 3}} \end{array}
 $$
 
 (2) 坐标为 $(0,0,0)$ 和 $(0,0,0.375)$ 的两个 O 原子间的距离即为氢键键长 r: $r=(0.375-0)\times736.71\mathrm{pm}$ =276.3pm
@@ -570,7 +570,7 @@ $$
 在本题中坐标为(1,0,0.375)和 $\left(\frac{2}{3},\frac{1}{3},\frac{1}{2}\right)$ 的2个O原子间的距离为另外一种长度的O—H…O氢键，其键长为
 
 $$
-\begin{array}{r l} r & = \left\{\left[ \left(\frac {1}{3}\right) ^ {2} + \left(\frac {1}{3}\right) ^ {2} + \left(\frac {1}{3} \times \frac {1}{3}\right) \right] a ^ {2} + \left(\frac {1}{2} - 0. 3 7 5\right) ^ {2} c ^ {2} \right\} ^ {\frac {1}{2}} \\ & = (0. 3 3 3 3 a ^ {2} + 0. 0 1 5 6 c ^ {2}) ^ {\frac {1}{2}} \\ & = 2 7 6. 8 \mathrm{pm} \end{array}
+\begin{array}{r l} r & = \left\{\left[ \left(\frac {1}{3}\right) ^ {2} + \left(\frac {1}{3}\right) ^ {2} + \left(\frac {1}{3} \times \frac {1}{3}\right) \right] a ^ {2} + \left(\frac {1}{2} - 0.375\right) ^ {2} c ^ {2} \right\} ^ {\frac {1}{2}} \\ & = (0.3333 a ^ {2} + 0.0156 c ^ {2}) ^ {\frac {1}{2}} \\ & = 276.8 \mathrm{pm} \end{array}
 $$
 
 上述两个键长值 276.3 pm 和 276.8 pm 应用时可取短值或平均值。
@@ -592,7 +592,7 @@ $$
 (2) $d_{400}=154.2\ \text{pm}/2\times0.7325=105.26\ \text{pm}$
 
 $$
-a = d _ {4 0 0} \left(4 ^ {2}\right) ^ {\frac {1}{2}} = 4 \times 1 0 5. 2 6 \mathrm{pm} = 4 2 1 \mathrm{pm}
+a = d _ {400} \left(4 ^ {2}\right) ^ {\frac {1}{2}} = 4 \times 105.26 \mathrm{pm} = 421 \mathrm{pm}
 $$
 
 在此正当晶胞中,一个晶胞对应4个点阵点,即包含4个结构基元。
@@ -600,7 +600,7 @@ $$
 (3) 按公式，
 
 $$
-\begin{array}{r l} M & = N _ {\mathrm{A}} V D / Z \\ & = 6. 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1} \times (4 2 1. 0 4 \times 1 0 ^ {- 1 0} \mathrm{cm}) ^ {3} \times 3. 5 8 1 \mathrm{gcm} ^ {- 3} / 4 \\ & = 4 0. 2 4 \mathrm{gmol} ^ {- 1} \end{array}
+\begin{array}{r l} M & = N _ {\mathrm{A}} V D / Z \\ & = 6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1} \times (421.04 \times 10 ^ {- 10} \mathrm{cm}) ^ {3} \times 3.581 \mathrm{gcm} ^ {- 3} / 4 \\ & = 40.24 \mathrm{gmol} ^ {- 1} \end{array}
 $$
 
 MO 的相对化学式量为 40.24, M 的相对原子质量为: 40.24 - 16.00 = 24.24, 该原子应为 Mg。
@@ -726,7 +726,7 @@ $$
 边长 AB=2R
 
 $$
-\begin{array}{r l} \mathrm{AM} & = (\mathrm{AE} ^ {2} - \mathrm{EM} ^ {2}) ^ {\frac {1}{2}} = \left[ \mathrm{AB} ^ {2} - \mathrm{BE} ^ {2} - \left(\frac {1}{3} \mathrm{DE}\right) ^ {2} \right] ^ {\frac {1}{2}} \\ & = \left[ \mathrm{AB} ^ {2} - \left(\frac {1}{2} \mathrm{AB}\right) ^ {2} - \left(\frac {1}{3} \mathrm{AE}\right) ^ {2} \right] ^ {\frac {1}{2}} = \left[ (2 R) ^ {2} - R ^ {2} - \left(\frac {\sqrt {3}}{3} R\right) ^ {2} \right] ^ {\frac {1}{2}} \\ & = \frac {2}{3} \sqrt {6} R \approx 1. 6 3 3 R \end{array}
+\begin{array}{r l} \mathrm{AM} & = (\mathrm{AE} ^ {2} - \mathrm{EM} ^ {2}) ^ {\frac {1}{2}} = \left[ \mathrm{AB} ^ {2} - \mathrm{BE} ^ {2} - \left(\frac {1}{3} \mathrm{DE}\right) ^ {2} \right] ^ {\frac {1}{2}} \\ & = \left[ \mathrm{AB} ^ {2} - \left(\frac {1}{2} \mathrm{AB}\right) ^ {2} - \left(\frac {1}{3} \mathrm{AE}\right) ^ {2} \right] ^ {\frac {1}{2}} = \left[ (2 R) ^ {2} - R ^ {2} - \left(\frac {\sqrt {3}}{3} R\right) ^ {2} \right] ^ {\frac {1}{2}} \\ & = \frac {2}{3} \sqrt {6} R \approx 1.633 R \end{array}
 $$
 
 中心到顶点的距离： $\mathrm{OA} = \frac{3}{4}\mathrm{AM} = \frac{\sqrt{6}}{2} R\approx 1.225R$
@@ -736,7 +736,7 @@ $$
 中心到两顶点连线的夹角为： $\theta = \angle AOB$
 
 $$
-\begin{array}{r l} \theta & = \arccos \left[ \frac {\mathrm{OA} ^ {2} + \mathrm{OB} ^ {2} - \mathrm{AB} ^ {2}}{2 (\mathrm{OA}) (\mathrm{OB})} \right] = \arccos \left[ \frac {2 (\sqrt {6} R / 2) ^ {2} - (2 R) ^ {2}}{2 (\sqrt {6} R / 2) ^ {2}} \right] \\ & = \arccos (- 1 / 3) = 1 0 9. 4 7 ^ {\circ} \end{array}
+\begin{array}{r l} \theta & = \arccos \left[ \frac {\mathrm{OA} ^ {2} + \mathrm{OB} ^ {2} - \mathrm{AB} ^ {2}}{2 (\mathrm{OA}) (\mathrm{OB})} \right] = \arccos \left[ \frac {2 (\sqrt {6} R / 2) ^ {2} - (2 R) ^ {2}}{2 (\sqrt {6} R / 2) ^ {2}} \right] \\ & = \arccos (- 1 / 3) = 109.47 ^ {\circ} \end{array}
 $$
 
 中心到球面的最短距离 $= \mathrm{OA} - R\approx 0.225R$
@@ -764,7 +764,7 @@ $$
 而八面体空隙中心到球面的最短距离为
 
 $$
-\mathrm{OC} - R = \sqrt {2} R - R \approx 0. 4 1 4 R
+\mathrm{OC} - R = \sqrt {2} R - R \approx 0.414 R
 $$
 
 此即半径为 R 的等径圆球最密堆积形成的正八面体空隙所能容纳的小球的最大半径。0.414 是典型的二元离子晶体中正离子的配位多面体为正八面体时 $r_{+}/r_{-}$ 的下限值。
@@ -777,13 +777,13 @@ $$
 解 由图 8.3 可见,三角形空隙中心到顶点(球心)的距离为
 
 $$
-\mathrm{OA} = \frac {2}{3} \mathrm{AD} = \frac {2}{3} \sqrt {3} R \approx 1. 1 5 5 R
+\mathrm{OA} = \frac {2}{3} \mathrm{AD} = \frac {2}{3} \sqrt {3} R \approx 1.155 R
 $$
 
 三角形空隙中心到球面的距离为
 
 $$
-\mathrm{OA} - R \approx 1. 1 5 5 R - R = 0. 1 5 5 R
+\mathrm{OA} - R \approx 1.155 R - R = 0.155 R
 $$
 
 此即半径为 R 的圆球作紧密堆积形成的三角形空隙所能容纳的小球的
@@ -799,7 +799,7 @@ $$
 两个正八面体空隙。由图可见，两个正四面体空隙共用一个顶点，正四面体高的两倍即晶胞参数 $c$ ，而正四面体的棱长即为晶胞参数 $a$ 或 $b$ 。根据8.1题的结果，可得
 
 $$
-\begin{array}{r l} & a = b = 2 R \\ & c = \frac {2}{3} \sqrt {6} R \times 2 = \frac {4}{3} \sqrt {6} R \\ & c / a = \frac {2}{3} \sqrt {6} \approx 1. 6 3 3 \end{array}
+\begin{array}{r l} & a = b = 2 R \\ & c = \frac {2}{3} \sqrt {6} R \times 2 = \frac {4}{3} \sqrt {6} R \\ & c / a = \frac {2}{3} \sqrt {6} \approx 1.633 \end{array}
 $$
 
 ![](结构化学基础（第5版）习题解析周公度z-library.sk,1lib.sk,z-lib.sk_151-266_images/6bb7bd81a436c43b247ab52b23d29f23e18cd763fc318824189125f8894fc71b.jpg)  
@@ -841,7 +841,7 @@ $$
 为 2R。所以二维堆积系数为
 
 $$
-\frac {\pi R ^ {2}}{(2 R) ^ {2} \sin 6 0 ^ {\circ}} = \frac {\pi R ^ {2}}{4 R ^ {2} (\sqrt {3} / 2)} = 0. 9 0 6
+\frac {\pi R ^ {2}}{(2 R) ^ {2} \sin 60 ^ {\circ}} = \frac {\pi R ^ {2}}{4 R ^ {2} (\sqrt {3} / 2)} = 0.906
 $$
 
 【8.7】指出 A1 型和 A3 型等径圆球密堆积晶胞中密置层的方向各是什么。
@@ -910,19 +910,19 @@ A3型密堆积可划分出如图8.7(b)所示的六方晶胞。球A和球B所在�
 (111)面是密置面,面上的所有原子作紧密排列。该面上的铜原子的堆积系数等于三角形单位中球的总最大截面积除以三角形的面积。三角形单位中包含两个半径为 R 的球 $\left(3\times\frac{1}{2}+3\times\frac{1}{6}\right)$ ，所以该面上原子的堆积系数为
 
 $$
-\frac {2 \times \pi R ^ {2}}{2 R \times 2 \sqrt {3} R} = \frac {\pi}{2 \sqrt {3}} = 0. 9 0 6
+\frac {2 \times \pi R ^ {2}}{2 R \times 2 \sqrt {3} R} = \frac {\pi}{2 \sqrt {3}} = 0.906
 $$
 
 (110)面上原子的堆积系数可根据图中的矩形单位计算。此矩形单位中含两个半径为 R 的球 $\left(4\times\frac{1}{4}+2\times\frac{1}{2}\right)$ 。按照上述方法并注意到在矩形的长边（即晶胞的面对角线）上球是相互接触的，可计算(110)面上原子的堆积系数如下：
 
 $$
-\frac {2 \times \pi R ^ {2}}{a \times 4 R} = \frac {2 \times \pi R ^ {2}}{2 \sqrt {2} R \times 4 R} = \frac {\pi}{4 \sqrt {2}} = 0. 5 5 5
+\frac {2 \times \pi R ^ {2}}{a \times 4 R} = \frac {2 \times \pi R ^ {2}}{2 \sqrt {2} R \times 4 R} = \frac {\pi}{4 \sqrt {2}} = 0.555
 $$
 
 (100)面上原子的堆积系数可按同样的思路和方法根据图中的正方形单位计算如下：
 
 $$
-\frac {2 \pi R ^ {2}}{a ^ {2}} = \frac {2 \pi R ^ {2}}{(2 \sqrt {2} R) ^ {2}} = \frac {\pi}{4} = 0. 7 8 5
+\frac {2 \pi R ^ {2}}{a ^ {2}} = \frac {2 \pi R ^ {2}}{(2 \sqrt {2} R) ^ {2}} = \frac {\pi}{4} = 0.785
 $$
 
 由计算结果可见,3个面上原子的堆积系数的大小次序为:(111)>(100)>(110)。
@@ -932,13 +932,13 @@ $$
 解 因为金属铂属于 A1 型结构, 所以每个晶胞中有 4 个原子。因而其密度为
 
 $$
-D = \frac {4 M}{a ^ {3} N _ {\mathrm{A}}} = \frac {4 \times 1 9 5 . 1 \mathrm{gmol} ^ {- 1}}{(3 9 2 . 3 \times 1 0 ^ {- 1 0} \mathrm{cm}) ^ {3} \times 6 . 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1}} = 2 1. 4 5 \mathrm{gcm} ^ {- 3}
+D = \frac {4 M}{a ^ {3} N _ {\mathrm{A}}} = \frac {4 \times 195.1 \mathrm{gmol} ^ {- 1}}{(392.3 \times 10 ^ {- 10} \mathrm{cm}) ^ {3} \times 6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1}} = 21.45 \mathrm{gcm} ^ {- 3}
 $$
 
 A1型结构中原子在晶胞的面对角线方向上互相接触，因此晶胞参数 $a$ 和原子半径 $R$ 的关系为 $a = 2\sqrt{2} R$ ，所以
 
 $$
-R = \frac {a}{2 \sqrt {2}} = \frac {3 9 2 . 3 \mathrm{pm}}{2 \sqrt {2}} = 1 3 8. 7 \mathrm{pm}
+R = \frac {a}{2 \sqrt {2}} = \frac {392.3 \mathrm{pm}}{2 \sqrt {2}} = 138.7 \mathrm{pm}
 $$
 
 【8.12】硅的结构和金刚石相似，Si 的共价半径为 117 pm。求硅的晶胞参数、晶胞体积和晶体密度。
@@ -946,19 +946,19 @@ $$
 解 硅的立方晶胞中含 8 个硅原子, 它们的坐标参数与金刚石立方晶胞中碳原子的坐标参数相同。硅的共价半径和晶胞参数的关系可通过晶胞对角线的长度推导出来。设硅的共价半径为 $r_{\text{Si}}$ , 晶胞参数为 $a$ , 则根据硅原子的坐标参数可知, 体对角线的长度为 $8r_{\text{Si}}$ 。而体对角线的长度又等于 $\sqrt{3}a$ , 因而有 $8r_{\text{Si}} = \sqrt{3}a$ , 所以
 
 $$
-a = \frac {8}{\sqrt {3}} r _ {\mathrm{Si}} = \frac {8}{\sqrt {3}} \times 1 1 7 \mathrm{pm} = 5 4 0 \mathrm{pm}
+a = \frac {8}{\sqrt {3}} r _ {\mathrm{Si}} = \frac {8}{\sqrt {3}} \times 117 \mathrm{pm} = 540 \mathrm{pm}
 $$
 
 晶胞体积为
 
 $$
-V = a ^ {3} = \left(\frac {8}{\sqrt {3}} \times 1 1 7 \mathrm{pm}\right) ^ {3} = 1. 5 8 \times 1 0 ^ {8} \mathrm{pm} ^ {3}
+V = a ^ {3} = \left(\frac {8}{\sqrt {3}} \times 117 \mathrm{pm}\right) ^ {3} = 1.58 \times 10 ^ {8} \mathrm{pm} ^ {3}
 $$
 
 晶体密度为
 
 $$
-\begin{array}{r l} D & = \frac {8 \times 2 8 . 0 9 \mathrm{g} \mathrm{mol} ^ {- 1}}{\left(\frac {8}{\sqrt {3}} \times 1 1 7 \times 1 0 ^ {- 1 0} \mathrm{cm}\right) ^ {3} \times 6 . 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1}} \\ & = 2. 3 7 \mathrm{g} \mathrm{cm} ^ {- 3} \end{array}
+\begin{array}{r l} D & = \frac {8 \times 28.09 \mathrm{g} \mathrm{mol} ^ {- 1}}{\left(\frac {8}{\sqrt {3}} \times 117 \times 10 ^ {- 10} \mathrm{cm}\right) ^ {3} \times 6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1}} \\ & = 2.37 \mathrm{g} \mathrm{cm} ^ {- 3} \end{array}
 $$
 
 金刚石、硅和灰锡等单质的结构属立方金刚石型(A4型)，这是一种空旷的结构型式，原子的空间占有率只有34.01%。
@@ -968,13 +968,13 @@ $$
 解 晶胞参数为
 
 $$
-\begin{array}{l} a = b = 2 R = 2 \times 1 4 4. 8 \mathrm{pm} = 2 8 9. 6 \mathrm{pm} \\ c = \frac {4}{3} \sqrt {6} R = \frac {4}{3} \sqrt {6} \times 1 4 4. 8 \mathrm{pm} = 4 7 3 \mathrm{pm} \end{array}
+\begin{array}{l} a = b = 2 R = 2 \times 144.8 \mathrm{pm} = 289.6 \mathrm{pm} \\ c = \frac {4}{3} \sqrt {6} R = \frac {4}{3} \sqrt {6} \times 144.8 \mathrm{pm} = 473 \mathrm{pm} \end{array}
 $$
 
 晶体密度为
 
 $$
-\begin{array}{r l} D & = \frac {2 M}{a b c \sin 1 2 0 ^ {\circ} \times N _ {\mathrm{A}}} \\ & = \frac {2 \times 4 7 . 8 7 \mathrm{gmol} ^ {- 1}}{(2 8 9 . 6 \times 1 0 ^ {- 1 0} \mathrm{cm}) ^ {2} \times (4 7 3 \times 1 0 ^ {- 1 0} \mathrm{cm}) \times \frac {\sqrt {3}}{2} \times 6 . 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1}} \\ & = 4. 6 3 \mathrm{gcm} ^ {- 3} \end{array}
+\begin{array}{r l} D & = \frac {2 M}{a b c \sin 120 ^ {\circ} \times N _ {\mathrm{A}}} \\ & = \frac {2 \times 47.87 \mathrm{gmol} ^ {- 1}}{(289.6 \times 10 ^ {- 10} \mathrm{cm}) ^ {2} \times (473 \times 10 ^ {- 10} \mathrm{cm}) \times \frac {\sqrt {3}}{2} \times 6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1}} \\ & = 4.63 \mathrm{gcm} ^ {- 3} \end{array}
 $$
 
 【8.14】铝为面心立方结构,密度为 $2.70 \, g cm^{-3}$ 。试计算它的晶胞参数和原子半径;用 Cu Kα 射线摄取衍射图,333 衍射线的衍射角是多少?
@@ -982,13 +982,13 @@ $$
 解 铝为面心立方结构, 因而一个晶胞中有 4 个原子。由此可得铝的摩尔质量 M、晶胞参数 a、晶体密度 D 及 Avogadro 常数 $N_{A}$ 之间的关系为: $D=4M/a^{3}N_{A}$ , 所以, 晶胞参数:
 
 $$
-\begin{array}{r l} a & = \left(\frac {4 M}{D N _ {\mathrm{A}}}\right) ^ {\frac {1}{3}} = \left(\frac {4 \times 2 6 . 9 8 \mathrm{g} \mathrm{mol} ^ {- 1}}{2 . 7 0 \mathrm{g} \mathrm{cm} ^ {- 3} \times 6 . 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1}}\right) ^ {\frac {1}{3}} \\ & = 4 0 4. 9 \mathrm{pm} \end{array}
+\begin{array}{r l} a & = \left(\frac {4 M}{D N _ {\mathrm{A}}}\right) ^ {\frac {1}{3}} = \left(\frac {4 \times 26.98 \mathrm{g} \mathrm{mol} ^ {- 1}}{2.70 \mathrm{g} \mathrm{cm} ^ {- 3} \times 6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1}}\right) ^ {\frac {1}{3}} \\ & = 404.9 \mathrm{pm} \end{array}
 $$
 
 面心立方结构中晶胞参数 a 与原子半径 R 的关系为 $a=2\sqrt{2}R$ ，因此，铝的原子半径为
 
 $$
-R = \frac {a}{2 \sqrt {2}} = \frac {4 0 4 . 9 \mathrm{pm}}{2 \sqrt {2}} = 1 4 3. 2 \mathrm{pm}
+R = \frac {a}{2 \sqrt {2}} = \frac {404.9 \mathrm{pm}}{2 \sqrt {2}} = 143.2 \mathrm{pm}
 $$
 
 根据Bragg方程得
@@ -1000,11 +1000,11 @@ $$
 将立方晶系面间距 $d_{hkl}$ 、晶胞参数 a 和衍射指标 hkl 间的关系式代入，得
 
 $$
-\sin \theta = \frac {\lambda \sqrt {h ^ {2} + k ^ {2} + l ^ {2}}}{2 a} = \frac {1 5 4 . 2 \mathrm{pm} \times (3 ^ {2} + 3 ^ {2} + 3 ^ {2}) ^ {\frac {1}{2}}}{2 \times 4 0 4 . 9 \mathrm{pm}} = 0. 9 8 9 4
+\sin \theta = \frac {\lambda \sqrt {h ^ {2} + k ^ {2} + l ^ {2}}}{2 a} = \frac {154.2 \mathrm{pm} \times (3 ^ {2} + 3 ^ {2} + 3 ^ {2}) ^ {\frac {1}{2}}}{2 \times 404.9 \mathrm{pm}} = 0.9894
 $$
 
 $$
-\theta = 8 1. 7 ^ {\circ}
+\theta = 81.7 ^ {\circ}
 $$
 
 【8.15】金属钠为体心立方结构， $a = 429\mathrm{pm}$ 。请计算：
@@ -1026,23 +1026,23 @@ $$
 代入数据,得
 
 $$
-r = \frac {\sqrt {3}}{4} \times 4 2 9 \mathrm{pm} = 1 8 5. 8 \mathrm{pm}
+r = \frac {\sqrt {3}}{4} \times 429 \mathrm{pm} = 185.8 \mathrm{pm}
 $$
 
 (2) 每个晶胞中含两个钠原子, 因此, 金属钠的理论密度为
 
 $$
-\begin{array}{r l} D = & \frac {2 M}{a ^ {3} N _ {\mathrm{A}}} = \frac {2 \times 2 2 . 9 9 \mathrm{g} \mathrm{mol} ^ {- 1}}{(4 2 9 \times 1 0 ^ {- 1 0} \mathrm{cm}) ^ {3} \times 6 . 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1}} \\ = & 0. 9 6 7 \mathrm{g} \mathrm{cm} ^ {- 3} \end{array}
+\begin{array}{r l} D = & \frac {2 M}{a ^ {3} N _ {\mathrm{A}}} = \frac {2 \times 22.99 \mathrm{g} \mathrm{mol} ^ {- 1}}{(429 \times 10 ^ {- 10} \mathrm{cm}) ^ {3} \times 6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1}} \\ = & 0.967 \mathrm{g} \mathrm{cm} ^ {- 3} \end{array}
 $$
 
 其摩尔体积为
 
 $$
-V _ {\mathrm{m}} = \frac {M}{D} = \frac {2 2 . 9 9 \mathrm{g} \mathrm{mol} ^ {- 1}}{0 . 9 6 7 \mathrm{g} \mathrm{cm} ^ {- 3}} = 2 3. 8 \mathrm{cm} ^ {3} \mathrm{mol} ^ {- 1}
+V _ {\mathrm{m}} = \frac {M}{D} = \frac {22.99 \mathrm{g} \mathrm{mol} ^ {- 1}}{0.967 \mathrm{g} \mathrm{cm} ^ {- 3}} = 23.8 \mathrm{cm} ^ {3} \mathrm{mol} ^ {- 1}
 $$
 
 $$
-d _ {(1 1 0)} = \frac {a}{(1 ^ {2} + 1 ^ {2} + 0 ^ {2}) ^ {1 / 2}} = \frac {4 2 9 \mathrm{pm}}{\sqrt {2}} = 3 0 3. 4 \mathrm{pm}
+d _ {(110)} = \frac {a}{(1 ^ {2} + 1 ^ {2} + 0 ^ {2}) ^ {1 / 2}} = \frac {429 \mathrm{pm}}{\sqrt {2}} = 303.4 \mathrm{pm}
 $$
 
 【8.16】金属钽为体心立方结构，a=330 pm。试求：
@@ -1058,19 +1058,19 @@ $$
 (1) 金属钽的理论密度为
 
 $$
-\begin{array}{r l} D & = \frac {2 M}{a ^ {3} N _ {\mathrm{A}}} = \frac {2 \times 1 8 1 \mathrm{g} \mathrm{mol} ^ {- 1}}{(3 3 0 \times 1 0 ^ {- 1 0} \mathrm{cm}) ^ {3} \times 6 . 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1}} \\ & = 1 6. 7 \mathrm{g} \mathrm{cm} ^ {- 3} \end{array}
+\begin{array}{r l} D & = \frac {2 M}{a ^ {3} N _ {\mathrm{A}}} = \frac {2 \times 181 \mathrm{g} \mathrm{mol} ^ {- 1}}{(330 \times 10 ^ {- 10} \mathrm{cm}) ^ {3} \times 6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1}} \\ & = 16.7 \mathrm{g} \mathrm{cm} ^ {- 3} \end{array}
 $$
 
 (2) (110) 点阵面的间距为
 
 $$
-d _ {(1 1 0)} = \frac {a}{\sqrt {1 ^ {2} + 1 ^ {2} + 0 ^ {2}}} = \frac {3 3 0 \mathrm{pm}}{\sqrt {2}} = 2 3 3 \mathrm{pm}
+d _ {(110)} = \frac {a}{\sqrt {1 ^ {2} + 1 ^ {2} + 0 ^ {2}}} = \frac {330 \mathrm{pm}}{\sqrt {2}} = 233 \mathrm{pm}
 $$
 
 (3) 根据 Bragg 方程得
 
 $$
-\begin{array}{r l} \sin \theta_ {2 2 0} & = \frac {\lambda}{2 d _ {2 2 0}} = \frac {\lambda}{2 \times \frac {1}{2} d _ {(1 1 0)}} = \frac {\lambda}{d _ {(1 1 0)}} = \frac {1 5 4 \mathrm{pm}}{3 3 0 \mathrm{pm} / \sqrt {2}} \\ & = 0. 6 5 9 8 \\ \theta_ {2 2 0} & = 4 1. 3 ^ {\circ} \end{array}
+\begin{array}{r l} \sin \theta_ {220} & = \frac {\lambda}{2 d _ {220}} = \frac {\lambda}{2 \times \frac {1}{2} d _ {(110)}} = \frac {\lambda}{d _ {(110)}} = \frac {154 \mathrm{pm}}{330 \mathrm{pm} / \sqrt {2}} \\ & = 0.6598 \\ \theta_ {220} & = 41.3 ^ {\circ} \end{array}
 $$
 
 【8.17】金属镁属 A3 型结构, 镁的原子半径为 160 pm。
@@ -1098,13 +1098,13 @@ $$
 (3) 一个晶胞的体积为 $abc \sin 120^\circ$ ，而 $1\mathrm{mol}$ 晶体相当于 $N_{\mathrm{A}} / 2$ 个晶胞，故镁晶体的摩尔体积为
 
 $$
-\begin{array}{r l} \frac {N _ {\mathrm{A}}}{2} a b c \sin 1 2 0 ^ {\circ} & = \frac {N _ {\mathrm{A}}}{2} \times 2 R \times 2 R \times \frac {4}{3} \sqrt {6} R \times \frac {\sqrt {3}}{2} = 4 \sqrt {2} N _ {\mathrm{A}} R ^ {3} \\ & = 4 \sqrt {2} \times 6. 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1} \times (1 6 0 \times 1 0 ^ {- 1 0} \mathrm{cm}) ^ {3} \\ & = 1 3. 9 5 \mathrm{cm} ^ {3} \mathrm{mol} ^ {- 1} \end{array}
+\begin{array}{r l} \frac {N _ {\mathrm{A}}}{2} a b c \sin 120 ^ {\circ} & = \frac {N _ {\mathrm{A}}}{2} \times 2 R \times 2 R \times \frac {4}{3} \sqrt {6} R \times \frac {\sqrt {3}}{2} = 4 \sqrt {2} N _ {\mathrm{A}} R ^ {3} \\ & = 4 \sqrt {2} \times 6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1} \times (160 \times 10 ^ {- 10} \mathrm{cm}) ^ {3} \\ & = 13.95 \mathrm{cm} ^ {3} \mathrm{mol} ^ {- 1} \end{array}
 $$
 
 也可按下述思路进行计算： $1\mathrm{mol}$ 镁原子的真实体积为 $\frac{4}{3}\pi R^3 N_{\mathrm{A}}$ ，而在镁晶体中原子的堆积系数为0.7405，故镁晶体的摩尔体积为
 
 $$
-\begin{array}{r l} \frac {4}{3} \pi R ^ {3} N _ {\mathrm{A}} / 0. 7 4 0 5 & = \frac {4}{3} \pi (1 6 0 \mathrm{pm}) ^ {3} \times 6. 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1} / 0. 7 4 0 5 \\ & = 1 3. 9 5 \mathrm{cm} ^ {3} \mathrm{mol} ^ {- 1} \end{array}
+\begin{array}{r l} \frac {4}{3} \pi R ^ {3} N _ {\mathrm{A}} / 0.7405 & = \frac {4}{3} \pi (160 \mathrm{pm}) ^ {3} \times 6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1} / 0.7405 \\ & = 13.95 \mathrm{cm} ^ {3} \mathrm{mol} ^ {- 1} \end{array}
 $$
 
 (2)
@@ -1112,7 +1112,7 @@ $$
 (4) $d_{002}=\frac{1}{2}d_{001}$ ，对于A3型结构， $d_{001}=c$ ，故镁晶体002衍射面的面间距为
 
 $$
-\begin{array}{r l} d _ {0 0 2} & = \frac {1}{2} d _ {0 0 1} = \frac {1}{2} c = \frac {1}{2} \times \frac {4}{3} \sqrt {6} R = \frac {2}{3} \sqrt {6} \times 1 6 0 \mathrm{pm} \\ & = 2 6 1. 3 \mathrm{pm} \end{array}
+\begin{array}{r l} d _ {002} & = \frac {1}{2} d _ {001} = \frac {1}{2} c = \frac {1}{2} \times \frac {4}{3} \sqrt {6} R = \frac {2}{3} \sqrt {6} \times 160 \mathrm{pm} \\ & = 261.3 \mathrm{pm} \end{array}
 $$
 
 用六方晶系的面间距公式计算,所得结果相同。
@@ -1122,13 +1122,13 @@ $$
 解 对于点阵型式属于面心立方的晶体,可能出现的衍射指标的平方和 $(h^{2}+k^{2}+l^{2})$ 为3,4,8,11,12,16,19,20,24等。但在本题给定的实验条件下:
 
 $$
-\begin{array}{r l} \sin \theta & = \frac {\lambda}{2 a} \sqrt {h ^ {2} + k ^ {2} + l ^ {2}} = \frac {2 2 9 . 1 \mathrm{pm}}{2 \times 3 5 2 . 4 \mathrm{pm}} \sqrt {h ^ {2} + k ^ {2} + l ^ {2}} \\ & = 0. 3 2 5 1 \sqrt {h ^ {2} + k ^ {2} + l ^ {2}} \end{array}
+\begin{array}{r l} \sin \theta & = \frac {\lambda}{2 a} \sqrt {h ^ {2} + k ^ {2} + l ^ {2}} = \frac {229.1 \mathrm{pm}}{2 \times 352.4 \mathrm{pm}} \sqrt {h ^ {2} + k ^ {2} + l ^ {2}} \\ & = 0.3251 \sqrt {h ^ {2} + k ^ {2} + l ^ {2}} \end{array}
 $$
 
 当 $h^2 + k^2 + l^2 \geqslant 11$ 时， $\sin \theta > 1$ ，这是不允许的。因此， $h^2 + k^2 + l^2$ 只能为3,4和8，即只能出现111,200和220衍射。相应的衍射角为
 
 $$
-\begin{array}{r l} & \theta_ {1 1 1} = \arcsin \theta_ {1 1 1} = \arcsin (0. 3 2 5 1 \sqrt {3}) = 3 4. 2 6 ^ {\circ} \\ & \theta_ {2 0 0} = \arcsin \theta_ {2 0 0} = \arcsin (0. 3 2 5 1 \sqrt {4}) = 4 0. 5 5 ^ {\circ} \\ & \theta_ {2 2 0} = \arcsin \theta_ {2 2 0} = \arcsin (0. 3 2 5 1 \sqrt {8}) = 6 6. 8 2 ^ {\circ} \end{array}
+\begin{array}{r l} & \theta_ {111} = \arcsin \theta_ {111} = \arcsin (0.3251 \sqrt {3}) = 34.26 ^ {\circ} \\ & \theta_ {200} = \arcsin \theta_ {200} = \arcsin (0.3251 \sqrt {4}) = 40.55 ^ {\circ} \\ & \theta_ {220} = \arcsin \theta_ {220} = \arcsin (0.3251 \sqrt {8}) = 66.82 ^ {\circ} \end{array}
 $$
 
 【8.19】已知金属 Ni 为 A1 型结构, 原子间接触距离为 249.2 pm。试计算:
@@ -1142,13 +1142,13 @@ $$
 （1）由于金属 Ni 为 A1 型结构，因而原子在立方晶胞的面对角线方向上互相接触。由此可求得晶胞参数：
 
 $$
-a = \sqrt {2} \times 2 4 9. 2 \mathrm{pm} = 3 5 2. 4 \mathrm{pm}
+a = \sqrt {2} \times 249.2 \mathrm{pm} = 352.4 \mathrm{pm}
 $$
 
 晶胞中有 4 个 Ni 原子, 因而晶体密度为
 
 $$
-\begin{array}{r l} D = & \frac {4 M}{a ^ {3} N _ {\mathrm{A}}} = \frac {4 \times 5 8 . 6 9 \mathrm{g} \mathrm{mol} ^ {- 1}}{(3 5 2 . 4 \times 1 0 ^ {- 1 0} \mathrm{cm}) ^ {3} \times 6 . 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1}} \\ = & 8. 9 1 \mathrm{g} \mathrm{cm} ^ {- 3} \end{array}
+\begin{array}{r l} D = & \frac {4 M}{a ^ {3} N _ {\mathrm{A}}} = \frac {4 \times 58.69 \mathrm{g} \mathrm{mol} ^ {- 1}}{(352.4 \times 10 ^ {- 10} \mathrm{cm}) ^ {3} \times 6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1}} \\ = & 8.91 \mathrm{g} \mathrm{cm} ^ {- 3} \end{array}
 $$
 
 ![](结构化学基础（第5版）习题解析周公度z-library.sk,1lib.sk,z-lib.sk_151-266_images/80ef4bc15411a477d82cd2ce8971e8f820893e180aa11f9638575731480a519d.jpg)  
@@ -1165,13 +1165,13 @@ $$
 解 金属锂的立方晶胞参数为
 
 $$
-a = d _ {(1 0 0)} = 3 5 0 \mathrm{pm}
+a = d _ {(100)} = 350 \mathrm{pm}
 $$
 
 设每个晶胞中的锂原子数为 $Z$ ，则
 
 $$
-Z = \frac {0 . 5 3 \mathrm{gcm} ^ {- 3} \times (3 5 0 \times 1 0 ^ {- 1 0} \mathrm{cm}) ^ {3}}{6 . 9 4 1 \mathrm{gmol} ^ {- 1} \times (6 . 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1}) ^ {- 1}} = 1. 9 7 \approx 2
+Z = \frac {0.53 \mathrm{gcm} ^ {- 3} \times (350 \times 10 ^ {- 10} \mathrm{cm}) ^ {3}}{6.941 \mathrm{gmol} ^ {- 1} \times (6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1}) ^ {- 1}} = 1.97 \approx 2
 $$
 
 立方晶系晶体的点阵型式有简单立方、体心立方和面心立方3种，而对立方晶系的金属晶体（除Po外），可能的点阵型式只有面心立方和体心立方两种。若为前者，则一个晶胞中应至少有4个原子。由此可知，金属锂晶体属于体心立方点阵。
@@ -1199,13 +1199,13 @@ $$
 (2) 灰锡的原子半径为
 
 $$
-r _ {\mathrm{Sn(灰)}} = \frac {\sqrt {3}}{8} a = \frac {\sqrt {3}}{8} \times 6 4 8. 9 \mathrm{pm} = 1 4 0. 5 \mathrm{pm}
+r _ {\mathrm{Sn(灰)}} = \frac {\sqrt {3}}{8} a = \frac {\sqrt {3}}{8} \times 648.9 \mathrm{pm} = 140.5 \mathrm{pm}
 $$
 
 （3）设锡的摩尔质量为 M，灰锡的密度为 $D_{\mathrm{Sn(灰)}}$ ，晶胞中的原子数为 Z，则
 
 $$
-\begin{array}{r l} M & = \frac {D _ {\mathrm{Sn(灰)}} a ^ {3} N _ {\mathrm{A}}}{Z} = \frac {5 . 7 5 \mathrm{gcm} ^ {- 3} \times (6 4 8 . 9 \times 1 0 ^ {- 1 0} \mathrm{cm}) ^ {3} \times 6 . 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1}}{8} \\ & = 1 1 8. 3 \mathrm{gmol} ^ {- 1} \end{array}
+\begin{array}{r l} M & = \frac {D _ {\mathrm{Sn(灰)}} a ^ {3} N _ {\mathrm{A}}}{Z} = \frac {5.75 \mathrm{gcm} ^ {- 3} \times (648.9 \times 10 ^ {- 10} \mathrm{cm}) ^ {3} \times 6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1}}{8} \\ & = 118.3 \mathrm{gmol} ^ {- 1} \end{array}
 $$
 
 即锡的相对原子质量为 118.3，和元素周期表所列数值 118.7 相近。
@@ -1213,7 +1213,7 @@ $$
 (4) 由题意, 白锡的密度为
 
 $$
-\begin{array}{r l} D _ {\mathrm{Sn(白)}} & = \frac {4 M}{a ^ {2} c N _ {\mathrm{A}}} = \frac {4 \times 1 1 8 . 7 \mathrm{gmol} ^ {- 1}}{(5 8 3 . 2 \times 1 0 ^ {- 1 0} \mathrm{cm}) ^ {2} \times (3 1 8 . 1 \times 1 0 ^ {- 1 0} \mathrm{cm}) \times 6 . 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1}} \\ & = 7. 2 8 \mathrm{gcm} ^ {- 3} \end{array}
+\begin{array}{r l} D _ {\mathrm{Sn(白)}} & = \frac {4 M}{a ^ {2} c N _ {\mathrm{A}}} = \frac {4 \times 118.7 \mathrm{gmol} ^ {- 1}}{(583.2 \times 10 ^ {- 10} \mathrm{cm}) ^ {2} \times (318.1 \times 10 ^ {- 10} \mathrm{cm}) \times 6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1}} \\ & = 7.28 \mathrm{gcm} ^ {- 3} \end{array}
 $$
 
 可见，由白锡转变为灰锡，密度减小，即体积膨胀了。
@@ -1221,7 +1221,7 @@ $$
 (5) 灰锡中 Sn---Sn 间最短距离为
 
 $$
-2 r _ {\mathrm{Sn(灰)}} = 2 \times 1 4 0. 5 \mathrm{pm} = 2 8 1. 0 \mathrm{pm}
+2 r _ {\mathrm{Sn(灰)}} = 2 \times 140.5 \mathrm{pm} = 281.0 \mathrm{pm}
 $$
 
 小于白锡中 Sn---Sn 间最短距离,由此可推断,白锡中原子的配位数高。
@@ -1241,13 +1241,13 @@ $$
 （1）设合金中 Cu 的原子分数（即摩尔分数）为 x，则 Zn 的原子分数（即摩尔分数）为 1 - x，由题意知
 
 $$
-6 3. 5 x: 6 5. 4 (1 - x) = 0. 7 5: 0. 2 5
+63.5 x: 65.4 (1 - x) = 0.75: 0.25
 $$
 
 解之，得
 
 $$
-x = 0. 7 5 5, \quad 1 - x = 0. 2 4 5
+x = 0.755, \quad 1 - x = 0.245
 $$
 
 所以,该黄铜合金中,Cu 和 Zn 的摩尔分数分别为 75.5% 和 24.5%。
@@ -1255,25 +1255,25 @@ $$
 (2) 每个晶胞中含合金的质量为
 
 $$
-\begin{array}{r l} & \frac {(0 . 7 5 \times 6 3 . 5 \mathrm{gmol} ^ {- 1} + 0 . 2 5 \times 6 5 . 4 \mathrm{gmol} ^ {- 1}) \times 4}{6 . 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1}} \\ & = 4. 2 5 \times 1 0 ^ {- 2 2} \mathrm{g} \end{array}
+\begin{array}{r l} & \frac {(0.75 \times 63.5 \mathrm{gmol} ^ {- 1} + 0.25 \times 65.4 \mathrm{gmol} ^ {- 1}) \times 4}{6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1}} \\ & = 4.25 \times 10 ^ {- 22} \mathrm{g} \end{array}
 $$
 
 (3) 晶胞的体积等于晶胞中所含合金的质量除以合金的密度, 即
 
 $$
-V = \frac {4 . 2 5 \times 1 0 ^ {- 2 2} \mathrm{g}}{8 . 5 \mathrm{gcm} ^ {- 3}} = 5. 0 \times 1 0 ^ {- 2 3} \mathrm{cm} ^ {3}
+V = \frac {4.25 \times 10 ^ {- 22} \mathrm{g}}{8.5 \mathrm{gcm} ^ {- 3}} = 5.0 \times 10 ^ {- 23} \mathrm{cm} ^ {3}
 $$
 
 (4) 由晶胞的体积可求出晶胞参数:
 
 $$
-a = V ^ {\frac {1}{3}} = (5. 0 \times 1 0 ^ {- 2 3} \mathrm{cm} ^ {3}) ^ {\frac {1}{3}} = 3 6 8 \mathrm{pm}
+a = V ^ {\frac {1}{3}} = (5.0 \times 10 ^ {- 23} \mathrm{cm} ^ {3}) ^ {\frac {1}{3}} = 368 \mathrm{pm}
 $$
 
 由于该合金属立方面心点阵结构,因而统计原子在晶胞面对角线方向上相互接触,由此可推得统计原子半径为
 
 $$
-r = \frac {a}{2 \sqrt {2}} = \frac {3 6 8 \mathrm{pm}}{2 \sqrt {2}} = 1 3 0 \mathrm{pm}
+r = \frac {a}{2 \sqrt {2}} = \frac {368 \mathrm{pm}}{2 \sqrt {2}} = 130 \mathrm{pm}
 $$
 
 【评注】8.10～8.22题都涉及金属或合金晶体的密度、晶胞参数、原子半径、每个晶胞中的原子数等物理量或结构参数的计算。由解题过程可见，这些计算都是围绕着晶胞进行的。而关键问题有两个：一个是晶胞中的原子数是多少，另一个是晶胞参数和原子半径的关系是什么。搞清楚这两个关键问题，加上正确使用Bragg方程和面间距公式及Avogadro常数，即可较容易地计算出上述各种物理参数。而搞清这两个关键问题必须从了解晶体的结构型式出发。8.8题就A1,A2和A3型晶体的许多结构问题进行了归纳和比较，其中包括两个关键问题。对于A4型结构中的这两个关键问题，读者可以8.21题为例加以了解并掌握。
@@ -1308,7 +1308,7 @@ $$
 （3）无序结构的点阵型式既为面心立方，它的最小衍射指标应为111，因此最小衍射角为
 
 $$
-\begin{array}{r l} \theta_ {1 1 1} & = \arcsin \theta_ {1 1 1} = \arcsin \left[ \frac {\lambda}{2 a} (1 ^ {2} + 1 ^ {2} + 1 ^ {2}) ^ {\frac {1}{2}} \right] \\ & = \arcsin \left(\frac {1 5 4 \mathrm{pm} \times \sqrt {3}}{2 \times 3 8 5 \mathrm{pm}}\right) = \arcsin 0. 3 4 6 4 \\ & = 2 0. 3 ^ {\circ} \end{array}
+\begin{array}{r l} \theta_ {111} & = \arcsin \theta_ {111} = \arcsin \left[ \frac {\lambda}{2 a} (1 ^ {2} + 1 ^ {2} + 1 ^ {2}) ^ {\frac {1}{2}} \right] \\ & = \arcsin \left(\frac {154 \mathrm{pm} \times \sqrt {3}}{2 \times 385 \mathrm{pm}}\right) = \arcsin 0.3464 \\ & = 20.3 ^ {\circ} \end{array}
 $$
 
 ![](结构化学基础（第5版）习题解析周公度z-library.sk,1lib.sk,z-lib.sk_151-266_images/dcbda929a1feb540c217b266fd8e0570b1da2c7229175d9e1079b2c5eef53baf.jpg)  
@@ -1323,7 +1323,7 @@ $$
 根据 Bragg 方程, 最小衍射角对应于最大衍射面间距, 即对应于最小衍射指标平方和。最小衍射指标平方和为 1。因此, 符合条件的衍射可能为 100,010 和 001。但有序结构的点阵型式为简单四方, c > a, 因此符合条件的衍射只有 001。最小衍射角 $\theta_{001}$ 可按下式计算:
 
 $$
-\begin{array}{r l} \sin \theta_ {0 0 1} & = \lambda / 2 d _ {0 0 1} = \lambda / 2 c = 1 5 4 \mathrm{pm} / 2 \times 3 8 5 \mathrm{pm} \\ & = 0. 2 0 0 \\ \theta_ {0 0 1} & = 1 1. 5 ^ {\circ} \end{array}
+\begin{array}{r l} \sin \theta_ {001} & = \lambda / 2 d _ {001} = \lambda / 2 c = 154 \mathrm{pm} / 2 \times 385 \mathrm{pm} \\ & = 0.200 \\ \theta_ {001} & = 11.5 ^ {\circ} \end{array}
 $$
 
 【8.24】 $\alpha$ -Fe 和 $\gamma$ -Fe 分别属于体心立方堆积 (bcp) 和面心立方堆积 (ccp) 两种晶型。前者的原子半径为 $124.1 \mathrm{pm}$ ，后者的原子半径为 $127.94 \mathrm{pm}$ 。
@@ -1354,17 +1354,17 @@ $$
 (b) 最小角度的衍射指标为 110。
 
 $$
-d _ {1 1 0} = a / \sqrt {1 ^ {2} + 1 ^ {2}} = a / \sqrt {2}
+d _ {110} = a / \sqrt {1 ^ {2} + 1 ^ {2}} = a / \sqrt {2}
 $$
 
 半径为 r 的原子进行体心密堆积, $a=4r/\sqrt{3}$ 。
 
 $$
-a = 4 \times 1 2 4. 1 \mathrm{pm} / \sqrt {3} = 2 8 6. 6 \mathrm{pm}
+a = 4 \times 124.1 \mathrm{pm} / \sqrt {3} = 286.6 \mathrm{pm}
 $$
 
 $$
-d _ {1 1 0} = 2 8 6. 6 \mathrm{pm} / \sqrt {2} = 2 0 2. 7 \mathrm{pm}
+d _ {110} = 286.6 \mathrm{pm} / \sqrt {2} = 202.7 \mathrm{pm}
 $$
 
 (c) 晶胞中两种位置上 Fe 原子的坐标为 0,0,0; $\frac{1}{2}$ , $\frac{1}{2}$ , $\frac{1}{2}$ 。
@@ -1382,13 +1382,13 @@ $$
 (c) 密置层的二维堆积密度为
 
 $$
-\frac {\mathrm{原子所占面积}}{\mathrm{六方素晶胞的面积}} = \frac {\pi r ^ {2}}{(2 r) ^ {2} \sin 6 0 ^ {\circ}} = 0. 9 0 6
+\frac {\mathrm{原子所占面积}}{\mathrm{六方素晶胞的面积}} = \frac {\pi r ^ {2}}{(2 r) ^ {2} \sin 60 ^ {\circ}} = 0.906
 $$
 
 (d) 若面心立方堆积以下标 F 表示, 体心立方堆积以下标 I 表示, 则
 
 $$
-\frac {D _ {\mathrm{F}}}{D _ {\mathrm{I}}} = \frac {4 M / N _ {\mathrm{A}} V _ {\mathrm{F}}}{2 M / N _ {\mathrm{A}} V _ {\mathrm{I}}} = \frac {2 V _ {\mathrm{I}}}{V _ {\mathrm{F}}} = \frac {2 a _ {\mathrm{I}} ^ {3}}{a _ {\mathrm{F}} ^ {3}} = \frac {2 (2 8 6 . 6 \mathrm{pm}) ^ {3}}{(4 r / \sqrt {2}) ^ {3}} = \frac {2 (2 8 6 . 6 \mathrm{pm}) ^ {3}}{(3 6 1 . 9 \mathrm{pm}) ^ {3}} = 0. 9 9 3
+\frac {D _ {\mathrm{F}}}{D _ {\mathrm{I}}} = \frac {4 M / N _ {\mathrm{A}} V _ {\mathrm{F}}}{2 M / N _ {\mathrm{A}} V _ {\mathrm{I}}} = \frac {2 V _ {\mathrm{I}}}{V _ {\mathrm{F}}} = \frac {2 a _ {\mathrm{I}} ^ {3}}{a _ {\mathrm{F}} ^ {3}} = \frac {2 (286.6 \mathrm{pm}) ^ {3}}{(4 r / \sqrt {2}) ^ {3}} = \frac {2 (286.6 \mathrm{pm}) ^ {3}}{(361.9 \mathrm{pm}) ^ {3}} = 0.993
 $$
 
 【8.25】某新型超导晶体由镁、镍和碳3种元素组成，镁原子和镍原子一起作立方最密堆积，形成有序结构（即无统计原子）。结构中有两种八面体空隙，一种完全由镍原子构成，另一种由镍原子和镁原子共同构成，两种八面体的数量比为1:3，碳原子只填充在由镍原子构成的八面体空隙中。
@@ -1539,29 +1539,29 @@ Pauling 规则是定性规则。键价方法则把离子电价进行定量计算
 (1) 利用下面公式计算点阵能 U:
 
 $$
-U = \frac {A N _ {\mathrm{A}} Z _ {+} Z _ {-} e ^ {2}}{r _ {\mathrm{e}} (4 \pi \varepsilon_ {0})} \Big (1 - \frac {\rho}{r _ {\mathrm{e}}} \Big) \qquad (\rho = 0. 3 1 \times 1 0 ^ {- 1 0} \mathrm{m})
+U = \frac {A N _ {\mathrm{A}} Z _ {+} Z _ {-} e ^ {2}}{r _ {\mathrm{e}} (4 \pi \varepsilon_ {0})} \Big (1 - \frac {\rho}{r _ {\mathrm{e}}} \Big) \qquad (\rho = 0.31 \times 10 ^ {- 10} \mathrm{m})
 $$
 
 (2) O 原子的第二电子亲和能 $Y_{2}$ (即 $O^{-} + e^{-} \longrightarrow O^{2-}$ 的能量) 不能直接在气相中测定, 试利用下列数据及(1)中得到的点阵能数据, 按 Born-Haber 循环求算:
 
 $$
-\begin{array}{l l} \mathrm {O^ {-} (g)} \longrightarrow \mathrm {O(g)+ e^ {-}} & 1 4 1. 8 \mathrm {kJ mo l ^ {- 1}} \\ \mathrm {O_ {2} (g)} \longrightarrow 2 \mathrm {O(g)} & 4 9 8. 4 \mathrm {kJ mo l ^ {- 1}} \\ \mathrm {Mg(s)} \longrightarrow \mathrm {Mg(g)} & 1 4 6. 4 \mathrm {kJ mo l ^ {- 1}} \\ \mathrm {Mg(g)} \longrightarrow \mathrm {Mg^ {+} (g)+ e^ {-}} & 7 3 7. 7 \mathrm {kJ mo l ^ {- 1}} \\ \mathrm {Mg^ {+} (g)} \longrightarrow \mathrm {Mg^ {2 + } (g)+ e^ {-}} & 1 4 5 0. 6 \mathrm {kJ mo l ^ {- 1}} \\ \mathrm {Mg(s) + \frac {1}{2} O_ {2} \longrightarrow MgO(s)} & - 6 0 1. 2 \mathrm {kJ mo l ^ {- 1}} \end{array}
+\begin{array}{l l} \mathrm {O^ {-} (g)} \longrightarrow \mathrm {O(g)+ e^ {-}} & 141.8 \mathrm {kJ mo l ^ {- 1}} \\ \mathrm {O_ {2} (g)} \longrightarrow 2 \mathrm {O(g)} & 498.4 \mathrm {kJ mo l ^ {- 1}} \\ \mathrm {Mg(s)} \longrightarrow \mathrm {Mg(g)} & 146.4 \mathrm {kJ mo l ^ {- 1}} \\ \mathrm {Mg(g)} \longrightarrow \mathrm {Mg^ {+} (g)+ e^ {-}} & 737.7 \mathrm {kJ mo l ^ {- 1}} \\ \mathrm {Mg^ {+} (g)} \longrightarrow \mathrm {Mg^ {2 + } (g)+ e^ {-}} & 1450.6 \mathrm {kJ mo l ^ {- 1}} \\ \mathrm {Mg(s) + \frac {1}{2} O_ {2} \longrightarrow MgO(s)} & - 601.2 \mathrm {kJ mo l ^ {- 1}} \end{array}
 $$
 
 解
 
 $$
-\begin{array}{r l} U & = \frac {A N _ {\mathrm{A}} Z _ {+} Z _ {-} e ^ {2}}{4 \pi \varepsilon_ {0} r _ {\mathrm{e}}} \left(1 - \frac {\rho}{r _ {\mathrm{e}}}\right) \\ & = \frac {1 . 7 4 7 6 \times 6 . 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1} \times 2 \times (- 2) \times (- 1 . 6 0 2 \times 1 0 ^ {- 1 9} \mathrm{C}) ^ {2}}{4 \times 3 . 1 4 \times 8 . 8 5 4 \times 1 0 ^ {- 1 2} \mathrm{C} ^ {2} \mathrm{J} ^ {- 1} \mathrm{m} ^ {- 1} \times 2 1 0 \times 1 0 ^ {- 1 2} \mathrm{m}}. \\ & \left(1 - \frac {0 . 3 1 \times 1 0 ^ {- 1 0} \mathrm{m}}{2 1 0 \times 1 0 ^ {- 1 2} \mathrm{m}}\right) \\ & = - 3 9 4 3 \mathrm{kJ} \mathrm{mol} ^ {- 1} \end{array} \tag {1}
+\begin{array}{r l} U & = \frac {A N _ {\mathrm{A}} Z _ {+} Z _ {-} e ^ {2}}{4 \pi \varepsilon_ {0} r _ {\mathrm{e}}} \left(1 - \frac {\rho}{r _ {\mathrm{e}}}\right) \\ & = \frac {1.7476 \times 6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1} \times 2 \times (- 2) \times (- 1.602 \times 10 ^ {- 19} \mathrm{C}) ^ {2}}{4 \times 3.14 \times 8.854 \times 10 ^ {- 12} \mathrm{C} ^ {2} \mathrm{J} ^ {- 1} \mathrm{m} ^ {- 1} \times 210 \times 10 ^ {- 12} \mathrm{m}}. \\ & \left(1 - \frac {0.31 \times 10 ^ {- 10} \mathrm{m}}{210 \times 10 ^ {- 12} \mathrm{m}}\right) \\ & = - 3943 \mathrm{kJ} \mathrm{mol} ^ {- 1} \end{array} \tag {1}
 $$
 
 (2) 为便于书写, 在下列 Born-Haber 循环中略去了各物理量的单位——kJ mol $^{-1}$ 。
 
 $$
-\begin{array}{r l} - 6 0 1. 2 \mathrm {kJ mol^ {- 1}} & = (1 4 6. 4 + 7 3 7. 7 + 1 4 5 0. 6 + 2 4 9. 2 \\ & - 1 4 1. 8 - 3 9 4 3) \mathrm {kJ mol^ {- 1}} + Y _ {2} \\ & Y _ {2} = 8 9 9. 7 \mathrm {kJ mol^ {- 1}} \end{array}
+\begin{array}{r l} - 601.2 \mathrm {kJ mol^ {- 1}} & = (146.4 + 737.7 + 1450.6 + 249.2 \\ & - 141.8 - 3943) \mathrm {kJ mol^ {- 1}} + Y _ {2} \\ & Y _ {2} = 899.7 \mathrm {kJ mol^ {- 1}} \end{array}
 $$
 
 $$
-\begin{array}{c} \mathrm {Mg(s)+ \frac {1}{2} O_ {2} (g)} \xrightarrow {- 6 0 1 . 2} \mathrm{MgO(s)} \\ \downarrow \\ 1 4 6. 4 \quad \downarrow \\ \mathrm{Mg(g)} \quad \mathrm{O(g)} \\ \downarrow \\ 7 3 7. 7 \quad \downarrow \\ \mathrm {M g ^ {+} (g)} \quad \mathrm {O ^ {-} (g)} \\ \downarrow \\ 1 4 5 0. 6 \quad \downarrow \\ \mathrm {M g ^ {2 + } (g)+ O ^ {2 - } (g)} \end{array}
+\begin{array}{c} \mathrm {Mg(s)+ \frac {1}{2} O_ {2} (g)} \xrightarrow {- 601.2} \mathrm{MgO(s)} \\ \downarrow \\ 146.4 \quad \downarrow \\ \mathrm{Mg(g)} \quad \mathrm{O(g)} \\ \downarrow \\ 737.7 \quad \downarrow \\ \mathrm {M g ^ {+} (g)} \quad \mathrm {O ^ {-} (g)} \\ \downarrow \\ 1450.6 \quad \downarrow \\ \mathrm {M g ^ {2 + } (g)+ O ^ {2 - } (g)} \end{array}
 $$
 
 【9.2】写出下列 NaCl 型晶体点阵能大小的次序及依据的原理：CaO，NaBr，SrO，ScN，KBr，BaO。
@@ -1634,13 +1634,13 @@ $$
 $$
 
 $$
-\begin{array}{r l} r _ {\mathrm {NH_ {4} ^ {+}}} & = \frac {1}{2} \sqrt {3} a - r _ {\mathrm {C l^ {-}}} = \frac {1}{2} \sqrt {3} \times 3 8 7 \mathrm{pm} - 1 8 1 \mathrm{pm} \\ & = 1 5 4 \mathrm{pm} \end{array}
+\begin{array}{r l} r _ {\mathrm {NH_ {4} ^ {+}}} & = \frac {1}{2} \sqrt {3} a - r _ {\mathrm {C l^ {-}}} = \frac {1}{2} \sqrt {3} \times 387 \mathrm{pm} - 181 \mathrm{pm} \\ & = 154 \mathrm{pm} \end{array}
 $$
 
 (3) 晶体的密度为
 
 $$
-\begin{array}{r l} D = \frac {Z M}{a ^ {3} N _ {\mathrm{A}}} & = \frac {5 3 . 4 9 \mathrm{g} \mathrm{mol} ^ {- 1}}{(3 8 7 \times 1 0 ^ {- 1 0} \mathrm{cm}) ^ {3} \times 6 . 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1}} \\ & = 1. 5 3 \mathrm{g} \mathrm{cm} ^ {- 3} \end{array}
+\begin{array}{r l} D = \frac {Z M}{a ^ {3} N _ {\mathrm{A}}} & = \frac {53.49 \mathrm{g} \mathrm{mol} ^ {- 1}}{(387 \times 10 ^ {- 10} \mathrm{cm}) ^ {3} \times 6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1}} \\ & = 1.53 \mathrm{g} \mathrm{cm} ^ {- 3} \end{array}
 $$
 
 (4) (110) 点阵面的面间距为
@@ -1648,13 +1648,13 @@ $$
 (5)
 
 $$
-\begin{array}{r l} d _ {(1 1 0)} & = a (h ^ {2} + k ^ {2} + l ^ {2}) ^ {- \frac {1}{2}} = 3 8 7 \mathrm{pm} \times (1 ^ {2} + 1 ^ {2} + 0 ^ {2}) ^ {- \frac {1}{2}} \\ & = 2 7 4 \mathrm{pm} \\ \sin \theta & = \frac {\lambda}{2 d _ {h k l}} = \frac {\lambda}{2 a} \sqrt {h ^ {2} + k ^ {2} + l ^ {2}} \end{array}
+\begin{array}{r l} d _ {(110)} & = a (h ^ {2} + k ^ {2} + l ^ {2}) ^ {- \frac {1}{2}} = 387 \mathrm{pm} \times (1 ^ {2} + 1 ^ {2} + 0 ^ {2}) ^ {- \frac {1}{2}} \\ & = 274 \mathrm{pm} \\ \sin \theta & = \frac {\lambda}{2 d _ {h k l}} = \frac {\lambda}{2 a} \sqrt {h ^ {2} + k ^ {2} + l ^ {2}} \end{array}
 $$
 
 代入已知数据,得
 
 $$
-\begin{array}{r l} \sin \theta_ {3 3 0} & = \frac {1 5 4 . 2 \mathrm{pm}}{2 \times 3 8 7 \mathrm{pm}} \sqrt {3 ^ {2} + 3 ^ {2} + 0 ^ {2}} = 0. 8 4 5 \\ \theta_ {3 3 0} & = 5 7. 7 ^ {\circ} \end{array}
+\begin{array}{r l} \sin \theta_ {330} & = \frac {154.2 \mathrm{pm}}{2 \times 387 \mathrm{pm}} \sqrt {3 ^ {2} + 3 ^ {2} + 0 ^ {2}} = 0.845 \\ \theta_ {330} & = 57.7 ^ {\circ} \end{array}
 $$
 
 也可根据 $d_{hkl} = \frac{1}{n} d_{(hkl)}$ 直接由(4)中已算出的 $d_{(110)}$ 求出 $d_{330}$ （这里 $n = 3$ ），代入 $\sin \theta = \frac{\lambda}{2d_{330}}$ ，进而求出 $\theta_{330}$ 。
@@ -1674,7 +1674,7 @@ $$
 解 由于 NaH 具有 NaCl 型结构, 因而 $Na^{+}$ 的半径 $r_{Na^{+}}$ , $H^{-}$ 的半径 $r_{H^{-}}$ 及晶胞参数 a 有如下关系:
 
 $$
-\begin{array}{r l} & 2 (r _ {\mathrm{Na} ^ {+}} + r _ {\mathrm{H} ^ {-}}) = a \\ & r _ {\mathrm{H} ^ {-}} = \frac {1}{2} a - r _ {\mathrm{Na} ^ {+}} = \frac {1}{2} \times 4 8 8 \mathrm{pm} - 1 0 2 \mathrm{pm} = 1 4 2 \mathrm{pm} \end{array}
+\begin{array}{r l} & 2 (r _ {\mathrm{Na} ^ {+}} + r _ {\mathrm{H} ^ {-}}) = a \\ & r _ {\mathrm{H} ^ {-}} = \frac {1}{2} a - r _ {\mathrm{Na} ^ {+}} = \frac {1}{2} \times 488 \mathrm{pm} - 102 \mathrm{pm} = 142 \mathrm{pm} \end{array}
 $$
 
 NaH 水解生成 $H_{2}$ 和 NaOH，说明 $H^{-}$ 接受质子的能力比 $OH^{-}$ 强，即 NaH 的碱性比 NaOH 的碱性还强。
@@ -1720,13 +1720,13 @@ NaH 水解生成 $H_{2}$ 和 NaOH，说明 $H^{-}$ 接受质子的能力比 $OH^
 (5) 在晶胞的棱上, $Ti^{4+}$ 和 $O^{2-}$ 互相接触, 因而
 
 $$
-r _ {\mathrm{Ti} ^ {4 +}} = \frac {1}{2} a - r _ {\mathrm{O} ^ {2 -}} = \frac {1}{2} \times 4 0 3. 1 \mathrm{pm} - 1 4 0 \mathrm{pm} = 6 1. 6 \mathrm{pm}
+r _ {\mathrm{Ti} ^ {4 +}} = \frac {1}{2} a - r _ {\mathrm{O} ^ {2 -}} = \frac {1}{2} \times 403.1 \mathrm{pm} - 140 \mathrm{pm} = 61.6 \mathrm{pm}
 $$
 
 $\mathrm{Ba}^{2+}$ 和 $\mathrm{O}^{2-}$ 在高度为 $\frac{1}{2} a$ 且平行于立方晶胞的面对角线方向上互相接触，因而 $\mathrm{Ba}^{2+}$ 的半径为
 
 $$
-\begin{array}{r l} r _ {\mathrm{Ba} ^ {2 +}} & = \frac {1}{2} \sqrt {2} a - r _ {\mathrm{O} ^ {2 -}} = \frac {1}{2} \sqrt {2} \times 4 0 3. 1 \mathrm{pm} - 1 4 0 \mathrm{pm} \\ & = 1 4 5 \mathrm{pm} \end{array}
+\begin{array}{r l} r _ {\mathrm{Ba} ^ {2 +}} & = \frac {1}{2} \sqrt {2} a - r _ {\mathrm{O} ^ {2 -}} = \frac {1}{2} \sqrt {2} \times 403.1 \mathrm{pm} - 140 \mathrm{pm} \\ & = 145 \mathrm{pm} \end{array}
 $$
 
 (6) Ti—O 键的静电键强度为 $\frac{4}{6} = \frac{2}{3}$ ，Ba—O 键的静电键强度为 $\frac{2}{12} = \frac{1}{6}$ 。 $O^{2-}$ 周围全部静电键强度之和为 $\frac{2}{3} \times 2 + \frac{1}{6} \times 4 = 2$ ，等于 $O^{2-}$ 的电价（绝对值）。所以， $BaTiO_{3}$ 晶体符合电价规则。晶体不存在分离的配离子基团。
@@ -1769,7 +1769,7 @@ $$
 (5) 由(1)中的晶胞图可见, Si—C 键键长为
 
 $$
-\left(1 - \frac {5}{8}\right) c = \frac {3}{8} \times 5 0 5 \mathrm{pm} = 1 8 9 \mathrm{pm}
+\left(1 - \frac {5}{8}\right) c = \frac {3}{8} \times 505 \mathrm{pm} = 189 \mathrm{pm}
 $$
 
 【评注】本题在计算 Si—C 键长时利用了 Si 原子和 C 原子的特殊坐标参数, 计算起来简单方便。对于原子无特殊坐标参数的情况, 要按求晶胞中两原子间距离的公式计算。在计算时, 必须确认两原子是键连原子还是非键连原子。
@@ -1862,13 +1862,13 @@ A 型分子筛的最大窗口是八元环,由 8 个硅(铝)氧四面体构成。
 图9.13
 
 $$
-\begin{array}{r l} \mathrm {AB = 2(r_ {\mathrm{Si} ^ {4 + }} + r_ {\mathrm{O} ^ {2 - }})\sin \frac {109.5^{\circ}}{2} = 2(26pm + 138pm)sin54.75^{\circ}} \\ & = 2 6 7. 9 \mathrm{pm} \\ \mathrm {BC = AB\times\sin \frac {180^{\circ} - 109.5^{\circ}}{2} = 267.9pm\times\sin35.25^{\circ}} \\ & = 1 5 4. 6 \mathrm{pm} \\ \mathrm {CC^{\prime} = AA^{\prime} = 2AD = 2AB\sin(90^{\circ} - 35.25^{\circ})} \\ & = 2 \times 2 6 7. 9 \mathrm{pm} \times \sin 5 4. 7 5 ^ {\circ} \\ & = 4 3 7. 6 \mathrm{pm} \\ \mathrm {BB^{\prime} = 2BC + CC^{\prime} = 2\times154.6pm + 437.6pm} \\ & = 7 4 6. 8 \mathrm{pm} \end{array}
+\begin{array}{r l} \mathrm {AB = 2(r_ {\mathrm{Si} ^ {4 + }} + r_ {\mathrm{O} ^ {2 - }})\sin \frac {109.5^{\circ}}{2} = 2(26pm + 138pm)sin54.75^{\circ}} \\ & = 267.9 \mathrm{pm} \\ \mathrm {BC = AB\times\sin \frac {180^{\circ} - 109.5^{\circ}}{2} = 267.9pm\times\sin35.25^{\circ}} \\ & = 154.6 \mathrm{pm} \\ \mathrm {CC^{\prime} = AA^{\prime} = 2AD = 2AB\sin(90^{\circ} - 35.25^{\circ})} \\ & = 2 \times 267.9 \mathrm{pm} \times \sin 54.75 ^ {\circ} \\ & = 437.6 \mathrm{pm} \\ \mathrm {BB^{\prime} = 2BC + CC^{\prime} = 2\times154.6pm + 437.6pm} \\ & = 746.8 \mathrm{pm} \end{array}
 $$
 
 所以八元环的直径为
 
 $$
-\mathrm{BB} ^ {\prime} - 2 r _ {\mathrm{O} ^ {2 -}} = 7 4 6. 8 \mathrm{pm} - 2 \times 1 4 0 \mathrm{pm} \approx 4 6 7 \mathrm{pm}
+\mathrm{BB} ^ {\prime} - 2 r _ {\mathrm{O} ^ {2 -}} = 746.8 \mathrm{pm} - 2 \times 140 \mathrm{pm} \approx 467 \mathrm{pm}
 $$
 
 （3）如前所述，8个β笼通过立方体互相连接形成α笼。它是A型分子筛最大的空穴，平均有效直径为1140 pm，有效体积为 $4.4 \times 10^{-16} \, cm^{3}$ 。
@@ -1888,25 +1888,25 @@ $$
 解
 
 $$
-\begin{array}{r l} & (1) a = \frac {\lambda}{2 \sin \theta} \sqrt {h ^ {2} + k ^ {2} + l ^ {2}} = \frac {7 1 . 0 7 \mathrm{pm}}{2 \sin 9 . 5 6 ^ {\circ}} \sqrt {2 ^ {2} + 0 ^ {2} + 0 ^ {2}} \\ & \qquad = 4 2 7. 8 \mathrm{pm} \\ & (2) D = \frac {4 M}{a ^ {3} N _ {\mathrm{A}}} \\ & \qquad M = \frac {1}{4} a ^ {3} D N _ {\mathrm{A}} = \frac {1}{4} \times (4 2 7. 9 \times 1 0 ^ {- 1 0} \mathrm{cm}) ^ {3} \times 5. 7 1 \mathrm{gcm} ^ {- 3} \times 6. 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1} \\ & \qquad = 6 7. 3 5 \mathrm{gmol} ^ {- 1} \\ & \qquad M = 5 5. 8 5 \mathrm{gmol} ^ {- 1} \times x + 1 6. 0 0 \mathrm{gmol} ^ {- 1} = 6 7. 3 5 \mathrm{gmol} ^ {- 1} \\ & \qquad x = 0. 9 2 \end{array}
+\begin{array}{r l} & (1) a = \frac {\lambda}{2 \sin \theta} \sqrt {h ^ {2} + k ^ {2} + l ^ {2}} = \frac {71.07 \mathrm{pm}}{2 \sin 9.56 ^ {\circ}} \sqrt {2 ^ {2} + 0 ^ {2} + 0 ^ {2}} \\ & \qquad = 427.8 \mathrm{pm} \\ & (2) D = \frac {4 M}{a ^ {3} N _ {\mathrm{A}}} \\ & \qquad M = \frac {1}{4} a ^ {3} D N _ {\mathrm{A}} = \frac {1}{4} \times (427.9 \times 10 ^ {- 10} \mathrm{cm}) ^ {3} \times 5.71 \mathrm{gcm} ^ {- 3} \times 6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1} \\ & \qquad = 67.35 \mathrm{gmol} ^ {- 1} \\ & \qquad M = 55.85 \mathrm{gmol} ^ {- 1} \times x + 16.00 \mathrm{gmol} ^ {- 1} = 67.35 \mathrm{gmol} ^ {- 1} \\ & \qquad x = 0.92 \end{array}
 $$
 
 （3）设 0.92 mol 铁中 $Fe^{2+}$ 的摩尔数为 y，则 $Fe^{3+}$ 的摩尔数为 $(0.92-y)$ ，根据正负离子电荷平衡原则可得
 
 $$
-\begin{array}{r l} 2 y + 3 (0. 9 2 - y) & = 2 \\ y & = 0. 7 6 \\ 0. 9 2 - y & = 0. 1 6 \end{array}
+\begin{array}{r l} 2 y + 3 (0.92 - y) & = 2 \\ y & = 0.76 \\ 0.92 - y & = 0.16 \end{array}
 $$
 
 即 $Fe^{2+}$ 和 $Fe^{3+}$ 的摩尔数分别为 0.76 和 0.16，它们在总铁中的摩尔分数分别为
 
 $$
-\frac {0 . 7 6}{0 . 9 2} = 82.6 \% \quad \text{和} \quad \frac {0 . 1 6}{0 . 9 2} = 17.4
+\frac {0.76}{0.92} = 82.6 \% \quad \text{和} \quad \frac {0.16}{0.92} = 17.4
 $$
 
 (4) 富氏体氧化铁的化学式为
 
 $$
-\mathrm{Fe} _ {0. 7 6} ^ {\mathrm{II}} \mathrm{Fe} _ {0. 1 6} ^ {\mathrm{III}} \mathrm{O}
+\mathrm{Fe} _ {0.76} ^ {\mathrm{II}} \mathrm{Fe} _ {0.16} ^ {\mathrm{III}} \mathrm{O}
 $$
 
 【9.15】NiO 晶体为 NaCl 型结构, 将它在氧气中加热, 部分 $Ni^{2+}$ 被氧化为 $Ni^{3+}$ , 成为 $Ni_{x}O$ (x<1)。今有一批 $Ni_{x}O$ , 测得其密度为 $6.47\ g\ cm^{-3}$ , 用波长 $\lambda=154\ pm$ 的 X 射线通过粉末法测得立方晶胞 111 衍射指标的 $\theta=18.71^{\circ}(\sin\theta=0.3208, Ni$ 的相对原子质量为 58.70)。
@@ -1924,19 +1924,19 @@ $$
 (1) $Ni_{x}O$ 的立方晶胞参数为
 
 $$
-\begin{array}{r l} a & = \frac {\lambda}{2 \sin \theta} \sqrt {h ^ {2} + k ^ {2} + l ^ {2}} = \frac {1 5 4 \mathrm{pm}}{2 \sin 1 8 . 7 1 ^ {\circ}} \sqrt {1 ^ {2} + 1 ^ {2} + 1 ^ {2}} \\ & = \frac {1 5 4 \mathrm{pm}}{2 \times 0 . 3 2 0 8} \sqrt {3} = 4 1 6 \mathrm{pm} \end{array}
+\begin{array}{r l} a & = \frac {\lambda}{2 \sin \theta} \sqrt {h ^ {2} + k ^ {2} + l ^ {2}} = \frac {154 \mathrm{pm}}{2 \sin 18.71 ^ {\circ}} \sqrt {1 ^ {2} + 1 ^ {2} + 1 ^ {2}} \\ & = \frac {154 \mathrm{pm}}{2 \times 0.3208} \sqrt {3} = 416 \mathrm{pm} \end{array}
 $$
 
 (2) 因为 $Ni_{x}O$ 晶体为 NaCl 型结构, 可得摩尔质量 M:
 
 $$
-\begin{array}{r l} M & = \frac {1}{4} D a ^ {3} N _ {\mathrm{A}} \\ & = \frac {1}{4} \times 6. 4 7 \mathrm{gcm} ^ {- 3} \times (4 1 6 \times 1 0 ^ {- 1 0} \mathrm{cm}) ^ {3} \times 6. 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1} \\ & = 7 0. 1 \mathrm{gmol} ^ {- 1} \end{array}
+\begin{array}{r l} M & = \frac {1}{4} D a ^ {3} N _ {\mathrm{A}} \\ & = \frac {1}{4} \times 6.47 \mathrm{gcm} ^ {- 3} \times (416 \times 10 ^ {- 10} \mathrm{cm}) ^ {3} \times 6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1} \\ & = 70.1 \mathrm{gmol} ^ {- 1} \end{array}
 $$
 
 而 $\mathrm{Ni}_x\mathrm{O}$ 的摩尔质量又可表示为
 
 $$
-M = 5 8. 7 0 \mathrm{g} \mathrm{mol} ^ {- 1} \times x + 1 6. 0 0 \mathrm{g} \mathrm{mol} ^ {- 1} = 7 0. 1 \mathrm{g} \mathrm{mol} ^ {- 1}
+M = 58.70 \mathrm{g} \mathrm{mol} ^ {- 1} \times x + 16.00 \mathrm{g} \mathrm{mol} ^ {- 1} = 70.1 \mathrm{g} \mathrm{mol} ^ {- 1}
 $$
 
 由此解得：x=0.92。
@@ -1944,13 +1944,13 @@ $$
 设 0.92 mol 镍中有 y mol Ni $^{2+}$ ，则有 $(0.92-y)$ mol Ni $^{3+}$ 。根据正负离子电荷平衡原则，有
 
 $$
-\begin{array}{r l} 2 y + 3 (0. 9 2 - y) & = 2 \\ y & = 0. 7 6 \\ 0. 9 2 - y & = 0. 1 6 \end{array}
+\begin{array}{r l} 2 y + 3 (0.92 - y) & = 2 \\ y & = 0.76 \\ 0.92 - y & = 0.16 \end{array}
 $$
 
 所以该氧化镍晶体的化学式为
 
 $$
-\mathrm{Ni} _ {0. 7 6} ^ {\mathrm{II}} \mathrm{Ni} _ {0. 1 6} ^ {\mathrm{III}} \mathrm{O}
+\mathrm{Ni} _ {0.76} ^ {\mathrm{II}} \mathrm{Ni} _ {0.16} ^ {\mathrm{III}} \mathrm{O}
 $$
 
 (3) $Ni_{0.76}^{II}Ni_{0.16}^{III}O$ 晶体既为 NaCl 型结构，则 $O^{2-}$ 的堆积方式与 NaCl 晶体中 $Cl^{-}$ 的堆积方式相同，即为立方最密堆积。镍离子占据由 $O^{2-}$ 围成的八面体空隙。而镍离子的占有率为 92%。
@@ -1958,13 +1958,13 @@ $$
 (4) 镍离子分布在立方晶胞的体心和棱心上, Ni---Ni 间最短距离即体心上和任一棱心上 2 个镍离子间的距离, 等于
 
 $$
-\frac {1}{2} \sqrt {a ^ {2} + a ^ {2}} = \frac {\sqrt {2}}{2} a = \frac {\sqrt {2}}{2} \times 4 1 6 \mathrm{pm} = 2 9 4 \mathrm{pm}
+\frac {1}{2} \sqrt {a ^ {2} + a ^ {2}} = \frac {\sqrt {2}}{2} a = \frac {\sqrt {2}}{2} \times 416 \mathrm{pm} = 294 \mathrm{pm}
 $$
 
 Ni---Ni 间最短距离也等于处在交于同一顶点的 2 条棱中心上的 2 个镍离子间的距离, 即
 
 $$
-\sqrt {\left(\frac {a}{2}\right) ^ {2} + \left(\frac {a}{2}\right) ^ {2}} = \frac {a}{\sqrt {2}} = \frac {4 1 6 \mathrm{pm}}{\sqrt {2}} = 2 9 4 \mathrm{pm}
+\sqrt {\left(\frac {a}{2}\right) ^ {2} + \left(\frac {a}{2}\right) ^ {2}} = \frac {a}{\sqrt {2}} = \frac {416 \mathrm{pm}}{\sqrt {2}} = 294 \mathrm{pm}
 $$
 
 【9.16】从 NaCl 晶体结构出发,考虑下列问题:
@@ -2066,7 +2066,7 @@ O: $\frac{1}{4}$ , $\frac{1}{4}$ , $\frac{1}{4}$ ; $\frac{3}{4}$ , $\frac{3}{4}$
 (2) 首先, 由晶体结构参数求出 $C_{60}$ 分子的半径 R。由 hcp 结构的晶胞参数 a 求得
 
 $$
-R = \frac {1}{2} a = \frac {1}{2} \times 1 0 0 2 \mathrm{pm} = 5 0 1 \mathrm{pm}
+R = \frac {1}{2} a = \frac {1}{2} \times 1002 \mathrm{pm} = 501 \mathrm{pm}
 $$
 
 也可由 ccp 结构的晶胞参数求 R, 结果非常接近。
@@ -2074,13 +2074,13 @@ $$
 由 $C_{60}$ 分子堆积成的两种最密堆积结构中，四面体空隙和八面体空隙都是相同的。四面体空隙所能容纳的小球的最大半径为
 
 $$
-r _ {\mathrm{T}} = 0. 2 2 5 R = 0. 2 2 5 \times 5 0 1 \mathrm{pm} = 1 1 2. 7 \mathrm{pm}
+r _ {\mathrm{T}} = 0.225 R = 0.225 \times 501 \mathrm{pm} = 112.7 \mathrm{pm}
 $$
 
 八面体空隙所能容纳的小球的最大半径为
 
 $$
-r _ {0} = 0. 4 1 4 R = 0. 4 1 4 \times 5 0 1 \mathrm{pm} = 2 0 7. 4 \mathrm{pm}
+r _ {0} = 0.414 R = 0.414 \times 501 \mathrm{pm} = 207.4 \mathrm{pm}
 $$
 
 （3） $K_{3}C_{60}$ 可视为二元离子晶体，但题中并未给出 $K^{+}$ 的半径值，因此无法根据半径比判断 $K^{+}$ 所占多面体空隙的类型。可从结构中的一些简单数量关系推引出结论。
@@ -2108,7 +2108,7 @@ $$
 （4）依题意，可得该Y型分子筛晶体的密度 $D$ 、晶胞参数 $a$ 、“晶胞式量”（此处不妨视为晶体的摩尔质量) $M$ 以及Avogadro常数 $N_{\mathrm{A}}$ 之间的关系如下：
 
 $$
-\begin{array}{r l} M & = D a ^ {3} N _ {\mathrm{A}} \\ & = 1. 9 5 \mathrm{gcm} ^ {- 3} \times (2 4. 6 \times 1 0 ^ {- 8} \mathrm{cm}) ^ {3} \times 6. 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1} \\ & = 1 7 4 8 1. 6 \mathrm{gmol} ^ {- 1} \end{array}
+\begin{array}{r l} M & = D a ^ {3} N _ {\mathrm{A}} \\ & = 1.95 \mathrm{gcm} ^ {- 3} \times (24.6 \times 10 ^ {- 8} \mathrm{cm}) ^ {3} \times 6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1} \\ & = 17481.6 \mathrm{gmol} ^ {- 1} \end{array}
 $$
 
 去掉单位即“晶胞式量”，而“晶胞式量”又可表示为
@@ -2116,7 +2116,7 @@ $$
 所以
 
 $$
-\begin{array}{r l} M & = 2 8 (2 2. 9 9 \times 2 + 1 6. 0 0 + 2 6. 9 8 \times 2 + 1 6. 0 0 \times 3) \\ & \quad + 1 3 6 (2 8. 0 9 + 1 6. 0 0 \times 2) + 1 8. 0 2 x \\ & = 1 2 7 6 2. 6 + 1 8. 0 2 x \\ & \quad 1 7 4 8 1. 6 = 1 2 7 6 2. 6 + 1 8. 0 2 x \\ & \quad x = 2 6 2 \end{array}
+\begin{array}{r l} M & = 28 (22.99 \times 2 + 16.00 + 26.98 \times 2 + 16.00 \times 3) \\ & \quad + 136 (28.09 + 16.00 \times 2) + 18.02 x \\ & = 12762.6 + 18.02 x \\ & \quad 17481.6 = 12762.6 + 18.02 x \\ & \quad x = 262 \end{array}
 $$
 
 即该 Y 型分子筛的一个晶胞中含有 262 个结晶水。
@@ -2144,21 +2144,21 @@ $$
 (3) 晶胞参数 a 可用高角度的 3 条线计算、平均而得。
 
 $$
-4 4 0: a = \left[ \frac {(1 5 4 . 0 5 \mathrm{pm}) ^ {2} \times 3 2}{4 \times 0 . 6 9 5 7} \right] ^ {1 / 2} = 5 2 2. 3 9 \mathrm{pm}
+440: a = \left[ \frac {(154.05 \mathrm{pm}) ^ {2} \times 32}{4 \times 0.6957} \right] ^ {1 / 2} = 522.39 \mathrm{pm}
 $$
 
 $$
-4 2 2: a = \left[ \frac {(1 5 4 . 0 5 \mathrm{pm}) ^ {2} \times 2 4}{4 \times 0 . 5 2 1 9} \right] ^ {1 / 2} = 5 2 2. 3 3 \mathrm{pm}
+422: a = \left[ \frac {(154.05 \mathrm{pm}) ^ {2} \times 24}{4 \times 0.5219} \right] ^ {1 / 2} = 522.33 \mathrm{pm}
 $$
 
 $$
-4 2 0: a = \left[ \frac {(1 5 4 . 0 5 \mathrm{pm}) ^ {2} \times 2 0}{4 \times 0 . 4 3 4 7} \right] ^ {1 / 2} = 5 2 2. 4 6 \mathrm{pm}
+420: a = \left[ \frac {(154.05 \mathrm{pm}) ^ {2} \times 20}{4 \times 0.4347} \right] ^ {1 / 2} = 522.46 \mathrm{pm}
 $$
 
 即 a 的平均值为 522.4 pm。
 
 $$
-Z = \frac {N _ {\mathrm{A}} V D}{M} = \frac {6 . 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1} \times (5 2 2 . 4 \times 1 0 ^ {- 1 0} \mathrm{cm}) ^ {3} \times 4 . 0 5 0 \mathrm{gcm} ^ {- 3}}{(5 4 . 9 4 + 3 2 . 0 7) \mathrm{gmol} ^ {- 1}} = 4
+Z = \frac {N _ {\mathrm{A}} V D}{M} = \frac {6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1} \times (522.4 \times 10 ^ {- 10} \mathrm{cm}) ^ {3} \times 4.050 \mathrm{gcm} ^ {- 3}}{(54.94 + 32.07) \mathrm{gmol} ^ {- 1}} = 4
 $$
 
 即晶胞中含有 4 个 [MnS]。
@@ -2364,7 +2364,7 @@ $I_{1}$ 和 $I_{2}$ 分别为分子 1 和 2 的电离能。
 分子间的排斥力是短程力,当分子靠近时,排斥力明显。分子间相距较远时,吸引力明显。分子间相互作用势能可用 Lennard-Jones(林纳德-琼斯)的 6-12 次方关系式表达:
 
 $$
-E = \frac {A}{r ^ {1 2}} - \frac {B}{r ^ {6}}
+E = \frac {A}{r ^ {12}} - \frac {B}{r ^ {6}}
 $$
 
 根据这公式可看出,在 E-r 曲线中会出现能量的最低点,这时排斥和吸引达到平衡,相应这点的距离为平衡距离。相邻分子相互接触的原子间的距离为该两原子的范德华半径和。通过实验测定分子晶体的结构,可求得不同分子的原子间的接触距离,从而推引出原子的范德华半径。
@@ -2386,7 +2386,7 @@ $$
 分子的大小、形状可由分子内部原子间的键长、键角、扭角和原子的范德华半径求得。例如，单原子分子是圆球形分子，它的体积为 $\frac{4}{3}\pi R^3, R$ 为该原子的范德华半径。双原子分子的长度为2个原子的共价半径与范德华半径之和，最大直径为大原子的范德华半径的2倍。烷烃分子 $\mathrm{n - C_nH_{2n + 2}}$ 伸展时的C原子骨架呈共面的曲折长链，C—C—C角度为 $109^{\circ}28'$ ，C—C键长为 $154\mathrm{pm}$ ，两端— $\mathrm{CH}_3$ 基团的范德华半径为 $200\mathrm{pm}$ ，由此可算得分子的长度为
 
 $$
-\left[ 1 5 4 \sin \left(\frac {1 0 9 . 5 ^ {\circ}}{2}\right) (n - 1) + 2 \times 2 0 0 \right] \mathrm{pm} = [ 1 2 6 (n - 1) + 4 0 0 ] \mathrm{pm}
+\left[ 154 \sin \left(\frac {109.5 ^ {\circ}}{2}\right) (n - 1) + 2 \times 200 \right] \mathrm{pm} = [ 126 (n - 1) + 400 ] \mathrm{pm}
 $$
 
 圆柱分子直径约为 490 pm。
@@ -2484,7 +2484,7 @@ $$
 $$
 
 $$
-S = \exp \left[ \frac {1 6 2 . 4 \mathrm{pm} - 1 4 8 \mathrm{pm}}{3 7 \mathrm{pm}} \right] = 1. 4 8
+S = \exp \left[ \frac {162.4 \mathrm{pm} - 148 \mathrm{pm}}{37 \mathrm{pm}} \right] = 1.48
 $$
 
 S 原子的键价和为 $4 \times 1.48 = 5.92$ 。此值和 S 原子的氧化态 6 相近。
@@ -2492,7 +2492,7 @@ S 原子的键价和为 $4 \times 1.48 = 5.92$ 。此值和 S 原子的氧化态
 $BO_{3}^{3-}$ :
 
 $$
-S = \exp \left[ \frac {1 3 7 . 1 \mathrm{pm} - 1 3 6 . 6 \mathrm{pm}}{3 7 \mathrm{pm}} \right] = 1. 0 1
+S = \exp \left[ \frac {137.1 \mathrm{pm} - 136.6 \mathrm{pm}}{37 \mathrm{pm}} \right] = 1.01
 $$
 
 B 原子的键价和为 $3 \times 1.01 = 3.03$ 。此值和 B 原子的原子价 3 相近。
@@ -2502,7 +2502,7 @@ B 原子的键价和为 $3 \times 1.01 = 3.03$ 。此值和 B 原子的原子价
 解 $\mathrm{ClO}_2^-$ ：
 
 $$
-S = \exp \left[ \frac {1 7 1 \mathrm{pm} - 1 5 7 \mathrm{pm}}{3 7 \mathrm{pm}} \right] = 1. 4 6
+S = \exp \left[ \frac {171 \mathrm{pm} - 157 \mathrm{pm}}{37 \mathrm{pm}} \right] = 1.46
 $$
 
 $ClO_{2}^{-}$ 中 Cl 原子的键价和为 $2 \times 1.46 = 2.92$ ，和氧化态为 3 相近。
@@ -2510,7 +2510,7 @@ $ClO_{2}^{-}$ 中 Cl 原子的键价和为 $2 \times 1.46 = 2.92$ ，和氧化�
 $ClO_{3}^{-}$ :
 
 $$
-S = \exp \left[ \frac {1 6 7 \mathrm{pm} - 1 4 8 \mathrm{pm}}{3 7 \mathrm{pm}} \right] = 1. 6 7
+S = \exp \left[ \frac {167 \mathrm{pm} - 148 \mathrm{pm}}{37 \mathrm{pm}} \right] = 1.67
 $$
 
 $ClO_{3}^{-}$ 中 Cl 原子的键价和为 $3 \times 1.46 = 5.01$ ，和氧化态为 5 相近。
@@ -2518,7 +2518,7 @@ $ClO_{3}^{-}$ 中 Cl 原子的键价和为 $3 \times 1.46 = 5.01$ ，和氧化�
 $\mathrm{ClO}_{4}^{-}$
 
 $$
-S = \exp \left[ \frac {1 6 3 . 2 \mathrm{pm} - 1 4 2 . 5 \mathrm{pm}}{3 7 \mathrm{pm}} \right] = 1. 7 5
+S = \exp \left[ \frac {163.2 \mathrm{pm} - 142.5 \mathrm{pm}}{37 \mathrm{pm}} \right] = 1.75
 $$
 
 $ClO_{4}^{-}$ 中 Cl 原子的键价和为 $4 \times 1.75 = 7.0$ ，和氧化态为 7 相近。
@@ -2528,11 +2528,11 @@ $ClO_{4}^{-}$ 中 Cl 原子的键价和为 $4 \times 1.75 = 7.0$ ，和氧化态
 (1) $XeF_{2}$ (直线形): Xe—F 200 pm;
 
 $$
-\left[ \mathrm{Xe} _ {2} \mathrm{F} _ {3} \right] ^ {+} \left[ \mathrm{SbF} _ {6} \right] ^ {-}: \left(\underset {\mathrm{F}} {\underbrace {\mathrm{Xe}}} \underset {1 5 1 ^ {\circ}} {\underbrace {\mathrm{F} ^ {2 1 4 \mathrm{pm}}}} \underset {\mathrm{F}} {\underbrace {\mathrm{Xe} ^ {1 9 0 \mathrm{pm}}}}\right) ^ {+}; \tag {2}
+\left[ \mathrm{Xe} _ {2} \mathrm{F} _ {3} \right] ^ {+} \left[ \mathrm{SbF} _ {6} \right] ^ {-}: \left(\underset {\mathrm{F}} {\underbrace {\mathrm{Xe}}} \underset {151 ^ {\circ}} {\underbrace {\mathrm{F} ^ {214 \mathrm{pm}}}} \underset {\mathrm{F}} {\underbrace {\mathrm{Xe} ^ {190 \mathrm{pm}}}}\right) ^ {+}; \tag {2}
 $$
 
 $$
-\left[ \mathrm{NO} _ {2} \right] ^ {+} \left[ \mathrm{Xe} _ {2} \mathrm{F} _ {1 3} \right] ^ {-}: \left(\mathrm{F} _ {5} \mathrm{Xe} \left\langle\begin{array}{l l}\mathrm{F}&\\\mathrm{F}&2 5 5 \mathrm{pm}\end{array}\right.\right. \mathrm{XeF} _ {6}\left. \right) ^ {-}; \tag {3}
+\left[ \mathrm{NO} _ {2} \right] ^ {+} \left[ \mathrm{Xe} _ {2} \mathrm{F} _ {13} \right] ^ {-}: \left(\mathrm{F} _ {5} \mathrm{Xe} \left\langle\begin{array}{l l}\mathrm{F}&\\\mathrm{F}&255 \mathrm{pm}\end{array}\right.\right. \mathrm{XeF} _ {6}\left. \right) ^ {-}; \tag {3}
 $$
 
 (4) $\left[(2,6\text{-F}_2\text{C}_6\text{H}_3)\text{Xe}\right]^+\left[\text{BF}_4\right]^-$ : $\begin{array}{c}\text{H} \\|\\\text{C}-\text{C}\\|\\\text{C}-\text{C}\\|\\\text{H}-\text{C}\\\hline\text{C}-\text{C}\\|\\\text{H}\end{array}\text{C}-\text{Xe}^{\text{279 pm}}-\text{F}-\text{BF}_3;$
@@ -2542,27 +2542,27 @@ $$
 解
 
 $$
-\mathrm{(1)} \mathrm{Xe-F:} \quad S = \exp \left[ \frac {2 0 0 \mathrm{pm} - 2 0 0 \mathrm{pm}}{3 7 \mathrm{pm}} \right] = 1. 0 0
+\mathrm{(1)} \mathrm{Xe-F:} \quad S = \exp \left[ \frac {200 \mathrm{pm} - 200 \mathrm{pm}}{37 \mathrm{pm}} \right] = 1.00
 $$
 
 $$
-\mathrm{Xe-F:} \quad S = \exp \left[ \frac {2 0 0 \mathrm{pm} - 1 9 0 \mathrm{pm}}{3 7 \mathrm{pm}} \right] = 1. 3 1 \tag {2}
+\mathrm{Xe-F:} \quad S = \exp \left[ \frac {200 \mathrm{pm} - 190 \mathrm{pm}}{37 \mathrm{pm}} \right] = 1.31 \tag {2}
 $$
 
 $$
-\mathrm{Xe} - - \mathrm{F}: \quad S = \exp \left[ \frac {2 0 0 \mathrm{pm} - 2 1 4 \mathrm{pm}}{3 7 \mathrm{pm}} \right] = 0. 6 8
+\mathrm{Xe} - - \mathrm{F}: \quad S = \exp \left[ \frac {200 \mathrm{pm} - 214 \mathrm{pm}}{37 \mathrm{pm}} \right] = 0.68
 $$
 
 $$
-\mathrm{Xe} - - \mathrm{F}: \quad S = \exp \left[ \frac {1 8 9 \mathrm{pm} - 2 5 5 \mathrm{pm}}{3 7 \mathrm{pm}} \right] = 0. 1 7
+\mathrm{Xe} - - \mathrm{F}: \quad S = \exp \left[ \frac {189 \mathrm{pm} - 255 \mathrm{pm}}{37 \mathrm{pm}} \right] = 0.17
 $$
 
 $$
-\mathrm{Xe} - \mathrm{F}: \quad S = \exp \left[ \frac {2 0 0 \mathrm{pm} - 2 7 9 \mathrm{pm}}{3 7 \mathrm{pm}} \right] = 0. 1 2 \tag {4}
+\mathrm{Xe} - \mathrm{F}: \quad S = \exp \left[ \frac {200 \mathrm{pm} - 279 \mathrm{pm}}{37 \mathrm{pm}} \right] = 0.12 \tag {4}
 $$
 
 $$
-\mathrm{Xe-F:} \quad S = \exp \left[ \frac {1 9 3 \mathrm{pm} - 2 0 2 \mathrm{pm}}{3 7 \mathrm{pm}} \right] = 0. 7 8 \tag {5}
+\mathrm{Xe-F:} \quad S = \exp \left[ \frac {193 \mathrm{pm} - 202 \mathrm{pm}}{37 \mathrm{pm}} \right] = 0.78 \tag {5}
 $$
 
 Xe 和 F 的范德华半径和为 $216 \, pm + 147 \, pm = 363 \, pm$ 。上述化学键中成键两原子间的键距均短于范德华半径和。Xe 原子既可以和 F, O, C 等原子成共价键，也可形成次级键。
@@ -2574,11 +2574,11 @@ Xe 和 F 的范德华半径和为 $216 \, pm + 147 \, pm = 363 \, pm$ 。上述�
 解 CaO 中 $Ca^{2+}$ 是 +2 价离子， $Ca^{2+}$ 周围有 6 个距离相等的 $O^{2-}$ ，按键价和规则，每个键的键价 (S) 为 2/6 = 0.333。查表得 Ca—O 键的 $R_{0} = 196.7 \, pm$ ， $B = 37 \, pm$ ，代入得
 
 $$
-S = 0. 3 3 3 = \exp \left[ \frac {1 9 6 . 7 \mathrm{pm} - d}{3 7 \mathrm{pm}} \right]
+S = 0.333 = \exp \left[ \frac {196.7 \mathrm{pm} - d}{37 \mathrm{pm}} \right]
 $$
 
 $$
-\begin{array}{r l} \ln 0. 3 3 3 & = \frac {1 9 6 . 7 \mathrm{pm} - d}{3 7 \mathrm{pm}} = - 1. 1 0 \\ & d = 2 3 7. 4 \mathrm{pm} \end{array}
+\begin{array}{r l} \ln 0.333 & = \frac {196.7 \mathrm{pm} - d}{37 \mathrm{pm}} = - 1.10 \\ & d = 237.4 \mathrm{pm} \end{array}
 $$
 
 $Ca^{2+}$ 的离子半径为 237.4 pm-140 pm=97.4 pm。
@@ -2588,11 +2588,11 @@ $Ca^{2+}$ 的离子半径为 237.4 pm-140 pm=97.4 pm。
 解 查表得 $Ni^{2+}$ 和 $O^{2-}$ 结合时， $R_{0}$ 值为 167.0 pm。B 值为 37 pm，代入得
 
 $$
-S = 0. 3 3 3 = \exp \left[ \frac {1 6 7 . 0 \mathrm{pm} - d}{3 7 \mathrm{pm}} \right]
+S = 0.333 = \exp \left[ \frac {167.0 \mathrm{pm} - d}{37 \mathrm{pm}} \right]
 $$
 
 $$
-\ln 0. 3 3 3 = \frac {1 6 7 . 0 \mathrm{pm} - d}{3 7 \mathrm{pm}} = - 1. 1 0
+\ln 0.333 = \frac {167.0 \mathrm{pm} - d}{37 \mathrm{pm}} = - 1.10
 $$
 
 Ni—O 间键距 d=207.7 pm。
@@ -2612,25 +2612,25 @@ $Ni^{2+}$ 的离子半径为 207.7 pm-140.0 pm=67.7 pm。
 (2) $1\ m^{3}$ 水合物重918kg,其中 $CH_{4}$ 重
 
 $$
-\frac {1 2 8}{9 5 6} \times 9 1 8 \mathrm{kg} = 1 2 3 \mathrm{kg}
+\frac {128}{956} \times 918 \mathrm{kg} = 123 \mathrm{kg}
 $$
 
 物质的量为
 
 $$
-1 2 3 \times 1 0 ^ {3} \mathrm{g/16gmol} ^ {- 1} = 7. 6 9 \times 1 0 ^ {3} \mathrm{mol}
+123 \times 10 ^ {3} \mathrm{g/16gmol} ^ {- 1} = 7.69 \times 10 ^ {3} \mathrm{mol}
 $$
 
 标准状态下体积为
 
 $$
-7. 6 9 \times 1 0 ^ {3} \mathrm{mol} \times 2 2. 4 \times 1 0 ^ {- 3} \mathrm{m} ^ {3} \mathrm{mol} ^ {- 1} = 1 7 2 \mathrm{m} ^ {3}
+7.69 \times 10 ^ {3} \mathrm{mol} \times 22.4 \times 10 ^ {- 3} \mathrm{m} ^ {3} \mathrm{mol} ^ {- 1} = 172 \mathrm{m} ^ {3}
 $$
 
 (3) $1 \mathrm{~m}^{3}$ 水合物含淡水
 
 $$
-\frac {8 2 8}{9 5 6} \times 9 1 8 \mathrm{kg} = 7 9 5 \mathrm{kg}
+\frac {828}{956} \times 918 \mathrm{kg} = 795 \mathrm{kg}
 $$
 
 相当于 $0.8 \, m^{3}$ 。
@@ -2689,7 +2689,7 @@ R 型甘油酸的立体结构如图 10.12。
 解 查表得原子基团体积增量为：
 
 $$
-\mathrm{CH} _ {3} \quad 2 3. 5 \times 1 0 ^ {- 2 4} \mathrm{cm} ^ {3}, \mathrm{CH} _ {2} \quad 1 7. 1 \times 1 0 ^ {- 2 4} \mathrm{cm} ^ {3}, \mathrm{COOH} \quad 2 3. 1 \times 1 0 ^ {- 2 4} \mathrm{cm} ^ {3}
+\mathrm{CH} _ {3} \quad 23.5 \times 10 ^ {- 24} \mathrm{cm} ^ {3}, \mathrm{CH} _ {2} \quad 17.1 \times 10 ^ {- 24} \mathrm{cm} ^ {3}, \mathrm{COOH} \quad 23.1 \times 10 ^ {- 24} \mathrm{cm} ^ {3}
 $$
 
 <table><tr><td></td><td>乙酸</td><td>丙酸</td><td>丁酸</td><td>戊酸</td></tr><tr><td>化学式</td><td> $CH_3COOH$ </td><td> $CH_3CH_2COOH$ </td><td> $CH_3(CH_2)_2COOH$ </td><td> $CH_3(CH_2)_3COOH$ </td></tr><tr><td>摩尔质量/ $(g\ mol^{-1})$ </td><td>60</td><td>74</td><td>88</td><td>102</td></tr><tr><td>密度/ $(g\ cm^{-3})$ </td><td>1.049</td><td>0.993</td><td>0.959</td><td>0.939</td></tr><tr><td>摩尔体积/ $(cm^3\ mol^{-1})$ </td><td>57.2</td><td>74.5</td><td>91.8</td><td>108.6</td></tr><tr><td>基团体积增量和/ $(cm^3\ mol^{-1})$ </td><td>28.1</td><td>38.4</td><td>48.6</td><td>58.8</td></tr><tr><td>堆积系数</td><td>0.49</td><td>0.52</td><td>0.53</td><td>0.54</td></tr></table>
@@ -2779,11 +2779,11 @@ C 原子范德华半径 170 pm。
 解 根据 10.17 题所列数据, O 原子所占体积 $V_{O}$ 和 2 个 H 原子所占体积 $V_{H}$ 分别为
 
 $$
-\begin{array}{r l} V _ {0} & = \frac {4}{3} \pi (1 4 0 \mathrm{pm}) ^ {3} - 2 \pi (6 0 \mathrm{pm}) ^ {2} \left(1 4 0 \mathrm{pm} - \frac {6 0 \mathrm{pm}}{3}\right) \\ & = (1 1. 4 9 - 2. 7 1) \times 1 0 ^ {6} \mathrm{pm} ^ {3} \\ & = 8. 7 8 \times 1 0 ^ {- 2 4} \mathrm{cm} ^ {3} \end{array}
+\begin{array}{r l} V _ {0} & = \frac {4}{3} \pi (140 \mathrm{pm}) ^ {3} - 2 \pi (60 \mathrm{pm}) ^ {2} \left(140 \mathrm{pm} - \frac {60 \mathrm{pm}}{3}\right) \\ & = (11.49 - 2.71) \times 10 ^ {6} \mathrm{pm} ^ {3} \\ & = 8.78 \times 10 ^ {- 24} \mathrm{cm} ^ {3} \end{array}
 $$
 
 $$
-\begin{array}{r l} V _ {\mathrm{H}} & = 2 \left[ \frac {4}{3} \pi (1 2 0 \mathrm{pm}) ^ {3} - \pi (1 0 0 \mathrm{pm}) ^ {2} \left(1 2 0 \mathrm{pm} - \frac {1 0 0 \mathrm{pm}}{3}\right) \right] \\ & = 2 [ 7. 2 4 - 2. 7 3 ] \times 1 0 ^ {6} \mathrm{pm} ^ {3} \\ & = 9. 0 2 \times 1 0 ^ {- 2 4} \mathrm{cm} ^ {3} \end{array}
+\begin{array}{r l} V _ {\mathrm{H}} & = 2 \left[ \frac {4}{3} \pi (120 \mathrm{pm}) ^ {3} - \pi (100 \mathrm{pm}) ^ {2} \left(120 \mathrm{pm} - \frac {100 \mathrm{pm}}{3}\right) \right] \\ & = 2 [ 7.24 - 2.73 ] \times 10 ^ {6} \mathrm{pm} ^ {3} \\ & = 9.02 \times 10 ^ {- 24} \mathrm{cm} ^ {3} \end{array}
 $$
 
 一个 $\mathrm{H}_2\mathrm{O}$ 分子的体积为 $(8.78 + 9.02)\times 10^{-24}\mathrm{cm}^3 = 17.80\times 10^{-24}\mathrm{cm}^3$
@@ -2821,17 +2821,17 @@ $$
 （1）按上述结构式，共有11个C=C双键，每个“ $\sim$ ”按 $248\mathrm{pm}$ 计，最后一个双键向外延伸一个单键长，按 $152\mathrm{pm}$ 计，得
 
 $$
-l = 2 4 8 \mathrm{pm} \times 1 1 + 1 5 2 \mathrm{pm} = 2 8 8 0 \mathrm{pm} = 2. 8 8 \times 1 0 ^ {- 9} \mathrm{m}
+l = 248 \mathrm{pm} \times 11 + 152 \mathrm{pm} = 2880 \mathrm{pm} = 2.88 \times 10 ^ {- 9} \mathrm{m}
 $$
 
 (2) 能级表达式 $E_{n}=\frac{n^{2}h^{2}}{8ml^{2}}$
 
 $$
-\mathrm{LUMO:} E _ {1 2} = \frac {1 2 ^ {2} h ^ {2}}{8 m l ^ {2}}, \mathrm{HOMO:} E _ {1 1} = \frac {1 1 ^ {2} h ^ {2}}{8 m l ^ {2}}
+\mathrm{LUMO:} E _ {12} = \frac {12 ^ {2} h ^ {2}}{8 m l ^ {2}}, \mathrm{HOMO:} E _ {11} = \frac {11 ^ {2} h ^ {2}}{8 m l ^ {2}}
 $$
 
 $$
-\begin{array}{r l} \Delta E & = E _ {1 2} - E _ {1 1} \\ & = (1 2 ^ {2} - 1 1 ^ {2}) \frac {h ^ {2}}{8 m l ^ {2}} = (2 3) \frac {(6 . 6 2 6 \times 1 0 ^ {- 3 4} \mathrm{Js}) ^ {2}}{8 \times 9 . 1 1 0 \times 1 0 ^ {- 3 1} \mathrm{kg} (2 . 8 8 \times 1 0 ^ {- 9} \mathrm{m}) ^ {2}} \\ & = 1. 6 7 \times 1 0 ^ {- 1 9} \mathrm{J} \\ \lambda & = \frac {c}{\nu} = \frac {c h}{\Delta E} = \frac {3 . 0 0 0 \times 1 0 ^ {8} \mathrm{ms} ^ {- 1} \times 6 . 6 2 6 \times 1 0 ^ {- 3 4} \mathrm{Js}}{1 . 6 7 \times 1 0 ^ {- 1 9} \mathrm{J}} \\ & = 1. 1 9 \times 1 0 ^ {- 6} \mathrm{m} \\ & = 1 1 9 0 \mathrm{nm} \end{array} \tag {3}
+\begin{array}{r l} \Delta E & = E _ {12} - E _ {11} \\ & = (12 ^ {2} - 11 ^ {2}) \frac {h ^ {2}}{8 m l ^ {2}} = (23) \frac {(6.626 \times 10 ^ {- 34} \mathrm{Js}) ^ {2}}{8 \times 9.110 \times 10 ^ {- 31} \mathrm{kg} (2.88 \times 10 ^ {- 9} \mathrm{m}) ^ {2}} \\ & = 1.67 \times 10 ^ {- 19} \mathrm{J} \\ \lambda & = \frac {c}{\nu} = \frac {c h}{\Delta E} = \frac {3.000 \times 10 ^ {8} \mathrm{ms} ^ {- 1} \times 6.626 \times 10 ^ {- 34} \mathrm{Js}}{1.67 \times 10 ^ {- 19} \mathrm{J}} \\ & = 1.19 \times 10 ^ {- 6} \mathrm{m} \\ & = 1190 \mathrm{nm} \end{array} \tag {3}
 $$
 
 （4）由一维势箱模型计算所得的波长超出可见光范围，在近红外区，说明这个模型不能准确地解释 $\beta$ -胡萝卜素显红色的原因。由于这个模型是理想化的，计算得到的箱的长度是个近似数值，而且假设全部 C 原子都在同一平面上， $\pi$ 轨道相互平行。实际的构象中，共轭 $\pi$ 键处于同一平面的长度要缩短，导致波长也要变短，进入可见光区。
@@ -2847,7 +2847,7 @@ $$
 (1) 按一维势箱模型
 
 $$
-\begin{array}{r l} \Delta E & = (2 ^ {2} - 1 ^ {2}) \frac {h ^ {2}}{8 m a ^ {2}} = 3 \times \frac {(6 . 6 2 6 \times 1 0 ^ {- 3 4} \mathrm{Js}) ^ {2}}{8 \times 9 . 1 0 9 \times 1 0 ^ {- 3 1} \mathrm{kg} (1 . 7 3 \times 3 6 2 \mathrm{pm}) ^ {2}} \\ & = 4. 6 0 \times 1 0 ^ {- 1 9} \mathrm{J} \\ \lambda & = c h / \Delta E = 4. 3 2 \times 1 0 ^ {- 7} \mathrm{m} \end{array}
+\begin{array}{r l} \Delta E & = (2 ^ {2} - 1 ^ {2}) \frac {h ^ {2}}{8 m a ^ {2}} = 3 \times \frac {(6.626 \times 10 ^ {- 34} \mathrm{Js}) ^ {2}}{8 \times 9.109 \times 10 ^ {- 31} \mathrm{kg} (1.73 \times 362 \mathrm{pm}) ^ {2}} \\ & = 4.60 \times 10 ^ {- 19} \mathrm{J} \\ \lambda & = c h / \Delta E = 4.32 \times 10 ^ {- 7} \mathrm{m} \end{array}
 $$
 
 晶体显现的颜色与用一维势箱模型求得的波长一致。
@@ -2855,19 +2855,19 @@ $$
 (2) 对钾的 4 s 导带, 每个 K 原子贡献 1 个电子。它的电子密度 N (即每 $1 \, cm^{3}$ 中自由电子的数目) 为
 
 $$
-6. 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1} / 4 5. 3 6 \mathrm{cm} ^ {3} \mathrm{mol} ^ {- 1} = 1. 3 2 8 \times 1 0 ^ {2 2} \mathrm{cm} ^ {- 1} = 1. 3 2 8 \times 1 0 ^ {2 8} \mathrm{m} ^ {- 3}
+6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1} / 45.36 \mathrm{cm} ^ {3} \mathrm{mol} ^ {- 1} = 1.328 \times 10 ^ {22} \mathrm{cm} ^ {- 1} = 1.328 \times 10 ^ {28} \mathrm{m} ^ {- 3}
 $$
 
 将 N 代入计算 $E_{F}$ 的公式 [见《结构化学基础》(第 5 版)(8.1.8) 式]
 
 $$
-\begin{array}{r l} E _ {\mathrm{F}} & = \frac {h ^ {2}}{8 \pi^ {2} m} (3 \pi^ {2} N) ^ {2 / 3} \\ & = \frac {(6 . 6 2 6 \times 1 0 ^ {- 3 4}) ^ {2} \mathrm{J} ^ {2} \mathrm{s} ^ {2}}{8 \pi^ {2} \times 9 . 1 0 9 \times 1 0 ^ {- 3 1} \mathrm{kg}} (3 \pi^ {2} \times 1. 3 2 8 \times 1 0 ^ {2 8} \mathrm{m} ^ {- 3}) ^ {2 / 3} \\ & = 3. 2 8 \times 1 0 ^ {- 1 9} \mathrm{J} \end{array}
+\begin{array}{r l} E _ {\mathrm{F}} & = \frac {h ^ {2}}{8 \pi^ {2} m} (3 \pi^ {2} N) ^ {2 / 3} \\ & = \frac {(6.626 \times 10 ^ {- 34}) ^ {2} \mathrm{J} ^ {2} \mathrm{s} ^ {2}}{8 \pi^ {2} \times 9.109 \times 10 ^ {- 31} \mathrm{kg}} (3 \pi^ {2} \times 1.328 \times 10 ^ {28} \mathrm{m} ^ {- 3}) ^ {2 / 3} \\ & = 3.28 \times 10 ^ {- 19} \mathrm{J} \end{array}
 $$
 
 将J换算成eV，
 
 $$
-\begin{array}{r l} E _ {\mathrm{F}} & = (3. 2 8 \times 1 0 ^ {- 1 9} \mathrm{J}) \times (1. 0 3 6 \times 1 0 ^ {- 5} \mathrm {eV / J mol^ {- 1}}) \times (6. 0 2 2 \times 1 0 ^ {2 3} \mathrm {mol^ {- 1}}) \\ & = 2. 0 5 \mathrm{eV} \end{array}
+\begin{array}{r l} E _ {\mathrm{F}} & = (3.28 \times 10 ^ {- 19} \mathrm{J}) \times (1.036 \times 10 ^ {- 5} \mathrm {eV / J mol^ {- 1}}) \times (6.022 \times 10 ^ {23} \mathrm {mol^ {- 1}}) \\ & = 2.05 \mathrm{eV} \end{array}
 $$
 
 所得结果 $E_{F}=2.05\ eV$ 和实验测定值 2.14 eV 相近。
@@ -2949,7 +2949,7 @@ $4m + 2$ 规则。这个规则可从图C.3.2来理解。 $4m + 2$ 中的2相当�
 (3) $He^{+}$ 为类氢离子, 其能量为
 
 $$
-E _ {2} = - 1 3. 6 \times \frac {Z ^ {2}}{2 ^ {2}} \mathrm{eV} = - 1 3. 6 \mathrm{eV}
+E _ {2} = - 13.6 \times \frac {Z ^ {2}}{2 ^ {2}} \mathrm{eV} = - 13.6 \mathrm{eV}
 $$
 
 (4) 该状态角动量为
@@ -3001,7 +3001,7 @@ $$
 3d 电子结合能为 -7.98 eV
 
 $$
-4 \mathrm{s} \text { 电   子   结   合   能   为 } - 6. 6 2 \mathrm{eV}
+4 \mathrm{s} \text { 电   子   结   合   能   为 } - 6.62 \mathrm{eV}
 $$
 
 (2) 按图 C.5 所示的能量高低, 电子互斥能应为正值。由图可推出:
@@ -3013,33 +3013,33 @@ $E_{\mathrm{Sc(3d^{1}4s^{2})}}$ 和 $E_{\mathrm{Sc}^{3+}(3d^{0}4s^{0})}$ 间的�
 由此两式及图示数据可得
 
 $$
-\begin{array}{r l} E _ {\mathrm {Sc^ {+} (3d^ {0} 4s^ {2})}} - E _ {\mathrm {Sc(3d^ {1} 4s^ {2})}} & = [ - 2 I _ {\mathrm{s}} + J (\mathrm{s}, \mathrm{s}) ] - [ - I _ {\mathrm{d}} - 2 I _ {\mathrm{s}} + 2 J (\mathrm{d}, \mathrm{s}) + J (\mathrm{s}, \mathrm{s}) ] \\ & = I _ {\mathrm{d}} - 2 J (\mathrm{d}, \mathrm{s}) \\ & = 7. 9 8 \mathrm{eV} \end{array}
+\begin{array}{r l} E _ {\mathrm {Sc^ {+} (3d^ {0} 4s^ {2})}} - E _ {\mathrm {Sc(3d^ {1} 4s^ {2})}} & = [ - 2 I _ {\mathrm{s}} + J (\mathrm{s}, \mathrm{s}) ] - [ - I _ {\mathrm{d}} - 2 I _ {\mathrm{s}} + 2 J (\mathrm{d}, \mathrm{s}) + J (\mathrm{s}, \mathrm{s}) ] \\ & = I _ {\mathrm{d}} - 2 J (\mathrm{d}, \mathrm{s}) \\ & = 7.98 \mathrm{eV} \end{array}
 $$
 
 由此可得
 
 $$
-\begin{array}{r l} J (\mathrm{d}, \mathrm{s}) & = (I _ {\mathrm{d}} - 7. 9 8 \mathrm{eV}) / 2 \\ & = (2 4. 7 5 - 7. 9 8) \mathrm{eV} / 2 \\ & = 8. 3 8 \mathrm{eV} \end{array}
+\begin{array}{r l} J (\mathrm{d}, \mathrm{s}) & = (I _ {\mathrm{d}} - 7.98 \mathrm{eV}) / 2 \\ & = (24.75 - 7.98) \mathrm{eV} / 2 \\ & = 8.38 \mathrm{eV} \end{array}
 $$
 
 $$
-\begin{array}{r l} E _ {\mathrm {Sc^ {+} (3d^ {1} 4s^ {1})}} - E _ {\mathrm {Sc(3d^ {1} 4s^ {2})}} & = [ - I _ {\mathrm{d}} - I _ {\mathrm{s}} + J (\mathrm{d}, \mathrm{s}) ] - [ - I _ {\mathrm{d}} - 2 I _ {\mathrm{s}} + 2 J (\mathrm{d}, \mathrm{s}) + J (\mathrm{s}, \mathrm{s}) ] \\ & = I _ {\mathrm{s}} - J (\mathrm{d}, \mathrm{s}) - J (\mathrm{s}, \mathrm{s}) \\ & = 6. 6 2 \mathrm{eV} \end{array}
-$$
-
-得
-
-$$
-\begin{array}{r l} J (\mathrm{s}, \mathrm{s}) & = I _ {\mathrm{s}} - J (\mathrm{d}, \mathrm{s}) - 6. 6 2 \mathrm{eV} \\ & = (2 1. 6 0 - 8. 3 8 - 6. 6 2) \mathrm{eV} \\ & = 6. 6 0 \mathrm{eV} \end{array}
-$$
-
-$$
-\begin{array}{r l} \text {由} E _ {\mathrm{Sc} ^ {+} (3 \mathrm{d} ^ {2} 4 \mathrm{s} ^ {1})} - E _ {\mathrm{Sc} (3 \mathrm{d} ^ {1} 4 \mathrm{s} ^ {2})} & = [ - 2 I _ {\mathrm{d}} - I _ {\mathrm{s}} + J (\mathrm{d}, \mathrm{d}) + 2 J (\mathrm{d}, \mathrm{s}) ] - [ - I _ {\mathrm{d}} - 2 I _ {\mathrm{s}} + 2 J (\mathrm{d}, \mathrm{s}) + J (\mathrm{s}, \mathrm{s}) ] \\ & = I _ {\mathrm{s}} - I _ {\mathrm{d}} + J (\mathrm{d}, \mathrm{d}) - J (\mathrm{s}, \mathrm{s}) \\ & = 2. 0 3   \mathrm{eV} \end{array}
+\begin{array}{r l} E _ {\mathrm {Sc^ {+} (3d^ {1} 4s^ {1})}} - E _ {\mathrm {Sc(3d^ {1} 4s^ {2})}} & = [ - I _ {\mathrm{d}} - I _ {\mathrm{s}} + J (\mathrm{d}, \mathrm{s}) ] - [ - I _ {\mathrm{d}} - 2 I _ {\mathrm{s}} + 2 J (\mathrm{d}, \mathrm{s}) + J (\mathrm{s}, \mathrm{s}) ] \\ & = I _ {\mathrm{s}} - J (\mathrm{d}, \mathrm{s}) - J (\mathrm{s}, \mathrm{s}) \\ & = 6.62 \mathrm{eV} \end{array}
 $$
 
 得
 
 $$
-\begin{array}{r l} J (\mathrm{d}, \mathrm{d}) & = [ I _ {\mathrm{d}} - I _ {\mathrm{s}} + J (\mathrm{s}, \mathrm{s}) + 2. 0 3 ] \mathrm{eV} \\ & = (2 4. 7 5 - 2 1. 6 0 + 6. 6 0 + 2. 0 3) \mathrm{eV} \\ & = 1 1. 7 8 \mathrm{eV} \end{array}
+\begin{array}{r l} J (\mathrm{s}, \mathrm{s}) & = I _ {\mathrm{s}} - J (\mathrm{d}, \mathrm{s}) - 6.62 \mathrm{eV} \\ & = (21.60 - 8.38 - 6.62) \mathrm{eV} \\ & = 6.60 \mathrm{eV} \end{array}
+$$
+
+$$
+\begin{array}{r l} \text {由} E _ {\mathrm{Sc} ^ {+} (3 \mathrm{d} ^ {2} 4 \mathrm{s} ^ {1})} - E _ {\mathrm{Sc} (3 \mathrm{d} ^ {1} 4 \mathrm{s} ^ {2})} & = [ - 2 I _ {\mathrm{d}} - I _ {\mathrm{s}} + J (\mathrm{d}, \mathrm{d}) + 2 J (\mathrm{d}, \mathrm{s}) ] - [ - I _ {\mathrm{d}} - 2 I _ {\mathrm{s}} + 2 J (\mathrm{d}, \mathrm{s}) + J (\mathrm{s}, \mathrm{s}) ] \\ & = I _ {\mathrm{s}} - I _ {\mathrm{d}} + J (\mathrm{d}, \mathrm{d}) - J (\mathrm{s}, \mathrm{s}) \\ & = 2.03   \mathrm{eV} \end{array}
+$$
+
+得
+
+$$
+\begin{array}{r l} J (\mathrm{d}, \mathrm{d}) & = [ I _ {\mathrm{d}} - I _ {\mathrm{s}} + J (\mathrm{s}, \mathrm{s}) + 2.03 ] \mathrm{eV} \\ & = (24.75 - 21.60 + 6.60 + 2.03) \mathrm{eV} \\ & = 11.78 \mathrm{eV} \end{array}
 $$
 
 （3）单电子轨道能是指该原子轨道上电子电离能的平均值的负值，由图得：
@@ -3049,10 +3049,10 @@ $$
 4s 单电子轨道能为 $E_{\mathrm{Sc}(3d^{1}4s^{2})}$ 和 $E_{\mathrm{Sc}^{2+}(3d^{1}4s^{0})}$ 间的能量差值的一半的负值。即为
 
 $$
-\begin{array}{r l} \frac {1}{2} [ E _ {\mathrm{Sc} (3 \mathrm{d} ^ {1} 4 \mathrm{s} ^ {2})} - E _ {\mathrm{Sc} ^ {2 +} (3 \mathrm{d} ^ {1} 4 \mathrm{s} ^ {0})} ] & = \frac {1}{2} [ - I _ {\mathrm{d}} - 2 I _ {\mathrm{s}} + 2 J (\mathrm{d}, \mathrm{s}) + J (\mathrm{s}, \mathrm{s}) - (- I _ {\mathrm{d}}) ] \\ & = \frac {1}{2} [ - 2 I _ {\mathrm{s}} + 2 J (\mathrm{d}, \mathrm{s}) + J (\mathrm{s}, \mathrm{s}) ] \\ & = \frac {1}{2} (- 2 \times 2 1. 6 0 + 2 \times 8. 3 8 + 6. 6 0) \mathrm{eV} \\ & = - 9. 9 2 \mathrm{eV} \end{array}
+\begin{array}{r l} \frac {1}{2} [ E _ {\mathrm{Sc} (3 \mathrm{d} ^ {1} 4 \mathrm{s} ^ {2})} - E _ {\mathrm{Sc} ^ {2 +} (3 \mathrm{d} ^ {1} 4 \mathrm{s} ^ {0})} ] & = \frac {1}{2} [ - I _ {\mathrm{d}} - 2 I _ {\mathrm{s}} + 2 J (\mathrm{d}, \mathrm{s}) + J (\mathrm{s}, \mathrm{s}) - (- I _ {\mathrm{d}}) ] \\ & = \frac {1}{2} [ - 2 I _ {\mathrm{s}} + 2 J (\mathrm{d}, \mathrm{s}) + J (\mathrm{s}, \mathrm{s}) ] \\ & = \frac {1}{2} (- 2 \times 21.60 + 2 \times 8.38 + 6.60) \mathrm{eV} \\ & = - 9.92 \mathrm{eV} \end{array}
 $$
 
-(4) 价电子增填时, 电子进入 $\mathrm{Sc}^{3+}(3\mathrm{d}^0 4\mathrm{s}^0)$ 的次序为: 第一个电子先进入 $3\mathrm{d}$ 轨道, 因它的能级较 $4\mathrm{s}$ 低, 低的数值为 $3.15\mathrm{eV}$ ; 第二个电子则应进入 $4\mathrm{s}$ 轨道, 因 $J(\mathrm{d}, \mathrm{d})$ 和 $J(\mathrm{d}, \mathrm{s})$ 的差值为 $(11.78 - 8.38)\mathrm{eV} = 3.40\mathrm{eV}$ , 大于 $3.15\mathrm{eV}$ ; 第三个电子仍应进入 $4\mathrm{s}$ 轨道, 形成 $\mathrm{Sc}(3\mathrm{d}^1 4\mathrm{s}^2)$ 组态, 因它的能量低于 $\mathrm{Sc}(3\mathrm{d}^2 4\mathrm{s}^1)$ 组态。
+(4) 价电子增填时, 电子进入 $\mathrm{Sc}^{3+}(3\mathrm{d}^04\mathrm{s}^0)$ 的次序为: 第一个电子先进入 $3\mathrm{d}$ 轨道, 因它的能级较 $4\mathrm{s}$ 低, 低的数值为 $3.15\mathrm{eV}$ ; 第二个电子则应进入 $4\mathrm{s}$ 轨道, 因 $J(\mathrm{d}, \mathrm{d})$ 和 $J(\mathrm{d}, \mathrm{s})$ 的差值为 $(11.78 - 8.38)\mathrm{eV} = 3.40\mathrm{eV}$ , 大于 $3.15\mathrm{eV}$ ; 第三个电子仍应进入 $4\mathrm{s}$ 轨道, 形成 $\mathrm{Sc}(3\mathrm{d}^14\mathrm{s}^2)$ 组态, 因它的能量低于 $\mathrm{Sc}(3\mathrm{d}^24\mathrm{s}^1)$ 组态。
 
 Sc 原子电离时, 先电离 4s 电子, 它的电离能为 6.62 eV, 低于 d 电子电离所需的能量 (7.98 eV); 由 $Sc^{+}(3d^{1}4s^{1})$ 再电离时, 仍先电离 4s 上的电子, 形成 $Sc^{2+}(3d^{1}4s^{0})$ 组态。
 
@@ -3069,19 +3069,19 @@ CO 分子的基态谱项为 $^{1}\Sigma$ ，所有电子都已配对，分子呈
 在双原子分子的转动光谱中,相邻两谱线的波数差即转动常数的2倍。根据实验数据,可得转动常数B:
 
 $$
-B = \frac {1}{2} \Delta \widetilde {\nu} = 1. 9 2 2 \mathrm{cm} ^ {- 1}
+B = \frac {1}{2} \Delta \widetilde {\nu} = 1.922 \mathrm{cm} ^ {- 1}
 $$
 
 $^{12}$ C $^{16}$ O 分子的折合质量 $\mu$ 为
 
 $$
-\begin{array}{r l} \mu & = \frac {m _ {\mathrm{C}} m _ {\mathrm{O}}}{m _ {\mathrm{C}} + m _ {\mathrm{O}}} = \frac {(1 2 \times 1 0 ^ {- 3} \mathrm{kgmol} ^ {- 1}) (1 6 \times 1 0 ^ {- 3} \mathrm{kgmol} ^ {- 1})}{(1 2 + 1 6) \times 1 0 ^ {- 3} \mathrm{kgmol} ^ {- 1} \times 6 . 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1}} \\ & = 1. 1 3 9 \times 1 0 ^ {- 2 6} \mathrm{kg} \end{array}
+\begin{array}{r l} \mu & = \frac {m _ {\mathrm{C}} m _ {\mathrm{O}}}{m _ {\mathrm{C}} + m _ {\mathrm{O}}} = \frac {(12 \times 10 ^ {- 3} \mathrm{kgmol} ^ {- 1}) (16 \times 10 ^ {- 3} \mathrm{kgmol} ^ {- 1})}{(12 + 16) \times 10 ^ {- 3} \mathrm{kgmol} ^ {- 1} \times 6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1}} \\ & = 1.139 \times 10 ^ {- 26} \mathrm{kg} \end{array}
 $$
 
 将 B 和 $\mu$ 代入公式：
 
 $$
-\begin{array}{r l} & B = \frac {h}{8 \pi^ {2} I c} = \frac {h}{8 \pi^ {2} \mu r ^ {2} c} \\ & r = \left(\frac {h}{8 \pi^ {2} \mu B c}\right) ^ {\frac {1}{2}} \\ & = \left[ \frac {6 . 6 2 6 \times 1 0 ^ {- 3 4} \mathrm{Js}}{8 \times (3 . 1 4 1 6) ^ {2} \times 1 . 1 3 9 \times 1 0 ^ {- 2 6} \mathrm{kg} \times 1 . 9 2 2 \times 1 0 ^ {2} \mathrm{m} ^ {- 1} \times 2 . 9 9 8 \times 1 0 ^ {8} \mathrm{ms} ^ {- 1}} \right] ^ {\frac {1}{2}} \\ & = 1. 1 3 1 \times 1 0 ^ {- 1 0} \mathrm{m} = 1 1 3. 1 \mathrm{pm} \end{array}
+\begin{array}{r l} & B = \frac {h}{8 \pi^ {2} I c} = \frac {h}{8 \pi^ {2} \mu r ^ {2} c} \\ & r = \left(\frac {h}{8 \pi^ {2} \mu B c}\right) ^ {\frac {1}{2}} \\ & = \left[ \frac {6.626 \times 10 ^ {- 34} \mathrm{Js}}{8 \times (3.1416) ^ {2} \times 1.139 \times 10 ^ {- 26} \mathrm{kg} \times 1.922 \times 10 ^ {2} \mathrm{m} ^ {- 1} \times 2.998 \times 10 ^ {8} \mathrm{ms} ^ {- 1}} \right] ^ {\frac {1}{2}} \\ & = 1.131 \times 10 ^ {- 10} \mathrm{m} = 113.1 \mathrm{pm} \end{array}
 $$
 
 【C.7】一氧化氮(NO)分子被美国《科学》杂志命名为1992年明星分子。在无机化学和生物无机化学中，它是已得到深入研究的分子之一。
@@ -3151,7 +3151,7 @@ $$
 从光谱中测得的 $\widetilde{\nu}_{1} = \widetilde{\nu}_{\mathrm{e}}(1 - 2x) = 1876.2\mathrm{cm}^{-1}$
 
 $$
-\widetilde {\nu} _ {2} = 2 \widetilde {\nu} _ {\mathrm{e}} (1 - 3 x) = 3 7 2 4. 6 \mathrm{cm} ^ {- 1}
+\widetilde {\nu} _ {2} = 2 \widetilde {\nu} _ {\mathrm{e}} (1 - 3 x) = 3724.6 \mathrm{cm} ^ {- 1}
 $$
 
 解之，得 $x = 0.0073, \widetilde{\nu}_{\mathrm{e}} = 1904.3\mathrm{cm}^{-1}$ 。
@@ -3161,7 +3161,7 @@ $$
 （4）NO 分子受紫外光照射激发出 $2\sigma$ 轨道上的电子后， $2\sigma$ 轨道剩余一个电子，它可能的自旋状态有两种：即和 $2\pi$ 轨道上的电子自旋相同或相反，故而分裂成 ${}^{3}\Pi$ 和 ${}^{1}\Pi$ 两种状态。由图 C.7.1 可见， $2\sigma$ 电子结合能（绝对值）约为 21.5 eV。因此，光电子最大动能约为
 
 $$
-4 0. 8 \mathrm{eV} - 2 1. 5 \mathrm{eV} = 1 9. 3 \mathrm{eV}
+40.8 \mathrm{eV} - 21.5 \mathrm{eV} = 19.3 \mathrm{eV}
 $$
 
 (5) 由图 C.7.2 可见, 离子 $\left[\mathrm{Fe}_{4}\mathrm{S}_{3}(\mathrm{NO})_{7}\right]^{-}$ 所属点群为 $C_{3v}$ 。
@@ -3383,25 +3383,25 @@ $$
 将(2)代入(1)式,得
 
 $$
-F _ {5} + F _ {6} + V = 1. 5 V + 2\tag{4}
+F _ {5} + F _ {6} + V = 1.5 V + 2\tag{4}
 $$
 
 将(3)代入(4)式,得
 
 $$
-5 F _ {5} + 6 F _ {6} = 6 F _ {5} + 6 F _ {6} - 1 2
+5 F _ {5} + 6 F _ {6} = 6 F _ {5} + 6 F _ {6} - 12
 $$
 
 由此即得
 
 $$
-F _ {5} = 1 2
+F _ {5} = 12
 $$
 
 (2) $C_{60}$ 分子有 32 个面, $F_{5}=12$ , $F_{6}=20$ , 按 Euler 公式, 棱数 E 为
 
 $$
-E = 6 0 + 3 2 - 2 = 9 0
+E = 60 + 32 - 2 = 90
 $$
 
 由于每个 C 原子参与形成 2 个 C—C 单键和 1 个 C=C 双键，双键数是单键数的一半。分子中有 60 个 C—C 单键，30 个 C=C 双键。不论 C—C 单键或 C=C 双键中都有 1 个 C—C σ 键，所以 σ 键数目为 90 个。
@@ -3415,23 +3415,23 @@ $$
 在球碳分子中,每个顶点连接3条棱,每条棱由2个顶点连成,得3V=2E。代入
 
 $$
-F + V = 1. 5 V + 2\tag{5}
+F + V = 1.5 V + 2\tag{5}
 $$
 
 $$
-F = 0. 5 V + 2 = F _ {5} + F _ {6}
+F = 0.5 V + 2 = F _ {5} + F _ {6}
 $$
 
 $$
-\mathrm{C} _ {8 0}: F = 0. 5 \times 8 0 + 2 = 4 2, F _ {6} = 4 2 - 1 2 = 3 0
+\mathrm{C} _ {80}: F = 0.5 \times 80 + 2 = 42, F _ {6} = 42 - 12 = 30
 $$
 
 $$
-\mathrm{C} _ {8 2}: F = 0. 5 \times 8 2 + 2 = 4 3, F _ {6} = 4 3 - 1 2 = 3 1
+\mathrm{C} _ {82}: F = 0.5 \times 82 + 2 = 43, F _ {6} = 43 - 12 = 31
 $$
 
 $$
-\mathrm{C} _ {8 4}: F = 0. 5 \times 8 4 + 2 = 4 4, F _ {6} = 4 4 - 1 2 = 3 2
+\mathrm{C} _ {84}: F = 0.5 \times 84 + 2 = 44, F _ {6} = 44 - 12 = 32
 $$
 
 （4）由 $H_{2}O$ 分子通过 O—H…O 氢键形成的多面体结构，每个 $H_{2}O$ 分子通过氢键连接成棱，每条棱由 2 个 $H_{2}O$ 分子组成。由上面(5)式推得
@@ -3513,7 +3513,7 @@ $$
 （2）试计算下列金属簇合物中，金属簇已有的价电子数(g)、金属-金属键的键数(b)及金属簇的几何构型。
 
 $$
-\mathrm{Os} _ {4} (\mathrm{CO}) _ {1 4}, \left[ \mathrm{Ru} _ {4} \mathrm{N} (\mathrm{CO}) _ {1 2} \right] ^ {-}, \mathrm{Pt} _ {4} \left(\mathrm{CH} _ {3} \mathrm{CO} _ {2}\right) _ {8}
+\mathrm{Os} _ {4} (\mathrm{CO}) _ {14}, \left[ \mathrm{Ru} _ {4} \mathrm{N} (\mathrm{CO}) _ {12} \right] ^ {-}, \mathrm{Pt} _ {4} \left(\mathrm{CH} _ {3} \mathrm{CO} _ {2}\right) _ {8}
 $$
 
 （3）某 $ML_{6}$ 配合物在低自旋时变成拉长的八面体，试写出配合物中 M 原子的 d 电子组态。
@@ -3535,17 +3535,17 @@ $$
 (1) $\mathrm{Cr(CO)}_x:6 + 2x = 18,x = 6$
 
 $$
-\mathrm{V} (\mathrm{NO}) _ {x} (\mathrm{CO}) _ {2}: 5 + 3 x + 2 \times 2 = 1 8, x = 3
+\mathrm{V} (\mathrm{NO}) _ {x} (\mathrm{CO}) _ {2}: 5 + 3 x + 2 \times 2 = 18, x = 3
 $$
 
 $$
-\left[ \mathrm{Mn} (\mathrm{C} _ {6} \mathrm{H} _ {6}) (\mathrm{CO}) _ {x} \right] ^ {+}: 7 + 6 + 2 x - 1 = 1 8, x = 3
+\left[ \mathrm{Mn} (\mathrm{C} _ {6} \mathrm{H} _ {6}) (\mathrm{CO}) _ {x} \right] ^ {+}: 7 + 6 + 2 x - 1 = 18, x = 3
 $$
 
 (2) $\mathrm{Os}_4(\mathrm{CO})_{14}: g = 4 \times 8 + 14 \times 2 = 60$
 
 $$
-b = \frac {1}{2} (4 \times 1 8 - 6 0) = 6
+b = \frac {1}{2} (4 \times 18 - 60) = 6
 $$
 
 ![](结构化学基础（第5版）习题解析周公度z-library.sk,1lib.sk,z-lib.sk_151-266_images/358d78db4e3ec79955c9fbe56dac656a6e0f59544aed9d4c7ec76989952fe801.jpg)
@@ -3553,11 +3553,11 @@ $$
 四面体形
 
 $$
-[ \mathrm{Ru} _ {4} \mathrm{N(CO)} _ {1 2} ] ^ {-}: g = 4 \times 8 + 5 + 1 2 \times 2 + 1 = 6 2
+[ \mathrm{Ru} _ {4} \mathrm{N(CO)} _ {12} ] ^ {-}: g = 4 \times 8 + 5 + 12 \times 2 + 1 = 62
 $$
 
 $$
-b = \frac {1}{2} (4 \times 1 8 - 6 2) = 5
+b = \frac {1}{2} (4 \times 18 - 62) = 5
 $$
 
 蝴蝶形
@@ -3565,11 +3565,11 @@ $$
 ![](结构化学基础（第5版）习题解析周公度z-library.sk,1lib.sk,z-lib.sk_151-266_images/a031db361f8d252b1af33d5a3361f805f8acbdf1615dd5349576e6e85f86749f.jpg)
 
 $$
-\mathrm{Pt} _ {4} (\mathrm{CH} _ {3} \mathrm{CO} _ {2}) _ {8}: g = 4 \times 8 + 8 \times 4 = 6 4
+\mathrm{Pt} _ {4} (\mathrm{CH} _ {3} \mathrm{CO} _ {2}) _ {8}: g = 4 \times 8 + 8 \times 4 = 64
 $$
 
 $$
-b = \frac {1}{2} (4 \times 1 8 - 6 4) = 4
+b = \frac {1}{2} (4 \times 18 - 64) = 4
 $$
 
 平面四方形
@@ -3589,13 +3589,13 @@ $\mathrm{Cr(H_{2}O)_{6}^{2+}}$ 的 $e_{g}^{*}$ 轨道 d 电子排布不对称，
 (b) $\mathrm{Cr(H_{2}O)_{6}^{2+}}$ 的配位场稳定化能为
 
 $$
-\mathrm{LFSE} = 0 - \left[ - (3 \times 0. 4 \Delta_ {\mathrm{o}}) + 0. 6 \Delta_ {\mathrm{o}} \right] = 0. 6 \Delta_ {\mathrm{o}}
+\mathrm{LFSE} = 0 - \left[ - (3 \times 0.4 \Delta_ {\mathrm{o}}) + 0.6 \Delta_ {\mathrm{o}} \right] = 0.6 \Delta_ {\mathrm{o}}
 $$
 
 (c) $\mathrm{Cr(H_{2}O)_{6}^{2+}}$ 的磁矩为
 
 $$
-\mu = \sqrt {n (n + 2)} \beta_ {\mathrm{e}} = \sqrt {4 (4 + 2)} \beta_ {\mathrm{e}} = 4. 9 \beta_ {\mathrm{e}}
+\mu = \sqrt {n (n + 2)} \beta_ {\mathrm{e}} = \sqrt {4 (4 + 2)} \beta_ {\mathrm{e}} = 4.9 \beta_ {\mathrm{e}}
 $$
 
 【C.15】在晶体的衍射中,系统消光指的是什么现象?举三例说明系统消光和结构中对称元素及点阵型式的联系。证明体心立方点阵晶体的系统消光为:“在hkl型衍射数据中, $h+k+l=$ 奇数”。
@@ -3678,7 +3678,7 @@ $$
 由碘晶体中原子 3 和 4 的坐标参数, 可得 $I_{2}$ 分子内 I—I 键长
 
 $$
-\begin{array}{r l} r _ {3 - 4} & = [ 0 + (0. 3 0 8 6 8 \times 4 6 8. 6 \mathrm{pm}) ^ {2} + (0. 2 3 4 8 2 \times 9 7 8. 4 \mathrm{pm}) ^ {2} ] ^ {\frac {1}{2}} \\ & = 2 7 1. 5 \mathrm{pm} \end{array}
+\begin{array}{r l} r _ {3 - 4} & = [ 0 + (0.30868 \times 468.6 \mathrm{pm}) ^ {2} + (0.23482 \times 978.4 \mathrm{pm}) ^ {2} ] ^ {\frac {1}{2}} \\ & = 271.5 \mathrm{pm} \end{array}
 $$
 
 I—I 原子间为共价单键,根据这键长可推得 I 原子的共价单键半径为 136 pm。由气态 $I_{2}$ 可得 I 原子共价单键半径为 133 pm。
@@ -3686,13 +3686,13 @@ I—I 原子间为共价单键,根据这键长可推得 I 原子的共价单键�
 （4）在晶体中， $I_{2}$ 分子在垂直于 x 轴的平面堆积成层形结构，层内分子间的最短接触距离 $r_{1-4}$ 为
 
 $$
-\begin{array}{r l} r _ {1 - 4} & = \left[ (0. 5 \times 4 6 8. 6 \mathrm{pm}) ^ {2} + (0. 3 8 2 5 9 - 0. 1 1 7 4 1) ^ {2} \times (9 7 8. 4 \mathrm{pm} ^ {2}) \right] ^ {\frac {1}{2}} \\ & = 3 4 9. 6 \mathrm{pm} \end{array}
+\begin{array}{r l} r _ {1 - 4} & = \left[ (0.5 \times 468.6 \mathrm{pm}) ^ {2} + (0.38259 - 0.11741) ^ {2} \times (978.4 \mathrm{pm} ^ {2}) \right] ^ {\frac {1}{2}} \\ & = 349.6 \mathrm{pm} \end{array}
 $$
 
 层间分子间的最短接触距离 $r_{1-7}$ 为
 
 $$
-r _ {1 - 7} = \left[ (0. 5 \times 7 1 3. 6 \mathrm{pm}) ^ {2} + (0. 5 \times 4 8 6. 6 \mathrm{pm}) ^ {2} \right] ^ {\frac {1}{2}} = 4 2 6. 9 \mathrm{pm}
+r _ {1 - 7} = \left[ (0.5 \times 713.6 \mathrm{pm}) ^ {2} + (0.5 \times 486.6 \mathrm{pm}) ^ {2} \right] ^ {\frac {1}{2}} = 426.9 \mathrm{pm}
 $$
 
 I 原子的范德华半径可由几个数值相近的分子间接触距离平均求得, 其值为 218 pm。
@@ -3707,13 +3707,13 @@ I 原子的范德华半径可由几个数值相近的分子间接触距离平均
 （6）根据晶胞参数可以计算晶胞体积(V)，根据晶胞中所含原子的种类和数目，可以计算晶胞中所含原子的总质量。由这两个数据，可算得晶体的密度(D)。碘晶体的晶胞体积
 
 $$
-\begin{array}{r l} V & = a b c \\ & = 7 1 3. 6 \mathrm{pm} \times 4 6 8. 6 \mathrm{pm} \times 9 7 8. 4 \mathrm{pm} \\ & = 3. 2 7 \times 1 0 ^ {8} \mathrm{pm} ^ {3} \end{array}
+\begin{array}{r l} V & = a b c \\ & = 713.6 \mathrm{pm} \times 468.6 \mathrm{pm} \times 978.4 \mathrm{pm} \\ & = 3.27 \times 10 ^ {8} \mathrm{pm} ^ {3} \end{array}
 $$
 
 晶体的密度 D= 晶胞中原子的总质量/晶胞体积, 即
 
 $$
-\begin{array}{r l} D & = \frac {(8 \times 1 2 7 . 0 \mathrm{gmol} ^ {- 1} / 6 . 0 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1})}{(3 2 7 . 0 \times 1 0 ^ {- 2 4} \mathrm{cm} ^ {3})} \\ & = 5. 1 6 \mathrm{gcm} ^ {- 3} (1 1 0 \mathrm{K}) \end{array}
+\begin{array}{r l} D & = \frac {(8 \times 127.0 \mathrm{gmol} ^ {- 1} / 6.02 \times 10 ^ {23} \mathrm{mol} ^ {- 1})}{(327.0 \times 10 ^ {- 24} \mathrm{cm} ^ {3})} \\ & = 5.16 \mathrm{gcm} ^ {- 3} (110 \mathrm{K}) \end{array}
 $$
 
 【C.17】已知 NaCl 的晶体结构如图 C.17.1 所示，它属于立方晶系， $O_{h}$ 点群。晶胞参数 a=564.0 pm。
@@ -3740,7 +3740,7 @@ $$
 另一种判断方法可从组成八面体空隙的负离子半径以及空隙容纳的正离子半径的比值来定：
 
 $$
-r _ {\mathrm{Na} ^ {+}} / r _ {\mathrm{Cl} ^ {-}} = 1 0 2 \mathrm{pm/181pm=0.564>0.414}
+r _ {\mathrm{Na} ^ {+}} / r _ {\mathrm{Cl} ^ {-}} = 102 \mathrm{pm/181pm=0.564>0.414}
 $$
 
 负离子不相互接触,较小的正离子也不会接触,而正、负离子相互接触,这种结构静电吸引力大、排斥力小,比较稳定。
@@ -3748,13 +3748,13 @@ $$
 (3) 晶胞中含 4NaCl, 相对原子质量 Na 22.99, Cl 35.45。
 
 $$
-D = \frac {Z M}{N _ {\mathrm{A}} V} = \frac {4 (2 2 . 9 9 + 3 5 . 4 5) \mathrm{g} \mathrm{mol} ^ {- 1}}{6 . 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1} (5 6 4 . 0 \times 1 0 ^ {- 1 0}) ^ {3} \mathrm{cm} ^ {3}} = 2. 1 6 4 \mathrm{g} \mathrm{cm} ^ {- 3}
+D = \frac {Z M}{N _ {\mathrm{A}} V} = \frac {4 (22.99 + 35.45) \mathrm{g} \mathrm{mol} ^ {- 1}}{6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1} (564.0 \times 10 ^ {- 10}) ^ {3} \mathrm{cm} ^ {3}} = 2.164 \mathrm{g} \mathrm{cm} ^ {- 3}
 $$
 
 (4) 将图 C.17.1 晶胞中顶角上的 $Na^{+}$ 和中心的 $Cl^{-}$ 除去，将 $Na^{+}$ 换成 $Nb^{2+}$ ， $Cl^{-}$ 换成 $O^{2-}$ ，即得 NbO 晶胞，示于图 C.17.2，图中也示出 $Nb_{6}$ 八面体形的原子簇。晶体密度
 
 $$
-D = \frac {Z M}{N _ {\mathrm{A}} V} = \frac {3 (9 2 . 9 1 + 1 6 . 0 0) \mathrm{g} \mathrm{mol} ^ {- 1}}{6 . 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1} (4 2 1 \times 1 0 ^ {- 1 0}) ^ {3} \mathrm{cm} ^ {3}} = 7. 2 7 \mathrm{g} \mathrm{cm} ^ {- 3}
+D = \frac {Z M}{N _ {\mathrm{A}} V} = \frac {3 (92.91 + 16.00) \mathrm{g} \mathrm{mol} ^ {- 1}}{6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1} (421 \times 10 ^ {- 10}) ^ {3} \mathrm{cm} ^ {3}} = 7.27 \mathrm{g} \mathrm{cm} ^ {- 3}
 $$
 
 通过晶胞中心点的点对称元素有：3个 $C_{4}$ ，4个 $C_{3}$ ，6个 $C_{2}$ ，6个 $\sigma_{d}$ ，3个 $\sigma_{h}$ ，i等；点群为 $O_{h}$ 。
@@ -3772,7 +3772,7 @@ $\mathrm{U}^{6+}$ 的半径 $r_{\mathrm{U}}^{6+}=a/2-r_{\mathrm{O}}^{2-}=415.6\m
 由 12 个 $O^{2-}$ 组成的立方八面体自由孔径为
 
 $$
-\sqrt {2} a - 2 r _ {\mathrm{O} ^ {2 -}} = \sqrt {2} \times 4 1 5. 6 \mathrm{pm} - 2 \times 1 4 0 \mathrm{pm} = 3 0 8 \mathrm{pm}
+\sqrt {2} a - 2 r _ {\mathrm{O} ^ {2 -}} = \sqrt {2} \times 415.6 \mathrm{pm} - 2 \times 140 \mathrm{pm} = 308 \mathrm{pm}
 $$
 
 ![](结构化学基础（第5版）习题解析周公度z-library.sk,1lib.sk,z-lib.sk_151-266_images/068f00859ca0d524270db69ae5aa5255b2cf37ea4c0d0cf5290f11bed5487cbf.jpg)  
@@ -3802,11 +3802,11 @@ $$
 【C.19】金属元素铒(Er)和镧(La)的晶体结构分别为六方最密堆积ABAB…(A3型)和双六方最密堆积ABACABAC…(A3'型)。这两种晶体结构的空间群都属于 $D_{6h}^{4}-P6_{3}/mmc$ ，它们的晶胞参数及晶胞中的原子数分别为
 
 $$
-\mathrm{Er:} a = 3 5 5. 9 \mathrm{pm}, \quad c = 5 5 8. 7 \mathrm{pm}, \quad Z = 2
+\mathrm{Er:} a = 355.9 \mathrm{pm}, \quad c = 558.7 \mathrm{pm}, \quad Z = 2
 $$
 
 $$
-\mathrm{La:} a = 3 7 7. 0 \mathrm{pm}, \quad c = 1 2 1 5. 9 \mathrm{pm}, \quad Z = 4
+\mathrm{La:} a = 377.0 \mathrm{pm}, \quad c = 1215.9 \mathrm{pm}, \quad Z = 4
 $$
 
 (1) 画出晶胞沿 c 轴的结构投影图, 写出两种结构中原子的坐标参数。
@@ -3845,7 +3845,7 @@ Er 的原子半径： $a/2=355.9\ pm/2=177.5\ pm$
 （4）密度 $D=\frac{ZM}{VN_{A}}$ ，Z 为晶胞中原子数，M 为原子的摩尔质量，V 为晶胞体积，本题中 $V=a^{2}c\sin120^{\circ}$ ， $N_{A}$ 为 Avogadro 常数。
 
 $$
-\begin{array}{r l} & \mathrm{Er}: D = \frac {2 \times 1 6 7 . 2 6 \mathrm{g} \mathrm{mol} ^ {- 1}}{(3 5 5 . 9 ^ {2} \times 5 5 8 . 7 \times 0 . 8 6 6 \times 1 0 ^ {- 3 0} \mathrm{cm} ^ {3}) \times 6 . 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1}} = 9. 0 6 4 \mathrm{g} \mathrm{cm} ^ {- 3} \\ & \mathrm{La}: D = \frac {4 \times 1 3 8 . 9 1 \mathrm{g} \mathrm{mol} ^ {- 1}}{(3 7 7 . 0 ^ {2} \times 1 2 1 5 . 9 \times 0 . 8 6 6 \times 1 0 ^ {- 3 0} \mathrm{cm} ^ {3}) \times 6 . 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1}} = 6. 6 1 5 \mathrm{g} \mathrm{cm} ^ {- 3} \end{array}
+\begin{array}{r l} & \mathrm{Er}: D = \frac {2 \times 167.26 \mathrm{g} \mathrm{mol} ^ {- 1}}{(355.9 ^ {2} \times 558.7 \times 0.866 \times 10 ^ {- 30} \mathrm{cm} ^ {3}) \times 6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1}} = 9.064 \mathrm{g} \mathrm{cm} ^ {- 3} \\ & \mathrm{La}: D = \frac {4 \times 138.91 \mathrm{g} \mathrm{mol} ^ {- 1}}{(377.0 ^ {2} \times 1215.9 \times 0.866 \times 10 ^ {- 30} \mathrm{cm} ^ {3}) \times 6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1}} = 6.615 \mathrm{g} \mathrm{cm} ^ {- 3} \end{array}
 $$
 
 Er 的密度比 La 高得多, 主要归因于镧系收缩效应和相对原子质量随着原子序数的增加而加大这两个因素的作用。
@@ -3972,13 +3972,13 @@ $$
 (12) 已知 $\beta$ -方石英的晶胞参数 a=730 pm, 其密度(D)为
 
 $$
-D = \frac {Z M}{N _ {\mathrm{A}} V} = \frac {8 (2 8 . 0 9 + 2 \times 1 6 . 0 0) \mathrm{g} \mathrm{mol} ^ {- 1}}{6 . 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1} \times (7 3 0 \times 1 0 ^ {- 1 0} \mathrm{cm}) ^ {3}} = 2. 0 8 \mathrm{g} \mathrm{cm} ^ {- 3}
+D = \frac {Z M}{N _ {\mathrm{A}} V} = \frac {8 (28.09 + 2 \times 16.00) \mathrm{g} \mathrm{mol} ^ {- 1}}{6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1} \times (730 \times 10 ^ {- 10} \mathrm{cm}) ^ {3}} = 2.08 \mathrm{g} \mathrm{cm} ^ {- 3}
 $$
 
 Si—O 键长 d 为
 
 $$
-d = \frac {1}{8} \times \sqrt {3} (7 3 0 \mathrm{pm}) = 1 5 8. 0 \mathrm{pm}
+d = \frac {1}{8} \times \sqrt {3} (730 \mathrm{pm}) = 158.0 \mathrm{pm}
 $$
 
 （13）将图 C.21.5(a) 的 $A_{2}B$ 型结构中，在 $\left(\frac{3}{4},\frac{3}{4},\frac{3}{4}\right),\left(\frac{3}{4},\frac{1}{4},\frac{1}{4}\right),\left(\frac{1}{4},\frac{3}{4},\frac{1}{4}\right)$ ， $\left(\frac{1}{4},\frac{1}{4},\frac{3}{4}\right)$ 处加上 B 原子，得图 C.21.7 所示的 AB 型化合物的结构。将 A 原子用黑线相连，B 原子用双线相连，得到两套金刚石型结构。这两套原子相隔较远，没有连线，但是两套原子互相穿插，各自成独立的网络。
@@ -3992,7 +3992,7 @@ $$
 (14) NaTl 的结构如图 C.21.7 所示。已知立方晶胞参数 a=748.8 pm，由此可见 Na---Tl 间距离为 a/2=374.4 pm，相隔较远。Tl---Tl 间距离 (d) 为
 
 $$
-d = \frac {1}{4} \times \sqrt {3} (7 4 8. 8 \mathrm{pm}) = 3 2 4. 2 \mathrm{pm}
+d = \frac {1}{4} \times \sqrt {3} (748.8 \mathrm{pm}) = 324.2 \mathrm{pm}
 $$
 
 比 Tl 的共价半径和 $2 \times 148 \, pm = 296 \, pm$ 长，比 Tl 的金属原子半径之和 $2 \times 170.4 \, pm = 340.8 \, pm$ 短。Tl 原子按正四面体形成键。
@@ -4008,7 +4008,7 @@ $$
 (1) 试按所列的六方晶胞中原子坐标参数, 画出结构图。
 
 $$
-\mathrm{Ni}: 0 0 0, 0 0 \frac {1}{2}; \mathrm{As}: \frac {2}{3} \frac {1}{3} \frac {1}{4}, \frac {1}{3} \frac {2}{3} \frac {3}{4}.
+\mathrm{Ni}: 000, 00 \frac {1}{2}; \mathrm{As}: \frac {2}{3} \frac {1}{3} \frac {1}{4}, \frac {1}{3} \frac {2}{3} \frac {3}{4}.
 $$
 
 (2) 试计算 NiAs 中每个原子周围近邻的同一种原子以及另一种原子的数目和距离。
@@ -4020,11 +4020,11 @@ $$
 (5) 已知 CoTe 和 $CoTe_{2}$ 的六方晶胞参数分别为
 
 $$
-\mathrm{CoTe:} a = 3 8 8. 2 \mathrm{pm}, c = 5 3 6. 7 \mathrm{pm}
+\mathrm{CoTe:} a = 388.2 \mathrm{pm}, c = 536.7 \mathrm{pm}
 $$
 
 $$
-\mathrm{CoTe} _ {2}: a = 3 7 8. 4 \mathrm{pm}, c = 5 4 0. 3 \mathrm{pm}
+\mathrm{CoTe} _ {2}: a = 378.4 \mathrm{pm}, c = 540.3 \mathrm{pm}
 $$
 
 试计算 NiAs, CoTe 和 $CoTe_{2}$ 的轴长比（又称轴率，即 c/a），将结果和等径圆球 hcp 的 c/a 值比较。
@@ -4063,7 +4063,7 @@ As: 6Ni（三方棱柱体形），距离为 242.8 pm
 12As (hcp 配位), 6 个距离为 a=360.2 pm
 
 $$
-\mathrm{另} 6 \mathrm{个距离为} \left[ \left(\frac {c}{2}\right) ^ {2} + \left(\frac {2}{3} a \sin 6 0 ^ {\circ}\right) ^ {2} \right] ^ {\frac {1}{2}} = 3 2 5. 6 \mathrm{pm}
+\mathrm{另} 6 \mathrm{个距离为} \left[ \left(\frac {c}{2}\right) ^ {2} + \left(\frac {2}{3} a \sin 60 ^ {\circ}\right) ^ {2} \right] ^ {\frac {1}{2}} = 325.6 \mathrm{pm}
 $$
 
 (3) 作图分别示于图 C.22(b) 和 (c)。
@@ -4456,17 +4456,17 @@ $1\AA = 100\mathrm{pm} = 10^{-8}\mathrm{cm} = 10^{-10}\mathrm{m}$
 高阶行列式化简
 
 $$
-\begin{array}{r l} & \left| \begin{array}{c c c c} a _ {1 1} & a _ {1 2} & \dots & a _ {1 n} \\ a _ {2 1} & a _ {2 2} & \dots & a _ {2 n} \\ \dots & \dots & \dots & \dots \\ a _ {n 1} & a _ {n 2} & \dots & a _ {n n} \end{array} \right| = (- 1) ^ {1 + 1} a _ {1 1} \left| \begin{array}{c c c c} a _ {2 2} & a _ {2 3} & \dots & a _ {2 n} \\ a _ {3 2} & a _ {3 3} & \dots & a _ {3 n} \\ \dots & \dots & \dots & \dots \\ a _ {n 2} & a _ {n 3} & \dots & a _ {n n} \end{array} \right| + \\ & (- 1) ^ {1 + 2} a _ {1 2} \left| \begin{array}{c c c c} a _ {2 1} & a _ {2 3} & \dots & a _ {2 n} \\ a _ {3 1} & a _ {3 3} & \dots & a _ {3 n} \\ \dots & \dots & \dots & \dots \\ a _ {n 1} & a _ {n 3} & \dots & a _ {n n} \end{array} \right| + \dots + (- 1) ^ {1 + n} a _ {1 n} \left| \begin{array}{c c c c} a _ {2 1} & a _ {2 2} & \dots & a _ {2 (n - 1)} \\ a _ {3 1} & a _ {3 2} & \dots & a _ {3 (n - 1)} \\ \dots & \dots & \dots & \dots \\ a _ {n 1} & a _ {n 2} & \dots & a _ {n (n - 1)} \end{array} \right| \end{array}
+\begin{array}{r l} & \left| \begin{array}{c c c c} a _ {11} & a _ {12} & \dots & a _ {1 n} \\ a _ {21} & a _ {22} & \dots & a _ {2 n} \\ \dots & \dots & \dots & \dots \\ a _ {n 1} & a _ {n 2} & \dots & a _ {n n} \end{array} \right| = (- 1) ^ {1 + 1} a _ {11} \left| \begin{array}{c c c c} a _ {22} & a _ {23} & \dots & a _ {2 n} \\ a _ {32} & a _ {33} & \dots & a _ {3 n} \\ \dots & \dots & \dots & \dots \\ a _ {n 2} & a _ {n 3} & \dots & a _ {n n} \end{array} \right| + \\ & (- 1) ^ {1 + 2} a _ {12} \left| \begin{array}{c c c c} a _ {21} & a _ {23} & \dots & a _ {2 n} \\ a _ {31} & a _ {33} & \dots & a _ {3 n} \\ \dots & \dots & \dots & \dots \\ a _ {n 1} & a _ {n 3} & \dots & a _ {n n} \end{array} \right| + \dots + (- 1) ^ {1 + n} a _ {1 n} \left| \begin{array}{c c c c} a _ {21} & a _ {22} & \dots & a _ {2 (n - 1)} \\ a _ {31} & a _ {32} & \dots & a _ {3 (n - 1)} \\ \dots & \dots & \dots & \dots \\ a _ {n 1} & a _ {n 2} & \dots & a _ {n (n - 1)} \end{array} \right| \end{array}
 $$
 
 对数
 
 $$
-\mathrm{e} = 2. 7 1 8 2 8
+\mathrm{e} = 2.71828
 $$
 
 $$
-\mathrm{ln} a = 2. 3 0 3 \mathrm{lg} a
+\mathrm{ln} a = 2.303 \mathrm{lg} a
 $$
 
 指数和数列

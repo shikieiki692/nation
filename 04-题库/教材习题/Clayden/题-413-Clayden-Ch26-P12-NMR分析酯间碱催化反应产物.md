@@ -28,13 +28,13 @@ source_grade: B
 Base-catalysed reaction between these two esters allows the isolation of a product A in 82% yield.
 
 $$
-\mathrm{EtO} _ {2} \mathrm{C} \xrightarrow {\mathrm{HCO} _ {2} \mathrm{Et}} \mathrm{A}   \mathrm{EtO} ^ {\ominus} \quad \mathrm{C} _ {9} \mathrm{H} _ {1 4} \mathrm{O} _ {5}
+\mathrm{EtO} _ {2} \mathrm{C} \xrightarrow {\mathrm{HCO} _ {2} \mathrm{Et}} \mathrm{A}   \mathrm{EtO} ^ {\ominus} \quad \mathrm{C} _ {9} \mathrm{H} _ {14} \mathrm{O} _ {5}
 $$
 
 The NMR spectrum of this product shows that two species are present. Both show two 3H triplets at about δH = 1 and two 2H quartets at about δH = 3 ppm. One has a very low field proton and an ABX system at 2.1–2.9 with JAB 16 Hz, JAX 8 Hz, and JBX 4 Hz. The other has a 2H singlet at 2.28 and two protons at 5.44 and 8.86 coupled with J 13 Hz. One of these protons exchanges with D₂O. Any attempt to separate the mixture (for example by distillation or chromatography) gives the same mixture. Both compounds, or the mixture, on treatment with ethanol in acid solution give the same product B.
 
 $$
-\mathrm{C} _ {9} \mathrm{H} _ {1 4} ^ {\mathrm{A}} \mathrm{O} _ {5} \xrightarrow [ \mathrm{EtOH} ]{\mathrm{H} ^ {\oplus}} \mathrm{C} _ {1 3} \mathrm{H} _ {2 4} ^ {\mathrm{B}} \mathrm{O} _ {6}
+\mathrm{C} _ {9} \mathrm{H} _ {14} ^ {\mathrm{A}} \mathrm{O} _ {5} \xrightarrow [ \mathrm{EtOH} ]{\mathrm{H} ^ {\oplus}} \mathrm{C} _ {13} \mathrm{H} _ {24} ^ {\mathrm{B}} \mathrm{O} _ {6}
 $$
 
 Compound B has IR 1740 cm⁻¹, δH 1.15–1.25 (four t, each 3H), 2.52 (2H, ABX system JAB 16 Hz), 3.04 (1H, X of ABX split into a further doublet by J 5 Hz), and 4.6 (1H, d, J 5 Hz). What are the structures of A and B?

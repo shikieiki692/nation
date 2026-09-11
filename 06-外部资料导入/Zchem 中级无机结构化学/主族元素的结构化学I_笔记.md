@@ -1137,7 +1137,7 @@ Q：四与四，入与几之间等价如何连接？
 ■ 半径与阳离子相关（LiH:137pm, NaH:142pm, KH:152pm, RbH:154pm, CsH
 
 $$
-: 1 5 2 \mathrm{pm}, M g H _ {2}: 1 3 0 \mathrm{pm})
+: 152 \mathrm{pm}, M g H _ {2}: 130 \mathrm{pm})
 $$
 
 # 金属键

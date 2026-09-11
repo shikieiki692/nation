@@ -48,7 +48,7 @@ source_grade: A-
 10-1 硒代硫酸钠; SnSe。
 
 $$
-1 0 - 2 \quad \mathrm{Na} _ {2} \mathrm{SO} _ {3} + \mathrm{Se} = \mathrm{Na} _ {2} \mathrm{SeSO} _ {3};
+10 - 2 \quad \mathrm{Na} _ {2} \mathrm{SO} _ {3} + \mathrm{Se} = \mathrm{Na} _ {2} \mathrm{SeSO} _ {3};
 $$
 
 $$
@@ -70,7 +70,7 @@ $$
 10-4 配位后 $\mathrm{Sn}^{2+}$ 在特定晶面上与 $\mathrm{Se}^{2-}$ 相连，使晶体以一定方向生长。
 
 $$
-1 0 - 5 \quad \rho = \frac{zM}{N_{\mathrm{A}} \cdot V} = \frac{3 \times (118.71 + 78.961) \mathrm{~g} \cdot \mathrm{mol}^{-1}}{6.02 \times 10^{23} \mathrm{~mol}^{-1} \times 1.13 \times 0.42 \times 0.44 \times 10^{-21}\ \mathrm{cm}^{3}} = 4.72 \mathrm{~g} \cdot \mathrm{cm}^{-3} 。
+10 - 5 \quad \rho = \frac{zM}{N_{\mathrm{A}} \cdot V} = \frac{3 \times (118.71 + 78.961) \mathrm{~g} \cdot \mathrm{mol}^{-1}}{6.02 \times 10^{23} \mathrm{~mol}^{-1} \times 1.13 \times 0.42 \times 0.44 \times 10^{-21}\ \mathrm{cm}^{3}} = 4.72 \mathrm{~g} \cdot \mathrm{cm}^{-3} 。
 $$
 
 </details>

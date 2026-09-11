@@ -154,25 +154,25 @@ $\therefore c_{t}(I^{-}) = \frac{lnA_{F}}{k_{2}t} -\frac{1}{k_{2}t} lnA_{t}$ ，
 由 4-4 中碘浓度 $c_{\mathrm{t}}(\mathrm{I}^{-})$ 与测定的吸光度 $A_{t}$ 的定量关系式可得:
 
 $$
-k _ {2} = \frac {\ln A _ {F} - \ln A _ {t}}{\rho t} \times 1 2 6. 9 0 \times 1 0 ^ {6}
+k _ {2} = \frac {\ln A _ {F} - \ln A _ {t}}{\rho t} \times 126.90 \times 10 ^ {6}
 $$
 
 (1) t=5 min, $c_{I}=50\ \mu g\cdot L^{-1}:A_{t}=A_{5min}=1.316;\quad c_{I}=0\ \mu g\cdot L^{-1}:A_{F}=A_{5min}=1.460$ 代入上式
 
 $$
-\begin{array}{l} k _ {2} = \frac {\ln A _ {F} - \ln A _ {t}}{\rho t} \times 1 2 6. 9 0 \times 1 0 ^ {6} = \frac {0 . 3 7 8 4 - 0 . 2 7 4 6}{5 0 \times 5} \times 1 2 6. 9 0 \times 1 0 ^ {6} \\ = 5. 2 7 \times 1 0 ^ {4} \mathrm{L} \cdot \mathrm{mol} ^ {- 1} \cdot \min ^ {- 1} = 8. 7 8 \times 1 0 ^ {2} \mathrm{L} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{s} ^ {- 1} \tag {0.5分} \\ \end{array}
+\begin{array}{l} k _ {2} = \frac {\ln A _ {F} - \ln A _ {t}}{\rho t} \times 126.90 \times 10 ^ {6} = \frac {0.3784 - 0.2746}{50 \times 5} \times 126.90 \times 10 ^ {6} \\ = 5.27 \times 10 ^ {4} \mathrm{L} \cdot \mathrm{mol} ^ {- 1} \cdot \min ^ {- 1} = 8.78 \times 10 ^ {2} \mathrm{L} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{s} ^ {- 1} \tag {0.5分} \\ \end{array}
 $$
 
 (2) $t = 5 \mathrm{~min}, c_{\mathrm{I}} = 100 \mu \mathrm{g} \cdot \mathrm{L}^{-1}: \mathrm{A}_{\mathrm{t}} = \mathrm{A}_{5 \mathrm{~min}} = 1.178; c_{\mathrm{I}} = 0 \mu \mathrm{g} \cdot \mathrm{L}^{-1}: \mathrm{A}_{\mathrm{F}} = \mathrm{A}_{5 \mathrm{~min}} = 1.460$ 代入上式
 
 $$
-\begin{array}{l} k _ {2} = \frac {\ln A _ {F} - \ln A _ {t}}{\rho t} \times 1 2 6. 9 0 \times 1 0 ^ {6} = \frac {0 . 3 7 8 4 - 0 . 1 6 3 8}{1 0 0 \times 5} \times 1 2 6. 9 0 \times 1 0 ^ {6} \\ = 5. 4 5 \times 1 0 ^ {4} \mathrm{L} \cdot \mathrm{mol} ^ {- 1} \cdot \min ^ {- 1} = 9. 0 8 \times 1 0 ^ {2} \mathrm{L} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{s} ^ {- 1} \tag {0.5分} \\ \end{array}
+\begin{array}{l} k _ {2} = \frac {\ln A _ {F} - \ln A _ {t}}{\rho t} \times 126.90 \times 10 ^ {6} = \frac {0.3784 - 0.1638}{100 \times 5} \times 126.90 \times 10 ^ {6} \\ = 5.45 \times 10 ^ {4} \mathrm{L} \cdot \mathrm{mol} ^ {- 1} \cdot \min ^ {- 1} = 9.08 \times 10 ^ {2} \mathrm{L} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{s} ^ {- 1} \tag {0.5分} \\ \end{array}
 $$
 
 :
 
 $$
-\overline {{{k}}} _ {2} = (5. 2 7 \times 1 0 ^ {4} + 5. 4 5 \times 1 0 ^ {4}) / 2 = 5. 3 6 \times 1 0 ^ {4} \mathrm{L} \cdot \mathrm{mol} ^ {- 1} \cdot \min ^ {- 1} = 8. 9 3 \times 1 0 ^ {2} \mathrm{L} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{s} ^ {- 1} \tag {0.5分}
+\overline {{{k}}} _ {2} = (5.27 \times 10 ^ {4} + 5.45 \times 10 ^ {4}) / 2 = 5.36 \times 10 ^ {4} \mathrm{L} \cdot \mathrm{mol} ^ {- 1} \cdot \min ^ {- 1} = 8.93 \times 10 ^ {2} \mathrm{L} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{s} ^ {- 1} \tag {0.5分}
 $$
 
 # 第 5 题（16分）氢能源汽车
@@ -203,23 +203,23 @@ $$
 $$
 
 $$
-\left( \begin{array}{l} 1 \mathrm{molH} _ {2} \\ 0. 7 5 \mathrm{molO} _ {2} \\ 3 \mathrm{molN} _ {2} \\ T _ {0} = 2 9 8. 1 5 \mathrm{K}, \\ p _ {0} = 1 0 0 \mathrm{kPa} \end{array} \right) \xrightarrow {\text {等容绝热燃烧，} Q _ {F} = \Delta U = 0} \left( \begin{array}{l} 1 \mathrm{molH} _ {2} \mathrm{O(g)} \\ 0. 2 5 \mathrm{molO} _ {2} \\ 3 \mathrm{molN} _ {2} \\ T, p \end{array} \right)
+\left( \begin{array}{l} 1 \mathrm{molH} _ {2} \\ 0.75 \mathrm{molO} _ {2} \\ 3 \mathrm{molN} _ {2} \\ T _ {0} = 298.15 \mathrm{K}, \\ p _ {0} = 100 \mathrm{kPa} \end{array} \right) \xrightarrow {\text {等容绝热燃烧，} Q _ {F} = \Delta U = 0} \left( \begin{array}{l} 1 \mathrm{molH} _ {2} \mathrm{O(g)} \\ 0.25 \mathrm{molO} _ {2} \\ 3 \mathrm{molN} _ {2} \\ T, p \end{array} \right)
 $$
 
 ![[2022-36-CChO-juesai-grading-1_images/ab6066a569e8d65e4535b081fb3bdf4f9c8d2ef7400160bc8bb401befc250755.jpg]]
 
 $$
-\left( \begin{array}{l} 1 \mathrm{molH} _ {2} \mathrm{O(g)} \\ 0. 2 5 \mathrm{molO} _ {2} \\ 3 \mathrm{molN} _ {2} \\ T _ {0} = 2 9 8. 1 5 \mathrm{K}, p _ {0} \end{array} \right)
+\left( \begin{array}{l} 1 \mathrm{molH} _ {2} \mathrm{O(g)} \\ 0.25 \mathrm{molO} _ {2} \\ 3 \mathrm{molN} _ {2} \\ T _ {0} = 298.15 \mathrm{K}, p _ {0} \end{array} \right)
 $$
 
 (0.5 分)
 
 $$
-\Delta H _ {1} = n \Delta_ {r} H _ {m} ^ {\ominus} (2 9 8. 1 5 \mathrm{K}) = n \Delta_ {f} H _ {m} ^ {\ominus} \left(H _ {2} O, g\right) = - 2 4 1. 8 2
+\Delta H _ {1} = n \Delta_ {r} H _ {m} ^ {\ominus} (298.15 \mathrm{K}) = n \Delta_ {f} H _ {m} ^ {\ominus} \left(H _ {2} O, g\right) = - 241.82
 $$
 
 $$
-\begin{array}{l} \Delta U _ {1} = \Delta H _ {1} - \Delta n R T = [ - 2 4 1. 8 2 \times 1 0 ^ {3} - (1 - 1 - 0. 5) \times 8. 3 1 4 \times 2 9 8. 1 5 ] J \tag {1分} \\ = - 2 4 0. 5 8 k J \\ \end{array}
+\begin{array}{l} \Delta U _ {1} = \Delta H _ {1} - \Delta n R T = [ - 241.82 \times 10 ^ {3} - (1 - 1 - 0.5) \times 8.314 \times 298.15 ] J \tag {1分} \\ = - 240.58 k J \\ \end{array}
 $$
 
 $$
@@ -227,7 +227,7 @@ $$
 $$
 
 $$
-= \left[ (1 \times 2 4. 9 4 + 0. 2 5 \times 2 0. 7 8 + 3 \times 2 0. 7 8) \left(T - T _ {0}\right) \right.
+= \left[ (1 \times 24.94 + 0.25 \times 20.78 + 3 \times 20.78) \left(T - T _ {0}\right) \right.
 $$
 
 $$
@@ -235,11 +235,11 @@ $$
 $$
 
 $$
-T = 2 8 9 9. 7 2 \mathrm{K} \quad (0. 5 \text {分})
+T = 2899.72 \mathrm{K} \quad (0.5 \text {分})
 $$
 
 $$
-\Delta_ {r} H _ {m} ^ {\ominus} = \Delta_ {f} H _ {m} ^ {\ominus} (\mathrm{NO}, 2 9 8. 1 5 K) = 9 0. 4 0 k J \cdot \mathrm{mol} ^ {- 1} > 0
+\Delta_ {r} H _ {m} ^ {\ominus} = \Delta_ {f} H _ {m} ^ {\ominus} (\mathrm{NO}, 298.15 K) = 90.40 k J \cdot \mathrm{mol} ^ {- 1} > 0
 $$
 
 氢气发动机易产生。(0.5 分)
@@ -350,7 +350,7 @@ $$
 $$
 
 $$
-\eta = \frac {- W}{Q _ {1}} = \frac {Q _ {1} + Q _ {2}}{Q _ {1}} = 1 + \frac {Q _ {2}}{Q _ {1}} = 1 + \frac {T _ {1} - T _ {4}}{T _ {3} - T _ {2}} \quad (1. 5 \text {分})
+\eta = \frac {- W}{Q _ {1}} = \frac {Q _ {1} + Q _ {2}}{Q _ {1}} = 1 + \frac {Q _ {2}}{Q _ {1}} = 1 + \frac {T _ {1} - T _ {4}}{T _ {3} - T _ {2}} \quad (1.5 \text {分})
 $$
 
 对绝热可逆过程:
@@ -364,7 +364,7 @@ $$
 $$
 
 $$
-= 1 - 6 ^ {- 0. 4} = 0. 5 1 1 6 \text {(1分)}
+= 1 - 6 ^ {- 0.4} = 0.5116 \text {(1分)}
 $$
 
 绝热可逆压缩： $TV^{\gamma -1} =$ 常数， $T_{2} = T_{1}\varepsilon^{\gamma -1} = 6^{1.4 - 1}T_{1} = 610.51K$
@@ -372,7 +372,7 @@ $$
 压强对理想气体反应焓变无影响, 可不计算压强 (1 分)
 
 $$
-\begin{array}{l} \Delta_ {r} H _ {m} ^ {\ominus} (6 1 0. 5 1 K) = \Delta_ {r} H _ {m} ^ {\ominus} (2 9 8. 1 5 K) + \int_ {T _ {1}} ^ {T _ {2}} \Delta C _ {p} d T; (\Delta C _ {p, m} = \sum_ {B} \nu_ {B} C _ {p, m (B)}) \\ = - 2 4 1. 8 2 \times 1 0 0 0 + \int_ {T _ {1}} ^ {T _ {2}} (3 3. 2 6 - 1. 5 \times 2 9. 1 0) d T = - 2 4 5. 0 6 k J \\ \end{array}
+\begin{array}{l} \Delta_ {r} H _ {m} ^ {\ominus} (610.51 K) = \Delta_ {r} H _ {m} ^ {\ominus} (298.15 K) + \int_ {T _ {1}} ^ {T _ {2}} \Delta C _ {p} d T; (\Delta C _ {p, m} = \sum_ {B} \nu_ {B} C _ {p, m (B)}) \\ = - 241.82 \times 1000 + \int_ {T _ {1}} ^ {T _ {2}} (33.26 - 1.5 \times 29.10) d T = - 245.06 k J \\ \end{array}
 $$
 
 $$
@@ -380,15 +380,15 @@ Q _ {V} = \Delta U = \Delta H - \Delta n R T
 $$
 
 $$
-= \left[ - 2 4 5. 0 6 \times 1 0 ^ {3} - (1 - 1 - 0. 5) \times 8. 3 1 4 \times 6 1 0. 5 1 \right] J \quad (1 \text {分})
+= \left[ - 245.06 \times 10 ^ {3} - (1 - 1 - 0.5) \times 8.314 \times 610.51 \right] J \quad (1 \text {分})
 $$
 
 $$
-= - 2 4 2. 5 2 \mathrm{kJ}
+= - 242.52 \mathrm{kJ}
 $$
 
 $$
-W = \eta Q _ {V} = 2 4 2. 5 2 \times 0. 5 1 1 6 = 1 2 4. 0 7 k J \tag {0.5分}
+W = \eta Q _ {V} = 242.52 \times 0.5116 = 124.07 k J \tag {0.5分}
 $$
 
 5-4 氢氧燃料电池汽车以高效、无污染得到了广泛认可。设氢氧燃料电池的工作温度为 $85^{\circ}$ C。
@@ -398,7 +398,7 @@ $$
 共3分
 
 $$
-\begin{array}{l} \Delta_ {r} H _ {m} ^ {\ominus} (3 5 8. 1 5 K) = \Delta_ {r} H _ {m} ^ {\ominus} (2 9 8. 1 5 K) + \int_ {T _ {1}} ^ {T _ {2}} \Delta C _ {p} d T \\ = - 2 8 5. 8 3 \times 1 0 0 0 + \int_ {T _ {1}} ^ {T _ {2}} (7 5. 2 9 - 1. 5 \times 2 9. 1 0) d T = - 2 8 3. 9 3 k J \cdot m o l ^ {- 1} \\ \Delta_ {r} S _ {m} ^ {\ominus} (2 9 8. 1 5 K) = S _ {m} ^ {\ominus} \left(H _ {2} O, l\right) - S _ {m} ^ {\ominus} \left(H _ {2}, g\right) - 0. 5 S _ {m} ^ {\ominus} \left(O _ {2}, g\right) \\ = 6 9. 9 1 - 1 3 0. 6 8 - 0. 5 \times 2 0 5. 1 4 = - 1 6 3. 3 4 J \cdot m o l ^ {- 1} \cdot K ^ {- 1} \\ \end{array}
+\begin{array}{l} \Delta_ {r} H _ {m} ^ {\ominus} (358.15 K) = \Delta_ {r} H _ {m} ^ {\ominus} (298.15 K) + \int_ {T _ {1}} ^ {T _ {2}} \Delta C _ {p} d T \\ = - 285.83 \times 1000 + \int_ {T _ {1}} ^ {T _ {2}} (75.29 - 1.5 \times 29.10) d T = - 283.93 k J \cdot m o l ^ {- 1} \\ \Delta_ {r} S _ {m} ^ {\ominus} (298.15 K) = S _ {m} ^ {\ominus} \left(H _ {2} O, l\right) - S _ {m} ^ {\ominus} \left(H _ {2}, g\right) - 0.5 S _ {m} ^ {\ominus} \left(O _ {2}, g\right) \\ = 69.91 - 130.68 - 0.5 \times 205.14 = - 163.34 J \cdot m o l ^ {- 1} \cdot K ^ {- 1} \\ \end{array}
 $$
 
 (0.5 分)
@@ -406,25 +406,25 @@ $$
 (0.5 分)
 
 $$
-\Delta_ {r} S _ {m} ^ {\ominus} (3 5 8. 1 5 K) = \Delta_ {r} S _ {m} ^ {\ominus} (2 9 8. 1 5 K) + \int_ {T _ {1}} ^ {T _ {2}} \frac {\Delta C _ {p}}{T} d T
+\Delta_ {r} S _ {m} ^ {\ominus} (358.15 K) = \Delta_ {r} S _ {m} ^ {\ominus} (298.15 K) + \int_ {T _ {1}} ^ {T _ {2}} \frac {\Delta C _ {p}}{T} d T
 $$
 
 (1 分)
 
 $$
-= - 1 6 3. 3 4 + \int_ {T _ {1}} ^ {T _ {2}} \frac {(7 5 . 2 9 - 1 . 5 \times 2 9 . 1 0)}{T} d T = - 1 5 7. 5 4 J \cdot m o l ^ {- 1} \cdot K ^ {-}
+= - 163.34 + \int_ {T _ {1}} ^ {T _ {2}} \frac {(75.29 - 1.5 \times 29.10)}{T} d T = - 157.54 J \cdot m o l ^ {- 1} \cdot K ^ {-}
 $$
 
 $$
-\Delta_ {r} G (3 5 8. 1 5 K) = \Delta_ {r} H (3 5 8. 1 5 K) - T _ {2} \Delta_ {r} S (3 5 8. 1 5 K)
+\Delta_ {r} G (358.15 K) = \Delta_ {r} H (358.15 K) - T _ {2} \Delta_ {r} S (358.15 K)
 $$
 
 $$
-= - 2 8 3. 9 3 - 3 5 8. 1 5 \times (- 1 5 7. 5 4) \times 1 0 ^ {- 3} = - 2 2 7. 5 1 k J \cdot m o l ^ {- 1}
+= - 283.93 - 358.15 \times (- 157.54) \times 10 ^ {- 3} = - 227.51 k J \cdot m o l ^ {- 1}
 $$
 
 $$
-W _ {1} = - \Delta_ {r} G (3 5 8. 1 5 K) = 2 2 7. 5 1 \mathrm{kJ} \tag {1分}
+W _ {1} = - \Delta_ {r} G (358.15 K) = 227.51 \mathrm{kJ} \tag {1分}
 $$
 
 5-4-2 该氢氧燃料电池电极为负载20%铂的Pt/C电极。当电池输出电流密度为 $10\ mA\cdot cm^{-2}$ 时，阳极的超电势 $\eta_{阳}$ 为10 mV，阴极的超电势 $\eta_{阴}$ 为200 mV，请计算该电池在上述电流密度下输出的最大电功 $W_{2}$ 。
@@ -432,11 +432,11 @@ $$
 共1分 $E=W_{1}/nF=1.18V$
 
 $$
-V = E - \eta - \eta = 0. 9 7 V \tag {0.5分}
+V = E - \eta - \eta = 0.97 V \tag {0.5分}
 $$
 
 $$
-W _ {2} = n V F = 1 8 7. 1 8 \mathrm{kJ} \quad (0. 5 \text {分})
+W _ {2} = n V F = 187.18 \mathrm{kJ} \quad (0.5 \text {分})
 $$
 
 5-4-3 将电池用在汽车上，在 5-4-2 条件下工作，与氢燃料内燃机汽车行驶相同里程时（即最大电功与 5-3-2 条件下的热机对环境所做的功相等），请计算氢氧燃料电池和氢内燃机中所需 $H_{2}$ 之比。（如果 5-3-2 中未计算出功 W，可用 100 kJ 代替）
@@ -444,7 +444,7 @@ $$
 共1分
 
 $$
-\frac {n _ {\text {电}}}{n _ {\text {内}}} = \frac {W}{W _ {2}} = \frac {1 2 4 0 7 0}{2 \times 0 . 9 7 \times 9 6 4 8 5} = 0. 6 6
+\frac {n _ {\text {电}}}{n _ {\text {内}}} = \frac {W}{W _ {2}} = \frac {124070}{2 \times 0.97 \times 96485} = 0.66
 $$
 
 或，当 W = 100 kJ $\frac{n_{电}}{n_{内}} = \frac{W}{W_{2}} = \frac{100000}{2 \times 0.97 \times 96485} = 0.53$
@@ -613,7 +613,7 @@ $$
 由亨利定律，溶液上方蒸气中叠氮酸的分压为：
 
 $$
-p _ {H N _ {3}} = k _ {c} c _ {H N _ {3}} = 3. 8 7 \mathrm{kPa}
+p _ {H N _ {3}} = k _ {c} c _ {H N _ {3}} = 3.87 \mathrm{kPa}
 $$
 
 (0.5分)
@@ -621,7 +621,7 @@ $$
 故溶液上方蒸气中叠氮酸蒸气的摩尔分数为:
 
 $$
-n _ {H N _ {3}} = \frac {p _ {H N _ {3}}}{p _ {H N _ {3}} + p _ {H _ {2} O}} = 0. 5 5 (0. 5 \text {分})
+n _ {H N _ {3}} = \frac {p _ {H N _ {3}}}{p _ {H N _ {3}} + p _ {H _ {2} O}} = 0.55 (0.5 \text {分})
 $$
 
 溶液上方叠氮酸蒸气超过10%，存在爆炸危险性。(0.5分)

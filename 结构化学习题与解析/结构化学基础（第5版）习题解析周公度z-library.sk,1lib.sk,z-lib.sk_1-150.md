@@ -238,7 +238,7 @@ $$
 公式等号左边的 E 和 p 是光子和实物粒子所具有的能量和动量, 公式等号右边的 $\nu$ 和 $\lambda$ 是光波和实物微粒波的频率和波长。从这两个公式可见, 波性和粒性通过 Planck 常数 h 联系起来。
 
 $$
-h = 6. 6 2 6 \times 1 0 ^ {- 3 4} \mathrm{Js}
+h = 6.626 \times 10 ^ {- 34} \mathrm{Js}
 $$
 
 光波的粒性体现在用光子学说圆满地解释光电效应上, 当以 W 代表脱出功, $E_{k}$ 代表光电子动能, 得
@@ -390,7 +390,7 @@ $$
 【1.1】将锂在火焰上燃烧,放出红光,波长 $\lambda=670.8\ nm$ , 这是 Li 原子由电子组态 $(1s)^{2}(2p)^{1}\rightarrow(1s)^{2}(2s)^{1}$ 跃迁时产生的,试计算该红光的频率、波数以及以 $kJ\ mol^{-1}$ 为单位的能量。
 
 $$
-\begin{array}{r l} \text { 解 } & \nu = \frac {c}{\lambda} = \frac {2 . 9 9 8 \times 1 0 ^ {8} \mathrm{ms} ^ {- 1}}{6 7 0 . 8 \mathrm{nm}} = 4. 4 6 9 \times 1 0 ^ {1 4} \mathrm{s} ^ {- 1} \\ & \tilde {\nu} = \frac {1}{\lambda} = \frac {1}{6 7 0 . 8 \times 1 0 ^ {- 7} \mathrm{cm}} = 1. 4 9 1 \times 1 0 ^ {4} \mathrm{cm} ^ {- 1} \\ & E = h \nu N _ {\mathrm{A}} = 6. 6 2 6 \times 1 0 ^ {- 3 4} \mathrm{Js} \times 4. 4 6 9 \times 1 0 ^ {1 4} \mathrm{s} ^ {- 1} \times 6. 0 2 3 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1} \\ & = 1 7 8. 4 \mathrm{kJmol} ^ {- 1} \end{array}
+\begin{array}{r l} \text { 解 } & \nu = \frac {c}{\lambda} = \frac {2.998 \times 10 ^ {8} \mathrm{ms} ^ {- 1}}{670.8 \mathrm{nm}} = 4.469 \times 10 ^ {14} \mathrm{s} ^ {- 1} \\ & \tilde {\nu} = \frac {1}{\lambda} = \frac {1}{670.8 \times 10 ^ {- 7} \mathrm{cm}} = 1.491 \times 10 ^ {4} \mathrm{cm} ^ {- 1} \\ & E = h \nu N _ {\mathrm{A}} = 6.626 \times 10 ^ {- 34} \mathrm{Js} \times 4.469 \times 10 ^ {14} \mathrm{s} ^ {- 1} \times 6.023 \times 10 ^ {23} \mathrm{mol} ^ {- 1} \\ & = 178.4 \mathrm{kJmol} ^ {- 1} \end{array}
 $$
 
 【1.2】实验测定金属钠的光电效应数据如下：
@@ -423,13 +423,13 @@ $$
 即 Planck 常数等于 $E_{k}-\nu$ 图的斜率。选取两合适点，将 $E_{k}$ 和 $\nu$ 值代入上式，即可求出 h。例如：
 
 $$
-h = \frac {(2 . 7 0 - 1 . 0 5) \times 1 0 ^ {- 1 9} \mathrm{J}}{(8 . 5 0 - 6 . 0 0) \times 1 0 ^ {1 4} \mathrm{s} ^ {- 1}} = 6. 6 0 \times 1 0 ^ {- 3 4} \mathrm{Js}
+h = \frac {(2.70 - 1.05) \times 10 ^ {- 19} \mathrm{J}}{(8.50 - 6.00) \times 10 ^ {14} \mathrm{s} ^ {- 1}} = 6.60 \times 10 ^ {- 34} \mathrm{Js}
 $$
 
 图中直线与横坐标的交点所代表的 $\nu$ 即金属钠的临阈频率 $\nu_{0}$ ，由图可知， $\nu_{0}=4.36\times10^{14}\ s^{-1}$ 。因此，金属钠的脱出功为
 
 $$
-\begin{array}{r l} W & = h \nu_ {0} = 6. 6 0 \times 1 0 ^ {- 3 4} \mathrm{Js} \times 4. 3 6 \times 1 0 ^ {1 4} \mathrm{s} ^ {- 1} \\ & = 2. 8 8 \times 1 0 ^ {- 1 9} \mathrm{J} \end{array}
+\begin{array}{r l} W & = h \nu_ {0} = 6.60 \times 10 ^ {- 34} \mathrm{Js} \times 4.36 \times 10 ^ {14} \mathrm{s} ^ {- 1} \\ & = 2.88 \times 10 ^ {- 19} \mathrm{J} \end{array}
 $$
 
 【1.3】金属钾的临阈频率为 $5.464 \times 10^{14} \, s^{-1}$ ，如用它作为光电池的阴极，当用波长为 300 nm 的紫外光照射该电池时，发射的光电子的最大速度是多少？
@@ -437,7 +437,7 @@ $$
 解
 
 $$
-\begin{array}{r l} & h \nu = h \nu_ {0} + \frac {1}{2} m v ^ {2} \\ & v = \left[ \frac {2 h (\nu - \nu_ {0})}{m} \right] ^ {\frac {1}{2}} \\ & = \left[ \frac {2 \times 6 . 6 2 6 \times 1 0 ^ {- 3 4} \mathrm{Js} \left(\frac {2 . 9 9 8 \times 1 0 ^ {8} \mathrm{ms} ^ {- 1}}{3 0 0 \times 1 0 ^ {- 9} \mathrm{m}} - 5 . 4 6 4 \times 1 0 ^ {1 4} \mathrm{s} ^ {- 1}\right)}{9 . 1 0 9 \times 1 0 ^ {- 3 1} \mathrm{kg}} \right] ^ {\frac {1}{2}} \\ & = \left[ \frac {2 \times 6 . 6 2 6 \times 1 0 ^ {- 3 4} \mathrm{Js} \times 4 . 5 2 9 \times 1 0 ^ {1 4} \mathrm{s} ^ {- 1}}{9 . 1 0 9 \times 1 0 ^ {- 3 1} \mathrm{kg}} \right] ^ {\frac {1}{2}} \\ & = 8. 1 2 \times 1 0 ^ {5} \mathrm{ms} ^ {- 1} \end{array}
+\begin{array}{r l} & h \nu = h \nu_ {0} + \frac {1}{2} m v ^ {2} \\ & v = \left[ \frac {2 h (\nu - \nu_ {0})}{m} \right] ^ {\frac {1}{2}} \\ & = \left[ \frac {2 \times 6.626 \times 10 ^ {- 34} \mathrm{Js} \left(\frac {2.998 \times 10 ^ {8} \mathrm{ms} ^ {- 1}}{300 \times 10 ^ {- 9} \mathrm{m}} - 5.464 \times 10 ^ {14} \mathrm{s} ^ {- 1}\right)}{9.109 \times 10 ^ {- 31} \mathrm{kg}} \right] ^ {\frac {1}{2}} \\ & = \left[ \frac {2 \times 6.626 \times 10 ^ {- 34} \mathrm{Js} \times 4.529 \times 10 ^ {14} \mathrm{s} ^ {- 1}}{9.109 \times 10 ^ {- 31} \mathrm{kg}} \right] ^ {\frac {1}{2}} \\ & = 8.12 \times 10 ^ {5} \mathrm{ms} ^ {- 1} \end{array}
 $$
 
 【1.4】计算下述粒子的德布罗意波的波长：
@@ -451,7 +451,7 @@ $$
 解 根据 de Broglie 关系式：
 
 $$
-\begin{array}{r l} & \lambda = \frac {h}{m v} = \frac {6 . 6 2 6 \times 1 0 ^ {- 3 4} \mathrm{Js}}{1 0 ^ {- 1 0} \mathrm{kg} \times 0 . 0 1 \mathrm{ms} ^ {- 1}} \\ & \quad = 6. 6 2 6 \times 1 0 ^ {- 2 2} \mathrm{m} \\ & \lambda = \frac {h}{p} = \frac {h}{\sqrt {2 m T}} = \frac {6 . 6 2 6 \times 1 0 ^ {- 3 4} \mathrm{Js}}{\sqrt {2 \times 1 . 6 7 5 \times 1 0 ^ {- 2 7} \mathrm{kg} \times 0 . 1 \mathrm{eV} \times 1 . 6 0 2 \times 1 0 ^ {- 1 9} \mathrm{J(eV)} ^ {- 1}}} \\ & \quad = 9. 0 4 3 \times 1 0 ^ {- 1 1} \mathrm{m} \\ & \lambda = \frac {h}{p} = \frac {h}{\sqrt {2 m e V}} = \frac {6 . 6 2 6 \times 1 0 ^ {- 3 4} \mathrm{Js}}{\sqrt {2 \times 9 . 1 0 9 \times 1 0 ^ {- 3 1} \mathrm{kg} \times 1 . 6 0 2 \times 1 0 ^ {- 1 9} \mathrm{C} \times 3 0 0 \mathrm{V}}} \\ & \quad = 7. 0 8 \times 1 0 ^ {- 1 1} \mathrm{m} \end{array}
+\begin{array}{r l} & \lambda = \frac {h}{m v} = \frac {6.626 \times 10 ^ {- 34} \mathrm{Js}}{10 ^ {- 10} \mathrm{kg} \times 0.01 \mathrm{ms} ^ {- 1}} \\ & \quad = 6.626 \times 10 ^ {- 22} \mathrm{m} \\ & \lambda = \frac {h}{p} = \frac {h}{\sqrt {2 m T}} = \frac {6.626 \times 10 ^ {- 34} \mathrm{Js}}{\sqrt {2 \times 1.675 \times 10 ^ {- 27} \mathrm{kg} \times 0.1 \mathrm{eV} \times 1.602 \times 10 ^ {- 19} \mathrm{J(eV)} ^ {- 1}}} \\ & \quad = 9.043 \times 10 ^ {- 11} \mathrm{m} \\ & \lambda = \frac {h}{p} = \frac {h}{\sqrt {2 m e V}} = \frac {6.626 \times 10 ^ {- 34} \mathrm{Js}}{\sqrt {2 \times 9.109 \times 10 ^ {- 31} \mathrm{kg} \times 1.602 \times 10 ^ {- 19} \mathrm{C} \times 300 \mathrm{V}}} \\ & \quad = 7.08 \times 10 ^ {- 11} \mathrm{m} \end{array}
 $$
 
 【1.5】用透射电子显微镜摄取某化合物的选区电子衍射图,加速电压为 200 kV,计算电子加
@@ -461,7 +461,7 @@ $$
 解 根据 de Broglie 关系式:
 
 $$
-\begin{array}{r l} \lambda & = \frac {h}{p} = \frac {h}{m v} = \frac {h}{\sqrt {2 m e V}} \\ & = \frac {6 . 6 2 6 \times 1 0 ^ {- 3 4} \mathrm{Js}}{\sqrt {2 \times 9 . 1 0 9 \times 1 0 ^ {- 3 1} \mathrm{kg} \times 1 . 6 0 2 \times 1 0 ^ {- 1 9} \mathrm{C} \times 2 \times 1 0 ^ {5} \mathrm{V}}} \\ & = 2. 7 4 2 \times 1 0 ^ {- 1 2} \mathrm{m} \end{array}
+\begin{array}{r l} \lambda & = \frac {h}{p} = \frac {h}{m v} = \frac {h}{\sqrt {2 m e V}} \\ & = \frac {6.626 \times 10 ^ {- 34} \mathrm{Js}}{\sqrt {2 \times 9.109 \times 10 ^ {- 31} \mathrm{kg} \times 1.602 \times 10 ^ {- 19} \mathrm{C} \times 2 \times 10 ^ {5} \mathrm{V}}} \\ & = 2.742 \times 10 ^ {- 12} \mathrm{m} \end{array}
 $$
 
 【评注】在进行1.3～1.5题的运算时，单位的换算十分重要。可查附录表B.2所列出的关系替换。例如由C(As)和V(WA $^{-1}$ )可将CV乘积换成J,J可换成kgm $^{2}$ s $^{-2}$ 等。
@@ -534,13 +534,13 @@ $$
 (2) (a) $H_{2}$ 分子中电子的 $\Delta v_{\min}$ 为
 
 $$
-\Delta v _ {\mathrm{min}} = h / m \cdot \Delta x = \frac {6 . 6 \times 1 0 ^ {- 3 4} \mathrm{Js}}{(9 . 1 \times 1 0 ^ {- 3 1} \mathrm{kg}) (3 \times 1 0 ^ {- 1 0} \mathrm{m})} = 2. 4 \times 1 0 ^ {6} \mathrm{ms} ^ {- 1}
+\Delta v _ {\mathrm{min}} = h / m \cdot \Delta x = \frac {6.6 \times 10 ^ {- 34} \mathrm{Js}}{(9.1 \times 10 ^ {- 31} \mathrm{kg}) (3 \times 10 ^ {- 10} \mathrm{m})} = 2.4 \times 10 ^ {6} \mathrm{ms} ^ {- 1}
 $$
 
 (e) 5 m 宽箱中的 $O_{2}$ 分子
 
 $$
-\Delta v _ {\mathrm{min}} = h / m \cdot \Delta x = \frac {6 . 6 \times 1 0 ^ {- 3 4} \mathrm{Js}}{(5 . 3 \times 1 0 ^ {- 2 6} \mathrm{kg}) (5 \mathrm{m})} = 2. 5 \times 1 0 ^ {- 9} \mathrm{ms} ^ {- 1}
+\Delta v _ {\mathrm{min}} = h / m \cdot \Delta x = \frac {6.6 \times 10 ^ {- 34} \mathrm{Js}}{(5.3 \times 10 ^ {- 26} \mathrm{kg}) (5 \mathrm{m})} = 2.5 \times 10 ^ {- 9} \mathrm{ms} ^ {- 1}
 $$
 
 【1.10】 $\psi = x\mathrm{e}^{-ax^2}$ 是算符 $\left(\frac{\mathrm{d}^2}{\mathrm{d}x^2} -4a^2 x^2\right)$ 的本征函数，求其本征值。
@@ -681,17 +681,17 @@ $$
 (2) 粒子在 $\psi_{1}$ 状态时, 出现在 0.49l\~0.51l 间的概率为
 
 $$
-\begin{array}{r l} P _ {1} & = \int_ {0. 4 9 l} ^ {0. 5 1 l} \psi_ {1} ^ {2} (x) \mathrm{d} x = \int_ {0. 4 9 l} ^ {0. 5 1 l} \left(\sqrt {\frac {2}{l}} \sin \frac {\pi x}{l}\right) ^ {2} \mathrm{d} x \\ & = \int_ {0. 4 9 l} ^ {0. 5 1 l} \frac {2}{l} \sin^ {2} \frac {\pi x}{l} \mathrm{d} x \\ & = \frac {2}{l} \left[ \frac {x}{2} - \frac {l}{4 \pi} \sin \frac {2 \pi x}{l} \right] _ {0. 4 9 l} ^ {0. 5 1 l} \\ & = \left[ \frac {x}{l} - \frac {1}{2 \pi} \sin \frac {2 \pi x}{l} \right] _ {0. 4 9 l} ^ {0. 5 1 l} \end{array}
+\begin{array}{r l} P _ {1} & = \int_ {0.49 l} ^ {0.51 l} \psi_ {1} ^ {2} (x) \mathrm{d} x = \int_ {0.49 l} ^ {0.51 l} \left(\sqrt {\frac {2}{l}} \sin \frac {\pi x}{l}\right) ^ {2} \mathrm{d} x \\ & = \int_ {0.49 l} ^ {0.51 l} \frac {2}{l} \sin^ {2} \frac {\pi x}{l} \mathrm{d} x \\ & = \frac {2}{l} \left[ \frac {x}{2} - \frac {l}{4 \pi} \sin \frac {2 \pi x}{l} \right] _ {0.49 l} ^ {0.51 l} \\ & = \left[ \frac {x}{l} - \frac {1}{2 \pi} \sin \frac {2 \pi x}{l} \right] _ {0.49 l} ^ {0.51 l} \end{array}
 $$
 
 $$
-\begin{array}{l} = 0. 0 2 - \frac {1}{2 \pi} (\sin 1. 0 2 \pi - \sin 0. 9 8 \pi) \\ = 0. 0 3 9 9 \end{array}
+\begin{array}{l} = 0.02 - \frac {1}{2 \pi} (\sin 1.02 \pi - \sin 0.98 \pi) \\ = 0.0399 \end{array}
 $$
 
 粒子在 $\psi_{2}$ 状态时，出现在 $0.49l \sim 0.51l$ 间的概率为
 
 $$
-\begin{array}{r l} P _ {2} & = \int_ {0. 4 9 l} ^ {0. 5 1 l} \psi_ {2} ^ {2} (x) \mathrm{d} x = \int_ {0. 4 9 l} ^ {0. 5 1 l} \left(\sqrt {\frac {2}{l}} \sin \frac {2 \pi x}{l}\right) ^ {2} \mathrm{d} x \\ & = \int_ {0. 4 9 l} ^ {0. 5 1 l} \frac {2}{l} \sin^ {2} \frac {2 \pi x}{l} \mathrm{d} x \\ & = \frac {2}{l} \left[ \frac {x}{2} - \frac {l}{8 \pi} \sin \frac {4 \pi x}{l} \right] _ {0. 4 9 l} ^ {0. 5 1 l} \\ & = \left[ \frac {x}{l} - \frac {1}{4 \pi} \sin \frac {4 \pi x}{l} \right] _ {0. 4 9 l} ^ {0. 5 1 l} \\ & = \left(\frac {0 . 5 1 l}{l} - \frac {1}{4 \pi} \sin \frac {4 \pi \times 0 . 5 1 l}{l}\right) - \left(\frac {0 . 4 9 l}{l} - \frac {1}{4 \pi} \sin \frac {4 \pi \times 0 . 4 9 l}{l}\right) \\ & \approx 0. 0 0 0 1 \end{array}
+\begin{array}{r l} P _ {2} & = \int_ {0.49 l} ^ {0.51 l} \psi_ {2} ^ {2} (x) \mathrm{d} x = \int_ {0.49 l} ^ {0.51 l} \left(\sqrt {\frac {2}{l}} \sin \frac {2 \pi x}{l}\right) ^ {2} \mathrm{d} x \\ & = \int_ {0.49 l} ^ {0.51 l} \frac {2}{l} \sin^ {2} \frac {2 \pi x}{l} \mathrm{d} x \\ & = \frac {2}{l} \left[ \frac {x}{2} - \frac {l}{8 \pi} \sin \frac {4 \pi x}{l} \right] _ {0.49 l} ^ {0.51 l} \\ & = \left[ \frac {x}{l} - \frac {1}{4 \pi} \sin \frac {4 \pi x}{l} \right] _ {0.49 l} ^ {0.51 l} \\ & = \left(\frac {0.51 l}{l} - \frac {1}{4 \pi} \sin \frac {4 \pi \times 0.51 l}{l}\right) - \left(\frac {0.49 l}{l} - \frac {1}{4 \pi} \sin \frac {4 \pi \times 0.49 l}{l}\right) \\ & \approx 0.0001 \end{array}
 $$
 
 (3) 计算结果与图形符合。
@@ -735,7 +735,7 @@ $$
 因此
 
 $$
-\begin{array}{r l} & l = \left[ \frac {(2 n + 1) h \lambda}{8 m c} \right] ^ {\frac {1}{2}} \\ & = \left[ \frac {(2 \times 4 + 1) \times 6 . 6 2 6 \times 1 0 ^ {- 3 4} \mathrm{Js} \times 4 6 0 \times 1 0 ^ {- 9} \mathrm{m}}{8 \times 9 . 1 0 9 \times 1 0 ^ {- 3 1} \mathrm{kg} \times 2 . 9 9 8 \times 1 0 ^ {8} \mathrm{ms} ^ {- 1}} \right] ^ {\frac {1}{2}} \\ & = 1 1 2 0 \mathrm{pm} \end{array}
+\begin{array}{r l} & l = \left[ \frac {(2 n + 1) h \lambda}{8 m c} \right] ^ {\frac {1}{2}} \\ & = \left[ \frac {(2 \times 4 + 1) \times 6.626 \times 10 ^ {- 34} \mathrm{Js} \times 460 \times 10 ^ {- 9} \mathrm{m}}{8 \times 9.109 \times 10 ^ {- 31} \mathrm{kg} \times 2.998 \times 10 ^ {8} \mathrm{ms} ^ {- 1}} \right] ^ {\frac {1}{2}} \\ & = 1120 \mathrm{pm} \end{array}
 $$
 
 计算结果与按分子构型参数估算所得结果吻合。
@@ -753,7 +753,7 @@ $$
 根据上述公式,能级最低的前5个能量依次为[以 $h^{2}/(8ma^{2})$ 为单位]
 
 $$
-\begin{array}{l} {E _ {1 1 1} = 3} \\ {E _ {1 1 2} = E _ {1 2 1} = E _ {2 1 1} = 6} \\ {E _ {1 2 2} = E _ {2 1 2} = E _ {2 2 1} = 9} \\ {E _ {1 1 3} = E _ {1 3 1} = E _ {3 1 1} = 1 1} \\ {E _ {2 2 2} = 1 2} \end{array}
+\begin{array}{l} {E _ {111} = 3} \\ {E _ {112} = E _ {121} = E _ {211} = 6} \\ {E _ {122} = E _ {212} = E _ {221} = 9} \\ {E _ {113} = E _ {131} = E _ {311} = 11} \\ {E _ {222} = 12} \end{array}
 $$
 
 ![](结构化学基础（第5版）习题解析周公度z-library.sk,1lib.sk,z-lib.sk_1-150_images/a4d75acef798f1e0e7aaf5564967084b093d407e5c38d6ac058ca70343648ceb.jpg)  
@@ -808,7 +808,7 @@ $$
 解 该离子共有 10 个 $\pi$ 电子, 当离子处于基态时, 这些电子填充在能级最低的前 5 个 $\pi$ 型分子轨道上。离子受到光的照射, $\pi$ 电子将从低能级跃迁到高能级, 跃迁所需要的最低能量即第 5 和第 6 两个分子轨道的能级差。此能级差对应于吸收光谱的最大波长。应用一维势箱粒子的能级表达式即可求出该波长:
 
 $$
-\begin{array}{r l} \Delta E & = \frac {h c}{\lambda} = E _ {6} - E _ {5} = \frac {6 ^ {2} h ^ {2}}{8 m l ^ {2}} - \frac {5 ^ {2} h ^ {2}}{8 m l ^ {2}} = \frac {1 1 h ^ {2}}{8 m l ^ {2}} \\ \lambda & = \frac {8 m c l ^ {2}}{1 1 h} \\ & = \frac {8 \times 9 . 1 0 9 5 \times 1 0 ^ {- 3 1} \mathrm{kg} \times 2 . 9 9 7 9 \times 1 0 ^ {8} \mathrm{ms} ^ {- 1} \times (1 . 3 \times 1 0 ^ {- 9} \mathrm{m}) ^ {2}}{1 1 \times 6 . 6 2 6 2 \times 1 0 ^ {- 3 4} \mathrm{Js}} \\ & = 5 0 6. 6 \mathrm{nm} \end{array}
+\begin{array}{r l} \Delta E & = \frac {h c}{\lambda} = E _ {6} - E _ {5} = \frac {6 ^ {2} h ^ {2}}{8 m l ^ {2}} - \frac {5 ^ {2} h ^ {2}}{8 m l ^ {2}} = \frac {11 h ^ {2}}{8 m l ^ {2}} \\ \lambda & = \frac {8 m c l ^ {2}}{11 h} \\ & = \frac {8 \times 9.1095 \times 10 ^ {- 31} \mathrm{kg} \times 2.9979 \times 10 ^ {8} \mathrm{ms} ^ {- 1} \times (1.3 \times 10 ^ {- 9} \mathrm{m}) ^ {2}}{11 \times 6.6262 \times 10 ^ {- 34} \mathrm{Js}} \\ & = 506.6 \mathrm{nm} \end{array}
 $$
 
 实验值为 510.0 nm，计算值与实验值的相对误差为 -0.67%。
@@ -824,7 +824,7 @@ $$
 解 由量子数 $n$ 可知， $n = 0$ 为非简并态， $|n| \geqslant 1$ 都为二重简并态，6个 $\pi$ 电子处于 $n = 0, 1, -1$ 等3个轨道，如图1.21所示。
 
 $$
-\begin{array}{r l} \Delta E & = E _ {2} - E _ {1} = \frac {(4 - 1) h ^ {2}}{8 \pi^ {2} m R ^ {2}} = \frac {h c}{\lambda} \\ \lambda & = \frac {8 \pi^ {2} m R ^ {2} c}{3 h} \\ & = \frac {8 \pi^ {2} \times (9 . 1 1 \times 1 0 ^ {- 3 1} \mathrm{kg}) \times (1 . 4 0 \times 1 0 ^ {- 1 0} \mathrm{m}) ^ {2} \times (2 . 9 9 8 \times 1 0 ^ {8} \mathrm{ms} ^ {- 1})}{3 \times (6 . 6 2 6 \times 1 0 ^ {- 3 4} \mathrm{Js})} \\ & = 2 1 2 \times 1 0 ^ {- 9} \mathrm{m} \\ & = 2 1 2 \mathrm{nm} \end{array}
+\begin{array}{r l} \Delta E & = E _ {2} - E _ {1} = \frac {(4 - 1) h ^ {2}}{8 \pi^ {2} m R ^ {2}} = \frac {h c}{\lambda} \\ \lambda & = \frac {8 \pi^ {2} m R ^ {2} c}{3 h} \\ & = \frac {8 \pi^ {2} \times (9.11 \times 10 ^ {- 31} \mathrm{kg}) \times (1.40 \times 10 ^ {- 10} \mathrm{m}) ^ {2} \times (2.998 \times 10 ^ {8} \mathrm{ms} ^ {- 1})}{3 \times (6.626 \times 10 ^ {- 34} \mathrm{Js})} \\ & = 212 \times 10 ^ {- 9} \mathrm{m} \\ & = 212 \mathrm{nm} \end{array}
 $$
 
 ![](结构化学基础（第5版）习题解析周公度z-library.sk,1lib.sk,z-lib.sk_1-150_images/60b35323d30e324b7946d3d575c88029446862a8f8e8ce4f08c79e4a323bfa32.jpg)  
@@ -861,7 +861,7 @@ $$
 若该粒子的某一运动状态用下列波函数表示：
 
 $$
-\phi (x) = 0. 6 \psi_ {1} (x) + 0. 8 \psi_ {2} (x)
+\phi (x) = 0.6 \psi_ {1} (x) + 0.8 \psi_ {2} (x)
 $$
 
 (1) 指出该粒子处于基态和第二激发态的概率;
@@ -875,7 +875,7 @@ $$
 (2) 粒子出现在 $0 \leqslant x \leqslant l/3$ 的范围内的概率计算如下：
 
 $$
-\begin{array}{r l} P & = \int_ {0} ^ {l / 3} \phi^ {2} \mathrm{d} x = 0. 3 6 \int_ {0} ^ {l / 3} \psi_ {1} ^ {2} \mathrm{d} x + 0. 9 6 \int_ {0} ^ {l / 3} \psi_ {1} \psi_ {2} \mathrm{d} x + 0. 6 4 \int_ {0} ^ {l / 3} \psi_ {2} ^ {2} \mathrm{d} x \\ & = 0. 3 6 \left(\frac {1}{3} - \frac {\sqrt {3}}{4 \pi}\right) + 0. 4 8 \frac {\sqrt {3}}{\pi} + 0. 6 4 \left(\frac {1}{3} + \frac {\sqrt {3}}{8 \pi}\right) = \frac {1}{3} + 0. 4 7 \frac {\sqrt {3}}{\pi} = 0. 5 9 2 \end{array}
+\begin{array}{r l} P & = \int_ {0} ^ {l / 3} \phi^ {2} \mathrm{d} x = 0.36 \int_ {0} ^ {l / 3} \psi_ {1} ^ {2} \mathrm{d} x + 0.96 \int_ {0} ^ {l / 3} \psi_ {1} \psi_ {2} \mathrm{d} x + 0.64 \int_ {0} ^ {l / 3} \psi_ {2} ^ {2} \mathrm{d} x \\ & = 0.36 \left(\frac {1}{3} - \frac {\sqrt {3}}{4 \pi}\right) + 0.48 \frac {\sqrt {3}}{\pi} + 0.64 \left(\frac {1}{3} + \frac {\sqrt {3}}{8 \pi}\right) = \frac {1}{3} + 0.47 \frac {\sqrt {3}}{\pi} = 0.592 \end{array}
 $$
 
 （3）对能量作一次测量，得到的结果是不确定的，但是只有两种可能： $E_{1}$ 和 $E_{2}$ ，有 36% 的可能是 $E_{1}$ ，有 64% 的可能是 $E_{2}$ 。
@@ -893,7 +893,7 @@ $$
 当 $n = 1$ 时，半径 $r$ 为
 
 $$
-r = 5 2. 9 2 \mathrm{pm} \equiv a _ {0}
+r = 52.92 \mathrm{pm} \equiv a _ {0}
 $$
 
 $a_{0}$ 称为 Bohr 半径,以后人们以它作原子单位制中的长度单位。Rydberg 常数为
@@ -905,7 +905,7 @@ $$
 当 m 以氢原子的折合质量代入, 计算所得的 Rydberg 常数为 $R_{H}$ :
 
 $$
-R _ {\mathrm{H}} = 1 0 9 6 7 8 \mathrm{cm} ^ {- 1}
+R _ {\mathrm{H}} = 109678 \mathrm{cm} ^ {- 1}
 $$
 
 这数值和实验值符合得很好,是 Bohr 氢原子模型的一大成就。但 Bohr 模型没有涉及微观粒子的波性,不能推广用于其他原子,也不能正确表达原子的球体结构。
@@ -971,7 +971,7 @@ $$
 主量子数 n 决定体系能量的高低, 对单电子原子:
 
 $$
-\begin{array}{r l} E _ {n} & = - \frac {\mu e ^ {4}}{8 \varepsilon_ {0} ^ {2} h ^ {2}} \frac {Z ^ {2}}{n ^ {2}} \\ & = - 1 3. 5 9 5 \frac {Z ^ {2}}{n ^ {2}} (\mathrm{eV}) \end{array}
+\begin{array}{r l} E _ {n} & = - \frac {\mu e ^ {4}}{8 \varepsilon_ {0} ^ {2} h ^ {2}} \frac {Z ^ {2}}{n ^ {2}} \\ & = - 13.595 \frac {Z ^ {2}}{n ^ {2}} (\mathrm{eV}) \end{array}
 $$
 
 n 取值为 1,2,3,…。
@@ -1029,7 +1029,7 @@ $$
 $\beta_{e}$ 称为 Bohr 磁子, 是磁矩的一个自然单位:
 
 $$
-\beta_ {\mathrm{e}} = \frac {| e | h}{4 \pi m _ {\mathrm{e}}} = 9. 2 7 4 \times 1 0 ^ {- 2 4} \mathrm{JT} ^ {- 1}
+\beta_ {\mathrm{e}} = \frac {| e | h}{4 \pi m _ {\mathrm{e}}} = 9.274 \times 10 ^ {- 24} \mathrm{JT} ^ {- 1}
 $$
 
 电子的自旋磁矩的大小 $|\mu_s|$ 为
@@ -1075,7 +1075,7 @@ $$
 这样可从屏蔽常数的估算规则算出 $\sigma_{i}$ 和单电子原子轨道能 $E_{i}$ :
 
 $$
-E _ {i} = - 1 3. 6 \frac {(Z - \sigma_ {i}) ^ {2}}{n ^ {2}} (\mathrm{eV})
+E _ {i} = - 13.6 \frac {(Z - \sigma_ {i}) ^ {2}}{n ^ {2}} (\mathrm{eV})
 $$
 
 另外,通过测定原子电离能的实验可求得中性原子中原子轨道的电子结合能,它等于电离该电子所需能量的负值。
@@ -1155,37 +1155,37 @@ $$
 解 将各波长换算成波数：
 
 $$
-\begin{array}{l l} \lambda_ {1} = 6 5 6. 4 7 \mathrm{nm} & \widetilde {\nu} _ {1} = 1 5 2 3 3 \mathrm{cm} ^ {- 1} \\ \lambda_ {2} = 4 8 6. 2 7 \mathrm{nm} & \widetilde {\nu} _ {2} = 2 0 5 6 5 \mathrm{cm} ^ {- 1} \\ \lambda_ {3} = 4 3 4. 1 7 \mathrm{nm} & \widetilde {\nu} _ {3} = 2 3 0 3 2 \mathrm{cm} ^ {- 1} \\ \lambda_ {4} = 4 1 0. 2 9 \mathrm{nm} & \widetilde {\nu} _ {4} = 2 4 3 7 3 \mathrm{cm} ^ {- 1} \end{array}
+\begin{array}{l l} \lambda_ {1} = 656.47 \mathrm{nm} & \widetilde {\nu} _ {1} = 15233 \mathrm{cm} ^ {- 1} \\ \lambda_ {2} = 486.27 \mathrm{nm} & \widetilde {\nu} _ {2} = 20565 \mathrm{cm} ^ {- 1} \\ \lambda_ {3} = 434.17 \mathrm{nm} & \widetilde {\nu} _ {3} = 23032 \mathrm{cm} ^ {- 1} \\ \lambda_ {4} = 410.29 \mathrm{nm} & \widetilde {\nu} _ {4} = 24373 \mathrm{cm} ^ {- 1} \end{array}
 $$
 
 由于这些谱线相邻，可令 $n_{1}=m, n_{2}=m+1, m+2, \cdots$ 。列出下列 4 式：
 
 $$
-1 5 2 3 3 = \frac {R}{m ^ {2}} - \frac {R}{(m + 1) ^ {2}}\tag{1}
+15233 = \frac {R}{m ^ {2}} - \frac {R}{(m + 1) ^ {2}}\tag{1}
 $$
 
 $$
-2 0 5 6 5 = \frac {R}{m ^ {2}} - \frac {R}{(m + 2) ^ {2}}\tag{2}
+20565 = \frac {R}{m ^ {2}} - \frac {R}{(m + 2) ^ {2}}\tag{2}
 $$
 
 $$
-2 3 0 3 2 = \frac {R}{m ^ {2}} - \frac {R}{(m + 3) ^ {2}}\tag{3}
+23032 = \frac {R}{m ^ {2}} - \frac {R}{(m + 3) ^ {2}}\tag{3}
 $$
 
 $$
-2 4 3 7 3 = \frac {R}{m ^ {2}} - \frac {R}{(m + 4) ^ {2}}\tag{4}
+24373 = \frac {R}{m ^ {2}} - \frac {R}{(m + 4) ^ {2}}\tag{4}
 $$
 
 (1)÷(2)得
 
 $$
-\frac {1 5 2 3 3}{2 0 5 6 5} = \frac {(2 m + 1) (m + 2) ^ {2}}{4 (m + 1) ^ {3}} = 0. 7 4 0 7 2 5
+\frac {15233}{20565} = \frac {(2 m + 1) (m + 2) ^ {2}}{4 (m + 1) ^ {3}} = 0.740725
 $$
 
 用尝试法得 m=2（任意两式计算，结果皆同）。将 m=2 代入上列 4 式中任一式，得
 
 $$
-R = 1 0 9 6 7 8 \mathrm{cm} ^ {- 1}
+R = 109678 \mathrm{cm} ^ {- 1}
 $$
 
 因而,氢原子可见光谱(Balmer 线系)各谱线的波数可归纳为下式表示:
@@ -1227,19 +1227,19 @@ $$
 当原子处于基态即 n=1 时, 电子绕核运动的半径为
 
 $$
-\begin{array}{r l} r _ {1} & = \frac {h ^ {2} \varepsilon_ {0}}{\pi m e ^ {2}} \\ & = \frac {(6 . 6 2 6 1 8 \times 1 0 ^ {- 3 4} \mathrm{Js}) ^ {2} \times 8 . 8 5 4 1 9 \times 1 0 ^ {- 1 2} \mathrm{C} ^ {2} \mathrm{J} ^ {- 1} \mathrm{m} ^ {- 1}}{\pi \times 9 . 1 0 9 5 3 \times 1 0 ^ {- 3 1} \mathrm{kg} \times (1 . 6 0 2 1 9 \times 1 0 ^ {- 1 9} \mathrm{C}) ^ {2}} = 5 2. 9 1 8 \mathrm{pm} \end{array}
+\begin{array}{r l} r _ {1} & = \frac {h ^ {2} \varepsilon_ {0}}{\pi m e ^ {2}} \\ & = \frac {(6.62618 \times 10 ^ {- 34} \mathrm{Js}) ^ {2} \times 8.85419 \times 10 ^ {- 12} \mathrm{C} ^ {2} \mathrm{J} ^ {- 1} \mathrm{m} ^ {- 1}}{\pi \times 9.10953 \times 10 ^ {- 31} \mathrm{kg} \times (1.60219 \times 10 ^ {- 19} \mathrm{C}) ^ {2}} = 52.918 \mathrm{pm} \end{array}
 $$
 
 若用原子的折合质量 $\mu$ 代替电子的质量 m，则
 
 $$
-\begin{array}{r l} r _ {1} & = \frac {h ^ {2} \varepsilon_ {0}}{\pi \mu e ^ {2}} = 5 2. 9 1 8 \mathrm{pm} \times \frac {m}{\mu} = \frac {5 2 . 9 1 8 \mathrm{pm}}{0 . 9 9 9 4 6} \\ & = 5 2. 9 4 7 \mathrm{pm} \end{array}
+\begin{array}{r l} r _ {1} & = \frac {h ^ {2} \varepsilon_ {0}}{\pi \mu e ^ {2}} = 52.918 \mathrm{pm} \times \frac {m}{\mu} = \frac {52.918 \mathrm{pm}}{0.99946} \\ & = 52.947 \mathrm{pm} \end{array}
 $$
 
 基态时电子绕核运动的线速度为
 
 $$
-\begin{array}{r l} v _ {1} & = \frac {e ^ {2}}{2 h \varepsilon_ {0}} \\ & = \frac {(1 . 6 0 2 1 9 \times 1 0 ^ {- 1 9} \mathrm{C}) ^ {2}}{2 \times 6 . 6 2 6 1 8 \times 1 0 ^ {- 3 4} \mathrm{Js} \times 8 . 8 5 4 1 9 \times 1 0 ^ {- 1 2} \mathrm{C} ^ {2} \mathrm{J} ^ {- 1} \mathrm{m} ^ {- 1}} \\ & = 2. 1 8 7 7 \times 1 0 ^ {6} \mathrm{ms} ^ {- 1} \end{array}
+\begin{array}{r l} v _ {1} & = \frac {e ^ {2}}{2 h \varepsilon_ {0}} \\ & = \frac {(1.60219 \times 10 ^ {- 19} \mathrm{C}) ^ {2}}{2 \times 6.62618 \times 10 ^ {- 34} \mathrm{Js} \times 8.85419 \times 10 ^ {- 12} \mathrm{C} ^ {2} \mathrm{J} ^ {- 1} \mathrm{m} ^ {- 1}} \\ & = 2.1877 \times 10 ^ {6} \mathrm{ms} ^ {- 1} \end{array}
 $$
 
 ## 【2.3】 对于氢原子：
@@ -1255,7 +1255,7 @@ $$
 (1) 氢原子的稳态能量由下式给出:
 
 $$
-E _ {n} = - 2. 1 8 \times 1 0 ^ {- 1 8} \cdot \frac {1}{n ^ {2}} (\mathrm{J})
+E _ {n} = - 2.18 \times 10 ^ {- 18} \cdot \frac {1}{n ^ {2}} (\mathrm{J})
 $$
 
 式中 n 是主量子数。
@@ -1263,25 +1263,25 @@ $$
 第一激发态 $(n=2)$ 和基态 $(n=1)$ 之间的能量差为
 
 $$
-\begin{array}{r l} \Delta E _ {1} & = E _ {2} - E _ {1} \\ & = \left(- 2. 1 8 \times 1 0 ^ {- 1 8} \times \frac {1}{2 ^ {2}} \mathrm{J}\right) - \left(- 2. 1 8 \times 1 0 ^ {- 1 8} \times \frac {1}{1 ^ {2}} \mathrm{J}\right) \\ & = 1. 6 4 \times 1 0 ^ {- 1 8} \mathrm{J} \end{array}
+\begin{array}{r l} \Delta E _ {1} & = E _ {2} - E _ {1} \\ & = \left(- 2.18 \times 10 ^ {- 18} \times \frac {1}{2 ^ {2}} \mathrm{J}\right) - \left(- 2.18 \times 10 ^ {- 18} \times \frac {1}{1 ^ {2}} \mathrm{J}\right) \\ & = 1.64 \times 10 ^ {- 18} \mathrm{J} \end{array}
 $$
 
 原子从第一激发态跃迁到基态所发射出的谱线的波长为
 
 $$
-\begin{array}{r l} \lambda_ {1} & = \frac {c h}{\Delta E _ {1}} \\ & = \frac {2 . 9 9 7 9 \times 1 0 ^ {8} \mathrm{ms} ^ {- 1} \times 6 . 6 2 6 2 \times 1 0 ^ {- 3 4} \mathrm{Js}}{1 . 6 4 \times 1 0 ^ {- 1 8} \mathrm{J}} \\ & = 1 2 1 \mathrm{nm} \end{array}
+\begin{array}{r l} \lambda_ {1} & = \frac {c h}{\Delta E _ {1}} \\ & = \frac {2.9979 \times 10 ^ {8} \mathrm{ms} ^ {- 1} \times 6.6262 \times 10 ^ {- 34} \mathrm{Js}}{1.64 \times 10 ^ {- 18} \mathrm{J}} \\ & = 121 \mathrm{nm} \end{array}
 $$
 
 第六激发态 $(n=7)$ 和基态之间的能量差为
 
 $$
-\begin{array}{r l} \Delta E _ {6} & = E _ {7} - E _ {1} \\ & = \left(- 2. 1 8 \times 1 0 ^ {- 1 8} \times \frac {1}{7 ^ {2}} \mathrm{J}\right) - \left(- 2. 1 8 \times 1 0 ^ {- 1 8} \times \frac {1}{1 ^ {2}} \mathrm{J}\right) \\ & = 2. 1 4 \times 1 0 ^ {- 1 8} \mathrm{J} \end{array}
+\begin{array}{r l} \Delta E _ {6} & = E _ {7} - E _ {1} \\ & = \left(- 2.18 \times 10 ^ {- 18} \times \frac {1}{7 ^ {2}} \mathrm{J}\right) - \left(- 2.18 \times 10 ^ {- 18} \times \frac {1}{1 ^ {2}} \mathrm{J}\right) \\ & = 2.14 \times 10 ^ {- 18} \mathrm{J} \end{array}
 $$
 
 所以,原子从第六激发态跃迁到基态所发射出的谱线的波长为
 
 $$
-\begin{array}{r l} \lambda_ {6} & = \frac {c h}{\Delta E _ {6}} \\ & = \frac {2 . 9 9 7 9 \times 1 0 ^ {8} \mathrm{ms} ^ {- 1} \times 6 . 6 2 6 2 \times 1 0 ^ {- 3 4} \mathrm{Js}}{2 . 1 4 \times 1 0 ^ {- 1 8} \mathrm{J}} \\ & = 9 2. 9 \mathrm{nm} \end{array}
+\begin{array}{r l} \lambda_ {6} & = \frac {c h}{\Delta E _ {6}} \\ & = \frac {2.9979 \times 10 ^ {8} \mathrm{ms} ^ {- 1} \times 6.6262 \times 10 ^ {- 34} \mathrm{Js}}{2.14 \times 10 ^ {- 18} \mathrm{J}} \\ & = 92.9 \mathrm{nm} \end{array}
 $$
 
 这两条谱线皆属 Lyman 系, 处于紫外光区。
@@ -1297,19 +1297,19 @@ $$
 (2) 使处于基态的氢原子电离所需要的最小能量为
 
 $$
-\begin{array}{r l} \Delta E _ {\infty} & = E _ {\infty} - E _ {1} = - E _ {1} \\ & = 2. 1 8 \times 1 0 ^ {- 1 8} \mathrm{J} \end{array}
+\begin{array}{r l} \Delta E _ {\infty} & = E _ {\infty} - E _ {1} = - E _ {1} \\ & = 2.18 \times 10 ^ {- 18} \mathrm{J} \end{array}
 $$
 
 而
 
 $$
-\begin{array}{l} \Delta E _ {1} = 1. 6 4 \times 1 0 ^ {- 1 8} \mathrm{J} <   \Delta E _ {\infty} \\ \Delta E _ {6} = 2. 1 4 \times 1 0 ^ {- 1 8} \mathrm{J} <   \Delta E _ {\infty} \end{array}
+\begin{array}{l} \Delta E _ {1} = 1.64 \times 10 ^ {- 18} \mathrm{J} <   \Delta E _ {\infty} \\ \Delta E _ {6} = 2.14 \times 10 ^ {- 18} \mathrm{J} <   \Delta E _ {\infty} \end{array}
 $$
 
 所以,两条谱线产生的光子均不能使处于基态的氢原子电离。但是
 
 $$
-\begin{array}{l} \Delta E _ {1} > W _ {\mathrm{Cu}} = 7. 4 4 \times 1 0 ^ {- 1 9} \mathrm{J} \\ \Delta E _ {6} > W _ {\mathrm{Cu}} = 7. 4 4 \times 1 0 ^ {- 1 9} \mathrm{J} \end{array}
+\begin{array}{l} \Delta E _ {1} > W _ {\mathrm{Cu}} = 7.44 \times 10 ^ {- 19} \mathrm{J} \\ \Delta E _ {6} > W _ {\mathrm{Cu}} = 7.44 \times 10 ^ {- 19} \mathrm{J} \end{array}
 $$
 
 所以，两条谱线产生的光子均有可能使铜晶体电离。
@@ -1323,7 +1323,7 @@ $$
 式中 $\Delta E$ 为照射到铜晶体上的光子的能量和 $W_{Cu}$ 之差。应用上式，分别计算出两条原子光谱线照射到铜晶体上后铜晶体所发射出的光电子的波长：
 
 $$
-\begin{array}{r l} \lambda_ {1} ^ {\prime} & = \frac {6 . 6 2 6 2 \times 1 0 ^ {- 3 4} \mathrm{Js}}{\left[ 2 \times 9 . 1 0 9 5 \times 1 0 ^ {- 3 1} \mathrm{kg} \times (1 . 6 4 \times 1 0 ^ {- 1 8} \mathrm{J} - 7 . 4 4 \times 1 0 ^ {- 1 9} \mathrm{J}) \right] ^ {1 / 2}} \\ & = 5 1 9 \mathrm{pm} \\ \lambda_ {6} ^ {\prime} & = \frac {6 . 6 2 6 2 \times 1 0 ^ {- 3 4} \mathrm{Js}}{\left[ 2 \times 9 . 1 0 9 5 \times 1 0 ^ {- 3 1} \mathrm{kg} \times (2 . 1 4 \times 1 0 ^ {- 1 8} \mathrm{J} - 7 . 4 4 \times 1 0 ^ {- 1 9} \mathrm{J}) \right] ^ {1 / 2}} \\ & = 4 1 5 \mathrm{pm} \end{array}
+\begin{array}{r l} \lambda_ {1} ^ {\prime} & = \frac {6.6262 \times 10 ^ {- 34} \mathrm{Js}}{\left[ 2 \times 9.1095 \times 10 ^ {- 31} \mathrm{kg} \times (1.64 \times 10 ^ {- 18} \mathrm{J} - 7.44 \times 10 ^ {- 19} \mathrm{J}) \right] ^ {1 / 2}} \\ & = 519 \mathrm{pm} \\ \lambda_ {6} ^ {\prime} & = \frac {6.6262 \times 10 ^ {- 34} \mathrm{Js}}{\left[ 2 \times 9.1095 \times 10 ^ {- 31} \mathrm{kg} \times (2.14 \times 10 ^ {- 18} \mathrm{J} - 7.44 \times 10 ^ {- 19} \mathrm{J}) \right] ^ {1 / 2}} \\ & = 415 \mathrm{pm} \end{array}
 $$
 
 【2.4】请通过计算说明,用氢原子从第六激发态跃迁到基态所产生的光子照射长度为1120 pm的线形分子 $CH_{2}CHCHCHCHCHCHCH_{2}$ ,该分子能否产生吸收光谱?若能,计算谱线的最大波长;若不能,请提出将不能变为可能的思路。
@@ -1331,23 +1331,23 @@ $$
 解 氢原子从第六激发态 $(n=7)$ 跃迁到基态 $(n=1)$ 所产生的光子的能量为
 
 $$
-\begin{array}{r l} \Delta E _ {\mathrm{H}} & = - 1 3. 5 9 5 \times \frac {1}{7 ^ {2}} \mathrm{eV} - \left(- 1 3. 5 9 5 \times \frac {1}{1 ^ {2}} \mathrm{eV}\right) = 1 3. 5 9 5 \times \frac {4 8}{4 9} \mathrm{eV} \\ & \approx 1 3. 3 2 \mathrm{eV} \approx 1. 2 8 5 \times 1 0 ^ {6} \mathrm{Jmol} ^ {- 1} \end{array}
+\begin{array}{r l} \Delta E _ {\mathrm{H}} & = - 13.595 \times \frac {1}{7 ^ {2}} \mathrm{eV} - \left(- 13.595 \times \frac {1}{1 ^ {2}} \mathrm{eV}\right) = 13.595 \times \frac {48}{49} \mathrm{eV} \\ & \approx 13.32 \mathrm{eV} \approx 1.285 \times 10 ^ {6} \mathrm{Jmol} ^ {- 1} \end{array}
 $$
 
 而 $CH_{2}CHCHCHCHCHCHCH_{2}$ 分子产生吸收光谱所需要的最低能量为
 
 $$
-\begin{array}{r l} \Delta E _ {C _ {8}} & = E _ {5} - E _ {4} = \frac {5 ^ {2} h ^ {2}}{8 m l ^ {2}} - \frac {4 ^ {2} h ^ {2}}{8 m l ^ {2}} = 9 \times \frac {h ^ {2}}{8 m l ^ {2}} \\ & = \frac {9 \times (6 . 6 2 6 \times 1 0 ^ {- 3 4} \mathrm{Js}) ^ {2}}{8 \times 9 . 1 0 9 5 \times 1 0 ^ {- 3 1} \mathrm{kg} \times (1 1 2 0 \times 1 0 ^ {- 1 2} \mathrm{m}) ^ {2}} \end{array}
+\begin{array}{r l} \Delta E _ {C _ {8}} & = E _ {5} - E _ {4} = \frac {5 ^ {2} h ^ {2}}{8 m l ^ {2}} - \frac {4 ^ {2} h ^ {2}}{8 m l ^ {2}} = 9 \times \frac {h ^ {2}}{8 m l ^ {2}} \\ & = \frac {9 \times (6.626 \times 10 ^ {- 34} \mathrm{Js}) ^ {2}}{8 \times 9.1095 \times 10 ^ {- 31} \mathrm{kg} \times (1120 \times 10 ^ {- 12} \mathrm{m}) ^ {2}} \end{array}
 $$
 
 $$
-\begin{array}{r l} & = 4. 2 8 2 \times 1 0 ^ {- 1 9} \mathrm{J} \\ & = 2. 5 7 9 \times 1 0 ^ {5} \mathrm{Jmol} ^ {- 1} \end{array}
+\begin{array}{r l} & = 4.282 \times 10 ^ {- 19} \mathrm{J} \\ & = 2.579 \times 10 ^ {5} \mathrm{Jmol} ^ {- 1} \end{array}
 $$
 
 显然 $\Delta E_{H} > \Delta E_{C_{8}}$ ，但此两种能量不相等，根据量子化规则， $CH_{2}CHCHCHCHCHCHCH_{2}$ 不能产生吸收光效应。若使它产生吸收光谱，可改换光源，例如用连续光谱代替 H 原子光谱。此时可满足量子化条件，该共轭分子可产生吸收光谱，其吸收波长为
 
 $$
-\begin{array}{r l} \lambda = \frac {h c}{\Delta E} = & \frac {6 . 6 2 6 \times 1 0 ^ {- 3 4} \mathrm{Js} \times 2 . 9 9 8 \times 1 0 ^ {8} \mathrm{ms} ^ {- 1}}{9 \times (6 . 6 2 6 \times 1 0 ^ {- 3 4} \mathrm{Js}) ^ {2}} \\ & \frac {8 \times 9 . 1 0 9 5 \times 1 0 ^ {- 3 1} \mathrm{kg} \times (1 1 2 0 \times 1 0 ^ {- 1 2} \mathrm{m}) ^ {2}}{4 6 0 \mathrm{nm}} \end{array}
+\begin{array}{r l} \lambda = \frac {h c}{\Delta E} = & \frac {6.626 \times 10 ^ {- 34} \mathrm{Js} \times 2.998 \times 10 ^ {8} \mathrm{ms} ^ {- 1}}{9 \times (6.626 \times 10 ^ {- 34} \mathrm{Js}) ^ {2}} \\ & \frac {8 \times 9.1095 \times 10 ^ {- 31} \mathrm{kg} \times (1120 \times 10 ^ {- 12} \mathrm{m}) ^ {2}}{460 \mathrm{nm}} \end{array}
 $$
 
 【2.5】计算氢原子 $\psi_{1s}$ 在 $r=a_{0}$ 和 $r=2a_{0}$ 处的比值。
@@ -1361,13 +1361,13 @@ $$
 该函数在 $r=a_{0}$ 和 $r=2a_{0}$ 两处的比值为
 
 $$
-\frac {\frac {1}{\sqrt {\pi}} \left(\frac {1}{a _ {0}}\right) ^ {3 / 2} \mathrm{e} ^ {- \frac {a _ {0}}{a _ {0}}}}{\frac {1}{\sqrt {\pi}} \left(\frac {1}{a _ {0}}\right) ^ {3 / 2} \mathrm{e} ^ {- \frac {2 a _ {0}}{a _ {0}}}} = \frac {\mathrm{e} ^ {- 1}}{\mathrm{e} ^ {- 2}} = \mathrm{e} \approx 2. 7 1 8 2 8
+\frac {\frac {1}{\sqrt {\pi}} \left(\frac {1}{a _ {0}}\right) ^ {3 / 2} \mathrm{e} ^ {- \frac {a _ {0}}{a _ {0}}}}{\frac {1}{\sqrt {\pi}} \left(\frac {1}{a _ {0}}\right) ^ {3 / 2} \mathrm{e} ^ {- \frac {2 a _ {0}}{a _ {0}}}} = \frac {\mathrm{e} ^ {- 1}}{\mathrm{e} ^ {- 2}} = \mathrm{e} \approx 2.71828
 $$
 
 而 $\psi_{1s}^{2}$ 在 $r = a_0$ 和 $r = 2a_0$ 两处的比值为
 
 $$
-\mathrm{e} ^ {2} \approx 7. 3 8 9 0 6
+\mathrm{e} ^ {2} \approx 7.38906
 $$
 
 本题计算结果中的 e 是自然对数的底数, 见本书附录 C。由此表明, 离核越远, 电子的概率密度越小, 即 $\psi_{1s}$ 在 r 的全部区间内随着 r 的增大而单调下降, 计算结果的合理性是显而易见的。
@@ -1377,7 +1377,7 @@ $$
 解 根据波函数、概率密度和电子的概率分布等概念的物理意义, 氢原子的 1s 电子出现在 $r=100\ pm$ 的球形界面内的概率为
 
 $$
-\begin{array}{l} P = \int_ {0} ^ {1 0 0 \mathrm{pm}} \int_ {0} ^ {\pi} \int_ {0} ^ {2 \pi} \psi_ {1 \mathrm{s}} ^ {2} \mathrm{d} \tau \\ = \int_ {0} ^ {1 0 0 \mathrm{pm}} \int_ {0} ^ {\pi} \int_ {0} ^ {2 \pi} \frac {1}{\pi a _ {0} ^ {3}} \mathrm{e} ^ {- \frac {2 r}{a _ {0}}} r ^ {2} \sin \theta \mathrm{d} r \mathrm{d} \theta \mathrm{d} \phi = \frac {1}{\pi a _ {0} ^ {3}} \int_ {0} ^ {1 0 0 \mathrm{pm}} r ^ {2} \mathrm{e} ^ {- \frac {2 r}{a _ {0}}} \mathrm{d} r \int_ {0} ^ {\pi} \sin \theta \mathrm{d} \theta \int_ {0} ^ {2 \pi} \mathrm{d} \phi \\ = \frac {4}{a _ {0} ^ {3}} \int_ {0} ^ {1 0 0 \mathrm{pm}} r ^ {2} \mathrm{e} ^ {- \frac {2 r}{a _ {0}}} \mathrm{d} r = \frac {4}{a _ {0} ^ {3}} \left[ \mathrm{e} ^ {- \frac {2 r}{a _ {0}}} \left(- \frac {a _ {0} r ^ {2}}{2} - \frac {a _ {0} ^ {2} r}{2} - \frac {a _ {0} ^ {3}}{4}\right) \right] | _ {0} ^ {1 0 0 \mathrm{pm}} \\ = \mathrm{e} ^ {- \frac {2 r}{a _ {0}}} \left(- \frac {2 r ^ {2}}{a _ {0} ^ {2}} - \frac {2 r}{a _ {0}} - 1\right) | _ {0} ^ {1 0 0 \mathrm{pm}} \\ \approx 0. 7 2 8 \end{array}
+\begin{array}{l} P = \int_ {0} ^ {100 \mathrm{pm}} \int_ {0} ^ {\pi} \int_ {0} ^ {2 \pi} \psi_ {1 \mathrm{s}} ^ {2} \mathrm{d} \tau \\ = \int_ {0} ^ {100 \mathrm{pm}} \int_ {0} ^ {\pi} \int_ {0} ^ {2 \pi} \frac {1}{\pi a _ {0} ^ {3}} \mathrm{e} ^ {- \frac {2 r}{a _ {0}}} r ^ {2} \sin \theta \mathrm{d} r \mathrm{d} \theta \mathrm{d} \phi = \frac {1}{\pi a _ {0} ^ {3}} \int_ {0} ^ {100 \mathrm{pm}} r ^ {2} \mathrm{e} ^ {- \frac {2 r}{a _ {0}}} \mathrm{d} r \int_ {0} ^ {\pi} \sin \theta \mathrm{d} \theta \int_ {0} ^ {2 \pi} \mathrm{d} \phi \\ = \frac {4}{a _ {0} ^ {3}} \int_ {0} ^ {100 \mathrm{pm}} r ^ {2} \mathrm{e} ^ {- \frac {2 r}{a _ {0}}} \mathrm{d} r = \frac {4}{a _ {0} ^ {3}} \left[ \mathrm{e} ^ {- \frac {2 r}{a _ {0}}} \left(- \frac {a _ {0} r ^ {2}}{2} - \frac {a _ {0} ^ {2} r}{2} - \frac {a _ {0} ^ {3}}{4}\right) \right] | _ {0} ^ {100 \mathrm{pm}} \\ = \mathrm{e} ^ {- \frac {2 r}{a _ {0}}} \left(- \frac {2 r ^ {2}}{a _ {0} ^ {2}} - \frac {2 r}{a _ {0}} - 1\right) | _ {0} ^ {100 \mathrm{pm}} \\ \approx 0.728 \end{array}
 $$
 
 那么，氢原子的 1s 电子出现在 r=100 pm 的球形界面之外的概率为 1-0.728=0.272。
@@ -1393,13 +1393,13 @@ $$
 本题亦可根据径向分布函数概念,直接应用下式:
 
 $$
-P (r) = \int_ {0} ^ {1 0 0 \mathrm{pm}} R ^ {2} r ^ {2} \mathrm{d} r
+P (r) = \int_ {0} ^ {100 \mathrm{pm}} R ^ {2} r ^ {2} \mathrm{d} r
 $$
 
 或
 
 $$
-P (r) = \int_ {0} ^ {1 0 0 \mathrm{pm}} 4 \pi r ^ {2} \psi_ {\mathrm{ls}} ^ {2} \mathrm{d} r
+P (r) = \int_ {0} ^ {100 \mathrm{pm}} 4 \pi r ^ {2} \psi_ {\mathrm{ls}} ^ {2} \mathrm{d} r
 $$
 
 进行计算。计算时用原子单位稍方便些。
@@ -1429,7 +1429,7 @@ $r<2.7a_{0}$ 时， $P(r)>0.1$ 。
 即在 $r=2.7a_{0}$ 的球面之外，电子出现的概率是 10%；而在 $r=2.7a_{0}$ 的球面以内，电子出现的概率是 90%，即
 
 $$
-\int_ {0} ^ {2 \pi} \int_ {0} ^ {\pi} \int_ {0} ^ {2. 7 a _ {0}} \psi_ {1 s} ^ {2} r ^ {2} \sin \theta d r d \theta d \phi = 0. 9 0
+\int_ {0} ^ {2 \pi} \int_ {0} ^ {\pi} \int_ {0} ^ {2.7 a _ {0}} \psi_ {1 s} ^ {2} r ^ {2} \sin \theta d r d \theta d \phi = 0.90
 $$
 
 【评注】在解2.6和2.7题列积分公式时，对极坐
@@ -1470,7 +1470,7 @@ $$
 所以
 
 $$
-\begin{array}{r l} E _ {1} & = \frac {h ^ {2}}{8 \pi^ {2} m a _ {0} ^ {2}} - \frac {e ^ {2}}{4 \pi \varepsilon_ {0} a _ {0}} \\ & = \frac {(6 . 6 2 6 2 \times 1 0 ^ {- 3 4} \mathrm{Js}) ^ {2}}{8 \times \pi^ {2} \times 9 . 1 0 9 5 \times 1 0 ^ {- 3 1} \mathrm{kg} \times (5 . 2 9 1 7 \times 1 0 ^ {- 1 1} \mathrm{m}) ^ {2}} \\ & - \frac {(1 . 6 0 2 2 \times 1 0 ^ {- 1 9} \mathrm{C}) ^ {2}}{4 \pi \times 8 . 8 5 4 2 \times 1 0 ^ {- 1 2} \mathrm{C} ^ {2} \mathrm{J} ^ {- 1} \mathrm{m} ^ {- 1} \times 5 . 2 9 1 7 \times 1 0 ^ {- 1 1} \mathrm{m}} \\ & = 2. 1 8 4 \times 1 0 ^ {- 1 8} \mathrm{J} - 4. 3 6 3 \times 1 0 ^ {- 1 8} \mathrm{J} \\ & = - 2. 1 7 9 \times 1 0 ^ {- 1 8} \mathrm{J} \end{array}
+\begin{array}{r l} E _ {1} & = \frac {h ^ {2}}{8 \pi^ {2} m a _ {0} ^ {2}} - \frac {e ^ {2}}{4 \pi \varepsilon_ {0} a _ {0}} \\ & = \frac {(6.6262 \times 10 ^ {- 34} \mathrm{Js}) ^ {2}}{8 \times \pi^ {2} \times 9.1095 \times 10 ^ {- 31} \mathrm{kg} \times (5.2917 \times 10 ^ {- 11} \mathrm{m}) ^ {2}} \\ & - \frac {(1.6022 \times 10 ^ {- 19} \mathrm{C}) ^ {2}}{4 \pi \times 8.8542 \times 10 ^ {- 12} \mathrm{C} ^ {2} \mathrm{J} ^ {- 1} \mathrm{m} ^ {- 1} \times 5.2917 \times 10 ^ {- 11} \mathrm{m}} \\ & = 2.184 \times 10 ^ {- 18} \mathrm{J} - 4.363 \times 10 ^ {- 18} \mathrm{J} \\ & = - 2.179 \times 10 ^ {- 18} \mathrm{J} \end{array}
 $$
 
 也可用式 $E = \int \psi_{1s}^{*}\hat{H}\psi_{1s}\mathrm{d}\tau$ 进行计算，所得结果与用上法计算结果相同。注意，此式中 $\mathrm{d}\tau = 4\pi r^2\mathrm{d}r$ 。
@@ -1496,7 +1496,7 @@ $$
 通常,在计算原子轨道能等物理量时,不必一定按上述做法,只需将量子数等参数代入简单计算公式即可,如
 
 $$
-E _ {n} = - 2. 1 7 9 \times 1 0 ^ {- 1 8} \cdot \frac {Z ^ {*}}{n ^ {2}} (\mathrm{J})
+E _ {n} = - 2.179 \times 10 ^ {- 18} \cdot \frac {Z ^ {*}}{n ^ {2}} (\mathrm{J})
 $$
 
 $$
@@ -1514,11 +1514,11 @@ E _ {1 \mathrm{s}} = \langle T \rangle + \langle V \rangle = - \frac {1}{2} \lan
 $$
 
 $$
-\langle V \rangle = 2 E _ {1 s} = 2 \times (- 1 3. 6 e V) = - 2 7. 2 e V
+\langle V \rangle = 2 E _ {1 s} = 2 \times (- 13.6 e V) = - 27.2 e V
 $$
 
 $$
-\langle T \rangle = - \frac {1}{2} \langle V \rangle = - \frac {1}{2} \times (- 2 7. 2 \mathrm{eV}) = 1 3. 6 \mathrm{eV}
+\langle T \rangle = - \frac {1}{2} \langle V \rangle = - \frac {1}{2} \times (- 27.2 \mathrm{eV}) = 13.6 \mathrm{eV}
 $$
 
 此即氢原子的零点能。
@@ -1544,7 +1544,7 @@ $$
 (1) 原子轨道能为
 
 $$
-E = - 2. 1 7 9 \times 1 0 ^ {- 1 8} \mathrm{J} \times \frac {1}{2 ^ {2}} = - 5. 4 5 \times 1 0 ^ {- 1 9} \mathrm{J}
+E = - 2.179 \times 10 ^ {- 18} \mathrm{J} \times \frac {1}{2 ^ {2}} = - 5.45 \times 10 ^ {- 19} \mathrm{J}
 $$
 
 (2) 轨道角动量为
@@ -1566,7 +1566,7 @@ $$
 $$
 
 $$
-\theta = 9 0 ^ {\circ}
+\theta = 90 ^ {\circ}
 $$
 
 (4) 电子离核的平均距离的表达式为
@@ -1578,7 +1578,7 @@ $$
 (5) 令 $\psi_{2p_{z}}=0$ , 得
 
 $$
-r = 0, \quad r = \infty , \quad \theta = 9 0 ^ {\circ}
+r = 0, \quad r = \infty , \quad \theta = 90 ^ {\circ}
 $$
 
 节面或节点通常不包括 r=0 和 $r=\infty$ ，故 $\psi_{2p_{z}}$ 的节面只有一个，即 xy 平面（当然，坐标原点也包含在 xy 平面内）。
@@ -1588,19 +1588,19 @@ $$
 (6) 概率密度为
 
 $$
-\rho = \psi_ {2 p _ {z}} ^ {2} = \frac {1}{3 2 \pi a _ {0} ^ {3}} \left(\frac {r}{a _ {0}}\right) ^ {2} \mathrm{e} ^ {- \frac {r}{a _ {0}}} \cos^ {2} \theta
+\rho = \psi_ {2 p _ {z}} ^ {2} = \frac {1}{32 \pi a _ {0} ^ {3}} \left(\frac {r}{a _ {0}}\right) ^ {2} \mathrm{e} ^ {- \frac {r}{a _ {0}}} \cos^ {2} \theta
 $$
 
 由式可见，当 $\theta = 0^{\circ}$ 或 $\theta = 180^{\circ}$ 时 $\rho$ 最大（亦可令 $\frac{\partial\psi}{\partial\theta} = -\sin \theta = 0, \theta = 0^{\circ}$ 或 $180^{\circ}$ ），以 $\rho_0$ 表示，即
 
 $$
-\rho_ {0} = \rho (r, \theta = 0 ^ {\circ}, 1 8 0 ^ {\circ}) = \frac {1}{3 2 \pi a _ {0} ^ {3}} \left(\frac {r}{a _ {0}}\right) ^ {2} \mathrm{e} ^ {- \frac {r}{a _ {0}}}
+\rho_ {0} = \rho (r, \theta = 0 ^ {\circ}, 180 ^ {\circ}) = \frac {1}{32 \pi a _ {0} ^ {3}} \left(\frac {r}{a _ {0}}\right) ^ {2} \mathrm{e} ^ {- \frac {r}{a _ {0}}}
 $$
 
 将 $\rho_{0}$ 对 r 微分并使之为 0，有
 
 $$
-\frac {\mathrm{d} \rho_ {0}}{\mathrm{d} r} = \frac {\mathrm{d}}{\mathrm{d} r} \left[ \frac {1}{3 2 \pi a _ {0} ^ {3}} \left(\frac {r}{a _ {0}}\right) ^ {2} \mathrm{e} ^ {- \frac {r}{a _ {0}}} \right] = \frac {1}{3 2 \pi a _ {0} ^ {5}} r \mathrm{e} ^ {- \frac {r}{a _ {0}}} \left(2 - \frac {r}{a _ {0}}\right) = 0
+\frac {\mathrm{d} \rho_ {0}}{\mathrm{d} r} = \frac {\mathrm{d}}{\mathrm{d} r} \left[ \frac {1}{32 \pi a _ {0} ^ {3}} \left(\frac {r}{a _ {0}}\right) ^ {2} \mathrm{e} ^ {- \frac {r}{a _ {0}}} \right] = \frac {1}{32 \pi a _ {0} ^ {5}} r \mathrm{e} ^ {- \frac {r}{a _ {0}}} \left(2 - \frac {r}{a _ {0}}\right) = 0
 $$
 
 解之得
@@ -1618,11 +1618,11 @@ $$
 所以，当 $\theta=0^{\circ}$ 或 $180^{\circ}, r=2a_{0}$ 时 $\psi_{2p_{z}}^{2}$ 有极大值。此极大值为
 
 $$
-\rho_ {\max} = \frac {1}{3 2 \pi a _ {0} ^ {3}} \left(\frac {2 a _ {0}}{a _ {0}}\right) ^ {2} \mathrm{e} ^ {- \frac {2 a _ {0}}{a _ {0}}} = \frac {\mathrm{e} ^ {- 2}}{8 \pi a _ {0} ^ {3}} = 3 6. 4 \mathrm{nm} ^ {- 3}
+\rho_ {\max} = \frac {1}{32 \pi a _ {0} ^ {3}} \left(\frac {2 a _ {0}}{a _ {0}}\right) ^ {2} \mathrm{e} ^ {- \frac {2 a _ {0}}{a _ {0}}} = \frac {\mathrm{e} ^ {- 2}}{8 \pi a _ {0} ^ {3}} = 36.4 \mathrm{nm} ^ {- 3}
 $$
 
 $$
-D _ {2 p _ {z}} = r ^ {2} R ^ {2} = r ^ {2} \left[ \frac {1}{2 \sqrt {6}} \left(\frac {1}{a _ {0}}\right) ^ {\frac {5}{2}} r e ^ {- \frac {r}{2 a _ {0}}} \right] ^ {2} = \frac {1}{2 4 a _ {0} ^ {5}} r ^ {4} e ^ {- \frac {r}{a _ {0}}} \tag {7}
+D _ {2 p _ {z}} = r ^ {2} R ^ {2} = r ^ {2} \left[ \frac {1}{2 \sqrt {6}} \left(\frac {1}{a _ {0}}\right) ^ {\frac {5}{2}} r e ^ {- \frac {r}{2 a _ {0}}} \right] ^ {2} = \frac {1}{24 a _ {0} ^ {5}} r ^ {4} e ^ {- \frac {r}{a _ {0}}} \tag {7}
 $$
 
 根据此式列出 D-r 数据表：
@@ -1647,7 +1647,7 @@ $$
 $$
 
 $$
-\begin{array}{r l} \text {一化:} & \int | \psi_ {1 s} | ^ {2} \mathrm{d} \tau = \int \psi_ {1 s} ^ {2} r ^ {2} \sin \theta \mathrm{d} r \mathrm{d} \theta \mathrm{d} \phi \\ & = \frac {1}{\pi} \int_ {0} ^ {\infty} r ^ {2} \mathrm{e} ^ {- 2 r} \mathrm{d} r \int_ {0} ^ {\pi} \sin \theta \mathrm{d} \theta \int_ {0} ^ {2 \pi} \mathrm{d} \phi \\ & = \frac {1}{\pi} \Big (\frac {1}{4} \times 2 \times 2 \pi \Big) \\ & = 1 \\ & \int | \psi_ {2 s} | ^ {2} \mathrm{d} \tau = \frac {1}{3 2 \pi} \int_ {0} ^ {\infty} (2 - r) ^ {2} r ^ {2} \mathrm{e} ^ {- r} \mathrm{d} r \int_ {0} ^ {\pi} \sin \theta \mathrm{d} \theta \int_ {0} ^ {2 \pi} \mathrm{d} \phi \\ & = \frac {1}{3 2 \pi} (8 \times 2 \times 2 \pi) \\ & = 1 \end{array}
+\begin{array}{r l} \text {一化:} & \int | \psi_ {1 s} | ^ {2} \mathrm{d} \tau = \int \psi_ {1 s} ^ {2} r ^ {2} \sin \theta \mathrm{d} r \mathrm{d} \theta \mathrm{d} \phi \\ & = \frac {1}{\pi} \int_ {0} ^ {\infty} r ^ {2} \mathrm{e} ^ {- 2 r} \mathrm{d} r \int_ {0} ^ {\pi} \sin \theta \mathrm{d} \theta \int_ {0} ^ {2 \pi} \mathrm{d} \phi \\ & = \frac {1}{\pi} \Big (\frac {1}{4} \times 2 \times 2 \pi \Big) \\ & = 1 \\ & \int | \psi_ {2 s} | ^ {2} \mathrm{d} \tau = \frac {1}{32 \pi} \int_ {0} ^ {\infty} (2 - r) ^ {2} r ^ {2} \mathrm{e} ^ {- r} \mathrm{d} r \int_ {0} ^ {\pi} \sin \theta \mathrm{d} \theta \int_ {0} ^ {2 \pi} \mathrm{d} \phi \\ & = \frac {1}{32 \pi} (8 \times 2 \times 2 \pi) \\ & = 1 \end{array}
 $$
 
 正交性： $\int \psi_{1s}\psi_{2s}\mathrm{d}\tau = \frac{1}{\pi\sqrt{32}}\int_0^\infty (2 - r)r^2\mathrm{e}^{-3r / 2}\mathrm{d}r\int_0^\pi \sin \theta \mathrm{d}\theta \int_0^{2\pi}\mathrm{d}\phi$ $= \frac{1}{\pi\sqrt{32}} (0\times 2\times 2\pi) = 0$
@@ -1670,7 +1670,7 @@ $$
 从 $\frac{\mathrm{d}D}{\mathrm{d}r} = 0$ 可求算节点位置和极大值位置。根据此式可得： $\frac{\mathrm{d}D}{\mathrm{d}r} = -\frac{1}{8}\mathrm{e}^{-r}r(r^3 -8r^2 +16r - 8)$ $= 0$ ，解得
 
 $$
-r = 0, 2, 0. 7 6 4, 5. 2 6 3
+r = 0, 2, 0.764, 5.263
 $$
 
 其中 r=0 是原点，r=2 是节点，而 r=0.764 和 5.263 是极大值点。按此数据作图，如图 2.11 所示。所得结果和图 2.3.2 一致。
@@ -1690,11 +1690,11 @@ $$
 (1) 能量平均值
 
 $$
-\begin{array}{r l} \langle E \rangle & = \sum_ {i} c _ {i} ^ {2} E _ {i} = c _ {1} ^ {2} E _ {1} + c _ {2} ^ {2} E _ {2} + c _ {3} ^ {2} E _ {3} \\ & = c _ {1} ^ {2} \left(- 1 3. 6 \times \frac {1}{2 ^ {2}} \mathrm{eV}\right) + c _ {2} ^ {2} \left(- 1 3. 6 \times \frac {1}{2 ^ {2}} \mathrm{eV}\right) + c _ {3} ^ {2} \left(- 1 3. 6 \times \frac {1}{3 ^ {2}} \mathrm{eV}\right) \\ & = - \frac {1 3 . 6}{4} (c _ {1} ^ {2} + c _ {2} ^ {2}) \mathrm{eV} - \frac {1 3 . 6}{9} c _ {3} ^ {2} \mathrm{eV} \end{array}
+\begin{array}{r l} \langle E \rangle & = \sum_ {i} c _ {i} ^ {2} E _ {i} = c _ {1} ^ {2} E _ {1} + c _ {2} ^ {2} E _ {2} + c _ {3} ^ {2} E _ {3} \\ & = c _ {1} ^ {2} \left(- 13.6 \times \frac {1}{2 ^ {2}} \mathrm{eV}\right) + c _ {2} ^ {2} \left(- 13.6 \times \frac {1}{2 ^ {2}} \mathrm{eV}\right) + c _ {3} ^ {2} \left(- 13.6 \times \frac {1}{3 ^ {2}} \mathrm{eV}\right) \\ & = - \frac {13.6}{4} (c _ {1} ^ {2} + c _ {2} ^ {2}) \mathrm{eV} - \frac {13.6}{9} c _ {3} ^ {2} \mathrm{eV} \end{array}
 $$
 
 $$
-= - (3. 4 c _ {1} ^ {2} + 3. 4 c _ {2} ^ {2} + 1. 5 c _ {3} ^ {2}) \mathrm{eV}
+= - (3.4 c _ {1} ^ {2} + 3.4 c _ {2} ^ {2} + 1.5 c _ {3} ^ {2}) \mathrm{eV}
 $$
 
 能量-3.4eV出现的概率为
@@ -1780,13 +1780,13 @@ $\psi_{1s}^{2}-r$ 图和 $D_{1s}-r$ 图不同的原因是 $\psi_{1s}^{2}$ 和 $D
 解 He 原子的 Schrödinger 方程为
 
 $$
-\left[ - \frac {h ^ {2}}{8 \pi^ {2} m} (\nabla_ {1} ^ {2} + \nabla_ {2} ^ {2}) - \frac {2 e ^ {2}}{4 \pi \varepsilon_ {0}} \left(\frac {1}{r _ {1}} + \frac {1}{r _ {2}}\right) + \frac {1}{4 \pi \varepsilon_ {0}} \cdot \frac {e ^ {2}}{r _ {1 2}} \right] \psi = E \psi
+\left[ - \frac {h ^ {2}}{8 \pi^ {2} m} (\nabla_ {1} ^ {2} + \nabla_ {2} ^ {2}) - \frac {2 e ^ {2}}{4 \pi \varepsilon_ {0}} \left(\frac {1}{r _ {1}} + \frac {1}{r _ {2}}\right) + \frac {1}{4 \pi \varepsilon_ {0}} \cdot \frac {e ^ {2}}{r _ {12}} \right] \psi = E \psi
 $$
 
 式中 $r_{1}$ 和 $r_{2}$ 分别是电子 1 和电子 2 到核的距离， $r_{12}$ 是电子 1 和电子 2 之间的距离。若以原子单位表示，则 He 原子的 Schrödinger 方程为
 
 $$
-\left[ - \frac {1}{2} (\nabla_ {1} ^ {2} + \nabla_ {2} ^ {2}) - \frac {2}{r _ {1}} - \frac {2}{r _ {2}} + \frac {1}{r _ {1 2}} \right] \psi = E \psi
+\left[ - \frac {1}{2} (\nabla_ {1} ^ {2} + \nabla_ {2} ^ {2}) - \frac {2}{r _ {1}} - \frac {2}{r _ {2}} + \frac {1}{r _ {12}} \right] \psi = E \psi
 $$
 
 用中心力场模型解此方程时作了如下假设：
@@ -1852,15 +1852,15 @@ $$
 $Li^{2+}$ 离子 1s 态的波函数为
 
 $$
-\psi_ {1 \mathrm{s}} = \left(\frac {2 7}{\pi a _ {0} ^ {3}}\right) ^ {\frac {1}{2}} \mathrm{e} ^ {- \frac {3}{a _ {0}} r}
+\psi_ {1 \mathrm{s}} = \left(\frac {27}{\pi a _ {0} ^ {3}}\right) ^ {\frac {1}{2}} \mathrm{e} ^ {- \frac {3}{a _ {0}} r}
 $$
 
 $$
-(1) D _ {1 \mathrm{s}} = 4 \pi r ^ {2} \psi_ {1 \mathrm{s}} ^ {2} = 4 \pi r ^ {2} \times \frac {2 7}{\pi a _ {0} ^ {3}} \mathrm{e} ^ {- \frac {6}{a _ {0}} r} = \frac {1 0 8}{a _ {0} ^ {3}} r ^ {2} \mathrm{e} ^ {- \frac {6}{a _ {0}} r}
+(1) D _ {1 \mathrm{s}} = 4 \pi r ^ {2} \psi_ {1 \mathrm{s}} ^ {2} = 4 \pi r ^ {2} \times \frac {27}{\pi a _ {0} ^ {3}} \mathrm{e} ^ {- \frac {6}{a _ {0}} r} = \frac {108}{a _ {0} ^ {3}} r ^ {2} \mathrm{e} ^ {- \frac {6}{a _ {0}} r}
 $$
 
 $$
-\frac {\mathrm{d}}{\mathrm{d} r} D _ {1 \mathrm{s}} = \frac {1 0 8}{a _ {0} ^ {3}} \left(2 r - \frac {6}{a _ {0}} r ^ {2}\right) \mathrm{e} ^ {- \frac {6}{a _ {0}} r} = 0
+\frac {\mathrm{d}}{\mathrm{d} r} D _ {1 \mathrm{s}} = \frac {108}{a _ {0} ^ {3}} \left(2 r - \frac {6}{a _ {0}} r ^ {2}\right) \mathrm{e} ^ {- \frac {6}{a _ {0}} r} = 0
 $$
 
 $$
@@ -1874,7 +1874,7 @@ $$
 1s 电子径向分布最大值在距核 $\frac{a_{0}}{3}$ 处。
 
 $$
-\begin{array}{r l} (2) \langle r \rangle & = \int \psi_ {1 s} ^ {*} \hat {r} \psi_ {1 s} d \tau = \int r \psi_ {1 s} ^ {2} d \tau \\ & = \int r \frac {2 7}{\pi a _ {0} ^ {3}} e ^ {- \frac {6}{a _ {0}} r} r ^ {2} \sin \theta d r d \theta d \phi = \frac {2 7}{\pi a _ {0} ^ {3}} \int_ {0} ^ {\infty} r ^ {3} e ^ {- \frac {6}{a _ {0}} r} d r \int_ {0} ^ {\pi} \sin \theta d \theta \int_ {0} ^ {2 \pi} d \phi \\ & = \frac {2 7}{\pi a _ {0} ^ {3}} \times \frac {a _ {0} ^ {4}}{2 1 6} \times 4 \pi = \frac {1}{2} a _ {0} \end{array}
+\begin{array}{r l} (2) \langle r \rangle & = \int \psi_ {1 s} ^ {*} \hat {r} \psi_ {1 s} d \tau = \int r \psi_ {1 s} ^ {2} d \tau \\ & = \int r \frac {27}{\pi a _ {0} ^ {3}} e ^ {- \frac {6}{a _ {0}} r} r ^ {2} \sin \theta d r d \theta d \phi = \frac {27}{\pi a _ {0} ^ {3}} \int_ {0} ^ {\infty} r ^ {3} e ^ {- \frac {6}{a _ {0}} r} d r \int_ {0} ^ {\pi} \sin \theta d \theta \int_ {0} ^ {2 \pi} d \phi \\ & = \frac {27}{\pi a _ {0} ^ {3}} \times \frac {a _ {0} ^ {4}}{216} \times 4 \pi = \frac {1}{2} a _ {0} \end{array}
 $$
 
 (3) $\psi_{1s}^{2} = \frac{27}{\pi a_{0}^{3}}\mathrm{e}^{-\frac{6}{a_{0}} r}$
@@ -1886,13 +1886,13 @@ $$
 (5) Li 原子的基组态为 $(1s)^{2}(2s)^{1}$ 。对 2s 电子来说，1s 电子为其相邻内一组电子， $\sigma=0.85$ 。因而
 
 $$
-E _ {2 \mathrm{s}} = - 1 3. 6 \mathrm{eV} \times \frac {(3 - 0 . 8 5 \times 2) ^ {2}}{2 ^ {2}} = - 5. 7 5 \mathrm{eV}
+E _ {2 \mathrm{s}} = - 13.6 \mathrm{eV} \times \frac {(3 - 0.85 \times 2) ^ {2}}{2 ^ {2}} = - 5.75 \mathrm{eV}
 $$
 
 根据 Koopmann 定理, Li 原子的第一电离能为
 
 $$
-I _ {1} = - E _ {2 \mathrm{s}} = 5. 7 5 \mathrm{eV}
+I _ {1} = - E _ {2 \mathrm{s}} = 5.75 \mathrm{eV}
 $$
 
 【2.17】Li 原子的 3 个电离能分别为 $I_{1}=5.392\ eV, I_{2}=75.638\ eV, I_{3}=122.451\ eV$ ，请计算 Li 原子的 1s 电子结合能。
@@ -1920,17 +1920,17 @@ $$
 而
 
 $$
-\begin{array}{r l} E _ {\mathrm {Li^ {+} (1s^ {1} 2s^ {1})}} & = - 1 3. 6 \mathrm{eV} \times \frac {3 ^ {2}}{1 ^ {2}} - 1 3. 6 \mathrm{eV} \times \frac {(3 - 0 . 8 5) ^ {2}}{2 ^ {2}} \\ & = - 1 3 8. 1 7 \mathrm{eV} \end{array}\tag{4}
+\begin{array}{r l} E _ {\mathrm {Li^ {+} (1s^ {1} 2s^ {1})}} & = - 13.6 \mathrm{eV} \times \frac {3 ^ {2}}{1 ^ {2}} - 13.6 \mathrm{eV} \times \frac {(3 - 0.85) ^ {2}}{2 ^ {2}} \\ & = - 138.17 \mathrm{eV} \end{array}\tag{4}
 $$
 
 $$
-\begin{array}{r l} E _ {\mathrm {Li(1s^ {2} 2s^ {1})}} & = - (I _ {1} + I _ {2} + I _ {3}) = - (5. 3 9 2 + 7 5. 6 3 8 + 1 2 2. 4 5 1) \mathrm{eV} \\ & = - 2 0 3. 4 8 \mathrm{eV} \end{array}\tag{5}
+\begin{array}{r l} E _ {\mathrm {Li(1s^ {2} 2s^ {1})}} & = - (I _ {1} + I _ {2} + I _ {3}) = - (5.392 + 75.638 + 122.451) \mathrm{eV} \\ & = - 203.48 \mathrm{eV} \end{array}\tag{5}
 $$
 
 所以
 
 $$
-\begin{array}{r l} E _ {1 \mathrm{s}} & = - [ (4) - (5) ] = (5) - (4) \\ & = - 2 0 3. 4 8 \mathrm{eV} - (- 1 3 8. 1 7 \mathrm{eV}) \approx - 6 5. 3 \mathrm{eV} \end{array}
+\begin{array}{r l} E _ {1 \mathrm{s}} & = - [ (4) - (5) ] = (5) - (4) \\ & = - 203.48 \mathrm{eV} - (- 138.17 \mathrm{eV}) \approx - 65.3 \mathrm{eV} \end{array}
 $$
 
 或
@@ -1948,13 +1948,13 @@ E _ {\mathrm{Li} ^ {2 +} (1 \mathrm{s} ^ {1})} - E _ {\mathrm{Li} ^ {+} (1 \math
 $$
 
 $$
-E = 1 3. 6 \mathrm{eV} \times \frac {(3 - \sigma) ^ {2}}{2 ^ {2}} = 1 3. 6 \times \frac {(3 - 0 . 8 5) ^ {2}}{4} \mathrm{eV} = 1 5. 7 \mathrm{eV}
+E = 13.6 \mathrm{eV} \times \frac {(3 - \sigma) ^ {2}}{2 ^ {2}} = 13.6 \times \frac {(3 - 0.85) ^ {2}}{4} \mathrm{eV} = 15.7 \mathrm{eV}
 $$
 
 1s 电子结合能为
 
 $$
-\begin{array}{r l} E _ {1 \mathrm{s}} & = E _ {\mathrm{Li(1s} ^ {2} 2 \mathrm{s} ^ {1})} - E _ {\mathrm{Li} ^ {+} (1 \mathrm{s} ^ {1} 2 \mathrm{s} ^ {1})} \\ & = E - I _ {1} - I _ {2} \\ & = 1 5. 7 \mathrm{eV} - 5. 3 9 \mathrm{eV} - 7 5. 6 4 \mathrm{eV} = - 6 5. 3 \mathrm{eV} \end{array}
+\begin{array}{r l} E _ {1 \mathrm{s}} & = E _ {\mathrm{Li(1s} ^ {2} 2 \mathrm{s} ^ {1})} - E _ {\mathrm{Li} ^ {+} (1 \mathrm{s} ^ {1} 2 \mathrm{s} ^ {1})} \\ & = E - I _ {1} - I _ {2} \\ & = 15.7 \mathrm{eV} - 5.39 \mathrm{eV} - 75.64 \mathrm{eV} = - 65.3 \mathrm{eV} \end{array}
 $$
 
 【2.18】已知 He 原子的第一电离能 $I_{1}=24.59\ eV$ ，试计算：
@@ -1980,13 +1980,13 @@ $$
 $He^{+}$ 是单电子“原子”， $E_{He^{+}}$ 可按单电子原子能级公式计算，因而
 
 $$
-I _ {2} = - E _ {\mathrm{He} ^ {+}} = - \left(- 1 3. 5 9 5 \mathrm{eV} \times \frac {2 ^ {2}}{1 ^ {2}}\right) = 5 4. 3 8 \mathrm{eV}
+I _ {2} = - E _ {\mathrm{He} ^ {+}} = - \left(- 13.595 \mathrm{eV} \times \frac {2 ^ {2}}{1 ^ {2}}\right) = 54.38 \mathrm{eV}
 $$
 
 1s 的单电子原子轨道能为
 
 $$
-- \frac {(2 4 . 6 + 5 4 . 4) \mathrm{eV}}{2} = - 3 9. 5 \mathrm{eV}
+- \frac {(24.6 + 54.4) \mathrm{eV}}{2} = - 39.5 \mathrm{eV}
 $$
 
 电子结合能为-24.59eV。
@@ -2010,7 +2010,7 @@ $$
 将(2)式代入,得
 
 $$
-\begin{array}{r l} & E _ {\mathrm{He}} = E _ {\mathrm{He} ^ {+}} - I _ {1} = E _ {\mathrm{He} ^ {2 +}} - I _ {2} - I _ {1} \\ & \quad = 0 - (I _ {1} + I _ {2}) = - (I _ {1} + I _ {2}) \\ & \quad = - (2 4. 5 9 \mathrm{eV} + 5 4. 3 8 \mathrm{eV}) = - 7 8. 9 7 \mathrm{eV} \end{array}
+\begin{array}{r l} & E _ {\mathrm{He}} = E _ {\mathrm{He} ^ {+}} - I _ {1} = E _ {\mathrm{He} ^ {2 +}} - I _ {2} - I _ {1} \\ & \quad = 0 - (I _ {1} + I _ {2}) = - (I _ {1} + I _ {2}) \\ & \quad = - (24.59 \mathrm{eV} + 54.38 \mathrm{eV}) = - 78.97 \mathrm{eV} \end{array}
 $$
 
 推而广之, 含有 n 个电子的多电子原子 A, 其基态能量等于各级电离能之和的负值, 即
@@ -2022,19 +2022,19 @@ $$
 (3) 用 $J(s, s)$ 表示 He 原子中两个 1s 电子的互斥能，则
 
 $$
-\begin{array}{r l} & E _ {\mathrm{He}} = 2 E _ {\mathrm{He} ^ {+}} + J (\mathrm{s}, \mathrm{s}) \\ & J (\mathrm{s}, \mathrm{s}) = E _ {\mathrm{He}} - 2 E _ {\mathrm{He} ^ {+}} \\ & \qquad = - 7 8. 9 7 \mathrm{eV} - 2 \times (- 5 4. 3 8 \mathrm{eV}) \\ & \qquad = 2 9. 7 9 \mathrm{eV} \end{array}
+\begin{array}{r l} & E _ {\mathrm{He}} = 2 E _ {\mathrm{He} ^ {+}} + J (\mathrm{s}, \mathrm{s}) \\ & J (\mathrm{s}, \mathrm{s}) = E _ {\mathrm{He}} - 2 E _ {\mathrm{He} ^ {+}} \\ & \qquad = - 78.97 \mathrm{eV} - 2 \times (- 54.38 \mathrm{eV}) \\ & \qquad = 29.79 \mathrm{eV} \end{array}
 $$
 
 也可直接由 $I_{2}$ 减 $I_{1}$ 求算 $J(s,s)$ ，两法本质相同。
 
 $$
-\begin{array}{r l} E _ {\mathrm{He}} & = \left[ - 1 3. 5 9 5 \mathrm{eV} \times \frac {(2 - \sigma) ^ {2}}{1 ^ {2}} \right] \times 2 \\ \sigma & = 2 - \left[ \frac {E _ {\mathrm{He}}}{- 1 3 . 5 9 5 \mathrm{eV} \times 2} \right] ^ {\frac {1}{2}} = 2 - \left[ \frac {- 7 8 . 9 7 \mathrm{eV}}{- 1 3 . 5 9 5 \mathrm{eV} \times 2} \right] ^ {\frac {1}{2}} \\ & = 2 - 1. 7 0 4 \approx 0. 3 \end{array} \tag {4}
+\begin{array}{r l} E _ {\mathrm{He}} & = \left[ - 13.595 \mathrm{eV} \times \frac {(2 - \sigma) ^ {2}}{1 ^ {2}} \right] \times 2 \\ \sigma & = 2 - \left[ \frac {E _ {\mathrm{He}}}{- 13.595 \mathrm{eV} \times 2} \right] ^ {\frac {1}{2}} = 2 - \left[ \frac {- 78.97 \mathrm{eV}}{- 13.595 \mathrm{eV} \times 2} \right] ^ {\frac {1}{2}} \\ & = 2 - 1.704 \approx 0.3 \end{array} \tag {4}
 $$
 
 (5) $H^{-}$ 是核电荷为 1 的二电子“原子”，其基组态为 $(1s)^{2}$ ，因而基态能量为
 
 $$
-\begin{array}{r l} E _ {\mathrm{H} ^ {-}} & = [ - 1 3. 5 9 5 \mathrm{eV} \times (1 - \sigma) ^ {2} ] \times 2 \\ & = [ - 1 3. 5 9 5 \mathrm{eV} \times (1 - 0. 3) ^ {2} ] \times 2 \\ & = - 1 3. 3 2 \mathrm{eV} \end{array}
+\begin{array}{r l} E _ {\mathrm{H} ^ {-}} & = [ - 13.595 \mathrm{eV} \times (1 - \sigma) ^ {2} ] \times 2 \\ & = [ - 13.595 \mathrm{eV} \times (1 - 0.3) ^ {2} ] \times 2 \\ & = - 13.32 \mathrm{eV} \end{array}
 $$
 
 【2.19】用 Slater 法计算 Be 原子的第一至第四电离能, 将计算结果与 Be 的常见氧化态联系起来。
@@ -2047,19 +2047,19 @@ $$
 根据原子电离能的定义式 $I_{n}=E_{A^{n+}}-E_{A^{(n-1)+}}$ ，用 Slater 法计算 Be 原子的各级电离能如下：
 
 $$
-\begin{array}{r l} I _ {1} & = - \left[ - 1 3. 5 9 5 \mathrm{eV} \times \frac {(4 - 0 . 8 5 \times 2 - 0 . 3 5) ^ {2}}{2 ^ {2}} \times 2 + 1 3. 5 9 5 \mathrm{eV} \times \frac {(4 - 0 . 8 5 \times 2) ^ {2}}{2 ^ {2}} \right] \\ & = 7. 8 7 1 \mathrm{eV} \end{array}
+\begin{array}{r l} I _ {1} & = - \left[ - 13.595 \mathrm{eV} \times \frac {(4 - 0.85 \times 2 - 0.35) ^ {2}}{2 ^ {2}} \times 2 + 13.595 \mathrm{eV} \times \frac {(4 - 0.85 \times 2) ^ {2}}{2 ^ {2}} \right] \\ & = 7.871 \mathrm{eV} \end{array}
 $$
 
 $$
-I _ {2} = - \left[ - 1 3. 5 9 5 \mathrm{eV} \times \frac {(4 - 0 . 8 5 \times 2) ^ {2}}{2 ^ {2}} \right] = 1 7. 9 8 \mathrm{eV}
+I _ {2} = - \left[ - 13.595 \mathrm{eV} \times \frac {(4 - 0.85 \times 2) ^ {2}}{2 ^ {2}} \right] = 17.98 \mathrm{eV}
 $$
 
 $$
-I _ {3} = - \left[ - 1 3. 5 9 5 \mathrm{eV} \times (4 - 0. 3) ^ {2} \times 2 + 1 3. 5 9 5 \mathrm{eV} \times 1 6 \right] = 1 5 4. 8 \mathrm{eV}
+I _ {3} = - \left[ - 13.595 \mathrm{eV} \times (4 - 0.3) ^ {2} \times 2 + 13.595 \mathrm{eV} \times 16 \right] = 154.8 \mathrm{eV}
 $$
 
 $$
-I _ {4} = - (- 1 3. 5 9 5 \mathrm{eV} \times 4 ^ {2}) = 2 1 7. 5 \mathrm{eV}
+I _ {4} = - (- 13.595 \mathrm{eV} \times 4 ^ {2}) = 217.5 \mathrm{eV}
 $$
 
 计算结果表明： $I_{4}>I_{3}>I_{2}>I_{1}$ ; $I_{2}$ 和 $I_{1}$ 相近（差为 10.1 eV）， $I_{4}$ 和 $I_{3}$ 相近（差为 62.7 eV），而 $I_{3}$ 和 $I_{2}$ 相差很大（差为 136.8 eV）。所以，Be 原子较易失去两个 2s 电子而在其化合物中显 +2 价。
@@ -2069,41 +2069,41 @@ $$
 解 Na 原子基态为 $(1s)^{2}(2s)^{2}(2p)^{6}(3s)^{1}$
 
 $$
-Z ^ {*} (3 \mathrm{s}) = 1 1 - 1. 0 0 \times 2 - 0. 8 5 \times 8 = 2. 2
+Z ^ {*} (3 \mathrm{s}) = 11 - 1.00 \times 2 - 0.85 \times 8 = 2.2
 $$
 
 $$
-Z ^ {*} (2 p) = 1 1 - 0. 8 5 \times 2 - 0. 3 5 \times 7 = 6. 8 5
+Z ^ {*} (2 p) = 11 - 0.85 \times 2 - 0.35 \times 7 = 6.85
 $$
 
 代入计算公式, 得
 
 $$
-r ^ {*} (3 \mathrm{s}) = \frac {3 ^ {2}}{2 . 2} a _ {0} = 4. 1 a _ {0}
+r ^ {*} (3 \mathrm{s}) = \frac {3 ^ {2}}{2.2} a _ {0} = 4.1 a _ {0}
 $$
 
 $$
-r ^ {*} (2 \mathrm{p}) = \frac {2 ^ {2}}{6 . 8 5} a _ {0} = 0. 5 8 a _ {0}
+r ^ {*} (2 \mathrm{p}) = \frac {2 ^ {2}}{6.85} a _ {0} = 0.58 a _ {0}
 $$
 
 F 原子基组态为 $(1s)^{2}(2s)^{2}(2p)^{5}$
 
 $$
-Z ^ {*} (3 \mathrm{s}) = 9 - 1. 0 0 \times 2 - 0. 8 5 \times 7 = 1. 0 5
+Z ^ {*} (3 \mathrm{s}) = 9 - 1.00 \times 2 - 0.85 \times 7 = 1.05
 $$
 
 $$
-Z ^ {*} (2 p) = 9 - 0. 8 5 \times 2 - 0. 3 5 \times 6 = 5. 2
+Z ^ {*} (2 p) = 9 - 0.85 \times 2 - 0.35 \times 6 = 5.2
 $$
 
 代入公式计算, 得
 
 $$
-r ^ {*} (3 \mathrm{s}) = \frac {3 ^ {2}}{1 . 0 5} a _ {0} = 8. 6 a _ {0}
+r ^ {*} (3 \mathrm{s}) = \frac {3 ^ {2}}{1.05} a _ {0} = 8.6 a _ {0}
 $$
 
 $$
-r ^ {*} (2 \mathrm{p}) = \frac {2 ^ {2}}{5 . 2} a _ {0} = 0. 7 7 a _ {0}
+r ^ {*} (2 \mathrm{p}) = \frac {2 ^ {2}}{5.2} a _ {0} = 0.77 a _ {0}
 $$
 
 【2.21】写出下列原子的基态光谱支项的符号：
@@ -2127,7 +2127,7 @@ m _ {S} = \frac {5}{2}, S = \frac {5}{2}; m _ {L} = 0, L = 0; | L - S | = \frac 
 $$
 
 $$
-(3) \mathrm{Br}: [ \mathrm{Ar} ] 4 \mathrm{s} ^ {2} 3 \mathrm{d} ^ {1 0} 4 \mathrm{p} ^ {5} \quad \frac {\uparrow \downarrow}{1} \quad \frac {\uparrow \downarrow}{0} \quad \frac {\uparrow}{- 1}
+(3) \mathrm{Br}: [ \mathrm{Ar} ] 4 \mathrm{s} ^ {2} 3 \mathrm{d} ^ {10} 4 \mathrm{p} ^ {5} \quad \frac {\uparrow \downarrow}{1} \quad \frac {\uparrow \downarrow}{0} \quad \frac {\uparrow}{- 1}
 $$
 
 $$
@@ -2194,7 +2194,7 @@ $$
 (4) 总角动量 $\left|M_{J}\right|$ 由 J=3/2 推求。
 
 $$
-\mid M _ {J} \mid = \sqrt {J (J + 1)} \frac {h}{2 \pi} = \frac {\sqrt {1 5} h}{4 \pi}
+\mid M _ {J} \mid = \sqrt {J (J + 1)} \frac {h}{2 \pi} = \frac {\sqrt {15} h}{4 \pi}
 $$
 
 (5) 在磁场中此光谱支项可分裂为 $2J+1$ 个微观能态, 即 4 个微观能态。
@@ -2214,7 +2214,7 @@ $$
 解 Pauling 标度：
 
 $$
-\chi_ {\mathrm{A}} - \chi_ {\mathrm{B}} = 0. 1 0 2 \Delta^ {\frac {1}{2}}
+\chi_ {\mathrm{A}} - \chi_ {\mathrm{B}} = 0.102 \Delta^ {\frac {1}{2}}
 $$
 
 式中 $\chi_{A}$ 和 $\chi_{B}$ 分别是原子 A 和 B 的电负性， $\Delta$ 是 A—B 键的键能与 A—A 键和 B—B 键键能的几何平均值的差。定义 F 的电负性 $\chi_{F}=4$ 。
@@ -2222,7 +2222,7 @@ $$
 Mulliken 标度：
 
 $$
-\chi_ {\mathrm{M}} = 0. 1 8 (I _ {1} + Y)
+\chi_ {\mathrm{M}} = 0.18 (I _ {1} + Y)
 $$
 
 式中 $I_{1}$ 和 Y 分别为原子的第一电离能和电子亲和能（取以 eV 为单位的数值），0.18 为拟合常数。
@@ -2436,13 +2436,13 @@ M 和 M $^{+}$ \* 分别代表分子和激发态分子离子, e $^{-}$ 是光电
 解 万有引力
 
 $$
-\begin{array}{r l} & F = G \frac {m _ {1} m _ {2}}{r ^ {2}} \\ & = (6. 7 \times 1 0 ^ {- 1 1} \mathrm{Nm} ^ {2} \mathrm{kg} ^ {- 2}) \frac {(2 3 \times 3 5) \times (1 . 6 \times 1 0 ^ {- 2 7} \mathrm{kg}) ^ {2}}{(2 . 8 \times 1 0 ^ {- 1 0} \mathrm{m}) ^ {2}} \\ & = 1. 7 6 \times 1 0 ^ {- 4 3} \mathrm{N} \end{array}
+\begin{array}{r l} & F = G \frac {m _ {1} m _ {2}}{r ^ {2}} \\ & = (6.7 \times 10 ^ {- 11} \mathrm{Nm} ^ {2} \mathrm{kg} ^ {- 2}) \frac {(23 \times 35) \times (1.6 \times 10 ^ {- 27} \mathrm{kg}) ^ {2}}{(2.8 \times 10 ^ {- 10} \mathrm{m}) ^ {2}} \\ & = 1.76 \times 10 ^ {- 43} \mathrm{N} \end{array}
 $$
 
 静电引力
 
 $$
-\begin{array}{r l} F = k \frac {q _ {1} q _ {2}}{r ^ {2}} & = (9. 0 \times 1 0 ^ {9} \mathrm{Nm} ^ {2} \mathrm{C} ^ {- 2}) \frac {(1 . 6 \times 1 0 ^ {- 1 9} \mathrm{C}) ^ {2}}{(2 . 8 \times 1 0 ^ {- 1 0} \mathrm{m}) ^ {2}} \\ & = 2. 9 4 \times 1 0 ^ {- 9} \mathrm{N} \end{array}
+\begin{array}{r l} F = k \frac {q _ {1} q _ {2}}{r ^ {2}} & = (9.0 \times 10 ^ {9} \mathrm{Nm} ^ {2} \mathrm{C} ^ {- 2}) \frac {(1.6 \times 10 ^ {- 19} \mathrm{C}) ^ {2}}{(2.8 \times 10 ^ {- 10} \mathrm{m}) ^ {2}} \\ & = 2.94 \times 10 ^ {- 9} \mathrm{N} \end{array}
 $$
 
 由以上计算可见,在这种情况下静电引力比万有引力大 $10^{34}$ 倍,因而万有引力可以忽略不计。
@@ -2639,25 +2639,25 @@ $$
 由题意知, $H^{79}Br$ 分子的转动常数为
 
 $$
-B = 1 6. 9 4 \mathrm{cm} ^ {- 1} / 2 = 8. 4 7 0 \mathrm{cm} ^ {- 1}
+B = 16.94 \mathrm{cm} ^ {- 1} / 2 = 8.470 \mathrm{cm} ^ {- 1}
 $$
 
 其转动惯量为
 
 $$
-\begin{array}{r l} I = \frac {h}{8 \pi^ {2} B c} & = \frac {6 . 6 2 6 2 \times 1 0 ^ {- 3 4} \mathrm{Js}}{8 \pi^ {2} \times 8 . 4 7 0 \times 1 0 ^ {2} \mathrm{m} ^ {- 1} \times 2 . 9 9 7 9 \times 1 0 ^ {8} \mathrm{ms} ^ {- 1}} \\ & = 3. 3 0 8 \times 1 0 ^ {- 4 7} \mathrm{kgm} ^ {2} \end{array}
+\begin{array}{r l} I = \frac {h}{8 \pi^ {2} B c} & = \frac {6.6262 \times 10 ^ {- 34} \mathrm{Js}}{8 \pi^ {2} \times 8.470 \times 10 ^ {2} \mathrm{m} ^ {- 1} \times 2.9979 \times 10 ^ {8} \mathrm{ms} ^ {- 1}} \\ & = 3.308 \times 10 ^ {- 47} \mathrm{kgm} ^ {2} \end{array}
 $$
 
 $\mathrm{H}^{79}\mathrm{Br}$ 的约化质量为
 
 $$
-\mu = \frac {m _ {\mathrm{H}} m _ {\mathrm{Br}}}{m _ {\mathrm{H}} + m _ {\mathrm{Br}}} = 1. 6 4 3 \times 1 0 ^ {- 2 7} \mathrm{kg}
+\mu = \frac {m _ {\mathrm{H}} m _ {\mathrm{Br}}}{m _ {\mathrm{H}} + m _ {\mathrm{Br}}} = 1.643 \times 10 ^ {- 27} \mathrm{kg}
 $$
 
 其平衡核间距为
 
 $$
-\begin{array}{r l} r _ {\mathrm{e}} & = \left(\frac {I}{\mu}\right) ^ {\frac {1}{2}} = \left(\frac {3 . 3 0 8 \times 1 0 ^ {- 4 7} \mathrm{kgm} ^ {2}}{1 . 6 4 3 \times 1 0 ^ {- 2 7} \mathrm{kg}}\right) ^ {\frac {1}{2}} \\ & = 1 4 1. 9 \mathrm{pm} \end{array}
+\begin{array}{r l} r _ {\mathrm{e}} & = \left(\frac {I}{\mu}\right) ^ {\frac {1}{2}} = \left(\frac {3.308 \times 10 ^ {- 47} \mathrm{kgm} ^ {2}}{1.643 \times 10 ^ {- 27} \mathrm{kg}}\right) ^ {\frac {1}{2}} \\ & = 141.9 \mathrm{pm} \end{array}
 $$
 
 【3.16】 $^{12}$ C $^{16}$ O 的核间距为 112.83 pm，计算其纯转动光谱前 4 条谱线所应具有的波数。
@@ -2665,31 +2665,31 @@ $$
 解 ${}^{12}C^{16}O$ 的折合质量为
 
 $$
-\mu = \frac {1 2 \times 1 6}{1 2 + 1 6} \times \frac {1 0 ^ {- 3}}{N _ {\mathrm{A}}} = 1. 1 3 8 5 \times 1 0 ^ {- 2 6} (\mathrm{kg})
+\mu = \frac {12 \times 16}{12 + 16} \times \frac {10 ^ {- 3}}{N _ {\mathrm{A}}} = 1.1385 \times 10 ^ {- 26} (\mathrm{kg})
 $$
 
 其转动常数为
 
 $$
-\begin{array}{r l} B & = h / 8 \pi^ {2} \mu r ^ {2} c \\ & = 6. 6 2 6 2 \times 1 0 ^ {- 3 4} \mathrm{Js} / [ 8 \pi^ {2} \times 1. 1 3 8 5 \times 1 0 ^ {- 2 6} \mathrm{kg} \times \\ & (1 1 2. 8 3 \times 1 0 ^ {- 1 2} \mathrm{m}) ^ {2} \times 2. 9 9 7 9 \times 1 0 ^ {8} \mathrm{ms} ^ {- 1} ] \\ & = 1. 9 3 2 \mathrm{cm} ^ {- 1} \end{array}
+\begin{array}{r l} B & = h / 8 \pi^ {2} \mu r ^ {2} c \\ & = 6.6262 \times 10 ^ {- 34} \mathrm{Js} / [ 8 \pi^ {2} \times 1.1385 \times 10 ^ {- 26} \mathrm{kg} \times \\ & (112.83 \times 10 ^ {- 12} \mathrm{m}) ^ {2} \times 2.9979 \times 10 ^ {8} \mathrm{ms} ^ {- 1} ] \\ & = 1.932 \mathrm{cm} ^ {- 1} \end{array}
 $$
 
 第一条谱线的波数以及相邻两条谱线的波数差都是 2B, 所以前 4 条谱线的波数分别为
 
 $$
-\widetilde {\nu} _ {1} = 2 B = 2 \times 1. 9 3 2 \mathrm{cm} ^ {- 1} = 3. 8 6 4 \mathrm{cm} ^ {- 1}
+\widetilde {\nu} _ {1} = 2 B = 2 \times 1.932 \mathrm{cm} ^ {- 1} = 3.864 \mathrm{cm} ^ {- 1}
 $$
 
 $$
-\widetilde {\nu} _ {2} = 4 B = 4 \times 1. 9 3 2 \mathrm{cm} ^ {- 1} = 7. 7 2 8 \mathrm{cm} ^ {- 1}
+\widetilde {\nu} _ {2} = 4 B = 4 \times 1.932 \mathrm{cm} ^ {- 1} = 7.728 \mathrm{cm} ^ {- 1}
 $$
 
 $$
-\widetilde {\nu} _ {3} = 6 B = 6 \times 1. 9 3 2 \mathrm{cm} ^ {- 1} = 1 1. 5 9 2 \mathrm{cm} ^ {- 1}
+\widetilde {\nu} _ {3} = 6 B = 6 \times 1.932 \mathrm{cm} ^ {- 1} = 11.592 \mathrm{cm} ^ {- 1}
 $$
 
 $$
-\widetilde {\nu} _ {4} = 8 B = 8 \times 1. 9 3 2 \mathrm{cm} ^ {- 1} = 1 5. 4 5 6 \mathrm{cm} ^ {- 1}
+\widetilde {\nu} _ {4} = 8 B = 8 \times 1.932 \mathrm{cm} ^ {- 1} = 15.456 \mathrm{cm} ^ {- 1}
 $$
 
 亦可用下式：
@@ -2717,23 +2717,23 @@ $$
 (1) 由于 $CO_{2}$ 分子的质心和对称中心重合, C 原子对分子转动惯量无贡献, 所以
 
 $$
-I _ {\mathrm{C} ^ {1 6} \mathrm{O} _ {2}} = 2 m _ {\mathrm{O}} ^ {1 6} \cdot r _ {\mathrm{C=O}} ^ {2}
+I _ {\mathrm{C} ^ {16} \mathrm{O} _ {2}} = 2 m _ {\mathrm{O}} ^ {16} \cdot r _ {\mathrm{C=O}} ^ {2}
 $$
 
 $$
-\begin{array}{r l} r _ {\mathrm{C=O}} & = \left(\frac {I _ {1 2 \mathrm{C} ^ {1 6} \mathrm{O} _ {2}}}{2 m _ {\mathrm{O}} ^ {1 6}}\right) ^ {\frac {1}{2}} \\ & = \left(\frac {7 . 1 6 7 \times 1 0 ^ {- 4 6} \mathrm{kgm} ^ {2} \times 6 . 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1}}{2 \times 1 6 \times 1 0 ^ {- 3} \mathrm{kgmol} ^ {- 1}}\right) ^ {\frac {1}{2}} \\ & = 1. 1 6 1 \times 1 0 ^ {- 1 0} \mathrm{m} \end{array}
+\begin{array}{r l} r _ {\mathrm{C=O}} & = \left(\frac {I _ {12 \mathrm{C} ^ {16} \mathrm{O} _ {2}}}{2 m _ {\mathrm{O}} ^ {16}}\right) ^ {\frac {1}{2}} \\ & = \left(\frac {7.167 \times 10 ^ {- 46} \mathrm{kgm} ^ {2} \times 6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1}}{2 \times 16 \times 10 ^ {- 3} \mathrm{kgmol} ^ {- 1}}\right) ^ {\frac {1}{2}} \\ & = 1.161 \times 10 ^ {- 10} \mathrm{m} \end{array}
 $$
 
 (2) 由于假定同位素置换不改变 C=O 键键长, 因而有
 
 $$
-\begin{array}{r l} I _ {\mathrm {C^ {18} O_ {2}}} & = 2 m _ {\mathrm{O}} ^ {1 8} \cdot r _ {\mathrm{C=O}} ^ {2} \\ & = \frac {2 \times (1 8 \times 1 0 ^ {- 3} \mathrm{kgmol} ^ {- 1}) \times (1 . 1 6 1 \times 1 0 ^ {- 1 0} \mathrm{m}) ^ {2}}{6 . 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1}} \\ & = 8. 0 5 8 \times 1 0 ^ {- 4 6} \mathrm{kgm} ^ {2} \end{array}
+\begin{array}{r l} I _ {\mathrm {C^ {18} O_ {2}}} & = 2 m _ {\mathrm{O}} ^ {18} \cdot r _ {\mathrm{C=O}} ^ {2} \\ & = \frac {2 \times (18 \times 10 ^ {- 3} \mathrm{kgmol} ^ {- 1}) \times (1.161 \times 10 ^ {- 10} \mathrm{m}) ^ {2}}{6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1}} \\ & = 8.058 \times 10 ^ {- 46} \mathrm{kgm} ^ {2} \end{array}
 $$
 
 由于(1)中一开始就阐明的原因, $^{13}C^{16}O_{2}$ 的转动惯量和 $^{12}C^{16}O_{2}$ 的转动惯量相等,即
 
 $$
-I _ {^ 1 3 \mathrm{C} ^ {1 6} \mathrm{O} _ {2}} = I _ {^ 1 2 \mathrm{C} ^ {1 6} \mathrm{O} _ {2}} = 7. 1 6 7 \times 1 0 ^ {- 4 6} \mathrm{kgm} ^ {2}
+I _ {^ 13 \mathrm{C} ^ {16} \mathrm{O} _ {2}} = I _ {^ 12 \mathrm{C} ^ {16} \mathrm{O} _ {2}} = 7.167 \times 10 ^ {- 46} \mathrm{kgm} ^ {2}
 $$
 
 线形分子 A—B—C 的转动惯量为
@@ -2755,13 +2755,13 @@ $$
 对 HBr:
 
 $$
-\begin{array}{r l} & B = \frac {1}{2} \Delta \tilde {\nu} = \frac {1}{2} \times 1 6. 7 0 \mathrm{cm} ^ {- 1} = 8. 3 5 \mathrm{cm} ^ {- 1} \\ & I = \frac {h}{8 \pi^ {2} B c} = \frac {6 . 6 2 6 \times 1 0 ^ {- 3 4} \mathrm{Js}}{8 \pi^ {2} \times (8 . 3 5 0 \times 1 0 ^ {2} \mathrm{m} ^ {- 1}) \times 2 . 9 9 8 \times 1 0 ^ {8} \mathrm{ms} ^ {- 1}} = 3. 3 4 9 \times 1 0 ^ {- 4 7} \mathrm{kgm} ^ {2} \\ & \mu = \frac {1 . 0 0 8 \mathrm{gmol} ^ {- 1} \times 7 9 . 9 1 6 \mathrm{gmol} ^ {- 1}}{1 . 0 0 8 \mathrm{gmol} ^ {- 1} + 7 9 . 9 1 6 \mathrm{gmol} ^ {- 1}} \times 1 0 ^ {- 3} \mathrm{kgg} ^ {- 1} / 6. 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1} \\ & = 1. 6 4 1 \times 1 0 ^ {- 2 7} \mathrm{kg} \\ & r = \left(\frac {I}{\mu}\right) ^ {\frac {1}{2}} = (3. 3 4 9 \times 1 0 ^ {- 4 7} \mathrm{kgm} ^ {2} / 1. 6 4 1 \times 1 0 ^ {- 2 7} \mathrm{kg}) ^ {\frac {1}{2}} = 1 4 2. 9 \mathrm{pm} \end{array}
+\begin{array}{r l} & B = \frac {1}{2} \Delta \tilde {\nu} = \frac {1}{2} \times 16.70 \mathrm{cm} ^ {- 1} = 8.35 \mathrm{cm} ^ {- 1} \\ & I = \frac {h}{8 \pi^ {2} B c} = \frac {6.626 \times 10 ^ {- 34} \mathrm{Js}}{8 \pi^ {2} \times (8.350 \times 10 ^ {2} \mathrm{m} ^ {- 1}) \times 2.998 \times 10 ^ {8} \mathrm{ms} ^ {- 1}} = 3.349 \times 10 ^ {- 47} \mathrm{kgm} ^ {2} \\ & \mu = \frac {1.008 \mathrm{gmol} ^ {- 1} \times 79.916 \mathrm{gmol} ^ {- 1}}{1.008 \mathrm{gmol} ^ {- 1} + 79.916 \mathrm{gmol} ^ {- 1}} \times 10 ^ {- 3} \mathrm{kgg} ^ {- 1} / 6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1} \\ & = 1.641 \times 10 ^ {- 27} \mathrm{kg} \\ & r = \left(\frac {I}{\mu}\right) ^ {\frac {1}{2}} = (3.349 \times 10 ^ {- 47} \mathrm{kgm} ^ {2} / 1.641 \times 10 ^ {- 27} \mathrm{kg}) ^ {\frac {1}{2}} = 142.9 \mathrm{pm} \end{array}
 $$
 
 对 HCl:
 
 $$
-\begin{array}{r l} & B = \frac {1}{2} \Delta \widetilde {\nu} = \frac {1}{2} \times 2 0. 8 2 \mathrm{cm} ^ {- 1} = 1 0. 4 2 \mathrm{cm} ^ {- 1} \\ & I = \frac {h}{8 \pi^ {2} B c} = \frac {6 . 6 2 6 \times 1 0 ^ {- 3 4} \mathrm{Js}}{8 \pi^ {2} \times (1 0 . 4 2 \times 1 0 ^ {2} \mathrm{m} ^ {- 1}) \times 2 . 9 9 8 \times 1 0 ^ {8} \mathrm{ms} ^ {- 1}} \\ & = 2. 6 8 4 \times 1 0 ^ {- 4 7} \mathrm{kgm} ^ {2} \\ & \mu = \frac {1 . 0 0 8 \mathrm{gmol} ^ {- 1} \times 3 5 . 4 5 \mathrm{gmol} ^ {- 1}}{1 . 0 0 8 \mathrm{gmol} ^ {- 1} + 3 5 . 4 5 \mathrm{gmol} ^ {- 1}} \times 1 0 ^ {- 3} \mathrm{kgg} ^ {- 1} / 6. 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1} \\ & = 1. 6 2 7 \times 1 0 ^ {- 2 7} \mathrm{kg} \\ & r = \left(\frac {I}{\mu}\right) ^ {\frac {1}{2}} = (2. 6 8 4 \times 1 0 ^ {- 4 7} \mathrm{kgm} ^ {2} / 1. 6 2 7 \times 1 0 ^ {- 2 7} \mathrm{kg}) ^ {\frac {1}{2}} = 1 2 8. 4 \mathrm{pm} \end{array}
+\begin{array}{r l} & B = \frac {1}{2} \Delta \widetilde {\nu} = \frac {1}{2} \times 20.82 \mathrm{cm} ^ {- 1} = 10.42 \mathrm{cm} ^ {- 1} \\ & I = \frac {h}{8 \pi^ {2} B c} = \frac {6.626 \times 10 ^ {- 34} \mathrm{Js}}{8 \pi^ {2} \times (10.42 \times 10 ^ {2} \mathrm{m} ^ {- 1}) \times 2.998 \times 10 ^ {8} \mathrm{ms} ^ {- 1}} \\ & = 2.684 \times 10 ^ {- 47} \mathrm{kgm} ^ {2} \\ & \mu = \frac {1.008 \mathrm{gmol} ^ {- 1} \times 35.45 \mathrm{gmol} ^ {- 1}}{1.008 \mathrm{gmol} ^ {- 1} + 35.45 \mathrm{gmol} ^ {- 1}} \times 10 ^ {- 3} \mathrm{kgg} ^ {- 1} / 6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1} \\ & = 1.627 \times 10 ^ {- 27} \mathrm{kg} \\ & r = \left(\frac {I}{\mu}\right) ^ {\frac {1}{2}} = (2.684 \times 10 ^ {- 47} \mathrm{kgm} ^ {2} / 1.627 \times 10 ^ {- 27} \mathrm{kg}) ^ {\frac {1}{2}} = 128.4 \mathrm{pm} \end{array}
 $$
 
 【3.19】在 $H^{127}I$ 的振动光谱图中观察到 $2309.5 \, cm^{-1}$ 强吸收峰，若将 HI 的简正振动看作谐振子，请计算或说明：
@@ -2781,25 +2781,25 @@ $$
 (2) 振动频率为
 
 $$
-\begin{array}{r l} \nu & = c \widetilde {\nu} = 2. 9 9 7 9 \times 1 0 ^ {8} \mathrm{ms} ^ {- 1} \times 2 3 0 9. 5 \times 1 0 ^ {2} \mathrm{m} ^ {- 1} \\ & = 6. 9 2 4 \times 1 0 ^ {1 3} \mathrm{s} ^ {- 1} \end{array}
+\begin{array}{r l} \nu & = c \widetilde {\nu} = 2.9979 \times 10 ^ {8} \mathrm{ms} ^ {- 1} \times 2309.5 \times 10 ^ {2} \mathrm{m} ^ {- 1} \\ & = 6.924 \times 10 ^ {13} \mathrm{s} ^ {- 1} \end{array}
 $$
 
 (3) 振动零点能为
 
 $$
-\begin{array}{r l} E _ {0} & = \frac {1}{2} h c \tilde {\nu} \\ & = \frac {1}{2} \times 6. 6 2 6 2 \times 1 0 ^ {- 3 4} \mathrm{Js} \times 2. 9 9 7 9 \times 1 0 ^ {8} \mathrm{ms} ^ {- 1} \times 2 3 0 9. 5 \times 1 0 ^ {2} \mathrm{m} ^ {- 1} \\ & = 2. 2 9 4 \times 1 0 ^ {- 2 0} \mathrm{J} \end{array}
+\begin{array}{r l} E _ {0} & = \frac {1}{2} h c \tilde {\nu} \\ & = \frac {1}{2} \times 6.6262 \times 10 ^ {- 34} \mathrm{Js} \times 2.9979 \times 10 ^ {8} \mathrm{ms} ^ {- 1} \times 2309.5 \times 10 ^ {2} \mathrm{m} ^ {- 1} \\ & = 2.294 \times 10 ^ {- 20} \mathrm{J} \end{array}
 $$
 
 (4) $\mathrm{H}^{127}\mathrm{I}$ 的约化质量为
 
 $$
-\begin{array}{r l} \mu = & \frac {1 . 0 0 8 \times 1 0 ^ {- 3} \mathrm{kgmol} ^ {- 1} \times 1 2 6 . 9 \times 1 0 ^ {- 3} \mathrm{kgmol} ^ {- 1}}{(1 . 0 0 8 + 1 2 6 . 9) \times 1 0 ^ {- 3} \mathrm{kgmol} ^ {- 1} \times 6 . 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1}} \\ = & 1. 6 6 1 \times 1 0 ^ {- 2 7} \mathrm{kg} \end{array}
+\begin{array}{r l} \mu = & \frac {1.008 \times 10 ^ {- 3} \mathrm{kgmol} ^ {- 1} \times 126.9 \times 10 ^ {- 3} \mathrm{kgmol} ^ {- 1}}{(1.008 + 126.9) \times 10 ^ {- 3} \mathrm{kgmol} ^ {- 1} \times 6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1}} \\ = & 1.661 \times 10 ^ {- 27} \mathrm{kg} \end{array}
 $$
 
 $\mathrm{H}^{127}\mathrm{I}$ 的力常数为
 
 $$
-\begin{array}{r l} & k = 4 \pi^ {2} c ^ {2} \widetilde {\nu} ^ {2} \mu \\ & = 4 \pi^ {2} (2. 9 9 8 \times 1 0 ^ {8} \mathrm{ms} ^ {- 1}) ^ {2} \times (2 3 0 9. 5 \times 1 0 ^ {2} \mathrm{m} ^ {- 1}) ^ {2} \times 1. 6 6 1 \times 1 0 ^ {- 2 7} \mathrm{kg} \\ & = 3 1 4. 2 \mathrm{Nm} ^ {- 1} \end{array}
+\begin{array}{r l} & k = 4 \pi^ {2} c ^ {2} \widetilde {\nu} ^ {2} \mu \\ & = 4 \pi^ {2} (2.998 \times 10 ^ {8} \mathrm{ms} ^ {- 1}) ^ {2} \times (2309.5 \times 10 ^ {2} \mathrm{m} ^ {- 1}) ^ {2} \times 1.661 \times 10 ^ {- 27} \mathrm{kg} \\ & = 314.2 \mathrm{Nm} ^ {- 1} \end{array}
 $$
 
 【3.20】在 CO 的振动光谱中观察到 $2169.8 \, cm^{-1}$ 强吸收峰，若将 CO 的简正振动看作谐振子，计算 CO 的简正振动频率、力常数和零点能。当 CO 吸附在 CuCl/分子筛吸附剂表面上时，它的伸缩频率有何变化？
@@ -2807,11 +2807,11 @@ $$
 解
 
 $$
-\begin{array}{r l} & \nu = c \widetilde {\nu} = 2. 9 9 8 \times 1 0 ^ {8} \mathrm{ms} ^ {- 1} \times 2 1 6 9. 8 \times 1 0 ^ {2} \mathrm{m} ^ {- 1} \\ & = 6. 5 0 5 \times 1 0 ^ {1 3} \mathrm{s} ^ {- 1} \\ & \mu = \frac {1 2 . 0 1 \times 1 0 ^ {- 3} \mathrm{kgmol} ^ {- 1} \times 1 6 . 0 0 \times 1 0 ^ {- 3} \mathrm{kgmol} ^ {- 1}}{(1 2 . 0 1 + 1 6 . 0 0) \times 1 0 ^ {- 3} \mathrm{kgmol} ^ {- 1} \times 6 . 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1}} \\ & = 1. 1 3 9 \times 1 0 ^ {- 2 6} \mathrm{kg} \\ & k = 4 \pi^ {2} c ^ {2} \widetilde {\nu} ^ {2} \mu \\ & = 4 \pi^ {2} (2. 9 9 8 \times 1 0 ^ {8} \mathrm{ms} ^ {- 1}) ^ {2} \times (2 1 6 9. 8 \times 1 0 ^ {2} \mathrm{m} ^ {- 1}) ^ {2} \times 1. 1 3 9 \times 1 0 ^ {- 2 6} \mathrm{kg} \\ & = 1 9 0 1 \mathrm{Nm} ^ {- 1} \end{array}
+\begin{array}{r l} & \nu = c \widetilde {\nu} = 2.998 \times 10 ^ {8} \mathrm{ms} ^ {- 1} \times 2169.8 \times 10 ^ {2} \mathrm{m} ^ {- 1} \\ & = 6.505 \times 10 ^ {13} \mathrm{s} ^ {- 1} \\ & \mu = \frac {12.01 \times 10 ^ {- 3} \mathrm{kgmol} ^ {- 1} \times 16.00 \times 10 ^ {- 3} \mathrm{kgmol} ^ {- 1}}{(12.01 + 16.00) \times 10 ^ {- 3} \mathrm{kgmol} ^ {- 1} \times 6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1}} \\ & = 1.139 \times 10 ^ {- 26} \mathrm{kg} \\ & k = 4 \pi^ {2} c ^ {2} \widetilde {\nu} ^ {2} \mu \\ & = 4 \pi^ {2} (2.998 \times 10 ^ {8} \mathrm{ms} ^ {- 1}) ^ {2} \times (2169.8 \times 10 ^ {2} \mathrm{m} ^ {- 1}) ^ {2} \times 1.139 \times 10 ^ {- 26} \mathrm{kg} \\ & = 1901 \mathrm{Nm} ^ {- 1} \end{array}
 $$
 
 $$
-\begin{array}{r l} E _ {0} & = \frac {1}{2} h c \widetilde {\nu} = \frac {1}{2} \times 6. 6 2 6 \times 1 0 ^ {- 3 4} \mathrm{Js} \times 2. 9 9 8 \times 1 0 ^ {8} \mathrm{ms} ^ {- 1} \times 2 1 6 9. 8 \times 1 0 ^ {2} \mathrm{m} ^ {- 1} \\ & = 2. 1 5 5 \times 1 0 ^ {- 2 0} \mathrm{J} \end{array}
+\begin{array}{r l} E _ {0} & = \frac {1}{2} h c \widetilde {\nu} = \frac {1}{2} \times 6.626 \times 10 ^ {- 34} \mathrm{Js} \times 2.998 \times 10 ^ {8} \mathrm{ms} ^ {- 1} \times 2169.8 \times 10 ^ {2} \mathrm{m} ^ {- 1} \\ & = 2.155 \times 10 ^ {- 20} \mathrm{J} \end{array}
 $$
 
 当 CO 吸附在 CuCl/分子筛吸附剂表面上时,由于 CO 分子和 Cu(I)间形成 $\sigma-\pi$ 配键,使 CO 分子的键级减小,力常数减小,C—O 伸缩振动频率降低。
@@ -2837,45 +2837,45 @@ $$
 （1）在此振-转光谱中，波数为2925.78和 $2906.25\mathrm{cm}^{-1}$ 的谱线属R支，波数为2865.09和 $2843.56\mathrm{cm}^{-1}$ 的谱线属P支，在两支转动谱线的中心处即振动基频：
 
 $$
-\widetilde {\nu} = \frac {2 9 0 6 . 2 5 \mathrm{cm} ^ {- 1} + 2 8 6 5 . 0 9 \mathrm{cm} ^ {- 1}}{2} = 2 8 8 5. 6 7 \mathrm{cm} ^ {- 1}
+\widetilde {\nu} = \frac {2906.25 \mathrm{cm} ^ {- 1} + 2865.09 \mathrm{cm} ^ {- 1}}{2} = 2885.67 \mathrm{cm} ^ {- 1}
 $$
 
 已知倍频为 $\tilde{\nu}_{2}=5668.0\ cm^{-1}$ ，根据非谐振子模型，得联立方程如下：
 
 $$
-\left\{ \begin{array}{l} (1 - 2 x) \widetilde {\nu_ {e}} = 2 8 8 5. 6 7 \mathrm{cm} ^ {- 1} \\ 2 (1 - 3 x) \widetilde {\nu_ {e}} = 5 6 6 8. 0 \mathrm{cm} ^ {- 1} \end{array} \right.
+\left\{ \begin{array}{l} (1 - 2 x) \widetilde {\nu_ {e}} = 2885.67 \mathrm{cm} ^ {- 1} \\ 2 (1 - 3 x) \widetilde {\nu_ {e}} = 5668.0 \mathrm{cm} ^ {- 1} \end{array} \right.
 $$
 
 解之，得
 
 $$
-\widetilde {\nu} _ {\mathrm{e}} = 2 9 8 9. 0 1 \mathrm{cm} ^ {- 1}, x = 1. 7 2 8 7 \times 1 0 ^ {- 2}
+\widetilde {\nu} _ {\mathrm{e}} = 2989.01 \mathrm{cm} ^ {- 1}, x = 1.7287 \times 10 ^ {- 2}
 $$
 
 (2) 由 $\widetilde{\nu}_{\mathrm{e}} = \frac{1}{2\pi c}\sqrt{\frac{k}{\mu}}$ ，得
 
 $$
-\begin{array}{r l} & k = 4 \pi^ {2} c ^ {2} \mu \widetilde {\nu_ {\mathrm{e}} ^ {2}} \\ & = 4 \pi^ {2} (2. 9 9 8 \times 1 0 ^ {1 0} \mathrm{cm} \mathrm{s} ^ {- 1}) ^ {2} \times \frac {1 \times 3 5}{1 + 3 5} \times (2 9 8 9. 0 1 \mathrm{cm} ^ {- 1}) ^ {2} \times \frac {1}{6 . 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1}} \\ & = 5 1 2. 5 \mathrm{Nm} ^ {- 1} \end{array}
+\begin{array}{r l} & k = 4 \pi^ {2} c ^ {2} \mu \widetilde {\nu_ {\mathrm{e}} ^ {2}} \\ & = 4 \pi^ {2} (2.998 \times 10 ^ {10} \mathrm{cm} \mathrm{s} ^ {- 1}) ^ {2} \times \frac {1 \times 35}{1 + 35} \times (2989.01 \mathrm{cm} ^ {- 1}) ^ {2} \times \frac {1}{6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1}} \\ & = 512.5 \mathrm{Nm} ^ {- 1} \end{array}
 $$
 
 (3) 由 $\widetilde{\nu}_{\mathrm{e}}$ 和 $x$ 得
 
 $$
-D _ {\mathrm{e}} = \frac {h \nu_ {\mathrm{e}}}{4 x} = \frac {6 . 6 2 6 \times 1 0 ^ {- 3 4} \mathrm{Js} \times 2 9 8 9 . 0 1 \times 1 0 ^ {2} \mathrm{m} ^ {- 1} \times 2 . 9 9 8 \times 1 0 ^ {8} \mathrm{ms} ^ {- 1}}{4 \times 1 . 7 2 8 7 \times 1 0 ^ {- 2}}
+D _ {\mathrm{e}} = \frac {h \nu_ {\mathrm{e}}}{4 x} = \frac {6.626 \times 10 ^ {- 34} \mathrm{Js} \times 2989.01 \times 10 ^ {2} \mathrm{m} ^ {- 1} \times 2.998 \times 10 ^ {8} \mathrm{ms} ^ {- 1}}{4 \times 1.7287 \times 10 ^ {- 2}}
 $$
 
 $$
-\begin{array}{r l} & = 8. 5 8 7 \times 1 0 ^ {- 1 9} \mathrm{J} \\ & = 5 1 7. 1 \mathrm{kJmol} ^ {- 1} \end{array}
+\begin{array}{r l} & = 8.587 \times 10 ^ {- 19} \mathrm{J} \\ & = 517.1 \mathrm{kJmol} ^ {- 1} \end{array}
 $$
 
 (4) 由 $H^{35}Cl$ 的振-转光谱 P 支 =2865.09 cm $^{-1}$ , 2843.56 cm $^{-1}$ 可得
 
 $$
-2 B = 2 1. 5 3 \mathrm{cm} ^ {- 1} = 2 \times \frac {h}{8 \pi^ {2} I c} = \frac {2 h}{8 \pi^ {2} \mu r ^ {2} c}
+2 B = 21.53 \mathrm{cm} ^ {- 1} = 2 \times \frac {h}{8 \pi^ {2} I c} = \frac {2 h}{8 \pi^ {2} \mu r ^ {2} c}
 $$
 
 $$
-\begin{array}{r l} r = & \sqrt {\frac {h}{8 \pi^ {2} \mu B c}} = \sqrt {\frac {6 . 6 2 6 \times 1 0 ^ {- 3 4} \mathrm{Js}}{8 \pi^ {2} \times \frac {1 \times 3 5}{1 + 3 5} \times 1 0 . 7 6 5 \times 1 0 ^ {2} \mathrm{m} ^ {- 1} \times 2 . 9 9 8 \times 1 0 ^ {8} \mathrm{ms} ^ {- 1}}} \\ = & 1 2 6. 8 6 \mathrm{pm} \end{array}
+\begin{array}{r l} r = & \sqrt {\frac {h}{8 \pi^ {2} \mu B c}} = \sqrt {\frac {6.626 \times 10 ^ {- 34} \mathrm{Js}}{8 \pi^ {2} \times \frac {1 \times 35}{1 + 35} \times 10.765 \times 10 ^ {2} \mathrm{m} ^ {- 1} \times 2.998 \times 10 ^ {8} \mathrm{ms} ^ {- 1}}} \\ = & 126.86 \mathrm{pm} \end{array}
 $$
 
 【3.23】已知 $N_{2}$ 的平衡解离能 $D_{e}=955.42\ kJ\ mol^{-1}$ ，其基本振动波数为 $2330.0\ cm^{-1}$ ，计算光谱解离能 $D_{0}$ 值。
@@ -2883,13 +2883,13 @@ $$
 解 按简谐振子模型, $N_{2}$ 的光谱解离能为
 
 $$
-\begin{array}{r l} D _ {0} & = D _ {\mathrm{e}} - \frac {1}{2} h \nu_ {\mathrm{e}} = D _ {\mathrm{e}} - \frac {1}{2} h c \tilde {\nu_ {\mathrm{e}}} \\ & = 9 5 5. 4 2 \mathrm{kJ} \mathrm{mol} ^ {- 1} - \frac {1}{2} \times 6. 6 2 6 1 8 \times 1 0 ^ {- 3 4} \mathrm{Js} \times 2. 9 9 7 9 \\ & \times 1 0 ^ {8} \mathrm{ms} ^ {- 1} \times 2 3 3 0. 0 \times 1 0 ^ {2} \mathrm{m} ^ {- 1} \times 6. 0 2 2 0 5 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1} \\ & = 9 5 5. 4 2 \mathrm{kJ} \mathrm{mol} ^ {- 1} - 1 3. 9 3 6 \mathrm{kJ} \mathrm{mol} ^ {- 1} \\ & = 9 4 1. 4 8 \mathrm{kJ} \mathrm{mol} ^ {- 1} \end{array}
+\begin{array}{r l} D _ {0} & = D _ {\mathrm{e}} - \frac {1}{2} h \nu_ {\mathrm{e}} = D _ {\mathrm{e}} - \frac {1}{2} h c \tilde {\nu_ {\mathrm{e}}} \\ & = 955.42 \mathrm{kJ} \mathrm{mol} ^ {- 1} - \frac {1}{2} \times 6.62618 \times 10 ^ {- 34} \mathrm{Js} \times 2.9979 \\ & \times 10 ^ {8} \mathrm{ms} ^ {- 1} \times 2330.0 \times 10 ^ {2} \mathrm{m} ^ {- 1} \times 6.02205 \times 10 ^ {23} \mathrm{mol} ^ {- 1} \\ & = 955.42 \mathrm{kJ} \mathrm{mol} ^ {- 1} - 13.936 \mathrm{kJ} \mathrm{mol} ^ {- 1} \\ & = 941.48 \mathrm{kJ} \mathrm{mol} ^ {- 1} \end{array}
 $$
 
 按非谐振子模型, $N_{2}$ 的光谱解离能为
 
 $$
-\begin{array}{r l} D _ {0} & = D _ {\mathrm{e}} - \frac {1}{2} h \nu_ {\mathrm{e}} + \frac {1}{4} h \nu_ {\mathrm{e}} x = D _ {\mathrm{e}} - \frac {1}{2} h \nu_ {\mathrm{e}} + \frac {1}{4} h \nu_ {\mathrm{e}} \cdot \frac {h \nu_ {\mathrm{e}}}{4 D _ {\mathrm{e}}} \\ & = D _ {\mathrm{e}} - \frac {1}{2} h c \widetilde {\nu_ {\mathrm{e}}} + \frac {h ^ {2} c ^ {2} \widetilde {\nu_ {\mathrm{e}}} ^ {2}}{1 6 D _ {\mathrm{e}}} = 9 4 1. 4 8 \mathrm{kJmol} ^ {- 1} + 0. 0 5 1 0 \mathrm{kJmol} ^ {- 1} \\ & = 9 4 1. 5 3 \mathrm{kJmol} ^ {- 1} \end{array}
+\begin{array}{r l} D _ {0} & = D _ {\mathrm{e}} - \frac {1}{2} h \nu_ {\mathrm{e}} + \frac {1}{4} h \nu_ {\mathrm{e}} x = D _ {\mathrm{e}} - \frac {1}{2} h \nu_ {\mathrm{e}} + \frac {1}{4} h \nu_ {\mathrm{e}} \cdot \frac {h \nu_ {\mathrm{e}}}{4 D _ {\mathrm{e}}} \\ & = D _ {\mathrm{e}} - \frac {1}{2} h c \widetilde {\nu_ {\mathrm{e}}} + \frac {h ^ {2} c ^ {2} \widetilde {\nu_ {\mathrm{e}}} ^ {2}}{16 D _ {\mathrm{e}}} = 941.48 \mathrm{kJmol} ^ {- 1} + 0.0510 \mathrm{kJmol} ^ {- 1} \\ & = 941.53 \mathrm{kJmol} ^ {- 1} \end{array}
 $$
 
 【3.24】 $H_{2}(g)$ 的光谱解离能为 4.4763 eV，振动基频波数为 4395.24 cm $^{-1}$ 。若 $D_{2}(g)$ 与 $H_{2}(g)$ 的力常数、核间距和 $D_{e}$ 等都相同，计算 $D_{2}(g)$ 的光谱解离能。
@@ -2921,7 +2921,7 @@ D _ {0} ^ {\mathrm{D} _ {2}} = D _ {\mathrm{e}} ^ {\mathrm{D} _ {2}} - \frac {1}
 $$
 
 $$
-\begin{array}{r l} & = D _ {0} ^ {\mathrm{H} _ {2}} + \frac {1}{2} h \nu_ {\mathrm{e}} ^ {\mathrm{H} _ {2}} \left[ 1 - \left(\frac {\mu_ {\mathrm{H} _ {2}}}{\mu_ {\mathrm{D} _ {2}}}\right) ^ {\frac {1}{2}} \right] \\ & = 4. 4 7 6 3 \mathrm{eV} + \frac {1}{2} \times 6. 6 2 6 2 \times 1 0 ^ {- 3 4} \mathrm{Js} \times 2. 9 9 7 9 \times 1 0 ^ {8} \mathrm{ms} ^ {- 1} \\ & \quad \times 4 3 9 5. 2 4 \times 1 0 ^ {2} \mathrm{m} ^ {- 1} \times \left[ 1 - \left(\frac {8 . 3 6 8 3 \times 1 0 ^ {- 2 8} \mathrm{kg}}{1 . 6 7 2 2 \times 1 0 ^ {- 2 7} \mathrm{kg}}\right) ^ {\frac {1}{2}} \right] \\ & = 4. 4 7 6 3 \mathrm{eV} + 0. 0 7 9 7 \mathrm{eV} \\ & = 4. 5 5 6 \mathrm{eV} \end{array}
+\begin{array}{r l} & = D _ {0} ^ {\mathrm{H} _ {2}} + \frac {1}{2} h \nu_ {\mathrm{e}} ^ {\mathrm{H} _ {2}} \left[ 1 - \left(\frac {\mu_ {\mathrm{H} _ {2}}}{\mu_ {\mathrm{D} _ {2}}}\right) ^ {\frac {1}{2}} \right] \\ & = 4.4763 \mathrm{eV} + \frac {1}{2} \times 6.6262 \times 10 ^ {- 34} \mathrm{Js} \times 2.9979 \times 10 ^ {8} \mathrm{ms} ^ {- 1} \\ & \quad \times 4395.24 \times 10 ^ {2} \mathrm{m} ^ {- 1} \times \left[ 1 - \left(\frac {8.3683 \times 10 ^ {- 28} \mathrm{kg}}{1.6722 \times 10 ^ {- 27} \mathrm{kg}}\right) ^ {\frac {1}{2}} \right] \\ & = 4.4763 \mathrm{eV} + 0.0797 \mathrm{eV} \\ & = 4.556 \mathrm{eV} \end{array}
 $$
 
 【3.25】H—O—O—H和H—C≡C—H分子的简正振动数目各有多少？画出H—C≡C—H简正振动方式，并分别指明其为红外活性或Raman活性。
@@ -2958,7 +2958,7 @@ $$
 式中 $E_{HeI}$ ， $E_{b}$ 和 $I_{A}$ 分别为激发源的能量、电离轨道的能级（电子结合能）和电离轨道的绝热电离能。将有关数据代入，可得从 $N_{2}$ 分子的 $1\sigma_{u}$ ， $1\pi_{u}$ 和 $2\sigma_{g}$ 三个分子轨道电离出的光电子动能，它们分别为
 
 $$
-\begin{array}{l} 2 1. 2 2 \mathrm{eV} - 1 8. 8 0 \mathrm{eV} = 2. 4 2 \mathrm{eV} \\ 2 1. 2 2 \mathrm{eV} - 1 6. 7 0 \mathrm{eV} = 4. 5 2 \mathrm{eV} \\ 2 1. 2 2 \mathrm{eV} - 1 5. 6 0 \mathrm{eV} = 5. 6 2 \mathrm{eV} \end{array}
+\begin{array}{l} 21.22 \mathrm{eV} - 18.80 \mathrm{eV} = 2.42 \mathrm{eV} \\ 21.22 \mathrm{eV} - 16.70 \mathrm{eV} = 4.52 \mathrm{eV} \\ 21.22 \mathrm{eV} - 15.60 \mathrm{eV} = 5.62 \mathrm{eV} \end{array}
 $$
 
 【3.28】什么是垂直电离能和绝热电离能？试以 $N_{2}$ 分子的电子能谱图为例[参看《结构化学基础》(第5版)图3.6.3]，说明3个轨道的数据。
@@ -3092,11 +3092,11 @@ $$
 (3) 根据 Hund 规则, $E(^{2}\mathrm{P}_{1/2}) > E(^{2}\mathrm{P}_{3/2})$ , 所以两电离过程及相应的电离能分别为
 
 $$
-\mathrm{Ar} (^ {1} \mathrm{S} _ {0}) \longrightarrow \mathrm{Ar} ^ {+} (^ {2} \mathrm{P} _ {3 / 2}) + \mathrm{e} ^ {-} I = 1 5. 7 5 9 \mathrm{eV}
+\mathrm{Ar} (^ {1} \mathrm{S} _ {0}) \longrightarrow \mathrm{Ar} ^ {+} (^ {2} \mathrm{P} _ {3 / 2}) + \mathrm{e} ^ {-} I = 15.759 \mathrm{eV}
 $$
 
 $$
-\mathrm{Ar} (^ {1} \mathrm{S} _ {0}) \longrightarrow \mathrm{Ar} ^ {+} (^ {2} \mathrm{P} _ {1 / 2}) + \mathrm{e} ^ {-} I = 1 5. 9 3 7 \mathrm{eV}
+\mathrm{Ar} (^ {1} \mathrm{S} _ {0}) \longrightarrow \mathrm{Ar} ^ {+} (^ {2} \mathrm{P} _ {1 / 2}) + \mathrm{e} ^ {-} I = 15.937 \mathrm{eV}
 $$
 
 微粒的状态及能量关系可简单示意如下：
@@ -3106,7 +3106,7 @@ $$
 (4) 自旋-轨道耦合常数为
 
 $$
-1 5. 9 3 7 \mathrm{eV} - 1 5. 7 5 9 \mathrm{eV} = 0. 1 7 8 \mathrm{eV}
+15.937 \mathrm{eV} - 15.759 \mathrm{eV} = 0.178 \mathrm{eV}
 $$
 
 此即图 3.34 所示的两个分裂峰之间的“距离”。
@@ -3219,7 +3219,7 @@ I _ {4} = S _ {4} ^ {-} \quad S _ {4} = I _ {4} ^ {-}
 $$
 
 $$
-I _ {5} = S _ {1 0} ^ {-} = C _ {5} + i \quad S _ {5} = I _ {1 0} ^ {-} = C _ {5} + \sigma
+I _ {5} = S _ {10} ^ {-} = C _ {5} + i \quad S _ {5} = I _ {10} ^ {-} = C _ {5} + \sigma
 $$
 
 $$
@@ -3477,7 +3477,7 @@ S _ {1} = I _ {2} ^ {-}, \quad S _ {2} = I _ {1} ^ {-}, \quad S _ {3} = I _ {6} 
 $$
 
 $$
-S _ {4} = I _ {4} ^ {-}, \quad S _ {5} = I _ {1 0} ^ {-}, \quad S _ {6} = I _ {3} ^ {-}
+S _ {4} = I _ {4} ^ {-}, \quad S _ {5} = I _ {10} ^ {-}, \quad S _ {6} = I _ {3} ^ {-}
 $$
 
 或
@@ -3487,7 +3487,7 @@ I _ {1} = S _ {2} ^ {-}, \quad I _ {2} = S _ {1} ^ {-}, \quad I _ {3} = S _ {6} 
 $$
 
 $$
-I _ {4} = S _ {4} ^ {-}, \quad I _ {5} = S _ {1 0} ^ {-}, \quad I _ {6} = S _ {3} ^ {-}
+I _ {4} = S _ {4} ^ {-}, \quad I _ {5} = S _ {10} ^ {-}, \quad I _ {6} = S _ {3} ^ {-}
 $$
 
 映轴和反轴右上角的负号表示依据该对称元素进行的基本操作的逆操作。除上述三例外，读者还可自举数例加以验证。
@@ -3731,7 +3731,7 @@ F
 ![](结构化学基础（第5版）习题解析周公度z-library.sk,1lib.sk,z-lib.sk_1-150_images/233e0c8ec954d58d99d981c19ca582f63121301f2d6f82d1fcbfd8d0c8f8d7c2.jpg)
 
 $$
-\begin{array}{r l} \mu_ {(o ^ {-})} & = [ \mu_ {\mathrm{C-Cl}} ^ {2} + \mu_ {\mathrm{C-CH} _ {3}} ^ {2} + 2 \mu_ {\mathrm{C-Cl}} \mu_ {\mathrm{C-CH} _ {3}} \cdot \cos 6 0 ^ {\circ} ] ^ {\frac {1}{2}} \\ & = [ (5. 1 7 \times 1 0 ^ {- 3 0} \mathrm{Cm}) ^ {2} + (- 1. 3 4 \times 1 0 ^ {- 3 0} \mathrm{Cm}) ^ {2} \\ & + 2 \times 5. 1 7 \times 1 0 ^ {- 3 0} \mathrm{Cm} \times (- 1. 3 4 \times 1 0 ^ {- 3 0} \mathrm{Cm}) \times \frac {1}{2} ] ^ {\frac {1}{2}} \\ & = 4. 6 5 \times 1 0 ^ {- 3 0} \mathrm{Cm} \end{array}
+\begin{array}{r l} \mu_ {(o ^ {-})} & = [ \mu_ {\mathrm{C-Cl}} ^ {2} + \mu_ {\mathrm{C-CH} _ {3}} ^ {2} + 2 \mu_ {\mathrm{C-Cl}} \mu_ {\mathrm{C-CH} _ {3}} \cdot \cos 60 ^ {\circ} ] ^ {\frac {1}{2}} \\ & = [ (5.17 \times 10 ^ {- 30} \mathrm{Cm}) ^ {2} + (- 1.34 \times 10 ^ {- 30} \mathrm{Cm}) ^ {2} \\ & + 2 \times 5.17 \times 10 ^ {- 30} \mathrm{Cm} \times (- 1.34 \times 10 ^ {- 30} \mathrm{Cm}) \times \frac {1}{2} ] ^ {\frac {1}{2}} \\ & = 4.65 \times 10 ^ {- 30} \mathrm{Cm} \end{array}
 $$
 
 (6) CHFCIBr
@@ -3741,7 +3741,7 @@ $$
 ![](结构化学基础（第5版）习题解析周公度z-library.sk,1lib.sk,z-lib.sk_1-150_images/43c46a8b0e5b48703c54110e14f0337b519b16b1b2df82553bbc4469fb59ccc7.jpg)
 
 $$
-\begin{array}{r l} \mu_ {(m ^ {-})} & = [ \mu_ {\mathrm{C-Cl}} ^ {2} + \mu_ {\mathrm{C-CH} _ {3}} ^ {2} - 2 \mu_ {\mathrm{C-Cl}} \mu_ {\mathrm{C-CH} _ {3}} \cdot \cos 6 0 ^ {\circ} ] ^ {\frac {1}{2}} \\ & = [ (5. 1 7 \times 1 0 ^ {- 3 0} \mathrm{Cm}) ^ {2} + (- 1. 3 4 \times 1 0 ^ {- 3 0} \mathrm{Cm}) ^ {2} \\ & - 2 \times 5. 1 7 \times 1 0 ^ {- 3 0} \mathrm{Cm} \times (- 1. 3 4 \times 1 0 ^ {- 3 0} \mathrm{Cm}) \times \frac {1}{2} ] ^ {\frac {1}{2}} \\ & = 5. 9 5 \times 1 0 ^ {- 3 0} \mathrm{Cm} \\ \mu_ {(p ^ {-})} & = \mu_ {\mathrm{C-Cl}} - \mu_ {\mathrm{C-CH} _ {3}} \\ & = 5. 1 7 \times 1 0 ^ {- 3 0} \mathrm{Cm} + 1. 3 4 \times 1 0 ^ {- 3 0} \mathrm{Cm} \\ & = 6. 5 1 \times 1 0 ^ {- 3 0} \mathrm{Cm} \end{array}
+\begin{array}{r l} \mu_ {(m ^ {-})} & = [ \mu_ {\mathrm{C-Cl}} ^ {2} + \mu_ {\mathrm{C-CH} _ {3}} ^ {2} - 2 \mu_ {\mathrm{C-Cl}} \mu_ {\mathrm{C-CH} _ {3}} \cdot \cos 60 ^ {\circ} ] ^ {\frac {1}{2}} \\ & = [ (5.17 \times 10 ^ {- 30} \mathrm{Cm}) ^ {2} + (- 1.34 \times 10 ^ {- 30} \mathrm{Cm}) ^ {2} \\ & - 2 \times 5.17 \times 10 ^ {- 30} \mathrm{Cm} \times (- 1.34 \times 10 ^ {- 30} \mathrm{Cm}) \times \frac {1}{2} ] ^ {\frac {1}{2}} \\ & = 5.95 \times 10 ^ {- 30} \mathrm{Cm} \\ \mu_ {(p ^ {-})} & = \mu_ {\mathrm{C-Cl}} - \mu_ {\mathrm{C-CH} _ {3}} \\ & = 5.17 \times 10 ^ {- 30} \mathrm{Cm} + 1.34 \times 10 ^ {- 30} \mathrm{Cm} \\ & = 6.51 \times 10 ^ {- 30} \mathrm{Cm} \end{array}
 $$
 
 由推算结果可见, $C_{6}H_{4}ClCH_{3}$ 间位异构体偶极矩的推算值和实验值很吻合,而对位异构体和邻位异构体,特别是邻位异构体两者差别较大。这既与共轭效应有关,更与紧邻的 Cl 原子和— $CH_{3}$ 之间的空间阻碍效应有关。事实上,两基团夹角大于 $60^{\circ}$ 。
@@ -3755,7 +3755,7 @@ $$
 $$
 
 $$
-\begin{array}{r l} & \mu_ {\mathrm {H_ {2} O}} = 2 \mu_ {\mathrm{O-H}} \cdot \cos \frac {1 0 4 . 5 ^ {\circ}}{2} \\ & \mu_ {\mathrm {F_ {2} O}} = 2 \mu_ {\mathrm{O-F}} \cdot \cos \frac {1 0 3 . 2 ^ {\circ}}{2} \end{array}
+\begin{array}{r l} & \mu_ {\mathrm {H_ {2} O}} = 2 \mu_ {\mathrm{O-H}} \cdot \cos \frac {104.5 ^ {\circ}}{2} \\ & \mu_ {\mathrm {F_ {2} O}} = 2 \mu_ {\mathrm{O-F}} \cdot \cos \frac {103.2 ^ {\circ}}{2} \end{array}
 $$
 
 ![](结构化学基础（第5版）习题解析周公度z-library.sk,1lib.sk,z-lib.sk_1-150_images/bc51400398e37e8b12258ae829c21e1bd91008cf765c98961503974d4579ba3a.jpg)
@@ -3820,13 +3820,13 @@ $$
 利用表中数据,将醋酸分子中各化学键的摩尔折射度加和,得到醋酸分子的摩尔折射度:
 
 $$
-\begin{array}{r l} R _ {\text {计}} & = 3 R _ {\mathrm{C-H}} + R _ {\mathrm{C-C}} + R _ {\mathrm{C-O}} + R _ {\mathrm{C-O}} + R _ {\mathrm{O-H}} \\ & = 3 \times 1. 6 7 6 \mathrm{cm} ^ {3} \mathrm{mol} ^ {- 1} + 1. 2 9 6 \mathrm{cm} ^ {3} \mathrm{mol} ^ {- 1} + 3. 3 2 \mathrm{cm} ^ {3} \mathrm{mol} ^ {- 1} \\ & + 1. 5 4 \mathrm{cm} ^ {3} \mathrm{mol} ^ {- 1} + 1. 8 0 \mathrm{cm} ^ {3} \mathrm{mol} ^ {- 1} \\ & = 1 2. 9 8 \mathrm{cm} ^ {3} \mathrm{mol} ^ {- 1} \end{array}
+\begin{array}{r l} R _ {\text {计}} & = 3 R _ {\mathrm{C-H}} + R _ {\mathrm{C-C}} + R _ {\mathrm{C-O}} + R _ {\mathrm{C-O}} + R _ {\mathrm{O-H}} \\ & = 3 \times 1.676 \mathrm{cm} ^ {3} \mathrm{mol} ^ {- 1} + 1.296 \mathrm{cm} ^ {3} \mathrm{mol} ^ {- 1} + 3.32 \mathrm{cm} ^ {3} \mathrm{mol} ^ {- 1} \\ & + 1.54 \mathrm{cm} ^ {3} \mathrm{mol} ^ {- 1} + 1.80 \mathrm{cm} ^ {3} \mathrm{mol} ^ {- 1} \\ & = 12.98 \mathrm{cm} ^ {3} \mathrm{mol} ^ {- 1} \end{array}
 $$
 
 将 n, d 等实验数据代入 Lorenz-Lorentz 方程, 得到醋酸分子的摩尔折射度:
 
 $$
-R _ {\mathrm{实}} = \frac {(1 . 3 7 1 8 ^ {2} - 1) \times 6 0 . 0 5 \mathrm{gmol} ^ {- 1}}{(1 . 3 7 1 8 ^ {2} + 2) \times 1 . 0 4 6 \mathrm{gcm} ^ {- 3}} = 1 3. 0 4 \mathrm{cm} ^ {3} \mathrm{mol} ^ {- 1}
+R _ {\mathrm{实}} = \frac {(1.3718 ^ {2} - 1) \times 60.05 \mathrm{gmol} ^ {- 1}}{(1.3718 ^ {2} + 2) \times 1.046 \mathrm{gcm} ^ {- 3}} = 13.04 \mathrm{cm} ^ {3} \mathrm{mol} ^ {- 1}
 $$
 
 结果表明,计算值和实验值非常接近。
@@ -4037,7 +4037,7 @@ $$
 式中 $\alpha, \beta$ 和 $\gamma$ 分别为杂化轨道中 s, p 和 d 轨道所占的百分数。例如 $\mathrm{CH}_4$ 分子中，C 原子以 $\mathrm{sp}^3$ 杂化轨道成键，每个 $\mathrm{sp}^3$ 杂化轨道中 s 轨道占 $25\%$ ，p 轨道占 $75\%$ 。注意，参加杂化的原子轨道的组合系数为该原子轨道所占成分的平方根值（未归一化）：
 
 $$
-\psi_ {\mathrm{sp} ^ {3}} = \sqrt {0 . 2 5} \mathrm{s} + \sqrt {0 . 7 5} \mathrm{p}
+\psi_ {\mathrm{sp} ^ {3}} = \sqrt {0.25} \mathrm{s} + \sqrt {0.75} \mathrm{p}
 $$
 
 此式不适用于 $\mathrm{dsp}^2$ 杂化轨道。
@@ -4236,13 +4236,13 @@ $$
 g 值可由下列电子数目加和而得：（1）组成分子骨干 $M_{n}$ 的 n 个 M 原子的价电子数，（2）围绕分子骨干 $M_{n}$ 的配位体提供的电子数，（3）化合物所带的正、负电荷数。例如 $B_{12}H_{12}^{2-}$ 中，12 个 B 原子看作分子骨干，12 个 H 原子看作配位体， $B_{12}H_{12}^{2-}$ 的 g 值为
 
 $$
-g = 1 2 \times 3 + 1 2 \times 1 + 2 = 5 0
+g = 12 \times 3 + 12 \times 1 + 2 = 50
 $$
 
 $\mathrm{B}_{12}$ 分子骨干的键数为
 
 $$
-b = \frac {1}{2} (8 \times 1 2 - 5 0) = 2 3
+b = \frac {1}{2} (8 \times 12 - 50) = 23
 $$
 
 从 $B_{12}H_{12}^{2-}$ 的三角二十面体的几何构型可知，分子中有 30 条 B—B 连线和 12 条 B—H 连线，而分子全部只有 50 个价电子，这些连线不可能都是共价单键，而要形成缺电子多中心键来补偿。
@@ -4332,7 +4332,7 @@ $$
 碳和硅是元素周期表第14族的前两种元素。碳在地壳中的含量按质量计只占0.027%，而碳原子的99.7%在地壳中以煤、碳酸盐和甲烷水合物等矿物形式存在，0.2%在大气中以 $CO_{2}$ 和 $CH_{4}$ 形式存在，剩下不到0.1%的碳构成地球上全部生命物种赖以生存和发展的主要的物质基础。为什么这么少量的碳发挥着这么大的作用？这是碳的丰富多彩的化学键类型以及和H,O,N等元素的原子牢固地结合在一起的本领。硅在地壳中按质量计占28%，它和氧以及其他元素一起结合形成的硅酸盐占地壳质量的80%以上。从化学元素成分来看，碳统治着有机化学，硅统治着无机化学。从微观结构来分析，碳和硅的这种特性主要是由它们的化学键的强弱，即键能的大小决定的。下面列出一些碳和硅化学键的键能值（以 $kJ\ mol^{-1}$ 为单位）：
 
 $$
-\mathrm{C} - \mathrm{C} 3 5 6, \quad \mathrm{C} - \mathrm{H} 4 1 3, \quad \mathrm{C} - \mathrm{O} 3 4 3, \quad \mathrm{C} = \mathrm{C} 6 1 5
+\mathrm{C} - \mathrm{C} 356, \quad \mathrm{C} - \mathrm{H} 413, \quad \mathrm{C} - \mathrm{O} 343, \quad \mathrm{C} = \mathrm{C} 615
 $$
 
 ## 习题解析
@@ -4432,25 +4432,25 @@ A 和 B 相比, B 有 lp-lp(孤对-孤对)排斥作用代替 A 的 lp-bp(孤对-
 （1）根据杂化轨道 $\psi$ 的正交、归一性可得下列联立方程[在本题中方程(2)作为已知条件给出]:
 
 $$
-\left\{ \begin{array}{l} {\int \psi^ {2} \mathrm{d} \tau = \int (c _ {1} \psi_ {2 \mathrm{s}} + c _ {2} \psi_ {2 \mathrm{p}}) ^ {2} \mathrm{d} \tau = c _ {1} ^ {2} + c _ {2} ^ {2} = 1} \\ {c _ {1} ^ {2} / c _ {2} ^ {2} = - \cos \theta = - \cos 1 1 6. 8 ^ {\circ} = 0. 4 5 0 9} \end{array} \right.\tag{1}
+\left\{ \begin{array}{l} {\int \psi^ {2} \mathrm{d} \tau = \int (c _ {1} \psi_ {2 \mathrm{s}} + c _ {2} \psi_ {2 \mathrm{p}}) ^ {2} \mathrm{d} \tau = c _ {1} ^ {2} + c _ {2} ^ {2} = 1} \\ {c _ {1} ^ {2} / c _ {2} ^ {2} = - \cos \theta = - \cos 116.8 ^ {\circ} = 0.4509} \end{array} \right.\tag{1}
 $$
 
 解之，得
 
 $$
-\begin{array}{l l} c _ {1} ^ {2} = 0. 3 1 0 8, & c _ {1} = \pm 0. 5 6 \\ c _ {2} ^ {2} = 0. 6 8 9 2, & c _ {2} = \pm 0. 8 3 \end{array}\tag{2}
+\begin{array}{l l} c _ {1} ^ {2} = 0.3108, & c _ {1} = \pm 0.56 \\ c _ {2} ^ {2} = 0.6892, & c _ {2} = \pm 0.83 \end{array}\tag{2}
 $$
 
 所以， $O_{3}$ 的中心 O 原子的成键杂化轨道为
 
 $$
-\psi_ {\mathrm{成}} = 0. 5 6 \psi_ {2 \mathrm{s}} + 0. 8 3 \psi_ {2 \mathrm{p}}
+\psi_ {\mathrm{成}} = 0.56 \psi_ {2 \mathrm{s}} + 0.83 \psi_ {2 \mathrm{p}}
 $$
 
 而被孤对电子占据的杂化轨道为
 
 $$
-\begin{array}{r l} \psi_ {\mathrm{孤}} & = \sqrt {1 - 2 \times 0 . 3 1 0 8} \psi_ {2 \mathrm{s}} + \sqrt {2 - 2 \times 0 . 6 8 9 2} \psi_ {2 \mathrm{p}} \\ & = 0. 6 2 \psi_ {2 \mathrm{s}} + 0. 7 9 \psi_ {2 \mathrm{p}} \end{array}
+\begin{array}{r l} \psi_ {\mathrm{孤}} & = \sqrt {1 - 2 \times 0.3108} \psi_ {2 \mathrm{s}} + \sqrt {2 - 2 \times 0.6892} \psi_ {2 \mathrm{p}} \\ & = 0.62 \psi_ {2 \mathrm{s}} + 0.79 \psi_ {2 \mathrm{p}} \end{array}
 $$
 
 可见， $\psi_{孤}$ 中的s成分比 $\psi_{成}$ 中的s成分多。
@@ -4476,7 +4476,7 @@ $I_{3}^{-}$ 离子中无不成对电子,因而它是反磁性的。
 (3) 按 I 原子间的键长和键级的关系方程, 代入有关数据得
 
 $$
-\begin{array}{r l} 2 9 2 \mathrm{pm} & = 2 6 7 \mathrm{pm} - (8 5 \mathrm{pm}) \lg n \\ n & = 0. 5 \end{array}
+\begin{array}{r l} 292 \mathrm{pm} & = 267 \mathrm{pm} - (85 \mathrm{pm}) \lg n \\ n & = 0.5 \end{array}
 $$
 
 即， $I_{3}^{-}$ 中I—I间的键级为0.5。
@@ -4556,7 +4556,7 @@ $C_{2}H_{2}$ 分子的 C 原子采用 sp 杂化轨道成键，分子呈直线形
 含 C,H,O,N 的有机化合物,其相对分子质量为
 
 $$
-1 2 n _ {\mathrm{C}} + 1 6 n _ {\mathrm{O}} + 1 4 n _ {\mathrm{N}} + n _ {\mathrm{H}}
+12 n _ {\mathrm{C}} + 16 n _ {\mathrm{O}} + 14 n _ {\mathrm{N}} + n _ {\mathrm{H}}
 $$
 
 式中 $n_{C}, n_{O}, n_{N}$ 和 $n_{H}$ 分别是 C, O, N 和 H 的原子数。由于前三项之和为偶数，因而相对分子质量的奇偶性与 H 原子数的奇偶性一致。而上面已证明，H 原子数的奇偶性与 N 原子数的奇偶性一致。所以，相对分子质量的奇偶性与 N 原子数的奇偶性一致，即相对分子质量为奇数时，N 原子数必为奇数；相对分子质量为偶数时，N 原子数必为偶数。
@@ -4696,13 +4696,13 @@ $$
 $\left(\mathrm{C}_{3}\mathrm{H}_{3}\right)^{+}$ 中有2个 $\pi$ 电子，基态时都在 $\psi_{1}$ 上。所以 $\pi$ 键键级为
 
 $$
-P _ {1 2} = P _ {2 3} = P _ {3 1} = 2 \times \frac {1}{\sqrt {3}} \times \frac {1}{\sqrt {3}} + 0 + 0 = \frac {2}{3}
+P _ {12} = P _ {23} = P _ {31} = 2 \times \frac {1}{\sqrt {3}} \times \frac {1}{\sqrt {3}} + 0 + 0 = \frac {2}{3}
 $$
 
 （3）既然 $P_{12}=P_{23}=P_{31}$ ，各 C 原子的自由价必然相等，即
 
 $$
-F _ {1} = F _ {2} = F _ {3} = 4. 7 3 2 - 3 - \sum P _ {i j} = 4. 7 3 2 - 3 - 2 \times \frac {2}{3} = 0. 4 0
+F _ {1} = F _ {2} = F _ {3} = 4.732 - 3 - \sum P _ {i j} = 4.732 - 3 - 2 \times \frac {2}{3} = 0.40
 $$
 
 ![](结构化学基础（第5版）习题解析周公度z-library.sk,1lib.sk,z-lib.sk_1-150_images/c5e41bbef3ffec166905c4835734f409933f535a24ccde63327b981e18468b78.jpg)  
@@ -4768,7 +4768,7 @@ $$
 所以 $\mathbf{N}_3^-$ 的离域能为
 
 $$
-(8 \alpha + 4 \sqrt {2} \beta) - (8 \alpha + 4 \beta) = 4 (\sqrt {2} - 1) \beta = 1. 6 5 6 \beta
+(8 \alpha + 4 \sqrt {2} \beta) - (8 \alpha + 4 \beta) = 4 (\sqrt {2} - 1) \beta = 1.656 \beta
 $$
 
 【5.16】已知三次甲基甲烷 $\left[\mathrm{C}\left(\mathrm{CH}_{2}\right)_{3}\right]$ 为平面形分子，形成 $\pi_{4}^{4}$ 键。试用HMO法处理，证明中心碳原子和周围3个碳原子间的 $\pi$ 键键级之和为 $\sqrt{3}$ 。
@@ -4876,19 +4876,19 @@ $$
 由分子轨道和电子排布情况可计算 C 原子之间 $\pi$ 键的键级：
 
 $$
-P _ {1 2} = P _ {1 3} = P _ {1 4} = 2 \times \frac {1}{\sqrt {2}} \times \frac {1}{\sqrt {6}} = \frac {1}{\sqrt {3}}
+P _ {12} = P _ {13} = P _ {14} = 2 \times \frac {1}{\sqrt {2}} \times \frac {1}{\sqrt {6}} = \frac {1}{\sqrt {3}}
 $$
 
 因而，中间 C 原子和周围 3 个 C 原子间 $\pi$ 键键级之和为
 
 $$
-3 \times P _ {1 2} = \frac {3}{\sqrt {3}} = \sqrt {3}
+3 \times P _ {12} = \frac {3}{\sqrt {3}} = \sqrt {3}
 $$
 
 加上 3 个 $\sigma$ 键, 中心 C 原子的总成键度为
 
 $$
-N = 3 + \sqrt {3} = 4. 7 3 2
+N = 3 + \sqrt {3} = 4.732
 $$
 
 这是 C 原子理论上的最高成键度(虽然有人主张用根据丙二烯双自由基计算得到的 C 原子的最大成键度——4.828 作为 C 原子的最大成键度,但由于该分子比不上三次甲基甲烷更具代表性,因而仍未被多数人采纳)。
@@ -5137,7 +5137,7 @@ styx 数码为 0230，即 $B_{4}H_{4}^{2-}$ 中有 3 个 B—B 共价单键和 2
 ![](结构化学基础（第5版）习题解析周公度z-library.sk,1lib.sk,z-lib.sk_1-150_images/996fcd400b3245369e98ac339b75200104b47cc37aa788cbf8599a59c323b496.jpg)
 
 $$
-\begin{array}{r l} E _ {\mathrm{Cl} _ {2} ^ {+}} & = E _ {\mathrm{Cl-Cl}} + I _ {\mathrm{Cl}} - I _ {\mathrm{Cl} _ {2}} \\ & = 2 4 2 \mathrm{kJmol} ^ {- 1} + 1 2 5 0 \mathrm{kJmol} ^ {- 1} - 1 0 8 5 \mathrm{kJmol} ^ {- 1} \\ & = 4 0 7 \mathrm{kJmol} ^ {- 1} \end{array}
+\begin{array}{r l} E _ {\mathrm{Cl} _ {2} ^ {+}} & = E _ {\mathrm{Cl-Cl}} + I _ {\mathrm{Cl}} - I _ {\mathrm{Cl} _ {2}} \\ & = 242 \mathrm{kJmol} ^ {- 1} + 1250 \mathrm{kJmol} ^ {- 1} - 1085 \mathrm{kJmol} ^ {- 1} \\ & = 407 \mathrm{kJmol} ^ {- 1} \end{array}
 $$
 
 由计算结果可见, $Cl_{2}^{+}$ 的键能大于 $Cl_{2}$ 的键能。这是因为 $Cl_{2}^{+}$ 比 $Cl_{2}$ 少一个反键 $(\pi_{3p}^{*})$ 电子,键级增大(1.5)的缘故。当然, $Cl_{2}^{+}$ 的有效核电荷比 $Cl_{2}$ 大,原子轨道重叠程度大,使键强度增大,也是一个原因。
@@ -5165,7 +5165,7 @@ $$
 苯的离域能相当于环己烯氢化热的 3 倍与苯氢化热的差值, 即环己烯→苯这一过程的 $\Delta H$ 。据此, 利用题中所给的热化学参数, 即可按以下步骤计算出苯的离域能。
 
 $$
-\begin{array}{r l} & \mathrm {C_ {6} H_{10} + H_ {2} \longrightarrow C_ {6} H_{12}} \quad \Delta H _ {1} \\ & \mathrm {C_ {6} H_ {6} + 3H_ {2} \longrightarrow C_ {6} H_{12}} \quad \Delta H _ {2} \\ \Delta H _ {1} = \Delta H _ {\mathrm{C}} (\mathrm {C_ {6} H_{12}}) - \Delta H _ {\mathrm{C}} (\mathrm {C_ {6} H_{10}}) - \Delta H _ {\mathrm{C}} (\mathrm {H_ {2}}) \\ & = 3 9 5 3. 0 \mathrm{kJmol} ^ {- 1} - 3 7 8 6. 6 \mathrm{kJmol} ^ {- 1} - 2 8 5. 8 \mathrm{kJmol} ^ {- 1} \\ & = - 1 1 9. 4 \mathrm{kJmol} ^ {- 1} \\ \Delta H _ {2} = \Delta H _ {\mathrm{C}} (\mathrm {C_ {6} H_{12}}) - \Delta H _ {\mathrm{C}} (\mathrm {C_ {6} H_ {6}}) - 3 \times \Delta H _ {\mathrm{C}} (\mathrm {H_ {2}}) \\ & = 3 9 5 3. 0 \mathrm{kJmol} ^ {- 1} - 3 3 0 1. 6 \mathrm{kJmol} ^ {- 1} - 3 \times 2 8 5. 8 \mathrm{kJmol} ^ {- 1} \\ & = - 2 0 6 \mathrm{kJmol} ^ {- 1} \\ \Delta H = 3 \Delta H _ {1} - \Delta H _ {2} \\ & = 3 \times (- 1 1 9. 4 \mathrm{kJmol} ^ {- 1}) - (- 2 0 6 \mathrm{kJmol} ^ {- 1}) \\ & = - 1 5 2. 2 \mathrm{kJmol} ^ {- 1} \end{array}
+\begin{array}{r l} & \mathrm {C_ {6} H_{10} + H_ {2} \longrightarrow C_ {6} H_{12}} \quad \Delta H _ {1} \\ & \mathrm {C_ {6} H_ {6} + 3H_ {2} \longrightarrow C_ {6} H_{12}} \quad \Delta H _ {2} \\ \Delta H _ {1} = \Delta H _ {\mathrm{C}} (\mathrm {C_ {6} H_{12}}) - \Delta H _ {\mathrm{C}} (\mathrm {C_ {6} H_{10}}) - \Delta H _ {\mathrm{C}} (\mathrm {H_ {2}}) \\ & = 3953.0 \mathrm{kJmol} ^ {- 1} - 3786.6 \mathrm{kJmol} ^ {- 1} - 285.8 \mathrm{kJmol} ^ {- 1} \\ & = - 119.4 \mathrm{kJmol} ^ {- 1} \\ \Delta H _ {2} = \Delta H _ {\mathrm{C}} (\mathrm {C_ {6} H_{12}}) - \Delta H _ {\mathrm{C}} (\mathrm {C_ {6} H_ {6}}) - 3 \times \Delta H _ {\mathrm{C}} (\mathrm {H_ {2}}) \\ & = 3953.0 \mathrm{kJmol} ^ {- 1} - 3301.6 \mathrm{kJmol} ^ {- 1} - 3 \times 285.8 \mathrm{kJmol} ^ {- 1} \\ & = - 206 \mathrm{kJmol} ^ {- 1} \\ \Delta H = 3 \Delta H _ {1} - \Delta H _ {2} \\ & = 3 \times (- 119.4 \mathrm{kJmol} ^ {- 1}) - (- 206 \mathrm{kJmol} ^ {- 1}) \\ & = - 152.2 \mathrm{kJmol} ^ {- 1} \end{array}
 $$
 
 【5.35】 $H_{2}O_{2}(g)$ 的生成热 $\Delta H_{f}=-133\ kJ\ mol^{-1}$ ，O—H 键键能为 $463\ kJ\ mol^{-1}$ ，而 $H_{2}$ 和 $O_{2}$ 的解离能分别为 436 和 $495\ kJ\ mol^{-1}$ ，试求 O—O 键的键能。为什么不用 $O_{2}$ 分子的解离能作为 O—O 键键能？
@@ -5173,7 +5173,7 @@ $$
 解 下式表示 $\mathrm{H}_2\mathrm{O}_2$ 的生成：
 
 $$
-\begin{array}{r l} \mathrm {H_ {2} (g) + O_ {2} (g) = H_ {2} O_ {2} (g)} & \Delta H _ {\mathrm{f}} = - 1 3 3 \mathrm {kJ mol^ {- 1}} \\ \Delta H _ {\mathrm{f}} = (E _ {\mathrm{H-H}} + E _ {\mathrm{O-O}}) - (E _ {\mathrm{O-O}} + 2 E _ {\mathrm{O-H}}) \\ E _ {\mathrm{O-O}} = E _ {\mathrm{H-H}} + E _ {\mathrm{O=O}} - 2 E _ {\mathrm{O-H}} - \Delta H _ {\mathrm{f}} \\ & = 4 3 6 \mathrm {kJ mol^ {- 1}} + 4 9 5 \mathrm {kJ mol^ {- 1}} - \\ & 2 \times 4 6 3 \mathrm {kJ mol^ {- 1}} - (- 1 3 3 \mathrm {kJ mol^ {- 1}}) \\ & = 1 3 8 \mathrm {kJ mol^ {- 1}} \end{array}
+\begin{array}{r l} \mathrm {H_ {2} (g) + O_ {2} (g) = H_ {2} O_ {2} (g)} & \Delta H _ {\mathrm{f}} = - 133 \mathrm {kJ mol^ {- 1}} \\ \Delta H _ {\mathrm{f}} = (E _ {\mathrm{H-H}} + E _ {\mathrm{O-O}}) - (E _ {\mathrm{O-O}} + 2 E _ {\mathrm{O-H}}) \\ E _ {\mathrm{O-O}} = E _ {\mathrm{H-H}} + E _ {\mathrm{O=O}} - 2 E _ {\mathrm{O-H}} - \Delta H _ {\mathrm{f}} \\ & = 436 \mathrm {kJ mol^ {- 1}} + 495 \mathrm {kJ mol^ {- 1}} - \\ & 2 \times 463 \mathrm {kJ mol^ {- 1}} - (- 133 \mathrm {kJ mol^ {- 1}}) \\ & = 138 \mathrm {kJ mol^ {- 1}} \end{array}
 $$
 
 $\mathrm{O}_2$ 分子中包含1个 $\mathrm{O} - \mathrm{O}\sigma$ 键和2个三电子 $\pi$ 键，键级为2，相当于1个 $\mathrm{O} = \mathrm{O}$ 双键。 $\mathrm{O}_2$ 的解离能是打开此双键所需要的能量，当然不等于 $\mathrm{O} - \mathrm{O}$ 单键的键能。
@@ -5195,13 +5195,13 @@ $\mathrm{O}_2$ 分子中包含1个 $\mathrm{O} - \mathrm{O}\sigma$ 键和2个三
 解 按 Euler 公式,棱数(E)为
 
 $$
-\begin{array}{r l} E & = F + V - 2 \\ & = (1 2 + 2 5) + 7 0 - 2 = 1 0 5 \end{array}
+\begin{array}{r l} E & = F + V - 2 \\ & = (12 + 25) + 70 - 2 = 105 \end{array}
 $$
 
 按键数(b)计算公式得
 
 $$
-\begin{array}{r l} b & = \frac {1}{2} (8 n - g) \\ & = \frac {1}{2} (8 \times 7 0 - 2 8 0) = 1 4 0 \end{array}
+\begin{array}{r l} b & = \frac {1}{2} (8 n - g) \\ & = \frac {1}{2} (8 \times 70 - 280) = 140 \end{array}
 $$
 
 平均而言，每条棱的键数为 $(140 / 105) = 1\frac{1}{3}$ 。按价键结构表达，相当于70条C—C单键和35条 $\mathrm{C} = \mathrm{C}$ 双键。 $\mathrm{C}_{70}$ 中每条棱的平均键数和 $\mathrm{C}_{60}$ 相同，都为 $1\frac{1}{3}$ ，键长值在 $139\sim 147~\mathrm{pm}$ 之间。
@@ -5429,7 +5429,7 @@ $\mathrm{Mo}_{2}(\mathrm{O}_{2}\mathrm{CR})_{4}, \mathrm{Cr}_{2}(\mathrm{O}_{2}\
 在簇合物分子中,每个过渡金属原子(M)可容纳18个电子以形成稳定的结构。在含n个M的多核簇合物中,除M本身的价电子、配位体提供的电子和簇合物带有的电荷外,金属原子间直接成键,互相提供电子以满足十八电子规则。所以在 $M_{n}$ 中,n个M原子间成键的总数可用键数b按下式计算:
 
 $$
-b = \frac {1}{2} (1 8 n - g)
+b = \frac {1}{2} (18 n - g)
 $$
 
 式中 g 为 n 个 M 本身的价电子、配位体提供的电子和簇合物带有的电荷等三部分电子数的总和。键数不同，簇合物的几何构型不同。计算键数是了解簇合物中 $M_{n}$ 几何构型的重要方法。例如：
@@ -5437,21 +5437,21 @@ $$
 $\mathrm{Ir}_{4}(\mathrm{CO})_{12}:g=60,b=6,\mathrm{Ir}_{4}$ 呈6条边的四面体形；
 
 $$
-\mathrm{Re} _ {4} (\mathrm{CO}) _ {1 6} ^ {2 -}: g = 6 2, b = 5, \mathrm{Re} _ {4} \text {呈} 5 \text {条边的菱形};
+\mathrm{Re} _ {4} (\mathrm{CO}) _ {16} ^ {2 -}: g = 62, b = 5, \mathrm{Re} _ {4} \text {呈} 5 \text {条边的菱形};
 $$
 
 $$
-\mathrm{Os} _ {4} (\mathrm{CO}) _ {1 6}: g = 6 4, b = 4, \mathrm{Os} _ {4} \text {呈} 4 \text {条边的四方形。}
+\mathrm{Os} _ {4} (\mathrm{CO}) _ {16}: g = 64, b = 4, \mathrm{Os} _ {4} \text {呈} 4 \text {条边的四方形。}
 $$
 
 由这些实例可见，键数 $b$ 不同， $\mathbf{M}_n$ 的几何构型不同。有时由于在 $\mathbf{M}_n$ 中形成3c-2e多中心键，不同的键数也可以具有相同的几何构型以适应多中心键的形成，例如下列3个 $\mathbf{M}_n$ 的 $b$ 值不同，但均为八面体形的簇合物。
 
 $$
-[ \mathrm{Mo} _ {6} (\mu_ {3} - \mathrm{Cl}) _ {8} \mathrm{Cl} _ {6} ] ^ {2 -}: 1 2 \text {个} 2 \mathrm{c-2eMo-Mo键}, b = 1 2;
+[ \mathrm{Mo} _ {6} (\mu_ {3} - \mathrm{Cl}) _ {8} \mathrm{Cl} _ {6} ] ^ {2 -}: 12 \text {个} 2 \mathrm{c-2eMo-Mo键}, b = 12;
 $$
 
 $$
-[ \mathrm{Nb} _ {6} (\mu_ {2} - \mathrm{Cl}) _ {1 2} \mathrm{Cl} _ {6} ] ^ {4 -}: 8 \text {个} 3 \mathrm{c-2eNbNbNb键}, b = 1 6;
+[ \mathrm{Nb} _ {6} (\mu_ {2} - \mathrm{Cl}) _ {12} \mathrm{Cl} _ {6} ] ^ {4 -}: 8 \text {个} 3 \mathrm{c-2eNbNbNb键}, b = 16;
 $$
 
 $Rh_{6}(\mu_{3}-CO)_{4}(CO)_{12}:4$ 个 3c-2e RhRhRh 键和 3 个 2c-2e Rh—Rh 键，b=11。
@@ -5463,7 +5463,7 @@ $Rh_{6}(\mu_{3}-CO)_{4}(CO)_{12}:4$ 个 3c-2e RhRhRh 键和 3 个 2c-2e Rh—Rh 
 将八隅律和十八电子规则结合起来, 可用以计算一个由 $n_{1}$ 个过渡金属原子和 $n_{2}$ 个主族元素原子组成的簇合物骨干的键数 (b):
 
 $$
-b = \frac {1}{2} (1 8 n _ {1} + 8 n _ {2} - g)
+b = \frac {1}{2} (18 n _ {1} + 8 n _ {2} - g)
 $$
 
 其中 g 是包括主族元素和过渡金属元素的簇合物骨干的价电子数。例如 $B_{6}H_{6}^{2-}$ 与 $\left[\mathrm{Ru}(\mathrm{CO})_{3}\right]_{6}^{2-}$ 都是八面体形分别由 $B_{6}$ 和 $Ru_{6}$ 组成的簇合物骨干，b 值都是 11。若将 (BH) 基团被 $(\mathrm{CH})^{+}$ 或 $\mathrm{Ru}(\mathrm{CO})_{3}$ 置换，b 值不变，由 B, C 或 Ru 组成的簇合物骨干的八面体形结构不变。它们形成等同键数和等同结构系列。利用这种关系，可为了解簇合物结构提供一种简单方法。
@@ -5718,13 +5718,13 @@ $\left[\mathrm{Co}\left(\mathrm{NH}_{3}\right)_{4}\left(\mu_{2}-\mathrm{CO}_{3}\
 解 若 $Ni^{2+}$ 占据四面体空隙，则其 d 电子组态为 $(\mathrm{e}_{\mathrm{g}})^{4}(\mathrm{t}_{2\mathrm{g}}^{*})^{4}$ 。此时配位场稳定化能为
 
 $$
-\mathrm{LFSE} (T _ {d}) = - [ 4 \times 0. 1 7 8 + 4 \times (- 0. 2 6 7) ] \Delta_ {\circ} = 0. 3 5 6 \Delta_ {\circ}
+\mathrm{LFSE} (T _ {d}) = - [ 4 \times 0.178 + 4 \times (- 0.267) ] \Delta_ {\circ} = 0.356 \Delta_ {\circ}
 $$
 
 若 $\mathrm{Ni}^{2+}$ 占据八面体空隙，则其d电子的组态为 $(t_{2g})^6 (e_g^*)^2$ 。此时配位场稳定化能为
 
 $$
-\mathrm{LFSE} (O _ {h}) = - [ 6 \times (- 0. 4) + 2 \times 0. 6 ] \Delta_ {\circ} = 1. 2 \Delta_ {\circ}
+\mathrm{LFSE} (O _ {h}) = - [ 6 \times (- 0.4) + 2 \times 0.6 ] \Delta_ {\circ} = 1.2 \Delta_ {\circ}
 $$
 
 显然， $LFSE(O_{h})>LFSE(T_{d})$ ，所以 $Ni^{2+}$ 占据八面体空隙， $NiAl_{2}O_{4}$ 采取反式尖晶石结构。
@@ -5816,7 +5816,7 @@ $NiCl_{4}^{2-}$ 为顺磁性离子, 因而呈四面体构型。 $\mathrm{Ni(CN)}
 解 将—COCl 中的 O 采用 O(羧基)，查表可得摩尔抗磁磁化率
 
 $$
-\begin{array}{r l} \chi (\mathrm {C_ {6} H_ {5} COCl}) & = 7 \chi_ {\mathrm{C}} + 5 \chi_ {\mathrm{H}} + \chi_ {\mathrm{O(羧基)}} + \chi_ {\mathrm{Cl}} + \chi_ {\mathrm{苯环}} + \chi_ {\mathrm{C-Cl}} \\ & = (- 7 \times 7 5. 4 - 5 \times 3 6. 8 - 4 2. 2 - 2 5 3 - 1 8 + 3 9) \times 1 0 ^ {- 1 2} \mathrm{m} ^ {3} \mathrm{mol} ^ {- 1} \\ & = - 9 8 6 \times 1 0 ^ {- 1 2} \mathrm{m} ^ {3} \mathrm{mol} ^ {- 1} \end{array}
+\begin{array}{r l} \chi (\mathrm {C_ {6} H_ {5} COCl}) & = 7 \chi_ {\mathrm{C}} + 5 \chi_ {\mathrm{H}} + \chi_ {\mathrm{O(羧基)}} + \chi_ {\mathrm{Cl}} + \chi_ {\mathrm{苯环}} + \chi_ {\mathrm{C-Cl}} \\ & = (- 7 \times 75.4 - 5 \times 36.8 - 42.2 - 253 - 18 + 39) \times 10 ^ {- 12} \mathrm{m} ^ {3} \mathrm{mol} ^ {- 1} \\ & = - 986 \times 10 ^ {- 12} \mathrm{m} ^ {3} \mathrm{mol} ^ {- 1} \end{array}
 $$
 
 此数据和实验测定值 $-979\times10^{-12}\ m^{3}\ mol^{-1}$ 相近。
@@ -5853,13 +5853,13 @@ $$
 解 由于自由基中自由电子 g 值为 2.0023, 可得
 
 $$
-\begin{array}{r l} B = \frac {h \nu}{g \beta_ {\mathrm{e}}} & = \frac {h c}{g \beta_ {\mathrm{e}} \lambda} = \frac {(6 . 6 2 6 \times 1 0 ^ {- 3 4} \mathrm{Js}) (2 . 9 9 8 \times 1 0 ^ {1 0} \mathrm{cm} \mathrm{s} ^ {- 1})}{(2 . 0 0 2 3) (9 . 2 7 4 \times 1 0 ^ {- 2 4} \mathrm{JT} ^ {- 1}) (1 . 0 0 \mathrm{cm})} \\ & = 1. 0 7 \mathrm{T} \end{array}
+\begin{array}{r l} B = \frac {h \nu}{g \beta_ {\mathrm{e}}} & = \frac {h c}{g \beta_ {\mathrm{e}} \lambda} = \frac {(6.626 \times 10 ^ {- 34} \mathrm{Js}) (2.998 \times 10 ^ {10} \mathrm{cm} \mathrm{s} ^ {- 1})}{(2.0023) (9.274 \times 10 ^ {- 24} \mathrm{JT} ^ {- 1}) (1.00 \mathrm{cm})} \\ & = 1.07 \mathrm{T} \end{array}
 $$
 
 【6.29】用220 MHz进行质子( $^{1}$ H)核磁共振实验,磁感应强度(B)应为多少?解
 
 $$
-\begin{array}{r l} & \nu = \frac {| \Delta E |}{h} = \frac {g _ {\mathrm{N}} \beta_ {\mathrm{N}} B}{h} \\ & B = \frac {h \nu}{g _ {\mathrm{N}} \beta_ {\mathrm{N}}} = \frac {6 . 6 2 6 \times 1 0 ^ {- 3 4} \mathrm{Js} \times 2 2 0 \times 1 0 ^ {6} \mathrm{s} ^ {- 1}}{5 . 5 8 6 \times 5 . 0 5 1 \times 1 0 ^ {- 2 7} \mathrm{JT} ^ {- 1}} = 5. 1 7 \mathrm{T} \end{array}
+\begin{array}{r l} & \nu = \frac {| \Delta E |}{h} = \frac {g _ {\mathrm{N}} \beta_ {\mathrm{N}} B}{h} \\ & B = \frac {h \nu}{g _ {\mathrm{N}} \beta_ {\mathrm{N}}} = \frac {6.626 \times 10 ^ {- 34} \mathrm{Js} \times 220 \times 10 ^ {6} \mathrm{s} ^ {- 1}}{5.586 \times 5.051 \times 10 ^ {- 27} \mathrm{JT} ^ {- 1}} = 5.17 \mathrm{T} \end{array}
 $$
 
 【6.30】解释在 NMR 法中,化学位移的产生原因和定义。
@@ -5867,13 +5867,13 @@ $$
 解 按照式 $\nu = \frac{g_{\mathrm{N}}\beta_{\mathrm{N}}B}{h}$ ，对于同一种原子核，若固定磁感应强度，则共振频率是一定的。但实际情况并非完全如此。同一种核，由于所处的化学环境不同，核磁共振频率（或吸收峰的位置）有所变化，此即化学位移。核 $i$ 的化学位移定义式为
 
 $$
-\delta_ {i} = \frac {B _ {\mathrm{参}} - B _ {i}}{B _ {\mathrm{参}}} \times 1 0 ^ {6}
+\delta_ {i} = \frac {B _ {\mathrm{参}} - B _ {i}}{B _ {\mathrm{参}}} \times 10 ^ {6}
 $$
 
 式中 $B_{参}$ 和 $B_{i}$ 分别是使参比核和核 i 产生磁共振跃迁吸收的外磁感应强度。定义式也可写作
 
 $$
-\delta_ {i} = \frac {\Delta \nu}{\nu} \times 1 0 ^ {6} = \frac {\nu_ {i} - \nu_ {\mathrm{参}}}{\nu_ {\mathrm{参}}} \times 1 0 ^ {6}
+\delta_ {i} = \frac {\Delta \nu}{\nu} \times 10 ^ {6} = \frac {\nu_ {i} - \nu_ {\mathrm{参}}}{\nu_ {\mathrm{参}}} \times 10 ^ {6}
 $$
 
 式中 $\nu_{i}$ 和 $\nu_{参}$ 分别为核 i 和参比核的共振频率。化学位移的单位为 ppm（它来自 $\times10^{6}$ ）。
@@ -5887,7 +5887,7 @@ $$
 解
 
 $$
-\begin{array}{r l} & {\delta = \frac {B _ {\mathrm{参}} - B _ {i}}{B _ {\mathrm{参}}} \times 1 0 ^ {6} = \frac {\Delta \nu}{\nu} \times 1 0 ^ {6} = 1} \\ & {\nu = \frac {g _ {\mathrm{N}} \beta_ {\mathrm{N}} B}{h} = \frac {5 . 5 8 6 \times 5 . 0 5 1 \times 1 0 ^ {- 2 7} \mathrm{JT} ^ {- 1} \times 1 . 4 1 \mathrm{T}}{6 . 6 2 6 \times 1 0 ^ {- 3 4} \mathrm{Js}} = 6. 0 0 \times 1 0 ^ {7} \mathrm{s} ^ {- 1}} \\ & {\Delta \nu = \nu \times 1 0 ^ {- 6} = 6. 0 0 \times 1 0 ^ {7} \mathrm{s} ^ {- 1} \times 1 0 ^ {- 6} = 6 0 \mathrm{s} ^ {- 1}} \end{array}
+\begin{array}{r l} & {\delta = \frac {B _ {\mathrm{参}} - B _ {i}}{B _ {\mathrm{参}}} \times 10 ^ {6} = \frac {\Delta \nu}{\nu} \times 10 ^ {6} = 1} \\ & {\nu = \frac {g _ {\mathrm{N}} \beta_ {\mathrm{N}} B}{h} = \frac {5.586 \times 5.051 \times 10 ^ {- 27} \mathrm{JT} ^ {- 1} \times 1.41 \mathrm{T}}{6.626 \times 10 ^ {- 34} \mathrm{Js}} = 6.00 \times 10 ^ {7} \mathrm{s} ^ {- 1}} \\ & {\Delta \nu = \nu \times 10 ^ {- 6} = 6.00 \times 10 ^ {7} \mathrm{s} ^ {- 1} \times 10 ^ {- 6} = 60 \mathrm{s} ^ {- 1}} \end{array}
 $$
 
 即相当于产生 $60 \, Hz$ 的化学位移。
@@ -6053,7 +6053,7 @@ $$
 晶体的许多物性可按晶体的 32 种点群加以分类来判别。32 种点群按有无对称中心和是否为极性点群, 可分成三类:
 
 $$
-3 2 \text {   种点群   } \left\{ \begin{array}{l l} 1 1 \text {   种中心对称点群   } \\ 2 1 \text {   种非中心对称点群   } \end{array} \right. \left\{ \begin{array}{l l} 1 0 \text {   种极性群   } \\ 1 1 \text {   种非极性群   } \end{array} \right.
+32 \text {   种点群   } \left\{ \begin{array}{l l} 11 \text {   种中心对称点群   } \\ 21 \text {   种非中心对称点群   } \end{array} \right. \left\{ \begin{array}{l l} 10 \text {   种极性群   } \\ 11 \text {   种非极性群   } \end{array} \right.
 $$
 
 凡是中心对称点群的晶体,都不可能具有晶体的倍频效应、热释电效应、压电效应、铁电效应和非线性电光效应等物理性质。只有极性点群的晶体才具有自发极化的铁电性等性质。

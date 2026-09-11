@@ -210,7 +210,7 @@ $$
 $$
 
 $$
-\begin{array}{c} \mathrm{H-C≡N} \\ \mathrm{HCN} \end{array} \xrightarrow [ p K _ {\mathrm{a}} 1 0 ]{\text {   碱   }} \begin{array}{c} \mathrm{C≡N} \\ \text {氰离子 } \end{array}
+\begin{array}{c} \mathrm{H-C≡N} \\ \mathrm{HCN} \end{array} \xrightarrow [ p K _ {\mathrm{a}} 10 ]{\text {   碱   }} \begin{array}{c} \mathrm{C≡N} \\ \text {氰离子 } \end{array}
 $$
 
 $$
@@ -218,7 +218,7 @@ $$
 $$
 
 $$
-\begin{array}{c c c} \mathrm{R-C} \equiv \mathrm{C-H} & \xrightarrow {\text {碱}} & \mathrm{R-C} \equiv \mathrm{C} \\ \text {炔烃} & \mathrm{pK} _ {\mathrm{a}} \sim 2 5 & \text {乙炔离子} \end{array}
+\begin{array}{c c c} \mathrm{R-C} \equiv \mathrm{C-H} & \xrightarrow {\text {碱}} & \mathrm{R-C} \equiv \mathrm{C} \\ \text {炔烃} & \mathrm{pK} _ {\mathrm{a}} \sim 25 & \text {乙炔离子} \end{array}
 $$
 
 ## 卤素-金属交换
@@ -1776,7 +1776,7 @@ $$
 虽然反应涉及水，但水是溶剂，它的消耗可以忽略不计，通常保持在 $55.5 \, mol \, dm^{-3}$ 处 (p. 169)，因此并不需要写入平衡常数中。
 
 $$
-K = \frac {[ \text {水合物} ]}{[ \text {醛} ]} = \text {约} 0. 5
+K = \frac {[ \text {水合物} ]}{[ \text {醛} ]} = \text {约} 0.5
 $$
 
 我们可以通过测量已知浓度的醛在水中，和在如环己烷这样不会形成水合物的溶剂中的 UV 吸收，对比它们来测定水合物与醛在水中的平衡浓度。上述实验揭示了此反应在水中，25 ℃ 下的平衡常数近似为 0.5，即在配合混合物中，醛的量大约是水合物的两倍。
@@ -2433,15 +2433,15 @@ Interactive mechanism for imine formation
 由于最终的平衡由 Z-烯烃主宰，因此它的能量势必低于 E-烯烃。由于我们知道平衡时产物的比例，我们便可以得出这两种异构体的能量差。
 
 $$
-E: Z \text {-烯烃平衡比例} = 1: 3 5
+E: Z \text {-烯烃平衡比例} = 1: 35
 $$
 
 $$
-K _ {\mathrm{eq}} = \frac {[ Z ]}{[ E ]} = 3 5
+K _ {\mathrm{eq}} = \frac {[ Z ]}{[ E ]} = 35
 $$
 
 $$
-\Delta G = - R T \ln K = - 8. 3 1 4 \times 2 9 8 \times \ln (3 5) = - 8. 8 \mathrm{kJ} \mathrm{mol} ^ {- 1}
+\Delta G = - R T \ln K = - 8.314 \times 298 \times \ln (35) = - 8.8 \mathrm{kJ} \mathrm{mol} ^ {- 1}
 $$
 
 即 Z-烯烃的能量必 E-烯烃低 $8.8 \, kJ mol^{-1}$ 。
@@ -3616,7 +3616,7 @@ $$
 首先，我们需要进行单位换算：28 mg 溶于 $1 \, cm^{3}$ 中得到溶液的浓度为 $0.028 \, g \, cm^{-3}$ ；路径长度 10 cm 等价于 1 dm。然后计算比旋度：
 
 $$
-[ \alpha ] _ {\mathrm{D}} ^ {2 0} = \frac {\alpha}{c} = \frac {- 4 . 3 5}{0 . 0 2 8 \times 1} = - 1 5 5. 4
+[ \alpha ] _ {\mathrm{D}} ^ {20} = \frac {\alpha}{c} = \frac {- 4.35}{0.028 \times 1} = - 155.4
 $$
 
 ## 对映体可以用 $(+)$ 或 $(-)$ 描述
@@ -5517,7 +5517,7 @@ Interactive conformations of cyclohexane
 NMR 光谱仪就像照相机一样，它的快门速度是 1/1000 s. 任何比这个间隔快的变化在照片中都难以区分；事情发生的越慢，在照片上就越清晰。事实上，NMR 光谱仪的 “快门速度” 有一个精确的数值 (不是真正的快门速度——是比喻的说法)，由下列等式给出：
 
 $$
-k = \pi \Delta \mathbf {v} / \sqrt {2} = 2. 2 2 \times \Delta \mathbf {v}
+k = \pi \Delta \mathbf {v} / \sqrt {2} = 2.22 \times \Delta \mathbf {v}
 $$
 
 其中 k 是能使两种信号独立的转换速率的最大值， $\Delta v$ 是 NMR 光谱上可以分开显示的两个信号的间隔，以赫兹为单位。例如在一个 400 MHz 的光谱仪上，可以分开显示两个间隔为 0.25 ppm 也就是 100 Hz 的信号，那么任何慢于 $222 s^{-1}$ 的转换过程会分被成两个信号，任何快于 $222 s^{-1}$ 的转换过程会显示一个平均信号。

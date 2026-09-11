@@ -75,7 +75,7 @@ Interactive conformations of cyclohexane
 NMR 光谱仪就像照相机一样，它的快门速度是 1/1000 s. 任何比这个间隔快的变化在照片中都难以区分；事情发生的越慢，在照片上就越清晰。事实上，NMR 光谱仪的 “快门速度” 有一个精确的数值 (不是真正的快门速度——是比喻的说法)，由下列等式给出：
 
 $$
-k = \pi \Delta \mathbf {v} / \sqrt {2} = 2. 2 2 \times \Delta \mathbf {v}
+k = \pi \Delta \mathbf {v} / \sqrt {2} = 2.22 \times \Delta \mathbf {v}
 $$
 
 其中 k 是能使两种信号独立的转换速率的最大值， $\Delta v$ 是 NMR 光谱上可以分开显示的两个信号的间隔，以赫兹为单位。例如在一个 400 MHz 的光谱仪上，可以分开显示两个间隔为 0.25 ppm 也就是 100 Hz 的信号，那么任何慢于 $222 \, s^{-1}$ 的转换过程会分被成两个信号，任何快于 $222 \, s^{-1}$ 的转换过程会显示一个平均信号。
@@ -3980,7 +3980,7 @@ Interactive molecular orbitals in acrolein
 和其他很多有机金属化合物一样，有机铜的确切结构比我们这里说明的要复杂得多：它们可能是四聚体(四个 $R_{2}CuLi$ 紧密连接)，但简单起见我们将其画作单体。我们有一章单独讨论有机金属(含有金属-碳键的化合物, Chapter 40).
 
 $$
-\mathrm{CuBr} \xrightarrow [ - 7 8 ^ {\circ} \mathrm{C} ]{2 \times \mathrm{R} - \mathrm{Li}} \begin{array}{c} \mathrm{R} \\ \mathrm{Cu} ^ {\ominus} \mathrm{Li} ^ {\oplus} \\ \mathrm{R} \\ \text {铜酸锂试剂} \end{array} + \mathrm{LiBr}
+\mathrm{CuBr} \xrightarrow [ - 78 ^ {\circ} \mathrm{C} ]{2 \times \mathrm{R} - \mathrm{Li}} \begin{array}{c} \mathrm{R} \\ \mathrm{Cu} ^ {\ominus} \mathrm{Li} ^ {\oplus} \\ \mathrm{R} \\ \text {铜酸锂试剂} \end{array} + \mathrm{LiBr}
 $$
 
 如果在反应中加入三甲基氯硅烷，则铜酸锂对 $\alpha, \beta$ -不饱和酮的加成会进行得更好——我们马上会解释其原因。下面是两个铜酸锂加成的例子。

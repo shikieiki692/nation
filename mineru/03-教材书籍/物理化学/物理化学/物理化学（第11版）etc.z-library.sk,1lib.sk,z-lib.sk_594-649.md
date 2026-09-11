@@ -81,7 +81,7 @@ $$
 两种单位之间具有下列关系：
 
 $$
-1 \mathrm{D} = 3. 3 3 5 6 4 \times 1 0 ^ {- 3 0} \mathrm{C} \cdot \mathrm{m} \tag {14A.2}
+1 \mathrm{D} = 3.33564 \times 10 ^ {- 30} \mathrm{C} \cdot \mathrm{m} \tag {14A.2}
 $$
 
 间距100 pm的一对电荷+e和-e所形成的偶极矩的大小为 $1.6 \times 10^{-29}$ C·m，对应于4.8 D。小分子的偶极矩一般约为1 D。
@@ -172,7 +172,7 @@ $$
 考虑邻位(1,2-)和间位(1,3-)二取代的苯，其中两个偶极矩之间的夹角分别为 $\Theta_{arthe}=60^{\circ}$ 和 $\Theta_{meta}=120^{\circ}$ 。根据式(14A.3b)，其电偶极矩的大小之比为
 
 $$
-\frac {\mu_ {\mathrm{res.同位}}}{\mu_ {\mathrm{res.同位}}} = \frac {\cos \left(\frac {1}{2} \Theta_ {\mathrm{ortho}}\right)}{\cos \left(\frac {1}{2} \Theta_ {\mathrm{mina}}\right)} = \frac {\cos \left(\frac {1}{2} \times 6 0 ^ {\circ}\right)}{\cos \left(\frac {1}{2} \times 1 2 0 ^ {\circ}\right)} = \frac {\frac {3 ^ {1 1}}{2}}{\frac {1}{2}} = 3 ^ {1 / 2} = 1. 7
+\frac {\mu_ {\mathrm{res.同位}}}{\mu_ {\mathrm{res.同位}}} = \frac {\cos \left(\frac {1}{2} \Theta_ {\mathrm{ortho}}\right)}{\cos \left(\frac {1}{2} \Theta_ {\mathrm{mina}}\right)} = \frac {\cos \left(\frac {1}{2} \times 60 ^ {\circ}\right)}{\cos \left(\frac {1}{2} \times 120 ^ {\circ}\right)} = \frac {\frac {3 ^ {11}}{2}}{\frac {1}{2}} = 3 ^ {1 / 2} = 1.7
 $$
 
 一种计算偶极矩更可靠的方法是将所有原子上部分电荷的位置和大小都纳入考虑之内，这些部分电荷包含在分子结构软件包的输出信息中。例如，要计算偶极矩的x分量，就必须知道每个原子上的部分电荷和原子相对于分子中某一点的x坐标，并形成加和
@@ -206,19 +206,19 @@ Chemical structure diagram showing nitrogen and carbon atoms with charge values 
 解： $\mu_{x}$ 的表示式为
 
 $$
-\begin{array}{l} \mu_ {x} = - 0. 3 6 e \times 1 3 2 \mathrm{pm} + 0. 4 5 e \times 0 \mathrm{pm} \\ + 0. 1 8 e \times 1 8 2 \mathrm{pm} + (- 0. 3 8 e) \times (- 6 2. 0 \mathrm{pm}) \\ = 8. 8 e \mathrm{pm} \\ = 8. 8 \times 1. 6 0 2 \times 1 0 ^ {- 1 9} \mathrm{C} \times 1 0 ^ {- 1 2} \mathrm{m} = 1. 4 \times 1 0 ^ {- 3 0} \mathrm{C} \cdot \mathrm{m} \\ \end{array}
+\begin{array}{l} \mu_ {x} = - 0.36 e \times 132 \mathrm{pm} + 0.45 e \times 0 \mathrm{pm} \\ + 0.18 e \times 182 \mathrm{pm} + (- 0.38 e) \times (- 62.0 \mathrm{pm}) \\ = 8.8 e \mathrm{pm} \\ = 8.8 \times 1.602 \times 10 ^ {- 19} \mathrm{C} \times 10 ^ {- 12} \mathrm{m} = 1.4 \times 10 ^ {- 30} \mathrm{C} \cdot \mathrm{m} \\ \end{array}
 $$
 
 对应于 $\mu_{x}=+0.42D$ 。 $\mu_{y}$ 的表示式为
 
 $$
-\begin{array}{l} \mu_ {r} = (- 0. 3 6 e) \times 0 \mathrm{pm} + 0. 4 5 e \times 0 \mathrm{pm} + 0. 1 8 e \times (- 8 7 \mathrm{pm}) \\ + (- 0. 3 8 e) \times 1 0 7 \mathrm{pm} \\ = - 5 6 e \mathrm{pm} \\ = - 9. 0 2 \times 1 0 ^ {- 1 0} \mathrm{C} \cdot \mathrm{m} \\ \end{array}
+\begin{array}{l} \mu_ {r} = (- 0.36 e) \times 0 \mathrm{pm} + 0.45 e \times 0 \mathrm{pm} + 0.18 e \times (- 87 \mathrm{pm}) \\ + (- 0.38 e) \times 107 \mathrm{pm} \\ = - 56 e \mathrm{pm} \\ = - 9.02 \times 10 ^ {- 10} \mathrm{C} \cdot \mathrm{m} \\ \end{array}
 $$
 
 据此， $\mu_{y}=-2.7D$ 。由于酰胺基是平面形的，所以 $\mu_{z}=0$ ，且
 
 $$
-\mu = \left[ (0. 4 2 \mathrm{D}) ^ {2} + (- 2. 7 \mathrm{D}) ^ {2} \right] ^ {1 / 2} = 2. 7 \mathrm{D}
+\mu = \left[ (0.42 \mathrm{D}) ^ {2} + (- 2.7 \mathrm{D}) ^ {2} \right] ^ {1 / 2} = 2.7 \mathrm{D}
 $$
 
 偶极矩的方向可通过排列长度为 2.7 个单位的一个箭矢使得 x、y 和 z 分量分别为 0.42、-2.7 和 0 个单位来得到；该方位叠加在 (5) 上。
@@ -283,11 +283,11 @@ $$
 $\mathrm{H}_2\mathrm{O}$ 的极化率体积为 $1.48\times 10^{-10}\mathrm{m}^3$ ，根据式（14A.5a）和式（14A.6）可得 $\mu^{*} = 4\pi c_{2}\alpha^{\prime}E$ ，强度为 $1.0\times 10^{5}\mathrm{V}\cdot \mathrm{m}^{-1}$ 的外加场诱导的分子偶极矩（除了永久偶极矩外）的大小为
 
 $$
-\begin{array}{l} \mu^ {*} = 4 \pi \times 8. 8 5 4 \times 1 0 ^ {- 1 2} \mathrm{J} ^ {- 1} \cdot \mathrm{C} ^ {2} \cdot \mathrm{m} ^ {- 1} \times 1. 4 8 \times 1 0 ^ {- 3 0} \mathrm{m} ^ {3} \\ \times 1. 0 \times 1 0 ^ {5} \mathrm{V} \cdot \mathrm{m} ^ {- 1} \\ \end{array}
+\begin{array}{l} \mu^ {*} = 4 \pi \times 8.854 \times 10 ^ {- 12} \mathrm{J} ^ {- 1} \cdot \mathrm{C} ^ {2} \cdot \mathrm{m} ^ {- 1} \times 1.48 \times 10 ^ {- 30} \mathrm{m} ^ {3} \\ \times 1.0 \times 10 ^ {5} \mathrm{V} \cdot \mathrm{m} ^ {- 1} \\ \end{array}
 $$
 
 $$
-\begin{array}{r l} & 1 \mathrm{V} = 1 \mathrm{J} \mathrm{C} ^ {- 1} \\ & = 1. 6 5 \times 1 0 ^ {- 3 5} \mathrm{C} \cdot \mathrm{m} = 4. 9 \times 1 0 ^ {- 6} \mathrm{D} = 4. 9 \mu \mathrm{D} \end{array}
+\begin{array}{r l} & 1 \mathrm{V} = 1 \mathrm{J} \mathrm{C} ^ {- 1} \\ & = 1.65 \times 10 ^ {- 35} \mathrm{C} \cdot \mathrm{m} = 4.9 \times 10 ^ {- 6} \mathrm{D} = 4.9 \mu \mathrm{D} \end{array}
 $$
 
 表14A.1给出了一些分子的极化率体积数据，有可能建立这些值与原子和分子的电子结构之间的相互关系。
@@ -516,25 +516,25 @@ $$
 图14A.4 例题14A.2中用于测定莰酮极化率和偶极矩的 $P_{\alpha}$ 对 $T^{-1}$ 作图
 
 $$
-N _ {\mathrm{A}} \alpha / 3 \varepsilon_ {0} = 8 3. 5 \mathrm{cm} ^ {3} \cdot \mathrm{mol} ^ {- 1} = 8. 3 5 \times 1 0 ^ {- 5} \mathrm{m} ^ {3} \cdot \mathrm{mol} ^ {- 1}
+N _ {\mathrm{A}} \alpha / 3 \varepsilon_ {0} = 83.5 \mathrm{cm} ^ {3} \cdot \mathrm{mol} ^ {- 1} = 8.35 \times 10 ^ {- 5} \mathrm{m} ^ {3} \cdot \mathrm{mol} ^ {- 1}
 $$
 
 据此可有
 
 $$
-\begin{array}{l} \alpha = \frac {3 \times \overbrace {8 . 8 5 4 \times 1 0 ^ {- 1 2} \mathrm{J} ^ {- 1} \cdot \mathrm{C} ^ {2} \cdot \mathrm{m} ^ {- 1}} ^ {\text {截距}}}{\underbrace {6 . 0 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1}} _ {N _ {\mathrm{A}}}} \times \overbrace {8 . 3 5 \times 1 0 ^ {- 5} \mathrm{m} ^ {4} \cdot \mathrm{mol} ^ {- 1}} ^ {\text {截距}} \\ = 3. 6 8 \times 1 0 ^ {- 3 9} \mathrm{C} ^ {2} \cdot \mathrm{m} ^ {2} \cdot J ^ {- 1} \\ \end{array}
+\begin{array}{l} \alpha = \frac {3 \times \overbrace {8.854 \times 10 ^ {- 12} \mathrm{J} ^ {- 1} \cdot \mathrm{C} ^ {2} \cdot \mathrm{m} ^ {- 1}} ^ {\text {截距}}}{\underbrace {6.02 \times 10 ^ {23} \mathrm{mol} ^ {- 1}} _ {N _ {\mathrm{A}}}} \times \overbrace {8.35 \times 10 ^ {- 5} \mathrm{m} ^ {4} \cdot \mathrm{mol} ^ {- 1}} ^ {\text {截距}} \\ = 3.68 \times 10 ^ {- 39} \mathrm{C} ^ {2} \cdot \mathrm{m} ^ {2} \cdot J ^ {- 1} \\ \end{array}
 $$
 
 由式（14A.6）可得， $\alpha^{\prime}=3.31\times10^{-29}m^{3}$ 。斜率为10.55，故
 
 $$
-\begin{array}{l} N _ {\mathrm{A}} \mu^ {2} / 9 \varepsilon_ {0} k = 1. 0 5 5 \times 1 0 ^ {4} \mathrm{cm} ^ {3} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{K} \\ = 1. 0 5 5 \times 1 0 ^ {- 2} \mathrm{m} ^ {3} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{K} \\ \end{array}
+\begin{array}{l} N _ {\mathrm{A}} \mu^ {2} / 9 \varepsilon_ {0} k = 1.055 \times 10 ^ {4} \mathrm{cm} ^ {3} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{K} \\ = 1.055 \times 10 ^ {- 2} \mathrm{m} ^ {3} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{K} \\ \end{array}
 $$
 
 所以，从 $P_{\mathrm{m}}$ 表达式可以得到
 
 $$
-\begin{array}{l} \mu = \left(\frac {9 \times 8 . 8 5 4 \times 1 0 ^ {- 1 2} \mathrm{J} ^ {- 1} \cdot \mathrm{C} ^ {2} \cdot \mathrm{m} ^ {- 1}}{\underbrace {6 . 0 2 2 \times 1 0 ^ {- 2 3} \mathrm{mol} ^ {- 1}} _ {N _ {\mathrm{A}}}} \times \frac {k}{1 . 3 8 1 \times 1 0 ^ {- 2 3} \mathrm{J} \cdot \mathrm{K} ^ {- 1}}\right) ^ {1 / 2} \\ \times \left(\overbrace {1 . 0 5 5 \times 1 0 ^ {- 2} \mathrm{m} ^ {3} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{K}} ^ {\text {斜率 }}\right) ^ {1 / 2} \\ = 4. 3 9 \times 1 0 ^ {- 3 0} \mathrm{C} \cdot \mathrm{m} = 1. 3 2 \mathrm{D} \\ \end{array}
+\begin{array}{l} \mu = \left(\frac {9 \times 8.854 \times 10 ^ {- 12} \mathrm{J} ^ {- 1} \cdot \mathrm{C} ^ {2} \cdot \mathrm{m} ^ {- 1}}{\underbrace {6.022 \times 10 ^ {- 23} \mathrm{mol} ^ {- 1}} _ {N _ {\mathrm{A}}}} \times \frac {k}{1.381 \times 10 ^ {- 23} \mathrm{J} \cdot \mathrm{K} ^ {- 1}}\right) ^ {1 / 2} \\ \times \left(\overbrace {1.055 \times 10 ^ {- 2} \mathrm{m} ^ {3} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{K}} ^ {\text {斜率 }}\right) ^ {1 / 2} \\ = 4.39 \times 10 ^ {- 30} \mathrm{C} \cdot \mathrm{m} = 1.32 \mathrm{D} \\ \end{array}
 $$
 
 因为德拜方程描述的是可以自由旋转的分子，数据显示莰酮（直到175℃才熔化）即使在固体中也是可旋转的。它是一种近似球形的分子。
@@ -542,7 +542,7 @@ $$
 自测题14A.2 氯苯的相对介电常数在 $20^{\circ}C$ 时为5.71，在 $25^{\circ}C$ 时为5.62。假设其质量密度不变（为 $1.11\ g\cdot cm^{-3}$ ），估算其极化率和偶极矩的大小。
 
 $$
-\text {答案:} 1. 4 \times 1 0 ^ {- 2 9} \mathrm{m} ^ {3}, 1. 2 \mathrm{D}.
+\text {答案:} 1.4 \times 10 ^ {- 29} \mathrm{m} ^ {3}, 1.2 \mathrm{D}.
 $$
 
 介质的折射率 $n_{r}$ 是真空中光速c与介质中光速 $c'$ 的比值： $n_{r}=c/c'$ 。根据麦克斯韦电磁辐射理论，在一特定波长（可见波长或紫外波长）的折射率与该波长对应频率下的相对介电常数有关，即
@@ -668,7 +668,7 @@ Molecular structure diagram showing blue and gray atoms arranged in a chain with
 思考在真空中相距1.0 nm的一个Li和一个水分子 $(\mu=1.85\mathrm{D})$ ，离子上的点电荷和分子的偶极子排列方式如(1)所示。其相互作用能可由式（14B.1）给出，即
 
 $$
-\begin{array}{r l} & V = - \frac {\overbrace {1 . 6 0 2 \times 1 0 ^ {- 1 9} \mathrm{C}} ^ {Q _ {\mathrm{U} ^ {-}}} \times \overbrace {1 . 8 5 \times 3 . 3 3 6 \times 1 0 ^ {- 3 0} \mathrm{C} \cdot \mathrm{m}} ^ {H _ {\mathrm{H} _ {2} \mathrm{O}}}}{4 \pi \times \underbrace {8 . 8 5 4 \times 1 0 ^ {- 1 2} \mathrm{J} ^ {- 1} \cdot \mathrm{C} ^ {- 1} \cdot \mathrm{m} ^ {- 1}} _ {e _ {0}} \times \underbrace {(1 . 0 \times 1 0 ^ {- 9} \mathrm{m}) ^ {2}} _ {r}} \\ & = - 8. 9 \times 1 0 ^ {- 2 1} \mathrm{J} \end{array}
+\begin{array}{r l} & V = - \frac {\overbrace {1.602 \times 10 ^ {- 19} \mathrm{C}} ^ {Q _ {\mathrm{U} ^ {-}}} \times \overbrace {1.85 \times 3.336 \times 10 ^ {- 30} \mathrm{C} \cdot \mathrm{m}} ^ {H _ {\mathrm{H} _ {2} \mathrm{O}}}}{4 \pi \times \underbrace {8.854 \times 10 ^ {- 12} \mathrm{J} ^ {- 1} \cdot \mathrm{C} ^ {- 1} \cdot \mathrm{m} ^ {- 1}} _ {e _ {0}} \times \underbrace {(1.0 \times 10 ^ {- 9} \mathrm{m}) ^ {2}} _ {r}} \\ & = - 8.9 \times 10 ^ {- 21} \mathrm{J} \end{array}
 $$
 
 该能量对应于-5.4 kJ·mol $^{-1}$
@@ -764,7 +764,7 @@ l
 </details>
 
 $$
-V = \frac {\mu_ {1} \mu_ {2} f (\Theta)}{4 \pi \varepsilon_ {0} r ^ {3}} \quad f (\Theta) = 1 - 3 \cos^ {2} \Theta \begin{array}{l} \text {点偏极子- } \\ \text {点偏极子相} \\ \text {互作用} \\ [ \text {如(4)中所示} ] \end{array} (1 4 B. 3 b)
+V = \frac {\mu_ {1} \mu_ {2} f (\Theta)}{4 \pi \varepsilon_ {0} r ^ {3}} \quad f (\Theta) = 1 - 3 \cos^ {2} \Theta \begin{array}{l} \text {点偏极子- } \\ \text {点偏极子相} \\ \text {互作用} \\ [ \text {如(4)中所示} ] \end{array} (14 B. 3 b)
 $$
 
 # 简要说明14B.2
@@ -772,7 +772,7 @@ $$
 式（14B.3b）可用于计算两个酰胺基之间偶极相互作用的势能。假设这两个基团距离 $3.0\mathrm{nm}$ 且 $\Theta = 180^{\circ}$ （故 $\cos \Theta = -1$ 且 $1 - 3\cos^2\Theta = -2]$ 。取 $\mu_{1} = \mu_{2} = 2.7\mathrm{D}$ ，相当于 $9.0\times 10^{-35}\mathrm{C}\cdot \mathrm{m}$ ，可得
 
 $$
-\begin{array}{l} V = \frac {\frac {\mu_ {1} \mu_ {2}}{(9 . 0 \times 1 0 ^ {- 3 0} \mathrm{C} \cdot \mathrm{m}) ^ {2}} \times (- 3 \cos^ {2} \theta)}{4 \pi \times \underbrace {8 . 8 5 4 \times 1 0 ^ {- 1 2} \mathrm{J} ^ {- 1} \cdot \mathrm{C} ^ {2} \cdot \mathrm{m} ^ {- 1}} _ {L _ {0}} \times (\underbrace {3 . 0 \times 1 0 ^ {- 9} \mathrm{m}) ^ {3}} _ {r ^ {3}}} \\ = \frac {(9 . 0 \times 1 0 ^ {- 3 1}) ^ {2} \times (- 2)}{4 \pi \times 8 . 8 5 4 \times 1 0 ^ {- 1 2} \times (3 . 0 \times 1 0 ^ {- 9}) ^ {3}} \frac {C ^ {2} \cdot m ^ {2}}{J ^ {- 1} \cdot C ^ {2} \cdot m ^ {- 1} \cdot m ^ {3}} \\ = - 5. 4 \times 1 0 ^ {- 2 3} J \\ \end{array}
+\begin{array}{l} V = \frac {\frac {\mu_ {1} \mu_ {2}}{(9.0 \times 10 ^ {- 30} \mathrm{C} \cdot \mathrm{m}) ^ {2}} \times (- 3 \cos^ {2} \theta)}{4 \pi \times \underbrace {8.854 \times 10 ^ {- 12} \mathrm{J} ^ {- 1} \cdot \mathrm{C} ^ {2} \cdot \mathrm{m} ^ {- 1}} _ {L _ {0}} \times (\underbrace {3.0 \times 10 ^ {- 9} \mathrm{m}) ^ {3}} _ {r ^ {3}}} \\ = \frac {(9.0 \times 10 ^ {- 31}) ^ {2} \times (- 2)}{4 \pi \times 8.854 \times 10 ^ {- 12} \times (3.0 \times 10 ^ {- 9}) ^ {3}} \frac {C ^ {2} \cdot m ^ {2}}{J ^ {- 1} \cdot C ^ {2} \cdot m ^ {- 1} \cdot m ^ {3}} \\ = - 5.4 \times 10 ^ {- 23} J \\ \end{array}
 $$
 
 该值相当于-33 J·mol $^{-1}$ 。
@@ -890,7 +890,7 @@ $$
 如在专题14A中，对于 $a \ll 1$ ， $L(a) = a / 3$ ，因此
 
 $$
-\langle V \rangle = - \frac {a \mu_ {1} \mu_ {2}}{6 \pi \varepsilon_ {0} r ^ {3}} = - \frac {\mu_ {1} ^ {2} \mu_ {2} ^ {2}}{1 2 \pi^ {2} \varepsilon_ {0} ^ {2} k T r ^ {6}}
+\langle V \rangle = - \frac {a \mu_ {1} \mu_ {2}}{6 \pi \varepsilon_ {0} r ^ {3}} = - \frac {\mu_ {1} ^ {2} \mu_ {2} ^ {2}}{12 \pi^ {2} \varepsilon_ {0} ^ {2} k T r ^ {6}}
 $$
 
 在一更为实际的计算中，第二个偶极子被允许围绕第一个偶极子转动（相同距离），进一步引入因子 $\frac{1}{2}$ ，其最后的结果就是基桑相互作用（Keesom interaction）：
@@ -911,7 +911,7 @@ $$
 假设一个水分子 $\left(\mu_{1}=1.85\mathrm{~D}\right)$ 可从一个酰胺基 $\left(\mu_{2}=2.7\mathrm{~D}\right)$ 旋转1.0nm，则在25℃（298K）时，它们相互作用的平均势能为
 
 $$
-\begin{array}{l} V = - \frac {2 \times (1 . 8 5 \times 3 . 3 3 6 \times 1 0 ^ {- 3 0} \mathrm{C} \cdot \mathrm{m}) ^ {2}}{3 \times \underbrace {1 . 7 1 0 \times 1 0 ^ {- 4 5} \mathrm{J} ^ {- 1} \cdot \mathrm{C} ^ {4} \cdot \mathrm{m} ^ {- 2} \cdot \mathrm{K} ^ {- 1}} _ {(4 \pi c _ {0}) ^ {2} k}} \times \underbrace {(2 . 7 \times 3 . 3 3 6 \times 1 0 ^ {- 3 0} \mathrm{C} \cdot \mathrm{m}) ^ {2}} _ {T} \times \underbrace {(1 . 0 \times 1 0 ^ {- 4} \mathrm{m}) ^ {8}} _ {t} \\ = - 4. 0 \times 1 0 ^ {- 2 3} J \\ \end{array}
+\begin{array}{l} V = - \frac {2 \times (1.85 \times 3.336 \times 10 ^ {- 30} \mathrm{C} \cdot \mathrm{m}) ^ {2}}{3 \times \underbrace {1.710 \times 10 ^ {- 45} \mathrm{J} ^ {- 1} \cdot \mathrm{C} ^ {4} \cdot \mathrm{m} ^ {- 2} \cdot \mathrm{K} ^ {- 1}} _ {(4 \pi c _ {0}) ^ {2} k}} \times \underbrace {(2.7 \times 3.336 \times 10 ^ {- 30} \mathrm{C} \cdot \mathrm{m}) ^ {2}} _ {T} \times \underbrace {(1.0 \times 10 ^ {- 4} \mathrm{m}) ^ {8}} _ {t} \\ = - 4.0 \times 10 ^ {- 23} J \\ \end{array}
 $$
 
 该相互作用势能（乘以阿伏加德罗常数后）相当于-24J·mol $^{-1}$ ，比化学键的形成和断裂所涉及的能量小得多。
@@ -950,7 +950,7 @@ $$
 一个 $\mu = 1.0\mathrm{D}$ （ $3.3\times 10^{-30}\mathrm{C}\cdot \mathrm{m}$ ，如HCl分子）的分子，与一个极化率体积为 $\alpha^{\prime} = 10\times 10^{-30}\mathrm{m}^{3}$ （如苯，表14A.1）的分子距离为 $0.30~\mathrm{nm}$ ，则平均相互作用能为
 
 $$
-\begin{array}{l} V = - \frac {(3 . 3 \times 1 0 ^ {- 3 9} \mathrm{C} \cdot \mathrm{m}) ^ {2} \times 1 0 \times 1 0 ^ {- 3 9} \mathrm{m} ^ {2}}{4 \pi \times 8 . 8 5 4 \times 1 0 ^ {- 1 2} \mathrm{J} ^ {- 1} \cdot \mathrm{C} ^ {2} \cdot \mathrm{m} ^ {- 1} \times (3 . 0 \times 1 0 ^ {- 1 9} \mathrm{m}) ^ {6}} \\ = - 1. 4 \times 1 0 ^ {- 2 1} ] \\ \end{array}
+\begin{array}{l} V = - \frac {(3.3 \times 10 ^ {- 39} \mathrm{C} \cdot \mathrm{m}) ^ {2} \times 10 \times 10 ^ {- 39} \mathrm{m} ^ {2}}{4 \pi \times 8.854 \times 10 ^ {- 12} \mathrm{J} ^ {- 1} \cdot \mathrm{C} ^ {2} \cdot \mathrm{m} ^ {- 1} \times (3.0 \times 10 ^ {- 19} \mathrm{m}) ^ {6}} \\ = - 1.4 \times 10 ^ {- 21} ] \\ \end{array}
 $$
 
 乘以阿伏加德罗常数后，相当于-0.83 kJ·mol $^{-1}$ 。
@@ -987,7 +987,7 @@ $$
 对于间距为0.30 nm的两个 $CH_{4}$ 分子，使用式（14B.7）（其中 $\alpha^{\prime}=2.6\times10^{-10}m^{3},I\approx700kJ\cdot mol^{-1}$ ），可得到
 
 $$
-\begin{array}{l} V = - \frac {\frac {3}{2} \times (2 . 6 \times 1 0 ^ {- 3 0} \mathrm{m} ^ {3}) ^ {2}}{(0 . 3 0 \times 1 0 ^ {- 3} \mathrm{m}) ^ {6}} \times \frac {(7 . 0 0 \times 1 0 ^ {5} \mathrm{J} \cdot \mathrm{mol} ^ {- 1}) ^ {2}}{2 \times 7 . 0 0 \times 1 0 ^ {3} \mathrm{J} \cdot \mathrm{mol} ^ {- 1}} \\ = - 4. 9 \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1} \\ \end{array}
+\begin{array}{l} V = - \frac {\frac {3}{2} \times (2.6 \times 10 ^ {- 30} \mathrm{m} ^ {3}) ^ {2}}{(0.30 \times 10 ^ {- 3} \mathrm{m}) ^ {6}} \times \frac {(7.00 \times 10 ^ {5} \mathrm{J} \cdot \mathrm{mol} ^ {- 1}) ^ {2}}{2 \times 7.00 \times 10 ^ {3} \mathrm{J} \cdot \mathrm{mol} ^ {- 1}} \\ = - 4.9 \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1} \\ \end{array}
 $$
 
 一个对该数据非常近似的检验是甲烷的蒸发焓，其值为 $8.2\ kJ\cdot mol^{-1}$ 。但这种比较是有问题的，部分原因是因为液体中分子间相互作用的总能量不仅仅是由成对相互作用造成的，部分原因是长距离假设不成立。
@@ -1123,7 +1123,7 @@ $$
 式中 $n > m$ 。第一项表示排斥，第二项为吸引。勒纳德－琼斯势能（Lennard-Jones potential energy）是Mie势能的一个特例，其中 $n = 12$ ， $m = 6$ （图14B.8）；它经常写成如下形式：
 
 $$
-V = 4 \varepsilon \left[ \left(\frac {r _ {0}}{r}\right) ^ {1 2} - \left(\frac {r _ {0}}{r}\right) ^ {6} \right] \quad \text {   勒纳德-恩斯劳兹   } \tag {14B.12}
+V = 4 \varepsilon \left[ \left(\frac {r _ {0}}{r}\right) ^ {12} - \left(\frac {r _ {0}}{r}\right) ^ {6} \right] \quad \text {   勒纳德-恩斯劳兹   } \tag {14B.12}
 $$
 
 两个参数是阱深 $\varepsilon$ 和除无穷远外 $V = 0$ 时的间距 $r_0$ (表14B.2)。
@@ -1139,7 +1139,7 @@ $$
 随着原子力显微镜（atomic force microscopy, AFM）的出现 [在原子力显微镜中，分子大小的探针和表面之间的作用力被监测（专题19A）]，直接测量分子之间的作用力已成为可能。力F是势能的负斜率，所以对于单个分子之间的勒纳德-琼斯势能，可有
 
 $$
-F = - \frac {\mathrm{d} V}{\mathrm{d} r} = \frac {2 4 \varepsilon}{r _ {0}} \left[ 2 \left(\frac {r _ {0}}{r}\right) ^ {1 3} - \left(\frac {r _ {0}}{r}\right) ^ {7} \right] \tag {14B.13}
+F = - \frac {\mathrm{d} V}{\mathrm{d} r} = \frac {24 \varepsilon}{r _ {0}} \left[ 2 \left(\frac {r _ {0}}{r}\right) ^ {13} - \left(\frac {r _ {0}}{r}\right) ^ {7} \right] \tag {14B.13}
 $$
 
 # 例题 14B.1 由勒纳德-琼斯势能计算分子间力
@@ -1151,13 +1151,13 @@ $$
 解：因为 $\mathrm{dx}^n /\mathrm{dx} = nx^{n - 1}$ ，故
 
 $$
-\frac {\mathrm{d} F}{\mathrm{d} r} = \frac {2 4 \varepsilon}{r _ {0}} \left[ 2 \left(- \frac {1 3 r _ {0} ^ {1 3}}{r ^ {1 4}}\right) - \left(- \frac {7 r _ {0} ^ {7}}{r ^ {8}}\right) \right] = 2 4 \varepsilon r _ {0} ^ {6} \left(\frac {7}{r ^ {9}} - \frac {2 6 r _ {0} ^ {6}}{r ^ {1 4}}\right)
+\frac {\mathrm{d} F}{\mathrm{d} r} = \frac {24 \varepsilon}{r _ {0}} \left[ 2 \left(- \frac {13 r _ {0} ^ {13}}{r ^ {14}}\right) - \left(- \frac {7 r _ {0} ^ {7}}{r ^ {8}}\right) \right] = 24 \varepsilon r _ {0} ^ {6} \left(\frac {7}{r ^ {9}} - \frac {26 r _ {0} ^ {6}}{r ^ {14}}\right)
 $$
 
 当 $dF / dr = 0$ 时，可有
 
 $$
-\frac {7}{r ^ {6}} - \frac {2 6 r _ {0} ^ {6}}{r ^ {1 4}} = 0 \text {或} 7 r ^ {5} - 2 6 r _ {0} ^ {6} = 0
+\frac {7}{r ^ {6}} - \frac {26 r _ {0} ^ {6}}{r ^ {14}} = 0 \text {或} 7 r ^ {5} - 26 r _ {0} ^ {6} = 0
 $$
 
 即 $r=\left(\frac{26}{7}\right)^{1/5}r_{0}=1.244r_{0}$
@@ -1165,13 +1165,13 @@ $$
 在该间距，力为
 
 $$
-F = \frac {2 4 \varepsilon}{r _ {0}} \left[ 2 \left(\frac {r _ {0}}{1 . 2 4 4 r _ {0}}\right) ^ {1 3} - \left(\frac {r _ {0}}{1 . 2 4 4 r _ {0}}\right) ^ {7} \right] = - \frac {2 . 3 9 6 \varepsilon}{r _ {0}}
+F = \frac {24 \varepsilon}{r _ {0}} \left[ 2 \left(\frac {r _ {0}}{1.244 r _ {0}}\right) ^ {13} - \left(\frac {r _ {0}}{1.244 r _ {0}}\right) ^ {7} \right] = - \frac {2.396 \varepsilon}{r _ {0}}
 $$
 
 由表 14B.2 可知， $\varepsilon=1.268\times10^{-21}$ ，且 $r_{0}=3.919\times10^{-10}$ m。因此
 
 $$
-F = - \frac {2 . 3 9 6 \times 1 . 2 6 8 \times 1 0 ^ {- 2 1} \mathrm{J}}{3 . 9 1 9 \times 1 0 ^ {- 1 0} \mathrm{m}} = - 7. 7 5 2 \times 1 0 ^ {- 1 2} \mathrm{N}
+F = - \frac {2.396 \times 1.268 \times 10 ^ {- 21} \mathrm{J}}{3.919 \times 10 ^ {- 10} \mathrm{m}} = - 7.752 \times 10 ^ {- 12} \mathrm{N}
 $$
 
 也就是说，力的大小约为 $8 \, pN$ 。
@@ -1247,7 +1247,7 @@ $$
 在包含N个粒子的流体中，分子1和分子2的径向分布函数的正式表达式为
 
 $$
-g (r _ {1 2}) = \frac {1}{(N - 2) ! \mathcal {N} ^ {2} Z} \int e ^ {- \beta V _ {N}} d \tau_ {3} d \tau_ {4} \dots d \tau_ {N} \text {   空向分布函数   } (1 4 C. 1 a)
+g (r _ {12}) = \frac {1}{(N - 2) ! \mathcal {N} ^ {2} Z} \int e ^ {- \beta V _ {N}} d \tau_ {3} d \tau_ {4} \dots d \tau_ {N} \text {   空向分布函数   } (14 C. 1 a)
 $$
 
 式中 $d\tau_{i}$ 是分子 i 的体积元， $\beta = 1/kT$ ， $V_{N}$ 是 N 粒子的势能，z 是 “位形积分”（这个量在专题 13D 中做了介绍）：
@@ -1259,7 +1259,7 @@ $$
 式（14C.1a）只是系统中所有分子所提供的一个场中两个分子相对位置的玻耳兹曼分布。因此，如果分子之间没有相互作用（故 $V_{N}=0$ ），则 $Z=V^{N}/N!$ ，同时有
 
 $$
-\begin{array}{l} g (r _ {1 2}) = \frac {N !}{(N - 2) ! \mathcal {N} ^ {2} V ^ {N}} \overbrace {\int d \tau_ {3} d \tau_ {4} \cdots d \tau_ {N}} ^ {V ^ {N - 2}} \\ = \frac {N (N - 1)}{\mathcal {N} ^ {2} V ^ {2}} = \frac {N (N - 1)}{N ^ {2}} = 1 \\ \end{array}
+\begin{array}{l} g (r _ {12}) = \frac {N !}{(N - 2) ! \mathcal {N} ^ {2} V ^ {N}} \overbrace {\int d \tau_ {3} d \tau_ {4} \cdots d \tau_ {N}} ^ {V ^ {N - 2}} \\ = \frac {N (N - 1)}{\mathcal {N} ^ {2} V ^ {2}} = \frac {N (N - 1)}{N ^ {2}} = 1 \\ \end{array}
 $$
 
 在没有相互作用的情况下，流体应该是均匀的，这与 $g(r_{12})$ 值是一致的。
@@ -1397,7 +1397,7 @@ h
 解：矩形的面积是lh，因此薄膜的表面积增加为2lh，所做的功是2ylh。在20℃时，将一个宽度为5.0cm的线框从水中拉出水面2.0cm所需做的功为
 
 $$
-\begin{array}{l} w = 2 \times 7 2. 7 5 \mathrm{mJ} \cdot \mathrm{m} ^ {- 2} \times 5 \times 1 0 ^ {- 4} \mathrm{m} \times 2 \times 1 0 ^ {- 2} \mathrm{m} \\ = 0. 1 5 \mathrm{mJ} \\ \end{array}
+\begin{array}{l} w = 2 \times 72.75 \mathrm{mJ} \cdot \mathrm{m} ^ {- 2} \times 5 \times 10 ^ {- 4} \mathrm{m} \times 2 \times 10 ^ {- 2} \mathrm{m} \\ = 0.15 \mathrm{mJ} \\ \end{array}
 $$
 
 说明 $2\gamma lh$ 的表达可以被认为是 $2\gamma l \times h$ ，是力 x 距离。 $2\gamma l$ 可被认为是框架顶部（长度为 l）的反作用力，其长度为 l。这就解释了为什么它被称为张力，以及为什么其单位通常是 $N \cdot m^{-1}$ （因此， $\gamma l$ 是以牛顿为单位的力）。
@@ -1405,7 +1405,7 @@ $$
 自测题14C.1 导出在表面张力为 $\gamma$ 的一液体中，形成半径r的一球形腔所需做功的表达式，并计算在20℃的水中形成半径为1.0cm的空腔所需要的功。
 
 $$
-\text {答案：} 4 \mathrm{m} ^ {2} \cdot 0. 0 9 1 \mathrm{ml}.
+\text {答案：} 4 \mathrm{m} ^ {2} \cdot 0.091 \mathrm{ml}.
 $$
 
 # (b) 曲面
@@ -1480,7 +1480,7 @@ $$
 在 $20^{\circ} \mathrm{C}$ 时，一个半径为 $200 \mathrm{~nm}$ 的球形水滴表面内外的压力差可以用拉普拉斯公式计算：
 
 $$
-\begin{array}{l} p _ {\mathrm{m}} - p _ {\mathrm{out}} = \frac {2 \times (7 2 . 7 5 \times 1 0 ^ {- 3} \mathrm{N} \cdot \mathrm{m} ^ {- 1})}{\underbrace {2 . 0 0 \times 1 0 ^ {- 7} \mathrm{m}} _ {t}} \\ = 7. 2 8 \times 1 0 ^ {5} \mathrm{N} \cdot \mathrm{m} ^ {- 2} = 7 2 8 \mathrm{kPa} \\ \end{array}
+\begin{array}{l} p _ {\mathrm{m}} - p _ {\mathrm{out}} = \frac {2 \times (72.75 \times 10 ^ {- 3} \mathrm{N} \cdot \mathrm{m} ^ {- 1})}{\underbrace {2.00 \times 10 ^ {- 7} \mathrm{m}} _ {t}} \\ = 7.28 \times 10 ^ {5} \mathrm{N} \cdot \mathrm{m} ^ {- 2} = 728 \mathrm{kPa} \\ \end{array}
 $$
 
 # (c) 毛细作用
@@ -1537,11 +1537,11 @@ $$
 若 $25^{\circ} \mathrm{C}$ 时水（质量密度为 $997.1 \mathrm{~kg} \cdot \mathrm{m}^{-3}$ ）在半径为 $0.20 \mathrm{~mm}$ 的毛细管中上升了 $7.36 \mathrm{~cm}$ ，则水在该温度的表面张力为
 
 $$
-\begin{array}{l} \gamma = \frac {1}{2} \rho g _ {\text {m}}, h r \\ = \frac {1}{2} \times (9 9 7. 1 \mathrm{kg} \cdot \mathrm{m} ^ {- 3}) \times (9. 8 1 \mathrm{m} \cdot \mathrm{s} ^ {- 2}) \times (7. 3 6 \times 1 0 ^ {- 2} \mathrm{m}) \\ \times (2. 0 \times 1 0 ^ {- 4} \mathrm{m}) \\ \end{array}
+\begin{array}{l} \gamma = \frac {1}{2} \rho g _ {\text {m}}, h r \\ = \frac {1}{2} \times (997.1 \mathrm{kg} \cdot \mathrm{m} ^ {- 3}) \times (9.81 \mathrm{m} \cdot \mathrm{s} ^ {- 2}) \times (7.36 \times 10 ^ {- 2} \mathrm{m}) \\ \times (2.0 \times 10 ^ {- 4} \mathrm{m}) \\ \end{array}
 $$
 
 $$
-\begin{array}{c} \text { kg   m·s } ^ {- 1} = N \\ = 7 2 \mathrm{mN} \cdot \mathrm{m} ^ {- 1} \end{array}
+\begin{array}{c} \text { kg   m·s } ^ {- 1} = N \\ = 72 \mathrm{mN} \cdot \mathrm{m} ^ {- 1} \end{array}
 $$
 
 当液体与毛细管壁材料之间的黏附力弱于液体内的内聚力（如玻璃中的汞）时，能量上有利于毛细管中的液体从壁上收缩。这种收缩使表面弯曲为凹面，使高压的那侧向下弯曲。为了使液体中同样深度处的压力相等，该表面必须下降以补偿由于其曲率引起的压力增加。这种补偿导致毛细管下降。
@@ -1776,13 +1776,13 @@ $$
 解：由式（14C.14）可得
 
 $$
-\begin{array}{l} \Gamma_ {s} = - \frac {1}{R T} \left[ \frac {\partial \gamma}{\partial \ln (c / c ^ {*})} \right] _ {r} \\ = - \frac {1}{8 . 3 1 4 5 \mathrm{J} \cdot \mathrm{K} ^ {- 1} \cdot \mathrm{mol} ^ {- 1} \times 2 9 3 \mathrm{K}} \times (- 4. 0 \times 1 0 ^ {- 5} \mathrm{N} \cdot \mathrm{m} ^ {- 1}) \\ = 1. 6 \times 1 0 ^ {- 8} \mathrm{mol} \cdot \mathrm{m} ^ {- 2} \\ \end{array}
+\begin{array}{l} \Gamma_ {s} = - \frac {1}{R T} \left[ \frac {\partial \gamma}{\partial \ln (c / c ^ {*})} \right] _ {r} \\ = - \frac {1}{8.3145 \mathrm{J} \cdot \mathrm{K} ^ {- 1} \cdot \mathrm{mol} ^ {- 1} \times 293 \mathrm{K}} \times (- 4.0 \times 10 ^ {- 5} \mathrm{N} \cdot \mathrm{m} ^ {- 1}) \\ = 1.6 \times 10 ^ {- 8} \mathrm{mol} \cdot \mathrm{m} ^ {- 2} \\ \end{array}
 $$
 
 每平方米的分子数为 $N_{A}\Gamma_{s}$ :
 
 $$
-\begin{array}{l} N _ {A} \Gamma_ {5} = 6. 0 2 2 \times 1 0 ^ {2 3} \mathrm{mol} ^ {- 1} \times 1. 6 \times 1 0 ^ {- 8} \mathrm{mol} \cdot \mathrm{m} ^ {- 2} \\ = 9. 6 \times 1 0 ^ {1 5} \mathrm{m} ^ {- 2} \\ \end{array}
+\begin{array}{l} N _ {A} \Gamma_ {5} = 6.022 \times 10 ^ {23} \mathrm{mol} ^ {- 1} \times 1.6 \times 10 ^ {- 8} \mathrm{mol} \cdot \mathrm{m} ^ {- 2} \\ = 9.6 \times 10 ^ {15} \mathrm{m} ^ {- 2} \\ \end{array}
 $$
 
 自测题 14C.2 利用所得结果，计算每个 1-氨基丁酸分子在表面上占据的面积。
@@ -1895,13 +1895,13 @@ $$
 总物质的量为 $n_{total}=2.92\ mmol$ ，则数均摩尔质量为
 
 $$
-\begin{array}{l} \bar {M} _ {\mathrm{o}} / (\mathrm{kg} \cdot \mathrm{mol} ^ {- 1}) = \frac {1}{2 . 9 2} \times (1. 3 \times 7. 5 + 0. 7 0 \times 1 2. 5 + 0. 5 1 \times 1 7. 5 + \\ 0. 2 5 \times 2 2. 5 + 0. 1 1 \times 2 7. 5 + 0. 0 5 2 \times 3 2. 5) = 1 3 \\ \end{array}
+\begin{array}{l} \bar {M} _ {\mathrm{o}} / (\mathrm{kg} \cdot \mathrm{mol} ^ {- 1}) = \frac {1}{2.92} \times (1.3 \times 7.5 + 0.70 \times 12.5 + 0.51 \times 17.5 + \\ 0.25 \times 22.5 + 0.11 \times 27.5 + 0.052 \times 32.5) = 13 \\ \end{array}
 $$
 
 注意，样品的总质量为 37.6 g，质均摩尔质量可直接由题给数据计算：
 
 $$
-\begin{array}{l} \bar {M} _ {\mathrm{w}} / (\mathrm{kg} \cdot \mathrm{mol} ^ {- 1}) = \frac {1}{3 7 . 6} \times (9. 6 \times 7. 5 + 8. 7 \times 1 2. 5 + 8. 9 \times 1 7. 5 + \\ 5. 6 \times 2 2. 5 + 3. 1 \times 2 7. 5 + 1. 7 \times 3 2. 5) = 1 6 \\ \end{array}
+\begin{array}{l} \bar {M} _ {\mathrm{w}} / (\mathrm{kg} \cdot \mathrm{mol} ^ {- 1}) = \frac {1}{37.6} \times (9.6 \times 7.5 + 8.7 \times 12.5 + 8.9 \times 17.5 + \\ 5.6 \times 22.5 + 3.1 \times 27.5 + 1.7 \times 32.5) = 16 \\ \end{array}
 $$
 
 说明 注意两个平均值的不同。在本例中， $\bar{M}_{\omega}/\bar{M}_{\alpha}=1.2$ 。
@@ -1909,7 +1909,7 @@ $$
 自测题14D.1 Z均摩尔质量，可在某些沉降实验中得到，其定义为 $\bar{M}_{z}=\sum_{i}N_{i}M_{i}^{3}/\sum_{i}N_{i}M_{i}^{2}$ 。请计算例题中这个样品的Z均摩尔质量。
 
 $$
-\text {答案：} 1 9 \mathrm{kg} \cdot \mathrm{mol} ^ {- 1}
+\text {答案：} 19 \mathrm{kg} \cdot \mathrm{mol} ^ {- 1}
 $$
 
 $\bar{M}_{w}/\bar{M}_{n}$ 的比值称为（摩尔质量）分散度（dispersity）D，以前称为多分散指数（PDI），并定义为
@@ -2063,7 +2063,7 @@ $$
 假设 $N = 1000, l = 150 \mathrm{pm}$ ，那么一维无规线团两端间距 $n l = 3.00 \mathrm{~nm}$ 的概率可由式（14D.3）给出，其中 $n = 3.00 \times 10^{3} \mathrm{pm} / 150 \mathrm{pm} = 20.0$ ，即
 
 $$
-P = \left(\frac {2}{\pi \times 1 0 0 0}\right) ^ {1 / 2} e ^ {- 2 0 0 ^ {2} / (2 \times 1 0 0 0)} = 0. 0 2 0 7
+P = \left(\frac {2}{\pi \times 1000}\right) ^ {1 / 2} e ^ {- 200 ^ {2} / (2 \times 1000)} = 0.0207
 $$
 
 这意味着一维无规线团两端间距为nl的概率是1/48。
@@ -2081,19 +2081,19 @@ $$
 参照在“简要说明14D.1”中所描述的链，其中N=1000及l=150，但现在是在三维空间，那么
 
 $$
-a = \left[ \frac {3}{2 \times 1 0 0 0 \times (1 5 0 p m) ^ {2}} \right] ^ {1 / 2} = 2. 5 8 \times 1 0 ^ {- 4} p m ^ {- 1}
+a = \left[ \frac {3}{2 \times 1000 \times (150 p m) ^ {2}} \right] ^ {1 / 2} = 2.58 \times 10 ^ {- 4} p m ^ {- 1}
 $$
 
 在 $r = 3.00\mathrm{nm}$ 处的概率密度可通过式（14D.4）计算，得出
 
 $$
-\begin{array}{l} f (3. 0 0 \mathrm{nm}) = 4 \pi \times \left(\frac {2 . 5 8 \times 1 0 ^ {- 4} \mathrm{pm} ^ {- 1}}{\pi^ {1 / 2}}\right) ^ {3} \times \\ (3. 0 0 \times 1 0 ^ {4} \mathrm{pm}) ^ {2} \times \mathrm{e} ^ {- (2. 5 8 \times 1 0 ^ {- 4} \mathrm{pm} ^ {- 1}) ^ {2} (1. 0 0 \times 1 0 ^ {3} \mathrm{pm}) ^ {2}} \\ = 1. 9 2 \times 1 0 ^ {- 4} \mathrm{pm} ^ {- 1} \\ \end{array}
+\begin{array}{l} f (3.00 \mathrm{nm}) = 4 \pi \times \left(\frac {2.58 \times 10 ^ {- 4} \mathrm{pm} ^ {- 1}}{\pi^ {1 / 2}}\right) ^ {3} \times \\ (3.00 \times 10 ^ {4} \mathrm{pm}) ^ {2} \times \mathrm{e} ^ {- (2.58 \times 10 ^ {- 4} \mathrm{pm} ^ {- 1}) ^ {2} (1.00 \times 10 ^ {3} \mathrm{pm}) ^ {2}} \\ = 1.92 \times 10 ^ {- 4} \mathrm{pm} ^ {- 1} \\ \end{array}
 $$
 
 所以，链端在r=3.00nm处，在宽度 $\delta r=10.0\ pm$ 的一狭窄范围内（忽略方向）的概率是
 
 $$
-f (3. 0 0 \mathrm{nm}) \delta r = 1. 9 2 \times 1 0 ^ {- 4} \mathrm{pm} ^ {- 1} \times 1 0. 0 \mathrm{pm} = 1. 9 2 \times 1 0 ^ {- 3}
+f (3.00 \mathrm{nm}) \delta r = 1.92 \times 10 ^ {- 4} \mathrm{pm} ^ {- 1} \times 10.0 \mathrm{pm} = 1.92 \times 10 ^ {- 3}
 $$
 
 或者大约是1/520。
@@ -2252,7 +2252,7 @@ $$
 解：因为 $l_{p}=0.025R_{c}=0.025Nl$ ，所以分数变化为
 
 $$
-\begin{array}{l} \frac {R _ {\mathrm{rms}} - R _ {\mathrm{rms,randomcol}}}{R _ {\mathrm{rms, randomcol}}} = \left(\frac {2 \times 0 . 0 2 5 N l}{l} - 1\right) ^ {1 / 2} - 1 \\ = (0. 0 5 0 N - 1) ^ {1 / 2} - 1 \\ \end{array}
+\begin{array}{l} \frac {R _ {\mathrm{rms}} - R _ {\mathrm{rms,randomcol}}}{R _ {\mathrm{rms, randomcol}}} = \left(\frac {2 \times 0.025 N l}{l} - 1\right) ^ {1 / 2} - 1 \\ = (0.050 N - 1) ^ {1 / 2} - 1 \\ \end{array}
 $$
 
 当N=1000时，分数变化为6.00，故方均根间距增加600%。
@@ -2332,11 +2332,11 @@ $$
 假设 N=1000， $l=150\ pm$ ，因此 $R_{c}=150\ nm$ 。当（一维）无规线团伸展 1.5 nm（对应于 $\lambda=1/100$ ）时，熵变为
 
 $$
-\Delta S = - \frac {1}{2} k \times 1 0 0 0 \times \ln \left[ \left(1 + \frac {1}{1 0 0}\right) ^ {1 - 1 / 1 0 0} \left(1 - \frac {1}{1 0 0}\right) ^ {1 - 1 / 1 0 0} \right]
+\Delta S = - \frac {1}{2} k \times 1000 \times \ln \left[ \left(1 + \frac {1}{100}\right) ^ {1 - 1 / 100} \left(1 - \frac {1}{100}\right) ^ {1 - 1 / 100} \right]
 $$
 
 $$
-= - 0. 0 5 0 k
+= - 0.050 k
 $$
 
 因为 $R = N_{\mathrm{A}}k$ ，摩尔熵变为 $\Delta S_{\mathrm{m}} = -0.050R$ 或 $-0.42\mathrm{J}\cdot \mathrm{K}^{-1}\cdot \mathrm{mol}^{-1}$
@@ -2416,7 +2416,7 @@ $$
 考虑一个 $N = 5000$ 和 $I = 0.15\mathrm{nm}$ 的聚合物链，如果链的两端被分开的距离为 $x = 1.5\mathrm{nm}$ ，那么 $\lambda = 1.5\mathrm{nm} / (5000\times$ $0.15\mathrm{nm}) = 2.0\times 10^{-3}$ 。因为 $\lambda \ll 1$ ，所以 $293\mathrm{K}$ 时的回复力可由式（14D.12b）给出，即
 
 $$
-F = \frac {1 . 3 8 1 \times 1 0 ^ {- 2 3} \mathrm{J} \cdot \mathrm{K} ^ {- 1} \times 2 9 3 \mathrm{K}}{5 0 0 0 \times (1 . 5 \times 1 0 ^ {- 1 9} \mathrm{m}) ^ {2}} \times 1. 5 \times 1 0 ^ {- 8} \mathrm{m} = 5. 4 \times 1 0 ^ {- 1 4} \mathrm{N}
+F = \frac {1.381 \times 10 ^ {- 23} \mathrm{J} \cdot \mathrm{K} ^ {- 1} \times 293 \mathrm{K}}{5000 \times (1.5 \times 10 ^ {- 19} \mathrm{m}) ^ {2}} \times 1.5 \times 10 ^ {- 8} \mathrm{m} = 5.4 \times 10 ^ {- 14} \mathrm{N}
 $$
 
 或54fN。
@@ -2669,7 +2669,7 @@ $$
 人们发现，大多数化合物的 $\pi$ 值不依赖于X的属性（X可以是OH、 $\mathrm{NH}_2$ 等）。然而，测试结果表明，每增加一个 $\mathrm{CH}_2$ 基团，会增加相同的量：
 
 $$
-\begin{array}{c c c c c c} \hline - R & - C H _ {3} & - C H _ {2} C H _ {3} & - (C H _ {2}) _ {2} C H _ {3} & - (C H _ {2}) _ {3} C H _ {3} & - (C H _ {2}) _ {4} C H _ {3} \\ \pi & 0. 5 & 1. 0 & 1. 5 & 2. 0 & 2. 5 \end{array}
+\begin{array}{c c c c c c} \hline - R & - C H _ {3} & - C H _ {2} C H _ {3} & - (C H _ {2}) _ {2} C H _ {3} & - (C H _ {2}) _ {3} C H _ {3} & - (C H _ {2}) _ {4} C H _ {3} \\ \pi & 0.5 & 1.0 & 1.5 & 2.0 & 2.5 \end{array}
 $$
 
 由此可见，随着碳链长度的增加，非环状饱和烃的疏水性增强。这一趋势可以通过注意到随着链中的碳原子数目的增加， $\Delta_{dis}G^{\ominus}$ 变得更负而得到合理的解释，由正丁醇和正戊醇的数据（见上）可见，熵起主要作用。

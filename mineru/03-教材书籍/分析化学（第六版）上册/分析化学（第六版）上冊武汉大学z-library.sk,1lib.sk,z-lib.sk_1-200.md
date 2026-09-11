@@ -454,11 +454,11 @@ $$
 由于物质的量 $n_{\mathrm{B}}$ 的数值取决于基本单元的选择，因此，表示物质的量浓度时，必须指明基本单元。如某硫酸溶液的浓度，选择不同的基本单元，其摩尔质量就不同，浓度亦不相同：
 
 $$
-c _ {\mathrm {H} _ {2} \mathrm {S O} _ {4}} = 0. 1 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
+c _ {\mathrm {H} _ {2} \mathrm {S O} _ {4}} = 0.1 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
 $$
 
 $$
-c _ {\frac {1}{2} \mathrm {H} _ {2} \mathrm {S O} _ {4}} = 0. 2 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
+c _ {\frac {1}{2} \mathrm {H} _ {2} \mathrm {S O} _ {4}} = 0.2 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
 $$
 
 由此得出
@@ -476,13 +476,13 @@ $$
 在生产单位的例行分析中，为了简化计算，常用滴定度表示标准溶液的浓度。滴定度（titer）是指每毫升滴定剂溶液相当于被测物质的质量（克或毫克）。例如 $T_{\mathrm{Fe / K_2Cr_2O_7}} = 0.005000 \, \mathrm{g} \cdot \mathrm{mL}^{-1}$ ，表示每毫升 $\mathrm{K_2Cr_2O_7}$ 标准溶液恰好能与 $0.005000 \, \mathrm{g} \, \mathrm{Fe}^{2+}$ 反应。如果在滴定中消耗该 $\mathrm{K_2Cr_2O_7}$ 标准溶液 $21.50 \, \mathrm{mL}$ ，则被滴定溶液中铁的质量为
 
 $$
-m _ {\mathrm {F e}} = 0. 0 0 5 0 0 0 \mathrm {g} \cdot \mathrm {m L} ^ {- 1} \times 2 1. 5 0 \mathrm {m L} = 0. 1 0 7 5 \mathrm {g}
+m _ {\mathrm {F e}} = 0.005000 \mathrm {g} \cdot \mathrm {m L} ^ {- 1} \times 21.50 \mathrm {m L} = 0.1075 \mathrm {g}
 $$
 
 滴定度与物质的量浓度可以换算。例如，基于 $1\mathrm{Cr_2O_7^{2 - }}$ 与 $6\mathrm{Fe}^{2 + }$ 的滴定反应，上例中每升 $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$ 溶液中 $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$ 物质的量，即它的物质的量浓度为
 
 $$
-c _ {\mathrm {K} _ {2} \mathrm {C r} _ {2} \mathrm {O} _ {7}} = \frac {T \times 1 0 ^ {3} \mathrm {m L} \cdot \mathrm {L} ^ {- 1}}{M _ {\mathrm {F e}} \times 6} = 0. 0 1 4 9 2 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
+c _ {\mathrm {K} _ {2} \mathrm {C r} _ {2} \mathrm {O} _ {7}} = \frac {T \times 10 ^ {3} \mathrm {m L} \cdot \mathrm {L} ^ {- 1}}{M _ {\mathrm {F e}} \times 6} = 0.01492 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
 $$
 
 # 1.7.2 滴定剂与被滴定物质之间的计量关系
@@ -510,7 +510,7 @@ $\frac{b}{t}$ 或 $\frac{t}{b}$ 称为反应计量数比，简称计量比。
 例如在酸性溶液中，用 $\mathrm{H}_2\mathrm{C}_2\mathrm{O}_4$ 作为基准物质标定 $\mathrm{KMnO}_4$ 溶液的浓度时，滴定反应为
 
 $$
-2 \mathrm {M n O} _ {4} ^ {-} + 5 \mathrm {C} _ {2} \mathrm {O} _ {4} ^ {2 -} + 1 6 \mathrm {H} ^ {+} = 2 \mathrm {M n} ^ {2 +} + 1 0 \mathrm {C O} _ {2} + 8 \mathrm {H} _ {2} \mathrm {O}
+2 \mathrm {M n O} _ {4} ^ {-} + 5 \mathrm {C} _ {2} \mathrm {O} _ {4} ^ {2 -} + 16 \mathrm {H} ^ {+} = 2 \mathrm {M n} ^ {2 +} + 10 \mathrm {C O} _ {2} + 8 \mathrm {H} _ {2} \mathrm {O}
 $$
 
 即可得出
@@ -538,7 +538,7 @@ $$
 在置换滴定法和间接滴定法中，涉及两个或两个以上的反应，此时应从总的反应中找出实际参加反应的物质的物质的量之间的关系。例如在酸性溶液中以 $\mathrm{K_2Cr_2O_7}$ 为基准物质标定 $\mathrm{Na}_2\mathrm{S}_2\mathrm{O}_3$ 溶液的浓度时，包括了两个反应。首先是在酸性溶液中 $\mathrm{K_2Cr_2O_7}$ 与过量的KI反应析出 $\mathrm{I}_2$ ：
 
 $$
-\mathrm {C r} _ {2} \mathrm {O} _ {7} ^ {2 -} + 6 \mathrm {I} ^ {-} + 1 4 \mathrm {H} ^ {+} = 2 \mathrm {C r} ^ {3 +} + 3 \mathrm {I} _ {2} + 7 \mathrm {H} _ {2} \mathrm {O} \tag {1}
+\mathrm {C r} _ {2} \mathrm {O} _ {7} ^ {2 -} + 6 \mathrm {I} ^ {-} + 14 \mathrm {H} ^ {+} = 2 \mathrm {C r} ^ {3 +} + 3 \mathrm {I} _ {2} + 7 \mathrm {H} _ {2} \mathrm {O} \tag {1}
 $$
 
 然后用 $\mathrm{Na_2S_2O_3}$ 溶液滴定析出的 $\mathrm{I}_2$
@@ -552,7 +552,7 @@ $$
 还原为 $\mathrm{I}^{-}$ 。因此，实际上总反应相当于 $\mathrm{K_2Cr_2O_7}$ 氧化了 $\mathrm{Na_2S_2O_3}$ 。将反应（2）的系数乘以3，再与反应(1)合并，得
 
 $$
-\mathrm {C r} _ {2} \mathrm {O} _ {7} ^ {2 -} + 6 \mathrm {S} _ {2} \mathrm {O} _ {3} ^ {2 -} + 1 4 \mathrm {H} ^ {+} = 2 \mathrm {C r} ^ {3 +} + 3 \mathrm {S} _ {4} \mathrm {O} _ {6} ^ {2 -} + 7 \mathrm {H} _ {2} \mathrm {O}
+\mathrm {C r} _ {2} \mathrm {O} _ {7} ^ {2 -} + 6 \mathrm {S} _ {2} \mathrm {O} _ {3} ^ {2 -} + 14 \mathrm {H} ^ {+} = 2 \mathrm {C r} ^ {3 +} + 3 \mathrm {S} _ {4} \mathrm {O} _ {6} ^ {2 -} + 7 \mathrm {H} _ {2} \mathrm {O}
 $$
 
 由此得到 $\mathrm{K_2Cr_2O_7}$ 与 $\mathrm{Na}_2\mathrm{S}_2\mathrm{O}_3$ 的反应计量数比为 $1:6$ ，即
@@ -644,11 +644,11 @@ $$
 解 按(1-5b)式计算：
 
 $$
-M _ {\mathrm {K} _ {2} \mathrm {C r} _ {2} \mathrm {O} _ {7}} = 2 9 4. 2 \mathrm {g} \cdot \mathrm {m o l} ^ {- 1}
+M _ {\mathrm {K} _ {2} \mathrm {C r} _ {2} \mathrm {O} _ {7}} = 294.2 \mathrm {g} \cdot \mathrm {m o l} ^ {- 1}
 $$
 
 $$
-c _ {\mathrm {K} _ {2} \mathrm {C r} _ {2} \mathrm {O} _ {7}} = \frac {1 . 4 7 1 \mathrm {g} / 2 9 4 . 2 \mathrm {g} \cdot \mathrm {m o l} ^ {- 1}}{0 . 2 5 0 0 \mathrm {L}} = 0. 0 2 0 0 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
+c _ {\mathrm {K} _ {2} \mathrm {C r} _ {2} \mathrm {O} _ {7}} = \frac {1.471 \mathrm {g} / 294.2 \mathrm {g} \cdot \mathrm {m o l} ^ {- 1}}{0.2500 \mathrm {L}} = 0.02000 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
 $$
 
 例2 欲配制 $0.1000\mathrm{mol}\cdot \mathrm{L}^{-1}$ 的 $\mathrm{Na_2CO_3}$ 标准溶液 $500~\mathrm{mL}$ ，应称取基准物质 $\mathrm{Na_2CO_3}$ 多少克？
@@ -660,7 +660,7 @@ m _ {\mathrm {N a} _ {2} \mathrm {C O} _ {3}} = c _ {\mathrm {N a} _ {2} \mathrm
 $$
 
 $$
-\begin{array}{l} = 0. 1 0 0 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times 0. 5 0 0 0 \mathrm {L} \times 1 0 6. 0 \mathrm {g} \cdot \mathrm {m o l} ^ {- 1} \\ = 5. 3 0 0 \mathrm {g} \\ \end{array}
+\begin{array}{l} = 0.1000 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times 0.5000 \mathrm {L} \times 106.0 \mathrm {g} \cdot \mathrm {m o l} ^ {- 1} \\ = 5.300 \mathrm {g} \\ \end{array}
 $$
 
 例3有 $0.1035\mathrm{mol}\cdot \mathrm{L}^{-1}$ NaOH标准溶液 $500~\mathrm{mL}$ ，欲使其浓度恰好为 $0.1000\mathrm{mol}\cdot \mathrm{L}^{-1}$ 需加水多少毫升？
@@ -668,7 +668,7 @@ $$
 解设应加水的体积为 $V(\mathrm{mL})$ ，根据溶液稀释前后其溶质的物质的量相等的原则：
 
 $$
-\begin{array}{l} 0. 1 0 3 5 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times 5 0 0 \mathrm {m L} = (5 0 0 \mathrm {m L} + V) \times 0. 1 0 0 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ V = \frac {(0 . 1 0 3 5 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} - 0 . 1 0 0 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}) \times 5 0 0 \mathrm {m L}}{0 . 1 0 0 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}} = 1 7. 5 \mathrm {m L} \\ \end{array}
+\begin{array}{l} 0.1035 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times 500 \mathrm {m L} = (500 \mathrm {m L} + V) \times 0.1000 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ V = \frac {(0.1035 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} - 0.1000 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}) \times 500 \mathrm {m L}}{0.1000 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}} = 17.5 \mathrm {m L} \\ \end{array}
 $$
 
 例4为标定HCl溶液，称取硼砂 $\mathrm{(Na_2B_4O_7\cdot 10H_2O)}$ 0.4710g，用HCl溶液滴定至化学计量点时消耗HCl溶液 $24.20~\mathrm{mL}$ 。求此HCl溶液的浓度。
@@ -682,7 +682,7 @@ $$
 故 $n_{\mathrm{HCl}} = 2n_{\mathrm{Na_2B_4O_7\cdot 10H_2O}}$
 
 $$
-\begin{array}{l} c _ {\mathrm {H C l}} V _ {\mathrm {H C l}} = \frac {2 m _ {\mathrm {N a} _ {2} \mathrm {B} _ {4} \mathrm {O} _ {7} \cdot 1 0 \mathrm {H} _ {2} \mathrm {O}}}{M _ {\mathrm {N a} _ {2} \mathrm {B} _ {4} \mathrm {O} _ {7} \cdot 1 0 \mathrm {H} _ {2} \mathrm {O}}} \\ c _ {\mathrm {H C l}} = \frac {2 \times 0 . 4 7 1 0 \mathrm {g}}{3 8 1 . 3 7 \mathrm {g} \cdot \mathrm {m o l} ^ {- 1} \times 2 4 . 2 0 \times 1 0 ^ {- 3} \mathrm {L}} = 0. 1 0 2 1 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \end{array}
+\begin{array}{l} c _ {\mathrm {H C l}} V _ {\mathrm {H C l}} = \frac {2 m _ {\mathrm {N a} _ {2} \mathrm {B} _ {4} \mathrm {O} _ {7} \cdot 10 \mathrm {H} _ {2} \mathrm {O}}}{M _ {\mathrm {N a} _ {2} \mathrm {B} _ {4} \mathrm {O} _ {7} \cdot 10 \mathrm {H} _ {2} \mathrm {O}}} \\ c _ {\mathrm {H C l}} = \frac {2 \times 0.4710 \mathrm {g}}{381.37 \mathrm {g} \cdot \mathrm {m o l} ^ {- 1} \times 24.20 \times 10 ^ {- 3} \mathrm {L}} = 0.1021 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \end{array}
 $$
 
 例5称取铁矿石试样 $0.5006\mathrm{g}$ ，将其溶解，使铁全部被还原为亚铁离子，用 $0.01500\mathrm{mol}\cdot \mathrm{L}^{-1}\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$ 标准溶液滴定至化学计量点时，用去 $\mathrm{K_2Cr_2O_7}$ 标准溶液 $33.45~\mathrm{mL}$ 。求试样中Fe和 $\mathrm{Fe_2O_3}$ 的质量分数。
@@ -690,13 +690,13 @@ $$
 解 滴定反应式为
 
 $$
-6 \mathrm {F e} ^ {2 +} + \mathrm {C r} _ {2} \mathrm {O} _ {7} ^ {2 -} + 1 4 \mathrm {H} ^ {+} = 6 \mathrm {F e} ^ {3 +} + 2 \mathrm {C r} ^ {3 +} + 7 \mathrm {H} _ {2} \mathrm {O}
+6 \mathrm {F e} ^ {2 +} + \mathrm {C r} _ {2} \mathrm {O} _ {7} ^ {2 -} + 14 \mathrm {H} ^ {+} = 6 \mathrm {F e} ^ {3 +} + 2 \mathrm {C r} ^ {3 +} + 7 \mathrm {H} _ {2} \mathrm {O}
 $$
 
 根据反应计量数比，由（1-10）式可得
 
 $$
-\begin{array}{l} w _ {\mathrm {F e}} = \frac {n _ {\mathrm {F e} ^ {2 +}} M _ {\mathrm {F e}}}{m _ {\mathrm {s}}} \\ = \frac {6 n _ {\mathrm {K} _ {2} \mathrm {C r} _ {2} \mathrm {O} _ {7}} M _ {\mathrm {F e}}}{m _ {\mathrm {s}}} \\ = \frac {6 c _ {\mathrm {K} _ {2} \mathrm {C r} _ {2} \mathrm {O} _ {7}} V _ {\mathrm {K} _ {2} \mathrm {C r} _ {2} \mathrm {O} _ {7}} M _ {\mathrm {F e}}}{m _ {\mathrm {s}}} \\ \begin{array}{r l} & = \frac {6 \times 0 . 0 1 5 0 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times 3 3 . 4 5 \times 1 0 ^ {- 3} \mathrm {L} \times 5 5 . 8 5 \mathrm {g} \cdot \mathrm {m o l} ^ {- 1}}{0 . 5 0 0 6 \mathrm {g}} \\ & = 0. 3 3 5 9 \end{array} \\ \end{array}
+\begin{array}{l} w _ {\mathrm {F e}} = \frac {n _ {\mathrm {F e} ^ {2 +}} M _ {\mathrm {F e}}}{m _ {\mathrm {s}}} \\ = \frac {6 n _ {\mathrm {K} _ {2} \mathrm {C r} _ {2} \mathrm {O} _ {7}} M _ {\mathrm {F e}}}{m _ {\mathrm {s}}} \\ = \frac {6 c _ {\mathrm {K} _ {2} \mathrm {C r} _ {2} \mathrm {O} _ {7}} V _ {\mathrm {K} _ {2} \mathrm {C r} _ {2} \mathrm {O} _ {7}} M _ {\mathrm {F e}}}{m _ {\mathrm {s}}} \\ \begin{array}{r l} & = \frac {6 \times 0.01500 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times 33.45 \times 10 ^ {- 3} \mathrm {L} \times 55.85 \mathrm {g} \cdot \mathrm {m o l} ^ {- 1}}{0.5006 \mathrm {g}} \\ & = 0.3359 \end{array} \\ \end{array}
 $$
 
 若以 $\mathrm{Fe_2O_3}$ 形式计算质量分数，由于每个 $\mathrm{Fe_2O_3}$ 分子中有两个Fe原子，对同一试样存在如下关系式：
@@ -708,7 +708,7 @@ $$
 则 $w_{\mathrm{Fe_2O_3}} = \frac{m_{\mathrm{Fe_2O_3}}}{m_s} = \frac{n_{\mathrm{Fe_2O_3}}M_{\mathrm{Fe_2O_3}}}{m_s}$
 
 $$
-\begin{array}{l} = \frac {\frac {1}{2} n _ {\mathrm {F e}} M _ {\mathrm {F e} _ {2} \mathrm {O} _ {3}}}{m _ {\mathrm {s}}} \\ = \frac {3 n _ {\mathrm {K} _ {2} \mathrm {C r} _ {2} \mathrm {O} _ {7}} M _ {\mathrm {F e} _ {2} \mathrm {O} _ {3}}}{m _ {*}} \\ = \frac {3 \times 0 . 0 1 5 0 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times 3 3 . 4 5 \times 1 0 ^ {- 3} \mathrm {L} \times 1 5 9 . 7 \mathrm {g} \cdot \mathrm {m o l} ^ {- 1}}{0 . 5 0 0 6 \mathrm {g}} \\ = 0. 4 8 0 2 \\ \end{array}
+\begin{array}{l} = \frac {\frac {1}{2} n _ {\mathrm {F e}} M _ {\mathrm {F e} _ {2} \mathrm {O} _ {3}}}{m _ {\mathrm {s}}} \\ = \frac {3 n _ {\mathrm {K} _ {2} \mathrm {C r} _ {2} \mathrm {O} _ {7}} M _ {\mathrm {F e} _ {2} \mathrm {O} _ {3}}}{m _ {*}} \\ = \frac {3 \times 0.01500 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times 33.45 \times 10 ^ {- 3} \mathrm {L} \times 159.7 \mathrm {g} \cdot \mathrm {m o l} ^ {- 1}}{0.5006 \mathrm {g}} \\ = 0.4802 \\ \end{array}
 $$
 
 例6称取含铝试样 $0.200\mathrm{g}$ ，溶解后加入 $0.02082\mathrm{mol}\cdot \mathrm{L}^{-1}$ EDTA标准溶液 $30.00~\mathrm{mL}$ ，控制条件使 $\mathrm{Al^{3 + }}$ 与EDTA配位完全。然后以 $0.02012\mathrm{mol}\cdot \mathrm{L}^{-1}\mathrm{Zn^{2 + }}$ 标准溶液返滴定，消耗 $\mathrm{Zn^{2 + }}$ 标准溶液 $7.20~\mathrm{mL}$ 。计算试样中 $\mathrm{Al_2O_3}$ 的质量分数。
@@ -722,11 +722,11 @@ $$
 故 $n_{\mathrm{Al_2O_3}} = \frac{1}{2} n_{\mathrm{Al}} = \frac{1}{2} n_{\mathrm{EDTA}}$
 
 $$
-M _ {\mathrm {A l} _ {2} \mathrm {O} _ {3}} = 1 0 2. 0 \mathrm {g} \cdot \mathrm {m o l} ^ {- 1}
+M _ {\mathrm {A l} _ {2} \mathrm {O} _ {3}} = 102.0 \mathrm {g} \cdot \mathrm {m o l} ^ {- 1}
 $$
 
 $$
-\begin{array}{l} w _ {\mathrm {A l} _ {2} \mathrm {O} _ {3}} = \left[ \frac {1}{2} (0. 0 2 0 8 2 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times 3 0. 0 0 \times 1 0 ^ {- 3} \mathrm {L} - 0. 0 2 0 1 2 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times \right. \\ \left. 7. 2 0 \times 1 0 ^ {- 3} \mathrm {L}) \times 1 0 2. 0 \mathrm {g} \cdot \mathrm {m o l} ^ {- 1} \right] / 0. 2 0 0 0 \mathrm {g} \\ = 0. 1 2 2 3 \\ \end{array}
+\begin{array}{l} w _ {\mathrm {A l} _ {2} \mathrm {O} _ {3}} = \left[ \frac {1}{2} (0.02082 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times 30.00 \times 10 ^ {- 3} \mathrm {L} - 0.02012 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times \right. \\ \left. 7.20 \times 10 ^ {- 3} \mathrm {L}) \times 102.0 \mathrm {g} \cdot \mathrm {m o l} ^ {- 1} \right] / 0.2000 \mathrm {g} \\ = 0.1223 \\ \end{array}
 $$
 
 例7计算 $0.01500\mathrm{mol}\cdot \mathrm{L}^{-1}\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$ 溶液对 $\mathrm{Fe},\mathrm{Fe}_2\mathrm{O}_3$ 和 $\mathrm{Fe_3O_4}$ 的滴定度。
@@ -734,17 +734,17 @@ $$
 解 从例5可知， $\mathrm{K_2Cr_2O_7}$ 与 $\mathrm{Fe^{2+}}$ 的反应计量数比为 $1:6$ ，意即每毫升 $\mathrm{K_2Cr_2O_7}$ 标准溶液中 $\mathrm{K_2Cr_2O_7}$ 的物质的量相当于Fe的物质的量的 $\frac{1}{6}$ 即
 
 $$
-c _ {\mathrm {K} _ {2} \mathrm {C r} _ {2} \mathrm {O} _ {7}} = \frac {T _ {\mathrm {F e / K} _ {2} \mathrm {C r} _ {2} \mathrm {O} _ {7}}}{M _ {\mathrm {F e}}} \times \frac {1}{6} \times 1 0 0 0 \mathrm {m L} \cdot \mathrm {L} ^ {- 1}
+c _ {\mathrm {K} _ {2} \mathrm {C r} _ {2} \mathrm {O} _ {7}} = \frac {T _ {\mathrm {F e / K} _ {2} \mathrm {C r} _ {2} \mathrm {O} _ {7}}}{M _ {\mathrm {F e}}} \times \frac {1}{6} \times 1000 \mathrm {m L} \cdot \mathrm {L} ^ {- 1}
 $$
 
 $$
-\begin{array}{l} T _ {\mathrm {F e} / \mathrm {K} _ {2} \mathrm {C r} _ {2} \mathrm {O} _ {7}} = \frac {c _ {\mathrm {K} _ {2} \mathrm {C r} _ {2} \mathrm {O} _ {7}} \times M _ {\mathrm {F e}} \times 6}{1 0 0 0 \mathrm {m L} \cdot \mathrm {L} ^ {- 1}} = \frac {0 . 0 1 5 0 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times 5 5 . 8 5 \mathrm {g} \cdot \mathrm {m o l} ^ {- 1} \times 6}{1 0 0 0 \mathrm {m L} \cdot \mathrm {L} ^ {- 1}} \\ = 0. 0 0 5 0 2 6 \mathrm {g} ^ {*} \mathrm {m L} ^ {- 1} \\ \end{array}
+\begin{array}{l} T _ {\mathrm {F e} / \mathrm {K} _ {2} \mathrm {C r} _ {2} \mathrm {O} _ {7}} = \frac {c _ {\mathrm {K} _ {2} \mathrm {C r} _ {2} \mathrm {O} _ {7}} \times M _ {\mathrm {F e}} \times 6}{1000 \mathrm {m L} \cdot \mathrm {L} ^ {- 1}} = \frac {0.01500 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times 55.85 \mathrm {g} \cdot \mathrm {m o l} ^ {- 1} \times 6}{1000 \mathrm {m L} \cdot \mathrm {L} ^ {- 1}} \\ = 0.005026 \mathrm {g} ^ {*} \mathrm {m L} ^ {- 1} \\ \end{array}
 $$
 
 同理
 
 $$
-\begin{array}{l} T _ {\mathrm {F e} _ {2} \mathrm {O} _ {3} / \mathrm {K} _ {2} \mathrm {C r} _ {2} \mathrm {O} _ {7}} = \frac {c _ {\mathrm {K} _ {2} \mathrm {C r} _ {2} \mathrm {O} _ {7}} \times M _ {\mathrm {F e} _ {2} \mathrm {O} _ {3}} \times 3}{1 0 0 0 \mathrm {m L} \cdot \mathrm {L} ^ {- 1}} = \frac {0 . 0 1 5 0 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times 1 5 9 . 7 \mathrm {g} \cdot \mathrm {m o l} ^ {- 1} \times 3}{1 0 0 0 \mathrm {m L} \cdot \mathrm {L} ^ {- 1}} \\ = 0. 0 0 7 1 8 6 \mathrm {g} \cdot \mathrm {m L} ^ {- 1} \\ T _ {\mathrm {F e} _ {3} \mathrm {O} _ {4} / \mathrm {K} _ {2} \mathrm {C r} _ {2} \mathrm {O} _ {7}} = \frac {0 . 0 1 5 0 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times 2 3 1 . 5 \mathrm {g} \cdot \mathrm {m o l} ^ {- 1} \times 2}{1 0 0 0 \mathrm {m L} \cdot \mathrm {L} ^ {- 1}} \\ = 0. 0 0 6 9 4 5 \mathrm {g} ^ {*} \mathrm {m L} ^ {- 1} \\ \end{array}
+\begin{array}{l} T _ {\mathrm {F e} _ {2} \mathrm {O} _ {3} / \mathrm {K} _ {2} \mathrm {C r} _ {2} \mathrm {O} _ {7}} = \frac {c _ {\mathrm {K} _ {2} \mathrm {C r} _ {2} \mathrm {O} _ {7}} \times M _ {\mathrm {F e} _ {2} \mathrm {O} _ {3}} \times 3}{1000 \mathrm {m L} \cdot \mathrm {L} ^ {- 1}} = \frac {0.01500 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times 159.7 \mathrm {g} \cdot \mathrm {m o l} ^ {- 1} \times 3}{1000 \mathrm {m L} \cdot \mathrm {L} ^ {- 1}} \\ = 0.007186 \mathrm {g} \cdot \mathrm {m L} ^ {- 1} \\ T _ {\mathrm {F e} _ {3} \mathrm {O} _ {4} / \mathrm {K} _ {2} \mathrm {C r} _ {2} \mathrm {O} _ {7}} = \frac {0.01500 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times 231.5 \mathrm {g} \cdot \mathrm {m o l} ^ {- 1} \times 2}{1000 \mathrm {m L} \cdot \mathrm {L} ^ {- 1}} \\ = 0.006945 \mathrm {g} ^ {*} \mathrm {m L} ^ {- 1} \\ \end{array}
 $$
 
 例8测定氮肥中 $\mathrm{NH_3}$ 的含量。称取试样 $1.6160\mathrm{g}$ ，溶解后在 $250.0~\mathrm{mL}$ 容量瓶中定
@@ -758,13 +758,13 @@ $$
 $$
 
 $$
-c _ {\mathrm {H} _ {2} \mathrm {S O} _ {4}} = \frac {1}{2} c _ {\frac {1}{2} \mathrm {H} _ {2} \mathrm {S O} _ {4}} = \frac {1}{2} \times 0. 1 0 2 0 \mathrm {m o l} ^ {*} \mathrm {L} ^ {- 1} = 0. 0 5 1 0 0 \mathrm {m o l} ^ {*} \mathrm {L} ^ {- 1}
+c _ {\mathrm {H} _ {2} \mathrm {S O} _ {4}} = \frac {1}{2} c _ {\frac {1}{2} \mathrm {H} _ {2} \mathrm {S O} _ {4}} = \frac {1}{2} \times 0.1020 \mathrm {m o l} ^ {*} \mathrm {L} ^ {- 1} = 0.05100 \mathrm {m o l} ^ {*} \mathrm {L} ^ {- 1}
 $$
 
 在化学计量点时 $n_{\mathrm{NH_3}} = 2\left(n_{\mathrm{H_2SO_4}} - \frac{1}{2} n_{\mathrm{NaOH}}\right)$
 
 $$
-\begin{array}{l} w_{\mathrm{NH_3}} = \frac{2\left(n_{\mathrm{H_2SO_4}} - \frac{1}{2}n_{\mathrm{NaOH}}\right)\times M_{\mathrm{NH_3}}}{m_{\mathrm{s}}\times\frac{25}{250}}\times 100\% \\ = \left[ 2 \left(0. 0 5 1 0 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times 4 0. 0 0 \mathrm {m L} - \frac {1}{2} \times 0. 0 9 6 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times 1 7. 0 0 \mathrm {m L}\right) \times \right. \\ 17.03\mathrm{g}\bullet \mathrm{mol}^{-1}\bigg{/}\Big(1.6160\mathrm{g}\times \frac{1}{10}\times 1000\mathrm{mL}\bullet \mathrm{L}^{-1}\Big)\times 100\% \\ = 25.79 \% \\ \end{array}
+\begin{array}{l} w_{\mathrm{NH_3}} = \frac{2\left(n_{\mathrm{H_2SO_4}} - \frac{1}{2}n_{\mathrm{NaOH}}\right)\times M_{\mathrm{NH_3}}}{m_{\mathrm{s}}\times\frac{25}{250}}\times 100\% \\ = \left[ 2 \left(0.05100 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times 40.00 \mathrm {m L} - \frac {1}{2} \times 0.0960 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times 17.00 \mathrm {m L}\right) \times \right. \\ 17.03\mathrm{g}\bullet \mathrm{mol}^{-1}\bigg{/}\Big(1.6160\mathrm{g}\times \frac{1}{10}\times 1000\mathrm{mL}\bullet \mathrm{L}^{-1}\Big)\times 100\% \\ = 25.79 \% \\ \end{array}
 $$
 
 若依据等物质的量规则计算，选择 $\frac{1}{2}\mathrm{H}_2\mathrm{SO}_4$ 为硫酸的基本单元，NaOH为氢氧化钠的基本单元，则
@@ -800,25 +800,25 @@ a. NaOH; b. HCl; c. $\mathrm{H}_2\mathrm{SO}_4$ ; d. NaCl; e. $\mathrm{Na_2S_2O_
 1. 称取纯金属锌 $0.3250\mathrm{g}$ ，溶于 $\mathrm{HCl}$ 溶液后，定量转移到 $250~\mathrm{mL}$ 容量瓶中，稀释定容，摇匀。计算 $\mathrm{Zn^{2+}}$ 溶液的浓度。
 
 $$
-(0. 0 1 9 8 8 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1})
+(0.01988 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1})
 $$
 
 2. 有 $0.0982\mathrm{mol}\cdot \mathrm{L}^{-1}$ 的 $\mathrm{H}_2\mathrm{SO}_4$ 溶液 $480~\mathrm{mL}$ ，现欲使其浓度增至 $0.1000\mathrm{mol}\cdot \mathrm{L}^{-1}$ ，则应加入 $0.5000\mathrm{mol}\cdot \mathrm{L}^{-1}$ 的 $\mathrm{H}_2\mathrm{SO}_4$ 溶液多少毫升？
 
 $$
-(2. 1 6 \mathrm {m L})
+(2.16 \mathrm {m L})
 $$
 
 3. 在 $500 \mathrm{~mL}$ 溶液中，含有 $9.21 \mathrm{~g} \mathrm{~K}_{4} \mathrm{Fe}(\mathrm{CN})_{6}$ 。计算该溶液的浓度及在以下反应中对 $\mathrm{Zn}^{2+}$ 的滴定度：
 
 $$
-\begin{array}{l} 3 \mathrm {Z n} ^ {2 +} + 2 \left[ \mathrm {F e} (\mathrm {C N}) _ {6} \right] ^ {4 -} + 2 \mathrm {K} ^ {+} = \mathrm {K} _ {2} \mathrm {Z n} _ {3} \left[ \mathrm {F e} (\mathrm {C N}) _ {6} \right] _ {2} \\ (0. 0 5 0 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}, 4. 9 0 \mathrm {m g} \cdot \mathrm {m L} ^ {- 1}) \\ \end{array}
+\begin{array}{l} 3 \mathrm {Z n} ^ {2 +} + 2 \left[ \mathrm {F e} (\mathrm {C N}) _ {6} \right] ^ {4 -} + 2 \mathrm {K} ^ {+} = \mathrm {K} _ {2} \mathrm {Z n} _ {3} \left[ \mathrm {F e} (\mathrm {C N}) _ {6} \right] _ {2} \\ (0.0500 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}, 4.90 \mathrm {m g} \cdot \mathrm {m L} ^ {- 1}) \\ \end{array}
 $$
 
 4. 要求在滴定时消耗 $0.2\mathrm{mol}\cdot \mathrm{L}^{-1}\mathrm{NaOH}$ 溶液 $25\sim 30~\mathrm{mL}$ ，应称取基准物质邻苯二甲酸氢钾多少克？如果改用二水合草酸作基准物质，则应称取多少克？
 
 $$
-(1. 0 \sim 1. 2 \mathrm {g}, 0. 3 \sim 0. 4 \mathrm {g})
+(1.0 \sim 1.2 \mathrm {g}, 0.3 \sim 0.4 \mathrm {g})
 $$
 
 5. 含S有机试样 $0.471\mathrm{g}$ ，在氧气中燃烧使S氧化为 $\mathrm{SO}_2$ ，用预中和过的 $\mathrm{H}_2\mathrm{O}_2$ 将 $\mathrm{SO}_2$ 吸收，全部转化为 $\mathrm{H}_2\mathrm{SO}_4$ ，以 $0.108\mathrm{mol}\cdot\mathrm{L}^{-1}$ KOH标准溶液滴定至化学计量点，消耗 $28.2\mathrm{mL}$ 。计算试样中S的质量分数。
@@ -848,13 +848,13 @@ $$
 9. 已知在酸性溶液中， $\mathrm{Fe}^{2+}$ 与 $\mathrm{KMnO}_4$ 反应时， $1.00 \mathrm{~mL} \mathrm{KMnO}_4$ 溶液相当于 $0.1117 \mathrm{~g} \mathrm{Fe}$ ，而 $1.00 \mathrm{~mL} \mathrm{KHC}_2 \mathrm{O}_4 \cdot \mathrm{H}_2 \mathrm{C}_2 \mathrm{O}_4$ 溶液在酸性介质中恰好与 $0.20 \mathrm{~mL}$ 上述 $\mathrm{KMnO}_4$ 溶液完全反应，则需要多少毫升 $0.2000 \mathrm{~mol} \cdot \mathrm{L}^{-1} \mathrm{NaOH}$ 溶液才能与上述 $1.00 \mathrm{~mL} \mathrm{KHC}_2 \mathrm{O}_4 \cdot \mathrm{H}_2 \mathrm{C}_2 \mathrm{O}_4$ 溶液完全中和？
 
 $$
-(1. 5 0 \mathrm {m L})
+(1.50 \mathrm {m L})
 $$
 
 10. 用纯 $\mathrm{As_2O_3}$ 标定 $\mathrm{KMnO}_4$ 溶液的浓度。若 $0.2112\mathrm{g}\mathrm{As_2O_3}$ 在酸性溶液中恰好与 $36.42\mathrm{mL}\mathrm{KMnO}_4$ 溶液反应，则该 $\mathrm{KMnO}_4$ 溶液的浓度是多少？
 
 $$
-(0. 0 2 3 4 5 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1})
+(0.02345 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1})
 $$
 
 11. 称取大理石试样 $0.2303\mathrm{g}$ ，溶于酸中，调节酸度后加入过量 $\mathrm{(NH_4)_2C_2O_4}$ 溶液，使 $\mathrm{Ca^{2+}}$ 沉淀为 $\mathrm{CaC_2O_4}$ 。过滤、洗净，将沉淀溶于稀 $\mathrm{H_2SO_4}$ 中。溶解后的溶液用浓度为 $c_{\frac{1}{5}\mathrm{KMnO}_4} = 0.2012\mathrm{mol}\cdot \mathrm{L}^{-1}$ 的 $\mathrm{KMnO_4}$ 标准溶液滴定，消耗 $22.30~\mathrm{mL}$ 。计算大理石中 $\mathrm{CaCO_3}$ 的质量分数。
@@ -872,7 +872,7 @@ $$
 13. 计算质量浓度为 $5.442\mathrm{g}\cdot \mathrm{L}^{-1}$ 的 $\mathrm{K_2Cr_2O_7}$ 标准溶液的物质的量浓度，以及该溶液对 $\mathrm{Fe}_3\mathrm{O}_4(M = 231.54\mathrm{g}\bullet \mathrm{mol}^{-1})$ 的滴定度（ $\mathrm{(mg*mL^{-1})}$ 。
 
 $$
-(0. 0 1 8 5 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}, 8. 5 6 7 \mathrm {m g} \cdot \mathrm {m L} ^ {- 1})
+(0.01850 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}, 8.567 \mathrm {m g} \cdot \mathrm {m L} ^ {- 1})
 $$
 
 14. $0.200\mathrm{g}$ 某含锰试样中锰含量的分析过程如下：加入 $50.0\mathrm{mL}0.100\mathrm{mol}\cdot \mathrm{L}^{-1}$ $(\mathrm{NH}_4)_2\mathrm{Fe}(\mathrm{SO}_4)_2$ 标准溶液还原 $\mathrm{MnO_2}$ 到 $\mathrm{Mn^{2 + }}$ ，完全反应后，过量的 $\mathrm{Fe^{2 + }}$ 在酸性溶液中被 $0.0200\mathrm{mol}\cdot \mathrm{L}^{-1}\mathrm{KMnO}_4$ 标准溶液滴定，需 $\mathrm{KMnO_4}$ 溶液 $15.0\mathrm{mL}$ 。以 $\mathrm{Mn_3O_4}(M = 228.8\mathrm{g}\cdot$ $\mathrm{mol}^{-1})$ 的形式计算该试样中锰的含量。
@@ -1195,7 +1195,7 @@ $$
 若分析结果的计算式为 $R = m\lg A$ ，则
 
 $$
-E _ {R} = 0. 4 3 4 m \frac {E _ {A}}{A} \tag {3-11}
+E _ {R} = 0.434 m \frac {E _ {A}}{A} \tag {3-11}
 $$
 
 即分析结果的绝对系统误差为测量值的相对系统误差的 $0.434m$ 倍。
@@ -1255,7 +1255,7 @@ $$
 若分析结果的计算式为 $R = m\lg A$ ，则
 
 $$
-s _ {R} = 0. 4 3 4 m \frac {s _ {A}}{A} \tag {3-15}
+s _ {R} = 0.434 m \frac {s _ {A}}{A} \tag {3-15}
 $$
 
 即分析结果的标准偏差为测量值相对标准偏差的 $0.434m$ 倍。
@@ -1271,7 +1271,7 @@ $$
 读取称量 $m_{1}$ 和 $m_{2}$ 时平衡点的偏差，都要反映到 $m$ 中去。因此，根据(3-12a)式，求得
 
 $$
-s _ {m} = \sqrt {s _ {1} ^ {2} + s _ {2} ^ {2}} = \sqrt {2 s ^ {2}} = 0. 1 4 \mathrm {m g}
+s _ {m} = \sqrt {s _ {1} ^ {2} + s _ {2} ^ {2}} = \sqrt {2 s ^ {2}} = 0.14 \mathrm {m g}
 $$
 
 例4用 $0.1000\mathrm{mol}\cdot \mathrm{L}^{-1}(c_2)\mathrm{HCl}$ 标准溶液标定 $20.00~\mathrm{mL}(V_{1})$ NaOH溶液的浓度，耗去HCl $25.00\mathrm{mL}(V_{2})$ ，已知用移液管量取溶液时的标准偏差为 $s_1 = 0.02\mathrm{mL}$ ，每次读取滴定管读数时的标准偏差为 $s_2 = 0.01\mathrm{mL}$ ，假设HCl溶液的浓度是准确的，计算NaOH溶液的浓度。
@@ -1279,7 +1279,7 @@ $$
 解 首先计算 $\mathrm{NaOH}$ 溶液的浓度 $(c_{1})$
 
 $$
-c _ {1} = \frac {c _ {2} V _ {2}}{V _ {1}} = \frac {0 . 1 0 0 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times 2 5 . 0 0 \mathrm {m L}}{2 0 . 0 0 \mathrm {m L}} = 0. 1 2 5 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
+c _ {1} = \frac {c _ {2} V _ {2}}{V _ {1}} = \frac {0.1000 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times 25.00 \mathrm {m L}}{20.00 \mathrm {m L}} = 0.1250 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
 $$
 
 $V_{1}$ 及 $V_{2}$ 的偏差对 $c_{1}$ 的影响，以随机误差的乘除法运算方式传递，且滴定管有两次读数误差。
@@ -1287,19 +1287,19 @@ $V_{1}$ 及 $V_{2}$ 的偏差对 $c_{1}$ 的影响，以随机误差的乘除法
 移液管体积 $V_{1}$ 的标准偏差：
 
 $$
-s _ {V _ {1}} = s _ {1} = 0. 0 2
+s _ {V _ {1}} = s _ {1} = 0.02
 $$
 
 滴定管体积 $V_{2}$ 的标准偏差：
 
 $$
-s _ {V _ {2}} ^ {2} = s _ {2} ^ {2} + s _ {2} ^ {2} = 0. 0 1 ^ {2} + 0. 0 1 ^ {2} = 2 \times 0. 0 1 ^ {2}
+s _ {V _ {2}} ^ {2} = s _ {2} ^ {2} + s _ {2} ^ {2} = 0.01 ^ {2} + 0.01 ^ {2} = 2 \times 0.01 ^ {2}
 $$
 
 以上两项标准偏差传递至计算结果 $c_{1}$ 的标准偏差 $s_{c_1}$ 为
 
 $$
-\begin{array}{l} \frac {s _ {x _ {1}} ^ {2}}{c _ {1} ^ {2}} = \frac {s _ {V _ {1}} ^ {2}}{V _ {1} ^ {2}} + \frac {s _ {V _ {2}} ^ {2}}{V _ {2} ^ {2}} = \frac {0 . 0 2 ^ {2}}{2 0 . 0 0 ^ {2}} + \frac {2 \times 0 . 0 1 ^ {2}}{2 5 . 0 0 ^ {2}} = 1. 3 2 \times 1 0 ^ {- 6} \\ s _ {c _ {1}} ^ {2} = c _ {1} ^ {2} \times 1. 3 2 \times 1 0 ^ {- 6} = 0. 1 2 5 0 ^ {2} \times 1. 3 2 \times 1 0 ^ {- 6} = 2. 0 6 \times 1 0 ^ {- 8} \\ s _ {c 1} = 0. 0 0 0 1 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ c _ {1} = (0. 1 2 5 0 \pm 0. 0 0 0 1) \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \end{array}
+\begin{array}{l} \frac {s _ {x _ {1}} ^ {2}}{c _ {1} ^ {2}} = \frac {s _ {V _ {1}} ^ {2}}{V _ {1} ^ {2}} + \frac {s _ {V _ {2}} ^ {2}}{V _ {2} ^ {2}} = \frac {0.02 ^ {2}}{20.00 ^ {2}} + \frac {2 \times 0.01 ^ {2}}{25.00 ^ {2}} = 1.32 \times 10 ^ {- 6} \\ s _ {c _ {1}} ^ {2} = c _ {1} ^ {2} \times 1.32 \times 10 ^ {- 6} = 0.1250 ^ {2} \times 1.32 \times 10 ^ {- 6} = 2.06 \times 10 ^ {- 8} \\ s _ {c 1} = 0.0001 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ c _ {1} = (0.1250 \pm 0.0001) \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \end{array}
 $$
 
 # 3. 极值误差
@@ -1393,13 +1393,13 @@ e. 在分析化学中还经常遇到 $\mathrm{pH}, \mathrm{pM}, \lg K$ 等对数
 几个数据相加减时，有效数字位数的保留，应以小数点后位数最少的数据为准，其他的数据均修约到这一位。其根据是小数点后位数最少的那个数的绝对误差最大。如
 
 $$
-0. 0 1 2 1 + 2 5. 6 4 + 1. 0 5 7 8 2 = ?
+0.0121 + 25.64 + 1.05782 = ?
 $$
 
 由于每个数据中最后一位数有 $\pm 1$ 的绝对误差，即 $0.0121 \pm 0.0001, 25.64 \pm 0.01, 1.05782 \pm 0.00001$ ，其中以小数点后位数最少的25.64的绝对误差最大，在加和的结果中总的绝对误差取决于该数，所以有效数字位数应以它为准，先修约再计算：
 
 $$
-0. 0 1 + 2 5. 6 4 + 1. 0 6 = 2 6. 7 1
+0.01 + 25.64 + 1.06 = 26.71
 $$
 
 # 2. 乘除法
@@ -1407,7 +1407,7 @@ $$
 几个数据相乘除时，有效数字的位数应以几个数中有效数字位数最少的那个数据为准。其根据是有效数字位数最少的那个数的相对误差最大。如
 
 $$
-0. 0 1 2 1 \times 2 5. 6 4 \times 1. 0 5 7 8 2 =?
+0.0121 \times 25.64 \times 1.05782 =?
 $$
 
 这三个数的相对误差分别为
@@ -1419,7 +1419,7 @@ $$
 因0.0121的相对误差最大，所以应以此数的位数为标准将其他各数均修约为三位有效数字，然后再计算，即
 
 $$
-0. 0 1 2 1 \times 2 5. 6 \times 1. 0 6 = 0. 3 2 8
+0.0121 \times 25.6 \times 1.06 = 0.328
 $$
 
 在乘除法的运算中，经常会遇到9以上的大数，如9.00、9.86等。它们的相对误差的绝对值约为 $0.1\%$ ，与10.06和12.08这些四位有效数字的数值的相对误差绝对值接近，所以通常将它们当做四位有效数字的数值处理。
@@ -1484,7 +1484,7 @@ $$
 用统计学方法可以证明，当测定次数非常多（大于20）时，总体标准偏差与总体平均偏差有下列关系：
 
 $$
-\delta = 0. 7 9 7 \sigma \approx 0. 8 0 \sigma \tag {3-21}
+\delta = 0.797 \sigma \approx 0.80 \sigma \tag {3-21}
 $$
 
 # 2. 正态分布
@@ -1606,7 +1606,7 @@ $$
 查表3-2知： $u = 0.5$ ，面积为0.1915； $u = 1.5$ ，面积为0.4332。那么在 $-0.5\leq u\leq$ 1.5区间的总面积即为 $x$ 在区间 $(\mu -0.5\sigma ,\mu +1.5\sigma)$ 出现的概率，其值为
 
 $$
-P = 0. 1 9 1 5 + 0. 4 3 3 2 = 0. 6 2 4 7
+P = 0.1915 + 0.4332 = 0.6247
 $$
 
 所以 $x$ 在区间 $(\mu - 0.5\sigma, \mu + 1.5\sigma)$ 出现的概率为 $62.47\%$
@@ -1856,7 +1856,7 @@ $$
 查表 $3 - 4,f_{\text{大}} = 2,f_{\text{小}} = 3,F_{\text{表}} = 9.55,F <   F_{\text{表}}$ ，说明两组数据的精密度没有显著性差异，故求得合并标准偏差为
 
 $$
-\begin{array}{l} s = \sqrt{\frac{s_{1}^{2}(n_{1} - 1) + s_{2}^{2}(n_{2} - 1)}{(n_{1} - 1) + (n_{2} - 1)}} = 0.019\% \\ t = \frac {\left| \overline {{x}} _ {1} - \overline {{x}} _ {2} \right|}{s} \sqrt {\frac {n _ {1} n _ {2}}{n _ {1} + n _ {2}}} = \frac {\left| 1 . 24 \% - 1 . 33 \% \right|}{0 . 019 \%} \sqrt {\frac {3 \times 4}{3 + 4}} = 6.20 \\ \end{array}
+\begin{array}{l} s = \sqrt{\frac{s_{1}^{2}(n_{1} - 1) + s_{2}^{2}(n_{2} - 1)}{(n_{1} - 1) + (n_{2} - 1)}} = 0.019\% \\ t = \frac {\left| \overline {{x}} _ {1} - \overline {{x}} _ {2} \right|}{s} \sqrt {\frac {n _ {1} n _ {2}}{n _ {1} + n _ {2}}} = \frac {\left| 1.24 \% - 1.33 \% \right|}{0.019 \%} \sqrt {\frac {3 \times 4}{3 + 4}} = 6.20 \\ \end{array}
 $$
 
 查表3-3，当 $P = 0.90, f = n_{1} + n_{2} - 2 = 5$ 时， $t_{0.10.5} = 2.02$ 。 $t > t_{0.10.5}$ ，故两种分析方法之间存在显著性差异。
@@ -1866,7 +1866,7 @@ $$
 解 在本例中，已知新仪器的性能较好，它的精密度不会比旧仪器的差，因此，这属于单边检验问题。
 
 $$
-F = \frac {s _ {\text {大}} ^ {2}}{s _ {\text {小}} ^ {2}} = \frac {0 . 0 5 5 ^ {2}}{0 . 0 2 2 ^ {2}} = \frac {0 . 0 0 3 0}{0 . 0 0 0 4 8} = 6. 2 5
+F = \frac {s _ {\text {大}} ^ {2}}{s _ {\text {小}} ^ {2}} = \frac {0.055 ^ {2}}{0.022 ^ {2}} = \frac {0.0030}{0.00048} = 6.25
 $$
 
 查表 $3 - 4, f_{\text{大}} = 6 - 1 = 5, f_{\text{小}} = 4 - 1 = 3, F_{\text{表}} = 9.01, F < F_{\text{表}}$ ，故有 $95\%$ 的把握认为两种仪器的精密度之间不存在统计学上的显著性差异，即不能做出新仪器显著地优于旧仪器的结论。
@@ -1900,13 +1900,13 @@ $$
 解 除1.40外的其余数据的平均值 $\overline{x}$ 和平均偏差 $\bar{d}$ 为
 
 $$
-\bar {x} = 1. 2 8 \quad \bar {d} = 0. 0 2 3
+\bar {x} = 1.28 \quad \bar {d} = 0.023
 $$
 
 可疑值与平均值之差的绝对值为
 
 $$
-\vert 1. 4 0 - 1. 2 8 \vert = 0. 1 2 > 4 \bar {d} (0. 0 9 2)
+\vert 1.40 - 1.28 \vert = 0.12 > 4 \bar {d} (0.092)
 $$
 
 故1.40这一数据应舍去。
@@ -1964,11 +1964,11 @@ $$
 解
 
 $$
-\bar {x} = 1. 3 1 \quad s = 0. 0 6 6
+\bar {x} = 1.31 \quad s = 0.066
 $$
 
 $$
-T = \frac {x _ {n} - \overline {{x}}}{s} = \frac {1 . 4 0 - 1 . 3 1}{0 . 0 6 6} = 1. 3 6
+T = \frac {x _ {n} - \overline {{x}}}{s} = \frac {1.40 - 1.31}{0.066} = 1.36
 $$
 
 查表 $3 - 6, T_{0.05,4} = 1.46, T < T_{0.05,4}$ ，故1.40这个数据应保留。此结论与用 $4\overline{d}$ 法判断所得结论不同，在这种情况下，一般取格鲁布斯法的结论，因这种方法的可靠性较高。
@@ -2024,23 +2024,23 @@ $$
 先按（3-40）及（3-41）式计算回归系数 $a, b$ 值， $n = 7$ 。
 
 $$
-\overline {{x}} = 0. 0 6 \quad \overline {{y}} = 0. 2 7 5 \quad \sum_ {i = 1} ^ {7} (x _ {i} - \overline {{x}}) (y _ {i} - \overline {{y}}) = 0. 0 4 4 2
+\overline {{x}} = 0.06 \quad \overline {{y}} = 0.275 \quad \sum_ {i = 1} ^ {7} (x _ {i} - \overline {{x}}) (y _ {i} - \overline {{y}}) = 0.0442
 $$
 
 $$
-\sum_ {i = 1} ^ {7} \left(x _ {i} - \bar {x}\right) ^ {2} = 0. 0 1 1 2
+\sum_ {i = 1} ^ {7} \left(x _ {i} - \bar {x}\right) ^ {2} = 0.0112
 $$
 
 故 $b = \frac{\sum_{i = 1}^{7}(x_i - \overline{x})\cdot(y_i - \overline{y})}{\sum_{i = 1}^{7}(x_i - \overline{x})^2} = \frac{0.0442}{0.0112} = 3.95$
 
 $$
-a = \bar {y} - b \bar {x} = 0. 2 7 5 - 3. 9 5 \times 0. 0 6 = 0. 0 3 8
+a = \bar {y} - b \bar {x} = 0.275 - 3.95 \times 0.06 = 0.038
 $$
 
 该标准曲线的回归方程为
 
 $$
-y = 0. 0 3 8 + 3. 9 5 x
+y = 0.038 + 3.95 x
 $$
 
 未知试样的吸光度为 $y = 0.242, x = \frac{0.242 - 0.038}{3.95} = 0.052$ 。故未知试样中 $\mathrm{Mn}$ 的含量为 $0.052\mu \mathrm{g}$ 。
@@ -2072,7 +2072,7 @@ c. 当 $r$ 值在 0 至 1 之间时, 表示两变量 $y$ 与 $x$ 之间存在相
 解 按（3-42）式
 
 $$
-r = b \sqrt {\frac {\sum_ {i = 1} ^ {n} (x _ {i} - \overline {{x}}) ^ {2}}{\sum_ {i = 1} ^ {n} (y _ {i} - \overline {{y}}) ^ {2}}} = 3. 9 5 \sqrt {\frac {0 . 0 1 1 2}{0 . 1 7 5}} = 0. 9 9 9 3
+r = b \sqrt {\frac {\sum_ {i = 1} ^ {n} (x _ {i} - \overline {{x}}) ^ {2}}{\sum_ {i = 1} ^ {n} (y _ {i} - \overline {{y}}) ^ {2}}} = 3.95 \sqrt {\frac {0.0112}{0.175}} = 0.9993
 $$
 
 查表 $3 - 7,r_{99\% ,5} = 0.875 <   r_{\text{计算}}$ ，故该标准曲线具有很好的线性关系。
@@ -2098,7 +2098,7 @@ $$
 $$
 
 $$
-\text {试 样 质 量} = \frac {\text {绝 对 误 差}}{\text {相 对 误 差}} = \frac {0 . 0 0 0 2 \mathrm {g}}{0 . 0 0 1} = 0. 2 \mathrm {g}
+\text {试 样 质 量} = \frac {\text {绝 对 误 差}}{\text {相 对 误 差}} = \frac {0.0002 \mathrm {g}}{0.001} = 0.2 \mathrm {g}
 $$
 
 可见试样质量必须在 $0.2\mathrm{g}$ 以上。
@@ -2188,7 +2188,7 @@ b. $3.6 \times 0.0323 \times 20.59 \times 2.12345$ ;
 d. $\mathrm{pH} = 0.06$ ，求 $\mathrm{H^{+}}$ 的浓度。
 
 $$
-(a. 2 3. 5 1; b. 5. 1; c. 0. 1 2 7 1; d. 0. 8 7 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1})
+(a. 23.51; b. 5.1; c. 0.1271; d. 0.87 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1})
 $$
 
 2. 返滴定法测定试样中某组分含量时，按下式计算：
@@ -2307,7 +2307,7 @@ a. 列出一元线性回归方程；
 b. 求相关系数并评价 $y$ 与 $x$ 间的相关关系。
 
 $$
-(a. y = 1. 5 2 + 1. 9 3 x; b. r = 0. 9 9 8 9)
+(a. y = 1.52 + 1.93 x; b. r = 0.9989)
 $$
 
 21. 用巯基乙酸法进行亚铁离子的分光光度法测定，在波长 $605\mathrm{nm}$ 测定试样溶液的吸光度，所得数据如下：
@@ -2319,7 +2319,7 @@ b. 求未知液中Fe含量；
 c. 求相关系数。
 
 $$
-(a. y = 0. 0 2 5 + 0. 2 5 5 x; b. 0. 7 1 \mathrm {m g}; c. r = 0. 9 9 9 8)
+(a. y = 0.025 + 0.255 x; b. 0.71 \mathrm {m g}; c. r = 0.9998)
 $$
 
 # 第5章 酸碱滴定法
@@ -2343,13 +2343,13 @@ $$
 可以采用德拜-休克尔(Debye-Hückel)公式来计算，即
 
 $$
-- \lg \gamma_ {i} = 0. 5 1 z _ {i} ^ {2} \left(\frac {\sqrt {I}}{1 + B \dot {a} \sqrt {I}}\right) \tag {5-2}
+- \lg \gamma_ {i} = 0.51 z _ {i} ^ {2} \left(\frac {\sqrt {I}}{1 + B \dot {a} \sqrt {I}}\right) \tag {5-2}
 $$
 
 式中， $z_{i}$ 为 $i$ 离子的电荷数； $B$ 是常数， $25^{\circ}C$ 时为0.00328； $\dot{a}$ 为离子体积参数，约等于水化离子的有效半径，以 $\mathrm{pm}(10^{-12}\mathrm{m})$ 计，一些常见离子的 $\dot{a}$ 值列于附录表3中； $I$ 为溶液的离子强度(ionicstrength）。当离子强度较小时，可不考虑水化离子的大小，活度系数可按德拜-休克尔极限式计算，即
 
 $$
-- \lg \gamma_ {i} = 0. 5 1 z _ {i} ^ {2} \sqrt {I} \tag {5-3}
+- \lg \gamma_ {i} = 0.51 z _ {i} ^ {2} \sqrt {I} \tag {5-3}
 $$
 
 在进行近似计算时也可采用此公式。
@@ -2365,13 +2365,13 @@ $$
 解
 
 $$
-\begin{array}{l} I = \frac {1}{2} \sum c _ {i} z _ {i} ^ {2} = \frac {1}{2} ([ H ^ {+} ] z _ {H ^ {+}} ^ {2} + [ C l ^ {-} ] z _ {C l ^ {-}} ^ {2}) = \frac {1}{2} \times 0. 1 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times 1 ^ {2} + \\ \frac {1}{2} \times 0. 1 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times \mathrm {I} ^ {2} = 0. 1 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \end{array}
+\begin{array}{l} I = \frac {1}{2} \sum c _ {i} z _ {i} ^ {2} = \frac {1}{2} ([ H ^ {+} ] z _ {H ^ {+}} ^ {2} + [ C l ^ {-} ] z _ {C l ^ {-}} ^ {2}) = \frac {1}{2} \times 0.10 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times 1 ^ {2} + \\ \frac {1}{2} \times 0.10 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times \mathrm {I} ^ {2} = 0.10 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \end{array}
 $$
 
 查附录表3得 $\mathrm{H}^+$ 的 $\dot{a} = 900\mathrm{pm}$ ，根据（5-2）式可知
 
 $$
-\begin{array}{l} - \lg \gamma_ {\mathrm {H} ^ {+}} = 0. 5 1 \times 1 ^ {2} \times \left(\frac {\sqrt {0 . 1 0}}{1 + 0 . 0 0 3 2 8 \times 9 0 0 \times \sqrt {0 . 1 0}}\right) \\ = 0. 0 8 4 \\ \end{array}
+\begin{array}{l} - \lg \gamma_ {\mathrm {H} ^ {+}} = 0.51 \times 1 ^ {2} \times \left(\frac {\sqrt {0.10}}{1 + 0.00328 \times 900 \times \sqrt {0.10}}\right) \\ = 0.084 \\ \end{array}
 $$
 
 即 $\gamma_{\mathrm{H}^{+}} = 0.83$
@@ -2381,33 +2381,33 @@ $$
 解
 
 $$
-I = \frac {1}{2} \sum c _ {i} z _ {i} ^ {2} = \frac {1}{2} (0. 0 1 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times 3 ^ {2} + 3 \times 0. 0 1 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times 1 ^ {2}) = 0. 0 6 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
+I = \frac {1}{2} \sum c _ {i} z _ {i} ^ {2} = \frac {1}{2} (0.010 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times 3 ^ {2} + 3 \times 0.010 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times 1 ^ {2}) = 0.060 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
 $$
 
 查附录表3得 $\mathrm{Cl^-}$ 的 $\dot{a} = 300\mathrm{pm}$ ，根据（5-2）式可知
 
 $$
-- \lg \gamma_ {\mathrm {C l} ^ {-}} = 0. 5 1 \times 1 ^ {2} \times \left(\frac {\sqrt {0 . 0 6 0}}{1 + 0 . 0 0 3 2 8 \times 3 0 0 \times \sqrt {0 . 0 6 0}}\right) = 0. 1 0
+- \lg \gamma_ {\mathrm {C l} ^ {-}} = 0.51 \times 1 ^ {2} \times \left(\frac {\sqrt {0.060}}{1 + 0.00328 \times 300 \times \sqrt {0.060}}\right) = 0.10
 $$
 
 故
 
 $$
-\gamma_ {\mathrm {C l} ^ {-}} = 0. 7 8
+\gamma_ {\mathrm {C l} ^ {-}} = 0.78
 $$
 
 $$
-a _ {\mathrm {C l} ^ {-}} = \gamma_ {\mathrm {C l} ^ {-}} \left[ \mathrm {C l} ^ {-} \right] = 0. 7 8 \times 3 \times 0. 0 1 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} = 0. 0 2 3 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
+a _ {\mathrm {C l} ^ {-}} = \gamma_ {\mathrm {C l} ^ {-}} \left[ \mathrm {C l} ^ {-} \right] = 0.78 \times 3 \times 0.010 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} = 0.023 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
 $$
 
 对于 $\mathrm{Al}^{3+}$ , $\dot{a} = 900\mathrm{pm}$ , 故
 
 $$
-\begin{array}{l} - \lg \gamma_ {\mathrm {A l} ^ {3 +}} = 0. 5 1 \times 3 ^ {2} \times \left(\frac {\sqrt {0 . 0 6 0}}{1 + 0 . 0 0 3 2 8 \times 9 0 0 \times \sqrt {0 . 0 6 0}}\right) = 0. 6 5 \\ \gamma_ {\mathrm {A l} ^ {3 +}} = 0. 2 2 \\ \end{array}
+\begin{array}{l} - \lg \gamma_ {\mathrm {A l} ^ {3 +}} = 0.51 \times 3 ^ {2} \times \left(\frac {\sqrt {0.060}}{1 + 0.00328 \times 900 \times \sqrt {0.060}}\right) = 0.65 \\ \gamma_ {\mathrm {A l} ^ {3 +}} = 0.22 \\ \end{array}
 $$
 
 $$
-a _ {\mathrm {A l} ^ {3 +}} = \gamma_ {\mathrm {A l} ^ {3 +}} \left[ \mathrm {A l} ^ {3 +} \right] = 0. 2 2 \times 0. 0 1 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} = 0. 0 0 2 2 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
+a _ {\mathrm {A l} ^ {3 +}} = \gamma_ {\mathrm {A l} ^ {3 +}} \left[ \mathrm {A l} ^ {3 +} \right] = 0.22 \times 0.010 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} = 0.0022 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
 $$
 
 比较 $\gamma_{\mathrm{Al}^{3+}}$ 和 $\gamma_{\mathrm{Cl}^{-}}$ 可知离子强度对高价离子的影响要大得多。
@@ -2427,7 +2427,7 @@ $$
 $$
 
 $$
-K _ {\mathrm {w}} = \left[ \mathrm {H} ^ {+} \right] \left[ \mathrm {O H} ^ {-} \right] = 1 \times 1 0 ^ {- 1 4} (2 5 ° C)
+K _ {\mathrm {w}} = \left[ \mathrm {H} ^ {+} \right] \left[ \mathrm {O H} ^ {-} \right] = 1 \times 10 ^ {- 14} (25 ° C)
 $$
 
 $$
@@ -2435,7 +2435,7 @@ $$
 $$
 
 $$
-K _ {\mathrm {s}} = \left[ \mathrm {C} _ {2} \mathrm {H} _ {5} \mathrm {O H} _ {2} ^ {+} \right] \left[ \mathrm {C} _ {2} \mathrm {H} _ {5} \mathrm {O} ^ {-} \right] = 1 \times 1 0 ^ {- 1 9}
+K _ {\mathrm {s}} = \left[ \mathrm {C} _ {2} \mathrm {H} _ {5} \mathrm {O H} _ {2} ^ {+} \right] \left[ \mathrm {C} _ {2} \mathrm {H} _ {5} \mathrm {O} ^ {-} \right] = 1 \times 10 ^ {- 19}
 $$
 
 其平衡常数称为溶剂分子的质子自递常数。
@@ -2449,11 +2449,11 @@ $$
 $$
 
 $$
-\mathrm {H F} + \mathrm {H} _ {2} \mathrm {O} \rightleftharpoons \mathrm {F} ^ {-} + \mathrm {H} _ {3} \mathrm {O} ^ {+} \quad K _ {\mathrm {a}} = [ \mathrm {F} ^ {-} ] [ \mathrm {H} _ {3} \mathrm {O} ^ {+} ] / [ \mathrm {H F} ] = 6. 6 \times 1 0 ^ {- 4}
+\mathrm {H F} + \mathrm {H} _ {2} \mathrm {O} \rightleftharpoons \mathrm {F} ^ {-} + \mathrm {H} _ {3} \mathrm {O} ^ {+} \quad K _ {\mathrm {a}} = [ \mathrm {F} ^ {-} ] [ \mathrm {H} _ {3} \mathrm {O} ^ {+} ] / [ \mathrm {H F} ] = 6.6 \times 10 ^ {- 4}
 $$
 
 $$
-\mathrm {N H} _ {3} + \mathrm {H} _ {2} \mathrm {O} \rightleftharpoons \mathrm {N H} _ {4} ^ {+} + \mathrm {O H} ^ {-} \quad K _ {\mathrm {b}} = \left[ \mathrm {N H} _ {4} ^ {+} \right]\left[ \mathrm {O H} ^ {-} \right] / \left[ \mathrm {N H} _ {3} \right] = 1. 8 \times 1 0 ^ {- 5}
+\mathrm {N H} _ {3} + \mathrm {H} _ {2} \mathrm {O} \rightleftharpoons \mathrm {N H} _ {4} ^ {+} + \mathrm {O H} ^ {-} \quad K _ {\mathrm {b}} = \left[ \mathrm {N H} _ {4} ^ {+} \right]\left[ \mathrm {O H} ^ {-} \right] / \left[ \mathrm {N H} _ {3} \right] = 1.8 \times 10 ^ {- 5}
 $$
 
 人们习惯将其中起碱作用的溶剂分子 $\mathrm{H}_2\mathrm{O}$ 省略掉，简写为
@@ -2655,7 +2655,7 @@ $$
 解 $\delta_{1} = \frac{[\mathrm{H}^{+}]}{[\mathrm{H}^{+}] + K_{n}} = \frac{1.0\times 10^{-5}}{1.0\times 10^{-5} + 1.8\times 10^{-5}} = 0.36$
 
 $$
-\delta_ {0} = 1 - 0. 3 6 = 0. 6 4
+\delta_ {0} = 1 - 0.36 = 0.64
 $$
 
 若将不同 $\mathrm{pH}$ 时的 $\delta_{1}$ 和 $\delta_0$ 计算出来，并对 $\mathrm{pH}$ 作图，可得如图5-1所示的曲线。由图可知， $\delta_0$ 随 $\mathrm{pH}$ 升高而增大， $\delta_{1}$ 随 $\mathrm{pH}$ 升高而减小。当 $\mathrm{pH} = \mathrm{pK}_{\mathrm{a}}$ （即4.74）时， $\delta_0 = \delta_1 = 0.50$ ，HAc与 $\mathrm{Ac}^{-}$ 各占一半； $\mathrm{pH} < \mathrm{pK}_{\mathrm{a}}$ ，主要存在型体是HAc； $\mathrm{pH} > \mathrm{pK}_{\mathrm{a}}$ ，主要存在型体是 $\mathrm{Ac}^{-}$ 。这种情况可以推广到其他一元酸。
@@ -2693,11 +2693,11 @@ $$
 解 $\delta_0 = \frac{[\mathrm{C}_2\mathrm{O}_4^{2 - }]}{c} = \frac{K_{a_1}K_{a_2}}{[\mathrm{H}^+]^{2} + K_{a_1}[\mathrm{H}^+] + K_{a_1}K_{a_2}}$
 
 $$
-\begin{array}{l} = \frac {5 . 9 \times 1 0 ^ {- 2} \times 6 . 4 \times 1 0 ^ {- 5}}{(1 . 0 \times 1 0 ^ {- 5}) ^ {2} + 5 . 9 \times 1 0 ^ {- 2} \times 1 . 0 \times 1 0 ^ {- 5} + 5 . 9 \times 1 0 ^ {- 2} \times 6 . 4 \times 1 0 ^ {- 5}} \\ = 0. 8 6 \\ \end{array}
+\begin{array}{l} = \frac {5.9 \times 10 ^ {- 2} \times 6.4 \times 10 ^ {- 5}}{(1.0 \times 10 ^ {- 5}) ^ {2} + 5.9 \times 10 ^ {- 2} \times 1.0 \times 10 ^ {- 5} + 5.9 \times 10 ^ {- 2} \times 6.4 \times 10 ^ {- 5}} \\ = 0.86 \\ \end{array}
 $$
 
 $$
-\left[ \mathrm {C} _ {2} \mathrm {O} _ {4} ^ {2 -} \right] = \delta_ {0} c = 0. 8 6 \times 0. 1 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} = 0. 0 8 6 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
+\left[ \mathrm {C} _ {2} \mathrm {O} _ {4} ^ {2 -} \right] = \delta_ {0} c = 0.86 \times 0.10 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} = 0.086 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
 $$
 
 如果是三元酸，如 $\mathrm{H}_3\mathrm{PO}_4$ ，则情况更复杂一些，但可采用同样的方法处理，得到各组分的分布分数为
@@ -2731,11 +2731,11 @@ $$
 解由于HCl浓度很稀，因此不能忽略水解离释放出的 $\mathrm{H^{+}}$ 。溶液的质子平衡方程为
 
 $$
-\left[ \mathrm {H} ^ {+} \right] = \left[ \mathrm {C l} ^ {-} \right] + \left[ \mathrm {O H} ^ {-} \right] \quad \text {即} \left[ \mathrm {H} ^ {+} \right] ^ {2} - \left[ \mathrm {C l} ^ {-} \right] \left[ \mathrm {H} ^ {+} \right] - 1. 0 \times 1 0 ^ {- 1 4} = 0
+\left[ \mathrm {H} ^ {+} \right] = \left[ \mathrm {C l} ^ {-} \right] + \left[ \mathrm {O H} ^ {-} \right] \quad \text {即} \left[ \mathrm {H} ^ {+} \right] ^ {2} - \left[ \mathrm {C l} ^ {-} \right] \left[ \mathrm {H} ^ {+} \right] - 1.0 \times 10 ^ {- 14} = 0
 $$
 
 $$
-\left[ \mathrm {H} ^ {+} \right] ^ {2} - 2. 0 \times 1 0 ^ {- 7} \left[ \mathrm {H} ^ {+} \right] - 1. 0 \times 1 0 ^ {- 1 4} = 0
+\left[ \mathrm {H} ^ {+} \right] ^ {2} - 2.0 \times 10 ^ {- 7} \left[ \mathrm {H} ^ {+} \right] - 1.0 \times 10 ^ {- 14} = 0
 $$
 
 解方程得 $\left[\mathrm{H}^{+}\right] = 2.4\times 10^{-7}\mathrm{mol}\cdot \mathrm{L}^{-1},\mathrm{pH} = 6.62$
@@ -2813,11 +2813,11 @@ $$
 解已知 $c = 0.10\mathrm{mol}\cdot \mathrm{L}^{-1}$ ，查表得乳酸的 $K_{\mathrm{a}} = 1.4\times 10^{-4},K_{\mathrm{a}}c > 10K_{\mathrm{w}}$ ，又因 $c / K_{\mathrm{a}}>$ 100，故采用最简式计算：
 
 $$
-\left[ \mathrm {H} ^ {+} \right] = \sqrt {K _ {\mathrm {a}} c} = \sqrt {1 . 4 \times 1 0 ^ {- 4} \times 0 . 1 0} = 3. 7 \times 1 0 ^ {- 3} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
+\left[ \mathrm {H} ^ {+} \right] = \sqrt {K _ {\mathrm {a}} c} = \sqrt {1.4 \times 10 ^ {- 4} \times 0.10} = 3.7 \times 10 ^ {- 3} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
 $$
 
 $$
-\mathrm {p H} = 2. 4 3
+\mathrm {p H} = 2.43
 $$
 
 例9 计算 $0.010\mathrm{mol}\cdot \mathrm{L}^{-1}$ 一氯乙酸 $\mathrm{(CH_2ClCOOH)}$ 溶液中的 $\mathrm{H^{+}}$ 浓度。
@@ -2829,7 +2829,7 @@ $$
 $$
 
 $$
-\begin{array}{l} = - \frac {1 . 4 0 \times 1 0 ^ {- 3}}{2} + \sqrt {\frac {(1 . 4 0 \times 1 0 ^ {- 3}) ^ {2}}{4} + 1 . 4 0 \times 1 0 ^ {- 3} \times 0 . 0 1 0} \\ = 3. 1 \times 1 0 ^ {- 3} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \end{array}
+\begin{array}{l} = - \frac {1.40 \times 10 ^ {- 3}}{2} + \sqrt {\frac {(1.40 \times 10 ^ {- 3}) ^ {2}}{4} + 1.40 \times 10 ^ {- 3} \times 0.010} \\ = 3.1 \times 10 ^ {- 3} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \end{array}
 $$
 
 对于极稀或极弱酸的溶液，由于溶液中 $\mathrm{H^{+}}$ 的浓度非常小，这时不能忽略水本身解离出来的 $\mathrm{H^{+}}$ ，甚至它可能就是 $\mathrm{H^{+}}$ 的主要来源。在这种情况下，有时也可采用近似方法计算。例如，当 $K_{\mathrm{a}}c < 10K_{\mathrm{w}}$ 时，说明此时水解离出的 $\mathrm{H^{+}}$ 不能忽略，但只要其浓度不是太小，即 $c / K_{\mathrm{a}}\geqslant 100$ ，则弱酸的平衡浓度就近似等于它的原始浓度 $c$ 。由(5-5)式得
@@ -2843,7 +2843,7 @@ $$
 解查表得 $\mathrm{H}_3\mathrm{BO}_3$ 的 $K_{\mathrm{a}} = 5.8\times 10^{-10}$ $K_{\mathrm{a}}c <   10K_{\mathrm{w}},c / K_{\mathrm{a}} > 100$ ，可采用（5-10）式计算，得
 
 $$
-\begin{array}{l} \left[ \mathrm {H} ^ {+} \right] = \sqrt {5 . 8 \times 1 0 ^ {- 1 0} \times 1 . 0 \times 1 0 ^ {- 4} + 1 . 0 \times 1 0 ^ {- 1 4}} \\ = 2. 6 \times 1 0 ^ {- 7} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \mathrm {p H} = 6. 5 8 \\ \end{array}
+\begin{array}{l} \left[ \mathrm {H} ^ {+} \right] = \sqrt {5.8 \times 10 ^ {- 10} \times 1.0 \times 10 ^ {- 4} + 1.0 \times 10 ^ {- 14}} \\ = 2.6 \times 10 ^ {- 7} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \mathrm {p H} = 6.58 \\ \end{array}
 $$
 
 对于一元弱碱B，它在水溶液中存在下列酸碱平衡：
@@ -2865,7 +2865,7 @@ $$
 查表得HCN的 $K_{\mathrm{a}} = 6.2\times 10^{-10}$ ，故 $\mathrm{CN^{-}}$ 的 $K_{\mathrm{b}} = K_{\mathrm{w}} / K_{\mathrm{a}} = 1.6\times 10^{-5},K_{\mathrm{b}}c > 10K_{\mathrm{w}},c / K_{\mathrm{b}}<$ 100。应采用近似式计算，即
 
 $$
-\begin{array}{l} \left[ \mathrm {O H} ^ {-} \right] = - \frac {K _ {\mathrm {b}}}{2} + \sqrt {\frac {K _ {\mathrm {b}} ^ {2}}{4} + K _ {\mathrm {b}} c} \\ = - \frac {1 . 6 \times 1 0 ^ {- 5}}{2} + \sqrt {\frac {(1 . 6 \times 1 0 ^ {- 5}) ^ {2}}{4}} + 1. 6 \times 1 0 ^ {- 5} \times 1. 0 \times 1 0 ^ {- 4} \\ = 3. 3 \times 1 0 ^ {- 5} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \mathrm {p O H} = 4. 4 8, \quad \mathrm {p H} = 1 4. 0 0 - 4. 4 8 = 9. 5 2 \\ \end{array}
+\begin{array}{l} \left[ \mathrm {O H} ^ {-} \right] = - \frac {K _ {\mathrm {b}}}{2} + \sqrt {\frac {K _ {\mathrm {b}} ^ {2}}{4} + K _ {\mathrm {b}} c} \\ = - \frac {1.6 \times 10 ^ {- 5}}{2} + \sqrt {\frac {(1.6 \times 10 ^ {- 5}) ^ {2}}{4}} + 1.6 \times 10 ^ {- 5} \times 1.0 \times 10 ^ {- 4} \\ = 3.3 \times 10 ^ {- 5} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \mathrm {p O H} = 4.48, \quad \mathrm {p H} = 14.00 - 4.48 = 9.52 \\ \end{array}
 $$
 
 # 2. 多元酸碱溶液
@@ -2917,7 +2917,7 @@ $$
 解 $\mathrm{H}_2\mathrm{CO}_3$ 溶液中，存在如下平衡：
 
 $$
-\mathrm {H} _ {2} \mathrm {C O} _ {3} \rightleftharpoons \mathrm {C O} _ {2} + \mathrm {H} _ {2} \mathrm {O} \quad K = \frac {\left[ \mathrm {C O} _ {2} \right]}{\left[ \mathrm {H} _ {2} \mathrm {C O} _ {3} \right]} = 3. 8 \times 1 0 ^ {2} (2 5 ° C)
+\mathrm {H} _ {2} \mathrm {C O} _ {3} \rightleftharpoons \mathrm {C O} _ {2} + \mathrm {H} _ {2} \mathrm {O} \quad K = \frac {\left[ \mathrm {C O} _ {2} \right]}{\left[ \mathrm {H} _ {2} \mathrm {C O} _ {3} \right]} = 3.8 \times 10 ^ {2} (25 ° C)
 $$
 
 由 $K$ 值可知，水合 $\mathrm{CO}_{2}$ 是最主要的存在形式，占 $99.7\%$ 以上， $\mathrm{H}_2\mathrm{CO}_3$ 不到 $0.3\%$ ，但通常统一用 $\mathrm{H}_2\mathrm{CO}_3$ 表示这两种存在型体。
@@ -2925,7 +2925,7 @@ $$
 查表得 $\mathrm{H}_2\mathrm{CO}_3$ 的 $K_{a_1} = 4.2\times 10^{-7},K_{a_2} = 5.6\times 10^{-11}$ ，因此 $K_{a_1}[H_2CO_3]\approx K_{a_1}c\gg$ $10K_{\mathrm{w}},K_{\mathrm{w}}$ 可忽略。而 $\frac{K_{a_2}}{\sqrt{K_{a_1}c}} = \frac{5.6\times 10^{-11}}{\sqrt{4.2\times 10^{-7}\times 0.040}} < 0.05,\quad \frac{c}{K_{a_1}} = \frac{0.040}{4.2\times 10^{-7}}\gg 100$ 故采用(5-14)式计算，得
 
 $$
-\begin{array}{l} \left[ \mathrm {H} ^ {+} \right] = \sqrt {K _ {\mathrm {a} 1} c} = \sqrt {4 . 2 \times 1 0 ^ {- 7} \times 0 . 0 4 0} = 1. 3 \times 1 0 ^ {- 3} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \mathrm {p H} = 3. 8 9 \\ \end{array}
+\begin{array}{l} \left[ \mathrm {H} ^ {+} \right] = \sqrt {K _ {\mathrm {a} 1} c} = \sqrt {4.2 \times 10 ^ {- 7} \times 0.040} = 1.3 \times 10 ^ {- 3} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \mathrm {p H} = 3.89 \\ \end{array}
 $$
 
 某些有机酸，如酒石酸等，它们的 $K_{n_1}$ 和 $K_{n_2}$ 之间的差别不是很大，当浓度较小时，通常还需考虑它们的二级解离。因此，其代数计算式较复杂，不便求解。在这种情况下，欲定量计算这些有机酸溶液中的 $\mathrm{H^{+}}$ 浓度，可采用迭代法（iterative calculation method），即先以分析浓度代替平衡浓度，通过近似式计算 $\mathrm{H^{+}}$ 的近似浓度，再根据所得 $\mathrm{H^{+}}$ 的浓度计算酸的平衡浓度，并将其代入 $\mathrm{H^{+}}$ 的计算式中求 $\mathrm{H^{+}}$ 的二级近似值。如此反复计算，直至所得 $\mathrm{H^{+}}$ 浓度基本不再变化，此即该溶液的 $\mathrm{H^{+}}$ 浓度。采用迭代法可得到较准确的结果。该方法也适于其他情况下的计算，但一般会增加计算量。
@@ -2977,7 +2977,7 @@ $$
 解查表得HF的 $K_{\mathrm{a}} = 6.6\times 10^{-4}$ ，HAc的 $K_{\mathrm{n}} = 1.8\times 10^{-5}$ ，故两者的 $c / K_{\mathrm{n}} > 100$ ，将数据代入(5-17)式，得
 
 $$
-\begin{array}{l} \left[ \mathrm {H} ^ {+} \right] = \sqrt {6 . 6 \times 1 0 ^ {- 3} \times 0 . 1 0 + 1 . 8 \times 1 0 ^ {- 5} \times 0 . 2 0} = 8. 3 \times 1 0 ^ {- 3} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \mathrm {p H} = 2. 0 8 \\ \end{array}
+\begin{array}{l} \left[ \mathrm {H} ^ {+} \right] = \sqrt {6.6 \times 10 ^ {- 3} \times 0.10 + 1.8 \times 10 ^ {- 5} \times 0.20} = 8.3 \times 10 ^ {- 3} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \mathrm {p H} = 2.08 \\ \end{array}
 $$
 
 # 2. 弱酸与弱碱的混合溶液
@@ -3017,21 +3017,21 @@ $$
 解 溶液中的酸碱解离平衡为
 
 $$
-\mathrm {H A c} \rightleftharpoons \mathrm {H} ^ {+} + \mathrm {A c} ^ {-} \quad K _ {\mathrm {a}} = 1. 8 \times 1 0 ^ {- 5}
+\mathrm {H A c} \rightleftharpoons \mathrm {H} ^ {+} + \mathrm {A c} ^ {-} \quad K _ {\mathrm {a}} = 1.8 \times 10 ^ {- 5}
 $$
 
 $$
-\mathrm {F} ^ {-} + \mathrm {H} _ {2} \mathrm {O} \rightleftharpoons \mathrm {H F} + \mathrm {O H} ^ {-} \quad K _ {\mathrm {h}} = K _ {\mathrm {w}} / K _ {\mathrm {n}} = 1. 5 \times 1 0 ^ {- 1 1}
+\mathrm {F} ^ {-} + \mathrm {H} _ {2} \mathrm {O} \rightleftharpoons \mathrm {H F} + \mathrm {O H} ^ {-} \quad K _ {\mathrm {h}} = K _ {\mathrm {w}} / K _ {\mathrm {n}} = 1.5 \times 10 ^ {- 11}
 $$
 
 两者的原始浓度都较大，且酸碱性都较弱，相互间的酸碱反应可忽略，因此可用（5-20）式计算。将 $c_{\mathrm{HAc}} = 0.10 \, \mathrm{mol} \cdot \mathrm{L}^{-1}, c_{\mathrm{F}^{-}} = 0.20 \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ 代入（5-20）式，求得
 
 $$
-\left[ \mathrm {H} ^ {+} \right] = \sqrt {\frac {c _ {\mathrm {H A c}}}{c _ {\mathrm {F} ^ {-}}} K _ {\mathrm {H A c}} K _ {\mathrm {H F}}} = \sqrt {\frac {0 . 1 0}{0 . 2 0} \times 1 . 8 \times 1 0 ^ {- 5} \times 6 . 6 \times 1 0 ^ {- 4}} = 7. 7 \times 1 0 ^ {- 5} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
+\left[ \mathrm {H} ^ {+} \right] = \sqrt {\frac {c _ {\mathrm {H A c}}}{c _ {\mathrm {F} ^ {-}}} K _ {\mathrm {H A c}} K _ {\mathrm {H F}}} = \sqrt {\frac {0.10}{0.20} \times 1.8 \times 10 ^ {- 5} \times 6.6 \times 10 ^ {- 4}} = 7.7 \times 10 ^ {- 5} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
 $$
 
 $$
-\mathrm {p H} = 4. 1 1
+\mathrm {p H} = 4.11
 $$
 
 应当指出，在这类混合溶液中，酸碱组分之间不应发生显著的酸碱反应，否则，据此计算出的 $\mathrm{H^{+}}$ 浓度会与实际情况有较大的出入。对于发生反应的混合溶液，应根据反应产物或反应后溶液的组成来进行计算，如 $\mathrm{HAc}$ 与 $\mathrm{NH_3}$ 的混合溶液，应当做 $\mathrm{NH_4Ac}$ 溶液或其与 $\mathrm{HAc}$ 或 $\mathrm{NH_3}$ 的混合溶液处理。
@@ -3085,7 +3085,7 @@ $$
 解查表得酒石酸的 $K_{\mathrm{n1}} = 9.1\times 10^{-4},K_{\mathrm{n2}} = 4.3\times 10^{-5},K_{\mathrm{n2}}c > 10K_{\mathrm{w}}$ ，但 $K_{\mathrm{n1}}$ 与 $c$ 比较，不可忽略，故应采用(5-23)式计算：
 
 $$
-\left[ \mathrm {H} ^ {+} \right] = \sqrt {\frac {K _ {n _ {1}} K _ {n _ {2}} c}{K _ {n _ {1}} + c}} = \sqrt {\frac {9 . 1 \times 1 0 ^ {- 4} \times 4 . 3 \times 1 0 ^ {- 5} \times 5 . 0 \times 1 0 ^ {- 3}}{9 . 1 \times 1 0 ^ {- 4} + 5 . 0 \times 1 0 ^ {- 3}}} = 1. 8 \times 1 0 ^ {- 4} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
+\left[ \mathrm {H} ^ {+} \right] = \sqrt {\frac {K _ {n _ {1}} K _ {n _ {2}} c}{K _ {n _ {1}} + c}} = \sqrt {\frac {9.1 \times 10 ^ {- 4} \times 4.3 \times 10 ^ {- 5} \times 5.0 \times 10 ^ {- 3}}{9.1 \times 10 ^ {- 4} + 5.0 \times 10 ^ {- 3}}} = 1.8 \times 10 ^ {- 4} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
 $$
 
 例16 计算 $1.0 \times 10^{-2} \mathrm{~mol} \cdot \mathrm{L}^{-1} \mathrm{Na}_2\mathrm{HPO}_4$ 溶液的 $\mathrm{pH}$ 。
@@ -3093,7 +3093,7 @@ $$
 解查表得 $\mathrm{H}_3\mathrm{PO}_4$ 的 $K_{n_2} = 6.3\times 10^{-8},K_{n_3} = 4.4\times 10^{-13}$ 显然， $K_{a_3}c <   10K_w,K_w$ 不可忽略，但 $K_{n_2} + c\approx c$ ，故可用近似式(5-22)式计算，得
 
 $$
-\begin{array}{l} \left[ \mathrm {H} ^ {+} \right] = \sqrt {\frac {K _ {\mathrm {a} _ {2}} \left(K _ {\mathrm {a} _ {3}} c + K _ {\mathrm {w}}\right)}{K _ {\mathrm {a} _ {2}} + c}} = \sqrt {\frac {6 . 3 \times 1 0 ^ {- 8} \times (4 . 4 \times 1 0 ^ {- 1 3} \times 1 . 0 \times 1 0 ^ {- 2} + 1 . 0 \times 1 0 ^ {- 1 4})}{1 . 0 \times 1 0 ^ {- 2}}} \\ = 3. 0 \times 1 0 ^ {- 1 0} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \end{array}
+\begin{array}{l} \left[ \mathrm {H} ^ {+} \right] = \sqrt {\frac {K _ {\mathrm {a} _ {2}} \left(K _ {\mathrm {a} _ {3}} c + K _ {\mathrm {w}}\right)}{K _ {\mathrm {a} _ {2}} + c}} = \sqrt {\frac {6.3 \times 10 ^ {- 8} \times (4.4 \times 10 ^ {- 13} \times 1.0 \times 10 ^ {- 2} + 1.0 \times 10 ^ {- 14})}{1.0 \times 10 ^ {- 2}}} \\ = 3.0 \times 10 ^ {- 10} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \end{array}
 $$
 
 即 $\mathrm{pH} = 9.52$
@@ -3113,7 +3113,7 @@ $$
 解 $\mathrm{CH}_2\mathrm{ClCOO}^-$ 的共轭酸的 $K_{\mathrm{a}} = 1.4\times 10^{-3}$ ， $\mathrm{NH_4^+}$ 的 $K_{\mathrm{a}}^{\prime} = K_{\mathrm{w}} / K_{\mathrm{b}} = 5.6\times 10^{-10}$ ，可见， $K_{\mathrm{a}}^{\prime}c > 10K_{\mathrm{w}}$ ，但 $K_{\mathrm{a}}$ 与 $c$ 比较，不可忽略，故应采用(5-23)式计算：
 
 $$
-\left[ \mathrm {H} ^ {+} \right] = \sqrt {\frac {K _ {\mathrm {a}} K _ {\mathrm {n}} ^ {\prime} c}{K _ {\mathrm {a}} + c}} = \sqrt {\frac {1 . 4 \times 1 0 ^ {- 3} \times 5 . 6 \times 1 0 ^ {- 1 0} \times 1 . 0 \times 1 0 ^ {- 3}}{1 . 4 \times 1 0 ^ {- 3} + 1 . 0 \times 1 0 ^ {- 3}}} = 5. 7 \times 1 0 ^ {- 7} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
+\left[ \mathrm {H} ^ {+} \right] = \sqrt {\frac {K _ {\mathrm {a}} K _ {\mathrm {n}} ^ {\prime} c}{K _ {\mathrm {a}} + c}} = \sqrt {\frac {1.4 \times 10 ^ {- 3} \times 5.6 \times 10 ^ {- 10} \times 1.0 \times 10 ^ {- 3}}{1.4 \times 10 ^ {- 3} + 1.0 \times 10 ^ {- 3}}} = 5.7 \times 10 ^ {- 7} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
 $$
 
 即 $\mathrm{pH} = 6.24$
@@ -3123,19 +3123,19 @@ $$
 解 氨基乙酸 $\mathrm{(NH_2CH_2COOH)}$ 在溶液中以双极离子 ${}^{+}\mathrm{H}_{3}\mathrm{NCH}_{2}\mathrm{COO}^{-}$ 形式存在，它既能起酸的作用：
 
 $$
-+ \mathrm {H} _ {3} \mathrm {N C H} _ {2} \mathrm {C O O} ^ {-} \rightleftharpoons \mathrm {H} _ {2} \mathrm {N C H} _ {2} \mathrm {C O O} ^ {-} + \mathrm {H} ^ {+} \quad K _ {\mathrm {a} 2} = 2. 5 \times 1 0 ^ {- 1 0}
++ \mathrm {H} _ {3} \mathrm {N C H} _ {2} \mathrm {C O O} ^ {-} \rightleftharpoons \mathrm {H} _ {2} \mathrm {N C H} _ {2} \mathrm {C O O} ^ {-} + \mathrm {H} ^ {+} \quad K _ {\mathrm {a} 2} = 2.5 \times 10 ^ {- 10}
 $$
 
 又能起碱的作用：
 
 $$
-+ \mathrm {H} _ {3} \mathrm {N C H} _ {2} \mathrm {C O O} ^ {-} + \mathrm {H} _ {2} \mathrm {O} \rightleftharpoons + \mathrm {H} _ {3} \mathrm {N C H} _ {2} \mathrm {C O O H} + \mathrm {O H} ^ {-} \quad K _ {\mathrm {b} 2} = K _ {\mathrm {w}} / K _ {\mathrm {s} 1} = 2. 2 \times 1 0 ^ {- 1 2}
++ \mathrm {H} _ {3} \mathrm {N C H} _ {2} \mathrm {C O O} ^ {-} + \mathrm {H} _ {2} \mathrm {O} \rightleftharpoons + \mathrm {H} _ {3} \mathrm {N C H} _ {2} \mathrm {C O O H} + \mathrm {O H} ^ {-} \quad K _ {\mathrm {b} 2} = K _ {\mathrm {w}} / K _ {\mathrm {s} 1} = 2.2 \times 10 ^ {- 12}
 $$
 
 由于 $cK_{n_2} > 10K_{\mathrm{w}}, c > 10K_{n_1}$ ，因此可采用最简式计算，得
 
 $$
-\left[ \mathrm {H} ^ {+} \right] = \sqrt {K _ {\mathrm {a} 1} K _ {\mathrm {a} 2}} = \sqrt {4 . 5 \times 1 0 ^ {- 3} \times 2 . 5 \times 1 0 ^ {- 1 9}} = 1. 1 \times 1 0 ^ {- 6} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
+\left[ \mathrm {H} ^ {+} \right] = \sqrt {K _ {\mathrm {a} 1} K _ {\mathrm {a} 2}} = \sqrt {4.5 \times 10 ^ {- 3} \times 2.5 \times 10 ^ {- 19}} = 1.1 \times 10 ^ {- 6} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
 $$
 
 以上讨论的弱酸弱碱盐溶液中，酸碱组成比均为 $1:1$ 。对于酸碱组成比不为 $1:1$ 的弱酸弱碱盐溶液，其溶液 $\mathrm{pH}$ 的计算比较复杂，应根据情况，进行近似处理。如浓度为 $c$ 的 $(\mathrm{NH}_4)_2\mathrm{CO}_3$ 溶液，选 $\mathrm{NH_4^+}$ 、 $\mathrm{CO}_{3}^{2-}$ 、 $\mathrm{H}_2\mathrm{O}$ 为质子参考水准，则质子平衡方程为
@@ -3185,7 +3185,7 @@ $$
 因此， $c_{\mathrm{NH_4^+}} = 2\times 0.10 = 0.20\mathrm{mol}\cdot \mathrm{L}^{-1},c_{\mathrm{CO_3^{2 - }}} = 0.10\mathrm{mol}\cdot \mathrm{L}^{-1}$ ，由于 $c$ 较大，故可采用简化式计算。将相关数据代入，得
 
 $$
-\begin{array}{l} \left[ \mathrm {H} ^ {+} \right] = \frac {K _ {\mathrm {N H} _ {4} ^ {+}} + \sqrt {K _ {\mathrm {N H} _ {4} ^ {+}} ^ {2} + 8 K _ {\mathrm {N H} _ {4} ^ {+}} K _ {\mathrm {a} _ {2}}}}{2} \\ = \frac {5 . 6 \times 1 0 ^ {- 1 0} + \sqrt {(5 . 6 \times 1 0 ^ {- 1 0}) ^ {2} + 8 \times 5 . 6 \times 1 0 ^ {- 1 0} \times 5 . 6 \times 1 0 ^ {- 1 1}}}{2} \\ = 6. 6 \times 1 0 ^ {- 1 0} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \mathrm {p H} = 9. 1 8 \\ \end{array}
+\begin{array}{l} \left[ \mathrm {H} ^ {+} \right] = \frac {K _ {\mathrm {N H} _ {4} ^ {+}} + \sqrt {K _ {\mathrm {N H} _ {4} ^ {+}} ^ {2} + 8 K _ {\mathrm {N H} _ {4} ^ {+}} K _ {\mathrm {a} _ {2}}}}{2} \\ = \frac {5.6 \times 10 ^ {- 10} + \sqrt {(5.6 \times 10 ^ {- 10}) ^ {2} + 8 \times 5.6 \times 10 ^ {- 10} \times 5.6 \times 10 ^ {- 11}}}{2} \\ = 6.6 \times 10 ^ {- 10} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \mathrm {p H} = 9.18 \\ \end{array}
 $$
 
 综上所述，计算溶液中的 $\mathrm{H^{+}}$ 浓度一般遵循这样几步：先写出相应的质子平衡方程，再根据溶液的酸碱性，判断其中哪些为明显的次要组分，并将其忽略掉；然后根据解离平衡关系，将质子平衡方程中的酸碱组分浓度用溶液中大量存在的原始组分和 $\mathrm{H^{+}}$ 的平衡浓度表示；再在此基础上，通过采用分析浓度代替平衡浓度、忽略次要项等，进行简化处理和计算。若在未考虑简化条件的情况下采用简化式计算，则在计算完后应根据计算结果反过来计算检验一下，看所用的近似方法是否合理，以便确定是否需进一步计算。
@@ -3201,7 +3201,7 @@ $$
 以绘制 $1.0 \times 10^{-2} \mathrm{~mol} \cdot \mathrm{L}^{-1} \mathrm{HAc}$ （或 $\mathrm{NaAc}, \mathrm{HAc} + \mathrm{NaAc}$ ）溶液中各组分的浓度对数图为例。在该溶液中存在的酸碱组分有 $\mathrm{HAc}, \mathrm{Ac}^{-}, \mathrm{H}^{+}, \mathrm{OH}^{-}$ ，其中 $[\mathrm{H}^{+}]$ 和 $[\mathrm{OH}^{-}]$ 的对数与 $\mathrm{pH}$ 的关系很简单：
 
 $$
-\lg [ \mathrm {H} ^ {+} ] = - \mathrm {p H}, \quad \lg [ \mathrm {O H} ^ {-} ] = \lg K _ {\mathrm {w}} - \lg [ \mathrm {H} ^ {+} ] = \mathrm {p H} - 1 4
+\lg [ \mathrm {H} ^ {+} ] = - \mathrm {p H}, \quad \lg [ \mathrm {O H} ^ {-} ] = \lg K _ {\mathrm {w}} - \lg [ \mathrm {H} ^ {+} ] = \mathrm {p H} - 14
 $$
 
 可见， $\lg [\mathrm{H}^{+}] - \mathrm{pH}$ 是一条斜率为-1，截距为0的直线。 $\lg [\mathrm{OH}^{-}] - \mathrm{pH}$ 是一条斜率为 $+1$ ，截距为-14的直线。在图5-3中， $[\mathrm{H}^{+}]$ 线和 $[\mathrm{OH}^{-}]$ 线分别表示这两条直线。
@@ -3280,7 +3280,7 @@ $\lg [\mathrm{H}_2\mathrm{B}] - \mathrm{pH}$ 线为水平线。
 当 $[\mathrm{H}^{+}] = K_{\mathrm{a1}}\gg K_{\mathrm{a2}}$ 时
 
 $$
-\left[ \mathrm {H} _ {2} \mathrm {B} \right] = \left[ \mathrm {H B} ^ {-} \right] = c / 2, \lg \left[ \mathrm {H} _ {2} \mathrm {B} \right] = \lg c - 0. 3
+\left[ \mathrm {H} _ {2} \mathrm {B} \right] = \left[ \mathrm {H B} ^ {-} \right] = c / 2, \lg \left[ \mathrm {H} _ {2} \mathrm {B} \right] = \lg c - 0.3
 $$
 
 当 $K_{a_1}\gg [\mathrm{H}^+ ]\gg K_{a_2}$ 时
@@ -3407,7 +3407,7 @@ $$
 解已知 $\mathrm{NH_3}$ 的 $K_{\mathrm{b}} = 1.8\times 10^{-5},K_{\mathrm{a}}^{\prime} = K_{\mathrm{w}} / K_{\mathrm{b}} = 5.6\times 10^{-10}$ ，由于 $c_{\mathrm{NH}_4^+}$ 和 $c_{\mathrm{NH}_3}$ 均较大，故可采用(5-28)式计算，求得
 
 $$
-\mathrm {p H} = \mathrm {p K _ {\mathrm {a}} ^ {\prime}} + \lg \frac {c _ {\mathrm {N H _ {3}}}}{c _ {\mathrm {N H _ {4}} ^ {+}}} = 9. 2 6 + \lg \frac {0 . 2 0}{0 . 1 0} = 9. 5 6
+\mathrm {p H} = \mathrm {p K _ {\mathrm {a}} ^ {\prime}} + \lg \frac {c _ {\mathrm {N H _ {3}}}}{c _ {\mathrm {N H _ {4}} ^ {+}}} = 9.26 + \lg \frac {0.20}{0.10} = 9.56
 $$
 
 显然， $c_{\mathrm{NH_4^+}}\gg [\mathrm{OH^-}] - [\mathrm{H^+}],c_{\mathrm{NH_3}}\gg [\mathrm{H^+}] - [\mathrm{OH^-}]$ ，这表明所采用的近似方法是合理的。
@@ -3417,19 +3417,19 @@ $$
 解已知HAc的 $K_{\mathrm{a}} = 1.8\times 10^{-5}$ ，先采用最简式计算溶液的 $\mathrm{H^{+}}$ 浓度，即
 
 $$
-\left[ \mathrm {H} ^ {+} \right] \approx 1. 8 \times 1 0 ^ {- 5} \times \frac {0 . 2 0}{4 . 0 \times 1 0 ^ {- 3}} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} = 9. 0 \times 1 0 ^ {- 4} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
+\left[ \mathrm {H} ^ {+} \right] \approx 1.8 \times 10 ^ {- 5} \times \frac {0.20}{4.0 \times 10 ^ {- 3}} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} = 9.0 \times 10 ^ {- 4} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
 $$
 
 由于 $c_{\mathrm{Ac}^{-}}$ 和 $\mathrm{H^{+}}$ 的浓度接近，故应用（5-26）式计算，即
 
 $$
-\left[ \mathrm {H} ^ {+} \right] = K _ {\mathrm {a}} \frac {c _ {\mathrm {H A c}} - \left[ \mathrm {H} ^ {+} \right]}{c _ {\mathrm {A c} ^ {-}} + \left[ \mathrm {H} ^ {+} \right]} \approx 1. 8 \times 1 0 ^ {- 5} \times \frac {0 . 2 0}{4 . 0 \times 1 0 ^ {- 3} + \left[ \mathrm {H} ^ {+} \right]}
+\left[ \mathrm {H} ^ {+} \right] = K _ {\mathrm {a}} \frac {c _ {\mathrm {H A c}} - \left[ \mathrm {H} ^ {+} \right]}{c _ {\mathrm {A c} ^ {-}} + \left[ \mathrm {H} ^ {+} \right]} \approx 1.8 \times 10 ^ {- 5} \times \frac {0.20}{4.0 \times 10 ^ {- 3} + \left[ \mathrm {H} ^ {+} \right]}
 $$
 
 解得
 
 $$
-\left[ \mathrm {H} ^ {+} \right] = 7. 6 \times 1 0 ^ {- 4} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}, \mathrm {p H} = 3. 1 2
+\left[ \mathrm {H} ^ {+} \right] = 7.6 \times 10 ^ {- 4} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}, \mathrm {p H} = 3.12
 $$
 
 例24 $0.30\mathrm{mol}\cdot \mathrm{L}^{-1}$ 吡啶和 $0.10\mathrm{mol}\cdot \mathrm{L}^{-1}\mathrm{HCl}$ 等体积混合，所得溶液是否为缓冲溶液？计算溶液的 $\mathrm{pH}$
@@ -3443,7 +3443,7 @@ $$
 生成吡啶盐的量和加入 $\mathrm{HCl}$ 的量相等。因此，两溶液等体积混合后，吡啶盐酸盐的浓度为 $0.10\mathrm{mol}\cdot \mathrm{L}^{-1} / 2 = 0.050\mathrm{mol}\cdot \mathrm{L}^{-1}$ ，未作用的吡啶的浓度为（ $0.30 - 0.10)\mathrm{mol}\cdot \mathrm{L}^{-1} / 2 =$ $0.10\mathrm{mol}\cdot \mathrm{L}^{-1}$ 。可见，溶液中同时存在吡啶盐及吡啶，所以该溶液是缓冲溶液。已知吡啶的 $K_{\mathrm{b}} = 1.7\times 10^{-9}$ ，故吡啶盐酸盐的 $K_{\mathrm{a}}^{\prime} = K_{\mathrm{w}} / K_{\mathrm{b}} = 5.9\times 10^{-6}$ ，由于 $c_{\mathrm{C_5H_5NH^+}}$ 和 $c_{\mathrm{C_5H_5N}}$ 都较大，故可采用(5-28)式计算，即
 
 $$
-\mathrm {p H} = \mathrm {p K _ {a} ^ {\prime}} + \lg \frac {c _ {C _ {5} H _ {5} N}}{c _ {C _ {5} H _ {5} N H ^ {+}}} = 5. 2 3 + \lg \frac {0 . 1 0}{0 . 0 5 0} = 5. 5 3
+\mathrm {p H} = \mathrm {p K _ {a} ^ {\prime}} + \lg \frac {c _ {C _ {5} H _ {5} N}}{c _ {C _ {5} H _ {5} N H ^ {+}}} = 5.23 + \lg \frac {0.10}{0.050} = 5.53
 $$
 
 缓冲溶液除用于控制溶液的酸度外，有些也用做测量溶液 $\mathrm{pH}$ 时的参照标准，称为标准缓冲溶液。标准缓冲溶液的 $\mathrm{pH}$ 是由非常精确的实验确定的。如果要通过理论计算加以核对，则必须同时考虑离子强度的影响。
@@ -3453,13 +3453,13 @@ $$
 解 若不考虑离子强度的影响，按通常方法计算，则
 
 $$
-\mathrm {p H} = \mathrm {p K} _ {\mathrm {a} _ {2}} + \lg \frac {c _ {\mathrm {H P O} _ {4} ^ {2 -}}}{c _ {\mathrm {H} _ {2} \mathrm {P O} _ {4} ^ {-}}} = - \lg (6. 3 \times 1 0 ^ {- 8}) + \lg \frac {0 . 0 2 5}{0 . 0 2 5} = 7. 2 0
+\mathrm {p H} = \mathrm {p K} _ {\mathrm {a} _ {2}} + \lg \frac {c _ {\mathrm {H P O} _ {4} ^ {2 -}}}{c _ {\mathrm {H} _ {2} \mathrm {P O} _ {4} ^ {-}}} = - \lg (6.3 \times 10 ^ {- 8}) + \lg \frac {0.025}{0.025} = 7.20
 $$
 
 计算结果与标准值相差较大，产生偏差的原因是由于实测的为 $\mathrm{H^{+}}$ 的活度而不是浓度。因此，计算时应考虑离子强度的影响。该溶液的离子强度为
 
 $$
-\begin{array}{l} I = \frac {1}{2} \sum c _ {i} z _ {i} ^ {2} = \frac {1}{2} \left(c _ {\mathrm {K} ^ {+}} \times 1 ^ {2} + c _ {\mathrm {N a} ^ {+}} \times 1 ^ {2} + c _ {\mathrm {H} _ {2} \mathrm {P O} _ {4} ^ {-}} \times 1 ^ {2} + c _ {\mathrm {H P O} _ {4} ^ {2 -}} \times 2 ^ {2}\right) \\ = \frac {1}{2} (0. 0 2 5 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} + 2 \times 0. 0 2 5 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} + 0. 0 2 5 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} + 0. 0 2 5 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times 4) \\ = 0. 1 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \end{array}
+\begin{array}{l} I = \frac {1}{2} \sum c _ {i} z _ {i} ^ {2} = \frac {1}{2} \left(c _ {\mathrm {K} ^ {+}} \times 1 ^ {2} + c _ {\mathrm {N a} ^ {+}} \times 1 ^ {2} + c _ {\mathrm {H} _ {2} \mathrm {P O} _ {4} ^ {-}} \times 1 ^ {2} + c _ {\mathrm {H P O} _ {4} ^ {2 -}} \times 2 ^ {2}\right) \\ = \frac {1}{2} (0.025 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} + 2 \times 0.025 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} + 0.025 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} + 0.025 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times 4) \\ = 0.10 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \end{array}
 $$
 
 由附录表4查得 $\gamma_{\mathrm{H_2PO_4^-}} = 0.77,\gamma_{\mathrm{HPO_4^2 - }} = 0.355$ ，故
@@ -3469,11 +3469,11 @@ a _ {\mathrm {H} ^ {+}} = K _ {\mathrm {a} _ {2}} \frac {a _ {\mathrm {H} _ {2} 
 $$
 
 $$
-= 6. 3 \times 1 0 ^ {- 8} \times \frac {0 . 7 7 \times 0 . 0 2 5}{0 . 3 5 5 \times 0 . 0 2 5} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} = 1. 4 \times 1 0 ^ {- 7} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
+= 6.3 \times 10 ^ {- 8} \times \frac {0.77 \times 0.025}{0.355 \times 0.025} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} = 1.4 \times 10 ^ {- 7} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
 $$
 
 $$
-\mathrm {p H} = - \lg a _ {\mathrm {H} ^ {+}} = 6. 8 6
+\mathrm {p H} = - \lg a _ {\mathrm {H} ^ {+}} = 6.86
 $$
 
 计算结果与标准值一致。
@@ -3509,35 +3509,35 @@ $$
 而
 
 $$
-\mathrm {p H} = - \lg [ \mathrm {H} ^ {+} ] = - \frac {1}{2 . 3 0} \ln [ \mathrm {H} ^ {+} ]
+\mathrm {p H} = - \lg [ \mathrm {H} ^ {+} ] = - \frac {1}{2.30} \ln [ \mathrm {H} ^ {+} ]
 $$
 
 $$
-\mathrm {d p H} = - \frac {\mathrm {d} [ \mathrm {H} ^ {+} ]}{2 . 3 0 [ \mathrm {H} ^ {+} ]}, \quad \frac {\mathrm {d} [ \mathrm {H} ^ {+} ]}{\mathrm {d p H}} = - 2. 3 0 [ \mathrm {H} ^ {+} ]
+\mathrm {d p H} = - \frac {\mathrm {d} [ \mathrm {H} ^ {+} ]}{2.30 [ \mathrm {H} ^ {+} ]}, \quad \frac {\mathrm {d} [ \mathrm {H} ^ {+} ]}{\mathrm {d p H}} = - 2.30 [ \mathrm {H} ^ {+} ]
 $$
 
 故
 
 $$
-\begin{array}{l} \beta = \frac {\mathrm {d} b}{\mathrm {d p H}} = \frac {\mathrm {d} b}{\mathrm {d} [ \mathrm {H} ^ {+} ]} \times \frac {\mathrm {d} [ \mathrm {H} ^ {+} ]}{\mathrm {d p H}} = - 2. 3 0 [ \mathrm {H} ^ {+} ] \left\{- 1 - \frac {K _ {\mathrm {w}}}{[ \mathrm {H} ^ {+} ] ^ {2}} - \frac {c K _ {\mathrm {a}}}{([ \mathrm {H} ^ {+} ] + K _ {\mathrm {a}}) ^ {2}} \right\} \\ = 2. 3 0 \left[ \mathrm {H} ^ {+} \right] + 2. 3 0 \left[ \mathrm {O H} ^ {-} \right] + 2. 3 0 \frac {c K _ {\mathrm {a}} \left[ \mathrm {H} ^ {+} \right]}{\left(\left[ \mathrm {H} ^ {+} \right] + K _ {\mathrm {a}}\right) ^ {2}} \tag {5-29} \\ \end{array}
+\begin{array}{l} \beta = \frac {\mathrm {d} b}{\mathrm {d p H}} = \frac {\mathrm {d} b}{\mathrm {d} [ \mathrm {H} ^ {+} ]} \times \frac {\mathrm {d} [ \mathrm {H} ^ {+} ]}{\mathrm {d p H}} = - 2.30 [ \mathrm {H} ^ {+} ] \left\{- 1 - \frac {K _ {\mathrm {w}}}{[ \mathrm {H} ^ {+} ] ^ {2}} - \frac {c K _ {\mathrm {a}}}{([ \mathrm {H} ^ {+} ] + K _ {\mathrm {a}}) ^ {2}} \right\} \\ = 2.30 \left[ \mathrm {H} ^ {+} \right] + 2.30 \left[ \mathrm {O H} ^ {-} \right] + 2.30 \frac {c K _ {\mathrm {a}} \left[ \mathrm {H} ^ {+} \right]}{\left(\left[ \mathrm {H} ^ {+} \right] + K _ {\mathrm {a}}\right) ^ {2}} \tag {5-29} \\ \end{array}
 $$
 
 当 $[\mathrm{H}^{+}]$ 和 $[\mathrm{OH}^{-}]$ 较小时，均可忽略，得到近似式：
 
 $$
-\beta = 2. 3 0 \frac {c K _ {\mathrm {a}} [ \mathrm {H} ^ {+} ]}{([ \mathrm {H} ^ {+} ] + K _ {\mathrm {a}}) ^ {2}} = 2. 3 0 \delta_ {0} \delta_ {1} c \tag {5-30}
+\beta = 2.30 \frac {c K _ {\mathrm {a}} [ \mathrm {H} ^ {+} ]}{([ \mathrm {H} ^ {+} ] + K _ {\mathrm {a}}) ^ {2}} = 2.30 \delta_ {0} \delta_ {1} c \tag {5-30}
 $$
 
 对（5-30）式求导数，并令其等于零，即
 
 $$
-\frac {\mathrm {d} \beta}{\mathrm {d} [ \mathrm {H} ^ {+} ]} = 2. 3 0 c K _ {\mathrm {a}} \frac {(K _ {\mathrm {a}} - [ \mathrm {H} ^ {+} ])}{([ \mathrm {H} ^ {+} ] + K _ {\mathrm {a}}) ^ {3}} = 0
+\frac {\mathrm {d} \beta}{\mathrm {d} [ \mathrm {H} ^ {+} ]} = 2.30 c K _ {\mathrm {a}} \frac {(K _ {\mathrm {a}} - [ \mathrm {H} ^ {+} ])}{([ \mathrm {H} ^ {+} ] + K _ {\mathrm {a}}) ^ {3}} = 0
 $$
 
 可得 $\left[\mathrm{H}^{+}\right] = K_{\mathrm{a}}$ ，将其代入(5-30)式，可求得缓冲容量的极大值：
 
 $$
-\beta_ {\max } = 2. 3 0 c / 4 = 0. 5 7 5 c
+\beta_ {\max } = 2.30 c / 4 = 0.575 c
 $$
 
 由此可知，缓冲溶液的浓度愈大，其缓冲容量也愈大。对于共轭酸碱对缓冲体系，当 $[\mathrm{H}^{+}] = K_{\mathrm{n}}$ ，即两组分浓度相等时，其缓冲容量最大。
@@ -3646,7 +3646,7 @@ $$
 由（5-3）式可知，上述指示剂的理论变色点与离子强度的关系为
 
 $$
-\mathrm {p H} = \mathrm {p K} _ {\mathrm {a}} ^ {\circ} + 0. 5 1 z _ {\mathrm {H i n}} ^ {2} \sqrt {I} - 0. 5 1 z _ {\mathrm {I n} -} ^ {2} \sqrt {I}
+\mathrm {p H} = \mathrm {p K} _ {\mathrm {a}} ^ {\circ} + 0.51 z _ {\mathrm {H i n}} ^ {2} \sqrt {I} - 0.51 z _ {\mathrm {I n} -} ^ {2} \sqrt {I}
 $$
 
 可见，改变离子强度，指示剂的理论变色点 $\mathrm{pH}$ 会相应发生变化。不同类型的指示剂，其变色点受溶液离子强度的影响可能不一样。变色点的 $\mathrm{pH}$ 是增大还是减小，要根据具体情况分析。此外，指示剂的变色点还受溶液的温度和溶液中存在的胶体等的影响。
@@ -3733,7 +3733,7 @@ $$
 $a = 0.00$ ，溶液是 $0.1000\mathrm{mol}\cdot \mathrm{L}^{-1}$ HAc，溶液中 $\mathrm{H^{+}}$ 浓度为
 
 $$
-\left[ \mathrm {H} ^ {+} \right] = \sqrt {K _ {\mathrm {a}} c} = \sqrt {1 . 8 \times 1 0 ^ {- 5} \times 0 . 1 0 0 0} = 1. 3 4 \times 1 0 ^ {- 3} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}, \mathrm {p H} = 2. 8 7
+\left[ \mathrm {H} ^ {+} \right] = \sqrt {K _ {\mathrm {a}} c} = \sqrt {1.8 \times 10 ^ {- 5} \times 0.1000} = 1.34 \times 10 ^ {- 3} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}, \mathrm {p H} = 2.87
 $$
 
 # （2）滴定开始至化学计量点前
@@ -3741,19 +3741,19 @@ $$
 溶液中未反应的HAc和反应产物 $\mathrm{Ac}^{-}$ 同时存在，组成一个缓冲体系。因此，溶液的 $\mathsf{pH}$ 可根据缓冲溶液 $\mathrm{pH}$ 计算式计算，一般情况下可按(5-28)式计算。例如，当滴入NaOH溶液 $19.80~\mathrm{mL}$ 时
 
 $$
-\begin{array}{l} c _ {\mathrm {H A c}} = \frac {0 . 2 0}{2 0 . 0 0 + 1 9 . 8 0} \times 0. 1 0 0 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} = 5. 0 3 \times 1 0 ^ {- 4} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ c _ {A c ^ {-}} = \frac {1 9 . 8 0}{2 0 . 0 0 + 1 9 . 8 0} \times 0. 1 0 0 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} = 4. 9 7 \times 1 0 ^ {- 2} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \end{array}
+\begin{array}{l} c _ {\mathrm {H A c}} = \frac {0.20}{20.00 + 19.80} \times 0.1000 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} = 5.03 \times 10 ^ {- 4} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ c _ {A c ^ {-}} = \frac {19.80}{20.00 + 19.80} \times 0.1000 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} = 4.97 \times 10 ^ {- 2} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \end{array}
 $$
 
 代入（5-28）式，得
 
 $$
-\mathrm {p H} = \mathrm {p K} _ {\mathrm {a}} + \lg \frac {c _ {\mathrm {A c} ^ {-}}}{c _ {\mathrm {H A c}}} = 4. 7 4 + \lg \frac {4 . 9 7 \times 1 0 ^ {- 2}}{5 . 0 3 \times 1 0 ^ {- 4}} = 6. 7 3
+\mathrm {p H} = \mathrm {p K} _ {\mathrm {a}} + \lg \frac {c _ {\mathrm {A c} ^ {-}}}{c _ {\mathrm {H A c}}} = 4.74 + \lg \frac {4.97 \times 10 ^ {- 2}}{5.03 \times 10 ^ {- 4}} = 6.73
 $$
 
 当滴入 $\mathrm{NaOH}$ 溶液 $19.98\mathrm{mL}$ ，即 $a = 0.999$ 时，则
 
 $$
-\mathrm {p H} = \mathrm {p K} _ {\mathrm {a}} + \lg \frac {c _ {\mathrm {A c} ^ {-}}}{c _ {\mathrm {H A c}}} = 4. 7 4 + \lg \frac {5 . 0 \times 1 0 ^ {- 2}}{5 . 0 \times 1 0 ^ {- 5}} = 7. 7 4
+\mathrm {p H} = \mathrm {p K} _ {\mathrm {a}} + \lg \frac {c _ {\mathrm {A c} ^ {-}}}{c _ {\mathrm {H A c}}} = 4.74 + \lg \frac {5.0 \times 10 ^ {- 2}}{5.0 \times 10 ^ {- 5}} = 7.74
 $$
 
 # （3）化学计量点时
@@ -3761,7 +3761,7 @@ $$
 此时全部HAc被中和，生成NaAc。由于 $\mathrm{Ac}^-$ 为弱碱，溶液 $\mathsf{pH}$ 可根据弱碱的有关计算式计算。
 
 $$
-\begin{array}{l} \left[ \mathrm {O H} ^ {-} \right] = \sqrt {K _ {\mathrm {b}} c} = \sqrt {\frac {K _ {\mathrm {w}}}{K _ {\mathrm {a}}}} c = \sqrt {\frac {1 . 0 \times 1 0 ^ {- 1 4}}{1 . 8 \times 1 0 ^ {- 5}} \times 0 . 0 5 0 0 0} = 5. 3 \times 1 0 ^ {- 6} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \mathrm {p O H} = 5. 2 8, \mathrm {p H} = 1 4. 0 0 - 5. 2 8 = 8. 7 2 \\ \end{array}
+\begin{array}{l} \left[ \mathrm {O H} ^ {-} \right] = \sqrt {K _ {\mathrm {b}} c} = \sqrt {\frac {K _ {\mathrm {w}}}{K _ {\mathrm {a}}}} c = \sqrt {\frac {1.0 \times 10 ^ {- 14}}{1.8 \times 10 ^ {- 5}} \times 0.05000} = 5.3 \times 10 ^ {- 6} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \mathrm {p O H} = 5.28, \mathrm {p H} = 14.00 - 5.28 = 8.72 \\ \end{array}
 $$
 
 # （4）化学计量点后
@@ -3769,7 +3769,7 @@ $$
 由于过量 $\mathrm{NaOH}$ 的存在，抑制了 $\mathrm{Ac}^{-}$ 的解离，故此时溶液的 $\mathrm{pH}$ 主要取决于过量的 $\mathrm{NaOH}$ 浓度，其计算方法与强碱滴定强酸相同。例如，滴入 $\mathrm{NaOH}$ 溶液 $20.02\mathrm{mL}$ （即 $a = 1.001$ ），溶液的 $\mathrm{pH}$ 可按下式计算：
 
 $$
-\begin{array}{l} \left[ \mathrm {O H} ^ {-} \right] = \frac {0 . 0 2}{2 0 . 0 0 + 2 0 . 0 2} \times 0. 1 0 0 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} = 5. 0 \times 1 0 ^ {- 5} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \mathrm {p O H} = 4. 3 0, \mathrm {p H} = 9. 7 0 \\ \end{array}
+\begin{array}{l} \left[ \mathrm {O H} ^ {-} \right] = \frac {0.02}{20.00 + 20.02} \times 0.1000 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} = 5.0 \times 10 ^ {- 5} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \mathrm {p O H} = 4.30, \mathrm {p H} = 9.70 \\ \end{array}
 $$
 
 如此逐一计算，计算结果列于表5-3中。图5-9为据此绘制的滴定曲线。与表5-2和图5-8比较，滴定前， $0.1000\mathrm{mol}\cdot \mathrm{L}^{-1}\mathrm{HAc}$ 的 $\mathrm{pH} = 2.87$ ，比 $0.1000\mathrm{mol}\cdot \mathrm{L}^{-1}\mathrm{HCl}$ 约大两个 $\mathsf{pH}$ 单位。这是因为HAc的解离度比等浓度的HCl小的缘故。滴定开始之后，曲线的坡度比滴定HCl的更倾斜，这是因为HAc的解离度很小，一旦滴入NaOH后，部分的HAc被中和而生成NaAc，由于 $\mathrm{Ac}^-$ 的同离子效应，使HAc的解离度变得更小，因而 $\mathrm{H^{+}}$ 浓度迅速降低， $\mathsf{pH}$ 较快增大。但当继续滴入NaOH时，由于NaAc的不断生成，在溶液中构成缓冲体系，因此这一段曲线较为平坦。接近化学计量点时，由于溶液中HAc已很少，溶液的缓冲作用减弱，所以继续滴入NaOH，溶液 $\mathfrak{pH}$ 的变化速度又逐渐加快。在化学计量点附近 $\mathsf{pH}$ 的突跃范围为 $7.74\sim 9.70$ ，比同浓度的强碱滴定强酸要小得多。化学计量点以后，溶液 $\mathsf{pH}$ 的变化规律与强碱滴定强酸时的情况基本相同。
@@ -3798,15 +3798,15 @@ $$
 例如，用 $0.1000\mathrm{mol}\cdot \mathrm{L}^{-1}\mathrm{NaOH}$ 滴定 $0.1000\mathrm{mol}\cdot \mathrm{L}^{-1}\mathrm{H}_3\mathrm{PO}_4$ 溶液， $\mathrm{H}_{3}\mathrm{PO}_{4}$ 的各级解离平衡为
 
 $$
-\mathrm {H} _ {3} \mathrm {P O} _ {4} \rightleftharpoons \mathrm {H} ^ {+} + \mathrm {H} _ {2} \mathrm {P O} _ {4} ^ {-} \quad K _ {\mathrm {a} _ {1}} = 7. 6 \times 1 0 ^ {- 3}
+\mathrm {H} _ {3} \mathrm {P O} _ {4} \rightleftharpoons \mathrm {H} ^ {+} + \mathrm {H} _ {2} \mathrm {P O} _ {4} ^ {-} \quad K _ {\mathrm {a} _ {1}} = 7.6 \times 10 ^ {- 3}
 $$
 
 $$
-\mathrm {H} _ {2} \mathrm {P O} _ {4} ^ {-} \rightleftharpoons \mathrm {H} ^ {+} + \mathrm {H P O} _ {4} ^ {2 -} \quad K _ {n _ {2}} = 6. 3 \times 1 0 ^ {- 8}
+\mathrm {H} _ {2} \mathrm {P O} _ {4} ^ {-} \rightleftharpoons \mathrm {H} ^ {+} + \mathrm {H P O} _ {4} ^ {2 -} \quad K _ {n _ {2}} = 6.3 \times 10 ^ {- 8}
 $$
 
 $$
-\mathrm {H P O} _ {4} ^ {2 -} \Longrightarrow \mathrm {H} ^ {+} + \mathrm {P O} _ {4} ^ {3 -} \quad K _ {\mathrm {a} _ {3}} = 4. 4 \times 1 0 ^ {- 1 3}
+\mathrm {H P O} _ {4} ^ {2 -} \Longrightarrow \mathrm {H} ^ {+} + \mathrm {P O} _ {4} ^ {3 -} \quad K _ {\mathrm {a} _ {3}} = 4.4 \times 10 ^ {- 13}
 $$
 
 首先 $\mathrm{H}_3\mathrm{PO}_4$ 被中和，生成 $\mathrm{H}_2\mathrm{PO}_4^-$ ，出现第一个化学计量点；然后 $\mathrm{H}_2\mathrm{PO}_4^-$ 继续被中和，生成 $\mathrm{HPO}_4^{2-}$ ，出现第二个化学计量点。 $\mathrm{HPO}_4^{2-}$ 的 $K_{a_3}$ 太小， $cK_{a_3} \ll 10^{-8}$ ，不能直接准确滴定。NaOH滴定 $\mathrm{H}_3\mathrm{PO}_4$ 的滴定曲线见图5-10。
@@ -3821,7 +3821,7 @@ $$
 用 $\mathrm{NaOH}$ 滴定 $\mathrm{H}_3\mathrm{PO}_4$ 至第一化学计量点时，产物是 $\mathrm{H}_2\mathrm{PO}_4^-$ ，浓度为 $0.05000\mathrm{mol}\cdot \mathrm{L}^{-1}$ ，它是两性物质。因为 $cK_{\mathrm{a_2}}\gg K_{\mathrm{w}}$ ，溶液的 $\mathrm{pH}$ 按近似式计算，求得
 
 $$
-\begin{array}{l} \left[ \mathrm {H} ^ {+} \right] = \sqrt {\frac {K _ {\mathrm {a} _ {1}} K _ {\mathrm {a} _ {2}} c}{K _ {\mathrm {a} _ {1}} + c}} = \sqrt {\frac {7 . 6 \times 1 0 ^ {- 3} \times 6 . 3 \times 1 0 ^ {- 8} \times 0 . 0 5 0 0 0}{7 . 6 \times 1 0 ^ {- 3} + 0 . 0 5 0 0 0}} = 2. 0 \times 1 0 ^ {- 5} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \mathrm {p H} = 4. 7 0 \\ \end{array}
+\begin{array}{l} \left[ \mathrm {H} ^ {+} \right] = \sqrt {\frac {K _ {\mathrm {a} _ {1}} K _ {\mathrm {a} _ {2}} c}{K _ {\mathrm {a} _ {1}} + c}} = \sqrt {\frac {7.6 \times 10 ^ {- 3} \times 6.3 \times 10 ^ {- 8} \times 0.05000}{7.6 \times 10 ^ {- 3} + 0.05000}} = 2.0 \times 10 ^ {- 5} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \mathrm {p H} = 4.70 \\ \end{array}
 $$
 
 如以甲基橙为指示剂，终点由红变黄，滴定结果的误差约为 $-0.5\%$
@@ -3833,11 +3833,11 @@ $\mathrm{H}_3\mathrm{PO}_4$ 作为二元酸被滴定，产物是 $\mathrm{HPO_4^
 液 $\mathrm{pH}$ 按（5-22）式计算，求得
 
 $$
-\begin{array}{l} \left[ \mathrm {H} ^ {+} \right] = \sqrt {\frac {K _ {\mathrm {a} _ {2}} \left(K _ {\mathrm {a} _ {3}} c + K _ {\mathrm {w}}\right)}{K _ {\mathrm {a} _ {2}} + c}} = \sqrt {\frac {6 . 3 \times 1 0 ^ {- 8} \left(4 . 4 \times 1 0 ^ {- 1 3} \times 0 . 0 3 3 3 3 + 1 . 0 \times 1 0 ^ {- 1 4}\right)}{0 . 0 3 3 3 3}} \\ = 2. 2 \times 1 0 ^ {- 1 0} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \end{array}
+\begin{array}{l} \left[ \mathrm {H} ^ {+} \right] = \sqrt {\frac {K _ {\mathrm {a} _ {2}} \left(K _ {\mathrm {a} _ {3}} c + K _ {\mathrm {w}}\right)}{K _ {\mathrm {a} _ {2}} + c}} = \sqrt {\frac {6.3 \times 10 ^ {- 8} \left(4.4 \times 10 ^ {- 13} \times 0.03333 + 1.0 \times 10 ^ {- 14}\right)}{0.03333}} \\ = 2.2 \times 10 ^ {- 10} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \end{array}
 $$
 
 $$
-\mathrm {p H} = 9. 6 6
+\mathrm {p H} = 9.66
 $$
 
 选用百里酚酞（变色点 $\mathrm{pH}\approx 10$ ）作指示剂，终点时由无色变为浅蓝，分析结果的误差约为 $+0.3\%$
@@ -3897,17 +3897,17 @@ $$
 则
 
 $$
-\left[ \mathrm {H} ^ {+} \right] _ {\mathrm {e p}} = \left[ \mathrm {H} ^ {+} \right] _ {\mathrm {s p}} \times 1 0 ^ {- \Delta_ {\mathrm {p H}}}
+\left[ \mathrm {H} ^ {+} \right] _ {\mathrm {e p}} = \left[ \mathrm {H} ^ {+} \right] _ {\mathrm {s p}} \times 10 ^ {- \Delta_ {\mathrm {p H}}}
 $$
 
 而 $\Delta \mathrm{pOH} = \mathrm{pOH}_{\mathrm{ep}} - \mathrm{pOH}_{\mathrm{sp}} = (\mathrm{pK}_{\mathrm{w}} - \mathrm{pH}_{\mathrm{ep}}) - (\mathrm{pK}_{\mathrm{w}} - \mathrm{pH}_{\mathrm{sp}}) = -\Delta \mathrm{pH}$ 所以
 
 $$
-\frac {\left[ \mathrm {O H} ^ {-} \right] _ {\mathrm {e p}}}{\left[ \mathrm {O H} ^ {-} \right] _ {\mathrm {s p}}} = 1 0 ^ {\Delta \mathrm {p H}}, \quad \left[ \mathrm {O H} ^ {-} \right] _ {\mathrm {e p}} = \left[ \mathrm {O H} ^ {-} \right] _ {\mathrm {s p}} \times 1 0 ^ {\Delta \mathrm {p H}}
+\frac {\left[ \mathrm {O H} ^ {-} \right] _ {\mathrm {e p}}}{\left[ \mathrm {O H} ^ {-} \right] _ {\mathrm {s p}}} = 10 ^ {\Delta \mathrm {p H}}, \quad \left[ \mathrm {O H} ^ {-} \right] _ {\mathrm {e p}} = \left[ \mathrm {O H} ^ {-} \right] _ {\mathrm {s p}} \times 10 ^ {\Delta \mathrm {p H}}
 $$
 
 $$
-E _ {\mathrm {t}} = \frac {\left[ \mathrm {O H} ^ {-} \right] _ {\mathrm {e p}} - \left[ \mathrm {H} ^ {+} \right] _ {\mathrm {e p}}}{c _ {\mathrm {H C l}} ^ {\mathrm {e p}}} = \frac {\left[ \mathrm {O H} ^ {-} \right] _ {\mathrm {s p}} \times 1 0 ^ {\Delta \mathrm {p H}} - \left[ \mathrm {H} ^ {+} \right] _ {\mathrm {s p}} \times 1 0 ^ {- \Delta \mathrm {p H}}}{c _ {\mathrm {H C l}} ^ {\mathrm {e p}}}
+E _ {\mathrm {t}} = \frac {\left[ \mathrm {O H} ^ {-} \right] _ {\mathrm {e p}} - \left[ \mathrm {H} ^ {+} \right] _ {\mathrm {e p}}}{c _ {\mathrm {H C l}} ^ {\mathrm {e p}}} = \frac {\left[ \mathrm {O H} ^ {-} \right] _ {\mathrm {s p}} \times 10 ^ {\Delta \mathrm {p H}} - \left[ \mathrm {H} ^ {+} \right] _ {\mathrm {s p}} \times 10 ^ {- \Delta \mathrm {p H}}}{c _ {\mathrm {H C l}} ^ {\mathrm {e p}}}
 $$
 
 而 $\left[\mathrm{OH}^{-}\right]_{\mathrm{sp}} = \left[\mathrm{H}^{+}\right]_{\mathrm{sp}} = \sqrt{K_{\mathrm{w}}}$
@@ -3957,7 +3957,7 @@ $$
 若滴定终点与化学计量点 $\mathrm{pH}$ 的差为 $\Delta \mathrm{pH}$ ，则
 
 $$
-\left[ \mathrm {O H} ^ {-} \right] _ {\mathrm {e p}} = \left[ \mathrm {O H} ^ {-} \right] _ {\mathrm {s p}} \times 1 0 ^ {\Delta \mathrm {p H}} \approx \sqrt {\frac {K _ {\mathrm {w}}}{K _ {\mathrm {a}}} c _ {\mathrm {H A}} ^ {\mathrm {s p}}} \times 1 0 ^ {\Delta \mathrm {p H}}
+\left[ \mathrm {O H} ^ {-} \right] _ {\mathrm {e p}} = \left[ \mathrm {O H} ^ {-} \right] _ {\mathrm {s p}} \times 10 ^ {\Delta \mathrm {p H}} \approx \sqrt {\frac {K _ {\mathrm {w}}}{K _ {\mathrm {a}}} c _ {\mathrm {H A}} ^ {\mathrm {s p}}} \times 10 ^ {\Delta \mathrm {p H}}
 $$
 
 而 $K_{\mathrm{a}} = \frac{[\mathrm{A}^{-}][\mathrm{H}^{+}]}{[\mathrm{HA}]} = \frac{[\mathrm{A}^{-}]_{\mathrm{sp}}[\mathrm{H}^{+}]_{\mathrm{sp}}}{[\mathrm{HA}]_{\mathrm{sp}}} = \frac{[\mathrm{A}^{-}]_{\mathrm{ep}}[\mathrm{H}^{+}]_{\mathrm{ep}}}{[\mathrm{HA}]_{\mathrm{ep}}}$
@@ -3971,7 +3971,7 @@ $$
 所以
 
 $$
-\left[ \mathrm {H A} \right] _ {\mathrm {e p}} = \left[ \mathrm {H A} \right] _ {\mathrm {s p}} \times 1 0 ^ {- \Delta \mathrm {p H}}
+\left[ \mathrm {H A} \right] _ {\mathrm {e p}} = \left[ \mathrm {H A} \right] _ {\mathrm {s p}} \times 10 ^ {- \Delta \mathrm {p H}}
 $$
 
 而在化学计量点时
@@ -3983,13 +3983,13 @@ $$
 故
 
 $$
-\left[ \mathrm {H A} \right] _ {\mathrm {e p}} = \left[ \mathrm {O H} ^ {-} \right] _ {\mathrm {s p}} \times 1 0 ^ {- \Delta \mathrm {p H}}
+\left[ \mathrm {H A} \right] _ {\mathrm {e p}} = \left[ \mathrm {O H} ^ {-} \right] _ {\mathrm {s p}} \times 10 ^ {- \Delta \mathrm {p H}}
 $$
 
 将上述两式代入误差计算式得
 
 $$
-E _ {\mathrm {t}} = \frac {\left[ \mathrm {O H} ^ {-} \right] _ {\mathrm {e p}} - \left[ \mathrm {H A} \right] _ {\mathrm {e p}}}{c _ {\mathrm {H A}} ^ {\mathrm {e p}}} = \frac {\left[ \mathrm {O H} ^ {-} \right] _ {\mathrm {s p}} \times 1 0 ^ {\Delta \mathrm {p H}} - \left[ \mathrm {O H} ^ {-} \right] _ {\mathrm {s p}} \times 1 0 ^ {- \Delta \mathrm {p H}}}{c _ {\mathrm {H A}} ^ {\mathrm {e p}}}
+E _ {\mathrm {t}} = \frac {\left[ \mathrm {O H} ^ {-} \right] _ {\mathrm {e p}} - \left[ \mathrm {H A} \right] _ {\mathrm {e p}}}{c _ {\mathrm {H A}} ^ {\mathrm {e p}}} = \frac {\left[ \mathrm {O H} ^ {-} \right] _ {\mathrm {s p}} \times 10 ^ {\Delta \mathrm {p H}} - \left[ \mathrm {O H} ^ {-} \right] _ {\mathrm {s p}} \times 10 ^ {- \Delta \mathrm {p H}}}{c _ {\mathrm {H A}} ^ {\mathrm {e p}}}
 $$
 
 即
@@ -4003,15 +4003,15 @@ $$
 解由题意可知， $\mathrm{pH}_{\mathrm{ep}} = 9.1$ $c_{\mathrm{Ae}}^{\mathrm{sp}}\approx c_{\mathrm{Ae}}^{\mathrm{sp}} = 0.050\mathrm{mol}\cdot \mathrm{L}^{-1},K_{a} = 1.8\times 10^{-5}$
 
 $$
-\left[ \mathrm {O H} ^ {-} \right] _ {\mathrm {s p}} = \sqrt {\frac {K _ {\mathrm {w}}}{K _ {\mathrm {a}}} c _ {\mathrm {H A c}} ^ {\mathrm {s p}}} = \sqrt {\frac {1 . 0 \times 1 0 ^ {- 1 4}}{1 . 8 \times 1 0 ^ {- 5}} \times 0 . 0 5 0} = 5. 2 7 \times 1 0 ^ {- 6} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
+\left[ \mathrm {O H} ^ {-} \right] _ {\mathrm {s p}} = \sqrt {\frac {K _ {\mathrm {w}}}{K _ {\mathrm {a}}} c _ {\mathrm {H A c}} ^ {\mathrm {s p}}} = \sqrt {\frac {1.0 \times 10 ^ {- 14}}{1.8 \times 10 ^ {- 5}} \times 0.050} = 5.27 \times 10 ^ {- 6} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
 $$
 
 $$
-\mathrm {p H} _ {\mathrm {s p}} = 1 4 - \mathrm {p O H} _ {\mathrm {s p}} = 1 4 - 5. 2 8 = 8. 7 2
+\mathrm {p H} _ {\mathrm {s p}} = 14 - \mathrm {p O H} _ {\mathrm {s p}} = 14 - 5.28 = 8.72
 $$
 
 $$
-\Delta \mathrm {p H} = 9. 1 - 8. 7 2 = 0. 3 8
+\Delta \mathrm {p H} = 9.1 - 8.72 = 0.38
 $$
 
 将以上数据代入（5-33）式，得
@@ -4025,17 +4025,17 @@ $$
 解 由（5-33）式得
 
 $$
-\left(c _ {\mathrm {H A}} ^ {\mathrm {e p}} K _ {\mathrm {a}}\right) ^ {\frac {1}{2}} \geqslant \frac {1 0 ^ {\Delta \mathrm {p H}} - 1 0 ^ {- \Delta \mathrm {p H}}}{E _ {\mathrm {t}}} \sqrt {K _ {\mathrm {w}}}
+\left(c _ {\mathrm {H A}} ^ {\mathrm {e p}} K _ {\mathrm {a}}\right) ^ {\frac {1}{2}} \geqslant \frac {10 ^ {\Delta \mathrm {p H}} - 10 ^ {- \Delta \mathrm {p H}}}{E _ {\mathrm {t}}} \sqrt {K _ {\mathrm {w}}}
 $$
 
 $$
-c _ {\mathrm {H A}} ^ {\mathrm {e p}} K _ {\mathrm {a}} \geqslant \left(\frac {1 0 ^ {0 . 3} - 1 0 ^ {- 0 . 3}}{0 . 0 0 2}\right) ^ {2} \times 1 0 ^ {- 1 4} = 5 \times 1 0 ^ {- 9}
+c _ {\mathrm {H A}} ^ {\mathrm {e p}} K _ {\mathrm {a}} \geqslant \left(\frac {10 ^ {0.3} - 10 ^ {- 0.3}}{0.002}\right) ^ {2} \times 10 ^ {- 14} = 5 \times 10 ^ {- 9}
 $$
 
 由于弱酸HA的初始浓度 $c_{\mathrm{HA}} = 2c_{\mathrm{HA}}^{\mathrm{eq}}$ ，所以
 
 $$
-c _ {\mathrm {H A}} K _ {\mathrm {a}} = 2 c _ {\mathrm {H A}} ^ {\mathrm {v p}} K _ {\mathrm {a}} \geqslant 1 \times 1 0 ^ {- 8} \tag {5-34}
+c _ {\mathrm {H A}} K _ {\mathrm {a}} = 2 c _ {\mathrm {H A}} ^ {\mathrm {v p}} K _ {\mathrm {a}} \geqslant 1 \times 10 ^ {- 8} \tag {5-34}
 $$
 
 这就是一元弱酸HA能否被准确滴定的判据。
@@ -4057,7 +4057,7 @@ $$
 若滴定终点与化学计量点 $\mathrm{pH}$ 的差为 $\Delta \mathrm{pH}$ ，则
 
 $$
-\left[ \mathrm {H} ^ {+} \right] _ {\mathrm {e p l}} = \left[ \mathrm {H} ^ {+} \right] _ {\mathrm {s p l}} \times 1 0 ^ {- \Delta \mathrm {p H}} = \sqrt {K _ {\mathrm {a} _ {1}} K _ {\mathrm {a} _ {2}}} \times 1 0 ^ {- \Delta \mathrm {p H}}
+\left[ \mathrm {H} ^ {+} \right] _ {\mathrm {e p l}} = \left[ \mathrm {H} ^ {+} \right] _ {\mathrm {s p l}} \times 10 ^ {- \Delta \mathrm {p H}} = \sqrt {K _ {\mathrm {a} _ {1}} K _ {\mathrm {a} _ {2}}} \times 10 ^ {- \Delta \mathrm {p H}}
 $$
 
 又
@@ -4087,7 +4087,7 @@ $$
 假设第二滴定终点与化学计量点的 $\mathrm{pH}$ 差为 $\Delta \mathrm{pH}^{\prime}$ ，则
 
 $$
-\left[ \mathrm {H A} ^ {-} \right] _ {\mathrm {e p 2}} = \left[ \mathrm {H A} ^ {-} \right] _ {\mathrm {s p 2}} \times 1 0 ^ {- \Delta \mathrm {p H}}, \left[ \mathrm {O H} ^ {-} \right] _ {\mathrm {e p 2}} = \left[ \mathrm {O H} ^ {-} \right] _ {\mathrm {s p 2}} \times 1 0 ^ {\Delta \mathrm {p H}}
+\left[ \mathrm {H A} ^ {-} \right] _ {\mathrm {e p 2}} = \left[ \mathrm {H A} ^ {-} \right] _ {\mathrm {s p 2}} \times 10 ^ {- \Delta \mathrm {p H}}, \left[ \mathrm {O H} ^ {-} \right] _ {\mathrm {e p 2}} = \left[ \mathrm {O H} ^ {-} \right] _ {\mathrm {s p 2}} \times 10 ^ {\Delta \mathrm {p H}}
 $$
 
 根据第二计量点时溶液的质子平衡方程可知
@@ -4143,7 +4143,7 @@ $$
 滴定至甲基橙变黄 $(\mathrm{pH} = 4.4)$ 时
 
 $$
-\begin{array}{l} \left[ \mathrm {H P O} _ {1} ^ {2 -} \right] _ {\mathrm {e p l}} = \frac {K _ {\mathrm {B} 2} \left[ \mathrm {H} _ {2} \mathrm {P O} _ {4} ^ {-} \right] _ {\mathrm {e p l}}}{\left[ \mathrm {H} ^ {+} \right] _ {\mathrm {e p l}}} \approx \frac {6 . 3 \times 1 0 ^ {- 8} \times 0 . 0 5 0}{3 . 9 8 \times 1 0 ^ {- 5}} = 7. 9 \times 1 0 ^ {- 5} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \left[ \mathrm {H} _ {3} \mathrm {P O} _ {4} \right] _ {\mathrm {e p l}} = \frac {\left[ \mathrm {H} ^ {+} \right] _ {\mathrm {e p l}} \left[ \mathrm {H} _ {2} \mathrm {P O} _ {4} ^ {-} \right] _ {\mathrm {e p l}}}{K _ {\mathrm {s} 1}} \approx \frac {3 . 9 8 \times 1 0 ^ {- 5} \times 0 . 0 5 0}{7 . 6 \times 1 0 ^ {- 3}} = 2. 6 \times 1 0 ^ {- 4} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \end{array}
+\begin{array}{l} \left[ \mathrm {H P O} _ {1} ^ {2 -} \right] _ {\mathrm {e p l}} = \frac {K _ {\mathrm {B} 2} \left[ \mathrm {H} _ {2} \mathrm {P O} _ {4} ^ {-} \right] _ {\mathrm {e p l}}}{\left[ \mathrm {H} ^ {+} \right] _ {\mathrm {e p l}}} \approx \frac {6.3 \times 10 ^ {- 8} \times 0.050}{3.98 \times 10 ^ {- 5}} = 7.9 \times 10 ^ {- 5} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \left[ \mathrm {H} _ {3} \mathrm {P O} _ {4} \right] _ {\mathrm {e p l}} = \frac {\left[ \mathrm {H} ^ {+} \right] _ {\mathrm {e p l}} \left[ \mathrm {H} _ {2} \mathrm {P O} _ {4} ^ {-} \right] _ {\mathrm {e p l}}}{K _ {\mathrm {s} 1}} \approx \frac {3.98 \times 10 ^ {- 5} \times 0.050}{7.6 \times 10 ^ {- 3}} = 2.6 \times 10 ^ {- 4} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \\ \end{array}
 $$
 
 代入上式得
@@ -4233,7 +4233,7 @@ $$
 对于一些极弱的酸碱，有时可利用化学反应使其转变为比较强的酸碱再进行滴定，一般将此称为强化法。例如，硼酸为极弱酸，它在水溶液中按下式解离：
 
 $$
-\mathrm {B} (\mathrm {O H}) _ {3} + 2 \mathrm {H} _ {2} \mathrm {O} \rightleftharpoons \mathrm {H} _ {3} \mathrm {O} ^ {+} + \mathrm {B} (\mathrm {O H}) _ {4} ^ {-} \quad K _ {\mathrm {a}} = 5. 8 \times 1 0 ^ {- 1 0}
+\mathrm {B} (\mathrm {O H}) _ {3} + 2 \mathrm {H} _ {2} \mathrm {O} \rightleftharpoons \mathrm {H} _ {3} \mathrm {O} ^ {+} + \mathrm {B} (\mathrm {O H}) _ {4} ^ {-} \quad K _ {\mathrm {a}} = 5.8 \times 10 ^ {- 10}
 $$
 
 由于硼酸的酸性极弱，故不能用 $\mathrm{NaOH}$ 直接准确滴定。但如果向硼酸溶液中加入大量甘油或甘露醇，由于它们与硼酸根形成稳定的“配位化合物”①，使得硼酸在水溶液中的解离大大增强，以至于可被滴定。譬如，当溶液中有大量甘露醇存在时，硼酸将按下式解离：
@@ -4253,13 +4253,13 @@ $$
 钢铁和矿石等试样中磷的测定也可采用酸碱滴定法。在硝酸介质中，磷酸与钼酸铵反应，生成黄色磷钼酸铵沉淀：
 
 $$
-\mathrm {P O} _ {4} ^ {3 -} + 1 2 \mathrm {M o O} _ {4} ^ {2 -} + 2 \mathrm {N H} _ {4} ^ {+} + 2 5 \mathrm {H} ^ {+} \rightleftharpoons (\mathrm {N H} _ {4}) _ {2} \mathrm {H P M o} _ {1 2} \mathrm {O} _ {4 0} \cdot \mathrm {H} _ {2} \mathrm {O} \downarrow + 1 1 \mathrm {H} _ {2} \mathrm {O}
+\mathrm {P O} _ {4} ^ {3 -} + 12 \mathrm {M o O} _ {4} ^ {2 -} + 2 \mathrm {N H} _ {4} ^ {+} + 25 \mathrm {H} ^ {+} \rightleftharpoons (\mathrm {N H} _ {4}) _ {2} \mathrm {H P M o} _ {12} \mathrm {O} _ {40} \cdot \mathrm {H} _ {2} \mathrm {O} \downarrow + 11 \mathrm {H} _ {2} \mathrm {O}
 $$
 
 沉淀经过滤后，用水洗涤，然后将其溶于定量且过量的 $\mathrm{NaOH}$ 标准溶液中：
 
 $$
-\left(\mathrm {N H} _ {4}\right) _ {2} \mathrm {H P M o} _ {1 2} \mathrm {O} _ {4 0} \cdot \mathrm {H} _ {2} \mathrm {O} + 2 7 \mathrm {O H} ^ {-} \rightleftharpoons \mathrm {P O} _ {4} ^ {3 -} + 1 2 \mathrm {M o O} _ {4} ^ {2 -} + 2 \mathrm {N H} _ {3} + 1 6 \mathrm {H} _ {2} \mathrm {O}
+\left(\mathrm {N H} _ {4}\right) _ {2} \mathrm {H P M o} _ {12} \mathrm {O} _ {40} \cdot \mathrm {H} _ {2} \mathrm {O} + 27 \mathrm {O H} ^ {-} \rightleftharpoons \mathrm {P O} _ {4} ^ {3 -} + 12 \mathrm {M o O} _ {4} ^ {2 -} + 2 \mathrm {N H} _ {3} + 16 \mathrm {H} _ {2} \mathrm {O}
 $$
 
 过量的 $\mathrm{NaOH}$ 用 $\mathrm{HNO}_3$ 标准溶液返滴定至酚酞刚好退色为终点（ $\mathrm{pH} \approx 8$ ），这
@@ -4273,7 +4273,7 @@ $$
 由此可把总反应式写成：
 
 $$
-\left(\mathrm {N H} _ {4}\right) _ {2} \mathrm {H P M o} _ {1 2} \mathrm {O} _ {4 0} \cdot \mathrm {H} _ {2} \mathrm {O} + 2 4 \mathrm {O H} ^ {-} \rightleftharpoons \mathrm {H P O} _ {4} ^ {2 -} + 1 2 \mathrm {M o O} _ {4} ^ {2 -} + 2 \mathrm {N H} _ {4} ^ {+} + 1 3 \mathrm {H} _ {2} \mathrm {O}
+\left(\mathrm {N H} _ {4}\right) _ {2} \mathrm {H P M o} _ {12} \mathrm {O} _ {40} \cdot \mathrm {H} _ {2} \mathrm {O} + 24 \mathrm {O H} ^ {-} \rightleftharpoons \mathrm {H P O} _ {4} ^ {2 -} + 12 \mathrm {M o O} _ {4} ^ {2 -} + 2 \mathrm {N H} _ {4} ^ {+} + 13 \mathrm {H} _ {2} \mathrm {O}
 $$
 
 因此，磷与 $\mathrm{NaOH}$ 的化学计量关系为 $1:24$ ，试样中磷的质量分数为
@@ -4349,7 +4349,7 @@ $$
 解
 
 $$
-\begin{array}{l} w_{\text{蛋白质}} = \frac{cV_{\mathrm{HCl}}\times M_{\mathrm{N}}\times6.25}{m_{\mathrm{s}}}\times 100\% \\ = \frac {0 . 1 0 0 0 \mathrm {mol} \cdot \mathrm {L} ^ {- 1} \times 2 1 . 2 0 \times 1 0 ^ {- 3} \mathrm {L} \times 1 4 . 0 1 \mathrm {g} \cdot \mathrm {mol} ^ {- 1} \times 6 . 2 5}{0 . 2 5 0 0 \mathrm {g}} \times 1 0 0 \% = 74.25 \% \\ \end{array}
+\begin{array}{l} w_{\text{蛋白质}} = \frac{cV_{\mathrm{HCl}}\times M_{\mathrm{N}}\times6.25}{m_{\mathrm{s}}}\times 100\% \\ = \frac {0.1000 \mathrm {mol} \cdot \mathrm {L} ^ {- 1} \times 21.20 \times 10 ^ {- 3} \mathrm {L} \times 14.01 \mathrm {g} \cdot \mathrm {mol} ^ {- 1} \times 6.25}{0.2500 \mathrm {g}} \times 100 \% = 74.25 \% \\ \end{array}
 $$
 
 # 7. 醛和酮的测定
@@ -4471,19 +4471,19 @@ $$
 如果是在乙酸介质中，由于乙酸的碱性比水弱，在这种情况下，这四种酸就不能全部将其质子转移给HAc了，并且在程度上产生差别，如
 
 $$
-\mathrm {H C l O} _ {4} + \mathrm {H A c} \rightleftharpoons \mathrm {H} _ {2} \mathrm {A c} ^ {+} + \mathrm {C l O} _ {4} ^ {-} \quad \mathrm {p K} _ {\mathrm {a}} = 5. 8
+\mathrm {H C l O} _ {4} + \mathrm {H A c} \rightleftharpoons \mathrm {H} _ {2} \mathrm {A c} ^ {+} + \mathrm {C l O} _ {4} ^ {-} \quad \mathrm {p K} _ {\mathrm {a}} = 5.8
 $$
 
 $$
-\mathrm {H} _ {2} \mathrm {S O} _ {4} + \mathrm {H A c} \rightleftharpoons \mathrm {H} _ {2} \mathrm {A c} ^ {+} + \mathrm {H S O} _ {4} ^ {-} \quad \mathrm {p K} _ {\mathrm {a}} = 8. 2
+\mathrm {H} _ {2} \mathrm {S O} _ {4} + \mathrm {H A c} \rightleftharpoons \mathrm {H} _ {2} \mathrm {A c} ^ {+} + \mathrm {H S O} _ {4} ^ {-} \quad \mathrm {p K} _ {\mathrm {a}} = 8.2
 $$
 
 $$
-\mathrm {H C l} + \mathrm {H A c} \rightleftharpoons \mathrm {H} _ {2} \mathrm {A c} ^ {+} + \mathrm {C l} ^ {-} \quad \mathrm {p K} _ {\mathrm {a}} = 8. 8
+\mathrm {H C l} + \mathrm {H A c} \rightleftharpoons \mathrm {H} _ {2} \mathrm {A c} ^ {+} + \mathrm {C l} ^ {-} \quad \mathrm {p K} _ {\mathrm {a}} = 8.8
 $$
 
 $$
-\mathrm {H N O} _ {3} + \mathrm {H A c} \rightleftharpoons \mathrm {H} _ {2} \mathrm {A c} ^ {+} + \mathrm {N O} _ {3} ^ {-} \quad \mathrm {p K} _ {\mathrm {a}} = 9. 4
+\mathrm {H N O} _ {3} + \mathrm {H A c} \rightleftharpoons \mathrm {H} _ {2} \mathrm {A c} ^ {+} + \mathrm {N O} _ {3} ^ {-} \quad \mathrm {p K} _ {\mathrm {a}} = 9.4
 $$
 
 这种能区分酸（或碱）的强弱的效应称为分辨效应（又叫区分效应，differentiating effect）。具有分辨效应的溶剂称为分辨性溶剂。在这里，乙酸是 $\mathrm{HClO_4}$ 、 $\mathrm{H}_2\mathrm{SO}_4$ 、HCl和 $\mathrm{HNO}_3$ 的分辨率溶剂。
@@ -4678,17 +4678,17 @@ h. $0.050\mathrm{mol}\cdot \mathrm{L}^{-1}\mathrm{CH}_3\mathrm{CH}_2\mathrm{NH}_
 i. $0.060\mathrm{mol}\cdot \mathrm{L}^{-1}$ HCl和 $0.050\mathrm{mol}\cdot \mathrm{L}^{-1}$ 氯乙酸钠（ $\mathrm{ClCH_2COONa)}$ ）混合溶液。
 
 $$
-(a. 8. 7 2; b. 5. 2 8; c. 9. 2 3; d. 9. 7 0; e. 5. 9 7;
+(a. 8.72; b. 5.28; c. 9.23; d. 9.70; e. 5.97;
 $$
 
 $$
-f. 1 2. 9 7; g. 6. 7 4; h. 5. 2 7; i. 1. 8 4)
+f. 12.97; g. 6.74; h. 5.27; i. 1.84)
 $$
 
 4. 人体血液的 $\mathrm{pH}$ 约为 $7.40, \mathrm{H}_{2} \mathrm{CO}_{3}, \mathrm{HCO}_{3}^{-}$ 和 $\mathrm{CO}_{3}^{2-}$ 在其中的分布分数各为多少？
 
 $$
-(0. 0 8 1 8, 0. 9 1 8, 0. 0 0 1)
+(0.0818, 0.918, 0.001)
 $$
 
 5. 某混合溶液含有 $0.10\mathrm{mol}\cdot \mathrm{L}^{-1}\mathrm{HCl}, 2.0\times 10^{-4}\mathrm{mol}\cdot \mathrm{L}^{-1}\mathrm{NaHSO}_4$ 和 $2.0\times 10^{-6}\mathrm{mol}\cdot \mathrm{L}^{-1}\mathrm{HAc}$ ，计算：
@@ -4697,31 +4697,31 @@ a. 此混合溶液的 $\mathrm{pH}$
 b. 加入等体积 $0.10 \mathrm{~mol} \cdot \mathrm{L}^{-1} \mathrm{NaOH}$ 后溶液的 $\mathrm{pH}$ 。
 
 $$
-(a. 1. 0 0; b. 4. 0 0)
+(a. 1.00; b. 4.00)
 $$
 
 6. 将 $\mathrm{H}_2\mathrm{C}_2\mathrm{O}_4$ 加入到 $0.10\mathrm{mol}\cdot \mathrm{L}^{-1}\mathrm{Na}_2\mathrm{CO}_3$ 溶液中（忽略溶液体积的变化），使其总浓度为 $0.020\mathrm{mol}\cdot \mathrm{L}^{-1}$ ，求该溶液的 $\mathrm{pH}$ 。已知 $\mathrm{H}_2\mathrm{C}_2\mathrm{O}_4$ 的 $\mathrm{pK}_{a_1} = 1.20, \mathrm{pK}_{a_2} = 4.20; \mathrm{H}_2\mathrm{CO}_3$ 的 $\mathrm{pK}_{a_1} = 6.40, \mathrm{pK}_{a_2} = 10.20$ 。
 
 $$
-(1 0. 3 8) \tag {10.38}
+(10.38) \tag {10.38}
 $$
 
 7. 已知 $\mathrm{Cr}^{3+}$ 的一级水解反应常数为 $10^{-3.8}$ ，若只考虑一级水解，则 $0.010\mathrm{mol}\cdot \mathrm{L}^{-1}\mathrm{Cr(ClO_4)_3}$ 的 $\mathrm{pH}$ 为多少？此时溶液中 $\mathrm{Cr(OH)}^{2+}$ 的分布分数是多大？
 
 $$
-(2. 9 3, 0. 1 2)
+(2.93, 0.12)
 $$
 
 8. 欲使 $100 \mathrm{~mL} 0.10 \mathrm{~mol} \cdot \mathrm{L}^{-1} \mathrm{HCl}$ 溶液的 $\mathrm{pH}$ 从 1.00 增加至 4.44，需加入固体 $\mathrm{NaAc}$ 多少克（忽略溶液体积的变化）？
 
 $$
-(1. 2 3 \mathrm {g})
+(1.23 \mathrm {g})
 $$
 
 9. 今用某弱酸 HB 及其盐配制缓冲溶液，其中 HB 的浓度为 $0.25 \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ 。于 $100 \, \mathrm{mL}$ 该缓冲溶液中加入 $200 \, \mathrm{mg} \, \mathrm{NaOH}$ （忽略溶液体积的变化），所得溶液的 $\mathrm{pH}$ 为 5.60。原来配制的缓冲溶液的 $\mathrm{pH}$ 为多少？已知 HB 的 $K_{\mathrm{a}} = 5.0 \times 10^{-6}$ 。
 
 $$
-(5. 4 4) \tag {5.44}
+(5.44) \tag {5.44}
 $$
 
 10. 正常情况下，人体血浆中 $\mathrm{H}_2\mathrm{CO}_3 + \mathrm{CO}_2$ 的浓度为 $1.2 \times 10^{-3} \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ ， $\mathrm{HCO}_3^-$ 的平衡浓度为 $2.4 \times 10^{-2} \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ 。假设某人因腹泻使血浆中 $\mathrm{HCO}_3^-$ 浓度降低至原来的 $90\%$ ，是否会引起酸中毒？已知 $\mathrm{H}_2\mathrm{CO}_3$ 的 $\mathrm{pK}_{\mathrm{a1}} = 6.10, \mathrm{pH} < 7.35$ 时会引起酸中毒。
@@ -4733,13 +4733,13 @@ $$
 11. 配制氨基乙酸总浓度为 $0.10\mathrm{mol}\cdot \mathrm{L}^{-1}$ 的缓冲溶液 $(\mathrm{pH} = 2.0)100\mathrm{mL}$ ，需氨基乙酸多少克？还需加多少毫升 $1\mathrm{mol}\cdot \mathrm{L}^{-1}$ 酸或碱，所得溶液的缓冲容量为多大？
 
 $$
-(0. 7 5 \mathrm {g}, 6. 9 \mathrm {m L} 0. 0 4 9 \mathrm {m o l} \cdot \mathrm {p H} ^ {- 1})
+(0.75 \mathrm {g}, 6.9 \mathrm {m L} 0.049 \mathrm {m o l} \cdot \mathrm {p H} ^ {- 1})
 $$
 
 12. 称取 $20\mathrm{g}$ 六亚甲基四胺，加浓 $\mathrm{HCl}$ （按 $12\mathrm{mol}\cdot \mathrm{L}^{-1}$ 计） $4.0\mathrm{mL}$ ，稀释至 $100\mathrm{mL}$ ，溶液的 $\mathsf{pH}$ 是多少？此溶液是否为缓冲溶液？
 
 $$
-(5. 4 5, \text {是})
+(5.45, \text {是})
 $$
 
 13. 计算下列 $\mathrm{pH}$ 标准溶液的 $\mathrm{pH}$ （考虑离子强度的影响），并与标准值相比较：
@@ -4919,13 +4919,13 @@ $$
 当 $\mathrm{H}_4\mathrm{Y}$ 溶解于水时，如果溶液的酸度很高，它的两个羧基可再接受 $\mathrm{H}^+$ ，形成 $\mathrm{H}_6\mathrm{Y}^{2+}$ ，这样，EDTA 就相当于六元酸（EDTA 本身是四元酸），有六级离平衡：
 
 $$
-\begin{array}{l} \mathrm {H} _ {6} \mathrm {Y} ^ {2 +} \rightleftharpoons \mathrm {H} ^ {+} + \mathrm {H} _ {5} \mathrm {Y} ^ {+} \quad K _ {\mathrm {a} 1} = 1. 3 \times 1 0 ^ {- 1} = 1 0 ^ {- 0. 8 8} \\ \mathrm {H} _ {5} \mathrm {Y} ^ {+} \rightleftharpoons \mathrm {H} ^ {+} + \mathrm {H} _ {4} \mathrm {Y} \quad K _ {\mathrm {a} _ {2}} = 2. 5 \times 1 0 ^ {- 2} = 1 0 ^ {- 1. 6} \\ \mathrm {H} _ {4} \mathrm {Y} \rightleftharpoons \mathrm {H} ^ {+} + \mathrm {H} _ {3} \mathrm {Y} ^ {-} \quad K _ {\mathrm {a} _ {2}} = 1. 0 \times 1 0 ^ {- 2} = 1 0 ^ {- 2. 0} \\ \mathrm {H} _ {3} \mathrm {Y} ^ {-} \rightleftharpoons \mathrm {H} ^ {+} + \mathrm {H} _ {2} \mathrm {Y} ^ {2 -} \quad K _ {\mathrm {a} _ {4}} = 2. 1 4 \times 1 0 ^ {- 3} = 1 0 ^ {- 2. 6 7} \\ \mathrm {H} _ {2} \mathrm {Y} ^ {2 -} \rightleftharpoons \mathrm {H} ^ {+} + \mathrm {H Y} ^ {3 -} \quad K _ {\mathrm {a} _ {5}} = 6. 9 2 \times 1 0 ^ {- 7} = 1 0 ^ {- 6. 1 6} \\ \mathrm {H Y} ^ {3 -} \rightleftharpoons \mathrm {H} ^ {+} + \mathrm {Y} ^ {4 -} \quad K _ {\mathrm {a g}} = 5. 5 0 \times 1 0 ^ {- 1 1} = 1 0 ^ {- 1 0. 2 6} \\ \end{array}
+\begin{array}{l} \mathrm {H} _ {6} \mathrm {Y} ^ {2 +} \rightleftharpoons \mathrm {H} ^ {+} + \mathrm {H} _ {5} \mathrm {Y} ^ {+} \quad K _ {\mathrm {a} 1} = 1.3 \times 10 ^ {- 1} = 10 ^ {- 0.88} \\ \mathrm {H} _ {5} \mathrm {Y} ^ {+} \rightleftharpoons \mathrm {H} ^ {+} + \mathrm {H} _ {4} \mathrm {Y} \quad K _ {\mathrm {a} _ {2}} = 2.5 \times 10 ^ {- 2} = 10 ^ {- 1.6} \\ \mathrm {H} _ {4} \mathrm {Y} \rightleftharpoons \mathrm {H} ^ {+} + \mathrm {H} _ {3} \mathrm {Y} ^ {-} \quad K _ {\mathrm {a} _ {2}} = 1.0 \times 10 ^ {- 2} = 10 ^ {- 2.0} \\ \mathrm {H} _ {3} \mathrm {Y} ^ {-} \rightleftharpoons \mathrm {H} ^ {+} + \mathrm {H} _ {2} \mathrm {Y} ^ {2 -} \quad K _ {\mathrm {a} _ {4}} = 2.14 \times 10 ^ {- 3} = 10 ^ {- 2.67} \\ \mathrm {H} _ {2} \mathrm {Y} ^ {2 -} \rightleftharpoons \mathrm {H} ^ {+} + \mathrm {H Y} ^ {3 -} \quad K _ {\mathrm {a} _ {5}} = 6.92 \times 10 ^ {- 7} = 10 ^ {- 6.16} \\ \mathrm {H Y} ^ {3 -} \rightleftharpoons \mathrm {H} ^ {+} + \mathrm {Y} ^ {4 -} \quad K _ {\mathrm {a g}} = 5.50 \times 10 ^ {- 11} = 10 ^ {- 10.26} \\ \end{array}
 $$
 
 以形成反应与质子化常数表示如下：
 
 $$
-\begin{array}{l} \mathrm {Y} ^ {4 -} + \mathrm {H} ^ {+} \rightleftharpoons \mathrm {H Y} ^ {3 -} \quad K _ {1} ^ {\mathrm {H}} = \frac {[ \mathrm {H Y} ^ {3 -} ]}{[ \mathrm {H} ^ {+} ] [ \mathrm {Y} ^ {4 -} ]} = \frac {1}{K _ {\mathrm {a} _ {5}}} = 1. 8 2 \times 1 0 ^ {1 0} = 1 0 ^ {1 0. 2 6} \\ \mathrm {H Y} ^ {3 -} + \mathrm {H} ^ {+} \rightleftharpoons \mathrm {H} _ {2} \mathrm {Y} ^ {2 -} \quad K _ {2} ^ {\mathrm {H}} = \frac {[ \mathrm {H} _ {2} \mathrm {Y} ^ {2 -} ]}{[ \mathrm {H} ^ {+} ] [ \mathrm {Y} ^ {3 -} ]} = \frac {1}{K _ {\mathrm {a} _ {5}}} = 1. 4 4 \times 1 0 ^ {6} = 1 0 ^ {6. 1 6} \\ \mathrm {H} _ {2} \mathrm {Y} ^ {2 -} + \mathrm {H} ^ {+} \rightleftharpoons \mathrm {H} _ {3} \mathrm {Y} ^ {-} \quad K _ {3} ^ {\mathrm {H}} = \frac {[ \mathrm {H} _ {3} \mathrm {Y} ^ {-} ]}{[ \mathrm {H} ^ {+} ] [ \mathrm {H} _ {2} \mathrm {Y} ^ {2 -} ]} = \frac {1}{K _ {\mathrm {a} _ {4}}} = 4. 6 8 \times 1 0 ^ {2} = 1 0 ^ {2. 6 7} \\ \mathrm {H} _ {3} \mathrm {Y} ^ {-} + \mathrm {H} ^ {+} \rightleftharpoons \mathrm {H} _ {4} \mathrm {Y} K _ {4} ^ {\mathrm {H}} = \frac {[ \mathrm {H} _ {4} \mathrm {Y} ]}{[ \mathrm {H} ^ {+} ] [ \mathrm {H} _ {3} \mathrm {Y} ^ {-} ]} = \frac {1}{K _ {\mathrm {a} _ {3}}} = 1. 0 \times 1 0 ^ {2} = 1 0 ^ {2. 0} \\ \mathrm {H} _ {4} \mathrm {Y} + \mathrm {H} ^ {+} \rightleftharpoons \mathrm {H} _ {5} \mathrm {Y} ^ {+} \quad K _ {5} ^ {\mathrm {H}} = \frac {[ \mathrm {H} _ {5} \mathrm {Y} ^ {+} ]}{[ \mathrm {H} ^ {+} ] [ \mathrm {H} _ {4} \mathrm {Y} ]} = \frac {1}{K _ {\mathrm {a} _ {2}}} = 4. 0 \times 1 0 = 1 0 ^ {1. 6} \\ \mathrm {H} _ {5} \mathrm {Y} ^ {+} + \mathrm {H} ^ {+} \rightleftharpoons \mathrm {H} _ {6} \mathrm {Y} ^ {2 +} \quad K _ {6} ^ {\mathrm {H}} = \frac {[ \mathrm {H} _ {6} \mathrm {Y} ^ {2 +} ]}{[ \mathrm {H} ^ {+} ] [ \mathrm {H} _ {5} \mathrm {Y} ^ {+} ]} = \frac {1}{K _ {\mathrm {a} _ {1}}} = 7. 6 9 = 1 0 ^ {0. 8 8} \\ \end{array}
+\begin{array}{l} \mathrm {Y} ^ {4 -} + \mathrm {H} ^ {+} \rightleftharpoons \mathrm {H Y} ^ {3 -} \quad K _ {1} ^ {\mathrm {H}} = \frac {[ \mathrm {H Y} ^ {3 -} ]}{[ \mathrm {H} ^ {+} ] [ \mathrm {Y} ^ {4 -} ]} = \frac {1}{K _ {\mathrm {a} _ {5}}} = 1.82 \times 10 ^ {10} = 10 ^ {10.26} \\ \mathrm {H Y} ^ {3 -} + \mathrm {H} ^ {+} \rightleftharpoons \mathrm {H} _ {2} \mathrm {Y} ^ {2 -} \quad K _ {2} ^ {\mathrm {H}} = \frac {[ \mathrm {H} _ {2} \mathrm {Y} ^ {2 -} ]}{[ \mathrm {H} ^ {+} ] [ \mathrm {Y} ^ {3 -} ]} = \frac {1}{K _ {\mathrm {a} _ {5}}} = 1.44 \times 10 ^ {6} = 10 ^ {6.16} \\ \mathrm {H} _ {2} \mathrm {Y} ^ {2 -} + \mathrm {H} ^ {+} \rightleftharpoons \mathrm {H} _ {3} \mathrm {Y} ^ {-} \quad K _ {3} ^ {\mathrm {H}} = \frac {[ \mathrm {H} _ {3} \mathrm {Y} ^ {-} ]}{[ \mathrm {H} ^ {+} ] [ \mathrm {H} _ {2} \mathrm {Y} ^ {2 -} ]} = \frac {1}{K _ {\mathrm {a} _ {4}}} = 4.68 \times 10 ^ {2} = 10 ^ {2.67} \\ \mathrm {H} _ {3} \mathrm {Y} ^ {-} + \mathrm {H} ^ {+} \rightleftharpoons \mathrm {H} _ {4} \mathrm {Y} K _ {4} ^ {\mathrm {H}} = \frac {[ \mathrm {H} _ {4} \mathrm {Y} ]}{[ \mathrm {H} ^ {+} ] [ \mathrm {H} _ {3} \mathrm {Y} ^ {-} ]} = \frac {1}{K _ {\mathrm {a} _ {3}}} = 1.0 \times 10 ^ {2} = 10 ^ {2.0} \\ \mathrm {H} _ {4} \mathrm {Y} + \mathrm {H} ^ {+} \rightleftharpoons \mathrm {H} _ {5} \mathrm {Y} ^ {+} \quad K _ {5} ^ {\mathrm {H}} = \frac {[ \mathrm {H} _ {5} \mathrm {Y} ^ {+} ]}{[ \mathrm {H} ^ {+} ] [ \mathrm {H} _ {4} \mathrm {Y} ]} = \frac {1}{K _ {\mathrm {a} _ {2}}} = 4.0 \times 10 = 10 ^ {1.6} \\ \mathrm {H} _ {5} \mathrm {Y} ^ {+} + \mathrm {H} ^ {+} \rightleftharpoons \mathrm {H} _ {6} \mathrm {Y} ^ {2 +} \quad K _ {6} ^ {\mathrm {H}} = \frac {[ \mathrm {H} _ {6} \mathrm {Y} ^ {2 +} ]}{[ \mathrm {H} ^ {+} ] [ \mathrm {H} _ {5} \mathrm {Y} ^ {+} ]} = \frac {1}{K _ {\mathrm {a} _ {1}}} = 7.69 = 10 ^ {0.88} \\ \end{array}
 $$
 
 在水溶液中，EDTA可以 $\mathrm{H}_6\mathrm{Y}^{2 + }$ 、 $\mathrm{H}_5\mathrm{Y}^+$ 、 $\mathrm{H}_4\mathrm{Y}$ 、 $\mathrm{H}_3\mathrm{Y}^-$ 、 $\mathrm{H}_2\mathrm{Y}^{2 - }$ 、 $\mathrm{HY}^{3 - }$ 和 $\mathrm{Y}^{4 - }$ 等7种形式存在，它们的分布分数与 $\mathsf{pH}$ 有关。图6-1是EDTA溶液中各种存在型体的分布图。特定 $\mathsf{pH}$ 下有关型体的分布分数可以很方便地表示
@@ -4984,7 +4984,7 @@ $$
 $$
 
 $$
-K _ {\text {稳}} = \frac {[ \mathrm {C a Y} ^ {2 -} ]}{[ \mathrm {C a} ^ {2 +} ] [ \mathrm {Y} ^ {4 -} ]} = 4. 9 0 \times 1 0 ^ {1 0} \quad \lg K _ {\text {稳}} = 1 0. 6 9
+K _ {\text {稳}} = \frac {[ \mathrm {C a Y} ^ {2 -} ]}{[ \mathrm {C a} ^ {2 +} ] [ \mathrm {Y} ^ {4 -} ]} = 4.90 \times 10 ^ {10} \quad \lg K _ {\text {稳}} = 10.69
 $$
 
 $K_{\text{稳}}$ 也常用 $K$ 来表示。部分金属离子与EDTA的配位化合物的 $\lg K_{\text{稳}}$ 值列于附录表9。 $K_{\text{稳}}$ 的倒数称为 $K_{\text{不稳}}$ 。
@@ -5070,11 +5070,11 @@ $$
 解查附录表8可知铜氨配离子的 $\mathrm{lg}\beta_{1}\sim \mathrm{lg}\beta_{5}$ 分别为4.31、7.98、11.02、13.32、12.86。
 
 $$
-1 + \sum_ {i = 1} ^ {5} \beta_ {i} [ L ] ^ {i} = 1 + 1 0 ^ {4. 3 1} \times 1 0 ^ {- 3. 0 0} + 1 0 ^ {7. 9 8} \times 1 0 ^ {- 3. 0 0 \times 2} + 1 0 ^ {1 1. 0 2} \times 1 0 ^ {- 3. 0 0 \times 3} +
+1 + \sum_ {i = 1} ^ {5} \beta_ {i} [ L ] ^ {i} = 1 + 10 ^ {4.31} \times 10 ^ {- 3.00} + 10 ^ {7.98} \times 10 ^ {- 3.00 \times 2} + 10 ^ {11.02} \times 10 ^ {- 3.00 \times 3} +
 $$
 
 $$
-\begin{array}{l} 1 0 ^ {1 3. 3 2} \times 1 0 ^ {- 3. 0 0 \times 4} + 1 0 ^ {1 2. 8 6} \times 1 0 ^ {- 3. 0 0 \times 5} \\ = 1 + 2 0. 4 + 9 5. 5 + 1 0 5 + 2 0. 9 + 0. 0 0 7 2 \\ = 2 4 2. 8 \\ \end{array}
+\begin{array}{l} 10 ^ {13.32} \times 10 ^ {- 3.00 \times 4} + 10 ^ {12.86} \times 10 ^ {- 3.00 \times 5} \\ = 1 + 20.4 + 95.5 + 105 + 20.9 + 0.0072 \\ = 242.8 \\ \end{array}
 $$
 
 $$
@@ -5118,7 +5118,7 @@ $$
 当 $[\mathrm{Cl}^{-}] = 10^{-3.20}\mathrm{mol}\cdot \mathrm{L}^{-1}$ 时
 
 $$
-\begin{array}{l} \bar {n} = \frac {\sum_ {i = 1} ^ {4} i \beta_ {i} \left[ \mathrm {C l} ^ {-} \right] ^ {i}}{1 + \sum_ {i = 1} ^ {4} \beta_ {i} \left[ \mathrm {C l} ^ {-} \right] ^ {i}} \\ = \frac {\left[ \begin{array}{l} 1 0 ^ {6 . 7 4} \times 1 0 ^ {- 3 . 2 0} + 2 \times 1 0 ^ {1 3 . 2 2} \times 1 0 ^ {- 3 . 2 0 \times 2} + \\ 3 \times 1 0 ^ {1 4 . 0 7} \times 1 0 ^ {- 3 . 2 0 \times 3} + 4 \times 1 0 ^ {1 5 . 0 7} \times 1 0 ^ {- 3 . 2 0 \times 4} \end{array} \right]}{\left[ \begin{array}{l} 1 + 1 0 ^ {6 . 7 4} \times 1 0 ^ {- 3 . 2 0} + 1 0 ^ {1 3 . 2 2} \times 1 0 ^ {- 3 . 2 0 \times 2} + \\ 1 0 ^ {1 4 . 0 7} \times 1 0 ^ {- 3 . 2 0 \times 3} + 1 0 ^ {1 5 . 0 7} \times 1 0 ^ {- 3 . 2 0 \times 4} \end{array} \right]} \\ = 2. 0 0 4 \approx 2. 0 \\ \end{array}
+\begin{array}{l} \bar {n} = \frac {\sum_ {i = 1} ^ {4} i \beta_ {i} \left[ \mathrm {C l} ^ {-} \right] ^ {i}}{1 + \sum_ {i = 1} ^ {4} \beta_ {i} \left[ \mathrm {C l} ^ {-} \right] ^ {i}} \\ = \frac {\left[ \begin{array}{l} 10 ^ {6.74} \times 10 ^ {- 3.20} + 2 \times 10 ^ {13.22} \times 10 ^ {- 3.20 \times 2} + \\ 3 \times 10 ^ {14.07} \times 10 ^ {- 3.20 \times 3} + 4 \times 10 ^ {15.07} \times 10 ^ {- 3.20 \times 4} \end{array} \right]}{\left[ \begin{array}{l} 1 + 10 ^ {6.74} \times 10 ^ {- 3.20} + 10 ^ {13.22} \times 10 ^ {- 3.20 \times 2} + \\ 10 ^ {14.07} \times 10 ^ {- 3.20 \times 3} + 10 ^ {15.07} \times 10 ^ {- 3.20 \times 4} \end{array} \right]} \\ = 2.004 \approx 2.0 \\ \end{array}
 $$
 
 同样可计算出当 $[\mathrm{Cl}^{-}] = 10^{-4.20}\mathrm{mol}\cdot \mathrm{L}^{-1}$ 时， $\overline{n} = 1.996\approx 2.0$
@@ -5170,11 +5170,11 @@ $$
 解 $\alpha_{\mathrm{Y(H)}} = 1 + \beta_1^{\mathrm{H}}[\mathrm{H}^{+}] + \beta_2^{\mathrm{H}}[\mathrm{H}^{+}]^2 +\dots +\beta_6^{\mathrm{H}}[\mathrm{H}^{+}]^6$
 
 $$
-\begin{array}{l} 1 + 1 0 ^ {1 0. 2 6} \times 1 0 ^ {- 2. 0 0} + 1 0 ^ {1 0. 2 6 + 6. 1 6} \times 1 0 ^ {- 4. 0 0} + 1 0 ^ {1 0. 2 6 + 6. 1 6 + 2. 6 7} \times 1 0 ^ {- 6. 0 0} + \\ 1 0 ^ {1 0. 2 6 + 6. 1 6 + 2. 6 7 + 2. 0} \times 1 0 ^ {- 8. 0 0} + 1 0 ^ {1 0. 2 6 + 6. 1 6 + 2. 6 7 + 2. 0 + 1. 6} \times 1 0 ^ {- 1 0. 0 0} + \\ 1 0 ^ {1 0. 2 6 + 6. 1 6 + 2. 6 7 + 2. 0 + 1. 6 + 0. 9} \times 1 0 ^ {- 1 2. 0 0} \\ = 1 0 ^ {1 3. 5 1} \\ \end{array}
+\begin{array}{l} 1 + 10 ^ {10.26} \times 10 ^ {- 2.00} + 10 ^ {10.26 + 6.16} \times 10 ^ {- 4.00} + 10 ^ {10.26 + 6.16 + 2.67} \times 10 ^ {- 6.00} + \\ 10 ^ {10.26 + 6.16 + 2.67 + 2.0} \times 10 ^ {- 8.00} + 10 ^ {10.26 + 6.16 + 2.67 + 2.0 + 1.6} \times 10 ^ {- 10.00} + \\ 10 ^ {10.26 + 6.16 + 2.67 + 2.0 + 1.6 + 0.9} \times 10 ^ {- 12.00} \\ = 10 ^ {13.51} \\ \end{array}
 $$
 
 $$
-\lg \alpha_ {\mathrm {Y} (\mathrm {H})} = 1 3. 5 1
+\lg \alpha_ {\mathrm {Y} (\mathrm {H})} = 13.51
 $$
 
 由于 $\alpha$ 值的变化范围很大，取其对数值使用较为方便。EDTA在不同 $\mathrm{pH}$ 时的 $\lg \alpha_{\mathrm{Y(H)}}$ 和其他一些配体的 $\lg \alpha_{\mathrm{L(H)}}$ 见附录表10及表11。
@@ -5221,7 +5221,7 @@ $$
 解查附录表9和表10可知 $K_{\mathrm{CaY}} = 10^{10.69}$ $\mathrm{pH}6.0$ 时 $\alpha_{\mathrm{Y(H)}} = 10^{1.65}$
 
 $$
-\begin{array}{l} \alpha_ {\mathrm {Y} (\mathrm {C a})} = 1 + K _ {\mathrm {C a Y}} [ \mathrm {C a} ] \\ = 1 + 1 0 ^ {1 0. 6 9} \times 0. 0 1 0 = 1 0 ^ {8. 6 9} \\ \alpha_ {\mathrm {Y}} = \alpha_ {\mathrm {Y} (\mathrm {H})} + \alpha_ {\mathrm {Y} (\mathrm {C a})} - 1 \\ = 1 0 ^ {1. 6 5} + 1 0 ^ {8. 6 9} - 1 \approx 1 0 ^ {8. 6 9} \\ \end{array}
+\begin{array}{l} \alpha_ {\mathrm {Y} (\mathrm {C a})} = 1 + K _ {\mathrm {C a Y}} [ \mathrm {C a} ] \\ = 1 + 10 ^ {10.69} \times 0.010 = 10 ^ {8.69} \\ \alpha_ {\mathrm {Y}} = \alpha_ {\mathrm {Y} (\mathrm {H})} + \alpha_ {\mathrm {Y} (\mathrm {C a})} - 1 \\ = 10 ^ {1.65} + 10 ^ {8.69} - 1 \approx 10 ^ {8.69} \\ \end{array}
 $$
 
 例6在 $\mathrm{pH}1.5$ 的溶液中，含有浓度均为 $0.010\mathrm{mol}\cdot \mathrm{L}^{-1}$ 的EDTA、 $\mathrm{Fe}^{3 + }$ 及 $\mathrm{Ca^{2 + }}$ ，对于EDTA与 $\mathrm{Fe}^{3 + }$ 的主反应，计算 $\alpha_{\mathrm{Y(Ca)}}$ 和 $\alpha_{\mathrm{Y}}$ 。
@@ -5229,7 +5229,7 @@ $$
 解查附录表9和表10可知 $K_{\mathrm{CaY}} = 10^{10.69}$ $\mathrm{pH}1.5$ 时 $\alpha_{\mathrm{Y(H)}} = 10^{15.55}$
 
 $$
-\begin{array}{l} \alpha_ {\mathrm {Y} (\mathrm {C a})} = 1 + K _ {\mathrm {C a Y}} [ \mathrm {C a} ] \\ = 1 + 1 0 ^ {1 0. 6 9} \times 0. 0 1 0 = 1 0 ^ {8. 6 9} \\ \alpha_ {Y} = \alpha_ {Y (H)} + \alpha_ {Y (C a)} - 1 \\ = 1 0 ^ {1 5. 5 5} + 1 0 ^ {8. 6 9} - 1 \approx 1 0 ^ {1 5. 5 5} \\ \end{array}
+\begin{array}{l} \alpha_ {\mathrm {Y} (\mathrm {C a})} = 1 + K _ {\mathrm {C a Y}} [ \mathrm {C a} ] \\ = 1 + 10 ^ {10.69} \times 0.010 = 10 ^ {8.69} \\ \alpha_ {Y} = \alpha_ {Y (H)} + \alpha_ {Y (C a)} - 1 \\ = 10 ^ {15.55} + 10 ^ {8.69} - 1 \approx 10 ^ {15.55} \\ \end{array}
 $$
 
 # 2. 金属离子M的副反应及副反应系数
@@ -5269,11 +5269,11 @@ $$
 解查附录表8可知 $\left[\mathrm{AlF}_6\right]^{3 - }$ 的 $\lg \beta_{1}\sim \lg \beta_{6}$ 分别为6.15、11.15、15.00、17.75、19.36、19.84，故
 
 $$
-\begin{array}{l} \alpha_ {\mathrm {A l (F)}} = 1 + 1 0 ^ {6. 1 5} \times 0. 0 1 0 + 1 0 ^ {1 1. 1 5} \times (0. 0 1 0) ^ {2} + 1 0 ^ {1 5. 0 0} \times (0. 0 1 0) ^ {3} + \\ 1 0 ^ {1 7. 7 5} \times (0. 0 1 0) ^ {4} + 1 0 ^ {1 9. 3 6} \times (0. 0 1 0) ^ {5} + 1 0 ^ {1 9. 8 4} \times (0. 0 1 0) ^ {6} \\ = 1 + 1. 4 \times 1 0 ^ {4} + 1. 4 \times 1 0 ^ {7} + 1. 0 \times 1 0 ^ {9} + 5. 6 \times 1 0 ^ {9} + 2. 3 \times 1 0 ^ {9} + 6. 9 \times 1 0 ^ {7} \\ = 1 0 ^ {9. 9 5} \\ \end{array}
+\begin{array}{l} \alpha_ {\mathrm {A l (F)}} = 1 + 10 ^ {6.15} \times 0.010 + 10 ^ {11.15} \times (0.010) ^ {2} + 10 ^ {15.00} \times (0.010) ^ {3} + \\ 10 ^ {17.75} \times (0.010) ^ {4} + 10 ^ {19.36} \times (0.010) ^ {5} + 10 ^ {19.84} \times (0.010) ^ {6} \\ = 1 + 1.4 \times 10 ^ {4} + 1.4 \times 10 ^ {7} + 1.0 \times 10 ^ {9} + 5.6 \times 10 ^ {9} + 2.3 \times 10 ^ {9} + 6.9 \times 10 ^ {7} \\ = 10 ^ {9.95} \\ \end{array}
 $$
 
 $$
-[ \mathrm {A l} ^ {3 +} ] = \frac {0 . 1 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}}{1 0 ^ {9 . 9 5}} = 1. 1 \times 1 0 ^ {- 1 1} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
+[ \mathrm {A l} ^ {3 +} ] = \frac {0.10 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}}{10 ^ {9.95}} = 1.1 \times 10 ^ {- 11} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
 $$
 
 比较上式中右边各项数值，可知配位化合物的主要存在形式是 $\mathrm{AlF_3}$ 、 $[\mathrm{AlF_4}]^-$ 和 $[\mathrm{AlF_5}]^{2 - }$
@@ -5299,11 +5299,11 @@ $$
 解查附录表8可知 $\left[\mathrm{Zn}\left(\mathrm{NH}_{3}\right)_{4}\right]^{2+}$ 的 $\lg \beta_{1} \sim \lg \beta_{4}$ 分别为2.37、4.81、7.31、9.46，故
 
 $$
-\begin{array}{l} \alpha_ {\mathrm {Z n} \left(\mathrm {N H} _ {3}\right)} = 1 + \beta_ {1} \left[ \mathrm {N H} _ {3} \right] + \beta_ {2} \left[ \mathrm {N H} _ {3} \right] ^ {2} + \beta_ {3} \left[ \mathrm {N H} _ {3} \right] ^ {3} + \beta_ {4} \left[ \mathrm {N H} _ {3} \right] ^ {4} \\ = 1 + 1 0 ^ {2. 3 7} \times 0. 1 0 + 1 0 ^ {4. 8 4} \times (0. 1 0) ^ {2} + 1 0 ^ {7. 3 1} \times (0. 1 0) ^ {3} + 1 0 ^ {9. 4 6} \times (0. 1 0) ^ {4} \\ = 1 0 ^ {5. 4 9} \\ \end{array}
+\begin{array}{l} \alpha_ {\mathrm {Z n} \left(\mathrm {N H} _ {3}\right)} = 1 + \beta_ {1} \left[ \mathrm {N H} _ {3} \right] + \beta_ {2} \left[ \mathrm {N H} _ {3} \right] ^ {2} + \beta_ {3} \left[ \mathrm {N H} _ {3} \right] ^ {3} + \beta_ {4} \left[ \mathrm {N H} _ {3} \right] ^ {4} \\ = 1 + 10 ^ {2.37} \times 0.10 + 10 ^ {4.84} \times (0.10) ^ {2} + 10 ^ {7.31} \times (0.10) ^ {3} + 10 ^ {9.46} \times (0.10) ^ {4} \\ = 10 ^ {5.49} \\ \end{array}
 $$
 
 $$
-\alpha_ {\mathrm {Z n}} = \alpha_ {\mathrm {Z n} (\mathrm {N H} _ {3})} + \alpha_ {\mathrm {Z n} (\mathrm {O H})} - 1 = 1 0 ^ {5. 4 9} + 1 0 ^ {2. 4} - 1 = 1 0 ^ {5. 4 9}
+\alpha_ {\mathrm {Z n}} = \alpha_ {\mathrm {Z n} (\mathrm {N H} _ {3})} + \alpha_ {\mathrm {Z n} (\mathrm {O H})} - 1 = 10 ^ {5.49} + 10 ^ {2.4} - 1 = 10 ^ {5.49}
 $$
 
 计算结果表明，在上述情况下 $\alpha_{\mathrm{Zn(OH)}}$ 可忽略。
@@ -5313,11 +5313,11 @@ $$
 解查附录表8可知 $\left[\mathrm{Zn(OH)_4}\right]^{2 - }$ 的 $\lg \beta_{1}\sim \lg \beta_{4}$ 分别为 $4,4,10,1,14,2,15,5,$ $[\mathrm{OH}^{-}] = 1\times 10^{-2.0}\mathrm{mol}\cdot \mathrm{L}^{-1}$ ，故
 
 $$
-\begin{array}{l} \alpha_ {\mathrm {Z n} (\mathrm {O H})} = 1 + \beta_ {1} [ \mathrm {O H} ^ {-} ] + \beta_ {2} [ \mathrm {O H} ^ {-} ] ^ {2} + \beta_ {3} [ \mathrm {O H} ^ {-} ] ^ {3} + \beta_ {4} [ \mathrm {O H} ^ {-} ] ^ {4} \\ = 1 + 1 0 ^ {4. 4} \times 1 0 ^ {- 2. 0} + 1 0 ^ {1 0. 1} \times (1 0 ^ {- 2. 0}) ^ {2} + 1 0 ^ {1 4. 2} \times (1 0 ^ {- 2. 0}) ^ {3} + 1 0 ^ {1 5. 5} \times (1 0 ^ {- 2. 0}) ^ {4} \\ = 1 0 ^ {8. 3} \\ \end{array}
+\begin{array}{l} \alpha_ {\mathrm {Z n} (\mathrm {O H})} = 1 + \beta_ {1} [ \mathrm {O H} ^ {-} ] + \beta_ {2} [ \mathrm {O H} ^ {-} ] ^ {2} + \beta_ {3} [ \mathrm {O H} ^ {-} ] ^ {3} + \beta_ {4} [ \mathrm {O H} ^ {-} ] ^ {4} \\ = 1 + 10 ^ {4.4} \times 10 ^ {- 2.0} + 10 ^ {10.1} \times (10 ^ {- 2.0}) ^ {2} + 10 ^ {14.2} \times (10 ^ {- 2.0}) ^ {3} + 10 ^ {15.5} \times (10 ^ {- 2.0}) ^ {4} \\ = 10 ^ {8.3} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \alpha_ {\mathrm {Z n}} = \alpha_ {\mathrm {Z n} (\mathrm {N H} _ {3})} + \alpha_ {\mathrm {Z n} (\mathrm {O H})} - 1 \\ = 1 0 ^ {5. 4 9} + 1 0 ^ {8. 3} - 1 \\ = 1 0 ^ {8. 3} \\ \end{array}
+\begin{array}{l} \alpha_ {\mathrm {Z n}} = \alpha_ {\mathrm {Z n} (\mathrm {N H} _ {3})} + \alpha_ {\mathrm {Z n} (\mathrm {O H})} - 1 \\ = 10 ^ {5.49} + 10 ^ {8.3} - 1 \\ = 10 ^ {8.3} \\ \end{array}
 $$
 
 由此可见，在该条件下 $\alpha_{\mathrm{Zn(NH_3)}}$ 可略去不计。
@@ -5387,7 +5387,7 @@ $$
 解查附录表10可知在 $\mathrm{pH}5.00$ 时 $\lg \alpha_{\mathrm{Y(H)}} = 6.45$ 。根据例7的计算结果， $\lg \alpha_{\mathrm{Al(F)}} = 9.95$ ，故
 
 $$
-\lg K _ {A I Y} ^ {\prime} = 1 6. 3 - 6. 4 5 - 9. 9 5 = - 0. 1, K _ {A I Y} ^ {\prime} = 0. 8
+\lg K _ {A I Y} ^ {\prime} = 16.3 - 6.45 - 9.95 = - 0.1, K _ {A I Y} ^ {\prime} = 0.8
 $$
 
 条件稳定常数如此之小，说明此时AlY配位化合物已被氟化物破坏。
@@ -5538,27 +5538,27 @@ $\mathrm{Zn^{2 + }}$ 时， $\mathrm{NH_3}$ 对 $\mathrm{Zn^{2 + }}$ 有配位�
 解 化学计量点时， $c_{\mathrm{Cu_2 + }}^{\mathrm{sp}} = 0.010\mathrm{mol}\cdot \mathrm{L}^{-1},[\mathrm{NH}_3]_{\mathrm{sp}} = 0.10\mathrm{mol}\cdot \mathrm{L}^{-1}$
 
 $$
-\begin{array}{l} \alpha_ {\mathrm {C u (N H _ {3})}} = 1 + \beta_ {1} [ \mathrm {N H} _ {3} ] + \beta_ {2} [ \mathrm {N H} _ {3} ] ^ {2} + \beta_ {3} [ \mathrm {N H} _ {3} ] ^ {3} + \beta_ {4} [ \mathrm {N H} _ {3} ] ^ {4} + \beta_ {5} [ \mathrm {N H} _ {3} ] ^ {5} \\ = 1 + 1 0 ^ {1. 3 1} \times 0. 1 0 + 1 0 ^ {7. 9 8} \times 0. 1 0 ^ {2} + 1 0 ^ {1 1. 6 2} \times 0. 1 0 ^ {3} + 1 0 ^ {1 3. 3 2} \times 0. 1 0 ^ {4} + \\ 1 0 ^ {1 2. 8 6} \times 0. 1 0 ^ {5} \\ = 1 0 ^ {9. 3 6} \\ \end{array}
+\begin{array}{l} \alpha_ {\mathrm {C u (N H _ {3})}} = 1 + \beta_ {1} [ \mathrm {N H} _ {3} ] + \beta_ {2} [ \mathrm {N H} _ {3} ] ^ {2} + \beta_ {3} [ \mathrm {N H} _ {3} ] ^ {3} + \beta_ {4} [ \mathrm {N H} _ {3} ] ^ {4} + \beta_ {5} [ \mathrm {N H} _ {3} ] ^ {5} \\ = 1 + 10 ^ {1.31} \times 0.10 + 10 ^ {7.98} \times 0.10 ^ {2} + 10 ^ {11.62} \times 0.10 ^ {3} + 10 ^ {13.32} \times 0.10 ^ {4} + \\ 10 ^ {12.86} \times 0.10 ^ {5} \\ = 10 ^ {9.36} \\ \end{array}
 $$
 
 查附录表12可知 $\mathrm{pH}10$ 时 $\alpha_{\mathrm{Cu(OH)}} = 10^{1.7}\ll 10^{9.36}$ ，所以 $\alpha_{\mathrm{Cu(OH)}}$ 可忽略。查附录表10可知在 $\mathrm{pH}10$ 时 $\lg \alpha_{\mathrm{Y(H)}} = 0.45$ ，故
 
 $$
-\lg K _ {\mathrm {C u Y}} ^ {\prime} = \lg K _ {\mathrm {C u Y}} - \lg \alpha_ {\mathrm {Y (H)}} - \lg \alpha_ {\mathrm {C u (N H _ {3})}} = 1 8. 8 0 - 0. 4 5 - 9. 3 6 = 8. 9 9
+\lg K _ {\mathrm {C u Y}} ^ {\prime} = \lg K _ {\mathrm {C u Y}} - \lg \alpha_ {\mathrm {Y (H)}} - \lg \alpha_ {\mathrm {C u (N H _ {3})}} = 18.80 - 0.45 - 9.36 = 8.99
 $$
 
 $$
-\mathrm {p C u} ^ {\prime} = \frac {1}{2} \left(\mathrm {p c} _ {\mathrm {C u} ^ {2 +}} ^ {\mathrm {s p}} + \lg K _ {\mathrm {C u Y}} ^ {\prime}\right) = \frac {1}{2} (2. 0 0 + 8. 9 9) = 5. 5 0
+\mathrm {p C u} ^ {\prime} = \frac {1}{2} \left(\mathrm {p c} _ {\mathrm {C u} ^ {2 +}} ^ {\mathrm {s p}} + \lg K _ {\mathrm {C u Y}} ^ {\prime}\right) = \frac {1}{2} (2.00 + 8.99) = 5.50
 $$
 
 滴定 $\mathrm{Mg}^{2+}$ 时，由于 $\mathrm{Mg}^{2+}$ 不形成氨配位化合物，形成氢氧基配位化合物的倾向亦很小，故 $\lg \alpha_{\mathrm{Mg}} = 0$ 。因此
 
 $$
-\lg K _ {\mathrm {M g Y}} ^ {\prime} = \lg K _ {\mathrm {M g Y}} - \lg \alpha_ {\mathrm {Y (H)}} = 8. 7 - 0. 4 5 = 8. 2 5
+\lg K _ {\mathrm {M g Y}} ^ {\prime} = \lg K _ {\mathrm {M g Y}} - \lg \alpha_ {\mathrm {Y (H)}} = 8.7 - 0.45 = 8.25
 $$
 
 $$
-\mathrm {p M g} ^ {\prime} = \frac {1}{2} \left(\mathrm {p c} _ {\mathrm {M g} ^ {2 +}} ^ {\mathrm {s p}} + \lg K _ {\mathrm {M g Y}} ^ {\prime}\right) = \frac {1}{2} (2. 0 0 + 8. 2 5) = 5. 1 3
+\mathrm {p M g} ^ {\prime} = \frac {1}{2} \left(\mathrm {p c} _ {\mathrm {M g} ^ {2 +}} ^ {\mathrm {s p}} + \lg K _ {\mathrm {M g Y}} ^ {\prime}\right) = \frac {1}{2} (2.00 + 8.25) = 5.13
 $$
 
 计算结果表明，尽管 $K_{\mathrm{CuY}}$ 与 $K_{\mathrm{MgY}}$ 相差颇大，但在氨性溶液中，由于 $\mathrm{NH_3}$ 对 $\mathrm{Cu^{2 + }}$ 的副反应，使 $K_{\mathrm{CuY}}^{\prime}$ 与 $K_{\mathrm{MgY}}^{\prime}$ 相差很小，化学计量点时的 $\mathsf{pM}^{\prime}$ 也很接近。因此，如果溶液中有 $\mathrm{Cu^{2 + }}$ 和 $\mathrm{Mg^{2 + }}$ 共存，在此条件下将同时被EDTA滴定，得到的是 $\mathrm{Cu^{2 + }}$ 与 $\mathrm{Mg^{2 + }}$ 的合量。
@@ -5664,13 +5664,13 @@ $$
 $$
 
 $$
-\left[ \mathrm {M} ^ {\prime} \right] _ {\mathrm {e p}} = \left[ \mathrm {M} ^ {\prime} \right] _ {\mathrm {s p}} \cdot 1 0 ^ {- \Delta \mu \mathrm {M} ^ {\prime}} \tag {1}
+\left[ \mathrm {M} ^ {\prime} \right] _ {\mathrm {e p}} = \left[ \mathrm {M} ^ {\prime} \right] _ {\mathrm {s p}} \cdot 10 ^ {- \Delta \mu \mathrm {M} ^ {\prime}} \tag {1}
 $$
 
 同理得
 
 $$
-\left[ \mathrm {Y} ^ {\prime} \right] _ {\mathrm {e p}} = \left[ \mathrm {Y} ^ {\prime} \right] _ {\mathrm {s p}} \cdot 1 0 ^ {- \Delta p \mathrm {Y} ^ {\prime}} \tag {2}
+\left[ \mathrm {Y} ^ {\prime} \right] _ {\mathrm {e p}} = \left[ \mathrm {Y} ^ {\prime} \right] _ {\mathrm {s p}} \cdot 10 ^ {- \Delta p \mathrm {Y} ^ {\prime}} \tag {2}
 $$
 
 因为化学计量点时 $K_{\mathrm{MY}}^{\prime}$ 与终点时的 $K_{\mathrm{MY}}^{\prime}$ 非常接近，且
@@ -5710,37 +5710,37 @@ $$
 解查附录表10可知 $\mathrm{pH}10.00$ 时 $\lg \alpha_{\mathrm{Y(H)}} = 0.45$ ，故
 
 $$
-\lg K _ {\mathrm {C a Y}} ^ {\prime} = \lg K _ {\mathrm {C a Y}} - \lg \alpha_ {\mathrm {Y (H)}} = 1 0. 6 9 - 0. 4 5 = 1 0. 2 4
+\lg K _ {\mathrm {C a Y}} ^ {\prime} = \lg K _ {\mathrm {C a Y}} - \lg \alpha_ {\mathrm {Y (H)}} = 10.69 - 0.45 = 10.24
 $$
 
 $$
-\mathrm {p C a} _ {\mathrm {s p}} ^ {\prime} = \frac {1}{2} \left(\mathrm {p c} _ {\mathrm {C a} ^ {2 +}} ^ {\mathrm {s p}} + \lg K _ {\mathrm {C A Y}} ^ {\prime}\right) = \frac {1}{2} (2. 0 0 + 1 0. 2 4) = 6. 1 2
+\mathrm {p C a} _ {\mathrm {s p}} ^ {\prime} = \frac {1}{2} \left(\mathrm {p c} _ {\mathrm {C a} ^ {2 +}} ^ {\mathrm {s p}} + \lg K _ {\mathrm {C A Y}} ^ {\prime}\right) = \frac {1}{2} (2.00 + 10.24) = 6.12
 $$
 
 EBT的 $\mathrm{pK}_{\mathrm{a1}} = 6.3, \mathrm{pK}_{\mathrm{a2}} = 11.6$ ，故 $\mathrm{pH}10.00$ 时
 
 $$
-\begin{array}{l} \alpha_ {\mathrm {E B T (H)}} = 1 + \frac {[ \mathrm {H} ^ {+} ]}{K _ {\mathrm {a} 2}} + \frac {[ \mathrm {H} ^ {+} ] ^ {2}}{K _ {\mathrm {a} 1} K _ {\mathrm {a} 2}} \\ = 1 + 1 0 ^ {1 1. 6} \times 1 0 ^ {- 1 0} + 1 0 ^ {1 1. 1 6} \times 1 0 ^ {6. 3} \times (1 0 ^ {- 1 0}) ^ {2} \\ = 4 0 \\ \end{array}
+\begin{array}{l} \alpha_ {\mathrm {E B T (H)}} = 1 + \frac {[ \mathrm {H} ^ {+} ]}{K _ {\mathrm {a} 2}} + \frac {[ \mathrm {H} ^ {+} ] ^ {2}}{K _ {\mathrm {a} 1} K _ {\mathrm {a} 2}} \\ = 1 + 10 ^ {11.6} \times 10 ^ {- 10} + 10 ^ {11.16} \times 10 ^ {6.3} \times (10 ^ {- 10}) ^ {2} \\ = 40 \\ \end{array}
 $$
 
 $$
-\lg \alpha_ {\mathrm {E B T (H)}} = 1. 6
+\lg \alpha_ {\mathrm {E B T (H)}} = 1.6
 $$
 
 已知 $\lg K_{\mathrm{Ca - EBT}} = 5.4$ ，故
 
 $$
-\lg K _ {\mathrm {C a - E B T}} ^ {\prime} = \lg K _ {\mathrm {C a - E B T}} - \lg \alpha_ {\mathrm {E B T (H)}} = 5. 4 - 1. 6 = 3. 8
+\lg K _ {\mathrm {C a - E B T}} ^ {\prime} = \lg K _ {\mathrm {C a - E B T}} - \lg \alpha_ {\mathrm {E B T (H)}} = 5.4 - 1.6 = 3.8
 $$
 
 即
 
 $$
-\mathrm {p C a} _ {\mathrm {e p}} = \lg K _ {\mathrm {C a - E B T}} ^ {\prime} = 3. 8
+\mathrm {p C a} _ {\mathrm {e p}} = \lg K _ {\mathrm {C a - E B T}} ^ {\prime} = 3.8
 $$
 
 $$
-\Delta p C a = p C a _ {c p} - p C a _ {s p} = 3. 8 - 6. 1 2 = - 2. 3
+\Delta p C a = p C a _ {c p} - p C a _ {s p} = 3.8 - 6.12 = - 2.3
 $$
 
 $$
@@ -5750,27 +5750,27 @@ $$
 如果滴定的是 $\mathrm{Mg}^{2+}$ ，则
 
 $$
-\lg K _ {\mathrm {M g Y}} ^ {\prime} = \lg K _ {\mathrm {M g Y}} - \lg \alpha_ {\mathrm {Y (H)}} = 8. 7 - 0. 4 5 = 8. 2 5
+\lg K _ {\mathrm {M g Y}} ^ {\prime} = \lg K _ {\mathrm {M g Y}} - \lg \alpha_ {\mathrm {Y (H)}} = 8.7 - 0.45 = 8.25
 $$
 
 $$
-\mathrm {p M g} _ {\mathrm {s p}} ^ {\prime} = \frac {1}{2} \left(\mathrm {p c} _ {\mathrm {M g} ^ {2 +}} ^ {\mathrm {s p}} + \lg K _ {\mathrm {M g Y}} ^ {\prime}\right) = \frac {1}{2} (2. 0 0 + 8. 2 5) = 5. 1 2
+\mathrm {p M g} _ {\mathrm {s p}} ^ {\prime} = \frac {1}{2} \left(\mathrm {p c} _ {\mathrm {M g} ^ {2 +}} ^ {\mathrm {s p}} + \lg K _ {\mathrm {M g Y}} ^ {\prime}\right) = \frac {1}{2} (2.00 + 8.25) = 5.12
 $$
 
 已知 $\lg K_{\mathrm{Mg - EBT}} = 7.0$ ，故
 
 $$
-\lg K _ {\mathrm {M g - E B T}} ^ {\prime} = \lg K _ {\mathrm {M g - E B T}} - \lg \alpha_ {\mathrm {E B T (H)}} = 7. 0 - 1. 6 = 5. 4
+\lg K _ {\mathrm {M g - E B T}} ^ {\prime} = \lg K _ {\mathrm {M g - E B T}} - \lg \alpha_ {\mathrm {E B T (H)}} = 7.0 - 1.6 = 5.4
 $$
 
 即
 
 $$
-\mathrm {p M g} _ {\mathrm {e p}} = 5. 4
+\mathrm {p M g} _ {\mathrm {e p}} = 5.4
 $$
 
 $$
-\Delta \mathrm {p M g} = \mathrm {p M g} _ {\mathrm {e p}} - \mathrm {p M g} _ {\mathrm {s p}} = 5. 4 - 5. 1 2 = 0. 3
+\Delta \mathrm {p M g} = \mathrm {p M g} _ {\mathrm {e p}} - \mathrm {p M g} _ {\mathrm {s p}} = 5.4 - 5.12 = 0.3
 $$
 
 故 $E_{t} = \frac{10^{0.3} - 10^{-0.3}}{\sqrt{10^{8.25} \times 10^{-2}}} \times 100\% = 0.11\%$
@@ -5782,13 +5782,13 @@ $$
 解查附录表12可知 $\mathrm{pH}10.00$ 时 $\lg \alpha_{\mathrm{Zn(OH)}^+} = 2.4$
 
 $$
-\begin{array}{l} \alpha_ {\mathrm {Z n} \left(\mathrm {N H} _ {3}\right)} = 1 + 1 0 ^ {2. 3 7} \times 0. 2 0 + 1 0 ^ {4. 6 1} \times 0. 2 0 ^ {2} + 1 0 ^ {7. 3 1} \times 0. 2 0 ^ {3} + 1 0 ^ {9. 4 6} \times 0. 2 0 ^ {4} \\ = 4. 7 8 \times 1 0 ^ {5} = 1 0 ^ {5. 6 8} \\ \alpha_ {\mathrm {Z n}} = \alpha_ {\mathrm {Z n (N H _ {3})}} + \alpha_ {\mathrm {Z n (O H)}} - 1 = 1 0 ^ {6. 6 8} + 1 0 ^ {2. 4} - 1 = 1 0 ^ {6. 6 8} \\ \end{array}
+\begin{array}{l} \alpha_ {\mathrm {Z n} \left(\mathrm {N H} _ {3}\right)} = 1 + 10 ^ {2.37} \times 0.20 + 10 ^ {4.61} \times 0.20 ^ {2} + 10 ^ {7.31} \times 0.20 ^ {3} + 10 ^ {9.46} \times 0.20 ^ {4} \\ = 4.78 \times 10 ^ {5} = 10 ^ {5.68} \\ \alpha_ {\mathrm {Z n}} = \alpha_ {\mathrm {Z n (N H _ {3})}} + \alpha_ {\mathrm {Z n (O H)}} - 1 = 10 ^ {6.68} + 10 ^ {2.4} - 1 = 10 ^ {6.68} \\ \end{array}
 $$
 
 查附录表14可知 $\mathrm{pH}10.00$ 时 $\mathrm{pZn_{ep}} = 12.2$ 。但此时 $\mathrm{Zn^{2 + }}$ 有副反应，故 $\mathrm{pZn^{\prime}_{ep}}$ 要比 $\mathrm{pZn_{ep}}$ 为小，即 $[\mathrm{Zn^{2 + }}]_{\mathrm{ep}}$ 要比 $[\mathrm{Zn^{2 + }}]_{\mathrm{ep}}$ 大。
 
 $$
-\begin{array}{l} \mathrm {p Z n} _ {\mathrm {c p}} ^ {\prime} = \mathrm {p Z n} _ {\mathrm {c p}} - \lg \alpha_ {\mathrm {Z n}} = 1 2. 2 - 6. 6 8 = 5. 5 2 \\ \lg K _ {\mathrm {Z n Y}} ^ {\prime} = \lg K _ {\mathrm {Z n Y}} - \lg \alpha_ {\mathrm {Y (H)}} - \lg \alpha_ {\mathrm {Z n}} = 1 6. 5 - 0. 4 5 - 6. 6 8 = 9. 3 7 \\ \mathrm {p Z n} _ {\mathrm {s p}} ^ {\prime} = \frac {1}{2} \left(\mathrm {p c} _ {\mathrm {Z n} ^ {2 +}} ^ {\mathrm {s p}} + \lg K _ {\mathrm {Z n Y}} ^ {\prime}\right) = \frac {1}{2} (2. 0 0 + 9. 3 7) = 5. 6 9 \\ \Delta p Z n ^ {\prime} = p Z n _ {e p} ^ {\prime} - p Z n _ {s p} ^ {\prime} = 5. 5 2 - 5. 6 9 = - 0. 1 7 \\ E_{\mathrm{t}} = \frac{10^{-0.17} - 10^{0.17}}{\sqrt{10^{9.37}\times 10^{-2.00}}}\times 100\% = -0.02\% \\ \end{array}
+\begin{array}{l} \mathrm {p Z n} _ {\mathrm {c p}} ^ {\prime} = \mathrm {p Z n} _ {\mathrm {c p}} - \lg \alpha_ {\mathrm {Z n}} = 12.2 - 6.68 = 5.52 \\ \lg K _ {\mathrm {Z n Y}} ^ {\prime} = \lg K _ {\mathrm {Z n Y}} - \lg \alpha_ {\mathrm {Y (H)}} - \lg \alpha_ {\mathrm {Z n}} = 16.5 - 0.45 - 6.68 = 9.37 \\ \mathrm {p Z n} _ {\mathrm {s p}} ^ {\prime} = \frac {1}{2} \left(\mathrm {p c} _ {\mathrm {Z n} ^ {2 +}} ^ {\mathrm {s p}} + \lg K _ {\mathrm {Z n Y}} ^ {\prime}\right) = \frac {1}{2} (2.00 + 9.37) = 5.69 \\ \Delta p Z n ^ {\prime} = p Z n _ {e p} ^ {\prime} - p Z n _ {s p} ^ {\prime} = 5.52 - 5.69 = - 0.17 \\ E_{\mathrm{t}} = \frac{10^{-0.17} - 10^{0.17}}{\sqrt{10^{9.37}\times 10^{-2.00}}}\times 100\% = -0.02\% \\ \end{array}
 $$
 
 例14用配位滴定法滴定 $\mathrm{Mg}^{2 + }$ 时，通常以铬黑T为指示剂，在 $\mathrm{pH9.0\sim 10.5}$ 的氨性溶液中进行。试以 $0.010\mathrm{mol}\cdot \mathrm{L}^{-1}$ EDTA溶液滴定 $0.010\mathrm{mol}\cdot \mathrm{L}^{-1}\mathrm{Mg}^{2 + }$ 溶液为例，讨论酸度与终点误差的关系。
@@ -5811,13 +5811,13 @@ $$
 在配位滴定中，通常采用金属离子指示剂指示滴定终点，由于人眼判断颜色的局限性，即使指示剂的变色点与化学计量点完全一致，仍有可能造成 $\pm 0.2\sim$ $\pm 0.5\mathrm{pM}^{\prime}$ 单位的不确定性。设 $\Delta \mathrm{pM}^{\prime} = \pm 0.2$ ，用等浓度的EDTA滴定初始浓度为 $c$ 的金属离子M，若要求终点误差 $E_{t}$ 在 $\pm 0.1\%$ 以内，由林邦误差公式可得
 
 $$
-c _ {\mathrm {M}} ^ {\mathrm {s p}} K _ {\mathrm {M Y}} ^ {\prime} \geqslant \left(\frac {1 0 ^ {0 . 2} - 1 0 ^ {- 0 . 2}}{0 . 0 0 1}\right) ^ {2}
+c _ {\mathrm {M}} ^ {\mathrm {s p}} K _ {\mathrm {M Y}} ^ {\prime} \geqslant \left(\frac {10 ^ {0.2} - 10 ^ {- 0.2}}{0.001}\right) ^ {2}
 $$
 
 即
 
 $$
-c _ {\mathrm {M}} ^ {\mathrm {s p}} K _ {\mathrm {M Y}} ^ {\prime} \geqslant 1 0 ^ {6} \text {或} \lg \left(c _ {\mathrm {M}} ^ {\mathrm {s p}} K _ {\mathrm {M Y}} ^ {\prime}\right) \geqslant 6 \tag {6-25}
+c _ {\mathrm {M}} ^ {\mathrm {s p}} K _ {\mathrm {M Y}} ^ {\prime} \geqslant 10 ^ {6} \text {或} \lg \left(c _ {\mathrm {M}} ^ {\mathrm {s p}} K _ {\mathrm {M Y}} ^ {\prime}\right) \geqslant 6 \tag {6-25}
 $$
 
 （6-25）式为判断单一金属离子能否准确滴定的判别式。这里需要特别指出的是，这种判断是有前提条件的，若允许误差增大到 $1\%$ ，则允许 $\lg (cK_{\mathrm{MY}}^{\prime})$ 减小至4。若采用混合指示剂或应用光度滴定或电位滴定等仪器分析方法检测终点，可使 $\Delta \mathfrak{p}\mathbb{M}^{\prime}$ 的不确定性减小，终点误差相应减小，对 $\lg (cK_{\mathrm{MY}}^{\prime})$ 值的要求亦随之而改变。
@@ -5889,11 +5889,11 @@ $$
 解 $\Delta \mathrm{pM} = 0.2, E_{\mathrm{t}} \leqslant 0.1\%$ ，判别式 $\lg (cK^{\prime}) \geqslant 6$ 适用
 
 $$
-\lg K _ {\mathrm {P b Y}} ^ {\prime} = 6 - \lg \frac {0 . 0 2 0}{2} = 8
+\lg K _ {\mathrm {P b Y}} ^ {\prime} = 6 - \lg \frac {0.020}{2} = 8
 $$
 
 $$
-\lg \alpha_ {\mathrm {Y (H)}} = \lg K _ {\mathrm {P b Y}} - \lg K _ {\mathrm {P b Y}} ^ {\prime} = 1 8. 0 4 - 8 = 1 0. 0 4
+\lg \alpha_ {\mathrm {Y (H)}} = \lg K _ {\mathrm {P b Y}} - \lg K _ {\mathrm {P b Y}} ^ {\prime} = 18.04 - 8 = 10.04
 $$
 
 查附录表10得 $\mathrm{pH}\approx 3.2$ ，所以最高酸度为 $\mathrm{pH} = 3.2$
@@ -5909,7 +5909,7 @@ $$
 解 由 $\lg (K_{\mathrm{FeY}}^{\prime}c_{\mathrm{Fe}^{3 + }}^{\ominus})\geqslant 6$ 得 $\lg K_{\mathrm{FeY}}^{\prime}\geqslant 8$ ，故
 
 $$
-\lg \alpha_ {\mathrm {Y (H)}} = \lg K _ {\mathrm {F e Y}} - \lg K _ {\mathrm {F e Y}} ^ {\prime} = 2 5. 1 - 8 = 1 7. 1
+\lg \alpha_ {\mathrm {Y (H)}} = \lg K _ {\mathrm {F e Y}} - \lg K _ {\mathrm {F e Y}} ^ {\prime} = 25.1 - 8 = 17.1
 $$
 
 查附录表10得 $\mathrm{pH}\approx 1.2$ （最高酸度）。
@@ -5917,13 +5917,13 @@ $$
 已知 $\mathrm{Fe(OH)_3}$ 的 $K_{\mathrm{sp}} = 10^{-37.4}$ ，则
 
 $$
-\left[ \mathrm {O H} ^ {-} \right] = \sqrt [ 3 ]{\frac {K _ {\mathrm {s p}}}{c _ {\mathrm {F e} ^ {3 +}}}} = \sqrt [ 3 ]{\frac {1 0 ^ {- 3 7 . 4}}{0 . 0 2 0}} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} = 1 0 ^ {- 1 1. 9} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
+\left[ \mathrm {O H} ^ {-} \right] = \sqrt [ 3 ]{\frac {K _ {\mathrm {s p}}}{c _ {\mathrm {F e} ^ {3 +}}}} = \sqrt [ 3 ]{\frac {10 ^ {- 37.4}}{0.020}} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} = 10 ^ {- 11.9} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
 $$
 
 此处 $c_{\mathrm{Fe}^{3+}}$ 为初始浓度，因为若滴定开始时就已生成 $\mathrm{Fe(OH)}_3$ 沉淀，会影响滴定，故不用 $c_{\mathrm{Fe}^{3+}}^{\mathrm{sp}}$ 计算。
 
 $$
-\mathrm {p H} = 1 4. 0 - 1 1. 9 = 2. 1 \quad (\text {水 解 酸 度})
+\mathrm {p H} = 14.0 - 11.9 = 2.1 \quad (\text {水 解 酸 度})
 $$
 
 故滴定 $\mathrm{Fe}^{3+}$ 的适宜酸度范围为 $\mathrm{pH}1.2\sim 2.1$
@@ -5933,7 +5933,7 @@ $$
 解 由 $\lg (K_{\mathrm{ZnY}}^{\prime}(Z_{\mathrm{ZnY}}^{sp + 2})\geqslant 5$ 得 $\lg K_{\mathrm{ZnY}}^{\prime}\geqslant 7$ ，故
 
 $$
-\lg \alpha_ {\mathrm {Y} (\mathrm {H})} = \lg K _ {\mathrm {Z n Y}} - \lg K _ {\mathrm {Z n Y}} ^ {\prime} = 1 6. 5 - 7 = 9. 5
+\lg \alpha_ {\mathrm {Y} (\mathrm {H})} = \lg K _ {\mathrm {Z n Y}} - \lg K _ {\mathrm {Z n Y}} ^ {\prime} = 16.5 - 7 = 9.5
 $$
 
 查附录表10得 $\mathrm{pH}\approx 3.5$ （最高酸度）。
@@ -5941,11 +5941,11 @@ $$
 已知 $\mathrm{Zn(OH)_2}$ 的 $K_{\mathrm{sp}} = 10^{-16.92}$ ，则
 
 $$
-\left[ \mathrm {O H} ^ {-} \right] = \sqrt {\frac {K _ {\mathrm {s p}}}{c _ {\mathrm {Z n} ^ {2 +}}}} = \sqrt {\frac {1 0 ^ {- 1 6 . 9 2}}{0 . 0 2 0}} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} = 1 0 ^ {- 7. 6 1} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
+\left[ \mathrm {O H} ^ {-} \right] = \sqrt {\frac {K _ {\mathrm {s p}}}{c _ {\mathrm {Z n} ^ {2 +}}}} = \sqrt {\frac {10 ^ {- 16.92}}{0.020}} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} = 10 ^ {- 7.61} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
 $$
 
 $$
-\mathrm {p H} = 1 4 - 7. 6 1 \approx 6. 4 \quad (\text {水 解 酸 度})
+\mathrm {p H} = 14 - 7.61 \approx 6.4 \quad (\text {水 解 酸 度})
 $$
 
 故滴定 $\mathrm{Zn^{2 + }}$ 的适宜酸度范围为 $\mathrm{pH}3.5\sim 6.4$
@@ -5955,7 +5955,7 @@ $$
 解查附录表可知 $\lg K_{\mathrm{ZnY}} = 16.5,\lg K_{\mathrm{MgY}} = 8.7$
 
 $$
-\mathrm {p H} 1 0. 0 \text {时 ,} \lg \alpha_ {\mathrm {Y (H)}} = 0. 4 5, [ \mathrm {O H} ^ {-} ] = 1 0 ^ {- 4. 0} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1},
+\mathrm {p H} 10.0 \text {时 ,} \lg \alpha_ {\mathrm {Y (H)}} = 0.45, [ \mathrm {O H} ^ {-} ] = 10 ^ {- 4.0} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1},
 $$
 
 $\left[\mathrm{Zn(OH)_4}\right]^{2 - }$ 的 $\lg \beta_{1}\sim \lg \beta_{4}$ 为4.4、10.1、14.2、15.5
@@ -5965,31 +5965,31 @@ $\left[\mathrm{Zn}\left(\mathrm{NH}_{3}\right)_{4}\right]^{2-}$ 的 $\lg \beta_{
 $\left[\mathrm{Mg(OH)}\right]^{+}$ 的 $\lg \beta_{1} = 2.6$
 
 $$
-\begin{array}{l} \alpha_ {\mathrm {Z n} (\mathrm {O H})} = 1 + \beta_ {1} [ \mathrm {O H} ^ {-} ] + \beta_ {2} [ \mathrm {O H} ^ {-} ] ^ {2} + \beta_ {3} [ \mathrm {O H} ^ {-} ] ^ {3} + \beta_ {4} [ \mathrm {O H} ^ {-} ] ^ {4} \\ = 1 \times 1 0 ^ {4. 4} \times 1 0 ^ {- 4} + 1 0 ^ {1 0. 1} \times 1 0 ^ {- 4 \times 2} + 1 0 ^ {1 4. 2} \times 1 0 ^ {- 4 \times 3} + 1 0 ^ {1 5. 5} \times 1 0 ^ {- 4 \times 4} \\ = 1 0 ^ {2. 4 6} \\ \end{array}
+\begin{array}{l} \alpha_ {\mathrm {Z n} (\mathrm {O H})} = 1 + \beta_ {1} [ \mathrm {O H} ^ {-} ] + \beta_ {2} [ \mathrm {O H} ^ {-} ] ^ {2} + \beta_ {3} [ \mathrm {O H} ^ {-} ] ^ {3} + \beta_ {4} [ \mathrm {O H} ^ {-} ] ^ {4} \\ = 1 \times 10 ^ {4.4} \times 10 ^ {- 4} + 10 ^ {10.1} \times 10 ^ {- 4 \times 2} + 10 ^ {14.2} \times 10 ^ {- 4 \times 3} + 10 ^ {15.5} \times 10 ^ {- 4 \times 4} \\ = 10 ^ {2.46} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \alpha_ {\mathrm {Z n} \left(\mathrm {N H} _ {3}\right)} = 1 + \beta_ {1} \left[ \mathrm {N H} _ {3} \right] + \beta_ {2} \left[ \mathrm {N H} _ {3} \right] ^ {2} + \beta_ {3} \left[ \mathrm {N H} _ {3} \right] ^ {3} + \beta_ {4} \left[ \mathrm {N H} _ {3} \right] ^ {4} \\ = 1 + 1 0 ^ {2. 3 7} \times 0. 2 0 + 1 0 ^ {4. 8 1} \times 0. 2 0 ^ {2} + 1 0 ^ {7. 3 1} \times 0. 2 0 ^ {3} + 1 0 ^ {9. 4 6} \times 0. 2 0 ^ {4} \\ = 1 0 ^ {6. 6 8} \\ \end{array}
+\begin{array}{l} \alpha_ {\mathrm {Z n} \left(\mathrm {N H} _ {3}\right)} = 1 + \beta_ {1} \left[ \mathrm {N H} _ {3} \right] + \beta_ {2} \left[ \mathrm {N H} _ {3} \right] ^ {2} + \beta_ {3} \left[ \mathrm {N H} _ {3} \right] ^ {3} + \beta_ {4} \left[ \mathrm {N H} _ {3} \right] ^ {4} \\ = 1 + 10 ^ {2.37} \times 0.20 + 10 ^ {4.81} \times 0.20 ^ {2} + 10 ^ {7.31} \times 0.20 ^ {3} + 10 ^ {9.46} \times 0.20 ^ {4} \\ = 10 ^ {6.68} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \alpha_ {\mathrm {Z n}} = \alpha_ {\mathrm {Z n (O H)}} + \alpha_ {\mathrm {Z n (N H _ {3})}} - 1 \\ = 1 0 ^ {2. 4 6} + 1 0 ^ {6. 6 8} - 1 \\ = 1 0 ^ {6. 6 8} \\ \end{array}
+\begin{array}{l} \alpha_ {\mathrm {Z n}} = \alpha_ {\mathrm {Z n (O H)}} + \alpha_ {\mathrm {Z n (N H _ {3})}} - 1 \\ = 10 ^ {2.46} + 10 ^ {6.68} - 1 \\ = 10 ^ {6.68} \\ \end{array}
 $$
 
 $$
-\alpha_ {\mathrm {M g (O H)}} = 1 + \beta_ {1} [ \mathrm {O H} ^ {-} ] = 1 + 1 0 ^ {2. 6} \cdot 1 0 ^ {- 4} = 1. 0
+\alpha_ {\mathrm {M g (O H)}} = 1 + \beta_ {1} [ \mathrm {O H} ^ {-} ] = 1 + 10 ^ {2.6} \cdot 10 ^ {- 4} = 1.0
 $$
 
 $$
-\begin{array}{l} \lg K _ {\mathrm {Z n Y}} ^ {\prime} = \lg K _ {\mathrm {Z n Y}} - \lg \alpha_ {\mathrm {Y (H)}} - \lg \alpha_ {\mathrm {Z n}} \\ = 1 6. 5 - 0. 4 5 - 6. 6 8 = 9. 3 7 \\ \end{array}
+\begin{array}{l} \lg K _ {\mathrm {Z n Y}} ^ {\prime} = \lg K _ {\mathrm {Z n Y}} - \lg \alpha_ {\mathrm {Y (H)}} - \lg \alpha_ {\mathrm {Z n}} \\ = 16.5 - 0.45 - 6.68 = 9.37 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \lg K _ {\mathrm {M g Y}} ^ {\prime} = \lg K _ {\mathrm {M g Y}} - \lg \alpha_ {\mathrm {Y (H)}} - \lg \alpha_ {\mathrm {M g (O H)}} \\ = 8. 7 - 0. 4 5 - 0 = 8. 2 5 \\ \end{array}
+\begin{array}{l} \lg K _ {\mathrm {M g Y}} ^ {\prime} = \lg K _ {\mathrm {M g Y}} - \lg \alpha_ {\mathrm {Y (H)}} - \lg \alpha_ {\mathrm {M g (O H)}} \\ = 8.7 - 0.45 - 0 = 8.25 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \Delta \lg (K ^ {\prime} c) = \lg (K ^ {\prime} _ {\mathrm {Z n Y}} c _ {\mathrm {Z n} ^ {2 +}} ^ {\mathrm {s p} ^ {2} +}) - \lg (K _ {\mathrm {M g Y}} ^ {\prime} c _ {\mathrm {M g} ^ {2 +}} ^ {\mathrm {s p} ^ {2} +}) \\ = \lg \left(1 0 ^ {9. 3 7} \times \frac {0 . 0 2 0}{2}\right) - \lg \left(1 0 ^ {8. 2 5} \times \frac {0 . 0 2 0}{2}\right) \\ = 1. 1 2 <   5 \\ \end{array}
+\begin{array}{l} \Delta \lg (K ^ {\prime} c) = \lg (K ^ {\prime} _ {\mathrm {Z n Y}} c _ {\mathrm {Z n} ^ {2 +}} ^ {\mathrm {s p} ^ {2} +}) - \lg (K _ {\mathrm {M g Y}} ^ {\prime} c _ {\mathrm {M g} ^ {2 +}} ^ {\mathrm {s p} ^ {2} +}) \\ = \lg \left(10 ^ {9.37} \times \frac {0.020}{2}\right) - \lg \left(10 ^ {8.25} \times \frac {0.020}{2}\right) \\ = 1.12 <   5 \\ \end{array}
 $$
 
 所以在题设条件下不能准确滴定 $\mathrm{Zn^{2 + }}$ ， $\mathrm{Mg^{2 + }}$ 有干扰。
@@ -6007,7 +6007,7 @@ $$
 根据缓冲容量的定义 $\beta = -\frac{\mathrm{d}\alpha}{\mathrm{d}\mathrm{pH}}$ 有
 
 $$
-\beta = - \frac {\mathrm {d} a}{\mathrm {d p H}} = \frac {0 . 0 4}{0 . 2} = 0. 2
+\beta = - \frac {\mathrm {d} a}{\mathrm {d p H}} = \frac {0.04}{0.2} = 0.2
 $$
 
 又 $\beta = 2.3c\frac{K_{\mathrm{a}}[\mathrm{H}^{+}]}{(K_{\mathrm{a}} + [\mathrm{H}^{+}])^{2}}$
@@ -6015,13 +6015,13 @@ $$
 将 $\left[\mathrm{H}^{+}\right] = 10^{-5.0} \mathrm{~mol} \cdot \mathrm{L}^{-1}$ 及 $K_{\mathrm{a}} = 10^{-5.3}$ 代入上式，解得
 
 $$
-c _ {\left(\mathrm {C H} _ {2}\right) _ {6} \mathrm {N} _ {4}} = 0. 3 9 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
+c _ {\left(\mathrm {C H} _ {2}\right) _ {6} \mathrm {N} _ {4}} = 0.39 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
 $$
 
 故 $m_{\mathrm{(CH_2)_6N_4}} = 0.39\mathrm{mol}\cdot \mathrm{L}^{-1}\times 0.025\mathrm{L}\times 140\mathrm{g}\cdot \mathrm{mol}^{-1} = 1.4\mathrm{g}$
 
 $$
-n _ {\mathrm {H N O} _ {3}} = 0. 3 9 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times \frac {[ \mathrm {H} ^ {+} ]}{[ \mathrm {H} ^ {+} ] + K _ {\mathrm {a}}} \times 0. 0 2 5 \mathrm {L} = 6. 5 \mathrm {m m o l}
+n _ {\mathrm {H N O} _ {3}} = 0.39 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} \times \frac {[ \mathrm {H} ^ {+} ]}{[ \mathrm {H} ^ {+} ] + K _ {\mathrm {a}}} \times 0.025 \mathrm {L} = 6.5 \mathrm {m m o l}
 $$
 
 即在 $25\mathrm{mL}\mathrm{Pb}^{2 + }$ 溶液中加入 $1.4\mathrm{g}$ 六亚甲基四胺及 $6.5\mathrm{mmolHNO_3}$
@@ -6039,7 +6039,7 @@ $$
 显然， $K_{\mathrm{MY}}^{\prime}$ 较大时滴定突跃更为明显，有利于滴定进行。因此，在确定滴定M的最高酸度时，应尽可能使 $K_{\mathrm{MY}}^{\prime}$ 较大。为计算方便，往往粗略地以 $\alpha_{\mathrm{Y(H)}}\approx \alpha_{\mathrm{Y(N)}}$ 时所对应的酸度作为滴定M的最高酸度。最低酸度与单一离子滴定相同，是M离子的水解酸度。少数金属离子极易水解，且其EDTA配位化合物的稳定常数很大，此时可提高滴定酸度。如以 $0.020\mathrm{mol}\cdot \mathrm{L}^{-1}$ 的EDTA溶液滴定相同浓度的 $\mathrm{Bi}^{3 + }$ 、 $\mathrm{Pb}^{2 + }$ 混合溶液，因 $\mathrm{Bi}^{3 + }$ 与EDTA的配位化合物远比 $\mathrm{Pb}^{2 + }$ 与EDTA的配位化合物稳定，可用控制酸度的方法在一份试液中连续滴定 $\mathrm{Bi}^{3 + }$ 和 $\mathrm{Pb}^{2 + }$ ，选用二甲酚橙作为指示剂。首先滴定 $\mathrm{Bi}^{3 + }$ ，此时，最高酸效应系数为
 
 $$
-\alpha_ {\mathrm {Y (H)}} \approx \alpha_ {\mathrm {Y (N)}} = \alpha_ {\mathrm {Y (P b)}} = 1 + K _ {\mathrm {P b Y}} [ \mathrm {P b} ^ {2 +} ] = 1 0 ^ {1 8. 0} \times \frac {0 . 0 2 0}{2} = 1 0 ^ {1 6. 0}
+\alpha_ {\mathrm {Y (H)}} \approx \alpha_ {\mathrm {Y (N)}} = \alpha_ {\mathrm {Y (P b)}} = 1 + K _ {\mathrm {P b Y}} [ \mathrm {P b} ^ {2 +} ] = 10 ^ {18.0} \times \frac {0.020}{2} = 10 ^ {16.0}
 $$
 
 相应的 $\mathrm{pH}$ 为1.4。此时 $\mathrm{Bi}^{3+}$ 仍易水解，因而将 $\mathrm{pH}$ 降低至1.0，此时的 $\lg K_{\mathrm{BiY}}^{\prime} = 9.6$ ，仍然可以准确滴定。
@@ -6053,7 +6053,7 @@ $$
 解（1） $\lg (K_{\mathrm{ZnY}}c_{\mathrm{Zn}^{2 + }}^{\mathrm{sp}2 + }) - \lg (K_{\mathrm{MgY}}c_{\mathrm{Mg}^{2 + }}^{\mathrm{sp}2 + })$
 
 $$
-\begin{array}{l} = \lg \left(1 0 ^ {1 6. 5} \times \frac {0 . 0 2 0}{2}\right) - \lg \left(1 0 ^ {8. 7} \times \frac {0 . 1 0}{2}\right) \\ = 7. 1 > 6 \\ \end{array}
+\begin{array}{l} = \lg \left(10 ^ {16.5} \times \frac {0.020}{2}\right) - \lg \left(10 ^ {8.7} \times \frac {0.10}{2}\right) \\ = 7.1 > 6 \\ \end{array}
 $$
 
 故能准确滴定 $\mathrm{Zn^{2 + }}$ $E_{\mathrm{i}}$ 在 $\pm 0.1\%$ 以内， $\mathrm{Mg}^{2 + }$ 不干扰。
@@ -6061,7 +6061,7 @@ $$
 (2) $\lg (K_{\mathrm{ZnY}}c_{\mathrm{Zn}^{2 + }}^{\mathrm{sp2 + }}) - \lg (K_{\mathrm{CaY}}c_{\mathrm{Ca}^{2 + }}^{\mathrm{sp2 + }})$
 
 $$
-\begin{array}{l} = \lg \left(1 0 ^ {1 6. 5} \times \frac {0 . 0 2 0}{2}\right) - \lg \left(1 0 ^ {1 0. 7} \times \frac {0 . 1 0}{2}\right) \\ = 5. 1 > 5 \\ \end{array}
+\begin{array}{l} = \lg \left(10 ^ {16.5} \times \frac {0.020}{2}\right) - \lg \left(10 ^ {10.7} \times \frac {0.10}{2}\right) \\ = 5.1 > 5 \\ \end{array}
 $$
 
 故能准确滴定 $\mathrm{Zn^{2 + }}$ $E_{\mathrm{t}}$ 在 $\pm 0.3\%$ 以内， $\mathrm{Ca^{2 + }}$ 不干扰。
@@ -6071,11 +6071,11 @@ $$
 对 $\mathrm{Zn^{2 + }}$ 、 $\mathrm{Mg^{2 + }}$ 体系：
 
 $$
-\begin{array}{l} \lg K _ {\mathrm {Z n Y}} ^ {\prime} = \lg K _ {\mathrm {Z n Y}} - \lg \left(K _ {\mathrm {M g Y}} c _ {\mathrm {M g} ^ {2 +}} ^ {\mathrm {s p}}\right) \\ = 1 6. 5 - 8. 7 + 1. 3 3 \approx 9. 1 \\ \end{array}
+\begin{array}{l} \lg K _ {\mathrm {Z n Y}} ^ {\prime} = \lg K _ {\mathrm {Z n Y}} - \lg \left(K _ {\mathrm {M g Y}} c _ {\mathrm {M g} ^ {2 +}} ^ {\mathrm {s p}}\right) \\ = 16.5 - 8.7 + 1.33 \approx 9.1 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \mathrm {p Z n _ {s p}} = \frac {1}{2} \left(\mathrm {p c} _ {\mathrm {Z n} ^ {2 +}} ^ {\mathrm {s p}} + \lg K _ {\mathrm {Z n Y}} ^ {\prime}\right) = \frac {1}{2} (2. 0 0 + 9. 1) = 5. 5 5 \\ \Delta p Z n = p Z n _ {e p} - p Z n _ {s p} = 5. 7 - 5. 5 5 = 0. 1 5 \\ \end{array}
+\begin{array}{l} \mathrm {p Z n _ {s p}} = \frac {1}{2} \left(\mathrm {p c} _ {\mathrm {Z n} ^ {2 +}} ^ {\mathrm {s p}} + \lg K _ {\mathrm {Z n Y}} ^ {\prime}\right) = \frac {1}{2} (2.00 + 9.1) = 5.55 \\ \Delta p Z n = p Z n _ {e p} - p Z n _ {s p} = 5.7 - 5.55 = 0.15 \\ \end{array}
 $$
 
 此时 $E_{\mathrm{t}} = \frac{10^{0.15} - 10^{-0.15}}{\sqrt{10^{9.1} \times 10^{-2}}} \times 100\% = 0.02\%$ ，说明 $\mathrm{Mg}^{2+}$ 不干扰。
@@ -6083,11 +6083,11 @@ $$
 对 $\mathrm{Zn^{2 + },Ca^{2 + }}$ 体系：
 
 $$
-\begin{array}{l} \lg K _ {\mathrm {Z n Y}} ^ {\prime} = \lg K _ {\mathrm {Z n Y}} - \lg \left(K _ {\mathrm {C a Y}} C _ {\mathrm {C a}} ^ {\mathrm {p 2 +}}\right) \\ = 1 6. 5 - 1 0. 7 + 1. 3 = 7. 1 \\ \end{array}
+\begin{array}{l} \lg K _ {\mathrm {Z n Y}} ^ {\prime} = \lg K _ {\mathrm {Z n Y}} - \lg \left(K _ {\mathrm {C a Y}} C _ {\mathrm {C a}} ^ {\mathrm {p 2 +}}\right) \\ = 16.5 - 10.7 + 1.3 = 7.1 \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \mathrm {p Z n} _ {\mathrm {s p}} = \frac {1}{2} \left(\mathrm {p c} _ {\mathrm {Z n} ^ {2 +}} ^ {\mathrm {s p}} + \lg K _ {\mathrm {Z n Y}} ^ {\prime}\right) = \frac {1}{2} (2. 0 0 + 7. 1) = 4. 5 5 \\ \Delta p Z n = p Z n _ {c p} - p Z n _ {s p} = 5. 7 - 4. 5 5 = 1. 1 5 \\ \end{array}
+\begin{array}{l} \mathrm {p Z n} _ {\mathrm {s p}} = \frac {1}{2} \left(\mathrm {p c} _ {\mathrm {Z n} ^ {2 +}} ^ {\mathrm {s p}} + \lg K _ {\mathrm {Z n Y}} ^ {\prime}\right) = \frac {1}{2} (2.00 + 7.1) = 4.55 \\ \Delta p Z n = p Z n _ {c p} - p Z n _ {s p} = 5.7 - 4.55 = 1.15 \\ \end{array}
 $$
 
 同样计算可得 $E_{\mathrm{t}} = 4\%$ ，说明 $\mathrm{Ca^{2+}}$ 有干扰。
@@ -6168,15 +6168,15 @@ c. 应注意掩蔽剂适用的 $\mathrm{pH}$ 范围，例如，在 $\mathrm{pH}8
 解 化学计量点时
 
 $$
-c _ {\mathrm {A} ^ {3 +}} ^ {\mathrm {s p}} = \frac {0 . 0 2 7 \mathrm {g}}{2 7 \mathrm {g} \cdot \mathrm {m o l} ^ {- 1}} \times \frac {1 0 0 0 \mathrm {m L} \cdot \mathrm {L} ^ {- 1}}{1 0 0 \mathrm {m L}} = 0. 0 1 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
+c _ {\mathrm {A} ^ {3 +}} ^ {\mathrm {s p}} = \frac {0.027 \mathrm {g}}{27 \mathrm {g} \cdot \mathrm {m o l} ^ {- 1}} \times \frac {1000 \mathrm {m L} \cdot \mathrm {L} ^ {- 1}}{100 \mathrm {m L}} = 0.010 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
 $$
 
 $$
-c _ {2 a ^ {2} +} ^ {\mathrm {s p}} = \frac {0 . 0 6 5 4 \mathrm {g}}{6 5 . 4 \mathrm {g} \cdot \mathrm {m o l} ^ {- 1}} \times \frac {1 0 0 0 \mathrm {m L} \cdot \mathrm {L} ^ {- 1}}{1 0 0 \mathrm {m L}} = 0. 0 1 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
+c _ {2 a ^ {2} +} ^ {\mathrm {s p}} = \frac {0.0654 \mathrm {g}}{65.4 \mathrm {g} \cdot \mathrm {m o l} ^ {- 1}} \times \frac {1000 \mathrm {m L} \cdot \mathrm {L} ^ {- 1}}{100 \mathrm {m L}} = 0.010 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
 $$
 
 $$
-\lg \left(K _ {\mathrm {Z n Y}} c _ {\mathrm {Z n} ^ {2 +}} ^ {\mathrm {s p}}\right) - \lg \left(K _ {\mathrm {A I Y}} c _ {\mathrm {A l} ^ {3 +}} ^ {\mathrm {s p}}\right) = (1 6. 5 - 2. 0) - (1 6. 3 - 2. 0) = 0. 2 \ll 5
+\lg \left(K _ {\mathrm {Z n Y}} c _ {\mathrm {Z n} ^ {2 +}} ^ {\mathrm {s p}}\right) - \lg \left(K _ {\mathrm {A I Y}} c _ {\mathrm {A l} ^ {3 +}} ^ {\mathrm {s p}}\right) = (16.5 - 2.0) - (16.3 - 2.0) = 0.2 \ll 5
 $$
 
 故不能选择滴定 $\mathrm{Zn^{2 + }}$
@@ -6190,35 +6190,35 @@ $\lg \beta_{6}$ 之差值仅为0.48，说明形成 $[\mathrm{AlF_6}]^{3 - }$ 时
 当 $\mathrm{pH} = 5.5$ 时，
 
 $$
-\alpha_ {\mathrm {F (H)}} = 1 + \frac {[ \mathrm {H} ^ {+} ]}{K _ {\mathrm {a}}} = 1 + \frac {1 0 ^ {- 5 . 5}}{1 0 ^ {- 3 . 1 8}} \approx 1
+\alpha_ {\mathrm {F (H)}} = 1 + \frac {[ \mathrm {H} ^ {+} ]}{K _ {\mathrm {a}}} = 1 + \frac {10 ^ {- 5.5}}{10 ^ {- 3.18}} \approx 1
 $$
 
 即不存在酸效应，故
 
 $$
-\begin{array}{l} \alpha_ {\mathrm {A l} (\mathrm {F})} = 1 + \beta_ {1} [ \mathrm {F} ] + \beta_ {2} [ \mathrm {F} ] ^ {2} + \dots + \beta_ {6} [ \mathrm {F} ] ^ {6} \\ = 1 + 1 0 ^ {6. 1 5} \times 0. 2 2 + 1 0 ^ {1 4. 1 5} \times 0. 2 2 ^ {2} + 1 0 ^ {1 5. 0 0} \times 0. 2 2 ^ {3} + \\ 1 0 ^ {1 7. 7 5} \times 0. 2 2 ^ {4} + 1 0 ^ {1 9. 3 6} \times 0. 2 2 ^ {5} + 1 0 ^ {1 9. 8 4} \times 0. 2 2 ^ {6} \\ = 1 + 1 0 ^ {5. 4 9} + 1 0 ^ {9. 8 3} + 1 0 ^ {1 3. 0 3} + 1 0 ^ {1 5. 1 2} + 1 0 ^ {1 6. 0 7} + 1 0 ^ {1 5. 8 9} \\ = 1 0 ^ {1 6. 3 2} \\ \end{array}
+\begin{array}{l} \alpha_ {\mathrm {A l} (\mathrm {F})} = 1 + \beta_ {1} [ \mathrm {F} ] + \beta_ {2} [ \mathrm {F} ] ^ {2} + \dots + \beta_ {6} [ \mathrm {F} ] ^ {6} \\ = 1 + 10 ^ {6.15} \times 0.22 + 10 ^ {14.15} \times 0.22 ^ {2} + 10 ^ {15.00} \times 0.22 ^ {3} + \\ 10 ^ {17.75} \times 0.22 ^ {4} + 10 ^ {19.36} \times 0.22 ^ {5} + 10 ^ {19.84} \times 0.22 ^ {6} \\ = 1 + 10 ^ {5.49} + 10 ^ {9.83} + 10 ^ {13.03} + 10 ^ {15.12} + 10 ^ {16.07} + 10 ^ {15.89} \\ = 10 ^ {16.32} \\ \end{array}
 $$
 
 计算表明， $\left[\mathrm{AlF}_4\right]^{-}, \left[\mathrm{AlF}_5\right]^{2-}, \left[\mathrm{AlF}_6\right]^{3-}$ 确实为主要存在形式，因此， $\left[\mathrm{F}^{-}\right]$ 按 $0.22 \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ 计算合理。
 
 $$
-\begin{array}{l} \alpha_ {\mathrm {Y} (\mathrm {A I})} = 1 + K _ {\mathrm {A I Y}} [ \mathrm {A I} ] = 1 + K _ {\mathrm {A I Y}} \frac {c _ {\mathrm {A I}} ^ {\mathrm {S P}}}{\alpha_ {\mathrm {A I} (\mathrm {F})}} \\ = 1 + 1 0 ^ {1 6. 3} \times \frac {0 . 0 1}{1 0 ^ {1 6 . 3 2}} = 1. 0 1 \approx 1 \\ \end{array}
+\begin{array}{l} \alpha_ {\mathrm {Y} (\mathrm {A I})} = 1 + K _ {\mathrm {A I Y}} [ \mathrm {A I} ] = 1 + K _ {\mathrm {A I Y}} \frac {c _ {\mathrm {A I}} ^ {\mathrm {S P}}}{\alpha_ {\mathrm {A I} (\mathrm {F})}} \\ = 1 + 10 ^ {16.3} \times \frac {0.01}{10 ^ {16.32}} = 1.01 \approx 1 \\ \end{array}
 $$
 
 $\lg \alpha_{\mathrm{Y(AD)}}\approx 0$ ，因此，可以忽略EDTA的共存离子效应，只考虑EDTA的酸效应。查附录表10可知 $\mathrm{pH}5.5$ 时 $\alpha_{\mathrm{Y(CH_3)}} = 10^{5.51}$ ，则
 
 $$
-\begin{array}{l} \lg K _ {\mathrm {Z n Y}} ^ {\prime} = \lg K _ {\mathrm {Z n Y}} - \lg \alpha_ {\mathrm {Y (H)}} \\ = 1 6. 5 - 5. 5 1 = 1 1. 0 \\ \end{array}
+\begin{array}{l} \lg K _ {\mathrm {Z n Y}} ^ {\prime} = \lg K _ {\mathrm {Z n Y}} - \lg \alpha_ {\mathrm {Y (H)}} \\ = 16.5 - 5.51 = 11.0 \\ \end{array}
 $$
 
 $$
-\mathrm {p Z n _ {s p}} = \frac {1}{2} \left(\mathrm {p c} _ {\mathrm {Z n} ^ {2 +}} ^ {\mathrm {s p}} + \lg K _ {\mathrm {Z n Y}} ^ {\prime}\right) = \frac {1}{2} (2. 0 0 + 1 1. 0) = 6. 5 0
+\mathrm {p Z n _ {s p}} = \frac {1}{2} \left(\mathrm {p c} _ {\mathrm {Z n} ^ {2 +}} ^ {\mathrm {s p}} + \lg K _ {\mathrm {Z n Y}} ^ {\prime}\right) = \frac {1}{2} (2.00 + 11.0) = 6.50
 $$
 
 查附录表14可知二甲酚橙在 $\mathrm{pH}5.5$ 时 $\mathrm{pZn_{ep}} = 5.7$ ，故
 
 $$
-\begin{array}{l} \Delta \mathrm {p Z n} = \mathrm {p Z n} _ {\mathrm {e p}} - \mathrm {p Z n} _ {\mathrm {s p}} \\ = 5. 7 - 6. 5 0 = - 0. 8 \\ \end{array}
+\begin{array}{l} \Delta \mathrm {p Z n} = \mathrm {p Z n} _ {\mathrm {e p}} - \mathrm {p Z n} _ {\mathrm {s p}} \\ = 5.7 - 6.50 = - 0.8 \\ \end{array}
 $$
 
 $$
@@ -6232,11 +6232,11 @@ $$
 解已知 $\left[\mathrm{CdI}_4\right]^{2 - }$ 的 $\lg \beta_{1}\sim \lg \beta_{4}$ 为2.10、3.43、4.49、5.41，故
 
 $$
-\begin{array}{l} \alpha_ {\mathrm {C d (I)}} = 1 + 1 0 ^ {2. 1} \times 1. 0 + 1 0 ^ {3. 4} \times 1. 0 ^ {2} + 1 0 ^ {4. 5} \times 1. 0 ^ {3} + 1 0 ^ {5. 4} \times 1. 0 ^ {4} \\ = 1 0 ^ {5. 5} \\ \end{array}
+\begin{array}{l} \alpha_ {\mathrm {C d (I)}} = 1 + 10 ^ {2.1} \times 1.0 + 10 ^ {3.4} \times 1.0 ^ {2} + 10 ^ {4.5} \times 1.0 ^ {3} + 10 ^ {5.4} \times 1.0 ^ {4} \\ = 10 ^ {5.5} \\ \end{array}
 $$
 
 $$
-\begin{array}{l} \lg \left(K _ {\mathrm {Z n Y}} c _ {\mathrm {Z n} ^ {2 +}} ^ {\mathrm {s p}}\right) - \lg \left(K _ {\mathrm {C d Y}} ^ {\prime} c _ {\mathrm {C d} ^ {2 +}} ^ {\mathrm {s p}}\right) = \lg \left(K _ {\mathrm {Z n Y}} c _ {\mathrm {Z n} ^ {2 +}} ^ {\mathrm {s p}}\right) - \lg \left(\frac {K _ {\mathrm {C d Y}} c _ {\mathrm {C d} ^ {2 +}} ^ {\mathrm {s p}}}{\alpha_ {\mathrm {C d (I)}}}\right) \\ = 1 6. 5 - 2. 0 - (1 6. 4 6 - 2. 0 - 5. 5) = 5. 5 > 5 \\ \end{array}
+\begin{array}{l} \lg \left(K _ {\mathrm {Z n Y}} c _ {\mathrm {Z n} ^ {2 +}} ^ {\mathrm {s p}}\right) - \lg \left(K _ {\mathrm {C d Y}} ^ {\prime} c _ {\mathrm {C d} ^ {2 +}} ^ {\mathrm {s p}}\right) = \lg \left(K _ {\mathrm {Z n Y}} c _ {\mathrm {Z n} ^ {2 +}} ^ {\mathrm {s p}}\right) - \lg \left(\frac {K _ {\mathrm {C d Y}} c _ {\mathrm {C d} ^ {2 +}} ^ {\mathrm {s p}}}{\alpha_ {\mathrm {C d (I)}}}\right) \\ = 16.5 - 2.0 - (16.46 - 2.0 - 5.5) = 5.5 > 5 \\ \end{array}
 $$
 
 故可准确滴定 $\mathrm{Zn}^{2+}$ 。
@@ -6244,13 +6244,13 @@ $$
 由于 $\mathrm{Cd^{2 + }}$ 被掩蔽，所以酸度范围可按单一 $\mathrm{Zn^{2 + }}$ 计算。若要求 $\Delta \mathrm{pM} = 0.2,E_{\mathrm{t}}\leqslant 0.3\%$ ，由 $\lg (K_{\mathrm{ZnY}}^{\prime}c_{\mathrm{Zn}^{2 + }}^{2\mathrm{p}})\geqslant 5$ 得 $\lg K_{\mathrm{ZnY}}^{\prime}\geqslant 7$ ，故
 
 $$
-\lg \alpha_ {\mathrm {Y} (\mathrm {H})} = \lg K _ {\mathrm {Z n Y}} - \lg K _ {\mathrm {Z n Y}} ^ {\prime} = 1 6. 5 - 7 = 9. 5
+\lg \alpha_ {\mathrm {Y} (\mathrm {H})} = \lg K _ {\mathrm {Z n Y}} - \lg K _ {\mathrm {Z n Y}} ^ {\prime} = 16.5 - 7 = 9.5
 $$
 
 查附录表10得 $\mathrm{pH} = 3.5$ （最高酸度）。
 
 $$
-\left[ \mathrm {O H} ^ {-} \right] = \sqrt {\frac {K _ {\mathrm {s p}}}{c _ {\mathrm {Z n} ^ {2 +}}}} = \sqrt {\frac {1 0 ^ {- 1 6 . 9 2}}{0 . 0 2 0}} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} = 1 0 ^ {- 7. 6} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
+\left[ \mathrm {O H} ^ {-} \right] = \sqrt {\frac {K _ {\mathrm {s p}}}{c _ {\mathrm {Z n} ^ {2 +}}}} = \sqrt {\frac {10 ^ {- 16.92}}{0.020}} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} = 10 ^ {- 7.6} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
 $$
 
 $\mathrm{pH} = 14 - 7.6 = 6.4$ （水解酸度）
@@ -6260,15 +6260,15 @@ $\mathrm{pH} = 14 - 7.6 = 6.4$ （水解酸度）
 当 $\mathrm{pH} = 5.0$ 时，同离子效应远大于酸效应，因此酸效应被忽略，仅需考虑同离子效应的影响。
 
 $$
-\begin{array}{l} \lg K _ {\mathrm {Z n Y}} ^ {\prime} = \lg K _ {\mathrm {Z n Y}} - \lg \frac {K _ {\mathrm {C d Y}} c _ {\mathrm {C d} 2 +} ^ {\mathrm {s p}}}{\alpha_ {\mathrm {C d (D)}}} \\ = 1 6. 5 - (1 6. 4 6 - 2. 0 - 5. 5) = 7. 5 \\ \end{array}
+\begin{array}{l} \lg K _ {\mathrm {Z n Y}} ^ {\prime} = \lg K _ {\mathrm {Z n Y}} - \lg \frac {K _ {\mathrm {C d Y}} c _ {\mathrm {C d} 2 +} ^ {\mathrm {s p}}}{\alpha_ {\mathrm {C d (D)}}} \\ = 16.5 - (16.46 - 2.0 - 5.5) = 7.5 \\ \end{array}
 $$
 
 $$
-\mathrm {p Z n _ {s p}} = \frac {1}{2} (\mathrm {p c _ {Z n ^ {2 +}} ^ {s p} + l g K _ {Z n Y} ^ {\prime}}) = \frac {1}{2} (2. 0 0 + 7. 5) = 4. 7 5
+\mathrm {p Z n _ {s p}} = \frac {1}{2} (\mathrm {p c _ {Z n ^ {2 +}} ^ {s p} + l g K _ {Z n Y} ^ {\prime}}) = \frac {1}{2} (2.00 + 7.5) = 4.75
 $$
 
 $$
-\left[ \mathrm {C d} ^ {2 +} \right] _ {\mathrm {s p}} = \frac {c _ {\mathrm {C d} 2 +} ^ {\mathrm {s p}}}{\alpha_ {\mathrm {C d (I)}}} = \frac {0 . 0 1 0}{1 0 ^ {5 . 5}} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} = 1 0 ^ {- 7. 5} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
+\left[ \mathrm {C d} ^ {2 +} \right] _ {\mathrm {s p}} = \frac {c _ {\mathrm {C d} 2 +} ^ {\mathrm {s p}}}{\alpha_ {\mathrm {C d (I)}}} = \frac {0.010}{10 ^ {5.5}} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} = 10 ^ {- 7.5} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
 $$
 
 因为 $\Delta \mathrm{pZn} = \mathrm{pZn_{ep}} - \mathrm{pZn_{sp}} = 4.8 - 4.75 = 0.05$ ，二甲酚橙作为 $\mathrm{Zn^{2 + }}$ 的指示剂是合适的。而此时 $[\mathrm{Cd^{2 + }}]_{\mathrm{sp}} = 10^{-7.5}\mathrm{mol}\cdot \mathrm{L}^{-1}$ ，远远小于 $K_{\mathrm{CdIn}}^{\prime}$ ，所以不会有CdIn的红色出现。
@@ -6436,7 +6436,7 @@ $$
 有关配位化合物稳定常数的对数值 $\lg K_{\text{稳}}$ 的数据为
 
 $$
-\mathrm {C u Y}: 1 8. 8 \quad \mathrm {Z n Y}: 1 6. 5 \quad \mathrm {A l Y}: 1 6. 1 \quad \left[ \mathrm {A l F} _ {6} \right] ^ {3 -}: 1 9. 7 \quad \mathrm {C u - P A N}: 1 6
+\mathrm {C u Y}: 18.8 \quad \mathrm {Z n Y}: 16.5 \quad \mathrm {A l Y}: 16.1 \quad \left[ \mathrm {A l F} _ {6} \right] ^ {3 -}: 19.7 \quad \mathrm {C u - P A N}: 16
 $$
 
 这其中，并不需要确知 $V_{1}$ 的量，过量即可；若 $V_{2}$ 过量了，可加入少量EDTA，继续以 $\mathrm{Cu^{2 + }}$ 标准溶液滴定过量的Y，准确进入D框状态，而不必从头开始重做。
@@ -6488,7 +6488,7 @@ $$
 解 $1\mathrm{mol}\mathrm{Ca}^{2 + }$ 与 $2\mathrm{mol}\mathrm{F}^{-}$ 生成 $1\mathrm{mol}\mathrm{CaF}_2$ 沉淀，因此
 
 $$
-\begin{array}{l} w _ {\mathrm {F}} = \frac {2 \left[ (c V) _ {\mathrm {C a} ^ {2 +}} - (c V) _ {\mathrm {E D T A}} \right] \times M _ {\mathrm {F}}}{m _ {\mathrm {s}}} \\ = \frac {2 (0 . 1 0 0 0 \mathrm {mol} \cdot \mathrm {L} ^ {- 1} \times 5 0 . 0 0 \mathrm {m L} - 0 . 0 5 0 0 0 \mathrm {mol} \cdot \mathrm {L} ^ {- 1} \times 2 0 . 0 0 \mathrm {m L}) \times 1 9 . 0 0 \mathrm {g} \cdot \mathrm {mol} ^ {- 1}}{0 . 5 0 0 0 \mathrm {g} \times 1 0 0 0 \mathrm {m L} \cdot \mathrm {L} ^ {- 1}} \times 1 0 0 \% \\ = 30.40\% \\ \end{array}
+\begin{array}{l} w _ {\mathrm {F}} = \frac {2 \left[ (c V) _ {\mathrm {C a} ^ {2 +}} - (c V) _ {\mathrm {E D T A}} \right] \times M _ {\mathrm {F}}}{m _ {\mathrm {s}}} \\ = \frac {2 (0.1000 \mathrm {mol} \cdot \mathrm {L} ^ {- 1} \times 50.00 \mathrm {m L} - 0.05000 \mathrm {mol} \cdot \mathrm {L} ^ {- 1} \times 20.00 \mathrm {m L}) \times 19.00 \mathrm {g} \cdot \mathrm {mol} ^ {- 1}}{0.5000 \mathrm {g} \times 1000 \mathrm {m L} \cdot \mathrm {L} ^ {- 1}} \times 100 \% \\ = 30.40\% \\ \end{array}
 $$
 
 # 思考题
@@ -6569,7 +6569,7 @@ $(2.3 \times 10^{9}$ 或 $10^{9.36})$
 4. 已知 $\left[\mathrm{M}\left(\mathrm{NH}_{3}\right)_{4}\right]^{2+}$ 的 $\lg \beta_{1} \sim \lg \beta_{1}$ 分别为 $2.0, 5.0, 7.0, 10.0, \left[\mathrm{M}(\mathrm{OH})_{4}\right]^{2-}$ 的 $\lg \beta_{1} \sim \lg \beta_{4}$ 分别为 $4.0, 8.0, 14.0, 15.0$ 。在浓度为 $0.10 \mathrm{~mol} \cdot \mathrm{L}^{-1}$ 的 $\mathrm{M}^{2+}$ 溶液中，滴加氨水至溶液中的游离 $\mathrm{NH}_{3}$ 浓度为 $0.010 \mathrm{~mol} \cdot \mathrm{L}^{-1}, \mathrm{pH}=9.0$ 。试问溶液中的主要存在型体是哪一种？浓度为多大？若将 $\mathrm{M}^{2+}$ 离子溶液用 $\mathrm{NaOH}$ 和氨水调节至 $\mathrm{pH} \approx 13.0$ ，且游离氨浓度为 $0.010 \mathrm{~mol} \cdot \mathrm{L}^{-1}$ ，则上述溶液中的主要存在型体是什么？浓度又为多少？
 
 $$
-\left(\left[ \mathrm {M} \left(\mathrm {N H} _ {3}\right) _ {1} \right] ^ {2 +}, 8. 2 \times 1 0 ^ {- 2} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}, \left[ \mathrm {M} (\mathrm {O H}) _ {4} \right] ^ {2 -}, 5. 0 \times 1 0 ^ {- 2} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}\right)
+\left(\left[ \mathrm {M} \left(\mathrm {N H} _ {3}\right) _ {1} \right] ^ {2 +}, 8.2 \times 10 ^ {- 2} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}, \left[ \mathrm {M} (\mathrm {O H}) _ {4} \right] ^ {2 -}, 5.0 \times 10 ^ {- 2} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}\right)
 $$
 
 5. 实验测得 $0.10 \mathrm{~mol} \cdot \mathrm{L}^{-1} \left[ \mathrm{Ag} \left( \mathrm{H}_{2} \mathrm{NCH}_{2} \mathrm{CH}_{2} \mathrm{NH}_{2} \right)_{2} \right]^{+}$ 溶液中的乙二胺游离浓度为 $0.010 \mathrm{~mol} \cdot \mathrm{L}^{-1}$ 。计算溶液中 $c_{\text{乙二胺}}$ 和 $\delta_{\left[\mathrm{Ag} \left( \mathrm{H}_{2} \mathrm{NCH}_{2} \mathrm{CH}_{2} \mathrm{NH}_{2} \right)_{2} \right]^{+}$ 。已知 $\mathrm{Ag}^{+}$ 与乙二胺配位化合物的 $\lg \beta_{1} = 4.7, \lg \beta_{2} = 7.7$ 。
@@ -6675,7 +6675,7 @@ $10^{-18.8}$ ，二甲酚橙与 $\mathrm{La}^{3+}$ 及 $\mathrm{Th(IV)}$ 的 $\l
 22. 某退热止痛剂为咖啡因、盐酸喹啉和安替比林的混合物，为测定其中咖啡因的含量，称取试样 $0.5000\mathrm{g}$ ，移入 $50~\mathrm{mL}$ 容量瓶中，加入 $30~\mathrm{mL}$ 水、 $10~\mathrm{mL} 0.35~\mathrm{mol} \cdot \mathrm{L}^{-1}$ 四碘合汞酸钾溶液和 $1~\mathrm{mL}$ 浓盐酸，此时喹啉和安替比林与四碘合汞酸根生成沉淀，以水稀至刻度，摇匀。将试液干过滤，移取 $20.00~\mathrm{mL}$ 滤液于干燥的锥形瓶中，准确加入 $5.00~\mathrm{mL} 0.3000~\mathrm{mol} \cdot \mathrm{L}^{-1}$ $\mathrm{K}[\mathrm{BiI}_4]$ 溶液，此时质子化的咖啡因与 $[\mathrm{BiI}_4]^-$ 反应：
 
 $$
-\left(\mathrm {C} _ {8} \mathrm {H} _ {1 0} \mathrm {N} _ {4} \mathrm {O} _ {2}\right) \mathrm {H} ^ {+} + \left[ \mathrm {B i I} _ {4} \right] ^ {-} = \left(\mathrm {C} _ {8} \mathrm {H} _ {1 0} \mathrm {N} _ {4} \mathrm {O} _ {2}\right) \mathrm {H B i I} _ {4} \downarrow
+\left(\mathrm {C} _ {8} \mathrm {H} _ {10} \mathrm {N} _ {4} \mathrm {O} _ {2}\right) \mathrm {H} ^ {+} + \left[ \mathrm {B i I} _ {4} \right] ^ {-} = \left(\mathrm {C} _ {8} \mathrm {H} _ {10} \mathrm {N} _ {4} \mathrm {O} _ {2}\right) \mathrm {H B i I} _ {4} \downarrow
 $$
 
 干过滤，取 $10.00\mathrm{mL}$ 滤液，在 $\mathrm{pH}3\sim 4$ 的HAc-NaAc缓冲液中，以 $0.0500\mathrm{mol}\cdot \mathrm{L}^{-1}$ EDTA溶液滴至 $[\mathrm{BiI}_4]^-$ 的黄色消失为终点，消耗 $6.00~\mathrm{mL}$ 。计算试样中咖啡因（ $\mathrm{C_8H_{10}N_4O_2}$ ）的质量分数。已知 $M_{\text{咖啡因}} = 194.16\mathrm{g}\cdot \mathrm{mol}^{-1}$
@@ -6685,7 +6685,7 @@ $$
 23. 称取苯巴比妥钠 $\mathrm{(C_{12}H_{11}N_2O_3Na,M = 254.2g\bullet mol^{-1})}$ 试样 $0.2014\mathrm{g}$ ，于稀碱溶液中加热 $(60^{\circ}\mathrm{C})$ ，使之溶解，冷却，以乙酸酸化后转移至 $250~\mathrm{mL}$ 容量瓶中，加入 $25.00~\mathrm{mL}$ $0.03000\mathrm{mol}\cdot \mathrm{L}^{-1}\mathrm{Hg(ClO_4)_2}$ 标准溶液，稀至刻度，放置待下述反应完毕：
 
 $$
-\mathrm {H g} ^ {2 +} + 2 \mathrm {C} _ {1 2} \mathrm {H} _ {1 1} \mathrm {N} _ {2} \mathrm {O} _ {3} ^ {-} = \mathrm {H g} (\mathrm {C} _ {1 2} \mathrm {H} _ {1 1} \mathrm {N} _ {2} \mathrm {O} _ {3}) _ {2} \downarrow
+\mathrm {H g} ^ {2 +} + 2 \mathrm {C} _ {12} \mathrm {H} _ {11} \mathrm {N} _ {2} \mathrm {O} _ {3} ^ {-} = \mathrm {H g} (\mathrm {C} _ {12} \mathrm {H} _ {11} \mathrm {N} _ {2} \mathrm {O} _ {3}) _ {2} \downarrow
 $$
 
 干过滤弃去沉淀，滤液用干烧杯承接。移取 $25.00\mathrm{mL}$ 滤液，加入 $10\mathrm{mL}0.01\mathrm{mol}\cdot \mathrm{L}^{-1}\mathrm{MgY}$ 溶液，释放出的 $\mathrm{Mg^{2 + }}$ 在 $\mathrm{pH}10$ 时以EBT为指示剂，用 $0.01000\mathrm{mol}\cdot \mathrm{L}^{-1}$ EDTA溶液滴定至终点，消耗 $3.60~\mathrm{mL}$ 。计算试样中苯巴比妥钠的质量分数。
@@ -6699,19 +6699,19 @@ $$
 25. 某人提出一个间接测定自然界中（如海水、工业废水中） $\mathrm{SO}_4^{2-}$ 的方法。这一方法的操作步骤为：（1）将 $\mathrm{SO}_4^{2-}$ 完全转化为 $\mathrm{PbSO}_4$ 沉淀；（2）将 $\mathrm{PbSO}_4$ 沉淀溶解在含有过量EDTA的氨溶液中，形成 $[\mathrm{PbY}]^{2-}$ 配位化合物；（3）用 $\mathrm{Mg}^{2+}$ 标准溶液滴定多余的EDTA。已知一些数据如下：
 
 $$
-\mathrm {P b S O} _ {4} (\mathrm {s}) \Longrightarrow \mathrm {P b} ^ {2 +} + \mathrm {S O} _ {4} ^ {2 -} K _ {\mathrm {s p}} = 1. 6 \times 1 0 ^ {- 8}
+\mathrm {P b S O} _ {4} (\mathrm {s}) \Longrightarrow \mathrm {P b} ^ {2 +} + \mathrm {S O} _ {4} ^ {2 -} K _ {\mathrm {s p}} = 1.6 \times 10 ^ {- 8}
 $$
 
 $$
-\mathrm {P b} ^ {2 +} + \mathrm {Y} ^ {1 -} \Longrightarrow [ \mathrm {P b Y} ] ^ {2 -} K _ {\text {稳}} = 1. 1 \times 1 0 ^ {1 8}
+\mathrm {P b} ^ {2 +} + \mathrm {Y} ^ {1 -} \Longrightarrow [ \mathrm {P b Y} ] ^ {2 -} K _ {\text {稳}} = 1.1 \times 10 ^ {18}
 $$
 
 $$
-\mathrm {M g} ^ {2 +} + \mathrm {Y} ^ {4 -} \Longrightarrow [ \mathrm {M g Y} ] ^ {2 -} \quad K _ {\text {总}} = 4. 9 \times 1 0 ^ {8}
+\mathrm {M g} ^ {2 +} + \mathrm {Y} ^ {4 -} \Longrightarrow [ \mathrm {M g Y} ] ^ {2 -} \quad K _ {\text {总}} = 4.9 \times 10 ^ {8}
 $$
 
 $$
-\mathrm {Z n} ^ {2 +} + \mathrm {Y} ^ {4 -} \Longrightarrow [ \mathrm {Z n Y} ] ^ {2 -} \quad K _ {\text {稳}} = 3. 2 \times 1 0 ^ {1 8}
+\mathrm {Z n} ^ {2 +} + \mathrm {Y} ^ {4 -} \Longrightarrow [ \mathrm {Z n Y} ] ^ {2 -} \quad K _ {\text {稳}} = 3.2 \times 10 ^ {18}
 $$
 
 通过计算回答下列问题：
@@ -6753,27 +6753,27 @@ c. 在一次分析中， $25.00 \mathrm{~mL}$ 的工业废水试样通过上述�
 根据上述反应的化学计量关系，得
 
 $$
-\left[ \mathrm {C r} _ {2} \mathrm {O} _ {7} ^ {2 -} \right] + \frac {1}{2} \left[ \mathrm {C r} ^ {3 +} \right] = 0. 1 0 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
+\left[ \mathrm {C r} _ {2} \mathrm {O} _ {7} ^ {2 -} \right] + \frac {1}{2} \left[ \mathrm {C r} ^ {3 +} \right] = 0.100 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
 $$
 
 $$
-\left[ \mathrm {C r} ^ {3 +} \right] = 0. 2 0 0 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} - 2 \left[ \mathrm {C r} _ {2} \mathrm {O} _ {7} ^ {2 -} \right]
+\left[ \mathrm {C r} ^ {3 +} \right] = 0.200 \mathrm {m o l} \cdot \mathrm {L} ^ {- 1} - 2 \left[ \mathrm {C r} _ {2} \mathrm {O} _ {7} ^ {2 -} \right]
 $$
 
 根据能斯特公式，得
 
 $$
-\varphi = \varphi^ {\ominus} + \frac {0 . 0 5 9 \mathrm {V}}{6} \lg \frac {\left[ \mathrm {C r} _ {2} \mathrm {O} _ {7} ^ {2 -} \right] \left[ \mathrm {H} ^ {+} \right] ^ {1 4}}{\left[ \mathrm {C r} ^ {3 +} \right] ^ {2}}
+\varphi = \varphi^ {\ominus} + \frac {0.059 \mathrm {V}}{6} \lg \frac {\left[ \mathrm {C r} _ {2} \mathrm {O} _ {7} ^ {2 -} \right] \left[ \mathrm {H} ^ {+} \right] ^ {14}}{\left[ \mathrm {C r} ^ {3 +} \right] ^ {2}}
 $$
 
 $$
-1. 1 7 \mathrm {V} = 1. 3 3 \mathrm {V} + \frac {0 . 0 5 9 \mathrm {V}}{6} \lg 1 0 ^ {- 1 4. 0 0} + \frac {0 . 0 5 9 \mathrm {V}}{6} \lg \frac {\left[ \mathrm {C r} _ {2} \mathrm {O} _ {7} ^ {2 -} \right]}{\left(0 . 2 0 0 - 2 \left[ \mathrm {C r} _ {2} \mathrm {O} _ {7} ^ {2 -} \right]\right) ^ {2}}
+1.17 \mathrm {V} = 1.33 \mathrm {V} + \frac {0.059 \mathrm {V}}{6} \lg 10 ^ {- 14.00} + \frac {0.059 \mathrm {V}}{6} \lg \frac {\left[ \mathrm {C r} _ {2} \mathrm {O} _ {7} ^ {2 -} \right]}{\left(0.200 - 2 \left[ \mathrm {C r} _ {2} \mathrm {O} _ {7} ^ {2 -} \right]\right) ^ {2}}
 $$
 
 可求得
 
 $$
-\left[ \mathrm {C r} _ {2} \mathrm {O} _ {7} ^ {2 -} \right] = 2. 3 0 \times 1 0 ^ {- 4} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
+\left[ \mathrm {C r} _ {2} \mathrm {O} _ {7} ^ {2 -} \right] = 2.30 \times 10 ^ {- 4} \mathrm {m o l} \cdot \mathrm {L} ^ {- 1}
 $$
 
 转化率 $= \frac{0.100\mathrm{mol}\cdot\mathrm{L}^{-1} - 2.30\times 10^{-4}\mathrm{mol}\cdot\mathrm{L}^{-1}}{0.100\mathrm{mol}\cdot\mathrm{L}^{-1}}\times 100\% = 99.8\%$
@@ -6783,7 +6783,7 @@ $$
 为了简化计算，例1忽略了溶液中离子强度的影响。但在实际工作中，这种影响有时是不容忽略的。此外，当溶液组分改变时，电对的氧化态和还原态的存在型体也随之改变，从而引起电势的变化。在这种情况下，即使是可逆的氧化还原电对，其简化计算结果与实际结果仍会相差较大。例如，HCl溶液中 $\mathrm{Fe}^{3 + } / \mathrm{Fe}^{2 + }$ 电对的电势，由能斯特公式得
 
 $$
-\begin{array}{l} \varphi = \varphi^ {\ominus} + 0. 0 5 9 \mathrm {V} \lg \frac {a _ {\mathrm {F e} ^ {3 +}}}{a _ {\mathrm {F e} ^ {2 +}}} \\ = \varphi^ {\ominus} + 0. 0 5 9 \mathrm {V} \lg \frac {\gamma_ {\mathrm {F e} ^ {3 +}} \left[ \mathrm {F e} ^ {3 +} \right]}{\gamma_ {\mathrm {F e} ^ {2 +}} \left[ \mathrm {F e} ^ {2 +} \right]} \tag {1} \\ \end{array}
+\begin{array}{l} \varphi = \varphi^ {\ominus} + 0.059 \mathrm {V} \lg \frac {a _ {\mathrm {F e} ^ {3 +}}}{a _ {\mathrm {F e} ^ {2 +}}} \\ = \varphi^ {\ominus} + 0.059 \mathrm {V} \lg \frac {\gamma_ {\mathrm {F e} ^ {3 +}} \left[ \mathrm {F e} ^ {3 +} \right]}{\gamma_ {\mathrm {F e} ^ {2 +}} \left[ \mathrm {F e} ^ {2 +} \right]} \tag {1} \\ \end{array}
 $$
 
 但溶液中除了 $\mathrm{Fe}^{3+}$ 、 $\mathrm{Fe}^{2+}$ 外，还存在有 $[\mathrm{FeOH}]^{2+}$ 、 $[\mathrm{FeCl}]^{2+}$ 、 $[\mathrm{FeCl}_2]^{+}$ 、 $[\mathrm{FeCl}]^{+}$ 、 $\mathrm{FeCl}_2$ 、…。此时
@@ -6797,19 +6797,19 @@ $\alpha_{\mathrm{Fe(III)}}$ 和 $\alpha_{\mathrm{Fe(II)}}$ 分别是HCl溶液中
 将(2)式、(3)式代入(1)式中，得
 
 $$
-\varphi = \varphi^ {\ominus} + 0. 0 5 9 \mathrm {V} \lg \frac {\gamma_ {\mathrm {F e} ^ {3 +}} \alpha_ {\mathrm {F e (I I)}} c _ {\mathrm {F e} ^ {3 +}}}{\gamma_ {\mathrm {F e} ^ {2 +}} \alpha_ {\mathrm {F e (I I)}} c _ {\mathrm {F e} ^ {2 +}}} \tag {4}
+\varphi = \varphi^ {\ominus} + 0.059 \mathrm {V} \lg \frac {\gamma_ {\mathrm {F e} ^ {3 +}} \alpha_ {\mathrm {F e (I I)}} c _ {\mathrm {F e} ^ {3 +}}}{\gamma_ {\mathrm {F e} ^ {2 +}} \alpha_ {\mathrm {F e (I I)}} c _ {\mathrm {F e} ^ {2 +}}} \tag {4}
 $$
 
 当溶液的离子强度很大时， $\gamma$ 值不易求得；当副反应很多时，求 $\alpha$ 值也很麻烦。因此，如果要用(4)式来计算HCl溶液中 $\mathrm{Fe}^{3+} / \mathrm{Fe}^{2+}$ 电对的电势，将是十分复杂的。在分析化学中， $\mathrm{Fe}^{3+}$ 和 $\mathrm{Fe}^{2+}$ 的总浓度 $c_{\mathrm{Fe}^{3+}}$ 和 $c_{\mathrm{Fe}^{2+}}$ 是容易知道的，如果将其他不易得到的数据合并入常数中，计算就简化了。例如，将(4)式改写为
 
 $$
-\varphi = \varphi^ {\ominus} + 0. 0 5 9 \mathrm {V} \lg \frac {\gamma_ {\mathrm {F e} ^ {3 +}} \alpha_ {\mathrm {F e (I I)}}}{\gamma_ {\mathrm {F e} ^ {2 +}} \alpha_ {\mathrm {F e (I I)}}} + 0. 0 5 9 \mathrm {V} \lg \frac {c _ {\mathrm {F e} ^ {3 +}}}{c _ {\mathrm {F e} ^ {2 +}}}
+\varphi = \varphi^ {\ominus} + 0.059 \mathrm {V} \lg \frac {\gamma_ {\mathrm {F e} ^ {3 +}} \alpha_ {\mathrm {F e (I I)}}}{\gamma_ {\mathrm {F e} ^ {2 +}} \alpha_ {\mathrm {F e (I I)}}} + 0.059 \mathrm {V} \lg \frac {c _ {\mathrm {F e} ^ {3 +}}}{c _ {\mathrm {F e} ^ {2 +}}}
 $$
 
 当电对的氧化态和还原态的分析浓度均为 $1\mathrm{mol}\cdot \mathrm{L}^{-1}$ 时，可得
 
 $$
-\varphi = \varphi^ {\ominus} + 0. 0 5 9 \mathrm {V} \lg \frac {\gamma_ {\mathrm {F e} ^ {3 +}} \alpha_ {\mathrm {F e (I I)}}}{\gamma_ {\mathrm {F e} ^ {2 +}} \alpha_ {\mathrm {F e (I I)}}} = \varphi^ {\ominus^ {\prime}} \tag {7-1}
+\varphi = \varphi^ {\ominus} + 0.059 \mathrm {V} \lg \frac {\gamma_ {\mathrm {F e} ^ {3 +}} \alpha_ {\mathrm {F e (I I)}}}{\gamma_ {\mathrm {F e} ^ {2 +}} \alpha_ {\mathrm {F e (I I)}}} = \varphi^ {\ominus^ {\prime}} \tag {7-1}
 $$
 
 $\varphi^{\ominus}$ 称为条件电势，又称条件电极电位（conditional potential）。它是在特定条件下，氧化态与还原态的分析浓度都为 $1 \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ 时的实际电势。 $\varphi^{\ominus}$ 和 $\varphi^{\ominus}$ 的关系就如同配位滴定中的条件稳定常数 $K^{\prime}$ 与稳定常数 $K$ 之间的关系。条件电势反映了离子强度与各种副反应影响的总结果，用它来处理问题，既简便又与实际情况比较相符。条件电势可通过实验测得，但目前尚只有某些条件下的条件电势，因而实际应用受到一定限制。
@@ -6825,11 +6825,11 @@ $\varphi^{\ominus}$ 称为条件电势，又称条件电极电位（conditional 
 解在 $1\mathrm{mol}\cdot \mathrm{L}^{-1}$ HCl介质中， $\varphi_{\mathrm{Ca^{2 + } / Ca^{3 + }}}^{\ominus '} = 1.28\mathrm{V}$
 
 $$
-\varphi = \varphi_ {C _ {C} e ^ {4 +} / C _ {e} 3 ^ {+}} ^ {\ominus^ {i}} + 0. 0 5 9 \mathrm {V} \lg \frac {C _ {C e ^ {4 +}}}{C _ {C e ^ {3 +}}}
+\varphi = \varphi_ {C _ {C} e ^ {4 +} / C _ {e} 3 ^ {+}} ^ {\ominus^ {i}} + 0.059 \mathrm {V} \lg \frac {C _ {C e ^ {4 +}}}{C _ {C e ^ {3 +}}}
 $$
 
 $$
-\begin{array}{l} = 1. 2 8 \mathrm {V} + 0. 0 5 9 \mathrm {V} \lg \frac {1 . 0 0 \times 1 0 ^ {- 2}}{1 . 0 0 \times 1 0 ^ {- 3}} \\ = 1. 3 4 \mathrm {V} \\ \end{array}
+\begin{array}{l} = 1.28 \mathrm {V} + 0.059 \mathrm {V} \lg \frac {1.00 \times 10 ^ {- 2}}{1.00 \times 10 ^ {- 3}} \\ = 1.34 \mathrm {V} \\ \end{array}
 $$
 
 例3计算 $0.10\mathrm{mol}\cdot \mathrm{L}^{-1}\mathrm{HCl}$ 溶液中 $\mathrm{As(V) / As(III)}$ 电对的条件电势（忽略离子强度的影响，已知 $\varphi_{\mathrm{As(V) / As(III)}}^{\ominus} = 0.559\mathrm{V})$
@@ -6843,13 +6843,13 @@ $$
 在 $0.10\mathrm{ml}\cdot \mathrm{L}^{-1}$ HCl溶液中，As（V）主要以 $\mathrm{H}_3\mathrm{AsO}_4$ 形式存在，As（Ⅲ）主要以 $\mathrm{H}_3\mathrm{AsO}_3$ 形式存在，因此它们的平衡浓度约等于分析浓度。忽略离子强度的影响，则有
 
 $$
-\begin{array}{l} \varphi = \varphi^ {\ominus} + \frac {0 . 0 5 9 \mathrm {V}}{2} \lg \frac {[ \mathrm {H} _ {3} \mathrm {A s O} _ {4} ] [ \mathrm {H} ^ {+} ] ^ {2}}{[ \mathrm {H} _ {3} \mathrm {A s O} _ {3} ]} \\ = \varphi^ {\ominus} + 0. 0 5 9 \mathrm {V} \lg [ \mathrm {H} ^ {+} ] + \frac {0 . 0 5 9 \mathrm {V}}{2} \lg \frac {[ \mathrm {H} _ {3} \mathrm {A s O} _ {4} ]}{[ \mathrm {H} _ {3} \mathrm {A s O} _ {3} ]} \\ \end{array}
+\begin{array}{l} \varphi = \varphi^ {\ominus} + \frac {0.059 \mathrm {V}}{2} \lg \frac {[ \mathrm {H} _ {3} \mathrm {A s O} _ {4} ] [ \mathrm {H} ^ {+} ] ^ {2}}{[ \mathrm {H} _ {3} \mathrm {A s O} _ {3} ]} \\ = \varphi^ {\ominus} + 0.059 \mathrm {V} \lg [ \mathrm {H} ^ {+} ] + \frac {0.059 \mathrm {V}}{2} \lg \frac {[ \mathrm {H} _ {3} \mathrm {A s O} _ {4} ]}{[ \mathrm {H} _ {3} \mathrm {A s O} _ {3} ]} \\ \end{array}
 $$
 
 当 $\left[\mathrm{H}_{3} \mathrm{~AsO}_{4}\right] = \left[\mathrm{H}_{3} \mathrm{~AsO}_{3}\right] = 1 \mathrm{~mol} \cdot \mathrm{L}^{-1}$ 时， $\varphi = \varphi^{20}$ ，故
 
 $$
-\varphi^ {\ominus} = 0. 5 5 9 \mathrm {V} + 0. 0 5 9 \mathrm {V} \lg [ \mathrm {H} ^ {+} ] = 0. 5 0 0 \mathrm {V}
+\varphi^ {\ominus} = 0.559 \mathrm {V} + 0.059 \mathrm {V} \lg [ \mathrm {H} ^ {+} ] = 0.500 \mathrm {V}
 $$
 
 # 7.1.3 氧化还原反应平衡常数
@@ -6867,11 +6867,11 @@ $$
 $$
 
 $$
-\varphi_ {1} = \varphi_ {1} ^ {\ominus} + \frac {0 . 0 5 9 \mathrm {V}}{z _ {1}} \lg \frac {a _ {\mathrm {O x} _ {1}}}{a _ {\mathrm {R e d} _ {1}}}
+\varphi_ {1} = \varphi_ {1} ^ {\ominus} + \frac {0.059 \mathrm {V}}{z _ {1}} \lg \frac {a _ {\mathrm {O x} _ {1}}}{a _ {\mathrm {R e d} _ {1}}}
 $$
 
 $$
-\varphi_ {2} = \varphi_ {2} ^ {\ominus} + \frac {0 . 0 5 9 \mathrm {V}}{z _ {2}} \lg \frac {a _ {0 x _ {2}}}{a _ {\mathrm {R e d} _ {2}}}
+\varphi_ {2} = \varphi_ {2} ^ {\ominus} + \frac {0.059 \mathrm {V}}{z _ {2}} \lg \frac {a _ {0 x _ {2}}}{a _ {\mathrm {R e d} _ {2}}}
 $$
 
 氧化还原反应为
@@ -6883,19 +6883,19 @@ $$
 当反应达到平衡时，两电对电势相等，故有
 
 $$
-\varphi_ {1} ^ {\ominus} + \frac {0 . 0 5 9 \mathrm {V}}{z _ {1}} \lg \frac {a _ {\mathrm {O x} _ {1}}}{a _ {\mathrm {R e d} _ {1}}} = \varphi_ {2} ^ {\ominus} + \frac {0 . 0 5 9 \mathrm {V}}{z _ {2}} \lg \frac {a _ {\mathrm {O x} _ {2}}}{a _ {\mathrm {R e d} _ {2}}}
+\varphi_ {1} ^ {\ominus} + \frac {0.059 \mathrm {V}}{z _ {1}} \lg \frac {a _ {\mathrm {O x} _ {1}}}{a _ {\mathrm {R e d} _ {1}}} = \varphi_ {2} ^ {\ominus} + \frac {0.059 \mathrm {V}}{z _ {2}} \lg \frac {a _ {\mathrm {O x} _ {2}}}{a _ {\mathrm {R e d} _ {2}}}
 $$
 
 整理后得
 
 $$
-\lg K = \lg \frac {a _ {\mathrm {R e d} _ {1}} ^ {z _ {2}} a _ {\mathrm {O x} _ {2}} ^ {z _ {1}}}{a _ {\mathrm {O x} _ {1}} ^ {z _ {2}} a _ {\mathrm {R e d} _ {2}} ^ {z _ {1}}} = \frac {\left(\varphi_ {1} ^ {\ominus} - \varphi_ {2} ^ {\ominus}\right) z}{0 . 0 5 9 \mathrm {V}} \tag {7-2a}
+\lg K = \lg \frac {a _ {\mathrm {R e d} _ {1}} ^ {z _ {2}} a _ {\mathrm {O x} _ {2}} ^ {z _ {1}}}{a _ {\mathrm {O x} _ {1}} ^ {z _ {2}} a _ {\mathrm {R e d} _ {2}} ^ {z _ {1}}} = \frac {\left(\varphi_ {1} ^ {\ominus} - \varphi_ {2} ^ {\ominus}\right) z}{0.059 \mathrm {V}} \tag {7-2a}
 $$
 
 式中， $K$ 即为反应平衡常数， $z$ 是反应电子转移数 $z_{1}$ 与 $z_{2}$ 的最小公倍数。上式表明，氧化还原反应的平衡常数与两电对的标准电极电势及电子转移数有关。若考虑溶液中各种副反应的影响，则以相应的条件电势代入上式，所得平衡常数即为条件平衡常数 $K^{\prime}$ (conditional equilibrium constant)，相应的活度也应以总浓度代替，即
 
 $$
-\lg K ^ {\prime} = \lg \frac {c _ {\mathrm {R e d} _ {1}} ^ {\bar {z} _ {2} ^ {2}} c _ {\mathrm {O x} _ {2}} ^ {\bar {z} _ {1} ^ {1}}}{c _ {\mathrm {O x} _ {1}} ^ {\bar {z} _ {2} ^ {2}} c _ {\mathrm {R e d} _ {2}} ^ {\bar {z} _ {1} ^ {1}}} = \frac {\left(\varphi_ {1} ^ {\ominus^ {\prime}} - \varphi_ {2} ^ {\ominus^ {\prime}}\right) z}{0 . 0 5 9 \mathrm {V}} \tag {7-2b}
+\lg K ^ {\prime} = \lg \frac {c _ {\mathrm {R e d} _ {1}} ^ {\bar {z} _ {2} ^ {2}} c _ {\mathrm {O x} _ {2}} ^ {\bar {z} _ {1} ^ {1}}}{c _ {\mathrm {O x} _ {1}} ^ {\bar {z} _ {2} ^ {2}} c _ {\mathrm {R e d} _ {2}} ^ {\bar {z} _ {1} ^ {1}}} = \frac {\left(\varphi_ {1} ^ {\ominus^ {\prime}} - \varphi_ {2} ^ {\ominus^ {\prime}}\right) z}{0.059 \mathrm {V}} \tag {7-2b}
 $$
 
 它更能说明氧化还原反应实际进行的程度。
@@ -6909,11 +6909,11 @@ $$
 解已知 $\varphi_{\mathrm{IO_3^{-} / I_2}}^{\ominus} = 1.20\mathrm{V},\varphi_{\mathrm{I_2^{+} / I^{-}}}^{\ominus} = 0.535\mathrm{V}$ ，反应中两电对电子转移数的最小公倍数 $z = 5$ ，故
 
 $$
-\lg K = \frac {(1 . 2 0 \mathrm {V} - 0 . 5 3 5 \mathrm {V}) \times 5}{0 . 0 5 9 \mathrm {V}} = 5 6. 4
+\lg K = \frac {(1.20 \mathrm {V} - 0.535 \mathrm {V}) \times 5}{0.059 \mathrm {V}} = 56.4
 $$
 
 $$
-K = 2. 5 \times 1 0 ^ {5 6}
+K = 2.5 \times 10 ^ {56}
 $$
 
 例5 计算下列氧化还原反应的平衡常数：
@@ -6925,21 +6925,21 @@ $$
 解已知 $\mathrm{MnO_4^- + 4H^+ + 3e^- = MnO_2(s) + 2H_2O}$ $\varphi^{=}1.695\mathrm{V}$
 
 $$
-\mathrm {M n O} _ {2} (\mathrm {s}) + 4 \mathrm {H} ^ {+} + 2 \mathrm {e} ^ {-} = \mathrm {M n} ^ {2 +} + 2 \mathrm {H} _ {2} \mathrm {O} \quad \varphi^ {\ominus} = 1. 2 3 \mathrm {V}
+\mathrm {M n O} _ {2} (\mathrm {s}) + 4 \mathrm {H} ^ {+} + 2 \mathrm {e} ^ {-} = \mathrm {M n} ^ {2 +} + 2 \mathrm {H} _ {2} \mathrm {O} \quad \varphi^ {\ominus} = 1.23 \mathrm {V}
 $$
 
 当体系达到平衡时
 
 $$
-1. 6 9 5 \mathrm {V} - \frac {0 . 0 5 9 \mathrm {V}}{3} \lg \frac {1}{\left[ \mathrm {M n O} _ {4} ^ {-} \right] \left[ \mathrm {H} ^ {+} \right] ^ {4}} = 1. 2 3 \mathrm {V} - \frac {0 . 0 5 9 \mathrm {V}}{2} \lg \frac {\left[ \mathrm {M n} ^ {2 +} \right]}{\left[ \mathrm {H} ^ {+} \right] ^ {4}}
+1.695 \mathrm {V} - \frac {0.059 \mathrm {V}}{3} \lg \frac {1}{\left[ \mathrm {M n O} _ {4} ^ {-} \right] \left[ \mathrm {H} ^ {+} \right] ^ {4}} = 1.23 \mathrm {V} - \frac {0.059 \mathrm {V}}{2} \lg \frac {\left[ \mathrm {M n} ^ {2 +} \right]}{\left[ \mathrm {H} ^ {+} \right] ^ {4}}
 $$
 
 $$
-\lg K = \frac {\left[ \mathrm {H} ^ {+} \right] ^ {1}}{\left[ \mathrm {M n O} _ {4} ^ {-} \right] ^ {2} \left[ \mathrm {M n} ^ {2 +} \right] ^ {3}} = \frac {6 (1 . 6 9 5 \mathrm {V} - 1 . 2 3 \mathrm {V})}{0 . 0 5 9 \mathrm {V}} = 4 7. 1
+\lg K = \frac {\left[ \mathrm {H} ^ {+} \right] ^ {1}}{\left[ \mathrm {M n O} _ {4} ^ {-} \right] ^ {2} \left[ \mathrm {M n} ^ {2 +} \right] ^ {3}} = \frac {6 (1.695 \mathrm {V} - 1.23 \mathrm {V})}{0.059 \mathrm {V}} = 47.1
 $$
 
 $$
-K = 1 \times 1 0 ^ {4 7}
+K = 1 \times 10 ^ {47}
 $$
 
 # 7.1.4 化学计量点时反应进行的程度
@@ -6959,15 +6959,15 @@ $$
 已知 $\varphi_{\mathrm{Fe}^{3+}/\mathrm{Fe}^{2+}}^{\ominus'} = 0.68\mathrm{~V}, \varphi_{\mathrm{Sn}^{4+}/\mathrm{Sn}^{2+}}^{\ominus'} = 0.14\mathrm{~V}$ 。两电对电子转移数 $z_{1} = 1, z_{2} = 2$ ，故 $z = 2$ ，由（7-2b）式可知
 
 $$
-\begin{array}{l} \lg K ^ {\prime} = \frac {\left(\varphi_ {\mathrm {F e} ^ {3 +} / \mathrm {F e} ^ {2 +}} ^ {\ominus^ {\prime}} - \varphi_ {\mathrm {S n} ^ {4 +} / \mathrm {S n} ^ {2 +}} ^ {\ominus^ {\prime}}\right) z}{0 . 0 5 9 \mathrm {V}} \\ = \frac {(0 . 6 8 \mathrm {V} - 0 . 1 4 \mathrm {V}) \times 2}{0 . 0 5 9 \mathrm {V}} \\ = 1 8. 3 0 \\ \end{array}
+\begin{array}{l} \lg K ^ {\prime} = \frac {\left(\varphi_ {\mathrm {F e} ^ {3 +} / \mathrm {F e} ^ {2 +}} ^ {\ominus^ {\prime}} - \varphi_ {\mathrm {S n} ^ {4 +} / \mathrm {S n} ^ {2 +}} ^ {\ominus^ {\prime}}\right) z}{0.059 \mathrm {V}} \\ = \frac {(0.68 \mathrm {V} - 0.14 \mathrm {V}) \times 2}{0.059 \mathrm {V}} \\ = 18.30 \\ \end{array}
 $$
 
 $$
-K ^ {\prime} = 2. 0 \times 1 0 ^ {1 8}
+K ^ {\prime} = 2.0 \times 10 ^ {18}
 $$
 
 $$
-\begin{array}{l} K ^ {\prime} = \frac {(c _ {\mathrm {F e} ^ {2 +}}) ^ {2} c _ {\mathrm {S n} ^ {4 +}}}{(c _ {\mathrm {F e} ^ {3 +}}) ^ {2} c _ {\mathrm {S n} ^ {2 +}}} = \frac {(c _ {\mathrm {F e} ^ {2 +}}) ^ {3}}{(c _ {\mathrm {F e} ^ {3 +}}) ^ {3}} = 2. 0 \times 1 0 ^ {1 8} \\ \frac {C _ {\mathrm {F e} ^ {2 +}}}{C _ {\mathrm {F e} ^ {3 +}}} = 1. 3 \times 1 0 ^ {6} \\ \end{array}
+\begin{array}{l} K ^ {\prime} = \frac {(c _ {\mathrm {F e} ^ {2 +}}) ^ {2} c _ {\mathrm {S n} ^ {4 +}}}{(c _ {\mathrm {F e} ^ {3 +}}) ^ {2} c _ {\mathrm {S n} ^ {2 +}}} = \frac {(c _ {\mathrm {F e} ^ {2 +}}) ^ {3}}{(c _ {\mathrm {F e} ^ {3 +}}) ^ {3}} = 2.0 \times 10 ^ {18} \\ \frac {C _ {\mathrm {F e} ^ {2 +}}}{C _ {\mathrm {F e} ^ {3 +}}} = 1.3 \times 10 ^ {6} \\ \end{array}
 $$
 
 溶液中的 $\mathrm{Fe}^{3+}$ 有 $99.999\%$ 被还原至 $\mathrm{Fe}^{2+}$ 。所以，此条件下反应进行得很完全。
@@ -6983,13 +6983,13 @@ $$
 解 要使反应程度达 $99.9\%$ 以上，即要求
 
 $$
-\frac {c _ {\mathrm {R e d} _ {1}}}{c _ {\mathrm {(O x)} _ {1}}} \approx \frac {a _ {\mathrm {R e d} _ {1}}}{a _ {\mathrm {(O x)} _ {1}}} \geqslant 1 0 ^ {3} \quad \frac {c _ {\mathrm {(O x)} _ {2}}}{c _ {\mathrm {R e d} _ {2}}} \approx \frac {a _ {\mathrm {(O x)} _ {2}}}{a _ {\mathrm {R e d} _ {2}}} \geqslant 1 0 ^ {3}
+\frac {c _ {\mathrm {R e d} _ {1}}}{c _ {\mathrm {(O x)} _ {1}}} \approx \frac {a _ {\mathrm {R e d} _ {1}}}{a _ {\mathrm {(O x)} _ {1}}} \geqslant 10 ^ {3} \quad \frac {c _ {\mathrm {(O x)} _ {2}}}{c _ {\mathrm {R e d} _ {2}}} \approx \frac {a _ {\mathrm {(O x)} _ {2}}}{a _ {\mathrm {R e d} _ {2}}} \geqslant 10 ^ {3}
 $$
 
 故 $\lg K = \lg \frac{a_{\mathrm{Red}_1} a_{\mathrm{Ox}_2}}{a_{\mathrm{Ox}_1} a_{\mathrm{Red}_2}} \geqslant 6$
 
 $$
-\varphi_ {1} ^ {\ominus} - \varphi_ {2} ^ {\ominus} = \frac {0 . 0 5 9 \mathrm {V}}{z} \lg K \geqslant 0. 0 5 9 \mathrm {V} \times 6 = 0. 3 5 \mathrm {V}
+\varphi_ {1} ^ {\ominus} - \varphi_ {2} ^ {\ominus} = \frac {0.059 \mathrm {V}}{z} \lg K \geqslant 0.059 \mathrm {V} \times 6 = 0.35 \mathrm {V}
 $$
 
 若 $z_{1} = z_{2} = 2$ ，要求反应完全程度达 $99.9\%$ 以上，对 $\lg K$ 的要求不变，为
@@ -7001,7 +7001,7 @@ $$
 故
 
 $$
-\varphi_ {1} ^ {\ominus} - \varphi_ {2} ^ {\ominus} = \frac {0 . 0 5 9 \mathrm {V}}{z} \lg K \geqslant \frac {0 . 0 5 9 \mathrm {V} \times 6}{2} = 0. 1 8 \mathrm {V}
+\varphi_ {1} ^ {\ominus} - \varphi_ {2} ^ {\ominus} = \frac {0.059 \mathrm {V}}{z} \lg K \geqslant \frac {0.059 \mathrm {V} \times 6}{2} = 0.18 \mathrm {V}
 $$
 
 在氧化还原滴定中，有多种强氧化剂可作滴定剂，且可控制有关条件来改变电对的电势，因此要达到上述条件是比较容易的。反应完全程度的问题在氧化还原反应中不像在酸碱反应中那么突出。
@@ -7013,19 +7013,19 @@ $$
 例如，水溶液中的溶解氧：
 
 $$
-\mathrm {O} _ {2} + 4 \mathrm {H} ^ {+} + 4 \mathrm {e} ^ {-} = 2 \mathrm {H} _ {2} \mathrm {O} \quad \varphi^ {\text {c l}} = 1. 2 3 \mathrm {V}
+\mathrm {O} _ {2} + 4 \mathrm {H} ^ {+} + 4 \mathrm {e} ^ {-} = 2 \mathrm {H} _ {2} \mathrm {O} \quad \varphi^ {\text {c l}} = 1.23 \mathrm {V}
 $$
 
 标准电势较大，应该很容易氧化一些强还原剂，如
 
 $$
-\mathrm {S n} ^ {4 +} + 2 \mathrm {e} ^ {-} = \mathrm {S n} ^ {2 +} \quad \varphi^ {\ominus} = 0. 1 5 4 \mathrm {V}
+\mathrm {S n} ^ {4 +} + 2 \mathrm {e} ^ {-} = \mathrm {S n} ^ {2 +} \quad \varphi^ {\ominus} = 0.154 \mathrm {V}
 $$
 
 又如强氧化剂：
 
 $$
-\mathrm {C e} ^ {4 +} + \mathrm {e} ^ {-} = \mathrm {C e} ^ {3 +} \quad \varphi^ {\ominus} = 1. 6 1 \mathrm {V}
+\mathrm {C e} ^ {4 +} + \mathrm {e} ^ {-} = \mathrm {C e} ^ {3 +} \quad \varphi^ {\ominus} = 1.61 \mathrm {V}
 $$
 
 从标准电势来看，它应该氧化水生产 $\mathrm{O}_2$ ，但实际上 $\mathrm{Ce}^{4+}$ 与 $\mathrm{Sn}^{2+}$ 均能存在于水溶液中，说明它们与水分子和 $\mathrm{O}_2$ 之间反应速率太慢，因而可以认为没有发生氧化还原反应。反应速率缓慢的原因是由于电子在氧化剂和还原剂之间转移时，受到了来自溶剂分子、各种配体及静电排斥等各方面的阻力。此外，由于价态改变而引起的电子层结构、化学键及组成的变化也会阻碍电子的转移。如 $\mathrm{Cr}_2\mathrm{O}_7^{2-}$ 被还原为 $\mathrm{Cr}^{3+}$ 及 $\mathrm{MnO}_4^-$ 被还原为 $\mathrm{Mn}^{2+}$ ，由带负电荷的含氧酸根转变为带正电荷的水合离子，结构发生了很大的改变，导致反应速率变慢。
@@ -7037,7 +7037,7 @@ $$
 在氧化还原反应中，由于反应机理比较复杂，所以不能从总的氧化还原反应方程式来判断反应物浓度对反应速率的影响程度。但一般说来，反应物的浓度越大，反应的速率越快。例如，在酸性溶液中 $\mathrm{K_2Cr_2O_7}$ 和KI的反应：
 
 $$
-\mathrm {C r} _ {2} \mathrm {O} _ {7} ^ {2 -} + 6 \mathrm {I} ^ {-} + 1 4 \mathrm {H} ^ {+} = 2 \mathrm {C r} ^ {3 +} + 3 \mathrm {I} _ {2} + 7 \mathrm {H} _ {2} \mathrm {O}
+\mathrm {C r} _ {2} \mathrm {O} _ {7} ^ {2 -} + 6 \mathrm {I} ^ {-} + 14 \mathrm {H} ^ {+} = 2 \mathrm {C r} ^ {3 +} + 3 \mathrm {I} _ {2} + 7 \mathrm {H} _ {2} \mathrm {O}
 $$
 
 增大 $\mathrm{I}^{-}$ 的浓度或提高溶液的酸度，都可以使反应速率加快。
@@ -7047,7 +7047,7 @@ $$
 对大多数反应来说，升高溶液的温度，可提高反应速率。这是由于升高溶液的温度不仅增加了反应物之间的碰撞概率，更重要的是增加了活化分子或活化离子的数目，所以提高了反应速率。通常溶液的温度每增高 $10^{\circ}\mathrm{C}$ ，反应速率约增大 $2\sim 3$ 倍。例如，在酸性溶液中 $\mathrm{MnO_4^-}$ 和 $\mathrm{C_2O_4^{2-}}$ 的反应：
 
 $$
-2 \mathrm {M n O} _ {4} ^ {-} + 5 \mathrm {C} _ {2} \mathrm {O} _ {4} ^ {2 -} + 1 6 \mathrm {H} ^ {+} = 2 \mathrm {M n} ^ {2 +} + 1 0 \mathrm {C O} _ {2} + 8 \mathrm {H} _ {2} \mathrm {O}
+2 \mathrm {M n O} _ {4} ^ {-} + 5 \mathrm {C} _ {2} \mathrm {O} _ {4} ^ {2 -} + 16 \mathrm {H} ^ {+} = 2 \mathrm {M n} ^ {2 +} + 10 \mathrm {C O} _ {2} + 8 \mathrm {H} _ {2} \mathrm {O}
 $$
 
 在室温下，反应速率缓慢。如果将溶液加热至 $80^{\circ}\mathrm{C}$ 左右，反应速率大大加快。所以用 $\mathrm{KMnO}_4$ 滴定 $\mathrm{H}_2\mathrm{C}_2\mathrm{O}_4$ 时，通常将溶液加热至 $75\sim 85^{\circ}\mathrm{C}$ 。
@@ -7069,7 +7069,7 @@ $$
 例如， $\mathrm{MnO}_4^-$ 和 $\mathrm{C}_2\mathrm{O}_4^{2-}$ 的反应在分析化学中应用较多，反应式为
 
 $$
-2 \mathrm {M n O} _ {4} ^ {-} + 5 \mathrm {C} _ {2} \mathrm {O} _ {4} ^ {2 -} + 1 6 \mathrm {H} ^ {+} = 2 \mathrm {M n} ^ {2 +} + 1 0 \mathrm {C O} _ {2} \uparrow + 8 \mathrm {H} _ {2} \mathrm {O}
+2 \mathrm {M n O} _ {4} ^ {-} + 5 \mathrm {C} _ {2} \mathrm {O} _ {4} ^ {2 -} + 16 \mathrm {H} ^ {+} = 2 \mathrm {M n} ^ {2 +} + 10 \mathrm {C O} _ {2} \uparrow + 8 \mathrm {H} _ {2} \mathrm {O}
 $$
 
 这一反应的速率较慢，若加入 $\mathrm{Mn}^{2+}$ ，便能催化反应迅速进行。若不加入 $\mathrm{Mn}^{2+}$ 而利用 $\mathrm{MnO}_4^-$ 与 $\mathrm{C}_2\mathrm{O}_4^{2-}$ 反应所生成的微量 $\mathrm{Mn}^{2+}$ 作催化剂，反应也可以进行。这种生成物本身就起催化作用的反应叫做自动催化反应。自动催化作用有一个特点，就是开始时的反应速率比较慢（称为诱导期），随着生成物逐渐增多，反应速率逐渐加快；经过一最高点后，随着反应物浓度的减小，反应速率逐渐降低。
@@ -7081,7 +7081,7 @@ $$
 $\mathrm{KMnO_4}$ 氧化 $\mathrm{Cl^-}$ 的速率很慢，但是，当溶液中同时存在 $\mathrm{Fe^{2 + }}$ 时， $\mathrm{KMnO_4}$ 与 $\mathrm{Fe^{2 + }}$ 的反应可以加速 $\mathrm{KMnO_4}$ 与 $\mathrm{Cl^-}$ 的反应。这种由一个反应的发生，促进另一个反应进行的现象，称为诱导反应(induced reaction)。
 
 $$
-\begin{array}{l} \mathrm {M n O} _ {4} ^ {-} + 5 \mathrm {F e} ^ {2 +} + 8 \mathrm {H} ^ {+} = \mathrm {M n} ^ {2 +} + 5 \mathrm {F e} ^ {3 +} + 4 \mathrm {H} _ {2} \mathrm {O} (\text {诱 导 反 应}) \\ 2 \mathrm {M n O} _ {4} ^ {-} + 1 0 \mathrm {C l} ^ {-} + 1 6 \mathrm {H} ^ {+} = 2 \mathrm {M n} ^ {2 +} + 5 \mathrm {C l} _ {2} + 8 \mathrm {H} _ {2} \mathrm {O} (\text {受 诱 反 应}) \\ \end{array}
+\begin{array}{l} \mathrm {M n O} _ {4} ^ {-} + 5 \mathrm {F e} ^ {2 +} + 8 \mathrm {H} ^ {+} = \mathrm {M n} ^ {2 +} + 5 \mathrm {F e} ^ {3 +} + 4 \mathrm {H} _ {2} \mathrm {O} (\text {诱 导 反 应}) \\ 2 \mathrm {M n O} _ {4} ^ {-} + 10 \mathrm {C l} ^ {-} + 16 \mathrm {H} ^ {+} = 2 \mathrm {M n} ^ {2 +} + 5 \mathrm {C l} _ {2} + 8 \mathrm {H} _ {2} \mathrm {O} (\text {受 诱 反 应}) \\ \end{array}
 $$
 
 其中 $\mathrm{MnO}_4^-$ 称为作用体， $\mathrm{Fe}^{2+}$ 称为诱导体， $\mathrm{Cl}^-$ 称为受诱体。
@@ -7123,19 +7123,19 @@ $$
 随着滴定过程中溶液电极电势值的变化，指示剂的 $\left[\mathrm{In}(\mathrm{Ox})\right] / \left[\mathrm{In}(\mathrm{Red})\right]$ 亦按能斯特公式所示的关系变化：
 
 $$
-\varphi = \varphi_ {\mathrm {I n}} ^ {\ominus} + \frac {0 . 0 5 9 \mathrm {V}}{z} \lg \frac {[ \mathrm {I n (O x)} ]}{[ \mathrm {I n (R e d)} ]}
+\varphi = \varphi_ {\mathrm {I n}} ^ {\ominus} + \frac {0.059 \mathrm {V}}{z} \lg \frac {[ \mathrm {I n (O x)} ]}{[ \mathrm {I n (R e d)} ]}
 $$
 
 与酸碱指示剂的变色情况相似，当 $\left[\mathrm{In}(\mathrm{Ox})\right] / \left[\mathrm{In}(\mathrm{Red})\right] \geqslant 10$ 时，溶液呈现氧化态的颜色，此时
 
 $$
-\varphi \geqslant \varphi_ {\ln} ^ {\ominus} + \frac {0 . 0 5 9 \mathrm {V}}{z} \lg 1 0 = \varphi_ {\ln} ^ {\ominus} + \frac {0 . 0 5 9}{z} \mathrm {V}
+\varphi \geqslant \varphi_ {\ln} ^ {\ominus} + \frac {0.059 \mathrm {V}}{z} \lg 10 = \varphi_ {\ln} ^ {\ominus} + \frac {0.059}{z} \mathrm {V}
 $$
 
 当 $\left[\mathrm{In}(\mathrm{Ox})\right] / \left[\mathrm{In}(\mathrm{Red})\right] \leqslant \frac{1}{10}$ 时，溶液呈现还原态的颜色，此时
 
 $$
-\varphi \leqslant \varphi_ {\mathrm {i n}} ^ {\ominus} + \frac {0 . 0 5 9 \mathrm {V}}{z} \lg \frac {1}{1 0} = \varphi_ {\mathrm {i n}} ^ {\ominus} - \frac {0 . 0 5 9}{z} \mathrm {V}
+\varphi \leqslant \varphi_ {\mathrm {i n}} ^ {\ominus} + \frac {0.059 \mathrm {V}}{z} \lg \frac {1}{10} = \varphi_ {\mathrm {i n}} ^ {\ominus} - \frac {0.059}{z} \mathrm {V}
 $$
 
 指示剂变色的电势范围为 $\varphi_{\mathrm{In}}^{\ominus} \pm \frac{0.059}{z} \mathrm{~V}$ ，若采用条件电势，则为 $\varphi_{\mathrm{In}}^{\ominus'} \pm \frac{0.059}{z} \mathrm{~V}$ 。
@@ -7157,7 +7157,7 @@ $$
 无色), 这两种配离子之间的氧化还原半反应为
 
 $$
-\left[ \mathrm {F e} \left(\mathrm {C} _ {1 2} \mathrm {H} _ {8} \mathrm {N} _ {2}\right) _ {3} \right] ^ {3 +} + \mathrm {e} ^ {-} = \left[ \mathrm {F e} \left(\mathrm {C} _ {1 2} \mathrm {H} _ {8} \mathrm {N} _ {2}\right) _ {3} \right] ^ {2 +}
+\left[ \mathrm {F e} \left(\mathrm {C} _ {12} \mathrm {H} _ {8} \mathrm {N} _ {2}\right) _ {3} \right] ^ {3 +} + \mathrm {e} ^ {-} = \left[ \mathrm {F e} \left(\mathrm {C} _ {12} \mathrm {H} _ {8} \mathrm {N} _ {2}\right) _ {3} \right] ^ {2 +}
 $$
 
 在 $1\mathrm{mol}\cdot \mathrm{L}^{-1}\mathrm{H}^{+}$ 存在时 $\varphi^{\text{日}} = 1.06\mathrm{V}$
@@ -7219,23 +7219,23 @@ $$
 滴定曲线方程为滴定分数与溶液电势间的函数关系，根据能斯特方程求得平衡电势为
 
 $$
-\varphi = \varphi_ {1} ^ {\ominus^ {\prime}} + \frac {0 . 0 5 9 \mathrm {V}}{z _ {1}} \lg \frac {[ \mathrm {O x} _ {1} ]}{[ \mathrm {R e d} _ {1} ]} = \varphi_ {2} ^ {\ominus^ {\prime}} + \frac {0 . 0 5 9 \mathrm {V}}{z _ {2}} \lg \frac {[ \mathrm {O x} _ {2} ]}{[ \mathrm {R e d} _ {2} ]} \tag {7}
+\varphi = \varphi_ {1} ^ {\ominus^ {\prime}} + \frac {0.059 \mathrm {V}}{z _ {1}} \lg \frac {[ \mathrm {O x} _ {1} ]}{[ \mathrm {R e d} _ {1} ]} = \varphi_ {2} ^ {\ominus^ {\prime}} + \frac {0.059 \mathrm {V}}{z _ {2}} \lg \frac {[ \mathrm {O x} _ {2} ]}{[ \mathrm {R e d} _ {2} ]} \tag {7}
 $$
 
 因此
 
 $$
-\frac {\left[ O x _ {1} \right]}{\left[ R e d _ {1} \right]} = 1 0 ^ {z _ {1} \left(\varphi - \varphi_ {1} ^ {\ominus^ {\prime}}\right) / 0. 0 5 9 \mathrm {V}} \tag {8}
+\frac {\left[ O x _ {1} \right]}{\left[ R e d _ {1} \right]} = 10 ^ {z _ {1} \left(\varphi - \varphi_ {1} ^ {\ominus^ {\prime}}\right) / 0.059 \mathrm {V}} \tag {8}
 $$
 
 $$
-\frac {\left[ O x _ {2} \right]}{\left[ R e d _ {2} \right]} = 1 0 ^ {z _ {2} \left(\varphi - \varphi_ {2} ^ {\ominus^ {\prime}}\right) / 0. 0 5 9 \mathrm {V}} \tag {9}
+\frac {\left[ O x _ {2} \right]}{\left[ R e d _ {2} \right]} = 10 ^ {z _ {2} \left(\varphi - \varphi_ {2} ^ {\ominus^ {\prime}}\right) / 0.059 \mathrm {V}} \tag {9}
 $$
 
 （8）及（9）式代入（6）式可得
 
 $$
-f = \frac {1 + 1 0 ^ {z _ {1} (\varphi - \varphi_ {1} ^ {\ominus^ {\prime}}) / 0 . 0 5 9 \mathrm {V}}}{1 + 1 0 ^ {z _ {2} (\varphi - \varphi_ {2} ^ {\ominus^ {\prime}}) / 0 . 0 5 9 \mathrm {V}}} \tag {7-3}
+f = \frac {1 + 10 ^ {z _ {1} (\varphi - \varphi_ {1} ^ {\ominus^ {\prime}}) / 0.059 \mathrm {V}}}{1 + 10 ^ {z _ {2} (\varphi - \varphi_ {2} ^ {\ominus^ {\prime}}) / 0.059 \mathrm {V}}} \tag {7-3}
 $$
 
 （7-3）式即为滴定曲线方程。
@@ -7279,17 +7279,17 @@ $$
 解 由(7-2b)式得
 
 $$
-\lg K = \frac {\left(\varphi_ {1} ^ {\circ^ {\prime}} - \varphi_ {2} ^ {\circ^ {\prime}}\right) z}{0 . 0 5 9 \mathrm {V}} = \frac {1 . 4 4 \mathrm {V} - 0 . 6 8 \mathrm {V}}{0 . 0 5 9 \mathrm {V}} = 1 2. 8 8
+\lg K = \frac {\left(\varphi_ {1} ^ {\circ^ {\prime}} - \varphi_ {2} ^ {\circ^ {\prime}}\right) z}{0.059 \mathrm {V}} = \frac {1.44 \mathrm {V} - 0.68 \mathrm {V}}{0.059 \mathrm {V}} = 12.88
 $$
 
 $$
-K = 7. 6 \times 1 0 ^ {1 2}
+K = 7.6 \times 10 ^ {12}
 $$
 
 由（7-4）式得
 
 $$
-\begin{array}{l} \varphi_ {\mathrm {s p}} = \frac {z _ {1} \varphi_ {\mathrm {C e} ^ {4 +} / \mathrm {C e} ^ {3 +}} ^ {\ominus^ {\prime}} + z _ {2} \varphi_ {\mathrm {F e} ^ {3 +} / \mathrm {F e} ^ {2 +}} ^ {\ominus^ {\prime}}}{z _ {1} + z _ {2}} = \frac {1 . 4 4 \mathrm {V} + 0 . 6 8 \mathrm {V}}{1 + 1} \\ = 1. 0 6 \mathrm {V} \\ \end{array}
+\begin{array}{l} \varphi_ {\mathrm {s p}} = \frac {z _ {1} \varphi_ {\mathrm {C e} ^ {4 +} / \mathrm {C e} ^ {3 +}} ^ {\ominus^ {\prime}} + z _ {2} \varphi_ {\mathrm {F e} ^ {3 +} / \mathrm {F e} ^ {2 +}} ^ {\ominus^ {\prime}}}{z _ {1} + z _ {2}} = \frac {1.44 \mathrm {V} + 0.68 \mathrm {V}}{1 + 1} \\ = 1.06 \mathrm {V} \\ \end{array}
 $$
 
 # （3）滴定突跃范围
@@ -7299,7 +7299,7 @@ $$
 设以滴定剂（条件电势 $\varphi_{1}^{\ominus}$ ，电子转移数 $z_{1}$ ）滴定待测物（条件电势为 $\varphi_{2}^{\ominus}$ ，电子转移数 $z_{2}$ ），则突跃范围为
 
 $$
-\left(\varphi_ {2} ^ {\ominus^ {\prime}} + \frac {0 . 0 5 9 \mathrm {V}}{z _ {2}} \lg 1 0 ^ {3}\right) \sim \left(\varphi_ {1} ^ {\ominus^ {\prime}} + \frac {0 . 0 5 9 \mathrm {V}}{z _ {1}} \lg 1 0 ^ {- 3}\right)
+\left(\varphi_ {2} ^ {\ominus^ {\prime}} + \frac {0.059 \mathrm {V}}{z _ {2}} \lg 10 ^ {3}\right) \sim \left(\varphi_ {1} ^ {\ominus^ {\prime}} + \frac {0.059 \mathrm {V}}{z _ {1}} \lg 10 ^ {- 3}\right)
 $$
 
 它仅取决于两电对的电子转移数与电势差，与浓度无关。
@@ -7307,7 +7307,7 @@ $$
 例如，例8中以 $\mathrm{Ce^{4 + }}$ 滴定 $\mathrm{Fe}^{2 + }$ ，其突跃范围为
 
 $$
-(0. 6 8 + 0. 0 5 9 \times 3) \sim (1. 4 4 - 0. 0 5 9 \times 3) \mathrm {V}
+(0.68 + 0.059 \times 3) \sim (1.44 - 0.059 \times 3) \mathrm {V}
 $$
 
 即 $0.86\sim 1.26\mathrm{V}$
@@ -7323,13 +7323,13 @@ $$
 $$
 
 $$
-\varphi_ {\mathrm {s p}} = \frac {1 \times 0 . 7 0 \mathrm {V} + 2 \times 0 . 1 4 \mathrm {V}}{1 + 2} = 0. 3 3 \mathrm {V}
+\varphi_ {\mathrm {s p}} = \frac {1 \times 0.70 \mathrm {V} + 2 \times 0.14 \mathrm {V}}{1 + 2} = 0.33 \mathrm {V}
 $$
 
 突跃范围为
 
 $$
-\left(0. 1 4 + \frac {0 . 0 5 9}{2} \lg 1 0 ^ {3}\right) \sim \left(0. 7 0 + \frac {0 . 0 5 9}{1} \lg 1 0 ^ {- 3}\right) \mathrm {V}
+\left(0.14 + \frac {0.059}{2} \lg 10 ^ {3}\right) \sim \left(0.70 + \frac {0.059}{1} \lg 10 ^ {- 3}\right) \mathrm {V}
 $$
 
 即 $0.23\sim 0.52\mathrm{V}$ ，其中点为 $0.38\mathrm{V}$ ，即 $\varphi_{\mathrm{sp}}$ 偏向于 $\mathrm{Sn}^{4 + } / \mathrm{Sn}^{2 + }$ 电对（电子转移数较大的电对）一方。
@@ -7345,25 +7345,25 @@ $$
 按上述相同的方法，同样可导出它的滴定曲线方程式：
 
 $$
-f = \frac {1 + a [ \mathrm {R e d} _ {1} ] a ^ {- 1} 1 0 ^ {z _ {1} (\varphi_ {\mathrm {s p}} - \varphi_ {1} ^ {\ominus^ {\prime}}) / 0 . 0 5 9 \mathrm {V}}}{1 + b [ \mathrm {O x} _ {2} ] b ^ {- 1} 1 0 ^ {- z _ {2} (\varphi_ {\mathrm {s p}} - \varphi_ {2} ^ {\ominus^ {\prime}}) / 0 . 0 5 9 \mathrm {V}}} \tag {7-5}
+f = \frac {1 + a [ \mathrm {R e d} _ {1} ] a ^ {- 1} 10 ^ {z _ {1} (\varphi_ {\mathrm {s p}} - \varphi_ {1} ^ {\ominus^ {\prime}}) / 0.059 \mathrm {V}}}{1 + b [ \mathrm {O x} _ {2} ] b ^ {- 1} 10 ^ {- z _ {2} (\varphi_ {\mathrm {s p}} - \varphi_ {2} ^ {\ominus^ {\prime}}) / 0.059 \mathrm {V}}} \tag {7-5}
 $$
 
 若将 $f = 1$ 代入（7-5）式，则可得到有不对称电对参加的氧化还原反应的滴定化学计量点电势：
 
 $$
-a \left[ \mathrm {R e d} _ {1} \right] _ {\mathrm {s p}} ^ {a - 1} 1 0 ^ {z _ {1} \left(\varphi_ {\mathrm {s p}} - \varphi_ {1} ^ {\ominus^ {\prime}}\right) / 0. 0 5 9 \mathrm {V}} = b \left[ \mathrm {O x} _ {2} \right] _ {\mathrm {s p}} ^ {b - 1} 1 0 ^ {- z _ {2} \left(\varphi_ {\mathrm {s p}} - \varphi_ {2} ^ {\ominus^ {\prime}}\right) / 0. 0 5 9 \mathrm {V}}
+a \left[ \mathrm {R e d} _ {1} \right] _ {\mathrm {s p}} ^ {a - 1} 10 ^ {z _ {1} \left(\varphi_ {\mathrm {s p}} - \varphi_ {1} ^ {\ominus^ {\prime}}\right) / 0.059 \mathrm {V}} = b \left[ \mathrm {O x} _ {2} \right] _ {\mathrm {s p}} ^ {b - 1} 10 ^ {- z _ {2} \left(\varphi_ {\mathrm {s p}} - \varphi_ {2} ^ {\ominus^ {\prime}}\right) / 0.059 \mathrm {V}}
 $$
 
 取对数：
 
 $$
-\lg \left\{a \left[ \mathrm {R e d} _ {1} \right] _ {\mathrm {s p}} ^ {a - 1} \right\} + \frac {z _ {1} \left(\varphi_ {\mathrm {s p}} - \varphi_ {1} ^ {\ominus^ {\prime}}\right)}{0 . 0 5 9 \mathrm {V}} = \lg \left\{b \left[ \mathrm {O x} _ {2} \right] _ {\mathrm {s p}} ^ {b - 1} \right\} - \frac {z _ {2} \left(\varphi_ {\mathrm {s p}} - \varphi_ {2} ^ {\ominus^ {\prime}}\right)}{0 . 0 5 9 \mathrm {V}}
+\lg \left\{a \left[ \mathrm {R e d} _ {1} \right] _ {\mathrm {s p}} ^ {a - 1} \right\} + \frac {z _ {1} \left(\varphi_ {\mathrm {s p}} - \varphi_ {1} ^ {\ominus^ {\prime}}\right)}{0.059 \mathrm {V}} = \lg \left\{b \left[ \mathrm {O x} _ {2} \right] _ {\mathrm {s p}} ^ {b - 1} \right\} - \frac {z _ {2} \left(\varphi_ {\mathrm {s p}} - \varphi_ {2} ^ {\ominus^ {\prime}}\right)}{0.059 \mathrm {V}}
 $$
 
 整理后得
 
 $$
-\varphi_ {\mathrm {s p}} = \frac {z _ {1} \varphi_ {1} ^ {\ominus^ {\prime}} + z _ {2} \varphi_ {2} ^ {\ominus^ {\prime}}}{z _ {1} + z _ {2}} + \frac {0 . 0 5 9 \mathrm {V}}{z _ {1} + z _ {2}} \lg \frac {b [ \mathrm {O x} _ {2} ] _ {\mathrm {s p}} ^ {b - 1}}{a [ \mathrm {R e d} _ {1} ] _ {\mathrm {s p}} ^ {a - 1}} \tag {7-6}
+\varphi_ {\mathrm {s p}} = \frac {z _ {1} \varphi_ {1} ^ {\ominus^ {\prime}} + z _ {2} \varphi_ {2} ^ {\ominus^ {\prime}}}{z _ {1} + z _ {2}} + \frac {0.059 \mathrm {V}}{z _ {1} + z _ {2}} \lg \frac {b [ \mathrm {O x} _ {2} ] _ {\mathrm {s p}} ^ {b - 1}}{a [ \mathrm {R e d} _ {1} ] _ {\mathrm {s p}} ^ {a - 1}} \tag {7-6}
 $$
 
 由该式可看出，在这种情况下， $\varphi_{\mathrm{sp}}$ 不仅与条件电势及电子转移数有关，还与反应前后有不对称系数的电对的物质的浓度有关。
@@ -7371,13 +7371,13 @@ $$
 若使用标准电极电势计算化学计量点电势，对于有 $\mathrm{H^{+}}$ 参加的氧化还原滴定反应，在计算式中应当包含有参与反应的 $\mathrm{H^{+}}$ 浓度项。例如，以 $\mathrm{K_2Cr_2O_7}$ 滴定 $\mathrm{Fe}^{2 + }$ ，以标准电势计算 $\varphi_{\mathrm{sp}}$ 的计算式为
 
 $$
-\varphi_ {\mathrm {s p}} = \frac {z _ {1} \varphi_ {1} + z _ {2} \varphi_ {2}}{z _ {1} + z _ {2}} + \frac {0 . 0 5 9 \mathrm {V}}{z _ {1} + z _ {2}} \lg \frac {1}{2 c _ {\mathrm {C r} ^ {3 +}}} + \frac {0 . 0 5 9 \mathrm {V}}{z _ {1} + z _ {2}} \lg [ \mathrm {H} ^ {+} ] ^ {1 4}
+\varphi_ {\mathrm {s p}} = \frac {z _ {1} \varphi_ {1} + z _ {2} \varphi_ {2}}{z _ {1} + z _ {2}} + \frac {0.059 \mathrm {V}}{z _ {1} + z _ {2}} \lg \frac {1}{2 c _ {\mathrm {C r} ^ {3 +}}} + \frac {0.059 \mathrm {V}}{z _ {1} + z _ {2}} \lg [ \mathrm {H} ^ {+} ] ^ {14}
 $$
 
 即
 
 $$
-\varphi_ {\mathrm {s p}} = \frac {6 \times 1 . 3 3 \mathrm {V} + 0 . 7 7 \mathrm {V}}{6 + 1} + \frac {0 . 0 5 9 \mathrm {V}}{7} \lg \frac {1}{2 c _ {\mathrm {C r} ^ {3 +}}} + \frac {0 . 0 5 9 \mathrm {V}}{7} \lg [ \mathrm {H} ^ {+} ] ^ {1 4}
+\varphi_ {\mathrm {s p}} = \frac {6 \times 1.33 \mathrm {V} + 0.77 \mathrm {V}}{6 + 1} + \frac {0.059 \mathrm {V}}{7} \lg \frac {1}{2 c _ {\mathrm {C r} ^ {3 +}}} + \frac {0.059 \mathrm {V}}{7} \lg [ \mathrm {H} ^ {+} ] ^ {14}
 $$
 
 例10以 $0.01667\mathrm{mol}\cdot \mathrm{L}^{-1}\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$ 标准溶液滴定 $0.1000\mathrm{mol}\cdot \mathrm{L}^{-1}$ 的 $\mathrm{Fe^{2 + }}$ 至终点时，溶液的 $\mathrm{pH} = 2.0$ ，求化学计量点电势。若 $[\mathrm{H}^{+}] = 1.0\mathrm{mol}\cdot \mathrm{L}^{-1}$ ，化学计量点电势又为多少？已知 $\varphi_{\mathrm{Fe}^{3 + } / \mathrm{Fe}^{2 + }}^{\ominus} = 0.77\mathrm{V},\varphi_{\mathrm{Cr_2O_7^{2 - } / Cr^{3 + }}}^{\ominus} = 1.33\mathrm{V}_{\circ}$
@@ -7385,7 +7385,7 @@ $$
 解 反应式为
 
 $$
-\mathrm {C r} _ {2} \mathrm {O} _ {7} ^ {2 -} + 6 \mathrm {F e} ^ {2 +} + 1 4 \mathrm {H} ^ {+} = 2 \mathrm {C r} ^ {3 +} + 6 \mathrm {F e} ^ {3 +} + 7 \mathrm {H} _ {2} \mathrm {O}
+\mathrm {C r} _ {2} \mathrm {O} _ {7} ^ {2 -} + 6 \mathrm {F e} ^ {2 +} + 14 \mathrm {H} ^ {+} = 2 \mathrm {C r} ^ {3 +} + 6 \mathrm {F e} ^ {3 +} + 7 \mathrm {H} _ {2} \mathrm {O}
 $$
 
 化学计量点时，体积增大1倍， $\left[\mathrm{Cr}^{3+}\right] = \frac{2 \times 0.01667 \mathrm{~mol} \cdot \mathrm{L}^{-1}}{2} = 0.01667 \mathrm{~mol} \cdot \mathrm{L}^{-1}$
@@ -7393,13 +7393,13 @@ $$
 若 $\mathrm{pH}$ 为2.0，则
 
 $$
-\begin{array}{l} \varphi_ {\mathrm {s p}} = \frac {6 \times 1 . 3 3 \mathrm {V} + 0 . 7 7 \mathrm {V}}{6 + 1} + \frac {0 . 0 5 9 \mathrm {V}}{7} \lg \frac {1}{0 . 0 1 6 6 7} + \frac {0 . 0 5 9 \mathrm {V}}{7} \lg (1 0 ^ {- 2. 0}) ^ {1 4} \\ = 1. 2 5 \mathrm {V} + 1. 5 \times 1 0 ^ {- 2} \mathrm {V} - 0. 2 3 6 \mathrm {V} = 1. 0 3 \mathrm {V} \\ \end{array}
+\begin{array}{l} \varphi_ {\mathrm {s p}} = \frac {6 \times 1.33 \mathrm {V} + 0.77 \mathrm {V}}{6 + 1} + \frac {0.059 \mathrm {V}}{7} \lg \frac {1}{0.01667} + \frac {0.059 \mathrm {V}}{7} \lg (10 ^ {- 2.0}) ^ {14} \\ = 1.25 \mathrm {V} + 1.5 \times 10 ^ {- 2} \mathrm {V} - 0.236 \mathrm {V} = 1.03 \mathrm {V} \\ \end{array}
 $$
 
 若 $\left[\mathrm{H}^{+}\right] = 1.0\mathrm{mol}\cdot \mathrm{L}^{-1}$ ，则
 
 $$
-\begin{array}{l} \varphi_ {\mathrm {s p}} = \frac {6 \times 1 . 3 3 \mathrm {V} + 0 . 7 7 \mathrm {V}}{6 + 1} + \frac {0 . 0 5 9 \mathrm {V}}{7} \lg \frac {1}{0 . 0 1 6 6 7} \\ = 1. 2 6 \mathrm {V} \\ \end{array}
+\begin{array}{l} \varphi_ {\mathrm {s p}} = \frac {6 \times 1.33 \mathrm {V} + 0.77 \mathrm {V}}{6 + 1} + \frac {0.059 \mathrm {V}}{7} \lg \frac {1}{0.01667} \\ = 1.26 \mathrm {V} \\ \end{array}
 $$
 
 当氧化还原体系中有不可逆氧化还原电对参加反应时，实测的滴定曲线与
@@ -7430,41 +7430,41 @@ $$
 对于 $\mathrm{Ox}_1 / \mathrm{Red}_1$ 电对，在终点与化学计量点时各有如下关系：
 
 $$
-\varphi_ {\mathrm {e p}} = \varphi_ {1} ^ {\ominus} + 0. 0 5 9 \mathrm {V} \lg \frac {\left[ \mathrm {O x} _ {1} \right] _ {\mathrm {e p}}}{\left[ \mathrm {R e d} _ {1} \right] _ {\mathrm {e p}}} \tag {2}
+\varphi_ {\mathrm {e p}} = \varphi_ {1} ^ {\ominus} + 0.059 \mathrm {V} \lg \frac {\left[ \mathrm {O x} _ {1} \right] _ {\mathrm {e p}}}{\left[ \mathrm {R e d} _ {1} \right] _ {\mathrm {e p}}} \tag {2}
 $$
 
 $$
-\varphi_ {\mathrm {s p}} = \varphi_ {1} ^ {\ominus} + 0. 0 5 9 \mathrm {V} \lg \frac {\left[ \mathrm {O x} _ {1} \right] _ {\mathrm {s p}}}{\left[ \mathrm {R e d} _ {1} \right] _ {\mathrm {s p}}} \tag {3}
+\varphi_ {\mathrm {s p}} = \varphi_ {1} ^ {\ominus} + 0.059 \mathrm {V} \lg \frac {\left[ \mathrm {O x} _ {1} \right] _ {\mathrm {s p}}}{\left[ \mathrm {R e d} _ {1} \right] _ {\mathrm {s p}}} \tag {3}
 $$
 
 当滴定终点与化学计量点接近时， $\left[\mathrm{Red}_1\right]_{\mathrm{ep}} \approx \left[\mathrm{Red}_1\right]_{\mathrm{sp}}$ ，(2)式与(3)式相减，整理后得
 
 $$
-\Delta \varphi = \varphi_ {\mathrm {e p}} - \varphi_ {\mathrm {s p}} = 0. 0 5 9 \mathrm {V} \lg \frac {\left[ \mathrm {O x} _ {1} \right] _ {\mathrm {e p}}}{\left[ \mathrm {O x} _ {1} \right] _ {\mathrm {s p}}} \tag {4}
+\Delta \varphi = \varphi_ {\mathrm {e p}} - \varphi_ {\mathrm {s p}} = 0.059 \mathrm {V} \lg \frac {\left[ \mathrm {O x} _ {1} \right] _ {\mathrm {e p}}}{\left[ \mathrm {O x} _ {1} \right] _ {\mathrm {s p}}} \tag {4}
 $$
 
 即
 
 $$
-\left[ \mathrm {O x} _ {1} \right] _ {\mathrm {e p}} = \left[ \mathrm {O x} _ {1} \right] _ {\mathrm {s p}} 1 0 ^ {\Delta \varphi / 0. 0 5 9 \mathrm {V}} \tag {5}
+\left[ \mathrm {O x} _ {1} \right] _ {\mathrm {e p}} = \left[ \mathrm {O x} _ {1} \right] _ {\mathrm {s p}} 10 ^ {\Delta \varphi / 0.059 \mathrm {V}} \tag {5}
 $$
 
 同理，可导出
 
 $$
-\left[ \mathrm {R e d} _ {2} \right] _ {\mathrm {e p}} = \left[ \mathrm {R e d} _ {2} \right] _ {\mathrm {s p}} 1 0 ^ {- \Delta \varphi / 0. 0 5 9 \mathrm {V}} \tag {6}
+\left[ \mathrm {R e d} _ {2} \right] _ {\mathrm {e p}} = \left[ \mathrm {R e d} _ {2} \right] _ {\mathrm {s p}} 10 ^ {- \Delta \varphi / 0.059 \mathrm {V}} \tag {6}
 $$
 
 将(5)式、(6)式代入(1)式，且在化学计量点时 $\left[\mathrm{Ox}_1\right]_{\mathrm{sp}} = \left[\mathrm{Red}_2\right]_{\mathrm{sp}}$ ，可得
 
 $$
-E _ {\mathrm {t}} = \frac {\left[ \mathrm {R e d} _ {2} \right] _ {\mathrm {s p}} \left(1 0 ^ {\Delta \varphi / 0 . 0 5 9 \mathrm {V}} - 1 0 ^ {- \Delta \varphi / 0 . 0 5 9 \mathrm {V}}\right)}{c _ {\mathrm {R e d} _ {2}} ^ {\mathrm {s p}}} \tag {7}
+E _ {\mathrm {t}} = \frac {\left[ \mathrm {R e d} _ {2} \right] _ {\mathrm {s p}} \left(10 ^ {\Delta \varphi / 0.059 \mathrm {V}} - 10 ^ {- \Delta \varphi / 0.059 \mathrm {V}}\right)}{c _ {\mathrm {R e d} _ {2}} ^ {\mathrm {s p}}} \tag {7}
 $$
 
 对于 $\mathrm{Ox}_2 / \mathrm{Red}_2$ 电对：
 
 $$
-\varphi_ {\mathrm {s p}} = \varphi_ {2} ^ {\ominus} + 0. 0 5 9 \mathrm {V} \lg \frac {[ \mathrm {O x} _ {2} ] _ {\mathrm {s p}}}{[ \mathrm {R e d} _ {2} ] _ {\mathrm {s p}}} \tag {8}
+\varphi_ {\mathrm {s p}} = \varphi_ {2} ^ {\ominus} + 0.059 \mathrm {V} \lg \frac {[ \mathrm {O x} _ {2} ] _ {\mathrm {s p}}}{[ \mathrm {R e d} _ {2} ] _ {\mathrm {s p}}} \tag {8}
 $$
 
 由（7-4）式可知化学计量点电势为
@@ -7478,7 +7478,7 @@ $$
 代入(8)式，整理后得
 
 $$
-\frac {\left[ \mathrm {O x} _ {2} \right] _ {\mathrm {s p}}}{\left[ \mathrm {R e d} _ {2} \right] _ {\mathrm {s p}}} = 1 0 ^ {\Delta \varphi / 2 \times 0. 0 5 9 \mathrm {V}} \tag {9}
+\frac {\left[ \mathrm {O x} _ {2} \right] _ {\mathrm {s p}}}{\left[ \mathrm {R e d} _ {2} \right] _ {\mathrm {s p}}} = 10 ^ {\Delta \varphi / 2 \times 0.059 \mathrm {V}} \tag {9}
 $$
 
 化学计量点时
@@ -7490,7 +7490,7 @@ $$
 将(9)式、(10)式代入(7)式得到
 
 $$
-E _ {\mathrm {t}} = \frac {1 0 ^ {\Delta \varphi / 0 . 0 5 9 \mathrm {V}} - 1 0 ^ {- \Delta \varphi / 0 . 0 5 9 \mathrm {V}}}{1 0 ^ {\Delta \varphi / 2 \times 0 . 0 5 9 \mathrm {V}}} \tag {7-7}
+E _ {\mathrm {t}} = \frac {10 ^ {\Delta \varphi / 0.059 \mathrm {V}} - 10 ^ {- \Delta \varphi / 0.059 \mathrm {V}}}{10 ^ {\Delta \varphi / 2 \times 0.059 \mathrm {V}}} \tag {7-7}
 $$
 
 例11在 $1.0\mathrm{mol}\cdot \mathrm{L}^{-1}\mathrm{H}_2\mathrm{SO}_4$ 介质中，以 $0.10\mathrm{mol}\cdot \mathrm{L}^{-1}\mathrm{Ce}^{4 + }$ 溶液滴定 $0.10\mathrm{mol}\cdot \mathrm{L}^{-1}$ $\mathrm{Fe}^{2 + }$ ，若选用二苯胺磺酸钠为指示剂，计算终点误差。
@@ -7498,11 +7498,11 @@ $$
 解 $\varphi_{1}^{\ominus'} = 1.44\mathrm{V},\varphi_{2}^{\ominus'} = 0.68\mathrm{V},z_{1} = z_{2} = 1$ ，二苯胺磺酸钠的条件电位 $\varphi_{\mathrm{in}}^{\ominus'} = 0.84\mathrm{V}$ 。故
 
 $$
-\begin{array}{l} \Delta \varphi^ {\ominus^ {\prime}} = 1. 4 4 \mathrm {V} - 0. 6 8 \mathrm {V} = 0. 7 6 \mathrm {V} \\ \varphi_ {\mathrm {s p}} = \frac {1 . 4 4 \mathrm {V} + 0 . 6 8 \mathrm {V}}{2} = 1. 0 6 \mathrm {V} \\ \varphi_ {\mathrm {e p}} = 0. 8 4 \mathrm {V} \\ \end{array}
+\begin{array}{l} \Delta \varphi^ {\ominus^ {\prime}} = 1.44 \mathrm {V} - 0.68 \mathrm {V} = 0.76 \mathrm {V} \\ \varphi_ {\mathrm {s p}} = \frac {1.44 \mathrm {V} + 0.68 \mathrm {V}}{2} = 1.06 \mathrm {V} \\ \varphi_ {\mathrm {e p}} = 0.84 \mathrm {V} \\ \end{array}
 $$
 
 $$
-\Delta \varphi = 0. 8 4 \mathrm {V} - 1. 0 6 \mathrm {V} = - 0. 2 2 \mathrm {V}
+\Delta \varphi = 0.84 \mathrm {V} - 1.06 \mathrm {V} = - 0.22 \mathrm {V}
 $$
 
 $$
@@ -7512,7 +7512,7 @@ $$
 当 $z_{1}\neq z_{2}$ ，但两电对仍为对称电对时，其终点误差公式为
 
 $$
-E _ {1} = \frac {1 0 ^ {z _ {1} \Delta \varphi / 0 . 0 5 9 \mathrm {V}} - 1 0 ^ {- z _ {2} \Delta \varphi / 0 . 0 5 9 \mathrm {V}}}{1 0 ^ {z _ {1} z _ {2} \Delta \varphi^ {\ominus}} / (z _ {1} + z _ {2}) 0 . 0 5 9 \mathrm {V}} \tag {7-8}
+E _ {1} = \frac {10 ^ {z _ {1} \Delta \varphi / 0.059 \mathrm {V}} - 10 ^ {- z _ {2} \Delta \varphi / 0.059 \mathrm {V}}}{10 ^ {z _ {1} z _ {2} \Delta \varphi^ {\ominus}} / (z _ {1} + z _ {2}) 0.059 \mathrm {V}} \tag {7-8}
 $$
 
 # 7.3 氧化还原滴定中的预处理

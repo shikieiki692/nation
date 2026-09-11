@@ -138,11 +138,11 @@ A
 ![](高中化学竞赛教程第2分册万长江编,Wanchangjiangbianzhuz-library.sk,1lib.sk,z-lib.sk_351-427_images/e716bc320b11ef05628322a3a787535940e41bef2f913b1b72c32d339bee5aef.jpg)
 
 $$
-\begin{array}{l} K _ {1} = 1. 1 7 \times 1 0 ^ {- 2} \\ K _ {2} = 2. 6 0 \times 1 0 ^ {- 7} \end{array}
+\begin{array}{l} K _ {1} = 1.17 \times 10 ^ {- 2} \\ K _ {2} = 2.60 \times 10 ^ {- 7} \end{array}
 $$
 
 $$
-\begin{array}{l} K _ {1} = 9. 3 \times 1 0 ^ {- 4} \\ K _ {2} = 2. 9 \times 1 0 ^ {- 5} \end{array}
+\begin{array}{l} K _ {1} = 9.3 \times 10 ^ {- 4} \\ K _ {2} = 2.9 \times 10 ^ {- 5} \end{array}
 $$
 
 顺式丁烯二酸发生一级电离后形成具有对称氢键的环状结构,十分稳定,既使一级电离更容易,又使二级电离更困难了,因而其 $K_{1}$ 最大, $K_{2}$ 最小。
@@ -152,7 +152,7 @@ $$
 ![](高中化学竞赛教程第2分册万长江编,Wanchangjiangbianzhuz-library.sk,1lib.sk,z-lib.sk_351-427_images/46609488938e4c2e55d6981f0ffcc9e27e70ddb07ed38ad03c98945ab50bbbcc.jpg)
 
 $$
-\begin{array}{r l} & c / K = 0. 1 / 1 0 ^ {- 1} <   5 0 0, \\ & K = [ \mathrm{H} ^ {+} ] ^ {2} / (c - [ \mathrm{H} ^ {+} ]), \\ & [ \mathrm{H} ^ {+} ] = 0. 0 6 2 \mathrm{mol} \cdot \mathrm{L} ^ {- 1} \\ & \mathrm{pH} = 1. 2 1 \end{array}
+\begin{array}{r l} & c / K = 0.1 / 10 ^ {- 1} <   500, \\ & K = [ \mathrm{H} ^ {+} ] ^ {2} / (c - [ \mathrm{H} ^ {+} ]), \\ & [ \mathrm{H} ^ {+} ] = 0.062 \mathrm{mol} \cdot \mathrm{L} ^ {- 1} \\ & \mathrm{pH} = 1.21 \end{array}
 $$
 
 (b) 氨基磺酸是强酸, 因为 $\mathrm{N} - \mathrm{S}$ 键中的电子由于磺酸根强大的吸电子效应使 $\mathrm{H} - \mathrm{N}$ 键极性大大增大, 而且去质子后 $\mathrm{N} - \mathrm{S}$ 缩短, 导致 $\mathrm{H} - \mathrm{N}$ 很容易电离出氢离子。
@@ -327,7 +327,7 @@ V. \_\_\_\_。
 过程探究 I. 1.98 g X 中含 C 原子, $\frac{1478.4 \times 10^{-3}}{22.4} = 0.066 (\mathrm{~mol})$ , 即 $0.792 \mathrm{~g}$ ; 含 H 原子, $1.188 \times \frac{2}{18} = 0.132 (\mathrm{~mol})$ , 即 $0.132 \mathrm{~g}$ ; 含 O 原子, $1.98 - 0.792 - 0.132 = 1.056 \mathrm{~g}$ , X 中 C: H: O = 0.066 : 0.132 : $\frac{1.056}{16} = 1:2:1$ 。Ⅲ. X 的化学式量 M 与所含的—CHO 数 n 的关系为: $\frac{0.189}{M} = 21.0 \times 10^{-3} \times 0.05 \times n$
 
 $$
-M = \frac {1 8 0}{n}
+M = \frac {180}{n}
 $$
 
 V. E 的化学式量为 $M \times 216.67\%$ .
@@ -475,7 +475,7 @@ R 可以是—H、 $-CH_{2}OH$ 、 $-CH_{3}$ 、 $-CH_{2}SH$ 、 $-CH_{2}COOH$ �
 过程探究 A 分子中原子个数比:
 
 $$
-\mathrm{C}: \mathrm{H}: \mathrm{N}: \mathrm{O} = 3 2 / 1 2: 6. 7 / 1: 1 8. 7 / 1 4: 4 2. 6 1 / 1 6 = 2: 5: 1: 2
+\mathrm{C}: \mathrm{H}: \mathrm{N}: \mathrm{O} = 32 / 12: 6.7 / 1: 18.7 / 14: 42.61 / 16 = 2: 5: 1: 2
 $$
 
 A 的最简式为 $C_{2}H_{5}NO_{2}$ ，式量:75
@@ -1050,25 +1050,25 @@ $$
 (5) 溶解于离子液体中的纤维素的摩尔质量为:
 
 $$
-(6 \times 1 2 + 1 0 + 5 \times 1 6) \times 1 0 0 0 = 1. 6 2 \times 1 0 ^ {5} (\mathrm{g/mol})
+(6 \times 12 + 10 + 5 \times 16) \times 1000 = 1.62 \times 10 ^ {5} (\mathrm{g/mol})
 $$
 
 离子液体的摩尔质量为：
 
 $$
-8 \times 1 2 + 1 5 + 1 4 \times 2 + 3 5. 5 = 9 6 + 1 5 + 2 8 + 3 5. 5 = 1 7 5 (\mathrm{g/mol})
+8 \times 12 + 15 + 14 \times 2 + 35.5 = 96 + 15 + 28 + 35.5 = 175 (\mathrm{g/mol})
 $$
 
 水的摩尔分数为：
 
 $$
-1. 0 / 1 8 / (1. 0 / 1 8 + 7 5 / 1 7 5 + 2 5 / 1. 6 2 \times 1 0 ^ {5}) = 0. 1 2
+1.0 / 18 / (1.0 / 18 + 75 / 175 + 25 / 1.62 \times 10 ^ {5}) = 0.12
 $$
 
 析出的纤维素的摩尔分数为：
 
 $$
-(2 5 / 1 6 2 0 0 0) / (1. 0 / 1 8 + 7 5 / 1 7 5 + 2 5 / 1. 6 2 \times 1 0 ^ {5}) = 3. 2 \times 1 0 ^ {- 4}
+(25 / 162000) / (1.0 / 18 + 75 / 175 + 25 / 1.62 \times 10 ^ {5}) = 3.2 \times 10 ^ {- 4}
 $$
 
 【例3】（2002年全国初赛）组合化学是一种新型合成技术。对比于传统的合成反应如 $\mathrm{A} + \mathrm{B} = \mathrm{AB}$ ，组合化学合成技术则是将一系列 $\mathrm{A}_i (i = 1, 2, 3, \cdots)$ 和一系列 $\mathrm{B}_j (j = 1, 2, 3, \cdots)$ 同时发生反应，结果一次性地得到许多个化合物的库(library)，然后利用计算机、自动检测仪等现代化技术从库中筛选出符合需要的化合物。今用21种氨基酸借组合化学技术合成由它们连接而成的三肽(注：三肽的组成可以是ABC，也可以是AAA或者AAB等等，还应指出，三肽ABC不等于三肽CBA：习惯上，书写肽的氨基酸顺序时，写在最左边的总有未键合的 $\alpha$ -氨基而写在最右边的总有未键合的羧基)。
@@ -1340,7 +1340,7 @@ $$
 解得 $m = 5.8\mathrm{t}$
 
 $$
-\begin{array}{r l r} \mathrm {CH_ {2} = CH_ {2}} & \sim & \mathrm{HCl} \\ 2 8 & & 3 6. 5 \end{array}
+\begin{array}{r l r} \mathrm {CH_ {2} = CH_ {2}} & \sim & \mathrm{HCl} \\ 28 & & 36.5 \end{array}
 $$
 
 解得 $n = 3.4\mathrm{t}$
@@ -1397,7 +1397,7 @@ E:
 ![](高中化学竞赛教程第2分册万长江编,Wanchangjiangbianzhuz-library.sk,1lib.sk,z-lib.sk_351-427_images/28261c85e310bcad9dde091241ff8e1eddc2f3e93b1834ab603b20ce8d80d0bd.jpg)
 
 $$
-(- \mathrm{C} _ {1 2} \mathrm{H} _ {8} -)
+(- \mathrm{C} _ {12} \mathrm{H} _ {8} -)
 $$
 
 F 中的结构单元是 $C_{6}H_{4}$ ，每个碳原子轨道都是 $sp^{2}$ 杂化，形成了三个共平面的，夹角约 $120^{\circ}$ 的杂化轨道，这些轨道与相邻的碳氢原子轨道键合构成了平面型的结构框架。其余未成键的 P 轨道与这一分子平面垂直，它们互相重叠，形成长程的 $\pi$ 电子共轭体。
@@ -1515,7 +1515,7 @@ Janusene
 ③ 市场上经常见到的标记为 Li-ion 的电池称为“锂离子电池”。它的负极材料是金属锂和碳的复合材料(碳作为金属锂的载体)，电解质为一种能传导 $Li^{+}$ 的高分子材料。这种锂离子电池的电池反应式为：
 
 $$
-\mathrm{Li} + 2 \mathrm{Li} _ {0. 3 5} \mathrm{NiO} _ {2} \xrightarrow [ \mathrm{充电} ]{\mathrm{放电}} 2 \mathrm{Li} _ {0. 8 5} \mathrm{NiO} _ {2}
+\mathrm{Li} + 2 \mathrm{Li} _ {0.35} \mathrm{NiO} _ {2} \xrightarrow [ \mathrm{充电} ]{\mathrm{放电}} 2 \mathrm{Li} _ {0.85} \mathrm{NiO} _ {2}
 $$
 
 下列说法不正确的是( )。
@@ -1693,7 +1693,7 @@ $Fe^{3+}$ 具有中等强度的氧化性,又由于它具有空轨道,因此可�
 (2) ① 还原剂, 将四价锰还原为二价锰
 
 $$
-9 \mathrm{MnO} _ {2} + 2 \mathrm{FeS} + 1 0 \mathrm{H} _ {2} \mathrm{SO} _ {4} \longrightarrow 9 \mathrm{MnSO} _ {4} + \mathrm{Fe} _ {2} (\mathrm{SO} _ {4}) _ {3} + 1 0 \mathrm{H} _ {2} \mathrm{O}
+9 \mathrm{MnO} _ {2} + 2 \mathrm{FeS} + 10 \mathrm{H} _ {2} \mathrm{SO} _ {4} \longrightarrow 9 \mathrm{MnSO} _ {4} + \mathrm{Fe} _ {2} (\mathrm{SO} _ {4}) _ {3} + 10 \mathrm{H} _ {2} \mathrm{O}
 $$
 
 $$
@@ -1852,7 +1852,7 @@ C. 正反应一定是吸热反应，且 $T_{2} > T_{1}$ D. b 点时，平衡体�
 ![](高中化学竞赛教程第2分册万长江编,Wanchangjiangbianzhuz-library.sk,1lib.sk,z-lib.sk_351-427_images/4c87342457ccca010cd6bee6e3fda62b633cb652855da824c2fd57afe4cbaa0d.jpg)
 
 $$
-\mathrm{TaS} _ {2} (\mathrm{s}) + 2 \mathrm{I} _ {2} (\mathrm{g}) \xrightarrow [ 1 0 2 3 \mathrm{K} ]{1 1 2 3 \mathrm{K}} \mathrm{TaI} _ {4} (\mathrm{g}) + \mathrm{S} _ {2} (\mathrm{g})
+\mathrm{TaS} _ {2} (\mathrm{s}) + 2 \mathrm{I} _ {2} (\mathrm{g}) \xrightarrow [ 1023 \mathrm{K} ]{1123 \mathrm{K}} \mathrm{TaI} _ {4} (\mathrm{g}) + \mathrm{S} _ {2} (\mathrm{g})
 $$
 
 下列说法正确的是( )。
@@ -2105,7 +2105,7 @@ $$
 因为 $\frac{c}{K_{a_{2}}}$ =7.75<500，所以不能使用最简式。
 
 $$
-[ \mathrm{H} ^ {+} ] = \frac {- K _ {\mathrm{a} _ {2}} + \sqrt {K _ {\mathrm{a} _ {2}} ^ {2} + 4 K _ {\mathrm{a} _ {2}} c}}{2} = 3. 0 0 \times 1 0 ^ {- 2} (\mathrm{mol} \cdot \mathrm{L} ^ {- 1})
+[ \mathrm{H} ^ {+} ] = \frac {- K _ {\mathrm{a} _ {2}} + \sqrt {K _ {\mathrm{a} _ {2}} ^ {2} + 4 K _ {\mathrm{a} _ {2}} c}}{2} = 3.00 \times 10 ^ {- 2} (\mathrm{mol} \cdot \mathrm{L} ^ {- 1})
 $$
 
 ② 可视为达到电离平衡前, 溶液中存在 $0.10 \mathrm{~mol} \mathrm{H}^{+}$ 和 $0.20 \mathrm{~mol} \mathrm{HSO}_{4}^{-}$ 。设 $\mathrm{HSO}_{4}^{-}$ 电离出了 $x \mathrm{~mol} \mathrm{H}^{+}$ , 则可得如下方程: $\frac{x(0.10 + x)}{0.20 - x} = 1.29 \times 10^{-2}$ , 解得 $x = 1.95 \times 10^{-2}$ , 则 $[\mathrm{H}^{+}] = 1.19 \times 10^{-1} (\mathrm{~mol} \cdot \mathrm{L}^{-1})$ 。

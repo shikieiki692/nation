@@ -49,7 +49,7 @@ Interactive mechanism for radical addition of HBr to alkenes
 ■ 注意，Br-Br 键相比过氧化物中的 O-O 键要更稳定些。
 
 $$
-\mathrm{Br} \xrightarrow {\text {光照} (h v)} 2 \times \mathrm{Br} ^ {\bullet} \quad \Delta G ^ {\ddagger} = 1 9 2 \mathrm{kJ} \mathrm{mol} ^ {- 1}
+\mathrm{Br} \xrightarrow {\text {光照} (h v)} 2 \times \mathrm{Br} ^ {\bullet} \quad \Delta G ^ {\ddagger} = 192 \mathrm{kJ} \mathrm{mol} ^ {- 1}
 $$
 
 译者注：目前有人将离子型的，用碱去质子的过程也称作“攫氢”，这是不严谨的。

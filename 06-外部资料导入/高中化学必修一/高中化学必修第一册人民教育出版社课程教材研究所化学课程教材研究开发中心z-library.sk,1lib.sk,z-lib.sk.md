@@ -730,7 +730,7 @@ A. $\mathrm{SO}_3\rightarrow \mathrm{H}_2\mathrm{SO}_4$ B. $\mathrm{Cu}\rightarr
 12. 高铁酸钠（ $\mathrm{Na}_{2}\mathrm{FeO}_{4}$ ）是一种新型绿色消毒剂，主要用于饮用水处理。工业上制备高铁酸钠有多种方法，其中一种方法的化学原理可用离子方程式表示为：
 
 $$
-3 \mathrm{ClO} ^ {-} + 2 \mathrm{Fe} ^ {3 +} + 1 0 \mathrm{OH} ^ {-} = 2 \mathrm{FeO} _ {4} ^ {2 -} + 3 \mathrm{Cl} ^ {-} + 5 \mathrm{H} _ {2} \mathrm{O}
+3 \mathrm{ClO} ^ {-} + 2 \mathrm{Fe} ^ {3 +} + 10 \mathrm{OH} ^ {-} = 2 \mathrm{FeO} _ {4} ^ {2 -} + 3 \mathrm{Cl} ^ {-} + 5 \mathrm{H} _ {2} \mathrm{O}
 $$
 
 请分析上述反应中元素化合价的变化情况，指出氧化剂和还原剂。
@@ -804,7 +804,7 @@ $$
 4. 工业废水中含有的重铬酸根离子（ $\mathrm{Cr_2O_7^{2-}}$ ）有毒，必须处理达标后才能排放。工业上常用绿矾（ $\mathrm{FeSO_4 \cdot 7H_2O}$ ）做处理剂，反应的离子方程式如下：
 
 $$
-6 \mathrm{Fe} ^ {2 +} + \mathrm{Cr} _ {2} \mathrm{O} _ {7} ^ {2 -} + 1 4 \mathrm{H} ^ {+} = 6 \mathrm{Fe} ^ {3 +} + 2 \mathrm{Cr} ^ {3 +} + 7 \mathrm{H} _ {2} \mathrm{O}
+6 \mathrm{Fe} ^ {2 +} + \mathrm{Cr} _ {2} \mathrm{O} _ {7} ^ {2 -} + 14 \mathrm{H} ^ {+} = 6 \mathrm{Fe} ^ {3 +} + 2 \mathrm{Cr} ^ {3 +} + 7 \mathrm{H} _ {2} \mathrm{O}
 $$
 
 在该反应中，氧化剂是\_\_\_\_（填离子符号，下同），被氧化的是\_\_\_\_。
@@ -1536,7 +1536,7 @@ $$
 【解】 $Na_{2}CO_{3}$ 的相对分子质量为106，摩尔质量为 $106\ g\cdot mol^{-1}$ 。
 
 $$
-\begin{array}{r l} n (\mathrm{Na} _ {2} \mathrm{CO} _ {3}) & = \frac {m (\mathrm{Na} _ {2} \mathrm{CO} _ {3})}{M (\mathrm{Na} _ {2} \mathrm{CO} _ {3})} \\ & = \frac {2 6 . 5 \mathrm{g}}{1 0 6 \mathrm{g} \cdot \mathrm{mol} ^ {- 1}} \\ & = 0. 2 5 \mathrm{mol} \end{array}
+\begin{array}{r l} n (\mathrm{Na} _ {2} \mathrm{CO} _ {3}) & = \frac {m (\mathrm{Na} _ {2} \mathrm{CO} _ {3})}{M (\mathrm{Na} _ {2} \mathrm{CO} _ {3})} \\ & = \frac {26.5 \mathrm{g}}{106 \mathrm{g} \cdot \mathrm{mol} ^ {- 1}} \\ & = 0.25 \mathrm{mol} \end{array}
 $$
 
 答： $26.5\ g\ Na_{2}CO_{3}$ 的物质的量是0.25 mol。
@@ -1608,13 +1608,13 @@ concentration of B
 【解】500 mL 0.1 mol/L NaOH 溶液中 NaOH 的物质的量为：
 
 $$
-\begin{array}{r l} n (\mathrm{NaOH}) & = c (\mathrm{NaOH}) \cdot V [ \mathrm{NaOH(aq)} ] ^ {(1)} \\ & = 0. 1 \mathrm{mol/L} \times 0. 5 \mathrm{L} \\ & = 0. 0 5 \mathrm{mol} \end{array}
+\begin{array}{r l} n (\mathrm{NaOH}) & = c (\mathrm{NaOH}) \cdot V [ \mathrm{NaOH(aq)} ] ^ {(1)} \\ & = 0.1 \mathrm{mol/L} \times 0.5 \mathrm{L} \\ & = 0.05 \mathrm{mol} \end{array}
 $$
 
 0.05 mol NaOH 的质量为：
 
 $$
-\begin{array}{r l} m (\mathrm{NaOH}) & = n (\mathrm{NaOH}) \cdot M (\mathrm{NaOH}) \\ & = 0. 0 5 \mathrm{mol} \times 4 0 \mathrm{g/mol} \\ & = 2 \mathrm{g} \end{array}
+\begin{array}{r l} m (\mathrm{NaOH}) & = n (\mathrm{NaOH}) \cdot M (\mathrm{NaOH}) \\ & = 0.05 \mathrm{mol} \times 40 \mathrm{g/mol} \\ & = 2 \mathrm{g} \end{array}
 $$
 
 ![](高中化学必修第一册人民教育出版社课程教材研究所化学课程教材研究开发中心z-library.sk,1lib.sk,z-lib.sk_images/cac787fcaca6979d607079563a2615074dcf3b8c6fcae361baffb5e6b4493d72.jpg)  
@@ -2422,7 +2422,7 @@ $$
 【解】参加反应的 $H_{2}SO_{4}$ 的物质的量为：
 
 $$
-\begin{array}{r l} & 0. 2 5 \mathrm{L} \times 2 \mathrm{mol/L} = 0. 5 0 \mathrm{mol} \\ (1) & \mathrm{Fe} + \mathrm{H} _ {2} \mathrm{SO} _ {4} = \mathrm{FeSO} _ {4} + \mathrm{H} _ {2} \uparrow \\ & 1 \quad 1 \\ & n (\mathrm{Fe}) \quad 0. 5 0 \mathrm{mol} \\ & \frac {1}{1} = \frac {n (\mathrm{Fe})}{0 . 5 0 \mathrm{mol}} \\ & n (\mathrm{Fe}) = 0. 5 0 \mathrm{mol} \\ (2) & \mathrm{Fe} + \mathrm{H} _ {2} \mathrm{SO} _ {4} = \mathrm{FeSO} _ {4} + \mathrm{H} _ {2} \uparrow \\ & 1 \mathrm{mol} \quad 2 2. 4 \mathrm{L} \\ & 0. 5 0 \mathrm{mol} \quad V (\mathrm{H} _ {2}) \\ & \frac {1 \mathrm{mol}}{0 . 5 0 \mathrm{mol}} = \frac {2 2 . 4 \mathrm{L}}{V (\mathrm{H} _ {2})} \\ & V (\mathrm{H} _ {2}) = \frac {2 2 . 4 \mathrm{L} \times 0 . 5 0 \mathrm{mol}}{1 \mathrm{mol}} \\ & = 1 1. 2 \mathrm{L} \end{array}
+\begin{array}{r l} & 0.25 \mathrm{L} \times 2 \mathrm{mol/L} = 0.50 \mathrm{mol} \\ (1) & \mathrm{Fe} + \mathrm{H} _ {2} \mathrm{SO} _ {4} = \mathrm{FeSO} _ {4} + \mathrm{H} _ {2} \uparrow \\ & 1 \quad 1 \\ & n (\mathrm{Fe}) \quad 0.50 \mathrm{mol} \\ & \frac {1}{1} = \frac {n (\mathrm{Fe})}{0.50 \mathrm{mol}} \\ & n (\mathrm{Fe}) = 0.50 \mathrm{mol} \\ (2) & \mathrm{Fe} + \mathrm{H} _ {2} \mathrm{SO} _ {4} = \mathrm{FeSO} _ {4} + \mathrm{H} _ {2} \uparrow \\ & 1 \mathrm{mol} \quad 22.4 \mathrm{L} \\ & 0.50 \mathrm{mol} \quad V (\mathrm{H} _ {2}) \\ & \frac {1 \mathrm{mol}}{0.50 \mathrm{mol}} = \frac {22.4 \mathrm{L}}{V (\mathrm{H} _ {2})} \\ & V (\mathrm{H} _ {2}) = \frac {22.4 \mathrm{L} \times 0.50 \mathrm{mol}}{1 \mathrm{mol}} \\ & = 11.2 \mathrm{L} \end{array}
 $$
 
 答：（1）参加反应的铁屑的物质的量为0.50 mol；

@@ -17,7 +17,7 @@ $$
 The product of the above step is interesting in that the outer sulfur carries an iodine, a poten-1heprodctottheaovestepis nteretng m tht theouter strcmes aniodine,apote tially excellent leaving group, which can be displaced by the terminal sulfur of a secondalyexcelent leavng group,whch cn e dsplaced by the termnal sltr oraseco thiosulfate:hiosulfae:
 
 $$
-\begin{array}{l} \underset {\ominus} {\mathrm {O}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \undersilon_ {\ominus} ^ {\ominus} \\ \underset {\ominus} {\mathrm {O}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \underset {- 1} {\longrightarrow} \underset {\ominus} {\mathrm {O}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \underset {- 2 + } {\longrightarrow} \underset {\ominus} {\mathrm {O}} \underset {\ominus} {\mathrm {S}} \underset {- 2 + } {\longrightarrow} \underset {\ominus} {\mathrm {O}} \underset {\ominus} {\mathrm {S}} \end{array} (6. 5 8)
+\begin{array}{l} \underset {\ominus} {\mathrm {O}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \undersilon_ {\ominus} ^ {\ominus} \\ \underset {\ominus} {\mathrm {O}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \underset {- 1} {\longrightarrow} \underset {\ominus} {\mathrm {O}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \underset {\ominus} {\mathrm {S}} \underset {- 2 + } {\longrightarrow} \underset {\ominus} {\mathrm {O}} \underset {\ominus} {\mathrm {S}} \underset {- 2 + } {\longrightarrow} \underset {\ominus} {\mathrm {O}} \underset {\ominus} {\mathrm {S}} \end{array} (6.58)
 $$
 
 And there we have our product!And there we have our prodduct
@@ -120,12 +120,12 @@ LikeikeS $\mathrm { S e O } _ { 2 }$ (which we will discuss in Section 6.16),hic
 In the laboratory, ozone is generally prepared in an ozonizer by silent or sparkless electricInthe hboraory,ozoneis genemlyprepaedin an ozonizerbyslet orsparkssekcri discharge through oxygen:ischarge through oxygen:
 
 $$
-3 \mathrm {O} _ {2} \xrightarrow {\text {S p a r k l e s s e l e c t r i c}} 2 \mathrm {O} _ {3} \quad \Delta H = + 2 8 5. 4 \mathrm {k J} \tag {6.68}
+3 \mathrm {O} _ {2} \xrightarrow {\text {S p a r k l e s s e l e c t r i c}} 2 \mathrm {O} _ {3} \quad \Delta H = + 285.4 \mathrm {k J} \tag {6.68}
 $$
 
 Observe that the reaction is endothermic; that is, ozone is enthalpically uphill relative tobserve tht the reaction is endothemic:tht is,ozoneis entalpcalyuphll reltve to ordinary oxygen. A silent discharge produces less heat and thereby discourages the reverserdinryoxygen.Asilent dschargeproduceskss heat and thercbydiscarages the revere step (Le Chatelier’s principle).ep(Le Gatelier's rincipk)
 
-Stratospheric ozone is produced fromratospheric ozone is produced from $\mathrm { O } _ { 2 }$ via a two-step process: photodissociation ofvia a twostep proces:photofssociaion of $\mathrm { ~ O } _ { 2 }$ to atomic oxygen by ultraviolet light oaomic oxvgen bv uhrvioletlieht $\lambda < 2 4 0 \mathrm { n m }$ ), followed by the reaction of atomicolowedbv the reacionof atonic oxygen andxygen and $\mathrm { O } _ { 2 }$ :
+Stratospheric ozone is produced fromratospheric ozone is produced from $\mathrm { O } _ { 2 }$ via a two-step process: photodissociation ofvia a twostep proces:photofssociaion of $\mathrm { ~ O } _ { 2 }$ to atomic oxygen by ultraviolet light oaomic oxvgen bv uhrvioletlieht $\lambda < 240 \mathrm { n m }$ ), followed by the reaction of atomicolowedbv the reacionof atonic oxygen andxygen and $\mathrm { O } _ { 2 }$ :
 
 $$
 \mathrm {O} _ {2} \rightarrow 2 \mathrm {O} \tag {6.69}
@@ -143,7 +143,7 @@ $$
 
 The reactions are catalyzed by metal ions in cloud droplets and by various free radicals; thehereactions ae caalvzad bymetalions in doud droplets and byvarious feeradicals th details, unfortunately, are outside the scope of our discussion.etais,untortunaely,are outside the scope of our discussion
 
-The highest concentration of atmospheric ozonehe highest concentrtionof amopherc ozon $( 2 { - } 8 \ \mathrm { p p m } )$ , that is, the well-known,hat is,the welknow ozone layer, is in the lower part of the stratosphere,zonehye,isintheuerprtofthestrtosphere,2 $2 0 { - } 3 0 \mathrm { k m }$ above the earth’s surface; theovetheeath'ssuface;the exact range varies significantly with the season. Even here, however, thexactrangevnessgnihcanty wth the seson.Evenhere,however,t $\mathrm { O } _ { 3 }$ concentrationO,concenrao is only abouts onlyabout $2 { - } 8 \ \mathrm { p p m }$ , which is far lower than that ofhich is fr lower than hato $\mathrm { { O } } _ { 2 }$ . Despite the low concentrations,Despie the bw concentations the ozone layer absorbs most of the solar UV radiation. Together, atmospheriche ozonelyer absorbs mostofthe solrtV ndiation.Together mophe $\mathrm { O } _ { 2 }$ and0an $\mathrm { O } _ { 3 }$ almost completely screen the lowest wavelength part of the UV range mosteompkelyreen thelouet waveengh pat oftheLVrnge( $( < 2 0 0 \ \mathrm { n m } )$ , whichwhich is the most harmful. The importance of the ozone layer to life and civilization therefores themost hrflTheimportanceof teozonelyertolfe ndcvizton herefor cannot be exaggerated.annot be exaggerated
+The highest concentration of atmospheric ozonehe highest concentrtionof amopherc ozon $( 2 { - } 8 \ \mathrm { p p m } )$ , that is, the well-known,hat is,the welknow ozone layer, is in the lower part of the stratosphere,zonehye,isintheuerprtofthestrtosphere,2 $20 { - } 30 \mathrm { k m }$ above the earth’s surface; theovetheeath'ssuface;the exact range varies significantly with the season. Even here, however, thexactrangevnessgnihcanty wth the seson.Evenhere,however,t $\mathrm { O } _ { 3 }$ concentrationO,concenrao is only abouts onlyabout $2 { - } 8 \ \mathrm { p p m }$ , which is far lower than that ofhich is fr lower than hato $\mathrm { { O } } _ { 2 }$ . Despite the low concentrations,Despie the bw concentations the ozone layer absorbs most of the solar UV radiation. Together, atmospheriche ozonelyer absorbs mostofthe solrtV ndiation.Together mophe $\mathrm { O } _ { 2 }$ and0an $\mathrm { O } _ { 3 }$ almost completely screen the lowest wavelength part of the UV range mosteompkelyreen thelouet waveengh pat oftheLVrnge( $( < 200 \ \mathrm { n m } )$ , whichwhich is the most harmful. The importance of the ozone layer to life and civilization therefores themost hrflTheimportanceof teozonelyertolfe ndcvizton herefor cannot be exaggerated.annot be exaggerated
 
 Human-made organohalogens such as chlorofluorocarbons (CFCs; e.g.,umm-made oganohalogens suc s clorouoroeabons (Crs;eg, $\mathrm { C F C l } _ { 3 }$ andand $\mathrm { C F } _ { 2 } \mathrm { C l } _ { 2 } ,$ ) and bromofluorocarbons, which were widely used as refrigerants and propellantsd bromofuorocabons,whichwee widely used as refigerantsandpropelns
 
@@ -178,7 +178,7 @@ As in the case of reaction 6.61, don’t be overly concerned that an oxygen with
 Triphenylphosphite forms an ozone adduct at low temperature, which decomposes onrpheylphosphte torms anozoneadduct a low emperature,wc decompose o warming to triphenylphosphate and singlet oxygen:arming to tphenyphosphae and singet oxygenC
 
 $$
-\begin{array}{l} \left(\mathrm {P h O}\right) _ {3} \mathrm {P} + \mathrm {O} _ {3} \xrightarrow {- 7 8 ^ {\circ} \mathrm {C}} \left(\mathrm {P h O}\right) _ {3} \mathrm {P} \left(\mathrm {O} _ {3}\right) \tag {6.76} \\ \rightarrow \mathrm {(P h O) _ {3} P O + O = O} \\ \end{array}
+\begin{array}{l} \left(\mathrm {P h O}\right) _ {3} \mathrm {P} + \mathrm {O} _ {3} \xrightarrow {- 78 ^ {\circ} \mathrm {C}} \left(\mathrm {P h O}\right) _ {3} \mathrm {P} \left(\mathrm {O} _ {3}\right) \tag {6.76} \\ \rightarrow \mathrm {(P h O) _ {3} P O + O = O} \\ \end{array}
 $$
 
 Ozone reacts quantitatively with iodide, so the following reaction is useful for quantita-zone reatsquanttatveywthiodde,sothe tollowng eactonis usetultor quant tive determination of ozone:ive determmination of ozone
@@ -311,7 +311,7 @@ $$
 \begin{array}{c} \mathrm {R} ^ {1} \xrightarrow [ \mathrm {R} ^ {2} ]{\mathrm {Z}} + \mathrm {M e} _ {2} \mathrm {S} \xrightarrow [ \mathrm {C H} _ {2} ]{\ominus} - \mathrm {M e} _ {2} \mathrm {S} \\ \boxed {\mathrm {Z} = \mathrm {O}, \mathrm {N R}} \end{array} \tag {6.93}
 $$
 
-The reaction is most often used for epoxide synthesis via methylene transfer. An impor-Ihe rectonis most oren ued tor epoxide snthess via methvene trnster.An impor tant point concerns the difference in reactivity of sulfonium versus phosphonium ylides.nt pont concems the deence in reactvv of sutonum verss ohosphonum vtes The former gives three-membered rings; the latter gives alkenes via the Wittig reaction.Ihe tomer avesthre-memered rins he lter aves akenesva he Wtg reaction Thermodynamics is believed to account for a good deal of this difference: theherodvnamic is blieved to acount for a good deal of this difrence: t $\mathrm { P ^ { + } { - } O ^ { - } }$ bond in a phosphine oxide (BDE ond inaphosphine oxide(BD ${ \sim } 5 4 4 ~ \mathrm { k J / m o l }$ ) is much stronger than the)smuchstonger than t $\mathrm { S ^ { + } { - } O ^ { - } }$ bond in~bondi DMSO (BDE forMSO(BDE forD $\mathrm { D M S O }  \mathrm { D M S } + \mathrm { O } { : } 3 8 9 \mathrm { k J / m o l } )$ ), which would form if the sulfoniumc wouldformif the sufonin ylide reaction resulted in an alkene.ide reaction resulted in an alkene.
+The reaction is most often used for epoxide synthesis via methylene transfer. An impor-Ihe rectonis most oren ued tor epoxide snthess via methvene trnster.An impor tant point concerns the difference in reactivity of sulfonium versus phosphonium ylides.nt pont concems the deence in reactvv of sutonum verss ohosphonum vtes The former gives three-membered rings; the latter gives alkenes via the Wittig reaction.Ihe tomer avesthre-memered rins he lter aves akenesva he Wtg reaction Thermodynamics is believed to account for a good deal of this difference: theherodvnamic is blieved to acount for a good deal of this difrence: t $\mathrm { P ^ { + } { - } O ^ { - } }$ bond in a phosphine oxide (BDE ond inaphosphine oxide(BD ${ \sim } 544 ~ \mathrm { k J / m o l }$ ) is much stronger than the)smuchstonger than t $\mathrm { S ^ { + } { - } O ^ { - } }$ bond in~bondi DMSO (BDE forMSO(BDE forD $\mathrm { D M S O }  \mathrm { D M S } + \mathrm { O } { : } 389 \mathrm { k J / m o l } )$ ), which would form if the sulfoniumc wouldformif the sufonin ylide reaction resulted in an alkene.ide reaction resulted in an alkene.
 
 In terms of arrow pushing, the JCC reaction is fairly straightforward. For a carbonyl sub-nems ofaowpushing,the JCCreactionis fairlvstihforwrd.Foracabonvl sub strate, the ylidic carbon attacks the carbonyl carbon, thete,te ylidr cbonatacksthecabonylcrbon,th $\mathrm { C = O }$ linkage opens up in the usuallnkageopensupintheusu manner, and thenner,andtheO- $\mathrm { O ^ { - } }$ swings back on the now-neutral ylidic carbon to form a three-memberedings back onthenow-neutrlviticcabon tofom athree-membere ring:ning:
 
@@ -436,7 +436,7 @@ Sulfur tetrafluoride is a powerful fluorinating agent, converting alcohols, carb
 Typical reaction conditions are shown below for an alcohol:IvnicaIrahon ooninons ar chown helow tor an aleohol
 
 $$
-\mathrm {C} _ {7} \mathrm {H} _ {1 5} \xrightarrow {\mathrm {O H}} \frac {\mathrm {D A S T} , \mathrm {C H} _ {2} \mathrm {C l} _ {2}}{- 7 0 ^ {\circ} \mathrm {C} \rightarrow \mathrm {R T}} \mathrm {C} _ {7} \mathrm {H} _ {1 5} \xrightarrow {\mathrm {F}} \tag {6.108}
+\mathrm {C} _ {7} \mathrm {H} _ {15} \xrightarrow {\mathrm {O H}} \frac {\mathrm {D A S T} , \mathrm {C H} _ {2} \mathrm {C l} _ {2}}{- 70 ^ {\circ} \mathrm {C} \rightarrow \mathrm {R T}} \mathrm {C} _ {7} \mathrm {H} _ {15} \xrightarrow {\mathrm {F}} \tag {6.108}
 $$
 
 The mechanism of fluorination effected byThemechansm ot uonnatonertecedby $\mathrm { S F _ { 4 } }$ or any of the dialkylaminosulfur trifluo-or anyof te dakvlamnosuhrtruo rides is illustrated below for a primary alcohol and DAST. The first step involves coordina-desislstaedbelow toraonmarvacohol andDAsT Ihe hststep mvolvescoordm tion of the alcohol to the tetravalent sulfur, followed by the departure of a fluoride leavingon ofthe aroholtohe teralentsuhr,tolowed by te depature ofanuonde levn group:oup.
@@ -455,7 +455,7 @@ The “deoxofluorination” step, where oxygen is replaced by fluorine, is shown
 
 # REVIEW PROBLEM 6.16*RRNIR PAIRIK6T6
 
-The various aminosulfur trifluorides are prepared via the reaction ofTe varos amnosunruondes ae pepae wa ne eat $\mathrm { S F _ { 4 } }$ with ao sw dialkylamino(trialkyl)silane at dakvlaino(takvlsilane a ${ \sim } - 7 0 ^ { \circ }$ , as shown below for DAST:asshownbelow forDAST
+The various aminosulfur trifluorides are prepared via the reaction ofTe varos amnosunruondes ae pepae wa ne eat $\mathrm { S F _ { 4 } }$ with ao sw dialkylamino(trialkyl)silane at dakvlaino(takvlsilane a ${ \sim } - 70 ^ { \circ }$ , as shown below for DAST:asshownbelow forDAST
 
 $$
 \mathrm {E t} _ {2} \mathrm {N S i M e} _ {3} + \mathrm {S F} _ {4} \rightarrow \mathrm {E t} _ {2} \mathrm {N S F} _ {3} + \mathrm {M e} _ {3} \mathrm {S i F}
@@ -530,7 +530,7 @@ Clearly, the chemistry of LR is a fascinating blend of phosphorus and sulfur che
 
 # REVIEW PROBLEM 6.20
 
-LR is commercially available but can also be readily synthesized in the laboratory byLKscomeraVawaale butc asoeredvsvnesedeoraorvb heating anisole with phosphorus pentasulfideneang ansok wm posphors pen $\ ( \mathrm { P } _ { 4 } \mathrm { S } _ { 1 0 } )$ , until the mixture is clear andso,unte mxres der no morenomoeHs $\mathrm { H } _ { 2 } \mathrm { S }$ evolves, followed by recrystallization from toluene or xylene. Suggestve,folowed by reysazaionfomtolueneorxylee.Sugges a mechanism for the reaction.a mechanismm for the reaction
+LR is commercially available but can also be readily synthesized in the laboratory byLKscomeraVawaale butc asoeredvsvnesedeoraorvb heating anisole with phosphorus pentasulfideneang ansok wm posphors pen $\ ( \mathrm { P } _ { 4 } \mathrm { S } _ { 10 } )$ , until the mixture is clear andso,unte mxres der no morenomoeHs $\mathrm { H } _ { 2 } \mathrm { S }$ evolves, followed by recrystallization from toluene or xylene. Suggestve,folowed by reysazaionfomtolueneorxylee.Sugges a mechanism for the reaction.a mechanismm for the reaction
 
 Note: LR is foul-smelling, so it must be handled in a well-ventilated fume hood.Woe Ks tousmeng,somste hande mawervened ne noo Glassware that has come in contact with the reagent may be decontaminated withGsswae scone nconc w he eagentmye deconamnted wn chlorine bleach (NaOCl).hlorine beach(NaOCI)
 
@@ -544,7 +544,7 @@ Suggest a mechanism and a rationale for the selective double thiation.Sugest ame
 
 # 6.15 SULFUR NITRIDEST5 SLILFLIR NIIREN
 
-The sulfur nitrides are a fascinating class of main-group compounds. Their structures and1he shrntndes aea tscmatng cas otmngrop conpounds.Iher stucturs an bonding are diverse and subtle; both their formation and their reactions involve stunninglyondngredverseandsubtle;bothther tormton and terreaciosivovestunnngy complicated stoichiometries. These factors tend to discourage in-class discussion of theseomplctedstociometne.1hesetctos endto dcouge-cas dcusson ot he compounds, even though many textbooks dutifully describe these remarkable molecules.ompounds,even though mny textbooks dutifuly decribe thee remakable molecule The structures of three key sulfur nitride compounds are shown in Figure 6.1. Polythiazyl1he stnctuesof threekey sururnrtecompouns reshownin Hgure 6.1.Foythzy was the first inorganic conducting polymer to be synthesized. Normally a gold-coloredws the rst inorganic conducing polymer to e synteszed.Nomalyagol-coloro metallic conductor, it becomes superconducting at very low temperatures, belowetaic conductor it becomes spercondictmg at vey Iow temperaures,below $0 . 2 6 ~ \mathrm { K }$ . For reasons of space, our discussion here will focus solely onor reasons of space,our discussion here wil tocus soleIy o $\mathrm { S } _ { 4 } \mathrm { N } _ { 4 }$ .
+The sulfur nitrides are a fascinating class of main-group compounds. Their structures and1he shrntndes aea tscmatng cas otmngrop conpounds.Iher stucturs an bonding are diverse and subtle; both their formation and their reactions involve stunninglyondngredverseandsubtle;bothther tormton and terreaciosivovestunnngy complicated stoichiometries. These factors tend to discourage in-class discussion of theseomplctedstociometne.1hesetctos endto dcouge-cas dcusson ot he compounds, even though many textbooks dutifully describe these remarkable molecules.ompounds,even though mny textbooks dutifuly decribe thee remakable molecule The structures of three key sulfur nitride compounds are shown in Figure 6.1. Polythiazyl1he stnctuesof threekey sururnrtecompouns reshownin Hgure 6.1.Foythzy was the first inorganic conducting polymer to be synthesized. Normally a gold-coloredws the rst inorganic conducing polymer to e synteszed.Nomalyagol-coloro metallic conductor, it becomes superconducting at very low temperatures, belowetaic conductor it becomes spercondictmg at vey Iow temperaures,below $0.26 ~ \mathrm { K }$ . For reasons of space, our discussion here will focus solely onor reasons of space,our discussion here wil tocus soleIy o $\mathrm { S } _ { 4 } \mathrm { N } _ { 4 }$ .
 
 ![[ArrowPushinginInorganicChemistry_231-336_images/9895f066037915339355720d5926ab6c3dd7b509391270edd5b1dbed4fd9ec30.jpg]]
 
@@ -617,7 +617,7 @@ Hydrolysis of the above product then leads to the allylic alcohol:vdrolysis of t
 
 Because of the toxicity ofcuseofthetoxcivotse $\mathrm { S e O } _ { 2 }$ , the reaction is often conducted with only a catalytic amountreaction s otenconducted wthonyacatavtc amoun oft $\mathrm { S e O } _ { 2 }$ , along with a stoichiometric co-oxidant (e.g., t-BuOOH) which reoxidizes thelongwmastociometnccooxidnt(egruOOH)wch rooxidzesth reduced selenium back toeducod selenium back to $\mathrm { S e O } _ { 2 }$ .
 
-# REVIEW PROBLEM ${ \bf 6 . 2 2 ^ { * } }$
+# REVIEW PROBLEM ${ \bf 6.22 ^ { * } }$
 
 By analogy withByanoywth se $\mathrm { S e O } _ { 2 }$ -mediated allylic hydroxylation, Sharpless and cowork-iae aykhydoxylaion,shplesand oowok ers (Angew. Chem. Int. Ed. 1996, 35, 454–456) have developed a method fores(AngesChen.n.Ea1996,35,454-456hvedeveopedamehodfo Se-mediated allylic amination:Se-mediated allylicamination:
 
@@ -666,7 +666,7 @@ Suggest mechanistic rationales for the products formed.uggest mechanistic ration
 
 # 6.17 HIGHER-VALENT TELLURIUM: A MECHANISTIC PUZZLE6.17 HCHER-VALENI IELLLIRLM= A MECHANSIICPLZ
 
-The tetra- and hexa-valent states are significantly more stable for selenium and telluriumhetetr-and hexvalentsaes are snhcny more stable torseenumand er than they are for sulfur. Thus, whereasan neyare tor shr.1us,whereas $\mathrm { S C l } _ { 4 }$ is exceedingly unstable, decomposing aboveeceedngly unstable,docomposing aov $- 3 0 ^ { \circ } \mathrm { C }$ ,S $\mathrm { S e C l } _ { 4 }$ andnd $\mathrm { T e C l } _ { 4 }$ are stable under ordinary conditions. With chloride ion acceptors,re stableunderordinrYcondtons.Wim clondetonaccepors both tetrachlorides formboth etrachlondes to $\mathrm { [ C h C l _ { 3 } ] ^ { + } }$ r $\mathrm { C h } = \mathrm { S e }$ , Te) cations:le)catons
+The tetra- and hexa-valent states are significantly more stable for selenium and telluriumhetetr-and hexvalentsaes are snhcny more stable torseenumand er than they are for sulfur. Thus, whereasan neyare tor shr.1us,whereas $\mathrm { S C l } _ { 4 }$ is exceedingly unstable, decomposing aboveeceedngly unstable,docomposing aov $- 30 ^ { \circ } \mathrm { C }$ ,S $\mathrm { S e C l } _ { 4 }$ andnd $\mathrm { T e C l } _ { 4 }$ are stable under ordinary conditions. With chloride ion acceptors,re stableunderordinrYcondtons.Wim clondetonaccepors both tetrachlorides formboth etrachlondes to $\mathrm { [ C h C l _ { 3 } ] ^ { + } }$ r $\mathrm { C h } = \mathrm { S e }$ , Te) cations:le)catons
 
 $$
 \mathrm {C h C l} _ {4} + \mathrm {A l C l} _ {3} \rightarrow \mathrm {C h C l} _ {3} ^ {+} + \mathrm {A l C l} _ {4} ^ {-} \tag {6.136}
@@ -681,7 +681,7 @@ The products thus obtained can then be elaborated to other organotellurium deriv
 The stability of hexavalent tellurium was clearly demonstrated in a reaction ofTestalyothexavalenttelunumwasckry demonstaedinareacto $\mathrm { T e C l } _ { 4 }$ witheCw an aryllithium, reported by Japanese main-group chemist Kin-ya Akiba and his coworkersn aythm,epoted byJpanee man-groupcemstKn-ya Abaandhscowoker (Tetrahedron 1997, 53, 12195–12202), which led to a disproportionation and produced a(Terahed1997,53,12195-12202),whichledtoadispropotiontionandproduced highly stable hexaaryltellurium product:ighly stable hexaarylellr iumm product
 
 $$
-2 \mathrm {T e C l} _ {4} + 8 \mathrm {A r L i} \xrightarrow [ \text {E t h e r} ]{- 7 8 ^ {\circ} \mathrm {C}} \mathrm {T e A r} _ {6} + \mathrm {T e A r} _ {2}
+2 \mathrm {T e C l} _ {4} + 8 \mathrm {A r L i} \xrightarrow [ \text {E t h e r} ]{- 78 ^ {\circ} \mathrm {C}} \mathrm {T e A r} _ {6} + \mathrm {T e A r} _ {2}
 $$
 
 $$
@@ -811,7 +811,7 @@ The following two reactions illustrate well the exceptional reactivity ofTefolow
 
 What might account for the remarkable reactivity of theWatmhtaooountforhe emkab ecMvof $\mathrm { T B A F _ { a n h } }$ reagent? WhatBAFret?W might be a reason for the researchers’ choice of the highly toxic tetrabutylammoniummne areaonor me reserce coceoennVtoxcteDuNmon cyanide as a starting material for synthesizingcyanide as a strting maerial forsynthesiz $\mathrm { T B A F _ { a n h } }$ ??
 
-As a postscript to this story, we may add that, as a nucleophilic fluorinating agent,Asaposenpttossory,wemy add,s anckope mornangagen $[ { } ^ { 1 8 } \mathrm { F ] - T B A F _ { a n h } }$ has been found to be significantly superior to cryptand-activatedbeentoundtoesgnncantysuperortoeyptndsacva ${ \mathrm { K } } ^ { 1 8 } { \mathrm { F } } ,$ which is the standard whc s thesanard $^ { 1 8 } \mathrm { F }$ source in positron-emission tomography (PET).source impostonemssontomogaply(Er
+As a postscript to this story, we may add that, as a nucleophilic fluorinating agent,Asaposenpttossory,wemy add,s anckope mornangagen $[ { } ^ { 18 } \mathrm { F ] - T B A F _ { a n h } }$ has been found to be significantly superior to cryptand-activatedbeentoundtoesgnncantysuperortoeyptndsacva ${ \mathrm { K } } ^ { 18 } { \mathrm { F } } ,$ which is the standard whc s thesanard $^ { 18 } \mathrm { F }$ source in positron-emission tomography (PET).source impostonemssontomogaply(Er
 
 # 7.1 SOME NOTES ON ELEMENTAL HALOGENS7.1 SCINME NCIIES CIN EEMENIAL HALCICiEN
 
@@ -819,7 +819,7 @@ As reactive electronegative elements, the halogens do not occur in their element
 
 Born of poor parents in Montpellier, France, Balard was adopted and educated by hisornofpoorparent in Montpelie,Fnce,Baardws adoped andeducatedbyhis godmother. At age 17, he became a laboratory assistant (“préparateur”) at the local Ecoleodmoner Atage17,he tecme alaboratory asssantfprepatcur) te el Eool
 
-de Pharmacie. While studying salt marsh flora, he concentrated sea water, crystallized outPharmacie.Whilestuving sstmash fora.he concentaedseawer,evsllzedou sodium sulfate, which precipitated first, and attempted to find uses for the remaining mothersodumsue,whchpecpaedr,andatemptedtondusetor te remanngmote liquor. With certain reagents, he found that the brine turned brown. Saturating the liquorsquor.Wthcen regents etound tht the bnnetumed brown.sarang tequos with chlorine and distilling, he isolated a pungent, dark-red liquid, with a boiling point ofwh clonneanddstng,heisolaedapungent,dakredlqud,wthabong ponto $4 7 ^ { \circ } \mathrm { C }$ and a density three times that of water. He attempted to decompose it into simplernd a densy tree tmes ht ot waer.He atenpted to decomposet mto smpk substances, but soon recognized that he had discovered an element similar to chlorine andsbstnce butsoon rcoenzed ththe haddscovered an elementsmlr to clonne an iodine. The results were communicated to the Académie des Sciences and eventually pub-dne.Ihe reuls were comnncaod to the Aeadcmie des saence andeventnly pub lished under the title “Sur une substance particulière contenue dans l’eau de la mer (About ahed underthetle"sur une substnce rrtciee contenue dnsreau delamer(About particular substance present in sea water)” in the Annales de Chimie et de Physique. Balard’sntclr substncepeentinse waerr m theAnaesdeCeerdePvse.Brds findings caused a sensation, not least because of his tender age; he was 23 years old at thendnescased asensaion.notleast becase othistender ae:he ws Z3vears oldatth time of his discovery. Life thereafter was kind to Balard. Despite the trauma of childhoodme of hs dscoverv Lte thereaer was knd toBlrd Iespite the trma ot chidnoo poverty, which affected him deeply, he became a highly successful chemist, making manyovery.whc atecedhm deply he becme ahghlysuccestl cemst,mkng man significant discoveries and ultimately becoming a professor at the prestigious Collège deencant dscoveres and utmaelv beoomne aoroesor the oresaous Collere a France.rance,
+de Pharmacie. While studying salt marsh flora, he concentrated sea water, crystallized outPharmacie.Whilestuving sstmash fora.he concentaedseawer,evsllzedou sodium sulfate, which precipitated first, and attempted to find uses for the remaining mothersodumsue,whchpecpaedr,andatemptedtondusetor te remanngmote liquor. With certain reagents, he found that the brine turned brown. Saturating the liquorsquor.Wthcen regents etound tht the bnnetumed brown.sarang tequos with chlorine and distilling, he isolated a pungent, dark-red liquid, with a boiling point ofwh clonneanddstng,heisolaedapungent,dakredlqud,wthabong ponto $47 ^ { \circ } \mathrm { C }$ and a density three times that of water. He attempted to decompose it into simplernd a densy tree tmes ht ot waer.He atenpted to decomposet mto smpk substances, but soon recognized that he had discovered an element similar to chlorine andsbstnce butsoon rcoenzed ththe haddscovered an elementsmlr to clonne an iodine. The results were communicated to the Académie des Sciences and eventually pub-dne.Ihe reuls were comnncaod to the Aeadcmie des saence andeventnly pub lished under the title “Sur une substance particulière contenue dans l’eau de la mer (About ahed underthetle"sur une substnce rrtciee contenue dnsreau delamer(About particular substance present in sea water)” in the Annales de Chimie et de Physique. Balard’sntclr substncepeentinse waerr m theAnaesdeCeerdePvse.Brds findings caused a sensation, not least because of his tender age; he was 23 years old at thendnescased asensaion.notleast becase othistender ae:he ws Z3vears oldatth time of his discovery. Life thereafter was kind to Balard. Despite the trauma of childhoodme of hs dscoverv Lte thereaer was knd toBlrd Iespite the trma ot chidnoo poverty, which affected him deeply, he became a highly successful chemist, making manyovery.whc atecedhm deply he becme ahghlysuccestl cemst,mkng man significant discoveries and ultimately becoming a professor at the prestigious Collège deencant dscoveres and utmaelv beoomne aoroesor the oresaous Collere a France.rance,
 
 Others also played a role in the discovery of bromine. A young German student namedhers alsoplved a rok in the discovervof bromine.A voune Germn student nme Carl Löwig discovered bromine a year before Balard, but did not publish his findings afteraLowg dscovered bromme aver betore ard,but ddnot ublshhsnndngs ae he came across Balard’s paper. The great German chemist Justus von Liebig also preparedhecame aross Balrds ppet Te geat CiemancemstJustusvonLebg asoprepare bromine but apparently did not recognize its elementary nature, viewing it instead as aromne but apprenty dd not ecogne its elementrynare,vewng t nsad s chloride of iodine. Did Liebig’s comment referring to bromine’s powerful stench, cited athlonde of iodne.Dd Lebig'scomment reternne o bromine's powetustench.ctod a the beginning of this chapter, reflect a tinge of envy or bitterness? We don’t know; it maye begmnng ot ths capte,relet aungeot envy or bterness?We dontknow;t ma well have been pure, good-natured humor.ell have been pure,good-ratured hummor
 
@@ -899,7 +899,7 @@ Molecular iodine exhibits contrasting “Janus-like” behavior in its interacti
 
 ![[ArrowPushinginInorganicChemistry_231-336_images/f09a57ac0c7c0c1d4f928787f4569206ae744c49afb7d33b415814aae649d64f.jpg]]
 
-A quick word about astatine may be of interest here. All isotopes of astatine are intensely aick word soutstainemaybe ofinteresthere.Alisotopesofastaineare intensc radioactive; even the most stable, radioactive;even the moststabl $^ { 2 1 0 } \mathrm { A t }$ , has a half-life of only 8.1 h. Astatine chemistry is,hs ahaf-lfeofonly 81h.Astatine chemisty is therefore understandably relatively little explored. It is utterly fascinating, however. Thus,herefore understndably relatvelylie explred. is uteyfscinatng,however.Thus condensed, bulk astatine (which is yet to be prepared) has been predicted to be metallic.ondensed.bulk astaine(which is vet to be prepared) hs been pedcted to be mealie Experimentally, there is significant evidence forxpeimentaly,thereis signifcantevidencefor A $\mathrm { A t ^ { + } }$ cations in aqueous solution. Two pos-ations in auoous solution.Two pos sible closed-shell structures for such species are the following:ible closod-shell stnctures for such species are the following
+A quick word about astatine may be of interest here. All isotopes of astatine are intensely aick word soutstainemaybe ofinteresthere.Alisotopesofastaineare intensc radioactive; even the most stable, radioactive;even the moststabl $^ { 210 } \mathrm { A t }$ , has a half-life of only 8.1 h. Astatine chemistry is,hs ahaf-lfeofonly 81h.Astatine chemisty is therefore understandably relatively little explored. It is utterly fascinating, however. Thus,herefore understndably relatvelylie explred. is uteyfscinatng,however.Thus condensed, bulk astatine (which is yet to be prepared) has been predicted to be metallic.ondensed.bulk astaine(which is vet to be prepared) hs been pedcted to be mealie Experimentally, there is significant evidence forxpeimentaly,thereis signifcantevidencefor A $\mathrm { A t ^ { + } }$ cations in aqueous solution. Two pos-ations in auoous solution.Two pos sible closed-shell structures for such species are the following:ible closod-shell stnctures for such species are the following
 
 ![[ArrowPushinginInorganicChemistry_231-336_images/a3cb9f8dbb9220815d9b663c66484e36e1a65222189701fe9bc6c45818eb0b5c.jpg]]
 
@@ -1013,7 +1013,7 @@ Proton-coupled attack by halide on the hypohalous acid then produces the third a
 
 # 7. HYPOFLUOROUS ACID, HOF.4 HYPCJFLIICJHCJIIN ACII.HCJF
 
-Hypofluorous acid, HOF, is prepared by passingypofuorous acid,HOF,is prepared by passin $\mathrm { F } _ { 2 }$ over ice atover ice $\mathrm { - } 4 3 ^ { \circ } \mathrm { C }$
+Hypofluorous acid, HOF, is prepared by passingypofuorous acid,HOF,is prepared by passin $\mathrm { F } _ { 2 }$ over ice atover ice $\mathrm { - } 43 ^ { \circ } \mathrm { C }$
 
 $$
 \mathrm {F} _ {2} + \mathrm {H} _ {2} \mathrm {O} \rightarrow \mathrm {H O F} + \mathrm {H F} \tag {7.23}
@@ -1037,7 +1037,7 @@ $$
 \mathrm {H O F} + \mathrm {H} _ {2} \mathrm {O} \rightarrow \mathrm {H} _ {2} \mathrm {O} _ {2} + \mathrm {H F} \tag {7.26}
 $$
 
-The fact that an O–O bond is formed provides a key clue to the mechanism. The electroneg-Thetattht anO-Obondistormedprovtesakeycletothe mecansm.The eectrone ativity of fluorine (3.98) is considerably higher than that of oxygen (3.44), so, as far as theavvotnuonne (3.9s)isconsterabvheherthanthatot oxven(344).so.astr ash O–F bond in HOF is concerned, fluorine is always the negative end of the dipole. Assum-O-F bondin HOr is concemed,uonne is awaws the neratve end or the dpole.Assm ing polar mechanisms, water is thus the likely nucleophile, the oxygen atom in HOF theng polrmechnsms waeris thus he Ikelynucloophle,te oxvgen atomin HOr t electrophile, andelactroph-and $\mathrm { F ^ { - } }$ the leaving group. The weakness of the O–F bond (BDE eleavmg aroup.Ihe weaknes otthe O-Fbond(BD $\mathrm { \sim } 1 9 0 \mathrm { k J / m o l }$ ) also makes this a reasonable proposition:lso males this a reasonable orooosition
+The fact that an O–O bond is formed provides a key clue to the mechanism. The electroneg-Thetattht anO-Obondistormedprovtesakeycletothe mecansm.The eectrone ativity of fluorine (3.98) is considerably higher than that of oxygen (3.44), so, as far as theavvotnuonne (3.9s)isconsterabvheherthanthatot oxven(344).so.astr ash O–F bond in HOF is concerned, fluorine is always the negative end of the dipole. Assum-O-F bondin HOr is concemed,uonne is awaws the neratve end or the dpole.Assm ing polar mechanisms, water is thus the likely nucleophile, the oxygen atom in HOF theng polrmechnsms waeris thus he Ikelynucloophle,te oxvgen atomin HOr t electrophile, andelactroph-and $\mathrm { F ^ { - } }$ the leaving group. The weakness of the O–F bond (BDE eleavmg aroup.Ihe weaknes otthe O-Fbond(BD $\mathrm { \sim } 190 \mathrm { k J / m o l }$ ) also makes this a reasonable proposition:lso males this a reasonable orooosition
 
 ![[ArrowPushinginInorganicChemistry_231-336_images/9fcf23ab3c2ed9f2d92a09b00769d84b3388eb1bf987d07f7b292dcd63399e19.jpg]]
 
@@ -1250,19 +1250,19 @@ The productTheproduct $\mathrm { C l O } _ { 3 } { } ^ { \bullet 2 - }$ , a one-
 
 The last three sections provided an introduction to some of the higher oxidation states ofhe last tree secions provted aninroduction tosome ot te heheroxidtion sttes o halogens: logens:+ $+ \mathrm { I }$ , $+ \mathrm { I I I }$ , and nd+v. $+ \mathrm { V } .$ In general, the valence was also the same as the oxidation state,generl thevalence ws asohesame as the oxtatonstae which, as we have emphasized, is not always the case (see Section 1.24). The heptavalentwhch. ss we hve emphsied s notawaws tecase(e setion 1z4 Ihe heotvalen state is another important one for chlorine and iodine; we’ll focus on chlorine in this section.sae s anothermpotantonetorclonneandiodne;wetocusonchorne ntssecion The most familiar representatives of heptavalent chlorine are perchloric acid and perchlo-1he most tmar epreenttve otheptavaentchorne ae perchor ad and perclo rate salts. Anhydrous perchloric acidrte sslk.Anhvdrous nercHorr ai $\mathrm { ( H C l O _ { 4 } ) }$ is one of the strongest common inorganics one of he sronrest common inran acids, and the perchlorate anionaids.and the erchorate ano $\mathrm { ( C l O _ { 4 } ) ^ { - } } )$ ) is widely used as a weakly coordinating anion. wtelv used as aweakv coordnatng anon Caution: Many perchlorate salts are explosive, so they should be handled with care and inCior:Nany pechlorte sats are explosve,sotheyshoul ehndled wthcare and small quantities.small quantities
 
-A rather remarkable reaction involves the interaction ofA rher remakable reaction mvoesthe mteracton $\mathrm { P _ { 4 } O _ { 1 0 } }$ ando an $\mathrm { H C l O } _ { 4 }$ . When dis-,When ds cussing the chemistry ofcsng techemsryotF $\mathrm { P _ { 4 } O _ { 1 0 } }$ , we emphasized its dehydrating properties; with perchloric emphszedtsdchydramgpropetes,wm perchon acid, it extracts the elements of water, producing dichlorine heptoxideaid itetrctstheelements ot wtr oroducine dclonneheot $\mathrm { ( C l _ { 2 } O _ { 7 } ) }$ ), which may0).whchma thus be viewed as the anhydride of perchloric acid us be viewed as the anhvdride of perchloric a $( 2 \ \mathrm { H C l O } _ { 4 } - \mathrm { H } _ { 2 } \mathrm { O } )$ :
+A rather remarkable reaction involves the interaction ofA rher remakable reaction mvoesthe mteracton $\mathrm { P _ { 4 } O _ { 10 } }$ ando an $\mathrm { H C l O } _ { 4 }$ . When dis-,When ds cussing the chemistry ofcsng techemsryotF $\mathrm { P _ { 4 } O _ { 10 } }$ , we emphasized its dehydrating properties; with perchloric emphszedtsdchydramgpropetes,wm perchon acid, it extracts the elements of water, producing dichlorine heptoxideaid itetrctstheelements ot wtr oroducine dclonneheot $\mathrm { ( C l _ { 2 } O _ { 7 } ) }$ ), which may0).whchma thus be viewed as the anhydride of perchloric acid us be viewed as the anhvdride of perchloric a $( 2 \ \mathrm { H C l O } _ { 4 } - \mathrm { H } _ { 2 } \mathrm { O } )$ :
 
 $$
-2 \mathrm {H C l O} _ {4} + \mathrm {P} _ {4} \mathrm {O} _ {1 0} \rightarrow \mathrm {C l} _ {2} \mathrm {O} _ {7} + \mathrm {H} _ {2} \mathrm {P} _ {4} \mathrm {O} _ {1 1} \tag {7.54}
+2 \mathrm {H C l O} _ {4} + \mathrm {P} _ {4} \mathrm {O} _ {10} \rightarrow \mathrm {C l} _ {2} \mathrm {O} _ {7} + \mathrm {H} _ {2} \mathrm {P} _ {4} \mathrm {O} _ {11} \tag {7.54}
 $$
 
-This remarkable dehydrating action ofhs remrabk dehydingationofP $\mathrm { P _ { 4 } O _ { 1 0 } }$ reflects both the ability of the oxo groups to actecsboththeailiyoftheoxogroupstoa as proton acceptors and the oxophilicity of the pentavalent phosphorus centers. Protonationpotonacepors andtheoxophictyothepentvlentphosphons cenes.aonato
+This remarkable dehydrating action ofhs remrabk dehydingationofP $\mathrm { P _ { 4 } O _ { 10 } }$ reflects both the ability of the oxo groups to actecsboththeailiyoftheoxogroupstoa as proton acceptors and the oxophilicity of the pentavalent phosphorus centers. Protonationpotonacepors andtheoxophictyothepentvlentphosphons cenes.aonato
 
-of one of the terminal oxygens ofr oie df te tiiil oxygeiis $\mathrm { P _ { 4 } O _ { 1 0 } }$ is a logical first step of the mechanism. The near-rs steo oT Ine mecanis. 1ne near est phosphorus is expected to become even more oxophilic as a result and therefore more phospnor uis is expted tob ophilic as a result and theretore mmore susceptible to nucleophilic attack by perchlorate,usoepupie o nucleopnilic atack py percnlorae $\mathrm { C l O } _ { 4 } ^ { - }$ :
+of one of the terminal oxygens ofr oie df te tiiil oxygeiis $\mathrm { P _ { 4 } O _ { 10 } }$ is a logical first step of the mechanism. The near-rs steo oT Ine mecanis. 1ne near est phosphorus is expected to become even more oxophilic as a result and therefore more phospnor uis is expted tob ophilic as a result and theretore mmore susceptible to nucleophilic attack by perchlorate,usoepupie o nucleopnilic atack py percnlorae $\mathrm { C l O } _ { 4 } ^ { - }$ :
 
 ![[ArrowPushinginInorganicChemistry_231-336_images/acb252cd152bfbf8102ccdf561683d9839f28537111890df733f64cb1fa7cffe.jpg]]
 
-Additional protonation of a nearby oxygen of theAddditional protonation of a1 of the $\mathrm { P _ { 4 } O _ { 1 0 } }$ skeleton is expected to prime theeleton is expected to prime the coordinated perchlorate to nucleophilic attack by a second perchlorate, resulting inoordinaed percmloraTe o nucieopnlic atack py a second percniorae,resutng i $\mathrm { C l } _ { 2 } \mathrm { O } _ { 7 }$ .
+Additional protonation of a nearby oxygen of theAddditional protonation of a1 of the $\mathrm { P _ { 4 } O _ { 10 } }$ skeleton is expected to prime theeleton is expected to prime the coordinated perchlorate to nucleophilic attack by a second perchlorate, resulting inoordinaed percmloraTe o nucieopnlic atack py a second percniorae,resutng i $\mathrm { C l } _ { 2 } \mathrm { O } _ { 7 }$ .
 
 ![[ArrowPushinginInorganicChemistry_231-336_images/e757c41c313bb3a23ac759787a97094527e54a51bbfb1e6b0556669845c6e4a2.jpg]]
 
@@ -1314,7 +1314,7 @@ A fluoride anion, derived from HF, can then attack the electrophilic Cl in proto
 
 ![[ArrowPushinginInorganicChemistry_231-336_images/7db48f883c926c79ba29497d70025ada9b55ed54ea4e829a72e9b9158fadac03.jpg]]
 
-Perchloryl fluoriderchloryInuond $\mathrm { ( F C l O } _ { 3 } )$ ) is a gas with a characteristic sweet smell. Although a high)isagswhachaaceiscsweetsnel.Athoughag energy species from a thermodynamic point of view,energy speaesrom atneroaynamepont orv $\mathrm { F C l O } _ { 3 }$ is kinetically stable, decompos- s neey saple,aecompos ing thermally only atnethermlv onv a 4 $4 0 0 ^ { \circ } \mathrm { C! }$ These properties make it of interest as an oxidizer for rockethee oropetesmaketot inteest s anoxidzertorroce fuels. In addition, unlikenues.In addtion,unlke C $\mathrm { C l } \mathrm { F } _ { 5 }$ and Bre $\mathrm { B r F } _ { 5 }$ , it does not corrode the fuel tanks.does not corrode the tuel tanks
+Perchloryl fluoriderchloryInuond $\mathrm { ( F C l O } _ { 3 } )$ ) is a gas with a characteristic sweet smell. Although a high)isagswhachaaceiscsweetsnel.Athoughag energy species from a thermodynamic point of view,energy speaesrom atneroaynamepont orv $\mathrm { F C l O } _ { 3 }$ is kinetically stable, decompos- s neey saple,aecompos ing thermally only atnethermlv onv a 4 $400 ^ { \circ } \mathrm { C! }$ These properties make it of interest as an oxidizer for rockethee oropetesmaketot inteest s anoxidzertorroce fuels. In addition, unlikenues.In addtion,unlke C $\mathrm { C l } \mathrm { F } _ { 5 }$ and Bre $\mathrm { B r F } _ { 5 }$ , it does not corrode the fuel tanks.does not corrode the tuel tanks
 
 The chlorine atom ofThe chorme atom o $\mathrm { F C l O } _ { 3 }$ is significantly electrophilic, reacting with a variety ofs signhcanty ekctrophlc,rectng wth avane o anionic nucleophiles. As a result, it’s useful for introducing perchloryl nioncnucloophles.As aresut,fsusetultorintroducngPerch $\mathrm { ( C l O } _ { 3 } )$ ) groups intoO)groupsn organic compounds. Thus,rganic compounds.1h $\mathrm { R O ^ { - } }$ givesUgve ${ \mathrm { R O C l O } } _ { 3 }$ and PhLi givesand HL gves $\mathrm { P h C l O } _ { 3 }$ .
 
@@ -1343,7 +1343,7 @@ $$
 $$
 
 $$
-\mathrm {B r F} _ {5} + 2 \mathrm {S b F} _ {5} \rightarrow \left[ \mathrm {B r F} _ {4} ^ {+} \right]\left[ \mathrm {S b} _ {2} \mathrm {F} _ {1 1} ^ {-} \right] \tag {7.65}
+\mathrm {B r F} _ {5} + 2 \mathrm {S b F} _ {5} \rightarrow \left[ \mathrm {B r F} _ {4} ^ {+} \right]\left[ \mathrm {S b} _ {2} \mathrm {F} _ {11} ^ {-} \right] \tag {7.65}
 $$
 
 $$
@@ -1412,7 +1412,7 @@ mechanism accounts for the stereospecificity of the process, which may be descri
 
 ![[ArrowPushinginInorganicChemistry_231-336_images/b9145f55b80b121d6d68b757f2d7fc56ba3f03dea3af28896e76d32300e661f8.jpg]]
 
-# REVIEW PROBLEMREVTEWPROBIEM7 $7 . 1 9 ^ { \ast }$
+# REVIEW PROBLEMREVTEWPROBIEM7 $7.19 ^ { \ast }$
 
 The following substitution reaction, which occurs on exposure of the substrate toTe oowng sbson eaton,wcoeus oneposureorne sbsae sodium formate in formic acid, proceeds with full retention of configuration:sodumtomaenormed,pooees wetentootconuon
 
@@ -1424,7 +1424,7 @@ Radical reagents, on the other hand, are perfectly suited for allylic brominatio
 
 ![[ArrowPushinginInorganicChemistry_231-336_images/534f34ab9e4c000d11bd2e5acadaa220b49640cbadf3d409b39751eb81e9f8dc.jpg]]
 
-As you’ll see, the mechanism is not particularly complex, but there are a few subtle pointssyou" se,the mechnsmsnotpatcuay compex,b thee are atew suble pon that are worth appreciating. The role of the radical initiator provides a natural starting pointreworhappecang.e role ofteradctorprodesanarsatngpon for our discussion. The very weak O–O bond (BDE or our dscusson.1he ery weak O-O bond(B $\mathrm { \sim } 1 3 8 \mathrm { k J / m o l }$ ) cleaves homolytically)caves homolytcal under the influence of heat or light:nder the infiuence of heat or light
+As you’ll see, the mechanism is not particularly complex, but there are a few subtle pointssyou" se,the mechnsmsnotpatcuay compex,b thee are atew suble pon that are worth appreciating. The role of the radical initiator provides a natural starting pointreworhappecang.e role ofteradctorprodesanarsatngpon for our discussion. The very weak O–O bond (BDE or our dscusson.1he ery weak O-O bond(B $\mathrm { \sim } 138 \mathrm { k J / m o l }$ ) cleaves homolytically)caves homolytcal under the influence of heat or light:nder the infiuence of heat or light
 
 $$
 \begin{array}{l} \mathrm {P h} _ {\mathrm {C}} \mathrm {O} _ {\mathrm {O}} \mathrm {C} _ {\mathrm {C}} \mathrm {O} _ {\mathrm {C}} \mathrm {C} _ {\mathrm {P h}} \longrightarrow \mathrm {P h} _ {\mathrm {C}} \mathrm {C} _ {\mathrm {O}} \mathrm {O} _ {\mathrm {+}} \mathrm {O} _ {\mathrm {C}} \mathrm {C} _ {\mathrm {P h}} \end{array} \tag {7.74}
@@ -1436,13 +1436,13 @@ $$
 \begin{array}{c} \text {P h} \\ \text {C} \\ \text {O} \end{array} \xrightarrow {\text {R O}} \text {P h} + \begin{array}{l} \text {O} \\ \text {C} \\ \text {O} \end{array}
 $$
 
-The weak N–Br bond in NBS (BDEThe weak N-r boninNBS(BDE~ ${ \sim } 2 4 3 \mathrm { k J / m o l }$ ) is also susceptible to homolytic cleavage: asosucepuble ohomolvtcclevae
+The weak N–Br bond in NBS (BDEThe weak N-r boninNBS(BDE~ ${ \sim } 243 \mathrm { k J / m o l }$ ) is also susceptible to homolytic cleavage: asosucepuble ohomolvtcclevae
 
 $$
 \mathrm {C a} \left(\mathrm {N} \xrightarrow {\mathrm {O}} \mathrm {B r}\right) \longrightarrow \mathrm {C a} \left(\mathrm {N} \cdot + \mathrm {B r} \cdot\right) \tag {7.76}
 $$
 
-The various radicals produced can all abstract an allylic hydrogen from the organiche various mdicals poduced can al absrat an alylie hydrogen fom the organic substrate, cyclohexene in this case. With BDEs of ubstate,eyclohexene m ths case.Wth BE ${ \sim } 3 7 2 \mathrm { k J / m o l }$ , allylicol,aly $\mathrm { C - H }$ bonds areHbondsa considerably weaker than regular alkyl-H bonds, whose dissociation energies vary fromonsiderablyweakerthan regularayl-H bonds,whosedsocaton energtesvryron aboutbout $4 0 4 \mathrm { k J / m o l }$ for a tertiary C–H bond to as high asora tertar C-H bond o s heh as $4 3 9 \mathrm { k J / m o l }$ for methane. Allylictor methane.Alvh hydrogen abstraction is shown below for the benzoyloxy radical, a major radical species inydrogenastrcton s shown belowtortheenzoyloxyndc,amorraicaspeces the system:he system:
+The various radicals produced can all abstract an allylic hydrogen from the organiche various mdicals poduced can al absrat an alylie hydrogen fom the organic substrate, cyclohexene in this case. With BDEs of ubstate,eyclohexene m ths case.Wth BE ${ \sim } 372 \mathrm { k J / m o l }$ , allylicol,aly $\mathrm { C - H }$ bonds areHbondsa considerably weaker than regular alkyl-H bonds, whose dissociation energies vary fromonsiderablyweakerthan regularayl-H bonds,whosedsocaton energtesvryron aboutbout $404 \mathrm { k J / m o l }$ for a tertiary C–H bond to as high asora tertar C-H bond o s heh as $439 \mathrm { k J / m o l }$ for methane. Allylictor methane.Alvh hydrogen abstraction is shown below for the benzoyloxy radical, a major radical species inydrogenastrcton s shown belowtortheenzoyloxyndc,amorraicaspeces the system:he system:
 
 $$
 \mathrm {P h} \xrightarrow {\mathrm {O}} \mathrm {C} \xrightarrow {\mathrm {H}} \mathrm {H} \xrightarrow {\mathrm {O}} \mathrm {C} \xrightarrow {\mathrm {H}} \mathrm {O H} + \mathrm {H} \xrightarrow {\mathrm {O}} \mathrm {C} \xrightarrow {\mathrm {H}} \mathrm {O H} + \mathrm {H} \xrightarrow {\mathrm {O}} \mathrm {C} \xrightarrow {\mathrm {H}} \mathrm {O H} + \mathrm {H} \xrightarrow {\mathrm {O}} \mathrm {C} \xrightarrow {\mathrm {H}} \mathrm {O H} +
@@ -1703,7 +1703,7 @@ As with lead tetraacetate, the first steps of diol cleavage involve formation of
 The cyclic periodate ester breaks down spontaneously, as shown below, creating a pair of1he cycicpenodateeaer breaks down spontneousy,s shown below,creangaparo carbonyl groups and a pentavalent, pentacoordinate iodine intermediate:arboryl groups and a peavaent,pentacoordinate odine intermedat
 
 $$
-\begin{array}{l}\underset {\text {H O}} \underset {\text {O}} \underset {\text {O}} \underset {\text {O}} \underset {\text {O}} \underset {\text {O}} \underset {\text {O}} \underset {\text {O}} \underset {\text {O}} \underset {\text {O}} {\underset {\text {O}} {\underset {\text {O}} {\underset {\text {O}} {\underset {\text {O}} {\undersat {R ^ {4}}}}}}} \left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left(7. 1 0 9\right)\end{array}
+\begin{array}{l}\underset {\text {H O}} \underset {\text {O}} \underset {\text {O}} \underset {\text {O}} \underset {\text {O}} \underset {\text {O}} \underset {\text {O}} \underset {\text {O}} \underset {\text {O}} \underset {\text {O}} {\underset {\text {O}} {\underset {\text {O}} {\underset {\text {O}} {\underset {\text {O}} {\undersat {R ^ {4}}}}}}} \left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left. \right.\left(7.109\right)\end{array}
 $$
 
 The iodine intermediate, which may be viewed as a hydrated form of iodic acid, should then eliminate water to yield iodateenelmnate water tovel 1odte ${ { ( \mathrm { I O } _ { 3 } } ^ { - } } .$ ). A water-catalyzed pathway is shown below:.A waercaavzed pahway s shown below
@@ -1725,7 +1725,7 @@ $$
 $$
 
 $$
-\begin{array}{c} \text {Y i e l d s : 8 0 ％ (R ^ {1} , R ^ {2} , R ^ {3} = a l k y l / a r y l)} \\ 4 0 ％ (R ^ {1}, R ^ {2}, = a l k y l / a r y l; R ^ {3} = H) \\ 1 0 ％ (R ^ {1} = a l k y l; R ^ {2}, R ^ {3} = H) \end{array}
+\begin{array}{c} \text {Y i e l d s : 80 ％ (R ^ {1} , R ^ {2} , R ^ {3} = a l k y l / a r y l)} \\ 40 ％ (R ^ {1}, R ^ {2}, = a l k y l / a r y l; R ^ {3} = H) \\ 10 ％ (R ^ {1} = a l k y l; R ^ {2}, R ^ {3} = H) \end{array}
 $$
 
 A few quick comments on the first three steps of the transformation may be useful: few quick comments on the fst thee aeps of the ransformtion my be usef $\mathrm { S O C l } _ { 2 }$ converts the COOH to COCl, RSH then converts COCl to C(O)SR (thioester), andonvets he COOH to CUcL KsH then convets CUCIto COsK(thioeter an Lawesson’s reagent (which we discussed in Section 6.14) then converts the thioester towesons rgent (whc we dscssed in setion 6.14)henconvers the thoestr the xanthate. As soft nucleophiles, the sulfurs in the xanthate attack the Br ine xanthte.As sot nucleophle,te srurs m the xantate atack te $\mathrm { B r F } _ { 3 }$ , aBr soft electrophile. Simultaneously, or in the next step, a fluoride migrates from Br to theotekctrophle.smutneosy,or in the next step,a uoride mgaes rom rtoth xanthate carbon. Migration of a second fluoride leads to aanthatecabon.Migraton c asecondnuonde leads to $\mathrm { C F } _ { 2 }$ unit, as shown below:unt,as shown elow
@@ -1746,7 +1746,7 @@ An interesting aspect of the above mechanism is that it has not involved any net
 
 Although detailed mechanistic studies are lacking, HSAB considerations appear to favorAhoueh deaikd mechnsnc shdis are cne.HsAB consternons apoear to tvo the first non-redox mechanism, where sulfur, a soft nucleophile, attacks bromine, a softe nrstnonredox mecansm,where sfr,a sot nucleophle,atacks bromne,a so electrophile.lectrophile.
 
-# REVIEW PROBLEMRRNIRW PAIRIK $7 . 2 5 ^ { \ast }$
+# REVIEW PROBLEMRRNIRW PAIRIK $7.25 ^ { \ast }$
 
 B $\mathrm { B r F } _ { 3 }$ is also useful for transforming carbonyl groups tosouseorasomngcaboyIgoupsoC, $\mathrm { C F } _ { 2 }$ units. First, however, the Frs howeve,e carbonyl groups need to be derivatized to hydrazones or oxime ethers:carboyl groups need o e denvazed tonydrzonesoroxme enes
 
@@ -1756,7 +1756,7 @@ Suggest a mechanism for thesuggest amecanism ror the $\mathrm { B r F } _ { 3 }$
 
 Pyridine (py) reacts withyndine (py)reacts $\mathrm { B r F } _ { 3 }$ to form a complex, which may be written asBrto tom acomplex,whchmay e wnttn $\mathrm { B r F } _ { 3 }$ ⋅pyrp (Hagooly, Y.; Rozen, S. Org. Lett. 2012, 14, 1114–1117). It is obtained very simply as a(Hagooly,Y:Rozen,S.Org-Let.2012,14,1114-1117).is obtainedveysimplas white precipitate by mixing equimolar quantities ofwhte pecptte bymxmg aqumolr quantteso $\mathrm { B r F } _ { 3 }$ and pyridine ins andpyndne $\mathrm { C H C l } _ { 3 }$ orCo $\mathrm { C F C l } _ { 3 }$ without any additional purification. It is a user-friendly, solid form ofhout any additonal punnction.tis a user-rendy,sold torm ot $\mathrm { B r F } _ { 3 }$ that is alsotht is abo somewhat milder in its reactivity. Typically, it is fully functional in fluorination reactionsomewnat maer n s reacNv IvDcv s Vncona n mormaon rectons wherehere B $\mathrm { B r F } _ { 3 }$ would otherwise have been used.ould otherwise have been used
 
-# REVIEW PROBLEMREVTEWPROBIEM $7 . 2 6 ^ { \ast }$
+# REVIEW PROBLEMREVTEWPROBIEM $7.26 ^ { \ast }$
 
 Suggest a mechanism for the following reaction:uggest a mechanism for the following reaction
 
@@ -1791,7 +1791,7 @@ Suggest a mechanism for reaction 7.117.Suggest a mechanism for reaction7.117
 Alkyne couplings are a good example of the novel and useful reactivity exhibited byAkvne couplngs are a good exanple or the nove and userul reactwtyexhbited b aryl-ryl- $\cdot \lambda ^ { 3 }$ -bromanes.rommanes
 
 $$
-\mathrm {C F} _ {3} + \mathrm {M e} _ {3} \mathrm {S n} - \mathrm {C} \equiv \mathrm {C} - \mathrm {R} \xrightarrow [ - 7 8 ^ {\circ} \mathrm {C} ]{\mathrm {B F} _ {3} \cdot \mathrm {O E t} _ {2}, \mathrm {C H} _ {2} \mathrm {C l} _ {2}} \mathrm {R} - \mathrm {C} \equiv \mathrm {C} - \mathrm {C} \equiv \mathrm {C} - \mathrm {R} \tag {7.118}
+\mathrm {C F} _ {3} + \mathrm {M e} _ {3} \mathrm {S n} - \mathrm {C} \equiv \mathrm {C} - \mathrm {R} \xrightarrow [ - 78 ^ {\circ} \mathrm {C} ]{\mathrm {B F} _ {3} \cdot \mathrm {O E t} _ {2}, \mathrm {C H} _ {2} \mathrm {C l} _ {2}} \mathrm {R} - \mathrm {C} \equiv \mathrm {C} - \mathrm {C} \equiv \mathrm {C} - \mathrm {R} \tag {7.118}
 $$
 
 Coordination ofoordintionof $\mathrm { B F } _ { 3 }$ should enhance the electrophilicity of the houldenhancetheekctrophilicityof $\lambda ^ { 3 }$ -bromane, priming it asbromne,priningita an acceptor of a migrating alkynyl group:n acceptor ot a mgrating alkynyl group
@@ -1808,7 +1808,7 @@ The (alkynyl)aryl-1he(lkynyIryb- $\lambda ^ { 3 }$ -bromane so formed can underg
 
 ![[ArrowPushinginInorganicChemistry_231-336_images/02d7cf3cc0b16e3f542e3fac0ddf8fbcd916df3fddaff572b95d88328a631d63.jpg]]
 
-# REVIEW PROBLEM ${ } ^ { 7 . 2 8 ^ { * } }$
+# REVIEW PROBLEM ${ } ^ { 7.28 ^ { * } }$
 
 The (alkynyl)aryl-e(akvwrvb $\lambda ^ { 3 }$ -bromanes mentioned above are stable enough to be isolated andmnesmenondaoveae sabeouhtosoea may be employed in a variety of other coupling reactions. Alkynyl tosylates and tri-mye empovedmaaneyotcercoupng eatos.Akynvtosvtes andtn flates are interesting and useful products that can be obtained in this manner:sarenesnandsenoodcshcaneobmednsmnne
 
@@ -1879,7 +1879,7 @@ Because my co-workers at that time (March 23, 1962)Becaitse myco-workers ar rhar
 
 Neil Bartlett in Fluorine Chemistry,cil Bartlctt in F7ionne Chemuisrry at the Millennium Banks, R. E. ed.;t the Millennium Banks,R.E.ed.; Elsevier: Amsterdam, 2000, p. 39.lsevier: Amstrdam,2000,p.39.
 
-The majority of the noble gases were discovered in the nineteenth century. The discoveryhe maontyor te nobl ases were dscovered n the nneteenthcenty.Ihe asoove that the noble gases are not entirely inert happened in more recent memory, in 1962, and isht thenobk gses arenot etreyinerthppenedinmore recent memory,in1962,andis now part of chemistry’s lore. Working alone at the University of British Columbia in Van-ow oartot chemisvs ore Worne alone atthe Unvestvot Bntsh Columbia in Vn couver, Canada, British chemist Neil Bartlett (1932–2008) discovered that the high-valentouver.Canada,Bitsh cemistNeilBalet(1932-2008)discoveedtht the highvakn compoundompoundF $\mathrm { P t F } _ { 6 }$ could oxidize molecular oxygen tould oxidze molccularoxygen ${ \mathrm { O } } _ { 2 } { } ^ { + } { \mathrm { P t F } } _ { 6 } { } ^ { - }$ . Since xenon has the sames-.Since xnonhstesm ionization potential asonztion potenta s $\mathrm { O } _ { 2 }$ , he reasoned that xenon should also form a similar compoundhe reasoned tat xenon shoud ako tom a smrcompoun withwthF $\mathrm { P t F } _ { 6 }$ , a prediction that proved essentially correct. Figure 8.1 presents a reproductionpediction thatprovedesentaycorect.Fgues.1 presens a reproductio of Bartlett’s paper, one of the shortest in the history of science for a major discovery. Sub-of Banler's naper one ofthe shortetin the historvofscience for amaior discoverv.Sub sequently, the product was shown to be a bit more complex; it was apparently a mixture ofsequey,te productws sown toe ab morecompex;t ws appretyamxtueo $[ \mathrm { X e F } ] [ \mathrm { P t F } _ { 6 } ]$ andand $[ \mathrm { X e F } ] [ \mathrm { P t } _ { 2 } \mathrm { F } _ { 1 1 } ]$ . In the last 50 years since that historic finding, xenon chem-elst30veas since mathstonc mndng.xenoncem istry has grown by leaps and bounds, and a few compounds have also been synthesized fortsryhs gown oyleaps andbounds,andatewconpounds hvealsobeensynteizedto krypton and radon.rypton and radon
+The majority of the noble gases were discovered in the nineteenth century. The discoveryhe maontyor te nobl ases were dscovered n the nneteenthcenty.Ihe asoove that the noble gases are not entirely inert happened in more recent memory, in 1962, and isht thenobk gses arenot etreyinerthppenedinmore recent memory,in1962,andis now part of chemistry’s lore. Working alone at the University of British Columbia in Van-ow oartot chemisvs ore Worne alone atthe Unvestvot Bntsh Columbia in Vn couver, Canada, British chemist Neil Bartlett (1932–2008) discovered that the high-valentouver.Canada,Bitsh cemistNeilBalet(1932-2008)discoveedtht the highvakn compoundompoundF $\mathrm { P t F } _ { 6 }$ could oxidize molecular oxygen tould oxidze molccularoxygen ${ \mathrm { O } } _ { 2 } { } ^ { + } { \mathrm { P t F } } _ { 6 } { } ^ { - }$ . Since xenon has the sames-.Since xnonhstesm ionization potential asonztion potenta s $\mathrm { O } _ { 2 }$ , he reasoned that xenon should also form a similar compoundhe reasoned tat xenon shoud ako tom a smrcompoun withwthF $\mathrm { P t F } _ { 6 }$ , a prediction that proved essentially correct. Figure 8.1 presents a reproductionpediction thatprovedesentaycorect.Fgues.1 presens a reproductio of Bartlett’s paper, one of the shortest in the history of science for a major discovery. Sub-of Banler's naper one ofthe shortetin the historvofscience for amaior discoverv.Sub sequently, the product was shown to be a bit more complex; it was apparently a mixture ofsequey,te productws sown toe ab morecompex;t ws appretyamxtueo $[ \mathrm { X e F } ] [ \mathrm { P t F } _ { 6 } ]$ andand $[ \mathrm { X e F } ] [ \mathrm { P t } _ { 2 } \mathrm { F } _ { 11 } ]$ . In the last 50 years since that historic finding, xenon chem-elst30veas since mathstonc mndng.xenoncem istry has grown by leaps and bounds, and a few compounds have also been synthesized fortsryhs gown oyleaps andbounds,andatewconpounds hvealsobeensynteizedto krypton and radon.rypton and radon
 
 # Xeoe Iexoroohfsiev Xe'TPF.T
 
@@ -1892,7 +1892,7 @@ wcmrr Communicaton' decrited the comoound ioxygeny anuoreptav O,Tr,ahic s formed
 eaimetrs titrtion of non (AlRCO"Ragent rd'" aith nlatinum heafunride ht nrovd th isience or Ii compouna,xer.This i an or-yeow sood which is nioape n crbo trchore,and has egible vpour preure room enperure. subuoes wuum sben eated and the ublimate,when treaied with saie pour,pa arotyes,xnon ano ogen oe volved and hvdrated plasinum diosd aposied
 
 $$
-2 \mathrm {X e P t F} _ {4} + 6 \mathrm {H} _ {2} \mathrm {O} \rightarrow 2 \mathrm {X e} + \mathrm {O} _ {3} + 2 \mathrm {P t O} _ {3} + 1 2 \mathrm {H F}
+2 \mathrm {X e P t F} _ {4} + 6 \mathrm {H} _ {2} \mathrm {O} \rightarrow 2 \mathrm {X e} + \mathrm {O} _ {3} + 2 \mathrm {P t O} _ {3} + 12 \mathrm {H F}
 $$
 
 be coeoaitioe of the evohed gs was established bm8SeIrk anaaia
@@ -1918,22 +1918,22 @@ Reproduction of Neil Bartlett’s historic paper.gure a1 Aeproduction af u Batb'
 • Krypton difluoride ·Kvpton dnuorte(K $( \mathrm { K r F } _ { 2 } ,$ ) can be synthesized from the elements in a number of dif-n e svnteszed rom the elementsin anumber ot d ferent ways, including low temperature photolysis. It is considerably less stable thanterent ways,incuding low emperatre phoolyss.is considerablyless sabk tha $\mathrm { X e F } _ { 2 }$ , as shown by the following reaction enthalpies:s shown by the tollowing reaction enthapies
 
 $$
-\mathrm {K r F} _ {2} (\mathrm {g}) = \mathrm {K r} (\mathrm {g}) + \mathrm {F} _ {2} (\mathrm {g}) \quad \Delta G ^ {0} = - 6 3 \mathrm {k J / m o l} \tag {8.1}
+\mathrm {K r F} _ {2} (\mathrm {g}) = \mathrm {K r} (\mathrm {g}) + \mathrm {F} _ {2} (\mathrm {g}) \quad \Delta G ^ {0} = - 63 \mathrm {k J / m o l} \tag {8.1}
 $$
 
 $$
-\mathrm {X e F} _ {2} (\mathrm {g}) = \mathrm {X e} (\mathrm {g}) + \mathrm {F} _ {2} (\mathrm {g}) \quad \Delta G ^ {0} = 1 0 5 \mathrm {k J / m o l} \tag {8.2}
+\mathrm {X e F} _ {2} (\mathrm {g}) = \mathrm {X e} (\mathrm {g}) + \mathrm {F} _ {2} (\mathrm {g}) \quad \Delta G ^ {0} = 105 \mathrm {k J / m o l} \tag {8.2}
 $$
 
-$\mathrm { K r F } _ { 2 }$ can be stored indefinitely at an e sored indehntey a- $- 7 8 { } ^ { \circ } \mathrm { C }$ , but decomposes slowly at room tempera-ut dccomposes slowyatroom tempera ture. It is an exceedingly powerful oxidant.ture.It is an exceedingly powertu oxidant
+$\mathrm { K r F } _ { 2 }$ can be stored indefinitely at an e sored indehntey a- $- 78 { } ^ { \circ } \mathrm { C }$ , but decomposes slowly at room tempera-ut dccomposes slowyatroom tempera ture. It is an exceedingly powerful oxidant.ture.It is an exceedingly powertu oxidant
 
-• Radon, on the other hand, reacts readily with·Radon,ontheoherhand,reactsreadilywith $\mathrm { F } _ { 2 }$ , yielding radon difluoride. The com-,vielding ndon diuoride.Thecom pound has not been fully characterized. It decomposes on vaporization and is believedpoundhs not been flychraterized docompoes onvaporizationands beleved to be an ionic compound. The strong radioactivity of all of radon’s isotopes has dis-obe an ionic compound.The strong radioactivityof allof rdon's isotopes hs dis couraged detailed studies of its chemical properties; the half-life of couraed detaledstudiesof is chemicaproperties:thehaf-ifeo ${ } ^ { 1 2 2 } \mathrm { R n }$ , the longestthe longes lived of all radon isotopes, is only 3.82 days.ived of allradon isotopes,is only3.82 days
+• Radon, on the other hand, reacts readily with·Radon,ontheoherhand,reactsreadilywith $\mathrm { F } _ { 2 }$ , yielding radon difluoride. The com-,vielding ndon diuoride.Thecom pound has not been fully characterized. It decomposes on vaporization and is believedpoundhs not been flychraterized docompoes onvaporizationands beleved to be an ionic compound. The strong radioactivity of all of radon’s isotopes has dis-obe an ionic compound.The strong radioactivityof allof rdon's isotopes hs dis couraged detailed studies of its chemical properties; the half-life of couraed detaledstudiesof is chemicaproperties:thehaf-ifeo ${ } ^ { 122 } \mathrm { R n }$ , the longestthe longes lived of all radon isotopes, is only 3.82 days.ived of allradon isotopes,is only3.82 days
 
 Most of the discussion below will focus on xenon. We trust that you’ll find noble gasMostof he dscussic beloww tocus on xenon.We tnst hat younnd noble ga chemistry, a term that a bit over 50 years ago would have been an oxymoron, fascinating.cemisty,atem tht abit over 50 yeas ago wouldhve been an oxymoron,facinating Indeed, a few of the mechanisms should be as challenging as anything you have encounteredInded ateworthe mecansms shou e aschalenineasanvmng vouhveencouner in the rest of this book.n the rest of this book
 
 # REVIEW PROBLEM 8.1
 
-The first ionization energies of Kr, Xe, and Rn are 1351, 1170, andTefstonzoneneeofKrXe.andRnae1351.1170.and $1 0 3 7 ~ \mathrm { k J / m o l }$ , respectively. Use this information to rationalize (i) the instability ofesecvelyUethsnfoatontontolze0)te nsby $\mathrm { K r F } _ { 2 }$ relative toFeatve X $\mathrm { X e F } _ { 2 }$ and (ii) the likely ionic character ofd (ii) the likely ionic character o $\mathrm { R n F } _ { 2 }$ .
+The first ionization energies of Kr, Xe, and Rn are 1351, 1170, andTefstonzoneneeofKrXe.andRnae1351.1170.and $1037 ~ \mathrm { k J / m o l }$ , respectively. Use this information to rationalize (i) the instability ofesecvelyUethsnfoatontontolze0)te nsby $\mathrm { K r F } _ { 2 }$ relative toFeatve X $\mathrm { X e F } _ { 2 }$ and (ii) the likely ionic character ofd (ii) the likely ionic character o $\mathrm { R n F } _ { 2 }$ .
 
 # 8.1 THE XENON FLUORIDES: FLUORIDE DONORS AND ACCEPTORS
 
@@ -1953,7 +1953,7 @@ $$
 \mathrm {C s} \left[ \mathrm {X e F} _ {7} \right] + \mathrm {C s F} \rightarrow \mathrm {C s} _ {2} \left[ \mathrm {X e F} _ {8} \right] \tag {8.5}
 $$
 
-Octafluoroxenate salts are extraordinarily stable, even to temperatures abovetafuoroxenatesalsare extrordinrilystable,eventotemperaures aov $4 0 0 ^ { \circ } \mathrm { C }$ , proof,proo that noble gas compounds are not just laboratory curiosities.hat noble gas compounds are not iust laboratory curiosities
+Octafluoroxenate salts are extraordinarily stable, even to temperatures abovetafuoroxenatesalsare extrordinrilystable,eventotemperaures aov $400 ^ { \circ } \mathrm { C }$ , proof,proo that noble gas compounds are not just laboratory curiosities.hat noble gas compounds are not iust laboratory curiosities
 
 ![[ArrowPushinginInorganicChemistry_231-336_images/a0b1eb4bef69707ee15353933d7a371f0a35577f310f5e1dd938b7769b0c6f13.jpg]]
 
@@ -2013,7 +2013,7 @@ $$
 \mathrm {X e F} _ {2} + 2 \mathrm {H C l} \rightarrow \mathrm {X e} + \mathrm {H F} + \mathrm {C l} _ {2} \tag {8.13}
 $$
 
-Given that HF is a product and that it has a very high bond dissociation energy (BDECiven tat Hr s a oroduct and hatit hs a vev hah bond dssocation enerav(BD $5 6 9 \mathrm { k J / m o l }$ ), it’s reasonable to start by protonating one of fluorines ofr'sreasonableto stt bv protonaing one of uormesot $\mathrm { X e F } _ { 2 }$ .
+Given that HF is a product and that it has a very high bond dissociation energy (BDECiven tat Hr s a oroduct and hatit hs a vev hah bond dssocation enerav(BD $569 \mathrm { k J / m o l }$ ), it’s reasonable to start by protonating one of fluorines ofr'sreasonableto stt bv protonaing one of uormesot $\mathrm { X e F } _ { 2 }$ .
 
 ![[ArrowPushinginInorganicChemistry_231-336_images/328d022abe83303f6cf69798f7a7891776e9d32f858054787581f92e8057c119.jpg]]
 
@@ -2132,7 +2132,7 @@ $$
 As we discussed for certain other oxygen-atom transfer reactions, we need not worry tooAs we dscssed tor cerin other oxven-om ranster reactons.we ned nt worr to much that the electrophilic center is an oxygen atom with a negative formal charge; thismuc tht the eectophlccnteris an oxysnaom wthanegave tormlcarge,t is all right, especially when the adjoining oxygen atom has a positive formal charge. Pre-al nght,esecaly when the adonng oxygen aom hs apostve tomalchrge.e liminary density functional theory (DFT) studies (by the authors) favor the aboveImnrvdensitvnctonatheorv(rnsudis (bvthe athors)tvor te above $\mathrm { S } _ { \mathrm { N } } 2 $ -likez-k direct displacement, over a two-step mechanism, involving a xenon ozonide intermediate,dretdsplacement,over atwostep mechansm,nvolvmg axenon ozondenterednte as depicted below:s depicted below
 
 $$
-\begin{array}{l} \Theta_ {\mathrm {O}} \xrightarrow [ \mathrm {X e} ]{\mathrm {2 + }} \mathrm {O} ^ {\ominus} \\ \Theta_ {\mathrm {O}} \xrightarrow [ \mathrm {O} ]{\mathrm {3 + }} \mathrm {O} ^ {\ominus} \\ \Theta_ {\mathrm {O}} \xrightarrow [ \mathrm {O} ]{\mathrm {O}} \mathrm {O} ^ {\ominus} \\ \Theta_ {\mathrm {O}} \xrightarrow [ \mathrm {O} ]{\mathrm {O}} \mathrm {O} ^ {\ominus} \\ \Theta_ {\mathrm {O}} \xrightarrow [ \mathrm {O} ]{\mathrm {O}} \mathrm {O} ^ {\ominus} \\ \Theta_ {\mathrm {O}} \xrightarrow [ \mathrm {O} ]{\mathrm {- O _ {2}}} \mathrm {O} ^ {\ominus} \\ \Theta_ {\mathrm {O}} \xrightarrow [ \mathrm {O} ]{\mathrm {- X e}} \mathrm {O} ^ {\ominus} \\ \Theta_ {\mathrm {O}} \xrightarrow [ \mathrm {O} ]{\mathrm {- X e}} \mathrm {O} ^ {\ominus} \\ \Theta_ {\mathrm {O}} \xrightarrow [ \mathrm {O} ]{\mathrm {- O _ {2}}} \mathrm {O} ^ {\ominus} \\ \Theta_ {\mathrm {O}} \xrightarrow [ \mathrm {O} ]{\mathrm {- X e}} \mathrm {O} ^ {\ominus} \\ \Theta_ {\mathrm {O}} \xrightarrow [ \mathrm {o} ]{\mathrm {- O _ {2}}} \mathrm {O} ^ {\ominus} \\ \Theta_ {\mathrm {O}} \xrightarrow [ \mathrm {o} ]{\mathrm {- X e}} \mathrm {O} ^ {\ominus} \\ \Theta_ {\mathrm {O}} \xrightarrow [ \mathrm {o} ]{\mathrm {- O _ {2}}} \mathrm {O} ^ {\ominus} \\ \Theta_ {\mathrm {O}} \xrightarrow [ \mathrm {o} ]{\mathrm {- X e}} \mathrm {O} ^ {\ominus} \\ \Theta_ {\mathrm {O}} = 0. 5, \end{array} \tag {8.30}
+\begin{array}{l} \Theta_ {\mathrm {O}} \xrightarrow [ \mathrm {X e} ]{\mathrm {2 + }} \mathrm {O} ^ {\ominus} \\ \Theta_ {\mathrm {O}} \xrightarrow [ \mathrm {O} ]{\mathrm {3 + }} \mathrm {O} ^ {\ominus} \\ \Theta_ {\mathrm {O}} \xrightarrow [ \mathrm {O} ]{\mathrm {O}} \mathrm {O} ^ {\ominus} \\ \Theta_ {\mathrm {O}} \xrightarrow [ \mathrm {O} ]{\mathrm {O}} \mathrm {O} ^ {\ominus} \\ \Theta_ {\mathrm {O}} \xrightarrow [ \mathrm {O} ]{\mathrm {O}} \mathrm {O} ^ {\ominus} \\ \Theta_ {\mathrm {O}} \xrightarrow [ \mathrm {O} ]{\mathrm {- O _ {2}}} \mathrm {O} ^ {\ominus} \\ \Theta_ {\mathrm {O}} \xrightarrow [ \mathrm {O} ]{\mathrm {- X e}} \mathrm {O} ^ {\ominus} \\ \Theta_ {\mathrm {O}} \xrightarrow [ \mathrm {O} ]{\mathrm {- X e}} \mathrm {O} ^ {\ominus} \\ \Theta_ {\mathrm {O}} \xrightarrow [ \mathrm {O} ]{\mathrm {- O _ {2}}} \mathrm {O} ^ {\ominus} \\ \Theta_ {\mathrm {O}} \xrightarrow [ \mathrm {O} ]{\mathrm {- X e}} \mathrm {O} ^ {\ominus} \\ \Theta_ {\mathrm {O}} \xrightarrow [ \mathrm {o} ]{\mathrm {- O _ {2}}} \mathrm {O} ^ {\ominus} \\ \Theta_ {\mathrm {O}} \xrightarrow [ \mathrm {o} ]{\mathrm {- X e}} \mathrm {O} ^ {\ominus} \\ \Theta_ {\mathrm {O}} \xrightarrow [ \mathrm {o} ]{\mathrm {- O _ {2}}} \mathrm {O} ^ {\ominus} \\ \Theta_ {\mathrm {O}} \xrightarrow [ \mathrm {o} ]{\mathrm {- X e}} \mathrm {O} ^ {\ominus} \\ \Theta_ {\mathrm {O}} = 0.5, \end{array} \tag {8.30}
 $$
 
 Observe that we have now obtained octavalent Xe (five single bonds and a (herv mt u hve no onedoetaont xe(mv cnole hnts sn $+ 3$ formal torm charge), with the same oxidation level as perxenatecare).whthesmeoxidionevelaspenenat $\left( \mathrm { X e O } _ { 6 } { } ^ { 4 - } \right)$ ). It only remains to add anotheronlyremnstoaddanothe hydroxide and deprotonate it:ydroxide and deprotonate it
@@ -2212,7 +2212,7 @@ Suggest mechanisms for these reactions.Suggest mechanisms for these reactions
 Here is another, rather complex reaction:ere is another,rather commplex reaction
 
 $$
-6 \mathrm {X e F} _ {4} + 1 2 \mathrm {H} _ {2} \mathrm {O} \rightarrow 2 \mathrm {X e O} _ {3} + 4 \mathrm {X e} + 3 \mathrm {O} _ {2} + 2 4 \mathrm {H F} \tag {8.38}
+6 \mathrm {X e F} _ {4} + 12 \mathrm {H} _ {2} \mathrm {O} \rightarrow 2 \mathrm {X e O} _ {3} + 4 \mathrm {X e} + 3 \mathrm {O} _ {2} + 24 \mathrm {H F} \tag {8.38}
 $$
 
 With 18 reactant molecules, where would you begin to push arrows? Instead of throwing upWh 1s reacant molecules,whee wouldyou berinopusharows7Inseaoftrowng u your hands at the formidable stoichiometry, it might help to focus on the qualitative aspectsourhndsat he tordble sociometry,t mghthelpo tocus on the auatveaspet of the chemistry. Observe that xenon disproportionates, with concomitant production of the cemsty.Obsere tht xenon dspropotionate,wh concomtant prodcton o molecular oxygen. For tetravalent Xe to be oxidized to the hexavalent state, we need tooleculr oxveen.ror tetrvaent Xe to e oxidzed o te hexavalent ste. we need to have a lone pair on the Xe of onevea lone nar on the xe ot o $\mathrm { X e F _ { 4 } }$ attack a F on anotherr.artck aF on anot $\mathrm { X e F _ { 4 } }$ . Addition of axerAddnon ot $\mathrm { O H ^ { - } }$ should boost the nucleophilicity of the first xenon center, as shown below.ould boost he nuclophilcty ofthe nrst xenon center,as shown below
@@ -2333,7 +2333,7 @@ Organoxenon compounds involving tetravalent xenon are rare. Frohn and cowork-Ogo
 
 ![[ArrowPushinginInorganicChemistry_231-336_images/297509fbcf1fd792078c4fb8229413dbfa60d97f3c0bdb4ef9860e98078c0e10.jpg]]
 
-The yellow ionic product precipitated out dichloromethane but proved very solubleTeveoWonpoductpecptoutdchooehehtpovevesob in acetonitrile. In the solid state, it decomposed above iseonrle.thesolidse,itdeconposedsove $- 2 0 ^ { \circ } \mathrm { C }$ . Suggest a mechanism.Suggesamechns for this reaction. Also, using VSEPR arguments, comment on the structure of theforhs eaon.Aso.snVSEPR auens.ooentontesnctreoft ${ \mathrm { C } } _ { 6 } { \mathrm { F } } _ { 5 } { \mathrm { X e F } } _ { 2 } { ^ { + } }$ cation.ation
+The yellow ionic product precipitated out dichloromethane but proved very solubleTeveoWonpoductpecptoutdchooehehtpovevesob in acetonitrile. In the solid state, it decomposed above iseonrle.thesolidse,itdeconposedsove $- 20 ^ { \circ } \mathrm { C }$ . Suggest a mechanism.Suggesamechns for this reaction. Also, using VSEPR arguments, comment on the structure of theforhs eaon.Aso.snVSEPR auens.ooentontesnctreoft ${ \mathrm { C } } _ { 6 } { \mathrm { F } } _ { 5 } { \mathrm { X e F } } _ { 2 } { ^ { + } }$ cation.ation
 
 # 8.11 KRYPTON DIFLUORIDE.11 KRYPTON DIFLUORIDE
 
@@ -2347,13 +2347,13 @@ $$
 3 \mathrm {K r F} _ {2} + \mathrm {X e} \rightarrow \mathrm {X e F} _ {6} + 3 \mathrm {K r} \tag {8.57}
 $$
 
-AtAt6 $6 0 ^ { \circ } \mathrm { C }$ , the gold-containing salt decomposes to yield the molecular fluoridethe gold-containingsa dcomposes tovield the molecuhr fuori $\mathrm { A u } _ { 2 } \mathrm { F } _ { 1 0 }$ :
+AtAt6 $60 ^ { \circ } \mathrm { C }$ , the gold-containing salt decomposes to yield the molecular fluoridethe gold-containingsa dcomposes tovield the molecuhr fuori $\mathrm { A u } _ { 2 } \mathrm { F } _ { 10 }$ :
 
 $$
-2 \mathrm {K r F} ^ {+} \mathrm {A u F} _ {6} ^ {-} \rightarrow \mathrm {A u} _ {2} \mathrm {F} _ {1 0} + 2 \mathrm {K r} + 2 \mathrm {F} _ {2} \tag {8.58}
+2 \mathrm {K r F} ^ {+} \mathrm {A u F} _ {6} ^ {-} \rightarrow \mathrm {A u} _ {2} \mathrm {F} _ {10} + 2 \mathrm {K r} + 2 \mathrm {F} _ {2} \tag {8.58}
 $$
 
-The molecular structure ofhe molecular structure of $\mathrm { A u } _ { 2 } \mathrm { F } _ { 1 0 }$ is as follows:is as follows
+The molecular structure ofhe molecular structure of $\mathrm { A u } _ { 2 } \mathrm { F } _ { 10 }$ is as follows:is as follows
 
 ![[ArrowPushinginInorganicChemistry_231-336_images/62bf3ad3b4df1d89e62dc5dd1b4280220ae9109b113c87545995787ab99633f2.jpg]]
 
@@ -2377,7 +2377,7 @@ Suggest a mechanism for the above reaction leading touggest amecansm torthe aove
 
 # REVIEW PROBLEM 8.10
 
-Use of the teflate ligand permitted the synthesis of the first species containing aUs orne ee gnd pmed ne sness one nst speeesoonanng krypton–oxygen bond (Sanders, J. C. P.; Schrobilgen, G. J. J. Chem. Soc., Chem.kypo-oxygenond(sndes,CE:seobge,1Chen.so,Chem Comm. 1989, 1576–1578). The synthesis involved the interaction ofCo19s9,176-17s)esnessmvovememeaeoo $\mathrm { K r F } _ { 2 }$ and,a B $\mathrm { B } ( \mathrm { O T e F } _ { 5 } ) _ { 3 }$ at low temperature (−90 to lowtemperre(-9to-11 $- 1 1 2 ^ { \circ } \mathrm { C } )$ insO, $\mathrm { S O } _ { 2 } \mathrm { C l F }$ as solvent:solvent
+Use of the teflate ligand permitted the synthesis of the first species containing aUs orne ee gnd pmed ne sness one nst speeesoonanng krypton–oxygen bond (Sanders, J. C. P.; Schrobilgen, G. J. J. Chem. Soc., Chem.kypo-oxygenond(sndes,CE:seobge,1Chen.so,Chem Comm. 1989, 1576–1578). The synthesis involved the interaction ofCo19s9,176-17s)esnessmvovememeaeoo $\mathrm { K r F } _ { 2 }$ and,a B $\mathrm { B } ( \mathrm { O T e F } _ { 5 } ) _ { 3 }$ at low temperature (−90 to lowtemperre(-9to-11 $- 112 ^ { \circ } \mathrm { C } )$ insO, $\mathrm { S O } _ { 2 } \mathrm { C l F }$ as solvent:solvent
 
 $$
 3 \mathrm {K r F} _ {2} + 2 \mathrm {B} (\mathrm {O T e F} _ {5}) _ {3} \rightarrow 3 \mathrm {K r} (\mathrm {O T e F} _ {5}) _ {2} + 2 \mathrm {B F} _ {3}
@@ -2387,7 +2387,7 @@ Because of thermal instability, the product, krypton “diteflate,” could be s
 
 # 8.12 PLUS ULTRA.12 PLUS ULTRA
 
-In this final vignette, we’ll skip arrow pushing and attempt to present a broader perspectiventhis fnalvignete,we'1skiparow puing and atempttopesenta broader perspective of noble gas chemistry. Not long ago, Seidel and Seppelt at the Free University of Berlint noble gs chemsty.Not Iong ago,sede andseppeltattheFeeUnvesityot r treatedreate $\mathrm { A u F } _ { 3 }$ inF: $\mathrm { H F } / \mathrm { S b F } _ { 5 }$ with xenon, obtaining a dark red solution at  wthxenon,obtanngadrkredsoltona- $- 4 0 ^ { \circ } \mathrm { C }$ , which yieldedwhicylelded crystals ofyaakof [ $\mathrm { [ A u X e _ { 4 } ] ( S b _ { 2 } F _ { 1 1 } ) _ { 2 } }$ at 78" $\mathrm { - 7 8 ~ ^ { \circ } C }$ (see Further Reading for key references). The Furher Readingforkeyefeences).Th researchers’ intention was to obtain the simple but elusive compound AuF, using xenoneearcersntenton wastoobtan the snple but eusve compound Aurusing xeno as a very mild reducing agent. Instead, they ended up with the astounding cationic speciess avery mldreducng agent Insead,they endedup wh te asoundng catonic speces $\mathrm { [ A u X e _ { 4 } ] ^ { 2 + } }$ , made up of two of the most unreactive elements in the periodic table—gold anddeupoftwoorthemostunreactveekmentsintheperodctabk-goland xenon. Subsequently, the same research group synthesized other Au–Xe complexes suchenon.subsequeny,thesame reercgroupsyntheizedotherA-Xecomplexesue asss $\mathrm { [ A u X e _ { 2 } ] ^ { 2 + } }$ . Simple molecular orbital arguments do not appear to provide a rationale forSimplemoleculrobitalargumentsdonotappertoproideationalefo the stability of these species. More advanced theoretical studies suggest that their stabilitye sabtyot theespecie.Moe avancedtheoetcstude suggettht terstabt owes a great deal to relativistic effects, which are known to be important for gold.wes agreat deaItorelatvistic etects,whic are known o be importnt tor gold
+In this final vignette, we’ll skip arrow pushing and attempt to present a broader perspectiventhis fnalvignete,we'1skiparow puing and atempttopesenta broader perspective of noble gas chemistry. Not long ago, Seidel and Seppelt at the Free University of Berlint noble gs chemsty.Not Iong ago,sede andseppeltattheFeeUnvesityot r treatedreate $\mathrm { A u F } _ { 3 }$ inF: $\mathrm { H F } / \mathrm { S b F } _ { 5 }$ with xenon, obtaining a dark red solution at  wthxenon,obtanngadrkredsoltona- $- 40 ^ { \circ } \mathrm { C }$ , which yieldedwhicylelded crystals ofyaakof [ $\mathrm { [ A u X e _ { 4 } ] ( S b _ { 2 } F _ { 11 } ) _ { 2 } }$ at 78" $\mathrm { - 78 ~ ^ { \circ } C }$ (see Further Reading for key references). The Furher Readingforkeyefeences).Th researchers’ intention was to obtain the simple but elusive compound AuF, using xenoneearcersntenton wastoobtan the snple but eusve compound Aurusing xeno as a very mild reducing agent. Instead, they ended up with the astounding cationic speciess avery mldreducng agent Insead,they endedup wh te asoundng catonic speces $\mathrm { [ A u X e _ { 4 } ] ^ { 2 + } }$ , made up of two of the most unreactive elements in the periodic table—gold anddeupoftwoorthemostunreactveekmentsintheperodctabk-goland xenon. Subsequently, the same research group synthesized other Au–Xe complexes suchenon.subsequeny,thesame reercgroupsyntheizedotherA-Xecomplexesue asss $\mathrm { [ A u X e _ { 2 } ] ^ { 2 + } }$ . Simple molecular orbital arguments do not appear to provide a rationale forSimplemoleculrobitalargumentsdonotappertoproideationalefo the stability of these species. More advanced theoretical studies suggest that their stabilitye sabtyot theespecie.Moe avancedtheoetcstude suggettht terstabt owes a great deal to relativistic effects, which are known to be important for gold.wes agreat deaItorelatvistic etects,whic are known o be importnt tor gold
 
 This chemistry is a good reminder that arrow pushing “explains” a lot, particularly theschemsryisagood remndertht arrowpushngexplns"alot pticularyth “how” of chemical reactions, but not the “why.” Other concepts such as chemical bonding“how”ofcemicalrections,butnotthe“why”Oherconcep such schemiealbonding and thermodynamics therefore must not be ignored. The reaction is also an inspiration thatnd temodynmcs theretoremstnotetgnor.e reacton s asoannspton t truly fundamental discoveries are waiting to be made. The old motto Plus ultra (furtherry ndamental dscoveres re watng o e mde.Ie old motoPs ra(urhe beyond!) continues to be an appropriate one for inorganic chemistry.eyond?)contnues to be an appropnate one tor inorganic chemistry
 
@@ -2408,7 +2408,7 @@ The following are some of the highlights of what we discussed in this chapter.he
 2. Bartlett, N. Proc. Chem. Soc. 1962, 218. This paper has been reproduced in Figure 8.1.2.BatktNPc.ChemSc.1962.2187usPqerhasbeennpmedinFgr8
 
 3. Hargittai, I. “Neil Bartlett and the First Noble-Gas Compound,” Struct. Chem. 2009, 20, 953–959. A short, excellent account of the original discovery.A shart ercelent arcounfof he orrnaf dsoven   
-4. Seidel, S. Seppelt, K. “Xenon as a Complex Ligand: The Tetra Xenono Gold(II) Cation in.Seidl,5.Seppel,K.XenonsaComplaLigntTheTctaXaonoGdd(I)Ctioni $\mathrm { A u X e _ { 4 } } ^ { 2 + } ( \mathrm { S b } _ { 2 } \mathrm { F _ { 1 1 } } ^ { - } ) _ { 2 }$ ,” Science 2000, 290, 117–118.emceZuMu2yU 11F118   
+4. Seidel, S. Seppelt, K. “Xenon as a Complex Ligand: The Tetra Xenono Gold(II) Cation in.Seidl,5.Seppel,K.XenonsaComplaLigntTheTctaXaonoGdd(I)Ctioni $\mathrm { A u X e _ { 4 } } ^ { 2 + } ( \mathrm { S b } _ { 2 } \mathrm { F _ { 11 } } ^ { - } ) _ { 2 }$ ,” Science 2000, 290, 117–118.emceZuMu2yU 11F118   
 5. Hope, E. G. “Coordination Chemistry of the Noble Gases and Noble Gas Fluorides,” Coord. Chem..Hone.E.G^CoorintionCemisrvafheNobk CsesandNdleGsFuoids^Caont Chem Rev. 2012, 257, 902–909. A review focusing on Xe andRe2012257,902-909.AmievbcsngonX $X e F _ { 2 }$ as transition metal ligands.eFasrafom1dI8ad   
 6. Liebman, J. F.; Deakyne, C. A. “Noble Gas Compounds and Chemistry: A Brief Review of Interre-.Lebman1F:Desyme.CA-NotieCasCompomandCemsr:Ainet tvewotInere lations and Interactions with Fluorine-Containing Species,” J. Fluor. Chem. 2003, 121, 1–8. This16onsandnrtswihuorneCoang5pecs1FChe2003,1Z1,1-87 somewhat specialized review concludes with a poem in honor of Neil Bartlett. We quote four lines, which focus on the elements that we have largely ignored in this chapter: He, Ne, Ar and Rn:wpcsaeeemns awehe rsygnrdns chperHe.Ne,Arad0
 

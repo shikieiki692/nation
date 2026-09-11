@@ -81,7 +81,7 @@ $$
 上述反应平衡常数的计算，需结合 ${}^{1}$H NMR 谱对平衡体系中物种 $\beta$-氢谱峰的面积比测定：反应达平衡后，MPS 和 SPS 的 $\beta$-H 谱峰面积比为 1.00:1.00；而 MPS 和 SPS 分别有 2 个和 4 个 $\beta$-H，故 [MPS]/[SPS] = 2.00。又由于 SPS 的还原产物为 MPS，由物料守恒，有
 
 $$
-[ \mathrm{SPS} ] + \frac {[ \mathrm{MPS} ]}{2} = 1 0. 0 \mathrm{mmolL} ^ {- 1}
+[ \mathrm{SPS} ] + \frac {[ \mathrm{MPS} ]}{2} = 10.0 \mathrm{mmolL} ^ {- 1}
 $$
 
 可解得 $[SPS] = 5.00 \, mmol \, L^{-1}$ , $[MPS] = 10.0 \, mmol \, L^{-1}$ 。由反应的计量关系，可得另外两物种 ME 和 DE 的平衡浓度：
@@ -89,13 +89,13 @@ $$
 格外注意：SPS 是一个对称结构，很多粗心大意的同学误以为 SPS 只有 2 个 $\beta$ -H。
 
 $$
-\begin{array}{l} [ \mathrm{ME} ] = 2 0. 0 \mathrm{mmolL} ^ {- 1} - 2 \times 5. 0 \mathrm{mmolL} ^ {- 1} = 1 0. 0 \mathrm{mmolL} ^ {- 1} \\ [ \mathrm{DE} ] = 5. 0 \mathrm{mmolL} ^ {- 1} \\ \end{array}
+\begin{array}{l} [ \mathrm{ME} ] = 20.0 \mathrm{mmolL} ^ {- 1} - 2 \times 5.0 \mathrm{mmolL} ^ {- 1} = 10.0 \mathrm{mmolL} ^ {- 1} \\ [ \mathrm{DE} ] = 5.0 \mathrm{mmolL} ^ {- 1} \\ \end{array}
 $$
 
 故反应的平衡常数为
 
 $$
-K ^ {\ominus} = \frac {\left(\frac {[ \mathrm{DE} ]}{c ^ {\ominus}}\right) \left(\frac {[ \mathrm{MPS} ]}{c ^ {\ominus}}\right) ^ {2}}{\left(\frac {[ \mathrm{ME} ]}{c ^ {\ominus}}\right) ^ {2} \left(\frac {[ \mathrm{SPS} ]}{c ^ {\ominus}}\right)} = \frac {0 . 0 0 5 0 0 \times 0 . 0 1 0 0 ^ {2}}{0 . 0 1 0 0 ^ {2} \times 0 . 0 0 5 0 0} = 1. 0 0
+K ^ {\ominus} = \frac {\left(\frac {[ \mathrm{DE} ]}{c ^ {\ominus}}\right) \left(\frac {[ \mathrm{MPS} ]}{c ^ {\ominus}}\right) ^ {2}}{\left(\frac {[ \mathrm{ME} ]}{c ^ {\ominus}}\right) ^ {2} \left(\frac {[ \mathrm{SPS} ]}{c ^ {\ominus}}\right)} = \frac {0.00500 \times 0.0100 ^ {2}}{0.0100 ^ {2} \times 0.00500} = 1.00
 $$
 
 注意 $c^{\ominus}=1\ mol\ L^{-1}=$ 1000 mmol $L^{-1}$ 。
@@ -127,7 +127,7 @@ $$
 由于反应
 
 $$
-\mathrm{SPS} + 2 \mathrm{ME} \longrightarrow \mathrm{DE} + 2 \mathrm{MPS} \quad K ^ {\ominus} = 1. 0 0
+\mathrm{SPS} + 2 \mathrm{ME} \longrightarrow \mathrm{DE} + 2 \mathrm{MPS} \quad K ^ {\ominus} = 1.00
 $$
 
 是氧化还原反应，有平衡常数和反应的标准电动势之间的关系：
@@ -139,13 +139,13 @@ $$
 由 $K^{\ominus}=1.00$ 可以直接得到反应的标准电动势 $E^{\ominus}=0.00\ V$ 。反应中的两个电对标准电极电势之差即为反应的标准电动势，有
 
 $$
-E ^ {\ominus} = E ^ {\ominus} (\mathrm{SPS/MPS}) - E ^ {\ominus} (\mathrm{DE/ME}) = 0. 0 0 \mathrm{V}
+E ^ {\ominus} = E ^ {\ominus} (\mathrm{SPS/MPS}) - E ^ {\ominus} (\mathrm{DE/ME}) = 0.00 \mathrm{V}
 $$
 
 故
 
 $$
-E ^ {\ominus} (\mathrm{SPS/MPS}) = E ^ {\ominus} (\mathrm{DE/ME}) = 0. 1 5 3 \mathrm{V} = 0. 1 5 \mathrm{V}
+E ^ {\ominus} (\mathrm{SPS/MPS}) = E ^ {\ominus} (\mathrm{DE/ME}) = 0.153 \mathrm{V} = 0.15 \mathrm{V}
 $$
 
 有效数字不修约亦可。

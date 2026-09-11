@@ -7,7 +7,7 @@
 
 要求: 1）凡题目中要求书写反应方程式，须配平且系数为最简整数比。
 
-2）可能需要的常数：法拉第常数 $F = 9 . 6 4 8 5 \times 1 0 ^ { 4 } \mathrm { C } \mathrm { m o l } ^ { - 1 }$ ；气体普适常数 $R = 8 . 3 1 4 5 ~ \mathrm { J ~ K ^ { - 1 } ~ m o l ^ { - 1 } }$
+2）可能需要的常数：法拉第常数 $F = 9.6485 \times 10 ^ { 4 } \mathrm { C } \mathrm { m o l } ^ { - 1 }$ ；气体普适常数 $R = 8.3145 ~ \mathrm { J ~ K ^ { - 1 } ~ m o l ^ { - 1 } }$
 
 有机题目中可能用到的缩写：AIBN：偶氮二异丁腈；Ar：芳基；nBu：正丁基；tBu：叔丁基；cod：环辛二烯；DCM：二氯甲烷；dr：非对映异构体比例；Et：乙基；Ph：苯基；Ms：甲磺酰基；Me：甲基。
 
@@ -34,11 +34,11 @@
 
 # 第 1 题（6分）水样中锰含量的检测
 
-水源洁净事关人民的生命健康。重金属离子、微生物含量等多种指标是水质考察的重点，锰含量就是其中一项。我国生活饮用水卫生标准规定锰含量不得超过 $0 . 1 \mathrm { ~ m g ~ L ^ { - 1 } }$ 。锰含量常用分光光度法检测，实验过程如下：向水样中加入甲醛肟溶液，再加入适量氢氧化钠，放置 20 分钟，若水样中含锰(通常为$\mathrm { M n } ^ { 2 + }$ ，其配合物几乎无色)，会产生棕色配合物(锰离子与甲醛肟配比为 1:6），测量其吸光度。
+水源洁净事关人民的生命健康。重金属离子、微生物含量等多种指标是水质考察的重点，锰含量就是其中一项。我国生活饮用水卫生标准规定锰含量不得超过 $0.1 \mathrm { ~ m g ~ L ^ { - 1 } }$ 。锰含量常用分光光度法检测，实验过程如下：向水样中加入甲醛肟溶液，再加入适量氢氧化钠，放置 20 分钟，若水样中含锰(通常为$\mathrm { M n } ^ { 2 + }$ ，其配合物几乎无色)，会产生棕色配合物(锰离子与甲醛肟配比为 1:6），测量其吸光度。
 
 1-1 甲醛肟 $\mathsf { \Gamma } ( { \mathrm { C H } } _ { 2 } { \mathrm { N O H } } )$ 可以由盐酸羟胺与甲醛按 1:1在水溶液中制得，写出反应方程式。  
 1-2 写出棕色配合物形成的化学反应方程式。  
-1-3 利用此方法测定浓度为 $8 . 0 0 { \times } 1 0 ^ { - 5 } \mathrm { m o l \ L } ^ { - 1 }$ 的锰标液，比色皿宽 1 cm，吸光度为 0.880。从水源地取样，将 1 L 水样浓缩至 10 mL，若采用示差分光光度法，以 $1 . 6 0 { \times } 1 0 ^ { - 4 } ~ \mathrm { m o l ~ L } ^ { - 1 }$ 锰标液作参比，测得样品的吸光度为 0.200，计算水样中锰的含量，判断此水样是否合格。
+1-3 利用此方法测定浓度为 $8.00 { \times } 10 ^ { - 5 } \mathrm { m o l \ L } ^ { - 1 }$ 的锰标液，比色皿宽 1 cm，吸光度为 0.880。从水源地取样，将 1 L 水样浓缩至 10 mL，若采用示差分光光度法，以 $1.60 { \times } 10 ^ { - 4 } ~ \mathrm { m o l ~ L } ^ { - 1 }$ 锰标液作参比，测得样品的吸光度为 0.200，计算水样中锰的含量，判断此水样是否合格。
 
 <table><tr><td>1-1共1分</td><td> $\text{HCHO} + \text{NH}_2\text{OH HCl} \rightarrow \text{CH}_2\text{NOH} + \text{HCl} + \text{H}_2\text{O}$  (1分)</td></tr><tr><td>1-2共2分</td><td> $2\text{Mn}^{2+} + \text{O}_2 + 8\text{OH}^- + 12\text{CH}_2\text{NOH} \rightarrow 2[\text{Mn}(\text{CH}_2\text{NO})_6]^{2-} + 10\text{H}_2\text{O}$  (2分)</td></tr><tr><td>1-3共3分</td><td>根据朗伯比尔定律: $A_s = \varepsilon bc_s$ 有  $0.880 = \varepsilon \times 1\text{cm} \times 8.00 \times 10^{-5}\text{cm}^{-1} \quad \varepsilon = 1.10 \times 10^4\text{L mol}^{-1}\text{cm}^{-1}$  (0.5分)示差分光光度法中有: $\Delta A = \varepsilon b(c_x - c_s) = \varepsilon b\Delta c$  $\Delta c = \Delta A/\varepsilon b = 0.200/(1.10 \times 10^4 \times 1) = 1.82 \times 10^{-5}\text{mol L}^{-1}$  $c_x = c_s + \Delta c = (1.60 \times 10^{-4} + 1.82 \times 10^{-5})\text{mol L}^{-1} = 1.78 \times 10^{-4}\text{mol L}^{-1}$  $= 9.77 \times 10^{-3}\text{g/L}$  (1分)样品原浓度为: $9.77 \times 10^{-3} \times 10^3/10^2 = 9.77 \times 10^{-2}\text{(mg/L)}$  小于  $0.1\text{mg/L}$ ,水样合格答  $9.8 \times 10^{-2}\text{(mg/L)}$  亦可本题要求3位有效数据 (0.5分)</td></tr></table>
 
@@ -50,7 +50,7 @@ $$
 \mathrm{Pt}, \mathrm{H} _ {2} \left(p ^ {\mathrm{o}}\right) \mid \mathrm{H} _ {2} \mathrm{SO} _ {4} (\mathrm{aq}) \mid \mathrm{Au} _ {2} \mathrm{O} _ {3} (\mathrm{s}) \mid \mathrm{Au} (\mathrm{s})
 $$
 
-已知 $\Delta _ { f } G _ { \mathrm { m } } ^ { \mathrm { ~ o ~ } } ( \mathrm { H } _ { 2 } \mathrm { O } , \mathrm { g } ) = - 2 2 8 . 6 \mathrm { k J } \ : \mathrm { m o l } ^ { - 1 }$ ，该温度下水的饱和蒸气压为 3.167 kPa。
+已知 $\Delta _ { f } G _ { \mathrm { m } } ^ { \mathrm { ~ o ~ } } ( \mathrm { H } _ { 2 } \mathrm { O } , \mathrm { g } ) = - 228.6 \mathrm { k J } \ : \mathrm { m o l } ^ { - 1 }$ ，该温度下水的饱和蒸气压为 3.167 kPa。
 
 2-1 计算 298.2 K 时， $\mathrm { H } _ { 2 } \mathrm { O } ( \mathrm { l } ) = \mathrm { H } _ { 2 } \mathrm { O } ( \mathrm { g } )$ 相变过程的标准 Gibbs 能变 ${ \Delta _ { \mathrm { v } } G _ { \mathrm { m } } } ^ { \mathrm { ~ o ~ } } \mathrm { ~ c ~ }$ 。（单位：kJ $\mathrm { m o l } ^ { - 1 } )$ ）  
 2-2 计算 298.2 K 时，反应 $2 \mathrm { A u } _ { 2 } \mathrm { O } _ { 3 } = 4 \mathrm { A u } + 3 \mathrm { O } _ { 2 }$ 的标准 Gibbs 能变 ${ \Delta _ { \mathrm { r } } } { { G _ { \mathrm { m } } } ^ { \mathrm { ~ o ~ } } }$   
@@ -92,7 +92,7 @@ $$
 | 9  | -6.0              |
 </details>
 
-图 3.1 位 $^ { 3 1 } \mathrm { P }$ 的化学位移随 pH 的变化
+图 3.1 位 $^ { 31 } \mathrm { P }$ 的化学位移随 pH 的变化
 
 式中， $\chi _ { \mathrm { _ { H A } } ^ { 3 } }$ 和 $\chi _ { _ { \mathrm { A } ^ { 4 } } }$ 分别表示 $\mathrm { H A } ^ { 3 - }$ 和 $\mathsf { A } ^ { 4 ^ { - } }$ −的比例。
 
@@ -174,34 +174,34 @@ $$
 若采用 Fe(1)的变化处理，前（4）步一样，第(5)步开始，基于 Fe(1)的关系式：
 
 $$
-\begin{array}{l} - \frac {d \left(\chi_ {\mathrm{Fe} (1)}\right)}{d t} = 8. 2 2 \times k _ {- 1} \times \chi_ {\mathrm{Fe} (1)} - k _ {- 1} \times 0. 9 7 8 0 \times \left(0. 0 2 1 9 - \chi_ {\mathrm{Fe} (1)}\right) \tag {5} \\ = k _ {- 1} (9. 2 0 \chi_ {\mathrm{Fe(1)}} - 0. 0 2 1 4 2) \\ \end{array}
+\begin{array}{l} - \frac {d \left(\chi_ {\mathrm{Fe} (1)}\right)}{d t} = 8.22 \times k _ {- 1} \times \chi_ {\mathrm{Fe} (1)} - k _ {- 1} \times 0.9780 \times \left(0.0219 - \chi_ {\mathrm{Fe} (1)}\right) \tag {5} \\ = k _ {- 1} (9.20 \chi_ {\mathrm{Fe(1)}} - 0.02142) \\ \end{array}
 $$
 
 $$
-\ln (9. 2 0 \chi_ {\mathrm{Fe(1)}} - 0. 0 2 1 4 2) = - 9. 2 0 \times k _ {- 1} t + c \tag {6}
+\ln (9.20 \chi_ {\mathrm{Fe(1)}} - 0.02142) = - 9.20 \times k _ {- 1} t + c \tag {6}
 $$
 
-四组数据拟合，斜率为 $( - 1 . 3 9 \times 1 0 ^ { - 4 } )$ ）， $-$ 1 分
+四组数据拟合，斜率为 $( - 1.39 \times 10 ^ { - 4 } )$ ）， $-$ 1 分
 
 $$
-k _ {- 1} = 1. 5 1 \times 1 0 ^ {- 5} (\min ^ {- 1}) \quad 0. 5 \text {分}
+k _ {- 1} = 1.51 \times 10 ^ {- 5} (\min ^ {- 1}) \quad 0.5 \text {分}
 $$
 
 $$
-k _ {1} = 1. 2 7 \times 1 0 ^ {- 4} (\min ^ {- 1}) \quad 0. 5 \text {分}
+k _ {1} = 1.27 \times 10 ^ {- 4} (\min ^ {- 1}) \quad 0.5 \text {分}
 $$
 
-若两两组合，斜率最大为 $( - 2 . 4 7 \times 1 0 ^ { - 4 } )$ ），最小为 $( - 7 . 6 7 \times 1 0 ^ { - 5 } )$
+若两两组合，斜率最大为 $( - 2.47 \times 10 ^ { - 4 } )$ ），最小为 $( - 7.67 \times 10 ^ { - 5 } )$
 
-$k _ { 1 }$ 和 $k _ { - 1 }$ 的最大值： $k _ { - 1 } = 2 . 6 8 \times 1 0 ^ { - 5 } ( \mathrm { m i n } ^ { - 1 } ) ~ ; ~ k _ { 1 } = 2 . 2 5 \times 1 0 ^ { - 4 } ( \mathrm { m i n } ^ { - 1 } )$
+$k _ { 1 }$ 和 $k _ { - 1 }$ 的最大值： $k _ { - 1 } = 2.68 \times 10 ^ { - 5 } ( \mathrm { m i n } ^ { - 1 } ) ~ ; ~ k _ { 1 } = 2.25 \times 10 ^ { - 4 } ( \mathrm { m i n } ^ { - 1 } )$
 
-$k _ { 1 }$ 和 $k _ { - 1 }$ 的最小值： $k _ { - 1 } = 8 . 3 3 \times 1 0 ^ { - 6 } ( \mathrm { m i n } ^ { - 1 } ) ~ ; ~ k _ { 1 } = 7 . 0 1 \times 1 0 ^ { - 5 } ( \mathrm { m i n } ^ { - 1 } )$
+$k _ { 1 }$ 和 $k _ { - 1 }$ 的最小值： $k _ { - 1 } = 8.33 \times 10 ^ { - 6 } ( \mathrm { m i n } ^ { - 1 } ) ~ ; ~ k _ { 1 } = 7.01 \times 10 ^ { - 5 } ( \mathrm { m i n } ^ { - 1 } )$
 
 以上可以作为 $k _ { 1 }$ 和 $k _ { - 1 }$ 取值的区间参考，重在过程。
 
 # 第 5 题 (10 分) 密堆积结构的变换和组合
 
-碱土或稀土元素(A)和过渡金属(B)可以形成多种合金，广泛应用于催化、储氢等领域。图 5.1 给出某合金的理想结构沿不同方向的投影示意图，此结构属六方晶系，晶胞参数 $a = 5 4 0 . 9 \mathrm { p m } , c = 4 3 0 . 0 \mathrm { p m } .$ 。
+碱土或稀土元素(A)和过渡金属(B)可以形成多种合金，广泛应用于催化、储氢等领域。图 5.1 给出某合金的理想结构沿不同方向的投影示意图，此结构属六方晶系，晶胞参数 $a = 540.9 \mathrm { p m } , c = 430.0 \mathrm { p m } .$ 。
 
 ![[2022-36-CChO-juesai-grading-2_images/a4bd61a709075c0a15fa6e2a017617b5dadb769f6f1a5c76418b5c8939a9e582.jpg]]  
 图 5.1 某合金理想结构沿不同方向的投影示意图（其中，大球为 A 原子，小球为 B 原子，圆圈表示空位。）  
@@ -222,7 +222,7 @@ $k _ { 1 }$ 和 $k _ { - 1 }$ 的最小值： $k _ { - 1 } = 8 . 3 3 \times 1 0 
 
 # 第 6 题（9分）金属 M及其变化
 
-6-1 金属 M的硝酸盐与 1, 3, 5-均苯三甲酸（简写为 $\mathrm { H } _ { 3 } \mathrm { B T C }$ ，分子量为）按特定比例在乙二醇和水的混合体系中于 $1 8 0 ~ \mathrm { { } ^ { \circ } C }$ 下反应 12 小时，得到一种具有“孔笼—孔道”结构的金属有机骨架材料 Y，密度 $\rho =$ $0 . 9 6 \ \mathrm { g \ c m } ^ { - 3 }$ 。单晶 X射线衍射分析表明，Y 属于立方晶系，其三维骨架结构主体由 M和 $\left( \mathbf { B } \mathbf { T } \mathbf { C } \right) ^ { 3 - }$ −组成，呈电中性，结构中带有水分子。元素分析表明，Y 中含 M，C，O 和 H 四种元素，且 $\pmb { { \mathbb { M } } } \overset { \mapsto } { \to } \mathbf { C }$ 的原子比为$1 { : } 6 _ { \circ }$ 。热重-质谱联合分析结果显示，样品在 $1 0 0 { \sim } 2 0 0 \ \mathrm { ~ } ^ { \circ } \mathrm { C }$ 区间失重 8.21%，对应于化学式中 3 个水分子的脱除，而主体骨架结构依然保持；继续加热到 $3 5 0 ~ \mathrm { { ^ { \circ } C } }$ 失重 63.7 %，之后无明显失重，残渣为金属氧化物MO。通过计算确认 M 是何种金属，写出 Y 的化学式。  
+6-1 金属 M的硝酸盐与 1, 3, 5-均苯三甲酸（简写为 $\mathrm { H } _ { 3 } \mathrm { B T C }$ ，分子量为）按特定比例在乙二醇和水的混合体系中于 $180 ~ \mathrm { { } ^ { \circ } C }$ 下反应 12 小时，得到一种具有“孔笼—孔道”结构的金属有机骨架材料 Y，密度 $\rho =$ $0.96 \ \mathrm { g \ c m } ^ { - 3 }$ 。单晶 X射线衍射分析表明，Y 属于立方晶系，其三维骨架结构主体由 M和 $\left( \mathbf { B } \mathbf { T } \mathbf { C } \right) ^ { 3 - }$ −组成，呈电中性，结构中带有水分子。元素分析表明，Y 中含 M，C，O 和 H 四种元素，且 $\pmb { { \mathbb { M } } } \overset { \mapsto } { \to } \mathbf { C }$ 的原子比为$1 { : } 6 _ { \circ }$ 。热重-质谱联合分析结果显示，样品在 $100 { \sim } 200 \ \mathrm { ~ } ^ { \circ } \mathrm { C }$ 区间失重 8.21%，对应于化学式中 3 个水分子的脱除，而主体骨架结构依然保持；继续加热到 $350 ~ \mathrm { { ^ { \circ } C } }$ 失重 63.7 %，之后无明显失重，残渣为金属氧化物MO。通过计算确认 M 是何种金属，写出 Y 的化学式。  
 6-2 将金属M加入到足量的浓硫酸中，微热片刻即有黑色物质A生成，之后A逐渐转变为灰白色物质B。该灰白色物质用过量氨水充分处理，过滤后，向滤液中通入 $\mathrm { S O } _ { 2 }$ 至微酸性，生成白色沉淀 C（反应 1）。元素分析结果，N含量 8.65 %，S含量 19.6 %, H含量 2.49 %。测试分析发现，C的结构中负离子呈三角锥形，磁性测量显示抗磁性。C与足量 $\mathrm { H } _ { 2 } \mathrm { S O } _ { 4 }$ 混合并加热，可生成超细粉末态 M（反应 2）。
 
 6-2-1 写出 A, B, C 的化学式。
@@ -260,7 +260,7 @@ TIMENMes
 7-2-2 画出B中金属离子在配位场（假设为正多面体）作用下的 d 轨道电子排布。  
 7-2-3 写出 C 中阳离子的化学式及相应的 Feltham-Enemark 记号。
 
-7-3 最近，研究者报道了一个非血红素铁氧配合物 P，P 与 NO 反应得到配合物 Q，Q 在无水无氧条件下稳定，其中，FeNO 的键角为 $1 4 4 . 5 ^ { \mathrm { { \circ } } }$ ，且 NO键的键能比预期的小。
+7-3 最近，研究者报道了一个非血红素铁氧配合物 P，P 与 NO 反应得到配合物 Q，Q 在无水无氧条件下稳定，其中，FeNO 的键角为 $144.5 ^ { \mathrm { { \circ } } }$ ，且 NO键的键能比预期的小。
 
 ![[2022-36-CChO-juesai-grading-2_images/1c90d01351b5716535a61892487de3a4a3e00a1881dfc92bc90cd65191115409.jpg]]
 
@@ -276,7 +276,7 @@ Chemical reaction converting compound P to compound Q using NO, showing iron cen
 
 反应方程式——式中反应物不必写 Q，只需给出 Q 中与 ${ \bf N } _ { 2 } { \bf O }$ 放出对应的物种。
 
-7-3-4 配合物 P 与 $\mathrm { \bf O } _ { 2 }$ 于 $- 8 0 ~ ^ { \mathrm { { o } } } \mathrm { { C } }$ 反应得双核配合物 R，将 R的溶液加热至 $2 3 ~ \mathrm { { ^ \circ C } }$ 得 O原子桥联的双核铁配合物 $\mathbf { S } _ { \mathcal { O } }$ 。若在 ${ } ^ { - 1 9 6 } ^ { \mathrm { { \mathrm { { o } } } } } \mathrm { { C } }$ 下将 R的冷冻溶液光照，得到一单核铁配合物 T，T 能夺取三叔丁基苯酚上的羟基氢。写出配合物 R、S 和 T 的结构简式并给出标明中心离子的氧化态。（含 N 和含 O 鳌合配体分别用$\mathrm { L } _ { 1 }$ 和 $\mathrm { L } _ { 2 }$ 表示）
+7-3-4 配合物 P 与 $\mathrm { \bf O } _ { 2 }$ 于 $- 80 ~ ^ { \mathrm { { o } } } \mathrm { { C } }$ 反应得双核配合物 R，将 R的溶液加热至 $23 ~ \mathrm { { ^ \circ C } }$ 得 O原子桥联的双核铁配合物 $\mathbf { S } _ { \mathcal { O } }$ 。若在 ${ } ^ { - 196 } ^ { \mathrm { { \mathrm { { o } } } } } \mathrm { { C } }$ 下将 R的冷冻溶液光照，得到一单核铁配合物 T，T 能夺取三叔丁基苯酚上的羟基氢。写出配合物 R、S 和 T 的结构简式并给出标明中心离子的氧化态。（含 N 和含 O 鳌合配体分别用$\mathrm { L } _ { 1 }$ 和 $\mathrm { L } _ { 2 }$ 表示）
 
 <table><tr><td>7-1-1共2.5分</td><td colspan="3"> $(1σ)^{2}(2σ)^{2}(1π)^{4}(3σ)^{2}(2π)^{1}$  1分或  $(σ_{2s})^{2}(σ_{2s}^{*})^{2}(π_{2px}, π_{2py})^{4}(σ_{2pz})^{2}(π_{2px}^{*}, π_{2py}^{*})^{1}$  亦可鉴于(1π)和(3σ)轨道高低次序有不同说法,这两个次序不做要求。NO+、NO和NO-的键级分别为:3,2.5,2 各0.5分,共1.5分</td></tr><tr><td>7-1-2共2分</td><td>(c) $\{Fe(NO)_3\}^{10}$  1分</td><td colspan="2">(d) $\{CoNO\}^8$  1分</td></tr><tr><td>7-2-1共1分</td><td colspan="3"> $[Fe(TIMEN^{Mes})(CH_3CN)(NO)]^{3+}$  1分</td></tr><tr><td>7-2-2共1分</td><td colspan="3">— —  $e_g$ ↑↓ ↑↓ ↑↓ $t_{2g}$  1分 如果轨道未标  $(t_{2g})(e_g)$ ,图示意正确,只得0.5分或者写作: $(t_{2g})^{6}(e_g)^0$ </td></tr><tr><td>7-2-3共2分</td><td colspan="3"> $[Fe(TIMEN^{Mes})(NO)]^{2+}$  1分 $\{Fe(NO)\}^7$  1分</td></tr><tr><td>7-3-1共3分</td><td>P+2或II 1分</td><td colspan="2">Q+3或III 1分NO- 1分</td></tr><tr><td>7-3-2共1分</td><td colspan="3"> $\mathrm{NaNO_2 + FeSO_4 + 3H_2SO_4 \rightarrow NO + Fe(HSO_4)_3 + NaHSO_4 + H_2O}$  1分若写作  $2\mathrm{NaNO}_2 + 2\mathrm{FeSO}_4 + 2\mathrm{H}_2\mathrm{SO}_4 \rightarrow 2\mathrm{NO} + \mathrm{Fe}_2(\mathrm{SO}_4)_3 + \mathrm{Na}_2\mathrm{SO}_4 + 2\mathrm{H}_2\mathrm{O}$  亦可 $\mathrm{H}_2\mathrm{O}$  表示为与硫酸结合的方式,可以。</td></tr><tr><td>7-3-3共1分</td><td colspan="3"> $2\mathrm{NO}^{-} + \mathrm{H}_{2}\mathrm{O} \rightarrow \mathrm{N}_{2}\mathrm{O} + 2\mathrm{OH}^{-}$  1分若写作: $2[\mathrm{Fe}-\mathrm{NO}] + \mathrm{H}_{2}\mathrm{O} \rightarrow \mathrm{N}_{2}\mathrm{O} + 2[\mathrm{Fe}-\mathrm{OH}]$ 或  $2[\mathrm{Fe}(\mathrm{NO})\mathrm{L}_{1}\mathrm{L}_{2}] + \mathrm{H}_{2}\mathrm{O} \rightarrow \mathrm{N}_{2}\mathrm{O} + 2[\mathrm{Fe}(\mathrm{OH})\mathrm{L}_{1}\mathrm{L}_{2}]$  亦可</td></tr><tr><td rowspan="2">7-3-4共4.5分</td><td>RL1L2Fe-O-O-FeL1L2III</td><td>SL1L2Fe-O-FeL1L2III</td><td>TL1L2Fe=OV IV若写成自由基 $L_1L_2Fe-O\bullet$ ,III亦可</td></tr><tr><td colspan="3">以上R、S、T,化学式正确1分,氧化态正确0.5分,共4.5分</td></tr></table>
 
@@ -288,7 +288,7 @@ Chemical reaction converting compound P to compound Q using NO, showing iron cen
 
 实验二：该反应在没有 Cu(I)参与下，基本上不反应，原料完全回收。
 
-实验三：产物(Z)-2a 可以在没有 Cu(I)参与下，在 $1 0 0 ^ { \circ } \mathrm { C }$ 下转化为(E)-2a 和(E)-2b。然而，在同样条件下，(E)-2a 则保持不变，不会转化为(Z)-2a。
+实验三：产物(Z)-2a 可以在没有 Cu(I)参与下，在 $100 ^ { \circ } \mathrm { C }$ 下转化为(E)-2a 和(E)-2b。然而，在同样条件下，(E)-2a 则保持不变，不会转化为(Z)-2a。
 
 分析以上信息，回答相关问题：
 

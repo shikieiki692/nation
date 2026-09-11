@@ -728,7 +728,7 @@ In diimide the only reasonable structure has a double bond between the two nitro
 Bonding in the azide anion $N_{3}^{-}$ is identical with that in carbon dioxide: the two molecules are isoelectronic (count the electrons to make sure). The central nitrogen is sp hybridized and linear.
 
 $$
-\begin{array}{c c c c} \mathrm{H} _ {\sim 1 0 9 ^ {\circ}} \mathrm{O} - \mathrm{H} & \stackrel {{\mathrm{H}}} {{\sim 1 0 9 ^ {\circ}}} \stackrel {{\mathrm{C}}} {{\sim 1 2 0 ^ {\circ}}} \\ & \mathrm{N} = \mathrm{C} = \mathrm{O} \\ & \stackrel {{\mathrm{H}}} {{\sim 1 0 9 ^ {\circ}}} \stackrel {{\mathrm{N}}} {{\sim 1 2 0 ^ {\circ}}} \end{array} \quad \begin{array}{c c c c} \mathrm{H} _ {\sim 1 0 9 ^ {\circ}} \stackrel {{\mathrm{N}}} {{\sim 1 2 0 ^ {\circ}}} \stackrel {{\mathrm{H}}} {{\sim 1 2 0 ^ {\circ}}} \\ & \stackrel {{\mathrm{N} = \mathrm{N}}} {{\sim 1 2 0 ^ {\circ}}} [ \mathrm{N} = \mathrm{N} ] ^ {\ominus} \\ & \stackrel {{\mathrm{H}}} {{\sim 1 2 0 ^ {\circ}}} [ \mathrm{N} = \mathrm{N} ] ^ {\ominus} \end{array}
+\begin{array}{c c c c} \mathrm{H} _ {\sim 109 ^ {\circ}} \mathrm{O} - \mathrm{H} & \stackrel {{\mathrm{H}}} {{\sim 109 ^ {\circ}}} \stackrel {{\mathrm{C}}} {{\sim 120 ^ {\circ}}} \\ & \mathrm{N} = \mathrm{C} = \mathrm{O} \\ & \stackrel {{\mathrm{H}}} {{\sim 109 ^ {\circ}}} \stackrel {{\mathrm{N}}} {{\sim 120 ^ {\circ}}} \end{array} \quad \begin{array}{c c c c} \mathrm{H} _ {\sim 109 ^ {\circ}} \stackrel {{\mathrm{N}}} {{\sim 120 ^ {\circ}}} \stackrel {{\mathrm{H}}} {{\sim 120 ^ {\circ}}} \\ & \stackrel {{\mathrm{N} = \mathrm{N}}} {{\sim 120 ^ {\circ}}} [ \mathrm{N} = \mathrm{N} ] ^ {\ominus} \\ & \stackrel {{\mathrm{H}}} {{\sim 120 ^ {\circ}}} [ \mathrm{N} = \mathrm{N} ] ^ {\ominus} \end{array}
 $$
 
 ## PROBLEM 8

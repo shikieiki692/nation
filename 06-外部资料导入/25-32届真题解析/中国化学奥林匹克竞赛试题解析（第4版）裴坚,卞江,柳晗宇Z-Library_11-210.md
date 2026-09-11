@@ -136,7 +136,7 @@ $NO_{2}$ 和 $N_{2}O_{4}$ 混合气体的针管实验是高中化学的经典素
 A 能发生如下转化：
 
 $$
-\mathbf {A} + \mathrm{CH} _ {3} \mathrm{MgCl} \longrightarrow \xrightarrow {\mathrm{H} _ {2} \mathrm{O}} \mathbf {M} (\mathrm{C} _ {8} \mathrm{H} _ {1 2} \mathrm{O}) \xrightarrow [ \triangle ]{\text {浓硫酸}} \mathbf {N} (\mathrm{C} _ {8} \mathrm{H} _ {1 0})
+\mathbf {A} + \mathrm{CH} _ {3} \mathrm{MgCl} \longrightarrow \xrightarrow {\mathrm{H} _ {2} \mathrm{O}} \mathbf {M} (\mathrm{C} _ {8} \mathrm{H} _ {12} \mathrm{O}) \xrightarrow [ \triangle ]{\text {浓硫酸}} \mathbf {N} (\mathrm{C} _ {8} \mathrm{H} _ {10})
 $$
 
 生成物 N 分子中只有 3 种不同化学环境的氢, 它们的数目比为 1:1:3。
@@ -185,7 +185,7 @@ Vilsmeier 反应是在富电子芳环上引入甲酰基的有效方法。其过�
 
 1-1 本题考查同学们对化学基本常识的了解和掌握。同学们需要对一些基本的化学史内容有所了解：1898年居里夫妇先后发现了钋(Po)和镭(Ra)两种放射性元素。
 
-1-2 本题考查第一过渡系元素的元素性质，是一道很基础的题目。Ti是第四周期IVB族的元素，其价电子构型为 $3\mathrm{d}^2 4\mathrm{s}^2$ ，主要氧化数为 $+3$ 和 $+4$ 。Ti(Ⅲ)在水中呈紫色，而 $\mathrm{Ti(IV)}$ 为无色。很显然，“ $\mathrm{TiOSO_4}$ 水溶液中加入锌粒，反应后溶液变为紫色”，说明反应后 $+4$ 氧化数的钛离子被 $\mathbf{Zn}$ 还原成 $\mathrm{Ti}^{3 + }$ 。其反应方程式为
+1-2 本题考查第一过渡系元素的元素性质，是一道很基础的题目。Ti是第四周期IVB族的元素，其价电子构型为 $3\mathrm{d}^24\mathrm{s}^2$ ，主要氧化数为 $+3$ 和 $+4$ 。Ti(Ⅲ)在水中呈紫色，而 $\mathrm{Ti(IV)}$ 为无色。很显然，“ $\mathrm{TiOSO_4}$ 水溶液中加入锌粒，反应后溶液变为紫色”，说明反应后 $+4$ 氧化数的钛离子被 $\mathbf{Zn}$ 还原成 $\mathrm{Ti}^{3 + }$ 。其反应方程式为
 
 $$
 2 \mathrm{TiO} ^ {2 +} + \mathrm{Zn} + 4 \mathrm{H} ^ {+} = \mathrm{Zn} ^ {2 +} + 2 \mathrm{Ti} ^ {3 +} + 2 \mathrm{H} _ {2} \mathrm{O}
@@ -220,7 +220,7 @@ $\mathrm{Mg}$ 和 $\mathrm{Al}$ 的配合物以四配位为多。根据广义等
 ① $FeO_{4}^{2-}$ 在酸性条件下有很强的氧化性 $\left(\mathrm{FeO}_{4}^{2-}/\mathrm{Fe}^{3+}\right.$ 的标准电极电势是 2.20 V)，可以氧化 $H_{2}O$ ；而在碱性条件下 $FeO_{4}^{2-}$ 的氧化性呈现出惰性，其电极电势只有 0.72 V。题目中虽然没有明确给出 $Cl_{2}/Cl^{-}$ 的电极电势，但是同学们不难猜出 $Cl_{2}/Cl^{-}$ 的电极电势应该介于 0.72～2.20 V 之间。因此， $Cl_{2}$ 只能在碱性条件下氧化 $Fe^{3+}$ 生成高铁酸根离子。其离子方程式为
 
 $$
-2 \mathrm{Fe} ^ {3 +} + 3 \mathrm{Cl} _ {2} + 1 6 \mathrm{OH} ^ {-} = 2 \mathrm{FeO} _ {4} ^ {2 -} + 6 \mathrm{Cl} ^ {-} + 8 \mathrm{H} _ {2} \mathrm{O}
+2 \mathrm{Fe} ^ {3 +} + 3 \mathrm{Cl} _ {2} + 16 \mathrm{OH} ^ {-} = 2 \mathrm{FeO} _ {4} ^ {2 -} + 6 \mathrm{Cl} ^ {-} + 8 \mathrm{H} _ {2} \mathrm{O}
 $$
 
 ② 如①中的分析,高铁酸钾在酸性水溶液中会氧化水,生成氧气,而自身被还原为
@@ -228,7 +228,7 @@ $$
 $Fe^{3+}$ 。其离子方程式为
 
 $$
-4 \mathrm{FeO} _ {4} ^ {2 -} + 2 0 \mathrm{H} ^ {+} = 4 \mathrm{Fe} ^ {3 +} + 3 \mathrm{O} _ {2} + 1 0 \mathrm{H} _ {2} \mathrm{O}
+4 \mathrm{FeO} _ {4} ^ {2 -} + 20 \mathrm{H} ^ {+} = 4 \mathrm{Fe} ^ {3 +} + 3 \mathrm{O} _ {2} + 10 \mathrm{H} _ {2} \mathrm{O}
 $$
 
 ③ 本小题考查电极反应半反应式的书写，是一道基础题目。在碱性条件下 $\mathrm{FeO}_4^{2-}$ 还原成 $\mathrm{Fe(OH)}_3$ ， $\mathrm{Mg}$ 氧化成 $\mathrm{Mg(OH)}_2$ 。（在高中化学书中强调正极与负极反应得失电子数要一致，但是这在书写电极反应时不是必要的。）
@@ -288,7 +288,7 @@ $$
 综合上述所有过程的方程式可得
 
 $$
-2 \mathrm{CoCl} _ {2} + 1 0 \mathrm{NH} _ {3} + 2 \mathrm{NH} _ {4} \mathrm{Cl} + \mathrm{H} _ {2} \mathrm{O} _ {2} = 2 \mathrm{Co} (\mathrm{NH} _ {3}) _ {6} \mathrm{Cl} _ {3} + 2 \mathrm{H} _ {2} \mathrm{O}
+2 \mathrm{CoCl} _ {2} + 10 \mathrm{NH} _ {3} + 2 \mathrm{NH} _ {4} \mathrm{Cl} + \mathrm{H} _ {2} \mathrm{O} _ {2} = 2 \mathrm{Co} (\mathrm{NH} _ {3}) _ {6} \mathrm{Cl} _ {3} + 2 \mathrm{H} _ {2} \mathrm{O}
 $$
 
 ## 评注
@@ -320,7 +320,7 @@ $$
 解得 X 的相对原子质量为
 
 $$
-A _ {r} (X) = 6. 9
+A _ {r} (X) = 6.9
 $$
 
 由此可得 X 是 Li。所以 A 是 $LiNH_{2}$ ，B 是 LiH。
@@ -366,13 +366,13 @@ $$
 4-1 同学们通读题干后可以发现，整个分析过程是标准的间接碘量法，KI在第一步作为还原剂出现。为了写出溶解反应的方程式，确定反应物材料中金属离子的氧化数就非常重要。由题目易知， $\mathrm{Ba}^{2+}$ 与 $\mathrm{In}^{3+}$ 保持原来氧化数不变，而钴离子会由 $+3$ 或 $+4$ 价被还原为 $+2$ 价。所以滴定反应的产物为 $\mathrm{Ba}^{2+}$ 、 $\mathrm{In}^{3+}$ 、 $\mathrm{Co}^{2+}$ 和 $\mathrm{I}_2$ 。再根据电荷守恒和物料守恒，即可配平溶解反应方程式：
 
 $$
-\begin{array}{r l} & \mathrm{Baln} _ {0. 5 5} \mathrm{Co} _ {0. 4 5} \mathrm{O} _ {3 - \delta} + (1. 4 5 - 2 \delta) \mathrm{I} ^ {-} + (6 - 2 \delta) \mathrm{H} ^ {+} = \\ & \mathrm{Ba} ^ {2 +} + 0. 5 5 \mathrm{In} ^ {3 +} + 0. 4 5 \mathrm{Co} ^ {2 +} + (0. 7 2 5 - \delta) \mathrm{I} _ {2} + (3 - \delta) \mathrm{H} _ {2} \mathrm{O} \end{array}
+\begin{array}{r l} & \mathrm{Baln} _ {0.55} \mathrm{Co} _ {0.45} \mathrm{O} _ {3 - \delta} + (1.45 - 2 \delta) \mathrm{I} ^ {-} + (6 - 2 \delta) \mathrm{H} ^ {+} = \\ & \mathrm{Ba} ^ {2 +} + 0.55 \mathrm{In} ^ {3 +} + 0.45 \mathrm{Co} ^ {2 +} + (0.725 - \delta) \mathrm{I} _ {2} + (3 - \delta) \mathrm{H} _ {2} \mathrm{O} \end{array}
 $$
 
 由于 $\mathrm{I}_2$ 在水中的溶解度较小，所以 $\mathrm{I}_2$ 在水中的主要存在形式应该是 $\mathrm{I}_3^-$ 。所以同学们写出以下方程式也算对：
 
 $$
-\begin{array}{r l} & \mathrm {BaIn_ {0.55} Co_ {0.45} O_ {3- \delta}} + (2. 1 7 5 - 3 \delta) \mathrm{I} ^ {-} + (6 - 2 \delta) \mathrm{H} ^ {+} = \\ & \mathrm{Ba} ^ {2 +} + 0. 5 5 \mathrm{In} ^ {3 +} + 0. 4 5 \mathrm{Co} ^ {2 +} + (0. 7 2 5 - \delta) \mathrm{I} _ {3} ^ {-} + (3 - \delta) \mathrm{H} _ {2} \mathrm{O} \end{array}
+\begin{array}{r l} & \mathrm {BaIn_ {0.55} Co_ {0.45} O_ {3- \delta}} + (2.175 - 3 \delta) \mathrm{I} ^ {-} + (6 - 2 \delta) \mathrm{H} ^ {+} = \\ & \mathrm{Ba} ^ {2 +} + 0.55 \mathrm{In} ^ {3 +} + 0.45 \mathrm{Co} ^ {2 +} + (0.725 - \delta) \mathrm{I} _ {3} ^ {-} + (3 - \delta) \mathrm{H} _ {2} \mathrm{O} \end{array}
 $$
 
 4-2 间接碘量法的滴定反应因为其快速、定量等特点而被广为使用，是每一位初赛参赛者都必须熟练掌握的滴定方法，其离子方程式如下：
@@ -390,29 +390,29 @@ $$
 所以根据计量关系可以写出如下方程：
 
 $$
-\begin{array}{r l} n _ {\mathrm{S} _ {2} \mathrm{O} _ {3} ^ {2 -}} & = n _ {\mathrm{e}} = 2 \times n _ {\mathrm{I} _ {2}} \\ & = (0. 0 5 0 0 0 \times 1 0. 8 5 \times 1 0 ^ {- 3}) \mathrm{mol} \end{array}
+\begin{array}{r l} n _ {\mathrm{S} _ {2} \mathrm{O} _ {3} ^ {2 -}} & = n _ {\mathrm{e}} = 2 \times n _ {\mathrm{I} _ {2}} \\ & = (0.05000 \times 10.85 \times 10 ^ {- 3}) \mathrm{mol} \end{array}
 $$
 
 $$
-= 2 \times \frac {0 . 2 0 3 4}{1 3 7 . 3 + 0 . 5 5 \times 1 1 4 . 8 + 0 . 4 5 \times 5 8 . 9 3 + (3 - \delta) \times 1 6 . 0 0} \times \frac {1 . 4 5 - 2 \delta}{2} \mathrm{mol}
+= 2 \times \frac {0.2034}{137.3 + 0.55 \times 114.8 + 0.45 \times 58.93 + (3 - \delta) \times 16.00} \times \frac {1.45 - 2 \delta}{2} \mathrm{mol}
 $$
 
 解得
 
 $$
-\delta = 0. 3 7
+\delta = 0.37
 $$
 
 再根据化学式的电中性得
 
 $$
-2 + 0. 5 5 \times 3 + 0. 4 5 \times S _ {\mathrm{Co}} - (3 - 0. 3 7) \times 2 = 0
+2 + 0.55 \times 3 + 0.45 \times S _ {\mathrm{Co}} - (3 - 0.37) \times 2 = 0
 $$
 
 解得
 
 $$
-S _ {\mathrm{Co}} = 3. 5 8
+S _ {\mathrm{Co}} = 3.58
 $$
 
 ## 第5题
@@ -424,7 +424,7 @@ $$
 5-1 由循环图可知，A 的中心金属 Rh 有 16 个电子，而 B 有 14 个，说明 A→B 的过程中，Rh 失去了一个 2 电子配体。通过相对分子质量计算：
 
 $$
-M _ {\mathsf {A}} - M _ {\mathsf {B}} = 9 2 5. 2 3 - (1 0 2. 9 + 3 5. 4 5 + 2 \times 2 6 2. 2 7) = 2 6 2. 3 4 = M (\mathrm{PPh} _ {3})
+M _ {\mathsf {A}} - M _ {\mathsf {B}} = 925.23 - (102.9 + 35.45 + 2 \times 262.27) = 262.34 = M (\mathrm{PPh} _ {3})
 $$
 
 可知失去的 2 电子配体是 PPh $_{3}$ 。所以 A 的化学式为 Rh(PPh $_{3}$ ) $_{3}$ Cl。
@@ -460,7 +460,7 @@ $$
 首先同学们需要判断反应体系压力是否发生变化,即这是不是恒压反应,这对解题思路有很大的影响。从题目已知信息可知,体积和温度的变化都已经给定,说明压力必然发生变化,即本题不是恒压反应。设压缩前后反应转化率为 $\alpha_{1}$ 和 $\alpha_{2}$ , 压力为 $p_{1}$ 和 $p_{2}$ , 则
 
 $$
-\begin{array}{r l r l r l} & {\mathrm {N_ {2} O_ {4} (g)}} & {=} & {2 \mathrm {NO_ {2} (g)}} & {\text {总物质的量}} & {\text {平衡常数表达式}} \\ {2 9 8 \mathrm{K}} & {1 - \alpha_ {1}} & & {2 \alpha_ {1}} & {1 + \alpha_ {1}} & {K _ {p _ {1}} = \frac {[ 2 \alpha_ {1} / (1 + \alpha_ {1}) ] ^ {2}}{(1 - \alpha_ {1}) / (1 + \alpha_ {1})} \times \frac {p _ {1}}{p ^ {\ominus}}} \\ {3 1 1 \mathrm{K}} & {1 - \alpha_ {2}} & & {2 \alpha_ {2}} & {1 + \alpha_ {2}} & {K _ {p _ {2}} = \frac {[ 2 \alpha_ {2} / (1 + \alpha_ {2}) ] ^ {2}}{(1 - \alpha_ {2}) / (1 + \alpha_ {2})} \times \frac {p _ {2}}{p ^ {\ominus}}} \\ {\text {已知}} & & & & {p _ {1} = 1 \mathrm{atm}} & \end{array}\tag{①}
+\begin{array}{r l r l r l} & {\mathrm {N_ {2} O_ {4} (g)}} & {=} & {2 \mathrm {NO_ {2} (g)}} & {\text {总物质的量}} & {\text {平衡常数表达式}} \\ {298 \mathrm{K}} & {1 - \alpha_ {1}} & & {2 \alpha_ {1}} & {1 + \alpha_ {1}} & {K _ {p _ {1}} = \frac {[ 2 \alpha_ {1} / (1 + \alpha_ {1}) ] ^ {2}}{(1 - \alpha_ {1}) / (1 + \alpha_ {1})} \times \frac {p _ {1}}{p ^ {\ominus}}} \\ {311 \mathrm{K}} & {1 - \alpha_ {2}} & & {2 \alpha_ {2}} & {1 + \alpha_ {2}} & {K _ {p _ {2}} = \frac {[ 2 \alpha_ {2} / (1 + \alpha_ {2}) ] ^ {2}}{(1 - \alpha_ {2}) / (1 + \alpha_ {2})} \times \frac {p _ {2}}{p ^ {\ominus}}} \\ {\text {已知}} & & & & {p _ {1} = 1 \mathrm{atm}} & \end{array}\tag{①}
 $$
 
 ②
@@ -468,7 +468,7 @@ $$
 由①可推出
 
 $$
-\begin{array}{l} p _ {1} = 1 \text { atm } \\ \alpha_ {1} = 0. 1 8 5 \end{array}
+\begin{array}{l} p _ {1} = 1 \text { atm } \\ \alpha_ {1} = 0.185 \end{array}
 $$
 
 根据压缩前后两种状态的理想气体状态方程可知
@@ -486,11 +486,11 @@ $$
 以上两式联立,可解出
 
 $$
-\alpha_ {2} = 0. 2 0 3
+\alpha_ {2} = 0.203
 $$
 
 $$
-\begin{array}{r l} & p _ {2} = 2. 1 2 0 \mathrm{atm} \\ & \therefore p _ {\mathrm{NO} _ {2}, 1} = \frac {2 \alpha_ {1}}{1 + \alpha_ {1}} \cdot p _ {1} = 0. 3 1 2 \mathrm{atm} \\ & p _ {\mathrm{NO} _ {2}, 2} = \frac {2 \alpha_ {2}}{1 + \alpha_ {2}} \cdot p _ {2} = 0. 7 1 4 \mathrm{atm} \\ & \therefore \frac {c _ {\mathrm{NO} _ {2} , 2}}{c _ {\mathrm{NO} _ {2} , 1}} = \frac {p _ {\mathrm{NO} _ {2} , 2}}{p _ {\mathrm{NO} _ {2} , 1}} \cdot \frac {T _ {1}}{T _ {2}} = 2. 1 9 \end{array}
+\begin{array}{r l} & p _ {2} = 2.120 \mathrm{atm} \\ & \therefore p _ {\mathrm{NO} _ {2}, 1} = \frac {2 \alpha_ {1}}{1 + \alpha_ {1}} \cdot p _ {1} = 0.312 \mathrm{atm} \\ & p _ {\mathrm{NO} _ {2}, 2} = \frac {2 \alpha_ {2}}{1 + \alpha_ {2}} \cdot p _ {2} = 0.714 \mathrm{atm} \\ & \therefore \frac {c _ {\mathrm{NO} _ {2} , 2}}{c _ {\mathrm{NO} _ {2} , 1}} = \frac {p _ {\mathrm{NO} _ {2} , 2}}{p _ {\mathrm{NO} _ {2} , 1}} \cdot \frac {T _ {1}}{T _ {2}} = 2.19 \end{array}
 $$
 
 所以浓度增加了 1.19 倍。
@@ -535,7 +535,7 @@ $$
 8-1 本题考查不饱和度公式的计算。有机分子不饱和度公式为
 
 $$
-\text { 不饱和度 } = \text { 碳数 } + 1 - 0. 5 \times \text { 氢数 }
+\text { 不饱和度 } = \text { 碳数 } + 1 - 0.5 \times \text { 氢数 }
 $$
 
 如果分子中含有卤素，则把卤素原子当成氢原子计算；如果分子中含有N，则计算氢数时还需减去N的数量；如果分子中含有氧，在计算不饱和度时可直接忽略。另一种计算不饱和度的方法是计数：双键不饱和度+1，叁键+2，环数+1。
@@ -835,7 +835,7 @@ $$
 (1)
 
 $$
-E _ {\mathrm{a}} (1) = 3 5 1 \mathrm{kJ} \mathrm{mol} ^ {- 1}
+E _ {\mathrm{a}} (1) = 351 \mathrm{kJ} \mathrm{mol} ^ {- 1}
 $$
 
 $$
@@ -845,7 +845,7 @@ $$
 (2)
 
 $$
-E _ {\mathrm{a}} (2) = 4 2 \mathrm{kJ} \mathrm{mol} ^ {- 1}
+E _ {\mathrm{a}} (2) = 42 \mathrm{kJ} \mathrm{mol} ^ {- 1}
 $$
 
 $$
@@ -855,7 +855,7 @@ $$
 (3)
 
 $$
-E _ {\mathrm{a}} (3) = 6 3 \mathrm{kJ} \mathrm{mol} ^ {- 1}
+E _ {\mathrm{a}} (3) = 63 \mathrm{kJ} \mathrm{mol} ^ {- 1}
 $$
 
 $$
@@ -865,7 +865,7 @@ $$
 (4)
 
 $$
-E _ {\mathrm{a}} (4) = 2 0 0 \mathrm{kJ} \mathrm{mol} ^ {- 1}
+E _ {\mathrm{a}} (4) = 200 \mathrm{kJ} \mathrm{mol} ^ {- 1}
 $$
 
 $$
@@ -873,7 +873,7 @@ $$
 $$
 
 $$
-E _ {\mathrm{a}} (5) = 2 1 \mathrm{kJ} \mathrm{mol} ^ {- 1}
+E _ {\mathrm{a}} (5) = 21 \mathrm{kJ} \mathrm{mol} ^ {- 1}
 $$
 
 5-1 上述历程是根据两个平行反应而提出的,请写出反应方程式。
@@ -1036,7 +1036,7 @@ $$
 然后给 n 赋值, 令 n 为有意义的 D—O 比例, 观察能否找到有意义的 x:
 
 $$
-\begin{array}{l l l} {\text {若} n = 1 / 2} & {x = 6 9. 1} & {\mathbf {M} \text {为} \mathrm{Ga}, \text {氧化物无氧化性}, \text {不合题意}} \\ {\text {若} n = 1} & {x = 1 3 8. 1} & {\mathbf {M} \text {为} \mathrm{La} \text {系}, \text {非主族金属}, \text {不合题意}} \\ {\text {若} n = 4 / 3} & {x = 1 8 4. 2} & {\mathbf {M} \text {为} \mathrm{W}, \text {非主族金属}, \text {不合题意}} \\ {\text {若} n = 3 / 2} & {x = 2 0 7. 2} & {\mathbf {M} \text {为} \mathrm{Pb}, \text {主族金属}} \end{array}
+\begin{array}{l l l} {\text {若} n = 1 / 2} & {x = 69.1} & {\mathbf {M} \text {为} \mathrm{Ga}, \text {氧化物无氧化性}, \text {不合题意}} \\ {\text {若} n = 1} & {x = 138.1} & {\mathbf {M} \text {为} \mathrm{La} \text {系}, \text {非主族金属}, \text {不合题意}} \\ {\text {若} n = 4 / 3} & {x = 184.2} & {\mathbf {M} \text {为} \mathrm{W}, \text {非主族金属}, \text {不合题意}} \\ {\text {若} n = 3 / 2} & {x = 207.2} & {\mathbf {M} \text {为} \mathrm{Pb}, \text {主族金属}} \end{array}
 $$
 
 所以，D 为 $Pb_{2}O_{3}$ ，M 为 Pb。
@@ -1046,7 +1046,7 @@ $$
 4.004 g CaCO $_{3}$ 沉淀的物质的量为
 
 $$
-\frac {4 . 0 0 4 \mathrm{g}}{1 0 0 . 1 \mathrm{g} \mathrm{mol} ^ {- 1}} = 0. 0 4 0 0 0 \mathrm{mol}
+\frac {4.004 \mathrm{g}}{100.1 \mathrm{g} \mathrm{mol} ^ {- 1}} = 0.04000 \mathrm{mol}
 $$
 
 则反应的 $H_{2}C_{2}O_{4}$ 的物质的量为 0.02000 mol。
@@ -1058,7 +1058,7 @@ $$
 由反应式可知：
 
 $$
-\begin{array}{r l} & {\mathrm {PbO_ {2}} \text {的物质的量为} 0. 0 2 0 0 0 \mathrm{mol}} \\ & {\mathrm {PbO_ {2}} \text {的质量为} [ (2 0 7. 2 + 3 2) \times 0. 0 2 0 0 0 ] \mathrm{g} = 4. 7 8 4 \mathrm{g}} \\ & {\text {化合物} \mathbf {A} \text {中} \mathrm{PbO} \text {的质量为} (1 3. 7 1 2 - 4. 7 8 4) \mathrm{g} = 8. 9 2 8 \mathrm{g}} \\ & {\mathrm{PbO} \text {的物质的量为} (8. 9 2 8 / 2 2 3. 2) \mathrm{mol} = 0. 0 4 0 0 0 \mathrm{mol}} \\ & {\text {所以} n (\mathrm{PbO}) / n (\mathrm {PbO_ {2}}) = 2} \end{array}
+\begin{array}{r l} & {\mathrm {PbO_ {2}} \text {的物质的量为} 0.02000 \mathrm{mol}} \\ & {\mathrm {PbO_ {2}} \text {的质量为} [ (207.2 + 32) \times 0.02000 ] \mathrm{g} = 4.784 \mathrm{g}} \\ & {\text {化合物} \mathbf {A} \text {中} \mathrm{PbO} \text {的质量为} (13.712 - 4.784) \mathrm{g} = 8.928 \mathrm{g}} \\ & {\mathrm{PbO} \text {的物质的量为} (8.928 / 223.2) \mathrm{mol} = 0.04000 \mathrm{mol}} \\ & {\text {所以} n (\mathrm{PbO}) / n (\mathrm {PbO_ {2}}) = 2} \end{array}
 $$
 
 即化合物 A 为 $2PbO \cdot PbO_{2}$ 或 $Pb_{3}O_{4}$ 。
@@ -1092,17 +1092,17 @@ $$
 3-1 本题要求计算 $K_{c}$ 以及充入 $N_{2}$ 后的 $Q_{c}$ ，并判断反应的移动方向。可以按照最基本的化学平衡计算的方法进行计算：
 
 $$
-\begin{array}{r l}&\mathrm {N_ {2} (g) + 3H_ {2} (g)\rightleftharpoons 2NH_ {3} (g)}\\K _ {c} = \frac {[ \mathrm {NH_ {3}} ] ^ {2}}{[ \mathrm {N_ {2}} ] [ \mathrm {H_ {2}} ] ^ {3}} = \frac {(0 . 7 5 \mathrm{molL} ^ {- 1}) ^ {2}}{(0 . 1 1 \mathrm{molL} ^ {- 1}) (0 . 1 4 \mathrm{molL} ^ {- 1}) ^ {3}} = 1. 9 \times 1 0 ^ {3} (\mathrm{molL} ^ {- 1}) ^ {- 2}\end{array}
+\begin{array}{r l}&\mathrm {N_ {2} (g) + 3H_ {2} (g)\rightleftharpoons 2NH_ {3} (g)}\\K _ {c} = \frac {[ \mathrm {NH_ {3}} ] ^ {2}}{[ \mathrm {N_ {2}} ] [ \mathrm {H_ {2}} ] ^ {3}} = \frac {(0.75 \mathrm{molL} ^ {- 1}) ^ {2}}{(0.11 \mathrm{molL} ^ {- 1}) (0.14 \mathrm{molL} ^ {- 1}) ^ {3}} = 1.9 \times 10 ^ {3} (\mathrm{molL} ^ {- 1}) ^ {- 2}\end{array}
 $$
 
 加入 $4.0 \, mol \, N_{2}$ 后，体积变化到原体积的 5.0 倍，则
 
 $$
-\begin{array}{r l r l r l}&\mathrm {N_ {2} (g)}&+&3 \mathrm {H_ {2} (g)}&\rightleftharpoons&2 \mathrm {NH_ {3} (g)}\\n / \mathrm{mol}&4. 1 1&&0. 1 4&&0. 7 5\\c / (\mathrm{mol} \mathrm{L} ^ {- 1})&4. 1 1 / 5&&0. 1 4 / 5&&0. 7 5 / 5\end{array}
+\begin{array}{r l r l r l}&\mathrm {N_ {2} (g)}&+&3 \mathrm {H_ {2} (g)}&\rightleftharpoons&2 \mathrm {NH_ {3} (g)}\\n / \mathrm{mol}&4.11&&0.14&&0.75\\c / (\mathrm{mol} \mathrm{L} ^ {- 1})&4.11 / 5&&0.14 / 5&&0.75 / 5\end{array}
 $$
 
 $$
-Q _ {c} = \frac {\left[ \mathrm{NH} _ {3} \right] ^ {2}}{\left[ \mathrm{N} _ {2} \right] \left[ \mathrm{H} _ {2} \right] ^ {3}} = \frac {(0 . 1 5 \mathrm{molL} ^ {- 1}) ^ {2}}{(0 . 8 2 2 \mathrm{molL} ^ {- 1}) (0 . 0 2 8 \mathrm{molL} ^ {- 1}) ^ {3}} = 1. 2 \times 1 0 ^ {3} (\mathrm{molL} ^ {- 1}) ^ {- 2}
+Q _ {c} = \frac {\left[ \mathrm{NH} _ {3} \right] ^ {2}}{\left[ \mathrm{N} _ {2} \right] \left[ \mathrm{H} _ {2} \right] ^ {3}} = \frac {(0.15 \mathrm{molL} ^ {- 1}) ^ {2}}{(0.822 \mathrm{molL} ^ {- 1}) (0.028 \mathrm{molL} ^ {- 1}) ^ {3}} = 1.2 \times 10 ^ {3} (\mathrm{molL} ^ {- 1}) ^ {- 2}
 $$
 
 $Q_{c}<K_{c}$ ，反应向右移动。
@@ -1148,13 +1148,13 @@ $$
 比如(e)有两种顶点,分别是四边形、六边形、十边形,六边形、六边形、十边形。按照上述规律,两个顶点分别写成4.6.10和 $6^{2}$ .10,再排序,4<6,第一个写在前面,故为(4.6.10) $(6^{2}.10)$ 。按照这个叙述写出剩余几个图形的表示即可,只要注意不读错图即可:
 
 $$
-(f) (4. 6. 1 2) \quad (g) (4. 6. 8) (4. 8. 1 2) \quad (h) (4. 5. 8) (4. 5. 1 2) (5 ^ {2}. 1 2) (5. 8. 1 2)
+(f) (4.6.12) \quad (g) (4.6.8) (4.8.12) \quad (h) (4.5.8) (4.5.12) (5 ^ {2}. 12) (5.8.12)
 $$
 
 4-2 本题是笼状结构的表示,需要写出每种多边形的个数。由给出的(b)的表示可以看出,并不是所有同一种多边形都等同,需要考虑空间上的关系。写出空间上等同的每种多边形的个数,按多边形边数从小到大排列,边数相同的按其个数从少到多排列,比如(d)中共有六个四边形和四个六边形,四个六边形都等同而四边形不全等同,和两个六边形相接的有两个,和三个六边形相接的有四个,故写做 $4^{2}.4^{4}.6^{4}$ 。同样,按照这种分析写出剩余几种即可:
 
 $$
-(c) 4 ^ {3}. 5 ^ {6} \quad (e) 5 ^ {1 2}. 6 ^ {2} \quad (f) 4 ^ {6}. 6 ^ {1 2} \quad (g) 4 ^ {6}. 6 ^ {2}. 6 ^ {3}. 6 ^ {6} \quad (h) 4 ^ {6}. 4 ^ {6}. 6 ^ {2}. 8 ^ {6}
+(c) 4 ^ {3}. 5 ^ {6} \quad (e) 5 ^ {12}. 6 ^ {2} \quad (f) 4 ^ {6}. 6 ^ {12} \quad (g) 4 ^ {6}. 6 ^ {2}. 6 ^ {3}. 6 ^ {6} \quad (h) 4 ^ {6}. 4 ^ {6}. 6 ^ {2}. 8 ^ {6}
 $$
 
 4-3 本题是将笼状结构以平面图画出来，题干中已经较为清楚地给出了绘图的方式：将最上一层放在平面图的最内圈，下一层放在次内圈，以此类推，直到最底层放在平面图的最外圈。图中各原子之间的连接关系、各种环及其位置当然要与笼状结构中保持一致。在给出了例子的情况下，这种画图方式应该是比较容易理解的。画图时，先将最内圈和最外圈对应顶点依次连接，然后保证四边形、六边形和八边形出现顺序与原图一致，添上横线即可，则很容易画出：
@@ -1198,7 +1198,7 @@ $$
 这个表达形式不够简略,而且并没有用上所给的提示。题干中所述可忽略各基元反应指前因子的影响应表明,可根据活化能的数值直接估计各基元反应速率的相对大小,故
 
 $$
-\begin{array}{r l} \frac {k _ {3} k _ {4}}{k _ {1} k _ {5}} & \approx \exp \left(- \frac {E _ {3} + E _ {4} - E _ {1} - E _ {5}}{R T}\right) \approx 4. 9 \times 1 0 ^ {5} \gg 1 \\ & [ \mathrm{CH} _ {3} \bullet ] \approx \sqrt {\frac {k _ {1} k _ {4}}{k _ {3} k _ {5}}} \end{array}
+\begin{array}{r l} \frac {k _ {3} k _ {4}}{k _ {1} k _ {5}} & \approx \exp \left(- \frac {E _ {3} + E _ {4} - E _ {1} - E _ {5}}{R T}\right) \approx 4.9 \times 10 ^ {5} \gg 1 \\ & [ \mathrm{CH} _ {3} \bullet ] \approx \sqrt {\frac {k _ {1} k _ {4}}{k _ {3} k _ {5}}} \end{array}
 $$
 
 以丙酮的消耗速率表示总反应速率，且丙酮的消耗以反应(3)为主，得
@@ -1210,13 +1210,13 @@ $$
 5-3 然后可以根据 Arrhenius 方程计算表观活化能：
 
 $$
-\begin{array}{r l} E _ {\mathrm{a}} & = \frac {1}{2} \left[ E _ {\mathrm{a}} (1) + E _ {\mathrm{a}} (3) + E _ {\mathrm{a}} (4) - E _ {\mathrm{a}} (5) \right] \\ & = \frac {1}{2} (3 5 1 \mathrm{kJmol} ^ {- 1} + 6 3 \mathrm{kJmol} ^ {- 1} + 2 0 0 \mathrm{kJmol} ^ {- 1} - 2 1 \mathrm{kJmol} ^ {- 1}) = 2 9 6 \mathrm{kJmol} ^ {- 1} \end{array}
+\begin{array}{r l} E _ {\mathrm{a}} & = \frac {1}{2} \left[ E _ {\mathrm{a}} (1) + E _ {\mathrm{a}} (3) + E _ {\mathrm{a}} (4) - E _ {\mathrm{a}} (5) \right] \\ & = \frac {1}{2} (351 \mathrm{kJmol} ^ {- 1} + 63 \mathrm{kJmol} ^ {- 1} + 200 \mathrm{kJmol} ^ {- 1} - 21 \mathrm{kJmol} ^ {- 1}) = 296 \mathrm{kJmol} ^ {- 1} \end{array}
 $$
 
 5-4 实际上是一道非常简单的热力学计算题,思路非常直接,直接将题目所给数据代入计算即可。
 
 $$
-\begin{array}{r l} & {\Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus} = - 1 1 0. 5 \mathrm {kJ mol^ {- 1}} - (- 7 4. 4 \mathrm {kJ mol^ {- 1}}) - (- 2 4 1. 8 \mathrm {kJ mol^ {- 1}}) = 2 0 5. 7 \mathrm {kJ mol^ {- 1}}} \\ & {\Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus} = (1 9 7. 7 + 3 \times 1 3 0. 7 - 1 8 6. 3 - 1 8 8. 8) \mathrm {J mol^ {- 1} K^ {- 1}} = 2 1 4. 7 \mathrm {J mol^ {- 1} K^ {- 1}}} \\ & {\Delta_ {\mathrm{r}} G _ {\mathrm{m}} ^ {\ominus} = \Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus} - T \Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus} = 2 0 5. 7 \mathrm {kJ mol^ {- 1}} - 2 9 8 \mathrm {K\times214.7\times10^ {-3} kJ mol^ {- 1} K^ {- 1}}} \\ & {\quad = 1 4 1. 7 \mathrm {kJ mol^ {- 1}}} \\ & {K ^ {\ominus} = \exp \left(- \frac {\Delta_ {\mathrm{r}} G _ {\mathrm{m}} ^ {\ominus}}{R T}\right) = \exp \left(- \frac {1 4 1 . 7 \mathrm {kJ mol^ {- 1}}}{8 . 3 1 4 \times 1 0 ^ {- 3} \mathrm {kJ mol^ {- 1} K^ {- 1} \times298 K}}\right) = 1. 4 5 0 \times 1 0 ^ {- 2 5}} \\ & {K ^ {\ominus} = \exp \left(- \frac {\Delta_ {\mathrm{r}} G _ {\mathrm{m}} ^ {\ominus}}{R T}\right) = \exp \left(- \frac {\Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus}}{R T} + \frac {\Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus}}{R}\right)} \end{array}
+\begin{array}{r l} & {\Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus} = - 110.5 \mathrm {kJ mol^ {- 1}} - (- 74.4 \mathrm {kJ mol^ {- 1}}) - (- 241.8 \mathrm {kJ mol^ {- 1}}) = 205.7 \mathrm {kJ mol^ {- 1}}} \\ & {\Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus} = (197.7 + 3 \times 130.7 - 186.3 - 188.8) \mathrm {J mol^ {- 1} K^ {- 1}} = 214.7 \mathrm {J mol^ {- 1} K^ {- 1}}} \\ & {\Delta_ {\mathrm{r}} G _ {\mathrm{m}} ^ {\ominus} = \Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus} - T \Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus} = 205.7 \mathrm {kJ mol^ {- 1}} - 298 \mathrm {K\times214.7\times10^ {-3} kJ mol^ {- 1} K^ {- 1}}} \\ & {\quad = 141.7 \mathrm {kJ mol^ {- 1}}} \\ & {K ^ {\ominus} = \exp \left(- \frac {\Delta_ {\mathrm{r}} G _ {\mathrm{m}} ^ {\ominus}}{R T}\right) = \exp \left(- \frac {141.7 \mathrm {kJ mol^ {- 1}}}{8.314 \times 10 ^ {- 3} \mathrm {kJ mol^ {- 1} K^ {- 1} \times298 K}}\right) = 1.450 \times 10 ^ {- 25}} \\ & {K ^ {\ominus} = \exp \left(- \frac {\Delta_ {\mathrm{r}} G _ {\mathrm{m}} ^ {\ominus}}{R T}\right) = \exp \left(- \frac {\Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus}}{R T} + \frac {\Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus}}{R}\right)} \end{array}
 $$
 
 因此 $K^{\ominus}$ 将随着温度的上升而增大。
@@ -1230,7 +1230,7 @@ $$
 首先可以由酸碱滴定的数据求两种酸总物质的量：
 
 $$
-\begin{array}{r l} & n = n (\mathrm{HCOOH}) + n (\mathrm{HAc}) = c (\mathrm{NaOH}) \cdot V (\mathrm{NaOH}) \\ & = 0. 1 0 0 0 \mathrm{molL} ^ {- 1} \times 2 5. 0 0 \times 1 0 ^ {- 3} \mathrm{L} \\ & = 2. 5 0 0 \times 1 0 ^ {- 3} \mathrm{mol} \end{array}
+\begin{array}{r l} & n = n (\mathrm{HCOOH}) + n (\mathrm{HAc}) = c (\mathrm{NaOH}) \cdot V (\mathrm{NaOH}) \\ & = 0.1000 \mathrm{molL} ^ {- 1} \times 25.00 \times 10 ^ {- 3} \mathrm{L} \\ & = 2.500 \times 10 ^ {- 3} \mathrm{mol} \end{array}
 $$
 
 然后可以根据氧化还原滴定数据计算分别的浓度，在碱性条件下高锰酸钾氧化甲酸的反应如下：
@@ -1262,19 +1262,19 @@ $$
 前后加入的共 74.00 mL 0.02500 mol L $^{-1}$ KMnO $_{4}$ 溶液最后均被还原至二价锰，而还原剂为 40.00 mL 0.2000 mol L $^{-1}$ Fe $^{2+}$ 标准溶液和 20.00 mL 待测溶液。
 
 $$
-\begin{array}{r l} n (\mathrm{HCOOH}) & = \frac {1}{2} \times (5 \times 0. 0 2 5 0 0 \mathrm{molL} ^ {- 1} \times 7 4. 0 0 \mathrm{mL} - 0. 2 0 0 0 \mathrm{molL} ^ {- 1} \times 4 0. 0 0 \mathrm{mL}) \\ & \quad \times 1 0 ^ {- 3} \mathrm{LmL} ^ {- 1} \\ & = 6. 2 5 0 \times 1 0 ^ {- 4} \mathrm{mol} \end{array}
+\begin{array}{r l} n (\mathrm{HCOOH}) & = \frac {1}{2} \times (5 \times 0.02500 \mathrm{molL} ^ {- 1} \times 74.00 \mathrm{mL} - 0.2000 \mathrm{molL} ^ {- 1} \times 40.00 \mathrm{mL}) \\ & \quad \times 10 ^ {- 3} \mathrm{LmL} ^ {- 1} \\ & = 6.250 \times 10 ^ {- 4} \mathrm{mol} \end{array}
 $$
 
 则混合酸溶液中 HAc 的物质的量为
 
 $$
-\begin{array}{r l} n (\mathrm{HAc}) & = n - n (\mathrm{HCOOH}) \\ & = 2. 5 0 0 \times 1 0 ^ {- 3} \mathrm{mol} - 6. 2 5 0 \times 1 0 ^ {- 4} \mathrm{mol} \\ & = 1. 8 7 5 \times 1 0 ^ {- 3} \mathrm{mol} \end{array}
+\begin{array}{r l} n (\mathrm{HAc}) & = n - n (\mathrm{HCOOH}) \\ & = 2.500 \times 10 ^ {- 3} \mathrm{mol} - 6.250 \times 10 ^ {- 4} \mathrm{mol} \\ & = 1.875 \times 10 ^ {- 3} \mathrm{mol} \end{array}
 $$
 
 混合酸溶液中 HCOOH 和 HAc 的浓度分别为
 
 $$
-\begin{array}{r l} c (\mathrm{HCOOH}) & = \frac {6 . 2 5 0 \times 1 0 ^ {- 4} \mathrm{mol}}{2 0 . 0 0 \times 1 0 ^ {- 3} \mathrm{L}} = \mathbf {0 . 0 3 1 2 5 m o l L ^ {- 1}} \\ c (\mathrm{HAc}) & = \frac {1 . 8 7 5 \times 1 0 ^ {- 3} \mathrm{mol}}{2 0 . 0 0 \times 1 0 ^ {- 3} \mathrm{L}} = \mathbf {0 . 0 9 3 7 5 m o l L ^ {- 1}} \end{array}
+\begin{array}{r l} c (\mathrm{HCOOH}) & = \frac {6.250 \times 10 ^ {- 4} \mathrm{mol}}{20.00 \times 10 ^ {- 3} \mathrm{L}} = \mathbf {0.03125 m o l L ^ {- 1}} \\ c (\mathrm{HAc}) & = \frac {1.875 \times 10 ^ {- 3} \mathrm{mol}}{20.00 \times 10 ^ {- 3} \mathrm{L}} = \mathbf {0.09375 m o l L ^ {- 1}} \end{array}
 $$
 
 ## 第7题
@@ -1517,7 +1517,7 @@ Knoevenagel 反应是一类有用的缩合反应。如下图所示，丙二酸�
 9-4 画出由 A 制备 D 过程中中间体 B、C 和产物 D 的结构简式。
 
 $$
-\mathrm{A} \xrightarrow [ \mathrm{H} _ {2} \mathrm{O} ]{\mathrm{NaCN}} \mathrm{B} \xrightarrow [ \triangle ]{\mathrm{H} _ {2} , \text {催化剂}} \mathrm{C} _ {\mathrm{C} _ {1 2} \mathrm{H} _ {1 9} \mathrm{NO} _ {3}} \xrightarrow [ \triangle ]{\mathrm{NaOH} , \mathrm{H} _ {2} \mathrm{O}} \mathrm{D} _ {\mathrm{C} _ {9} \mathrm{H} _ {1 7} \mathrm{NO} _ {2}}
+\mathrm{A} \xrightarrow [ \mathrm{H} _ {2} \mathrm{O} ]{\mathrm{NaCN}} \mathrm{B} \xrightarrow [ \triangle ]{\mathrm{H} _ {2} , \text {催化剂}} \mathrm{C} _ {\mathrm{C} _ {12} \mathrm{H} _ {19} \mathrm{NO} _ {3}} \xrightarrow [ \triangle ]{\mathrm{NaOH} , \mathrm{H} _ {2} \mathrm{O}} \mathrm{D} _ {\mathrm{C} _ {9} \mathrm{H} _ {17} \mathrm{NO} _ {2}}
 $$
 
 ## 第 10 题(6 分)
@@ -1658,7 +1658,7 @@ $$
 3-1 步骤(a)使用 $KMnO_{4}$ 滴定晶体中的草酸根,由于滴定在 $H_{2}SO_{4}$ 中进行,草酸应写成 $H_{2}C_{2}O_{4}$ 。相应的离子方程式如下:
 
 $$
-2 \mathrm{MnO} _ {4} ^ {-} + 5 \mathrm{H} _ {2} \mathrm{C} _ {2} \mathrm{O} _ {4} + 6 \mathrm{H} ^ {+} = 2 \mathrm{Mn} ^ {2 +} + 1 0 \mathrm{CO} _ {2} \uparrow + 8 \mathrm{H} _ {2} \mathrm{O}
+2 \mathrm{MnO} _ {4} ^ {-} + 5 \mathrm{H} _ {2} \mathrm{C} _ {2} \mathrm{O} _ {4} + 6 \mathrm{H} ^ {+} = 2 \mathrm{Mn} ^ {2 +} + 10 \mathrm{CO} _ {2} \uparrow + 8 \mathrm{H} _ {2} \mathrm{O}
 $$
 
 3-2 步骤(a)得到的溶液显浅紫红色,是因为其中含有少量的 $MnO_{4}^{-}$ 。在加热条件下
@@ -1666,7 +1666,7 @@ $$
 $MnO_{4}^{-}$ 会分解生成浅粉红色的 $Mn^{2+}$ （浓度较小时显无色）：
 
 $$
-4 \mathrm{MnO} _ {4} ^ {-} + 1 2 \mathrm{H} ^ {+} = 4 \mathrm{Mn} ^ {2 +} + 5 \mathrm{O} _ {2} \uparrow + 6 \mathrm{H} _ {2} \mathrm{O}
+4 \mathrm{MnO} _ {4} ^ {-} + 12 \mathrm{H} ^ {+} = 4 \mathrm{Mn} ^ {2 +} + 5 \mathrm{O} _ {2} \uparrow + 6 \mathrm{H} _ {2} \mathrm{O}
 $$
 
 因此 $\mathrm{MnO_4^-}$ 的紫红色褪去之后，溶液显 $\mathrm{Cu^{2 + }}$ 的蓝色。
@@ -1680,19 +1680,19 @@ $$
 3-4 根据 3-1 的反应方程式和题中数据, 首先通过消耗 $KMnO_{4}$ 的量计算出 $C_{2}O_{4}^{2-}$ 的量:
 
 $$
-n (\mathrm{C} _ {2} \mathrm{O} _ {4} ^ {2 -}) = \left(0. 0 2 0 5 4 \times 2 4. 1 8 \times \frac {5}{2}\right) \mathrm{mmol} = 1. 2 4 1 \mathrm{mmol}
+n (\mathrm{C} _ {2} \mathrm{O} _ {4} ^ {2 -}) = \left(0.02054 \times 24.18 \times \frac {5}{2}\right) \mathrm{mmol} = 1.241 \mathrm{mmol}
 $$
 
 再根据 3-3 的方程式和题中数据计算 $Cu^{2+}$ 的量：
 
 $$
-\begin{array}{r l} & n (\mathrm{Cu} ^ {2 +}) = (1 2. 6 9 \times 0. 0 4 8 2 6) \mathrm{mmol} = 0. 6 1 2 4 \mathrm{mmol} \\ & n (\mathrm{Cu} ^ {2 +}): n (\mathrm{C} _ {2} \mathrm{O} _ {4} ^ {2 -}) = 0. 4 9 3 5 \approx 0. 5 \end{array}
+\begin{array}{r l} & n (\mathrm{Cu} ^ {2 +}) = (12.69 \times 0.04826) \mathrm{mmol} = 0.6124 \mathrm{mmol} \\ & n (\mathrm{Cu} ^ {2 +}): n (\mathrm{C} _ {2} \mathrm{O} _ {4} ^ {2 -}) = 0.4935 \approx 0.5 \end{array}
 $$
 
 因此，配合物中 $\mathrm{Cu}$ 与 $\mathrm{C}_2\mathrm{O}_4^{2-}$ 的比例为 $1:2$ 。考虑到电荷守恒，配合物中应有2个 $\mathrm{K}^+$ ，可将其化学式表示为 $\mathrm{K}_2[\mathrm{Cu}(\mathrm{C}_2\mathrm{O}_4)_2] \cdot x\mathrm{H}_2\mathrm{O}$ ，通过配合物的质量可以计算 $x$ 的值：
 
 $$
-\begin{array}{r l} & M _ {\text {配合物}} = \frac {0 . 2 0 7 3}{0 . 6 1 2 4 \times 1 0 ^ {- 3}} \mathrm{g} \mathrm{mol} ^ {- 1} = 3 3 8. 5 \mathrm{g} \mathrm{mol} ^ {- 1} \\ & x = \frac {3 3 8 . 5 - 3 9 . 1 0 \times 2 - 6 3 . 5 5 - 8 8 . 0 2 \times 2}{1 8 . 0 2} = 1. 1 5 \end{array}
+\begin{array}{r l} & M _ {\text {配合物}} = \frac {0.2073}{0.6124 \times 10 ^ {- 3}} \mathrm{g} \mathrm{mol} ^ {- 1} = 338.5 \mathrm{g} \mathrm{mol} ^ {- 1} \\ & x = \frac {338.5 - 39.10 \times 2 - 63.55 - 88.02 \times 2}{18.02} = 1.15 \end{array}
 $$
 
 题中条件给出晶体化学式中原子数为整数,那么晶体中所含的水分子的个数也应为整数。由此推得 x=1,则蓝色晶体的化学式为 $\mathbf{K}_{2}\left[\mathbf{Cu}\left(\mathbf{C}_{2}\mathbf{O}_{4}\right)_{2}\right]\cdot\mathbf{H}_{2}\mathbf{O}$ 。
@@ -1730,19 +1730,19 @@ $$
 5-1 根据晶体密度的计算公式: $d=\frac{M}{N_{A}V}$ ，其中 M 是晶胞所有原子的摩尔质量之和，V 是晶胞体积， $N_{A}$ 是阿伏加德罗常数。使用题目中给出的晶胞参数可以计算 V：
 
 $$
-\begin{array}{r l} V = a b c \sin \beta & = [ 5 0 5. 8 \times 1 2 4 0 \times 6 9 6. 4 \times \sin (9 8. 1 3 ^ {\circ}) ] \mathrm{pm} ^ {3} = 4. 3 2 4 \times 1 0 ^ {8} \mathrm{pm} ^ {3} \\ & = 4. 3 2 4 \times 1 0 ^ {- 2 2} \mathrm{cm} ^ {3} \end{array}
+\begin{array}{r l} V = a b c \sin \beta & = [ 505.8 \times 1240 \times 696.4 \times \sin (98.13 ^ {\circ}) ] \mathrm{pm} ^ {3} = 4.324 \times 10 ^ {8} \mathrm{pm} ^ {3} \\ & = 4.324 \times 10 ^ {- 22} \mathrm{cm} ^ {3} \end{array}
 $$
 
 由前述公式可求得
 
 $$
-M = d \cdot V \cdot N _ {\mathrm{A}} = (4. 3 2 4 \times 1 0 ^ {- 2 2} \times 1. 6 1 4 \times 6. 0 2 2 \times 1 0 ^ {2 3}) \mathrm{g} \mathrm{mol} ^ {- 1} = 4 2 0. 3 \mathrm{g} \mathrm{mol} ^ {- 1}
+M = d \cdot V \cdot N _ {\mathrm{A}} = (4.324 \times 10 ^ {- 22} \times 1.614 \times 6.022 \times 10 ^ {23}) \mathrm{g} \mathrm{mol} ^ {- 1} = 420.3 \mathrm{g} \mathrm{mol} ^ {- 1}
 $$
 
 已知晶体是由草酸和尿素两种分子组成的，可设晶胞中含有 x 个草酸分子，y 个尿素分子，草酸的摩尔质量为 $90.04 \, g mol^{-1}$ ，尿素的摩尔质量为 $60.06 \, g mol^{-1}$ ，得到不定方程：
 
 $$
-9 0. 0 4 x + 6 0. 0 6 y = 4 2 0. 3
+90.04 x + 60.06 y = 420.3
 $$
 
 试探求解, 得 x=2, y=4, 故晶体中草酸分子与尿素分子的比例为 1:2。
@@ -1837,13 +1837,13 @@ $$
 将 $[\mathrm{H}^{+}] = 1\times 10^{-4}\mathrm{molL}^{-1},1\times 10^{-6}\mathrm{molL}^{-1},c_0 = 1.0\times 10^{-2}\mathrm{molL}^{-1}$ 代入，则可以得到8-1的答案。在 $\mathrm{pH} = 4.0$ 时：
 
 $$
-\left[ \mathrm{H} _ {2} \mathrm{CO} _ {3} \right] = 1. 0 \times 1 0 ^ {- 2} \mathrm{mol} \mathrm{L} ^ {- 1}
+\left[ \mathrm{H} _ {2} \mathrm{CO} _ {3} \right] = 1.0 \times 10 ^ {- 2} \mathrm{mol} \mathrm{L} ^ {- 1}
 $$
 
 此时 $H_{2}CO_{3}$ 浓度相当接近总浓度，故主要物种只有 $H_{2}CO_{3}$ 。而在 pH=6.0 时：
 
 $$
-\begin{array}{r l} & {\left[ \mathrm{H} _ {2} \mathrm{CO} _ {3} \right] = 6. 9 \times 1 0 ^ {- 3} \mathrm{molL} ^ {- 1}} \\ & {\left[ \mathrm{HCO} _ {3} ^ {-} \right] = 3. 1 \times 1 0 ^ {- 3} \mathrm{molL} ^ {- 1}} \end{array}
+\begin{array}{r l} & {\left[ \mathrm{H} _ {2} \mathrm{CO} _ {3} \right] = 6.9 \times 10 ^ {- 3} \mathrm{molL} ^ {- 1}} \\ & {\left[ \mathrm{HCO} _ {3} ^ {-} \right] = 3.1 \times 10 ^ {- 3} \mathrm{molL} ^ {- 1}} \end{array}
 $$
 
 此时二者的浓度在同一数量级，且加起来等于总浓度，溶液的主要物种为 $H_{2}CO_{3}$ 和 $HCO_{3}^{-}$ 。
@@ -2245,7 +2245,7 @@ $$
 1-2 本题考查元素化学和基本的离子方程式的书写。本题中最容易出错的是 $NaBiO_{3}$ 在离子方程式中的写法， $NaBiO_{3}$ 是碱金属 Na 经典的不溶盐，因此必须写为分子形式而不能写为离子形式。完整的离子方程式为
 
 $$
-5 \mathrm{NaBiO} _ {3} + 2 \mathrm{Mn} ^ {2 +} + 1 4 \mathrm{H} ^ {+} = 2 \mathrm{MnO} _ {4} ^ {-} + 5 \mathrm{Bi} ^ {3 +} + 5 \mathrm{Na} ^ {+} + 7 \mathrm{H} _ {2} \mathrm{O}
+5 \mathrm{NaBiO} _ {3} + 2 \mathrm{Mn} ^ {2 +} + 14 \mathrm{H} ^ {+} = 2 \mathrm{MnO} _ {4} ^ {-} + 5 \mathrm{Bi} ^ {3 +} + 5 \mathrm{Na} ^ {+} + 7 \mathrm{H} _ {2} \mathrm{O}
 $$
 
 1-3 这是一道很基本的 Nernst 方程计算题，考查溶液平衡中的氧化还原平衡和沉淀平衡。题目给了两个 Bi(Ⅲ)/Bi(0) 电对的电极电势，两者只相差一个沉淀平衡。因此，为了计算 BiOCl 的 $K_{sp}$ ，应列出以 $BiO^{+}/Bi$ 为标态的 BiOCl/Bi 电对的 Nernst 方程，将未知的物种浓度用平衡常数替代：
@@ -2257,13 +2257,13 @@ $$
 于是
 
 $$
-\begin{array}{r l} \ln K _ {\mathrm{sp}} & = \frac {n F}{R T} \left(\varphi_ {\mathrm{BiOCl/Bi}} ^ {\ominus} - \varphi_ {\mathrm{BiO} ^ {+} / \mathrm{Bi}} ^ {\ominus}\right) = \frac {3 \times 9 6 5 0 0}{8 . 3 1 4 \times 2 9 8 . 1 5} (0. 1 7 - 0. 3 2) = - 1 7. 5 2 \\ K _ {\mathrm{sp}} & = 2. 5 \times 1 0 ^ {- 8} \end{array}
+\begin{array}{r l} \ln K _ {\mathrm{sp}} & = \frac {n F}{R T} \left(\varphi_ {\mathrm{BiOCl/Bi}} ^ {\ominus} - \varphi_ {\mathrm{BiO} ^ {+} / \mathrm{Bi}} ^ {\ominus}\right) = \frac {3 \times 96500}{8.314 \times 298.15} (0.17 - 0.32) = - 17.52 \\ K _ {\mathrm{sp}} & = 2.5 \times 10 ^ {- 8} \end{array}
 $$
 
 1-4 本题考查核反应方程式的书写。 $\alpha$ 粒子即氦原子核，写做 $\alpha$ 或 $^{4}_{2}He$ 。 $^{213}Bi$ 衰变释放一个 $\alpha$ 粒子后变为 $^{209}Tl$ ，反应方程式为
 
 $$
-{ } _ { 8 3 } ^ { 2 1 3 } \mathrm{Bi} \longrightarrow { } _ { 8 1 } ^ { 2 0 9 } \mathrm{Tl} + \alpha \quad \text {或} \quad { } _ { 8 3 } ^ { 2 1 3 } \mathrm{Bi} \longrightarrow { } _ { 8 1 } ^ { 2 0 9 } \mathrm{Tl} + { } _ { 2 } ^ { 4 } \mathrm{He}
+{ } _ { 83 } ^ { 213 } \mathrm{Bi} \longrightarrow { } _ { 81 } ^ { 209 } \mathrm{Tl} + \alpha \quad \text {或} \quad { } _ { 83 } ^ { 213 } \mathrm{Bi} \longrightarrow { } _ { 81 } ^ { 209 } \mathrm{Tl} + { } _ { 2 } ^ { 4 } \mathrm{He}
 $$
 
 1-5 本题考查基本的电化学计算。 $Bi^{3+}$ 电解后还原为Bi单质沉积在阴极，形成圆柱形Bi膜。已知Bi的密度，为了计算厚度，需要知道沉积出的Bi的质量。根据Faraday定律，电解消耗的电荷量与 $Bi^{3+}$ 接受的电荷量相等，每1 mol $Bi^{3+}$ 接受3 mol电子，即 $n(e)=3n(Bi)$ ：
@@ -2275,7 +2275,7 @@ $$
 由几何关系,圆柱的厚度 h 等于体积 V 和底面积 S 的比值,圆柱体积等于质量 m 与密度 $\rho$ 的比值,因此
 
 $$
-\begin{array}{r l} h & = \frac {V}{S} = \frac {4 m}{\pi d ^ {\prime 2} \rho} = \frac {4 n (\mathrm{Bi}) A _ {\mathrm{r}} (\mathrm{Bi})}{\pi d ^ {\prime 2} \rho} = \frac {4 I t A _ {\mathrm{r}} (\mathrm{Bi})}{3 F \pi d ^ {\prime 2} \rho} \\ & = \frac {4 \times 1 0 ^ {- 3} \times 2 \times 6 0 \times 2 0 9}{3 \times 9 6 5 0 0 \times 3 . 1 4 \times (0 . 3) ^ {2} \times 9 . 8} \mathrm{cm} = 1. 2 5 \times 1 0 ^ {- 4} \mathrm{cm} = 1. 2 5 \mu \mathrm{m} \end{array}
+\begin{array}{r l} h & = \frac {V}{S} = \frac {4 m}{\pi d ^ {\prime 2} \rho} = \frac {4 n (\mathrm{Bi}) A _ {\mathrm{r}} (\mathrm{Bi})}{\pi d ^ {\prime 2} \rho} = \frac {4 I t A _ {\mathrm{r}} (\mathrm{Bi})}{3 F \pi d ^ {\prime 2} \rho} \\ & = \frac {4 \times 10 ^ {- 3} \times 2 \times 60 \times 209}{3 \times 96500 \times 3.14 \times (0.3) ^ {2} \times 9.8} \mathrm{cm} = 1.25 \times 10 ^ {- 4} \mathrm{cm} = 1.25 \mu \mathrm{m} \end{array}
 $$
 
 由于这道题目本身对于有效数字要求不高,因此官方答案中结果写做3位有效数字。笔者认为,结果按照有效数字规则,写为 $1\times10^{-4}cm$ 更为妥当。对于计算题,建议中间过程不带数据计算,一来减少计算失误,二来减少中间结果由于有效数字修约带来的变化。
@@ -2297,7 +2297,7 @@ $$
 对于 B, 每个晶胞含有两个 Ge, 令 x=2, 此时 B 的化学式可写为 $2GeO_{2} \cdot yBi_{2}O_{3}$ 。将 B 的晶体密度公式写出, 每个晶胞中包含一个化学式即 Z=1:
 
 $$
-\rho = \frac {Z M}{V N _ {\mathrm{A}}} = \frac {M}{a ^ {3} N _ {\mathrm{A}}} = \frac {1 0 4 . 6 1 \times 2 + 4 6 6 y}{a ^ {3} N _ {\mathrm{A}}} \Rightarrow y = \frac {a ^ {3} \rho N _ {\mathrm{A}} - 2 0 9 . 2 2}{4 6 6} = 1 2
+\rho = \frac {Z M}{V N _ {\mathrm{A}}} = \frac {M}{a ^ {3} N _ {\mathrm{A}}} = \frac {104.61 \times 2 + 466 y}{a ^ {3} N _ {\mathrm{A}}} \Rightarrow y = \frac {a ^ {3} \rho N _ {\mathrm{A}} - 209.22}{466} = 12
 $$
 
 因此 B 的化学式可以表示为 $2GeO_{2} \cdot 12Bi_{2}O_{3}$ ，化简后结果为 $Bi_{12}GeO_{20}$ 。
@@ -2305,7 +2305,7 @@ $$
 对于 D, 每个氧分别与一个 Ge 和一个 Bi 相连, 每个 $\mathrm{Ge(IV)}$ 都位于 $\left[GeO_{4}\right]$ 四面体中, 即 $GeO_{4}^{4-}$ 。它与 $Bi^{3+}$ 形成化合物, 可以保证每个氧分别与一个 Ge 和一个 Bi 相连, 因此化学式写为 $\mathrm{Bi}_{4}(\mathrm{GeO}_{4})_{3}$ 或 $Bi_{4}Ge_{3}O_{12}$ 。为了验证这个化学式是否正确，可以将它的摩尔质量代入晶体密度公式，求得 Z。如果 Z 为整数，说明我们推断得到的化学式合理。此化学式的摩尔质量为 $1245.83\ g\ mol^{-1}$ 。
 
 $$
-Z = \frac {\rho V N _ {\mathrm{A}}}{M} = \frac {\alpha^ {3} N _ {\mathrm{A}}}{M} = \frac {6 . 9 3 \times (1 0 5 9 . 4 \times 1 0 ^ {- 1 0}) ^ {3} \times N _ {\mathrm{A}}}{1 2 4 5 . 8 3} = 3. 9 8 \approx 4
+Z = \frac {\rho V N _ {\mathrm{A}}}{M} = \frac {\alpha^ {3} N _ {\mathrm{A}}}{M} = \frac {6.93 \times (1059.4 \times 10 ^ {- 10}) ^ {3} \times N _ {\mathrm{A}}}{1245.83} = 3.98 \approx 4
 $$
 
 Z 为整数,说明我们的化学式是正确的,即 D 的化学式为 $Bi_{4}Ge_{3}O_{12}$ 。
@@ -2323,19 +2323,19 @@ Z 为整数,说明我们的化学式是正确的,即 D 的化学式为 $Bi_{4}Ge
 2-1 这道题在计算上稍显复杂，但并不困难。首先计算 $(\mathrm{CH}_2)_6\mathrm{N}_4\mathrm{H}^+$ 的 $\mathrm{pK_a = pK_w - }$ $\mathrm{pK_b = 5.15}$ 。溶液的总体积为 $(25.00 + 22.50)\mathrm{mL} = 0.04750\mathrm{L}$ 。在加入六次甲基四胺前，溶液中氢离子物质的量为 $n(\mathrm{H}^{+})_{1} = (10^{-1.00}\times 0.04750)\mathrm{mol} = 4.8\times 10^{-3}\mathrm{mol}$ ；加入六次甲基四胺后，溶液中氢离子物质的量为 $n(\mathrm{H}^{-})_{2} = (10^{-5.60}\times 0.04750)\mathrm{mol} = 1.2\times 10^{-7}\mathrm{mol}$ 。加入六次甲基四胺后，溶液为缓冲溶液， $\mathrm{pH}$ 满足下式：
 
 $$
-\mathrm{pH} = \mathrm{pK} _ {\mathrm{a}} + \lg \frac {\left[ (\mathrm{CH} _ {2}) _ {6} \mathrm{N} _ {4} \right]}{\left[ (\mathrm{CH} _ {2}) _ {6} \mathrm{N} _ {4} \mathrm{H} ^ {+} \right]} \Rightarrow \frac {\left[ (\mathrm{CH} _ {2}) _ {6} \mathrm{N} _ {4} \right]}{\left[ (\mathrm{CH} _ {2}) _ {6} \mathrm{N} _ {4} \mathrm{H} ^ {+} \right]} = 1 0 ^ {5. 6 0 - 5. 1 5} = 2. 8
+\mathrm{pH} = \mathrm{pK} _ {\mathrm{a}} + \lg \frac {\left[ (\mathrm{CH} _ {2}) _ {6} \mathrm{N} _ {4} \right]}{\left[ (\mathrm{CH} _ {2}) _ {6} \mathrm{N} _ {4} \mathrm{H} ^ {+} \right]} \Rightarrow \frac {\left[ (\mathrm{CH} _ {2}) _ {6} \mathrm{N} _ {4} \right]}{\left[ (\mathrm{CH} _ {2}) _ {6} \mathrm{N} _ {4} \mathrm{H} ^ {+} \right]} = 10 ^ {5.60 - 5.15} = 2.8
 $$
 
 在得到“盐型”和“酸型”的浓度比值之后，只要知道其中某一个具体的物质的量，就能算出加入碱的总质量。在加入碱后，溶液的 pH 升高，初始的氢离子有两个“去处”：一种仍然以氢离子形式存在，这在 pH 中表现出；另一种与六次甲级四胺结合，不表现在 pH 中。氢离子是守恒的，因此
 
 $$
-\begin{array}{r l} & n (\mathrm{H} ^ {+}) _ {1} = n (\mathrm{H} ^ {+}) _ {2} + n ((\mathrm{CH} _ {2}) _ {6} \mathrm{N} _ {4} \mathrm{H} ^ {+}) \\ & n ((\mathrm{CH} _ {2}) _ {6} \mathrm{N} _ {4} \mathrm{H} ^ {+}) = n (\mathrm{H} ^ {+}) _ {1} - n (\mathrm{H} ^ {+}) _ {2} = 4. 8 \times 1 0 ^ {- 3} \mathrm{mol} \\ & m ((\mathrm{CH} _ {2}) _ {6} \mathrm{N} _ {4}) _ {\text {tot}} = (2. 8 + 1) \times 4. 8 \times 1 0 ^ {- 3} \times M _ {\mathrm{r}} = 2. 5 \mathrm{g} \end{array}
+\begin{array}{r l} & n (\mathrm{H} ^ {+}) _ {1} = n (\mathrm{H} ^ {+}) _ {2} + n ((\mathrm{CH} _ {2}) _ {6} \mathrm{N} _ {4} \mathrm{H} ^ {+}) \\ & n ((\mathrm{CH} _ {2}) _ {6} \mathrm{N} _ {4} \mathrm{H} ^ {+}) = n (\mathrm{H} ^ {+}) _ {1} - n (\mathrm{H} ^ {+}) _ {2} = 4.8 \times 10 ^ {- 3} \mathrm{mol} \\ & m ((\mathrm{CH} _ {2}) _ {6} \mathrm{N} _ {4}) _ {\text {tot}} = (2.8 + 1) \times 4.8 \times 10 ^ {- 3} \times M _ {\mathrm{r}} = 2.5 \mathrm{g} \end{array}
 $$
 
 在酸碱平衡中还有另一个很好用的“武器”: 分布系数。实际上, 上面的计算中由 pH 计算盐型和酸型的比值是存在近似的, 更加精确的算法是通过分布系数。对于六次甲级四胺来说, 分布系数满足:
 
 $$
-\delta_ {\left(\mathrm{CH} _ {2}\right) _ {6} \mathrm{N} _ {4} \mathrm{H} ^ {+}} = \frac {[ \mathrm{H} ^ {+} ]}{K _ {\mathrm{a}} + [ \mathrm{H} ^ {+} ]} = \frac {1 0 ^ {- 5 . 6 0}}{1 0 ^ {- 5 . 1 5} + 1 0 ^ {- 5 . 6 0}} = 0. 2 6 \Rightarrow \frac {[ (\mathrm{CH} _ {2}) _ {6} \mathrm{N} _ {4} ]}{[ (\mathrm{CH} _ {2}) _ {6} \mathrm{N} _ {4} \mathrm{H} ^ {+} ]} = 2. 8
+\delta_ {\left(\mathrm{CH} _ {2}\right) _ {6} \mathrm{N} _ {4} \mathrm{H} ^ {+}} = \frac {[ \mathrm{H} ^ {+} ]}{K _ {\mathrm{a}} + [ \mathrm{H} ^ {+} ]} = \frac {10 ^ {- 5.60}}{10 ^ {- 5.15} + 10 ^ {- 5.60}} = 0.26 \Rightarrow \frac {[ (\mathrm{CH} _ {2}) _ {6} \mathrm{N} _ {4} ]}{[ (\mathrm{CH} _ {2}) _ {6} \mathrm{N} _ {4} \mathrm{H} ^ {+} ]} = 2.8
 $$
 
 计算结果与之前一样,这说明前面的近似是合理的。
@@ -2345,7 +2345,7 @@ $$
 2-2 直接应用题目中的数据,可以分别求算 $Bi^{3+}$ 和 $Pb^{2+}$ 的浓度,只需注意单位和有效数字即可。
 
 $$
-\begin{array}{r l} & b _ {\mathrm{Bi} ^ {3 +}} = \frac {0 . 0 2 0 0 0 \times 0 . 0 2 2 5 0 \times 2 0 9 . 0}{0 . 0 2 5 0 0} \mathrm{gL} ^ {- 1} = 3. 7 6 2 \mathrm{gL} ^ {- 1} \\ & b _ {\mathrm{Pb} ^ {2 +}} = \frac {0 . 0 2 0 0 0 \times 0 . 0 2 2 8 0 \times 2 0 7 . 2}{0 . 0 2 5 0 0} \mathrm{gL} ^ {- 1} = 3. 7 7 9 \mathrm{gL} ^ {- 1} \end{array}
+\begin{array}{r l} & b _ {\mathrm{Bi} ^ {3 +}} = \frac {0.02000 \times 0.02250 \times 209.0}{0.02500} \mathrm{gL} ^ {- 1} = 3.762 \mathrm{gL} ^ {- 1} \\ & b _ {\mathrm{Pb} ^ {2 +}} = \frac {0.02000 \times 0.02280 \times 207.2}{0.02500} \mathrm{gL} ^ {- 1} = 3.779 \mathrm{gL} ^ {- 1} \end{array}
 $$
 
 ## 第3题
@@ -2357,7 +2357,7 @@ $$
 3-1 这道题目直接考查 Arrhenius 方程积分式的应用, 即知道两个温度下的速率常数, 求活化能。将题目所给数据代入后即得到答案。
 
 $$
-\begin{array}{r l} & \ln \frac {k _ {1}}{k _ {2}} = - \frac {E _ {\mathrm{a}}}{R} \left(\frac {1}{T _ {1}} - \frac {1}{T _ {2}}\right) \\ & \Rightarrow E _ {\mathrm{a}} = \frac {T _ {1} T _ {2}}{T _ {1} - T _ {2}} R \ln \frac {k _ {1}}{k _ {2}} = \left(\frac {2 9 3 . 2 \times 3 0 1 . 2}{2 9 3 . 2 - 3 0 1 . 2} \times 8. 3 1 4 \times \ln \frac {4 . 7 9 5}{8 . 2 8 5}\right) \mathrm{kJmol} ^ {- 1} = 5 0. 1 9 \mathrm{kJmol} ^ {- 1} \end{array}
+\begin{array}{r l} & \ln \frac {k _ {1}}{k _ {2}} = - \frac {E _ {\mathrm{a}}}{R} \left(\frac {1}{T _ {1}} - \frac {1}{T _ {2}}\right) \\ & \Rightarrow E _ {\mathrm{a}} = \frac {T _ {1} T _ {2}}{T _ {1} - T _ {2}} R \ln \frac {k _ {1}}{k _ {2}} = \left(\frac {293.2 \times 301.2}{293.2 - 301.2} \times 8.314 \times \ln \frac {4.795}{8.285}\right) \mathrm{kJmol} ^ {- 1} = 50.19 \mathrm{kJmol} ^ {- 1} \end{array}
 $$
 
 3-2 这是整道题最难的一问。化学动力学的题目中最难的一类莫过于根据反应机理推求速率方程，这类问题变化很多，处理方法不单一，需要同学们有较高的应变能力与解题技巧。许多同学对数学并不看重，但在物理化学中求导、求积分的熟练应用是非常重要的。在本题中，题目给出了一个数学中微分的结论，如果对数学了解甚少，那么对这个提示和结论可能完全不知道如何应用，更别提解题了。其实这个数学结论很简单，即一元一次函数 $y = ax + b$ 的导函数可以写做 $y' = a$ 。而题目中的提示更明显，它将被求导变量写做 $t$ ，正与动力学中的时间相对应。也即是说，如果一个物质 $y$ 的浓度可以写做物质 $x$ 浓度的一次函数 $y = ax + b$ ，那么用物质 $y$ 所表示的反应速率 $r(y)$ 与用物质 $x$ 所表示的反应速率 $r(x)$ 之间的关系为 $r(y) = ar(x)$ 。这对于解这道题是非常大的提示。
@@ -2411,7 +2411,7 @@ $$
 3-3 本题与 3-1 相似, 直接根据表 3-1 中有关 $k_{2}$ 的数据, 利用 Arrhenius 方程积分式求算活化能:
 
 $$
-E _ {\mathrm{a}} = \frac {T _ {1} T _ {2}}{T _ {1} - T _ {2}} R \ln \frac {k _ {1}}{k _ {2}} = \left(\frac {2 9 3 . 2 \times 3 0 1 . 2}{2 9 3 . 2 - 3 0 1 . 2} \times 8. 3 1 4 \times \ln \frac {1 . 3 5 0}{2 . 3 9 8}\right) \mathrm{kJ} \mathrm{mol} ^ {- 1} = 5 2. 7 3 \mathrm{kJ} \mathrm{mol} ^ {- 1}
+E _ {\mathrm{a}} = \frac {T _ {1} T _ {2}}{T _ {1} - T _ {2}} R \ln \frac {k _ {1}}{k _ {2}} = \left(\frac {293.2 \times 301.2}{293.2 - 301.2} \times 8.314 \times \ln \frac {1.350}{2.398}\right) \mathrm{kJ} \mathrm{mol} ^ {- 1} = 52.73 \mathrm{kJ} \mathrm{mol} ^ {- 1}
 $$
 
 3-4 本题包含两个小问。题目希望从两个角度分析 FeP 对 $\beta$ 氧化为 VA 的反应是否有利。比较两个不同的反应机理，可以从具体的决速步的活化能来看，也可以从表观速率常数或表观活化能来看。
@@ -2441,17 +2441,17 @@ $$
 题目中将 $\Delta C_{p}^{\ominus}=0$ 代入后，说明反应焓变和熵变不随温度变化。根据平衡常数与焓变的关系：
 
 $$
-\begin{array}{r l} \ln \frac {K _ {1}}{K _ {2}} & = - \frac {\Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus}}{R} \left(\frac {1}{T _ {1}} - \frac {1}{T _ {2}}\right) \\ \Rightarrow \Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus} & = \frac {T _ {1} T _ {2}}{T _ {1} - T _ {2}} R \ln \frac {K _ {1}}{K _ {2}} = \left(\frac {2 9 3 . 2 \times 3 0 1 . 2}{2 9 3 . 2 - 3 0 1 . 2} \times 8. 3 1 4 \times \ln \frac {2 7 . 7 5}{4 . 0 8 0}\right) \mathrm{kJmol} ^ {- 1} \\ & = - 1 7 6. 0 \mathrm{kJmol} ^ {- 1} \end{array}
+\begin{array}{r l} \ln \frac {K _ {1}}{K _ {2}} & = - \frac {\Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus}}{R} \left(\frac {1}{T _ {1}} - \frac {1}{T _ {2}}\right) \\ \Rightarrow \Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus} & = \frac {T _ {1} T _ {2}}{T _ {1} - T _ {2}} R \ln \frac {K _ {1}}{K _ {2}} = \left(\frac {293.2 \times 301.2}{293.2 - 301.2} \times 8.314 \times \ln \frac {27.75}{4.080}\right) \mathrm{kJmol} ^ {- 1} \\ & = - 176.0 \mathrm{kJmol} ^ {- 1} \end{array}
 $$
 
 再根据平衡常数和 Gibbs 自由能的关系, 将焓变代入任一温度下的自由能表达式, 可以求出熵变:
 
 $$
-\Delta_ {\mathrm{r}} G _ {\mathrm{m}} ^ {\ominus} (3 0 1. 2 \mathrm{K}) = - R T \ln K _ {i} ^ {\ominus} = \Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus} - T \Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus}
+\Delta_ {\mathrm{r}} G _ {\mathrm{m}} ^ {\ominus} (301.2 \mathrm{K}) = - R T \ln K _ {i} ^ {\ominus} = \Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus} - T \Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus}
 $$
 
 $$
-\begin{array}{r l} \Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus} & = \frac {\Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus}}{T} + R \ln K _ {i} ^ {\ominus} \\ & = \left[ \frac {8 . 3 1 4 \times \ln \frac {2 7 . 7 5}{4 . 0 8 0}}{3 0 1 . 2} \times \frac {2 9 3 . 2 \times 3 0 1 . 2}{2 9 3 . 2 - 3 0 1 . 2} + 8. 3 1 4 \times \ln (4. 0 8 0 \times 1 0 ^ {4}) \right] \mathrm{Jmol} ^ {- 1} \mathrm{K} ^ {- 1} \\ & = - 4 9 5. 9 \mathrm{Jmol} ^ {- 1} \mathrm{K} ^ {- 1} \end{array}
+\begin{array}{r l} \Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus} & = \frac {\Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus}}{T} + R \ln K _ {i} ^ {\ominus} \\ & = \left[ \frac {8.314 \times \ln \frac {27.75}{4.080}}{301.2} \times \frac {293.2 \times 301.2}{293.2 - 301.2} + 8.314 \times \ln (4.080 \times 10 ^ {4}) \right] \mathrm{Jmol} ^ {- 1} \mathrm{K} ^ {- 1} \\ & = - 495.9 \mathrm{Jmol} ^ {- 1} \mathrm{K} ^ {- 1} \end{array}
 $$
 
 建议这里先列出完整公式,然后代入题目所给的原始数据进行计算,最后对得到的结果进行修约。如果这里的焓变代入的是中间结果-176.0 kJ mol $^{-1}$ ,会造成熵变的结果有0.1 J mol $^{-1}$ K $^{-1}$ 的误差。
@@ -2471,7 +2471,7 @@ $$
 3-7 这是一道很简单的应用 Gibbs 自由能定义式的计算题。在 3-5 中已经计算出了焓变和熵变，两者同号，当 $\Delta_{\mathrm{r}}G_{\mathrm{m}}^{\ominus} = 0$ 时的温度为转向温度，满足：
 
 $$
-T _ {\mathrm{r}} = \frac {\Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus}}{\Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus}} = \frac {- 1 7 6 0 0 0}{- 4 9 5 . 9} \mathrm{K} = 3 5 4. 9 \mathrm{K}
+T _ {\mathrm{r}} = \frac {\Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus}}{\Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus}} = \frac {- 176000}{- 495.9} \mathrm{K} = 354.9 \mathrm{K}
 $$
 
 在这里总结一下在已知两个温度 $T_{1}$ 、 $T_{2}$ 的平衡常数 $K_{1}$ 、 $K_{2}$ 时，能够求出的热力学量的表达式。由焓变与平衡常数的关系：
@@ -2521,7 +2521,7 @@ $$
 ![](中国化学奥林匹克竞赛试题解析（第4版）裴坚,卞江,柳晗宇Z-Library_11-210_images/72354a1dacb5acf9f817ae8e8957152a6257204b5a85056fc481a86a421f599a.jpg)
 
 $$
-\begin{array}{r l} y \cdot \sin 1 0 9. 5 ^ {\circ} & = \frac {2}{3} a \cdot \sin 6 0 ^ {\circ}, \quad y \cdot \cos 1 0 9. 5 ^ {\circ} + x = \frac {1}{2} c \\ & \Rightarrow x = 2 7 4. 1 7 \mathrm{pm}, \quad y = 2 7 5. 4 6 \mathrm{pm} \end{array}
+\begin{array}{r l} y \cdot \sin 109.5 ^ {\circ} & = \frac {2}{3} a \cdot \sin 60 ^ {\circ}, \quad y \cdot \cos 109.5 ^ {\circ} + x = \frac {1}{2} c \\ & \Rightarrow x = 274.17 \mathrm{pm}, \quad y = 275.46 \mathrm{pm} \end{array}
 $$
 
 有一个很常见的错误是，认为氧和周围四个氧构成正四面体，因此将平行于 $c$ 轴的氢键键长算为 $(3 / 8)c$ 。这个错误在阅读完下一小问后应该可以自己发现。如果为正四面体， $x$ 与 $y$ 应该严格相等，但是同学们会通过计算发现 $x$ 与 $y$ 有不小的差距。
@@ -2529,7 +2529,7 @@ $$
 4-1-2 这一问在第一小问的基础上明确指出了题目所给的冰不是理想情况，晶体中不存在氧正四面体。因此，为了计算 $c$ 的相对偏差，首先应计算理想情况下 $c$ 的值。理想情况下 $x$ 与 $y$ 应相等，而 $y$ 与 $c$ 无关，那么可以列出方程：
 
 $$
-\frac {1}{2} c = y - y \cdot \cos 1 0 9. 5 ^ {\circ} \Rightarrow c = 7 3 4. 8 2 \mathrm{pm}
+\frac {1}{2} c = y - y \cdot \cos 109.5 ^ {\circ} \Rightarrow c = 734.82 \mathrm{pm}
 $$
 
 于是相对偏差 $d_{\mathrm{r}}$ 为
@@ -2541,7 +2541,7 @@ $$
 在求解理想情况的 c 时有许多种思路, 得到的结果会不同。例如, 如果令 x 为 $(3/8)c$ , 那列出的方程则为
 
 $$
-\frac {1}{2} c = \frac {3}{8} c - y \cdot \cos 1 0 9. 5 ^ {\circ} \Rightarrow c = 7 3 4. 5 6 \mathrm{pm}
+\frac {1}{2} c = \frac {3}{8} c - y \cdot \cos 109.5 ^ {\circ} \Rightarrow c = 734.56 \mathrm{pm}
 $$
 
 或者认为 x 与 y 相等，都等于 $(3/8)c$ ，得到的结果与上面的相同。第一种，也就是 c=734.82 pm 的情况中将 y 作为对 c 唯一的限制条件，但是这样算出来 $(3/8)c$ 与 y 不严格相等。因此笔者认为这些思路都是可以的，哪种最合理有待商榷。
@@ -2549,7 +2549,7 @@ $$
 4-2 题目中有几个关键性的提示词：“常压”“网状结构相似”，这提示冰-XI与冰-Ih有很接近的密度。这也是这道题唯一的突破口。如果认为两者密度相同，那么单位体积内水分子的个数就相同。冰-Ih的晶胞已知，因此可以数出一个冰-Ih晶胞内有多少个水分子，再与冰-XI的晶胞体积比较即可得出答案。看题目所给的冰-Ih晶胞，可以数出一个晶胞中有4个水分子。冰-XI与冰-Ih的晶胞体积比为
 
 $$
-\frac {V _ {I _ {\mathrm{h}}}}{V _ {\mathrm{XI}}} = \frac {a b c \sin \theta}{a ^ {\prime} b ^ {\prime} c ^ {\prime}} = \frac {4 4 9 . 7 5 ^ {2} \times 7 3 2 . 2 4 \times \sqrt {3}}{4 5 0 . 1 9 \times 7 7 9 . 7 8 \times 7 3 2 . 8 0 \times 2} = 0. 4 9 9 \approx 0. 5
+\frac {V _ {I _ {\mathrm{h}}}}{V _ {\mathrm{XI}}} = \frac {a b c \sin \theta}{a ^ {\prime} b ^ {\prime} c ^ {\prime}} = \frac {449.75 ^ {2} \times 732.24 \times \sqrt {3}}{450.19 \times 779.78 \times 732.80 \times 2} = 0.499 \approx 0.5
 $$
 
 意味着一个冰-XI的晶胞中有8个水分子。
@@ -2559,7 +2559,7 @@ $$
 4-3 这道题目信息更加让人抓不到头脑，最关键的信息是“立方晶系”和“氢键键长相等”。突破口与上一题一样，认为冰- $I_{c}$ 与冰- $I_{h}$ 密度相等，那么计算晶胞体积比：
 
 $$
-\frac {V _ {I _ {\mathrm{h}}}}{V _ {I _ {\mathrm{c}}}} = \frac {a b c \sin \theta}{a ^ {\prime 3}} = \frac {4 4 9 . 7 5 ^ {2} \times 7 3 2 . 2 4 \times \sqrt {3}}{6 3 5 . 8 0 ^ {3} \times 2} = 0. 4 9 9 \approx 0. 5
+\frac {V _ {I _ {\mathrm{h}}}}{V _ {I _ {\mathrm{c}}}} = \frac {a b c \sin \theta}{a ^ {\prime 3}} = \frac {449.75 ^ {2} \times 732.24 \times \sqrt {3}}{635.80 ^ {3} \times 2} = 0.499 \approx 0.5
 $$
 
 因此，一个冰- $I_{c}$ 晶胞含有8个水分子。氢键键长相等意味着任两个相邻的氧原子距离相等，而这个晶体又是立方晶系，综合所有信息可以得到一个结论：水分子在冰- $I_{c}$ 中作金刚石型堆积。换句话说，氧原子与金刚石中的排列完全相同。
@@ -2567,7 +2567,7 @@ $$
 晶体有非常多种，如果不能找到晶体结构之间的共性，那如此多的晶体结构是无法都理解和记忆的。在晶体结构的学习中，典型的密堆积和离子晶体结构都是经常出现的，要充分地理解、掌握其结构最明显的特征，并且能够举一反三，看到陌生的晶体结构后能够与已经会的晶体结构作类比，寻找结构之间的联系。本题一旦确定冰- $I_{c}$ 就是“金刚石”之后，剩下的就好办了。氢键键长对应的就是金刚石中C—C键键长，它等于体对角线的四分之一，即
 
 $$
-d _ {0 - 0} = \left(\frac {\sqrt {3}}{4} \times 6 3 5. 8 0\right) \mathrm{pm} = 2 7 5. 3 1 \mathrm{pm}
+d _ {0 - 0} = \left(\frac {\sqrt {3}}{4} \times 635.80\right) \mathrm{pm} = 275.31 \mathrm{pm}
 $$
 
 忽略氢原子后，冰- $I_{c}$ 的点阵型式与金刚石也完全一致，为面心立方点阵，结构基元为两个相邻的氧。
@@ -2575,7 +2575,7 @@ $$
 4-4 这道题与前两小问有很明显的差别，题目要求密度比，也就意味着冰-X与冰- $I_{h}$ 密度不同。这与冰-X在高压下形成的条件有关。因此本题的突破口在于，如何能够确定冰-X中水分子的个数。题目给出的信息有“氢键键长相等”“氢原子在氧原子之间”。其实还有一个很大的提示，是晶胞参数a的值：278.50 pm。这个晶胞参数与之前相比小了许多，顶点假设都为氧原子的话，体对角线长度为
 
 $$
-\sqrt {3} a = (\sqrt {3} \times 2 7 8. 5 0) \mathrm{pm} = 4 8 2. 3 8 \mathrm{pm}
+\sqrt {3} a = (\sqrt {3} \times 278.50) \mathrm{pm} = 482.38 \mathrm{pm}
 $$
 
 这个长度是4-3中氧核距离的1.75倍，接近两倍。为了满足氧呈正四面体结构，并且为立方晶系，体心必须有一个氧。在得到这些信息后，应该能够在脑中想象出如下晶胞结构：
@@ -2585,7 +2585,7 @@ $$
 这就是冰-X的晶胞，氧原子占据顶点和体心，氢有序排列在氧原子核间中心，每根氢键长度都相等，很好地满足了题意。所有这些推断均告诉我们：冰-X的晶胞中含有2个水分子。因此冰-X和冰- $I_{h}$ 两者密度比为
 
 $$
-\frac {\rho_ {X}}{\rho_ {I _ {\mathrm{h}}}} = \frac {2 / a ^ {\prime 3}}{4 / (a b c \sin \theta)} = \frac {4 4 9 . 7 5 ^ {2} \times 7 3 2 . 2 4 \times \sqrt {3}}{4 \times 2 7 8 . 5 0 ^ {3}} = 2. 9 6 9
+\frac {\rho_ {X}}{\rho_ {I _ {\mathrm{h}}}} = \frac {2 / a ^ {\prime 3}}{4 / (a b c \sin \theta)} = \frac {449.75 ^ {2} \times 732.24 \times \sqrt {3}}{4 \times 278.50 ^ {3}} = 2.969
 $$
 
 可见，在高压下的冰-X的密度将是普通冰的3倍。
@@ -2837,7 +2837,7 @@ $$
 根据所列反应条件,画出 A、B、C、D 和 F 的结构简式。
 
 $$
-\xrightarrow [ 2 . \mathrm{CH} _ {3} \mathrm{SCH} _ {3} ]{1 . \mathrm{O} _ {3}} \xrightarrow [ \mathrm{H} _ {2} \mathrm{O} ]{\mathrm{CrO} _ {3} , \mathrm{H} _ {2} \mathrm{SO} _ {4}} \xrightarrow [ \mathrm{H} _ {2} \mathrm{SO} _ {4} ]{\text {   CrO } _ {3} , \mathrm{H} _ {2} \mathrm{SO} _ {4}} \xrightarrow [ \mathrm{H} _ {2} \mathrm{SO} _ {4} ]{\text {   EtOH }} \xrightarrow [ \mathrm{H} _ {2} \mathrm{O} ^ {+} ]{\text {   EtONa,   EtOH }} \xrightarrow [ \mathrm{H} _ {3} \mathrm{O} ^ {+} ]{\text {   LiAlH } _ {4}} \xrightarrow [ \mathrm{H} _ {2} \mathrm{O} ]{\text {   LiAlH } _ {4}} \xrightarrow [ \mathrm{C} _ {1 3} \mathrm{H} _ {2 4} \mathrm{O} _ {2} ]{\text {   F }}
+\xrightarrow [ 2 . \mathrm{CH} _ {3} \mathrm{SCH} _ {3} ]{1 . \mathrm{O} _ {3}} \xrightarrow [ \mathrm{H} _ {2} \mathrm{O} ]{\mathrm{CrO} _ {3} , \mathrm{H} _ {2} \mathrm{SO} _ {4}} \xrightarrow [ \mathrm{H} _ {2} \mathrm{SO} _ {4} ]{\text {   CrO } _ {3} , \mathrm{H} _ {2} \mathrm{SO} _ {4}} \xrightarrow [ \mathrm{H} _ {2} \mathrm{SO} _ {4} ]{\text {   EtOH }} \xrightarrow [ \mathrm{H} _ {2} \mathrm{O} ^ {+} ]{\text {   EtONa,   EtOH }} \xrightarrow [ \mathrm{H} _ {3} \mathrm{O} ^ {+} ]{\text {   LiAlH } _ {4}} \xrightarrow [ \mathrm{H} _ {2} \mathrm{O} ]{\text {   LiAlH } _ {4}} \xrightarrow [ \mathrm{C} _ {13} \mathrm{H} _ {24} \mathrm{O} _ {2} ]{\text {   F }}
 $$
 
 ## 第 8 题(10 分)
@@ -2851,7 +2851,7 @@ $$
 8-2
 
 $$
-\mathrm{CH} _ {2} \mathrm{COCH} = \xrightarrow {(n - \mathrm{C} _ {5} \mathrm{H} _ {1 1}) _ {2} \mathrm{CuLi}} 3 \xrightarrow {\mathrm{H} _ {2} \mathrm{O}} 4\tag{8-3}
+\mathrm{CH} _ {2} \mathrm{COCH} = \xrightarrow {(n - \mathrm{C} _ {5} \mathrm{H} _ {11}) _ {2} \mathrm{CuLi}} 3 \xrightarrow {\mathrm{H} _ {2} \mathrm{O}} 4\tag{8-3}
 $$
 
 ![](中国化学奥林匹克竞赛试题解析（第4版）裴坚,卞江,柳晗宇Z-Library_11-210_images/0e99bcd740e68bbd0ad570c16a4b21a4f1a1c9453e4cca76f712b88ee95eed09.jpg)
@@ -2859,7 +2859,7 @@ $$
 8-4
 
 $$
-\mathrm{CH} _ {3} \mathrm{CH} _ {2} \xrightarrow {\text {   }} \mathrm{H} \xrightarrow [ \mathrm{H} _ {2} \mathrm{O} ]{\mathrm{Br} _ {2}} 7 \longrightarrow 8 \longrightarrow 9 \xlongequal {\quad} 1 0
+\mathrm{CH} _ {3} \mathrm{CH} _ {2} \xrightarrow {\text {   }} \mathrm{H} \xrightarrow [ \mathrm{H} _ {2} \mathrm{O} ]{\mathrm{Br} _ {2}} 7 \longrightarrow 8 \longrightarrow 9 \xlongequal {\quad} 10
 $$
 
 ## 第9题(12分)
@@ -2913,13 +2913,13 @@ $$
 1-3 本题本质上同样考查配位平衡与酸碱平衡对氧化还原电势的影响。酸性介质中重铬酸根氧化铁离子的反应是同学们所熟知的：
 
 $$
-\mathrm{Cr} _ {2} \mathrm{O} _ {7} ^ {2 -} + 6 \mathrm{Fe} ^ {2 +} + 1 4 \mathrm{H} ^ {+} = 2 \mathrm{Cr} ^ {3 +} + 6 \mathrm{Fe} ^ {3 +} + 7 \mathrm{H} _ {2} \mathrm{O}
+\mathrm{Cr} _ {2} \mathrm{O} _ {7} ^ {2 -} + 6 \mathrm{Fe} ^ {2 +} + 14 \mathrm{H} ^ {+} = 2 \mathrm{Cr} ^ {3 +} + 6 \mathrm{Fe} ^ {3 +} + 7 \mathrm{H} _ {2} \mathrm{O}
 $$
 
 而在此题的情形下，酸碱性、配位条件正好发生了倒置，对逆向反应的发生反而有利，因而反应为
 
 $$
-\mathrm{Cr} _ {2} \mathrm{O} _ {3} + 6 \mathrm{Fe(CN)} _ {6} ^ {3 -} + 1 0 \mathrm{OH} ^ {-} = 2 \mathrm{CrO} _ {4} ^ {2 -} + 6 \mathrm{Fe(CN)} _ {6} ^ {4 -} + 5 \mathrm{H} _ {2} \mathrm{O}
+\mathrm{Cr} _ {2} \mathrm{O} _ {3} + 6 \mathrm{Fe(CN)} _ {6} ^ {3 -} + 10 \mathrm{OH} ^ {-} = 2 \mathrm{CrO} _ {4} ^ {2 -} + 6 \mathrm{Fe(CN)} _ {6} ^ {4 -} + 5 \mathrm{H} _ {2} \mathrm{O}
 $$
 
 1-4 本题难度较大，在实际考试中，这道题成为“高手之间过招”的试金石。题目中的反应源自分析化学课程中“掩蔽剂的解蔽”，在用EDTA滴定 $\mathrm{Mg}^{2+}$ 、 $\mathrm{Zn}^{2+}$ 混合溶液时，先加入 $\mathrm{CN}^{-}$ 配位 $\mathrm{Zn}^{2+}$ ，此时 $\mathrm{Mg}^{2+}$ 可被EDTA单独滴定，然后加入甲醛解蔽。反应的方程式为
@@ -3071,7 +3071,7 @@ $$
 $Pd[C_{x}H_{y}N_{z}](ClO_{4})_{2}$ 中：
 
 $$
-\frac {3 0 . 1 5}{1 2 . 0 1}: \frac {5 . 0 6}{1 . 0 0 8} = 1: 2
+\frac {30.15}{12.01}: \frac {5.06}{1.008} = 1: 2
 $$
 
 即 $y = 2x$ 。
@@ -3079,7 +3079,7 @@ $$
 $\mathrm{Pd}[\mathrm{C}_x\mathrm{H}_y\mathrm{N}_z](\mathrm{SCN})_2$ 中：
 
 $$
-\frac {4 0 . 4 6}{1 2 . 0 1}: \frac {5 . 9 4}{1 . 0 0 8} = 0. 5 7 2
+\frac {40.46}{12.01}: \frac {5.94}{1.008} = 0.572
 $$
 
 即 $(x+2)/y=0.572$ 。
@@ -3087,7 +3087,7 @@ $$
 即可解得: $x = 13.89 \approx 14, y = 28$ 。
 
 $$
-\begin{array}{l} {\text {然后,可以通过相对分子质量计算} z:} \\ {z = \frac {1 4 \times 1 2 . 0 1 / 3 0 . 1 5 \% - [ 1 0 6 . 4 + 1 2 . 0 1 \times 4 + 1 . 0 0 8 \times 2 8 + 2 \times (3 5 . 4 5 + 6 4 . 0 0) ]}{1 4 . 0 1}} \\ {= 3. 9 9 = 4} \end{array}
+\begin{array}{l} {\text {然后,可以通过相对分子质量计算} z:} \\ {z = \frac {14 \times 12.01 / 30.15 \% - [ 106.4 + 12.01 \times 4 + 1.008 \times 28 + 2 \times (35.45 + 64.00) ]}{14.01}} \\ {= 3.99 = 4} \end{array}
 $$
 
 故 $\mathrm{Pd}[\mathrm{C}_x\mathrm{H}_y\mathrm{N}_z](\mathrm{ClO}_4)_2$ 的组成为 $\mathbf{Pd}[\mathbf{C}_{14}\mathbf{H}_{28}\mathbf{N}_4](\mathbf{ClO}_4)_2$ 。
@@ -3195,23 +3195,23 @@ $$
 故参与滴定的 $Hg^{2+}$ 浓度为
 
 $$
-c _ {\mathrm{Hg} \left(\mathrm{NO} _ {3}\right) _ {2}} = \frac {1}{2} c _ {\mathrm{NaCl}} \cdot \frac {V _ {\mathrm{NaCl}}}{V _ {\mathrm{Hg} \left(\mathrm{NO} _ {3}\right) _ {2}}} = \left(\frac {1}{2} \times \frac {2 0 . 0 0}{1 0 . 2 0} \times 0. 0 1 0 0\right) \mathrm{mol} \mathrm{L} ^ {- 1} = 9. 8 0 \times 1 0 ^ {- 3} \mathrm{mol} \mathrm{L} ^ {- 1}
+c _ {\mathrm{Hg} \left(\mathrm{NO} _ {3}\right) _ {2}} = \frac {1}{2} c _ {\mathrm{NaCl}} \cdot \frac {V _ {\mathrm{NaCl}}}{V _ {\mathrm{Hg} \left(\mathrm{NO} _ {3}\right) _ {2}}} = \left(\frac {1}{2} \times \frac {20.00}{10.20} \times 0.0100\right) \mathrm{mol} \mathrm{L} ^ {- 1} = 9.80 \times 10 ^ {- 3} \mathrm{mol} \mathrm{L} ^ {- 1}
 $$
 
 样品中含有的硝酸汞的物质的量为
 
 $$
-n _ {\mathrm{Hg} \left(\mathrm{NO} _ {3}\right) _ {2}} = c _ {\mathrm{Hg} \left(\mathrm{NO} _ {3}\right) _ {2}} \cdot V _ {\mathrm{Hg} \left(\mathrm{NO} _ {3}\right) _ {2}} = (9. 8 0 \times 1 0 ^ {- 3} \times 0. 5 0 0) \mathrm{mmol} = 4. 9 0 \mathrm{mmol}
+n _ {\mathrm{Hg} \left(\mathrm{NO} _ {3}\right) _ {2}} = c _ {\mathrm{Hg} \left(\mathrm{NO} _ {3}\right) _ {2}} \cdot V _ {\mathrm{Hg} \left(\mathrm{NO} _ {3}\right) _ {2}} = (9.80 \times 10 ^ {- 3} \times 0.500) \mathrm{mmol} = 4.90 \mathrm{mmol}
 $$
 
 摩尔含水量为
 
 $$
-M = \frac {m}{n} = \left(\frac {1 . 7 1 3}{4 . 9 0} \times 1 0 0 0\right) \mathrm{g} \mathrm{mol} ^ {- 1} = 3 5 0 \mathrm{g} \mathrm{mol} ^ {- 1}
+M = \frac {m}{n} = \left(\frac {1.713}{4.90} \times 1000\right) \mathrm{g} \mathrm{mol} ^ {- 1} = 350 \mathrm{g} \mathrm{mol} ^ {- 1}
 $$
 
 $$
-x = \frac {M _ {\mathrm{结晶水}}}{M _ {\mathrm {H_ {2} O}}} = \frac {M - M _ {\mathrm {Hg(NO_ {3}) _ {2}}}}{M _ {\mathrm {H_ {2} O}}} = \frac {3 5 0 - 3 2 4 . 6}{1 8 . 0 0} = 1. 4
+x = \frac {M _ {\mathrm{结晶水}}}{M _ {\mathrm {H_ {2} O}}} = \frac {M - M _ {\mathrm {Hg(NO_ {3}) _ {2}}}}{M _ {\mathrm {H_ {2} O}}} = \frac {350 - 324.6}{18.00} = 1.4
 $$
 
 故该硝酸汞水合样品的化学式为 $\mathrm{Hg}(\mathrm{NO}_{3})_{2} \cdot 1.4\mathrm{H}_{2}\mathrm{O}$ 。
@@ -3221,13 +3221,13 @@ $$
 0.500 mL 血清样品实际消耗的硝酸汞标准溶液体积为
 
 $$
-V _ {\mathrm{Hg} (\mathrm{NO} _ {3}) _ {2}} = (1. 5 3 - 0. 8 0 \times 0. 1) \mathrm{mL} = 1. 4 5 \mathrm{mL}
+V _ {\mathrm{Hg} (\mathrm{NO} _ {3}) _ {2}} = (1.53 - 0.80 \times 0.1) \mathrm{mL} = 1.45 \mathrm{mL}
 $$
 
 氯离子的浓度为
 
 $$
-c _ {\mathrm{Cl} ^ {-}} = 2 c _ {\mathrm{Hg} \left(\mathrm{NO} _ {3}\right) _ {2}} \cdot \frac {V _ {\mathrm{Hg} \left(\mathrm{NO} _ {3}\right) _ {2}}}{V _ {\mathrm{Cl} ^ {-}}} = (2 \times 9. 8 0 \times 1 0 ^ {- 3} \times \frac {1 . 4 5}{0 . 5 0 0}) \mathrm{mol} \mathrm{L} ^ {- 1} = 5. 6 8 \times 1 0 ^ {- 2} \mathrm{mol} \mathrm{L} ^ {- 1}
+c _ {\mathrm{Cl} ^ {-}} = 2 c _ {\mathrm{Hg} \left(\mathrm{NO} _ {3}\right) _ {2}} \cdot \frac {V _ {\mathrm{Hg} \left(\mathrm{NO} _ {3}\right) _ {2}}}{V _ {\mathrm{Cl} ^ {-}}} = (2 \times 9.80 \times 10 ^ {- 3} \times \frac {1.45}{0.500}) \mathrm{mol} \mathrm{L} ^ {- 1} = 5.68 \times 10 ^ {- 2} \mathrm{mol} \mathrm{L} ^ {- 1}
 $$
 
 换算成 mg/100 mL 单位为 201 mg/100 mL。
@@ -3245,7 +3245,7 @@ n (\mathbf {A} _ {2}) = \frac {p V}{R T}
 $$
 
 $$
-M (\mathbf {M}) = \frac {m (\mathbf {M})}{2 n \left(\mathbf {A} _ {2}\right)} = \frac {m (\mathbf {M}) R T}{p V} = \frac {0 . 9 3 \times 8 . 3 1 4 \times 2 9 8 . 1 5}{2 \times 1 0 0 \times 0 . 5} \mathrm{g} \mathrm{mol} ^ {- 1} = 2 3. 0 5 \mathrm{g} \mathrm{mol} ^ {- 1}
+M (\mathbf {M}) = \frac {m (\mathbf {M})}{2 n \left(\mathbf {A} _ {2}\right)} = \frac {m (\mathbf {M}) R T}{p V} = \frac {0.93 \times 8.314 \times 298.15}{2 \times 100 \times 0.5} \mathrm{g} \mathrm{mol} ^ {- 1} = 23.05 \mathrm{g} \mathrm{mol} ^ {- 1}
 $$
 
 5-2 由 5-1 的结果可以得知 M 应该为 Na 元素，结合原子序数的信息 $Z(X) < Z(M) < Z(Y)$ ，也就是说，X 是第二周期的非金属元素，Y 是第三周期非金属元素。Y 和 Na 以 1:1 比例结合，因此 Y 为 Cl。X 和 Na、Cl 可以结合形成 $Na_{3}XCl$ ，因此 X 为 O。A 可以和 O、Na 结合形成 NaOA，A 又可以形成双原子分子，因此 A 为 H。至此 X、Y、M、A 可以分别确定为 O、Cl、Na、H。作为一道无机化学推断的小题，本题难度相对较低。
@@ -3409,7 +3409,7 @@ D 和 E 的产率差别就相当于正丁胺和水在这个反应中的区别。
 光合作用是自然界最重要的过程之一,其总反应一般表示为
 
 $$
-6 \mathrm{CO} _ {2} + 6 \mathrm{H} _ {2} \mathrm{O} \longrightarrow \mathrm{C} _ {6} \mathrm{H} _ {1 2} \mathrm{O} _ {6} + 6 \mathrm{O} _ {2}
+6 \mathrm{CO} _ {2} + 6 \mathrm{H} _ {2} \mathrm{O} \longrightarrow \mathrm{C} _ {6} \mathrm{H} _ {12} \mathrm{O} _ {6} + 6 \mathrm{O} _ {2}
 $$
 
 实际反应分多步进行。其中，水的氧化过程是一个重要环节，此过程在光系统Ⅱ(简称PSⅡ)中发生，使水氧化的活性中心是含有4个锰原子的配位簇(称为锰氧簇)。初始状态的锰氧簇(S0)在光照下依次失去电子变为S1、S2、S3和S4，S4氧化 $H_{2}O$ 生成 $O_{2}$ 。该过程简式如下：
@@ -3421,7 +3421,7 @@ $$
 2-2 $25^{\circ}$ C, 标态下, 下列电极反应的电极电势分别为
 
 $$
-\begin{array}{l l} \text {(a)} \mathrm {MnO_ {4} ^ {3 - } + 4 H^ {+} + e^ {-} \longrightarrow MnO_ {2} + 2 H_ {2} O} & E ^ {\ominus} = 2. 9 0 \mathrm{V} \\ \text {(b)} \mathrm {MnO_ {2} + 4 H^ {+} + e^ {-} \longrightarrow Mn^ {3 + } + 2 H_ {2} O} & E ^ {\ominus} = 0. 9 5 \mathrm{V} \\ \text {(c)} \mathrm {O_ {2} + 4 H^ {+} + 4 e^ {-} \longrightarrow 2 H_ {2} O} & E ^ {\ominus} = 1. 2 3 \mathrm{V} \end{array}
+\begin{array}{l l} \text {(a)} \mathrm {MnO_ {4} ^ {3 - } + 4 H^ {+} + e^ {-} \longrightarrow MnO_ {2} + 2 H_ {2} O} & E ^ {\ominus} = 2.90 \mathrm{V} \\ \text {(b)} \mathrm {MnO_ {2} + 4 H^ {+} + e^ {-} \longrightarrow Mn^ {3 + } + 2 H_ {2} O} & E ^ {\ominus} = 0.95 \mathrm{V} \\ \text {(c)} \mathrm {O_ {2} + 4 H^ {+} + 4 e^ {-} \longrightarrow 2 H_ {2} O} & E ^ {\ominus} = 1.23 \mathrm{V} \end{array}
 $$
 
 计算上述半反应在中性条件下的电极电势。假定 $MnO_{4}^{3-}$ 和 $Mn^{3+}$ 的浓度均为 0.10 mol $L^{-1}$ ，氧分压等于其在空气中的分压。回答此条件下 $MnO_{4}^{3-}$ 和 $MnO_{2}$ 能否氧化水。
@@ -3429,15 +3429,15 @@ $$
 2-3 在模拟锰氧簇的人工光合作用研究中,研究者注意到如下 Mn(Ⅲ)/Mn(Ⅱ)体系 (25℃):
 
 $$
-(d) \mathrm{Mn} ^ {3 +} + \mathrm{e} ^ {-} \longrightarrow \mathrm{Mn} ^ {2 +} \quad E ^ {\ominus} = 1. 5 1 \mathrm{V}
+(d) \mathrm{Mn} ^ {3 +} + \mathrm{e} ^ {-} \longrightarrow \mathrm{Mn} ^ {2 +} \quad E ^ {\ominus} = 1.51 \mathrm{V}
 $$
 
 $$
-\text {在} \left[ \mathrm{H} _ {2} \mathrm{P} _ {2} \mathrm{O} _ {7} ^ {2 -} \right] = 0. 4 0 \mathrm{molL} ^ {- 1}, \left[ \mathrm{Mn} \left(\mathrm{H} _ {2} \mathrm{P} _ {2} \mathrm{O} _ {7}\right) _ {3} ^ {3 -} \right] = \left[ \mathrm{Mn} \left(\mathrm{H} _ {2} \mathrm{P} _ {2} \mathrm{O} _ {7}\right) _ {2} ^ {2 -} \right] \text {的溶液中：}
+\text {在} \left[ \mathrm{H} _ {2} \mathrm{P} _ {2} \mathrm{O} _ {7} ^ {2 -} \right] = 0.40 \mathrm{molL} ^ {- 1}, \left[ \mathrm{Mn} \left(\mathrm{H} _ {2} \mathrm{P} _ {2} \mathrm{O} _ {7}\right) _ {3} ^ {3 -} \right] = \left[ \mathrm{Mn} \left(\mathrm{H} _ {2} \mathrm{P} _ {2} \mathrm{O} _ {7}\right) _ {2} ^ {2 -} \right] \text {的溶液中：}
 $$
 
 $$
-\mathrm{Mn} \left(\mathrm{H} _ {2} \mathrm{P} _ {2} \mathrm{O} _ {7}\right) _ {3} ^ {3 -} + 2 \mathrm{H} ^ {+} + \mathrm{e} ^ {-} \longrightarrow \mathrm{Mn} \left(\mathrm{H} _ {2} \mathrm{P} _ {2} \mathrm{O} _ {7}\right) _ {2} ^ {2 -} + \mathrm{H} _ {4} \mathrm{P} _ {2} \mathrm{O} _ {7} \quad E = 1. 1 5 \mathrm{V}
+\mathrm{Mn} \left(\mathrm{H} _ {2} \mathrm{P} _ {2} \mathrm{O} _ {7}\right) _ {3} ^ {3 -} + 2 \mathrm{H} ^ {+} + \mathrm{e} ^ {-} \longrightarrow \mathrm{Mn} \left(\mathrm{H} _ {2} \mathrm{P} _ {2} \mathrm{O} _ {7}\right) _ {2} ^ {2 -} + \mathrm{H} _ {4} \mathrm{P} _ {2} \mathrm{O} _ {7} \quad E = 1.15 \mathrm{V}
 $$
 
 2-3-1 计算(e)中的半反应的标准电极电势。( $H_{4}P_{2}O_{7}$ 的酸解离常数: $K_{a_{1}}=1.2\times10^{-1},K_{a_{2}}=7.9\times10^{-3},K_{a_{3}}=2.0\times10^{-7},K_{a_{4}}=4.5\times10^{-10}$ )
@@ -3573,7 +3573,7 @@ $$
 $$
 
 $$
-\Delta H ^ {\ominus} = - 3 4 \mathrm{kJ} \mathrm{mol} ^ {- 1}\tag{1}
+\Delta H ^ {\ominus} = - 34 \mathrm{kJ} \mathrm{mol} ^ {- 1}\tag{1}
 $$
 
 $$
@@ -3581,7 +3581,7 @@ $$
 $$
 
 $$
-\Delta H ^ {\ominus} = - 2 2 \mathrm{kJ} \mathrm{mol} ^ {- 1}\tag{2}
+\Delta H ^ {\ominus} = - 22 \mathrm{kJ} \mathrm{mol} ^ {- 1}\tag{2}
 $$
 
 $$
@@ -3589,7 +3589,7 @@ $$
 $$
 
 $$
-\Delta H ^ {\ominus} = + 4 4 \mathrm{kJ} \mathrm{mol} ^ {- 1}\tag{3}
+\Delta H ^ {\ominus} = + 44 \mathrm{kJ} \mathrm{mol} ^ {- 1}\tag{3}
 $$
 
 当反应温度升高,上述反应的速率将()。
@@ -3601,7 +3601,7 @@ C. 反应（1）和（2）降低，反应（3）升高；D. 反应（1）和（2
 9-4 25℃, 下列反应两种产物的比例已经给出:
 
 $$
-\mathrm{CH} _ {3} \mathrm{CH} _ {2} \mathrm{CH} _ {3} + \mathrm{Cl} \cdot \longrightarrow \mathrm{CH} _ {3} \mathrm{CH} _ {2} \dot {\mathrm{CH}} _ {2} + \mathrm{CH} _ {3} \dot {\mathrm{CH}} \mathrm{CH} _ {3} + \mathrm{HCl} 4 3 \% 5 7 \%
+\mathrm{CH} _ {3} \mathrm{CH} _ {2} \mathrm{CH} _ {3} + \mathrm{Cl} \cdot \longrightarrow \mathrm{CH} _ {3} \mathrm{CH} _ {2} \dot {\mathrm{CH}} _ {2} + \mathrm{CH} _ {3} \dot {\mathrm{CH}} \mathrm{CH} _ {3} + \mathrm{HCl} 43 \% 57 \%
 $$
 
 结合 9-3 题中给出的信息,预测当反应温度升高而其他反应条件不变时,一级自由基的比例将( )。
@@ -3676,15 +3676,15 @@ $$
 2-2 这道题目直接考查 Nernst 方程的计算。首先明确各物种浓度：由于是“中性溶液”，因此氢离子浓度 $\left[H^{+}\right]=1.0\times10^{-7}$ mol L $^{-1}$ ；题目又明确 $\left[MnO_{4}^{3-}\right]=\left[Mn^{3+}\right]=0.10$ mol L $^{-1}$ ，氧分压 $p_{O_{2}}=0.21$ atm。在这些条件下，三个反应的电极电势满足 Nernst 方程：
 
 $$
-\begin{array}{r l} E _ {\mathrm{MnO} _ {4} ^ {3 -} / \mathrm{MnO} _ {2}} & = E _ {\mathrm{MnO} _ {4} ^ {3 -} / \mathrm{MnO} _ {2}} ^ {\ominus} + \frac {R T}{n F} \ln \left(\left[ \mathrm{MnO} _ {4} ^ {3 -} \right] \left[ \mathrm{H} ^ {+} \right] ^ {4}\right) \\ & = \left[ 2. 9 0 + \frac {8 . 3 1 4 \times 2 9 8}{9 6 4 7 0} \ln (0. 1 \times 1 0 ^ {- 2 8}) \right] \mathrm{V} \\ & = 1. 1 9 \mathrm{V} \end{array}
+\begin{array}{r l} E _ {\mathrm{MnO} _ {4} ^ {3 -} / \mathrm{MnO} _ {2}} & = E _ {\mathrm{MnO} _ {4} ^ {3 -} / \mathrm{MnO} _ {2}} ^ {\ominus} + \frac {R T}{n F} \ln \left(\left[ \mathrm{MnO} _ {4} ^ {3 -} \right] \left[ \mathrm{H} ^ {+} \right] ^ {4}\right) \\ & = \left[ 2.90 + \frac {8.314 \times 298}{96470} \ln (0.1 \times 10 ^ {- 28}) \right] \mathrm{V} \\ & = 1.19 \mathrm{V} \end{array}
 $$
 
 $$
-\begin{array}{r l} E _ {\mathrm {MnO_ {2} /Mn^ {3 + }}} & = E _ {\mathrm {MnO_ {2} /Mn^ {3 + }}} ^ {\ominus} + \frac {R T}{n F} \ln \left(\frac {[ \mathrm{H} ^ {+} ] ^ {4}}{[ \mathrm{Mn} ^ {3 +} ]}\right) \\ & = \left[ 0. 9 5 + \frac {8 . 3 1 4 \times 2 9 8}{9 6 4 7 0} \ln \left(\frac {1 0 ^ {- 2 8}}{0 . 1 0}\right) \right] \mathrm{V} \\ & = - 0. 6 5 \mathrm{V} \end{array}
+\begin{array}{r l} E _ {\mathrm {MnO_ {2} /Mn^ {3 + }}} & = E _ {\mathrm {MnO_ {2} /Mn^ {3 + }}} ^ {\ominus} + \frac {R T}{n F} \ln \left(\frac {[ \mathrm{H} ^ {+} ] ^ {4}}{[ \mathrm{Mn} ^ {3 +} ]}\right) \\ & = \left[ 0.95 + \frac {8.314 \times 298}{96470} \ln \left(\frac {10 ^ {- 28}}{0.10}\right) \right] \mathrm{V} \\ & = - 0.65 \mathrm{V} \end{array}
 $$
 
 $$
-\begin{array}{r l} E _ {\mathrm {O_ {2} / H_ {2} O}} & = E _ {\mathrm {O_ {2} / H_ {2} O}} ^ {\ominus} + \frac {R T}{n F} \ln \left(\frac {p _ {\mathrm {O_ {2}}}}{p ^ {\ominus}} [ \mathrm {H^ {+}} ] ^ {4}\right) \\ & = \left[ 1. 2 3 + \frac {8 . 3 1 4 \times 2 9 8}{9 6 4 7 0} \ln (0. 2 1 \times 1 0 ^ {- 2 8}) \right] \mathrm{V} \\ & = - 0. 4 7 \mathrm{V} \end{array}
+\begin{array}{r l} E _ {\mathrm {O_ {2} / H_ {2} O}} & = E _ {\mathrm {O_ {2} / H_ {2} O}} ^ {\ominus} + \frac {R T}{n F} \ln \left(\frac {p _ {\mathrm {O_ {2}}}}{p ^ {\ominus}} [ \mathrm {H^ {+}} ] ^ {4}\right) \\ & = \left[ 1.23 + \frac {8.314 \times 298}{96470} \ln (0.21 \times 10 ^ {- 28}) \right] \mathrm{V} \\ & = - 0.47 \mathrm{V} \end{array}
 $$
 
 从电极电势的直接比较就能得出答案: 由于 $E_{MnO_{4}^{3-}/MnO_{2}} > E_{O_{2}/H_{2}O} > E_{MnO_{2}/Mn^{3+}}$ ，因此 $MnO_{4}^{3-}$ 可以氧化水，而 $MnO_{2}$ 不能。
@@ -3704,7 +3704,7 @@ $$
 由此，在不用知道直接涉及物种的具体浓度的情况下，我们就可以把 Nernst 方程中所有浓度项全部消掉，非常巧妙，因此本题最终也就迎刃而解。将相关数据代入 Nernst 方程：
 
 $$
-\begin{array}{r l} E _ {\mathrm {Mn(H_ {2} P_ {2} O_ {7})_ {3} ^ {3 - } / Mn(H_ {2} P_ {2} O_ {7}) _ {2} ^ {2 - }}} ^ {\ominus} & = E _ {\mathrm {Mn(H_ {2} P_ {2} O_ {7})_ {3} ^ {3 - } / Mn(H_ {2} P_ {2} O_ {7}) _ {2} ^ {2 - }}} - \frac {R T}{F} \ln \frac {[ \mathrm{H} ^ {+} ] ^ {2} [ \mathrm {Mn(H_ {2} P_ {2} O_ {7}) _ {3} ^ {3 - }} ]}{[ \mathrm {Mn(H_ {2} P_ {2} O_ {7}) _ {2} ^ {2 - }} ] [ \mathrm{H} _ {4} \mathrm{P} _ {2} \mathrm{O} _ {7} ]} \\ & = E _ {\mathrm {Mn(H_ {2} P_ {2} O_ {7}) _ {3} ^ {3 - } / Mn(H_ {2} P_ {2} O_ {7}) _ {2} ^ {2 - }}} - \frac {R T}{F} \ln \frac {K _ {1} K _ {2}}{[ \mathrm{H} _ {2} \mathrm{P} _ {2} \mathrm{O} _ {7} ^ {2 -} ]} \\ & = (1. 1 5 - \frac {8 . 3 1 4 \times 2 9 8}{9 6 4 7 0} \ln \frac {1 . 2 \times 7 . 9 \times 1 0 ^ {- 4}}{0 . 4 0}) \mathrm{V} \\ & = 1. 3 1 \mathrm{V} \end{array}
+\begin{array}{r l} E _ {\mathrm {Mn(H_ {2} P_ {2} O_ {7})_ {3} ^ {3 - } / Mn(H_ {2} P_ {2} O_ {7}) _ {2} ^ {2 - }}} ^ {\ominus} & = E _ {\mathrm {Mn(H_ {2} P_ {2} O_ {7})_ {3} ^ {3 - } / Mn(H_ {2} P_ {2} O_ {7}) _ {2} ^ {2 - }}} - \frac {R T}{F} \ln \frac {[ \mathrm{H} ^ {+} ] ^ {2} [ \mathrm {Mn(H_ {2} P_ {2} O_ {7}) _ {3} ^ {3 - }} ]}{[ \mathrm {Mn(H_ {2} P_ {2} O_ {7}) _ {2} ^ {2 - }} ] [ \mathrm{H} _ {4} \mathrm{P} _ {2} \mathrm{O} _ {7} ]} \\ & = E _ {\mathrm {Mn(H_ {2} P_ {2} O_ {7}) _ {3} ^ {3 - } / Mn(H_ {2} P_ {2} O_ {7}) _ {2} ^ {2 - }}} - \frac {R T}{F} \ln \frac {K _ {1} K _ {2}}{[ \mathrm{H} _ {2} \mathrm{P} _ {2} \mathrm{O} _ {7} ^ {2 -} ]} \\ & = (1.15 - \frac {8.314 \times 298}{96470} \ln \frac {1.2 \times 7.9 \times 10 ^ {- 4}}{0.40}) \mathrm{V} \\ & = 1.31 \mathrm{V} \end{array}
 $$
 
 2-3-2 本题要把 2-3-1 和题目所给的反应(d)通过 Nernst 方程联系起来。首先考虑反应(d)的 Nernst 方程：
@@ -3732,7 +3732,7 @@ E (\mathrm{e}) = E _ {\mathrm{Mn} ^ {3 +} / \mathrm{Mn} ^ {2 +}} ^ {\ominus} + \
 $$
 
 $$
-\begin{array}{r l} & = E _ {\mathrm{Mn} ^ {3 +} / \mathrm{Mn} ^ {2 +}} ^ {\ominus} + \frac {R T}{F} \ln \frac {K _ {\mathrm{f}} ^ {\mathrm{II}}}{0 . 4 0 K _ {\mathrm{f}} ^ {\mathrm{II}}} \\ & \Rightarrow \frac {K _ {\mathrm{f}} ^ {\mathrm{III}}}{K _ {\mathrm{f}} ^ {\mathrm{II}}} = 0. 4 0 \times \mathrm{e} ^ {\frac {F [ E (\mathrm{e}) - E ^ {\ominus} (\mathrm{Mn} ^ {3 +} / \mathrm{Mn} ^ {2 +}) ]}{R T}} = 0. 4 0 \times \mathrm{e} ^ {\frac {9 6 4 7 0 \times (0 . 1 5 - 0 . 5 1)}{8 . 3 1 4 \times 2 9 8}} = 3. 3 \times 1 0 ^ {- 7} \end{array}
+\begin{array}{r l} & = E _ {\mathrm{Mn} ^ {3 +} / \mathrm{Mn} ^ {2 +}} ^ {\ominus} + \frac {R T}{F} \ln \frac {K _ {\mathrm{f}} ^ {\mathrm{II}}}{0.40 K _ {\mathrm{f}} ^ {\mathrm{II}}} \\ & \Rightarrow \frac {K _ {\mathrm{f}} ^ {\mathrm{III}}}{K _ {\mathrm{f}} ^ {\mathrm{II}}} = 0.40 \times \mathrm{e} ^ {\frac {F [ E (\mathrm{e}) - E ^ {\ominus} (\mathrm{Mn} ^ {3 +} / \mathrm{Mn} ^ {2 +}) ]}{R T}} = 0.40 \times \mathrm{e} ^ {\frac {96470 \times (0.15 - 0.51)}{8.314 \times 298}} = 3.3 \times 10 ^ {- 7} \end{array}
 $$
 
 ## 第3题
@@ -3826,7 +3826,7 @@ $$
 所以，25.00 mL 溶液中含有 $Cl_{2}$ 的物质的量为
 
 $$
-n \left(\mathrm{Cl} _ {2}\right) = \frac {c \left(\mathrm{S} _ {2} \mathrm{O} _ {3} ^ {2 -}\right) \cdot V \left(\mathrm{S} _ {2} \mathrm{O} _ {3} ^ {2 -}\right)}{2} = \frac {0 . 1 0 7 6 \times 1 8 . 5 4}{2} \mathrm{mmol} = 0. 9 9 7 5 \mathrm{mmol}
+n \left(\mathrm{Cl} _ {2}\right) = \frac {c \left(\mathrm{S} _ {2} \mathrm{O} _ {3} ^ {2 -}\right) \cdot V \left(\mathrm{S} _ {2} \mathrm{O} _ {3} ^ {2 -}\right)}{2} = \frac {0.1076 \times 18.54}{2} \mathrm{mmol} = 0.9975 \mathrm{mmol}
 $$
 
 漂白粉中有效氯的含量为
@@ -3846,7 +3846,7 @@ $$
 所以 25.00 mL 溶液中含有 $Cl^{-}$ 与 $ClO^{-}$ 的总物质的量为
 
 $$
-n \left(\mathrm{Cl} ^ {-}\right) = c \left(\mathrm{Ag} ^ {+}\right) \cdot V \left(\mathrm{Ag} ^ {+}\right) = (0. 1 0 0 8 \times 2 0. 3 6) \mathrm{mmol} = 2. 0 5 2 \mathrm{mmol}
+n \left(\mathrm{Cl} ^ {-}\right) = c \left(\mathrm{Ag} ^ {+}\right) \cdot V \left(\mathrm{Ag} ^ {+}\right) = (0.1008 \times 20.36) \mathrm{mmol} = 2.052 \mathrm{mmol}
 $$
 
 漂白粉中总氯的含量为
@@ -3864,7 +3864,7 @@ $$
 所以 25.00 mL 溶液中含有 $Ca^{2+}$ 的物质的量为
 
 $$
-n \left(\mathrm{Ca} ^ {2 +}\right) = c (\text {EDTA}) \cdot V (\text {EDTA}) = (0. 0 1 9 8 8 \times 2 4. 4 3) \mathrm{mmol} = 0. 4 8 5 7 \mathrm{mmol}
+n \left(\mathrm{Ca} ^ {2 +}\right) = c (\text {EDTA}) \cdot V (\text {EDTA}) = (0.01988 \times 24.43) \mathrm{mmol} = 0.4857 \mathrm{mmol}
 $$
 
 漂白粉中总钙的含量为
@@ -3930,7 +3930,7 @@ $$
 由题意知,本题的过程是
 
 $$
-\mathrm{H} _ {2} \mathrm{O} (\mathrm{l}) \xrightarrow {1 0 0 ^ {\circ} \mathrm{C} , 1 0 1 . 3 \mathrm{kPa}} \mathrm{H} _ {2} \mathrm{O} (\mathrm{g}) \xrightarrow {\frac {p}{V} = a} x \mathrm{H} _ {2} \mathrm{O} (\mathrm{g}) + y \mathrm{H} _ {2} \mathrm{O} (\mathrm{l})
+\mathrm{H} _ {2} \mathrm{O} (\mathrm{l}) \xrightarrow {100 ^ {\circ} \mathrm{C} , 101.3 \mathrm{kPa}} \mathrm{H} _ {2} \mathrm{O} (\mathrm{g}) \xrightarrow {\frac {p}{V} = a} x \mathrm{H} _ {2} \mathrm{O} (\mathrm{g}) + y \mathrm{H} _ {2} \mathrm{O} (\mathrm{l})
 $$
 
 观察上述过程,第一步相变的结果已由题目告知:水全部蒸发为水蒸气,而第二步相变的结果尚不得知。在可逆过程中,始态和终态可由过程方程式联系起来,即 $\frac{p_{始}}{V_{始}}=a=\frac{p_{终}}{V_{终}}$ 。本题要求终态温度,因而不妨将上述过程方程式经由理想气体状态方程化为与温度相关的式子:将V=nRT/p代入过程方程式,得 $p^{2}/T=b(b$ 也为常数 $)$ 。
@@ -4014,13 +4014,13 @@ $$
 如果想控制反应的速率随 pH 波动很小,我们需要把相关数据代入,求得 $k_{exp}$ 与 pH 的具体函数关系:
 
 $$
-k _ {\mathrm{exp}} = \frac {k _ {1}}{K _ {\mathrm{a}}} [ \mathrm{H} ^ {+} ] + k _ {2} = 1 0 ^ {2} + 1 0 ^ {1 2} [ \mathrm{H} ^ {+} ] = 1 0 ^ {2} + 1 0 ^ {1 2 - \mathrm{pH}}
+k _ {\mathrm{exp}} = \frac {k _ {1}}{K _ {\mathrm{a}}} [ \mathrm{H} ^ {+} ] + k _ {2} = 10 ^ {2} + 10 ^ {12} [ \mathrm{H} ^ {+} ] = 10 ^ {2} + 10 ^ {12 - \mathrm{pH}}
 $$
 
 从这个表达式可以看出，表观速率常数由两项决定，一项与 $\mathrm{pH}$ 无关，而另一项与 $\mathrm{pH}$ 有关。当 $\mathrm{pH} = 12$ 时， $10^{12 - \mathrm{pH}} = 1$ ；当 $\mathrm{pH} > 12$ 时， $10^{12 - \mathrm{pH}} < 1$ 。即
 
 $$
-\text{若} \frac {1 0 ^ {1 2 - \mathrm{pH}}}{1 0 ^ {2}} <   1 \%, \quad \text{则} \mathrm{pH} > 1 2
+\text{若} \frac {10 ^ {12 - \mathrm{pH}}}{10 ^ {2}} <   1 \%, \quad \text{则} \mathrm{pH} > 12
 $$
 
 因此最终的结果是， $\mathrm{pH} > 12$ 时表观速率常数基本不随 $\mathrm{pH}$ 变化，波动小于 $1\%$ 。
@@ -4056,7 +4056,7 @@ $$
 笔者认为,这才是更加严谨和科学的速率方程表达式。为了确定表观速率常数随 $H^{+}$ 浓度或 pH 的增减性,可以将表观速率常数进行变形:
 
 $$
-k _ {\mathrm{exp}} = \frac {k _ {1} [ \mathrm{H} ^ {+} ] + k _ {2} K _ {\mathrm{a}}}{K _ {\mathrm{a}} + [ \mathrm{H} ^ {+} ]} = \frac {k _ {1} \times 1 0 ^ {- \mathrm{pH}} + k _ {2} K _ {\mathrm{a}}}{K _ {\mathrm{a}} + 1 0 ^ {- \mathrm{pH}}}
+k _ {\mathrm{exp}} = \frac {k _ {1} [ \mathrm{H} ^ {+} ] + k _ {2} K _ {\mathrm{a}}}{K _ {\mathrm{a}} + [ \mathrm{H} ^ {+} ]} = \frac {k _ {1} \times 10 ^ {- \mathrm{pH}} + k _ {2} K _ {\mathrm{a}}}{K _ {\mathrm{a}} + 10 ^ {- \mathrm{pH}}}
 $$
 
 将相应的数据代入,左边取对数后作图如下:
@@ -4088,11 +4088,11 @@ H 原子位置的推断则必须完全依赖对称性信息: 一个氢原子的�
 8-3 从晶胞图(或沿 a 轴投影图)不难看出,H 原子之间的距离有三种,分别为
 
 $$
-2 \times 0. 1 3 2 a = 8 0. 6 \mathrm{pm}
+2 \times 0.132 a = 80.6 \mathrm{pm}
 $$
 
 $$
-\begin{array}{r l} \sqrt {2} \times (0. 5 - 0. 1 3 2) a & = 1 5 8 \mathrm{pm} \\ a - 8 0. 5 7 \mathrm{pm} & = 2 2 4. 6 \mathrm{pm} \end{array}
+\begin{array}{r l} \sqrt {2} \times (0.5 - 0.132) a & = 158 \mathrm{pm} \\ a - 80.57 \mathrm{pm} & = 224.6 \mathrm{pm} \end{array}
 $$
 
 故最短距离为 80.6 pm。
@@ -4108,7 +4108,7 @@ $$
 8-5 储氢密度应以晶体中氢原子的质量除以体积, 注意不能将 $H^{-}$ 算进去, 因为脱氢时 $H^{-}$ 不能脱去:
 
 $$
-\frac {2 \times 2 \times 1 . 0 0 8}{6 . 0 2 2 \times 1 0 ^ {2 3} \times 3 0 5 . 2 ^ {2} \times 3 . 8 3 1 \times 1 0 ^ {- 3 0}} \mathrm{gcm} ^ {- 3} = 0. 1 8 7 6 \mathrm{gcm} ^ {- 3}
+\frac {2 \times 2 \times 1.008}{6.022 \times 10 ^ {23} \times 305.2 ^ {2} \times 3.831 \times 10 ^ {- 30}} \mathrm{gcm} ^ {- 3} = 0.1876 \mathrm{gcm} ^ {- 3}
 $$
 
 评注
@@ -4132,7 +4132,7 @@ A、B形成的碳正离子都是普通的三级碳正离子，而C、D中正电�
 9-4 对于这个自由基反应,一级自由基是动力学产物,二级自由基是热力学产物。当温度升高时,反应位点的选择性下降,动力学产物比例将会上升,因此一级自由基产物的比例上升。这是通过有机化学的相关常识判断,当然也可以用化学平衡的知识判断。
 
 $$
-\mathrm{CH} _ {3} \mathrm{CH} _ {2} \dot {\mathrm{CH}} _ {2} \longrightarrow \mathrm{CH} _ {3} \dot {\mathrm{CHCH}} _ {3} \quad \Delta H ^ {\ominus} = - 1 2 \mathrm{kJ} \mathrm{mol} ^ {- 1}
+\mathrm{CH} _ {3} \mathrm{CH} _ {2} \dot {\mathrm{CH}} _ {2} \longrightarrow \mathrm{CH} _ {3} \dot {\mathrm{CHCH}} _ {3} \quad \Delta H ^ {\ominus} = - 12 \mathrm{kJ} \mathrm{mol} ^ {- 1}
 $$
 
 根据高中化学的知识: 温度升高时, 平衡向吸热方向移动, 因此一级自由基产物的比例上升。
@@ -4310,11 +4310,11 @@ $$
 1-2 计算反应(2)的反应热。已知：
 
 $$
-(4) \mathrm{C} (\mathrm{s}) + 2 \mathrm{H} _ {2} (\mathrm{g}) \longrightarrow \mathrm{CH} _ {4} (\mathrm{g}) \quad \Delta H _ {4} = - 7 4. 8 \mathrm{kJ} \mathrm{mol} ^ {- 1}
+(4) \mathrm{C} (\mathrm{s}) + 2 \mathrm{H} _ {2} (\mathrm{g}) \longrightarrow \mathrm{CH} _ {4} (\mathrm{g}) \quad \Delta H _ {4} = - 74.8 \mathrm{kJ} \mathrm{mol} ^ {- 1}
 $$
 
 $$
-(5) \mathrm{C(s)} + 1 / 2 \mathrm {O_ {2} (g)} \longrightarrow \mathrm{CO(g)} \quad \Delta H _ {5} = - 1 1 0. 5 \mathrm{kJ} \mathrm{mol} ^ {- 1}
+(5) \mathrm{C(s)} + 1 / 2 \mathrm {O_ {2} (g)} \longrightarrow \mathrm{CO(g)} \quad \Delta H _ {5} = - 110.5 \mathrm{kJ} \mathrm{mol} ^ {- 1}
 $$
 
 ## 第 2 题(5 分)
@@ -4463,25 +4463,25 @@ $O_{2}$ 被消耗的唯一途径就是与 $CH_{4}$ 反应。由反应(2)知，�
 首先列出总的转化方程式。这里将惰性的 $N_{2}$ 也写入方程，能更加明确各物种间的比例关系：
 
 $$
-x \mathrm{CH} _ {4} + y \mathrm{O} _ {2} + 4 y \mathrm{N} _ {2} + z \mathrm{H} _ {2} \mathrm{O} \longrightarrow x \mathrm{CO} _ {2} + 1 2 y \mathrm{H} _ {2} + 4 y \mathrm{N} _ {2}
+x \mathrm{CH} _ {4} + y \mathrm{O} _ {2} + 4 y \mathrm{N} _ {2} + z \mathrm{H} _ {2} \mathrm{O} \longrightarrow x \mathrm{CO} _ {2} + 12 y \mathrm{H} _ {2} + 4 y \mathrm{N} _ {2}
 $$
 
 很容易得到物质的量方程：
 
 $$
-\begin{array}{r l} 4 x + 2 z & = 2 4 y \quad (\mathrm{H} \text {守恒}) \\ 2 y + z & = 2 x \quad (\mathrm{O} \text {守恒}) \end{array}
+\begin{array}{r l} 4 x + 2 z & = 24 y \quad (\mathrm{H} \text {守恒}) \\ 2 y + z & = 2 x \quad (\mathrm{O} \text {守恒}) \end{array}
 $$
 
 联立以上方程，得
 
 $$
-\begin{array}{c} 4 x - 4 y = 2 4 y - 4 x \\ 8 x = 2 8 y \\ x: y = 7: 2 \\ x: 5 y = 7: 1 0 \end{array}
+\begin{array}{c} 4 x - 4 y = 24 y - 4 x \\ 8 x = 28 y \\ x: y = 7: 2 \\ x: 5 y = 7: 10 \end{array}
 $$
 
 1-2 本问为基本的热力学计算。利用方程式加减法很容易得到答案：
 
 $$
-\begin{array}{r l} \Delta H _ {2} & = 2 \Delta H _ {5} - 2 \Delta H _ {4} \\ & = 2 \times (- 1 1 0. 5 \mathrm{kJ} \mathrm{mol} ^ {- 1}) - 2 \times (- 7 4. 8 \mathrm{kJ} \mathrm{mol} ^ {- 1}) \\ & = - 7 1. 4 \mathrm{kJ} \mathrm{mol} ^ {- 1} \end{array}
+\begin{array}{r l} \Delta H _ {2} & = 2 \Delta H _ {5} - 2 \Delta H _ {4} \\ & = 2 \times (- 110.5 \mathrm{kJ} \mathrm{mol} ^ {- 1}) - 2 \times (- 74.8 \mathrm{kJ} \mathrm{mol} ^ {- 1}) \\ & = - 71.4 \mathrm{kJ} \mathrm{mol} ^ {- 1} \end{array}
 $$
 
 事实上， $\Delta H_{4}$ 、 $\Delta H_{5}$ 就是 $CH_{4}$ 和 CO 的生成焓，因此上述等式在形式上与生成焓算法相同。
@@ -4599,7 +4599,7 @@ $$
 5-4 由密度公式 $\rho = ZM / N_{\mathrm{A}}V$ 得
 
 $$
-\begin{array}{r l} Z = & \frac {\rho N _ {A} V}{M} = \frac {\rho N _ {A} a b c \sin \beta}{M} \\ = & \frac {1 . 5 6 5 g c m ^ {- 3} \times 6 . 0 2 2 \times 1 0 ^ {2 3} m o l ^ {- 1} \times (1 0 4 4 . 3 5 p m \times 7 5 7 . 2 4 p m \times 5 8 2 . 4 4 p m \times \sin 1 2 0 . 9 5 8 ^ {\circ})}{1 8 6 . 0 4 g m o l ^ {- 1}} \\ = & 2. 0 0 1 \approx 2 \end{array}
+\begin{array}{r l} Z = & \frac {\rho N _ {A} V}{M} = \frac {\rho N _ {A} a b c \sin \beta}{M} \\ = & \frac {1.565 g c m ^ {- 3} \times 6.022 \times 10 ^ {23} m o l ^ {- 1} \times (1044.35 p m \times 757.24 p m \times 582.44 p m \times \sin 120.958 ^ {\circ})}{186.04 g m o l ^ {- 1}} \\ = & 2.001 \approx 2 \end{array}
 $$
 
 因此 1 个正当晶胞中的分子数为 2。
@@ -4613,7 +4613,7 @@ $$
 低氧化态的 Ti 配合物 X 为棕色或深棕红色盐，在加热或空气暴露条件下具有很好的稳定性。X 的合成反应是化学计量的，如下图所示：
 
 $$
-\mathrm{TiCl} _ {4} (\mathrm{THF}) _ {2} \xrightarrow [ \mathrm{THF} , - 6 0 ^ {\circ} \mathrm{C} ]{6 \mathrm{KC} _ {1 0} \mathrm{H} _ {8}} \xrightarrow [ \mathrm{THF} , - 6 0 ^ {\circ} \mathrm{C} ]{1 8 - \text {   Crown   } - 6} \mathrm{A} \xrightarrow [ \mathrm{THF} , - 6 0 ^ {\circ} \mathrm{C} ]{2 . 5 \mathrm{P} _ {4}} \mathrm{X}
+\mathrm{TiCl} _ {4} (\mathrm{THF}) _ {2} \xrightarrow [ \mathrm{THF} , - 60 ^ {\circ} \mathrm{C} ]{6 \mathrm{KC} _ {10} \mathrm{H} _ {8}} \xrightarrow [ \mathrm{THF} , - 60 ^ {\circ} \mathrm{C} ]{18 - \text {   Crown   } - 6} \mathrm{A} \xrightarrow [ \mathrm{THF} , - 60 ^ {\circ} \mathrm{C} ]{2.5 \mathrm{P} _ {4}} \mathrm{X}
 $$
 
 B-1 化合物 $\mathrm{KC}_{10}\mathrm{H}_8$ 中的离域键：\_\_\_\_。
@@ -4633,7 +4633,7 @@ B-4 X 是否符合 18 电子规则？这与其独特的稳定性矛盾吗？（�
 6-1 简单的读图代数计算。题中 $\alpha-p$ 曲线与主网格线有一明显交点(2.00,80.0)，即 $p(\mathrm{O}_{2})=2.00\ \mathrm{kPa}$ 时 $\alpha=80.0\%$ , 因此
 
 $$
-\mathbf {K} = \frac {\left[ \mathrm{MbO} _ {2} \right]}{\left[ \mathrm{Mb} \right] p \left(\mathrm{O} _ {2}\right)} = \frac {0 . 8 0}{0 . 2 0 \times 2 . 0 0 \mathrm{kPa}} = 2. 0 0 \mathrm{kPa} ^ {- 1}
+\mathbf {K} = \frac {\left[ \mathrm{MbO} _ {2} \right]}{\left[ \mathrm{Mb} \right] p \left(\mathrm{O} _ {2}\right)} = \frac {0.80}{0.20 \times 2.00 \mathrm{kPa}} = 2.00 \mathrm{kPa} ^ {- 1}
 $$
 
 6-2 考查平衡常数与转化率的关系。由于
@@ -4653,7 +4653,7 @@ $p(\mathrm{O}_{2})=20.0\ \mathrm{kPa}$ 时，代入解得 $\alpha=97.6\%$ 。
 6-3 考查基本的化学反应速率与动力学, 这也是自 2000 年以来, 定量的化学动力学内容首次成为初赛考点。血红素结合氧为可逆平衡, 因此正、逆反应速率相等:
 
 $$
-\begin{array}{r l} & k _ {\mathrm{A}} [ \mathrm{Mb} ] p (\mathrm{O} _ {2}) = v _ {\mathrm{正}} = v _ {\mathrm{逆}} = k _ {\mathrm{D}} [ \mathrm{MbO} _ {2} ] \\ & K = \frac {[ \mathrm{MbO} _ {2} ]}{[ \mathrm{Mb} ] p (\mathrm{O} _ {2})} = \frac {k _ {\mathrm{A}}}{k _ {\mathrm{D}}} \\ & k _ {\mathrm{A}} = K k _ {\mathrm{D}} = 2. 0 0 \mathrm{kPa} ^ {- 1} \times 6 0 \mathrm{s} ^ {- 1} = 1. 2 \times 1 0 ^ {2} \mathrm{s} ^ {- 1} \mathrm{kPa} ^ {- 1} \end{array}
+\begin{array}{r l} & k _ {\mathrm{A}} [ \mathrm{Mb} ] p (\mathrm{O} _ {2}) = v _ {\mathrm{正}} = v _ {\mathrm{逆}} = k _ {\mathrm{D}} [ \mathrm{MbO} _ {2} ] \\ & K = \frac {[ \mathrm{MbO} _ {2} ]}{[ \mathrm{Mb} ] p (\mathrm{O} _ {2})} = \frac {k _ {\mathrm{A}}}{k _ {\mathrm{D}}} \\ & k _ {\mathrm{A}} = K k _ {\mathrm{D}} = 2.00 \mathrm{kPa} ^ {- 1} \times 60 \mathrm{s} ^ {- 1} = 1.2 \times 10 ^ {2} \mathrm{s} ^ {- 1} \mathrm{kPa} ^ {- 1} \end{array}
 $$
 
 下一问，在氧分压为 20.0 kPa 时，计算结合度达 50% 所需时间。命题者在这里作了一步省略，认为氧的结合速率仅等于正反应速率，即仅存在
@@ -4665,7 +4665,7 @@ $$
 在氧分压为 20.0 kPa 时，此反应相当于 Mb(aq) 的一级反应，因而结合度达 50% 所需时间 [等同于 Mb(aq)“衰变”为 $MbO_{2}(aq)$ 的半衰期] 为
 
 $$
-t = \frac {\ln 2}{k _ {\mathrm{A}} p (\mathrm{O} _ {2})} = \frac {0 . 6 9 3}{1 . 2 \times 1 0 ^ {2} \mathrm{s} ^ {- 1} \mathrm{kPa} ^ {- 1} \times 2 0 . 0 \mathrm{kPa}} = 2. 9 \times 1 0 ^ {- 4} \mathrm{s}
+t = \frac {\ln 2}{k _ {\mathrm{A}} p (\mathrm{O} _ {2})} = \frac {0.693}{1.2 \times 10 ^ {2} \mathrm{s} ^ {- 1} \mathrm{kPa} ^ {- 1} \times 20.0 \mathrm{kPa}} = 2.9 \times 10 ^ {- 4} \mathrm{s}
 $$
 
 这样的近似是否合理呢？在 $2.9 \times 10^{-4} \mathrm{~s}$ 内，考虑纯 $\mathrm{MbO}_2(\mathrm{aq})$ 的分解反应：
@@ -4727,7 +4727,7 @@ $^{1}\Delta_{g}O_{2}$ 的反应性与烯烃类似,但性质更活泼(为什么?�
 7-1 酸性 $KMnO_{4}$ 溶液是常用的氧化剂，还原产物为 $Mn^{2+}$ 。 $Cu_{2}S$ 、CuS 在 $KMnO_{4}$ 氧化下变为 $Cu^{2+}$ 与 $SO_{4}^{2-}$ 。用化合价升降法配平两个方程，结果为
 
 $$
-\begin{array}{r l} & \mathrm{Cu} _ {2} \mathrm{S} + 2 \mathrm{MnO} _ {4} ^ {-} + 8 \mathrm{H} ^ {+} = 2 \mathrm{Cu} ^ {2 +} + \mathrm{SO} _ {4} ^ {2 -} + 2 \mathrm{Mn} ^ {2 +} + 4 \mathrm{H} _ {2} \mathrm{O} \\ & 5 \mathrm{CuS} + 8 \mathrm{MnO} _ {4} ^ {-} + 2 4 \mathrm{H} ^ {+} = 5 \mathrm{Cu} ^ {2 +} + 5 \mathrm{SO} _ {4} ^ {2 -} + 8 \mathrm{Mn} ^ {2 +} + 1 2 \mathrm{H} _ {2} \mathrm{O} \end{array}
+\begin{array}{r l} & \mathrm{Cu} _ {2} \mathrm{S} + 2 \mathrm{MnO} _ {4} ^ {-} + 8 \mathrm{H} ^ {+} = 2 \mathrm{Cu} ^ {2 +} + \mathrm{SO} _ {4} ^ {2 -} + 2 \mathrm{Mn} ^ {2 +} + 4 \mathrm{H} _ {2} \mathrm{O} \\ & 5 \mathrm{CuS} + 8 \mathrm{MnO} _ {4} ^ {-} + 24 \mathrm{H} ^ {+} = 5 \mathrm{Cu} ^ {2 +} + 5 \mathrm{SO} _ {4} ^ {2 -} + 8 \mathrm{Mn} ^ {2 +} + 12 \mathrm{H} _ {2} \mathrm{O} \end{array}
 $$
 
 7-2 分析化学应用题解题模式: 明确操作流程、处理(与未知量关联的)数据、列出核心物料方程并求解。
@@ -4735,11 +4735,11 @@ $$
 第 1 步, 列出操作流程图, 计算各物种的物质的量(使用毫摩尔单位更加方便)。尤其注意稀释、取样等操作:
 
 $$
-\begin{array}{l} \mathrm {Cu_ {2} S, CuS} \\ \text {杂质} \\ 7 5 2. 0 \mathrm{mg} \end{array} \xrightarrow [ 1 2 . 0 9 \mathrm{mmol} ]{\mathrm {KMnO_ {4} , H^ {+} ;过滤}} \begin{array}{l} \mathrm {MnO_ {4} ^ {-} , Cu^ {2 +}} \\ \mathrm {Mn^ {2 + } , SO_ {4} ^ {2 -}} \end{array} \xrightarrow [ V _ {1} = 2 5 . 0 0 \mathrm{mL} ]{V _ {0} = 2 5 0 . 0 \mathrm{mL}} \begin{array}{l} V _ {1} = 1 / 1 0 V _ {0} \\ \mathrm {FeSO_ {4}} \end{array} \xrightarrow [ 1 . 5 1 0 \mathrm{mmol} ]{} \begin{array}{l} \mathrm {Fe^ {3 +} , Mn^ {2 +}} \\ \mathrm {Cu^ {2 + } , SO_ {4} ^ {2 -}} \end{array} \xrightarrow [ \mathrm {NH_ {4} HF_ {2}} ]{\mathrm {NH_ {3} * H_ {2} O}} \begin{array}{l} \mathrm {Cu^ {2 +}} \\ \mathrm {FeF_ {6} ^ {3 - } , MnF_ {6} ^ {4 - }} \\ \mathrm {SO_ {4} ^ {2 - }} \end{array} \xrightarrow [ K I ]{\mathrm {Kl}} \begin{array}{l} \mathrm {CuI, I_ {3} ^ {-} (or I_ {2})} \\ \mathrm {FeF_ {6} ^ {3 - } , MnF_ {6} ^ {4 - }} \\ \mathrm {SO_ {4} ^ {2 - }} \end{array} \xrightarrow [ 0 . 7 2 8 0 \mathrm{mmol} ]{\mathrm {Na_ {2} S_ {2} O_ {3}}} \begin{array}{l} \mathrm {I ^ {-} , S_ {4} O_ {6} ^ {2 -}} \\ \mathrm {CuI, FeF_ {6} ^ {3 -}} \\ \mathrm {MnF_ {6} ^ {4 - } , SO_ {4} ^ {2 - }} \end{array}
+\begin{array}{l} \mathrm {Cu_ {2} S, CuS} \\ \text {杂质} \\ 752.0 \mathrm{mg} \end{array} \xrightarrow [ 12.09 \mathrm{mmol} ]{\mathrm {KMnO_ {4} , H^ {+} ;过滤}} \begin{array}{l} \mathrm {MnO_ {4} ^ {-} , Cu^ {2 +}} \\ \mathrm {Mn^ {2 + } , SO_ {4} ^ {2 -}} \end{array} \xrightarrow [ V _ {1} = 25.00 \mathrm{mL} ]{V _ {0} = 250.0 \mathrm{mL}} \begin{array}{l} V _ {1} = 1 / 10 V _ {0} \\ \mathrm {FeSO_ {4}} \end{array} \xrightarrow [ 1.510 \mathrm{mmol} ]{} \begin{array}{l} \mathrm {Fe^ {3 +} , Mn^ {2 +}} \\ \mathrm {Cu^ {2 + } , SO_ {4} ^ {2 -}} \end{array} \xrightarrow [ \mathrm {NH_ {4} HF_ {2}} ]{\mathrm {NH_ {3} * H_ {2} O}} \begin{array}{l} \mathrm {Cu^ {2 +}} \\ \mathrm {FeF_ {6} ^ {3 - } , MnF_ {6} ^ {4 - }} \\ \mathrm {SO_ {4} ^ {2 - }} \end{array} \xrightarrow [ K I ]{\mathrm {Kl}} \begin{array}{l} \mathrm {CuI, I_ {3} ^ {-} (or I_ {2})} \\ \mathrm {FeF_ {6} ^ {3 - } , MnF_ {6} ^ {4 - }} \\ \mathrm {SO_ {4} ^ {2 - }} \end{array} \xrightarrow [ 0.7280 \mathrm{mmol} ]{\mathrm {Na_ {2} S_ {2} O_ {3}}} \begin{array}{l} \mathrm {I ^ {-} , S_ {4} O_ {6} ^ {2 -}} \\ \mathrm {CuI, FeF_ {6} ^ {3 -}} \\ \mathrm {MnF_ {6} ^ {4 - } , SO_ {4} ^ {2 - }} \end{array}
 $$
 
 $$
-\begin{array}{r l} & n _ {0} (\mathrm{KMnO} _ {4}) = c (\mathrm{KMnO} _ {4}) \cdot V (\mathrm{KMnO} _ {4}) = 0. 1 2 0 9 \mathrm{molL} ^ {- 1} \times 1 0 0. 0 \mathrm{mL} = 1 2. 0 9 \mathrm{mmol} \\ & n (\mathrm{FeSO} _ {4}) = c (\mathrm{FeSO} _ {4}) \cdot V (\mathrm{FeSO} _ {4}) = 0. 1 0 0 0 \mathrm{molL} ^ {- 1} \times 1 5. 1 0 \mathrm{mL} = 1. 5 1 0 \mathrm{mmol} \\ & n (\mathrm{Na} _ {2} \mathrm{S} _ {2} \mathrm{O} _ {3}) = c (\mathrm{Na} _ {2} \mathrm{S} _ {2} \mathrm{O} _ {3}) \cdot V (\mathrm{Na} _ {2} \mathrm{S} _ {2} \mathrm{O} _ {3}) = 0. 0 5 0 0 0 \mathrm{molL} ^ {- 1} \times 1 4. 5 6 \mathrm{mL} = 0. 7 2 8 0 \mathrm{mmol} \end{array}
+\begin{array}{r l} & n _ {0} (\mathrm{KMnO} _ {4}) = c (\mathrm{KMnO} _ {4}) \cdot V (\mathrm{KMnO} _ {4}) = 0.1209 \mathrm{molL} ^ {- 1} \times 100.0 \mathrm{mL} = 12.09 \mathrm{mmol} \\ & n (\mathrm{FeSO} _ {4}) = c (\mathrm{FeSO} _ {4}) \cdot V (\mathrm{FeSO} _ {4}) = 0.1000 \mathrm{molL} ^ {- 1} \times 15.10 \mathrm{mL} = 1.510 \mathrm{mmol} \\ & n (\mathrm{Na} _ {2} \mathrm{S} _ {2} \mathrm{O} _ {3}) = c (\mathrm{Na} _ {2} \mathrm{S} _ {2} \mathrm{O} _ {3}) \cdot V (\mathrm{Na} _ {2} \mathrm{S} _ {2} \mathrm{O} _ {3}) = 0.05000 \mathrm{molL} ^ {- 1} \times 14.56 \mathrm{mL} = 0.7280 \mathrm{mmol} \end{array}
 $$
 
 第 2 步, 处理数据。滴定 $KMnO_{4}$ 的离子方程式为
@@ -4751,13 +4751,13 @@ $$
 故滴定消耗 $\mathrm{KMnO_4}$
 
 $$
-n _ {1} (\mathrm{KMnO} _ {4}) = \frac {1}{5} n (\mathrm{FeSO} _ {4}) = \frac {1}{5} \times 1. 5 1 0 \mathrm{mmol} = 0. 3 0 2 0 \mathrm{mmol}
+n _ {1} (\mathrm{KMnO} _ {4}) = \frac {1}{5} n (\mathrm{FeSO} _ {4}) = \frac {1}{5} \times 1.510 \mathrm{mmol} = 0.3020 \mathrm{mmol}
 $$
 
 溶样消耗 $\mathrm{KMnO_4}$
 
 $$
-\begin{array}{r l} n _ {1} (\mathrm{KMnO} _ {4}) & = n _ {0} (\mathrm{KMnO} _ {4}) - 1 0 \cdot n _ {1} (\mathrm{KMnO} _ {4}) \\ & = 1 2. 0 9 \mathrm{mmol} - 1 0 \times 0. 3 0 2 0 \mathrm{mmol} \\ & = 9. 0 7 \mathrm{mmol} \end{array}
+\begin{array}{r l} n _ {1} (\mathrm{KMnO} _ {4}) & = n _ {0} (\mathrm{KMnO} _ {4}) - 10 \cdot n _ {1} (\mathrm{KMnO} _ {4}) \\ & = 12.09 \mathrm{mmol} - 10 \times 0.3020 \mathrm{mmol} \\ & = 9.07 \mathrm{mmol} \end{array}
 $$
 
 另一方面，滴定 $\mathrm{I}_3^-$ 的离子方程式为
@@ -4769,7 +4769,7 @@ $$
 $Cu^{2+}\sim\frac{1}{2}I_{3}^{-}\sim S_{2}O_{3}^{2-}$ ，因此
 
 $$
-n (\mathrm{Cu} ^ {2 +}) = n (\mathrm{Na} _ {2} \mathrm{S} _ {2} \mathrm{O} _ {3}) = 0. 7 2 8 0 \mathrm{mmol}
+n (\mathrm{Cu} ^ {2 +}) = n (\mathrm{Na} _ {2} \mathrm{S} _ {2} \mathrm{O} _ {3}) = 0.7280 \mathrm{mmol}
 $$
 
 则起始样品所得溶液中 $\mathrm{Cu}^{2+}$ 含量为： $n_0(\mathrm{Cu}^{2+}) = 7.280\mathrm{mmol}$ 。
@@ -4777,7 +4777,7 @@ $$
 第 3 步, 列方程求解。设样品中含 x mmol $Cu_{2}S$ 、y mmol CuS, 则
 
 $$
-\begin{array}{r l} & 2 x + \frac {8}{5} y = 9. 0 7 2 \\ & 2 x + y = 7. 2 8 0 \\ & \Rightarrow x = 2. 1 5, \quad y = 2. 9 8 \end{array}
+\begin{array}{r l} & 2 x + \frac {8}{5} y = 9.072 \\ & 2 x + y = 7.280 \\ & \Rightarrow x = 2.15, \quad y = 2.98 \end{array}
 $$
 
 故 $Cu_{2}S$ 含量: $2.15\ mmol \times 159.2\ g\ mol^{-1} = 0.342\ g$ ，质量分数: $0.342\ g \div 0.7520\ g = 45.5\%$ .
@@ -4933,7 +4933,7 @@ $$
 再考虑不饱和度：
 
 $$
-\begin{array}{r l} \Omega (\mathbf {H}) & = 1 7 (\mathrm{C}) - \frac {1 2 (\mathrm{H}) + 1 (\mathrm{Br}) - 3 (\mathrm{N})}{2} + 1 = 1 3 \\ \Omega (\mathbf {I}) & = 1 8 - \frac {1 2 + 2 - 2}{2} + 1 = 1 3 \\ \Omega (\mathbf {J}) & = 1 6 - \frac {1 2 - 4}{2} + 1 = 1 3 \end{array}
+\begin{array}{r l} \Omega (\mathbf {H}) & = 17 (\mathrm{C}) - \frac {12 (\mathrm{H}) + 1 (\mathrm{Br}) - 3 (\mathrm{N})}{2} + 1 = 13 \\ \Omega (\mathbf {I}) & = 18 - \frac {12 + 2 - 2}{2} + 1 = 13 \\ \Omega (\mathbf {J}) & = 16 - \frac {12 - 4}{2} + 1 = 13 \end{array}
 $$
 
 可见，H、I、J的不饱和度均为13。这说明，I、J与直接甲基化产物H不仅在化学式上相近，在结构上或许也有很大的相似！我们不妨猜想：I、J很可能是H发生重排产生的。但H中Br、N等原子均与芳香 $sp^{2}C$ 相连，难以在题目所给的反应条件下断裂！怎么办？
@@ -5071,19 +5071,19 @@ $$
 已知： $H_{2}S$ 水溶液的酸式解离常数为
 
 $$
-K _ {1} = 1. 1 \times 1 0 ^ {- 7}, K _ {2} = 1. 3 \times 1 0 ^ {- 1 3}
+K _ {1} = 1.1 \times 10 ^ {- 7}, K _ {2} = 1.3 \times 10 ^ {- 13}
 $$
 
 ZnS 的溶度积常数为
 
 $$
-K _ {\mathrm{sp}} = 2. 5 \times 1 0 ^ {- 2 2}
+K _ {\mathrm{sp}} = 2.5 \times 10 ^ {- 22}
 $$
 
 CuS 的溶度积常数为
 
 $$
-\begin{array}{r l r}K _ {\mathrm{sp}}&= 6. 3 \times 1 0 ^ {- 3 6}\\\mathrm{NO} _ {3} ^ {-} + 4 \mathrm{H} ^ {+} + 3 \mathrm{e} ^ {-}&\rightleftharpoons \mathrm{NO} + 2 \mathrm{H} _ {2} \mathrm{O}&E _ {1} ^ {\ominus} = 0. 9 5 7 \mathrm{V}\\\mathrm{S} + 2 \mathrm{H} ^ {+} + 2 \mathrm{e} ^ {-}&\rightleftharpoons \mathrm{H} _ {2} \mathrm{S}&E _ {2} ^ {\ominus} = 0. 1 4 2 \mathrm{V}\\\mathrm{S} + 2 \mathrm{e} ^ {-}&\rightleftharpoons \mathrm{S} ^ {2 -}&E _ {3} ^ {\ominus} = - 0. 4 7 6 \mathrm{V}\end{array}
+\begin{array}{r l r}K _ {\mathrm{sp}}&= 6.3 \times 10 ^ {- 36}\\\mathrm{NO} _ {3} ^ {-} + 4 \mathrm{H} ^ {+} + 3 \mathrm{e} ^ {-}&\rightleftharpoons \mathrm{NO} + 2 \mathrm{H} _ {2} \mathrm{O}&E _ {1} ^ {\ominus} = 0.957 \mathrm{V}\\\mathrm{S} + 2 \mathrm{H} ^ {+} + 2 \mathrm{e} ^ {-}&\rightleftharpoons \mathrm{H} _ {2} \mathrm{S}&E _ {2} ^ {\ominus} = 0.142 \mathrm{V}\\\mathrm{S} + 2 \mathrm{e} ^ {-}&\rightleftharpoons \mathrm{S} ^ {2 -}&E _ {3} ^ {\ominus} = - 0.476 \mathrm{V}\end{array}
 $$
 
 3-1 ZnS 可以溶于稀盐酸, 反应式为
@@ -5129,7 +5129,7 @@ $Hg \cdot Ba \cdot Cu \cdot O$ 高温超导晶体 A 属四方晶系, 正当晶�
 下列反应,其自由能变在一定范围内符合给出的关系式:
 
 $$
-\begin{array}{r l} 2 \mathrm{NaHCO} _ {3} (\mathrm{s}) & = \mathrm{Na} _ {2} \mathrm{CO} _ {3} (\mathrm{s}) + \mathrm{H} _ {2} \mathrm{O} (\mathrm{g}) + \mathrm{CO} _ {2} (\mathrm{g}) \\ \mathrm{NH} _ {4} \mathrm{HCO} _ {3} (\mathrm{s}) & = \mathrm{NH} _ {3} (\mathrm{g}) + \mathrm{H} _ {2} \mathrm{O} (\mathrm{g}) + \mathrm{CO} _ {2} (\mathrm{g}) \end{array} \quad \begin{array}{l} \Delta_ {\mathrm{r}} G _ {\mathrm{m}} ^ {\ominus} = [ 1 2 9 0 7 6 - 3 3 4. 2 T / \mathrm{K} ] \mathrm{Jmol} ^ {- 1} \\ \Delta_ {\mathrm{r}} G _ {\mathrm{m}} ^ {\ominus} = [ 1 7 1 5 0 2 - 4 7 6. 4 T / \mathrm{K} ] \mathrm{Jmol} ^ {- 1} \end{array}
+\begin{array}{r l} 2 \mathrm{NaHCO} _ {3} (\mathrm{s}) & = \mathrm{Na} _ {2} \mathrm{CO} _ {3} (\mathrm{s}) + \mathrm{H} _ {2} \mathrm{O} (\mathrm{g}) + \mathrm{CO} _ {2} (\mathrm{g}) \\ \mathrm{NH} _ {4} \mathrm{HCO} _ {3} (\mathrm{s}) & = \mathrm{NH} _ {3} (\mathrm{g}) + \mathrm{H} _ {2} \mathrm{O} (\mathrm{g}) + \mathrm{CO} _ {2} (\mathrm{g}) \end{array} \quad \begin{array}{l} \Delta_ {\mathrm{r}} G _ {\mathrm{m}} ^ {\ominus} = [ 129076 - 334.2 T / \mathrm{K} ] \mathrm{Jmol} ^ {- 1} \\ \Delta_ {\mathrm{r}} G _ {\mathrm{m}} ^ {\ominus} = [ 171502 - 476.4 T / \mathrm{K} ] \mathrm{Jmol} ^ {- 1} \end{array}
 $$
 
 以下问题中与上述反应相关的自由能,均可由上述条件计算,所有分压均须以 $p^{\ominus}$ 表示。
@@ -5163,7 +5163,7 @@ $$
 7-2 若很短时间即停止通电, 此时 $CuCl_{2}$ 的浓度为 0.0400 mol L $^{-1}$ , 反应槽 pH = 4.00, 温度同上, 放置一段时间后是否有 CuOH 生成? (不需要考虑是否进一步生成 $Cu_{2}O$ 等)
 
 $$
-\text { 已知 } K _ {\mathrm{sp}} ^ {\ominus} = 1. 0 0 \times 1 0 ^ {- 1 4}, \varphi^ {\ominus} (\mathrm{Cu} ^ {2 +} / \mathrm{Cu} ^ {+}) = 0. 1 6 0 \mathrm{V} 。
+\text { 已知 } K _ {\mathrm{sp}} ^ {\ominus} = 1.00 \times 10 ^ {- 14}, \varphi^ {\ominus} (\mathrm{Cu} ^ {2 +} / \mathrm{Cu} ^ {+}) = 0.160 \mathrm{V} 。
 $$
 
 7-3 分析纯的 $CuCl_{2}$ 溶于蒸馏水后，加酸调 pH=3.00, $Cu^{2+}$ 仍可水解。此时假定只生成 $\left[\mathrm{Cu(OH)}\right]^{+}$ ，若此水解反应的平衡常数 K=0.125，计算 1 L 蒸馏水中溶解的 $CuCl_{2}$ 的质量。
@@ -5231,7 +5231,7 @@ $$
 近年来，对可再生资源——生物质及其衍生物的研究愈来愈受到人们的重视。尤其是D-葡萄糖的加氢产物山梨醇A，已经成为重要的生物质转化平台化合物。如下式所示，A经分子内脱水生成的主要产物为手性化合物B，B经多步转化生成化合物F，F是一种治疗心绞痛的药物。
 
 $$
-\begin{array}{r l} & \text {   D - 葡萄糖   } \xrightarrow [ \mathrm{H} _ {2} ]{\text { cat. }} \text {   A   } \xrightarrow [ \mathrm{-2H} _ {2} \mathrm{O} ]{\mathrm{H} _ {2} \mathrm{SO} _ {4}} \text {   B   } \xrightarrow [ \mathrm{N} ]{\left(\mathrm{CH} _ {3} \mathrm{CO}\right) _ {2} \mathrm{O}} \text {   C   } \\ & \text {   conc.   HNO } _ {3} \xrightarrow [ \mathrm{(C} _ {8} \mathrm{H} _ {1 1} \mathrm{O} _ {7} \mathrm{N)} ]{\text { NaOH }} \text {   F   } \end{array}
+\begin{array}{r l} & \text {   D - 葡萄糖   } \xrightarrow [ \mathrm{H} _ {2} ]{\text { cat. }} \text {   A   } \xrightarrow [ \mathrm{-2H} _ {2} \mathrm{O} ]{\mathrm{H} _ {2} \mathrm{SO} _ {4}} \text {   B   } \xrightarrow [ \mathrm{N} ]{\left(\mathrm{CH} _ {3} \mathrm{CO}\right) _ {2} \mathrm{O}} \text {   C   } \\ & \text {   conc.   HNO } _ {3} \xrightarrow [ \mathrm{(C} _ {8} \mathrm{H} _ {11} \mathrm{O} _ {7} \mathrm{N)} ]{\text { NaOH }} \text {   F   } \end{array}
 $$
 
 9-1 用 Fischer 投影式示出 A 的结构。
@@ -5303,7 +5303,7 @@ $$
 代入数据得， $a = 429\mathrm{pm}$
 
 $$
-d = \frac {\sqrt {3}}{4} a = 1 8 6 \mathrm{pm}
+d = \frac {\sqrt {3}}{4} a = 186 \mathrm{pm}
 $$
 
 评注
@@ -5375,25 +5375,25 @@ $$
 解得 $z_{2} = \frac{9 - \sqrt{65}}{2}$ 。
 
 $$
-\text { 即 } n (\mathbf {A}) _ {\text { 丙 }} = \frac {\sqrt {6 5} - 7}{2} \mathrm{mol}, n (\mathbf {B}) _ {\text { 丙 }} = \frac {7 + \sqrt {6 5}}{2} \mathrm{mol}, n (\mathbf {C}) _ {\text { 丙 }} = \frac {9 - \sqrt {6 5}}{2} \mathrm{mol}.
+\text { 即 } n (\mathbf {A}) _ {\text { 丙 }} = \frac {\sqrt {65} - 7}{2} \mathrm{mol}, n (\mathbf {B}) _ {\text { 丙 }} = \frac {7 + \sqrt {65}}{2} \mathrm{mol}, n (\mathbf {C}) _ {\text { 丙 }} = \frac {9 - \sqrt {65}}{2} \mathrm{mol}.
 $$
 
 撤去活塞2后：
 
 $$
-n (\mathbf {A}) = n (\mathbf {A}) _ {\text {乙}} + n (\mathbf {A}) _ {\text {丙}} = 1. 1 1 2 \mathrm{mol}
+n (\mathbf {A}) = n (\mathbf {A}) _ {\text {乙}} + n (\mathbf {A}) _ {\text {丙}} = 1.112 \mathrm{mol}
 $$
 
 $$
-n (\mathbf {B}) = n (\mathbf {B}) _ {\text {乙}} + n (\mathbf {B}) _ {\text {丙}} = 1 0. 1 1 2 \mathrm{mol}
+n (\mathbf {B}) = n (\mathbf {B}) _ {\text {乙}} + n (\mathbf {B}) _ {\text {丙}} = 10.112 \mathrm{mol}
 $$
 
 $$
-\begin{array}{r l} n (\mathbf {C}) & = n (\mathbf {C}) _ {\text {乙}} + n (\mathbf {C}) _ {\text {丙}} = 0. 8 8 8 \mathrm{mol} \\ & n _ {\text {总}} = 1 2. 1 1 2 \mathrm{mol} \end{array}
+\begin{array}{r l} n (\mathbf {C}) & = n (\mathbf {C}) _ {\text {乙}} + n (\mathbf {C}) _ {\text {丙}} = 0.888 \mathrm{mol} \\ & n _ {\text {总}} = 12.112 \mathrm{mol} \end{array}
 $$
 
 $$
-Q = \frac {\frac {0 . 8 8 8}{1 2 . 1 1 2}}{\frac {1 . 1 1 2}{1 2 . 1 1 2} \times \frac {1 0 . 1 1 2}{1 2 . 1 1 2}} = 0. 9 5 7 <   K ^ {\ominus}
+Q = \frac {\frac {0.888}{12.112}}{\frac {1.112}{12.112} \times \frac {10.112}{12.112}} = 0.957 <   K ^ {\ominus}
 $$
 
 因此，撤去活塞2后，反应正方向进行，气体总物质的量减少，压强降低，活塞3向左侧移动。
@@ -5429,13 +5429,13 @@ $$
 3-2 该反应式可以看做第一个和第三个半反应式以及 CuS 的溶解平衡式的加和。可以先计算下面这个反应式的电动势：
 
 $$
-\begin{array}{r l}&3 \mathrm{S} ^ {2 -} + 2 \mathrm{NO} _ {3} ^ {-} + 8 \mathrm{H} ^ {+} \rightleftharpoons 2 \mathrm{NO} + 3 \mathrm{S} + 4 \mathrm{H} _ {2} \mathrm{O}\\E ^ {\ominus} = E _ {1} ^ {\ominus} - E _ {3} ^ {\ominus} = [ 0. 9 5 7 - (- 0. 4 7 6) ] \mathrm{V} = 1. 4 3 3 \mathrm{V}\end{array}
+\begin{array}{r l}&3 \mathrm{S} ^ {2 -} + 2 \mathrm{NO} _ {3} ^ {-} + 8 \mathrm{H} ^ {+} \rightleftharpoons 2 \mathrm{NO} + 3 \mathrm{S} + 4 \mathrm{H} _ {2} \mathrm{O}\\E ^ {\ominus} = E _ {1} ^ {\ominus} - E _ {3} ^ {\ominus} = [ 0.957 - (- 0.476) ] \mathrm{V} = 1.433 \mathrm{V}\end{array}
 $$
 
 接下来可以通过 Nernst 方程计算：
 
 $$
-\begin{array}{r l} & {\left[ \mathrm{S} ^ {2 -} \right] = \frac {K _ {\mathrm{sp}}}{\left[ \mathrm{Cu} ^ {2 +} \right]} = 6. 3 \times 1 0 ^ {- 3 6} \mathrm{molL} ^ {- 1}} \\ & {\qquad E = E ^ {\ominus} + \frac {R T}{n F} \ln [ \mathrm{S} ^ {2 -} ] ^ {3} = 0. 3 9 1 \mathrm{V}} \\ & {\qquad K ^ {\ominus} = \mathrm{e} ^ {\frac {n F E}{R T}} = 4. 3 \times 1 0 ^ {3 9}} \end{array}
+\begin{array}{r l} & {\left[ \mathrm{S} ^ {2 -} \right] = \frac {K _ {\mathrm{sp}}}{\left[ \mathrm{Cu} ^ {2 +} \right]} = 6.3 \times 10 ^ {- 36} \mathrm{molL} ^ {- 1}} \\ & {\qquad E = E ^ {\ominus} + \frac {R T}{n F} \ln [ \mathrm{S} ^ {2 -} ] ^ {3} = 0.391 \mathrm{V}} \\ & {\qquad K ^ {\ominus} = \mathrm{e} ^ {\frac {n F E}{R T}} = 4.3 \times 10 ^ {39}} \end{array}
 $$
 
 仔细观察可以发现,本题中数据多余, $K_{1}K_{2}$ 、 $E_{2}^{\ominus}$ 和 $E_{3}^{\ominus}$ 这三个数据中,任意两个数据均可以计算出第三个数据。稍加计算,可以发现这三个数据相互矛盾。
@@ -5489,11 +5489,11 @@ X 的坐标只能为 $(0.5, 0.5, 0)$ 或 $(0.5, 0.5, 0.5)$ ，从已经部分完
 5-6 本小题是典型的关于晶胞密度的计算, 只要注意单位的转化, 就没有什么难度了。
 
 $$
-M = \rho a ^ {2} c N _ {\mathrm{A}} = (6. 4 9 \times 3 8 5. 9 ^ {2} \times 1 2 6 9. 7 \times 6. 0 2 2 \times 1 0 ^ {- 7}) \mathrm{g} \mathrm{mol} ^ {- 1} = 7 3 9 \mathrm{g} \mathrm{mol} ^ {- 1}
+M = \rho a ^ {2} c N _ {\mathrm{A}} = (6.49 \times 385.9 ^ {2} \times 1269.7 \times 6.022 \times 10 ^ {- 7}) \mathrm{g} \mathrm{mol} ^ {- 1} = 739 \mathrm{g} \mathrm{mol} ^ {- 1}
 $$
 
 $$
-M (\mathbf {X}) = (7 3 9 - 1 6. 0 0 \times 6 - 6 3. 5 5 \times 2 - 1 3 7. 3 \times 2 - 2 0 0. 6) \mathrm{g} \mathrm{mol} ^ {- 1} = 4 1 \mathrm{g} \mathrm{mol} ^ {- 1}
+M (\mathbf {X}) = (739 - 16.00 \times 6 - 63.55 \times 2 - 137.3 \times 2 - 200.6) \mathrm{g} \mathrm{mol} ^ {- 1} = 41 \mathrm{g} \mathrm{mol} ^ {- 1}
 $$
 
 从相对原子质量看,最接近的是 Ca, 同时 Ca 的化合价为 +2, 符合 B 的化学式。据此可以确定 X 为 Ca。
@@ -5519,7 +5519,7 @@ K _ {2} ^ {\ominus} = \frac {p _ {\mathrm{NH} _ {3}}}{p ^ {\ominus}} \frac {p _ 
 $$
 
 $$
-p _ {\mathrm{NH} _ {3}} = \frac {K _ {2} ^ {\ominus}}{K _ {1} ^ {\ominus}} p ^ {\ominus} = \frac {\mathrm{e} ^ {- \frac {\Delta_ {\mathrm{r}} G _ {\mathrm{m} 2} ^ {\ominus}}{K T}}}{\mathrm{e} ^ {- \frac {\Delta_ {\mathrm{r}} G _ {\mathrm{m} 1} ^ {\ominus}}{K T}}} p ^ {\ominus} = 0. 9 8 0 p ^ {\ominus}
+p _ {\mathrm{NH} _ {3}} = \frac {K _ {2} ^ {\ominus}}{K _ {1} ^ {\ominus}} p ^ {\ominus} = \frac {\mathrm{e} ^ {- \frac {\Delta_ {\mathrm{r}} G _ {\mathrm{m} 2} ^ {\ominus}}{K T}}}{\mathrm{e} ^ {- \frac {\Delta_ {\mathrm{r}} G _ {\mathrm{m} 1} ^ {\ominus}}{K T}}} p ^ {\ominus} = 0.980 p ^ {\ominus}
 $$
 
 6-2 本题考查的是化学反应中的自由度。对于这两个化学反应方程式，物种数 S=6；独立化学反应数 R=2；限制条件为真空，即 $H_{2}O$ 和 $CO_{2}$ 的分压相同， $R'=1$ 。
@@ -5533,7 +5533,7 @@ $$
 6-3 (1)-(2)得
 
 $$
-\begin{array}{r l} & 2 \mathrm {NaHC O _ {3} (s) + NH_ {3} (g)} = \mathrm {Na_ {2} CO_ {3} (s) + NH_ {4} HC O _ {3} (s)} \\ & \Delta_ {\mathrm{r}} G _ {\mathrm{m}} ^ {\ominus} = \Delta_ {\mathrm{r}} G _ {\mathrm{m1}} ^ {\ominus} - \Delta_ {\mathrm{r}} G _ {\mathrm{m2}} ^ {\ominus} = \left(- 4 2 4 2 6 + \frac {1 4 2 . 2 T}{\mathrm{K}}\right) \mathrm{Jmol} ^ {- 1} \\ & K ^ {\ominus} = \frac {1}{\frac {p _ {\mathrm {NH_ {3}}}}{p ^ {\ominus}}} = 2 \\ & \Delta_ {\mathrm{r}} G _ {\mathrm{m}} ^ {\ominus} = - R T \ln K ^ {\ominus} = - R T \ln 2 = (- 4 2 4 2 6 + 1 4 2. 2 T / \mathrm{K}) \mathrm{Jmol} ^ {- 1} \end{array}
+\begin{array}{r l} & 2 \mathrm {NaHC O _ {3} (s) + NH_ {3} (g)} = \mathrm {Na_ {2} CO_ {3} (s) + NH_ {4} HC O _ {3} (s)} \\ & \Delta_ {\mathrm{r}} G _ {\mathrm{m}} ^ {\ominus} = \Delta_ {\mathrm{r}} G _ {\mathrm{m1}} ^ {\ominus} - \Delta_ {\mathrm{r}} G _ {\mathrm{m2}} ^ {\ominus} = \left(- 42426 + \frac {142.2 T}{\mathrm{K}}\right) \mathrm{Jmol} ^ {- 1} \\ & K ^ {\ominus} = \frac {1}{\frac {p _ {\mathrm {NH_ {3}}}}{p ^ {\ominus}}} = 2 \\ & \Delta_ {\mathrm{r}} G _ {\mathrm{m}} ^ {\ominus} = - R T \ln K ^ {\ominus} = - R T \ln 2 = (- 42426 + 142.2 T / \mathrm{K}) \mathrm{Jmol} ^ {- 1} \end{array}
 $$
 
 解得 T=286.7 K。
@@ -5545,7 +5545,7 @@ $\mathrm{NaHCO_{3}(s)、Na_{2}CO_{3}(s)}$ 和 $\mathrm{NH_{4}HCO_{3}(s)}$ 共存
 只存在 $NH_{4}HCO_{3}(s)$ 时：
 
 $$
-\Delta_ {\mathrm{r}} G _ {\mathrm{m} 2} ^ {\ominus} = (1 7 1 5 0 2 - 4 7 6. 4 T / \mathrm{K}) \mathrm{J} \mathrm{mol} ^ {- 1} = - R T \ln \left(\frac {p _ {\mathrm{NH} _ {3}}}{p ^ {\ominus}}\right) ^ {3}
+\Delta_ {\mathrm{r}} G _ {\mathrm{m} 2} ^ {\ominus} = (171502 - 476.4 T / \mathrm{K}) \mathrm{J} \mathrm{mol} ^ {- 1} = - R T \ln \left(\frac {p _ {\mathrm{NH} _ {3}}}{p ^ {\ominus}}\right) ^ {3}
 $$
 
 解得 $p_{\mathrm{NH_3}} = 0.0188p^{\ominus} < 0.980p^{\ominus}$ 。所以三种物质共存时， $\mathbf{NH}_4\mathbf{HCO}_3(\mathbf{s})$ 分解会加剧。
@@ -5555,17 +5555,17 @@ $$
 只存在 $NH_{4}HCO_{3}(s)$ 时：
 
 $$
-p _ {\mathrm{H} _ {2} \mathrm{O}} = p _ {\mathrm{CO} _ {2}} = p _ {\mathrm{NH} _ {3}} = 0. 0 1 8 8 p ^ {\ominus}
+p _ {\mathrm{H} _ {2} \mathrm{O}} = p _ {\mathrm{CO} _ {2}} = p _ {\mathrm{NH} _ {3}} = 0.0188 p ^ {\ominus}
 $$
 
 若向体系中加入 $\mathrm{NaHCO_{3}(s)}$ 和 $\mathrm{Na_{2}CO_{3}(s)}$ ，对于反应(1):
 
 $$
-K _ {1} ^ {\ominus} = \mathrm{e} ^ {- \frac {\Delta_ {\mathrm{r}} G _ {\mathrm{ml}} ^ {\ominus}}{R T}} = 6. 7 9 \times 1 0 ^ {- 6}
+K _ {1} ^ {\ominus} = \mathrm{e} ^ {- \frac {\Delta_ {\mathrm{r}} G _ {\mathrm{ml}} ^ {\ominus}}{R T}} = 6.79 \times 10 ^ {- 6}
 $$
 
 $$
-Q = \frac {p _ {\mathrm{H} _ {2} \mathrm{O}}}{p ^ {\ominus}} \frac {p _ {\mathrm{CO} _ {2}}}{p ^ {\ominus}} = 3. 5 3 \times 1 0 ^ {- 4} > 6. 7 9 \times 1 0 ^ {- 6}
+Q = \frac {p _ {\mathrm{H} _ {2} \mathrm{O}}}{p ^ {\ominus}} \frac {p _ {\mathrm{CO} _ {2}}}{p ^ {\ominus}} = 3.53 \times 10 ^ {- 4} > 6.79 \times 10 ^ {- 6}
 $$
 
 反应(1)会逆方向进行， $p_{H_{2}O}$ 和 $p_{CO_{2}}$ 降低，拉动反应(2)正方向进行， $NH_{4}HCO_{3}(s)$ 分解会加剧。
@@ -5583,7 +5583,7 @@ $$
 6-6-2 通入的 $O_{2}$ 全部转化为 $CO_{2}$ ,
 
 $$
-p _ {\mathrm{CO} _ {2}} = p _ {\mathrm{O} _ {2}} = 0. 2 1 p ^ {\ominus}
+p _ {\mathrm{CO} _ {2}} = p _ {\mathrm{O} _ {2}} = 0.21 p ^ {\ominus}
 $$
 
 根据表格可知,温度至少需要维持在 $795^{\circ}C$ , 才能让 $\mathrm{CaCO}_{3}(\mathrm{s})$ 持续分解。
@@ -5597,11 +5597,11 @@ $$
 7-1 首先计算在题设浓度条件下,各半反应的电极电势:
 
 $$
-\begin{array}{r l} & {\left[ \mathrm{Pb} ^ {2 +} \right] = 0. 0 1 0 0 \mathrm{mol} \mathrm{L} ^ {- 1}} \\ & {\left[ \mathrm{Cu} ^ {2 +} \right] = 0. 0 5 0 0 \mathrm{mol} \mathrm{L} ^ {- 1}} \\ & {\left[ \mathrm{Cl} ^ {-} \right] = 2 \times 0. 0 1 0 0 \mathrm{mol} \mathrm{L} ^ {- 1} + 2 \times 0. 0 5 0 0 \mathrm{mol} \mathrm{L} ^ {- 1} = 0. 1 2 0 \mathrm{mol} \mathrm{L} ^ {- 1}} \\ & {\left[ \mathrm{H} ^ {+} \right] = 1 \times 1 0 ^ {- 7} \mathrm{mol} \mathrm{L} ^ {- 1}} \\ & {\varphi (\mathrm{Pb} ^ {2 +} / \mathrm{Pb}) = \varphi^ {\ominus} (\mathrm{Pb} ^ {2 +} / \mathrm{Pb}) + \frac {0 . 0 5 9 2}{2} \lg [ \mathrm{Pb} ^ {2 +} ] = - 0. 1 8 4 \mathrm{V}} \\ & {\varphi (\mathrm{Cu} ^ {2 +} / \mathrm{Cu}) = \varphi^ {\ominus} (\mathrm{Cu} ^ {2 +} / \mathrm{Cu}) + \frac {0 . 0 5 9 2}{2} \lg [ \mathrm{Cu} ^ {2 +} ] = 0. 2 9 8 \mathrm{V}} \\ & {\varphi (\mathrm{Cl} _ {2} / \mathrm{Cl} ^ {-}) = \varphi^ {\ominus} (\mathrm{Cl} _ {2} / \mathrm{Cl} ^ {-}) - \frac {0 . 0 5 9 2}{1} \lg [ \mathrm{Cl} ^ {-} ] = 1. 4 1 \mathrm{V}} \end{array}
+\begin{array}{r l} & {\left[ \mathrm{Pb} ^ {2 +} \right] = 0.0100 \mathrm{mol} \mathrm{L} ^ {- 1}} \\ & {\left[ \mathrm{Cu} ^ {2 +} \right] = 0.0500 \mathrm{mol} \mathrm{L} ^ {- 1}} \\ & {\left[ \mathrm{Cl} ^ {-} \right] = 2 \times 0.0100 \mathrm{mol} \mathrm{L} ^ {- 1} + 2 \times 0.0500 \mathrm{mol} \mathrm{L} ^ {- 1} = 0.120 \mathrm{mol} \mathrm{L} ^ {- 1}} \\ & {\left[ \mathrm{H} ^ {+} \right] = 1 \times 10 ^ {- 7} \mathrm{mol} \mathrm{L} ^ {- 1}} \\ & {\varphi (\mathrm{Pb} ^ {2 +} / \mathrm{Pb}) = \varphi^ {\ominus} (\mathrm{Pb} ^ {2 +} / \mathrm{Pb}) + \frac {0.0592}{2} \lg [ \mathrm{Pb} ^ {2 +} ] = - 0.184 \mathrm{V}} \\ & {\varphi (\mathrm{Cu} ^ {2 +} / \mathrm{Cu}) = \varphi^ {\ominus} (\mathrm{Cu} ^ {2 +} / \mathrm{Cu}) + \frac {0.0592}{2} \lg [ \mathrm{Cu} ^ {2 +} ] = 0.298 \mathrm{V}} \\ & {\varphi (\mathrm{Cl} _ {2} / \mathrm{Cl} ^ {-}) = \varphi^ {\ominus} (\mathrm{Cl} _ {2} / \mathrm{Cl} ^ {-}) - \frac {0.0592}{1} \lg [ \mathrm{Cl} ^ {-} ] = 1.41 \mathrm{V}} \end{array}
 $$
 
 $$
-\varphi (\mathrm{O} _ {2} / \mathrm{H} _ {2} \mathrm{O}) = \varphi^ {\ominus} (\mathrm{O} _ {2} / \mathrm{H} _ {2} \mathrm{O}) + \frac {0 . 0 5 9 2}{4} \lg [ \mathrm{H} ^ {+} ] ^ {4} = 0. 8 1 5 \mathrm{V}
+\varphi (\mathrm{O} _ {2} / \mathrm{H} _ {2} \mathrm{O}) = \varphi^ {\ominus} (\mathrm{O} _ {2} / \mathrm{H} _ {2} \mathrm{O}) + \frac {0.0592}{4} \lg [ \mathrm{H} ^ {+} ] ^ {4} = 0.815 \mathrm{V}
 $$
 
 由于 $\varphi(\mathrm{Pb}^{2+}/\mathrm{Pb})<\varphi(\mathrm{Cu}^{2+}/\mathrm{Cu})$ ，第二个析出的金属是 Pb，且两者相差较大，可认为 Pb 开始析出时，Cu 几乎完全析出。因为 $\varphi(\mathrm{Cl}_{2}/\mathrm{Cl}^{-})>\varphi(\mathrm{O}_{2}/\mathrm{H}_{2}\mathrm{O})$ ，所以在阳极上析出的是氧气。
@@ -5609,7 +5609,7 @@ $$
 当铜完全析出时， $\left[H^{+}\right]=2\times0.0500\ mol\ L^{-1}=0.100\ mol\ L^{-1}$ 。
 
 $$
-\varphi (\mathrm{O} _ {2} / \mathrm{H} _ {2} \mathrm{O}) = \varphi^ {\ominus} (\mathrm{O} _ {2} / \mathrm{H} _ {2} \mathrm{O}) + \frac {0 . 0 5 9 2}{4} \lg [ \mathrm{H} ^ {+} ] ^ {4} = 1. 1 7 0 \mathrm{V}
+\varphi (\mathrm{O} _ {2} / \mathrm{H} _ {2} \mathrm{O}) = \varphi^ {\ominus} (\mathrm{O} _ {2} / \mathrm{H} _ {2} \mathrm{O}) + \frac {0.0592}{4} \lg [ \mathrm{H} ^ {+} ] ^ {4} = 1.170 \mathrm{V}
 $$
 
 阳极上析出的仍然是氧气。
@@ -5617,7 +5617,7 @@ $$
 则析出 Pb 时的电动势为
 
 $$
-E = \varphi (\mathrm{O} _ {2} / \mathrm{H} _ {2} \mathrm{O}) - \varphi (\mathrm{Pb} ^ {2 +} / \mathrm{Pb}) = 1. 3 5 4 \mathrm{V}
+E = \varphi (\mathrm{O} _ {2} / \mathrm{H} _ {2} \mathrm{O}) - \varphi (\mathrm{Pb} ^ {2 +} / \mathrm{Pb}) = 1.354 \mathrm{V}
 $$
 
 此时 $\varphi (\mathrm{Cu}^{2 + } / \mathrm{Cu}) = \varphi^{\ominus}(\mathrm{Cu}^{2 + } / \mathrm{Cu}) + \frac{0.0592}{2}\lg [\mathrm{Cu}^{2 + }] = \varphi (\mathrm{Pb}^{2 + } / \mathrm{Pb}) = -0.184\mathrm{V}$
@@ -5629,7 +5629,7 @@ $$
 7-2 本题与电极反应无关,主要是考虑在题设条件下,CuOH 是否能够稳定存在。反应式为
 
 $$
-\begin{array}{r l} & \mathrm{Cu} ^ {2 +} + \mathrm{Cu} + 2 \mathrm{H} _ {2} \mathrm{O} \longrightarrow 2 \mathrm{CuOH} + 2 \mathrm{H} ^ {+} \\ \boldsymbol {E} = \varphi^ {\ominus} (\mathrm{Cu} ^ {2 +} / \mathrm{Cu} ^ {+}) - \varphi^ {\ominus} (\mathrm{Cu} ^ {+} / \mathrm{Cu}) + \frac {0 . 0 5 9 2}{1} \lg \frac {[ \mathrm{Cu} ^ {2 +} ] K _ {\mathrm{w}} ^ {2}}{K _ {\mathrm{sp}} ^ {2} [ \mathrm{H} ^ {+} ] ^ {2}} = \mathbf {0}. \mathbf {0 3 7 V} > \mathbf {0} \end{array}
+\begin{array}{r l} & \mathrm{Cu} ^ {2 +} + \mathrm{Cu} + 2 \mathrm{H} _ {2} \mathrm{O} \longrightarrow 2 \mathrm{CuOH} + 2 \mathrm{H} ^ {+} \\ \boldsymbol {E} = \varphi^ {\ominus} (\mathrm{Cu} ^ {2 +} / \mathrm{Cu} ^ {+}) - \varphi^ {\ominus} (\mathrm{Cu} ^ {+} / \mathrm{Cu}) + \frac {0.0592}{1} \lg \frac {[ \mathrm{Cu} ^ {2 +} ] K _ {\mathrm{w}} ^ {2}}{K _ {\mathrm{sp}} ^ {2} [ \mathrm{H} ^ {+} ] ^ {2}} = \mathbf {0}. \mathbf {037 V} > \mathbf {0} \end{array}
 $$
 
 故该反应能够发生, 即 CuOH 能够生成。
@@ -5637,7 +5637,7 @@ $$
 此外，也可通过平衡常数来计算：
 
 $$
-\begin{array}{r l} & \mathrm {Cu^ {2 + } + Cu\longrightarrow 2Cu^ {+}} \\ E ^ {\ominus} = \varphi^ {\ominus} (\mathrm {Cu^ {2 + } / Cu^ {+}}) - \varphi^ {\ominus} (\mathrm {Cu^ {+} / Cu}) \\ & = \varphi^ {\ominus} (\mathrm {Cu^ {2 + } / Cu^ {+}}) - [ 2 \varphi^ {\ominus} (\mathrm {Cu^ {2 + } / Cu}) - \varphi^ {\ominus} (\mathrm {Cu^ {2 + } / Cu^ {+}}) ] = - 0. 3 5 4 \mathrm{V} \\ & \frac {[ \mathrm {Cu^ {+}} ] ^ {2}}{[ \mathrm {Cu^ {2 + }} ]} = K ^ {\ominus} = \mathrm{e} ^ {\frac {n F E ^ {\ominus}}{R T}} \\ & [ \mathrm {Cu^ {+}} ] = \sqrt {[ \mathrm {Cu^ {2 + }} ] \mathrm{e} ^ {\frac {n F E ^ {\ominus}}{R T}}} = 2. 0 4 \times 1 0 ^ {- 4} \mathrm{molL} ^ {- 1} \\ & [ \mathrm {OH^ {-}} ] = 1 \times 1 0 ^ {- 1 0} \mathrm{molL} ^ {- 1} \\ & Q = [ \mathrm {Cu^ {+}} ] [ \mathrm {OH^ {-}} ] = 2. 0 4 \times 1 0 ^ {- 1 4} > K _ {\mathrm{sp}} \end{array}
+\begin{array}{r l} & \mathrm {Cu^ {2 + } + Cu\longrightarrow 2Cu^ {+}} \\ E ^ {\ominus} = \varphi^ {\ominus} (\mathrm {Cu^ {2 + } / Cu^ {+}}) - \varphi^ {\ominus} (\mathrm {Cu^ {+} / Cu}) \\ & = \varphi^ {\ominus} (\mathrm {Cu^ {2 + } / Cu^ {+}}) - [ 2 \varphi^ {\ominus} (\mathrm {Cu^ {2 + } / Cu}) - \varphi^ {\ominus} (\mathrm {Cu^ {2 + } / Cu^ {+}}) ] = - 0.354 \mathrm{V} \\ & \frac {[ \mathrm {Cu^ {+}} ] ^ {2}}{[ \mathrm {Cu^ {2 + }} ]} = K ^ {\ominus} = \mathrm{e} ^ {\frac {n F E ^ {\ominus}}{R T}} \\ & [ \mathrm {Cu^ {+}} ] = \sqrt {[ \mathrm {Cu^ {2 + }} ] \mathrm{e} ^ {\frac {n F E ^ {\ominus}}{R T}}} = 2.04 \times 10 ^ {- 4} \mathrm{molL} ^ {- 1} \\ & [ \mathrm {OH^ {-}} ] = 1 \times 10 ^ {- 10} \mathrm{molL} ^ {- 1} \\ & Q = [ \mathrm {Cu^ {+}} ] [ \mathrm {OH^ {-}} ] = 2.04 \times 10 ^ {- 14} > K _ {\mathrm{sp}} \end{array}
 $$
 
 会有 CuOH 生成。
@@ -5645,23 +5645,23 @@ $$
 7-3
 
 $$
-\mathrm{Cu} ^ {2 +} + \mathrm{H} _ {2} \mathrm{O} \longrightarrow \mathrm{Cu(OH)} ^ {+} + \mathrm{H} ^ {+} \quad K = 0. 1 2 5
+\mathrm{Cu} ^ {2 +} + \mathrm{H} _ {2} \mathrm{O} \longrightarrow \mathrm{Cu(OH)} ^ {+} + \mathrm{H} ^ {+} \quad K = 0.125
 $$
 
 事实上，本题缺少数据，无法计算。不过根据官方提供的参考答案，可以推断出并没有加入酸，应将“加酸调 pH=3.00”改为“测得 pH=3.00”。
 
 $$
-\left[ \mathrm{Cu} (\mathrm{OH}) ^ {+} \right] \approx \left[ \mathrm{H} ^ {+} \right] = 1. 0 0 \times 1 0 ^ {- 3} \mathrm{mol} \mathrm{L} ^ {- 1}
+\left[ \mathrm{Cu} (\mathrm{OH}) ^ {+} \right] \approx \left[ \mathrm{H} ^ {+} \right] = 1.00 \times 10 ^ {- 3} \mathrm{mol} \mathrm{L} ^ {- 1}
 $$
 
 $$
-\begin{array}{r l} & {\left[ \mathrm{Cu} ^ {2 +} \right] = \frac {\left[ \mathrm{Cu(OH)} ^ {+} \right] \left[ \mathrm{H} ^ {+} \right]}{K} = 8. 0 0 \times 1 0 ^ {- 6} \mathrm{molL} ^ {- 1}} \\ & {c (\mathrm{CuCl} _ {2}) = \left[ \mathrm{Cu(OH)} ^ {+} \right] + \left[ \mathrm{Cu} ^ {2 +} \right] = 1. 0 1 \times 1 0 ^ {- 3} \mathrm{molL} ^ {- 1}} \\ & {m (\mathrm{CuCl} _ {2}) = c (\mathrm{CuCl} _ {2}) M (\mathrm{CuCl} _ {2}) V = 0. 1 3 5 \mathrm{g}} \end{array}
+\begin{array}{r l} & {\left[ \mathrm{Cu} ^ {2 +} \right] = \frac {\left[ \mathrm{Cu(OH)} ^ {+} \right] \left[ \mathrm{H} ^ {+} \right]}{K} = 8.00 \times 10 ^ {- 6} \mathrm{molL} ^ {- 1}} \\ & {c (\mathrm{CuCl} _ {2}) = \left[ \mathrm{Cu(OH)} ^ {+} \right] + \left[ \mathrm{Cu} ^ {2 +} \right] = 1.01 \times 10 ^ {- 3} \mathrm{molL} ^ {- 1}} \\ & {m (\mathrm{CuCl} _ {2}) = c (\mathrm{CuCl} _ {2}) M (\mathrm{CuCl} _ {2}) V = 0.135 \mathrm{g}} \end{array}
 $$
 
 7-4 此题中相关浓度与 7-1 中相同：
 
 $$
-\begin{array}{r l} & \varphi (\mathrm{Cl} _ {2} / \mathrm{Cl} ^ {-}) = 1. 4 1 \mathrm{V} \\ & \varphi (\mathrm{O} _ {2} / \mathrm{H} _ {2} \mathrm{O}) = 0. 8 1 5 \mathrm{V} + 0. 8 0 0 \mathrm{V} = 1. 6 1 5 \mathrm{V} > \varphi (\mathrm{Cl} _ {2} / \mathrm{Cl} ^ {-}) \end{array}
+\begin{array}{r l} & \varphi (\mathrm{Cl} _ {2} / \mathrm{Cl} ^ {-}) = 1.41 \mathrm{V} \\ & \varphi (\mathrm{O} _ {2} / \mathrm{H} _ {2} \mathrm{O}) = 0.815 \mathrm{V} + 0.800 \mathrm{V} = 1.615 \mathrm{V} > \varphi (\mathrm{Cl} _ {2} / \mathrm{Cl} ^ {-}) \end{array}
 $$
 
 因为超电势的存在,所以在实际生产中,电解一般会先生成氯气,因此氯碱工业法制氯气可行。
@@ -6008,7 +6008,7 @@ $$
 准确得到答案的：
 
 $$
-5 \mathrm{Fe} (\mathrm{CN}) _ {6} ^ {4 -} + 6 1 \mathrm{MnO} _ {4} ^ {-} + 1 8 8 \mathrm{H} ^ {+} = 5 \mathrm{Fe} ^ {3 +} + 6 1 \mathrm{Mn} ^ {2 +} + 3 0 \mathrm{NO} _ {3} ^ {-} + 3 0 \mathrm{CO} _ {2} \uparrow + 9 4 \mathrm{H} _ {2} \mathrm{O}
+5 \mathrm{Fe} (\mathrm{CN}) _ {6} ^ {4 -} + 61 \mathrm{MnO} _ {4} ^ {-} + 188 \mathrm{H} ^ {+} = 5 \mathrm{Fe} ^ {3 +} + 61 \mathrm{Mn} ^ {2 +} + 30 \mathrm{NO} _ {3} ^ {-} + 30 \mathrm{CO} _ {2} \uparrow + 94 \mathrm{H} _ {2} \mathrm{O}
 $$
 
 1-4 这是一个典型的歧化反应。硫酸银微溶 $(K_{\mathrm{sp}}=1.20\times10^{-5})$ 而硫化银难溶 $(K_{\mathrm{sp}}=6.69\times10^{-50})$ 是我们的常识，所以在硫离子的存在下，硫酸银必定会转化为硫化银。而硫离子必然由硫歧化而得到。问题的关键在于，另一种歧化产物是什么？题目告诉我们“所得溶液中加碘水不褪色”，表明另一个产物不显还原性，只有硫酸具有这个特点。体系中没有其他物质，反应生成硫酸也不会破坏硫化银的形成，故反应体系应为酸性。根据以上信息便可以得到结果：
@@ -6104,11 +6104,11 @@ $$
 3-1-1 考查同学们对能量守恒定律的掌握。高温金属投入低温水中，最后两者能量一致，这是一个能量转化与守恒的过程。因此我们可以列出如下方程：
 
 $$
-4 0. 0 \mathrm{g} \times c _ {\mathrm{m}} \times (1 0 0 ^ {\circ} \mathrm{C} - 1 7. 2 ^ {\circ} \mathrm{C}) = 5 0. 0 \mathrm{g} \times 4. 1 8 \mathrm{Jg} ^ {- 1} ^ {\circ} \mathrm{C} ^ {- 1} (1 7. 2 ^ {\circ} \mathrm{C} - 1 5. 2 ^ {\circ} \mathrm{C})
+40.0 \mathrm{g} \times c _ {\mathrm{m}} \times (100 ^ {\circ} \mathrm{C} - 17.2 ^ {\circ} \mathrm{C}) = 50.0 \mathrm{g} \times 4.18 \mathrm{Jg} ^ {- 1} ^ {\circ} \mathrm{C} ^ {- 1} (17.2 ^ {\circ} \mathrm{C} - 15.2 ^ {\circ} \mathrm{C})
 $$
 
 $$
-c _ {\mathrm{m}} = 0. 1 2 6 \mathrm{Jg} ^ {- 1} \mathrm {^ {\circ} C} ^ {- 1}
+c _ {\mathrm{m}} = 0.126 \mathrm{Jg} ^ {- 1} \mathrm {^ {\circ} C} ^ {- 1}
 $$
 
 然后利用题目中给出的条件：“金属的比热与其相对原子质量的乘积近似为 $6 \, cal \, g^{-1} \, ^{\circ}C^{-1}$ ”，可得金属 M 的相对原子质量： $\frac{6 \times 4.18 \, J \, g^{-1} \, ^{\circ}C^{-1}}{0.126 \, J \, g^{-1} \, ^{\circ}C^{-1}} = 199$ ，所以 M 的摩尔质量为 $199 \, g \, mol^{-1}$ 。
@@ -6116,13 +6116,13 @@ $$
 3-1-2 本题是我们熟悉的假设推演题。先设计出模型 $M_{n}O_{m}$ ，由题给条件：金属M的粉末样品1.000 g，得金属的物质的量为
 
 $$
-\frac {1 . 0 0 0 \mathrm{g}}{1 9 9 \mathrm{g} \mathrm{mol} ^ {- 1}} = 5. 0 3 \times 1 0 ^ {- 3} \mathrm{mol}
+\frac {1.000 \mathrm{g}}{199 \mathrm{g} \mathrm{mol} ^ {- 1}} = 5.03 \times 10 ^ {- 3} \mathrm{mol}
 $$
 
 而反应后多出的质量即为氧元素的质量,所以可以算出氧的物质的量:
 
 $$
-\frac {0 . 3 3 6 \mathrm{g}}{1 6 . 0 0 \mathrm{g} \mathrm{mol} ^ {- 1}} = 0. 0 2 1 0 \mathrm{mol}
+\frac {0.336 \mathrm{g}}{16.00 \mathrm{g} \mathrm{mol} ^ {- 1}} = 0.0210 \mathrm{mol}
 $$
 
 因此 $n: m = (5.03 \times 10^{-3}) : 0.0210 = 1 : 4.17 \approx 1 : 4$ ，化学式应为 $MO_{4}$ 。再倒推金属的摩
@@ -6130,7 +6130,7 @@ $$
 尔质量,即可得到精确值:
 
 $$
-M = \frac {1 . 3 3 6 \mathrm{g}}{(0 . 0 2 1 0 / 4) \mathrm{mol}} - (4 \times 1 6. 0 0) \mathrm{g} \mathrm{mol} ^ {- 1} = 1 9 0 \mathrm{g} \mathrm{mol} ^ {- 1}
+M = \frac {1.336 \mathrm{g}}{(0.0210 / 4) \mathrm{mol}} - (4 \times 16.00) \mathrm{g} \mathrm{mol} ^ {- 1} = 190 \mathrm{g} \mathrm{mol} ^ {- 1}
 $$
 
 3-1-3 此题建立在前两问的基础上,非常简单。只要成功答出前两问,将摩尔质量对照试卷卷首给出的元素周期表,即可得知此元素是饿,答 Os 也可以。
@@ -6138,7 +6138,7 @@ $$
 3-2 此问是简单计算题。先根据题目中的质量分数，求出各种元素在各组分中的物质的量。不妨设有 $100\mathrm{g}$ 原料样品，那么高岭土的质量为： $100\mathrm{g} \times 10.0\% = 10.0\mathrm{g}$ 。则高岭土的物质的量为
 
 $$
-\frac {1 0 . 0 \mathrm{g}}{2 5 8 . 2 \mathrm{gmol} ^ {- 1}} = 0. 0 3 8 7 \mathrm{mol}
+\frac {10.0 \mathrm{g}}{258.2 \mathrm{gmol} ^ {- 1}} = 0.0387 \mathrm{mol}
 $$
 
 所以高岭土中的铝有 0.0774 mol，硅有 0.0774 mol。
@@ -6146,19 +6146,19 @@ $$
 用同样的计算方法可得水铝石的质量为 90.0 g，其物质的量为 1.154 mol，其中的铝有 1.154 mol。所以铝的总物质的量为
 
 $$
-0. 0 7 7 4 \mathrm{mol} + 1. 1 5 4 \mathrm{mol} = 1. 2 3 1 \mathrm{mol}
+0.0774 \mathrm{mol} + 1.154 \mathrm{mol} = 1.231 \mathrm{mol}
 $$
 
 而高岭土变为“泥”需要的铝为
 
 $$
-0. 0 7 7 4 \mathrm{mol} \times \frac {6}{5} = 0. 0 9 2 9 \mathrm{mol}
+0.0774 \mathrm{mol} \times \frac {6}{5} = 0.0929 \mathrm{mol}
 $$
 
 所以两者相比，即得铝的损失率：
 
 $$
-\frac {0 . 0 9 2 9 \mathrm{mol}}{1 . 2 3 1 \mathrm{mol}} = 7.54 \%
+\frac {0.0929 \mathrm{mol}}{1.231 \mathrm{mol}} = 7.54 \%
 $$
 
 评注
@@ -6184,7 +6184,7 @@ $$
 4-1&4-2 要求写出滴定有关的反应方程式。这两个反应方程式都是比较简单的反应，题目中甚至给出了碳的存在形式和氧化产物，命题者应该是有意降低难度的。对氧化还原反应有关知识能够掌握并能正确读题的同学应当不会在这里犯错误。反应方程式中氧化剂、还原剂等的存在形式和反应的酸碱环境是没有不明确之处的：
 
 $$
-\begin{array}{r l} & {4 - 1 \quad 2 \mathrm{Cr} _ {2} \mathrm{O} _ {7} ^ {2 -} + 3 \mathrm{C} + 1 6 \mathrm{H} ^ {+} = 4 \mathrm{Cr} ^ {3 +} + 3 \mathrm{CO} _ {2} + 8 \mathrm{H} _ {2} \mathrm{O}} \\ & {\text {或} \quad 2 \mathrm{K} _ {2} \mathrm{Cr} _ {2} \mathrm{O} _ {7} + 3 \mathrm{C} + 8 \mathrm{H} _ {2} \mathrm{SO} _ {4} = 2 \mathrm{K} _ {2} \mathrm{SO} _ {4} + 2 \mathrm{Cr} _ {2} (\mathrm{SO} _ {4}) _ {3} + 3 \mathrm{CO} _ {2} + 8 \mathrm{H} _ {2} \mathrm{O}} \\ & {4 - 2 \quad \mathrm{Cr} _ {2} \mathrm{O} _ {7} ^ {2 -} + 6 \mathrm{Fe} ^ {2 +} + 1 4 \mathrm{H} ^ {+} = 6 \mathrm{Fe} ^ {3 +} + 2 \mathrm{Cr} ^ {3 +} + 7 \mathrm{H} _ {2} \mathrm{O}} \\ & {\text {或} \quad \mathrm{K} _ {2} \mathrm{Cr} _ {2} \mathrm{O} _ {7} + 6 \mathrm{FeSO} _ {4} + 7 \mathrm{H} _ {2} \mathrm{SO} _ {4} = 3 \mathrm{Fe} _ {2} (\mathrm{SO} _ {4}) _ {3} + \mathrm{Cr} _ {2} (\mathrm{SO} _ {4}) _ {3} + \mathrm{K} _ {2} \mathrm{SO} _ {4} + 7 \mathrm{H} _ {2} \mathrm{O}} \end{array}
+\begin{array}{r l} & {4 - 1 \quad 2 \mathrm{Cr} _ {2} \mathrm{O} _ {7} ^ {2 -} + 3 \mathrm{C} + 16 \mathrm{H} ^ {+} = 4 \mathrm{Cr} ^ {3 +} + 3 \mathrm{CO} _ {2} + 8 \mathrm{H} _ {2} \mathrm{O}} \\ & {\text {或} \quad 2 \mathrm{K} _ {2} \mathrm{Cr} _ {2} \mathrm{O} _ {7} + 3 \mathrm{C} + 8 \mathrm{H} _ {2} \mathrm{SO} _ {4} = 2 \mathrm{K} _ {2} \mathrm{SO} _ {4} + 2 \mathrm{Cr} _ {2} (\mathrm{SO} _ {4}) _ {3} + 3 \mathrm{CO} _ {2} + 8 \mathrm{H} _ {2} \mathrm{O}} \\ & {4 - 2 \quad \mathrm{Cr} _ {2} \mathrm{O} _ {7} ^ {2 -} + 6 \mathrm{Fe} ^ {2 +} + 14 \mathrm{H} ^ {+} = 6 \mathrm{Fe} ^ {3 +} + 2 \mathrm{Cr} ^ {3 +} + 7 \mathrm{H} _ {2} \mathrm{O}} \\ & {\text {或} \quad \mathrm{K} _ {2} \mathrm{Cr} _ {2} \mathrm{O} _ {7} + 6 \mathrm{FeSO} _ {4} + 7 \mathrm{H} _ {2} \mathrm{SO} _ {4} = 3 \mathrm{Fe} _ {2} (\mathrm{SO} _ {4}) _ {3} + \mathrm{Cr} _ {2} (\mathrm{SO} _ {4}) _ {3} + \mathrm{K} _ {2} \mathrm{SO} _ {4} + 7 \mathrm{H} _ {2} \mathrm{O}} \end{array}
 $$
 
 4-3 要求计算腐殖质的含量。同学们答此题时需注意答题规范和步骤，按照正确的逻辑和顺序计算，同时也要注意运算过程中有效数字的保留。
@@ -6192,19 +6192,19 @@ $$
 首先计算样品测定中剩余的 $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$ （注意 $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$ 和 $\mathrm{Fe}^{2+}$ 的比例）：
 
 $$
-\frac {0 . 1 2 2 1 \mathrm{mol} \mathrm{L} ^ {- 1} \times 1 0 . 0 2 \mathrm{mL}}{6} = 0. 2 0 3 9 \mathrm{mmol}
+\frac {0.1221 \mathrm{mol} \mathrm{L} ^ {- 1} \times 10.02 \mathrm{mL}}{6} = 0.2039 \mathrm{mmol}
 $$
 
 然后计算空白实验中剩余的 $K_{2}Cr_{2}O_{7}$ :
 
 $$
-\frac {0 . 1 2 2 1 \mathrm{mol} \mathrm{L} ^ {- 1} \times 2 2 . 3 5 \mathrm{mL}}{6} = 0. 4 5 4 8 \mathrm{mmol}
+\frac {0.1221 \mathrm{mol} \mathrm{L} ^ {- 1} \times 22.35 \mathrm{mL}}{6} = 0.4548 \mathrm{mmol}
 $$
 
 那么腐殖质所消耗的 $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7$ 的量为
 
 $$
-0. 4 5 4 8 \mathrm{mmol} - 0. 2 0 3 9 \mathrm{mmol} = 0. 2 5 0 9 \mathrm{mmol}
+0.4548 \mathrm{mmol} - 0.2039 \mathrm{mmol} = 0.2509 \mathrm{mmol}
 $$
 
 结合 $K_{2}Cr_{2}O_{7}$ 与碳的比例,以及题目中所述的两个比例,可以算出腐殖质的质量分数(注意单位换算):
