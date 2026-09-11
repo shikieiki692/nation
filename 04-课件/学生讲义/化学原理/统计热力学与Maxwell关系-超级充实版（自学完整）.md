@@ -53,7 +53,7 @@ module: 化学原理
 | ① | 四大基本方程 + Legendre | dU=TdS−pdV 家族 | 决赛04 |
 | ② | Maxwell 关系 | 四条 + 记忆口诀 | 决赛04 |
 | ③ | Gibbs-Helmholtz | (∂(G/T)/∂T)_p=−H/T² | 决赛04 |
-| ④ | Boltzmann 分布与配分函数 | q = Σg·e^{−βε} | 决赛04 |
+| ④ | Boltzmann 分布与配分函数 | q = $Σg·e^{−βε}$ | 决赛04 |
 | ⑤ | 由配分函数求热力学量 | U = NkT²(∂lnq/∂T)_V | 决赛04 |
 | ⑥ | 统计熵应用 | Sackur-Tetrode / 残余熵 | 决赛04 |
 

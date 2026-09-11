@@ -1221,10 +1221,13 @@ def _preprocess_ce_in_math(text: str) -> str:
         """
         import re as _re
 
-        # Already fully specified with ^ or _ — just normalize bare markers
+        # Already fully specified with ^ or _ — just normalize bare markers.
+        # 注意：必须先匹配完整的 LaTeX 命令（`\beta`、`\alpha` …），否则 `C_\beta`
+        # 会被切成 `_{\` + `beta` → `C_{\}beta`，产生无效 LaTeX 导致 pandoc 无法转换。
+        _script_arg = r'(\\[a-zA-Z]+|\\.|[^{])'
         if '^' in species or _has_explicit_subscript(species):
-            s = _re.sub(r'\^([^{])', r'^{\1}', species)
-            s = _re.sub(r'_([^{])', r'_{\1}', s)
+            s = _re.sub(r'\^' + _script_arg, r'^{\1}', species)
+            s = _re.sub(r'_' + _script_arg, r'_{\1}', s)
             return s
 
         # Detect trailing charge: ClO4- → charge -, H3O+ → charge +
@@ -1255,10 +1258,32 @@ def _preprocess_ce_in_math(text: str) -> str:
 
         s = inner
 
+        def _arrow_label(m_body):
+            r"""箭头上方标注：
+              - 已经是 \text{...} 的（源里手写的）→ 原样返回，避免二次包裹成 \text{\text{…}}
+              - 含中文 → 包 \text{}
+              - LaTeX 命令（\Delta、hv）→ 直接用，包 \text{} 会让 OMML 退化成文本
+              - 纯化学式（H3O+、AlCl3）→ 走 _parse_species 补下标/电荷
+            """
+            body = m_body.strip()
+            if not body:
+                return ''
+            if body.startswith(r'\text{') and body.endswith('}'):
+                return body
+            if _re.search(r'[一-鿿]', body):
+                return r'\text{' + body + '}'
+            if body.startswith('\\'):
+                return body
+            if _re.fullmatch(r'[A-Za-z0-9+\-.\s]+', body):
+                return _parse_species(body)
+            return body
+
         # Replace arrows (longest first to avoid partial matches)
         # <-[text] and ->[text] with conditions
-        s = _re.sub(r'<-\[([^\]]*)\]', r'\\xleftarrow{\\text{\1}}', s)
-        s = _re.sub(r'->\[([^\]]*)\]', r'\\xrightarrow{\\text{\1}}', s)
+        s = _re.sub(r'<-\[([^\]]*)\]',
+                    lambda m: r'\xleftarrow{' + _arrow_label(m.group(1)) + '}', s)
+        s = _re.sub(r'->\[([^\]]*)\]',
+                    lambda m: r'\xrightarrow{' + _arrow_label(m.group(1)) + '}', s)
         # Equilibrium arrows
         s = s.replace('<=>', r' \rightleftharpoons ')
         s = s.replace('<=>', r' \rightleftharpoons ')  # double if needed
@@ -1276,24 +1301,36 @@ def _preprocess_ce_in_math(text: str) -> str:
         ])
 
         if has_latex:
+            # 带嵌套花括号的 \xrightarrow{\text{加热}} 必须先占位保护：
+            # 下面的 split 正则用 \{[^}]*\}，会在第一个 } 处截断，产生
+            # `\xrightarrow{\text{加热} }` 这种多一个空格的畸形输出。
+            _stash: list[str] = []
+
+            def _stash_arrow(m):
+                _stash.append(m.group(0))
+                return f"\x00{len(_stash) - 1}\x00"
+
+            s = _re.sub(r"\\x(?:right|left)arrow\{(?:[^{}]|\{[^{}]*\})*\}", _stash_arrow, s)
+
             # Split by " + " (species separator, NOT charge +), parse each token
             # In mhchem: "H+ + A-" → split by " + " → ["H+", "A-"]
             tokens = _re.split(r'(\s\+\s|\\rightarrow|\\leftarrow|'
-                               r'\\rightleftharpoons|\\xrightarrow\{[^}]*\}|'
-                               r'\\xleftarrow\{[^}]*\}|\\gg|\\ll)', s)
+                               r'\\rightleftharpoons|\x00\d+\x00|\\gg|\\ll)', s)
             parsed = []
             for tok in tokens:
                 tok_stripped = tok.strip()
                 if tok_stripped in ('+', '-', '\\rightarrow', '\\leftarrow',
                                     '\\rightleftharpoons', '\\gg', '\\ll'):
                     parsed.append(' ' + tok_stripped + ' ')
-                elif tok_stripped.startswith('\\xrightarrow') or tok_stripped.startswith('\\xleftarrow'):
+                elif _re.fullmatch(r'\x00\d+\x00', tok_stripped):
                     parsed.append(' ' + tok_stripped + ' ')
                 elif tok_stripped:
                     parsed.append(_parse_species(tok_stripped))
                 else:
                     parsed.append(tok)
-            return ''.join(parsed)
+            out = ''.join(parsed)
+            return _re.sub(r"\x00(\d+)\x00",
+                           lambda m: _stash[int(m.group(1))], out)
         else:
             # No arrows — parse as space-separated species
             parts = s.split()

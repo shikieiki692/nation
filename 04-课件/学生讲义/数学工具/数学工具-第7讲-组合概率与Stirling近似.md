@@ -152,9 +152,9 @@ C(n,m) = P(n,m)/m! = n! / ( m! (n−m)! )
 
 ### 3.1 二项式定理
 
-```
-(a+b)^n = Σ_{m=0}^{n} C(n,m) a^{n−m} b^m
-```
+$$
+(a+b)^{n} = \sum_{m=0}^{n} C(n,m)\,a^{n-m}b^{m}
+$$
 
 系数 $C(n,m)$ 构成 Pascal 三角（每行是上一行相邻两项之和）。令 $a=b=1$ 即得 $\sum C(n,m) = 2^n$。
 
@@ -162,9 +162,9 @@ C(n,m) = P(n,m)/m! = n! / ( m! (n−m)! )
 
 $N$ 次独立试验，每次「成功」概率 $p$，成功 $n$ 次的概率：
 
-```
-P(n) = C(N,n) · p^n · (1−p)^{N−n}
-```
+$$
+P(n) = C(N,n)\cdot p^{n}\cdot(1-p)^{N-n}
+$$
 
 这就是 $(p + (1-p))^N$ 展开的第 $n$ 项，故 $\sum_n P(n) = 1$ 自动归一化 ✓
 
@@ -210,23 +210,24 @@ P(n) ≈ 1/(σ√(2π)) · exp( −(n−Np)² / (2σ²) )
 
 $1\ \mathrm{mol}$ 物质的微观状态数含 $N_A! = (6.022\times10^{23})!$——这个数大到任何计算器都无法直接处理。但熵里出现的是 $\ln(N!)$，而**对数把连乘变成连加**：
 
-```
-ln(N!) = ln 1 + ln 2 + ln 3 + … + ln N = Σ_{k=1}^{N} ln k
-```
+$$
+\ln(N!) = \ln 1 + \ln 2 + \cdots + \ln N = \sum_{k=1}^{N}\ln k
+$$
 
 ### 4.2 推导：求和变积分
 
 $\ln k$ 在 $k$ 增大时变化缓慢，故求和可用积分近似（矩形法）：
 
-```
-Σ_{k=1}^{N} ln k ≈ ∫_{1}^{N} ln x dx = [ x ln x − x ]_{1}^{N} = N ln N − N + 1
-```
+$$
+\sum_{k=1}^{N}\ln k \approx \int_{1}^{N}\ln x\,dx
+= \bigl[x\ln x - x\bigr]_{1}^{N} = N\ln N - N + 1
+$$
 
 $N$ 很大时常数 1 可忽略，得**简单式**：
 
-```
-ln(N!) ≈ N ln N − N          （N 很大时）
-```
+$$
+\ln(N!) \approx N\ln N - N \quad \text{（}N\text{ 很大时）}
+$$
 
 加上更精细的修正项（由 Euler-Maclaurin 或 Laplace 方法给出，此处不推）得**完整式**：
 
@@ -308,29 +309,31 @@ ln W = N ln N − (N₁+N₂) ln N − N₁ ln x₁ − N₂ ln x₂
 
 ### 5.3 熵
 
-```
-S = k ln W = −Nk Σ x_i ln x_i = −nR Σ x_i ln x_i
-```
+$$
+S = k\ln W = -Nk\sum x_i\ln x_i = -nR\sum x_i\ln x_i
+$$
 
 （用了 $Nk = nR$。）混合理想气体的**混合熵**：
 
-```
-ΔS_mix = −nR Σ x_i ln x_i
-```
+$$
+\Delta S_{\mathrm{mix}} = -nR\sum x_i\ln x_i
+$$
 
 ### 5.4 数值
 
 **等摩尔二元混合**（$x_1=x_2=0.5$）：
 
-```
-ΔS_mix = −R(0.5 ln 0.5 + 0.5 ln 0.5) = R ln 2 = 8.314 × 0.693 = 5.76 J·mol⁻¹·K⁻¹
-```
+$$
+\Delta S_{\mathrm{mix}} = -R(0.5\ln 0.5 + 0.5\ln 0.5)
+= R\ln 2 = 8.314\times0.693 = 5.76\ \mathrm{J\,mol^{-1}K^{-1}}
+$$
 
 **非等摩尔**（$x_1=0.25,\,x_2=0.75$）：
 
-```
-ΔS_mix = −R(0.25 ln 0.25 + 0.75 ln 0.75) = −R(−0.3466 − 0.2158) = 4.68 J·mol⁻¹·K⁻¹
-```
+$$
+\Delta S_{\mathrm{mix}} = -R(0.25\ln 0.25 + 0.75\ln 0.75)
+= -R(-0.3466 - 0.2158) = 4.68\ \mathrm{J\,mol^{-1}K^{-1}}
+$$
 
 等摩尔时混合熵最大——用第 3 讲的极值判据可以严格验证。对二元混合的熵函数
 
@@ -348,10 +351,12 @@ $f(x) = -x\ln x - (1-x)\ln(1-x)$
 
 $N$ 个（近独立）分子分布在能级 $\varepsilon_0, \varepsilon_1, \varepsilon_2,\dots$（简并度 $g_i$）上，占据数为 $N_0, N_1, N_2,\dots$。约束条件：
 
-```
-Σ N_i = N        （分子数守恒）
-Σ N_i ε_i = E    （总能量守恒）
-```
+$$
+\begin{aligned}
+\sum N_i &= N \quad \text{（分子数守恒）}\\
+\sum N_i\varepsilon_i &= E \quad \text{（总能量守恒）}
+\end{aligned}
+$$
 
 给定分布 $\{N_i\}$ 的微观状态数：
 
@@ -431,9 +436,9 @@ P₀ = 1/1.503 = 66.5%     P₁ = 0.368/1.503 = 24.5%     P₂ = 0.135/1.503 = 9
 
 ### 7.1 期望值
 
-```
-⟨x⟩ = Σ_i x_i P(x_i)
-```
+$$
+\langle x\rangle = \sum_i x_i\,P(x_i)
+$$
 
 对二项分布：$\langle n\rangle = Np$（3.3 已给）；对 Boltzmann 分布，平均能量：
 
