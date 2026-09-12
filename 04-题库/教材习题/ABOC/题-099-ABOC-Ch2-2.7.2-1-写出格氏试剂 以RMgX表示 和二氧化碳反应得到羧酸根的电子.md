@@ -40,7 +40,9 @@ source_grade: C
 ![[grignard-mechanism-phbr-to-phcooh.png]]
 
 ## 参考答案
-（答案见 [[提炼-ABOC-第12章-习题解析]]）
+自学练习 2.7.2-1 写出格氏试剂（以 RMgX 表示）和二氧化碳反应得到羧酸根的电子推动机理。
+
+![[8cc374c48dba61e217c9529a3aa465f02dff8af3a0f649b08c64099b36db9e50.jpg]]
 
 ---
 

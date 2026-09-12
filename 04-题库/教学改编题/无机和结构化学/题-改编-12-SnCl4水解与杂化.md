@@ -35,9 +35,9 @@ source_grade: B-
 
 ## 参考答案
 
-- $\ce{Sn + 2HCl -> SnCl2 + H2 ^}$（盐酸无论浓稀均只能将 Sn 氧化到 +2 价）
-- $\ce{Sn + 2Cl2 -> SnCl4}$（SnCl4 需用 Cl2 直接氯化金属 Sn 制取）
-- $\ce{SnCl4 + 3H2O -> H2SnO3 v + 4HCl}$（或写作 $\ce{SnCl4 + (n + 2)H2O -> SnO2.nH2O v + 4HCl}$）
+- $\mathrm{Sn + 2HCl \rightarrow SnCl_2 + H_2\uparrow}$（盐酸无论浓稀均只能将 Sn 氧化到 +2 价）
+- $\mathrm{Sn + 2Cl_2 \rightarrow SnCl_4}$（$\mathrm{SnCl_4}$ 需用 $\mathrm{Cl_2}$ 直接氯化金属 Sn 制取）
+- $\mathrm{SnCl_4 + 3H_2O \rightarrow H_2SnO_3\downarrow + 4HCl}$（或写作 $\mathrm{SnCl_4 + (n + 2)H_2O \rightarrow SnO_2\cdot nH_2O\downarrow + 4HCl}$）
 - $\mathrm{SnCl_4}$ 中 Sn 为 $sp^3$ 杂化，分子为正四面体
 - $\mathrm{SnCl_4}$ 易水解而 $\mathrm{CCl_4}$ 不易水解，可从 Sn 的空轨道、Sn-Cl 键极性与亲核进攻难易解释
 

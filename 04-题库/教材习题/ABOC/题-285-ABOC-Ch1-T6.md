@@ -38,7 +38,7 @@ source_grade: C
 
 ![[20b47e4eaf2a795caec195f7963c3c0cd9c8c6b36af98c1f8747a0b87d806a45.jpg]]
 
-当此反应在 ${ \sf K } _ { 2 } { \sf C O } _ { 3 }$ 中进行，得到了另一个非环状的产物 B；化合物 A 在 ${ \sf K } _ { 2 } { \sf C } { \sf O } _ { 3 }$ 作用下也转化为化合物 B。画出化合物 B 的结构简式，并解释 A 与 B 生成的选择性成因及平衡转化关系。
+当此反应在 $\mathrm{K_2CO_3}$ 中进行，得到了另一个非环状的产物 B；化合物 A 在 $\mathrm{K_2CO_3}$ 作用下也转化为化合物 B。画出化合物 B 的结构简式，并解释 A 与 B 生成的选择性成因及平衡转化关系。
 
 **6-2** 某同学欲制备化合物 C。但反应后实际得到其同分异构体 E。
 
@@ -50,7 +50,7 @@ source_grade: C
 
 ![[9e9ac5d3adc10df4c2a5cfe568e80b09493edc3b9be6650f77477dbd57e7df92.jpg]]
 
-**6-4** 当 BnCl 与 $\mathsf { p } { - } \mathsf { N O } _ { 2 } \mathsf { B n C l }$ 1:1 混合溶于 DMSO 与亲核试剂反应，选择性是不同的。具体结果如下：
+**6-4** 当 BnCl 与 $p\text{-NO}_2\text{BnCl}$ 1:1 混合溶于 DMSO 与亲核试剂反应，选择性是不同的。具体结果如下：
 
 ![[a422ae933d7c1125d50c1c3defa9179f2f5603c9022eab9c643083e44451cdf2.jpg]]
 

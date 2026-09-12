@@ -1,5 +1,5 @@
 ---
-title: "题-179-ABOC-Ch9-9.4.2-ZChem GCHO 写出以下反应的中间体和产物结构式 得到"
+title: "题-179-ABOC-Ch9-9.4.2-Zincke盐一锅法吡啶官能团化"
 type: 题目
 fidelity: 原书逐字
 submodule: Ch.9
@@ -8,9 +8,9 @@ source_subject: 有机化学
 difficulty: 2
 teaching_level: 巩固
 syllabus_codes: ["39"]
-knowledge_points: ["[[杂环化合物]]", "[[杂环合成]]"]
+knowledge_points: ["[[杂环化合物]]", "[[杂环合成]]", "[[Zincke反应]]"]
 tags: [化竞, ABOC, 有机化学]
-updated: 2026-07-04
+updated: 2026-09-12
 source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第9章-杂环合成]]"
 aliases: [ABOC-Ch9-9.4.2]
 source: ABOC 第9章 自学练习（ARX's Basic Organic Chemistry 第3版）
@@ -22,7 +22,7 @@ pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: C
 ---
-# 题-179：(ZChem-GCHO)写出以下反应的中间体和产物结构式。得到 B 的反应有两种导向都需要写出来。
+# 题-179：Zincke盐一锅法吡啶官能团化
 
 > **来源**：ABOC 第9章 自学练习 9.4.2
 > **难度**：⭐⭐
@@ -32,37 +32,37 @@ source_grade: C
 
 ## 题目
 
-(ZChem-GCHO)写出以下反应的中间体和产物结构式。得到 B 的反应有两种导向都需要写出来。
+写出以下反应的中间体和产物结构式。得到 B 的反应有两种导向都需要写出来。
 
+![[bc6fc57c3a120d0adf86989a8248b992fb0e0620fa0c6c9c0962d6eb7208d59b.jpg]]
+
+上述路线是一锅合成，即在反应过程中没有进行任何的分离提纯操作。A～D 都是存在于体系中的中间产物。写出 A～E 的结构，化合物 2 对应的部分可以用 "Tri" 表示。
 
 ---
 
 ## 参考答案
-（答案见 [[提炼-ABOC-第12章-习题解析]]）
 
----
+<details>
+<summary>📖 查看答案与解析</summary>
 
-## 解题思路
+以下答案是进攻对位的产物导向（另一种导向进攻邻位）：
 
+**A**：
+![[31aa9b83f8c33ce0eaff926963c2467e85ea40f3c343992df13acd5c9c3da4e9.jpg]]
 
-以下答案是进攻对位的产物导向。另一种导向进攻邻位。
+**B**：
+![[f17d467a9d74d2c341c5b25b78ceea3b5b0948b47e0e7cc26269d837aa28be48.jpg]]
 
-![[31aa9b83f8c33ce0eaff926963c2467e85ea40f3c343992df13acd5c9c3da4e9.jpg]]  
-A
+**C**：
+![[50fa806a43cc75ae0d215809d881229962397c612c8666c89d2fcecdaab3190a.jpg]]
 
-![[f17d467a9d74d2c341c5b25b78ceea3b5b0948b47e0e7cc26269d837aa28be48.jpg]]  
-B
+**D**：
+![[2f3eeead528544140954a2fe4619baef1a1f84de7cd24e3290881c4e3d88f887.jpg]]
 
-![[50fa806a43cc75ae0d215809d881229962397c612c8666c89d2fcecdaab3190a.jpg]]  
-C
+**E**：
+![[3cc021eaf95e135288ad85d31c1973c0e155193217239bdcac4cf4fd12715983.jpg]]
 
-![[2f3eeead528544140954a2fe4619baef1a1f84de7cd24e3290881c4e3d88f887.jpg]]  
-D
-
-![[3cc021eaf95e135288ad85d31c1973c0e155193217239bdcac4cf4fd12715983.jpg]]  
-E
-
-> 来源：ABOC 原书「习题解析」节逐字转录（OCR）。如与纸质原书有出入，以原书为准。
+</details>
 
 ---
 

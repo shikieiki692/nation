@@ -130,9 +130,9 @@ $$-1.33 = -0.74 + \frac{0.059}{3}\lg\left(\frac{[\mathrm{Cr(OH)_4^-}]}{K[\mathrm
 
 $[\mathrm{Cr(OH)_4^-}]$ 和 $[\mathrm{OH^-}]$ 浓度均为 $1.0\ \mathrm{mol\cdot L^{-1}}$，可以得到：$\mathrm{p}K = -30$（即 $K = 10^{30}$）。
 
-**4-7** 在酸性条件下，属于这些物种的最高标准电池电势为 $1.33\ \mathrm{V} - 0.695\ \mathrm{V} = 0.635\ \mathrm{V}$。因此，在酸性溶液中，过氧化氢被氧化为 $\O_2$，Cr(VI) 被还原为 Cr(III)。反应方程式为：
+**4-7** 在酸性条件下，属于这些物种的最高标准电池电势为 $1.33\ \mathrm{V} - 0.695\ \mathrm{V} = 0.635\ \mathrm{V}$。因此，在酸性溶液中，过氧化氢被氧化为 $\mathrm{O_2}$，Cr(VI) 被还原为 Cr(III)。反应方程式为：
 
-$$\mathrmCr_2O_7^{2-} + 3\mathrm{H_2O_2} + 8\mathrm{H^+} = 2\mathrm{Cr^{3+}} + 3\mathrm{O_2} + 7\mathrm{H_2O}$$
+$$\mathrm{Cr_2O_7^{2-}} + 3\mathrm{H_2O_2} + 8\mathrm{H^+} = 2\mathrm{Cr^{3+}} + 3\mathrm{O_2} + 7\mathrm{H_2O}$$
 
 在碱性溶液中，$\mathrm{OH^-}$ 的形成和电势差 $E^\theta[\mathrm{Cr(VI)}/\mathrm{Cr(III)}] = 0.87\ \mathrm{V} - (-0.72\ \mathrm{V}) = 1.59\ \mathrm{V}$。反应方程式为：
 

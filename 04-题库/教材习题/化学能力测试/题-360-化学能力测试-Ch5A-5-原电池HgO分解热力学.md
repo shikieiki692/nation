@@ -79,9 +79,9 @@ $$\Delta_\mathrm{r}G^\theta_\mathrm{m} = -nFE^\theta = -2\times 96500\times 0.92
 
 $$\Delta_\mathrm{r}G^\theta_\mathrm{m}(\mathrm{HgO \to Hg}) = -237.2 - (-178.7) = -58.46\ \mathrm{kJ\cdot mol^{-1}}$$
 
-源答案记作 $\Delta_\mathrm{r}G^\theta_\mathrm{m}(\mathrm{HgO \to Hg + ½O_2) = +58.46\ \mathrm{kJ\cdot mol^{-1}}$（正向为分解方向）。
+源答案记作 $\Delta_\mathrm{r}G^\theta_\mathrm{m}(\mathrm{HgO \to Hg + \tfrac{1}{2}O_2}) = +58.46\ \mathrm{kJ\cdot mol^{-1}}$（正向为分解方向）。
 
-$$\ln K_\mathrm{p}^\theta = -\-\Delta_\mathrm{r}G^\theta/RT = -(58.46\times 10^3)/(8.314\times 298.15) = -23.58$$
+$$\ln K_\mathrm{p}^\theta = -\Delta_\mathrm{r}G^\theta/RT = -(58.46\times 10^3)/(8.314\times 298.15) = -23.58$$
 
 $$K_\mathrm{p}^\theta = 5.632\times 10^{-11}$$
 

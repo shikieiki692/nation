@@ -38,7 +38,13 @@ source_grade: C
 ---
 
 ## 参考答案
-（答案见 [[提炼-ABOC-第12章-习题解析]]）
+自学练习 7.2.2-1 如下所示。
+
+![[8be211676bdb1d7c7f3947ec48d39895ad28320c5427093e93a18dfeacc5d612.jpg]]
+
+![[fd41604d2dffd889439a3112edcf0c7a2e2871e5566c46a6a0221e1caa2cf4bd.jpg]]
+
+![[a89ba319338804b9a6b9f1414b2b711724617a51c34e62d9a4ac41641127e5ba.jpg]]
 
 ---
 

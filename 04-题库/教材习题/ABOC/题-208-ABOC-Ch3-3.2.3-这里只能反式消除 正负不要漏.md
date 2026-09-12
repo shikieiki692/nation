@@ -16,7 +16,8 @@ aliases: [ABOC-Ch3-3.2.3-2]
 source: ABOC 第3章 自学练习（ARX's Basic Organic Chemistry 第3版）
 cross_references: ["[[04-题库/教材习题/ABOC/题-109-ABOC-Ch3-3.1.1-在Clayden 教材中存在一个著名的错误]]", "[[04-题库/教材习题/ABOC/题-210-ABOC-Ch3-3.3.4-2-类似 Grob 碎裂化]]", "[[04-题库/教材习题/ABOC/题-209-ABOC-Ch3-3.3.4-1-无法形成形式上的二醇]]", "[[04-题库/教材习题/ABOC/题-211-ABOC-Ch3-3.6-环氧乙烷 硫化氢 然后与盐酸 ZnCl 反应即可自学练习 3]]", "[[04-题库/教材习题/ABOC/题-207-ABOC-Ch3-3.2.2-自己看书]]"]
 module: 基础要求-有机化学
-status: 已填充
+status: deprecated
+superseded_by: "已合并入完整习题卡"
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材

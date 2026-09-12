@@ -55,20 +55,21 @@ EDITION_LABEL = "学生版" if EDITION == "student" else "教师版"
 
 def write_output(path, text):
     """统一写盘；未加 --write 时仅打印将要写入的目标。
-    Obsidian 等进程可能瞬时占用句柄（WinError 5），自动重试最多 6 次。"""
+    Obsidian 等进程可能瞬时占用句柄（WinError 5 / WinError 32 / Errno 22），自动重试最多 10 次。"""
     if WRITE:
         if OUT_ROOT:
             path = os.path.join(OUT_ROOT, path)
+        path = os.path.normpath(path)
         os.makedirs(os.path.dirname(path), exist_ok=True)
         for attempt in range(10):
             try:
                 with open(path, "w", encoding="utf-8", newline="") as f:
                     f.write(text)
                 return
-            except PermissionError:
+            except (PermissionError, OSError):
                 if attempt == 9:
                     raise
-                time.sleep(2)
+                time.sleep(1)
     else:
         print(f"  [dry-run] {os.path.relpath(path)} · {len(text.splitlines())} 行")
 
@@ -114,6 +115,12 @@ def drop_noise_sections(s):
         "",
         s,
     )
+    # 移除误粘贴的整章练习与整章例题答案尾巴（赵鑫光等末题常见OCR残留）
+    s = re.sub(
+        r"(?ms)^##[ \t]+(?:【?习题精练】?|【?例题参考答案】?|【?习题参考答案】?|高中化学竞赛[ \t]*基本理论学习笔记|基本理论学习笔记)[ \t]*\n.*?(?=^##[ \t]+(?:参考答案|参考解答|答案)|\Z)",
+        "",
+        s,
+    )
     return s.strip("\n")
 
 
@@ -125,7 +132,9 @@ def flatten_embedded_details(s):
         return inner.strip()
     while re.search(r"<details[^>]*>.*?</details>", s, flags=re.S):
         s = re.sub(r"<details[^>]*>(.*?)</details>", unwrap, s, flags=re.S)
-    return s
+    s = re.sub(r"</?details[^>]*>", "", s)
+    s = re.sub(r"<summary>[^\n]*</summary>", "", s)
+    return s.strip()
 
 
 def normalize_markdown_images(s):
@@ -280,6 +289,71 @@ def balance_dollar_pairs(text: str) -> str:
         break  # 所有 span 均无法自动判定，保留现状（质量告警会捕获）
     return "\n".join(lines)
 
+UNIT_GUARD_RE = re.compile(
+    r'^\s*(?:\d+(?:\.\d+)?)\s*(?:mol|mmol|g|kg|mg|μg|mL|L|m3|cm3|dm3|kPa|Pa|MPa|atm|mmHg|bar|Torr|K|℃|°C|V|mV|s|min|h|M|%|nm|pm|cm|mm|m|价)\b',
+    re.I,
+)
+YEAR_GUARD_RE = re.compile(r'^\s*(?:1[6-9]\d\d|20\d\d)\s*年|^\s*\d+\s*世纪')
+SUBQ_GUARD_RE = re.compile(r'^\s*(?:\([0-9一二三四五六七八九十a-zA-Z]+\)|（[0-9一二三四五六七八九十a-zA-Z]+）|[①②③④⑤⑥⑦⑧⑨⑩])(?!\s*\(?\d+)')
+
+
+def clean_question_stem(q_text: str) -> str:
+    """剥离题干开头遗留的原教材题号（如 5.19, 8-1, 14., 2 有关, 习题 1. 等），避免成书出现双题号。"""
+    lines = q_text.splitlines()
+    for idx, l in enumerate(lines):
+        s = l.strip()
+        if not s or s.startswith(">") or s.startswith("#"):
+            continue
+        # 0. 纯题号独立行（如 【例8】、[例1] 等单占一行），直接移除并继续检查下一行
+        if re.fullmatch(r'^(?:【[^】]*】|\[[^\]]*\]|(?:例|例题|习题|自学练习|练习|题|测试)\s*\d*(?:[-.、]\d+)*[、.．:：\s]*)$', s):
+            lines[idx] = ""
+            continue
+        if YEAR_GUARD_RE.match(s) or UNIT_GUARD_RE.match(s) or SUBQ_GUARD_RE.match(s):
+            break
+        while True:
+            prev = s
+            if YEAR_GUARD_RE.match(s) or UNIT_GUARD_RE.match(s) or SUBQ_GUARD_RE.match(s):
+                break
+            # 1. 【例1】、[习题 10.83] 等行首题号
+            m = re.match(r'^(?:【[^】]*】|\[[^\]]*\]|(?:例|例题|习题|自学练习|练习|题|测试)\s*\d*(?:[-.、]\d+)*[、.．:：\s]*)\s*', s)
+            if m and m.end() > 0:
+                rest = s[m.end():].strip()
+                if len(rest) >= 2:
+                    s = rest
+                    continue
+            # 2. 复合题号如 8-1 、7-1. 、1-2 等
+            m = re.match(r'^\d+[-—]\d+[、.．:：\s]*\s*', s)
+            if m and m.end() > 0:
+                rest = s[m.end():].strip()
+                if len(rest) >= 2:
+                    s = rest
+                    continue
+            # 3. 大题号带小问如 9.(1) 、32.(1) 、3.（1） 等
+            m = re.match(r'^\d+[、.．]\s*(?:\([0-9一二三四五六七八九十a-zA-Z]+\)|（[0-9一二三四五六七八九十a-zA-Z]+）)\s*', s)
+            if m and m.end() > 0:
+                rest = s[m.end():].strip()
+                if len(rest) >= 2:
+                    s = rest
+                    continue
+            # 4. 标准题号如 15. 、3. 、14. 等
+            m = re.match(r'^\d+[、.．:：]\s*', s)
+            if m and m.end() > 0:
+                rest = s[m.end():].strip()
+                if len(rest) >= 2:
+                    s = rest
+                    continue
+            # 5. 数字后跟空格如 16 1905年 、12 0.100 mol 、1 、2 等
+            m = re.match(r'^\d+\s+', s)
+            if m and m.end() > 0:
+                rest = s[m.end():].strip()
+                if len(rest) >= 2:
+                    s = rest
+                    continue
+            break
+        lines[idx] = l[:len(l) - len(l.lstrip())] + s
+        break
+    return "\n".join(lines)
+
 
 def clean_section_text(s):
     """统一清理正文：保留图片嵌入，把源文件残留 H2 降级为 H3。"""
@@ -290,6 +364,11 @@ def clean_section_text(s):
     s = flatten_embedded_details(s)
     s = normalize_markdown_images(s)
     s = normalize_obsidian_embeds(s)
+    # 清理正文中泄漏的 YAML 元数据行
+    s = re.sub(r"(?m)^used_in:\s*[^\n]*\n?", "", s)
+    s = re.sub(r"(?m)^status:\s*[^\n]*\n?", "", s)
+    s = re.sub(r"(?m)^aliases:\s*[^\n]*\n?", "", s)
+    s = re.sub(r"(?m)^fidelity:\s*[^\n]*\n?", "", s)
     # 2026-09-10: split_question_answer 已移除题源首个 H1，此处残留的 H1
     # 均为混入垃圾（下一讲导语标题、题面内例题标题等，曾致 3-化学动力学
     # 生成「# 第9讲 溶液与化学分析」标题跳跃）。降级为加粗行，消除层级跳跃。
@@ -555,18 +634,24 @@ def _answer_heading_pattern():
     # 不再充当答案切分入口，避免把教学注释混入解析正文。
     if STRICT:
         return re.compile(
-            r"^#{1,4}[ \t]+(?:参考答案|参考解答|答案|解答|解析)(?:（[^）]*）)?[ \t]*(?=\n|\r|$)",
+            r"^#{1,4}[ \t]+(?:【?(?:例题|习题)?(?:参考答案|参考解答|答案|解答|解析)】?)(?:（[^）]*）)?[ \t]*(?=\n|\r|$)",
             re.M,
         )
     return re.compile(
-        r"^#{1,4}[ \t]+(?:参考答案|参考解答|答案|解答|解析|解题思路|知识点映射|易错分析)[ \t]*$",
+        r"^#{1,4}[ \t]+(?:【?(?:例题|习题)?(?:参考答案|参考解答|答案|解答|解析|解题思路|知识点映射|易错分析)】?)[ \t]*$",
         re.M,
     )
 
 
 ANSWER_HEADING_RE = _answer_heading_pattern()
-ANSWER_INLINE_RE = re.compile(r"\*\*\s*答案\s*[:：]\s*\*\*|【答案】\s*[:：]?")
-ANSWER_BLOCKQUOTE_RE = re.compile(r"^>\s*\*\*(?:答案|参考答案)\*\*\s*[:：]?\s*", re.M)
+# 兼容冒号在星号内部与外部，以及选项字母在星号内部：**答案：**、**答案**：、**答案：(B)**、**【答案】**、**解析**
+ANSWER_INLINE_RE = re.compile(
+    r"\*\*\s*(?:参考)?(?:答案|解析)\s*[:：]?(?:[ \t]*(?:\([A-Za-z0-9]+\)|[A-Za-z0-9]+))?\s*\*\*\s*[:：]?"
+    r"|【(?:参考)?(?:答案|解析)】\s*[:：]?"
+    r"|^\s*\*\*(?:参考)?(?:答案|解析)\s*[:：]",
+    re.M,
+)
+ANSWER_BLOCKQUOTE_RE = re.compile(r"^>\s*\*\*(?:答案|参考答案|解析|参考解析|答案与解析|解答)\*\*\s*[:：]?\s*", re.M)
 SOLVE_LINE_RE = re.compile(r"^[ \t]*解\s*[:：]\s*", re.M)
 DISPLAY_MATH_RE = re.compile(
     r"\$\$\r?\n.*?\r?\n\$\$|\$\$.+?\$\$|\\\[.*?\\\]",
@@ -579,13 +664,19 @@ QUESTION_LABEL_RE = re.compile(
     r"(?m)^#{2,6}[ \t]*(?:例)?\d+(?:\.\d+)*[^\n]*$"
     r"|^\*\*\s*(?:例)?\d+(?:\.\d+)*[^\n]*\*\*"
 )
+DETAILS_ANSWER_RE = re.compile(
+    r"<details[^>]*>\s*<summary>[^<]*(?:答案|解答|解析)[^<]*</summary>",
+    re.I,
+)
 
 
 def answer_markers(s):
-    """返回源文件里所有可辨识的答案入口（含解答标题、行首解：、公式块内解：）。"""
+    """返回源文件里所有可辨识的答案入口（含解答标题、details答案块、行首解：、公式块内解：）。"""
     marks = []
     for m in ANSWER_HEADING_RE.finditer(s):
         marks.append((m.start(), m.end(), "heading"))
+    for m in DETAILS_ANSWER_RE.finditer(s):
+        marks.append((m.start(), m.end(), "details"))
     for m in ANSWER_INLINE_RE.finditer(s):
         marks.append((m.start(), m.end(), "inline"))
     for m in ANSWER_BLOCKQUOTE_RE.finditer(s):
@@ -596,12 +687,13 @@ def answer_markers(s):
         if SOLVE_IN_BLOCK_RE.search(m.group(0)):
             marks.append((m.start(), m.end(), "math"))
     marks.sort(key=lambda x: (x[0], x[1]))
-    # 已由更早的答案标题/行首解：覆盖时，公式块内的解：不再单独成段，
-    # 避免同一公式块在答案里重复出现两次。
-    early = [ms for ms, _, kind in marks if kind != "math"]
+    # 已由更早的答案标题/行首解：覆盖时，公式块内的解：或 details 块不再单独成段
+    early = [ms for ms, _, kind in marks if kind in ("heading", "line", "blockquote")]
     filtered = []
     for ms, me, kind in marks:
         if kind == "math" and any(ms0 < ms for ms0 in early):
+            continue
+        if kind == "details" and any(ms0 <= ms for ms0 in early):
             continue
         filtered.append((ms, me, kind))
     return filtered
@@ -626,6 +718,9 @@ def split_question_answer(body, source=""):
     # 只移除真正的 H1 标题（单个 #），避免误删正文中的 ## 分节标题。
     work = re.sub(r"(?m)^#[ \t]+[^\n]*\n?", "", body, count=1).strip()
     work = drop_noise_sections(work)
+    # 剥离置顶的简要答案速查行（常见于整章选择题：## 参考答案\n 5.11 D 5.12 A ...\n---\n## 5.11），
+    # 避免其答案标记把第一道小题吞入答案块
+    work = re.sub(r"(?ms)^##[ \t]+(?:参考)?答案[ \t]*\n(?:[0-9\.\sA-Za-z]+)\n+(?:---+\s*\n+)?(?=##[ \t]+\d)", "", work)
     work = normalize_glued_headings(work, source)
     markers = answer_markers(work)
     if markers and QA_SECTION_RE.search(work):
@@ -689,15 +784,21 @@ def split_question_answer(body, source=""):
                 if me < lp < boundary:
                     boundary = lp
                     break
-        piece_start = ms if kind == "math" else me
-        a_parts.append(work[piece_start:boundary])
+        if kind == "details":
+            end_tag = work.find("</details>", me)
+            piece_end = end_tag if (end_tag != -1 and end_tag < boundary) else boundary
+            a_parts.append(work[me:piece_end])
+        else:
+            piece_start = ms if kind in ("math", "inline", "line") else me
+            a_parts.append(work[piece_start:boundary])
         if boundary < next_marker:
             q_parts.append(work[boundary:next_marker])
 
     q_text = work[q_start:markers[0][0]] + "".join(q_parts)
     a_text = strip_stray_choice_tail("\n\n".join(a_parts).strip())
-    if a_text:
-        a_text = strip_stray_choice_tail(a_text)
+    # 答案内若残留 details 标签，统一平铺解包
+    a_text = flatten_embedded_details(a_text)
+    a_text = re.sub(r"</details>\s*$", "", a_text).strip()
     return q_text.strip(), a_text
 
 
@@ -732,7 +833,7 @@ def gather_questions(module):
     """收集指定模块、pack=模块习题集的所有题目"""
     pool = []
     for root, dirs, fs in os.walk(BASE):
-        if "高考" in root: continue
+        if "高考" in root or "元文件" in root: continue
         for fn in fs:
             if not fn.endswith(".md"): continue
             path = os.path.join(root, fn)
@@ -742,16 +843,15 @@ def gather_questions(module):
             if not fm: continue
             y = fm.group(1)
             if not re.search(r"(?m)^type: 题目", y): continue
-            # 2026-09-07 扩池：一分册/二分册正册的章节练习题（d≥4）纳入习题书
-            # （来源维度构建规范落地：A 类竞赛教材源，模块习题集层之外的高价值题）
-            is_fb_book = ("高中化学竞赛教程第一分册" in rel or "高中化学竞赛教程第二分册" in rel)
-            # 2026-09-07 二次扩池：全部章节练习 pack 的 d2~d3 基础题纳入（每章「基础巩固」节）
+            # 竞赛导向优质题源白名单：包含华东师大教程与能力测试、赵鑫光、上海中学、汇智、周公度结构化学、经典例题、真题
+            is_comp_source = any(k in rel for k in [
+                "高中化学竞赛教程", "化学能力测试", "一分册测试", "二分册测试",
+                "赵鑫光", "上海中学", "汇智", "结构化学基础", "真题", "经典例题"
+            ])
             is_jx_any = re.search(r"(?m)^pack: 章节练习", y) is not None
             if not re.search(r"(?m)^pack: 模块习题集", y):
                 if not is_jx_any:
                     continue
-                # 难度闸门在下方 diff 解析后执行：
-                #   一分册/二分册章节练习仅收 d≥4（扩池）；其他章节练习收 d2~d3 基础层（二次扩池）
             override_target = PATH_SUBJECT_MODULE_OVERRIDES.get(rel)
             if override_target:
                 if module != override_target:
@@ -773,10 +873,8 @@ def gather_questions(module):
             ttl = (re.search(r"(?m)^title: (.*)", y) or [None, ""])[1].strip().strip('"').strip("'")
             body = s[fm.end():].strip()
             d = int(diff) if diff.isdigit() else 3
-            if is_fb_book and d < 4:
-                continue  # 扩池难度闸门：一分册/二分册章节练习题仅收 d≥4
-            if (not is_fb_book) and is_jx_any and d > 3:
-                continue  # 二次扩池闸门：非教材主源的章节练习 d2~d3 基础层（d≥4 已由其他 pack 覆盖）
+            if not is_comp_source and is_jx_any and d > 3:
+                continue  # 非竞赛主源的普通教材章节练习仅收 d≤3 基础层
             pool.append({
                 "file": fn,
                 "path": rel,
@@ -787,6 +885,7 @@ def gather_questions(module):
                 "source": src,
                 "title": ttl,
                 "kps": _fm_kps(y),
+                "yaml": y,
                 "body": body,
             })
     return pool
@@ -853,29 +952,22 @@ def classify_by_keywords(item, chapter_map, module=None):
         mod = item.get("module", "").lower()
         p = item["path"]
         pl = p.lower()
-        if "元素推断" in pl:
+        if "元素推断" in pl or "元素推断" in sub:
             return (5, "元素推断")
         if "分析化学" in mod or "分析化学/" in pl:
             return (6, "化学分析")
-        if mod.startswith("过渡-") or "元素化学/过渡-" in pl or "无机化学例题与习题/ch19" in pl \
-                or "无机化学例题与习题/ch20" in pl or "无机化学例题与习题/ch21" in pl \
-                or "无机化学例题与习题/ch22" in pl or "weller/ch19" in pl:
+        if mod.startswith("过渡-") or "元素化学/过渡-" in pl or "weller/ch19" in pl \
+                or any(f"无机化学例题与习题/ch{x}" in pl for x in range(19, 23)) \
+                or sub in ("过渡金属", "过渡-钛钒铬锰", "过渡-铁钴镍铜锌", "过渡-银金汞钼钨"):
             return (4, "过渡元素化学")
-        if "无机化学例题与习题/ch14" in pl or "无机化学例题与习题/ch15" in pl \
-                or "无机化学例题与习题/ch16" in pl or "无机化学例题与习题/ch17" in pl \
-                or "无机化学例题与习题/ch18" in pl or "weller/ch18" in pl:
+        if any(f"无机化学例题与习题/ch{x}" in pl for x in range(12, 19)) or "weller/ch18" in pl \
+                or sub in ("卤族元素", "p区-碳硼硅", "p区-氧族氮族", "s区元素", "稀有气体"):
             return (3, "主族元素化学")
-        if "稀有气体" in sub or "溶液与化学分析" in sub:
-            return (3, "主族元素化学") if "稀有气体" in sub else (6, "化学分析")
+        if "溶液与化学分析" in sub:
+            return (6, "化学分析")
 
-    # 直接 submodule → 章节映射（由清洗脚本推断的章节名）
-    DIRECT_SUB_MAP = {
-        "化学分析": (6, "化学分析"),
-        "化学基础与计量": (1, "化学基础与计量"),
-        "离子反应与方程式": (2, "离子反应与方程式"),
-        "主族元素化学": (3, "主族元素化学"),
-        "过渡元素化学": (4, "过渡元素化学"),
-        "元素推断": (5, "元素推断"),
+    # 严格隔离有机与元素分析的 submodule 直接映射，杜绝跨学科混入导致重复章节（如元素篇出现结构波谱分析第1章）
+    ORGANIC_SUB_MAP = {
         "结构基础与波谱分析": (1, "结构基础与波谱分析"),
         "立体化学": (2, "立体化学"),
         "烷烯炔与加成反应": (3, "烷烯炔与加成反应"),
@@ -889,14 +981,25 @@ def classify_by_keywords(item, chapter_map, module=None):
         "反应机理与推断": (11, "反应机理与推断"),
         "高分子化学": (12, "高分子化学"),
     }
-    if module in ("有机化学", "元素与分析") and sub in DIRECT_SUB_MAP:
-        return DIRECT_SUB_MAP[sub]
+    ELEMENT_SUB_MAP = {
+        "化学基础与计量": (1, "化学基础与计量"),
+        "离子反应与方程式": (2, "离子反应与方程式"),
+        "主族元素化学": (3, "主族元素化学"),
+        "过渡元素化学": (4, "过渡元素化学"),
+        "元素推断": (5, "元素推断"),
+        "化学分析": (6, "化学分析"),
+    }
+    if module == "有机化学" and sub in ORGANIC_SUB_MAP:
+        return ORGANIC_SUB_MAP[sub]
+    if module == "元素与分析" and sub in ELEMENT_SUB_MAP:
+        return ELEMENT_SUB_MAP[sub]
 
     # 化学原理：优先按学科主题归类，避免"电化学与热力学"等复合子模块误入热力学
     if module == "化学原理":
-        if sub == "化学基础与计量" or any(k in text for k in ["化学计量", "有效数字", "气体定律", "同位素", "核化学", "放射性衰变", "核反应"]):
+        if sub in {"化学基础与计量", "气体", "相变液态", "相变·液态", "物质的量", "化学基础知识", "分散系", "胶体与表面", "表面化学", "分子间作用力", "分子间作用力与氢键"} \
+                or any(k in text for k in ["化学计量", "有效数字", "气体", "气体定律", "同位素", "核化学", "放射性衰变", "核反应", "理想气体", "真实气体", "范德华方程", "相变", "蒸气压", "表面张力", "毛细", "吸附", "胶体"]):
             return (6, "化学基础与计量")
-        if sub in {"酸碱平衡", "沉淀溶解平衡", "溶度积与沉淀溶解平衡", "酸碱平衡·分布系数"}:
+        if sub in {"酸碱平衡", "沉淀溶解平衡", "溶度积与沉淀溶解平衡", "酸碱平衡·分布系数", "离子反应", "配位化学基础"}:
             return (5, "溶液与酸碱平衡")
         if any(k in text for k in ["电化学", "电极", "电势", "原电池", "电池", "电解", "氧化还原", "歧化", "latimer", "nernst", "e-ph", "kolbe", "电镀"]):
             return (4, "氧化还原与电化学")
@@ -908,7 +1011,11 @@ def classify_by_keywords(item, chapter_map, module=None):
             return (5, "溶液与酸碱平衡")
         if any(k in text for k in ["平衡", "转化率", "勒夏特列", "化学势", "相图"]):
             return (2, "化学平衡")
-        # 未命中 → None（由 build_book 记入待分类告警，不再收容进"综合"章）
+        # 兜底尝试化学原理 chapter_map 关键词
+        for num, name, keywords in chapter_map:
+            for kw in keywords:
+                if kw.lower() in text:
+                    return (num, name)
         return None
 
     # 有机题的模式化 submodule 处理（仅对有机模块生效）
@@ -956,6 +1063,25 @@ def classify_by_keywords(item, chapter_map, module=None):
             return (10, "有机合成设计")
         if sub in ["有机化学进阶", "有机热力学·稳定性", "开环聚合与热力学", "高分子物理"]:
             return (12, "高分子化学")
+        if "aboc" in text or "aboc/" in text:
+            m_aboc = re.search(r"ch\.?(\d+)", text)
+            if m_aboc:
+                cnum = int(m_aboc.group(1))
+                aboc_map = {
+                    1: (1, "结构基础与波谱分析"),
+                    2: (11, "反应机理与推断"),
+                    3: (11, "反应机理与推断"),
+                    4: (8, "周环反应与自由基"),
+                    5: (8, "周环反应与自由基"),
+                    6: (7, "金属有机与偶联反应"),
+                    7: (11, "反应机理与推断"),
+                }
+                if cnum in aboc_map:
+                    return aboc_map[cnum]
+        if sub in ("有机化学基本原理", "有机化学准备知识"):
+            return (1, "结构基础与波谱分析")
+        if sub == "糖类、蛋白质":
+            return (9, "杂环化合物与含杂原子有机物")
 
     # 非有机内容：返回 None 以便交给 cross-module 脚本处理（仅对有机模块生效）
     if module == "有机化学" and sub in ["蒸气压", "分子间作用力", "化学平衡与转化率", "萃取与分配定律", "离子交换", "吸光光度法", "酸碱反应", "酸碱·电离", "无机合成", "氧化亚铜、羟胺还原", "化学生物学"]:
@@ -1004,6 +1130,10 @@ def classify_by_keywords(item, chapter_map, module=None):
             if any(k in fn_low for k in ["晶体", "晶胞", "晶格"]):
                 return (3, "晶体结构")
             return (7, "结构化学基础")
+        if sub in ("元素周期律与元素周期表", "原子结构与性质"):
+            return (1, "原子结构")
+        if sub in ("分子极性与偶极矩", "离子极化", "键参数"):
+            return (2, "分子结构与化学键")
 
     return None
 
@@ -1060,6 +1190,7 @@ def merge_da_items(items):
             q = collapse_hrs(q.strip())
             a = collapse_hrs(a.strip())
             if idx == 0:
+                q = clean_question_stem(q)
                 base_q = q
             elif base_q and q:
                 pl = _common_prefix_len(base_q, q)
@@ -1091,9 +1222,12 @@ def merge_da_items(items):
 
 
 def is_gap_item(item):
-    """含外部资料缺口的题（答案待补充 / 前驱文件待定位 / 图片待补 / 以下为各题要点与答案）：不入习题书。"""
+    """含外部资料缺口的题（答案待补充 / 前驱文件待定位 / 图片待补 / 以下为各题要点与答案 / 原书未提供解答）：不入习题书。"""
     body = item.get("body", "")
-    if bool(re.search(r"答案待补充|前驱文件待定位|图片待补|以下为各题要点与答案", body)):
+    if bool(re.search(r"答案待补充|前驱文件待定位|图片待补|源文件图片未导入|以下为各题要点与答案|原书未提供(?:本题|文字)?解答", body)):
+        return True
+    # 纯英文未汉化生肉答案排除
+    if re.search(r"Answer \(English\)|Answer:\s*\(?[A-Ea-e]\)?\s*$", body) and "题目" not in body:
         return True
         
     q_match = re.search(r"## 题目\n(.*?)(?=\n## |$)", body, re.DOTALL)
@@ -1137,43 +1271,229 @@ def _warn(kind, msg):
     WARNINGS[kind].append(msg)
 
 
-def short_title(item):
-    """小节标题：提取文件尾缀，屏蔽不需要的前缀或 frontmatter title"""
-    fn = item["file"][:-3] if item["file"].endswith(".md") else item["file"]
-    drop_words = ["赵鑫光", "上海中学竞赛教程", "上海中学竞赛课程", "上海中学"]
+DROP_PREFIX_TOKENS = {
+    "题", "习题", "例题", "经典例题", "教学改编题", "课后习题", "教材习题", "测试", "能力测试",
+    "一分册", "二分册", "一分册测试", "二分册测试", "化学能力测试", "竞赛教程", "初赛讲义",
+    "上海中学", "上海中学竞赛课程", "上海中学竞赛教程", "赵鑫光", "汇智",
+    "ABOC", "Clayden", "周公度", "Weller", "普通化学原理", "结构化学基础", "中级无机化学",
+    "物热", "物统", "物化", "物平", "物动", "物电", "物相", "分析", "有机", "无机", "原理", "结构",
+    "热力学", "动力学", "电化学", "化学平衡", "平衡", "溶液", "胶体",
+    "原子", "分子", "晶体", "配位", "配合物", "立体化学", "周环",
+    "主族", "过渡", "元素", "容量分析", "酸碱", "沉淀", "氧化还原",
+    "改编", "自编", "填空", "选择", "计算", "简答", "单选", "多选", "ZOC", "XES", "AAOC", "决理",
+    "络重", "误差", "容量", "滴定", "吸光", "色谱", "质谱", "光谱", "结构基础", "波谱分析", "重量分析"
+}
 
-    m = re.match(r"^题-[\dA-Za-z]+(?:-\d+)+-(.+)$", fn)
-    if m:
-        t = m.group(1).strip()
-    else:
-        t = re.sub(r"^题-\d*-?", "", fn)
-        parts = t.split("-")
-        drop = {item.get("submodule", ""), item.get("module", ""),
-                "补充", "结构化学基础", "无机化学习题", "习题", "真题", 
-                "Clayden", "ABOC", "中级无机化学", "普通化学原理",
-                "赵鑫光", "上海中学"}
-        while len(parts) > 1 and parts[0] in drop:
+GENERIC_TITLE_WORDS = {
+    "化竞", "赵鑫光", "上海中学", "教材习题", "无机化学例题与习题",
+    "分子结构", "原子结构", "晶体结构", "配位化学", "配位", "配合物", "热力学", "动力学",
+    "化学平衡", "电化学", "综合", "选择", "填空", "计算", "简答", "判断", "比较", "分析", "讨论", "推断",
+    "化学原理", "无机化学", "结构化学", "有机化学", "分析化学", "习题", "题目", "题",
+    "普通化学原理", "杂化轨道理论", "分子", "原子", "选择题", "填空题", "计算题", "简答题", "综合题",
+    "单选题", "多选题", "判断题", "实验题", "能力测试", "一分册", "二分册", "综合练习", "基础训练",
+    "基础巩固", "竞赛提升", "习题解析", "经典例题", "化学", "原理", "结构", "元素", "反应", "性质", "状态", "过程",
+    "热力学和动力学初步", "热力学初步", "动力学初步", "反应方程式", "氧化还原反应",
+    "化学反应能量变化", "溶液和胶体", "物质结构", "化学键与分子结构", "晶体结构基础",
+    "配位化学基础", "有机化学基本原理", "人名反应与机理推断", "离子反应",
+    "推断题", "推断题一", "推断题二", "推断题三", "完成配平方程式", "结构化学基础",
+    "有机化学基础", "分子结构补充", "溶液与化学分析", "推断技术", "高分子化学简介",
+    "杂原子与生物高分子", "金属有机化学", "基础知识", "课后习题", "化学方程式配平",
+    "电化学基础", "化学平衡状态", "烃和卤代烃", "烃的衍生物", "有机合成", "配合物的化学键理论",
+    "简答与计算题", "元素推断题", "物质推断题", "钠盐推断题",
+    "如下图所示", "如图所示", "如下图", "如图", "如上图", "如上图所示",
+    "各分子中", "离子中", "分子或离子中", "配离子中", "各组配离子中",
+    "叙述中错误的是", "说法中正确的是", "下列说法正确的是", "下列说法错误的是",
+    "叙述正确的是", "叙述错误的是", "判断下列说法", "判断下列结论",
+    "回答下列问题", "简要回答下列各题", "给出下列物质的化学式",
+    "完成并配平下列化学反应方程式", "写出两个反应的方程式",
+    "分别比较下列各组中的物质", "除去下列物质中的杂质"
+}
+
+DANGLING_ENDINGS = (
+    "和", "与", "及", "的", "对", "在", "于", "为", "等", "以", "或", "-", "、", "，",
+    "（", "(", "之", "少量", "微量", "大量", "含有", "中含有", "含有少量",
+    "中", "内", "下", "分别", "不同", "进行", "用", "同", "时"
+)
+
+
+def clean_title_candidate(raw: str) -> str:
+    """剥离标题中的书名、作者、模块名、内部序号（题-059-、Ch4A-1- 等），提取纯净语义短语。"""
+    if not raw:
+        return ""
+    # 0. 预清洗：剥离 wikilink、星号、括号标签及串联代号
+    s = re.sub(r"\[\[([^\]|#]+)(?:\|[^\]]+)?\]\]", r"\1", raw.strip())
+    s = re.sub(r"^(?:\*\*|\*)*【[^】]*】(?:\*\*|\*)*\s*", "", s)
+    s = re.sub(r"^(?:\*\*|\*)*\[[^\]]*\](?:\*\*|\*)*\s*", "", s)
+    s = s.replace("**", "").replace("*", "")
+
+    # 剥离前缀编号和范围（如 8.34-8.36-、10.24-、1.56 等）
+    s = re.sub(r"^\d+(?:\.\d+)?(?:\s*-\s*\d+(?:\.\d+)?)?\s*-?\s*", "", s)
+    # 剥离串联的内部题号（如 1.58 题-059-Ch4A-1-1.59 题-060-Ch4A-2-）
+    s = re.sub(r"(?:\d+\.\d+\s*)?题-\d+-[A-Za-z0-9]+-\d+-?", "", s)
+    # 避免误杀 1,3-偶极：\d+ 后若紧跟逗号则为化学位次，不可作为内部代号剥离
+    s = re.sub(r"\b0?\d{2,3}[a-zA-Z]?-\d+(?!,)[-_]?\s*", "", s)
+    # 剥离 L13实5-、L4例1-、L8对例1- 等教材讲义内部代码
+    s = re.sub(r"^L\d+(?:例|对例|知例|实)\d*[-_]?\s*", "", s)
+
+    s = re.sub(r"[-_—]+", "-", s.strip())
+    s = s.strip(" \"'[]#.-_")
+    parts = [p.strip() for p in s.split("-") if p.strip()]
+
+    # 1. 从左到右丢弃前缀代号/书名/模块名/纯数字/纯字母代号
+    while parts:
+        p = parts[0].strip()
+        if re.fullmatch(r"[\d.]+|0?\d{2,3}[a-zA-Z]?", p):
             parts.pop(0)
-        t = "-".join(parts).strip()
+            continue
+        # 英文题号/章节号前缀必须带数字（如 Ch4, P10, L14, T6, XES001），不能误杀 Peterson, Fischer 等人名反应
+        if re.fullmatch(r"(?:WCh|Ch|L|T|P|Q|F|ZOC|XES)\s*\d+[A-Za-z0-9.]*", p, re.I):
+            parts.pop(0)
+            continue
+        # 中文题号/测试号前缀带数字或讲义代码（如 L4例1, L8对例3, L13实5, 例1, 题059, 习3, 测2）
+        if re.fullmatch(r"(?:L\d+)?(?:机理例|光度例|知例|对例|实|测|例|习|练|题|习题|例题|络重|误差|容量|滴定)\s*\d*[\dA-Za-z.\u4e00-\u9fff]*", p, re.I):
+            parts.pop(0)
+            continue
+        if re.fullmatch(r"L\d+(?:例|对例|知例|实)?\d*", p):
+            parts.pop(0)
+            continue
+        # 纯前缀词
+        if p in {"题", "例", "练", "习", "测", "真题", "初赛", "决赛", "省预赛", "填空题", "选择题", "计算题", "简答题", "推断题"}:
+            parts.pop(0)
+            continue
+        if re.fullmatch(r"第?\s*\d+\s*届.*", p) or re.fullmatch(r"\d+\s*决理", p):
+            parts.pop(0)
+            continue
+        if re.fullmatch(r"(?:填空题|选择题|计算题|简答题|推断题)\s*[\d.-]*", p):
+            parts.pop(0)
+            continue
+        if p in DROP_PREFIX_TOKENS:
+            parts.pop(0)
+            continue
+        break
 
-    for w in drop_words:
-        t = t.replace(w, "")
-    t = re.sub(r"-+", "-", t).strip("-")
-    # 2026-09-07: 成品显示名清洗（主分支；与 build_exam_paper clean_disp 一致）
-    t = re.sub(r"一分册测试-|化学能力测试-|二分册-测\d+-", "", t)
-    t = re.sub(r"-+", "-", t).strip("-")
+    # 2. 尾部处理：如果最后一段是 习1, 习题4.23, 测2, 练3, 自学练习 3 等纯题号，丢弃
+    while parts:
+        p = parts[-1].strip()
+        if re.fullmatch(r"[\d.]+", p) or re.fullmatch(r"(?:机理例|光度例|自学练习|测|例|习|对例|练|题|习题|例题)\s*\d*[\dA-Za-z.]*", p, re.I):
+            parts.pop(-1)
+            continue
+        if p in {"题", "例", "练", "习", "测", "填空题", "选择题", "计算题", "简答题", "推断题"}:
+            parts.pop(-1)
+            continue
+        if re.fullmatch(r"(?:填空题|选择题|计算题|简答题|推断题)\s*[\d.-]*", p):
+            parts.pop(-1)
+            continue
+        break
 
-    if t and not re.fullmatch(r"[\d\-.]+", t):
-        return t
+    s = "-".join(parts).strip(" -_")
+    # 尾部去残留题号与自学练习代号
+    s = re.sub(r"\s*(?:自学练习|复习题|思考题|练习|习题|例题|测试|测验)\s*\d*(?:\.\d+)*\s*$", "", s)
+    if re.search(r"[\u4e00-\u9fff]\s+\d+$", s):
+        s = re.sub(r"\s+\d+$", "", s)
+    # 去除标题中残留的题目类型尾缀
+    s = re.sub(r"^推断题", "", s).strip()
+    s = re.sub(r"(?:选择题|填空题|计算题|简答题|推断题)$", "", s).strip()
+    # 剥离无意义操作动词尾缀
+    s = re.sub(r"(?:得到的产物和机理|的反应机理|反应产物和机理|反应产物及机理|的产物和机理|的机理|产物和机理|反应即可|即可)$", "", s).strip()
+    # 剥离前缀动词
+    s = re.sub(r"^(?:写出|指出|给出|画出|试述|简述|试写出|试求|设计一种|求)\s*", "", s).strip()
+    # 剥离尾部选项字母
+    s = re.sub(r"(?:[是为有属于]|[^\w\u4e00-\u9fff])\s*[A-Da-d]$", "", s).strip()
+    # 剥离前置悬挂单位（必须带字母断言，严防误伤 Lewis、对称性、对映体、Latimer）
+    s = re.sub(r"^(?:(?:kg|mg|g|mol|mmol|mL|L|kPa|Pa|atm|K)(?![a-zA-Z])|[℃%])\s*", "", s).strip()
+    # 移除首尾残留的符号与悬挂虚词
+    s = re.sub(r"^[^\w\u4e00-\u9fff]+", "", s)
+    s = re.sub(r"[^\w\u4e00-\u9fff)]+$", "", s)
+    while any(s.endswith(d) for d in DANGLING_ENDINGS):
+        for d in DANGLING_ENDINGS:
+            if s.endswith(d):
+                s = s[:-len(d)].strip()
+    # 消除中文字符之间因正则剥离残留的冗余空格（如「锡石 炼制金属锡」->「锡石炼制金属锡」）
+    s = re.sub(r"(?<=[\u4e00-\u9fff])\s+(?=[\u4e00-\u9fff])", "", s)
+    return s
 
+
+def short_title(item: dict) -> str:
+    """小节标题：提取纯净化学语义标题，绝不包含数据库内部代码或书名前缀。"""
+    fn = item["file"][:-3] if item["file"].endswith(".md") else item["file"]
     ttl = item.get("title", "")
-    for w in drop_words:
-        ttl = ttl.replace(w, "")
-    # 2026-09-07: 成品显示名清洗——题目名不出现来源教材词（用户规则，与 build_exam_paper clean_disp 一致）
-    ttl = re.sub(r"一分册测试-|化学能力测试-|二分册-测\d+-", "", ttl)
-    ttl = re.sub(r"-+", "-", ttl).strip("-")
-    ttl = re.sub(r"^[^\s：:]+[：:]\s*", "", ttl).strip()
-    return ttl
+    body = item.get("body", "")
+    y = item.get("yaml", "")
+    kps = item.get("kps", [])
+
+    # 0. 针对综合填空题（如 12.9-12.18-填空题）提取考点生成具象标题
+    if "填空题" in fn:
+        clean_kps = [re.sub(r"\[\[|\]\]", "", kp).strip() for kp in kps if kp not in GENERIC_TITLE_WORDS]
+        if len(clean_kps) >= 2:
+            return f"{clean_kps[0]}与{clean_kps[1]}综合填空"
+        elif len(clean_kps) == 1:
+            return f"{clean_kps[0]}性质与反应填空"
+
+    # 1. 优先尝试从 title 或 filename 提取清洗后的纯正标题
+    for candidate in [ttl, fn]:
+        c = clean_title_candidate(candidate)
+        c_cjk = re.sub(r"[^\u4e00-\u9fff]", "", c)
+        if len(c_cjk) >= 2 and c not in GENERIC_TITLE_WORDS and not re.search(r"^(?:Ch\d+|\d+-\d+|题-)", c):
+            return c
+
+    # 2. 尝试从 kps 提取专有概念
+    for kp in kps:
+        kp_clean = clean_title_candidate(kp)
+        kp_cjk = re.sub(r"[^\u4e00-\u9fff]", "", kp_clean)
+        if 2 <= len(kp_cjk) <= 14 and kp_clean not in GENERIC_TITLE_WORDS:
+            return kp_clean
+
+    # 3. 尝试从题干提取核心短语（遍历有效正文行）
+    q_match = re.search(r"##\s*题目\s*\n+(.*?)(?=\n\n\s*##|\Z)", body, re.S)
+    first_block = q_match.group(1).strip() if q_match else body.strip()
+    for line in first_block.splitlines():
+        line = line.strip()
+        if not line or line.startswith(">") or line.startswith("#") or line.startswith("!"):
+            continue
+        if re.match(r"^(?:\*\*题目\*\*|题目[:：]|【题目】|【例\d*】|根据所给条件|根据下列条件|给出下列物质|完成并配平|回答下列问题)", line):
+            continue
+        # 清除 【例 1】、[例1]、**【中文】**、3.（1） 等
+        line = re.sub(r"^(?:\*\*|\*)*【[^】]*】(?:\*\*|\*)*\s*", "", line)
+        line = re.sub(r"^(?:\*\*|\*)*\[[^\]]*\](?:\*\*|\*)*\s*", "", line)
+        line = line.replace("**", "").replace("*", "")
+        line = re.sub(r"^(?:【[^】]*】|\[[^\]]*\]|(?:例|题)\s*\d+(?:\.\d+)*[、.\s]*|(?:\d+\.)+\d+[、.\s]*|\d+[、.．]\s*(?:\([0-9一二三四五六七八九十a-zA-Z]+\)|（[0-9一二三四五六七八九十a-zA-Z]+）)?|\d+-\d+\s*)", "", line)
+        # 清除 math / LaTeX
+        line = re.sub(r"\$[^$]*\$?", "", line)
+        line = re.sub(r"\\[a-zA-Z]+|\{|\}", "", line)
+        line = re.sub(r"\(.*?\)|（.*?）", "", line)
+        line = re.sub(r"\s+", " ", line).strip()
+        # 切分分句（保护化学位次 1,3- 与英文小数点）
+        clauses = re.split(r"[，。！？；：!]|(?<!\d),(?!\d)|(?<![A-Za-z0-9])\.(?![A-Za-z0-9])", line)
+        for clause in clauses:
+            clause = clean_title_candidate(clause)
+            while True:
+                prev_c = clause
+                # 剥离完整时间状语
+                clause = re.sub(r"^(?:1[6-9]\d\d|20\d\d)\s*年\s*", "", clause)
+                clause = re.sub(r"^\d+\s*世纪(?:初|末|中|年代)?\s*", "", clause)
+                # 剥离前缀指令与泛型短语（要求量词后接名词，避免误杀 100 g 大豆 等纯数值+单位）
+                clause = re.sub(r"^(?:由于|由|因为|因|鉴于|针对|按照|试回答|试|计算|已知|下列|关于|根据|画出|简述|写出|给出|指出|求|用|令|某|把|将|向|在|取|有|设|假设|我们在|如例|为了|经研究|研究发现|发现|据认为|加热|于|所以|因此|故|因而|吸入)\s*(?:[\d一二三四五六七八九十]+\s*(?:个|种|项|步|类)\s*(?:反应|过程|变化|物质|化合物|实验)?\s*)?", "", clause).strip()
+                clause = re.sub(r"^(?:下列各分子中|下列各离子中|各分子中|各离子中|下列各物质中|下列各配合物中|下列各对原子中|下列物质中|下列各?)\s*", "", clause).strip()
+                clause = re.sub(r"^(?:各个|各|相关|对应|于)\s*", "", clause).strip()
+                # 剥离前导数字与单位
+                clause = re.sub(r"^\d+\s*[a-zA-Z%]*\s*", "", clause).strip()
+                clause = re.sub(r"^(?:(?:kg|mg|g|mol|mmol|mL|L|kPa|Pa|atm|K)(?![a-zA-Z])|[℃%])\s*", "", clause).strip()
+                # 剥离修饰性从句与虚词
+                clause = re.sub(r"(?:所采用的|采用的|具有的|呈现的)", "", clause).strip()
+                clause = re.sub(r"(?:在生成.*?时的|生成.*?时的|生成.*?的|生成三种化合物时的|生成化合物时的)", "", clause).strip()
+                clause = re.sub(r"(?:可以得到.*?|得到.*?|生成.*?|转化成.*?|转变为.*?)$", "", clause).strip()
+                # 过滤尾部无效修饰
+                clause = re.sub(r"(?:有很大的危险性|有很大危险性|危险性很大|具有危险性|有危险|可以有以下\d+种方法|应推荐哪一种方法|从中选择.*?|从其选择.*?|以供选择|其热分解性质也可看做是.*?|也可看做是.*?|可看做是.*?|的化学式可写做.*?|的发热量也一并列出|也一并列出|如下所示|如下|的组成如下|一并列出)$", "", clause).strip()
+                clause = clean_title_candidate(clause)
+                if clause == prev_c:
+                    break
+            c_cjk = re.sub(r"[^\u4e00-\u9fff]", "", clause)
+            if 3 <= len(c_cjk) <= 16 and clause not in GENERIC_TITLE_WORDS and not re.search(r"(?:例|题)\s*\d+", clause) and not re.match(r"^(?:下列|年|世纪)", clause):
+                return clause
+
+    return "基础训练"
+
+    return "基础训练"
 
 
 def exam_label(item):
@@ -1290,6 +1610,7 @@ def build_book(module, out_dir, chapter_map, exclude_subs=None):
                 a_text = fix_broken_frac(a_text)
                 q_text = balance_dollar_pairs(q_text)
                 a_text = balance_dollar_pairs(a_text)
+                q_text = clean_question_stem(q_text)
 
             # ---- 质量告警（不打断生成，dry-run/正式均汇总打印）----
             loc = f"[{module}] {fname} #{num}.{qn} ← {item['path']}"

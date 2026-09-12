@@ -39,7 +39,9 @@ source_grade: C
 ---
 
 ## 参考答案
-（答案见 [[提炼-ABOC-第12章-习题解析]]）
+自学练习 4.11 如下所示：
+
+![[c37ac8ece4340dcfdaa47c9b90566aa6233ed323a490efc0a1eb96600ed1b4a1.jpg]]
 
 ---
 

@@ -62,7 +62,6 @@ def main() -> int:
                 # 等号拼接：argparse 会把 "-教师版" 形态的值误判为选项
                 f"--filename-suffix={suf}",
                 "--strict-images",
-                "--cover",
                 "--parallel",
                 "4",
             )

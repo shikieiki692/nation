@@ -16,7 +16,8 @@ aliases: [ABOC-Ch1-1.3.1-4-2]
 source: ABOC 第1章 自学练习（ARX's Basic Organic Chemistry 第3版）
 cross_references: ["[[04-题库/教材习题/ABOC/题-277-ABOC-Ch1-T2]]", "[[04-题库/教材习题/ABOC/题-275-ABOC-Ch1-T7]]", "[[04-题库/教材习题/ABOC/题-287-ABOC-Ch1-T8]]", "[[04-题库/教材习题/ABOC/题-185-ABOC-Ch1-1.2.2-5-HOMO主要分布在氧和β碳上面]]", "[[04-题库/教材习题/ABOC/题-265-ABOC-Ch1-T8]]"]
 module: 基础要求-有机化学
-status: 已填充
+status: deprecated
+superseded_by: "已合并入完整习题卡"
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材

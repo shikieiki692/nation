@@ -38,7 +38,7 @@ $L \dot { \mathsf { I } } + \mathsf { R } \mathsf { X } = \mathsf { L } \mathsf 
 ---
 
 ## 参考答案
-（答案见 [[提炼-ABOC-第12章-习题解析]]）
+自学练习 2.7.2-3 $L \dot { \mathsf { I } } + \mathsf { R } \mathsf { X } = \mathsf { L } \mathsf { I } \mathsf { X } + \mathsf { R } ^ { \prime } ; \mathsf { R } ^ { \prime } + \mathsf { L } \mathsf { I } = \mathsf { R } \mathsf { L } \dot { \mathsf { I } }$
 
 ---
 

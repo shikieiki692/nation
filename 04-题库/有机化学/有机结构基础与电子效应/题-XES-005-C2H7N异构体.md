@@ -37,6 +37,10 @@ Propose structures for two isomers with the formula $C_{2}H_{7}N$ .
 
 ## 参考答案
 
-（略，见源文件解析）
+分子式为 $\mathrm{C_2H_7N}$ 的两个构造异构体结构简式与名称如下：
 
----
+1. **乙胺（Ethylamine，伯胺）**：
+   $$\mathrm{CH_3CH_2NH_2}$$
+2. **二甲胺（Dimethylamine，仲胺）**：
+   $$\mathrm{CH_3NHCH_3}$$
+

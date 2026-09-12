@@ -37,7 +37,19 @@ source_grade: C
 ---
 
 ## 参考答案
-（答案见 [[提炼-ABOC-第12章-习题解析]]）
+自学练习 1.2.1 如下所示：
+
+吸电子诱导效应：
+
+$$
+\mathrm{O} _ {2} \mathrm{NCH} _ {2} - > (\mathrm{CH} _ {3}) _ {3} \mathrm{N} ^ {+} \mathrm{CH} _ {2} - > \mathrm{CH} _ {3} \mathrm{SO} _ {2} \mathrm{CH} _ {2} - > \mathrm{ClCH} _ {2} - > \mathrm{CH} _ {3} \mathrm{OCH} _ {2} - > \mathrm{CH} _ {3} \mathrm{COCH} _ {2} - >
+$$
+
+$$
+\mathrm{HC} \equiv \mathrm{CCH} _ {2} - > \mathrm{C} _ {6} \mathrm{H} _ {5} \mathrm{CH} _ {2} - > \mathrm{CH} _ {3} -
+$$
+
+在有机化学中，共振式的概念会被扩展。形如非键共振的案例将会在之后的学习中广泛涉及，无机化学依然使用传统共振式，没有考虑这一点是因为科学发展的滞后性。
 
 ---
 
