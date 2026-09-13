@@ -1,0 +1,17 @@
+flowchart LR
+    M["宏观可称量<br/>质量 m（g）<br/>体积 V（溶液，L）"]
+    N["枢纽 n（mol）"]
+    P["微观粒子数 N"]
+    NA["Nₐ ≈ 6.022×10²³ mol⁻¹"]
+    CORE["核心关系<br/>n = N / Nₐ = m / M = V / Vₘ = c · V"]
+    APP["本章收口应用<br/>铁盐/铝盐计量：n(Al)=m/M → 算 V(H₂)<br/>合金含碳量：钢 0.03%~2% vs 生铁 2%~4.3%<br/>铝与酸/碱放 H₂ 体积比 1:1（Al 均 0→+3）<br/>铁三角电子守恒 5Fe²⁺+MnO₄⁻+8H⁺=…"]
+
+    M -->|"÷ M 或 ÷ Vₘ"| N
+    P -->|"÷ Nₐ"| N
+    NA -.->|"N / Nₐ"| N
+    N --> CORE
+    CORE --> APP
+
+    style N fill:#ffe0b3,stroke:#e90,stroke-width:3px
+    style CORE fill:#cfe8ff,stroke:#3aa,stroke-width:2px
+    style APP fill:#e8f5e9,stroke:#3a3

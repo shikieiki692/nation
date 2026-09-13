@@ -1,0 +1,31 @@
+flowchart TD
+    ROOT["物质结构 元素周期律 · 结构化学体系"]
+    P1["宏观视角<br/>现象 / 性质 / 物性"]
+    P2["微观视角<br/>结构 / 粒子 / 电子 / 键"]
+    P3["符号视角<br/>原子结构示意图 / 电子式 / 结构式"]
+    TRI["位—构—性 三角（本章灵魂）<br/>结构决定性质，性质验证位置，位置反推结构"]
+    WEI["位（周期表位置）"]
+    GOU["构（原子结构）"]
+    XING["性（元素性质）"]
+    TRI2["三重表征<br/>宏观现象 ⇄ 微观粒子 ⇄ 符号表达"]
+
+    ROOT --> P1
+    ROOT --> P2
+    ROOT --> P3
+    ROOT --> TRI
+    TRI --> WEI
+    TRI --> GOU
+    TRI --> XING
+    GOU -->|"结构决定性质"| XING
+    XING -->|"性质验证位置"| WEI
+    WEI -->|"位置反推结构"| GOU
+    WEI -.->|"位置反映结构"| GOU
+    P1 --> TRI2
+    P2 --> TRI2
+    P3 --> TRI2
+
+    style ROOT fill:#ffe0b3,stroke:#e90,stroke-width:2px
+    style TRI fill:#f8d7da,stroke:#c33,stroke-width:2px
+    style WEI fill:#cfe8ff,stroke:#3aa
+    style GOU fill:#e8f5e9,stroke:#3a3
+    style XING fill:#f3e5f5,stroke:#93c

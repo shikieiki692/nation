@@ -1,0 +1,17 @@
+flowchart TD
+    C["成分<br/>金属 + 其他金属/非金属熔合<br/>（混合物，非化合物）"]
+    S["结构<br/>异径原子破坏规整层状排列<br/>原子层相对滑动受阻"]
+    P["性能<br/>硬度↑ / 熔点↓ / 耐蚀↑<br/>（可经组分、含量、条件调控）"]
+    U["用途<br/>按性能选材"]
+
+    C --> S --> P --> U
+
+    U --> FE["铁合金<br/>生铁 2%~4.3%C（脆，机座）<br/>钢 0.03%~2%C（延展）<br/>碳素钢 / 合金钢（不锈钢 Cr≈18% Ni≈8%）"]
+    U --> AL["铝合金<br/>硬铝 Cu/Mg/Mn/Si（飞机飞船）<br/>易拉罐"]
+    U --> NEW["新型合金<br/>储氢 Ti-Fe·La-Ni<br/>钛合金（蛟龙号球壳）<br/>耐热 Ni-Co（发动机叶片）<br/>形状记忆 Ti-Ni"]
+    U --> RE["稀土<br/>17 种（镧系 15 + Sc + Y）<br/>“冶金维生素”"]
+
+    style C fill:#ffe0b3,stroke:#e90,stroke-width:2px
+    style P fill:#e8f5e9,stroke:#3a3
+    style U fill:#cfe8ff,stroke:#3aa
+    style NEW fill:#f3e5f5,stroke:#93c

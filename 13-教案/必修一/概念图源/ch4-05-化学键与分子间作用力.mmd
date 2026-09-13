@@ -1,0 +1,26 @@
+%%{init: {"flowchart": {"nodeSpacing": 110, "rankSpacing": 130, "curve": "basis"}}}%%
+flowchart TD
+    BOND["化学键<br/>相邻原子/离子间的强烈作用"]
+    ION["离子键<br/>阴阳离子间静电作用（引力 + 斥力平衡）<br/>成键 = 电子转移<br/>活泼金属(IA/IIA) ↔ 活泼非金属(VIA/VIIA)、铵盐<br/>离子化合物必含离子键（可同时含共价键：NaOH、Na₂O₂）<br/>熔融或水溶液导电、熔沸点高"]
+    COV["共价键<br/>原子间共用电子对<br/>共价化合物只含共价键（可含配位键，如 NH₄⁺）<br/>熔融不导电"]
+    POL["极性键 / 非极性键<br/>同种原子非极性，不同种原子极性（δ⁺ / δ⁻）"]
+    SIGMA["σ 键 / π 键<br/>单键 = 1σ　双键 = 1σ+1π<br/>三键 = 1σ+2π"]
+    COOR["配位键<br/>一方孤对 + 一方空轨道（NH₃+H⁺→NH₄⁺）<br/>形成后与普通共价键无区别"]
+    INTER["分子间作用力（比化学键弱，分子之间）"]
+    VDW["范德华力<br/>取向力 / 诱导力 / 色散力（常主导）<br/>分子量↑ 或 极性↑ → 范德华力↑ → 熔沸点↑"]
+    HB["氢键 X—H···Y（X、Y 多为 F/O/N）<br/>5~40 kJ/mol 量级<br/>条件：H 连强电负性 F/O/N 作供体 + 另一 F/O/N 孤对作受体<br/>有 H ≠ 有氢键（CH₄、HCl 非典型供体）<br/>分子间氢键 ↑ 沸点（H₂O、HF、NH₃）<br/>分子内氢键常 ↓ 沸点（邻硝基苯酚 &lt; 对硝基苯酚）"]
+
+    BOND --> ION
+    BOND --> COV
+    COV --> POL
+    COV --> SIGMA
+    COV --> COOR
+    BOND --> INTER
+    INTER --> VDW
+    INTER --> HB
+
+    style BOND fill:#ffe0b3,stroke:#e90,stroke-width:2px
+    style ION fill:#cfe8ff,stroke:#3aa
+    style COV fill:#cfe8ff,stroke:#3aa
+    style INTER fill:#e8f5e9,stroke:#3a3
+    style HB fill:#f8d7da,stroke:#c33

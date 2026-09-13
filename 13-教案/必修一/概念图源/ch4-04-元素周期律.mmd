@@ -1,0 +1,25 @@
+flowchart TD
+    ROOT["元素周期律<br/>随原子序数递增的周期性（同周期 / 同主族）"]
+    R["原子半径<br/>同周期 左→右 ↓（核电荷↑ 吸引↑）<br/>同主族 上→下 ↑（电子层↑ 屏蔽↑）<br/>离子半径 O²⁻ &gt; F⁻ &gt; Na⁺ &gt; Mg²⁺ &gt; Al³⁺（等电子构型）"]
+    V["化合价<br/>最高正价 = 族序数（O、F 除外）<br/>最低负价 = 最外层电子数 − 8<br/>最高正价 + |最低负价| = 8"]
+    I["第一电离能 I₁<br/>同周期总体 ↑，反常 ⅡA &gt; ⅢA（ns² 全满）<br/>ⅤA &gt; ⅥA（np³ 半满）；同主族 ↓"]
+    E["电负性<br/>F = 4.0 最大、Cs = 0.7 最小<br/>同周期 ↑、同主族 ↓<br/>差值 &gt; 1.7 一般为离子键（AlCl₃ 例外）"]
+    MET["金属性（失电子能力）<br/>同周期 ↓、同主族 ↑<br/>判据：与水/酸反应难易<br/>+ 最高价氧化物水化物碱性"]
+    NON["非金属性（得电子能力）<br/>同周期 ↑、同主族 ↓<br/>判据：与 H₂ 化合难易 + 氢化物稳定性<br/>+ 最高价含氧酸酸性"]
+    ESS["本质（核心）<br/>同周期核电荷↑、半径↓ → 失电子↓ 得电子↑<br/>→ 金属性↓ 非金属性↑　结构决定性质"]
+    EXP["第三周期“元素争霸赛”（4.5）<br/>Na &gt; Mg &gt; Al 金属性<br/>（NaOH 强碱 → Mg(OH)₂ 中强 → Al(OH)₃ 两性）<br/>Si &lt; P &lt; S &lt; Cl 非金属性<br/>（H₂SiO₃ 弱 → H₃PO₄ 中强 → H₂SO₄ 强 → HClO₄ 最强）"]
+
+    ROOT --> R
+    ROOT --> V
+    ROOT --> I
+    ROOT --> E
+    ROOT --> MET
+    ROOT --> NON
+    MET --> ESS
+    NON --> ESS
+    ESS --> EXP
+
+    style ROOT fill:#ffe0b3,stroke:#e90,stroke-width:2px
+    style ESS fill:#f8d7da,stroke:#c33,stroke-width:2px
+    style EXP fill:#e8f5e9,stroke:#3a3
+    style I fill:#f3e5f5,stroke:#93c

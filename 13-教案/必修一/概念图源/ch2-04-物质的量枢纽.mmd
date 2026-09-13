@@ -1,0 +1,20 @@
+flowchart LR
+    M["宏观可称量<br/>质量 m（g）<br/>体积 V（溶液，L）"]
+    N["枢纽 n（mol）"]
+    P["微观粒子数 N"]
+    NA["Nₐ ≈ 6.022×10²³ mol⁻¹"]
+    CORE["核心关系<br/>n = N / Nₐ = m / M = V / Vₘ = c · V"]
+    FOUR["四大量<br/>n（mol）· M（g/mol）<br/>Vₘ（22.4 L/mol，标况）· c（mol/L）"]
+    DIL["稀释：c₁V₁ = c₂V₂<br/>换算：c = 1000ρω / M<br/>阿伏加德罗定律"]
+
+    M -->|"÷ M 或 ÷ Vₘ"| N
+    P -->|"÷ Nₐ"| N
+    NA -.->|"N / Nₐ"| N
+    N --> CORE
+    CORE --> FOUR
+    FOUR --> DIL
+
+    style N fill:#ffe0b3,stroke:#e90,stroke-width:3px
+    style CORE fill:#cfe8ff,stroke:#3aa,stroke-width:2px
+    style FOUR fill:#e8f5e9,stroke:#3a3
+    style DIL fill:#f3e5f5,stroke:#93c

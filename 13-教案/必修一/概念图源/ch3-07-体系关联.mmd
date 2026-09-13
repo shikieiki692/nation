@@ -1,0 +1,22 @@
+flowchart TD
+    M["研究方法：类别视角 × 价态视角（双轴）<br/>承接第一、二章<br/>宏—微—符三重表征"]
+    FE["铁及其化合物 ★<br/>铁三角 Fe⁰ / Fe²⁺ / Fe³⁺"]
+    AL["铝及其化合物 ★<br/>铝三角 Al³⁺ ⇌ Al(OH)₃ ⇌ AlO₂⁻"]
+    ALLOY["合金与金属材料<br/>成分 — 结构 — 性能 — 用途"]
+    PRE["承接第一、二章<br/>氧化还原（价态转化）· 离子反应<br/>物质的量（定量桥梁 n）"]
+    NEXT["后续接口<br/>物质结构·元素周期律（过渡金属 / 周期递变）<br/>选择性必修：水溶液离子平衡 · 电化学（腐蚀与防护）"]
+
+    M --> FE
+    M --> AL
+    M --> ALLOY
+    PRE --> M
+    FE --> NEXT
+    AL --> NEXT
+    ALLOY --> NEXT
+
+    style M fill:#ffe0b3,stroke:#e90,stroke-width:2px
+    style FE fill:#e8f5e9,stroke:#3a3
+    style AL fill:#cfe8ff,stroke:#3aa
+    style ALLOY fill:#f3e5f5,stroke:#93c
+    style PRE fill:#eeeeee,stroke:#999
+    style NEXT fill:#eeeeee,stroke:#999

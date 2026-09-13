@@ -1,0 +1,19 @@
+flowchart TD
+    V3["+3 价<br/>Fe³⁺ · Al³⁺ · Fe₂O₃ · Al(OH)₃"]
+    V2["+2 价<br/>Fe²⁺ · FeO · Fe₃O₄（含铁）"]
+    V0["0 价<br/>Fe · Al 单质（只氧化，强还原）"]
+    VM1["−1 价（氢氧根视角）<br/>AlO₂⁻：碱性介质中铝的存在形式"]
+    RULE["规律（与第一、二章一致）<br/>同价态横向变类别 = 非氧化还原<br/>如 Fe³⁺ → Fe(OH)₃ → Fe₂O₃<br/>纵向变价态 = 氧化还原<br/>如 Fe⁰ → Fe²⁺ → Fe³⁺、Al⁰ → Al³⁺"]
+
+    V0 -->|"氧化（升价）"| V2
+    V2 -->|"氧化（升价）"| V3
+    V3 -->|"还原（降价）"| V2
+    V2 -->|"还原（降价）"| V0
+    V0 --> VM1
+    V3 --> RULE
+    V2 --> RULE
+
+    style V3 fill:#f8d7da,stroke:#c33
+    style V2 fill:#e8f5e9,stroke:#3a3
+    style V0 fill:#ffe0b3,stroke:#e90,stroke-width:2px
+    style RULE fill:#f3e5f5,stroke:#93c

@@ -1,0 +1,22 @@
+flowchart TD
+    ROOT["物质及其变化"]
+    P1["宏观类别视角<br/>物质的分类 · 转化"]
+    P2["粒子尺度视角<br/>分散系 · 胶体"]
+    AXIS["化学反应的两种分类轴（交叉）"]
+    A1["轴① 离子反应<br/>本质：某些离子浓度降低<br/>复分解为主 · 多非氧化还原"]
+    A2["轴② 氧化还原反应<br/>本质：电子转移<br/>与元素价态相关"]
+    D1["微观钻进：电离 → 离子反应"]
+    D2["微观钻进：氧化还原 → 配平计算"]
+
+    ROOT --> P1
+    ROOT --> P2
+    ROOT --> AXIS
+    AXIS --> A1
+    AXIS --> A2
+    A1 --> D1
+    A2 --> D2
+
+    style ROOT fill:#ffe0b3,stroke:#e90,stroke-width:2px
+    style AXIS fill:#cfe8ff,stroke:#3aa,stroke-width:2px
+    style A1 fill:#e8f5e9,stroke:#3a3
+    style A2 fill:#e8f5e9,stroke:#3a3

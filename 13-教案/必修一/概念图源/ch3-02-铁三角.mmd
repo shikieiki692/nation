@@ -1,0 +1,28 @@
+flowchart TD
+    FE0["Fe⁰ 单质（0 价，强还原）"]
+    FE2["Fe²⁺（浅绿，还原性为主）"]
+    FE3["Fe³⁺（棕黄，氧化性为主）"]
+    OX["强氧化剂<br/>Cl₂ / HNO₃ / 浓 H₂SO₄"]
+    WEAK["弱氧化剂<br/>H⁺ / Cu²⁺ / S"]
+    OX2["氧化剂<br/>Cl₂ / H₂O₂ / O₂ / KMnO₄"]
+    T3["检验 Fe³⁺：KSCN → 血红色<br/>或 NaOH → 红棕沉淀"]
+    T2["检验 Fe²⁺：KSCN 不变 + 氯水变红<br/>或 K₃[Fe(CN)₆] → 滕氏蓝"]
+    HY["氢氧化物<br/>Fe(OH)₂↓ 白→灰绿→红褐<br/>Fe(OH)₃↓ 红棕，受热 → Fe₂O₃"]
+
+    FE0 -->|"Cl₂ 点燃 / 与 S"| FE3
+    FE0 --> WEAK
+    WEAK --> FE2
+    FE0 --> OX
+    OX --> FE3
+    FE3 -->|"加 Fe 粉还原<br/>2Fe³⁺+Fe=3Fe²⁺"| FE2
+    FE2 -->|"2Fe²⁺+Cl₂=2Fe³⁺+2Cl⁻"| FE3
+    FE3 --> T3
+    FE2 --> T2
+    FE2 --> HY
+    FE3 --> HY
+
+    style FE0 fill:#ffe0b3,stroke:#e90,stroke-width:2px
+    style FE2 fill:#e8f5e9,stroke:#3a3
+    style FE3 fill:#f8d7da,stroke:#c33
+    style T3 fill:#f3e5f5,stroke:#93c
+    style T2 fill:#f3e5f5,stroke:#93c

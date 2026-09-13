@@ -1,0 +1,29 @@
+flowchart TD
+    CL2["Cl₂"]
+    HCL["HCl<br/>H₂+Cl₂ →(点燃) 2HCl<br/>苍白色火焰（氧化还原）"]
+    H2O["Cl₂ + H₂O ⇌ HCl + HClO"]
+    HCLO["HClO<br/>强氧化性 · 永久漂白<br/>（与 SO₂ 的可逆漂白不同）"]
+    OLD["久置：2HClO →(光照) 2HCl + O₂↑<br/>氯水变稀盐酸"]
+    NAOH["Cl₂ + 2NaOH → NaCl + NaClO + H₂O<br/>（歧化，氧化还原）"]
+    B84["84 消毒液 = NaClO 溶液"]
+    CA["Cl₂ + 2Ca(OH)₂ → CaCl₂ + Ca(ClO)₂ + 2H₂O"]
+    BLEACH["漂白粉<br/>有效成分 Ca(ClO)₂（有效氯约 35%）"]
+    TEST["Cl⁻ 检验：AgNO₃ + 稀 HNO₃<br/>AgCl↓白 / AgBr↓淡黄 / AgI↓黄"]
+    HAL["卤素递变（氧化性）<br/>F₂ > Cl₂ > Br₂ > I₂ 依次减弱"]
+
+    CL2 -->|"与 H₂ 点燃"| HCL
+    CL2 -->|"与水（可逆）"| H2O
+    H2O --> HCLO
+    HCLO --> OLD
+    CL2 -->|"与碱（歧化）"| NAOH
+    NAOH --> B84
+    CL2 --> CA
+    CA --> BLEACH
+    CL2 --> TEST
+    TEST --> HAL
+
+    style CL2 fill:#ffe0b3,stroke:#e90,stroke-width:2px
+    style HCLO fill:#e8f5e9,stroke:#3a3
+    style OLD fill:#f8d7da,stroke:#c33
+    style BLEACH fill:#e8f5e9,stroke:#3a3
+    style HAL fill:#f3e5f5,stroke:#93c

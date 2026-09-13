@@ -1,0 +1,28 @@
+%%{init: {"flowchart": {"nodeSpacing": 100, "rankSpacing": 130, "curve": "basis"}}}%%
+flowchart TD
+    NA["Na（强还原）"]
+    NA2O["Na₂O（白色，O 为 −2）"]
+    NA2O2["Na₂O₂（淡黄色，过氧根 O 为 −1）"]
+    NAOH["NaOH"]
+    NA2CO3["Na₂CO₃（纯碱）"]
+    NAHCO3["NaHCO₃（小苏打）"]
+    HOU["侯氏制碱<br/>NaCl + NH₃ + CO₂ + H₂O → NaHCO₃↓ + NH₄Cl<br/>再 △ 得 Na₂CO₃"]
+    FLAME["焰色反应<br/>Na 黄色、K 紫色（透蓝钴玻璃）<br/>物理变化，非氧化还原"]
+
+    NA -->|"O₂ 常温"| NA2O
+    NA -->|"O₂ 点燃"| NA2O2
+    NA2O -->|"与 H₂O / CO₂"| NAOH
+    NA2O2 -->|"歧化出 O₂"| RXN1["2Na₂O₂+2H₂O→4NaOH+O₂↑"]
+    RXN1 --> NAOH
+    NA2O2 -->|"歧化 2Na₂O₂+2CO₂→2Na₂CO₃+O₂"| NA2CO3
+    NA2O2 -->|"作供氧剂（呼吸面具 / 潜艇）"| O2["O₂"]
+    NAOH -->|"吸收 CO₂"| NA2CO3
+    NA2CO3 -->|"+CO₂+H₂O"| NAHCO3
+    NAHCO3 -->|"△ 分解 或 +NaOH"| NA2CO3
+    NA2CO3 --> HOU
+    HOU --> FLAME
+
+    style NA fill:#ffe0b3,stroke:#e90,stroke-width:2px
+    style NA2O2 fill:#f8d7da,stroke:#c33
+    style HOU fill:#e8f5e9,stroke:#3a3
+    style FLAME fill:#f3e5f5,stroke:#93c

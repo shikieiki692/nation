@@ -1,0 +1,23 @@
+flowchart TD
+    ALL["全部化学反应"]
+    Q1{"有离子参加?"}
+    Q2{"有电子转移?"}
+    R1["离子反应"]
+    R2["非离子反应"]
+    R3["氧化还原反应"]
+    R4["非氧化还原反应"]
+    X["交叉区：既是离子反应又是氧化还原反应<br/>Zn + 2H⁺ → Zn²⁺ + H₂↑<br/>2Fe³⁺ + Cu → 2Fe²⁺ + Cu²⁺"]
+
+    ALL --> Q1
+    ALL --> Q2
+    Q1 -->|是| R1
+    Q1 -->|否| R2
+    Q2 -->|是| R3
+    Q2 -->|否| R4
+    R1 --> X
+    R3 --> X
+
+    style ALL fill:#ffe0b3,stroke:#e90,stroke-width:2px
+    style Q1 fill:#fff3cd,stroke:#d39
+    style Q2 fill:#fff3cd,stroke:#d39
+    style X fill:#f8d7da,stroke:#c33,stroke-width:2px

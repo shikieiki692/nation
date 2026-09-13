@@ -1,0 +1,30 @@
+flowchart TD
+    TBL["元素周期表<br/>编排：按原子序数递增<br/>原子序数 = 核电荷数 = 质子数 = 电子数"]
+    ROW["周期（横行，7 个）<br/>短 2 / 8 / 8，长 18 / 18 / 32 / 32<br/>镧系 57–71、锕系 89–103 单列"]
+    COL["族（纵列，16 个）<br/>IA–VIIA 主族 / IIIB–IIB 副族<br/>VIII 族（8,9,10）/ 0 族"]
+    LINK["位置 ⇄ 结构 ⇄ 性质<br/>周期序数 = 电子层数<br/>主族族序数 = 最外层电子数<br/>由原子序数推位置 → 由位置推性质（递变）"]
+    ZONE["五区划分（按最后填入电子的轨道）"]
+    S["s 区 ns¹/ns²<br/>IA / IIA 活泼金属（H 除外）"]
+    P["p 区 ns²np¹⁻⁶<br/>IIIA–VIIA + 0 族<br/>金属 → 非金属渐变"]
+    D["d 区 (n−1)d¹⁻⁹ ns¹⁻²<br/>IIIB–VIII 过渡金属多变价"]
+    DS["ds 区 (n−1)d¹⁰ ns¹⁻²<br/>IB / IIB 类过渡金属"]
+    F["f 区 (n−2)f¹⁻¹⁴<br/>镧系 / 锕系内过渡金属<br/>性质极相似"]
+    NOTE["特殊：He（1s²）电子排布属 s 区<br/>但化学行为归 0 族<br/>科学史：门捷列夫 1869 按相对原子质量排列并留空位<br/>4 年后 Ga（类铝）证实"]
+
+    TBL --> ROW
+    TBL --> COL
+    ROW --> LINK
+    COL --> LINK
+    TBL --> ZONE
+    ZONE --> S
+    ZONE --> P
+    ZONE --> D
+    ZONE --> DS
+    ZONE --> F
+    F --> NOTE
+    S --> NOTE
+
+    style TBL fill:#ffe0b3,stroke:#e90,stroke-width:2px
+    style LINK fill:#cfe8ff,stroke:#3aa,stroke-width:2px
+    style ZONE fill:#e8f5e9,stroke:#3a3
+    style NOTE fill:#f3e5f5,stroke:#93c

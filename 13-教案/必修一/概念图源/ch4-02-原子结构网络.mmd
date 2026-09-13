@@ -1,0 +1,26 @@
+flowchart TD
+    ATOM["原子构成（中性原子）"]
+    NUC["原子核（带正电）"]
+    PRO["质子 Z<br/>决定元素种类"]
+    NEU["中子 N<br/>决定核素"]
+    ELE["核外电子（带负电）<br/>分层 K / L / M / N…<br/>每层最多 2n²"]
+    REL["关系：A = Z + N（质量数）<br/>原子序数 = 核电荷数 = 质子数 = 核外电子数"]
+    RULE["排布规律<br/>能量最低原理（先内后外）<br/>最外层 ≤ 8（K 层作最外层 ≤ 2）<br/>次外层 ≤ 18、倒数第三层 ≤ 32<br/>1~20 号：H 1 / He 2 / Ne 2,8 / Ar 2,8,8 / Ca 2,8,8,2"]
+    DEEP["深度补点<br/>电子云小黑点 = 概率密度，非电子本身<br/>能层能级 s/p/d/f；能级交错 E(4s) &lt; E(3d)（钻穿效应）"]
+    HIS["原子模型史（6 阶段，螺旋上升）<br/>德谟克利特 → 道尔顿(1803 实心球)<br/>→ 汤姆生(1897 葡萄干布丁) → 卢瑟福(1911 核式)<br/>→ 玻尔(1913 定态轨道) → 薛定谔(1920s 电子云)"]
+
+    ATOM --> NUC
+    ATOM --> ELE
+    NUC --> PRO
+    NUC --> NEU
+    PRO --> REL
+    NEU --> REL
+    ELE --> REL
+    REL --> RULE
+    RULE --> DEEP
+    DEEP --> HIS
+
+    style ATOM fill:#ffe0b3,stroke:#e90,stroke-width:2px
+    style REL fill:#cfe8ff,stroke:#3aa,stroke-width:2px
+    style DEEP fill:#f3e5f5,stroke:#93c
+    style HIS fill:#eeeeee,stroke:#999

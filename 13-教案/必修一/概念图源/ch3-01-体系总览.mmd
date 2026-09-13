@@ -1,0 +1,26 @@
+flowchart TD
+    ROOT["铁 金属材料 · 元素化合物与材料体系"]
+    P1["宏观视角<br/>现象 / 性质 / 用途"]
+    P2["微观视角<br/>结构 / 粒子 / 电子"]
+    P3["符号视角<br/>化学方程式 / 离子方程式"]
+    BIAX["双轴分类（承接第一、二章 类别 × 价态）"]
+    A1["轴① 类别视角<br/>单质 / 氧化物 / 氢氧化物 / 盐 / 合金"]
+    A2["轴② 价态视角<br/>Fe：0 → +2 / +3<br/>Al：0 → +3"]
+    TRI["三重表征<br/>宏观现象 ⇄ 微观粒子 ⇄ 符号表达"]
+    MAT["材料视角<br/>成分 → 结构 → 性能 → 用途"]
+
+    ROOT --> P1
+    ROOT --> P2
+    ROOT --> P3
+    ROOT --> BIAX
+    BIAX --> A1
+    BIAX --> A2
+    P1 --> TRI
+    P2 --> TRI
+    P3 --> TRI
+    ROOT --> MAT
+
+    style ROOT fill:#ffe0b3,stroke:#e90,stroke-width:2px
+    style BIAX fill:#cfe8ff,stroke:#3aa,stroke-width:2px
+    style MAT fill:#e8f5e9,stroke:#3a3
+    style TRI fill:#f3e5f5,stroke:#93c

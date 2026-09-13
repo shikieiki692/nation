@@ -1,0 +1,24 @@
+flowchart TD
+    AL3["Al³⁺（酸性介质，pH &lt; 约 3.5）"]
+    ALOH3["Al(OH)₃（白色胶状，pH 约 3.5–12 沉淀）"]
+    ALO2["AlO₂⁻（碱性介质，pH &gt; 约 12）<br/>水溶液中实为 [Al(OH)₄]⁻"]
+
+    AL3 -->|"加适量弱碱 NH₃·H₂O<br/>Al³⁺+3NH₃·H₂O=Al(OH)₃↓+3NH₄⁺"| ALOH3
+    ALOH3 -->|"加酸 3H⁺"| AL3
+    ALOH3 -->|"加过量强碱 OH⁻<br/>Al(OH)₃+OH⁻=AlO₂⁻+2H₂O"| ALO2
+    ALO2 -->|"通 CO₂（弱酸）<br/>AlO₂⁻+CO₂+2H₂O=Al(OH)₃↓+HCO₃⁻"| ALOH3
+
+    AL0["Al 单质（0 价，致密 Al₂O₃ 膜）"]
+    AL0 -->|"2Al+6H⁺→2Al³⁺+3H₂↑"| AL3
+    AL0 -->|"2Al+2NaOH+2H₂O→2NaAlO₂+3H₂↑"| ALO2
+    AL0 -->|"铝热 2Al+Fe₂O₃→(高温)2Fe+Al₂O₃"| THERM["焊接铁轨 / 还原难熔金属"]
+
+    MECH["两性机理（耦合平衡）<br/>H⁺ + AlO₂⁻ + H₂O ⇌ Al(OH)₃ ⇌ Al³⁺ + 3OH⁻<br/>判据：离子势 φ = z/r，Al³⁺ 约 4.8 居中 → 两性"]
+    USE["应用：明矾 KAl(SO₄)₂·12H₂O 净水（胶体吸附）<br/>胃药 Al(OH)₃ 中和胃酸"]
+    ALOH3 --> MECH
+    ALOH3 --> USE
+
+    style AL3 fill:#e8f5e9,stroke:#3a3
+    style ALOH3 fill:#ffe0b3,stroke:#e90,stroke-width:2px
+    style ALO2 fill:#cfe8ff,stroke:#3aa
+    style MECH fill:#f3e5f5,stroke:#93c
