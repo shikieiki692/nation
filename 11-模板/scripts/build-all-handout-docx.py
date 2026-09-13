@@ -23,6 +23,7 @@ import argparse
 from dataclasses import dataclass
 from datetime import date as date_cls
 import hashlib
+import html as html_mod
 import os
 import re
 import shutil
@@ -1457,6 +1458,73 @@ def _strip_footer(text: str) -> str:
     return "\n".join(lines) + "\n"
 
 
+def _convert_html_tables(text: str) -> str:
+    r"""把源里的 <table>...</table> 转成 Markdown pipe table。
+
+    pandoc 输出 docx 时不会把 raw HTML table 落成 Word 表格，只把单元格文字逐个
+    摊成独立段落——习题书 1-热力学「大豆发热量」表就是这样散成十几段的。转成
+    pipe table 后才会生成真正的 Word 表格。
+
+    保守条件（不满足则原样放过）：无 colspan/rowspan、无 <br>/<img>/![[]、
+    列数 1..8。单元格内的行内标签（<sub>/<sup>/<b> 等）直接剥掉。
+    """
+    def _repl(m: re.Match) -> str:
+        block = m.group(0)
+        low = block.lower()
+        if 'colspan' in low or 'rowspan' in low:
+            return block
+        if '<br' in low or '<img' in low or '![[' in block:
+            return block
+        rows: list[list[str]] = []
+        for tr in re.findall(r'<tr\b[^>]*>(.*?)</tr>', block, flags=re.I | re.S):
+            cells = re.findall(r'<t[dh]\b[^>]*>(.*?)</t[dh]>', tr, flags=re.I | re.S)
+            rows.append([re.sub(r'<[^>]+>', '', c).strip() for c in cells])
+        width = max((len(r) for r in rows), default=0)
+        if not rows or width == 0 or width > 8:
+            return block
+        lines: list[str] = []
+        for k, row in enumerate(rows):
+            row = row + [''] * (width - len(row))
+            cells = [c.replace('|', '\\|') if '|' in c else c for c in row]
+            lines.append('| ' + ' | '.join(cells) + ' |')
+            if k == 0:
+                lines.append('| ' + ' | '.join(['---'] * width) + ' |')
+        return '\n'.join(lines)
+
+    return re.sub(r'<table\b[^>]*>.*?</table>', _repl, text, flags=re.I | re.S)
+
+
+def _map_math_spans(text: str, fn) -> str:
+    """对 $...$ / $$...$$ 数学区域内容应用 fn，其余原样保留。
+
+    行内 $...$ 不允许跨行（遇到换行即判定为未闭合的孤立 $，按普通字符放过），
+    避免把「第 1 题 $x$ 与第 2 题 $y$」之类跨段文本整段吞进 math 区。
+    """
+    out: list[str] = []
+    i = 0
+    n = len(text)
+    while i < n:
+        if text.startswith("$$", i):
+            j = text.find("$$", i + 2)
+            if j == -1:
+                out.append(text[i:])
+                break
+            out.append("$$" + fn(text[i + 2:j]) + "$$")
+            i = j + 2
+        elif text[i] == "$" and (i == 0 or text[i - 1] != "\\"):
+            j = text.find("$", i + 1)
+            if j == -1 or "\n" in text[i + 1:j]:
+                out.append(text[i])
+                i += 1
+                continue
+            out.append("$" + fn(text[i + 1:j]) + "$")
+            i = j + 1
+        else:
+            out.append(text[i])
+            i += 1
+    return "".join(out)
+
+
 def _preprocess_markdown(text: str) -> str:
     """Full markdown preprocessing for pandoc compatibility.
 
@@ -1469,6 +1537,8 @@ def _preprocess_markdown(text: str) -> str:
        - \\underset{...}{...}  →  side annotation
        - \\displaylines{...}   →  separate equations
     """
+    # 0-pre) HTML <table> → Markdown pipe table（raw HTML 表在 docx 里会摊成散段）
+    text = _convert_html_tables(text)
     # 0) Transform callout blockquotes (> 🧠/🗣️/⚠️) to bold-led paragraphs
     text = _transform_callout_blocks(text)
     # 0b) Normalize malformed strong emphasis with stray inner spaces
@@ -1602,9 +1672,14 @@ def _preprocess_markdown(text: str) -> str:
     text = re.sub(r'\\mathrm\{\\AA\}', r'\\text{Å}', text)
     text = re.sub(r'\\AA', r'\\text{Å}', text)
 
-    # 4b4) 去掉 \Biggl/\Bigl/\biggl/\bigl 等尺寸前缀，保留后续定界符
+    # 4b4) 去掉 \Biggl/\Bigl/\biggl/\bigl/\Big/\bigg 等尺寸前缀，保留后续定界符
+    #      2026-09-13 补齐 \Big / \bigg / \Bigm / \bigm：此前只清了带 l/r 的变体，
+    #      裸 \Big 漏网后 texmath 拒绝转换，pandoc 回退成 $$...$$ 源码整段印进 Word
+    #      （1-热力学 玻恩-哈伯循环即由此致乱）。
+    #      (?![a-zA-Z]) 守卫：避免误伤 \bigcirc / \bigstar / \bigcup 等合法命令。
     text = re.sub(
-        r'\\(?:Biggl|Bigl|biggl|bigl|Biggr|Bigr|biggr|bigr)\s*',
+        r'\\(?:Biggl|Biggm|Biggr|Bigl|Bigr|Bigm|Bigg|Big'
+        r'|biggl|biggm|biggr|bigl|bigr|bigm|bigg|big)(?![a-zA-Z])\s*',
         '',
         text,
     )
@@ -1620,6 +1695,88 @@ def _preprocess_markdown(text: str) -> str:
         _fix_arrow_breaks,
         text,
     )
+
+    # 4b7) \textcircled{X} → \text{X}
+    #      texmath 不支持 \textcircled（OCR 用它标结构式里的原子/序号），剥壳留内容。
+    text = re.sub(r'\\textcircled\s*\{([^{}]*)\}', r'\\text{\1}', text)
+
+    # 4b8) \xrightleftharpoons[下]{上} → \underset{下}{\overset{上}{\rightleftharpoons}}
+    #      texmath 不支持 \x*harpoons 系列，拆成 overset/underset 后可正常转 OMML。
+    #      参数常含嵌套花括号（\mathrm{p}K_\mathrm{a1}），只能用平衡括号扫描，
+    #      `\{([^{}]*)\}` 这类写法一遇内层 { 就整体失配（2026-09-13 实测）。
+    def _convert_x_harpoons(s: str) -> str:
+        names = ('xrightleftharpoons', 'xleftharpoons', 'xleftrightharpoons',
+                 'xrightequilibrium', 'xleftequilibrium')
+        out: list[str] = []
+        i, n = 0, len(s)
+        while i < n:
+            hit = None
+            if s[i] == '\\':
+                for nm in names:
+                    if s.startswith('\\' + nm, i):
+                        hit = nm
+                        break
+            if hit is None:
+                out.append(s[i])
+                i += 1
+                continue
+            j = i + 1 + len(hit)
+            while j < n and s[j] in ' \t':
+                j += 1
+            below = ''
+            if j < n and s[j] == '[':
+                k = s.find(']', j)
+                if k != -1:
+                    below = s[j + 1:k]
+                    j = k + 1
+            while j < n and s[j] in ' \t':
+                j += 1
+            if j < n and s[j] == '{':
+                depth, k = 0, j
+                while k < n:
+                    if s[k] == '{':
+                        depth += 1
+                    elif s[k] == '}':
+                        depth -= 1
+                        if depth == 0:
+                            break
+                    k += 1
+                if k < n and depth == 0:
+                    above = s[j + 1:k]
+                    if below:
+                        out.append(r'\underset{%s}{\overset{%s}{\rightleftharpoons}}'
+                                   % (below, above))
+                    else:
+                        out.append(r'\overset{%s}{\rightleftharpoons}' % above)
+                    i = k + 1
+                    continue
+            out.append(s[i])
+            i += 1
+        return ''.join(out)
+
+    text = _convert_x_harpoons(text)
+
+    # 4b8b) \longrightleftharpoons → \rightleftharpoons（texmath 不支持 long 变体）
+    text = re.sub(r'\\long(rightleftharpoons|leftrightarrows)', r'\\\1', text)
+
+    # 4b9) \atop → \substack{A \\ B}（texmath 不支持 \atop，如 \xrightarrow{HBr\atop ROOR}）
+    text = re.sub(
+        r'\{([^{}]*?)\\atop\s*([^{}]*?)\}',
+        lambda m: r'{\substack{%s \\ %s}}' % (m.group(1).strip(), m.group(2).strip()),
+        text,
+    )
+
+    # 4b10) 数学区域内的 HTML 实体与裸 # 修正（OCR 残留）
+    #       - `&gt;` / `&lt;` / `&amp;` 等实体在 math 内要还原成字符，否则 texmath 报错
+    #       - 裸 `#` 在 LaTeX 里是宏参数符，三键写法 C#CH 必须写成 C\#CH
+    def _fix_math_entities(s: str) -> str:
+        s = re.sub(r'&(?:gt|lt|amp|quot|apos|nbsp);|&[#xX][0-9a-fA-F]+;',
+                   lambda m: html_mod.unescape(m.group(0)), s)
+        # 裸 % 在 LaTeX 里是注释符，会把 `)$` 一起吃掉导致 $ 未闭合
+        s = re.sub(r'(?<!\\)%', r'\\%', s)
+        return re.sub(r'(?<!\\)#', r'\\#', s)
+
+    text = _map_math_spans(text, _fix_math_entities)
 
     # 4c) \displaylines{...} → split into separate display equations
     #     (handles one level of nested \text{} etc. inside)
