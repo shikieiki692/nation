@@ -26,8 +26,8 @@ from PIL import Image, ImageOps
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 
-SRC = Path(r"C:\Obsidion\妙妙屋\00-首页\题组Word\习题书\学生版")
-DST = Path(r"C:\Obsidion\妙妙屋\00-首页\题组Word\习题书\学生版-打印版")
+SRC = Path(r"C:\Obsidion\妙妙屋\00-首页\题组Word\习题书")
+DST = Path(r"C:\Obsidion\妙妙屋\00-首页\题组Word\习题书")  # 2026-09-08 拍平后打印版与学生版同目录并排
 
 STAT = Counter()
 
@@ -283,11 +283,13 @@ def convert_one(src: Path, dst: Path, dry=False):
         return dict(src=str(rel), ok=True, msg=f'cover={len(cover_els)} h2={n_h2} header={label}', dry=True)
 
     dst.parent.mkdir(parents=True, exist_ok=True)
-    doc.save(str(dst))
+    buf = io.BytesIO()
+    doc.save(buf)
+    buf.seek(0)
 
     # ---- 4. 后处理：颜色归一化 + 图片灰度（直接改 zip）
     # 注意：不使用临时文件 + shutil.move —— 移动会触发删除操作，在批量场景下
-    # 会被 safe-delete 的批量阈值拦截。改为整体读入内存后直接覆盖写最终文件。
+    # 会被 safe-delete 的批量阈值拦截。改为整体读入内存后直接写入最终文件。
     NORMALIZE_PARTS = ('word/document.xml', 'word/styles.xml',
                        'word/footnotes.xml', 'word/endnotes.xml')
 
@@ -295,7 +297,7 @@ def convert_one(src: Path, dst: Path, dry=False):
         return n.endswith('.xml') and n.startswith('word/') and (
             n in NORMALIZE_PARTS or 'footer' in n or 'header' in n)
 
-    with zipfile.ZipFile(str(dst)) as zin:
+    with zipfile.ZipFile(buf) as zin:
         media_new = process_media(zin, None, {})
         items = [(n, zin.read(n)) for n in zin.namelist()]
 
@@ -315,15 +317,18 @@ def convert_one(src: Path, dst: Path, dry=False):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--dry-run', action='store_true')
+    ap.add_argument('--file', default='', help='文件名子串过滤（如 2-分子结构与化学键）')
     args = ap.parse_args()
 
-    files = sorted(SRC.rglob('*.docx'))
+    files = sorted(p for p in SRC.rglob('*-学生版.docx')
+                   if not p.stem.endswith('-学生版-打印版')
+                   and (not args.file or args.file in p.stem))
     print(f"源文件 {len(files)} 个\n目标 {DST}\n" + "-" * 64)
 
     rows = []
     for f in files:
         rel = f.relative_to(SRC)
-        dst = DST / rel
+        dst = (DST / rel).with_name(rel.stem + '-打印版.docx')
         try:
             r = convert_one(f, dst, dry=args.dry_run)
         except Exception as e:
@@ -337,8 +342,8 @@ def main():
     print(f"完成 {sum(1 for r in rows if r['ok'])}/{len(rows)}")
     print("统计:", dict(STAT))
     if not args.dry_run:
-        total = sum(p.stat().st_size for p in DST.rglob('*.docx'))
-        print(f"输出 {len(list(DST.rglob('*.docx')))} 个文件，共 {total/1024/1024:.1f} MB")
+        total = sum(p.stat().st_size for p in DST.rglob('*-学生版-打印版.docx'))
+        print(f"输出 {len(list(DST.rglob('*-学生版-打印版.docx')))} 个文件，共 {total/1024/1024:.1f} MB")
 
 
 if __name__ == '__main__':
