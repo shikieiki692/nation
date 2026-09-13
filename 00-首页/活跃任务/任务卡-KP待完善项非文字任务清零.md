@@ -43,6 +43,8 @@ evidence:
 >
 > **关键解锁点**：原卡把「ChemDraw」列为硬阻塞，但 **RDKit 可为骨架式/结构式出图**，matplotlib 可出能级图/势能剖面/数据表 —— 讲义线已实证该路径可行。
 > **复核报告**：[[09-审计报告/P1阻塞条件复核-2026-09-13]]
+> **执行计划**：[[00-首页/活跃任务/计划-2026-09-13-KP非文字任务清零]]（5 批分批执行 · 安全边界 + 验证闸门 + 提交策略）
+> 📌 **本次新发现**：多项已有现成图可复用（`diborane-b2h6-structure.jpg`、`p4o10-structure.jpg`、`12-31-ice-tetrahedral-hydrogen-bond-framework.jpg`、`decomposition-voltage-curve.jpg`）；图源检索体系在 `10-索引与统计/` 4 个总索引 + 根 `media/` 842 张。
 
 ## 背景
 
