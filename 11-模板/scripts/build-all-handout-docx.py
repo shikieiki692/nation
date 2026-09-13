@@ -1525,6 +1525,52 @@ def _map_math_spans(text: str, fn) -> str:
     return "".join(out)
 
 
+def _normalize_display_math_blocks(text: str) -> str:
+    r"""删除 $$ ... $$ 块内（及紧邻两侧）的空行。
+
+    2026-09-14 新发现：pandoc 的 tex_math_dollars 一旦在 $$ 与内容之间遇到空行，
+    就**整体放弃**识别为 display math，$$ 原样沦为字面文本印进 Word（用户报的
+    「格式是乱的」第 3 类形态）。实测：
+
+        "$$\n\nx\n\n$$"  → Para [Str "$$"], Para [Str "x"], Str "$$"   （失败）
+        "$$\nx\n$$"      → Para [Math DisplayMath "\nx\n"]            （成功）
+
+    而 display math 内部出现空行没有任何合法用途，删掉即可。7-金属有机等
+    4 个文件共 20 处即此形态。
+
+    守卫：文件级 $$ 计数为奇数（说明有未闭合的 $$）时整体跳过——否则错误配对
+    会把正文大段内容当成 math 内容吞掉。
+    """
+    lines = text.split("\n")
+    if sum(1 for ln in lines if ln.strip() == "$$") % 2:
+        return text
+    out: list[str] = []
+    in_display = False
+    blanks: list[str] = []
+    for ln in lines:
+        if ln.strip() == "$$":
+            if in_display:
+                blanks = []           # 闭合 $$ 前的空行丢弃
+                out.append(ln)
+                in_display = False
+            else:
+                out.extend(blanks)    # 开启 $$ 前的空行保留（正常的段间分隔）
+                blanks = []
+                out.append(ln)
+                in_display = True
+            continue
+        if not ln.strip():
+            if in_display:
+                continue              # 块内空行丢弃
+            blanks.append(ln)
+            continue
+        out.extend(blanks)
+        blanks = []
+        out.append(ln)
+    out.extend(blanks)
+    return "\n".join(out)
+
+
 def _preprocess_markdown(text: str) -> str:
     """Full markdown preprocessing for pandoc compatibility.
 
@@ -1639,63 +1685,6 @@ def _preprocess_markdown(text: str) -> str:
     # 3) Wiki-links to plain text
     text = _resolve_wikilink(text)
 
-    # 4a) \overset{+6}{Cr} / \overset{+6}{\mathrm{Cr_2}} → Cr^{(+6)} / \mathrm{Cr_2}^{(+6)}
-    #     (oxidation number notation; no extra \mathrm wrapping to avoid nesting issues)
-    # 2026-09-05: _arg 放宽到三层嵌套（\underset{k_{\mathrm{CO,des}}}{\stackrel{k_{\mathrm{CO,ads}}}{...}}
-    # 类参数曾超出单层限制导致 compat 转换失败、宏残留进 Word 产物，precheck compat_macro_residual ERROR）
-    # 2026-09-07: 宏名与参数间容许空格（二分册题源稿存在 "\overset {" / "\underset {" 带空格写法，
-    # 无 \s* 时 compat 转换漏配、宏残留触发 precheck ERROR）
-    _arg = r'(\{(?:[^{}]|\{(?:[^{}]|\{(?:[^{}]|\{[^{}]*\})*\})*\})*\})'
-    # 2026-09-07: 迭代转换——嵌套形态（\underset{X}{\underset{|}{...}}）单遍替换后
-    # 产物中仍含内层宏，需重复执行直至无宏残留（上限 4 轮防死循环）
-    for _round in range(4):
-        _before = text
-        text = re.sub(r'\\overset\s*' + _arg + r'\s*' + _arg,
-                      lambda m: m.group(2)[1:-1] + '^{(' + m.group(1)[1:-1] + ')}',
-                      text)
-
-        # 4b) \underset{text}{formula} → formula (text)
-        #     (label underneath; handles one level of nested braces)
-        text = re.sub(r'\\underset\s*' + _arg + r'\s*' + _arg,
-                      lambda m: m.group(2)[1:-1] + ' \\;(' + m.group(1)[1:-1] + ')',
-                      text)
-        if text == _before:
-            break
-
-    # 4b2) \xlongequal → \xrightarrow / \rightarrow
-    #      texmath 不支持 \xlongequal；无花括号参数是 OCR 残留，退化为 \rightarrow。
-    text = re.sub(r'\\xlongequal(?=[ \t]*[A-Za-z\\])', r'\\rightarrow', text)
-    text = re.sub(r'\\xlongequal', r'\\xrightarrow', text)
-
-    # 4b3) \AA → \text{Å}（texmath 不支持 \AA）
-    text = re.sub(r'\\text\{\\AA\}', r'\\text{Å}', text)
-    text = re.sub(r'\\mathrm\{\\AA\}', r'\\text{Å}', text)
-    text = re.sub(r'\\AA', r'\\text{Å}', text)
-
-    # 4b4) 去掉 \Biggl/\Bigl/\biggl/\bigl/\Big/\bigg 等尺寸前缀，保留后续定界符
-    #      2026-09-13 补齐 \Big / \bigg / \Bigm / \bigm：此前只清了带 l/r 的变体，
-    #      裸 \Big 漏网后 texmath 拒绝转换，pandoc 回退成 $$...$$ 源码整段印进 Word
-    #      （1-热力学 玻恩-哈伯循环即由此致乱）。
-    #      (?![a-zA-Z]) 守卫：避免误伤 \bigcirc / \bigstar / \bigcup 等合法命令。
-    text = re.sub(
-        r'\\(?:Biggl|Biggm|Biggr|Bigl|Bigr|Bigm|Bigg|Big'
-        r'|biggl|biggm|biggr|bigl|bigr|bigm|bigg|big)(?![a-zA-Z])\s*',
-        '',
-        text,
-    )
-
-    # 4b5) 去掉 \tag{...}（texmath 不支持；兼容 `\tag {H}` 的空格写法）
-    text = re.sub(r'\s*\\tag\s*\{[^{}]*\}', '', text)
-
-    # 4b6) \xrightarrow{...\\...} 的条件内换行改为分号（texmath 不支持 \\）
-    def _fix_arrow_breaks(m: re.Match) -> str:
-        return m.group(1) + m.group(2).replace('\\\\', '; ') + m.group(3)
-    text = re.sub(
-        r'(\\xrightarrow(?:\[[^\]]*\])?\{)([^{}]*)(\})',
-        _fix_arrow_breaks,
-        text,
-    )
-
     # 4b7) \textcircled{X} → \text{X}
     #      texmath 不支持 \textcircled（OCR 用它标结构式里的原子/序号），剥壳留内容。
     text = re.sub(r'\\textcircled\s*\{([^{}]*)\}', r'\\text{\1}', text)
@@ -1704,6 +1693,8 @@ def _preprocess_markdown(text: str) -> str:
     #      texmath 不支持 \x*harpoons 系列，拆成 overset/underset 后可正常转 OMML。
     #      参数常含嵌套花括号（\mathrm{p}K_\mathrm{a1}），只能用平衡括号扫描，
     #      `\{([^{}]*)\}` 这类写法一遇内层 { 就整体失配（2026-09-13 实测）。
+    #      ⚠ 必须排在 4a/4b 之前：本步产出的 \overset/\underset 要由 4a/4b 继续展开，
+    #      否则残留宏会触发 precheck compat_macro_residual ERROR（2026-09-14 实测）。
     def _convert_x_harpoons(s: str) -> str:
         names = ('xrightleftharpoons', 'xleftharpoons', 'xleftrightharpoons',
                  'xrightequilibrium', 'xleftequilibrium')
@@ -1759,6 +1750,95 @@ def _preprocess_markdown(text: str) -> str:
     # 4b8b) \longrightleftharpoons → \rightleftharpoons（texmath 不支持 long 变体）
     text = re.sub(r'\\long(rightleftharpoons|leftrightarrows)', r'\\\1', text)
 
+    # 4a) \overset{+6}{Cr} / \overset{+6}{\mathrm{Cr_2}} → Cr^{(+6)} / \mathrm{Cr_2}^{(+6)}
+    #     (oxidation number notation; no extra \mathrm wrapping to avoid nesting issues)
+    # 2026-09-05: _arg 放宽到三层嵌套（\underset{k_{\mathrm{CO,des}}}{\stackrel{k_{\mathrm{CO,ads}}}{...}}
+    # 类参数曾超出单层限制导致 compat 转换失败、宏残留进 Word 产物，precheck compat_macro_residual ERROR）
+    # 2026-09-07: 宏名与参数间容许空格（二分册题源稿存在 "\overset {" / "\underset {" 带空格写法，
+    # 无 \s* 时 compat 转换漏配、宏残留触发 precheck ERROR）
+    _arg = r'(\{(?:[^{}]|\{(?:[^{}]|\{(?:[^{}]|\{[^{}]*\})*\})*\})*\})'
+    # 2026-09-07: 迭代转换——嵌套形态（\underset{X}{\underset{|}{...}}）单遍替换后
+    # 产物中仍含内层宏，需重复执行直至无宏残留（上限 4 轮防死循环）
+    def _macro_split_protect(s: str, pos: int, body: str) -> str:
+        """4a/4b 的转换结果前补分隔符（仅当前面确实是一个控制序列时）。
+
+        2026-09-14：源里存在 `\\equiv\\overset{+}{O}`（命令与命令之间无空格）的 OCR
+        写法，展开成 `\\equiv` + `O^{(+)}` 会被 TeX 当成一个控制序列 `\\equivO`
+        （非法命令）→ texmath 整体拒绝转换。此时需要在展开结果前补 `{}`（不产生
+        间距、不影响渲染）断开。
+
+        判据必须向前扫到**控制序列的起点**：`\\equiv\\overset` 的 `\\overset` 前面
+        是字母 `v` 但再往前是 `\\`（真是控制序列）→ 补；而
+        `\\mathrm{CH_2=CH\\overset{+}{C}H_2}` 里 `\\overset` 前面的 `CH` 是普通原子
+        符号（再往前是 `=`）→ 不补。只用 isalpha() 会把后者也补上，产生大量
+        `CH{}C` 式无谓改写（2026-09-14 实测 77 处）。
+        """
+        i = pos - 1
+        if i < 0 or not s[i].isalpha():
+            return body
+        while i >= 0 and s[i].isalpha():
+            i -= 1
+        return ('{}' + body) if (i >= 0 and s[i] == '\\') else body
+
+    for _round in range(4):
+        _before = text
+        _cur = text
+
+        def _overset_repl(m, _s=_cur):
+            body = m.group(2)[1:-1] + '^{(' + m.group(1)[1:-1] + ')}'
+            return _macro_split_protect(_s, m.start(), body)
+
+        text = re.sub(r'\\overset\s*' + _arg + r'\s*' + _arg, _overset_repl, text)
+
+        # 4b) \underset{text}{formula} → formula (text)
+        #     (label underneath; handles one level of nested braces)
+        #     ⚠ 快照必须取 overset 替换**之后**的 text：否则 m.start() 是相对新串
+        #       的位置，拿去索引旧串会整体错位、误判前文（2026-09-14 实测产生 55 处
+        #       无谓 `{}`）。
+        _cur_after_overset = text
+
+        def _underset_repl(m, _s=_cur_after_overset):
+            body = m.group(2)[1:-1] + ' \\;(' + m.group(1)[1:-1] + ')'
+            return _macro_split_protect(_s, m.start(), body)
+
+        text = re.sub(r'\\underset\s*' + _arg + r'\s*' + _arg, _underset_repl, text)
+        if text == _before:
+            break
+
+    # 4b2) \xlongequal → \xrightarrow / \rightarrow
+    #      texmath 不支持 \xlongequal；无花括号参数是 OCR 残留，退化为 \rightarrow。
+    text = re.sub(r'\\xlongequal(?=[ \t]*[A-Za-z\\])', r'\\rightarrow', text)
+    text = re.sub(r'\\xlongequal', r'\\xrightarrow', text)
+
+    # 4b3) \AA → \text{Å}（texmath 不支持 \AA）
+    text = re.sub(r'\\text\{\\AA\}', r'\\text{Å}', text)
+    text = re.sub(r'\\mathrm\{\\AA\}', r'\\text{Å}', text)
+    text = re.sub(r'\\AA', r'\\text{Å}', text)
+
+    # 4b4) 去掉 \Biggl/\Bigl/\biggl/\bigl/\Big/\bigg 等尺寸前缀，保留后续定界符
+    #      2026-09-13 补齐 \Big / \bigg / \Bigm / \bigm：此前只清了带 l/r 的变体，
+    #      裸 \Big 漏网后 texmath 拒绝转换，pandoc 回退成 $$...$$ 源码整段印进 Word
+    #      （1-热力学 玻恩-哈伯循环即由此致乱）。
+    #      (?![a-zA-Z]) 守卫：避免误伤 \bigcirc / \bigstar / \bigcup 等合法命令。
+    text = re.sub(
+        r'\\(?:Biggl|Biggm|Biggr|Bigl|Bigr|Bigm|Bigg|Big'
+        r'|biggl|biggm|biggr|bigl|bigr|bigm|bigg|big)(?![a-zA-Z])\s*',
+        '',
+        text,
+    )
+
+    # 4b5) 去掉 \tag{...}（texmath 不支持；兼容 `\tag {H}` 的空格写法）
+    text = re.sub(r'\s*\\tag\s*\{[^{}]*\}', '', text)
+
+    # 4b6) \xrightarrow{...\\...} 的条件内换行改为分号（texmath 不支持 \\）
+    def _fix_arrow_breaks(m: re.Match) -> str:
+        return m.group(1) + m.group(2).replace('\\\\', '; ') + m.group(3)
+    text = re.sub(
+        r'(\\xrightarrow(?:\[[^\]]*\])?\{)([^{}]*)(\})',
+        _fix_arrow_breaks,
+        text,
+    )
+
     # 4b9) \atop → \substack{A \\ B}（texmath 不支持 \atop，如 \xrightarrow{HBr\atop ROOR}）
     text = re.sub(
         r'\{([^{}]*?)\\atop\s*([^{}]*?)\}',
@@ -1777,6 +1857,25 @@ def _preprocess_markdown(text: str) -> str:
         return re.sub(r'(?<!\\)#', r'\\#', s)
 
     text = _map_math_spans(text, _fix_math_entities)
+
+    # 4b12) $$ 块内空行归一化（2026-09-14）—— pandoc 遇 $$ 与内容间空行会整体
+    #       放弃识别为 display math，$$ 沦为字面文本印进 Word。放在 math 内容
+    #       处理之后、结构守卫之前，只删空行、不改内容。
+    text = _normalize_display_math_blocks(text)
+
+    # 4b13) 行内 $...$ 内侧空白归一化（2026-09-14）
+    #        pandoc 规则：opening $ 的右侧、closing $ 的左侧都不能是空白，否则整段
+    #        不会被识别为 math，$ 原样印进 Word。2-立体化学 / 3-烷烯炔 等 60+ 处
+    #        「$CH_{3}CH=CH_{2} + HBr $」即此形态——根因是 \ce{...} 转换器在把
+    #        `->`、`->[条件]` 等展开后留下了尾部空格。
+    #        仅当内容含 LaTeX 特征（\ 命令 / _ / ^）时才收紧，避免误伤正文里的美元符号。
+    def _tighten_inline_math(m: "re.Match") -> str:
+        inner = m.group(1)
+        if not re.search(r'\\[a-zA-Z]|[_^]', inner):
+            return m.group(0)
+        return '$' + inner.strip() + '$'
+
+    text = re.sub(r'(?<![\\$])\$([^$\n]+?)\$(?![$])', _tighten_inline_math, text)
 
     # 4c) \displaylines{...} → split into separate display equations
     #     (handles one level of nested \text{} etc. inside)
