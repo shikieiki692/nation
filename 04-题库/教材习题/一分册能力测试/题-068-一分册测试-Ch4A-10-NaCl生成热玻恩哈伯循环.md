@@ -31,11 +31,11 @@ source_grade: A-
 常温下固态 Na 与气态 Cl₂ 生成 1 mol NaCl 晶体放出的能量叫做 NaCl 的生成热。生成热 $\Delta_{f}H(\mathrm{NaCl}) = -411 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$。该化合过程也被解析成如下四个步骤，各步的能量变化分别表示为 $\Delta H_{1}$、$\Delta H_{2}$、$\Delta H_{3}$ 和 $\Delta H_{4}$。
 
 $$
-\begin{array}{c c c} \mathrm {Na(s) + (1 / 2)Cl_ {2}} & \xrightarrow {\Delta_ {\mathrm{f}} H _ {\mathrm{NaCl}}} & \mathrm{NaCl(S)} \\ \Delta H _ {1} \Big \downarrow & & \uparrow \Delta H _ {4} \end{array}
-$$
-
-$$
-\mathrm{Na(g)} + \mathrm{Cl(g)} \xrightarrow {\Delta H _ {2}} \mathrm{Na} ^ {+} (\mathrm{g}) + \mathrm{Cl} ^ {-} (\mathrm{g}) \xrightarrow {\Delta H _ {3}} \mathrm{NaCl(g)}
+\begin{array}{c c c c c}
+\mathrm{Na(s)} + \frac{1}{2}\mathrm{Cl_2(g)} & & \xrightarrow{\Delta_{\mathrm{f}}H_{\mathrm{NaCl}}} & & \mathrm{NaCl(s)} \\
+\Delta H_{1} \downarrow & & & & \uparrow \Delta H_{4} \\
+\mathrm{Na(g)} + \mathrm{Cl(g)} & \xrightarrow{\Delta H_{2}} & \mathrm{Na^{+}(g)} + \mathrm{Cl^{-}(g)} & \xrightarrow{\Delta H_{3}} & \mathrm{NaCl(g)}
+\end{array}
 $$
 
 其中 $\Delta H_{2}=128\ kJ\cdot mol^{-1}$，$\Delta H_{3}=-526\ kJ\cdot mol^{-1}$，$\Delta H_{4}=-248\ kJ\cdot mol^{-1}$。则 $\Delta H_{1}=$ ____ kJ·mol⁻¹；NaCl 的离子键键能为 ____ kJ·mol⁻¹；NaCl 晶体的晶格能（气态的阴阳离子结合成晶体的能量变化）为 ____ kJ·mol⁻¹。
@@ -59,4 +59,4 @@ $$
 
 </details>
 
-<!-- 校勘注: A卷第10题后 OCR 存在镜像乱码区（「是由胜，是宜普高好点欲」等倒置文本＋圆圈序号堆叠），为扫描镜像幻觉，全部剔除不入题面；循环图按原书 $$\begin{array}$$ 结构照录；其余为原书逐字 -->
+<!-- 校勘注: A卷第10题后 OCR 存在镜像乱码区（「是由胜，是宜普高好点欲」等倒置文本＋圆圈序号堆叠），为扫描镜像幻觉，全部剔除不入题面；其余为原书逐字。循环图原书为一个完整方形循环，OCR 将其拆成两个 $$ 块并丢失底边（Na(g)+Cl(g)→Na⁺(g)+Cl⁻(g)→NaCl(g) 一行），2026-09-14 依答案给出的 ΔfH=ΔH₁+ΔH₂+ΔH₃+ΔH₄ 关系合并复原为单个三行 array，并把 "NaCl(S)" 订正为 "NaCl(s)"、"(1 / 2)Cl₂" 写作 \frac{1}{2}。 -->
