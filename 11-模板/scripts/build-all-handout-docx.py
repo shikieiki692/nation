@@ -405,6 +405,11 @@ def _run_word_formula_precheck(
 
     critical_bare_subscript = re.compile(r"\b(?:K|Q|E|pK|v|V)_[A-Za-z][A-Za-z0-9+\-]*\b")
     generic_bare_subscript = re.compile(r"\b[A-Za-zΔ∆][A-Za-z0-9]*_[A-Za-z][A-Za-z0-9+\-]*\b")
+    # 2026-09-14 补盲区：上面两条都要求 `_` **紧跟字母**，于是
+    #   `X_{…}`（花括号形态）、`X^{…}`（上标，此前从未纳入检测）、`\_{…}`（转义形态）
+    #   三类全部漏检——题库实测有 29 处这类写法直接落进 Word 变成 `M_{M}` 样子。
+    # 仅报 WARN，不改语义；`\_\_\_\_` 填空占位不会命中（要求 `\` + `_` + `{`）。
+    braced_bare_script = re.compile(r"(?<![\\$])(?:[A-Za-z0-9}\)\]])(?:[_^])\{|\\[_^]\{")
     risky_latex_outside_math = re.compile(
         r"\\(?:frac|dfrac|sqrt|sum|int|boxed|left|right|mathrm|mathbf|overline|underline|"
         r"Delta|theta|alpha|beta|gamma|rightarrow|leftarrow|rightleftharpoons)\b"
@@ -502,6 +507,18 @@ def _run_word_formula_precheck(
                 severity="WARN",
                 rule="bare_subscript_generic",
                 message=f"检测到可能的裸下标 `{token}`；建议改成数学模式，避免 Word 排版不稳定",
+                line_no=idx,
+                excerpt=raw_line,
+            )
+
+        for match in braced_bare_script.finditer(masked_line):
+            token = match.group(0)
+            _append_precheck_issue(
+                issues,
+                seen,
+                severity="WARN",
+                rule="bare_script_braced",
+                message=f"数学模式外出现裸下标/上标 `{token}`；请包进 `$...$`，否则会原样印进 Word",
                 line_no=idx,
                 excerpt=raw_line,
             )

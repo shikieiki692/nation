@@ -20,6 +20,7 @@ from pathlib import Path
 from typing import Optional
 import os
 import re
+import sys
 import time
 import zipfile
 
@@ -71,16 +72,39 @@ def _atomic_replace(src: Path, dst: Path, attempts: int = 6, delay: float = 0.25
     .docx, making ``Path.replace`` raise ``PermissionError`` (WinError 5) inside the
     parallel batch. This helper retries before giving up so a single transient lock
     does not fail the whole conversion.
+
+    2026-09-14 增补 fallback：预览面板 / Windows Search / 杀毒会对 .docx 持有**长时**
+    句柄——此时 `os.replace` 只会拿到 WinError 32（文件正被使用），重试再多也无效。
+    这类句柄通常只否决"改名/删除"，却允许"写入"，所以最后一次失败后退回
+    `shutil.copyfile` 覆盖内容再删源文件，保证导出不因外部占用而失败。
     """
     import errno
+    import shutil
     for attempt in range(attempts):
         try:
             os.replace(src, dst)
             return
         except OSError as exc:
-            if exc.errno not in (errno.EACCES, errno.EPERM, 5) or attempt == attempts - 1:
+            if exc.errno not in (errno.EACCES, errno.EPERM, 5, 32, errno.EBUSY):
                 raise
-            time.sleep(delay)
+            if attempt < attempts - 1:
+                time.sleep(delay)
+                continue
+            # 重试耗尽 —— 目标被长时占用，退到「覆盖内容」
+            try:
+                shutil.copyfile(src, dst)
+            except OSError:
+                raise exc
+            try:
+                os.unlink(src)
+            except OSError:
+                pass
+            print(
+                f"  [WARN] {dst.name}: 目标被占用无法改名，已改用内容覆盖"
+                f"（内容已更新，但可能有外部程序持旧句柄）",
+                file=sys.stderr,
+            )
+            return
 
 
 def _dedupe_first_tag_xmlns(first_tag: str) -> str:
