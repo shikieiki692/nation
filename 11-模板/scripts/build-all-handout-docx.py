@@ -2724,6 +2724,22 @@ def main():
             if not files:
                 print(f"ERROR: No files match --file '{args.file}' under {batch_root}", file=sys.stderr)
                 sys.exit(2)
+        # --path 同理（2026-09-14 补）：显式单文件必须优先；batch_root 只用于推导输出子目录。
+        # 此前 batch_root 模式下 --path 被整段忽略 → 「定向重建一份」变成「全量重建」
+        # （实测把 exam_build 下 109 份全部导进了同一个输出目录）。
+        if args.path:
+            explicit = Path(args.path).expanduser().resolve()
+            if not explicit.exists():
+                print(f"ERROR: File not found: {explicit}", file=sys.stderr)
+                sys.exit(2)
+            if explicit.suffix.lower() != ".md":
+                print(f"ERROR: Not a markdown file: {explicit}", file=sys.stderr)
+                sys.exit(2)
+            files = [explicit]
+            # 单文件模式下无需消歧后缀（batch_root 的 stem 冲突逻辑不适用）
+            output_stem_by_path = {explicit: None}
+            if args.filename_suffix:
+                output_stem_by_path[explicit] = explicit.stem + args.filename_suffix
         print(f"Selected {len(files)} for processing")
         if args.precheck_only:
             print("Mode: Word source precheck only (formula + Mermaid)\n")
