@@ -50,12 +50,12 @@ source_grade: A
 
 Co(Ⅱ)盐用于制备隐显墨水（淡粉红色，蜡烛火焰加热变蓝色）；硅胶干燥指示（蓝色→粉红色即吸收水分）；CoCl₂·6H₂O（粉红）与 CoCl₂·4H₂O（蓝）相互转换可作湿度计。
 
-**5-1** 利用热力学数据（CoCl₂·6H₂O/CoCl₂·4H₂O/H₂O(l)/H₂O(g) 的 ΔfH^θₘ、S^θₘ），确定湿度计对空气湿度 (%) 响应的临界值。
+**5-1** 利用热力学数据（CoCl₂·6H₂O/CoCl₂·4H₂O/H₂O(l)/H₂O(g) 的 $\Delta_{\mathrm{f}}H^{\theta}_{\mathrm{m}}$、$S^{\theta}_{\mathrm{m}}$），确定湿度计对空气湿度 (%) 响应的临界值。
 
 **5-2** 配合物 [Cr(H₂O)₆]³⁺ vs [Cr(H₂O)₄]³⁺、[Co(H₂O)₆]²⁺ vs [Co(H₂O)₄]²⁺ 的 d 轨道能级与电子排布，计算 CFSE。
 
 **5-3** 反应 [Co(H₂O)₆]²⁺ + 4X⁻ ⇌ [CoX₄]²⁻ + 6H₂O，X=Cl⁻/Br⁻/I⁻/SCN⁻：
-(1) 预测 ΔrH^θ 和 ΔrS^θ 符号。
+(1) 预测 $\Delta_{\mathrm{r}}H^{\theta}$ 和 $\Delta_{\mathrm{r}}S^{\theta}$ 符号。
 (2) 温度对平衡的影响。
 (3) 同样摩尔浓度下 KCN vs KSCN 谁更右移？HSAB 解释。
 
@@ -101,9 +101,9 @@ Co²⁺（接近软酸/交界酸）四面体 CFSE 差值（八面体减四面体
 
 **5-3**
 
-(1) ΔrH^θ>0、ΔrS^θ>0（物种数增多 → ΔrS^θ>0；HSAB 中弱键断裂 + 较强共价键形成）。
+(1) $\Delta_{\mathrm{r}}H^{\theta}$>0、$\Delta_{\mathrm{r}}S^{\theta}$>0（物种数增多 → $\Delta_{\mathrm{r}}S^{\theta}$>0；HSAB 中弱键断裂 + 较强共价键形成）。
 
-(2) 加热平衡右移（ΔrH^θ>0，升温有利吸热方向）→ 粉红变深蓝。
+(2) 加热平衡右移（$\Delta_{\mathrm{r}}H^{\theta}$>0，升温有利吸热方向）→ 粉红变深蓝。
 
 (3) Co²⁺ 交界酸，SCN⁻ 是软碱；KSCN 提供 SCN⁻ 使平衡右移更多（HSAB「软亲软」）。
 
@@ -132,6 +132,6 @@ Co²⁺（接近软酸/交界酸）四面体 CFSE 差值（八面体减四面体
 | 知识点 | 本题应用 |
 |---|---|
 | [[晶体场理论]] | t₂g/$e_g$ 分裂与 Δ₀/Δt=4/9Δ₀ |
-| [[Gibbs自由能]] | ΔG^θ=ΔH^θ−TΔS^θ、Kp^θθ=p(H₂O)² |
+| [[Gibbs自由能]] | $\Delta G^{\theta}$=$\Delta H^{\theta}$−$T\Delta S^{\theta}$、$K_{\mathrm{p}}^{\theta}$θ=p(H₂O)² |
 | [[软硬酸碱理论]] | Co²⁺ 交界酸与 I⁻/SCN⁻ 软碱匹配 |
 | [[晶体场理论]] | CFSE=Σd_i × Dq 配位场稳定化能 |

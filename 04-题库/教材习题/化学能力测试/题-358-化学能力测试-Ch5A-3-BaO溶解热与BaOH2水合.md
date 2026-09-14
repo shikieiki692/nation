@@ -46,7 +46,7 @@ source_grade: A
 
 已知：
 
-| 反应 | ΔrH^θₘ / kJ·mol⁻¹ |
+| 反应 | $\Delta_{\mathrm{r}}H^{\theta}_{\mathrm{m}}$ / kJ·mol⁻¹ |
 |---|---|
 | BaO(s) + H₂O(l) → Ba(OH)₂(s) ① | −103 |
 | Ba(OH)₂(s) + aq → Ba²⁺(aq) + 2OH⁻(aq) ② | −52 |
@@ -77,7 +77,7 @@ $$\mathrm{Ba(OH)_2(s) + 8H_2O(l) \longrightarrow Ba(OH)_2\cdot 8H_2O(s)}$$
 
 $$\Delta_\mathrm{r}H^\theta_\mathrm{m} = -52 - 64 = -116\ \mathrm{kJ\cdot mol^{-1}}$$
 
-**3-3** 不能。因反应是拆散 BaO 晶格吸能、Ba²⁺ 水合释能、O²⁻ 与水反应成 OH⁻ 释能以及水合释能的代数和（其中 BaO 晶格能与 O²⁻ 水合能不能由题给 ΔfH^θ 单独得到）。
+**3-3** 不能。因反应是拆散 BaO 晶格吸能、Ba²⁺ 水合释能、O²⁻ 与水反应成 OH⁻ 释能以及水合释能的代数和（其中 BaO 晶格能与 O²⁻ 水合能不能由题给 $\Delta_{\mathrm{f}}H^{\theta}$ 单独得到）。
 
 **3-4** 不能。同第 3-3 问，缺 BaO 晶格能。
 

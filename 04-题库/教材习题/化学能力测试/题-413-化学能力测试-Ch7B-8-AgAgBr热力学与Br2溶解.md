@@ -42,9 +42,9 @@ source_grade: A
 
 > **来源**：化学竞赛能力测试·第7章·B卷第8题（10 分）
 
-已知 Ag⁺/Ag E^θ=+0.7996 V；AgBr(s)/Ag,Br⁻ E^θ=+0.0713 V；ΔfG^θ(NH₃(aq))=−26.50、ΔfG^θ[Ag(NH₃)₂⁺]=−17.12 kJ/mol；Br Latimer：BrO₃⁻ +1.491→HOBr +1.584→Br₂(aq) →?→ Br⁻。
+已知 Ag⁺/Ag $E^{\theta}$=+0.7996 V；AgBr(s)/Ag,Br⁻ $E^{\theta}$=+0.0713 V；$\Delta_{\mathrm{f}}G^{\theta}$(NH₃(aq))=−26.50、$\Delta_{\mathrm{f}}G^{\theta}$[Ag(NH₃)₂⁺]=−17.12 kJ/mol；Br Latimer：BrO₃⁻ +1.491→HOBr +1.584→Br₂(aq) →?→ Br⁻。
 
-**8-1** 计算 ΔfG^θ(Ag⁺(aq))。
+**8-1** 计算 $\Delta_{\mathrm{f}}G^{\theta}$(Ag⁺(aq))。
 
 **8-2** 计算 Ag⁺+2NH₃→Ag(NH₃)₂⁺ 的 25℃ 平衡常数。
 
@@ -59,7 +59,7 @@ source_grade: A
 <details>
 <summary>📖 查看答案与解析</summary>
 
-**8-1** ΔG^θ=−FE^θ=−96500×0.7996 对 Ag⁺+e→Ag，ΔrG^θ=−ΔfG^θ(Ag⁺)：
+**8-1** $\Delta G^{\theta}$=−$FE^{\theta}$=−96500×0.7996 对 Ag⁺+e→Ag，$\Delta_{\mathrm{r}}G^{\theta}$=−$\Delta_{\mathrm{f}}G^{\theta}$(Ag⁺)：
 
 $$\Delta_\mathrm{f}G^\theta(\mathrm{Ag^+}) = F\times 0.7996 = 77.15\ \mathrm{kJ/mol}$$
 
@@ -69,7 +69,7 @@ $$\Delta G^\theta = -17.12 - 77.15 - 2(-26.50) = -41.27\ \mathrm{kJ}$$
 
 $$K_\mathrm{f} = \exp(41270/(8.314\times 298.15)) = 1.7\times 10^7$$
 
-**8-3** AgBr(s)→Ag⁺+Br⁻：ΔE^θ=0.0713−0.7996=−0.7283 V：
+**8-3** AgBr(s)→Ag⁺+Br⁻：Δ$E^{\theta}$=0.0713−0.7996=−0.7283 V：
 
 $$\ln K_\mathrm{sp} = nF\Delta E^\theta/RT = -28.35 \Rightarrow K_\mathrm{sp} = 4.89\times 10^{-13}$$
 
@@ -81,7 +81,7 @@ $$\frac{S^2}{(0.100-2S)^2} = 8.31\times 10^{-6} \Rightarrow S = 2.9\times 10^{-4
 
 $$\Delta E^\theta = 1.721 + \frac{0.0592}{2}\lg(8.15\times 10^{-12})^2 = 1.065\ \mathrm V$$
 
-**8-6** Latimer 组合求 E^θ(Br₂(aq)+2e→2Br⁻)：
+**8-6** Latimer 组合求 $E^{\theta}$(Br₂(aq)+2e→2Br⁻)：
 
 E₆°(BrO₃⁻→Br₂)=(2×4×1.491+2×1.584)/10=1.5096 V；
 
@@ -101,7 +101,7 @@ $$[\mathrm{Br_2(aq)}] = \exp(-6368/RT) = 0.077\ \mathrm M$$
 
 | 知识点 | 本题应用 |
 |---|---|
-| [[标准电极电势]] | ΔG^θ=−nFE^θ |
+| [[标准电极电势]] | $\Delta G^{\theta}$=−$nFE^{\theta}$ |
 | [[Gibbs自由能]] | 生成自由能互推 |
-| [[Latimer图]] | 组合求未知电对 E^θ |
+| [[Latimer图]] | 组合求未知电对 $E^{\theta}$ |
 | [[溶度积]] | AgBr 配体溶解 |

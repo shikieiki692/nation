@@ -40,13 +40,13 @@ source_grade: A
 
 > **来源**：化学竞赛能力测试·第5章·B卷第1题（10 分）
 
-已知 298.15 K 时热力学数据（CH₄/Cu/CuO/CO₂/H₂O(l)/H₂O(g) 的 ΔfH^θₘ、S^θₘ、ΔfG^θₘ）。
+已知 298.15 K 时热力学数据（CH₄/Cu/CuO/CO₂/H₂O(l)/H₂O(g) 的 $\Delta_{\mathrm{f}}H^{\theta}_{\mathrm{m}}$、$S^{\theta}_{\mathrm{m}}$、$\Delta_{\mathrm{f}}G^{\theta}_{\mathrm{m}}$）。
 
 计算反应 $\mathrm{CH_4(g) + 4CuO(s) = CO_2(g) + 2H_2O(l) + 4Cu(s)}$
 
-**1-1** 298.15 K 时的 ΔrH^θₘ、ΔrS^θₘ、ΔrG^θₘ。
+**1-1** 298.15 K 时的 $\Delta_{\mathrm{r}}H^{\theta}_{\mathrm{m}}$、$\Delta_{\mathrm{r}}S^{\theta}_{\mathrm{m}}$、$\Delta_{\mathrm{r}}G^{\theta}_{\mathrm{m}}$。
 
-**1-2** ΔrG^θₘ(500 K)。
+**1-2** $\Delta_{\mathrm{r}}G^{\theta}_{\mathrm{m}}$(500 K)。
 
 <details>
 <summary>📖 查看答案与解析</summary>
@@ -79,6 +79,6 @@ $$\Delta_\mathrm{r}G^\theta_\mathrm{m}(500\ \mathrm K) = -173.09 - 500\times 366
 
 | 知识点 | 本题应用 |
 |---|---|
-| [[反应热与盖斯定律]] | ΔrH^θ = ΣνΔfH^θ |
-| [[热力学第一定律]] | ΔS^θ = ΣνS^θ |
-| [[Gibbs自由能]] | ΔG^θ=ΔH^θ−TΔS^θ |
+| [[反应热与盖斯定律]] | $\Delta_{\mathrm{r}}H^{\theta}$ = Σν$\Delta_{\mathrm{f}}H^{\theta}$ |
+| [[热力学第一定律]] | $\Delta S^{\theta}$ = Σν$S^{\theta}$ |
+| [[Gibbs自由能]] | $\Delta G^{\theta}$=$\Delta H^{\theta}$−$T\Delta S^{\theta}$ |

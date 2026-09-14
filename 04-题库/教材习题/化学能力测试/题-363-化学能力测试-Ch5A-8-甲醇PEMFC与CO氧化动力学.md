@@ -58,7 +58,7 @@ source_grade: A
 
 有关资料（298.15 K）列于下表：
 
-| 物质 | ΔfH^θₘ / kJ·mol⁻¹ | S^θₘ / J·K⁻¹·mol⁻¹ |
+| 物质 | $\Delta_{\mathrm{f}}H^{\theta}_{\mathrm{m}}$ / kJ·mol⁻¹ | $S^{\theta}_{\mathrm{m}}$ / J·K⁻¹·mol⁻¹ |
 |---|---|---|
 | CH₃OH(g) | −200.66 | 239.81 |
 | CO₂(g) | −393.51 | 213.64 |
@@ -70,7 +70,7 @@ source_grade: A
 
 $$\mathrm{CO(g) + \tfrac{1}{2}O_2(g) \longrightarrow CO_2(g)}$$
 
-| p_CO/p^θ | p_O₂/p^θ | r_CO/(分子数·Ru 位⁻¹ s⁻¹) | p_CO/p^θ | p_O₂/p^θ | r_CO |
+| p_CO/$p^{\theta}$ | p_O₂/$p^{\theta}$ | r_CO/(分子数·Ru 位⁻¹ s⁻¹) | p_CO/$p^{\theta}$ | p_O₂/$p^{\theta}$ | r_CO |
 |---|---|---|---|---|---|
 | 0.005 | 0.01 | 20.5 | 0.01 | 0.010 | 7 |
 | 0.010 | 0.01 | 7.0 | 0.01 | 0.070 | 50 |
@@ -92,14 +92,14 @@ $$\mathrm{OC-M + O-M \longrightarrow CO_2 + 2M}$$
 
 **8-3** 有关物质的热力学函数（298.15 K）如下：
 
-| 物质 | ΔfH^θₘ / kJ·mol⁻¹ | S^θₘ / J·K⁻¹·mol⁻¹ |
+| 物质 | $\Delta_{\mathrm{f}}H^{\theta}_{\mathrm{m}}$ / kJ·mol⁻¹ | $S^{\theta}_{\mathrm{m}}$ / J·K⁻¹·mol⁻¹ |
 |---|---|---|
 | H₂(g) | 0 | 130.59 |
 | O₂(g) | 0 | 205.03 |
 | H₂O(g) | −241.82 | 188.83 |
 | H₂O(l) | −285.84 | 69.94 |
 
-在 373.15 K、100 kPa 下，水的蒸发焓 ΔvapH^θₘ = 40.64 kJ·mol⁻¹，在 298.15~373.15 K 间水的等压热容为 75.6 J·K⁻¹·mol⁻¹。
+在 373.15 K、100 kPa 下，水的蒸发焓 $\Delta_{\mathrm{vap}}H^{\theta}_{\mathrm{m}}$ = 40.64 kJ·mol⁻¹，在 298.15~373.15 K 间水的等压热容为 75.6 J·K⁻¹·mol⁻¹。
 
 (1) 将工艺得到的富氢气体作为 PEMFC 的燃料。燃料电池的理论效率是指电池所能做的最大电功相对于燃烧反应焓变的效率。在 298.15 K、100 kPa 下，当 1 mol H₂ 燃烧分别生成 H₂O(l) 和 H₂O(g) 时，计算燃料电池工作的理论效率，并分析两者存在差别的原因。
 
@@ -182,15 +182,15 @@ $$\Delta_\mathrm{r}G^\theta_\mathrm{m}(\mathrm{b}) = -241.82 - 298.15\times (-44
 
 $$\eta(\mathrm{b}) = \Delta_\mathrm{r}G^\theta_\mathrm{m}(\mathrm{b})/\Delta_\mathrm{r}H^\theta_\mathrm{m}(\mathrm{b}) = 94.5\%$$
 
-两反应 ΔG^θₘ 接近（最大电能相近），ΔH^θₘ 相差大（释放热能不同），故 η 不同。
+两反应 $\Delta G^{\theta}_{\mathrm{m}}$ 接近（最大电能相近），$\Delta H^{\theta}_{\mathrm{m}}$ 相差大（释放热能不同），故 η 不同。
 
-(2) 在 473.15 K 下（忽略 ΔH^θ、ΔS^θ 随温度变化）：
+(2) 在 473.15 K 下（忽略 $\Delta H^{\theta}$、$\Delta S^{\theta}$ 随温度变化）：
 
 $$\Delta_\mathrm{r}G^\theta_\mathrm{m}(\mathrm{b}) = -241.82 + 473.15\times 44.28\times 10^{-3} = -220.88\ \mathrm{kJ\cdot mol^{-1}}$$
 
 $$\eta(\mathrm{b}, 473\ \mathrm K) = -220.88/-241.82 = 91.3\%$$
 
-(3) 燃料电池理论效率随工作温度而变化；温度降低则 η 升高。ΔG^θₘ 随温度变化主要由 TΔS^θₘ 引起。
+(3) 燃料电池理论效率随工作温度而变化；温度降低则 η 升高。$\Delta G^{\theta}_{\mathrm{m}}$ 随温度变化主要由 $T\Delta S^{\theta}_{\mathrm{m}}$ 引起。
 
 </details>
 
@@ -200,8 +200,8 @@ $$\eta(\mathrm{b}, 473\ \mathrm K) = -220.88/-241.82 = 91.3\%$$
 
 | 知识点 | 本题应用 |
 |---|---|
-| [[反应热与盖斯定律]] | ΔrH^θ 计算 |
+| [[反应热与盖斯定律]] | $\Delta_{\mathrm{r}}H^{\theta}$ 计算 |
 | [[反应速率]] | 速率方程对 CO/O₂ 级数判定 |
 | [[吸附]] | Langmuir 吸附等温线 + 表面机理推导 |
-| [[Gibbs自由能]] | ΔG^θ=−RT ln K、燃料电池效率 |
-| [[热力学第一定律]] | ΔH^θ/ΔS^θ/ΔG^θ 关系 |
+| [[Gibbs自由能]] | $\Delta G^{\theta}$=−RT ln K、燃料电池效率 |
+| [[热力学第一定律]] | $\Delta H^{\theta}$/$\Delta S^{\theta}$/$\Delta G^{\theta}$ 关系 |

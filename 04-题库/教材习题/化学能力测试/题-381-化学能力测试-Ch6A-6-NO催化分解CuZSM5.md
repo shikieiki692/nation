@@ -68,7 +68,7 @@ M 为活性中心，NO 弱吸附 NO-M 浓度可忽略。据机理与 M 物料平
 
 $$\Delta_\mathrm{r}H^\theta \approx 631.8 - \tfrac{1}{2}(941.7 + 493.7) = -85.9\ \mathrm{kJ\cdot mol^{-1}}$$
 
-反应前后气体分子数不变 → ΔrS^θ≈0：
+反应前后气体分子数不变 → $\Delta_{\mathrm{r}}S^{\theta}$≈0：
 
 $$\Delta_\mathrm{r}G^\theta = \Delta_\mathrm{r}H^\theta - T\Delta_\mathrm{r}S^\theta \approx -85.9\ \mathrm{kJ\cdot mol^{-1}} < 0$$
 
@@ -122,4 +122,4 @@ $$r = \frac{kc_\mathrm{NO}}{1 + K'c_{\mathrm{O_2}}^{1/2}}$$
 | [[活化能]] | 74.8 kJ/mol |
 | [[催化剂]] | Cu/ZSM-5 催化 |
 | [[多相催化]] | 表面活性中心转化数、Langmuir 机理 |
-| [[Gibbs自由能]] | ΔG^θ=ΔH^θ−TΔS^θ 判断自发 |
+| [[Gibbs自由能]] | $\Delta G^{\theta}$=$\Delta H^{\theta}$−$T\Delta S^{\theta}$ 判断自发 |

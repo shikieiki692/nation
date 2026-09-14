@@ -65,7 +65,7 @@ Kb = RT_b*²M₁/ΔvapH：
 
 $$\Delta_\mathrm{vap}H = \frac{8.314\times 373^2\times 18\times 10^{-3}}{0.521} = 40.0\ \mathrm{kJ/mol}$$
 
-(2) 373 K 纯水 p^θ=101.325 kPa，Clausius-Clapeyron 外推 298 K：
+(2) 373 K 纯水 $p^{\theta}$=101.325 kPa，Clausius-Clapeyron 外推 298 K：
 
 $$p_1^*(298) = 101.325\times\exp[40000\times(298-373)/(8.314\times 373\times 298)] = 3.94\ \mathrm{kPa}$$
 

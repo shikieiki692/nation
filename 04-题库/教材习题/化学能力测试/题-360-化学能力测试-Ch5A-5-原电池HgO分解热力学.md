@@ -46,7 +46,7 @@ source_grade: A
 
 反应 $\mathrm{H_2(g) + \tfrac{1}{2}O_2(g) = H_2O(l)}$，$\Delta_\mathrm{r}G^\theta_\mathrm{m}(298\ \mathrm K) = -237.2\ \mathrm{kJ\cdot mol^{-1}}$。
 
-| 物质 | S^θₘ(298 K) / J·K⁻¹·mol⁻¹ |
+| 物质 | $S^{\theta}_{\mathrm{m}}$(298 K) / J·K⁻¹·mol⁻¹ |
 |---|---|
 | Hg(l) | 77.1 |
 | HgO(s) | 73.2 |
@@ -128,6 +128,6 @@ $$(90278/8.314) \times (1/298.15 - 1/T_2) = 10860 \times (0.003354 - 1/T_2)$$
 
 | 知识点 | 本题应用 |
 |---|---|
-| [[Gibbs自由能]] | ΔG^θ=−nFE^θ（电化学）+ ΔG^θ=−RT ln Kp^θθ |
-| [[标准电极电势]] | 原电池 E^θ → ΔG^θ 转换 |
-| [[热力学第一定律]] | ΔH^θ=ΔG^θ+TΔS^θ、ΔS^θ 状态函数计算 |
+| [[Gibbs自由能]] | $\Delta G^{\theta}$=−$nFE^{\theta}$（电化学）+ $\Delta G^{\theta}$=−RT ln $K_{\mathrm{p}}^{\theta}$θ |
+| [[标准电极电势]] | 原电池 $E^{\theta}$ → $\Delta G^{\theta}$ 转换 |
+| [[热力学第一定律]] | $\Delta H^{\theta}$=$\Delta G^{\theta}$+$T\Delta S^{\theta}$、$\Delta S^{\theta}$ 状态函数计算 |

@@ -76,7 +76,7 @@ $$\frac{p_\mathrm{HCl}}{p_\mathrm{H_2}} = \sqrt{\exp(74.6 - 76.575)} = 0.373$$
 
 p总≈750 Torr → p(HCl)≈204 Torr、p(H₂)=p(Cl₂)≈546 Torr。
 
-**E=0（760 Torr 平衡混合物）**：Kp^θ=exp(74.6)=1.58×10¹⁶ → p(HCl)≈760 Torr、p(H₂)=p(Cl₂)≈5×10⁻¹⁴ Torr——游离氯和氢实际不存在。故直接测气相组成定 K 不可能，电化学法是唯一方法。
+**E=0（760 Torr 平衡混合物）**：$K_{\mathrm{p}}^{\theta}$=exp(74.6)=1.58×10¹⁶ → p(HCl)≈760 Torr、p(H₂)=p(Cl₂)≈5×10⁻¹⁴ Torr——游离氯和氢实际不存在。故直接测气相组成定 K 不可能，电化学法是唯一方法。
 
 </details>
 
@@ -87,5 +87,5 @@ p总≈750 Torr → p(HCl)≈204 Torr、p(H₂)=p(Cl₂)≈546 Torr。
 | 知识点 | 本题应用 |
 |---|---|
 | [[标准电极电势]] | zFE = 电功耦合 |
-| [[Gibbs自由能]] | ΔG^θ=−RT ln Kp^θ |
+| [[Gibbs自由能]] | $\Delta G^{\theta}$=−RT ln $K_{\mathrm{p}}^{\theta}$ |
 | [[化学平衡]] | 气相分压平衡常数 |
