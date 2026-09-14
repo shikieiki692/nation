@@ -183,6 +183,7 @@ def _build_resource_path(md_path: Path, out_dir: Path) -> str:
     paths = _dedupe_existing_paths([
         md_path.parent,
         md_path.parent / "media",
+        md_path.parent / "attachments",   # Obsidian 默认附件目录（真题页常用）
         VAULT_ROOT,
         VAULT_MEDIA,
         out_dir,
@@ -1482,20 +1483,29 @@ def _convert_html_tables(text: str) -> str:
     摊成独立段落——习题书 1-热力学「大豆发热量」表就是这样散成十几段的。转成
     pipe table 后才会生成真正的 Word 表格。
 
-    保守条件（不满足则原样放过）：无 colspan/rowspan、无 <br>/<img>/![[]、
-    列数 1..8。单元格内的行内标签（<sub>/<sup>/<b> 等）直接剥掉。
+    保守条件（不满足则原样放过）：无 colspan/rowspan、无 <img>、
+    列数 1..8。单元格内的行内标签（<sub>/<sup>/<b> 等）直接剥掉；
+    `<br>` 折行换成空格、`![[图]]` 原样保留（交由后续图片引用处理转换）。
+
+    2026-09-14：原先只要含 `<br>` 或 `![[]` 就整块跳过，导致 题-36决理-2-7 的
+    两张四列表（含结构图）散成流水段落。现放宽 —— 全库此类仅 2 张表，面很窄。
     """
     def _repl(m: re.Match) -> str:
         block = m.group(0)
         low = block.lower()
         if 'colspan' in low or 'rowspan' in low:
             return block
-        if '<br' in low or '<img' in low or '![[' in block:
+        if '<img' in low:
             return block
         rows: list[list[str]] = []
         for tr in re.findall(r'<tr\b[^>]*>(.*?)</tr>', block, flags=re.I | re.S):
             cells = re.findall(r'<t[dh]\b[^>]*>(.*?)</t[dh]>', tr, flags=re.I | re.S)
-            rows.append([re.sub(r'<[^>]+>', '', c).strip() for c in cells])
+            cleaned = []
+            for c in cells:
+                c = re.sub(r'<br\s*/?>', ' ', c, flags=re.I)
+                c = re.sub(r'<[^>]+>', '', c).strip()
+                cleaned.append(c)
+            rows.append(cleaned)
         width = max((len(r) for r in rows), default=0)
         if not rows or width == 0 or width > 8:
             return block
@@ -1893,6 +1903,73 @@ def _preprocess_markdown(text: str) -> str:
         return '$' + inner.strip() + '$'
 
     text = re.sub(r'(?<![\\$])\$([^$\n]+?)\$(?![$])', _tighten_inline_math, text)
+
+    # 4b14) texmath 兼容归一化（2026-09-14）
+    #   实测 texmath 会**直接拒绝转换**以下两类写法，pandoc 于是把整段 LaTeX
+    #   原样印进 Word（现象：docx 里出现 $\mathrm { { \bf S e C l } _ { 4 } }$）：
+    #     ① 字体开关 \bf \sf \rm \it \sl \sc \tt —— TeX 原语，texmath 不支持。
+    #        实测失败：$\mathrm { { \bf S e C l } _ { 4 } }$、$\mathrm { \bf B } _ { 3 }$、
+    #                  $\boldsymbol{\rm B(SH)_3}$、${ \sf C } _ { 1 1 }$、${\bf A}$
+    #     ② \text{...} 内部的反斜杠命令 —— \text 是文本模式，命令非法。
+    #        实测失败：$\text{属9~\sim17电子构型}$、$\text{kJ\cdot mol}^{-1}$、
+    #                  $\text{6.02\times10^{23}}$
+    #   修法：① 字体开关换成等义命令 \mathbf{} / \mathsf{} / \mathrm{} …（保留正体、
+    #            粗体外观，而非直接删除）；
+    #        ② \text{} 内的命令换成等义 Unicode（文本模式下合法）。
+    _FONT_CMD = {"bf": "mathbf", "sf": "mathsf", "rm": "mathrm", "it": "mathit",
+                 "sl": "mathit", "sc": "textsc", "tt": "mathtt"}
+    _BRACED_SWITCH = re.compile(r"\{\s*\\(bf|sf|rm|it|sl|sc|tt)\s*([^{}]*?)\s*\}")
+    _BARE_SWITCH = re.compile(r"\\(bf|sf|rm|it|sl|sc|tt)(?![a-zA-Z])")
+    _TEXT_CMD_MAP = sorted([
+        (r'\leftarrow', '←'), (r'\rightarrow', '→'), (r'\longrightarrow', '⟶'),
+        (r'\Longleftarrow', '⟸'), (r'\Longrightarrow', '⟹'), (r'\approx', '≈'),
+        (r'\uparrow', '↑'), (r'\downarrow', '↓'), (r'\times', '×'),
+        (r'\cdot', '·'), (r'\sim', '∼'), (r'\infty', '∞'), (r'\Delta', 'Δ'),
+        (r'\delta', 'δ'), (r'\alpha', 'α'), (r'\beta', 'β'), (r'\gamma', 'γ'),
+        (r'\lambda', 'λ'), (r'\Lambda', 'Λ'), (r'\sigma', 'σ'), (r'\Sigma', 'Σ'),
+        (r'\omega', 'ω'), (r'\Omega', 'Ω'), (r'\epsilon', 'ε'), (r'\theta', 'θ'),
+        (r'\mu', 'μ'), (r'\nu', 'ν'), (r'\rho', 'ρ'), (r'\tau', 'τ'),
+        (r'\phi', 'φ'), (r'\varphi', 'φ'), (r'\psi', 'ψ'), (r'\chi', 'χ'),
+        (r'\pi', 'π'), (r'\eta', 'η'), (r'\zeta', 'ζ'), (r'\kappa', 'κ'),
+        (r'\pm', '±'), (r'\mp', '∓'), (r'\geq', '≥'), (r'\leq', '≤'),
+        (r'\ge', '≥'), (r'\le', '≤'), (r'\neq', '≠'), (r'\ne', '≠'),
+        (r'\circ', '°'), (r'\ominus', '⊖'), (r'\oplus', '⊕'), (r'\prime', '′'),
+        (r'\dagger', '†'), (r'\to', '→'), (r'\ldots', '…'), (r'\cdots', '⋯'),
+        (r'\degree', '°'), (r'\deg', '°'),
+    ], key=lambda kv: -len(kv[0]))
+
+    def _text_cmd_to_unicode(body: str) -> str:
+        for k, v in _TEXT_CMD_MAP:
+            body = body.replace(k, v)
+        return body
+
+    def _fix_texmath_compat(inner: str) -> str:
+        s = inner
+        # ① {\bf X} / {\sf X} / {\rm X} … → {\mathbf{X}} / {\mathsf{X}} …
+        #    必须**保留外层花括号**：若替换成 \mathbf{X} 而抹掉花括号，则
+        #    `\mathrm { \bf B } _3` 会变成 `\mathrm \mathbf{B} _3` —— `\mathrm`
+        #    吃到 `\mathbf` 作参数，texmath 直接拒绝（实测 "Could not convert"）。
+        for _ in range(2):
+            s2 = _BRACED_SWITCH.sub(
+                lambda m: '{\\' + _FONT_CMD[m.group(1)] + '{' + m.group(2) + '}}', s)
+            if s2 == s:
+                break
+            s = s2
+        # ② 余下的裸开关（后面跟普通字母/命令）→ 换成命令，由其吸收后随参数
+        s = _BARE_SWITCH.sub(lambda m: '\\' + _FONT_CMD[m.group(1)], s)
+
+        def _text_repl(m: "re.Match") -> str:
+            body = m.group(1)[1:-1]
+            # 只在内容里真的含反斜杠命令时才改写，避免把 \text {x} 归一成
+            # \text{x}（无意义、却把改动面从十几份扩到数百份）
+            if '\\' not in body:
+                return m.group(0)
+            return r'\text{' + _text_cmd_to_unicode(body) + '}'
+
+        s = re.sub(r'\\text\s*' + _arg, _text_repl, s)
+        return s
+
+    text = _map_math_spans(text, _fix_texmath_compat)
 
     # 4c) \displaylines{...} → split into separate display equations
     #     (handles one level of nested \text{} etc. inside)
@@ -2373,6 +2450,7 @@ def _validate_docx(
         base = Path(ref)
         candidates = [
             md_source.parent / base,
+            md_source.parent / "attachments" / base,   # Obsidian 默认附件目录
             VAULT_ROOT / base,
             VAULT_MEDIA / base,
             md_preprocessed.parent / base,
