@@ -2435,9 +2435,15 @@ def _validate_docx(
 
     if document_xml:
         if "**" in document_xml:
-            issues.append(
-                "Literal `**` leaked into generated docx XML — likely malformed strong markup"
-            )
+            # 源里的 `\*\*` 是**转义后的字面星号**（如原书难度标记 `【习题 11.131**】`），
+            # pandoc 原样输出是正确的。只有当 docx 里的 `**` 比源里转义的还多时，
+            # 才是真的「未配对的加粗标记」泄漏。
+            _literal_stars = len(re.findall(r'\\\*\\\*', source_text))
+            _docx_stars = len(re.findall(r'\*\*', re.sub(r'<[^>]+>', ' ', document_xml)))
+            if _docx_stars > _literal_stars:
+                issues.append(
+                    "Literal `**` leaked into generated docx XML — likely malformed strong markup"
+                )
         docx_math = len(re.findall(r"<m:oMath(?:\s|>)", document_xml))
         if expected_math and docx_math == 0:
             issues.append(

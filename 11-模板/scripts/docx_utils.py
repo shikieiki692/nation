@@ -76,10 +76,9 @@ def _atomic_replace(src: Path, dst: Path, attempts: int = 6, delay: float = 0.25
     2026-09-14 增补 fallback：预览面板 / Windows Search / 杀毒会对 .docx 持有**长时**
     句柄——此时 `os.replace` 只会拿到 WinError 32（文件正被使用），重试再多也无效。
     这类句柄通常只否决"改名/删除"，却允许"写入"，所以最后一次失败后退回
-    `shutil.copyfile` 覆盖内容再删源文件，保证导出不因外部占用而失败。
+    `open(dst, "r+b")` + `truncate()` 原地覆盖内容再删源文件，保证导出不因外部占用而失败。
     """
     import errno
-    import shutil
     for attempt in range(attempts):
         try:
             os.replace(src, dst)
@@ -90,9 +89,19 @@ def _atomic_replace(src: Path, dst: Path, attempts: int = 6, delay: float = 0.25
             if attempt < attempts - 1:
                 time.sleep(delay)
                 continue
-            # 重试耗尽 —— 目标被长时占用，退到「覆盖内容」
+            # 重试耗尽 —— 目标被长时占用（预览面板 / Windows Search / 杀毒）。
+            # 用 open(dst, "r+b") + truncate() 原地覆盖：实测比 os.replace 与
+            # shutil.copyfile 更能穿透 Word 占用（copyfile 内部以 "wb" 打开，
+            # 会被同样的否决规则挡掉，导致 fallback 也失败）。
             try:
-                shutil.copyfile(src, dst)
+                data = src.read_bytes()
+                if dst.exists():
+                    with open(dst, "r+b") as fh:
+                        fh.seek(0)
+                        fh.write(data)
+                        fh.truncate()
+                else:
+                    dst.write_bytes(data)
             except OSError:
                 raise exc
             try:
@@ -100,8 +109,8 @@ def _atomic_replace(src: Path, dst: Path, attempts: int = 6, delay: float = 0.25
             except OSError:
                 pass
             print(
-                f"  [WARN] {dst.name}: 目标被占用无法改名，已改用内容覆盖"
-                f"（内容已更新，但可能有外部程序持旧句柄）",
+                f"  [WARN] {dst.name}: 目标被占用无法改名，已原地覆盖内容"
+                f"（内容已更新，但外部程序仍持旧句柄，关闭后重开预览即可）",
                 file=sys.stderr,
             )
             return
