@@ -42,6 +42,10 @@
   - 导出报 WinError 5（docx 被 Word 占用）→ 重试即可；剥离 tmp 后缀正则须写 `\.d+-d+\.tmp(?=\.docx$)`。
   - 技能 `docx-math-leak-qa` 固化全流程；单测 `test_ce_conversion.py`（**`scripts/` 被 .gitignore，须 `git add -f`**）。
 - 遗留：学生版 docx 2 处 mismatch（11-反应机理与推断、3-烷烯炔）待排查。
+- **texmath 拒绝转换的两类写法（2026-09-14 新增管线 4b14）**：① 字体开关 `\bf`/`\sf`/`\rm`/`\it`/`\sl`/`\sc`/`\tt`（含 `\boldsymbol{\rm …}`）→ 换等义命令、**必须保留外层花括号**（否则 `\mathrm { \bf B }` → `\mathrm \mathbf{B}` 仍 FAIL）；② `\text{}` 内的反斜杠命令（`\cdot`/`\sim`/`\times`）→ 换等义 Unicode。**诊断铁律：`pandoc -t native` 报 InlineMath=1 会骗人，必须 `pandoc -t docx` 抓 `Could not convert TeX math`**。全库 29 份 md 受影响。
+- **`attachments/` 图片目录**：Obsidian 默认附件目录须加进 pandoc `--resource-path` 与图片解析候选，否则 `--strict-images` 判 `unresolvable on disk` **拒收整份导出**（真题页常见）。
+- **回归用「遮蔽数学区」判据**：非数学区必须零变化，数学区差异做分类；比 `difflib` 快得多（万行级文件 difflib 会 SIGTERM 超时）。
+- 上代产线 docx（阶段测试卷 / 第二轮习题集 / 专项卷 / 综合模拟卷 / `04-课件/导出版` / 单题Word）**活跃区 A/B 已全归零**（09-14），`_archive`/`_归档` 存量不计。**推送很慢（>5 分钟），前台会 SIGTERM，须 `run_in_background`。**
 
 ## 五、学生讲义 / 13-教案 / 数学工具
 - 源 `04-课件/学生讲义/` 按模块分目录，产物 `06-学生侧材料/讲义/<同名子目录>/`。**讲义不分教师/学生版**，正文含练习+答案，教师信息放 HTML 注释。**批量导出扫描口径**：递归 `*.md`，排除 `_归档` 与 `_` 开头目录、stem 为 `README`、前缀 `讲义升级模式-`，并**只保留 stem 含 `超级充实`/`基础版`/`复习`/`-新课` 者**（注意：此 marker 过滤仅用于批量默认路径，**单文件 `--path` 不受限**）。
