@@ -1727,47 +1727,70 @@ def build_book(module, out_dir, chapter_map, exclude_subs=None):
 
 def sync_readme_stats():
     """构建完成后自动回写 README.md 的题数/章节构成（WRITE 模式）。
-    防 2026-08-31 实测的"README 声称 1,685 题、实际 1,262 题"式漂移。"""
+    防 2026-08-31 实测的"README 声称 1,685 题、实际 1,262 题"式漂移。
+
+    2026-09-15 修订（P0-4）：
+      · 章节数由字面「31 章」改为动态数字匹配 —— 章节数变化不再静默失配；
+      · 「未匹配」由 ⚠️ 打印提升为显式告警（末尾汇总并抛 RuntimeError，构建非零退出）；
+      · 仅在数值真正变化时回写（幂等）—— 不做无意义的日期抖动。
+    """
     p = os.path.join(BASE.rsplit("/", 1)[0] if False else ".", README_PATH)
     if not os.path.isfile(p):
-        print(f"  [sync-readme] ⚠️ README 不存在: {p}，跳过")
+        print(f"  [sync-readme] ❌ README 不存在: {p}，跳过")
         return
     text = open(p, encoding="utf-8").read()
     if not BOOK_STATS:
-        print("  [sync-readme] ⚠️ 无构建统计，跳过")
+        print("  [sync-readme] ❌ 无构建统计，跳过")
         return
     total = sum(s["questions"] for s in BOOK_STATS.values())
     n_chapters = sum(s["chapters"] for s in BOOK_STATS.values())
-    total_str = f"{total:,}".replace(",", ",")
-    total_raw = str(total)
+    total_str = f"{total:,}"
     module_order = ["化学原理", "结构化学", "有机化学", "元素与分析"]
     parts_line = "、".join(f"{m} {BOOK_STATS[m]['questions']}" for m in module_order if m in BOOK_STATS)
     today = date.today().isoformat()
+
+    misses = []
 
     def repl(pattern, repl_text, count=1):
         nonlocal text
         new, n = re.subn(pattern, repl_text, text, count=count)
         if n == 0:
-            print(f"  [sync-readme] ⚠️ 未匹配: {pattern}")
+            misses.append(pattern)
+            print(f"  [sync-readme] ❌ 未匹配（README 该处未同步！）: {pattern}")
         text = new
 
-    # 1) 页头四篇总数声明（保留"31 章 / N 题"结构）
-    repl(r"\*\*31 章 / [\d,]+ 题\*\*（磁盘实测[^）]*）", f"**{n_chapters} 章 / {total_str} 题**（构建实测 {today}）")
-    repl(r"\*\*31 章 / [\d,]+ 题\*\*", f"**{n_chapters} 章 / {total_str} 题**")
+    # 1) 页头四篇总数声明：章节数动态匹配，题数与构建日期一并刷新（括号内附注保留）
+    repl(r"(\*\*)\d+ 章 / [\d,]+( 题\*\*（)(?:构建实测|磁盘实测) \d{4}-\d{2}-\d{2}",
+         rf"\g<1>{n_chapters} 章 / {total_str}\g<2>构建实测 {today}")
+    # 1b) 兜底：无括号附注的形态
+    repl(r"(\*\*)\d+( 章 / )[\d,]+( 题\*\*)",
+         rf"\g<1>{n_chapters}\g<2>{total_str}\g<3>")
     # 2) 双版本表格行（先学生版 0 答案块，再教师版 >0 答案块；避免把"0 答案块"误当答案数）
-    repl(r"31 章 / [\d,]+ 题 / 0 答案块", f"{n_chapters} 章 / {total_str} 题 / 0 答案块")
-    repl(r"31 章 / [\d,]+ 题 / [1-9][\d,]* 答案块", f"{n_chapters} 章 / {total_str} 题 / {total_str} 答案块")
-    # 3) 四篇构成行（行内 "化学原理 121、结构化学 ..." 整体替换）
-    repl(r"四篇构成（[^）]*）：[^\n]+",
-         f"四篇构成（构建实测 {today}）：{parts_line}。")
-    # 4) updated 日期
-    repl(r"(?m)^updated: \d{4}-\d{2}-\d{2}$", f"updated: {today}", count=2)
+    repl(r"\d+ 章 / [\d,]+ 题 / 0 答案块", f"{n_chapters} 章 / {total_str} 题 / 0 答案块")
+    repl(r"\d+ 章 / [\d,]+ 题 / [1-9][\d,]* 答案块", f"{n_chapters} 章 / {total_str} 题 / {total_str} 答案块")
+    # 3) 四篇构成行：仅当构成数字真正变化时才回写（幂等，避免日期抖动）
+    m = re.search(r"四篇构成（[^）]*）：([^\n]+)", text)
+    if m:
+        if m.group(1).strip().rstrip("。") != parts_line:
+            text = (text[:m.start()] + f"四篇构成（构建实测 {today}）：{parts_line}。"
+                    + text[m.end():])
+    else:
+        misses.append("四篇构成（…）：…")
+        print("  [sync-readme] ❌ 未匹配（README 该处未同步！）: 四篇构成行")
+
     try:
         with open(p, "w", encoding="utf-8") as f:
             f.write(text)
         print(f"  [sync-readme] ✅ README 已同步: {n_chapters} 章 / {total} 题（{parts_line}）")
     except OSError as e:
         print(f"  [sync-readme] ❌ 写入失败: {e}")
+        raise
+
+    if misses:
+        msg = (f"[sync-readme] ❌❌ 严重告警：{len(misses)} 处 pattern 未匹配 —— "
+               f"README 数字可能未同步（章节数或 README 结构已变化，请检查 pattern / README）")
+        print(msg)
+        raise RuntimeError(msg)
 
 
 # 化学原理习题书（酸碱置于化学平衡之前，避免 submodule「酸碱平衡」误入第 2 章）
