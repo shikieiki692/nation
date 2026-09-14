@@ -9,8 +9,11 @@ import docx
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 
-SRC = Path(r"C:\Obsidion\妙妙屋\00-首页\题组Word\习题书\学生版")
-DST = Path(r"C:\Obsidion\妙妙屋\00-首页\题组Word\习题书\学生版-打印版")
+# 2026-09-08 习题书 docx 已拍平为「习题书/第X篇-…/章节-版本.docx」，
+# 打印版与学生版同目录并排 —— 旧路径（习题书/学生版-打印版/）早已不存在，
+# 导致本校验器静默报「0 文件」而毫无发现。2026-09-14 修正。
+DST = Path(r"C:\Obsidion\妙妙屋\00-首页\题组Word\习题书")
+PRINT_GLOB = '*-学生版-打印版.docx'
 
 
 def colorful_fullres(data, thresh=18):
@@ -83,7 +86,7 @@ def main():
     tot = Counter()
     print(f"{'文件':<34}{'段':>5}{'公式':>6}{'图':>4}{'彩字':>5}{'高亮':>5}{'底纹':>5}{'页眉':>5}{'页码':>5}  首段")
     print("-" * 118)
-    for f in sorted(DST.rglob('*.docx')):
+    for f in sorted(DST.rglob(PRINT_GLOB)):
         rel = f.relative_to(DST)
         r = zscan(f)
         # 只有「非 auto 且非纯黑」才算彩色残留；显式 000000 是黑白化的预期结果
