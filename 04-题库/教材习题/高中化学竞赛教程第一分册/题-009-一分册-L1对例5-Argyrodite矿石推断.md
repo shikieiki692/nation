@@ -69,7 +69,7 @@ Ag₂ₓY_ySₓ₋₂ᵧ + yH₂ → xAg₂S + yYS + yH₂S
 
 简化得 x/y = 4.00。取最小整数比 x = 4、y = 1，即 Argyrodite 的分子式为 Ag₈YS₆。
 
-由 m(Ag) : m(Y) = (8 × 108) : M_Y = 11.88 : 1，求得 M_Y = 72.66 g·mol⁻¹，查原子量表得 Y 为 **Ge** 元素。
+由 m(Ag) : m(Y) = (8 × 108) : $M_Y$ = 11.88 : 1，求得 $M_Y$ = 72.66 g·mol⁻¹，查原子量表得 Y 为 **Ge** 元素。
 
 1. Y 的摩尔质量为 **72.66 g·mol⁻¹**。
 2. Y：**Ge**；Argyrodite：**Ag₈GeS₆**。

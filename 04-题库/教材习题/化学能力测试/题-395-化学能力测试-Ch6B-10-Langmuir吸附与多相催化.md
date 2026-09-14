@@ -67,7 +67,7 @@ $$\Delta_\mathrm{ad}H^\theta_\mathrm m = R\left(\frac{1}{T_1}-\frac{1}{T_2}\righ
 **10-2** r = k₁·$K_A$ $p_A$/(1+$K_A$ $p_A$)：
 
 - 高压（Kp≫1）：r=k₁=500 kPa·s⁻¹，**零级**
-- 低压（Kp≪1）：r=k₁K_A $p_A$，k₁K_A=10 s⁻¹，**一级**
+- 低压（Kp≪1）：r=k₁$K_A$ $p_A$，k₁$K_A$=10 s⁻¹，**一级**
 
 $K_A$ = 10/500 = 0.02 kPa⁻¹；50 kPa 时：
 
