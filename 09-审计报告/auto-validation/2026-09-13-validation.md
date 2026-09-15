@@ -2,7 +2,7 @@
 
 > **扫描模式**: changed: 1 files
 > **受检文件**: 1
-> **检出异常**: 0 error / 0 warning / 1 info
+> **检出异常**: 0 error / 0 warning / 0 info
 
 ## 摘要
 
@@ -19,11 +19,7 @@
 
 | Error | 0 |
 | Warning | 0 |
-| Info | 1 |
-
-## ℹ️ Info
-
-- **stage-建议**: 1 处
+| Info | 0 |
 
 ---
 *自动生成于 2026-09-13 · validate_kb.py v1*
