@@ -92,23 +92,23 @@ $$n_\mathrm{r} = 5.03\times 1.0\times 10^{-6}\times 60 = 3.0\times 10^{-4}\ \mat
 
 $$y = 1.5\times 10^{-5}/7.1\times 10^{-5} = 21\%$$
 
-**6-4** ①式：r = k₁c_NO·$c_M$ (a)
+**6-4** ①式：r = k₁$c_{\mathrm{NO}}$·$c_M$ (a)
 
-M 物料平衡：c = $c_M$ + c_O−M + c_NO−M ≈ $c_M$ + c_O−M (b)
+M 物料平衡：c = $c_M$ + $c_{\mathrm{O-M}}$ + $c_{\mathrm{NO-M}}$ ≈ $c_M$ + $c_{\mathrm{O-M}}$ (b)
 
-③快平衡：K = k₃/k₋₃ = $c_{\mathrm{O_2}}$·$c_M$²/c_O−M² → c_O−M = c_O₂^½·$c_M$/K^½ (c)
+③快平衡：K = k₃/k₋₃ = $c_{\mathrm{O_2}}$·$c_M$²/$c_{\mathrm{O-M}}$² → $c_{\mathrm{O-M}}$ = c_O₂^½·$c_M$/$K^{1/2}$ (c)
 
-(c) 代入 (b)：c₀ = $c_M$(1+c_O₂^½/K^½) → $c_M$ = c₀/(1+c_O₂^½/K^½) (d)
+(c) 代入 (b)：c₀ = $c_M$(1+c_O₂^½/$K^{1/2})$ → $c_M$ = c₀/(1+c_O₂^½/$K^{1/2})$ (d)
 
 (d) 代入 (a)：
 
 $$r = k_1c_\mathrm{NO}\frac{c_0}{1 + c_{\mathrm{O_2}}^{1/2}/K^{1/2}}$$
 
-设 k₁c₀=k、1/K^½=K′：
+设 k₁c₀=k、1/$K^{1/2}$=K′：
 
 $$r = \frac{kc_\mathrm{NO}}{1 + K'c_{\mathrm{O_2}}^{1/2}}$$
 
-低 O₂ 分压时 1+K′c_O₂^½≈1 → **r = kc_NO（一级）**，与实验一致。
+低 O₂ 分压时 1+K′$c_{\mathrm{O_2}}^{1/2}$≈1 → **r = kc_NO（一级）**，与实验一致。
 
 </details>
 
