@@ -192,6 +192,7 @@ def process_file(path, apply):
     out_lines = []
     changes = []
     skipped = collections.Counter()
+    skip_lines = []
     applied = collections.Counter()
     in_fence = in_fm = in_disp = False
     fm_done = False
@@ -223,9 +224,12 @@ def process_file(path, apply):
         reps = []
         for mo in PAT.finditer(m):
             a, b = mo.start(), mo.end()
+            tokn = raw[a:b]
             # 组3 跳闸：后紧跟 ^/_ → X_a^b 组合，须人工定夺
             if b < len(raw) and raw[b] in "^_":
-                skipped[raw[a:b]] += 1
+                if not is_pathish(raw, a, b):
+                    skipped[tokn] += 1
+                    skip_lines.append((idx, tokn, raw))
                 continue
             cur = b
             while cur < len(raw) and raw[cur] in SUPSUB:
@@ -233,10 +237,12 @@ def process_file(path, apply):
             cand = raw[a:cur]
             if cand in MAP:
                 tok, end = cand, cur
-            elif raw[a:b] in MAP:
-                tok, end = raw[a:b], b
+            elif tokn in MAP:
+                tok, end = tokn, b
             else:
-                skipped[raw[a:b]] += 1
+                if not is_pathish(raw, a, b):
+                    skipped[tokn] += 1
+                    skip_lines.append((idx, tokn, raw))
                 continue
             if is_pathish(raw, a, end):
                 continue
@@ -260,12 +266,14 @@ def process_file(path, apply):
         "path": path, "lines": len(lines), "changes": changes,
         "par0": par0, "par1": par1, "ctrl": n_ctrl, "ok": ok, "dd_new": dd_new,
         "skipped": skipped, "applied": applied, "new_text": new_text,
+        "skip_lines": skip_lines,
     }
 
 
 def main():
     argv = sys.argv[1:]
     apply = "--apply" in argv
+    dump = "--dump-skipped" in argv
     roots, excludes, only = [], [], None
     i = 0
     while i < len(argv):
@@ -300,6 +308,7 @@ def main():
     tok_stat = collections.Counter()
     skip_stat = collections.Counter()
     bad = []
+    all_skips = []
     total_chg = 0
     nfiles = 0
     for p in files:
@@ -317,6 +326,7 @@ def main():
                 print("  L%-5d - %s" % (idx, old[:200]))
                 print("         + %s" % new[:200])
         skip_stat.update(r["skipped"])
+        all_skips.extend((p, idx, tok, raw) for idx, tok, raw in r["skip_lines"])
         if not r["ok"]:
             bad.append(p)
         if apply and r["changes"]:
@@ -332,6 +342,16 @@ def main():
         print("跳过（组3/未映射，前 30）：")
         for k, v in skip_stat.most_common(30):
             print("   %-22s x%d" % (k, v))
+    if dump and all_skips:
+        bytok = collections.defaultdict(list)
+        for p, idx, tok, raw in all_skips:
+            bytok[tok].append((p, idx, raw))
+        print("\n──── 组3 残量明细（需人工定夺，按 token 分组）────")
+        for tok, items in sorted(bytok.items(), key=lambda kv: (-len(kv[1]), kv[0])):
+            print("\n[%s] ×%d" % (tok, len(items)))
+            for p, idx, raw in items[:20]:
+                print("  %s L%d" % (p, idx))
+                print("      %s" % raw.strip()[:230])
     if bad:
         print("!! 断言失败文件: %s" % bad)
     else:
