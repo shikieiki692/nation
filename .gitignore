@@ -50,6 +50,8 @@ skills/
 11-模板/scripts/*
 !11-模板/scripts/qa/
 !11-模板/scripts/qa/**
+# 回堵：上面的 ! 会越过第 14 行的 __pycache__/ 规则，这里再排除一次
+11-模板/scripts/qa/__pycache__/
 
 # 临时构建产物（2026-09-01）
 .tmp-*/
