@@ -39,11 +39,11 @@ It is better to draw the carbonyl group at the 'end' of the ring, because then w
 
 ![[fbf4599708e664c2bf18052e631659df59a681f2db213cf0072fa36be72fd7d8.jpg]]
 
-The key H atoms in the NMR are those shown below. In the first compound H^D tells us nothing as it has no neighbours and no coupling. H^B and H^C are useful as they tell us about H^A. H^A is easily identified by its quartet coupling to the methyl group. If it has a large axial-axial coupling (about 10 Hz) to H^B we have the cis compound, but if all its couplings are small (perhaps <4 Hz) then it is the trans compound.
+The key H atoms in the NMR are those shown below. In the first compound $H^{\mathrm{D}}$ tells us nothing as it has no neighbours and no coupling. $H^{\mathrm{B}}$ and $H^{\mathrm{C}}$ are useful as they tell us about $H^{\mathrm{A}}$. $H^{\mathrm{A}}$ is easily identified by its quartet coupling to the methyl group. If it has a large axial-axial coupling (about 10 Hz) to $H^{\mathrm{B}}$ we have the cis compound, but if all its couplings are small (perhaps <4 Hz) then it is the trans compound.
 
 ![[7c9181d9cd3afd0d540ad58d8c7990f86c0e6571cc1ba9ce28842c45525b62b3.jpg]]
 
-In the second compound a difficulty emerges: there is no coupling! We can tell by symmetry whether we have the symmetrical cis,cis- or trans,trans- compounds or the non-symmetrical cis,trans- compound. The symmetrical compounds will show only one peak for the two methyl groups. But how can we tell which of the symmetrical compounds we have? If we irradiate the signal for the methyl groups, we should get a strong NOE at H^A for the trans compound and not for the all-cis compound.
+In the second compound a difficulty emerges: there is no coupling! We can tell by symmetry whether we have the symmetrical cis,cis- or trans,trans- compounds or the non-symmetrical cis,trans- compound. The symmetrical compounds will show only one peak for the two methyl groups. But how can we tell which of the symmetrical compounds we have? If we irradiate the signal for the methyl groups, we should get a strong NOE at $H^{\mathrm{A}}$ for the trans compound and not for the all-cis compound.
 
 ![[a35e0003dfde6cb71517b6220448fea163ae978b2f96c828b7bbe670d03ccbd6.jpg]]
 
@@ -58,12 +58,12 @@ unsymmetrical compound
 关键步骤：
 1. **化合物1（单甲基取代）**：
    - t-Bu必须平伏（体积大）→甲基可顺式或反式
-   - 关键信号H^A：通过与甲基的四重偶合识别
-   - **顺式**：H^A为轴向→大轴向-轴向偶合(~10 Hz)→H^B
-   - **反式**：H^A为平伏→所有偶合小(<4 Hz)
+   - 关键信号$H^{\mathrm{A}}$：通过与甲基的四重偶合识别
+   - **顺式**：$H^{\mathrm{A}}$为轴向→大轴向-轴向偶合(~10 Hz)→$H^{\mathrm{B}}$
+   - **反式**：$H^{\mathrm{A}}$为平伏→所有偶合小(<4 Hz)
 2. **化合物2（双甲基取代）**：
    - 对称性判断：两个甲基是否等价→一个峰=对称cis,cis或trans,trans；两个峰=不对称cis,trans
-   - 对称异构体区分：用NOE——照射甲基信号，trans异构体在H^A处有强NOE，all-cis没有
+   - 对称异构体区分：用NOE——照射甲基信号，trans异构体在$H^{\mathrm{A}}$处有强NOE，all-cis没有
 3. **NMR无法区分对映异构体**：NMR只能确定相对构型（哪个非对映体），不能确定绝对构型
 
 > **注意**：t-Bu作为"构象锚"——它必须占据平伏位，从而锁定环的构象，简化分析。
@@ -88,4 +88,4 @@ unsymmetrical compound
 |------|------|------|----------|
 | 试图用NMR区分对映异构体 | 混淆对映体和非对映体 | NMR在非手性条件下无法区分对映异构体 | 什么条件下可以区分对映体？ |
 | 忘记t-Bu的构象锚定作用 | 没有考虑空间位阻 | t-Bu必须平伏，这锁定了整个环的构象 | 如果没有t-Bu怎么办？ |
-| 对NOE实验设计不当 | 不理解NOE原理 | 照射甲基→观察H^A是否有响应→空间接近性判断 | NOE和J偶合的本质区别是什么？ |
+| 对NOE实验设计不当 | 不理解NOE原理 | 照射甲基→观察$H^{\mathrm{A}}$是否有响应→空间接近性判断 | NOE和J偶合的本质区别是什么？ |

@@ -29,7 +29,7 @@ source_grade: B
 
 **【原文】**The reaction below was expected to give the product A and did indeed give a compound with the correct molecular formula by its mass spectrum. However the NMR spectrum of this product was:
 
-δ_H (ppm) 1.27 (6H, s), 1.70 (4H, m), 2.88 (2H, m), 5.4–6.1 (2H, broad s, exchanges with D₂O) and 7.0–7.5 (3H, m).
+$\delta_{\mathrm{H}}$ (ppm) 1.27 (6H, s), 1.70 (4H, m), 2.88 (2H, m), 5.4–6.1 (2H, broad s, exchanges with D₂O) and 7.0–7.5 (3H, m).
 
 Though the detail is missing from this spectrum, how can you already tell that this is not the expected product?
 

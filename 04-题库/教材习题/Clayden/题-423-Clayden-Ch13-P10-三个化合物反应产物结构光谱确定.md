@@ -29,11 +29,11 @@ Suggest structures for the products of these reactions, interpreting the spectro
 
 ![[ad9697d06d09f7ec570c8f3ec15c35881d47f7a99da434151fe4b1d0a7c30621.jpg]]
 
-**Compound A**: C₁₀H₁₄O, ν_max (cm⁻¹) C–H and fingerprint only, δ_C (ppm) 153, 141, 127, 115, 59, 33, 24, δ_H (ppm) 1.21 (6H, d, J 7 Hz), 2.83 (1H, septuplet, J 7 Hz), 3.72 (3H, s), 6.74 (2H, d, J 9 Hz) and 7.18 (2H, d, J 9 Hz)
+**Compound A**: C₁₀H₁₄O, $\nu_{\mathrm{max}}$ (cm⁻¹) C–H and fingerprint only, $\delta_{\mathrm{C}}$ (ppm) 153, 141, 127, 115, 59, 33, 24, $\delta_{\mathrm{H}}$ (ppm) 1.21 (6H, d, J 7 Hz), 2.83 (1H, septuplet, J 7 Hz), 3.72 (3H, s), 6.74 (2H, d, J 9 Hz) and 7.18 (2H, d, J 9 Hz)
 
-**Compound B**: C₈H₁₄O₃, ν_max (cm⁻¹) 1745, 1730, δ_C (ppm) 202, 176, 62, 48, 34, 22, 15, δ_H (ppm) 1.21 (6H, s), 1.8 (2H, t, J 7 Hz), 2.24 (2H, t, J 7 Hz), 4.3 (3H, s) and 10.01 (1H, s)
+**Compound B**: C₈H₁₄O₃, $\nu_{\mathrm{max}}$ (cm⁻¹) 1745, 1730, $\delta_{\mathrm{C}}$ (ppm) 202, 176, 62, 48, 34, 22, 15, $\delta_{\mathrm{H}}$ (ppm) 1.21 (6H, s), 1.8 (2H, t, J 7 Hz), 2.24 (2H, t, J 7 Hz), 4.3 (3H, s) and 10.01 (1H, s)
 
-**Compound C**: C₁₄H₁₅NO₂, ν_max (cm⁻¹) 1730, δ_C (ppm) 191, 164, 132, 130, 115, 64, 41, 29, δ_H (ppm) 2.32 (6H, s), 3.05 (2H, t, J 6 Hz), 4.20 (2H, t, J 6 Hz), 6.97 (2H, d, J 7 Hz), 7.82 (2H, d, J 7 Hz) and 9.97 (1H, s)
+**Compound C**: C₁₄H₁₅NO₂, $\nu_{\mathrm{max}}$ (cm⁻¹) 1730, $\delta_{\mathrm{C}}$ (ppm) 191, 164, 132, 130, 115, 64, 41, 29, $\delta_{\mathrm{H}}$ (ppm) 2.32 (6H, s), 3.05 (2H, t, J 6 Hz), 4.20 (2H, t, J 6 Hz), 6.97 (2H, d, J 7 Hz), 7.82 (2H, d, J 7 Hz) and 9.97 (1H, s)
 
 ## 参考答案
 

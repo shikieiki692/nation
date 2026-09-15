@@ -61,7 +61,7 @@ $$K_\mathrm{b} = \frac{0.105\times 100\times 110.1}{2.220\times 1000} = 0.521\ \
 
 $$M_2 = \frac{0.521\times 2.160}{0.107\times 100/1000} = 105\ \mathrm{g/mol}$$
 
-Kb = RT_b*²M₁/ΔvapH：
+Kb = $RT_b$*²M₁/ΔvapH：
 
 $$\Delta_\mathrm{vap}H = \frac{8.314\times 373^2\times 18\times 10^{-3}}{0.521} = 40.0\ \mathrm{kJ/mol}$$
 

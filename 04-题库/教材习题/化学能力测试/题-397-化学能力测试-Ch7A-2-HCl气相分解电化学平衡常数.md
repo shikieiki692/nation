@@ -43,7 +43,7 @@ source_grade: A
 
 可逆电池 Pt, H₂(g) | HCl(aq) | Cl₂(g), Pt（303.1 K），气体与电解质溶液达成平衡。填空缺数据：
 
-| p_HCl/Torr | p_H₂=p_Cl₂/Torr | E/V |
+| $p_{\mathrm{HCl}}/\mathrm{Torr}$ | $p_{\mathrm{H_2}}$=p_Cl₂/Torr | E/V |
 |---|---|---|
 | 0.24 | 750 | 1.190 |
 | ? | ? | 1.000 |

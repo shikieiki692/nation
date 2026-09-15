@@ -50,7 +50,7 @@ Each product has an all-trans arrangement of substituents around the ring. The t
 2. **Baldwin规则判断**：
    - 四氢呋喃(THF)形成：表面看是5-exo-tet（允许），但在过渡态中亲核试剂、被进攻碳和离去基团都在同一六元环内——实际具有6-endo-tet特征（不利）
    - 氧杂环丁烷(oxetane)形成：是简单的4-exo-tet反应（允许）
-3. **立体电子效应**：THF形成需要过渡态中两条虚线呈180°（S_N2要求），但在六元环中难以满足
+3. **立体电子效应**：THF形成需要过渡态中两条虚线呈180°（$S_{\mathrm{N}}2$要求），但在六元环中难以满足
 4. **立体化学控制**：两个烯烃是非对映体关系，碘随机可逆地加到两个面，只有生成全反式产物的路径才能继续反应
 
 > **注意**：Baldwin规则不仅适用于简单关环，也适用于碘鎓离子等中间体的分子内开环。
@@ -60,7 +60,7 @@ Each product has an all-trans arrangement of substituents around the ring. The t
 | 关联 KP | 考查角度 | 直接/间接 |
 |---|---|:---:|
 | [[Baldwin规则]] | 4-exo-tet允许 vs 6-endo-tet不利的判断 | 直接 |
-| [[立体电子效应]] | S_N2过渡态要求180°反式排列的立体电子要求 | 直接 |
+| [[立体电子效应]] | $S_{\mathrm{N}}2$过渡态要求180°反式排列的立体电子要求 | 直接 |
 | [[杂环化合物]] | 氧杂环丁烷和四氢呋喃的竞争形成 | 间接 |
 
 ## 解题思路

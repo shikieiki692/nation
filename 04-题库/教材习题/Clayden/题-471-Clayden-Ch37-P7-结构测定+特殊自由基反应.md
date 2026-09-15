@@ -31,9 +31,9 @@ source_grade: B
 
 ![[c3aea0ae5a4f54497de81eff1a5be14ee6164afde4066568c16040804fea4e41.jpg]]
 
-A has IR 1640 cm⁻¹; m/z 138 (100%) and 140 (33%), δ_H (ppm) 7.1 (4H, s), 6.5 (1H, dd, J 17, 11 Hz), 5.5 (1H, dd, J 17, 2 Hz), and 5.1 (1H, dd, J 11, 2 Hz).
+A has IR 1640 cm⁻¹; m/z 138 (100%) and 140 (33%), $\delta_{\mathrm{H}}$ (ppm) 7.1 (4H, s), 6.5 (1H, dd, J 17, 11 Hz), 5.5 (1H, dd, J 17, 2 Hz), and 5.1 (1H, dd, J 11, 2 Hz).
 
-B has IR 1700 cm⁻¹; m/z 111 (45%), 113 (15%), 139 (60%), 140 (100%), 141 (20%), and 142 (33%), δ_H (ppm) 9.9 (1H, s), 7.75 (2H, d, J 9 Hz), and 7.43 (2H, d, J 9 Hz).
+B has IR 1700 cm⁻¹; m/z 111 (45%), 113 (15%), 139 (60%), 140 (100%), 141 (20%), and 142 (33%), $\delta_{\mathrm{H}}$ (ppm) 9.9 (1H, s), 7.75 (2H, d, J 9 Hz), and 7.43 (2H, d, J 9 Hz).
 
 ## 参考答案
 
@@ -41,7 +41,7 @@ B has IR 1700 cm⁻¹; m/z 111 (45%), 113 (15%), 139 (60%), 140 (100%), 141 (20%
 
 ![[3a38264465510e5a41becc0a5fb1f331d2c861877a71902db7fd198ff41679c4.jpg]]
 
-Compound B has m/z 140/142, 3:1 and a carbonyl group (at 1700 cm⁻¹) which fits C₇H₅ClO and looks like an aldehyde (δ_H 9.9). It still has the disubstituted benzene. The structure is even easier this time!
+Compound B has m/z 140/142, 3:1 and a carbonyl group (at 1700 cm⁻¹) which fits C₇H₅ClO and looks like an aldehyde ($\delta_{\mathrm{H}}$ 9.9). It still has the disubstituted benzene. The structure is even easier this time!
 
 ![[c5b5ea9e7452b41250c1b56f8db2e2ce4020069057668f8f70279f741bbd20bc.jpg]]
 

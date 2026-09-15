@@ -35,7 +35,7 @@ Assign the NMR spectra of this compound and justify your assignments. 'Assign' m
 
 ## 参考答案
 
-**Answer (English)**: There is no coupling in this proton NMR spectrum which makes it much easier. Measure the chemical shifts and estimate the number of protons in each signal from the integration: δ_H (ppm) 1.4 (6H), 1.8 (3H), 2.9 (2H) and 5.6 (1H). The peak at 7.5 is CHCl₃ impurity in the CDCl₃ solvent. This is enough to assign the spectrum.
+**Answer (English)**: There is no coupling in this proton NMR spectrum which makes it much easier. Measure the chemical shifts and estimate the number of protons in each signal from the integration: $\delta_{\mathrm{H}}$ (ppm) 1.4 (6H), 1.8 (3H), 2.9 (2H) and 5.6 (1H). The peak at 7.5 is CHCl₃ impurity in the CDCl₃ solvent. This is enough to assign the spectrum.
 
 ![[08b56d55a79402139e182b8d9d93924521380958be3a2180c8a8a70ac046b81a.jpg]]
 

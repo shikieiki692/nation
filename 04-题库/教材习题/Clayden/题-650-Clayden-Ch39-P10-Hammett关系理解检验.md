@@ -56,8 +56,8 @@ There are no 2-substituted pyridines because, like ortho-substituted benzenes, s
 Hammett 方程的核心假设是：取代基效应可以通过 σ 值定量描述，且 ρ 值对同一类反应是常数。吡啶环上的取代基效应与苯环类似，所以可以用苯环的 σ 值来拟合吡啶的酸度数据。
 
 实际操作：
-- 3-取代吡啶用 σ_m 值
-- 4-取代吡啶用 σ_p 值
+- 3-取代吡啶用 $\sigma_{\mathrm{m}}$ 值
+- 4-取代吡啶用 $\sigma_{\mathrm{p}}$ 值
 - 以 pKₐ 对 σ 作图
 
 **结果：ρ = +5.9**

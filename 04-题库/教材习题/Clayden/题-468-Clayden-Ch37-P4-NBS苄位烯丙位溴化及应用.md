@@ -47,7 +47,7 @@ All subsequent hydrogen abstractions are carried out by bromine atoms, either of
 
 ![[34ef506a5d09c7d43f8d00dc83bf81338317c2d0fc1614a70459fea724f44a12.jpg]]
 
-Finally the dibromide reacts with NaOH to give the new heterocycle. Both S_N2 displacements are very easy at a benzylic centre and the second is intramolecular.
+Finally the dibromide reacts with NaOH to give the new heterocycle. Both $S_{\mathrm{N}}2$ displacements are very easy at a benzylic centre and the second is intramolecular.
 
 ![[59fac28ea87506252af3240e6a1a161df130e6f511d6c59f35fd9ca8f0682557.jpg]]
 
@@ -58,9 +58,9 @@ Finally the dibromide reacts with NaOH to give the new heterocycle. Both S_N2 di
 2. **AIBN引发**：AIBN热分解产生氰基稳定的叔自由基，该自由基从NBS夺取Br·，开始链反应
 3. **苄位溴化**：Br·从苄位甲基夺取氢原子，产生苄基自由基（被芳环离域稳定）→ 苄基自由基与Br₂反应 → 苄基溴 + Br·（链传递）
 4. **多溴化问题**：Br·也可以从另一个甲基夺氢，产生二溴代物（副产物含1个或3个Br）
-5. **NaOH环化**：二溴代物在NaOH条件下发生两次S_N2取代——第一次是分子间取代（OH⁻进攻苄位Br），第二次是分子内环化（O⁻进攻另一个苄位Br），形成新的杂环
+5. **NaOH环化**：二溴代物在NaOH条件下发生两次$S_{\mathrm{N}}2$取代——第一次是分子间取代（OH⁻进攻苄位Br），第二次是分子内环化（O⁻进攻另一个苄位Br），形成新的杂环
 
-> **注意**：苄位的S_N2反应特别容易发生，因为过渡态中芳环可以稳定发展的正电荷。
+> **注意**：苄位的$S_{\mathrm{N}}2$反应特别容易发生，因为过渡态中芳环可以稳定发展的正电荷。
 
 ## 知识点映射
 
@@ -84,4 +84,4 @@ Finally the dibromide reacts with NaOH to give the new heterocycle. Both S_N2 di
 | 认为NBS直接提供Br⁺ | 混淆自由基和离子机理 | NBS通过自由基链提供低浓度Br₂，不是离子溴化 | NBS和Br₂在机理上有什么区别？ |
 | 在芳环上画溴化 | 忘记自由基溴化的选择性 | 自由基溴化发生在苄位/烯丙位（C-H键弱），不在芳环上 | 为什么苄位C-H比芳环C-H更容易被夺取？ |
 | 忽略多溴化副产物 | 没有考虑反应的多次发生 | 第一个Br取代后，另一个甲基也可能被溴化，产生二溴代物 | 如何控制只发生单溴化？ |
-| 环化机理写成E2消除 | 混淆取代和消除 | NaOH条件下是S_N2取代（OH⁻进攻苄位Br），不是消除 | 为什么苄位S_N2特别容易？ |
+| 环化机理写成E2消除 | 混淆取代和消除 | NaOH条件下是$S_{\mathrm{N}}2$取代（OH⁻进攻苄位Br），不是消除 | 为什么苄位$S_{\mathrm{N}}2$特别容易？ |

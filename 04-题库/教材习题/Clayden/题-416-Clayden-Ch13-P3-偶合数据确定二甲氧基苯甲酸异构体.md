@@ -25,7 +25,7 @@ source_grade: B
 
 ## 题目
 
-One isomer of dimethoxybenzoic acid has the ¹H NMR spectrum δ_H (ppm) 3.85 (6H, s), 6.63 (1H, t, J 2 Hz), and 7.17 (2H, d, J 2 Hz). One isomer of coumalic acid has the ¹H NMR spectrum δ_H (ppm) 6.41 (1H, d, J 10 Hz), 7.82 (1H, dd, J 2, 10 Hz), and 8.51 (1H, d, J 2 Hz). In each case, which isomer is it? The bonds sticking into the centre of the ring can be to any carbon atom.
+One isomer of dimethoxybenzoic acid has the ¹H NMR spectrum $\delta_{\mathrm{H}}$ (ppm) 3.85 (6H, s), 6.63 (1H, t, J 2 Hz), and 7.17 (2H, d, J 2 Hz). One isomer of coumalic acid has the ¹H NMR spectrum $\delta_{\mathrm{H}}$ (ppm) 6.41 (1H, d, J 10 Hz), 7.82 (1H, dd, J 2, 10 Hz), and 8.51 (1H, d, J 2 Hz). In each case, which isomer is it? The bonds sticking into the centre of the ring can be to any carbon atom.
 
 ![[e42a07aaabf6daa9e36c00addcc2672a9082a270613d091fea4156547597a792.jpg]]
 

@@ -25,11 +25,11 @@ source_grade: B
 
 ## 题目
 
-Heating the diazonium salt below in the presence of methyl acrylate gives a reasonable yield of a chloroacid. Why is this unlikely to be nucleophilic aromatic substitution by the S_N1 mechanism? Suggest an alternative mechanism that explains the regioselectivity.
+Heating the diazonium salt below in the presence of methyl acrylate gives a reasonable yield of a chloroacid. Why is this unlikely to be nucleophilic aromatic substitution by the $S_{\mathrm{N}}1$ mechanism? Suggest an alternative mechanism that explains the regioselectivity.
 
 ![[2108bfa5a57b10bd4f528a840dae2b1bcdff4b8d20b20624b04414f8313f8771.jpg]]
 
-**原文题目**：Heating the diazonium salt below in the presence of methyl acrylate gives a reasonable yield of a chloroacid. Why is this unlikely to be nucleophilic aromatic substitution by the S_N1 mechanism (p. 520 of the textbook)? Suggest an alternative mechanism that explains the regioselectivity.
+**原文题目**：Heating the diazonium salt below in the presence of methyl acrylate gives a reasonable yield of a chloroacid. Why is this unlikely to be nucleophilic aromatic substitution by the $S_{\mathrm{N}}1$ mechanism (p. 520 of the textbook)? Suggest an alternative mechanism that explains the regioselectivity.
 
 ## 参考答案
 
@@ -44,26 +44,26 @@ The only way to produce the observed product is to decompose the diazonium salt 
 **中文解析**：
 
 关键分析：
-1. **S_N1机理的问题**：重氮盐确实可以发生S_N1分解产生芳基阳离子，但丙烯酸甲酯是共轭烯烃（与酯基共轭），是亲电性烯烃，不会进攻芳基阳离子
+1. **$S_{\mathrm{N}}1$机理的问题**：重氮盐确实可以发生$S_{\mathrm{N}}1$分解产生芳基阳离子，但丙烯酸甲酯是共轭烯烃（与酯基共轭），是亲电性烯烃，不会进攻芳基阳离子
 2. **区域选择性矛盾**：即使烯烃能进攻芳基阳离子，根据电子效应，应该得到反向的区域选择性（与实验结果相反）
 3. **自由基机理**：重氮盐发生均裂分解（而非异裂），产生芳基自由基和Cl·自由基。Cl·自由基加成到烯烃上，产生更稳定的自由基中间体（在苄位/共轭位），然后从另一个重氮盐分子夺取Cl，完成链反应
 4. **区域选择性解释**：Cl·加到烯烃末端碳上，产生的自由基在与酯基共轭的位置（更稳定），这解释了观察到的区域选择性
 
-> **注意**：重氮盐的分解既可以是离子性的（S_N1，产生阳离子）也可以是自由基性的（均裂，产生自由基），取决于条件和底物。
+> **注意**：重氮盐的分解既可以是离子性的（$S_{\mathrm{N}}1$，产生阳离子）也可以是自由基性的（均裂，产生自由基），取决于条件和底物。
 
 ## 知识点映射
 
 | 关联 KP | 考查角度 | 直接/间接 |
 |---|---|:---:|
 | [[自由基]] | 重氮盐的均裂分解产生芳基自由基 | 直接 |
-| [[芳香亲核取代]] | S_N1机理为什么在此不适用 | 直接 |
+| [[芳香亲核取代]] | $S_{\mathrm{N}}1$机理为什么在此不适用 | 直接 |
 | [[碳正离子]] | 芳基阳离子的形成和反应性 | 间接 |
 | [[自由基加成]] | Cl·对烯烃的自由基加成及区域选择性 | 间接 |
 
 ## 解题思路
 
-1. **读题定位**：题目要求对比S_N1和自由基两种机理，解释为什么是自由基路径——关键在于烯烃的电子性质
-2. **🔑 关键转换**：识别丙烯酸甲酯是亲电性烯烃（不进攻阳离子）→ 排除S_N1 → 重氮盐均裂 → Cl·加成到烯烃 → 区域选择性由自由基稳定性决定
+1. **读题定位**：题目要求对比$S_{\mathrm{N}}1$和自由基两种机理，解释为什么是自由基路径——关键在于烯烃的电子性质
+2. **🔑 关键转换**：识别丙烯酸甲酯是亲电性烯烃（不进攻阳离子）→ 排除$S_{\mathrm{N}}1$ → 重氮盐均裂 → Cl·加成到烯烃 → 区域选择性由自由基稳定性决定
 3. **验证**：检查产物的区域选择性是否与自由基稳定性一致（更稳定的自由基中间体→正确的区域化学）
 
 ## 易错分析

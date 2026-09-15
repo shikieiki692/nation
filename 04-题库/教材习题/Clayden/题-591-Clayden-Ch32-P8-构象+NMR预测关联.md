@@ -47,7 +47,7 @@ In the first molecule, proton H has two neighbours, one axial and one equatorial
 1. **构象固定**：前两个化合物的构象没有选择余地（反式十氢化萘和特定并环结构），第三个化合物的两个官能团倾向于取平伏位
 2. **NMR偶合常数验证**：确认构象的关键是测量¹H NMR中的偶合常数（J值）
 3. **偶合模式分析**：
-   - 第一个分子：H有两个邻居（一个a一个e），表现为dd（大J_axial/axial + 小J_axial/equatorial）
+   - 第一个分子：H有两个邻居（一个a一个e），表现为dd（大$J_{\mathrm{axial/axial}}$ + 小J_axial/equatorial）
    - 第二个分子：标记的两个平伏H各有2个a和2个e邻居，所有J值相近且小，表现为窄的tt（无大偶合）
    - 第三个分子：两个轴向H各有2个a和2个e邻居，表现为tt，但其中一个三重峰有大J（轴向-轴向偶合）
 

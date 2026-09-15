@@ -26,13 +26,13 @@ source_grade: B
 
 ## 题目
 
-**【中文】**一个三环羟基酮通过双硅醚（bis silyl ether）的水解制得。进一步反应生成了一个新化合物。请解释这些反应，包括立体化学。该二烯的质子 NMR 谱为：δ_H 6.06 (1H, dd, J 10.3, 12.1)、6.23 (1H, dd, J 10.3, 14.7)、6.31 (1H, d, J 14.7) 和 7.32 (1H, d, J 12.1)。这与所给的结构相符吗？（反应式见图）
+**【中文】**一个三环羟基酮通过双硅醚（bis silyl ether）的水解制得。进一步反应生成了一个新化合物。请解释这些反应，包括立体化学。该二烯的质子 NMR 谱为：$\delta_{\mathrm{H}}$ 6.06 (1H, dd, J 10.3, 12.1)、6.23 (1H, dd, J 10.3, 14.7)、6.31 (1H, d, J 14.7) 和 7.32 (1H, d, J 12.1)。这与所给的结构相符吗？（反应式见图）
 
-**【原文】**A tricyclic hydroxyketone was made by hydrolysis of a bis silyl ether. Further reaction gave a new compound. Explain these reactions including the stereochemistry. The diene has the proton NMR spectrum: δ_H 6.06 (1H, dd, J 10.3, 12.1), 6.23 (1H, dd, J 10.3, 14.7), 6.31 (1H, d, J 14.7), and 7.32 (1H, d, J 12.1). Does this agree with the structure given?
+**【原文】**A tricyclic hydroxyketone was made by hydrolysis of a bis silyl ether. Further reaction gave a new compound. Explain these reactions including the stereochemistry. The diene has the proton NMR spectrum: $\delta_{\mathrm{H}}$ 6.06 (1H, dd, J 10.3, 12.1), 6.23 (1H, dd, J 10.3, 14.7), 6.31 (1H, d, J 14.7), and 7.32 (1H, d, J 12.1). Does this agree with the structure given?
 
 ![[df63e8977234813ab6682cb8008f0f9cfba2fd087bc04ba37fe8611701b1c05b.jpg]]
 
-**原文题目**：A tricyclic hydroxyketone was made by hydrolysis of a bis silyl ether. Further reaction gave a new compound. Explain these reactions including the stereochemistry. The diene has the proton NMR spectrum: δ_H 6.06 (1H, dd, J 10.3, 12.1), 6.23 (1H, dd, J 10.3, 14.7), 6.31 (1H, d, J 14.7), and 7.32 (1H, d, J 12.1). Does this agree with the structure given?
+**原文题目**：A tricyclic hydroxyketone was made by hydrolysis of a bis silyl ether. Further reaction gave a new compound. Explain these reactions including the stereochemistry. The diene has the proton NMR spectrum: $\delta_{\mathrm{H}}$ 6.06 (1H, dd, J 10.3, 12.1), 6.23 (1H, dd, J 10.3, 14.7), 6.31 (1H, d, J 14.7), and 7.32 (1H, d, J 12.1). Does this agree with the structure given?
 
 ## 参考答案
 
@@ -109,10 +109,10 @@ The NMR spectrum clearly shows that the E,E-diene is formed. The coupling consta
 这是判断产物立体化学的关键证据：
 
 **偶合常数解读**：
-- δ_H 6.06 (1H, dd, J 10.3, 12.1) → 中间烯烃H
-- δ_H 6.23 (1H, dd, J 10.3, 14.7) → 中间烯烃H
-- δ_H 6.31 (1H, d, J 14.7) → 终端烯烃H
-- δ_H 7.32 (1H, d, J 12.1) → 终端烯烃H
+- $\delta_{\mathrm{H}}$ 6.06 (1H, dd, J 10.3, 12.1) → 中间烯烃H
+- $\delta_{\mathrm{H}}$ 6.23 (1H, dd, J 10.3, 14.7) → 中间烯烃H
+- $\delta_{\mathrm{H}}$ 6.31 (1H, d, J 14.7) → 终端烯烃H
+- $\delta_{\mathrm{H}}$ 7.32 (1H, d, J 12.1) → 终端烯烃H
 
 **偶合常数的立体化学意义**：
 - J = 14.7 Hz → 明确的反式（trans）偶合

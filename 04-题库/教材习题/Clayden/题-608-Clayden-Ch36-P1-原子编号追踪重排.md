@@ -44,7 +44,7 @@ Rearrangements by numbers: just draw a mechanism for each reaction.
 
 ![[4499906e3cc232a225bf0438da0259bf08a77b9494bbcef275ee9fea544ce5da.jpg]]
 
-The second reaction is even easier to work out. Atoms 2 and 3 are easy to find and they identify 1 and 4 in the product. As the compounds are acetals we must use oxonium ions and not S_N2 reactions.
+The second reaction is even easier to work out. Atoms 2 and 3 are easy to find and they identify 1 and 4 in the product. As the compounds are acetals we must use oxonium ions and not $S_{\mathrm{N}}2$ reactions.
 
 ![[61afe9e1fc4621278a5e100acdd2c863097e7f302f2c94104d953f4be205b3dd.jpg]]
 
@@ -58,7 +58,7 @@ The third reaction involves a cyclization. Atoms 1 and 7 clearly make the new bo
 
 关键方法——**原子编号法**：
 1. **第一个反应（OBO保护基制备）**：Lewis酸络合氧原子后，所有起始物料的原子都保留在产物中。给原子编号（任意），追踪产物中各原子的位置。注意虚线标示新键形成和旧键断裂的位置。存在多种合理的机理。
-2. **第二个反应（缩醛重排）**：原子2和3容易在产物中找到，由此确定1和4。因为底物是缩醛，必须用氧鎓离子而非S_N2反应。BF₃的失去和最后一个中间体的旋转得到产物。
+2. **第二个反应（缩醛重排）**：原子2和3容易在产物中找到，由此确定1和4。因为底物是缩醛，必须用氧鎓离子而非$S_{\mathrm{N}}2$反应。BF₃的失去和最后一个中间体的旋转得到产物。
 3. **第三个反应（锌介导环化）**：原子1和7形成新键，溴消失，烯烃从7/8位移到8/9位。锌氧化插入C-Br键，有机金属化合物的亲核性驱动后续反应。
 
 > **核心技巧**：重排反应中，任意给反应物原子编号，追踪它们在产物中的位置，是理解重排最可靠的方法。
@@ -83,5 +83,5 @@ The third reaction involves a cyclization. Atoms 1 and 7 clearly make the new bo
 | 错误 | 原因 | 纠正 | 课堂提问 |
 |------|------|------|----------|
 | 编号时遗漏原子 | 没有系统地从一端编到另一端 | 按碳链/环的顺序系统编号，确保每个原子都有编号 | 如何确认产物中的某个碳来自反应物的哪个位置？ |
-| 第二个反应用S_N2机理 | 忽略了缩醛是sp³碳上的取代 | 缩醛反应必须经氧鎓离子（SN1-like），不能直接S_N2 | 为什么缩醛的水解不走S_N2路径？ |
+| 第二个反应用$S_{\mathrm{N}}2$机理 | 忽略了缩醛是sp³碳上的取代 | 缩醛反应必须经氧鎓离子（SN1-like），不能直接$S_{\mathrm{N}}2$ | 为什么缩醛的水解不走$S_{\mathrm{N}}2$路径？ |
 | 第三个反应忘记锌的氧化插入 | 不熟悉有机锌化学 | Zn插入C-Br键使碳变为亲核性（R-ZnBr），再环化 | 锌在插入前后氧化态如何变化？ |

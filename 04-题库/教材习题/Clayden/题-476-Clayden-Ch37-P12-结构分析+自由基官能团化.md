@@ -25,11 +25,11 @@ source_grade: B
 
 ## 题目
 
-Reaction of this carboxylic acid (C₅H₈O₂) with bromine in the presence of dibenzoyl peroxide gives an unstable compound A (C₅H₆Br₂O₂) that gives a stable compound B (C₅H₅BrO₂) on treatment with base. Compound B has IR 1735 and 1645 cm⁻¹ and NMR δ_H 6.18 (1H, s), 5.00 (2H, s) and 4.18 (2H, s). What is the structure of the stable product B? Deduce the structure of the unstable compound A and mechanisms for the reactions.
+Reaction of this carboxylic acid (C₅H₈O₂) with bromine in the presence of dibenzoyl peroxide gives an unstable compound A (C₅H₆Br₂O₂) that gives a stable compound B (C₅H₅BrO₂) on treatment with base. Compound B has IR 1735 and 1645 cm⁻¹ and NMR $\delta_{\mathrm{H}}$ 6.18 (1H, s), 5.00 (2H, s) and 4.18 (2H, s). What is the structure of the stable product B? Deduce the structure of the unstable compound A and mechanisms for the reactions.
 
 CO₂H → [Br₂/(PhCO₂)₂] A → base B
 
-**原文题目**：Reaction of this carboxylic acid (C₅H₈O₂) with bromine in the presence of dibenzoyl peroxide gives an unstable compound A (C₅H₆Br₂O₂) that gives a stable compound B (C₅H₅BrO₂) on treatment with base. Compound B has IR 1735 and 1645 cm⁻¹ and NMR δ_H 6.18 (1H, s), 5.00 (2H, s) and 4.18 (2H, s). What is the structure of the stable product B? Deduce the structure of the unstable compound A and mechanisms for the reactions.
+**原文题目**：Reaction of this carboxylic acid (C₅H₈O₂) with bromine in the presence of dibenzoyl peroxide gives an unstable compound A (C₅H₆Br₂O₂) that gives a stable compound B (C₅H₅BrO₂) on treatment with base. Compound B has IR 1735 and 1645 cm⁻¹ and NMR $\delta_{\mathrm{H}}$ 6.18 (1H, s), 5.00 (2H, s) and 4.18 (2H, s). What is the structure of the stable product B? Deduce the structure of the unstable compound A and mechanisms for the reactions.
 
 ## 参考答案
 
@@ -57,9 +57,9 @@ Since both methyl groups are functionalized, unstable A must have one Br on each
 
 **机理**：
 1. **自由基溴化**：过氧化苯甲酰产生苯甲酰氧自由基 → 从两个烯丙位甲基夺氢 → 产生两个烯丙基自由基 → 与Br₂反应 → 二溴代物A
-2. **碱性环化**：碱去质子化CO₂H → CO₂⁻ → 进攻顺式的CH₂Br → S_N2环化 → 五元内酯环 + Br⁻
+2. **碱性环化**：碱去质子化CO₂H → CO₂⁻ → 进攻顺式的CH₂Br → $S_{\mathrm{N}}2$环化 → 五元内酯环 + Br⁻
 
-> **注意**：这个例子展示了自由基官能团化（溴化）与离子环化（S_N2）的组合应用。
+> **注意**：这个例子展示了自由基官能团化（溴化）与离子环化（$S_{\mathrm{N}}2$）的组合应用。
 
 ## 知识点映射
 
@@ -68,7 +68,7 @@ Since both methyl groups are functionalized, unstable A must have one Br on each
 | [[自由基]] | 过氧化物引发的自由基烯丙位溴化 | 直接 |
 | [[波谱分析]] | 通过IR和NMR推断产物结构 | 直接 |
 | [[结构鉴定]] | DBE计算、官能团识别、耦合模式分析 | 间接 |
-| 内酯化 | 羧酸根的分子内S_N2环化 | 间接 |
+| 内酯化 | 羧酸根的分子内$S_{\mathrm{N}}2$环化 | 间接 |
 
 ## 解题思路
 

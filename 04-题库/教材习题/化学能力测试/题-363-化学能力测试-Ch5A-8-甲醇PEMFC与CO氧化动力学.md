@@ -70,7 +70,7 @@ source_grade: A
 
 $$\mathrm{CO(g) + \tfrac{1}{2}O_2(g) \longrightarrow CO_2(g)}$$
 
-| p_CO/$p^{\theta}$ | p_O₂/$p^{\theta}$ | r_CO/(分子数·Ru 位⁻¹ s⁻¹) | p_CO/$p^{\theta}$ | p_O₂/$p^{\theta}$ | r_CO |
+| p_CO/$p^{\theta}$ | p_O₂/$p^{\theta}$ | r_CO/(分子数·Ru 位⁻¹ s⁻¹) | p_CO/$p^{\theta}$ | p_O₂/$p^{\theta}$ | $r_{\mathrm{CO}}$ |
 |---|---|---|---|---|---|
 | 0.005 | 0.01 | 20.5 | 0.01 | 0.010 | 7 |
 | 0.010 | 0.01 | 7.0 | 0.01 | 0.070 | 50 |

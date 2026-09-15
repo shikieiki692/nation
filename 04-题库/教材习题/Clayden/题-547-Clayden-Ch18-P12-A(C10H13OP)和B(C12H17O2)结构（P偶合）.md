@@ -50,7 +50,7 @@ C₁₂H₁₇O₂, IR (cm⁻¹) C-H and fingerprint only;
 
 ## 参考答案
 
-**Answer (English)**: The coupling constants ³J_PH across the alkene are very large. Typically cis ³J_PH is about 20 and trans ³J_PH about 40. Geminal (²J_PH) are also large but more variable. In B there is a stereogenic centre, meaning that the hydrogen atoms and methyl groups in the ring are different: they are either on the same side as MeO or the same side as Ph. (The term we will introduce in chapter 31 to describe such groups is 'diastereotopic'.) We cannot say which H gives which signal.
+**Answer (English)**: The coupling constants ³$J_{\mathrm{PH}}$ across the alkene are very large. Typically cis ³$J_{\mathrm{PH}}$ is about 20 and trans ³$J_{\mathrm{PH}}$ about 40. Geminal (²$J_{\mathrm{PH}}$) are also large but more variable. In B there is a stereogenic centre, meaning that the hydrogen atoms and methyl groups in the ring are different: they are either on the same side as MeO or the same side as Ph. (The term we will introduce in chapter 31 to describe such groups is 'diastereotopic'.) We cannot say which H gives which signal.
 
 ![[654d7b9c32ec6c866e8fcbd64f242a8ef326b7b0ff903df904101022e8302bd4.jpg]]
 
@@ -64,10 +64,10 @@ C₁₂H₁₇O₂, IR (cm⁻¹) C-H and fingerprint only;
 2. **IR 分析**：1610 cm⁻¹ → C=C（共轭烯）；1235 cm⁻¹ → P=O 或 P-O
 3. **¹H NMR 分析**：
    - δ 6.5-7.5 (5H, m)：单取代苯环
-   - δ 7.47 (1H, dd, J=17, 23 Hz)：烯氢，与 P 偶合（²J_PH ≈ 23 Hz）和与另一个烯氢偶合（³J_HH ≈ 17 Hz）
-   - δ 6.42 (1H, t, J=17 Hz)：另一个烯氢，与相邻烯氢偶合（³J_HH ≈ 17 Hz），t 峰说明还与 P 偶合
-   - δ 2.43 (6H, d, J=25 Hz)：两个等价甲基，与 P 偶合（²J_PH = 25 Hz）→ PMe₂ 基团
-4. **³J_PH 偶合常数**：跨越双键的 P-H 偶合很大（cis ~20, trans ~40 Hz），可用于判断烯烃构型
+   - δ 7.47 (1H, dd, J=17, 23 Hz)：烯氢，与 P 偶合（²$J_{\mathrm{PH}}$ ≈ 23 Hz）和与另一个烯氢偶合（³$J_{\mathrm{HH}}$ ≈ 17 Hz）
+   - δ 6.42 (1H, t, J=17 Hz)：另一个烯氢，与相邻烯氢偶合（³$J_{\mathrm{HH}}$ ≈ 17 Hz），t 峰说明还与 P 偶合
+   - δ 2.43 (6H, d, J=25 Hz)：两个等价甲基，与 P 偶合（²$J_{\mathrm{PH}}$ = 25 Hz）→ PMe₂ 基团
+4. **³$J_{\mathrm{PH}}$ 偶合常数**：跨越双键的 P-H 偶合很大（cis ~20, trans ~40 Hz），可用于判断烯烃构型
 5. **结论**：A 为含 PMe₂ 基团的烯基膦氧化物
 
 **化合物 B（C₁₂H₁₇O₂）：**
@@ -78,7 +78,7 @@ C₁₂H₁₇O₂, IR (cm⁻¹) C-H and fingerprint only;
    - δ 4.28 + 3.91 (各 1H, d, J=4.8 Hz)：两个氢互为偶合，化学位移不同 → 手性中心邻近的非对映异位 CH₂（如环上的 CH₂）
    - δ 2.96 (3H, s)：甲氧基（OMe）
    - δ 1.26 (3H, s) + 0.76 (3H, s)：两个不等价甲基
-3. **非对映异位性**：B 中有手性中心，使环上 CH₂ 的两个氢化学不等价（diastereotopic），产生两个 d 峰（J=4.8 Hz 为同碳偶合 ²J_HH）
+3. **非对映异位性**：B 中有手性中心，使环上 CH₂ 的两个氢化学不等价（diastereotopic），产生两个 d 峰（J=4.8 Hz 为同碳偶合 ²$J_{\mathrm{HH}}$）
 4. **结论**：B 为含苯环、甲氧基和环丙烷/环丁烷的环状醚类化合物
 
 ## 知识点映射
@@ -86,20 +86,20 @@ C₁₂H₁₇O₂, IR (cm⁻¹) C-H and fingerprint only;
 | 关联 KP | 考查角度 | 直接/间接 |
 |---|---|:---:|
 | [[波谱综合解析]] | 含杂原子（P）的化合物结构推断 | 直接 |
-| [[NMR谱学]] | ³J_PH 偶合常数判断烯烃构型；非对映异位质子识别 | 直接 |
+| [[NMR谱学]] | ³$J_{\mathrm{PH}}$ 偶合常数判断烯烃构型；非对映异位质子识别 | 直接 |
 | [[13C NMR]] | P-C 偶合对 ¹³C 谱的影响 | 间接 |
 | 有机磷化学 | 膦氧化物的 ¹H NMR 特征（PMe₂ 的 d 峰） | 间接 |
 
 ## 解题思路
 
 1. **读题定位**：A 含 P → 必须考虑 P-H 偶合；B 的两个 d 峰（J=4.8 Hz）异常 → 非对映异位质子
-2. **🔑 关键转换**：A 中 δ 2.43 (6H, d, J=25 Hz) → PMe₂ 基团（²J_PH 特征）；烯氢的 dd 和 t 峰 → P-H 跨双键偶合；B 中 4.28/3.91 两个 d 峰 → 手性中心使 CH₂ 不等价
-3. **验证**：A 的 ³J_PH 值符合文献范围（cis ~20, trans ~40 Hz）；B 的非对映异位性在有手性中心的环状结构中合理
+2. **🔑 关键转换**：A 中 δ 2.43 (6H, d, J=25 Hz) → PMe₂ 基团（²$J_{\mathrm{PH}}$ 特征）；烯氢的 dd 和 t 峰 → P-H 跨双键偶合；B 中 4.28/3.91 两个 d 峰 → 手性中心使 CH₂ 不等价
+3. **验证**：A 的 ³$J_{\mathrm{PH}}$ 值符合文献范围（cis ~20, trans ~40 Hz）；B 的非对映异位性在有手性中心的环状结构中合理
 
 ## 易错分析
 
 | 错误 | 原因 | 纠正 | 课堂提问 |
 |------|------|------|----------|
-| 将 A 中 δ 2.43 的 d 峰归属为普通 CH₃ | 未识别 P-H 偶合 | J=25 Hz 远大于 ³J_HH，只能是 ²J_PH；PMe₂ 基团的两个甲基等价 | 如果 PMe₂ 的两个甲基不等价，NMR 会如何表现？ |
-| 误判 B 中两个 d 峰为不同 CH 基团 | 未考虑非对映异位性 | 两个 d 峰（J=4.8 Hz）是同碳偶合（²J_HH），来自手性中心邻近的不等价 CH₂ | 什么条件下 CH₂ 的两个氢会变得不等价？ |
+| 将 A 中 δ 2.43 的 d 峰归属为普通 CH₃ | 未识别 P-H 偶合 | J=25 Hz 远大于 ³$J_{\mathrm{HH}}$，只能是 ²$J_{\mathrm{PH}}$；PMe₂ 基团的两个甲基等价 | 如果 PMe₂ 的两个甲基不等价，NMR 会如何表现？ |
+| 误判 B 中两个 d 峰为不同 CH 基团 | 未考虑非对映异位性 | 两个 d 峰（J=4.8 Hz）是同碳偶合（²$J_{\mathrm{HH}}$），来自手性中心邻近的不等价 CH₂ | 什么条件下 CH₂ 的两个氢会变得不等价？ |
 | 忽略 P 原子对 ¹H NMR 的影响 | 不熟悉 ³¹P 的自旋偶合 | ³¹P（I=1/2）会与邻近 ¹H 产生偶合，使信号分裂为 d/t/dd 等 | 除了 ¹H NMR，P 还会影响哪些谱图？ |

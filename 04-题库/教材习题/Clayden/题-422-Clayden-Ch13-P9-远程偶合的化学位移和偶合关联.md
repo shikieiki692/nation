@@ -31,7 +31,7 @@ source_grade: B
 
 ## 参考答案
 
-**Answer (English)**: The ethyl group is easy to find — a typical 3H triplet at 1.2 ppm and a 2H quartet at 4.3 ppm. The large shift of the CH₂ group tells us it is next to O. The methyl group is also easy — a 3H singlet at 2.3 ppm, typical of a methyl group on an alkene. At the other end of the spectrum, the broad singlet at 12.5 ppm can only be the OH or the NH; the other is at 5.4 ppm. That leaves the three signals in the aromatic region: δ_H (ppm) 7.2 (1H, dd, J 9, 2 Hz), 7.5 (1H, d, J 9 Hz), and 8.4 (1H, d, J 2 Hz). The larger coupling is typical ortho and the small coupling typically meta:
+**Answer (English)**: The ethyl group is easy to find — a typical 3H triplet at 1.2 ppm and a 2H quartet at 4.3 ppm. The large shift of the CH₂ group tells us it is next to O. The methyl group is also easy — a 3H singlet at 2.3 ppm, typical of a methyl group on an alkene. At the other end of the spectrum, the broad singlet at 12.5 ppm can only be the OH or the NH; the other is at 5.4 ppm. That leaves the three signals in the aromatic region: $\delta_{\mathrm{H}}$ (ppm) 7.2 (1H, dd, J 9, 2 Hz), 7.5 (1H, d, J 9 Hz), and 8.4 (1H, d, J 2 Hz). The larger coupling is typical ortho and the small coupling typically meta:
 
 ![[231586cb92bd0926f59d492aea623d6f868dd0b0280ce9d9b132a0717d525b2f.jpg]]
 

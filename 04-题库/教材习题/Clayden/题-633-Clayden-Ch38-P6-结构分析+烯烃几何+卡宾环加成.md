@@ -25,7 +25,7 @@ source_grade: B
 
 ## 题目
 
-Decomposition of this diazo compound in methanol gives an alkene A (C₈H₁₄O) whose NMR spectrum contains two signals in the alkene region: δ_H 3.50 (3H, s), 5.50 (1H, dd, J 17.9, 7.9), 5.80 (1H, ddd, J 17.9, 9.2, and 4.3), 4.20 (1H, m) and 1.3–2.7 (8H, m). What is its structure and geometry?
+Decomposition of this diazo compound in methanol gives an alkene A (C₈H₁₄O) whose NMR spectrum contains two signals in the alkene region: $\delta_{\mathrm{H}}$ 3.50 (3H, s), 5.50 (1H, dd, J 17.9, 7.9), 5.80 (1H, ddd, J 17.9, 9.2, and 4.3), 4.20 (1H, m) and 1.3–2.7 (8H, m). What is its structure and geometry?
 
 ![[be19e68495e7a96099da12da35aa07df8555c0c0bef843fe545a8a5727b32ed2.jpg]]
 
@@ -37,7 +37,7 @@ When you have done that, suggest a mechanism for the reaction using this extra i
 
 ## 参考答案
 
-**Answer (English)**: The starting material is C₇H₁₀N₂ so it has lost nitrogen and gained CH₄O—one molecule of methanol. We can see the MeO group at δ_H 3.50 and the four CH₂ groups in the ring are still there (8H m at 1.3–2.7). All that is left is a multiplet at δ_H 4.2, obviously next to OMe, and a pair of alkene protons at δ_H 5.5 and 5.8, coupled with J 17.9—obviously a trans alkene.
+**Answer (English)**: The starting material is C₇H₁₀N₂ so it has lost nitrogen and gained CH₄O—one molecule of methanol. We can see the MeO group at $\delta_{\mathrm{H}}$ 3.50 and the four CH₂ groups in the ring are still there (8H m at 1.3–2.7). All that is left is a multiplet at $\delta_{\mathrm{H}}$ 4.2, obviously next to OMe, and a pair of alkene protons at $\delta_{\mathrm{H}}$ 5.5 and 5.8, coupled with J 17.9—obviously a trans alkene.
 
 ![[08289d37f00837f02a9077209c42f380c31028641026d960d739ad3e629f8dd2.jpg]]
 
@@ -60,7 +60,7 @@ The twisted alkene is unstable and rotates to the much more stable cis alkene ev
 **中文解析**：
 
 关键步骤：
-1. **结构解析**：通过NMR数据推导产物A的结构——δ_H 3.50为OMe单峰，δ_H 5.5和5.8为反式烯烃（J=17.9 Hz），δ_H 4.2为与OMe相连的CH，1.3-2.7为四个CH₂
+1. **结构解析**：通过NMR数据推导产物A的结构——$\delta_{\mathrm{H}}$ 3.50为OMe单峰，$\delta_{\mathrm{H}}$ 5.5和5.8为反式烯烃（J=17.9 Hz），$\delta_{\mathrm{H}}$ 4.2为与OMe相连的CH，1.3-2.7为四个CH₂
 2. **卡宾生成与重排**：重氮化合物分解失去N₂生成卡宾，通过周环过程形成联烯（allene），两个烯烃互相垂直（90°）
 3. **质子化与MeOH捕获**：联烯质子化生成反式烯烃碳正离子，被MeOH捕获得到A
 4. **不稳定反式环烯烃**：A是反式环庚烯，因p轨道不平行导致π键重叠弱，在20°C即可异构化为顺式B

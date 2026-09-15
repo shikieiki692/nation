@@ -47,11 +47,11 @@ The NMR spectra of sodium fluoropyruvate in D₂O are given below. Are these dat
 
 1. **¹H NMR 验证**：δH 4.43 (2H, d, J = 47 Hz)
    - 化学位移估算：1.5（基准 CH₂）+ 1.0（邻 C=O）+ 2.0（邻 F）≈ 4.5 ppm → 与实测 4.43 吻合
-   - J = 47 Hz：典型的 ²J_HF（H-C-F 直接偶合，非常大）→ 确认 CH₂F 基团
+   - J = 47 Hz：典型的 ²$J_{\mathrm{HF}}$（H-C-F 直接偶合，非常大）→ 确认 CH₂F 基团
 
 2. **¹³C NMR 分析**：
    - δC 176.1 (d, J = 2 Hz) → 羧酸根 CO₂⁻ 碳（距离 F 远，偶合小）→ 正常
-   - δC 86.1 (d, J = 171 Hz) → 直接连 F 的碳（¹J_CF 极大）→ 正常
+   - δC 86.1 (d, J = 171 Hz) → 直接连 F 的碳（¹$J_{\mathrm{CF}}$ 极大）→ 正常
    - **δC 83.5 (d, J = 22 Hz)** → 问题所在！这应该是 C=O 碳（酮羰基），预期位移 ~200 ppm，但实际只有 83.5 ppm
 
 3. **关键发现**：δC 83.5 远低于酮羰基的预期值（~200 ppm），而接近 sp³ 碳的位移范围 → 该碳不是 C=O，而是水合形式（gem-diol）：–C(OH)₂–
@@ -71,7 +71,7 @@ The NMR spectra of sodium fluoropyruvate in D₂O are given below. Are these dat
 
 1. **读题定位**：题目问"数据是否与结构匹配"——暗示可能不匹配，需要找出矛盾
 2. **🔑 关键转换**：逐一验证各信号——¹H NMR 和两个 ¹³C 信号都合理，但第三个 ¹³C 信号 (83.5 ppm) 远低于酮 C=O 的预期 (~200 ppm) → 该碳已不是 sp² 碳 → 水合！
-3. **验证**：偕二醇的碳在 80–90 ppm 范围，偶合常数 J = 22 Hz 对应 ²J_CF（与 F 隔两个键），完全合理
+3. **验证**：偕二醇的碳在 80–90 ppm 范围，偶合常数 J = 22 Hz 对应 ²$J_{\mathrm{CF}}$（与 F 隔两个键），完全合理
 
 ## 易错分析
 
