@@ -15,6 +15,7 @@
 - 批量改 md：`open(newline="")`；断言行数；改前快照＋改后逐行 diff；同文件多处 Edit 串行。
 - **踩坑**：① bash 内联 python 会吃 `\$`/反引号 → **含正则脚本必须 Write 成 .py 再跑**；② heredoc 非 ASCII 会 mojibake；③ `printf` 路径 `\04` 被当八进制 → 清单一律用 Write/python 写盘；④ **自写校验脚本必须先自证**：md 读入保留 CRLF 时 `split("\n---\n")` 切不开 frontmatter（会把 FM 的 `[[…]]` 误报成正文污染，应用 `re.match(r"^---\r?\n.*?\r?\n---\r?\n", …, re.S)`）；`xml.count("w:tblBorders")` 会同时命中开闭标签（7 变 14），应数 `<w:tblBorders>`。**报告「❌」前先怀疑脚本**。
 - **git**：只 add 本会话文件；**禁 add→commit 一条龙**（commit 前核 `git diff --cached --name-only | wc -l`）；同步核对用 `git ls-remote origin master`（本仓库 tracking ref 会被沙箱吞，不可信）。
+- **⚠️ 共享日志无法按行隔离**：`.workbuddy/memory/YYYY-MM-DD.md` 多会话并发追加，`git add` 整文件必连他会话**未提交小节**一起提交（09-15 实测：本会话追加 12 行，该笔却达 109 行，含他会话「续8」约 80 行）。**提交前先 `git diff --numstat` 比对增量**，超出自写量即知混入；无法只提自己的行时，**如实说明**，不假称"只提了本会话文件"。
 
 ## 三、红区、协作纪律与题库字段口径
 - **红区**：`04-题库/`、`05-真题库/`、`_归档/` 严禁触碰（除显式授权）；**不动并行会话的未跟踪文件**；改完即 commit（收口文件单独提交，全部收敛后再 push）。
