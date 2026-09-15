@@ -14,8 +14,11 @@ BODY = r"A-Za-z0-9()+\-−·/_%"
 FIRSTCH = r"0-9A-Za-z()+\-−·θφλμνσπσΣΔΩ°½¼¾′″" + SUB_UNI + SUP_UNI
 # 2026-09-15：基底补希腊字母（同 scan_bare5.py，修 ρ_A / Δ_fH 等漏检）
 GREEK = r"\u0370-\u03FF\u1F00-\u1FFF"
+# 2026-09-15(b)：基底允许一个尾随括号组（同 scan_bare5.py，修 c(C2H6)^(1/2) 漏检）
+BASE = (r"[" + GREEK + r"A-Za-z][" + GREEK + r"A-Za-z0-9]{0,14}"
+        r"(?:\([A-Za-z0-9]{1,8}\))?")
 PAT = re.compile(r"(?<![\\$A-Za-z0-9" + GREEK + r"])"
-                 r"([" + GREEK + r"A-Za-z][" + GREEK + r"A-Za-z0-9]{0,14})"
+                 r"(" + BASE + r")"
                  r"([_^])(["
                  + FIRSTCH + r"][" + BODY + SUB_UNI + SUP_UNI + r"]{0,10})")
 MEDIA_EXT = re.compile(r'\.(?:jpe?g|png|gif|webp|svg|bmp|tiff?|pdf|md|docx?|xlsx?|zip)(?:$|[|\])\s])', re.I)

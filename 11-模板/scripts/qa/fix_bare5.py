@@ -28,8 +28,10 @@ SUP_UNI = "⁰-⁹⁺⁻⁼⁽⁾ⁿ"
 BODY = r"A-Za-z0-9()+\-−·/_%"
 FIRSTCH = r"0-9A-Za-z()+\-−·θφλμνσπσΣΔΩ°½¼¾′″" + SUB_UNI + SUP_UNI
 GREEK = r"\u0370-\u03FF\u1F00-\u1FFF"
+BASE = (r"[" + GREEK + r"A-Za-z][" + GREEK + r"A-Za-z0-9]{0,14}"
+        r"(?:\([A-Za-z0-9]{1,8}\))?")
 PAT = re.compile(r"(?<![\\$A-Za-z0-9" + GREEK + r"])"
-                 r"([" + GREEK + r"A-Za-z][" + GREEK + r"A-Za-z0-9]{0,14})"
+                 r"(" + BASE + r")"
                  r"([_^])(["
                  + FIRSTCH + r"][" + BODY + SUB_UNI + SUP_UNI + r"]{0,10})")
 MEDIA_EXT = re.compile(r'\.(?:jpe?g|png|gif|webp|svg|bmp|tiff?|pdf|md|docx?|xlsx?|zip)(?:$|[|\])\s])', re.I)
@@ -181,6 +183,28 @@ MAP = {
     "ρ_H₂": r"$\rho_{\mathrm{H_2}}$",
     "ρ_A/": r"$\rho_{\mathrm{A}}$/",   # 斜杠留在 math 外，避免与后一个 $…$ 拼出 $$（会被 pandoc 当 display math）
     "ρ_B": r"$\rho_{\mathrm{B}}$",
+    # ── 组3 一节（2026-09-15 用户点头落盘：纯格式、无化学歧义）
+    "c_O−M": r"$c_{\mathrm{O-M}}$",
+    "c_NO−M": r"$c_{\mathrm{NO-M}}$",
+    "c_NO·": r"$c_{\mathrm{NO}}$·",
+    "c_O₂^½": r"$c_{\mathrm{O_2}}^{1/2}$",
+    "K^½)": r"$K^{1/2})$",
+    "K^½": r"$K^{1/2}$",
+    "c_KOH/mol·dm⁻³": r"$c_{\mathrm{KOH}}/\mathrm{mol\cdot dm^{-3}}$",
+    "p_Cl₂/Torr": r"$p_{\mathrm{Cl_2}}/\mathrm{Torr}$",
+    "Ad_E": r"$Ad_E$",
+    "N^N": r"$N^{\mathrm{N}}$",
+    "ρN_A": r"$\rho N_{\mathrm{A}}$",
+    "xUCl_a": r"$x\mathrm{UCl}_a$",
+    "e^(−λ₁t)": r"$e^{-\lambda_1 t}$",
+    "e^(−λ₂t)": r"$e^{-\lambda_2 t}$",
+    "e^(−λt)": r"$e^{-\lambda t}$",
+    # 讲义图注（热力学循环 / 判据精度）
+    "M^(n-1)+": r"$M^{(n-1)+}$",
+    "ML^(n-1)+": r"$\mathrm{ML}^{(n-1)+}$",
+    "M^n+": r"$M^{n+}$",
+    "ML^n+": r"$\mathrm{ML}^{n+}$",
+    "e^-": r"$e^{-}$",
 }
 
 
@@ -225,8 +249,17 @@ def process_file(path, apply):
         for mo in PAT.finditer(m):
             a, b = mo.start(), mo.end()
             tokn = raw[a:b]
-            # 组3 跳闸：后紧跟 ^/_ → X_a^b 组合，须人工定夺
+            # X_a^b 组合（如 c_O₂^½）：PAT 只吃到 X_a，这里把紧随的 _…/^… 一并吞入再查表；
+            # 表里没有 → 跳过，留给组3 人工定夺
             if b < len(raw) and raw[b] in "^_":
+                m2 = re.match(r"[_^]([" + FIRSTCH + r"][" + BODY + SUB_UNI + SUP_UNI + r"]{0,10})",
+                              raw[b:])
+                if m2:
+                    ext = raw[a:b + m2.end()]
+                    if ext in MAP and not is_pathish(raw, a, b + m2.end()):
+                        reps.append((a, b + m2.end(), ext))
+                        applied[ext] += 1
+                        continue
                 if not is_pathish(raw, a, b):
                     skipped[tokn] += 1
                     skip_lines.append((idx, tokn, raw))
