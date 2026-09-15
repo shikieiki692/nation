@@ -20,7 +20,12 @@ SUB_UNI = "₀-₉₊₋₌₍₎ₐₑₒₓₔₕₖₗₘₙₚₛₜⁿ"
 SUP_UNI = "⁰-⁹⁺⁻⁼⁽⁾ⁿ"
 BODY = r"A-Za-z0-9()+\-−·/_%"
 FIRSTCH = r"0-9A-Za-z()+\-−·θφλμνσπσΣΔΩ°½¼¾′″" + SUB_UNI + SUP_UNI
-PAT = re.compile(r"(?<![\\$A-Za-z0-9])([A-Za-z][A-Za-z0-9]{0,14})([_^])(["
+# 2026-09-15：基底补希腊字母 —— 原先只认 [A-Za-z]，导致 ρ_A / Δ_fH / φ_x 等全漏检
+# （实证：教案 L227 的 ρ_A/ρ_B 未被命中，同句 M_A/M_B 被命中）
+GREEK = r"\u0370-\u03FF\u1F00-\u1FFF"
+PAT = re.compile(r"(?<![\\$A-Za-z0-9" + GREEK + r"])"
+                 r"([" + GREEK + r"A-Za-z][" + GREEK + r"A-Za-z0-9]{0,14})"
+                 r"([_^])(["
                  + FIRSTCH + r"][" + BODY + SUB_UNI + SUP_UNI + r"]{0,10})")
 
 

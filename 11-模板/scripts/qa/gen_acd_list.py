@@ -6,13 +6,17 @@ os.chdir(r"c:\Obsidion\妙妙屋")
 
 BOOK = "04-课件/习题集/习题书-教师版"
 QB = "04-题库"
-OUT = "09-审计报告/习题书裸下标-ACD待批清单-2026-09-14.md"
+OUT = "09-审计报告/习题书裸下标-ACD待批清单-2026-09-15.md"
 
 SUB_UNI = "₀-₉₊₋₌₍₎ₐₑₒₓₔₕₖₗₘₙₚₛₜⁿ"
 SUP_UNI = "⁰-⁹⁺⁻⁼⁽⁾ⁿ"
 BODY = r"A-Za-z0-9()+\-−·/_%"
 FIRSTCH = r"0-9A-Za-z()+\-−·θφλμνσπσΣΔΩ°½¼¾′″" + SUB_UNI + SUP_UNI
-PAT = re.compile(r"(?<![\\$A-Za-z0-9])([A-Za-z][A-Za-z0-9]{0,14})([_^])(["
+# 2026-09-15：基底补希腊字母（同 scan_bare5.py，修 ρ_A / Δ_fH 等漏检）
+GREEK = r"\u0370-\u03FF\u1F00-\u1FFF"
+PAT = re.compile(r"(?<![\\$A-Za-z0-9" + GREEK + r"])"
+                 r"([" + GREEK + r"A-Za-z][" + GREEK + r"A-Za-z0-9]{0,14})"
+                 r"([_^])(["
                  + FIRSTCH + r"][" + BODY + SUB_UNI + SUP_UNI + r"]{0,10})")
 MEDIA_EXT = re.compile(r'\.(?:jpe?g|png|gif|webp|svg|bmp|tiff?|pdf|md|docx?|xlsx?|zip)(?:$|[|\])\s])', re.I)
 
@@ -237,13 +241,16 @@ for h in hits:
     by[(h[0], h[3])].append(h)
 
 out = []
-out.append("# 习题书·正文裸下标「A / C / D 类」待批清单（2026-09-14）")
+out.append("# 习题书·正文裸下标「A / B / C / D 类」待批清单（2026-09-15）")
 out.append("")
 out.append("> 这批是 **A/B 类扫描（只查 `_{…}`/`^{…}`）查不到** 的形态：正文里裸写 `_`/`^`，")
-out.append("> Word 中会字面显示下划线/尖号。B 类（单字母基底）已完成；本清单是剩余的 **需判断项**。")
+out.append("> Word 中会字面显示下划线/尖号。**本清单是剩余的「需判断项」，尚未改动任何源文件。**")
 out.append("")
 out.append("**扫描口径**：遮蔽 frontmatter / 代码围栏 / code span / 行内与块级 `$…$` / `[[…]]` / HTML 注释；")
 out.append("排除媒体文件名（路径护卫）。扫描对象：`04-课件/习题集/习题书-教师版`（学生版同源）。")
+out.append("")
+out.append("**2026-09-15 口径修订**：下标基底补入希腊字母 —— 旧版只认 `[A-Za-z]`，漏掉")
+out.append("`ρ_A` / `ΔH_vap` / `δ_H` / `μ_B` / `ν_max` 等；本次由 130 处 → **179 处**（新增 49 处经抽验基本为真下标）。")
 out.append("")
 out.append("| 类 | 含义 | 处数 | 唯一 token |")
 out.append("|---|---|---|---|")
