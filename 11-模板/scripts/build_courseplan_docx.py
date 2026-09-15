@@ -30,8 +30,26 @@ W_SUMMARY = [1560, 1275, 2835]              # 表1（照样板）
 W_MODULE = [1450, 1750, 2550, 2641]         # 模块表（章列 737 -> 1450，总宽仍 8391）
 MODULE_HEADER = ["章", "节", "知识点", "教材来源"]
 
+# §三 复习课与习题课规划（2026-09-16 新增表型，样板无对照，可自由定版式）
+W_REVIEW = [1350, 1000, 2950, 720, 2371]    # 表8：5 列，总宽仍 8391
+REVIEW_HEADER = ["章", "课型", "知识点", "课时", "依据与课件"]
+
 
 # ---------------- 底层工具 ----------------
+
+def clean_md_text(s):
+    """正文段落：去掉 markdown 字面标记，避免在 Word 里泄漏 [[ ]] 与 ** 。
+
+    md 里保留 [[wikilink]] 供 Obsidian 解析，Word 侧只显示可读名称。
+    """
+    s = re.sub(r"\[\[([^\]|]+)\|([^\]]+)\]\]", r"\2", s)
+    s = re.sub(r"\[\[([^\]]+)\]\]", lambda m: m.group(1).split("/")[-1], s)
+    s = re.sub(r"\*\*([^*]+)\*\*", r"\1", s)
+    s = re.sub(r"`([^`]+)`", r"\1", s)
+    s = re.sub(r"^>\s*", "", s)
+    s = re.sub(r"^[-*]\s+", "· ", s)
+    return s.strip()
+
 
 def set_run(run, hp):
     run.font.size = Pt(hp / 2)
@@ -189,6 +207,9 @@ while i < len(lines):
         rows = [r for r in rows if not (set("".join(r)) <= set(":- ") and r)]
         blocks.append(("table", cur_mod, rows))
         continue
+    # 普通正文段落 / 列表项 / 引用（H1 之前的 frontmatter 区整体跳过）
+    if title is not None and s:
+        blocks.append(("text", s, None))
     i += 1
 
 assert title, "未找到 H1 标题"
@@ -244,6 +265,9 @@ for kind, name, rows in blocks:
     if kind == "h3":
         add_block(doc, name, None, hp=20)
         continue
+    if kind == "text":
+        add_block(doc, clean_md_text(name), None, hp=20)
+        continue
 
     # ---- 表格 ----
     hdr = rows[0] if rows else []
@@ -253,12 +277,23 @@ for kind, name, rows in blocks:
         widths = W_SUMMARY
         kind = "summary"
         body = rows
+    elif len(hdr) == 5 and hdr[:5] == REVIEW_HEADER:
+        # 表8 式：5 列，保留表头行，仅首列「章」纵向合并（每行课时/课件各自独立）
+        widths = W_REVIEW
+        kind = "review"
+        body = rows
     elif len(hdr) == 4:
-        # 模块式：4 列，丢弃 md 表头行（与原样板一致：docx 内不出现表头）
-        widths = W_MODULE
-        kind = "module"
-        body = rows[1:]
-        n_module_tables += 1
+        if is_module:
+            # 模块式 4 列：丢弃 md 表头行（与原样板一致：docx 内不出现表头）
+            widths = W_MODULE
+            kind = "module"
+            body = rows[1:]
+            n_module_tables += 1
+        else:
+            # 表9 式：4 列但表头非模块口径 → 保留表头行，不做纵向合并
+            widths = W_MODULE
+            kind = "labeled4"
+            body = rows
     else:
         raise SystemExit("未识别的表格列数: %r" % (hdr,))
 
@@ -271,21 +306,44 @@ for kind, name, rows in blocks:
     cur_cha = ""
     cur_src = ""
     filled = []
-    for r in body:
-        c0 = r[0] if len(r) > 0 else ""
-        c1 = r[1] if len(r) > 1 else ""
-        c2 = r[2] if len(r) > 2 else ""
-        c3 = r[3] if len(r) > 3 else ""
-        if c0.strip():
-            cur_cha = c0.strip()
-            cur_src = c3.strip()
-            new_group = True
-        else:
-            new_group = False
-        filled.append({"cha": cur_cha, "jie": c1.strip(),
-                       "kp": [x for x in c2.split(SEP) if x.strip()],
-                       "src": [x for x in cur_src.split(SEP) if x.strip()],
-                       "start": new_group})
+    if kind == "review":
+        # 表8：首列「章」继承，课型/知识点/课时/依据逐行独立
+        for r in body:
+            cells = (list(r) + [""] * 5)[:5]
+            new_group = bool(cells[0].strip())
+            if new_group:
+                cur_cha = cells[0].strip()
+            filled.append({"cha": cur_cha, "jie": cells[1].strip(),
+                           "kp": [x for x in cells[2].split(SEP) if x.strip()],
+                           "hr": [x for x in cells[3].split(SEP) if x.strip()],
+                           "src": [x for x in cells[4].split(SEP) if x.strip()],
+                           "start": new_group})
+    elif kind == "labeled4":
+        # 表9：四列各自独立，不做任何继承
+        for r in body:
+            cells = (list(r) + [""] * 4)[:4]
+            filled.append({"cha": cells[0].strip(), "jie": cells[1].strip(),
+                           "kp": [x for x in cells[2].split(SEP) if x.strip()],
+                           "hr": [],
+                           "src": [x for x in cells[3].split(SEP) if x.strip()],
+                           "start": True})
+    else:
+        for r in body:
+            c0 = r[0] if len(r) > 0 else ""
+            c1 = r[1] if len(r) > 1 else ""
+            c2 = r[2] if len(r) > 2 else ""
+            c3 = r[3] if len(r) > 3 else ""
+            if c0.strip():
+                cur_cha = c0.strip()
+                cur_src = c3.strip()
+                new_group = True
+            else:
+                new_group = False
+            filled.append({"cha": cur_cha, "jie": c1.strip(),
+                           "kp": [x for x in c2.split(SEP) if x.strip()],
+                           "hr": [],
+                           "src": [x for x in cur_src.split(SEP) if x.strip()],
+                           "start": new_group})
 
     # 写入单元格
     for ri, f in enumerate(filled):
@@ -294,6 +352,20 @@ for kind, name, rows in blocks:
             set_cell(tbl.cell(ri, 0), [f["cha"]])
             set_cell(tbl.cell(ri, 1), [f["jie"]])
             set_cell(tbl.cell(ri, 2), f["kp"])
+        elif kind == "review":
+            # 表8：五列；首列仅在章起始行写一次
+            if f["start"]:
+                set_cell(tbl.cell(ri, 0), [f["cha"]])
+            set_cell(tbl.cell(ri, 1), [f["jie"]] if f["jie"] else [])
+            set_cell(tbl.cell(ri, 2), f["kp"])
+            set_cell(tbl.cell(ri, 3), f["hr"])
+            set_cell(tbl.cell(ri, 4), f["src"])
+        elif kind == "labeled4":
+            # 表9：四列原样
+            set_cell(tbl.cell(ri, 0), [f["cha"]])
+            set_cell(tbl.cell(ri, 1), [f["jie"]])
+            set_cell(tbl.cell(ri, 2), f["kp"])
+            set_cell(tbl.cell(ri, 3), f["src"])
         else:
             # 模块式 4 列：首列与末列按「章」纵向继承
             if f["start"]:
@@ -303,7 +375,7 @@ for kind, name, rows in blocks:
             if f["start"]:
                 set_cell(tbl.cell(ri, 3), f["src"])
 
-    # 纵向合并（仅真模块表：同「章」的行）
+    # 纵向合并
     if is_module:
         gs = [i for i, f in enumerate(filled) if f["start"]] + [len(filled)]
         for a, b in zip(gs, gs[1:]):
@@ -314,6 +386,14 @@ for kind, name, rows in blocks:
                     set_vmerge(tbl.cell(k, 0), None)
                     set_vmerge(tbl.cell(k, 3), None)
                 n_merge_start += 2
+    elif kind == "review":
+        gs = [i for i, f in enumerate(filled) if f["start"]] + [len(filled)]
+        for a, b in zip(gs, gs[1:]):
+            if b - a > 1:
+                set_vmerge(tbl.cell(a, 0), "restart")
+                for k in range(a + 1, b):
+                    set_vmerge(tbl.cell(k, 0), None)
+                n_merge_start += 1
 
     layout_cells(tbl, widths)
     stats.append((name, len(body), ncol, kind))
