@@ -1,49 +1,56 @@
-# 妙妙屋·长期记忆（2026-09-15 精简重写）
+# 妙妙屋·长期记忆（2026-09-15 精简重写 v2）
+
+> 只保留跨会话必守的规则与口径。**完整明细见同目录 `YYYY-MM-DD.md` 日志与各专题文档**（如 `备课思路/`、`09-审计报告/`）。
 
 ## 一、环境与工具链
-- Python `C:/Users/蕾赛/.workbuddy/binaries/python/versions/3.13.12/python.exe -X utf8`。
-- **双闸门**：`11-模板/scripts/jsyaml_verify.js`（`NODE_PATH="C:/Users/蕾赛/.workbuddy/binaries/node/workspace/node_modules"`）+ `validate_kb.py`（`--full` 全量；`--changed` **必须显式列文件**，每批 ≤8）。
-- 讲义/习题书导出：`build-all-handout-docx.py`、`build_module_book.py`；索引 `generate_handout_readme.py`（**必须 `--apply`**）；KP 巡检 `kp_link_patrol/kp_dep_redirect/kp_bclass/kp_triage_v2.py`。
-- 需绕 safe-delete 时加前缀 `CODEBUDDY_SESSION_ID= CLAUDE_SESSION_ID=`；git 路径须 `-c core.quotepath=false`。
+- Python：`C:/Users/蕾赛/.workbuddy/binaries/python/versions/3.13.12/python.exe -X utf8`；Node：`C:/Users/蕾赛/.workbuddy/binaries/node/versions/22.22.2-2/node.exe`（`NODE_PATH="C:/Users/蕾赛/.workbuddy/binaries/node/workspace/node_modules"`）。
+- **双闸门（每批必跑）**：`11-模板/scripts/jsyaml_verify.js` + `validate_kb.py`。`--changed` **必须显式列文件**（无参＝静默 0 检出），每批 ≤8；整批后 `--full` 不得高于基线（09-02：0E/209W；**09-15 实测 7,714 文件 0E/202W**）。
+- `jsyaml_verify.js --list` 的参数是**「文件清单的路径」**（非文件本身）；清单须落在仓库内（写 `/tmp` 会 ENOENT：bash `/tmp`→node `C:\tmp`）。
+- 导出：`build-all-handout-docx.py`（**只认 `04-课件/学生讲义/`**，单文件 `--path` 不受 marker 限制）、`build_module_book.py`（**支持 `--dry-run`**，查「待分类」不写盘）、`gate_exercise_books.py`。
+- 绕 safe-delete：前缀 `CODEBUDDY_SESSION_ID= CLAUDE_SESSION_ID=`；git 加 `-c core.quotepath=false`。
 
 ## 二、铁律：YAML / 链接 / 批量改 md
-- **js-yaml4 遇重复键/非法转义直接 THROW → 文件在 Obsidian 消失（P0）**；PyYAML 不报错。值含裸 `: ` 或 `*`/`[`/`{` 开头→加引号；含反斜杠→单引号；FM 内 wikilink 用 `/`；FM 内禁独立行 `![[...]]`。
-- 链接解析：basename_map 优先、alias_map 兜底；存量断链不动；带锚点丢锚点须人工确认。
-- 写 L2 前必须 ls/grep 验证 KP 名真实存在。
-- 批量改 md：`open(newline="")`；重拼 fm 用 `t[e:]`；断言行数；改前快照 + 改后逐行 diff；同文件多处 Edit 必须串行；插行用 while-walk。
-- 踩坑：① bash 内联 python 会吃 `\$`/反引号 → **含正则脚本必须 Write 成 .py 再跑**；② heredoc 非 ASCII 会 mojibake；③ `printf` 路径 `\04` 被当八进制 → 清单一律用 Write/python 写盘。
-- **只 add 本会话文件；commit 前核 `git diff --cached --name-only | wc -l`**（禁 add→commit 一条龙）；同步核对用 `git ls-remote origin master` 比 `git rev-parse HEAD`（本仓库 tracking ref 会被沙箱吞，不可信）。
+- **js-yaml4 遇重复键/非法转义直接 THROW → 文件在 Obsidian 消失（P0）**；PyYAML 不报错。值含裸 `: ` 或以 `*`/`[`/`{` 开头 → 加引号；含反斜杠 → 单引号；FM 内 wikilink 用 `/`；FM 内禁独立行 `![[...]]`。
+- **写 KP 链接前必须验证目标页存在且非 `status: deprecated`**（Obsidian 文件名解析优先于 alias，弃用页在就救不回）。高频禁链：`配位化合物→配合物`、`等电子体原理→等电子体`、`理想气体状态方程→理想气体`、`EAN规则→18电子规则`。
+- 批量改 md：`open(newline="")`；断言行数；改前快照＋改后逐行 diff；同文件多处 Edit 串行。
+- **踩坑**：① bash 内联 python 会吃 `\$`/反引号 → **含正则脚本必须 Write 成 .py 再跑**；② heredoc 非 ASCII 会 mojibake；③ `printf` 路径 `\04` 被当八进制 → 清单一律用 Write/python 写盘。
+- **git**：只 add 本会话文件；**禁 add→commit 一条龙**（commit 前核 `git diff --cached --name-only | wc -l`）；同步核对用 `git ls-remote origin master`（本仓库 tracking ref 会被沙箱吞，不可信）。
 
-## 三、红区与协作纪律（用户定）
-- **红区**：`04-题库/`、`05-真题库/`、`_归档/` 严禁触碰（除显式授权）；不动并行会话未跟踪文件。
-- 成品规则：①题目显示名禁现「一分册测试-/化学能力测试-」；②模拟卷 ≤15 题；③模拟卷/专项卷教师版+学生版双份；④随堂学生版除真题外无来源行/难度分布行；⑤ docx 无封面；⑥图引用纯哈希名 `![[hash.jpg]]`。
-- 其他：质量优先难度；新题默认 10-待审核；每批 L2 完立即追加索引；废弃机制 `status:deprecated` + `deprecation_reason` + `superseded_by`。
+## 三、红区、协作纪律与题库字段口径
+- **红区**：`04-题库/`、`05-真题库/`、`_归档/` 严禁触碰（除显式授权）；**不动并行会话的未跟踪文件**；改完即 commit（收口文件单独提交，全部收敛后再 push）。
+- 成品规则：① 题目显示名禁现「一分册测试-/化学能力测试-」；② 模拟卷 ≤15 题；③ 模拟卷/专项卷教师版+学生版双份；④ 随堂学生版除真题外无来源行/难度分布行；⑤ docx 无封面；⑥ 图引用纯哈希名。
+- 废弃只用 `status: deprecated` + `deprecation_reason`(+`superseded_by`)。
+- **字段分工**：`source_subject`（来源教材分科，16 种，不收敛）≠ `subject_module`（四大模块：化学原理/结构化学/有机化学/元素与分析，收敛）；`module`＝`source_subject`（真题用于显示分组）。**⚠️ 字段名分区不同，勿跨区改名**：**04-题库** 用 `source_subject`（2026-09-02 由 `subject` 改名；09-15 已把该区 37 个索引的 dataview 一并修正）；而 **03-知识点（937 页）/04-课件（34）/07-资料提炼（207）** 仍用 `subject`——那 20 处 dataview 是对的，**不能跟着改**。
+- **`pack` 硬规则**：省预赛→`预赛专项`；决赛真题→`综合模拟卷`。软规则：其余 difficulty≤3→`章节练习`，≥4→`模块习题集`。校验 `.workbuddy/scripts/check_pack_rule.py`（退出码 1＝硬违规）。
+- **`submodule` 是章节路由字段**（`build_module_book.py::classify_by_keywords`），必须用**生成器可识别的章节关键词**（如 `晶体结构`/`化学动力学`）；写描述式长串会判「待分类」→ **真题静默掉出模块习题书**（真题属白名单题源，凡 `pack=模块习题集` 即入书，第38/39届已在书内）。改后必须 `--dry-run` 验「待分类=0」。
 
 ## 四、Word 产物：pandoc/texmath 限制与守卫
-- **pandoc 限制**：不支持 `\ce{}`（须预处理）；math 内禁 `\textbf`；定界符内侧空格不识别为数学；`$$` 与内容夹空行 → 整体放弃识别（须删块内空行，奇数 `$$` 须跳过）；闭合 `$` 不得后跟数字；不支持 `\displaylines`。
-- **texmath 拒绝转换两类**：①字体开关 `\bf/\sf/\rm/\it/\sl/\sc/\tt`（含 `\boldsymbol{\rm …}`）→ 换等义命令、**必须保留外层花括号**；②`\text{}` 内反斜杠命令（`\cdot/\sim/\times`）→ 换等义 Unicode。**诊断铁律：`pandoc -t native` 的 InlineMath 会骗人，必须 `pandoc -t docx` 抓 `Could not convert TeX math`**。
-- **等宽段**：`VerbatimChar` 段 = 真代码块（pStyle=SourceCode）+ 正文行内反引号，1 代码块 = 1 段；`docx_utils.postprocess_pandoc_docx()` 的**样式层 + run 层**都会抹掉等宽 → `MONO_FONT="SimSun"` + `MONO_STYLES={"VerbatimChar","SourceCode"}` **两层**豁免；补历史产物用 `patch_mono_font.py`。行内反引号 65% 集中在数学工具区。代码块转列表禁用 `for`+手动 i，层级取前缀**最后**一个分支符列号。
-- **`attachments/`**：Obsidian 默认附件目录须进 pandoc `--resource-path` 与图片解析候选，否则 `--strict-images` 拒收整份导出。
-- **CRLF/LF**：`.gitattributes` 声明 `*.md eol=lf` → `git diff` 看不见行尾变化；"零抖动"只能靠脚本内断言或 `newline=""` 计数；仓库同时存在纯 LF 的 md。
-- `NORMALIZE_SIMPLE_INLINE_SCRIPTS = False`：曾把 `$MT^{-2}$` 降级成 Unicode 文本。
-- **最痛教训**：连续多轮「以为修完」，下一轮换维度复检又冒出几十处 → **收官前必须换维度再查一轮**；扫描口径一旦排除某类产物（如打印版），那类就永远"干净"；校验器"通过"前先看它扫了多少文件（扫 0 文件也是静默失效）。
-- 「（Word清稿）」由 `--word-clean` 生成，源 md 即同名 `-超级充实版（自学完整）.md`；**改源后必须单独 `--path <md> --word-clean`**。
-- 活跃区 docx A 类（LaTeX 源码态）/ B 类（花括号上下标）已全归零；**推送很慢（>5 分钟），前台会 SIGTERM，须 `run_in_background`**。
+- pandoc 不支持 `\ce{}`（须预处理）；math 内禁 `\textbf`；`$$` 块内禁空行（否则整体不识别）；闭合 `$` 不得后跟数字；不支持 `\displaylines`。
+- **texmath 拒绝两类**：① 字体开关 `\bf/\sf/\rm/\it/\sl/\sc/\tt`（含 `\boldsymbol{\rm …}`）→ 换等义命令、**保留外层花括号**；② `\text{}` 内反斜杠命令 → 换 Unicode。**诊断铁律：`pandoc -t native` 会骗人，必须 `pandoc -t docx` 抓 `Could not convert TeX math`**。
+- **等宽段**：`docx_utils.postprocess_pandoc_docx()` 的**样式层＋run 层**都会抹等宽 → `MONO_FONT="SimSun"` + `MONO_STYLES={"VerbatimChar","SourceCode"}` **两层**豁免；补历史产物用 `patch_mono_font.py`。
+- **表格**：pandoc **不支持单元格合并**、不生成 `tblBorders`、列宽常等宽 → 用 skill `md-tables-to-docx-merged` 后处理（XML 元素顺序须按 schema，插在 `tblLook` 前；vMerge 合并前先清空续行文本）。`<br>` 被**静默吞**；CommonMark 闭合 `**` 紧跟全角 `）` 会不成立 → 改用「」。
+- **渲染目检链路**：`soffice --headless --convert-to pdf` → `pdftoppm -png -r 95` → 看图，**能抓纯 XML 抓不到的列宽折行与字面标记泄漏**。
+- **最痛教训**：连续多轮「以为修完」，换维度复检又冒几十处 → **收官前必须换维度再查一轮**；扫描口径一旦排除某类产物，那类就永远「干净」；校验器「通过」前先看它**扫了多少文件**（扫 0 文件也是静默失效）。
 
-## 五、学生讲义 / 13-教案 / 数学工具
-- 源 `04-课件/学生讲义/` 分模块，产物 `06-学生侧材料/讲义/<同名子目录>/`；**讲义不分教师/学生版**，含练习+答案，教师信息放 HTML 注释。
-- 批量导出扫描口径：递归 `*.md`，排除 `_归档`/`_` 开头目录、`README`、`讲义升级模式-` 前缀，且**只保留 stem 含 `超级充实`/`基础版`/`复习`/`-新课` 者**（该 marker 过滤仅用于批量默认路径，**单文件 `--path` 不受限**）。
-- 数学工具区：**行内数学一律裸 `$...$`，禁反引号包裹**；表格内绝对值写 `\lvert x\rvert`；文件级 `$` 数须偶。
-- 13-教案（必修一）52 md + 45 docx + 18 张 Mermaid（`.mmd` 源）：核心素养统领、含逐字稿、三层作业、一课时一 md。
+## 五、讲义 / 教案 / 数学工具 / OCR
+- 讲义源 `04-课件/学生讲义/` 分模块 → 产物 `06-学生侧材料/讲义/`；**不分教师/学生版**，含练习+答案，教师信息放 HTML 注释。
+- 数学工具区：**行内数学一律裸 `$...$`，禁反引号包裹**；文件级 `$` 数须偶。
+- 13-教案（必修一）52 md + 45 docx + 18 `.mmd`：核心素养统领、含逐字稿、三层作业、一课时一 md。
+- **mineru OCR 公式字符拆分（已收官）**：相邻数字被空格拆、小数点被空格包围。规则 `(?<![\d.])\d(?: \d)+`→去空格、`(\d)\s*\.\s+(\d)`→`\1.\2`；只在公式内修、文件级 `$` 须偶、跳过红区/归档/未跟踪/20 分钟内改动、行数守恒。**SCAN 是硬编码白名单** → 定期对照根目录 `ls` 复核。
 
-## 六、mineru OCR 公式字符拆分（已收官）
-- 两形态：①相邻数字被空格拆；②小数点被空格包围（行内也中招）。规则：`(?<![\d.])\d(?: \d)+`→去空格；`(\d)\s*\.\s+(\d)`→`\1.\2`。
-- **安全策略**：只在公式内（行内禁跨行）；文件级 `$` 须偶；区间级跳过（裸中文/空行无 `\begin{`/长且无命令）；`\text|\mathrm|\ce` 内容保护；位数防护；行数守恒；红区/归档/未跟踪/20 分钟内改动不碰。
-- **SCAN 是硬编码白名单** → 须定期对照根目录 `ls` 复核（曾漏根目录散装教材约 1.4 万处）。
-- 遗留：`$` 奇数 13 文件/30 处（OCR 把 `$` 与 `()` 互识）；字母拆分仅普查未修。
+## 六、题库线与 git 事故教训
+- 规模：`04-题库` 5,508 md（含 221 元文件）；真题 646 题（25-40届初赛+决赛+省预赛）。
+- **真题拆题规范**：**一大题一文件**、按模块分子目录（化学原理/无机和结构化学/有机化学）、命名 `题-{届三位}-{大题号}-{主题词}.md`；正文 `## 题目`（顶 `> 来源：…`）→ `## 参考答案` → `## 知识点映射` → `## 解题思路` → `## 易错分析`；图片用**全路径 wikilink** `![[06-外部资料导入/真题/images/<hash>.jpg]]`（第37届裸 hash 为旧规范）。配套提炼页放 `07-资料提炼/提炼-第N届初赛试题解析.md`（八节），并登记 `04-题库/题库总索引.md` + `真题/README.md`（`真题总索引.md` 为纯 dataview，自动收录）。
+- **沙箱 safe-delete 会把 `.git/objects/` 的删除移入回收站**（`$I` 存原始路径、同名 `$R` 是内容）→ **回收站是第一恢复源**。
+- **本仓库 `fsck` 不可信**（畸形 pack 空 `.idx` 会漏报），判据用 `git cat-file -e`；promisor 会造假绿；`git fetch <sha>` / `gc` / `repack` / `prune` / `--refetch` 属**红线**。
+- 30 天以上日志按主题并入本文件后再删。
 
-## 七、题库线与 git 事故教训
-- 题库 5,369 题；KP 挂载率 100%；专项卷 24 卷 600 题 + 随堂卷 11 卷 235 题。
-- **沙箱 safe-delete 会把 `.git/objects/` 的删除移入回收站**（`$I` 存原始路径含 `.git\objects\XX\YYY`，同名 `$R` 是内容）→ **回收站是第一恢复源**。
-- **本仓库 `fsck` 不可信**（畸形 pack 空 `.idx` 会漏报），判据用 `git cat-file -e`；promisor 会制造假绿（须取消后重跑真实 fsck）；`git fetch <sha>` / `gc` / `repack` / `prune` / `--refetch` 属红线。
-- 30 天以上日志按主题并入本文件后再删；明细见同目录 `YYYY-MM-DD.md`。
+## 七、课程规划层（`备课思路/`）
+- 已有：五轮总顺序、==轮次深度切分总表（深度边界唯一权威）==、六大新课大章节、第一~第五轮框架、班级/暑期授课计划、四轮 55 专题闭环、未央化学竞赛课程计划（**13 学段轴**，初二=R1/初三=R2/高一=R3/高二=R4，**300 数据行**；2026-09-15 由 284 补入 3 章 5 节——新章「表面与界面化学 / 量子化学初步 / 有机分离与纯化」，新节「多型体与堆积变体 / 电催化与 PCET / 掩蔽·解蔽与空白校正 / 光氧化还原催化与 HAT / 反芳香性·自旋多重度与 Breslow 中间体」）。
+- **知识库内部矛盾 3 条（引用时必查，一律以新为准）**：① 物化深化已移入**第四轮 4-7**（以 `第三轮总体备课框架` 为准）；② 上课顺序以**六大总表**为准；③「结构表征与波谱桥」与「配位光谱与对称性桥」彼此重叠，须显式切边界。
+- **教材版本以库内为准**：无机化学下册＝宋天佑版；普化＝第四版；结构化学基础＝周公度第五版；有机＝Zchem+学而思+Clayden+ABOC（**无邢其毅原书**）。**可引用提炼全集见 `07-资料提炼/书籍提炼/`（188 文件）**。
+- 章后层（6 大章 × 1 复习 + 1 习题）**考试维度注入已收官 2026-09-15（5/5）**。标准见 `六大新课大章节总表 §11.4`：复习课加 `§一点五 本章考试地图`（考纲条目对照 / 近五年命题分布 / 命题趋势三条 / 题型权重与**按考试权重的**复习优先级）；习题课加 `§真题实战与命题趋势专项`（真题组 ≥5 题 + 「给材料学习」四步法）；FM 挂 `exam_syllabus`/`exam_evidence`/`exam_trend`/`exam_weight`（习题课另挂 `real_exam_count`）。数据源：`备课思路/近五年真题命题拆解分析`（⚠️ 分析化学无专节，需从真题卡另归纳）。⚠️ 活动版是 `第一轮结构化学初步复习-v2`（无 -v2 那份已 deprecated）；复习课/习题课**无 docx 产物**（非学生讲义线）。
+- **例题分值口径（2026-09-15 定，覆盖 35-40 届）**：`备课思路/近五年真题命题拆解分析` 已扩至 **40 届**。39-40 届原卷自带「N分,M%」；35-38 届取提炼页分值表。两段卷面体量（100-110 vs **242/247**）**差异成因库内未能证实** → **跨届比较一律用卷面占比、禁用绝对分**。化学原理相关大题占比：35届 6% / 36届 14% / 37届 9% / 38届 9% / 39届 23% / **40届 30%**。
+- **章后层 12 份归属（2026-09-15）**：6 大章 × 2 = 12 份由两会话拆开完成——并行会话 `472df0563`（**5 章 10 份**）+ 本会话 `c7f257357`（章1 化学原理 2 份）。⚠️ **那 10 份仍是 39 届口径，命题分布/趋势/题型权重未同步 40 届，须另开一轮补齐**。
+- **🟡 图库入库缺口（2026-09-15 实测，未修）**：`06-外部资料导入/真题/images/` 磁盘 501 张 vs git 已跟踪 338 张 → **163 张未跟踪**，其中 **88 张正是第40届题库 md 引用的图**（`7ee9c6075` 所称「88 图零断链」仅指磁盘可解析，图片**未入 git**）。另仓库根目录有 2 个散落未跟踪目录 `竞赛教程第二分册测试/`+`40届初赛/`（共 1422 文件），疑为 OCR/渲染脚本误写根目录。
+- **🔴 存量断链（章后课，未修）**：章后课 FM 的 `referenced_insights` 引用了 5 个不存在的大类页——`教学洞察-元素化学`／`-分析化学`／`-化学动力学`／`-结构化学`／`-酸碱理论`；实际 `12-教学洞察/`（54 项）**全为细分主题页**（如 `教学洞察-元素化学深度与结构推断综合`、`教学洞察-化学动力学基础/深化`、`教学洞察-容量分析基础与酸碱滴定`）。属命名策略问题（建大类索引页 vs 改短链），需统一决策。
