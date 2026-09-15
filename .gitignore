@@ -44,6 +44,12 @@ copilot/
 pptx-workspace/
 scripts/
 skills/
+# 例外：11-模板/scripts/qa/ 是本库正式的 QA 脚本目录（2026-09-15 固化）
+# 注意 git 规则：父目录被排除时无法用 ! 反向包含子文件，故须先放行父目录、再逐层收窄
+!11-模板/scripts/
+11-模板/scripts/*
+!11-模板/scripts/qa/
+!11-模板/scripts/qa/**
 
 # 临时构建产物（2026-09-01）
 .tmp-*/
