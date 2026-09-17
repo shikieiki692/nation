@@ -23,6 +23,7 @@ status: 已填充
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
 source_norm: "一分册能力测试"
+used_in: "[[第一轮综合卷02（教师版）]]"
 ---
 
 # 题-110-一分册测试-Ch6B-3-Cs-Sr-Se-Cl四元素推断与量子数

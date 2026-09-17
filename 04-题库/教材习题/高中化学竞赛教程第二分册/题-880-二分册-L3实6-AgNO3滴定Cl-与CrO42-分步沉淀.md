@@ -23,6 +23,7 @@ status: 已填充
 source_category: 竞赛导向·竞赛教材
 source_grade: A
 source_norm: "高中化学竞赛教程第二分册"
+used_in: "[[第一轮原理·7-沉淀溶解平衡（教师版）]]"
 ---
 # 题-880-二分册-L3实6-AgNO3滴定Cl-与CrO42-分步沉淀
 

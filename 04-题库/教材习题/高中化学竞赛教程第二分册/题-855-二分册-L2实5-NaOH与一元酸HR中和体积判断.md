@@ -22,7 +22,7 @@ cross_references: []
 status: 已填充
 source_category: 竞赛导向·竞赛教材
 source_grade: A
-used_in: "[[二分册专项卷VII]]"
+used_in: ["[[二分册专项卷VII]]", "[[第一轮综合卷07（教师版）]]"]
 source_norm: "高中化学竞赛教程第二分册"
 ---
 # 题-855-二分册-L2实5-NaOH与一元酸HR中和体积判断

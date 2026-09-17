@@ -36,6 +36,7 @@ status: 已填充
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
 source_norm: "化学能力测试"
+used_in: "[[第一轮原理·6-酸碱理论（教师版）]]"
 ---
 
 # HCl 气相分解电化学平衡常数

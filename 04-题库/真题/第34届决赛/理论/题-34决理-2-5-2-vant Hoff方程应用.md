@@ -25,6 +25,7 @@ year: 2020
 source_category: 竞赛导向·真题
 source_grade: A
 source_norm: "第34届决赛"
+used_in: "[[第一轮原理·3-热力学初步（教师版）]]"
 ---
 # 第 5 题 van't Hoff方程应用 (3 分)
 

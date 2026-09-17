@@ -20,6 +20,7 @@ submodule: 化学基础与计量
 source_category: 其他类型·自编章节题
 source_grade: B-
 source_norm: "自编·元素化学"
+used_in: "[[第一轮原理·1-化学计量与气体（教师版）]]"
 ---
 # 题-元铁-03：Cu⁺ 歧化与 Zn(OH)₂ 两性
 
