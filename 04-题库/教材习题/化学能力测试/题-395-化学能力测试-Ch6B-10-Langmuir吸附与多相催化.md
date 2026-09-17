@@ -33,7 +33,7 @@ tags:
   - 化学能力测试
   - 第6章
 created: 2026-09-03
-updated: 2026-09-03
+updated: 2026-09-18
 source: 化学竞赛能力测试·第6章 简单的化学动力学原理·B卷第10题
 source_file: "[[化学竞赛教程/（已压缩）化学竞赛能力测试]]"
 status: 已填充
@@ -61,7 +61,7 @@ source_norm: "化学能力测试"
 
 $$\frac{K_A(T_2)}{K_A(T_1)} = \frac{p_A(T_1)}{p_A(T_2)}$$
 
-$$\Delta_\mathrm{ad}H^\theta_\mathrm m = R\left(\frac{1}{T_1}-\frac{1}{T_2}\right)^{-1}\ln\frac{p_A(T_1)}{p_A(T_2)} = 8.314\times\left(\frac{1}{180}-\frac{1}{240}\right)^{-1}\times\ln\frac{350}{1020} = -9.06\ \mathrm{kJ\cdot mol^{-1}}$$
+$$\Delta_\mathrm{ad}H^\theta_\mathrm m = R\left(\frac{1}{T_1}-\frac{1}{T_2}\right)^{-1}\ln\frac{p_A(T_1)}{p_A(T_2)} = 8.314\times\left(\frac{1}{180}-\frac{1}{240}\right)^{-1}\times\ln\frac{350}{1020} = -6.40\ \mathrm{kJ\cdot mol^{-1}}$$
 
 ΔH<0 放热、ΔS<0（三维→二维有序）→ 低温下 ΔG=ΔH−TΔS<0，**吸附自发**。
 
@@ -92,7 +92,7 @@ $$K_Ap_A = K_Bp_B + 1 \quad (\theta_A = \tfrac{1}{2})$$
 
 </details>
 
-<!-- 校勘注: ①10-1 ΔadH^θ 验算：8.314×(1/180−1/240)⁻¹×ln(350/1020)=8.314×720×(−1.070)=−6405 J/mol≈−6.4 kJ/mol（源答案算式未给最终数值，按公式计算约 −6.4 kJ/mol，吸附放热）；②10-2 k₁ 单位 kPa·s⁻¹ 疑源 OCR（实际 k₁ 量纲应为浓度/时间或覆盖度相关的速率），按源题面照录；③10-3 r 极大需 px=q/x→x=√q/p=(C+1)（y=x+(C+1)²/x 中 p=1、q=(C+1)² 时 x=C+1）✓。 -->
+<!-- 校勘注: ①10-1 ΔadH^θ 验算：8.314×(1/180−1/240)⁻¹×ln(350/1020)=8.314×720×(−1.070)=−6405 J/mol≈−6.4 kJ/mol（源答案算式未给最终数值，按公式计算约 −6.4 kJ/mol，吸附放热；2026-09-18 已据本注将正文 −9.06 径改为 −6.40）；②10-2 k₁ 单位 kPa·s⁻¹ 疑源 OCR（实际 k₁ 量纲应为浓度/时间或覆盖度相关的速率），按源题面照录；③10-3 r 极大需 px=q/x→x=√q/p=(C+1)（y=x+(C+1)²/x 中 p=1、q=(C+1)² 时 x=C+1）✓。 -->
 
 ## 知识点映射
 
