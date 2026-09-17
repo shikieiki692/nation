@@ -1696,7 +1696,14 @@ def _preprocess_markdown(text: str) -> str:
     #     Pandoc interprets --- as YAML metadata blocks, which breaks when
     #     body content (e.g. **bold**) appears between paired ---.
     #     ___ renders identically as a horizontal rule in Word.
-    text = re.sub(r'^---\s*$', '___', text, flags=re.MULTILINE)
+    #     2026-09-17 修复：必须用 [ \t]* 而不是 \s*——\s 会匹配 \n，
+    #     MULTILINE 下 `$` 又匹配换行前，于是 `---\n` 整段被替换成 `___`，
+    #     换行被吞掉。连续两条 `---` 时会产生 `___\n___\n### 第N题`，
+    #     两个 `___` 被 pandoc 当成强调定界符，标题被吃掉（实测丢题）。
+    #     2026-09-17 补充：`___` 只有在前后都有空行时才会被 pandoc 当成水平线；
+    #     若它紧跟在正文行之后会被并进该段落、输出成字面 `___`，故先补空行。
+    text = re.sub(r'(?m)^(\S[^\n]*)\n(?=---[ \t]*$)', r'\1\n\n', text)
+    text = re.sub(r'^---[ \t]*$', '___', text, flags=re.MULTILINE)
 
     # 1d) Remove residual emoji symbols from callout labels (safety net)
     text = re.sub(r'[🧠🗣️⚠️💡⚡🔥📝🌟✅🔗]\s*', '', text)
