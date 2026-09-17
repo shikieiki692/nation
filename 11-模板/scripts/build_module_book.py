@@ -1538,13 +1538,17 @@ def build_book(module, out_dir, chapter_map, exclude_subs=None):
         if n_merged:
             print(f"  [merge] {module}: {n_sub} 个小问文件 → {len(pool)} 题（{n_merged} 个大题合并组）")
 
-    # 分类；未命中章节映射的题不再收容进"综合"章，记入待分类告警
+    # 分类；未命中章节映射的题**归入末章「99-综合题」**（2026-09-17 用户拍板）。
+    # 背景：这些题多为**跨模块/跨专题综合题**（如教程第一分册的 4 套综合测试卷，
+    # 同一卷内 submodule 横跨化学原理/结构化学/有机/元素与分析），无法归入单一章；
+    # 旧行为是只记 `[待分类]` 告警并从书中丢弃 —— 现改为收容进综合题章，
+    # **同时逐条记 `[归入综合题]` 告警**，保留可审计性（不静默收容）。
     groups = collections.OrderedDict()
     for item in pool:
         res = classify_by_keywords(item, chapter_map, module)
         if res is None:
-            _warn("待分类", f"[{module}] {item['path']}（submodule={item['submodule'] or '空'}）")
-            continue
+            res = CATCHALL_CHAPTER
+            _warn("归入综合题", f"[{module}] {item['path']}（submodule={item['submodule'] or '空'}）")
         groups.setdefault(res, []).append(item)
 
     # 按章节号排序
@@ -1925,6 +1929,10 @@ BOOK_CH_FILE_OVERRIDE = {
     "题-445-化学能力测试-Ch9A-10-溴化内酯化与DA内型外型": (8, "周环反应与自由基"),
     "题-454-化学能力测试-Ch9B-9-环辛四烯与假石榴碱生物合成": (10, "有机合成设计"),
 }
+
+# 收纳章（2026-09-17 用户拍板）：跨模块/定不了单一章的题统一进末章「99-综合题」。
+# 章号取 99 以确保排在各模块章之后（章内排序按 (num, name) 的 num）。
+CATCHALL_CHAPTER = (99, "综合题")
 
 
 def book_ch_fallback(item, module):
