@@ -19,7 +19,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 章节练习
 source_category: 教材课后习题
-source_grade: B
+source_grade: C
 ---
 # 题-533: 可不对称合成的结构特征识别
 

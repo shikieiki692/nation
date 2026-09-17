@@ -34,7 +34,7 @@ exam_stage: 初赛
 
 status: 已填充
 source_category: 教材课后习题
-source_grade: B+
+source_grade: C
 ---
 
 

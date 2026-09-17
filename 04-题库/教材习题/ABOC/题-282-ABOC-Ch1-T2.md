@@ -21,7 +21,7 @@ superseded_by: "已合并入完整习题卡"
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
-source_grade: C
+source_grade: B
 ---
 # 题-282：(XChem-ArCHO 改编) 从烯基乃春中间体的转化开始：分子编辑专场
 

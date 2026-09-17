@@ -20,7 +20,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
-source_grade: C
+source_grade: B
 used_in: "[[第二轮习题集-有机化学一]]"
 ---
 # 题-070：SN2 vs SN1 判断与消旋化

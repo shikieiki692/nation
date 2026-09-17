@@ -20,7 +20,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 模块习题集
 source_category: 教材课后习题
-source_grade: B
+source_grade: C
 ---
 # 题-569: 五元杂环（噻吩/噻唑/吡唑）合成设计
 

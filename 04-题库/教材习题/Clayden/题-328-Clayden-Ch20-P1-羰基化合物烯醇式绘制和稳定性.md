@@ -19,7 +19,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 章节练习
 source_category: 教材课后习题
-source_grade: B
+source_grade: C
 ---
 # 题-328: 羰基化合物烯醇式绘制和稳定性
 

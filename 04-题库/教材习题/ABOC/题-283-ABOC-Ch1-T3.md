@@ -21,7 +21,7 @@ superseded_by: "已合并入完整习题卡"
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
-source_grade: C
+source_grade: B
 ---
 # 题-283：(36 届初赛第二场+HYS+Chemy 模拟题) 氟化学与动力学同位素效应专场
 

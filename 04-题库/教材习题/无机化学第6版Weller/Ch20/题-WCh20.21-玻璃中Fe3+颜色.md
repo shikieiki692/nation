@@ -18,7 +18,7 @@ pack: 模块习题集
 fidelity: 原书逐字
 exam_stage: 初赛
 source_category: 教材课后习题
-source_grade: B+
+source_grade: C
 ---
 
 # 玻璃中Fe3+颜色

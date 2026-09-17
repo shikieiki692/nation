@@ -19,7 +19,7 @@ status: 已填充
 subject_module: 有机化学
 pack: 模块习题集
 source_category: 教材课后习题
-source_grade: B
+source_grade: C
 ---
 # 题-577: 二维到三维立体化学+Karplus关系
 

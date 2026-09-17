@@ -21,7 +21,7 @@ superseded_by: "已合并入完整习题卡"
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
-source_grade: C
+source_grade: B
 ---
 # 题-193：环己烷中，因为水会破坏其氢键。
 
