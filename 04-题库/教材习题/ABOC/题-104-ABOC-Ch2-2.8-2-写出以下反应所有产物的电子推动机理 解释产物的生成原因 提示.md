@@ -21,6 +21,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_norm: "ABOC 有机化学"
 ---
 # 题-104：写出以下反应所有产物的电子推动机理，解释产物的生成原因。提示：次氯酸可以被质子化从而产生氯正离子发动
 

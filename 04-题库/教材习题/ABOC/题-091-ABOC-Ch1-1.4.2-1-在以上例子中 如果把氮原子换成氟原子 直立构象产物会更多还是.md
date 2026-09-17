@@ -20,6 +20,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_norm: "ABOC 有机化学"
 ---
 # 题-091：在以上例子中，如果把氮原子换成氟原子，直立构象产物会更多还是更少？
 

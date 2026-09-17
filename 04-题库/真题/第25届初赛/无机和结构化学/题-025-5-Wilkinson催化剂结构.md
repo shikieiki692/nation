@@ -45,6 +45,7 @@ pack: 模块习题集
 year: 2011
 source_category: 竞赛导向·真题
 source_grade: A
+source_norm: "第25届初赛"
 ---
 
 ## 题目

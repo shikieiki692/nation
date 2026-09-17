@@ -22,6 +22,7 @@ cross_references: []
 status: 已填充
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
+source_norm: "一分册能力测试"
 ---
 
 # 题-072-一分册测试-Ch4B-4-MgCl2与NaCl溶解熵

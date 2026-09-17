@@ -34,6 +34,7 @@ source_file: "[[化学竞赛教程/（已压缩）化学竞赛能力测试]]"
 status: 已填充
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
+source_norm: "化学能力测试"
 ---
 
 # Zn(OH)₂ 沉淀与羟合配位

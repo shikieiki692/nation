@@ -22,6 +22,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_norm: "ABOC 有机化学"
 ---
 # 题-085：画出左边烯基醚共振式的轨道重叠图，解释共轭效应为何只能把电子给到氧的 β位(距离氧 2 个原子)而不
 

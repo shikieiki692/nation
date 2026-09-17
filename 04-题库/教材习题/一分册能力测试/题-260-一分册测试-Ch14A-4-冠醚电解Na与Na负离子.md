@@ -39,6 +39,7 @@ status: 已填充
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
 used_in: "[[综合模拟卷VI]]"
+source_norm: "一分册能力测试"
 ---
 
 # 冠醚电解 Na 与 Na⁻ 负离子

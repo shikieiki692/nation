@@ -31,6 +31,7 @@ source_file: "[[07-资料提炼/习题提炼/习题-一分册测试-Ch14-碱金�
 status: 已填充
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
+source_norm: "一分册能力测试"
 ---
 
 # MgS 晶格能与 HCl 偶极矩

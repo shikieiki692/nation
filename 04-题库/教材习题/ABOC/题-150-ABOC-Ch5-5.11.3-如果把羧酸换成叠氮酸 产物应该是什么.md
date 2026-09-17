@@ -21,6 +21,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_norm: "ABOC 有机化学"
 ---
 # 题-150：如果把羧酸换成叠氮酸，产物应该是什么？
 

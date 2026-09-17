@@ -33,6 +33,7 @@ source_file: "[[07-资料提炼/习题提炼/习题-一分册测试-Ch10-氢稀�
 status: 已填充
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
+source_norm: "一分册能力测试"
 ---
 
 # HF 溶剂体系与 SF₄NH₃

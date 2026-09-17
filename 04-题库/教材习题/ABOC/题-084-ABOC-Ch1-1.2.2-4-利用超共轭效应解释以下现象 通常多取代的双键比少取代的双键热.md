@@ -22,6 +22,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_norm: "ABOC 有机化学"
 ---
 # 题-084：利用超共轭效应解释以下现象：通常多取代的双键比少取代的双键热力学上更加稳定(如下所示)。
 

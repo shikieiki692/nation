@@ -22,6 +22,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_norm: "ABOC 有机化学"
 ---
 # 题-130：写出 1,2,4-三甲基苯在质子酸或 Lewis 酸(用 LA 表示)存在下重排得到 1,3,5-三
 

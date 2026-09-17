@@ -22,6 +22,7 @@ pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
 used_in: "[[第二轮习题集-有机化学一]]"
+source_norm: "ABOC 有机化学"
 ---
 # 题-070：SN2 vs SN1 判断与消旋化
 

@@ -18,6 +18,7 @@ fidelity: 原书逐字
 exam_stage: 初赛
 source_category: 教材课后习题
 source_grade: C
+source_norm: "无机化学第6版（Weller）"
 ---
 
 # 光谱化学序列与电子组态

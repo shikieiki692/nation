@@ -21,6 +21,7 @@ pack: 综合模拟卷
 year: 2022
 source_category: 竞赛导向·真题
 source_grade: A
+source_norm: "第36届决赛"
 ---
 # 第 10 题 Wharton碎片化反应 (11 分)
 

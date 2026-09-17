@@ -20,6 +20,7 @@ subject_module: 有机化学
 pack: 模块习题集
 source_category: 其他类型·自编章节题
 source_grade: B-
+source_norm: "自编·有机化学"
 ---
 # 二级卤代烷 SN2 vs E2 竞争产物预测
 

@@ -23,6 +23,7 @@ updated: 2026-09-02
 aliases: [浙江23-单选55]
 source_category: 竞赛导向·真题（省级）
 source_grade: A-
+source_norm: "省预赛·浙江2023"
 ---
 
 # 题-浙江23-单选-55-Beckmann重排分析

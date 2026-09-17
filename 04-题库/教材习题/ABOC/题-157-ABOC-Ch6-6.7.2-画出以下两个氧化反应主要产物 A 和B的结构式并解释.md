@@ -21,6 +21,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_norm: "ABOC 有机化学"
 ---
 # 题-157：画出以下两个氧化反应主要产物 A 和B的结构式并解释。
 

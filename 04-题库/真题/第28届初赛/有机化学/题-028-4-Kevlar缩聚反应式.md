@@ -35,6 +35,7 @@ used_in: ["[[有机化学阶段测试卷]]", "[[04-题库/有机化学阶段测�
 year: 2014
 source_category: 竞赛导向·真题
 source_grade: A
+source_norm: "第28届初赛"
 ---
 
 ## 题目

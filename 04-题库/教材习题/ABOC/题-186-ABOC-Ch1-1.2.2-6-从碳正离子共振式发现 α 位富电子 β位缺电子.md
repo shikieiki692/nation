@@ -22,6 +22,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_norm: "ABOC 有机化学"
 ---
 # 题-186：从碳正离子共振式发现，α 位富电子，β位缺电子。
 

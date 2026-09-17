@@ -21,6 +21,7 @@ subject_module: 有机化学
 pack: 模块习题集
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_norm: "ABOC 有机化学"
 ---
 # 题-078：金属催化机理
 

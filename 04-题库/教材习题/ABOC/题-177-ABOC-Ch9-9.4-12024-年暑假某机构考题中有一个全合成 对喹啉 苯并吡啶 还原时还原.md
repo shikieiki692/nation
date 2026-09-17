@@ -21,6 +21,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_norm: "ABOC 有机化学"
 ---
 # 题-177：年暑假某机构考题中有一个全合成，对喹啉(苯并吡啶)还原时还原了苯环，那里的老师给出了一种非常离谱的解
 

@@ -24,6 +24,7 @@ pack: 模块习题集
 submodule: 主族元素化学
 source_category: 其他类型·自编章节题
 source_grade: B-
+source_norm: "自编·物理化学"
 ---
 # 题-物胶-03：Kelvin 方程与弯曲液面蒸气压
 

@@ -23,6 +23,7 @@ status: 已填充
 source_category: 竞赛导向·竞赛教材
 source_grade: A
 used_in: "[[二分册专项卷VIII]]"
+source_norm: "高中化学竞赛教程第二分册"
 ---
 # 题-878-二分册-L3实4-Tl2S与CuS溶解性计算解释
 

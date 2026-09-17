@@ -22,6 +22,7 @@ pack: 模块习题集
 used_in: ["[[有机化学阶段测试卷]]", "[[04-题库/有机化学阶段测试卷]]"]
 source_category: 教材课后习题
 source_grade: C
+source_norm: "Clayden 有机化学"
 ---
 # 题-566: 芳香亲核取代+三唑合成机理
 

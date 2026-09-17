@@ -21,6 +21,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_norm: "ABOC 有机化学"
 ---
 # 题-305：Pauson-Khand反应：向《策略与控制》的过渡（高难预警）
 

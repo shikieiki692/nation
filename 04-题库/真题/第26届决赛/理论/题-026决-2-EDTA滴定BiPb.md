@@ -21,6 +21,7 @@ pack: 综合模拟卷
 year: 2012
 source_category: 竞赛导向·真题
 source_grade: A
+source_norm: "第26届决赛"
 ---
 # 题-026决-2：EDTA滴定BiPb
 

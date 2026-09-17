@@ -26,6 +26,7 @@ pack: 章节练习
 source_category: 其他类型·自编章节题
 source_grade: B-
 used_in: "[[第二轮习题集-有机化学一]]"
+source_norm: "自编·有机化学"
 ---
 # 碳氢酸性比较与pKa分析
 

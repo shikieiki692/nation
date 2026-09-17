@@ -20,6 +20,7 @@ pack: 综合模拟卷
 year: 2020
 source_category: 竞赛导向·真题
 source_grade: A
+source_norm: "第34届决赛"
 ---
 # 第 8 题 Diels-Alder反应 (4 分)
 

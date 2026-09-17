@@ -22,6 +22,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_norm: "ABOC 有机化学"
 ---
 # 题-142：写出过量 Li在质子溶剂中还原萘得到的产物和机理。自学练习 5.6.4-3 写出以下反应的机理。
 

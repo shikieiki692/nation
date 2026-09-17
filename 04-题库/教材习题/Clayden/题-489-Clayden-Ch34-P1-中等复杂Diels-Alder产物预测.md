@@ -20,6 +20,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 教材课后习题
 source_grade: C
+source_norm: "Clayden 有机化学"
 ---
 # 题-489: 中等复杂Diels-Alder产物预测
 

@@ -20,6 +20,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_norm: "ABOC 有机化学"
 ---
 # 题-087：以下两个碳正离子谁更稳定？(提示：考虑轨道重叠程度)
 

@@ -20,6 +20,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 教材课后习题
 source_grade: C
+source_norm: "Clayden 有机化学"
 ---
 # 题-433: 不饱和羰基直接/共轭加成区域选择性
 

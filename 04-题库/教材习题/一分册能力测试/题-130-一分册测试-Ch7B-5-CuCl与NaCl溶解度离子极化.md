@@ -22,6 +22,7 @@ cross_references: []
 status: 已填充
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
+source_norm: "一分册能力测试"
 ---
 
 # 题-130-一分册测试-Ch7B-5-CuCl与NaCl溶解度离子极化

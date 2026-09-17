@@ -28,6 +28,7 @@ pack: 模块习题集
 year: 2016
 source_category: 竞赛导向·真题
 source_grade: A
+source_norm: "第30届初赛"
 ---
 # 题-030-5-1：MOₓClᵧ化学式推断及滴定方程式
 

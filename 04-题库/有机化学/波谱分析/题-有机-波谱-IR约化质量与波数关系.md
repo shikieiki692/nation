@@ -24,6 +24,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 其他类型·自编章节题
 source_grade: B-
+source_norm: "自编·有机化学"
 ---
 # C-H与C-C键约化质量与IR波数关系
 

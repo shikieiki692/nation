@@ -21,6 +21,7 @@ subject_module: 有机化学
 pack: 模块习题集
 source_category: 教材课后习题
 source_grade: C
+source_norm: "Clayden 有机化学"
 ---
 # 题-319: 差向异构溴化物消除结果对比
 

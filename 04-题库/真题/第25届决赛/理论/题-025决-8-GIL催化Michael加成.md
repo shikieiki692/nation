@@ -27,6 +27,7 @@ year: 2011
 source_category: 竞赛导向·真题
 source_grade: A
 used_in: "[[综合模拟卷VI]]"
+source_norm: "第25届决赛"
 ---
 # 题-025决-8：GIL催化Michael加成
 

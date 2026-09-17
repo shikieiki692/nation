@@ -19,6 +19,7 @@ pack: 模块习题集
 submodule: 主族元素化学
 source_category: 其他类型·自编章节题
 source_grade: B-
+source_norm: "自编·元素化学"
 ---
 # 题-元s-03：对角线规则（Li—Mg、Be—Al）
 

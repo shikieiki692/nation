@@ -19,6 +19,7 @@ subject_module: 化学原理
 pack: 模块习题集
 source_category: 其他类型·教材例题
 source_grade: B-
+source_norm: "经典例题"
 ---
 # 题-002：Nernst 方程求 Ksp
 

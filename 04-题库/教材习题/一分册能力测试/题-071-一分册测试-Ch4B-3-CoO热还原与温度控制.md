@@ -23,6 +23,7 @@ status: 已填充
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
 used_in: "[[综合模拟卷VII]]"
+source_norm: "一分册能力测试"
 ---
 
 # 题-071-一分册测试-Ch4B-3-CoO热还原与温度控制

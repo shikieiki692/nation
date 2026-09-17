@@ -20,6 +20,7 @@ demoted: 2026-09-01 习题书质量降级（考纲无关+篇幅过短）
 
 source_category: 教材课后习题
 source_grade: C
+source_norm: "无机化学第6版（Weller）"
 ---
 
 # Racah参数计算

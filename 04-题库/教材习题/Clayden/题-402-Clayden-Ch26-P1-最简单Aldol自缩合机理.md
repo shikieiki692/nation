@@ -21,6 +21,7 @@ pack: 章节练习
 source_category: 教材课后习题
 source_grade: C
 used_in: "[[第二轮习题集-有机化学一]]"
+source_norm: "Clayden 有机化学"
 ---
 # 题-402: 最简单Aldol自缩合机理
 

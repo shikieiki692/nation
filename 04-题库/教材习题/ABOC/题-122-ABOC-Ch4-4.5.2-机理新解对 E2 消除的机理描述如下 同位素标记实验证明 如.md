@@ -21,6 +21,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_norm: "ABOC 有机化学"
 ---
 # 题-122：机理新解对 E2 消除的机理描述如下。同位素标记实验证明，如果使用如苯基锂这样的强碱，确实有可能发生
 

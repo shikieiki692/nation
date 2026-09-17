@@ -20,6 +20,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 教材课后习题
 source_grade: C
+source_norm: "Clayden 有机化学"
 ---
 # 题-466: 重氮盐与丙烯酸甲酯的自由基加成
 

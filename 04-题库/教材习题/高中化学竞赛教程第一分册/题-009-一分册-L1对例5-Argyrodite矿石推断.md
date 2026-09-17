@@ -39,6 +39,7 @@ status: 已填充
 source_category: 竞赛导向·竞赛教材
 source_grade: A-
 used_in: "[[一分册专项卷VII]]"
+source_norm: "高中化学竞赛教程第一分册"
 ---
 
 # Argyrodite 矿石推断

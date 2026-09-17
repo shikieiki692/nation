@@ -18,6 +18,7 @@ pack: 章节练习
 submodule: 化学基础与计量
 source_category: 其他类型·自编章节题
 source_grade: B-
+source_norm: "自编·分析化学"
 ---
 # 题-氧沉-01：KMnO₄滴定H₂O₂
 

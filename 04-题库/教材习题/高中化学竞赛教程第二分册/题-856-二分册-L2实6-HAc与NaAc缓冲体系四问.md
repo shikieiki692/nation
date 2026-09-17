@@ -23,6 +23,7 @@ status: 已填充
 source_category: 竞赛导向·竞赛教材
 source_grade: A
 used_in: "[[二分册专项卷VIII]]"
+source_norm: "高中化学竞赛教程第二分册"
 ---
 # 题-856-二分册-L2实6-HAc与NaAc缓冲体系四问
 

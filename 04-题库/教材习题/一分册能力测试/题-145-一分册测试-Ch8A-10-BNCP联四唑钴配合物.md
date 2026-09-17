@@ -40,6 +40,7 @@ status: 已填充
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
 used_in: "[[综合模拟卷VI]]"
+source_norm: "一分册能力测试"
 ---
 
 # BNCP 联四唑合钴(III) 配合物与硝基苯酚氢键

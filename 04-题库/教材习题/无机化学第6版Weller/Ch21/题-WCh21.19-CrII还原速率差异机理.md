@@ -36,6 +36,7 @@ used_in: "[[结构化学阶段测试卷]]"
 status: 已填充
 source_category: 教材课后习题
 source_grade: C
+source_norm: "无机化学第6版（Weller）"
 ---
 
 

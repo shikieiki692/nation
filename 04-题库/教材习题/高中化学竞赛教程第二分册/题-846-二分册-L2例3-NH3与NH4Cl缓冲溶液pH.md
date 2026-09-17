@@ -23,6 +23,7 @@ status: 已填充
 used_in: "[[04-课件/习题集/化学原理阶段测试卷II]]"
 source_category: 竞赛导向·竞赛教材
 source_grade: A
+source_norm: "高中化学竞赛教程第二分册"
 ---
 # 题-846-二分册-L2例3-NH3与NH4Cl缓冲溶液pH
 

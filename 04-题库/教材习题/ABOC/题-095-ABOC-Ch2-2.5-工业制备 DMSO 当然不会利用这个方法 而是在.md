@@ -22,6 +22,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_norm: "ABOC 有机化学"
 ---
 # 题-095：工业制备 DMSO 当然不会利用这个方法，而是在 ${ \mathsf { N O } } _ { 2 }$
 

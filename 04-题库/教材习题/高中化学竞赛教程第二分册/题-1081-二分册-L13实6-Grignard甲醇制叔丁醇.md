@@ -23,6 +23,7 @@ status: 已填充
 source_category: 竞赛导向·竞赛教材
 source_grade: A
 used_in: "[[二分册专项卷V]]"
+source_norm: "高中化学竞赛教程第二分册"
 ---
 # 题-1081-二分册-L13实6-Grignard甲醇制叔丁醇
 

@@ -23,6 +23,7 @@ status: 已填充
 source_category: 竞赛导向·竞赛教材
 source_grade: A
 used_in: "[[二分册专项卷IV]]"
+source_norm: "高中化学竞赛教程第二分册"
 ---
 # 题-976-二分册-L8实1-检验Fe2Plus的试剂
 

@@ -31,6 +31,7 @@ pack: 综合模拟卷
 source_category: 竞赛导向·真题
 used_in: "[[综合模拟卷V]]"
 source_grade: A
+source_norm: "第29届决赛"
 ---
 
 ## 题目

@@ -27,6 +27,7 @@ pack: 综合模拟卷
 year: 2020
 source_category: 竞赛导向·真题
 source_grade: A
+source_norm: "第34届决赛"
 ---
 # 第 9 题 TMSOTf促进反应 (3 分)
 

@@ -22,6 +22,7 @@ status: 已填充
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
 module: 有机合成
+source_norm: "北斗学友竞赛模拟卷"
 ---
 
 # 题-067-北斗-模一-09-Vermiculine的合成

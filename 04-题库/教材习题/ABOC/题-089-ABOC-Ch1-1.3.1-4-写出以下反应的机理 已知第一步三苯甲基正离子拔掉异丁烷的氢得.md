@@ -22,6 +22,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_norm: "ABOC 有机化学"
 ---
 # 题-089：写出以下反应的机理，已知第一步三苯甲基正离子拔掉异丁烷的氢得到叔丁基正离子，然后与底物反应。
 

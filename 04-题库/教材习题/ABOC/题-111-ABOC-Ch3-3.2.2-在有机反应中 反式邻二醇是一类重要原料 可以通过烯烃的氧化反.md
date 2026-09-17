@@ -21,6 +21,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_norm: "ABOC 有机化学"
 ---
 # 题-111：在有机反应中，反式邻二醇是一类重要原料，可以通过烯烃的氧化反应制备。下式给出了合成反式邻二醇的一种路
 

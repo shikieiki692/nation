@@ -20,6 +20,7 @@ subject_module: 结构化学
 pack: 章节练习
 source_category: 其他类型·教学改编
 source_grade: B-
+source_norm: "教学改编题"
 ---
 # 题-改编-12-SnCl4水解与杂化
 

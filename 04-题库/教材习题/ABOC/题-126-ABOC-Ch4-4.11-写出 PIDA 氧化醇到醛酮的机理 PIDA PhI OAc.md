@@ -22,6 +22,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_norm: "ABOC 有机化学"
 ---
 # 题-126：写出 PIDA 氧化醇到醛酮的机理。PIDA：PhI(OAc)2
 

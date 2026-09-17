@@ -22,6 +22,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 其他类型·自编章节题
 source_grade: B-
+source_norm: "自编·有机化学"
 ---
 # 手性分子 R/S 构型判断
 

@@ -38,6 +38,7 @@ status: 已填充
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
 used_in: "[[综合模拟卷VII]]"
+source_norm: "一分册能力测试"
 ---
 
 # LiH 与 BF₃ 反应合成硼烷

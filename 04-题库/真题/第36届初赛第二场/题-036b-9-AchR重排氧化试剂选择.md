@@ -35,6 +35,7 @@ subject_module: 有机化学
 pack: 模块习题集
 source_category: 竞赛导向·真题
 source_grade: A
+source_norm: "第36届初赛第二场"
 ---
 
 ## 题目

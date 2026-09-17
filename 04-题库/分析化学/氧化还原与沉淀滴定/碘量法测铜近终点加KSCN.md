@@ -21,6 +21,7 @@ submodule: 化学基础与计量
 used_in: "[[元素与分析阶段测试卷]]"
 source_category: 其他类型·自编章节题
 source_grade: B-
+source_norm: "自编·分析化学"
 ---
 # 碘量法测铜——近终点加 KSCN
 

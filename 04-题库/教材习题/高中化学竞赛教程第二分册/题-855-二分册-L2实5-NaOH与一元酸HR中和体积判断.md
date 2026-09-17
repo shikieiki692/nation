@@ -23,6 +23,7 @@ status: 已填充
 source_category: 竞赛导向·竞赛教材
 source_grade: A
 used_in: "[[二分册专项卷VII]]"
+source_norm: "高中化学竞赛教程第二分册"
 ---
 # 题-855-二分册-L2实5-NaOH与一元酸HR中和体积判断
 

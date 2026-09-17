@@ -19,6 +19,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 其他类型·自编章节题
 source_grade: B-
+source_norm: "自编·有机化学"
 ---
 # 不对称烯烃 HBr 加成：马氏规则与过氧化物效应
 

@@ -17,6 +17,9 @@ fidelity: 原书改写
 exam_stage: 省预赛
 subject_module: 有机化学
 pack: 预赛专项
+source_category: 竞赛导向·真题
+source_grade: A
+source_norm: "05-真题库（真题讲评层）"
 ---
 
 # Friedel-Crafts反应-苯与1-氯丙烷的烷基化与碳正离子重排

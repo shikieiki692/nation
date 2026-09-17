@@ -22,6 +22,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_norm: "ABOC 有机化学"
 ---
 # 题-192：孤对电子被溶剂化，且直立异构体偶极矩小于平伏异构体，极性溶剂有利于稳定高极性异构体。(到9 章就会知
 

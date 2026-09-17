@@ -35,6 +35,7 @@ status: 已填充
 used_in: "[[综合模拟卷III]]"
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
+source_norm: "化学能力测试"
 ---
 
 # NSF 同分异构与 Lewis 结构
