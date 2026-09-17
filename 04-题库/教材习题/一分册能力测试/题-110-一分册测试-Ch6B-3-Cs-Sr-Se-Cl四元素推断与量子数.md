@@ -4,7 +4,7 @@ type: 题目
 aliases: ["一分册测试Ch6B题3"]
 source_subject: 化学原理
 submodule: 元素推断与原子轨道
-subject_module: 化学原理
+subject_module: 结构化学
 exam_stage: 初赛
 question_type: [推断, 简答]
 difficulty: 4

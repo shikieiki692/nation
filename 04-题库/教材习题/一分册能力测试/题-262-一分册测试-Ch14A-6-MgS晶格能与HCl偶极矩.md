@@ -5,7 +5,7 @@ aliases:
   - MgS晶格能与HCl偶极矩
 source_subject: 高中化学竞赛教程·第一分册第14章能力测试 A卷
 submodule: Born-Haber 循环与偶极矩
-subject_module: 化学原理
+subject_module: 元素与分析
 exam_stage: 初赛
 question_type:
   - 计算

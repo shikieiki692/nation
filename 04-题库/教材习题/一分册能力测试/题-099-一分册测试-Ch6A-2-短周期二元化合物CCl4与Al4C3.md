@@ -4,7 +4,7 @@ type: 题目
 aliases: ["一分册测试Ch6A题2"]
 source_subject: 化学原理
 submodule: 元素周期律与计算推理
-subject_module: 化学原理
+subject_module: 结构化学
 exam_stage: 初赛
 question_type: [推断, 计算]
 difficulty: 3

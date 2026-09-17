@@ -5,7 +5,7 @@ aliases:
   - Born-Haber 循环
 source_subject: 化学竞赛能力测试·第3章A卷
 submodule: Born-Haber 循环与键能
-subject_module: 化学原理
+subject_module: 结构化学
 exam_stage: 初赛
 question_type:
   - 计算

@@ -5,7 +5,7 @@ aliases:
   - Te-Al-Cl 配合物
 source_subject: 化学竞赛能力测试·第2章A卷
 submodule: Te₄²⁺ 簇与 Al-Cl 阴离子
-subject_module: 化学原理
+subject_module: 结构化学
 exam_stage: 初赛
 question_type:
   - 推断
