@@ -23,6 +23,7 @@ pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
 source_norm: "ABOC 有机化学"
+used_in: "[[第二轮习题集-有机化学二]]"
 ---
 # 题-209：无法形成形式上的二醇。
 
@@ -52,7 +53,6 @@ source_norm: "ABOC 有机化学"
 
 ## 知识点
 
-used_in: "[[第二轮习题集-有机化学二]]"
 ---
 
 ## 相关题目

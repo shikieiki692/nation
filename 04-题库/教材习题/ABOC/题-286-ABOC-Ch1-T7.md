@@ -22,6 +22,7 @@ pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
 source_norm: "ABOC 有机化学"
+used_in: "[[第二轮习题集-有机化学一]]"
 ---
 # 题-286：Tropinone：鎓离子，缩合反应与 Curtin-Hamment 原理
 
@@ -51,7 +52,6 @@ T7. BDCA。三氟乙酸酸性最强，对位硝基取代比甲氧基取代更好
 
 ## 知识点
 
-used_in: "[[第二轮习题集-有机化学一]]"
 ---
 
 ## 相关题目

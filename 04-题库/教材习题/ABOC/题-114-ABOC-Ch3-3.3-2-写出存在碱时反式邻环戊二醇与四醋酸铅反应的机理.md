@@ -23,6 +23,7 @@ pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
 source_norm: "ABOC 有机化学"
+used_in: "[[第二轮习题集-有机化学一]]"
 ---
 # 题-114：写出存在碱时反式邻环戊二醇与四醋酸铅反应的机理。
 
@@ -54,7 +55,6 @@ source_norm: "ABOC 有机化学"
 
 ## 知识点
 
-used_in: "[[第二轮习题集-有机化学一]]"
 ---
 
 ## 相关题目
