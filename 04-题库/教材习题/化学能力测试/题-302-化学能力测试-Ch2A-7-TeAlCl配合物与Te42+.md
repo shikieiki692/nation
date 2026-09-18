@@ -86,7 +86,7 @@ $$\mathrm{Te_4^{2+}}: \begin{array}{c} \mathrm{Te^+} = \mathrm{Te^+} \\ |\qquad|
 
 ![[913d20139ee39625f996c1c55c7c6f914cac12c3409c9e000b9b14a349207f2c.jpg]]
 
-![[[Al₂Cl₇]⁻ 结构](88d86539ebb9c74749216dce620bdf5ac7874b5f13ef4f645b0cc09788c1ca61.jpg)](88d86539ebb9c74749216dce620bdf5ac7874b5f13ef4f645b0cc09788c1ca61.jpg)
+【[Al₂Cl₇]⁻ 结构】![[88d86539ebb9c74749216dce620bdf5ac7874b5f13ef4f645b0cc09788c1ca61.jpg]]
 
 阳离子 $\mathrm{Te_4^{2+}}$ 的特点是具有芳香性（$\pi_4^6$ 离域体系，平面正方形）。
 
