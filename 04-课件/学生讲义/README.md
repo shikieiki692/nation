@@ -333,5 +333,5 @@ $PY 11-模板/scripts/handout_latex_outside_math.py --all
 $PY 11-模板/scripts/handout_sync_image_meta.py
 ```
 
-> 产物统一落在 `06-学生侧材料/讲义/`，旧版在 `_archive-旧版产物/`。详见那里的 README。
+> 产物统一落在 `06-学生侧材料/讲义/`（按同名 6 模块分子目录），历史产物分层归档在 `_archive/`。详见那里的 README。
 
