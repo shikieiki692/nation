@@ -10,6 +10,7 @@ question_type: [简答]
 teaching_level: 巩固
 knowledge_points: ["[[稀有气体]]"]
 status: 已填充
+answer_status: 源书无解
 tags: [化竞, 无机化学, Weller, 稀有气体]
 created: 2026-08-27
 updated: 2026-08-27

@@ -10,6 +10,7 @@ question_type: [计算]
 teaching_level: 巩固
 knowledge_points: ["[[磁矩]]", "[[高自旋与低自旋]]"]
 status: 已填充
+answer_status: 源书无解
 tags: [化竞, 无机化学, Weller, 晶体场理论]
 created: 2026-08-27
 updated: 2026-08-27
