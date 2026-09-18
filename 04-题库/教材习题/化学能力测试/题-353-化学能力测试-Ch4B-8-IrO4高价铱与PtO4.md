@@ -124,7 +124,9 @@ $$\mathrm{PtO_4^{2+} = PtO_2^+ + O_2^+} \quad \Delta H = -520.8\ \mathrm{kJ\cdot
 | $B_1$ | 平面四方形 D₄ₕ | Ir(VII)，配位数 4 | 188.8 pm（轴向）/168.0 pm（赤道） |
 | $C_1$ | 变形四面体 | Cₛ（仅一镜面） | 209.6 pm /167.9 pm |
 
-![[da1f232a01c92e4449af5260e2031c74320d9decf462b952273e8ee0f312bd78.jpg]] ![[3233c2ab441811d7e03a5d035e9568e8c49fcc6f328072670a7789ddc6f1120c.jpg]]
+![[da1f232a01c92e4449af5260e2031c74320d9decf462b952273e8ee0f312bd78.jpg]]
+
+![[3233c2ab441811d7e03a5d035e9568e8c49fcc6f328072670a7789ddc6f1120c.jpg]]
 
 **8-2** 考查氧化还原反应：
 
