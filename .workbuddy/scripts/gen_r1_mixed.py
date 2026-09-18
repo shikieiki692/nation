@@ -85,7 +85,7 @@ for r in recs:
     for k in ([tk] if isinstance(tk, str) else tk):
         avail[(k, prio(r), band(r.get("difficulty")))].append(
             {"pp": prio(r), "tier": prio(r), "band": band(r.get("difficulty")),
-             "r": r, "q": norm_images(q), "ans": norm_images(a), "topic": k})
+             "r": r, "q": norm_images(q, r.get("_path")), "ans": norm_images(a, r.get("_path")), "topic": k})
 for key in avail:
     avail[key].sort(key=lambda c: (reuse_tier(c["r"]), c["r"]["_path"]))
 
