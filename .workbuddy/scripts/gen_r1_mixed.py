@@ -60,6 +60,11 @@ for r in recs:
         continue
     if prio(r) >= 99:
         continue
+    # 2026-09-18 第二轮补：与「竞赛教材版」共用同一份 `EXCLUDE_PATHS` 真缺陷黑名单。
+    #   本脚本此前**漏了这道过滤** → 上轮 4 题有 2 道（汇智-晶体结构-5/51）已进现役套卷，
+    #   构成真实交付物缺陷。判定层与 `prio(r) >= 99` 同层（都在 `route()` 之前）。
+    if r["_path"].replace(os.sep, "/") in G["EXCLUDE_PATHS"]:
+        continue
     tk = route(r)
     if not tk:
         continue
