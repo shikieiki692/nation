@@ -237,9 +237,8 @@ for pi, sel in enumerate(papers, 1):
             L += ["### 第" + str(i) + "题", ""]
             if with_ans:
                 L.append("> 来源：" + shortsrc(c["r"]))
-                _cu = clean_used(c["r"].get("used_in", ""), shortsrc(c["r"]))
-                if _cu:
-                    L.append("> 曾用于：" + _cu)
+                # 2026-09-18：删除「> 曾用于：…」行（用户拍板「整行全删」）。
+                # 理由同 gen_r1.py：台账信息，对做题无价值，且含自引用本卷。
                 L.append("")
             L += [c["q"].strip(), ""]
             if with_ans:
