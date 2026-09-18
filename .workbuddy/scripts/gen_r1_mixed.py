@@ -26,7 +26,7 @@ ROOT = r"C:\Obsidion\妙妙屋"
 WRITE = "--write" in sys.argv
 OUTDIR = os.path.join(ROOT, "04-课件", "习题集", "第一轮·综合套卷")
 
-src = io.open(".workbuddy/tmp/gen_r1.py", encoding="utf-8").read().replace("\nmain()\n", "\n")
+src = io.open(".workbuddy/scripts/gen_r1.py", encoding="utf-8").read().replace("\nmain()\n", "\n")
 G = {"__name__": "gen_r1_lib"}
 exec(compile(src, "gen_r1.py", "exec"), G)
 route, prio, load = G["route"], G["prio"], G["load"]
