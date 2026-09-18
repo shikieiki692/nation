@@ -46,15 +46,31 @@ def is_real_exam(basename: str) -> bool:
     return res
 
 
+def _sec_level(ln: str):
+    """返回 ATX 标题层级（# 个数）；非标题返回 None。"""
+    m = re.match(r"^(#{1,6})\s", ln)
+    return len(m.group(1)) if m else None
+
+
 def strip_source_and_index(text: str):
-    """非真题的 `> 原题：` 行删除；尾部索引节（来源/知识点/题目索引）吞到 EOF。"""
+    """非真题的 `> 原题：` 行删除；索引节（来源/知识点/题目索引）吞至下一个同级或更高级标题。
+
+    ⚠️ 2026-09-18 修复：原实现命中索引节后 `sec=True` 吞到 EOF，但索引节并非总在卷尾
+    （沉淀溶解平衡第537行、周期律第525行均在卷中），会把其后半卷全部吞掉
+    （两卷分别丢失 20 / 22 题）。现改为：遇到层级 <= 索引节层级的标题即退出跳过。
+    """
     lines = text.split("\n")
-    out, drop, sec = [], 0, False
+    out, drop, sec_lv = [], 0, None
     for ln in lines:
-        if sec:
-            continue
+        if sec_lv is not None:
+            lv = _sec_level(ln)
+            if lv is not None and lv <= sec_lv:
+                sec_lv = None                 # 回到正文层级 → 停止跳过
+            else:
+                drop += 1
+                continue
         if INDEX_SEC.match(ln):
-            sec = True
+            sec_lv = _sec_level(ln) or 2      # 索引节通常为 ##（2 级）
             drop += 1
             continue
         m = YUANTI.match(ln)
