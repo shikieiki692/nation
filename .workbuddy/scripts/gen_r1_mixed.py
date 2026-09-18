@@ -33,6 +33,8 @@ route, prio, load = G["route"], G["prio"], G["load"]
 band, is_choice, reuse_tier = G["band"], G["is_choice_ans"], G["reuse_tier"]
 norm_images, resolve_img, shortsrc = G["norm_images"], G["resolve_img"], G["shortsrc"]
 imgs_ok = G["imgs_ok"]
+clean_used = G["clean_used"]    # 2026-09-18：与竞赛教材版共用「曾用于」清理（剥库内路径/去重）
+gate_v2 = G["gate_v2"]          # 2026-09-18：与竞赛教材版共用「卷面质量闸门 v2」
 T, ORDER, TIERNAME = G["T"], G["ORDER"], G["TIERNAME"]
 DISCIPLINE, TODAY, IMG, ZUTI = G["DISCIPLINE"], G["TODAY"], G["IMG"], G["ZUTI"]
 
@@ -65,7 +67,13 @@ for r in recs:
     if not got:
         continue
     fm, q, a = got
-    if len(q) < 40 or (len(a) < 15 and not is_choice(a)) or len(q) > 4000:
+    # 2026-09-18：旧口径 `len(q) < 40`（纯长度门槛）→ 升级为**结构质量门槛 v2**
+    #   （与「第一轮·竞赛教材版」共用 `gate_v2`）：拒 H1 派生描述短语、纯指针、
+    #   极短指示词+清单缺失、答案过短、题干过长。起因＝用户反馈套卷含无关信息。
+    _rej = collections.Counter()
+    if not gate_v2(r, fm, q, a, _rej):
+        continue
+    if (fm.get("answer_status") or "").strip() in ("源书无解", "待补"):
         continue
     if not imgs_ok(q, a):          # 图必须在媒体仓库或仓库根（保 Word 管线）
         continue
@@ -229,9 +237,9 @@ for pi, sel in enumerate(papers, 1):
             L += ["### 第" + str(i) + "题", ""]
             if with_ans:
                 L.append("> 来源：" + shortsrc(c["r"]))
-                u = c["r"].get("used_in", "")
-                if u not in ("", "[]"):
-                    L.append("> 曾用于：" + u.replace('"', '').replace("[", "").replace("]", ""))
+                _cu = clean_used(c["r"].get("used_in", ""), shortsrc(c["r"]))
+                if _cu:
+                    L.append("> 曾用于：" + _cu)
                 L.append("")
             L += [c["q"].strip(), ""]
             if with_ans:
@@ -272,9 +280,11 @@ idx = ["---", 'title: "第一轮综合套卷 总索引"', "type: 索引", "role:
 for m in manifest:
     b = m["bands"]
     t = m["tiers"]
+    # 兼容 int / str 两种键（内存构造用 int、JSON 回读用 str；2026-09-17 实测曾整列输出 0）
+    _g = lambda d, k: d.get(k, d.get(int(k), 0))
     idx.append("| 第%02d卷 | %d | %d/%d/%d | %d | %d | %d | %d | [[第一轮综合卷%02d（教师版）]] | [[第一轮综合卷%02d（学生版）]] |"
-               % (m["no"], m["n"], b.get("2", 0), b.get("3", 0), b.get("4", 0),
-                  t.get("0", 0), t.get("1", 0), t.get("2", 0), t.get("3", 0), m["no"], m["no"]))
+               % (m["no"], m["n"], _g(b, "2"), _g(b, "3"), _g(b, "4"),
+                  _g(t, "0"), _g(t, "1"), _g(t, "2"), _g(t, "3"), m["no"], m["no"]))
 idx += ["", "**合计**：基础 %d ＋ 进阶 %d ＋ 挑战 %d ＝ %d 题；真题 %d ／ 竞赛题集 %d ／ 竞赛教程 %d ／ 竞赛教材 %d。"
         % (tb.get(2, 0), tb.get(3, 0), tb.get(4, 0), tn,
            tt.get("0", 0), tt.get("1", 0), tt.get("2", 0), tt.get("3", 0)), ""]
