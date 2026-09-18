@@ -24,7 +24,7 @@ aliases: [浙江22-多选67]
 source_category: 竞赛导向·真题（省级）
 source_grade: A-
 source_norm: "省预赛·浙江2022"
-used_in: "[[第一轮综合卷01（教师版）]]"
+used_in: ["[[第一轮综合卷01（教师版）]]", "[[第一轮综合卷02（教师版）]]"]
 ---
 
 # 题-浙江22-多选-67-N2O的Lewis结构

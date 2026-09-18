@@ -18,6 +18,7 @@ status: 已填充
 knowledge_points:
   - "[[平衡常数]]"
 updated: 2026-09-17
+used_in: "[[第一轮综合卷11（教师版）]]"
 ---
 
 # 二分册测试 卷01 第8题 · NH4Cl/NH4I混合固体的平衡压力

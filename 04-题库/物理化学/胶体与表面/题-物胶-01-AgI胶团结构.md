@@ -20,6 +20,7 @@ submodule: 化学基础与计量
 source_category: 其他类型·自编章节题
 source_grade: B-
 source_norm: "自编·物理化学"
+used_in: "[[第一轮原理·1-化学计量与气体（教师版）]]"
 ---
 # 题-物胶-01：AgI 溶胶胶团结构
 

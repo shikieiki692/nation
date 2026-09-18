@@ -35,7 +35,7 @@ updated: 2026-09-03
 source: 化学竞赛能力测试·第5章 化学热力学初步知识·A卷第3题
 source_file: "[[化学竞赛教程/（已压缩）化学竞赛能力测试]]"
 status: 已填充
-used_in: "[[综合模拟卷IV]]"
+used_in: ["[[综合模拟卷IV]]", "[[第一轮综合卷08（教师版）]]"]
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
 source_norm: "化学能力测试"

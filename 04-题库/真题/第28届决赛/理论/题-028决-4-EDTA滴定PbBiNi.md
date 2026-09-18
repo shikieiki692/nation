@@ -27,7 +27,7 @@ year: 2014
 source_category: 竞赛导向·真题
 source_grade: A
 source_norm: "第28届决赛"
-used_in: "[[第一轮结构·5-配位化学（教师版）]]"
+used_in: ["[[第一轮结构·5-配位化学（教师版）]]", "[[第一轮综合卷05（教师版）]]"]
 ---
 # 第 4 题 EDTA 滴定 Pb、Bi、Ni (6 分)
 

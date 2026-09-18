@@ -20,6 +20,7 @@ pack: 预赛专项
 source_category: 竞赛导向·真题
 source_grade: A
 source_norm: "05-真题库（真题讲评层）"
+used_in: "[[第一轮结构·5-配位化学（教师版）]]"
 ---
 
 # Jahn-Teller效应-Cu2+配合物的拉长八面体

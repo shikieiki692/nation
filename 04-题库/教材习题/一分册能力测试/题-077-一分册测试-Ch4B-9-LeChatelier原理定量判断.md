@@ -23,6 +23,7 @@ status: 已填充
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
 source_norm: "一分册能力测试"
+used_in: "[[第一轮原理·3-热力学初步（教师版）]]"
 ---
 
 # 题-077-一分册测试-Ch4B-9-LeChatelier原理定量判断

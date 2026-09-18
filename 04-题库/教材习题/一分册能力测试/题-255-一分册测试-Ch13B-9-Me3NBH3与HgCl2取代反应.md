@@ -37,7 +37,7 @@ status: 已填充
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
 source_norm: "一分册能力测试"
-used_in: "[[第一轮原理·6-酸碱理论（教师版）]]"
+used_in: ["[[第一轮原理·6-酸碱理论（教师版）]]", "[[第一轮综合卷01（教师版）]]"]
 ---
 
 # Me₃N·BH₃ 与 HgCl₂ 取代反应

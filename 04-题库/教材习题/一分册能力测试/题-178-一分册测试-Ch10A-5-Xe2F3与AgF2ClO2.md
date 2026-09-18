@@ -36,6 +36,7 @@ status: 已填充
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
 source_norm: "一分册能力测试"
+used_in: "[[第一轮原理·1-化学计量与气体（教师版）]]"
 ---
 
 # Xe₂F₃ 与 AgF₂+ClO₂

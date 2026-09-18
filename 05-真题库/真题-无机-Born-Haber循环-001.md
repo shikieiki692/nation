@@ -20,6 +20,7 @@ pack: 预赛专项
 source_category: 竞赛导向·真题
 source_grade: A
 source_norm: "05-真题库（真题讲评层）"
+used_in: "[[第一轮原理·3-热力学初步（教师版）]]"
 ---
 
 # Born-Haber循环-从热力学数据计算NaCl的晶格能

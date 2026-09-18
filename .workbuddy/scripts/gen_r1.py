@@ -11,8 +11,12 @@ CENSUS = os.path.join(ROOT, ".workbuddy/tmp/qb_census.json")
 OUTDIR = os.path.join(ROOT, "04-课件", "习题集", "第一轮·竞赛教材版")
 MEDIA = os.path.join(ROOT, "媒体仓库")
 WRITE = "--write" in sys.argv
-PER_SET, QUOTA = 25, {2: 2, 3: 15, 4: 8}   # 2026-09-17 三次调整：基础 3→2（未用基础题仅 139，
-                                           # 要同时供 12 套综合套卷用，故专题卷让出 1 道/套给套卷）
+PER_SET, QUOTA = 40, {2: 2, 3: 18, 4: 20}   # 2026-09-18 第五次调整（用户拍板「扩到 40 题/卷」）：
+                                           #   25 → 40。配额按**桶内 band 供给**重排：
+                                           #   band4 池 1,004 题（原仅用 120）→ 放宽到 20/卷；
+                                           #   band3 池 805 → 18/卷；band2 池仅 177 且需供 12 套
+                                           #   综合套卷 → **保持 2 不动**（稀缺资源）。
+                                           #   实测：除 S6（桶内仅 10 题）外，14 桶均可凑满 40。
 
 # 已发给学生的结构化学第一轮卷 → 其题在回收时**最后考虑**（用户 2026-09-17 指示：
 # 「允许回收，但避开结构化学第一轮已发的」）。其余已用题可正常回收。
@@ -1050,8 +1054,24 @@ def main():
     picked, taken = {}, set()
     for key in ORDER:
         cand = [(pp, r) for pp, r in buckets.get(key, []) if r["_path"] not in taken]
+        # ── 排序键（2026-09-18 第五次调整）─────────────────────────────────────
+        # 旧末位 `x[1]["_path"]` 是**路径字典序**，无质量含义 → 系统性偏袒短文件名源：
+        #   实测 S3 桶中「题-汇智-分子结构-*」排序后 rank≥29，前 25 席被
+        #   「题-030-*／题-039-*」类短编号文件名占满 → 该源 34 题合格却 0 入选。
+        # 新末位 = **同源序号（round-robin 序）**：同一来源的题在队列中按出现次序
+        #   编号（0,1,2,…），使各来源的题**交错排列**而非按文件名聚堆，
+        #   避免单一来源垄断前 N 席；编号相同时再按路径字典序兜底（保证确定性）。
+        _srccnt = collections.Counter()
+        _srcseq = {}
+        for pp, r in sorted(cand, key=lambda x: (reuse_tier(x[1]), x[0],
+                                                 LEVMAP.get(x[1].get("teaching_level", ""), 9),
+                                                 x[1]["_path"])):
+            _s = (r.get("source_norm") or r.get("source") or "").strip('"\'')
+            _srcseq[r["_path"]] = _srccnt[_s]
+            _srccnt[_s] += 1
         cand.sort(key=lambda x: (reuse_tier(x[1]), x[0],
-                                 LEVMAP.get(x[1].get("teaching_level", ""), 9), x[1]["_path"]))
+                                 LEVMAP.get(x[1].get("teaching_level", ""), 9),
+                                 _srcseq.get(x[1]["_path"], 0), x[1]["_path"]))
         ok, rej = [], collections.Counter()
         for pp, r in cand:
             got = load(os.path.join(ROOT, r["_path"].replace("/", os.sep)))

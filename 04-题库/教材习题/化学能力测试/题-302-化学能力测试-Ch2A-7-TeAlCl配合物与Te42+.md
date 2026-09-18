@@ -41,6 +41,7 @@ status: 已填充
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
 source_norm: "化学能力测试"
+used_in: "[[第一轮结构·1-原子结构（教师版）]]"
 ---
 
 # Te-Al-Cl 配合物与芳香性 Te₄²⁺
