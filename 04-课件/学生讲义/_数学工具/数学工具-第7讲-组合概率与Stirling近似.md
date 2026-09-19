@@ -505,26 +505,41 @@ $C(10,3) = \dfrac{10\times9\times8}{3\times2\times1} = 120$；$P(10,3) = 10\time
 
 ### 练习题
 
-| 题号 | 答案 |
-|:--|:--|
-| 1 | $C(10,3)=120$；$P(10,3)=720$；$C(8,0)=1$ |
-| 2 | (a) $3^5 = 243$；(b) $C(5+3-1,5) = C(7,5) = C(7,2) = 21$ |
-| 3 | 简单式：$50\ln50-50 = 50\times3.912-50 = 145.60$，相对真值偏低 1.9%；完整式加 $\frac12\ln(2\pi\times50) = \frac12\ln314.2 = 2.876$ ⇒ `148.48`，与真值 148.478 吻合（误差 `~10⁻⁵`） |
-| 4 | $a^4 + 4a^3b + 6a^2b^2 + 4ab^3 + b^4$ |
-| 5 | 最概然 $n = 3$（$Np=3$）；$\langle n\rangle = 3$；$\sigma = \sqrt{10\times0.3\times0.7} = \sqrt{2.1} = 1.45$ |
-| 6 | 等摩尔：$R\ln2 = 5.76\ \mathrm{J\,mol^{-1}K^{-1}}$；0.25/0.75：$-R(0.25\ln0.25+0.75\ln0.75) = -8.314(-0.3466-0.2158) = 4.68\ \mathrm{J\,mol^{-1}K^{-1}}$ |
-| 7 | $n=N/2=50$，$\ln W = \ln C(100,50) = \ln100! - 2\ln50!$，真值 $= 66.79$。简单式给 $(100\ln100-100) - 2(50\ln50-50) = 360.52 - 2\times145.60 = 69.32$，**偏高 3.8%**。误差来源：$-N$ 项抵消后，剩下的 $\frac12\ln(2\pi N)$ 项未能抵消——净修正 $= \frac12\ln(2\pi\times100) - 2\times\frac12\ln(2\pi\times50) = 3.22 - 2\times2.88 = -2.53$，加回后 $69.32 - 2.53 = 66.79$ ✓ 与真值吻合。这正是 4.3 警告的情形 |
-| 8 | 298 K：$k_BT = 207.2\ \mathrm{cm^{-1}}$，$\Delta\varepsilon/k_BT = 1.000$ ⇒ $N_1/N_0 = e^{-1} = 0.368$，$N_1/N = 0.269$；600 K：$k_BT = 417\ \mathrm{cm^{-1}}$（$0.0517\ \mathrm{eV}$），$\Delta\varepsilon/k_BT = 0.497$ ⇒ $N_1/N_0 = 0.608$，$N_1/N = 0.378$ |
-| 9 | $q = 1+0.3679+0.1353 = 1.503$；$P_0 = 66.5\%$，$P_1 = 24.5\%$，$P_2 = 9.0\%$ |
-| 10 | $\ln C(2n,n) = \ln(2n)! - 2\ln n!$。简单式：$2n\ln(2n)-2n - 2(n\ln n - n) = 2n\ln2$。补修正：$\frac12\ln(4\pi n) - 2\cdot\frac12\ln(2\pi n) = \frac12\ln\dfrac{4\pi n}{(2\pi n)^2} = \frac12\ln\dfrac{1}{\pi n} = -\frac12\ln(\pi n)$。故 $\ln C(2n,n)\approx 2n\ln2 - \frac12\ln(\pi n)$，即 $C(2n,n)\approx 4^n/\sqrt{\pi n}$ |
-| 11 | 每个分子可选位置数正比于 $V$，故 $W\propto V^N$，$W_2/W_1 = (V_2/V_1)^N$。$\Delta S = k\ln(W_2/W_1) = Nk\ln(V_2/V_1) = nR\ln 2 = 5.76\ \mathrm{J/K}$（$n=1$，$V_2=2V_1$）✓ 与热力学公式完全一致 |
-| 12 | $N=1000$：$\langle n\rangle = 500$，$\sigma = \sqrt{250} = 15.8$，相对涨落 $15.8/500 = 3.2\%$；$N=10^{23}$：$\sigma = \sqrt{2.5\times10^{22}} = 1.58\times10^{11}$，相对涨落 $=1.58\times10^{11}/5\times10^{22} = 3.2\times10^{-12}$，完全不可观测 |
-| 13 | $\ln W \approx N\ln N - n\ln n - (N-n)\ln(N-n)$（$N\ln N - N$ 与 $-N$ 抵消后）。$\dfrac{d}{dn} = -\ln n - 1 + \ln(N-n) + 1 = \ln\dfrac{N-n}{n} = 0$ ⇒ $n = N/2$。二阶导 $-\frac1n - \frac1{N-n} < 0$ ⇒ 确为极大 ✓ |
-| 14 | $\ln W = \ln C(N,n) + n\ln3$。求导：$\ln\dfrac{N-n}{n} + \ln3 = 0$ ⇒ $\dfrac{N-n}{n} = \dfrac13$ ⇒ $n/N = 3/4 = 75\%$。物理意义：等能条件下，简并度大的能级容纳更多分子；若两能级能量不同，则还要乘 Boltzmann 因子 $e^{-\Delta\varepsilon/kT}$ |
-| 15 | $\Lambda = \dfrac{6.626\times10^{-34}}{\sqrt{2\pi\times4.65\times10^{-26}\times1.381\times10^{-23}\times298}} = \dfrac{6.626\times10^{-34}}{3.47\times10^{-23}} = 1.91\times10^{-11}\ \mathrm{m}$（约 19 pm）。$q = \dfrac{0.0248}{(1.91\times10^{-11})^3} = \dfrac{0.0248}{6.97\times10^{-33}} = 3.6\times10^{30}$，数量级 **$10^{30}$** |
-| 16 | $\ln\dfrac{N!}{(N-n)!} \approx N\ln N - (N-n)\ln(N-n) - n$。$\ln(N-n) = \ln N + \ln(1-\frac nN) \approx \ln N - \frac nN$，代入：$(N-n)(\ln N - \frac nN) = N\ln N - n\ln N - n + \frac{n^2}{N}$。原式 $= N\ln N - N\ln N + n\ln N + n - \frac{n^2}{N} - n = n\ln N - \frac{n^2}{N}\approx n\ln N$（$n\ll N$）✓ |
-| 17 | 偏离超过 $1\sigma$ 的概率 $= 1 - 68.3\% = 31.7\%$。$N=10^4$：$\sigma = \sqrt{10^4\times0.25} = 50$，即正面数落在 $5000\pm50$ 之外的概率约 32%（约 4950 以下或 5050 以上） |
-| 18 | $W \propto V^N$ ⇒ $\Delta S = k\ln(V_2/V_1)^N = Nk\ln(V_2/V_1) = nR\ln(V_2/V_1)$ ✓ 与热力学等温可逆熵变公式一致。Stirling 在这里的作用：$\ln V^N = N\ln V$ 本不需要 Stirling，但如果要求「$N$ 个分子在体积 $V$ 中的位置状态数」的**绝对**值（$W \propto V^N/N!$，$N!$ 修正不可区分性），就必须用 Stirling 处理 $\ln N!$ |
+**1.** $C(10,3)=\dfrac{10\times9\times8}{3!}=120$；$P(10,3)=10\times9\times8=720$；$C(8,0)=1$（全不取只有一种方式）。
+
+**2.** (a) 每个分子独立选 3 个能级之一：$3^5 = 243$；(b) 不可区分 → 隔板法（5 个球 + 2 块隔板排列）：$C(5+3-1,\,3-1) = C(7,2) = 21$。
+
+**3.** 简单式：$\ln(50!) \approx 50\ln 50-50 = 50\times3.912-50 = 145.60$，比真值 148.478 偏低 1.9%；完整式补 $\frac12\ln(2\pi\times50) = \frac12\ln 314.2 = 2.876$ ⇒ 148.48，与真值吻合（相对误差 ~10⁻⁵）。
+
+**4.** $a^4 + 4a^3b + 6a^2b^2 + 4ab^3 + b^4$（系数即 $C(4,k)$：1, 4, 6, 4, 1）。
+
+**5.** 最概然 $n = Np = 3$；$\langle n\rangle = Np = 3$；$\sigma = \sqrt{Np(1-p)} = \sqrt{10\times0.3\times0.7} = \sqrt{2.1} = 1.45$。
+
+**6.** 等摩尔：$\Delta S_{\text{mix}} = -R(0.5\ln 0.5\times2) = R\ln 2 = 5.76\ \mathrm{J\,mol^{-1}K^{-1}}$；0.25/0.75：$-R(0.25\ln0.25+0.75\ln0.75) = -8.314\times(-0.3466-0.2158) = 4.68\ \mathrm{J\,mol^{-1}K^{-1}}$（等摩尔混合熵最大）。
+
+**7.** 最概然分布 $n=N/2=50$：$\ln W = \ln\frac{100!}{50!\,50!} = \ln100! - 2\ln50!$，精确值 $= 363.74 - 2\times148.48 = 66.79$。简单式：$(100\ln100-100) - 2(50\ln50-50) = 360.52 - 291.2 = 69.32$，**偏高 3.8%**。误差来源：$-N$ 项相消后，$\frac12\ln(2\pi N)$ 项**未能相消**——净修正 $= \frac12\ln(2\pi\times100) - 2\times\frac12\ln(2\pi\times50) = 3.22 - 5.75 = -2.53$，加回后 $69.32 - 2.53 = 66.79$ ✓ 与真值吻合（这正是正文警告的情形：分母里的阶乘使简单式误差放大）。
+
+**8.** 298 K：$k_BT/hc = 0.695\times298 = 207.2\ \mathrm{cm^{-1}}$，$\Delta\varepsilon/k_BT = 1.000$ ⇒ $N_1/N_0 = e^{-1} = 0.368$，$N_1/N = 0.368/1.368 = 0.269$；600 K：$k_BT/hc = 417\ \mathrm{cm^{-1}}$，$\Delta\varepsilon/k_BT = 0.497$ ⇒ $N_1/N_0 = e^{-0.497} = 0.608$，$N_1/N = 0.608/1.608 = 0.378$（升温激发态布居增大）。
+
+**9.** $q = 1 + e^{-1} + e^{-2} = 1 + 0.3679 + 0.1353 = 1.503$；布居分数 $P_i = e^{-i}/q$：$P_0 = 66.5\%$，$P_1 = 24.5\%$，$P_2 = 9.0\%$（检验：三者之和 = 100% ✓）。
+
+**10.** $\ln C(2n,n) = \ln(2n)! - 2\ln n!$。简单式部分：$[2n\ln(2n)-2n] - 2[n\ln n - n] = 2n\ln 2$；修正部分：$\frac12\ln(4\pi n) - 2\times\frac12\ln(2\pi n) = \frac12\ln\dfrac{4\pi n}{(2\pi n)^2} = -\frac12\ln(\pi n)$。合并 $\ln C(2n,n) \approx 2n\ln 2 - \frac12\ln(\pi n)$，即 $C(2n,n) \approx \dfrac{4^n}{\sqrt{\pi n}}$。
+
+**11.** 每个分子的可选位置数正比于 $V$，故 $W\propto V^N$，$W_2/W_1 = (V_2/V_1)^N$。$\Delta S = k\ln\dfrac{W_2}{W_1} = Nk\ln\dfrac{V_2}{V_1} = nR\ln 2 = 1\times8.314\times0.693 = 5.76\ \mathrm{J\cdot K^{-1}}$ ✓ 与热力学公式 $nR\ln(V_2/V_1)$ 完全一致。
+
+**12.** $N=1000$：$\langle n\rangle = 500$，$\sigma = \sqrt{1000\times0.25} = 15.8$，相对涨落 $15.8/500 = 3.2\%$；$N=10^{23}$：$\sigma = \sqrt{2.5\times10^{22}} = 1.58\times10^{11}$，相对涨落 $= 1.58\times10^{11}/5\times10^{22} = 3.2\times10^{-12}$——宏观系统中涨落完全不可观测，这就是热力学定律「确定性」的统计根源。
+
+**13.** $\ln W = \ln N! - \ln n! - \ln(N-n)! \approx N\ln N - N - [n\ln n - n] - [(N-n)\ln(N-n) - (N-n)]$，其中 $-N+n+(N-n) = 0$ 相消。对 $n$ 求导：$\dfrac{d\ln W}{dn} = -\ln n - 1 + \ln(N-n) + 1 = \ln\dfrac{N-n}{n} = 0$ ⇒ $n = N/2$。二阶导 $-\dfrac{1}{n} - \dfrac{1}{N-n} < 0$ ⇒ 确为极大 ✓。
+
+**14.** $\ln W = \ln C(N,n) + n\ln g_1 + (N-n)\ln g_0$，$g_0 = 1$ 末项为零。求导（用题 13 的 $\ln\frac{N-n}{n}$）：$\ln\dfrac{N-n}{n} + \ln 3 = 0$ ⇒ $\dfrac{N-n}{n} = \dfrac{1}{3}$ ⇒ $n/N = 3/4 = 75\%$。物理意义：等能条件下简并度大的能级容纳更多分子；若两能级能量不同，则需再乘 Boltzmann 因子 $e^{-\Delta\varepsilon/kT}$（即权重 $g\,e^{-\varepsilon/kT}$）。
+
+**15.** $\Lambda = \dfrac{h}{\sqrt{2\pi mk_BT}} = \dfrac{6.626\times10^{-34}}{\sqrt{2\pi\times4.65\times10^{-26}\times1.381\times10^{-23}\times298}} = \dfrac{6.626\times10^{-34}}{3.47\times10^{-23}} = 1.91\times10^{-11}\ \mathrm{m}$（约 19 pm）。$q = \dfrac{V}{\Lambda^3} = \dfrac{0.0248}{(1.91\times10^{-11})^3} = \dfrac{0.0248}{6.97\times10^{-33}} = 3.6\times10^{30}$，数量级 **$10^{30}$**——巨大的配分函数意味着海量平动状态可供占据，这正是经典（连续）平动处理合法性的来源。
+
+**16.** Stirling：$\ln\dfrac{N!}{(N-n)!} = [N\ln N - N] - [(N-n)\ln(N-n) - (N-n)] = N\ln N - (N-n)\ln(N-n) - n$。展开 $\ln(N-n) = \ln N + \ln\left(1-\frac{n}{N}\right) \approx \ln N - \frac{n}{N}$（$n\ll N$），代入：$(N-n)\ln(N-n) \approx (N-n)\ln N - n + \frac{n^2}{N}$。原式 $= N\ln N - N\ln N + n\ln N + n - \frac{n^2}{N} - n = n\ln N - \frac{n^2}{N} \approx n\ln N$ ✓（$n^2/N$ 项在 $n\ll N$ 时可弃）。
+
+**17.** 二项分布在大 N 下趋近正态：偏离均值**超过** $1\sigma$ 的概率 $= 1 - 68.3\% = 31.7\%$。$N=10^4$：$\sigma = \sqrt{10^4\times0.5\times0.5} = 50$，即正面数偏离 5000 超过 50 枚（落在 4950 以下或 5050 以上）的概率约 32%。
+
+**18.** $W \propto V^N$（$N$ 固定）⇒ $\Delta S = k\ln\dfrac{W_2}{W_1} = k\ln\left(\dfrac{V_2}{V_1}\right)^N = Nk\ln\dfrac{V_2}{V_1} = nR\ln\dfrac{V_2}{V_1}$ ✓ 与热力学等温可逆熵变公式一致。Stirling 在这里的真正作用：若要写 $W$ 的**绝对**表达式 $W \propto V^N/N!$（$N!$ 修正分子的不可区分性），处理 $\ln N!$ 必须用 Stirling；好在此修正项与 $V$ 无关，算熵变时相消。
 
 ---
 
