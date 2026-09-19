@@ -13,11 +13,11 @@ source_grade: A
 source_norm: "二分册能力测试"
 source: "化学竞赛能力测试·高中第二分册 第1章A卷 第8题（8 分）"
 derived_from: "[[卷-01-第1章-A卷-化学反应速率与化学平衡]]"
-answer_status: 已按题号锚切分（待抽检）
+answer_status: "答案见源卷（指针式）"
 status: 已填充
 knowledge_points:
   - "[[平衡常数]]"
-updated: 2026-09-17
+updated: 2026-09-19
 used_in: "[[第一轮综合卷11（教师版）]]"
 ---
 
@@ -25,7 +25,7 @@ used_in: "[[第一轮综合卷11（教师版）]]"
 
 > **来源**：《化学竞赛能力测试·高中第二分册》第1章A卷 第8题（8 分）
 > **派生自**：[[卷-01-第1章-A卷-化学反应速率与化学平衡]]（卷形态保留原文；本文件为派生逐题）
-> **答案状态**：已按题号锚切分（待抽检）
+> **答案状态**：答案见源卷（指针式）
 
 ## 题目
 
@@ -35,29 +35,6 @@ used_in: "[[第一轮综合卷11（教师版）]]"
 
 ## 参考答案
 
-8 \mathrm{NH} _ {4} \mathrm{Cl(s)} \rightleftharpoons \mathrm{NH} _ {3} (\mathrm{g}) + \mathrm{HCl(g)}, K _ {\mathrm{NH} _ {4} \mathrm{Cl}} = \left(\frac {p _ {\mathrm{NH} _ {3}}}{p ^ {\ominus}}\right) \times \left(\frac {p _ {\mathrm{HCl}}}{p ^ {\ominus}}\right) = \left(\frac {\frac {1}{2} p _ {\text {总}}}{p ^ {\ominus}}\right) ^ {2} = \left(\frac {\frac {1}{2} \times 1 0 4 . 6 7}{1 0 0}\right) ^ {2} =
-$$
-
-0.274
-
-$$
-\mathrm{NH} _ {4} \mathrm{I(s)} \rightleftharpoons \mathrm{NH} _ {3} (\mathrm{g}) + \mathrm{HI(g)}, K _ {\mathrm{NH} _ {4} \mathrm{I}} = \left(\frac {\frac {1}{2} \times 1 8 . 8 4 6}{1 0 0}\right) ^ {2} = 8. 8 8 \times 1 0 ^ {- 3}
-$$
-
-两种固体混和时
-
-$$
-\mathrm{NH} _ {4} \mathrm{Cl(s)} \rightleftharpoons \mathrm{NH} _ {3} (\mathrm{g}) + \mathrm{HCl(g)}, \mathrm{NH} _ {4} \mathrm{I(s)} \rightleftharpoons \mathrm{NH} _ {3} (\mathrm{g}) + \mathrm{HI(g)}   x + y \quad x \quad x + y \quad x
-$$
-
-$$
-\text { 此时 } \left(\frac {x}{2 x + 2 y} \times \frac {p _ {\text { 总 }} ^ {\prime}}{p ^ {\ominus}}\right) \left(\frac {x + y}{2 x + 2 y} \times \frac {p _ {\text { 总 }} ^ {\prime}}{p ^ {\ominus}}\right) = K _ {\mathrm{NH} _ {4} \mathrm{Cl}}
-$$
-
-$$
-\left(\frac {y}{2 x + 2 y} \times \frac {p _ {\mathrm{总}} ^ {\prime}}{p ^ {\ominus}}\right) \left(\frac {x + y}{2 x + 2 y} \times \frac {p _ {\mathrm{总}} ^ {\prime}}{p ^ {\ominus}}\right) = K _ {\mathrm {NH_ {4} Cl}}
-$$
-
-由上式相除，得 $\frac{x}{y} = 30.86$ ，再代入上式可求得 $p_{\text{总}}^{\prime} = 106.4\mathrm{kPa}$
-
-即 $p_{\mathrm{Hf}} = \frac{y}{2x + 2y} \times p_{\text{总}}' = 1.67 \mathrm{kPa}$ , $p_{\mathrm{HCl}} = \frac{x}{2x + 2y} \times p_{\text{总}}' = 51.5 \mathrm{kPa}$
+> 本题答案见 [[卷-01-第1章-A卷-化学反应速率与化学平衡]] 的 `## 参考答案` 区。
+> 卷内锚表标识题号：8。
+> 派生文件**不复制**卷内 OCR 答案（源答案文本存在跨题粘连等缺陷，复制会引入错误）。
