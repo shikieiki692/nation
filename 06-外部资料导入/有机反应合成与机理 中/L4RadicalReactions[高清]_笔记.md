@@ -23,7 +23,7 @@ Ultraviolet (200 nm) 586 kJ·m⁻¹ → 大像A-B DE
 
 # ● 能量来源：
 
-◦ 加热：60-80℃可断裂过氧键（ $\Delta G = 139 kJ \cdot mol^{-1}$ ）  
+◦ 加热：60-80℃可断裂过氧键（ $\Delta G = 139 \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ ）  
 ○ 光照：
 
 ■ 红外光：提供约167 kJ·mol $^{-1}$ 能量  
@@ -32,7 +32,7 @@ Ultraviolet (200 nm) 586 kJ·m⁻¹ → 大像A-B DE
 
 ![](L4RadicalReactions[高清]_笔记_images/492002da3be1fb8eecd1c722f8fea0fb0ed5a971ed84a8e46a4be54d6f62b47a.jpg)
 
-● 易断裂键型 ( $\Delta G < 300 kJ \cdot mol^{-1}$ ) :
+● 易断裂键型 ( $\Delta G < 300 \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ ) :
 
 ○ 碳-卤键： $CH_{3}-Br$ (293)、 $CH_{3}-I$ (234)  
 - 卤素单质键：Cl - Cl (243)、Br - Br (192)   
@@ -681,7 +681,7 @@ new SOMO is of lower energy ...
 # ● 特殊稳定机制:
 
 ○ 吸电子基团通过 $\pi^{*}$ 轨道与自由基p轨道作用  
-○ 典型例子：氰基 $(N=CCH_{2}-H,360kJ/mol)$   
+○ 典型例子：氰基 $(N=CCH_{2}-H,360\mathrm{kJ}/\mathrm{mol})$   
 ○ 形成新的SOMO轨道使体系能量降低
 
 # ● 醛基自由基:

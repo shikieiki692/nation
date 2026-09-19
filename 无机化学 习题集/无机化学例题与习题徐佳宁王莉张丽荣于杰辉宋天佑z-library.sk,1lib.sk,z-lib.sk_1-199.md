@@ -83,13 +83,13 @@ $$
 p V = n R T
 $$
 
-将题设的 $T_{1}=300\ K, p_{1}=3.00\times10^{6}\ Pa, n_{1}=10\ mol$ 及 R 值代入其中，即可求出气筒的容积 V:
+将题设的 $T_{1}=300\ K, p_{1}=3.00\times10^{6}\ \mathrm{Pa}, n_{1}=10\ \mathrm{mol}$ 及 R 值代入其中，即可求出气筒的容积 V:
 
 $$
 \begin{array}{r l} V & = \frac {n _ {1} R T _ {1}}{p _ {1}} \\ & = \frac {10 \mathrm{mol} \times 8.314 \mathrm{Pa} \cdot \mathrm{m} ^ {3} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{K} ^ {- 1} \times 300 \mathrm{K}}{3.00 \times 10 ^ {6} \mathrm{Pa}} \\ & = 8.31 \times 10 ^ {- 3} \mathrm{m} ^ {3} \end{array}
 $$
 
-将题设的 $T_{2}=373\ K, p_{2}=1.00\times10^{5}\ Pa$ ，求得的 $V=8.31\times10^{-3}\ m^{3}$ 及 R 值代入理想气体状态方程，即可求得气筒中剩余的氧气的物质的量 $n_{2}$ ：
+将题设的 $T_{2}=373\ K, p_{2}=1.00\times10^{5}\ \mathrm{Pa}$ ，求得的 $V=8.31\times10^{-3}\ m^{3}$ 及 R 值代入理想气体状态方程，即可求得气筒中剩余的氧气的物质的量 $n_{2}$ ：
 
 $$
 \begin{array}{r l} n _ {2} & = \frac {p _ {2} V}{R T _ {2}} \\ & = \frac {1.00 \times 10 ^ {5} \mathrm{Pa} \times 8.31 \times 10 ^ {- 3} \mathrm{m} ^ {3}}{8.314 \mathrm{Pa} \cdot \mathrm{m} ^ {3} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{K} ^ {- 1} \times 373 \mathrm{K}} \\ & = 0.268 \mathrm{mol} \end{array}
@@ -107,7 +107,7 @@ $$
 \begin{array}{r l} m & = \Delta n M \\ & = 9.732 \mathrm{mol} \times 32 \mathrm{g} \cdot \mathrm{mol} ^ {- 1} \\ & = 311 \mathrm{g} \end{array}
 $$
 
-例 1.3 将 $0.10 \, mol \, C_{2}H_{2}$ 气体放在充有 $1.00 \, mol \, O_{2}$ 的 $10.0 \, dm^{3}$ 密闭容器中，令其完全燃烧生成 $CO_{2}$ 和 $H_{2}O$ ，反应完毕时的温度是 $150^{\circ}C$ ，计算此时容器内的压强。
+例 1.3 将 $0.10 \, \mathrm{mol} \, C_{2}H_{2}$ 气体放在充有 $1.00 \, \mathrm{mol} \, O_{2}$ 的 $10.0 \, \mathrm{dm}^{3}$ 密闭容器中，令其完全燃烧生成 $CO_{2}$ 和 $H_{2}O$ ，反应完毕时的温度是 $150^{\circ}C$ ，计算此时容器内的压强。
 
 解：反应方程式为
 
@@ -177,7 +177,7 @@ $$
 
 故两种气体在距氨气一端 $71.3 \mathrm{~cm}$ 处相遇而生成 $\mathrm{NH}_{4} \mathrm{Cl}$ 白烟。
 
-例 1.6 $10.00 \, cm^{3}$ NaCl 饱和溶液质量为 12.003 g，将其蒸干，得 NaCl 3.173 g。已知 NaCl 的摩尔质量为 $58.44 \, g \cdot mol^{-1}$ ，试计算该饱和溶液的质量摩尔浓度和 NaCl 的摩尔分数。
+例 1.6 $10.00 \, \mathrm{cm}^{3}$ NaCl 饱和溶液质量为 12.003 g，将其蒸干，得 NaCl 3.173 g。已知 NaCl 的摩尔质量为 $58.44 \, g \cdot \mathrm{mol}^{-1}$ ，试计算该饱和溶液的质量摩尔浓度和 NaCl 的摩尔分数。
 
 解：设溶剂 $\mathrm{H}_2\mathrm{O}$ 的质量为 $m(\mathrm{H}_2\mathrm{O})$ ，则有
 
@@ -199,7 +199,7 @@ $$
 n (\mathrm{NaCl}) = \frac {m (\mathrm{NaCl})}{M (\mathrm{NaCl})} = \frac {359.34 \mathrm{g}}{58.44 \mathrm{g} \cdot \mathrm{mol} ^ {- 1}} = 6.149 \mathrm{mol}
 $$
 
-故溶液的质量摩尔浓度为 $6.149 \, mol \cdot kg^{-1}$ 。
+故溶液的质量摩尔浓度为 $6.149 \, \mathrm{mol} \cdot \mathrm{kg}^{-1}$ 。
 
 溶剂 $\mathrm{H}_{2} \mathrm{O}$ 的物质的量为
 
@@ -233,7 +233,7 @@ $$
 M = \frac {m (\text { 有机物 })}{b (\text { 有机物 }) \cdot m (\text { 溶剂 })} = \frac {2.00 \mathrm{g}}{0.121 \mathrm{mol} \cdot \mathrm{kg} ^ {- 1} \times 100 \times 10 ^ {- 3} \mathrm{kg}} = 165 \mathrm{g} \cdot \mathrm{mol} ^ {- 1}
 $$
 
-例 1.8 0.542 g HgCl₂ 溶于 50 g 水中，溶液的凝固点为 -0.0744 ℃。已知水的 $k_{f}=1.86\ K\cdot kg\cdot mol^{-1}$ ，通过计算说明 HgCl₂ 在水中的存在形式。
+例 1.8 0.542 g HgCl₂ 溶于 50 g 水中，溶液的凝固点为 -0.0744 ℃。已知水的 $k_{f}=1.86\ \mathrm{K}\cdot \mathrm{kg}\cdot \mathrm{mol}^{-1}$ ，通过计算说明 HgCl₂ 在水中的存在形式。
 
 解：根据凝固点降低公式，先求出该溶液中粒子的质量摩尔浓度 $b_{1}$ ：
 
@@ -241,7 +241,7 @@ $$
 b _ {1} = \frac {\Delta T _ {\mathrm{f}}}{k _ {\mathrm{f}}} = \frac {0.0744 \mathrm{K}}{1.86 \mathrm{K} \cdot \mathrm{kg} \cdot \mathrm{mol} ^ {- 1}} = 0.04 \mathrm{mol} \cdot \mathrm{kg} ^ {- 1}
 $$
 
-$HgCl_{2}$ 的摩尔质量 M 为 $271\ g\cdot mol^{-1}$ ，根据题设条件可求出 $HgCl_{2}$ 溶液的质量摩尔浓度 $b_{2}$ ：
+$HgCl_{2}$ 的摩尔质量 M 为 $271\ g\cdot \mathrm{mol}^{-1}$ ，根据题设条件可求出 $HgCl_{2}$ 溶液的质量摩尔浓度 $b_{2}$ ：
 
 $$
 \begin{array}{r l} b _ {2} & = \frac {n}{m (\text {溶剂})} = \frac {\frac {m}{M}}{m (\text {溶剂})} \\ & = \frac {\frac {0.542 \mathrm{g}}{271 \mathrm{g} \cdot \mathrm{mol} ^ {- 1}}}{50 \times 10 ^ {- 3} \mathrm{kg}} = 0.04 \mathrm{mol} \cdot \mathrm{kg} ^ {- 1} \end{array}
@@ -249,7 +249,7 @@ $$
 
 由 $b_{1} = b_{2}$ ，可知 $\mathrm{HgCl_2}$ 在水溶液中以分子形式存在，不发生解离。
 
-例 1.9 测得人体血液的凝固点降低值为 0.56 K，求人体温度为 $37^{\circ}$ C 时血液的渗透压。已知水的 $k_{f}=1.86\ K\cdot kg\cdot mol^{-1}$ 。
+例 1.9 测得人体血液的凝固点降低值为 0.56 K，求人体温度为 $37^{\circ}$ C 时血液的渗透压。已知水的 $k_{f}=1.86\ \mathrm{K}\cdot \mathrm{kg}\cdot \mathrm{mol}^{-1}$ 。
 
 解：先求出血液的质量摩尔浓度 b 。由公式 $\Delta T_{f}=k_{f}b$ 得
 
@@ -257,7 +257,7 @@ $$
 b = \frac {\Delta T _ {\mathrm{f}}}{k _ {\mathrm{f}}} = \frac {0.56 \mathrm{K}}{1.86 \mathrm{K} \cdot \mathrm{kg} \cdot \mathrm{mol} ^ {- 1}} = 0.3011 \mathrm{mol} \cdot \mathrm{kg} ^ {- 1}
 $$
 
-对于稀溶液,质量摩尔浓度 b 在数值上等于物质的量浓度 c, 故知血液的物质的量浓度 $c = 0.3011 \, mol \cdot dm^{-3}$ , 相当于 $3.011 \times 10^{2} \, mol \cdot m^{-3}$ 。
+对于稀溶液,质量摩尔浓度 b 在数值上等于物质的量浓度 c, 故知血液的物质的量浓度 $c = 0.3011 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ , 相当于 $3.011 \times 10^{2} \, \mathrm{mol} \cdot m^{-3}$ 。
 
 题设温度为 $37^{\circ}C$ ，即温度 T=310 K。再由公式 $\Pi=cRT$ 求出渗透压 $\Pi$ ：
 
@@ -301,12 +301,12 @@ $$
 (C) 3647.7 kPa; (D) 11399.1 kPa。
 
 1.6 将一定量 $KClO_{3}$ 加热后，其质量减少了 0.48 g。生成的氧气用排水集气法收集。若温度为 21℃，压强为 99591.8 Pa，水的饱和蒸气压为 2479.8 Pa，氧气的相对分子质量为 32.0，则收集到的气体体积为
-(A) $188.5 \, cm^{3}$ ; (B) $754 \, cm^{3}$ ; (C) $565.5 \, cm^{3}$ ; (D) $377.6 \, cm^{3}$ 。
+(A) $188.5 \, \mathrm{cm}^{3}$ ; (B) $754 \, \mathrm{cm}^{3}$ ; (C) $565.5 \, \mathrm{cm}^{3}$ ; (D) $377.6 \, \mathrm{cm}^{3}$ 。
 
-1.7 由 $NH_{4}NO_{2}$ 分解得氮气和水。在 $23^{\circ}C$ ，95549.5 Pa 条件下，用排水集气法收集到 $57.5\ cm^{3}$ 氮气。已知水的饱和蒸气压为 2813.1 Pa，则干燥后的氮气的体积为
-(A) $55.8\ cm^{3}$ ; (B) $27.9\ cm^{3}$ ; (C) $46.5\ cm^{3}$ ; (D) $18.6\ cm^{3}$ 。
+1.7 由 $NH_{4}NO_{2}$ 分解得氮气和水。在 $23^{\circ}C$ ，95549.5 Pa 条件下，用排水集气法收集到 $57.5\ \mathrm{cm}^{3}$ 氮气。已知水的饱和蒸气压为 2813.1 Pa，则干燥后的氮气的体积为
+(A) $55.8\ \mathrm{cm}^{3}$ ; (B) $27.9\ \mathrm{cm}^{3}$ ; (C) $46.5\ \mathrm{cm}^{3}$ ; (D) $18.6\ \mathrm{cm}^{3}$ 。
 
-1.8 若溶液的浓度都为 $0.1 \, mol \cdot dm^{-3}$ ，则下列水溶液的沸点由高到低排列，顺序正确的是
+1.8 若溶液的浓度都为 $0.1 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ ，则下列水溶液的沸点由高到低排列，顺序正确的是
 (A) $Na_{2}SO_{4}$ , NaCl, HAc;
 (B) $\mathrm{Al}_{2}\left(\mathrm{SO}_{4}\right)_{3}$ , NaCl, $Na_{2}SO_{4}$ ;
 (C) NaAc, $K_{2}CrO_{4}$ , NaCl;
@@ -315,7 +315,7 @@ $$
 1.9 如果某水合盐的蒸气压低于相同温度下水的蒸气压,则这种盐可能会发生的现象是
 (A) 起泡; (B) 风化; (C) 潮解; (D) 不受大气组成影响。
 
-1.10 在 100 g 水中含 4.5 g 某非电解质的溶液于 -0.465 ℃ 时结冰，则该非电解质的相对分子质量约为（已知水的 $K_{f}=1.86\ K\cdot kg\cdot mol^{-1}$ ）
+1.10 在 100 g 水中含 4.5 g 某非电解质的溶液于 -0.465 ℃ 时结冰，则该非电解质的相对分子质量约为（已知水的 $K_{f}=1.86\ \mathrm{K}\cdot \mathrm{kg}\cdot \mathrm{mol}^{-1}$ ）
 
 (A) 90; (B) 135; (C) 172; (D) 180。
 
@@ -324,7 +324,7 @@ $$
 1.12 处于室温一密闭容器内有水及与水相平衡的水蒸气。现充入不溶于水也不与水反应的气体，则水蒸气的压力
 (A) 增加；(B) 减少；(C) 不变；(D) 不能确定。
 
-1.13 为防止水在仪器内结冰，可在水中加入甘油 $\left(\mathrm{C}_{3}\mathrm{H}_{8}\mathrm{O}_{3},M=92\mathrm{~g}\cdot\mathrm{mol}^{-1}\right)$ 。欲使其冰点下降至 $-2.0^{\circ}C$ ，则应在100 g水中加入甘油（已知水的 $K_{f}=1.86K\cdot kg\cdot mol^{-1}$ ）
+1.13 为防止水在仪器内结冰，可在水中加入甘油 $\left(\mathrm{C}_{3}\mathrm{H}_{8}\mathrm{O}_{3},M=92\mathrm{~g}\cdot\mathrm{mol}^{-1}\right)$ 。欲使其冰点下降至 $-2.0^{\circ}C$ ，则应在100 g水中加入甘油（已知水的 $K_{f}=1.86\mathrm{K}\cdot \mathrm{kg}\cdot \mathrm{mol}^{-1}$ ）
 (A) 9.89 g; (B) 3.30 g; (C) 1.10 g; (D) 19.78 g。
 
 1.14 土壤中 NaCl 含量高时植物难以生存, 这与下列稀溶液的性质有关的是
@@ -336,15 +336,15 @@ $$
 
 1.16 一定体积的干燥气体从易挥发的三氯甲烷液体中通过后,气体体积变\_\_\_\_,气体分压变\_\_\_\_。
 
-1.17 某气体在 293 K 和 $9.97 \times 10^{4}$ Pa 时占有体积 $0.19 \, dm^{3}$ ，质量为 0.132 g，则该气体的摩尔质量约等于 \_\_\_\_ g·mol $^{-1}$ ，该气体可能是 \_\_\_\_。
+1.17 某气体在 293 K 和 $9.97 \times 10^{4}$ Pa 时占有体积 $0.19 \, \mathrm{dm}^{3}$ ，质量为 0.132 g，则该气体的摩尔质量约等于 \_\_\_\_ g·mol $^{-1}$ ，该气体可能是 \_\_\_\_。
 
 1.18 某理想气体在 273 K 和 101.3 kPa 时的体积为 $0.312 \, m^{3}$ ，则在 298 K 和 98.66 kPa 时其体积为 $m^{3}$ 。
 
-1.19 将 $N_{2}$ 和 $H_{2}$ 按 1:3 的体积比装入一密闭容器中，在 $400^{\circ}C$ 和 $1.0 \times 10^{7} Pa$ 条件下反应达到平衡时， $NH_{3}$ 的体积分数为 0.39，则此时密闭容器中各组分气体的分压为： $NH_{3}$ \_\_\_\_ Pa; $N_{2}$ \_\_\_\_ Pa; $H_{2}$ \_\_\_\_ Pa。
+1.19 将 $N_{2}$ 和 $H_{2}$ 按 1:3 的体积比装入一密闭容器中，在 $400^{\circ}C$ 和 $1.0 \times 10^{7} \mathrm{Pa}$ 条件下反应达到平衡时， $NH_{3}$ 的体积分数为 0.39，则此时密闭容器中各组分气体的分压为： $NH_{3}$ \_\_\_\_ Pa; $N_{2}$ \_\_\_\_ Pa; $H_{2}$ \_\_\_\_ Pa。
 
 1.20 在相同的温度和压强下,两个容积相同的烧瓶中分别充满 $O_{3}$ 气体和 $H_{2}S$ 气体。已知 $H_{2}S$ 的质量为 0.34 g, 则 $O_{3}$ 的质量为 \_\_\_\_ g。
 
-1.21 410 K 时某容器内装有 $0.30 \, mol \, N_{2}$ , $0.10 \, mol \, O_{2}$ 和 $0.10 \, mol \, He$ ，混合气体的总压为 $100 \, kPa$ 时，He 的分压为 \_\_\_\_ kPa, $N_{2}$ 的分体积为 \_\_\_\_ dm³。
+1.21 410 K 时某容器内装有 $0.30 \, \mathrm{mol} \, N_{2}$ , $0.10 \, \mathrm{mol} \, O_{2}$ 和 $0.10 \, \mathrm{mol} \, He$ ，混合气体的总压为 $100 \, kPa$ 时，He 的分压为 \_\_\_\_ kPa, $N_{2}$ 的分体积为 \_\_\_\_ dm³。
 
 1.22 在 300 K, $1.013 \times 10^{5}$ Pa 时加热一敞口细颈瓶到 500 K, 然后封闭细颈瓶口并冷却到原来的温度, 则该瓶内的压强为 \_\_\_\_ Pa。
 
@@ -352,17 +352,17 @@ $$
 
 $\mathrm{O}_{2}$ 而不致发生危险。
 
-1.24 在 $500 \, cm^{3}$ 水中加入 $100 \, cm^{3}$ 质量分数为 32%、密度为 $1.20 \, g \cdot cm^{-3}$ 的 $HNO_{3}$ 溶液，所得的新的 $HNO_{3}$ 溶液的密度为 $1.03 \, g \cdot cm^{-3}$ ，则新溶液的质量分数为 \_\_\_\_，物质的量浓度为 \_\_\_\_ $mol \cdot dm^{-3}$ 。
+1.24 在 $500 \, \mathrm{cm}^{3}$ 水中加入 $100 \, \mathrm{cm}^{3}$ 质量分数为 32%、密度为 $1.20 \, g \cdot \mathrm{cm}^{-3}$ 的 $HNO_{3}$ 溶液，所得的新的 $HNO_{3}$ 溶液的密度为 $1.03 \, g \cdot \mathrm{cm}^{-3}$ ，则新溶液的质量分数为 \_\_\_\_，物质的量浓度为 \_\_\_\_ $\mathrm{mol} \cdot \mathrm{dm}^{-3}$ 。
 
 1.25 在 26.6 g 氯仿 $\left(\mathrm{CHCl}_{3}\right)$ 中溶解 0.402 g 萘 $\left(\mathrm{C}_{10}\mathrm{H}_{8}\right)$ ，其沸点比氯仿的沸点高 0.455 K，则氯仿的沸点升高常数为 \_\_\_\_ K·kg·mol $^{-1}$ 。
 
-1.26 常压下将 2.0 g 尿素 $\left[\mathrm{CO}\left(\mathrm{NH}_{2}\right)_{2}\right]$ 溶入 75 g 水中，则该溶液的凝固点为 \_\_\_\_ K（已知水的 $K_{f}=1.86\ K\cdot kg\cdot mol^{-1}$ ）。
+1.26 常压下将 2.0 g 尿素 $\left[\mathrm{CO}\left(\mathrm{NH}_{2}\right)_{2}\right]$ 溶入 75 g 水中，则该溶液的凝固点为 \_\_\_\_ K（已知水的 $K_{f}=1.86\ \mathrm{K}\cdot \mathrm{kg}\cdot \mathrm{mol}^{-1}$ ）。
 
 ## 三、简答题和计算题
 
-1.27 已知 $1 \, dm^{3}$ 某气体在标准状况下的质量为 2.86 g，试计算该气体的平均相对分子质量，并计算其在 $17^{\circ}C$ 和 207 kPa 时的密度。
+1.27 已知 $1 \, \mathrm{dm}^{3}$ 某气体在标准状况下的质量为 2.86 g，试计算该气体的平均相对分子质量，并计算其在 $17^{\circ}C$ 和 207 kPa 时的密度。
 
-1.28 在体积为 $0.50 \, dm^{3}$ 的烧瓶中充满 NO 和 $O_{2}$ 气体，温度为 $298 \, K$ ，压强为 $1.23 \times 10^{5} \, Pa$ 。反应一段时间后，瓶内总压变为 $8.3 \times 10^{4} \, Pa$ 。求生成 $NO_{2}$ 的质量。
+1.28 在体积为 $0.50 \, \mathrm{dm}^{3}$ 的烧瓶中充满 NO 和 $O_{2}$ 气体，温度为 $298 \, K$ ，压强为 $1.23 \times 10^{5} \, \mathrm{Pa}$ 。反应一段时间后，瓶内总压变为 $8.3 \times 10^{4} \, \mathrm{Pa}$ 。求生成 $NO_{2}$ 的质量。
 
 1.29 将氮气和水蒸气的混合物通入盛有足量固体干燥剂的瓶中。刚通入时，瓶中压强为 101.3 kPa。放置数小时后，压强降到 99.3 kPa 的恒定值。
 
@@ -370,15 +370,15 @@ $\mathrm{O}_{2}$ 而不致发生危险。
 
 (2) 若温度为 $293 \, K$ ，实验后干燥剂增重 $0.150 \, g$ ，求瓶的容积。假设干燥剂的体积可忽略且不吸附氮气。
 
-1.30 302 K 时在 $3.0 \, dm^{3}$ 的真空容器中装入氮气和一定量的水，测得初压为 $1.01 \times 10^{5} \, Pa$ 。用电解法将容器中的水完全转变为氢气和氧气后，测得最终压强为 $1.88 \times 10^{5} \, Pa$ 。求容器中水的质量。已知 302 K 时水的饱和蒸气压为 $4.04 \times 10^{3} \, Pa$ 。
+1.30 302 K 时在 $3.0 \, \mathrm{dm}^{3}$ 的真空容器中装入氮气和一定量的水，测得初压为 $1.01 \times 10^{5} \, \mathrm{Pa}$ 。用电解法将容器中的水完全转变为氢气和氧气后，测得最终压强为 $1.88 \times 10^{5} \, \mathrm{Pa}$ 。求容器中水的质量。已知 302 K 时水的饱和蒸气压为 $4.04 \times 10^{3} \, \mathrm{Pa}$ 。
 
-1.31 在 $303 \, K, 7.97 \times 10^{4} \, Pa$ 时由排水集气法收集到 $1.50 \, dm^{3}$ 氧气，问有多少克氯酸钾按下式发生了分解？
+1.31 在 $303 \, K, 7.97 \times 10^{4} \, \mathrm{Pa}$ 时由排水集气法收集到 $1.50 \, \mathrm{dm}^{3}$ 氧气，问有多少克氯酸钾按下式发生了分解？
 
 $$
 2 \mathrm{KClO} _ {3} \xrightarrow [ \triangle ]{\mathrm{MnO} _ {2}} 2 \mathrm{KCl} + 3 \mathrm{O} _ {2} \uparrow
 $$
 
-已知 $303 \, K$ 时水的饱和蒸气压为 $4.23 \times 10^{3} \, Pa$ 。
+已知 $303 \, K$ 时水的饱和蒸气压为 $4.23 \times 10^{3} \, \mathrm{Pa}$ 。
 
 1.32 由 $\mathrm{C}_2\mathrm{H}_4$ 和过量 $\mathrm{H}_{2}$ 组成的混合气体的总压为 $6930\mathrm{Pa}$ 。使混合气体通过铂催化剂进行下列反应：
 
@@ -386,15 +386,15 @@ $$
 \mathrm{C} _ {2} \mathrm{H} _ {4} (\mathrm{g}) + \mathrm{H} _ {2} (\mathrm{g}) = \mathrm{C} _ {2} \mathrm{H} _ {6} (\mathrm{g})
 $$
 
-待完全反应后，在相同温度和体积下，压强降为 $4530 \, Pa$ 。求原混合气体中 $C_{2}H_{4}$ 的摩尔分数。
+待完全反应后，在相同温度和体积下，压强降为 $4530 \, \mathrm{Pa}$ 。求原混合气体中 $C_{2}H_{4}$ 的摩尔分数。
 
 1.33 某项实验要求缓慢地加入乙醇 $\left(\mathrm{C}_{2}\mathrm{H}_{5}\mathrm{OH}\right)$ ，现采用将空气通过液体乙醇带入乙醇气体的方法进行。在293 K， $1.013\times10^{5}$ Pa时，为引入2.3 g乙醇，求需空气的体积。已知293 K时乙醇的饱和蒸气压为5866.2 Pa。
 
 1.34 在 $273 \mathrm{~K}$ 和 $1.013 \times 10^{5} \mathrm{~Pa}$ 条件下，将 $1.0 \mathrm{dm}^{3}$ 干燥的空气缓慢通过二甲醚 $\left(\mathrm{CH}_{3} \mathrm{OCH}_{3}\right)$ 液体。在此过程中，液体损失了 $0.0335 \mathrm{~g}$ 。求二甲醚在 $273 \mathrm{~K}$ 时的饱和蒸气压。
 
-1.35 313 K 时将 $1000 \, cm^{3}$ 饱和苯蒸气和空气的混合气体从压强为 $9.97 \times 10^{4} \, Pa$ 压缩到 $5.05 \times 10^{5} \, Pa$ ，问在此过程中有多少克苯凝结成了液体？已知 313 K 时苯的饱和蒸气压为 $2.41 \times 10^{4} \, Pa$ 。
+1.35 313 K 时将 $1000 \, \mathrm{cm}^{3}$ 饱和苯蒸气和空气的混合气体从压强为 $9.97 \times 10^{4} \, \mathrm{Pa}$ 压缩到 $5.05 \times 10^{5} \, \mathrm{Pa}$ ，问在此过程中有多少克苯凝结成了液体？已知 313 K 时苯的饱和蒸气压为 $2.41 \times 10^{4} \, \mathrm{Pa}$ 。
 
-1.36 313 K 时 $CHCl_{3}$ 的饱和蒸气压为 49.3 kPa，于此温度和 98.6 kPa 的压强下，将 $4.00 \, dm^{3}$ 空气缓慢通过 $CHCl_{3}$ ，致使每个气泡都为 $CHCl_{3}$ 所饱和。求：
+1.36 313 K 时 $CHCl_{3}$ 的饱和蒸气压为 49.3 kPa，于此温度和 98.6 kPa 的压强下，将 $4.00 \, \mathrm{dm}^{3}$ 空气缓慢通过 $CHCl_{3}$ ，致使每个气泡都为 $CHCl_{3}$ 所饱和。求：
 
 (1) 通过 $CHCl_{3}$ 后, 空气和 $CHCl_{3}$ 混合气体的体积;
 
@@ -402,7 +402,7 @@ $$
 
 1.37 25℃时,一个容器中充入等物质的量的 $\mathrm{H}_{2}$ 和 $\mathrm{O}_{2}$ ,总压为 $100 \mathrm{kPa}$ 。混合气体点燃充分反应后,容器中氧的分压是多少?若已知 $25^{\circ} \mathrm{C}$ 时水的饱和蒸气压为 $3.17 \mathrm{kPa}$ ,则容器中气体的总压是多少?
 
-1.38 288 K 时将 $NH_{3}$ 通入一盛水的玻璃球内至 $NH_{3}$ 不再溶解为止，已知玻璃球内饱和溶液的质量为 3.018 g。再将玻璃球放在 $50.0 \, cm^{3}, 0.50 \, mol \cdot dm^{-3} \, H_{2}SO_{4}$ 溶液中，将球击破。剩余的酸需用 $10.4 \, cm^{3}, 1.0 \, mol \cdot dm^{-3} \, NaOH$ 溶液中和。试计算 288 K 时 $NH_{3}$ 在水中的溶解度。
+1.38 288 K 时将 $NH_{3}$ 通入一盛水的玻璃球内至 $NH_{3}$ 不再溶解为止，已知玻璃球内饱和溶液的质量为 3.018 g。再将玻璃球放在 $50.0 \, \mathrm{cm}^{3}, 0.50 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \, H_{2}SO_{4}$ 溶液中，将球击破。剩余的酸需用 $10.4 \, \mathrm{cm}^{3}, 1.0 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \, NaOH$ 溶液中和。试计算 288 K 时 $NH_{3}$ 在水中的溶解度。
 
 1.39 某温度下一定量的 $\mathrm{PCl}_{5}(\mathrm{~g})$ 发生如下反应：
 
@@ -412,13 +412,13 @@ $$
 
 当 $30\% \mathrm{PCl}_{5}(\mathrm{g})$ 解离时达到平衡，总压为 $1.6 \times 10^{5} \mathrm{~Pa}$ 。求各组分的平衡分压。
 
-1.40 0.102 g 某金属与酸完全作用后,生成等物质的量的氢气。在 $18^{\circ}$ C 和 100.0 kPa 条件下,用排水集气法在水面上收集到 $38.5 \, cm^{3}$ 氢气。若 $18^{\circ}$ C 时水的饱和蒸气压为 2.1 kPa,试求此金属的相对原子质量。
+1.40 0.102 g 某金属与酸完全作用后,生成等物质的量的氢气。在 $18^{\circ}$ C 和 100.0 kPa 条件下,用排水集气法在水面上收集到 $38.5 \, \mathrm{cm}^{3}$ 氢气。若 $18^{\circ}$ C 时水的饱和蒸气压为 2.1 kPa,试求此金属的相对原子质量。
 
 1.41 实验室需要 $4.0\mathrm{mol}\cdot \mathrm{dm}^{-3}$ 的 $\mathrm{H}_2\mathrm{SO}_4$ 溶液 $1.0\mathrm{dm}^3$ ，若已有 $300~\mathrm{cm}^3$ 密度为 $1.07\mathrm{g}\cdot \mathrm{cm}^{-3}$ 质量分数为 $10\%$ 的 $\mathrm{H}_2\mathrm{SO}_4$ 溶液，应加入密度为 $1.82\mathrm{g}\cdot \mathrm{cm}^{-3}$ ，质量分数为 $90\%$ 的 $\mathrm{H}_2\mathrm{SO}_4$ 溶液多少体积，然后再稀释至 $1.0\mathrm{dm}^3?$
 
 1.42 303 K 时丙酮 $\left(\mathrm{C}_{3}\mathrm{H}_{6}\mathrm{O}\right)$ 的蒸气压是 37 330 Pa，当 6 g 某非挥发性有机物溶于 120 g 丙酮时，其蒸气压下降至 35 570 Pa。试求此有机物的相对分子质量。
 
-1.43 3.24 g 硫溶解于 40 g 苯中，该苯溶液的沸点升高了 0.81 K，问此溶液中硫分子是由几个硫原子组成的？已知苯的 $K_{b}=2.53\ K\cdot kg\cdot mol^{-1}$ 。
+1.43 3.24 g 硫溶解于 40 g 苯中，该苯溶液的沸点升高了 0.81 K，问此溶液中硫分子是由几个硫原子组成的？已知苯的 $K_{b}=2.53\ \mathrm{K}\cdot \mathrm{kg}\cdot \mathrm{mol}^{-1}$ 。
 
 1.44 0.570 g Pb(NO $_3$ ) $_2$ 溶于 120 g 水中, 其凝固点比纯水凝固点降低了 0.08 K, 相同质量的 PbCl $_2$ 溶于 100 g 水中, 其凝固点比纯水凝固点降低了 0.0381 K, 试判断这两种盐在水中的解离情况。已知水的 $K_f = 1.86$ K·kg·mol $^{-1}$ , Pb(NO $_3$ ) $_2$ 的 $M = 331.2$ g·mol $^{-1}$ , PbCl $_2$ 的 $M = 278.2$ g·mol $^{-1}$ 。
 
@@ -428,7 +428,7 @@ $$
 
 (2) 该溶液的凝固点和沸点(293 K时, 苯的蒸气压为 $1 \times 10^{4} \mathrm{~Pa}; 1.013 \times 10^{5} \mathrm{~Pa}$ 时, 苯的沸点为 $353.1 \mathrm{~K}$ , 凝固点为 $278.4 \mathrm{~K}$ )。
 
-1.46 与人体血液具有相等渗透压的葡萄糖溶液, 其凝固点降低值为 0.543 K。求此葡萄糖溶液的质量分数和血液的渗透压。已知葡萄糖的相对分子质量为 180, 水的 $K_{f} = 1.86 \, K \cdot kg \cdot mol^{-1}$ 。
+1.46 与人体血液具有相等渗透压的葡萄糖溶液, 其凝固点降低值为 0.543 K。求此葡萄糖溶液的质量分数和血液的渗透压。已知葡萄糖的相对分子质量为 180, 水的 $K_{f} = 1.86 \, \mathrm{K} \cdot \mathrm{kg} \cdot \mathrm{mol}^{-1}$ 。
 
 1.47 试写出下列几何图形的所有对称元素及其数目：
 
@@ -472,9 +472,9 @@ $$
 
 例 2.2 试根据已知反应的热力学数据：
 
-① $2C(\text{石墨}) + O_{2}(g) = 2CO(g)$ $\Delta_{r}H_{m}^{\ominus}(1) = -221.0\ kJ \cdot mol^{-1}$
+① $2C(\text{石墨}) + O_{2}(g) = 2CO(g)$ $\Delta_{r}H_{m}^{\ominus}(1) = -221.0\ \mathrm{kJ} \cdot \mathrm{mol}^{-1}$
 
-② C(石墨) $+O_{2}(g)=CO_{2}(g)$ $\Delta_{r}H_{m}^{\ominus}(2)=-393.5\ kJ\cdot mol^{-1}$
+② C(石墨) $+O_{2}(g)=CO_{2}(g)$ $\Delta_{r}H_{m}^{\ominus}(2)=-393.5\ \mathrm{kJ}\cdot \mathrm{mol}^{-1}$
 
 ③ $2\mathrm{CH}_3\mathrm{OH(l)} + 3\mathrm{O}_2(\mathrm{g}) = 2\mathrm{CO}_2(\mathrm{g}) + 4\mathrm{H}_2\mathrm{O(l)}$
 
@@ -524,7 +524,7 @@ $$
 \begin{array}{r l} \Delta_ {\mathrm{r}} U _ {\mathrm{m}} ^ {\ominus} & = \Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus} - \Delta \nu R T \\ & = - 285.8 \times 1000 \mathrm {J\cdot mol^ {- 1}} - \left(- \frac {3}{2}\right) \times 8.314 \mathrm {J\cdot mol^ {- 1} \cdot K^ {- 1}} \times 298 \mathrm{K} \\ & = - 282.08 \mathrm {kJ\cdot mol^ {- 1}} \end{array}
 $$
 
-由 $0.30 \, mol \, H_{2}(g)$ 完全燃烧，知反应进度 $\xi = 0.30 \, mol$ ，则
+由 $0.30 \, \mathrm{mol} \, H_{2}(g)$ 完全燃烧，知反应进度 $\xi = 0.30 \, \mathrm{mol}$ ，则
 
 $$
 \begin{array}{r l} \Delta_ {\mathrm{r}} U ^ {\ominus} & = \Delta_ {\mathrm{r}} U _ {\mathrm{m}} ^ {\ominus} \cdot \xi \\ & = - 282.08 \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1} \times 0.30 \mathrm{mol} \\ & = - 84.624 \mathrm{kJ} \end{array}
@@ -542,7 +542,7 @@ $$
 \mathrm{C} _ {10} \mathrm{H} _ {22} (\mathrm{l}) + \frac {31}{2} \mathrm{O} _ {2} (\mathrm{g}) \xlongequal {\Delta V = 0} 10 \mathrm{CO} _ {2} (\mathrm{g}) + 11 \mathrm{H} _ {2} \mathrm{O} (\mathrm{l})
 $$
 
-完全燃烧 2.345 g 正癸烷时， $\Delta_{r}U^{\ominus}=-111.41\ kJ$ 。
+完全燃烧 2.345 g 正癸烷时， $\Delta_{r}U^{\ominus}=-111.41\ \mathrm{kJ}$ 。
 
 正癸烷 $\left(\mathrm{C}_{10}\mathrm{H}_{22}\right)$ 的摩尔质量为142 g·mol $^{-1}$ ，故
 
@@ -550,7 +550,7 @@ $$
 n = \frac {2.345 \mathrm{g}}{142 \mathrm{g} \cdot \mathrm{mol} ^ {- 1}} = 0.01651 \mathrm{mol}
 $$
 
-即完全燃烧 2.345 g 正癸烷, $\xi=0.01651\ mol$ ,则
+即完全燃烧 2.345 g 正癸烷, $\xi=0.01651\ \mathrm{mol}$ ,则
 
 $$
 \begin{array}{r l} \Delta_ {\mathrm{r}} U _ {\mathrm{m}} ^ {\ominus} & = \frac {\Delta_ {\mathrm{r}} U ^ {\ominus}}{\xi} \\ & = \frac {- 111.41 \mathrm{kJ}}{0.01651 \mathrm{mol}} \\ & = - 6748.0 \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1} \end{array}
@@ -658,7 +658,7 @@ $$
 \begin{array}{r l} \Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus} (3) & = E (\mathrm{H-H}) + E (\mathrm{N-N}) + 4 E (\mathrm{N-H}) - 6 E (\mathrm{N-H}) \\ E (\mathrm{N-N}) & = \Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus} (3) - E (\mathrm{H-H}) + 2 E (\mathrm{N-H}) \\ & = (- 187 - 436 + 391 \times 2) \mathrm {kJ\cdot mol^ {- 1}} \\ & = 159 \mathrm {kJ\cdot mol^ {- 1}} \end{array}
 $$
 
-例 2.7 已知晶体碘 $I_{2}(s)$ 和碘蒸气 $I_{2}(g)$ 的 $S_{m}^{\ominus}$ 分别为 $116.1\ J\cdot mol^{-1}\cdot K^{-1}$ 和 $260.7\ J\cdot mol^{-1}\cdot K^{-1}$ ，碘蒸气的 $\Delta_{f}H_{m}^{\ominus}$ 为 $62.4\ kJ\cdot mol^{-1}$ ，试计算晶体碘的正常升华温度。
+例 2.7 已知晶体碘 $I_{2}(s)$ 和碘蒸气 $I_{2}(g)$ 的 $S_{m}^{\ominus}$ 分别为 $116.1\ \mathrm{J}\cdot \mathrm{mol}^{-1}\cdot \mathrm{K}^{-1}$ 和 $260.7\ \mathrm{J}\cdot \mathrm{mol}^{-1}\cdot \mathrm{K}^{-1}$ ，碘蒸气的 $\Delta_{f}H_{m}^{\ominus}$ 为 $62.4\ \mathrm{kJ}\cdot \mathrm{mol}^{-1}$ ，试计算晶体碘的正常升华温度。
 
 解：题设升华过程为
 
@@ -783,15 +783,15 @@ $$
 
 2.2 已知 $\Delta_{\mathrm{c}}H_{\mathrm{m}}^{\ominus}(\mathrm{C},$ 石墨） $= -393.5\mathrm{kJ}\cdot \mathrm{mol}^{-1},\Delta_{\mathrm{c}}H_{\mathrm{m}}^{\ominus}(\mathrm{C},$ 金刚石） $= -395.6\mathrm{kJ}\cdot \mathrm{mol}^{-1}$ ，则 $\Delta_{\mathrm{f}}H_{\mathrm{m}}^{\ominus}(\mathrm{C},$ 金刚石）为(A） $-789.3\mathrm{kJ}\cdot \mathrm{mol}^{-1};$ (B） $2.1\mathrm{kJ}\cdot \mathrm{mol}^{-1};$ (C） $-2.1\mathrm{kJ}\cdot \mathrm{mol}^{-1};$ (D） $789.3\mathrm{kJ}\cdot \mathrm{mol}^{-1}$ 。
 
-2.3 已知反应 $2\mathrm{PbS}(s)+3\mathrm{O}_{2}(g)=2\mathrm{PbO}(s)+2\mathrm{SO}_{2}(g)$ 的 $\Delta_{r}H_{m}^{\ominus}=-843.4\ kJ\cdot mol^{-1}$ ，则 298 K 时，1 mol 该反应的恒容反应热 $Q_{v}$ 的值为
+2.3 已知反应 $2\mathrm{PbS}(s)+3\mathrm{O}_{2}(g)=2\mathrm{PbO}(s)+2\mathrm{SO}_{2}(g)$ 的 $\Delta_{r}H_{m}^{\ominus}=-843.4\ \mathrm{kJ}\cdot \mathrm{mol}^{-1}$ ，则 298 K 时，1 mol 该反应的恒容反应热 $Q_{v}$ 的值为
 (A) 840.9 kJ; (B) 845.9 kJ; (C) -845.9 kJ; (D) -840.9 kJ。
 
 2.4 已知键能数据
-C=C C—C C—H H—H $E/(kJ \cdot mol^{-1})$ 610 346 413 435
+C=C C—C C—H H—H $E/(\mathrm{kJ} \cdot \mathrm{mol}^{-1})$ 610 346 413 435
 
 则反应 $C_{2}H_{4}(g)+H_{2}(g)=C_{2}H_{6}(g)$ 的 $\Delta_{r}H_{m}^{\ominus}$ 为
-(A) $127\ kJ\cdot mol^{-1}$ ; (B) $-127\ kJ\cdot mol^{-1}$ ;
-(C) $54\ kJ\cdot mol^{-1}$ ; (D) $172\ kJ\cdot mol^{-1}$ 。
+(A) $127\ \mathrm{kJ}\cdot \mathrm{mol}^{-1}$ ; (B) $-127\ \mathrm{kJ}\cdot \mathrm{mol}^{-1}$ ;
+(C) $54\ \mathrm{kJ}\cdot \mathrm{mol}^{-1}$ ; (D) $172\ \mathrm{kJ}\cdot \mathrm{mol}^{-1}$ 。
 
 2.5 将固体 $NH_{4}NO_{3}$ 溶于水中，溶液变冷，则该过程的 $\Delta G, \Delta H, \Delta S$ 的符号依次是
 (A)+,-,-; (B)+,+,-; (C)-,+,-; (D)-,+,+。
@@ -831,7 +831,7 @@ C=C C—C C—H H—H $E/(kJ \cdot mol^{-1})$ 610 346 413 435
 (A) 氨在水中解离达平衡; (B) 理想气体向真空膨胀;
 (C) 乙醇溶于水; (D) 炸药爆炸。
 
-2.14 已知反应 $\mathrm{A}_{2}(\mathrm{~g})+2\mathrm{B}_{2}(\mathrm{~g})=3\mathrm{C}_{2}(\mathrm{~g})$ 在恒压和温度 $1000\ K$ 时的 $\Delta_{r}H_{m}$ 为 $40\ kJ\cdot mol^{-1},\Delta_{r}S_{m}$ 为 $40\ J\cdot mol^{-1}\cdot K^{-1}$ ，则下列关系中正确的是
+2.14 已知反应 $\mathrm{A}_{2}(\mathrm{~g})+2\mathrm{B}_{2}(\mathrm{~g})=3\mathrm{C}_{2}(\mathrm{~g})$ 在恒压和温度 $1000\ K$ 时的 $\Delta_{r}H_{m}$ 为 $40\ \mathrm{kJ}\cdot \mathrm{mol}^{-1},\Delta_{r}S_{m}$ 为 $40\ \mathrm{J}\cdot \mathrm{mol}^{-1}\cdot \mathrm{K}^{-1}$ ，则下列关系中正确的是
 (A) $\Delta_{r}U_{m}=\Delta_{r}H_{m};$ (B) $\Delta_{r}G_{m}=0;$ (C) $\Delta_{r}U_{m}=T\Delta_{r}S_{m};$ (D) 所有关系都正确。
 
 ## 二、填空题
@@ -840,7 +840,7 @@ C=C C—C C—H H—H $E/(kJ \cdot mol^{-1})$ 610 346 413 435
 
 2.16 有 A, B, C, D 四个反应, 在 298 K 时反应的热力学函数分别为
 
-<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td></tr><tr><td> $\Delta_{r}H_{m}^{\ominus}/(kJ·mol^{-1})$ </td><td>10.5</td><td>1.80</td><td>-126</td><td>-11.7</td></tr><tr><td> $\Delta_{r}S_{m}^{\ominus}/(J·mol^{-1}·K^{-1})$ </td><td>30.0</td><td>-113</td><td>84.0</td><td>-105</td></tr></table>
+<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td></tr><tr><td> $\Delta_{r}H_{m}^{\ominus}/(\mathrm{kJ}·\mathrm{mol}^{-1})$ </td><td>10.5</td><td>1.80</td><td>-126</td><td>-11.7</td></tr><tr><td> $\Delta_{r}S_{m}^{\ominus}/(\mathrm{J}·\mathrm{mol}^{-1}·\mathrm{K}^{-1})$ </td><td>30.0</td><td>-113</td><td>84.0</td><td>-105</td></tr></table>
 
 则在标准态下,任何温度都能自发进行的反应是\_\_\_\_,任何温度都不能自发进行的反应是\_\_\_\_;另两个反应中,在温度高于\_\_\_\_℃时可自发进行的反应是\_\_\_\_,在温度低于\_\_\_\_℃时可自发进行的反应是\_\_\_\_。
 
@@ -848,9 +848,9 @@ C=C C—C C—H H—H $E/(kJ \cdot mol^{-1})$ 610 346 413 435
 
 2.18 已知 $25^{\circ}C$ 时， $\Delta_{\mathrm{f}}H_{\mathrm{m}}^{\ominus}(\mathrm{Br}_{2},\mathrm{g})=30.71\ \mathrm{kJ}\cdot\mathrm{mol}^{-1},\Delta_{\mathrm{f}}G_{\mathrm{m}}^{\ominus}(\mathrm{Br}_{2},\mathrm{g})=3.14\ \mathrm{kJ}\cdot\mathrm{mol}^{-1}$ ，则 $\mathrm{Br}_{2}(l)$ 的标准摩尔蒸发熵为 \_\_\_\_ J·mol $^{-1}$ ·K $^{-1}$ ，正常沸点为 \_\_\_\_ ℃。
 
-2.19 已知反应 $2\mathrm{HgO}(s)=2\mathrm{Hg}(l)+\mathrm{O}_{2}(g)$ 的 $\Delta_{r}H_{m}^{\ominus}=181.4\ kJ\cdot mol^{-1}$ ，则 $\Delta_{f}H_{m}^{\ominus}(\mathrm{HgO},s)=\mathrm{kJ}\cdot\mathrm{mol}^{-1}$ 。已知 $A_{r}(\mathrm{Hg})=201$ ，生成 $1\ g\ \mathrm{Hg}(l)$ 的焓变是 \_\_\_\_ kJ。
+2.19 已知反应 $2\mathrm{HgO}(s)=2\mathrm{Hg}(l)+\mathrm{O}_{2}(g)$ 的 $\Delta_{r}H_{m}^{\ominus}=181.4\ \mathrm{kJ}\cdot \mathrm{mol}^{-1}$ ，则 $\Delta_{f}H_{m}^{\ominus}(\mathrm{HgO},s)=\mathrm{kJ}\cdot\mathrm{mol}^{-1}$ 。已知 $A_{r}(\mathrm{Hg})=201$ ，生成 $1\ g\ \mathrm{Hg}(l)$ 的焓变是 \_\_\_\_ kJ。
 
-2.20 已知某弹式热量计与其内容物总的热容为 $4.633 \, kJ \cdot K^{-1}$ ，在其中完全燃烧 $0.103 \, g$ 甲苯 $C_{7}H_{8}(l)$ 使热量计升温 $0.944 \, K$ ，则甲苯燃烧反应的恒容反应热效应 $\Delta_{r} U_{m} =$ \_\_\_\_ $\, kJ \cdot mol^{-1}$ ; $298 \, K$ 时， $0.1 \, mol$ 甲苯完全燃烧，其 $Q_{p}$ 与 $Q_{V}$ 的差值为 \_\_\_\_ kJ。
+2.20 已知某弹式热量计与其内容物总的热容为 $4.633 \, \mathrm{kJ} \cdot \mathrm{K}^{-1}$ ，在其中完全燃烧 $0.103 \, g$ 甲苯 $C_{7}H_{8}(l)$ 使热量计升温 $0.944 \, K$ ，则甲苯燃烧反应的恒容反应热效应 $\Delta_{r} U_{m} =$ \_\_\_\_ $\, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ ; $298 \, K$ 时， $0.1 \, \mathrm{mol}$ 甲苯完全燃烧，其 $Q_{p}$ 与 $Q_{V}$ 的差值为 \_\_\_\_ kJ。
 
 2.21 将下列物质按摩尔熵值由小到大排列,其顺序为 \_\_\_\_。
 
@@ -866,7 +866,7 @@ $$
 
 2.24 在 300 K 时, 1.0 mol 的理想气体反抗 100.0 kPa 恒外压, 从 1.0 dm $^{3}$ 膨胀到 10.0 dm $^{3}$ , 试计算此过程体系吸收的热量。
 
-2.25 反应 $\mathrm{N}_{2}(\mathrm{~g})+3\mathrm{H}_{2}(\mathrm{~g})=2\mathrm{NH}_{3}(\mathrm{~g})$ 在恒容热量器内进行，生成 $2\ mol\ NH_{3}$ 时放热 82.7 kJ，求反应的 $\Delta_{r}H_{m}^{\ominus}$ 。
+2.25 反应 $\mathrm{N}_{2}(\mathrm{~g})+3\mathrm{H}_{2}(\mathrm{~g})=2\mathrm{NH}_{3}(\mathrm{~g})$ 在恒容热量器内进行，生成 $2\ \mathrm{mol}\ NH_{3}$ 时放热 82.7 kJ，求反应的 $\Delta_{r}H_{m}^{\ominus}$ 。
 
 2.26 制水煤气是将水蒸气从红热的煤中通过,有下列反应发生:
 
@@ -896,7 +896,7 @@ $$
 
 求该反应的 $\Delta_{\mathrm{r}}H_{\mathrm{m}}^{\ominus}$ 。已知 $\Delta_{\mathrm{f}}H_{\mathrm{m}}^{\ominus}(\mathrm{H}_{2}\mathrm{O},1) = -285.8\mathrm{kJ}\cdot \mathrm{mol}^{-1}$ 。
 
-2.29 已知丙烯 $C_{3}H_{6}(g)$ 的标准摩尔燃烧热 $\Delta_{c}H_{m}^{\ominus}=-2058.0\ kJ\cdot mol^{-1}$ ，求恒容反应
+2.29 已知丙烯 $C_{3}H_{6}(g)$ 的标准摩尔燃烧热 $\Delta_{c}H_{m}^{\ominus}=-2058.0\ \mathrm{kJ}\cdot \mathrm{mol}^{-1}$ ，求恒容反应
 
 $$
 \mathrm{C} _ {3} \mathrm{H} _ {6} (\mathrm{g}) + \frac {9}{2} \mathrm{O} _ {2} (\mathrm{g}) = 3 \mathrm{CO} _ {2} (\mathrm{g}) + 3 \mathrm{H} _ {2} \mathrm{O} (\mathrm{l})
@@ -906,12 +906,12 @@ $$
 
 2.30 阿波罗登月火箭用联氨 $(\mathrm{N}_2\mathrm{H}_4,1)$ 作燃料，用 $\mathrm{N}_2\mathrm{O}_4(\mathrm{g})$ 作氧化剂，燃烧产物为 $\mathrm{N}_2(\mathrm{g})$ 和
 
-$H_{2}O(l)$ 。计算燃烧1.0 kg联氨所放出的热量。反应在300 K, 101.3 kPa条件下进行,需要多少升 $N_{2}O_{4}(g)$ ?已知 $\Delta_{f}H_{m}^{\ominus}/(kJ\cdot mol^{-1})$ 50.6 9.16 -285.8
+$H_{2}O(l)$ 。计算燃烧1.0 kg联氨所放出的热量。反应在300 K, 101.3 kPa条件下进行,需要多少升 $N_{2}O_{4}(g)$ ?已知 $\Delta_{f}H_{m}^{\ominus}/(\mathrm{kJ}\cdot \mathrm{mol}^{-1})$ 50.6 9.16 -285.8
 
-2.31 已知斜方硫和单斜硫的 $S_{m}^{\ominus}$ 分别为 $31.9 \, J \cdot mol^{-1} \cdot K^{-1}$ 和 $32.6 \, J \cdot mol^{-1} \cdot K^{-1}$ ，它们的标准摩尔燃烧热分别为 $-296.81 \, kJ \cdot mol^{-1}$ 和 $-297.14 \, kJ \cdot mol^{-1}$ 。试计算 298 K 时反应 S（斜方）→S（单斜）的 $\Delta_{r} G_{m}^{\ominus}$ 。
+2.31 已知斜方硫和单斜硫的 $S_{m}^{\ominus}$ 分别为 $31.9 \, \mathrm{J} \cdot \mathrm{mol}^{-1} \cdot \mathrm{K}^{-1}$ 和 $32.6 \, \mathrm{J} \cdot \mathrm{mol}^{-1} \cdot \mathrm{K}^{-1}$ ，它们的标准摩尔燃烧热分别为 $-296.81 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ 和 $-297.14 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ 。试计算 298 K 时反应 S（斜方）→S（单斜）的 $\Delta_{r} G_{m}^{\ominus}$ 。
 
 2.32 已知下列反应的热效应：
-(1) $\mathrm{Fe_{2}O_{3}(s)+3CO(g)=2Fe(s)+3CO_{2}(g)}$ $\Delta_{r}H_{m}^{\ominus}(1)=-27.61\ kJ\cdot mol^{-1}$ (2) $3\mathrm{Fe_{2}O_{3}(s)+CO(g)=2Fe_{3}O_{4}(s)+CO_{2}(g)}$ $\Delta_{r}H_{m}^{\ominus}(2)=-58.58\ kJ\cdot mol^{-1}$ (3) $\mathrm{Fe_{3}O_{4}(s)+CO(g)=3FeO(s)+CO_{2}(g)}$ $\Delta_{r}H_{m}^{\ominus}(3)=38.07\ kJ\cdot mol^{-1}$ 求下面反应的反应热 $\Delta_{r}H_{m}^{\ominus}(4)$ 。
+(1) $\mathrm{Fe_{2}O_{3}(s)+3CO(g)=2Fe(s)+3CO_{2}(g)}$ $\Delta_{r}H_{m}^{\ominus}(1)=-27.61\ \mathrm{kJ}\cdot \mathrm{mol}^{-1}$ (2) $3\mathrm{Fe_{2}O_{3}(s)+CO(g)=2Fe_{3}O_{4}(s)+CO_{2}(g)}$ $\Delta_{r}H_{m}^{\ominus}(2)=-58.58\ \mathrm{kJ}\cdot \mathrm{mol}^{-1}$ (3) $\mathrm{Fe_{3}O_{4}(s)+CO(g)=3FeO(s)+CO_{2}(g)}$ $\Delta_{r}H_{m}^{\ominus}(3)=38.07\ \mathrm{kJ}\cdot \mathrm{mol}^{-1}$ 求下面反应的反应热 $\Delta_{r}H_{m}^{\ominus}(4)$ 。
 (4) $\mathrm{FeO(s)+CO(g)=Fe(s)+CO_{2}(g)}$
 
 2.33 试举例说明在什么情况下 $\Delta_{\mathrm{r}}H_{\mathrm{m}}^{\ominus},\Delta_{\mathrm{f}}H_{\mathrm{m}}^{\ominus}$ 和 $\Delta_{\mathrm{c}}H_{\mathrm{m}}^{\ominus}$ 的数值相等。
@@ -931,7 +931,7 @@ $H_{2}O(l)$ 。计算燃烧1.0 kg联氨所放出的热量。反应在300 K, 101.
 
 (2) $C_{2}H_{4}(g)$ 标准摩尔生成热。
 
-2.40 已知下列数据： $\Delta_{f}H_{m}^{\ominus}(Sn, 白)=0,\Delta_{f}H_{m}^{\ominus}(Sn, 灰)=-2.1\ kJ\cdot mol^{-1}$ $S_{m}^{\ominus}(Sn, 白)=51.5\ J\cdot mol^{-1}\cdot K^{-1}, S_{m}^{\ominus}(Sn, 灰)=44.3\ J\cdot mol^{-1}\cdot K^{-1}$ 求 Sn(白) $\Longrightarrow$ Sn(灰) 的相变温度。
+2.40 已知下列数据： $\Delta_{f}H_{m}^{\ominus}(Sn, 白)=0,\Delta_{f}H_{m}^{\ominus}(Sn, 灰)=-2.1\ \mathrm{kJ}\cdot \mathrm{mol}^{-1}$ $S_{m}^{\ominus}(Sn, 白)=51.5\ \mathrm{J}\cdot \mathrm{mol}^{-1}\cdot \mathrm{K}^{-1}, S_{m}^{\ominus}(Sn, 灰)=44.3\ \mathrm{J}\cdot \mathrm{mol}^{-1}\cdot \mathrm{K}^{-1}$ 求 Sn(白) $\Longrightarrow$ Sn(灰) 的相变温度。
 
 2.41 已知下列键能数据：
 
@@ -957,7 +957,7 @@ $$
 
 由实验测得在 $67^{\circ} \mathrm{C}$ 时 $\mathrm{N}_{2} \mathrm{O}_{5}$ 的浓度随时间的变化如下:
 
-<table><tr><td>t/min</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td> $c(N_2O_5)/(mol·dm^{-3})$ </td><td>1.00</td><td>0.71</td><td>0.50</td><td>0.35</td><td>0.25</td><td>0.17</td></tr></table>
+<table><tr><td>t/min</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td> $c(N_2O_5)/(\mathrm{mol}·\mathrm{dm}^{-3})$ </td><td>1.00</td><td>0.71</td><td>0.50</td><td>0.35</td><td>0.25</td><td>0.17</td></tr></table>
 
 求：(1) 0\~2 min 内的平均反应速率；
 
@@ -1109,7 +1109,7 @@ $$
 
 (1) 20 min 时环丁烯的浓度；
 
-(2) 环丁烯的浓度变成 $1.00 \times 10^{-3} \, mol \cdot dm^{-3}$ 所需时间。
+(2) 环丁烯的浓度变成 $1.00 \times 10^{-3} \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 所需时间。
 
 解：由题设知环丁烯异构化反应是一级反应。根据一级反应反应物的浓度与时间的关系式
 
@@ -1171,7 +1171,7 @@ $$
 
 即 $\mathrm{SO}_2\mathrm{Cl}_2$ 的解离度为 $19\%$ 。
 
-例 3.6 在某处高山上测得纯水 $90^{\circ}$ C 沸腾。 $100^{\circ}$ C 下 3 min 可煮熟的鸡蛋，在这样的高山上需多少分钟方可煮熟？假定鸡蛋煮熟（即蛋白质变质）过程的活化能为 $5.18 \times 10^{2} \, kJ \cdot mol^{-1}$ 。
+例 3.6 在某处高山上测得纯水 $90^{\circ}$ C 沸腾。 $100^{\circ}$ C 下 3 min 可煮熟的鸡蛋，在这样的高山上需多少分钟方可煮熟？假定鸡蛋煮熟（即蛋白质变质）过程的活化能为 $5.18 \times 10^{2} \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ 。
 
 解：速率常数 $k$ 与反应速率 $\upsilon$ 成正比，反应速率 $\upsilon$ 与完成反应所需时间 $t$ 成反比，故有 $k$ 与 $t$ 成反比，即
 
@@ -1223,7 +1223,7 @@ $$
 E _ {\mathrm{a}} = 107.2 \mathrm {kJ\cdot mol^ {- 1}}
 $$
 
-故化学反应的活化能范围是 $53.6 \sim 107.2 \, kJ \cdot mol^{-1}$ 。
+故化学反应的活化能范围是 $53.6 \sim 107.2 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ 。
 
 例 3.8 蔗糖水解反应
 
@@ -1283,7 +1283,7 @@ $$
 
 650 K 时的数据如下：
 
-<table><tr><td>实验编号</td><td> $c(CO)/(mol·dm^{-3})$ </td><td> $c(NO_2)/(mol·dm^{-3})$ </td><td> $v(NO)/(mol·dm^{-3}·s^{-1})$ </td></tr><tr><td>1</td><td>0.025</td><td>0.040</td><td> $2.2×10^{-4}$ </td></tr><tr><td>2</td><td>0.050</td><td>0.040</td><td> $4.4×10^{-4}$ </td></tr><tr><td>3</td><td>0.025</td><td>0.120</td><td> $6.6×10^{-4}$ </td></tr></table>
+<table><tr><td>实验编号</td><td> $c(CO)/(\mathrm{mol}·\mathrm{dm}^{-3})$ </td><td> $c(NO_2)/(\mathrm{mol}·\mathrm{dm}^{-3})$ </td><td> $v(NO)/(\mathrm{mol}·\mathrm{dm}^{-3}·\mathrm{s}^{-1})$ </td></tr><tr><td>1</td><td>0.025</td><td>0.040</td><td> $2.2×10^{-4}$ </td></tr><tr><td>2</td><td>0.050</td><td>0.040</td><td> $4.4×10^{-4}$ </td></tr><tr><td>3</td><td>0.025</td><td>0.120</td><td> $6.6×10^{-4}$ </td></tr></table>
 
 (1) 通过推理写出反应的速率方程；
 
@@ -1291,7 +1291,7 @@ $$
 
 (3) 当 $c(\mathrm{CO})=0.10\ \mathrm{mol}\cdot\mathrm{dm}^{-3}, c(\mathrm{NO}_{2})=0.16\ \mathrm{mol}\cdot\mathrm{dm}^{-3}$ 时，求 650 K 时的反应速率；
 
-(4) 若 $800 \, K$ 时的速率常数为 $23.0 \, dm^{3} \cdot mol^{-1} \cdot s^{-1}$ ，求反应的活化能。
+(4) 若 $800 \, K$ 时的速率常数为 $23.0 \, \mathrm{dm}^{3} \cdot \mathrm{mol}^{-1} \cdot \mathrm{s}^{-1}$ ，求反应的活化能。
 
 解：（1）对比实验①和实验②， $c(\mathrm{NO}_{2})$ 不变， $c(\mathrm{CO})$ 扩大2倍时，v扩大2倍，说明v与c(CO)成正比，即v对CO是一级反应；对比实验①和实验③， $c(\mathrm{CO})$ 不变， $c(\mathrm{NO}_{2})$ 扩大3倍时，v扩大3倍，说明v与 $c(\mathrm{NO}_{2})$ 成正比，即v对 $NO_{2}$ 是一级反应。故有
 
@@ -1305,7 +1305,7 @@ $$
 \begin{array}{r l} k & = \frac {v}{c (\mathrm{CO}) c (\mathrm{NO} _ {2})} \\ & = \frac {2.2 \times 10 ^ {- 4} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \cdot \mathrm{s} ^ {- 1}}{0.025 \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \times 0.040 \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}} \\ & = 0.22 \mathrm{dm} ^ {3} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{s} ^ {- 1} \end{array}
 $$
 
-(3) 将题设数据代入速率方程, 得 $v = kc(CO)c(NO_{2})$ $=0.22\ dm^{3}\cdot mol^{-1}\cdot s^{-1}\times0.10\ mol\cdot dm^{-3}\times0.16\ mol\cdot dm^{-3}$ $=3.5\times10^{-3}\ mol\cdot dm^{-3}\cdot s^{-1}$
+(3) 将题设数据代入速率方程, 得 $v = kc(CO)c(NO_{2})$ $=0.22\ \mathrm{dm}^{3}\cdot \mathrm{mol}^{-1}\cdot \mathrm{s}^{-1}\times0.10\ \mathrm{mol}\cdot \mathrm{dm}^{-3}\times0.16\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ $=3.5\times10^{-3}\ \mathrm{mol}\cdot \mathrm{dm}^{-3}\cdot \mathrm{s}^{-1}$
 
 (4) 由公式
 
@@ -1328,7 +1328,7 @@ $$
 (C)不能肯定是否是基元反应；(D)反应为一级反应。
 
 3.2 二级反应速率常数的单位是
-(A) $s^{-1}$ ; (B) $mol \cdot dm^{-3}$ ; (C) $mol \cdot dm^{-3} \cdot s^{-1}$ ; (D) $mol^{-1} \cdot dm^{3} \cdot s^{-1}$ 。
+(A) $s^{-1}$ ; (B) $\mathrm{mol} \cdot \mathrm{dm}^{-3}$ ; (C) $\mathrm{mol} \cdot \mathrm{dm}^{-3} \cdot \mathrm{s}^{-1}$ ; (D) $\mathrm{mol}^{-1} \cdot \mathrm{dm}^{3} \cdot \mathrm{s}^{-1}$ 。
 
 3.3 反应的半衰期和反应物初始浓度的关系符合一级反应的是
 
@@ -1372,7 +1372,7 @@ $$
 (A) 减小体系的压强； (B) 在反应体系中加入大量的 NO；
 (C) 降低反应温度； (D) 在反应体系中加入 $NO_{2}$ 。
 
-3.8 有三个反应, 其反应活化能分别为: a 反应 $320 \, kJ \cdot mol^{-1}$ , b 反应 $40 \, kJ \cdot mol^{-1}$ , c 反应 $80 \, kJ \cdot mol^{-1}$ 。当温度升高时, 上述三个反应速率增加倍数的大小顺序是
+3.8 有三个反应, 其反应活化能分别为: a 反应 $320 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ , b 反应 $40 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ , c 反应 $80 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ 。当温度升高时, 上述三个反应速率增加倍数的大小顺序是
 (A) a > c > b; (B) a > b > c; (C) b > c > a; (D) c > b > a。
 
 3.9 质量数为 210 的钋同位素进行 $\beta$ 衰变, 经过 14 天后, 同位素的活性降低了 $6.85\%$ , 则该同位素分解 $90\%$ 所需要的天数为
@@ -1383,9 +1383,9 @@ $$
 
 ## 二、填空题
 
-3.11 某温度下反应 $2\mathrm{NO}(g)+\mathrm{O}_{2}(g)=2\mathrm{NO}_{2}(g)$ 的速率常数 $k=8.8\times10^{-2}\ dm^{6}\cdot mol^{-2}\cdot s^{-1}$ ，已知反应对 $O_{2}$ 来说是一级反应，则对 NO 为 \_\_\_\_ 级反应，速率方程为 \_\_\_\_；当反应物浓度都是 $0.05\ mol\cdot dm^{-3}$ 时，反应的速率是 \_\_\_\_。
+3.11 某温度下反应 $2\mathrm{NO}(g)+\mathrm{O}_{2}(g)=2\mathrm{NO}_{2}(g)$ 的速率常数 $k=8.8\times10^{-2}\ \mathrm{dm}^{6}\cdot \mathrm{mol}^{-2}\cdot \mathrm{s}^{-1}$ ，已知反应对 $O_{2}$ 来说是一级反应，则对 NO 为 \_\_\_\_ 级反应，速率方程为 \_\_\_\_；当反应物浓度都是 $0.05\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ 时，反应的速率是 \_\_\_\_。
 
-3.12 反应 A+B=C 的速率方程为 $v=kc(A)[c(B)]^{\frac{1}{2}}$ ，其反应速率的单位是 \_\_\_\_，速率常数的单位是 \_\_\_\_。（注：浓度单位用 $mol \cdot dm^{-3}$ ，时间单位用 s）
+3.12 反应 A+B=C 的速率方程为 $v=kc(A)[c(B)]^{\frac{1}{2}}$ ，其反应速率的单位是 \_\_\_\_，速率常数的单位是 \_\_\_\_。（注：浓度单位用 $\mathrm{mol} \cdot \mathrm{dm}^{-3}$ ，时间单位用 s）
 
 3.13 物质 A 与 B 混合, 反应按下列反应机理进行
 A+B=C （快）
@@ -1401,7 +1401,7 @@ B+C=D+E+A （慢）
 
 3.17 $\mathrm{CH}_2(\mathrm{CH}_2\mathrm{COOH})_2$ 在水溶液中分解成丙酮和二氧化碳。在 $283\mathrm{K}$ 时分解反应速率常数为 $1.08\times 10^{-4}\mathrm{mol}\cdot \mathrm{dm}^{-3}\cdot \mathrm{s}^{-1},333\mathrm{K}$ 时为 $5.48\times 10^{-2}\mathrm{mol}\cdot \mathrm{dm}^{-3}\cdot \mathrm{s}^{-1}$ ，则该反应的活化能为 \_\_\_\_ kJ·mol $^{-1}$ ， $303\mathrm{K}$ 时分解反应的速率常数为 \_\_\_\_。
 
-3.18 在 650 K, 丙酮的分解反应为一级反应, 测得 200 min 时, 丙酮浓度是 $0.0300 \, mol \cdot dm^{-3}$ , 400 min 时是 $0.0200 \, mol \cdot dm^{-3}$ , 则丙酮分解反应的速率常数为 \_\_\_\_; 丙酮的初始浓度为 \_\_\_\_ $mol \cdot dm^{-3}$ 。
+3.18 在 650 K, 丙酮的分解反应为一级反应, 测得 200 min 时, 丙酮浓度是 $0.0300 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ , 400 min 时是 $0.0200 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ , 则丙酮分解反应的速率常数为 \_\_\_\_; 丙酮的初始浓度为 \_\_\_\_ $\mathrm{mol} \cdot \mathrm{dm}^{-3}$ 。
 
 3.19 已知各基元反应的活化能如下表：
 
@@ -1471,13 +1471,13 @@ $$
 
 (2) 指出反应速率方程中的 $k$ 与反应机理中的速率常数 $(k_{1}, k_{-1}, k_{2}, k_{-2})$ 间的关系。3.26 在 $373 \mathrm{~K}$ 时, 反应 $\mathrm{H}_{2} \mathrm{PO}_{2}^{-} + \mathrm{OH}^{-} = \mathrm{HPO}_{3}^{2-} + \mathrm{H}_{2}$ 的实验数据如下:
 
-<table><tr><td colspan="2">初始浓度</td><td rowspan="2"> $- \frac{\mathrm{d}c\left( {{\mathrm{H}}_{2}{\mathrm{{PO}}}_{2}^{ - }}\right) }{\mathrm{d}t}/\left( {\mathrm{{mol}} \cdot  {\mathrm{{dm}}}^{-3} \cdot  {\mathrm{{min}}}^{-1}}\right)$ </td></tr><tr><td> $c\left( {{\mathrm{H}}_{2}{\mathrm{{PO}}}_{2}^{ - }}\right) /\left( {\mathrm{{mol}} \cdot  {\mathrm{{dm}}}^{-3}}\right)$ </td><td> $c\left( {\mathrm{{OH}}}^{ - }\right) /\left( {\mathrm{{mol}} \cdot  {\mathrm{{dm}}}^{-3}}\right)$ </td></tr><tr><td>0.10</td><td>1.0</td><td> ${3.2} \times  {10}^{-5}$ </td></tr><tr><td>0.50</td><td>1.0</td><td> ${1.6} \times  {10}^{-4}$ </td></tr><tr><td>0.50</td><td>4.0</td><td> ${2.56} \times  {10}^{-3}$ </td></tr></table>
+<table><tr><td colspan="2">初始浓度</td><td rowspan="2"> $- \frac{\mathrm{d}c\left( {{\mathrm{H}}_{2}{\mathrm{PO}}_{2}^{ - }}\right) }{\mathrm{d}t}/\left( {\mathrm{mol} \cdot  {\mathrm{dm}}^{-3} \cdot  {\mathrm{min}}^{-1}}\right)$ </td></tr><tr><td> $c\left( {{\mathrm{H}}_{2}{\mathrm{PO}}_{2}^{ - }}\right) /\left( {\mathrm{mol} \cdot  {\mathrm{dm}}^{-3}}\right)$ </td><td> $c\left( {\mathrm{OH}}^{ - }\right) /\left( {\mathrm{mol} \cdot  {\mathrm{dm}}^{-3}}\right)$ </td></tr><tr><td>0.10</td><td>1.0</td><td> ${3.2} \times  {10}^{-5}$ </td></tr><tr><td>0.50</td><td>1.0</td><td> ${1.6} \times  {10}^{-4}$ </td></tr><tr><td>0.50</td><td>4.0</td><td> ${2.56} \times  {10}^{-3}$ </td></tr></table>
 
 (1) 确定反应级数, 写出速率方程;
 
 (2) 计算此温度下的速率常数。
 
-3.27 反应 $C_{2}H_{6}=C_{2}H_{4}+H_{2}$ 开始阶段反应级数近似为 3/2 级，910 K 时速率常数为 $1.13\ dm^{\frac{3}{2}}\cdot mol^{-\frac{1}{2}}\cdot s^{-1}$ 。试计算 $C_{2}H_{6}(g)$ 的压强为 $1.33\times10^{4}Pa$ 时的起始分解速率 $v_{0}$ 。
+3.27 反应 $C_{2}H_{6}=C_{2}H_{4}+H_{2}$ 开始阶段反应级数近似为 3/2 级，910 K 时速率常数为 $1.13\ \mathrm{dm}^{\frac{3}{2}}\cdot \mathrm{mol}^{-\frac{1}{2}}\cdot s^{-1}$ 。试计算 $C_{2}H_{6}(g)$ 的压强为 $1.33\times10^{4}\mathrm{Pa}$ 时的起始分解速率 $v_{0}$ 。
 
 3.28 考古学者从古墓中取出的纺织品,经取样分析其 $^{14}$ C含量为动植物活体的85%。若放射性核衰变符合一级反应速率方程,且已知 $^{14}$ C的半衰期为5720年,试估算该纺织品的年龄。
 
@@ -1487,29 +1487,29 @@ $$
 
 3.31 某化合物在 100 min 内被消耗掉 25%，若分别是零级、一级和二级反应，则 200 min 时，对于各级反应，该物质分别被消耗了多少？
 
-3.32 某有机物的热分解是一级反应,活化能为 $200 \, kJ \cdot mol^{-1}$ , 600 K 时的半衰期为 360 min。问 700 K 时,多长时间可将该有机物分解 70%?
+3.32 某有机物的热分解是一级反应,活化能为 $200 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ , 600 K 时的半衰期为 360 min。问 700 K 时,多长时间可将该有机物分解 70%?
 
-3.33 已知某气相反应的活化能 $E_{a}=163\ kJ\cdot mol^{-1}$ ，温度 390 K 时的速率常数 $k=2.37\times10^{-2}\ dm^{3}\cdot mol^{-1}\cdot s^{-1}$ 。求温度为 420 K 时的反应速率常数。
+3.33 已知某气相反应的活化能 $E_{a}=163\ \mathrm{kJ}\cdot \mathrm{mol}^{-1}$ ，温度 390 K 时的速率常数 $k=2.37\times10^{-2}\ \mathrm{dm}^{3}\cdot \mathrm{mol}^{-1}\cdot \mathrm{s}^{-1}$ 。求温度为 420 K 时的反应速率常数。
 
 3.34 某一级反应 $400\mathrm{K}$ 时的半衰期是 $500\mathrm{K}$ 时的100倍，试估算该反应的活化能。
 
-3.35 在 600 K 时, 某化合物分解反应的速率常数 $k = 3.3 \times 10^{-2} s^{-1}$ , 反应的活化能 $E_{a} = 18.88 \times 10^{4} J \cdot mol^{-1}$ , 若控制反应在 10 min 内转化率达 90%, 则反应的温度应控制为多少?
+3.35 在 600 K 时, 某化合物分解反应的速率常数 $k = 3.3 \times 10^{-2} s^{-1}$ , 反应的活化能 $E_{a} = 18.88 \times 10^{4} \mathrm{J} \cdot \mathrm{mol}^{-1}$ , 若控制反应在 10 min 内转化率达 90%, 则反应的温度应控制为多少?
 
 3.36 ${}^{203}Hg$ 可用于进行肾扫描。某医院购入 $0.200\ mg{}^{203}Hg(NO_{3})_{2}$ 试样，六个月 (182 d) 后，未发生衰变的试样还有多少？已知 ${}^{203}Hg$ 的半衰期为 46.1 d。
 
 3.37 $\mathrm{N}_2\mathrm{O}_5$ 分解为 $\mathrm{NO}_2$ 和 $\mathrm{O}_2$ 的反应为一级反应， $45^{\circ}\mathrm{C}$ 时，其速率常数 $k = 4.8 \times 10^{-4} \mathrm{~s}^{-1}$ 。
 
-(1) 假设 $N_{2}O_{5}$ 的起始浓度为 $1.65 \times 10^{-2} \, mol \cdot dm^{-3}$ ，825 s 以后其浓度为多少？
+(1) 假设 $N_{2}O_{5}$ 的起始浓度为 $1.65 \times 10^{-2} \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ ，825 s 以后其浓度为多少？
 
-(2) 多长时间后 $N_{2}O_{5}$ 将由起始浓度减少到 $1.00 \times 10^{-2} \, mol \cdot dm^{-3}$ ?
+(2) 多长时间后 $N_{2}O_{5}$ 将由起始浓度减少到 $1.00 \times 10^{-2} \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ ?
 
-3.38 合成氨反应一般在 773 K 下进行, 没有催化剂时反应的活化能约为 $326 \, kJ \cdot mol^{-1}$ , 使用还原铁粉作催化剂时, 活化能降低至 $175 \, kJ \cdot mol^{-1}$ 。问加入催化剂后, 反应速率扩大了多少倍?
+3.38 合成氨反应一般在 773 K 下进行, 没有催化剂时反应的活化能约为 $326 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ , 使用还原铁粉作催化剂时, 活化能降低至 $175 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ 。问加入催化剂后, 反应速率扩大了多少倍?
 
 ## 化学平衡
 
 ## 第一部分 例题
 
-例 4.1 1 000 K 时, 将 0.631 g 光气 $\left(\mathrm{COCl}_{2}\right)$ 置于 $0.472 \, dm^{3}$ 真空容器中, 达平衡后测得其总压为 220 kPa, 试求反应
+例 4.1 1 000 K 时, 将 0.631 g 光气 $\left(\mathrm{COCl}_{2}\right)$ 置于 $0.472 \, \mathrm{dm}^{3}$ 真空容器中, 达平衡后测得其总压为 220 kPa, 试求反应
 
 $$
 \mathrm{COCl} _ {2} (\mathrm{g}) \rightleftharpoons \mathrm{CO(g)} + \mathrm{Cl} _ {2} (\mathrm{g})
@@ -1693,13 +1693,13 @@ $$
 
 解得 z=0.419。
 
-故平衡时乙部分中有 A 0.581 mol B 2.581 mol C 0.419 mol $n_{总}=3.581mol$
+故平衡时乙部分中有 A 0.581 mol B 2.581 mol C 0.419 mol $n_{总}=3.581\mathrm{mol}$
 
 同理,可以求得平衡时丙部分中有
-A 0.531 mol B 7.531 mol C 0.469 mol $n_{总}=8.531mol$
+A 0.531 mol B 7.531 mol C 0.469 mol $n_{总}=8.531\mathrm{mol}$
 
 于是去掉活塞2之后的不平衡瞬间，在活塞1和活塞3之间有
-A 1.112 mol B 10.112 mol C 0.888 mol $n_{总}=12.112mol$
+A 1.112 mol B 10.112 mol C 0.888 mol $n_{总}=12.112\mathrm{mol}$
 
 $$
 Q ^ {\ominus} = \frac {\frac {0.888}{12.112}}{\frac {1.112}{12.112} \times \frac {10.112}{12.112}} = 0.957
@@ -1769,7 +1769,7 @@ $$
 
 故汞的沸点为 $620 \, K$ ，相当于 $347^{\circ}C$ 。
 
-例 4.6 一定量的氯化铵受热分解: $\mathrm{NH_{4}Cl(s)} \rightleftharpoons \mathrm{NH_{3}(g)} + \mathrm{HCl(g)}$ 。已知反应的 $\Delta_{r}H_{m}^{\ominus} = 161 \, kJ \cdot mol^{-1}$ , $\Delta_{r}S_{m}^{\ominus} = 250 \, J \cdot mol^{-1} \cdot K^{-1}$ ，求在 700 K 达到平衡时体系的总压。
+例 4.6 一定量的氯化铵受热分解: $\mathrm{NH_{4}Cl(s)} \rightleftharpoons \mathrm{NH_{3}(g)} + \mathrm{HCl(g)}$ 。已知反应的 $\Delta_{r}H_{m}^{\ominus} = 161 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ , $\Delta_{r}S_{m}^{\ominus} = 250 \, \mathrm{J} \cdot \mathrm{mol}^{-1} \cdot \mathrm{K}^{-1}$ ，求在 700 K 达到平衡时体系的总压。
 
 解：
 
@@ -1825,7 +1825,7 @@ $$
 \begin{array}{r l} p (\mathrm{NH} _ {3}) + p (\mathrm{HCl}) & = 3.3 \times 10 ^ {2} \mathrm{kPa} + 3.3 \times 10 ^ {2} \mathrm{kPa} \\ & = 6.6 \times 10 ^ {2} \mathrm{kPa} \end{array}
 $$
 
-例 4.7 $1.01325 \times 10^{5}$ Pa 时水的沸点为 373 K，若水的汽化热为 $44.0 \, kJ \cdot mol^{-1}$ ，试给出水的饱和蒸气压 p 与热力学温度 T 的函数关系式。
+例 4.7 $1.01325 \times 10^{5}$ Pa 时水的沸点为 373 K，若水的汽化热为 $44.0 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ ，试给出水的饱和蒸气压 p 与热力学温度 T 的函数关系式。
 
 解：由 $\Delta_{\mathrm{r}}G_{\mathrm{m}}^{\ominus} = \Delta_{\mathrm{r}}H_{\mathrm{m}}^{\ominus} - T\Delta_{\mathrm{r}}S_{\mathrm{m}}^{\ominus}$ 和 $\Delta_{\mathrm{r}}G_{\mathrm{m}}^{\ominus} = -RT\ln K^{\ominus}$ 得
 
@@ -1843,7 +1843,7 @@ $$
 \lg [ p (\mathrm{H} _ {2} \mathrm{O}) / 10 ^ {5} \mathrm{Pa} ] = - \frac {\Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus}}{2.303 R T} + \frac {\Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus}}{2.303 R}\tag{1}
 $$
 
-将题设条件 373 K 时， $p(\mathrm{H}_{2}\mathrm{O})$ 为 $1.01325 \times 10^{5}$ Pa 和 $\Delta_{r} H_{m}^{\ominus} = 44.0 \, kJ \cdot mol^{-1}$ 代入式(1)中，求出
+将题设条件 373 K 时， $p(\mathrm{H}_{2}\mathrm{O})$ 为 $1.01325 \times 10^{5}$ Pa 和 $\Delta_{r} H_{m}^{\ominus} = 44.0 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ 代入式(1)中，求出
 
 $$
 \Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus} = 118 \mathrm{J} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{K} ^ {- 1}
@@ -1994,7 +1994,7 @@ $$
 (A) 平衡向右移动； (B) 平衡向左移动；
 (C) 平衡不发生移动； (D) 无法判断。
 
-4.7 $40^{\circ}C$ 时，反应 $\mathrm{N}_{2}\mathrm{O}_{4}(\mathrm{~g})\rightleftharpoons2\mathrm{NO}_{2}(\mathrm{~g})$ 的 $K^{\ominus}=0.90$ ，若平衡时总压为 $5.07\times10^{5}\ Pa$ ，则 $\mathrm{N}_{2}\mathrm{O}_{4}(\mathrm{~g})$ 的解离度为
+4.7 $40^{\circ}C$ 时，反应 $\mathrm{N}_{2}\mathrm{O}_{4}(\mathrm{~g})\rightleftharpoons2\mathrm{NO}_{2}(\mathrm{~g})$ 的 $K^{\ominus}=0.90$ ，若平衡时总压为 $5.07\times10^{5}\ \mathrm{Pa}$ ，则 $\mathrm{N}_{2}\mathrm{O}_{4}(\mathrm{~g})$ 的解离度为
 (A) 4.3%; (B) 20.6%; (C) 34.2%; (D) 42.8%。
 
 4.8 若反应商等于1,下列关系正确的是
@@ -2008,19 +2008,19 @@ A·H₂O(s)——A(s)+H₂O(g) K₃°
 为使 $\mathrm{A} \cdot 2\mathrm{H}_2\mathrm{O}$ 晶体保持稳定（不发生潮解或风化），则容器中水的蒸气压 $p(\mathrm{H}_2\mathrm{O})$ 与平衡常数的关系应满足  
 (A) $K_2^\ominus > p(\mathrm{H}_2\mathrm{O}) / p^\ominus > K_3^\ominus$ ；(B) $p(\mathrm{H}_2\mathrm{O}) / p^\ominus > K_2^\ominus$ ；(C) $p(\mathrm{H}_2\mathrm{O}) / p^\ominus > K_1^\ominus$ ；(D) $K_1^\ominus > p(\mathrm{H}_2\mathrm{O}) / p^\ominus > K_2^\ominus$ 。
 
-4.10 反应 $I_{2}(s)+Cl_{2}(g)=2ICl(g)$ 的 $\Delta_{r}G_{m}^{\ominus}=-10.9\ kJ\cdot mol^{-1}$ 。25℃时，将分压为 $p(Cl_{2})=0.217\ kPa, p(ICl)=81.04\ kPa$ 的 $Cl_{2}$ 和 ICl 与固体 $I_{2}$ 放入一容器中，则混合时反应的 $\Delta_{r}G_{m}$ 为
-(A) $14.7\ kJ\cdot mol^{-1}$ ; (B) $1.18\ kJ\cdot mol^{-1}$ ;
-(C) $3.25\ kJ\cdot mol^{-1}$ ; (D) $-4.7\ kJ\cdot mol^{-1}$ .
+4.10 反应 $I_{2}(s)+Cl_{2}(g)=2ICl(g)$ 的 $\Delta_{r}G_{m}^{\ominus}=-10.9\ \mathrm{kJ}\cdot \mathrm{mol}^{-1}$ 。25℃时，将分压为 $p(Cl_{2})=0.217\ kPa, p(ICl)=81.04\ kPa$ 的 $Cl_{2}$ 和 ICl 与固体 $I_{2}$ 放入一容器中，则混合时反应的 $\Delta_{r}G_{m}$ 为
+(A) $14.7\ \mathrm{kJ}\cdot \mathrm{mol}^{-1}$ ; (B) $1.18\ \mathrm{kJ}\cdot \mathrm{mol}^{-1}$ ;
+(C) $3.25\ \mathrm{kJ}\cdot \mathrm{mol}^{-1}$ ; (D) $-4.7\ \mathrm{kJ}\cdot \mathrm{mol}^{-1}$ .
 
 ## 二、填空题
 
-4.11 在 $25^{\circ}C$ 时，若两个反应的平衡常数之比为 10，则两个反应的 $\Delta_{r}G_{m}^{\ominus}$ 相差 $kJ \cdot mol^{-1}$ 。
+4.11 在 $25^{\circ}C$ 时，若两个反应的平衡常数之比为 10，则两个反应的 $\Delta_{r}G_{m}^{\ominus}$ 相差 $\mathrm{kJ} \cdot \mathrm{mol}^{-1}$ 。
 
 4.12 某温度下，反应 $\mathrm{H}_2(\mathrm{g}) + \mathrm{Br}_2(\mathrm{g}) \rightleftharpoons 2\mathrm{HBr}(\mathrm{g})$ 的 $K_{c} = 8.10\times 10^{3}$ 。当 $\mathrm{H}_2(\mathrm{g})$ 和 $\mathrm{Br}_2(\mathrm{g})$ 的起始浓度都为 $1.00\mathrm{mol}\cdot \mathrm{dm}^{-3}$ 时， $\mathrm{Br}_2$ 的平衡转化率为 \_\_\_\_；当 $\mathrm{H}_2(\mathrm{g})$ 和 $\mathrm{Br}_2(\mathrm{g})$ 的起始浓度分别为 $10.00\mathrm{mol}\cdot \mathrm{dm}^{-3}$ 和 $1.00\mathrm{mol}\cdot \mathrm{dm}^{-3}$ 时， $\mathrm{Br}_2$ 的平衡转化率又为 \_\_\_\_。
 
-4.13 在 $100^{\circ}C$ 时，反应 $\mathrm{AB(g)} \rightleftharpoons \mathrm{A(g)} + \mathrm{B(g)}$ 的平衡常数 $K_{c} = 0.21 \, mol \cdot dm^{-3}$ ，则标准平衡常数 $K^{\ominus}$ 的值为 \_\_\_\_。
+4.13 在 $100^{\circ}C$ 时，反应 $\mathrm{AB(g)} \rightleftharpoons \mathrm{A(g)} + \mathrm{B(g)}$ 的平衡常数 $K_{c} = 0.21 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ ，则标准平衡常数 $K^{\ominus}$ 的值为 \_\_\_\_。
 
-4.14 已知环戊烷汽化过程的 $\Delta_{r}H_{m}^{\ominus}=28.7\ kJ\cdot mol^{-1},\Delta_{r}S_{m}^{\ominus}=88\ J\cdot mol^{-1}\cdot K^{-1}$ 。环戊烷的正常沸点为 \_\_\_\_ ℃，在 $25^{\circ}C$ 时的饱和蒸气压为 \_\_\_\_ kPa。
+4.14 已知环戊烷汽化过程的 $\Delta_{r}H_{m}^{\ominus}=28.7\ \mathrm{kJ}\cdot \mathrm{mol}^{-1},\Delta_{r}S_{m}^{\ominus}=88\ \mathrm{J}\cdot \mathrm{mol}^{-1}\cdot \mathrm{K}^{-1}$ 。环戊烷的正常沸点为 \_\_\_\_ ℃，在 $25^{\circ}C$ 时的饱和蒸气压为 \_\_\_\_ kPa。
 
 4.15 对于反应
 
@@ -2032,7 +2032,7 @@ $$
 
 <table><tr><td></td><td> $k_{正}$ </td><td> $k_{逆}$ </td><td> $r_{正}$ </td><td> $r_{逆}$ </td><td> $K^{\ominus}$ </td><td>平衡移动方向</td></tr><tr><td>增加总压</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>升高温度</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>加催化剂</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
 
-4.16 已知反应 $\mathrm{NiSO_{4}\cdot6H_{2}O(s)\rightleftharpoons NiSO_{4}(s)+6H_{2}O(g)}$ 的 $\Delta_{r}G_{m}^{\ominus}=77.7\ kJ\cdot mol^{-1}$ ，则平衡时 $NiSO_{4}\cdot6H_{2}O$ 固体表面上水的蒸气压 $p(\mathrm{H}_{2}\mathrm{O})$ 为 \_\_\_\_ Pa。
+4.16 已知反应 $\mathrm{NiSO_{4}\cdot6H_{2}O(s)\rightleftharpoons NiSO_{4}(s)+6H_{2}O(g)}$ 的 $\Delta_{r}G_{m}^{\ominus}=77.7\ \mathrm{kJ}\cdot \mathrm{mol}^{-1}$ ，则平衡时 $NiSO_{4}\cdot6H_{2}O$ 固体表面上水的蒸气压 $p(\mathrm{H}_{2}\mathrm{O})$ 为 \_\_\_\_ Pa。
 
 4.17 反应 $\mathrm{I}_2(\mathrm{g}) \rightleftharpoons 2\mathrm{I}(\mathrm{g})$ 达平衡时：
 
@@ -2092,13 +2092,13 @@ $$
 
 4.35 在一定温度和压强下，某一定量的 $\mathrm{PCl}_5$ 气体的体积为 $1\mathrm{dm}^3$ ，此时 $\mathrm{PCl}_5$ 气体已有 $50\%$ 解离为 $\mathrm{PCl}_3$ 和 $\mathrm{Cl}_2$ 气体。试判断在下列条件下， $\mathrm{PCl}_5$ 的解离度是增大还是减小。
 
-(1) 减压使 $PCl_{5}$ 的体积变为 $2 \, dm^{3}$ ;
+(1) 减压使 $PCl_{5}$ 的体积变为 $2 \, \mathrm{dm}^{3}$ ;
 
-(2) 保持压强不变, 加入氮气使体积增至 $2 \, dm^{3}$ ;
+(2) 保持压强不变, 加入氮气使体积增至 $2 \, \mathrm{dm}^{3}$ ;
 
 (3) 保持体积不变, 加入氮气使压强增大 1 倍;
 
-(4) 保持压强不变, 加入氯气使体积增至 $2 \, dm^{3}$ ;
+(4) 保持压强不变, 加入氯气使体积增至 $2 \, \mathrm{dm}^{3}$ ;
 
 (5) 保持体积不变, 加入氯气使压强增大 1 倍。
 
@@ -2108,7 +2108,7 @@ $\mathrm{N_2(g)}$ $\mathrm{H_2(g)}$ $\mathrm{NH_3(g)}$ $\Delta_{\mathrm{f}}H_{\m
 
 在该温度下反应 $\mathrm{N}_{2}(\mathrm{~g})+3\mathrm{H}_{2}(\mathrm{~g})=2\mathrm{NH}_{3}(\mathrm{~g})$ 达平衡时， $c(\mathrm{N}_{2})=1.0\ \mathrm{mol}\cdot\mathrm{dm}^{-3}$ ， $c(\mathrm{H}_{2})=3.0\ \mathrm{mol}\cdot\mathrm{dm}^{-3}$ 。求 $NH_{3}$ 的平衡浓度。
 
-4.37 光气合成反应 $\mathrm{CO(g)+Cl_{2}(g)\rightleftharpoons COCl_{2}(g)}$ 在 373 K 时 $K^{\ominus}=1.50\times10^{8}$ 。若反应起始时，在 $1.00\ dm^{3}$ 容器中， $\mathrm{CO(g)}$ 的物质的量为 0.0350 mol， $\mathrm{Cl_{2}(g)}$ 的物质的量为 0.0270 mol， $\mathrm{COCl_{2}(g)}$ 的物质的量为 0.0100 mol。试判断反应进行的方向，并计算达平衡时各物质的分压。
+4.37 光气合成反应 $\mathrm{CO(g)+Cl_{2}(g)\rightleftharpoons COCl_{2}(g)}$ 在 373 K 时 $K^{\ominus}=1.50\times10^{8}$ 。若反应起始时，在 $1.00\ \mathrm{dm}^{3}$ 容器中， $\mathrm{CO(g)}$ 的物质的量为 0.0350 mol， $\mathrm{Cl_{2}(g)}$ 的物质的量为 0.0270 mol， $\mathrm{COCl_{2}(g)}$ 的物质的量为 0.0100 mol。试判断反应进行的方向，并计算达平衡时各物质的分压。
 
 4.38 KOH 的溶解度很大, 常温下约为 $110 \mathrm{~g} / (100 \mathrm{~g} \mathrm{H}_{2} \mathrm{O})$ 。所以将几粒固体 KOH 放入 $100 \mathrm{~g}$ 水中, 可以溶解, 且过程明显放热。又有实验事实表明, KOH 的溶解度随温度升高而增大。从勒夏特列原理考虑, 以上两种实验现象似乎矛盾。试给出合理解释。
 
@@ -2516,7 +2516,7 @@ C 原子与 O 原子之间 $sp-2p_{x}$ 轨道重叠，成 $\sigma$ 键，决定�
 
 解：根据价层电子对互斥理论对题设4种分子或离子的空间构型判断结果见下表：
 
-<table><tr><td></td><td>分子或离子</td><td>价层 电子总数</td><td>价层 电子对数</td><td>电子对 空间构型</td><td>分子或离子 的空间构型</td></tr><tr><td>(1)</td><td> ${\mathrm{{SF}}}_{4}$ </td><td>10</td><td>5</td><td>三角双锥形</td><td>变形四面体形</td></tr><tr><td>(2)</td><td> ${\mathrm{{BrF}}}_{3}$ </td><td>10</td><td>5</td><td>三角双锥形</td><td>T形</td></tr><tr><td>(3)</td><td> ${\mathrm{I}}_{3}^{ - }$ </td><td>10</td><td>5</td><td>三角双锥形</td><td>直线形</td></tr><tr><td>(4)</td><td> ${\mathrm{{ICl}}}_{4}^{ - }$ </td><td>12</td><td>6</td><td>正八面体形</td><td>正方形</td></tr></table>
+<table><tr><td></td><td>分子或离子</td><td>价层 电子总数</td><td>价层 电子对数</td><td>电子对 空间构型</td><td>分子或离子 的空间构型</td></tr><tr><td>(1)</td><td> ${\mathrm{SF}}_{4}$ </td><td>10</td><td>5</td><td>三角双锥形</td><td>变形四面体形</td></tr><tr><td>(2)</td><td> ${\mathrm{BrF}}_{3}$ </td><td>10</td><td>5</td><td>三角双锥形</td><td>T形</td></tr><tr><td>(3)</td><td> ${\mathrm{I}}_{3}^{ - }$ </td><td>10</td><td>5</td><td>三角双锥形</td><td>直线形</td></tr><tr><td>(4)</td><td> ${\mathrm{ICl}}_{4}^{ - }$ </td><td>12</td><td>6</td><td>正八面体形</td><td>正方形</td></tr></table>
 
 (1) $SF_{4}$ 分子中, 中心原子 S 的价层电子排布为 $3s^{2}3p^{4}$ , 经激发和杂化, 形成 5 条 $sp^{3}d$ 杂化轨道。这 5 条 $sp^{3}d$ 杂化轨道指向三角双锥的 5 个顶点, 其中有孤电子对的杂化轨道指向三角双锥底面三角形的一个顶点, 其余 4 个有单电子的杂化轨道分别与 F 的 2p 轨道成 $\sigma$ 键。两个 F 在底面三角形的两个顶点上, 另两个 F 位于三角双锥的顶角上, 构成变形四面体形。
 
@@ -2708,11 +2708,11 @@ $$
 
 6.19 根据分子轨道理论预测,下列分子或离子中最稳定的是\_\_\_\_,最不稳定的是\_\_\_\_。 $O_{2}$ , $O_{2}^{-}$ , $O_{2}^{2-}$ , $O_{2}^{+}$ , $O_{2}^{2+}$ 。
 
-6.20 已知 P—P 键, C—C 键, OH—O 键的键能分别为 $201 \, kJ \cdot mol^{-1}$ , $345.6 \, kJ \cdot mol^{-1}$ , $18.8 \, kJ \cdot mol^{-1}$ , 试粗略估算: $P_{4}(g)$ 的原子化热为 \_\_\_\_ $kJ \cdot mol^{-1}$ , 金刚石的原子化热为 \_\_\_\_ $kJ \cdot mol^{-1}$ , 冰的升华热为 \_\_\_\_ $kJ \cdot mol^{-1}$ 。
+6.20 已知 P—P 键, C—C 键, OH—O 键的键能分别为 $201 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ , $345.6 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ , $18.8 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ , 试粗略估算: $P_{4}(g)$ 的原子化热为 \_\_\_\_ $\mathrm{kJ} \cdot \mathrm{mol}^{-1}$ , 金刚石的原子化热为 \_\_\_\_ $\mathrm{kJ} \cdot \mathrm{mol}^{-1}$ , 冰的升华热为 \_\_\_\_ $\mathrm{kJ} \cdot \mathrm{mol}^{-1}$ 。
 
 ## 三、简答题和计算题
 
-6.21 已知 NO(g) 的生成热为 $90.25 \, kJ \cdot mol^{-1}$ , $N_{2}$ 分子中三键的键能为 $941.69 \, kJ \cdot mol^{-1}$ , $O_{2}$ 分子中双键的键能为 $493.59 \, kJ \cdot mol^{-1}$ , 求 NO(g) 中 N—O 键的键能。
+6.21 已知 NO(g) 的生成热为 $90.25 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ , $N_{2}$ 分子中三键的键能为 $941.69 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ , $O_{2}$ 分子中双键的键能为 $493.59 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ , 求 NO(g) 中 N—O 键的键能。
 
 6.22 已知 $CO_{2}, NO_{2}^{-}, BF_{3}$ 分别为直线形、V 形和平面三角形构型。试用等电子原理说明下列分子或离子的成键情况和空间构型。 $O_{3}$ ， $NO_{2}^{+}$ ， $NO_{3}^{-}$ ， $N_{3}^{-}$ ， $CO_{3}^{2-}$ 。
 
@@ -2908,7 +2908,7 @@ $$
 7.16 \times 10 ^ {- 22} \mathrm{g} \times \frac {1}{4} = 1.79 \times 10 ^ {- 22} \mathrm{g}
 $$
 
-依题设，Ag 的摩尔质量为 $107.87 \, g \cdot mol^{-1}$ ，故阿伏加德罗常数为
+依题设，Ag 的摩尔质量为 $107.87 \, g \cdot \mathrm{mol}^{-1}$ ，故阿伏加德罗常数为
 
 $$
 N _ {\mathrm{A}} = \frac {107.87 \mathrm{g} \cdot \mathrm{mol} ^ {- 1}}{1.79 \times 10 ^ {- 22} \mathrm{g}} = 6.03 \times 10 ^ {23} \mathrm{mol} ^ {- 1}
@@ -3020,7 +3020,7 @@ $$
 
 7.26 计算金属面心立方最紧密堆积和体心立方紧密堆积的空间利用率。
 
-7.27 已知 KF 晶体具有 NaCl 型结构，在 $20^{\circ}C$ 时测出 KF 晶体密度为 $2.481 \, g \cdot cm^{-3}$ ，试计算 KF 晶胞的边长及在晶胞中相邻的 $K^{+}$ 和 $F^{-}$ 间的距离。已知 $A_{\mathrm{r}}(\mathrm{K}) = 39.10, A_{\mathrm{r}}(\mathrm{F}) = 19.00$ 。
+7.27 已知 KF 晶体具有 NaCl 型结构，在 $20^{\circ}C$ 时测出 KF 晶体密度为 $2.481 \, g \cdot \mathrm{cm}^{-3}$ ，试计算 KF 晶胞的边长及在晶胞中相邻的 $K^{+}$ 和 $F^{-}$ 间的距离。已知 $A_{\mathrm{r}}(\mathrm{K}) = 39.10, A_{\mathrm{r}}(\mathrm{F}) = 19.00$ 。
 
 7.28 HF 分子间氢键比 $H_{2}O$ 分子间氢键更强些,为什么 HF 的沸点及汽化热均比 $H_{2}O$ 的低?
 
@@ -3066,7 +3066,7 @@ $$
 
 ## 第一部分 例题
 
-例 8.1 已知氨水的 $K_{b}^{\ominus}=1.8\times10^{-5}$ ，现有 $1.0\ dm^{3}\ 0.10\ mol\cdot dm^{-3}$ 氨水，求：
+例 8.1 已知氨水的 $K_{b}^{\ominus}=1.8\times10^{-5}$ ，现有 $1.0\ \mathrm{dm}^{3}\ 0.10\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ 氨水，求：
 
 (1) 氨水的 $c(\mathrm{H}^{+})$ ;
 
@@ -3106,13 +3106,13 @@ $$
 n (\mathrm{NH} _ {4} \mathrm{Cl}) = \frac {10.7 \mathrm{g}}{53.5 \mathrm{g} \cdot \mathrm{mol} ^ {- 1}} = 0.20 \mathrm{mol}
 $$
 
-$NH_{4}Cl$ 完全解离后， $c(NH_{4}^{+})=0.20\ mol\cdot dm^{-3}$ 。
+$NH_{4}Cl$ 完全解离后， $c(NH_{4}^{+})=0.20\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ 。
 
 $$
 \mathrm{NH} _ {3} \cdot \mathrm{H} _ {2} \mathrm{O} \rightleftharpoons \mathrm{NH} _ {4} ^ {+} + \mathrm{OH} ^ {-}
 $$
 
-$c_{平}/(mol\cdot dm^{-3})$
+$c_{平}/(\mathrm{mol}\cdot \mathrm{dm}^{-3})$
 
 解得
 
@@ -3126,7 +3126,7 @@ $$
 
 (3)
 
-例 8.2 向 $0.10 \, mol \cdot dm^{-3}$ 草酸溶液中滴加 NaOH 溶液至 pH = 6.00，求溶液中 $H_{2}C_{2}O_{4}$ ， $HC_{2}O_{4}^{-}$ 和 $C_{2}O_{4}^{2-}$ 的浓度。已知 $H_{2}C_{2}O_{4}$ 的 $K_{a_{1}}^{\ominus} = 5.4 \times 10^{-2}$ ， $K_{a_{2}}^{\ominus} = 5.4 \times 10^{-5}$ 。
+例 8.2 向 $0.10 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 草酸溶液中滴加 NaOH 溶液至 pH = 6.00，求溶液中 $H_{2}C_{2}O_{4}$ ， $HC_{2}O_{4}^{-}$ 和 $C_{2}O_{4}^{2-}$ 的浓度。已知 $H_{2}C_{2}O_{4}$ 的 $K_{a_{1}}^{\ominus} = 5.4 \times 10^{-2}$ ， $K_{a_{2}}^{\ominus} = 5.4 \times 10^{-5}$ 。
 
 解：第一步解离
 
@@ -3176,7 +3176,7 @@ $$
 c (\mathrm{C} _ {2} \mathrm{O} _ {4} ^ {2 -}) = 2.9 \times 10 ^ {6} c (\mathrm{H} _ {2} \mathrm{C} _ {2} \mathrm{O} _ {4})
 $$
 
-体系中草酸的起始总浓度为 $0.10 \, mol \cdot dm^{-3}$ ，以三种形式分配在平衡体系中，故
+体系中草酸的起始总浓度为 $0.10 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ ，以三种形式分配在平衡体系中，故
 
 即
 
@@ -3240,9 +3240,9 @@ $$
 0.086 \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} + 2.17 \times 10 ^ {- 2} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} = 0.11 \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}
 $$
 
-例 8.4 将 $0.10 \, mol \cdot dm^{-3} HAc$ 溶液和 $0.10 \, mol \cdot dm^{-3} HCN$ 溶液等体积混合，试计算此溶液的 $c(\mathrm{H}^{+})$ ， $c(\mathrm{Ac}^{-})$ 和 $c(\mathrm{CN}^{-})$ 。已知 HAc 的 $K_{a}^{\ominus} = 1.8 \times 10^{-5}$ ，HCN 的 $K_{a}^{\ominus} = 6.2 \times 10^{-10}$ 。
+例 8.4 将 $0.10 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} HAc$ 溶液和 $0.10 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} HCN$ 溶液等体积混合，试计算此溶液的 $c(\mathrm{H}^{+})$ ， $c(\mathrm{Ac}^{-})$ 和 $c(\mathrm{CN}^{-})$ 。已知 HAc 的 $K_{a}^{\ominus} = 1.8 \times 10^{-5}$ ，HCN 的 $K_{a}^{\ominus} = 6.2 \times 10^{-10}$ 。
 
-解：两种酸溶液混合，其中 $K_{\mathrm{a}}^{\ominus}(\mathrm{HAc}) \gg K_{\mathrm{a}}^{\ominus}(\mathrm{HCN})$ ，所以体系中 $c(\mathrm{H}^{+})$ 完全由 HAc 的解离来决定。等体积混合后，两种酸溶液的浓度均为 $0.050 \, mol \cdot dm^{-3}$ 。
+解：两种酸溶液混合，其中 $K_{\mathrm{a}}^{\ominus}(\mathrm{HAc}) \gg K_{\mathrm{a}}^{\ominus}(\mathrm{HCN})$ ，所以体系中 $c(\mathrm{H}^{+})$ 完全由 HAc 的解离来决定。等体积混合后，两种酸溶液的浓度均为 $0.050 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 。
 
 $$
 \begin{array}{r l r}&&{\mathrm{HAc} \rightleftharpoons \mathrm{H} ^ {+} + \mathrm{Ac} ^ {-}}\\&&{c _ {0} / (\mathrm{mol} \bullet \mathrm{dm} ^ {- 3}) \qquad 0.050 \qquad 0 \qquad 0}\\&&{c _ {\text {平}} / (\mathrm{mol} \bullet \mathrm{dm} ^ {- 3}) \qquad 0.050 - x \qquad x \qquad x}\end{array}
@@ -3294,7 +3294,7 @@ $$
 
 即溶液中 $c(\mathrm{CN}^{-})=3.3\times10^{-8}\ \mathrm{mol}\cdot\mathrm{dm}^{-3}$
 
-例 8.5 拟配制 $1 \, dm^{3} \, pH$ 为 5 的 HAc—NaAc 缓冲溶液，为保证缓冲容量，要求 HAc 及其共轭碱的浓度之和为 $2 \, mol \cdot dm^{-3}$ 。计算需要 $17 \, mol \cdot dm^{-3}$ 冰醋酸和 $6 \, mol \cdot dm^{-3}$ NaOH 溶液各多少，需加水多少。已知 HAc 的 $K_{a}^{\ominus} = 1.8 \times 10^{-5}$ 。
+例 8.5 拟配制 $1 \, \mathrm{dm}^{3} \, pH$ 为 5 的 HAc—NaAc 缓冲溶液，为保证缓冲容量，要求 HAc 及其共轭碱的浓度之和为 $2 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 。计算需要 $17 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 冰醋酸和 $6 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ NaOH 溶液各多少，需加水多少。已知 HAc 的 $K_{a}^{\ominus} = 1.8 \times 10^{-5}$ 。
 
 解：缓冲溶液中 HAc 的解离平衡为
 
@@ -3348,13 +3348,13 @@ $$
 \frac {2 \mathrm{mol}}{17 \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}} = 0.12 \mathrm{dm} ^ {3}
 $$
 
-缓冲溶液的总体积,按题设为 $1 \, dm^{3}$ , 故尚需加水的体积为
+缓冲溶液的总体积,按题设为 $1 \, \mathrm{dm}^{3}$ , 故尚需加水的体积为
 
 $$
 1 \mathrm{dm} ^ {3} - 0.12 \mathrm{dm} ^ {3} - 0.22 \mathrm{dm} ^ {3} = 0.66 \mathrm{dm} ^ {3}
 $$
 
-例 8.6 已知 $H_{2}S$ 的 $K_{a_{1}}^{\ominus}=1.1\times10^{-7}, K_{a_{2}}^{\ominus}=1.3\times10^{-13}$ ，求 $0.20\ mol\cdot dm^{-3}Na_{2}S$ 溶液中的 $c(\mathrm{Na}^{+}), c(\mathrm{S}^{2-}), c(\mathrm{HS}^{-}), c(\mathrm{OH}^{-}), c(\mathrm{H}_{2}\mathrm{S})$ 和 $c(\mathrm{H}^{+})$ 。
+例 8.6 已知 $H_{2}S$ 的 $K_{a_{1}}^{\ominus}=1.1\times10^{-7}, K_{a_{2}}^{\ominus}=1.3\times10^{-13}$ ，求 $0.20\ \mathrm{mol}\cdot \mathrm{dm}^{-3}Na_{2}S$ 溶液中的 $c(\mathrm{Na}^{+}), c(\mathrm{S}^{2-}), c(\mathrm{HS}^{-}), c(\mathrm{OH}^{-}), c(\mathrm{H}_{2}\mathrm{S})$ 和 $c(\mathrm{H}^{+})$ 。
 
 解：
 
@@ -3428,7 +3428,7 @@ $$
 
 从 $K_{\mathrm{a}}^{\ominus}(K_{\mathrm{b}}^{\ominus})$ 计算其共轭碱的 $K_{\mathrm{b}}^{\ominus}$ （共轭酸的 $K_{\mathrm{a}}$ )的公式是 $K_{\mathrm{a}}^{\ominus} \cdot K_{\mathrm{b}}^{\ominus} = K_{\mathrm{w}}^{\ominus}$ 。
 
-例 8.8 用强碱滴定某一元弱酸, 在加入 $3.50 \, cm^{3}$ 碱液时, 体系的 pH=4.15; 在加入 $5.70 \, cm^{3}$ 碱液时, 体系的 pH=4.44。求该弱酸的解离平衡常数。
+例 8.8 用强碱滴定某一元弱酸, 在加入 $3.50 \, \mathrm{cm}^{3}$ 碱液时, 体系的 pH=4.15; 在加入 $5.70 \, \mathrm{cm}^{3}$ 碱液时, 体系的 pH=4.44。求该弱酸的解离平衡常数。
 
 解: 一元弱酸 HA 与强碱 $\mathrm{OH}^{-}$ 的反应为
 
@@ -3470,13 +3470,13 @@ $$
 4.44 = \mathrm{p} K _ {\mathrm{a}} ^ {\ominus} - \lg \left(\frac {A}{5.70 \mathrm{cm} ^ {3}} - 1\right)\tag{3}
 $$
 
-式(2)和式(3)联立,解得 $A=16.85\ cm^{3}$ , $pK_{a}^{\ominus}=4.73$ 。
+式(2)和式(3)联立,解得 $A=16.85\ \mathrm{cm}^{3}$ , $pK_{a}^{\ominus}=4.73$ 。
 
 故该弱酸的解离平衡常数 $K_{a}^{\ominus}=1.86\times10^{-5}$ 。
 
-例 8.9 $80 \, cm^{3}$ $1.0 \, mol \cdot dm^{-3}$ 某一元弱酸与 $50 \, cm^{3}$ $0.40 \, mol \cdot dm^{-3}$ NaOH 溶液混合后，再稀释至 $250 \, cm^{3}$ ，测得溶液的 pH=2.72，求该弱酸的解离平衡常数。
+例 8.9 $80 \, \mathrm{cm}^{3}$ $1.0 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 某一元弱酸与 $50 \, \mathrm{cm}^{3}$ $0.40 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ NaOH 溶液混合后，再稀释至 $250 \, \mathrm{cm}^{3}$ ，测得溶液的 pH=2.72，求该弱酸的解离平衡常数。
 
-解：依题设条件， $V_{酸}=0.080\ dm^{3}$ ， $V_{碱}=0.050\ dm^{3}$
+解：依题设条件， $V_{酸}=0.080\ \mathrm{dm}^{3}$ ， $V_{碱}=0.050\ \mathrm{dm}^{3}$
 
 根据反应式
 
@@ -3486,7 +3486,7 @@ $$
 \begin{array}{r l}{n _ {\mathrm{酸}} = c _ {\mathrm{酸}} V _ {\mathrm{酸}} = 1.0 \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \times 0.080 \mathrm{dm} ^ {3} = 0.080 \mathrm{mol}}\\{n _ {\mathrm{碱}} = c _ {\mathrm{碱}} V _ {\mathrm{碱}} = 0.40 \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \times 0.050 \mathrm{dm} ^ {3} = 0.020 \mathrm{mol}}\\{\mathrm{HA+NaOH} \rightleftharpoons \mathrm{NaA+H} _ {2} \mathrm{O}}\\{\text {有}}&{n _ {\mathrm{酸}} = 0.060 \mathrm{mol}}\\&{n _ {\mathrm{盐}} = 0.020 \mathrm{mol}}\end{array}
 $$
 
-稀释至 $250 \, cm^{3}$ 即 $0.250 \, dm^{3}$ 后，体系中
+稀释至 $250 \, \mathrm{cm}^{3}$ 即 $0.250 \, \mathrm{dm}^{3}$ 后，体系中
 
 $$
 \begin{array}{r l} & c _ {\text {酸}} = \frac {n _ {\text {酸}}}{V} = \frac {0.060 \mathrm{mol}}{0.250 \mathrm{dm} ^ {3}} = 0.240 \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \\ & c _ {\text {盐}} = \frac {n _ {\text {盐}}}{V} = \frac {0.020 \mathrm{mol}}{0.250 \mathrm{dm} ^ {3}} = 0.080 \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \end{array}
@@ -3568,18 +3568,18 @@ $$
 
 8.1 已知 $\mathrm{H}_2\mathrm{CO}_3$ $K_{\mathrm{a}_1}^{\ominus} = 4.5\times 10^{-7}, K_{\mathrm{a}_2}^{\ominus} = 4.7\times 10^{-11}$ $\mathrm{H}_2\mathrm{S}$ $K_{\mathrm{a}_1}^{\ominus} = 1.1\times 10^{-7}, K_{\mathrm{a}_2}^{\ominus} = 1.3\times 10^{-13}$ 将相同浓度的 $\mathrm{H}_2\mathrm{S}$ 和 $\mathrm{H}_2\mathrm{CO}_3$ 溶液等体积混合后，下列对离子浓度相对大小表达正确的是(A) $c(\mathrm{CO}_3^{2-}) < c(\mathrm{S}^{2-})$ ; (B) $c(\mathrm{CO}_3^{2-}) > c(\mathrm{S}^{2-})$ ; (C) $c(\mathrm{HCO}_3^-) < c(\mathrm{S}^{2-})$ ; (D) $c(\mathrm{HS}^-) < c(\mathrm{CO}_3^{2-})$ 。
 
-8.2 已知 $H_{3}PO_{4}$ 的 $K_{a_{1}}^{\ominus}=6.9\times10^{-3}, K_{a_{2}}^{\ominus}=6.1\times10^{-8}, K_{a_{3}}^{\ominus}=4.8\times10^{-13}$ ，则在 $0.1\ mol\cdot dm^{-3}$ $NaH_{2}PO_{4}$ 溶液中离子浓度由大到小的顺序正确的是
+8.2 已知 $H_{3}PO_{4}$ 的 $K_{a_{1}}^{\ominus}=6.9\times10^{-3}, K_{a_{2}}^{\ominus}=6.1\times10^{-8}, K_{a_{3}}^{\ominus}=4.8\times10^{-13}$ ，则在 $0.1\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ $NaH_{2}PO_{4}$ 溶液中离子浓度由大到小的顺序正确的是
 (A) $Na^{+}, H_{2}PO_{4}^{-}, HPO_{4}^{2-}, H_{3}PO_{4}, PO_{4}^{3-};$ (B) $Na^{+}, H_{2}PO_{4}^{-}, HPO_{4}^{2-}, PO_{4}^{3-}, H_{3}PO_{4};$ (C) $Na^{+}, HPO_{4}^{2-}, H_{2}PO_{4}^{-}, H_{3}PO_{4}, PO_{4}^{3-};$ (D) $Na^{+}, HPO_{4}^{2-}, H_{2}PO_{4}^{-}, PO_{4}^{3-}, H_{3}PO_{4}.$
 
 8.3 将 $0.1 \mathrm{~mol} \cdot \mathrm{dm}^{-3}$ 下列溶液加水稀释 1 倍后, $\mathrm{pH}$ 变化最小的是 (A) HCl; (B) $\mathrm{H}_{2} \mathrm{SO}_{4}$ ; (C) $\mathrm{HNO}_{3}$ ; (D) $\mathrm{HAc}$ 。
 
 8.4 在下列溶液中 HCN 解离度最大的是
-(A) $0.10 \, mol \cdot dm^{-3} \, KCN$ ;
-(B) $0.20 \, mol \cdot dm^{-3} \, NaCl$ ;
-(C) $0.10 \, mol \cdot dm^{-3} \, KCN$ 和 $0.10 \, mol \cdot dm^{-3} \, KCl$ 混合溶液；
-(D) $0.10 \, mol \cdot dm^{-3} \, KCl$ 和 $0.20 \, mol \cdot dm^{-3} \, NaCl$ 混合溶液。
+(A) $0.10 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \, KCN$ ;
+(B) $0.20 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \, NaCl$ ;
+(C) $0.10 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \, KCN$ 和 $0.10 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \, KCl$ 混合溶液；
+(D) $0.10 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \, KCl$ 和 $0.20 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \, NaCl$ 混合溶液。
 
-8.5 将 $0.1 \, mol \cdot dm^{-3}$ NaAc 溶液加水稀释时，下列各项数值中增大的是
+8.5 将 $0.1 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ NaAc 溶液加水稀释时，下列各项数值中增大的是
 (A) $c(\mathrm{Ac}^{-})/c(\mathrm{OH}^{-})$ ; (B) $c(\mathrm{OH}^{-})/c(\mathrm{Ac}^{-})$ ;
 (C) $c(\mathrm{Ac}^{-})$ ; (D) $c(\mathrm{OH}^{-})$ 。
 
@@ -3592,40 +3592,40 @@ $$
 8.8 下列溶液中, 具有明显缓冲作用的是
 (A) $Na_{2}CO_{3}$ ; (B) $NaHCO_{3}$ ; (C) $NaHSO_{4}$ ; (D) $Na_{3}PO_{4}$ 。
 
-8.9 已知 $H_{2}CO_{3}$ 的 $K_{a_{1}}^{\ominus}=4.5\times10^{-7}, K_{a_{2}}^{\ominus}=4.7\times10^{-11}$ ，则 $0.10\ mol\cdot dm^{-3}\ NaHCO_{3}$ 溶液的 pH 约为
+8.9 已知 $H_{2}CO_{3}$ 的 $K_{a_{1}}^{\ominus}=4.5\times10^{-7}, K_{a_{2}}^{\ominus}=4.7\times10^{-11}$ ，则 $0.10\ \mathrm{mol}\cdot \mathrm{dm}^{-3}\ NaHCO_{3}$ 溶液的 pH 约为
 (A) 5.6; (B) 7.0; (C) 8.3; (D) 13.0。
 
-8.10 已知 $H_{3}PO_{4}$ 的 $pK_{a_{1}}^{\ominus}=2.16, pK_{a_{2}}^{\ominus}=7.21, pK_{a_{3}}^{\ominus}=12.32$ ，则 $0.10\ mol\cdot dm^{-3}\ Na_{2}HPO_{4}$ 溶液的 pH 约为
+8.10 已知 $H_{3}PO_{4}$ 的 $pK_{a_{1}}^{\ominus}=2.16, pK_{a_{2}}^{\ominus}=7.21, pK_{a_{3}}^{\ominus}=12.32$ ，则 $0.10\ \mathrm{mol}\cdot \mathrm{dm}^{-3}\ Na_{2}HPO_{4}$ 溶液的 pH 约为
 (A) 4.7; (B) 7.3; (C) 10.1; (D) 9.8。
 
 8.11 不是共轭酸碱对的一组物质是
 (A) $NH_{3}, NH_{2}^{-}$ ; (B) NaOH, $Na^{+}$ ;
 (C) $HS^{-}, S^{2-}$ ; (D) $H_{2}O, OH^{-}$ 。
 
-8.12 将 $0.050 \, dm^{3}$ $0.10 \, mol \cdot dm^{-3}$ 某一元弱酸溶液与 $0.020 \, dm^{3}$ $0.10 \, mol \cdot dm^{-3}$ KOH 溶液混合，之后将混合溶液稀释至 $0.10 \, dm^{3}$ ，测得该溶液的 pH 为 5.25，该弱酸的 $K_{a}^{\ominus}$ 为 (A) $3.8 \times 10^{-6}$ ; (B) $5.6 \times 10^{-6}$ ; (C) $8.4 \times 10^{-6}$ ; (D) $9.4 \times 10^{-6}$ 。
+8.12 将 $0.050 \, \mathrm{dm}^{3}$ $0.10 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 某一元弱酸溶液与 $0.020 \, \mathrm{dm}^{3}$ $0.10 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ KOH 溶液混合，之后将混合溶液稀释至 $0.10 \, \mathrm{dm}^{3}$ ，测得该溶液的 pH 为 5.25，该弱酸的 $K_{a}^{\ominus}$ 为 (A) $3.8 \times 10^{-6}$ ; (B) $5.6 \times 10^{-6}$ ; (C) $8.4 \times 10^{-6}$ ; (D) $9.4 \times 10^{-6}$ 。
 
 ## 二、填空题
 
-8.13 已知 $H_{2}SO_{4}$ 的二级解离平衡常数为 $1.0 \times 10^{-2}$ ，则 $0.010 \, mol \cdot dm^{-3} \, H_{2}SO_{4}$ 溶液的 $c(\mathrm{H}^{+})$ 为 \_\_\_\_ $mol \cdot dm^{-3}$ ，pH 为 \_\_\_\_。
+8.13 已知 $H_{2}SO_{4}$ 的二级解离平衡常数为 $1.0 \times 10^{-2}$ ，则 $0.010 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \, H_{2}SO_{4}$ 溶液的 $c(\mathrm{H}^{+})$ 为 \_\_\_\_ $\mathrm{mol} \cdot \mathrm{dm}^{-3}$ ，pH 为 \_\_\_\_。
 
-8.14 某一元弱酸的钠盐(NaX)溶液浓度为 $0.2 \, mol \cdot dm^{-3}$ ，测得其 pH=9，则钠盐 NaX 的水解度为 \_\_\_\_，弱酸 HX 的解离平衡常数为 \_\_\_\_。
+8.14 某一元弱酸的钠盐(NaX)溶液浓度为 $0.2 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ ，测得其 pH=9，则钠盐 NaX 的水解度为 \_\_\_\_，弱酸 HX 的解离平衡常数为 \_\_\_\_。
 
 8.15 已知 $18^{\circ}$ C 时水的 $K_{w}^{\ominus}=6.4\times10^{-15}$ ，此时中性溶液中氢离子的浓度为 \_\_\_\_ mol·dm $^{-3}$ ，pH 为 \_\_\_\_。
 
 8.16 已知某二元弱酸 $\mathrm{H}_2\mathrm{A}$ 的 $K_{\mathrm{a}_1}^{\ominus} = 1\times 10^{-7}, K_{\mathrm{a}_2}^{\ominus} = 1\times 10^{-14}$ ，则 $0.10\mathrm{mol}\cdot \mathrm{dm}^{-3}\mathrm{H}_2\mathrm{A}$ 溶液中 $c(\mathrm{A}^{2-})$ 为 \_\_\_\_ mol·dm $^{-3}$ ；在 $0.10\mathrm{mol}\cdot \mathrm{dm}^{-3}\mathrm{H}_2\mathrm{A}$ 和 $0.10\mathrm{mol}\cdot \mathrm{dm}^{-3}$ 盐酸混合溶液中 $c(\mathrm{A}^{2-})$ 为 \_\_\_\_ mol·dm $^{-3}$ 。
 
-.17 下列溶液中各物质的浓度均为 $0.10 \, mol \cdot dm^{-3}$ ，则按 pH 由大到小排列的顺序为 \_\_\_\_。
+.17 下列溶液中各物质的浓度均为 $0.10 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ ，则按 pH 由大到小排列的顺序为 \_\_\_\_。
 (1) $NH_{4}Cl$ 和 $NH_{3} \cdot H_{2}O$ 混合溶液； (2) NaAc 和 HAc 混合溶液；
 (3) HAc; (4) $NH_{3} \cdot H_{2}O$ ;
 (5) HCl; (6) NaOH。
 
-8.18 在 $0.10 \, mol \cdot dm^{-3}$ HAc 溶液中加入少许 NaCl 晶体，溶液的 pH 将会 \_\_\_\_；若以 $Na_{2}CO_{3}$ 代替 NaCl，则溶液的 pH 将会 \_\_\_\_。
+8.18 在 $0.10 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ HAc 溶液中加入少许 NaCl 晶体，溶液的 pH 将会 \_\_\_\_；若以 $Na_{2}CO_{3}$ 代替 NaCl，则溶液的 pH 将会 \_\_\_\_。
 
 8.19 实验室有 HCl, HAc( $K_{a}^{\ominus}=1.8\times10^{-5}$ ), NaOH, NaAc 四种浓度相同的溶液, 现要配制 pH=4.44 的缓冲溶液, 共有三种配法, 每种配法所用的两种溶液及其体积比分别为 \_\_\_\_; \_\_\_\_; \_\_\_\_。
 
-8.20 在 $0.10 \, mol \cdot dm^{-3} \, NH_{3} \cdot H_{2}O$ 中加入 $NH_{4}Cl$ 固体，则 $NH_{3} \cdot H_{2}O$ 的浓度 \_\_\_\_，解离度 \_\_\_\_，pH \_\_\_\_，解离平衡常数 \_\_\_\_。
+8.20 在 $0.10 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \, NH_{3} \cdot H_{2}O$ 中加入 $NH_{4}Cl$ 固体，则 $NH_{3} \cdot H_{2}O$ 的浓度 \_\_\_\_，解离度 \_\_\_\_，pH \_\_\_\_，解离平衡常数 \_\_\_\_。
 
-8.21 $2\ mol\cdot dm^{-3}\ NH_{3}\cdot H_{2}O\ (K_{b}^{\ominus}=1.8\times10^{-5})$ 的 pH 为 \_\_\_\_；将它与 $2\ mol\cdot dm^{-3}$ 盐酸等体积混合后，溶液的 pH 为 \_\_\_\_；若将氨水与 $4\ mol\cdot dm^{-3}$ 盐酸等体积混合，则混合溶液的 pH 为 \_\_\_\_。
+8.21 $2\ \mathrm{mol}\cdot \mathrm{dm}^{-3}\ NH_{3}\cdot H_{2}O\ (K_{b}^{\ominus}=1.8\times10^{-5})$ 的 pH 为 \_\_\_\_；将它与 $2\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ 盐酸等体积混合后，溶液的 pH 为 \_\_\_\_；若将氨水与 $4\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ 盐酸等体积混合，则混合溶液的 pH 为 \_\_\_\_。
 
 8.22 已知 $H_{3}PO_{4}$ 的 $K_{a_{1}}^{\ominus}=6.9\times10^{-3}, K_{a_{2}}^{\ominus}=6.1\times10^{-8}, K_{a_{3}}^{\ominus}=4.8\times10^{-13}$ 。 $H_{3}PO_{4}$ 的共轭碱为 \_\_\_\_，其 $K_{b}^{\ominus}$ 值为 \_\_\_\_。
 
@@ -3641,9 +3641,9 @@ $$
 
 8.26 计算下列溶液的 $\mathrm{pH}$ 。
 
-(1) $0.01 \, mol \cdot dm^{-3} \cdot HCN$ 溶液 ( $K_{a}^{\ominus} = 6.2 \times 10^{-10}$ );
+(1) $0.01 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \cdot HCN$ 溶液 ( $K_{a}^{\ominus} = 6.2 \times 10^{-10}$ );
 
-(2) $0.01 \, mol \cdot dm^{-3} \, HNO_{2}$ 溶液 ( $K_{a}^{\ominus} = 5.1 \times 10^{-4}$ );
+(2) $0.01 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \, HNO_{2}$ 溶液 ( $K_{a}^{\ominus} = 5.1 \times 10^{-4}$ );
 
 (3) $0.20\mathrm{mol}\cdot \mathrm{dm}^{-3}\mathrm{KHC}_2\mathrm{O}_4$ 溶液 $(\mathrm{H}_2\mathrm{C}_2\mathrm{O}_4:K_{a_1}^{\ominus} = 5.4\times 10^{-2},K_{a_2}^{\ominus} = 5.4\times 10^{-5})$
 
@@ -3651,9 +3651,9 @@ $$
 
 (5) $0.10\mathrm{mol}\cdot \mathrm{dm}^{-3}\mathrm{Na}_2\mathrm{S}$ 溶液 $(\mathrm{H}_2\mathrm{S}:K_{\mathrm{a}_1}^{\ominus} = 1.1\times 10^{-7},K_{\mathrm{a}_2}^{\ominus} = 1.3\times 10^{-13})$
 
-(6) $0.10 \, mol \cdot dm^{-3} \, NH_{4}Cl$ 溶液 ( $NH_{3} \cdot H_{2}O : K_{b}^{\ominus} = 1.8 \times 10^{-5}$ )。
+(6) $0.10 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \, NH_{4}Cl$ 溶液 ( $NH_{3} \cdot H_{2}O : K_{b}^{\ominus} = 1.8 \times 10^{-5}$ )。
 
-8.27 通过计算说明: 中和 $50.0 \, cm^{3}$ , pH=3.80 的盐酸与中和 $50.0 \, cm^{3}$ , pH=3.80 的醋酸溶液所需 NaOH 的物质的量是否相同。已知 $K_{\mathrm{a}}^{\ominus}(\mathrm{HAc})=1.8\times10^{-5}$ 。
+8.27 通过计算说明: 中和 $50.0 \, \mathrm{cm}^{3}$ , pH=3.80 的盐酸与中和 $50.0 \, \mathrm{cm}^{3}$ , pH=3.80 的醋酸溶液所需 NaOH 的物质的量是否相同。已知 $K_{\mathrm{a}}^{\ominus}(\mathrm{HAc})=1.8\times10^{-5}$ 。
 
 8.28 298 K时，测得0.100 mol·dm $^{-3}$ HF溶液中c(H $^{+}$ )为7.63×10 $^{-3}$ mol·dm $^{-3}$ 。求反应
 
@@ -3667,7 +3667,7 @@ $$
 
 8.30 将 $0.20 \mathrm{~mol} \cdot \mathrm{dm}^{-3}$ 盐酸和 $0.20 \mathrm{~mol} \cdot \mathrm{dm}^{-3} \mathrm{H}_{2} \mathrm{C}_{2} \mathrm{O}_{4}$ 溶液等体积混合后，求溶液中 $\mathrm{C}_{2} \mathrm{O}_{4}^{2-}$ 和 $\mathrm{HC}_{2} \mathrm{O}_{4}^{-}$ 的浓度。已知 $\mathrm{H}_{2} \mathrm{C}_{2} \mathrm{O}_{4}$ 的 $K_{\mathrm{a}_{1}}^{\ominus} = 5.4 \times 10^{-2}, K_{\mathrm{a}_{2}}^{\ominus} = 5.4 \times 10^{-5}$ 。
 
-8.31 欲配制 $0.50 \, dm^{3} \, pH = 9, c(\mathrm{NH}_{4}^{+}) = 1.0 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 的缓冲溶液，求需密度为 $0.904 \, g \cdot cm^{-3}$ ，含氨质量分数为 26.0% 的氨水的体积及所需固体氯化铵的质量。
+8.31 欲配制 $0.50 \, \mathrm{dm}^{3} \, pH = 9, c(\mathrm{NH}_{4}^{+}) = 1.0 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 的缓冲溶液，求需密度为 $0.904 \, g \cdot \mathrm{cm}^{-3}$ ，含氨质量分数为 26.0% 的氨水的体积及所需固体氯化铵的质量。
 
 8.32 在血液中 $\mathrm{H}_2\mathrm{CO}_3 - \mathrm{NaHCO}_3$ 缓冲对的作用之一是从细胞组织中迅速除去由运动产生的乳酸（简记为HL， $K_{\mathrm{a}}^{\ominus} = 1.4\times 10^{-4}$ ）。已知 $\mathrm{H}_2\mathrm{CO}_3$ 的 $K_{\mathrm{a_1}}^{\ominus} = 4.5\times 10^{-7}$ 。
 
@@ -3675,9 +3675,9 @@ $$
 
 (2) 若血液中 $c(\mathrm{H}_{2}\mathrm{CO}_{3})=1.4\times10^{-3}\ \mathrm{mol}\cdot\mathrm{dm}^{-3}, c(\mathrm{HCO}_{3}^{-})=2.7\times10^{-2}\ \mathrm{mol}\cdot\mathrm{dm}^{-3}$ ，求血液的 pH；
 
-(3) 向 $1.0 \, dm^{3}$ 血液中加入 $5.0 \times 10^{-3} \, mol$ HL 后，pH 为多大？
+(3) 向 $1.0 \, \mathrm{dm}^{3}$ 血液中加入 $5.0 \times 10^{-3} \, \mathrm{mol}$ HL 后，pH 为多大？
 
-8.33 将 $1.00 \, mol \cdot dm^{-3}$ HAc 溶液和 $1.00 \, mol \cdot dm^{-3}$ 氢氟酸等体积混合，若已知 HAc 的 $K_{a}^{\ominus} = 1.8 \times 10^{-5}$ ，HF 的 $K_{a}^{\ominus} = 6.3 \times 10^{-4}$ ，试计算此溶液的 $c(\mathrm{H}^{+})$ ， $c(\mathrm{Ac}^{-})$ 和 $c(\mathrm{F}^{-})$ 。
+8.33 将 $1.00 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ HAc 溶液和 $1.00 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 氢氟酸等体积混合，若已知 HAc 的 $K_{a}^{\ominus} = 1.8 \times 10^{-5}$ ，HF 的 $K_{a}^{\ominus} = 6.3 \times 10^{-4}$ ，试计算此溶液的 $c(\mathrm{H}^{+})$ ， $c(\mathrm{Ac}^{-})$ 和 $c(\mathrm{F}^{-})$ 。
 
 8.34 通过计算判断在水溶液中， $\mathrm{NH}_{3}$ 与 $\mathrm{HPO}_{4}^{2-}$ 哪一个碱性较强？已知 $\mathrm{NH}_{3} \cdot \mathrm{H}_{2} \mathrm{O}$ 的 $K_{\mathrm{b}}^{\ominus} = 1.8 \times 10^{-5}; \mathrm{H}_{3} \mathrm{PO}_{4}$ 的 $K_{\mathrm{a}_{1}}^{\ominus} = 6.9 \times 10^{-3}, K_{\mathrm{a}_{2}}^{\ominus} = 6.1 \times 10^{-3}, K_{\mathrm{a}_{3}}^{\ominus} = 4.8 \times 10^{-13}$ 。
 
@@ -3705,7 +3705,7 @@ $$
 
 解：查表和计算结果如表所示。
 
-<table><tr><td>序号</td><td>化学式</td><td> $K_{\text{sp}}^{\ominus}$ </td><td>序号</td><td>化学式</td><td> $s/(mol·dm^{-3})$ </td></tr><tr><td>1</td><td> $PbSO_4$ </td><td> $2.53\times 10^{-8}$ </td><td>1</td><td> $CaF_2$ </td><td> $1.10\times 10^{-3}$ </td></tr><tr><td>2</td><td> $CaF_2$ </td><td> $5.30\times 10^{-9}$ </td><td>2</td><td> $PbSO_4$ </td><td> $1.59\times 10^{-4}$ </td></tr><tr><td>3</td><td> $CaCO_3$ </td><td> $2.8\times 10^{-9}$ </td><td>3</td><td> $Mg(OH)_2$ </td><td> $1.1\times 10^{-4}$ </td></tr><tr><td>4</td><td>AgCl</td><td> $1.8\times 10^{-10}$ </td><td>4</td><td> $CaCO_3$ </td><td> $5.3\times 10^{-5}$ </td></tr><tr><td>5</td><td> $Mg(OH)_2$ </td><td> $5.6\times 10^{-12}$ </td><td>5</td><td>AgCl</td><td> $1.3\times 10^{-5}$ </td></tr><tr><td>6</td><td>CuI</td><td> $1.27\times 10^{-12}$ </td><td>6</td><td> $Pb(OH)_2$ </td><td> $7.10\times 10^{-6}$ </td></tr><tr><td>7</td><td> $Pb(OH)_2$ </td><td> $1.43\times 10^{-15}$ </td><td>7</td><td> $Zn(OH)_2$ </td><td> $2.0\times 10^{-6}$ </td></tr><tr><td>8</td><td> $Zn(OH)_2$ </td><td> $3.0\times 10^{-17}$ </td><td>8</td><td>CuI</td><td> $1.13\times 10^{-6}$ </td></tr><tr><td>9</td><td>FeS</td><td> $6.3\times 10^{-18}$ </td><td>9</td><td>FeS</td><td> $2.5\times 10^{-9}$ </td></tr><tr><td>10</td><td>CuS</td><td> $6.3\times 10^{-36}$ </td><td>10</td><td>CuS</td><td> $2.5\times 10^{-18}$ </td></tr></table>
+<table><tr><td>序号</td><td>化学式</td><td> $K_{\text{sp}}^{\ominus}$ </td><td>序号</td><td>化学式</td><td> $s/(\mathrm{mol}·\mathrm{dm}^{-3})$ </td></tr><tr><td>1</td><td> $PbSO_4$ </td><td> $2.53\times 10^{-8}$ </td><td>1</td><td> $CaF_2$ </td><td> $1.10\times 10^{-3}$ </td></tr><tr><td>2</td><td> $CaF_2$ </td><td> $5.30\times 10^{-9}$ </td><td>2</td><td> $PbSO_4$ </td><td> $1.59\times 10^{-4}$ </td></tr><tr><td>3</td><td> $CaCO_3$ </td><td> $2.8\times 10^{-9}$ </td><td>3</td><td> $Mg(OH)_2$ </td><td> $1.1\times 10^{-4}$ </td></tr><tr><td>4</td><td>AgCl</td><td> $1.8\times 10^{-10}$ </td><td>4</td><td> $CaCO_3$ </td><td> $5.3\times 10^{-5}$ </td></tr><tr><td>5</td><td> $Mg(OH)_2$ </td><td> $5.6\times 10^{-12}$ </td><td>5</td><td>AgCl</td><td> $1.3\times 10^{-5}$ </td></tr><tr><td>6</td><td>CuI</td><td> $1.27\times 10^{-12}$ </td><td>6</td><td> $Pb(OH)_2$ </td><td> $7.10\times 10^{-6}$ </td></tr><tr><td>7</td><td> $Pb(OH)_2$ </td><td> $1.43\times 10^{-15}$ </td><td>7</td><td> $Zn(OH)_2$ </td><td> $2.0\times 10^{-6}$ </td></tr><tr><td>8</td><td> $Zn(OH)_2$ </td><td> $3.0\times 10^{-17}$ </td><td>8</td><td>CuI</td><td> $1.13\times 10^{-6}$ </td></tr><tr><td>9</td><td>FeS</td><td> $6.3\times 10^{-18}$ </td><td>9</td><td>FeS</td><td> $2.5\times 10^{-9}$ </td></tr><tr><td>10</td><td>CuS</td><td> $6.3\times 10^{-36}$ </td><td>10</td><td>CuS</td><td> $2.5\times 10^{-18}$ </td></tr></table>
 
 化合物 $K_{sp}^{\ominus}$ 和溶解度 s 的排序不一致，其原因是这些化合物的阴、阳离子个数比不一致，在由 $K_{sp}^{\ominus}$ 求算 s 的过程中数学运算方法不同所导致的。下面求算 s 的两个例子中可以看出这一点。
 
@@ -3729,7 +3729,7 @@ $$
 s = 1.59 \times 10 ^ {- 4}
 $$
 
-即 $PbSO_{4}$ 的溶解度为 $1.59 \times 10^{-4} \, mol \cdot dm^{-3}$ 。
+即 $PbSO_{4}$ 的溶解度为 $1.59 \times 10^{-4} \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 。
 
 (2) $K_{\mathrm{sp}}^{\ominus}(\mathrm{CaF}_{2}) = 5.30\times 10^{-9}$
 
@@ -3819,11 +3819,11 @@ $$
 
 即 $\mathrm{SrF}_2$ 的溶解度为 $1.9\times 10^{-3}\mathrm{mol}\cdot \mathrm{dm}^{-3}$
 
-例 9.3 将 $0.20 \, mol \cdot dm^{-3} NaOH$ 溶液 $75 \, cm^{3}$ 与 $0.40 \, mol \cdot dm^{-3} H_{2}C_{2}O_{4}$ 溶液 $25 \, cm^{3}$ 混合，问：
+例 9.3 将 $0.20 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} NaOH$ 溶液 $75 \, \mathrm{cm}^{3}$ 与 $0.40 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} H_{2}C_{2}O_{4}$ 溶液 $25 \, \mathrm{cm}^{3}$ 混合，问：
 
 (1) 该溶液的 $c(\mathrm{H}^{+})$ 是多少?
 
-(2) 将 $1 \, cm^{3}$ 0.040 mol·dm $^{-3}$ $Pb^{2+}$ 溶液稀释成 $100 \, cm^{3}$ 后，加入该混合溶液中，是否有沉淀产生？已知 $H_{2}C_{2}O_{4}$ 的 $K_{a_{1}}^{\ominus}=5.4\times10^{-2}, K_{a_{2}}^{\ominus}=5.4\times10^{-5}, PbC_{2}O_{4}$ 的 $K_{sp}^{\ominus}=4.8\times10^{-10}$ 。
+(2) 将 $1 \, \mathrm{cm}^{3}$ 0.040 mol·dm $^{-3}$ $Pb^{2+}$ 溶液稀释成 $100 \, \mathrm{cm}^{3}$ 后，加入该混合溶液中，是否有沉淀产生？已知 $H_{2}C_{2}O_{4}$ 的 $K_{a_{1}}^{\ominus}=5.4\times10^{-2}, K_{a_{2}}^{\ominus}=5.4\times10^{-5}, PbC_{2}O_{4}$ 的 $K_{sp}^{\ominus}=4.8\times10^{-10}$ 。
 解：（1）混合后：
 
 $$
@@ -3856,7 +3856,7 @@ $$
 \begin{array}{r l} c (\mathrm{H} ^ {+}) & = \frac {K _ {\mathrm{a} _ {2}} ^ {\ominus} c (\mathrm{HC} _ {2} \mathrm{O} _ {4} ^ {-})}{c (\mathrm{C} _ {2} \mathrm{O} _ {4} ^ {2 -})} \\ & = \frac {5.4 \times 10 ^ {- 5} \times 0.050}{0.050} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \\ & = 5.4 \times 10 ^ {- 5} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \end{array}
 $$
 
-即混合溶液中 $c(\mathrm{H}^{+})$ 为 $5.4 \times 10^{-5} \, mol \cdot dm^{-3}$ 。
+即混合溶液中 $c(\mathrm{H}^{+})$ 为 $5.4 \times 10^{-5} \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 。
 
 (2) $1 \mathrm{~cm}^{3} 0.040 \mathrm{~mol} \cdot \mathrm{dm}^{-3}$ 的 $\mathrm{Pb}^{2+}$ 溶液稀释成 $100 \mathrm{~cm}^{3}$ 后, 浓度变成 $0.040 \times 10^{-2} \mathrm{~mol} \cdot \mathrm{dm}^{-3}$ 。与(1)中缓冲溶液混合后:
 
@@ -3866,7 +3866,7 @@ $$
 
 $Q_{i} > K_{sp}^{\ominus}$ ，故有 $PbC_{2}O_{4}$ 沉淀生成。
 
-例 9.4 已知氢氟酸的解离平衡常数 $K_{a}^{\ominus}=6.3\times10^{-4}$ ，LiF 的溶度积常数 $K_{sp}^{\ominus}=1.8\times10^{-3}$ 。求 LiF 在 $0.5\ mol\cdot dm^{-3}$ 氢氟酸中实现沉淀溶解平衡时溶液的 pH。
+例 9.4 已知氢氟酸的解离平衡常数 $K_{a}^{\ominus}=6.3\times10^{-4}$ ，LiF 的溶度积常数 $K_{sp}^{\ominus}=1.8\times10^{-3}$ 。求 LiF 在 $0.5\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ 氢氟酸中实现沉淀溶解平衡时溶液的 pH。
 
 解：体系中有两个平衡：
 
@@ -3986,7 +3986,7 @@ $$
 K _ {\mathrm{sp}} ^ {\ominus} = \frac {a ^ {4} - a ^ {2} b ^ {2}}{b ^ {2}}
 $$
 
-例 9.6 向 $0.50 \, mol \cdot dm^{-3} FeCl_{2}$ 溶液中通入 $H_{2}S$ 气体至饱和，若控制不析出 FeS 沉淀，求溶液 pH 的范围。已知 FeS 的 $K_{sp}^{\ominus} = 6.3 \times 10^{-18}$ ， $H_{2}S$ 的 $K_{a}^{\ominus} = 1.4 \times 10^{-20}$ 。
+例 9.6 向 $0.50 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} FeCl_{2}$ 溶液中通入 $H_{2}S$ 气体至饱和，若控制不析出 FeS 沉淀，求溶液 pH 的范围。已知 FeS 的 $K_{sp}^{\ominus} = 6.3 \times 10^{-18}$ ， $H_{2}S$ 的 $K_{a}^{\ominus} = 1.4 \times 10^{-20}$ 。
 
 解：
 
@@ -3998,13 +3998,13 @@ $$
 K _ {\mathrm{sp}} ^ {\ominus} = c (\mathrm{Fe} ^ {2 +}) c (\mathrm{S} ^ {2 -})
 $$
 
-所以与 $0.50 \, mol \cdot dm^{-3} Fe^{2+}$ 平衡的 $S^{2-}$ ，其浓度为
+所以与 $0.50 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} Fe^{2+}$ 平衡的 $S^{2-}$ ，其浓度为
 
 $$
 \begin{array}{r l}c (\mathrm{S} ^ {2 -})&= \frac {K _ {\mathrm{sp}} ^ {\ominus}}{c (\mathrm{Fe} ^ {2 +})} = \frac {6.3 \times 10 ^ {- 18}}{0.50} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} = 1.26 \times 10 ^ {- 17} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}\\&\quad \mathrm{H} _ {2} \mathrm{S} \rightleftharpoons 2 \mathrm{H} ^ {+} + \mathrm{S} ^ {2 -}\\/ (\mathrm{mol} \cdot \mathrm{dm} ^ {- 3})&0.10 c (\mathrm{H} ^ {+}) 1.26 \times 10 ^ {- 17}\end{array}
 $$
 
-所以与饱和 $\mathrm{H}_{2}\mathrm{S}(0.10\ \mathrm{mol}\cdot\mathrm{dm}^{-3})$ 及 $1.26\times10^{-17}\ mol\cdot dm^{-3}\ S^{2-}$ 平衡的 $H^{+}$ ，其浓度可以由下面公式求出。因为
+所以与饱和 $\mathrm{H}_{2}\mathrm{S}(0.10\ \mathrm{mol}\cdot\mathrm{dm}^{-3})$ 及 $1.26\times10^{-17}\ \mathrm{mol}\cdot \mathrm{dm}^{-3}\ S^{2-}$ 平衡的 $H^{+}$ ，其浓度可以由下面公式求出。因为
 
 $$
 K _ {\mathrm{a}} ^ {\ominus} = \frac {[ c (\mathrm{H} ^ {+}) ] ^ {2} c (\mathrm{S} ^ {2 -})}{c (\mathrm{H} _ {2} \mathrm{S})}
@@ -4066,7 +4066,7 @@ $1.0\mathrm{mol}\cdot \mathrm{dm}^{-3}\mathrm{Cu}^{2 + }$ 完全与 $\mathrm{H}_
 
 12.0 mol·dm $^{-3}$ 。
 
-依题设 $H_{2}S$ 饱和，故 $c(H_{2}S)=0.1\ mol\cdot dm^{-3}$ 。
+依题设 $H_{2}S$ 饱和，故 $c(H_{2}S)=0.1\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ 。
 
 $$
 K ^ {\ominus} = \frac {[ c (\mathrm{H} ^ {+}) ] ^ {2}}{c (\mathrm{Cu} ^ {2 +}) c (\mathrm{H} _ {2} \mathrm{S})}
@@ -4104,7 +4104,7 @@ $$
 
 故必须保持 $c(\mathrm{Br}^{-}) > 3.0 \times 10^{-3} c(\mathrm{Cl}^{-})$ ，即 $c(\mathrm{Br}^{-})$ 大于 $c(\mathrm{Cl}^{-})$ 的 $3.0 \times 10^{-3}$ 倍。
 
-例 9.9 将足量 ZnS 置于 $1 \, dm^{3}$ 盐酸中，收集到 $0.10 \, mol \, H_{2}S$ 气体。求溶液中 $c(\mathrm{H}^{+})$ 和 $c(\mathrm{Cl}^{-})$ 。已知 ZnS 的 $K_{sp}^{\ominus}=2.5\times10^{-22}$ ， $H_{2}S$ 的 $K_{a}^{\ominus}=1.4\times10^{-20}$ 。
+例 9.9 将足量 ZnS 置于 $1 \, \mathrm{dm}^{3}$ 盐酸中，收集到 $0.10 \, \mathrm{mol} \, H_{2}S$ 气体。求溶液中 $c(\mathrm{H}^{+})$ 和 $c(\mathrm{Cl}^{-})$ 。已知 ZnS 的 $K_{sp}^{\ominus}=2.5\times10^{-22}$ ， $H_{2}S$ 的 $K_{a}^{\ominus}=1.4\times10^{-20}$ 。
 
 解：
 
@@ -4112,7 +4112,7 @@ $$
 \mathrm{ZnS} + 2 \mathrm{H} ^ {+} \rightleftharpoons \mathrm{Zn} ^ {2 +} + \mathrm{H} _ {2} \mathrm{S}
 $$
 
-依题设收集到 $0.10 \, mol \, H_{2}S$ 气体, 这说明 4 个问题:
+依题设收集到 $0.10 \, \mathrm{mol} \, H_{2}S$ 气体, 这说明 4 个问题:
 
 ① 溶液已饱和, 其中 $c(\mathrm{H}_{2}\mathrm{S})=0.10\ \mathrm{mol}\cdot\mathrm{dm}^{-3}$ ;
 
@@ -4144,29 +4144,29 @@ $$
 
 ## 一、选择题
 
-9.1 已知 $\mathrm{Mg(OH)_2}$ 的 $K_{sp}^{\ominus}=5.6\times10^{-12}$ ， $NH_3$ 的 $K_b^{\ominus}=1.8\times10^{-5}$ 。欲使 $0.40\ mol\cdot dm^{-3}$ $MgCl_2$ 溶液与 $0.20\ mol\cdot dm^{-3}$ 氨水等体积混合后不产生沉淀，则混合溶液中需含 $NH_4Cl$ 的最小浓度为
-(A) $3.4\ mol\cdot dm^{-3}$ ; (B) $0.17\ mol\cdot dm^{-3}$ ;
-(C) $0.31\ mol\cdot dm^{-3}$ ; (D) $0.34\ mol\cdot dm^{-3}$ .
+9.1 已知 $\mathrm{Mg(OH)_2}$ 的 $K_{sp}^{\ominus}=5.6\times10^{-12}$ ， $NH_3$ 的 $K_b^{\ominus}=1.8\times10^{-5}$ 。欲使 $0.40\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ $MgCl_2$ 溶液与 $0.20\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ 氨水等体积混合后不产生沉淀，则混合溶液中需含 $NH_4Cl$ 的最小浓度为
+(A) $3.4\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ ; (B) $0.17\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ ;
+(C) $0.31\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ ; (D) $0.34\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ .
 
 9.2 $\mathrm{CaCO_3}$ 在相同浓度的下列溶液中溶解度最大的是（A） $\mathrm{NH_4Ac}$ ；（B） $\mathrm{CaCl_2}$ ；（C） $\mathrm{NH_4Cl}$ ；（D） $\mathrm{Na_2CO_3}$ 。
 
-9.3 难溶盐 $\mathrm{Ca}_{3}(\mathrm{PO}_{4})_{2}$ 在 $a\ mol\cdot dm^{-3}\ Na_{3}PO_{4}$ 溶液中的溶解度 s 与溶度积 $K_{sp}^{\ominus}$ 关系式中正确的是
+9.3 难溶盐 $\mathrm{Ca}_{3}(\mathrm{PO}_{4})_{2}$ 在 $a\ \mathrm{mol}\cdot \mathrm{dm}^{-3}\ Na_{3}PO_{4}$ 溶液中的溶解度 s 与溶度积 $K_{sp}^{\ominus}$ 关系式中正确的是
 (A) $K_{\mathrm{sp}}^{\ominus}=108\ s^{5};$ (B) $K_{\mathrm{sp}}^{\ominus}=(3s)^{3}\cdot(2s+a)^{2};$ (C) $K_{\mathrm{sp}}^{\ominus}=s^{5};$ (D) $K_{\mathrm{sp}}^{\ominus}=s^{3}\cdot(s+a)^{2}$
 
 9.4 AgCl 和 $Ag_{2}CrO_{4}$ 的溶度积分别为 $1.8 \times 10^{-10}$ 和 $1.1 \times 10^{-12}$ ，则下面叙述中正确的是（A）AgCl 与 $Ag_{2}CrO_{4}$ 的溶解度相等；（B）AgCl 的溶解度大于 $Ag_{2}CrO_{4}$ ；（C）AgCl 的溶解度小于 $Ag_{2}CrO_{4}$ ；（D）都是难溶盐，溶解度无意义。
 
 9.5 $\mathrm{BaSO_4}$ 的相对分子质量为 $233, K_{\mathrm{sp}}^{\ominus} = 1.1 \times 10^{-10}$ , 把 $1.0 \times 10^{-3} \mathrm{~mol} \mathrm{BaSO}_4$ 配成 $10 \mathrm{dm}^3$ 溶液, $\mathrm{BaSO_4}$ 未溶解的质量是 (A) $0.0021 \mathrm{~g}$ ; (B) $0.021 \mathrm{~g}$ ; (C) $0.21 \mathrm{~g}$ ; (D) $2.1 \mathrm{~g}$ 。
 
-9.6 已知 $\mathrm{Mg(OH)_2}$ 的 $K_{\mathrm{sp}}^{\ominus} = 5.6\times 10^{-12}$ ，则向 $\mathrm{Mg(OH)_2}$ 饱和溶液中加 $\mathrm{MgCl_2}$ ，使 $\mathrm{Mg^{2 + }}$ 浓度为 $0.010 \, mol \cdot dm^{-3}$ ，则该溶液的 pH 为
+9.6 已知 $\mathrm{Mg(OH)_2}$ 的 $K_{\mathrm{sp}}^{\ominus} = 5.6\times 10^{-12}$ ，则向 $\mathrm{Mg(OH)_2}$ 饱和溶液中加 $\mathrm{MgCl_2}$ ，使 $\mathrm{Mg^{2 + }}$ 浓度为 $0.010 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ ，则该溶液的 pH 为
 (A) 9.1; (B) 9.4; (C) 8.4; (D) 4.6。
 
-9.7 已知 FeS 的 $K_{sp}^{\ominus}=6.3\times10^{-18}$ ; $H_{2}S$ 的 $K_{a}^{\ominus}=1.4\times10^{-20}$ ，向 $0.10\ mol\cdot dm^{-3}\ Fe^{2+}$ 溶液中通入 $H_{2}S$ 气体至饱和 ( $0.10\ mol\cdot dm^{-3}$ )，欲使 $Fe^{2+}$ 不生成 FeS 沉淀，溶液的 pH 应满足 (A) pH≥2.33；(B) pH≥3.53；(C) pH≤3.53；(D) pH≤2.33。
+9.7 已知 FeS 的 $K_{sp}^{\ominus}=6.3\times10^{-18}$ ; $H_{2}S$ 的 $K_{a}^{\ominus}=1.4\times10^{-20}$ ，向 $0.10\ \mathrm{mol}\cdot \mathrm{dm}^{-3}\ Fe^{2+}$ 溶液中通入 $H_{2}S$ 气体至饱和 ( $0.10\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ )，欲使 $Fe^{2+}$ 不生成 FeS 沉淀，溶液的 pH 应满足 (A) pH≥2.33；(B) pH≥3.53；(C) pH≤3.53；(D) pH≤2.33。
 
-9.8 已知 $K_{sp}^{\ominus}$ : AgCl $1.8 \times 10^{-10}$ , AgBr $5.4 \times 10^{-13}$ , AgSCN $1.0 \times 10^{-12}$ , $Ag_{2}CrO_{4}$ $1.1 \times 10^{-12}$ , 混合溶液中 KCl, KBr, KSCN 和 $K_{2}CrO_{4}$ 浓度均为 $0.010 \, mol \cdot dm^{-3}$ , 向溶液中滴加 $0.010 \, mol \cdot dm^{-3}$ $AgNO_{3}$ 溶液时, 最先和最后生成的沉淀是
+9.8 已知 $K_{sp}^{\ominus}$ : AgCl $1.8 \times 10^{-10}$ , AgBr $5.4 \times 10^{-13}$ , AgSCN $1.0 \times 10^{-12}$ , $Ag_{2}CrO_{4}$ $1.1 \times 10^{-12}$ , 混合溶液中 KCl, KBr, KSCN 和 $K_{2}CrO_{4}$ 浓度均为 $0.010 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ , 向溶液中滴加 $0.010 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ $AgNO_{3}$ 溶液时, 最先和最后生成的沉淀是
 (A) $Ag_{2}CrO_{4}$ , AgCl; (B) AgSCN, AgCl;
 (C) AgBr, $Ag_{2}CrO_{4}$ ; (D) AgCl, $Ag_{2}CrO_{4}$ .
 
-9.9 已知 $K_{sp}^{\ominus}$ : NiS $1.0 \times 10^{-24}$ , $Bi_{2}S_{3}$ $1.0 \times 10^{-97}$ , CuS $6.3 \times 10^{-36}$ , MnS $2.5 \times 10^{-13}$ , CdS $8.0 \times 10^{-27}$ , ZnS $2.5 \times 10^{-22}$ , 下列各对离子的混合溶液中均含有 $0.30 \, mol \cdot dm^{-3}$ 盐酸, 不能用 $H_{2}S$ 进行分离的是
+9.9 已知 $K_{sp}^{\ominus}$ : NiS $1.0 \times 10^{-24}$ , $Bi_{2}S_{3}$ $1.0 \times 10^{-97}$ , CuS $6.3 \times 10^{-36}$ , MnS $2.5 \times 10^{-13}$ , CdS $8.0 \times 10^{-27}$ , ZnS $2.5 \times 10^{-22}$ , 下列各对离子的混合溶液中均含有 $0.30 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 盐酸, 不能用 $H_{2}S$ 进行分离的是
 (A) $Cu^{2+}, Ni^{2+}$ ; (B) $Bi^{3+}, Cu^{2+}$ ; (C) $Mn^{2+}, Cd^{2+}$ ; (D) $Zn^{2+}, Ni^{2+}$ .
 
 9.10 溶液中 $\mathrm{FeCl}_2$ 和 $\mathrm{CuCl}_2$ 的浓度均为 $0.10\mathrm{mol}\cdot \mathrm{dm}^{-3}$ ，向其中通入 $\mathrm{H}_2\mathrm{S}$ 气体至饱和，沉淀生成情况为（已知FeS的 $K_{\mathrm{sp}}^{\ominus} = 6.3\times 10^{-18}$ ，CuS的 $K_{\mathrm{sp}}^{\ominus} = 6.3\times 10^{-36}$ ， $\mathrm{H}_2\mathrm{S}$ 的 $K_{\mathrm{a}}^{\ominus} = 1.4\times 10^{-20}$ ）（A）先生成CuS沉淀，后生成FeS沉淀；（B）先生成FeS沉淀，后生成CuS沉淀；（C）只生成CuS沉淀，不生成FeS沉淀；（D）只生成FeS沉淀，不生成CuS沉淀。
@@ -4179,7 +4179,7 @@ $$
 
 9.13 已知 $K_{sp}^{\ominus}: FeS 6.3 \times 10^{-18}$ ，ZnS $2.5 \times 10^{-22}$ ，CdS $8.0 \times 10^{-27}$ 。在浓度相同的 $Fe^{2+}$ ， $Zn^{2+}$ 和 $Cd^{2+}$ 混合溶液中滴加 $Na_{2}S$ 溶液，最先生成沉淀的离子是 \_\_\_\_；最后生成沉淀的离子是 \_\_\_\_。
 
-9.14 若 AgCl 在水中, $0.010 \, mol \cdot dm^{-3} \, CaCl_{2}$ 溶液中, $0.010 \, mol \cdot dm^{-3} \, NaCl$ 溶液中及 $0.050 \, mol \cdot dm^{-3} \, AgNO_{3}$ 溶液中的溶解度分别为 $s_{1}, s_{2}, s_{3}$ 和 $s_{4}$ , 将这些溶解度按由大到小排列的顺序为 \_\_\_\_。
+9.14 若 AgCl 在水中, $0.010 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \, CaCl_{2}$ 溶液中, $0.010 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \, NaCl$ 溶液中及 $0.050 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \, AgNO_{3}$ 溶液中的溶解度分别为 $s_{1}, s_{2}, s_{3}$ 和 $s_{4}$ , 将这些溶解度按由大到小排列的顺序为 \_\_\_\_。
 
 9.15 在纯水中 $\mathrm{Mn(OH)_2}$ 的溶解度为 \_\_\_\_ mol·dm $^{-3}$ 。若使 0.050 mol $\mathrm{Mn(OH)_2}$ 刚好溶解在 0.50 dm $^{3}$ 的 $NH_4Cl$ 溶液中，则此 $NH_4Cl$ 溶液的浓度为 \_\_\_\_ mol·dm $^{-3}$ 。已知 $\mathrm{Mn(OH)_2}$ 的 $K_{sp}^{\ominus}=1.9\times10^{-13}$ ， $NH_3$ 的 $K_b^{\ominus}=1.8\times10^{-5}$ 。
 
@@ -4197,15 +4197,15 @@ $$
 
 (3) 若改加 AgBr 固体, 则 $c(\mathrm{I}^{-})$ 变 \_\_\_\_ , 而 $c(\mathrm{Ag}^{+})$ \_\_\_\_ 。
 
-9.19 AgCl 饱和溶液中 $Ag^{+}$ 和 $Cl^{-}$ 的浓度均为 $1.3 \times 10^{-5} \, mol \cdot dm^{-3}$ ，则 AgCl 溶解反应的 $\Delta_{r} G_{m}^{\ominus}$ 为 \_\_\_\_ kJ·mol $^{-1}$ 。
+9.19 AgCl 饱和溶液中 $Ag^{+}$ 和 $Cl^{-}$ 的浓度均为 $1.3 \times 10^{-5} \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ ，则 AgCl 溶解反应的 $\Delta_{r} G_{m}^{\ominus}$ 为 \_\_\_\_ kJ·mol $^{-1}$ 。
 
-9.20 混合溶液中 $Ba^{2+}$ 和 $Sr^{2+}$ 的浓度均为 $0.10\ mol\cdot dm^{-3}$ ，将稀 $Na_{2}SO_{4}$ 溶液滴加到混合溶液中，当 $Ba^{2+}$ 已有 99% 沉淀为 $BaSO_{4}$ 时，溶液中 $Sr^{2+}$ 的浓度为 \_\_\_\_ $mol\cdot dm^{-3}$ 。已知 $BaSO_{4}$ 的 $K_{sp}^{\ominus}=1.1\times10^{-10}$ ， $SrSO_{4}$ 的 $K_{sp}^{\ominus}=3.4\times10^{-7}$ 。
+9.20 混合溶液中 $Ba^{2+}$ 和 $Sr^{2+}$ 的浓度均为 $0.10\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ ，将稀 $Na_{2}SO_{4}$ 溶液滴加到混合溶液中，当 $Ba^{2+}$ 已有 99% 沉淀为 $BaSO_{4}$ 时，溶液中 $Sr^{2+}$ 的浓度为 \_\_\_\_ $\mathrm{mol}\cdot \mathrm{dm}^{-3}$ 。已知 $BaSO_{4}$ 的 $K_{sp}^{\ominus}=1.1\times10^{-10}$ ， $SrSO_{4}$ 的 $K_{sp}^{\ominus}=3.4\times10^{-7}$ 。
 
 ## 三、简答题和计算题
 
 9.21 根据下列给定条件求溶度积常数。
 
-(1) $FeC_{2}O_{4} \cdot 2H_{2}O$ 在 $1\ dm^{3}$ 水中能溶解 0.10 g;
+(1) $FeC_{2}O_{4} \cdot 2H_{2}O$ 在 $1\ \mathrm{dm}^{3}$ 水中能溶解 0.10 g;
 
 (2) $\mathrm{Ni(OH)}_2$ 在 $\mathrm{pH} = 9.00$ 的溶液中的溶解度为 $1.6\times 10^{-6}\mathrm{mol}\cdot \mathrm{dm}^{-3}$
 
@@ -4217,13 +4217,13 @@ $$
 
 (3) $\mathrm{Ag}_{2} \mathrm{CO}_{3}$ 在 $0.01 \mathrm{~mol} \cdot \mathrm{dm}^{-3} \mathrm{AgNO}_{3}$ 溶液中的溶解度。
 
-9.23 1 g FeS 固体能否溶于 $100 \, cm^{3} \, 1 \, mol \cdot dm^{-3}$ 的盐酸中？已知 FeS 的 $K_{sp}^{\ominus} = 6.3 \times 10^{-18}$ ， $H_{2}S$ 的 $K_{a}^{\ominus} = 1.4 \times 10^{-20}$ 。
+9.23 1 g FeS 固体能否溶于 $100 \, \mathrm{cm}^{3} \, 1 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 的盐酸中？已知 FeS 的 $K_{sp}^{\ominus} = 6.3 \times 10^{-18}$ ， $H_{2}S$ 的 $K_{a}^{\ominus} = 1.4 \times 10^{-20}$ 。
 
 9.24 向 $c(\mathrm{Zn}^{2+})$ 和 $c(\mathrm{Mn}^{2+})$ 均为 $0.010 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 的混合溶液中通入 $\mathrm{H}_{2} \mathrm{~S}$ 气体至饱和，拟使 $\mathrm{Zn}^{2+}$ 完全沉淀而 $\mathrm{Mn}^{2+}$ 不沉淀，溶液的 $\mathrm{pH}$ 应控制在什么范围？已知 $\mathrm{ZnS}$ 的 $K_{\mathrm{sp}}^{\ominus} = 2.5 \times 10^{-22}, \mathrm{MnS}$ 的 $K_{\mathrm{sp}}^{\ominus} = 2.5 \times 10^{-13}, \mathrm{H}_{2} \mathrm{~S}$ 的 $K_{\mathrm{a}}^{\ominus} = 1.4 \times 10^{-20}$ 。
 
 9.25 向下列溶液中不断通入 $H_{2}S$ 气体，计算溶液中最后残留的 $Cu^{2+}$ 的浓度。
 
-(1) $0.10 \, mol \cdot dm^{-3} \, CuSO_{4}$ 溶液；
+(1) $0.10 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \, CuSO_{4}$ 溶液；
 
 (2) $0.10 \mathrm{~mol} \cdot \mathrm{dm}^{-3} \mathrm{CuSO}_{4}$ 与 $1.0 \mathrm{~mol} \cdot \mathrm{dm}^{-3} \mathrm{HCl}$ 的混合溶液。
 
@@ -4231,11 +4231,11 @@ $$
 
 9.27 常温常压下， $\mathrm{CO}_{2}$ 在水中的溶解度为 $0.033 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ ，求该条件下 $\mathrm{CaCO}_{3}$ 在 $\mathrm{CO}_{2}$ 饱和水溶液中的溶解度。已知 $\mathrm{CaCO}_{3}$ 的 $K_{\mathrm{sp}}^{\ominus} = 2.8 \times 10^{-9}, \mathrm{H}_{2} \mathrm{CO}_{3}$ 的 $K_{\mathrm{a}_{1}}^{\ominus} = 4.5 \times 10^{-7}, K_{\mathrm{a}_{2}}^{\ominus} = 4.7 \times 10^{-11}$ 。
 
-9.28 某溶液中含有 $Fe^{2+}$ 和 $Fe^{3+}$ ，浓度均为 $0.10 \, mol \cdot dm^{-3}$ ，若要求 $Fe^{3+}$ 完全沉淀为 $\mathrm{Fe(OH)}_{3}$ 而不产生 $\mathrm{Fe(OH)}_{2}$ 沉淀，则溶液的 pH 应控制在什么范围？已知 $\mathrm{Fe(OH)}_{3}$ 的 $K_{sp}^{\ominus} = 2.8 \times 10^{-39}$ ， $\mathrm{Fe(OH)}_{2}$ 的 $K_{sp}^{\ominus} = 4.9 \times 10^{-17}$ 。
+9.28 某溶液中含有 $Fe^{2+}$ 和 $Fe^{3+}$ ，浓度均为 $0.10 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ ，若要求 $Fe^{3+}$ 完全沉淀为 $\mathrm{Fe(OH)}_{3}$ 而不产生 $\mathrm{Fe(OH)}_{2}$ 沉淀，则溶液的 pH 应控制在什么范围？已知 $\mathrm{Fe(OH)}_{3}$ 的 $K_{sp}^{\ominus} = 2.8 \times 10^{-39}$ ， $\mathrm{Fe(OH)}_{2}$ 的 $K_{sp}^{\ominus} = 4.9 \times 10^{-17}$ 。
 
 9.29 在 $1\mathrm{dm}^30.20\mathrm{mol}\cdot \mathrm{dm}^{-3}\mathrm{ZnSO}_4$ 溶液中含有 $\mathrm{Fe}^{2+}$ 杂质 $0.056\mathrm{g}$ 。加入氧化剂将 $\mathrm{Fe}^{2+}$ 氧化为 $\mathrm{Fe}^{3+}$ 后，调 $\mathrm{pH}$ 生成 $\mathrm{Fe(OH)}_3$ 而除去杂质，问如何控制溶液的 $\mathrm{pH}$ ？已知 $K_{\mathrm{sp}}^{\ominus}[\mathrm{Zn(OH)}_2] = 3.0\times 10^{-17}, K_{\mathrm{sp}}^{\ominus}[\mathrm{Fe(OH)}_3] = 2.8\times 10^{-39}, A_{\mathrm{r}}(\mathrm{Fe}) = 56$ 。
 
-9.30 如果 $BaCO_{3}$ 沉淀中尚有 0.010 mol $BaSO_{4}$ ，在 $1.0 \, dm^{3}$ 此沉淀的饱和溶液中加入多少摩尔 $Na_{2}CO_{3}$ 才能使 0.010 mol $BaSO_{4}$ 完全转化为 $BaCO_{3}$ ？已知 $BaSO_{4}$ 的 $K_{sp}^{\ominus}=1.1\times10^{-10}$ ， $BaCO_{3}$ 的 $K_{sp}^{\ominus}=2.6\times10^{-9}$ 。
+9.30 如果 $BaCO_{3}$ 沉淀中尚有 0.010 mol $BaSO_{4}$ ，在 $1.0 \, \mathrm{dm}^{3}$ 此沉淀的饱和溶液中加入多少摩尔 $Na_{2}CO_{3}$ 才能使 0.010 mol $BaSO_{4}$ 完全转化为 $BaCO_{3}$ ？已知 $BaSO_{4}$ 的 $K_{sp}^{\ominus}=1.1\times10^{-10}$ ， $BaCO_{3}$ 的 $K_{sp}^{\ominus}=2.6\times10^{-9}$ 。
 
 # 氧化还原反应
 
@@ -4456,7 +4456,7 @@ $$
 
 298 K 时的平衡常数；
 
-（2）若溶液中 $Cu^{2+}$ 的起始浓度为 $0.10\ mol\cdot dm^{-3}$ ， $I^{-}$ 的起始浓度为 $1.0\ mol\cdot dm^{-3}$ ，计算达到平衡时留在溶液中的 $Cu^{2+}$ 的浓度。
+（2）若溶液中 $Cu^{2+}$ 的起始浓度为 $0.10\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ ， $I^{-}$ 的起始浓度为 $1.0\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ ，计算达到平衡时留在溶液中的 $Cu^{2+}$ 的浓度。
 
 解：（1）将氧化还原反应
 
@@ -4528,13 +4528,13 @@ $$
 \begin{array}{r l} & K ^ {\ominus} = 1.8 \times 10 ^ {5} \\ & \mathrm {Cu^ {2 + } +2I^ {-} \xlongequal   CuI+ \frac {1}{2} I_ {2}} \\ & 0.10 \quad 1.0 \\ & x \quad 1.0 - 0.10 \times 2 \end{array}
 $$
 
-x 为平衡时溶液中的 $c(\mathrm{Cu}^{2+})$ ，由于 $K^{\ominus}$ 值大，反应彻底，可以认为 $0.10 \, mol \cdot dm^{-3}$ 的 $Cu^{2+}$ 几乎反应完全，故平衡时溶液中的 $c(\mathrm{I}^{-})$ 为 $(1.0 - 0.10 \times 2) \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 。
+x 为平衡时溶液中的 $c(\mathrm{Cu}^{2+})$ ，由于 $K^{\ominus}$ 值大，反应彻底，可以认为 $0.10 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 的 $Cu^{2+}$ 几乎反应完全，故平衡时溶液中的 $c(\mathrm{I}^{-})$ 为 $(1.0 - 0.10 \times 2) \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 。
 
 $$
 \begin{array}{r l} K ^ {\ominus} & = \frac {1}{c (\mathrm{Cu} ^ {2 +}) [ c (\mathrm{I} ^ {-}) ] ^ {2}} \\ & = \frac {1}{x (1.0 - 0.10 \times 2) ^ {2}} \\ & = 1.8 \times 10 ^ {5} \\ & x = 8.7 \times 10 ^ {- 6} \end{array}
 $$
 
-即溶液中 $Cu^{2+}$ 的浓度为 $8.7 \times 10^{-6} \, mol \cdot dm^{-3}$ 。
+即溶液中 $Cu^{2+}$ 的浓度为 $8.7 \times 10^{-6} \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 。
 
 例 10.6 已知 $Cu^{2+} + 2e^{-} = Cu$ $E^{\ominus} = 0.34 V$
 
@@ -4752,7 +4752,7 @@ $$
 
 故电子转移数 z=6。
 
-(2)(3)中电池反应与(1)中电池反应相同,故电池反应的 $\Delta_{r}G_{m}^{\ominus}$ 与(1)中电池反应相同,均为 $-96.5\ kJ\cdot mol^{-1}$ 。三个原电池的电动势不同,但由于电子转移数不同,所以 $\Delta_{r}G_{m}^{\ominus}$ 仍保持一致。
+(2)(3)中电池反应与(1)中电池反应相同,故电池反应的 $\Delta_{r}G_{m}^{\ominus}$ 与(1)中电池反应相同,均为 $-96.5\ \mathrm{kJ}\cdot \mathrm{mol}^{-1}$ 。三个原电池的电动势不同,但由于电子转移数不同,所以 $\Delta_{r}G_{m}^{\ominus}$ 仍保持一致。
 
 例 10.9 下面是氧元素的元素电势图。根据此图回答下列问题：
 
@@ -4888,7 +4888,7 @@ $$
 
 ## 一、选择题
 
-10.1 某氧化剂 $\mathrm{YO(OH)_2^+}$ 中 Y 元素的价态为 +5，如果还原 $7.16 \times 10^{-4} \, mol \, \mathrm{YO(OH)_2^+}$ 溶液使 Y 至较低价态，则需用 $0.066 \, mol \cdot dm^{-3} \, Na_2SO_3$ 溶液 26.98 mL。还原产物中 Y 元素的价态为
+10.1 某氧化剂 $\mathrm{YO(OH)_2^+}$ 中 Y 元素的价态为 +5，如果还原 $7.16 \times 10^{-4} \, \mathrm{mol} \, \mathrm{YO(OH)_2^+}$ 溶液使 Y 至较低价态，则需用 $0.066 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \, Na_2SO_3$ 溶液 26.98 mL。还原产物中 Y 元素的价态为
 (A) -2; (B) -1; (C) 0; (D) +1.
 
 10.2 使下列电极反应中有关离子浓度减小一半，而 E 值增加的是
@@ -4899,7 +4899,7 @@ $$
 (A) $H_{2} + Cl_{2} = 2HCl$ ; (B) $2Fe^{3+} + Cu = 2Fe^{2+} + Cu^{2+}$ ;
 (C) $Ag^{+} + Cl^{-} = AgCl$ ; (D) $2Hg^{2+} + Sn^{2+} = Hg_{2}^{2+} + Sn^{4+}$
 
-10.4 已知 $E^{\ominus}(Zn^{2+}/Zn)=-0.76\ V$ ，下列原电池反应的电动势为 0.46V，则氢电极溶液中的 pH 为 $Zn+2H^{+}(a\ mol\cdot dm^{-3})=Zn^{2+}(1\ mol\cdot dm^{-3})+H_{2}(1.013\times10^{5}\ Pa)$ (A) 10.2; (B) 2.5; (C) 3.0; (D) 5.1。
+10.4 已知 $E^{\ominus}(Zn^{2+}/Zn)=-0.76\ V$ ，下列原电池反应的电动势为 0.46V，则氢电极溶液中的 pH 为 $Zn+2H^{+}(a\ \mathrm{mol}\cdot \mathrm{dm}^{-3})=Zn^{2+}(1\ \mathrm{mol}\cdot \mathrm{dm}^{-3})+H_{2}(1.013\times10^{5}\ \mathrm{Pa})$ (A) 10.2; (B) 2.5; (C) 3.0; (D) 5.1。
 
 10.5 若要使电池(一) $Pt|H_{2}(p_{1})|H^{+}(c_{0})\parallel H^{+}(c_{0})|H_{2}(p_{2})|Pt(+)$ 的电动势E为正值，则 $p_{1}$ 和 $p_{2}$ 应满足的关系为
 (A) $p_{1}=p_{2}$ ; (B) $p_{1}<p_{2}$ ;
@@ -4909,8 +4909,8 @@ $$
 (A) HCl; (B) $H_{2}SO_{4}$ ; (C) $Na_{2}SO_{4}$ ; (D) $NaHSO_{4}$ 。
 
 10.7 已知 $E^{\ominus}(\mathrm{Ag}^{+}/\mathrm{Ag})=0.799\ \mathrm{V}, E^{\ominus}(\mathrm{O}_{2}/\mathrm{H}_{2}\mathrm{O})=1.229\ \mathrm{V}, K_{\mathrm{sp}}^{\ominus}(\mathrm{AgCl})=1.8\times10^{-10}$ 。
-298 K 时，电池反应： $4Ag+4HCl+O_{2}=4AgCl+2H_{2}O$ ，当 $c(HCl)=6.0\ mol\cdot dm^{-3}$ ， $p(O_{2})=101.3\ kPa$ 时，该原电池的电动势 E 和电池反应的 $\Delta_{r}G_{m}^{\ominus}$ 分别为
-(A) $1.098\ V, -388.3\ kJ\cdot mol^{-1};$ (B) $1.053\ V, 388.6\ kJ\cdot mol^{-1};$ (C) $1.19\ V, -144.8\ kJ\cdot mol^{-1};$ (D) $1.053\ V, -388.6\ kJ\cdot mol^{-1}.$
+298 K 时，电池反应： $4Ag+4HCl+O_{2}=4AgCl+2H_{2}O$ ，当 $c(HCl)=6.0\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ ， $p(O_{2})=101.3\ kPa$ 时，该原电池的电动势 E 和电池反应的 $\Delta_{r}G_{m}^{\ominus}$ 分别为
+(A) $1.098\ V, -388.3\ \mathrm{kJ}\cdot \mathrm{mol}^{-1};$ (B) $1.053\ V, 388.6\ \mathrm{kJ}\cdot \mathrm{mol}^{-1};$ (C) $1.19\ V, -144.8\ \mathrm{kJ}\cdot \mathrm{mol}^{-1};$ (D) $1.053\ V, -388.6\ \mathrm{kJ}\cdot \mathrm{mol}^{-1}.$
 
 10.8 某氧化还原反应的标准摩尔吉布斯自由能变为 $\Delta_{\mathrm{r}}G_{\mathrm{m}}^{\ominus}$ , 标准平衡常数为 $K^{\ominus}$ , 标准电动势为 $E^{\ominus}$ , 则下列对 $\Delta_{\mathrm{r}}G_{\mathrm{m}}^{\ominus}, K^{\ominus}, E^{\ominus}$ 的值判断合理的一组是  
 (A) $\Delta_{\mathrm{r}}G_{\mathrm{m}}^{\ominus} > 0, E^{\ominus} < 0, K^{\ominus} < 1$ ; (B) $\Delta_{\mathrm{r}}G_{\mathrm{m}}^{\ominus} > 0, E^{\ominus} < 0, K^{\ominus} > 1$ ;  
@@ -4919,7 +4919,7 @@ $$
 10.9 已知 $E^{\ominus}(\mathrm{M}^{3+}/\mathrm{M}^{2+}) > E^{\ominus}[\mathrm{M(OH)}_{3}/\mathrm{M(OH)}_{2}]$ ，则溶度积 $K_{\mathrm{sp}}^{\ominus}[\mathrm{M(OH)}_{3}]$ 与 $K_{\mathrm{sp}}^{\ominus}[\mathrm{M(OH)}_{2}]$ 的关系应是  
 (A) $K_{\mathrm{sp}}^{\ominus}[\mathrm{M(OH)}_{3}] > K_{\mathrm{sp}}^{\ominus}[\mathrm{M(OH)}_{2}]$ ; (B) $K_{\mathrm{sp}}^{\ominus}[\mathrm{M(OH)}_{3}] < K_{\mathrm{sp}}^{\ominus}[\mathrm{M(OH)}_{2}]$ ; (C) $K_{\mathrm{sp}}^{\ominus}[\mathrm{M(OH)}_{3}] = K_{\mathrm{sp}}^{\ominus}[\mathrm{M(OH)}_{2}]$ ; (D) 无法判断。
 
-10.10 某电池(一) $A|A^{2+}(0.1\ mol\cdot dm^{-3})\parallel B^{2+}(1.0\times10^{-2}\ mol\cdot dm^{-3})|B(+)$ 的电动势E为0.27V，则该电池的标准电动势 $E^{\ominus}$ 为
+10.10 某电池(一) $A|A^{2+}(0.1\ \mathrm{mol}\cdot \mathrm{dm}^{-3})\parallel B^{2+}(1.0\times10^{-2}\ \mathrm{mol}\cdot \mathrm{dm}^{-3})|B(+)$ 的电动势E为0.27V，则该电池的标准电动势 $E^{\ominus}$ 为
 (A) 0.24V; (B) 0.27 V; (C) 0.30 V; (D) 0.33V。
 
 10.11 若将反应 $2\mathrm{MnO}_4^- + 10\mathrm{Fe}^{2+} + 16\mathrm{H}^+ = 2\mathrm{Mn}^{2+} + 10\mathrm{Fe}^{3+} + 8\mathrm{H}_2\mathrm{O}$ 设计成原电池，则该电池的符号为  
@@ -4994,7 +4994,7 @@ $$
 
 已知 $E^{\ominus}(\mathrm{MnO}_{2}/\mathrm{Mn}^{2+})=1.22\ \mathrm{V}, E^{\ominus}(\mathrm{Cl}_{2}/\mathrm{Cl}^{-})=1.36\ \mathrm{V}$
 
-10.26 某学生为测定 CuS 的溶度积常数, 设计如下原电池: 正极为铜片, 在 $0.1 \, mol \cdot dm^{-3} \, Cu^{2+}$ 溶液中, 再通入 $H_{2}S$ 气体使之达到饱和; 负极为标准锌电极。测得电池电动势为 $0.67 \, V$ 。已知 $E^{\ominus}(\mathrm{Cu}^{2+}/\mathrm{Cu}) = 0.34 \, \mathrm{V}, E^{\ominus}(\mathrm{Zn}^{2+}/\mathrm{Zn}) = -0.76 \, \mathrm{V}, H_{2}S$ 的 $K_{a_{1}}^{\ominus} = 1.1 \times 10^{-7}, K_{a_{2}}^{\ominus} = 1.3 \times 10^{-13}$ 。试求 CuS 的溶度积常数。
+10.26 某学生为测定 CuS 的溶度积常数, 设计如下原电池: 正极为铜片, 在 $0.1 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \, Cu^{2+}$ 溶液中, 再通入 $H_{2}S$ 气体使之达到饱和; 负极为标准锌电极。测得电池电动势为 $0.67 \, V$ 。已知 $E^{\ominus}(\mathrm{Cu}^{2+}/\mathrm{Cu}) = 0.34 \, \mathrm{V}, E^{\ominus}(\mathrm{Zn}^{2+}/\mathrm{Zn}) = -0.76 \, \mathrm{V}, H_{2}S$ 的 $K_{a_{1}}^{\ominus} = 1.1 \times 10^{-7}, K_{a_{2}}^{\ominus} = 1.3 \times 10^{-13}$ 。试求 CuS 的溶度积常数。
 
 10.27 已知 $H_{3}AsO_{4} + 2H^{+} + 2e^{-} = H_{3}AsO_{3} + H_{2}O$ $E^{\ominus} = 0.559 V; \quad I_{3}^{-} + 2e^{-} = 3I^{-}$ $E^{\ominus} = 0.54 V$ 。问：
 
@@ -5244,7 +5244,7 @@ $$
 
 其中 $Pt^{2+}$ 提供 8 个电子, 1 个 $C_{2}H_{4}$ 提供 2 个电子, 3 个 $Cl^{-}$ 共提供 6 个电子。
 
-<table><tr><td></td><td> $[Co(NH_3)_6]^{3+}$ </td><td> $[Fe(H_2O)_6]^{2+}$ </td></tr><tr><td> $\Delta/cm^{-1}$ </td><td>23000</td><td>10400</td></tr><tr><td> $P/cm^{-1}$ </td><td>21000</td><td>15000</td></tr></table>
+<table><tr><td></td><td> $[Co(NH_3)_6]^{3+}$ </td><td> $[Fe(H_2O)_6]^{2+}$ </td></tr><tr><td> $\Delta/\mathrm{cm}^{-1}$ </td><td>23000</td><td>10400</td></tr><tr><td> $P/\mathrm{cm}^{-1}$ </td><td>21000</td><td>15000</td></tr></table>
 
 (2) $\left[\mathrm{Ru}\left(\mathrm{C}_{5}\mathrm{H}_{5}\right)_{2}\right]$ 中 $Ru^{2+}$ 价层电子总数为 $N=6+2\times6=18$ ，符合EAN规则。
 
@@ -5339,7 +5339,7 @@ $$
 
 例11.9 将 $0.20 \mathrm{~mol} \cdot \mathrm{dm}^{-3} \mathrm{AgNO}_{3}$ 溶液 $0.50 \mathrm{dm}^{3}$ 和 $6.0 \mathrm{~mol} \cdot \mathrm{dm}^{-3} \mathrm{NH}_{3}$ 溶液 $0.50 \mathrm{dm}^{3}$ 混合后，加入 $1.19 \mathrm{~g} \mathrm{KBr}$ 固体。通过计算说明是否有沉淀生成。已知 $\left[\mathrm{Ag}(\mathrm{NH}_{3})_{2}\right]^{+}$ 的 $K_{\text {稳}}^{\ominus} = 1.1 \times 10^{7}, \mathrm{AgBr}$ 的 $K_{\mathrm{sp}}^{\ominus} = 5.4 \times 10^{-13}$ 。
 
-解：混合溶液的体积为 $1.0 \, dm^{3}$ 。
+解：混合溶液的体积为 $1.0 \, \mathrm{dm}^{3}$ 。
 
 反应前混合溶液中 $c(\mathrm{Ag}^{+}) = 0.10\mathrm{mol}\cdot \mathrm{dm}^{-3},c(\mathrm{NH}_3) = 3.0\mathrm{mol}\cdot \mathrm{dm}^{-3}$
 
@@ -5637,11 +5637,11 @@ $$
 
 求反应 $Fe^{2+} + 6CN^{-} \rightleftharpoons [Fe(CN)_{6}]^{4-}$ 的 $K_{稳}^{\ominus}$ 。
 
-11.39 已知向 $0.010 \, mol \cdot dm^{-3} \, ZnCl_{2}$ 溶液通入 $H_{2}S$ 气体至饱和，当溶液的 pH=1.0 时刚开始有 ZnS 沉淀产生。若在此浓度 $ZnCl_{2}$ 溶液中加入 $1.0 \, mol \cdot dm^{-3} \, KCN$ 后通入 $H_{2}S$ 气体至饱和，求在多大 pH 时会有 ZnS 沉淀产生？已知 $K_{\text{稳}}^{\ominus}([Zn(CN)_{4}]^{2-})=5.0 \times 10^{16}$ 。
+11.39 已知向 $0.010 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \, ZnCl_{2}$ 溶液通入 $H_{2}S$ 气体至饱和，当溶液的 pH=1.0 时刚开始有 ZnS 沉淀产生。若在此浓度 $ZnCl_{2}$ 溶液中加入 $1.0 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \, KCN$ 后通入 $H_{2}S$ 气体至饱和，求在多大 pH 时会有 ZnS 沉淀产生？已知 $K_{\text{稳}}^{\ominus}([Zn(CN)_{4}]^{2-})=5.0 \times 10^{16}$ 。
 
 11.40 已知 $E^{\ominus}(\mathrm{Au}^{+}/\mathrm{Au}) = 1.69 \mathrm{~V}, K_{\text {稳}}^{\ominus}([ \mathrm{Au}(\mathrm{CN})_2]^-) = 2 \times 10^{38}$ , 试求 $E^{\ominus}([ \mathrm{Au}(\mathrm{CN})_2]^- / \mathrm{Au})$ 。
 
-11.41 已知 $E^{\ominus}(\mathrm{Fe}^{3+}/\mathrm{Fe}^{2+})=0.771\ \mathrm{V}, E^{\ominus}(\mathrm{Sn}^{4+}/\mathrm{Sn}^{2+})=0.15\ \mathrm{V}, K_{\text{稳}}^{\ominus}([\mathrm{FeF}_{6}]^{3-})=1.1\times10^{12}$ 。通过计算说明下列氧化还原反应能否发生，若能发生写出其化学反应方程式。设有关物质的浓度为 $1.0\ mol\cdot dm^{-3}$ 。
+11.41 已知 $E^{\ominus}(\mathrm{Fe}^{3+}/\mathrm{Fe}^{2+})=0.771\ \mathrm{V}, E^{\ominus}(\mathrm{Sn}^{4+}/\mathrm{Sn}^{2+})=0.15\ \mathrm{V}, K_{\text{稳}}^{\ominus}([\mathrm{FeF}_{6}]^{3-})=1.1\times10^{12}$ 。通过计算说明下列氧化还原反应能否发生，若能发生写出其化学反应方程式。设有关物质的浓度为 $1.0\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ 。
 
 (1) 向 $FeCl_{3}$ 溶液中加入 NaF, 然后再加 $SnCl_{2}$ 。
 
@@ -5649,12 +5649,12 @@ $$
 
 (3) 向 $\left[\mathrm{Fe}(\mathrm{SCN})_{5}\right]^{2-}$ 溶液中加入 $\mathrm{KI}$ 。已知 $E^{\ominus}(\mathrm{I}_{2}/\mathrm{I}^{-}) = 0.54 \mathrm{~V}$ 。
 
-11.42 求在体积为 $1.5 \, dm^{3}$ 的 $1.0 \, mol \cdot dm^{-3} \, Na_{2}S_{2}O_{3}$ 溶液中能溶解多少克 AgBr?
+11.42 求在体积为 $1.5 \, \mathrm{dm}^{3}$ 的 $1.0 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \, Na_{2}S_{2}O_{3}$ 溶液中能溶解多少克 AgBr?
 已知 $M_{\mathrm{r}}(\mathrm{AgBr})=188, K_{\text{稳}}^{\ominus}\left(\left[\mathrm{Ag}\left(\mathrm{S}_{2}\mathrm{O}_{3}\right)_{2}\right]^{3-}\right)=2.8\times10^{13}, K_{\mathrm{sp}}^{\ominus}(\mathrm{AgBr})=5.4\times10^{-13}$
 
 11.43 为什么在水溶液中， $\mathrm{Co}^{3+}$ 能氧化水， $[\mathrm{Co(NH_3)_6}]^{3+}$ 却不能氧化水？已知 $K_{\text {稳}}^{\ominus}([\mathrm{Co(NH_3)_6}]^{3+}) = 1.58 \times 10^{35}, K_{\text {稳}}^{\ominus}([\mathrm{Co(NH_3)_6}]^{2+}) = 1.38 \times 10^{5}, K_{\text {b}}^{\ominus}(\mathrm{NH}_{3}) = 1.8 \times 10^{-5}, E^{\ominus}(\mathrm{Co}^{3+}/\mathrm{Co}^{2+}) = 1.92 \mathrm{~V}, E^{\ominus}(\mathrm{O}_2/\mathrm{OH}^-) = 0.401 \mathrm{~V}, E^{\ominus}(\mathrm{O}_2/\mathrm{H}_2\mathrm{O}) = 1.229 \mathrm{~V}$ 。
 
-11.44 将铜电极浸在含有 $1.00 \, mol \cdot dm^{-3}$ 氨和 $1.00 \, mol \cdot dm^{-3} \left[ \mathrm{Cu}(\mathrm{NH}_{3})_{4} \right]^{2+}$ 的溶液里，以标准锌电极为负极，测得电池的电动势为 $0.71 \, V$ 。计算 $\left[ \mathrm{Cu}(\mathrm{NH}_{3})_{4} \right]^{2+}$ 的稳定常数。已知 $E^{\ominus}(\mathrm{Cu}^{2+}/\mathrm{Cu}) = 0.34 \, \mathrm{V}, E^{\ominus}(\mathrm{Zn}^{2+}/\mathrm{Zn}) = -0.76 \, \mathrm{V}$ 。
+11.44 将铜电极浸在含有 $1.00 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 氨和 $1.00 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \left[ \mathrm{Cu}(\mathrm{NH}_{3})_{4} \right]^{2+}$ 的溶液里，以标准锌电极为负极，测得电池的电动势为 $0.71 \, V$ 。计算 $\left[ \mathrm{Cu}(\mathrm{NH}_{3})_{4} \right]^{2+}$ 的稳定常数。已知 $E^{\ominus}(\mathrm{Cu}^{2+}/\mathrm{Cu}) = 0.34 \, \mathrm{V}, E^{\ominus}(\mathrm{Zn}^{2+}/\mathrm{Zn}) = -0.76 \, \mathrm{V}$ 。
 
 11.45 六配位单核配位化合物 $\left[\mathrm{MA}_{2}\left(\mathrm{NO}_{2}\right)_{2}\right]$ 的组成分析结果为M: $21.68\%$ ，N: $31.04\%$ ，C: $17.74\%$ ；未知配体A中不含氧；在配位化合物中已知的配体的氮氧键不等长。
 
@@ -5794,7 +5794,7 @@ $$
 2 \mathrm{Na} + 2 \mathrm{NH} _ {3} = 2 \mathrm{NaNH} _ {2} + \mathrm{H} _ {2} \uparrow
 $$
 
-(2) ${\mathrm{{Na}}}_{2}{\mathrm{O}}_{2}$ 具有还原性,可将 ${\mathrm{{KMnO}}}_{4}$ 还原生成 ${\mathrm{{Mn}}}^{2 + }$ ：
+(2) ${\mathrm{Na}}_{2}{\mathrm{O}}_{2}$ 具有还原性,可将 ${\mathrm{KMnO}}_{4}$ 还原生成 ${\mathrm{Mn}}^{2 + }$ ：
 
 $$
 5 \mathrm{Na} _ {2} \mathrm{O} _ {2} + 2 \mathrm{MnO} _ {4} ^ {-} + 16 \mathrm{H} ^ {+} = 5 \mathrm{O} _ {2} \uparrow + 2 \mathrm{Mn} ^ {2 +} + 10 \mathrm{Na} ^ {+} + 8 \mathrm{H} _ {2} \mathrm{O}
@@ -5812,7 +5812,7 @@ $$
 2 \mathrm{Mg} (\mathrm{NO} _ {3}) _ {2} = 2 \mathrm{MgO} + 4 \mathrm{NO} _ {2} \uparrow + \mathrm{O} _ {2} \uparrow
 $$
 
-(5) ${\mathrm{{MgCl}}}_{2}$ 溶液中加入氨水后,生成难溶的 $\mathrm{{Mg}}{\left( \mathrm{{OH}}\right) }_{2}$ ,为白色沉淀：
+(5) ${\mathrm{MgCl}}_{2}$ 溶液中加入氨水后,生成难溶的 $\mathrm{Mg}{\left( \mathrm{OH}\right) }_{2}$ ,为白色沉淀：
 
 $$
 \mathrm{MgCl} _ {2} + 2 \mathrm{NH} _ {3} + 2 \mathrm{H} _ {2} \mathrm{O} = \mathrm{Mg(OH)} _ {2} \downarrow + 2 \mathrm{NH} _ {4} \mathrm{Cl}
@@ -6118,7 +6118,7 @@ $$
 
 例 13.4 解释实验现象。
 
-(1) ${\mathrm{{AlCl}}}_{3}$ 溶液和 ${\mathrm{{Na}}}_{2}\mathrm{\;S}$ 溶液混合产生白色沉淀和有臭鸡蛋气味的气体；
+(1) ${\mathrm{AlCl}}_{3}$ 溶液和 ${\mathrm{Na}}_{2}\mathrm{\;S}$ 溶液混合产生白色沉淀和有臭鸡蛋气味的气体；
 
 (2)测得硼砂溶液的 $\mathrm{pH} = 9.24$ ，用水稀释硼砂溶液后溶液的 $\mathrm{pH}$ 变化不大；
 
@@ -7741,7 +7741,7 @@ $$
 
 连二亚硫酸根；连四硫酸根。
 
-16.21 向各离子浓度均为 $0.1 \, mol \cdot dm^{-3}$ 的 $Mn^{2+}, Zn^{2+}, Cu^{2+}, Ag^{+}, Hg^{2+}, Pb^{2+}$ 混合溶液中通入 $H_{2}S$ 气体，可被沉淀的离子有 \_\_\_\_。
+16.21 向各离子浓度均为 $0.1 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 的 $Mn^{2+}, Zn^{2+}, Cu^{2+}, Ag^{+}, Hg^{2+}, Pb^{2+}$ 混合溶液中通入 $H_{2}S$ 气体，可被沉淀的离子有 \_\_\_\_。
 
 16.22 若除去氢气中少量的 $SO_{2}$ ， $H_{2}S$ 和水蒸气，应将氢气先通过 \_\_\_\_ 溶液，再通过 \_\_\_\_ 。
 
@@ -8334,7 +8334,7 @@ $$
 
 (1) 漂白粉长期暴露于空气中会失效;
 
-(2) ${\mathrm{{AlF}}}_{3}$ 在温度高达 ${1000}^{ \circ  }\mathrm{C}$ 时不熔化,而 ${\mathrm{{AlCl}}}_{3}$ 的熔点却只有 ${192.6}^{ \circ  }\mathrm{C}$ ；
+(2) ${\mathrm{AlF}}_{3}$ 在温度高达 ${1000}^{ \circ  }\mathrm{C}$ 时不熔化,而 ${\mathrm{AlCl}}_{3}$ 的熔点却只有 ${192.6}^{ \circ  }\mathrm{C}$ ；
 
 (3) 氟的电子亲和能比氯小, 但 $\mathrm{F}_{2}$ 却比 $\mathrm{Cl}_{2}$ 活泼。
 
@@ -8754,7 +8754,7 @@ $$
 
 解：金属的活泼性，尤其是电极电势 $E^{\ominus}$ 的数值，不仅与电离能有关，还与金属的原子化热、气态金属离子的水合热有关，见下图。
 
-锌和铜的第一电离能 $I_{1}$ 与第二电离能 $I_{2}$ 之和相差不大，气态的 $Zn^{2+}$ 和 $Cu^{2+}$ 的水合热 $\Delta H_{2}$ 相差不大。但原子化热 $\Delta H_{1}$ ，锌的为 $131\ kJ\cdot mol^{-1}$ ，比铜的 $338\ kJ\cdot mol^{-1}$ 小得多。原子化热的差别造成过程 $M(s)\longrightarrow M^{2+}(aq)$ 的总的热效应是锌比铜有利，故锌远比铜活泼。
+锌和铜的第一电离能 $I_{1}$ 与第二电离能 $I_{2}$ 之和相差不大，气态的 $Zn^{2+}$ 和 $Cu^{2+}$ 的水合热 $\Delta H_{2}$ 相差不大。但原子化热 $\Delta H_{1}$ ，锌的为 $131\ \mathrm{kJ}\cdot \mathrm{mol}^{-1}$ ，比铜的 $338\ \mathrm{kJ}\cdot \mathrm{mol}^{-1}$ 小得多。原子化热的差别造成过程 $M(s)\longrightarrow M^{2+}(aq)$ 的总的热效应是锌比铜有利，故锌远比铜活泼。
 
 必须注意的是,铜和锌的上述过程类型相同,熵变相近,故焓变将对吉布斯自由能的改变量起决定性作用。因此通过焓变的对比讨论问题是有意义的。
 
@@ -9006,7 +9006,7 @@ $\mathrm{CuSO_{4}}$ \_\_\_\_色； $\mathrm{CuCl_{2}}$ \_\_\_\_色； $\mathrm{C
 
 19.67 填写汞的硝酸盐与某些试剂反应的主要产物，并说明实验现象。
 
-<table><tr><td></td><td> ${\mathrm{{Hg}}}_{2}{\left( {\mathrm{{NO}}}_{3}\right) }_{2}$ </td><td> $\mathrm{{Hg}}{\left( {\mathrm{{NO}}}_{3}\right) }_{2}$ </td></tr><tr><td>KOH</td><td></td><td></td></tr><tr><td> ${\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O}$ </td><td></td><td></td></tr><tr><td> ${\mathrm{H}}_{2}\mathrm{\;S}$ </td><td></td><td></td></tr><tr><td> ${\mathrm{{SnCl}}}_{2}$ </td><td></td><td></td></tr><tr><td>KI</td><td></td><td></td></tr></table>
+<table><tr><td></td><td> ${\mathrm{Hg}}_{2}{\left( {\mathrm{NO}}_{3}\right) }_{2}$ </td><td> $\mathrm{Hg}{\left( {\mathrm{NO}}_{3}\right) }_{2}$ </td></tr><tr><td>KOH</td><td></td><td></td></tr><tr><td> ${\mathrm{NH}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O}$ </td><td></td><td></td></tr><tr><td> ${\mathrm{H}}_{2}\mathrm{\;S}$ </td><td></td><td></td></tr><tr><td> ${\mathrm{SnCl}}_{2}$ </td><td></td><td></td></tr><tr><td>KI</td><td></td><td></td></tr></table>
 
 19.68 解释下列实验事实。
 
@@ -9427,7 +9427,7 @@ $$
 
 (3) $V_{2}O_{5}$ 和 $Ag_{2}CrO_{4}$ ; (4) $MnSO_{4}$ 和 $ZnSO_{4}$ 。
 
-解：(1) ${\mathrm{{MnO}}}_{2}$ 和 $\mathrm{{CuO}}$
+解：(1) ${\mathrm{MnO}}_{2}$ 和 $\mathrm{CuO}$
 
 方法一 用热的稀硫酸分别与两种氧化物作用,溶液变蓝的是 CuO:
 

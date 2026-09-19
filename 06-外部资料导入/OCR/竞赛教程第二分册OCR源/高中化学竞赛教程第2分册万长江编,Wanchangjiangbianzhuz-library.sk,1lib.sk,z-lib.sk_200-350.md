@@ -208,7 +208,7 @@ $$
 d = 2 a + 2 + b
 $$
 
-7. ${\mathrm{{CH}}}_{3} - \mathrm{{CH}} - {\mathrm{{CH}}}_{2} - \mathrm{{CH}} - {\mathrm{{CH}}}_{3}$ (2,4-二甲基戊烷) ${\mathrm{{CH}}}_{3}{\mathrm{{CH}}}_{2} - \mathrm{{CH}} - {\mathrm{{CH}}}_{2}{\mathrm{{CH}}}_{3}$
+7. ${\mathrm{CH}}_{3} - \mathrm{CH} - {\mathrm{CH}}_{2} - \mathrm{CH} - {\mathrm{CH}}_{3}$ (2,4-二甲基戊烷) ${\mathrm{CH}}_{3}{\mathrm{CH}}_{2} - \mathrm{CH} - {\mathrm{CH}}_{2}{\mathrm{CH}}_{3}$
 
 ![](高中化学竞赛教程第2分册万长江编,Wanchangjiangbianzhuz-library.sk,1lib.sk,z-lib.sk_200-350_images/3266034e45d9b728e5454ecb1c120bf5c18249d35b88ca6a60bb44aaf81bef5b.jpg)
 
@@ -232,7 +232,7 @@ $$
 
 ![](高中化学竞赛教程第2分册万长江编,Wanchangjiangbianzhuz-library.sk,1lib.sk,z-lib.sk_200-350_images/a5a6fc8263e812446fe57d7fdf267572191b34ed2901798f8e898c686f4046e3.jpg)
 
-(4) ${\mathrm{{CH}}}_{3}{\mathrm{{CH}}}_{2}{\mathrm{{CH}}}_{2}{\mathrm{{CH}}}_{3};{\mathrm{{CH}}}_{3}{\mathrm{{CHCH}}}_{3}$ (5) ${\mathrm{{CCl}}}_{4}$ 的相对分子质量为 154,(210- 154)÷14=4,故反应的化学方程式为：
+(4) ${\mathrm{CH}}_{3}{\mathrm{CH}}_{2}{\mathrm{CH}}_{2}{\mathrm{CH}}_{3};{\mathrm{CH}}_{3}{\mathrm{CHCH}}_{3}$ (5) ${\mathrm{CCl}}_{4}$ 的相对分子质量为 154,(210- 154)÷14=4,故反应的化学方程式为：
 
 $$
 4 \mathrm{CH} _ {2} \leftarrow \mathrm{N} \equiv \mathrm{N} + \mathrm{CCl} _ {4} \xrightarrow {\text {紫外光}} \mathrm{ClCH} _ {2} - \underset {\mathrm{CH} _ {2} \mathrm{Cl}} {\overset {\mathrm{CH} _ {2} \mathrm{Cl}} {\mathrm{C}}} - \mathrm{CH} _ {2} \mathrm{Cl} + 4 \mathrm{N} _ {2} \uparrow
@@ -367,7 +367,7 @@ O CHO
 
 所以分子式为 $C_{8}H_{12}$ 。
 
-因为 2.164 g A 相当于 $\frac{2.164\ g}{108.2\ g\cdot mol^{-1}}=0.02\ mol$ ，6.392 g Br₂ 相当于 $\frac{6.392\ g}{79.904\ g\cdot mol^{-1}\times2}\approx0.04\ mol$ ，
+因为 2.164 g A 相当于 $\frac{2.164\ g}{108.2\ g\cdot \mathrm{mol}^{-1}}=0.02\ \mathrm{mol}$ ，6.392 g Br₂ 相当于 $\frac{6.392\ g}{79.904\ g\cdot \mathrm{mol}^{-1}\times2}\approx0.04\ \mathrm{mol}$ ，
 
 所以 A 分子中应有 2 个双键或一个叁键, 还有一个不饱和度可能为一单环。
 
@@ -1192,7 +1192,7 @@ $+H_{2}O$ , 再由 D 发生加成反应得到甲基环己烷, 反应为
 (3)  
 ![](高中化学竞赛教程第2分册万长江编,Wanchangjiangbianzhuz-library.sk,1lib.sk,z-lib.sk_200-350_images/5e8ee941c96ddc097189d23d899883014a6e17de9f51324c2ee9248f13a16df0.jpg)
 
-9. I．燃烧热定义为 1 mol 物质燃烧生成稳定氧化物时放出的热量,根据丙醛的燃烧热为 $1815 \, kJ \cdot mol^{-1}$ , 写出热化学方程式: $CH_{3}CH_{2}CHO(l) + 4O_{2}(g) \longrightarrow 3CO_{2}(g) + 3H_{2}O(l)$ ; $\Delta H = -1815 \, kJ \cdot mol^{-1}$
+9. I．燃烧热定义为 1 mol 物质燃烧生成稳定氧化物时放出的热量,根据丙醛的燃烧热为 $1815 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ , 写出热化学方程式: $CH_{3}CH_{2}CHO(l) + 4O_{2}(g) \longrightarrow 3CO_{2}(g) + 3H_{2}O(l)$ ; $\Delta H = -1815 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$
 
 Ⅱ. (1) 1 分子链状单烯烃 A 经过上述过程, 得到 2 分子饱和一元醛(或酮)。所以可以假设 B 分子组成为 $\mathrm{C}_{n} \mathrm{H}_{2n} \mathrm{O}$ , 则有 $\frac{12 n}{12 n + 2 n + 16} \times 100 \% = 69.8\%$ , 得到 $n = 5$ 。B 的相对分子质量为 86。C $\longrightarrow$ F 的变化使用了银氨溶液, 所以 C 为醛, 发生了氧化反应, 生成物 F 为羧酸。B 不能发生银镜反应, 则 B 为酮, 和 $\mathrm{H}_{2}$ 反应生成醇 D。醇 D 含有的官能团为羟基, 可以发生消去反应生成烯烃 E; 也可以和羧酸 F 发生酯化反应, 生成酯 G。
 
@@ -1222,7 +1222,7 @@ II. (7R, 3E, 5Z)-3-甲基-7-氘代-3,5-辛二烯或(7R, 3E, 5Z)-3-甲基-3,5-辛
 
 11. 解析: (1) 分析题目信息, 该类加成反应的规律是与碳碳叁键相连的氢原子进攻羰基氧, 连有氢原子的叁键碳进攻羰基碳。乙炔与甲醛 $1: 1$ 反应时的产物为 $\mathrm{CH} \equiv \mathrm{C}-\mathrm{CH}_{2} \mathrm{OH}, 1: 2$ 反应时产物为 $\mathrm{HOCH}_{2} \mathrm{C} \equiv \mathrm{CCH}_{2} \mathrm{OH}$ 。
 
-(2) 在(1)的基础上 $1 \, mol \, HOCH_{2}C \equiv CCH_{2}OH$ 与 $2 \, mol \, H_{2}$ 加成即可得产物 1,4-丁二醇。
+(2) 在(1)的基础上 $1 \, \mathrm{mol} \, HOCH_{2}C \equiv CCH_{2}OH$ 与 $2 \, \mathrm{mol} \, H_{2}$ 加成即可得产物 1,4-丁二醇。
 
 答案: (1) $\mathrm{HOCH}_{2} \mathrm{C} \equiv \mathrm{CH}$ ; $\mathrm{HOCH}_{2} \mathrm{C} \equiv \mathrm{CCH}_{2} \mathrm{OH}$
 
@@ -2555,7 +2555,7 @@ C. 1,6-二溴-1-环己烯 D. 2,3-二溴-1-环己烯
 卤代烃能够发生下列反应: $2 \mathrm{CH}_{3} \mathrm{CH}_{2} \mathrm{Br} + 2 \mathrm{Na} \longrightarrow \mathrm{CH}_{3} \mathrm{CH}_{2} \mathrm{CH}_{2} \mathrm{CH}_{3} + 2 \mathrm{NaBr}$ , 下列有机物可以合成环丙烷的是( )。
 A. $\mathrm{CH}_{3} \mathrm{CH}_{2} \mathrm{CH}_{2} \mathrm{Br}$ B. $\mathrm{CH}_{3} \mathrm{CHBrCH}_{2} \mathrm{Br}$
 
-C. ${\mathrm{{CH}}}_{2}\mathrm{{Br}}{\mathrm{{CH}}}_{2}{\mathrm{{CH}}}_{2}\mathrm{{Br}}$ D. ${\mathrm{{CH}}}_{3}\mathrm{{CHBr}}{\mathrm{{CH}}}_{2}{\mathrm{{CH}}}_{2}\mathrm{{Br}}$
+C. ${\mathrm{CH}}_{2}\mathrm{Br}{\mathrm{CH}}_{2}{\mathrm{CH}}_{2}\mathrm{Br}$ D. ${\mathrm{CH}}_{3}\mathrm{CHBr}{\mathrm{CH}}_{2}{\mathrm{CH}}_{2}\mathrm{Br}$
 
 5 化合物 A 和 B 的元素分析数据均为含 C 85.71%，H 14.29%。质谱数据表明 A 和 B 的相对分子质量均为 84。室温下 A 和 B 均能使溴水褪色，但均不能使高锰酸钾溶液褪色。A 与 HCl 反应得 2,3-二甲基-2-氯丁烷，A 催化加氢得 2,3-二甲基丁烷；B 与 HCl 反应得 2-甲基-3-氯戊烷，B 催化加氢得 2,3-二甲基丁烷。
 
@@ -2700,7 +2700,7 @@ $H_{2}O$ 。具体步骤如下:①干燥 $ZnCl_{2}$ 晶体。②检查气密性,
 A. 约 10 mL    B. 约 20 mL    C. 约 30 mL
 其理由是\_\_\_\_；
 
-(3) 实验室为何用排水法收集 ${\mathrm{{CH}}}_{3}\mathrm{{Cl}}$ ?
+(3) 实验室为何用排水法收集 ${\mathrm{CH}}_{3}\mathrm{Cl}$ ?
 
 ④ 反应前,瓶内产生大量白雾,原因是\_\_\_\_,反应后,瓶内只剩下白色固体,它是\_\_\_\_。
 
@@ -2798,13 +2798,13 @@ G: $\left[\mathrm{CH}_{2}-\mathrm{CH}=\mathrm{CH}-\mathrm{CH}_{2}-\mathrm{CH}_{2
 
 ![](高中化学竞赛教程第2分册万长江编,Wanchangjiangbianzhuz-library.sk,1lib.sk,z-lib.sk_200-350_images/a12cb6f96e964111a5683a6671c329ae7d367a3a46d8e53cc5a9d0577a43ebbc.jpg)
 
-③ ${\mathrm{{CH}}}_{3}{\mathrm{{CH}}}_{2}\mathrm{{Br}}$
+③ ${\mathrm{CH}}_{3}{\mathrm{CH}}_{2}\mathrm{Br}$
 
 13. (1)
 
 ![](高中化学竞赛教程第2分册万长江编,Wanchangjiangbianzhuz-library.sk,1lib.sk,z-lib.sk_200-350_images/0e98a3113125a6621066721179715a3c94a7a766402b70dded53d0a40bff13d6.jpg)
 
-(2) $\mathrm{{NaOH}}$ 水溶液(或 $\mathrm{{NaOH}}$ 醇溶液)、稀硝酸、硝酸银溶液
+(2) $\mathrm{NaOH}$ 水溶液(或 $\mathrm{NaOH}$ 醇溶液)、稀硝酸、硝酸银溶液
 
 (3) C
 
@@ -2814,7 +2814,7 @@ G: $\left[\mathrm{CH}_{2}-\mathrm{CH}=\mathrm{CH}-\mathrm{CH}_{2}-\mathrm{CH}_{2
 
 答案：(1) C: $C_{6}H_{5}-CH=CH_{2}$ G: $C_{6}H_{5}-C\equiv CH$ $OCOCH_{3}$ H: $C_{6}H_{5}-CH-CH_{2}OCOCH_{3}$ (2) ①③⑥⑧
 
-15. (I) ①坩埚; ②A; 加热烧瓶会使 HCl 大量挥发; ③ ${\mathrm{{CH}}}_{3}\mathrm{{Cl}}$ 不易溶于水,用排水法可除去 $\mathrm{{HCl}}\text{、}{\mathrm{{CH}}}_{3}\mathrm{{OH}}$ 等杂质气体; ④ ${\mathrm{{ZnCl}}}_{2}$ 吸水,促进浓盐酸的挥发; $\mathrm{{Zn}}{\left( \mathrm{{OH}}\right) }_{2}$ (II) (B)-(A)-(C); (A) 紫色褪去; ${10}{\mathrm{{CH}}}_{3}\mathrm{{Cl}} + {14}{\mathrm{{KMnO}}}_{4} + {21}{\mathrm{H}}_{2}{\mathrm{{SO}}}_{4} \rightarrow$ $7{\mathrm{K}}_{2}{\mathrm{{SO}}}_{4} + {14}{\mathrm{{MnSO}}}_{4} + {10}{\mathrm{{CO}}}_{2} \uparrow   + 5{\mathrm{{Cl}}}_{2} \uparrow   + {36}{\mathrm{H}}_{2}\mathrm{O};{\mathrm{{Na}}}_{2}{\mathrm{{SO}}}_{3} + {\mathrm{{Cl}}}_{2} + {\mathrm{H}}_{2}\mathrm{O} \rightarrow$ ${\mathrm{{Na}}}_{2}{\mathrm{{SO}}}_{4} + 2\mathrm{{HCl}}$ ;乙醇(或其他有机溶剂)
+15. (I) ①坩埚; ②A; 加热烧瓶会使 HCl 大量挥发; ③ ${\mathrm{CH}}_{3}\mathrm{Cl}$ 不易溶于水,用排水法可除去 $\mathrm{HCl}\text{、}{\mathrm{CH}}_{3}\mathrm{OH}$ 等杂质气体; ④ ${\mathrm{ZnCl}}_{2}$ 吸水,促进浓盐酸的挥发; $\mathrm{Zn}{\left( \mathrm{OH}\right) }_{2}$ (II) (B)-(A)-(C); (A) 紫色褪去; ${10}{\mathrm{CH}}_{3}\mathrm{Cl} + {14}{\mathrm{KMnO}}_{4} + {21}{\mathrm{H}}_{2}{\mathrm{SO}}_{4} \rightarrow$ $7{\mathrm{K}}_{2}{\mathrm{SO}}_{4} + {14}{\mathrm{MnSO}}_{4} + {10}{\mathrm{CO}}_{2} \uparrow   + 5{\mathrm{Cl}}_{2} \uparrow   + {36}{\mathrm{H}}_{2}\mathrm{O};{\mathrm{Na}}_{2}{\mathrm{SO}}_{3} + {\mathrm{Cl}}_{2} + {\mathrm{H}}_{2}\mathrm{O} \rightarrow$ ${\mathrm{Na}}_{2}{\mathrm{SO}}_{4} + 2\mathrm{HCl}$ ;乙醇(或其他有机溶剂)
 
 (装置的选择既要防止杂质的影响,树立环保意识,又要使选择的装置最少)
 
@@ -3029,7 +3029,7 @@ $$
 \mathrm{C} _ {6} \mathrm{H} _ {5} \mathrm{ONa} + \mathrm{CO} _ {2} + \mathrm{H} _ {2} \mathrm{O} \longrightarrow \mathrm{C} _ {6} \mathrm{H} _ {5} \mathrm{OH} + \mathrm{NaHCO} _ {3}
 $$
 
-(4) ${\mathrm{{CaCO}}}_{3}$ 过滤
+(4) ${\mathrm{CaCO}}_{3}$ 过滤
 
 (5) NaOH 水溶液 $CO_{2}$
 
@@ -3330,17 +3330,17 @@ H—C—C—H 其 PMR 谱中有两个信号, 其强度之比为 3:1。
 
 ⑩ 苯酚与溴的反应可用于苯酚的定量测定,方法如下:
 
-①按物质的量之比为 1:5 配制 $1000 \, mL \, KBrO_{3} - KBr$ 溶液，该溶液在酸性条件下完全反应可以生成 $0.05 \, mol \, Br_{2}$ ; ②用该溶液（含过量的 $Br_{2}$ ）与苯酚充分反应后，用 KI 还原未反应的溴，再用 $Na_{2}S_{2}O_{3}$ 标准溶液滴定所生成的碘， $Na_{2}S_{2}O_{3}$ 与 $I_{2}$ 反应的化学方程式为 $2Na_{2}S_{2}O_{3} + I_{2} \longrightarrow 2NaI + Na_{2}S_{4}O_{6}$ ; ③根据所消耗的 $Na_{2}S_{2}O_{3}$ 标准溶液的毫升数，便可计算出苯酚的纯度。现称量 $0.2 \, g$ 苯酚试样，在一定条件下溶于水并稀释为 $250 \, mL$ ，取该溶液 $10 \, mL$ ，与 $10 \, mL$ 上述 $KBrO_{3}-KBr$ 溶液在酸性条件下反应后，加入过量 KI，再用 $0.1 \, mol \cdot L^{-1} \, Na_{2}S_{2}O_{3}$ 溶液滴定至终点，消耗 $5.2 \, mL \, Na_{2}S_{2}O_{3}$ 溶液。试计算苯酚试样的纯度。
+①按物质的量之比为 1:5 配制 $1000 \, \mathrm{mL} \, KBrO_{3} - KBr$ 溶液，该溶液在酸性条件下完全反应可以生成 $0.05 \, \mathrm{mol} \, Br_{2}$ ; ②用该溶液（含过量的 $Br_{2}$ ）与苯酚充分反应后，用 KI 还原未反应的溴，再用 $Na_{2}S_{2}O_{3}$ 标准溶液滴定所生成的碘， $Na_{2}S_{2}O_{3}$ 与 $I_{2}$ 反应的化学方程式为 $2Na_{2}S_{2}O_{3} + I_{2} \longrightarrow 2NaI + Na_{2}S_{4}O_{6}$ ; ③根据所消耗的 $Na_{2}S_{2}O_{3}$ 标准溶液的毫升数，便可计算出苯酚的纯度。现称量 $0.2 \, g$ 苯酚试样，在一定条件下溶于水并稀释为 $250 \, \mathrm{mL}$ ，取该溶液 $10 \, \mathrm{mL}$ ，与 $10 \, \mathrm{mL}$ 上述 $KBrO_{3}-KBr$ 溶液在酸性条件下反应后，加入过量 KI，再用 $0.1 \, \mathrm{mol} \cdot \mathrm{L}^{-1} \, Na_{2}S_{2}O_{3}$ 溶液滴定至终点，消耗 $5.2 \, \mathrm{mL} \, Na_{2}S_{2}O_{3}$ 溶液。试计算苯酚试样的纯度。
 
 11 碳正离子[例如 $CH_{3}^{+}$ ， $CH_{5}^{+}$ ， $(CH_{3})_{3}C^{+}$ 等]是有机反应中重要的中间体，欧拉(G·Olah)因在此领域研究中的卓越成就而荣获1994年诺贝尔化学奖。碳正离子 $CH_{5}^{+}$ 可以通过 $CH_{4}$ 在“超强酸”中再获得1个 $H^{+}$ 而得到，而 $CH_{5}^{+}$ 失去 $H_{2}$ 可得 $CH_{3}^{+}$ 。
 
-(1) ${\mathrm{{CH}}}_{3}^{ + }$ 是反应性很强的正离子,是缺电子的,其电子式是\_\_\_\_。
+(1) ${\mathrm{CH}}_{3}^{ + }$ 是反应性很强的正离子,是缺电子的,其电子式是\_\_\_\_。
 
-(2) ${\mathrm{{CH}}}_{3}^{ + }$ 中 4 个原子是共平面的,三个键角相等,键角应是\_\_\_\_。
+(2) ${\mathrm{CH}}_{3}^{ + }$ 中 4 个原子是共平面的,三个键角相等,键角应是\_\_\_\_。
 
 (3) $\left(\mathrm{CH}_{3}\right)_{2}\mathrm{CH}^{+}$ 在 NaOH 的水溶液中反应将得到电中性的有机分子, 其结构简式是\_\_\_\_。
 
-(4) ${\left( {\mathrm{{CH}}}_{3}\right) }_{3}{\mathrm{C}}^{ + }$ 去掉 ${\mathrm{H}}^{ + }$ 后将生成电中性有机分子,其结构简式是\_\_\_\_。
+(4) ${\left( {\mathrm{CH}}_{3}\right) }_{3}{\mathrm{C}}^{ + }$ 去掉 ${\mathrm{H}}^{ + }$ 后将生成电中性有机分子,其结构简式是\_\_\_\_。
 
 (1) 丁醇( $\mathrm{CH_{3}CH_{2}CH_{2}CH_{2}OH}$ )和丁硫醇( $\mathrm{CH_{3}CH_{2}CH_{2}CH_{2}SH}$ ), 前者的沸点(117℃)比后者的沸点(98℃)高, 而且在水中溶解度也比后者在水中的溶解度大, 这是为什么? 试解释原因。
 
@@ -3463,7 +3463,7 @@ $$
 \begin{array}{r l} & {\mathrm {Br_ {2}} \sim \mathrm {I_ {2}} \sim 2 \mathrm {Na_ {2} S_ {2} O_ {3}}} \\ & {1 \mathrm{mol} \qquad 2 \mathrm{mol}} \\ & {x \mathrm{mol} \qquad 5.2 \times 10 ^ {- 3} \mathrm{L} \times 0.1 \mathrm{mol} \bullet \mathrm{L} ^ {- 1}} \\ & {\text {解得} x = 2.6 \times 10 ^ {- 4}} \end{array}
 $$
 
-所以与苯酚反应的溴的物质的量为： $0.05 \times 10/1000 \, mol - 2.6 \times 10^{-4} \, mol = 2.4 \times 10^{-4} \, mol$
+所以与苯酚反应的溴的物质的量为： $0.05 \times 10/1000 \, \mathrm{mol} - 2.6 \times 10^{-4} \, \mathrm{mol} = 2.4 \times 10^{-4} \, \mathrm{mol}$
 
 设试样中苯酚的物质的量为 $y \mathrm{~mol}$ , 则有
 
@@ -4104,7 +4104,7 @@ $$
 \begin{array}{r l} & {(2) \mathrm {CH_ {3} OH + HCOOH\xrightarrow {\text {浓硫酸,} \triangle} HCOOC H _ {3} + H_ {2} O\quad HCHO + 4Ag(NH_ {3}) _ {2} OH}} \\ & {\xrightarrow {\triangle} 4 \mathrm{Ag} \downarrow + 6 \mathrm {NH_ {3}} \uparrow + 2 \mathrm {H_ {2} O + (NH_ {4}) _ {2} CO_ {3}}} \end{array}
 $$
 
-(3) ${\mathrm{{HOCH}}}_{2}\mathrm{{CHO}}$
+(3) ${\mathrm{HOCH}}_{2}\mathrm{CHO}$
 
 $$
 \begin{array}{l} {\mathrm{(1)} \mathrm {CH_ {3} COOH, CH_ {3} CH_ {2} COOH, CH_ {3} CH_ {2} CH_ {2} COOH, CH_ {3} CH_ {2} CH_ {2} CH_ {2} COOH}} \\ {\mathrm{(2)} \quad \mathrm {CH_ {2} -(CH_ {2}) _ {10} CH_ {2} C = O}} \\ {\mathrm{CH-CH_2}} \\ {\mathrm {CH_3}} \end{array}
@@ -4669,7 +4669,7 @@ $$
 
 (3) 对 $\mathrm{XCH}_{2} \mathrm{COOH}$ (X=F、Cl、Br、I) 的 $\mathrm{pK}_{\mathrm{a}}$ 数据进行对比得出, 一卤代乙酸的酸性按 F、Cl、Br、I 的顺序依次减弱; 从 $\mathrm{F}_{3} \mathrm{CCOOH} 、 \mathrm{F}_{2} \mathrm{CHCOOH} 、 \mathrm{FCH}_{2} \mathrm{COOH}$ 的 $\mathrm{pK}_{\mathrm{a}}$ 数据可以看出, 卤代饱和脂肪酸的酸性随着卤素原子个数的增多而增强; 从 $\mathrm{CH}_{3} \mathrm{CH}_{2} \mathrm{CHClCOOH} 、 \mathrm{CH}_{3} \mathrm{CHClCH}_{2} \mathrm{COOH} 、 \mathrm{CH}_{2} \mathrm{ClCH}_{2} \mathrm{CH}_{2} \mathrm{COOH}$ 的 $\mathrm{pK}_{\mathrm{a}}$ 数据可以得出, 卤素原子离羧基越远, 一卤代饱和脂肪酸的酸性越弱。
 
-根据上述结论, ${\mathrm{{Cl}}}_{2}\mathrm{{CHCOOH}}$ 的 $\mathrm{p}{K}_{\mathrm{a}}$ 应该大于 ${0.65}\left( {{\mathrm{{Cl}}}_{3}\mathrm{{CCOH}}}\right)$ ,小于 2.86 $\left( {{\mathrm{{ClCH}}}_{2}\mathrm{{COOH}}}\right)$ ,或者大于 ${1.24}\left( {{\mathrm{F}}_{2}\mathrm{{CHCOOH}}}\right)$ ,小于 ${2.86}\left( {{\mathrm{{ClCH}}}_{2}\mathrm{{COOH}}}\right)$ 。
+根据上述结论, ${\mathrm{Cl}}_{2}\mathrm{CHCOOH}$ 的 $\mathrm{p}{K}_{\mathrm{a}}$ 应该大于 ${0.65}\left( {{\mathrm{Cl}}_{3}\mathrm{CCOH}}\right)$ ,小于 2.86 $\left( {{\mathrm{ClCH}}_{2}\mathrm{COOH}}\right)$ ,或者大于 ${1.24}\left( {{\mathrm{F}}_{2}\mathrm{CHCOOH}}\right)$ ,小于 ${2.86}\left( {{\mathrm{ClCH}}_{2}\mathrm{COOH}}\right)$ 。
 
 参考解答 (1) $\mathrm{ClCH_2COOH}+$ $\mathrm{C6H5}\rightarrow\mathrm{C6H5CH_2COOH}+\mathrm{HCl}$
 

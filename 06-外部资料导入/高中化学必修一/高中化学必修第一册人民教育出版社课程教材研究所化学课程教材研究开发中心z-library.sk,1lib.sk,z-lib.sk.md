@@ -488,7 +488,7 @@ $$
 
 完成下表中各反应的化学方程式和离子方程式，思考两种方程式在表示某一类反应时，表达的含义有什么不同，并进行讨论。
 
-<table><tr><td>反应物</td><td>化学方程式</td><td>离子方程式</td><td>两种方程式的不同</td></tr><tr><td> $\mathrm{{HCl}} + \mathrm{{NaOH}}$ </td><td></td><td></td><td rowspan="4"></td></tr><tr><td> $\mathrm{{HCl}} + \mathrm{{KOH}}$ </td><td></td><td></td></tr><tr><td> ${\mathrm{H}}_{2}{\mathrm{{SO}}}_{4} + \mathrm{{NaOH}}$ </td><td></td><td></td></tr><tr><td> ${\mathrm{H}}_{2}{\mathrm{{SO}}}_{4} + \mathrm{{KOH}}$ </td><td></td><td></td></tr></table>
+<table><tr><td>反应物</td><td>化学方程式</td><td>离子方程式</td><td>两种方程式的不同</td></tr><tr><td> $\mathrm{HCl} + \mathrm{NaOH}$ </td><td></td><td></td><td rowspan="4"></td></tr><tr><td> $\mathrm{HCl} + \mathrm{KOH}$ </td><td></td><td></td></tr><tr><td> ${\mathrm{H}}_{2}{\mathrm{SO}}_{4} + \mathrm{NaOH}$ </td><td></td><td></td></tr><tr><td> ${\mathrm{H}}_{2}{\mathrm{SO}}_{4} + \mathrm{KOH}$ </td><td></td><td></td></tr></table>
 
 上面的4个反应都是中和反应，虽然4个反应的化学方程式不同，但它们的离子方程式却是相同的。这表明：强酸与强碱发生中和反应的实质是，强酸电离出来的 $H^{+}$ 与强碱电离出来的 $OH^{-}$ 结合生成 $H_{2}O$ 。
 
@@ -1477,7 +1477,7 @@ $$
 
 物质的量 amount of substance 摩尔 mole
 
-物质的量是一个物理量，它表示含有一定数目粒子的集合体，符号为n。物质的量的单位为摩尔，简称摩，符号为mol。国际上规定，1 mol粒子集合体所含的粒子数约为 $6.02 \times 10^{23}$ 。1 mol任何粒子的粒子数叫做阿伏加德罗常数，符号为 $N_{A}$ ，通常用 $6.02 \times 10^{23} \, mol^{-1}$ 表示。
+物质的量是一个物理量，它表示含有一定数目粒子的集合体，符号为n。物质的量的单位为摩尔，简称摩，符号为mol。国际上规定，1 mol粒子集合体所含的粒子数约为 $6.02 \times 10^{23}$ 。1 mol任何粒子的粒子数叫做阿伏加德罗常数，符号为 $N_{A}$ ，通常用 $6.02 \times 10^{23} \, \mathrm{mol}^{-1}$ 表示。
 
 物质的量、阿伏加德罗常数与粒子数（N）之间存在着下述关系：
 
@@ -1533,7 +1533,7 @@ $$
 
 【例题1】 $26.5\mathrm{gNa_2CO_3}$ 的物质的量是多少？
 
-【解】 $Na_{2}CO_{3}$ 的相对分子质量为106，摩尔质量为 $106\ g\cdot mol^{-1}$ 。
+【解】 $Na_{2}CO_{3}$ 的相对分子质量为106，摩尔质量为 $106\ g\cdot \mathrm{mol}^{-1}$ 。
 
 $$
 \begin{array}{r l} n (\mathrm{Na} _ {2} \mathrm{CO} _ {3}) & = \frac {m (\mathrm{Na} _ {2} \mathrm{CO} _ {3})}{M (\mathrm{Na} _ {2} \mathrm{CO} _ {3})} \\ & = \frac {26.5 \mathrm{g}}{106 \mathrm{g} \cdot \mathrm{mol} ^ {- 1}} \\ & = 0.25 \mathrm{mol} \end{array}
@@ -1566,7 +1566,7 @@ $$
 气体摩尔体积
 molar volume of gas
 
-单位物质的量的气体所占的体积叫做气体摩尔体积，符号为 $V_{m}$ ，常用的单位有L/mol（或 $L\cdot mol^{-1}$ ）和 $m^{3}/mol$ （或 $m^{3}\cdot mol^{-1}$ ）。
+单位物质的量的气体所占的体积叫做气体摩尔体积，符号为 $V_{m}$ ，常用的单位有L/mol（或 $\mathrm{L}\cdot \mathrm{mol}^{-1}$ ）和 $m^{3}/\mathrm{mol}$ （或 $m^{3}\cdot \mathrm{mol}^{-1}$ ）。
 
 $$
 V _ {\mathrm{m}} = \frac {V}{n}
@@ -1943,7 +1943,7 @@ NaCl、蒸馏水。
 
 (3) 配制溶液。
 
-向盛有 $1.00 \, mol/L$ NaCl 溶液的烧杯中加入 $20 \, mL$ 蒸馏水，用玻璃棒慢慢搅动，使其混合均匀。
+向盛有 $1.00 \, \mathrm{mol}/\mathrm{L}$ NaCl 溶液的烧杯中加入 $20 \, \mathrm{mL}$ 蒸馏水，用玻璃棒慢慢搅动，使其混合均匀。
 
 将烧杯中的溶液沿玻璃棒注入容量瓶。用少量蒸馏水洗涤烧杯内壁和玻璃棒2\~3次，并将洗涤液也都注入容量瓶。
 
@@ -2844,7 +2844,7 @@ $$
 
 表 4-2 碱金属单质的主要物理性质
 
-<table><tr><td>碱金属单质</td><td>颜色(常态)</td><td> $\frac{\text{密度}}{\left( {\mathrm{g} \cdot {\mathrm{{cm}}}^{-3}}\right) }$ </td><td> $\frac{\text{熔点}}{\mathrm{C}}$ </td><td> $\frac{\text{沸点}}{\mathrm{C}}$ </td></tr><tr><td>Li</td><td>银白色</td><td>0.534</td><td>180.5</td><td>1 347</td></tr><tr><td>Na</td><td>银白色</td><td>0.97</td><td>97.81</td><td>882.9</td></tr><tr><td>K</td><td>银白色</td><td>0.86</td><td>63.65</td><td>774</td></tr><tr><td>Rb</td><td>银白色</td><td>1.532</td><td>38.89</td><td>688</td></tr><tr><td>Cs</td><td>略带金色光泽</td><td>1.879</td><td>28.40</td><td>678.4</td></tr></table>
+<table><tr><td>碱金属单质</td><td>颜色(常态)</td><td> $\frac{\text{密度}}{\left( {\mathrm{g} \cdot {\mathrm{cm}}^{-3}}\right) }$ </td><td> $\frac{\text{熔点}}{\mathrm{C}}$ </td><td> $\frac{\text{沸点}}{\mathrm{C}}$ </td></tr><tr><td>Li</td><td>银白色</td><td>0.534</td><td>180.5</td><td>1 347</td></tr><tr><td>Na</td><td>银白色</td><td>0.97</td><td>97.81</td><td>882.9</td></tr><tr><td>K</td><td>银白色</td><td>0.86</td><td>63.65</td><td>774</td></tr><tr><td>Rb</td><td>银白色</td><td>1.532</td><td>38.89</td><td>688</td></tr><tr><td>Cs</td><td>略带金色光泽</td><td>1.879</td><td>28.40</td><td>678.4</td></tr></table>
 
 ![](高中化学必修第一册人民教育出版社课程教材研究所化学课程教材研究开发中心z-library.sk,1lib.sk,z-lib.sk_images/7232d02418cf9685b13c7db08f69c389aab7bea8defcf9fd06baa6d432e19783.jpg)
 
@@ -2883,7 +2883,7 @@ I
 
 表 4-4 卤素单质与氢气的反应
 
-<table><tr><td> ${\mathrm{H}}_{2} + {\mathrm{F}}_{2} = 2\mathrm{{HF}}$ </td><td>在暗处能剧烈化合并发生爆炸,生成的氟化氢很稳定</td></tr><tr><td> ${\mathrm{H}}_{2} + {\mathrm{{Cl}}}_{2}\xrightarrow{\text{光照或点燃}}2\mathrm{{HCl}}$ </td><td>光照或点燃发生反应,生成的氯化氢较稳定</td></tr><tr><td> ${\mathrm{H}}_{2} + {\mathrm{{Br}}}_{2}\xrightarrow{\bigtriangleup }2\mathrm{{HBr}}$ </td><td>加热至一定温度才能反应,生成的溴化氢不如氯化氢稳定</td></tr><tr><td> ${\mathrm{H}}_{2} + {\mathrm{I}}_{2}\xrightarrow{\bigtriangleup }2\mathrm{{HI}}$ </td><td>不断加热才能缓慢反应;碘化氢不稳定,在同一条件下同时分解为 ${\mathrm{H}}_{2}$ 和 ${\mathrm{I}}_{2}$ ,是可逆反应 $^1$ </td></tr></table>
+<table><tr><td> ${\mathrm{H}}_{2} + {\mathrm{F}}_{2} = 2\mathrm{HF}$ </td><td>在暗处能剧烈化合并发生爆炸,生成的氟化氢很稳定</td></tr><tr><td> ${\mathrm{H}}_{2} + {\mathrm{Cl}}_{2}\xrightarrow{\text{光照或点燃}}2\mathrm{HCl}$ </td><td>光照或点燃发生反应,生成的氯化氢较稳定</td></tr><tr><td> ${\mathrm{H}}_{2} + {\mathrm{Br}}_{2}\xrightarrow{\bigtriangleup }2\mathrm{HBr}$ </td><td>加热至一定温度才能反应,生成的溴化氢不如氯化氢稳定</td></tr><tr><td> ${\mathrm{H}}_{2} + {\mathrm{I}}_{2}\xrightarrow{\bigtriangleup }2\mathrm{HI}$ </td><td>不断加热才能缓慢反应;碘化氢不稳定,在同一条件下同时分解为 ${\mathrm{H}}_{2}$ 和 ${\mathrm{I}}_{2}$ ,是可逆反应 $^1$ </td></tr></table>
 
 ![](高中化学必修第一册人民教育出版社课程教材研究所化学课程教材研究开发中心z-library.sk,1lib.sk,z-lib.sk_images/a208ffa47970a4369ccd8a633357d3c7fa250a5c92df83c7f449e91ff3333f0e.jpg)
 
@@ -3099,7 +3099,7 @@ Na Mg Al Si P S Cl
 
 门捷列夫还预言了锗的存在和性质，多年后也得到了证实。
 
-<table><tr><td></td><td>预测</td><td>储</td></tr><tr><td>相对原子质量</td><td>72</td><td>72.6</td></tr><tr><td>密度 $\left( {\mathrm{g} \cdot {\mathrm{{cm}}}^{-3}}\right)$ </td><td>5.5</td><td>5.32</td></tr><tr><td>氧化物</td><td> ${\mathrm{{MO}}}_{2}$ </td><td> ${\mathrm{{GeO}}}_{2}$ </td></tr><tr><td>氧化物的密度 $\left( {\mathrm{g} \cdot {\mathrm{{cm}}}^{-3}}\right)$ </td><td>4.7</td><td>4.72</td></tr><tr><td>氯化物</td><td> ${\mathrm{{MCI}}}_{4}$ </td><td> ${\mathrm{{GeCl}}}_{4}$ </td></tr><tr><td>氯化物的沸点°C</td><td>&lt;100</td><td>84</td></tr></table>
+<table><tr><td></td><td>预测</td><td>储</td></tr><tr><td>相对原子质量</td><td>72</td><td>72.6</td></tr><tr><td>密度 $\left( {\mathrm{g} \cdot {\mathrm{cm}}^{-3}}\right)$ </td><td>5.5</td><td>5.32</td></tr><tr><td>氧化物</td><td> ${\mathrm{MO}}_{2}$ </td><td> ${\mathrm{GeO}}_{2}$ </td></tr><tr><td>氧化物的密度 $\left( {\mathrm{g} \cdot {\mathrm{cm}}^{-3}}\right)$ </td><td>4.7</td><td>4.72</td></tr><tr><td>氯化物</td><td> ${\mathrm{MCI}}_{4}$ </td><td> ${\mathrm{GeCl}}_{4}$ </td></tr><tr><td>氯化物的沸点°C</td><td>&lt;100</td><td>84</td></tr></table>
 
 ## 练习与应用
 
@@ -3344,7 +3344,7 @@ D. 等物质的量的 $O_{2}$ 和 $O_{3}$ 含有相同的质子数
 
 （1）查阅资料，填写下表中的空白。
 
-<table><tr><td rowspan="2">元素名称</td><td rowspan="2">元素符号</td><td rowspan="2">核电荷数</td><td rowspan="2">原子结构示意图</td><td colspan="3">单质</td><td colspan="3">氢化物</td><td rowspan="2">氧化物的化学式</td><td rowspan="2">氧化物的水化物的化学式</td></tr><tr><td>熔点/°C</td><td>沸点/°C</td><td>密度 $\left( {\mathrm{g} \cdot {\mathrm{{cm}}}^{-3}}\right)$ </td><td>化学式</td><td>化合条件</td><td>稳定性变化规律</td></tr><tr><td>氧</td><td>O</td><td>8</td><td></td><td></td><td></td><td></td><td> ${\mathrm{H}}_{2}\mathrm{O}$ </td><td>点燃</td><td rowspan="4"></td><td>—</td><td>—</td></tr><tr><td>硫</td><td>S</td><td>16</td><td></td><td></td><td></td><td></td><td></td><td>加热</td><td> ${\mathrm{{SO}}}_{2}$  ${\mathrm{{SO}}}_{3}$ </td><td></td></tr><tr><td>硒</td><td>Se</td><td>34</td><td></td><td>217</td><td>684.9</td><td>4.81</td><td></td><td>加热</td><td></td><td></td></tr><tr><td>碲</td><td>Te</td><td>52</td><td>+52 28 18 18 6</td><td>452</td><td>1 390</td><td>6.25</td><td></td><td>不直接化合</td><td></td><td></td></tr></table>
+<table><tr><td rowspan="2">元素名称</td><td rowspan="2">元素符号</td><td rowspan="2">核电荷数</td><td rowspan="2">原子结构示意图</td><td colspan="3">单质</td><td colspan="3">氢化物</td><td rowspan="2">氧化物的化学式</td><td rowspan="2">氧化物的水化物的化学式</td></tr><tr><td>熔点/°C</td><td>沸点/°C</td><td>密度 $\left( {\mathrm{g} \cdot {\mathrm{cm}}^{-3}}\right)$ </td><td>化学式</td><td>化合条件</td><td>稳定性变化规律</td></tr><tr><td>氧</td><td>O</td><td>8</td><td></td><td></td><td></td><td></td><td> ${\mathrm{H}}_{2}\mathrm{O}$ </td><td>点燃</td><td rowspan="4"></td><td>—</td><td>—</td></tr><tr><td>硫</td><td>S</td><td>16</td><td></td><td></td><td></td><td></td><td></td><td>加热</td><td> ${\mathrm{SO}}_{2}$  ${\mathrm{SO}}_{3}$ </td><td></td></tr><tr><td>硒</td><td>Se</td><td>34</td><td></td><td>217</td><td>684.9</td><td>4.81</td><td></td><td>加热</td><td></td><td></td></tr><tr><td>碲</td><td>Te</td><td>52</td><td>+52 28 18 18 6</td><td>452</td><td>1 390</td><td>6.25</td><td></td><td>不直接化合</td><td></td><td></td></tr></table>
 
 （2）根据上表中的数据，找出氧、硫、硒、碲的熔点、沸点和密度的变化规律。
 

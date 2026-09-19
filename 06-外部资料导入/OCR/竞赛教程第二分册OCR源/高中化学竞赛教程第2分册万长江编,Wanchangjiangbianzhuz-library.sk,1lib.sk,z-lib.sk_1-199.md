@@ -105,7 +105,7 @@ $$
 
 在 $340 \mathrm{~K}$ 测得实验数据如下
 
-<table><tr><td>t/min</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td> $c(N_2O_5)/(mol·L^{-1})$ </td><td>1.00</td><td>0.70</td><td>0.50</td><td>0.35</td><td>0.25</td><td>0.17</td></tr></table>
+<table><tr><td>t/min</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td> $c(N_2O_5)/(\mathrm{mol}·\mathrm{L}^{-1})$ </td><td>1.00</td><td>0.70</td><td>0.50</td><td>0.35</td><td>0.25</td><td>0.17</td></tr></table>
 
 试计算该反应进行 1 min 和 3 min 时的反应速率。
 
@@ -160,7 +160,7 @@ $$
 \upsilon = k \cdot c _ {\mathrm{A}} ^ {a} \cdot c _ {\mathrm{B}} ^ {b}
 $$
 
-称为该反应的速率方程。式中 k 为速率常数，其意义是当各反应物浓度为 $1 \, mol \cdot L^{-1}$ 时的反应速率。
+称为该反应的速率方程。式中 k 为速率常数，其意义是当各反应物浓度为 $1 \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ 时的反应速率。
 
 对于速率常数 $k$ ，应注意：
 
@@ -228,7 +228,7 @@ $$
 
 在一定的温度下,实验测得下列数据
 
-<table><tr><td>实验编号</td><td> $c(H_2PO_2^-)/(mol·L^{-1})$ </td><td> $c(OH^-)/(mol·L^{-1})$ </td><td> $v/(mol·L^{-1}·s^{-1})$ </td></tr><tr><td>1</td><td>0.10</td><td>0.10</td><td> $5.30×10^{-9}$ </td></tr><tr><td>2</td><td>0.50</td><td>0.10</td><td> $2.67×10^{-8}$ </td></tr><tr><td>3</td><td>0.50</td><td>0.40</td><td> $4.25×10^{-7}$ </td></tr></table>
+<table><tr><td>实验编号</td><td> $c(H_2PO_2^-)/(\mathrm{mol}·\mathrm{L}^{-1})$ </td><td> $c(OH^-)/(\mathrm{mol}·\mathrm{L}^{-1})$ </td><td> $v/(\mathrm{mol}·\mathrm{L}^{-1}·\mathrm{s}^{-1})$ </td></tr><tr><td>1</td><td>0.10</td><td>0.10</td><td> $5.30×10^{-9}$ </td></tr><tr><td>2</td><td>0.50</td><td>0.10</td><td> $2.67×10^{-8}$ </td></tr><tr><td>3</td><td>0.50</td><td>0.40</td><td> $4.25×10^{-7}$ </td></tr></table>
 
 试求:(1) 速率方程式;
 
@@ -240,7 +240,7 @@ $$
 
 非基元反应必须通过实验来确定其速率方程式。本题介绍一种比较简单的由实验确立速率方程式的方法——改变物质数量比例法。
 
-(1) 设 $x$ 和 $y$ 分别为 ${\mathrm{H}}_{2}{\mathrm{{PO}}}_{2}^{ - }$ 和 ${\mathrm{{OH}}}^{ - }$ 的反应级数,则该反应的速率方程为
+(1) 设 $x$ 和 $y$ 分别为 ${\mathrm{H}}_{2}{\mathrm{PO}}_{2}^{ - }$ 和 ${\mathrm{OH}}^{ - }$ 的反应级数,则该反应的速率方程为
 
 $$
 v = k \cdot c ^ {x} (\mathrm{H} _ {2} \mathrm{PO} _ {2} ^ {-}) \cdot c ^ {y} (\mathrm{OH} ^ {-})
@@ -302,7 +302,7 @@ $$
 \begin{array}{r l} V & = 5.3 \times 10 ^ {- 6} \mathrm{mol} \cdot \mathrm{L} ^ {- 1} \cdot \mathrm{s} ^ {- 1} \times 10 \mathrm{L} \times 2.0 \mathrm{s} \times 22.4 \times 10 ^ {3} \mathrm{mL} \cdot \mathrm{mol} ^ {- 1} \\ & = 2.4 \mathrm{mL} \end{array}
 $$
 
-参考解答 (1) 速率方程式为 $v = {kc}\left( {{\mathrm{H}}_{2}{\mathrm{{PO}}}_{2}^{ - }}\right)  \cdot  {c}^{2}\left( {\mathrm{{OH}}}^{ - }\right)$
+参考解答 (1) 速率方程式为 $v = {kc}\left( {{\mathrm{H}}_{2}{\mathrm{PO}}_{2}^{ - }}\right)  \cdot  {c}^{2}\left( {\mathrm{OH}}^{ - }\right)$
 
 (2) 速率常数 $k = 5.3 \times 10^{-6} \mathrm{~L}^{2} \cdot \mathrm{mol}^{-2} \cdot \mathrm{s}^{-1}$
 
@@ -520,7 +520,7 @@ $$
 [ \mathrm{CO} ] = b \mathrm{mol} \cdot \mathrm{L} ^ {- 1}, [ \mathrm{H} _ {2} \mathrm{O} ] = 3 b \mathrm{mol} \cdot \mathrm{L} ^ {- 1}
 $$
 
-平衡时反应已消耗的物质的浓度为 $y \, mol \cdot L^{-1}$ ，则
+平衡时反应已消耗的物质的浓度为 $y \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ ，则
 
 $$
 \mathrm{CO(g)} + \mathrm {H_ {2} O(g)} \rightleftharpoons \mathrm {H_ {2} (g)} + \mathrm {CO_ {2} (g)}
@@ -563,7 +563,7 @@ $$
 
 ![](高中化学竞赛教程第2分册万长江编,Wanchangjiangbianzhuz-library.sk,1lib.sk,z-lib.sk_1-199_images/6dd912b7dc62495c7326a72ac10fc616e9735a6428b27fcb2e9f034ef2594331.jpg)
 
-【例1】（2002年全国初赛）Xe 和 $F_{2}$ 反应，可得三种氟化物，视反应条件而定。右图表述的是将 $0.125 \, mol \cdot L^{-1} \, Xe$ 和 $1.225 \, mol \cdot L^{-1} \, F_{2}$ 作为始态得到的生成物在平衡体系内的分压与反应温度的关系。
+【例1】（2002年全国初赛）Xe 和 $F_{2}$ 反应，可得三种氟化物，视反应条件而定。右图表述的是将 $0.125 \, \mathrm{mol} \cdot \mathrm{L}^{-1} \, Xe$ 和 $1.225 \, \mathrm{mol} \cdot \mathrm{L}^{-1} \, F_{2}$ 作为始态得到的生成物在平衡体系内的分压与反应温度的关系。
 
 (1) 应在什么温度下制备 $\mathrm{XeF}_{6}$ 和 $\mathrm{XeF}_{4}$ ?
 
@@ -631,7 +631,7 @@ $$
 n (\mathrm{H} _ {2} \mathrm{O}) = \frac {0.30}{1.49} \approx 0.20 \mathrm{mol}
 $$
 
-所以当 0.30 mol Fe 完全反应时共需 $H_{2}O(g)$ 为: $0.20 + 0.30 = 0.50 \, mol$
+所以当 0.30 mol Fe 完全反应时共需 $H_{2}O(g)$ 为: $0.20 + 0.30 = 0.50 \, \mathrm{mol}$
 
 现有 1.00 mol 水蒸气, 故铁粉可完全反应。此时各组分的物质的量分别为:
 
@@ -777,7 +777,7 @@ $$
 
 参考解答 (1) $\mathrm{CH}_4(\mathrm{g}) + \mathrm{H}_2\mathrm{O}(\mathrm{g}) \longrightarrow \mathrm{CO}(\mathrm{g}) + 3\mathrm{H}_2(\mathrm{g}), \mathrm{CO}(\mathrm{g}) + 2\mathrm{H}_2(\mathrm{g}) \longrightarrow \mathrm{CH}_3\mathrm{OH}(\mathrm{g})$
 
-(2) 经步骤 A 后过量的 $H_{2}O(g)$ 为 $2.98 \times 10^{3} \, mol$ ，经步骤 B 后剩余的 $H_{2}$ 为 $5.55 \times 10^{3} \, mol$
+(2) 经步骤 A 后过量的 $H_{2}O(g)$ 为 $2.98 \times 10^{3} \, \mathrm{mol}$ ，经步骤 B 后剩余的 $H_{2}$ 为 $5.55 \times 10^{3} \, \mathrm{mol}$
 
 (3) $p(\mathrm{CO}) = 1.25\mathrm{MPa}, p(\mathrm{H}_2) = 6.25\mathrm{MPa}, p(\mathrm{CH}_3\mathrm{OH}) = 2.50\mathrm{MPa}$
 
@@ -836,7 +836,7 @@ D. $1100^{\circ}$ C 时,此反应的 K 值可能为 0.9
 
 7 一定温度下,按下式发生分解反应: $N_{2}O_{5}(g) \rightleftharpoons 2NO_{2}(g) + 1/2O_{2}(g)$ 实验测得的数据如下表:
 
-<table><tr><td>时间/s</td><td>0</td><td>500</td><td>1000</td><td>1500</td><td>2000</td><td>2500</td><td>3000</td></tr><tr><td> $c(N_2O_5)/(mol·L^{-1})$ </td><td>5.00</td><td>3.52</td><td>2.4</td><td>1.75</td><td>1.23</td><td>0.87</td><td>0.61</td></tr></table>
+<table><tr><td>时间/s</td><td>0</td><td>500</td><td>1000</td><td>1500</td><td>2000</td><td>2500</td><td>3000</td></tr><tr><td> $c(N_2O_5)/(\mathrm{mol}·\mathrm{L}^{-1})$ </td><td>5.00</td><td>3.52</td><td>2.4</td><td>1.75</td><td>1.23</td><td>0.87</td><td>0.61</td></tr></table>
 
 (1) 求各时间间隔内 $N_{2}O_{5}$ 分解的平均反应速率。
 
@@ -882,7 +882,7 @@ D
 
 ⑫ 已知某温度下反应 $\mathrm{N}_{2}\mathrm{O}_{4}(\mathrm{~g})\rightleftharpoons2\mathrm{NO}_{2}(\mathrm{~g})$ 的平衡常数 $K_{p}=\frac{\left[p(\mathrm{NO}_{2})\right]^{2}}{p(\mathrm{N}_{2}\mathrm{O}_{4})}$ 。
 
-(1) 现有总压 $1 \, atm$ 下 $NO_{2}$ 和 $N_{2}O_{4}$ 的混合气体, 其密度为同状态下 $H_{2}$ 密度的 34.5 倍, 求平衡常数 $K_{p}$ 。
+(1) 现有总压 $1 \, \mathrm{atm}$ 下 $NO_{2}$ 和 $N_{2}O_{4}$ 的混合气体, 其密度为同状态下 $H_{2}$ 密度的 34.5 倍, 求平衡常数 $K_{p}$ 。
 
 (2) 如将这些气体全部用水吸收转变为 $HNO_{3}$ ，需用同压下几倍体积的 $O_{2}$ ?
 
@@ -949,7 +949,7 @@ $$
 
 $K = 6.8 \times 10^{-3} \times 1.98 \times 10^{10} = 1.3 \times 10^{8}$ ，是完全反应，因此副反应一定会发生。
 
-(4) 设有 $1\mathrm{{mol}}\mathrm{{CO}}$ 、 $3\mathrm{{mol}}{\mathrm{H}}_{2}$ 反应,主反应完全发生,副反应生成 ${\mathrm{H}}_{2}\mathrm{y}\mathrm{{mol}}$
+(4) 设有 $1\mathrm{mol}\mathrm{CO}$ 、 $3\mathrm{mol}{\mathrm{H}}_{2}$ 反应,主反应完全发生,副反应生成 ${\mathrm{H}}_{2}\mathrm{y}\mathrm{mol}$
 
 $$
 \mathrm{CO(g)} + 3 \mathrm {H_ {2} (g)} \rightleftharpoons \mathrm {CH_ {4} (g)} + \mathrm {H_ {2} O(g)}
@@ -985,7 +985,7 @@ $$
 4 \mathrm{NO} _ {2} + \mathrm{O} _ {2} + 2 \mathrm{H} _ {2} \mathrm{O} \longrightarrow 4 \mathrm{HNO} _ {3}
 $$
 
-需 $O_{2}$ 的物质的量为 0.75 mol，即需 $\frac{0.75\ mol}{2\ mol}=0.375$ 倍体积的 $O_{2}$ 。
+需 $O_{2}$ 的物质的量为 0.75 mol，即需 $\frac{0.75\ \mathrm{mol}}{2\ \mathrm{mol}}=0.375$ 倍体积的 $O_{2}$ 。
 
 (3) 设初始时有 $2 \mathrm{~mol} \mathrm{N}_{2} \mathrm{O}_{4} 、 1 \mathrm{~mol} \mathrm{O}_{2}$ , 反应掉 $x \mathrm{~mol} \mathrm{N}_{2} \mathrm{O}_{4}$ 。
 
@@ -1079,7 +1079,7 @@ $$
 \mathrm{H} _ {3} \mathrm{PO} _ {4} + \mathrm{S} ^ {2 -} \longrightarrow \mathrm{HS} ^ {-} + \mathrm{H} _ {2} \mathrm{PO} _ {4} ^ {-}
 $$
 
-(3) ${\mathrm{{OH}}}^{ - }$ 是最强碱, ${\mathrm{{SO}}}_{4}^{2 - }$ 是相当弱的碱,所以反应方向为:
+(3) ${\mathrm{OH}}^{ - }$ 是最强碱, ${\mathrm{SO}}_{4}^{2 - }$ 是相当弱的碱,所以反应方向为:
 
 $$
 \mathrm{HSO} _ {4} ^ {-} + \mathrm{OH} ^ {-} \longrightarrow \mathrm{H} _ {2} \mathrm{O} + \mathrm{SO} _ {4} ^ {2 -}
@@ -1223,7 +1223,7 @@ $Ac^{-}$ 增多,使平衡左移,HAc的电离度减小。
 
 缓冲溶液指能够抵抗外来少量酸碱的影响和较多水的稀释的影响,保持体系 pH 值变化不大的溶液。
 
-如向 1 L 含 $0.10 \, mol \cdot L^{-1}$ 的 HCN 和 $0.10 \, mol \cdot L^{-1}$ NaCN 的混合溶液中 (pH = 9.40)，加入 $0.010 \, mol \, HCl$ 时，pH 变为 9.31；加入 $0.010 \, mol \, NaOH$ 时，pH 变为 9.49；用水稀释，体积扩大 10 倍时，pH 基本不变。
+如向 1 L 含 $0.10 \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ 的 HCN 和 $0.10 \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ NaCN 的混合溶液中 (pH = 9.40)，加入 $0.010 \, \mathrm{mol} \, HCl$ 时，pH 变为 9.31；加入 $0.010 \, \mathrm{mol} \, NaOH$ 时，pH 变为 9.49；用水稀释，体积扩大 10 倍时，pH 基本不变。
 
 可以认为, $0.10 \mathrm{~mol} \cdot \mathrm{L}^{- 1} \mathrm{HCN}$ 和 $0.10 \mathrm{~mol} \cdot \mathrm{L}^{- 1} \mathrm{NaCN}$ 的混合溶液是一种缓冲溶液, 可以维持体系的 $\mathrm{pH}$ 值为 9.40 左右。
 
@@ -1273,7 +1273,7 @@ $$
 \mathrm{pH} = 9.25 + \lg \frac {0.20 \times 200 + 0.10 \times 20}{0.10 \times 300 - 0.10 \times 20} = 9.43
 $$
 
-可见,加入 $20 \, mL \, 0.10 \, mol \cdot L^{-1} \, NaOH$ 后,溶液的 pH 由 9.37 增大为 9.43, pH 增加了 0.06,结果表明缓冲溶液具有抵抗外来少量强碱的能力。
+可见,加入 $20 \, \mathrm{mL} \, 0.10 \, \mathrm{mol} \cdot \mathrm{L}^{-1} \, NaOH$ 后,溶液的 pH 由 9.37 增大为 9.43, pH 增加了 0.06,结果表明缓冲溶液具有抵抗外来少量强碱的能力。
 
 (4) 加入 $100 \mathrm{~mL} \mathrm{H}_{2} \mathrm{O}$ 后, 缓冲溶液中共轭酸碱的浓度同时降低, 而共轭酸、碱的物质的量和缓冲比不变, 据公式可知, $\mathrm{pH}$ 基本不变, 说明缓冲溶液具有抵抗稀释的作用。
 
@@ -1295,7 +1295,7 @@ $$
 V (\mathrm{NH} _ {4} ^ {+}) = 64 \mathrm{mL}, V (\mathrm{NH} _ {3}) = 100 - 64 = 36 \mathrm{mL}
 $$
 
-参考解答 按计算结果,量取 $0.10 \, mol \cdot L^{-1}$ 的 $NH_{4}Cl$ 溶液 64 mL 和 $0.10 \, mol \cdot L^{-1}$ 的 $NH_{3}$ 溶液 36 mL,混合均匀即可得所需的缓冲溶液,如有必要,可用 pH 计校正。
+参考解答 按计算结果,量取 $0.10 \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ 的 $NH_{4}Cl$ 溶液 64 mL 和 $0.10 \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ 的 $NH_{3}$ 溶液 36 mL,混合均匀即可得所需的缓冲溶液,如有必要,可用 pH 计校正。
 
 ## 4. 酸碱指示剂
 
@@ -1495,7 +1495,7 @@ $$
 [ \mathrm{OH} ^ {-} ] ^ {2} + K _ {\mathrm{b}} [ \mathrm{OH} ^ {-} ] - 0.05 K _ {\mathrm{b}} = 0
 $$
 
-解一元二次方程, 得 $\left[OH^{-}\right]=2.4\times10^{-2}\ mol\cdot L^{-1}$ ,
+解一元二次方程, 得 $\left[OH^{-}\right]=2.4\times10^{-2}\ \mathrm{mol}\cdot \mathrm{L}^{-1}$ ,
 
 $$
 \mathrm{pH} = \mathrm{pK} _ {\mathrm{w}} - (- \lg [ \mathrm{OH} ^ {-} ]) = 12.38
@@ -1563,11 +1563,11 @@ $$
 
 在平衡时 $H^{+}$ 、 $Ac^{-}$ 和 HAc 浓度的比值是一个常数, 称为电离常数 $K_{HAc}$ , $K_{HAc} = \frac{[H^{+}][Ac^{-}]}{[HAc]} \approx \frac{[H^{+}]^{2}}{c}$
 
-式中 $\left[H^{+}\right]$ 、 $\left[Ac^{-}\right]$ 和 $\left[HAc\right]$ 分别为平衡浓度，c 为 HAc 的起始浓度。通过对已知浓度的醋酸溶液的 pH 值测定，即可求出电离平衡常数。用移液管和吸量管分别移取 50.00 mL、25.00 mL、10.00 mL 和 5.00 mL HAc 溶液（浓度为 $0.1954 \, mol \cdot L^{-1}$ ）于四个已编号的 100.00 mL 容量瓶中，用蒸馏水稀释至刻度摇匀，即得不同浓度的一系列 HAc 溶液。用 pH 计测定 pH 值，记录实验时的室温。完成下列问题：
+式中 $\left[H^{+}\right]$ 、 $\left[Ac^{-}\right]$ 和 $\left[HAc\right]$ 分别为平衡浓度，c 为 HAc 的起始浓度。通过对已知浓度的醋酸溶液的 pH 值测定，即可求出电离平衡常数。用移液管和吸量管分别移取 50.00 mL、25.00 mL、10.00 mL 和 5.00 mL HAc 溶液（浓度为 $0.1954 \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ ）于四个已编号的 100.00 mL 容量瓶中，用蒸馏水稀释至刻度摇匀，即得不同浓度的一系列 HAc 溶液。用 pH 计测定 pH 值，记录实验时的室温。完成下列问题：
 
 (1) 填写下列表格(第一部分)
 
-<table><tr><td colspan="7">第一部分</td><td colspan="2">第二部分</td></tr><tr><td>编号</td><td>HAc 溶液体积/mL</td><td>稀释后体积/mL</td><td>稀释后浓度 $c/(mol·L^{-1})$ </td><td>pH</td><td> $[H^{+}]/(mol·L^{-1})$ </td><td> $K_{HAc}$ </td><td></td><td></td></tr><tr><td>1</td><td></td><td></td><td>0.009 770</td><td>3.38</td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td></td><td></td><td>0.019 54</td><td>3.23</td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td></td><td></td><td>0.048 85</td><td>3.04</td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td></td><td></td><td>0.097 70</td><td>2.88</td><td></td><td></td><td></td><td></td></tr><tr><td>5</td><td colspan="2">未稀释的溶液</td><td>0.1954</td><td>2.73</td><td></td><td></td><td></td><td></td></tr></table>
+<table><tr><td colspan="7">第一部分</td><td colspan="2">第二部分</td></tr><tr><td>编号</td><td>HAc 溶液体积/mL</td><td>稀释后体积/mL</td><td>稀释后浓度 $c/(\mathrm{mol}·\mathrm{L}^{-1})$ </td><td>pH</td><td> $[H^{+}]/(\mathrm{mol}·\mathrm{L}^{-1})$ </td><td> $K_{HAc}$ </td><td></td><td></td></tr><tr><td>1</td><td></td><td></td><td>0.009 770</td><td>3.38</td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td></td><td></td><td>0.019 54</td><td>3.23</td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td></td><td></td><td>0.048 85</td><td>3.04</td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td></td><td></td><td>0.097 70</td><td>2.88</td><td></td><td></td><td></td><td></td></tr><tr><td>5</td><td colspan="2">未稀释的溶液</td><td>0.1954</td><td>2.73</td><td></td><td></td><td></td><td></td></tr></table>
 
 (2) 根据计算结果, 评价 $K_{\mathrm{HAc}}$ 和浓度的关系。
 
@@ -1579,7 +1579,7 @@ $$
 
 HAc起始浓度 $c = 0.1954 \mathrm{~mol} \cdot \mathrm{L}^{-1}$ , 稀释后溶液的体积均为 $100 \mathrm{~mL}$ , 如 $5.00 \mathrm{~mL}$ 醋酸稀释到 $100 \mathrm{~mL}$ , 溶液体积增大 20 倍, 则浓度稀释到原来的 $1/20$ , 即 $c = 0.1954 / 20 = 0.009770 \mathrm{~mol} \cdot \mathrm{L}^{-1}$ , 此时表中给出的 $\mathrm{pH} = 3.38$ , 即 $[\mathrm{H}^{+}] = 4.17 \times 10^{-4} \mathrm{~mol} \cdot \mathrm{L}^{-1}$ , 根据醋酸电离常数的定义, 得: $K_{\mathrm{HAc}} = \frac{[\mathrm{H}^{+}][\mathrm{Ac}^{-}]}{[\mathrm{HAc}]} \approx \frac{[\mathrm{H}^{+}]^{2}}{c}$ , 将数据代入得: $K_{\mathrm{HAc}} = 1.78 \times 10^{-5}$ , 同理可以得出其他的数据。
 
-<table><tr><td colspan="7">第一部分</td><td colspan="2">第二部分</td></tr><tr><td>编号</td><td>HAc 溶液体积/mL</td><td>稀释后体积/mL</td><td>稀释后浓度 $c/(mol·L^{-1})$ </td><td>pH</td><td> $[H^{+}]/(mol·L^{-1})$ </td><td> $K_{HAc}$ </td><td>lg c</td><td>2pH</td></tr><tr><td>1</td><td>5.00</td><td>100.00</td><td>0.009 770</td><td>3.38</td><td> $4.17×10^{-4}$ </td><td> $1.78×10^{-5}$ </td><td>-2.01</td><td>6.76</td></tr><tr><td>2</td><td>10.00</td><td>100.00</td><td>0.019 54</td><td>3.23</td><td> $5.89×10^{-4}$ </td><td> $1.78×10^{-5}$ </td><td>-1.71</td><td>6.46</td></tr><tr><td>3</td><td>25.00</td><td>100.00</td><td>0.048 85</td><td>3.04</td><td> $9.12×10^{-4}$ </td><td> $1.70×10^{-5}$ </td><td>-1.31</td><td>6.08</td></tr><tr><td>编号</td><td>HAc 溶液体积/mL</td><td>稀释后体积/mL</td><td>稀释后浓度c/(mol·L-1)</td><td>pH</td><td>[H+]/(mol·L-1)</td><td>KHAc</td><td>lg c</td><td>2pH</td></tr><tr><td>4</td><td>50.00</td><td>100.00</td><td>0.097 70</td><td>2.88</td><td>1.32×10-3</td><td>1.78×10-5</td><td>-1.01</td><td>5.76</td></tr><tr><td>5</td><td colspan="2">未稀释的溶液</td><td>0.1954</td><td>2.73</td><td>1.86×10-3</td><td>1.77×10-5</td><td>-0.709</td><td>5.46</td></tr></table>
+<table><tr><td colspan="7">第一部分</td><td colspan="2">第二部分</td></tr><tr><td>编号</td><td>HAc 溶液体积/mL</td><td>稀释后体积/mL</td><td>稀释后浓度 $c/(\mathrm{mol}·\mathrm{L}^{-1})$ </td><td>pH</td><td> $[H^{+}]/(\mathrm{mol}·\mathrm{L}^{-1})$ </td><td> $K_{HAc}$ </td><td>lg c</td><td>2pH</td></tr><tr><td>1</td><td>5.00</td><td>100.00</td><td>0.009 770</td><td>3.38</td><td> $4.17×10^{-4}$ </td><td> $1.78×10^{-5}$ </td><td>-2.01</td><td>6.76</td></tr><tr><td>2</td><td>10.00</td><td>100.00</td><td>0.019 54</td><td>3.23</td><td> $5.89×10^{-4}$ </td><td> $1.78×10^{-5}$ </td><td>-1.71</td><td>6.46</td></tr><tr><td>3</td><td>25.00</td><td>100.00</td><td>0.048 85</td><td>3.04</td><td> $9.12×10^{-4}$ </td><td> $1.70×10^{-5}$ </td><td>-1.31</td><td>6.08</td></tr><tr><td>编号</td><td>HAc 溶液体积/mL</td><td>稀释后体积/mL</td><td>稀释后浓度c/(mol·L-1)</td><td>pH</td><td>[H+]/(mol·L-1)</td><td>KHAc</td><td>lg c</td><td>2pH</td></tr><tr><td>4</td><td>50.00</td><td>100.00</td><td>0.097 70</td><td>2.88</td><td>1.32×10-3</td><td>1.78×10-5</td><td>-1.01</td><td>5.76</td></tr><tr><td>5</td><td colspan="2">未稀释的溶液</td><td>0.1954</td><td>2.73</td><td>1.86×10-3</td><td>1.77×10-5</td><td>-0.709</td><td>5.46</td></tr></table>
 
 (2) 从计算可以看出, $K_{HAc}$ 与浓度的变化关系不大, 即电离常数不是浓度的函数。
 
@@ -1593,7 +1593,7 @@ HAc起始浓度 $c = 0.1954 \mathrm{~mol} \cdot \mathrm{L}^{-1}$ , 稀释后溶�
 
 ![](高中化学竞赛教程第2分册万长江编,Wanchangjiangbianzhuz-library.sk,1lib.sk,z-lib.sk_1-199_images/570eca4bea5847b6ff82d44652180f7a5b095e7db5d7a188c3d0b4085e5d5af8.jpg)
 
-1 把 $0.2 \, mol \cdot L^{-1}$ 的偏铝酸钠溶液和 $0.4 \, mol \cdot L^{-1}$ 的盐酸溶液等体积混合，混合溶液中离子浓度由大到小的顺序正确的是()。
+1 把 $0.2 \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ 的偏铝酸钠溶液和 $0.4 \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ 的盐酸溶液等体积混合，混合溶液中离子浓度由大到小的顺序正确的是()。
 
 A. $c(\mathrm{Cl}^{-}) > c(\mathrm{Al}^{3+}) > c(\mathrm{Na}^{+}) > c(\mathrm{H}^{+}) > c(\mathrm{OH}^{-})$ B. $c(\mathrm{Cl}^{-}) > c(\mathrm{Al}^{3+}) > c(\mathrm{Na}^{+}) > c(\mathrm{OH}^{-}) > c(\mathrm{H}^{+})$ C. $c(\mathrm{Cl}^{-}) > c(\mathrm{Na}^{+}) > c(\mathrm{Al}^{3+}) > c(\mathrm{H}^{+}) > c(\mathrm{OH}^{-})$ D. $c(\mathrm{Na}^{+}) > c(\mathrm{Cl}^{-}) > c(\mathrm{Al}^{3+}) > c(\mathrm{OH}^{-}) > c(\mathrm{H}^{+})$
 
@@ -1611,7 +1611,7 @@ D. 在 100 mL 0.25 mol · L⁻¹ DCI 的 D₂O 溶液中，加入 50 mL 0.2 mol 
 A. $\mathrm{NaHB} + \mathrm{H}_{2}\mathrm{A} \longrightarrow \mathrm{H}_{2}\mathrm{B} + \mathrm{NaHA}$ B. $\mathrm{Na}_{2}\mathrm{B} + \mathrm{H}_{2}\mathrm{A} \longrightarrow \mathrm{H}_{2}\mathrm{B} + \mathrm{Na}_{2}\mathrm{A}$ C. $\mathrm{H}_{2}\mathrm{B} + \mathrm{Na}_{2}\mathrm{A} \longrightarrow \mathrm{NaHB} + \mathrm{NaHA}$ D. $\mathrm{H}_{2}\mathrm{B} + \mathrm{NaHA} \longrightarrow \mathrm{NaHB} + \mathrm{H}_{2}\mathrm{A}$
 
 5 常温下 20 mL pH=10 的 NaOH 溶液中, 加入 pH=4 的一元酸 HR 溶液至 pH 刚好等于 7 (假设反应前后稀溶液体积可直接相加)。则对反应后溶液的叙述正确的是 ( $V_{总}$ 为溶液总体积) ( )。
-A. $c(\mathrm{H}^{+}) = c(\mathrm{OH}^{-}) < c(\mathrm{Na}^{+}) < c(\mathrm{R}^{-})$ B. $V_{总} \geqslant 40 \, mL$ C. $c(R^{-}) = c(Na^{+})$ D. $V_{总} \leqslant 40 \, mL$
+A. $c(\mathrm{H}^{+}) = c(\mathrm{OH}^{-}) < c(\mathrm{Na}^{+}) < c(\mathrm{R}^{-})$ B. $V_{总} \geqslant 40 \, \mathrm{mL}$ C. $c(R^{-}) = c(Na^{+})$ D. $V_{总} \leqslant 40 \, \mathrm{mL}$
 
 6 缓冲溶液可以由浓度较大的弱酸及其相应的盐溶液组成,其溶液能够保持稳定的 $\mathrm{pH}$ 值,溶液 $\mathrm{pH}$ 的计算公式为: $\mathrm{pH} = \mathrm{pK}_{\mathrm{a}} + \lg \frac{C_{\text {盐}}}{C_{\text {弱酸}}}$ ,其中 $K_{\mathrm{a}}$ 为弱酸的电离常数。相应地,由弱碱及其相应的盐溶液组成的缓冲溶液,其 $\mathrm{pOH} =$ $pK_{b} + \lg \frac{c_{盐}}{c_{弱碱}}$ 。试就 HAc-NaAc 缓冲体系，回答下列问题：
 
@@ -1635,7 +1635,7 @@ $$
 
 9 根据酸碱质子理论,“凡是能给出质子( $\mathrm{H}^{+}$ )的分子或离子都是酸;凡是能结合质子的分子或离子都是碱”,按这个理论,下列微粒:
 
-① ${\mathrm{{HS}}}^{ - }$ ,② ${\mathrm{{CO}}}_{3}^{2 - }$ ,③ ${\mathrm{{HPO}}}_{4}^{2 - }$ ,④ ${\mathrm{{NH}}}_{3}$ ,⑤ ${\mathrm{{OH}}}^{ - }$ ,⑥ ${\mathrm{H}}_{2}\mathrm{O}$ ,⑦ ${\mathrm{{HCO}}}_{3}^{ - }$ ,
+① ${\mathrm{HS}}^{ - }$ ,② ${\mathrm{CO}}_{3}^{2 - }$ ,③ ${\mathrm{HPO}}_{4}^{2 - }$ ,④ ${\mathrm{NH}}_{3}$ ,⑤ ${\mathrm{OH}}^{ - }$ ,⑥ ${\mathrm{H}}_{2}\mathrm{O}$ ,⑦ ${\mathrm{HCO}}_{3}^{ - }$ ,
 
 ⑧HAc, ⑨KHSO $_{4}$
 
@@ -1693,7 +1693,7 @@ $$
 
 <table><tr><td> $V_1$ 和 $V_2$ </td><td> $V_1 \neq 0$  $V_2 = 0$ </td><td> $V_1 = 0$  $V_2 \neq 0$ </td><td> $V_1 = V_2 \neq 0$ </td><td> $V_1 > V_2 > 0$ </td><td> $V_2 > V_1 > 0$ </td></tr><tr><td>试样成分</td><td></td><td></td><td></td><td></td><td></td></tr></table>
 
-(2) 若称取 1.200 g 含杂质的试样(杂质不与盐酸反应), 配制成 100.00 mL 溶液, 取出 20.00 mL 溶液, 用 0.100 mol·L $^{-1}$ 的标准盐酸滴定, 测得 $V_{1} = 35.00 \, mL$ , $V_{2} = 5.00 \, mL$ 。求试样的成分及质量分数。
+(2) 若称取 1.200 g 含杂质的试样(杂质不与盐酸反应), 配制成 100.00 mL 溶液, 取出 20.00 mL 溶液, 用 0.100 mol·L $^{-1}$ 的标准盐酸滴定, 测得 $V_{1} = 35.00 \, \mathrm{mL}$ , $V_{2} = 5.00 \, \mathrm{mL}$ 。求试样的成分及质量分数。
 
 14 碳的化合物十分常见,回答下列几个问题:
 
@@ -1701,7 +1701,7 @@ $$
 
 (2) 已知从手册中查出的 $H_{2}CO_{3}$ 的 $K_{a_{1}} = 4.45 \times 10^{-7}$ ，该数据是 $H_{2}CO_{3}$ 的表观解离常数，在溶液中实际仅有 0.166% 的 $CO_{2}$ 转化为 $H_{2}CO_{3}$ ，求算 $H_{2}CO_{3}$ 真实的第一步解离常数。
 
-15 某一元有机弱酸 HA 1.000 g, 溶于适量水后, 用仪器法确定终点, 以 $0.1100 \, mol \cdot L^{-1}$ NaOH 滴定至化学计量点时, 消耗 24.60 mL。当加入 NaOH 溶液 11.00 mL 时, 该溶液的 pH = 4.80。计算该弱酸 HA 的 $pK_{a}$ 值。
+15 某一元有机弱酸 HA 1.000 g, 溶于适量水后, 用仪器法确定终点, 以 $0.1100 \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ NaOH 滴定至化学计量点时, 消耗 24.60 mL。当加入 NaOH 溶液 11.00 mL 时, 该溶液的 pH = 4.80。计算该弱酸 HA 的 $pK_{a}$ 值。
 
 16 1905 年美国化学家富兰克林提出了酸碱的溶剂理论,人们发现许多溶剂都能发生自电离过程,生成特征阳离子和特征阴离子,如 $2 \mathrm{H}_{2} \mathrm{O} \rightleftharpoons \mathrm{H}_{3} \mathrm{O}^{+} + \mathrm{OH}^{-}$ , $2 \mathrm{NH}_{3} \rightleftharpoons \mathrm{NH}_{4}^{+} + \mathrm{NH}_{2}^{-}$ , 溶剂理论认为凡在溶剂中能产生(包括化学反应生成)特征阳离子的物质为溶剂酸,反之为溶剂碱。
 
@@ -1749,11 +1749,11 @@ $$
 
 10. 解析: (1) 材料一说明 $\mathrm{CH}_{3} \mathrm{COOH}$ 和 $\mathrm{NH}_{3} \cdot \mathrm{H}_{2} \mathrm{O}$ 的电离能力相同, 则等浓度的 $\mathrm{CH}_{3} \mathrm{COO}^{-}$ 的水解能力 (结合 $\mathrm{H}^{+}$ 能力) 与 $\mathrm{NH}_{4}^{+}$ 的水解能力 (结合 $\mathrm{OH}^{-}$ 能力) 相同。 $\mathrm{CH}_{3} \mathrm{COONa}$ 溶液的 $\mathrm{pH} = 8.7$ , 则生成的 $c(\mathrm{OH}^{-}) = 10^{-5.3}, \mathrm{NH}_{4} \mathrm{Cl}$ 溶液的 $c(\mathrm{H}^{+}) = 10^{-5.3}$ , 故 $\mathrm{NH}_{4} \mathrm{Cl}$ 溶液的 $\mathrm{pH} = 5.3$ 。
 
-(2) 盐酸滴定 $NH_{3}$ 到达终点时, 其混合液中 $NH_{4}Cl$ 浓度约为 $0.05 \, mol \cdot L^{-1}$ , 故滴定终点时溶液的 pH 为 5.3 左右, 中性红-次甲基蓝混合指示剂的变色点为 7, 故不适合。由于甲基红的变色点为 pH = 5.2, 非常接近 5.3, 故选用甲基红较好, 其终点时, 溶液应由黄色变为橙色。由于酚酞的变色点为 pH = 8, 溶液呈碱性, 而恰好反应时, pH = 5.3, 故用酚酞做指示剂, 造成的误差最大。
+(2) 盐酸滴定 $NH_{3}$ 到达终点时, 其混合液中 $NH_{4}Cl$ 浓度约为 $0.05 \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ , 故滴定终点时溶液的 pH 为 5.3 左右, 中性红-次甲基蓝混合指示剂的变色点为 7, 故不适合。由于甲基红的变色点为 pH = 5.2, 非常接近 5.3, 故选用甲基红较好, 其终点时, 溶液应由黄色变为橙色。由于酚酞的变色点为 pH = 8, 溶液呈碱性, 而恰好反应时, pH = 5.3, 故用酚酞做指示剂, 造成的误差最大。
 
 答案: (1) $\mathrm{pH} = 5.3 \quad \mathrm{CH}_{3} \mathrm{COO}^{-}$ 与 $\mathrm{NH}_{4}^{+}$ 的水解能力(结合 $\mathrm{H}^{+}$ 或 $\mathrm{OH}^{-}$ 的能力)相同 (2) ① 否 指示剂的变色点的 $\mathrm{pH}$ 与终点时盐溶液的 $\mathrm{pH}$ 不一致 ② 甲基红甲基红的变色点为 $\mathrm{pH} = 5.2$ , 非常接近 黄色变为橙色 ③ 酚酞 酚酞的变色点为 $\mathrm{pH} = 8$ , 溶液呈碱性
 
-11. (1) 等物质的量的 HCl 和 $NH_{3} \cdot H_{3}O$ 混合生成等物质的量的 $NH_{4}Cl$ 。 $NH_{4}Cl$ 浓度是 HCl 浓度的一半， $c_{NH_{4}Cl} = \frac{0.10 \times 20}{40} = 0.050 \, mol \cdot L^{-1}$ ，按 $NH_{4}Cl$ 的水解来计算溶液的 pH 值：
+11. (1) 等物质的量的 HCl 和 $NH_{3} \cdot H_{3}O$ 混合生成等物质的量的 $NH_{4}Cl$ 。 $NH_{4}Cl$ 浓度是 HCl 浓度的一半， $c_{NH_{4}Cl} = \frac{0.10 \times 20}{40} = 0.050 \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ ，按 $NH_{4}Cl$ 的水解来计算溶液的 pH 值：
 
 $$
 \begin{array}{r l}&{\mathrm {NH_ {4} ^ {+}} + \mathrm {H_ {2} O\rightleftharpoons NH_ {3} \cdot H_ {3} O+ H^ {+}}}\\{\text {平衡时}}&{0.050 - x \qquad \qquad \qquad x \qquad x}\\&{K _ {\mathrm{h}} = \frac {K _ {\mathrm{w}}}{K _ {\mathrm{b}}} = 5.6 \times 10 ^ {- 10} \qquad \frac {x ^ {2}}{0.050 - x} = 5.6 \times 10 ^ {- 10}}\\&{x = 5.3 \times 10 ^ {- 6} \qquad \mathrm{pH=5.28}}\end{array}
@@ -1919,7 +1919,7 @@ $$
 
 再由 $Ag_{2}CrO_{4}$ 的溶解度求 $Ag^{+}$ 和 $CrO_{4}^{2-}$ 浓度，则可求溶度积。若溶解形成的离子水解明显，如 $CaCO_{3}$ 中 $CO_{3}^{2-}$ ，则 $\left[Ca^{2+}\right] \neq \left[CO_{3}^{2-}\right]$ 不能简单地在溶解度和溶度积间进行换算。但 $K_{\mathrm{sp}}(\mathrm{CaCO}_{3}) = [\mathrm{Ca}^{2+}][\mathrm{CO}_{3}^{2-}]$ 仍是确定的。
 
-参考解答 设稀溶液密度为 $1.0 \, g/mL$ ，可由 $Ag_{2}CrO_{4}(332 \, \text{g/mol})$ 的溶解度求浓度
+参考解答 设稀溶液密度为 $1.0 \, g/\mathrm{mL}$ ，可由 $Ag_{2}CrO_{4}(332 \, \text{g/mol})$ 的溶解度求浓度
 
 $$
 4.3 \times 10 ^ {- 3} \mathrm{g} \times \frac {1000}{100 \mathrm{L}} \div 332 \mathrm{g/mol} = 1.3 \times 10 ^ {- 4} \mathrm{mol} \cdot \mathrm{L} ^ {- 1}
@@ -1949,7 +1949,7 @@ $$
 
 过程探究 难溶强电解质的饱和溶液中,如果加入与该电解质相同的离子,使平衡移动,降低难溶电解质溶解度的效应,称为“同离子效应”。
 
-参考解答 设 $BaSO_{4}$ 在 $NaSO_{4}$ 溶液中的溶解度为 $S\ mol\cdot L^{-1}$ 。沉淀溶解平衡时， $\left[Ba^{2+}\right]=S\ mol\cdot L^{-1},\left[SO_{4}^{2-}\right]=0.01+S\approx0.01\ mol\cdot L^{-1}$ （难溶盐溶解度很小）
+参考解答 设 $BaSO_{4}$ 在 $NaSO_{4}$ 溶液中的溶解度为 $S\ \mathrm{mol}\cdot \mathrm{L}^{-1}$ 。沉淀溶解平衡时， $\left[Ba^{2+}\right]=S\ \mathrm{mol}\cdot \mathrm{L}^{-1},\left[SO_{4}^{2-}\right]=0.01+S\approx0.01\ \mathrm{mol}\cdot \mathrm{L}^{-1}$ （难溶盐溶解度很小）
 
 $$
 [ \mathrm{Ba} ^ {2 +} ] [ \mathrm{SO} _ {4} ^ {2 -} ] = 1.08 \times 10 ^ {- 10} = K _ {\mathrm{sp}}
@@ -2009,7 +2009,7 @@ $$
 
 思考1: 上题假定溶解 SnS 产生的 $\mathrm{S}^{2-}$ 全部转变成 $\mathrm{H}_{2} \mathrm{~S}$ 。实际上应是 $[\mathrm{H}_{2} \mathrm{~S}] + [\mathrm{HS}^{-}] + [\mathrm{S}^{2-}] = 0.010 \mathrm{~mol} \cdot \mathrm{L}^{-1}$ , 那么 $[\mathrm{H}_{2} \mathrm{~S}] \approx 0.010 \mathrm{~mol} \cdot \mathrm{L}^{-1}$ 的近似处理合理吗?
 
-同上题, 还可以求出 0.01 mol 的 CuS 溶于 1.0 L 盐酸中, 所需的盐酸的最低浓度约是 $1.0 \times 10^{9} \, mol \cdot L^{-1}$ 。这种浓度过大, 根本不可能存在。实际上反应 $CuS + 2H^{+} \rightleftharpoons Cu^{2+} + H_{2}S$ 的平衡常数 $K = \frac{K_{sp}}{K_{a_{1}} K_{a_{2}}} = \frac{8.5 \times 10^{-45}}{1.3 \times 10^{-7} \times 7.1 \times 10^{-15}} = 9.2 \times 10^{-24}$ , 平衡常数过小。结论是 CuS 不能溶于盐酸。
+同上题, 还可以求出 0.01 mol 的 CuS 溶于 1.0 L 盐酸中, 所需的盐酸的最低浓度约是 $1.0 \times 10^{9} \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ 。这种浓度过大, 根本不可能存在。实际上反应 $CuS + 2H^{+} \rightleftharpoons Cu^{2+} + H_{2}S$ 的平衡常数 $K = \frac{K_{sp}}{K_{a_{1}} K_{a_{2}}} = \frac{8.5 \times 10^{-45}}{1.3 \times 10^{-7} \times 7.1 \times 10^{-15}} = 9.2 \times 10^{-24}$ , 平衡常数过小。结论是 CuS 不能溶于盐酸。
 
 ## (2) 使相关离子被氧化
 
@@ -2035,11 +2035,11 @@ $$
 
 若一种沉淀剂可使溶液中多种离子产生沉淀时, 则可以控制条件, 使这些离子先后分别沉淀, 这种现象称为分步沉淀。控制溶液的 $\mathrm{pH}$ 值, 可使某种难溶电解质先沉淀, 以达到分离金属离子的目的。例如, $\mathrm{Fe(OH)}_{3}$ 和 $\mathrm{Fe(OH)}_{2}$ 的 $K_{\mathrm{sp}}$ 分别为 $1.10 \times 10^{-36}$ 和 $1.64 \times 10^{-14}$ , 欲使 $0.01 \mathrm{~mol} \cdot \mathrm{L}^{-1}$ 的 $\mathrm{Fe}^{3+}$ 沉淀, 通过计算, 开始沉淀时溶液的 $\mathrm{pH}$ 值为 2.68, 沉淀完全时溶液的 $\mathrm{pH}$ 为 3.68, 而使 $0.01 \mathrm{~mol} \cdot \mathrm{L}^{-1} \mathrm{Fe}^{2+}$ 沉淀完全, 溶液的 $\mathrm{pH}$ 值应是 9.61。因此, 生产上除去溶液中的铁杂质, 常将它先氧化成 $\mathrm{Fe}^{3+}$ , 再调节溶液的 $\mathrm{pH}$ 值, 在较小的 $\mathrm{pH}$ 值, 就能够将它全部沉淀, 完全除去。
 
-【例 4】在含有 $Mn^{2+}$ 、 $Pb^{2+}$ 各 $0.010\ mol\cdot L^{-1}$ 的溶液中通入 $H_{2}S$ 达饱和 ( $H_{2}S$ 浓度为 $0.10\ mol\cdot L^{-1}$ )，问溶液的 $[H^{+}]$ 应控制在何值时，可使 $Mn^{2+}$ 与 $Pb^{2+}$ 分离？已知 $K_{\mathrm{sp}}(\mathrm{MnS})=1.4\times10^{-15}$ ， $K_{\mathrm{sp}}(\mathrm{PbS})=3.4\times10^{-28}$ 。
+【例 4】在含有 $Mn^{2+}$ 、 $Pb^{2+}$ 各 $0.010\ \mathrm{mol}\cdot \mathrm{L}^{-1}$ 的溶液中通入 $H_{2}S$ 达饱和 ( $H_{2}S$ 浓度为 $0.10\ \mathrm{mol}\cdot \mathrm{L}^{-1}$ )，问溶液的 $[H^{+}]$ 应控制在何值时，可使 $Mn^{2+}$ 与 $Pb^{2+}$ 分离？已知 $K_{\mathrm{sp}}(\mathrm{MnS})=1.4\times10^{-15}$ ， $K_{\mathrm{sp}}(\mathrm{PbS})=3.4\times10^{-28}$ 。
 
 过程探究 控制溶液 pH, 则可使溶液中 $\mathrm{S}^{2-}$ 处于一定的浓度范围, 使不同的金属硫化物沉淀或不沉淀, 从而达到分离金属离子的目的。这与调节溶液 pH, 使不同的金属氢氧化物先后沉淀的原理是相同的。
 
-参考解答 $Pb^{2+}$ 完全沉淀时(即 $[Pb^{2+}] < 1.0 \times 10^{-5} \, mol \cdot L^{-1}$ ), 溶液中 $[S^{2-}]$ 至少要达到
+参考解答 $Pb^{2+}$ 完全沉淀时(即 $[Pb^{2+}] < 1.0 \times 10^{-5} \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ ), 溶液中 $[S^{2-}]$ 至少要达到
 
 $$
 [ \mathrm{S} ^ {2 -} ] = \frac {K _ {\mathrm{sp}} (\mathrm{PbS})}{[ \mathrm{Pb} ^ {2 +} ]} = \frac {3.4 \times 10 ^ {- 28}}{1.0 \times 10 ^ {- 5}} = 3.4 \times 10 ^ {- 23} \mathrm{mol} \cdot \mathrm{L} ^ {- 1}
@@ -2125,13 +2125,13 @@ $CaSO_{4}$ 之所以能转化为 $CaCO_{3}$ ，是因为 $CaCO_{3}(K_{\mathrm{sp
 
 ![](高中化学竞赛教程第2分册万长江编,Wanchangjiangbianzhuz-library.sk,1lib.sk,z-lib.sk_1-199_images/67604a703dfbbbebae7a1782c0930f6ba02a9361cbb17022b32a6045279e0084.jpg)
 
-【例 1】（2008 年北京大学自主招生）室温下饱和氯水浓度约为 $0.09 \, mol \cdot L^{-1}$ ，其中约 1/3 的 $Cl_{2}$ 发生了自氧化还原反应。增加饱和溶液中 HClO 浓度的一种方法是：把 $Cl_{2}$ 通入到 $CaCO_{3}$ 悬浊液。请写出反应式并简述理由。
+【例 1】（2008 年北京大学自主招生）室温下饱和氯水浓度约为 $0.09 \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ ，其中约 1/3 的 $Cl_{2}$ 发生了自氧化还原反应。增加饱和溶液中 HClO 浓度的一种方法是：把 $Cl_{2}$ 通入到 $CaCO_{3}$ 悬浊液。请写出反应式并简述理由。
 
 过程探究 本题考查化学平衡移动。由于氯气溶于水发生了两个过程：
 
 ① 氯气分子变成水合氯气分子: $\mathrm{Cl}_{2}(\mathrm{~g}) \rightleftharpoons \mathrm{Cl}_{2}(\mathrm{aq})$ 。该平衡常数即为亨利常数。
 
-② $1/3$ 的水合氯气分子继续反应: ${\mathrm{{Cl}}}_{2} + {\mathrm{H}}_{2}\mathrm{O} \rightleftharpoons  \mathrm{{HCl}} + \mathrm{{HClO}}$
+② $1/3$ 的水合氯气分子继续反应: ${\mathrm{Cl}}_{2} + {\mathrm{H}}_{2}\mathrm{O} \rightleftharpoons  \mathrm{HCl} + \mathrm{HClO}$
 
 当把 $Cl_{2}$ 通入到 $CaCO_{3}$ 悬浊液后,氯水中的盐酸与 $CaCO_{3}$ 反应:
 
@@ -2157,7 +2157,7 @@ $$
 c (\mathrm{Ca} ^ {2 +}) = 1.5 \times 10 ^ {- 6} \mathrm{mol} \cdot \mathrm{L} ^ {- 1}
 $$
 
-则 $C_{2}O_{4}^{2-}$ 的浓度至少约为 $1.5 \times 10^{-3} \, mol \cdot L^{-1}$
+则 $C_{2}O_{4}^{2-}$ 的浓度至少约为 $1.5 \times 10^{-3} \, \mathrm{mol} \cdot \mathrm{L}^{-1}$
 
 故需要的 $\left(\mathrm{NH}_{4}\right)_{2}\mathrm{C}_{2}\mathrm{O}_{4}$ 的质量为 $1.5\times10^{-3}\mathrm{mol}\cdot\mathrm{L}^{-1}\times0.1\mathrm{L}\times124\mathrm{g}\cdot\mathrm{mol}^{-1}\approx$ $1.9\times10^{-2}\mathrm{g}$
 
@@ -2211,7 +2211,7 @@ D. a 点对应的 $K_{sp}$ 大于 c 点对应的 $K_{sp}$
 
 ![](高中化学竞赛教程第2分册万长江编,Wanchangjiangbianzhuz-library.sk,1lib.sk,z-lib.sk_1-199_images/e5e3d5192a1cb9b69de9c546a9090c864ae6e17cacaac37ad0fc685dff92ba18.jpg)
 
-已知 $Ag_{2}SO_{4}$ 的 $K_{sp}$ 为 $2.0 \times 10^{-5}$ ，将适量 $Ag_{2}SO_{4}$ 固体溶于 100 mL 水中至刚好饱和，该过程中 $Ag^{+}$ 和 $SO_{4}^{2-}$ 浓度随时间变化关系如右图，饱和 $Ag_{2}SO_{4}$ 溶液中 $c(\mathrm{Ag}^{+}) = 0.034 \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ 。若 $t_{1}$ 时刻在上述体系中加入 100 mL $0.020 \, mol \cdot L^{-1} \, Na_{2}SO_{4}$ 溶液，下列示意图中，能正确表示 $t_{1}$ 时刻后 $Ag^{+}$ 和 $SO_{4}^{2-}$ 浓度随时间变化关系的是（）。
+已知 $Ag_{2}SO_{4}$ 的 $K_{sp}$ 为 $2.0 \times 10^{-5}$ ，将适量 $Ag_{2}SO_{4}$ 固体溶于 100 mL 水中至刚好饱和，该过程中 $Ag^{+}$ 和 $SO_{4}^{2-}$ 浓度随时间变化关系如右图，饱和 $Ag_{2}SO_{4}$ 溶液中 $c(\mathrm{Ag}^{+}) = 0.034 \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ 。若 $t_{1}$ 时刻在上述体系中加入 100 mL $0.020 \, \mathrm{mol} \cdot \mathrm{L}^{-1} \, Na_{2}SO_{4}$ 溶液，下列示意图中，能正确表示 $t_{1}$ 时刻后 $Ag^{+}$ 和 $SO_{4}^{2-}$ 浓度随时间变化关系的是（）。
 
 ![](高中化学竞赛教程第2分册万长江编,Wanchangjiangbianzhuz-library.sk,1lib.sk,z-lib.sk_1-199_images/5ac25b2516b2bac71fd997b022ce8b651c5a443162ebda4cfb892166bae1715a.jpg)
 
@@ -2230,7 +2230,7 @@ D.
 
 (1) $\mathrm{Tl}_{2} \mathrm{~S}$ 可溶解在浓度为 $1 \mathrm{~mol} \cdot \mathrm{L}^{- 1}$ 的无络合性、无氧化性的一元强酸中；
 
-(2) CuS 不溶于 $1 \, mol \cdot L^{-1}$ 盐酸。
+(2) CuS 不溶于 $1 \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ 盐酸。
 
 有关常数： $\mathrm{pK_a(H_2S) = 7}$ ， $\mathrm{pK_a(HS^-) = 13}$
 
@@ -2274,11 +2274,11 @@ $$
 
 在一定温度下,难溶化合物饱和溶液的离子浓度的乘积为一常数,这个常数用 $K_{sp}$ 表示。已知: $K_{\mathrm{sp}}(\mathrm{AgCl}) = [\mathrm{Ag}^{+}][\mathrm{Cl}^{-}] = 1.8 \times 10^{-10}$ ; $K_{\mathrm{sp}}(\mathrm{Ag}_{2}\mathrm{CrO}_{4}) = [\mathrm{Ag}^{+}]^{2}[\mathrm{CrO}_{4}^{2-}] = 1.9 \times 10^{-12}$ 。
 
-现用 $0.001 \, mol \cdot L^{-1} \, AgNO_{3}$ 溶液滴定含 $0.001 \, mol \cdot L^{-1} \, KCl$ 和 $0.001 \, mol \cdot L^{-1} \, K_{2}CrO_{4}$ 的混合溶液，试通过计算回答：
+现用 $0.001 \, \mathrm{mol} \cdot \mathrm{L}^{-1} \, AgNO_{3}$ 溶液滴定含 $0.001 \, \mathrm{mol} \cdot \mathrm{L}^{-1} \, KCl$ 和 $0.001 \, \mathrm{mol} \cdot \mathrm{L}^{-1} \, K_{2}CrO_{4}$ 的混合溶液，试通过计算回答：
 
 (1) $\mathrm{Cl}^{-}$ 和 $\mathrm{CrO}_{4}^{2-}$ 哪种先沉淀?
 
-(2) 当 $CrO_{4}^{2-}$ 以 $Ag_{2}CrO_{4}$ 形式沉淀时, 溶液中的 $Cl^{-}$ 离子浓度是多少? $CrO_{4}^{2-}$ 与 $Cl^{-}$ 能否达到有效的分离? (设当一种离子开始沉淀时, 另一种离子浓度小于 $10^{-5} \, mol \cdot L^{-1}$ 时, 则认为可以达到有效分离)
+(2) 当 $CrO_{4}^{2-}$ 以 $Ag_{2}CrO_{4}$ 形式沉淀时, 溶液中的 $Cl^{-}$ 离子浓度是多少? $CrO_{4}^{2-}$ 与 $Cl^{-}$ 能否达到有效的分离? (设当一种离子开始沉淀时, 另一种离子浓度小于 $10^{-5} \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ 时, 则认为可以达到有效分离)
 
 7 工业上采用湿法炼锌过程中, 以 $\mathrm{ZnSO}_{4}$ 为主要成分的浸出液中, 有 $\mathrm{Fe}^{3+}$ 、 $\mathrm{Fe}^{2+}$ 、 $\mathrm{Sb}^{3+}$ 、 $\mathrm{Cu}^{2+}$ 、 $\mathrm{Cd}^{2+}$ 、 $\mathrm{Cl}^{-}$ 等杂质, 这些杂质对下一道锌的电解工序有妨碍, 必须事先除去。现有下列试剂:
 
@@ -2294,9 +2294,9 @@ $$
 
 (4) 用 \_\_\_\_ 除去 Cl $^{-}$ 。
 
-向浓度为 $0.10 \, mol \cdot L^{-1}$ 的 $MnCl_{2}$ 溶液中慢慢滴加 $Na_{2}S$ 溶液，试问是先生成 MnS 沉淀还是先生成 $\mathrm{Mn(OH)}_{2}$ 沉淀？ $(K_{\mathrm{sp}}(\mathrm{MnS}) = 2.5 \times 10^{-10}, K_{\mathrm{sp}}[\mathrm{Mn(OH)}_{2}] = 1.9 \times 10^{-13}, H_{2}S$ 的 $K_{a_{1}}$ 和 $K_{a_{2}}$ 分别为 $9.1 \times 10^{-8}, 1.1 \times 10^{-12}$
+向浓度为 $0.10 \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ 的 $MnCl_{2}$ 溶液中慢慢滴加 $Na_{2}S$ 溶液，试问是先生成 MnS 沉淀还是先生成 $\mathrm{Mn(OH)}_{2}$ 沉淀？ $(K_{\mathrm{sp}}(\mathrm{MnS}) = 2.5 \times 10^{-10}, K_{\mathrm{sp}}[\mathrm{Mn(OH)}_{2}] = 1.9 \times 10^{-13}, H_{2}S$ 的 $K_{a_{1}}$ 和 $K_{a_{2}}$ 分别为 $9.1 \times 10^{-8}, 1.1 \times 10^{-12}$
 
-9 将 $CaCO_{3}$ 固体与 $CO_{2}$ 饱和水溶液充分接触, 设室温下饱和 $CO_{2}$ 溶液中 $\left[H_{2}CO_{3}\right]=0.034\ mol\cdot L^{-1}$ , 水的 pH 等于 5.5, 试计算在这种情况下, 溶液中的 $Ca^{2+}$ 浓度最高可达多少?
+9 将 $CaCO_{3}$ 固体与 $CO_{2}$ 饱和水溶液充分接触, 设室温下饱和 $CO_{2}$ 溶液中 $\left[H_{2}CO_{3}\right]=0.034\ \mathrm{mol}\cdot \mathrm{L}^{-1}$ , 水的 pH 等于 5.5, 试计算在这种情况下, 溶液中的 $Ca^{2+}$ 浓度最高可达多少?
 
 $(\mathrm{CaCO_3}$ 的 $K_{\mathrm{sp}} = 2.8\times 10^{-9},\mathrm{H_2CO_3}$ 的 $K_{\mathrm{a_1}} = 4.3\times 10^{-7},K_{\mathrm{a_2}} = 4.7\times 10^{-11})$
 
@@ -2338,7 +2338,7 @@ $(\mathrm{CaCO_3}$ 的 $K_{\mathrm{sp}} = 2.8\times 10^{-9},\mathrm{H_2CO_3}$ �
 
 3（1）医学研究表明，有相当一部分的肾结石是由 $CaC_{2}O_{4}$ 组成的。血液通过肾小球前其中的草酸钙通常是过饱和的，即 $Q = c(\mathrm{Ca}^{2+})c(\mathrm{C}_{2}\mathrm{O}_{4}^{2-}) > K_{\mathrm{sp}}(\mathrm{CaC}_{2}\mathrm{O}_{4})$ ，由于血液中存在草酸钙结晶抑制剂，通常并不形成 $CaC_{2}O_{4}$ 沉淀。但经过肾小球过滤后，滤液在肾小管中会形成 $CaC_{2}O_{4}$ 结晶。正常人每天排尿量大约为 1.4 L，其中约含 0.10 g $Ca^{2+}$ 。为了不使尿中形成 $CaC_{2}O_{4}$ 沉淀，其中 $C_{2}O_{4}^{2-}$ 的最高浓度为 \_\_\_\_（已知 $K_{\mathrm{sp}}(\mathrm{CaC}_{2}\mathrm{O}_{4}) = 2.3 \times 10^{-9}$ ）。对肾结石患者，医生总是让其多饮水，试从两个角度解释之：
 
-(2) 维生素 C 是人体免疫系统所必需的, 它具有增强人体免疫功能和抗病毒、抗衰老的作用。维生素 C 易被氧化, 测定维生素 C 含量典型的滴定剂是 $KIO_{3}$ 。用一定浓度的 $KIO_{3}$ 溶液在 $1 \, mol \cdot L^{-1} HCl$ 介质中滴定维生素 C 时反应的离子方程式为:
+(2) 维生素 C 是人体免疫系统所必需的, 它具有增强人体免疫功能和抗病毒、抗衰老的作用。维生素 C 易被氧化, 测定维生素 C 含量典型的滴定剂是 $KIO_{3}$ 。用一定浓度的 $KIO_{3}$ 溶液在 $1 \, \mathrm{mol} \cdot \mathrm{L}^{-1} HCl$ 介质中滴定维生素 C 时反应的离子方程式为:
 
 氢氧化钙是重要的化工原料、建筑材料,因其在水中溶解度有限常被用来
 
@@ -2356,7 +2356,7 @@ $(\mathrm{CaCO_3}$ 的 $K_{\mathrm{sp}} = 2.8\times 10^{-9},\mathrm{H_2CO_3}$ �
 
 ① 移取 10.00 mL 饱和 Ca(OH) $_{2}$ 澄清溶液放入锥形瓶中, 加 15 mL 去离子水和 3 滴钙指示剂, 加 2 mL 10% NaOH(减小 EDTA 的副反应, 一定量情况下不影响 K $_{sp}$ 值测定), 摇匀, 立即用 0.0100 mol·L $^{-1}$ EDTA 标准溶液滴定(生成 1:1 的 Ca $^{2+}$ -EDTA 配合物), 溶液变成纯蓝色时, 记录所耗 EDTA 标准溶液的体积。
 
-② 移取 $25.00 \, mL \, \mathrm{Ca(OH)}_{2}$ 饱和溶液放入锥形瓶中，加 3 滴甲基橙，用 $0.0500 \, mol \cdot L^{-1} \, HCl$ 标准溶液滴定，溶液变成橙色时记录所耗 HCl 标准溶液的体积。实验数据见下表。
+② 移取 $25.00 \, \mathrm{mL} \, \mathrm{Ca(OH)}_{2}$ 饱和溶液放入锥形瓶中，加 3 滴甲基橙，用 $0.0500 \, \mathrm{mol} \cdot \mathrm{L}^{-1} \, HCl$ 标准溶液滴定，溶液变成橙色时记录所耗 HCl 标准溶液的体积。实验数据见下表。
 
 <table><tr><td>步骤</td><td colspan="3">消耗滴定剂体积(mL)</td></tr><tr><td>步骤1</td><td>29.03</td><td>29.02</td><td>29.04</td></tr><tr><td>步骤2</td><td>18.72</td><td>18.75</td><td>18.69</td></tr></table>
 
@@ -2394,9 +2394,9 @@ $$
 
 在 $1\mathrm{mol}\cdot \mathrm{L}^{-1}$ 的一元强酸中， $c(\mathrm{H}^{+}) = 1\mathrm{mol}\cdot \mathrm{L}^{-1};c(\mathrm{S}^{2 - })\approx 10^{-21}\mathrm{mol}\cdot \mathrm{L}^{-1};$ $c^2 (\mathrm{Tl}^+)c(\mathrm{S}^{2 - }) = 4\times 10^{-23} <   K_{\mathrm{sp}}(\mathrm{Tl}_2\mathrm{S})$
 
-所以 $Tl_{2}S$ 可以溶解于 $1\ mol\cdot L^{-1}$ 的一元强酸中
+所以 $Tl_{2}S$ 可以溶解于 $1\ \mathrm{mol}\cdot \mathrm{L}^{-1}$ 的一元强酸中
 
-(2) $Cu^{2+}$ 不与 $Cl^{-}$ 形成稳定的配合物， $c(\mathrm{Cu}^{2+})c(\mathrm{S}^{2-})=10^{-22}>K_{\mathrm{sp}}(\mathrm{CuS})$ ，所以 CuS 不溶于 $1\ mol\cdot L^{-1}$ 盐酸中。
+(2) $Cu^{2+}$ 不与 $Cl^{-}$ 形成稳定的配合物， $c(\mathrm{Cu}^{2+})c(\mathrm{S}^{2-})=10^{-22}>K_{\mathrm{sp}}(\mathrm{CuS})$ ，所以 CuS 不溶于 $1\ \mathrm{mol}\cdot \mathrm{L}^{-1}$ 盐酸中。
 
 5. 解析: 原料加 $\mathrm{H}_{2} \mathrm{SO}_{4}$ , 过滤后滤液调 $\mathrm{pH}=5.5$ , 使 $\mathrm{Fe}^{3+}$ 和 $\mathrm{Al}^{3+}$ 沉淀完全, 再过滤除去 $\mathrm{Al}^{3+}$ 、 $\mathrm{Fe}^{3+}$ , 滤液再调 $\mathrm{pH}=12.5$ , $\mathrm{Mg}^{2+}$ 沉淀完全, 过滤得 $\mathrm{Mg(OH)}_{2}$ 。
 
@@ -2740,7 +2740,7 @@ $$
 \begin{array}{l l}{2 \mathrm{H} ^ {+} + 2 \mathrm{e} ^ {-} \rightleftharpoons \mathrm{H} _ {2}}&{E ^ {\ominus} = 0.00 \mathrm{V}}\\{\mathrm{O} _ {2} + 4 \mathrm{H} ^ {+} + 4 \mathrm{e} ^ {-} \rightleftharpoons 2 \mathrm{H} _ {2} \mathrm{O}}&{E ^ {\ominus} = 1.229 \mathrm{V}}\\{\mathrm{Mn} ^ {2 +} + 2 \mathrm{e} ^ {-} \rightleftharpoons \mathrm{Mn}}&{E ^ {\ominus} = - 1.18 \mathrm{V}}\\{\mathrm{Ag} ^ {+} + \mathrm{e} ^ {-} \rightleftharpoons \mathrm{Ag}}&{E ^ {\ominus} = 0.799 \mathrm{V}}\\{\mathrm{CO} ^ {3 +} + \mathrm{e} ^ {-} \rightleftharpoons \mathrm{CO} ^ {2 +}}&{E ^ {\ominus} = 1.808 \mathrm{V}}\end{array}
 $$
 
-根据上述标准电极电势, 判断 $Mn^{2+}$ 、Mn、 $Ag^{+}$ 、Ag、 $CO^{3+}$ 、 $CO^{2+}$ 分别置于 $c(H^{+})=1.0\ mol\cdot L^{-1}$ 的水溶液时能否稳定存在? 不能稳定存在的, 则写出有关反应式。
+根据上述标准电极电势, 判断 $Mn^{2+}$ 、Mn、 $Ag^{+}$ 、Ag、 $CO^{3+}$ 、 $CO^{2+}$ 分别置于 $c(H^{+})=1.0\ \mathrm{mol}\cdot \mathrm{L}^{-1}$ 的水溶液时能否稳定存在? 不能稳定存在的, 则写出有关反应式。
 
 过程探究 $c(\mathrm{H}^{+})=1.0\ \mathrm{mol}\cdot\mathrm{L}^{-1}$ 时的水溶液为标准状态,此时只需判断 $E_{(+)}-E_{(-)}$ 是否大于零,如大于零,则对应分子或离子则不能稳定存在,在水溶液中此时考虑的 $E_{(+)}$ 对应电对应为 $2H^{+}+2e^{-}\rightleftharpoons H_{2}$ (水中的 $H^{+}$ 作氧化剂) 或考虑的 $E_{(-)}$ 为 $O_{2}+4H^{+}+4e^{-}\rightleftharpoons2H_{2}O$ ,此时水会被氧化剂氧化生成 $O_{2}$ ,这两种情况下分子或离子不能稳定存在。
 
@@ -2760,7 +2760,7 @@ $$
 
 电极电势的绝对值无法测量, 只能测量相对值。为使相对值统一, 必须选一个电极作为比较的标准, 通常选定的是标准氢电极。
 
-标准氢电极的构成:将镀有铂黑(海绵状铂)的铂片置于氢离子浓度(严格讲应为活度)为 $1.0 \, mol \cdot kg^{-1}$ 的酸溶液中(近似为 $1.0 \, mol \cdot L^{-1}$ )。然后不断地通入压力为 $1.013 \times 10^{5} \, Pa$ 的纯氢气,使铂黑吸附氢气达到饱和,形成一个氢电极。相应的电极反应为 $2H^{+} + 2e^{-} \longrightarrow H_{2}\uparrow$ 。
+标准氢电极的构成:将镀有铂黑(海绵状铂)的铂片置于氢离子浓度(严格讲应为活度)为 $1.0 \, \mathrm{mol} \cdot \mathrm{kg}^{-1}$ 的酸溶液中(近似为 $1.0 \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ )。然后不断地通入压力为 $1.013 \times 10^{5} \, \mathrm{Pa}$ 的纯氢气,使铂黑吸附氢气达到饱和,形成一个氢电极。相应的电极反应为 $2H^{+} + 2e^{-} \longrightarrow H_{2}\uparrow$ 。
 
 标准氢电极所具有的电势叫做氢电极的标准电极电势, 将它作为电极电势的相对标准, 令其为零伏。记作: $E_{\mathrm{H}^{+} / \mathrm{H}_{2}}^{\ominus} = 0.0000 \mathrm{~V}$ 。
 
@@ -2852,7 +2852,7 @@ $$
 
 蓄电池和干电池不同,它可以通过许多次的充电和放电。所谓充电,是使直流电通过蓄电池,使蓄电池内进行化学反应,把电能转化为化学能并积蓄起来,其本质是一种电解反应。充完电的蓄电池,在使用时蓄电池内进行与充电时方向相反的电极反应,使化学能转变为电能,这一过程称为放电。
 
-常用的蓄电池是铅蓄电池,铅蓄电池的电极是用铅锑合金制成的栅状极片,正极的极片上填充着 $PbO_{2}$ ,负极的极片上填塞着灰铅。这两组极片交替地排列在蓄电池中,并浸泡在 30% 的 $H_{2}SO_{4}$ (密度为 $1.2 \, kg \cdot L^{-1}$ ) 溶液中。
+常用的蓄电池是铅蓄电池,铅蓄电池的电极是用铅锑合金制成的栅状极片,正极的极片上填充着 $PbO_{2}$ ,负极的极片上填塞着灰铅。这两组极片交替地排列在蓄电池中,并浸泡在 30% 的 $H_{2}SO_{4}$ (密度为 $1.2 \, \mathrm{kg} \cdot \mathrm{L}^{-1}$ ) 溶液中。
 
 蓄电池放电时(即使用时),正极上的 $PbO_{2}$ 被还原为 $Pb^{2+}$ ,负极上的 Pb 被氧化成 $Pb^{2+}$ 。 $Pb^{2+}$ 与溶液中的 $SO_{4}^{2-}$ 作用在正负极片上生成沉淀。反应为
 
@@ -2878,7 +2878,7 @@ $$
 \mathrm{H} _ {2} (\mathrm{g}) + 1 / 2 \mathrm{O} _ {2} (\mathrm{g}) \longrightarrow \mathrm{H} _ {2} \mathrm{O} (\mathrm{l})
 $$
 
-从原理上说燃烧 $1 \, mol \, H_{2}$ 可以产生 237 kJ 的电能。若将它设计成一个电池，则电能的利用率大大增加。在氢氧燃料电池中用多孔隔膜把电池分成三部分。电池的中间部分装有 75% 的 KOH 溶液，左侧通入燃料 $H_{2}$ ，右侧通入氧化剂 $O_{2}$ ，气体通过隔膜，缓慢扩散到 KOH 溶液中并发生如下反应：
+从原理上说燃烧 $1 \, \mathrm{mol} \, H_{2}$ 可以产生 237 kJ 的电能。若将它设计成一个电池，则电能的利用率大大增加。在氢氧燃料电池中用多孔隔膜把电池分成三部分。电池的中间部分装有 75% 的 KOH 溶液，左侧通入燃料 $H_{2}$ ，右侧通入氧化剂 $O_{2}$ ，气体通过隔膜，缓慢扩散到 KOH 溶液中并发生如下反应：
 
 正极：
 
@@ -2915,7 +2915,7 @@ D. 电池工作时,电子通过外电路从正极流向负极
 【例2】（2009年江苏高考）以葡萄糖为燃料的微生物燃料电池结构示意图如右图所示。关于该电池的叙述正确的是( )。
 A. 该电池能够在高温下工作
 B. 电池的负极反应为 $C_{6}H_{12}O_{6} + 6H_{2}O - 24e^{-} \rightarrow 6CO_{2}\uparrow + 24H^{+}$ C. 放电过程中, $H^{+}$ 从正极区向负极区迁移
-D. 在电池反应中, 每消耗 $1 \, mol \, O_{2}$ , 理论上能生成标准状况下 $CO_{2} \frac{22.4}{6} L$
+D. 在电池反应中, 每消耗 $1 \, \mathrm{mol} \, O_{2}$ , 理论上能生成标准状况下 $CO_{2} \frac{22.4}{6} L$
 
 ![](高中化学竞赛教程第2分册万长江编,Wanchangjiangbianzhuz-library.sk,1lib.sk,z-lib.sk_1-199_images/f4ce8e68189415c63ec7da35dacb1aa2e22e4a5710ca804496ad24c6cfbb74e0.jpg)  
 质子交换膜
@@ -2952,7 +2952,7 @@ $$
 (3) 2 \mathrm{Na} _ {2} \mathrm{S} _ {2} + \mathrm{NaBr} _ {3} \xrightarrow [ \text {充电} ]{\text {放电}} \mathrm{Na} _ {2} \mathrm{S} _ {4} + 3 \mathrm{NaBr}
 $$
 
-(4) ${\mathrm{{Na}}}^{ + }$ 的流向为从左到右。
+(4) ${\mathrm{Na}}^{ + }$ 的流向为从左到右。
 
 【例 4】（2001 年全国初赛）设计出燃料电池使汽油氧化直接产生电流是本世纪最富有挑战性的课题之一。
 
@@ -3036,7 +3036,7 @@ I. $2\mathrm{Li} + \mathrm{H}_{2}\longrightarrow 2\mathrm{LiH}$
 
 ① 反应Ⅰ中的还原剂是\_\_\_\_，反应Ⅱ中的氧化剂是\_\_\_\_。
 
-② 已知 LiH 固体密度为 $0.82 \, g \cdot cm^{-3}$ ，用锂吸收 $224 \, L \, H_{2}$ （标准状况），生成的 LiH 的体积与被吸收的 $H_{2}$ 的体积比为 \_\_\_\_。
+② 已知 LiH 固体密度为 $0.82 \, g \cdot \mathrm{cm}^{-3}$ ，用锂吸收 $224 \, L \, H_{2}$ （标准状况），生成的 LiH 的体积与被吸收的 $H_{2}$ 的体积比为 \_\_\_\_。
 
 ③ 由②生成的 LiH 与 $H_{2}O$ 作用放出的 $H_{2}$ 用作电池燃料, 若能量转化率为 80%, 则导线中通过电子的物质的量为 \_\_\_\_。
 
@@ -3102,7 +3102,7 @@ $O_{2}$ 吸附。
 
 15 锂电池是 20 世纪末迅速发展起来的新一代高性能二次电池,以其特有的性能优势已在便携式电器,如手提电脑、摄像机、移动通讯设备中得到普遍应用。目前商用锂离子电池大多采用各种嵌锂的碳/石墨材料为负极材料, $LiCoO_{2}$ 或 $LiNiO_{2}$ 等复合氧化物为正极材料。尖晶石型 $Li_{4}Ti_{5}O_{12}$ 是一种很有应用前景的锂离子电池负极材料,在嵌锂过程中变为岩盐型 $Li_{7}Ti_{5}O_{12}$ 。请回答下列问题:
 
-(1) ${\mathrm{{LiNiO}}}_{2}$ 与 ${\mathrm{{Li}}}_{4}{\mathrm{{Ti}}}_{5}{\mathrm{O}}_{12}$ 中, $\mathrm{{Ni}}$ 和 $\mathrm{{Ti}}$ 元素的氧化数各为多少？
+(1) ${\mathrm{LiNiO}}_{2}$ 与 ${\mathrm{Li}}_{4}{\mathrm{Ti}}_{5}{\mathrm{O}}_{12}$ 中, $\mathrm{Ni}$ 和 $\mathrm{Ti}$ 元素的氧化数各为多少？
 
 (2) 将 $\mathrm{TiO}_{2}$ 和 $\mathrm{Li}_{2} \mathrm{CO}_{3}$ 混合后在空气中加热到 $1073 \mathrm{~K}$ , 可得到 $\mathrm{Li}_{4} \mathrm{Ti}_{5} \mathrm{O}_{12}$ , 写出化学反应方程式。
 
@@ -3139,7 +3139,7 @@ $O_{2}$ 吸附。
 
 7. (1) $2 \mathrm{CH}_{3} \mathrm{OH} + 3 \mathrm{O}_{2} \longrightarrow 2 \mathrm{CO}_{2} + 4 \mathrm{H}_{2} \mathrm{O}$ (2) $3 \mathrm{O}_{2} + 12 \mathrm{H}^{+} + 12 \mathrm{e}^{-} \longrightarrow 6 \mathrm{H}_{2} \mathrm{O}$ ; $2 \mathrm{CH}_{3} \mathrm{OH} + 2 \mathrm{H}_{2} \mathrm{O} - 12 \mathrm{e}^{-} \longrightarrow 2 \mathrm{CO}_{2} \uparrow + 12 \mathrm{H}^{+}$ 正极 负极 (3) 甲醇比氢气更廉价, 更易制得 (4) 多数燃气和氧气常温下在溶液中溶解度很小, 多孔电极可增大电极的比表面积, 提高工作效率 (5) 燃料电池减少对空气的污染 (燃料直接燃烧对空气污染大)
 
-8. 负极: $\mathrm{{Zn}} + 2{\mathrm{{OH}}}^{ - } - 2{\mathrm{e}}^{ - } \rightarrow  \mathrm{{Zn}}{\left( \mathrm{{OH}}\right) }_{2}$ 正极: ${\mathrm{{Ag}}}_{2}\mathrm{O} + {\mathrm{H}}_{2}\mathrm{O} + 2{\mathrm{e}}^{ - } \rightarrow  2\mathrm{{Ag}} + 2{\mathrm{{OH}}}^{ - }$ 电池反应: $\mathrm{{Zn}} + {\mathrm{{Ag}}}_{2}\mathrm{O} + {\mathrm{H}}_{2}\mathrm{O} \rightarrow  2\mathrm{{Ag}} + \mathrm{{Zn}}{\left( \mathrm{{OH}}\right) }_{2}$
+8. 负极: $\mathrm{Zn} + 2{\mathrm{OH}}^{ - } - 2{\mathrm{e}}^{ - } \rightarrow  \mathrm{Zn}{\left( \mathrm{OH}\right) }_{2}$ 正极: ${\mathrm{Ag}}_{2}\mathrm{O} + {\mathrm{H}}_{2}\mathrm{O} + 2{\mathrm{e}}^{ - } \rightarrow  2\mathrm{Ag} + 2{\mathrm{OH}}^{ - }$ 电池反应: $\mathrm{Zn} + {\mathrm{Ag}}_{2}\mathrm{O} + {\mathrm{H}}_{2}\mathrm{O} \rightarrow  2\mathrm{Ag} + \mathrm{Zn}{\left( \mathrm{OH}\right) }_{2}$
 
 9. 在完全均匀的土质中的水管使用年限要长一些, 而在变化复杂的土质中的水管腐蚀得要快一些。水管所通过的位置土质变化复杂, 实际上就使水管处于不均匀的腐蚀介质中, 从而形成浓差腐蚀, 加快腐蚀速度, 所以在这种位置通过的水管更容易腐蚀而减少使用年限。
 
@@ -3162,7 +3162,7 @@ $O_{2}$ 吸附。
 
 ![](高中化学竞赛教程第2分册万长江编,Wanchangjiangbianzhuz-library.sk,1lib.sk,z-lib.sk_1-199_images/cc648fb55203a02c5fcc6481b02061bc04e40e6af2e0a193133063d73ad11036.jpg)
 
-13. (1) ${\mathrm{{CO}}}_{2}$ (或 ${\mathrm{N}}_{2}\mathrm{O}$ ); 直线形; ${\left\lbrack  \mathrm{N} = \mathrm{N} = \mathrm{N}\right\rbrack  }^{ - }$ (或 ${\left\lbrack  \mathrm{N} - \mathrm{N} \equiv  \mathrm{N}\right\rbrack  }^{ - }$ ) (2)<;<
+13. (1) ${\mathrm{CO}}_{2}$ (或 ${\mathrm{N}}_{2}\mathrm{O}$ ); 直线形; ${\left\lbrack  \mathrm{N} = \mathrm{N} = \mathrm{N}\right\rbrack  }^{ - }$ (或 ${\left\lbrack  \mathrm{N} - \mathrm{N} \equiv  \mathrm{N}\right\rbrack  }^{ - }$ ) (2)<;<
 
 (3) $2\mathrm{AgN}_{3}\longrightarrow 2\mathrm{Ag} + 3\mathrm{N}_{2}\uparrow$ (4) $2\mathrm{H}^{+} + 2\mathrm{e}^{-}\longrightarrow \mathrm{H}_{2}\uparrow ;\mathrm{Cu - e^{-} + Cl^{-}}\longrightarrow \mathrm{CuCl};$ $\mathrm{CuCl + Cl^{-}\longrightarrow [CuCl_2]^-}$
 
@@ -3178,7 +3178,7 @@ $O_{2}$ 吸附。
 
 (3) 阳极: $\mathrm{LiNiO_2 - xe^- \longrightarrow Li_{1 - x}NiO_2 + xLi^+}$ 阴极: $\mathrm{Li_4Ti_5O_{12} + 3Li^+ + 3e^- \longrightarrow Li_7Ti_5O_{12}}$
 
-(4) ${\mathrm{{Li}}}^{ + }$ 脱嵌或嵌入更易进行,可反复使用,即循环性能好,使用寿命长
+(4) ${\mathrm{Li}}^{ + }$ 脱嵌或嵌入更易进行,可反复使用,即循环性能好,使用寿命长
 
 (5) 往 $Li_{4}Ti_{5}O_{12}$ 掺杂一些具有良好导电性的微粒, 如金属及其金属氧化物, 使其进入晶格中
 
@@ -3226,11 +3226,11 @@ $$
 
 【例1】含有银、铜、铬的一种合金,质量为 $1.500 \mathrm{~g}$ ,溶解后溶液中含有 $\mathrm{Ag}^{+} 、 \mathrm{Cu}^{2+} 、 \mathrm{Cr}^{3+}$ ,用水稀释到 $500.00 \mathrm{~mL}$ 。
 
-(1) 取出 $50.00 \mathrm{~mL}$ 溶液, 加入过量稀碱溶液, 分离出沉淀物, 滤液用足量 $\mathrm{H}_{2} \mathrm{O}_{2}$ 氧化, 酸化上述溶液, 用 $25.00 \mathrm{~mL} 0.100 \mathrm{~mol} \cdot \mathrm{L}^{-1}$ 的 $\mathrm{Fe(II)}$ 盐溶液还原其中的 $Cr_{2}O_{7}^{2-}$ 生成 $Cr^{3+}$ ，未反应的 Fe(Ⅱ)盐溶液用 $0.0200\ mol\cdot L^{-1}\ KMnO_{4}$ 溶液滴定，耗 $KMnO_{4}$ 溶液 17.20 mL。
+(1) 取出 $50.00 \mathrm{~mL}$ 溶液, 加入过量稀碱溶液, 分离出沉淀物, 滤液用足量 $\mathrm{H}_{2} \mathrm{O}_{2}$ 氧化, 酸化上述溶液, 用 $25.00 \mathrm{~mL} 0.100 \mathrm{~mol} \cdot \mathrm{L}^{-1}$ 的 $\mathrm{Fe(II)}$ 盐溶液还原其中的 $Cr_{2}O_{7}^{2-}$ 生成 $Cr^{3+}$ ，未反应的 Fe(Ⅱ)盐溶液用 $0.0200\ \mathrm{mol}\cdot \mathrm{L}^{-1}\ KMnO_{4}$ 溶液滴定，耗 $KMnO_{4}$ 溶液 17.20 mL。
 
 (2) 在另一个实验中, 取 $200.00 \mathrm{~mL}$ 原始溶液进行电解。电解析出金属的电流效率为 $90\%$ , 电流为 $2 \mathrm{~A}$ , 在 $14.50 \mathrm{~min}$ 内, 三种金属恰好完全析出。求合金中 $\mathrm{Ag} 、 \mathrm{Cu} 、 \mathrm{Cr}$ 的质量分数。(相对原子质量: $\mathrm{Cr}: 52.00, \mathrm{Cu}: 63.55, \mathrm{Ag}: 107.9$ ; 法拉第常数: $9.648 \times 10^{4} \mathrm{C} \cdot \mathrm{mol}^{-1}$ )
 
-过程探究 法拉第常数的含义是 1 mol 电子的电量, 其值为 $N_{A} \times e \approx 9.6485 \times 10^{4} \, C \cdot mol^{-1}$ , 一般取值为 96 500 C $\cdot$ $mol^{-1}$ , 此题取值为 $9.648 \times 10^{4} \, C \cdot mol^{-1}$ 。
+过程探究 法拉第常数的含义是 1 mol 电子的电量, 其值为 $N_{A} \times e \approx 9.6485 \times 10^{4} \, C \cdot \mathrm{mol}^{-1}$ , 一般取值为 96 500 C $\cdot$ $\mathrm{mol}^{-1}$ , 此题取值为 $9.648 \times 10^{4} \, C \cdot \mathrm{mol}^{-1}$ 。
 
 本题涉及的反应方程式为：
 
@@ -3310,7 +3310,7 @@ $$
 
 ## (3) 有机电解质电池
 
-锂电池是负极用金属锂或锂合金或含锂化合物的一类电池的总称。由于锂是最轻的金属(密度为 $0.534 \, g \cdot cm^{-3}$ )，其理论容量为锌的 4.7 倍。锂具有最低的电负性，电极电势最低，因此锂电池的电压高达 4 V 以上，输出能量超过 $200 \, W \cdot h \cdot kg^{-1}$ 。同时锂电池工作温度范围大 ( $-70 \sim 40^{\circ}C$ )，比功率大，且具有平稳的放电性能，具有潜在的应用前景，已被用作手机电池等。但锂电池的缺点也是明显的，安全性欠佳、价格较贵、生产工序复杂等，限制了其大规模的使用。
+锂电池是负极用金属锂或锂合金或含锂化合物的一类电池的总称。由于锂是最轻的金属(密度为 $0.534 \, g \cdot \mathrm{cm}^{-3}$ )，其理论容量为锌的 4.7 倍。锂具有最低的电负性，电极电势最低，因此锂电池的电压高达 4 V 以上，输出能量超过 $200 \, W \cdot h \cdot \mathrm{kg}^{-1}$ 。同时锂电池工作温度范围大 ( $-70 \sim 40^{\circ}C$ )，比功率大，且具有平稳的放电性能，具有潜在的应用前景，已被用作手机电池等。但锂电池的缺点也是明显的，安全性欠佳、价格较贵、生产工序复杂等，限制了其大规模的使用。
 
 由于金属锂高的电化学活性, 因此, 锂电池一般采用有机溶剂作为电解液。电解液最重要的性能有: 必须是质子惰性的; 必须不与金属锂及正极物料发生反应; 必须有高的离子传导性能; 应在一个宽的温度范围内保持为液态;应具有适宜的物理性能, 如低的饱和蒸气压、无毒性等。一般用作锂电池中电解液的有机溶剂有乙腈(AN), 二甲亚砜(DMSO), 碳酸丙烯酯(PC), 1,2-二甲氧基乙烷(DME), $\gamma-$ 丁内酯 ( $\gamma-$ BL) 等, 还有用无机溶剂的, 如亚硫酰氯(SOCl $_{2}$ ), 硫酰氯(SO $_{2}$ Cl $_{2}$ )。支持电解质有: LiClO $_{4}$ , LiAsF $_{6}$ , LiBF $_{4}$ , LiPF $_{6}$ , LiCl, LiAlCl $_{4}$ 等。
 
@@ -3513,7 +3513,7 @@ D. 电池的电解质溶液中 $\mathrm{I}^{-}$ 和 $\mathrm{I}_{3}^{-}$ 的浓�
 
 (2) 若电解池 A 中生成 $3.36 \mathrm{~L} \mathrm{H}_{2}$ (标准状况), 试计算电解池 B 中生成 $\mathrm{Fe}^{2+}$ 的物质的量。
 
-(3) 若循环系统处于稳定工作状态时,电解池 A 中流入和流出的 HI 浓度分别为 $a \, mol \cdot L^{-1}$ 和 $b \, mol \cdot L^{-1}$ , 光催化反应生成 $Fe^{3+}$ 的速率为 $c \, mol \cdot min^{-1}$ , 循环系统中溶液的流量为 Q (流量为单位时间内流过的溶液体积)。试用含所给字母的代数式表示溶液的流量 $Q$ 。
+(3) 若循环系统处于稳定工作状态时,电解池 A 中流入和流出的 HI 浓度分别为 $a \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ 和 $b \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ , 光催化反应生成 $Fe^{3+}$ 的速率为 $c \, \mathrm{mol} \cdot min^{-1}$ , 循环系统中溶液的流量为 Q (流量为单位时间内流过的溶液体积)。试用含所给字母的代数式表示溶液的流量 $Q$ 。
 
 过程探究 由所给图示知电解池 A 中电解对象为 HI, 而 B 中则为含 $\mathrm{Fe}^{3+}$ 的溶液, 所以有:
 
@@ -3609,7 +3609,7 @@ $$
 
 1 右图为阳离子交换膜法电解饱和食盐水原理示意图。下列说法不正确的是( )。
 A. 从 E 口逸出的气体是 $H_{2}$ B. 从 B 口加入含少量 NaOH 的水溶液以增强导电性
-C. 标准状况下每生成 $22.4 \, L Cl_{2}$ ，便产生 $2 \, mol \, NaOH$ D. 粗盐水中含 $Ca^{2+}$ 、 $Mg^{2+}$ 、 $Fe^{3+}$ 、 $SO_{4}^{2-}$ 等离溶液
+C. 标准状况下每生成 $22.4 \, L Cl_{2}$ ，便产生 $2 \, \mathrm{mol} \, NaOH$ D. 粗盐水中含 $Ca^{2+}$ 、 $Mg^{2+}$ 、 $Fe^{3+}$ 、 $SO_{4}^{2-}$ 等离溶液
 
 ![](高中化学竞赛教程第2分册万长江编,Wanchangjiangbianzhuz-library.sk,1lib.sk,z-lib.sk_1-199_images/eaa07dc08f0d8f120e43a181fb718b3cf9eea7ec706557fd6b7b8c8760ff6e6c.jpg)
 
@@ -3698,7 +3698,7 @@ C. 阴极反应: $3 \mathrm{O}_{2} + 6 \mathrm{H}_{2} \mathrm{O} + 6 \mathrm{e}^
 
 求温度 T, 给出计算过程, 最后计算结果只要求两位有效数字。
 
-注:法拉第常数 $F = 9.65 \times 10^{4} \, C \cdot mol^{-1}$ ，相对原子质量:K—39.1
+注:法拉第常数 $F = 9.65 \times 10^{4} \, C \cdot \mathrm{mol}^{-1}$ ，相对原子质量:K—39.1
 O—16.0 H—1.01
 
 9 有一种模拟电化学方法处理废水的微型实验,其基本原理是在电解过程中使低价态的金属离子 $M^{n+}$ (例如 $Co^{2+}$ ) 氧化为高价态的金属离子,然后用此高价态的金属离子作氧化剂把废水中的有机物氧化分解成 $CO_{2}$ 而净化。该电化学净化法又称间接电化学氧化,其阳极反应式为 $M^{n+}-e^{-}\longrightarrow M^{(n+1)+}$ 。若现按右图所示进行实验,试回答下列问题:
@@ -3706,7 +3706,7 @@ O—16.0 H—1.01
 ![](高中化学竞赛教程第2分册万长江编,Wanchangjiangbianzhuz-library.sk,1lib.sk,z-lib.sk_1-199_images/ca142c94e690c7f9a7f7d848bb91afb24fbd56f6efe9ec285ef66f09425bcd01.jpg)
 
 模拟有机废水组成：吸收液
-2滴甲醇, $1.0 \, mol \cdot L^{-1}$ 硫酸1 mL, $0.1 \, mol \cdot L^{-1}$ 硫酸钴4 mL
+2滴甲醇, $1.0 \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ 硫酸1 mL, $0.1 \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ 硫酸钴4 mL
 
 (1) 井穴板穴孔内应盛放\_\_\_\_溶液以便检验电解时产生的 $\mathrm{CO}_{2}$ 气体, 现象是\_\_\_\_。
 
@@ -3718,7 +3718,7 @@ O—16.0 H—1.01
 
 (3) 写出 $\mathrm{M}^{(n+1)+}$ 氧化有机物 (以甲醇为代表) 的离子方程式: \_\_\_\_。
 
-10 某远洋船只的船壳浸水面积为 $4500 \, m^{2}$ ，与锌块相连来保护，额定电流密度为 $15.0 \, mA/m^{2}$ ，预定保护期限 2 年，可选择的锌块有两种，每块的质量分别为 $15.7 \, kg$ 和 $25.9 \, kg$ ，通过每块锌块的电流强度分别为 0.92 A 和 1.2 A。计算说明，为达到上述保护船体的目的，最少各需几块锌块？用哪种锌块更合理？为什么？
+10 某远洋船只的船壳浸水面积为 $4500 \, m^{2}$ ，与锌块相连来保护，额定电流密度为 $15.0 \, mA/m^{2}$ ，预定保护期限 2 年，可选择的锌块有两种，每块的质量分别为 $15.7 \, \mathrm{kg}$ 和 $25.9 \, \mathrm{kg}$ ，通过每块锌块的电流强度分别为 0.92 A 和 1.2 A。计算说明，为达到上述保护船体的目的，最少各需几块锌块？用哪种锌块更合理？为什么？
 
 11 工业上制备金属铝通常是用石墨作电极电解熔融的 $Al_{2}O_{3}$ 。为使电解能顺利进行，常在熔融的 $Al_{2}O_{3}$ 中加入冰晶石 $\left(\mathrm{Na}_{3}\mathrm{AlF}_{6}\right)$ ，并不断补充石墨电极。
 
@@ -3804,7 +3804,7 @@ $2NaCl + 2H_{2}O \xrightarrow{电解} 2NaOH + H_{2} \uparrow + Cl_{2} \uparrow$ 
 
 (2) 电解 $\mathrm{Na}_{2} \mathrm{SO}_{4}$ 溶液的本质是电解水, 生成氢气和氧气, A 为阳离子交换膜, B 为阴离子交换膜, $\mathrm{Na}_{2} \mathrm{SO}_{4}$ 溶液应该在 II 区。I 区发生反应 (阴极): $2 \mathrm{H}_{2} \mathrm{O} + 2 \mathrm{e}^{-} \longrightarrow \mathrm{H}_{2} \uparrow + 2 \mathrm{OH}^{-}$ , II 区中 $\mathrm{Na}^{+}$ 透过阳离子交换膜 A 从右边流向左边生成 $\mathrm{NaOH}$ ; III 区发生反应 (阳极): $2 \mathrm{H}_{2} \mathrm{O} - 4 \mathrm{e}^{-} \longrightarrow 4 \mathrm{H}^{+} + \mathrm{O}_{2} \uparrow$ , II 区中 $\mathrm{SO}_{4}^{2-}$ 透过阴离子交换膜 B 从左边流向右边生成 $\mathrm{H}_{2} \mathrm{SO}_{4}$ 。
 
-答案：(1) ${\mathrm{{Na}}}^{ + }$ (2) 阳；阴；II； $2{\mathrm{H}}_{2}\mathrm{O} + 2{\mathrm{e}}^{ - } \rightarrow  {\mathrm{H}}_{2} \uparrow   + 2{\mathrm{{OH}}}^{ - };{\mathrm{H}}_{2}{\mathrm{{SO}}}_{4}$ 溶液
+答案：(1) ${\mathrm{Na}}^{ + }$ (2) 阳；阴；II； $2{\mathrm{H}}_{2}\mathrm{O} + 2{\mathrm{e}}^{ - } \rightarrow  {\mathrm{H}}_{2} \uparrow   + 2{\mathrm{OH}}^{ - };{\mathrm{H}}_{2}{\mathrm{SO}}_{4}$ 溶液
 
 7. (1) ① 正 ② $4 \mathrm{OH}^{-} - 4 \mathrm{e}^{-} \longrightarrow 2 \mathrm{H}_{2} \mathrm{O} + \mathrm{O}_{2} \uparrow$
 
@@ -3852,7 +3852,7 @@ $$
 
 12. (1) 阳极: $2 \mathrm{Cl}-\mathrm{CH}_{2} \mathrm{COO}^{-}-2 \mathrm{e}^{-} \longrightarrow \mathrm{Cl}-\mathrm{CH}_{2} \mathrm{CH}_{2}-\mathrm{Cl}+2 \mathrm{CO}_{2} \uparrow$ 阴极: $2 \mathrm{H}_{2} \mathrm{O}+2 \mathrm{e}^{-} \longrightarrow \mathrm{H}_{2} \uparrow+2 \mathrm{OH}^{-}$ 电解反应化学方程式: $2 \mathrm{ClCH}_{2} \mathrm{COOK}+2 \mathrm{H}_{2} \mathrm{O} \xrightarrow{\text {电解}} \mathrm{ClCH}_{2} \mathrm{CH}_{2} \mathrm{Cl}+2 \mathrm{KOH}+$ $2 \mathrm{CO}_{2} \uparrow+ \mathrm{H}_{2} \uparrow$
 
-(2) B: ${\mathrm{{HOCH}}}_{2}{\mathrm{{CH}}}_{2}\mathrm{{OH}}\;\mathrm{C} : \mathrm{{OHC}} - \mathrm{{CHO}}\;\mathrm{D} : \mathrm{{HOOC}} - \mathrm{{COOH}}$
+(2) B: ${\mathrm{HOCH}}_{2}{\mathrm{CH}}_{2}\mathrm{OH}\;\mathrm{C} : \mathrm{OHC} - \mathrm{CHO}\;\mathrm{D} : \mathrm{HOOC} - \mathrm{COOH}$
 
 (3) ① HOCH₂CH₂OH + HOOC-COOH → HOCH₂CH₂OCCOOH + H₂O;
 
@@ -4568,7 +4568,7 @@ E:
 
 (2) $\mathrm{dsp}^2$ 杂化
 
-(3) ${\mathrm{K}}_{2}{\mathrm{{PtCl}}}_{4}$ 转化为 $\mathrm{A}$ 的目的是使 ${\mathrm{{CH}}}_{3}{\mathrm{{NH}}}_{2}$ 更容易取代 $\mathrm{A}$ 中的碘
+(3) ${\mathrm{K}}_{2}{\mathrm{PtCl}}_{4}$ 转化为 $\mathrm{A}$ 的目的是使 ${\mathrm{CH}}_{3}{\mathrm{NH}}_{2}$ 更容易取代 $\mathrm{A}$ 中的碘
 
 (4) 下列两种答案均完全正确:
 
@@ -4875,7 +4875,7 @@ $$
 
 由失去氧的质量,将质量转化为物质的量,再结合价态升降值相等解答此题。
 
-假设以 $1 \, mol \, KMnO_{4}$ 为基准量, 失氧量:
+假设以 $1 \, \mathrm{mol} \, KMnO_{4}$ 为基准量, 失氧量:
 
 $$
 157.9\times 10.8\% \div 16.0\approx 1(\mathrm{mol})
@@ -5289,11 +5289,11 @@ $$
 
 (4) 没有变化。理由: ①过氧化氢把过氧团转移到钒原子上形成钒与过氧团配合的配合物并没有改变钒的氧化态, 所以从三角双锥到四方锥体钒的氧化态并没有发生变化; ②其后添加的水和氢离子都不是氧化剂或还原剂, 因此, 过氧团变成次氯酸的反应也没有涉及钒的氧化态的变化。结论: 在整个循环过程中钒的氧化态不变。
 
-14. (1) ${\left( {\mathrm{{NH}}}_{4}\right) }_{2}{\mathrm{{SO}}}_{4} + \mathrm{{MnC}{O}_{3}} \rightarrow  \mathrm{{MnS}{O}_{4}} + 2{\mathrm{{NH}}}_{3} \uparrow   + {\mathrm{{CO}}}_{2} \uparrow   + {\mathrm{H}}_{2}\mathrm{O} \uparrow$
+14. (1) ${\left( {\mathrm{NH}}_{4}\right) }_{2}{\mathrm{SO}}_{4} + \mathrm{{MnC}{O}_{3}} \rightarrow  \mathrm{{MnS}{O}_{4}} + 2{\mathrm{NH}}_{3} \uparrow   + {\mathrm{CO}}_{2} \uparrow   + {\mathrm{H}}_{2}\mathrm{O} \uparrow$
 
 (2) $\mathrm{MnSO_4 + 2NH_3 + CO_2 + H_2O\longrightarrow (NH_4)_2SO_4 + MnCO_3\downarrow}$
 
-(3) ${\mathrm{{MnSO}}}_{4}$ 、 ${\mathrm{{MnCO}}}_{3}$ 分解生成高价锰的氧化物而导致锰浸出率下降。
+(3) ${\mathrm{MnSO}}_{4}$ 、 ${\mathrm{MnCO}}_{3}$ 分解生成高价锰的氧化物而导致锰浸出率下降。
 
 (4) 不需加。开始投料时 $\left(\mathrm{NH}_{4}\right)_{2}\mathrm{SO}_{4}\left(132\ \mathrm{g}\cdot\mathrm{mol}^{-1}\right)$ 过量，反应生成的 $NH_{3}$ 、 $CO_{2}$ 以及 $\left(\mathrm{NH}_{4}\right)_{2}\mathrm{SO}_{4}$ 可循环利用。
 
@@ -5383,7 +5383,7 @@ $$
 
 所有镍的氨合物都比较稳定,在空气中不会被氧化。
 
-② 氰配合物: ${\mathrm{{Fe}}}^{2 + }$ 、 ${\mathrm{{Co}}}^{2 + }$ 、 ${\mathrm{{Ni}}}^{2 + }$ 、 ${\mathrm{{Fe}}}^{3 + }$ 等离子均能与 ${\mathrm{{CN}}}^{ - }$ 形成稳定的配合物。
+② 氰配合物: ${\mathrm{Fe}}^{2 + }$ 、 ${\mathrm{Co}}^{2 + }$ 、 ${\mathrm{Ni}}^{2 + }$ 、 ${\mathrm{Fe}}^{3 + }$ 等离子均能与 ${\mathrm{CN}}^{ - }$ 形成稳定的配合物。
 
 Fe(Ⅱ)与 KCN 溶液作用得白色 Fe(CN) $_{2}$ 沉淀，KCN 过量时形成 [Fe(CN) $_{6}$ ] $^{4-}$ 。
 
@@ -5583,7 +5583,7 @@ $$
 
 (2) 写出生成 A 的配平的化学方程式。
 
-(3) 将 A 和足量的 $10 \, mol \cdot L^{-1} \, H_{2}SO_{4}$ 混合微热, 生成沉淀 B、气体 C 和溶液 D。B 是主要产品, 尽管它是常见物质, 本法制得的呈超细粉末状, 有重要用途。写出这个反应式 (配平)。
+(3) 将 A 和足量的 $10 \, \mathrm{mol} \cdot \mathrm{L}^{-1} \, H_{2}SO_{4}$ 混合微热, 生成沉淀 B、气体 C 和溶液 D。B 是主要产品, 尽管它是常见物质, 本法制得的呈超细粉末状, 有重要用途。写出这个反应式 (配平)。
 
 (4) 按(3)操作得到 B 的最大理论产率是多大?
 
@@ -5751,11 +5751,11 @@ J遇淀粉溶液变蓝色
 
 $\mathrm{F:NO_2}$ ； $\mathrm{G:KI}$ ； $\mathrm{H:HgI_2}$ ； $\mathrm{I:K_2[HgI_4]}$ ； $\mathrm{J:I_2}$
 
-① $2\mathrm{{HgO}} \xrightarrow[]{\bigtriangleup } 2\mathrm{{Hg}} + {\mathrm{O}}_{2} \uparrow$
+① $2\mathrm{HgO} \xrightarrow[]{\bigtriangleup } 2\mathrm{Hg} + {\mathrm{O}}_{2} \uparrow$
 
 ② $3\mathrm{Hg} + 8\mathrm{HNO}_3 \longrightarrow 3\mathrm{Hg(NO_3)_2 + 2NO\uparrow + 4H_2O}$
 
-③ $2\mathrm{{NO}} + {\mathrm{O}}_{2} \rightarrow  2{\mathrm{{NO}}}_{2}$
+③ $2\mathrm{NO} + {\mathrm{O}}_{2} \rightarrow  2{\mathrm{NO}}_{2}$
 
 ④ $\mathrm{Hg(NO_3)_2 + 2KI\longrightarrow HgI_2\downarrow + 2KNO_3}$
 
@@ -5823,7 +5823,7 @@ $y = 2$ （设 $y$ 为其他自然数均不合题意），得 $M_{\mathrm{M}} = 
 
 ![](高中化学竞赛教程第2分册万长江编,Wanchangjiangbianzhuz-library.sk,1lib.sk,z-lib.sk_1-199_images/134f93d55375ab654f9d79ef7e3cae1605259729b000b96ced13a24d3d7a9472.jpg)
 
-(3) ${\mathrm{{NO}}}_{2}^{ - }$ 为角型,夹角略小于 ${120}^{ \circ  },\mathrm{N}$ 取 ${\mathrm{{sp}}}^{2}$ 杂化轨道。
+(3) ${\mathrm{NO}}_{2}^{ - }$ 为角型,夹角略小于 ${120}^{ \circ  },\mathrm{N}$ 取 ${\mathrm{sp}}^{2}$ 杂化轨道。
 
 (4) 见上。
 

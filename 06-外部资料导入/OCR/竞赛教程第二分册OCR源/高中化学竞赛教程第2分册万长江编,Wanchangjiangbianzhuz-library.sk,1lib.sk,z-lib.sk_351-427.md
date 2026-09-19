@@ -209,7 +209,7 @@ B:
 
 (3) 顺式脂肪酸分子间空隙大, 分子间作用力相对比较弱, 反式脂肪酸分子间空隙小, 分子作用力相对比较大, 所以反式脂肪酸熔点较高, 大多为固态物质, 在血管中易形成“堵块”而堵塞血管
 
-(4) 甲(1)→乙(s) $\Delta H=+\frac{282Q}{a}kJ\cdot mol^{-1}$
+(4) 甲(1)→乙(s) $\Delta H=+\frac{282Q}{a}\mathrm{kJ}\cdot \mathrm{mol}^{-1}$
 
 13. 首先采用逆合成法,根据名称写出目标物的结构简式,3-氨基-2,5-二氯苯甲酸的
 
@@ -775,7 +775,7 @@ Engel 研究小组新合成出一类水溶性非水离子液体 LIPs(如右式)�
 或  
 ![](高中化学竞赛教程第2分册万长江编,Wanchangjiangbianzhuz-library.sk,1lib.sk,z-lib.sk_351-427_images/5b42911aefc301d5467b50c1ecdce67a9bec9af440785125350f70ecadd69ab1.jpg)
 
-7. A. ${\mathrm{{HOCH}}}_{2}{\left( \mathrm{{CHOH}}\right) }_{4}\mathrm{{CHO}}$ $\mathrm{B.} {\mathrm{{HOCH}}}_{2}{\left( \mathrm{{CHOH}}\right) }_{4}\mathrm{{COOH}}$ C. $\mathrm{{HOOC}}{\left( \mathrm{{CHOH}}\right) }_{4}\mathrm{{COOH}}$ $\mathrm{D.} {\mathrm{{HOCH}}}_{2}{\left( \mathrm{{CHOH}}\right) }_{4}{\mathrm{{CH}}}_{2}\mathrm{{OH}}$
+7. A. ${\mathrm{HOCH}}_{2}{\left( \mathrm{CHOH}\right) }_{4}\mathrm{CHO}$ $\mathrm{B.} {\mathrm{HOCH}}_{2}{\left( \mathrm{CHOH}\right) }_{4}\mathrm{COOH}$ C. $\mathrm{HOOC}{\left( \mathrm{CHOH}\right) }_{4}\mathrm{COOH}$ $\mathrm{D.} {\mathrm{HOCH}}_{2}{\left( \mathrm{CHOH}\right) }_{4}{\mathrm{CH}}_{2}\mathrm{OH}$
 
 E.  
 ![](高中化学竞赛教程第2分册万长江编,Wanchangjiangbianzhuz-library.sk,1lib.sk,z-lib.sk_351-427_images/d66e6d6af288cdf7df17b9fc13c6e6fde6dc092056fc1883b0dac134c8ac42bf.jpg)
@@ -952,7 +952,7 @@ $$
 
 据此信息回答下列问题：
 
-(1) 异戊二烯的结构简式为 ${\mathrm{{CH}}}_{2} = \mathrm{C} - \mathrm{{CH}} = {\mathrm{{CH}}}_{2}$ ,则它的臭氧化分解的产物为\_\_\_\_；
+(1) 异戊二烯的结构简式为 ${\mathrm{CH}}_{2} = \mathrm{C} - \mathrm{CH} = {\mathrm{CH}}_{2}$ ,则它的臭氧化分解的产物为\_\_\_\_；
 
 (2)天然橡胶是异戊二烯的加聚产物,其结构简式为 $\left[CH_{2}-C=CH-CH_{2}\right]_{n}$ ,
 则它的臭氧化分解的产物为\_\_\_\_；
@@ -1584,7 +1584,7 @@ MnO(OH));
 
 $Fe^{3+}$ 具有中等强度的氧化性,又由于它具有空轨道,因此可以与许多具有孤对电子的离子形成配离子。如与 $H_{2}O$ 、 $Cl^{-}$ 、 $SCN^{-}$ 、 $F^{-}$ 、 $C_{2}O_{4}^{2-}$ 、 $CN^{-}$ 等配合。 $CN^{-}$ 在性质上与卤离子( $X^{-}$ )相似,而(CN) $_{2}$ 则类似游离卤素( $X_{2}$ ),故(CN) $_{2}$ 称为拟卤素。
 
-制备黄血盐 $\left\{  {{\mathrm{K}}_{4}\left\lbrack  {\mathrm{{Fe}}{\left( \mathrm{{CN}}\right) }_{6}}\right\rbrack  }\right\}$ 可以由 ${\mathrm{{FeSO}}}_{4}$ 与 $\mathrm{{KCN}}$ 直接在溶液中作用而合成,但制备赤血盐 $\left\{K_{3}\left[Fe(CN)_{6}\right]\right\}$ 却不能直接用 $Fe^{3+}$ 与 $CN^{-}$ 作用而得,而是采用氧化剂 $Cl_{2}$ 或 $H_{2}O_{2}$ 将黄血盐氧化为赤血盐。
+制备黄血盐 $\left\{  {{\mathrm{K}}_{4}\left\lbrack  {\mathrm{Fe}{\left( \mathrm{CN}\right) }_{6}}\right\rbrack  }\right\}$ 可以由 ${\mathrm{FeSO}}_{4}$ 与 $\mathrm{KCN}$ 直接在溶液中作用而合成,但制备赤血盐 $\left\{K_{3}\left[Fe(CN)_{6}\right]\right\}$ 却不能直接用 $Fe^{3+}$ 与 $CN^{-}$ 作用而得,而是采用氧化剂 $Cl_{2}$ 或 $H_{2}O_{2}$ 将黄血盐氧化为赤血盐。
 
 铅位于第6周期ⅣA族,具有+2价、+4价两种氧化态,溶液中的无色 $\mathrm{Pb}^{2+}$ 遇 $\mathrm{S}^{2-}$ 生成溶于硝酸的黑色PbS沉淀,遇 $\mathrm{CrO}_{4}^{2-}$ 生成黄色沉淀(铬黄颜料),此反应很灵敏;棕色+4价氧化物是铅蓄电池的阳极材料,其氧化性很强,在酸性溶液中能把 $\mathrm{Mn}^{2+}$ 氧化成 $\mathrm{MnO}_{4}^{-}$ 。
 
@@ -1654,7 +1654,7 @@ $Fe^{3+}$ 具有中等强度的氧化性,又由于它具有空轨道,因此可�
 
 ## 五、(本题共有2小题,共17分)
 
-14 (9 分)某实验人员做了下列实验: 将一定量 $1.00 \, mol \cdot L^{-1} \, CuSO_{4}$ 溶液和 $2.00 \, mol \cdot L^{-1} \, NaOH$ 溶液混合, 得到一种浅绿色沉淀 X。将 $0.499 \, g \times X$ 隔绝空气在 $1000^{\circ}C$ 以上强热, 得到一种红色固体 Y, 质量为 $0.316 \, g$ 。Y 溶于酸得到另一种红色固体 $0.141 \, g$ 。
+14 (9 分)某实验人员做了下列实验: 将一定量 $1.00 \, \mathrm{mol} \cdot \mathrm{L}^{-1} \, CuSO_{4}$ 溶液和 $2.00 \, \mathrm{mol} \cdot \mathrm{L}^{-1} \, NaOH$ 溶液混合, 得到一种浅绿色沉淀 X。将 $0.499 \, g \times X$ 隔绝空气在 $1000^{\circ}C$ 以上强热, 得到一种红色固体 Y, 质量为 $0.316 \, g$ 。Y 溶于酸得到另一种红色固体 $0.141 \, g$ 。
 
 (1) 该实验人员认为沉淀 X 可能含有 $SO_{4}^{2-}$ 。请设计一个简单实验确定这一判断。
 
@@ -1684,7 +1684,7 @@ $Fe^{3+}$ 具有中等强度的氧化性,又由于它具有空轨道,因此可�
 
 答案: (1) $\mathrm{Na}^{+}$ (2) 阳阴 $\mathrm{II} 2 \mathrm{H}_{2} \mathrm{O} + 2 \mathrm{e}^{-} \longrightarrow \mathrm{H}_{2} \uparrow + 2 \mathrm{OH}^{-} \quad \mathrm{H}_{2} \mathrm{SO}_{4}$ 溶液
 
-7. (1) ① 阳极: $\mathrm{{Zn}}\left( \mathrm{s}\right)  \rightarrow$ ${\mathrm{{Zn}}}^{2 + }\left( \mathrm{{aq}}\right)  + 2{\mathrm{e}}^{ - }$
+7. (1) ① 阳极: $\mathrm{Zn}\left( \mathrm{s}\right)  \rightarrow$ ${\mathrm{Zn}}^{2 + }\left( \mathrm{aq}\right)  + 2{\mathrm{e}}^{ - }$
 
 阴极: $2 \mathrm{MnO}_{2}(\mathrm{s}) + 2 \mathrm{H}_{2} \mathrm{O}(\mathrm{l}) + 2 \mathrm{e}^{-} \longrightarrow 2 \mathrm{MnOOH}(\mathrm{s}) + 2 \mathrm{OH}^{-}(\mathrm{aq})$
 
@@ -1722,7 +1722,7 @@ $$
 
 10. 解析：（1）接触法制硫酸中二氧化硫氧化为三氧化硫使用的催化剂为五氧化二钒。
 
-(2)五氧化二钒具有两性,但主要显酸性。溶于碱溶液中生成正钒酸盐,例如 ${\mathrm{V}}_{2}{\mathrm{O}}_{5} + 6\mathrm{{NaOH}} \rightarrow   2{\mathrm{{Na}}}_{3}{\mathrm{{VO}}}_{4} + 3{\mathrm{H}}_{2}\mathrm{O}$ ;溶于强酸性溶液中生成 ${\mathrm{{VO}}}_{2}^{ + }$ 离子,例如 ${\mathrm{V}}_{2}{\mathrm{O}}_{5} + {\mathrm{H}}_{2}{\mathrm{{SO}}}_{4} \rightarrow  {\left( {\mathrm{{VO}}}_{2}\right) }_{2}{\mathrm{{SO}}}_{4} + {\mathrm{H}}_{2}\mathrm{O}$ 。
+(2)五氧化二钒具有两性,但主要显酸性。溶于碱溶液中生成正钒酸盐,例如 ${\mathrm{V}}_{2}{\mathrm{O}}_{5} + 6\mathrm{NaOH} \rightarrow   2{\mathrm{Na}}_{3}{\mathrm{VO}}_{4} + 3{\mathrm{H}}_{2}\mathrm{O}$ ;溶于强酸性溶液中生成 ${\mathrm{VO}}_{2}^{ + }$ 离子,例如 ${\mathrm{V}}_{2}{\mathrm{O}}_{5} + {\mathrm{H}}_{2}{\mathrm{SO}}_{4} \rightarrow  {\left( {\mathrm{VO}}_{2}\right) }_{2}{\mathrm{SO}}_{4} + {\mathrm{H}}_{2}\mathrm{O}$ 。
 
 五氧化二钒具有较强的氧化性,它与盐酸作用生成二氯氧化钒并放出氯气。
 
@@ -1734,7 +1734,7 @@ $$
 
 ![](高中化学竞赛教程第2分册万长江编,Wanchangjiangbianzhuz-library.sk,1lib.sk,z-lib.sk_351-427_images/b963fe0eec7e49e557c5039f6138c5fef0e019e1debaaa164cdb0c9540b91a41.jpg)
 
-(4) 乙酰丙酮(2,4-戊二酮)的结构式为 ${\mathrm{H}}_{3}\mathrm{C} - \mathrm{C} - {\mathrm{{CH}}}_{2} - \mathrm{C} - {\mathrm{{CH}}}_{3}$ 。B与乙酰丙酮
+(4) 乙酰丙酮(2,4-戊二酮)的结构式为 ${\mathrm{H}}_{3}\mathrm{C} - \mathrm{C} - {\mathrm{CH}}_{2} - \mathrm{C} - {\mathrm{CH}}_{3}$ 。B与乙酰丙酮
 
 ![](高中化学竞赛教程第2分册万长江编,Wanchangjiangbianzhuz-library.sk,1lib.sk,z-lib.sk_351-427_images/4195577c5ba331a1f5e181efaaa31cff18c22c5229356618b702c36770c30ec0.jpg)
 
@@ -1774,9 +1774,9 @@ $$
 
 醛,所以容易聚合。Z和HCl反应应是加成反应,生成了 $CH_{3}CHCOOH$ ,因此氨解生成了 $CH_{3}CHCOOH$ 。
 
-答案：(1) ${\mathrm{{CH}}}_{3}{\mathrm{{COOCH}}}_{2}{\mathrm{{CH}}}_{2}{\mathrm{{CH}}}_{3}$
+答案：(1) ${\mathrm{CH}}_{3}{\mathrm{COOCH}}_{2}{\mathrm{CH}}_{2}{\mathrm{CH}}_{3}$
 
-(2) $2{\mathrm{{CH}}}_{3}{\mathrm{{CH}}}_{2}{\mathrm{{CH}}}_{2}\mathrm{{OH}} + {\mathrm{O}}_{2}\xrightarrow[]{\text{催化剂}}2{\mathrm{{CH}}}_{3}{\mathrm{{CH}}}_{2}\mathrm{{CHO}} + 2{\mathrm{H}}_{2}\mathrm{O}$
+(2) $2{\mathrm{CH}}_{3}{\mathrm{CH}}_{2}{\mathrm{CH}}_{2}\mathrm{OH} + {\mathrm{O}}_{2}\xrightarrow[]{\text{催化剂}}2{\mathrm{CH}}_{3}{\mathrm{CH}}_{2}\mathrm{CHO} + 2{\mathrm{H}}_{2}\mathrm{O}$
 
 (3) ① $\mathrm{CH}_{3} \mathrm{CHCHO}$
 
@@ -1816,11 +1816,11 @@ $$
 
 (2) 苯-水分配系数为 $K_{d}=\frac{[HA]_{b}}{[HA]_{w}}=1.00$ ,
 所以，平衡状态下的浓度为 $\left[HA\right]_{b}=\left[HA\right]_{w}=2.55\times10^{-3}\left(\mathrm{mol}\cdot\mathrm{L}^{-1}\right)$ 。
-有机层含有 $3.96 \times 10^{-3} \, mol \cdot L^{-1}$ 的 X。
+有机层含有 $3.96 \times 10^{-3} \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ 的 X。
 
 二聚反应是 $2\mathrm{HA}\rightleftharpoons(\mathrm{HA})_{2}$ 。
 
-因此， $2[(HA)_{2}]+[HA]_{b}=3.96\times10^{-3}(mol\cdot L^{-1})$ ，得出 $[(HA)_{2}]=7.05\times10^{-4}(mol\cdot L^{-1})$ 。
+因此， $2[(HA)_{2}]+[HA]_{b}=3.96\times10^{-3}(\mathrm{mol}\cdot \mathrm{L}^{-1})$ ，得出 $[(HA)_{2}]=7.05\times10^{-4}(\mathrm{mol}\cdot \mathrm{L}^{-1})$ 。
 
 二聚常数是 $K_{\mathrm{dim}} = \frac{7.05\times 10^{-4}}{(2.55\times 10^{-3})^2} = 108$
 
@@ -2038,7 +2038,7 @@ $\mathrm{E}\rightarrow \mathrm{F}:4\mathrm{CrO}_3\xrightarrow{\triangle}2\mathrm
 
 (2) $\mathrm{Fe(II)}$ $[\mathrm{Fe(CN)_5(NO)}]^{2 - } + \mathrm{S}^{2 - }\longrightarrow [\mathrm{Fe(CN)_5(NOS)}]^4 -$
 
-(3) ${\mathrm{{Pb}}}^{2 + }$ 与 ${\mathrm{{NO}}}_{3}^{ - }$ 形成络离子 (配离子或配合物)。写方程式也可,如 ${\mathrm{{PbSO}}}_{4} + {\mathrm{H}}^{ + } +$ ${\mathrm{{NO}}}_{3}^{ - } \rightarrow  {\mathrm{{HSO}}}_{4}^{ - } + \mathrm{{Pb}}{\left( {\mathrm{{NO}}}_{3}\right) }^{ + }$ 。若将络离子 (配离子或配合物) 写成 $\mathrm{{Pb}}{\left( {\mathrm{{NO}}}_{3}\right) }_{2}$ 或 $\mathrm{{Pb}}{\left( {\mathrm{{NO}}}_{3}\right) }_{3}^{ - }$ 也对。
+(3) ${\mathrm{Pb}}^{2 + }$ 与 ${\mathrm{NO}}_{3}^{ - }$ 形成络离子 (配离子或配合物)。写方程式也可,如 ${\mathrm{PbSO}}_{4} + {\mathrm{H}}^{ + } +$ ${\mathrm{NO}}_{3}^{ - } \rightarrow  {\mathrm{HSO}}_{4}^{ - } + \mathrm{Pb}{\left( {\mathrm{NO}}_{3}\right) }^{ + }$ 。若将络离子 (配离子或配合物) 写成 $\mathrm{Pb}{\left( {\mathrm{NO}}_{3}\right) }_{2}$ 或 $\mathrm{Pb}{\left( {\mathrm{NO}}_{3}\right) }_{3}^{ - }$ 也对。
 
 8. (1) ① $6 \mathrm{CuFeS}_{2} + 13 \mathrm{O}_{2} \xrightarrow{\text { 煅烧 }} 3 \mathrm{Cu}_{2} \mathrm{~S} + 2 \mathrm{Fe}_{3} \mathrm{O}_{4} + 9 \mathrm{SO}_{2}$
 

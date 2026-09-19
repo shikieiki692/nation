@@ -231,7 +231,7 @@ $$
 
 ## 习题解析
 
-2.1 在 $25^{\circ}$ C 时, 若电视机用显像管的真空度为 $4.0 \times 10^{-7}$ Pa, 体积为 $2.0 \, dm^{3}$ , 试求管中气体的分子数 (N)。
+2.1 在 $25^{\circ}$ C 时, 若电视机用显像管的真空度为 $4.0 \times 10^{-7}$ Pa, 体积为 $2.0 \, \mathrm{dm}^{3}$ , 试求管中气体的分子数 (N)。
 
 解
 
@@ -251,7 +251,7 @@ $$
 \begin{array}{r l} n & = n _ {\mathrm{前}} - n _ {\mathrm{后}} = \frac {p _ {\mathrm{前}} V}{R T} - \frac {p _ {\mathrm{后}} V}{R T} = \frac {(p _ {\mathrm{前}} - p _ {\mathrm{后}}) V}{R T} \\ & = \frac {(12.6 - 10.1) \mathrm{MPa} \times 10 ^ {3} \mathrm{kPa/MPa} \times 40.0 \mathrm{dm} ^ {3}}{8.31 \mathrm{kPa} \cdot \mathrm{dm} ^ {3} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{K} ^ {- 1} \times 295.7 \mathrm{K}} \\ & = 41 \mathrm{mol} \\ m (\mathrm{N} _ {2}) & = 41 \mathrm{mol} \times 28.0 \times 10 ^ {- 3} \mathrm{kg} \cdot \mathrm{mol} ^ {- 1} = 1.1 \mathrm{kg} \end{array}
 $$
 
-2.3 标准参考温度计都是气体体积温度计,根据气体体积膨胀划分刻度,优质的水银温度计常用气体体积温度计校准。某定压氢气温度计在 $25.0^{\circ}C$ 、101 kPa 时体积为 $150 \, cm^{3}$ ，在沸腾的液氨中体积降为 $121 \, cm^{3}$ ，求液氨的沸点。
+2.3 标准参考温度计都是气体体积温度计,根据气体体积膨胀划分刻度,优质的水银温度计常用气体体积温度计校准。某定压氢气温度计在 $25.0^{\circ}C$ 、101 kPa 时体积为 $150 \, \mathrm{cm}^{3}$ ，在沸腾的液氨中体积降为 $121 \, \mathrm{cm}^{3}$ ，求液氨的沸点。
 
 解
 
@@ -259,7 +259,7 @@ $$
 T _ {2} = \frac {V _ {2} T _ {1}}{V _ {1}} = \frac {121 \mathrm{cm} ^ {3} \times 298 \mathrm{K}}{150 \mathrm{cm} ^ {3}} = 240 \mathrm{K} \quad \text {液氨沸点为} - 33 ^ {\circ} \mathrm{C。}
 $$
 
-2.4 实验测定在 $310^{\circ}C$ 、101 kPa 时单质气态磷的密度是 $2.64 \, g \cdot dm^{-3}$ ，求磷的分子式。
+2.4 实验测定在 $310^{\circ}C$ 、101 kPa 时单质气态磷的密度是 $2.64 \, g \cdot \mathrm{dm}^{-3}$ ，求磷的分子式。
 
 $$
 \mathrm{解} M = \frac {\rho R T}{p} = \frac {2.64 \mathrm{g} \cdot \mathrm{dm} ^ {- 3} \times 8.31 \mathrm{kPa} \cdot \mathrm{dm} ^ {3} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{K} ^ {- 1} \times 583 \mathrm{K}}{101 \mathrm{kPa}} = 127 \mathrm{g} \cdot \mathrm{mol} ^ {- 1}
@@ -281,7 +281,7 @@ $$
 \frac {V _ {1}}{T _ {1}} = \frac {V _ {2}}{T _ {2}}, V _ {2} = \frac {V _ {1} T _ {2}}{T _ {1}} = \frac {2.00 \mathrm{m} ^ {3} \times (273 + 900) \mathrm{K}}{273 \mathrm{K}} = 8.59 \mathrm{m} ^ {3}
 $$
 
-2.7 在 $20^{\circ}C$ 、99.0 kPa 时用排水集气法要收集 $1.50 \, dm^{3}$ 氧气，至少要取多少克 $KClO_{3}$ （用 $MnO_{2}$ 作催化剂）进行热分解？已知：在 $20^{\circ}C$ ， $p(\mathrm{H}_{2}\mathrm{O}) = 2.34 \, \mathrm{kPa}$ 。
+2.7 在 $20^{\circ}C$ 、99.0 kPa 时用排水集气法要收集 $1.50 \, \mathrm{dm}^{3}$ 氧气，至少要取多少克 $KClO_{3}$ （用 $MnO_{2}$ 作催化剂）进行热分解？已知：在 $20^{\circ}C$ ， $p(\mathrm{H}_{2}\mathrm{O}) = 2.34 \, \mathrm{kPa}$ 。
 
 解
 
@@ -321,7 +321,7 @@ $$
 (2) p (\mathrm{CO} _ {2}) = \frac {p _ {\text {总}} \times V (\mathrm{CO} _ {2})}{V _ {\text {总}}} = \frac {101 \mathrm{kPa} \times 3.8}{100} = 3.8 \mathrm{kPa}
 $$
 
-2.10 在 $27^{\circ}C$ ，将纯净干燥、体积比为 1:2 的氮气和氢气储于 $60.0 \, dm^{3}$ 容器中，混合气体总质量为 64.0 g，求氮气与氢气的分压。
+2.10 在 $27^{\circ}C$ ，将纯净干燥、体积比为 1:2 的氮气和氢气储于 $60.0 \, \mathrm{dm}^{3}$ 容器中，混合气体总质量为 64.0 g，求氮气与氢气的分压。
 
 解 设容器中 $n(\mathrm{N}_2) = x\mathrm{mol}$ ，则 $n(\mathrm{H}_2) = 2x\mathrm{mol}$ ，于是
 
@@ -371,7 +371,7 @@ $$
 V (\mathrm{C} _ {2} \mathrm{H} _ {2}) = 20 \mathrm{cm} ^ {3}, \quad \varphi (\mathrm{C} _ {2} \mathrm{H} _ {2}) = 20 \mathrm{cm} ^ {3} / 45 \mathrm{cm} ^ {3} = 44
 $$
 
-2.13 在 $57^{\circ}C$ ，让空气通过水，用排水集气法在 $1.00 \times 10^{5}$ Pa 下，把气体收集在一个带活塞的瓶中。此时，湿空气体积为 $1.00 \, dm^{3}$ 。已知：在 $57^{\circ}C, p(\mathrm{H}_{2}\mathrm{O}) = 17 \, \mathrm{kPa}$ ; 在 $10^{\circ}C, p(\mathrm{H}_{2}\mathrm{O}) = 1.2 \, \mathrm{kPa}$ ，问：
+2.13 在 $57^{\circ}C$ ，让空气通过水，用排水集气法在 $1.00 \times 10^{5}$ Pa 下，把气体收集在一个带活塞的瓶中。此时，湿空气体积为 $1.00 \, \mathrm{dm}^{3}$ 。已知：在 $57^{\circ}C, p(\mathrm{H}_{2}\mathrm{O}) = 17 \, \mathrm{kPa}$ ; 在 $10^{\circ}C, p(\mathrm{H}_{2}\mathrm{O}) = 1.2 \, \mathrm{kPa}$ ，问：
 
 (1) 温度不变, 若压力降为 $5.00 \times 10^{4}$ Pa 时, 该气体体积变为多少?
 
@@ -401,7 +401,7 @@ $$
 
 (1) 为 $CHCl_{3}$ 所饱和的空气, 在该条件下的体积应是多少?
 
-(2) 这 $4.0 \, dm^{3}$ 干空气带走多少克 $CHCl_{3}$ ?
+(2) 这 $4.0 \, \mathrm{dm}^{3}$ 干空气带走多少克 $CHCl_{3}$ ?
 
 解 (1) $n$ (空气) 不变, $T = 313\mathrm{K}$
 
@@ -417,7 +417,7 @@ $$
 \begin{array}{r l} m (\mathrm{CHCl} _ {3}) & = \frac {M (\mathrm{CHCl} _ {3}) \times p (\mathrm{CHCl} _ {3}) \times V _ {2}}{R T} \\ & = \frac {119.4 \mathrm{g} \cdot \mathrm{mol} ^ {- 1} \times 49.3 \mathrm{kPa} \times 8.0 \mathrm{dm} ^ {3}}{8.31 \mathrm{kPa} \cdot \mathrm{dm} ^ {3} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{K} ^ {- 1} \times 313 \mathrm{K}} = 18 \mathrm{g} \end{array} \tag {2}
 $$
 
-2.15 在 $250^{\circ}C$ ， $PCl_{5}$ 全部气化并部分解离为 $\mathrm{PCl}_{3}(\mathrm{~g})$ 和 $\mathrm{Cl}_{2}(\mathrm{~g})$ 。将 $2.98\ g\ PCl_{5}$ 置于 $1.00\ dm^{3}$ 容器中，在 $250^{\circ}C$ 全部气化之后，测得体系总压力为 113 kPa，那么其中含有哪些气体？它们的分压各是多少？
+2.15 在 $250^{\circ}C$ ， $PCl_{5}$ 全部气化并部分解离为 $\mathrm{PCl}_{3}(\mathrm{~g})$ 和 $\mathrm{Cl}_{2}(\mathrm{~g})$ 。将 $2.98\ g\ PCl_{5}$ 置于 $1.00\ \mathrm{dm}^{3}$ 容器中，在 $250^{\circ}C$ 全部气化之后，测得体系总压力为 113 kPa，那么其中含有哪些气体？它们的分压各是多少？
 
 解 假设气体 $PCl_{5}$ 没有解离, 则应有的压力 ( $p'$ ) 为
 
@@ -531,7 +531,7 @@ $$
 
 解 整理已知数据,所得结果列于下表中:
 
-<table><tr><td>p/kPa</td><td>101.3</td><td>67.54</td><td>50.65</td><td>33.76</td><td>25.33</td></tr><tr><td> $\frac{\rho / p}{g \cdot dm^{-3} \cdot kPa^{-1}}$ </td><td>0.02277</td><td>0.02259</td><td>0.02251</td><td>0.02243</td><td>0.02237</td></tr></table>
+<table><tr><td>p/kPa</td><td>101.3</td><td>67.54</td><td>50.65</td><td>33.76</td><td>25.33</td></tr><tr><td> $\frac{\rho / p}{g \cdot \mathrm{dm}^{-3} \cdot kPa^{-1}}$ </td><td>0.02277</td><td>0.02259</td><td>0.02251</td><td>0.02243</td><td>0.02237</td></tr></table>
 
 根据表中数据，以 $\frac{\rho / p}{\mathrm{g} \cdot \mathrm{dm}^{-3} \cdot \mathrm{kPa}^{-1}}$ 对 $(p / \mathrm{kPa})$ 作图，外延至 $p / \mathrm{kPa} \approx 0$ 时， $\rho / p = 0.02225 \mathrm{~g} \cdot \mathrm{dm}^{-3} \cdot \mathrm{kPa}^{-1}$ 。
 
@@ -623,7 +623,7 @@ $$
 \begin{array}{r l} \text {   斜率   } & = \frac {1.42 - 0.39}{(5.00 - 6.00) \times 10 ^ {- 3}} \\ & = - \frac {\Delta H _ {\mathrm{vap}}}{2.30 R} \mathrm{K} ^ {- 1} \\ & \Delta H _ {\mathrm{vap}} = 19.7 \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1} \end{array}
 $$
 
-3.3 已知丙酮的正常沸点是 $56.5^{\circ}C$ ，摩尔蒸发热是 $30.3 \, kJ \cdot mol^{-1}$ 。试求在 $20.0^{\circ}C$ 时丙酮的蒸气压。
+3.3 已知丙酮的正常沸点是 $56.5^{\circ}C$ ，摩尔蒸发热是 $30.3 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ 。试求在 $20.0^{\circ}C$ 时丙酮的蒸气压。
 
 $$
 \begin{array}{r l} {\mathrm{解}} & {\lg \frac {p _ {2}}{101.3 \mathrm{kPa}} = \frac {30.3 \times 10 ^ {3} \mathrm{J} \cdot \mathrm{mol} ^ {- 1}}{2.303 \times 8.31 \mathrm{J} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{K} ^ {- 1}} \left(\frac {293.2 \mathrm{K} - 329.7 \mathrm{K}}{293.2 \mathrm{K} \times 329.7 \mathrm{K}}\right)} \\ & {p _ {2} = 25.6 \mathrm{kPa}} \end{array}
@@ -646,7 +646,7 @@ $$
 
 3.5 在青藏高原某山地，测得水的沸点为 $93^{\circ}$ C，估计该地大气压是多少。
 
-解 由 3.4 题知, 水的 $\Delta H_{vap}=43\ kJ\cdot mol^{-1}$
+解 由 3.4 题知, 水的 $\Delta H_{vap}=43\ \mathrm{kJ}\cdot \mathrm{mol}^{-1}$
 
 $$
 \lg \frac {p _ {2}}{101.3 \mathrm{kPa}} = \frac {43 \times 10 ^ {3} \mathrm{J} \cdot \mathrm{mol} ^ {- 1}}{2.303 \times 8.31 \mathrm{J} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{K} ^ {- 1}} \left(\frac {366 \mathrm{K} - 373 \mathrm{K}}{366 \mathrm{K} \times 373 \mathrm{K}}\right)
@@ -654,7 +654,7 @@ $$
 
 $p_{2}=78\ kPa$ ，即该处的大气压为78kPa。
 
-3.6 在一个体积为 $482 \, cm^{3}$ 的密闭容器里有 0.105 g 水。在 $50^{\circ}C$ 时，其中蒸气和液体各是多少？
+3.6 在一个体积为 $482 \, \mathrm{cm}^{3}$ 的密闭容器里有 0.105 g 水。在 $50^{\circ}C$ 时，其中蒸气和液体各是多少？
 
 解 若全部气化,则
 
@@ -672,7 +672,7 @@ $$
 m (\text {液}) = 0.105 \mathrm{g} - 0.040 \mathrm{g} = 0.065 \mathrm{g}
 $$
 
-3.7 实验测定液态溴在 $25.0^{\circ}C$ 的饱和蒸气密度是 $0.00194 \, g \cdot cm^{-3}$ ，计算液溴在 $25.0^{\circ}C$ 时的蒸气压。
+3.7 实验测定液态溴在 $25.0^{\circ}C$ 的饱和蒸气密度是 $0.00194 \, g \cdot \mathrm{cm}^{-3}$ ，计算液溴在 $25.0^{\circ}C$ 时的蒸气压。
 
 $$
 \begin{array}{r l} \text {解} & p = \frac {\rho R T}{M} \\ & = \frac {0.00194 \mathrm{g} \cdot \mathrm{cm} ^ {- 3} \times 10 ^ {3} \mathrm{cm} ^ {3} \cdot \mathrm{dm} ^ {- 3} \times 8.31 \mathrm{kPa} \cdot \mathrm{dm} ^ {3} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{K} ^ {- 1} \times 298 \mathrm{K}}{79.9 \times 2 \mathrm{g} \cdot \mathrm{mol} ^ {- 1}} \\ & = 30.1 \mathrm{kPa} \end{array}
@@ -682,7 +682,7 @@ $$
 
 解 不对。纯组分物质以何种状态存在,不只是取决于温度,还取决于压力。此外,还可以有过冷液体和过热液体。
 
-3.9 在 $20^{\circ}$ C 及恒定外压的条件下, 若有 $1.00 \, dm^{3}$ 含饱和水蒸气的空气通过焦性没食子酸溶液后, 其中 $O_{2}$ 全部被吸收, 求剩余气体的总体积。(干燥空气的体积分数: $O_{2}$ 为 21%, $N_{2}$ 为 79%; 忽略焦性没食子酸对水蒸气压的影响。)
+3.9 在 $20^{\circ}$ C 及恒定外压的条件下, 若有 $1.00 \, \mathrm{dm}^{3}$ 含饱和水蒸气的空气通过焦性没食子酸溶液后, 其中 $O_{2}$ 全部被吸收, 求剩余气体的总体积。(干燥空气的体积分数: $O_{2}$ 为 21%, $N_{2}$ 为 79%; 忽略焦性没食子酸对水蒸气压的影响。)
 
 解 湿空气通过焦性没食子酸后, 其中 $O_{2}$ 被吸收了。因总压不变, 总体积缩小后, 为了保持 $20^{\circ}C$ 的恒定饱和水蒸气压, 会有部分水蒸气凝结为水。湿空气中只有 $N_{2}$ 气分子数没有变化, 故可以对 $N_{2}$ 气应用分压定律或 Boyle 定律, 从而求得剩余气体总体积 ( $V_{x}$ ):
 
@@ -690,7 +690,7 @@ $$
 \begin{array}{r l} {[ p _ {\mathrm{总}} - p (\mathrm {H_ {2} O}) ] \times 0.79 \times 1.00 \mathrm{dm} ^ {3} = [ p _ {\mathrm{总}} - p (\mathrm {H_ {2} O}) ] V _ {x}} \\ & {V _ {x} = 0.79 \mathrm{dm} ^ {3}} \end{array}
 $$
 
-3.10 在 293 K 和 101.3 kPa 条件下, 有 $1.00 \, dm^{3}$ 干燥空气 (设其体积分数为: $O_{2}$ 21.0%, $N_{2}$ 79.0%) 通过盛水气瓶后, 饱和湿空气的总体积应是多少? 湿空气中各气体的分压又是多少?
+3.10 在 293 K 和 101.3 kPa 条件下, 有 $1.00 \, \mathrm{dm}^{3}$ 干燥空气 (设其体积分数为: $O_{2}$ 21.0%, $N_{2}$ 79.0%) 通过盛水气瓶后, 饱和湿空气的总体积应是多少? 湿空气中各气体的分压又是多少?
 
 解
 
@@ -712,7 +712,7 @@ $$
 p (\mathrm{N} _ {2}) = p (\mathrm{O} _ {2}, \mathrm{N} _ {2}) \times 79.0 \% = 99.0 \mathrm{kPa} \times 0.790 = 78.2 \mathrm{kPa}
 $$
 
-3.11 0.0396 g Zn-Al 合金片与过量的稀盐酸作用放出氢气，用排水集气法收集到氢气的体积为 $27.10 \, cm^{3}$ ( $24.3^{\circ}C$ , 101 kPa)。求该合金的组成。
+3.11 0.0396 g Zn-Al 合金片与过量的稀盐酸作用放出氢气，用排水集气法收集到氢气的体积为 $27.10 \, \mathrm{cm}^{3}$ ( $24.3^{\circ}C$ , 101 kPa)。求该合金的组成。
 
 解
 
@@ -742,7 +742,7 @@ $$
 
 当 $p(\mathrm{H}_{2}\mathrm{O})=12.5\mathrm{kPa}$ 时，已大于 $27^{\circ}C$ 时水的饱和蒸气压，水汽部分凝聚成水，容器内的压力即为 $27^{\circ}C$ 的水蒸气压，为 $3.57kPa$ 。
 
-3.13 在 $120^{\circ}$ C 的 $5.0 \, dm^{3}$ 密闭容器中有 $2.5 \, g \, H_{2}O$ 。用计算说明：
+3.13 在 $120^{\circ}$ C 的 $5.0 \, \mathrm{dm}^{3}$ 密闭容器中有 $2.5 \, g \, H_{2}O$ 。用计算说明：
 
 (1) $H_{2}O$ 完全以气态存在；(2) 冷却到什么温度，水汽开始凝聚为液态？
 
@@ -780,7 +780,7 @@ $$
 
 解 因为三相点是纯 $H_{2}O$ 的气、液、固三相共存状态，这是个稳定不变的状态；而冰点或沸点则是在 101.3 kPa 被空气饱和的水的凝固点或沸腾的温度，其数值会因外界条件的不同而略有差异。显然，应该把稳定不变的状态选为标准点。
 
-3.16 已知苯的临界点是 $289^{\circ}C$ ，4.86 MPa，沸点是 $80^{\circ}C$ ；三相点是 $5^{\circ}C$ ，2.84 kPa。在三相点液态苯的密度是 $0.894 g \cdot cm^{-3}$ ，固态苯的密度是 $1.005 g \cdot cm^{-3}$ 。根据上述数据，画出苯在 $0 \sim 300^{\circ}C$ 范围内的相图。（参照教材图 3.11，坐标可以不按比例。）
+3.16 已知苯的临界点是 $289^{\circ}C$ ，4.86 MPa，沸点是 $80^{\circ}C$ ；三相点是 $5^{\circ}C$ ，2.84 kPa。在三相点液态苯的密度是 $0.894 g \cdot \mathrm{cm}^{-3}$ ，固态苯的密度是 $1.005 g \cdot \mathrm{cm}^{-3}$ 。根据上述数据，画出苯在 $0 \sim 300^{\circ}C$ 范围内的相图。（参照教材图 3.11，坐标可以不按比例。）
 
 解
 
@@ -915,7 +915,7 @@ $$
 m (\mathrm{H} _ {2} \mathrm{O}) = 1.50 \mathrm{kg} - 0.88 \mathrm{kg} = 0.62 \mathrm{kg}
 $$
 
-取 $0.88 \, kg FeCl_{3} \cdot 6H_{2}O$ ，加含有适量盐酸（防止 $Fe^{3+}$ 水解）的水 0.62 kg，即得所配溶液。
+取 $0.88 \, \mathrm{kg} FeCl_{3} \cdot 6H_{2}O$ ，加含有适量盐酸（防止 $Fe^{3+}$ 水解）的水 0.62 kg，即得所配溶液。
 
 此溶液中： $n(\mathrm{FeCl}_3) = \frac{1.50\times 10^3\mathrm{g}\times 0.35}{162\mathrm{g}\cdot\mathrm{mol}^{-1}} = 3.2\mathrm{mol}$
 
@@ -967,11 +967,11 @@ $$
 x \left(\mathrm{NH} _ {3}\right) = \frac {\frac {28 \mathrm{g}}{17 \mathrm{g} \cdot \mathrm{mol} ^ {- 1}}}{\frac {28 \mathrm{g}}{17 \mathrm{g} \cdot \mathrm{mol} ^ {- 1}} + \frac {72 \mathrm{g}}{18 \mathrm{g} \cdot \mathrm{mol} ^ {- 1}}} = 0.29
 $$
 
-4.4 现需 $2.2 \, dm^{3}$ 、浓度为 $2.0 \, mol \cdot dm^{-3}$ 的盐酸。问：
+4.4 现需 $2.2 \, \mathrm{dm}^{3}$ 、浓度为 $2.0 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 的盐酸。问：
 
-(1) 应该取多少 $cm^{3}$ 的 20%、密度为 $1.10 \, g \cdot cm^{-3}$ 的浓盐酸来配制？
+(1) 应该取多少 $\mathrm{cm}^{3}$ 的 20%、密度为 $1.10 \, g \cdot \mathrm{cm}^{-3}$ 的浓盐酸来配制？
 
-(2) 若已有 $550 \, cm^{3} \, 1.0 \, mol \cdot dm^{-3}$ 的稀盐酸, 那么应该加多少 $cm^{3}$ 的 20% 的浓盐酸来配制?
+(2) 若已有 $550 \, \mathrm{cm}^{3} \, 1.0 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 的稀盐酸, 那么应该加多少 $\mathrm{cm}^{3}$ 的 20% 的浓盐酸来配制?
 
 $$
 \begin{array}{r l} & \text {解} \quad (1) 2.2 \mathrm{dm} ^ {3} \times 2.0 \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \times 36.5 \mathrm{g} \cdot \mathrm{mol} ^ {- 1} = V \times 1.10 \mathrm{g} \cdot \mathrm{cm} ^ {- 3} \times 20 \% \\ & \qquad V = 7.3 \times 10 ^ {2} \mathrm{cm} ^ {3} \end{array}
@@ -1022,7 +1022,7 @@ $$
 (1) He, Ne, Ar; (2) $CH_{4}$ , $C_{5}H_{12}$ , $C_{31}H_{64}$ ; (3) NaCl, $C_{2}H_{5}Cl$ , $CCl_{4}$ .
 解 (1) Ar; (2) $C_{5}H_{12}$ ; (3) $CCl_{4}$ .
 
-4.9 气体的溶解度与气相中气体分压成正比，即 $c(A)=kp(A)$ 。式中 $p(A)$ 为 A 气体的分压， $c(A)$ 为 A 气体的溶解度，k 是比例常数。若已知在 101 kPa 及 20℃时，纯 $O_{2}$ 在水中的溶解度为 $1.38 \times 10^{-3} \, mol \cdot dm^{-3}$ ，那么 20℃ 空气的饱和水溶液中， $O_{2}$ 的浓度应是多少？解 纯氧时，即 $p(O_{2}) = 101 \, kPa$ 时
+4.9 气体的溶解度与气相中气体分压成正比，即 $c(A)=kp(A)$ 。式中 $p(A)$ 为 A 气体的分压， $c(A)$ 为 A 气体的溶解度，k 是比例常数。若已知在 101 kPa 及 20℃时，纯 $O_{2}$ 在水中的溶解度为 $1.38 \times 10^{-3} \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ ，那么 20℃ 空气的饱和水溶液中， $O_{2}$ 的浓度应是多少？解 纯氧时，即 $p(O_{2}) = 101 \, kPa$ 时
 
 $$
 c (\mathrm{O} _ {2}) = 1.38 \times 10 ^ {- 3} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}
@@ -1050,7 +1050,7 @@ $$
 
 当温度不变时， $V(A)$ 就是常数。
 
-4.11 在 100 kPa、37 ℃ 时，空气在血液中的溶解度为 $6.6 \times 10^{-4} \, mol \cdot dm^{-3}$ 。若潜水员在深海呼吸了 1000 kPa 的压缩空气，当他返回地面时，参照溶解度估算每毫升血液将放出多少毫升的空气？
+4.11 在 100 kPa、37 ℃ 时，空气在血液中的溶解度为 $6.6 \times 10^{-4} \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 。若潜水员在深海呼吸了 1000 kPa 的压缩空气，当他返回地面时，参照溶解度估算每毫升血液将放出多少毫升的空气？
 
 $$
 \mathrm{解} c (\mathrm{A}) = k p (\mathrm{A}), \quad k = \frac {c (\mathrm{A})}{p (\mathrm{A})} = \frac {6.6 \times 10 ^ {- 4} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}}{100 \mathrm{kPa}} = 6.6 \times 10 ^ {- 6} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \cdot \mathrm{kPa} ^ {- 1}
@@ -1074,7 +1074,7 @@ $$
 V = \frac {n R T}{p} = \frac {5.9 \times 10 ^ {- 6} \mathrm{mol} \times 8.31 \mathrm{kPa} \cdot \mathrm{dm} ^ {3} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{K} ^ {- 1} \times 310 \mathrm{K}}{100 \mathrm{kPa}} = 1.5 \times 10 ^ {- 4} \mathrm{dm} ^ {3} = 0.15 \mathrm{cm} ^ {3}
 $$
 
-4.12 生化实验将小白鼠放在一个密闭的盒子里,以便研究它的生理变化。盒子的体积是 $295\ dm^{3}$ ,每分钟都要通过相同体积的净化干燥空气来更换盒中气体,并要求控制进入盒中空气的相对湿度为40%(22℃)。问每分钟需加入多少克水到干燥空气流中?
+4.12 生化实验将小白鼠放在一个密闭的盒子里,以便研究它的生理变化。盒子的体积是 $295\ \mathrm{dm}^{3}$ ,每分钟都要通过相同体积的净化干燥空气来更换盒中气体,并要求控制进入盒中空气的相对湿度为40%(22℃)。问每分钟需加入多少克水到干燥空气流中?
 
 解 查得 $22^{\circ}$ C 时水的蒸气压为 2.64 kPa，则
 
@@ -1082,7 +1082,7 @@ $$
 m (\mathrm{H} _ {2} \mathrm{O}) = \frac {p V}{R T} M = \frac {2.64 \mathrm{kPa} \times 0.40 \times 295 \mathrm{dm} ^ {3}}{8.31 \mathrm{kPa} \cdot \mathrm{dm} ^ {3} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{K} ^ {- 1} \times 295 \mathrm{K}} \times 18.0 \mathrm{g} \cdot \mathrm{mol} ^ {- 1} = 2.3 \mathrm{g}
 $$
 
-4.13 将 101 mg 胰岛素溶于 $10.0 \, cm^{3}$ 水，该溶液在 $25.0 \, ^{\circ}C$ 时的渗透压是 4.34 kPa，求：
+4.13 将 101 mg 胰岛素溶于 $10.0 \, \mathrm{cm}^{3}$ 水，该溶液在 $25.0 \, ^{\circ}C$ 时的渗透压是 4.34 kPa，求：
 
 (1) 胰岛素的摩尔质量；
 
@@ -1118,7 +1118,7 @@ $$
 
 已知在 $20.0^{\circ}$ C 纯甲醇的蒸气压 $p_{0,甲}=11.83\ kPa$ ，纯乙醇的 $p_{0,乙}=5.93\ kPa$ 。将等质量的甲醇和乙醇配制成的溶液在 $20.0^{\circ} \mathrm{C}$ 的蒸气压是多少？其中甲醇的分压是多少？蒸气中甲醇的摩尔分数是多少？
 
-解 等质量(m)的甲醇 $(M=32\ g\cdot mol^{-1})$ 和乙醇 $(M=46\ g\cdot mol^{-1})$ 混合，则甲醇、乙醇的摩尔分数分别为
+解 等质量(m)的甲醇 $(M=32\ g\cdot \mathrm{mol}^{-1})$ 和乙醇 $(M=46\ g\cdot \mathrm{mol}^{-1})$ 混合，则甲醇、乙醇的摩尔分数分别为
 
 $$
 x _ {\mathrm{甲}} = \frac {\frac {m}{32 \mathrm{g} \cdot \mathrm{mol} ^ {- 1}}}{\frac {m}{32 \mathrm{g} \cdot \mathrm{mol} ^ {- 1}} + \frac {m}{46 \mathrm{g} \cdot \mathrm{mol} ^ {- 1}}} = 0.59
@@ -1198,7 +1198,7 @@ $$
 \frac {\frac {(20.00 + 3.22) \mathrm{g}}{18.02 \mathrm{g} \cdot \mathrm{mol} ^ {- 1}}}{\frac {23.22 \mathrm{g}}{18.02 \mathrm{g} \cdot \mathrm{mol} ^ {- 1}} + \frac {1.68 \mathrm{g}}{342 \mathrm{g} \cdot \mathrm{mol} ^ {- 1}}} = \frac {\frac {(20.00 - 3.22) \mathrm{g}}{18.02 \mathrm{g} \cdot \mathrm{mol} ^ {- 1}}}{\frac {16.78 \mathrm{g}}{18.02 \mathrm{g} \cdot \mathrm{mol} ^ {- 1}} + \frac {2.45 \mathrm{g}}{M}} M = 697 \mathrm{g} \cdot \mathrm{mol} ^ {- 1}
 $$
 
-4.20 若海水的浓度与 $0.70 \, mol \cdot kg^{-1}$ 的 NaCl 水溶液相近，粗略计算其渗透压是多少？若使海水淡化并得到 50% 收率，要向海水一边施加多大压力？
+4.20 若海水的浓度与 $0.70 \, \mathrm{mol} \cdot \mathrm{kg}^{-1}$ 的 NaCl 水溶液相近，粗略计算其渗透压是多少？若使海水淡化并得到 50% 收率，要向海水一边施加多大压力？
 
 解 按 NaCl 完全电离计算, $c=c(\mathrm{Na}^{+})+c(\mathrm{Cl}^{-})=2\times0.70\ \mathrm{mol}\cdot\mathrm{dm}^{-3}$ ,则
 
@@ -1212,7 +1212,7 @@ $$
 2 \times 3.5 \mathrm{MPa} = 7.0 \mathrm{MPa}
 $$
 
-4.21 计算 $0.020 \, mol \cdot kg^{-1}$ NaCl 溶液在 $25^{\circ}C$ 时的渗透压。将计算结果和实验值 ( $\approx 85 \, kPa$ ) 进行比较。假设 NaCl 完全电离，离子浓度按 $0.040 \, mol \cdot kg^{-1}$ 计算。
+4.21 计算 $0.020 \, \mathrm{mol} \cdot \mathrm{kg}^{-1}$ NaCl 溶液在 $25^{\circ}C$ 时的渗透压。将计算结果和实验值 ( $\approx 85 \, kPa$ ) 进行比较。假设 NaCl 完全电离，离子浓度按 $0.040 \, \mathrm{mol} \cdot \mathrm{kg}^{-1}$ 计算。
 
 $$
 \mathrm{解} \quad \Pi = c R T = 0.040 \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \times 8.31 \mathrm{kPa} \cdot \mathrm{dm} ^ {3} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{K} ^ {- 1} \times 298 \mathrm{K} = 99 \mathrm{kPa}
@@ -1452,7 +1452,7 @@ $$
 
 5.3 大豆所含脂肪、蛋白质、碳水化合物和水分的组成如下, 它们的发热量也一并列出。计算 100 g 大豆在人体代谢过程中的总发热量。
 
-<table><tr><td></td><td>脂肪</td><td>蛋白质</td><td>碳水化合物</td><td>水分</td></tr><tr><td>质量分数  $w_b/(%)$ </td><td>17.2</td><td>37.0</td><td>28.0</td><td>17.8</td></tr><tr><td>发热量  $Q/(kJ·g^{-1})$ </td><td>38</td><td>17</td><td>17</td><td>—</td></tr></table>
+<table><tr><td></td><td>脂肪</td><td>蛋白质</td><td>碳水化合物</td><td>水分</td></tr><tr><td>质量分数  $w_b/(%)$ </td><td>17.2</td><td>37.0</td><td>28.0</td><td>17.8</td></tr><tr><td>发热量  $Q/(\mathrm{kJ}·g^{-1})$ </td><td>38</td><td>17</td><td>17</td><td>—</td></tr></table>
 
 解 100 g 大豆总发热量为
 
@@ -1508,7 +1508,7 @@ $$
 \Delta H ^ {\ominus} = - 98.0 \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1}
 $$
 
-即 $1 \, mol \, H_{2}O_{2}(l)$ 分解放热 $98.0 \, kJ, 100 \, g \, H_{2}O_{2}(l)$ 分解放热为
+即 $1 \, \mathrm{mol} \, H_{2}O_{2}(l)$ 分解放热 $98.0 \, \mathrm{kJ}, 100 \, g \, H_{2}O_{2}(l)$ 分解放热为
 
 $$
 \frac {100 \mathrm{g}}{34.0 \mathrm{g} \cdot \mathrm{mol} ^ {- 1}} \times 98.0 \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1} = 288 \mathrm{kJ}
@@ -1526,7 +1526,7 @@ $$
 \Delta H ^ {\ominus} = 2 \times (- 98.0) \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1} = - 196.0 \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1}
 $$
 
-(4) 所求反应为反应(2)的逆反应, 其 $\Delta H^{\ominus} = -54.0 \, kJ \cdot mol^{-1}$
+(4) 所求反应为反应(2)的逆反应, 其 $\Delta H^{\ominus} = -54.0 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$
 
 5.5 由以下两个反应热求 NO 的生成焓，并和附录 C.2 数据比较。
 
@@ -1552,7 +1552,7 @@ $$
 \Delta H _ {\mathrm{f}} ^ {\ominus} (\mathrm{NO}, \mathrm{g}) = \frac {1}{4} \times 365 \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1} = 91.3 \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1}
 $$
 
-(附录 C.2 中为 $91.3 \, kJ \cdot mol^{-1}$ ，二者吻合)
+(附录 C.2 中为 $91.3 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ ，二者吻合)
 
 5.6 阿波罗登月火箭用 $N_{2}H_{4}(l)$ 作燃料，用 $N_{2}O_{4}(g)$ 作氧化剂，燃烧后产生 $N_{2}(g)$ 和 $H_{2}O(l)$ 。写出配平的化学方程式，利用 $\Delta H_{f}^{\ominus}$ 计算 $N_{2}H_{4}(l)$ 的摩尔燃烧热。
 
@@ -1562,7 +1562,7 @@ $$
 \begin{array}{r l} \Delta H ^ {\ominus} & = 3 \times \Delta H _ {f} ^ {\ominus} (N _ {2}, g) + 4 \times \Delta H _ {f} ^ {\ominus} (H _ {2} O, l) - 2 \times \Delta H _ {f} ^ {\ominus} (N _ {2} H _ {4}, l) - \Delta H _ {f} ^ {\ominus} (N _ {2} O _ {4}, g) \\ & = [ 0 + 4 \times (- 285.8) - 2 \times 50.6 - 11.1 ] k J \cdot m o l ^ {- 1} \\ & = - 1255.5 k J \cdot m o l ^ {- 1} \end{array}
 $$
 
-$N_{2}H_{4}(l)$ 的摩尔燃烧热为： $\frac{1}{2}\Delta H^{\ominus}=-627.8kJ\cdot mol^{-1}$
+$N_{2}H_{4}(l)$ 的摩尔燃烧热为： $\frac{1}{2}\Delta H^{\ominus}=-627.8\mathrm{kJ}\cdot \mathrm{mol}^{-1}$
 
 5.7 利用以下各反应热，计算 $N_{2}H_{4}(l)$ 的生成焓和燃烧热。
 
@@ -1720,7 +1720,7 @@ $$
 
 答 （1）熵增；（2）估计熵变很小；（3）熵减。
 
-5.13 已知 $F_{2}(g)$ 的 $S_{m}^{\ominus}=202.8\ J\cdot mol^{-1}\cdot K^{-1}$ ， $F(g)$ 的 $S_{m}^{\ominus}=158.8\ J\cdot mol^{-1}\cdot K^{-1}$
+5.13 已知 $F_{2}(g)$ 的 $S_{m}^{\ominus}=202.8\ \mathrm{J}\cdot \mathrm{mol}^{-1}\cdot \mathrm{K}^{-1}$ ， $F(g)$ 的 $S_{m}^{\ominus}=158.8\ \mathrm{J}\cdot \mathrm{mol}^{-1}\cdot \mathrm{K}^{-1}$
 
 $$
 \mathrm{F} _ {2} (\mathrm{g}) \longrightarrow 2 \mathrm{F} (\mathrm{g}) \quad \Delta_ {\mathrm{r}} G _ {\mathrm{m}} ^ {\ominus} = 124.6 \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1}
@@ -1742,7 +1742,7 @@ $$
 \begin{array}{r l} \Delta H ^ {\ominus} & = \Delta G ^ {\ominus} + T \Delta S ^ {\ominus} = 124.6 \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1} + 298.15 \mathrm{K} \times 114.8 \times 10 ^ {- 3} \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{K} ^ {- 1} \\ & = 158.8 \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1} \end{array}
 $$
 
-EB (F—F) = $\Delta H^{\ominus} = 158.8 \, kJ \cdot mol^{-1}$
+EB (F—F) = $\Delta H^{\ominus} = 158.8 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$
 
 5.14 已知 $\mathrm{Cu}_{2}\mathrm{O}(\mathrm{s})+\frac{1}{2}\mathrm{O}_{2}(\mathrm{g})\longrightarrow2\mathrm{CuO}(\mathrm{s})$ $\Delta G^{\ominus}(400\mathrm{K})=-102\mathrm{kJ}\cdot\mathrm{mol}^{-1},\Delta G^{\ominus}(300\mathrm{K})=-113\mathrm{kJ}\cdot\mathrm{mol}^{-1}$ ，求该反应的 $\Delta H^{\ominus}$ 和 $\Delta S^{\ominus}$ 。
 
@@ -2004,7 +2004,7 @@ $$
 \begin{array}{r l}&a \mathrm{A(g)} + b \mathrm{B(aq)} \rightleftharpoons c \mathrm{C(g)} + d \mathrm{D(aq)}\\&Q = \frac {(p _ {\mathrm{C}} / p _ {\mathrm{C}} ^ {\ominus}) ^ {c} (c _ {\mathrm{D}} / c _ {\mathrm{D}} ^ {\ominus}) ^ {d}}{(p _ {\mathrm{A}} / p _ {\mathrm{A}} ^ {\ominus}) ^ {a} (c _ {\mathrm{B}} / c _ {\mathrm{B}} ^ {\ominus}) ^ {b}}\end{array}
 $$
 
-式中， $p_{A}$ 、 $p_{C}$ 分别表示气体 A、C 的分压； $c_{B}$ 、 $c_{D}$ 分别表示溶质 B、D 的浓度； $p_{A}^{\ominus}$ 、 $p_{C}^{\ominus}$ 分别表示气体 A、C 的标准分压，均为 1 bar； $c_{B}^{\ominus}$ 、 $c_{D}^{\ominus}$ 分别表示 B、D 的标准浓度，均为 $1\ mol\cdot dm^{-3}$ 。
+式中， $p_{A}$ 、 $p_{C}$ 分别表示气体 A、C 的分压； $c_{B}$ 、 $c_{D}$ 分别表示溶质 B、D 的浓度； $p_{A}^{\ominus}$ 、 $p_{C}^{\ominus}$ 分别表示气体 A、C 的标准分压，均为 1 bar； $c_{B}^{\ominus}$ 、 $c_{D}^{\ominus}$ 分别表示 B、D 的标准浓度，均为 $1\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ 。
 
 当反应达平衡时， $\Delta G(T)=0$ ，可得
 
@@ -2032,7 +2032,7 @@ $$
 
 此处 $p_{A}$ 、 $p_{C}$ 已是无量纲的相对分压， $c_{B}$ 、 $c_{D}$ 也是无量纲的相对浓度。
 
-上式将实验平衡常数与标准平衡常数自然地关联起来。通过合理选择压力和浓度的单位（压力单位为 bar，浓度的单位为 $mol \cdot dm^{-3}$ ），实验平衡常数与标准平衡常数的数值可以完全相同。实验可以测得平衡常数的根源就在于客观存在着标准平衡常数。实际使用时，除非特别指明，一般均用标准平衡常数，简称为“平衡常数”，无量纲。
+上式将实验平衡常数与标准平衡常数自然地关联起来。通过合理选择压力和浓度的单位（压力单位为 bar，浓度的单位为 $\mathrm{mol} \cdot \mathrm{dm}^{-3}$ ），实验平衡常数与标准平衡常数的数值可以完全相同。实验可以测得平衡常数的根源就在于客观存在着标准平衡常数。实际使用时，除非特别指明，一般均用标准平衡常数，简称为“平衡常数”，无量纲。
 
 ## 6.3 反应方向的判断
 
@@ -2134,7 +2134,7 @@ $$
 
 这 4 个 K 意义相同, 讨论合成氨反应时, 可用任一种 $K_{p}$ 。注意, 当选定一种 $K_{p}$ 后, 必须按照它所对应的化学方程式进行计算。
 
-6.3 在 698 K, 往 $10 \, dm^{3}$ 真空容器中注入 $0.10 \, \text{mol} \, \text{H}_{2}(\text{g})$ 和 $0.10 \, \text{mol} \, \text{I}_{2}(\text{g})$ , 反应平衡后 $\text{I}_{2}(\text{g})$ 的浓度为 $0.0021 \, \text{mol} \cdot \text{dm}^{-3}$ 。试求：
+6.3 在 698 K, 往 $10 \, \mathrm{dm}^{3}$ 真空容器中注入 $0.10 \, \text{mol} \, \text{H}_{2}(\text{g})$ 和 $0.10 \, \text{mol} \, \text{I}_{2}(\text{g})$ , 反应平衡后 $\text{I}_{2}(\text{g})$ 的浓度为 $0.0021 \, \text{mol} \cdot \text{dm}^{-3}$ 。试求：
 
 (1) 在 698 K 时, $H_{2} + I_{2} \rightleftharpoons 2HI$ 的平衡常数;
 
@@ -2214,7 +2214,7 @@ $$
 
 6.6 根据以下数据,计算甲醇和一氧化碳化合生成醋酸反应的 $K^{\ominus}(298\mathrm{K})$ 。
 
-<table><tr><td></td><td> $CH_3OH(g)$ </td><td>CO(g)</td><td> $CH_3COOH(g)$ </td></tr><tr><td> $\Delta H_f^\ominus/(kJ·mol^{-1})$ </td><td>-200.8</td><td>-110.5</td><td>-435</td></tr><tr><td> $S^\ominus/(J·mol^{-1}·K^{-1})$ </td><td>+238</td><td>+198</td><td>+293</td></tr></table>
+<table><tr><td></td><td> $CH_3OH(g)$ </td><td>CO(g)</td><td> $CH_3COOH(g)$ </td></tr><tr><td> $\Delta H_f^\ominus/(\mathrm{kJ}·\mathrm{mol}^{-1})$ </td><td>-200.8</td><td>-110.5</td><td>-435</td></tr><tr><td> $S^\ominus/(\mathrm{J}·\mathrm{mol}^{-1}·\mathrm{K}^{-1})$ </td><td>+238</td><td>+198</td><td>+293</td></tr></table>
 
 解 $\mathrm{CH}_3\mathrm{OH(g)} + \mathrm{CO(g)}\rightleftharpoons \mathrm{CH}_3\mathrm{COOH(g)}$
 
@@ -2234,7 +2234,7 @@ $$
 \lg K ^ {\ominus} = \frac {- \Delta G ^ {\ominus}}{2.30 R T} = \frac {- (- 81 \times 10 ^ {3}) \mathrm{J} \cdot \mathrm{mol} ^ {- 1}}{2.30 \times 8.31 \mathrm{J} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{K} ^ {- 1} \times 298 \mathrm{K}} = 14.2, K ^ {\ominus} = 2 \times 10 ^ {14}
 $$
 
-6.7 氧化银遇热分解： $2\mathrm{Ag}_{2}\mathrm{O}(\mathrm{s}) \rightleftharpoons 4\mathrm{Ag}(\mathrm{s}) + \mathrm{O}_{2}(\mathrm{g})$ 。已知 $298\,K, Ag_{2}O(s)$ 的 $\Delta H_{f}^{\ominus} = -31.1\,kJ \cdot mol^{-1}, \Delta G_{f}^{\ominus} = -11.2\,kJ \cdot mol^{-1}$ 。求：
+6.7 氧化银遇热分解： $2\mathrm{Ag}_{2}\mathrm{O}(\mathrm{s}) \rightleftharpoons 4\mathrm{Ag}(\mathrm{s}) + \mathrm{O}_{2}(\mathrm{g})$ 。已知 $298\,K, Ag_{2}O(s)$ 的 $\Delta H_{f}^{\ominus} = -31.1\,\mathrm{kJ} \cdot \mathrm{mol}^{-1}, \Delta G_{f}^{\ominus} = -11.2\,\mathrm{kJ} \cdot \mathrm{mol}^{-1}$ 。求：
 
 (1) 在 298 K 时 $Ag_{2}O-Ag$ 体系的 $p(O_{2})$ ;
 
@@ -2478,7 +2478,7 @@ $$
 K ^ {\ominus} = p (\mathrm{CO} _ {2}) \times p (\mathrm{H} _ {2} \mathrm{O}) = 1.00 \times 1.00 = 1.00
 $$
 
-设此时温度为 $T_{1}$ ，又知 $T_{2}=373\ K$ 时， $K_{p}^{\ominus}=2.31\times10^{-1}$ ；反应的 $\Delta H^{\ominus}=129\ kJ\cdot mol^{-1}$ 。
+设此时温度为 $T_{1}$ ，又知 $T_{2}=373\ K$ 时， $K_{p}^{\ominus}=2.31\times10^{-1}$ ；反应的 $\Delta H^{\ominus}=129\ \mathrm{kJ}\cdot \mathrm{mol}^{-1}$ 。
 
 则
 
@@ -2586,7 +2586,7 @@ $$
 x = \sqrt {\frac {K _ {p}}{3 + K _ {p}}} = \sqrt {\frac {4.44 \times 10 ^ {- 2}}{3 + 4.44 \times 10 ^ {- 2}}} = 0.121
 $$
 
-即 $1 \, mol \, COCl_{2}$ 达平衡时，含 $0.121 \, mol \, CO, 0.121 \, mol \, Cl_{2}, 0.879 \, mol \, COCl_{2}$ 。
+即 $1 \, \mathrm{mol} \, COCl_{2}$ 达平衡时，含 $0.121 \, \mathrm{mol} \, CO, 0.121 \, \mathrm{mol} \, Cl_{2}, 0.879 \, \mathrm{mol} \, COCl_{2}$ 。
 
 $$
 \overline {{{M}}} _ {\mathrm{r}} = \frac {(28 \times 0.121) + (71 \times 0.121) + (99 \times 0.879)}{0.121 + 0.121 + 0.879} = 88
@@ -2622,7 +2622,7 @@ $$
 \begin{array}{r l} & K _ {2} ^ {\ominus} = \frac {K _ {1} ^ {\ominus}}{K _ {3} ^ {\ominus}} = \frac {85.5}{1.1 \times 10 ^ {- 3}} = 7.8 \times 10 ^ {4} \\ & \Delta G ^ {\ominus} = - 2.30 R T \times \lg K _ {2} ^ {\ominus} \\ & \quad = - 2.30 \times 0.00831 \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{K} ^ {- 1} \times 292 \mathrm{K} \times \lg (7.8 \times 10 ^ {4}) \\ & \quad = - 27 \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1} \end{array}
 $$
 
-6.22 已知 $\mathrm{CaCO_3(s)}\rightleftharpoons \mathrm{CaO(s)} + \mathrm{CO_2(g)}$ 的 $K_{c}(1500\mathrm{K}) = 0.50$ ，在此温度下 $\mathrm{CO_2}$ 又有部分分解成 CO, 即 $\mathrm{CO}_{2} \rightleftharpoons \mathrm{CO} + \frac{1}{2}\mathrm{O}_{2}$ 。若将 $1.00\,mol\,CaCO_{3}$ 装入 $1.00\,dm^{3}$ 真空容器中，加热到 $1500\,K$ ，达平衡时，气体混合物中 $O_{2}$ 的摩尔分数为 0.15。计算容器中 CaO 的物质的量 $n(\mathrm{CaO})$ 。
+6.22 已知 $\mathrm{CaCO_3(s)}\rightleftharpoons \mathrm{CaO(s)} + \mathrm{CO_2(g)}$ 的 $K_{c}(1500\mathrm{K}) = 0.50$ ，在此温度下 $\mathrm{CO_2}$ 又有部分分解成 CO, 即 $\mathrm{CO}_{2} \rightleftharpoons \mathrm{CO} + \frac{1}{2}\mathrm{O}_{2}$ 。若将 $1.00\,\mathrm{mol}\,CaCO_{3}$ 装入 $1.00\,\mathrm{dm}^{3}$ 真空容器中，加热到 $1500\,K$ ，达平衡时，气体混合物中 $O_{2}$ 的摩尔分数为 0.15。计算容器中 CaO 的物质的量 $n(\mathrm{CaO})$ 。
 
 $$
 \begin{array}{r l}&{\mathrm {CaCO_ {3} (s)} \rightleftharpoons \mathrm {CaO(s) + CO_ {2} (g)} \qquad K _ {c} (1500 \mathrm{K}) = 0.50}\\&{K _ {c} = [ \mathrm {CO_ {2}} ] = 0.50, \quad n (\mathrm {CO_ {2}}) = 0.50 \times 1.00 \mathrm{mol} = 0.50 \mathrm{mol}}\\&{\mathrm {CO_ {2}} \rightleftharpoons \mathrm{CO} + \frac {1}{2} \mathrm {O_ {2}}}\\&{\text {平衡时} \quad 0.50 \mathrm{mol} \quad y \mathrm{mol} \quad \frac {1}{2} y \mathrm{mol}}\\&{x (\mathrm {O_ {2}}) = \frac {n (\mathrm {O_ {2}})}{n _ {\text {总}}} = \frac {(y / 2) \mathrm{mol}}{0.50 \mathrm{mol} + y \mathrm{mol} + (y / 2) \mathrm{mol}} = 0.15}\\&{y = 0.27, \quad \text {即} n (\mathrm{CO}) = 0.27 \mathrm{mol}}\\&{n (\mathrm{CaO}) = n (\mathrm {CO_ {2}}) + n (\mathrm{CO}) = (0.50 + 0.27) \mathrm{mol} = 0.77 \mathrm{mol}}\end{array}
@@ -2856,7 +2856,7 @@ $$
 
 7.2 $\mathrm{N}_2\mathrm{O}_5$ 的分解反应是 $2\mathrm{N}_2\mathrm{O}_5 \longrightarrow 4\mathrm{NO}_2 + \mathrm{O}_2$ ，由实验测得在 $67^{\circ}\mathrm{C}$ 时 $\mathrm{N}_2\mathrm{O}_5$ 的浓度随时间的变化如下：
 
-<table><tr><td>t/ min</td><td>0.0</td><td>1.0</td><td>2.0</td><td>3.0</td><td>4.0</td><td>5.0</td></tr><tr><td> $c(N_2O_5)/(mol·dm^{-3})$ </td><td>1.00</td><td>0.71</td><td>0.50</td><td>0.35</td><td>0.25</td><td>0.17</td></tr></table>
+<table><tr><td>t/ min</td><td>0.0</td><td>1.0</td><td>2.0</td><td>3.0</td><td>4.0</td><td>5.0</td></tr><tr><td> $c(N_2O_5)/(\mathrm{mol}·\mathrm{dm}^{-3})$ </td><td>1.00</td><td>0.71</td><td>0.50</td><td>0.35</td><td>0.25</td><td>0.17</td></tr></table>
 
 试计算：
 
@@ -2864,7 +2864,7 @@ $$
 
 (2) 在第 2.0 min 时的瞬时速率 $-\mathrm{dc}(\mathrm{N}_{2}\mathrm{O}_{5})/\mathrm{dt}=$ ?
 
-(3) $N_{2}O_{5}$ 浓度为 $1.00\ mol \cdot dm^{-3}$ 时的初速率 $-dc(N_{2}O_{5})/dt=$ ?
+(3) $N_{2}O_{5}$ 浓度为 $1.00\ \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 时的初速率 $-dc(N_{2}O_{5})/dt=$ ?
 
 解 (1) $\frac{\Delta c(\mathrm{O}_2)}{\Delta t} = \frac{1}{2} \times \frac{(0.50 - 0.00) \mathrm{~mol} \cdot \mathrm{dm}^{-3}}{2.0 \mathrm{~min}} = 0.13 \mathrm{~mol} \cdot \mathrm{dm}^{-3} \cdot \mathrm{min}^{-1}$
 
@@ -2874,7 +2874,7 @@ $$
 \begin{array}{r l} & - \frac {\mathrm{d} c (\mathrm{N} _ {2} \mathrm{O} _ {5})}{\mathrm{d} t} \\ & = \frac {- (0.66 - 0.30) \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}}{- 2.0 \mathrm{min}} \\ & = 0.18 \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \cdot \mathrm{min} ^ {- 1} \end{array}
 $$
 
-（3）由图可知， $N_{2}O_{5}$ 浓度为 $1.00\ mol\cdot dm^{-3}$ 时的初速率为
+（3）由图可知， $N_{2}O_{5}$ 浓度为 $1.00\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ 时的初速率为
 
 ![](普通化学原理（第4版）习题解析北京大学化学学院普通化学原理教学组编z-library.sk,1lib.sk,z-lib.sk_images/57e1e94038a018f93c60aa1454c70596b8a47348825efc0beea21c768df0f849.jpg)
 
@@ -2926,7 +2926,7 @@ $$
 
 解
 
-<table><tr><td>t/min</td><td>0</td><td>20</td><td>60</td><td>100</td><td>160</td></tr><tr><td> $c(S)/(mol·dm^{-3})$ </td><td>1.00</td><td>0.90</td><td>0.70</td><td>0.50</td><td>0.20</td></tr><tr><td> $lg\frac{c(S)}{mol·dm^{-3}}$ </td><td>0</td><td>-0.046</td><td>-0.15</td><td>-0.30</td><td>-0.70</td></tr><tr><td> $c^{-1}(S)/(mol·dm^{-3})^{-1}$ </td><td>1.0</td><td>1.1</td><td>1.4</td><td>2.0</td><td>5.0</td></tr><tr><td> $c^{-2}(S)/(mol·dm^{-3})^{-2}$ </td><td>1.0</td><td>1.2</td><td>2.0</td><td>4.0</td><td>25</td></tr></table>
+<table><tr><td>t/min</td><td>0</td><td>20</td><td>60</td><td>100</td><td>160</td></tr><tr><td> $c(S)/(\mathrm{mol}·\mathrm{dm}^{-3})$ </td><td>1.00</td><td>0.90</td><td>0.70</td><td>0.50</td><td>0.20</td></tr><tr><td> $lg\frac{c(S)}{\mathrm{mol}·\mathrm{dm}^{-3}}$ </td><td>0</td><td>-0.046</td><td>-0.15</td><td>-0.30</td><td>-0.70</td></tr><tr><td> $c^{-1}(S)/(\mathrm{mol}·\mathrm{dm}^{-3})^{-1}$ </td><td>1.0</td><td>1.1</td><td>1.4</td><td>2.0</td><td>5.0</td></tr><tr><td> $c^{-2}(S)/(\mathrm{mol}·\mathrm{dm}^{-3})^{-2}$ </td><td>1.0</td><td>1.2</td><td>2.0</td><td>4.0</td><td>25</td></tr></table>
 
 以 $\frac{c(S)}{\mathrm{mol}\cdot\mathrm{dm}^{-3}}$ 对 $\frac{t}{\min}$ 作图，即图（a）；以 $\frac{c^{-1}(S)}{(\mathrm{mol}\cdot\mathrm{dm}^{-3})^{-1}}$ 对 $\frac{t}{\min}$ 作图，即图（b）；以 $\frac{c^{-2}(S)}{(\mathrm{mol}\cdot\mathrm{dm}^{-3})^{-2}}$ 对 $\frac{t}{\min}$ 作图，即图（c）；以 $\lg \frac{c(S)}{\mathrm{mol}\cdot\mathrm{dm}^{-3}}$ 对 $\frac{t}{\min}$ 作图，即图（d）。
 
@@ -2980,13 +2980,13 @@ $$
 
 由 $\mathrm{Hg_2Cl_2}$ 沉淀量可以计算反应速率，4次实验数据如下：
 
-<table><tr><td></td><td>实验一</td><td>实验二</td><td>实验三</td><td>实验四</td></tr><tr><td> $c(HgCl_2)/(mol·dm^{-3})$ </td><td>0.105</td><td>0.105</td><td>0.052</td><td>0.052</td></tr><tr><td> $c(C_2O_4^{2-})/(mol·dm^{-3})$ </td><td>0.15</td><td>0.30</td><td>0.30</td><td>0.15</td></tr><tr><td> $\frac{-dc(C_2O_4^{2-})/dt}{mol·dm^{-3}·s^{-1}}$ </td><td> $1.8\times 10^{-5}$ </td><td> $7.1\times 10^{-5}$ </td><td> $3.5\times 10^{-5}$ </td><td> $8.9\times 10^{-6}$ </td></tr></table>
+<table><tr><td></td><td>实验一</td><td>实验二</td><td>实验三</td><td>实验四</td></tr><tr><td> $c(HgCl_2)/(\mathrm{mol}·\mathrm{dm}^{-3})$ </td><td>0.105</td><td>0.105</td><td>0.052</td><td>0.052</td></tr><tr><td> $c(C_2O_4^{2-})/(\mathrm{mol}·\mathrm{dm}^{-3})$ </td><td>0.15</td><td>0.30</td><td>0.30</td><td>0.15</td></tr><tr><td> $\frac{-dc(C_2O_4^{2-})/dt}{\mathrm{mol}·\mathrm{dm}^{-3}·\mathrm{s}^{-1}}$ </td><td> $1.8\times 10^{-5}$ </td><td> $7.1\times 10^{-5}$ </td><td> $3.5\times 10^{-5}$ </td><td> $8.9\times 10^{-6}$ </td></tr></table>
 
 试求：（1） $HgCl_{2}$ 、 $C_{2}O_{4}^{2-}$ 及总反应的级数各是多少？
 
 (2) 速率常数是多少?
 
-(3) 当 $HgCl_{2}$ 浓度为 $0.020 \, mol \cdot dm^{-3}$ , $C_{2}O_{4}^{2-}$ 浓度为 $0.22 \, mol \cdot dm^{-3}$ 时, 反应速率等于多少?
+(3) 当 $HgCl_{2}$ 浓度为 $0.020 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ , $C_{2}O_{4}^{2-}$ 浓度为 $0.22 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 时, 反应速率等于多少?
 
 解（1）该反应的速率方程式为 $\frac{-\mathrm{d}c(\mathrm{C}_2\mathrm{O}_4^{2-})}{\mathrm{d}t} = kc^m (\mathrm{HgCl}_2)c^n (\mathrm{C}_2\mathrm{O}_4^{2-})$
 
@@ -3062,7 +3062,7 @@ $$
 
 (1) 求反应的速率常数 k 和半衰期 $t_{1/2}$ 。
 
-(2) 抗菌素在血液中的浓度不低于 $0.37 \, mg \cdot 100 \, cm^{-3}$ 才有效, 那么何时注射第二针?
+(2) 抗菌素在血液中的浓度不低于 $0.37 \, mg \cdot 100 \, \mathrm{cm}^{-3}$ 才有效, 那么何时注射第二针?
 
 (3) 为了避免因注射量过大而产生意外, 要求第二针注射完时, 血液中抗菌素的浓度尽量
 
@@ -3076,7 +3076,7 @@ $$
 
 （3）由 $\ln 0.22 = \ln c_0(A) - 0.097\times 12, c_0(A) = 0.70\mathrm{mg}\cdot 100\mathrm{cm}^{-3}$ ，即为上午8点第一针注射完时的浓度。
 
-注射第二针时血液中的抗菌素浓度为 $0.37 \, mg \cdot 100 \, cm^{-3}$ ，为了达到 $0.70 \, mg \cdot 100 \, cm^{-3}$ ，注射第二针时的追加量应为
+注射第二针时血液中的抗菌素浓度为 $0.37 \, mg \cdot 100 \, \mathrm{cm}^{-3}$ ，为了达到 $0.70 \, mg \cdot 100 \, \mathrm{cm}^{-3}$ ，注射第二针时的追加量应为
 
 $$
 (0.70 - 0.37) \mathrm{mg} \cdot 100 \mathrm{cm} ^ {- 3} = 0.33 \mathrm{mg} \cdot 100 \mathrm{cm} ^ {- 3}
@@ -3092,15 +3092,15 @@ $$
 
 （3）在 $37^{\circ}\mathrm{C}$ 时，一般空气中 $p(\mathrm{O}_2) = 21.3\mathrm{kPa}$ ，此时 $\mathrm{O}_2$ 在血液中的溶解度为 $1.8\times 10^{-6}$ mol·dm $^{-3}$ 。如用于解毒时，供病人呼吸的 $\mathrm{O}_2$ 的压力必须提高到多少kPa？
 
-解（1）根据速率常数量纲，可判断反应为二级反应： $v = kc(\mathrm{O}_2)c(\mathrm{Hb})$ $3.0 \times 10^{-5} \, mol \cdot dm^{-3} \cdot s^{-1} = 1.8 \times 10^{6} \, dm^{3} \cdot mol^{-1} \cdot s^{-1} \times 1.8 \times 10^{-6} \, mol \cdot dm^{-3} \times c(\mathrm{Hb})$ $c(\mathrm{Hb})=9.3\times10^{-6}\mathrm{mol}\cdot\mathrm{dm}^{-3}$ ，即血液中Hb的浓度。
-(2) $1.2 \times 10^{-4} \, mol \cdot dm^{-3} \cdot s^{-1} = 1.8 \times 10^{6} \, dm^{3} \cdot mol^{-1} \cdot s^{-1} \times c(\mathrm{O}_{2}) \times 9.3 \times 10^{-6} \, mol \cdot dm^{-3}$ $c(\mathrm{O}_{2})=7.2\times10^{-6}\mathrm{mol}\cdot\mathrm{dm}^{-3}$ ，即血液中所需 $O_{2}$ 的浓度。
-(3) $1.8 \times 10^{-6} \, mol \cdot dm^{-3} : 21.3 kPa = 7.2 \times 10^{-6} mol \cdot dm^{-3} : x kPa, \quad x = 85$ $p(\mathrm{O}_{2})=85\mathrm{kPa}$ ，即氧的分压必须提高到85kPa。
+解（1）根据速率常数量纲，可判断反应为二级反应： $v = kc(\mathrm{O}_2)c(\mathrm{Hb})$ $3.0 \times 10^{-5} \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \cdot \mathrm{s}^{-1} = 1.8 \times 10^{6} \, \mathrm{dm}^{3} \cdot \mathrm{mol}^{-1} \cdot \mathrm{s}^{-1} \times 1.8 \times 10^{-6} \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \times c(\mathrm{Hb})$ $c(\mathrm{Hb})=9.3\times10^{-6}\mathrm{mol}\cdot\mathrm{dm}^{-3}$ ，即血液中Hb的浓度。
+(2) $1.2 \times 10^{-4} \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \cdot \mathrm{s}^{-1} = 1.8 \times 10^{6} \, \mathrm{dm}^{3} \cdot \mathrm{mol}^{-1} \cdot \mathrm{s}^{-1} \times c(\mathrm{O}_{2}) \times 9.3 \times 10^{-6} \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ $c(\mathrm{O}_{2})=7.2\times10^{-6}\mathrm{mol}\cdot\mathrm{dm}^{-3}$ ，即血液中所需 $O_{2}$ 的浓度。
+(3) $1.8 \times 10^{-6} \, \mathrm{mol} \cdot \mathrm{dm}^{-3} : 21.3 kPa = 7.2 \times 10^{-6} \mathrm{mol} \cdot \mathrm{dm}^{-3} : x kPa, \quad x = 85$ $p(\mathrm{O}_{2})=85\mathrm{kPa}$ ，即氧的分压必须提高到85kPa。
 
 7.11 蔗糖催化水解反应 $C_{12}H_{22}O_{11} + H_{2}O \xrightarrow{催化剂} 2C_{6}H_{12}O_{6}$ 是一级反应，在 $25^{\circ}C$ 速率常数为 $5.7 \times 10^{-5}s^{-1}$ 。问：
 
-(1) 浓度为 $1 \, mol \cdot dm^{-3}$ 的蔗糖溶液分解 10% 需要多少时间?
+(1) 浓度为 $1 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 的蔗糖溶液分解 10% 需要多少时间?
 
-(2) 若反应活化能为 $110 \, kJ \cdot mol^{-1}$ ，那么在什么温度时反应速率是 $25^{\circ}C$ 时的 1/10?
+(2) 若反应活化能为 $110 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ ，那么在什么温度时反应速率是 $25^{\circ}C$ 时的 1/10?
 
 解 (1) $\lg \frac{c(A)}{c_0(A)} = -\frac{kt}{2.30}$
 
@@ -3114,11 +3114,11 @@ $$
 
 7.12 在不同温度测定 $\mathrm{H}_{2} + \mathrm{I}_{2}\longrightarrow 2\mathrm{HI}$ 的反应速率常数如下表所示：
 
-<table><tr><td>T/K</td><td>556</td><td>629</td><td>666</td><td>700</td><td>781</td></tr><tr><td> $k/(mol^{-1} \cdot dm^{3} \cdot s^{-1})$ </td><td> $4.45 \times 10^{-5}$ </td><td> $2.52 \times 10^{-3}$ </td><td> $1.41 \times 10^{-2}$ </td><td> $6.43 \times 10^{-2}$ </td><td>1.24</td></tr></table>
+<table><tr><td>T/K</td><td>556</td><td>629</td><td>666</td><td>700</td><td>781</td></tr><tr><td> $k/(\mathrm{mol}^{-1} \cdot \mathrm{dm}^{3} \cdot \mathrm{s}^{-1})$ </td><td> $4.45 \times 10^{-5}$ </td><td> $2.52 \times 10^{-3}$ </td><td> $1.41 \times 10^{-2}$ </td><td> $6.43 \times 10^{-2}$ </td><td>1.24</td></tr></table>
 
 试用作图法求反应活化能,并求在 $300^{\circ}$ C 和 $400^{\circ}$ C 的速率常数各是多少?
 
-<table><tr><td> $T^{-1} \times 10^{3}/K^{-1}$ </td><td>1.80</td><td>1.59</td><td>1.50</td><td>1.43</td><td>1.28</td></tr><tr><td> $lg\frac{k}{(mol^{-1} \cdot dm^{3} \cdot s^{-1})}$ </td><td>-4.352</td><td>-2.599</td><td>-1.851</td><td>-1.192</td><td>0.0934</td></tr></table>
+<table><tr><td> $T^{-1} \times 10^{3}/K^{-1}$ </td><td>1.80</td><td>1.59</td><td>1.50</td><td>1.43</td><td>1.28</td></tr><tr><td> $lg\frac{k}{(\mathrm{mol}^{-1} \cdot \mathrm{dm}^{3} \cdot \mathrm{s}^{-1})}$ </td><td>-4.352</td><td>-2.599</td><td>-1.851</td><td>-1.192</td><td>0.0934</td></tr></table>
 
 ![](普通化学原理（第4版）习题解析北京大学化学学院普通化学原理教学组编z-library.sk,1lib.sk,z-lib.sk_images/c3701cb9c79587b42138519d8ecac2784cc86cff89b6d7f0f5de23b2c0ee08b2.jpg)
 
@@ -3146,7 +3146,7 @@ $$
 \lg \frac {k (673 \mathrm{K})}{\mathrm{mol} ^ {- 1} \cdot \mathrm{dm} ^ {3} \cdot \mathrm{s} ^ {- 1}} = - 1.70, k = 2.0 \times 10 ^ {- 2} \mathrm{mol} ^ {- 1} \cdot \mathrm{dm} ^ {3} \cdot \mathrm{s} ^ {- 1}
 $$
 
-7.13 某酶催化反应的活化能是 $51 \, kJ \cdot mol^{-1}$ ，正常人的体温为 $37.0^{\circ}C$ ，问病人发烧至 $39.5^{\circ}C$ 时，酶催化反应速率增加的百分数为多少？
+7.13 某酶催化反应的活化能是 $51 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ ，正常人的体温为 $37.0^{\circ}C$ ，问病人发烧至 $39.5^{\circ}C$ 时，酶催化反应速率增加的百分数为多少？
 
 解 由公式 $\lg \frac{k_2}{k_1} = \frac{E_{\mathrm{a}}}{2.30R}\left(\frac{T_2 - T_1}{T_2T_1}\right)$
 
@@ -3188,7 +3188,7 @@ $$
 \mathrm{O} + \mathrm{O} _ {2} \longrightarrow \mathrm{O} _ {3} \qquad (\text {二级反应}) \quad k _ {2} = 1.0 \times 10 ^ {6} \mathrm{mol} ^ {- 1} \cdot \mathrm{dm} ^ {3} \cdot \mathrm{s} ^ {- 1}
 $$
 
-假设由反应①产生氧原子的速率等于反应②消耗氧原子的速率。当空气中 $NO_{2}$ 浓度为 $3.0 \times 10^{-9} \, mol \cdot dm^{-3}$ 时，空气中 $O_{3}$ 生成的速率是多少？
+假设由反应①产生氧原子的速率等于反应②消耗氧原子的速率。当空气中 $NO_{2}$ 浓度为 $3.0 \times 10^{-9} \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 时，空气中 $O_{3}$ 生成的速率是多少？
 
 解 由反应方程式知,在反应②中, $O_{3}$ 的生成速率等于O的消耗速率;而反应②中O的消耗速率等于反应①中O的生成速率;在反应①中,O的生成速率又等于 $NO_{2}$ 的消耗速率。所以, $O_{3}$ 的生成速率等于 $NO_{2}$ 的消耗速率,即
 
@@ -3214,7 +3214,7 @@ $$
 
 (4) 无变化。
 
-7.17 已知基元反应 A $\longrightarrow$ B 的 $\Delta H=67\ kJ\cdot mol^{-1}, E_{a}=90\ kJ\cdot mol^{-1}$ 。问：
+7.17 已知基元反应 A $\longrightarrow$ B 的 $\Delta H=67\ \mathrm{kJ}\cdot \mathrm{mol}^{-1}, E_{a}=90\ \mathrm{kJ}\cdot \mathrm{mol}^{-1}$ 。问：
 
 (1) B → A 的 $E_{a}^{\prime} = ?$
 
@@ -3432,7 +3432,7 @@ $$
 \begin{array}{r l}&{(4) \mathrm{PO} _ {4} ^ {3 -} + \mathrm{H} _ {2} \mathrm{O} \rightleftharpoons \mathrm{HPO} _ {4} ^ {2 -} + \mathrm{OH} ^ {-}}\\&{\text {   碱   } 1 \quad \text {   酸   } 2 \quad \text {   酸   } 1 \quad \text {   碱   } 2}\\&{\qquad K _ {\mathrm{b}} = \frac {[ \mathrm{HPO} _ {4} ^ {2 -} ] [ \mathrm{OH} ^ {-} ]}{[ \mathrm{PO} _ {4} ^ {3 -} ]} = \frac {K _ {\mathrm{w}}}{K _ {\mathrm{a} _ {3}}} = \frac {1.0 \times 10 ^ {- 14}}{4.8 \times 10 ^ {- 13}} = 2.1 \times 10 ^ {- 2}}\end{array}
 $$
 
-8.2 弱电解质的电离度,早期主要通过测定溶剂的凝固点降低来推算。反过来,通过计算预计 $0.050 \, mol \cdot dm^{-3} \, HAc(aq)$ 的凝固点降低值。
+8.2 弱电解质的电离度,早期主要通过测定溶剂的凝固点降低来推算。反过来,通过计算预计 $0.050 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \, HAc(aq)$ 的凝固点降低值。
 
 解
 
@@ -3452,15 +3452,15 @@ $$
 \begin{array}{r l} & c = (0.049 + 2 \times 9.4 \times 10 ^ {- 4}) \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} = 0.051 \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \\ & m \approx 0.051 \mathrm{mol} \cdot \mathrm{kg} ^ {- 1} \\ & \Delta T _ {\mathrm{f}} = K _ {\mathrm{f}} m = 1.86 ^ {\circ} \mathrm{C} \cdot \mathrm{kg} \cdot \mathrm{mol} ^ {- 1} \times 0.051 \mathrm{mol} \cdot \mathrm{kg} ^ {- 1} = 0.095 ^ {\circ} \mathrm{C} \end{array}
 $$
 
-即 $0.050 \, mol \cdot dm^{-3}$ HAc 溶液的凝固点降低值为 $0.095^{\circ}C$ 。
+即 $0.050 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ HAc 溶液的凝固点降低值为 $0.095^{\circ}C$ 。
 
 8.3 计算下列溶液的 pH:
 
-(1) $0.10 \, mol \cdot dm^{-3}$ HCN 溶液；
+(1) $0.10 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ HCN 溶液；
 
-(2) $0.10 \, mol \cdot dm^{-3}$ 氯代乙酸 $ClCH_{2}COOH$ 溶液；
+(2) $0.10 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 氯代乙酸 $ClCH_{2}COOH$ 溶液；
 
-(3) $0.10 \, mol \cdot dm^{-3} \, H_{2}SO_{4}$ 溶液。
+(3) $0.10 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \, H_{2}SO_{4}$ 溶液。
 
 解 (1) $c / K = 0.10 / (6.2 \times 10^{-10}) = 1.6 \times 10^{8} \gg 400$ ，可简化计算。设 $[\mathrm{H}_{3}\mathrm{O}^{+}] = x\mathrm{mol} \cdot \mathrm{dm}^{-3}$
 
@@ -3494,7 +3494,7 @@ $$
 \begin{array}{r l}&{\mathrm {HC_ {6} H_ {11} O_ {2} + H_ {2} O\rightleftharpoons H_ {3} O^ {+} + C_ {6} H_ {11} O_ {2} ^ {-}}}\\&{\frac {\mathrm{平衡浓度}}{\mathrm{mol} \cdot \mathrm{dm} ^ {- 3}} \quad 0.095 - x \qquad \qquad x \qquad \qquad x}\\&{K _ {\mathrm{s}} = \frac {x ^ {2}}{0.095 - x} = \frac {(1.1 \times 10 ^ {- 3}) ^ {2}}{0.095 - 1.1 \times 10 ^ {- 3}} = 1.3 \times 10 ^ {- 5}}\end{array}
 $$
 
-8.5 在 $25^{\circ}C$ , $CO_{2}$ 气体压力等于 1 个标准大气压时, 则 $CO_{2}$ 饱和水溶液中 $CO_{2}$ 的浓度约为 $0.034 \, mol \cdot dm^{-3}$ , 计算溶液的 pH 和 $[CO_{3}^{2-}]$ 。通常可把溶入的 $CO_{2}$ 都当成 $H_{2}CO_{3}$ , 利用如下平衡式计算:
+8.5 在 $25^{\circ}C$ , $CO_{2}$ 气体压力等于 1 个标准大气压时, 则 $CO_{2}$ 饱和水溶液中 $CO_{2}$ 的浓度约为 $0.034 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ , 计算溶液的 pH 和 $[CO_{3}^{2-}]$ 。通常可把溶入的 $CO_{2}$ 都当成 $H_{2}CO_{3}$ , 利用如下平衡式计算:
 
 解
 
@@ -3518,7 +3518,7 @@ $$
 \begin{array}{r l} & {(2) \text {设} [ \mathrm{H} _ {3} \mathrm{O} ^ {+} ] = x \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}} \\ & {\qquad x = \sqrt {8.9 \times 10 ^ {- 8} \times 0.108} = 9.8 \times 10 ^ {- 5}, \quad [ \mathrm{H} _ {3} \mathrm{O} ^ {+} ] = 9.8 \times 10 ^ {- 5} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}} \\ & {\qquad K _ {\mathrm{a} _ {2}} = 1.2 \times 10 ^ {- 13}, \quad [ \mathrm{S} ^ {2 -} ] = 1.2 \times 10 ^ {- 13} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}} \end{array}
 $$
 
-(3) pH=2.00, 即 $\left[H_{3}O^{+}\right]=0.010\ mol\cdot dm^{-3}$ ，设 $\left[S^{2-}\right]=x\ mol\cdot dm^{-3}$ ，则
+(3) pH=2.00, 即 $\left[H_{3}O^{+}\right]=0.010\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ ，设 $\left[S^{2-}\right]=x\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ ，则
 
 $$
 \begin{array}{r l} & [ \mathrm {S^ {2 - }} ] = \frac {K _ {\mathrm{a} _ {1}} K _ {\mathrm{a} _ {2}} [ \mathrm {H_ {2} S} ]}{[ \mathrm {H_ {3} O^ {+}} ] ^ {2}} \\ & x = \frac {8.9 \times 10 ^ {- 8} \times 1.2 \times 10 ^ {- 13} \times 0.108}{(0.010) ^ {2}} = 1.2 \times 10 ^ {- 17} \\ & [ \mathrm {S^ {2 - }} ] = 1.2 \times 10 ^ {- 17} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \end{array}
@@ -3526,7 +3526,7 @@ $$
 
 计算结果说明， $\left[S^{2-}\right]$ 的大小与 $\left[H_{3}O^{+}\right]$ 相关： $\left[H_{3}O^{+}\right]$ 增大， $\left[S^{2-}\right]$ 减小。
 
-8.7 将 $10 \, g \, P_{2}O_{5}$ 溶于热水，冷却至室温稀释至 $500 \, cm^{3}$ ，计算溶液中的 $[H_{3}O^{+}]$ 、 $[H_{2}PO_{4}^{-}]$ 、 $[HPO_{4}^{2-}]$ 和 $[PO_{4}^{3-}]$ 各是多少？（已知： $P_{2}O_{5} + 3H_{2}O \xrightarrow{\triangle} 2H_{3}PO_{4}$ 。）
+8.7 将 $10 \, g \, P_{2}O_{5}$ 溶于热水，冷却至室温稀释至 $500 \, \mathrm{cm}^{3}$ ，计算溶液中的 $[H_{3}O^{+}]$ 、 $[H_{2}PO_{4}^{-}]$ 、 $[HPO_{4}^{2-}]$ 和 $[PO_{4}^{3-}]$ 各是多少？（已知： $P_{2}O_{5} + 3H_{2}O \xrightarrow{\triangle} 2H_{3}PO_{4}$ 。）
 
 解 (1) $\mathrm{P_2O_5 + 3H_2O\xrightarrow{\triangle} 2H_3PO_4}$ $1\mathrm{mol}$ $2\mathrm{mol}$ $\frac{10\mathrm{g}}{142\mathrm{g}\cdot\mathrm{mol}^{-1}}$ $x\mathrm{mol}$
 
@@ -3566,7 +3566,7 @@ $$
 \begin{array}{r l}&{\mathrm {HAc + H_ {2} O\rightleftharpoons H_ {3} O^ {+} + Ac^ {-}}}\\{\frac {\text {平衡浓度}}{\mathrm{mol} \cdot \mathrm{dm} ^ {- 3}}}&{0.10 - x \qquad \qquad x \qquad x}\\&{\frac {x ^ {2}}{0.10 - x} = 1.75 \times 10 ^ {- 5}, \quad \text {可简化计算。}}\\&{x = 1.3 \times 10 ^ {- 3}, \quad [ \mathrm{H} _ {3} \mathrm{O} ^ {+} ] = [ \mathrm{Ac} ^ {-} ] = 1.3 \times 10 ^ {- 3} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}}\\{\frac {\text {平衡浓度}}{\mathrm{mol} \cdot \mathrm{dm} ^ {- 3}}}&{\mathrm{HCN} + \mathrm{H} _ {2} \mathrm{O} \rightleftharpoons \mathrm{H} _ {3} \mathrm{O} ^ {+} \qquad + \mathrm{CN} ^ {-}}\\&{\frac {(1.3 \times 10 ^ {- 3} + y) y}{0.10 - y} = 6.2 \times 10 ^ {- 10}, \quad \text {可简化计算。}}\\&{y = 4.8 \times 10 ^ {- 8}, \quad [ \mathrm{CN} ^ {-} ] = 4.8 \times 10 ^ {- 8} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}}\end{array}
 $$
 
-8.10 浓度为 $0.20 \, mol \cdot dm^{-3}$ 氨水的 pH 是多少？若向 $100 \, cm^{3}$ 浓度为 $0.20 \, mol \cdot dm^{-3}$ 的氨水中加入 7.0 g 固体 $NH_{4}Cl$ （设体积不变），溶液的 pH 变为多少？
+8.10 浓度为 $0.20 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 氨水的 pH 是多少？若向 $100 \, \mathrm{cm}^{3}$ 浓度为 $0.20 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 的氨水中加入 7.0 g 固体 $NH_{4}Cl$ （设体积不变），溶液的 pH 变为多少？
 
 解 $\mathrm{NH_3 + H_2O\rightleftharpoons NH_4^+ + OH^-}$ ，设 $[\mathrm{OH}^{-}] = x\mathrm{mol}\cdot \mathrm{dm}^{-3}$ ，则
 
@@ -3574,7 +3574,7 @@ $$
 \begin{array}{r l}&{[ \mathrm {OH^ {-}} ] = \sqrt {K _ {\mathrm{b}} c}, \quad x = \sqrt {1.8 \times 10 ^ {- 5} \times 0.20} = 1.9 \times 10 ^ {- 3}}\\&{[ \mathrm {OH^ {-}} ] = 1.9 \times 10 ^ {- 3} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}, \quad \mathrm{pOH} = 2.72, \quad \mathrm{pH} = 11.28}\\&{\qquad \mathrm {NH_ {3}} + \mathrm {H_ {2} O} \rightleftharpoons \mathrm {NH_ {4} ^ {+}} + \mathrm {OH^ {-}}}\\&{\frac {\text {平衡浓度}}{\mathrm{mol} \cdot \mathrm{dm} ^ {- 3}} \quad 0.20 - x \quad \frac {7.0}{53.5 \times 0.10} + x \quad x}\\&{\frac {\left(\frac {7.0}{53.5 \times 0.10} + x\right) x}{0.20 - x} = 1.8 \times 10 ^ {- 5}}\\&{x = 2.8 \times 10 ^ {- 6}, [ \mathrm {OH^ {-}} ] = 2.8 \times 10 ^ {- 6} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}}\\&{\mathrm{pOH} = 5.55, \quad \mathrm{pH} = 8.45}\end{array}
 $$
 
-8.11 在 $250 \, cm^{3}$ 浓度为 $0.20 \, mol \cdot dm^{-3}$ 氨水中，需加入多少克固体 $(\mathrm{NH}_{4})_{2}\mathrm{SO}_{4}$ ，才能使溶液中的 $OH^{-}$ 浓度降低 100 倍？
+8.11 在 $250 \, \mathrm{cm}^{3}$ 浓度为 $0.20 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 氨水中，需加入多少克固体 $(\mathrm{NH}_{4})_{2}\mathrm{SO}_{4}$ ，才能使溶液中的 $OH^{-}$ 浓度降低 100 倍？
 
 解 $0.20\mathrm{mol}\cdot \mathrm{dm}^{-3}$ 氨水中，设 $[\mathrm{OH}^{-}] = x\mathrm{mol}\cdot \mathrm{dm}^{-3}$ ，则
 
@@ -3673,7 +3673,7 @@ $\mathrm{pH} = 13.0$ 时： $\mathrm{pH} > \mathrm{pK}_2$ ，以 $\mathrm{CO_3^{
 
 由 $[\mathrm{In}^{-}] / [\mathrm{HIn}] = K_{\mathrm{a}} / [\mathrm{H}^{+}]$ ，计算不同 $\mathrm{pH}$ 下 $[\mathrm{In}^{-}] / [\mathrm{HIn}]$ 比值（见下表），其变色范围为 $\mathrm{pK}_{\mathrm{a}} \pm 1$ （ $\mathrm{pH}7 \sim 9$ ）。
 
-<table><tr><td>pH</td><td>6</td><td>7</td><td>8</td><td>9</td><td>12</td></tr><tr><td> $[H^{+}]/(mol·dm^{-3})$ </td><td> $1\times 10^{-6}$ </td><td> $1\times 10^{-7}$ </td><td> $1\times 10^{-8}$ </td><td> $1\times 10^{-9}$ </td><td> $1\times 10^{-12}$ </td></tr><tr><td> $[In^{-}]/[HIn]$ </td><td> $1\times 10^{-2}$ </td><td> $1\times 10^{-1}$ </td><td>1</td><td>10</td><td> $1\times 10^{4}$ </td></tr><tr><td>颜色</td><td>黄</td><td>黄</td><td>橙</td><td>红</td><td>红</td></tr></table>
+<table><tr><td>pH</td><td>6</td><td>7</td><td>8</td><td>9</td><td>12</td></tr><tr><td> $[H^{+}]/(\mathrm{mol}·\mathrm{dm}^{-3})$ </td><td> $1\times 10^{-6}$ </td><td> $1\times 10^{-7}$ </td><td> $1\times 10^{-8}$ </td><td> $1\times 10^{-9}$ </td><td> $1\times 10^{-12}$ </td></tr><tr><td> $[In^{-}]/[HIn]$ </td><td> $1\times 10^{-2}$ </td><td> $1\times 10^{-1}$ </td><td>1</td><td>10</td><td> $1\times 10^{4}$ </td></tr><tr><td>颜色</td><td>黄</td><td>黄</td><td>橙</td><td>红</td><td>红</td></tr></table>
 
 8.15 下列各组水溶液等体积相混合时,哪些可以作为缓冲溶液,为什么?
 
@@ -3736,7 +3736,7 @@ $$
 
 8.16 分别往 $10\mathrm{cm}^3\mathrm{pH} = 5.00$ 的HCl溶液中加2滴 $(0.10\mathrm{cm}^3)$ $1.0\mathrm{mol}\cdot \mathrm{dm}^{-3}$ 的HCl溶液或2滴 $1.0\mathrm{mol}\cdot \mathrm{dm}^{-3}$ 的NaOH溶液后，计算所得溶液的 $\mathsf{pH}$ 各是多少？并将其与HAc-NaAc混合液在加入少量酸碱时 $\mathsf{pH}$ 的变化(教材p.171)进行对比。
 
-解 pH=5.00，则 $\left[H_{3}O^{+}\right]=1.0\times10^{-5}\ mol\cdot dm^{-3}$
+解 pH=5.00，则 $\left[H_{3}O^{+}\right]=1.0\times10^{-5}\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$
 
 $10\mathrm{cm}^3\mathrm{pH} = 5.00$ 的HCl溶液加 $0.10\mathrm{cm}^31.0\mathrm{mol}\cdot \mathrm{dm}^{-3}$ 的HCl溶液时：
 
@@ -3760,9 +3760,9 @@ $$
 
 (1) 溶液的 pH 是多少?
 
-(2) 在混合溶液中加入 $1.0 \, cm^{3}$ $0.50 \, mol \cdot dm^{-3}$ 的 NaOH, 溶液的 pH 变为多少?
+(2) 在混合溶液中加入 $1.0 \, \mathrm{cm}^{3}$ $0.50 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 的 NaOH, 溶液的 pH 变为多少?
 
-(3) 在混合溶液中加入 $1.0 \, cm^{3}$ $0.50 \, mol \cdot dm^{-3}$ 的 HCl，溶液的 pH 变为多少？
+(3) 在混合溶液中加入 $1.0 \, \mathrm{cm}^{3}$ $0.50 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 的 HCl，溶液的 pH 变为多少？
 
 (4) 将最初的混合溶液用水稀释一倍, 溶液的 pH 又是多少?
 
@@ -3776,7 +3776,7 @@ $$
 \mathrm{pH} = 4.76 + \lg \frac {0.15}{0.10} = 4.94
 $$
 
-(2) 加 $1.0 \, cm^{3}$ $0.50 \, mol \cdot dm^{-3}$ 的 NaOH 后：
+(2) 加 $1.0 \, \mathrm{cm}^{3}$ $0.50 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 的 NaOH 后：
 
 $$
 c (\mathrm{HAc}) = \frac {0.10 \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \times 20 \mathrm{cm} ^ {3} - 0.50 \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \times 1.0 \mathrm{cm} ^ {3}}{(20.0 + 1.0) \mathrm{cm} ^ {3}} = 7.1 \times 10 ^ {- 2} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}
@@ -3790,7 +3790,7 @@ $$
 \mathrm{pH} = 4.76 + \lg \frac {0.17}{7.1 \times 10 ^ {- 2}} = 5.14
 $$
 
-(3) 加 $1.0 \, cm^{3}$ $0.50 \, mol \cdot dm^{-3}$ 的 HCl 后：
+(3) 加 $1.0 \, \mathrm{cm}^{3}$ $0.50 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 的 HCl 后：
 
 $$
 c (\mathrm{HAc}) = \frac {0.10 \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \times 20 \mathrm{cm} ^ {3} + 0.50 \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \times 1.0 \mathrm{cm} ^ {3}}{(20.0 + 1.0) \mathrm{cm} ^ {3}} = 0.12 \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}
@@ -3826,7 +3826,7 @@ $$
 7.51 = 7.21 + \lg \frac {c (\mathrm{HPO} _ {4} ^ {2 -})}{c (\mathrm{H} _ {2} \mathrm{PO} _ {4} ^ {-})}, \quad \text { 浓度比 } \quad \frac {c (\mathrm{HPO} _ {4} ^ {2 -})}{c (\mathrm{H} _ {2} \mathrm{PO} _ {4} ^ {-})} = 2
 $$
 
-8.19 把 HCOOH、HAc、 $H_{3}PO_{4}$ 、HCOONa、NaAc、 $NaH_{2}PO_{4}$ 几种溶液中的哪两种溶液相混合，可以配制成 pH=3.50 的缓冲溶液？请说明理由，并表述配制这个缓冲溶液的方法。（提示：上述各溶液的浓度均为 $0.100 \, mol \cdot dm^{-3}$ 。）
+8.19 把 HCOOH、HAc、 $H_{3}PO_{4}$ 、HCOONa、NaAc、 $NaH_{2}PO_{4}$ 几种溶液中的哪两种溶液相混合，可以配制成 pH=3.50 的缓冲溶液？请说明理由，并表述配制这个缓冲溶液的方法。（提示：上述各溶液的浓度均为 $0.100 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 。）
 
 解 有关的 $\mathrm{pK}$ 如下：
 
@@ -3838,11 +3838,11 @@ $$
 \begin{array}{r l} \lg \frac {c (\mathrm{HCOO} ^ {-})}{c (\mathrm{HCOOH})} & = \mathrm{pH} - \mathrm{pK} _ {\mathrm{a}} = 3.50 - 3.74 = - 0.24 \\ & \frac {c (\mathrm{HCOO} ^ {-})}{c (\mathrm{HCOOH})} = 0.58 \end{array}
 $$
 
-取 $1.00 \, dm^{3}$ $0.100 \, mol \cdot dm^{-3}$ HCOOH 溶液（含 HCOOH 0.100 mol）和 $0.58 \, dm^{3}$ $0.100 \, mol \cdot dm^{-3}$ HCOONa 溶液（含 HCOONa 0.058 mol）相混合，即配得。
+取 $1.00 \, \mathrm{dm}^{3}$ $0.100 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ HCOOH 溶液（含 HCOOH 0.100 mol）和 $0.58 \, \mathrm{dm}^{3}$ $0.100 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ HCOONa 溶液（含 HCOONa 0.058 mol）相混合，即配得。
 
-8.20 某生化实验有一 pH 为 7.50 的动脉血浆样品 $20.00 \, cm^{3}$ 。
+8.20 某生化实验有一 pH 为 7.50 的动脉血浆样品 $20.00 \, \mathrm{cm}^{3}$ 。
 
-(1) 若在 298 K、101 kPa 气压下酸化此样品后, 能释放出 $12.2 \, cm^{3}$ 的 $CO_{2}$ , 求血液中 $CO_{2}$ ( $CO_{2} + H_{2}CO_{3}$ ) 和 $HCO_{3}^{-}$ 的浓度。
+(1) 若在 298 K、101 kPa 气压下酸化此样品后, 能释放出 $12.2 \, \mathrm{cm}^{3}$ 的 $CO_{2}$ , 求血液中 $CO_{2}$ ( $CO_{2} + H_{2}CO_{3}$ ) 和 $HCO_{3}^{-}$ 的浓度。
 
 (2) 已知在 $101 \mathrm{kPa} \mathrm{CO}_{2}$ 的气压下, 被 $\mathrm{CO}_{2}$ 饱和的动脉血浆中含 $0.031 \mathrm{~mol} \mathrm{CO}_{2} (\mathrm{CO}_{2} + \mathrm{H}_{2} \mathrm{CO}_{3})$ , 则上述动脉血浆样品上方 $\mathrm{CO}_{2}$ 的分压是多少? (参看 8.5 题。)
 
@@ -3856,7 +3856,7 @@ $$
 \frac {p (\mathrm{CO} _ {2})}{101 \mathrm{kPa}} = \frac {0.0016 \mathrm{mol}}{0.031 \mathrm{mol}}, \quad p (\mathrm{CO} _ {2}) = 5.2 \mathrm{kPa}
 $$
 
-8.21 将 $100.0 \, cm^{3}$ $0.030 \, mol \cdot dm^{-3}$ 的 $NaH_{2}PO_{4}$ 溶液与 $50.0 \, cm^{3}$ $0.020 \, mol \cdot dm^{-3}$ 的 $Na_{3}PO_{4}$ 溶液相混合后，其中磷酸根的主要形式是哪些？该混合液是否有缓冲作用？pH 是多少？
+8.21 将 $100.0 \, \mathrm{cm}^{3}$ $0.030 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 的 $NaH_{2}PO_{4}$ 溶液与 $50.0 \, \mathrm{cm}^{3}$ $0.020 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 的 $Na_{3}PO_{4}$ 溶液相混合后，其中磷酸根的主要形式是哪些？该混合液是否有缓冲作用？pH 是多少？
 
 解 混合后： $c(\mathrm{H}_{2}\mathrm{PO}_{4}^{-})=\frac{100.0\ \mathrm{cm}^{3}\times0.030\ \mathrm{mol}\cdot\mathrm{dm}^{-3}}{(100.0+50.0)\mathrm{cm}^{3}}=0.020\ \mathrm{mol}\cdot\mathrm{dm}^{-3}$
 
@@ -3880,7 +3880,7 @@ $$
 
 8.22 将某一元弱酸 HA 溶于未知量水中, 并用一未知浓度的强碱去滴定: 当用去 $3.05 \mathrm{~cm}^{3}$ 强碱时, 溶液 $\mathrm{pH}=4.00$ ; 用去 $12.91 \mathrm{~cm}^{3}$ 强碱时, $\mathrm{pH}=5.00$ 。问该弱酸的电离常数是多少?
 
-解 设中和完毕应用去体积为 $V(\mathrm{cm}^{3})$ 的碱，加入 $3.05 \, cm^{3}$ 碱时，pH = 4.00，溶液中
+解 设中和完毕应用去体积为 $V(\mathrm{cm}^{3})$ 的碱，加入 $3.05 \, \mathrm{cm}^{3}$ 碱时，pH = 4.00，溶液中
 
 $$
 \frac {c (\mathrm{A} ^ {-})}{c (\mathrm{HA})} = \frac {3.05 \mathrm{cm} ^ {3}}{V - 3.05 \mathrm{cm} ^ {3}}
@@ -3890,7 +3890,7 @@ $$
 4.00 = \mathrm{p} K _ {\mathrm{a}} + \lg \frac {3.05 \mathrm{cm} ^ {3}}{(V - 3.05 \mathrm{cm} ^ {3})}\tag{①}
 $$
 
-加入 $12.91 \, cm^{3}$ 的碱时，pH=5.00，溶液中
+加入 $12.91 \, \mathrm{cm}^{3}$ 的碱时，pH=5.00，溶液中
 
 $$
 \frac {c (\mathrm{A} ^ {-})}{c (\mathrm{HA})} = \frac {12.91 \mathrm{cm} ^ {3}}{V - 12.91 \mathrm{cm} ^ {3}}
@@ -3946,7 +3946,7 @@ $$
 
 以上结论统称溶度积规则。
 
-定量分析中，沉淀完全的条件一般是溶液中剩余离子的浓度 $\leqslant1\times10^{-6}\ mol\cdot dm^{-3}$ 。
+定量分析中，沉淀完全的条件一般是溶液中剩余离子的浓度 $\leqslant1\times10^{-6}\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ 。
 
 在难溶盐溶液中加入强电解质(具有不同离子)后,沉淀的溶解度增加,这种现象称为盐效应。盐效应的起因是难溶盐电离后的离子被强电解质中的异性电荷包围,形成离子氛,因而难于沉淀。
 
@@ -3992,7 +3992,7 @@ $$
 
 9.2 根据下列各物质的 $K_{sp}$ 数据，求其溶解度(s)。
 
-(1) $BaCO_{3}, K_{sp}=2.58\times10^{-9}[s$ 分别用 $mol\cdot dm^{-3}$ 与 g/(100 g $H_{2}O$ ) 表示];
+(1) $BaCO_{3}, K_{sp}=2.58\times10^{-9}[s$ 分别用 $\mathrm{mol}\cdot \mathrm{dm}^{-3}$ 与 g/(100 g $H_{2}O$ ) 表示];
 
 (2) $PbF_{2}, K_{sp}=3.3\times10^{-8}$ (s 以 mol·dm $^{-3}$ 表示);
 
@@ -4028,7 +4028,7 @@ $$
 \frac {[ \mathrm{H} ^ {+} ] [ \mathrm{CO} _ {3} ^ {2 -} ]}{[ \mathrm{HCO} _ {3} ^ {-} ]} = K _ {\mathrm{a} _ {2}} = 4.7 \times 10 ^ {- 11}
 $$
 
-由 pH=8.60， $\left[H^{+}\right]=2.5\times10^{-9}\ mol\cdot dm^{-3}$ 整理，得
+由 pH=8.60， $\left[H^{+}\right]=2.5\times10^{-9}\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ 整理，得
 
 $$
 \frac {(2.5 \times 10 ^ {- 9}) [ \mathrm{CO} _ {3} ^ {2 -} ]}{[ \mathrm{HCO} _ {3} ^ {-} ]} = 4.7 \times 10 ^ {- 11}
@@ -4056,9 +4056,9 @@ $$
 
 (1) $\mathrm{Mg(OH)}_{2}$ 在水中的溶解度及 $Mg^{2+}$ 、 $OH^{-}$ 的浓度；
 
-(2) 在 $0.010 \, mol \cdot dm^{-3}$ 的 NaOH 溶液中 $Mg^{2+}$ 的浓度；
+(2) 在 $0.010 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 的 NaOH 溶液中 $Mg^{2+}$ 的浓度；
 
-(3) $\mathrm{Mg(OH)}_{2}$ 在 $0.010\,mol\cdot dm^{-3}\,MgCl_{2}$ 溶液中的溶解度。
+(3) $\mathrm{Mg(OH)}_{2}$ 在 $0.010\,\mathrm{mol}\cdot \mathrm{dm}^{-3}\,MgCl_{2}$ 溶液中的溶解度。
 
 解 $\mathrm{Mg(OH)}_2 \rightleftharpoons \mathrm{Mg}^{2+} + 2\mathrm{OH}^-$
 
@@ -4070,7 +4070,7 @@ $$
 
 (2) $x = \frac{K_{\mathrm{sp}}}{[\mathrm{OH}^{-}]^2} = \frac{5.61\times 10^{-12}}{(0.010)^2} = 5.6\times 10^{-8},$ $[\mathrm{Mg}^{2 + }] = 5.6\times 10^{-8}\mathrm{mol}\cdot \mathrm{dm}^{-3}$
 
-(3) 设溶解度 $s = x \, mol \cdot dm^{-3}$ ，则
+(3) 设溶解度 $s = x \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ ，则
 
 $$
 [ \mathrm{Mg} ^ {2 +} ] [ \mathrm{OH} ^ {-} ] ^ {2} = (x + 0.010) (2 x) ^ {2} = 5.61 \times 10 ^ {- 12}
@@ -4080,7 +4080,7 @@ $$
 x = 1.2 \times 10 ^ {- 5}, \quad s = 1.2 \times 10 ^ {- 5} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}
 $$
 
-9.5 $1.00 \, cm^{3}$ $0.0100 \, mol \cdot dm^{-3}$ 的 $AgNO_{3}$ 和 $99.0 \, cm^{3}$ $0.0100 \, mol \cdot dm^{-3}$ 的 KCl 溶液混合，能否析出沉淀？沉淀后溶液中的 $Ag^{+}$ 、 $Cl^{-}$ 浓度各是多少？
+9.5 $1.00 \, \mathrm{cm}^{3}$ $0.0100 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 的 $AgNO_{3}$ 和 $99.0 \, \mathrm{cm}^{3}$ $0.0100 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 的 KCl 溶液混合，能否析出沉淀？沉淀后溶液中的 $Ag^{+}$ 、 $Cl^{-}$ 浓度各是多少？
 
 解 混合后： $c(\mathrm{Ag}^{+})=\frac{1.00\mathrm{cm}^{3}\times0.0100\mathrm{mol}\cdot\mathrm{dm}^{-3}}{(1.00+99.0)\mathrm{cm}^{3}}=1.00\times10^{-4}\mathrm{mol}\cdot\mathrm{dm}^{-3}$
 
@@ -4116,11 +4116,11 @@ $$
 \begin{array}{r l} \left[ \mathrm{Cl} ^ {-} \right] & = (9.9 \times 10 ^ {- 3} - 1.00 \times 10 ^ {- 4} + 1.81 \times 10 ^ {- 8}) \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \\ & = 9.8 \times 10 ^ {- 3} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \end{array}
 $$
 
-9.6 在 $100 \, cm^{3}$ 0.20 mol·dm $^{-3}$ 的 $MnCl_{2}$ 溶液中加入 $100 \, cm^{3}$ 含有 $NH_{4}Cl$ 的 0.010 mol·dm $^{-3}$ 的 $NH_{3} \cdot H_{2}O$ 溶液，计算在氨水中含有多少 $NH_{4}Cl$ 才不致生成 $\mathrm{Mn(OH)}_{2}$ 沉淀？
+9.6 在 $100 \, \mathrm{cm}^{3}$ 0.20 mol·dm $^{-3}$ 的 $MnCl_{2}$ 溶液中加入 $100 \, \mathrm{cm}^{3}$ 含有 $NH_{4}Cl$ 的 0.010 mol·dm $^{-3}$ 的 $NH_{3} \cdot H_{2}O$ 溶液，计算在氨水中含有多少 $NH_{4}Cl$ 才不致生成 $\mathrm{Mn(OH)}_{2}$ 沉淀？
 
 解1 混合后： $c(\mathrm{Mn}^{2 + }) = \frac{100\mathrm{cm}^3\times 0.20\mathrm{mol}\cdot\mathrm{dm}^{-3}}{200\mathrm{cm}^3} = 0.10\mathrm{mol}\cdot \mathrm{dm}^{-3}$ $c(\mathrm{NH}_3\cdot \mathrm{H}_2\mathrm{O}) = 0.0050\mathrm{mol}\cdot \mathrm{dm}^{-3}$
 
-不致生成 $\mathrm{Mn(OH)}_{2}$ 沉淀所允许的 $OH^{-}$ 最大浓度为 $x\,mol\cdot dm^{-3}$ ，则
+不致生成 $\mathrm{Mn(OH)}_{2}$ 沉淀所允许的 $OH^{-}$ 最大浓度为 $x\,\mathrm{mol}\cdot \mathrm{dm}^{-3}$ ，则
 
 $$
 \begin{array}{l} x = \sqrt {\frac {K _ {\mathrm{sp}}}{[ \mathrm{Mn} ^ {2 +} ]}} = \sqrt {\frac {1.9 \times 10 ^ {- 13}}{0.10}} = 1.4 \times 10 ^ {- 6} \\ [ \mathrm{OH} ^ {-} ] = 1.4 \times 10 ^ {- 6} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \end{array}
@@ -4138,9 +4138,9 @@ $$
 \begin{array}{l} c (\mathrm{NH} _ {4} ^ {+}) = 2 \times 6.4 \times 10 ^ {- 2} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} = 1.3 \times 10 ^ {- 1} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \\ m (\mathrm{NH} _ {4} \mathrm{Cl}) = 0.13 \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \times 53.5 \mathrm{g} \cdot \mathrm{mol} ^ {- 1} \times \frac {100 \mathrm{cm} ^ {3}}{1000 \mathrm{cm} ^ {3} \cdot \mathrm{dm} ^ {- 3}} = 0.70 \mathrm{g} \end{array}
 $$
 
-当氨水溶液中 $NH_{4}Cl$ 的质量大于 0.70 g，即 $OH^{-}$ 浓度小于 $1.4 \times 10^{-6} \, mol \cdot dm^{-3}$ 时，不会有 $\mathrm{Mn(OH)}_{2}$ 沉淀产生。
+当氨水溶液中 $NH_{4}Cl$ 的质量大于 0.70 g，即 $OH^{-}$ 浓度小于 $1.4 \times 10^{-6} \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 时，不会有 $\mathrm{Mn(OH)}_{2}$ 沉淀产生。
 
-解 2 用同时平衡法：维持溶液中 $\left[Mn^{2+}\right]=0.10\ mol\cdot dm^{-3}$
+解 2 用同时平衡法：维持溶液中 $\left[Mn^{2+}\right]=0.10\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$
 
 $$
 \begin{array}{r l}&{c (\mathrm{NH} _ {3} \cdot \mathrm{H} _ {2} \mathrm{O}) = 0.0050   \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}, c (\mathrm{NH} _ {4} ^ {+}) = 2 x   \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}, \text {不生成沉淀。}}\\&{\frac {\text {平衡浓度}}{\mathrm{mol} \cdot \mathrm{dm} ^ {- 3}} \quad \mathrm{Mn} ^ {2 +} + 2 \mathrm{NH} _ {3} \cdot \mathrm{H} _ {2} \mathrm{O} \rightleftharpoons \mathrm{Mn(OH)} _ {2} + 2 \mathrm{NH} _ {4} ^ {+} \quad K = \frac {(K _ {\mathrm{b}}) ^ {2}}{K _ {\mathrm{sp}}} = 1.7 \times 10 ^ {3}}\\&{\frac {x ^ {2}}{(0.10) (0.0050) ^ {2}} = 1.7 \times 10 ^ {3}, x = 0.065}\\&{c (\mathrm{NH} _ {4} ^ {+}) = 0.13   \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}, m (\mathrm{NH} _ {4} \mathrm{Cl}) = 0.70   \mathrm{g}}\end{array}
@@ -4168,9 +4168,9 @@ $$
 x = 0.057, \quad c = 0.57
 $$
 
-当铁离子浓度为 $0.57 \, mol \cdot dm^{-3}$ 时，恰好有 $\mathrm{Fe(OH)}_{3}$ 沉淀析出。
+当铁离子浓度为 $0.57 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 时，恰好有 $\mathrm{Fe(OH)}_{3}$ 沉淀析出。
 
-9.8 当 $H_{2}S$ 气通入 $0.10\ mol \cdot dm^{-3}HAc$ 和 $0.10\ mol \cdot dm^{-3}CuSO_{4}$ 混合溶液达饱和时，是否有硫化物沉淀生成（饱和 $H_{2}S$ 水溶液中 $H_{2}S$ 的浓度为 $0.10\ mol \cdot dm^{-3}$ ）?
+9.8 当 $H_{2}S$ 气通入 $0.10\ \mathrm{mol} \cdot \mathrm{dm}^{-3}HAc$ 和 $0.10\ \mathrm{mol} \cdot \mathrm{dm}^{-3}CuSO_{4}$ 混合溶液达饱和时，是否有硫化物沉淀生成（饱和 $H_{2}S$ 水溶液中 $H_{2}S$ 的浓度为 $0.10\ \mathrm{mol} \cdot \mathrm{dm}^{-3}$ ）?
 
 $$
 \begin{array}{r l} & {\text {解 设} [ \mathrm{H} _ {3} \mathrm{O} ^ {+} ] = x \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}, \quad [ \mathrm{S} ^ {2 -} ] = y \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}} \\ & {[ \mathrm{H} _ {3} \mathrm{O} ^ {+} ] = \sqrt {K _ {\mathrm{a}} c}, \quad x = \sqrt {1.75 \times 10 ^ {- 5} \times 0.10} = 1.3 \times 10 ^ {- 3}} \\ & {[ \mathrm{H} _ {3} \mathrm{O} ^ {+} ] = 1.3 \times 10 ^ {- 3} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}} \\ & {[ \mathrm{S} ^ {2 -} ] = \frac {K _ {1} K _ {2} [ \mathrm{H} _ {2} \mathrm{S} ]}{[ \mathrm{H} ^ {+} ] ^ {2}}, \quad y = \frac {8.9 \times 10 ^ {- 8} \times 1.2 \times 10 ^ {- 13} \times 0.10}{(1.3 \times 10 ^ {- 3}) ^ {2}} = 6.3 \times 10 ^ {- 16}} \\ & {[ \mathrm{S} ^ {2 -} ] = 6.3 \times 10 ^ {- 16} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}} \\ & {Q = c (\mathrm{Cu} ^ {2 +}) c (\mathrm{S} ^ {2 -}) = 0.10 \times 6.3 \times 10 ^ {- 16} = 6.3 \times 10 ^ {- 17}.} \end{array}
@@ -4178,7 +4178,7 @@ $$
 
 因 $6.3 \times 10^{-17} > K_{\mathrm{sp}}(\mathrm{CuS}) (= 6.3 \times 10^{-36})$ ，故有沉淀生成。
 
-9.9 往 $\mathrm{Cd(NO_{3})_{2}}$ 溶液中通入 $H_{2}S$ ，生成 CdS 沉定。要使溶液中所剩 $Cd^{2+}$ 浓度不超过 $2.0 \times 10^{-6} \, mol \cdot dm^{-3}$ ，计算溶液允许的最大酸度。
+9.9 往 $\mathrm{Cd(NO_{3})_{2}}$ 溶液中通入 $H_{2}S$ ，生成 CdS 沉定。要使溶液中所剩 $Cd^{2+}$ 浓度不超过 $2.0 \times 10^{-6} \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ ，计算溶液允许的最大酸度。
 
 解 设 $\left[\mathrm{H}_{3} \mathrm{O}^{+}\right] = x \mathrm{~mol} \cdot \mathrm{dm}^{-3}, \quad \left[\mathrm{S}^{2-}\right] = y \mathrm{~mol} \cdot \mathrm{dm}^{-3}$
 
@@ -4186,19 +4186,19 @@ $$
 \begin{array}{r l} & [ \mathrm {S^ {2 - }} ] = \frac {K _ {\mathrm{sp}}}{[ \mathrm {Cd^ {2 + }} ]}, \quad y = \frac {8.0 \times 10 ^ {- 27}}{2.0 \times 10 ^ {- 6}} = 4.0 \times 10 ^ {- 21} \\ & [ \mathrm {S^ {2 - }} ] = 4.0 \times 10 ^ {- 21} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \\ & x = \sqrt {\frac {1.1 \times 10 ^ {- 21}}{4.0 \times 10 ^ {- 21}}} = 0.52 \end{array}
 $$
 
-即允许的最大酸度为 $0.52 \, mol \cdot dm^{-3}$ 。
+即允许的最大酸度为 $0.52 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 。
 
 9.10 在下列溶液中通入 $H_{2}S$ 至饱和，计算溶液中残留的 $Cu^{2+}$ 离子浓度。
 
-(1) $0.10 \, mol \cdot dm^{-3} CuSO_{4}$
+(1) $0.10 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} CuSO_{4}$
 
-(2) $0.10 \, mol \cdot dm^{-3} \, CuSO_{4}$ 和 $1.0 \, mol \cdot dm^{-3} \, HCl$ 。
+(2) $0.10 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \, CuSO_{4}$ 和 $1.0 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \, HCl$ 。
 
 (提示：考虑反应 $Cu^{2+} + H_{2}S + 2H_{2}O \rightleftharpoons CuS + 2H_{3}O^{+}$ 和 $H_{3}O^{+} + SO_{4}^{2-} \rightleftharpoons HSO_{4}^{-} + H_{2}O$ )
 
 解 (1) $\mathrm{Cu}^{2+} + \mathrm{H}_{2}\mathrm{S} + 2\mathrm{H}_{2}\mathrm{O} \rightleftharpoons \mathrm{CuS} \downarrow + 2\mathrm{H}_{3}\mathrm{O}^{+}$
 
-由于 CuS 的 $K_{sp}$ 很小，可认为 $0.10 \, mol \cdot dm^{-3} \, Cu^{2+}$ 完全生成 $CuS \downarrow$ ，并产生 $H_{3}O^{+}$ ，且
+由于 CuS 的 $K_{sp}$ 很小，可认为 $0.10 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \, Cu^{2+}$ 完全生成 $CuS \downarrow$ ，并产生 $H_{3}O^{+}$ ，且
 
 $$
 c \left(\mathrm{H} _ {3} \mathrm{O} ^ {+}\right) = 2 \times 0.10 \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} = 0.20 \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}
@@ -4238,7 +4238,7 @@ $$
 \mathrm{残留} [ \mathrm {Cu^ {2 + }} ] = 6.9 \times 10 ^ {- 17} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}
 $$
 
-(2) $Cu^{2+}$ 完全沉淀后产生 $0.20\ mol \cdot dm^{-3}H_{3}O^{+}$
+(2) $Cu^{2+}$ 完全沉淀后产生 $0.20\ \mathrm{mol} \cdot \mathrm{dm}^{-3}H_{3}O^{+}$
 
 $$
 \left[ \mathrm{H} _ {3} \mathrm{O} ^ {+} \right] = (1.0 + 0.20) \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} = 1.2 \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}
@@ -4336,7 +4336,7 @@ K 很大, 正向反应能自发进行, 反应相当彻底。
 
 (2) 某溶液中 $\mathrm{H}_{2} \mathrm{~S}$ 的起始浓度为 $0.10 \mathrm{~mol} \cdot \mathrm{dm}^{-3}, \mathrm{H}_{3} \mathrm{O}^{+}$ 浓度为 $0.30 \mathrm{~mol} \cdot \mathrm{dm}^{-3}$ , 计算 CdS 在该溶液中的溶解度。
 
-(3) 若 $Cd^{2+}$ 浓度是 $0.10 \, mol \cdot dm^{-3}$ ，在(2)的条件下溶液中剩余的 $Cd^{2+}$ 浓度为多少？
+(3) 若 $Cd^{2+}$ 浓度是 $0.10 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ ，在(2)的条件下溶液中剩余的 $Cd^{2+}$ 浓度为多少？
 
 解 (1) $\mathrm{CdS} + 2\mathrm{H}_3\mathrm{O}^+ \rightleftharpoons \mathrm{Cd}^{2+} + \mathrm{H}_2\mathrm{S} + 2\mathrm{H}_2\mathrm{O}$
 
@@ -4350,13 +4350,13 @@ $$
 \mathrm{CdS} + 2 \mathrm{H} _ {3} \mathrm{O} ^ {+} \rightleftharpoons \mathrm{Cd} ^ {2 +} + \mathrm{H} _ {2} \mathrm{S} + 2 \mathrm{H} _ {2} \mathrm{O}
 $$
 
-平衡浓度 $mol \cdot dm^{-3}$
+平衡浓度 $\mathrm{mol} \cdot \mathrm{dm}^{-3}$
 
 $$
 \frac {0.10 x}{(0.30) ^ {2}} = 7.3 \times 10 ^ {- 7}, \quad x = 6.6 \times 10 ^ {- 7}
 $$
 
-即 CdS 在该溶液中的溶解度为 $6.6 \times 10^{-7} \, mol \cdot dm^{-3}$ 。
+即 CdS 在该溶液中的溶解度为 $6.6 \times 10^{-7} \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 。
 
 (3)
 
@@ -4368,11 +4368,11 @@ $$
 \frac {(0.30 + 0.20) ^ {2}}{y ^ {2}} = 1.4 \times 10 ^ {6}, \quad y = 4.2 \times 10 ^ {- 4}
 $$
 
-溶液中剩余的 $Cd^{2+}$ 浓度为： $4.2 \times 10^{-4} \, mol \cdot dm^{-3}$ 。
+溶液中剩余的 $Cd^{2+}$ 浓度为： $4.2 \times 10^{-4} \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 。
 
 9.13 $\mathrm{CaCO_3}$ 能溶解于HAc中，设沉淀溶解达平衡时[HAc]为 $1.0\mathrm{mol}\cdot \mathrm{dm}^{-3}$ 。已知在室温下，反应产物 $\mathrm{H}_2\mathrm{CO}_3$ 的饱和浓度为 $0.040\mathrm{mol}\cdot \mathrm{dm}^{-3}$ 。求在 $1.0\mathrm{dm}^3$ 溶液中能溶解多少 $\mathrm{CaCO_3}$ ?HAc的起始浓度是多少？
 
-解 设平衡时溶解的 $CaCO_{3}$ 达 $x\ mol\cdot dm^{-3}$
+解 设平衡时溶解的 $CaCO_{3}$ 达 $x\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$
 
 $$
 \mathrm{CaCO} _ {3} + 2 \mathrm{HAc} \rightleftharpoons \mathrm{Ca} ^ {2 +} + \mathrm{H} _ {2} \mathrm{CO} _ {3} + 2 \mathrm{Ac} ^ {-}   1.0 \quad x \quad 0.040 \quad 2 x
@@ -4384,7 +4384,7 @@ $$
 \begin{array}{r l} K = & \frac {K _ {\mathrm{sp}} (\mathrm{CaCO} _ {3}) \times K _ {\mathrm{a}} ^ {2} (\mathrm{HAc})}{K _ {\mathrm{a} _ {1}} (\mathrm{H} _ {2} \mathrm{CO} _ {3}) K _ {\mathrm{a} _ {2}} (\mathrm{H} _ {2} \mathrm{CO} _ {3})} = \frac {3.36 \times 10 ^ {- 9} \times (1.75 \times 10 ^ {- 5}) ^ {2}}{4.5 \times 10 ^ {- 7} \times 4.7 \times 10 ^ {- 11}} = 4.9 \times 10 ^ {- 2} \\ & \frac {x \times 0.040 \times (2 x) ^ {2}}{(1.0) ^ {2}} = 0.049, \quad x = 0.67 \end{array}
 $$
 
-即在 $1 \, dm^{3}$ 溶液中能溶解 $CaCO_{3}$ 0.67 mol，溶解此 $CaCO_{3}$ 所需 HAc 的起始浓度为
+即在 $1 \, \mathrm{dm}^{3}$ 溶液中能溶解 $CaCO_{3}$ 0.67 mol，溶解此 $CaCO_{3}$ 所需 HAc 的起始浓度为
 
 $$
 c (\mathrm{HAc}) = (1.0 + 2 \times 0.67) \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} = 2.3 \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}
@@ -4425,9 +4425,9 @@ $\mathrm{AgBr:} x = \frac{5.35\times 10^{-13}}{0.0022} = 2.4\times 10^{-10}$ 故
 
 (2) AgCl 开始沉淀时, 需 $[\mathrm{Ag}^{+}] = 7.1 \times 10^{-10} \mathrm{~mol} \cdot \mathrm{dm}^{-3}$ , 此时设 $[\mathrm{Br}^{-}] = y \mathrm{~mol} \cdot \mathrm{dm}^{-3}$ $y = \frac{5.35 \times 10^{-13}}{7.1 \times 10^{-10}} = 7.5 \times 10^{-4}, [ \mathrm{Br}^{-}] = 7.5 \times 10^{-4} \mathrm{~mol} \cdot \mathrm{dm}^{-3}$
 
-即 AgCl 开始沉淀时， $Br^{-}$ 浓度仍比较大，还有 $\frac{7.5 \times 10^{-4} \, mol \cdot dm^{-3}}{0.0022 \, mol \cdot dm^{-3}} = 34\%$ 未沉淀，故用此法不能有效地分离 $Cl^{-}$ 和 $Br^{-}$ 。
+即 AgCl 开始沉淀时， $Br^{-}$ 浓度仍比较大，还有 $\frac{7.5 \times 10^{-4} \, \mathrm{mol} \cdot \mathrm{dm}^{-3}}{0.0022 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}} = 34\%$ 未沉淀，故用此法不能有效地分离 $Cl^{-}$ 和 $Br^{-}$ 。
 
-9.16 向含有 $Cd^{2+}$ 和 $Fe^{2+}$ 的溶液(离子浓度均为 $0.020\ mol\cdot dm^{-3}$ ) 中通入 $H_{2}S$ 至饱和以分离 $Cd^{2+}$ 和 $Fe^{2+}$ ，pH 应控制在什么范围？
+9.16 向含有 $Cd^{2+}$ 和 $Fe^{2+}$ 的溶液(离子浓度均为 $0.020\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ ) 中通入 $H_{2}S$ 至饱和以分离 $Cd^{2+}$ 和 $Fe^{2+}$ ，pH 应控制在什么范围？
 
 解 CdS、FeS 均为 AB 型化合物，离子浓度又相同。由 $K_{sp}$ 可知， $K_{sp}$ 小的 CdS 先沉淀。
 
@@ -4441,7 +4441,7 @@ $$
 y = \sqrt {\frac {1.1 \times 10 ^ {- 21}}{8.0 \times 10 ^ {- 21}}} = 0.37, [ \mathrm{H} _ {3} \mathrm{O} ^ {+} ] = 0.37 \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}, \quad \mathrm{pH} = 0.43
 $$
 
-设 FeS 开始沉淀时， $\left[S^{2-}\right]=x\ mol\cdot dm^{-3}$ ， $\left[H_{3}O^{+}\right]=y\ mol\cdot dm^{-3}$
+设 FeS 开始沉淀时， $\left[S^{2-}\right]=x\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ ， $\left[H_{3}O^{+}\right]=y\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$
 
 $$
 x = \frac {6.3 \times 10 ^ {- 18}}{0.020} = 3.2 \times 10 ^ {- 16}, [ S ^ {2 -} ] = 3.2 \times 10 ^ {- 16} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}
@@ -4457,9 +4457,9 @@ $$
 
 只要控制 0.43 < pH < 2.72，就可分离 $Cd^{2+}$ 和 $Fe^{2+}$ 。
 
-9.17 $100 \, cm^{3}$ 溶液中含有 $1.0 \times 10^{-3} \, mol$ 的 NaI、 $2.0 \times 10^{-3} \, mol$ 的 NaBr 及 $3.0 \times 10^{-3} \, mol$ 的 NaCl，若将 $4.0 \times 10^{-3} \, mol \, AgNO_{3}$ 加入其中（设溶液体积不变），则最后溶液中残留的 I⁻ 浓度是多少？
+9.17 $100 \, \mathrm{cm}^{3}$ 溶液中含有 $1.0 \times 10^{-3} \, \mathrm{mol}$ 的 NaI、 $2.0 \times 10^{-3} \, \mathrm{mol}$ 的 NaBr 及 $3.0 \times 10^{-3} \, \mathrm{mol}$ 的 NaCl，若将 $4.0 \times 10^{-3} \, \mathrm{mol} \, AgNO_{3}$ 加入其中（设溶液体积不变），则最后溶液中残留的 I⁻ 浓度是多少？
 
-解 根据 AgI、AgBr、AgCl 的 $K_{sp}$ 数据可判断，加入 $4.0 \times 10^{-3} \, mol$ 的 $AgNO_{3}$ 后，应先后生成 $1.0 \times 10^{-3} \, mol$ 的 AgI 沉淀、 $2.0 \times 10^{-3} \, mol$ 的 AgBr 沉淀、 $1.0 \times 10^{-3} \, mol$ 的 AgCl 沉淀；还有 $2.0 \times 10^{-3} \mathrm{~mol}$ 的 $\mathrm{Cl}^{-}$ 过剩，其浓度为 $0.020 \mathrm{~mol} \cdot \mathrm{dm}^{-3}$ 。设 $[\mathrm{Ag}^{+}] = x \mathrm{~mol} \cdot \mathrm{dm}^{-3}$ ， $[\mathrm{I}^{-}] = y \mathrm{~mol} \cdot \mathrm{dm}^{-3}$
+解 根据 AgI、AgBr、AgCl 的 $K_{sp}$ 数据可判断，加入 $4.0 \times 10^{-3} \, \mathrm{mol}$ 的 $AgNO_{3}$ 后，应先后生成 $1.0 \times 10^{-3} \, \mathrm{mol}$ 的 AgI 沉淀、 $2.0 \times 10^{-3} \, \mathrm{mol}$ 的 AgBr 沉淀、 $1.0 \times 10^{-3} \, \mathrm{mol}$ 的 AgCl 沉淀；还有 $2.0 \times 10^{-3} \mathrm{~mol}$ 的 $\mathrm{Cl}^{-}$ 过剩，其浓度为 $0.020 \mathrm{~mol} \cdot \mathrm{dm}^{-3}$ 。设 $[\mathrm{Ag}^{+}] = x \mathrm{~mol} \cdot \mathrm{dm}^{-3}$ ， $[\mathrm{I}^{-}] = y \mathrm{~mol} \cdot \mathrm{dm}^{-3}$
 
 $$
 \begin{array}{l} x = \frac {1.77 \times 10 ^ {- 10}}{0.020} = 8.9 \times 10 ^ {- 9}, [ \mathrm{Ag} ^ {+} ] = 8.9 \times 10 ^ {- 9} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \\ y = \frac {8.52 \times 10 ^ {- 17}}{8.9 \times 10 ^ {- 9}} = 9.6 \times 10 ^ {- 9}, [ \mathrm{I} ^ {-} ] = 9.6 \times 10 ^ {- 9} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \end{array}
@@ -4967,7 +4967,7 @@ $$
 E _ {1} = E _ {1} ^ {\ominus} + \frac {0.0592 \mathrm{V}}{2} \times \lg \frac {[ \mathrm{H} ^ {+} ] ^ {3} [ \mathrm{NO} _ {3} ^ {-} ]}{[ \mathrm{HNO} _ {2} ]}
 $$
 
-$E_{2}^{\ominus}$ 可由 $E_{1}$ 求得，且当 $[OH^{-}]=1.0\ mol\cdot dm^{-3}$ 时有
+$E_{2}^{\ominus}$ 可由 $E_{1}$ 求得，且当 $[OH^{-}]=1.0\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ 时有
 
 $$
 \left[ \mathrm{H} ^ {+} \right] = 1.0 \times 10 ^ {- 14} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}, \quad \left[ \mathrm{NO} _ {3} ^ {-} \right] = 1.0 \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}
@@ -4995,9 +4995,9 @@ $$
 E (\mathrm{Ag} ^ {+} / \mathrm{Ag}) = E ^ {\ominus} (\mathrm{Ag} ^ {+} / \mathrm{Ag}) + 0.0592 \mathrm{V} \times \lg [ \mathrm{Ag} ^ {+} ]
 $$
 
-<table><tr><td></td><td> $K_{sp}$ </td><td> $[Cl^-]或[I^-]/(mol·dm^{-3})$ </td><td> $[Ag^+]/(mol·dm^{-3})$ </td></tr><tr><td>AgCl</td><td> $1.77×10^{-10}$ </td><td>1.00</td><td> $1.77×10^{-10}$ </td></tr><tr><td>AgI</td><td> $8.52×10^{-17}$ </td><td>1.00</td><td> $8.52×10^{-17}$ </td></tr></table>
+<table><tr><td></td><td> $K_{sp}$ </td><td> $[Cl^-]或[I^-]/(\mathrm{mol}·\mathrm{dm}^{-3})$ </td><td> $[Ag^+]/(\mathrm{mol}·\mathrm{dm}^{-3})$ </td></tr><tr><td>AgCl</td><td> $1.77×10^{-10}$ </td><td>1.00</td><td> $1.77×10^{-10}$ </td></tr><tr><td>AgI</td><td> $8.52×10^{-17}$ </td><td>1.00</td><td> $8.52×10^{-17}$ </td></tr></table>
 
-HCl: $E(\mathrm{Ag}^{+}/\mathrm{Ag})=0.80\mathrm{V}+0.0592\mathrm{V}\times\lg(1.77\times10^{-10})=0.22\mathrm{V}$ ，即 $E^{\ominus}(\mathrm{AgCl}/\mathrm{Ag})$ HI: $E'(\mathrm{Ag}^{+}/\mathrm{Ag})=0.80\mathrm{V}+0.0592\mathrm{V}\times\lg(8.52\times10^{-17})=-0.15\mathrm{V}$ ，即 $E^{\ominus}(\mathrm{AgI}/\mathrm{Ag})$ $E^{\ominus}(\mathrm{AgI}/\mathrm{Ag})<E^{\ominus}(\mathrm{H}^{+}/\mathrm{H}_{2}),\mathrm{Ag}$ 能和 $1\ mol\cdot dm^{-3}HI$ 起反应，反应方程式为
+HCl: $E(\mathrm{Ag}^{+}/\mathrm{Ag})=0.80\mathrm{V}+0.0592\mathrm{V}\times\lg(1.77\times10^{-10})=0.22\mathrm{V}$ ，即 $E^{\ominus}(\mathrm{AgCl}/\mathrm{Ag})$ HI: $E'(\mathrm{Ag}^{+}/\mathrm{Ag})=0.80\mathrm{V}+0.0592\mathrm{V}\times\lg(8.52\times10^{-17})=-0.15\mathrm{V}$ ，即 $E^{\ominus}(\mathrm{AgI}/\mathrm{Ag})$ $E^{\ominus}(\mathrm{AgI}/\mathrm{Ag})<E^{\ominus}(\mathrm{H}^{+}/\mathrm{H}_{2}),\mathrm{Ag}$ 能和 $1\ \mathrm{mol}\cdot \mathrm{dm}^{-3}HI$ 起反应，反应方程式为
 
 $$
 2 \mathrm{Ag} + 2 \mathrm{HI} \rightleftharpoons 2 \mathrm{AgI} + \mathrm{H} _ {2}
@@ -5031,7 +5031,7 @@ $$
 
 解 $E_{\text{池}} = E_{\text{甘汞}} - E(\mathrm{H}^{+}/\mathrm{H}_{2})$ ，则 $E(\mathrm{H}^{+}/\mathrm{H}_{2}) = E_{\text{甘汞}} - 0.48\mathrm{V} = (0.24 - 0.48)\mathrm{V} = -0.24\mathrm{V}$ 而 $E(\mathrm{H}^{+}/\mathrm{H}_{2}) = E^{\ominus}(\mathrm{H}^{+}/\mathrm{H}_{2}) + \frac{0.0592\mathrm{V}}{2}\times \lg [\mathrm{H}^{+}]^{2} = 0 + 0.0592\mathrm{V}\times \lg [\mathrm{H}^{+}]$ ，即 $-0.24\mathrm{V} = 0.0592\mathrm{V}\times \lg [\mathrm{H}^{+}],\quad [\mathrm{H}^{+}] = 8.8\times 10^{-5}\mathrm{mol}\cdot \mathrm{dm}^{-3}$ $\mathrm{HX}\rightleftharpoons \mathrm{H}^{+} + \mathrm{X}^{-},\quad K(\mathrm{HX}) = \frac{[\mathrm{H}^{+}][\mathrm{X}^{-}]}{[\mathrm{HX}]} = \frac{(8.8\times 10^{-5})^{2}}{0.10} = 7.7\times 10^{-8}$
 
-10.14 利用下述电池可测定溶液中 $Cl^{-}$ 的浓度, 当用这种方法测定某地下水含 $Cl^{-}$ 量时, 测得电池的电动势为 0.280 V, 求某地下水中 $Cl^{-}$ 的含量 (以 $mol \cdot dm^{-3}$ 表示)。
+10.14 利用下述电池可测定溶液中 $Cl^{-}$ 的浓度, 当用这种方法测定某地下水含 $Cl^{-}$ 量时, 测得电池的电动势为 0.280 V, 求某地下水中 $Cl^{-}$ 的含量 (以 $\mathrm{mol} \cdot \mathrm{dm}^{-3}$ 表示)。
 
 解
 
@@ -5077,7 +5077,7 @@ $$
 \lg K _ {\mathrm{sp}} = \frac {n E _ {\mathrm{池}} ^ {\ominus}}{0.0592 \mathrm{V}} = \frac {2 \times (- 0.5292)}{0.0592} = - 17.88, \quad K _ {\mathrm{sp}} = 1.3 \times 10 ^ {- 18}
 $$
 
-10.16 往 0.200 mmol AgCl 沉淀中加少量 $H_{2}O$ 和过量 Zn 粉，使溶液总体积为 $2.00 \, cm^{3}$ 。试用计算说明 AgCl 能否被 Zn 全部转化为 Ag(s) 和 $Cl^{-}(aq)$ 。
+10.16 往 0.200 mmol AgCl 沉淀中加少量 $H_{2}O$ 和过量 Zn 粉，使溶液总体积为 $2.00 \, \mathrm{cm}^{3}$ 。试用计算说明 AgCl 能否被 Zn 全部转化为 Ag(s) 和 $Cl^{-}(aq)$ 。
 
 $$
 \text { 解 } 2 \mathrm{AgCl} + \mathrm{Zn} \rightleftharpoons \mathrm{Zn} ^ {2 +} + 2 \mathrm{Cl} ^ {-} + 2 \mathrm{Ag}
@@ -5173,7 +5173,7 @@ $$
 \begin{array}{l l}2 \mathrm{H} ^ {+} + 2 \mathrm{e} \rightleftharpoons \mathrm{H} _ {2}&E ^ {\ominus} = 0.00 \mathrm{V}\\\mathrm{H} _ {2} \mathrm{O} + \frac {1}{2} \mathrm{O} _ {2} + 2 \mathrm{e} \rightleftharpoons 2 \mathrm{OH} ^ {-}&E ^ {\ominus} = + 0.40 \mathrm{V}\end{array}
 $$
 
-(2) 若用 $0.10 \, mol \cdot dm^{-3}$ 的 NaOH 代替 $H_{2}SO_{4}$ ，理论分解电势是否相同？
+(2) 若用 $0.10 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 的 NaOH 代替 $H_{2}SO_{4}$ ，理论分解电势是否相同？
 
 解
 
@@ -5195,7 +5195,7 @@ $$
 \begin{array}{r l} E (\mathrm {O_ {2} /OH^ {-}}) & = E ^ {\ominus} (\mathrm {O_ {2} /OH^ {-}}) + \frac {0.0592 \mathrm{V}}{2} \times \lg \frac {p ^ {1 / 2} (\mathrm {O_ {2}})}{[ \mathrm {OH^ {-}} ] ^ {2}} \\ & = 0.40 \mathrm{V} + \frac {0.0592 \mathrm{V}}{2} \times \lg \frac {1}{(1.0 \times 10 ^ {- 14}) ^ {2}} \\ & = 1.23 \mathrm{V} \end{array}
 $$
 
-$E_{池}=(0-1.23)\mathrm{V}=-1.23\mathrm{V}$ ，即需加1.23V，可使 $1.0\ mol\cdot dm^{-3}$ 的 $H_{2}SO_{4}$ 溶液电解放出 $H_{2}$ 和 $O_{2}$ 。若用 $0.10\ mol\cdot dm^{-3}\mathrm{NaOH}$ ，则有
+$E_{池}=(0-1.23)\mathrm{V}=-1.23\mathrm{V}$ ，即需加1.23V，可使 $1.0\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ 的 $H_{2}SO_{4}$ 溶液电解放出 $H_{2}$ 和 $O_{2}$ 。若用 $0.10\ \mathrm{mol}\cdot \mathrm{dm}^{-3}\mathrm{NaOH}$ ，则有
 
 $$
 \left[ \mathrm{OH} ^ {-} \right] = 0.10 \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}, \quad \left[ \mathrm{H} ^ {+} \right] = 1.0 \times 10 ^ {- 13} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}
@@ -5213,7 +5213,7 @@ $$
 E _ {\mathrm{池}} = (- 0.77 - 0.46) \mathrm{V} = - 1.23 \mathrm{V}
 $$
 
-即在理论上也需加 1.23 V，则可使 $0.1 \, mol \cdot dm^{-3}$ 的 NaOH 溶液电解。
+即在理论上也需加 1.23 V，则可使 $0.1 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 的 NaOH 溶液电解。
 
 10.20 根据 Nernst 公式, 有些与酸碱度有关的电极电势, 其数值与 pH 具有线性关系, 如 $IO_{3}^{-}-I_{2}$ : $2IO_{3}^{-}+12H^{+}+10e\rightleftharpoons I_{2}+6H_{2}O$
 
@@ -5277,7 +5277,7 @@ $$
 \begin{array}{r l} E & = E ^ {\ominus} + \frac {0.0592 \mathrm{V}}{2} \times \lg \frac {K _ {\mathrm{sp}}}{[ \mathrm{OH} ^ {-} ] ^ {2}} = E ^ {\ominus} + \frac {0.0592 \mathrm{V}}{2} \times \lg \frac {K _ {\mathrm{sp}} [ \mathrm{H} ^ {+} ] ^ {2}}{K _ {\mathrm{w}} ^ {2}} \\ & = E ^ {\ominus} + \frac {0.0592 \mathrm{V}}{2} \times \lg \frac {K _ {\mathrm{sp}}}{K _ {\mathrm{w}} ^ {2}} - 0.0592 \mathrm{V} \times \mathrm{pH} \end{array}
 $$
 
-(6) 因为 pH=b=9.3，此时 $\left[OH^{-}\right]=2\times10^{-5}mol\cdot dm^{-3}$ ，而对应的 E=0.068V
+(6) 因为 pH=b=9.3，此时 $\left[OH^{-}\right]=2\times10^{-5}\mathrm{mol}\cdot \mathrm{dm}^{-3}$ ，而对应的 E=0.068V
 
 $$
 \begin{array}{r l} 0.068 \mathrm{V} & = E ^ {\ominus} + \frac {0.0592 \mathrm{V}}{2} \times \lg [ \mathrm{Cu} ^ {2 +} ] = 0.34 \mathrm{V} + \frac {0.0592 \mathrm{V}}{2} \times \lg \frac {K _ {\mathrm{sp}}}{[ \mathrm{OH} ^ {-} ] ^ {2}} \\ & = 0.34 \mathrm{V} + \frac {0.0592 \mathrm{V}}{2} \times \lg \frac {K _ {\mathrm{sp}}}{(2 \times 10 ^ {- 5}) ^ {2}} \end{array}
@@ -5590,7 +5590,7 @@ $$
 
 ②
 
-$J \cdot atom^{-1}$ ，再以 $kJ \cdot mol^{-1}$ 表示）。
+$J \cdot atom^{-1}$ ，再以 $\mathrm{kJ} \cdot \mathrm{mol}^{-1}$ 表示）。
 
 解 根据 Bohr 理论 $\frac{mv^2}{r} = \frac{Ze^2}{4\pi\varepsilon_0r^2}$ ，即 $mv^2 = \frac{Ze^2}{4\pi\varepsilon_0r} \longrightarrow E_{\text{动}} = \frac{1}{2} mv^2 = \frac{Ze^2}{8\pi\varepsilon_0r}$
 
@@ -5806,7 +5806,7 @@ $$
 
 (2) $\mathrm{Na}^{+}$ 和 $\mathrm{Ne}$ 是等电子体, 为什么它们的第一电离能 $(I_{1})$ 的数值差别较大? $[I_{1}(\mathrm{Ne},\mathrm{g}) = 21.6\mathrm{eV}, I_{1}(\mathrm{Na}^{+},\mathrm{g}) = 47.3\mathrm{eV}]$
 
-（3）Be 原子的第一、二、三、四各级电离能 $(I_{1}\sim I_{4})$ 分别为：899，1757， $1.484\times10^{4}$ ， $2.100\times10^{4}kJ\cdot mol^{-1}$ 。解释各级电离能逐渐增大并有突跃的原因。
+（3）Be 原子的第一、二、三、四各级电离能 $(I_{1}\sim I_{4})$ 分别为：899，1757， $1.484\times10^{4}$ ， $2.100\times10^{4}\mathrm{kJ}\cdot \mathrm{mol}^{-1}$ 。解释各级电离能逐渐增大并有突跃的原因。
 
 解（1）Na、Mg 的 $I_{1}$ 都是丢失 1 个 3s 电子所需之能量。 $r(\mathrm{Na}) > r(\mathrm{Mg})$ ，且 Na 的有效核电荷比 Mg 小， $I_{1}(\mathrm{Na}) < I_{1}(\mathrm{Mg})$ 。第二电离能 Mg 是再丢掉 1 个 3s 电子所需之能量，而 Na 是丢掉内层 $2s^{2}2p^{6}$ 满层上的 1 个电子，故
 
@@ -6050,7 +6050,7 @@ $$
 
 其中，X 与 Y 具有电负性高、半径小的特点，通常为 F、O、N 原子。
 
-氢键的强度介于 van der Waals 力和化学键之间，约为 $10 \sim 40 \, kJ \cdot mol^{-1}$ 。可以存在分子间，也可以存在分子内。氢键的存在，对于物质的熔点、沸点以及溶解度有很大影响。氢键对于生命体来说也非常重要。生命体分子中存在着大量的氢键，它们维系着生物大分子的结构和功能。
+氢键的强度介于 van der Waals 力和化学键之间，约为 $10 \sim 40 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ 。可以存在分子间，也可以存在分子内。氢键的存在，对于物质的熔点、沸点以及溶解度有很大影响。氢键对于生命体来说也非常重要。生命体分子中存在着大量的氢键，它们维系着生物大分子的结构和功能。
 
 ## 习题解析
 
@@ -6116,7 +6116,7 @@ $$
 \begin{array}{r l} & \Delta H _ {1} + \frac {1}{2} \Delta H _ {2} + \Delta H _ {3} + \Delta H _ {4} + (- U) = \Delta H _ {5} \\ & U = \Delta H _ {1} + \frac {1}{2} \Delta H _ {2} + \Delta H _ {3} + \Delta H _ {4} - \Delta H _ {5} \\ & \quad = \left[ 89.0 + \frac {1}{2} \times 243 + 419 + (- 349) - (- 436.5) \right] \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1} \\ & \quad = 717 \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1} \end{array}
 $$
 
-12.3 根据查得的 BaO 生成焓及其他数据, 按 Born-Haber 循环计算氧的第二电子亲和能 (Ba 的 $I_{2}=10.00\ eV$ , BaO 的晶格能为 $3054\ kJ\cdot mol^{-1}$ )。
+12.3 根据查得的 BaO 生成焓及其他数据, 按 Born-Haber 循环计算氧的第二电子亲和能 (Ba 的 $I_{2}=10.00\ eV$ , BaO 的晶格能为 $3054\ \mathrm{kJ}\cdot \mathrm{mol}^{-1}$ )。
 
 解
 
@@ -6366,7 +6366,7 @@ NO $^{+}$ 比 NO 稳定(反键轨道上少 1 个电子, 能量降低多, 键级�
 
 12.24 利用键能数据估算：(1) $P_{4}$ 原子化能；(2) 金刚石气化热；(3) 冰的气化热。
 
-<table><tr><td colspan="2">(1)  $P_{4}(g) \longrightarrow 4P(g)$ </td><td>(2) C(金刚石) → C(g)</td><td>(3)  $H_{2}O(冰) \longrightarrow H_{2}O(g)$ </td></tr><tr><td> $\Delta H = 6E(P-P)$  $= 6 \times 214 kJ \cdot mol^{-1}$  $= 1284 kJ \cdot mol^{-1}$ </td><td><img src="images/89017736df57442a45d10623fc88e1a69b7cb3de56b1a71a77edd97f5c2226b6.jpg"/></td><td> $\Delta H = 2E(C-C)$  $= 2 \times 344 kJ \cdot mol^{-1}$  $= 688 kJ \cdot mol^{-1}$ </td><td> $\Delta H = 2E(OH\cdots O)$  $= 2 \times 18.8 kJ \cdot mol^{-1}$  $= 37.6 kJ \cdot mol^{-1}$ </td></tr></table>
+<table><tr><td colspan="2">(1)  $P_{4}(g) \longrightarrow 4P(g)$ </td><td>(2) C(金刚石) → C(g)</td><td>(3)  $H_{2}O(冰) \longrightarrow H_{2}O(g)$ </td></tr><tr><td> $\Delta H = 6E(P-P)$  $= 6 \times 214 \mathrm{kJ} \cdot \mathrm{mol}^{-1}$  $= 1284 \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ </td><td><img src="images/89017736df57442a45d10623fc88e1a69b7cb3de56b1a71a77edd97f5c2226b6.jpg"/></td><td> $\Delta H = 2E(C-C)$  $= 2 \times 344 \mathrm{kJ} \cdot \mathrm{mol}^{-1}$  $= 688 \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ </td><td> $\Delta H = 2E(OH\cdots O)$  $= 2 \times 18.8 \mathrm{kJ} \cdot \mathrm{mol}^{-1}$  $= 37.6 \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ </td></tr></table>
 
 # 第13章 晶体与晶体结构
 
@@ -6416,7 +6416,7 @@ $$
 
 ## 5. 晶体的 X 射线衍射与 Bragg 方程
 
-晶体由原子(或分子、离子等)有规则地排列而成,可以抽象成三维点阵结构。若将点阵中的点按一定规律相连接,可以形成一系列的平面点阵,平面点阵间距的量级为 $10^{-10}m$ ( $10^{-8}cm$ , Å),落在X射线的波长范围。因此,X射线照射到晶体上,可以发生衍射现象。Bragg从平面点阵的角度出发,给出了晶体中各组晶面发生衍射条件的方程:
+晶体由原子(或分子、离子等)有规则地排列而成,可以抽象成三维点阵结构。若将点阵中的点按一定规律相连接,可以形成一系列的平面点阵,平面点阵间距的量级为 $10^{-10}m$ ( $10^{-8}\mathrm{cm}$ , Å),落在X射线的波长范围。因此,X射线照射到晶体上,可以发生衍射现象。Bragg从平面点阵的角度出发,给出了晶体中各组晶面发生衍射条件的方程:
 
 $$
 2 d \sin \theta = n \lambda
@@ -6590,7 +6590,7 @@ $$
 
 (1) 算出 Sn 的原子半径；
 
-(2) 灰锡的密度为 $5.77 \times 10^{3} \, kg \cdot m^{-3}$ ，求 Sn 的相对原子质量；
+(2) 灰锡的密度为 $5.77 \times 10^{3} \, \mathrm{kg} \cdot m^{-3}$ ，求 Sn 的相对原子质量；
 
 （3）其同素异形体白锡(Sn)为四方晶系， $a = 583.1\mathrm{pm}$ ， $c = 318.2\mathrm{pm}$ ，晶胞中含4个锡原子，请通过计算说明白锡变成灰锡，体积是膨胀还是收缩；
 
@@ -6620,7 +6620,7 @@ $$
 
 （4）从键长数据可知灰锡中的 Sn—Sn 键较强。由密度数据可推测在白锡中 Sn 的配位数较高。（实际上，灰锡中 Sn 的配位数为 4，白锡中每个 Sn 原子周围有 4 个距离为 301.6 pm 的原子和 2 个距离为 317.5 pm 的原子。）
 
-13.7 某蛋白质是正交晶体，晶胞参数为 $a=130\times10^{2}$ pm, $b=74.8\times10^{2}$ pm, $c=30.9\times10^{2}$ pm，每个晶胞中有6个分子。若晶体密度为 $1.315\ kg\cdot dm^{-3}$ ，求此蛋白质的摩尔质量。
+13.7 某蛋白质是正交晶体，晶胞参数为 $a=130\times10^{2}$ pm, $b=74.8\times10^{2}$ pm, $c=30.9\times10^{2}$ pm，每个晶胞中有6个分子。若晶体密度为 $1.315\ \mathrm{kg}\cdot \mathrm{dm}^{-3}$ ，求此蛋白质的摩尔质量。
 
 解
 
@@ -7137,7 +7137,7 @@ $$
 \begin{array}{r l} K & = \frac {[ \mathrm{NH} _ {4} ^ {+} ] ^ {2}}{[ \mathrm{Ag(NH} _ {3}) _ {2} ^ {+} ] [ \mathrm{Br} ^ {-} ] [ \mathrm{H} ^ {+} ] ^ {2}} \times \frac {[ \mathrm{Ag} ^ {+} ]}{[ \mathrm{Ag} ^ {+} ]} \times \frac {[ \mathrm{NH} _ {3} ] ^ {2}}{[ \mathrm{NH} _ {3} ] ^ {2}} \\ & = \frac {1}{K _ {\mathrm{sp}} (\mathrm{AgBr}) \times K _ {\text {稳}} (\mathrm{Ag(NH} _ {3}) _ {2} ^ {+}) \times K ^ {2} (\mathrm{NH} _ {4} ^ {+})} \\ & = \frac {(1.8 \times 10 ^ {- 5}) ^ {2}}{5.35 \times 10 ^ {- 13} \times 1.1 \times 10 ^ {7} \times (1.0 \times 10 ^ {- 14}) ^ {2}} \\ & = 5.5 \times 10 ^ {23} \end{array}
 $$
 
-14.15 往硝酸银溶液中加入过量的 $NH_{3} \cdot H_{2}O$ ，达平衡时 $[NH_{3} \cdot H_{2}O] = 1.0 \, mol \cdot dm^{-3}$ 。求此时 $\mathrm{Ag(NH_{3})_{2}^{+}}$ 、 $\mathrm{Ag(NH_{3})^{+}}$ 、 $Ag^{+}$ 各离子浓度的比值。
+14.15 往硝酸银溶液中加入过量的 $NH_{3} \cdot H_{2}O$ ，达平衡时 $[NH_{3} \cdot H_{2}O] = 1.0 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 。求此时 $\mathrm{Ag(NH_{3})_{2}^{+}}$ 、 $\mathrm{Ag(NH_{3})^{+}}$ 、 $Ag^{+}$ 各离子浓度的比值。
 
 [已知 $\mathrm{Ag}^{+} + \mathrm{NH}_{3}\rightleftharpoons \mathrm{Ag(NH_{3})}^{+}$ ，其 $K_{1} = 2.2\times 10^{3}$ 。]
 
@@ -7177,7 +7177,7 @@ $$
 \begin{array}{r l} {Q = [ \mathrm{Cu} ^ {2 +} ] [ \mathrm{OH} ^ {-} ] ^ {2}} & {= 7.1 \times 10 ^ {- 11} \times (1.8 \times 10 ^ {- 5}) ^ {2}} \\ & {= 2.3 \times 10 ^ {- 20} <   K _ {\mathrm{sp}} (\mathrm{Cu(OH)} _ {2}), \text {故不能生成} \mathrm{Cu(OH)} _ {2} \text {沉淀。}} \\ & {(= 2.6 \times 10 ^ {- 19})} \end{array}
 $$
 
-14.17 计算 AgBr 在 $1.00 \, mol \cdot dm^{-3} \, Na_{2}S_{2}O_{3}$ 中的溶解度。 $500 \, cm^{3}$ 浓度为 $1.00 \, mol \cdot dm^{-3}$ 的 $Na_{2}S_{2}O_{3}$ 溶液可溶解 AgBr 多少克？
+14.17 计算 AgBr 在 $1.00 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \, Na_{2}S_{2}O_{3}$ 中的溶解度。 $500 \, \mathrm{cm}^{3}$ 浓度为 $1.00 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 的 $Na_{2}S_{2}O_{3}$ 溶液可溶解 AgBr 多少克？
 
 $$
 \begin{array}{r l}&{\text {解} \quad \mathrm {AgBr + 2S_ {2} O_ {3} ^ {2 - } \rightleftharpoons Ag(S_ {2} O_ {3}) _ {2} ^ {3 - } + Br^ {-}} \quad \text {设溶解度} s = x \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}}\\&{\frac {\text {平衡浓度}}{\mathrm{mol} \cdot \mathrm{dm} ^ {- 3}} \quad 1.00 - 2 x \qquad \qquad x \qquad x}\\&{\qquad K = K _ {\mathrm{sp}} (\mathrm{AgBr}) \times K _ {\text {稳}} (\mathrm {Ag(S_ {2} O_ {3}) _ {2} ^ {3 - }}) = 5.35 \times 10 ^ {- 13} \times 2.9 \times 10 ^ {13} = 16}\\&{\qquad \frac {x ^ {2}}{(1.00 - 2 x) ^ {2}} = 16, \qquad x = 0.44, \quad s = 0.44 \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}}\end{array}
@@ -7223,7 +7223,7 @@ $$
 1.00 \mathrm{V} = 1.52 \mathrm{V} + \frac {0.0592 \mathrm{V}}{3} \times \lg \frac {1}{K _ {\mathrm{稳}}}, K _ {\mathrm{稳}} = 2 \times 10 ^ {26}
 $$
 
-14.20 某溶液中原来 $Fe^{3+}$ 和 $Fe^{2+}$ 的浓度相等, 若向溶液中加入 KCN 固体, 最终使 CN 离子浓度为 $1.0 \, mol \cdot dm^{-3}$ , 计算这时电极反应 $Fe^{3+} + e \rightleftharpoons Fe^{2+}$ 的电极电势。
+14.20 某溶液中原来 $Fe^{3+}$ 和 $Fe^{2+}$ 的浓度相等, 若向溶液中加入 KCN 固体, 最终使 CN 离子浓度为 $1.0 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ , 计算这时电极反应 $Fe^{3+} + e \rightleftharpoons Fe^{2+}$ 的电极电势。
 
 解
 
@@ -7315,7 +7315,7 @@ $$
 \begin{array}{r l} & c (\mathrm{CN} ^ {-}) = 6.2 \times 10 ^ {- 4} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \\ & \Delta G = \Delta G ^ {\ominus} + 2.30 R T \lg Q \\ & = - n E ^ {\ominus} F + 2.30 \times 0.00831 \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{K} ^ {- 1} \times 298 \mathrm{K} \times \lg \frac {c ^ {4} (\mathrm{OH} ^ {-}) c ^ {4} (\mathrm{Au(CN)} _ {2} ^ {-})}{p (\mathrm{O} _ {2}) c ^ {8} (\mathrm{CN} ^ {-})} \\ & = - 4 \mathrm{mol} \times 0.961 \mathrm{V} \times 96.5 \mathrm{kC} \cdot \mathrm{mol} ^ {- 1} + 2.30 \times 0.00831 \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{K} ^ {- 1} \\ & \times 298 \mathrm{K} \times \lg \frac {(1 \times 10 ^ {- 7}) ^ {4} \times (0.10) ^ {4}}{0.20 \times (6.2 \times 10 ^ {- 4}) ^ {8}} \\ & = - 403 \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1} \end{array}
 $$
 
-14.22 将 $20 \, cm^{3}$ $0.025 \, mol \cdot dm^{-3}$ 的 $AgNO_{3}$ 溶液与 $2.0 \, cm^{3}$ $1.0 \, mol \cdot dm^{-3}$ 的氨溶液混合，所得溶液中 $\mathrm{Ag(NH_{3})_{2}^{+}}$ 浓度是多少？在此溶液中再加入 $2.0 \, cm^{3}$ $1.0 \, mol \cdot dm^{-3}$ 的 KCN，求所得溶液中 $\mathrm{Ag(NH_{3})_{2}^{+}}$ 浓度是多少（忽略 $CN^{-}$ 水解）？配位反应的方向与配合物稳定性关系如何？
+14.22 将 $20 \, \mathrm{cm}^{3}$ $0.025 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 的 $AgNO_{3}$ 溶液与 $2.0 \, \mathrm{cm}^{3}$ $1.0 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 的氨溶液混合，所得溶液中 $\mathrm{Ag(NH_{3})_{2}^{+}}$ 浓度是多少？在此溶液中再加入 $2.0 \, \mathrm{cm}^{3}$ $1.0 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 的 KCN，求所得溶液中 $\mathrm{Ag(NH_{3})_{2}^{+}}$ 浓度是多少（忽略 $CN^{-}$ 水解）？配位反应的方向与配合物稳定性关系如何？
 
 解
 
@@ -7373,7 +7373,7 @@ $$
 
 $E_{2}^{\ominus}<E_{1}^{\ominus}$ ，反应(2)不能发生。在水溶液中 $Cu^{+}$ 不稳定，容易发生歧化；而 $\mathrm{Cu(NH_{3})_{2}^{+}}$ 稳定，不易发生歧化。
 
-14.24 利用过量无色的 $\mathrm{Cu(NH_3)_2^+}$ 、 $\mathrm{NH_3\cdot H_2O}$ 混合液与 $\mathrm{O}_2$ 发生反应生成有色 $\mathrm{Cu(NH_3)_4^{2 + }}$ 的方法，可以测量 $\mathbf{N}_2$ 、 $\mathrm{O}_2$ 混合气中 $\mathrm{O}_2$ 的含量。取体积为 $8.00\mathrm{dm}^3$ 的一容器使其充满 $N_{2}$ 、 $O_{2}$ 混合气（压力为 101 kPa，温度为 $25^{\circ}C$ ），然后向其中加入 $500\ cm^{3}$ 的 $\mathrm{Cu(NH_{3})_{2}^{+}}$ 、 $NH_{3}\cdot H_{2}O$ 混合液。经过摇晃和振荡使液气充分混合反应后，用比色法测得 $\mathrm{Cu(NH_{3})_{4}^{2+}}$ 的浓度为 $2.35\times10^{-3}\ mol\cdot dm^{-3}$ 。（设反应过程中混合液的体积不变。）
+14.24 利用过量无色的 $\mathrm{Cu(NH_3)_2^+}$ 、 $\mathrm{NH_3\cdot H_2O}$ 混合液与 $\mathrm{O}_2$ 发生反应生成有色 $\mathrm{Cu(NH_3)_4^{2 + }}$ 的方法，可以测量 $\mathbf{N}_2$ 、 $\mathrm{O}_2$ 混合气中 $\mathrm{O}_2$ 的含量。取体积为 $8.00\mathrm{dm}^3$ 的一容器使其充满 $N_{2}$ 、 $O_{2}$ 混合气（压力为 101 kPa，温度为 $25^{\circ}C$ ），然后向其中加入 $500\ \mathrm{cm}^{3}$ 的 $\mathrm{Cu(NH_{3})_{2}^{+}}$ 、 $NH_{3}\cdot H_{2}O$ 混合液。经过摇晃和振荡使液气充分混合反应后，用比色法测得 $\mathrm{Cu(NH_{3})_{4}^{2+}}$ 的浓度为 $2.35\times10^{-3}\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ 。（设反应过程中混合液的体积不变。）
 
 (1) 写出测量中所发生的化学反应方程式；
 
@@ -7676,7 +7676,7 @@ $n(S)=1:1:1,Q$ 的晶体中有一种呈三角锥体和一种呈正四面体的�
 
 (1) 写出 Q 的化学式及生成 Q 的化学方程式。
 
-(2) 将 Q 和足量的 $10 \, mol \cdot dm^{-3}$ 的硫酸混合微热，生成沉淀 A、气体 B 和溶液 C，指出 A、B、C 各是什么物质？并写出有关的化学方程式。
+(2) 将 Q 和足量的 $10 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 的硫酸混合微热，生成沉淀 A、气体 B 和溶液 C，指出 A、B、C 各是什么物质？并写出有关的化学方程式。
 
 解 (1) 当 $\mathrm{SO}_2$ 通入 $\mathrm{Cu(NH_3)_4^{2+}}$ 的水溶液后, 将有 $\mathrm{SO}_3^{2-}$ 生成, 并且可以将 $\mathrm{Cu(II)}$ 还原为 $\mathrm{Cu(I), Cu(I)}$ 为反磁性。三角锥体原子团可能是 $\mathrm{NH}_3$ 或 $\mathrm{SO}_3^{2-}$ , 在微酸性条件下, $\mathrm{NH}_3$ 已变成 $\mathrm{NH}_4^+$ , 所以三角锥体为 $\mathrm{SO}_3^{2-}$ , 四面体原子团则是 $\mathrm{NH}_4^+$ 。又知, $\mathrm{Cu:N:S=1:1:1}$ 。综上所述, Q 的化学式为 $\mathrm{NH}_4\mathrm{CuSO}_3$ , 生成 Q 的化学方程式为
 
@@ -7764,7 +7764,7 @@ $$
 
 (1) 求算溶液中 $Ag^{+}$ 、 $\mathrm{Ag(NH_{3})_{2}^{+}}$ 和 $NH_{3}$ 的浓度。
 
-(2) 向此溶液中加 0.0745g 固体 KCl, 有无 AgCl 沉淀析出? 如若阻止 AgCl 生成, 在原来 $AgNO_{3}$ 和氨的混合溶液中, 氨的最低浓度应是多少 $mol \cdot dm^{-3}$ ?
+(2) 向此溶液中加 0.0745g 固体 KCl, 有无 AgCl 沉淀析出? 如若阻止 AgCl 生成, 在原来 $AgNO_{3}$ 和氨的混合溶液中, 氨的最低浓度应是多少 $\mathrm{mol} \cdot \mathrm{dm}^{-3}$ ?
 
 (3) 如加入 $0.120 \mathrm{~g}$ 固体 $\mathrm{KBr}$ , 有无 $\mathrm{AgBr(s)}$ 生成? 如若阻止 $\mathrm{AgBr}$ 生成, 在原来 $\mathrm{AgNO}_{3}$ 和氨的混合溶液中, 氨的最低浓度应是多少 $\mathrm{mol} \cdot \mathrm{dm}^{-3}$ ? 根据 (2)、(3) 的计算结果, 可得到什么结论?
 
@@ -7832,7 +7832,7 @@ $$
 \mathrm{Ag} ^ {+} + 2 \mathrm{NH} _ {3} \rightleftharpoons \mathrm{Ag} (\mathrm{NH} _ {3}) _ {2} ^ {+}
 $$
 
-平衡浓度 $mol \cdot dm^{-3}$
+平衡浓度 $\mathrm{mol} \cdot \mathrm{dm}^{-3}$
 
 $$
 \frac {0.050}{5.4 \times 10 ^ {- 11} \times z ^ {2}} = 1.1 \times 10 ^ {7}, \quad z = 9.2, \quad [ \mathrm{NH} _ {3} ] = 9.2 \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}
@@ -7846,7 +7846,7 @@ $$
 
 解 磁性实验表明,氯化亚汞为反磁性物质。如把氯化亚汞的化学式写成 $\mathrm{HgCl}$ , 则 $\mathrm{Hg}^{+}$ 的外层电子构型应为 $6\mathrm{s}^{1}$ , 有未成对电子, 应显顺磁性, 但这与实际不符; 如把氯化亚汞的化学式写成 $\mathrm{Hg}_{2} \mathrm{Cl}_{2}$ , 就意味着结构为: $\mathrm{Cl}^{-}[\mathrm{Hg}-\mathrm{Hg}]^{2+} \mathrm{Cl}^{-}$ , 其中两个 $\mathrm{Hg}^{+}$ 各用 $6\mathrm{s}^{1}$ 电子配对形成一个共价键, 无未成对电子, 物质则为反磁性。
 
-15.21 查阅有关数据说明 Cu 虽为 IB 族金属,但在水溶液中 $\mathrm{Cu^{+}(aq)}$ 却不能稳定存在,而易生成的是 $\mathrm{Cu^{2+}(aq)}$ 。(Cu 的第二电离焓为 $1966\ kJ \cdot mol^{-1}$ , $Cu^{+}$ 的水合焓为 $-581.6\ kJ \cdot mol^{-1}$ , $Cu^{2+}$ 的水合焓为 $-2121\ kJ \cdot mol^{-1}$ 。)
+15.21 查阅有关数据说明 Cu 虽为 IB 族金属,但在水溶液中 $\mathrm{Cu^{+}(aq)}$ 却不能稳定存在,而易生成的是 $\mathrm{Cu^{2+}(aq)}$ 。(Cu 的第二电离焓为 $1966\ \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ , $Cu^{+}$ 的水合焓为 $-581.6\ \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ , $Cu^{2+}$ 的水合焓为 $-2121\ \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ 。)
 
 解 Cu 为 I B 族金属, 它的外围电子构型为 $3 \mathrm{~d}^{10} 4 \mathrm{~s}^{1}$ , 第一电离能确实比第二电离能要小, 也有氧化态为 +1 的铜的化合物, 如 $\mathrm{CuCl(s)}$ 、 $\mathrm{Cu}_{2} \mathrm{O(s)}$ 、 $\mathrm{NH}_{4} \mathrm{CuSO}_{3}(\mathrm{s})$ 等。但在水中由于生成 $\mathrm{Cu}^{2+}(\mathrm{aq})$ 的水合焓要比生成 $\mathrm{Cu}^{+}(\mathrm{aq})$ 的大得多, 所以水溶液中 $\mathrm{Cu}^{+}(\mathrm{aq})$ 却不能稳定存在, 而易生成的是 $\mathrm{Cu}^{2+}(\mathrm{aq})$ 。这可由下面有关的焓变及电极电势进一步说明。
 
@@ -7894,7 +7894,7 @@ $$
 
 15.25 镍(Ni)是制造合金钢和催化剂的重要元素,它在地壳中的丰度如何?在我国的储量如何?
 
-解 镍在地壳中的丰度为 $8.4 \times 10^{1} \, mg \cdot kg^{-1}$ 。
+解 镍在地壳中的丰度为 $8.4 \times 10^{1} \, mg \cdot \mathrm{kg}^{-1}$ 。
 
 我国镍总储量约为 $7.8 \times 10^{2}$ 万吨，居世界第9位。主要为硫化物型。镍矿产地有近百处，分布于18个省(区)。其中以甘肃省为最，储量占全国的 $60\%$ 左右，新疆、吉林、四川等省(区)次之。甘肃金川镍矿规模仅次于加拿大的萨德伯里镍矿，为世界第二大镍矿。
 

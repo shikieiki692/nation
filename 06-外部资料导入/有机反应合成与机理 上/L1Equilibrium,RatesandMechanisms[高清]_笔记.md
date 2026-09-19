@@ -23,7 +23,7 @@ MR上看A完全转化为B. => [B]/(A) > [95%]/5% = 19.
 </details>
 
 核磁检测标准：在氢谱中认为反应完全的标准是A:B比例>95%:5%（即比值>19），因为NMR的积分误差约为5%，低于5%的物质通常无法被有效检测。  
-● 能量差计算：当平衡常数k=19时，通过公式 $-RTlnk=\Delta G$ 计算得 $\Delta G=-73kJ/mol$ （或-17kcal/mol）。有机化学中常忽略负号，直接表述为"反应 $\Delta G$ 为73kJ/mol"。  
+● 能量差计算：当平衡常数k=19时，通过公式 $-RTlnk=\Delta G$ 计算得 $\Delta G=-73\mathrm{kJ}/\mathrm{mol}$ （或-17kcal/mol）。有机化学中常忽略负号，直接表述为"反应 $\Delta G$ 为73kJ/mol"。  
 ● 单位换算：1kJ=4.184kcal，因此73kJ/mol≈17kcal/mol。美国教材常用千卡单位（如March教材），需注意单位差异。
 
 # 2）例题:能量差计算 23:14
@@ -54,9 +54,9 @@ B/%.
 
 # ● 临界能量差：
 
-○ $\Delta G = -7.3kJ/mol$ (-1.7kcal/mol) 时，B占比95%   
-○ $\Delta G = -12kJ/mol$ 时，B 占比98%  
-○ $\Delta G \approx -8kJ/mol$ (-2kcal/mol) 即可认为反应完全
+○ $\Delta G = -7.3\mathrm{kJ}/\mathrm{mol}$ (-1.7kcal/mol) 时，B占比95%   
+○ $\Delta G = -12\mathrm{kJ}/\mathrm{mol}$ 时，B 占比98%  
+○ $\Delta G \approx -8\mathrm{kJ}/\mathrm{mol}$ (-2kcal/mol) 即可认为反应完全
 
 - 物理有机经验法则：当两个物质能量差达到约8kJ/mol（2kcal/mol）时，平衡会显著偏向一方，在合成上可视为单向反应。  
 ● 键能估算原理： $\Delta G \approx \Delta H$ （熵变影响较小），通过比较键能差可快速判断反应方向，键能差>8kJ/mol时反应
@@ -175,7 +175,7 @@ In theory all Ron are reversible. But some look like irreversible
 
 ○ 能量计算:
 
-■ $K = 10^{3}$ 对应 $\Delta G^{\circ} = -17 \, kJ/mol$ （约 -4 kcal/mol）  
+■ $K = 10^{3}$ 对应 $\Delta G^{\circ} = -17 \, \mathrm{kJ}/\mathrm{mol}$ （约 -4 kcal/mol）  
 ■ 计算式： $\Delta G^{\circ} = -RT\ln K$ （室温298K）
 
 ![](L1Equilibrium,RatesandMechanisms[高清]_笔记_images/d3cf21b67cb444a492aea063b9bea256625c1ef03c573d1ec16caa282277200f.jpg)
@@ -193,7 +193,7 @@ Q1. A 和 B 明阶是 功力学
 kinetri
 </details>
 
-○ 关键能量阈值：当 $\Delta G^{\circ}\leq-17\ kJ/mol$ （即 $E_{2}\geq17\ kJ/mol$ ）时，逆向反应活化能足够大，反应表现不可逆
+○ 关键能量阈值：当 $\Delta G^{\circ}\leq-17\ \mathrm{kJ}/\mathrm{mol}$ （即 $E_{2}\geq17\ \mathrm{kJ}/\mathrm{mol}$ ）时，逆向反应活化能足够大，反应表现不可逆
 
 ○ 化学平衡本质:
 

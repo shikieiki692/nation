@@ -619,7 +619,7 @@ $$
 The conversion factors that correspond to exact definitions do not limit the number of significant digits. In this example, all of the conversion factors are exact definitions, so our answer has five significant digits because the stated speed has five significant digits.
 
 EXERCISE 1.11 ▶ Express the following in terms of SI base units. The electron volt (eV), a unit of energy, equals $1.6022 \times 10^{-19}$ J.
-(a) 24.17 mi (b) $75 \, mi h^{-1}$ (c) $7.5 \, nm ps^{-1}$ (d) 13.6 eV
+(a) 24.17 mi (b) $75 \, mi h^{-1}$ (c) $7.5 \, \mathrm{nm} ps^{-1}$ (d) 13.6 eV
 
 
 ## SUMMARY
@@ -658,7 +658,7 @@ a) Find the Rankine temperature at $0.00^{\circ}$ C.
 
 b) Find the Rankine temperature at $0.00^{\circ}$ F.
 
-10. Calculate the mass of AgCl that can be precipitated from 10.00 ml of a solution of NaCl containing $0.345 \, mol l^{-1}$ . Report your answer to the correct number of digits.
+10. Calculate the mass of AgCl that can be precipitated from 10.00 ml of a solution of NaCl containing $0.345 \, \mathrm{mol} l^{-1}$ . Report your answer to the correct number of digits.
 
 11. The volume of a sphere is given by
 
@@ -682,7 +682,7 @@ a) Some elementary chemistry textbooks give the value of R, the ideal gas consta
 
 b) Calculate the pressure in atmospheres and in N m $^{-2}$ (Pa) of a sample of an ideal gas with n = 0.13678 mol, V = 1.0001 and T = 298.15 K, using the value of the ideal gas constant in SI units.
 
-c) Calculate the pressure in part b in atmospheres and in $N m^{-2}$ (Pa) using the value of the ideal gas constant in $1 atm K^{-1} mol^{-1}$ .
+c) Calculate the pressure in part b in atmospheres and in $N m^{-2}$ (Pa) using the value of the ideal gas constant in $1 \mathrm{atm} K^{-1} \mathrm{mol}^{-1}$ .
 
 15. The van der Waals equation of state gives better accuracy than the ideal gas equation of state. It is
 
@@ -690,7 +690,7 @@ $$
 \left(P + \frac {a}{V _ {m} ^ {2}}\right) (V _ {m} - b) = R T
 $$
 
-where a and b are parameters that have different values for different gases and where $V_{m} = V/n$ , the molar volume. For carbon dioxide, $a = 0.3640 \, Pa \, m^{6} \, mol^{-2}$ , $b = 4.267 \times 10^{-5} \, m^{3} \, mol^{-1}$ . Calculate the pressure of carbon dioxide in pascals, assuming that n = 0.13678 mol, V = 1.0001, and T = 298.15 K. Convert your answer to atmospheres and torr.
+where a and b are parameters that have different values for different gases and where $V_{m} = V/n$ , the molar volume. For carbon dioxide, $a = 0.3640 \, \mathrm{Pa} \, m^{6} \, \mathrm{mol}^{-2}$ , $b = 4.267 \times 10^{-5} \, m^{3} \, \mathrm{mol}^{-1}$ . Calculate the pressure of carbon dioxide in pascals, assuming that n = 0.13678 mol, V = 1.0001, and T = 298.15 K. Convert your answer to atmospheres and torr.
 
 16. The specific heat capacity (specific heat) of a substance is crudely defined as the amount of heat required to raise the temperature of unit mass of the substance by 1 degree Celsius (1 °C). The specific heat capacity of water is $4.18 \, J^{\circ}C^{-1} \, g^{-1}$ . Find the rise in temperature if 100.0 J of heat is transferred to 1.000 kg of water.
 
@@ -771,7 +771,7 @@ $$
 \left(P + \frac {n ^ {2} a}{V ^ {2}}\right) (V - n b) = n R T
 $$
 
-where P is the pressure, V is the volume, n is the amount of gas in moles, T is the absolute temperature, and R is the ideal gas constant (the same constant as in the ideal gas equation, equal to $8.3145 \, J K^{-1} \, mol^{-1}$ or $0.082061 \, atm \, K^{-1} \, mol^{-1}$ ). The symbols a and b represent parameters, which means that they are constants for a particular gas, but have different values for different gases.
+where P is the pressure, V is the volume, n is the amount of gas in moles, T is the absolute temperature, and R is the ideal gas constant (the same constant as in the ideal gas equation, equal to $8.3145 \, J K^{-1} \, \mathrm{mol}^{-1}$ or $0.082061 \, \mathrm{atm} \, K^{-1} \, \mathrm{mol}^{-1}$ ). The symbols a and b represent parameters, which means that they are constants for a particular gas, but have different values for different gases.
 
 EXERCISE 2.2 ▶ (a) Manipulate the van der Waals equation so that $V_{m}$ , defined as $V / n$ , occurs instead of $V$ and $n$ occurring separately.
 
@@ -1967,7 +1967,7 @@ $$
 P V = n R T\tag{2.112}
 $$
 
-where V is the volume, n is the amount of gas in moles, T is the temperature, P is the pressure, and R is the ideal gas constant, equal to $8.3145 \, J \, K^{-1} \, mol^{-1} = 0.082061 \, atm \, K^{-1} \, mol^{-1}$ . Calculate the volume occupied by 1.278 mol of an ideal gas if the pressure is 2.341 atm and the temperature is 298.15 K.
+where V is the volume, n is the amount of gas in moles, T is the temperature, P is the pressure, and R is the ideal gas constant, equal to $8.3145 \, J \, K^{-1} \, \mathrm{mol}^{-1} = 0.082061 \, \mathrm{atm} \, K^{-1} \, \mathrm{mol}^{-1}$ . Calculate the volume occupied by 1.278 mol of an ideal gas if the pressure is 2.341 atm and the temperature is 298.15 K.
 
 SOLUTION ▶ Since there are four variables, we can calculate the value of one of them if the values of the other three are given. We solve the ideal gas equation for V by symbolically dividing both sides of the equation by P, obtaining
 
@@ -2053,7 +2053,7 @@ In this chapter we have introduced symbolic mathematics, which involves the mani
 
 17. Find the angle between A and B if $A = 3i + 2j + k$ and $B = i + 2j + 3k$ .
 
-18. A spherical object falling in a fluid has three forces acting upon it: (1) The gravitational force, whose magnitude is $F_{g} = mg$ , where m is the mass of the object and g is the acceleration due to gravity, equal to $9.8 \, m s^{-2}$ ; (2) The buoyant force, whose magnitude is $F_{b} = m_{f} g$ , where $m_{f}$ is the mass of the displaced fluid, and whose direction is upward; (3) The frictional force, which is given by $F_{f} = -6\pi \eta r v$ , where r is the radius of the object, v its velocity, and $\eta$ the coefficient of viscosity of the fluid. This formula for the frictional forces applies only if the flow around the object is laminar (flow in layers). The object is falling at a constant speed in glycerol, which has a viscosity of $1490 \, kg m^{-1} s^{-1}$ . The object has a mass of 0.00381 kg, has a radius of 0.00432 m, a mass of 0.00381 kg, and displaces a mass of fluid equal to 0.000337 kg. Find the speed of the object.
+18. A spherical object falling in a fluid has three forces acting upon it: (1) The gravitational force, whose magnitude is $F_{g} = mg$ , where m is the mass of the object and g is the acceleration due to gravity, equal to $9.8 \, m s^{-2}$ ; (2) The buoyant force, whose magnitude is $F_{b} = m_{f} g$ , where $m_{f}$ is the mass of the displaced fluid, and whose direction is upward; (3) The frictional force, which is given by $F_{f} = -6\pi \eta r v$ , where r is the radius of the object, v its velocity, and $\eta$ the coefficient of viscosity of the fluid. This formula for the frictional forces applies only if the flow around the object is laminar (flow in layers). The object is falling at a constant speed in glycerol, which has a viscosity of $1490 \, \mathrm{kg} m^{-1} s^{-1}$ . The object has a mass of 0.00381 kg, has a radius of 0.00432 m, a mass of 0.00381 kg, and displaces a mass of fluid equal to 0.000337 kg. Find the speed of the object.
 
 19. The solutions to the Schrödinger equation for the electron in a hydrogen atom have three quantum numbers associated with them, called n, l, and m, and these solutions are often denoted by $\psi_{nlm}$ . One of the solutions is
 
@@ -2257,7 +2257,7 @@ $$
 K _ {a} = \frac {x (x - K _ {w} / x)}{c / c ^ {\circ} - x + K _ {w} / x},\tag{3.9}
 $$
 
-where c is the stoichiometric concentration of the acid, where $c^{\circ}$ is defined to equal $1\ mol\ l^{-1}$ , where $K_{w}$ is the ionization constant of water, equal to $1.00 \times 10^{-14}$ near $25^{\circ}C$ , and where $x = [H^{+}]/c^{\circ}$ . If we multiply this equation out, we obtain the cubic equation
+where c is the stoichiometric concentration of the acid, where $c^{\circ}$ is defined to equal $1\ \mathrm{mol}\ l^{-1}$ , where $K_{w}$ is the ionization constant of water, equal to $1.00 \times 10^{-14}$ near $25^{\circ}C$ , and where $x = [H^{+}]/c^{\circ}$ . If we multiply this equation out, we obtain the cubic equation
 
 $$
 x ^ {3} + K _ {a} x ^ {2} - \left(\frac {c K _ {a}}{c ^ {\circ}} + K _ {w}\right) x - K _ {a} K _ {w} = 0.\tag{3.10}
@@ -2277,7 +2277,7 @@ $$
 
 which is the same as Eq. (3.7), which was obtained with the assumption that $[H^{+}]=[A^{-}]$ .
 
-It is possible in some cases to make a further approximation on Eq. (3.11). If only a small fraction of the weak acid ionizes, $[H^{+}]$ will be small compared with c, so that x can be neglected in the denominator. In the case of acetic acid and a gross acid concentration of $0.100\ mol\ l^{-1}$ , $[H^{+}]$ is approximately equal to $10^{-3}\ mol\ l^{-1}$ , only about 1% as large as c. If we can tolerate an error of about 1%, we can neglect x compared with $c/c^{\circ}$ . We obtain
+It is possible in some cases to make a further approximation on Eq. (3.11). If only a small fraction of the weak acid ionizes, $[H^{+}]$ will be small compared with c, so that x can be neglected in the denominator. In the case of acetic acid and a gross acid concentration of $0.100\ \mathrm{mol}\ l^{-1}$ , $[H^{+}]$ is approximately equal to $10^{-3}\ \mathrm{mol}\ l^{-1}$ , only about 1% as large as c. If we can tolerate an error of about 1%, we can neglect x compared with $c/c^{\circ}$ . We obtain
 
 $$
 K _ {a} = \frac {x ^ {2}}{c / c ^ {\circ}}\tag{3.12}
@@ -2293,7 +2293,7 @@ $$
 x = \sqrt {(c / c ^ {\circ}) K _ {a}}.\tag{3.13}
 $$
 
-However, as c is made smaller, Eq. (3.13) quickly becomes a poor approximation, and for very small acid concentrations, Eq. (3.11) also becomes inaccurate. Table 3.1 shows the results from the three equations at different acid concentrations. Equation (3.11), the quadratic equation, remains fairly accurate down to $c = 10^{-5} \, mol l^{-1}$ , but Eq. (3.13) is wrong by about 7% at $10^{-3} \, mol l^{-1}$ , and much worse than that at lower concentrations.
+However, as c is made smaller, Eq. (3.13) quickly becomes a poor approximation, and for very small acid concentrations, Eq. (3.11) also becomes inaccurate. Table 3.1 shows the results from the three equations at different acid concentrations. Equation (3.11), the quadratic equation, remains fairly accurate down to $c = 10^{-5} \, \mathrm{mol} l^{-1}$ , but Eq. (3.13) is wrong by about 7% at $10^{-3} \, \mathrm{mol} l^{-1}$ , and much worse than that at lower concentrations.
 
 In the case that approximations such as that of Eq. (3.13) are inaccurate, we can apply the method of successive approximations. In this method, one begins by solving an equation such as Eq. (3.13). The result of this approximation is used to approximate the term which was neglected in the first approximation and the solution is repeated. If needed, the result of this second approximation is used to replace the term that was originally neglected and the solution is repeated. This procedure is repeated (iterated) as many times as is necessary.
 
@@ -2345,7 +2345,7 @@ $$
 P e ^ {a / V _ {m} R T} (V _ {m} - b) = R T,\tag{3.14}
 $$
 
-where P is the pressure, T is the temperature, $V_{m}$ is the molar volume, and R is the ideal gas constant. The constant parameters a and b have different values for different gases. For carbon dioxide, $a = 0.468 \, Pa \, m^{6} \, mol^{-2}$ , $b = 4.63 \times 10^{-5} \, m^{3} \, mol^{-1}$ . Find the molar volume of carbon dioxide if $T = 298.15 \, K$ and $P = 10.000 \, atm = 1.01325 \times 10^{6} \, Pa$ .
+where P is the pressure, T is the temperature, $V_{m}$ is the molar volume, and R is the ideal gas constant. The constant parameters a and b have different values for different gases. For carbon dioxide, $a = 0.468 \, \mathrm{Pa} \, m^{6} \, \mathrm{mol}^{-2}$ , $b = 4.63 \times 10^{-5} \, m^{3} \, \mathrm{mol}^{-1}$ . Find the molar volume of carbon dioxide if $T = 298.15 \, K$ and $P = 10.000 \, \mathrm{atm} = 1.01325 \times 10^{6} \, \mathrm{Pa}$ .
 
 SOLUTION ▶ The exponential function can be represented by the power series
 
@@ -3219,7 +3219,7 @@ $$
 \left(P + \frac {n ^ {2} a}{V ^ {2}}\right) (V - n b) = n R T\tag{3.37}
 $$
 
-where a and b are temperature-independent parameters that have different values for each gas. For carbon dioxide, $a = 0.3640 \, Pa m^{6} mol^{-2}$ and $b = 4.267 \times 10^{-5} \, m^{3} mol^{-1}$ .
+where a and b are temperature-independent parameters that have different values for each gas. For carbon dioxide, $a = 0.3640 \, \mathrm{Pa} m^{6} \mathrm{mol}^{-2}$ and $b = 4.267 \times 10^{-5} \, m^{3} \mathrm{mol}^{-1}$ .
 
 a) Write this equation as a cubic equation in $V$ .
 
@@ -3341,7 +3341,7 @@ $$
 P e ^ {a / V _ {m} R T} (V _ {m} - b) = R T,\tag{3.49}
 $$
 
-where P is the pressure, T is the temperature, $V_{m}$ is the molar volume, and R is the ideal gas constant. The constant parameters a and b have different values for different gases. For carbon dioxide, $a = 0.468 \, Pa \, m^{6} \, mol^{-2}$ , $b = 4.63 \times 10^{-5} \, m^{3} \, mol^{-1}$ . Without linearization, find the molar volume of carbon dioxide if $T = 298.15 \, K$ and $P = 10.000 \, atm = 1.01325 \times 10^{6} \, Pa$ . Use the FindRoot statement in Mathematica, Excel, or trial and error.
+where P is the pressure, T is the temperature, $V_{m}$ is the molar volume, and R is the ideal gas constant. The constant parameters a and b have different values for different gases. For carbon dioxide, $a = 0.468 \, \mathrm{Pa} \, m^{6} \, \mathrm{mol}^{-2}$ , $b = 4.63 \times 10^{-5} \, m^{3} \, \mathrm{mol}^{-1}$ . Without linearization, find the molar volume of carbon dioxide if $T = 298.15 \, K$ and $P = 10.000 \, \mathrm{atm} = 1.01325 \times 10^{6} \, \mathrm{Pa}$ . Use the FindRoot statement in Mathematica, Excel, or trial and error.
 
 19. Determine which, if any, of the following sets of equations are inconsistent or linearly dependent. Draw a graph for each set of equations, showing both equations. Find the solution for any set that has a unique solution.
 
@@ -5994,11 +5994,11 @@ $$
 \left(P + \frac {n ^ {2} a}{V ^ {2}}\right) (V - n b) = n R T
 $$
 
-where V is the volume, n is the amount of gas in moles, T is the temperature on the Kelvin scale, and a and b are constants. R is usually taken to be the ideal gas constant, $8.3145 \, J K^{-1} \, mol^{-1}$ .
+where V is the volume, n is the amount of gas in moles, T is the temperature on the Kelvin scale, and a and b are constants. R is usually taken to be the ideal gas constant, $8.3145 \, J K^{-1} \, \mathrm{mol}^{-1}$ .
 
 a) Obtain a formula for the work done if 1.000 mol of such a gas expands reversibly at constant temperature from a volume $V_{1}$ to a volume $V_{2}$ .
 
-b) If $T = 298 \, K$ , $V_{1} = 1.001 (1.000 \times 10^{-3} \, \text{m}^{3})$ , and $V_{2} = 100.01 = 0.100 \, m^{3}$ , find the value of the work done for 1.000 mol of $CO_{2}$ , which has $a = 0.3640 \, Pa \, m^{6} \, mol^{-2}$ , and $b = 4.267 \times 10^{-5} \, m^{3} \, mol^{-1}$ . The ideal gas constant, $R = 8.3145 \, J \, K^{-1} \, mol^{-1}$ .
+b) If $T = 298 \, K$ , $V_{1} = 1.001 (1.000 \times 10^{-3} \, \text{m}^{3})$ , and $V_{2} = 100.01 = 0.100 \, m^{3}$ , find the value of the work done for 1.000 mol of $CO_{2}$ , which has $a = 0.3640 \, \mathrm{Pa} \, m^{6} \, \mathrm{mol}^{-2}$ , and $b = 4.267 \times 10^{-5} \, m^{3} \, \mathrm{mol}^{-1}$ . The ideal gas constant, $R = 8.3145 \, J \, K^{-1} \, \mathrm{mol}^{-1}$ .
 
 c) Calculate the work done in the process of part b if the gas is assumed to be ideal.
 
@@ -6010,7 +6010,7 @@ $$
 
 where a is a constant that you can evaluate from the value of $C_{P}$ at 30 K. For the region 30 K to 270 K, use the following data: $^{4}$
 
-<table><tr><td>T/K</td><td> $C_P/JK^{-1}mol^{-1}$ </td><td>T/K</td><td> $C_P/JK^{-1}mol^{-1}$ </td></tr><tr><td>30</td><td>4.77</td><td>170</td><td>23.61</td></tr><tr><td>50</td><td>11.65</td><td>190</td><td>24.09</td></tr><tr><td>70</td><td>16.33</td><td>210</td><td>24.42</td></tr><tr><td>90</td><td>19.13</td><td>230</td><td>24.73</td></tr><tr><td>110</td><td>20.96</td><td>250</td><td>25.03</td></tr><tr><td>130</td><td>22.13</td><td>270</td><td>25.31</td></tr><tr><td>150</td><td>22.97</td><td></td><td></td></tr></table>
+<table><tr><td>T/K</td><td> $C_P/JK^{-1}\mathrm{mol}^{-1}$ </td><td>T/K</td><td> $C_P/JK^{-1}\mathrm{mol}^{-1}$ </td></tr><tr><td>30</td><td>4.77</td><td>170</td><td>23.61</td></tr><tr><td>50</td><td>11.65</td><td>190</td><td>24.09</td></tr><tr><td>70</td><td>16.33</td><td>210</td><td>24.42</td></tr><tr><td>90</td><td>19.13</td><td>230</td><td>24.73</td></tr><tr><td>110</td><td>20.96</td><td>250</td><td>25.03</td></tr><tr><td>130</td><td>22.13</td><td>270</td><td>25.31</td></tr><tr><td>150</td><td>22.97</td><td></td><td></td></tr></table>
 
 $^{4}$ P.F. Meads, W.R. Forsythe, and W.F. Giaque, J. Am. Chem. Soc. 63, 1902 (1941).
 
@@ -7449,7 +7449,7 @@ $$
 \begin{array}{r c l} \Delta P & = & P (n _ {2}, V _ {2}, T _ {2}) - P (n _ {1}, V _ {1}, T _ {1}) \\ & = & \frac {n _ {2} R T _ {2}}{V _ {2}} - \frac {n _ {1} R T _ {1}}{V _ {1}}. \end{array}
 $$
 
-The result of this calculation is $1.797 \times 10^{3} \, N m^{-2} = 1.797 \times 10^{3} \, Pa$ , so that our approximate value is in error by about 1%.
+The result of this calculation is $1.797 \times 10^{3} \, N m^{-2} = 1.797 \times 10^{3} \, \mathrm{Pa}$ , so that our approximate value is in error by about 1%.
 
 In these examples the exact calculation could be made more easily than the approximation. However, in physical chemistry it is frequently the case that a formula for a function is not known, but values for the partial derivatives are available, so that approximation can be made while the exact calculation cannot. For example, there is usually no simple formula giving the thermodynamic energy as a function of its independent variables. However, the differential of the thermodynamic energy of a system containing only one substance as a function of T, P, and n can be written as
 

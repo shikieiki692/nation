@@ -587,7 +587,7 @@ periodic table of elements
 
 （2）下表的数据从上到下是钠、镁、铝逐级失去电子的电离能。
 
-<table><tr><td>元素</td><td>Na</td><td>Mg</td><td>Al</td></tr><tr><td rowspan="7"> $\frac{\text{电离能}}{(kJ \cdot mol^{-1})}$ </td><td>496</td><td>738</td><td>578</td></tr><tr><td>4 562</td><td>1 451</td><td>1 817</td></tr><tr><td>6 912</td><td>7 733</td><td>2 745</td></tr><tr><td>9 543</td><td>10 540</td><td>11 575</td></tr><tr><td>13 353</td><td>13 630</td><td>14 830</td></tr><tr><td>16 610</td><td>17 995</td><td>18 376</td></tr><tr><td>20 114</td><td>21 703</td><td>23 293</td></tr></table>
+<table><tr><td>元素</td><td>Na</td><td>Mg</td><td>Al</td></tr><tr><td rowspan="7"> $\frac{\text{电离能}}{(\mathrm{kJ} \cdot \mathrm{mol}^{-1})}$ </td><td>496</td><td>738</td><td>578</td></tr><tr><td>4 562</td><td>1 451</td><td>1 817</td></tr><tr><td>6 912</td><td>7 733</td><td>2 745</td></tr><tr><td>9 543</td><td>10 540</td><td>11 575</td></tr><tr><td>13 353</td><td>13 630</td><td>14 830</td></tr><tr><td>16 610</td><td>17 995</td><td>18 376</td></tr><tr><td>20 114</td><td>21 703</td><td>23 293</td></tr></table>
 
 为什么原子的逐级电离能越来越大？这些数据跟钠、镁、铝的化合价有什么联系？
 
@@ -817,7 +817,7 @@ D. 3d 4s
 
 13.（1）完成下列关于磷与硫的比较（用“>”或“<”或“=”）。
 
-<table><tr><td colspan="2">元素</td><td>Mn</td><td>Fe</td></tr><tr><td rowspan="3"> $\frac{\text{电离能}}{(kJ \cdot mol^{-1})}$ </td><td> $I_1$ </td><td>717</td><td>759</td></tr><tr><td> $I_2$ </td><td>1 509</td><td>1 561</td></tr><tr><td> $I_3$ </td><td>3 248</td><td>2 957</td></tr></table>
+<table><tr><td colspan="2">元素</td><td>Mn</td><td>Fe</td></tr><tr><td rowspan="3"> $\frac{\text{电离能}}{(\mathrm{kJ} \cdot \mathrm{mol}^{-1})}$ </td><td> $I_1$ </td><td>717</td><td>759</td></tr><tr><td> $I_2$ </td><td>1 509</td><td>1 561</td></tr><tr><td> $I_3$ </td><td>3 248</td><td>2 957</td></tr></table>
 
 原子半径：P\_\_\_\_S；非金属性：P\_\_\_\_S；电负性：P\_\_\_\_S；第一电离能：P\_\_\_\_S。
 
@@ -950,7 +950,7 @@ $\pi$ 键与 $\sigma$ 键的强度不同。例如，乙烯、乙炔分子中的 
 
 表 2-1 某些共价键的键能
 
-<table><tr><td>键</td><td>键能 $\left( {\mathrm{{kJ}} \cdot {\mathrm{{mol}}}^{-1}}\right)$ </td><td>键</td><td>键能 $\left( {\mathrm{{kJ}} \cdot {\mathrm{{mol}}}^{-1}}\right)$ </td></tr><tr><td>H—H</td><td>436.0</td><td>N≡N</td><td>946</td></tr><tr><td>F—F</td><td>157</td><td>N—O</td><td>176</td></tr><tr><td>Cl—Cl</td><td>242.7</td><td>N=O</td><td>607</td></tr><tr><td>Br—Br</td><td>193.7</td><td>O—O</td><td>142</td></tr><tr><td>I—I</td><td>152.7</td><td>O=O</td><td>497.3</td></tr><tr><td>C—C</td><td>347.7</td><td>C—H</td><td>413.4</td></tr><tr><td>C=C</td><td>615</td><td>O—H</td><td>462.8</td></tr><tr><td>C≡C</td><td>812</td><td>N—H</td><td>390.8</td></tr><tr><td>C—O</td><td>351</td><td>H—F</td><td>568</td></tr><tr><td>C=O</td><td>745</td><td>H—Cl</td><td>431.8</td></tr><tr><td>N—N</td><td>193</td><td>H—Br</td><td>366</td></tr><tr><td>N=N</td><td>418</td><td>H—I</td><td>298.7</td></tr></table>
+<table><tr><td>键</td><td>键能 $\left( {\mathrm{kJ} \cdot {\mathrm{mol}}^{-1}}\right)$ </td><td>键</td><td>键能 $\left( {\mathrm{kJ} \cdot {\mathrm{mol}}^{-1}}\right)$ </td></tr><tr><td>H—H</td><td>436.0</td><td>N≡N</td><td>946</td></tr><tr><td>F—F</td><td>157</td><td>N—O</td><td>176</td></tr><tr><td>Cl—Cl</td><td>242.7</td><td>N=O</td><td>607</td></tr><tr><td>Br—Br</td><td>193.7</td><td>O—O</td><td>142</td></tr><tr><td>I—I</td><td>152.7</td><td>O=O</td><td>497.3</td></tr><tr><td>C—C</td><td>347.7</td><td>C—H</td><td>413.4</td></tr><tr><td>C=C</td><td>615</td><td>O—H</td><td>462.8</td></tr><tr><td>C≡C</td><td>812</td><td>N—H</td><td>390.8</td></tr><tr><td>C—O</td><td>351</td><td>H—F</td><td>568</td></tr><tr><td>C=O</td><td>745</td><td>H—Cl</td><td>431.8</td></tr><tr><td>N—N</td><td>193</td><td>H—Br</td><td>366</td></tr><tr><td>N=N</td><td>418</td><td>H—I</td><td>298.7</td></tr></table>
 
 键长是衡量共价键强弱的另一重要参数。简单地说，键长是构成化学键的两个原子的核间距。不过，分子中的原子始终处于不断振动之中，键长只是振动着的原子处于平衡位置时的核间距。
 
@@ -960,7 +960,7 @@ $\pi$ 键与 $\sigma$ 键的强度不同。例如，乙烯、乙炔分子中的 
 
 <table><tr><td>键</td><td>键长 /pm $^{\text{1}}$ </td><td>键</td><td>键长 /pm</td></tr><tr><td>H—H</td><td>74</td><td>C≡C</td><td>120</td></tr><tr><td>F—F</td><td>141</td><td>C—H</td><td>109</td></tr><tr><td>Cl—Cl</td><td>198</td><td>O—H</td><td>96</td></tr><tr><td>Br—Br</td><td>228</td><td>N—H</td><td>101</td></tr><tr><td>I—I</td><td>267</td><td>N≡N</td><td>110</td></tr><tr><td>C—C</td><td>154</td><td>Si—Si</td><td>235</td></tr><tr><td>C=C</td><td>133</td><td>Si—O</td><td>162</td></tr></table>
 
-化学键的键长与键能是相关的。例如，C—C、C=C 和 C≡C 的键长分别为 154 pm、133 pm 和 120 pm，越来越小，它们的键能分别为 $347.7 \, kJ \cdot mol^{-1}$ 、 $615 \, kJ \cdot mol^{-1}$ 和 $812 \, kJ \cdot mol^{-1}$ ，越来越大。
+化学键的键长与键能是相关的。例如，C—C、C=C 和 C≡C 的键长分别为 154 pm、133 pm 和 120 pm，越来越小，它们的键能分别为 $347.7 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ 、 $615 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ 和 $812 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ ，越来越大。
 
 键角 bond angle
 
@@ -1375,7 +1375,7 @@ intermolecular force
 
 表 2-7 某些分子间的范德华力
 
-<table><tr><td>分子</td><td>Ar</td><td>CO</td><td>HI</td><td>HBr</td><td>HCl</td></tr><tr><td> $\frac{\text{范德华力}}{(kJ \cdot mol^{-1})}$ </td><td>8.50</td><td>8.75</td><td>26.00</td><td>23.11</td><td>21.14</td></tr></table>
+<table><tr><td>分子</td><td>Ar</td><td>CO</td><td>HI</td><td>HBr</td><td>HCl</td></tr><tr><td> $\frac{\text{范德华力}}{(\mathrm{kJ} \cdot \mathrm{mol}^{-1})}$ </td><td>8.50</td><td>8.75</td><td>26.00</td><td>23.11</td><td>21.14</td></tr></table>
 
 ![](高中化学人教版选择性必修二物质结构与性质人民教育出版社z-library.sk,1lib.sk,z-lib.sk_images/d1e704ade7d88120352ed35808ce29583127749a5e7df238344f92e321f1fa9d.jpg)
 

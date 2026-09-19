@@ -508,7 +508,7 @@ $FeSO_{4}\cdot7H_{2}O$ \_\_\_\_色； $FeSO_{4}$ \_\_\_\_色； $FeSO_{4}\cdot(N
 
 (1) 向含有 $CCl_{4}$ 的黄血盐溶液中滴加碘水；
 
-(2) 将 $3 \, mol \cdot dm^{-3} \, CoCl_{2}$ 溶液加热，再滴加 $AgNO_{3}$ 溶液；
+(2) 将 $3 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \, CoCl_{2}$ 溶液加热，再滴加 $AgNO_{3}$ 溶液；
 
 (3) 将 $\left[\mathrm{Ni}\left(\mathrm{NH}_{3}\right)_{6}\right] \mathrm{SO}_{4}$ 溶液水浴加热一段时间再加氨水；
 
@@ -540,7 +540,7 @@ $FeSO_{4}\cdot7H_{2}O$ \_\_\_\_色； $FeSO_{4}$ \_\_\_\_色； $FeSO_{4}\cdot(N
 
 (5) 向盐的溶液中滴加 $\mathrm{AgNO}_{3}$ 溶液时, 得到不溶于硝酸的白色沉淀。沉淀溶于氨水。
 
-22.57 某同学在确定所合成的 $\mathrm{K}_{3}\left[\mathrm{Fe}\left(\mathrm{C}_{2}\mathrm{O}_{4}\right)_{3}\right]\cdot3\mathrm{H}_{2}\mathrm{O}$ 晶体中 $FeC_{2}O_{4}$ 杂质的含量时，进行了以下实验：将一定量样品加入稀硫酸中，微热溶解后用 $0.0500\ mol\cdot dm^{-3}$ 高锰酸钾溶液滴定，用去 $108.00\ cm^{3}$ ；再加入适量还原剂将三价铁还原为二价铁后，用 $KMnO_{4}$ 溶液滴定，恰好用去 $20.00\ cm^{3}$ 。
+22.57 某同学在确定所合成的 $\mathrm{K}_{3}\left[\mathrm{Fe}\left(\mathrm{C}_{2}\mathrm{O}_{4}\right)_{3}\right]\cdot3\mathrm{H}_{2}\mathrm{O}$ 晶体中 $FeC_{2}O_{4}$ 杂质的含量时，进行了以下实验：将一定量样品加入稀硫酸中，微热溶解后用 $0.0500\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ 高锰酸钾溶液滴定，用去 $108.00\ \mathrm{cm}^{3}$ ；再加入适量还原剂将三价铁还原为二价铁后，用 $KMnO_{4}$ 溶液滴定，恰好用去 $20.00\ \mathrm{cm}^{3}$ 。
 
 (1) 给出滴定反应的离子反应方程式;
 
@@ -650,7 +650,7 @@ $$
 \begin{array}{r l} n _ {2} & = \frac {p _ {2} V}{R T} = \frac {8.3 \times 10 ^ {4} \mathrm{Pa} \times 0.5 \times 10 ^ {- 3} \mathrm{m} ^ {3}}{8.314 \mathrm{Pa} \cdot \mathrm{m} ^ {3} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{K} ^ {- 1} \times 298 \mathrm{K}} \\ & = 0.0168 \mathrm{mol} \end{array}
 $$
 
-设反应后生成 $x \, mol \, NO_{2}$ 气体，由
+设反应后生成 $x \, \mathrm{mol} \, NO_{2}$ 气体，由
 
 $$
 2 \mathrm{NO} + \mathrm{O} _ {2} = 2 \mathrm{NO} _ {2}
@@ -664,7 +664,7 @@ $$
 n _ {2} = \left(0.0248 - \frac {3}{2} x\right) \mathrm{mol} + x \mathrm{mol} = 0.0168 \mathrm{mol}
 $$
 
-得 x=0.016，生成 $NO_{2}$ 的质量为 $0.016\ mol\times46\ g\cdot mol^{-1}=0.74\ g$ 。
+得 x=0.016，生成 $NO_{2}$ 的质量为 $0.016\ \mathrm{mol}\times46\ g\cdot \mathrm{mol}^{-1}=0.74\ g$ 。
 
 1.29 （1）混合气体中的水蒸气最后全部被干燥剂吸收，则混合气体中氮气的分压为
 
@@ -762,7 +762,7 @@ $$
 \begin{array}{r l} V & = \frac {n R T}{p} \\ & = \frac {(2.3 \mathrm{g/46g} \cdot \mathrm{mol} ^ {- 1}) \times 8.314 \mathrm{Pa} \cdot \mathrm{m} ^ {3} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{K} ^ {- 1} \times 293 \mathrm{K}}{5866.2 \mathrm{Pa}} \\ & = 2.076 \times 10 ^ {- 2} \mathrm{m} ^ {3} = 20.76 \mathrm{dm} ^ {3} \end{array}
 $$
 
-在 $20.76 \, dm^{3}$ 气体中, 空气的分压为
+在 $20.76 \, \mathrm{dm}^{3}$ 气体中, 空气的分压为
 
 $$
 p (\mathrm{空气}) = 1.013 \times 10 ^ {5} \mathrm{Pa} - 5866.2 \mathrm{Pa} = 9.54 \times 10 ^ {4} \mathrm{Pa}
@@ -828,7 +828,7 @@ $$
 7.81 \times 10 ^ {- 3} \mathrm{mol} \times 78 \mathrm{g} \cdot \mathrm{mol} ^ {- 1} = 0.609 \mathrm{g}
 $$
 
-1.36 （1）将题设的过程理解为一个 $p_{1}=98.6\ kPa, V_{1}=4.00\ dm^{3}$ 的空气气泡缓缓通过 $CHCl_{3}$ 液体，气泡在被 $CHCl_{3}$ 饱和的过程中体系的总压没变，气泡的体积增大。通过 $CHCl_{3}$ 后的气泡是个混合气体体系， $V_{总}$ 是其体积， $p_{总}=98.6\ kPa$ 。 $CHCl_{3}$ 的饱和蒸气压 49.3 kPa 是混合气体中该组分的分压 $p_{2}$ ，设另一组分空气的分压为 p（空气），则
+1.36 （1）将题设的过程理解为一个 $p_{1}=98.6\ kPa, V_{1}=4.00\ \mathrm{dm}^{3}$ 的空气气泡缓缓通过 $CHCl_{3}$ 液体，气泡在被 $CHCl_{3}$ 饱和的过程中体系的总压没变，气泡的体积增大。通过 $CHCl_{3}$ 后的气泡是个混合气体体系， $V_{总}$ 是其体积， $p_{总}=98.6\ kPa$ 。 $CHCl_{3}$ 的饱和蒸气压 49.3 kPa 是混合气体中该组分的分压 $p_{2}$ ，设另一组分空气的分压为 p（空气），则
 
 $$
 \begin{array}{r l} {p (\text { 空气 }) = p _ {\mathrm{总}} - p _ {2}} \\ & {= 98.6 \mathrm{kPa} - 49.3 \mathrm{kPa}} \\ & {= 49.3 \mathrm{kPa}} \end{array}
@@ -866,7 +866,7 @@ $$
 n _ {t} / \mathrm{mol}
 $$
 
-反应后的体积是 $a \, mol \, O_{2}$ 和饱和水蒸气形成的混合气体。其中水蒸气的分压为 $p(\mathrm{H}_{2}\mathrm{O})$ ，由题设可知 $p(\mathrm{H}_{2}\mathrm{O}) = 3.17 \, \mathrm{kPa}$ 。
+反应后的体积是 $a \, \mathrm{mol} \, O_{2}$ 和饱和水蒸气形成的混合气体。其中水蒸气的分压为 $p(\mathrm{H}_{2}\mathrm{O})$ ，由题设可知 $p(\mathrm{H}_{2}\mathrm{O}) = 3.17 \, \mathrm{kPa}$ 。
 
 根据分压的定义, 当 a mol 氧气单独占有容器总体积 V 时, 其压强即为 $p(\mathrm{O}_{2})$ 。
 
@@ -996,7 +996,7 @@ $$
 
 故此金属的相对原子质量为 65.4。
 
-1.41 由题意可知， $1.0\ dm^{3}$ 4.0 mol·dm $^{-3}$ 的 $H_{2}SO_{4}$ 溶液中， $H_{2}SO_{4}$ 的物质的量为 4.0 mol。300 cm $^{3}$ 密度为 1.07 g·cm $^{-3}$ 的 10% $H_{2}SO_{4}$ 溶液中， $H_{2}SO_{4}$ 的物质的量为
+1.41 由题意可知， $1.0\ \mathrm{dm}^{3}$ 4.0 mol·dm $^{-3}$ 的 $H_{2}SO_{4}$ 溶液中， $H_{2}SO_{4}$ 的物质的量为 4.0 mol。300 cm $^{3}$ 密度为 1.07 g·cm $^{-3}$ 的 10% $H_{2}SO_{4}$ 溶液中， $H_{2}SO_{4}$ 的物质的量为
 
 $$
 n _ {1} = (300 \mathrm{cm} ^ {3} \times 1.07 \mathrm{g} \cdot \mathrm{cm} ^ {- 3} \times 10 \%) / (98 \mathrm{g} \cdot \mathrm{mol} ^ {- 1}) = 0.328 \mathrm{mol}
@@ -1026,7 +1026,7 @@ $$
 x (\text { 丙酮 }) = \frac {\frac {120 \mathrm{g}}{58 \mathrm{g} \cdot \mathrm{mol} ^ {- 1}}}{\frac {120 \mathrm{g}}{58 \mathrm{g} \cdot \mathrm{mol} ^ {- 1}} + \frac {6 \mathrm{g}}{M}} = 0.9529
 $$
 
-解得 $M=58.7\ g\cdot mol^{-1}$ 。
+解得 $M=58.7\ g\cdot \mathrm{mol}^{-1}$ 。
 
 1.43 根据题意有
 
@@ -1062,7 +1062,7 @@ $$
 b _ {4} = \frac {0.0381 \mathrm{K}}{1.86 \mathrm{K} \cdot \mathrm{kg} \cdot \mathrm{mol} ^ {- 1}} = 0.0205 \mathrm{mol} \cdot \mathrm{kg} ^ {- 1}
 $$
 
-溶液中的粒子数目= $\frac{0.0205\ mol}{0.0205\ mol}=1$ ，可见 $PbCl_{2}$ 在水中溶解度很小，几乎不解离，以分子形式存在。
+溶液中的粒子数目= $\frac{0.0205\ \mathrm{mol}}{0.0205\ \mathrm{mol}}=1$ ，可见 $PbCl_{2}$ 在水中溶解度很小，几乎不解离，以分子形式存在。
 
 1.45 (1) 通入空气的物质的量为
 
@@ -1094,7 +1094,7 @@ $$
 x (\text {   苯   }) = \frac {\frac {100 \mathrm{g}}{78 \mathrm{g} \cdot \mathrm{mol} ^ {- 1}}}{\frac {100 \mathrm{g}}{78 \mathrm{g} \cdot \mathrm{mol} ^ {- 1}} + \frac {15 \mathrm{g}}{M}} = 0.848
 $$
 
-解得 $M=65.3\ g\cdot mol^{-1}$ 。
+解得 $M=65.3\ g\cdot \mathrm{mol}^{-1}$ 。
 
 (2) 苯溶液的质量摩尔浓度为
 
@@ -1409,7 +1409,7 @@ $$
 
 $\Delta_{f}H_{m}^{\ominus}$ 表示由处于标准态的各种元素的指定单质生成标准态的 1 mol 某纯物质时的热效应。 $\Delta_{c}H_{m}^{\ominus}$ 表示在标准大气压下 1 mol 物质完全燃烧时的热效应。完全燃烧在热力学上有严格的规定：碳、氮、硫燃烧产物分别为气体 $CO_{2}, N_{2}, SO_{2}$ ，氢、氯的燃烧产物分别为液态 $H_{2}O$ 和 HCl 水溶液。
 
-一个反应同时满足以上三个热力学函数的条件时,则 $\Delta_{r}H_{m}^{\ominus}=\Delta_{f}H_{m}^{\ominus}=\Delta_{c}H_{m}^{\ominus}$ , 如 $1\ mol\ H_{2}$ 完全燃烧反应:
+一个反应同时满足以上三个热力学函数的条件时,则 $\Delta_{r}H_{m}^{\ominus}=\Delta_{f}H_{m}^{\ominus}=\Delta_{c}H_{m}^{\ominus}$ , 如 $1\ \mathrm{mol}\ H_{2}$ 完全燃烧反应:
 
 $$
 \mathrm{H} _ {2} (\mathrm{g}) + \frac {1}{2} \mathrm{O} _ {2} (\mathrm{g}) = \mathrm{H} _ {2} \mathrm{O} (\mathrm{l})
@@ -1501,7 +1501,7 @@ $$
 
 1200 K 时， $-15.3\ \text{kJ}\cdot\text{mol}^{-1}=\Delta_{\text{r}}H_{\text{m}}^{\ominus}-1\ 200\ \text{K}\times\Delta_{\text{r}}S_{\text{m}}^{\ominus}$
 
-联立两式可得 $\Delta_{r}H_{m}^{\ominus}=178.0\ kJ\cdot mol^{-1},\Delta_{r}S_{m}^{\ominus}=161.1\ J\cdot mol^{-1}\cdot K^{-1}$
+联立两式可得 $\Delta_{r}H_{m}^{\ominus}=178.0\ \mathrm{kJ}\cdot \mathrm{mol}^{-1},\Delta_{r}S_{m}^{\ominus}=161.1\ \mathrm{J}\cdot \mathrm{mol}^{-1}\cdot \mathrm{K}^{-1}$
 
 同样，根据 $\Delta_{\mathrm{r}}G_{\mathrm{m}}^{\ominus} = \Delta_{\mathrm{r}}H_{\mathrm{m}}^{\ominus} - T\Delta_{\mathrm{r}}S_{\mathrm{m}}^{\ominus}$ ，当 $\Delta_{\mathrm{r}}G_{\mathrm{m}}^{\ominus} = 0$ 时，反应将以可逆方式进行，此时
 
@@ -1667,7 +1667,7 @@ $$
 
 即 $t = 100\mathrm{s}$ 时，反应速率为 $1.5\times 10^{-5}\mathrm{mol}\cdot \mathrm{dm}^{-3}\cdot \mathrm{s}^{-1}$ 。 $2\mathrm{A} + \mathrm{B} = \mathrm{C}$
 
-$t_{0}$ 时刻 $2\ mol\cdot dm^{-3}$ $4\ mol\cdot dm^{-3}$ t 时刻 $1\ mol\cdot dm^{-3}$ $3.5\ mol\cdot dm^{-3}$
+$t_{0}$ 时刻 $2\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ $4\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ t 时刻 $1\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ $3.5\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$
 
 反应为基元反应,其速率方程可以写作
 
@@ -2249,7 +2249,7 @@ $$
 \begin{array}{r l} \Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\ominus} & = \frac {\Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\ominus} - \Delta_ {\mathrm{r}} G _ {\mathrm{m}} ^ {\ominus}}{T} \\ & = \frac {(104.6 \times 10 ^ {3} - 57.8 \times 10 ^ {3}) \mathrm{J} \cdot \mathrm{mol} ^ {- 1}}{373 \mathrm{K}} \\ & = 125.5 \mathrm{J} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{K} ^ {- 1} \end{array}
 $$
 
-4.23 设容器的体积为 V，应向平衡体系中加入 $x \, mol \, I_{2}$ 。
+4.23 设容器的体积为 V，应向平衡体系中加入 $x \, \mathrm{mol} \, I_{2}$ 。
 
 $$
 \begin{array}{r l r l r}&{2 \mathrm{HI}}&{\rightleftharpoons}&{\mathrm{H} _ {2}}&{+}&{\mathrm{I} _ {2}}\\{\text {起始浓度/(mol·dm} ^ {- 3})}&{\frac {1}{V}}&&{0}&&{0}\\{\text {平衡浓度/(mol·dm} ^ {- 3})}&{\frac {1 - 0.244}{V}}&&{\frac {0.122}{V}}&&{\frac {0.122}{V}}\\{\text {新平衡浓度/(mol·dm} ^ {- 3})}&{\frac {1 - 0.10}{V}}&&{\frac {0.05}{V}}&&{\frac {0.05 + x}{V}}\end{array}
@@ -2357,7 +2357,7 @@ $$
 
 联系 $K_{p}$ 和 $K_{c}$ 的关系式是理想气体的状态方程 $pV = nRT, p = \frac{n}{V} RT$ 和 $p = cRT$ 等。
 
-必须注意的是， $K_{p}$ 表示式中的 p 的单位是 Pa，而 $K_{c}$ 表示式中的 c 的单位经常是 $mol \cdot dm^{-3}$ ，体积不是 $m^{3}$ ，而是 $dm^{3}$ 。于是 c 的数值比以 $mol \cdot dm^{-3}$ 为单位时扩大了 $10^{3}$ 倍。为了保证公式 p = cRT 两边数值相等，应有
+必须注意的是， $K_{p}$ 表示式中的 p 的单位是 Pa，而 $K_{c}$ 表示式中的 c 的单位经常是 $\mathrm{mol} \cdot \mathrm{dm}^{-3}$ ，体积不是 $m^{3}$ ，而是 $\mathrm{dm}^{3}$ 。于是 c 的数值比以 $\mathrm{mol} \cdot \mathrm{dm}^{-3}$ 为单位时扩大了 $10^{3}$ 倍。为了保证公式 p = cRT 两边数值相等，应有
 
 $$
 R = 8.314 \times 10 ^ {3} \mathrm{Pa} \cdot \mathrm{dm} ^ {3} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{K} ^ {- 1}
@@ -2459,7 +2459,7 @@ $$
 
 $\mathrm{PCl}_{5}$ 的分解分数 $\frac{0.50}{0.70} = 71\%$ 。
 
-(2) 再注入 $0.10 \, mol \, Cl_{2}$ 后平衡向生成 $PCl_{5}$ 方向移动，设 $PCl_{5}$ 浓度又增加 $x \, mol \cdot dm^{-3}$ 。
+(2) 再注入 $0.10 \, \mathrm{mol} \, Cl_{2}$ 后平衡向生成 $PCl_{5}$ 方向移动，设 $PCl_{5}$ 浓度又增加 $x \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 。
 
 $$
 \begin{array}{r l r l} & \mathrm {PCl_ {5} (g)} = & \mathrm {PCl_ {3} (g)} + & \mathrm {Cl_ {2} (g)} \\ & / (\mathrm {mol\cdot dm^ {- 3}}) & 0.10 + x & 0.25 - x & 0.25 + \frac {0.10}{2} - x \end{array}
@@ -2473,7 +2473,7 @@ $\mathrm{PCl}_{5}$ 分解分数为 $\frac{0.50 - 0.010\times 2}{0.70} = 69\%$
 
 比较(1)、(2)的计算结果表明,增加生成物浓度,平衡向增大反应物浓度的方向移动,反应物的分解分数降低。
 
-(3) 设平衡时 $PCl_{3}$ 的浓度为 $x \, mol \cdot dm^{-3}$ ，则
+(3) 设平衡时 $PCl_{3}$ 的浓度为 $x \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ ，则
 
 $\mathrm{PCl}_{5}(\mathrm{g})=\mathrm{PCl}_{3}(\mathrm{g})+\mathrm{Cl}_{2}(\mathrm{g})$ 平衡浓度/ $(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ $\frac{0.70}{2}-x$ x $\frac{0.10}{2}+x$
 
@@ -2547,7 +2547,7 @@ $$
 
 乙苯的转化率为 $0.624 \times 100\% = 62.4\%$ .
 
-4.33 设起始态有 $1 \, mol \, N_{2}O_{4}$ ，平衡时解离度为 $\alpha$ 。
+4.33 设起始态有 $1 \, \mathrm{mol} \, N_{2}O_{4}$ ，平衡时解离度为 $\alpha$ 。
 
 $$
 \mathrm{N} _ {2} \mathrm{O} _ {4} (\mathrm{g}) \rightleftharpoons 2 \mathrm{NO} _ {2} (\mathrm{g})
@@ -2861,7 +2861,7 @@ $$
 
 ## 5.39 若以 A 代表 116 号元素, 则有
 
-(1) $\mathrm{{Na}}$ 盐的化学式 ${\mathrm{{Na}}}_{2}\mathrm{\;A}$ ；(2)氢化物 ${\mathrm{H}}_{2}\mathrm{\;A}$ ；
+(1) $\mathrm{Na}$ 盐的化学式 ${\mathrm{Na}}_{2}\mathrm{\;A}$ ；(2)氢化物 ${\mathrm{H}}_{2}\mathrm{\;A}$ ；
 
 (3) 最高价态氧化物 $\mathrm{AO}_{3}$ ; (4) 该元素为金属。
 
@@ -2885,7 +2885,7 @@ $$
 
 (3) $\mathrm{Cu} > \mathrm{Ni}$ 同周期元素, $\mathrm{Cu}$ 次外层为 18 电子, 屏蔽作用大, 有效核电荷数小, 外层电子受引力小;
 
-(4) $\mathrm{{Zr}} \approx  \mathrm{{Hf}}$ 镧系收缩的结果；
+(4) $\mathrm{Zr} \approx  \mathrm{Hf}$ 镧系收缩的结果；
 
 (5) $S^{2-}>S$ 同一元素, 电子数越多, 半径越大;
 
@@ -2893,7 +2893,7 @@ $$
 
 (7) $Pb^{2+}>Sn^{2+}$ 同一族元素的离子,正电荷数相同,但 $Pb^{2+}$ 比 $Sn^{2+}$ 多一电子层;
 
-(8) ${\mathrm{{Fe}}}^{2 + } > {\mathrm{{Fe}}}^{3 + }$ 同一元素离子,电子越少,正电荷越高则半径越小。
+(8) ${\mathrm{Fe}}^{2 + } > {\mathrm{Fe}}^{3 + }$ 同一元素离子,电子越少,正电荷越高则半径越小。
 
 5.43（1）第八周期包括第八能级组，最多可容纳50个电子 $(8\mathrm{s}^25\mathrm{g}^{18}6\mathrm{f}^{14}7\mathrm{d}^{10}8\mathrm{p}^6)$ ，即共有50种元素。
 
@@ -3285,7 +3285,7 @@ $$
 d = \frac {1}{2} a = 269 \mathrm{pm}
 $$
 
-7.28 F—H---F 氢键的键能为 $28.0 \, kJ \cdot mol^{-1}$ ，而 O—H---O 氢键的键能为 $18.8 \, kJ \cdot mol^{-1}$ 。可见 HF 分子间氢键比 $H_{2}O$ 分子间氢键强。
+7.28 F—H---F 氢键的键能为 $28.0 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ ，而 O—H---O 氢键的键能为 $18.8 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ 。可见 HF 分子间氢键比 $H_{2}O$ 分子间氢键强。
 
 $H_{2}O$ 分子有两个孤电子对，两个H原子，因此，水分子最多可与周围分子形成4个氢键；而HF分子只有一个H原子，最多可与周围HF分子形成两个氢键，即 $H_{2}O$ 分子间氢键比HF分子间氢键多。另外， $H_{2}O$ 汽化时，气态的 $H_{2}O$ 均为单分子而没有二聚、三聚分子，说明水汽化时要断开全部氢键；而HF汽化时，气相中仍有二聚体和三聚体，即HF汽化时不必断开全部的氢键。综上所述，由于 $H_{2}O$ 分子间氢键多而汽化时需断开全部氢键，HF分子间氢键数较 $H_{2}O$ 少且汽化时HF不必断开全部氢键，结果是 $H_{2}O$ 汽化热要比HF汽化热大， $H_{2}O$ 沸点比HF沸点高。
 
@@ -3523,7 +3523,7 @@ $$
 \mathrm{pH} = 2.77
 $$
 
-(4) $Na_{2}CO_{3}$ 完全解离, 故溶液中 $CO_{3}^{2-}$ 的起始浓度为 $0.20\ mol\cdot dm^{-3}$ , $CO_{3}^{2-}$ 的两步水解常数为
+(4) $Na_{2}CO_{3}$ 完全解离, 故溶液中 $CO_{3}^{2-}$ 的起始浓度为 $0.20\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ , $CO_{3}^{2-}$ 的两步水解常数为
 
 $$
 K _ {\mathrm{h} _ {1}} ^ {\ominus} = \frac {K _ {\mathrm{w}} ^ {\ominus}}{K _ {\mathrm{a} _ {2}} ^ {\ominus}} = \frac {1.0 \times 10 ^ {- 14}}{4.7 \times 10 ^ {- 11}} = 2.1 \times 10 ^ {- 4}
@@ -3801,7 +3801,7 @@ $$
 \begin{array}{r l}\mathrm{HAc}&\rightleftharpoons \mathrm{H} ^ {+} + \mathrm{Ac} ^ {-}\\\mathrm{HF}&\rightleftharpoons \mathrm{H} ^ {+} + \mathrm{F} ^ {-}\end{array}
 $$
 
-两种酸溶液等体积混合后，HAc 和 HF 的起始浓度均为 $0.50 \, mol \cdot dm^{-3}$ 。
+两种酸溶液等体积混合后，HAc 和 HF 的起始浓度均为 $0.50 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 。
 
 $$
 \begin{array}{l l l l l l l}&\mathrm{HAc} +&\mathrm{HF} \rightleftharpoons&2 \mathrm{H} ^ {+} +&\mathrm{Ac} ^ {-} +&\mathrm{F} ^ {-}\\c _ {0} / (\mathrm{mol} \cdot \mathrm{dm} ^ {- 3})&0.50&0.50&0&0&0\\c _ {\text {平}} / (\mathrm{mol} \cdot \mathrm{dm} ^ {- 3})&0.50 - x&0.50 - y&x + y&x&y\end{array}
@@ -3877,7 +3877,7 @@ $K_{b}^{\ominus}(HPO_{4}^{2-})<K_{b}^{\ominus}(NH_{3}\cdot H_{2}O)$ ，所以 $N
 
 (5) $NH_{3}$ 的共轭酸为 $NH_{4}^{+}$ ，共轭碱为 $NH_{2}^{-}$ ；
 
-(6) ${\mathrm{H}}_{2}\mathrm{\;S}$ 的共轭碱为 ${\mathrm{{HS}}}^{ - }$ ；
+(6) ${\mathrm{H}}_{2}\mathrm{\;S}$ 的共轭碱为 ${\mathrm{HS}}^{ - }$ ；
 
 (7) $\mathrm{H}_{2} \mathrm{PO}_{4}^{-}$ 的共轭酸为 $\mathrm{H}_{3} \mathrm{PO}_{4}$ , 共轭碱为 $\mathrm{HPO}_{4}^{2-}$ 。
 
@@ -3957,7 +3957,7 @@ $$
 \begin{array}{r l} & = (2 s) ^ {2} s \\ & = 4 s ^ {3} \\ s = \sqrt [ 3 ]{\frac {K _ {\mathrm{sp}} ^ {\ominus}}{4}} = \sqrt [ 3 ]{\frac {8.46 \times 10 ^ {- 12}}{4}} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \\ & = 1.28 \times 10 ^ {- 4} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \\ c (\mathrm{Ag} ^ {+}) = 2 s = 2.56 \times 10 ^ {- 4} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \\ c (\mathrm{CO} _ {3} ^ {2 -}) = s = 1.28 \times 10 ^ {- 4} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \end{array}
 $$
 
-(2) 设 $Ag_{2}CO_{3}$ 在 $0.01\ mol\cdot dm^{-3}Na_{2}CO_{3}$ 溶液中的溶解度为 s:
+(2) 设 $Ag_{2}CO_{3}$ 在 $0.01\ \mathrm{mol}\cdot \mathrm{dm}^{-3}Na_{2}CO_{3}$ 溶液中的溶解度为 s:
 
 $$
 c (\mathrm{CO} _ {3} ^ {2 -}) \approx 0.01 \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}
@@ -3979,7 +3979,7 @@ $$
 \begin{array}{r l} s & = \sqrt {\frac {K _ {\mathrm{sp}} ^ {\ominus}}{0.04}} = \sqrt {\frac {8.46 \times 10 ^ {- 12}}{0.04}} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \\ & = 1.45 \times 10 ^ {- 5} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \end{array}
 $$
 
-(3) 设 $Ag_{2}CO_{3}$ 在 $0.01\ mol\cdot dm^{-3}AgNO_{3}$ 溶液中的溶解度为 s:
+(3) 设 $Ag_{2}CO_{3}$ 在 $0.01\ \mathrm{mol}\cdot \mathrm{dm}^{-3}AgNO_{3}$ 溶液中的溶解度为 s:
 
 $$
 c (\mathrm{Ag} ^ {+}) = 0.01 \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}
@@ -4001,7 +4001,7 @@ $$
 \begin{array}{r l} s & = \frac {K _ {\mathrm{sp}} ^ {\ominus}}{0.01 ^ {2}} = \frac {8.46 \times 10 ^ {- 12}}{0.01 ^ {2}} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \\ & = 8.46 \times 10 ^ {- 8} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \end{array}
 $$
 
-9.23 1 g FeS 为 0.0114 mol, 若溶于 $100 \, cm^{3}$ $1 \, mol \cdot dm^{-3}$ 盐酸, 则
+9.23 1 g FeS 为 0.0114 mol, 若溶于 $100 \, \mathrm{cm}^{3}$ $1 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 盐酸, 则
 
 $$
 c _ {\mathrm{平}} / (\mathrm{mol} \bullet \mathrm{dm} ^ {- 3})
@@ -4011,7 +4011,7 @@ $$
 \begin{array}{r l r}\mathrm{FeS}&+ 2 \mathrm{H} ^ {+}&\rightleftharpoons \mathrm{Fe} ^ {2 +} + \mathrm{H} _ {2} \mathrm{S}\\&1 - 2 \times 0.114&0.114 \quad 0.114\end{array}
 $$
 
-但 $H_{2}S$ 饱和浓度为 $0.1\ mol\cdot dm^{-3}$ ，即 $c(\mathrm{H}_{2}\mathrm{S})=0.1\ \mathrm{mol}\cdot\mathrm{dm}^{-3}$ ，过多的 $H_{2}S$ 以气体形式释放出来。
+但 $H_{2}S$ 饱和浓度为 $0.1\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ ，即 $c(\mathrm{H}_{2}\mathrm{S})=0.1\ \mathrm{mol}\cdot\mathrm{dm}^{-3}$ ，过多的 $H_{2}S$ 以气体形式释放出来。
 
 由 $K_{\mathrm{sp}}^{\ominus}=c(\mathrm{Fe}^{2+})c(\mathrm{S}^{2-})$ , FeS 全溶解时 $S^{2-}$ 浓度为
 
@@ -4033,7 +4033,7 @@ $$
 
 故 FeS 能完全溶解。
 
-9.24 $Zn^{2+}$ 沉淀完全是指溶液中 $c(Zn^{2+})<1.0\times10^{-5}\ mol\cdot dm^{-3}$
+9.24 $Zn^{2+}$ 沉淀完全是指溶液中 $c(Zn^{2+})<1.0\times10^{-5}\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$
 
 $$
 \mathrm{ZnS} \rightleftharpoons \mathrm{Zn} ^ {2 +} + \mathrm{S} ^ {2 -}
@@ -4135,7 +4135,7 @@ $$
 c (\mathrm{Cu} ^ {2 +}) = \frac {K _ {\mathrm{sp}} ^ {\ominus}}{c (\mathrm{S} ^ {2 -})} = \frac {6.3 \times 10 ^ {- 36}}{1.2 \times 10 ^ {- 19}} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} = 5.3 \times 10 ^ {- 17} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}
 $$
 
-(2) $Cu^{2+}$ 完全沉淀产生 $0.20\ mol\cdot dm^{-3}\ H^{+}$ ，则混合溶液中
+(2) $Cu^{2+}$ 完全沉淀产生 $0.20\ \mathrm{mol}\cdot \mathrm{dm}^{-3}\ H^{+}$ ，则混合溶液中
 
 $$
 \begin{array}{r l}c (\mathrm{H} ^ {+})&= (1.0 + 0.20) \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} = 1.20 \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}\\&\quad \mathrm{H} ^ {+} + \mathrm{SO} _ {4} ^ {2 -} \rightleftharpoons \mathrm{HSO} _ {4} ^ {-}\\&1.20 - x \quad 0.10 - x \quad x\\&\frac {x}{(1.20 - x) (0.10 - x)} = \frac {1}{1.0 \times 10 ^ {- 2}}\\&x = 0.10\end{array}
@@ -4179,7 +4179,7 @@ $$
 c \left(\mathrm{Mg} ^ {2 +}\right) = c \left(\mathrm{NH} _ {3} \cdot \mathrm{H} _ {2} \mathrm{O}\right) = 0.050 \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}
 $$
 
-由式(1)得,使 $0.050 \, mol \cdot dm^{-3} Mg^{2+}$ 开始沉淀,需要的 $OH^{-}$ 浓度为
+由式(1)得,使 $0.050 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} Mg^{2+}$ 开始沉淀,需要的 $OH^{-}$ 浓度为
 
 $$
 c (\mathrm{OH} ^ {-}) = \sqrt {\frac {K _ {\mathrm{sp}} ^ {\ominus}}{c (\mathrm{Mg} ^ {2 +})}}
@@ -4231,7 +4231,7 @@ $$
 \begin{array}{r l} n & = c V \\ & = 8.49 \times 10 ^ {- 2} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} \times 0.20 \mathrm{dm} ^ {3} \\ & = 0.0170 \mathrm{mol} \end{array}
 $$
 
-${\mathrm{{NH}}}_{4}\mathrm{{Cl}}$ 的质量
+${\mathrm{NH}}_{4}\mathrm{Cl}$ 的质量
 
 $$
 \begin{array}{r l} m & = n M \\ & = 0.0170 \mathrm{mol} \times 53.5 \mathrm{g} \cdot \mathrm{mol} ^ {- 1} \\ & = 0.910 \mathrm{g} \end{array}
@@ -4259,7 +4259,7 @@ $$
 K ^ {\ominus} = \frac {2.8 \times 10 ^ {- 9} \times 4.5 \times 10 ^ {- 7}}{4.7 \times 10 ^ {- 11}} = 2.68 \times 10 ^ {- 5}
 $$
 
-反应过程中 $1 \, mol \, CaCO_{3}$ 溶解，则得到 $1 \, mol \, Ca^{2+}$ 和 $2 \, mol \, HCO_{3}^{-}$ ，故平衡时 $c(\mathrm{Ca}^{2+})$ 等于 $CaCO_{3}$ 的溶解度 s， $c(\mathrm{HCO}_{3}^{-}) = 2s$ 。
+反应过程中 $1 \, \mathrm{mol} \, CaCO_{3}$ 溶解，则得到 $1 \, \mathrm{mol} \, Ca^{2+}$ 和 $2 \, \mathrm{mol} \, HCO_{3}^{-}$ ，故平衡时 $c(\mathrm{Ca}^{2+})$ 等于 $CaCO_{3}$ 的溶解度 s， $c(\mathrm{HCO}_{3}^{-}) = 2s$ 。
 
 所以上式可以表示为
 
@@ -4305,7 +4305,7 @@ $$
 c (\mathrm{Fe} ^ {3 +}) = \frac {0.056}{56} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} = 1.0 \times 10 ^ {- 3} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}
 $$
 
-欲使 $Fe^{3+}$ 沉淀完全(浓度低于 $1.0 \times 10^{-5} \, mol \cdot dm^{-3}$ ), 溶液中 $OH^{-}$ 浓度至少为
+欲使 $Fe^{3+}$ 沉淀完全(浓度低于 $1.0 \times 10^{-5} \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ ), 溶液中 $OH^{-}$ 浓度至少为
 
 $$
 c (\mathrm{OH} ^ {-}) = \sqrt [ 3 ]{\frac {2.8 \times 10 ^ {- 39}}{1.0 \times 10 ^ {- 5}}} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3} = 6.5 \times 10 ^ {- 12} \mathrm{mol} \cdot \mathrm{dm} ^ {- 3}
@@ -4365,7 +4365,7 @@ $$
 
 ## 二、填空题
 
-10.13 浓差;0.177; $H^{+}(1\ mol\cdot dm^{-3})\longrightarrow H^{+}(1\times10^{-3}\ mol\cdot dm^{-3})$ 。
+10.13 浓差;0.177; $H^{+}(1\ \mathrm{mol}\cdot \mathrm{dm}^{-3})\longrightarrow H^{+}(1\times10^{-3}\ \mathrm{mol}\cdot \mathrm{dm}^{-3})$ 。
 
 10.14 $\mathrm{S}_2\mathrm{O}_3^{2-}$ ; $\mathrm{MnO}_4^-$ 。
 
@@ -4449,7 +4449,7 @@ $$
 
 故只有用浓盐酸才能制 $Cl_{2}$ ，而且需要加热，以保证反应速率足够快。
 
-设生成 CuS 沉淀后, 正极溶液中 $Cu^{2+}$ 的浓度为 $x\ mol\cdot dm^{-3}$ 。
+设生成 CuS 沉淀后, 正极溶液中 $Cu^{2+}$ 的浓度为 $x\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ 。
 
 所组成电池为
 
@@ -4875,7 +4875,7 @@ $$
 \begin{array}{r l}\mathrm {Bi + 3H^ {+} + 3e^ {-} \rightleftharpoons BiH_ {3}}&E ^ {\ominus} (A) = - 0.97 \mathrm{V}\\\Delta_ {\mathrm{r}} G _ {\mathrm{m}} ^ {\ominus} (A) = - z E ^ {\ominus} (A) F&\\&= [ - 3 \times (- 0.97) \times 96.5 ] \mathrm {kJ\cdot mol^ {- 1}}\\&= 281 \mathrm {kJ\cdot mol^ {- 1}}\end{array}
 $$
 
-A 点的纵坐标为 $281 \, kJ \cdot mol^{-1}$ 。
+A 点的纵坐标为 $281 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ 。
 
 B 点 横坐标氧化数为 +3 $BiO^{+}$
 
@@ -4883,7 +4883,7 @@ $$
 \begin{array}{r l}\mathrm {BiO^ {+} + 2H^ {+} + 3e^ {-} \rightleftharpoons Bi+ H_ {2} O}&E ^ {\ominus} (B) = 0.32 \mathrm{V}\\\Delta_ {\mathrm{r}} G _ {\mathrm{m}} ^ {\ominus} (B) = - z E ^ {\ominus} (B) F&\\&= (- 3 \times 0.32 \times 96.5) \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1}\\&= - 93 \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1}\end{array}
 $$
 
-B 点的纵坐标为 $93 \, kJ \cdot mol^{-1}$ 。
+B 点的纵坐标为 $93 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ 。
 
 C 点 横坐标氧化数为 +4 $Bi_{2}O_{4}$
 
@@ -4891,7 +4891,7 @@ $$
 \begin{array}{r l}&{\frac {1}{2} \mathrm{Bi} _ {2} \mathrm{O} _ {4} + 4 \mathrm{H} ^ {+} + 4 \mathrm{e} ^ {-} \rightleftharpoons \mathrm{Bi} + 2 \mathrm{H} _ {2} \mathrm{O}}\\&{\qquad E ^ {\ominus} (C) = 0.64 \mathrm{V}}\\&{\qquad \Delta_ {\mathrm{r}} G _ {\mathrm{m}} ^ {\ominus} (C) = - z E ^ {\ominus} (C) F}\\&{\qquad \qquad = (- 4 \times 0.64 \times 96.5) \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1}}\\&{\qquad \qquad = - 247 \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1}}\end{array}
 $$
 
-C 点的纵坐标为 $247 \, kJ \cdot mol^{-1}$ 。
+C 点的纵坐标为 $247 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}$ 。
 
 A, B 和 C 三点, 加上原点 O(0,0), 作 Bi 元素的自由能 - 氧化数图, 如下图所示。
 
@@ -5281,7 +5281,7 @@ $$
 
 (3) $E^{\ominus}[\mathrm{Fe(SCN)}_{5}^{2-}/\mathrm{Fe}^{2+}]<E^{\ominus}(\mathrm{I}_{2}/\mathrm{I}^{-})$ ，不发生氧化还原反应。
 
-11.42 设 AgBr 在 $Na_{2}S_{2}O_{3}$ 溶液中的溶解度为 $x\ mol\cdot dm^{-3}$ 。
+11.42 设 AgBr 在 $Na_{2}S_{2}O_{3}$ 溶液中的溶解度为 $x\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ 。
 
 $$
 \begin{array}{r l} \mathrm {AgBr + 2S_ {2} O_ {3} ^ {2 - }} & = [ \mathrm {Ag(S_ {2} O_ {3}) _ {2}} ] ^ {3 -} + \mathrm {Br^ {-}} \\ 1 - 2 x & x \end{array}
@@ -6116,7 +6116,7 @@ $$
 
 14.46 （1）将 $Sb_{2}O_{5}$ 和 SnO 分别溶于盐酸，滴加淀粉－碘化钾试液，有 $I_{2}$ 生成使体系变蓝的是 $Sb_{2}O_{5}$ 。
 
-(2) 将等质量的 $As_{2}S_{3}$ 和 $SnS_{2}$ 分别置于 $6\ mol\cdot dm^{-3}$ 盐酸中, 溶解的是 $SnS_{2}$ , 基本不溶解的是 $As_{2}S_{3}$ 。
+(2) 将等质量的 $As_{2}S_{3}$ 和 $SnS_{2}$ 分别置于 $6\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ 盐酸中, 溶解的是 $SnS_{2}$ , 基本不溶解的是 $As_{2}S_{3}$ 。
 
 (3) 溶于过量 $\mathrm{NaOH}$ 溶液的是 $\mathrm{Pb(NO_3)_2}$ , 不溶于过量 $\mathrm{NaOH}$ 溶液的是 $\mathrm{Bi(NO_3)_3}$ 。
 
@@ -8584,7 +8584,7 @@ $$
 
 产物中的 $Na_{2}CrO_{4}$ 和 $Fe_{2}O_{3}$ 结成块状物，可以将结块置于水中煮沸，浸取，滤掉 $Fe_{2}O_{3}$ ，得 $Na_{2}CrO_{4}$ 溶液。
 
-(2)重铬酸钠的生成 向 ${\mathrm{{Na}}}_{2}{\mathrm{{CrO}}}_{4}$ 溶液中加酸,发生如下反应：
+(2)重铬酸钠的生成 向 ${\mathrm{Na}}_{2}{\mathrm{CrO}}_{4}$ 溶液中加酸,发生如下反应：
 
 $$
 2 \mathrm{Na} _ {2} \mathrm{CrO} _ {4} + 2 \mathrm{H} ^ {+} = \mathrm{Na} _ {2} \mathrm{Cr} _ {2} \mathrm{O} _ {7} + \mathrm{H} _ {2} \mathrm{O} + 2 \mathrm{Na} ^ {+}
@@ -8674,7 +8674,7 @@ $$
 \begin{array}{r l} & \mathrm {Mn^ {2 + } +2OH^ {-} = Mn(OH) _ {2} \downarrow} \\ & \mathrm {Cr^ {3 + } +4OH^ {-} = [Cr(OH) _ {4} ] ^ {-}} \end{array}
 $$
 
-(3) 向含有 $Mn^{2+}$ 和 $Cu^{2+}$ 的溶液中加入一定量 $1\ mol\cdot dm^{-3}$ 的盐酸，并通入 $H_{2}S$ 气体， $Cu^{2+}$ 生成沉淀 CuS，而 $Mn^{2+}$ 在酸性条件下不生成 MnS 沉淀而留在溶液中：
+(3) 向含有 $Mn^{2+}$ 和 $Cu^{2+}$ 的溶液中加入一定量 $1\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ 的盐酸，并通入 $H_{2}S$ 气体， $Cu^{2+}$ 生成沉淀 CuS，而 $Mn^{2+}$ 在酸性条件下不生成 MnS 沉淀而留在溶液中：
 
 $$
 \mathrm{Cu} ^ {2 +} + \mathrm{H} _ {2} \mathrm{S} = \mathrm{CuS} \downarrow + 2 \mathrm{H} ^ {+}
@@ -8732,7 +8732,7 @@ $$
 
 ## 五、简答题和计算题
 
-21.57 盐酸浓度为 $1 \, mol \cdot dm^{-3}$ 时(标准状态下):
+21.57 盐酸浓度为 $1 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 时(标准状态下):
 
 $$
 E ^ {\ominus} (\mathrm{Cr} _ {2} \mathrm{O} _ {7} ^ {2 -} / \mathrm{Cr} ^ {3 +}) = E ^ {\ominus} (\mathrm{Cl} _ {2} / \mathrm{Cl} ^ {-})
@@ -8792,7 +8792,7 @@ $$
 2 \mathrm{Cr} ^ {3 +} + 3 \mathrm{CO} _ {3} ^ {2 -} + 3 \mathrm{H} _ {2} \mathrm{O} = 2 \mathrm{Cr(OH)} _ {3} \downarrow + 3 \mathrm{CO} _ {2} \uparrow
 $$
 
-$Na_{2}CO_{3}$ 溶液过量时生成 $HCO_{3}^{-}$ , $\mathrm{Cr}_{2}\left(\mathrm{SO}_{4}\right)_{3}$ 溶液过量时生成 $CO_{2}$ 。 $CO_{2}$ 溶解度为 $0.04\ mol\cdot dm^{-3}$ ，浓度较高时从溶液中逸出。
+$Na_{2}CO_{3}$ 溶液过量时生成 $HCO_{3}^{-}$ , $\mathrm{Cr}_{2}\left(\mathrm{SO}_{4}\right)_{3}$ 溶液过量时生成 $CO_{2}$ 。 $CO_{2}$ 溶解度为 $0.04\ \mathrm{mol}\cdot \mathrm{dm}^{-3}$ ，浓度较高时从溶液中逸出。
 
 (3) $\mathrm{Cr}^{3+} + 3\mathrm{NH}_{3}\cdot \mathrm{H}_{2}\mathrm{O} = \mathrm{Cr(OH)}_{3}\downarrow +3\mathrm{NH}_{4}^{+}$
 
@@ -9229,7 +9229,7 @@ $$
 2 \left[ \mathrm{Fe} (\mathrm{CN}) _ {6} \right] ^ {4 -} + \mathrm{I} _ {2} = 2 \left[ \mathrm{Fe} (\mathrm{CN}) _ {6} \right] ^ {3 -} + 2 \mathrm{I} ^ {-}
 $$
 
-(2) 将 $3 \, mol \cdot dm^{-3} \, CoCl_{2}$ 溶液加热, 溶液由粉红色变蓝色:
+(2) 将 $3 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \, CoCl_{2}$ 溶液加热, 溶液由粉红色变蓝色:
 
 $$
 \left[ \mathrm{Co} \left(\mathrm{H} _ {2} \mathrm{O}\right) _ {6} \right] ^ {2 +} + 4 \mathrm{Cl} ^ {-} = \left[ \mathrm{CoCl} _ {4} \right] ^ {2 -} + 6 \mathrm{H} _ {2} \mathrm{O}
@@ -9321,7 +9321,7 @@ $$
 \mathrm{Co(OH)Cl+HCl+5H_2O= [Co(H_2O)_6]^{2 + } + 2Cl^-}
 $$
 
-(5) 酸性条件下, ${\mathrm{{FeCl}}}_{3}$ 可以将 ${\mathrm{H}}_{2}\mathrm{\;S}$ 氧化,生成单质硫：
+(5) 酸性条件下, ${\mathrm{FeCl}}_{3}$ 可以将 ${\mathrm{H}}_{2}\mathrm{\;S}$ 氧化,生成单质硫：
 
 $$
 2 \mathrm{FeCl} _ {3} + \mathrm{H} _ {2} \mathrm{S} = 2 \mathrm{FeCl} _ {2} + \mathrm{S} \downarrow + 2 \mathrm{HCl}
