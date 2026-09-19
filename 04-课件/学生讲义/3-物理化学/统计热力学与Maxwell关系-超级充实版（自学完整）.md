@@ -370,27 +370,27 @@ $$S = Nk\left[\ln\frac{V}{N\Lambda^3} + \frac{5}{2}\right] = nR\left[\ln\frac{V_
 
 ### 基础巩固（5 题）
 
-1. 写出四大基本方程，并直接从 dG 读出 $(\partial G/\partial p)_T$ 和 $(\partial G/\partial T)_p$。
-2. 由 dA = −SdT − pdV 用二阶混合偏导推导 Maxwell 第 3 条：$(\partial S/\partial V)_T = (\partial p/\partial T)_V$。
-3. 写出 Boltzmann 分布与分子配分函数 q 的定义式，说明 β 的物理意义。
-4. 单原子理想气体，$N=1.0\times10^{23}$，$T=300$ K，$V=1.0$ L，$m=6.6\times10^{-26}$ kg。求热波长 Λ 与平动配分函数 q^T。
-5. 理想气体 $C_p$−$C_V$ = nR：用 $\alpha=1/T$、$\kappa_T=1/p$ 代入热容差公式验证。
+**1.** 写出四大基本方程，并直接从 dG 读出 $(\partial G/\partial p)_T$ 和 $(\partial G/\partial T)_p$。
+**2.** 由 dA = −SdT − pdV 用二阶混合偏导推导 Maxwell 第 3 条：$(\partial S/\partial V)_T = (\partial p/\partial T)_V$。
+**3.** 写出 Boltzmann 分布与分子配分函数 q 的定义式，说明 β 的物理意义。
+**4.** 单原子理想气体，$N=1.0\times10^{23}$，$T=300$ K，$V=1.0$ L，$m=6.6\times10^{-26}$ kg。求热波长 Λ 与平动配分函数 q^T。
+**5.** 理想气体 $C_p$−$C_V$ = nR：用 $\alpha=1/T$、$\kappa_T=1/p$ 代入热容差公式验证。
 
 ### 竞赛入门（5 题）
 
-6. 用 Maxwell 第 4 条 $(\partial S/\partial p)_T = -(\partial V/\partial T)_p$，由状态方程 $pV=nRT$ 求 $(\partial S/\partial p)_T$。
-7. 已知 298K 某反应 $\Delta G^\theta = +50.0$ kJ/mol，$\Delta H^\theta = -20.0$ kJ/mol（不随温度变）。用 Gibbs-Helmholtz 求 350K 的 $\Delta G^\theta$。
-8. 双原子分子 CO，$\tilde{B}=1.93$ cm⁻¹，对称数 σ=1，$T=300$ K。求转动配分函数 q^R（$hc\tilde{B}$ 单位换算：$hc\tilde{B}/k \approx 2.78$ K）。
-9. 由配分函数求内能：某分子在 300K 时 $(\partial\ln q/\partial T)_V = 0.01$ K⁻¹，$N=1$ mol。求 $U-U(0)$。
-10. 比较：同温同压下，1 mol 离域理想气体的熵比"把同样 N 个粒子当定域处理"的熵小多少？（用公式说明）
+**6.** 用 Maxwell 第 4 条 $(\partial S/\partial p)_T = -(\partial V/\partial T)_p$，由状态方程 $pV=nRT$ 求 $(\partial S/\partial p)_T$。
+**7.** 已知 298K 某反应 $\Delta G^\theta = +50.0$ kJ/mol，$\Delta H^\theta = -20.0$ kJ/mol（不随温度变）。用 Gibbs-Helmholtz 求 350K 的 $\Delta G^\theta$。
+**8.** 双原子分子 CO，$\tilde{B}=1.93$ cm⁻¹，对称数 σ=1，$T=300$ K。求转动配分函数 q^R（$hc\tilde{B}$ 单位换算：$hc\tilde{B}/k \approx 2.78$ K）。
+**9.** 由配分函数求内能：某分子在 300K 时 $(\partial\ln q/\partial T)_V = 0.01$ K⁻¹，$N=1$ mol。求 $U-U(0)$。
+**10.** 比较：同温同压下，1 mol 离域理想气体的熵比"把同样 N 个粒子当定域处理"的熵小多少？（用公式说明）
 
 ### 真题挑战（5 题）
 
-11. **Sackur-Tetrode**：Ar（$M=39.95$ g/mol，单原子），300K、1 atm，求摩尔绝对熵 $S_m$（已知 $N_A\Lambda^3/V_m$ 计算结果，代入公式）。
-12. **残余熵**：CO 晶体在 0 K 每个分子 2 种取向无序，求 1 mol CO 晶体的残余熵（用 $S_0 = Nk\ln2$）。
-13. **Boltzmann 分布应用**：某分子基态简并度 1、第一激发态 $\varepsilon=2.0\times10^{-20}$ J、简并度 3。300K 时求激发态占据比例。
-14. **Maxwell 综合**：证明理想气体 $C_p-C_V = nR$ 用热容差公式 + 理想气体状态方程。
-15. **拓展**：说明为何配分函数能求平衡常数（$K \propto q_{产物}/q_{反应物}$），并指出其适用条件（理想气体、独立粒子）。
+**11.** **Sackur-Tetrode**：Ar（$M=39.95$ g/mol，单原子），300K、1 atm，求摩尔绝对熵 $S_m$（已知 $N_A\Lambda^3/V_m$ 计算结果，代入公式）。
+**12.** **残余熵**：CO 晶体在 0 K 每个分子 2 种取向无序，求 1 mol CO 晶体的残余熵（用 $S_0 = Nk\ln2$）。
+**13.** **Boltzmann 分布应用**：某分子基态简并度 1、第一激发态 $\varepsilon=2.0\times10^{-20}$ J、简并度 3。300K 时求激发态占据比例。
+**14.** **Maxwell 综合**：证明理想气体 $C_p-C_V = nR$ 用热容差公式 + 理想气体状态方程。
+**15.** **拓展**：说明为何配分函数能求平衡常数（$K \propto q_{产物}/q_{反应物}$），并指出其适用条件（理想气体、独立粒子）。
 - 参考完整式：$K=\dfrac{(q_{产物}/V)^{\nu_{产物}}}{(q_{反应物}/V)^{\nu_{反应物}}}\times\left(\dfrac{RT}{p^\theta}\right)^{\Delta\nu}$（$\Delta\nu$ 为产物计量数之和减反应物计量数之和）
 
 ---
