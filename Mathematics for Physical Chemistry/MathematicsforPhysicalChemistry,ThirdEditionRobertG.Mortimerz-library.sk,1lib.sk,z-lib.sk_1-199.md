@@ -239,7 +239,12 @@ If the base of logarithms equals 10, the logarithms are called common logarithms
 
 For integral values of x, it is easy to generate the following short table of common logarithms:
 
-<table><tr><td>y</td><td> $x = \log_{10}(y)$ </td><td>y</td><td> $x = \log_{10}(y)$ </td></tr><tr><td>1</td><td>0</td><td>0.1</td><td>-1</td></tr><tr><td>10</td><td>1</td><td>0.01</td><td>-2</td></tr><tr><td>100</td><td>2</td><td>0.001</td><td>-3</td></tr><tr><td>1000</td><td>3</td><td>etc.</td><td></td></tr></table>
+| y | $x = \log_{10}(y)$ | y | $x = \log_{10}(y)$ |
+| --- | --- | --- | --- |
+| 1 | 0 | 0.1 | -1 |
+| 10 | 1 | 0.01 | -2 |
+| 100 | 2 | 0.001 | -3 |
+| 1000 | 3 | etc. |  |
 
 In order to understand logarithms that are not integers, we need to understand exponents that are not integers.
 
@@ -427,17 +432,40 @@ The measurement of a length or other variable would be impossible without a stan
 TABLE 1.2 ▶ SI Units  
 SI base units (units with independent definitions)
 
-<table><tr><td>Physical quantity</td><td>Name of unit</td><td>Symbol</td><td>Definition</td></tr><tr><td>Length</td><td>meter</td><td>m</td><td>Length such that the speed of light is exactly  $299,792,458 \text{ m s}^{-1}$ .</td></tr><tr><td>Mass</td><td>kilogram</td><td>kg</td><td>The mass of a platinum-iridium cylinder kept at the International Bureau of Weights and Measures in France.</td></tr><tr><td>Time</td><td>second</td><td>s</td><td>The duration of 9,192,631,770 cycles of the radiation of a certain emission of the cesium atom.</td></tr><tr><td>Electric current</td><td>ampere</td><td>A</td><td>The magnitude of current which, when flowing in each of two long parallel wires 1 m apart in free space, results in a force of  $2 \times 10^{7} \text{ N per meter of length}$ .</td></tr><tr><td>Temperature</td><td>kelvin</td><td>K</td><td>Absolute zero is 0 K; triple point of water is 273.16 K.</td></tr><tr><td>Luminous intensity</td><td>candela</td><td>cd</td><td>The luminous intensity, in the perpendicular intensity direction, of a surface of 1/600,  $000 \text{ m}^{2}$  of a black body at temperature of freezing platinum at a pressure of  $101,325 \text{ N m}^{-2}$ .</td></tr><tr><td>Amount of substance</td><td>mole.</td><td>mol</td><td>Amount of substance that contains as many elementary units as there are carbon atoms in exactly 0.012 kg of the carbon- $12 (^{12}\text{C})$  isotope.</td></tr></table>
+| Physical quantity | Name of unit | Symbol | Definition |
+| --- | --- | --- | --- |
+| Length | meter | m | Length such that the speed of light is exactly $299,792,458 \text{ m s}^{-1}$ . |
+| Mass | kilogram | kg | The mass of a platinum-iridium cylinder kept at the International Bureau of Weights and Measures in France. |
+| Time | second | s | The duration of 9,192,631,770 cycles of the radiation of a certain emission of the cesium atom. |
+| Electric current | ampere | A | The magnitude of current which, when flowing in each of two long parallel wires 1 m apart in free space, results in a force of $2 \times 10^{7} \text{ N per meter of length}$ . |
+| Temperature | kelvin | K | Absolute zero is 0 K; triple point of water is 273.16 K. |
+| Luminous intensity | candela | cd | The luminous intensity, in the perpendicular intensity direction, of a surface of 1/600, $000 \text{ m}^{2}$ of a black body at temperature of freezing platinum at a pressure of $101,325 \text{ N m}^{-2}$ . |
+| Amount of substance | mole. | mol | Amount of substance that contains as many elementary units as there are carbon atoms in exactly 0.012 kg of the carbon- $12 (^{12}\text{C})$ isotope. |
 
 Other SI units (derived units)
 
-<table><tr><td>Physical quantity</td><td>Name of unit</td><td>Physical dimensions</td><td>Symbol</td><td>Definition</td></tr><tr><td>Force</td><td>newton</td><td> $\text{kg m s}^{-2}$ </td><td>N</td><td> $1\text{ N} = 1\text{ kg m s}^{-2}$ </td></tr><tr><td>Energy</td><td>joule</td><td> $\text{kg m}^{2}\text{ s}^{-2}$ </td><td>J</td><td> $1\text{ J} = 1\text{ kg m}^{2}\text{ s}^{-2}$ </td></tr><tr><td>Electrical charge</td><td>coulomb</td><td>A s</td><td>C</td><td> $1\text{ C} = 1\text{ A s}$ </td></tr><tr><td>Pressure</td><td>pascal</td><td> $\text{N m}^{-2}$ </td><td>Pa</td><td> $1\text{ Pa} = 1\text{ N m}^{-2}$ </td></tr><tr><td>Magnetic field</td><td>tesla</td><td> $\text{kg s}^{-2}\text{ A}^{-1}$ </td><td>T</td><td> $1\text{ T} = 1\text{ kg s}^{-2}\text{ A}^{-1}$  $= 1\text{ Wb m}^{-2}$ </td></tr><tr><td>Luminous flux</td><td>lumen</td><td>cd sr</td><td>lm</td><td> $1\text{ lm} = 1\text{ cd sr}$ (sr = steradian)</td></tr></table>
+| Physical quantity | Name of unit | Physical dimensions | Symbol | Definition |
+| --- | --- | --- | --- | --- |
+| Force | newton | $\text{kg m s}^{-2}$ | N | $1\text{ N} = 1\text{ kg m s}^{-2}$ |
+| Energy | joule | $\text{kg m}^{2}\text{ s}^{-2}$ | J | $1\text{ J} = 1\text{ kg m}^{2}\text{ s}^{-2}$ |
+| Electrical charge | coulomb | A s | C | $1\text{ C} = 1\text{ A s}$ |
+| Pressure | pascal | $\text{N m}^{-2}$ | Pa | $1\text{ Pa} = 1\text{ N m}^{-2}$ |
+| Magnetic field | tesla | $\text{kg s}^{-2}\text{ A}^{-1}$ | T | $1\text{ T} = 1\text{ kg s}^{-2}\text{ A}^{-1}$ $= 1\text{ Wb m}^{-2}$ |
+| Luminous flux | lumen | cd sr | lm | $1\text{ lm} = 1\text{ cd sr}$ (sr = steradian) |
 
 Multiples and submultiples of SI units are commonly used. $^{6}$ Examples are the millimeter and kilometer. These multiples and submultiples are denoted by standard prefixes attached to the name of the unit, as listed in Table 1.3. The abbreviation for a multiple or submultiple is obtained by attaching the prefix abbreviation to the unit abbreviation, as in Gm (gigameter) or ns (nanosecond). Note that since the base unit of length is the kilogram, the table would imply the use of things such as the mega kilogram. Double prefixes are not used. We use gigagram instead of megakilogram. The use of the prefixes for $10^{-1}$ and $10^{-2}$ is discouraged, but centimeters will probably not be abandoned for many years to come. The Celsius temperature scale also remains in common use among chemists.
 
 TABLE 1.3 ▶ Prefixes for Multiple and Submultiple Units
 
-<table><tr><td>Multiple</td><td>Prefix</td><td>Abbreviation</td><td>Multiple</td><td>Prefix</td><td>Abbreviation</td></tr><tr><td> $10^{12}$ </td><td>tera-</td><td>T</td><td> $10^{-3}$ </td><td>milli-</td><td>m</td></tr><tr><td> $10^9$ </td><td>giga-</td><td>G</td><td> $10^{-6}$ </td><td>micro-</td><td> $\mu$ </td></tr><tr><td> $10^6$ </td><td>mega-</td><td>M</td><td> $10^{-9}$ </td><td>nano-</td><td>n</td></tr><tr><td> $10^3$ </td><td>kilo-</td><td>k</td><td> $10^{-12}$ </td><td>pico-</td><td>p</td></tr><tr><td>1</td><td>—</td><td>—</td><td> $10^{-15}$ </td><td>femto-</td><td>f</td></tr><tr><td> $10^{-1}$ </td><td>deci-</td><td>d</td><td> $10^{-18}$ </td><td>atto-</td><td>a</td></tr><tr><td> $10^{-2}$ </td><td>centi-</td><td>c</td><td></td><td></td><td></td></tr></table>
+| Multiple | Prefix | Abbreviation | Multiple | Prefix | Abbreviation |
+| --- | --- | --- | --- | --- | --- |
+| $10^{12}$ | tera- | T | $10^{-3}$ | milli- | m |
+| $10^9$ | giga- | G | $10^{-6}$ | micro- | $\mu$ |
+| $10^6$ | mega- | M | $10^{-9}$ | nano- | n |
+| $10^3$ | kilo- | k | $10^{-12}$ | pico- | p |
+| 1 | — | — | $10^{-15}$ | femto- | f |
+| $10^{-1}$ | deci- | d | $10^{-18}$ | atto- | a |
+| $10^{-2}$ | centi- | c |  |  |  |
 
 Some non-SI units continue to be used, such as the atmosphere (atm), which is a pressure defined to equal 101, 325 N m $^{-2}$ (101, 325 Pa), the liter (l), which is exactly 0.001 m $^{3}$ , and the torr, which is a pressure such that exactly 760 torr equals exactly 1 atm. The Celsius temperature scale is defined such that the degree Celsius (°C) is the same size as the kelvin, and 0 °C is equivalent to 273.15 K.
 
@@ -2285,7 +2313,12 @@ $$
 
 TABLE 3.1 ▶ Results for the Hydrogen-Ion Concentration in Acetic Acid Solutions at 25°C from Different Equations at Different Concentrations
 
-<table><tr><td> $c$  (mol  $liter^{-1}$ )</td><td>by Eq. (3.10)</td><td> $[H^{+}]$  (mol  $liter^{-1}$ ) by Eq. (3.11)</td><td>by Eq. (3.13)</td></tr><tr><td>0.1000</td><td> $1.31565 \times 10^{-3}$ </td><td> $1.31565 \times 10^{-3}$ </td><td> $1.324 \times 10^{-3}$ </td></tr><tr><td> $1.000 \times 10^{-3}$ </td><td> $1.23959 \times 10^{-4}$ </td><td> $1.23959 \times 10^{-4}$ </td><td> $1.324 \times 10^{-4}$ </td></tr><tr><td> $1.000 \times 10^{-5}$ </td><td> $0.711545 \times 10^{-5}$ </td><td> $0.711436 \times 10^{-5}$ </td><td> $1.324 \times 10^{-5}$ </td></tr><tr><td> $1.000 \times 10^{-7}$ </td><td> $0.161145 \times 10^{-6}$ </td><td> $0.099435 \times 10^{-6}$ </td><td> $1.324 \times 10^{-6}$ </td></tr></table>
+| $c$ (mol $liter^{-1}$ ) | by Eq. (3.10) | $[H^{+}]$ (mol $liter^{-1}$ ) by Eq. (3.11) | by Eq. (3.13) |
+| --- | --- | --- | --- |
+| 0.1000 | $1.31565 \times 10^{-3}$ | $1.31565 \times 10^{-3}$ | $1.324 \times 10^{-3}$ |
+| $1.000 \times 10^{-3}$ | $1.23959 \times 10^{-4}$ | $1.23959 \times 10^{-4}$ | $1.324 \times 10^{-4}$ |
+| $1.000 \times 10^{-5}$ | $0.711545 \times 10^{-5}$ | $0.711436 \times 10^{-5}$ | $1.324 \times 10^{-5}$ |
+| $1.000 \times 10^{-7}$ | $0.161145 \times 10^{-6}$ | $0.099435 \times 10^{-6}$ | $1.324 \times 10^{-6}$ |
 
 which has the solution
 
@@ -5540,7 +5573,13 @@ $$
 
 where $C_{p}$ is the constant-pressure heat capacity and T is the temperature on the Kelvin scale. Calculate $\Delta S$ for the heating of 1.00 mol of solid zinc from 20.0 K to 100.0 K, using the following data:
 
-<table><tr><td>T/K</td><td> $C_{\text{p}}/\text{J K}^{-1}\text{mol}^{-1}$ </td><td>T/K</td><td> $C_{\text{p}}/\text{J K}^{-1}\text{mol}^{-1}$ </td></tr><tr><td>20</td><td>1.70</td><td>70</td><td>15.43</td></tr><tr><td>30</td><td>4.966</td><td>80</td><td>16.87</td></tr><tr><td>40</td><td>8.171</td><td>90</td><td>18.11</td></tr><tr><td>50</td><td>11.18</td><td>100</td><td>19.15</td></tr><tr><td>60</td><td>13.60</td><td></td><td></td></tr></table>
+| T/K | $C_{\text{p}}/\text{J K}^{-1}\text{mol}^{-1}$ | T/K | $C_{\text{p}}/\text{J K}^{-1}\text{mol}^{-1}$ |
+| --- | --- | --- | --- |
+| 20 | 1.70 | 70 | 15.43 |
+| 30 | 4.966 | 80 | 16.87 |
+| 40 | 8.171 | 90 | 18.11 |
+| 50 | 11.18 | 100 | 19.15 |
+| 60 | 13.60 |  |  |
 
 ## Numerical Integration with Mathematica
 
@@ -6010,7 +6049,15 @@ $$
 
 where a is a constant that you can evaluate from the value of $C_{P}$ at 30 K. For the region 30 K to 270 K, use the following data: $^{4}$
 
-<table><tr><td>T/K</td><td> $C_P/JK^{-1}\mathrm{mol}^{-1}$ </td><td>T/K</td><td> $C_P/JK^{-1}\mathrm{mol}^{-1}$ </td></tr><tr><td>30</td><td>4.77</td><td>170</td><td>23.61</td></tr><tr><td>50</td><td>11.65</td><td>190</td><td>24.09</td></tr><tr><td>70</td><td>16.33</td><td>210</td><td>24.42</td></tr><tr><td>90</td><td>19.13</td><td>230</td><td>24.73</td></tr><tr><td>110</td><td>20.96</td><td>250</td><td>25.03</td></tr><tr><td>130</td><td>22.13</td><td>270</td><td>25.31</td></tr><tr><td>150</td><td>22.97</td><td></td><td></td></tr></table>
+| T/K | $C_P/JK^{-1}\mathrm{mol}^{-1}$ | T/K | $C_P/JK^{-1}\mathrm{mol}^{-1}$ |
+| --- | --- | --- | --- |
+| 30 | 4.77 | 170 | 23.61 |
+| 50 | 11.65 | 190 | 24.09 |
+| 70 | 16.33 | 210 | 24.42 |
+| 90 | 19.13 | 230 | 24.73 |
+| 110 | 20.96 | 250 | 25.03 |
+| 130 | 22.13 | 270 | 25.31 |
+| 150 | 22.97 |  |  |
 
 $^{4}$ P.F. Meads, W.R. Forsythe, and W.F. Giaque, J. Am. Chem. Soc. 63, 1902 (1941).
 

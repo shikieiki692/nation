@@ -2310,7 +2310,14 @@ Verify Eq. (8.57) and (8.58).
 
 TABLE 8.1 ▶ Particular Trial Solutions for the Variation of Parameters Method\*
 
-<table><tr><td>Inhomogeneous Term</td><td>Trial Solution</td><td>Forbidden Characteristic Root $^{\dagger}$ </td></tr><tr><td>1</td><td>A</td><td>0</td></tr><tr><td> $t^n$ </td><td> $A_0 + A_1t + A_2t^2 + \cdots + A_nt^n$ </td><td>0</td></tr><tr><td> $e^{\alpha t}$ </td><td> $Ae^{\alpha t}$ </td><td>α</td></tr><tr><td> $t^n e^{\alpha t}$ </td><td> $e^{\alpha t}(A_0 + A_1t + A_2t^2 + \cdots + A_nt^n)$ </td><td>α</td></tr><tr><td> $e^{\alpha t}\sin(\beta t)$ </td><td> $e^{\alpha t}[A\cos(\beta t) + B\sin(\beta t)]$ </td><td>α, β</td></tr><tr><td> $e^{\alpha t}\cos(\beta t)$ </td><td> $e^{\alpha t}[A\cos(\beta t) + B\sin(\beta t)]$ </td><td>α, β</td></tr></table>
+| Inhomogeneous Term | Trial Solution | Forbidden Characteristic Root $^{\dagger}$ |
+| --- | --- | --- |
+| 1 | A | 0 |
+| $t^n$ | $A_0 + A_1t + A_2t^2 + \cdots + A_nt^n$ | 0 |
+| $e^{\alpha t}$ | $Ae^{\alpha t}$ | α |
+| $t^n e^{\alpha t}$ | $e^{\alpha t}(A_0 + A_1t + A_2t^2 + \cdots + A_nt^n)$ | α |
+| $e^{\alpha t}\sin(\beta t)$ | $e^{\alpha t}[A\cos(\beta t) + B\sin(\beta t)]$ | α, β |
+| $e^{\alpha t}\cos(\beta t)$ | $e^{\alpha t}[A\cos(\beta t) + B\sin(\beta t)]$ | α, β |
 
 \* Source: M. Morris and O. E. Brown, Differential Equations, 3rd ed., Prentice-Hall, Englewood Cliffs, N.J., 1952.
 
@@ -4113,7 +4120,14 @@ Figure 9.4 ▶ (a) The $NH_{3}$ molecule in its coordinate axes, with symmetry e
 
 TABLE 9.1 ▶ Multiplication Table for the Symmetry Operators of the NH₃ Molecule
 
-<table><tr><td></td><td> $\hat{E}$ </td><td> $\hat{C}_{3}$ </td><td> $\hat{C}_{3}^{2}$ </td><td> $\hat{\sigma}_{a}$ </td><td> $\hat{\sigma}_{b}$ </td><td> $\hat{\sigma}_{c}$ </td></tr><tr><td> $\hat{E}$ </td><td> $\hat{E}$ </td><td> $\hat{C}_{3}$ </td><td> $\hat{C}_{3}^{2}$ </td><td> $\hat{\sigma}_{a}$ </td><td> $\hat{\sigma}_{b}$ </td><td> $\hat{\sigma}_{c}$ </td></tr><tr><td> $\hat{C}_{3}$ </td><td> $\hat{C}_{3}$ </td><td> $\hat{C}_{3}^{2}$ </td><td> $\hat{E}$ </td><td> $\hat{\sigma}_{c}$ </td><td> $\hat{\sigma}_{a}$ </td><td> $\hat{\sigma}_{b}$ </td></tr><tr><td> $\hat{C}_{3}^{2}$ </td><td> $\hat{C}_{3}^{2}$ </td><td> $\hat{E}$ </td><td> $\hat{C}_{3}$ </td><td> $\hat{\sigma}_{b}$ </td><td> $\hat{\sigma}_{c}$ </td><td> $\hat{\sigma}_{a}$ </td></tr><tr><td> $\hat{\sigma}_{a}$ </td><td> $\hat{\sigma}_{a}$ </td><td> $\hat{\sigma}_{b}$ </td><td> $\hat{\sigma}_{c}$ </td><td> $\hat{E}$ </td><td> $\hat{C}_{3}$ </td><td> $\hat{C}_{3}^{2}$ </td></tr><tr><td> $\hat{\sigma}_{b}$ </td><td> $\hat{\sigma}_{b}$ </td><td> $\hat{\sigma}_{c}$ </td><td> $\hat{\sigma}_{a}$ </td><td> $\hat{C}_{3}^{2}$ </td><td> $\hat{E}$ </td><td> $\hat{C}_{3}$ </td></tr><tr><td> $\hat{\sigma}_{c}$ </td><td> $\hat{\sigma}_{c}$ </td><td> $\hat{\sigma}_{a}$ </td><td> $\hat{\sigma}_{b}$ </td><td> $\hat{C}_{3}$ </td><td> $\hat{C}_{3}^{2}$ </td><td> $\hat{E}$ </td></tr></table>
+|  | $\hat{E}$ | $\hat{C}_{3}$ | $\hat{C}_{3}^{2}$ | $\hat{\sigma}_{a}$ | $\hat{\sigma}_{b}$ | $\hat{\sigma}_{c}$ |
+| --- | --- | --- | --- | --- | --- | --- |
+| $\hat{E}$ | $\hat{E}$ | $\hat{C}_{3}$ | $\hat{C}_{3}^{2}$ | $\hat{\sigma}_{a}$ | $\hat{\sigma}_{b}$ | $\hat{\sigma}_{c}$ |
+| $\hat{C}_{3}$ | $\hat{C}_{3}$ | $\hat{C}_{3}^{2}$ | $\hat{E}$ | $\hat{\sigma}_{c}$ | $\hat{\sigma}_{a}$ | $\hat{\sigma}_{b}$ |
+| $\hat{C}_{3}^{2}$ | $\hat{C}_{3}^{2}$ | $\hat{E}$ | $\hat{C}_{3}$ | $\hat{\sigma}_{b}$ | $\hat{\sigma}_{c}$ | $\hat{\sigma}_{a}$ |
+| $\hat{\sigma}_{a}$ | $\hat{\sigma}_{a}$ | $\hat{\sigma}_{b}$ | $\hat{\sigma}_{c}$ | $\hat{E}$ | $\hat{C}_{3}$ | $\hat{C}_{3}^{2}$ |
+| $\hat{\sigma}_{b}$ | $\hat{\sigma}_{b}$ | $\hat{\sigma}_{c}$ | $\hat{\sigma}_{a}$ | $\hat{C}_{3}^{2}$ | $\hat{E}$ | $\hat{C}_{3}$ |
+| $\hat{\sigma}_{c}$ | $\hat{\sigma}_{c}$ | $\hat{\sigma}_{a}$ | $\hat{\sigma}_{b}$ | $\hat{C}_{3}$ | $\hat{C}_{3}^{2}$ | $\hat{E}$ |
 
 EXAMPLE 9.13 Find the product $\hat{\sigma}_c\hat{C}_3$ .
 

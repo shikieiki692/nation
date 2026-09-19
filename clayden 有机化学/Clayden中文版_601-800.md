@@ -5202,7 +5202,14 @@ DBU 的碱性也能用类似的效应解释，见 p. 175.
 
 IR 中没有 OH, NH, 或 C=O 峰, 质子 NMR 如下所示。
 
-<table><tr><td> $\delta_{H}$ , ppm</td><td>积分</td><td>形状</td><td>J, Hz</td><td>注释</td></tr><tr><td>0.91</td><td>6H</td><td>d</td><td>6.7</td><td> $Me_{2}CH^{-}$ </td></tr><tr><td>1.1–2.4</td><td>1H</td><td>m</td><td>?</td><td></td></tr><tr><td>2.61</td><td>2H</td><td>d</td><td>7.0</td><td> $CH_{2}CH^{-}$ </td></tr><tr><td>3.91</td><td>3H</td><td>s</td><td>—</td><td>-OMe?</td></tr><tr><td>7.80</td><td>1H</td><td>d</td><td>2.4</td><td>芳香</td></tr><tr><td>7.93</td><td>1H</td><td>d</td><td>2.4</td><td>芳香</td></tr></table>
+| $\delta_{H}$ , ppm | 积分 | 形状 | J, Hz | 注释 |
+| --- | --- | --- | --- | --- |
+| 0.91 | 6H | d | 6.7 | $Me_{2}CH^{-}$ |
+| 1.1–2.4 | 1H | m | ? |  |
+| 2.61 | 2H | d | 7.0 | $CH_{2}CH^{-}$ |
+| 3.91 | 3H | s | — | -OMe? |
+| 7.80 | 1H | d | 2.4 | 芳香 |
+| 7.93 | 1H | d | 2.4 | 芳香 |
 
 $Me_{2}CH$ 和 $CH_{2}CH$ 信号中的 “CH” 特征必定是同一个 CH，它也必定是 1.1–2.4 ppm 处的信号，是唯一一个显示出足够的偶合的，因而应描述为一个 “多重峰”。它会是三重峰的七重峰，即 21 条。我们可以很容易地重建出分子的脂肪族部分，它包含连接在相同的 CH 基上的两个甲基和一个 $CH_{2}$ 基。
 

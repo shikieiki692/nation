@@ -840,7 +840,10 @@ C=C C—C C—H H—H $E/(\mathrm{kJ} \cdot \mathrm{mol}^{-1})$ 610 346 413 435
 
 2.16 有 A, B, C, D 四个反应, 在 298 K 时反应的热力学函数分别为
 
-<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td></tr><tr><td> $\Delta_{r}H_{m}^{\ominus}/(\mathrm{kJ}\cdot\mathrm{mol}^{-1})$ </td><td>10.5</td><td>1.80</td><td>-126</td><td>-11.7</td></tr><tr><td> $\Delta_{r}S_{m}^{\ominus}/(\mathrm{J}\cdot\mathrm{mol}^{-1}·\mathrm{K}^{-1})$ </td><td>30.0</td><td>-113</td><td>84.0</td><td>-105</td></tr></table>
+|  | A | B | C | D |
+| --- | --- | --- | --- | --- |
+| $\Delta_{r}H_{m}^{\ominus}/(\mathrm{kJ}\cdot\mathrm{mol}^{-1})$ | 10.5 | 1.80 | -126 | -11.7 |
+| $\Delta_{r}S_{m}^{\ominus}/(\mathrm{J}\cdot\mathrm{mol}^{-1}·\mathrm{K}^{-1})$ | 30.0 | -113 | 84.0 | -105 |
 
 则在标准态下,任何温度都能自发进行的反应是\_\_\_\_,任何温度都不能自发进行的反应是\_\_\_\_;另两个反应中,在温度高于\_\_\_\_℃时可自发进行的反应是\_\_\_\_,在温度低于\_\_\_\_℃时可自发进行的反应是\_\_\_\_。
 
@@ -957,7 +960,9 @@ $$
 
 由实验测得在 $67^{\circ} \mathrm{C}$ 时 $\mathrm{N}_{2} \mathrm{O}_{5}$ 的浓度随时间的变化如下:
 
-<table><tr><td>t/min</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td> $c(N_2O_5)/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ </td><td>1.00</td><td>0.71</td><td>0.50</td><td>0.35</td><td>0.25</td><td>0.17</td></tr></table>
+| t/min | 0 | 1 | 2 | 3 | 4 | 5 |
+| --- | --- | --- | --- | --- | --- | --- |
+| $c(N_2O_5)/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ | 1.00 | 0.71 | 0.50 | 0.35 | 0.25 | 0.17 |
 
 求：(1) 0\~2 min 内的平均反应速率；
 
@@ -1283,7 +1288,11 @@ $$
 
 650 K 时的数据如下：
 
-<table><tr><td>实验编号</td><td> $c(CO)/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ </td><td> $c(NO_2)/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ </td><td> $v(NO)/(\mathrm{mol}\cdot\mathrm{dm}^{-3}·\mathrm{s}^{-1})$ </td></tr><tr><td>1</td><td>0.025</td><td>0.040</td><td> $2.2×10^{-4}$ </td></tr><tr><td>2</td><td>0.050</td><td>0.040</td><td> $4.4×10^{-4}$ </td></tr><tr><td>3</td><td>0.025</td><td>0.120</td><td> $6.6×10^{-4}$ </td></tr></table>
+| 实验编号 | $c(CO)/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ | $c(NO_2)/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ | $v(NO)/(\mathrm{mol}\cdot\mathrm{dm}^{-3}·\mathrm{s}^{-1})$ |
+| --- | --- | --- | --- |
+| 1 | 0.025 | 0.040 | $2.2×10^{-4}$ |
+| 2 | 0.050 | 0.040 | $4.4×10^{-4}$ |
+| 3 | 0.025 | 0.120 | $6.6×10^{-4}$ |
 
 (1) 通过推理写出反应的速率方程；
 
@@ -2030,7 +2039,11 @@ $$
 
 将反应速率常数、反应速率、标准平衡常数 $K^{\ominus}$ 及平衡移动方向等随条件的变化填入下表：
 
-<table><tr><td></td><td> $k_{正}$ </td><td> $k_{逆}$ </td><td> $r_{正}$ </td><td> $r_{逆}$ </td><td> $K^{\ominus}$ </td><td>平衡移动方向</td></tr><tr><td>增加总压</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>升高温度</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>加催化剂</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
+|  | $k_{正}$ | $k_{逆}$ | $r_{正}$ | $r_{逆}$ | $K^{\ominus}$ | 平衡移动方向 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 增加总压 |  |  |  |  |  |  |
+| 升高温度 |  |  |  |  |  |  |
+| 加催化剂 |  |  |  |  |  |  |
 
 4.16 已知反应 $\mathrm{NiSO_{4}\cdot6H_{2}O(s)\rightleftharpoons NiSO_{4}(s)+6H_{2}O(g)}$ 的 $\Delta_{r}G_{m}^{\ominus}=77.7\ \mathrm{kJ}\cdot \mathrm{mol}^{-1}$ ，则平衡时 $NiSO_{4}\cdot6H_{2}O$ 固体表面上水的蒸气压 $p(\mathrm{H}_{2}\mathrm{O})$ 为 \_\_\_\_ Pa。
 
@@ -2508,7 +2521,13 @@ C 原子与 O 原子之间 $sp-2p_{x}$ 轨道重叠，成 $\sigma$ 键，决定�
 例 6.2 试用价层电子对互斥理论判断下列分子或离子的空间构型：
 (1) $BeCl_{2}$ ; (2) $NO_{3}^{-}$ ; (3) $NH_{4}^{+}$ ; (4) $PCl_{5}$ ; (5) $SF_{6}$ 。
 
-<table><tr><td></td><td>分子或离子</td><td>价层电子对数</td><td>电子对空间构型</td><td>孤电子对数目</td><td>配体数目</td><td>分子或离子的空间构型</td></tr><tr><td>(1)</td><td> $BeCl_{2}$ </td><td>2</td><td>直线形</td><td>0</td><td>2</td><td>直线形</td></tr><tr><td>(2)</td><td> $NO_{3}^{-}$ </td><td>3</td><td>正三角形</td><td>0</td><td>3</td><td>正三角形</td></tr><tr><td>(3)</td><td> $NH_{4}^{+}$ </td><td>4</td><td>正四面体形</td><td>0</td><td>4</td><td>正四面体形</td></tr><tr><td>(4)</td><td> $PCl_{5}$ </td><td>5</td><td>三角双锥形</td><td>0</td><td>5</td><td>三角双锥形</td></tr><tr><td>(5)</td><td> $SF_{6}$ </td><td>6</td><td>正八面体形</td><td>0</td><td>6</td><td>正八面体形</td></tr></table>
+|  | 分子或离子 | 价层电子对数 | 电子对空间构型 | 孤电子对数目 | 配体数目 | 分子或离子的空间构型 |
+| --- | --- | --- | --- | --- | --- | --- |
+| (1) | $BeCl_{2}$ | 2 | 直线形 | 0 | 2 | 直线形 |
+| (2) | $NO_{3}^{-}$ | 3 | 正三角形 | 0 | 3 | 正三角形 |
+| (3) | $NH_{4}^{+}$ | 4 | 正四面体形 | 0 | 4 | 正四面体形 |
+| (4) | $PCl_{5}$ | 5 | 三角双锥形 | 0 | 5 | 三角双锥形 |
+| (5) | $SF_{6}$ | 6 | 正八面体形 | 0 | 6 | 正八面体形 |
 
 例 6.3 试用价层电子对互斥理论判断下列分子或离子的空间构型,再用杂化轨道理论说明它们的成键情况:
 
@@ -2516,7 +2535,12 @@ C 原子与 O 原子之间 $sp-2p_{x}$ 轨道重叠，成 $\sigma$ 键，决定�
 
 解：根据价层电子对互斥理论对题设4种分子或离子的空间构型判断结果见下表：
 
-<table><tr><td></td><td>分子或离子</td><td>价层 电子总数</td><td>价层 电子对数</td><td>电子对 空间构型</td><td>分子或离子 的空间构型</td></tr><tr><td>(1)</td><td> ${\mathrm{SF}}_{4}$ </td><td>10</td><td>5</td><td>三角双锥形</td><td>变形四面体形</td></tr><tr><td>(2)</td><td> ${\mathrm{BrF}}_{3}$ </td><td>10</td><td>5</td><td>三角双锥形</td><td>T形</td></tr><tr><td>(3)</td><td> ${\mathrm{I}}_{3}^{ - }$ </td><td>10</td><td>5</td><td>三角双锥形</td><td>直线形</td></tr><tr><td>(4)</td><td> ${\mathrm{ICl}}_{4}^{ - }$ </td><td>12</td><td>6</td><td>正八面体形</td><td>正方形</td></tr></table>
+|  | 分子或离子 | 价层 电子总数 | 价层 电子对数 | 电子对 空间构型 | 分子或离子 的空间构型 |
+| --- | --- | --- | --- | --- | --- |
+| (1) | ${\mathrm{SF}}_{4}$ | 10 | 5 | 三角双锥形 | 变形四面体形 |
+| (2) | ${\mathrm{BrF}}_{3}$ | 10 | 5 | 三角双锥形 | T形 |
+| (3) | ${\mathrm{I}}_{3}^{ - }$ | 10 | 5 | 三角双锥形 | 直线形 |
+| (4) | ${\mathrm{ICl}}_{4}^{ - }$ | 12 | 6 | 正八面体形 | 正方形 |
 
 (1) $SF_{4}$ 分子中, 中心原子 S 的价层电子排布为 $3s^{2}3p^{4}$ , 经激发和杂化, 形成 5 条 $sp^{3}d$ 杂化轨道。这 5 条 $sp^{3}d$ 杂化轨道指向三角双锥的 5 个顶点, 其中有孤电子对的杂化轨道指向三角双锥底面三角形的一个顶点, 其余 4 个有单电子的杂化轨道分别与 F 的 2p 轨道成 $\sigma$ 键。两个 F 在底面三角形的两个顶点上, 另两个 F 位于三角双锥的顶角上, 构成变形四面体形。
 
@@ -2542,7 +2566,12 @@ $\mathrm{I}_3^-$ 中 $\mathrm{I}^{-}$ 的杂化
 
 解：
 
-<table><tr><td></td><td>分子或离子</td><td>价层电子对数</td><td>电子对空间构型</td><td>孤电子对数目</td><td>配体数目</td><td>分子或离子的空间构型</td><td>中心原子杂化方式</td></tr><tr><td>(1)</td><td> $SO_{2}$ </td><td>3</td><td>正三角形</td><td>1</td><td>2</td><td>V形</td><td> $sp^{2}$ 不等性杂化</td></tr><tr><td>(2)</td><td> $SO_{3}^{2-}$ </td><td>4</td><td>正四面体形</td><td>1</td><td>3</td><td>三角锥形</td><td> $sp^{3}$ 不等性杂化</td></tr><tr><td>(3)</td><td> $H_{2}O$ </td><td>4</td><td>正四面体形</td><td>2</td><td>2</td><td>V形</td><td> $sp^{3}$ 不等性杂化</td></tr><tr><td>(4)</td><td> $BrF_{5}$ </td><td>6</td><td>正八面体形</td><td>1</td><td>5</td><td>四角锥形</td><td> $sp^{3}d^{2}$ 不等性杂化</td></tr></table>
+|  | 分子或离子 | 价层电子对数 | 电子对空间构型 | 孤电子对数目 | 配体数目 | 分子或离子的空间构型 | 中心原子杂化方式 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| (1) | $SO_{2}$ | 3 | 正三角形 | 1 | 2 | V形 | $sp^{2}$ 不等性杂化 |
+| (2) | $SO_{3}^{2-}$ | 4 | 正四面体形 | 1 | 3 | 三角锥形 | $sp^{3}$ 不等性杂化 |
+| (3) | $H_{2}O$ | 4 | 正四面体形 | 2 | 2 | V形 | $sp^{3}$ 不等性杂化 |
+| (4) | $BrF_{5}$ | 6 | 正八面体形 | 1 | 5 | 四角锥形 | $sp^{3}d^{2}$ 不等性杂化 |
 
 例 6.5 试解释下列分子或离子中形成的共轭 $\pi$ 键：
 
@@ -2641,7 +2670,10 @@ $$
 
 通过键级可以比较出稳定性顺序,见下表。
 
-<table><tr><td>分子或离子</td><td> $O_{2}^{2-}$ </td><td> $O_{2}^{-}$ </td><td> $O_{2}$ </td><td> $O_{2}^{+}$ </td></tr><tr><td>键级</td><td>1</td><td>1.5</td><td>2</td><td>2.5</td></tr><tr><td>稳定性</td><td colspan="4"> $O_{2}^{2-} < O_{2}^{-} < O_{2} < O_{2}^{+}$ </td></tr></table>
+| 分子或离子 | $O_{2}^{2-}$ | $O_{2}^{-}$ | $O_{2}$ | $O_{2}^{+}$ |
+| --- | --- | --- | --- | --- |
+| 键级 | 1 | 1.5 | 2 | 2.5 |
+| 稳定性 | $O_{2}^{2-} < O_{2}^{-} < O_{2} < O_{2}^{+}$ |  |  |  |
 
 ## 第二部分 习题
 
@@ -3691,7 +3723,22 @@ $$
 
 1、到多家的企业上市限价中，同机小熊大市之八及委員會就由新野網工作，卖到一天，因短期新股，同机保于家网两个方面开。同机小熊大市卖购方式
 
-<table><tr><td> $\mathrm{Chl} - \mathrm{Fou} + \mathrm{Ca}$ </td><td>大容量</td><td>最大</td><td>最大</td><td>最大值</td><td>最小值</td></tr><tr><td> $\mathrm{Cl} < 2\mathrm{O} + 1$ </td><td> $30 \mathrm{g}^{-1}$ </td><td> $\frac{1}{2}$ </td><td> $30 \mathrm{g} + 1 \times 10^{-5}$ </td><td> $30 \mathrm{g} + 1 \times 10^{-5}$ </td><td></td></tr><tr><td> $\mathrm{M} < 6\mathrm{O} + 2$ </td><td> $2 \mathrm{g}^{-1}$ </td><td> $\frac{1}{2}$ </td><td> $2 \mathrm{g} + 1 \times 10^{-5}$ </td><td> $2 \mathrm{g} + 1 \times 10^{-5}$ </td><td></td></tr><tr><td> $\mathrm{Cl} > 10^{-4}$ </td><td> $15 \mathrm{g}^{-1}$ </td><td> $\frac{1}{2}$ </td><td> $15 \mathrm{g} + 1 \times 10^{-5}$ </td><td> $15 \mathrm{g} + 1 \times 10^{-5}$ </td><td></td></tr><tr><td> $\mathrm{M} > 10^{-4}$ </td><td> $10 \mathrm{g}^{-1}$ </td><td> $\frac{1}{2}$ </td><td> $10 \mathrm{g} + 1 \times 10^{-5}$ </td><td> $10 \mathrm{g} + 1 \times 10^{-5}$ </td><td></td></tr><tr><td> $\mathrm{Cl} > 10^{-4}$ </td><td> $10 \mathrm{g}^{-1}$ </td><td> $\frac{1}{2}$ </td><td> $10 \mathrm{g} + 1 \times 10^{-5}$ </td><td> $10 \mathrm{g} + 1 \times 10^{-5}$ </td><td></td></tr><tr><td> $\mathrm{M} > 10^{-4}$ </td><td> $10 \mathrm{g}^{-1}$ </td><td> $\frac{1}{2}$ </td><td> $10 \mathrm{g} + 1 \times 10^{-5}$ </td><td> $10 \mathrm{g} + 1\mathrm{N}$ </td><td></td></tr><tr><td> $\mathrm{Cl} > 10^{-4}$ </td><td> $10 \mathrm{g}^{-1}$ </td><td> $\frac{1}{2}$ </td><td> $10 \mathrm{g} + 1 \times 10^{-5}$ </td><td> $10 \mathrm{g} + 1 \times 10^{-5}$ </td><td></td></tr><tr><td> $10^{-4} \mathrm{O} + 2$ </td><td> $10 \mathrm{O}^{-1}$ </td><td> $\frac{1}{2}$ </td><td> $10 \mathrm{O} + 1 \times 10^{-5}$ </td><td> $10 \mathrm{O} + 1 \times 10^{-5}$ </td><td></td></tr><tr><td> $\mathrm{Cl} > 2 \mathrm{O} + 2$ </td><td> $10 \mathrm{O}^{-1}$ </td><td> $\frac{1}{2}$ </td><td> $10 \mathrm{O} + 1 \times 10^{-5}$ </td><td> $10 \mathrm{O} + 1 \times 10^{-5}$ </td><td></td></tr><tr><td> $\mathrm{Cl} > 2 \mathrm{O}_{2} + 2$ </td><td> $10 \mathrm{O}^{-1}$ </td><td> $\frac{1}{2}$ </td><td> $10 \mathrm{O} + 1 \times 10^{-5}$ </td><td> $10 \mathrm{O} + 1 \times 10^{-5}$ </td><td></td></tr><tr><td> $\mathrm{Cl} > 2 \mathrm{O}_{3} + 2$ </td><td> $10 \mathrm{O}^{-1}$ </td><td> $\frac{1}{2}$ </td><td> $10 \mathrm{O} + 1 \times 10^{-5}$ </td><td> $10 \mathrm{O} + 1 \times 10^{-5}$ </td><td></td></tr><tr><td> $\mathrm{Cl} > 2 \mathrm{O}_{4} + 2$ </td><td> $10 \mathrm{O}^{-1}$ </td><td> $\frac{1}{2}$ </td><td> $10 \mathrm{O} + 1 \times 10^{-5}$ </td><td> $10 \mathrm{O} + 1 \times 10^{-5}$ </td><td></td></tr><tr><td> $\mathrm{Cl} > 2 \mathrm{O}_{5} + 2$ </td><td> $10 \mathrm{O}^{-1}$ </td><td> $\frac{1}{2}$ </td><td> $10 \mathrm{O} + 1 \times 10^{-5}$ </td><td> $10 \mathrm{O} + 1 \times 10^{-5}$ </td><td></td></tr><tr><td> $\mathrm{Cl} > 2 \mathrm{O}_{6} + 2$ </td><td> $10 \mathrm{O}^{-1}$ </td><td> $\frac{1}{2}$ </td><td> $10 \mathrm{O} + 1 \times 10^{-5}$ </td><td> $10 \mathrm{O} + 1 \times 10^{-5}$ </td><td></td></tr></table>
+| $\mathrm{Chl} - \mathrm{Fou} + \mathrm{Ca}$ | 大容量 | 最大 | 最大 | 最大值 | 最小值 |
+| --- | --- | --- | --- | --- | --- |
+| $\mathrm{Cl} < 2\mathrm{O} + 1$ | $30 \mathrm{g}^{-1}$ | $\frac{1}{2}$ | $30 \mathrm{g} + 1 \times 10^{-5}$ | $30 \mathrm{g} + 1 \times 10^{-5}$ |  |
+| $\mathrm{M} < 6\mathrm{O} + 2$ | $2 \mathrm{g}^{-1}$ | $\frac{1}{2}$ | $2 \mathrm{g} + 1 \times 10^{-5}$ | $2 \mathrm{g} + 1 \times 10^{-5}$ |  |
+| $\mathrm{Cl} > 10^{-4}$ | $15 \mathrm{g}^{-1}$ | $\frac{1}{2}$ | $15 \mathrm{g} + 1 \times 10^{-5}$ | $15 \mathrm{g} + 1 \times 10^{-5}$ |  |
+| $\mathrm{M} > 10^{-4}$ | $10 \mathrm{g}^{-1}$ | $\frac{1}{2}$ | $10 \mathrm{g} + 1 \times 10^{-5}$ | $10 \mathrm{g} + 1 \times 10^{-5}$ |  |
+| $\mathrm{Cl} > 10^{-4}$ | $10 \mathrm{g}^{-1}$ | $\frac{1}{2}$ | $10 \mathrm{g} + 1 \times 10^{-5}$ | $10 \mathrm{g} + 1 \times 10^{-5}$ |  |
+| $\mathrm{M} > 10^{-4}$ | $10 \mathrm{g}^{-1}$ | $\frac{1}{2}$ | $10 \mathrm{g} + 1 \times 10^{-5}$ | $10 \mathrm{g} + 1\mathrm{N}$ |  |
+| $\mathrm{Cl} > 10^{-4}$ | $10 \mathrm{g}^{-1}$ | $\frac{1}{2}$ | $10 \mathrm{g} + 1 \times 10^{-5}$ | $10 \mathrm{g} + 1 \times 10^{-5}$ |  |
+| $10^{-4} \mathrm{O} + 2$ | $10 \mathrm{O}^{-1}$ | $\frac{1}{2}$ | $10 \mathrm{O} + 1 \times 10^{-5}$ | $10 \mathrm{O} + 1 \times 10^{-5}$ |  |
+| $\mathrm{Cl} > 2 \mathrm{O} + 2$ | $10 \mathrm{O}^{-1}$ | $\frac{1}{2}$ | $10 \mathrm{O} + 1 \times 10^{-5}$ | $10 \mathrm{O} + 1 \times 10^{-5}$ |  |
+| $\mathrm{Cl} > 2 \mathrm{O}_{2} + 2$ | $10 \mathrm{O}^{-1}$ | $\frac{1}{2}$ | $10 \mathrm{O} + 1 \times 10^{-5}$ | $10 \mathrm{O} + 1 \times 10^{-5}$ |  |
+| $\mathrm{Cl} > 2 \mathrm{O}_{3} + 2$ | $10 \mathrm{O}^{-1}$ | $\frac{1}{2}$ | $10 \mathrm{O} + 1 \times 10^{-5}$ | $10 \mathrm{O} + 1 \times 10^{-5}$ |  |
+| $\mathrm{Cl} > 2 \mathrm{O}_{4} + 2$ | $10 \mathrm{O}^{-1}$ | $\frac{1}{2}$ | $10 \mathrm{O} + 1 \times 10^{-5}$ | $10 \mathrm{O} + 1 \times 10^{-5}$ |  |
+| $\mathrm{Cl} > 2 \mathrm{O}_{5} + 2$ | $10 \mathrm{O}^{-1}$ | $\frac{1}{2}$ | $10 \mathrm{O} + 1 \times 10^{-5}$ | $10 \mathrm{O} + 1 \times 10^{-5}$ |  |
+| $\mathrm{Cl} > 2 \mathrm{O}_{6} + 2$ | $10 \mathrm{O}^{-1}$ | $\frac{1}{2}$ | $10 \mathrm{O} + 1 \times 10^{-5}$ | $10 \mathrm{O} + 1 \times 10^{-5}$ |  |
 
 ## 沉淀溶解平衡
 
@@ -3705,7 +3752,18 @@ $$
 
 解：查表和计算结果如表所示。
 
-<table><tr><td>序号</td><td>化学式</td><td> $K_{\text{sp}}^{\ominus}$ </td><td>序号</td><td>化学式</td><td> $s/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ </td></tr><tr><td>1</td><td> $PbSO_4$ </td><td> $2.53\times 10^{-8}$ </td><td>1</td><td> $CaF_2$ </td><td> $1.10\times 10^{-3}$ </td></tr><tr><td>2</td><td> $CaF_2$ </td><td> $5.30\times 10^{-9}$ </td><td>2</td><td> $PbSO_4$ </td><td> $1.59\times 10^{-4}$ </td></tr><tr><td>3</td><td> $CaCO_3$ </td><td> $2.8\times 10^{-9}$ </td><td>3</td><td> $Mg(OH)_2$ </td><td> $1.1\times 10^{-4}$ </td></tr><tr><td>4</td><td>AgCl</td><td> $1.8\times 10^{-10}$ </td><td>4</td><td> $CaCO_3$ </td><td> $5.3\times 10^{-5}$ </td></tr><tr><td>5</td><td> $Mg(OH)_2$ </td><td> $5.6\times 10^{-12}$ </td><td>5</td><td>AgCl</td><td> $1.3\times 10^{-5}$ </td></tr><tr><td>6</td><td>CuI</td><td> $1.27\times 10^{-12}$ </td><td>6</td><td> $Pb(OH)_2$ </td><td> $7.10\times 10^{-6}$ </td></tr><tr><td>7</td><td> $Pb(OH)_2$ </td><td> $1.43\times 10^{-15}$ </td><td>7</td><td> $Zn(OH)_2$ </td><td> $2.0\times 10^{-6}$ </td></tr><tr><td>8</td><td> $Zn(OH)_2$ </td><td> $3.0\times 10^{-17}$ </td><td>8</td><td>CuI</td><td> $1.13\times 10^{-6}$ </td></tr><tr><td>9</td><td>FeS</td><td> $6.3\times 10^{-18}$ </td><td>9</td><td>FeS</td><td> $2.5\times 10^{-9}$ </td></tr><tr><td>10</td><td>CuS</td><td> $6.3\times 10^{-36}$ </td><td>10</td><td>CuS</td><td> $2.5\times 10^{-18}$ </td></tr></table>
+| 序号 | 化学式 | $K_{\text{sp}}^{\ominus}$ | 序号 | 化学式 | $s/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ |
+| --- | --- | --- | --- | --- | --- |
+| 1 | $PbSO_4$ | $2.53\times 10^{-8}$ | 1 | $CaF_2$ | $1.10\times 10^{-3}$ |
+| 2 | $CaF_2$ | $5.30\times 10^{-9}$ | 2 | $PbSO_4$ | $1.59\times 10^{-4}$ |
+| 3 | $CaCO_3$ | $2.8\times 10^{-9}$ | 3 | $Mg(OH)_2$ | $1.1\times 10^{-4}$ |
+| 4 | AgCl | $1.8\times 10^{-10}$ | 4 | $CaCO_3$ | $5.3\times 10^{-5}$ |
+| 5 | $Mg(OH)_2$ | $5.6\times 10^{-12}$ | 5 | AgCl | $1.3\times 10^{-5}$ |
+| 6 | CuI | $1.27\times 10^{-12}$ | 6 | $Pb(OH)_2$ | $7.10\times 10^{-6}$ |
+| 7 | $Pb(OH)_2$ | $1.43\times 10^{-15}$ | 7 | $Zn(OH)_2$ | $2.0\times 10^{-6}$ |
+| 8 | $Zn(OH)_2$ | $3.0\times 10^{-17}$ | 8 | CuI | $1.13\times 10^{-6}$ |
+| 9 | FeS | $6.3\times 10^{-18}$ | 9 | FeS | $2.5\times 10^{-9}$ |
+| 10 | CuS | $6.3\times 10^{-36}$ | 10 | CuS | $2.5\times 10^{-18}$ |
 
 化合物 $K_{sp}^{\ominus}$ 和溶解度 s 的排序不一致，其原因是这些化合物的阴、阳离子个数比不一致，在由 $K_{sp}^{\ominus}$ 求算 s 的过程中数学运算方法不同所导致的。下面求算 s 的两个例子中可以看出这一点。
 
@@ -5216,7 +5274,12 @@ $$
 
 利用类似的方法对题设各配位化合物进行讨论,结果填入下表中。
 
-<table><tr><td>配位单元</td><td>磁矩/ $\mu_B$ </td><td>单电子数</td><td>中心d电子的排布</td><td>中心轨道的杂化类型</td><td>空间构型</td></tr><tr><td> $[Co(NH_3)_6]^{2+}$ </td><td>3.9</td><td>3</td><td></td><td> $sp^3 d^2$ </td><td>八面体</td></tr><tr><td> $[Pt(CN)_4]^{2-}$ </td><td>0</td><td>0</td><td></td><td> $dsp^2$ </td><td>正方形</td></tr><tr><td> $[Mn(SCN)_6]^{4-}$ </td><td>6.1</td><td>5</td><td></td><td> $sp^3 d^2$ </td><td>八面体</td></tr><tr><td> $[Co(NO_2)_6]^{4-}$ </td><td>1.8</td><td>1</td><td></td><td> $d^2 sp^3$ </td><td>八面体</td></tr></table>
+| 配位单元 | 磁矩/ $\mu_B$ | 单电子数 | 中心d电子的排布 | 中心轨道的杂化类型 | 空间构型 |
+| --- | --- | --- | --- | --- | --- |
+| $[Co(NH_3)_6]^{2+}$ | 3.9 | 3 |  | $sp^3 d^2$ | 八面体 |
+| $[Pt(CN)_4]^{2-}$ | 0 | 0 |  | $dsp^2$ | 正方形 |
+| $[Mn(SCN)_6]^{4-}$ | 6.1 | 5 |  | $sp^3 d^2$ | 八面体 |
+| $[Co(NO_2)_6]^{4-}$ | 1.8 | 1 |  | $d^2 sp^3$ | 八面体 |
 
 例 11.5 通过计算判断下列配位化合物是否符合 EAN 规则。
 
@@ -5244,7 +5307,10 @@ $$
 
 其中 $Pt^{2+}$ 提供 8 个电子, 1 个 $C_{2}H_{4}$ 提供 2 个电子, 3 个 $Cl^{-}$ 共提供 6 个电子。
 
-<table><tr><td></td><td> $[Co(NH_3)_6]^{3+}$ </td><td> $[Fe(H_2O)_6]^{2+}$ </td></tr><tr><td> $\Delta/\mathrm{cm}^{-1}$ </td><td>23000</td><td>10400</td></tr><tr><td> $P/\mathrm{cm}^{-1}$ </td><td>21000</td><td>15000</td></tr></table>
+|  | $[Co(NH_3)_6]^{3+}$ | $[Fe(H_2O)_6]^{2+}$ |
+| --- | --- | --- |
+| $\Delta/\mathrm{cm}^{-1}$ | 23000 | 10400 |
+| $P/\mathrm{cm}^{-1}$ | 21000 | 15000 |
 
 (2) $\left[\mathrm{Ru}\left(\mathrm{C}_{5}\mathrm{H}_{5}\right)_{2}\right]$ 中 $Ru^{2+}$ 价层电子总数为 $N=6+2\times6=18$ ，符合EAN规则。
 
@@ -5301,7 +5367,14 @@ $$
 
 解：配离子构型畸变是指在八面体场中中心的两个 $d_{\gamma}$ 轨道填充的电子数不同，引起八面体的变形，即姜一泰勒效应。讨论结果如下表。
 
-<table><tr><td>配离子</td><td>中心电子组态</td><td>晶体场类型</td><td>中心d电子的排布</td><td> $d_{\gamma}$ 轨道电子数</td><td>两个 $d_{\gamma}$ 轨道电子数是否相同</td><td>畸变情况</td></tr><tr><td> $[Cr(H_2O)_6]^{3+}$ </td><td> $3d^3$ </td><td>八面体弱场</td><td></td><td>0</td><td>相同</td><td>不畸变</td></tr><tr><td> $[Fe(CN)_6]^{3-}$ </td><td> $3d^5$ </td><td>八面体强场</td><td></td><td>0</td><td>相同</td><td>不畸变</td></tr><tr><td> $[Cu(en)_3]^{2+}$ </td><td> $3d^9$ </td><td>八面体弱场</td><td></td><td>3</td><td>不相同</td><td>畸变</td></tr><tr><td> $[Mn(H_2O)_6]^{2+}$ </td><td> $3d^5$ </td><td>八面体弱场</td><td></td><td>2</td><td>相同</td><td>不畸变</td></tr><tr><td> $[Co(CN)_6]^{4-}$ </td><td> $3d^7$ </td><td>八面体强场</td><td></td><td>1</td><td>不相同</td><td>畸变</td></tr><tr><td> $[Cr(H_2O)_6]^{2+}$ </td><td> $3d^4$ </td><td>八面体弱场</td><td></td><td>1</td><td>不相同</td><td>畸变</td></tr></table>
+| 配离子 | 中心电子组态 | 晶体场类型 | 中心d电子的排布 | $d_{\gamma}$ 轨道电子数 | 两个 $d_{\gamma}$ 轨道电子数是否相同 | 畸变情况 |
+| --- | --- | --- | --- | --- | --- | --- |
+| $[Cr(H_2O)_6]^{3+}$ | $3d^3$ | 八面体弱场 |  | 0 | 相同 | 不畸变 |
+| $[Fe(CN)_6]^{3-}$ | $3d^5$ | 八面体强场 |  | 0 | 相同 | 不畸变 |
+| $[Cu(en)_3]^{2+}$ | $3d^9$ | 八面体弱场 |  | 3 | 不相同 | 畸变 |
+| $[Mn(H_2O)_6]^{2+}$ | $3d^5$ | 八面体弱场 |  | 2 | 相同 | 不畸变 |
+| $[Co(CN)_6]^{4-}$ | $3d^7$ | 八面体强场 |  | 1 | 不相同 | 畸变 |
+| $[Cr(H_2O)_6]^{2+}$ | $3d^4$ | 八面体弱场 |  | 1 | 不相同 | 畸变 |
 
 例 11.8 比较下列各对配位单元的相对稳定性,说明原因。
 
@@ -7777,7 +7850,10 @@ $$
 
 试将 x 的正确数值填入下表中角标括号内，并将上述各性质以序号填入相应盐的横栏内：
 
-<table><tr><td> ${\mathrm{M}}_{2}{\mathrm{\;S}}_{2}{\mathrm{O}}_{\left( \right) }$ </td><td></td><td></td><td></td></tr><tr><td> ${\mathrm{M}}_{2}{\mathrm{\;S}}_{2}{\mathrm{O}}_{\left( \right) }$ </td><td></td><td></td><td></td></tr><tr><td> ${\mathrm{M}}_{2}{\mathrm{\;S}}_{2}{\mathrm{O}}_{\left( \right) }$ </td><td></td><td></td><td></td></tr></table>
+| ${\mathrm{M}}_{2}{\mathrm{\;S}}_{2}{\mathrm{O}}_{\left( \right) }$ |  |  |  |
+| --- | --- | --- | --- |
+| ${\mathrm{M}}_{2}{\mathrm{\;S}}_{2}{\mathrm{O}}_{\left( \right) }$ |  |  |  |
+| ${\mathrm{M}}_{2}{\mathrm{\;S}}_{2}{\mathrm{O}}_{\left( \right) }$ |  |  |  |
 
 16.29 给出下列化合物的颜色：
 
@@ -8558,7 +8634,11 @@ $$
 
 ## 18.33 根据氢化物的相关知识填写下表：
 
-<table><tr><td>物质</td><td> $BaH_{2}$ </td><td> $SiH_{4}$ </td><td> $NH_{3}$ </td><td> $AsH_{3}$ </td><td> $PdH_{0.9}$ </td><td>HI</td></tr><tr><td>名称</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>氢化物类型</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>常温常压下状态</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
+| 物质 | $BaH_{2}$ | $SiH_{4}$ | $NH_{3}$ | $AsH_{3}$ | $PdH_{0.9}$ | HI |
+| --- | --- | --- | --- | --- | --- | --- |
+| 名称 |  |  |  |  |  |  |
+| 氢化物类型 |  |  |  |  |  |  |
+| 常温常压下状态 |  |  |  |  |  |  |
 
 華國 會議一章
 
@@ -8844,7 +8924,9 @@ $$
 
 19.20 五支试管分别盛有以下五种试液，请用一种试剂把它们区别开，并给出产物和现象。
 
-<table><tr><td></td><td>NaCl</td><td> $Na_{2}S$ </td><td> $K_{2}Cr_{2}O_{7}$ </td><td> $Na_{2}S_{2}O_{3}$ </td><td> $K_{2}HPO_{4}$ </td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
+|  | NaCl | $Na_{2}S$ | $K_{2}Cr_{2}O_{7}$ | $Na_{2}S_{2}O_{3}$ | $K_{2}HPO_{4}$ |
+| --- | --- | --- | --- | --- | --- |
+|  |  |  |  |  |  |
 
 19.21 给出下列离子的颜色。
 
@@ -9006,7 +9088,13 @@ $\mathrm{CuSO_{4}}$ \_\_\_\_色； $\mathrm{CuCl_{2}}$ \_\_\_\_色； $\mathrm{C
 
 19.67 填写汞的硝酸盐与某些试剂反应的主要产物，并说明实验现象。
 
-<table><tr><td></td><td> ${\mathrm{Hg}}_{2}{\left( {\mathrm{NO}}_{3}\right) }_{2}$ </td><td> $\mathrm{Hg}{\left( {\mathrm{NO}}_{3}\right) }_{2}$ </td></tr><tr><td>KOH</td><td></td><td></td></tr><tr><td> ${\mathrm{NH}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O}$ </td><td></td><td></td></tr><tr><td> ${\mathrm{H}}_{2}\mathrm{\;S}$ </td><td></td><td></td></tr><tr><td> ${\mathrm{SnCl}}_{2}$ </td><td></td><td></td></tr><tr><td>KI</td><td></td><td></td></tr></table>
+|  | ${\mathrm{Hg}}_{2}{\left( {\mathrm{NO}}_{3}\right) }_{2}$ | $\mathrm{Hg}{\left( {\mathrm{NO}}_{3}\right) }_{2}$ |
+| --- | --- | --- |
+| KOH |  |  |
+| ${\mathrm{NH}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O}$ |  |  |
+| ${\mathrm{H}}_{2}\mathrm{\;S}$ |  |  |
+| ${\mathrm{SnCl}}_{2}$ |  |  |
+| KI |  |  |
 
 19.68 解释下列实验事实。
 

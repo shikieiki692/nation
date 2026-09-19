@@ -2845,7 +2845,14 @@ $$
 
 ## 5.36 见下表：
 
-<table><tr><td></td><td>周期</td><td>族</td><td>元素符号</td><td>价层电子排布式</td></tr><tr><td>A</td><td>三</td><td>IA</td><td>Na</td><td> $3s^{1}$ </td></tr><tr><td>B</td><td>三</td><td>IIA</td><td>Mg</td><td> $3s^{2}$ </td></tr><tr><td>C</td><td>三</td><td>IIIA</td><td>Al</td><td> $3s^{2}3p^{1}$ </td></tr><tr><td>D</td><td>四</td><td>VIA</td><td>Br</td><td> $4s^{2}4p^{5}$ </td></tr><tr><td>E</td><td>五</td><td>VIA</td><td>I</td><td> $5s^{2}5p^{5}$ </td></tr><tr><td>F</td><td>四</td><td>VIB</td><td>Cr</td><td> $3d^{5}4s^{1}$ </td></tr></table>
+|  | 周期 | 族 | 元素符号 | 价层电子排布式 |
+| --- | --- | --- | --- | --- |
+| A | 三 | IA | Na | $3s^{1}$ |
+| B | 三 | IIA | Mg | $3s^{2}$ |
+| C | 三 | IIIA | Al | $3s^{2}3p^{1}$ |
+| D | 四 | VIA | Br | $4s^{2}4p^{5}$ |
+| E | 五 | VIA | I | $5s^{2}5p^{5}$ |
+| F | 四 | VIB | Cr | $3d^{5}4s^{1}$ |
 
 5.37 A:K,B:Ni,C:Br,KBr,NiBr $_{2}$
 
@@ -3055,9 +3062,18 @@ $\mathrm{CH}_2\mathrm{SF}_4$ 中心原子为S,5个配体。配体 $\mathrm{CH}_2
 
 6.27 $\mathrm{AB}_3$ 型分子共有三种空间构型，有关结果见下表：
 
-<table><tr><td>空间构型</td><td>实例</td><td>A的杂化方式</td><td>价层孤电子对数目</td><td>是否有极性</td></tr><tr><td>平面三角形</td><td> $BCl_{3}$ </td><td> $sp^{2}$ </td><td>0</td><td>无极性</td></tr><tr><td>三角锥形</td><td> $NH_{3}$ </td><td> $sp^{3}$ </td><td>1</td><td>有极性</td></tr><tr><td>T形</td><td> $BrF_{3}$ </td><td> $sp^{3}d$ </td><td>2</td><td>有极性</td></tr></table>
+| 空间构型 | 实例 | A的杂化方式 | 价层孤电子对数目 | 是否有极性 |
+| --- | --- | --- | --- | --- |
+| 平面三角形 | $BCl_{3}$ | $sp^{2}$ | 0 | 无极性 |
+| 三角锥形 | $NH_{3}$ | $sp^{3}$ | 1 | 有极性 |
+| T形 | $BrF_{3}$ | $sp^{3}d$ | 2 | 有极性 |
 
-<table><tr><td>化合物分子式</td><td>价层电子对数</td><td>配体数目</td><td>电子对空间构型</td><td>分子空间构型</td><td>杂化方式</td><td>成键轨道</td><td>化学键类型</td></tr><tr><td> $XeF_{2}$ </td><td>5</td><td>2</td><td>三角双锥形</td><td>直线形</td><td> $sp^{3}d$ 不等性杂化</td><td> $sp^{3}d-2p$ </td><td>σ键</td></tr><tr><td> $XeF_{4}$ </td><td>6</td><td>4</td><td>正八面体形</td><td>正方形</td><td> $sp^{3}d^{2}$ 不等性杂化</td><td> $sp^{3}d^{2}-2p$ </td><td>σ键</td></tr><tr><td> $XeO_{3}$ </td><td>4</td><td>3</td><td>正四面体形</td><td>三角锥形</td><td> $sp^{3}$ 不等性杂化</td><td> $sp^{3}-2p$ </td><td>σ键</td></tr><tr><td> $XeO_{4}$ </td><td>4</td><td>4</td><td>正四面体形</td><td>正四面体形</td><td> $sp^{3}$ 等性杂化</td><td> $sp^{3}-2p$ </td><td>σ键</td></tr></table>
+| 化合物分子式 | 价层电子对数 | 配体数目 | 电子对空间构型 | 分子空间构型 | 杂化方式 | 成键轨道 | 化学键类型 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| $XeF_{2}$ | 5 | 2 | 三角双锥形 | 直线形 | $sp^{3}d$ 不等性杂化 | $sp^{3}d-2p$ | σ键 |
+| $XeF_{4}$ | 6 | 4 | 正八面体形 | 正方形 | $sp^{3}d^{2}$ 不等性杂化 | $sp^{3}d^{2}-2p$ | σ键 |
+| $XeO_{3}$ | 4 | 3 | 正四面体形 | 三角锥形 | $sp^{3}$ 不等性杂化 | $sp^{3}-2p$ | σ键 |
+| $XeO_{4}$ | 4 | 4 | 正四面体形 | 正四面体形 | $sp^{3}$ 等性杂化 | $sp^{3}-2p$ | σ键 |
 
 6.29 B 的价层电子排布为 $2s^{2}2p^{1}$ ，在 $BF_{3}$ 分子中，B 的原子轨道为 $sp^{2}$ 杂化，中心原子 B 与 3 个 F 结合形成等同的 3 个 $\sigma$ 键，故 $BF_{3}$ 分子呈正三角形。此外，B 还有一个空的未参与杂化的 $p_{z}$ 轨道，3 个 F 各有 1 个有对电子的 $p_{z}$ 轨道，这 4 个垂直于分子平面的 $p_{z}$ 轨道形成离域大 $\pi$ 键，即 $\Pi_{4}^{6}$ 键。这个离域大 $\pi$ 键使 B 与 F 的结合力增大，键能增强，因此其键长比理论单键键长短。
 
@@ -3123,7 +3139,22 @@ $NF_{3}$ 分子中成键电子对偏向 F 原子, 则 N 上的孤电子对更靠
 
 $NH_{3}$ 分子和 $PH_{3}$ 分子的空间构型均为三角锥形。配体相同，但中心原子不同。N 的电负性大而半径小，P 的电负性小而半径大。半径小电负性大的 N 原子周围的孤电子对和成键电子对间尽量保持最大角度才能保持斥力均衡，因而 $NH_{3}$ 分子的键角接近 $109^{\circ}28'$ 。此外， $PH_{3}$ 分子的键角接近 $90^{\circ}$ （实际为 $93^{\circ}18'$ ）也可能与 P 有与 $sp^{3}$ 轨道能量相近的 3d 轨道有关，如 $AsH_{3}, PH_{3}, PF_{3}$ 及 $H_{2}S$ 等分子的键角都接近 $90^{\circ}$ 。
 
-<table><tr><td>分子或离子</td><td>价层电子对数</td><td>电子对空间构型</td><td>孤电子对数目</td><td>配体数目</td><td>分子或离子的空间构型</td></tr><tr><td> $BeCl_{2}$ </td><td>2</td><td>直线形</td><td>0</td><td>2</td><td>直线形</td></tr><tr><td> $BCl_{3}$ </td><td>3</td><td>正三角形</td><td>0</td><td>3</td><td>正三角形</td></tr><tr><td>NH4+</td><td>4</td><td>正四面体形</td><td>0</td><td>4</td><td>正四面体形</td></tr><tr><td>H2O</td><td>4</td><td>正四面体形</td><td>2</td><td>2</td><td>V形</td></tr><tr><td>ClF3</td><td>5</td><td>三角双锥形</td><td>2</td><td>3</td><td>T形</td></tr><tr><td>PCl5</td><td>5</td><td>三角双锥形</td><td>0</td><td>5</td><td>三角双锥形</td></tr><tr><td>I3-</td><td>5</td><td>三角双锥形</td><td>3</td><td>2</td><td>直线形</td></tr><tr><td>ICl4-</td><td>6</td><td>正八面体形</td><td>2</td><td>4</td><td>正方形</td></tr><tr><td>CIO2-</td><td>4</td><td>正四面体形</td><td>2</td><td>2</td><td>V形</td></tr><tr><td>PO43-</td><td>4</td><td>正四面体形</td><td>0</td><td>4</td><td>正四面体形</td></tr><tr><td>CO2</td><td>2</td><td>直线形</td><td>0</td><td>2</td><td>直线形</td></tr><tr><td>SO2</td><td>3</td><td>正三角形</td><td>1</td><td>2</td><td>V形</td></tr><tr><td>NOCl</td><td>3</td><td>正三角形</td><td>1</td><td>2</td><td>V形</td></tr><tr><td>POCl3</td><td>4</td><td>正四面体形</td><td>0</td><td>4</td><td>四面体形</td></tr></table>
+| 分子或离子 | 价层电子对数 | 电子对空间构型 | 孤电子对数目 | 配体数目 | 分子或离子的空间构型 |
+| --- | --- | --- | --- | --- | --- |
+| $BeCl_{2}$ | 2 | 直线形 | 0 | 2 | 直线形 |
+| $BCl_{3}$ | 3 | 正三角形 | 0 | 3 | 正三角形 |
+| NH4+ | 4 | 正四面体形 | 0 | 4 | 正四面体形 |
+| H2O | 4 | 正四面体形 | 2 | 2 | V形 |
+| ClF3 | 5 | 三角双锥形 | 2 | 3 | T形 |
+| PCl5 | 5 | 三角双锥形 | 0 | 5 | 三角双锥形 |
+| I3- | 5 | 三角双锥形 | 3 | 2 | 直线形 |
+| ICl4- | 6 | 正八面体形 | 2 | 4 | 正方形 |
+| CIO2- | 4 | 正四面体形 | 2 | 2 | V形 |
+| PO43- | 4 | 正四面体形 | 0 | 4 | 正四面体形 |
+| CO2 | 2 | 直线形 | 0 | 2 | 直线形 |
+| SO2 | 3 | 正三角形 | 1 | 2 | V形 |
+| NOCl | 3 | 正三角形 | 1 | 2 | V形 |
+| POCl3 | 4 | 正四面体形 | 0 | 4 | 四面体形 |
 
 6.34 (1) $\mathrm{N(CH_3)_3}$ 分子的空间构型为三角锥形， $\mathbf{N}$ 采取 $\mathfrak{sp}^3$ 杂化。
 
@@ -3200,7 +3231,14 @@ $$
 
 7.25 结果见下表：
 
-<table><tr><td>物质</td><td>晶体中质点间的作用力</td><td>晶体类型</td><td>熔点</td></tr><tr><td>KCl</td><td>离子键</td><td>离子晶体</td><td>较高</td></tr><tr><td>SiC</td><td>共价键</td><td>原子晶体</td><td>很高</td></tr><tr><td> $CH_3Cl$ </td><td>分子间力</td><td>分子晶体</td><td>较低</td></tr><tr><td> $NH_3$ </td><td>氢键,分子间力</td><td>分子晶体</td><td>较低</td></tr><tr><td>Cu</td><td>金属键</td><td>金属晶体</td><td>较高</td></tr><tr><td>Xe</td><td>色散力</td><td>分子晶体</td><td>很低</td></tr></table>
+| 物质 | 晶体中质点间的作用力 | 晶体类型 | 熔点 |
+| --- | --- | --- | --- |
+| KCl | 离子键 | 离子晶体 | 较高 |
+| SiC | 共价键 | 原子晶体 | 很高 |
+| $CH_3Cl$ | 分子间力 | 分子晶体 | 较低 |
+| $NH_3$ | 氢键,分子间力 | 分子晶体 | 较低 |
+| Cu | 金属键 | 金属晶体 | 较高 |
+| Xe | 色散力 | 分子晶体 | 很低 |
 
 7.26 在面心立方晶胞的正六面体中，设边长为 $a$ ，金属原子的半径为 $r$ ，立方体六个面中每一面金属原子的分布如图(a)所示。
 
@@ -5119,7 +5157,10 @@ $$
 
 相关过渡元素 $\mathrm{M}^{2+}$ 在弱场中生成八面体配位化合物的 CFSE 见下表:
 
-<table><tr><td>离子</td><td> $Mn^{2+}$ </td><td> $Fe^{2+}$ </td><td> $Co^{2+}$ </td><td> $Ni^{2+}$ </td><td> $Cu^{2+}$ </td><td> $Zn^{2+}$ </td></tr><tr><td>d电子数</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td>CFSE/Dq</td><td>0</td><td>4</td><td>8</td><td>12</td><td>6</td><td>0</td></tr></table>
+| 离子 | $Mn^{2+}$ | $Fe^{2+}$ | $Co^{2+}$ | $Ni^{2+}$ | $Cu^{2+}$ | $Zn^{2+}$ |
+| --- | --- | --- | --- | --- | --- | --- |
+| d电子数 | 5 | 6 | 7 | 8 | 9 | 10 |
+| CFSE/Dq | 0 | 4 | 8 | 12 | 6 | 0 |
 
 晶体场稳定化能在数值上远远小于配位键的键能,但在配位键的键能相近时,晶体场稳定化能的修正作用显示出来。
 
@@ -6786,7 +6827,10 @@ $$
 
 16.27 $\mathrm{S}_2\mathrm{O}_3^{2-},\mathrm{S}^{2-} + \mathrm{SO}_3^{2-},\mathrm{S}_2\mathrm{O}_3^{2-} + \mathrm{S}^{2-},\mathrm{S}_2\mathrm{O}_3^{2-} + \mathrm{SO}_3^{2-}$ 。
 
-<table><tr><td> $M_{2}S_{2}O_{(8)}$ </td><td>(1)</td><td>(5)</td><td>(9)</td></tr><tr><td> $M_{2}S_{2}O_{(3)}$ </td><td>(2)</td><td>(6)</td><td>(7)</td></tr><tr><td> $M_{2}S_{2}O_{(7)}$ </td><td>(3)</td><td>(4)</td><td>(8)</td></tr></table>
+| $M_{2}S_{2}O_{(8)}$ | (1) | (5) | (9) |
+| --- | --- | --- | --- |
+| $M_{2}S_{2}O_{(3)}$ | (2) | (6) | (7) |
+| $M_{2}S_{2}O_{(7)}$ | (3) | (4) | (8) |
 
 16.29 ZnS 白；MnS 粉红（或绿）；CdS 黄；SnS 棕褐； $As_{2}S_{3}$ 黄； $As_{2}S_{5}$ 黄； $Sb_{2}S_{3}$ 橙； $Sb_{2}S_{5}$ 橙； $Ag_{2}S_{2}O_{3}$ 白； $PbS_{2}O_{3}$ 白。
 
@@ -7645,7 +7689,9 @@ $$
 
 19.19 $\mathrm{Hg}_{2} \mathrm{Cl}_{2}$ 光照分解为有毒的 $\mathrm{HgCl}_{2}$ 和 $\mathrm{Hg}$ 。
 
-<table><tr><td></td><td>NaCl</td><td> $Na_{2}S$ </td><td> $K_{2}Cr_{2}O_{7}$ </td><td> $Na_{2}S_{2}O_{3}$ </td><td> $K_{2}HPO_{4}$ </td></tr><tr><td> $AgNO_{3}$ </td><td>AgCl↓白色</td><td> $Ag_{2}S$ ↓黑色</td><td> $Ag_{2}CrO_{4}$ ↓砖红色</td><td> $Ag_{2}S_{2}O_{3}$ ↓→Ag2S白色→黑色</td><td> $Ag_{3}PO_{4}$ ↓黄色</td></tr></table>
+|  | NaCl | $Na_{2}S$ | $K_{2}Cr_{2}O_{7}$ | $Na_{2}S_{2}O_{3}$ | $K_{2}HPO_{4}$ |
+| --- | --- | --- | --- | --- | --- |
+| $AgNO_{3}$ | AgCl↓白色 | $Ag_{2}S$ ↓黑色 | $Ag_{2}CrO_{4}$ ↓砖红色 | $Ag_{2}S_{2}O_{3}$ ↓→Ag2S白色→黑色 | $Ag_{3}PO_{4}$ ↓黄色 |
 
 19.21 $\left[\mathrm{Cu}\left(\mathrm{H}_{2} \mathrm{O}\right)_{4}\right]^{2+}$ 蓝； $\left[\mathrm{CuCl}_{4}\right]^{2-}$ 黄； $\left[\mathrm{Cu}(\mathrm{CN})_{4}\right]^{3-}$ 无； $\left[\mathrm{CuCl}_{2}\right]^{-}$ 无； $\left[\mathrm{Cu}(\mathrm{NH}_{3})_{4}\right]^{2+}$ 深蓝； $\left[\mathrm{Cu}(\mathrm{OH})_{4}\right]^{2-}$ 蓝； $\left[\mathrm{Cu}(\mathrm{NH}_{3})_{2}\right]^{+}$ 无； $\left[\mathrm{Cu}(\mathrm{CN})_{4}\right]^{2-}$ 黄， $\left[\mathrm{HgI}_{4}\right]^{2-}$ 无， $\left[\mathrm{Hg}(\mathrm{SCN})_{4}\right]^{2-}$ 无。
 
