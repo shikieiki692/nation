@@ -47,7 +47,32 @@
 > `git cat-file -e`；promisor 未取消时 `fsck` 还会制造"假绿"。红线：不跑
 > `gc / repack / prune / fetch <sha> / fetch --refetch`。
 
-## 五、验收记录（2026-09-15）
+## 五、HTML 表格 → Markdown（块级表格公式不渲染治理）
+
+> 背景：`<table>` 独占一行时被 markdown-it 判为 `html_block`，块内 `$…$` **完全不经过
+> inline 解析** → Obsidian 里显示为原始文本（看着像乱码）；同时 Word 导出会把表**拍平成
+> 段落**（`w:tbl`=0）。转成 pipe table 后两处收益（2026-09-20 端到端实证）。
+> 累计 W1~W5 已转 **~2,795 表 / 483 文件**。方法论与踩坑见 skill `html-block-table-to-md`
+> 与 `09-审计报告/` 各 Wave 报告。
+
+| 脚本 | 用途 | 用法 |
+|---|---|---|
+| `html_tables_to_markdown.py` | **主工具**：HTML 表 → pipe 表（含 colspan 左展开 / rowspan 下拉 / entity 解码；自带渲染自证 + 四口径 + 备份防覆盖） | `python html_tables_to_markdown.py --dir X [--all-tables] [--allow-entities] [--apply]`；`--whole-vault` 全库；默认 dry-run |
+| `render_selfcheck.js` | 渲染自证器（markdown-it + KaTeX，判残留 `$`==0）；被主工具 `--apply` 自动调用 | 由主工具内部调用，亦可单独喂 JSON |
+| `word_verify.py` | Word 管线端到端验证：备份(转换前) vs 现状各转 docx，数 `w:tbl` / `m:oMath` | `python word_verify.py`（只读，产物 → `.workbuddy/tmp/word_verify/`） |
+| `word_isolate_probe.py` | 隔离实验：HTML 表 vs Markdown 表 → docx，证明「md 层乱码」是 Obsidian 渲染侧问题 | `python word_isolate_probe.py` |
+| `table_baseline.py` | 全库表格健康度基线快照（判据/作用域双维归桶，供回归对照） | `python table_baseline.py` → `09-审计报告/表格健康度基线-*.md` |
+
+> ⚠️ **与旧脚本的分工**：`11-模板/scripts/convert_html_tables_to_markdown.py`（2026-08-30）
+> 是**旧一次性脚本**，绑定 `习题书V2-表格分类台账.jsonl`、仅 `04-题库` 习题书源、不支持 span
+> ——保留不动。本目录 `html_tables_to_markdown.py` 是其**通用化继任者**（体量小、无台账依赖、
+> 支持 colspan/rowspan/entity）。
+>
+> ⚠️ **多批次共用备份目录的 P0 陷阱**：不同 Wave 若共用同一 `--backup-dir`，后批会以
+> 「已转换内容」覆盖「转换前原始快照」→ A/B 永久破坏。本工具已内置「**已存在则不覆盖**」
+> 双保险；跨批务必为每批**独立备份目录**（如 `html_table_backup_w5`）。
+
+## 六、验收记录（2026-09-15）
 
 在 tmp 与 qa 两处各跑一次同样脚本，**逐字节比对 stdout / 产物**，结论见任务卡
 `任务卡-2026-09-14-习题书裸下标收口与git健壮性复核` §P0-2。
