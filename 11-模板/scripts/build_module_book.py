@@ -1330,6 +1330,29 @@ def clean_title_candidate(raw: str) -> str:
     """剥离标题中的书名、作者、模块名、内部序号（题-059-、Ch4A-1- 等），提取纯净语义短语。"""
     if not raw:
         return ""
+    # 0a. 数学域保护（2026-09-20）：标题含 $...$ 时，下方 re.sub(r"[-_—]+","-") 与 split("-")
+    #     会把 \mathrm{SO_4^{2-}} 切成 mathrm{SO-4^{2-}}（$ 丢失、_→-）。先以占位符保护整个数学域，
+    #     处理完毕再还原。占位符用纯字母数字，避免被 ^[^\w] 类正则剥离。
+    _math_store: list[str] = []
+
+    def _stash_math(m):
+        _math_store.append(m.group(0))
+        return f"ZZMATH{len(_math_store) - 1}ZZ"
+
+    s_in = re.sub(r"\$[^$]*\$", _stash_math, raw)
+    _result = _clean_title_core(s_in)
+    _result = re.sub(
+        r"ZZMATH(\d+)ZZ",
+        lambda mm: _math_store[int(mm.group(1))],
+        _result,
+    )
+    return _result
+
+
+def _clean_title_core(raw: str) -> str:
+    """clean_title_candidate 的主体（数学域已由外层保护为 ZZMATHnZZ 占位符）。"""
+    if not raw:
+        return ""
     # 0. 预清洗：剥离 wikilink、星号、括号标签及串联代号
     s = re.sub(r"\[\[([^\]|#]+)(?:\|[^\]]+)?\]\]", r"\1", raw.strip())
     s = re.sub(r"^(?:\*\*|\*)*【[^】]*】(?:\*\*|\*)*\s*", "", s)
