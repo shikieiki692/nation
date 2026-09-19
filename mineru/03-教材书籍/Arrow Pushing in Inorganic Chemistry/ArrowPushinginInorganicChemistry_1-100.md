@@ -355,8 +355,29 @@ Table 1.1 shows that, for a given electrophileHe11showshat,foraiveneectophle( $\
 
 TABLE 1.1 Swain–Scott Nucleophilicity ConstantsTABL 1.1 Swain-Scot Nudieophilicty Constants and Conjugate Acidand Conjugate Aci ${ \mathsf { p } } K _ { \mathsf { a } }$ Values of Some CommonValues of Some Common Nucleophilesucleophiles   
 
-<table><tr><td>Nucleophile</td><td>nCH3l</td><td>Conjugate
-Acid pKa</td></tr><tr><td>CH3OH</td><td>0.0</td><td>-1.7</td></tr><tr><td>NO3-</td><td>1.5</td><td>-1.3</td></tr><tr><td>F-</td><td>2.7</td><td>3.45</td></tr><tr><td>CH3CO2-</td><td>4.3</td><td>4.8</td></tr><tr><td>Cl-</td><td>4.4</td><td>-5.7</td></tr><tr><td>R2S</td><td>5.3</td><td>-6 to -7</td></tr><tr><td>NH3</td><td>5.5</td><td>9.25</td></tr><tr><td>N3-</td><td>5.8</td><td>4.74</td></tr><tr><td>C6H5O-</td><td>5.8</td><td>9.89</td></tr><tr><td>Br-</td><td>5.8</td><td>-7.7</td></tr><tr><td>CH3O-</td><td>6.3</td><td>15.7</td></tr><tr><td>HO-</td><td>6.5</td><td>15.7</td></tr><tr><td>NH2OH</td><td>6.6</td><td>5.8</td></tr><tr><td>NH2NH2</td><td>6.6</td><td>7.9</td></tr><tr><td>(CH3CH2)3N</td><td>6.7</td><td>10.7</td></tr><tr><td>CN-</td><td>6.7</td><td>9.3</td></tr><tr><td>I-</td><td>7.4</td><td>-10.7</td></tr><tr><td>HO2-</td><td>7.8</td><td>11.75</td></tr><tr><td>(CH3CH2)3P</td><td>8.7</td><td>8.7</td></tr><tr><td>C6H5S-</td><td>9.9</td><td>6.5</td></tr><tr><td>C6H5Se-</td><td>10.7</td><td>5.9</td></tr></table>
+| Nucleophile | nCH3l | Conjugate Acid pKa |
+| --- | --- | --- |
+| CH3OH | 0.0 | -1.7 |
+| NO3- | 1.5 | -1.3 |
+| F- | 2.7 | 3.45 |
+| CH3CO2- | 4.3 | 4.8 |
+| Cl- | 4.4 | -5.7 |
+| R2S | 5.3 | -6 to -7 |
+| NH3 | 5.5 | 9.25 |
+| N3- | 5.8 | 4.74 |
+| C6H5O- | 5.8 | 9.89 |
+| Br- | 5.8 | -7.7 |
+| CH3O- | 6.3 | 15.7 |
+| HO- | 6.5 | 15.7 |
+| NH2OH | 6.6 | 5.8 |
+| NH2NH2 | 6.6 | 7.9 |
+| (CH3CH2)3N | 6.7 | 10.7 |
+| CN- | 6.7 | 9.3 |
+| I- | 7.4 | -10.7 |
+| HO2- | 7.8 | 11.75 |
+| (CH3CH2)3P | 8.7 | 8.7 |
+| C6H5S- | 9.9 | 6.5 |
+| C6H5Se- | 10.7 | 5.9 |
 
 TABLE 1.2 Qualitative Classification of Nucleophiles, BasedARlF1? Oialiathe Claesifrsinn nf Nelonhiae Raea on the Swain–Scott Nucleophilicity Constants CH In the swain-scott Nuc keophilicity Constants noy $\pmb { n } _ { \mathtt { C H } _ { 3 } | }$   
 
@@ -440,7 +461,12 @@ $$
 
 TABLE 1.3 Qualitative Listing of Hard, Intermediate, and Soft Acids and BasesaTABLE13 Ouaifve Ustina ofrd,intermediate,and sot Acid and Bases   
 
-<table><tr><td></td><td>Acids</td><td>Bases</td></tr><tr><td rowspan="2">Hard</td><td>H+, H-X, Li+, Na+, R3SiX</td><td>NH3, RNH2</td></tr><tr><td>Mg2+, Ca2+, AIX3, SnCl4, TiCl4</td><td>H2O, HO-, ROH, RO-, RCO2-Cl-, F-, NO3-</td></tr><tr><td>Intermediate</td><td>CuX2, ZnX2, SnX2, GaX3, R3C+, R3B</td><td>Br-, NNN-(azide), ArNH2pyridine</td></tr><tr><td>Soft</td><td>RCH2X, RSX, RSeX, I2, Br2, BrF3, CuX, Ag+, Pd(X/R)2, Pt(X/R)2, Hg(X/R)2, zero-valent metals</td><td>RSH, RS-, R2S, RSe-, I-, R3P, NC-, CO, RCH=CHR, benzene</td></tr></table>
+|  | Acids | Bases |
+| --- | --- | --- |
+| Hard | H+, H-X, Li+, Na+, R3SiX | NH3, RNH2 |
+| Hard | Mg2+, Ca2+, AIX3, SnCl4, TiCl4 | H2O, HO-, ROH, RO-, RCO2-Cl-, F-, NO3- |
+| Intermediate | CuX2, ZnX2, SnX2, GaX3, R3C+, R3B | Br-, NNN-(azide), ArNH2pyridine |
+| Soft | RCH2X, RSX, RSeX, I2, Br2, BrF3, CuX, Ag+, Pd(X/R)2, Pt(X/R)2, Hg(X/R)2, zero-valent metals | RSH, RS-, R2S, RSe-, I-, R3P, NC-, CO, RCH=CHR, benzene |
 
 aWhere warranted, the atom of interest is indicated in bold.here waanted,he aomo intaes is indcaed n bolc
 
@@ -466,7 +492,22 @@ A couple of additional observations are worth making, again with specific refere
 
 TABLE 1. Common Leaving Groups and theTABLE14 Common Leavina Groups and the p ${ \mathsf { p } } K _ { \mathsf { a } }$ Values of Theirlues of Thei 4Conjugate Acidsonjugate Acids   
 
-<table><tr><td></td><td>Leaving Group</td><td>Conjugated Acid</td><td>pKa</td></tr><tr><td rowspan="12">Good</td><td>I-</td><td>HI</td><td>-10</td></tr><tr><td>Br-</td><td>HBr</td><td>-9</td></tr><tr><td>Cl-</td><td>HCl</td><td>-8</td></tr><tr><td>HSO4-</td><td>H2SO4</td><td>-3</td></tr><tr><td>p-CH3-C6H4-SO3-</td><td>p-CH3-C6H4-SO3H</td><td>-3</td></tr><tr><td>H2O</td><td>H3O+</td><td>-1.7</td></tr><tr><td>F-</td><td>HF</td><td>3.2</td></tr><tr><td>CH3COO-</td><td>CH3COOH</td><td>4.74</td></tr><tr><td>NH3</td><td>NH4+</td><td>9.25</td></tr><tr><td>HO-</td><td>H2O</td><td>15.74</td></tr><tr><td>CH3O-</td><td>CH3OH</td><td>15.2</td></tr><tr><td>NH2-</td><td>NH3</td><td>38</td></tr><tr><td rowspan="2">Bad</td><td>H-</td><td>H2</td><td>42</td></tr><tr><td>CH3-CH2-CH2-CH2-</td><td>CH3-CH2-CH2-CH2-CH3</td><td>50</td></tr></table>
+|  | Leaving Group | Conjugated Acid | pKa |
+| --- | --- | --- | --- |
+| Good | I- | HI | -10 |
+| Good | Br- | HBr | -9 |
+| Good | Cl- | HCl | -8 |
+| Good | HSO4- | H2SO4 | -3 |
+| Good | p-CH3-C6H4-SO3- | p-CH3-C6H4-SO3H | -3 |
+| Good | H2O | H3O+ | -1.7 |
+| Good | F- | HF | 3.2 |
+| Good | CH3COO- | CH3COOH | 4.74 |
+| Good | NH3 | NH4+ | 9.25 |
+| Good | HO- | H2O | 15.74 |
+| Good | CH3O- | CH3OH | 15.2 |
+| Good | NH2- | NH3 | 38 |
+| Bad | H- | H2 | 42 |
+| Bad | CH3-CH2-CH2-CH2- | CH3-CH2-CH2-CH2-CH3 | 50 |
 
 Fluoride and cyanide are very much worse leaving groups than theruonde nd eyande are vey mch worse leavng groups tan the $\mathsf { p } K _ { \mathrm { a } }$ values of HFalues ot rH and HCN would imply. This presumably reflects the great strength of the C–F and C–CNnd HCN woul impy.Thispesumbyrefects the greatstrengthofthe C-F andC-C bonds.onds
 

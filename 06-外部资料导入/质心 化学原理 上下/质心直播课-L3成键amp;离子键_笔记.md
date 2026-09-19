@@ -905,7 +905,26 @@ o 平均键能计算：总能量1652 kJ/mol除以4个C-H键，得到平均键能
 
  键能数据表 01:53:26
 
-<table><tr><td colspan="5">Single Bonds</td><td colspan="3">Multiple Bonds</td></tr><tr><td>H-H</td><td>432</td><td>N-H</td><td>391</td><td>I-I</td><td>149</td><td>C=C</td><td>614</td></tr><tr><td>H-F</td><td>565</td><td>N-N</td><td>160</td><td>I-Cl</td><td>208</td><td>C≡C</td><td>839</td></tr><tr><td>H-Cl</td><td>427</td><td>N-F</td><td>272</td><td>I-Br</td><td>175</td><td>O=O</td><td>495</td></tr><tr><td>H-Br</td><td>363</td><td>N-Cl</td><td>200</td><td></td><td></td><td>C=O*</td><td>745</td></tr><tr><td>H-I</td><td>295</td><td>N-Br</td><td>243</td><td>S-H</td><td>347</td><td>C≡O</td><td>1072</td></tr><tr><td></td><td></td><td>N-O</td><td>201</td><td>S-F</td><td>327</td><td>N=O</td><td>607</td></tr><tr><td>C-H</td><td>413</td><td>O-H</td><td>467</td><td>S-Cl</td><td>253</td><td>N=N</td><td>418</td></tr><tr><td>C-C</td><td>347</td><td>O-O</td><td>146</td><td>S-Br</td><td>218</td><td>N≡N</td><td>941</td></tr><tr><td>C-N</td><td>305</td><td>O-F</td><td>190</td><td>S-S</td><td>266</td><td>C≡N</td><td>891</td></tr><tr><td>C-O</td><td>358</td><td>O-Cl</td><td>203</td><td></td><td></td><td>C≡N</td><td>615</td></tr><tr><td>C-F</td><td>485</td><td>O-I</td><td>234</td><td>Si-Si</td><td>340</td><td></td><td></td></tr><tr><td>C-Cl</td><td>339</td><td></td><td></td><td>Si-H</td><td>393</td><td></td><td></td></tr><tr><td>C-Br</td><td>276</td><td>F-F</td><td>154</td><td>Si-C</td><td>360</td><td></td><td></td></tr><tr><td>C-I</td><td>240</td><td>F-Cl</td><td>253</td><td>Si-O</td><td>452</td><td></td><td></td></tr><tr><td>C-S</td><td>259</td><td>F-Br</td><td>237</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>Cl-Cl</td><td>239</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>Cl-Br</td><td>218</td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>Br-Br</td><td>193</td><td></td><td></td><td></td><td></td></tr></table>
+| Single Bonds |  |  |  |  | Multiple Bonds |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| H-H | 432 | N-H | 391 | I-I | 149 | C=C | 614 |
+| H-F | 565 | N-N | 160 | I-Cl | 208 | C≡C | 839 |
+| H-Cl | 427 | N-F | 272 | I-Br | 175 | O=O | 495 |
+| H-Br | 363 | N-Cl | 200 |  |  | C=O* | 745 |
+| H-I | 295 | N-Br | 243 | S-H | 347 | C≡O | 1072 |
+|  |  | N-O | 201 | S-F | 327 | N=O | 607 |
+| C-H | 413 | O-H | 467 | S-Cl | 253 | N=N | 418 |
+| C-C | 347 | O-O | 146 | S-Br | 218 | N≡N | 941 |
+| C-N | 305 | O-F | 190 | S-S | 266 | C≡N | 891 |
+| C-O | 358 | O-Cl | 203 |  |  | C≡N | 615 |
+| C-F | 485 | O-I | 234 | Si-Si | 340 |  |  |
+| C-Cl | 339 |  |  | Si-H | 393 |  |  |
+| C-Br | 276 | F-F | 154 | Si-C | 360 |  |  |
+| C-I | 240 | F-Cl | 253 | Si-O | 452 |  |  |
+| C-S | 259 | F-Br | 237 |  |  |  |  |
+|  |  | Cl-Cl | 239 |  |  |  |  |
+|  |  | Cl-Br | 218 |  |  |  |  |
+|  |  | Br-Br | 193 |  |  |  |  |
 
 oo 数据来源：键能数据是通过⼤量实验测量后，经过可靠性筛选后整理得到的平均值。
 

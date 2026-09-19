@@ -75,7 +75,16 @@ Chemical structure of over氧化二苯甲酰 (isocyanate)
 
 过氧化物做了什么使反应机理发生了改变呢？过氧化物极其容易发生弱 O-O 键的均裂，并形成两个自由基。我们说过，HCl 在气相中发生均裂比发生异裂有利：这也是易发生均裂的另一类键。通过对比键解离能 $(X-Y \rightarrow X^{\bullet} + Y^{\bullet}$ 的 $\Delta G)$ ，您可以自己发现这一点。
 
-<table><tr><td>X-Y键</td><td>X-Y → X• + Y• 的 ΔG, kJ mol-1</td><td>X-Y键</td><td>X-Y → X• + Y• 的 ΔG, kJ mol-1</td></tr><tr><td>H-OH</td><td>498</td><td>CH3-Br</td><td>293</td></tr><tr><td>H3C-H</td><td>435</td><td>CH3-I</td><td>234</td></tr><tr><td>H3C-OH</td><td>383</td><td>Cl-Cl</td><td>243</td></tr><tr><td>H3C-CH3</td><td>368</td><td>Br-Br</td><td>192</td></tr><tr><td>H-Cl</td><td>431</td><td>I-I</td><td>151</td></tr><tr><td>H-Br</td><td>366</td><td>HO-OH</td><td>213</td></tr><tr><td>H-I</td><td>298</td><td>MeO-OMe</td><td>151</td></tr><tr><td>CH3-Cl</td><td>349</td><td></td><td></td></tr></table>
+| X-Y键 | X-Y → X• + Y• 的 ΔG, kJ mol-1 | X-Y键 | X-Y → X• + Y• 的 ΔG, kJ mol-1 |
+| --- | --- | --- | --- |
+| H-OH | 498 | CH3-Br | 293 |
+| H3C-H | 435 | CH3-I | 234 |
+| H3C-OH | 383 | Cl-Cl | 243 |
+| H3C-CH3 | 368 | Br-Br | 192 |
+| H-Cl | 431 | I-I | 151 |
+| H-Br | 366 | HO-OH | 213 |
+| H-I | 298 | MeO-OMe | 151 |
+| CH3-Cl | 349 |  |  |
 
 过氧化二烷基/二烷基过氧化物 dialkyl peroxides（表中有过氧化二甲基）包含非常弱的 O–O 键。由这些键，仅需一点加热或光照，均裂而形成的自由基可引发我们称之为自由基链式反应（radical chain reaction）的过程，此过程会导致 Br• 自由基的形成，继而添加到烯烃的 C=C 键上（见 Chapter 24）。
 
@@ -3537,7 +3546,13 @@ Chemical reaction diagram showing oxidation of an aryl carbonyl compound under N
 
 芳香醛发生 Cannizzaro 反应的速率
 
-<table><tr><td>R =</td><td>与苯甲醛在 25°C下的相对速率</td><td>与苯甲醛在 100°C下的相对速率</td></tr><tr><td>H</td><td>1</td><td>1</td></tr><tr><td>Me</td><td>0.2</td><td>0.2</td></tr><tr><td>MeO</td><td>0.05</td><td>0.1</td></tr><tr><td>Me2N</td><td>非常慢</td><td>0.0004</td></tr><tr><td>NO2</td><td>210</td><td>2200</td></tr></table>
+| R = | 与苯甲醛在 25°C下的相对速率 | 与苯甲醛在 100°C下的相对速率 |
+| --- | --- | --- |
+| H | 1 | 1 |
+| Me | 0.2 | 0.2 |
+| MeO | 0.05 | 0.1 |
+| Me2N | 非常慢 | 0.0004 |
+| NO2 | 210 | 2200 |
 
 我们已经了解过苯环上的取代基对亲电取代反应速率的影响 (Chapter 21)。MeO、 $\mathrm{Me}_2\mathrm{N}$ 等给电子基会显著提高芳环被亲电试剂进攻的速率，而吸电子基，尤其是硝基，会减缓反应。Cannizzaro 反应并不在苯环本身上发生，但取代基仍然会显示它们的存在。有给电子基的 Cannizzaro 反应发生得更慢，有吸电子基的发生得更快的事实，告诉我们，不同于芳香亲电取代中正电荷的积累，在此反应中，必定有在与芳环邻近的某处负电荷的积累。当已经存在一个将电子密度推向环的基团时，更多负电荷的积累会变得不利。我们的机理与此一致，它所涉及的单阴离子或双阴离子中间体会被吸电子基团稳定，而被给电子基团去稳定。
 
@@ -3962,7 +3977,20 @@ $$
 \sigma_ {\mathrm{X}} = \log \left(\frac {K _ {\mathrm{a}} \left(\mathrm{XC} _ {6} \mathrm{H} _ {4} \mathrm{COOH}\right)}{K _ {\mathrm{a}} \left(\mathrm{C} _ {6} \mathrm{H} _ {5} \mathrm{COOH}\right)}\right) = \mathrm{p} K _ {\mathrm{a}} \left(\mathrm{C} _ {6} \mathrm{H} _ {5} \mathrm{COOH}\right) - \mathrm{p} K _ {\mathrm{a}} \left(\mathrm{XC} _ {6} \mathrm{H} _ {4} \mathrm{COOH}\right)
 $$
 
-<table><tr><td>取代基X</td><td> $p-XC_6H_4COOH$ 的 $pK_a$ </td><td> $m-XC_6H_4COOH$ 的 $pK_a$ </td><td> $σ_p$ </td><td> $σ_m$ </td><td>备注</td></tr><tr><td> $NH_2$ </td><td>4.82</td><td>4.20</td><td>-0.62</td><td>0.00</td><td rowspan="2">给电子基团具有负的 $σ$ </td></tr><tr><td> $OCH_3$ </td><td>4.49</td><td>4.09</td><td>-0.29</td><td>0.11</td></tr><tr><td> $CH_3$ </td><td>4.37</td><td>4.26</td><td>-0.17</td><td>-0.06</td><td></td></tr><tr><td>H</td><td>4.20</td><td>4.20</td><td>0.00</td><td>0.00</td><td rowspan="2">没有邻位取代基的 $σ$ 数值</td></tr><tr><td>F</td><td>4.15</td><td>3.86</td><td>0.05</td><td>0.34</td></tr><tr><td>I</td><td>3.97</td><td>3.85</td><td>0.23</td><td>0.35</td><td></td></tr><tr><td>Cl</td><td>3.98</td><td>3.83</td><td>0.22</td><td>0.37</td><td rowspan="2">由于吸电子诱导 $σ_p < σ_m$ </td></tr><tr><td>Br</td><td>3.97</td><td>3.80</td><td>0.23</td><td>0.40</td></tr><tr><td> $CO_2CH_3$ </td><td>3.75</td><td>3.87</td><td>0.45</td><td>0.33</td><td></td></tr><tr><td> $COCH_3$ </td><td>3.71</td><td>3.83</td><td>0.49</td><td>0.37</td><td rowspan="2">共轭基团的 $σ_p$ 比 $σ_m$ 更有效</td></tr><tr><td>CN</td><td>3.53</td><td>3.58</td><td>0.67</td><td>0.62</td></tr><tr><td> $NO_2$ </td><td>3.43</td><td>3.47</td><td>0.77</td><td>0.73</td><td>吸电子基团具有正的 $σ$ </td></tr></table>
+| 取代基X | $p-XC_6H_4COOH$ 的 $pK_a$ | $m-XC_6H_4COOH$ 的 $pK_a$ | $σ_p$ | $σ_m$ | 备注 |
+| --- | --- | --- | --- | --- | --- |
+| $NH_2$ | 4.82 | 4.20 | -0.62 | 0.00 | 给电子基团具有负的 $σ$ |
+| $OCH_3$ | 4.49 | 4.09 | -0.29 | 0.11 | 给电子基团具有负的 $σ$ |
+| $CH_3$ | 4.37 | 4.26 | -0.17 | -0.06 |  |
+| H | 4.20 | 4.20 | 0.00 | 0.00 | 没有邻位取代基的 $σ$ 数值 |
+| F | 4.15 | 3.86 | 0.05 | 0.34 | 没有邻位取代基的 $σ$ 数值 |
+| I | 3.97 | 3.85 | 0.23 | 0.35 |  |
+| Cl | 3.98 | 3.83 | 0.22 | 0.37 | 由于吸电子诱导 $σ_p < σ_m$ |
+| Br | 3.97 | 3.80 | 0.23 | 0.40 | 由于吸电子诱导 $σ_p < σ_m$ |
+| $CO_2CH_3$ | 3.75 | 3.87 | 0.45 | 0.33 |  |
+| $COCH_3$ | 3.71 | 3.83 | 0.49 | 0.37 | 共轭基团的 $σ_p$ 比 $σ_m$ 更有效 |
+| CN | 3.53 | 3.58 | 0.67 | 0.62 | 共轭基团的 $σ_p$ 比 $σ_m$ 更有效 |
+| $NO_2$ | 3.43 | 3.47 | 0.77 | 0.73 | 吸电子基团具有正的 $σ$ |
 
 背下表内精确的数字毫无意义，但形成对 $\sigma$ 值的含义普遍性的思想对您是有帮助的。如果 $\sigma = 0$ 那么取代基没有任何效果：它与H在电子角度上是相同的。如果 $\sigma$ 是正的，那么取代基是吸电子的，将其与酸的强度联系，具有更强吸电子取代基的酸酸性更强。正的 $\sigma$ 值意味着更强的酸，取代基也更吸电子。取代基在环上引起的正电荷越大，它的 $\sigma$ 值也越大。负的 $\sigma$ 值意味着更弱的酸，也更加给电子。 $\sigma$ 键极化造成的诱导效应，对于取代基更近的 $\sigma_{\mathrm{m}}$ 比对于 $\sigma_{\mathrm{p}}$ 影响得更大。
 

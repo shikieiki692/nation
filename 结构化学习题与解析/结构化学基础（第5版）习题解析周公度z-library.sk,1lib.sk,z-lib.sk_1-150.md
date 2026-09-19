@@ -3849,7 +3849,14 @@ $$
 
 解 因为 3 个原子定一个平面, 下表镜面栏中 1C2 表示由 1 号原子、C 原子和 2 号原子所定的平面为镜面。
 
-<table><tr><td>分子</td><td>(1)  $CH_{4}$ </td><td>(2)  $CH_{3}F$ </td><td>(3)  $CH_{2}F_{2}$ </td><td>(4)  $CH_{2}FCl$ </td><td>(5)  $CHFCl_{2}$ </td><td>(6)  $CHFClBr$ </td></tr><tr><td rowspan="3">镜面</td><td>1C2,1C3</td><td>1C4,2C4</td><td>1C2,3C4</td><td>3C4</td><td>1C4</td><td>—</td></tr><tr><td>1C4,2C3</td><td>3C4</td><td></td><td></td><td></td><td></td></tr><tr><td>2C4,3C4</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>点群</td><td> $T_{d}$ </td><td> $C_{3v}$ </td><td> $C_{2v}$ </td><td> $C_{s}$ </td><td> $C_{s}$ </td><td> $C_{1}$ </td></tr><tr><td>极性</td><td>非极性</td><td>极性</td><td>极性</td><td>极性</td><td>极性</td><td>极性</td></tr><tr><td>旋光性</td><td>无</td><td>无</td><td>无</td><td>无</td><td>无</td><td>有</td></tr></table>
+| 分子 | (1) $CH_{4}$ | (2) $CH_{3}F$ | (3) $CH_{2}F_{2}$ | (4) $CH_{2}FCl$ | (5) $CHFCl_{2}$ | (6) $CHFClBr$ |
+| --- | --- | --- | --- | --- | --- | --- |
+| 镜面 | 1C2,1C3 | 1C4,2C4 | 1C2,3C4 | 3C4 | 1C4 | — |
+| 镜面 | 1C4,2C3 | 3C4 |  |  |  |  |
+| 镜面 | 2C4,3C4 |  |  |  |  |  |
+| 点群 | $T_{d}$ | $C_{3v}$ | $C_{2v}$ | $C_{s}$ | $C_{s}$ | $C_{1}$ |
+| 极性 | 非极性 | 极性 | 极性 | 极性 | 极性 | 极性 |
+| 旋光性 | 无 | 无 | 无 | 无 | 无 | 有 |
 
 【4.21】八面体配位的 $\mathrm{Fe}(\mathrm{C}_{2}\mathrm{O}_{4})_{3}^{3-}$ 有哪些异构体？属什么点群？旋光性情况如何？
 

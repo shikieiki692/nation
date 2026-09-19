@@ -5439,7 +5439,17 @@ $$
 
 TABLE 11.3 ▶ Experimental Vapor Pressures of Pure Ethanol at Various Temperature
 
-<table><tr><td>t/°C</td><td>T/K</td><td>Vapor Pressure/torr</td><td>Expected Error/torr</td></tr><tr><td>25.00</td><td>298.15</td><td>55.9</td><td>3.0</td></tr><tr><td>30.00</td><td>303.15</td><td>70.0</td><td>3.0</td></tr><tr><td>35.00</td><td>308.15</td><td>93.8</td><td>4.2</td></tr><tr><td>40.00</td><td>313.15</td><td>117.5</td><td>5.5</td></tr><tr><td>45.00</td><td>318.15</td><td>154.1</td><td>6.0</td></tr><tr><td>50.00</td><td>323.15</td><td>190.7</td><td>7.6</td></tr><tr><td>55.00</td><td>328.15</td><td>241.9</td><td>8.0</td></tr><tr><td>60.00</td><td>333.15</td><td>304.15</td><td>8.8</td></tr><tr><td>65.00</td><td>338.15</td><td>377.9</td><td>9.5</td></tr></table>
+| t/°C | T/K | Vapor Pressure/torr | Expected Error/torr |
+| --- | --- | --- | --- |
+| 25.00 | 298.15 | 55.9 | 3.0 |
+| 30.00 | 303.15 | 70.0 | 3.0 |
+| 35.00 | 308.15 | 93.8 | 4.2 |
+| 40.00 | 313.15 | 117.5 | 5.5 |
+| 45.00 | 318.15 | 154.1 | 6.0 |
+| 50.00 | 323.15 | 190.7 | 7.6 |
+| 55.00 | 328.15 | 241.9 | 8.0 |
+| 60.00 | 333.15 | 304.15 | 8.8 |
+| 65.00 | 338.15 | 377.9 | 9.5 |
 
 ![[c995f0c7ea57bc72b242a6db8f02a10bc83f2f52d82483d364d5a7dee936c05f.jpg]]  
 Figure 11.1 ▶ The vapor pressure of ethanol as a function of temperature.
@@ -6181,7 +6191,18 @@ We also discussed graphical and numerical data reduction procedures. The most im
 
 1. Assume that a sample of 10 sheets of paper has been selected randomly from a ream (500 sheets) of paper. Regard the ream as a population, even though it has only a finite number of members. The width and length of each sheet of the sample were measured, with the following results:
 
-<table><tr><td>Sheet number</td><td>Width/in</td><td>Length/in</td></tr><tr><td>1</td><td>8.50</td><td>11.03</td></tr><tr><td>2</td><td>8.48</td><td>10.99</td></tr><tr><td>3</td><td>8.51</td><td>10.98</td></tr><tr><td>4</td><td>8.49</td><td>11.00</td></tr><tr><td>5</td><td>8.50</td><td>11.01</td></tr><tr><td>6</td><td>8.48</td><td>11.02</td></tr><tr><td>7</td><td>8.52</td><td>10.98</td></tr><tr><td>8</td><td>8.47</td><td>11.04</td></tr><tr><td>9</td><td>8.53</td><td>10.97</td></tr><tr><td>10</td><td>8.51</td><td>11.00</td></tr></table>
+| Sheet number | Width/in | Length/in |
+| --- | --- | --- |
+| 1 | 8.50 | 11.03 |
+| 2 | 8.48 | 10.99 |
+| 3 | 8.51 | 10.98 |
+| 4 | 8.49 | 11.00 |
+| 5 | 8.50 | 11.01 |
+| 6 | 8.48 | 11.02 |
+| 7 | 8.52 | 10.98 |
+| 8 | 8.47 | 11.04 |
+| 9 | 8.53 | 10.97 |
+| 10 | 8.51 | 11.00 |
 
 a) Calculate the sample mean length and its sample standard deviation, and the sample mean width and its sample standard deviation.
 

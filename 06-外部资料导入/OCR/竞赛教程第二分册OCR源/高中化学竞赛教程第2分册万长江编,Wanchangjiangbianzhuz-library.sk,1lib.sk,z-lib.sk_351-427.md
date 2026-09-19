@@ -346,7 +346,15 @@ V. X 含 5 个—OH 基。
 
 (2) $\mathrm{HOCH}_2(\mathrm{CHOH})_4\mathrm{CHO}$
 
-<table><tr><td>(3)</td><td>CH=NNHC6H5</td><td>COOH</td><td>CN</td></tr><tr><td></td><td>| (CHOH)4</td><td>| (CHOH)4</td><td>| (CHOH)5</td></tr><tr><td></td><td>CH2OH</td><td>CH2OH</td><td>CH2OH</td></tr><tr><td></td><td>A</td><td></td><td></td></tr><tr><td></td><td>COOH</td><td>COOH</td><td>C</td></tr><tr><td></td><td>| (CHOH)5</td><td>| (CH2)5</td><td>| (CHOCOCH3)4</td></tr><tr><td></td><td>CH2OH</td><td>CH3</td><td>CH2OCOCH3</td></tr><tr><td></td><td>D</td><td colspan="2">庚酸</td></tr></table>
+| (3) | CH=NNHC6H5 | COOH | CN |
+| --- | --- | --- | --- |
+|  | \| (CHOH)4 | \| (CHOH)4 | \| (CHOH)5 |
+|  | CH2OH | CH2OH | CH2OH |
+|  | A |  |  |
+|  | COOH | COOH | C |
+|  | \| (CHOH)5 | \| (CH2)5 | \| (CHOCOCH3)4 |
+|  | CH2OH | CH3 | CH2OCOCH3 |
+|  | D | 庚酸 |  |
 
 ## (4) D-(+)-葡萄糖
 

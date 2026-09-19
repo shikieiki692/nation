@@ -673,7 +673,12 @@ $$
 
 (1) 请完成以下实验设计表, 并在实验目的一栏中填出对应的实验编号:
 
-<table><tr><td>实验编号</td><td>T/K</td><td>大理石规格</td><td>HNO3浓度/(mol·L-1)</td><td>实验目的</td></tr><tr><td>1</td><td>298</td><td>粗颗粒</td><td>2.00</td><td rowspan="4">(I)实验1和2探究HNO3浓度对该反应速率的影响;(II)实验1和 探究温度对该反应速率的影响;(III)实验1和 探究大理石规格(粗、细)对该反应速率的影响</td></tr><tr><td>2</td><td></td><td></td><td></td></tr><tr><td>3</td><td></td><td></td><td></td></tr><tr><td>4</td><td></td><td></td><td></td></tr></table>
+| 实验编号 | T/K | 大理石规格 | HNO3浓度/(mol·L-1) | 实验目的 |
+| --- | --- | --- | --- | --- |
+| 1 | 298 | 粗颗粒 | 2.00 | (I)实验1和2探究HNO3浓度对该反应速率的影响;(II)实验1和 探究温度对该反应速率的影响;(III)实验1和 探究大理石规格(粗、细)对该反应速率的影响 |
+| 2 |  |  |  | (I)实验1和2探究HNO3浓度对该反应速率的影响;(II)实验1和 探究温度对该反应速率的影响;(III)实验1和 探究大理石规格(粗、细)对该反应速率的影响 |
+| 3 |  |  |  | (I)实验1和2探究HNO3浓度对该反应速率的影响;(II)实验1和 探究温度对该反应速率的影响;(III)实验1和 探究大理石规格(粗、细)对该反应速率的影响 |
+| 4 |  |  |  | (I)实验1和2探究HNO3浓度对该反应速率的影响;(II)实验1和 探究温度对该反应速率的影响;(III)实验1和 探究大理石规格(粗、细)对该反应速率的影响 |
 
 (2) 实验①中 $\mathrm{CO}_{2}$ 质量随时间变化的关系见右图:
 
@@ -685,7 +690,12 @@ $$
 
 ## 过程探究 (1)
 
-<table><tr><td>实验编号</td><td>T/K</td><td>大理石规格</td><td>HNO3浓度/(mol·L-1)</td><td>实验目的</td></tr><tr><td>1</td><td>298</td><td>粗颗粒</td><td>2.00</td><td rowspan="4">(I)实验1和2探究HNO3浓度对该反应速率的影响;(II)实验1和3探究温度对该反应速率的影响;(III)实验1和4探究大理石规格(粗、细)对该反应速率的影响</td></tr><tr><td>2</td><td>298</td><td>粗颗粒</td><td>1.00</td></tr><tr><td>3</td><td>308</td><td>粗颗粒</td><td>2.00</td></tr><tr><td>4</td><td>298</td><td>细颗粒</td><td>2.00</td></tr></table>
+| 实验编号 | T/K | 大理石规格 | HNO3浓度/(mol·L-1) | 实验目的 |
+| --- | --- | --- | --- | --- |
+| 1 | 298 | 粗颗粒 | 2.00 | (I)实验1和2探究HNO3浓度对该反应速率的影响;(II)实验1和3探究温度对该反应速率的影响;(III)实验1和4探究大理石规格(粗、细)对该反应速率的影响 |
+| 2 | 298 | 粗颗粒 | 1.00 | (I)实验1和2探究HNO3浓度对该反应速率的影响;(II)实验1和3探究温度对该反应速率的影响;(III)实验1和4探究大理石规格(粗、细)对该反应速率的影响 |
+| 3 | 308 | 粗颗粒 | 2.00 | (I)实验1和2探究HNO3浓度对该反应速率的影响;(II)实验1和3探究温度对该反应速率的影响;(III)实验1和4探究大理石规格(粗、细)对该反应速率的影响 |
+| 4 | 298 | 细颗粒 | 2.00 | (I)实验1和2探究HNO3浓度对该反应速率的影响;(II)实验1和3探究温度对该反应速率的影响;(III)实验1和4探究大理石规格(粗、细)对该反应速率的影响 |
 
 (2) ① 70 至 90 s, $CO_{2}$ 生成的质量为: $m(\mathrm{CO}_{2}) = 0.95 \, \mathrm{g} - 0.85 \, \mathrm{g} = 0.10 \, \mathrm{g}$ ;
 
@@ -830,7 +840,9 @@ $$
 
 其化学平衡常数 $K$ 和温度的关系如下表:
 
-<table><tr><td>t/°C</td><td>700</td><td>800</td><td>830</td><td>1000</td><td>1200</td></tr><tr><td>K</td><td>0.6</td><td>0.9</td><td>1.0</td><td>1.7</td><td>2.6</td></tr></table>
+| t/°C | 700 | 800 | 830 | 1000 | 1200 |
+| --- | --- | --- | --- | --- | --- |
+| K | 0.6 | 0.9 | 1.0 | 1.7 | 2.6 |
 
 根据以上信息做出下列判断,其中正确的是( )。
 A. 此反应为吸热反应
@@ -1053,7 +1065,11 @@ $$
 
 几种弱酸的电离平衡常数(室温)
 
-<table><tr><td>弱酸</td><td>H2C2O4</td><td>H3PO4</td><td>HCOOH</td><td colspan="2">CH3COOH</td></tr><tr><td>Ka</td><td>5.9×10-2</td><td>7.6×10-3</td><td>1.8×10-4</td><td colspan="2">1.8×10-5</td></tr><tr><td>弱酸</td><td>H2CO3</td><td>H2S</td><td>HCN</td><td>H3BO3</td><td>HCO3-</td></tr><tr><td>Ka</td><td>4.2×10-7</td><td>1.3×10-7</td><td>6.2×10-10</td><td>5.8×10-10</td><td>5.6×10-11</td></tr></table>
+| 弱酸 | H2C2O4 | H3PO4 | HCOOH | CH3COOH |  |
+| --- | --- | --- | --- | --- | --- |
+| Ka | 5.9×10-2 | 7.6×10-3 | 1.8×10-4 | 1.8×10-5 |  |
+| 弱酸 | H2CO3 | H2S | HCN | H3BO3 | HCO3- |
+| Ka | 4.2×10-7 | 1.3×10-7 | 6.2×10-10 | 5.8×10-10 | 5.6×10-11 |
 
 由于离子反应的反应方向是趋向离子浓度的减小, 因此一般是由强电解质生成弱电解质。例如 $K_{\mathrm{a}}(\mathrm{CH}_{3} \mathrm{COOH}) > K_{\mathrm{a}}(\mathrm{H}_{2} \mathrm{CO}_{3})$ ，故足量的 $\mathrm{CH}_{3} \mathrm{COOH}$ 能使 $\mathrm{HCO}_{3}^{-}$ 转化为 $\mathrm{H}_{2} \mathrm{CO}_{3}$ 。
 
@@ -2183,7 +2199,10 @@ $\lg c(SO_{4}^{2-})$
 
 请结合下列数据,回答下列问题:
 
-<table><tr><td>物质</td><td>Fe(OH)2</td><td>Cu(OH)2</td><td>Fe(OH)3</td></tr><tr><td>溶度积(25°C)</td><td>8.0×10-16</td><td>2.2×10-20</td><td>4.0×10-38</td></tr><tr><td>完全沉淀时的pH范围</td><td>≥9.6</td><td>≥6.4</td><td>3~4</td></tr></table>
+| 物质 | Fe(OH)2 | Cu(OH)2 | Fe(OH)3 |
+| --- | --- | --- | --- |
+| 溶度积(25°C) | 8.0×10-16 | 2.2×10-20 | 4.0×10-38 |
+| 完全沉淀时的pH范围 | ≥9.6 | ≥6.4 | 3~4 |
 
 (1) 在溶液 A 中加入 NaClO 的目的是\_\_\_\_；
 
@@ -2252,7 +2271,9 @@ $$
 
 ![](高中化学竞赛教程第2分册万长江编,Wanchangjiangbianzhuz-library.sk,1lib.sk,z-lib.sk_1-199_images/e8a9d05900f0ecebcc970233cc36d8921c95b19846c7b37a4d904303469bb411.jpg)
 
-<table><tr><td>沉淀物</td><td>Fe(OH)3</td><td>Al(OH)3</td><td>Mg(OH)2</td></tr><tr><td>pH</td><td>3.2</td><td>5.2</td><td>12.4</td></tr></table>
+| 沉淀物 | Fe(OH)3 | Al(OH)3 | Mg(OH)2 |
+| --- | --- | --- | --- |
+| pH | 3.2 | 5.2 | 12.4 |
 
 部分阳离子以氢氧化物形式完全沉淀时溶液的 pH 见上表,请回答下列问题:
 
@@ -2368,7 +2389,10 @@ $(\mathrm{CaCO_3}$ 的 $K_{\mathrm{sp}} = 2.8\times 10^{-9},\mathrm{H_2CO_3}$ �
 
 ② 移取 $25.00 \, \mathrm{mL} \, \mathrm{Ca(OH)}_{2}$ 饱和溶液放入锥形瓶中，加 3 滴甲基橙，用 $0.0500 \, \mathrm{mol} \cdot \mathrm{L}^{-1} \, HCl$ 标准溶液滴定，溶液变成橙色时记录所耗 HCl 标准溶液的体积。实验数据见下表。
 
-<table><tr><td>步骤</td><td colspan="3">消耗滴定剂体积(mL)</td></tr><tr><td>步骤1</td><td>29.03</td><td>29.02</td><td>29.04</td></tr><tr><td>步骤2</td><td>18.72</td><td>18.75</td><td>18.69</td></tr></table>
+| 步骤 | 消耗滴定剂体积(mL) |  |  |
+| --- | --- | --- | --- |
+| 步骤1 | 29.03 | 29.02 | 29.04 |
+| 步骤2 | 18.72 | 18.75 | 18.69 |
 
 通过该实验计算氢氧化钙的 $K_{sp}$ 值。
 
@@ -3280,7 +3304,20 @@ $$
 
 实用的一次电池及其有关性质
 
-<table><tr><td rowspan="2">分类</td><td colspan="2">电极</td><td rowspan="2">电解质</td><td rowspan="2">电池反应</td></tr><tr><td>正极</td><td>负极</td></tr><tr><td rowspan="3">盐类电解质电池</td><td> $MnO_2$ </td><td>Zn</td><td> $NH_4Cl/ZnCl_2$ </td><td> $Zn + 2MnO_2 + 2NH_4Cl \longrightarrow 2MnOOH + Zn(NH_3)_2Cl_2$ </td></tr><tr><td> $O_2$ </td><td>Zn</td><td> $NH_4Cl/ZnCl_2$ </td><td> $Zn + 1/2O_2 \longrightarrow ZnO$ </td></tr><tr><td>CuCl</td><td>Mg</td><td>NaCl或KCl</td><td> $Mg + 2CuCl \longrightarrow MgCl_2 + 2Cu$ </td></tr><tr><td rowspan="4">酸或碱性电解质电池</td><td> $MnO_2$ </td><td>Zn</td><td>KOH</td><td> $Zn + MnO_2 + 2H_2O + 2KOH \longrightarrow Mn(OH)_2 + K_2[Zn(OH)_4]$ </td></tr><tr><td> $MnO_2$ </td><td>Mg</td><td>KOH</td><td> $Mg + 2MnO_2 + 2H_2O \longrightarrow 2MnOOH + Mg(OH)_2$ </td></tr><tr><td>HgO</td><td>Zn</td><td>KOH</td><td> $Zn + HgO \longrightarrow ZnO + Hg$ </td></tr><tr><td> $Ag_2O$ </td><td>Zn</td><td>KOH</td><td> $Zn + Ag_2O + H_2O \longrightarrow Zn(OH)_2 + 2Ag$ </td></tr><tr><td rowspan="3">有机电解质电池</td><td rowspan="2"> $SOCl_2$  $(CF_x)_n$ </td><td>Li</td><td> $SOCl_2/LiAlCl_4$ </td><td> $4Li + 2SOCl_2 \longrightarrow 4LiCl + S + SO_2 \uparrow$ </td></tr><tr><td>Li</td><td> $LiClO_4$ </td><td> $nxLi + (CF_x)_n \longrightarrow nxLiF + nC$ </td></tr><tr><td>CuO</td><td>Li</td><td> $LiClO_4$ </td><td> $2Li + CuO \longrightarrow Li_2CuO$ </td></tr><tr><td>固体电解质电池</td><td> $RbI_3$ </td><td>Ag</td><td> $RbAg_4I_5$ </td><td> $4Ag + 2RbI_3 \longrightarrow Rb_2AgI_3 + 3AgI$ </td></tr></table>
+| 分类 | 电极 |  | 电解质 | 电池反应 |
+| --- | --- | --- | --- | --- |
+| 分类 | 正极 | 负极 | 电解质 | 电池反应 |
+| 盐类电解质电池 | $MnO_2$ | Zn | $NH_4Cl/ZnCl_2$ | $Zn + 2MnO_2 + 2NH_4Cl \longrightarrow 2MnOOH + Zn(NH_3)_2Cl_2$ |
+| 盐类电解质电池 | $O_2$ | Zn | $NH_4Cl/ZnCl_2$ | $Zn + 1/2O_2 \longrightarrow ZnO$ |
+| 盐类电解质电池 | CuCl | Mg | NaCl或KCl | $Mg + 2CuCl \longrightarrow MgCl_2 + 2Cu$ |
+| 酸或碱性电解质电池 | $MnO_2$ | Zn | KOH | $Zn + MnO_2 + 2H_2O + 2KOH \longrightarrow Mn(OH)_2 + K_2[Zn(OH)_4]$ |
+| 酸或碱性电解质电池 | $MnO_2$ | Mg | KOH | $Mg + 2MnO_2 + 2H_2O \longrightarrow 2MnOOH + Mg(OH)_2$ |
+| 酸或碱性电解质电池 | HgO | Zn | KOH | $Zn + HgO \longrightarrow ZnO + Hg$ |
+| 酸或碱性电解质电池 | $Ag_2O$ | Zn | KOH | $Zn + Ag_2O + H_2O \longrightarrow Zn(OH)_2 + 2Ag$ |
+| 有机电解质电池 | $SOCl_2$ $(CF_x)_n$ | Li | $SOCl_2/LiAlCl_4$ | $4Li + 2SOCl_2 \longrightarrow 4LiCl + S + SO_2 \uparrow$ |
+| 有机电解质电池 | $SOCl_2$ $(CF_x)_n$ | Li | $LiClO_4$ | $nxLi + (CF_x)_n \longrightarrow nxLiF + nC$ |
+| 有机电解质电池 | CuO | Li | $LiClO_4$ | $2Li + CuO \longrightarrow Li_2CuO$ |
+| 固体电解质电池 | $RbI_3$ | Ag | $RbAg_4I_5$ | $4Ag + 2RbI_3 \longrightarrow Rb_2AgI_3 + 3AgI$ |
 
 ## (1) 盐类电解质电池
 
@@ -3416,7 +3453,14 @@ $$
 
 燃料电池的种类和特征
 
-<table><tr><td colspan="2">电池类型</td><td>PAFC</td><td>MCFC</td><td>SOFC</td><td>AFC</td><td>PEMFC</td></tr><tr><td rowspan="2">电极</td><td>正极</td><td>高分散 Pt</td><td>高分散 Ni</td><td>多孔 Pt</td><td>高分散 Ni</td><td>高分散 Pt</td></tr><tr><td>负极</td><td>高分散 Pt</td><td>高分散 Ni</td><td>多孔 Pt</td><td>高分散 Ni</td><td>高分散 Pt(-Ru)</td></tr><tr><td colspan="2">电解质</td><td>浓 H3PO4</td><td>Li2CO3-K2CO3(Na2CO3)</td><td>ZrO2</td><td>KOH 或 NaOH</td><td>质子交换膜(如 Nafion 膜)</td></tr><tr><td colspan="2">工作温度</td><td>180~210°C</td><td>600~700°C</td><td>900~1000°C</td><td>室温~100°C</td><td>25~120°C</td></tr><tr><td colspan="2">燃料</td><td>H2</td><td>CO或 H2</td><td>H2或 CO</td><td>H2</td><td>H2或甲醇</td></tr><tr><td colspan="2">电池反应</td><td>2H2+O2→2H2O</td><td>2CO+O2→2CO2</td><td>2H2+O2→2H2O</td><td>2H2+O2→2H2O</td><td>CH3OH+1.5O2→CO2+2H2O</td></tr></table>
+| 电池类型 |  | PAFC | MCFC | SOFC | AFC | PEMFC |
+| --- | --- | --- | --- | --- | --- | --- |
+| 电极 | 正极 | 高分散 Pt | 高分散 Ni | 多孔 Pt | 高分散 Ni | 高分散 Pt |
+| 电极 | 负极 | 高分散 Pt | 高分散 Ni | 多孔 Pt | 高分散 Ni | 高分散 Pt(-Ru) |
+| 电解质 |  | 浓 H3PO4 | Li2CO3-K2CO3(Na2CO3) | ZrO2 | KOH 或 NaOH | 质子交换膜(如 Nafion 膜) |
+| 工作温度 |  | 180~210°C | 600~700°C | 900~1000°C | 室温~100°C | 25~120°C |
+| 燃料 |  | H2 | CO或 H2 | H2或 CO | H2 | H2或甲醇 |
+| 电池反应 |  | 2H2+O2→2H2O | 2CO+O2→2CO2 | 2H2+O2→2H2O | 2H2+O2→2H2O | CH3OH+1.5O2→CO2+2H2O |
 
 以质子交换膜燃料电池为例加以说明。
 
@@ -3704,7 +3748,9 @@ C. 阴极反应: $3 \mathrm{O}_{2} + 6 \mathrm{H}_{2} \mathrm{O} + 6 \mathrm{e}^
 
 ⑧ 100.0 g无水氢氧化钾溶于100.0 g水。在T温度下电解该溶液,电流强度I=6.00安培,电解时间10.00小时。电解结束温度重新调至T,分离析出的KOH·2H₂O固体后,测得剩余溶液的总质量为164.8 g。已知不同温度下每100 g溶液中无水氢氧化钾的质量为:
 
-<table><tr><td>温度/°C</td><td>0</td><td>10</td><td>20</td><td>30</td></tr><tr><td>KOH/g</td><td>49.2</td><td>50.8</td><td>52.8</td><td>55.8</td></tr></table>
+| 温度/°C | 0 | 10 | 20 | 30 |
+| --- | --- | --- | --- | --- |
+| KOH/g | 49.2 | 50.8 | 52.8 | 55.8 |
 
 求温度 T, 给出计算过程, 最后计算结果只要求两位有效数字。
 
@@ -4012,7 +4058,13 @@ $Co^{2+}$ 、 $Ni^{2+}$ 、 $Cu^{2+}$ 、Co等，只要能提供接纳孤对电�
 
 (1) 填写下表空白处。
 
-<table><tr><td>序号</td><td>配合物的化学式</td><td>配合物的名称</td><td>形成体</td><td>配位体</td><td>配位数</td></tr><tr><td>1</td><td>[Cu(H2O)4]SO4</td><td>硫酸四水合铜(II)</td><td>Cu(II)</td><td>H2O</td><td>4</td></tr><tr><td>2</td><td></td><td>二氯化四氨合锌(II)</td><td></td><td></td><td></td></tr><tr><td>3</td><td>[CoClNO2(NH3)4]Cl</td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td>K3[Fe(CN)6]</td><td></td><td></td><td></td><td></td></tr><tr><td>5</td><td></td><td>五氯·一氨合铂(IV)酸钾</td><td></td><td></td><td></td></tr></table>
+| 序号 | 配合物的化学式 | 配合物的名称 | 形成体 | 配位体 | 配位数 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | [Cu(H2O)4]SO4 | 硫酸四水合铜(II) | Cu(II) | H2O | 4 |
+| 2 |  | 二氯化四氨合锌(II) |  |  |  |
+| 3 | [CoClNO2(NH3)4]Cl |  |  |  |  |
+| 4 | K3[Fe(CN)6] |  |  |  |  |
+| 5 |  | 五氯·一氨合铂(IV)酸钾 |  |  |  |
 
 (2) 在一个配位体分子中若有二个配位原子, 同时与一个中心离子 (或原子) 成键时, 即可形成环状化合物。乙二胺四乙酸是一种常用的含有多个配位原子的试剂, 请写出乙二胺四乙酸分子的结构简式。其中的配位原子最多可以有几个? 最多可形成几个五元环?
 
@@ -5465,7 +5517,11 @@ n 值由溶液中 $SCN^{-}$ 浓度和酸度来确定。这一反应非常灵敏�
 
 ## 1. 铜族元素与同周期的碱金属元素对比
 
-<table><tr><td></td><td>碱金属元素</td><td>铜族元素</td><td>原因</td></tr><tr><td>物理性质</td><td>碱金属的熔点、沸点、硬度均低</td><td>铜族金属具有较高的熔点和沸点</td><td>铜族元素原子半径较小</td></tr><tr><td>化学活泼性</td><td>IA族是极活泼的轻金属,在空气中极易被氧化,能与水剧烈反应,同族内的活泼性自上而下增大</td><td>IB族都是不活泼的重金属,在空气中比较稳定,与水几乎不反应,同族内的活泼性自上而下减小</td><td>铜族元素第一电离能较大,标准电极电势比碱金属大</td></tr><tr><td>氧化态</td><td>碱金属只有+1一种氧化态,碱金属离子一般是无色的</td><td>铜族元素可能有不同氧化态(+1,+2,+3)存在,水合离子大多显颜色</td><td>铜族元素原子结构特征为(n-1)d10ns1</td></tr></table>
+|  | 碱金属元素 | 铜族元素 | 原因 |
+| --- | --- | --- | --- |
+| 物理性质 | 碱金属的熔点、沸点、硬度均低 | 铜族金属具有较高的熔点和沸点 | 铜族元素原子半径较小 |
+| 化学活泼性 | IA族是极活泼的轻金属,在空气中极易被氧化,能与水剧烈反应,同族内的活泼性自上而下增大 | IB族都是不活泼的重金属,在空气中比较稳定,与水几乎不反应,同族内的活泼性自上而下减小 | 铜族元素第一电离能较大,标准电极电势比碱金属大 |
+| 氧化态 | 碱金属只有+1一种氧化态,碱金属离子一般是无色的 | 铜族元素可能有不同氧化态(+1,+2,+3)存在,水合离子大多显颜色 | 铜族元素原子结构特征为(n-1)d10ns1 |
 
 思考2: 为什么 IA族所形成的化合物多数是离子化合物, IA族的离子一般很难成为配合物的中心体？而 IB 族的化合物有相当程度的共价性，其离子易成为配合物的中心体？
 

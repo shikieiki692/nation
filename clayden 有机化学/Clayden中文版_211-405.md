@@ -87,7 +87,9 @@ dn, Longman, Harlow, 1989。
 
 <table><tr><td>Li 1.0</td><td></td></tr><tr><td>Na 0.9</td><td>Mg 1.3</td></tr></table>
 
-<table><tr><td>B 2.0</td><td>C 2.5</td><td>N 3.0</td><td>O 3.5</td><td>F 4.0</td></tr><tr><td>Al 1.6</td><td>Si 1.9</td><td>P 2.2</td><td>S 2.6</td><td>Cl 3.2</td></tr></table>
+| B 2.0 | C 2.5 | N 3.0 | O 3.5 | F 4.0 |
+| --- | --- | --- | --- | --- |
+| Al 1.6 | Si 1.9 | P 2.2 | S 2.6 | Cl 3.2 |
 
 Interactive display of polarity of organometallics
 
@@ -3106,7 +3108,15 @@ $H^{A}$ 与两个质子 $H^{X}$ 偶合的影响
 
 邻近原子核是沿空间相互作用的，还是沿键上的电子相互作用的呢？我们知道，偶合事实上是一种“沿键效应 (through-bond effect)”，因为偶合常数是会随分子形状的变化而变化的。最重要的例子是来自双键两端质子的偶合，如果这两个氢是顺式的，那么偶合常数 J 通常在大约 10 Hz；但如果它们是反式的，那么 J 会大得多，通常在 15–18 Hz。下面的两种氯代酸是好的例子。
 
-<table><tr><td>简称</td><td>含义</td><td>备注</td></tr><tr><td>s</td><td>单重峰</td><td></td></tr><tr><td>d</td><td>双重峰</td><td>在高度上相同</td></tr><tr><td>t</td><td>三重峰</td><td>应当是1:2:1</td></tr><tr><td>q</td><td>四重峰</td><td>应当是1:3:3:1</td></tr><tr><td rowspan="2">dt</td><td>双重</td><td>也有其他组合</td></tr><tr><td>三重峰</td><td>如dd, dq, tt</td></tr><tr><td>m</td><td>多重峰</td><td>复杂而难以描述的信号*</td></tr></table>
+| 简称 | 含义 | 备注 |
+| --- | --- | --- |
+| s | 单重峰 |  |
+| d | 双重峰 | 在高度上相同 |
+| t | 三重峰 | 应当是1:2:1 |
+| q | 四重峰 | 应当是1:3:3:1 |
+| dt | 双重 | 也有其他组合 |
+| dt | 三重峰 | 如dd, dq, tt |
+| m | 多重峰 | 复杂而难以描述的信号* |
 
 ![](Clayden中文版_211-405_images/2a8c79bfa59114cdb3a81a1f4472f057d64e39f4a15667b1a8af3bfb2374f067.jpg)  
 \* 要么是包含复杂的偶合模式，要么是不同质子的信号发生了重叠。
@@ -3865,7 +3875,11 @@ Interactive display of meso form of tartaric acid
 
 ![](Clayden中文版_211-405_images/ad72873121692785a66f45b77d9052b2a491fcee2990505d64e986ecc7dc9a94.jpg)
 
-<table><tr><td rowspan="2"></td><td colspan="2">手性的非对映体</td><td>非手性的非对映体</td></tr><tr><td>(+)-酒石酸</td><td>(-)-酒石酸</td><td>内消旋-酒石酸</td></tr><tr><td> $[\alpha]_{D}^{20}$ </td><td>+12</td><td>-12</td><td>0</td></tr><tr><td>熔点</td><td>168–170 °C</td><td>168–170 °C</td><td>146–148 °C</td></tr></table>
+|  | 手性的非对映体 |  | 非手性的非对映体 |
+| --- | --- | --- | --- |
+|  | (+)-酒石酸 | (-)-酒石酸 | 内消旋-酒石酸 |
+| $[\alpha]_{D}^{20}$ | +12 | -12 | 0 |
+| 熔点 | 168–170 °C | 168–170 °C | 146–148 °C |
 
 ## 肌醇的内消旋非对映体
 
@@ -4736,7 +4750,12 @@ $S_{N2}$ 反应中的离去基团
 
 $S_{N}1$ 和 $S_{N}2$ 反应中的卤素离去基团
 
-<table><tr><td>卤素(X)</td><td>C-X键的键能, kJ mol-1</td><td>HX的pKa</td></tr><tr><td>氟</td><td>118</td><td>+3</td></tr><tr><td>氯</td><td>81</td><td>-7</td></tr><tr><td>溴</td><td>67</td><td>-9</td></tr><tr><td>碘</td><td>54</td><td>-10</td></tr></table>
+| 卤素(X) | C-X键的键能, kJ mol-1 | HX的pKa |
+| --- | --- | --- |
+| 氟 | 118 | +3 |
+| 氯 | 81 | -7 |
+| 溴 | 67 | -9 |
+| 碘 | 54 | -10 |
 
 在 Chapter 10 中对于 C=O 的亲核取代上您接受了相同的观点：氢氧根从来不做离去基团。在 Chapter 17 中的 E1cb 反应出现了这一规则的特例，但特例确实很稀少，您有足够的理由在此阶段忽略它们。
 
@@ -5331,7 +5350,14 @@ Interactive conformations of butane
 
 \- 它们都是假设的平面环的计算数据。如您所见，真实的碳环与之大不一样。
 
-<table><tr><td>环中的原子个数ring</td><td>规则平面环的内角</td><td>109.5°-内角a</td></tr><tr><td>3</td><td>60°</td><td>49.5°</td></tr><tr><td>4</td><td>90°</td><td>19.5°</td></tr><tr><td>5</td><td>108°</td><td>1.5°</td></tr><tr><td>6</td><td>120°</td><td>-10.5°</td></tr><tr><td>7</td><td>128.5°</td><td>-19°</td></tr><tr><td>8</td><td>135°</td><td>-25.5°</td></tr></table>
+| 环中的原子个数ring | 规则平面环的内角 | 109.5°-内角a |
+| --- | --- | --- |
+| 3 | 60° | 49.5° |
+| 4 | 90° | 19.5° |
+| 5 | 108° | 1.5° |
+| 6 | 120° | -10.5° |
+| 7 | 128.5° | -19° |
+| 8 | 135° | -25.5° |
 
 $^{a}$ 每个碳原子均分的张力量。
 

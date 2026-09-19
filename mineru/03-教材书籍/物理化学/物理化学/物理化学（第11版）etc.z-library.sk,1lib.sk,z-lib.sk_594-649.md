@@ -599,7 +599,17 @@ $$
 
 公式清单
 
-<table><tr><td>性质</td><td>公式</td><td>说明</td><td>公式编号</td></tr><tr><td>电偶极矩的大小</td><td> $\mu = QR$ </td><td>定义</td><td>14A.1</td></tr><tr><td>两个偶极矩矢量和的大小</td><td> $\mu_{m} = (\mu_{1}^{2} + \mu_{2}^{2} + 2\mu_{1}\mu_{2}\cos\Theta)^{1/2}$ </td><td></td><td>14A.3a</td></tr><tr><td rowspan="2">诱导偶极矩的大小</td><td> $\mu^{*} = \alpha E$ </td><td>线性近似; $\alpha$ 为极化率</td><td>14A.5a</td></tr><tr><td> $\mu^{*} = \alpha E + \frac{1}{2}\beta E^{2}$ </td><td>二次近似; $\beta$ 为超极化率</td><td>14A.5b</td></tr><tr><td>极化体积</td><td> $\alpha' = \alpha / 4\pi\varepsilon_{0}$ </td><td>定义</td><td>14A.6</td></tr><tr><td>极化强度</td><td> $P = \langle \mu \rangle N$ </td><td>定义</td><td>14A.7</td></tr><tr><td>德拜方程</td><td> $(\varepsilon_{t} - 1) / (\varepsilon_{t} + 2) = \rho P_{m} / M$ </td><td></td><td>14A.10</td></tr><tr><td>摩尔极化强度</td><td> $P_{m} = (N_{A}/3\varepsilon_{0})(\alpha + \mu^{2}/3kT)$ </td><td></td><td>14A.11</td></tr><tr><td>克劳修斯-莫索提方程</td><td> $(\varepsilon_{t} - 1) / (\varepsilon_{t} + 2) = \rho N_{A}\alpha / 3M\varepsilon_{0}$ </td><td></td><td>14A.12</td></tr></table>
+| 性质 | 公式 | 说明 | 公式编号 |
+| --- | --- | --- | --- |
+| 电偶极矩的大小 | $\mu = QR$ | 定义 | 14A.1 |
+| 两个偶极矩矢量和的大小 | $\mu_{m} = (\mu_{1}^{2} + \mu_{2}^{2} + 2\mu_{1}\mu_{2}\cos\Theta)^{1/2}$ |  | 14A.3a |
+| 诱导偶极矩的大小 | $\mu^{*} = \alpha E$ | 线性近似; $\alpha$ 为极化率 | 14A.5a |
+| 诱导偶极矩的大小 | $\mu^{*} = \alpha E + \frac{1}{2}\beta E^{2}$ | 二次近似; $\beta$ 为超极化率 | 14A.5b |
+| 极化体积 | $\alpha' = \alpha / 4\pi\varepsilon_{0}$ | 定义 | 14A.6 |
+| 极化强度 | $P = \langle \mu \rangle N$ | 定义 | 14A.7 |
+| 德拜方程 | $(\varepsilon_{t} - 1) / (\varepsilon_{t} + 2) = \rho P_{m} / M$ |  | 14A.10 |
+| 摩尔极化强度 | $P_{m} = (N_{A}/3\varepsilon_{0})(\alpha + \mu^{2}/3kT)$ |  | 14A.11 |
+| 克劳修斯-莫索提方程 | $(\varepsilon_{t} - 1) / (\varepsilon_{t} + 2) = \rho N_{A}\alpha / 3M\varepsilon_{0}$ |  | 14A.12 |
 
 # 专题 14B
 
@@ -952,7 +962,14 @@ $$
 
 表14B.1 相互作用势能
 
-<table><tr><td>相互作用类型</td><td>势能的距离依赖关系</td><td>特征能量 $\mathrm{kJ} \cdot {\mathrm{mol}}^{-1}$ </td><td>说明</td></tr><tr><td>离子-离子</td><td> $1/r$ </td><td>250</td><td>仅离子之间</td></tr><tr><td>氢键</td><td></td><td>20</td><td>以X—H···Y的形式出现,其中X,Y=N、O或者F</td></tr><tr><td>离子-偶极子</td><td> $1/r^2$ </td><td>15</td><td></td></tr><tr><td rowspan="2">偶极子-偶极子</td><td> $1/r^3$ </td><td>2</td><td>两个静止的极性分子之间</td></tr><tr><td> $1/r^6$ </td><td>0.3</td><td>两个旋转的极性分子之间</td></tr><tr><td>伦敦(色散)相互作用</td><td> $1/r^6$ </td><td>2</td><td>各种类型的分子和离子之间</td></tr></table>
+| 相互作用类型 | 势能的距离依赖关系 | 特征能量 $\mathrm{kJ} \cdot {\mathrm{mol}}^{-1}$ | 说明 |
+| --- | --- | --- | --- |
+| 离子-离子 | $1/r$ | 250 | 仅离子之间 |
+| 氢键 |  | 20 | 以X—H···Y的形式出现,其中X,Y=N、O或者F |
+| 离子-偶极子 | $1/r^2$ | 15 |  |
+| 偶极子-偶极子 | $1/r^3$ | 2 | 两个静止的极性分子之间 |
+| 偶极子-偶极子 | $1/r^6$ | 0.3 | 两个旋转的极性分子之间 |
+| 伦敦(色散)相互作用 | $1/r^6$ | 2 | 各种类型的分子和离子之间 |
 
 能量随着距离增加更为急剧地减小的原因与之前相同：对多极子贡献的单个电荷的数目越多，则随着距离的增加，电荷的陈列（排布）似乎更快地相混在一起而变成电中性。注意，一个给定的分子可能具有与几个不同多极子的组合相对应的电荷分布，在这种情况下，相互作用的能量是式（14B.5）给出的项之和。
 
@@ -2519,7 +2536,21 @@ Tg
 
 公式清单
 
-<table><tr><td>性质</td><td>公式</td><td>说明</td><td>公式编号</td></tr><tr><td>数均摩尔质量</td><td> $\bar{M}_{n} = \frac{1}{N_{\text{local}}}\sum_{i} N_{i} M_{i}$ </td><td>定义</td><td>14D.1a</td></tr><tr><td>质均摩尔质量</td><td> $\bar{M}_{w} = \frac{1}{m_{\text{local}}}\sum_{i} m_{i} M_{i}$ </td><td>定义</td><td>14D.1b</td></tr><tr><td>分散度</td><td> $D = \bar{M}_{w}/\bar{M}_{n}$ </td><td>定义</td><td>14D.2</td></tr><tr><td rowspan="2">概率分布</td><td> $P = (2/\pi N)^{1/2} e^{-\pi^{2}/2N}$ </td><td>一维无规线团</td><td>14D.3</td></tr><tr><td> $f(r) = 4\pi(a/\pi^{1/2})^{3} r^{2} e^{-a^{2}r^{2}},$  $a = (3/2Nl^{2})^{1/2}$ </td><td>三维无规线团</td><td>14D.4</td></tr><tr><td>无规线团的伸直长度</td><td> $R_{c} = Nl$ </td><td></td><td>14D.5</td></tr><tr><td>无规线团的方均根间距</td><td> $R_{rms} = N^{1/2}l$ </td><td>不受限的链</td><td>14D.6</td></tr><tr><td rowspan="2">无规线团的回转半径</td><td> $R_{E} = N^{1/2}l$ </td><td>不受限的一维链</td><td>14D.7a</td></tr><tr><td> $R_{E} = (N/6)^{1/2}l$ </td><td>不受限的三维链</td><td>14D.7b</td></tr><tr><td>无规线团的方均根间距</td><td> $R_{rms} = (2N)^{1/2}l$ </td><td>受限的四面体链</td><td>14D.9</td></tr><tr><td>伸展无规线团时构象熵的变化</td><td> $\Delta S = -\frac{1}{2}kN\ln[(1+\lambda)^{1+\lambda}(1-\lambda)^{1-\lambda}]$ </td><td></td><td>14D.11</td></tr><tr><td rowspan="2">一维无规线团的回复力</td><td> $F = (kT/2l)\ln[(1+\lambda)/(1-\lambda)]$ </td><td></td><td>14D.12a</td></tr><tr><td> $F \approx (kT/Nl^{2})x$ </td><td> $x << R_{c}$ </td><td>14D.12b</td></tr></table>
+| 性质 | 公式 | 说明 | 公式编号 |
+| --- | --- | --- | --- |
+| 数均摩尔质量 | $\bar{M}_{n} = \frac{1}{N_{\text{local}}}\sum_{i} N_{i} M_{i}$ | 定义 | 14D.1a |
+| 质均摩尔质量 | $\bar{M}_{w} = \frac{1}{m_{\text{local}}}\sum_{i} m_{i} M_{i}$ | 定义 | 14D.1b |
+| 分散度 | $D = \bar{M}_{w}/\bar{M}_{n}$ | 定义 | 14D.2 |
+| 概率分布 | $P = (2/\pi N)^{1/2} e^{-\pi^{2}/2N}$ | 一维无规线团 | 14D.3 |
+| 概率分布 | $f(r) = 4\pi(a/\pi^{1/2})^{3} r^{2} e^{-a^{2}r^{2}},$ $a = (3/2Nl^{2})^{1/2}$ | 三维无规线团 | 14D.4 |
+| 无规线团的伸直长度 | $R_{c} = Nl$ |  | 14D.5 |
+| 无规线团的方均根间距 | $R_{rms} = N^{1/2}l$ | 不受限的链 | 14D.6 |
+| 无规线团的回转半径 | $R_{E} = N^{1/2}l$ | 不受限的一维链 | 14D.7a |
+| 无规线团的回转半径 | $R_{E} = (N/6)^{1/2}l$ | 不受限的三维链 | 14D.7b |
+| 无规线团的方均根间距 | $R_{rms} = (2N)^{1/2}l$ | 受限的四面体链 | 14D.9 |
+| 伸展无规线团时构象熵的变化 | $\Delta S = -\frac{1}{2}kN\ln[(1+\lambda)^{1+\lambda}(1-\lambda)^{1-\lambda}]$ |  | 14D.11 |
+| 一维无规线团的回复力 | $F = (kT/2l)\ln[(1+\lambda)/(1-\lambda)]$ |  | 14D.12a |
+| 一维无规线团的回复力 | $F \approx (kT/Nl^{2})x$ | $x << R_{c}$ | 14D.12b |
 
 # 专题14E
 

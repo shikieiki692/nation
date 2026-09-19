@@ -2564,7 +2564,17 @@ Practice at interpretation of more complicated ${}^{1}$ H NMR spectra.
 
 First measure the spectrum and list the data. The expansions make it easier to see the coupling but even so we are going to have to call the signal at 5.6 ppm a multiplet. For the rest of the signals you should have measured the J values. Coupling is measured in Hz and at 400 MHz each chemical shift unit of 1 ppm is 400 Hz, so each subunit of 0.1 ppm is 40 Hz.
 
-<table><tr><td>δ /ppm</td><td>integration</td><td>multiplicity</td><td>coupling, J / Hz</td><td>comments</td></tr><tr><td>5.6</td><td>1H</td><td>m</td><td>?</td><td>alkene region</td></tr><tr><td>5.05</td><td>1H</td><td>d with fine splitting</td><td>16.3</td><td>alkene region</td></tr><tr><td>4.97</td><td>1H</td><td>d with fine splitting</td><td>10.4</td><td>alkene region</td></tr><tr><td>2.58</td><td>2H</td><td>t with fine splitting</td><td>6.5</td><td>next to C=O or C=C</td></tr><tr><td>2.47</td><td>2H</td><td>t with fine splitting</td><td>6.5</td><td>next to C=O or C=C</td></tr><tr><td>2.32</td><td>2H</td><td>q with fine splitting</td><td>6.5</td><td>next to C=O or C=C</td></tr><tr><td>2.21</td><td>2H</td><td>t with fine splitting</td><td>6.5</td><td>next to C=O or C=C</td></tr><tr><td>1.95</td><td>1H</td><td>broad s</td><td>-</td><td>alkyne?</td></tr><tr><td>1.77</td><td>2H</td><td>q</td><td>6.5</td><td>not next to anything</td></tr></table>
+| δ /ppm | integration | multiplicity | coupling, J / Hz | comments |
+| --- | --- | --- | --- | --- |
+| 5.6 | 1H | m | ? | alkene region |
+| 5.05 | 1H | d with fine splitting | 16.3 | alkene region |
+| 4.97 | 1H | d with fine splitting | 10.4 | alkene region |
+| 2.58 | 2H | t with fine splitting | 6.5 | next to C=O or C=C |
+| 2.47 | 2H | t with fine splitting | 6.5 | next to C=O or C=C |
+| 2.32 | 2H | q with fine splitting | 6.5 | next to C=O or C=C |
+| 2.21 | 2H | t with fine splitting | 6.5 | next to C=O or C=C |
+| 1.95 | 1H | broad s | - | alkyne? |
+| 1.77 | 2H | q | 6.5 | not next to anything |
 
 That gives us three protons in the alkene region, five $CH_{2}$ groups and one solitary proton which must be on the alkyne. In the alkene region, the multiplet must be $H^{2}$ which couples to the the $CH_{2}$ at C3 and the other two alkene Hs. On C1, $H^{1a}$ has a large trans coupling (16 Hz) to $H^{2}$ while $H^{1b}$ has a smaller cis coupling (10 Hz). The coupling between $H^{1a}$ and $H^{1b}$ is very small.
 

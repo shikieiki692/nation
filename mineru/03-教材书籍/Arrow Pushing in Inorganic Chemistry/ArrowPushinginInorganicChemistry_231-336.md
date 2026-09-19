@@ -766,8 +766,12 @@ Halogens (often given the generic symbol X) are ubiquitous in all areas of chemi
 
 • With the exception of fluorine, which is essentially always monovalent, with an oxi-·Wththe exception of fuorine.which is esentiallyalwavs monovalent,withanoxi dation state oftion stat of- $^ { - 1 }$ , the other halogens exhibit a variety of valences, particularly 3,he other halogens exhibir a variety ofvaenoes paticulry3 5, and 7. The higher-valent states typically occur in the company of strongly elec-5.and 7.The higher-valent staes wpicallyoocur in the company of stronglyeke tronegative atoms, notably oxygen and fluorine. The various relevant species will beronegatve aoms.notablyoxvgenand fuorine.The vrious relevant secies willbe discussed in due course, as we work through the chapter; it’s useful, however, to intro-iscussedin duecourse,as we wok through thecapter.its useful howeve, intro duce the trivial names of the various oxoacids and oxoanions (foruce thetivialname of he vrious oxoacits and cxoanions $\mathrm { X } { = } \mathrm { C l }$ , Br, I) rightG.Br.Digh at the outset. These traditional names are widely used, and it’s important that you he outset.Ihese trdnonal nmes are wtelv used and rs imoortnt th vo become familiar with them as quickly as possible.become tamilar wth them as quickly as possible
 
-<table><tr><td colspan="2">X Oxidation
-State, Valence</td><td>Oxoacids</td><td colspan="2">Oxoanions</td></tr><tr><td>+1, 1</td><td>HOX</td><td>Hypohalous acid</td><td>XO-</td><td>Hypohalite</td></tr><tr><td>+III, 3</td><td>HXO2</td><td>Halous acid</td><td>XO2-</td><td>Halite</td></tr><tr><td>+V, 5</td><td>HXO3</td><td>Halic acid</td><td>XO3-</td><td>Halate</td></tr><tr><td>+VII, 7</td><td>HXO4</td><td>Perhalic acid</td><td>XO4-</td><td>Perhalate</td></tr></table>
+| X Oxidation State, Valence |  | Oxoacids | Oxoanions |  |
+| --- | --- | --- | --- | --- |
+| +1, 1 | HOX | Hypohalous acid | XO- | Hypohalite |
+| +III, 3 | HXO2 | Halous acid | XO2- | Halite |
+| +V, 5 | HXO3 | Halic acid | XO3- | Halate |
+| +VII, 7 | HXO4 | Perhalic acid | XO4- | Perhalate |
 
 • Halide ions may be oxidized to the molecular halogens, with the larger anions moreahde1ons mye oxtd othe mokcularhalogens,wth te arge anons mor easily oxidized:easily oxidized:
 
@@ -1366,7 +1370,12 @@ $$
 
 TABLE 7.1 A List of Relatively Stable Interhalogens Containing No More than Two DifferentABLE71AListofRelatvev Stable lnterhaloaens Containina No orethan Two Dferen Halogenskogens   
 
-<table><tr><td></td><td>F</td><td>Cl</td><td>Br</td><td>I</td></tr><tr><td>F</td><td>F2</td><td></td><td></td><td></td></tr><tr><td>Cl</td><td>CIF, CIF3, CIF5</td><td>Cl2</td><td></td><td></td></tr><tr><td>Br</td><td>BrF, BrF3, BrF5</td><td>BrCl</td><td>Br2</td><td></td></tr><tr><td>I</td><td>IF, IF3, IF5, IF7</td><td>ICI, (ICI3)2</td><td>IBr</td><td>I2</td></tr></table>
+|  | F | Cl | Br | I |
+| --- | --- | --- | --- | --- |
+| F | F2 |  |  |  |
+| Cl | CIF, CIF3, CIF5 | Cl2 |  |  |
+| Br | BrF, BrF3, BrF5 | BrCl | Br2 |  |
+| I | IF, IF3, IF5, IF7 | ICI, (ICI3)2 | IBr | I2 |
 
 In addition, mention should also be made of the following ligand exchange reaction ofIaddiion,mention shoud asoemadeofthefolowingligndexchnge eation $\mathrm { I F } _ { 7 }$
 

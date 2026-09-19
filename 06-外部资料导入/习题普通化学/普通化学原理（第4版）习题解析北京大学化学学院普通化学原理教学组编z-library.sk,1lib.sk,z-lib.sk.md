@@ -347,7 +347,11 @@ $$
 
 解 混合气中 $\mathrm{CO},\mathrm{CH}_4,\mathrm{C}_2\mathrm{H}_2$ 完全燃烧后，产生 $\mathrm{CO}_{2}$ 及消耗 $\mathrm{O}_2$ 的体积列于下表中：
 
-<table><tr><td>反应式</td><td>产生的CO2的体积</td><td>消耗O2的体积</td></tr><tr><td>2CO+O2→2CO2</td><td>V(CO)</td><td>1/2V(CO)</td></tr><tr><td>CH4+2O2→CO2+2H2O</td><td>V(CH4)</td><td>2V(CH4)</td></tr><tr><td>2C2H2+5O2→4CO2+2H2O</td><td>2V(C2H2)</td><td>5/2V(C2H2)</td></tr></table>
+| 反应式 | 产生的CO2的体积 | 消耗O2的体积 |
+| --- | --- | --- |
+| 2CO+O2→2CO2 | V(CO) | 1/2V(CO) |
+| CH4+2O2→CO2+2H2O | V(CH4) | 2V(CH4) |
+| 2C2H2+5O2→4CO2+2H2O | 2V(C2H2) | 5/2V(C2H2) |
 
 产生的 $\mathrm{CO}_{2}$ 的体积 $= 80\mathrm{cm}^{3} - 15\mathrm{cm}^{3} = 65\mathrm{cm}^{3}$
 
@@ -527,7 +531,9 @@ $$
 
 2.22 某有机卤化物，在 $0^{\circ} \mathrm{C}$ 、实验测定不同压力 $(p)$ 下，其密度 $(\rho)$ 数据如下表。试用外延法求该化合物的精确相对分子质量 $(M_{\mathrm{r}})$ 。
 
-<table><tr><td>p/kPa</td><td>101.3</td><td>67.54</td><td>50.65</td><td>33.76</td><td>25.33</td></tr><tr><td>ρ/(g·dm-3)</td><td>2.307</td><td>1.526</td><td>1.140</td><td>0.7571</td><td>0.5666</td></tr></table>
+| p/kPa | 101.3 | 67.54 | 50.65 | 33.76 | 25.33 |
+| --- | --- | --- | --- | --- | --- |
+| ρ/(g·dm-3) | 2.307 | 1.526 | 1.140 | 0.7571 | 0.5666 |
 
 解 整理已知数据,所得结果列于下表中:
 
@@ -603,7 +609,9 @@ $O_{2}$ 钢瓶内为高压气体,随着消耗,气体分子数减少而压力下�
 
 3.2 丙烯的蒸气压数据如下,试用作图法求: (1) 丙烯的正常沸点, (2) 丙烯的摩尔蒸发热。
 
-<table><tr><td>温度/K</td><td>150</td><td>200</td><td>225</td><td>250</td></tr><tr><td>蒸气压/kPa</td><td>0.509</td><td>26.4</td><td>98.6</td><td>276.5</td></tr></table>
+| 温度/K | 150 | 200 | 225 | 250 |
+| --- | --- | --- | --- | --- |
+| 蒸气压/kPa | 0.509 | 26.4 | 98.6 | 276.5 |
 
 解 (1)
 
@@ -783,7 +791,10 @@ $$
 
 3.14 参考教材中图 3.7 和表 3.3, 判断在下表 4 种条件下 $\mathrm{H}_{2} \mathrm{O}$ 的存在状态各是什么?
 
-<table><tr><td>温度/°C</td><td>15</td><td>20</td><td>30</td><td>30</td></tr><tr><td>压力/kPa</td><td>1.71</td><td>4.07</td><td>2.00</td><td>4.24</td></tr><tr><td>存在状态</td><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td></tr></table>
+| 温度/°C | 15 | 20 | 30 | 30 |
+| --- | --- | --- | --- | --- |
+| 压力/kPa | 1.71 | 4.07 | 2.00 | 4.24 |
+| 存在状态 | (1) | (2) | (3) | (4) |
 
 解 存在状态：（1）单一饱和蒸气或气-液共存；（2）液；（3）气；（4）单一饱和蒸气或气-液共存。
 
@@ -1420,7 +1431,12 @@ $$
 
 式中， $\nu_{i}$ 代表相应的化学反应式中反应物或生成物的计量系数。在一定的温度范围内，可以近似认为焓变 $\Delta H$ 和熵变 $\Delta S$ 保持不变，可以根据 $298\mathrm{K}$ 时的数据，利用Gibbs-Helmholtz方程 $\Delta G = \Delta H - T\Delta S$ 判断化学反应的自发性。根据化学反应焓变 $\Delta H$ 和熵变 $\Delta S$ 的正负号不同，化学反应正向自发性随温度不同的改变如下：
 
-<table><tr><td>类别</td><td>ΔH</td><td>ΔS</td><td>ΔG</td><td>化学反应正向自发性</td></tr><tr><td>1</td><td>-</td><td>+</td><td>-</td><td>任意温度自发</td></tr><tr><td>2</td><td>+</td><td>-</td><td>+</td><td>任意温度不自发</td></tr><tr><td>3</td><td>+</td><td>+</td><td>HT-LT+</td><td>高温自发低温不自发</td></tr><tr><td>4</td><td>-</td><td>-</td><td>HT+LT-</td><td>高温不自发低温自发</td></tr></table>
+| 类别 | ΔH | ΔS | ΔG | 化学反应正向自发性 |
+| --- | --- | --- | --- | --- |
+| 1 | - | + | - | 任意温度自发 |
+| 2 | + | - | + | 任意温度不自发 |
+| 3 | + | + | HT-LT+ | 高温自发低温不自发 |
+| 4 | - | - | HT+LT- | 高温不自发低温自发 |
 
 HT: 高温; LT: 低温。
 
@@ -2434,7 +2450,12 @@ $$
 
 6.13 已知反应 $\mathrm{N}_2 + \mathrm{O}_2 \rightleftharpoons 2\mathrm{NO}$ 的 $\Delta G^{\ominus}(2273\mathrm{K}) = +43.4\mathrm{kJ} \cdot \mathrm{mol}^{-1}$ 。判断在 $2273\mathrm{K}$ 时，下列各种起始状态反应自发进行的方向。
 
-<table><tr><td rowspan="2">状态</td><td colspan="3">起始浓度/(mol·dm-3)</td></tr><tr><td>c(N2)</td><td>c(O2)</td><td>c(NO)</td></tr><tr><td>I</td><td>0.81</td><td>0.81</td><td>0</td></tr><tr><td>II</td><td>0.98</td><td>0.68</td><td>0.26</td></tr><tr><td>III</td><td>1.0</td><td>1.0</td><td>1.0</td></tr></table>
+| 状态 | 起始浓度/(mol·dm-3) |  |  |
+| --- | --- | --- | --- |
+| 状态 | c(N2) | c(O2) | c(NO) |
+| I | 0.81 | 0.81 | 0 |
+| II | 0.98 | 0.68 | 0.26 |
+| III | 1.0 | 1.0 | 1.0 |
 
 解 $\lg K_{p}^{\ominus} = \frac{-43.4\times 10^{3}\mathrm{J}\cdot\mathrm{mol}^{-1}}{2.30\times 8.31\mathrm{J}\cdot\mathrm{mol}^{-1}\cdot\mathrm{K}^{-1}\times 2273\mathrm{K}} = -0.999,\quad K_{p}^{\ominus} = 0.100$
 
@@ -2448,7 +2469,12 @@ $$
 
 6.14 已知 $2\mathrm{NO(g)} + \mathrm{Br}_2(\mathrm{g}) \rightleftharpoons 2\mathrm{NOBr(g)}$ 是放热反应， $K_p^\ominus (298\mathrm{K}) = 1.17\times 10^2$ 。判断下列各种起始状态反应自发进行的方向。
 
-<table><tr><td rowspan="2">状态</td><td rowspan="2">温度T/K</td><td colspan="3">起始分压p/100kPa</td></tr><tr><td>p(NO)</td><td>p(Br2)</td><td>p(NOBr)</td></tr><tr><td>I</td><td>298</td><td>0.0100</td><td>0.0100</td><td>0.0450</td></tr><tr><td>II</td><td>298</td><td>0.100</td><td>0.0100</td><td>0.0450</td></tr><tr><td>III</td><td>273</td><td>0.100</td><td>0.0100</td><td>0.108</td></tr></table>
+| 状态 | 温度T/K | 起始分压p/100kPa |  |  |
+| --- | --- | --- | --- | --- |
+| 状态 | 温度T/K | p(NO) | p(Br2) | p(NOBr) |
+| I | 298 | 0.0100 | 0.0100 | 0.0450 |
+| II | 298 | 0.100 | 0.0100 | 0.0450 |
+| III | 273 | 0.100 | 0.0100 | 0.108 |
 
 解 状态 I: $Q_{p}=\frac{(0.0450)^{2}}{(0.0100)^{2}(0.0100)}=203>K_{p}^{\ominus}(117)$ ，反应逆向进行
 
@@ -2950,7 +2976,9 @@ $$
 
 7.5 测定化合物 S 的某一种酶催化反应速率时获得的实验数据如下表。试判定在下述浓度范围内的反应级数。
 
-<table><tr><td>t/min</td><td>0</td><td>20</td><td>60</td><td>100</td><td>160</td></tr><tr><td>c(S)/(mol·dm-3)</td><td>1.00</td><td>0.90</td><td>0.70</td><td>0.50</td><td>0.20</td></tr></table>
+| t/min | 0 | 20 | 60 | 100 | 160 |
+| --- | --- | --- | --- | --- | --- |
+| c(S)/(mol·dm-3) | 1.00 | 0.90 | 0.70 | 0.50 | 0.20 |
 
 解
 
@@ -3066,7 +3094,9 @@ $$
 
 7.8 乙醛在密闭容器中按 $\mathrm{CH}_3\mathrm{CHO(g)}\longrightarrow \mathrm{CH}_4(\mathrm{g}) + \mathrm{CO(g)}$ 分解。在 $518^{\circ}\mathrm{C}$ ，乙醛起始压力为 $48.4\mathrm{kPa}$ ，不断测定容器内的总压力，其变化情况如下表所示：
 
-<table><tr><td>t/s</td><td>0</td><td>105</td><td>190</td><td>310</td><td>480</td><td>665</td></tr><tr><td>p总/kPa</td><td>48.4</td><td>58.2</td><td>63.6</td><td>68.9</td><td>74.3</td><td>78.3</td></tr></table>
+| t/s | 0 | 105 | 190 | 310 | 480 | 665 |
+| --- | --- | --- | --- | --- | --- | --- |
+| p总/kPa | 48.4 | 58.2 | 63.6 | 68.9 | 74.3 | 78.3 |
 
 试证明它是二级反应，并计算速率常数。
 
@@ -3105,7 +3135,9 @@ $$
 
 7.9 某抗菌素在人体血液中呈现一级反应,如果给病人在上午8点注射一针抗菌素,然后在不同时刻测定抗菌素在血液中的浓度c(以mg·100 cm $^{-3}$ 表示),得到如下数据:
 
-<table><tr><td>t/h</td><td>4</td><td>12</td><td>16</td></tr><tr><td>c/(mg·100 cm-3)</td><td>0.48</td><td>0.22</td><td>0.15</td></tr></table>
+| t/h | 4 | 12 | 16 |
+| --- | --- | --- | --- |
+| c/(mg·100 cm-3) | 0.48 | 0.22 | 0.15 |
 
 (1) 求反应的速率常数 k 和半衰期 $t_{1/2}$ 。
 
@@ -6081,7 +6113,21 @@ $$
 
 VSEPR 理论判断 $AX_{m}E_{n}$ 型分子或离子的几何构型
 
-<table><tr><td>价电子对 $m+n$ </td><td>键对  $m$ </td><td>孤对  $n$ </td><td>表达式</td><td>价电子对分布</td><td>分子构型</td><td>举例</td></tr><tr><td>2</td><td>2</td><td>0</td><td>AX2</td><td>直线形</td><td>直线形</td><td> $CO_2,N_2O,NO_2^+,OCN-,N_3^-$ </td></tr><tr><td rowspan="2">3</td><td>3</td><td>0</td><td>AX3</td><td rowspan="2">三角形</td><td>三角形</td><td> $BF_3,BO_3^{3-},CO_3^{2-},NO_3-,SO_3,COCl_2$ </td></tr><tr><td>2</td><td>1</td><td>AX2E</td><td>V形</td><td> $O_3,SO_2,NO_2^-$ </td></tr><tr><td rowspan="3">4</td><td>4</td><td>0</td><td>AX4</td><td rowspan="3">四面体形</td><td>四面体形</td><td> $B(OH)_4^- ,CX_4,SiO_4^{4-},PO_4^{3-},SO_4^{2-} ,ClO_4^- ,SO_2Cl_2$ </td></tr><tr><td>3</td><td>1</td><td>AX3E</td><td>三角锥形</td><td> $SO_3^{2-},ClO_3^- ,XeO_3$ </td></tr><tr><td>2</td><td>2</td><td>AX2E2</td><td>V形</td><td> $OF_2,SF_2$ </td></tr><tr><td rowspan="4">5</td><td>5</td><td>0</td><td>AX5</td><td rowspan="4">三角双锥形</td><td>三角双锥形</td><td> $PCl_5,SbCl_5$ </td></tr><tr><td>4</td><td>1</td><td>AX4E</td><td>变形四面体</td><td> $SF_4,SbF_4^-$ </td></tr><tr><td>3</td><td>2</td><td>AX3E2</td><td>T形</td><td> $ClF_3$ </td></tr><tr><td>2</td><td>3</td><td>AX2E3</td><td>直线形</td><td> $I_3-ICl_2^-$ </td></tr><tr><td rowspan="3">6</td><td>6</td><td>0</td><td>AX6</td><td rowspan="3">八面体形</td><td>八面体形</td><td> $SF_6,PCI_6-,AlF_6^{3-}$ </td></tr><tr><td>5</td><td>1</td><td>AX5E</td><td>四角锥形</td><td> $BrF_5,IF_5$ </td></tr><tr><td>4</td><td>2</td><td>AX4E2</td><td>正方形</td><td> $ICl_4-,XeF_4$ </td></tr></table>
+| 价电子对 $m+n$ | 键对 $m$ | 孤对 $n$ | 表达式 | 价电子对分布 | 分子构型 | 举例 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 2 | 2 | 0 | AX2 | 直线形 | 直线形 | $CO_2,N_2O,NO_2^+,OCN-,N_3^-$ |
+| 3 | 3 | 0 | AX3 | 三角形 | 三角形 | $BF_3,BO_3^{3-},CO_3^{2-},NO_3-,SO_3,COCl_2$ |
+| 3 | 2 | 1 | AX2E | 三角形 | V形 | $O_3,SO_2,NO_2^-$ |
+| 4 | 4 | 0 | AX4 | 四面体形 | 四面体形 | $B(OH)_4^- ,CX_4,SiO_4^{4-},PO_4^{3-},SO_4^{2-} ,ClO_4^- ,SO_2Cl_2$ |
+| 4 | 3 | 1 | AX3E | 四面体形 | 三角锥形 | $SO_3^{2-},ClO_3^- ,XeO_3$ |
+| 4 | 2 | 2 | AX2E2 | 四面体形 | V形 | $OF_2,SF_2$ |
+| 5 | 5 | 0 | AX5 | 三角双锥形 | 三角双锥形 | $PCl_5,SbCl_5$ |
+| 5 | 4 | 1 | AX4E | 三角双锥形 | 变形四面体 | $SF_4,SbF_4^-$ |
+| 5 | 3 | 2 | AX3E2 | 三角双锥形 | T形 | $ClF_3$ |
+| 5 | 2 | 3 | AX2E3 | 三角双锥形 | 直线形 | $I_3-ICl_2^-$ |
+| 6 | 6 | 0 | AX6 | 八面体形 | 八面体形 | $SF_6,PCI_6-,AlF_6^{3-}$ |
+| 6 | 5 | 1 | AX5E | 八面体形 | 四角锥形 | $BrF_5,IF_5$ |
+| 6 | 4 | 2 | AX4E2 | 八面体形 | 正方形 | $ICl_4-,XeF_4$ |
 
 E 代表孤对电子。
 
@@ -6233,7 +6279,13 @@ $$
 
 12.5 试总结第二周期元素 Be、B、C、N、O、F 生成共价单键的规律性，并填入下表中。
 
-<table><tr><td></td><td>Be</td><td>B</td><td>C</td><td>N</td><td>O</td><td>F</td></tr><tr><td>元素的电子层结构</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>最外层的总轨道数</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>成键时的最高未配对电子数(即生成共价键数)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>成键后最高孤电子对对数</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>成键后余下的空轨道数</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
+|  | Be | B | C | N | O | F |
+| --- | --- | --- | --- | --- | --- | --- |
+| 元素的电子层结构 |  |  |  |  |  |  |
+| 最外层的总轨道数 |  |  |  |  |  |  |
+| 成键时的最高未配对电子数(即生成共价键数) |  |  |  |  |  |  |
+| 成键后最高孤电子对对数 |  |  |  |  |  |  |
+| 成键后余下的空轨道数 |  |  |  |  |  |  |
 
 |  | Be | B | C | N | O | F |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -6822,13 +6874,20 @@ $$
 
 解
 
-<table><tr><td>化合物</td><td>电负性</td><td>离子性百分数</td></tr><tr><td>Mg—O</td><td>3.44-1.31=2.23</td><td>50%/1.7=x/2.23, x=66%</td></tr><tr><td>Al—N</td><td>3.04-1.61=1.43</td><td>50%/1.7=x/1.43, x=42%</td></tr></table>
+| 化合物 | 电负性 | 离子性百分数 |
+| --- | --- | --- |
+| Mg—O | 3.44-1.31=2.23 | 50%/1.7=x/2.23, x=66% |
+| Al—N | 3.04-1.61=1.43 | 50%/1.7=x/1.43, x=42% |
 
 13.15 通过计算比较化合物 HCl、CsCl 和 TlCl 的离子性百分数的大小, 解释计算结果 (H—Cl 键长和偶极矩分别为 127 pm、1.08 D; Tl—Cl 键长和偶极矩分别为 320 pm、4.44 D; 而 Cs—Cl 键长和偶极矩分别为 290 pm、10.42 D)。
 
 解
 
-<table><tr><td>化合物</td><td>R</td><td>μ计(=eR)</td><td>μ实</td><td>离子性百分数*</td></tr><tr><td>HCl</td><td>127 pm</td><td>6.10 D</td><td>1.08 D</td><td>18%</td></tr><tr><td>CsCl</td><td>290 pm</td><td>13.9 D</td><td>10.42 D</td><td>75%</td></tr><tr><td>TlCl</td><td>320 pm</td><td>15.4 D</td><td>4.44 D</td><td>29%</td></tr></table>
+| 化合物 | R | μ计(=eR) | μ实 | 离子性百分数* |
+| --- | --- | --- | --- | --- |
+| HCl | 127 pm | 6.10 D | 1.08 D | 18% |
+| CsCl | 290 pm | 13.9 D | 10.42 D | 75% |
+| TlCl | 320 pm | 15.4 D | 4.44 D | 29% |
 
 离子性百分数= $\frac{\mu_{实}}{\mu_{计}}\times100\%$ .
 
@@ -7211,11 +7270,23 @@ $$
 
 14.11 实验测得 $\mathrm{Co(NH_{3})_{6}^{3+}}$ 呈反磁性，而 $\mathrm{Co(NH_{3})_{6}^{2+}}$ 为顺磁性（磁矩 $\mu=4.5\mu_{B}$ ），完成下表：
 
-<table><tr><td></td><td></td><td> $\text{Co(NH}_3\text{)}_6^{3+}$ </td><td> $\text{Co(NH}_3\text{)}_6^{2+}$ </td></tr><tr><td rowspan="2">价键理论</td><td>中心离子杂化轨道类型</td><td></td><td></td></tr><tr><td>几何形状</td><td></td><td></td></tr><tr><td rowspan="2">晶体场理论</td><td>场的相对强弱</td><td></td><td></td></tr><tr><td>中心离子d电子排布</td><td></td><td></td></tr><tr><td colspan="2">磁矩计算值( $\mu_B$ )</td><td></td><td></td></tr></table>
+|  |  | $\text{Co(NH}_3\text{)}_6^{3+}$ | $\text{Co(NH}_3\text{)}_6^{2+}$ |
+| --- | --- | --- | --- |
+| 价键理论 | 中心离子杂化轨道类型 |  |  |
+| 价键理论 | 几何形状 |  |  |
+| 晶体场理论 | 场的相对强弱 |  |  |
+| 晶体场理论 | 中心离子d电子排布 |  |  |
+| 磁矩计算值( $\mu_B$ ) |  |  |  |
 
 解
 
-<table><tr><td></td><td></td><td> $Co(NH_3)_6^{3+}$ </td><td> $Co(NH_3)_6^{2+}$ </td></tr><tr><td rowspan="2">价键理论</td><td>中心离子杂化轨道类型</td><td> $d^2sp^3$ </td><td> $sp^3d^2$ </td></tr><tr><td>几何形状</td><td>正八面体</td><td>正八面体</td></tr><tr><td rowspan="2">晶体场理论</td><td>场的相对强弱</td><td>强场</td><td>弱场</td></tr><tr><td>中心离子d电子排布</td><td> $e_g$  $\uparrow\downarrow\uparrow\downarrow\uparrow\downarrow t_{2g}$ </td><td> $\uparrow\uparrow e_g$  $\uparrow\downarrow\uparrow\downarrow\uparrow t_{2g}$ </td></tr><tr><td colspan="2">磁矩计算值( $μ_B$ )</td><td>0</td><td>3.87</td></tr></table>
+|  |  | $Co(NH_3)_6^{3+}$ | $Co(NH_3)_6^{2+}$ |
+| --- | --- | --- | --- |
+| 价键理论 | 中心离子杂化轨道类型 | $d^2sp^3$ | $sp^3d^2$ |
+| 价键理论 | 几何形状 | 正八面体 | 正八面体 |
+| 晶体场理论 | 场的相对强弱 | 强场 | 弱场 |
+| 晶体场理论 | 中心离子d电子排布 | $e_g$ $\uparrow\downarrow\uparrow\downarrow\uparrow\downarrow t_{2g}$ | $\uparrow\uparrow e_g$ $\uparrow\downarrow\uparrow\downarrow\uparrow t_{2g}$ |
+| 磁矩计算值( $μ_B$ ) |  | 0 | 3.87 |
 
 14.12 $\mathrm{Cr}^{3+}$ 、 $\mathrm{Cr}^{2+}$ 、 $\mathrm{Mn}^{2+}$ 、 $\mathrm{Fe}^{2+}$ 、 $\mathrm{Co}^{3+}$ 、 $\mathrm{Co}^{2+}$ 离子在强八面体晶体场中和弱八面体晶体场中各有多少未成对的电子？绘图说明 $t_{2g}$ 和 $e_g$ 电子数目。
 
@@ -8059,6 +8130,9 @@ $$
 
 石灰水， $KMnO_{4}$ 溶液， $FeSO_{4}$ 溶液，饱和 $H_{2}S$ 水，碘水。
 
-<table><tr><td>试剂</td><td>石灰水</td><td>KMnO4溶液</td><td>FeSO4溶液</td><td>饱和H2S水</td><td>碘水</td></tr><tr><td>沉积物</td><td>CaCO3</td><td>MnO2</td><td>Fe2O3·xH2O</td><td>S</td><td>I2</td></tr><tr><td>去除沉积物试剂</td><td>盐酸</td><td>浓盐酸</td><td>盐酸</td><td>NaOH溶液</td><td>NaOH溶液</td></tr></table>
+| 试剂 | 石灰水 | KMnO4溶液 | FeSO4溶液 | 饱和H2S水 | 碘水 |
+| --- | --- | --- | --- | --- | --- |
+| 沉积物 | CaCO3 | MnO2 | Fe2O3·xH2O | S | I2 |
+| 去除沉积物试剂 | 盐酸 | 浓盐酸 | 盐酸 | NaOH溶液 | NaOH溶液 |
 
 15.30 用2000字左右的短文描述有关铜的丰度、矿物、冶炼、精炼、常见化合物及其重要性质。解略

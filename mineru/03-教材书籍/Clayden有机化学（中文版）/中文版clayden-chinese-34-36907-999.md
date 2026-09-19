@@ -649,7 +649,10 @@ graph TD
 
 然而，在 1980s，出现了一个非凡的发现。水，大多数有机反应最没希望的溶剂，对于 Diels–Alder 反应有很大的加速作用。即使只在有机溶剂中添加一些水，都能加速反应。这还不是全部。有水的反应的内型选择性通常高于无溶剂，或在烃类溶剂在进行的反应。下面是一个简单的例子。
 
-<table><tr><td>溶剂</td><td>相对速率</td><td>内型:外型比例</td></tr><tr><td>烃(异辛烷)</td><td>1</td><td>80:20</td></tr><tr><td>水</td><td>700</td><td>96:4</td></tr></table>
+| 溶剂 | 相对速率 | 内型:外型比例 |
+| --- | --- | --- |
+| 烃(异辛烷) | 1 | 80:20 |
+| 水 | 700 | 96:4 |
 
 ![[中文版clayden-chinese-34-36907-999_images/13b2e2e7e0ed6d1df87486fe70651e4989b7a9c25d9f3b86018c567cd33a0131.jpg]]
 
@@ -2548,7 +2551,10 @@ Chemical reaction diagram showing cycloaddition of a cyclic ketone with numbered
 
 # - 对氢的热 $\sigma$ 迁移的总结
 
-<table><tr><td></td><td>[1,3]H 移位</td><td>[1,5]H 移位</td><td>[1,7]H 移位</td></tr><tr><td>立体化学</td><td>异面</td><td>同面</td><td>异面</td></tr><tr><td>可行性</td><td>不可行</td><td>容易</td><td>可行</td></tr></table>
+|  | [1,3]H 移位 | [1,5]H 移位 | [1,7]H 移位 |
+| --- | --- | --- | --- |
+| 立体化学 | 异面 | 同面 | 异面 |
+| 可行性 | 不可行 | 容易 | 可行 |
 
 # 光化学 $[1,n]$ Hσ迁移遵循相反的规则
 
@@ -4362,7 +4368,12 @@ Baeyer–Villiger 反应 (reactions) 是所有重排反应中最有用的一个�
 Interactive mechanism for the
 eyer–Villiger rearrangement
 
-<table><tr><td>R =</td><td>对应的产率 (%)</td><td>对应的产率 (%)</td></tr><tr><td>Me</td><td>90</td><td>0</td></tr><tr><td>Et</td><td>87</td><td>6</td></tr><tr><td>i-Pr</td><td>33</td><td>63</td></tr><tr><td>t-Bu</td><td>2</td><td>77</td></tr></table>
+| R = | 对应的产率 (%) | 对应的产率 (%) |
+| --- | --- | --- |
+| Me | 90 | 0 |
+| Et | 87 | 6 |
+| i-Pr | 33 | 63 |
+| t-Bu | 2 | 77 |
 
 次序是，叔烷基是最好的迁移基团，然后是仲烷基，紧跟着的是 Ph，然后是 Et，然后是 Me，这与基团稳定正电荷的能力大致贴合。伯烷基相比仲烷基或芳基，不容易迁移得多，这使区域选择性的 Baeyer–Villiger 反应成为可能。
 

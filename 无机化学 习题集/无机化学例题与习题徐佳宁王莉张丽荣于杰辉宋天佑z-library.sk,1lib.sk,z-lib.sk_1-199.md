@@ -1414,7 +1414,10 @@ B+C=D+E+A （慢）
 
 3.19 已知各基元反应的活化能如下表：
 
-<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td></tr><tr><td>正反应的活化能/(kJ·mol-1)</td><td>70</td><td>16</td><td>40</td><td>20</td><td>20</td></tr><tr><td>逆反应的活化能/(kJ·mol-1)</td><td>20</td><td>35</td><td>45</td><td>80</td><td>30</td></tr></table>
+|  | A | B | C | D | E |
+| --- | --- | --- | --- | --- | --- |
+| 正反应的活化能/(kJ·mol-1) | 70 | 16 | 40 | 20 | 20 |
+| 逆反应的活化能/(kJ·mol-1) | 20 | 35 | 45 | 80 | 30 |
 
 在相同的温度和指前因子时：
 
@@ -1440,7 +1443,9 @@ $$
 
 根据下列实验数据：
 
-<table><tr><td>t/s</td><td>42</td><td>105</td><td>242</td><td>384</td><td>665</td><td>1070</td></tr><tr><td>c(乙醛)/(10-3mol·dm-3)</td><td>6.68</td><td>5.85</td><td>4.64</td><td>3.83</td><td>2.81</td><td>2.01</td></tr></table>
+| t/s | 42 | 105 | 242 | 384 | 665 | 1070 |
+| --- | --- | --- | --- | --- | --- | --- |
+| c(乙醛)/(10-3mol·dm-3) | 6.68 | 5.85 | 4.64 | 3.83 | 2.81 | 2.01 |
 
 (1) 分别求算 42～242 s 和 242～665 s 时间间隔的平均反应速率，并说明二者大小不等
 
@@ -1642,7 +1647,8 @@ $$
 
 起始时物质的量已标在图中。某温度和 100 kPa 下实现平衡时，各部分的体积分别为 $V_{甲}$ ， $V_{乙}$ ， $V_{丙}$ 。
 
-<table><tr><td>x mol B 3 mol C</td><td>1 mol A 3 mol B</td><td>1 mol A 8 mol B</td><td></td></tr></table>
+| x mol B 3 mol C | 1 mol A 3 mol B | 1 mol A 8 mol B |  |
+| --- | --- | --- | --- |
 
 (1) 这时若去掉活塞 1, 不会引起其他活塞移动, 求算 x 值;
 
@@ -2184,7 +2190,14 @@ $$
 
 解：铬 Cr $[Ar]3d^{5}4s^{1}$
 
-<table><tr><td>各价电子</td><td>n</td><td>l</td><td>m</td><td>ms</td></tr><tr><td rowspan="5">3d5</td><td>3</td><td>2</td><td>+2</td><td>+1/2</td></tr><tr><td>3</td><td>2</td><td>+1</td><td>+1/2</td></tr><tr><td>3</td><td>2</td><td>0</td><td>+1/2</td></tr><tr><td>3</td><td>2</td><td>-1</td><td>+1/2</td></tr><tr><td>3</td><td>2</td><td>-2</td><td>+1/2</td></tr><tr><td>4s1</td><td>4</td><td>0</td><td>0</td><td>+1/2</td></tr></table>
+| 各价电子 | n | l | m | ms |
+| --- | --- | --- | --- | --- |
+| 3d5 | 3 | 2 | +2 | +1/2 |
+| 3d5 | 3 | 2 | +1 | +1/2 |
+| 3d5 | 3 | 2 | 0 | +1/2 |
+| 3d5 | 3 | 2 | -1 | +1/2 |
+| 3d5 | 3 | 2 | -2 | +1/2 |
+| 4s1 | 4 | 0 | 0 | +1/2 |
 
 例 5.5 已知离子 $M^{2+}$ 的 3d 轨道中有 5 个电子, 试推出:
 
@@ -6071,7 +6084,11 @@ $$
 
 12.41 试总结下列卤化物标准摩尔生成热数据的变化规律,解释其原因;并预测将 LiI 与 CsF 混合研磨后可能发生的反应。
 
-<table><tr><td rowspan="2">卤化物</td><td colspan="4"> $\Delta_{\mathrm{f}}H_{\mathrm{m}}^{\ominus}/(\mathrm{kJ}\cdot\mathrm{mol}^{-1})$ </td></tr><tr><td>MF</td><td>MCl</td><td>MBr</td><td>MI</td></tr><tr><td>LiX</td><td>-616.0</td><td>-408.6</td><td>-351.2</td><td>-270.4</td></tr><tr><td>RbX</td><td>-557.7</td><td>-435.4</td><td>-394.6</td><td>-333.8</td></tr></table>
+| 卤化物 | $\Delta_{\mathrm{f}}H_{\mathrm{m}}^{\ominus}/(\mathrm{kJ}\cdot\mathrm{mol}^{-1})$ |  |  |  |
+| --- | --- | --- | --- | --- |
+| 卤化物 | MF | MCl | MBr | MI |
+| LiX | -616.0 | -408.6 | -351.2 | -270.4 |
+| RbX | -557.7 | -435.4 | -394.6 | -333.8 |
 
 12.42 为什么金属镁不溶于水但溶于氯化铵溶液？
 

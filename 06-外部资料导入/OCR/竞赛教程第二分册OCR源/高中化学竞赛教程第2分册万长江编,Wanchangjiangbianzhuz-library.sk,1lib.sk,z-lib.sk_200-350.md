@@ -1094,7 +1094,8 @@ A
 
 (1)
 
-<table><tr><td>(a)的反应条件</td><td>(a)的反应类别</td><td>(b)的反应类别</td></tr></table>
+| (a)的反应条件 | (a)的反应类别 | (b)的反应类别 |
+| --- | --- | --- |
 
 (2) 分子 A 中有 \_\_\_\_ 个一级碳原子, 有 \_\_\_\_ 个二级碳原子, 有 \_\_\_\_ 个三级碳原子, 有 \_\_\_\_ 个四级碳原子, 至少有 \_\_\_\_ 个氢原子共平面。
 
@@ -1236,7 +1237,8 @@ $$
 
 12. (1)
 
-<table><tr><td>(a)的反应条件加热</td><td>(a)的反应类别狄尔斯-阿尔德(Diels-Alder)反应</td><td>(b)的反应类别还原反应(答催化氢化、加成反应也可)</td></tr></table>
+| (a)的反应条件加热 | (a)的反应类别狄尔斯-阿尔德(Diels-Alder)反应 | (b)的反应类别还原反应(答催化氢化、加成反应也可) |
+| --- | --- | --- |
 
 (2) 2 0 4 1 4 (3)
 
@@ -4651,7 +4653,11 @@ $$
 
 (3) $\mathrm{pK}_{\mathrm{a}}$ 常用于表示物质的酸性强弱, $\mathrm{pK}_{\mathrm{a}}$ 的数值越小, 该物质的酸性越强。已知卤素原子对饱和脂肪酸的酸性影响具有相似性。 $25^{\circ} \mathrm{C}$ 时一些卤代饱和脂肪酸的 $\mathrm{pK}_{\mathrm{a}}$ 数值如下:
 
-<table><tr><td>卤代酸</td><td>F3CCOOH</td><td>Cl3CCOOH</td><td>F2CHCOOH</td><td>FCH2COOH</td><td>CH3CH2CHCOOH|Cl</td></tr><tr><td>pKa</td><td>0.23</td><td>0.65</td><td>1.24</td><td>2.66</td><td>2.85</td></tr><tr><td>卤代酸</td><td>ClCH2COOH</td><td>BrCH2COOH</td><td>ICH2COOH</td><td>CH3CHCH2COOH|Cl</td><td>ClCH2CH2COOH</td></tr><tr><td>pKa</td><td>2.86</td><td>2.90</td><td>3.18</td><td>4.06</td><td>4.52</td></tr></table>
+| 卤代酸 | F3CCOOH | Cl3CCOOH | F2CHCOOH | FCH2COOH | CH3CH2CHCOOH\|Cl |
+| --- | --- | --- | --- | --- | --- |
+| pKa | 0.23 | 0.65 | 1.24 | 2.66 | 2.85 |
+| 卤代酸 | ClCH2COOH | BrCH2COOH | ICH2COOH | CH3CHCH2COOH\|Cl | ClCH2CH2COOH |
+| pKa | 2.86 | 2.90 | 3.18 | 4.06 | 4.52 |
 
 可见, $25^{\circ} \mathrm{C}$ 时卤素原子对卤代饱和脂肪酸的酸性影响有(写出 2 条即可):
 

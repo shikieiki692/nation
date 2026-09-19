@@ -22,7 +22,10 @@
 
 解 用实线画出素单位,示于图 7.1(a)。各素单位中黑球数和白球数列于下表:
 
-<table><tr><td>序号</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr><tr><td>黑球数目</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>2</td><td>4</td></tr><tr><td>白球数目</td><td>1</td><td>1</td><td>1</td><td>2</td><td>3</td><td>1</td><td>3</td></tr></table>
+| 序号 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 黑球数目 | 1 | 1 | 1 | 1 | 0 | 2 | 4 |
+| 白球数目 | 1 | 1 | 1 | 2 | 3 | 1 | 3 |
 
 ![](结构化学基础（第5版）习题解析周公度z-library.sk,1lib.sk,z-lib.sk_151-266_images/a9b8fa73309c633cf996f87e03ccd9e9d6eb45fb9a6a39892aa9f5f5022848c4.jpg)  
 图7.1(a)
@@ -2037,7 +2040,16 @@ O: $\frac{1}{4}$ , $\frac{1}{4}$ , $\frac{1}{4}$ ; $\frac{3}{4}$ , $\frac{3}{4}$
 
 【9.18】一种高温超导体 $\left[\mathrm{YBa}_{2}\mathrm{Cu}_{3}\mathrm{O}_{7-x}(x\approx0.2)\right]$ 属正交晶系。空间群为Pmmm；晶胞参数为a=381.87pm,b=388.33pm,c=1166.87pm。晶胞中原子坐标参数如下表所示：
 
-<table><tr><td>原子</td><td>x</td><td>y</td><td>z</td></tr><tr><td>Y</td><td>1/2</td><td>1/2</td><td>1/2</td></tr><tr><td>Ba</td><td>1/2</td><td>1/2</td><td>0.1844</td></tr><tr><td>Cu(1)</td><td>0</td><td>0</td><td>0</td></tr><tr><td>Cu(2)</td><td>0</td><td>0</td><td>0.3554</td></tr><tr><td>O(1)</td><td>0</td><td>1/2</td><td>0</td></tr><tr><td>O(2)</td><td>1/2</td><td>0</td><td>0.3788</td></tr><tr><td>O(3)</td><td>0</td><td>1/2</td><td>0.3771</td></tr><tr><td>O(4)</td><td>0</td><td>0</td><td>0.1579</td></tr></table>
+| 原子 | x | y | z |
+| --- | --- | --- | --- |
+| Y | 1/2 | 1/2 | 1/2 |
+| Ba | 1/2 | 1/2 | 0.1844 |
+| Cu(1) | 0 | 0 | 0 |
+| Cu(2) | 0 | 0 | 0.3554 |
+| O(1) | 0 | 1/2 | 0 |
+| O(2) | 1/2 | 0 | 0.3788 |
+| O(3) | 0 | 1/2 | 0.3771 |
+| O(4) | 0 | 0 | 0.1579 |
 
 试按比例画出晶胞的大小及晶胞中原子的分布,并和立方晶系的 $BaTiO_{3}$ 结构(9.8题)对比,指出它们之间有哪些异同。
 
@@ -2805,7 +2817,9 @@ $$
 图 10.17 水分子和环氧乙烷分子的大小  
 (图中键长单位为 pm)
 
-<table><tr><td></td><td>O—H</td><td>C—O</td><td>C—C</td><td>C—H</td></tr><tr><td>键长/pm</td><td>93.8</td><td>102</td><td>154</td><td>105.9</td></tr></table>
+|  | O—H | C—O | C—C | C—H |
+| --- | --- | --- | --- | --- |
+| 键长/pm | 93.8 | 102 | 154 | 105.9 |
 
 这些计算值与实验测定值有的接近,有的则差别较大。图 10.17 所示的分子形状是按实测键参数和范德华半径画出来的。
 
@@ -3699,7 +3713,15 @@ $$
 
 表 C.16
 
-<table><tr><td>晶系</td><td colspan="4">正交晶系</td></tr><tr><td>空间群</td><td colspan="4"> $D_{2h}^{18}-Cmca$ (或 $C\ 2/m\ 2/c\ 2_1/a$ )</td></tr><tr><td rowspan="3">晶胞参数(110 K)</td><td colspan="4"> $a=713.6\ \mathrm{pm}$ </td></tr><tr><td colspan="4"> $b=468.6\ \mathrm{pm}$ </td></tr><tr><td colspan="4"> $c=978.4\ \mathrm{pm}$ </td></tr><tr><td>晶胞中分子数</td><td colspan="4"> $Z=4[I_2]$ </td></tr><tr><td rowspan="2">碘原子坐标参数</td><td></td><td> $x$ </td><td> $y$ </td><td> $z$ </td></tr><tr><td>1</td><td>0</td><td>0.15434</td><td>0.11741</td></tr></table>
+| 晶系 | 正交晶系 |  |  |  |
+| --- | --- | --- | --- | --- |
+| 空间群 | $D_{2h}^{18}-Cmca$ (或 $C\ 2/m\ 2/c\ 2_1/a$ ) |  |  |  |
+| 晶胞参数(110 K) | $a=713.6\ \mathrm{pm}$ |  |  |  |
+| 晶胞参数(110 K) | $b=468.6\ \mathrm{pm}$ |  |  |  |
+| 晶胞参数(110 K) | $c=978.4\ \mathrm{pm}$ |  |  |  |
+| 晶胞中分子数 | $Z=4[I_2]$ |  |  |  |
+| 碘原子坐标参数 |  | $x$ | $y$ | $z$ |
+| 碘原子坐标参数 | 1 | 0 | 0.15434 | 0.11741 |
 
 (1) 根据该晶体空间群的等效点系:
 
@@ -4294,7 +4316,19 @@ $$
 
 (1) 搭出下列分子模型, 了解它们的对称性, 填写表中各栏内容。 $\mathrm{CH}_{4}, \mathrm{H}_{2} \mathrm{O}_{2}, \mathrm{SF}_{6}, \mathrm{N}_{4}(\mathrm{CH}_{2})_{6}, \mathrm{C}_{6} \mathrm{H}_{12}$ （环己烷：船式和椅式）， $C_{2}H_{6}$ （重叠式、交叉式以及介于这两者之间的型式）。
 
-<table><tr><td rowspan="2" colspan="2">分子</td><td colspan="3">对称元素及数目</td><td rowspan="2">点群</td><td rowspan="2">偶极矩</td><td rowspan="2">旋光性</td></tr><tr><td>对称轴</td><td>镜面</td><td> $i$ </td></tr><tr><td colspan="2"> ${\mathrm{CH}}_{4}$ (四面体)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2"> ${\mathrm{SF}}_{6}$ (八面体)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2"> ${\mathrm{B}}_{12}$ (正三角二十面体)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td rowspan="2">环己烷</td><td>船式</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>椅式</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2"> ${\mathrm{H}}_{2}{\mathrm{O}}_{2}$ </td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td rowspan="3"> ${\mathrm{C}}_{2}{\mathrm{H}}_{6}$ </td><td>重叠式</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>交叉式</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>中间式</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2"> ${\mathrm{N}}_{4}{\left( {\mathrm{CH}}_{2}\right) }_{6}$ </td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
+| 分子 |  | 对称元素及数目 |  |  | 点群 | 偶极矩 | 旋光性 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 分子 |  | 对称轴 | 镜面 | $i$ | 点群 | 偶极矩 | 旋光性 |
+| ${\mathrm{CH}}_{4}$ (四面体) |  |  |  |  |  |  |  |
+| ${\mathrm{SF}}_{6}$ (八面体) |  |  |  |  |  |  |  |
+| ${\mathrm{B}}_{12}$ (正三角二十面体) |  |  |  |  |  |  |  |
+| 环己烷 | 船式 |  |  |  |  |  |  |
+| 环己烷 | 椅式 |  |  |  |  |  |  |
+| ${\mathrm{H}}_{2}{\mathrm{O}}_{2}$ |  |  |  |  |  |  |  |
+| ${\mathrm{C}}_{2}{\mathrm{H}}_{6}$ | 重叠式 |  |  |  |  |  |  |
+| ${\mathrm{C}}_{2}{\mathrm{H}}_{6}$ | 交叉式 |  |  |  |  |  |  |
+| ${\mathrm{C}}_{2}{\mathrm{H}}_{6}$ | 中间式 |  |  |  |  |  |  |
+| ${\mathrm{N}}_{4}{\left( {\mathrm{CH}}_{2}\right) }_{6}$ |  |  |  |  |  |  |  |
 
 注意：在搭制分子的球棍模型时，通常按下列惯例用不同的颜色表示不同的原子：C黑色，H浅灰色，O红色，N蓝色，Cl绿色，Br红棕色，I红紫色，S黄色，P紫色；金属原子则以该金属单质显示的颜色表示。
 
@@ -4432,13 +4466,25 @@ $$
 
 取若干等径圆球,分别排列成密堆积层和平面四方层,比较它们的异同,填写下表。(设圆球半径为 R, 球的配位数是指与一个圆球直接接触的圆球数目。计算空隙中心到球面的最短距离,用球半径 R 表示。)
 
-<table><tr><td></td><td>密堆积层</td><td>平面四方层</td></tr><tr><td>每个球的配位数</td><td></td><td></td></tr><tr><td>通过球心和空隙中心的对称元素</td><td></td><td></td></tr><tr><td>空隙中心到球面的最短距离</td><td></td><td></td></tr><tr><td>面积利用率</td><td></td><td></td></tr></table>
+|  | 密堆积层 | 平面四方层 |
+| --- | --- | --- |
+| 每个球的配位数 |  |  |
+| 通过球心和空隙中心的对称元素 |  |  |
+| 空隙中心到球面的最短距离 |  |  |
+| 面积利用率 |  |  |
 
 ## E6.2 等径圆球的最密堆积
 
 将密堆积层按ABAB…和ABCABC…两种重叠方式分别组成六方和立方最密堆积。各取一个正当晶胞，观察并填写下表。
 
-<table><tr><td>堆积方式</td><td>六方(A3)</td><td>立方(A1)</td></tr><tr><td>球的配位数</td><td></td><td></td></tr><tr><td>一个球平均占有的四面体空隙数</td><td></td><td></td></tr><tr><td>一个球平均占有的八面体空隙数</td><td></td><td></td></tr><tr><td>点阵型式</td><td></td><td></td></tr><tr><td>密堆积层方向(用晶胞单位矢量表示)</td><td></td><td></td></tr><tr><td>晶胞内球的分数坐标</td><td></td><td></td></tr></table>
+| 堆积方式 | 六方(A3) | 立方(A1) |
+| --- | --- | --- |
+| 球的配位数 |  |  |
+| 一个球平均占有的四面体空隙数 |  |  |
+| 一个球平均占有的八面体空隙数 |  |  |
+| 点阵型式 |  |  |
+| 密堆积层方向(用晶胞单位矢量表示) |  |  |
+| 晶胞内球的分数坐标 |  |  |
 
 ## E6.3 最密堆积中的空隙
 
@@ -4458,7 +4504,15 @@ $$
 
 将球作体心立方堆积和简单立方堆积,取其晶胞,观察并填写下表。表中密置列是指球沿一维直线紧密排列,其方向以晶胞单位矢量表示。
 
-<table><tr><td>堆积方式</td><td>体心立方</td><td>简单立方</td></tr><tr><td>密置列方向</td><td></td><td></td></tr><tr><td>球的配位数</td><td></td><td></td></tr><tr><td>晶胞内球的坐标</td><td></td><td></td></tr><tr><td>空隙型式</td><td></td><td></td></tr><tr><td>晶胞内空隙数</td><td></td><td></td></tr><tr><td>空隙中心到球面的最短距离</td><td></td><td></td></tr><tr><td>一个球平均占有的空隙数</td><td></td><td></td></tr></table>
+| 堆积方式 | 体心立方 | 简单立方 |
+| --- | --- | --- |
+| 密置列方向 |  |  |
+| 球的配位数 |  |  |
+| 晶胞内球的坐标 |  |  |
+| 空隙型式 |  |  |
+| 晶胞内空隙数 |  |  |
+| 空隙中心到球面的最短距离 |  |  |
+| 一个球平均占有的空隙数 |  |  |
 
 ## E6.5 计算堆积系数
 
@@ -4468,7 +4522,20 @@ $$
 
 通过观察和分析下表所列 6 个二元离子晶体的结构模型,了解离子晶体的结构,将结果填入下表,总结归纳二元离子晶体的结晶化学规律。
 
-<table><tr><td colspan="2">晶体</td><td>NaCl</td><td>CsCl</td><td>ZnS(立方)</td><td>ZnS(六方)</td><td> $CaF_2$ </td><td> $TiO_2$ (金红石)</td></tr><tr><td colspan="2">负离子堆积方式</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2">正负离子半径比</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2">正负离子数量比</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td rowspan="4">正离子</td><td>占什么空隙</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>占空隙比率</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>配位数</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>配位多面体连接方式</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2">负离子的配位数</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2">结构基元</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2">点阵型式</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2">晶胞内正负离子数</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan="2">离子分数坐标</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
+| 晶体 |  | NaCl | CsCl | ZnS(立方) | ZnS(六方) | $CaF_2$ | $TiO_2$ (金红石) |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 负离子堆积方式 |  |  |  |  |  |  |  |
+| 正负离子半径比 |  |  |  |  |  |  |  |
+| 正负离子数量比 |  |  |  |  |  |  |  |
+| 正离子 | 占什么空隙 |  |  |  |  |  |  |
+| 正离子 | 占空隙比率 |  |  |  |  |  |  |
+| 正离子 | 配位数 |  |  |  |  |  |  |
+| 正离子 | 配位多面体连接方式 |  |  |  |  |  |  |
+| 负离子的配位数 |  |  |  |  |  |  |  |
+| 结构基元 |  |  |  |  |  |  |  |
+| 点阵型式 |  |  |  |  |  |  |  |
+| 晶胞内正负离子数 |  |  |  |  |  |  |  |
+| 离子分数坐标 |  |  |  |  |  |  |  |
 
 ## 实习8 金刚石型化合物的结构
 
@@ -4496,7 +4563,15 @@ $$
 
 表 B.1 国际单位制的基本单位
 
-<table><tr><td>物理量名称</td><td>单位名称</td><td>单位符号</td></tr><tr><td>长度</td><td>米</td><td>m</td></tr><tr><td>质量</td><td>千克</td><td>kg</td></tr><tr><td>时间</td><td>秒</td><td>s</td></tr><tr><td>电流强度</td><td>安</td><td>A</td></tr><tr><td>热力学温度</td><td>开</td><td>K</td></tr><tr><td>物质的量</td><td>摩尔</td><td>mol</td></tr><tr><td>发光强度</td><td>坎</td><td>cd</td></tr></table>
+| 物理量名称 | 单位名称 | 单位符号 |
+| --- | --- | --- |
+| 长度 | 米 | m |
+| 质量 | 千克 | kg |
+| 时间 | 秒 | s |
+| 电流强度 | 安 | A |
+| 热力学温度 | 开 | K |
+| 物质的量 | 摩尔 | mol |
+| 发光强度 | 坎 | cd |
 
 表 B.2 若干重要的导出单位
 

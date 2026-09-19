@@ -2163,7 +2163,14 @@ Chemical reaction diagram showing ring-opening of a sugar derivative with acetyl
 
 抛开葡萄糖，这个效应在其他取代的四氢吡喃中也同样有容身之地。下面的表格是页边中的氯代化合物的 NMR 信号。这次只有两种可能的构象 (由于它不是半缩醛，因而不可能有构型变化)——都已展示出来——由 NMR 光谱，您应当能推断出这个化合物究竟是哪种。
 
-<table><tr><td>δ</td><td></td><td></td><td>J, Hz</td><td></td></tr><tr><td>5.78</td><td>1H</td><td>t</td><td>2.0</td><td>H1</td></tr><tr><td>5.03</td><td>2H</td><td>m</td><td></td><td>H2, H3</td></tr><tr><td>4.86</td><td>1H</td><td>m</td><td></td><td>H4</td></tr><tr><td>4.37</td><td>1H</td><td>dd</td><td>12.9, 3.0</td><td>H5a</td></tr><tr><td>3.75</td><td>1H</td><td>ddd</td><td>12.9, 3.7,0.6</td><td>H5b</td></tr><tr><td>2.10</td><td>9H</td><td>s</td><td></td><td>OAc × 3</td></tr></table>
+| δ |  |  | J, Hz |  |
+| --- | --- | --- | --- | --- |
+| 5.78 | 1H | t | 2.0 | H1 |
+| 5.03 | 2H | m |  | H2, H3 |
+| 4.86 | 1H | m |  | H4 |
+| 4.37 | 1H | dd | 12.9, 3.0 | H5a |
+| 3.75 | 1H | ddd | 12.9, 3.7,0.6 | H5b |
+| 2.10 | 9H | s |  | OAc × 3 |
 
 ![[中文版clayden-chinese30-33章787-907_images/c3b58508e2ea80e3fdfb6e06f7f894ae17ac96b5fff68917c581aea8d71d88b4.jpg]]
 
@@ -2358,13 +2365,14 @@ m-CPBA 环氧化反应已在 Chapter 19, p. 429 中讨论。
 
 为说明这一点，下表中绿色的一栏显示了由各种链长的溴代胺环化得到饱和氮杂环，包括三到七元环的相对速率 (六元环形成 = 1).
 
-<table><tr><td>环的大小</td><td>产物</td><td>相对速率a</td><td>产物b</td><td>相对速率a</td><td>速率评价</td></tr><tr><td>3</td><td>H
-N</td><td>0.07°</td><td rowspan="2">E
-E</td><td rowspan="2">0.58</td><td>适中</td></tr><tr><td>4</td><td>NH</td><td>0.0001</td><td>慢</td></tr><tr><td>5</td><td>NH</td><td>100</td><td>E
-E</td><td>833</td><td>非常快</td></tr><tr><td>6</td><td>NH</td><td>1</td><td>E
-E</td><td>1</td><td>快</td></tr><tr><td>7</td><td>NH</td><td>0.002</td><td>E
-E</td><td>0.0087</td><td>慢</td></tr><tr><td>8</td><td></td><td></td><td>E
-E</td><td>0.00015</td><td>非常慢</td></tr></table>
+| 环的大小 | 产物 | 相对速率a | 产物b | 相对速率a | 速率评价 |
+| --- | --- | --- | --- | --- | --- |
+| 3 | H N | 0.07° | E E | 0.58 | 适中 |
+| 4 | NH | 0.0001 | E E | 0.58 | 慢 |
+| 5 | NH | 100 | E E | 833 | 非常快 |
+| 6 | NH | 1 | E E | 1 | 快 |
+| 7 | NH | 0.002 | E E | 0.0087 | 慢 |
+| 8 |  |  | E E | 0.00015 | 非常慢 |
 
 $^{a}$ 相对于六元环形成反应; $^{b}E = CO_{2}Et$
 
@@ -2843,7 +2851,10 @@ Chemical reaction diagram showing conversion of acetic acid to enol under heatin
 
 典型偶合常数 J, Hz
 
-<table><tr><td>立体化学</td><td>烯烃</td><td>环丙烷</td><td>环氧</td></tr><tr><td>顺式</td><td>10-12</td><td>8</td><td>5</td></tr><tr><td>反式</td><td>14-18</td><td>5</td><td>2</td></tr></table>
+| 立体化学 | 烯烃 | 环丙烷 | 环氧 |
+| --- | --- | --- | --- |
+| 顺式 | 10-12 | 8 | 5 |
+| 反式 | 14-18 | 5 | 2 |
 
 ![[中文版clayden-chinese30-33章787-907_images/04ef10b0d331dabbfd6d45dc8555ea4c4c2557f02c1f831c4434d52265a2d724.jpg]]
 
@@ -3513,7 +3524,16 @@ Chemical reaction scheme showing Li-sulfur bismuth reduction and alkylation of a
 
 以碳为中心的（Carbon-centred）亲核试剂都遵循相同的趋势——如下表所示，大小由纤细的乙炔基阴离子，经伯、仲有机金属，增加到 t-BuMgBr，直立选择性随之下降。PhLi 表现得仿佛它很小，这是因为它的平面性。
 
-<table><tr><td rowspan="2">亲核试剂</td><td colspan="2">%的产物产生于</td></tr><tr><td>直立进攻</td><td>平伏进攻</td></tr><tr><td>HC≡CLi</td><td>88</td><td>12</td></tr><tr><td>MeLi</td><td>35</td><td>65</td></tr><tr><td>PhLi</td><td>42</td><td>58</td></tr><tr><td>MeMgBr</td><td>41</td><td>59</td></tr><tr><td>EtMgBr</td><td>29</td><td>71</td></tr><tr><td>i-PrMgBr</td><td>18</td><td>82</td></tr><tr><td>t-BuMgBr</td><td>0</td><td>100</td></tr></table>
+| 亲核试剂 | %的产物产生于 |  |
+| --- | --- | --- |
+| 亲核试剂 | 直立进攻 | 平伏进攻 |
+| HC≡CLi | 88 | 12 |
+| MeLi | 35 | 65 |
+| PhLi | 42 | 58 |
+| MeMgBr | 41 | 59 |
+| EtMgBr | 29 | 71 |
+| i-PrMgBr | 18 | 82 |
+| t-BuMgBr | 0 | 100 |
 
 困难的部分来了——为什么会这样？这是一个答案并不真正确定的问题。直立进攻的接近方向比平伏进攻会受到更多的阻碍，这是肯定的，这也是大的亲核试剂倾向于平伏地进攻的原因。
 

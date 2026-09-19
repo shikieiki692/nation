@@ -335,7 +335,11 @@ $$
 
 3. 完成下列表格。
 
-<table><tr><td>分散系</td><td>分散质粒子的直径大小</td><td>举例</td></tr><tr><td>溶液</td><td></td><td></td></tr><tr><td>胶体</td><td></td><td></td></tr><tr><td>乳浊液或悬浊液</td><td></td><td></td></tr></table>
+| 分散系 | 分散质粒子的直径大小 | 举例 |
+| --- | --- | --- |
+| 溶液 |  |  |
+| 胶体 |  |  |
+| 乳浊液或悬浊液 |  |  |
 
 4. 当光束通过下列物质时，不会出现丁达尔效应的是（ ）。 $① \mathrm{Fe(OH)}_{3}$ 胶体 $②$ 水 $③$ 蔗糖溶液 $④ \mathrm{FeCl}_{3}$ 溶液 $⑤$ 云、雾A. $②④⑤$ B. $③④⑤$ C. $②③④$ D. $①③④$
 
@@ -442,7 +446,9 @@ $$
 
 向盛有2 mL $Na_{2}SO_{4}$ 稀溶液的试管中加入2 mL $BaCl_{2}$ 稀溶液，观察现象并分析。
 
-<table><tr><td rowspan="2">现象</td><td colspan="3">分析</td></tr><tr><td> $Na_{2}SO_{4}$ 和 $BaCl_{2}$ 的电离方程式</td><td>混合前两种溶液中的离子</td><td>混合后溶液中的离子</td></tr><tr><td></td><td></td><td></td><td></td></tr></table>
+| 现象 | 分析 |  |  |
+| --- | --- | --- | --- |
+| 现象 | $Na_{2}SO_{4}$ 和 $BaCl_{2}$ 的电离方程式 | 混合前两种溶液中的离子 | 混合后溶液中的离子 |
 
 通过上述现象和分析，我们可以得出这样的结论：当 $\mathrm{Na}_{2}\mathrm{SO}_{4}$ 稀溶液与 $\mathrm{BaCl}_{2}$ 稀溶液混合时， $\mathrm{Na}^{+}$ 、 $\mathrm{Cl}^{-}$ 都没有发生化学反应；而 $\mathrm{SO}_{4}^{2-}$ 与 $\mathrm{Ba}^{2+}$ 发生了化学反应，生成难溶的 $\mathrm{BaSO}_{4}$ 白色沉淀。也就是说，对于化学反应：
 
@@ -488,7 +494,12 @@ $$
 
 完成下表中各反应的化学方程式和离子方程式，思考两种方程式在表示某一类反应时，表达的含义有什么不同，并进行讨论。
 
-<table><tr><td>反应物</td><td>化学方程式</td><td>离子方程式</td><td>两种方程式的不同</td></tr><tr><td> $\mathrm{HCl} + \mathrm{NaOH}$ </td><td></td><td></td><td rowspan="4"></td></tr><tr><td> $\mathrm{HCl} + \mathrm{KOH}$ </td><td></td><td></td></tr><tr><td> ${\mathrm{H}}_{2}{\mathrm{SO}}_{4} + \mathrm{NaOH}$ </td><td></td><td></td></tr><tr><td> ${\mathrm{H}}_{2}{\mathrm{SO}}_{4} + \mathrm{KOH}$ </td><td></td><td></td></tr></table>
+| 反应物 | 化学方程式 | 离子方程式 | 两种方程式的不同 |
+| --- | --- | --- | --- |
+| $\mathrm{HCl} + \mathrm{NaOH}$ |  |  |  |
+| $\mathrm{HCl} + \mathrm{KOH}$ |  |  |  |
+| ${\mathrm{H}}_{2}{\mathrm{SO}}_{4} + \mathrm{NaOH}$ |  |  |  |
+| ${\mathrm{H}}_{2}{\mathrm{SO}}_{4} + \mathrm{KOH}$ |  |  |  |
 
 上面的4个反应都是中和反应，虽然4个反应的化学方程式不同，但它们的离子方程式却是相同的。这表明：强酸与强碱发生中和反应的实质是，强酸电离出来的 $H^{+}$ 与强碱电离出来的 $OH^{-}$ 结合生成 $H_{2}O$ 。
 
@@ -551,7 +562,9 @@ A. $\mathrm{K}^{+}$ 、 $\mathrm{H}^{+}$ 、 $\mathrm{SO}_{4}^{2-}$ 、 $\mathrm
 
 （1）下表列出了两种牙膏中的摩擦剂，请写出它们所属的物质类别（填“酸”“碱”“盐”或“氧化物”）。
 
-<table><tr><td>摩擦剂</td><td>碳酸钙</td><td>二氧化硅</td></tr><tr><td>物质类别</td><td></td><td></td></tr></table>
+| 摩擦剂 | 碳酸钙 | 二氧化硅 |
+| --- | --- | --- |
+| 物质类别 |  |  |
 
 （2）请根据用途推测并说明二氧化硅在水中的溶解性（“易溶”或“难溶”）。
 
@@ -581,7 +594,10 @@ $$
 \begin{array}{r l} & 2 \mathrm{CuO} + \mathrm{C} \stackrel {\text {高温}} {=} 2 \mathrm{Cu} + \mathrm{CO} _ {2} \uparrow \\ & \mathrm{Fe} _ {2} \mathrm{O} _ {3} + 3 \mathrm{CO} \stackrel {\text {高温}} {=} 2 \mathrm{Fe} + 3 \mathrm{CO} _ {2} \end{array}
 $$
 
-<table><tr><td>物质</td><td>反应物</td><td>发生的反应(氧化反应或还原反应)</td></tr><tr><td>得氧物质</td><td></td><td></td></tr><tr><td>失氧物质</td><td></td><td></td></tr></table>
+| 物质 | 反应物 | 发生的反应(氧化反应或还原反应) |
+| --- | --- | --- |
+| 得氧物质 |  |  |
+| 失氧物质 |  |  |
 
 （2）请标出以上反应中各物质所含元素的化合价，比较反应前后价态有无变化。
 
@@ -1508,7 +1524,15 @@ $$
 
 国际单位制（SI）的7个基本单位
 
-<table><tr><td>物理量</td><td>单位名称</td><td>单位符号</td></tr><tr><td>长度</td><td>米</td><td>m</td></tr><tr><td>质量</td><td>千克(公斤)</td><td>kg</td></tr><tr><td>时间</td><td>秒</td><td>s</td></tr><tr><td>电流</td><td>安[培]</td><td>A</td></tr><tr><td>热力学温度</td><td>开[尔文]</td><td>K</td></tr><tr><td>物质的量</td><td>摩[尔]</td><td>mol</td></tr><tr><td>发光强度</td><td>坎[德拉]</td><td>cd</td></tr></table>
+| 物理量 | 单位名称 | 单位符号 |
+| --- | --- | --- |
+| 长度 | 米 | m |
+| 质量 | 千克(公斤) | kg |
+| 时间 | 秒 | s |
+| 电流 | 安[培] | A |
+| 热力学温度 | 开[尔文] | K |
+| 物质的量 | 摩[尔] | mol |
+| 发光强度 | 坎[德拉] | cd |
 
 ![](高中化学必修第一册人民教育出版社课程教材研究所化学课程教材研究开发中心z-library.sk,1lib.sk,z-lib.sk_images/2a3ed608bbd5c3920a17b9bf4ce15049597dd02090a18f4f9c2d85ca8c1b4adc.jpg)  
 $18\mathrm{gH_2O}$ 约 $6.02\times 10^{23}$ 个水分子 $1\mathrm{molH_2O}$
@@ -1572,7 +1596,10 @@ $$
 
 在一定条件下，1 mol 不同物质的体积如下表所示。观察并分析表中的数据，你能得出哪些结论？与同学讨论。
 
-<table><tr><td>气体</td><td>0°C、101kPa时的体积/L</td><td>液体</td><td>20°C时的体积/cm3</td><td>固体</td><td>20°C时的体积/cm3</td></tr><tr><td>H2</td><td>22.4</td><td>H2O</td><td>18.0</td><td>Fe</td><td>7.12</td></tr><tr><td>O2</td><td>22.4</td><td>H2SO4</td><td>53.6</td><td>Al</td><td>10.0</td></tr></table>
+| 气体 | 0°C、101kPa时的体积/L | 液体 | 20°C时的体积/cm3 | 固体 | 20°C时的体积/cm3 |
+| --- | --- | --- | --- | --- | --- |
+| H2 | 22.4 | H2O | 18.0 | Fe | 7.12 |
+| O2 | 22.4 | H2SO4 | 53.6 | Al | 10.0 |
 
 我们知道，物质体积的大小取决于构成这种物质的粒子数目、粒子的大小和粒子之间的距离这三个因素。
 
@@ -1616,7 +1643,21 @@ concentration of B
 
 物质的量浓度常用的单位为 $\mathrm{mol} / \mathrm{L}$ （或 $\mathrm{mol} \cdot \mathrm{L}^{-1}$ ）。如果 $1\mathrm{L}$ 溶液中含有 $1\mathrm{mol}$ 溶质，这种溶液中溶质的物质的量浓度就是 $1\mathrm{mol} / \mathrm{L}$ 。
 
-<table><tr><td>序号</td><td>项目名称</td><td>英文缩写</td><td>检查结果</td><td>单位</td><td>参考范围</td></tr><tr><td>12</td><td>*钾</td><td>K</td><td>4.1</td><td>mmol/L</td><td>3.5-5.5</td></tr><tr><td>13</td><td>*钠</td><td>Na</td><td>140</td><td>mmol/L</td><td>135-145</td></tr><tr><td>14</td><td>*氯</td><td>Cl</td><td>103</td><td>mmol/L</td><td>96-111</td></tr><tr><td>15</td><td>*钙</td><td>Ca</td><td>2.43</td><td>mmol/L</td><td>2.13-2.70</td></tr><tr><td>16</td><td>胱抑素C</td><td>CysC</td><td>0.78</td><td>mg/L</td><td>0.59-1.03</td></tr><tr><td>17</td><td>*肌酐(酶法)</td><td>Cr(E)</td><td>71</td><td>μmol/L</td><td>59-104</td></tr><tr><td>18</td><td>*尿素</td><td>Urea</td><td>4.18</td><td>mmol/L</td><td>2.78-7.14</td></tr><tr><td>19</td><td>*葡萄糖</td><td>Glu</td><td>5.1</td><td>mmol/L</td><td>3.9-6.1</td></tr><tr><td>20</td><td>*尿酸</td><td>UA</td><td>3.10</td><td>μmol/L</td><td>2.10-416</td></tr><tr><td>21</td><td>*无机磷</td><td>P</td><td>1.19</td><td>mmol/L</td><td>0.81-1.45</td></tr><tr><td>22</td><td>*总胆固醇</td><td>TC</td><td>4.65</td><td>mmol/L</td><td>2.85-5.70</td></tr><tr><td>23</td><td>*甘油三酯</td><td>TG</td><td>1.50</td><td>mmol/L</td><td>0.45-1.70</td></tr><tr><td>24</td><td>高密度脂蛋白胆固醇</td><td>HDL-C</td><td>1.08</td><td>mmol/L</td><td>0.93-1.81</td></tr></table>
+| 序号 | 项目名称 | 英文缩写 | 检查结果 | 单位 | 参考范围 |
+| --- | --- | --- | --- | --- | --- |
+| 12 | *钾 | K | 4.1 | mmol/L | 3.5-5.5 |
+| 13 | *钠 | Na | 140 | mmol/L | 135-145 |
+| 14 | *氯 | Cl | 103 | mmol/L | 96-111 |
+| 15 | *钙 | Ca | 2.43 | mmol/L | 2.13-2.70 |
+| 16 | 胱抑素C | CysC | 0.78 | mg/L | 0.59-1.03 |
+| 17 | *肌酐(酶法) | Cr(E) | 71 | μmol/L | 59-104 |
+| 18 | *尿素 | Urea | 4.18 | mmol/L | 2.78-7.14 |
+| 19 | *葡萄糖 | Glu | 5.1 | mmol/L | 3.9-6.1 |
+| 20 | *尿酸 | UA | 3.10 | μmol/L | 2.10-416 |
+| 21 | *无机磷 | P | 1.19 | mmol/L | 0.81-1.45 |
+| 22 | *总胆固醇 | TC | 4.65 | mmol/L | 2.85-5.70 |
+| 23 | *甘油三酯 | TG | 1.50 | mmol/L | 0.45-1.70 |
+| 24 | 高密度脂蛋白胆固醇 | HDL-C | 1.08 | mmol/L | 0.93-1.81 |
 
 图2-23 体检的一些指标常用物质的量浓度表示
 
@@ -2733,7 +2774,15 @@ $$
 
 观察元素周期表，针对下表中的项目进行思考，并与同学讨论，将讨论结果填写在表中。从表中你能发现周期序数与原子核外电子层数有什么关系吗？
 
-<table><tr><td>周期序数</td><td>起止元素</td><td>包括元素种数</td><td>核外电子层数</td></tr><tr><td>1</td><td>H~He</td><td>2</td><td>1</td></tr><tr><td>2</td><td></td><td></td><td></td></tr><tr><td>3</td><td></td><td></td><td></td></tr><tr><td>4</td><td></td><td></td><td></td></tr><tr><td>5</td><td></td><td></td><td></td></tr><tr><td>6</td><td></td><td></td><td></td></tr><tr><td>7</td><td>Fr~Og(118号)</td><td></td><td>7</td></tr></table>
+| 周期序数 | 起止元素 | 包括元素种数 | 核外电子层数 |
+| --- | --- | --- | --- |
+| 1 | H~He | 2 | 1 |
+| 2 |  |  |  |
+| 3 |  |  |  |
+| 4 |  |  |  |
+| 5 |  |  |  |
+| 6 |  |  |  |
+| 7 | Fr~Og(118号) |  | 7 |
 
 元素周期表的第一周期最短，只有两种元素，第二、第三周期各有8种元素，前三周期称为短周期；其他周期称为长周期。每一周期中元素的电子层数相同，从左到右原子序数递增，周期的序数就是该周期元素所具有的电子层数。
 
@@ -2752,7 +2801,12 @@ $$
 
 表 4-1 氢元素的不同核素
 
-<table><tr><td colspan="2">氢元素的原子核</td><td rowspan="2">原子名称</td><td rowspan="2">原子符号  ${\left( \begin{matrix} A \\ 2\end{matrix}\right) }^{\text{2}}$ </td></tr><tr><td>质子数(Z)</td><td>中子数(N)</td></tr><tr><td>1</td><td>0</td><td>氘(piē)</td><td> ${}_{1}^{1}\mathrm{H}$ </td></tr><tr><td>1</td><td>1</td><td>氚(dāo)</td><td> ${}_{1}^{2}\mathrm{H}$  或  $\mathrm{D}$ </td></tr><tr><td>1</td><td>2</td><td>氘(chuān)</td><td> ${}_{1}^{2}\mathrm{H}$  或  $\mathrm{T}$ </td></tr></table>
+| 氢元素的原子核 |  | 原子名称 | 原子符号 ${\left( \begin{matrix} A \\ 2\end{matrix}\right) }^{\text{2}}$ |
+| --- | --- | --- | --- |
+| 质子数(Z) | 中子数(N) | 原子名称 | 原子符号 ${\left( \begin{matrix} A \\ 2\end{matrix}\right) }^{\text{2}}$ |
+| 1 | 0 | 氘(piē) | ${}_{1}^{1}\mathrm{H}$ |
+| 1 | 1 | 氚(dāo) | ${}_{1}^{2}\mathrm{H}$ 或 $\mathrm{D}$ |
+| 1 | 2 | 氘(chuān) | ${}_{1}^{2}\mathrm{H}$ 或 $\mathrm{T}$ |
 
 核素 nuclide
 同位素 isotope
@@ -2810,7 +2864,13 @@ $$
 
 填写下表中的信息，并思考和讨论下列问题。
 
-<table><tr><td>族</td><td>元素名称</td><td>元素符号</td><td>核电荷数</td><td>原子结构示意图</td><td>最外层电子数</td><td>电子层数</td><td> $\frac{\text{原子半径}^{2}}{\text{nm}}$ </td></tr><tr><td rowspan="5">碱金属元素1</td><td>锂</td><td></td><td></td><td>+3 21</td><td></td><td></td><td>0.152</td></tr><tr><td>钠</td><td></td><td></td><td>+11 281</td><td></td><td></td><td>0.186</td></tr><tr><td>钾</td><td></td><td></td><td>-19 2881</td><td></td><td></td><td>0.227</td></tr><tr><td>铷</td><td></td><td></td><td>+37 281881</td><td></td><td></td><td>0.248</td></tr><tr><td>铯</td><td></td><td></td><td>+55 28181881</td><td></td><td></td><td>0.265</td></tr></table>
+| 族 | 元素名称 | 元素符号 | 核电荷数 | 原子结构示意图 | 最外层电子数 | 电子层数 | $\frac{\text{原子半径}^{2}}{\text{nm}}$ |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 碱金属元素1 | 锂 |  |  | +3 21 |  |  | 0.152 |
+| 碱金属元素1 | 钠 |  |  | +11 281 |  |  | 0.186 |
+| 碱金属元素1 | 钾 |  |  | -19 2881 |  |  | 0.227 |
+| 碱金属元素1 | 铷 |  |  | +37 281881 |  |  | 0.248 |
+| 碱金属元素1 | 铯 |  |  | +55 28181881 |  |  | 0.265 |
 
 （1）在周期表中，从上到下碱金属元素原子的核电荷数、原子半径的变化有什么特点？
 
@@ -3029,7 +3089,9 @@ D. 单质的颜色随核电荷数的增加而加深
 
 5. 下表显示了元素周期表中短周期的一部分，①\~⑥代表6种短周期元素。
 
-<table><tr><td></td><td></td><td></td><td>1</td><td>2</td><td>3</td><td></td></tr><tr><td>4</td><td>5</td><td></td><td></td><td></td><td></td><td>6</td></tr></table>
+|  |  |  | 1 | 2 | 3 |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| 4 | 5 |  |  |  |  | 6 |
 
 已知③与氢元素能组成生活中最常见的化合物X。请填写下列空白。
 
@@ -3415,7 +3477,15 @@ D. 等物质的量的 $O_{2}$ 和 $O_{3}$ 含有相同的质子数
 
 （5）请结合钙的化学性质解释牛奶中钙的存在形式。
 
-<table><tr><td colspan="3">营养成分表</td></tr><tr><td>项目</td><td>每100g</td><td>NRV%</td></tr><tr><td>能量</td><td>309 kJ</td><td>4%</td></tr><tr><td>蛋白质</td><td>3.6 g</td><td>6%</td></tr><tr><td>脂肪</td><td>4.4 g</td><td>7%</td></tr><tr><td>碳水化合物</td><td>5.0 g</td><td>2%</td></tr><tr><td>钠</td><td>65 mg</td><td>3%</td></tr><tr><td>钙</td><td>120 mg</td><td>15%</td></tr></table>
+| 营养成分表 |  |  |
+| --- | --- | --- |
+| 项目 | 每100g | NRV% |
+| 能量 | 309 kJ | 4% |
+| 蛋白质 | 3.6 g | 6% |
+| 脂肪 | 4.4 g | 7% |
+| 碳水化合物 | 5.0 g | 2% |
+| 钠 | 65 mg | 3% |
+| 钙 | 120 mg | 15% |
 
 # 同周期、同主族元素性质的递变
 
@@ -3517,13 +3587,56 @@ D. 等物质的量的 $O_{2}$ 和 $O_{3}$ 含有相同的质子数
 
 ## 名词索引
 
-<table><tr><td>名词</td><td>页码</td><td>名词</td><td>页码</td></tr><tr><td>阿伏加德罗常数</td><td>49</td><td>钠</td><td>32</td></tr><tr><td>次氯酸</td><td>43</td><td>气体摩尔体积</td><td>52</td></tr><tr><td>次氯酸钙</td><td>44</td><td>氢氧化铁</td><td>67</td></tr><tr><td>次氯酸钠</td><td>44</td><td>氢氧化亚铁</td><td>67</td></tr><tr><td>电解质</td><td>13</td><td>容量瓶</td><td>54</td></tr><tr><td>电离</td><td>15</td><td>四氧化三铁</td><td>67</td></tr><tr><td>丁达尔效应</td><td>9</td><td>酸性氧化物</td><td>7</td></tr><tr><td>分散剂</td><td>8</td><td>碳酸钠</td><td>36</td></tr><tr><td>分散系</td><td>8</td><td>碳酸氢钠</td><td>36</td></tr><tr><td>分散质</td><td>8</td><td>铁</td><td>64</td></tr><tr><td>副族</td><td>89</td><td>同素异形体</td><td>6</td></tr><tr><td>共价键</td><td>108</td><td>同位素</td><td>90</td></tr><tr><td>过氧化钠</td><td>33</td><td>物质的量</td><td>49</td></tr><tr><td>合金</td><td>73</td><td>物质的量浓度</td><td>53</td></tr><tr><td>核素</td><td>90</td><td>焰色试验</td><td>38</td></tr><tr><td>化学键</td><td>109</td><td>氧化还原反应</td><td>20</td></tr><tr><td>还原剂</td><td>23</td><td>氧化剂</td><td>23</td></tr><tr><td>碱性氧化物</td><td>7</td><td>氧化铁</td><td>67</td></tr><tr><td>胶体</td><td>8</td><td>氧化亚铁</td><td>66</td></tr><tr><td>离子反应</td><td>17</td><td>元素周期律</td><td>104</td></tr><tr><td>离子键</td><td>107</td><td>质量数</td><td>86</td></tr><tr><td>两性氢氧化物</td><td>103</td><td>质子数</td><td>86</td></tr><tr><td>两性氧化物</td><td>77</td><td>中子数</td><td>86</td></tr><tr><td>氢气</td><td>41</td><td>周期</td><td>89</td></tr><tr><td>摩尔</td><td>49</td><td>主族</td><td>89</td></tr><tr><td>摩尔质量</td><td>51</td><td>族</td><td>89</td></tr></table>
+| 名词 | 页码 | 名词 | 页码 |
+| --- | --- | --- | --- |
+| 阿伏加德罗常数 | 49 | 钠 | 32 |
+| 次氯酸 | 43 | 气体摩尔体积 | 52 |
+| 次氯酸钙 | 44 | 氢氧化铁 | 67 |
+| 次氯酸钠 | 44 | 氢氧化亚铁 | 67 |
+| 电解质 | 13 | 容量瓶 | 54 |
+| 电离 | 15 | 四氧化三铁 | 67 |
+| 丁达尔效应 | 9 | 酸性氧化物 | 7 |
+| 分散剂 | 8 | 碳酸钠 | 36 |
+| 分散系 | 8 | 碳酸氢钠 | 36 |
+| 分散质 | 8 | 铁 | 64 |
+| 副族 | 89 | 同素异形体 | 6 |
+| 共价键 | 108 | 同位素 | 90 |
+| 过氧化钠 | 33 | 物质的量 | 49 |
+| 合金 | 73 | 物质的量浓度 | 53 |
+| 核素 | 90 | 焰色试验 | 38 |
+| 化学键 | 109 | 氧化还原反应 | 20 |
+| 还原剂 | 23 | 氧化剂 | 23 |
+| 碱性氧化物 | 7 | 氧化铁 | 67 |
+| 胶体 | 8 | 氧化亚铁 | 66 |
+| 离子反应 | 17 | 元素周期律 | 104 |
+| 离子键 | 107 | 质量数 | 86 |
+| 两性氢氧化物 | 103 | 质子数 | 86 |
+| 两性氧化物 | 77 | 中子数 | 86 |
+| 氢气 | 41 | 周期 | 89 |
+| 摩尔 | 49 | 主族 | 89 |
+| 摩尔质量 | 51 | 族 | 89 |
 
 ## 附录IV
 
 ## 部分酸、碱和盐的溶解性表（室温）
 
-<table><tr><td rowspan="2">阳离子</td><td colspan="5">阴离子</td></tr><tr><td> $OH^{-}$ </td><td> $NO_{3}^{-}$ </td><td> $Cl^{-}$ </td><td> $SO_{4}^{2-}$ </td><td> $CO_{3}^{2-}$ </td></tr><tr><td> $H^{+}$ </td><td></td><td>溶、挥</td><td>溶、挥</td><td>溶</td><td>溶、挥</td></tr><tr><td> $NH_{4}^{+}$ </td><td>溶、挥</td><td>溶</td><td>溶</td><td>溶</td><td>溶</td></tr><tr><td> $K^{+}$ </td><td>溶</td><td>溶</td><td>溶</td><td>溶</td><td>溶</td></tr><tr><td> $Na^{+}$ </td><td>溶</td><td>溶</td><td>溶</td><td>溶</td><td>溶</td></tr><tr><td> $Ba^{2+}$ </td><td>溶</td><td>溶</td><td>溶</td><td>不</td><td>不</td></tr><tr><td> $Ca^{2+}$ </td><td>微</td><td>溶</td><td>溶</td><td>微</td><td>不</td></tr><tr><td> $Mg^{2+}$ </td><td>不</td><td>溶</td><td>溶</td><td>溶</td><td>微</td></tr><tr><td> $Al^{3+}$ </td><td>不</td><td>溶</td><td>溶</td><td>溶</td><td>—</td></tr><tr><td> $Mn^{2+}$ </td><td>不</td><td>溶</td><td>溶</td><td>溶</td><td>不</td></tr><tr><td> $Zn^{2+}$ </td><td>不</td><td>溶</td><td>溶</td><td>溶</td><td>不</td></tr><tr><td> $Fe^{2+}$ </td><td>不</td><td>溶</td><td>溶</td><td>溶</td><td>不</td></tr><tr><td> $Fe^{3+}$ </td><td>不</td><td>溶</td><td>溶</td><td>溶</td><td>—</td></tr><tr><td> $Cu^{2+}$ </td><td>不</td><td>溶</td><td>溶</td><td>溶</td><td>—</td></tr><tr><td> $Ag^{+}$ </td><td>—</td><td>溶</td><td>不</td><td>微</td><td>不</td></tr></table>
+| 阳离子 | 阴离子 |  |  |  |  |
+| --- | --- | --- | --- | --- | --- |
+| 阳离子 | $OH^{-}$ | $NO_{3}^{-}$ | $Cl^{-}$ | $SO_{4}^{2-}$ | $CO_{3}^{2-}$ |
+| $H^{+}$ |  | 溶、挥 | 溶、挥 | 溶 | 溶、挥 |
+| $NH_{4}^{+}$ | 溶、挥 | 溶 | 溶 | 溶 | 溶 |
+| $K^{+}$ | 溶 | 溶 | 溶 | 溶 | 溶 |
+| $Na^{+}$ | 溶 | 溶 | 溶 | 溶 | 溶 |
+| $Ba^{2+}$ | 溶 | 溶 | 溶 | 不 | 不 |
+| $Ca^{2+}$ | 微 | 溶 | 溶 | 微 | 不 |
+| $Mg^{2+}$ | 不 | 溶 | 溶 | 溶 | 微 |
+| $Al^{3+}$ | 不 | 溶 | 溶 | 溶 | — |
+| $Mn^{2+}$ | 不 | 溶 | 溶 | 溶 | 不 |
+| $Zn^{2+}$ | 不 | 溶 | 溶 | 溶 | 不 |
+| $Fe^{2+}$ | 不 | 溶 | 溶 | 溶 | 不 |
+| $Fe^{3+}$ | 不 | 溶 | 溶 | 溶 | — |
+| $Cu^{2+}$ | 不 | 溶 | 溶 | 溶 | — |
+| $Ag^{+}$ | — | 溶 | 不 | 微 | 不 |
 
 说明：“溶”表示那种物质可溶于水，“不”表示不溶于水，“微”表示微溶于水，“挥”表示挥发性，“一”表示那种物质不存在或遇到水就分解了。
 
@@ -3531,7 +3644,33 @@ D. 等物质的量的 $O_{2}$ 和 $O_{3}$ 含有相同的质子数
 
 一些常见元素中英文名称对照表
 
-<table><tr><td>元素符号</td><td>中文名称(拼音)</td><td>英文名</td><td>元素符号</td><td>中文名称(拼音)</td><td>英文名</td></tr><tr><td>Ag</td><td>银(yín)</td><td>silver</td><td>Al</td><td>铝(lǚ)</td><td>aluminum</td></tr><tr><td>Ar</td><td>氩(yà)</td><td>argon</td><td>Au</td><td>金(jīn)</td><td>gold</td></tr><tr><td>B</td><td>硼(péng)</td><td>boron</td><td>Ba</td><td>钡(bèi)</td><td>barium</td></tr><tr><td>Be</td><td>铍(pí)</td><td>beryllium</td><td>Br</td><td>溴(xiù)</td><td>bromine</td></tr><tr><td>C</td><td>碳(tàn)</td><td>carbon</td><td>Ca</td><td>钙(gài)</td><td>calcium</td></tr><tr><td>Cl</td><td>氢(lǜ)</td><td>chlorine</td><td>Co</td><td>钴(gǔ)</td><td>cobalt</td></tr><tr><td>Cr</td><td>铬(gè)</td><td>chromium</td><td>Cu</td><td>铜(tóng)</td><td>copper</td></tr><tr><td>F</td><td>氟(fú)</td><td>fluorine</td><td>Fe</td><td>铁(tiě)</td><td>iron</td></tr><tr><td>Ga</td><td>镓(jiā)</td><td>gallium</td><td>Ge</td><td>锗(zhě)</td><td>germanium</td></tr><tr><td>H</td><td>氢(qīng)</td><td>hydrogen</td><td>He</td><td>氮(hài)</td><td>helium</td></tr><tr><td>Hg</td><td>汞(gǒng)</td><td>mercury</td><td>I</td><td>碘(diǎn)</td><td>iodine</td></tr><tr><td>K</td><td>钾(jiǎ)</td><td>potassium</td><td>Kr</td><td>氪(kè)</td><td>krypton</td></tr><tr><td>Li</td><td>锂(lǐ)</td><td>lithium</td><td>Mg</td><td>镁(měi)</td><td>magnesium</td></tr><tr><td>Mn</td><td>锰(měng)</td><td>manganese</td><td>N</td><td>氮(dàn)</td><td>nitrogen</td></tr><tr><td>Na</td><td>钠(nà)</td><td>sodium</td><td>Ne</td><td>氖(nǎi)</td><td>neon</td></tr><tr><td>Ni</td><td>镍(niè)</td><td>nickel</td><td>O</td><td>氧(yǎng)</td><td>oxygen</td></tr><tr><td>P</td><td>磷(lín)</td><td>phosphorus</td><td>Pb</td><td>铅(qiān)</td><td>lead</td></tr><tr><td>Pt</td><td>铂(bó)</td><td>platinum</td><td>Ra</td><td>镭(léi)</td><td>radium</td></tr><tr><td>Rn</td><td>氡(dōng)</td><td>radon</td><td>S</td><td>硫(liú)</td><td>sulphur</td></tr><tr><td>Sc</td><td>钪(kàng)</td><td>scandium</td><td>Se</td><td>硒(xī)</td><td>selenium</td></tr><tr><td>Si</td><td>硅(guī)</td><td>silicon</td><td>Sn</td><td>锡(xī)</td><td>tin</td></tr><tr><td>Sr</td><td>锶(sī)</td><td>strontium</td><td>Ti</td><td>钛(tài)</td><td>titanium</td></tr><tr><td>U</td><td>铀(yóu)</td><td>uranium</td><td>V</td><td>钪(fán)</td><td>vanadium</td></tr><tr><td>W</td><td>钨(wū)</td><td>tungsten</td><td>Xe</td><td>氙(xiān)</td><td>xenon</td></tr><tr><td>Zn</td><td>锌(xīn)</td><td>zinc</td><td></td><td></td><td></td></tr></table>
+| 元素符号 | 中文名称(拼音) | 英文名 | 元素符号 | 中文名称(拼音) | 英文名 |
+| --- | --- | --- | --- | --- | --- |
+| Ag | 银(yín) | silver | Al | 铝(lǚ) | aluminum |
+| Ar | 氩(yà) | argon | Au | 金(jīn) | gold |
+| B | 硼(péng) | boron | Ba | 钡(bèi) | barium |
+| Be | 铍(pí) | beryllium | Br | 溴(xiù) | bromine |
+| C | 碳(tàn) | carbon | Ca | 钙(gài) | calcium |
+| Cl | 氢(lǜ) | chlorine | Co | 钴(gǔ) | cobalt |
+| Cr | 铬(gè) | chromium | Cu | 铜(tóng) | copper |
+| F | 氟(fú) | fluorine | Fe | 铁(tiě) | iron |
+| Ga | 镓(jiā) | gallium | Ge | 锗(zhě) | germanium |
+| H | 氢(qīng) | hydrogen | He | 氮(hài) | helium |
+| Hg | 汞(gǒng) | mercury | I | 碘(diǎn) | iodine |
+| K | 钾(jiǎ) | potassium | Kr | 氪(kè) | krypton |
+| Li | 锂(lǐ) | lithium | Mg | 镁(měi) | magnesium |
+| Mn | 锰(měng) | manganese | N | 氮(dàn) | nitrogen |
+| Na | 钠(nà) | sodium | Ne | 氖(nǎi) | neon |
+| Ni | 镍(niè) | nickel | O | 氧(yǎng) | oxygen |
+| P | 磷(lín) | phosphorus | Pb | 铅(qiān) | lead |
+| Pt | 铂(bó) | platinum | Ra | 镭(léi) | radium |
+| Rn | 氡(dōng) | radon | S | 硫(liú) | sulphur |
+| Sc | 钪(kàng) | scandium | Se | 硒(xī) | selenium |
+| Si | 硅(guī) | silicon | Sn | 锡(xī) | tin |
+| Sr | 锶(sī) | strontium | Ti | 钛(tài) | titanium |
+| U | 铀(yóu) | uranium | V | 钪(fán) | vanadium |
+| W | 钨(wū) | tungsten | Xe | 氙(xiān) | xenon |
+| Zn | 锌(xīn) | zinc |  |  |  |
 
 ## 附录VI
 

@@ -4,7 +4,12 @@
 
 # 1）CS配体 02:44
 
-<table><tr><td>CE</td><td>v(C-E), cm⁻¹</td><td>Ru-C Distance, nm</td></tr><tr><td>CO</td><td>1934</td><td>1.829</td></tr><tr><td>CS</td><td>1238</td><td>1.793</td></tr><tr><td>CSe</td><td>1129</td><td>1.766</td></tr><tr><td>CTe</td><td>1024</td><td>1.748</td></tr></table>
+| CE | v(C-E), cm⁻¹ | Ru-C Distance, nm |
+| --- | --- | --- |
+| CO | 1934 | 1.829 |
+| CS | 1238 | 1.793 |
+| CSe | 1129 | 1.766 |
+| CTe | 1024 | 1.748 |
 
 ● 等电子体特性：CS可视为CO的等电子体，CSe和CTe则更为罕见
 
@@ -1104,12 +1109,13 @@ OR&M→CO 无2R
 
 \- 记忆口诀：“对称高，峰数少；trans总比cis少”
 
-<table><tr><td>Complex</td><td>Isomer</td><td>Structure</td><td>Point group</td><td>Number of</td></tr><tr><td>[M(CO)₅]</td><td></td><td>OC, M CO
-OC CO</td><td>Oₕ</td><td>1</td></tr><tr><td>[M(CO)₃L]</td><td></td><td>OC, L CO
-OC M CO</td><td>C₄v</td><td>3†</td></tr><tr><td>[M(CO)₄L₂]</td><td>trans</td><td>OC, L CO
-OC M CO</td><td>D₄h</td><td>1</td></tr><tr><td>[M(CO)₄L₂]</td><td>cis</td><td>OC, L CO
-OC M L CO</td><td>C₂v</td><td>4‡</td></tr><tr><td>[M(CO)₃L₃]</td><td>mer</td><td>OC, L L CO
-L CO</td><td>C₂v</td><td>3‡</td></tr></table>
+| Complex | Isomer | Structure | Point group | Number of |
+| --- | --- | --- | --- | --- |
+| [M(CO)₅] |  | OC, M CO OC CO | Oₕ | 1 |
+| [M(CO)₃L] |  | OC, L CO OC M CO | C₄v | 3† |
+| [M(CO)₄L₂] | trans | OC, L CO OC M CO | D₄h | 1 |
+| [M(CO)₄L₂] | cis | OC, L CO OC M L CO | C₂v | 4‡ |
+| [M(CO)₃L₃] | mer | OC, L L CO L CO | C₂v | 3‡ |
 
 应用技巧：考题常通过比较峰数推断对称性，无需死记具体构型峰数，只需掌握对称性越高峰数越少的原则。
 
@@ -1557,4 +1563,13 @@ $\bullet$ $\pi$ 键: $d_{xy}$ 和 $d_{xz}$
 
 # 四、知识小结
 
-<table><tr><td>主题</td><td>核心内容</td><td>关键知识点</td><td>难度系数</td></tr><tr><td>配位化学基础</td><td>异构结构与配位数分析</td><td>八面体/四面体构型、顺反异构、光学异构</td><td>★★★</td></tr><tr><td>配体场理论</td><td>轨道相互作用分析</td><td>σ-donor/π-acceptor配体、配体场分裂能</td><td>★★★★</td></tr><tr><td>过渡金属化合物</td><td>18电子规则应用</td><td>汤基配合物电子计数、配体取代反应</td><td>★★★★</td></tr><tr><td>金属有机化学</td><td>卡宾配合物分类</td><td>Fischer型(亲电)/Schrock型(亲核)卡宾特征对比</td><td>★★★★★</td></tr><tr><td>波谱解析技术</td><td>配合物结构鉴定</td><td>IR区分顺反异构、NMR化学位移分析</td><td>★★★★</td></tr><tr><td>等瓣相似原理</td><td>主族/过渡金属类比</td><td>BH≈CO、CH3≈Mn(CO)5等电子片段替换</td><td>★★★★</td></tr><tr><td>金属-金属键</td><td>多重键形成机制</td><td>σ+2π+2δ五重键理论(争议点)</td><td>★★★★★</td></tr><tr><td>催化反应机理</td><td>配体调控策略</td><td>位阻/电子效应对活化的影响(重点案例)</td><td>★★★★</td></tr></table>
+| 主题 | 核心内容 | 关键知识点 | 难度系数 |
+| --- | --- | --- | --- |
+| 配位化学基础 | 异构结构与配位数分析 | 八面体/四面体构型、顺反异构、光学异构 | ★★★ |
+| 配体场理论 | 轨道相互作用分析 | σ-donor/π-acceptor配体、配体场分裂能 | ★★★★ |
+| 过渡金属化合物 | 18电子规则应用 | 汤基配合物电子计数、配体取代反应 | ★★★★ |
+| 金属有机化学 | 卡宾配合物分类 | Fischer型(亲电)/Schrock型(亲核)卡宾特征对比 | ★★★★★ |
+| 波谱解析技术 | 配合物结构鉴定 | IR区分顺反异构、NMR化学位移分析 | ★★★★ |
+| 等瓣相似原理 | 主族/过渡金属类比 | BH≈CO、CH3≈Mn(CO)5等电子片段替换 | ★★★★ |
+| 金属-金属键 | 多重键形成机制 | σ+2π+2δ五重键理论(争议点) | ★★★★★ |
+| 催化反应机理 | 配体调控策略 | 位阻/电子效应对活化的影响(重点案例) | ★★★★ |

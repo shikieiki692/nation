@@ -5652,7 +5652,11 @@ A set of probabilities that adds up to unity is said to be normalized.
 
 EXAMPLE 5.16 A quiz was given in a class with 100 members. The scores were as follows:
 
-<table><tr><td>Score</td><td># of students</td><td>Score</td><td># of students</td></tr><tr><td>100</td><td>8</td><td>70</td><td>23</td></tr><tr><td>90</td><td>11</td><td>60</td><td>14</td></tr><tr><td>80</td><td>35</td><td>50</td><td>9</td></tr></table>
+| Score | # of students | Score | # of students |
+| --- | --- | --- | --- |
+| 100 | 8 | 70 | 23 |
+| 90 | 11 | 60 | 14 |
+| 80 | 35 | 50 | 9 |
 
 Find the mean score.
 

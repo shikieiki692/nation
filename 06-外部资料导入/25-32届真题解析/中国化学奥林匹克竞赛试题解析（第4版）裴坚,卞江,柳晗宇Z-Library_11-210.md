@@ -3329,7 +3329,14 @@ $$
 
 本题难度相对较低,但在实际考试过程中,很多同学都花费了大量的时间纠结:“我选择的区分法到底正不正确?能有效鉴别吗?”这是由于元素化学基础知识不牢固所导致的。再次强调:化学原理与常见化合物性质是无机化学基本功,不要在“偏、难、怪”知识点上花费大量时间!在平常解题过程中,即便对于简单的元素题目,也要充分挖掘题目中的价值。例如此题,同学们可以列一张这样的表格,通过做实验/查书的方法及时总结归纳:
 
-<table><tr><td></td><td> $Fe^{2+}$ </td><td> $Cr(OH)_4^-$ </td><td> $Ni^{2+}$ </td><td> $MnO_4^{2-}$ </td><td> $CuCl_3^-$ </td></tr><tr><td> $Fe^{2+}$ </td><td></td><td></td><td></td><td></td><td></td></tr><tr><td> $Cr(OH)_4^-$ </td><td></td><td></td><td colspan="3">现象:少量?过量?</td></tr><tr><td rowspan="2"> $Ni^{2+}$ </td><td></td><td colspan="4">条件(非常重要):pH?配体?温度?溶剂?催化剂?</td></tr><tr><td></td><td colspan="4">方程式(可不配平):产物?</td></tr><tr><td> $MnO_4^{2-}$ </td><td></td><td colspan="4">结论:能推理出什么性质?</td></tr><tr><td> $CuCl_3^-$ </td><td></td><td></td><td></td><td></td><td></td></tr></table>
+|  | $Fe^{2+}$ | $Cr(OH)_4^-$ | $Ni^{2+}$ | $MnO_4^{2-}$ | $CuCl_3^-$ |
+| --- | --- | --- | --- | --- | --- |
+| $Fe^{2+}$ |  |  |  |  |  |
+| $Cr(OH)_4^-$ |  |  | 现象:少量?过量? |  |  |
+| $Ni^{2+}$ |  | 条件(非常重要):pH?配体?温度?溶剂?催化剂? |  |  |  |
+| $Ni^{2+}$ |  | 方程式(可不配平):产物? |  |  |  |
+| $MnO_4^{2-}$ |  | 结论:能推理出什么性质? |  |  |  |
+| $CuCl_3^-$ |  |  |  |  |  |
 
 ## 知识拓展
 
@@ -5097,7 +5104,9 @@ $$
 
 活塞1 活塞2 活塞3 活塞4
 
-<table><tr><td>x mol B3 mol C</td><td>1 mol A3 mol B</td><td>1 mol A8 mol B</td><td>a mol Ab mol By mol C</td><td></td></tr><tr><td>甲</td><td>乙</td><td>丙</td><td>丁</td><td></td></tr></table>
+| x mol B3 mol C | 1 mol A3 mol B | 1 mol A8 mol B | a mol Ab mol By mol C |  |
+| --- | --- | --- | --- | --- |
+| 甲 | 乙 | 丙 | 丁 |  |
 
 2-1 已知平衡常数 K 和反应商 Q，如何判断反应进行方向？
 
@@ -5375,7 +5384,10 @@ K 判据：
 
 2-2 不妨先将4个部分中的起始物质全都转化成等价的只有A、B的形式：
 
-<table><tr><td>甲</td><td>乙</td><td>丙</td><td>丁</td></tr><tr><td>3 mol A</td><td>1 mol A</td><td>1 mol A</td><td>(a+y)mol A</td></tr><tr><td>(3+x)mol B</td><td>3 mol B</td><td>8 mol B</td><td>(b+y)mol B</td></tr></table>
+| 甲 | 乙 | 丙 | 丁 |
+| --- | --- | --- | --- |
+| 3 mol A | 1 mol A | 1 mol A | (a+y)mol A |
+| (3+x)mol B | 3 mol B | 8 mol B | (b+y)mol B |
 
 可以轻易地看出 $V_{甲}:V_{乙}=3$ 。
 

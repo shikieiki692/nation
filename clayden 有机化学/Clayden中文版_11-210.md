@@ -599,7 +599,67 @@ Heck反应将有机卤代烃或三氟甲磺酸酯与烯烃偶联 1079
 
 ## 缩写对照
 
-<table><tr><td>Ac</td><td>乙酰基</td><td>DMS</td><td>二甲硫醚</td></tr><tr><td>Acac</td><td>乙酰丙酮盐</td><td>DMSO</td><td>二甲亚砜</td></tr><tr><td>AD</td><td>不对称双羟基化</td><td>DNA</td><td>脱氧核糖核酸</td></tr><tr><td>ADP</td><td>52-二磷酸腺苷</td><td>E1</td><td>单分子消除反应</td></tr><tr><td>AE</td><td>不对称环氧化</td><td>E2</td><td>双分子消除反应</td></tr><tr><td>AIBN</td><td>偶氮二异丁腈</td><td> $E_a$ </td><td>活化能</td></tr><tr><td>AO</td><td>原子轨道</td><td>EDTA</td><td>乙二胺四乙酸</td></tr><tr><td>Ar</td><td>芳基</td><td>EPR</td><td>电子顺磁共振</td></tr><tr><td>ATP</td><td>三磷酸腺苷</td><td>ESR</td><td>电子自旋共振</td></tr><tr><td>9-BBN</td><td>9-硼杂双环[3.3.1]壬烷</td><td>Et</td><td>乙基</td></tr><tr><td rowspan="2">BHT</td><td rowspan="2">丁基羟基甲苯(2,6-二叔丁基-4-甲基苯酚)</td><td>FGI</td><td>官能团相互转化</td></tr><tr><td>Fmoc</td><td>芴甲氧羰基</td></tr><tr><td rowspan="2">BINAP</td><td rowspan="2">双(二苯膦基)-1,1'-联萘</td><td>GAC</td><td>普通酸催化</td></tr><tr><td>GBC</td><td>普通碱催化</td></tr><tr><td>Bn</td><td>苄基</td><td>HMPA</td><td>六甲基磷酰胺</td></tr><tr><td>Boc, BOC</td><td>叔丁氧羰基</td><td>HMPT</td><td>六甲基磷酰三胺</td></tr><tr><td>Bu</td><td>丁基</td><td>HOBt</td><td>1-羟基苯并三唑</td></tr><tr><td>s-Bu</td><td>仲丁基</td><td>HOMO</td><td>最高占据分子轨道</td></tr><tr><td>t-Bu</td><td>叔丁基</td><td>HPLC</td><td>高效液相色谱</td></tr><tr><td>Bz</td><td>苯甲酰基</td><td></td><td></td></tr><tr><td>Cbz</td><td>苄氧羰基</td><td>HIV</td><td>人类免疫缺陷病毒</td></tr><tr><td>CDI</td><td>碳酰二咪唑</td><td>IR</td><td>红外光谱</td></tr><tr><td>CI</td><td>化学电离</td><td>KHMDS</td><td>六甲基二硅基氨基钾</td></tr><tr><td>CoA</td><td>辅酶A</td><td>LCAO</td><td>原子轨道的线性组合</td></tr><tr><td>COT</td><td>环辛四烯</td><td>LDA</td><td>二异丙基氨基锂</td></tr><tr><td>Cp</td><td>环戊二烯</td><td>LHMDS</td><td>六甲基二硅基氨基锂</td></tr><tr><td>DABCO</td><td>1,4-二氮杂二环[2.2.2]辛烷</td><td>LICA</td><td>异丙基环己基氨基锂</td></tr><tr><td>DBE</td><td>双键等价物</td><td>LTMP, LiTMP</td><td>2,2,6,6-四甲基哌啶锂</td></tr><tr><td>DBN</td><td>1,5-二氮杂双环[4.3.0]壬-5-烯</td><td>LUMO</td><td>最低未占据分子轨道</td></tr><tr><td>DBU</td><td>1,8-二氮杂双环[5.4.0]十一-7-烯</td><td>m-CPBA</td><td>间氯代过氧苯甲酸</td></tr><tr><td>DCC</td><td>N,N-二环己基碳二亚胺</td><td>Me</td><td>甲基</td></tr><tr><td rowspan="2">DDQ</td><td rowspan="2">2,3-二氯-5,6-二氰基-1,4-苯醌</td><td>MO</td><td>分子轨道</td></tr><tr><td>MOM</td><td>甲氧基甲基</td></tr><tr><td>DEAD</td><td>偶氮二甲酸二乙酯</td><td>Ms</td><td>甲磺酰基</td></tr><tr><td>DIBAL</td><td>二异丁基氢化铝</td><td>NAD</td><td>烟酰胺腺嘌呤二核苷酸</td></tr><tr><td>DMAP</td><td>4-二甲氨基吡啶</td><td>NADH</td><td>还原型NAD</td></tr><tr><td>DME</td><td>1,2-二甲氧基乙烷</td><td>NBS</td><td>N-溴代琥珀酰亚胺</td></tr><tr><td>DMF</td><td>N,N-二甲基甲酰胺</td><td>NIS</td><td>N-碘代琥珀酰亚胺</td></tr><tr><td>DMPU</td><td>1,3-二甲基-3,4,5,6-四氢-2(1H)-嘧啶酮</td><td>NMO</td><td>N-甲基吗啉-N-氧化物</td></tr><tr><td>xvi</td><td colspan="3">缩写对照</td></tr><tr><td>NMR</td><td>核磁共振</td><td>SOMO</td><td>单占分子轨道</td></tr><tr><td>NOE</td><td>核 Overhauser 效应</td><td>STM</td><td>扫描隧道显微镜</td></tr><tr><td>PCC</td><td>氯铬酸吡啶鎓</td><td>TBDMS</td><td>叔丁基二甲基硅基</td></tr><tr><td>PDC</td><td>重铬酸吡啶鎓</td><td>TBDPS</td><td>叔丁基二苯基硅基</td></tr><tr><td>Ph</td><td>苯基</td><td>Tf</td><td>三氟甲磺酰基</td></tr><tr><td>PPA</td><td>多聚磷酸</td><td>THF</td><td>四氢呋喃</td></tr><tr><td>Pr</td><td>丙基</td><td>THP</td><td>四氢吡喃</td></tr><tr><td>i-Pr</td><td>异丙基</td><td>TIPS</td><td>三异丙基轨迹</td></tr><tr><td>PTC</td><td>相转移催化剂</td><td>TMEDA</td><td> $N,N,N',N'-四甲基-1,2-乙二胺$ </td></tr><tr><td>PTSA</td><td>对甲苯磺酰胺</td><td></td><td></td></tr><tr><td>Py</td><td>吡啶</td><td>TMP</td><td>2,2,6,6-四甲基哌啶</td></tr><tr><td rowspan="2">Red Al</td><td rowspan="2">二(2-甲氧基乙氧基) 氢化铝钠</td><td>TMS</td><td>三甲基硅基,也指四甲基硅烷</td></tr><tr><td>TMSOTf</td><td>三氟甲磺酰基三甲基硅烷</td></tr><tr><td>RNA</td><td>核糖核酸</td><td>TPAP</td><td>高钌酸 四-N-丙基铵</td></tr><tr><td>SAC</td><td>特别酸催化</td><td></td><td></td></tr><tr><td>SAM</td><td>S-腺苷蛋氨酸</td><td>Tr</td><td>三苯甲基</td></tr><tr><td>SBC</td><td>特别碱催化</td><td>TS</td><td>过渡态</td></tr><tr><td rowspan="2"> $S_N1$ </td><td rowspan="2">单分子亲核取代反应</td><td>Ts</td><td>对甲苯磺酰基</td></tr><tr><td>UV</td><td>紫外光</td></tr><tr><td> $S_N2$ </td><td>双分子亲核取代反应</td><td>VSEPR</td><td>价层电子对互斥</td></tr></table>
+| Ac | 乙酰基 | DMS | 二甲硫醚 |
+| --- | --- | --- | --- |
+| Acac | 乙酰丙酮盐 | DMSO | 二甲亚砜 |
+| AD | 不对称双羟基化 | DNA | 脱氧核糖核酸 |
+| ADP | 52-二磷酸腺苷 | E1 | 单分子消除反应 |
+| AE | 不对称环氧化 | E2 | 双分子消除反应 |
+| AIBN | 偶氮二异丁腈 | $E_a$ | 活化能 |
+| AO | 原子轨道 | EDTA | 乙二胺四乙酸 |
+| Ar | 芳基 | EPR | 电子顺磁共振 |
+| ATP | 三磷酸腺苷 | ESR | 电子自旋共振 |
+| 9-BBN | 9-硼杂双环[3.3.1]壬烷 | Et | 乙基 |
+| BHT | 丁基羟基甲苯(2,6-二叔丁基-4-甲基苯酚) | FGI | 官能团相互转化 |
+| BHT | 丁基羟基甲苯(2,6-二叔丁基-4-甲基苯酚) | Fmoc | 芴甲氧羰基 |
+| BINAP | 双(二苯膦基)-1,1'-联萘 | GAC | 普通酸催化 |
+| BINAP | 双(二苯膦基)-1,1'-联萘 | GBC | 普通碱催化 |
+| Bn | 苄基 | HMPA | 六甲基磷酰胺 |
+| Boc, BOC | 叔丁氧羰基 | HMPT | 六甲基磷酰三胺 |
+| Bu | 丁基 | HOBt | 1-羟基苯并三唑 |
+| s-Bu | 仲丁基 | HOMO | 最高占据分子轨道 |
+| t-Bu | 叔丁基 | HPLC | 高效液相色谱 |
+| Bz | 苯甲酰基 |  |  |
+| Cbz | 苄氧羰基 | HIV | 人类免疫缺陷病毒 |
+| CDI | 碳酰二咪唑 | IR | 红外光谱 |
+| CI | 化学电离 | KHMDS | 六甲基二硅基氨基钾 |
+| CoA | 辅酶A | LCAO | 原子轨道的线性组合 |
+| COT | 环辛四烯 | LDA | 二异丙基氨基锂 |
+| Cp | 环戊二烯 | LHMDS | 六甲基二硅基氨基锂 |
+| DABCO | 1,4-二氮杂二环[2.2.2]辛烷 | LICA | 异丙基环己基氨基锂 |
+| DBE | 双键等价物 | LTMP, LiTMP | 2,2,6,6-四甲基哌啶锂 |
+| DBN | 1,5-二氮杂双环[4.3.0]壬-5-烯 | LUMO | 最低未占据分子轨道 |
+| DBU | 1,8-二氮杂双环[5.4.0]十一-7-烯 | m-CPBA | 间氯代过氧苯甲酸 |
+| DCC | N,N-二环己基碳二亚胺 | Me | 甲基 |
+| DDQ | 2,3-二氯-5,6-二氰基-1,4-苯醌 | MO | 分子轨道 |
+| DDQ | 2,3-二氯-5,6-二氰基-1,4-苯醌 | MOM | 甲氧基甲基 |
+| DEAD | 偶氮二甲酸二乙酯 | Ms | 甲磺酰基 |
+| DIBAL | 二异丁基氢化铝 | NAD | 烟酰胺腺嘌呤二核苷酸 |
+| DMAP | 4-二甲氨基吡啶 | NADH | 还原型NAD |
+| DME | 1,2-二甲氧基乙烷 | NBS | N-溴代琥珀酰亚胺 |
+| DMF | N,N-二甲基甲酰胺 | NIS | N-碘代琥珀酰亚胺 |
+| DMPU | 1,3-二甲基-3,4,5,6-四氢-2(1H)-嘧啶酮 | NMO | N-甲基吗啉-N-氧化物 |
+| xvi | 缩写对照 |  |  |
+| NMR | 核磁共振 | SOMO | 单占分子轨道 |
+| NOE | 核 Overhauser 效应 | STM | 扫描隧道显微镜 |
+| PCC | 氯铬酸吡啶鎓 | TBDMS | 叔丁基二甲基硅基 |
+| PDC | 重铬酸吡啶鎓 | TBDPS | 叔丁基二苯基硅基 |
+| Ph | 苯基 | Tf | 三氟甲磺酰基 |
+| PPA | 多聚磷酸 | THF | 四氢呋喃 |
+| Pr | 丙基 | THP | 四氢吡喃 |
+| i-Pr | 异丙基 | TIPS | 三异丙基轨迹 |
+| PTC | 相转移催化剂 | TMEDA | $N,N,N',N'-四甲基-1,2-乙二胺$ |
+| PTSA | 对甲苯磺酰胺 |  |  |
+| Py | 吡啶 | TMP | 2,2,6,6-四甲基哌啶 |
+| Red Al | 二(2-甲氧基乙氧基) 氢化铝钠 | TMS | 三甲基硅基,也指四甲基硅烷 |
+| Red Al | 二(2-甲氧基乙氧基) 氢化铝钠 | TMSOTf | 三氟甲磺酰基三甲基硅烷 |
+| RNA | 核糖核酸 | TPAP | 高钌酸 四-N-丙基铵 |
+| SAC | 特别酸催化 |  |  |
+| SAM | S-腺苷蛋氨酸 | Tr | 三苯甲基 |
+| SBC | 特别碱催化 | TS | 过渡态 |
+| $S_N1$ | 单分子亲核取代反应 | Ts | 对甲苯磺酰基 |
+| $S_N1$ | 单分子亲核取代反应 | UV | 紫外光 |
+| $S_N2$ | 双分子亲核取代反应 | VSEPR | 价层电子对互斥 |
 
 ## 第二版序言
 
@@ -2311,7 +2371,11 @@ pentane ( $C_{5}H_{12}$ ), 因为前缀 pent- 表示的就是五，而 but- 并�
 
 ## - 什么是光谱法？
 
-<table><tr><td>与分子相互作用的射线或波</td><td>光谱法</td><td>能告诉我们什么</td></tr><tr><td>X射线被原子散射</td><td>测量散射图案</td><td>键长和键角</td></tr><tr><td>无线电波使原子核共振</td><td>绘制共振频率的图表</td><td>碳氢骨架的连接和对称性</td></tr><tr><td>红外波使键振动</td><td>绘制吸收的图表</td><td>分子中的官能团</td></tr></table>
+| 与分子相互作用的射线或波 | 光谱法 | 能告诉我们什么 |
+| --- | --- | --- |
+| X射线被原子散射 | 测量散射图案 | 键长和键角 |
+| 无线电波使原子核共振 | 绘制共振频率的图表 | 碳氢骨架的连接和对称性 |
+| 红外波使键振动 | 绘制吸收的图表 | 分子中的官能团 |
 
 ## 本章的结构
 
@@ -2748,7 +2812,12 @@ $^{1}$ H NMR 还有很多其他的特征，我们会暂且将它们放在一边�
 
 化学位移 $(\delta, \mathrm{ppm})$
 
-<table><tr><td>碳原子</td><td>正丁醇</td><td>异丁醇</td><td>叔丁醇</td></tr><tr><td></td><td>62.9</td><td>70.2</td><td>69.3</td></tr><tr><td></td><td>36.0</td><td>32.0</td><td>32.7</td></tr><tr><td></td><td>20.3</td><td>20.4</td><td>-</td></tr><tr><td></td><td>15.2</td><td>-</td><td>-</td></tr></table>
+| 碳原子 | 正丁醇 | 异丁醇 | 叔丁醇 |
+| --- | --- | --- | --- |
+|  | 62.9 | 70.2 | 69.3 |
+|  | 36.0 | 32.0 | 32.7 |
+|  | 20.3 | 20.4 | - |
+|  | 15.2 | - | - |
 
 ![](Clayden中文版_11-210_images/2fcfd55f5b14dc5638ac501d8ca302b5133fb2ba70174b8677b48a4ac89df27f.jpg)
 
@@ -2812,7 +2881,13 @@ $$
 
 为了说清楚我们的意思，如下有以两种方式分组的一些典型的键的 IR 频率数值。首先是原子重量递增的一系列键 (D, 氘的质量为 H 的两倍，Cl 的质量约为 O 的两倍)，然后是强度递增的一系列键。
 
-<table><tr><td colspan="4">主要受原子质量影响的值 (原子越轻,频率越高)</td></tr><tr><td>C-H</td><td>C-D</td><td>C-O</td><td>C-Cl</td></tr><tr><td>3000 cm-1</td><td>2200 cm-1</td><td>1100 cm-1</td><td>700 cm-1</td></tr><tr><td colspan="4">主要受键的强度影响的值 (键越强,频率越高)</td></tr><tr><td>C=O</td><td>C=O</td><td>C-O</td><td></td></tr><tr><td>2143 cm-1</td><td>1715 cm-1</td><td>1100 cm-1</td><td></td></tr></table>
+| 主要受原子质量影响的值 (原子越轻,频率越高) |  |  |  |
+| --- | --- | --- | --- |
+| C-H | C-D | C-O | C-Cl |
+| 3000 cm-1 | 2200 cm-1 | 1100 cm-1 | 700 cm-1 |
+| 主要受键的强度影响的值 (键越强,频率越高) |  |  |  |
+| C=O | C=O | C-O |  |
+| 2143 cm-1 | 1715 cm-1 | 1100 cm-1 |  |
 
 如下是经典的 IR 光谱真实的样子：注意波数的刻度由高到低排列，吸收的最大值也是颠倒的 (IR 谱图的纵坐标为 “透过率 transmission”)——您可能会说，IR 谱图上下前后都是颠倒的。如果您仔细观察，您还会发现，刻度的尺寸在中间也发生了变化，这是为了给谱图更为详细的右侧更多的空间。
 
@@ -2843,7 +2918,11 @@ C–H, N–H, 和 O–H 组合的约化质量大约是相同的。这些键的 I
 
 与氢成的键的 IR 波段
 
-<table><tr><td>键</td><td>约化质量, μ</td><td>IR 频率, cm-1</td><td>经典键的强度, kJ mol-1</td></tr><tr><td>C-H</td><td>12/13 = 0.92</td><td>2900–3200</td><td>CH4: 440</td></tr><tr><td>N-H</td><td>14/15 = 0.93</td><td>3300–3400</td><td>NH3: 450</td></tr><tr><td>O-H</td><td>16/17 = 0.94</td><td>3500–3600a</td><td>H2O: 500</td></tr></table>
+| 键 | 约化质量, μ | IR 频率, cm-1 | 经典键的强度, kJ mol-1 |
+| --- | --- | --- | --- |
+| C-H | 12/13 = 0.92 | 2900–3200 | CH4: 440 |
+| N-H | 14/15 = 0.93 | 3300–3400 | NH3: 450 |
+| O-H | 16/17 = 0.94 | 3500–3600a | H2O: 500 |
 
 $^{a}$ 当无氢键键合时：见下文 (有氢键时在 3500-2900 出现宽峰)。
 
@@ -2899,7 +2978,10 @@ Interactive vibrations of methylamine
 
 ## - 三键区域仅有的两个峰
 
-<table><tr><td>3000</td><td>2800</td><td>2600</td><td>2400</td><td>2200</td><td>2000 cm-1</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td rowspan="2">腈</td><td rowspan="2">C≡N</td><td rowspan="2">2250</td><td></td><td>炔烃</td><td>C≡C</td></tr><tr><td>2100</td><td></td><td></td></tr></table>
+| 3000 | 2800 | 2600 | 2400 | 2200 | 2000 cm-1 |
+| --- | --- | --- | --- | --- | --- |
+| 腈 | C≡N | 2250 |  | 炔烃 | C≡C |
+| 腈 | C≡N | 2250 | 2100 |  |  |
 
 ## 双键区域在 IR 谱图中最为重要
 
@@ -2941,7 +3023,11 @@ Interactive vibrations of methylamine
 
 ## - IR 谱图中的吸收
 
-<table><tr><td>波段的位置</td><td rowspan="2">原子的约化质量和键强</td><td rowspan="2">轻原子和强键给出高频率</td></tr><tr><td>取决于:</td></tr><tr><td>波段的强度取决于:</td><td>偶极矩的改变</td><td>大偶极矩给出强吸收</td></tr><tr><td>波段的宽度取决于:</td><td>氢键</td><td>强H键给出宽峰</td></tr></table>
+| 波段的位置 | 原子的约化质量和键强 | 轻原子和强键给出高频率 |
+| --- | --- | --- |
+| 取决于: | 原子的约化质量和键强 | 轻原子和强键给出高频率 |
+| 波段的强度取决于: | 偶极矩的改变 | 大偶极矩给出强吸收 |
+| 波段的宽度取决于: | 氢键 | 强H键给出宽峰 |
 
 ■ 匹配的指纹可用于将嫌犯与罪犯建立联系，但您不能通过诠释指纹，推知罪犯的身高、体重、眼睛颜色。指纹区也是一样：匹配的指纹可用于确认两个化合物相同，但若没有“嫌犯”，您只能依赖于光谱的其他部分，即 $1500 \, \mathrm{cm}^{-1}$ 上方的部分来分析。
 
@@ -3578,7 +3664,16 @@ AOs 在能量上相差太远时，就无法有效地重叠形成新的 MOs, 因�
 
 这三种不同的情形包含了能量相差极大的轨道，能量相差较小的轨道，和能量相同的轨道，下面是总结。
 
-<table><tr><td>AOs 能量完全相同</td><td>B 原子上的 AO 能量稍低于 A 原子上的 AO</td><td>B 原子上的 AO 与 A 原子上的 AO 相差很大</td></tr><tr><td>AOs 间相互作用得十分充分</td><td>AOs 间相互作用相对较少</td><td>AOs 在能量上离得太远 而不能相互作用</td></tr><tr><td>成键 MO 能量比 AOs 低很多</td><td>成键 MO 的能量相对于 B 的 AO 仅下降一点</td><td>充满轨道的能量与 B 原子的 AO 相同</td></tr><tr><td>反键 MO 能量比 AOs 高很多</td><td>反键 MO 的能量相对于 A 的 AO 仅上升一点</td><td>阳离子上空轨道的能量与 A 原子的 AO 相同</td></tr><tr><td>两个 AOs 对 MOs 的贡献相当</td><td>B 上的 AO 对成键 MO 的贡献大 A 上的 AO 对反键 MO 的贡献大</td><td>只有一个 AO 对 MO 有贡献</td></tr><tr><td>两个电子平等地占有成键 MO 中的电子</td><td>成键 MO 中的电子被两个原子贡共享,但更偏向 B</td><td>充满轨道的电子被 B 独有</td></tr><tr><td>A 与 B 之间的键是经典的共价键</td><td>A 与 B 之间的键是共价的,但稍有离子键成分</td><td>A 与 B 之间的键是经典的离子键</td></tr><tr><td>容易将键均裂 (homolytic fission) 为两个自由基</td><td>容易将键异裂为两个离子 A+ 和 B-, 均裂得到自由基也是可能的</td><td>化合物以 A+ 和 B- 的形式存在</td></tr><tr><td>键的异裂 (heterolytic fission) 生成 A+ 和 B- 或者 A- 和 B+(这一点会在 Chapters 24 和 37 中被充分讨论)</td><td></td><td></td></tr></table>
+| AOs 能量完全相同 | B 原子上的 AO 能量稍低于 A 原子上的 AO | B 原子上的 AO 与 A 原子上的 AO 相差很大 |
+| --- | --- | --- |
+| AOs 间相互作用得十分充分 | AOs 间相互作用相对较少 | AOs 在能量上离得太远 而不能相互作用 |
+| 成键 MO 能量比 AOs 低很多 | 成键 MO 的能量相对于 B 的 AO 仅下降一点 | 充满轨道的能量与 B 原子的 AO 相同 |
+| 反键 MO 能量比 AOs 高很多 | 反键 MO 的能量相对于 A 的 AO 仅上升一点 | 阳离子上空轨道的能量与 A 原子的 AO 相同 |
+| 两个 AOs 对 MOs 的贡献相当 | B 上的 AO 对成键 MO 的贡献大 A 上的 AO 对反键 MO 的贡献大 | 只有一个 AO 对 MO 有贡献 |
+| 两个电子平等地占有成键 MO 中的电子 | 成键 MO 中的电子被两个原子贡共享,但更偏向 B | 充满轨道的电子被 B 独有 |
+| A 与 B 之间的键是经典的共价键 | A 与 B 之间的键是共价的,但稍有离子键成分 | A 与 B 之间的键是经典的离子键 |
+| 容易将键均裂 (homolytic fission) 为两个自由基 | 容易将键异裂为两个离子 A+ 和 B-, 均裂得到自由基也是可能的 | 化合物以 A+ 和 B- 的形式存在 |
+| 键的异裂 (heterolytic fission) 生成 A+ 和 B- 或者 A- 和 B+(这一点会在 Chapters 24 和 37 中被充分讨论) |  |  |
 
 ## 影响轨道相互作用程度的其他因素
 
@@ -5703,7 +5798,12 @@ $$
 
 第二周期元素 “氢化物”， $CH_{4}$ 、 $NH_{3}$ 、 $H_{2}O$ 和 HF 的 $pK_{a}$ 值分别大约为 48、33、16 和 3。这种趋势来源于同一周期由左向右电负性的增加：由于氟的电负性比碳大得多，因而 $F^{-}$ 比 $CH_{3}^{-}$ 稳定得多。
 
-<table><tr><td>酸</td><td>共轭碱</td><td>pKa</td></tr><tr><td>甲烷 CH4</td><td>CH3-</td><td>~48</td></tr><tr><td>氨 NH3</td><td>氨基离子 NH2-</td><td>~33</td></tr><tr><td>水 H2O</td><td>氢氧根离子 HO-</td><td>~16</td></tr><tr><td>HF</td><td>氟离子 F-</td><td>3</td></tr></table>
+| 酸 | 共轭碱 | pKa |
+| --- | --- | --- |
+| 甲烷 CH4 | CH3- | ~48 |
+| 氨 NH3 | 氨基离子 NH2- | ~33 |
+| 水 H2O | 氢氧根离子 HO- | ~16 |
+| HF | 氟离子 F- | 3 |
 
 ## 弱的A-H键对应强的酸
 
