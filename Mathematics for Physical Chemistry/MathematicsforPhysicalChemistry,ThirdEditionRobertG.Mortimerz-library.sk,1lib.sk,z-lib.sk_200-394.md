@@ -5407,7 +5407,7 @@ $$
 
 ![[778aac109600dd745062339b62234dd8b2a2cc7edd9c0fec2389acadabd505d6.jpg]]
 
-One significant digit suffices in an expected error. The digit 8 after the decimal point in the value of M in the previous example is not quite significant, but since the error is smaller than $1.0 \, g \, mol^{-1}$ , it provides a little information, and we include it. The accepted value is $86.17 \, g \, mol^{-1}$ , so that our expected error is larger than our actual error, as it should be about 95% of the time.
+One significant digit suffices in an expected error. The digit 8 after the decimal point in the value of M in the previous example is not quite significant, but since the error is smaller than $1.0 \, \mathrm{g} \, \mathrm{mol}^{-1}$ , it provides a little information, and we include it. The accepted value is $86.17 \, \mathrm{g} \, \mathrm{mol}^{-1}$ , so that our expected error is larger than our actual error, as it should be about 95% of the time.
 
 EXERCISE 11.7 ▶ In the cryoscopic determination of molar mass, $^{a}$ the molar mass in kg mol $^{-1}$ is given by
 

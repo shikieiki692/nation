@@ -437,7 +437,7 @@ complete delocalization
 weakest
 </details>
 
-● 测量原理：红外伸缩振动频率( $\nu/cm^{-1}$ )与键能正相关
+● 测量原理：红外伸缩振动频率( $\nu/\mathrm{cm}^{-1}$ )与键能正相关
 
 ● 特征频率：
 

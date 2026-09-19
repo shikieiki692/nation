@@ -2948,7 +2948,7 @@ $$
 
 解
 
-<table><tr><td>t/s</td><td>0</td><td>390</td><td>777</td><td>1195</td><td>3155</td></tr><tr><td>p/kPa</td><td>41.6</td><td>35.2</td><td>29.9</td><td>24.9</td><td>10.5</td></tr><tr><td>lg(p/kPa)</td><td>1.62</td><td>1.55</td><td>1.48</td><td>1.40</td><td>1.02</td></tr><tr><td> $p^{-1} \times 10^{2}/(kPa)^{-1}$ </td><td>2.40</td><td>2.84</td><td>3.34</td><td>4.02</td><td>9.52</td></tr><tr><td> $p^{-2} \times 10^{4}/(kPa)^{-2}$ </td><td>5.78</td><td>8.07</td><td>11.2</td><td>16.1</td><td>90.7</td></tr></table>
+<table><tr><td>t/s</td><td>0</td><td>390</td><td>777</td><td>1195</td><td>3155</td></tr><tr><td>p/kPa</td><td>41.6</td><td>35.2</td><td>29.9</td><td>24.9</td><td>10.5</td></tr><tr><td>lg(p/kPa)</td><td>1.62</td><td>1.55</td><td>1.48</td><td>1.40</td><td>1.02</td></tr><tr><td> $p^{-1} \times 10^{2}/(\mathrm{kPa})^{-1}$ </td><td>2.40</td><td>2.84</td><td>3.34</td><td>4.02</td><td>9.52</td></tr><tr><td> $p^{-2} \times 10^{4}/(\mathrm{kPa})^{-2}$ </td><td>5.78</td><td>8.07</td><td>11.2</td><td>16.1</td><td>90.7</td></tr></table>
 
 (1) 以 $(p / \mathrm{kPa})$ 对 $(t / \mathrm{s})$ 作图，即图 (a)；以 $\lg (p / \mathrm{kPa})$ 对 $(t / \mathrm{s})$ 作图，即图 (b)；以 $p^{-1} \times 10^{2} / (\mathrm{kPa})^{-1}$ 对 $(t / \mathrm{s})$ 作图，即图 (c)；以 $p^{-2} \times 10^{4} / (\mathrm{kPa})^{-2}$ 对 $(t / \mathrm{s})$ 作图，即图 (d)。
 
@@ -3040,7 +3040,7 @@ $$
 
 按此式计算 $p$ 随时间的变化，列于下表：
 
-<table><tr><td>t/s</td><td>0</td><td>105</td><td>190</td><td>310</td><td>480</td><td>665</td></tr><tr><td>p/kPa</td><td>48.4</td><td>38.6</td><td>33.2</td><td>27.9</td><td>22.6</td><td>18.6</td></tr><tr><td> $p^{-1} \times 10^{2}/(kPa)^{-1}$ </td><td>2.07</td><td>2.59</td><td>3.01</td><td>3.58</td><td>4.42</td><td>5.38</td></tr></table>
+<table><tr><td>t/s</td><td>0</td><td>105</td><td>190</td><td>310</td><td>480</td><td>665</td></tr><tr><td>p/kPa</td><td>48.4</td><td>38.6</td><td>33.2</td><td>27.9</td><td>22.6</td><td>18.6</td></tr><tr><td> $p^{-1} \times 10^{2}/(\mathrm{kPa})^{-1}$ </td><td>2.07</td><td>2.59</td><td>3.01</td><td>3.58</td><td>4.42</td><td>5.38</td></tr></table>
 
 由右图可见， $\frac{p^{-1}\times10^{2}}{(kPa)^{-1}}-\frac{t}{s}$ 图是一条直线，为二级反应，且其中
 

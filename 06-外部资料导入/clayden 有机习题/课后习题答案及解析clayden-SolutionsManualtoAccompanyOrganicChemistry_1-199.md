@@ -391,7 +391,7 @@ Two of the peaks (45.3 and 95.6) in the paint thinner are much the same as those
 
 ## PROBLEM 5
 
-The ‘normal’ O–H stretch in the infrared (i.e. without hydrogen bonding) comes at about $3600 \, cm^{-1}$ . What is the reduced mass ( $\mu$ ) for O–H? What happens to the reduced mass when you double the mass of each atom in turn, i.e. what is $\mu$ for O–D and what is $\mu$ for S–H? In fact, both O–D and S–H stretches come at about $2,500 \, cm^{-1}$ . Why?
+The ‘normal’ O–H stretch in the infrared (i.e. without hydrogen bonding) comes at about $3600 \, \mathrm{cm}^{-1}$ . What is the reduced mass ( $\mu$ ) for O–H? What happens to the reduced mass when you double the mass of each atom in turn, i.e. what is $\mu$ for O–D and what is $\mu$ for S–H? In fact, both O–D and S–H stretches come at about $2,500 \, \mathrm{cm}^{-1}$ . Why?
 
 ## Purpose of the problem
 
@@ -407,11 +407,11 @@ There is an important principle to be deduced from this problem. Very roughly, a
 
 Three compounds, each having the formula $C_{3}H_{5}NO$ , have the IR data summarized here. What are their structures? Without ${}^{13}C$ NMR data it might be easier to draw some or all possible structures before trying to decide which is which. In what ways would ${}^{13}C$ NMR data help?
 
-(a) One sharp band above $3000 \, cm^{-1}$ and one strong band at about $1700 \, cm^{-1}$
+(a) One sharp band above $3000 \, \mathrm{cm}^{-1}$ and one strong band at about $1700 \, \mathrm{cm}^{-1}$
 
 (b) Two sharp bands above $3000~\mathrm{cm}^{-1}$ and two bands between 1600 and $1700~\mathrm{cm}^{-1}$
 
-(c) One strong broad band above $3000 \, cm^{-1}$ and a band at about $2200 \, cm^{-1}$
+(c) One strong broad band above $3000 \, \mathrm{cm}^{-1}$ and a band at about $2200 \, \mathrm{cm}^{-1}$
 
 ## Purpose of the problem
 
@@ -419,16 +419,16 @@ To show that IR alone does have some use but that NMR data are usually essential
 
 ## Suggested solution
 
-(a) One sharp band above $3000 \, cm^{-1}$ must be an N–H and one strong band at about $1700 \, cm^{-1}$ must be a carbonyl group. That leaves $C_{2}H_{4}$ , so we might have one of the structures shown below, though other less likely structures are possible too. ${}^{13}C$ NMR data would help as it would definitely show two types of saturated carbon (along with the carbonyl group) for the first compound, but only one for the second.
+(a) One sharp band above $3000 \, \mathrm{cm}^{-1}$ must be an N–H and one strong band at about $1700 \, \mathrm{cm}^{-1}$ must be a carbonyl group. That leaves $C_{2}H_{4}$ , so we might have one of the structures shown below, though other less likely structures are possible too. ${}^{13}C$ NMR data would help as it would definitely show two types of saturated carbon (along with the carbonyl group) for the first compound, but only one for the second.
 
 ![](课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/169f446d28856d833763b7f4779ee321aef168c6346626997241d4b94e193979.jpg)
 
-(b) Two sharp bands above $3000 \, cm^{-1}$ must be an $NH_{2}$ group and two bands between 1600 and $1700 \, cm^{-1}$ suggest a carbonyl group and an alkene. This leaves us with three hydrogen atoms so we must have something like the molecules below. ${}^{13}C$ NMR data would help as it would show an alkene carbon shifted downfield by being joined to electronegative nitrogen in the second case.
+(b) Two sharp bands above $3000 \, \mathrm{cm}^{-1}$ must be an $NH_{2}$ group and two bands between 1600 and $1700 \, \mathrm{cm}^{-1}$ suggest a carbonyl group and an alkene. This leaves us with three hydrogen atoms so we must have something like the molecules below. ${}^{13}C$ NMR data would help as it would show an alkene carbon shifted downfield by being joined to electronegative nitrogen in the second case.
 
 ![](课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/d151f97ba2fe8df7b50b7bbc2d35d3111485cc91104d859ecd5c5034969f4d22.jpg)  
 ■ You will meet other ways of distinguishing these compounds in chapters 13 and 18.
 
-(c) One strong broad band above $3000 \, cm^{-1}$ must be an OH group and a band at about $2200 \, cm^{-1}$ must be a triple bond, presumably CN as otherwise we have nowhere to put the nitrogen atom. This means structures of this sort.
+(c) One strong broad band above $3000 \, \mathrm{cm}^{-1}$ must be an OH group and a band at about $2200 \, \mathrm{cm}^{-1}$ must be a triple bond, presumably CN as otherwise we have nowhere to put the nitrogen atom. This means structures of this sort.
 
 ![](课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/c2fc93e795dd38f1b577d6ba47c0e5e36bf4ef04154a0580dcd1da75406da797.jpg)
 
@@ -436,11 +436,11 @@ To show that IR alone does have some use but that NMR data are usually essential
 
 Four compounds having the formula $C_{4}H_{6}O_{2}$ have the IR and NMR data given below. How many DBEs (double bond equivalents—see p. 75 in the textbook) are there in $C_{4}H_{6}O_{2}$ ? What are the structures of the four compounds? You might again find it useful to draw a few structures to start with.
 
-(a) IR: $1745 \, cm^{-1}$ ; ${}^{13}C$ NMR 214, 82, 58, and 41 ppm
+(a) IR: $1745 \, \mathrm{cm}^{-1}$ ; ${}^{13}C$ NMR 214, 82, 58, and 41 ppm
 
-(b) IR: $3300 \, cm^{-1}$ (broad); ${}^{13}C$ NMR 62 and 79 ppm.
+(b) IR: $3300 \, \mathrm{cm}^{-1}$ (broad); ${}^{13}C$ NMR 62 and 79 ppm.
 
-(c) IR: $1770 \, cm^{-1}$ ; ${}^{13}C$ NMR 178, 86, 40, and 27 ppm.
+(c) IR: $1770 \, \mathrm{cm}^{-1}$ ; ${}^{13}C$ NMR 178, 86, 40, and 27 ppm.
 
 (d) IR: 1720 and 1650 cm $^{-1}$ (strong); ${}^{13}$ C NMR 165, 133, 131, and 54 ppm.
 
@@ -454,13 +454,13 @@ Here are some possible structures for $C_{4}H_{6}O_{2}$ . It is clear that there
 
 ![](课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/9e05fa3205f9c51b46d55df5b24e23d0654f8a67b4b1440249e0a2f29552b985.jpg)
 
-(a) IR: $1745 \, cm^{-1}$ must be a carbonyl group; ${}^{13}C$ NMR 214 must be an aldehyde or ketone, 82 and 58 look like two carbons next to oxygen and 41 is a carbon not next to oxygen but not far away. As the second oxygen doesn't show up in the IR, it must be an ether. As there is only one double bond, the compound must be cyclic. This suggests just one structure.
+(a) IR: $1745 \, \mathrm{cm}^{-1}$ must be a carbonyl group; ${}^{13}C$ NMR 214 must be an aldehyde or ketone, 82 and 58 look like two carbons next to oxygen and 41 is a carbon not next to oxygen but not far away. As the second oxygen doesn't show up in the IR, it must be an ether. As there is only one double bond, the compound must be cyclic. This suggests just one structure.
 
 ■ The alkyne does not show up in the IR as it is symmetrical: see p. 71 of the textbook.
 
-(b) IR: $3300 \, cm^{-1}$ (broad) must be an OH; ${}^{13}C$ NMR 62 and 79 show a symmetrical molecule and no C=O so it must have a triple bond and a saturated carbon next to oxygen. This again gives only one structure.
+(b) IR: $3300 \, \mathrm{cm}^{-1}$ (broad) must be an OH; ${}^{13}C$ NMR 62 and 79 show a symmetrical molecule and no C=O so it must have a triple bond and a saturated carbon next to oxygen. This again gives only one structure.
 
-(c) IR: $1770 \, cm^{-1}$ must be some sort of carbonyl group; ${}^{13}C$ NMR 178 suggests an acid derivative, 86 is a saturated carbon next to oxygen, 40 and 27 are saturated carbons not next to oxygen. There is only one double bond so it must be a ring. Looks like a close relative of (a).
+(c) IR: $1770 \, \mathrm{cm}^{-1}$ must be some sort of carbonyl group; ${}^{13}C$ NMR 178 suggests an acid derivative, 86 is a saturated carbon next to oxygen, 40 and 27 are saturated carbons not next to oxygen. There is only one double bond so it must be a ring. Looks like a close relative of (a).
 
 (d) IR 1720 and 1650 cm $^{-1}$ (strong) must be C=C and C=O; ${}^{13}$ C NMR 165 is an acid derivative, 131 and 133 must be an alkene, and 54 is a saturated carbon next to oxygen. That defines all the carbon atoms. It is not significant that we cannot say which alkene carbon is which.
 
@@ -1040,7 +1040,7 @@ The three compounds are easily drawn: one or other carbonyl group, or both, may 
 
 ![](课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/70141a4ddf2d665c66381504e358fc4eede2c8c9a932d93e390207cf12b6959c.jpg)
 
-The third compound, the diol, has no carbonyl group in the ${}^{13}$ C NMR spectrum or the infrared and has a molecular ion two mass units higher than the other two products. Distinguishing those is more tricky, and needs techniques you will meet in detail in chapter 18. The hydroxyketone has a conjugated carbonyl group (C=O stretch at about $1680\ cm^{-1}$ in the infrared spectrum) while the hydroxyaldehyde is not conjugated (C=O stretch at about $1730\ cm^{-1}$ in the infrared). The chemical shift of the C–OH carbons will also be different because the benzene ring is joined to this carbon in the aldehyde but not in the ketone.
+The third compound, the diol, has no carbonyl group in the ${}^{13}$ C NMR spectrum or the infrared and has a molecular ion two mass units higher than the other two products. Distinguishing those is more tricky, and needs techniques you will meet in detail in chapter 18. The hydroxyketone has a conjugated carbonyl group (C=O stretch at about $1680\ \mathrm{cm}^{-1}$ in the infrared spectrum) while the hydroxyaldehyde is not conjugated (C=O stretch at about $1730\ \mathrm{cm}^{-1}$ in the infrared). The chemical shift of the C–OH carbons will also be different because the benzene ring is joined to this carbon in the aldehyde but not in the ketone.
 
 ## PROBLEM 5
 
@@ -1060,7 +1060,7 @@ The two ketones next to the benzene ring are stabilized by conjugation with it b
 
 ## PROBLEM 6
 
-This hydroxyketone shows no peaks in its infrared spectrum between 1600 and $1800 \, cm^{-1}$ , but it does show a broad absorption at $3000–3400 \, cm^{-1}$ . In the ${}^{13}C$ NMR spectrum there are no peaks above 150 ppm but there is a peak at 110 ppm. Suggest an explanation.
+This hydroxyketone shows no peaks in its infrared spectrum between 1600 and $1800 \, \mathrm{cm}^{-1}$ , but it does show a broad absorption at $3000–3400 \, \mathrm{cm}^{-1}$ . In the ${}^{13}C$ NMR spectrum there are no peaks above 150 ppm but there is a peak at 110 ppm. Suggest an explanation.
 
 ![](课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/5f83bb91da41a7d09d653a8277c301f0eb0af377287c845b7dd77306aee3dd7d.jpg)
 
@@ -2048,7 +2048,7 @@ Deducing the presence of functional groups from mass and infra-red spectra.
 
 Lithium aluminium hydride reduces esters to alcohols, so the only question here is whether it reduces one, or both esters. The IR tells us that there is an alcohol (3600 cm $^{-1}$ ) and no carbonyl group (which you would expect around 1700 cm $^{-1}$ ) so we can assume that both esters have been reduced. The diol structure below is consistent with the mass of the molecular ion.
 
-Alcohols react with acid chlorides to form esters, so again we have the choice between a single or double ester formation. The IR tells us that one of the alcohols is still present, along with a carbonyl at $1710 \, cm^{-1}$ , and the mass of the product is consistent with the structure below.
+Alcohols react with acid chlorides to form esters, so again we have the choice between a single or double ester formation. The IR tells us that one of the alcohols is still present, along with a carbonyl at $1710 \, \mathrm{cm}^{-1}$ , and the mass of the product is consistent with the structure below.
 
 ![](课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/80a8de3db012bd8f623b3504aaeb6c02be9d63a27f14080288764b3b974c469b.jpg)
 
@@ -2424,7 +2424,7 @@ Further thinking the other way round—from structure to data. Contrasting the l
 
 ## Suggested solution
 
-The molecular formula of the compounds varies so a mass spectrum would be useful. The compounds with an OH group would show a broad U-shaped band at above $3000 \, cm^{-1}$ . The cyclic ester would have a C=O stretch at about $1775 \, cm^{-1}$ , the ketones at about $1715 \, cm^{-1}$ , and the $CO_{2}H$ group a band at about $1715 \, cm^{-1}$ as well as a very broad band from 2500 to $3500 \, cm^{-1}$ . In the ${}^{13}C$ NMR the acid and ester would have a carbonyl peak at about 170–180 ppm, but the ketones would have one at about 200 ppm. The number and position of the other signals would also vary.
+The molecular formula of the compounds varies so a mass spectrum would be useful. The compounds with an OH group would show a broad U-shaped band at above $3000 \, \mathrm{cm}^{-1}$ . The cyclic ester would have a C=O stretch at about $1775 \, \mathrm{cm}^{-1}$ , the ketones at about $1715 \, \mathrm{cm}^{-1}$ , and the $CO_{2}H$ group a band at about $1715 \, \mathrm{cm}^{-1}$ as well as a very broad band from 2500 to $3500 \, \mathrm{cm}^{-1}$ . In the ${}^{13}C$ NMR the acid and ester would have a carbonyl peak at about 170–180 ppm, but the ketones would have one at about 200 ppm. The number and position of the other signals would also vary.
 
 ![](课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/8668999e1dd55f3a44e43b707e51f6f5c304cf9cbc9abafbbf649d51bc002717.jpg)
 
@@ -3594,7 +3594,7 @@ A common situation in real life—you carry out a reaction, isolate the product,
 
 ## Suggested solution
 
-Compound A has a carbonyl group (IR) that is an acid derivative (179 ppm in the ${}^{13}$ C NMR). The 9H singlet in the proton NMR must be a t-Bu group and the 3H singlet at 3.67 ppm must be an OMe group. Putting these four fragments together we get a structure immediately. The IR is typical for an ester ( $1715 + 30 = 1745 \, cm^{-1}$ ).
+Compound A has a carbonyl group (IR) that is an acid derivative (179 ppm in the ${}^{13}$ C NMR). The 9H singlet in the proton NMR must be a t-Bu group and the 3H singlet at 3.67 ppm must be an OMe group. Putting these four fragments together we get a structure immediately. The IR is typical for an ester ( $1715 + 30 = 1745 \, \mathrm{cm}^{-1}$ ).
 
 ![](课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/e56593900e044fb644194b04bf886f6f2e772599947f7ed1b48418f228a5f985.jpg)
 
@@ -3656,7 +3656,7 @@ There are many acceptable ways in which you could answer this question ranging f
 
 ![](课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/9f6a70a109c51206ab1bdd080f0cb70704f1b802dcf9356a0fd25ef8f940d96f.jpg)
 
-In the second case there are also differences in the IR C=O stretch between the aldehyde (about $1730 \, cm^{-1}$ ) and the conjugated ketone (about
+In the second case there are also differences in the IR C=O stretch between the aldehyde (about $1730 \, \mathrm{cm}^{-1}$ ) and the conjugated ketone (about
 
 1680 cm $^{-1}$ ). The aldehyde proton and the number of protons next to oxygen make a clear distinction. There will also be differences in the ${}^{1}$ H and ${}^{13}$ C NMR signals of the benzene rings as one is conjugated to a C=O group and the other is not. This reaction actually gave a mixture of both compounds.
 
@@ -3741,7 +3741,7 @@ This accounts for all the atoms in A so all we need to do is join these two frag
 
 ![](课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/7676ef62edb0628542b7ed741d616fda95ae49738cea2e7078b24b143b857543.jpg)
 
-Compound B has nitrogen in it (it has an odd molecular weight) and clearly has a benzene ring from the NMR spectra, so we can put down PhN (= 91) as part of the structure. It also has two carbonyl groups (in the IR the one at $1670 \, cm^{-1}$ looks like an amide) and they are both acid derivatives (you can see that in the ${}^{13}C$ NMR). There are three aliphatic carbons, two $CH_{2}s$ and one CH. Adding that together gives $C_{11}H_{10}NO_{3} = 188$ so there is 17 missing that looks like OH. Since we need a second acid derivative and the OH is the only remaining heteroatom, it must be a carboxylic acid. Given that the CH is a triplet, it must be joined to one of the $CH_{2}$ groups and, as they are both multiplets, they must be joined to each other. There is one double bond equivalent to account for and that must be a ring. So we have:
+Compound B has nitrogen in it (it has an odd molecular weight) and clearly has a benzene ring from the NMR spectra, so we can put down PhN (= 91) as part of the structure. It also has two carbonyl groups (in the IR the one at $1670 \, \mathrm{cm}^{-1}$ looks like an amide) and they are both acid derivatives (you can see that in the ${}^{13}C$ NMR). There are three aliphatic carbons, two $CH_{2}s$ and one CH. Adding that together gives $C_{11}H_{10}NO_{3} = 188$ so there is 17 missing that looks like OH. Since we need a second acid derivative and the OH is the only remaining heteroatom, it must be a carboxylic acid. Given that the CH is a triplet, it must be joined to one of the $CH_{2}$ groups and, as they are both multiplets, they must be joined to each other. There is one double bond equivalent to account for and that must be a ring. So we have:
 
 ![](课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/d639d10b2b923aac4059e85d25bb18eebb73401c56728a01770d3d86bcd80f17.jpg)
 
@@ -3849,7 +3849,7 @@ $\delta_{\mathrm{H}}$ (ppm) 6.5-7.5 (5H, m), 6.42 (1H, t, J 17 Hz), 7.47 (1H, dd
 
 Compound B:
 
-$C_{12}H_{17}O_{2}$ , IR ( $cm^{-1}$ ) C-H and fingerprint only;
+$C_{12}H_{17}O_{2}$ , IR ( $\mathrm{cm}^{-1}$ ) C-H and fingerprint only;
 
 $\delta_{\mathrm{H}}$ (ppm) 7.25 (5H, s), 4.28 (1H, d, J 4.8 Hz), 3.91 (1H, d, J 4.8 Hz), 2.96 (3H, s), 1.26 (3H, s) and 0.76 (3H, s).
 

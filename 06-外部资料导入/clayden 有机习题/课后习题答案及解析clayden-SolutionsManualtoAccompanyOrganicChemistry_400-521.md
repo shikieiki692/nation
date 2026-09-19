@@ -198,7 +198,7 @@ Elimination of the alcohol (E1 of course as it is tertiary) gives the alkene and
 
 ## PROBLEM 4
 
-It is very difficult to prepare three-membered lactones. One attempted preparation, by the epoxidation of di-t-butyl ketone, gave an unstable compound with an IR stretch at $1900 \, cm^{-1}$ . This compound decomposed rapidly to a four-membered ring lactone that could be securely identified. Do you think they made the three-membered ring?
+It is very difficult to prepare three-membered lactones. One attempted preparation, by the epoxidation of di-t-butyl ketone, gave an unstable compound with an IR stretch at $1900 \, \mathrm{cm}^{-1}$ . This compound decomposed rapidly to a four-membered ring lactone that could be securely identified. Do you think they made the three-membered ring?
 
 ![](课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/67c147e6cfd3a493b57a3aaa926aea3a1fcd957786992823c1e23a27da335c25.jpg)
 
@@ -210,7 +210,7 @@ Rearrangements as a proof of structure?
 
 ■ See J. Am. Chem. Soc., 1970, 92, 6057 and also J. K. Crandall and S. A. Sojka, Tetrahedron Lett., 1972, 1641.
 
-The expected three-membered lactone would have a very high carbonyl stretching frequency because of ring strain. Three-membered cyclic ketones have carbonyl stretches at about $1815 \, cm^{-1}$ and lactones have higher frequencies than ketones. So it might be the lactone. If it is, we should find a mechanism for the ring expansion to the four-membered lactone isolated. There is a good mechanism involving migration of a methyl group from one of the t-butyl groups. The general conclusion is that R. Wheeland and P. D. Bartlett did indeed make the first $\alpha$ -lactone.
+The expected three-membered lactone would have a very high carbonyl stretching frequency because of ring strain. Three-membered cyclic ketones have carbonyl stretches at about $1815 \, \mathrm{cm}^{-1}$ and lactones have higher frequencies than ketones. So it might be the lactone. If it is, we should find a mechanism for the ring expansion to the four-membered lactone isolated. There is a good mechanism involving migration of a methyl group from one of the t-butyl groups. The general conclusion is that R. Wheeland and P. D. Bartlett did indeed make the first $\alpha$ -lactone.
 
 ![](课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/d6ea6bad93cc33126396fc1775ff65f364ea9492c877c0a2d2afe9dca1b8d3bf.jpg)  
 PROBLEM 5  
@@ -720,7 +720,7 @@ Compound A contains chlorine (m/z 138/140, 3:1) and that fits $C_{8}H_{7}Cl$ . I
 
 ![](课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/3a38264465510e5a41becc0a5fb1f331d2c861877a71902db7fd198ff41679c4.jpg)
 
-Compound B has m/z 140/142, 3:1 and a carbonyl group (at $1700 \, cm^{-1}$ ) which fits $C_{7}H_{5}ClO$ and looks like an aldehyde ( $\delta_{H}$ 9.9). It still has the disubstituted benzene. The structure is even easier this time!
+Compound B has m/z 140/142, 3:1 and a carbonyl group (at $1700 \, \mathrm{cm}^{-1}$ ) which fits $C_{7}H_{5}ClO$ and looks like an aldehyde ( $\delta_{H}$ 9.9). It still has the disubstituted benzene. The structure is even easier this time!
 
 ![](课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_400-521_images/c5b5ea9e7452b41250c1b56f8db2e2ce4020069057668f8f70279f741bbd20bc.jpg)
 
