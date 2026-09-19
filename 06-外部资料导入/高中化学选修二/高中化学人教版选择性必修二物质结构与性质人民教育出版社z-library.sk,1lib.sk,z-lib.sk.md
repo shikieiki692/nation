@@ -2403,7 +2403,10 @@ coordination compound
 
 下表中的少量固体溶于足量的水，观察实验现象并填写表格。
 
-<table><tr><td>固体</td><td>1 $CuSO_{4}$ 白色</td><td>2 $CuCl_{2} \cdot 2H_{2}O$ 绿色</td><td>3 $CuBr_{2}$ 深褐色</td><td>4 $NaCl$ 白色</td><td>5 $K_{2}SO_{4}$ 白色</td><td>6 $KBr$ 白色</td></tr><tr><td>哪些溶液呈天蓝色</td><td colspan="6"></td></tr><tr><td>实验说明什么离子呈天蓝色,什么离子没有颜色</td><td colspan="6"></td></tr></table>
+| 固体 | 1 $CuSO_{4}$ 白色 | 2 $CuCl_{2} \cdot 2H_{2}O$ 绿色 | 3 $CuBr_{2}$ 深褐色 | 4 $NaCl$ 白色 | 5 $K_{2}SO_{4}$ 白色 | 6 $KBr$ 白色 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 哪些溶液呈天蓝色 |  |  |  |  |  |  |
+| 实验说明什么离子呈天蓝色,什么离子没有颜色 |  |  |  |  |  |  |
 
 ![](高中化学人教版选择性必修二物质结构与性质人民教育出版社z-library.sk,1lib.sk,z-lib.sk_images/d5f721d3a126fc92f23f5530f0040f4c47f0ee7b69728378e3582bf0a3acc7c2.jpg)  
 图 3-36 几种固体及其溶液的颜色
