@@ -1,7 +1,7 @@
 """习题书 V2 审计：非白名单教学块 / 图片位置 / HTML 表格 / 源文件映射。
 
 用法:
-    python 11-模板/scripts/audit_exercise_book.py [--root 04-课件/习题集/习题书-教师版]
+    python 11-模板/scripts/audit_exercise_book.py [--root 04-课件/习题集/四·成书层（习题书）/习题书-教师版]
         [--media-root 媒体仓库] [--source-root 04-题库]
         [--report 09-审计报告/2026-08-30-习题书V2基线.md]
         [--mapping 09-审计报告/2026-08-30-习题书V2-source-map.jsonl]
@@ -967,7 +967,7 @@ def render_report(args, teacher, student, mapping, precheck, image_records=None)
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--root", default=str(VAULT_ROOT / "04-课件/习题集/习题书-教师版"))
+    ap.add_argument("--root", default=str(VAULT_ROOT / "04-课件/习题集/四·成书层（习题书）/习题书-教师版"))
     ap.add_argument("--media-root", default=str(VAULT_ROOT / "媒体仓库"))
     ap.add_argument("--source-root", default=str(VAULT_ROOT / "04-题库"))
     ap.add_argument(

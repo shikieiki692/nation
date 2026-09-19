@@ -27,7 +27,7 @@ precheck_file = _module.precheck_file
 
 
 def main() -> int:
-    root = VAULT_ROOT / "04-课件/习题集/习题书-教师版"
+    root = VAULT_ROOT / "04-课件/习题集/四·成书层（习题书）/习题书-教师版"
     chapter_files = sorted(p for p in root.rglob("*.md") if p.parent != root)
     rows = []
     for md_path in chapter_files:

@@ -10,7 +10,7 @@ import os, re, sys, collections
 sys.stdout.reconfigure(encoding="utf-8")
 os.chdir(r"c:\Obsidion\妙妙屋")
 
-ROOT = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith('--') else "04-课件/习题集/习题书-教师版"
+ROOT = sys.argv[1] if len(sys.argv) > 1 and not sys.argv[1].startswith('--') else "04-课件/习题集/四·成书层（习题书）/习题书-教师版"
 WANT = None
 for a in sys.argv[1:]:
     if a.startswith('--cls='):

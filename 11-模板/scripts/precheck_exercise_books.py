@@ -1,7 +1,7 @@
 """聚合 Word 预检：对习题书全部章节跑 build-all-handout-docx 的 precheck。
 
 用法:
-    python 11-模板/scripts/precheck_exercise_books.py [--root 04-课件/习题集/习题书-教师版]
+    python 11-模板/scripts/precheck_exercise_books.py [--root 04-课件/习题集/四·成书层（习题书）/习题书-教师版]
 
 输出每章 ERROR/WARN 计数与总体汇总，适合批处理 stdout 编码不稳定的场景。
 """
@@ -32,7 +32,7 @@ def main() -> int:
     parser.add_argument(
         "--root",
         default=r"04-课件\习题集\习题书-教师版",
-        help="习题书章节目录根（默认 04-课件/习题集/习题书-教师版）",
+        help="习题书章节目录根（默认 04-课件/习题集/四·成书层（习题书）/习题书-教师版）",
     )
     args = parser.parse_args()
 

@@ -2071,7 +2071,7 @@ if __name__ == "__main__":
     if not WRITE:
         print("当前为 dry-run（不落盘）；确认无误后请加 --write 重新执行。")
 
-    book_root = f"04-课件/习题集/习题书-{EDITION_LABEL}"
+    book_root = f"04-课件/习题集/四·成书层（习题书）/习题书-{EDITION_LABEL}"
 
     build_book("化学原理", f"{book_root}/第一篇-化学原理", CHEM_MAP)
 

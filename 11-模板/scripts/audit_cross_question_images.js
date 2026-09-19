@@ -2,7 +2,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const ROOT = "C:/Obsidion/妙妙屋/04-课件/习题集/习题书-教师版";
+const ROOT = "C:/Obsidion/妙妙屋/04-课件/习题集/四·成书层（习题书）/习题书-教师版";
 
 function walk(dir) {
   let out = [];

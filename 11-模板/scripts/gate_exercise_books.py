@@ -50,8 +50,8 @@ def main() -> int:
             )
             results.append((f"build-{edition}", code == 0, tail))
         for root, out, suf in (
-            ("04-课件/习题集/习题书-教师版", "00-首页/题组Word/习题书", "-教师版"),
-            ("04-课件/习题集/习题书-学生版", "00-首页/题组Word/习题书", "-学生版"),
+            ("04-课件/习题集/四·成书层（习题书）/习题书-教师版", "00-首页/题组Word/习题书", "-教师版"),
+            ("04-课件/习题集/四·成书层（习题书）/习题书-学生版", "00-首页/题组Word/习题书", "-学生版"),
         ):
             code, tail = run(
                 "build-all-handout-docx.py",
@@ -73,7 +73,7 @@ def main() -> int:
             "audit_exercise_book.py",
             [
                 "--root",
-                "04-课件/习题集/习题书-教师版",
+                "04-课件/习题集/四·成书层（习题书）/习题书-教师版",
                 "--report",
                 "09-审计报告/2026-08-30-习题书V2正式版审计.md",
                 "--mapping",
@@ -82,7 +82,7 @@ def main() -> int:
                 "09-审计报告/2026-08-30-习题书V2正式版-图片归属清单.jsonl",
             ],
         ),
-        ("precheck", "precheck_exercise_books.py", ["--root", "04-课件/习题集/习题书-教师版"]),
+        ("precheck", "precheck_exercise_books.py", ["--root", "04-课件/习题集/四·成书层（习题书）/习题书-教师版"]),
         ("tables", "classify_book_tables.py", []),
         ("docx-structure", "validate_docx_structure.py", []),
     ]

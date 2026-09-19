@@ -8,7 +8,7 @@ import os, re, io, sys, json, collections
 
 ROOT = r"C:\Obsidion\妙妙屋"
 CENSUS = os.path.join(ROOT, ".workbuddy/tmp/qb_census.json")
-OUTDIR = os.path.join(ROOT, "04-课件", "习题集", "第一轮·竞赛教材版")
+OUTDIR = os.path.join(ROOT, "04-课件", "习题集", "三·竞赛导向层（载体Ⅱ·Ⅲ）", "第一轮·竞赛教材版")
 MEDIA = os.path.join(ROOT, "媒体仓库")
 WRITE = "--write" in sys.argv
 PER_SET, QUOTA = 40, {2: 2, 3: 18, 4: 20}   # 2026-09-18 第五次调整（用户拍板「扩到 40 题/卷」）：

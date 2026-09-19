@@ -2,7 +2,7 @@
 
 用法:
     python -X utf8 11-模板/scripts/classify_book_tables.py
-        [--root 04-课件/习题集/习题书-教师版]
+        [--root 04-课件/习题集/四·成书层（习题书）/习题书-教师版]
         [--source-root 04-题库]
         [--report 09-审计报告/2026-08-30-习题书V2-表格分类台账.md]
         [--jsonl 09-审计报告/2026-08-30-习题书V2-表格分类台账.jsonl]
@@ -107,7 +107,7 @@ def build_source_table_map(source_root: Path) -> dict[str, list[dict]]:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--root", default=str(VAULT_ROOT / "04-课件/习题集/习题书-教师版"))
+    ap.add_argument("--root", default=str(VAULT_ROOT / "04-课件/习题集/四·成书层（习题书）/习题书-教师版"))
     ap.add_argument("--source-root", default=str(VAULT_ROOT / "04-题库"))
     ap.add_argument(
         "--report",

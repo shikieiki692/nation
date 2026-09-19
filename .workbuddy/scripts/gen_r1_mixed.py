@@ -24,7 +24,7 @@ import collections
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 ROOT = r"C:\Obsidion\妙妙屋"
 WRITE = "--write" in sys.argv
-OUTDIR = os.path.join(ROOT, "04-课件", "习题集", "第一轮·综合套卷")
+OUTDIR = os.path.join(ROOT, "04-课件", "习题集", "三·竞赛导向层（载体Ⅱ·Ⅲ）", "第一轮·综合套卷")
 
 src = io.open(".workbuddy/scripts/gen_r1.py", encoding="utf-8").read().replace("\nmain()\n", "\n")
 G = {"__name__": "gen_r1_lib"}
@@ -99,7 +99,7 @@ print("可组池 %d 题；逐专题 %s" % (sum(pool_sz.values()),
 used_paths = set()
 # 与「第一轮·竞赛教材版」专题卷**互斥**：专题卷先出，套卷只从剩下的题里选，
 # 避免同一道题同时出现在跟课卷与综合套卷（学生重复做题）。
-_zj = os.path.join(ROOT, "04-课件", "习题集", "第一轮·竞赛教材版", "_选题清单.json")
+_zj = os.path.join(ROOT, "04-课件", "习题集", "三·竞赛导向层（载体Ⅱ·Ⅲ）", "第一轮·竞赛教材版", "_选题清单.json")
 if os.path.exists(_zj):
     for m in json.load(io.open(_zj, encoding="utf-8")):
         used_paths.update(m["paths"])
@@ -276,7 +276,7 @@ idx = ["---", 'title: "第一轮综合套卷 总索引"', "type: 索引", "role:
            sum(m["topics"].get(k, 0) for m in manifest for k in ("S1", "S2", "S3", "S4", "S5", "S6")),
            sum(m["topics"].get(k, 0) for m in manifest for k in "P1 P2 P3 P4 P5 P6 P7 P8 P9".split())),
        "> **用途**：结构化学第一轮＋化学原理第一轮学完后的**综合练习**（跟课用专项卷，见 "
-       "`04-课件/习题集/第一轮·竞赛教材版/`；两系列**互不重复用题**）。", "",
+       "`04-课件/习题集/三·竞赛导向层（载体Ⅱ·Ⅲ）/第一轮·竞赛教材版/`；两系列**互不重复用题**）。", "",
        DISCIPLINE,
        "> **每套构成**：结构化学 15 ＋ 化学原理 15；难度 基础 6 ＋ 进阶 16 ＋ 挑战 8。", "",
        "| 卷 | 题数 | 基础/进阶/挑战 | 真题 | 竞赛题集 | 竞赛教程 | 竞赛教材 | 教师版 | 学生版 |",
