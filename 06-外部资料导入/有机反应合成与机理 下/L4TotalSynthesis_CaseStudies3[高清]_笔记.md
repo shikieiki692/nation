@@ -342,7 +342,17 @@ industry / phamphetic.
 大星 (>100g) / 8m
 </details>
 
-<table><tr><td>1. Diels-Alder</td><td>11. Finkelstein reaction</td><td>21. Mannich</td></tr><tr><td>2. Wittig reaction</td><td>12. Claisen rearrangement (all forms)</td><td>22. Parikh-Doering oxidation</td></tr><tr><td>3. Grignard reaction</td><td>13. Stille coupling (Pd/Sn)</td><td>23. Suzuki coupling (Pd/B)</td></tr><tr><td>4. Dess-Martin oxidation</td><td>14. Mitsunobu (all nucleophiles)</td><td>24. Wolff-Kishner reduction</td></tr><tr><td>5. Swern oxidation</td><td>15. Jones oxidation ( $H_{2}CrO_{4}$ )</td><td>25. Birch reduction</td></tr><tr><td>6. Horner-Wadsworth-Emmons</td><td>16. Ley oxidation (TPAP/NMO)</td><td>26. Wolff-Kishner</td></tr><tr><td>7. Claisen acylation</td><td>17. Riley selenium dioxide oxidation</td><td>27. Peterson olefination</td></tr><tr><td>8. Brown hydroboration</td><td>18. Heck coupling</td><td>28. Friedel-Crafts acylation</td></tr><tr><td>9. Williamson etherification</td><td>19. Weinreb ketone synthesis</td><td>29. Evans aldol</td></tr><tr><td>10. Stork enamine</td><td>20. Robinson annulation</td><td>30. Lindlar hydrogenation</td></tr></table>
+| 1. Diels-Alder | 11. Finkelstein reaction | 21. Mannich |
+| --- | --- | --- |
+| 2. Wittig reaction | 12. Claisen rearrangement (all forms) | 22. Parikh-Doering oxidation |
+| 3. Grignard reaction | 13. Stille coupling (Pd/Sn) | 23. Suzuki coupling (Pd/B) |
+| 4. Dess-Martin oxidation | 14. Mitsunobu (all nucleophiles) | 24. Wolff-Kishner reduction |
+| 5. Swern oxidation | 15. Jones oxidation ( $H_{2}CrO_{4}$ ) | 25. Birch reduction |
+| 6. Horner-Wadsworth-Emmons | 16. Ley oxidation (TPAP/NMO) | 26. Wolff-Kishner |
+| 7. Claisen acylation | 17. Riley selenium dioxide oxidation | 27. Peterson olefination |
+| 8. Brown hydroboration | 18. Heck coupling | 28. Friedel-Crafts acylation |
+| 9. Williamson etherification | 19. Weinreb ketone synthesis | 29. Evans aldol |
+| 10. Stork enamine | 20. Robinson annulation | 30. Lindlar hydrogenation |
 
 ● 数据来源：基于Hans Reich教授团队对600+篇全合成文献（约2003-2013年间）的统计分析，样本量约占同期发表量的3-5%  
 ● 统计方法：记录每个全合成案例中使用的反应和试剂，按使用频率排序得出前30名  

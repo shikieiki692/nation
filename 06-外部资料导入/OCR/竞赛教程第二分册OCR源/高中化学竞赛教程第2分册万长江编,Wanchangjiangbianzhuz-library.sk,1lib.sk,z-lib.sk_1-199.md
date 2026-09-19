@@ -105,7 +105,9 @@ $$
 
 在 $340 \mathrm{~K}$ 测得实验数据如下
 
-<table><tr><td>t/min</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td> $c(N_2O_5)/(\mathrm{mol}\cdot\mathrm{L}^{-1})$ </td><td>1.00</td><td>0.70</td><td>0.50</td><td>0.35</td><td>0.25</td><td>0.17</td></tr></table>
+| t/min | 0 | 1 | 2 | 3 | 4 | 5 |
+| --- | --- | --- | --- | --- | --- | --- |
+| $c(N_2O_5)/(\mathrm{mol}\cdot\mathrm{L}^{-1})$ | 1.00 | 0.70 | 0.50 | 0.35 | 0.25 | 0.17 |
 
 试计算该反应进行 1 min 和 3 min 时的反应速率。
 
@@ -228,7 +230,11 @@ $$
 
 在一定的温度下,实验测得下列数据
 
-<table><tr><td>实验编号</td><td> $c(H_2PO_2^-)/(\mathrm{mol}\cdot\mathrm{L}^{-1})$ </td><td> $c(OH^-)/(\mathrm{mol}\cdot\mathrm{L}^{-1})$ </td><td> $v/(\mathrm{mol}\cdot\mathrm{L}^{-1}·\mathrm{s}^{-1})$ </td></tr><tr><td>1</td><td>0.10</td><td>0.10</td><td> $5.30×10^{-9}$ </td></tr><tr><td>2</td><td>0.50</td><td>0.10</td><td> $2.67×10^{-8}$ </td></tr><tr><td>3</td><td>0.50</td><td>0.40</td><td> $4.25×10^{-7}$ </td></tr></table>
+| 实验编号 | $c(H_2PO_2^-)/(\mathrm{mol}\cdot\mathrm{L}^{-1})$ | $c(OH^-)/(\mathrm{mol}\cdot\mathrm{L}^{-1})$ | $v/(\mathrm{mol}\cdot\mathrm{L}^{-1}·\mathrm{s}^{-1})$ |
+| --- | --- | --- | --- |
+| 1 | 0.10 | 0.10 | $5.30×10^{-9}$ |
+| 2 | 0.50 | 0.10 | $2.67×10^{-8}$ |
+| 3 | 0.50 | 0.40 | $4.25×10^{-7}$ |
 
 试求:(1) 速率方程式;
 
@@ -836,7 +842,9 @@ D. $1100^{\circ}$ C 时,此反应的 K 值可能为 0.9
 
 7 一定温度下,按下式发生分解反应: $N_{2}O_{5}(g) \rightleftharpoons 2NO_{2}(g) + 1/2O_{2}(g)$ 实验测得的数据如下表:
 
-<table><tr><td>时间/s</td><td>0</td><td>500</td><td>1000</td><td>1500</td><td>2000</td><td>2500</td><td>3000</td></tr><tr><td> $c(N_2O_5)/(\mathrm{mol}\cdot\mathrm{L}^{-1})$ </td><td>5.00</td><td>3.52</td><td>2.4</td><td>1.75</td><td>1.23</td><td>0.87</td><td>0.61</td></tr></table>
+| 时间/s | 0 | 500 | 1000 | 1500 | 2000 | 2500 | 3000 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| $c(N_2O_5)/(\mathrm{mol}\cdot\mathrm{L}^{-1})$ | 5.00 | 3.52 | 2.4 | 1.75 | 1.23 | 0.87 | 0.61 |
 
 (1) 求各时间间隔内 $N_{2}O_{5}$ 分解的平均反应速率。
 
@@ -1691,7 +1699,9 @@ $$
 
 (1) 试根据下表给出的 $V_{1} 、 V_{2}$ 数值的范围, 判断原混合物的成分 (用化学式表示)。
 
-<table><tr><td> $V_1$ 和 $V_2$ </td><td> $V_1 \neq 0$  $V_2 = 0$ </td><td> $V_1 = 0$  $V_2 \neq 0$ </td><td> $V_1 = V_2 \neq 0$ </td><td> $V_1 > V_2 > 0$ </td><td> $V_2 > V_1 > 0$ </td></tr><tr><td>试样成分</td><td></td><td></td><td></td><td></td><td></td></tr></table>
+| $V_1$ 和 $V_2$ | $V_1 \neq 0$ $V_2 = 0$ | $V_1 = 0$ $V_2 \neq 0$ | $V_1 = V_2 \neq 0$ | $V_1 > V_2 > 0$ | $V_2 > V_1 > 0$ |
+| --- | --- | --- | --- | --- | --- |
+| 试样成分 |  |  |  |  |  |
 
 (2) 若称取 1.200 g 含杂质的试样(杂质不与盐酸反应), 配制成 100.00 mL 溶液, 取出 20.00 mL 溶液, 用 0.100 mol·L $^{-1}$ 的标准盐酸滴定, 测得 $V_{1} = 35.00 \, \mathrm{mL}$ , $V_{2} = 5.00 \, \mathrm{mL}$ 。求试样的成分及质量分数。
 
@@ -4014,7 +4024,13 @@ $\mathrm{Cr:NH_3:Cl = \frac{0.20\times 260.6}{52}:\frac{0.392\times 260.6}{17}:\
 
 ## 参考解答 (1)
 
-<table><tr><td>序号</td><td>配合物的化学式</td><td>配合物的名称</td><td>形成体</td><td>配位体</td><td>配位数</td></tr><tr><td>1</td><td> $[Cu(H_2O)_4]SO_4$ </td><td>硫酸四水合铜(II)</td><td>Cu(II)</td><td> $H_2O$ </td><td>4</td></tr><tr><td>2</td><td> $[Zn(NH_3)_4]Cl_2$ </td><td>二氯化四氨合锌(II)</td><td>Zn(II)</td><td> $NH_3$ </td><td>4</td></tr><tr><td>3</td><td> $[CoClNO_2(NH_3)_4]Cl$ </td><td>氯化一氯·一硝基·四氨合钴(III)</td><td>Co(III)</td><td> $Cl^-$ 、 $NO_2^-$ 、 $NH_3$ </td><td>6</td></tr><tr><td>4</td><td> $K_3[Fe(CN)_6]$ </td><td>六氰合铁(III)酸钾</td><td>Fe(III)</td><td> $CN^-$ </td><td>6</td></tr><tr><td>5</td><td> $K[PtCl_5NH_3]$ </td><td>五氯·一氨合铂(IV)酸钾</td><td>Pt(IV)</td><td> $Cl^-$ 、 $NH_3$ </td><td>6</td></tr></table>
+| 序号 | 配合物的化学式 | 配合物的名称 | 形成体 | 配位体 | 配位数 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | $[Cu(H_2O)_4]SO_4$ | 硫酸四水合铜(II) | Cu(II) | $H_2O$ | 4 |
+| 2 | $[Zn(NH_3)_4]Cl_2$ | 二氯化四氨合锌(II) | Zn(II) | $NH_3$ | 4 |
+| 3 | $[CoClNO_2(NH_3)_4]Cl$ | 氯化一氯·一硝基·四氨合钴(III) | Co(III) | $Cl^-$ 、 $NO_2^-$ 、 $NH_3$ | 6 |
+| 4 | $K_3[Fe(CN)_6]$ | 六氰合铁(III)酸钾 | Fe(III) | $CN^-$ | 6 |
+| 5 | $K[PtCl_5NH_3]$ | 五氯·一氨合铂(IV)酸钾 | Pt(IV) | $Cl^-$ 、 $NH_3$ | 6 |
 
 ![](高中化学竞赛教程第2分册万长江编,Wanchangjiangbianzhuz-library.sk,1lib.sk,z-lib.sk_1-199_images/c96fcbc959b4426caa9ff1dbc9e747ac4223bc7b663048d81d2b6b8c56327b64.jpg)  
 最多可形成5个五元环
@@ -6642,7 +6658,14 @@ $$
 
 如右表所示, 只有 2, 4, 4 是可能的答案(据试题提供的注释性信息, 表中前 4 个组合均有高于 4 个碳原子数的烷而不可能, 又因丙烷没有异构体, 3, 3, 4 组合不可能)。
 
-<table><tr><td> $n_{1}$ </td><td> $n_{2}$ </td><td> $n_{3}$ </td></tr><tr><td>1</td><td>2</td><td>7</td></tr><tr><td>1</td><td>3</td><td>6</td></tr><tr><td>1</td><td>4</td><td>5</td></tr><tr><td>2</td><td>3</td><td>5</td></tr><tr><td>2</td><td>4</td><td>4</td></tr><tr><td>3</td><td>3</td><td>4</td></tr></table>
+| $n_{1}$ | $n_{2}$ | $n_{3}$ |
+| --- | --- | --- |
+| 1 | 2 | 7 |
+| 1 | 3 | 6 |
+| 1 | 4 | 5 |
+| 2 | 3 | 5 |
+| 2 | 4 | 4 |
+| 3 | 3 | 4 |
 
 故:三种烷是 $CH_{3}CH_{3}$ 、 $CH_{3}CH_{2}CH_{2}CH_{3}$ 、 $CH_{3}CH(CH_{3})CH_{3}$
 

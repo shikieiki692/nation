@@ -1368,7 +1368,9 @@ The role of silver ion (Ag $^{+}$ ) is the removal of the halide to give an acyl
 
 The only way in which we can explain those extra features is to suggest that methylation initially occurs on the oxygen atom and that a methyl group is transferred from there to the benzene ring. We should never have detected this detail without the labelling experiment. Alkylation on oxygen provides an alkylating agent that can transfer either $CH_{3}$ or $CD_{3}$ and also explains the formation of trideuterotoluene.
 
-<table><tr><td>X</td><td>H</td><td>3-Cl</td><td>3-Me</td><td>4-Me</td><td>3-MeO</td><td>4-MeO</td><td> $3-NO_2$ </td></tr><tr><td> $pK_a$ </td><td>5.2</td><td>2.84</td><td>5.68</td><td>6.02</td><td>4.88</td><td>6.62</td><td>0.81</td></tr></table>
+| X | H | 3-Cl | 3-Me | 4-Me | 3-MeO | 4-MeO | $3-NO_2$ |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| $pK_a$ | 5.2 | 2.84 | 5.68 | 6.02 | 4.88 | 6.62 | 0.81 |
 
 ■ We hope you didn't suggest a methyl cation as an intermediate.
 

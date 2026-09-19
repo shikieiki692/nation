@@ -92,7 +92,13 @@ $$
 
 表14A.1 偶极矩和极化率体积
 
-<table><tr><td>分子</td><td> $\mu/D$ </td><td> $\alpha'/(10^{-30}m^{3})$ </td></tr><tr><td> $CCl_{4}$ </td><td>0</td><td>10.5</td></tr><tr><td> $H_{2}$ </td><td>0</td><td>0.819</td></tr><tr><td> $H_{2}O$ </td><td>1.85</td><td>1.48</td></tr><tr><td>HCl</td><td>1.08</td><td>2.63</td></tr><tr><td>HI</td><td>0.42</td><td>5.45</td></tr></table>
+| 分子 | $\mu/D$ | $\alpha'/(10^{-30}m^{3})$ |
+| --- | --- | --- |
+| $CCl_{4}$ | 0 | 10.5 |
+| $H_{2}$ | 0 | 0.819 |
+| $H_{2}O$ | 1.85 | 1.48 |
+| HCl | 1.08 | 2.63 |
+| HI | 0.42 | 5.45 |
 
 \*更多的数据参见资源部分。
 
@@ -478,7 +484,18 @@ $$
 ![[mineru/物理化学/物理化学（第11版）etc.z-library.sk,1lib.sk,z-lib.sk_594-649_images/6afe721a50826076653040b70d8cd7dd3c500c45e92fc806f4f619554fc479cf.jpg]]  
 8 茨酮
 
-<table><tr><td> $\theta /{}^{ \circ }\mathrm{C}$ </td><td> $\rho /\left( {\mathrm{g} \cdot  {\mathrm{cm}}^{-3}}\right)$ </td><td> $\varepsilon ,$ </td></tr><tr><td>0</td><td>0.99</td><td>12.5</td></tr><tr><td>20</td><td>0.99</td><td>11.4</td></tr><tr><td>40</td><td>0.99</td><td>10.8</td></tr><tr><td>60</td><td>0.99</td><td>10.0</td></tr><tr><td>80</td><td>0.99</td><td>9.50</td></tr><tr><td>100</td><td>0.99</td><td>8.90</td></tr><tr><td>120</td><td>0.97</td><td>8.10</td></tr><tr><td>140</td><td>0.96</td><td>7.60</td></tr><tr><td>160</td><td>0.95</td><td>7.11</td></tr><tr><td>200</td><td>0.91</td><td>6.21</td></tr></table>
+| $\theta /{}^{ \circ }\mathrm{C}$ | $\rho /\left( {\mathrm{g} \cdot {\mathrm{cm}}^{-3}}\right)$ | $\varepsilon ,$ |
+| --- | --- | --- |
+| 0 | 0.99 | 12.5 |
+| 20 | 0.99 | 11.4 |
+| 40 | 0.99 | 10.8 |
+| 60 | 0.99 | 10.0 |
+| 80 | 0.99 | 9.50 |
+| 100 | 0.99 | 8.90 |
+| 120 | 0.97 | 8.10 |
+| 140 | 0.96 | 7.60 |
+| 160 | 0.95 | 7.11 |
+| 200 | 0.91 | 6.21 |
 
 整理思路 相对介电常数取决于其摩尔极化强度[式（14A.10)]，而摩尔极化强度又取决于温度、极化率和永久偶极矩的大小[式（14A.11)]。这些关系式表明，需要：
 
@@ -495,7 +512,18 @@ $$
 
 解：使用数据绘制下表，莰酮的 $M=152.23\ g\cdot \mathrm{mol}^{-1}$ 。
 
-<table><tr><td> $\theta /{}^{ \circ }\mathrm{C}$ </td><td> ${T}^{-1}/\left( {{10}^{3}\mathrm{\;K}}\right) {}^{-1}$ </td><td> ${\varepsilon }_{t}$ </td><td> $\left( {{\varepsilon }_{t} - 1}\right) /\left( {{\varepsilon }_{t} + 2}\right)$ </td><td> ${P}_{m}/\left( {{\mathrm{cm}}^{3} \cdot  {\mathrm{mol}}^{-1}}\right)$ </td></tr><tr><td>0</td><td>3.66</td><td>12.5</td><td>0.793</td><td>122</td></tr><tr><td>20</td><td>3.41</td><td>11.4</td><td>0.776</td><td>119</td></tr><tr><td>40</td><td>3.19</td><td>10.8</td><td>0.766</td><td>118</td></tr><tr><td>60</td><td>3.00</td><td>10.0</td><td>0.750</td><td>115</td></tr><tr><td>80</td><td>2.83</td><td>9.50</td><td>0.739</td><td>114</td></tr><tr><td>100</td><td>2.68</td><td>8.90</td><td>0.725</td><td>111</td></tr><tr><td>120</td><td>2.54</td><td>8.10</td><td>0.703</td><td>110</td></tr><tr><td>140</td><td>2.42</td><td>7.60</td><td>0.688</td><td>109</td></tr><tr><td>160</td><td>2.31</td><td>7.11</td><td>0.671</td><td>108</td></tr><tr><td>200</td><td>2.11</td><td>6.21</td><td>0.635</td><td>106</td></tr></table>
+| $\theta /{}^{ \circ }\mathrm{C}$ | ${T}^{-1}/\left( {{10}^{3}\mathrm{\;K}}\right) {}^{-1}$ | ${\varepsilon }_{t}$ | $\left( {{\varepsilon }_{t} - 1}\right) /\left( {{\varepsilon }_{t} + 2}\right)$ | ${P}_{m}/\left( {{\mathrm{cm}}^{3} \cdot {\mathrm{mol}}^{-1}}\right)$ |
+| --- | --- | --- | --- | --- |
+| 0 | 3.66 | 12.5 | 0.793 | 122 |
+| 20 | 3.41 | 11.4 | 0.776 | 119 |
+| 40 | 3.19 | 10.8 | 0.766 | 118 |
+| 60 | 3.00 | 10.0 | 0.750 | 115 |
+| 80 | 2.83 | 9.50 | 0.739 | 114 |
+| 100 | 2.68 | 8.90 | 0.725 | 111 |
+| 120 | 2.54 | 8.10 | 0.703 | 110 |
+| 140 | 2.42 | 7.60 | 0.688 | 109 |
+| 160 | 2.31 | 7.11 | 0.671 | 108 |
+| 200 | 2.11 | 6.21 | 0.635 | 106 |
 
 由这些数据可绘制出图14A.4。在纵轴上的截距为 $P_{m}=83.5\ \mathrm{cm}^{3}\cdot \mathrm{mol}^{-1}$ ，故
 
@@ -1130,7 +1158,15 @@ $$
 
 表14B.2 勒纳德-琼斯(12,6)势能参数
 
-<table><tr><td></td><td> $\frac{\varepsilon }{k}/\mathrm{K}$ </td><td> ${r}_{0}/\mathrm{pm}$ </td></tr><tr><td>Ar</td><td>111.84</td><td>362.3</td></tr><tr><td> ${\mathrm{BF}}_{2}$ </td><td>104.29</td><td>357.1</td></tr><tr><td> ${\mathrm{C}}_{6}{\mathrm{H}}_{6}$ </td><td>377.46</td><td>617.4</td></tr><tr><td> ${\mathrm{Cl}}_{2}$ </td><td>296.27</td><td>448.5</td></tr><tr><td> ${\mathrm{N}}_{2}$ </td><td>91.85</td><td>391.9</td></tr><tr><td> ${\mathrm{O}}_{2}$ </td><td>113.27</td><td>365.4</td></tr><tr><td>Xe</td><td>213.96</td><td>426.0</td></tr></table>
+|  | $\frac{\varepsilon }{k}/\mathrm{K}$ | ${r}_{0}/\mathrm{pm}$ |
+| --- | --- | --- |
+| Ar | 111.84 | 362.3 |
+| ${\mathrm{BF}}_{2}$ | 104.29 | 357.1 |
+| ${\mathrm{C}}_{6}{\mathrm{H}}_{6}$ | 377.46 | 617.4 |
+| ${\mathrm{Cl}}_{2}$ | 296.27 | 448.5 |
+| ${\mathrm{N}}_{2}$ | 91.85 | 391.9 |
+| ${\mathrm{O}}_{2}$ | 113.27 | 365.4 |
+| Xe | 213.96 | 426.0 |
 
 \*更多的数据参见资源部分。
 
@@ -1193,7 +1229,14 @@ $$
 
 # 公式清单
 
-<table><tr><td>性质</td><td>公式</td><td>说明</td><td>公式编号</td></tr><tr><td>点偶极子和点电荷之间相互作用能</td><td> $V = -\mu_1 Q_2 / 4 \pi \varepsilon_0 r^2$ </td><td>线性排列</td><td>14B.1</td></tr><tr><td>两个固定的偶极子之间的相互作用能</td><td> $V = \mu_1 \mu_2 f(\Theta) / 4 \pi \varepsilon_0 r^3$ , $f(\Theta) = 1 - 3 \cos^2 \Theta$ </td><td>平行偶极子</td><td>14B.3b</td></tr><tr><td>两个旋转偶极子之间的相互作用能</td><td> $\langle V \rangle = -2 \mu_1^2 \mu_2^2 / 3 (4 \pi \varepsilon_0)^2 k Tr^6$ </td><td></td><td>14B.4</td></tr><tr><td>极性分子和可极化分子之间的相互作用能</td><td> $V = -\mu_1^2 \alpha_2' / 4 \pi \varepsilon_0 r^6$ </td><td></td><td>14B.6</td></tr><tr><td>伦敦公式</td><td> $V = -\frac{3}{2} \alpha_1' \alpha_2'[I_1 I_2 / (I_1 + I_2)] / r^6$ </td><td></td><td>14B.7</td></tr><tr><td>勒纳德-琼斯势能</td><td> $V = 4 \varepsilon [(r_0/r)^{12} - (r_0/r)^6]$ </td><td></td><td>14B.12</td></tr></table>
+| 性质 | 公式 | 说明 | 公式编号 |
+| --- | --- | --- | --- |
+| 点偶极子和点电荷之间相互作用能 | $V = -\mu_1 Q_2 / 4 \pi \varepsilon_0 r^2$ | 线性排列 | 14B.1 |
+| 两个固定的偶极子之间的相互作用能 | $V = \mu_1 \mu_2 f(\Theta) / 4 \pi \varepsilon_0 r^3$ , $f(\Theta) = 1 - 3 \cos^2 \Theta$ | 平行偶极子 | 14B.3b |
+| 两个旋转偶极子之间的相互作用能 | $\langle V \rangle = -2 \mu_1^2 \mu_2^2 / 3 (4 \pi \varepsilon_0)^2 k Tr^6$ |  | 14B.4 |
+| 极性分子和可极化分子之间的相互作用能 | $V = -\mu_1^2 \alpha_2' / 4 \pi \varepsilon_0 r^6$ |  | 14B.6 |
+| 伦敦公式 | $V = -\frac{3}{2} \alpha_1' \alpha_2'[I_1 I_2 / (I_1 + I_2)] / r^6$ |  | 14B.7 |
+| 勒纳德-琼斯势能 | $V = 4 \varepsilon [(r_0/r)^{12} - (r_0/r)^6]$ |  | 14B.12 |
 
 # 专题14C
 
@@ -1823,7 +1866,16 @@ $$
 
 公式清单
 
-<table><tr><td>性质</td><td>公式</td><td>说明</td><td>公式编号</td></tr><tr><td>流体静压</td><td> $p = \rho g_{\text{acc}} h$ </td><td>不可压缩流体</td><td>14C.4</td></tr><tr><td>拉普拉斯公式</td><td> $p_{\text{in}} = p_{\text{out}} + 2\gamma / r$ </td><td>γ是表面张力</td><td>14C.7</td></tr><tr><td>接触角</td><td> $\cos\theta_c = w_{\text{ad}} / \gamma_{\text{lg}} - 1$ </td><td></td><td>14C.10b</td></tr><tr><td>表面吉布斯能</td><td> $G = G(\alpha) + G(\beta) + G(\sigma)$ </td><td>定义</td><td>14C.11</td></tr><tr><td>表面过剩</td><td> $\Gamma_1 = n_1(\sigma) / \sigma$ </td><td>定义</td><td>14C.12</td></tr><tr><td>吉布斯等温式</td><td> $\mathrm{d}\gamma = -\sum_{l} \Gamma_l \mathrm{d}\mu_l$ </td><td></td><td>14C.13</td></tr><tr><td>表面张力与表面活性剂浓度的关系</td><td> $[\partial \gamma / \partial \ln(c/c^e)]_T = -RT\Gamma_s$ </td><td></td><td>14C.14</td></tr><tr><td>开尔文公式</td><td> $p = p^* e^{2\gamma V_n(1)/rRT}$ </td><td></td><td>14C.15</td></tr></table>
+| 性质 | 公式 | 说明 | 公式编号 |
+| --- | --- | --- | --- |
+| 流体静压 | $p = \rho g_{\text{acc}} h$ | 不可压缩流体 | 14C.4 |
+| 拉普拉斯公式 | $p_{\text{in}} = p_{\text{out}} + 2\gamma / r$ | γ是表面张力 | 14C.7 |
+| 接触角 | $\cos\theta_c = w_{\text{ad}} / \gamma_{\text{lg}} - 1$ |  | 14C.10b |
+| 表面吉布斯能 | $G = G(\alpha) + G(\beta) + G(\sigma)$ | 定义 | 14C.11 |
+| 表面过剩 | $\Gamma_1 = n_1(\sigma) / \sigma$ | 定义 | 14C.12 |
+| 吉布斯等温式 | $\mathrm{d}\gamma = -\sum_{l} \Gamma_l \mathrm{d}\mu_l$ |  | 14C.13 |
+| 表面张力与表面活性剂浓度的关系 | $[\partial \gamma / \partial \ln(c/c^e)]_T = -RT\Gamma_s$ |  | 14C.14 |
+| 开尔文公式 | $p = p^* e^{2\gamma V_n(1)/rRT}$ |  | 14C.15 |
 
 # 专题14D
 
@@ -1878,7 +1930,10 @@ $$
 
 根据如下数据，计算聚氯乙烯样品的数均摩尔质量和质均摩尔质量：
 
-<table><tr><td>间隔</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr><tr><td> $M_{i}/(\mathrm{kg} \cdot \mathrm{mol}^{-1})$ </td><td>7.5</td><td>12.5</td><td>17.5</td><td>22.5</td><td>27.5</td><td>32.5</td></tr><tr><td> $m/g$ </td><td>9.6</td><td>8.7</td><td>8.9</td><td>5.6</td><td>3.1</td><td>1.7</td></tr></table>
+| 间隔 | 1 | 2 | 3 | 4 | 5 | 6 |
+| --- | --- | --- | --- | --- | --- | --- |
+| $M_{i}/(\mathrm{kg} \cdot \mathrm{mol}^{-1})$ | 7.5 | 12.5 | 17.5 | 22.5 | 27.5 | 32.5 |
+| $m/g$ | 9.6 | 8.7 | 8.9 | 5.6 | 3.1 | 1.7 |
 
 整理思路 相关的公式是式（14D.1a）和式（14D.1b）。注意：由于 $N_{i}=n_{i}N_{A}$ ，你可以用物质的量（摩尔）来表示数均摩尔质量；
 
@@ -1890,7 +1945,10 @@ $$
 
 解：每个区间内的量，如下：
 
-<table><tr><td>间隔</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr><tr><td> $M_{i}/(\mathrm{kg} \cdot \mathrm{mol}^{-1})$ </td><td>7.5</td><td>12.5</td><td>17.5</td><td>22.5</td><td>27.5</td><td>32.5</td></tr><tr><td> $n_{i}/\mathrm{mmol}$ </td><td>1.3</td><td>0.70</td><td>0.51</td><td>0.25</td><td>0.11</td><td>0.052</td></tr></table>
+| 间隔 | 1 | 2 | 3 | 4 | 5 | 6 |
+| --- | --- | --- | --- | --- | --- | --- |
+| $M_{i}/(\mathrm{kg} \cdot \mathrm{mol}^{-1})$ | 7.5 | 12.5 | 17.5 | 22.5 | 27.5 | 32.5 |
+| $n_{i}/\mathrm{mmol}$ | 1.3 | 0.70 | 0.51 | 0.25 | 0.11 | 0.052 |
 
 总物质的量为 $n_{total}=2.92\ \mathrm{mmol}$ ，则数均摩尔质量为
 
@@ -2585,7 +2643,9 @@ $$
 
 不同pH时，监测获得电场作用下牛血清白蛋白（BSA）在水中运动的速率，数据如下：
 
-<table><tr><td>pH</td><td>4.20</td><td>4.56</td><td>5.20</td><td>5.65</td><td>6.30</td><td>7.00</td></tr><tr><td> $\frac{\text{速率},v}{\mu\mathrm{m}\cdot\mathrm{s}^{-1}}$ </td><td>0.50</td><td>0.18</td><td>-0.25</td><td>-0.65</td><td>-0.90</td><td>-1.25</td></tr></table>
+| pH | 4.20 | 4.56 | 5.20 | 5.65 | 6.30 | 7.00 |
+| --- | --- | --- | --- | --- | --- | --- |
+| $\frac{\text{速率},v}{\mu\mathrm{m}\cdot\mathrm{s}^{-1}}$ | 0.50 | 0.18 | -0.25 | -0.65 | -0.90 | -1.25 |
 
 蛋白质的等电点是什么？
 
@@ -2612,7 +2672,9 @@ $$
 
 自测题14E.1 另一种蛋白质的相关数据如下：
 
-<table><tr><td>pH</td><td>3.5</td><td>4.5</td><td>5.0</td><td>5.5</td><td>6.0</td></tr><tr><td>速率, $\frac{v}{\mu m \cdot s^{-1}}$ </td><td>0.10</td><td>-0.10</td><td>-0.20</td><td>-0.30</td><td>-0.40</td></tr></table>
+| pH | 3.5 | 4.5 | 5.0 | 5.5 | 6.0 |
+| --- | --- | --- | --- | --- | --- |
+| 速率, $\frac{v}{\mu m \cdot s^{-1}}$ | 0.10 | -0.10 | -0.20 | -0.30 | -0.40 |
 
 估算等电点时pH。
 
@@ -2654,7 +2716,10 @@ Blue spherical particles arranged in a circular pattern with internal dark branc
 
 通过溶解（与胶束形成不同）热力学的研究，可以对所涉及的过程有一些了解。随着溶质分子的分散及水为容纳溶质分子而产生的结构变化，众多的疏水分子在水中的溶解熵为正值 $\left(\Delta_{\mathrm{diss}}S^{\ominus}>0\right)$ 。这个过程通常是吸热的 $\left(\Delta_{\mathrm{diss}}H^{\ominus}>0\right)$ ，但溶解吉布斯能 $\left(\Delta_{\mathrm{diss}}G^{\ominus}\right)$ 通常是负的，见以下数据（298 K）：
 
-<table><tr><td></td><td> $\Delta_{\text{diss}}G^{\ominus}$ kJ·mol $^{-1}$ </td><td> $\Delta_{\text{diss}}H^{\ominus}$ kJ·mol $^{-1}$ </td><td> $\Delta_{\text{diss}}S^{\ominus}$ J·K $^{-1}$ ·mol $^{-1}$ </td></tr><tr><td> $CH_3CH_2CH_2CH_2OH$ </td><td>-10</td><td>+8</td><td>+61</td></tr><tr><td> $CH_3CH_2CH_2CH_2CH_2OH$ </td><td>-13</td><td>+8</td><td>+70</td></tr></table>
+|  | $\Delta_{\text{diss}}G^{\ominus}$ kJ·mol $^{-1}$ | $\Delta_{\text{diss}}H^{\ominus}$ kJ·mol $^{-1}$ | $\Delta_{\text{diss}}S^{\ominus}$ J·K $^{-1}$ ·mol $^{-1}$ |
+| --- | --- | --- | --- |
+| $CH_3CH_2CH_2CH_2OH$ | -10 | +8 | +61 |
+| $CH_3CH_2CH_2CH_2CH_2OH$ | -13 | +8 | +70 |
 
 换句话说，溶解的趋势（至少在一定程度上）是熵驱动的，由溶质分子的分散与水分子的重组起作用。溶质一旦发生溶解，水分子的进一步重组就会驱动胶束的形成。实验值符合一个一般规则，即每增加一个 $CH_{2}$ 基团，就会贡献 $-3\ \mathrm{kJ}\cdot \mathrm{mol}^{-1}$ 的标准溶解吉布斯能。
 
@@ -2833,7 +2898,11 @@ Molecular structure of a steroid compound with hydroxyl group at position 1
 
 公式清单
 
-<table><tr><td>性质</td><td>公式</td><td>说明</td><td>公式编号</td></tr><tr><td>双电层厚度</td><td> $r_{D} = (\varepsilon RT/2\rho F^{2}Ib^{0})^{1/2}$ </td><td>德拜-休克尔理论</td><td>14E.3</td></tr><tr><td>疏水常数</td><td> $\pi = \lg[s(RX)/s(HX)]$ </td><td>定义</td><td>14E.5</td></tr><tr><td>表面活性剂参数</td><td> $N_{s} = V/Al$ </td><td>定义</td><td>14E.7</td></tr></table>
+| 性质 | 公式 | 说明 | 公式编号 |
+| --- | --- | --- | --- |
+| 双电层厚度 | $r_{D} = (\varepsilon RT/2\rho F^{2}Ib^{0})^{1/2}$ | 德拜-休克尔理论 | 14E.3 |
+| 疏水常数 | $\pi = \lg[s(RX)/s(HX)]$ | 定义 | 14E.5 |
+| 表面活性剂参数 | $N_{s} = V/Al$ | 定义 | 14E.7 |
 
 # 主题 14 分子相互作用——讨论题、练习题、问题及综合题
 
@@ -2899,7 +2968,10 @@ P14A.5 NH $_{4}$ 的极化体积为2.22×10 $^{-10}$ m $^{-1}$ ，计算由强�
 P14A.6 与一点电荷 Q 的距离为 r 的电场大小为 $Q/4\pi\varepsilon_{0}r^{2}$ ，质子与水分子（极化体积为 $1.48 \times 10^{-38} m^{3}$ ）的距离必须接近到何种程度，才能产生与水分子的永久偶极矩（1.85 D）相等的偶极矩？  
 P14A.7 在一定温度范围内测定了三氯甲烷（氯仿）的相对介电常数，结果如下：
 
-<table><tr><td> $\theta / ^{\circ}\mathrm{C}$ </td><td>-80</td><td>-70</td><td>-60</td><td>-40</td><td>-20</td><td>0</td><td>20</td></tr><tr><td> $\varepsilon_{i}$ </td><td>3.1</td><td>3.1</td><td>7.0</td><td>6.5</td><td>6.0</td><td>5.5</td><td>5.0</td></tr><tr><td> $\rho /\left( {\mathrm{g} \cdot {\mathrm{cm}}^{-2}}\right)$ </td><td>1.65</td><td>1.64</td><td>1.64</td><td>1.61</td><td>1.57</td><td>1.53</td><td>1.50</td></tr></table>
+| $\theta / ^{\circ}\mathrm{C}$ | -80 | -70 | -60 | -40 | -20 | 0 | 20 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| $\varepsilon_{i}$ | 3.1 | 3.1 | 7.0 | 6.5 | 6.0 | 5.5 | 5.0 |
+| $\rho /\left( {\mathrm{g} \cdot {\mathrm{cm}}^{-2}}\right)$ | 1.65 | 1.64 | 1.64 | 1.61 | 1.57 | 1.53 | 1.50 |
 
 三氯甲烷的凝固点为 $-64^{\circ}C$ 。解释这些结果并计算分子的偶极定和极化体积。
 
@@ -2909,13 +2981,17 @@ P14A.8 甲醇（熔点为-95℃）的相对介电常数对密度变化校正后�
 
 P14A.9 Debye在他的经典著作《极性分子》中，报道了氨的极化率的一些早期测量。根据以下选出的数据，确定分子的偶极矩和极化率体积。
 
-<table><tr><td>T/K</td><td>292.2</td><td>309.0</td><td>333.0</td><td>387.0</td><td>413.0</td><td>446.0</td></tr><tr><td> $P_{m}/(\mathrm{cm}^{3} \cdot \mathrm{mol}^{-1})$ </td><td>57.57</td><td>55.01</td><td>51.22</td><td>44.99</td><td>42.51</td><td>39.59</td></tr></table>
+| T/K | 292.2 | 309.0 | 333.0 | 387.0 | 413.0 | 446.0 |
+| --- | --- | --- | --- | --- | --- | --- |
+| $P_{m}/(\mathrm{cm}^{3} \cdot \mathrm{mol}^{-1})$ | 57.57 | 55.01 | 51.22 | 44.99 | 42.51 | 39.59 |
 
 氨在273 K和100 kPa下的折射率为1.000 379（对钠黄光）。计算气体在这个温度时的摩尔极化强度。将计算值与292.2 K时的静态摩尔极化强度相结合，并且仅从这个信息推断出分子偶极矩。
 
 P14A.10 由电容测量确定的 100 kPa 时气态水的摩尔极化强度值随温度的变化如下：
 
-<table><tr><td>T/K</td><td>384.3</td><td>420.1</td><td>444.7</td><td>484.1</td><td>521.0</td></tr><tr><td> $P_{\text{m}}/(\mathrm{cm}^{3} \cdot \mathrm{mol}^{-1})$ </td><td>57.4</td><td>53.5</td><td>50.1</td><td>46.8</td><td>43.1</td></tr></table>
+| T/K | 384.3 | 420.1 | 444.7 | 484.1 | 521.0 |
+| --- | --- | --- | --- | --- | --- |
+| $P_{\text{m}}/(\mathrm{cm}^{3} \cdot \mathrm{mol}^{-1})$ | 57.4 | 53.5 | 50.1 | 46.8 | 43.1 |
 
 计算水的偶极矩及其极化率体积。
 
@@ -3132,13 +3208,20 @@ P14D.6 证明可将回转半径 $R_{\mathrm{g}}$ 定义为原子或基团（假�
 
 P14D.7 利用下面的信息及书中引用的实心球体 $R_{s}$ 的表达式 [式（14D.7b）]，将下列物质分类为球状或类棒状。
 
-<table><tr><td>A</td><td> $M/\left( {\mathrm{g} \cdot {\mathrm{mol}}^{-1}}\right)$ </td><td> ${v}_{i}/\left( {{\mathrm{cm}}^{3} \cdot {\mathrm{g}}^{-1}}\right)$ </td><td> ${R}_{e}/\mathrm{nm}$ </td></tr><tr><td>血清白蛋白</td><td> ${66} \times {10}^{3}$ </td><td>0.752</td><td>2.98</td></tr><tr><td>丛矮病毒</td><td> ${10.6} \times {10}^{6}$ </td><td>0.741</td><td>12.0</td></tr><tr><td>DNA</td><td> $4 \times {10}^{6}$ </td><td>0.556</td><td>117.0</td></tr></table>
+| A | $M/\left( {\mathrm{g} \cdot {\mathrm{mol}}^{-1}}\right)$ | ${v}_{i}/\left( {{\mathrm{cm}}^{3} \cdot {\mathrm{g}}^{-1}}\right)$ | ${R}_{e}/\mathrm{nm}$ |
+| --- | --- | --- | --- |
+| 血清白蛋白 | ${66} \times {10}^{3}$ | 0.752 | 2.98 |
+| 丛矮病毒 | ${10.6} \times {10}^{6}$ | 0.741 | 12.0 |
+| DNA | $4 \times {10}^{6}$ | 0.556 | 117.0 |
 
 P14D.8 导出一个被稍微伸展然后松开的一维无规线团基本振动频率的表达式。对于 293 K 时摩尔质量为 $65 \, \mathrm{kg} \cdot \mathrm{mol}^{-1}$ 的聚乙烯样品，计算其频率。从物理上解释频率与温度及摩尔质量的关系。  
 P14D.9 假设保持样品恒定长度所需的张力t与温度成正比 $(t=aT,$ 与 $p\propto T$ 类似 $)$ ，证明张力可归因于熵对样品长度的依赖性。根据样品的分子性质来解释这一结果。  
 P14D.10 下表列出了几种聚合物的玻璃化转变温度 $T_{g}$ 。讨论单体单元结构对 $T_{g}$ 值产生影响的原因。
 
-<table><tr><td>聚合物</td><td>聚甲醛</td><td>聚乙烯</td><td>聚氯乙烯</td><td>聚苯乙烯</td></tr><tr><td>结构</td><td> $+ {\left( \mathrm{OCH}}_{2}\right) }_{n}$ </td><td> $+ {\left( {\mathrm{CH}}_{2}{\mathrm{CH}}_{2}\right) }_{n}$ </td><td> $+ {\left( {\mathrm{CH}}_{2} - \mathrm{CHCl}\right) }_{n}$ </td><td> $+ {\left( {\mathrm{CH}}_{2} - \mathrm{CH}{\left( {\mathrm{C}}_{6}{\mathrm{H}}_{5}\right) }_{n} \right) }_{n}$ </td></tr><tr><td> ${T}_{\mathrm{g}}/\mathrm{K}$ </td><td>198</td><td>253</td><td>354</td><td>381</td></tr></table>
+| 聚合物 | 聚甲醛 | 聚乙烯 | 聚氯乙烯 | 聚苯乙烯 |
+| --- | --- | --- | --- | --- |
+| 结构 | $+ {\left( \mathrm{OCH}}_{2}\right) }_{n}$ | $+ {\left( {\mathrm{CH}}_{2}{\mathrm{CH}}_{2}\right) }_{n}$ | $+ {\left( {\mathrm{CH}}_{2} - \mathrm{CHCl}\right) }_{n}$ | $+ {\left( {\mathrm{CH}}_{2} - \mathrm{CH}{\left( {\mathrm{C}}_{6}{\mathrm{H}}_{5}\right) }_{n} \right) }_{n}$ |
+| ${T}_{\mathrm{g}}/\mathrm{K}$ | 198 | 253 | 354 | 381 |
 
 # 专题 14E 自组装
 
@@ -3156,7 +3239,10 @@ E14E.1(a) 在 3.0 < pH < 7.0 时，蛋白质在电场作用下通过水体的移
 
 P14E.1 氨基酸的非极性基团与蛋白质内部疏水位点的键合主要受疏水相互作用的控制。(a) 对于碳氢化合物 R—H, R=CH₃、CH₂CH₃、(CH₂)₂CH₃、(CH₂)₃CH₃ 和 (CH₂)₃CH₃ 的疏水常数 (π) 分别为 0.5、1.0、1.5、2.0 和 2.5。使用这些数据预测 (CH₂)₆CH₃ 的 π 值。(b) 对于不同的取代基 R，测量了从糜蛋白酶解离抑制剂 (6) 的平衡常数 K₁:
 
-<table><tr><td>R</td><td> ${\mathrm{CH}}_{3}\mathrm{CO}$ </td><td>CN</td><td> ${\mathrm{NO}}_{2}$ </td><td> ${\mathrm{CH}}_{3}$ </td><td>Cl</td></tr><tr><td> $\pi$ </td><td>-0.20</td><td>-0.025</td><td>0.33</td><td>0.5</td><td>0.9</td></tr><tr><td> $\lg {K}_{1}$ </td><td>-1.73</td><td>-1.90</td><td>-2.43</td><td>-2.55</td><td>-3.40</td></tr></table>
+| R | ${\mathrm{CH}}_{3}\mathrm{CO}$ | CN | ${\mathrm{NO}}_{2}$ | ${\mathrm{CH}}_{3}$ | Cl |
+| --- | --- | --- | --- | --- | --- |
+| $\pi$ | -0.20 | -0.025 | 0.33 | 0.5 | 0.9 |
+| $\lg {K}_{1}$ | -1.73 | -1.90 | -2.43 | -2.55 | -3.40 |
 
 D14E.4 胆固醇的加入对脂质双层的转变温度可能产生什么影响？  
 D14E.5 为什么在低温下生长的细菌和植物细胞比在高温下生长的细胞能合成更多的具有不饱和链的磷脂？

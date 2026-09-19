@@ -319,7 +319,10 @@ The two 2H triplets and the broad NH signal show that the heterocyclic ring is i
 
 You could argue that NH is ortho, para-directing and so the second structure is more likely. But this is a risky argument as the reaction is carried out in strong acid solution where the nitrogen will mostly be protonated. It is safer to use the predicted $\delta_{H}$ from tables. Here we get:
 
-<table><tr><td>Proton</td><td>ortho</td><td>meta</td><td>para</td><td>predicted  $\delta_{H}$ </td></tr><tr><td> $H^{a}$ </td><td> $NO_{2}=+0.95$ </td><td> $CH_{2}=-0.14$ </td><td> $NH=-0.25$ </td><td>7.73</td></tr><tr><td> $H^{b}$ </td><td> $NO_{2}=+0.95$ </td><td> $NH=-0.75$ </td><td> $CH_{2}=-0.06$ </td><td>7.31</td></tr></table>
+| Proton | ortho | meta | para | predicted $\delta_{H}$ |
+| --- | --- | --- | --- | --- |
+| $H^{a}$ | $NO_{2}=+0.95$ | $CH_{2}=-0.14$ | $NH=-0.25$ | 7.73 |
+| $H^{b}$ | $NO_{2}=+0.95$ | $NH=-0.75$ | $CH_{2}=-0.06$ | 7.31 |
 
 There's not much difference but $\mathrm{H}^{\mathrm{a}}$ at 7.73 is closer to the observed 7.81, so it looks as though the small amount of unprotonated amine directs the reaction.
 
@@ -1784,7 +1787,13 @@ Confirming the stereochemistry of the product from a Wittig reaction.
 
 We'll approach this as a spectroscopic problem, rather than predicting the outcome and then making the data fit. First analyse the data, measuring chemical shifts, integrals and $J$ values.
 
-<table><tr><td> $\delta_{H}$  ppm</td><td>integral</td><td>multiplicity</td><td>J values Hz</td><td>comments</td></tr><tr><td>0.97</td><td>6H</td><td>d</td><td>7</td><td>CHMe2</td></tr><tr><td>1.60</td><td>3H</td><td>d</td><td>5</td><td>MeCHX</td></tr><tr><td>2.70</td><td>1H</td><td>double septuplet</td><td>7,4</td><td>Me2CH-CH</td></tr><tr><td>5.15</td><td>1H</td><td>dd</td><td>10, 4</td><td>alkene</td></tr><tr><td>5.35</td><td>1H</td><td>1:3:4:4:3:1?</td><td>5?</td><td>alkene</td></tr></table>
+| $\delta_{H}$ ppm | integral | multiplicity | J values Hz | comments |
+| --- | --- | --- | --- | --- |
+| 0.97 | 6H | d | 7 | CHMe2 |
+| 1.60 | 3H | d | 5 | MeCHX |
+| 2.70 | 1H | double septuplet | 7,4 | Me2CH-CH |
+| 5.15 | 1H | dd | 10, 4 | alkene |
+| 5.35 | 1H | 1:3:4:4:3:1? | 5? | alkene |
 
 From this alone we can see an alkene with two vicinal Hs, a methyl group, and an isopropyl group. That adds up to $C_{6}H_{12}$ so we have found everything and we can join it up in two ways as the alkene could be cis or trans. There is also a puzzle over the J values—there are too many 5 Hz couplings and the second 10 Hz coupling is missing, but we’ll unravel that later.
 
@@ -2659,7 +2668,18 @@ Using NMR to deduce stereochemistry and seeing how stereoelectronics decide the 
 
 You can make some preliminary assignments from a combination of shift and coupling:
 
-<table><tr><td>Signal</td><td>Integral and splitting</td><td>Comments</td><td>Assignment</td></tr><tr><td>1.33</td><td>3H, d, J 6</td><td>3H, d must be CHMe</td><td> $Me^7$ </td></tr><tr><td>1.61*</td><td>1H broad s</td><td>exchanges so must be OH</td><td>OH</td></tr><tr><td>1.87</td><td>1H, ddd, J 14, 3, 3.5</td><td>14 Hz looks like  $CH_2$ </td><td> $H^2$  or  $H^3$ </td></tr><tr><td>2.21</td><td>1H, ddd, J 14, 3, 1.5</td><td>2.21 and 1.87 are  $CH_2$ </td><td> $H^2$  or  $H^3$ </td></tr><tr><td>2.87</td><td>1H, dd, J 10, 3</td><td>must be axial H (10 Hz)</td><td> $H^4$  or  $H^5$ </td></tr><tr><td>3.40</td><td>3H, s</td><td>one OMe group</td><td>OMe</td></tr><tr><td>3.47</td><td>3H, s</td><td>the other OMe group</td><td>OMe</td></tr><tr><td>3.99</td><td>1H, dq, J 10, 6</td><td>q means  $H^6$  (axial)</td><td> $H^6$ </td></tr><tr><td>4.24</td><td>1H, ddd, J 3, 3, 3.5</td><td>small J must be equatorial</td><td> $H^4$  or  $H^5$ </td></tr><tr><td>4.79</td><td>1H, dd, J 3.5, 1.5</td><td>small J must be equatorial</td><td> $H^1$ </td></tr></table>
+| Signal | Integral and splitting | Comments | Assignment |
+| --- | --- | --- | --- |
+| 1.33 | 3H, d, J 6 | 3H, d must be CHMe | $Me^7$ |
+| 1.61* | 1H broad s | exchanges so must be OH | OH |
+| 1.87 | 1H, ddd, J 14, 3, 3.5 | 14 Hz looks like $CH_2$ | $H^2$ or $H^3$ |
+| 2.21 | 1H, ddd, J 14, 3, 1.5 | 2.21 and 1.87 are $CH_2$ | $H^2$ or $H^3$ |
+| 2.87 | 1H, dd, J 10, 3 | must be axial H (10 Hz) | $H^4$ or $H^5$ |
+| 3.40 | 3H, s | one OMe group | OMe |
+| 3.47 | 3H, s | the other OMe group | OMe |
+| 3.99 | 1H, dq, J 10, 6 | q means $H^6$ (axial) | $H^6$ |
+| 4.24 | 1H, ddd, J 3, 3, 3.5 | small J must be equatorial | $H^4$ or $H^5$ |
+| 4.79 | 1H, dd, J 3.5, 1.5 | small J must be equatorial | $H^1$ |
 
 ![](课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_200-399_images/b0ee828c5344f6349ce15228b9ebaca2199d98f21c8d87ad95ff478b3612862b.jpg)
 

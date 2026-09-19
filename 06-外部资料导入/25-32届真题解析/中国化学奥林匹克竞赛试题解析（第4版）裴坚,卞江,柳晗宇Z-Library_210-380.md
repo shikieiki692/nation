@@ -376,7 +376,16 @@ $$
 
 将 2 mol C(s)、2 mol $H_{2}O(g)$ 、2 mol CaO(s) 放入气化炉，在 850℃ 下发生反应。已知 850℃ 下相关物种的热力学参数：
 
-<table><tr><td>物质</td><td> $\Delta_f H_m^\ominus/(\mathrm{kJ} \mathrm{mol}^{-1})$ </td><td> $S_m^\ominus/(J \mathrm{mol}^{-1} K^{-1})$ </td></tr><tr><td>C(s)</td><td>8.70</td><td>21.04</td></tr><tr><td>CO(g)</td><td>-93.65</td><td>229.22</td></tr><tr><td>CO2(g)</td><td>-368.1</td><td>260.49</td></tr><tr><td>CaO(s)</td><td>-606.97</td><td>90.58</td></tr><tr><td>CaCO3(s)</td><td>-1147.40</td><td>196.92</td></tr><tr><td>H2(g)</td><td>16.21</td><td>161.08</td></tr><tr><td>H2O(g)</td><td>-221.76</td><td>226.08</td></tr><tr><td>CH4(g)</td><td>-46.94</td><td>236.16</td></tr></table>
+| 物质 | $\Delta_f H_m^\ominus/(\mathrm{kJ} \mathrm{mol}^{-1})$ | $S_m^\ominus/(J \mathrm{mol}^{-1} K^{-1})$ |
+| --- | --- | --- |
+| C(s) | 8.70 | 21.04 |
+| CO(g) | -93.65 | 229.22 |
+| CO2(g) | -368.1 | 260.49 |
+| CaO(s) | -606.97 | 90.58 |
+| CaCO3(s) | -1147.40 | 196.92 |
+| H2(g) | 16.21 | 161.08 |
+| H2O(g) | -221.76 | 226.08 |
+| CH4(g) | -46.94 | 236.16 |
 
 4-1 计算气化炉总压为 $2.50 \times 10^{6}$ Pa 时， $H_{2}$ 在平衡混合气中的摩尔分数。
 
@@ -2992,7 +3001,9 @@ $$
 
 在 $y$ 取相应的值时， $M(\mathbf{X})$ 计算结果如下表：
 
-<table><tr><td>y</td><td>6</td><td>7</td><td>8</td><td>9</td></tr><tr><td> $M(\mathbf{X})/(g\ \mathrm{mol}^{-1})$ </td><td>94</td><td>88</td><td>82</td><td>76</td></tr></table>
+| y | 6 | 7 | 8 | 9 |
+| --- | --- | --- | --- | --- |
+| $M(\mathbf{X})/(g\ \mathrm{mol}^{-1})$ | 94 | 88 | 82 | 76 |
 
 显然 y = 7, X 为草酸根为唯一答案, 即 A 为 $\mathrm{Bi}_{2}(\mathrm{C}_{2}\mathrm{O}_{4})_{3} \cdot 7\mathrm{H}_{2}\mathrm{O}$ 。
 
@@ -3400,7 +3411,18 @@ $$
 
 表5-2
 
-<table><tr><td>[ATF]/( $10^{-3}$  mol dm $^{-3}$ )</td><td>[H $^{+}$ ]/(mol dm $^{-3}$ )</td><td> $k_{\text{表}}$ /( $10^{-4}$  s $^{-1}$ )</td></tr><tr><td>3.0</td><td>0.5</td><td>16.2</td></tr><tr><td>4.0</td><td>0.5</td><td>19.4</td></tr><tr><td>5.0</td><td>0.5</td><td>24.3</td></tr><tr><td>7.0</td><td>0.5</td><td>32.5</td></tr><tr><td>9.0</td><td>0.5</td><td>40.9</td></tr><tr><td>6.0</td><td>0.2</td><td>46.1</td></tr><tr><td>6.0</td><td>0.3</td><td>39.9</td></tr><tr><td>6.0</td><td>0.4</td><td>34.2</td></tr><tr><td>6.0</td><td>0.6</td><td>24.9</td></tr><tr><td>6.0</td><td>0.8</td><td>18.5</td></tr></table>
+| [ATF]/( $10^{-3}$ mol dm $^{-3}$ ) | [H $^{+}$ ]/(mol dm $^{-3}$ ) | $k_{\text{表}}$ /( $10^{-4}$ s $^{-1}$ ) |
+| --- | --- | --- |
+| 3.0 | 0.5 | 16.2 |
+| 4.0 | 0.5 | 19.4 |
+| 5.0 | 0.5 | 24.3 |
+| 7.0 | 0.5 | 32.5 |
+| 9.0 | 0.5 | 40.9 |
+| 6.0 | 0.2 | 46.1 |
+| 6.0 | 0.3 | 39.9 |
+| 6.0 | 0.4 | 34.2 |
+| 6.0 | 0.6 | 24.9 |
+| 6.0 | 0.8 | 18.5 |
 
 结果表明, $\mathrm{Ce(IV)}$ 氧化 ATF 的反应是自由基反应。在题给酸度条件下, $\mathrm{Ce(III)}$ 不水解,于是提出如下反应机理:
 
@@ -3918,7 +3940,9 @@ $$
 
 将数据代入上式,得到以下结果:
 
-<table><tr><td>物种</td><td> $Ce(OH)^{3+}$ </td><td> $Ce(OH)_2^{2+}$ </td><td> $Ce(OH)_3^+$ </td><td> $Ce(OH)_4$ </td></tr><tr><td> $\Delta_f G_m^\ominus/(\mathrm{kJ} \mathrm{mol}^{-1})$ </td><td>-745.24</td><td>-978.25</td><td>-1206.74</td><td>-1428.61</td></tr></table>
+| 物种 | $Ce(OH)^{3+}$ | $Ce(OH)_2^{2+}$ | $Ce(OH)_3^+$ | $Ce(OH)_4$ |
+| --- | --- | --- | --- | --- |
+| $\Delta_f G_m^\ominus/(\mathrm{kJ} \mathrm{mol}^{-1})$ | -745.24 | -978.25 | -1206.74 | -1428.61 |
 
 ## 5-1-4 根据Nernst方程
 
@@ -4380,7 +4404,10 @@ $$
 
 为使处理过程简洁方便,计算中请务必使用以下约定符号!在平衡表达式中默认各分压项均除以标准分压。
 
-<table><tr><td>体系</td><td> $I_2(g)$ </td><td> $I_2(g)$ </td><td>I(g)</td><td> $H_2(g)$ </td><td> $H_2(g)$ </td><td>H(g)</td><td>HI(g)</td></tr><tr><td>总压</td><td>起始分压</td><td>平衡分压</td><td>平衡分压</td><td>起始分压</td><td>平衡分压</td><td>平衡分压</td><td>平衡分压</td></tr><tr><td> $p_1$ </td><td> $x_0$ </td><td> $x_1$ </td><td> $x_2$ </td><td> $y_0$ </td><td> $y_1$ </td><td> $y_2$ </td><td>z</td></tr></table>
+| 体系 | $I_2(g)$ | $I_2(g)$ | I(g) | $H_2(g)$ | $H_2(g)$ | H(g) | HI(g) |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 总压 | 起始分压 | 平衡分压 | 平衡分压 | 起始分压 | 平衡分压 | 平衡分压 | 平衡分压 |
+| $p_1$ | $x_0$ | $x_1$ | $x_2$ | $y_0$ | $y_1$ | $y_2$ | z |
 
 ## 第 7 题(10 分)
 

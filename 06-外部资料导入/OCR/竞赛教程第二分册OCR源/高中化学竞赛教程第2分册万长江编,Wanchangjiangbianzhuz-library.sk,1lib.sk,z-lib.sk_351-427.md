@@ -1017,7 +1017,16 @@ $$
 
 表木浆纤维在离子液体中的溶解性
 
-<table><tr><td>离子液体</td><td>溶解条件</td><td>溶解度(质量分数%)</td></tr><tr><td> $[C_4\ min]Cl$ </td><td>加热到100°C</td><td>10%</td></tr><tr><td> $[C_4\ min]Cl$ </td><td>微波加热</td><td>25%, 清澈透明</td></tr><tr><td> $[C_4\ min]Br$ </td><td>微波加热</td><td>5%~7%</td></tr><tr><td> $[C_4\ min]SCN$ </td><td>微波加热</td><td>5%~7%</td></tr><tr><td> $[C_4\ min][BF_4]$ </td><td>微波加热</td><td>不溶解</td></tr><tr><td> $[C_4\ min][PF_4]$ </td><td>微波加热</td><td>不溶解</td></tr><tr><td> $[C_6\ min]Cl$ </td><td>微波加热</td><td>5%</td></tr><tr><td> $[C_8\ min]Cl$ </td><td>微波加热</td><td>微溶</td></tr></table>
+| 离子液体 | 溶解条件 | 溶解度(质量分数%) |
+| --- | --- | --- |
+| $[C_4\ min]Cl$ | 加热到100°C | 10% |
+| $[C_4\ min]Cl$ | 微波加热 | 25%, 清澈透明 |
+| $[C_4\ min]Br$ | 微波加热 | 5%~7% |
+| $[C_4\ min]SCN$ | 微波加热 | 5%~7% |
+| $[C_4\ min][BF_4]$ | 微波加热 | 不溶解 |
+| $[C_4\ min][PF_4]$ | 微波加热 | 不溶解 |
+| $[C_6\ min]Cl$ | 微波加热 | 5% |
+| $[C_8\ min]Cl$ | 微波加热 | 微溶 |
 
 表中 $\left[\mathrm{C}_{4} \min\right] \mathrm{Cl}$ 是 1—(正)丁基-3—甲基咪唑正一价离子的代号,“咪唑”的结构如右上图所示。
 

@@ -531,7 +531,9 @@ $$
 
 解 整理已知数据,所得结果列于下表中:
 
-<table><tr><td>p/kPa</td><td>101.3</td><td>67.54</td><td>50.65</td><td>33.76</td><td>25.33</td></tr><tr><td> $\frac{\rho / p}{g \cdot \mathrm{dm}^{-3} \cdot kPa^{-1}}$ </td><td>0.02277</td><td>0.02259</td><td>0.02251</td><td>0.02243</td><td>0.02237</td></tr></table>
+| p/kPa | 101.3 | 67.54 | 50.65 | 33.76 | 25.33 |
+| --- | --- | --- | --- | --- | --- |
+| $\frac{\rho / p}{g \cdot \mathrm{dm}^{-3} \cdot kPa^{-1}}$ | 0.02277 | 0.02259 | 0.02251 | 0.02243 | 0.02237 |
 
 根据表中数据，以 $\frac{\rho / p}{\mathrm{g} \cdot \mathrm{dm}^{-3} \cdot \mathrm{kPa}^{-1}}$ 对 $(p / \mathrm{kPa})$ 作图，外延至 $p / \mathrm{kPa} \approx 0$ 时， $\rho / p = 0.02225 \mathrm{~g} \cdot \mathrm{dm}^{-3} \cdot \mathrm{kPa}^{-1}$ 。
 
@@ -605,7 +607,9 @@ $O_{2}$ 钢瓶内为高压气体,随着消耗,气体分子数减少而压力下�
 
 解 (1)
 
-<table><tr><td> $\frac{1}{T} \times 10^{3}/K^{-1}$ </td><td>6.67</td><td>5.00</td><td>4.44</td><td>4.00</td></tr><tr><td>lg(p/kPa)</td><td>-0.293</td><td>1.422</td><td>1.994</td><td>2.442</td></tr></table>
+| $\frac{1}{T} \times 10^{3}/K^{-1}$ | 6.67 | 5.00 | 4.44 | 4.00 |
+| --- | --- | --- | --- | --- |
+| lg(p/kPa) | -0.293 | 1.422 | 1.994 | 2.442 |
 
 ![](普通化学原理（第4版）习题解析北京大学化学学院普通化学原理教学组编z-library.sk,1lib.sk,z-lib.sk_images/47ca8bad6404b2dd0babc9ec77aefbd362bdd4d1580f6e5955aa18787ec4239a.jpg)
 
@@ -632,7 +636,12 @@ $$
 3.4 参考附录 C.1 的数据,作图求水的摩尔蒸发热,并求 $51.0^{\circ}$ C 时水的蒸气压。
 解 由附录 C.1 得到下列数据：
 
-<table><tr><td>t/°C</td><td>20</td><td>30</td><td>40</td><td>50</td><td>60</td><td>70</td><td>80</td></tr><tr><td>T/K</td><td>293</td><td>303</td><td>313</td><td>323</td><td>333</td><td>343</td><td>353</td></tr><tr><td> $\frac{1}{T} \times 10^3 /K^{-1}$ </td><td>3.41</td><td>3.30</td><td>3.19</td><td>3.10</td><td>3.00</td><td>3.92</td><td>2.83</td></tr><tr><td>p/kPa</td><td>2.34</td><td>4.25</td><td>7.38</td><td>12.35</td><td>19.95</td><td>31.20</td><td>47.41</td></tr><tr><td>lg(p/kPa)</td><td>0.369</td><td>0.627</td><td>0.868</td><td>1.091</td><td>1.300</td><td>1.494</td><td>1.676</td></tr></table>
+| t/°C | 20 | 30 | 40 | 50 | 60 | 70 | 80 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| T/K | 293 | 303 | 313 | 323 | 333 | 343 | 353 |
+| $\frac{1}{T} \times 10^3 /K^{-1}$ | 3.41 | 3.30 | 3.19 | 3.10 | 3.00 | 3.92 | 2.83 |
+| p/kPa | 2.34 | 4.25 | 7.38 | 12.35 | 19.95 | 31.20 | 47.41 |
+| lg(p/kPa) | 0.369 | 0.627 | 0.868 | 1.091 | 1.300 | 1.494 | 1.676 |
 
 以 $\lg (p / \mathrm{kPa})$ 对 $(T^{-1}\times 10^{3} / \mathrm{K}^{-1})$ 作图。
 
@@ -764,7 +773,9 @@ $$
 
 当开始有液相出现时,此压力又等于该温度下水的饱和蒸气压 $p(\mathrm{H}_{2}\mathrm{O})$ 。按附录 C.1 中 $p(\mathrm{H}_{2}\mathrm{O})-t$ 数据,得到下表:
 
-<table><tr><td>t/°C</td><td>90</td><td>92</td><td>94</td><td>96</td></tr><tr><td> $\frac{p(H_2O)/T}{kPa \cdot K^{-1}}$ </td><td>0.193</td><td>0.207</td><td>0.222</td><td>0.238</td></tr></table>
+| t/°C | 90 | 92 | 94 | 96 |
+| --- | --- | --- | --- | --- |
+| $\frac{p(H_2O)/T}{kPa \cdot K^{-1}}$ | 0.193 | 0.207 | 0.222 | 0.238 |
 
 据上表中数据，以 $\frac{p(\mathrm{H}_2\mathrm{O}) / T}{\mathrm{kPa}\cdot\mathrm{K}^{-1}}$ 对 $\frac{t}{^\circ\text{C}}$ 作图，求得 $p(\mathrm{H}_2\mathrm{O}) / T = 0.23\mathrm{kPa}\cdot \mathrm{K}^{-1}$ 时的温度为 $95^{\circ}\mathrm{C}$ ，此即水汽刚开始凝聚为液相的温度。
 
@@ -931,7 +942,12 @@ $$
 
 4.3 下表所列几种商品溶液都是常用试剂,分别计算它们的物质的量浓度 $(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ 和摩尔分数:
 
-<table><tr><td></td><td>溶质</td><td>w(溶质)</td><td>ρ/(g·cm-3)</td></tr><tr><td>(1)浓盐酸</td><td>HCl</td><td>37%</td><td>1.19</td></tr><tr><td>(2)浓硫酸</td><td> $H_2SO_4$ </td><td>98%</td><td>1.84</td></tr><tr><td>(3)浓硝酸</td><td> $HNO_3$ </td><td>70%</td><td>1.42</td></tr><tr><td>(4)浓氨水</td><td> $NH_3$ </td><td>28%</td><td>0.90</td></tr></table>
+|  | 溶质 | w(溶质) | ρ/(g·cm-3) |
+| --- | --- | --- | --- |
+| (1)浓盐酸 | HCl | 37% | 1.19 |
+| (2)浓硫酸 | $H_2SO_4$ | 98% | 1.84 |
+| (3)浓硝酸 | $HNO_3$ | 70% | 1.42 |
+| (4)浓氨水 | $NH_3$ | 28% | 0.90 |
 
 解
 
@@ -1452,7 +1468,10 @@ $$
 
 5.3 大豆所含脂肪、蛋白质、碳水化合物和水分的组成如下, 它们的发热量也一并列出。计算 100 g 大豆在人体代谢过程中的总发热量。
 
-<table><tr><td></td><td>脂肪</td><td>蛋白质</td><td>碳水化合物</td><td>水分</td></tr><tr><td>质量分数  $w_b/(%)$ </td><td>17.2</td><td>37.0</td><td>28.0</td><td>17.8</td></tr><tr><td>发热量  $Q/(\mathrm{kJ}·g^{-1})$ </td><td>38</td><td>17</td><td>17</td><td>—</td></tr></table>
+|  | 脂肪 | 蛋白质 | 碳水化合物 | 水分 |
+| --- | --- | --- | --- | --- |
+| 质量分数 $w_b/(%)$ | 17.2 | 37.0 | 28.0 | 17.8 |
+| 发热量 $Q/(\mathrm{kJ}·g^{-1})$ | 38 | 17 | 17 | — |
 
 解 100 g 大豆总发热量为
 
@@ -2214,7 +2233,10 @@ $$
 
 6.6 根据以下数据,计算甲醇和一氧化碳化合生成醋酸反应的 $K^{\ominus}(298\mathrm{K})$ 。
 
-<table><tr><td></td><td> $CH_3OH(g)$ </td><td>CO(g)</td><td> $CH_3COOH(g)$ </td></tr><tr><td> $\Delta H_f^\ominus/(\mathrm{kJ}\cdot\mathrm{mol}^{-1})$ </td><td>-200.8</td><td>-110.5</td><td>-435</td></tr><tr><td> $S^\ominus/(\mathrm{J}\cdot\mathrm{mol}^{-1}·\mathrm{K}^{-1})$ </td><td>+238</td><td>+198</td><td>+293</td></tr></table>
+|  | $CH_3OH(g)$ | CO(g) | $CH_3COOH(g)$ |
+| --- | --- | --- | --- |
+| $\Delta H_f^\ominus/(\mathrm{kJ}\cdot\mathrm{mol}^{-1})$ | -200.8 | -110.5 | -435 |
+| $S^\ominus/(\mathrm{J}\cdot\mathrm{mol}^{-1}·\mathrm{K}^{-1})$ | +238 | +198 | +293 |
 
 解 $\mathrm{CH}_3\mathrm{OH(g)} + \mathrm{CO(g)}\rightleftharpoons \mathrm{CH}_3\mathrm{COOH(g)}$
 
@@ -2440,11 +2462,15 @@ $$
 
 6.15 按下列数据, 将反应 $2\mathrm{SO}_{2}(\mathrm{~g}) + \mathrm{O}_{2}(\mathrm{~g}) \rightleftharpoons 2\mathrm{SO}_{3}(\mathrm{~g})$ 的 $\lg K^{\ominus}$ 对 $T^{-1}$ 作图, 求反应热。
 
-<table><tr><td>T/K</td><td>800</td><td>900</td><td>1000</td><td>1100</td><td>1170</td></tr><tr><td> $K^{\ominus}$ </td><td>910</td><td>42</td><td>3.2</td><td>0.39</td><td>0.12</td></tr></table>
+| T/K | 800 | 900 | 1000 | 1100 | 1170 |
+| --- | --- | --- | --- | --- | --- |
+| $K^{\ominus}$ | 910 | 42 | 3.2 | 0.39 | 0.12 |
 
 解
 
-<table><tr><td> $lgK^{\ominus}$ </td><td>2.96</td><td>1.62</td><td>0.51</td><td>-0.41</td><td>-0.92</td></tr><tr><td> $T^{-1} \times 10^{3}/K^{-1}$ </td><td>1.25</td><td>1.11</td><td>1.00</td><td>0.91</td><td>0.86</td></tr></table>
+| $lgK^{\ominus}$ | 2.96 | 1.62 | 0.51 | -0.41 | -0.92 |
+| --- | --- | --- | --- | --- | --- |
+| $T^{-1} \times 10^{3}/K^{-1}$ | 1.25 | 1.11 | 1.00 | 0.91 | 0.86 |
 
 以 $\lg K^{\ominus}$ 对 $(T^{-1} \times 10^{3}/K^{-1})$ 作图，且其中：
 
@@ -2856,7 +2882,9 @@ $$
 
 7.2 $\mathrm{N}_2\mathrm{O}_5$ 的分解反应是 $2\mathrm{N}_2\mathrm{O}_5 \longrightarrow 4\mathrm{NO}_2 + \mathrm{O}_2$ ，由实验测得在 $67^{\circ}\mathrm{C}$ 时 $\mathrm{N}_2\mathrm{O}_5$ 的浓度随时间的变化如下：
 
-<table><tr><td>t/ min</td><td>0.0</td><td>1.0</td><td>2.0</td><td>3.0</td><td>4.0</td><td>5.0</td></tr><tr><td> $c(N_2O_5)/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ </td><td>1.00</td><td>0.71</td><td>0.50</td><td>0.35</td><td>0.25</td><td>0.17</td></tr></table>
+| t/ min | 0.0 | 1.0 | 2.0 | 3.0 | 4.0 | 5.0 |
+| --- | --- | --- | --- | --- | --- | --- |
+| $c(N_2O_5)/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ | 1.00 | 0.71 | 0.50 | 0.35 | 0.25 | 0.17 |
 
 试计算：
 
@@ -2926,7 +2954,12 @@ $$
 
 解
 
-<table><tr><td>t/min</td><td>0</td><td>20</td><td>60</td><td>100</td><td>160</td></tr><tr><td> $c(S)/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ </td><td>1.00</td><td>0.90</td><td>0.70</td><td>0.50</td><td>0.20</td></tr><tr><td> $lg\frac{c(S)}{\mathrm{mol}\cdot\mathrm{dm}^{-3}}$ </td><td>0</td><td>-0.046</td><td>-0.15</td><td>-0.30</td><td>-0.70</td></tr><tr><td> $c^{-1}(S)/(\mathrm{mol}\cdot\mathrm{dm}^{-3})^{-1}$ </td><td>1.0</td><td>1.1</td><td>1.4</td><td>2.0</td><td>5.0</td></tr><tr><td> $c^{-2}(S)/(\mathrm{mol}\cdot\mathrm{dm}^{-3})^{-2}$ </td><td>1.0</td><td>1.2</td><td>2.0</td><td>4.0</td><td>25</td></tr></table>
+| t/min | 0 | 20 | 60 | 100 | 160 |
+| --- | --- | --- | --- | --- | --- |
+| $c(S)/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ | 1.00 | 0.90 | 0.70 | 0.50 | 0.20 |
+| $lg\frac{c(S)}{\mathrm{mol}\cdot\mathrm{dm}^{-3}}$ | 0 | -0.046 | -0.15 | -0.30 | -0.70 |
+| $c^{-1}(S)/(\mathrm{mol}\cdot\mathrm{dm}^{-3})^{-1}$ | 1.0 | 1.1 | 1.4 | 2.0 | 5.0 |
+| $c^{-2}(S)/(\mathrm{mol}\cdot\mathrm{dm}^{-3})^{-2}$ | 1.0 | 1.2 | 2.0 | 4.0 | 25 |
 
 以 $\frac{c(S)}{\mathrm{mol}\cdot\mathrm{dm}^{-3}}$ 对 $\frac{t}{\min}$ 作图，即图（a）；以 $\frac{c^{-1}(S)}{(\mathrm{mol}\cdot\mathrm{dm}^{-3})^{-1}}$ 对 $\frac{t}{\min}$ 作图，即图（b）；以 $\frac{c^{-2}(S)}{(\mathrm{mol}\cdot\mathrm{dm}^{-3})^{-2}}$ 对 $\frac{t}{\min}$ 作图，即图（c）；以 $\lg \frac{c(S)}{\mathrm{mol}\cdot\mathrm{dm}^{-3}}$ 对 $\frac{t}{\min}$ 作图，即图（d）。
 
@@ -2942,13 +2975,20 @@ $$
 
 7.6 一个密闭容器中，在 $504^{\circ} \mathrm{C}$ 二甲醚按 $(\mathrm{CH}_3)_2 \mathrm{O}(\mathrm{g}) \longrightarrow \mathrm{CH}_4(\mathrm{g}) + \mathrm{H}_2(\mathrm{g}) + \mathrm{CO}(\mathrm{g})$ 式分解，测得二甲醚的分压随时间的变化如下表所示：
 
-<table><tr><td>t/s</td><td>0</td><td>390</td><td>777</td><td>1195</td><td>3155</td></tr><tr><td> $p((CH_3)_2O)/kPa$ </td><td>41.6</td><td>35.2</td><td>29.9</td><td>24.9</td><td>10.5</td></tr></table>
+| t/s | 0 | 390 | 777 | 1195 | 3155 |
+| --- | --- | --- | --- | --- | --- |
+| $p((CH_3)_2O)/kPa$ | 41.6 | 35.2 | 29.9 | 24.9 | 10.5 |
 
 试求：（1）反应级数；（2）速率常数；（3）在第1000s时气体总压力。
 
 解
 
-<table><tr><td>t/s</td><td>0</td><td>390</td><td>777</td><td>1195</td><td>3155</td></tr><tr><td>p/kPa</td><td>41.6</td><td>35.2</td><td>29.9</td><td>24.9</td><td>10.5</td></tr><tr><td>lg(p/kPa)</td><td>1.62</td><td>1.55</td><td>1.48</td><td>1.40</td><td>1.02</td></tr><tr><td> $p^{-1} \times 10^{2}/(\mathrm{kPa})^{-1}$ </td><td>2.40</td><td>2.84</td><td>3.34</td><td>4.02</td><td>9.52</td></tr><tr><td> $p^{-2} \times 10^{4}/(\mathrm{kPa})^{-2}$ </td><td>5.78</td><td>8.07</td><td>11.2</td><td>16.1</td><td>90.7</td></tr></table>
+| t/s | 0 | 390 | 777 | 1195 | 3155 |
+| --- | --- | --- | --- | --- | --- |
+| p/kPa | 41.6 | 35.2 | 29.9 | 24.9 | 10.5 |
+| lg(p/kPa) | 1.62 | 1.55 | 1.48 | 1.40 | 1.02 |
+| $p^{-1} \times 10^{2}/(\mathrm{kPa})^{-1}$ | 2.40 | 2.84 | 3.34 | 4.02 | 9.52 |
+| $p^{-2} \times 10^{4}/(\mathrm{kPa})^{-2}$ | 5.78 | 8.07 | 11.2 | 16.1 | 90.7 |
 
 (1) 以 $(p / \mathrm{kPa})$ 对 $(t / \mathrm{s})$ 作图，即图 (a)；以 $\lg (p / \mathrm{kPa})$ 对 $(t / \mathrm{s})$ 作图，即图 (b)；以 $p^{-1} \times 10^{2} / (\mathrm{kPa})^{-1}$ 对 $(t / \mathrm{s})$ 作图，即图 (c)；以 $p^{-2} \times 10^{4} / (\mathrm{kPa})^{-2}$ 对 $(t / \mathrm{s})$ 作图，即图 (d)。
 
@@ -2980,7 +3020,11 @@ $$
 
 由 $\mathrm{Hg_2Cl_2}$ 沉淀量可以计算反应速率，4次实验数据如下：
 
-<table><tr><td></td><td>实验一</td><td>实验二</td><td>实验三</td><td>实验四</td></tr><tr><td> $c(HgCl_2)/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ </td><td>0.105</td><td>0.105</td><td>0.052</td><td>0.052</td></tr><tr><td> $c(C_2O_4^{2-})/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ </td><td>0.15</td><td>0.30</td><td>0.30</td><td>0.15</td></tr><tr><td> $\frac{-dc(C_2O_4^{2-})/dt}{\mathrm{mol}\cdot\mathrm{dm}^{-3}·\mathrm{s}^{-1}}$ </td><td> $1.8\times 10^{-5}$ </td><td> $7.1\times 10^{-5}$ </td><td> $3.5\times 10^{-5}$ </td><td> $8.9\times 10^{-6}$ </td></tr></table>
+|  | 实验一 | 实验二 | 实验三 | 实验四 |
+| --- | --- | --- | --- | --- |
+| $c(HgCl_2)/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ | 0.105 | 0.105 | 0.052 | 0.052 |
+| $c(C_2O_4^{2-})/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ | 0.15 | 0.30 | 0.30 | 0.15 |
+| $\frac{-dc(C_2O_4^{2-})/dt}{\mathrm{mol}\cdot\mathrm{dm}^{-3}·\mathrm{s}^{-1}}$ | $1.8\times 10^{-5}$ | $7.1\times 10^{-5}$ | $3.5\times 10^{-5}$ | $8.9\times 10^{-6}$ |
 
 试求：（1） $HgCl_{2}$ 、 $C_{2}O_{4}^{2-}$ 及总反应的级数各是多少？
 
@@ -3040,7 +3084,10 @@ $$
 
 按此式计算 $p$ 随时间的变化，列于下表：
 
-<table><tr><td>t/s</td><td>0</td><td>105</td><td>190</td><td>310</td><td>480</td><td>665</td></tr><tr><td>p/kPa</td><td>48.4</td><td>38.6</td><td>33.2</td><td>27.9</td><td>22.6</td><td>18.6</td></tr><tr><td> $p^{-1} \times 10^{2}/(\mathrm{kPa})^{-1}$ </td><td>2.07</td><td>2.59</td><td>3.01</td><td>3.58</td><td>4.42</td><td>5.38</td></tr></table>
+| t/s | 0 | 105 | 190 | 310 | 480 | 665 |
+| --- | --- | --- | --- | --- | --- | --- |
+| p/kPa | 48.4 | 38.6 | 33.2 | 27.9 | 22.6 | 18.6 |
+| $p^{-1} \times 10^{2}/(\mathrm{kPa})^{-1}$ | 2.07 | 2.59 | 3.01 | 3.58 | 4.42 | 5.38 |
 
 由右图可见， $\frac{p^{-1}\times10^{2}}{(kPa)^{-1}}-\frac{t}{s}$ 图是一条直线，为二级反应，且其中
 
@@ -3114,11 +3161,15 @@ $$
 
 7.12 在不同温度测定 $\mathrm{H}_{2} + \mathrm{I}_{2}\longrightarrow 2\mathrm{HI}$ 的反应速率常数如下表所示：
 
-<table><tr><td>T/K</td><td>556</td><td>629</td><td>666</td><td>700</td><td>781</td></tr><tr><td> $k/(\mathrm{mol}^{-1} \cdot \mathrm{dm}^{3} \cdot \mathrm{s}^{-1})$ </td><td> $4.45 \times 10^{-5}$ </td><td> $2.52 \times 10^{-3}$ </td><td> $1.41 \times 10^{-2}$ </td><td> $6.43 \times 10^{-2}$ </td><td>1.24</td></tr></table>
+| T/K | 556 | 629 | 666 | 700 | 781 |
+| --- | --- | --- | --- | --- | --- |
+| $k/(\mathrm{mol}^{-1} \cdot \mathrm{dm}^{3} \cdot \mathrm{s}^{-1})$ | $4.45 \times 10^{-5}$ | $2.52 \times 10^{-3}$ | $1.41 \times 10^{-2}$ | $6.43 \times 10^{-2}$ | 1.24 |
 
 试用作图法求反应活化能,并求在 $300^{\circ}$ C 和 $400^{\circ}$ C 的速率常数各是多少?
 
-<table><tr><td> $T^{-1} \times 10^{3}/K^{-1}$ </td><td>1.80</td><td>1.59</td><td>1.50</td><td>1.43</td><td>1.28</td></tr><tr><td> $lg\frac{k}{(\mathrm{mol}^{-1} \cdot \mathrm{dm}^{3} \cdot \mathrm{s}^{-1})}$ </td><td>-4.352</td><td>-2.599</td><td>-1.851</td><td>-1.192</td><td>0.0934</td></tr></table>
+| $T^{-1} \times 10^{3}/K^{-1}$ | 1.80 | 1.59 | 1.50 | 1.43 | 1.28 |
+| --- | --- | --- | --- | --- | --- |
+| $lg\frac{k}{(\mathrm{mol}^{-1} \cdot \mathrm{dm}^{3} \cdot \mathrm{s}^{-1})}$ | -4.352 | -2.599 | -1.851 | -1.192 | 0.0934 |
 
 ![](普通化学原理（第4版）习题解析北京大学化学学院普通化学原理教学组编z-library.sk,1lib.sk,z-lib.sk_images/c3701cb9c79587b42138519d8ecac2784cc86cff89b6d7f0f5de23b2c0ee08b2.jpg)
 
@@ -3673,7 +3724,11 @@ $\mathrm{pH} = 13.0$ 时： $\mathrm{pH} > \mathrm{pK}_2$ ，以 $\mathrm{CO_3^{
 
 由 $[\mathrm{In}^{-}] / [\mathrm{HIn}] = K_{\mathrm{a}} / [\mathrm{H}^{+}]$ ，计算不同 $\mathrm{pH}$ 下 $[\mathrm{In}^{-}] / [\mathrm{HIn}]$ 比值（见下表），其变色范围为 $\mathrm{pK}_{\mathrm{a}} \pm 1$ （ $\mathrm{pH}7 \sim 9$ ）。
 
-<table><tr><td>pH</td><td>6</td><td>7</td><td>8</td><td>9</td><td>12</td></tr><tr><td> $[H^{+}]/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ </td><td> $1\times 10^{-6}$ </td><td> $1\times 10^{-7}$ </td><td> $1\times 10^{-8}$ </td><td> $1\times 10^{-9}$ </td><td> $1\times 10^{-12}$ </td></tr><tr><td> $[In^{-}]/[HIn]$ </td><td> $1\times 10^{-2}$ </td><td> $1\times 10^{-1}$ </td><td>1</td><td>10</td><td> $1\times 10^{4}$ </td></tr><tr><td>颜色</td><td>黄</td><td>黄</td><td>橙</td><td>红</td><td>红</td></tr></table>
+| pH | 6 | 7 | 8 | 9 | 12 |
+| --- | --- | --- | --- | --- | --- |
+| $[H^{+}]/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ | $1\times 10^{-6}$ | $1\times 10^{-7}$ | $1\times 10^{-8}$ | $1\times 10^{-9}$ | $1\times 10^{-12}$ |
+| $[In^{-}]/[HIn]$ | $1\times 10^{-2}$ | $1\times 10^{-1}$ | 1 | 10 | $1\times 10^{4}$ |
+| 颜色 | 黄 | 黄 | 橙 | 红 | 红 |
 
 8.15 下列各组水溶液等体积相混合时,哪些可以作为缓冲溶液,为什么?
 
@@ -3818,7 +3873,9 @@ $$
 
 解 将 4 种酸碱的 pK 列于下表：
 
-<table><tr><td></td><td>HAc</td><td> $H_2C_2O_4$ </td><td> $H_3PO_4$ </td><td></td><td> $NH_3·H_2O$ </td></tr><tr><td> $pK_a$ </td><td>4.76</td><td>1.25, 3.82</td><td>2.16, 7.21, 12.32</td><td> $pK_b$ </td><td>4.75</td></tr></table>
+|  | HAc | $H_2C_2O_4$ | $H_3PO_4$ |  | $NH_3·H_2O$ |
+| --- | --- | --- | --- | --- | --- |
+| $pK_a$ | 4.76 | 1.25, 3.82 | 2.16, 7.21, 12.32 | $pK_b$ | 4.75 |
 
 选 $H_{2}PO_{4}^{-}-HPO_{4}^{2-}$ 溶液为好，其 $pK_{a_{2}}=7.21$ ，接近所需配制的缓冲溶液的 pH(=7.51)。
 
@@ -3830,7 +3887,9 @@ $$
 
 解 有关的 $\mathrm{pK}$ 如下：
 
-<table><tr><td></td><td>HCOOH</td><td>HAc</td><td> $H_3PO_4$ </td></tr><tr><td> $pK_a$ </td><td>3.74</td><td>4.76</td><td>2.16, 7.21, 12.32</td></tr></table>
+|  | HCOOH | HAc | $H_3PO_4$ |
+| --- | --- | --- | --- |
+| $pK_a$ | 3.74 | 4.76 | 2.16, 7.21, 12.32 |
 
 选用 HCOOH-HCOONa 溶液为好, 其 $pK_{a}=3.7$ , 接近所需配制的缓冲溶液的 pH(3.50)。
 
@@ -4995,7 +5054,10 @@ $$
 E (\mathrm{Ag} ^ {+} / \mathrm{Ag}) = E ^ {\ominus} (\mathrm{Ag} ^ {+} / \mathrm{Ag}) + 0.0592 \mathrm{V} \times \lg [ \mathrm{Ag} ^ {+} ]
 $$
 
-<table><tr><td></td><td> $K_{sp}$ </td><td> $[Cl^-]或[I^-]/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ </td><td> $[Ag^+]/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ </td></tr><tr><td>AgCl</td><td> $1.77×10^{-10}$ </td><td>1.00</td><td> $1.77×10^{-10}$ </td></tr><tr><td>AgI</td><td> $8.52×10^{-17}$ </td><td>1.00</td><td> $8.52×10^{-17}$ </td></tr></table>
+|  | $K_{sp}$ | $[Cl^-]或[I^-]/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ | $[Ag^+]/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ |
+| --- | --- | --- | --- |
+| AgCl | $1.77×10^{-10}$ | 1.00 | $1.77×10^{-10}$ |
+| AgI | $8.52×10^{-17}$ | 1.00 | $8.52×10^{-17}$ |
 
 HCl: $E(\mathrm{Ag}^{+}/\mathrm{Ag})=0.80\mathrm{V}+0.0592\mathrm{V}\times\lg(1.77\times10^{-10})=0.22\mathrm{V}$ ，即 $E^{\ominus}(\mathrm{AgCl}/\mathrm{Ag})$ HI: $E'(\mathrm{Ag}^{+}/\mathrm{Ag})=0.80\mathrm{V}+0.0592\mathrm{V}\times\lg(8.52\times10^{-17})=-0.15\mathrm{V}$ ，即 $E^{\ominus}(\mathrm{AgI}/\mathrm{Ag})$ $E^{\ominus}(\mathrm{AgI}/\mathrm{Ag})<E^{\ominus}(\mathrm{H}^{+}/\mathrm{H}_{2}),\mathrm{Ag}$ 能和 $1\ \mathrm{mol}\cdot \mathrm{dm}^{-3}HI$ 起反应，反应方程式为
 
@@ -5433,7 +5495,9 @@ $$
 
 原子轨道和电子云的图像对于理解化学键和分子结构具有重要意义,教材中介绍了三种径向分布、两种角度分布以及总的电子云分布,它们分别是(见下表):
 
-<table><tr><td>径向分布</td><td>角度分布</td><td>总的电子云分布</td></tr><tr><td>电子云径向密度分布  $R^{2}(r)$ 电子云径向分布  $r^{2}R^{2}(r)$ 或  $D(r)$ 波函数径向分布  $R(r)$ </td><td>电子云角度分布  $Y^{2}(\theta,\phi)$ 波函数角度分布  $Y(\theta,\phi)$ </td><td>电子云空间分布  $\psi^{2}(r,\theta,\phi)$ </td></tr></table>
+| 径向分布 | 角度分布 | 总的电子云分布 |
+| --- | --- | --- |
+| 电子云径向密度分布 $R^{2}(r)$ 电子云径向分布 $r^{2}R^{2}(r)$ 或 $D(r)$ 波函数径向分布 $R(r)$ | 电子云角度分布 $Y^{2}(\theta,\phi)$ 波函数角度分布 $Y(\theta,\phi)$ | 电子云空间分布 $\psi^{2}(r,\theta,\phi)$ |
 
 这些图形的确切含义将在结构化学课程中详述。本课程仅要求对它们有初步了解，以便进一步学习化学键、周期律等基本知识。
 
@@ -5735,9 +5799,23 @@ $$
 
 ## 11.14 以(1)为范例,填充下表中各题的空白。
 
-<table><tr><td>元素符号</td><td>原子序数Z</td><td>电子构型</td></tr><tr><td>(1) Na</td><td>11</td><td> $1s^{2}2s^{2}2p^{6}3s^{1}$ </td></tr><tr><td>(2) —</td><td>—</td><td> $1s^{2}2s^{2}2p^{6}3s^{2}3p^{3}$ </td></tr><tr><td>(3) Zr</td><td>40</td><td>[Kr] $4d^{()}5s^{2}$ </td></tr><tr><td>(4) —</td><td>—</td><td>[Kr] $4d^{()}5s^{2}5p^{4}$ </td></tr><tr><td>(5) —</td><td>—</td><td>[Kr] $4d^{()}5s^{()}5p^{5}$ </td></tr><tr><td>(6) Bi</td><td>83</td><td>[Xe] $4f^{()}5d^{()}6s^{()}6p^{()}$ </td></tr></table>
+| 元素符号 | 原子序数Z | 电子构型 |
+| --- | --- | --- |
+| (1) Na | 11 | $1s^{2}2s^{2}2p^{6}3s^{1}$ |
+| (2) — | — | $1s^{2}2s^{2}2p^{6}3s^{2}3p^{3}$ |
+| (3) Zr | 40 | [Kr] $4d^{()}5s^{2}$ |
+| (4) — | — | [Kr] $4d^{()}5s^{2}5p^{4}$ |
+| (5) — | — | [Kr] $4d^{()}5s^{()}5p^{5}$ |
+| (6) Bi | 83 | [Xe] $4f^{()}5d^{()}6s^{()}6p^{()}$ |
 
-<table><tr><td>元素符号</td><td>原子序数Z</td><td>电子构型</td></tr><tr><td>(1) Na</td><td>11</td><td> $1s^{2}2s^{2}2p^{6}3s^{1}$ </td></tr><tr><td>(2) P</td><td>15</td><td> $1s^{2}2s^{2}2p^{6}3s^{2}3p^{3}$ </td></tr><tr><td>(3) Zr</td><td>40</td><td>[Kr] $4d^{(2)}5s^{2}$ </td></tr><tr><td>(4) Te</td><td>52</td><td>[Kr] $4d^{(10)}5s^{2}5p^{4}$ </td></tr><tr><td>(5) I</td><td>53</td><td>[Kr] $4d^{(10)}5s^{(2)}5p^{5}$ </td></tr><tr><td>(6) Bi</td><td>83</td><td>[Xe] $4f^{(14)}5d^{(10)}6s^{(2)}6p^{(3)}$ </td></tr></table>
+| 元素符号 | 原子序数Z | 电子构型 |
+| --- | --- | --- |
+| (1) Na | 11 | $1s^{2}2s^{2}2p^{6}3s^{1}$ |
+| (2) P | 15 | $1s^{2}2s^{2}2p^{6}3s^{2}3p^{3}$ |
+| (3) Zr | 40 | [Kr] $4d^{(2)}5s^{2}$ |
+| (4) Te | 52 | [Kr] $4d^{(10)}5s^{2}5p^{4}$ |
+| (5) I | 53 | [Kr] $4d^{(10)}5s^{(2)}5p^{5}$ |
+| (6) Bi | 83 | [Xe] $4f^{(14)}5d^{(10)}6s^{(2)}6p^{(3)}$ |
 
 ## 11.15 画出 V、Si、Fe 电子轨道图，并指出这些原子各有几个未成对电子？解
 
@@ -5748,7 +5826,12 @@ $$
 (1) 第四周期ⅣB族；(2) 第四周期ⅦB族；(3) 第五周期ⅦA族；(4) 第六周期ⅡA族。
 解
 
-<table><tr><td></td><td>价层电子构型</td><td>元素符号</td></tr><tr><td>(1)第四周期IVB族</td><td> $3d^{2}4s^{2}$ </td><td>Ti</td></tr><tr><td>(2)第四周期VII B族</td><td> $3d^{5}4s^{2}$ </td><td>Mn</td></tr><tr><td>(3)第五周期VII A族</td><td> $5s^{2}5p^{5}$ </td><td>I</td></tr><tr><td>(4)第六周期IIA族</td><td> $6s^{2}$ </td><td>Ba</td></tr></table>
+|  | 价层电子构型 | 元素符号 |
+| --- | --- | --- |
+| (1)第四周期IVB族 | $3d^{2}4s^{2}$ | Ti |
+| (2)第四周期VII B族 | $3d^{5}4s^{2}$ | Mn |
+| (3)第五周期VII A族 | $5s^{2}5p^{5}$ | I |
+| (4)第六周期IIA族 | $6s^{2}$ | Ba |
 
 11.17 价层电子构型满足下列条件之一的是哪一类或哪一种元素？
 
@@ -6152,7 +6235,13 @@ $$
 
 <table><tr><td></td><td>Be</td><td>B</td><td>C</td><td>N</td><td>O</td><td>F</td></tr><tr><td>元素的电子层结构</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>最外层的总轨道数</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>成键时的最高未配对电子数(即生成共价键数)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>成键后最高孤电子对对数</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>成键后余下的空轨道数</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
 
-<table><tr><td></td><td>Be</td><td>B</td><td>C</td><td>N</td><td>O</td><td>F</td></tr><tr><td>元素的电子层结构</td><td> $1s^{2}2s^{2}$ </td><td> $1s^{2}2s^{2}2p^{1}$ </td><td> $1s^{2}2s^{2}2p^{2}$ </td><td> $1s^{2}2s^{2}2p^{3}$ </td><td> $1s^{2}2s^{2}2p^{4}$ </td><td> $1s^{2}2s^{2}2p^{5}$ </td></tr><tr><td>最外层的总轨道数</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td><td>4</td></tr><tr><td>成键时的最高未配对电子数(即生成共价键数)</td><td>2</td><td>3</td><td>4</td><td>3</td><td>2</td><td>1</td></tr><tr><td>成键后最高孤电子对对数</td><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td><td>3</td></tr><tr><td>成键后余下的空轨道数</td><td>2</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></table>
+|  | Be | B | C | N | O | F |
+| --- | --- | --- | --- | --- | --- | --- |
+| 元素的电子层结构 | $1s^{2}2s^{2}$ | $1s^{2}2s^{2}2p^{1}$ | $1s^{2}2s^{2}2p^{2}$ | $1s^{2}2s^{2}2p^{3}$ | $1s^{2}2s^{2}2p^{4}$ | $1s^{2}2s^{2}2p^{5}$ |
+| 最外层的总轨道数 | 4 | 4 | 4 | 4 | 4 | 4 |
+| 成键时的最高未配对电子数(即生成共价键数) | 2 | 3 | 4 | 3 | 2 | 1 |
+| 成键后最高孤电子对对数 | 0 | 0 | 0 | 1 | 2 | 3 |
+| 成键后余下的空轨道数 | 2 | 1 | 0 | 0 | 0 | 0 |
 
 第二周期元素有 4 个轨道, 当外层电子数大于 4 时, 成键后就有孤对电子存在。
 
@@ -6203,7 +6292,10 @@ $$
 
 解
 
-<table><tr><td>编号</td><td>(1)</td><td>(2)</td><td>(3)</td><td>(4)</td><td>(5)</td><td>(6)</td></tr><tr><td>化学式</td><td> $CH_4$ </td><td> $C_2H_2$ </td><td> $C_2H_4$ </td><td> $H_3COH$ </td><td> $CH_2O$ </td><td> $H_3C-C-C=C-CH_3$  $\parallel \mid \mid$  $O \quad H \quad H$ </td></tr><tr><td>C原子杂化轨道</td><td> $sp^3$ </td><td>sp</td><td> $sp^2$ </td><td> $sp^3$ </td><td> $sp^2$ </td><td>从左到右,C所取杂化轨道依次是: $sp^3,sp^2,sp^2,sp^2,sp^3$ </td></tr></table>
+| 编号 | (1) | (2) | (3) | (4) | (5) | (6) |
+| --- | --- | --- | --- | --- | --- | --- |
+| 化学式 | $CH_4$ | $C_2H_2$ | $C_2H_4$ | $H_3COH$ | $CH_2O$ | $H_3C-C-C=C-CH_3$ $\parallel \mid \mid$ $O \quad H \quad H$ |
+| C原子杂化轨道 | $sp^3$ | sp | $sp^2$ | $sp^3$ | $sp^2$ | 从左到右,C所取杂化轨道依次是: $sp^3,sp^2,sp^2,sp^2,sp^3$ |
 
 12.9 (1) 指出在 $\mathrm{OF}_2$ 、 $\mathrm{NF}_5$ 、 $\mathrm{XeF}_4$ 中，可能存在的分子及其几何构型。
 
@@ -6289,9 +6381,21 @@ NO $^{+}$ 比 NO 稳定(反键轨道上少 1 个电子, 能量降低多, 键级�
 
 12.16 填充下表：
 
-<table><tr><td>分子或离子</td><td>中心原子杂化轨道类型</td><td>电子对几何分布</td><td>分子几何构型 (中英文名称)</td><td>VSEPR 符号</td></tr><tr><td> $H_2S$ </td><td></td><td></td><td></td><td></td></tr><tr><td> $SbCl_5$ </td><td></td><td></td><td></td><td></td></tr><tr><td> $ICl_3$ </td><td></td><td></td><td></td><td></td></tr><tr><td> $AlF_6^{3-}$ </td><td></td><td></td><td></td><td></td></tr><tr><td> $XeF_4$ </td><td></td><td></td><td></td><td></td></tr></table>
+| 分子或离子 | 中心原子杂化轨道类型 | 电子对几何分布 | 分子几何构型 (中英文名称) | VSEPR 符号 |
+| --- | --- | --- | --- | --- |
+| $H_2S$ |  |  |  |  |
+| $SbCl_5$ |  |  |  |  |
+| $ICl_3$ |  |  |  |  |
+| $AlF_6^{3-}$ |  |  |  |  |
+| $XeF_4$ |  |  |  |  |
 
-<table><tr><td>分子或离子</td><td>中心原子杂化轨道类型</td><td>电子对几何分布</td><td>分子几何构型(中英文名称)</td><td>VSEPR符号</td></tr><tr><td> $H_2S$ </td><td>不等性  $sp^3$ </td><td>四面体</td><td>弯曲形(bent)</td><td> $AX_2E_2$ </td></tr><tr><td> $SbCl_5$ </td><td> $sp^3d$ </td><td>三角双锥</td><td>三角双锥(trigonal bipyramid)</td><td> $AX_5$ </td></tr><tr><td> $ICl_3$ </td><td> $sp^3d$ </td><td>三角双锥</td><td>T字形(T-shape)</td><td> $AX_3E_2$ </td></tr><tr><td> $AlF_6^{3-}$ </td><td> $sp^3d^2$ </td><td>正八面体</td><td>正八面体(octahedron)</td><td> $AX_6$ </td></tr><tr><td> $XeF_4$ </td><td> $sp^3d^2$ </td><td>正八面体</td><td>平面正方形(planar square)</td><td> $AX_4E_2$ </td></tr></table>
+| 分子或离子 | 中心原子杂化轨道类型 | 电子对几何分布 | 分子几何构型(中英文名称) | VSEPR符号 |
+| --- | --- | --- | --- | --- |
+| $H_2S$ | 不等性 $sp^3$ | 四面体 | 弯曲形(bent) | $AX_2E_2$ |
+| $SbCl_5$ | $sp^3d$ | 三角双锥 | 三角双锥(trigonal bipyramid) | $AX_5$ |
+| $ICl_3$ | $sp^3d$ | 三角双锥 | T字形(T-shape) | $AX_3E_2$ |
+| $AlF_6^{3-}$ | $sp^3d^2$ | 正八面体 | 正八面体(octahedron) | $AX_6$ |
+| $XeF_4$ | $sp^3d^2$ | 正八面体 | 平面正方形(planar square) | $AX_4E_2$ |
 
 12.17 根据价层电子对互斥理论, 写出 $NH_{2}OH$ 、 $CH_{3}COOH$ 、 $CH_{3}OCH_{3}$ 几种分子的几何构型, 并注明每一个键的键型和键角的大概数值。
 
@@ -6512,7 +6616,13 @@ $\Delta\chi>1.7$ ，离子性为主。
 
 解
 
-<table><tr><td>化合物</td><td>晶胞参数</td><td>晶系</td></tr><tr><td> $K_2S_2O_8$ </td><td>a≠b≠c; α≠β≠γ</td><td>三斜晶系</td></tr><tr><td> $FeSO_4·7H_2O$ </td><td>a≠b≠c; α=γ=90°, β≠90°</td><td>单斜晶系</td></tr><tr><td>CsCl</td><td>a=b=c; α=β=γ=90°</td><td>立方晶系</td></tr><tr><td>TiO2</td><td>a=b≠c; α=β=γ=90°</td><td>四方晶系</td></tr><tr><td>Sb</td><td>a=b=c; α=β=γ≠90°</td><td>三方晶系</td></tr></table>
+| 化合物 | 晶胞参数 | 晶系 |
+| --- | --- | --- |
+| $K_2S_2O_8$ | a≠b≠c; α≠β≠γ | 三斜晶系 |
+| $FeSO_4·7H_2O$ | a≠b≠c; α=γ=90°, β≠90° | 单斜晶系 |
+| CsCl | a=b=c; α=β=γ=90° | 立方晶系 |
+| TiO2 | a=b≠c; α=β=γ=90° | 四方晶系 |
+| Sb | a=b=c; α=β=γ≠90° | 三方晶系 |
 
 13.2 已知金(Au)的晶格型式是面心立方，a=0.409 nm，求金的原子半径。
 
@@ -6666,7 +6776,13 @@ $\mathrm{Zn}$ 在黄铜中的质量分数 $w(\mathrm{Zn}) = \frac{(1\times 65.41
 
 解
 
-<table><tr><td>化合物</td><td> $r_{+}/r_{-}$ </td><td>晶体构型</td></tr><tr><td>CaS</td><td>0.54,在0.414~0.732之间</td><td>NaCl型</td></tr><tr><td>BeO</td><td>0.32,在0.225~0.414之间</td><td>ZnS型</td></tr><tr><td>NaBr</td><td>0.52,在0.414~0.732之间</td><td>NaCl型</td></tr><tr><td>CsBr</td><td>0.85,在0.732~1之间</td><td>CsCl型</td></tr><tr><td>MgTe</td><td>0.33,在0.225~0.414之间</td><td>ZnS型</td></tr></table>
+| 化合物 | $r_{+}/r_{-}$ | 晶体构型 |
+| --- | --- | --- |
+| CaS | 0.54,在0.414~0.732之间 | NaCl型 |
+| BeO | 0.32,在0.225~0.414之间 | ZnS型 |
+| NaBr | 0.52,在0.414~0.732之间 | NaCl型 |
+| CsBr | 0.85,在0.732~1之间 | CsCl型 |
+| MgTe | 0.33,在0.225~0.414之间 | ZnS型 |
 
 13.12 CsI 晶体结构类型与 CsCl 相同, 相邻的 $Cs^{+}$ 和 $I^{-}$ 彼此接触, $r(\mathrm{Cs}^{+}) = 174 \, \mathrm{pm}$ , $r(\mathrm{I}^{-}) = 224 \, \mathrm{pm}$ 。计算 CsI 晶胞参数 a 和晶体密度。
 
@@ -6903,13 +7019,25 @@ $K_{1}, K_{2}, K_{3}$ 和 $K_{4}$ 分别是一级、二级、三级、四级稳�
 
 解
 
-<table><tr><td></td><td>配合物</td><td>配离子电荷数</td><td>中心离子价数</td><td>名称</td></tr><tr><td>第一种</td><td> $[Cr(NH_3)_6]Cl_3$ </td><td> $[Cr(NH_3)_6]^{3+}$ </td><td>+3</td><td>三氯化六氨合铬(III)</td></tr><tr><td>第二种</td><td> $[CrCl(NH_3)_5]Cl_2$ </td><td> $[CrCl(NH_3)_5]^{2+}$ </td><td>+3</td><td>二氯化一氯五氨合铬(III)</td></tr></table>
+|  | 配合物 | 配离子电荷数 | 中心离子价数 | 名称 |
+| --- | --- | --- | --- | --- |
+| 第一种 | $[Cr(NH_3)_6]Cl_3$ | $[Cr(NH_3)_6]^{3+}$ | +3 | 三氯化六氨合铬(III) |
+| 第二种 | $[CrCl(NH_3)_5]Cl_2$ | $[CrCl(NH_3)_5]^{2+}$ | +3 | 二氯化一氯五氨合铬(III) |
 
 14.2 指出下列配合物的中心离子及价数、配位体及配位数、配合离子的电荷和配合物名称：(1) $\mathrm{K}_{2}[\mathrm{PtCl}_{6}]$ ; (2) $\mathrm{K}_{4}[\mathrm{Fe(CN)}_{6}]$ ; (3) $[\mathrm{Ag(NH_3)_2}] \mathrm{Cl}$ ; (4) $[\mathrm{CrCl}_2(\mathrm{H}_2\mathrm{O})_4] \mathrm{Cl}$ ;
 
 (5) $\left[\mathrm{Co}(\mathrm{NO}_2)_3(\mathrm{NH}_3)_3\right]$ ; (6) $\mathrm{K}_2\mathrm{Na}\left[\mathrm{Co}(\mathrm{ONO})_6\right]$ ; (7) $\mathrm{Ni}(\mathrm{CO})_4$ ; (8) $\left[\mathrm{Co}(\mathrm{en})_3\right]\mathrm{Cl}_3$ 。解
 
-<table><tr><td>配合物</td><td>中心离子及价数</td><td>配位体</td><td>配位数</td><td>配合离子电荷数</td><td>配合物名称</td></tr><tr><td>(1)  $K_2[PtCl_6]$ </td><td> $Pt^{4+}$ </td><td> $Cl^-$ </td><td>6</td><td>2-</td><td>六氯合铂(IV)酸钾</td></tr><tr><td>(2)  $K_4[Fe(CN)_6]$ </td><td> $Fe^{2+}$ </td><td> $CN^-$ </td><td>6</td><td>4-</td><td>六氰合铁(II)酸钾</td></tr><tr><td>(3)  $[Ag(NH_3)_2]Cl$ </td><td> $Ag^+$ </td><td> $NH_3$ </td><td>2</td><td>1+</td><td>一氯化二氨合银(I)</td></tr><tr><td>(4)  $[CrCl_2(H_2O)_4]Cl$ </td><td> $Cr^{3+}$ </td><td> $H_2O,Cl^-$ </td><td>6</td><td>1+</td><td>一氯化二氯四水合铬(III)</td></tr><tr><td>(5)  $Co(NO_2)_3(NH_3)_3$ </td><td> $Co^{3+}$ </td><td> $NH_3,NO_2^-$ </td><td>6</td><td>0</td><td>三硝基三氨合钴(III)</td></tr><tr><td>(6)  $K_2Na[Co(ONO)_6]$ </td><td> $Co^{3+}$ </td><td> $ONO^-$ </td><td>6</td><td>3-</td><td>六亚硝酸根合钴(III)酸钠二钾</td></tr><tr><td>(7)  $Ni(CO)_4$ </td><td> $Ni^0$ </td><td>CO</td><td>4</td><td>0</td><td>四羰基合镍</td></tr><tr><td>(8)  $[Co(en)_3]Cl_3$ </td><td> $Co^{3+}$ </td><td>en</td><td>6</td><td>3+</td><td>三氯化三(乙二胺)合钴(III)</td></tr></table>
+| 配合物 | 中心离子及价数 | 配位体 | 配位数 | 配合离子电荷数 | 配合物名称 |
+| --- | --- | --- | --- | --- | --- |
+| (1) $K_2[PtCl_6]$ | $Pt^{4+}$ | $Cl^-$ | 6 | 2- | 六氯合铂(IV)酸钾 |
+| (2) $K_4[Fe(CN)_6]$ | $Fe^{2+}$ | $CN^-$ | 6 | 4- | 六氰合铁(II)酸钾 |
+| (3) $[Ag(NH_3)_2]Cl$ | $Ag^+$ | $NH_3$ | 2 | 1+ | 一氯化二氨合银(I) |
+| (4) $[CrCl_2(H_2O)_4]Cl$ | $Cr^{3+}$ | $H_2O,Cl^-$ | 6 | 1+ | 一氯化二氯四水合铬(III) |
+| (5) $Co(NO_2)_3(NH_3)_3$ | $Co^{3+}$ | $NH_3,NO_2^-$ | 6 | 0 | 三硝基三氨合钴(III) |
+| (6) $K_2Na[Co(ONO)_6]$ | $Co^{3+}$ | $ONO^-$ | 6 | 3- | 六亚硝酸根合钴(III)酸钠二钾 |
+| (7) $Ni(CO)_4$ | $Ni^0$ | CO | 4 | 0 | 四羰基合镍 |
+| (8) $[Co(en)_3]Cl_3$ | $Co^{3+}$ | en | 6 | 3+ | 三氯化三(乙二胺)合钴(III) |
 
 14.3 根据下列配合物的名称写出它们的化学式：
 
@@ -7091,7 +7219,14 @@ $$
 
 14.12 $\mathrm{Cr}^{3+}$ 、 $\mathrm{Cr}^{2+}$ 、 $\mathrm{Mn}^{2+}$ 、 $\mathrm{Fe}^{2+}$ 、 $\mathrm{Co}^{3+}$ 、 $\mathrm{Co}^{2+}$ 离子在强八面体晶体场中和弱八面体晶体场中各有多少未成对的电子？绘图说明 $t_{2g}$ 和 $e_g$ 电子数目。
 
-<table><tr><td>解</td><td>强八面体场</td><td>未成对电子数</td><td>弱八面体场</td><td>未成对电子数</td></tr><tr><td> $Cr^{3+} 3d^{3}$ </td><td></td><td>3</td><td></td><td>3</td></tr><tr><td> $Cr^{2+} 3d^{4}$ </td><td></td><td>2</td><td></td><td>4</td></tr><tr><td> $Mn^{2+} 3d^{5}$ </td><td></td><td>1</td><td></td><td>5</td></tr><tr><td> $Fe^{2+} 3d^{6}$ </td><td></td><td>0</td><td></td><td>4</td></tr><tr><td> $Co^{3+} 3d^{6}$ </td><td></td><td>0</td><td></td><td>4</td></tr><tr><td> $Co^{2+} 3d^{7}$ </td><td></td><td>1</td><td></td><td>3</td></tr></table>
+| 解 | 强八面体场 | 未成对电子数 | 弱八面体场 | 未成对电子数 |
+| --- | --- | --- | --- | --- |
+| $Cr^{3+} 3d^{3}$ |  | 3 |  | 3 |
+| $Cr^{2+} 3d^{4}$ |  | 2 |  | 4 |
+| $Mn^{2+} 3d^{5}$ |  | 1 |  | 5 |
+| $Fe^{2+} 3d^{6}$ |  | 0 |  | 4 |
+| $Co^{3+} 3d^{6}$ |  | 0 |  | 4 |
+| $Co^{2+} 3d^{7}$ |  | 1 |  | 3 |
 
 ## 14.13 现有物种(a)～(e):
 

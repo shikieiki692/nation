@@ -147,7 +147,9 @@ $\therefore c_{t}(I^{-}) = \frac{lnA_{F}}{k_{2}t} -\frac{1}{k_{2}t} lnA_{t}$ ，
 
 不同含碘量样品溶液的吸光度值
 
-<table><tr><td> $\rho (I^{-})$  $(\mu g \cdot L^{-1})$ </td><td>0</td><td>50.00</td><td>100.0</td></tr><tr><td> $A_{5\ min}$ </td><td>1.460</td><td>1.316</td><td>1.178</td></tr></table>
+| $\rho (I^{-})$ $(\mu g \cdot L^{-1})$ | 0 | 50.00 | 100.0 |
+| --- | --- | --- | --- |
+| $A_{5\ min}$ | 1.460 | 1.316 | 1.178 |
 
 # 4-5 答案:
 
@@ -181,7 +183,14 @@ $$
 
 相关物质的热力学数据
 
-<table><tr><td>物质</td><td> $\Delta_{\text{f}}H_{\text{m}}^{\ominus}$  $(\text{kJ} \cdot \text{mol}^{-1})$ </td><td> $\Delta_{\text{f}}G_{\text{m}}^{\ominus}$  $(\text{kJ} \cdot \text{mol}^{-1})$ </td><td> $S_{\text{m}}^{\ominus}$  $(\text{J} \cdot \text{mol}^{-1} \cdot \text{K}^{-1})$ </td><td> $C_{p,\text{m}}$  $(\text{J} \cdot \text{mol}^{-1} \cdot \text{K}^{-1})$ </td><td> $C_{V,\text{m}}$  $(\text{J} \cdot \text{mol}^{-1} \cdot \text{K}^{-1})$ </td></tr><tr><td> $H_2(g)$ </td><td>0</td><td>0</td><td>130.68</td><td>29.10*</td><td>20.78*</td></tr><tr><td> $O_2(g)$ </td><td>0</td><td>0</td><td>205.14</td><td>29.10*</td><td>20.78*</td></tr><tr><td> $N_2(g)$ </td><td>0</td><td>0</td><td>191.61</td><td>29.10*</td><td>20.78*</td></tr><tr><td>NO(g)</td><td>90.40</td><td>86.70</td><td>211.00</td><td>29.10*</td><td>20.78*</td></tr><tr><td> $H_2O(g)$ </td><td>-241.82</td><td>-228.57</td><td>188.83</td><td>33.26</td><td>24.94</td></tr><tr><td> $H_2O(l)$ </td><td>-285.83</td><td>-237.13</td><td>69.91</td><td>75.29</td><td>—</td></tr></table>
+| 物质 | $\Delta_{\text{f}}H_{\text{m}}^{\ominus}$ $(\text{kJ} \cdot \text{mol}^{-1})$ | $\Delta_{\text{f}}G_{\text{m}}^{\ominus}$ $(\text{kJ} \cdot \text{mol}^{-1})$ | $S_{\text{m}}^{\ominus}$ $(\text{J} \cdot \text{mol}^{-1} \cdot \text{K}^{-1})$ | $C_{p,\text{m}}$ $(\text{J} \cdot \text{mol}^{-1} \cdot \text{K}^{-1})$ | $C_{V,\text{m}}$ $(\text{J} \cdot \text{mol}^{-1} \cdot \text{K}^{-1})$ |
+| --- | --- | --- | --- | --- | --- |
+| $H_2(g)$ | 0 | 0 | 130.68 | 29.10* | 20.78* |
+| $O_2(g)$ | 0 | 0 | 205.14 | 29.10* | 20.78* |
+| $N_2(g)$ | 0 | 0 | 191.61 | 29.10* | 20.78* |
+| NO(g) | 90.40 | 86.70 | 211.00 | 29.10* | 20.78* |
+| $H_2O(g)$ | -241.82 | -228.57 | 188.83 | 33.26 | 24.94 |
+| $H_2O(l)$ | -285.83 | -237.13 | 69.91 | 75.29 | — |
 
 \* 理想气体双原子分子的摩尔热容。
 
@@ -463,7 +472,10 @@ Organic reaction scheme showing cyclohexene reacting with BH3·SMe2 to form 9-BB
 
 6-1 二聚体 $(9\text{-BBN})_2$ 对烯烃的硼氢化通常均经历二聚体生成单体的对峙反应和单体与烯烃加成的单向反应，但其反应速率受到烯烃空间位阻影响，差异显著。例如，在 $25^{\circ}\mathrm{C}$ 条件下，以 $\mathrm{CCl}_4$ 为溶剂， $(9\text{-BBN})_2$ 与2倍量及以上的四取代或单取代烯烃进行的硼氢化反应对于烯烃和 $(9\text{-BBN})_2$ 的反应级数如下表所示：
 
-<table><tr><td>烯烃</td><td>对于烯烃的反应级数</td><td>对于(9-BBN) $_2$ 的反应级数</td></tr><tr><td>2,3-二甲基丁-2-烯</td><td>1</td><td>1/2</td></tr><tr><td>1-己烯</td><td>0</td><td>1</td></tr></table>
+| 烯烃 | 对于烯烃的反应级数 | 对于(9-BBN) $_2$ 的反应级数 |
+| --- | --- | --- |
+| 2,3-二甲基丁-2-烯 | 1 | 1/2 |
+| 1-己烯 | 0 | 1 |
 
 试据此通过合理的近似或假设推导两种烯烃硼氢化的反应速率方程。
 

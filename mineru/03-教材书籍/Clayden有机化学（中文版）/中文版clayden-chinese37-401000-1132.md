@@ -5374,7 +5374,19 @@ $$
 
 <table><tr><td colspan="8">配体特征</td><td>形式电荷</td><td>贡献的电子数</td></tr><tr><td colspan="10">阴离子配体</td></tr><tr><td> $Cl^-$ </td><td> $Br^-$ </td><td> $I^-$ </td><td> $^{-}CN$ </td><td> $^{-}OR$ </td><td> $^{-}H$ </td><td colspan="2"> $^{-}烷基$ </td><td>-1</td><td>2</td></tr><tr><td colspan="10">中性σ键配体</td></tr><tr><td rowspan="3"> $R^-P$ </td><td> $R^-N$ </td><td rowspan="2"> $R^-R$ </td><td rowspan="2"> $R^-O$ </td><td rowspan="2"> $R^-S$ </td><td> $C$ </td><td> $N$ </td><td> $C$ </td><td></td><td></td></tr><tr><td> $R^-R$ </td><td> $O$ </td><td> $C$ </td><td> $N$ </td><td>0</td><td>2</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td> $R$ </td><td> $R$ </td><td></td><td></td></tr></table>
 
-<table><tr><td>有机配体</td><td>络合点数目</td><td>形式电荷</td><td>贡献的电子数</td></tr><tr><td>不饱和 $\sigma$ 或 $\pi$ 给体配体</td><td></td><td></td><td></td></tr><tr><td>芳基、 $\sigma$ -烯丙基</td><td> $\eta^{1}$ </td><td>-1</td><td>2</td></tr><tr><td>烯烃</td><td> $\eta^{2}$ </td><td>0</td><td>2</td></tr><tr><td> $\pi$ 烯丙基阳离子</td><td> $\eta^{3}$ </td><td>+1</td><td>2</td></tr><tr><td> $\pi$ 烯丙基阴离子</td><td> $\eta^{3}$ </td><td>-1</td><td>4</td></tr><tr><td>共轭双烯</td><td> $\eta^{4}$ </td><td>0</td><td>4</td></tr><tr><td>戊二烯基阴离子</td><td> $\eta^{5}$ </td><td>-1</td><td>6</td></tr><tr><td>苯环、三烯</td><td> $\eta^{6}$ </td><td>0</td><td>6</td></tr><tr><td>环庚三烯基阴离子</td><td> $\eta^{7}$ </td><td>-1</td><td>8</td></tr><tr><td>环辛四烯</td><td> $\eta^{8}$ </td><td>0</td><td>8</td></tr><tr><td>卡宾、氮宾、氧</td><td> $\eta^{1}$ </td><td>0</td><td>2</td></tr></table>
+| 有机配体 | 络合点数目 | 形式电荷 | 贡献的电子数 |
+| --- | --- | --- | --- |
+| 不饱和 $\sigma$ 或 $\pi$ 给体配体 |  |  |  |
+| 芳基、 $\sigma$ -烯丙基 | $\eta^{1}$ | -1 | 2 |
+| 烯烃 | $\eta^{2}$ | 0 | 2 |
+| $\pi$ 烯丙基阳离子 | $\eta^{3}$ | +1 | 2 |
+| $\pi$ 烯丙基阴离子 | $\eta^{3}$ | -1 | 4 |
+| 共轭双烯 | $\eta^{4}$ | 0 | 4 |
+| 戊二烯基阴离子 | $\eta^{5}$ | -1 | 6 |
+| 苯环、三烯 | $\eta^{6}$ | 0 | 6 |
+| 环庚三烯基阴离子 | $\eta^{7}$ | -1 | 8 |
+| 环辛四烯 | $\eta^{8}$ | 0 | 8 |
+| 卡宾、氮宾、氧 | $\eta^{1}$ | 0 | 2 |
 
 ![[中文版clayden-chinese37-401000-1132_images/b7ce6ad3b76a9cd7eb25f9a6ad676d6a745c67745c445edc7636d878a2df1aa2.jpg]]
 

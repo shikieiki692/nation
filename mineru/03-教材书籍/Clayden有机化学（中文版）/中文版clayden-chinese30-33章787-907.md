@@ -2940,7 +2940,20 @@ Chemical structure of a protected sulfonamide衍生物 with labeled functional g
 
 硫霉素衍生物在 $CD_{3}OD$ 中的 NMR 光谱
 
-<table><tr><td>位移 ( $\delta_H$ ), ppm</td><td>积分</td><td>重数</td><td>偶合常数 (J), Hz</td></tr><tr><td>1.28</td><td>3H</td><td>d</td><td>6.5</td></tr><tr><td>2.95</td><td>2H</td><td>m</td><td>未解决</td></tr><tr><td>3.08</td><td>1H</td><td>dd</td><td>9, 18</td></tr><tr><td>3.15</td><td>1H</td><td>dd</td><td>2.5, 7</td></tr><tr><td>3.35</td><td>1H</td><td>dd</td><td>9, 18</td></tr><tr><td>3.37</td><td>2H</td><td>m</td><td>未解决</td></tr><tr><td>4.13</td><td>1H</td><td>dq</td><td>7, 6.5</td></tr><tr><td>4.19</td><td>1H</td><td>dt</td><td>2.5, 9</td></tr><tr><td>5.08</td><td>2H</td><td>s</td><td>—</td></tr><tr><td>5.23 和 5.31</td><td>2H</td><td>AB 体系a</td><td>AB 体系:a 12.5</td></tr><tr><td>5.80</td><td>1H</td><td>宽峰</td><td>—</td></tr><tr><td>7.34</td><td>10 H</td><td>多重峰</td><td>未解决</td></tr></table>
+| 位移 ( $\delta_H$ ), ppm | 积分 | 重数 | 偶合常数 (J), Hz |
+| --- | --- | --- | --- |
+| 1.28 | 3H | d | 6.5 |
+| 2.95 | 2H | m | 未解决 |
+| 3.08 | 1H | dd | 9, 18 |
+| 3.15 | 1H | dd | 2.5, 7 |
+| 3.35 | 1H | dd | 9, 18 |
+| 3.37 | 2H | m | 未解决 |
+| 4.13 | 1H | dq | 7, 6.5 |
+| 4.19 | 1H | dt | 2.5, 9 |
+| 5.08 | 2H | s | — |
+| 5.23 和 5.31 | 2H | AB 体系a | AB 体系:a 12.5 |
+| 5.80 | 1H | 宽峰 | — |
+| 7.34 | 10 H | 多重峰 | 未解决 |
 
 $^{a}$ 有关 AB 体系的讨论见 p. 297.
 
