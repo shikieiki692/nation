@@ -1933,7 +1933,7 @@ $$
 \begin{array}{r l} & \lg \frac {k _ {700 \mathrm{K}}}{k _ {600 \mathrm{K}}} = \frac {E _ {\mathrm{a}}}{2.303 R} \left(\frac {1}{T _ {600 \mathrm{K}}} - \frac {1}{T _ {700 \mathrm{K}}}\right) \\ & \lg \frac {k _ {700 \mathrm{K}}}{1.93 \times 10 ^ {- 3} \min ^ {- 1}} = \frac {200 \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1}}{2.303 \times 8.314 \times 10 ^ {- 3} \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{K} ^ {- 1}} \left(\frac {1}{600 \mathrm{K}} - \frac {1}{700 \mathrm{K}}\right) \end{array}
 $$
 
-解得 700 K 时的速率常数 $k_{700\ K}=0.59\ min^{-1}$ 。
+解得 700 K 时的速率常数 $k_{700\ K}=0.59\ \mathrm{min}^{-1}$ 。
 
 由
 

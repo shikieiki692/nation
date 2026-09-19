@@ -6193,7 +6193,7 @@ $$
 [ \eta ] = (2.00 \times 10 ^ {- 4} \mathrm{dl} \mathrm{g} ^ {- 1}) \left(\frac {M}{M _ {0}}\right) ^ {0.76},\tag{11.102}
 $$
 
-where M is the molar mass and $M_{0} = 1 \, g \, mol^{-1}$ (1 dalton). Find the molar mass if $[\eta] = 0.86 \, dl \, g^{-1}$ . Find the expected error in the molar mass if the expected error in $[\eta]$ is $0.03 \, dl \, g^{-1}$ .
+where M is the molar mass and $M_{0} = 1 \, \mathrm{g} \, \mathrm{mol}^{-1}$ (1 dalton). Find the molar mass if $[\eta] = 0.86 \, dl \, g^{-1}$ . Find the expected error in the molar mass if the expected error in $[\eta]$ is $0.03 \, dl \, g^{-1}$ .
 
 3. Assuming that the ideal gas law holds, find the amount in moles of nitrogen gas in a container if
 
