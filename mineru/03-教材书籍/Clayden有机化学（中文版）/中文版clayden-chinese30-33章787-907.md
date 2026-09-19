@@ -5332,7 +5332,14 @@ Felkin-Anh 模型，它使我们得到了水平高得多的控制，这也是不
 Reaction mechanism diagram showing Mg-mediated coupling with Fe(He)phosphine under THF at -70°C, including R-time and R-day reaction conditions.
 </details>
 
-<table><tr><td>R</td><td>比例</td><td>相对速率</td></tr><tr><td>Me</td><td>&gt;99:1</td><td>1000</td></tr><tr><td> $SiMe_{3}$ </td><td>99:1</td><td>100</td></tr><tr><td> $SiEt_{3}$ </td><td>96:4</td><td>8</td></tr><tr><td> $SiMe_{2}t-Bu$ </td><td>88:12</td><td>2.5</td></tr><tr><td> $SiPh_{2}t-Bu$ </td><td>63:37</td><td>0.82</td></tr><tr><td> $Si(i-Pr)_{3}$ </td><td>42:58</td><td>0.45</td></tr></table>
+| R | 比例 | 相对速率 |
+| --- | --- | --- |
+| Me | >99:1 | 1000 |
+| $SiMe_{3}$ | 99:1 | 100 |
+| $SiEt_{3}$ | 96:4 | 8 |
+| $SiMe_{2}t-Bu$ | 88:12 | 2.5 |
+| $SiPh_{2}t-Bu$ | 63:37 | 0.82 |
+| $Si(i-Pr)_{3}$ | 42:58 | 0.45 |
 
 # ● 螯合:
 

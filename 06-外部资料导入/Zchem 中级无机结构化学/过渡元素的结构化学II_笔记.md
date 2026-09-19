@@ -518,7 +518,21 @@ Molecular structures and chemical formulas of a metal complex, including zirconi
 
 # 1）18电子规则解释 58:00
 
-<table><tr><td></td><td></td><td></td></tr><tr><td>y</td><td></td><td></td></tr><tr><td rowspan="2">trans-Rh1(2i)(PE3)2</td><td></td><td rowspan="2"></td></tr><tr><td>Pt-Pa-N2N</td></tr><tr><td>trans-Rh1(η-Ni)(PE3)2</td><td>α-Pb-N1Pb3</td><td></td></tr><tr><td rowspan="2">[(p-nω)2i]2 (p=Na)</td><td></td><td rowspan="2"></td></tr><tr><td>P2-2n-2n-2n-2p</td></tr><tr><td rowspan="2">[(p-nω)2i]2 (p-η):η-N2)</td><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td colspan="3">t ligand with η gnom.</td></tr><tr><td>① CH4</td><td></td><td></td></tr><tr><td rowspan="2">② CH3</td><td>η3</td><td></td></tr><tr><td>η&#x27;</td><td>m</td></tr><tr><td>g at CVE</td><td></td><td></td></tr><tr><td>√1/n-1/n-Pc-Cu-OHOC-CH2CH2</td><td></td><td></td></tr></table>
+| y |  |  |
+| --- | --- | --- |
+| trans-Rh1(2i)(PE3)2 |  |  |
+| trans-Rh1(2i)(PE3)2 | Pt-Pa-N2N |  |
+| trans-Rh1(η-Ni)(PE3)2 | α-Pb-N1Pb3 |  |
+| [(p-nω)2i]2 (p=Na) |  |  |
+| [(p-nω)2i]2 (p=Na) | P2-2n-2n-2n-2p |  |
+| [(p-nω)2i]2 (p-η):η-N2) |  |  |
+| [(p-nω)2i]2 (p-η):η-N2) |  |  |
+| t ligand with η gnom. |  |  |
+| ① CH4 |  |  |
+| ② CH3 | η3 |  |
+| ② CH3 | η' | m |
+| g at CVE |  |  |
+| √1/n-1/n-Pc-Cu-OHOC-CH2CH2 |  |  |
 
 ● 轨道基础：金属外层5个d轨道+3个p轨道+1个s轨道全满时为18电子
 

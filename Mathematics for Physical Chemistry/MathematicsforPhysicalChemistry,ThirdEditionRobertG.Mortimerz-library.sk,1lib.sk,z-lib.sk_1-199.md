@@ -2662,7 +2662,26 @@ Mathematica will print out numerical values with any specified number of digits.
 
 TABLE 3.2 ▶ Mathematical Functions in Mathematica
 
-<table><tr><td>Symbol</td><td>Function</td><td>Result</td></tr><tr><td>Abs[x]</td><td>absolute value (magnitude) of x</td><td>nonzero constant</td></tr><tr><td>Arg[z]</td><td>argument  $\phi$  of complex expression  $|z|e^{i\phi}$ </td><td>nonzero constant</td></tr><tr><td>ArcCos[x]</td><td>inverse cosine in radians</td><td>constant, 0 &lt; c &lt; π</td></tr><tr><td>ArcSin[x]</td><td>inverse sine in radians</td><td>constant,  $-\frac{\pi}{2} < c < \frac{\pi}{2}$ </td></tr><tr><td>ArcTan[x]</td><td>inverse tangent in radians</td><td>constant,  $-\frac{\pi}{2} < c < \frac{\pi}{2}$ </td></tr><tr><td>Conjugate[z]</td><td>complex conjugate of z = x + iy</td><td>x - iy</td></tr><tr><td>Cos[x]</td><td>cosine of an angle in radians</td><td>constant, -1 &lt; c &lt; 1</td></tr><tr><td>Exp[x]</td><td>exponential function,  $e^x$ </td><td>positive constant</td></tr><tr><td>Im[z]</td><td>imaginary part of complex expression z</td><td>constant</td></tr><tr><td>Log[x]</td><td>natural logarithm (base e)</td><td>constant</td></tr><tr><td>Log[b,x]</td><td>logarithm to the base b</td><td>constant</td></tr><tr><td>n!</td><td>n factorial</td><td>constant</td></tr><tr><td>Random[ ]</td><td>random number generator</td><td>constant, 0 &lt; c &lt; 1</td></tr><tr><td>Re[z]</td><td>real part of complex expression z</td><td>constant</td></tr><tr><td>Round[x]</td><td>closest integer to x</td><td>constant</td></tr><tr><td>Sin[x]</td><td>sine of an angle in radians</td><td>constant, -1 &lt; c &lt; 1</td></tr><tr><td>Sqrt[x]</td><td>square root of x</td><td>constant</td></tr><tr><td>Tan[x]</td><td>tangent of an angle in radians</td><td>constant</td></tr></table>
+| Symbol | Function | Result |
+| --- | --- | --- |
+| Abs[x] | absolute value (magnitude) of x | nonzero constant |
+| Arg[z] | argument $\phi$ of complex expression $\|z\|e^{i\phi}$ | nonzero constant |
+| ArcCos[x] | inverse cosine in radians | constant, 0 < c < π |
+| ArcSin[x] | inverse sine in radians | constant, $-\frac{\pi}{2} < c < \frac{\pi}{2}$ |
+| ArcTan[x] | inverse tangent in radians | constant, $-\frac{\pi}{2} < c < \frac{\pi}{2}$ |
+| Conjugate[z] | complex conjugate of z = x + iy | x - iy |
+| Cos[x] | cosine of an angle in radians | constant, -1 < c < 1 |
+| Exp[x] | exponential function, $e^x$ | positive constant |
+| Im[z] | imaginary part of complex expression z | constant |
+| Log[x] | natural logarithm (base e) | constant |
+| Log[b,x] | logarithm to the base b | constant |
+| n! | n factorial | constant |
+| Random[ ] | random number generator | constant, 0 < c < 1 |
+| Re[z] | real part of complex expression z | constant |
+| Round[x] | closest integer to x | constant |
+| Sin[x] | sine of an angle in radians | constant, -1 < c < 1 |
+| Sqrt[x] | square root of x | constant |
+| Tan[x] | tangent of an angle in radians | constant |
 
 $$
 \mathrm{N} [ 3.58731 ^ {56.3}, 15 ]

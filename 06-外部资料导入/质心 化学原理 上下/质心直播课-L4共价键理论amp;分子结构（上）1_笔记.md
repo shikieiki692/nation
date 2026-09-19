@@ -340,7 +340,14 @@ Pd
 
 2. 例题:原⼦半径⽐较 14:06
 
-<table><tr><td>Q4</td><td>Cr</td><td>24</td><td>[Ar] 3d5 4s&#x27;</td><td>6</td><td>四</td><td>VIB</td><td>d</td></tr><tr><td></td><td>Rb</td><td>87</td><td>[kn] ss&#x27;</td><td>1</td><td>五</td><td>IA</td><td>S</td></tr><tr><td></td><td>Pd</td><td>46</td><td>[K+] dd10</td><td>0</td><td>五</td><td>VIII</td><td>d /</td></tr><tr><td></td><td>Os</td><td>76</td><td>[xe] 4f14 6d640-4</td><td>4</td><td>三</td><td>VII</td><td>d +8</td></tr><tr><td></td><td>%</td><td>118</td><td>[Rn] 5f96dd10 2s27p6</td><td>0</td><td>t</td><td>VIIA</td><td>P +8</td></tr><tr><td>Os</td><td>0</td><td>c &gt;0</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td>2)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
+| Q4 | Cr | 24 | [Ar] 3d5 4s' | 6 | 四 | VIB | d |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|  | Rb | 87 | [kn] ss' | 1 | 五 | IA | S |
+|  | Pd | 46 | [K+] dd10 | 0 | 五 | VIII | d / |
+|  | Os | 76 | [xe] 4f14 6d640-4 | 4 | 三 | VII | d +8 |
+|  | % | 118 | [Rn] 5f96dd10 2s27p6 | 0 | t | VIIA | P +8 |
+| Os | 0 | c >0 |  |  |  |  |  |
+|  | 2) |  |  |  |  |  |  |
 
 <同周期规律：从左到右原⼦半径减⼩（如C>O），因有效核电荷增加主导电⼦层不变的影响。  
  同族规律：⾃上⽽下原⼦半径增⼤（如Se<Pb），主量⼦数增加导致电⼦层扩展。  

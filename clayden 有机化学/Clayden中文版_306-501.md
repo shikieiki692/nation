@@ -2850,7 +2850,15 @@ C-X 键与两个 C-C 键处于对位交叉式；而在直立键构象中，C-X �
 
 ![](Clayden中文版_306-501_images/ad8858810c51bfb53692afc0af5d203d873a24653f66cb2f6bb3406f277206a8.jpg)
 
-<table><tr><td>X</td><td>平衡常数K</td><td>直立取代与平伏取代的能量差, kJ mol-1</td><td>平伏取代的百分数</td></tr><tr><td>H</td><td>1</td><td>0</td><td>50</td></tr><tr><td>OMe</td><td>2.7</td><td>2.5</td><td>73</td></tr><tr><td>Me</td><td>19</td><td>7.3</td><td>95</td></tr><tr><td>Et</td><td>20</td><td>7.5</td><td>95</td></tr><tr><td>i-Pr</td><td>42</td><td>9.3</td><td>98</td></tr><tr><td>t-Bu</td><td>&gt;3000</td><td>&gt;20</td><td>&gt;99.9</td></tr><tr><td>Ph</td><td>110</td><td>11.7</td><td>99</td></tr></table>
+| X | 平衡常数K | 直立取代与平伏取代的能量差, kJ mol-1 | 平伏取代的百分数 |
+| --- | --- | --- | --- |
+| H | 1 | 0 | 50 |
+| OMe | 2.7 | 2.5 | 73 |
+| Me | 19 | 7.3 | 95 |
+| Et | 20 | 7.5 | 95 |
+| i-Pr | 42 | 9.3 | 98 |
+| t-Bu | >3000 | >20 | >99.9 |
+| Ph | 110 | 11.7 | 99 |
 
 注意以下几点 (在 Chapter 12 中提到过的思路).
 

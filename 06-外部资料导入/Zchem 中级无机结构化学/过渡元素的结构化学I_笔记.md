@@ -1321,7 +1321,16 @@ N=O
 
 # 3. 光谱化学应用 01:08:08
 
-<table><tr><td>Wavelength Range (nm)</td><td>Wave Numbers (cm⁻¹)</td><td>Color</td><td>Complementary Color</td></tr><tr><td>&lt; 400</td><td>&gt;25,000</td><td>Ultraviolet</td><td></td></tr><tr><td>400-450</td><td>22,000-25,000</td><td>Violet</td><td>Yellow</td></tr><tr><td>450-490</td><td>20,000-22,000</td><td>Blue</td><td>Orange</td></tr><tr><td>490-550</td><td>18,000-20,000</td><td>Green</td><td>Red</td></tr><tr><td>550-580</td><td>17,000-18,000</td><td>Yellow</td><td>Violet</td></tr><tr><td>580-650</td><td>15,000-17,000</td><td>Orange</td><td>Blue</td></tr><tr><td>650-700</td><td>14,000-15,000</td><td>Red</td><td>Green</td></tr><tr><td>&gt;700</td><td>&lt; 14,000</td><td>Infrared</td><td></td></tr></table>
+| Wavelength Range (nm) | Wave Numbers (cm⁻¹) | Color | Complementary Color |
+| --- | --- | --- | --- |
+| < 400 | >25,000 | Ultraviolet |  |
+| 400-450 | 22,000-25,000 | Violet | Yellow |
+| 450-490 | 20,000-22,000 | Blue | Orange |
+| 490-550 | 18,000-20,000 | Green | Red |
+| 550-580 | 17,000-18,000 | Yellow | Violet |
+| 580-650 | 15,000-17,000 | Orange | Blue |
+| 650-700 | 14,000-15,000 | Red | Green |
+| >700 | < 14,000 | Infrared |  |
 
 ● 可见光范围：400-700nm（不同教材可能扩展至800nm）  
 ● 颜色对应关系：
@@ -1769,4 +1778,13 @@ A: 将所有组分视力离子计算（如 $[Fe(CN)_6]^{4-}$ 中 $CN^{-}$ 计6e�
 
 # 十一、知识小结
 
-<table><tr><td>知识点</td><td>核心内容</td><td>考试重点/易混淆点</td><td>难度系数</td></tr><tr><td>配体场理论</td><td>配体分为 $\sigma$ donor、 $\pi$ acceptor、 $\pi$ donor三种类型,解释分裂能变化原理</td><td>强场配体( $CO/CN^{-}$ )同时具有 $\sigma$ donor和 $\pi$ acceptor特性</td><td>★★★★</td></tr><tr><td>轨道重叠模型</td><td>使用angular overlap方法分析配体与金属d轨道的相互作用</td><td> $\sigma$ 相互作用推高轴向轨道( $z^{2}/x^{2}-y^{2}$ ), $\pi$ 相互作用影响平面轨道( $xy/xz/yz$ )</td><td>★★★★☆</td></tr><tr><td>光谱化学序列</td><td>配体场强排序: $CO \approx CN^{-} > PR_{3} > I^{-} > Br^{-} > Cl^{-} > F^{-} > OH_{2} > NH_{3}$ </td><td>记忆关键: $\pi$ 酸配体&gt;纯 $\sigma$ 配体&gt; $\pi$ 碱配体</td><td>★★★☆</td></tr><tr><td>电子光谱</td><td>d-d跃迁选律(自旋禁阻/宇称禁阻)、电荷转移谱带(LMCT/MLCT)</td><td>CT跃迁吸光系数( $10^{3}-10^{5}$ )远高于d-d跃迁( $1-10^{2}$ )</td><td>★★★★</td></tr><tr><td>反式效应</td><td>平面四边形配合物中配体对反位配体的取代活化作用</td><td>双重机制: $\sigma$ 给电子能力( $H^{-}>I^{-}$ )和 $\pi$ 受电子能力( $CO>C_{2}H_{4}$ )</td><td>★★★★</td></tr><tr><td>18电子规则</td><td>后过渡金属羰基化合物符合18e规则( $Fe(CO)_{5}=8+2\times5=18$ )</td><td>例外情况:16e平面四边形( $PtCl_{4}^{2-}$ )、14e配位不饱和体系</td><td>★★★☆</td></tr><tr><td>羰基配位化学</td><td>CO通过 $\sigma$ donation和 $\pi$ back donation形成反馈键</td><td>IR频率变化:桥连 $CO$ ( $\mu_{2}$ )&lt;端基 $CO$ ( $\mu_{1}$ )&lt;游离 $CO$ ( $2143\mathrm{cm}^{-1}$ )</td><td>★★★★</td></tr><tr><td>金属有机历史</td><td>蔡斯盐(1827)、二茂铁(1951)、维生素B12全合成(1972)里程碑事件</td><td>结构突破:X射线衍射技术对配合物构型确认的关键作用</td><td>★★☆</td></tr></table>
+| 知识点 | 核心内容 | 考试重点/易混淆点 | 难度系数 |
+| --- | --- | --- | --- |
+| 配体场理论 | 配体分为 $\sigma$ donor、 $\pi$ acceptor、 $\pi$ donor三种类型,解释分裂能变化原理 | 强场配体( $CO/CN^{-}$ )同时具有 $\sigma$ donor和 $\pi$ acceptor特性 | ★★★★ |
+| 轨道重叠模型 | 使用angular overlap方法分析配体与金属d轨道的相互作用 | $\sigma$ 相互作用推高轴向轨道( $z^{2}/x^{2}-y^{2}$ ), $\pi$ 相互作用影响平面轨道( $xy/xz/yz$ ) | ★★★★☆ |
+| 光谱化学序列 | 配体场强排序: $CO \approx CN^{-} > PR_{3} > I^{-} > Br^{-} > Cl^{-} > F^{-} > OH_{2} > NH_{3}$ | 记忆关键: $\pi$ 酸配体>纯 $\sigma$ 配体> $\pi$ 碱配体 | ★★★☆ |
+| 电子光谱 | d-d跃迁选律(自旋禁阻/宇称禁阻)、电荷转移谱带(LMCT/MLCT) | CT跃迁吸光系数( $10^{3}-10^{5}$ )远高于d-d跃迁( $1-10^{2}$ ) | ★★★★ |
+| 反式效应 | 平面四边形配合物中配体对反位配体的取代活化作用 | 双重机制: $\sigma$ 给电子能力( $H^{-}>I^{-}$ )和 $\pi$ 受电子能力( $CO>C_{2}H_{4}$ ) | ★★★★ |
+| 18电子规则 | 后过渡金属羰基化合物符合18e规则( $Fe(CO)_{5}=8+2\times5=18$ ) | 例外情况:16e平面四边形( $PtCl_{4}^{2-}$ )、14e配位不饱和体系 | ★★★☆ |
+| 羰基配位化学 | CO通过 $\sigma$ donation和 $\pi$ back donation形成反馈键 | IR频率变化:桥连 $CO$ ( $\mu_{2}$ )<端基 $CO$ ( $\mu_{1}$ )<游离 $CO$ ( $2143\mathrm{cm}^{-1}$ ) | ★★★★ |
+| 金属有机历史 | 蔡斯盐(1827)、二茂铁(1951)、维生素B12全合成(1972)里程碑事件 | 结构突破:X射线衍射技术对配合物构型确认的关键作用 | ★★☆ |

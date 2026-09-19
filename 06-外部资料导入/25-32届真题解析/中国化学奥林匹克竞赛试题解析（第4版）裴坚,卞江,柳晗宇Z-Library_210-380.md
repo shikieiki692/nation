@@ -694,7 +694,12 @@ B 的推断过程中需要注意:题目中的信息不足以单纯从化学角�
 
 首先选取以下4个独立的方程式，其中方程式(2) $^{'}$ 是题干中的方程式(1)、(2)叠加得到的。它们的特点是互相之间不能通过叠加表出，但可以叠加表示出另外剩余的两个方程式。求这四个方程式的平衡常数：
 
-<table><tr><td></td><td></td><td> $\Delta_{\text{r}}H_{\text{m}}^{\ominus}/(\text{kJ mol}^{-1})$ </td><td> $\Delta_{\text{r}}S_{\text{m}}^{\ominus}/(\text{J mol}^{-1}\text{ K}^{-1})$ </td><td> $K^{\ominus}$ </td></tr><tr><td>(1)</td><td> $\text{C(s)} + \text{H}_{2}\text{O} \rightleftharpoons \text{CO(g)} + \text{H}_{2}(\text{g})$ </td><td>135.62</td><td>143.18</td><td>14.82</td></tr><tr><td>(2)&#x27;</td><td> $\text{C(s)} + 2\text{H}_{2}\text{O} \rightleftharpoons \text{CO}_{2}(\text{g}) + 2\text{H}_{2}(\text{g})$ </td><td>99.14</td><td>109.45</td><td>12.75</td></tr><tr><td>(3)</td><td> $\text{CaO(s)} + \text{CO}_{2}(\text{g}) \rightleftharpoons \text{CaCO}_{3}(\text{s})$ </td><td>-172.33</td><td>-154.15</td><td>0.9198</td></tr><tr><td>(4)</td><td> $\text{C(s)} + \text{H}_{2}(\text{g}) \rightleftharpoons \text{CH}_{4}(\text{g})$ </td><td>88.06</td><td>-107.04</td><td>0.03196</td></tr></table>
+|  |  | $\Delta_{\text{r}}H_{\text{m}}^{\ominus}/(\text{kJ mol}^{-1})$ | $\Delta_{\text{r}}S_{\text{m}}^{\ominus}/(\text{J mol}^{-1}\text{ K}^{-1})$ | $K^{\ominus}$ |
+| --- | --- | --- | --- | --- |
+| (1) | $\text{C(s)} + \text{H}_{2}\text{O} \rightleftharpoons \text{CO(g)} + \text{H}_{2}(\text{g})$ | 135.62 | 143.18 | 14.82 |
+| (2)' | $\text{C(s)} + 2\text{H}_{2}\text{O} \rightleftharpoons \text{CO}_{2}(\text{g}) + 2\text{H}_{2}(\text{g})$ | 99.14 | 109.45 | 12.75 |
+| (3) | $\text{CaO(s)} + \text{CO}_{2}(\text{g}) \rightleftharpoons \text{CaCO}_{3}(\text{s})$ | -172.33 | -154.15 | 0.9198 |
+| (4) | $\text{C(s)} + \text{H}_{2}(\text{g}) \rightleftharpoons \text{CH}_{4}(\text{g})$ | 88.06 | -107.04 | 0.03196 |
 
 方程式(3)是本题的一个突破点,因为在(3)中只有 $CO_{2}$ 这一种气体,因此可以直接通过(3)的平衡常数得到 $CO_{2}$ 的平衡分压。
 

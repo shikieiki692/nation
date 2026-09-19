@@ -606,7 +606,13 @@ HX 的 $pK_{a}$ 越小， $X^{-}$ 在羰基取代反应中就是越好的离去�
 
 羰基反应中最重要的取代基是烷基或芳基 (R)、酰胺中的氨基 $\left(\mathrm{NH}_{2}\right)$ 、酯中的烷氧基 $\left(\mathrm{RO}^{-}\right)$ 、酸酐中的酯基/酰氧基 $\left(\mathrm{RCO}_{2}^{-}\right)$ 、酰氯中的氯 $\left(\mathrm{Cl}^{-}\right)$ 。离去能力的排序如下：
 
-<table><tr><td>羧酸衍生物</td><td>离去基团,X-</td><td>共轭酸,HX</td><td>HX的pKa</td><td>离去能力</td></tr><tr><td>酰氯</td><td>Cl-</td><td>HCl</td><td>&lt;0</td><td>极好</td></tr><tr><td>酸酐</td><td>RCOO-</td><td>RCO2H</td><td>大约5</td><td>好</td></tr><tr><td>酯</td><td>RO-</td><td>ROH</td><td>大约15</td><td>差</td></tr><tr><td>酰胺</td><td>NH2-</td><td>NH3</td><td>大约25</td><td>非常差</td></tr><tr><td>酮(烷基或芳基衍生物)</td><td>R-</td><td>RH</td><td>&gt;40</td><td>不能做离去基团</td></tr></table>
+| 羧酸衍生物 | 离去基团,X- | 共轭酸,HX | HX的pKa | 离去能力 |
+| --- | --- | --- | --- | --- |
+| 酰氯 | Cl- | HCl | <0 | 极好 |
+| 酸酐 | RCOO- | RCO2H | 大约5 | 好 |
+| 酯 | RO- | ROH | 大约15 | 差 |
+| 酰胺 | NH2- | NH3 | 大约25 | 非常差 |
+| 酮(烷基或芳基衍生物) | R- | RH | >40 | 不能做离去基团 |
 
 我们可以用 $pK_{a}$ 预测当将酰氯和羧酸盐放在一起反应时发生的变化。我们认为羧酸根（此处用甲酸钠， $HCO_{2}Na$ 的甲酸根）会扮演亲核试剂并形成四面体中间体，它会通过三种方式中的一种坍塌。我们直接排除 $Me^{-}$ ，并猜测 $Cl^{-}$ 是比 $HCO_{2}^{-}$ 更好的离去基团，因为 HCl 的酸性远强于甲酸，我们是正确的。甲酸钠与乙酰氯的反应可以得到混合酸酐。
 
@@ -5636,7 +5642,15 @@ C-X 键与两个 C-C 键处于对位交叉式；而在直立键构象中，C-X �
 
 ![](Clayden中文版_211-405_images/c5b14e9e385da9c7213f0c3f044802608c4502297525b8005946c1fb8afe76c2.jpg)
 
-<table><tr><td>X</td><td>平衡常数K</td><td>直立取代与平伏取代的能量差, kJ mol-1</td><td>平伏取代的百分数</td></tr><tr><td>H</td><td>1</td><td>0</td><td>50</td></tr><tr><td>OMe</td><td>2.7</td><td>2.5</td><td>73</td></tr><tr><td>Me</td><td>19</td><td>7.3</td><td>95</td></tr><tr><td>Et</td><td>20</td><td>7.5</td><td>95</td></tr><tr><td>i-Pr</td><td>42</td><td>9.3</td><td>98</td></tr><tr><td>t-Bu</td><td>&gt;3000</td><td>&gt;20</td><td>&gt;99.9</td></tr><tr><td>Ph</td><td>110</td><td>11.7</td><td>99</td></tr></table>
+| X | 平衡常数K | 直立取代与平伏取代的能量差, kJ mol-1 | 平伏取代的百分数 |
+| --- | --- | --- | --- |
+| H | 1 | 0 | 50 |
+| OMe | 2.7 | 2.5 | 73 |
+| Me | 19 | 7.3 | 95 |
+| Et | 20 | 7.5 | 95 |
+| i-Pr | 42 | 9.3 | 98 |
+| t-Bu | >3000 | >20 | >99.9 |
+| Ph | 110 | 11.7 | 99 |
 
 注意以下几点 (在 Chapter 12 中提到过的思路).
 

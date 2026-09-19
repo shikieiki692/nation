@@ -206,7 +206,12 @@
 
 表 1-1 基于试样用量的分析方法分类  
 
-<table><tr><td>分析方法</td><td>试样用量/mg</td><td>试液体积/mL</td></tr><tr><td>常量分析(macro)</td><td>&gt;100</td><td>&gt;10</td></tr><tr><td>半微量分析(semimicro)</td><td>10~100</td><td>1~10</td></tr><tr><td>微量分析(micro)</td><td>0.1~10</td><td>0.01~1</td></tr><tr><td>超微量分析(ultramicro)</td><td>&lt;0.1</td><td>&lt;0.01</td></tr></table>
+| 分析方法 | 试样用量/mg | 试液体积/mL |
+| --- | --- | --- |
+| 常量分析(macro) | >100 | >10 |
+| 半微量分析(semimicro) | 10~100 | 1~10 |
+| 微量分析(micro) | 0.1~10 | 0.01~1 |
+| 超微量分析(ultramicro) | <0.1 | <0.01 |
 
 根据被分析组分在试样中的相对含量的高低，可把分析方法分为常量组分（major， $>1\%$ ）分析、微量组分（micro， $0.01\% \sim 1\%$ ）分析、痕量组分(trace， $< 0.01\%$ )分析和超痕量组分（ultratrace，约 $0.0001\%$ )分析。
 
@@ -4525,7 +4530,15 @@ $$
 
 表 5-4 几种常见溶剂的 $\mathrm{pK}$ ,及相对介电常数(25℃)  
 
-<table><tr><td>溶剂</td><td>pKs</td><td>εr</td><td>溶剂</td><td>pKs</td><td>εr</td></tr><tr><td>水</td><td>14.00</td><td>78.5</td><td>乙腈</td><td>28.5</td><td>36.6</td></tr><tr><td>甲醇</td><td>16.7</td><td>31.5</td><td>甲基异丁酮</td><td>&gt;30</td><td>13.1</td></tr><tr><td>乙醇</td><td>19.1</td><td>24.0</td><td>二甲基甲酰胺</td><td>18.0(20℃)</td><td>36.7</td></tr><tr><td>甲酸</td><td>6.22</td><td>58.5(16℃)</td><td>吡啶</td><td>-</td><td>12.3</td></tr><tr><td>乙酸</td><td>14.45</td><td>6.13</td><td>二氧六烷</td><td>-</td><td>2.21</td></tr><tr><td>乙酸酐</td><td>14.5</td><td>20.5</td><td>苯</td><td>-</td><td>2.3</td></tr><tr><td>乙二胺</td><td>15.3</td><td>14.2</td><td>三氯甲烷</td><td>-</td><td>4.81</td></tr></table>
+| 溶剂 | pKs | εr | 溶剂 | pKs | εr |
+| --- | --- | --- | --- | --- | --- |
+| 水 | 14.00 | 78.5 | 乙腈 | 28.5 | 36.6 |
+| 甲醇 | 16.7 | 31.5 | 甲基异丁酮 | >30 | 13.1 |
+| 乙醇 | 19.1 | 24.0 | 二甲基甲酰胺 | 18.0(20℃) | 36.7 |
+| 甲酸 | 6.22 | 58.5(16℃) | 吡啶 | - | 12.3 |
+| 乙酸 | 14.45 | 6.13 | 二氧六烷 | - | 2.21 |
+| 乙酸酐 | 14.5 | 20.5 | 苯 | - | 2.3 |
+| 乙二胺 | 15.3 | 14.2 | 三氯甲烷 | - | 4.81 |
 
 # （2）溶剂对溶质酸碱性的影响
 
@@ -5072,7 +5085,12 @@ EDTA与无色的金属离子生成无色的配位化合物，与有色金属离�
 
 表 6-1 有色 M-EDTA 配位化合物  
 
-<table><tr><td>配位化合物</td><td>颜色</td><td>配位化合物</td><td>颜色</td></tr><tr><td>CoY</td><td>紫红</td><td>[Fe(OH)Y]2-</td><td>褐(pH≈6)</td></tr><tr><td>[CrY]-</td><td>深紫</td><td>[FeY]-</td><td>黄</td></tr><tr><td>[Cr(OH)Y]2-</td><td>蓝(pH&gt;10)</td><td>[MnY]2-</td><td>紫红</td></tr><tr><td>[CuY]2-</td><td>蓝</td><td>[NiY]2-</td><td>蓝绿</td></tr></table>
+| 配位化合物 | 颜色 | 配位化合物 | 颜色 |
+| --- | --- | --- | --- |
+| CoY | 紫红 | [Fe(OH)Y]2- | 褐(pH≈6) |
+| [CrY]- | 深紫 | [FeY]- | 黄 |
+| [Cr(OH)Y]2- | 蓝(pH>10) | [MnY]2- | 紫红 |
+| [CuY]2- | 蓝 | [NiY]2- | 蓝绿 |
 
 # 6.2 配位平衡常数
 
@@ -5736,7 +5754,15 @@ $$
 
 表 6-2 常用的金属离子指示剂  
 
-<table><tr><td rowspan="2">指示剂</td><td rowspan="2">适用的 pH 范围</td><td colspan="2">颜色变化</td><td rowspan="2">直接滴定的离子</td><td rowspan="2">配制</td><td rowspan="2">注意事项</td></tr><tr><td>In</td><td>MIn</td></tr><tr><td>铬黑 T (eriochrome black T) 简称 EB 或 EBT</td><td>8~10</td><td>蓝</td><td>红</td><td>\( \mathrm{pH} = {10},{\mathrm{Mg}}^{2 + } \) 、 \( {\mathrm{Zn}}^{2 + },{\mathrm{Cd}}^{2 + } \) 、 \( {\mathrm{Pb}}^{2 + },{\mathrm{Mn}}^{2 + } \) 、稀 土元素离子</td><td>1 : 100NaCl (固体)</td><td>\( {\mathrm{Fe}}^{3 + }\text{、}{\mathrm{Al}}^{3 + } \) 、 \( {\mathrm{Cu}}^{2 + } \) 、 \( {\mathrm{Ni}}^{2 + } \) 等 离子封闭 EBT</td></tr><tr><td>酸性铬蓝 K(acid chrome blue K)</td><td>8~13</td><td>蓝</td><td>红</td><td>\( \mathrm{pH} = {10},{\mathrm{Mg}}^{2 + } \) 、 \( {\mathrm{Zn}}^{2 + },{\mathrm{Mn}}^{2 + } \) ; \( \mathrm{pH} = {13},{\mathrm{Ca}}^{2 + } \)</td><td>1 : 100NaCl (固体)</td><td></td></tr><tr><td>二甲酚橙 (xylenol orange) 简称 XO</td><td>&lt;6</td><td>亮黄</td><td>红</td><td>\( \mathrm{pH} &lt; 1,{\mathrm{ZrO}}^{2 + } \) ; \( \mathrm{pH} = 1 \sim  {3.5} \) , \( {\mathrm{Bi}}^{3 + },{\mathrm{Th}}^{4 + } \) ; \( \mathrm{pH} = 5 \sim  6,{\mathrm{Tl}}^{3 + } \) 、 \( {\mathrm{Zn}}^{2 + },{\mathrm{Pb}}^{2 + } \) 、 \( {\mathrm{Cd}}^{2 + },{\mathrm{Hg}}^{2 + } \) 、稀土 元素离子</td><td>\( 5\mathrm{\;g} \cdot  {\mathrm{L}}^{-1} \) 水溶液</td><td>\( {\mathrm{Fe}}^{3 + } \) 、 \( {\mathrm{Al}}^{3 + } \) 、 \( {\mathrm{Ni}}^{2 + } \) 、 \( \mathrm{Ti}\left( \mathrm{IV}\right) \) 等离子封闭 XO</td></tr><tr><td>磺基水杨酸 (sulfosalicylic acid)简称 Ssal</td><td>1.5~2.5</td><td>无色</td><td>紫红</td><td>\( \mathrm{pH} = {1.5} \sim  {2.5} \) , \( {\mathrm{Fe}}^{3 + } \)</td><td>\( {50}\mathrm{\;g} \cdot  {\mathrm{L}}^{-1} \) 水溶液</td><td>Ssal 本身无 色, \( {\left\lbrack  \mathrm{FeY}\right\rbrack  }^{ - } \) 呈 黄色</td></tr><tr><td>钙指示剂 (calconcarboxy LIC acid)简称 NN</td><td>\( {12} \sim  {13} \)</td><td>蓝</td><td>红</td><td>\( \mathrm{pH} = {12} \sim  {13} \) , \( {\mathrm{Ca}}^{2 + } \)</td><td>1 : 100NaCl (固体)</td><td>Ti(IV)、 \( {\mathrm{Fe}}^{3 + } \) 、 \( {\mathrm{Al}}^{3 + } \) 、 \( {\mathrm{Cu}}^{2 + } \) 、 \( {\mathrm{Ni}}^{2 + } \) 、 \( {\mathrm{Co}}^{2 + } \) 、 \( {\mathrm{Mn}}^{2 + } \) 等离子 封闭 NN</td></tr><tr><td>1-(2-吡啶偶氮) -2-萘酚 [1-(2-pyridylazo) -2-naphthol] 简称 PAN</td><td>\( 2 \sim  {12} \)</td><td>黄</td><td>紫红</td><td>\( \mathrm{pH} = 2 \sim  3 \) , \( {\mathrm{Th}}^{4 + },{\mathrm{Bi}}^{3 + } \) ; \( \mathrm{pH} = 4 \sim  5,{\mathrm{Cu}}^{2 + } \) 、 \( {\mathrm{Ni}}^{2 + },{\mathrm{Pb}}^{2 + } \) 、 \( {\mathrm{Cd}}^{2 + },{\mathrm{Zn}}^{2 + } \) 、 \( {\mathrm{Mn}}^{2 + },{\mathrm{Fe}}^{2 + } \)</td><td>\( 1\mathrm{\;g} \cdot  {\mathrm{L}}^{-1} \) 乙醇溶液</td><td>MIn 在水中 溶解度很小, 为防止 PAN 催化, 滴定时 需加热</td></tr></table>
+| 指示剂 | 适用的 pH 范围 | 颜色变化 |  | 直接滴定的离子 | 配制 | 注意事项 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 指示剂 | 适用的 pH 范围 | In | MIn | 直接滴定的离子 | 配制 | 注意事项 |
+| 铬黑 T (eriochrome black T) 简称 EB 或 EBT | 8~10 | 蓝 | 红 | \( \mathrm{pH} = {10},{\mathrm{Mg}}^{2 + } \) 、 \( {\mathrm{Zn}}^{2 + },{\mathrm{Cd}}^{2 + } \) 、 \( {\mathrm{Pb}}^{2 + },{\mathrm{Mn}}^{2 + } \) 、稀 土元素离子 | 1 : 100NaCl (固体) | \( {\mathrm{Fe}}^{3 + }\text{、}{\mathrm{Al}}^{3 + } \) 、 \( {\mathrm{Cu}}^{2 + } \) 、 \( {\mathrm{Ni}}^{2 + } \) 等 离子封闭 EBT |
+| 酸性铬蓝 K(acid chrome blue K) | 8~13 | 蓝 | 红 | \( \mathrm{pH} = {10},{\mathrm{Mg}}^{2 + } \) 、 \( {\mathrm{Zn}}^{2 + },{\mathrm{Mn}}^{2 + } \) ; \( \mathrm{pH} = {13},{\mathrm{Ca}}^{2 + } \) | 1 : 100NaCl (固体) |  |
+| 二甲酚橙 (xylenol orange) 简称 XO | <6 | 亮黄 | 红 | \( \mathrm{pH} < 1,{\mathrm{ZrO}}^{2 + } \) ; \( \mathrm{pH} = 1 \sim {3.5} \) , \( {\mathrm{Bi}}^{3 + },{\mathrm{Th}}^{4 + } \) ; \( \mathrm{pH} = 5 \sim 6,{\mathrm{Tl}}^{3 + } \) 、 \( {\mathrm{Zn}}^{2 + },{\mathrm{Pb}}^{2 + } \) 、 \( {\mathrm{Cd}}^{2 + },{\mathrm{Hg}}^{2 + } \) 、稀土 元素离子 | \( 5\mathrm{\;g} \cdot {\mathrm{L}}^{-1} \) 水溶液 | \( {\mathrm{Fe}}^{3 + } \) 、 \( {\mathrm{Al}}^{3 + } \) 、 \( {\mathrm{Ni}}^{2 + } \) 、 \( \mathrm{Ti}\left( \mathrm{IV}\right) \) 等离子封闭 XO |
+| 磺基水杨酸 (sulfosalicylic acid)简称 Ssal | 1.5~2.5 | 无色 | 紫红 | \( \mathrm{pH} = {1.5} \sim {2.5} \) , \( {\mathrm{Fe}}^{3 + } \) | \( {50}\mathrm{\;g} \cdot {\mathrm{L}}^{-1} \) 水溶液 | Ssal 本身无 色, \( {\left\lbrack \mathrm{FeY}\right\rbrack }^{ - } \) 呈 黄色 |
+| 钙指示剂 (calconcarboxy LIC acid)简称 NN | \( {12} \sim {13} \) | 蓝 | 红 | \( \mathrm{pH} = {12} \sim {13} \) , \( {\mathrm{Ca}}^{2 + } \) | 1 : 100NaCl (固体) | Ti(IV)、 \( {\mathrm{Fe}}^{3 + } \) 、 \( {\mathrm{Al}}^{3 + } \) 、 \( {\mathrm{Cu}}^{2 + } \) 、 \( {\mathrm{Ni}}^{2 + } \) 、 \( {\mathrm{Co}}^{2 + } \) 、 \( {\mathrm{Mn}}^{2 + } \) 等离子 封闭 NN |
+| 1-(2-吡啶偶氮) -2-萘酚 [1-(2-pyridylazo) -2-naphthol] 简称 PAN | \( 2 \sim {12} \) | 黄 | 紫红 | \( \mathrm{pH} = 2 \sim 3 \) , \( {\mathrm{Th}}^{4 + },{\mathrm{Bi}}^{3 + } \) ; \( \mathrm{pH} = 4 \sim 5,{\mathrm{Cu}}^{2 + } \) 、 \( {\mathrm{Ni}}^{2 + },{\mathrm{Pb}}^{2 + } \) 、 \( {\mathrm{Cd}}^{2 + },{\mathrm{Zn}}^{2 + } \) 、 \( {\mathrm{Mn}}^{2 + },{\mathrm{Fe}}^{2 + } \) | \( 1\mathrm{\;g} \cdot {\mathrm{L}}^{-1} \) 乙醇溶液 | MIn 在水中 溶解度很小, 为防止 PAN 催化, 滴定时 需加热 |
 
 虽然指示剂的选择可以通过指示剂的有关常数进行理论计算确定，但是金属离子指示剂的常数尚不齐全，有时无法计算。所以在实际工作中大多采用实验方法来选择指示剂，即先试验其终点时颜色变化的敏锐程度，然后检查滴定结果是否准确，这样就可确定该指示剂是否符合要求。
 
@@ -7269,7 +7295,20 @@ $$
 
 表 7-1 一些常用的氧化还原指示剂  
 
-<table><tr><td rowspan="2">指示剂</td><td colspan="2">颜色变化</td><td rowspan="2">\( \varphi_{\mathrm {in}}^{\ominus&#x27;}/\mathrm {V} \)</td></tr><tr><td>氧化态</td><td>还原态</td></tr><tr><td>酚藏花红</td><td>红色</td><td>无色</td><td>0.28</td></tr><tr><td>四磺酸基靛蓝</td><td>蓝色</td><td>无色</td><td>0.36</td></tr><tr><td>亚甲基蓝</td><td>蓝</td><td>无色</td><td>0.53</td></tr><tr><td>二苯胺</td><td>紫</td><td>无色</td><td>0.75</td></tr><tr><td>乙氧基苯胺</td><td>黄色</td><td>红色</td><td>0.76</td></tr><tr><td>二苯胺磺酸钠</td><td>紫红</td><td>无色</td><td>0.85</td></tr><tr><td>磺酸二苯基联苯胺</td><td>紫色</td><td>无色</td><td>0.87</td></tr><tr><td>嘧啶合铁</td><td>浅蓝色</td><td>红色</td><td>1.147</td></tr><tr><td>1,10-邻二氮菲-亚铁</td><td>浅蓝</td><td>红</td><td>1.06</td></tr><tr><td>硝基邻二氮菲-亚铁</td><td>浅蓝</td><td>紫红</td><td>1.25</td></tr><tr><td>嘧啶合钌</td><td>浅蓝色</td><td>黄色</td><td>1.29</td></tr></table>
+| 指示剂 | 颜色变化 |  | \( \varphi_{\mathrm {in}}^{\ominus'}/\mathrm {V} \) |
+| --- | --- | --- | --- |
+| 指示剂 | 氧化态 | 还原态 | \( \varphi_{\mathrm {in}}^{\ominus'}/\mathrm {V} \) |
+| 酚藏花红 | 红色 | 无色 | 0.28 |
+| 四磺酸基靛蓝 | 蓝色 | 无色 | 0.36 |
+| 亚甲基蓝 | 蓝 | 无色 | 0.53 |
+| 二苯胺 | 紫 | 无色 | 0.75 |
+| 乙氧基苯胺 | 黄色 | 红色 | 0.76 |
+| 二苯胺磺酸钠 | 紫红 | 无色 | 0.85 |
+| 磺酸二苯基联苯胺 | 紫色 | 无色 | 0.87 |
+| 嘧啶合铁 | 浅蓝色 | 红色 | 1.147 |
+| 1,10-邻二氮菲-亚铁 | 浅蓝 | 红 | 1.06 |
+| 硝基邻二氮菲-亚铁 | 浅蓝 | 紫红 | 1.25 |
+| 嘧啶合钌 | 浅蓝色 | 黄色 | 1.29 |
 
 许多氧化还原指示剂，尤其是可逆性不太好的指示剂，反应机理较为复杂。例如，常用的二苯胺磺酸盐，它被氧化后，首先不可逆地形成无色的二苯联苯胺磺酸盐，然后再进一步被可逆地氧化成紫色的二苯联苯胺磺酸紫。二苯胺磺酸钠的反应过程如下：
 

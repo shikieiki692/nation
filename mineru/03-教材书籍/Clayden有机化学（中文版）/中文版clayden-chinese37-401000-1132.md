@@ -6614,7 +6614,10 @@ Chemical reaction equation showing synthesis of a bis-phenyl derivative using Pd
 
 您会注意到，Buchwald-Hartwig 化学与芳香亲核取代反应 ( $S_{N}Ar$ , Chapter 22) 完成了相同的任务：卤素被亲核试剂取代。那么区别在哪呢？
 
-<table><tr><td></td><td> $S_NAr$ </td><td>Buchwald-Hartwig</td></tr><tr><td>离去基团</td><td>F &gt; Cl &gt; Br &gt; I氟不是最好的离去基团,但它会加速加成步骤的方式</td><td>I &gt; Br &gt; Cl &gt;&gt; F碘在氧化加成步骤表现最好不过氯同样能完成反应 而且芳基氯更便宜</td></tr><tr><td>区域化学</td><td>必须有与卤素处于邻对位的吸电子基团</td><td>任何取代模式都可接受</td></tr></table>
+|  | $S_NAr$ | Buchwald-Hartwig |
+| --- | --- | --- |
+| 离去基团 | F > Cl > Br > I氟不是最好的离去基团,但它会加速加成步骤的方式 | I > Br > Cl >> F碘在氧化加成步骤表现最好不过氯同样能完成反应 而且芳基氯更便宜 |
+| 区域化学 | 必须有与卤素处于邻对位的吸电子基团 | 任何取代模式都可接受 |
 
 下面控制凝血的药物的合成法为我们提供了回顾这两种方法的机会。这个化合物童颜给具有一个中心哌嗪环，切断右侧的链，会显示出可通过与合适的苄基卤或用还原胺化反应来官能化的胺。
 

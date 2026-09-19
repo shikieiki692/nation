@@ -381,7 +381,13 @@ TABLE 1.1 Swain–Scott Nucleophilicity ConstantsTABL 1.1 Swain-Scot Nudieophili
 
 TABLE 1.2 Qualitative Classification of Nucleophiles, BasedARlF1? Oialiathe Claesifrsinn nf Nelonhiae Raea on the Swain–Scott Nucleophilicity Constants CH In the swain-scott Nuc keophilicity Constants noy $\pmb { n } _ { \mathtt { C H } _ { 3 } | }$   
 
-<table><tr><td>Nucleophiles</td><td>Relative Rate</td><td>Characterization</td></tr><tr><td>RS-, HS-, I-</td><td>&gt;105</td><td>Strong</td></tr><tr><td>N3-, CN-, RO-, OH-, Br-</td><td>104</td><td>Good</td></tr><tr><td>NH3, RCO2-, F-, Cl-</td><td>103</td><td>Moderate</td></tr><tr><td>ROH, H2O</td><td>1</td><td>Weak</td></tr><tr><td>RCO2H</td><td>10-2</td><td>Very weak</td></tr></table>
+| Nucleophiles | Relative Rate | Characterization |
+| --- | --- | --- |
+| RS-, HS-, I- | >105 | Strong |
+| N3-, CN-, RO-, OH-, Br- | 104 | Good |
+| NH3, RCO2-, F-, Cl- | 103 | Moderate |
+| ROH, H2O | 1 | Weak |
+| RCO2H | 10-2 | Very weak |
 
 with stronger electrophiles such ashsronter electroohsschs BF $\mathrm { B F } _ { 3 }$ or neutral organosilicon compounds in general. Theneutraloranosiconcompounds in generl.Ih usefulness of a given nucleophile thus depends enormously on the reaction conditions.sefulness of a given nucleophik thus pends enomouslyon the reaction conditions
 

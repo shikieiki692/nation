@@ -5156,7 +5156,19 @@ UV absorption in ethene and butadiene
 
 不同颜色共轭化合物的对应关系
 
-<table><tr><td>吸收频率, nm</td><td>吸收颜色</td><td>透过颜色</td><td> $R(CH=CH)_nR, n=$ </td></tr><tr><td>200–400</td><td>紫外</td><td>—</td><td>&lt; 8</td></tr><tr><td>400</td><td>紫罗兰色</td><td>黄绿色</td><td>8</td></tr><tr><td>425</td><td>靛蓝色</td><td>黄色</td><td>9</td></tr><tr><td>450</td><td>蓝色</td><td>橙色</td><td>10</td></tr><tr><td>490</td><td>蓝绿色</td><td>红色</td><td>11</td></tr><tr><td>510</td><td>绿色</td><td>紫色</td><td></td></tr><tr><td>530</td><td>黄绿色</td><td>紫罗兰色</td><td></td></tr><tr><td>550</td><td>黄色</td><td>靛蓝色</td><td></td></tr><tr><td>590</td><td>橙色</td><td>蓝色</td><td></td></tr><tr><td>640</td><td>红色</td><td>蓝绿色</td><td></td></tr><tr><td>730</td><td>紫色</td><td>绿色</td><td></td></tr></table>
+| 吸收频率, nm | 吸收颜色 | 透过颜色 | $R(CH=CH)_nR, n=$ |
+| --- | --- | --- | --- |
+| 200–400 | 紫外 | — | < 8 |
+| 400 | 紫罗兰色 | 黄绿色 | 8 |
+| 425 | 靛蓝色 | 黄色 | 9 |
+| 450 | 蓝色 | 橙色 | 10 |
+| 490 | 蓝绿色 | 红色 | 11 |
+| 510 | 绿色 | 紫色 |  |
+| 530 | 黄绿色 | 紫罗兰色 |  |
+| 550 | 黄色 | 靛蓝色 |  |
+| 590 | 橙色 | 蓝色 |  |
+| 640 | 红色 | 蓝绿色 |  |
+| 730 | 紫色 | 绿色 |  |
 
 在化学中，染料 (dye) 指可溶性着色剂，色素 (pigment) 则由不溶性有色颗粒组成。在生物学中，色素一词用于指代任何有颜色的化合物。颜料 (Dyeing pigments) 常指无机化合物，它们的颜色虽然不是因为共轭，但却也和轨道间的间隙有关。
 

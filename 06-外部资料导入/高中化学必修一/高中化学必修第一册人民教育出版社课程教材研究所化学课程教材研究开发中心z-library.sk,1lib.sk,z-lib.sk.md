@@ -3212,7 +3212,14 @@ Na Mg Al Si P S Cl
 
 门捷列夫还预言了锗的存在和性质，多年后也得到了证实。
 
-<table><tr><td></td><td>预测</td><td>储</td></tr><tr><td>相对原子质量</td><td>72</td><td>72.6</td></tr><tr><td>密度 $\left( {\mathrm{g} \cdot {\mathrm{cm}}^{-3}}\right)$ </td><td>5.5</td><td>5.32</td></tr><tr><td>氧化物</td><td> ${\mathrm{MO}}_{2}$ </td><td> ${\mathrm{GeO}}_{2}$ </td></tr><tr><td>氧化物的密度 $\left( {\mathrm{g} \cdot {\mathrm{cm}}^{-3}}\right)$ </td><td>4.7</td><td>4.72</td></tr><tr><td>氯化物</td><td> ${\mathrm{MCI}}_{4}$ </td><td> ${\mathrm{GeCl}}_{4}$ </td></tr><tr><td>氯化物的沸点°C</td><td>&lt;100</td><td>84</td></tr></table>
+|  | 预测 | 储 |
+| --- | --- | --- |
+| 相对原子质量 | 72 | 72.6 |
+| 密度 $\left( {\mathrm{g} \cdot {\mathrm{cm}}^{-3}}\right)$ | 5.5 | 5.32 |
+| 氧化物 | ${\mathrm{MO}}_{2}$ | ${\mathrm{GeO}}_{2}$ |
+| 氧化物的密度 $\left( {\mathrm{g} \cdot {\mathrm{cm}}^{-3}}\right)$ | 4.7 | 4.72 |
+| 氯化物 | ${\mathrm{MCI}}_{4}$ | ${\mathrm{GeCl}}_{4}$ |
+| 氯化物的沸点°C | <100 | 84 |
 
 ## 练习与应用
 
