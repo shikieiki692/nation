@@ -177,23 +177,36 @@ $$\\mathrm{R^1N(Cl)N(Cl)R^3 \\xrightarrow{H_2O} R^1C(=O)R^2 + R^3C(=O)R^4 + NH_4
 }
 
 # 节级答案边界（命中即截断题面区）
+# 2026-09-20: 增加「引用块 + 加粗」形态（> **答案**：…），此前两种判据均漏，
+#   导致 9 处答案混入学生版题面（第二轮习题集 化学原理I/II、结构化学二）。
 ANS_SECTION = re.compile(
-    r"^(?:#{2,3}\s*(?:参考答案|题目与答案|答案)\b[^\n]*"
+    r"^(?:>?\s*)(?:#{2,3}\s*(?:参考答案|题目与答案|答案)\b[^\n]*"
     r"|\*\*答案[:：][^\n]*"
+    r"|\*\*答案\*\*\s*[:：][^\n]*"
     r"|解题思路\s*$"
     r"|【解析】"
     r"|解[:：]\s*\S"
     r"|\^\s*原文：)",
 )
-# 交错型答案块起点（行首「答案：」/「答案:」）
-ANS_INLINE = re.compile(r"^答案[:：]")
+# 交错型答案块起点（行首「答案：」/「答案:」，含引用块与加粗包裹形态）
+ANS_INLINE = re.compile(r"^(?:>\s*)?(?:\*\*)?答案(?:\*\*)?\s*[:：]")
 # 交错型答案块的终止：下一个标题或数字小问行
 SUBQ = re.compile(r"^(?:#{1,3}\s+|\d+(?:\.\d+)+\s|\(\d+\)|（\d+）)")
 
 # 残留答案标记（汇编后复扫）
 RESIDUAL = re.compile(
-    r"^(?:#{2,3}\s*(?:参考答案|题目与答案)\b|\*\*答案[:：]|^答案[:：]|解题思路\s*$|【解析】|解[:：]\s*\S)",
+    r"^(?:>?\s*)(?:#{2,3}\s*(?:参考答案|题目与答案)\b|\*\*答案[:：]|\*\*答案\*\*\s*[:：]"
+    r"|答案(?:\*\*)?\s*[:：]|解题思路\s*$|【解析】|解[:：]\s*\S)",
     re.M,
+)
+
+# 2026-09-20: 正文区 FM/台账字段兜底（历史污染源，参见题组Word质量体检报告）
+# 注意：不含 title/type/updated 等易与题面正文撞车的宽松词，只列本库确定的台账字段。
+BODY_FM_FIELD = re.compile(
+    r"^(?:used_in|source_category|source_grade|source_subject|subject_module"
+    r"|submodule|teaching_level|exam_stage|fidelity|syllabus_codes"
+    r"|knowledge_points|question_type|question_count|difficulty_range"
+    r"|exam_coverage|assembled_from|deprecation_reason)\s*[:：]"
 )
 
 _fm_cache = {}
@@ -263,6 +276,13 @@ def extract_stem(path: Path):
             continue
         if re.match(r"^#{2,3}\s*题目\s*$", ln.strip()):
             continue                        # 「## 题目」节标题（卷内已有「第 N 题」标题）
+        # 2026-09-20: 台账/FM 字段兜底过滤——防止正文区出现 FM 字段
+        # （历史上 mark_used.py 曾把 used_in 追加到正文末尾，strip_fm 剥不到，
+        #  该行 + 紧邻 --- 被 Pandoc 当 YAML 元数据块 → 吞掉紧随的整道题。
+        #  详见 09-审计报告/2026-09-20-题组Word质量体检.md）
+        if BODY_FM_FIELD.match(ln.strip()):
+            warns.append(f"正文区 FM 字段已剥离: {ln.strip()[:50]!r}")
+            continue
         if mode == "interleaved-skip":
             if not ln.strip() or SUBQ.match(ln):
                 mode = "normal"            # 空行或新小问 → 结束跳过
@@ -280,6 +300,10 @@ def extract_stem(path: Path):
     stem = "\n".join(out).strip()
     # 首部残线：元信息块被过滤后可能残留孤立 --- / 空行
     stem = re.sub(r"^(?:\s|---)+", "", stem)
+    # 2026-09-20: 尾部孤立分隔线——答案区被 break 截断时，其上方 --- 已先入 out，
+    # 残留「...题面\n\n---」。该 --- 若与上一行 FM 字段相邻会被 Pandoc 当元数据块尾，
+    # 故剥离尾部连续的 --- 与空行（不动题面内部的 ---）。
+    stem = re.sub(r"(?:\n+---)+\s*$", "", stem).strip()
     # H1 降级（题面区中间出现的 # 一级标题 → ###）
     stem = re.sub(r"(?m)^# (.+)$", r"### \1", stem)
     # 复扫残留
