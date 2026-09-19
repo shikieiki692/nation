@@ -10,7 +10,7 @@
 分级：ERROR（阻断，exit 1）/ WARNING（登记不阻断）/ INFO。
 铁律：扫描文件数为 0 时直接 FAIL（防静默失效）；输出受检文件数。
 """
-import os, re, sys, argparse
+import os, re, sys, json, argparse
 
 # 从脚本位置逐级向上找 vault（含 04-课件 的目录），防移位后层级变化
 _here = os.path.dirname(os.path.abspath(__file__))
@@ -32,6 +32,31 @@ EMOJI = re.compile(r"[\U0001F300-\U0001FAFF\u2B00-\u2BFF\u2728\u274C\u2757\U0001
 PAT_ITEM = re.compile(r"^\*\*(\d{1,2})\.\*\*[ \t]*", re.A)
 PAT_ITEM_T = re.compile(r"^\*\*(\d{1,2})\.[ \t]+\[.*\][ \t]*\S.*\*\*[ \t]*", re.A)  # **26. [届次] 题名**
 PAT_BARE = re.compile(r"^(\d{1,2})\.[ \t]+", re.A)
+
+# 考纲注册表（教学价值战 B1）：`02-考纲条目/` FM syllabus_code 的固化快照
+SYL_PATH = os.path.join(os.path.dirname(_here), "data", "syllabus_registry.json")
+
+def load_syllabus_labels():
+    """返回注册表 label 集合（§NN 名 / 决赛NN 名）；缺失时返回 None（降级跳过码校验）"""
+    try:
+        reg = json.load(open(SYL_PATH, encoding="utf-8"))
+    except Exception:
+        return None
+    labels = set()
+    for r in reg:
+        code = str(r["code"])
+        title = r["title"]
+        if r["stage"] == "决赛":
+            m_ = re.search(r"决赛(\d+)", title)
+            name = re.sub(r"^决赛\d+-", "", title)
+            labels.add(f"决赛{int(m_.group(1)):02d} {name}")
+        elif code.isdigit():
+            name = re.sub(r"^\d+-", "", title)
+            labels.add(f"§{int(code):02d} {name}")
+    return labels
+
+
+SYLLABUS_LABELS = load_syllabus_labels()
 
 
 def fm_of(text):
@@ -150,6 +175,24 @@ def check(rel):
     # 7 ⭐ 残留（铁律：在役清零）
     if "⭐" in text:
         E.append("⭐ 难度标记残留")
+    # 8 学习目标考纲对齐（教学价值战 B1）：LO 节须含「> 对齐考纲：」且码在注册表
+    m_lo = re.search(r"^##[ \t]+学习目标.*?[ \t]*\r?$", text, re.M)
+    if m_lo:
+        seg = text[m_lo.end():]
+        nxt = re.search(r"^##[ \t]+", seg, re.M)
+        seg = seg[:nxt.start()] if nxt else seg
+        bq = re.search(r"^>[ \t]*对齐考纲：(.+?)[ \t]*\r?$", seg, re.M)
+        if not bq:
+            W.append("LO 节缺「> 对齐考纲：」blockquote（未锚定考纲）")
+        elif SYLLABUS_LABELS is not None:
+            codes = [c.strip() for c in re.split(r"[·;；]", bq.group(1)) if c.strip()]
+            bad = [c for c in codes if c not in SYLLABUS_LABELS]
+            if bad:
+                E.append(f"LO 锚点码不在注册表: {bad}")
+            else:
+                I.append(f"LO对齐{len(codes)}码")
+        else:
+            I.append("LO对齐(注册表缺失,码未校验)")
     I.append(f"练习节×{sum(1 for _,_,k in zs if k=='ex')} 答案节×{sum(1 for _,_,k in zs if k=='ans')} 题{len(set(q_nums))}/答{len(set(a_nums))} 图{len(imgs)}")
     return E, W, I
 
