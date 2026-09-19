@@ -105,7 +105,7 @@ $$
 
 在 $340 \mathrm{~K}$ 测得实验数据如下
 
-<table><tr><td>t/min</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td> $c(N_2O_5)/(\mathrm{mol}·\mathrm{L}^{-1})$ </td><td>1.00</td><td>0.70</td><td>0.50</td><td>0.35</td><td>0.25</td><td>0.17</td></tr></table>
+<table><tr><td>t/min</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td> $c(N_2O_5)/(\mathrm{mol}\cdot\mathrm{L}^{-1})$ </td><td>1.00</td><td>0.70</td><td>0.50</td><td>0.35</td><td>0.25</td><td>0.17</td></tr></table>
 
 试计算该反应进行 1 min 和 3 min 时的反应速率。
 
@@ -228,7 +228,7 @@ $$
 
 在一定的温度下,实验测得下列数据
 
-<table><tr><td>实验编号</td><td> $c(H_2PO_2^-)/(\mathrm{mol}·\mathrm{L}^{-1})$ </td><td> $c(OH^-)/(\mathrm{mol}·\mathrm{L}^{-1})$ </td><td> $v/(\mathrm{mol}·\mathrm{L}^{-1}·\mathrm{s}^{-1})$ </td></tr><tr><td>1</td><td>0.10</td><td>0.10</td><td> $5.30×10^{-9}$ </td></tr><tr><td>2</td><td>0.50</td><td>0.10</td><td> $2.67×10^{-8}$ </td></tr><tr><td>3</td><td>0.50</td><td>0.40</td><td> $4.25×10^{-7}$ </td></tr></table>
+<table><tr><td>实验编号</td><td> $c(H_2PO_2^-)/(\mathrm{mol}\cdot\mathrm{L}^{-1})$ </td><td> $c(OH^-)/(\mathrm{mol}\cdot\mathrm{L}^{-1})$ </td><td> $v/(\mathrm{mol}\cdot\mathrm{L}^{-1}·\mathrm{s}^{-1})$ </td></tr><tr><td>1</td><td>0.10</td><td>0.10</td><td> $5.30×10^{-9}$ </td></tr><tr><td>2</td><td>0.50</td><td>0.10</td><td> $2.67×10^{-8}$ </td></tr><tr><td>3</td><td>0.50</td><td>0.40</td><td> $4.25×10^{-7}$ </td></tr></table>
 
 试求:(1) 速率方程式;
 
@@ -836,7 +836,7 @@ D. $1100^{\circ}$ C 时,此反应的 K 值可能为 0.9
 
 7 一定温度下,按下式发生分解反应: $N_{2}O_{5}(g) \rightleftharpoons 2NO_{2}(g) + 1/2O_{2}(g)$ 实验测得的数据如下表:
 
-<table><tr><td>时间/s</td><td>0</td><td>500</td><td>1000</td><td>1500</td><td>2000</td><td>2500</td><td>3000</td></tr><tr><td> $c(N_2O_5)/(\mathrm{mol}·\mathrm{L}^{-1})$ </td><td>5.00</td><td>3.52</td><td>2.4</td><td>1.75</td><td>1.23</td><td>0.87</td><td>0.61</td></tr></table>
+<table><tr><td>时间/s</td><td>0</td><td>500</td><td>1000</td><td>1500</td><td>2000</td><td>2500</td><td>3000</td></tr><tr><td> $c(N_2O_5)/(\mathrm{mol}\cdot\mathrm{L}^{-1})$ </td><td>5.00</td><td>3.52</td><td>2.4</td><td>1.75</td><td>1.23</td><td>0.87</td><td>0.61</td></tr></table>
 
 (1) 求各时间间隔内 $N_{2}O_{5}$ 分解的平均反应速率。
 
@@ -1567,7 +1567,7 @@ $$
 
 (1) 填写下列表格(第一部分)
 
-<table><tr><td colspan="7">第一部分</td><td colspan="2">第二部分</td></tr><tr><td>编号</td><td>HAc 溶液体积/mL</td><td>稀释后体积/mL</td><td>稀释后浓度 $c/(\mathrm{mol}·\mathrm{L}^{-1})$ </td><td>pH</td><td> $[H^{+}]/(\mathrm{mol}·\mathrm{L}^{-1})$ </td><td> $K_{HAc}$ </td><td></td><td></td></tr><tr><td>1</td><td></td><td></td><td>0.009 770</td><td>3.38</td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td></td><td></td><td>0.019 54</td><td>3.23</td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td></td><td></td><td>0.048 85</td><td>3.04</td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td></td><td></td><td>0.097 70</td><td>2.88</td><td></td><td></td><td></td><td></td></tr><tr><td>5</td><td colspan="2">未稀释的溶液</td><td>0.1954</td><td>2.73</td><td></td><td></td><td></td><td></td></tr></table>
+<table><tr><td colspan="7">第一部分</td><td colspan="2">第二部分</td></tr><tr><td>编号</td><td>HAc 溶液体积/mL</td><td>稀释后体积/mL</td><td>稀释后浓度 $c/(\mathrm{mol}\cdot\mathrm{L}^{-1})$ </td><td>pH</td><td> $[H^{+}]/(\mathrm{mol}\cdot\mathrm{L}^{-1})$ </td><td> $K_{HAc}$ </td><td></td><td></td></tr><tr><td>1</td><td></td><td></td><td>0.009 770</td><td>3.38</td><td></td><td></td><td></td><td></td></tr><tr><td>2</td><td></td><td></td><td>0.019 54</td><td>3.23</td><td></td><td></td><td></td><td></td></tr><tr><td>3</td><td></td><td></td><td>0.048 85</td><td>3.04</td><td></td><td></td><td></td><td></td></tr><tr><td>4</td><td></td><td></td><td>0.097 70</td><td>2.88</td><td></td><td></td><td></td><td></td></tr><tr><td>5</td><td colspan="2">未稀释的溶液</td><td>0.1954</td><td>2.73</td><td></td><td></td><td></td><td></td></tr></table>
 
 (2) 根据计算结果, 评价 $K_{\mathrm{HAc}}$ 和浓度的关系。
 
@@ -1579,7 +1579,7 @@ $$
 
 HAc起始浓度 $c = 0.1954 \mathrm{~mol} \cdot \mathrm{L}^{-1}$ , 稀释后溶液的体积均为 $100 \mathrm{~mL}$ , 如 $5.00 \mathrm{~mL}$ 醋酸稀释到 $100 \mathrm{~mL}$ , 溶液体积增大 20 倍, 则浓度稀释到原来的 $1/20$ , 即 $c = 0.1954 / 20 = 0.009770 \mathrm{~mol} \cdot \mathrm{L}^{-1}$ , 此时表中给出的 $\mathrm{pH} = 3.38$ , 即 $[\mathrm{H}^{+}] = 4.17 \times 10^{-4} \mathrm{~mol} \cdot \mathrm{L}^{-1}$ , 根据醋酸电离常数的定义, 得: $K_{\mathrm{HAc}} = \frac{[\mathrm{H}^{+}][\mathrm{Ac}^{-}]}{[\mathrm{HAc}]} \approx \frac{[\mathrm{H}^{+}]^{2}}{c}$ , 将数据代入得: $K_{\mathrm{HAc}} = 1.78 \times 10^{-5}$ , 同理可以得出其他的数据。
 
-<table><tr><td colspan="7">第一部分</td><td colspan="2">第二部分</td></tr><tr><td>编号</td><td>HAc 溶液体积/mL</td><td>稀释后体积/mL</td><td>稀释后浓度 $c/(\mathrm{mol}·\mathrm{L}^{-1})$ </td><td>pH</td><td> $[H^{+}]/(\mathrm{mol}·\mathrm{L}^{-1})$ </td><td> $K_{HAc}$ </td><td>lg c</td><td>2pH</td></tr><tr><td>1</td><td>5.00</td><td>100.00</td><td>0.009 770</td><td>3.38</td><td> $4.17×10^{-4}$ </td><td> $1.78×10^{-5}$ </td><td>-2.01</td><td>6.76</td></tr><tr><td>2</td><td>10.00</td><td>100.00</td><td>0.019 54</td><td>3.23</td><td> $5.89×10^{-4}$ </td><td> $1.78×10^{-5}$ </td><td>-1.71</td><td>6.46</td></tr><tr><td>3</td><td>25.00</td><td>100.00</td><td>0.048 85</td><td>3.04</td><td> $9.12×10^{-4}$ </td><td> $1.70×10^{-5}$ </td><td>-1.31</td><td>6.08</td></tr><tr><td>编号</td><td>HAc 溶液体积/mL</td><td>稀释后体积/mL</td><td>稀释后浓度c/(mol·L-1)</td><td>pH</td><td>[H+]/(mol·L-1)</td><td>KHAc</td><td>lg c</td><td>2pH</td></tr><tr><td>4</td><td>50.00</td><td>100.00</td><td>0.097 70</td><td>2.88</td><td>1.32×10-3</td><td>1.78×10-5</td><td>-1.01</td><td>5.76</td></tr><tr><td>5</td><td colspan="2">未稀释的溶液</td><td>0.1954</td><td>2.73</td><td>1.86×10-3</td><td>1.77×10-5</td><td>-0.709</td><td>5.46</td></tr></table>
+<table><tr><td colspan="7">第一部分</td><td colspan="2">第二部分</td></tr><tr><td>编号</td><td>HAc 溶液体积/mL</td><td>稀释后体积/mL</td><td>稀释后浓度 $c/(\mathrm{mol}\cdot\mathrm{L}^{-1})$ </td><td>pH</td><td> $[H^{+}]/(\mathrm{mol}\cdot\mathrm{L}^{-1})$ </td><td> $K_{HAc}$ </td><td>lg c</td><td>2pH</td></tr><tr><td>1</td><td>5.00</td><td>100.00</td><td>0.009 770</td><td>3.38</td><td> $4.17×10^{-4}$ </td><td> $1.78×10^{-5}$ </td><td>-2.01</td><td>6.76</td></tr><tr><td>2</td><td>10.00</td><td>100.00</td><td>0.019 54</td><td>3.23</td><td> $5.89×10^{-4}$ </td><td> $1.78×10^{-5}$ </td><td>-1.71</td><td>6.46</td></tr><tr><td>3</td><td>25.00</td><td>100.00</td><td>0.048 85</td><td>3.04</td><td> $9.12×10^{-4}$ </td><td> $1.70×10^{-5}$ </td><td>-1.31</td><td>6.08</td></tr><tr><td>编号</td><td>HAc 溶液体积/mL</td><td>稀释后体积/mL</td><td>稀释后浓度c/(mol·L-1)</td><td>pH</td><td>[H+]/(mol·L-1)</td><td>KHAc</td><td>lg c</td><td>2pH</td></tr><tr><td>4</td><td>50.00</td><td>100.00</td><td>0.097 70</td><td>2.88</td><td>1.32×10-3</td><td>1.78×10-5</td><td>-1.01</td><td>5.76</td></tr><tr><td>5</td><td colspan="2">未稀释的溶液</td><td>0.1954</td><td>2.73</td><td>1.86×10-3</td><td>1.77×10-5</td><td>-0.709</td><td>5.46</td></tr></table>
 
 (2) 从计算可以看出, $K_{HAc}$ 与浓度的变化关系不大, 即电离常数不是浓度的函数。
 

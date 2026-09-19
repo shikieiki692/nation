@@ -840,7 +840,7 @@ C=C C—C C—H H—H $E/(\mathrm{kJ} \cdot \mathrm{mol}^{-1})$ 610 346 413 435
 
 2.16 有 A, B, C, D 四个反应, 在 298 K 时反应的热力学函数分别为
 
-<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td></tr><tr><td> $\Delta_{r}H_{m}^{\ominus}/(\mathrm{kJ}·\mathrm{mol}^{-1})$ </td><td>10.5</td><td>1.80</td><td>-126</td><td>-11.7</td></tr><tr><td> $\Delta_{r}S_{m}^{\ominus}/(\mathrm{J}·\mathrm{mol}^{-1}·\mathrm{K}^{-1})$ </td><td>30.0</td><td>-113</td><td>84.0</td><td>-105</td></tr></table>
+<table><tr><td></td><td>A</td><td>B</td><td>C</td><td>D</td></tr><tr><td> $\Delta_{r}H_{m}^{\ominus}/(\mathrm{kJ}\cdot\mathrm{mol}^{-1})$ </td><td>10.5</td><td>1.80</td><td>-126</td><td>-11.7</td></tr><tr><td> $\Delta_{r}S_{m}^{\ominus}/(\mathrm{J}\cdot\mathrm{mol}^{-1}·\mathrm{K}^{-1})$ </td><td>30.0</td><td>-113</td><td>84.0</td><td>-105</td></tr></table>
 
 则在标准态下,任何温度都能自发进行的反应是\_\_\_\_,任何温度都不能自发进行的反应是\_\_\_\_;另两个反应中,在温度高于\_\_\_\_℃时可自发进行的反应是\_\_\_\_,在温度低于\_\_\_\_℃时可自发进行的反应是\_\_\_\_。
 
@@ -957,7 +957,7 @@ $$
 
 由实验测得在 $67^{\circ} \mathrm{C}$ 时 $\mathrm{N}_{2} \mathrm{O}_{5}$ 的浓度随时间的变化如下:
 
-<table><tr><td>t/min</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td> $c(N_2O_5)/(\mathrm{mol}·\mathrm{dm}^{-3})$ </td><td>1.00</td><td>0.71</td><td>0.50</td><td>0.35</td><td>0.25</td><td>0.17</td></tr></table>
+<table><tr><td>t/min</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td> $c(N_2O_5)/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ </td><td>1.00</td><td>0.71</td><td>0.50</td><td>0.35</td><td>0.25</td><td>0.17</td></tr></table>
 
 求：(1) 0\~2 min 内的平均反应速率；
 
@@ -1283,7 +1283,7 @@ $$
 
 650 K 时的数据如下：
 
-<table><tr><td>实验编号</td><td> $c(CO)/(\mathrm{mol}·\mathrm{dm}^{-3})$ </td><td> $c(NO_2)/(\mathrm{mol}·\mathrm{dm}^{-3})$ </td><td> $v(NO)/(\mathrm{mol}·\mathrm{dm}^{-3}·\mathrm{s}^{-1})$ </td></tr><tr><td>1</td><td>0.025</td><td>0.040</td><td> $2.2×10^{-4}$ </td></tr><tr><td>2</td><td>0.050</td><td>0.040</td><td> $4.4×10^{-4}$ </td></tr><tr><td>3</td><td>0.025</td><td>0.120</td><td> $6.6×10^{-4}$ </td></tr></table>
+<table><tr><td>实验编号</td><td> $c(CO)/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ </td><td> $c(NO_2)/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ </td><td> $v(NO)/(\mathrm{mol}\cdot\mathrm{dm}^{-3}·\mathrm{s}^{-1})$ </td></tr><tr><td>1</td><td>0.025</td><td>0.040</td><td> $2.2×10^{-4}$ </td></tr><tr><td>2</td><td>0.050</td><td>0.040</td><td> $4.4×10^{-4}$ </td></tr><tr><td>3</td><td>0.025</td><td>0.120</td><td> $6.6×10^{-4}$ </td></tr></table>
 
 (1) 通过推理写出反应的速率方程；
 
@@ -3705,7 +3705,7 @@ $$
 
 解：查表和计算结果如表所示。
 
-<table><tr><td>序号</td><td>化学式</td><td> $K_{\text{sp}}^{\ominus}$ </td><td>序号</td><td>化学式</td><td> $s/(\mathrm{mol}·\mathrm{dm}^{-3})$ </td></tr><tr><td>1</td><td> $PbSO_4$ </td><td> $2.53\times 10^{-8}$ </td><td>1</td><td> $CaF_2$ </td><td> $1.10\times 10^{-3}$ </td></tr><tr><td>2</td><td> $CaF_2$ </td><td> $5.30\times 10^{-9}$ </td><td>2</td><td> $PbSO_4$ </td><td> $1.59\times 10^{-4}$ </td></tr><tr><td>3</td><td> $CaCO_3$ </td><td> $2.8\times 10^{-9}$ </td><td>3</td><td> $Mg(OH)_2$ </td><td> $1.1\times 10^{-4}$ </td></tr><tr><td>4</td><td>AgCl</td><td> $1.8\times 10^{-10}$ </td><td>4</td><td> $CaCO_3$ </td><td> $5.3\times 10^{-5}$ </td></tr><tr><td>5</td><td> $Mg(OH)_2$ </td><td> $5.6\times 10^{-12}$ </td><td>5</td><td>AgCl</td><td> $1.3\times 10^{-5}$ </td></tr><tr><td>6</td><td>CuI</td><td> $1.27\times 10^{-12}$ </td><td>6</td><td> $Pb(OH)_2$ </td><td> $7.10\times 10^{-6}$ </td></tr><tr><td>7</td><td> $Pb(OH)_2$ </td><td> $1.43\times 10^{-15}$ </td><td>7</td><td> $Zn(OH)_2$ </td><td> $2.0\times 10^{-6}$ </td></tr><tr><td>8</td><td> $Zn(OH)_2$ </td><td> $3.0\times 10^{-17}$ </td><td>8</td><td>CuI</td><td> $1.13\times 10^{-6}$ </td></tr><tr><td>9</td><td>FeS</td><td> $6.3\times 10^{-18}$ </td><td>9</td><td>FeS</td><td> $2.5\times 10^{-9}$ </td></tr><tr><td>10</td><td>CuS</td><td> $6.3\times 10^{-36}$ </td><td>10</td><td>CuS</td><td> $2.5\times 10^{-18}$ </td></tr></table>
+<table><tr><td>序号</td><td>化学式</td><td> $K_{\text{sp}}^{\ominus}$ </td><td>序号</td><td>化学式</td><td> $s/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ </td></tr><tr><td>1</td><td> $PbSO_4$ </td><td> $2.53\times 10^{-8}$ </td><td>1</td><td> $CaF_2$ </td><td> $1.10\times 10^{-3}$ </td></tr><tr><td>2</td><td> $CaF_2$ </td><td> $5.30\times 10^{-9}$ </td><td>2</td><td> $PbSO_4$ </td><td> $1.59\times 10^{-4}$ </td></tr><tr><td>3</td><td> $CaCO_3$ </td><td> $2.8\times 10^{-9}$ </td><td>3</td><td> $Mg(OH)_2$ </td><td> $1.1\times 10^{-4}$ </td></tr><tr><td>4</td><td>AgCl</td><td> $1.8\times 10^{-10}$ </td><td>4</td><td> $CaCO_3$ </td><td> $5.3\times 10^{-5}$ </td></tr><tr><td>5</td><td> $Mg(OH)_2$ </td><td> $5.6\times 10^{-12}$ </td><td>5</td><td>AgCl</td><td> $1.3\times 10^{-5}$ </td></tr><tr><td>6</td><td>CuI</td><td> $1.27\times 10^{-12}$ </td><td>6</td><td> $Pb(OH)_2$ </td><td> $7.10\times 10^{-6}$ </td></tr><tr><td>7</td><td> $Pb(OH)_2$ </td><td> $1.43\times 10^{-15}$ </td><td>7</td><td> $Zn(OH)_2$ </td><td> $2.0\times 10^{-6}$ </td></tr><tr><td>8</td><td> $Zn(OH)_2$ </td><td> $3.0\times 10^{-17}$ </td><td>8</td><td>CuI</td><td> $1.13\times 10^{-6}$ </td></tr><tr><td>9</td><td>FeS</td><td> $6.3\times 10^{-18}$ </td><td>9</td><td>FeS</td><td> $2.5\times 10^{-9}$ </td></tr><tr><td>10</td><td>CuS</td><td> $6.3\times 10^{-36}$ </td><td>10</td><td>CuS</td><td> $2.5\times 10^{-18}$ </td></tr></table>
 
 化合物 $K_{sp}^{\ominus}$ 和溶解度 s 的排序不一致，其原因是这些化合物的阴、阳离子个数比不一致，在由 $K_{sp}^{\ominus}$ 求算 s 的过程中数学运算方法不同所导致的。下面求算 s 的两个例子中可以看出这一点。
 

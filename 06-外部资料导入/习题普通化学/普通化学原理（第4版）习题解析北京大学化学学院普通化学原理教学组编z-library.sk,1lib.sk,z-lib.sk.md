@@ -2214,7 +2214,7 @@ $$
 
 6.6 根据以下数据,计算甲醇和一氧化碳化合生成醋酸反应的 $K^{\ominus}(298\mathrm{K})$ 。
 
-<table><tr><td></td><td> $CH_3OH(g)$ </td><td>CO(g)</td><td> $CH_3COOH(g)$ </td></tr><tr><td> $\Delta H_f^\ominus/(\mathrm{kJ}·\mathrm{mol}^{-1})$ </td><td>-200.8</td><td>-110.5</td><td>-435</td></tr><tr><td> $S^\ominus/(\mathrm{J}·\mathrm{mol}^{-1}·\mathrm{K}^{-1})$ </td><td>+238</td><td>+198</td><td>+293</td></tr></table>
+<table><tr><td></td><td> $CH_3OH(g)$ </td><td>CO(g)</td><td> $CH_3COOH(g)$ </td></tr><tr><td> $\Delta H_f^\ominus/(\mathrm{kJ}\cdot\mathrm{mol}^{-1})$ </td><td>-200.8</td><td>-110.5</td><td>-435</td></tr><tr><td> $S^\ominus/(\mathrm{J}\cdot\mathrm{mol}^{-1}·\mathrm{K}^{-1})$ </td><td>+238</td><td>+198</td><td>+293</td></tr></table>
 
 解 $\mathrm{CH}_3\mathrm{OH(g)} + \mathrm{CO(g)}\rightleftharpoons \mathrm{CH}_3\mathrm{COOH(g)}$
 
@@ -2856,7 +2856,7 @@ $$
 
 7.2 $\mathrm{N}_2\mathrm{O}_5$ 的分解反应是 $2\mathrm{N}_2\mathrm{O}_5 \longrightarrow 4\mathrm{NO}_2 + \mathrm{O}_2$ ，由实验测得在 $67^{\circ}\mathrm{C}$ 时 $\mathrm{N}_2\mathrm{O}_5$ 的浓度随时间的变化如下：
 
-<table><tr><td>t/ min</td><td>0.0</td><td>1.0</td><td>2.0</td><td>3.0</td><td>4.0</td><td>5.0</td></tr><tr><td> $c(N_2O_5)/(\mathrm{mol}·\mathrm{dm}^{-3})$ </td><td>1.00</td><td>0.71</td><td>0.50</td><td>0.35</td><td>0.25</td><td>0.17</td></tr></table>
+<table><tr><td>t/ min</td><td>0.0</td><td>1.0</td><td>2.0</td><td>3.0</td><td>4.0</td><td>5.0</td></tr><tr><td> $c(N_2O_5)/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ </td><td>1.00</td><td>0.71</td><td>0.50</td><td>0.35</td><td>0.25</td><td>0.17</td></tr></table>
 
 试计算：
 
@@ -2926,7 +2926,7 @@ $$
 
 解
 
-<table><tr><td>t/min</td><td>0</td><td>20</td><td>60</td><td>100</td><td>160</td></tr><tr><td> $c(S)/(\mathrm{mol}·\mathrm{dm}^{-3})$ </td><td>1.00</td><td>0.90</td><td>0.70</td><td>0.50</td><td>0.20</td></tr><tr><td> $lg\frac{c(S)}{\mathrm{mol}·\mathrm{dm}^{-3}}$ </td><td>0</td><td>-0.046</td><td>-0.15</td><td>-0.30</td><td>-0.70</td></tr><tr><td> $c^{-1}(S)/(\mathrm{mol}·\mathrm{dm}^{-3})^{-1}$ </td><td>1.0</td><td>1.1</td><td>1.4</td><td>2.0</td><td>5.0</td></tr><tr><td> $c^{-2}(S)/(\mathrm{mol}·\mathrm{dm}^{-3})^{-2}$ </td><td>1.0</td><td>1.2</td><td>2.0</td><td>4.0</td><td>25</td></tr></table>
+<table><tr><td>t/min</td><td>0</td><td>20</td><td>60</td><td>100</td><td>160</td></tr><tr><td> $c(S)/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ </td><td>1.00</td><td>0.90</td><td>0.70</td><td>0.50</td><td>0.20</td></tr><tr><td> $lg\frac{c(S)}{\mathrm{mol}\cdot\mathrm{dm}^{-3}}$ </td><td>0</td><td>-0.046</td><td>-0.15</td><td>-0.30</td><td>-0.70</td></tr><tr><td> $c^{-1}(S)/(\mathrm{mol}\cdot\mathrm{dm}^{-3})^{-1}$ </td><td>1.0</td><td>1.1</td><td>1.4</td><td>2.0</td><td>5.0</td></tr><tr><td> $c^{-2}(S)/(\mathrm{mol}\cdot\mathrm{dm}^{-3})^{-2}$ </td><td>1.0</td><td>1.2</td><td>2.0</td><td>4.0</td><td>25</td></tr></table>
 
 以 $\frac{c(S)}{\mathrm{mol}\cdot\mathrm{dm}^{-3}}$ 对 $\frac{t}{\min}$ 作图，即图（a）；以 $\frac{c^{-1}(S)}{(\mathrm{mol}\cdot\mathrm{dm}^{-3})^{-1}}$ 对 $\frac{t}{\min}$ 作图，即图（b）；以 $\frac{c^{-2}(S)}{(\mathrm{mol}\cdot\mathrm{dm}^{-3})^{-2}}$ 对 $\frac{t}{\min}$ 作图，即图（c）；以 $\lg \frac{c(S)}{\mathrm{mol}\cdot\mathrm{dm}^{-3}}$ 对 $\frac{t}{\min}$ 作图，即图（d）。
 
@@ -2980,7 +2980,7 @@ $$
 
 由 $\mathrm{Hg_2Cl_2}$ 沉淀量可以计算反应速率，4次实验数据如下：
 
-<table><tr><td></td><td>实验一</td><td>实验二</td><td>实验三</td><td>实验四</td></tr><tr><td> $c(HgCl_2)/(\mathrm{mol}·\mathrm{dm}^{-3})$ </td><td>0.105</td><td>0.105</td><td>0.052</td><td>0.052</td></tr><tr><td> $c(C_2O_4^{2-})/(\mathrm{mol}·\mathrm{dm}^{-3})$ </td><td>0.15</td><td>0.30</td><td>0.30</td><td>0.15</td></tr><tr><td> $\frac{-dc(C_2O_4^{2-})/dt}{\mathrm{mol}·\mathrm{dm}^{-3}·\mathrm{s}^{-1}}$ </td><td> $1.8\times 10^{-5}$ </td><td> $7.1\times 10^{-5}$ </td><td> $3.5\times 10^{-5}$ </td><td> $8.9\times 10^{-6}$ </td></tr></table>
+<table><tr><td></td><td>实验一</td><td>实验二</td><td>实验三</td><td>实验四</td></tr><tr><td> $c(HgCl_2)/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ </td><td>0.105</td><td>0.105</td><td>0.052</td><td>0.052</td></tr><tr><td> $c(C_2O_4^{2-})/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ </td><td>0.15</td><td>0.30</td><td>0.30</td><td>0.15</td></tr><tr><td> $\frac{-dc(C_2O_4^{2-})/dt}{\mathrm{mol}\cdot\mathrm{dm}^{-3}·\mathrm{s}^{-1}}$ </td><td> $1.8\times 10^{-5}$ </td><td> $7.1\times 10^{-5}$ </td><td> $3.5\times 10^{-5}$ </td><td> $8.9\times 10^{-6}$ </td></tr></table>
 
 试求：（1） $HgCl_{2}$ 、 $C_{2}O_{4}^{2-}$ 及总反应的级数各是多少？
 
@@ -3673,7 +3673,7 @@ $\mathrm{pH} = 13.0$ 时： $\mathrm{pH} > \mathrm{pK}_2$ ，以 $\mathrm{CO_3^{
 
 由 $[\mathrm{In}^{-}] / [\mathrm{HIn}] = K_{\mathrm{a}} / [\mathrm{H}^{+}]$ ，计算不同 $\mathrm{pH}$ 下 $[\mathrm{In}^{-}] / [\mathrm{HIn}]$ 比值（见下表），其变色范围为 $\mathrm{pK}_{\mathrm{a}} \pm 1$ （ $\mathrm{pH}7 \sim 9$ ）。
 
-<table><tr><td>pH</td><td>6</td><td>7</td><td>8</td><td>9</td><td>12</td></tr><tr><td> $[H^{+}]/(\mathrm{mol}·\mathrm{dm}^{-3})$ </td><td> $1\times 10^{-6}$ </td><td> $1\times 10^{-7}$ </td><td> $1\times 10^{-8}$ </td><td> $1\times 10^{-9}$ </td><td> $1\times 10^{-12}$ </td></tr><tr><td> $[In^{-}]/[HIn]$ </td><td> $1\times 10^{-2}$ </td><td> $1\times 10^{-1}$ </td><td>1</td><td>10</td><td> $1\times 10^{4}$ </td></tr><tr><td>颜色</td><td>黄</td><td>黄</td><td>橙</td><td>红</td><td>红</td></tr></table>
+<table><tr><td>pH</td><td>6</td><td>7</td><td>8</td><td>9</td><td>12</td></tr><tr><td> $[H^{+}]/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ </td><td> $1\times 10^{-6}$ </td><td> $1\times 10^{-7}$ </td><td> $1\times 10^{-8}$ </td><td> $1\times 10^{-9}$ </td><td> $1\times 10^{-12}$ </td></tr><tr><td> $[In^{-}]/[HIn]$ </td><td> $1\times 10^{-2}$ </td><td> $1\times 10^{-1}$ </td><td>1</td><td>10</td><td> $1\times 10^{4}$ </td></tr><tr><td>颜色</td><td>黄</td><td>黄</td><td>橙</td><td>红</td><td>红</td></tr></table>
 
 8.15 下列各组水溶液等体积相混合时,哪些可以作为缓冲溶液,为什么?
 
@@ -4995,7 +4995,7 @@ $$
 E (\mathrm{Ag} ^ {+} / \mathrm{Ag}) = E ^ {\ominus} (\mathrm{Ag} ^ {+} / \mathrm{Ag}) + 0.0592 \mathrm{V} \times \lg [ \mathrm{Ag} ^ {+} ]
 $$
 
-<table><tr><td></td><td> $K_{sp}$ </td><td> $[Cl^-]或[I^-]/(\mathrm{mol}·\mathrm{dm}^{-3})$ </td><td> $[Ag^+]/(\mathrm{mol}·\mathrm{dm}^{-3})$ </td></tr><tr><td>AgCl</td><td> $1.77×10^{-10}$ </td><td>1.00</td><td> $1.77×10^{-10}$ </td></tr><tr><td>AgI</td><td> $8.52×10^{-17}$ </td><td>1.00</td><td> $8.52×10^{-17}$ </td></tr></table>
+<table><tr><td></td><td> $K_{sp}$ </td><td> $[Cl^-]或[I^-]/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ </td><td> $[Ag^+]/(\mathrm{mol}\cdot\mathrm{dm}^{-3})$ </td></tr><tr><td>AgCl</td><td> $1.77×10^{-10}$ </td><td>1.00</td><td> $1.77×10^{-10}$ </td></tr><tr><td>AgI</td><td> $8.52×10^{-17}$ </td><td>1.00</td><td> $8.52×10^{-17}$ </td></tr></table>
 
 HCl: $E(\mathrm{Ag}^{+}/\mathrm{Ag})=0.80\mathrm{V}+0.0592\mathrm{V}\times\lg(1.77\times10^{-10})=0.22\mathrm{V}$ ，即 $E^{\ominus}(\mathrm{AgCl}/\mathrm{Ag})$ HI: $E'(\mathrm{Ag}^{+}/\mathrm{Ag})=0.80\mathrm{V}+0.0592\mathrm{V}\times\lg(8.52\times10^{-17})=-0.15\mathrm{V}$ ，即 $E^{\ominus}(\mathrm{AgI}/\mathrm{Ag})$ $E^{\ominus}(\mathrm{AgI}/\mathrm{Ag})<E^{\ominus}(\mathrm{H}^{+}/\mathrm{H}_{2}),\mathrm{Ag}$ 能和 $1\ \mathrm{mol}\cdot \mathrm{dm}^{-3}HI$ 起反应，反应方程式为
 
