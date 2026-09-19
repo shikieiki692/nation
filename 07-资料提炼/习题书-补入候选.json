@@ -1,14 +1,797 @@
 {
- "generated": "2026-09-04",
+ "generated": "2026-09-19",
  "note": "习题书补入候选（章节练习层择优）；promote_questions.py 按此批量提升 pack。",
- "total": 333,
+ "total": 496,
  "entries": [
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/二分册能力测试/逐题/题-卷01-01-HI平衡KpKcKx关系与Kp计算.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "\"化学竞赛能力测试·高中第二分册 第1章A卷 第1题（12 分）\"",
+   "submodule": "化学反应速率与化学平衡",
+   "syllabus": "kp[平衡常数]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/二分册能力测试/逐题/题-卷01-02-水分解反应热效应K-T求ΔH.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "\"化学竞赛能力测试·高中第二分册 第1章A卷 第2题（4 分）\"",
+   "submodule": "化学反应速率与化学平衡",
+   "syllabus": "kp[平衡常数]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/二分册能力测试/逐题/题-卷01-03-N2O4分解自发方向Jp与K比较.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "\"化学竞赛能力测试·高中第二分册 第1章A卷 第3题（13 分）\"",
+   "submodule": "化学反应速率与化学平衡",
+   "syllabus": "kp[化学平衡计算]≈考纲[化学平衡]"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/二分册能力测试/逐题/题-卷01-04-合成氨平衡常数滴定法测定.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "\"化学竞赛能力测试·高中第二分册 第1章A卷 第4题（8 分）\"",
+   "submodule": "化学反应速率与化学平衡",
+   "syllabus": "kp[化学计量]≈考纲[化学计量点与滴定终点]"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/二分册能力测试/逐题/题-卷01-05-SO2氧化ΔG与K计算.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "\"化学竞赛能力测试·高中第二分册 第1章A卷 第5题（12 分）\"",
+   "submodule": "化学反应速率与化学平衡",
+   "syllabus": "kp[平衡常数]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/二分册能力测试/逐题/题-卷01-06-血红蛋白氧化平衡常数与ΔG.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "\"化学竞赛能力测试·高中第二分册 第1章A卷 第6题（9 分）\"",
+   "submodule": "化学反应速率与化学平衡",
+   "syllabus": "kp[平衡常数]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/二分册能力测试/逐题/题-卷01-07-COCl2离解度ΔH与温度计算.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "\"化学竞赛能力测试·高中第二分册 第1章A卷 第7题（14 分）\"",
+   "submodule": "化学反应速率与化学平衡",
+   "syllabus": "kp[化学平衡计算]≈考纲[化学平衡]"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/二分册能力测试/逐题/题-卷01-08-NH4ClNH4I混合固体的平衡压力.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "\"化学竞赛能力测试·高中第二分册 第1章A卷 第8题（8 分）\"",
+   "submodule": "化学反应速率与化学平衡",
+   "syllabus": "kp[平衡常数]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/二分册能力测试/逐题/题-卷01-09-光气制备速率常数反应级数速率方程.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "\"化学竞赛能力测试·高中第二分册 第1章A卷 第9题（12 分）\"",
+   "submodule": "化学反应速率与化学平衡",
+   "syllabus": "kp[反应速率]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/二分册能力测试/逐题/题-卷01-10-阿伦尼乌斯活化能与温度全国决赛题.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "\"化学竞赛能力测试·高中第二分册 第1章A卷 第10题（8 分）\"",
+   "submodule": "化学反应速率与化学平衡",
+   "syllabus": "kp[活化能]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/化学能力测试/题-286-化学能力测试-Ch1B-1-PbI2沉淀实验.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "化学竞赛教程·化学竞赛能力测试 第1章 化学反应方程式与核反应方程式·B卷第1题",
+   "submodule": "实验设计与定量分析",
+   "syllabus": "kp[溶度积]直连考纲词表"
+  },
+  {
+   "subject_module": "有机化学",
+   "path": "教材习题/化学能力测试/题-287-化学能力测试-Ch1B-2-W环戊二烯羰基与炔丙基重排.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "化学竞赛教程·化学竞赛能力测试 第1章 化学反应方程式与核反应方程式·B卷第2题",
+   "submodule": "有机金属化学",
+   "syllabus": "kp[18电子规则]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/北斗学友/题-001-北斗-模一-01-完成反应方程式.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（一）",
+   "submodule": "方程式书写",
+   "syllabus": "kp[主族元素化学]直连考纲词表"
+  },
+  {
+   "subject_module": "结构化学",
+   "path": "教材习题/北斗学友/题-002-北斗-模一-02-无机分子的构型.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（一）",
+   "submodule": "分子结构",
+   "syllabus": "kp[VSEPR理论]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/北斗学友/题-003-北斗-模一-03-金纳米线与高价铁化合物.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（一）",
+   "submodule": "元素化学",
+   "syllabus": "kp[过渡元素]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/北斗学友/题-004-北斗-模一-05-沉淀溶解平衡计算.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（一）",
+   "submodule": "沉淀溶解平衡",
+   "syllabus": "kp[溶度积]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/北斗学友/题-005-北斗-模一-06-振荡反应.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（一）",
+   "submodule": "化学动力学",
+   "syllabus": "kp[化学动力学]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/北斗学友/题-006-北斗-模一-07-铜的分析.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（一）",
+   "submodule": "容量分析",
+   "syllabus": "kp[滴定分析基本原理]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/北斗学友/题-007-北斗-模一-08-碳酸二甲酯的制备.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（一）",
+   "submodule": "化学平衡",
+   "syllabus": "kp[化学平衡计算]≈考纲[化学平衡]"
+  },
+  {
+   "subject_module": "有机化学",
+   "path": "教材习题/北斗学友/题-008-北斗-模一-11-有机反应机理.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（一）",
+   "submodule": "有机反应机理",
+   "syllabus": "kp[反应机理]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/北斗学友/题-009-北斗-模二-01-完成反应方程式.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（二）",
+   "submodule": "方程式书写",
+   "syllabus": "kp[主族元素化学]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/北斗学友/题-010-北斗-模二-02-硫化合物的特殊结构.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（二）",
+   "submodule": "元素化学",
+   "syllabus": "kp[氧族元素]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/北斗学友/题-011-北斗-模二-03-金属元素推断.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（二）",
+   "submodule": "元素化学",
+   "syllabus": "kp[过渡元素]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/北斗学友/题-012-北斗-模二-04-络合滴定.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（二）",
+   "submodule": "容量分析",
+   "syllabus": "kp[络合滴定]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/北斗学友/题-013-北斗-模二-05-蒸汽过程热力学.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（二）",
+   "submodule": "热力学",
+   "syllabus": "kp[热力学]直连考纲词表"
+  },
+  {
+   "subject_module": "结构化学",
+   "path": "教材习题/北斗学友/题-014-北斗-模二-06-NaCl的超结构.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（二）",
+   "submodule": "晶体结构",
+   "syllabus": "kp[晶体结构]直连考纲词表"
+  },
+  {
+   "subject_module": "结构化学",
+   "path": "教材习题/北斗学友/题-015-北斗-模二-07-铁配合物的结构与磁性.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（二）",
+   "submodule": "配位化学",
+   "syllabus": "kp[晶体场分裂与磁性]直连考纲词表"
+  },
+  {
+   "subject_module": "有机化学",
+   "path": "教材习题/北斗学友/题-017-北斗-模二-09-质子转移反应的机理.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（二）",
+   "submodule": "有机反应机理",
+   "syllabus": "kp[反应机理]直连考纲词表"
+  },
+  {
+   "subject_module": "有机化学",
+   "path": "教材习题/北斗学友/题-018-北斗-模二-10-分析合成路线.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（二）",
+   "submodule": "有机合成",
+   "syllabus": "kp[逆合成分析]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/北斗学友/题-019-北斗-模三-01-完成反应方程式.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（三）",
+   "submodule": "方程式书写",
+   "syllabus": "kp[主族元素化学]直连考纲词表"
+  },
+  {
+   "subject_module": "结构化学",
+   "path": "教材习题/北斗学友/题-020-北斗-模三-02-全氮离子的结构和性质.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（三）",
+   "submodule": "分子结构",
+   "syllabus": "kp[离域π键]直连考纲词表"
+  },
+  {
+   "subject_module": "结构化学",
+   "path": "教材习题/北斗学友/题-022-北斗-模三-04-离子晶体的堆积和填隙.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（三）",
+   "submodule": "晶体结构",
+   "syllabus": "kp[密堆积]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/北斗学友/题-024-北斗-模三-06-金属元素推断.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（三）",
+   "submodule": "元素化学",
+   "syllabus": "kp[过渡元素]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/北斗学友/题-025-北斗-模三-07-硒的容量分析方法.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（三）",
+   "submodule": "容量分析",
+   "syllabus": "kp[氧化还原滴定]直连考纲词表"
+  },
+  {
+   "subject_module": "有机化学",
+   "path": "教材习题/北斗学友/题-027-北斗-模三-09-聚噁唑啉的制备和性质.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（三）",
+   "submodule": "有机合成",
+   "syllabus": "kp[有机合成]直连考纲词表"
+  },
+  {
+   "subject_module": "有机化学",
+   "path": "教材习题/北斗学友/题-028-北斗-模三-10-推断合成路线.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（三）",
+   "submodule": "有机合成",
+   "syllabus": "kp[逆合成分析]直连考纲词表"
+  },
+  {
+   "subject_module": "有机化学",
+   "path": "教材习题/北斗学友/题-029-北斗-模三-11-分析反应机理.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（三）",
+   "submodule": "有机反应机理",
+   "syllabus": "kp[反应机理]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/北斗学友/题-031-北斗-模四-02-书写方程式.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（四）",
+   "submodule": "方程式书写",
+   "syllabus": "kp[主族元素化学]直连考纲词表"
+  },
+  {
+   "subject_module": "结构化学",
+   "path": "教材习题/北斗学友/题-032-北斗-模四-03-铜的多核配合物.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（四）",
+   "submodule": "配位化学",
+   "syllabus": "kp[配合物]直连考纲词表"
+  },
+  {
+   "subject_module": "结构化学",
+   "path": "教材习题/北斗学友/题-033-北斗-模四-04-层状晶体结构.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（四）",
+   "submodule": "晶体结构",
+   "syllabus": "kp[晶体结构]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/北斗学友/题-034-北斗-模四-05-Cr(III)的分析.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（四）",
+   "submodule": "容量分析",
+   "syllabus": "kp[氧化还原滴定]直连考纲词表"
+  },
+  {
+   "subject_module": "结构化学",
+   "path": "教材习题/北斗学友/题-035-北斗-模四-06-高压晶体结构.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（四）",
+   "submodule": "晶体结构",
+   "syllabus": "kp[晶体结构深化]≈考纲[晶体结构]"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/北斗学友/题-036-北斗-模四-07-铂催化氧化还原反应.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（四）",
+   "submodule": "电化学",
+   "syllabus": "kp[电极过程热力学]直连考纲词表"
+  },
+  {
+   "subject_module": "有机化学",
+   "path": "教材习题/北斗学友/题-038-北斗-模四-09-有机化学机理.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（四）",
+   "submodule": "有机反应机理",
+   "syllabus": "kp[碳正离子]直连考纲词表"
+  },
+  {
+   "subject_module": "有机化学",
+   "path": "教材习题/北斗学友/题-039-北斗-模四-10-全合成路线设计.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（四）",
+   "submodule": "有机合成",
+   "syllabus": "kp[逆合成分析]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/北斗学友/题-042-北斗-联一-02-高锰酸钾和碘的氧化还原分析.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友 2024 冬季化学竞赛【BAT1-联考一】模拟题",
+   "submodule": "容量分析",
+   "syllabus": "kp[氧化还原滴定]直连考纲词表"
+  },
+  {
+   "subject_module": "结构化学",
+   "path": "教材习题/北斗学友/题-043-北斗-联一-03-机械力对分子的影响.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友 2024 冬季化学竞赛【BAT1-联考一】模拟题",
+   "submodule": "分子结构",
+   "syllabus": "kp[共价键]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/北斗学友/题-044-北斗-联一-04-棒状胶束.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友 2024 冬季化学竞赛【BAT1-联考一】模拟题",
+   "submodule": "溶液与相图",
+   "syllabus": "kp[超分子作用力]直连考纲词表"
+  },
+  {
+   "subject_module": "结构化学",
+   "path": "教材习题/北斗学友/题-045-北斗-联一-05-晶体结构.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友 2024 冬季化学竞赛【BAT1-联考一】模拟题",
+   "submodule": "晶体结构",
+   "syllabus": "kp[晶体结构]直连考纲词表"
+  },
+  {
+   "subject_module": "结构化学",
+   "path": "教材习题/北斗学友/题-046-北斗-联一-06-铁的配合物.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友 2024 冬季化学竞赛【BAT1-联考一】模拟题",
+   "submodule": "配位化学",
+   "syllabus": "kp[18电子规则]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/北斗学友/题-047-北斗-联一-07-CO2的空气捕获与富集.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友 2024 冬季化学竞赛【BAT1-联考一】模拟题",
+   "submodule": "化学平衡",
+   "syllabus": "kp[化学平衡计算]≈考纲[化学平衡]"
+  },
+  {
+   "subject_module": "有机化学",
+   "path": "教材习题/北斗学友/题-049-北斗-联一-09-芳香亲电取代反应.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "北斗学友 2024 冬季化学竞赛【BAT1-联考一】模拟题",
+   "submodule": "有机反应机理",
+   "syllabus": "kp[芳香亲电取代反应]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/北斗学友/题-051-北斗-联二-02-Karl Fischer滴定.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友 2025 春季化学竞赛【BAT2-联考二】模拟题",
+   "submodule": "容量分析",
+   "syllabus": "kp[滴定分析基本原理]直连考纲词表"
+  },
+  {
+   "subject_module": "结构化学",
+   "path": "教材习题/北斗学友/题-052-北斗-联二-03-化学键与机械力.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友 2025 春季化学竞赛【BAT2-联考二】模拟题",
+   "submodule": "分子结构",
+   "syllabus": "kp[共价键]直连考纲词表"
+  },
+  {
+   "subject_module": "结构化学",
+   "path": "教材习题/北斗学友/题-053-北斗-联二-05-晶体结构与性能.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友 2025 春季化学竞赛【BAT2-联考二】模拟题",
+   "submodule": "晶体结构",
+   "syllabus": "kp[晶体结构]直连考纲词表"
+  },
+  {
+   "subject_module": "结构化学",
+   "path": "教材习题/北斗学友/题-054-北斗-联二-06-铁的配合物.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友 2025 春季化学竞赛【BAT2-联考二】模拟题",
+   "submodule": "配位化学",
+   "syllabus": "kp[18电子规则]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/北斗学友/题-055-北斗-联二-07-CO2的空气捕获与富集.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友 2025 春季化学竞赛【BAT2-联考二】模拟题",
+   "submodule": "化学平衡",
+   "syllabus": "kp[化学平衡计算]≈考纲[化学平衡]"
+  },
+  {
+   "subject_module": "有机化学",
+   "path": "教材习题/北斗学友/题-057-北斗-联二-09-碳正离子中间体.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友 2025 春季化学竞赛【BAT2-联考二】模拟题",
+   "submodule": "有机反应机理",
+   "syllabus": "kp[碳正离子]直连考纲词表"
+  },
+  {
+   "subject_module": "有机化学",
+   "path": "教材习题/北斗学友/题-058-北斗-联二-10-张力中间体.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友 2025 春季化学竞赛【BAT2-联考二】模拟题",
+   "submodule": "有机反应机理",
+   "syllabus": "kp[反应机理]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/北斗学友/题-060-北斗-联三-02-经典的热力学.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "北斗学友 2026 春季化学竞赛【大联考二】模拟题",
+   "submodule": "热力学",
+   "syllabus": "kp[化学平衡计算]≈考纲[化学平衡]"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/北斗学友/题-061-北斗-联三-03-实际气体.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友 2026 春季化学竞赛【大联考二】模拟题",
+   "submodule": "溶液与相图",
+   "syllabus": "kp[逸度与非理想气体]≈考纲[理想气体]"
+  },
+  {
+   "subject_module": "结构化学",
+   "path": "教材习题/北斗学友/题-062-北斗-联三-04-铜蓝蛋白相关化学问题.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友 2026 春季化学竞赛【大联考二】模拟题",
+   "submodule": "配位化学",
+   "syllabus": "kp[配合物]直连考纲词表"
+  },
+  {
+   "subject_module": "结构化学",
+   "path": "教材习题/北斗学友/题-063-北斗-联三-05-钛酸锶.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "北斗学友 2026 春季化学竞赛【大联考二】模拟题",
+   "submodule": "晶体结构",
+   "syllabus": "kp[晶体结构]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/北斗学友/题-064-北斗-联三-06-啤酒酿造中的化学综合题.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "北斗学友 2026 春季化学竞赛【大联考二】模拟题",
+   "submodule": "化学平衡",
+   "syllabus": "kp[化学平衡计算]≈考纲[化学平衡]"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/北斗学友/题-065-北斗-联三-07-需要数据处理的滴定问题.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友 2026 春季化学竞赛【大联考二】模拟题",
+   "submodule": "容量分析",
+   "syllabus": "kp[滴定曲线]直连考纲词表"
+  },
+  {
+   "subject_module": "有机化学",
+   "path": "教材习题/北斗学友/题-066-北斗-联三-10-磁有机化学.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "北斗学友 2026 春季化学竞赛【大联考二】模拟题",
+   "submodule": "有机反应机理",
+   "syllabus": "kp[自由基]直连考纲词表"
+  },
+  {
+   "subject_module": "有机化学",
+   "path": "教材习题/北斗学友/题-068-北斗-模二-11-有机反应机理的影响因素.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "北斗学友·化学奥林匹克竞赛模拟试卷（二）",
+   "submodule": "有机反应机理",
+   "syllabus": "kp[反应机理]直连考纲词表"
+  },
+  {
+   "subject_module": "有机化学",
+   "path": "教材习题/北斗学友/题-069-北斗-联三-08-关于自由基的基础有机化学.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "北斗学友 2026 春季化学竞赛【大联考二】模拟题",
+   "submodule": "有机基本反应",
+   "syllabus": "kp[自由基]直连考纲词表"
+  },
+  {
+   "subject_module": "有机化学",
+   "path": "教材习题/北斗学友/题-070-北斗-联三-09-可见光诱导的甲基化反应.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "北斗学友 2026 春季化学竞赛【大联考二】模拟题",
+   "submodule": "有机反应机理",
+   "syllabus": "kp[光氧化还原催化]≈考纲[氧化还原]"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/赵鑫光/题-赵鑫光-基础-习12.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "赵鑫光《高中化学竞赛基本理论学习笔记》第1章",
+   "submodule": "蒸气压",
+   "syllabus": "syllabus_codes=1"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-005-一分册-L1对例1-水垢组成分析.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册 第1讲【竞赛对接】例1",
+   "submodule": "物质的量",
+   "syllabus": "kp[化学计量]≈考纲[化学计量点与滴定终点]"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-006-一分册-L1对例2-镁碳化物与复杂盐推断.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册 第1讲【竞赛对接】例2",
+   "submodule": "物质的量",
+   "syllabus": "kp[化学计量]≈考纲[化学计量点与滴定终点]"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-007-一分册-L1对例3-三甲胺分子量外推.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册 第1讲【竞赛对接】例3",
+   "submodule": "物质的量",
+   "syllabus": "kp[理想气体]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-008-一分册-L1对例4-X元素摩尔质量测定.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册 第1讲【竞赛对接】例4",
+   "submodule": "物质的量",
+   "syllabus": "kp[理想气体]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-009-一分册-L1对例5-Argyrodite矿石推断.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册 第1讲【竞赛对接】例5",
+   "submodule": "物质的量",
+   "syllabus": "kp[理想气体]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-010-一分册-L1对例6-F元素二元化合物试算.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册 第1讲【竞赛对接】例6",
+   "submodule": "物质的量",
+   "syllabus": "kp[化学计量]≈考纲[化学计量点与滴定终点]"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-011-一分册-L1实1-油脂单分子层测NA.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册 第1讲【实战演练】1",
+   "submodule": "物质的量",
+   "syllabus": "kp[化学计量]≈考纲[化学计量点与滴定终点]"
+  },
   {
    "subject_module": "化学原理",
    "path": "教材习题/高中化学竞赛教程第一分册/题-012-一分册-L1实7-NxHy燃烧推算.md",
    "difficulty": 4,
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第一分册 第1讲【实战演练】7",
+   "submodule": "物质的量",
+   "syllabus": "kp[理想气体]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-013-一分册-L1实3-氯酸钾二氧化锰反应.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册 第1讲【实战演练】3",
+   "submodule": "物质的量",
+   "syllabus": "kp[化学计量]≈考纲[化学计量点与滴定终点]"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-014-一分册-L1实4-BaOH2与NaHSO4浓度推断.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册 第1讲【实战演练】4",
+   "submodule": "物质的量",
+   "syllabus": "kp[溶液浓度]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-016-一分册-L1实8-气体温度计测室温.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册 第1讲【实战演练】8",
+   "submodule": "物质的量",
+   "syllabus": "kp[理想气体]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-017-一分册-L1实9-氯化铝蒸气分子式.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册 第1讲【实战演练】9",
+   "submodule": "物质的量",
+   "syllabus": "kp[理想气体]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-018-一分册-L1实10-蒸气密度测摩尔质量.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册 第1讲【实战演练】10",
+   "submodule": "物质的量",
+   "syllabus": "kp[理想气体]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-019-一分册-L1实11-HF缔合与溶液浓度比.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册 第1讲【实战演练】11",
+   "submodule": "物质的量",
+   "syllabus": "kp[理想气体]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-020-一分册-L1实12-CCl4蒸气密度法测M.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册 第1讲【实战演练】12",
+   "submodule": "物质的量",
+   "syllabus": "kp[理想气体]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-021-一分册-L1实13-BrClx卤素互化物.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册 第1讲【实战演练】13",
+   "submodule": "物质的量",
+   "syllabus": "kp[化学计量]≈考纲[化学计量点与滴定终点]"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-023-一分册-L1实15-喷泉实验定量条件.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册 第1讲【实战演练】15",
+   "submodule": "物质的量",
+   "syllabus": "kp[理想气体]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-024-一分册-L1实16-铀氯化物热分解推断.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册 第1讲【实战演练】16",
    "submodule": "物质的量",
    "syllabus": "kp[理想气体]直连考纲词表"
   },
@@ -64,7 +847,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第一分册 第2讲【例9】",
    "submodule": "氧化还原反应",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -73,7 +856,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第一分册 第2讲【例10】（2011 年\"华约\"自主招生试题）",
    "submodule": "氧化还原反应",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -100,7 +883,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第一分册 第2讲【竞赛对接】例4（2003 年全国初赛试题）",
    "submodule": "氧化还原反应",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -109,7 +892,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第一分册 第2讲【竞赛对接】例5（2008 年乌克兰化学竞赛 9 年级试题）",
    "submodule": "氧化还原反应",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -118,7 +901,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第一分册 第2讲【竞赛对接】例6（1992 年全国初赛试题）",
    "submodule": "氧化还原反应",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -127,7 +910,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第一分册 第2讲【实战演练】3",
    "submodule": "氧化还原反应",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -136,7 +919,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第一分册 第2讲【实战演练】4",
    "submodule": "氧化还原反应",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -145,7 +928,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第一分册 第2讲【实战演练】5",
    "submodule": "氧化还原反应",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -154,7 +937,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第一分册 第2讲【实战演练】8",
    "submodule": "氧化还原反应",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -172,7 +955,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第一分册 第2讲【实战演练】10",
    "submodule": "氧化还原反应",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -181,7 +964,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第一分册 第2讲【实战演练】11",
    "submodule": "氧化还原反应",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -203,6 +986,15 @@
   },
   {
    "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-058-一分册-L3对例1-硫酸复盐X推断.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册 第3讲【竞赛对接·例1】（2015 年捷克高中化学竞赛试题）",
+   "submodule": "离子反应",
+   "syllabus": "kp[化学计量]≈考纲[化学计量点与滴定终点]"
+  },
+  {
+   "subject_module": "化学原理",
    "path": "教材习题/高中化学竞赛教程第一分册/题-059-一分册-L3对例2-S2O的生成与歧化.md",
    "difficulty": 5,
    "fidelity": "原书逐字",
@@ -218,6 +1010,69 @@
    "source": "高中化学竞赛教程第一分册 第3讲【竞赛对接·例3】",
    "submodule": "离子反应",
    "syllabus": "kp[配合物]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-062-一分册-L3对例5-LiF沉淀推断.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册 第3讲【竞赛对接·例5】（1999 年拉脱维亚化学竞赛试题）",
+   "submodule": "离子反应",
+   "syllabus": "kp[溶度积]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-063-一分册-L3对例6-硝酸盐与碘化钠CuI推断.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册 第3讲【竞赛对接·例6】（1996 年俄罗斯化学竞赛试题）",
+   "submodule": "离子反应",
+   "syllabus": "kp[氧化态]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-066-一分册-L3实3-现象与图形相符判断.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册 第3讲【实战演练·3】",
+   "submodule": "离子反应",
+   "syllabus": "kp[溶度积]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-068-一分册-L3实5-塑料小球浮沉与硫酸中和.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册 第3讲【实战演练·5】",
+   "submodule": "离子反应",
+   "syllabus": "kp[溶度积]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-069-一分册-L3实6-亚铁氰化钾分解与含氰废水处理.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册 第3讲【实战演练·6】",
+   "submodule": "离子反应",
+   "syllabus": "kp[氧化态]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-070-一分册-L3实7-氯的含氧化合物转换推断.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册 第3讲【实战演练·7】",
+   "submodule": "离子反应",
+   "syllabus": "kp[氧化态]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-071-一分册-L3实8-单质转化框图推断.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册 第3讲【实战演练·8】",
+   "submodule": "离子反应",
+   "syllabus": "kp[氧化态]直连考纲词表"
   },
   {
    "subject_module": "元素与分析",
@@ -236,6 +1091,15 @@
    "source": "高中化学竞赛教程第一分册 第3讲【实战演练·11】",
    "submodule": "离子反应",
    "syllabus": "kp[氧化态]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-075-一分册-L3实12-铬酸盐法测定钡离子浓度.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册 第3讲【实战演练·12】",
+   "submodule": "离子反应",
+   "syllabus": "kp[氧化还原滴定]直连考纲词表"
   },
   {
    "subject_module": "化学原理",
@@ -262,7 +1126,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第一分册·第4讲 竞赛对接 例2（2008年全国初赛试题）",
    "submodule": "化学反应中的能量变化",
-   "syllabus": "kp[卤素]≈考纲[###主族高价化合物章6氧族、章7卤素，决赛拓展]"
+   "syllabus": "kp[卤素]≈考纲[###卤素17族有机金属相关知识点决赛/竞赛拓展]"
   },
   {
    "subject_module": "化学原理",
@@ -437,6 +1301,60 @@
   },
   {
    "subject_module": "结构化学",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-116-一分册-L6对例1-外星球十元素相对位置.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册·第6讲 对例 1",
+   "submodule": "元素周期律与元素周期表",
+   "syllabus": "kp[元素周期律]直连考纲词表"
+  },
+  {
+   "subject_module": "结构化学",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-119-一分册-L6对例4-Tc同位素与马涛契规则.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册·第6讲 对例 4（安徽省化学竞赛试题）",
+   "submodule": "元素周期律与元素周期表",
+   "syllabus": "kp[原子结构]直连考纲词表"
+  },
+  {
+   "subject_module": "结构化学",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-120-一分册-L6对例5-Na负离子与墨汁半径.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册·第6讲 对例 5（2012年高一化学竞赛模拟试题）",
+   "submodule": "元素周期律与元素周期表",
+   "syllabus": "kp[离子半径]直连考纲词表"
+  },
+  {
+   "subject_module": "结构化学",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-121-一分册-L6对例6-Tc金属半径估计.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册·第6讲 对例 6（1992年全国理科班化学竞赛试题）",
+   "submodule": "元素周期律与元素周期表",
+   "syllabus": "kp[原子半径]直连考纲词表"
+  },
+  {
+   "subject_module": "结构化学",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-129-一分册-L6实6-假想元素周期表填空.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册·第6讲 实战演练 6",
+   "submodule": "元素周期律与元素周期表",
+   "syllabus": "kp[元素周期律]直连考纲词表"
+  },
+  {
+   "subject_module": "结构化学",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-135-一分册-L6实12-共生矿与惰性电子对.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册·第6讲 实战演练 12",
+   "submodule": "元素周期律与元素周期表",
+   "syllabus": "kp[惰性对效应]直连考纲词表"
+  },
+  {
+   "subject_module": "结构化学",
    "path": "教材习题/高中化学竞赛教程第一分册/题-657-一分册-L7对例3-三型晶体半径比计算.md",
    "difficulty": 4,
    "fidelity": "原书逐字",
@@ -559,7 +1477,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第一分册·第11讲 实战演练 11",
    "submodule": "氢、稀有气体和卤族元素",
-   "syllabus": "kp[卤素]≈考纲[###主族高价化合物章6氧族、章7卤素，决赛拓展]"
+   "syllabus": "kp[卤素]≈考纲[###卤素17族有机金属相关知识点决赛/竞赛拓展]"
   },
   {
    "subject_module": "元素与分析",
@@ -568,7 +1486,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第一分册·第11讲 实战演练 12",
    "submodule": "氢、稀有气体和卤族元素",
-   "syllabus": "kp[卤素]≈考纲[###主族高价化合物章6氧族、章7卤素，决赛拓展]"
+   "syllabus": "kp[卤素]≈考纲[###卤素17族有机金属相关知识点决赛/竞赛拓展]"
   },
   {
    "subject_module": "元素与分析",
@@ -586,7 +1504,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第一分册·第12讲 竞赛对接 例1（1992 年全国初赛试题）",
    "submodule": "氧族元素",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "元素与分析",
@@ -595,7 +1513,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第一分册·第12讲 竞赛对接 例2（2000 年全国初赛试题）",
    "submodule": "氧族元素",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "元素与分析",
@@ -604,7 +1522,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第一分册·第12讲 竞赛对接 例3（2000 年全国初赛试题）",
    "submodule": "氧族元素",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "元素与分析",
@@ -613,7 +1531,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第一分册·第12讲 竞赛对接 例4（2007 年浙江预赛试题）",
    "submodule": "氧族元素",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "元素与分析",
@@ -622,7 +1540,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第一分册·第12讲 竞赛对接 例5（2005 年全国初赛备用试题）",
    "submodule": "氧族元素",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "元素与分析",
@@ -631,7 +1549,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第一分册·第12讲 实战演练 8",
    "submodule": "氧族元素",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "元素与分析",
@@ -694,7 +1612,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第一分册 测试题二",
    "submodule": "三大平衡",
-   "syllabus": "kp[化学平衡]直连考纲词表"
+   "syllabus": "kp[溶度积]直连考纲词表"
   },
   {
    "subject_module": "化学原理",
@@ -703,7 +1621,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第一分册 测试题二",
    "submodule": "滴定曲线与离子浓度",
-   "syllabus": "kp[化学平衡]直连考纲词表"
+   "syllabus": "kp[溶度积]直连考纲词表"
   },
   {
    "subject_module": "元素与分析",
@@ -712,7 +1630,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第一分册 测试题二",
    "submodule": "硫的氯化物与氮化硫",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "元素与分析",
@@ -721,7 +1639,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第一分册 测试题二",
    "submodule": "铁的化学性质",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -730,7 +1648,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第一分册 测试题二",
    "submodule": "沉淀溶解平衡计算",
-   "syllabus": "kp[化学计量]≈考纲[化学计量点与滴定终点]"
+   "syllabus": "kp[溶度积]直连考纲词表"
   },
   {
    "subject_module": "结构化学",
@@ -748,7 +1666,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第一分册 测试题三",
    "submodule": "滴定曲线与守恒",
-   "syllabus": "kp[化学平衡]直连考纲词表"
+   "syllabus": "kp[溶度积]直连考纲词表"
   },
   {
    "subject_module": "元素与分析",
@@ -802,7 +1720,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第一分册 测试题三",
    "submodule": "氧化还原滴定应用",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "元素与分析",
@@ -811,7 +1729,16 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第一分册 测试题三",
    "submodule": "磷化物测定",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-811-一分册-测4-7.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册 测试题四",
+   "submodule": "沉淀溶解平衡",
+   "syllabus": "kp[溶度积]直连考纲词表"
   },
   {
    "subject_module": "化学原理",
@@ -829,7 +1756,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第一分册 测试题四",
    "submodule": "滴定曲线与守恒",
-   "syllabus": "kp[化学平衡]直连考纲词表"
+   "syllabus": "kp[溶度积]直连考纲词表"
   },
   {
    "subject_module": "结构化学",
@@ -847,7 +1774,196 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第一分册 测试题四",
    "submodule": "聚合硫酸铁工艺",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-825-一分册-L13对例1-2004山东预赛镁与不同浓度硝酸.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册·第13讲 竞赛对接 1",
+   "submodule": "氮族元素",
+   "syllabus": "kp[氮族元素]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-826-一分册-L13对例3-NO与F2产物及加合物结构.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册·第13讲 竞赛对接 3",
+   "submodule": "氮族元素",
+   "syllabus": "kp[VSEPR理论]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-827-一分册-L13对例4-2009科大自招高含氮化合物.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册·第13讲 竞赛对接 4",
+   "submodule": "氮族元素",
+   "syllabus": "kp[Lewis结构式]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-828-一分册-L13对例5-1997初赛改编PCl5存在形式.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册·第13讲 竞赛对接 5",
+   "submodule": "氮族元素",
+   "syllabus": "kp[VSEPR理论]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-829-一分册-L13对例6-2014初赛N8链状分子结构.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册·第13讲 竞赛对接 6",
+   "submodule": "氮族元素",
+   "syllabus": "kp[Lewis结构式]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-836-一分册-L13实7-无色固体A五氧化二氮推断.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册·第13讲 实战演练 7",
+   "submodule": "氮族元素",
+   "syllabus": "kp[氮族元素]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-837-一分册-L13实8-I2O5定量分析CO.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册·第13讲 实战演练 8",
+   "submodule": "氮族元素",
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-838-一分册-L13实9-NF3综合推断与衍生物.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册·第13讲 实战演练 9",
+   "submodule": "氮族元素",
+   "syllabus": "kp[VSEPR理论]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-843-一分册-L14知例2-2010初赛盐湖钠盐硼砂推断.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册·第14讲 知识要点 2",
+   "submodule": "碳族元素和硼族元素",
+   "syllabus": "kp[硼族元素]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-844-一分册-L14对例2-2000浙江预赛Mg2Si混合物计算.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册·第14讲 竞赛对接 2",
+   "submodule": "碳族元素和硼族元素",
+   "syllabus": "kp[碳族元素]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-845-一分册-L14对例3-2003初赛过硼酸钠X晶体.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册·第14讲 竞赛对接 3",
+   "submodule": "碳族元素和硼族元素",
+   "syllabus": "kp[硼族元素]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-849-一分册-L14实4-石灰岩深海浅海与碳酸平衡.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册·第14讲 实战演练 4",
+   "submodule": "碳族元素和硼族元素",
+   "syllabus": "kp[碳族元素]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-850-一分册-L14实5-SiCl4氮化制Si3N4路线.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册·第14讲 实战演练 5",
+   "submodule": "碳族元素和硼族元素",
+   "syllabus": "kp[碳族元素]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-852-一分册-L14实7-三甲基氯硅烷水解缩合.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册·第14讲 实战演练 7",
+   "submodule": "碳族元素和硼族元素",
+   "syllabus": "kp[碳族元素]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-856-一分册-L14实11-镁还原SiO2制硅硅烷自燃.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册·第14讲 实战演练 11",
+   "submodule": "碳族元素和硼族元素",
+   "syllabus": "kp[碳族元素]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-857-一分册-L14实12-单质A与HCl Cl2反应计算.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册·第14讲 实战演练 12",
+   "submodule": "碳族元素和硼族元素",
+   "syllabus": "kp[碳族元素]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-858-一分册-L14实13-BCl3与NH4Cl制硼氮环.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册·第14讲 实战演练 13",
+   "submodule": "碳族元素和硼族元素",
+   "syllabus": "kp[硼族元素]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-861-一分册-L15对例1-2000广西初赛碱金属氢化物.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册·第15讲 竞赛对接 1",
+   "submodule": "碱金属和碱土金属",
+   "syllabus": "kp[碱金属]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-871-一分册-L15实9-锂电池负极比容量与电极电势.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册·第15讲 实战演练 9",
+   "submodule": "碱金属和碱土金属",
+   "syllabus": "kp[碱金属]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-873-一分册-L15实11-Rb Cs 制备与分离.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册·第15讲 实战演练 11",
+   "submodule": "碱金属和碱土金属",
+   "syllabus": "kp[碱金属]直连考纲词表"
+  },
+  {
+   "subject_module": "元素与分析",
+   "path": "教材习题/高中化学竞赛教程第一分册/题-874-一分册-L15实12-CO2与CO混合气与过氧化物.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第一分册·第15讲 实战演练 12",
+   "submodule": "碱金属和碱土金属",
+   "syllabus": "kp[碱金属]直连考纲词表"
   },
   {
    "subject_module": "有机化学",
@@ -1261,7 +2377,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第12讲 正文例1",
    "submodule": "卤代烃",
-   "syllabus": "kp[亲核取代]≈考纲[42芳香亲核取代反应]"
+   "syllabus": "kp[亲核取代]≈考纲[芳香亲核取代]"
   },
   {
    "subject_module": "有机化学",
@@ -1351,7 +2467,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第12讲 实战演练9",
    "submodule": "卤代烃",
-   "syllabus": "kp[氧化反应]≈考纲[有机氧化反应|过氧酸氧化]"
+   "syllabus": "kp[氧化反应]≈考纲[有机氧化反应]"
   },
   {
    "subject_module": "有机化学",
@@ -1405,7 +2521,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第12讲 实战演练15",
    "submodule": "卤代烃",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "有机化学",
@@ -1414,7 +2530,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第13讲 正文例1",
    "submodule": "醇酚醚",
-   "syllabus": "kp[醇]≈考纲[dessmartin氧化✓已填充：dmp/ibx，λ⁵iodane，醇→醛/酮，室温温和]"
+   "syllabus": "kp[醇]≈考纲[过碘酸氧化✓已填充：hio₄，cis1,2二醇→二羰基，糖结构鉴定核心工具]"
   },
   {
    "subject_module": "有机化学",
@@ -1459,7 +2575,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第13讲 竞赛对接例3（1996 年俄罗斯中学生奥赛十年级）",
    "submodule": "醇酚醚",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "有机化学",
@@ -1468,7 +2584,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第13讲 实战演练1",
    "submodule": "醇酚醚",
-   "syllabus": "kp[醇]≈考纲[dessmartin氧化✓已填充：dmp/ibx，λ⁵iodane，醇→醛/酮，室温温和]"
+   "syllabus": "kp[醇]≈考纲[过碘酸氧化✓已填充：hio₄，cis1,2二醇→二羰基，糖结构鉴定核心工具]"
   },
   {
    "subject_module": "有机化学",
@@ -1477,7 +2593,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第13讲 实战演练4",
    "submodule": "醇酚醚",
-   "syllabus": "kp[醇]≈考纲[dessmartin氧化✓已填充：dmp/ibx，λ⁵iodane，醇→醛/酮，室温温和]"
+   "syllabus": "kp[醇]≈考纲[过碘酸氧化✓已填充：hio₄，cis1,2二醇→二羰基，糖结构鉴定核心工具]"
   },
   {
    "subject_module": "有机化学",
@@ -1522,7 +2638,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第13讲 实战演练10",
    "submodule": "醇酚醚",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "有机化学",
@@ -1558,7 +2674,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第13讲 实战演练14",
    "submodule": "醇酚醚",
-   "syllabus": "kp[醇]≈考纲[dessmartin氧化✓已填充：dmp/ibx，λ⁵iodane，醇→醛/酮，室温温和]"
+   "syllabus": "kp[醇]≈考纲[过碘酸氧化✓已填充：hio₄，cis1,2二醇→二羰基，糖结构鉴定核心工具]"
   },
   {
    "subject_module": "有机化学",
@@ -1567,7 +2683,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第14讲 正文例1",
    "submodule": "醛酮",
-   "syllabus": "kp[醛酮]≈考纲[coreychaykovsky反应✓已填充：硫叶立德+醛酮→三元环——硫鎓甲叉给环氧、亚砜鎓甲叉给环丙烷]"
+   "syllabus": "kp[醛酮]≈考纲[wittig反应✓已填充：醛酮→烯烃，构建c=c的核心方法]"
   },
   {
    "subject_module": "有机化学",
@@ -1576,7 +2692,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第14讲 正文例2",
    "submodule": "醛酮",
-   "syllabus": "kp[醛酮]≈考纲[coreychaykovsky反应✓已填充：硫叶立德+醛酮→三元环——硫鎓甲叉给环氧、亚砜鎓甲叉给环丙烷]"
+   "syllabus": "kp[醛酮]≈考纲[wittig反应✓已填充：醛酮→烯烃，构建c=c的核心方法]"
   },
   {
    "subject_module": "有机化学",
@@ -1585,7 +2701,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第14讲 正文例3",
    "submodule": "醛酮",
-   "syllabus": "kp[醛酮]≈考纲[coreychaykovsky反应✓已填充：硫叶立德+醛酮→三元环——硫鎓甲叉给环氧、亚砜鎓甲叉给环丙烷]"
+   "syllabus": "kp[醛酮]≈考纲[wittig反应✓已填充：醛酮→烯烃，构建c=c的核心方法]"
   },
   {
    "subject_module": "有机化学",
@@ -1594,7 +2710,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第14讲 竞赛对接例1（第 15 届 ICHO 竞赛）",
    "submodule": "醛酮",
-   "syllabus": "kp[醛酮]≈考纲[coreychaykovsky反应✓已填充：硫叶立德+醛酮→三元环——硫鎓甲叉给环氧、亚砜鎓甲叉给环丙烷]"
+   "syllabus": "kp[醛酮]≈考纲[wittig反应✓已填充：醛酮→烯烃，构建c=c的核心方法]"
   },
   {
    "subject_module": "有机化学",
@@ -1603,7 +2719,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第14讲 竞赛对接例2（2001 年浙江预赛）",
    "submodule": "醛酮",
-   "syllabus": "kp[醛酮]≈考纲[coreychaykovsky反应✓已填充：硫叶立德+醛酮→三元环——硫鎓甲叉给环氧、亚砜鎓甲叉给环丙烷]"
+   "syllabus": "kp[醛酮]≈考纲[wittig反应✓已填充：醛酮→烯烃，构建c=c的核心方法]"
   },
   {
    "subject_module": "有机化学",
@@ -1612,7 +2728,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第14讲 竞赛对接例3（2008 年全国初赛）",
    "submodule": "醛酮",
-   "syllabus": "kp[醛酮]≈考纲[coreychaykovsky反应✓已填充：硫叶立德+醛酮→三元环——硫鎓甲叉给环氧、亚砜鎓甲叉给环丙烷]"
+   "syllabus": "kp[醛酮]≈考纲[wittig反应✓已填充：醛酮→烯烃，构建c=c的核心方法]"
   },
   {
    "subject_module": "有机化学",
@@ -1621,7 +2737,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第14讲 实战演练1",
    "submodule": "醛酮",
-   "syllabus": "kp[醛酮]≈考纲[coreychaykovsky反应✓已填充：硫叶立德+醛酮→三元环——硫鎓甲叉给环氧、亚砜鎓甲叉给环丙烷]"
+   "syllabus": "kp[醛酮]≈考纲[wittig反应✓已填充：醛酮→烯烃，构建c=c的核心方法]"
   },
   {
    "subject_module": "有机化学",
@@ -1630,7 +2746,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第14讲 实战演练2",
    "submodule": "醛酮",
-   "syllabus": "kp[醛酮]≈考纲[coreychaykovsky反应✓已填充：硫叶立德+醛酮→三元环——硫鎓甲叉给环氧、亚砜鎓甲叉给环丙烷]"
+   "syllabus": "kp[醛酮]≈考纲[wittig反应✓已填充：醛酮→烯烃，构建c=c的核心方法]"
   },
   {
    "subject_module": "有机化学",
@@ -1666,7 +2782,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第14讲 实战演练6",
    "submodule": "醛酮",
-   "syllabus": "kp[醛酮]≈考纲[coreychaykovsky反应✓已填充：硫叶立德+醛酮→三元环——硫鎓甲叉给环氧、亚砜鎓甲叉给环丙烷]"
+   "syllabus": "kp[醛酮]≈考纲[wittig反应✓已填充：醛酮→烯烃，构建c=c的核心方法]"
   },
   {
    "subject_module": "有机化学",
@@ -1675,7 +2791,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第14讲 实战演练7",
    "submodule": "醛酮",
-   "syllabus": "kp[醛酮]≈考纲[coreychaykovsky反应✓已填充：硫叶立德+醛酮→三元环——硫鎓甲叉给环氧、亚砜鎓甲叉给环丙烷]"
+   "syllabus": "kp[醛酮]≈考纲[wittig反应✓已填充：醛酮→烯烃，构建c=c的核心方法]"
   },
   {
    "subject_module": "有机化学",
@@ -1693,7 +2809,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第14讲 实战演练10",
    "submodule": "醛酮",
-   "syllabus": "kp[醛酮]≈考纲[coreychaykovsky反应✓已填充：硫叶立德+醛酮→三元环——硫鎓甲叉给环氧、亚砜鎓甲叉给环丙烷]"
+   "syllabus": "kp[醛酮]≈考纲[wittig反应✓已填充：醛酮→烯烃，构建c=c的核心方法]"
   },
   {
    "subject_module": "有机化学",
@@ -1702,7 +2818,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第14讲 实战演练11",
    "submodule": "醛酮",
-   "syllabus": "kp[醛酮]≈考纲[coreychaykovsky反应✓已填充：硫叶立德+醛酮→三元环——硫鎓甲叉给环氧、亚砜鎓甲叉给环丙烷]"
+   "syllabus": "kp[醛酮]≈考纲[wittig反应✓已填充：醛酮→烯烃，构建c=c的核心方法]"
   },
   {
    "subject_module": "有机化学",
@@ -1711,7 +2827,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第14讲 实战演练12",
    "submodule": "醛酮",
-   "syllabus": "kp[醛酮]≈考纲[coreychaykovsky反应✓已填充：硫叶立德+醛酮→三元环——硫鎓甲叉给环氧、亚砜鎓甲叉给环丙烷]"
+   "syllabus": "kp[醛酮]≈考纲[wittig反应✓已填充：醛酮→烯烃，构建c=c的核心方法]"
   },
   {
    "subject_module": "有机化学",
@@ -1720,7 +2836,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第14讲 实战演练13",
    "submodule": "醛酮",
-   "syllabus": "kp[醛酮]≈考纲[coreychaykovsky反应✓已填充：硫叶立德+醛酮→三元环——硫鎓甲叉给环氧、亚砜鎓甲叉给环丙烷]"
+   "syllabus": "kp[醛酮]≈考纲[wittig反应✓已填充：醛酮→烯烃，构建c=c的核心方法]"
   },
   {
    "subject_module": "有机化学",
@@ -1895,6 +3011,15 @@
   },
   {
    "subject_module": "有机化学",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-1128-二分册-L16例2-高碘酸氧化葡萄糖.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第16讲 正文例2",
+   "submodule": "糖类、蛋白质",
+   "syllabus": "kp[单糖]直连考纲词表"
+  },
+  {
+   "subject_module": "有机化学",
    "path": "教材习题/高中化学竞赛教程第二分册/题-1129-二分册-L16例3-甘氨酸四物质推断.md",
    "difficulty": 4,
    "fidelity": "原书逐字",
@@ -1910,6 +3035,87 @@
    "source": "高中化学竞赛教程第二分册 第16讲 对例1",
    "submodule": "糖类、蛋白质",
    "syllabus": "kp[糖苷]直连考纲词表"
+  },
+  {
+   "subject_module": "有机化学",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-1131-二分册-L16对例2-2008山东预赛葡萄糖代谢.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第16讲 对例2（2008 年山东预赛）",
+   "submodule": "糖类、蛋白质",
+   "syllabus": "kp[单糖]直连考纲词表"
+  },
+  {
+   "subject_module": "有机化学",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-1132-二分册-L16对例3-2003初赛Roundup一扫光.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第16讲 对例3（2003 年全国初赛）",
+   "submodule": "糖类、蛋白质",
+   "syllabus": "kp[氨基酸与等电点]直连考纲词表"
+  },
+  {
+   "subject_module": "有机化学",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-1133-二分册-L16实1-CnH2nO4N2氨基酸数目.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第16讲 实战演练1",
+   "submodule": "糖类、蛋白质",
+   "syllabus": "kp[氨基酸与等电点]直连考纲词表"
+  },
+  {
+   "subject_module": "有机化学",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-1135-二分册-L16实3-木星生物氨体系糖类类比.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第16讲 实战演练3",
+   "submodule": "糖类、蛋白质",
+   "syllabus": "kp[糖类]直连考纲词表"
+  },
+  {
+   "subject_module": "有机化学",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-1137-二分册-L16实5-纤维素硝酸酯酯化羟基数.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第16讲 实战演练5",
+   "submodule": "糖类、蛋白质",
+   "syllabus": "kp[二糖与多糖]直连考纲词表"
+  },
+  {
+   "subject_module": "有机化学",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-1138-二分册-L16实6-赖氨酸型甲与二羧基乙.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第16讲 实战演练6",
+   "submodule": "糖类、蛋白质",
+   "syllabus": "kp[氨基酸与等电点]直连考纲词表"
+  },
+  {
+   "subject_module": "有机化学",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-1139-二分册-L16实7-淀粉水解A至F六结构.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第16讲 实战演练7",
+   "submodule": "糖类、蛋白质",
+   "syllabus": "kp[还原糖]直连考纲词表"
+  },
+  {
+   "subject_module": "有机化学",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-1140-二分册-L16实8-Lyocell纤维与NMMO制备.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第16讲 实战演练8",
+   "submodule": "糖类、蛋白质",
+   "syllabus": "kp[二糖与多糖]直连考纲词表"
+  },
+  {
+   "subject_module": "有机化学",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-1141-二分册-L16实9-多肽415g水解三问.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第16讲 实战演练9",
+   "submodule": "糖类、蛋白质",
+   "syllabus": "kp[多肽合成]直连考纲词表"
   },
   {
    "subject_module": "有机化学",
@@ -1931,12 +3137,30 @@
   },
   {
    "subject_module": "有机化学",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-1144-二分册-L16实12-赖氨酸三条件优势构型.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第16讲 实战演练12",
+   "submodule": "糖类、蛋白质",
+   "syllabus": "kp[氨基酸与等电点]直连考纲词表"
+  },
+  {
+   "subject_module": "有机化学",
    "path": "教材习题/高中化学竞赛教程第二分册/题-1145-二分册-L16实13-甲醛掩蔽滴定定氨基酸A.md",
    "difficulty": 5,
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第16讲 实战演练13",
    "submodule": "糖类、蛋白质",
    "syllabus": "kp[氨基酸与等电点]直连考纲词表"
+  },
+  {
+   "subject_module": "有机化学",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-1146-二分册-L16实14-离子液体酶催化阿斯巴糖.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第16讲 实战演练14",
+   "submodule": "糖类、蛋白质",
+   "syllabus": "kp[杂化轨道理论]直连考纲词表"
   },
   {
    "subject_module": "有机化学",
@@ -2125,7 +3349,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第1讲 实战演练⑬",
    "submodule": "化学平衡",
-   "syllabus": "kp[化学平衡]直连考纲词表"
+   "syllabus": "kp[溶度积]直连考纲词表"
   },
   {
    "subject_module": "化学原理",
@@ -2282,6 +3506,24 @@
   },
   {
    "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-869-二分册-L3例3-SnS溶于盐酸最低浓度.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第3讲",
+   "submodule": "难溶电解质的沉淀溶解平衡",
+   "syllabus": "kp[溶度积]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-870-二分册-L3例4-H2S分离Mn2+与Pb2+.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第3讲",
+   "submodule": "难溶电解质的沉淀溶解平衡",
+   "syllabus": "kp[溶度积]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
    "path": "教材习题/高中化学竞赛教程第二分册/题-872-二分册-L3对例1-2008北大自招氯水与CaCO3制HClO.md",
    "difficulty": 4,
    "fidelity": "原书逐字",
@@ -2296,7 +3538,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第3讲 竞赛对接 例2（2004 年江苏预赛）",
    "submodule": "难溶电解质的沉淀溶解平衡",
-   "syllabus": "kp[化学计量]≈考纲[化学计量点与滴定终点]"
+   "syllabus": "kp[溶度积]直连考纲词表"
   },
   {
    "subject_module": "化学原理",
@@ -2305,7 +3547,25 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第3讲 竞赛对接 例3（2007 年湖南预赛）",
    "submodule": "难溶电解质的沉淀溶解平衡",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[溶度积]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-877-二分册-L3实3-Ag2SO4加入Na2SO4曲线选择.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第3讲 实战演练3",
+   "submodule": "难溶电解质的沉淀溶解平衡",
+   "syllabus": "kp[溶度积]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-878-二分册-L3实4-Tl2S与CuS溶解性计算解释.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第3讲 实战演练4",
+   "submodule": "难溶电解质的沉淀溶解平衡",
+   "syllabus": "kp[溶度积]直连考纲词表"
   },
   {
    "subject_module": "化学原理",
@@ -2314,7 +3574,16 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第3讲 实战演练5",
    "submodule": "难溶电解质的沉淀溶解平衡",
-   "syllabus": "kp[化学计量]≈考纲[化学计量点与滴定终点]"
+   "syllabus": "kp[溶度积]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-880-二分册-L3实6-AgNO3滴定Cl-与CrO42-分步沉淀.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第3讲 实战演练6",
+   "submodule": "难溶电解质的沉淀溶解平衡",
+   "syllabus": "kp[溶度积]直连考纲词表"
   },
   {
    "subject_module": "化学原理",
@@ -2323,7 +3592,16 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第3讲 实战演练7",
    "submodule": "难溶电解质的沉淀溶解平衡",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[溶度积]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-882-二分册-L3实8-MnCl2加Na2S先生成何种沉淀.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第3讲 实战演练8",
+   "submodule": "难溶电解质的沉淀溶解平衡",
+   "syllabus": "kp[溶度积]直连考纲词表"
   },
   {
    "subject_module": "化学原理",
@@ -2332,7 +3610,25 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第3讲 实战演练9",
    "submodule": "难溶电解质的沉淀溶解平衡",
-   "syllabus": "kp[化学平衡]直连考纲词表"
+   "syllabus": "kp[溶度积]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-884-二分册-L3实10-MgOH2饱和溶液四问.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第3讲 实战演练10",
+   "submodule": "难溶电解质的沉淀溶解平衡",
+   "syllabus": "kp[溶度积]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-885-二分册-L3实12-天青石绿色化学法制碳酸锶.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第3讲 实战演练12",
+   "submodule": "难溶电解质的沉淀溶解平衡",
+   "syllabus": "kp[溶度积]直连考纲词表"
   },
   {
    "subject_module": "化学原理",
@@ -2341,7 +3637,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第3讲 实战演练13",
    "submodule": "难溶电解质的沉淀溶解平衡",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[溶度积]直连考纲词表"
   },
   {
    "subject_module": "化学原理",
@@ -2350,7 +3646,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第3讲 实战演练14",
    "submodule": "难溶电解质的沉淀溶解平衡",
-   "syllabus": "kp[化学计量]≈考纲[化学计量点与滴定终点]"
+   "syllabus": "kp[溶度积]直连考纲词表"
   },
   {
    "subject_module": "化学原理",
@@ -2359,7 +3655,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第3讲 实战演练15",
    "submodule": "难溶电解质的沉淀溶解平衡",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[溶度积]直连考纲词表"
   },
   {
    "subject_module": "化学原理",
@@ -2368,7 +3664,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第4讲",
    "submodule": "原电池及常见化学电源",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2377,7 +3673,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第4讲",
    "submodule": "原电池及常见化学电源",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2386,7 +3682,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第4讲 竞赛对接 例1（2009 年广东预赛）",
    "submodule": "原电池及常见化学电源",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2395,7 +3691,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第4讲 竞赛对接 例2（2009 年江苏高考）",
    "submodule": "原电池及常见化学电源",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2404,7 +3700,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第4讲 竞赛对接 例3（2003 年全国初赛）",
    "submodule": "原电池及常见化学电源",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2413,7 +3709,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第4讲 竞赛对接 例4（2001 年全国初赛）",
    "submodule": "原电池及常见化学电源",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2422,7 +3718,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第4讲 实战演练1",
    "submodule": "原电池及常见化学电源",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2431,7 +3727,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第4讲 实战演练4",
    "submodule": "原电池及常见化学电源",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2440,7 +3736,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第4讲 实战演练5",
    "submodule": "原电池及常见化学电源",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2449,7 +3745,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第4讲 实战演练6",
    "submodule": "原电池及常见化学电源",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2458,7 +3754,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第4讲 实战演练7",
    "submodule": "原电池及常见化学电源",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2467,7 +3763,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第4讲 实战演练10",
    "submodule": "原电池及常见化学电源",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2476,7 +3772,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第4讲 实战演练11",
    "submodule": "原电池及常见化学电源",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2485,7 +3781,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第4讲 实战演练12",
    "submodule": "原电池及常见化学电源",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2494,7 +3790,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第4讲 实战演练13",
    "submodule": "原电池及常见化学电源",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2503,7 +3799,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第4讲 实战演练14",
    "submodule": "原电池及常见化学电源",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2512,7 +3808,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第4讲 实战演练15",
    "submodule": "原电池及常见化学电源",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2521,7 +3817,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第5讲",
    "submodule": "电解的原理及应用",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2539,7 +3835,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第5讲",
    "submodule": "电解的原理及应用",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2548,7 +3844,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第5讲",
    "submodule": "电解的原理及应用",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2557,7 +3853,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第5讲 竞赛对接 例1（2006 年江苏高考）",
    "submodule": "电解的原理及应用",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2566,7 +3862,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第5讲 竞赛对接 例2（2004 年全国初赛）",
    "submodule": "电解的原理及应用",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2575,7 +3871,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第5讲 竞赛对接 例3（2005 年全国初赛）",
    "submodule": "电解的原理及应用",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2584,7 +3880,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第5讲 实战演练3",
    "submodule": "电解的原理及应用",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2593,7 +3889,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第5讲 实战演练4",
    "submodule": "电解的原理及应用",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2602,7 +3898,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第5讲 实战演练5",
    "submodule": "电解的原理及应用",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2611,7 +3907,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第5讲 实战演练6",
    "submodule": "电解的原理及应用",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2620,7 +3916,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第5讲 实战演练7",
    "submodule": "电解的原理及应用",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2629,7 +3925,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第5讲 实战演练8",
    "submodule": "电解的原理及应用",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2638,7 +3934,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第5讲 实战演练9",
    "submodule": "电解的原理及应用",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2647,7 +3943,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第5讲 实战演练10",
    "submodule": "电解的原理及应用",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2656,7 +3952,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第5讲 实战演练11",
    "submodule": "电解的原理及应用",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2665,7 +3961,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第5讲 实战演练12",
    "submodule": "电解的原理及应用",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2674,7 +3970,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第5讲 实战演练13",
    "submodule": "电解的原理及应用",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2683,7 +3979,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第5讲 实战演练14",
    "submodule": "电解的原理及应用",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "化学原理",
@@ -2692,7 +3988,178 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第5讲 实战演练15",
    "submodule": "电解的原理及应用",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-933-二分册-L6例1-配合物命名表格与CrNH3Cl推断.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第6讲",
+   "submodule": "配位化学基础",
+   "syllabus": "kp[配合物]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-934-二分册-L6例2-CoNH3BrCO3全部异构体与区分.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第6讲",
+   "submodule": "配位化学基础",
+   "syllabus": "kp[配合物]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-935-二分册-L6例3-Ma3def与MAB2cd八面体异构体.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第6讲",
+   "submodule": "配位化学基础",
+   "syllabus": "kp[配合物]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-936-二分册-L6对例1-2009广东高考铜单质与化合物.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第6讲 竞赛对接 例1（2009 年广东高考）",
+   "submodule": "配位化学基础",
+   "syllabus": "kp[电子排布]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-937-二分册-L6对例2-1995全国冬令营反位效应设计合成.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第6讲 竞赛对接 例2（1995 年全国冬令营）",
+   "submodule": "配位化学基础",
+   "syllabus": "kp[配合物]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-938-二分册-L6对例3-2004全国初赛钒吡啶甲酸配合物.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第6讲 竞赛对接 例3（2004 年全国初赛）",
+   "submodule": "配位化学基础",
+   "syllabus": "kp[配合物]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-941-二分册-L6实3-不能作螯合剂的选择.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第6讲 实战演练③",
+   "submodule": "配位化学基础",
+   "syllabus": "kp[配合物]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-942-二分册-L6实4-五种配合物异构类型判断.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第6讲 实战演练④",
+   "submodule": "配位化学基础",
+   "syllabus": "kp[配合物]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-943-二分册-L6实5-命名十种配合物.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第6讲 实战演练5",
+   "submodule": "配位化学基础",
+   "syllabus": "kp[配合物]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-944-二分册-L6实6-PtCl4水解配合物两方程式.md",
+   "difficulty": 4,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第6讲 实战演练6",
+   "submodule": "配位化学基础",
+   "syllabus": "kp[配合物]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-945-二分册-L6实7-六配合物空间构型与几何异构.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第6讲 实战演练7",
+   "submodule": "配位化学基础",
+   "syllabus": "kp[配合物]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-946-二分册-L6实8-Cr配合物A元素分析推断.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第6讲 实战演练8",
+   "submodule": "配位化学基础",
+   "syllabus": "kp[配合物]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-947-二分册-L6实9-水杨醛甘氨酸希夫碱A与B异构.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第6讲 实战演练9",
+   "submodule": "配位化学基础",
+   "syllabus": "kp[配合物]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-948-二分册-L6实10-Cr五角双锥过氧配合物.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第6讲 实战演练10",
+   "submodule": "配位化学基础",
+   "syllabus": "kp[配合物]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-949-二分册-L6实11-diars铁双配离子A与B.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第6讲 实战演练11",
+   "submodule": "配位化学基础",
+   "syllabus": "kp[配合物]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-950-二分册-L6实12-PtC60PPh3配合物推断.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第6讲 实战演练12",
+   "submodule": "配位化学基础",
+   "syllabus": "kp[配合物]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-951-二分册-L6实13-铂抗癌药E五步合成路线.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第6讲 实战演练13",
+   "submodule": "配位化学基础",
+   "syllabus": "kp[配合物]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-952-二分册-L6实14-RuCl2与RuCl3水解异构.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第6讲 实战演练14",
+   "submodule": "配位化学基础",
+   "syllabus": "kp[配合物]直连考纲词表"
+  },
+  {
+   "subject_module": "化学原理",
+   "path": "教材习题/高中化学竞赛教程第二分册/题-953-二分册-L6实15-K2PtCl4三异构体合成设计.md",
+   "difficulty": 5,
+   "fidelity": "原书逐字",
+   "source": "高中化学竞赛教程第二分册 第6讲 实战演练15",
+   "submodule": "配位化学基础",
+   "syllabus": "kp[配合物]直连考纲词表"
   },
   {
    "subject_module": "元素与分析",
@@ -2719,7 +4186,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第7讲 实战演练②",
    "submodule": "常见的过渡元素（上）",
-   "syllabus": "kp[钛]≈考纲[钙钛矿型结构]"
+   "syllabus": "kp[钛]≈考纲[钛铬锰铁钴镍铜锌基础元素化学]"
   },
   {
    "subject_module": "元素与分析",
@@ -2737,7 +4204,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第7讲 实战演练⑦",
    "submodule": "常见的过渡元素（上）",
-   "syllabus": "kp[钛]≈考纲[钙钛矿型结构]"
+   "syllabus": "kp[钛]≈考纲[钛铬锰铁钴镍铜锌基础元素化学]"
   },
   {
    "subject_module": "元素与分析",
@@ -2755,7 +4222,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第7讲 实战演练⑩",
    "submodule": "常见的过渡元素（上）",
-   "syllabus": "kp[钛]≈考纲[钙钛矿型结构]"
+   "syllabus": "kp[钛]≈考纲[钛铬锰铁钴镍铜锌基础元素化学]"
   },
   {
    "subject_module": "元素与分析",
@@ -2773,7 +4240,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第7讲 实战演练⑬",
    "submodule": "常见的过渡元素（上）",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "元素与分析",
@@ -2800,7 +4267,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第8讲 正文例2",
    "submodule": "常见的过渡元素（下）",
-   "syllabus": "kp[铜]≈考纲[铜锂试剂]"
+   "syllabus": "kp[铜]≈考纲[钛铬锰铁钴镍铜锌基础元素化学]"
   },
   {
    "subject_module": "元素与分析",
@@ -2836,7 +4303,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第8讲 实战演练④",
    "submodule": "常见的过渡元素（下）",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "元素与分析",
@@ -2863,7 +4330,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第8讲 实战演练⑧",
    "submodule": "常见的过渡元素（下）",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "元素与分析",
@@ -2890,7 +4357,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第8讲 实战演练⑪",
    "submodule": "常见的过渡元素（下）",
-   "syllabus": "kp[铜]≈考纲[铜锂试剂]"
+   "syllabus": "kp[铜]≈考纲[钛铬锰铁钴镍铜锌基础元素化学]"
   },
   {
    "subject_module": "元素与分析",
@@ -2908,7 +4375,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第8讲 实战演练⑭",
    "submodule": "常见的过渡元素（下）",
-   "syllabus": "kp[铜]≈考纲[铜锂试剂]"
+   "syllabus": "kp[铜]≈考纲[钛铬锰铁钴镍铜锌基础元素化学]"
   },
   {
    "subject_module": "元素与分析",
@@ -2917,7 +4384,7 @@
    "fidelity": "原书逐字",
    "source": "高中化学竞赛教程第二分册 第8讲 实战演练⑮",
    "submodule": "常见的过渡元素（下）",
-   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原]"
+   "syllabus": "kp[氧化还原反应基础]≈考纲[氧化还原反应]"
   },
   {
    "subject_module": "有机化学",
