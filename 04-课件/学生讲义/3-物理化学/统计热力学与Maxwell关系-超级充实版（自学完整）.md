@@ -402,7 +402,7 @@ $$S = Nk\left[\ln\frac{V}{N\Lambda^3} + \frac{5}{2}\right] = nR\left[\ln\frac{V_
 
 ### 基础巩固（5 题）
 
-**1. 四大基本方程**
+**1.** 四大基本方程
 
 $$dU = T\,dS - p\,dV \qquad dH = T\,dS + V\,dp$$
 $$dA = -S\,dT - p\,dV \qquad dG = -S\,dT + V\,dp$$
@@ -413,7 +413,7 @@ $$\left(\frac{\partial G}{\partial p}\right)_T = V \qquad \left(\frac{\partial G
 
 > 通法：把微分式写成 $dG=(\ )_p\,dT+(\ )_T\,dp$ 的形式，两个括号里就是对应的偏导数——**先认清自然变量，再读系数**。
 
-**2. Maxwell 第 3 条的推导**
+**2.** Maxwell 第 3 条的推导
 
 $A=A(T,V)$，由 $dA=-S\,dT-p\,dV$ 有 $-S=(\partial A/\partial T)_V$、$-p=(\partial A/\partial V)_T$。二阶混合偏导与求导次序无关：
 
@@ -425,14 +425,14 @@ $$\left(\frac{\partial S}{\partial V}\right)_T = \left(\frac{\partial p}{\partia
 
 > 易错：负号在两边**同时出现、同时约掉**；常见错误是只在左边留负号。
 
-**3. Boltzmann 分布与配分函数**
+**3.** Boltzmann 分布与配分函数
 
 $$\frac{N_i}{N} = \frac{g_i\,e^{-\beta\varepsilon_i}}{q} \qquad q = \sum_j g_j\,e^{-\beta\varepsilon_j} \qquad \beta = \frac{1}{kT}$$
 
 - $q$ 是**归一化分母**（全部能级的 $g_je^{-\beta\varepsilon_j}$ 之和），不是某一个能级的玻尔兹曼因子；
 - $\beta$ 的物理意义：$\beta=1/kT$ 是"每单位热运动能量"的倒数量纲，$\beta\varepsilon$ 即**能级间距与热运动能量 $kT$ 的比值**。$\beta$ 越大（温度越低），分布越向低能级集中；$\beta$ 越小（温度越高），各能级占据趋于均匀。$\beta=1/kT$ 这个身份由统计熵公式与热力学关系对比确立——**这就是温度的统计定义**。
 
-**4. 热波长与平动配分函数**
+**4.** 热波长与平动配分函数
 
 $$\Lambda = \frac{h}{\sqrt{2\pi mkT}} = \frac{6.626\times10^{-34}}{\sqrt{2\pi\times6.6\times10^{-26}\times1.381\times10^{-23}\times300}} = 1.60\times10^{-11}\ \text{m} = 16.0\ \text{pm}$$
 
@@ -441,7 +441,7 @@ $$q^T = \frac{V}{\Lambda^3} = \frac{1.0\times10^{-3}\ \text{m}^3}{(1.60\times10^
 > 自检：$q^T/N = 2.45\times10^{6}\gg 1$，经典（非简并）极限成立，用 $q^T=V/\Lambda^3$ 合法。若 $q^T\lesssim N$（低温高密度），必须改用量子统计，此式失效。
 > 注意：$q^T$ 是**单分子**平动配分函数；$N$ 个全同离域粒子的总配分函数是 $Q=(q^T)^N/N!$。
 
-**5. 热容差公式验证**
+**5.** 热容差公式验证
 
 $$C_p - C_V = \frac{\alpha^2 T V}{\kappa_T} = \frac{(1/T)^2\,T\,V}{1/p} = \frac{pV}{T} = \frac{nRT}{T} = nR$$
 
@@ -449,7 +449,7 @@ $$C_p - C_V = \frac{\alpha^2 T V}{\kappa_T} = \frac{(1/T)^2\,T\,V}{1/p} = \frac{
 
 ### 竞赛入门（5 题）
 
-**6. Maxwell 第 4 条**
+**6.** Maxwell 第 4 条
 
 $V=nRT/p \Rightarrow (\partial V/\partial T)_p = nR/p$，代入：
 
@@ -457,7 +457,7 @@ $$\left(\frac{\partial S}{\partial p}\right)_T = -\left(\frac{\partial V}{\parti
 
 > 物理含义：等温加压使熵减小。积分可得 $\Delta S = -nR\ln(p_2/p_1)$，即**压强每翻一倍，熵减小 $nR\ln 2$**。
 
-**7. Gibbs-Helmholtz 变温**
+**7.** Gibbs-Helmholtz 变温
 
 $$\frac{\Delta G^\theta(350)}{350} = \frac{50.0}{298} + (-20.0)\times\left(\frac{1}{350}-\frac{1}{298}\right) = 0.16779 + 0.00997 = 0.17776\ \text{kJ·mol}^{-1}\text{·K}^{-1}$$
 
@@ -466,7 +466,7 @@ $$\Delta G^\theta(350) = 0.17776\times350 = +62.2\ \text{kJ·mol}^{-1}$$
 > **交叉校验**：先算 $\Delta S^\theta = (\Delta H^\theta-\Delta G^\theta_{298})/298 = -70.0/298 = -0.2349$ kJ·mol⁻¹·K⁻¹，则 $\Delta G^\theta(350) = \Delta H^\theta - 350\Delta S^\theta = -20.0 + 82.2 = +62.2$ kJ·mol⁻¹，两法一致。
 > 结论：$\Delta H^\theta<0$（放热）时升温使 $\Delta G^\theta$ 变大、$K$ 变小——与 van't Hoff 方程同源，是同一件事的两种语言。
 
-**8. 转动配分函数**
+**8.** 转动配分函数
 
 $$\Theta_R = \frac{hc\tilde{B}}{k} = 1.4388\ \text{cm·K}\times1.93\ \text{cm}^{-1} = 2.777\ \text{K}$$
 
@@ -476,14 +476,14 @@ $$q^R = \frac{kT}{\sigma hc\tilde{B}} = \frac{T}{\sigma\Theta_R} = \frac{300}{1\
 
 > CO 是异核双原子分子，对称数 $\sigma=1$；若是 N₂ 等同核双原子分子，$\sigma=2$，$q^R$ 减半（约 54）。
 
-**9. 由配分函数求内能**
+**9.** 由配分函数求内能
 
 $$U-U(0) = NkT^2\left(\frac{\partial\ln q}{\partial T}\right)_V = nRT^2\times0.01 = 1\times8.314\times300^2\times0.01 = 7.48\times10^{3}\ \text{J} = 7.48\ \text{kJ}$$
 
 > 自检：$(\partial\ln q/\partial T)_V$ 若呈 $a/T$ 型（配分函数为 $T^a$ 形式），则 $a = 0.01\times300 = 3$，$U-U(0)=a\,nRT=3nRT$——相当于 6 个平方项自由度（振动已激发）的贡献，量级自洽。
 > 易错：题目给 $N=1$ mol，$Nk$ 要换成 $nR$，不要代 $k$ 再乘 $N_A$（结果一样但多一步换算易错）。
 
-**10. 定域 / 离域熵差**
+**10.** 定域 / 离域熵差
 
 $$S_{\text{定域}} = \frac{U-U(0)}{T} + Nk\ln q \qquad S_{\text{离域}} = \frac{U-U(0)}{T} + Nk\ln\frac{qe}{N}$$
 
@@ -497,7 +497,7 @@ $$S_{\text{离域}} - S_{\text{定域}} = 8.314\times(1-54.75) = -4.47\times10^{
 
 ### 真题挑战（5 题）
 
-**11. Sackur-Tetrode：Ar 摩尔绝对熵**
+**11.** Sackur-Tetrode：Ar 摩尔绝对熵
 
 $$m = \frac{M}{N_A} = \frac{39.95\times10^{-3}}{6.022\times10^{23}} = 6.634\times10^{-26}\ \text{kg}$$
 
@@ -510,7 +510,7 @@ $$S_m = R\ln\frac{V_m e^{5/2}}{N_A\Lambda^3} = 8.314\times\left[\ln\left(1.008\t
 > **可信度校验**：把条件改成 298.15 K、1 bar 重算，得 $154.8$ J·K⁻¹·mol⁻¹，与 Ar 标准摩尔熵的文献值 $154.8$ J·K⁻¹·mol⁻¹ 完全吻合——说明公式、常数、单位三者都对上了。
 > 易错：量纲必须是 m³·mol⁻¹ 与 m³ 同级（1 L = 10⁻³ m³ 不能忘换）；指数上 $e^{5/2}$ 因子漏掉会少算 $2.5R\approx20.8$ J·K⁻¹·mol⁻¹。
 
-**12. 残余熵**
+**12.** 残余熵
 
 每个分子 2 种取向，$N$ 个分子的微观状态数 $W_0 = 2^{N}$：
 
@@ -518,7 +518,7 @@ $$S_0 = k\ln W_0 = Nk\ln 2 = R\ln 2 = 8.314\times0.6931 = 5.76\ \text{J·K}^{-1}
 
 > 这正是量热熵（按第三定律在 0 K 归零）与统计熵之间的差额，是"统计熵与热力学熵是同一个熵"的直接证据；完美晶体（无取向无序）此项为 0。
 
-**13. Boltzmann 占据比例**
+**13.** Boltzmann 占据比例
 
 $$kT = 1.381\times10^{-23}\times300 = 4.142\times10^{-21}\ \text{J} \qquad \beta\varepsilon = \frac{2.0\times10^{-20}}{4.142\times10^{-21}} = 4.83$$
 
@@ -530,7 +530,7 @@ $$\frac{N_1}{N} = \frac{g_1 e^{-\beta\varepsilon}}{q} = \frac{0.02399}{1.0240} =
 
 > 三个易错点：①分子必须乘简并度 $g_1=3$；②分母 $q$ 必须含激发态贡献（虽只有 2.4%，漏掉会让结果偏大 2.4%）；③也可直接用比值式 $N_1/N_0=(g_1/g_0)e^{-\beta\varepsilon}=0.0240$ 反推，两法互校。
 
-**14. 证明 $C_p-C_V = nR$**
+**14.** 证明 $C_p-C_V = nR$
 
 把熵看作 $S=S(T,V)$，用 Maxwell 第 3 条改写第二项：
 
@@ -546,7 +546,7 @@ $$C_p - C_V = T\cdot\frac{nR}{V}\cdot\frac{nR}{p} = T\cdot\frac{n^2R^2}{nRT} = n
 
 > 这正是热容差公式 $C_p-C_V=\alpha^2TV/\kappa_T$ 在 $\alpha=1/T$、$\kappa_T=1/p$ 下的特例（第 5 题）。**$\alpha/\kappa_T$ 形式是"可测量"版本，$(\partial p/\partial T)_V(\partial V/\partial T)_p$ 形式是"状态方程"版本，两者等价**——前者的价值在于 $\alpha$、$\kappa_T$ 都能直接实验测定（液体/固体也适用），后者只在有状态方程时才好用。
 
-**15. 配分函数求平衡常数**
+**15.** 配分函数求平衡常数
 
 **为什么能求**：化学平衡条件是 $\sum_i \nu_i\mu_i = 0$。理想气体中单组分化学势可由配分函数给出（离域子 $\mu_i = -kT\ln(q_i/N_i)$），代入即得
 
