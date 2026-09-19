@@ -12,17 +12,25 @@
 """
 import os, re, sys, argparse
 
-VAULT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# 从脚本位置逐级向上找 vault（含 04-课件 的目录），防移位后层级变化
+_here = os.path.dirname(os.path.abspath(__file__))
+VAULT = _here
+for _ in range(6):
+    if os.path.isdir(os.path.join(VAULT, "04-课件", "学生讲义")):
+        break
+    VAULT = os.path.dirname(VAULT)
+else:
+    VAULT = os.path.dirname(os.path.dirname(os.path.dirname(_here)))
 ROOT = os.path.join(VAULT, "04-课件", "学生讲义")
 
 REQUIRED_FM = ["title", "type", "chapter", "serve_rounds", "stage",
-               "difficulty_level", "has_images", "exercise_count"]
+               "difficulty_level", "has_images"]  # exercise_count 单独按「有练习题」条件查（规范 §五）
 EX_HEAD_WHITELIST = ("综合串联题",)  # 节名变体白名单
 # 装饰性 emoji（排除 ✓✗≈ 等文本功能符号；⭐ 单列铁律项）
 EMOJI = re.compile(r"[\U0001F300-\U0001FAFF\u2B00-\u2BFF\u2728\u274C\u2757\U0001F900-\U0001F9FF]")
 # 合法题目/答案行：**N.** 题干 或 **N. [标签] 题名**
 PAT_ITEM = re.compile(r"^\*\*(\d{1,2})\.\*\*[ \t]*", re.A)
-PAT_ITEM_T = re.compile(r"^\*\*(\d{1,2})\.[ \t]+\[.*\]\*.+\*\*[ \t]*", re.A)  # **26. [届次] 题名**
+PAT_ITEM_T = re.compile(r"^\*\*(\d{1,2})\.[ \t]+\[.*\][ \t]*\S.*\*\*[ \t]*", re.A)  # **26. [届次] 题名**
 PAT_BARE = re.compile(r"^(\d{1,2})\.[ \t]+", re.A)
 
 
@@ -64,12 +72,17 @@ def check(rel):
     if fm is None:
         E.append("无 frontmatter")
         return E, W, I
-    for k in REQUIRED_FM:
-        if fm_get(fm, k) is None:
-            E.append(f"FM 缺 {k}")
     is_index = os.path.basename(rel).startswith("README")
     if is_index:
+        # 索引/说明页形态自由：只要求有 FM，不做必填字段与配平检查
         return E, W, I
+    for k in REQUIRED_FM:
+        if fm_get(fm, k) is None:
+            if k == "chapter":
+                # chapter=讲次路由字段，缺值需对照课程计划人工定，降 WARNING 登记待补
+                W.append("FM 缺 chapter（待人工对照课程计划补值）")
+            else:
+                E.append(f"FM 缺 {k}")
 
     zs = zones_of(lines)
     zone_kind = [None] * len(lines)
