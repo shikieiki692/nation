@@ -1,0 +1,53 @@
+#!/bin/sh
+# ══════════════════════════════════════════════════════════════════════════
+# 渲染闸门（回归模式）· 2026-09-20 装
+#
+# 只拦「本次提交**新引入**」的公式渲染问题：
+#   · 产物字面 `$` 变多 —— 公式没渲染出来
+#   · docx 转换失败（texmath）变多
+#   · oMath 数倒退
+#   · 行首 <div> / `\AA` / TAB 残名 / `\text{\text{}` 嵌套 变多
+#
+# **对「文件里本来就有的历史缺陷」放行** —— 否则你会被一份历史遗留文件
+# 卡住提交，别人也会。这是它能被安全装上的前提。
+#
+# 为什么需要它：既有预检 `_run_word_formula_precheck` 是**模式匹配**，
+# 说不了「公式到底渲没渲染」；本闸门真跑 pandoc，断言的是**结果**。
+#
+# 绕过：git commit --no-verify
+# 卸载：rm .git/hooks/pre-commit
+# ══════════════════════════════════════════════════════════════════════════
+
+PY="C:/Users/蕾赛/.workbuddy/binaries/python/versions/3.13.12/python.exe"
+VAULT_WIN="$(cd "$(git rev-parse --show-toplevel)" 2>/dev/null && pwd -W)"
+GATE="$VAULT_WIN/11-模板/scripts/render_gate.py"
+
+# 缺依赖 / 不在预期位置 → 静默放行（fail-open），绝不因环境问题挡提交
+[ -n "$VAULT_WIN" ] || exit 0
+[ -f "$GATE" ] || exit 0
+[ -x "$PY" ] || { echo "[render-gate] ⚠️ 找不到 python，跳过"; exit 0; }
+
+# 取暂存区新增/修改/改名的 .md（排除删除）
+FILES="$(git diff --cached --name-only --diff-filter=ACMR -z 2>/dev/null \
+         | tr '\0' '\n' | grep -E '\.md$' || true)"
+[ -z "$FILES" ] && exit 0
+
+N="$(printf '%s\n' "$FILES" | wc -l | tr -d ' ')"
+MF="$VAULT_WIN/.workbuddy/tmp/_precommit_$$.txt"
+printf '%s\n' "$FILES" > "$MF"
+
+echo "[render-gate] 回归模式检查 $N 个暂存的 .md ..."
+"$PY" -X utf8 "$GATE" --regression --manifest "$MF"
+RC=$?
+rm -f "$MF" 2>/dev/null
+
+if [ "$RC" -eq 1 ]; then
+  echo ""
+  echo "[render-gate] ❌ 本次提交引入了公式渲染问题（见上）。"
+  echo "              如确认无碍：git commit --no-verify"
+  exit 1
+elif [ "$RC" -ne 0 ]; then
+  echo "[render-gate] ⚠️ 闸门自身异常 (rc=$RC)，已跳过（fail-open）"
+  exit 0
+fi
+exit 0

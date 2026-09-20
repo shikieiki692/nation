@@ -98,16 +98,24 @@ def strip_frontmatter(raw: str) -> str:
 def _literal_dollars(z: str) -> int:
     """数产物正文里的字面 `$`（= 未被解析成公式的 `$`）。
 
-    ⚠️ **必须排除代码块段落**：`pStyle=SourceCode` 的段落里出现 `$` 是**合法**的
-    （如 shell 变量 `$PY`、代码示例），否则会整片假阳性。
-    实测：`04-课件/学生讲义/README.md` 曾因此被误报 7 个「字面 `$`」。
+    ⚠️ **必须排除代码**，否则整片假阳性 —— 代码里的 `$` 是合法的：
+      · 代码**块**：段落样式 `pStyle=SourceCode`（如 shell 的 `$PY`）
+      · 行**内代码**：run 样式 `rStyle=VerbatimChar`（如文档里举例写 `` `$...$` ``）
+    两次都是实测踩出来的：
+      · `04-课件/学生讲义/README.md` 因代码块 `$PY` 被误报 ×7
+      · `09-审计报告/…收官QA.md` 因行内 `` `奇数 `$` 行` `` / `` `$...$` `` 被误报 1→3
+    所以这里**按 run 统计**：先跳过代码段落，再跳过代码 run。
     """
+    CODE_RSTYLE = ("VerbatimChar", "SourceCode", "CodeChar", "Verbatim")
     n = 0
     for pa in re.findall(r"<w:p[ >].*?</w:p>", z, re.S):
         if "SourceCode" in "".join(re.findall(r'<w:pStyle w:val="([^"]+)"', pa)):
-            continue
-        txt = "".join(re.findall(r"<w:t[^>]*>([^<]*)</w:t>", pa))
-        n += txt.count("$")
+            continue                                  # 代码块整段跳过
+        for run in re.findall(r"<w:r[ >].*?</w:r>", pa, re.S):
+            rs = "".join(re.findall(r'<w:rStyle w:val="([^"]+)"', run))
+            if any(c in rs for c in CODE_RSTYLE):
+                continue                              # 行内代码 run 跳过
+            n += "".join(re.findall(r"<w:t[^>]*>([^<]*)</w:t>", run)).count("$")
     return n
 
 
@@ -134,19 +142,20 @@ def gate_docx(bh, text: str):
 
 
 def gate_obsidian(text: str):
-    """B 栏：返回 (问题列表)。"""
+    """B 栏：返回 [(说明, 计数), …]（带计数是为了支持「只报新增」的回归比较）。"""
     probs = []
-    if RE_DIV_LINE.search(text):
-        probs.append("行首 <div>（CommonMark 下吞块内 markdown）")
+    n = len(RE_DIV_LINE.findall(text))
+    if n:
+        probs.append(("行首 <div>（CommonMark 下吞块内 markdown）", n))
     n = len(RE_AA.findall(text))
     if n:
-        probs.append("%s\\AA ×%d" % (BS, n))
+        probs.append(("%sAA" % BS, n))
     n = len(RE_TAB_RESID.findall(text))
     if n:
-        probs.append("TAB 残名 ×%d" % n)
+        probs.append(("TAB 残名", n))
     n = len(RE_TEXT_TEXT.findall(text))
     if n:
-        probs.append("%stext{%stext{} 嵌套 ×%d" % (BS, BS, n))
+        probs.append(("%stext{%stext{} 嵌套" % (BS, BS), n))
     return probs
 
 
@@ -169,13 +178,23 @@ def collect(args):
     raise SystemExit("!! 需指定 --changed / --manifest / --domain 之一")
 
 
+def metrics(bh, text: str):
+    """返回 (转换失败数, 产物字面$数, oMath数, 摘要, {B栏签名: 计数})。"""
+    nfail, n_lit, n_om, snip = gate_docx(bh, text)
+    return nfail, n_lit, n_om, snip, dict(gate_obsidian(text))
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description="公式渲染闸门（双栏断言）")
     ap.add_argument("--changed", nargs="*", default=None)
     ap.add_argument("--manifest", default=None)
     ap.add_argument("--domain", default=None)
     ap.add_argument("--baseline", action="store_true",
-                    help="与 git HEAD 版比较 oMath，断言不减少")
+                    help="与 git HEAD 版比较 oMath / 字面 $，断言不恶化")
+    ap.add_argument("--regression", action="store_true",
+                    help="**只报「比 HEAD 更差」的**：供 pre-commit 用，"
+                         "避免把「文件里本来就有的历史缺陷」算到本次提交头上。"
+                         "新文件（HEAD 无此文件）按全部新增上报。")
     ap.add_argument("-q", "--quiet", action="store_true", help="只打印失败项")
     args = ap.parse_args()
 
@@ -193,20 +212,50 @@ def main() -> int:
             fails.append(rel)
             continue
         text = p.read_text(encoding="utf-8", errors="replace")
-        nfail, n_lit, n_om, snip = gate_docx(bh, text)
-        probs = gate_obsidian(text)
-        if nfail:
-            probs.append("docx 转换失败 ×%d  %s" % (nfail, snip))
-        if n_lit > 0:
-            probs.append("产物字面 $ ×%d" % n_lit)
-        if args.baseline:
+        nfail, n_lit, n_om, snip, obs = metrics(bh, text)
+
+        if args.regression:
+            # ── 只报「本次改动引入的」────────────────────────────────
             old = git_head_text(rel)
-            if old is not None:
-                _, olit, oom, _ = gate_docx(bh, old)
-                if oom >= 0 and n_om < oom:
-                    probs.append("oMath 倒退 %d→%d" % (oom, n_om))
-                if olit >= 0 and n_lit > olit:
-                    probs.append("字面 $ 增加 %d→%d" % (olit, n_lit))
+            probs = []
+            if old is None:
+                # 新文件：它带来的一切都是新增
+                if nfail:
+                    probs.append("docx 转换失败 ×%d  %s" % (nfail, snip))
+                if n_lit > 0:
+                    probs.append("产物字面 $ ×%d" % n_lit)
+                for name, cnt in obs.items():
+                    probs.append("%s ×%d" % (name, cnt))
+                # ⚠️ 这句只是**说明**，不能当成问题项，否则干净的新文件也会被判失败
+                #    （实测踩过：new_ok.md 只因为这句话被报 ❌）
+                if probs:
+                    probs.append("（新文件，以上按全部新增计）")
+            else:
+                o_fail, o_lit, o_om, _, o_obs = metrics(bh, old)
+                if nfail > o_fail:
+                    probs.append("docx 转换失败 %d→%d  %s" % (o_fail, nfail, snip))
+                if n_lit > o_lit:
+                    probs.append("产物字面 $ %d→%d" % (o_lit, n_lit))
+                if o_om >= 0 and n_om < o_om:
+                    probs.append("oMath 倒退 %d→%d" % (o_om, n_om))
+                for name, cnt in obs.items():
+                    if cnt > o_obs.get(name, 0):
+                        probs.append("%s %d→%d" % (name, o_obs.get(name, 0), cnt))
+        else:
+            probs = ["%s ×%d" % (name, cnt) for name, cnt in obs.items()]
+            if nfail:
+                probs.append("docx 转换失败 ×%d  %s" % (nfail, snip))
+            if n_lit > 0:
+                probs.append("产物字面 $ ×%d" % n_lit)
+            if args.baseline:
+                old = git_head_text(rel)
+                if old is not None:
+                    _, olit, oom, _, _ = metrics(bh, old)
+                    if oom >= 0 and n_om < oom:
+                        probs.append("oMath 倒退 %d→%d" % (oom, n_om))
+                    if olit >= 0 and n_lit > olit:
+                        probs.append("字面 $ 增加 %d→%d" % (olit, n_lit))
+
         rows.append((rel, n_om, probs))
         if probs:
             fails.append(rel)
@@ -224,8 +273,9 @@ def main() -> int:
         elif not args.quiet:
             print("%-58s %6s  ✅" % (rel[-58:], n_om))
 
-    print("\nRENDER_GATE=%s  受检 %d / 失败 %d"
-          % ("FAIL" if fails else "PASS", len(rels), len(fails)))
+    mode = "regression" if args.regression else "full"
+    print("\nRENDER_GATE=%s [%s]  受检 %d / 失败 %d"
+          % ("FAIL" if fails else "PASS", mode, len(rels), len(fails)))
     if fails:
         print("失败清单：")
         for f in fails:

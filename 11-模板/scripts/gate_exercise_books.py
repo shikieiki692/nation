@@ -85,6 +85,11 @@ def main() -> int:
         ("precheck", "precheck_exercise_books.py", ["--root", "04-课件/习题集/四·成书层（习题书）/习题书-教师版"]),
         ("tables", "classify_book_tables.py", []),
         ("docx-structure", "validate_docx_structure.py", []),
+        # 2026-09-20 新增：**渲染闸门**。既有预检（`_run_word_formula_precheck`）是
+        # 纯模式匹配，说不了「公式到底渲没渲染出来」；本项真跑 pandoc 并断言
+        # 「产物字面 `$` == 0 / 无转换失败」。这是结构类闸门查不到的最后一层。
+        # 全量模式（本域 168 份实测 PASS 168 / 失败 0），耗时约 3 分钟。
+        ("render", "render_gate.py", ["--domain", "04-课件/习题集", "--quiet"]),
     ]
     for name, script, args_list in checks:
         code, tail = run(script, *args_list)
