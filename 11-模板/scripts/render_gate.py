@@ -95,6 +95,22 @@ def strip_frontmatter(raw: str) -> str:
     return raw
 
 
+def _literal_dollars(z: str) -> int:
+    """数产物正文里的字面 `$`（= 未被解析成公式的 `$`）。
+
+    ⚠️ **必须排除代码块段落**：`pStyle=SourceCode` 的段落里出现 `$` 是**合法**的
+    （如 shell 变量 `$PY`、代码示例），否则会整片假阳性。
+    实测：`04-课件/学生讲义/README.md` 曾因此被误报 7 个「字面 `$`」。
+    """
+    n = 0
+    for pa in re.findall(r"<w:p[ >].*?</w:p>", z, re.S):
+        if "SourceCode" in "".join(re.findall(r'<w:pStyle w:val="([^"]+)"', pa)):
+            continue
+        txt = "".join(re.findall(r"<w:t[^>]*>([^<]*)</w:t>", pa))
+        n += txt.count("$")
+    return n
+
+
 def gate_docx(bh, text: str):
     """A 栏：返回 (失败数, 字面$数, oMath数, 报错摘要)。"""
     TMPDIR.mkdir(parents=True, exist_ok=True)
@@ -109,13 +125,12 @@ def gate_docx(bh, text: str):
     if not out.exists():
         return nfail, -1, -1, "pandoc 未产出 docx"
     z = zipfile.ZipFile(out).read("word/document.xml").decode("utf-8")
-    plain = re.sub(r"<[^>]+>", "", z)
     n_om = len(re.findall(r"<m:oMath", z))
     snip = ""
     m = re.search(r"Could not convert TeX math(.{0,90})", err, re.S)
     if m:
         snip = " ".join(m.group(1).split())[:90]
-    return nfail, plain.count("$"), n_om, snip
+    return nfail, _literal_dollars(z), n_om, snip
 
 
 def gate_obsidian(text: str):
