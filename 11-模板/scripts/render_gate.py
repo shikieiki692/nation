@@ -72,6 +72,28 @@ RE_TEXT_TEXT = re.compile(re.escape(BS + "text{" + BS + "text{"))
 
 TMPDIR = VAULT / ".workbuddy" / "tmp" / "_render_gate"
 
+# ── 适用范围：文档类域默认跳过（2026-09-20 实测 3/4 假阳性后加的）────────────
+# 闸门的 A 栏断言是「**产物字面 `$` == 0**」——它测的是「公式有没有渲染出来」。
+# 但在**非数学文书**里，`$` 常被用作**非数学**用途，断言会误报：
+#   · 价格：`| CrystalMaker | 付费(~$300) |`        （08-可视化资源 实测）
+#   · 散文里描述这个字符：`②bash 内联 $ 转义变行锚…` （02-数据库 实测）
+#   · DataviewJS 内联语法：`$=dv.pages('…').length` （12-教学洞察 实测）
+#   · README/索引/审计报告：本身就是**在描述缺陷**，天然含坏例子
+# 这三例都是「本来就该原样显示 `$`」，不是缺陷。
+# → 默认只检查**数学内容域**；`--include-docs` 可强制纳入。
+DOC_SKIP_DOMAINS = (
+    "09-审计报告/", "02-数据库/", "12-教学洞察/", "08-可视化资源/",
+    "10-索引与统计/", "01-考纲导航/", "11-模板/", "00-首页/", ".workbuddy/",
+)
+
+
+def should_check(rel: str, include_docs: bool) -> bool:
+    if include_docs:
+        return True
+    if rel.rsplit("/", 1)[-1].lower() == "readme.md":
+        return False                      # README 属文档
+    return not any(rel.startswith(d) for d in DOC_SKIP_DOMAINS)
+
 
 def _load_pipeline():
     """加载 docx 管线的 _preprocess_markdown（闸门必须与真实管线同源）。"""
@@ -196,11 +218,16 @@ def main() -> int:
                          "避免把「文件里本来就有的历史缺陷」算到本次提交头上。"
                          "新文件（HEAD 无此文件）按全部新增上报。")
     ap.add_argument("-q", "--quiet", action="store_true", help="只打印失败项")
+    ap.add_argument("--include-docs", action="store_true",
+                    help="也检查文档类域（README / 审计报告 / 数据库表 / 索引等）。"
+                         "默认跳过 —— 那里 `$` 常被用作价格、散文描述、DataviewJS 语法，会误报。")
     args = ap.parse_args()
 
-    rels = collect(args)
+    rels = [r for r in collect(args) if should_check(r, args.include_docs)]
+    skipped = None
     if not rels:
-        print("受检 0 文件（清单为空 —— 注意这**不是**通过）")
+        print("受检 0 文件（清单为空，或全部落在文档类域而被跳过"
+              " —— 注意这**不是**通过）")
         return 0
 
     bh = _load_pipeline()
