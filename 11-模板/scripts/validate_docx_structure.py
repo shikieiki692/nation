@@ -78,6 +78,9 @@ def main() -> int:
     rows: list[dict] = []
     skipped: list[str] = []
     for docx in sorted(DOCX_ROOT.rglob("*.docx")):
+        if docx.name.startswith("~$"):
+            # Word 打开文件时的临时锁文件（~$xxx.docx，非 zip）→ 非产物，跳过
+            continue
         edition, chapter_stem = parse_edition(docx.stem)
         if edition is None:
             skipped.append(docx.stem)
