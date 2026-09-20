@@ -70,7 +70,10 @@ RE_TEXT_TEXT = re.compile(re.escape(BS + "text{" + BS + "text{"))
 #
 # 同理，`build-all-handout-docx.py` 里曾加的 `bare_script_fatal` 规则也已撤除。
 
-TMPDIR = VAULT / ".workbuddy" / "tmp" / "_render_gate"
+# ⚠️ 临时目录**必须按进程隔离**：本闸门常被并发调用（如批处理扫描时又单查一份），
+#    用固定路径会让两个进程互相覆盖 `_g.md`/`_g.docx`，读出**别人的产物**
+#    —— 表现为 oMath 变成 0、假 PASS。2026-09-20 实测踩到（后台扫批时单查一份即复现）。
+TMPDIR = VAULT / ".workbuddy" / "tmp" / ("_render_gate_%d" % os.getpid())
 
 # ── 适用范围：文档类域默认跳过（2026-09-20 实测 3/4 假阳性后加的）────────────
 # 闸门的 A 栏断言是「**产物字面 `$` == 0**」——它测的是「公式有没有渲染出来」。
@@ -93,6 +96,28 @@ def should_check(rel: str, include_docs: bool) -> bool:
     if rel.rsplit("/", 1)[-1].lower() == "readme.md":
         return False                      # README 属文档
     return not any(rel.startswith(d) for d in DOC_SKIP_DOMAINS)
+
+
+# ── 允许清单（与库里既有惯例对齐）────────────────────────────────────────
+# 库里已有 `09-审计报告/2026-08-30-习题书V2-预检WARN允许清单.md` ——
+# 把「确认属于启发式误报」的预检项登记为允许项。
+# 本闸门沿用同一惯例：成片误报用**域划分**（上面）处理；
+# 个别、按域划不开的登记到 `render_gate_allowlist.txt`。
+DEFAULT_ALLOWLIST = VAULT / "11-模板" / "scripts" / "render_gate_allowlist.txt"
+
+
+def load_allowlist(path):
+    """读允许清单 → {相对路径: 原因}。文件不存在则返回空。"""
+    allowed = {}
+    if not path or not Path(path).is_file():
+        return allowed
+    for ln in Path(path).read_text(encoding="utf-8").splitlines():
+        s = ln.strip()
+        if not s or s.startswith("#"):
+            continue
+        parts = s.split("\t")
+        allowed[parts[0].strip()] = parts[1].strip() if len(parts) > 1 else ""
+    return allowed
 
 
 def _load_pipeline():
@@ -221,8 +246,14 @@ def main() -> int:
     ap.add_argument("--include-docs", action="store_true",
                     help="也检查文档类域（README / 审计报告 / 数据库表 / 索引等）。"
                          "默认跳过 —— 那里 `$` 常被用作价格、散文描述、DataviewJS 语法，会误报。")
+    ap.add_argument("--allowlist", default=None,
+                    help="允许清单路径（默认 11-模板/scripts/render_gate_allowlist.txt）；"
+                         "登记的文件不计入失败。")
+    ap.add_argument("--no-allowlist", action="store_true", help="忽略允许清单")
     args = ap.parse_args()
 
+    allow = {} if args.no_allowlist else load_allowlist(
+        args.allowlist or DEFAULT_ALLOWLIST)
     rels = [r for r in collect(args) if should_check(r, args.include_docs)]
     skipped = None
     if not rels:
@@ -284,7 +315,7 @@ def main() -> int:
                         probs.append("字面 $ 增加 %d→%d" % (olit, n_lit))
 
         rows.append((rel, n_om, probs))
-        if probs:
+        if probs and rel not in allow:
             fails.append(rel)
 
     if not args.quiet:
@@ -294,15 +325,20 @@ def main() -> int:
         if probs and args.quiet:
             pass
         elif probs:
-            print("%-58s %6s  ❌" % (rel[-58:], n_om if n_om is not None else "—"))
+            tag = ("ALLOW" if rel in allow else "❌")
+            print("%-58s %6s  %s" % (rel[-58:], n_om if n_om is not None else "—", tag))
             for x in probs:
                 print("        · %s" % x)
+            if rel in allow:
+                print("        （允许清单：%s）" % allow[rel])
         elif not args.quiet:
             print("%-58s %6s  ✅" % (rel[-58:], n_om))
 
     mode = "regression" if args.regression else "full"
-    print("\nRENDER_GATE=%s [%s]  受检 %d / 失败 %d"
-          % ("FAIL" if fails else "PASS", mode, len(rels), len(fails)))
+    n_allow = sum(1 for rel, _, p in rows if p and rel in allow)
+    tail = ("（另有允许 %d）" % n_allow) if n_allow else ""
+    print("\nRENDER_GATE=%s [%s]  受检 %d / 失败 %d%s"
+          % ("FAIL" if fails else "PASS", mode, len(rels), len(fails), tail))
     if fails:
         print("失败清单：")
         for f in fails:
