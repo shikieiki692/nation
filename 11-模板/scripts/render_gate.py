@@ -218,7 +218,14 @@ def collect(args):
         p = Path(args.manifest)
         if not p.is_absolute():
             p = VAULT / p
-        return [x.strip() for x in p.read_text(encoding="utf-8").splitlines() if x.strip()]
+        # 清单按行读：**空行与 `#` 开头的注释行跳过**。
+        # （2026-09-20 修：此前注释行会被当成路径 → 报「文件不存在」，很坑。）
+        out = []
+        for x in p.read_text(encoding="utf-8").splitlines():
+            s = x.strip()
+            if s and not s.startswith("#"):
+                out.append(s)
+        return out
     if args.domain:
         root = VAULT / args.domain
         return [str(f.relative_to(VAULT).as_posix()) for f in sorted(root.rglob("*.md"))]
@@ -254,11 +261,19 @@ def main() -> int:
 
     allow = {} if args.no_allowlist else load_allowlist(
         args.allowlist or DEFAULT_ALLOWLIST)
-    rels = [r for r in collect(args) if should_check(r, args.include_docs)]
-    skipped = None
+    collected = collect(args)
+    rels = [r for r in collected if should_check(r, args.include_docs)]
     if not rels:
-        print("受检 0 文件（清单为空，或全部落在文档类域而被跳过"
-              " —— 注意这**不是**通过）")
+        # ⚠️ 两种「0 受检」含义不同，必须分开报，否则会互相掩盖：
+        #   ① 清单本就为空     —— 通常是调用方出错，**不是通过**；
+        #   ② 收集到了但全被跳过 —— 文档类域/README，**是预期行为，正常放行**
+        #      （pre-commit 钩子经常遇到：只暂存了审计报告之类）。
+        if collected:
+            print("受检 0 文件（收集到 %d 个，但全部落在文档类域 / README，"
+                  "按 should_check 跳过）—— 预期行为，放行。"
+                  "如需强制检查加 --include-docs。" % len(collected))
+        else:
+            print("受检 0 文件（清单为空 —— 注意这**不是**通过）")
         return 0
 
     bh = _load_pipeline()
