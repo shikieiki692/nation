@@ -40,7 +40,6 @@ import os
 import re
 import subprocess
 import sys
-import time
 import zipfile
 from pathlib import Path
 
@@ -258,9 +257,6 @@ def main() -> int:
                     help="允许清单路径（默认 11-模板/scripts/render_gate_allowlist.txt）；"
                          "登记的文件不计入失败。")
     ap.add_argument("--no-allowlist", action="store_true", help="忽略允许清单")
-    ap.add_argument("--time-budget", type=float, default=None, metavar="SEC",
-                    help="时间上限（秒）。用尽后**停止继续检查**并如实报「跳过 N 份」。"
-                         "供 pre-commit 使用 —— 钩子绝不能因为文件多想太久而卡住建档。")
     args = ap.parse_args()
 
     allow = {} if args.no_allowlist else load_allowlist(
@@ -282,16 +278,7 @@ def main() -> int:
 
     bh = _load_pipeline()
     fails, rows = [], []
-    t0 = time.monotonic()
-    skipped_by_budget = 0
     for rel in rels:
-        # ── 时间预算（供钩子用）：用尽即停，**如实报跳过数**，不伪装成通过 ──
-        if args.time_budget is not None and (time.monotonic() - t0) > args.time_budget:
-            skipped_by_budget = len(rels) - len(rows)
-            print("⏱ 时间预算 %.0fs 用尽：已检 %d 份，**跳过 %d 份未检**"
-                  "（如需全检请直接跑，或调大 --time-budget）"
-                  % (args.time_budget, len(rows), skipped_by_budget))
-            break
         p = VAULT / rel
         if not p.is_file():
             rows.append((rel, None, ["文件不存在"]))
@@ -365,10 +352,8 @@ def main() -> int:
     mode = "regression" if args.regression else "full"
     n_allow = sum(1 for rel, _, p in rows if p and rel in allow)
     tail = ("（另有允许 %d）" % n_allow) if n_allow else ""
-    if skipped_by_budget:
-        tail += "（⏱ 预算用尽，跳过 %d 未检）" % skipped_by_budget
     print("\nRENDER_GATE=%s [%s]  受检 %d / 失败 %d%s"
-          % ("FAIL" if fails else "PASS", mode, len(rows), len(fails), tail))
+          % ("FAIL" if fails else "PASS", mode, len(rels), len(fails), tail))
     if fails:
         print("失败清单：")
         for f in fails:
