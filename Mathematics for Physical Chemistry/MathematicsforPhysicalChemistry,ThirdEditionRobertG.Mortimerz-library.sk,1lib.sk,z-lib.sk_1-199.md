@@ -2861,9 +2861,7 @@ In[1]:=FindRoot[Exp[-x] - 0.5\*x == 0,{x,1}]
 
 and get the output
 
-<div class="mineru-algorithm" style="white-space: pre-wrap; font-family:monospace;">
 $\operatorname{Out}[1] = \{\mathrm{x}\rightarrow 0.852606\}$
-</div>
 
 The trial value of the root is here represented by the 1 following the x in braces (curly parentheses, $\{\cdots\}$ ). If your equation is a polynomial equation, the NSolve statement can be used instead of FindRoot. The NSolve statement does not require a trial root, and will find all roots, while the FindRoot statement will generally cause Mathematica to converge to one root and then stop. If your equation has more than one root, you need to determine whether you have found the desired root and not one of the others.
 
@@ -2887,13 +2885,9 @@ We press the "Enter" key and receive the output
 Out[1] = { { x → 0.00442308 - 0.771419ii, }
 ```
 
-<div class="mineru-algorithm" style="white-space: pre-wrap; font-family:monospace;">
 $\{\mathrm{x}\to 0.00442308 + 0.771419\mathrm{ii},$
-</div>
 
-<div class="mineru-algorithm" style="white-space: pre-wrap; font-family:monospace;">
 $\{\mathrm{x}\to 0.802307\} ,\{\mathrm{x}\rightarrow 4.18885\}\}$
-</div>
 
 where Mathematica uses the a symbol that looks like double i (ii with a single dot) to represent the imaginary unit in its output statement. Use a capital I in an input statement containing the square root of -1.
 

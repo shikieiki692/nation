@@ -1702,7 +1702,6 @@ $$
 a _ {z} = a _ {z} (t)\tag{8.3}
 $$
 
-<div class="mineru-algorithm" style="white-space: pre-wrap; font-family:monospace;">
 EXAMPLE 8.1 At time t = 0, a certain particle has  $z(0) = 0$  and  $v_{z}(0) = 0$ . Its acceleration is given as a function of time by
 
  $a_{z}(t) = a_{0}e^{-t/b}$ ,
@@ -1714,7 +1713,6 @@ where  $a_{0}$  and b are constants.
 (c) Find the speed and the position of the particle at t = 30.0 s if  $a_{0} = 10.0 \, m \, s^{-2}$  and if  $b = 20.0 \, s$ .
 
 (d) Find the limiting value of the speed as  $t \to \infty$ .
-</div>
 
 we can write an equation by equating the time derivative of the velocity to this known function:
 
@@ -2922,7 +2920,6 @@ $$
 
 Mathematica carries out numerical solutions of differential equation for which no exact solution can be written. The solution is given in terms of an interpolating function, which is a table of values of the unknown function for different values of the independent variable. The program finds a numerical value of the function for a specific value of the independent variable by interpolation in this table. The statement NDSolve is used to solve the differential equation, as in the next example:
 
-<div class="mineru-algorithm" style="white-space: pre-wrap; font-family:monospace;">
 EXAMPLE 8.10 Obtain the numerical solution to the differential equation
 $\frac{dy}{dx} = 2\sin(x)$ (8.118)
 for the interval $0 &lt; x &lt; \pi$ with the initial condition $y(0) = 1$.
@@ -2942,7 +2939,6 @@ and press the “Enter” key or a “Shift-Return”. The graph appears as the 
 EXERCISE 8.23 ▶ Obtain the numerical solution to the differential equation
 $\frac{d^2y}{dx^2} = \sin(x)$ (8.119)
 for the interval $0 &lt; x &lt; \pi$ and for the initial condition $x = 1$.
-</div>
 
 ## SUMMARY
 
@@ -4860,7 +4856,6 @@ Mathematica finds matrix eigenvalues and eigenvectors by use of the statements E
 
 EXAMPLE 10.3 Use Mathematica to find the eigenvalues and eigenvectors of the matrix in the previous example.
 
-<div class="mineru-algorithm" style="white-space: pre-wrap; font-family:monospace;">
 SOLUTION ▶ We open Mathematica and type the input statement
     m={{1,1,0},{1,1,1},{0,1,1}}
 We press the “Enter” key and see the output
@@ -4873,7 +4868,6 @@ We type the statement
     Eigenvectors[m]
 and see the output
     Out[3]={{1, $\sqrt{2}$, 1}, {-1, 0, 1}, {1, $\sqrt{2}$, 1}}
-</div>
 
 ## SUMMARY
 
@@ -6551,25 +6545,15 @@ $$
 1 calorie = 1 cal = 4.184 J (exact value by definition)
 ```
 
-<div class="mineru-algorithm" style="white-space: pre-wrap; font-family:monospace;">
 1 electron volt = 1 eV = 1.60219 × 10$^{-19}$J
-</div>
 
-<div class="mineru-algorithm" style="white-space: pre-wrap; font-family:monospace;">
 1 erg =  $10^{-7}$  J (exact value by definition)
-</div>
 
-<div class="mineru-algorithm" style="white-space: pre-wrap; font-family:monospace;">
 1 atm = 760 torr = 101, 325 N m $^{-2}$  = 101, 325 pascal (Pa) (exact values by definition)
-</div>
 
-<div class="mineru-algorithm" style="white-space: pre-wrap; font-family:monospace;">
 1 atomic mass unit = 1 u = 1.66054 × 10$^{-27}$ kg
-</div>
 
-<div class="mineru-algorithm" style="white-space: pre-wrap; font-family:monospace;">
 1 horsepower = 1 hp = 745.700 watt = 745.700 J s $^{-1}$
-</div>
 
 # Some Mathematical Formulas and Identities
 

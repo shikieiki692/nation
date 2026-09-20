@@ -3724,7 +3724,6 @@ Suggest structures for the products of these two reactions.
 
 ![](课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/f59c9b198e81d11ae5cdc4dfa3f8a170950a0eb0987e16c49b6ccd4c6d02db37.jpg)
 
-<div class="mineru-algorithm" style="white-space: pre-wrap; font-family:monospace;">
 Compound A:
 m/z 170 (M+, 1%), 84 (77%), and 66 (100%);
 IR 1773, 1754 cm $^{-1}$ ;
@@ -3735,7 +3734,6 @@ m/z 205 (M+, 40%), 161 (50%), 160 (35%), 105 (100%), and 77 (42%);
 IR 1670, 1720 cm $^{-1}$ ;
 δH (ppm, CDCl $_{3}$ ) 2.55 (2H, m), 3.71 (1H, t, J 6 Hz), 3.92 (2H, m), 7.21 (2H, d, J 8 Hz), 7.35 (1H, t, J 8 Hz), and 7.62 (2H, d, J 8 Hz);
 δC (ppm, CDCl $_{3}$ ) 21, 47, 48, 121, 127, 130, 138, 170, and 172.
-</div>
 
 ## Purpose of the problem
 

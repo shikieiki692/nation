@@ -4602,9 +4602,7 @@ $$
 | Boltzmann 常数 | k | $1.38065 \times 10^{-23} \text{JK}^{-1}$ |
 | 摩尔气体常数 | R | $8.31447 \text{JK}^{-1} \text{mol}^{-1}$ |
 
-<div class="mineru-algorithm" style="white-space: pre-wrap; font-family:monospace;">
 $1\mathrm{G}(\mathrm{Gauss}) = 10^{-4}\mathrm{T}$
-</div>
 
 | 名称 | 符号 | 数值 |
 | --- | --- | --- |
@@ -4632,7 +4630,6 @@ $1\AA = 100\mathrm{pm} = 10^{-8}\mathrm{cm} = 10^{-10}\mathrm{m}$
 
 表 B.5 原子单位 (au)
 
-<div class="mineru-algorithm" style="white-space: pre-wrap; font-family:monospace;">
 长度  $1\ au=a_{0}=5.29177\times10^{-11}\ m(\text{Bohr 半径})$ 
 
 质量  $1\ au=m_{e}=9.109382\times10^{-31}\ \mathrm{kg}(\text{电子静质量})$ 
@@ -4644,7 +4641,6 @@ $1\AA = 100\mathrm{pm} = 10^{-8}\mathrm{cm} = 10^{-10}\mathrm{m}$
 时间 在原子单位中， $4\pi\varepsilon_{0}=1,\frac{h}{2\pi}=1$ ，因而时间的原子单位不是秒，而是  $2.418885\times10^{-17}\ s$ ，即电子在氢原子基态轨道转  $1a_{0}$  所需的时间
 
 角动量  $1\ au=\frac{h}{2\pi}(\equiv h)=1.0545887\times10^{-34}\ J\ s$
-</div>
 
 表 B.6 用于构成十进倍数和分数单位的词头
 
