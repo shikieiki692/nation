@@ -81,7 +81,7 @@
 > 严格核验 = 新增 引用块 79 / 表格行 12 / 空行 82 / 题干段 18，删除 `<table>` 行 17 / 其他 0。
 > 双闸门：js-yaml 受检 16 / 失败 0；validate_kb 受检 16 / 0E / 0W。
 >
-> **✅ D 项转换器已并入主工具（2026-09-20，`20eb…`）**：`.workbuddy/tmp/_dcv.py`
+> **✅ D 项转换器已并入主工具（2026-09-20，`a7f0cb458`）**：`.workbuddy/tmp/_dcv.py`
 > 逻辑整体并入 `html_tables_to_markdown.py`，作为 **D 通道**由 `--qa-cards` 启用
 > （`convert_qa_card()`；`plan_one()` 内主通道拒收后兜底）。
 >
