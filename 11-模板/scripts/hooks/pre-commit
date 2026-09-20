@@ -51,7 +51,13 @@ rm -f "$MF" 2>/dev/null
 if [ "$RC" -eq 1 ]; then
   echo ""
   echo "[render-gate] ❌ 本次提交引入了公式渲染问题（见上）。"
-  echo "              如确认无碍：git commit --no-verify"
+  echo "              处置顺序见 04-题库/新题入库SOP §5.2c（不要跳步）："
+  echo "              ① 先跑 full 模式自证："
+  echo "                 python -X utf8 11-模板/scripts/render_gate.py --changed <文件…>"
+  echo "              ② full 模式 PASS（＝判据误伤）才登记允许清单："
+  echo "                 11-模板/scripts/render_gate_allowlist.txt（格式：<相对路径>TAB<原因>）"
+  echo "              ③ 否则按上面列出的原因修内容（算式不配平要修算式，不许删 \$ 了事）"
+  echo "              ⚠️ 不建议 git commit --no-verify —— 那是绕过闸门，缺陷会静默进入。"
   exit 1
 elif [ "$RC" -ne 0 ]; then
   echo "[render-gate] ⚠️ 闸门自身异常 (rc=$RC)，已跳过（fail-open）"
