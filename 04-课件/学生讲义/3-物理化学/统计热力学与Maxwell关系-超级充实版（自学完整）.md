@@ -18,8 +18,8 @@ tags: [学生讲义, 超级充实版, 物理化学, 第四轮, 统计热力学, 
 created: 2026-08-04
 has_images: false
 image_count: 0
-updated: 2026-08-07
-last_audit: "2026-08-04 新建（S2）：承接决赛04 热力学深半（Maxwell 初步 + 统计热力学配分函数），补物化综合计算 §〇 未覆盖部分；全篇 $E^\\theta$ 规范；图片以  占位标记（待补 3 处）；2026-08-07 R4教材审计：补 Boltzmann 分布推导链（构型/Stirling/最概然/Lagrange/β热力学身份）与配分函数连乘原理（Atkins 主题13A-B）；2026-08-07 R5原文级复核：修正 §3.2 Gibbs-Helmholtz 积分式符号 −→+；2026-08-07 R8语言打磨+教材审计：ΔA°→ΔG° 平衡常数式统一；去 Atkins/13A/13F 章节标签；补 Kirchhoff 定律、Debye T³ 微观解释、配分函数求平衡常数完整式"
+updated: 2026-09-20
+last_audit: "2026-08-04 新建（S2）：承接决赛04 热力学深半（Maxwell 初步 + 统计热力学配分函数），补物化综合计算 §〇 未覆盖部分；全篇 $E^\\theta$ 规范；图片以  占位标记（待补 3 处）；2026-08-07 R4教材审计：补 Boltzmann 分布推导链（构型/Stirling/最概然/Lagrange/β热力学身份）与配分函数连乘原理（Atkins 主题13A-B）；2026-08-07 R5原文级复核：修正 §3.2 Gibbs-Helmholtz 积分式符号 −→+；2026-08-07 R8语言打磨+教材审计：ΔA°→ΔG° 平衡常数式统一；去 Atkins/13A/13F 章节标签；补 Kirchhoff 定律、Debye T³ 微观解释、配分函数求平衡常数完整式；2026-09-20 讲义线正文精读批27（本会话序列·物化线·首次全量）：§四 子节编号顺延（4.1 后缺 4.2，4.3→4.2；无交叉引用，取最小改动）；三处「$C_p$−$C_V$」半截 math（U+2212 落在 math 外）→ 并入一段 math「$C_p-C_V$」；学习目标原写「能写 q=$q_T$·$q_R$·$q_V$·$q_E$」既半截 math 又与全文记法不符（其余皆用 q^T），改为「$q=q^Tq^Rq^Vq^E$」；题15 题面与提示区的中文下标（q_产物、q_反应物、ν_产物、ν_反应物）补 text 包裹（与答案区一致）；认知冲突三「dS=δq_rev/T」改为整段 math；§5.3 补离域 Helmholtz 式「A−A(0)=−NkT ln(qe/N)」（与 §5.2 熵差 Nk ln(e/N) 同源）；L217 弯引号→直引号（全文仅此一对，其余 94 处为直引号）；15 题数值全部独立验算通过（题4 Λ=16.0 pm、q^T=2.45e29；题7 +62.2 kJ/mol；题8 q^R=1.08e2；题9 7.48 kJ；题10 −447 J/K/mol；题11 154.9；题12 5.76；题13 2.34%）"
 template_version: 自学完整版 v3.0
 stage: published
 sources:
@@ -71,8 +71,8 @@ module: 化学原理
 | 考纲条目 | 学完本讲你应能 |
 |:---|:---|
 | 决赛04 热力学 · 热力学基本方程与 Legendre 变换 | 从 dU=TdS−pdV 经 Legendre 变换得到四大基本方程；能写出 U/H/A/G 的全微分 |
-| 决赛04 热力学 · Maxwell 关系及其应用 | 记住四条 Maxwell 关系并会用记忆口诀；能由任一基本方程推出对应 Maxwell 式；用 Maxwell 关系推导热容差 $C_p$−$C_V$ 公式；≥ 85% 正确 |
-| 决赛04 热力学 · 配分函数与统计熵 | 理解配分函数 q 的定义与分解；能写 q=$q_T$·$q_R$·$q_V$·$q_E$；由 q 求内能 U 和熵 S；定域/离域熵差 Nk·ln(e/N) 脱口而出 |
+| 决赛04 热力学 · Maxwell 关系及其应用 | 记住四条 Maxwell 关系并会用记忆口诀；能由任一基本方程推出对应 Maxwell 式；用 Maxwell 关系推导热容差 $C_p-C_V$ 公式；≥ 85% 正确 |
+| 决赛04 热力学 · 配分函数与统计熵 | 理解配分函数 q 的定义与分解；能写 $q=q^T\cdot q^R\cdot q^V\cdot q^E$；由 q 求内能 U 和熵 S；定域/离域熵差 Nk·ln(e/N) 脱口而出 |
 
 ---
 
@@ -85,7 +85,7 @@ module: 化学原理
 > 你也许会问"配分函数到底有什么用"。**它是一台母机**：内能、熵、Helmholtz 自由能、压强、平衡常数全部能从 q 求出来。竞赛只需记住"U 和 S 怎么从 q 求"两条主线。突破：把 q 看成"一张牌"，U、S、A 都是从它翻出来的"牌面"。
 
 > [!abstract] 冲突三：S=k·lnΩ 与热力学熵是"同一件事"
-> 你也许会把统计熵和热力学熵当成两个概念。**它们是同一个熵**：统计熵是"微观起源"，热力学熵是"宏观测量"。Clausius 的 dS=δq_rev/T 与 Boltzmann 的 S=k·lnΩ 描述同一个量。突破：残余熵就是两者连接的证据（0 K 下热力学熵趋 0 而统计熵不为 0）。
+> 你也许会把统计熵和热力学熵当成两个概念。**它们是同一个熵**：统计熵是"微观起源"，热力学熵是"宏观测量"。Clausius 的 $dS=\delta q_{\text{rev}}/T$ 与 Boltzmann 的 S=k·lnΩ 描述同一个量。突破：残余熵就是两者连接的证据（0 K 下热力学熵趋 0 而统计熵不为 0）。
 
 > [!abstract] 冲突四：定域子与离域子的熵差"Nk·ln(e/N)"
 > 同温同压下 1 mol 固体（定域）与 1 mol 理想气体（离域）的熵公式差一项 Nk·ln(e/N)——离域粒子"不可区分"（全同粒子），除以 N! 使熵减小这一项——是 Gibbs 悖论（混合熵消失）的解法。
@@ -97,7 +97,7 @@ module: 化学原理
 
 | 层级 | 内容 | 说明 |
 |:---:|:---|:---|
-| **决赛必会** | 四大基本方程；四条 Maxwell 关系及记忆口诀；$C_p$−$C_V$=α²TV/κ_T；Gibbs-Helmholtz 微分/积分式；Boltzmann 分布；配分函数定义与分解；U、S 由 q 求；定域/离域熵差 | 决赛04 核心，动手必练 |
+| **决赛必会** | 四大基本方程；四条 Maxwell 关系及记忆口诀；$C_p-C_V$=α²TV/κ_T；Gibbs-Helmholtz 微分/积分式；Boltzmann 分布；配分函数定义与分解；U、S 由 q 求；定域/离域熵差 | 决赛04 核心，动手必练 |
 |  **了解会用** | Sackur-Tetrode 方程；残余熵计算；Legendre 变换思想；各模式配分函数（q^T/q^R/q^V/q^E） | 会用即可，不深究推导 |
 |  **后置延伸** | 正则系综（13D）；配分函数算平衡常数（13F）；量子统计（Bose-Einstein/Fermi-Dirac）；统计热力学在光谱/吸附中的应用 | 超出决赛，大学物化再学 |
 
@@ -214,7 +214,7 @@ $$\frac{N_j}{N} = \frac{g_j\, e^{-\beta\varepsilon_j}}{\sum_i g_i e^{-\beta\vare
 
 $$q = q^T \cdot q^R \cdot q^V \cdot q^E$$
 
-**为什么能连乘？** 能量可加 → $\varepsilon = \varepsilon^T + \varepsilon^R + \varepsilon^V + \varepsilon^E$，指数相乘 $e^{-\beta\varepsilon} = e^{-\beta\varepsilon^T}\cdot e^{-\beta\varepsilon^R}\cdot e^{-\beta\varepsilon^V}\cdot e^{-\beta\varepsilon^E}$；对全部能级求和后交叉项完全分离，$q$ 分解为四支**独立相乘**。每支只需知道该模式的“能量量子化方式”：平动靠容器 $V$、转动靠转动常数 $\tilde{B}$、振动靠波数 $\tilde{\nu}$、电子靠基态简并度与激发态能差。
+**为什么能连乘？** 能量可加 → $\varepsilon = \varepsilon^T + \varepsilon^R + \varepsilon^V + \varepsilon^E$，指数相乘 $e^{-\beta\varepsilon} = e^{-\beta\varepsilon^T}\cdot e^{-\beta\varepsilon^R}\cdot e^{-\beta\varepsilon^V}\cdot e^{-\beta\varepsilon^E}$；对全部能级求和后交叉项完全分离，$q$ 分解为四支**独立相乘**。每支只需知道该模式的"能量量子化方式"：平动靠容器 $V$、转动靠转动常数 $\tilde{B}$、振动靠波数 $\tilde{\nu}$、电子靠基态简并度与激发态能差。
 
 > [!note] 分子配分函数 q 的分解与依赖变量
 > q = q^T·q^R·q^V·q^E（四支独立相乘）
@@ -224,7 +224,7 @@ $$q = q^T \cdot q^R \cdot q^V \cdot q^E$$
 > - 电子 q^E：依赖基态简并度 g₀
 
 
-### 4.3 各模式配分函数（了解会用）
+### 4.2 各模式配分函数（了解会用）
 
 | 模式 | 配分函数 | 关键参数 |
 |:---|:---|:---|
@@ -256,6 +256,8 @@ $$\text{定域子：}\quad S = \frac{U-U(0)}{T} + Nk\ln q \qquad \text{离域子
 ### 5.3 Helmholtz 自由能
 
 $$A - A(0) = -NkT\ln q$$
+
+> **离域子**（气体）：$A-A(0)=-NkT\ln\dfrac{qe}{N}$——与 §5.2 的熵差 $Nk\ln(e/N)$ 同源（$A=U-TS$ 逐项对应）。
 
 - 由 $A$ 可再得 $p = -(\partial A/\partial V)_T$、$S = -(\partial A/\partial T)_V$——**所有热力学量都可从 q 求**（这就是"宝典"）。
 
@@ -374,7 +376,7 @@ $$S = Nk\left[\ln\frac{V}{N\Lambda^3} + \frac{5}{2}\right] = nR\left[\ln\frac{V_
 **2.** 由 dA = −SdT − pdV 用二阶混合偏导推导 Maxwell 第 3 条：$(\partial S/\partial V)_T = (\partial p/\partial T)_V$。
 **3.** 写出 Boltzmann 分布与分子配分函数 q 的定义式，说明 β 的物理意义。
 **4.** 单原子理想气体，$N=1.0\times10^{23}$，$T=300$ K，$V=1.0$ L，$m=6.6\times10^{-26}$ kg。求热波长 Λ 与平动配分函数 q^T。
-**5.** 理想气体 $C_p$−$C_V$ = nR：用 $\alpha=1/T$、$\kappa_T=1/p$ 代入热容差公式验证。
+**5.** 理想气体 $C_p-C_V$ = nR：用 $\alpha=1/T$、$\kappa_T=1/p$ 代入热容差公式验证。
 
 ### 竞赛入门（5 题）
 
@@ -390,8 +392,8 @@ $$S = Nk\left[\ln\frac{V}{N\Lambda^3} + \frac{5}{2}\right] = nR\left[\ln\frac{V_
 **12.** **残余熵**：CO 晶体在 0 K 每个分子 2 种取向无序，求 1 mol CO 晶体的残余熵（用 $S_0 = Nk\ln2$）。
 **13.** **Boltzmann 分布应用**：某分子基态简并度 1、第一激发态 $\varepsilon=2.0\times10^{-20}$ J、简并度 3。300K 时求激发态占据比例。
 **14.** **Maxwell 综合**：证明理想气体 $C_p-C_V = nR$ 用热容差公式 + 理想气体状态方程。
-**15.** **拓展**：说明为何配分函数能求平衡常数（$K \propto q_{产物}/q_{反应物}$），并指出其适用条件（理想气体、独立粒子）。
-- 参考完整式：$K=\dfrac{(q_{产物}/V)^{\nu_{产物}}}{(q_{反应物}/V)^{\nu_{反应物}}}\times\left(\dfrac{RT}{p^\theta}\right)^{\Delta\nu}$（$\Delta\nu$ 为产物计量数之和减反应物计量数之和）
+**15.** **拓展**：说明为何配分函数能求平衡常数（$K \propto q_{\text{产物}}/q_{\text{反应物}}$），并指出其适用条件（理想气体、独立粒子）。
+- 参考完整式：$K=\dfrac{(q_{\text{产物}}/V)^{\nu_{\text{产物}}}}{(q_{\text{反应物}}/V)^{\nu_{\text{反应物}}}}\times\left(\dfrac{RT}{p^\theta}\right)^{\Delta\nu}$（$\Delta\nu$ 为产物计量数之和减反应物计量数之和）
 
 ---
 
