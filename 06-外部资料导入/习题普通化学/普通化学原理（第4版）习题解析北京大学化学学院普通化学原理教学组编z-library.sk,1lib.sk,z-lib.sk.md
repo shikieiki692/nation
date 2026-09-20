@@ -5637,9 +5637,9 @@ $$
 
 (3) Balmer 系中波长最短的谱线 n 和 $\lambda(\mathrm{pm})$ 各为多少？ $\lambda$ 如以 nm（纳米）表示，是多少？
 
-解 (1) $n = 3$ ， $\lambda = \frac{3646\AA\times n^2}{n^2 - 4} = \frac{3646\AA\times 3^2}{3^2 - 4} = 6563\AA = 6.563\times 10^{5}\mathrm{pm}$
+解 (1) $n = 3$ ， $\lambda = \frac{3646\text{Å}\times n^2}{n^2 - 4} = \frac{3646\text{Å}\times 3^2}{3^2 - 4} = 6563\text{Å} = 6.563\times 10^{5}\mathrm{pm}$
 
-(2) $\lambda = \frac{3646\AA \times n^2}{n^2 - 4}$ , $3.798\times 10^{5}\mathrm{pm} = 3798\AA$ , $3798\AA = \frac{3646\AA \times n^2}{n^2 - 4}$ , $n = 10$
+(2) $\lambda = \frac{3646\text{Å} \times n^2}{n^2 - 4}$ , $3.798\times 10^{5}\mathrm{pm} = 3798\text{Å}$ , $3798\text{Å} = \frac{3646\text{Å} \times n^2}{n^2 - 4}$ , $n = 10$
 
 $$
 (3) n \rightarrow \infty , \quad \lambda = 3646 \mathrm{A} \times \left(\frac {n ^ {2}}{n ^ {2} - 4}\right) = 3646 \mathrm{A} = 3.646 \times 10 ^ {5} \mathrm{pm} = 364.6 \mathrm{nm}
