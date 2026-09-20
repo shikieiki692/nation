@@ -59,48 +59,16 @@ RE_AA = re.compile(re.escape(BS) + r"AA\b")
 RE_TAB_RESID = re.compile(TAB + r"(?:ext\{|ext\b|imes\b|heta\b|frac\b)")
 RE_TEXT_TEXT = re.compile(re.escape(BS + "text{" + BS + "text{"))
 
-
-def prose_caret_hazard(text: str):
-    """B 栏附加：prose 裸 `^` 与数学域内 `^` 同行 ⇒ pandoc superscript 配对吞公式。
-
-    机制：pandoc 的 `markdown` 方言默认开 superscript 扩展，`^…^` 成对。
-    prose 里一个落单的 `^`（如 `c_O₂^½·$c_M$/$K^{1/2}$`）会与后面公式里的 `^`
-    配成一对，把中间的 `$…$` 整段吞掉 → 该公式不渲染。
-    实测：`04-课件/习题集/…/3-化学动力学.md` L3880 即此症。
-
-    判据：逐行「不在任何数学域内」的 `^` 为**奇数**，且同行数学域内也有 `^`。
-    （单个 `~`（约等于）无害：pandoc 的 `~…~` 要求无空格。）
-    """
-    D = "$"
-    bad = []
-    in_fence = in_display = False
-    for i, ln in enumerate(text.splitlines(), 1):
-        st = ln.strip()
-        if st.startswith("```") or st.startswith("~~~"):
-            in_fence = not in_fence
-            continue
-        if in_fence:
-            continue
-        if st == D + D:
-            in_display = not in_display
-            continue
-        if in_display:
-            continue
-        s = re.sub(r"`[^`]*`", lambda m: " " * len(m.group(0)), ln)
-        np_ = nm = 0
-        in_m = False
-        for c in s:
-            if c == D:
-                in_m = not in_m
-            elif c == "^":
-                if in_m:
-                    nm += 1
-                else:
-                    np_ += 1
-        if np_ % 2 == 1 and nm > 0:
-            bad.append((i, np_, nm))
-    return bad
-
+# ── ⛔ 曾在此加过「prose 裸 `^`」签名检查，**已撤除，勿重加**（2026-09-20） ──
+# 设想：pandoc 的 superscript 会把 prose 的 `^` 与后面最近的 `^` 配成一对，
+# 跨过 `$…$` 就吞掉该公式。**机制属实**，但**判据无法可靠表达**：
+#   同一形状，区间短则坏、区间长反而「好」—— pandoc 的 superscript 有长度/复杂度上限，
+#   超限时解析失败、静默退化为字面文本因而无害。该上限不可预测。
+# 实测代价：按该签名在本域报 6 份，逐一核对**全部是假阳性**（无一例「产物字面 $」）。
+# → 这一类**必须按「结果」判**：本脚本 A 栏的「产物字面 `$` == 0」断言就是正解，
+#   它能直接量出「公式到底渲没渲染出来」。**别再回到按形状猜。**
+#
+# 同理，`build-all-handout-docx.py` 里曾加的 `bare_script_fatal` 规则也已撤除。
 
 TMPDIR = VAULT / ".workbuddy" / "tmp" / "_render_gate"
 
@@ -164,10 +132,6 @@ def gate_obsidian(text: str):
     n = len(RE_TEXT_TEXT.findall(text))
     if n:
         probs.append("%stext{%stext{} 嵌套 ×%d" % (BS, BS, n))
-    pc = prose_caret_hazard(text)
-    if pc:
-        probs.append("prose 裸 `^` 与公式 `^` 同行 ×%d 行（superscript 会吞掉中间公式）"
-                     % len(pc))
     return probs
 
 
