@@ -350,17 +350,24 @@ def main() -> int:
         print("%-58s %6s  %s" % ("文件", "oMath", "结果"))
         print("-" * 84)
     for rel, n_om, probs in rows:
-        if probs and args.quiet:
-            pass
-        elif probs:
-            tag = ("ALLOW" if rel in allow else "❌")
+        if not probs:
+            if not args.quiet:
+                print("%-58s %6s  ✅" % (rel[-58:], n_om))
+            continue
+        tag = "ALLOW" if rel in allow else "❌"
+        if args.quiet:
+            # 静默模式 = **只报失败，但报全**：全路径 + 原因。
+            # ⚠️ 此前 `-q` 只印「失败清单」的路径、**不印原因**，导致：
+            #   ① 想定位还得再跑一次（白花一份 pandoc 时间）；
+            #   ② 想按原因分组只能去解析非静默输出，而那份的**文件名被截到 58 字符**
+            #      （`rel[-58:]`），**不可反解**。故 -q 现在输出全路径 + 原因，可被脚本直接解析。
+            print("%s  %s" % (tag, rel))
+        else:
             print("%-58s %6s  %s" % (rel[-58:], n_om if n_om is not None else "—", tag))
-            for x in probs:
-                print("        · %s" % x)
-            if rel in allow:
-                print("        （允许清单：%s）" % allow[rel])
-        elif not args.quiet:
-            print("%-58s %6s  ✅" % (rel[-58:], n_om))
+        for x in probs:
+            print("        · %s" % x)
+        if rel in allow:
+            print("        （允许清单：%s）" % allow[rel])
 
     mode = "regression" if args.regression else "full"
     n_allow = sum(1 for rel, _, p in rows if p and rel in allow)
