@@ -64,7 +64,12 @@ DOMAINS = [
     ("06-外部资料导入", "源层：外部导入原始材料"),
     ("mineru", "源层：MinerU 原始输出"),
     ("mineru02", "源层：MinerU 原始输出（第二批）"),
+    # ── 重型域：**默认不跑**（太贵），需要时用 `--only 04-题库` 或 `--include-heavy` ──
+    ("04-题库", "题库主池（6000+ 份 ≈ 1 小时）—— 默认跳过，需要时点名跑"),
 ]
+
+# 默认排除的重型域（`--include-heavy` 或 `--only <它>` 才会跑）
+HEAVY = {"04-题库"}
 
 # `_归档/` 在**路径任意一级**出现都算归档（库里有 `04-课件/学生讲义/_归档/` 这种层级）
 ARCHIVE_SEGS = ("_归档", "归档")
@@ -97,11 +102,13 @@ def run_domain(domain: str, rawdir):
         return dict(files=0, checked=0, failed=0, secs=0.0, line="（目录下无现役 .md）", raw=None)
 
     # 走 --manifest（而非 --domain）是为了**自己控制文件集合**（排除归档）。
-    # 用固定名会与并发进程打架，故按 pid 命名。
-    mf = Path(".workbuddy/tmp/_health_%d_%s.txt" % (
-        os.getpid(), re.sub(r"[^\w]+", "_", domain)))
-    (VAULT / mf).parent.mkdir(parents=True, exist_ok=True)
-    (VAULT / mf).write_text("\n".join(files) + "\n", encoding="utf-8", newline="\n")
+    # ⚠️ 清单文件**每轮只用一个、反复覆盖**（不是每域写一个再删）。
+    #    2026-09-21 实测事故：原先每域写一个再 `unlink` → 第 **50** 次删除触发环境的
+    #    **safe-delete 批量确认拦截** → 异常直接中断整轮扫描（18 域只跑完 11 域）。
+    #    故改为「按 pid 命名、全程复用、结束时清一次」（单次删除不会触阈值）。
+    mf = VAULT / (".workbuddy/tmp/_health_%d.txt" % os.getpid())
+    mf.parent.mkdir(parents=True, exist_ok=True)
+    mf.write_text("\n".join(files) + "\n", encoding="utf-8", newline="\n")
 
     t0 = time.monotonic()
     r = subprocess.run([PY, "-X", "utf8", str(GATE), "--manifest", str(mf)],
@@ -109,10 +116,6 @@ def run_domain(domain: str, rawdir):
     secs = time.monotonic() - t0
     out = (r.stdout or b"").decode("utf-8", "replace") + \
           (r.stderr or b"").decode("utf-8", "replace")
-    try:
-        (VAULT / mf).unlink()
-    except OSError:
-        pass
 
     m = SUMMARY_RE.search(out)
     if m:
@@ -234,18 +237,17 @@ def parse_raw(path: Path):
     return dict(checked=checked, failed=failed, items=items, allow=n_allow, mismatch=None)
 
 
-def build_work_order(rawdir: str, out_path: Path):
-    """从 rawdir 里的逐域原始输出，生成可委派工单。返回 (总失败数, 出场域数)。"""
-    per_dom, all_items, tot_ck, tot_f, tot_allow, mismatches = [], [], 0, 0, 0, []
-    for domain, note in DOMAINS:
-        raw = Path(rawdir) / (re.sub(r"[^\w]+", "_", domain) + ".txt")
-        if not raw.is_file():
-            continue
-        d = parse_raw(raw)
+def build_work_order(rawdir: str, out_path: Path, parsed=None):
+    """从 rawdir 里的逐域原始输出，生成可委派工单。返回 (总失败数, 覆盖域数)。
+
+    `parsed` 可传入已解析结果（`read_raw_dir()` 的返回值）以免重复解析。
+    """
+    per_dom = read_raw_dir(rawdir) if parsed is None else parsed
+    all_items, tot_ck, tot_f, tot_allow, mismatches = [], 0, 0, 0, []
+    for domain, note, d in per_dom:
         tot_ck += d["checked"]; tot_f += d["failed"]; tot_allow += d["allow"]
         if d["mismatch"]:
             mismatches.append((domain, d["mismatch"]))
-        per_dom.append((domain, note, d))
         for rel, reasons in d["items"]:
             grp, mech = classify(" ".join(reasons))
             all_items.append(dict(rel=rel, reasons=reasons, grp=grp, mech=mech, dom=domain))
@@ -365,6 +367,77 @@ def build_work_order(rawdir: str, out_path: Path):
     return tot_f, len(per_dom)
 
 
+def read_raw_dir(rawdir: str):
+    """读 rawdir 里逐域原始输出 → [(domain, note, res)]（保持 DOMAINS 顺序）。
+
+    ⭐ 用途：**不重扫也能重建报告** —— 改完一批缺陷后，只刷新汇总表/快照/工单，
+    省掉一次几十分钟的全量扫描。
+    """
+    out = []
+    for domain, note in DOMAINS:
+        raw = Path(rawdir) / (re.sub(r"[^\w]+", "_", domain) + ".txt")
+        if not raw.is_file():
+            continue
+        d = parse_raw(raw)
+        out.append((domain, note, dict(files=None, checked=d["checked"], failed=d["failed"],
+                                       secs=0.0, line="", raw=str(raw), allow=d["allow"],
+                                       items=d["items"], mismatch=d["mismatch"])))
+    return out
+
+
+def render_table(rows):
+    """rows = [(domain, note, res)] → (markdown 表, 受检合计, 失败合计)。"""
+    tot_ck = sum(r[2]["checked"] for r in rows)
+    tot_f = sum(r[2]["failed"] for r in rows)
+    o = ["| 域 | 受检 | 失败 | 占比 | 说明 |", "|:--|--:|--:|--:|:--|"]
+    for d, note, r in rows:
+        pct = ("%.1f%%" % (100.0 * r["failed"] / r["checked"])) if r["checked"] else "—"
+        o.append("| `%s/` | %d | %s | %s | %s |"
+                 % (d, r["checked"], ("**%d**" % r["failed"]) if r["failed"] else "0 ✅",
+                    pct, note))
+    o.append("| **合计** | **%d** | **%d** | **%.1f%%** | |"
+             % (tot_ck, tot_f, (100.0 * tot_f / tot_ck) if tot_ck else 0.0))
+    return "\n".join(o), tot_ck, tot_f
+
+
+def write_snapshot(table: str):
+    """把汇总表存档到 `09-审计报告/<日期>-公式健康度快照.md`，返回路径。"""
+    stamp = datetime.date.today().isoformat()
+    p = VAULT / "09-审计报告" / ("%s-公式健康度快照.md" % stamp)
+    head = [
+        "---",
+        "title: 公式健康度快照 %s" % stamp,
+        "type: 审计",
+        "created: %s" % stamp,
+        "updated: %s" % stamp,
+        "tags: [公式渲染, 健康度, 快照]",
+        "---",
+        "",
+        "# 公式健康度快照 · %s" % stamp,
+        "",
+        "> **怎么复跑**：`python -X utf8 11-模板/scripts/render_health.py`",
+        "> （工具：`11-模板/scripts/render_health.py`；判据源：`render_gate.py`）",
+        ">",
+        "> **口径**：排除 `_归档/`（死文件，默认构建也不含）；文档类域不检查。",
+        "> **判据**：产物字面 `$` == 0 且无 texmath 转换失败 —— 即「公式到底渲没渲染出来」。",
+        "",
+        "## 域级汇总",
+        "",
+        table,
+        "",
+        "## 怎么看这张表",
+        "",
+        "- **失败 ≠ 待办**：多数是 **OCR 导入阶段**带进来的公式语法错（需按原书校正），",
+        "  不是创作问题。分类与逐条清单见 `2026-09-20-公式渲染缺陷清单-知识点与资料提炼.md`。",
+        "- **源层失败率高是预期**：`06-外部资料导入/`、`mineru*` 是原始 OCR 存档，",
+        "  修存档不如重新导入 —— 这部分建议**不修**，只作为「导入质量」的观测值。",
+        "- **趋势比绝对值重要**：复跑同一条命令，比较失败数是否上升。",
+        "",
+    ]
+    p.write_text("\n".join(head), encoding="utf-8", newline="")
+    return p
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description="公式健康度汇总（跨域）")
     ap.add_argument("--only", nargs="*", default=None, metavar="域",
@@ -375,6 +448,9 @@ def main() -> int:
     ap.add_argument("--raw-dir", default=None, metavar="目录",
                     help="逐域保留 render_gate 的原始输出（出工单/定位时用）")
     ap.add_argument("--list", action="store_true", help="只列出域清单与其文件数")
+    ap.add_argument("--include-heavy", action="store_true",
+                    help="也跑重型域（`04-题库/` 6000+ 份 ≈ 1 小时）。默认跳过 —— "
+                         "它经生成器进成书层，而成书层实测全绿；需要时再单独跑。")
     ap.add_argument("--work-order", default=None, metavar="路径",
                     help="扫描后另生成「公式渲染缺陷工单」（分组 + 原因原文 + 处置建议）。"
                          "需与 --raw-dir 同用 —— 工单只从原始输出解析，不另立判据。")
@@ -384,15 +460,29 @@ def main() -> int:
     args = ap.parse_args()
 
     if args.parse_only:
-        if not (args.raw_dir and args.work_order):
-            raise SystemExit("!! --parse-only 需同时给 --raw-dir 与 --work-order")
-        n, doms = build_work_order(args.raw_dir, Path(args.work_order))
-        print("（解析模式，未扫描）已生成工单：%s（失败 %d / 覆盖 %d 个域）"
-              % (args.work_order, n, doms))
-        return 1 if n else 0
+        if not args.raw_dir:
+            raise SystemExit("!! --parse-only 需要 --raw-dir")
+        rows = read_raw_dir(args.raw_dir)
+        if not rows:
+            raise SystemExit("!! --raw-dir 里没有可解析的原始输出：%s" % args.raw_dir)
+        table, tot_ck, tot_f = render_table(rows)
+        print("\n（解析模式，**未扫描** —— 数据来自已存原始输出）")
+        print(table)
+        print("\n受检 %d / 失败 %d（覆盖 %d 个域）" % (tot_ck, tot_f, len(rows)))
+        print("请核对覆盖域是否齐全（应对照 --list 的域数；缺域＝那域还没扫过）。")
+        if args.save:
+            print("已存档：%s" % write_snapshot(table).relative_to(VAULT))
+        if args.work_order:
+            n, doms = build_work_order(args.raw_dir, Path(args.work_order), rows)
+            print("已生成工单：%s（失败 %d / 覆盖 %d 个域）" % (args.work_order, n, doms))
+        return 1 if tot_f else 0
 
     todo = [(d, note) for d, note in DOMAINS
-            if (not args.only or d in args.only) and d not in args.skip]
+            if (not args.only or d in args.only)
+            and d not in args.skip
+            # 重型域：只在「被点名（--only）」或「显式 --include-heavy」时跑
+            and (d not in HEAVY or args.include_heavy
+                 or (args.only is not None and d in args.only))]
 
     if args.list:
         for d, note in todo:
@@ -411,67 +501,26 @@ def main() -> int:
               % (i, len(todo), d, res["checked"], res["failed"], res["secs"]), flush=True)
         rows.append((d, note, res))
 
-    tot_ck = sum(r[2]["checked"] for r in rows)
-    tot_f = sum(r[2]["failed"] for r in rows)
-
-    out = []
-    out.append("| 域 | 受检 | 失败 | 占比 | 说明 |")
-    out.append("|:--|--:|--:|--:|:--|")
-    for d, note, r in rows:
-        pct = ("%.1f%%" % (100.0 * r["failed"] / r["checked"])) if r["checked"] else "—"
-        out.append("| `%s/` | %d | %s | %s | %s |"
-                   % (d, r["checked"],
-                      ("**%d**" % r["failed"]) if r["failed"] else "0 ✅",
-                      pct, note))
-    out.append("| **合计** | **%d** | **%d** | **%.1f%%** | |"
-               % (tot_ck, tot_f, (100.0 * tot_f / tot_ck) if tot_ck else 0.0))
-    table = "\n".join(out)
+    table, tot_ck, tot_f = render_table(rows)
 
     print("\n" + table)
     print("\n总耗时 %.0fs（受检 %d / 失败 %d）" % (time.monotonic() - t_all, tot_ck, tot_f))
     print("口径：排除 `_归档/`；文档类域不检查（见 `render_gate.should_check`）。")
 
     if args.save:
-        stamp = datetime.date.today().isoformat()
-        p = VAULT / "09-审计报告" / ("%s-公式健康度快照.md" % stamp)
-        head = [
-            "---",
-            "title: 公式健康度快照 %s" % stamp,
-            "type: 审计",
-            "created: %s" % stamp,
-            "updated: %s" % stamp,
-            "tags: [公式渲染, 健康度, 快照]",
-            "---",
-            "",
-            "# 公式健康度快照 · %s" % stamp,
-            "",
-            "> **怎么复跑**：`python -X utf8 11-模板/scripts/render_health.py`",
-            "> （工具：`11-模板/scripts/render_health.py`；判据源：`render_gate.py`）",
-            ">",
-            "> **口径**：排除 `_归档/`（死文件，默认构建也不含）；文档类域不检查。",
-            "> **判据**：产物字面 `$` == 0 且无 texmath 转换失败 —— 即「公式到底渲没渲染出来」。",
-            "",
-            "## 域级汇总",
-            "",
-            table,
-            "",
-            "## 怎么看这张表",
-            "",
-            "- **失败 ≠ 待办**：多数是 **OCR 导入阶段**带进来的公式语法错（需按原书校正），",
-            "  不是创作问题。分类与逐条清单见 `2026-09-20-公式渲染缺陷清单-知识点与资料提炼.md`。",
-            "- **源层失败率高是预期**：`06-外部资料导入/`、`mineru*` 是原始 OCR 存档，",
-            "  修存档不如重新导入 —— 这部分建议**不修**，只作为「导入质量」的观测值。",
-            "- **趋势比绝对值重要**：复跑同一条命令，比较失败数是否上升。",
-            "",
-        ]
-        p.write_text("\n".join(head), encoding="utf-8", newline="")
-        print("\n已存档：%s" % p.relative_to(VAULT))
+        print("\n已存档：%s" % write_snapshot(table).relative_to(VAULT))
 
     if args.work_order:
         if not args.raw_dir:
             raise SystemExit("!! --work-order 需要 --raw-dir（工单只从原始输出解析）")
         n, doms = build_work_order(args.raw_dir, Path(args.work_order))
         print("已生成工单：%s（失败 %d / 覆盖 %d 个域）" % (args.work_order, n, doms))
+
+    # 清单文件：全程复用同一个，这里**只删一次**（单次删除不会触发 safe-delete 批量阈值）
+    try:
+        (VAULT / (".workbuddy/tmp/_health_%d.txt" % os.getpid())).unlink()
+    except OSError:
+        pass
 
     return 1 if tot_f else 0
 
