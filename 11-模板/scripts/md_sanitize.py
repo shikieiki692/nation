@@ -26,7 +26,8 @@
 """
 import re
 
-__all__ = ["strip_mineru_div", "fix_aa", "fix_text_nesting", "fix_tab_pollution", "sanitize"]
+__all__ = ["strip_mineru_div", "fix_aa", "fix_text_nesting",
+           "fix_html_entities_in_math", "fix_tab_pollution", "sanitize"]
 
 BS = chr(92)
 TAB = chr(9)
@@ -50,8 +51,22 @@ _AA_RULES = [
 # 真实案例：源侧裸替换 `\AA` → `\text{Å}` 时，原稿 `\text{\AA}` 变成
 # `\text{\text{Å}}` → texmath 报 "Could not convert TeX math"。
 # 这里作**安全网**：即使上游顺序错了，sanitize 也能把它压平。
+# ⚠️ 2026-09-20 补：**中间可带空白**。首版用 `re.escape(BS+"text{"+BS+"text{")` 紧邻匹配，
+#    漏掉了存量里的 `\text{ \text{Å}}` 形态（实测 `03-知识点/无机和结构化学/等径球堆积.md`）。
 _TEXT_NEST = re.compile(
-    re.escape(BS + "text{") + re.escape(BS + "text{") + r"([^{}]*)" + re.escape("}") + re.escape("}")
+    re.escape(BS + "text{") + r"\s*" + re.escape(BS + "text{")
+    + r"\s*([^{}]*?)\s*" + re.escape("}") + r"\s*" + re.escape("}")
+)
+
+# ── ③c 数学域内的 HTML 实体：`&lt;` / `&gt;` / `&amp;` ──────────────────────
+# texmath 见到 `&` 直接报 `unexpected '&'`，整个公式不渲染。
+# ⚠️ **只在数学域内替换**：散文里的 `&lt;` 是**正确**的 HTML 转义，
+#    pandoc 会把它还原成 `<`；动了反而破坏。故必须按域处理。
+_ENTITIES = ((r"&lt;", "<"), (r"&gt;", ">"), (r"&amp;", "&"), (r"&nbsp;", " "))
+_RE_MATH_SPAN = re.compile(
+    r"\$\$.*?\$\$"                       # 显示公式
+    r"|(?<!\\)\$(?!\$)(?:\\.|[^$\n])*(?<!\\)\$"   # 行内公式
+    , re.DOTALL
 )
 
 # ── ③ TAB 污染：`\t` 被写成真制表符 U+0009，LaTeX 命令断头 ────────────────
@@ -61,8 +76,21 @@ _TAB_RESID = re.compile(TAB + r"(ext(?:bf|it|rm|tt|sc|sl)?)\{")
 
 
 def fix_text_nesting(text: str) -> str:
-    """压平 `\\text{\\text{X}}` → `\\text{X}`（宏替换顺序错留下的嵌套）。"""
-    return _TEXT_NEST.sub(lambda m: BS + "text{" + m.group(1) + "}", text)
+    """压平 `\\text{\\text{X}}` → `\\text{X}`（含中间带空白的形态）。"""
+    return _TEXT_NEST.sub(lambda m: BS + "text{" + (m.group(1) or "") + "}", text)
+
+
+def fix_html_entities_in_math(text: str) -> str:
+    """把**数学域内**的 HTML 实体还原成裸字符（散文里的保持不动）。
+
+    `$x &lt; 10^{-8}$` → `$x < 10^{-8}$`（否则 texmath 报 unexpected '&'）。
+    """
+    def _repl(m):
+        seg = m.group(0)
+        for pat, rep in _ENTITIES:
+            seg = re.sub(pat, rep, seg)
+        return seg
+    return _RE_MATH_SPAN.sub(_repl, text)
 
 
 def strip_mineru_div(text: str) -> str:
@@ -116,5 +144,6 @@ def sanitize(text: str) -> str:
     text = strip_mineru_div(text)
     text = fix_aa(text)
     text = fix_text_nesting(text)
+    text = fix_html_entities_in_math(text)
     text = fix_tab_pollution(text)
     return text
