@@ -19,6 +19,27 @@
   **本工具是它的通用化继任者**，该旧脚本保留不动。
 - `build-all-handout-docx.py::_convert_html_tables()`：Word 管线**运行时**内嵌转换
   （不写回 md，无 span/entity 支持）。本工具是**离线批量治理**版。
+- ~~`.workbuddy/tmp/_dcv.py`~~（D 项一次性转换器）：**2026-09-20 已并入本工具**
+  （`--qa-cards`）→ 见下节「D 通道」。
+
+## D 通道（`--qa-cards`）：评分卡 → 题干段 + 引用块
+
+2026-09-20 由 `tmp/_dcv.py` 并入（commit `20eb…`）。**并入等价性已实证**：
+D 项 16 文件从「转换前」备份用本工具重转，产物与仓库现状**逐字节一致（16/16）**；
+34 张样本表逐表比对旧转换器输出 **34/34 完全一致**。
+
+**三通道调度**（`plan_one`）：主通道（数据表 → pipe）先试；拒收后若开 `--qa-cards`，
+再试 D 通道（评分卡 → 题干段+引用块）。两通道判据独立，不会对同一表都成功。
+
+**三条关键规则**（均有实证，详见 `convert_qa_card()` docstring）：
+1. `is_answer` **只用「N分」得分标记**（用「题号 + `$`」会误判含公式的题干行）
+2. 表内子表（表头 + ≥2 数据行）→ 转 pipe，**不得降级为裸文本**
+3. **span 展开守恒**（文本只在起始格出现一次）；sandwich 复合卡**整表拒收**
+
+**四口径适配**：D 通道产物**不是表格**，故
+① 「宽度一致」口径**只对 pipe 通道生效**；
+② D 通道改用「**内容守恒**」（原表每个非空单元格文本须在产物中出现）。
+⚠️ 未适配时 D 形态会因 `widths_ok=False` **假失败被跳过**（2026-09-20 反向验证实证）。
 
 ## 支持形态
 
@@ -29,6 +50,7 @@
 | **rowspan** | 下拉填充（内容在接下来 n 行逐行重复）—— 730 张中 727 张可保真 |
 | **HTML 实体** `&gt;`/`&lt;` 等 | `html.unescape` 后转（`--allow-entities`） |
 | 纯文字表（无公式） | 照转（`--all-tables`）—— Word 侧有收益 |
+| **评分卡/问答卡**（`--qa-cards`） | **D 通道**：拆表格包裹 → 题干段 + 答案引用块（`> `） |
 
 ## 保守拒收判据（宁可不转，不可转坏）
 
@@ -57,13 +79,17 @@
     # 全量口径（含纯文字表 + entity 解码）
     $PY -X utf8 11-模板/scripts/qa/html_tables_to_markdown.py --dir X --all-tables --allow-entities --apply
 
+    # 启用 D 通道（评分卡 → 题干段 + 引用块；含公式的评分卡必备）
+    $PY -X utf8 11-模板/scripts/qa/html_tables_to_markdown.py --dir X --qa-cards --apply
+
     # 全库扫描（排红线/活跃线）
     $PY -X utf8 11-模板/scripts/qa/html_tables_to_markdown.py --whole-vault
 
 ## 验收防线（--apply 自动执行）
 
 ① 渲染自证（markdown-it + KaTeX，残留 `$`==0）② 四口径（本次表残留 0 /
-行数守恒 / 宽度一致 / 行尾保持 / 行结构自洽）③ 备份（已存在则不覆盖）。
+行数守恒 / 宽度一致[pipe 通道] / 内容守恒[D 通道] / 行尾保持 / 行结构自洽）
+③ 备份（已存在则不覆盖）。
 
 ## 相关
 
@@ -177,8 +203,240 @@ def _build_grid(rows):
     return grid, width
 
 
+# ══════════════════════════════════════════════════════════════════════
+# D 通道：评分卡/问答卡 → 题干段 + 答案引用块（2026-09-20 并入，源自 tmp/_dcv.py）
+#
+# 适用形态：含「N分」得分标记的 HTML 表（评分卡 / 问答卡）。
+# 这类表**不适合**转 pipe table —— 单元格是成段中文，「表格」只是视觉画框。
+# 正解＝拆掉表格包裹，改为「题干普通段 + 答案引用块（`> `）」，公式随段落恢复 inline 渲染。
+# 实证 16 文件 / 16 表（commit 1c4bb456f）。
+#
+# 三条关键规则（务必遵守，均有实证）：
+#   1. `is_answer` **只用「N分」得分标记** —— 用「题号 + `$`」会把含公式的
+#      **题干行**误判为答案行（如 `1-4 $IF_3$ 水解歧化,产物为三种常见无机物。`）。
+#   2. 表内子表（表头 + ≥2 数据行）→ 转 **pipe table**，**不得降级为裸文本**
+#      （首轮 120 行数据裸行缺陷的根因）。
+#   3. **span 展开守恒**：`colspan`/`rowspan` 的文本**只在起始格出现一次**，
+#      其余空占位；误当「复制」→ 内容膨胀 N 倍（首轮实证）。
+#      `rowspan` 复合评分卡（答案-数据-答案 sandwich）→ **整表拒收**（不可拆）。
+# ══════════════════════════════════════════════════════════════════════
+
+# 得分标记：`20分` / `（20分）` / `(2.5分)`
+SCORE_RE = re.compile(r"[（(]?\s*\d+(?:\.\d+)?\s*分\s*[)）]?")
+
+# D 通道内部同款判据（与主通道共用 ENTITY_PAT / MATH_SPAN）
+_D_ROW = re.compile(r"<tr\b[^>]*>.*?</tr>", re.I | re.S)
+_D_CELL = re.compile(r"<t[dh]\b[^>]*>(.*?)</t[dh]>", re.I | re.S)
+_D_TAG = re.compile(r"<t[dh]\b[^>]*>", re.I)
+_D_BLOCK_HTML = re.compile(
+    r"<(details|summary|div|p|ul|ol|li|blockquote|figure|section)\b", re.I)
+
+
+def _d_cell_text(c: str) -> str:
+    """D 通道单元格取文本：剥行内标签 + 解码常见实体（不剥块级标签，由防线拦）。"""
+    c = re.sub(r"</?(?:p|div|span|b|i|u|em|strong)\b[^>]*>", "", c, flags=re.I)
+    for a, b in (("&gt;", ">"), ("&lt;", "<"), ("&amp;", "&"), ("&nbsp;", " ")):
+        c = c.replace(a, b)
+    return c.strip()
+
+
+def _d_rows_of_rich(block):
+    """按 <tr> 返回 [(text, ncells, cells)]，保留单元格数（子表边界识别用）。
+
+    ⚠️ span 语义：colspan/rowspan 是「一格跨多列/多行」，其文本**只在起始
+    位置出现一次**，其余位置为空占位。绝不能把文本复制到每个跨越格。
+    展开后「有效（非空）单元格」才参与判定。
+    """
+    rows = _D_ROW.findall(block)
+    grid = []
+    carry = {}                       # (r,c) -> True（被上方 rowspan 占位）
+    for r, tr in enumerate(rows):
+        tags = _D_TAG.findall(tr)
+        vals = [_d_cell_text(c) for c in _D_CELL.findall(tr)]
+        cspans, rspans = [], []
+        for tag in tags:
+            cs = SPAN_COL.search(tag)
+            rs = SPAN_ROW.search(tag)
+            cspans.append(int(cs.group(1)) if cs else 1)
+            rspans.append(int(rs.group(1)) if rs else 1)
+        row = []
+        ci = 0
+        col = 0
+        while ci < len(vals):
+            while (r, col) in carry:          # 上方 rowspan 占位 → 跳过
+                row.append("")
+                col += 1
+            v = vals[ci]
+            cs = cspans[ci] if ci < len(cspans) else 1
+            rs = rspans[ci] if ci < len(rspans) else 1
+            row.append(v)                     # 文本只在起始格
+            for k in range(1, cs):            # colspan 其余格：空
+                row.append("")
+            for rr in range(1, rs):           # rowspan 下方行：占位
+                for k in range(cs):
+                    carry[(r + rr, col + k)] = True
+            col += cs
+            ci += 1
+        while (r, col) in carry:
+            row.append("")
+            col += 1
+        grid.append(row)
+    out = []
+    for row in grid:
+        cells = [c for c in row if c]
+        txt = (" ".join(cells) if len(cells) > 1 else cells[0]) if cells else ""
+        out.append((txt, len(cells), cells))
+    return out
+
+
+def _d_is_answer(text: str) -> bool:
+    """答案行判据：**仅**含得分标记（N分 / （N分））。
+
+    ⚠️ 2026-09-20 修正：原判据「题号 + `$`」会误判含公式的**题干行**
+    （如 `1-4 $IF_3$ 水解歧化,产物为三种常见无机物。`）→ 已去掉该分支。
+    """
+    return bool(SCORE_RE.search(text))
+
+
+def _d_is_data_row(text: str) -> bool:
+    """纯数据行：字段数 ≥2、无中文、至多 2 个字段不含数字。
+
+    （允许 `p $K_a$ 3.80 4.00 4.60 4.90` 这类「符号列名 + 数值」组合。）
+    """
+    t = text.strip()
+    if not t or len(t) > 90:
+        return False
+    if re.search(r"[\u4e00-\u9fff]", t):
+        return False
+    parts = t.split()
+    if len(parts) < 2:
+        return False
+    nonnum = sum(1 for p in parts if not re.search(r"\d", p))
+    return nonnum <= 2 and len(parts) - nonnum >= 2
+
+
+def _d_is_subtable_head(text: str) -> bool:
+    """子表表头行：短、无中文句读、字段数 ≥2（仅当后随 is_data_row 才采用）。"""
+    t = text.strip()
+    if not t or len(t) > 90:
+        return False
+    if re.search(r"[，。；：？！,;:]", t):
+        return False
+    return len(t.split()) >= 2
+
+
+def _d_emit_subtable(rows):
+    """把连续的数据行渲染成 pipe table（首行为表头）。"""
+    lines = []
+    head = rows[0]
+    lines.append("| " + " | ".join(head) + " |")
+    lines.append("|" + "---|" * len(head))
+    for r in rows[1:]:
+        r = (r + [""] * len(head))[:len(head)]
+        lines.append("| " + " | ".join(r) + " |")
+    return "\n".join(lines)
+
+
+def convert_qa_card(block: str):
+    """D 通道：评分卡/问答卡 → 题干段 + 答案引用块。返回 (md, reason)。
+
+    适用形态：
+      · 任意宽度 ≤ 12；至少 1 行含「N分」得分标记（否则交回主通道）
+      · 每行要么是「题干」（无得分标记），要么是「答案」（含得分标记）
+      · 排除含 <img> / 块级 HTML / 未解码 entity
+    """
+    low = block.lower()
+    if "<img" in low:
+        return None, "d:img"
+    if _D_BLOCK_HTML.search(low):
+        return None, "d:blockhtml"
+    if ENTITY_PAT.search(block):
+        return None, "d:entity"
+    w = max((len(_D_TAG.findall(tr)) for tr in _D_ROW.findall(block)), default=0)
+    if w == 0 or w > 12:
+        return None, f"d:width{w}"
+    rich = [r for r in _d_rows_of_rich(block) if r[0]]
+    if not rich:
+        return None, "d:norows"
+    # 形态校验：至少 1 行含得分标记（否则这不是答案卡）
+    if not any(_d_is_answer(r[0]) for r in rich):
+        return None, "noscore"
+
+    blocks = []          # 逐段产出：("p", text) / ("q", text) / ("t", [cells...])
+    i = 0
+    n = len(rich)
+    while i < n:
+        text, nc, cells = rich[i]
+        if _d_is_answer(text):
+            blocks.append(("q", text))
+            i += 1
+            continue
+        # 子表识别：本行可作表头，且后续 ≥2 行是纯数据行
+        if nc >= 2 and _d_is_subtable_head(text):
+            j = i + 1
+            run = []
+            while j < n and rich[j][1] >= 2 and _d_is_data_row(rich[j][0]):
+                run.append(rich[j][2])
+                j += 1
+            if len(run) >= 2:
+                blocks.append(("t", [cells] + run))
+                i = j
+                continue
+        # 无表头的纯数据行（≥3 行连着）
+        if nc >= 2 and _d_is_data_row(text):
+            j = i
+            run = []
+            while j < n and rich[j][1] >= 2 and _d_is_data_row(rich[j][0]):
+                run.append(rich[j][2])
+                j += 1
+            if len(run) >= 3:
+                blocks.append(("t", run))
+                i = j
+                continue
+        blocks.append(("p", text))
+        i += 1
+
+    # 后处理：孤立「数据行」若前后都是答案行 → 并入前一条引用块
+    # （实证：3-2-2 的 `p $K_a$ 3.80 4.00 4.60 4.90` 独立成段形似乱码）
+    merged = []
+    for idx, (kind, payload) in enumerate(blocks):
+        if kind == "p" and _d_is_data_row(payload):
+            prev = merged[-1] if merged else None
+            nxt = blocks[idx + 1] if idx + 1 < len(blocks) else None
+            if prev and prev[0] == "q" and nxt and nxt[0] == "q":
+                merged[-1] = ("q", prev[1] + " " + payload)
+                continue
+        merged.append((kind, payload))
+    blocks = merged
+
+    # ⚠️ sandwich 防线：数据表之后又出现答案行 → 属「评分卡 + 内嵌数据表 + 评分续行」
+    # 复合形态，拆分会破坏语义（实证 3-2-2 的 rowspan 复合评分卡）→ 整表拒收。
+    # 「数据表都在答案行之后」（尾部参考数据表）为正常形态，接受。
+    seen_t = False
+    for k, _ in blocks:
+        if k == "t":
+            seen_t = True
+        elif k == "q" and seen_t:
+            return None, "sandwich"
+
+    parts = []
+    for kind, payload in blocks:
+        if kind == "q":
+            parts.append("> " + payload)
+        elif kind == "p":
+            parts.append(payload)
+        else:
+            parts.append(_d_emit_subtable(payload))
+    return "\n\n".join(parts), None
+
+
 def convert_table(block: str, allow_entities: bool = False):
-    """单表转换。返回 (markdown, reason)；reason 为 None 时成功。"""
+    """单表转换。返回 (markdown, reason)；reason 为 None 时成功。
+
+    ⚠️ 本函数走「数据表 → pipe table」主通道。当表**不含得分标记**时
+    （`noscore`），改由 `--qa-cards` 的 D 通道（`convert_qa_card()`）处理；
+    未开 `--qa-cards` 时按原样返回 `noscore`（保持向后兼容）。
+    """
     low = block.lower()
     if "<img" in low:
         return None, "img"
@@ -279,7 +537,14 @@ def iter_files(dirs=None, whole_vault=False, allow=()):
                 yield p, s
 
 
-def plan_one(p: Path, math_only=True, allow_entities=False):
+def plan_one(p: Path, math_only=True, allow_entities=False, qa_cards=False):
+    """扫描单文件的候选表。
+
+    `qa_cards=True` 时启用 **D 通道兜底**：主通道（数据表 → pipe）拒收后，
+    再试 D 通道（评分卡 → 题干段 + 引用块）。两通道判据相互独立：
+    主通道专收「规整数据表」，D 通道专收「含 N分 得分标记的评分卡」，
+    不会对同一张表都成功（D 通道要求 `SCORE_RE` 命中，主通道数据表通常无）。
+    """
     raw = p.read_bytes()
     text = raw.decode("utf-8")
     items = []
@@ -288,8 +553,16 @@ def plan_one(p: Path, math_only=True, allow_entities=False):
         if math_only and not MATH_SPAN.search(block):
             continue
         md, reason = convert_table(block, allow_entities=allow_entities)
+        channel = "pipe"
+        if md is None and qa_cards:
+            md2, reason2 = convert_qa_card(block)
+            if md2 is not None:
+                md, reason, channel = md2, None, "qa"
+            else:
+                reason = f"{reason}|{reason2}"
         items.append({"start": m.start(), "end": m.end(),
-                      "original": block, "converted": md, "reason": reason})
+                      "original": block, "converted": md, "reason": reason,
+                      "channel": channel if md is not None else None})
     return text, items, raw
 
 
@@ -316,6 +589,10 @@ def main():
     ap.add_argument("--apply", action="store_true", help="实际写入（默认 dry-run）")
     ap.add_argument("--all-tables", action="store_true", help="含纯文字表（默认只转含公式）")
     ap.add_argument("--allow-entities", action="store_true", help="entity 解码后转")
+    ap.add_argument("--qa-cards", action="store_true",
+                    help="启用 D 通道：含「N分」得分标记的评分卡/问答卡 → "
+                         "题干段 + 答案引用块（`> `），公式随段落恢复 inline 渲染。"
+                         "主通道拒收后兜底尝试。")
     ap.add_argument("--allow-in-excluded", action="append", default=[],
                     metavar="PREFIX",
                     help="显式放行落在 EXCLUDE_PREFIX 内的路径前缀（可多次，"
@@ -336,6 +613,7 @@ def main():
                             allow=tuple(args.allow_in_excluded)))
     print(f"作用域: {scope}  文件 {len(files)}  "
           f"含纯文字表: {args.all_tables}  entity解码: {args.allow_entities}  "
+          f"D通道(qa-cards): {args.qa_cards}  "
           f"{'写入' if args.apply else 'dry-run'}")
     if args.allow_in_excluded:
         print(f"  放行排除域: {', '.join(args.allow_in_excluded)}")
@@ -344,7 +622,8 @@ def main():
     for p, rel in files:
         try:
             text, items, raw = plan_one(p, math_only=math_only,
-                                        allow_entities=args.allow_entities)
+                                        allow_entities=args.allow_entities,
+                                        qa_cards=args.qa_cards)
         except Exception as e:
             print(f"  ⚠️ 读取失败 {rel}: {e}", file=sys.stderr)
             continue
@@ -388,8 +667,27 @@ def main():
         gen_lines = sum(it["converted"].count("\n") + 1 for it in good)
         old_lines = sum(it["original"].count("\n") + 1 for it in good)
         v["行数"] = (new_text.count("\n"), orig_lines - old_lines + gen_lines)
+        # 「宽度一致」口径**只对 pipe 通道生效** —— 该口径假设产物是表格
+        # （逐行 `|` 数一致）。D 通道产物是「题干段 + 引用块」混合文本，
+        # `|` 数天然不等 → 原口径会**假失败**（2026-09-20 并入实证：
+        # 反向验证时 2 表全部因 widths_ok=False 被跳过，处理文件 0）。
+        # D 通道改用**内容守恒**：原表每个非空单元格文本须在产物中出现。
         widths_ok = True
+        content_ok = True
         for it in good:
+            if it.get("channel") == "qa":
+                prod = it["converted"]
+                flat = [c for g in _d_rows_of_rich(it["original"]) for c in g[2]]
+                for c in flat:
+                    c = c.strip()
+                    if not c:
+                        continue
+                    if c.replace("|", "\\|") not in prod and c not in prod:
+                        content_ok = False
+                        break
+                if not content_ok:
+                    break
+                continue
             ml = it["converted"].split("\n")
             data = [ln for i, ln in enumerate(ml) if i != 1 and ln.strip()]
             ws = {ln.replace("\\|", "").count("|") - 1 for ln in data}
@@ -397,14 +695,22 @@ def main():
                 widths_ok = False
                 break
         v["宽度一致"] = widths_ok
+        v["内容守恒"] = content_ok
         nb = new_text.encode("utf-8")
         v["行尾保持"] = (nb.count(b"\r\n") == nb.count(b"\n")) if eol == "\r\n" \
             else (b"\r\n" not in nb)
-        v["行结构自洽"] = all(
-            len([ln for i, ln in enumerate(it["converted"].split("\n"))
-                 if i != 1 and ln.strip()]) > 0 for it in good)
+        def _struct_ok(it):
+            lines = it["converted"].split("\n")
+            if it.get("channel") == "qa":
+                return any(ln.strip() for ln in lines)
+            # pipe：须有「表头 + 分隔行」之外的至少 1 条数据行
+            return len([ln for i, ln in enumerate(lines)
+                        if i != 1 and ln.strip()]) > 0
+
+        v["行结构自洽"] = all(_struct_ok(it) for it in good)
         ok_v = (v["本次表残留"] == 0 and v["行数"][0] == v["行数"][1]
-                and v["宽度一致"] and v["行尾保持"] and v["行结构自洽"])
+                and v["宽度一致"] and v["内容守恒"]
+                and v["行尾保持"] and v["行结构自洽"])
 
         report.append({"path": rel, "tables": len(good), "verify": v, "ok": ok_v})
         if not args.apply:
