@@ -16,11 +16,18 @@
 #
 # 绕过：git commit --no-verify
 # 卸载：rm .git/hooks/pre-commit
+#
+# ⚠️ 2026-09-21 补：**必须带 --time-budget**。
+#    回归模式对每份文件要跑 2 次 pandoc（当前版 + HEAD 版）。
+#    实测 27 份（含超长文件）会跑 >2 分钟 —— 曾因此把一次提交拖到被系统 SIGTERM，
+#    还留下 stale `index.lock`。钩子绝不能因文件多而卡住建档。
+#    预算用尽时闸门会**如实打印「跳过 N 份未检」**（不伪装成通过）。
 # ══════════════════════════════════════════════════════════════════════════
 
 PY="C:/Users/蕾赛/.workbuddy/binaries/python/versions/3.13.12/python.exe"
 VAULT_WIN="$(cd "$(git rev-parse --show-toplevel)" 2>/dev/null && pwd -W)"
 GATE="$VAULT_WIN/11-模板/scripts/render_gate.py"
+BUDGET=75
 
 # 缺依赖 / 不在预期位置 → 静默放行（fail-open），绝不因环境问题挡提交
 [ -n "$VAULT_WIN" ] || exit 0
@@ -36,8 +43,8 @@ N="$(printf '%s\n' "$FILES" | wc -l | tr -d ' ')"
 MF="$VAULT_WIN/.workbuddy/tmp/_precommit_$$.txt"
 printf '%s\n' "$FILES" > "$MF"
 
-echo "[render-gate] 回归模式检查 $N 个暂存的 .md ..."
-"$PY" -X utf8 "$GATE" --regression --manifest "$MF"
+echo "[render-gate] 回归模式检查 $N 个暂存的 .md （时间预算 ${BUDGET}s）..."
+"$PY" -X utf8 "$GATE" --regression -q --time-budget "$BUDGET" --manifest "$MF"
 RC=$?
 rm -f "$MF" 2>/dev/null
 
