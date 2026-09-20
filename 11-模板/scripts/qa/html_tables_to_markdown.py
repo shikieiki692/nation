@@ -32,8 +32,13 @@
 
 ## 保守拒收判据（宁可不转，不可转坏）
 
-含 `<img` / 列数 0 或 >8 / 列数 ≤2 / 单元格平均文本 >40 字 /
+含 `<img` / 列数 0 或 >8 / **列数 = 1（单列 = 段落伪装）** /
+**窄表（≤2 列）单元格平均文本 >40 字** / **单格 >800 字** /
 单元格 `$` 数为奇数（OCR 半包）/（entity 开启时）解码后仍含 `<img` 或真标签。
+
+> 2026-09-20 规则修正：原「列数 ≤2 拒收」误杀真 2 列数据表（如「温度/K | δ/ppm」）；
+> 原「平均 >40 字拒收」误杀宽表内的长文本单元格。现改为①只拒单列 ②长度阈值只对
+> 窄表生效，另设单格 800 字硬上限。修正后 04-课件/习题集 多转 15 表、04-题库 多转 17 表。
 
 ## 用法（受管解释器 + 安全前缀）
 
@@ -96,6 +101,7 @@ SPAN_COL = re.compile(r"colspan\s*=\s*[\"']?(\d+)", re.I)
 SPAN_ROW = re.compile(r"rowspan\s*=\s*[\"']?(\d+)", re.I)
 ENTITY_PAT = re.compile(r"&(?:#\d+|#x[0-9a-f]+|[a-z]+);", re.I)
 MATH_SPAN = re.compile(r"\$[^$\n]{1,400}\$")
+HARD_CELL_LEN = 800  # 单格字数上限：超过则拒收（Word 单元格会撑爆）
 
 NODE = r"C:\Users\蕾赛\.workbuddy\binaries\node\versions\22.22.2-2\node.exe"
 NODE_PATH = r"C:\Users\蕾赛\.workbuddy\binaries\node\workspace\node_modules"
@@ -202,12 +208,19 @@ def convert_table(block: str, allow_entities: bool = False):
         return None, "norows"
     if width == 0 or width > 8:
         return None, f"width{width}"
-    if width <= 2:
+    if width <= 1:
+        # 单列表 = 段落伪装成表格，转 pipe table 无意义（2026-09-20 放宽）
         return None, f"narrow{width}"
 
     flat = [c for g in grid for c in g if c.strip()]
-    avg_len = sum(len(c) for c in flat) / max(1, len(flat))
-    if avg_len > 40:
+    if not flat:
+        return None, "empty"
+    # 单格超长（>800 字）→ 单元格会撑爆 Word，拒收
+    if max(len(c) for c in flat) > HARD_CELL_LEN:
+        return None, "hardprose"
+    avg_len = sum(len(c) for c in flat) / len(flat)
+    # prose 阈值只对窄表（<=2 列）生效；宽表不论长短都是真表格（2026-09-20 修正）
+    if width <= 2 and avg_len > 40:
         return None, f"prose{int(avg_len)}"
     for c in flat:
         if c.replace("\\$", "").count("$") % 2 == 1:
@@ -222,12 +235,21 @@ def convert_table(block: str, allow_entities: bool = False):
     return "\n".join(out), None
 
 
-def iter_files(dirs=None, whole_vault=False):
-    """遍历 md。whole_vault 时全库（仍排 EXCLUDE_PREFIX）。"""
+def iter_files(dirs=None, whole_vault=False, allow=()):
+    """遍历 md。whole_vault 时全库（仍排 EXCLUDE_PREFIX）。
+
+    allow: 显式放行前缀元组（如 ("04-课件",)）。命中的路径即使落在
+    EXCLUDE_PREFIX 内也放行——用于用户授权的作用域（如成品区/红线区）。
+    """
+    def _excluded(s: str) -> bool:
+        if any(s.startswith(a) for a in allow):
+            return False
+        return any(s.startswith(x) for x in EXCLUDE_PREFIX)
+
     if whole_vault:
         for p in sorted(VAULT.rglob("*.md")):
             s = str(p.relative_to(VAULT)).replace("\\", "/")
-            if any(s.startswith(x) for x in EXCLUDE_PREFIX):
+            if _excluded(s):
                 continue
             yield p, s
     else:
@@ -238,7 +260,7 @@ def iter_files(dirs=None, whole_vault=False):
                 continue
             for p in sorted(root.rglob("*.md")):
                 s = str(p.relative_to(VAULT)).replace("\\", "/")
-                if any(s.startswith(x) for x in EXCLUDE_PREFIX):
+                if _excluded(s):
                     continue
                 yield p, s
 
@@ -280,6 +302,10 @@ def main():
     ap.add_argument("--apply", action="store_true", help="实际写入（默认 dry-run）")
     ap.add_argument("--all-tables", action="store_true", help="含纯文字表（默认只转含公式）")
     ap.add_argument("--allow-entities", action="store_true", help="entity 解码后转")
+    ap.add_argument("--allow-in-excluded", action="append", default=[],
+                    metavar="PREFIX",
+                    help="显式放行落在 EXCLUDE_PREFIX 内的路径前缀（可多次，"
+                         "如 --allow-in-excluded 04-课件）。用户授权作用域专用。")
     ap.add_argument("--backup-dir", default=str(DEFAULT_BACKUP),
                     help="备份目录（默认 .workbuddy/tmp/html_table_backup）")
     args = ap.parse_args()
@@ -292,10 +318,13 @@ def main():
     backup_dir = Path(args.backup_dir)
     math_only = not args.all_tables
     scope = "全库" if args.whole_vault else " ".join(args.dir)
-    files = list(iter_files(args.dir, args.whole_vault))
+    files = list(iter_files(args.dir, args.whole_vault,
+                            allow=tuple(args.allow_in_excluded)))
     print(f"作用域: {scope}  文件 {len(files)}  "
           f"含纯文字表: {args.all_tables}  entity解码: {args.allow_entities}  "
           f"{'写入' if args.apply else 'dry-run'}")
+    if args.allow_in_excluded:
+        print(f"  放行排除域: {', '.join(args.allow_in_excluded)}")
 
     candidates = []
     for p, rel in files:
