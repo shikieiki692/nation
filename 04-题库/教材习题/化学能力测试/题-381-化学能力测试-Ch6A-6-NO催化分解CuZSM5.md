@@ -98,9 +98,9 @@ $$y = 1.5\times 10^{-5}/7.1\times 10^{-5} = 21\%$$
 
 M 物料平衡：c = $c_M$ + $c_{\mathrm{O-M}}$ + $c_{\mathrm{NO-M}}$ ≈ $c_M$ + $c_{\mathrm{O-M}}$ (b)
 
-③快平衡：K = k₃/k₋₃ = $c_{\mathrm{O_2}}$·$c_M$²/$c_{\mathrm{O-M}}$² → $c_{\mathrm{O-M}}$ = c_O₂^½·$c_M$/$K^{1/2}$ (c)
+③快平衡：K = k₃/k₋₃ = $c_{\mathrm{O_2}}$·$c_M$²/$c_{\mathrm{O-M}}$² → $c_{\mathrm{O-M}}$ = $c_{\mathrm{O}_2}^{1/2}$·$c_M$/$K^{1/2}$ (c)
 
-(c) 代入 (b)：c₀ = $c_M$(1+c_O₂^½/$K^{1/2})$ → $c_M$ = c₀/(1+c_O₂^½/$K^{1/2})$ (d)
+(c) 代入 (b)：c₀ = $c_M$(1+$c_{\mathrm{O}_2}^{1/2}$/$K^{1/2})$ → $c_M$ = c₀/(1+$c_{\mathrm{O}_2}^{1/2}$/$K^{1/2})$ (d)
 
 (d) 代入 (a)：
 

@@ -532,54 +532,26 @@ def _run_word_formula_precheck(
                 excerpt=raw_line,
             )
 
-        # ── 2026-09-20 补盲区三：**致命组合（精确机制版）** ──────────────────
-        # 上面三条（critical / generic / braced）都只判「prose 里有没有裸记号码」，
-        # 但实测：这类记号**单独存在是无害的**（`大致 10^5 数量级` 渲染完全正常；
-        # pandoc 的 superscript 需成对，落单的 `^` 就是字面字符）。
+        # ── 2026-09-20：曾在此加过 `bare_script_fatal` 规则，**已撤除**，勿重加 ──
         #
-        # 真正的机制：pandoc 的 superscript 会把**一个 prose 的 `^` 与它后面最近的
-        # `^` 配成一对**（只要区间内无空白），从而把两者之间的内容整段当上标 ——
-        # 若这段跨越了 `$…$`，那个公式就被吞掉。
-        #   实测 `… = c_O₂^½·$c_M$/$K^{1/2}$ (c)`
-        #     → 输出 `… = c_O₂½·/$K{1/2}$ (c)`（oMath 5/6，公式退化）
-        #   实测 `…c_O₂^½/$K^{1/2})$…`（同行两次，此前「奇数」判据漏掉）
-        #     → 同样吞掉 `$K`
+        # 设想：pandoc 的 superscript 会把一个 prose 的 `^` 与它后面最近的 `^` 配成一对，
+        # 若跨过 `$…$` 就吞掉该公式。**机制属实**，实测确有此症：
+        #   `… = c_O₂^½·$c_M$/$K^{1/2}$ (c)` → 输出 `… = c_O₂½·/$K{1/2}$ (c)`（oMath 5/6）
         #
-        # 判据（逐对相邻 `^`）：
-        #   ① 左端处在 **prose**（掩码后该位不是 `^` ⇒ 原行是 `^` 而掩码后被抹平）
-        #   ② 两端之间**无空白**（pandoc superscript 不接受空白）
-        #   ③ 两端之间**含 `$`**（即吞掉的是公式）
-        # → 三条同时成立才是致命。
-        # 这样 `^上标^`（区间内无 `$`）、`x^2 与 $y^3$`（区间内有空白）都不会误报。
-        if raw_line.count("$") % 2 == 0:
-            caret_pos = [i for i, c in enumerate(raw_line) if c == "^"]
-            for pi, q in zip(caret_pos, caret_pos[1:]):
-                left_is_prose = (
-                    pi < len(masked_line) and masked_line[pi] == "^"
-                )
-                between = raw_line[pi + 1:q]
-                if left_is_prose and "$" in between and not any(ch.isspace() for ch in between):
-                    # 严重级说明（2026-09-20）：
-                    #   本条**实质上比 `bare_script_braced` 更重**——后者只是「原样印字」，
-                    #   本条会让公式**不渲染**。但首次落地时全库仍有 6 份存量
-                    #   （均在 `04-课件/习题集/`，多为 `c_O₂^½` 型，源头在红区 `题-381`），
-                    #   直接用 ERROR 会立即阻断这些构建。故按「先 WARN 通报、存量清完再升 ERROR」
-                    #   的常规迁移做法先落 WARN。**升级为 ERROR 是既定后续动作。**
-                    _append_precheck_issue(
-                        issues,
-                        seen,
-                        severity="WARN",
-                        rule="bare_script_fatal",
-                        message=(
-                            "prose 中落单的上标记号 `^` 与其后最近的 `^` 之间跨越了 "
-                            "`$...$` —— pandoc 的 superscript 会把这段整体当上标，"
-                            "**吞掉中间的公式**（比一般裸下标更严重：不只是原样印字）。"
-                            "请把 prose 里那段记号一并包进 `$...$`"
-                        ),
-                        line_no=idx,
-                        excerpt=raw_line,
-                    )
-                    break
+        # **但无法用正则可靠判定**。逐例实测（`markdown` 方言 + `_preprocess_markdown`）：
+        #   ❌坏  `a^b)$X^c$`            ❌坏  `a^b为$X^c$`
+        #   ❌坏  `a^b·$X$/$Y^c$`        ✅好  `k₁^½k₃/$k_R$^½`（闭合 `^` 在 prose）
+        #   ✅好  `a^b c$X^d$`（有空格）  ✅好  `TIMEN^Mes)…(很长)…为$t_{2g}^6$`
+        # 最后一条是关键：**同一形状，区间短则坏、区间长反而「好」** ——
+        # pandoc 的 superscript 有长度/复杂度上限，超限时解析失败、**静默退化为字面文本**，
+        # 于是无害。这个上限不可预测，任何正则判据都会同时误报与漏报。
+        #
+        # 当时的实测代价：按「prose `^` → 最近的 `^`（无空白）→ 含 `$`」判，
+        # 全库报 6 份，**逐份渲染核对后只有 1 份真坏（假阳性 83%）**。
+        #
+        # → 结论：**这一类必须按「结果」判，不能按「形状」判**。
+        #   正解是用 `11-模板/scripts/render_gate.py`（真跑 pandoc，数产物里的字面 `$`），
+        #   它同时具备「渲染级断言」与「覆盖 docx 管线之外的域」两个能力。
 
         macro_hits = sorted({m.group(0) for m in risky_latex_outside_math.finditer(masked_line)})
         if macro_hits:
