@@ -34,6 +34,7 @@ band, is_choice, reuse_tier = G["band"], G["is_choice_ans"], G["reuse_tier"]
 norm_images, resolve_img, shortsrc = G["norm_images"], G["resolve_img"], G["shortsrc"]
 imgs_ok = G["imgs_ok"]
 clean_used = G["clean_used"]    # 2026-09-18：与竞赛教材版共用「曾用于」清理（剥库内路径/去重）
+_strip_mineru_div = G["_strip_mineru_div"]   # 2026-09-20：剥 MinerU OCR 的 div 包裹（致公式不渲染）
 gate_v2 = G["gate_v2"]          # 2026-09-18：与竞赛教材版共用「卷面质量闸门 v2」
 T, ORDER, TIERNAME = G["T"], G["ORDER"], G["TIERNAME"]
 DISCIPLINE, TODAY, IMG, ZUTI = G["DISCIPLINE"], G["TODAY"], G["IMG"], G["ZUTI"]
@@ -250,7 +251,8 @@ for pi, sel in enumerate(papers, 1):
                 L += ["**参考答案**：", "", c["ans"].strip(), ""]
             L += ["---", ""]
         io.open(os.path.join(OUTDIR, "第一轮综合卷%02d（%s）.md" % (pi, edition)),
-                "w", encoding="utf-8", newline="\n").write("\n".join(L))
+                "w", encoding="utf-8", newline="\n").write(
+                    _strip_mineru_div("\n".join(L)))
     manifest.append({"no": pi, "n": len(sel),
                      "tiers": dict(ti), "bands": dict(bd),
                      "topics": dict(collections.Counter(c["topic"] for c in sel)),

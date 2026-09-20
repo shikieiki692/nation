@@ -1598,6 +1598,44 @@ def _normalize_display_math_blocks(text: str) -> str:
     return "\n".join(out)
 
 
+_MINERU_DIV_OPEN = re.compile(r'^<div\s+class="mineru-algorithm"[^>]*>[ \t\r]*$')
+_MINERU_DIV_CLOSE = re.compile(r"^</div>[ \t\r]*$")
+
+
+def _strip_mineru_div(text: str) -> str:
+    """删除 MinerU OCR 产生的 <div class="mineru-algorithm"> 包裹（行首独占一行）。
+
+    背景：CommonMark 系解析器（Obsidian 阅读视图）把行首 <div> 起的块当成
+    raw HTML block，块内 Markdown（含 $..$）一律不解析 → 公式原样显示为源码。
+    ⚠ pandoc 的 markdown 方言会「降级」处理 div（丢标签、照常解析内部），
+    故该缺陷用 pandoc 默认方言测不出来，必须用 commonmark 才能复现。
+
+    做法：成对删除开/闭标签行，保留块内内容；开标签后若上一行与本行都非空，
+    补一个空行以保证块级分隔（否则内容仍可能被前一个 HTML 块吞掉）。
+    只认 mineru-algorithm 这一种 class，<details>/<summary> 一律不动。
+
+    同名实现另见 build_module_book.py / gen_r1.py / gen_r1_mixed.py（生成器侧）。
+    """
+    lines = text.split("\n")
+    out: list[str] = []
+    depth = 0
+    pending_sep = False
+    for ln in lines:
+        if _MINERU_DIV_OPEN.match(ln):
+            depth += 1
+            pending_sep = True
+            continue
+        if depth and _MINERU_DIV_CLOSE.match(ln):
+            depth -= 1
+            continue
+        if pending_sep:
+            pending_sep = False
+            if out and out[-1].strip() and ln.strip():
+                out.append("")
+        out.append(ln)
+    return "\n".join(out)
+
+
 def _preprocess_markdown(text: str) -> str:
     """Full markdown preprocessing for pandoc compatibility.
 
@@ -1610,6 +1648,10 @@ def _preprocess_markdown(text: str) -> str:
        - \\underset{...}{...}  →  side annotation
        - \\displaylines{...}   →  separate equations
     """
+    # 0-pre0) 去掉 MinerU OCR 的 <div class="mineru-algorithm"> 包裹
+    #         行首 <div> 会让 CommonMark 系解析器把整块当 raw HTML，
+    #         块内 $..$ 不解析 → 公式显示为源码（Obsidian 阅读视图可见）
+    text = _strip_mineru_div(text)
     # 0-pre) HTML <table> → Markdown pipe table（raw HTML 表在 docx 里会摊成散段）
     text = _convert_html_tables(text)
     # 0) Transform callout blockquotes (> 🧠/🗣️/⚠️) to bold-led paragraphs

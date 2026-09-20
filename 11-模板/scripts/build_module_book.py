@@ -52,10 +52,44 @@ if EDITION not in {"student", "teacher"}:
     raise SystemExit("--edition 仅支持 student|teacher")
 EDITION_LABEL = "学生版" if EDITION == "student" else "教师版"
 
+_MINERU_DIV_OPEN = re.compile(r'^<div\s+class="mineru-algorithm"[^>]*>[ \t\r]*$')
+_MINERU_DIV_CLOSE = re.compile(r"^</div>[ \t\r]*$")
+
+
+def _strip_mineru_div(text):
+    """删除 MinerU OCR 产生的 <div class="mineru-algorithm"> 包裹。
+
+    行首 <div> 会被 CommonMark 系解析器（Obsidian 阅读视图）当成 raw HTML block，
+    块内 Markdown（含 $..$）一律不解析 → 习题书 md 里公式显示为源码。
+    题源（04-题库）含该 div，本脚本原先原样搬运，故在写盘前统一剥掉。
+    只认 mineru-algorithm 一种 class，<details>/<summary> 一律不动。
+    （与 build-all-handout-docx.py 的同名实现保持一致）
+    """
+    lines = text.split("\n")
+    out = []
+    depth = 0
+    pending_sep = False
+    for ln in lines:
+        if _MINERU_DIV_OPEN.match(ln):
+            depth += 1
+            pending_sep = True
+            continue
+        if depth and _MINERU_DIV_CLOSE.match(ln):
+            depth -= 1
+            continue
+        if pending_sep:
+            pending_sep = False
+            if out and out[-1].strip() and ln.strip():
+                out.append("")
+        out.append(ln)
+    return "\n".join(out)
+
 
 def write_output(path, text):
     """统一写盘；未加 --write 时仅打印将要写入的目标。
     Obsidian 等进程可能瞬时占用句柄（WinError 5 / WinError 32 / Errno 22），自动重试最多 10 次。"""
+    # 2026-09-20：剥掉 MinerU OCR 的 div 包裹（题源带该 div，会致公式不渲染）
+    text = _strip_mineru_div(text)
     if WRITE:
         if OUT_ROOT:
             path = os.path.join(OUT_ROOT, path)

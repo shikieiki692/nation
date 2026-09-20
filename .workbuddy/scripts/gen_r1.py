@@ -11,6 +11,40 @@ CENSUS = os.path.join(ROOT, ".workbuddy/tmp/qb_census.json")
 OUTDIR = os.path.join(ROOT, "04-课件", "习题集", "三·竞赛导向层（载体Ⅱ·Ⅲ）", "第一轮·竞赛教材版")
 MEDIA = os.path.join(ROOT, "媒体仓库")
 WRITE = "--write" in sys.argv
+
+_MINERU_DIV_OPEN = re.compile(r'^<div\s+class="mineru-algorithm"[^>]*>[ \t\r]*$')
+_MINERU_DIV_CLOSE = re.compile(r"^</div>[ \t\r]*$")
+
+
+def _strip_mineru_div(text):
+    """删除 MinerU OCR 产生的 <div class="mineru-algorithm"> 包裹。
+
+    行首 <div> 会被 CommonMark 系解析器（Obsidian 阅读视图）当成 raw HTML block，
+    块内 Markdown（含 $..$）一律不解析 → 卷面公式显示为源码。
+    题源（04-题库）含该 div，本脚本原先原样搬运，故在写盘前统一剥掉。
+    只认 mineru-algorithm 一种 class，<details>/<summary> 一律不动。
+    （与 build-all-handout-docx.py 的同名实现保持一致；
+      gen_r1_mixed.py 经 exec 复用本模块，可直接取用本函数）
+    """
+    lines = text.split("\n")
+    out = []
+    depth = 0
+    pending_sep = False
+    for ln in lines:
+        if _MINERU_DIV_OPEN.match(ln):
+            depth += 1
+            pending_sep = True
+            continue
+        if depth and _MINERU_DIV_CLOSE.match(ln):
+            depth -= 1
+            continue
+        if pending_sep:
+            pending_sep = False
+            if out and out[-1].strip() and ln.strip():
+                out.append("")
+        out.append(ln)
+    return "\n".join(out)
+
 PER_SET, QUOTA = 40, {2: 2, 3: 18, 4: 20}   # 2026-09-18 第五次调整（用户拍板「扩到 40 题/卷」）：
                                            #   25 → 40。配额按**桶内 band 供给**重排：
                                            #   band4 池 1,004 题（原仅用 120）→ 放宽到 20/卷；
@@ -1585,7 +1619,8 @@ def main():
                     L += ["**参考答案**：", "", c["ans"].strip(), ""]
                 L += ["---", ""]
             io.open(os.path.join(OUTDIR, "第一轮" + name + "（" + edition + "）.md"),
-                    "w", encoding="utf-8", newline="\n").write("\n".join(L))
+                    "w", encoding="utf-8", newline="\n").write(
+                        _strip_mineru_div("\n".join(L)))
         manifest.append({"key": key, "name": name, "n": len(sel),
                          "unused": sum(1 for c in sel if c["r"].get("used_in", "") in ("", "[]")),
                          "released": nr,
