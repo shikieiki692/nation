@@ -137,15 +137,24 @@ def run_domain(domain: str, rawdir):
 ROW_RE = re.compile(r"^(?P<name>.*?)\s+(?P<om>\d+|—)\s+(?P<tag>✅|❌|ALLOW)\s*$")
 BS = chr(92)
 
-# 域 → 处置建议（决定工单人先看谁）
+# 域 → 处置建议（决定工单人先看谁）。
+# 分级依据是**实测的产出路径**（不是猜），2026-09-21 实地核过：
+#   · **交付路径**（产出学生/教师手上的文件）：
+#     `06-学生侧材料/` 有 **319 docx**；`13-教案/` **52 docx**；
+#     `04-课件/习题集/` 的 docx 在 `00-首页/题组Word/`（**640 份**）；
+#     `04-课件/学生讲义/` 的 docx 在 `06-学生侧材料/讲义/`。
+#   · **阅读路径**（不进 Word，但 Agent 反复读取）：KP / 提炼 / 专题题型。
+#   · **源层**：原始 OCR 存档 —— **建议不修**（修存档不如重新导入）。
 def advice_for(domain: str) -> str:
     if domain in ("06-外部资料导入", "mineru", "mineru02"):
         return "⛔ 建议不修"
-    if domain.startswith("06-学生侧材料"):
-        return "🔴 P0 立即"
-    if domain.startswith("03-知识点"):
-        return "🟠 P1"
-    return "🟡 P2"
+    if domain in ("06-学生侧材料", "04-课件/习题集", "04-课件/学生讲义", "13-教案"):
+        return "🔴 P0 交付路径"
+    if domain == "03-知识点":
+        return "🟠 P1 KP 页"
+    if domain in ("07-资料提炼", "04-专题与题型", "高考化学", "02-考纲条目"):
+        return "🟡 P2 阅读/提炼"
+    return "🟢 P3 其他课件（实测未见交付产物，需按需定级）"
 
 
 def classify(blob: str):
