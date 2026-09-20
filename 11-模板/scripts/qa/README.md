@@ -54,14 +54,34 @@
 > 段落**（`w:tbl`=0）。转成 pipe table 后两处收益（2026-09-20 端到端实证）。
 > 累计 W1~W5 已转 **~2,795 表 / 483 文件**。方法论与踩坑见 skill `html-block-table-to-md`
 > 与 `09-审计报告/` 各 Wave 报告。
+>
+> **2026-09-20 补轮（W6）**：`04-课件/习题集` 126 表 / `04-题库` 119 表 / entity 表 9 表
+> 共 **254 表**（提交 `f3e82bb57` / `453c5d5fd` / `6893b352a`）。
 
 | 脚本 | 用途 | 用法 |
 |---|---|---|
-| `html_tables_to_markdown.py` | **主工具**：HTML 表 → pipe 表（含 colspan 左展开 / rowspan 下拉 / entity 解码；自带渲染自证 + 四口径 + 备份防覆盖） | `python html_tables_to_markdown.py --dir X [--all-tables] [--allow-entities] [--apply]`；`--whole-vault` 全库；默认 dry-run |
+| `html_tables_to_markdown.py` | **主工具**：HTML 表 → pipe 表（含 colspan 左展开 / rowspan 下拉 / entity 解码；自带渲染自证 + 四口径 + 备份防覆盖） | `python html_tables_to_markdown.py --dir X [--all-tables] [--allow-entities] [--apply] [--allow-in-excluded <前缀>]`；`--whole-vault` 全库；默认 dry-run |
 | `render_selfcheck.js` | 渲染自证器（markdown-it + KaTeX，判残留 `$`==0）；被主工具 `--apply` 自动调用 | 由主工具内部调用，亦可单独喂 JSON |
 | `word_verify.py` | Word 管线端到端验证：备份(转换前) vs 现状各转 docx，数 `w:tbl` / `m:oMath` | `python word_verify.py`（只读，产物 → `.workbuddy/tmp/word_verify/`） |
 | `word_isolate_probe.py` | 隔离实验：HTML 表 vs Markdown 表 → docx，证明「md 层乱码」是 Obsidian 渲染侧问题 | `python word_isolate_probe.py` |
 | `table_baseline.py` | 全库表格健康度基线快照（判据/作用域双维归桶，供回归对照） | `python table_baseline.py` → `09-审计报告/表格健康度基线-*.md` |
+
+> ⚠️ **`EXCLUDE_PREFIX` 盲区（2026-09-20 实证根因）**：工具默认排除
+> `04-题库 / 05-真题库 / 04-课件 / 07-资料提炼 / _归档 / …`，而**成品区恰在 `04-课件/习题集`**
+> → 跑 `--dir 04-课件/习题集` 报「文件 0」。**已完成专项后如需覆盖排除域，须显式加
+> `--allow-in-excluded 04-课件`**（可多次；只对该前缀放行，其余仍排除）。红线区同理
+> `--allow-in-excluded 04-题库`（须用户显式授权）。
+>
+> ⚠️ **两条误杀规则已于 2026-09-20 修正**：
+> - `narrow`：原 `width <= 2` 拒收 → 误杀真 2 列数据表（如「温度/K | δ/ppm」）→ 改为 `width <= 1`
+> - `prose`：原 `avg_len > 40` **无条件**拒收 → 误杀宽表内长文本单元格 → 改为**仅 `width <= 2` 时生效**；
+>   另新增 `hardprose`（**单格 > 800 字**才拒收，防极端长格）
+>
+> ⚠️ **`--out-root` 侧效应**：会回写 `04-课件/习题集/README.md` 的日期 → 用完须 `git checkout` 回退。
+>
+> ⚠️ **行尾口径**：本仓库 `core.autocrlf=true` + `.gitattributes: *.md text eol=lf` → git add
+> 时自动 CRLF→LF，故**工作区混杂行尾 git 看不到（无 M）**，但工具「行尾保持」口径读原始字节会报
+> False。核对时须 `git diff` 为空 + `cat-file` 比对，勿据工具报 False 就回滚。
 
 > ⚠️ **与旧脚本的分工**：`11-模板/scripts/convert_html_tables_to_markdown.py`（2026-08-30）
 > 是**旧一次性脚本**，绑定 `习题书V2-表格分类台账.jsonl`、仅 `04-题库` 习题书源、不支持 span
