@@ -178,6 +178,11 @@ def convert_table(block: str, allow_entities: bool = False):
     low = block.lower()
     if "<img" in low:
         return None, "img"
+    # 表内含块级 HTML（<details>/<summary>/<div>/<p> 等）→ 单元格无法承载块级结构，
+    # 强行转 pipe table 会把块级内容压进单元格并吞掉标签本身（2026-09-20 实证：
+    # 3-晶体结构.md 表内嵌 <details> 折叠块，转换后 details/summary 各 -1）。
+    if re.search(r"<(details|summary|div|p|ul|ol|li|blockquote|figure|section)\b", low):
+        return None, "blockhtml"
     if ENTITY_PAT.search(block):
         if not allow_entities:
             return None, "entity"
