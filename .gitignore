@@ -55,6 +55,7 @@ skills/
 #    曾因此让一次提交漏掉 render_gate.py / md_sanitize.py，须用 git add -f 补提。
 #    判据：`git check-ignore -v --no-index <路径>`（不带 --no-index 对已跟踪文件不报，会误判为「OK」）。
 !11-模板/scripts/render_gate.py
+!11-模板/scripts/render_probe.py
 !11-模板/scripts/md_sanitize.py
 !11-模板/scripts/import_gate.py
 !11-模板/scripts/audit_deprecated.py
