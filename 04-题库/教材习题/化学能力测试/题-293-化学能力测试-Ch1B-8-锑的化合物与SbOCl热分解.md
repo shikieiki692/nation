@@ -55,7 +55,7 @@ source_norm: "化学能力测试"
 
 **8-3** $\mathrm{SbF_3}$ 具有显著的导电性，这可能是由于 ____ 作用，试写出其反应式：____；$\mathrm{SbF_3}$ 能大大增强 $\mathrm{HSO_3F}$ 的酸度，在这种超酸介质中链烷也能起碱的作用，写出叔碳原子在这种介质中所进行的反应 ____。
 
-**8-4** 已知 $\mathrm{SbCl}_3$ 熔点 $73.2^{\circ}\mathrm{C}$；$\mathrm{SbCl}_5$ 熔点 $2.8^{\circ}\mathrm{C}$，高于 $106^{\°C}$ 时分解，$\Delta_f G^\theta(\mathrm{SbCl_3}) = -322.5\ \mathrm{kJ\cdot mol^{-1}}$，$\Delta_f G^\theta(\mathrm{SbCl_5}) = -345.35\ \mathrm{kJ\cdot mol^{-1}}$，若 $25^{\circ}\mathrm{C}$ 时，将 $0.1\ \mathrm{mol}\ \mathrm{SbCl_3}$ 与 $0.1\ \mathrm{mol}\ \mathrm{SbCl_5}$ 装入 $1\ \mathrm{L}$ 抽空的密闭容器中，此时容器中存在 ____ 个相；若向容器中注入 $0.11\ \mathrm{mol}\ \mathrm{Cl_2}$，充分久置后，容器中存在 ____ 个相，$\mathrm{Cl_2}$ 的压力为 ____ 大气压（提示：体系中性质完全相同的均匀部分称为一个相，如冰、水、水蒸气各为一个相）。
+**8-4** 已知 $\mathrm{SbCl}_3$ 熔点 $73.2^{\circ}\mathrm{C}$；$\mathrm{SbCl}_5$ 熔点 $2.8^{\circ}\mathrm{C}$，高于 $106^{\circ}\mathrm{C}$ 时分解，$\Delta_f G^\theta(\mathrm{SbCl_3}) = -322.5\ \mathrm{kJ\cdot mol^{-1}}$，$\Delta_f G^\theta(\mathrm{SbCl_5}) = -345.35\ \mathrm{kJ\cdot mol^{-1}}$，若 $25^{\circ}\mathrm{C}$ 时，将 $0.1\ \mathrm{mol}\ \mathrm{SbCl_3}$ 与 $0.1\ \mathrm{mol}\ \mathrm{SbCl_5}$ 装入 $1\ \mathrm{L}$ 抽空的密闭容器中，此时容器中存在 ____ 个相；若向容器中注入 $0.11\ \mathrm{mol}\ \mathrm{Cl_2}$，充分久置后，容器中存在 ____ 个相，$\mathrm{Cl_2}$ 的压力为 ____ 大气压（提示：体系中性质完全相同的均匀部分称为一个相，如冰、水、水蒸气各为一个相）。
 
 **8-5** 锑能形成混合卤化物，如 $\mathrm{SbCl_3F_2}$。写出该分子的结构式并说明其几何构型。
 
@@ -88,7 +88,7 @@ $$P = nRT/V = 0.01\times 0.0821\times 298/1 = 0.244\ \mathrm{atm} \approx 0.24\ 
 
 **8-5** 由价层电子对互斥理论知：Sb 提供 5 价电子对（5 个电子对），分子为三角双锥。F 的电负性大，F 应在锥顶上，这样斥力小。结构式：轴向 2 个 F，赤道 3 个 Cl（sp³d 杂化）。
 
-**8-6** 因前三个反应在 $245\sim565^{\circ}\mathrm{C}$，而 $\mathrm{SbCl_3}$ 沸点 $233^{\°C}$（前三个反应中失去 $\mathrm{SbCl_3}$ 蒸气），每次失去一分子 $\mathrm{SbCl_3}$。
+**8-6** 因前三个反应在 $245\sim565^{\circ}\mathrm{C}$，而 $\mathrm{SbCl_3}$ 沸点 $233^{\circ}\mathrm{C}$（前三个反应中失去 $\mathrm{SbCl_3}$ 蒸气），每次失去一分子 $\mathrm{SbCl_3}$。
 
 第一次失重 $26.34\%$，设 $n$ 个 SbOCl 失 1 SbCl₃：$n\cdot M(\mathrm{SbOCl}) = 5\times 173.5 = 867.5$，失 SbCl₃ 228.5，$228.5/867.5 = 26.34\%$ ✓，故 $n=5$：
 
