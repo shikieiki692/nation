@@ -514,15 +514,72 @@ def _run_word_formula_precheck(
 
         for match in braced_bare_script.finditer(masked_line):
             token = match.group(0)
+            # 2026-09-20 修措辞：原文写「会原样印进 Word」，实测**低估了后果** ——
+            # 若同行后面还有公式，这个 `^{…}` 会与公式里的 `^` 配成 pandoc superscript 对，
+            # 把中间的 `$...$` **整段吞掉**（实测 `Mn^{2+}，$\varphi^{θ}=1.51V$`
+            # → 输出 `Mn{2+}，${} = 1.51V$`），而不只是打印成原样。
+            # 该更强后果另由下面的 `bare_script_fatal` 规则专门捕获。
             _append_precheck_issue(
                 issues,
                 seen,
                 severity="WARN",
                 rule="bare_script_braced",
-                message=f"数学模式外出现裸下标/上标 `{token}`；请包进 `$...$`，否则会原样印进 Word",
+                message=(
+                    f"数学模式外出现裸下标/上标 `{token}`；请包进 `$...$`。"
+                    "否则轻则原样印进 Word，重则与同行公式里的 `^` 配对、吞掉该公式"
+                ),
                 line_no=idx,
                 excerpt=raw_line,
             )
+
+        # ── 2026-09-20 补盲区三：**致命组合（精确机制版）** ──────────────────
+        # 上面三条（critical / generic / braced）都只判「prose 里有没有裸记号码」，
+        # 但实测：这类记号**单独存在是无害的**（`大致 10^5 数量级` 渲染完全正常；
+        # pandoc 的 superscript 需成对，落单的 `^` 就是字面字符）。
+        #
+        # 真正的机制：pandoc 的 superscript 会把**一个 prose 的 `^` 与它后面最近的
+        # `^` 配成一对**（只要区间内无空白），从而把两者之间的内容整段当上标 ——
+        # 若这段跨越了 `$…$`，那个公式就被吞掉。
+        #   实测 `… = c_O₂^½·$c_M$/$K^{1/2}$ (c)`
+        #     → 输出 `… = c_O₂½·/$K{1/2}$ (c)`（oMath 5/6，公式退化）
+        #   实测 `…c_O₂^½/$K^{1/2})$…`（同行两次，此前「奇数」判据漏掉）
+        #     → 同样吞掉 `$K`
+        #
+        # 判据（逐对相邻 `^`）：
+        #   ① 左端处在 **prose**（掩码后该位不是 `^` ⇒ 原行是 `^` 而掩码后被抹平）
+        #   ② 两端之间**无空白**（pandoc superscript 不接受空白）
+        #   ③ 两端之间**含 `$`**（即吞掉的是公式）
+        # → 三条同时成立才是致命。
+        # 这样 `^上标^`（区间内无 `$`）、`x^2 与 $y^3$`（区间内有空白）都不会误报。
+        if raw_line.count("$") % 2 == 0:
+            caret_pos = [i for i, c in enumerate(raw_line) if c == "^"]
+            for pi, q in zip(caret_pos, caret_pos[1:]):
+                left_is_prose = (
+                    pi < len(masked_line) and masked_line[pi] == "^"
+                )
+                between = raw_line[pi + 1:q]
+                if left_is_prose and "$" in between and not any(ch.isspace() for ch in between):
+                    # 严重级说明（2026-09-20）：
+                    #   本条**实质上比 `bare_script_braced` 更重**——后者只是「原样印字」，
+                    #   本条会让公式**不渲染**。但首次落地时全库仍有 6 份存量
+                    #   （均在 `04-课件/习题集/`，多为 `c_O₂^½` 型，源头在红区 `题-381`），
+                    #   直接用 ERROR 会立即阻断这些构建。故按「先 WARN 通报、存量清完再升 ERROR」
+                    #   的常规迁移做法先落 WARN。**升级为 ERROR 是既定后续动作。**
+                    _append_precheck_issue(
+                        issues,
+                        seen,
+                        severity="WARN",
+                        rule="bare_script_fatal",
+                        message=(
+                            "prose 中落单的上标记号 `^` 与其后最近的 `^` 之间跨越了 "
+                            "`$...$` —— pandoc 的 superscript 会把这段整体当上标，"
+                            "**吞掉中间的公式**（比一般裸下标更严重：不只是原样印字）。"
+                            "请把 prose 里那段记号一并包进 `$...$`"
+                        ),
+                        line_no=idx,
+                        excerpt=raw_line,
+                    )
+                    break
 
         macro_hits = sorted({m.group(0) for m in risky_latex_outside_math.finditer(masked_line)})
         if macro_hits:
