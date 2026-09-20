@@ -161,32 +161,35 @@ def advice_for(domain: str) -> str:
 
 
 def classify(blob: str):
-    """按闸门给的原因原文分组。返回 (组名, 是否**机械可修**)。
+    """按**闸门给出的证据**分组。返回 (组名, 形状提示)。
 
-    顺序 = 优先级，命中即止。⚠️ 分组依据是 render_gate 打印的**原因片段**
-    （texmath 报错被截到 90 字符），故属**启发式**——工单里同时保留原因原文，
-    人工可复核；分组只用于排优先级，不用于下结论。
+    ⚠️ 2026-09-21 自我更正：组名**曾经断言成因**（如「文本命令嵌套」），但那是从
+    **报错片段**（截断 90 字符）推的 —— 实测 12 份「文本命令嵌套」的源文件里
+    `\\text{…\\cmd{…}}` 形态**一处都没有**。故：
+      · **B 栏**四条 = `render_gate` 的 B 栏签名**直接命中**（可靠）；
+      · **A 栏**分组 = 描述「**报错片段里出现了什么**」，**不宣称成因**。
+    成因以工单明细里的「原因原文」为准。
     """
     if "行首 <div>" in blob:
-        return "B栏｜行首 `<div>`（Obsidian 下吞块内 markdown）", False
+        return "B栏｜行首 `<div>`（B 栏签名直接命中）", False
     if "TAB 残名" in blob:
-        return "B栏｜TAB 残名（真制表符吃掉命令首字母）", True
+        return "B栏｜TAB 残名（B 栏签名直接命中）", True
     if BS + "AA" in blob:
-        return "B栏｜`" + BS + "AA` 未转义", True
+        return "B栏｜`" + BS + "AA`（B 栏签名直接命中）", True
     if BS + "text{" + BS + "text{" in blob:
-        return "B栏｜`" + BS + "text{" + BS + "text{}}` 嵌套", True
+        return "B栏｜`" + BS + "text{" + BS + "text{}}` 嵌套（B 栏签名直接命中）", True
     if "docx 转换失败" in blob:
         if any(k in blob for k in ("&lt;", "&gt;", "&amp;")):
-            return "A栏｜HTML 实体混入数学域", True
+            return "A栏｜报错片段含 HTML 实体（`&lt;` 等）", True
         if "unexpected control sequence" in blob:
-            return "A栏｜双反斜杠 `" + BS + BS + "`（仅 array 类环境内合法）", False
+            return "A栏｜报错为 `unexpected control sequence`（双反斜杠类）", False
         if blob.count(BS + "text") >= 2:
-            return "A栏｜`" + BS + "text{…" + BS + "cmd{…}}` 文本命令嵌套", True
+            return "A栏｜报错片段含多个 `" + BS + "text` 标记", False
         if "}}" in blob or "}]" in blob or ("{" in blob and "}" not in blob):
-            return "A栏｜花括号不配平", False
-        return "A栏｜其他 texmath 语法错（多为 OCR 乱码）", False
+            return "A栏｜报错片段含 `}}` / `}]`（疑似花括号多余）", False
+        return "A栏｜其他 texmath 报错", False
     if "产物字面 $" in blob:
-        return "A栏｜`$` 不配平（公式整段未渲染）", False
+        return "A栏｜仅字面 `$`（无 texmath 报错；多为算式不配平）", False
     return "其他（需人工看原因原文）", False
 
 
@@ -237,20 +240,57 @@ def parse_raw(path: Path):
     return dict(checked=checked, failed=failed, items=items, allow=n_allow, mismatch=None)
 
 
+def _load_sanitizer():
+    """载入同目录的 `md_sanitize`（用于**实测**「该文件能否被机械净化」）。"""
+    here = Path(__file__).resolve().parent
+    if str(here) not in sys.path:
+        sys.path.insert(0, str(here))
+    try:
+        import md_sanitize
+        return md_sanitize
+    except Exception:
+        return None
+
+
+def _sanitize_would_change(san, rel: str) -> bool:
+    """**实测**该文件能否被机械净化 = 跑一遍 `sanitize()` 看前后是否变化。
+
+    ⚠️ 2026-09-21 自我更正：本列**曾经是按「形状」猜的**（「这个分组名看起来
+    有对应规则 ⇒ 标机械可修」）—— 结果 15 份里**一份都改不动**：
+    `import_gate --no-run`（预检）报「可修 **0** / 无需改动 15」。
+    根因是分组名来自**闸门报出的报错片段**（截断 90 字符），并不是对源文件的解析；
+    片段里出现两次 `\\text` 就被我判成「文本命令嵌套」，而源文件里根本没有那个形态。
+    → **判据必须按结果**：跑一遍 `sanitize()`，变化才算可修。
+    """
+    if san is None:
+        return False
+    try:
+        t = (VAULT / rel).read_text(encoding="utf-8", errors="replace")
+    except OSError:
+        return False
+    try:
+        return san.sanitize(t) != t
+    except Exception:
+        return False
+
+
 def build_work_order(rawdir: str, out_path: Path, parsed=None):
     """从 rawdir 里的逐域原始输出，生成可委派工单。返回 (总失败数, 覆盖域数)。
 
     `parsed` 可传入已解析结果（`read_raw_dir()` 的返回值）以免重复解析。
     """
     per_dom = read_raw_dir(rawdir) if parsed is None else parsed
+    san = _load_sanitizer()
     all_items, tot_ck, tot_f, tot_allow, mismatches = [], 0, 0, 0, []
     for domain, note, d in per_dom:
         tot_ck += d["checked"]; tot_f += d["failed"]; tot_allow += d["allow"]
         if d["mismatch"]:
             mismatches.append((domain, d["mismatch"]))
         for rel, reasons in d["items"]:
-            grp, mech = classify(" ".join(reasons))
-            all_items.append(dict(rel=rel, reasons=reasons, grp=grp, mech=mech, dom=domain))
+            grp, _shape = classify(" ".join(reasons))
+            # ⭐ 可修与否**实测**（跑一遍 sanitize 看是否变化），不按分组名猜
+            all_items.append(dict(rel=rel, reasons=reasons, grp=grp,
+                                  mech=_sanitize_would_change(san, rel), dom=domain))
 
     gc = Counter(i["grp"] for i in all_items)
     dc = Counter(i["dom"] for i in all_items)
@@ -274,7 +314,7 @@ def build_work_order(rawdir: str, out_path: Path, parsed=None):
     L.append(">")
     L.append("> **一句话**：共 **%d** 份 —— %s；"
              % (tot_f, "、".join("%s **%d** 份" % (k, v) for k, v in ac.most_common())))
-    L.append("> 其中**机械可修 %d 份**，其余 **%d 份必须回原书/原式校正**。"
+    L.append("> 其中**实测可净化 %d 份**，其余 **%d 份必须回原书/原式校正**。"
              % (n_mech, tot_f - n_mech))
     L.append(">")
     L.append("> **复跑**（改完一批后刷新本表，同一条命令）：")
@@ -304,21 +344,24 @@ def build_work_order(rawdir: str, out_path: Path, parsed=None):
         for dom, (a, b) in mismatches:
             L.append("- `%s`：`❌` 行 %d 条 ≠ 失败清单 %d 条 —— 解析器不猜，该域未纳入明细。" % (dom, a, b))
         L.append("")
-    L.append("## 二、按根因分组")
+    L.append("## 二、按**报错片段**分组（启发式，只用于排优先级）")
     L.append("")
-    L.append("| 组 | 份数 | 机械可修 | 备注 |")
-    L.append("|:--|--:|:--|:--|")
+    L.append("| 组 | 份数 | 其中实测可净化 | 备注 |")
+    L.append("|:--|--:|--:|:--|")
     REMARK = {
-        "B栏｜TAB 残名（真制表符吃掉命令首字母）": "`md_sanitize.fix_tab_pollution` 可修",
-        "B栏｜行首 `<div>`（Obsidian 下吞块内 markdown）": "`import_gate --fix` 可修",
-        "A栏｜HTML 实体混入数学域": "`md_sanitize.fix_html_entities_in_math` 可修",
-        "A栏｜`" + BS + "text{…" + BS + "cmd{…}}` 文本命令嵌套": "`md_sanitize.fix_text_inner_cmd` 可修",
-        "A栏｜双反斜杠 `" + BS + BS + "`（仅 array 类环境内合法）": "**须看上下文**：在 `\\begin{cases}`/`array` 内合法",
+        "B栏｜TAB 残名（B 栏签名直接命中）": "对应 `md_sanitize.fix_tab_pollution`",
+        "B栏｜行首 `<div>`（B 栏签名直接命中）": "对应 `import_gate --fix`",
+        "A栏｜报错片段含 HTML 实体（`&lt;` 等）": "对应 `md_sanitize.fix_html_entities_in_math`（只覆盖 `$…$` 内）",
+        "A栏｜报错为 `unexpected control sequence`（双反斜杠类）": "**须看上下文**：在 `\\begin{cases}` / `array` 内合法",
     }
     for g, n in gc.most_common():
-        mech = next((i["mech"] for i in all_items if i["grp"] == g), False)
-        L.append("| %s | %d | %s | %s |"
-                 % (g, n, "✅" if mech else "❌", REMARK.get(g, "")))
+        mg = sum(1 for i in all_items if i["grp"] == g and i["mech"])
+        L.append("| %s | %d | %d | %s |" % (g, n, mg, REMARK.get(g, "")))
+    L.append("")
+    L.append("> **「实测可净化」的算法**：对每份文件真跑一遍 `md_sanitize.sanitize()`，")
+    L.append("> **前后有变化**才算 —— 不是「看起来像某个已知形态」。")
+    L.append("> 而**分组名**依据的是 `render_gate` 报出的**报错片段**（截断 90 字符），属**启发式**：")
+    L.append("> 同组内可能混有不同成因，**一律以明细里的「原因原文」为准**，不要按组名下结论。")
     L.append("")
     L.append("## 三、明细（按「域处置建议 → 份数」排序）")
     L.append("")
@@ -343,13 +386,14 @@ def build_work_order(rawdir: str, out_path: Path, parsed=None):
     L.append("2. **再从 P0/P1 往下做**，每改完一批就**复跑**（见文开头命令）刷新本表；")
     L.append("   份数下降即进度，新出现的项即回归。")
     if n_mech:
-        L.append("3. **机械可修的 %d 份**（见分组表「机械可修」列）：可直接跑 "
-                 "`import_gate.py --domain <域> --fix`（带备份）；其余必须**回原书/原式**校正。" % n_mech)
+        L.append("3. **实测可净化的 %d 份**：直接跑 `import_gate.py --domain <域> --fix`（带备份）；"
+                 "其余必须**回原书/原式**校正。" % n_mech)
     else:
-        L.append("3. ⚠️ **本批没有任何一份是机械可修的** —— **全部得回原书/原式校正**。")
-        L.append("   这不是「工具不够好」：这些缺陷的形态就是「**公式本身被 OCR 打乱**」")
-        L.append("   （多括号 `[\\mathrm{L}}]`、缺下划线 `nH2O`、无效宏、串行 `\\cdot L^{-1}H_3BO_3`），")
-        L.append("   写不出可靠规则 —— 强写规则就会重演本会话已证伪的「按形状猜」错误。")
+        L.append("3. ⚠️ **本批没有任何一份能被机械净化**（实测：`sanitize()` 改动量为 0）")
+        L.append("   —— **全部得回原书/原式校正**。这不是「工具不够好」：")
+        L.append("   这些缺陷的形态是「**公式本身被 OCR 打乱**」（多括号 `[\\mathrm{L}}]`、")
+        L.append("   缺下划线 `nH2O`、无效宏、串行 `\\cdot L^{-1}H_3BO_3`），写不出可靠规则 ——")
+        L.append("   强写规则就会重演「按形状猜」的错误（本工单的「可净化」列**已被这个错误坑过一次**）。")
     L.append("4. ⛔ **不许**为了「清零」把 `$` 删掉或把公式改成纯文本：那会把「渲染失败」")
     L.append("   变成「静默的内容丢失」，后者更坏。改不动就标存疑，不要假装修好。")
     L.append("")
@@ -357,9 +401,11 @@ def build_work_order(rawdir: str, out_path: Path, parsed=None):
     L.append("")
     L.append("- 分组是**启发式**：依据是 texmath 报错片段（截断 90 字符），**不是**对源文件的二次解析；")
     L.append("  原因原文列保留在明细里，人工可复核/改判。")
-    L.append("- 只覆盖 `render_health.DOMAINS` 里登记的域；未登记的域（如 `04-题库/`）**未受检**。")
-    L.append("- 「机械可修」= **本会话已验证过的净化规则**恰好覆盖该形态，不代表修完语义一定对；")
-    L.append("  落盘后仍需复跑闸门确认。")
+    L.append("- **重型域默认不跑**：`04-题库/`（6020 份 ≈ 1 小时）未纳入本次体检；")
+    L.append("  抽样 99 份（两轮随机）**0 失败**，且它经生成器进成书层、成书层实测全绿 ⇒")
+    L.append("  需要时用 `--only 04-题库` 单独跑。")
+    L.append("- 「实测可净化」= **真跑 `md_sanitize.sanitize()`、前后有变化**（实测而非形状推断）。")
+    L.append("  即便可净化，也只保证「不再报错」，**不保证语义一定对** —— 落盘后仍须复跑闸门确认。")
     L.append("")
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
