@@ -1598,42 +1598,36 @@ def _normalize_display_math_blocks(text: str) -> str:
     return "\n".join(out)
 
 
-_MINERU_DIV_OPEN = re.compile(r'^<div\s+class="mineru-algorithm"[^>]*>[ \t\r]*$')
-_MINERU_DIV_CLOSE = re.compile(r"^</div>[ \t\r]*$")
+# ── 净化逻辑唯一事实源：11-模板/scripts/md_sanitize.py ──────────────────────
+# 曾经同一份 div 剥离逻辑散落 4 处（本文件 + build_module_book + gen_r1 + gen_r1_mixed），
+# 同一知识 4 副本必然漂移。2026-09-20 收敛为单一模块，本处改为 import。
+# ⚠️ gen_r1_mixed.py 用 exec() 复用 gen_r1.py 源码，那种情形下**没有 __file__**，
+#    故此处必须能容忍 NameError，并备 cwd 向上查找的兜底路径。
+def _import_md_sanitize():
+    import os as _os
+    import sys as _sys
+    cands = []
+    try:
+        here = _os.path.dirname(_os.path.abspath(__file__))
+        cands += [here,
+                  _os.path.normpath(_os.path.join(here, "..", "..", "11-模板", "scripts"))]
+    except NameError:
+        pass                      # 被 exec() 复用时代码没有 __file__
+    d = _os.path.abspath(_os.getcwd())
+    for _ in range(5):            # 兜底：从 cwd 逐级向上找 vault
+        cands.append(_os.path.join(d, "11-模板", "scripts"))
+        d = _os.path.dirname(d)
+    for c in cands:
+        if _os.path.isfile(_os.path.join(c, "md_sanitize.py")):
+            if c not in _sys.path:
+                _sys.path.insert(0, c)
+            break
+    import md_sanitize
+    return md_sanitize
 
 
-def _strip_mineru_div(text: str) -> str:
-    """删除 MinerU OCR 产生的 <div class="mineru-algorithm"> 包裹（行首独占一行）。
-
-    背景：CommonMark 系解析器（Obsidian 阅读视图）把行首 <div> 起的块当成
-    raw HTML block，块内 Markdown（含 $..$）一律不解析 → 公式原样显示为源码。
-    ⚠ pandoc 的 markdown 方言会「降级」处理 div（丢标签、照常解析内部），
-    故该缺陷用 pandoc 默认方言测不出来，必须用 commonmark 才能复现。
-
-    做法：成对删除开/闭标签行，保留块内内容；开标签后若上一行与本行都非空，
-    补一个空行以保证块级分隔（否则内容仍可能被前一个 HTML 块吞掉）。
-    只认 mineru-algorithm 这一种 class，<details>/<summary> 一律不动。
-
-    同名实现另见 build_module_book.py / gen_r1.py / gen_r1_mixed.py（生成器侧）。
-    """
-    lines = text.split("\n")
-    out: list[str] = []
-    depth = 0
-    pending_sep = False
-    for ln in lines:
-        if _MINERU_DIV_OPEN.match(ln):
-            depth += 1
-            pending_sep = True
-            continue
-        if depth and _MINERU_DIV_CLOSE.match(ln):
-            depth -= 1
-            continue
-        if pending_sep:
-            pending_sep = False
-            if out and out[-1].strip() and ln.strip():
-                out.append("")
-        out.append(ln)
-    return "\n".join(out)
+_MD_SAN = _import_md_sanitize()
+_strip_mineru_div = _MD_SAN.strip_mineru_div
 
 
 def _preprocess_markdown(text: str) -> str:

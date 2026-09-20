@@ -12,38 +12,36 @@ OUTDIR = os.path.join(ROOT, "04-课件", "习题集", "三·竞赛导向层（�
 MEDIA = os.path.join(ROOT, "媒体仓库")
 WRITE = "--write" in sys.argv
 
-_MINERU_DIV_OPEN = re.compile(r'^<div\s+class="mineru-algorithm"[^>]*>[ \t\r]*$')
-_MINERU_DIV_CLOSE = re.compile(r"^</div>[ \t\r]*$")
+# ── 净化逻辑唯一事实源：11-模板/scripts/md_sanitize.py ──────────────────────
+# 曾经同一份 div 剥离逻辑散落 4 处（本文件 + build_module_book + gen_r1 + gen_r1_mixed），
+# 同一知识 4 副本必然漂移。2026-09-20 收敛为单一模块，本处改为 import。
+# ⚠️ gen_r1_mixed.py 用 exec() 复用 gen_r1.py 源码，那种情形下**没有 __file__**，
+#    故此处必须能容忍 NameError，并备 cwd 向上查找的兜底路径。
+def _import_md_sanitize():
+    import os as _os
+    import sys as _sys
+    cands = []
+    try:
+        here = _os.path.dirname(_os.path.abspath(__file__))
+        cands += [here,
+                  _os.path.normpath(_os.path.join(here, "..", "..", "11-模板", "scripts"))]
+    except NameError:
+        pass                      # 被 exec() 复用时代码没有 __file__
+    d = _os.path.abspath(_os.getcwd())
+    for _ in range(5):            # 兜底：从 cwd 逐级向上找 vault
+        cands.append(_os.path.join(d, "11-模板", "scripts"))
+        d = _os.path.dirname(d)
+    for c in cands:
+        if _os.path.isfile(_os.path.join(c, "md_sanitize.py")):
+            if c not in _sys.path:
+                _sys.path.insert(0, c)
+            break
+    import md_sanitize
+    return md_sanitize
 
 
-def _strip_mineru_div(text):
-    """删除 MinerU OCR 产生的 <div class="mineru-algorithm"> 包裹。
-
-    行首 <div> 会被 CommonMark 系解析器（Obsidian 阅读视图）当成 raw HTML block，
-    块内 Markdown（含 $..$）一律不解析 → 卷面公式显示为源码。
-    题源（04-题库）含该 div，本脚本原先原样搬运，故在写盘前统一剥掉。
-    只认 mineru-algorithm 一种 class，<details>/<summary> 一律不动。
-    （与 build-all-handout-docx.py 的同名实现保持一致；
-      gen_r1_mixed.py 经 exec 复用本模块，可直接取用本函数）
-    """
-    lines = text.split("\n")
-    out = []
-    depth = 0
-    pending_sep = False
-    for ln in lines:
-        if _MINERU_DIV_OPEN.match(ln):
-            depth += 1
-            pending_sep = True
-            continue
-        if depth and _MINERU_DIV_CLOSE.match(ln):
-            depth -= 1
-            continue
-        if pending_sep:
-            pending_sep = False
-            if out and out[-1].strip() and ln.strip():
-                out.append("")
-        out.append(ln)
-    return "\n".join(out)
+_MD_SAN = _import_md_sanitize()
+_strip_mineru_div = _MD_SAN.strip_mineru_div
 
 PER_SET, QUOTA = 40, {2: 2, 3: 18, 4: 20}   # 2026-09-18 第五次调整（用户拍板「扩到 40 题/卷」）：
                                            #   25 → 40。配额按**桶内 band 供给**重排：
