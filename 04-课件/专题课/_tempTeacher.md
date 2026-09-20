@@ -1255,7 +1255,7 @@ $$\sigma_{2p} < \pi_{2p} < \pi^*_{2p} < \sigma^*_{2p}$$
 
 **判断规则**：
 
-$$\text{点阵类型} = \begin{cases} \text{bcc} & \text{体心原子与顶点原子\textbf{相同}} \\ \text{sc} & \text{体心原子与顶点原子\textbf{不同}} \end{cases}$$
+$$\text{点阵类型} = \begin{cases} \text{bcc} & \text{体心原子与顶点原子}\textbf{相同} \\ \text{sc} & \text{体心原子与顶点原子}\textbf{不同} \end{cases}$$
 
 **CsCl分析**：
 - 顶点：Cl⁻；体心：Cs⁺

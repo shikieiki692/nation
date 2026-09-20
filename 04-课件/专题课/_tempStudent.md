@@ -753,8 +753,7 @@ $$\mu = \sqrt{n(n+2)} \quad \text{(仅自旋公式，单位Bohr磁子BM)}$$
 
 **螯合效应：** 螯合配合物比同类型单齿配体配合物更稳定（稳定常数更大）。本质是**熵驱动**——螯合反应释放更多配体分子，$\Delta S > 0$。
 
-例：$[Ni(NH_3)_6]^{2+}$ + 3en $
-ightleftharpoons$ [Ni(en)₃]²⁺ + 6NH₃，K >> 1
+例：$[Ni(NH_3)_6]^{2+}$ + 3en $\rightleftharpoons$ [Ni(en)₃]²⁺ + 6NH₃，K >> 1
 （6个NH₃被3个en取代→净增3个自由分子→熵增→ΔG更负）
 
 ### 4.8 配合反应与其他反应的关联（考纲12.5）
@@ -2125,7 +2124,7 @@ $$\sigma_{2p} < \pi_{2p} < \pi^*_{2p} < \sigma^*_{2p}$$
 
 **判断规则**：
 
-$$\text{点阵类型} = \begin{cases} \text{bcc} & \text{体心原子与顶点原子\textbf{相同}} \\ \text{sc} & \text{体心原子与顶点原子\textbf{不同}} \end{cases}$$
+$$\text{点阵类型} = \begin{cases} \text{bcc} & \text{体心原子与顶点原子}\textbf{相同} \\ \text{sc} & \text{体心原子与顶点原子}\textbf{不同} \end{cases}$$
 
 **CsCl分析**：
 - 顶点：Cl⁻；体心：Cs⁺
