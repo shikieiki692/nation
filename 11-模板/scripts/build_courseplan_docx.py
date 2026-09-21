@@ -30,8 +30,8 @@ EAST, WEST = "宋体", "Times New Roman"
 TOTAL_W = 8391            # 与旧版一致
 W_MIN = 620
 
-MODULE_HEADER = ["章", "次数", "节", "知识点", "教材来源"]
-REVIEW_HEADER = ["章", "课型", "知识点", "课次", "依据与课件"]
+MODULE_HEADER = ["章", "节", "知识点", "教材来源", "次数"]
+REVIEW_HEADER = ["章", "课型", "知识点", "课次"]
 
 
 # ---------------- 底层工具 ----------------
@@ -280,6 +280,8 @@ for kind, name, rows in blocks:
     set_grid(tbl, widths)
     table_borders(tbl)
     for ri in range(len(rows)):
+        trPr = tbl.rows[ri]._tr.get_or_add_trPr()
+        trPr.append(OxmlElement("w:cantSplit"))   # 整行不跨页
         for ci in range(ncol):
             items = [clean_md_text(x) for x in rows[ri][ci].split(SEP) if x.strip()]
             set_cell(tbl.cell(ri, ci), items or [""])
@@ -291,7 +293,8 @@ for kind, name, rows in blocks:
         gs = [ri for ri in range(len(rows)) if rows[ri][0].strip()] + [len(rows)]
         for a, b in zip(gs, gs[1:]):
             if b - a > 1:
-                for col in (0, 1, 4):
+                # 章(0) / 教材来源(3) / 次数(4) 均为章级字段 → 一并纵向合并
+                for col in (0, 3, 4):
                     set_vmerge(tbl.cell(a, col), "restart")
                     for k in range(a + 1, b):
                         set_vmerge(tbl.cell(k, col), None)
