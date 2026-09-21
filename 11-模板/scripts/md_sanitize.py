@@ -29,7 +29,7 @@ import re
 __all__ = ["strip_mineru_div", "fix_r_break", "fix_aa", "fix_text_nesting",
            "fix_text_inner_cmd", "fix_html_entities_in_math", "fix_dollar_digit",
            "fix_double_backslash_cmd", "fix_dollar_block_leading_colon",
-           "fix_tab_pollution", "sanitize"]
+           "fix_tab_pollution", "fix_cdot_glued", "fix_hspace_math_unit", "sanitize"]
 
 BS = chr(92)
 TAB = chr(9)
@@ -202,8 +202,33 @@ _ENTITIES = ((r"&lt;", "<"), (r"&gt;", ">"), (r"&amp;", "&"), (r"&nbsp;", " "))
 _RE_MATH_SPAN = re.compile(
     r"\$\$.*?\$\$"                       # 显示公式
     r"|(?<!\\)\$(?!\$)(?:\\.|[^$\n])*(?<!\\)\$"   # 行内公式
+    # ⓖ 单反斜杠数学 `\( … \)`（MinerU/OCR 原始表格里大量使用）。
+    # 2026-09-21 实测漏网：`<td>\( &lt;10^{-8} \)</td>` —— 只覆盖 `$…$` 时
+    # 这条规则照不到，`&lt;` 原样带进 texmath → `unexpected '&'`。
+    r"|\\\((?:[^\\]|\\.)*?\\\)"          # 单反斜杠行内数学
     , re.DOTALL
 )
+
+# ── ③h `\cdot` 紧跟字母（OCR 吃掉了 `·` 后的空格）────────────────────────
+# `mol\cdotL^{-1}` → `mol\cdot L^{-1}`。texmath 报 `unexpected control sequence \cdotL`。
+# 🔴 **必须先排除 `\cdots`** —— 它是**合法命令**且本库有 **296 处**；
+#    无脑「\cdot 后插空格」会把全库 `\cdots` 全部毁掉（这正是「按形状猜」的坑）。
+_RE_CDOT_GLUED = re.compile(r"\\cdot(?=[A-Za-z])(?!s)")
+
+# ── ③i `\hspace{2\mathrm{cm}}`：长度参数里套 `\mathrm` ────────────────────
+# texmath 不支持，实测 `\hspace{2cm}` 可以过。本库 3 处（同一份学生讲义）。
+_RE_HSPACE_MATH_UNIT = re.compile(r"\\hspace\{([^{}]*?)\\mathrm\{([^{}]*)\}\}")
+
+
+def fix_cdot_glued(text: str) -> str:
+    """`\\cdot` 与紧随字母之间补一个空格（`\\cdots` 除外）。"""
+    return _RE_CDOT_GLUED.sub(lambda m: BS + "cdot ", text)
+
+
+def fix_hspace_math_unit(text: str) -> str:
+    """`\\hspace{2\\mathrm{cm}}` → `\\hspace{2cm}`（去掉长度里的 `\\mathrm` 壳）。"""
+    return _RE_HSPACE_MATH_UNIT.sub(
+        lambda m: BS + "hspace{" + m.group(1) + m.group(2) + "}", text)
 
 # ── ③f `$$` 块内**内容行以 `: ` 开头**（pandoc 定义列表干扰）──────────────
 # 机制（2026-09-21 实测）：pandoc 把**以 `: ` 开头**的行当**定义列表标记** ⇒ 整个 `$$` 块
@@ -439,5 +464,7 @@ def sanitize(text: str) -> str:
     text = fix_html_entities_in_math(text)
     text = fix_dollar_digit(text)
     text = fix_dollar_block_leading_colon(text)
+    text = fix_cdot_glued(text)          # `\cdotL` → `\cdot L`（`\cdots` 有边界保护）
+    text = fix_hspace_math_unit(text)    # `\hspace{2\mathrm{cm}}` → `\hspace{2cm}`
     text = fix_tab_pollution(text)
     return text
