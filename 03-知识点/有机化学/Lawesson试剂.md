@@ -70,7 +70,7 @@ $$
 LR 分子核心是 **P₂S₂ 四元环**（一个 P–S–P–S 环），两个 P 各带一个 4-甲氧苯基（Ar）和一个 P=S 端硫。式为 **(ArP(=S)S)₂**，环式：
 
 $$
-\underset{\Large{Ar}}{\ce{S=}}\ce{P}\overset{\Large{S}}{\underset{\Large{S}}{\ce{<}}}\ce{P}\underset{\Large{Ar}}{\ce{=S}}
+\underset{{Ar}}{\ce{S=}}\ce{P}\overset{{S}}{\underset{{S}}{\ce{<}}}\ce{P}\underset{{Ar}}{\ce{=S}}
 $$
 
 > 4-甲氧苯基（Ar = $p$-MeOC₆H₄）的作用：稳定开环后的 ArP=S 单体，使反应活性可控。

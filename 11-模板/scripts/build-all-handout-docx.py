@@ -1346,7 +1346,15 @@ def _preprocess_ce_in_math(text: str) -> str:
             body = m_body.strip()
             if not body:
                 return ''
-            if body.startswith(r'\text{') and body.endswith('}'):
+            # ① 标注里嵌了 `$…$`（mhchem 允许 `->[$k_2$]`）：`\xrightarrow{}` 的参数
+            #    本身已在数学模式，再留 `$` 就是**嵌套数学** → texmath 报
+            #    `unexpected '$'`，整条式子渲染失败。剥掉外层 `$` 即可。
+            if len(body) > 2 and body.startswith('$') and body.endswith('$'):
+                body = body[1:-1].strip() or body
+            # ② 标注里**已经含** `\text{…}`（如 `\Delta\,\text{或}\,h\nu,\,\text{苯/二甲苯}`）
+            #    → 绝不能再包一层：`\text{…\text{…}}` 是 texmath 明确拒收的嵌套。
+            #    （原判据只认「整段就是一个 \text{…}」，漏掉了「\text 夹在中间」的形态。）
+            if _re.search(r'\\text\{', body):
                 return body
             if _re.search(r'[一-鿿]', body):
                 return r'\text{' + body + '}'
@@ -1684,6 +1692,19 @@ _strip_mineru_div = _MD_SAN.strip_mineru_div
 
 
 def _preprocess_markdown(text: str) -> str:
+    """包装：先跑原预处理，再给「紧贴上一行的 ATX 标题」补空行。
+
+    源 md（`build_module_book.py` / `build_exam_paper.py` 等的产物）偶有
+    `### 10.2` 紧跟上一行而无空行的情况。CommonMark 系解析器不会把这种行
+    识别为标题，而是当普通文本续在上一段末尾 —— 结果 Word 卷面直接印出
+    字面 `### 10.2`（实测全库 384 处 / 24 份，集中在习题书族）。
+    此处统一补一个空行（最小侵入：只插空行，不改任何文字）。
+    """
+    text = _preprocess_markdown_inner(text)
+    return re.sub(r"(?<=\S)\n(?=#{2,6}\s)", "\n\n", text)
+
+
+def _preprocess_markdown_inner(text: str) -> str:
     """Full markdown preprocessing for pandoc compatibility.
 
     1. Convert Obsidian-style image embeds ![[...]] to ![](...)
