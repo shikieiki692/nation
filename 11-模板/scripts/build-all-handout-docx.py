@@ -1293,17 +1293,24 @@ def _preprocess_ce_in_math(text: str) -> str:
         import re as _re
 
         _CMD_RE = _re.compile(r'\\[a-zA-Z]+')
+        _SUBG_RE = _re.compile(r'_\{[^{}]*\}')      # 已成组的显式下标 `_{…}`
 
         def _mask_cmds(s):
-            """给「字母+数字 → 下标」规则**掩掉 LaTeX 命令**，只保留命令外的字母。
+            """掩掉 LaTeX 命令与**已成组的显式下标**，再套「字母+数字 → 下标」。
 
-            反例（必须避免）：`\\cdot5H2O` —— 若直接套 `([A-Za-z])(\\d)`，
-            命令尾字母 `t` + `5` 会被命中，产出 `\\cdot_{5}H2O`（把系数下标到命令上）。
-            做法：按命令切分，只对**非命令片段**套规则，再原样拼回。
-            实测全库「命令紧接数字」形态 = 0 处（见工单），故本掩码不改变任何既有输出，
-            纯属防复发。
+            两个必须挡掉的反例：
+              ① `\\cdot5H2O` —— 命令尾字母 `t` 撞上 `5` ⇒ 会产出 `\\cdot_{5}H2O`
+                 （把系数下标到命令上）。
+              ② `S_N2` —— `_` 规范化成 `_{N}` 后，`}` 会被当锚点、`2` 被误下标
+                 ⇒ `S_{N}_{2}`；但 `S_N2` 的 `2` 是**全尺寸**的（反应类型记法）。
+                 全库 `_{…}` 后接数字共 7 处（`S_N2`/`S_N1` 型 + 同位素）。
+                 ⚠️ **只掩码 `_{…}`，不掩码 `^{…}`** —— 同位素 `^{288}115` 的 `115`
+                 **要**下标（应成 `^{288}_{115}`），掩了反而回退。
+            做法：按命令/下标组切分，只对**其余片段**套规则，再原样拼回。
             """
-            cmds = _CMD_RE.findall(s)
+            subg = _SUBG_RE.findall(s)
+            s2 = _SUBG_RE.sub(lambda m: "\x02" * len(m.group(0)), s) if subg else s
+            cmds = _CMD_RE.findall(s2)
             if not cmds:
                 # ⚠️ 没有命令时**也必须套规则** —— 早期写成 `return s` 就直接漏掉了
                 #    「字母+数字 → 下标」这一步，导致 `PCl3`/`2H2O`/`H2O` 全丢下标
@@ -1311,13 +1318,16 @@ def _preprocess_ce_in_math(text: str) -> str:
                 # 数字用 `\d+`（**贪婪取整串**）：`C6H12O6` 必须成 `H_{12}`，
                 # 早期写成 `\d` 只吃第一位 → `H_{1}2`（全库 36 处，如 C10H8、P4O10、
                 # C21H53NO10；同族还有 `^{288}115` 这类同位素记号）。
-                return _re.sub(r'([A-Za-z\)}])(\d+)', r'\1_{\2}', s)
-            parts = _CMD_RE.split(s)
-            for i in range(len(parts)):
-                parts[i] = _re.sub(r'([A-Za-z\)}])(\d+)', r'\1_{\2}', parts[i])
-            out = parts[0]
-            for i, c in enumerate(cmds):
-                out += c + parts[i + 1]
+                out = _re.sub(r'([A-Za-z\)}])(\d+)', r'\1_{\2}', s2)
+            else:
+                parts = _CMD_RE.split(s2)
+                for i in range(len(parts)):
+                    parts[i] = _re.sub(r'([A-Za-z\)}])(\d+)', r'\1_{\2}', parts[i])
+                out = parts[0]
+                for i, c in enumerate(cmds):
+                    out += c + parts[i + 1]
+            for g in subg:                       # 还原显式下标组（左→右，同序）
+                out = out.replace("\x02" * len(g), g, 1)
             return out
 
         # Already fully specified with ^ or _ — normalize bare markers **and still
@@ -1418,9 +1428,16 @@ def _preprocess_ce_in_math(text: str) -> str:
                 return r'\text{' + body + '}'
             if body.startswith('\\'):
                 return body
-            if _re.fullmatch(r'[A-Za-z0-9+\-.\s]+', body):
-                return _parse_species(body)
-            return body
+            # 统一走 `_parse_species`：它只做「脚本规范化 + 裸数字补下标 + 裸电荷并组」，
+            # 标点（`/` `,` `(` `)` `℃` …）原样穿过，故对任意标点都安全。
+            # 🔴 2026-09-21 修：此前只在 body 恰好命中 `[A-Za-z0-9+\-.\s]+`（**无标点**）
+            #    时才走 `_parse_species`，其余一律**原样返回** ⇒ 凡带标点的标注全丢下标：
+            #    `->[Zn/H2O]`→`Zn/H2O`、`->[H2O2, NaOH]`、`->[Pd(0)/Et3N]`、
+            #    `->[1) Hg(OOCCH3)_2, H_2O]`、`->[NH2NH2,\,KOH]`。
+            #    全库 370 个标注中 **129 个含「字母+数字」**，其中约 120 个属此类
+            #    （另 9 个含中文，走上面的 `\text{}` 分支，属另一口径，见工单）。
+            #    本改动是**单调**的：只在缺失处插入 `_{…}`，不改变包裹方式。
+            return _parse_species(body)
 
         # Replace arrows (longest first to avoid partial matches)
         # <-[text] and ->[text] with conditions

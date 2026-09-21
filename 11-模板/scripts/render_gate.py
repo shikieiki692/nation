@@ -249,6 +249,85 @@ def gate_obsidian(text: str):
     return probs
 
 
+# ── B 栏附加签名：`\ce{}`「渲染不变量」（2026-09-21 新增）────────────────────
+# 为什么需要它：A 栏只断言「公式**渲染出来了**」，但**渲染出来也可能不对** ——
+# 下标丢了、分隔符被抬成 `^{+}`。实测：全库 455 处「带电物种丢下标」、36 处「多位数
+# 下标只吃一位」、128 处「分隔符被当成物种」，**三者 A 栏全绿、B 栏原签名也全绿**，
+# 靠临时「换维度」才发现。故补一条**源码级**不变量（不依赖渲染结果）：
+#   C1 深度 0 的 ASCII「字母+数字串」必须在产物里成 `_{数字串}`；
+#   C2 源码里的 ` + ` / ` - ` 在产物里必须仍是 ` + ` / ` - `（不得变 `^{+}`/`^{-}`）。
+# 与管线同口径的两处豁免：
+#   ① `_{…}` 已成组的显式下标**之后**的数字不要求下标 —— `S_N2` 的 `2` 是全尺寸
+#      （反应类型记法），管线也按此豁免；同位素 `^{288}115` 的 `115` 则**要**下标。
+#   ② 箭头标注里含中文的走 `\text{}`（另一口径，待定），本签名不计。
+# 判据只走**主体**，故在本库当前为 0 违例 —— 新增违例即代表新缺陷。
+RE_CE_START = re.compile(re.escape(BS + "ce{"))
+RE_CE_LABEL = re.compile(r"(?:->|<-)\[([^\]]*)\]")
+_RE_SUBG = re.compile(r"_\{[^{}]*\}|_[A-Za-z0-9]")   # 显式下标标记（`_{…}` 或裸 `_x`）
+
+
+def _ce_d0_letter_digits(s: str):
+    """取深度 0 的 ASCII「字母+数字串」；跳过 LaTeX 命令尾与 `_{…}` 之后的位置。"""
+    out = []
+    depth = 0
+    k = 0
+    while k < len(s):
+        ch = s[k]
+        if ch == BS and k + 1 < len(s) and s[k + 1].isascii() and s[k + 1].isalpha():
+            k += 1                       # ⚠️ 必须先跳过反斜杠本身（它不是字母），
+            while k < len(s) and s[k].isascii() and s[k].isalpha():
+                k += 1                   #    否则内层 while 一步不走 ⇒ **死循环**。
+            continue                     #    （2026-09-21 实测：漏了这句，闸门在
+                                         #     含 `\cmd` 的 `\ce{}` 上直接挂死）
+        if ch == "{":
+            depth += 1
+        elif ch == "}":
+            depth = max(0, depth - 1)
+        elif depth == 0 and ch.isascii() and ch.isalpha():
+            m = re.match(r"(\d+)", s[k + 1:])
+            if m:
+                out.append(m.group(1))
+                k += 1 + len(m.group(1))
+                continue
+        k += 1
+    return out
+
+
+def ce_invariant_violations(bh, text: str) -> int:
+    """统计 `\\ce{}` **主体**的渲染不变量违例数（源码级，不依赖渲染）。"""
+    fn = getattr(bh, "_preprocess_ce_in_math", None)
+    if fn is None:
+        return 0
+    n = 0
+    i = 0
+    while True:
+        m = RE_CE_START.search(text, i)
+        if not m:
+            return n
+        j = m.end()
+        depth = 1
+        while j < len(text) and depth > 0:
+            if text[j] == "{":
+                depth += 1
+            elif text[j] == "}":
+                depth -= 1
+            j += 1
+        if depth:
+            return n
+        inner, whole = text[m.end():j - 1], text[m.start():j]
+        out = fn(whole)
+        body = RE_CE_LABEL.sub(" ", inner)                 # 去掉箭头标注
+        body = _RE_SUBG.sub(lambda x: "\x02" * len(x.group(0)), body) if _RE_SUBG.search(body) else body
+        for dg in _ce_d0_letter_digits(body):
+            if ("_{" + dg + "}") not in out:
+                n += 1
+        for sep in (" + ", " - "):
+            if body.count(sep) != out.count(sep):
+                n += 1
+        # 进度护栏：万一将来 `j` 没前进，宁可漏检也**绝不挂死闸门**（曾因死循环挂死一次）。
+        i = j if j > i else i + 1
+
+
 def git_head_text(rel: str):
     r = subprocess.run(["git", "show", "HEAD:./" + rel], capture_output=True, cwd=VAULT)
     return r.stdout.decode("utf-8", "replace") if r.returncode == 0 else None
@@ -278,7 +357,12 @@ def collect(args):
 def metrics(bh, text: str):
     """返回 (转换失败数, 产物字面$数, oMath数, 摘要, {B栏签名: 计数})。"""
     nfail, n_lit, n_om, snip = gate_docx(bh, text)
-    return nfail, n_lit, n_om, snip, dict(gate_obsidian(text))
+    probs = dict(gate_obsidian(text))
+    # `\ce{}` 渲染不变量：A 栏查「渲染出来没有」，这一条查「渲染出来**对不对**」。
+    n_ce = ce_invariant_violations(bh, text)
+    if n_ce:
+        probs["ce{} 渲染不变量违例（数字丢下标 / 分隔符被抬）"] = n_ce
+    return nfail, n_lit, n_om, snip, probs
 
 
 def main() -> int:
