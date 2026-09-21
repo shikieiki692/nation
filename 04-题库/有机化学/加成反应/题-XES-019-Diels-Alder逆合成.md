@@ -9,6 +9,7 @@ difficulty: 3
 teaching_level: 巩固
 knowledge_points: ["[[Diels-Alder反应]]", "[[逆合成分析]]"]
 status: 已填充
+answer_status: 待补
 tags: [化竞, 有机化学, 学而思]
 created: 2026-08-27
 updated: 2026-08-27
@@ -31,8 +32,6 @@ source_norm: "自编·有机化学"
 
 ## 题目
 
-> 📌 *本题原含 4 张学而思讲义图片，源文件图片未导入 vault*
-
 习题 15. 你如何使用 Diels-Alder 反应来制备下列产物？画出每种情况中起始的双烯和亲双烯体。
 
 (a)
@@ -41,11 +40,7 @@ source_norm: "自编·有机化学"
 
 (c)
 
-<details>
-<summary>chemical</summary>
-
-Molecular structure of a fused bicyclic compound with two carbonyl groups and stereochemistry indicated by wedges and dashes
-</details>
+![[5af971a5a4f31ab13ef780f372343ccb32951baaaf27c32aadf4c6ff43459c36.jpg]]
 
 (d)
 
@@ -53,6 +48,6 @@ Molecular structure of a fused bicyclic compound with two carbonyl groups and st
 
 ## 参考答案
 
-（略，见源文件解析）
+（源讲义为学生版、无解析节，待补答案；题干完整可作答）
 
 ---

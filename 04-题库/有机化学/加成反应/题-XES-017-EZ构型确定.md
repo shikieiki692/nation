@@ -9,6 +9,7 @@ difficulty: 2
 teaching_level: 基础
 knowledge_points: ["[[顺反异构]]", "[[Cahn-Ingold-Prelog规则]]"]
 status: 已填充
+answer_status: 待补
 tags: [化竞, 有机化学, 学而思]
 created: 2026-08-27
 updated: 2026-08-27
@@ -31,38 +32,20 @@ source_norm: "自编·有机化学"
 
 ## 题目
 
-> 📌 *本题原含 4 张学而思讲义图片，源文件图片未导入 vault*
-
 习题 6. 确定下列烯烃的构型是 E 还是 Z:
 
-<details>
-<summary>chemical</summary>
+![[c476e8173ed1cc8c7bf1a9a5f068d0f509d8d4c6f4a40bed6ccb98867669de43.jpg]]
 
-Chemical structure of a chlorinated alkene with hydroxyl and methyl substituents
-</details>
+![[14cf869b7397a1f6232bbebd962eb2aa0a8c94705151cefd06fcdd1319d0054a.jpg]]
 
-<details>
-<summary>chemical</summary>
+![[12782796ba7bfb40a3f7616a4a2791555b30768a807f131c99029cf689fb95dd.jpg]]
 
-Chemical structure of a dichloroalkane compound with ethyl and methyl substituents
-</details>
-
-<details>
-<summary>chemical</summary>
-
-Chemical structure of a substituted cyclohexane derivative with methyl, carboxyl, and hydroxy groups
-</details>
-
-<details>
-<summary>chemical</summary>
-
-Chemical structure of a tertiary amine with cyano and amino substituents
-</details>
+![[a02cb8a325fdd0567eb726d72a07a2ef65af92a141d921d2b5082fc9cb41a3cd.jpg]]
 
 ---
 
 ## 参考答案
 
-（略，见源文件解析）
+（源讲义为学生版、无解析节，待补答案；题干完整可作答）
 
 ---

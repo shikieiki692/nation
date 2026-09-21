@@ -32,15 +32,9 @@ source_norm: "自编·有机化学"
 
 ## 题目
 
-> 📌 *本题原含 1 张学而思讲义图片，源文件图片未导入 vault*
-
 习题 8. 用 HBr 处理时，乙烯基环己烷发生加成并重排生成 1-乙基-1-溴环己烷。使用弯箭头提出符合该结果的机理。
 
-<details>
-<summary>chemical</summary>
-
-Chemical reaction showing bromination of cyclohexene to form a brominated cyclohexane derivative
-</details>
+![[b65b1db06420151fa2a3a4e519523b9d873605ab81e4963b01f0008dd8d2cc3f.jpg]]
 
 ---
 

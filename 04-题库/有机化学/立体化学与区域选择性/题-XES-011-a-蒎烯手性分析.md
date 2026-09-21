@@ -32,15 +32,9 @@ source_norm: "自编·有机化学"
 
 ## 题目
 
-> 📌 *本题原含 1 张学而思讲义图片，源文件图片未导入 vault*
-
 习题 10. $\alpha$ -蒎烯具有下列的结构，它们的分子中有几个不对称碳原子？有几个光活性异构体存在？写出这些光活性异构体的结构式（或构象式），并标明手性碳原子的构型。
 
-<details>
-<summary>natural_image</summary>
-
-Simple line drawing of a 3D cube with vertical and horizontal lines, no text or symbols present.
-</details>
+![[4f8d5d0fc443bae9dafe168126f590f652a4494a7b9b529559d0d1be2981aabd.jpg]]
 
 ---
 

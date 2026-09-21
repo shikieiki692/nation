@@ -32,15 +32,9 @@ source_norm: "自编·有机化学"
 
 ## 题目
 
-> 📌 *本题原含 1 张学而思讲义图片，源文件图片未导入 vault*
-
 习题 18. $\mathrm{S_N2}$ 反应伴随着构型翻转而发生， $\mathrm{S_N1}$ 反应伴随着消旋化发生。然而下列反应以完全的构型保持而发生。提出机理。
 
-<details>
-<summary>chemical</summary>
-
-Chemical reaction equation showing bromoalkane hydrolysis with sodium bicarbonate and water to form a cyclic alcohol
-</details>
+![[6d85612639404fe557e4081346b1d644be16dd9452bc1798637a66e0c9e68956.jpg]]
 
 ---
 

@@ -32,31 +32,21 @@ source_norm: "自编·有机化学"
 
 ## 题目
 
-> 📌 *本题原含 2 张学而思讲义图片，源文件图片未导入 vault*
-
 习题 9. 预测下列取代反应可能是 $S_{N}1$ 还是 $S_{N}2$ :
 
 (a)
 
-<details>
-<summary>chemical</summary>
-
-Chemical reaction equation showing chlorination of cyclohexanol under acidic conditions
-</details>
+![[a9150999361afb334b8b6e6d8059cfdbcbc25dda23669423d3b20dca59985b90.jpg]]
 
 (b)
 
-<details>
-<summary>chemical</summary>
-
-Chemical reaction equation showing conversion of 2-butadiene to 1,3-dicarboxylic acid using sodium dichloride and formaldehyde
-</details>
+![[188361d4522dfff756f84041a4fb273adabad45babb6cef8fd2d460c86a54166.jpg]]
 
 ---
 
 ## 参考答案
 
-> ⚠️ 本题原含结构式图片（未导入 vault）。以下答案依据图中文字描述的反应条件给出判断，具体结构以原书图片为准。
+> ℹ️ 注：以下答案为通用判断准则（源讲义答案区概述），具体化合物请对照题图核验。
 
 **判断原则**：
 
