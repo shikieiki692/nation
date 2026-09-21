@@ -74,7 +74,7 @@ $$\ce{(RO)2P(O)CH2R' + Base -> (RO)2P(O)CH^-R' + R''CHO -> R''CH=CHR' + (RO)2P(O
 |:---|:---|:---|:---:|
 | **稳定化 HWE 试剂** | $\ce{(RO)2P(O)CH2-CO2R''}$ | 吸电子基（CO₂R, CN, COR, SO₂R）| 高 |
 | **非稳定化 HWE 试剂** | $\ce{(RO)2P(O)CH2R}$ | 烷基、芳基 | 较低 |
-| **Still-Gennari 改良** | $\ce{(CF3CH2O)2P(O)CH2-CO2R}}$ | 吸电子基 + 三氟乙基 | 高 |
+| **Still-Gennari 改良** | $\ce{(CF3CH2O)2P(O)CH2-CO2R}$ | 吸电子基 + 三氟乙基 | 高 |
 
 **制备方法**：
 1. **Arbuzov 反应**：亚磷酸三酯 + 卤代烷 $\xrightarrow{\Delta}$ 膦酸酯
