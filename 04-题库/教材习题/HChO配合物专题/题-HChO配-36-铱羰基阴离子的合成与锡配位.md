@@ -50,9 +50,13 @@ Na₃[Ir(CO)₃] + Et₄N⁺Cl⁻ + 2Ph₃SnCl = Et₄N[Ir(CO)₃(SnPh₃)₂] +
 
 Y 的结构（3 分）：
 
-`bdwp资源/03配合物总结_images/27d7449c55b9e1a3cd15f31eda3711796c1076d618a1f623ee64900f2289b492.jpg`，待媒体仓库入库后补链。
+![[27d7449c55b9e1a3cd15f31eda3711796c1076d618a1f623ee64900f2289b492.jpg]]。
 
 判分注记：漏写阳离子扣 0.5 分，漏写电荷不得分；参考图形若写成 [Ir(SnPh₃)₄]Cl 不得分。
+
+![[a4791f894dd430099481537ccbec44c1c66c6660df034b8ad9cacb9789a967f5.jpg]]
+
+![[3d9728711ff7aaedede1f272117041409ddcc4095d091278a76e6cbc2ec3fef1.jpg]]
 
 ## 解析要点
 

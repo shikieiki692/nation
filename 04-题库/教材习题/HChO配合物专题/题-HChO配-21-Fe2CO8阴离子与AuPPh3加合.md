@@ -48,7 +48,7 @@ M₁/(M₂ + 2×130.25 g·mol⁻¹) = 18.73%；M₁/(M₂ + 130.25 g·mol⁻¹ +
 
 6-2 结构图（[Fe₂(CO)₈]²⁻ 与 [Fe₂(CO)₈(AuPPh₃)]⁻，Fe(CO)₄ 单元以 Fe–Fe 键相连；AuPPh₃ 加合后 Fe 为 7 配位）：
 
-`bdwp资源/03配合物总结_images/57de50de311e28862aeb1e313275650ff29dd26bdf32b9065ccc5ce519d61627.jpg`、`bdwp资源/03配合物总结_images/f42bba3749aff0e97eba97e79d421ec54540f9f624e7e0140940594447849837.jpg`，待媒体仓库入库后补链。
+![[57de50de311e28862aeb1e313275650ff29dd26bdf32b9065ccc5ce519d61627.jpg]]、![[f42bba3749aff0e97eba97e79d421ec54540f9f624e7e0140940594447849837.jpg]]。
 
 ## 解析要点
 

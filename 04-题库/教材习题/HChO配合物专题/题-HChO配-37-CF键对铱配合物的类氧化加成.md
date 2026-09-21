@@ -28,7 +28,9 @@ source_category: 竞赛导向·竞赛教辅
 
 6-1 由于较大的极性，长期以来 C-F 键对氧化加成显惰性。2011 年，《Science》杂志刊登了 C-F 键对铱配合物的"类氧化加成"，引起了很大轰动。反应中，NBE 为降冰片烯。
 
-（反应式：`bdwp资源/03配合物总结_images/6bb1432c2cbb2065e281a383d509021813bacd493c9ac920afcac90448b5fe6c.jpg`，待媒体仓库入库后补链）
+![[8f2095a7aeb37aa721150b9cf69148d32c694a34f0b8ee66362570a2958d9614.jpg]]
+
+（反应式：![[6bb1432c2cbb2065e281a383d509021813bacd493c9ac920afcac90448b5fe6c.jpg]]）
 
 6-1-1 采用题中的简写方式，画出中间体 X 和 Y 的结构简式。
 
@@ -36,15 +38,17 @@ source_category: 竞赛导向·竞赛教辅
 
 6-2 指出化合物 M 中 Pt 的周围电子数和 N 中 Pt 的氧化态。
 
-（M、N 的结构：`bdwp资源/03配合物总结_images/8b4da6d2651b22c60e2caab33718eed6a61c9a990425d5ea4e3d8e3dd091cdfd.jpg`，待媒体仓库入库后补链）
+![[151646edf261827e476d6ada63d81358445a839406f7934bcfeba25ce1f50993.jpg]]
+
+（M、N 的结构：![[8b4da6d2651b22c60e2caab33718eed6a61c9a990425d5ea4e3d8e3dd091cdfd.jpg]]）
 
 ## 解答
 
 6-1-1 中间体 X、Y 的结构简式：
 
-X：`bdwp资源/03配合物总结_images/55681fe64a495cf755d2100ed6bc912a3f6cfaa162cd48b6326b2a5d55fe86c9.jpg`，待媒体仓库入库后补链。
+X：![[55681fe64a495cf755d2100ed6bc912a3f6cfaa162cd48b6326b2a5d55fe86c9.jpg]]。
 
-Y：`bdwp资源/03配合物总结_images/2adfcf7367f3eaf64151173ba57060f19524b9951addd6449519ec3c57f86b6b.jpg`，待媒体仓库入库后补链。
+Y：![[2adfcf7367f3eaf64151173ba57060f19524b9951addd6449519ec3c57f86b6b.jpg]]。
 
 6-1-2 Z = L₃Ir=CF₂
 

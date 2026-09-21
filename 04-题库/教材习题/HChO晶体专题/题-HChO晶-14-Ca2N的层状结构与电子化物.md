@@ -28,7 +28,7 @@ source_category: 竞赛导向·竞赛教辅
 
 Ca₂N 是一种非常特殊的晶体，很早之前晶体学家便测得了它具有 Ca₂N 层状结构。其中，Ca-N-Ca 呈 A、b、C 三个密堆积层，密堆积层之间为空层（用 □ 表示）。
 
-`bdwp资源/06晶体总结_images/df8a65045bf5e1830a87f0ef1a2c015b940146254e8cebd6c5e9f055e811db23.jpg`，待媒体仓库入库后补链。
+![[df8a65045bf5e1830a87f0ef1a2c015b940146254e8cebd6c5e9f055e811db23.jpg]]。
 
 5-1 按照右图中的结构，从上到下补全 Ca 原子和 N 原子的堆积方式：…bC□____…
 
@@ -40,7 +40,11 @@ Ca₂N 是一种非常特殊的晶体，很早之前晶体学家便测得了它�
 
 5-5 类似地，在下图六方 Sr₃CrN₃ 中也发现了这样的特殊结构。实际测得 Sr₃CrN₃ 中 Cr 的氧化态为 +4，描述其结构特点并预测其导电能力。
 
-`bdwp资源/06晶体总结_images/c4ccee354a9f94e3a65acff072be78b90fc263476d726e569a27c4a421a08f72.jpg`，待媒体仓库入库后补链。
+![[d066d8dd16f9132c5e738d04bd18e1eabe4df3eedae3bdd9dee613f7b4ea2384.jpg]]
+
+![[e2f8a51f69f620789cb92f1f516e1cec69a6f076c39212ff46d0b626bbd46432.jpg]]
+
+![[c4ccee354a9f94e3a65acff072be78b90fc263476d726e569a27c4a421a08f72.jpg]]。
 
 ## 解答
 

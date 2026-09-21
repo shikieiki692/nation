@@ -36,15 +36,15 @@ source_category: 竞赛导向·竞赛教辅
 
 3-1 X 的全部可能结构（5 分，答出任意一个即得 2 分，剩余三个每个 1 分）：
 
-`bdwp资源/03配合物总结_images/4d6ef944e2dcac24bb69f0a0635e31fdba2eb424d833d3aa2c870bf47f94b4dc.jpg`
+![[4d6ef944e2dcac24bb69f0a0635e31fdba2eb424d833d3aa2c870bf47f94b4dc.jpg]]
 
-`bdwp资源/03配合物总结_images/c8845ea1cc152be1f4e146bd7977e2d1fe3de56fcbf93b236303e68dd954cb37.jpg`
+![[c8845ea1cc152be1f4e146bd7977e2d1fe3de56fcbf93b236303e68dd954cb37.jpg]]
 
-`bdwp资源/03配合物总结_images/36f4140202c9f17a5b7de0237fa008f2a642b54fbf207eedb51a59b923ba9ecb.jpg`
+![[36f4140202c9f17a5b7de0237fa008f2a642b54fbf207eedb51a59b923ba9ecb.jpg]]
 
-`bdwp资源/03配合物总结_images/cde815d547c6e173f13a9e302ec662dcd426433cbcf7b73187cbfb7cac71694a.jpg`
+![[cde815d547c6e173f13a9e302ec662dcd426433cbcf7b73187cbfb7cac71694a.jpg]]
 
-`bdwp资源/03配合物总结_images/53991b7fce2141e42986a226c469424303904db5bc17871963b4be4996752702.jpg`
+![[53991b7fce2141e42986a226c469424303904db5bc17871963b4be4996752702.jpg]]
 
 以上图片待媒体仓库入库后补链。
 
@@ -64,7 +64,7 @@ source_category: 竞赛导向·竞赛教辅
 
 结构（5 分）：
 
-`bdwp资源/03配合物总结_images/c8e78fb7c262b8ee32f535cf93e26650ba0734325a5bb1b0310a8c711905edfe.jpg`，待媒体仓库入库后补链。
+![[c8e78fb7c262b8ee32f535cf93e26650ba0734325a5bb1b0310a8c711905edfe.jpg]]。
 
 ## 解析要点
 

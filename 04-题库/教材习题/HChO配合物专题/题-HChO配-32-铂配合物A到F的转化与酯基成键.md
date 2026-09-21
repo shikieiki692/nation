@@ -36,18 +36,18 @@ source_category: 竞赛导向·竞赛教辅
 
 7-1 A~F 的结构式（阳离子络合物只画阳离子）：
 
-- A（2 分）：`bdwp资源/03配合物总结_images/b6852a6477b217ae81f9bee51cbf8285ae438ba51ab77e3fc470e4e7557a70e5.jpg`
-- B（0.5 分）：`bdwp资源/03配合物总结_images/4e3d8f02718b212a974d343d77c1cf7a9a1d16225e9846bf02a91692cf7ecd5c.jpg`
-- C（1 分）：`bdwp资源/03配合物总结_images/dbf97e8dfb2534770e209e48adb332b5c3688e96ebc6b5e3f1f34cc9e7a83918.jpg`
-- D（1 分）：`bdwp资源/03配合物总结_images/1af825fabd812d0563331c8fceff56485dd086de9ae73f4920c8b2e8dbc3518a.jpg`
-- E（1.5 分）：`bdwp资源/03配合物总结_images/89d759e80bd815ceeb3ccb16bc03b26d5b88cb5334aa35437a2a1466561045c7.jpg`
-- F（1 分）：`bdwp资源/03配合物总结_images/45cc4cb91b70d5994f2b0f8b662902eea5726d16dc08def3ae883d1a14b11f68.jpg`
+- A（2 分）：![[b6852a6477b217ae81f9bee51cbf8285ae438ba51ab77e3fc470e4e7557a70e5.jpg]]
+- B（0.5 分）：![[4e3d8f02718b212a974d343d77c1cf7a9a1d16225e9846bf02a91692cf7ecd5c.jpg]]
+- C（1 分）：![[dbf97e8dfb2534770e209e48adb332b5c3688e96ebc6b5e3f1f34cc9e7a83918.jpg]]
+- D（1 分）：![[1af825fabd812d0563331c8fceff56485dd086de9ae73f4920c8b2e8dbc3518a.jpg]]
+- E（1.5 分）：![[89d759e80bd815ceeb3ccb16bc03b26d5b88cb5334aa35437a2a1466561045c7.jpg]]
+- F（1 分）：![[45cc4cb91b70d5994f2b0f8b662902eea5726d16dc08def3ae883d1a14b11f68.jpg]]
 
 以上图片待媒体仓库入库后补链。
 
 7-2 C 到 D 的反应机理（2 分，要求标明电子流向）：
 
-`bdwp资源/03配合物总结_images/b39a406528fa2e83eaca24fc11c5f4839d817a82407858ed378d83b065708816.jpg`，待媒体仓库入库后补链。
+![[b39a406528fa2e83eaca24fc11c5f4839d817a82407858ed378d83b065708816.jpg]]。
 
 ## 解析要点
 

@@ -28,7 +28,7 @@ source_category: 竞赛导向·竞赛教辅
 
 4-2 在对金属配位后，一氧化碳的亲电性得到了一定的增强。W(CO)₆ 即可以与苯基锂发生
 
-`bdwp资源/03配合物总结_images/b80c792de676a3b41c73d09becbb96faffaabdb42b0a8a402ce91d80bad498eb.jpg`，待媒体仓库入库后补链。
+![[b80c792de676a3b41c73d09becbb96faffaabdb42b0a8a402ce91d80bad498eb.jpg]]。
 
 > 说明：讲义 OCR 将本句的句尾「变化？」排在插图之后（见下行），此处照录原序，不擅改语序。
 
@@ -44,11 +44,11 @@ source_category: 竞赛导向·竞赛教辅
 
 4-2-2 生成的中性分子结构（2 分）：
 
-`bdwp资源/03配合物总结_images/bb7302dc6d2ac6d61c324e24f4c7a8bcf7afc16ca28f9446b0985b5b1169b471.jpg`，待媒体仓库入库后补链。
+![[bb7302dc6d2ac6d61c324e24f4c7a8bcf7afc16ca28f9446b0985b5b1169b471.jpg]]。
 
 除羰基配体外，此分子中还含有**卡宾（carbene，亚甲基/烷氧基卡宾）配体**（1 分）。画成下列 Fischer 卡宾式亦得分：
 
-`bdwp资源/03配合物总结_images/679ed4d7ecdc28c4f336dd532cca7d3b65c7424a4dd4b24907708877bfa42ede.jpg` 或 `bdwp资源/03配合物总结_images/2e6655eaca88eaea207afb0ea1a2a8b43e50f5f984c03e85971c92f499faf46f.jpg`，待媒体仓库入库后补链。
+![[679ed4d7ecdc28c4f336dd532cca7d3b65c7424a4dd4b24907708877bfa42ede.jpg]] 或 ![[2e6655eaca88eaea207afb0ea1a2a8b43e50f5f984c03e85971c92f499faf46f.jpg]]。
 
 ## 解析要点
 

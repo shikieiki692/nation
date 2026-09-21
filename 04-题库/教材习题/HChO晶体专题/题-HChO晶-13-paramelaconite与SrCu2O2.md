@@ -28,11 +28,15 @@ source_category: 竞赛导向·竞赛教辅
 
 1891 年发现的 paramelaconite 是一种特殊的 Cu 的氧化物，这种氧化物呈现美丽的青黑色。它的结构于 1978 年得到测定，该结构以 Cu 为顶点的晶胞沿 a、b、c 三个方向的投影分别如下所示：
 
-沿 a：`bdwp资源/06晶体总结_images/8cb9eabe682a8eb31b97637afd43c7cdd4531c3629f86b636e2e070126825b00.jpg`
+![[12b71d6277a52aff5c9913f73f5d7d720e0fc423170326363f9513cb41067cac.jpg]]
 
-沿 b：`bdwp资源/06晶体总结_images/c019f8fde7ced7d2c40169a21f32922f15b7c7fe19ef90042b11a1733b8327a8.jpg`
+沿 a：![[8cb9eabe682a8eb31b97637afd43c7cdd4531c3629f86b636e2e070126825b00.jpg]]
 
-沿 c：`bdwp资源/06晶体总结_images/1fe4b6128f0c34d3cb9797dadace4141191bc84b7fbdc02617b645cb06b411ff.jpg`
+![[87ba923a81b789a0b4a0d76c6581046b072c9b4fc89c96848195f39970e064b6.jpg]]
+
+沿 b：![[c019f8fde7ced7d2c40169a21f32922f15b7c7fe19ef90042b11a1733b8327a8.jpg]]
+
+沿 c：![[1fe4b6128f0c34d3cb9797dadace4141191bc84b7fbdc02617b645cb06b411ff.jpg]]
 
 （以上三图待媒体仓库入库后补链）
 
@@ -46,7 +50,11 @@ source_category: 竞赛导向·竞赛教辅
 
 4-5 SrCu₂O₂ 的结构与 paramelaconite 有些许类似。图中给出了全部 Sr 和全部 Cu 的位置以及 Cu 的 x 坐标。其中一个氧原子的坐标为 (0, 0, 1/4)，在图中标出所有 O 的位置。
 
-`bdwp资源/06晶体总结_images/0f7ea1cddbef62ac7dac5caf9ef98b78e12e1e84a3c32e02792823620f70d794.jpg`，待媒体仓库入库后补链。
+![[90188982a1674886ee9c43ffe2bb6527080714eccf13e76dcfb91849063bba93.jpg]]
+
+![[0f7ea1cddbef62ac7dac5caf9ef98b78e12e1e84a3c32e02792823620f70d794.jpg]]。
+
+![[13e4e29e93044911c9433e128b78a128cd5821f887216b6311be5357025e580f.jpg]]
 
 ## 解答
 
@@ -56,13 +64,13 @@ source_category: 竞赛导向·竞赛教辅
 
 4-3 有**两种**化学环境的氧原子，比例为 **2 : 1**（1 分）
 
-晶胞示意图：`bdwp资源/06晶体总结_images/b7a3eea590363db4a73f3e5b565ff9d4198314df136752beea07df338ec27241.jpg`，待媒体仓库入库后补链。
+晶胞示意图：![[b7a3eea590363db4a73f3e5b565ff9d4198314df136752beea07df338ec27241.jpg]]。
 
 4-4 空间点阵形式：**体心四方**（1 分）；结构基元的化学式：**Cu₈O₆**（1 分）
 
 4-5 标注全部 O 位置后的图：
 
-`bdwp资源/06晶体总结_images/62fc39eec49f172929d1f10ef3ca56cc467373ac0e97c109d26d370ff050a594.jpg`（3 分），待媒体仓库入库后补链。
+![[62fc39eec49f172929d1f10ef3ca56cc467373ac0e97c109d26d370ff050a594.jpg]]（3 分）。
 
 ## 解析要点
 

@@ -32,7 +32,9 @@ source_category: 竞赛导向·竞赛教辅
 
 2-3-2 观察此物质的晶胞（Cs 原子已省略），写出此物质的化学式。
 
-`bdwp资源/06晶体总结_images/5f5aa66135462f060986e0befd198aa7727582f5795b07b78a8c772dce1f54fe.jpg`，待媒体仓库入库后补链。
+![[5474578a52cb500c787fa963c42cf8a3b89f21a992e9db9ffa756cfba56aa8ac.jpg]]
+
+![[5f5aa66135462f060986e0befd198aa7727582f5795b07b78a8c772dce1f54fe.jpg]]。
 
 ## 解答
 

@@ -42,13 +42,13 @@ source_category: 竞赛导向·竞赛教辅
 
 9-2-1 K₂PtCl₆ 的晶体结构示意图（八面体为 PtCl₆²⁻，大球为 K⁺）：
 
-`bdwp资源/06晶体总结_images/e7af066c91bf8b643db2f6a779bb8334f32af4d850abe8d5f00b19bcad864e84.jpg`（2 分），待媒体仓库入库后补链。
+![[e7af066c91bf8b643db2f6a779bb8334f32af4d850abe8d5f00b19bcad864e84.jpg]]（2 分）。
 
 空间点阵形式：**面心立方**（1 分）；K₂PtCl₄ 属**四方晶系**（1 分）。
 
 9-2-2 (NH₄)₂SbBr₆ 的晶体结构示意图：
 
-`bdwp资源/06晶体总结_images/5f2c992394dde8107b5194ee8fbb6a9222d9d75aa799e4178d89e803f8297a4c.jpg`（3 分），待媒体仓库入库后补链。
+![[5f2c992394dde8107b5194ee8fbb6a9222d9d75aa799e4178d89e803f8297a4c.jpg]]（3 分）。
 
 原书图注：浅色八面体为 SbBr₆³⁻，浅色八面体为 SbBr₆⁻，大球为 NH₄⁺。
 

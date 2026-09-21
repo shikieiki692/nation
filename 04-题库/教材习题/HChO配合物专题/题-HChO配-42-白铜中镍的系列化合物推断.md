@@ -38,7 +38,9 @@ source_category: 竞赛导向·竞赛教辅
 
 3-3-2 如下配体与 M 形成的电中性络合物 F 不具有与 E 相同的构型，而是呈四面体构型的，简述原因。
 
-`bdwp资源/03配合物总结_images/60d34ef927a45755756889d414fdfc52fd4fc80f0531d970a0ab6dc1a1e7e719.jpg`，待媒体仓库入库后补链。
+![[55c975ce4d0f9fe5c30483905ff78e6f4b653fc547733f1f218e94e840589e3a.jpg]]
+
+![[60d34ef927a45755756889d414fdfc52fd4fc80f0531d970a0ab6dc1a1e7e719.jpg]]。
 
 3-4 在 NaOH 溶液中 A 可被 5 倍量的 CO 定量转化为化合物 G，写出 G 的化学式以及反应的方程式。
 
@@ -54,11 +56,13 @@ source_category: 竞赛导向·竞赛教辅
 
 3-3-1 E 的结构（2 分）：
 
-`bdwp资源/03配合物总结_images/0c690958bcf36fcddae41443c040d7bec7e82e9836393e53fdcae8cae87b2dd6.jpg`，待媒体仓库入库后补链。
+![[0c690958bcf36fcddae41443c040d7bec7e82e9836393e53fdcae8cae87b2dd6.jpg]]。
 
-判分注记：原子排列方式错误不得分；氢键错误或成键方式错误各自扣 1 分。下列形式也得分：`bdwp资源/03配合物总结_images/7b03ae88059ffcff988408a91371f6464fd6cba6f9c68a9656687db7ae3018dc.jpg`、`bdwp资源/03配合物总结_images/564155ac2ae7aac79e07d8e8b3259f280041af87d3cbd7d64dfd03fab615e350.jpg`；下列形式得 1 分：`bdwp资源/03配合物总结_images/0c8e51fa2e5b5d0708e5412bbcf2a294590c7f2ca7d203fb6d85b0246d43910e.jpg`。
+判分注记：原子排列方式错误不得分；氢键错误或成键方式错误各自扣 1 分。下列形式也得分：![[7b03ae88059ffcff988408a91371f6464fd6cba6f9c68a9656687db7ae3018dc.jpg]]、![[564155ac2ae7aac79e07d8e8b3259f280041af87d3cbd7d64dfd03fab615e350.jpg]]；下列形式得 1 分：![[0c8e51fa2e5b5d0708e5412bbcf2a294590c7f2ca7d203fb6d85b0246d43910e.jpg]]。
 
 3-3-2 氮原子邻位的甲基具有一定的空间位阻，导致无法形成平面四方构型。（1 分）
+
+![[677f6d30aef0bf714946f30427e2c28a28b47a061880c2e251806357be1a74b3.jpg]]
 
 3-4 G: Ni(CO)₄（1 分）
 

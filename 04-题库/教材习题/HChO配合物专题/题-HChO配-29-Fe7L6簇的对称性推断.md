@@ -38,7 +38,7 @@ source_category: 竞赛导向·竞赛教辅
 
 9-1 每个 L 对 2 个金属原子提供 4 根配位键的示意图：
 
-`bdwp资源/03配合物总结_images/b167f23665f189976c9c5447b7889ade1397900c53a8b2932c13187a08bac49b.jpg`（2 分），待媒体仓库入库后补链。
+![[b167f23665f189976c9c5447b7889ade1397900c53a8b2932c13187a08bac49b.jpg]]（2 分）。
 
 9-2 78.6% 的 Cl⁻ 未沉淀，说明 7 个 FeCl₂·4H₂O 会沉淀出 1 个 [X]Cl₃，剩余 11 个 Cl⁻，则深红色晶体中可能存在 Fe³⁺、Fe³⁺ 和高价锰、Fe³⁺ 和 Mn²⁺、Fe³⁺ 和 Fe²⁺ 和 Mn²⁺，或 Fe³⁺ 和 Fe²⁺ 等组合。
 
@@ -50,7 +50,7 @@ source_category: 竞赛导向·竞赛教辅
 
 因此化学式为 [Fe₇L₆(OCH₃)₆]Cl₃，结构为：
 
-`bdwp资源/03配合物总结_images/b31ec5fbcd0dcfd664eb41ae90ffa5cd0cc4ec8ecc3fc53f67cd8254880c1d3a.jpg`（6 分）、参考图形 `bdwp资源/03配合物总结_images/e8515d16448be06b01c4debf590df0d25ac5378b1e91dcb23fbb7050f6871c77.jpg`，待媒体仓库入库后补链。
+![[b31ec5fbcd0dcfd664eb41ae90ffa5cd0cc4ec8ecc3fc53f67cd8254880c1d3a.jpg]]（6 分）、参考图形 ![[e8515d16448be06b01c4debf590df0d25ac5378b1e91dcb23fbb7050f6871c77.jpg]]。
 
 9-3 沉淀反应方程式（3 分）：
 

@@ -46,7 +46,7 @@ source_category: 竞赛导向·竞赛教辅
 
 10-2 X 的结构示意图（3 分）：
 
-`bdwp资源/03配合物总结_images/f08e4c83bf26c9e2fe5370202f5f876a275e021bf54dc5d34ada0bbbcf667d69.jpg`，待媒体仓库入库后补链。
+![[f08e4c83bf26c9e2fe5370202f5f876a275e021bf54dc5d34ada0bbbcf667d69.jpg]]。
 
 判分注记：画成硼代苯不得分。
 

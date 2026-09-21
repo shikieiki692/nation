@@ -36,6 +36,8 @@ source_category: 竞赛导向·竞赛教辅
 
 5-3 分别画出 X 和 Y 的结构。
 
+![[201b02574f10036ca201d0a56c3999f1c6fb5b4d278ac1cb838b4fc9116c6b42.jpg]]
+
 ## 解答
 
 5-1 设 C′ 的分子量为 M（有 x 个），则氧原子的个数 y 为：
@@ -66,9 +68,9 @@ dBe(OCOCH₃)₂ = Y + e(CH₃CO)₂O
 
 5-3 X 和 Y 的结构：
 
-`bdwp资源/03配合物总结_images/e645e6e3953db761f5c437151c6fb3ebda8419ea4d0fb703299b019a07c805e9.jpg`（X，2 分）
+![[e645e6e3953db761f5c437151c6fb3ebda8419ea4d0fb703299b019a07c805e9.jpg]]（X，2 分）
 
-`bdwp资源/03配合物总结_images/d12f62d51bf14e03b4716d0f3379108abe97c64dcbcb339f5cde0c48565d89ec.jpg`（Y），待媒体仓库入库后补链。
+![[d12f62d51bf14e03b4716d0f3379108abe97c64dcbcb339f5cde0c48565d89ec.jpg]]（Y）。
 
 ## 解析要点
 

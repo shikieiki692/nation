@@ -42,15 +42,15 @@ Fe(CO)₅ + Zn(NH₃)₄Cl₂ + 3NH₃ = (NH₃)₃ZnFe(CO)₄ + CO(NH₂)₂ + 
 
 结构（2 分）：
 
-`bdwp资源/03配合物总结_images/9157f3b7d9a629b841989ca80103bd92dda41483dc2644ff6d78d293160a4f1f.jpg`，待媒体仓库入库后补链。
+![[9157f3b7d9a629b841989ca80103bd92dda41483dc2644ff6d78d293160a4f1f.jpg]]。
 
 判分注记：未能正确表示出形式电荷或配位键，扣 0.5 分；将 Zn 放置于两极扣 0.5 分。
 
 6-2 [ZnFe(CO)₄]₄ 的结构（2 分，注意 Fe 的构型）：
 
-`bdwp资源/03配合物总结_images/6d7de6474b940840d2a48d57f3fbfb66d3ef5edaa021dd1740cd34c9185f1ceb.jpg`，待媒体仓库入库后补链。
+![[6d7de6474b940840d2a48d57f3fbfb66d3ef5edaa021dd1740cd34c9185f1ceb.jpg]]。
 
-参考图形：`bdwp资源/03配合物总结_images/52d07d209a882ab86e2a1c3a8f920072d2b586477355da6c14775a26dcb8be67.jpg`，待媒体仓库入库后补链。
+参考图形：![[52d07d209a882ab86e2a1c3a8f920072d2b586477355da6c14775a26dcb8be67.jpg]]。
 
 判分注记：菱形为 Fe、圆形为 Zn、端位为 CO；未表示出 Fe 的构型扣 0.5 分。
 
@@ -58,9 +58,9 @@ CO 基团向分子的对称中心方向进行畸变。Fe-Zn 键键级远小于 F
 
 6-3 [(bpy)ZnFe(CO)₄]₂ 的结构（3 分）：
 
-`bdwp资源/03配合物总结_images/a04b100f10f8f99a2a2373283b8f5a3574f832b044ea1b19eed793e9e023835d.jpg`，待媒体仓库入库后补链。
+![[a04b100f10f8f99a2a2373283b8f5a3574f832b044ea1b19eed793e9e023835d.jpg]]。
 
-参考图形：`bdwp资源/03配合物总结_images/84abd1fd7e93f156974879133bb44748d500de5d2f056cf211051c6abd17be7a.jpg`，待媒体仓库入库后补链。
+参考图形：![[84abd1fd7e93f156974879133bb44748d500de5d2f056cf211051c6abd17be7a.jpg]]。
 
 判分注记：菱形为 Fe、圆形为 Zn、端位为 CO；以"N⌒N"代表 bpy 配体。
 

@@ -28,17 +28,23 @@ source_category: 竞赛导向·竞赛教辅
 
 四苯基卟啉（TPP），是一种人工合成的配体，对一些金属有很好的络合作用。
 
+![[5f95703b15204fe52c608c4171d0aa8826afa9d0cbd6ec976c3e7f4e3f60f105.jpg]]
+
 H₂TPP —（1) KAuCl₄, HOAc/KOAc；2) KPF₆, H₂O/CH₂Cl₂）→ AuTPP⁺PF₆⁻ —（reductant）→ AuTPP
 
 4-1 以下哪种化合物是 TPP?
 
-`bdwp资源/03配合物总结_images/4970eb28c239b14e0e779b22f51f54a44dfce0c7ea6132d7eec6a2ba4acfcb03.jpg`，待媒体仓库入库后补链。
+![[09e299bc490ffa88f62a350bd67408c7da5c3c3f92e3476bd8f709e13befae2d.jpg]]
+
+![[4970eb28c239b14e0e779b22f51f54a44dfce0c7ea6132d7eec6a2ba4acfcb03.jpg]]。
 
 4-2 指出 AuTPP⁺PF₆⁻ 中 Au 的杂化方式。
 
 4-3 如下四种还原剂中，哪一种无法用于还原 AuTPP⁺PF₆⁻ 到 AuTPP?
 
-`bdwp资源/03配合物总结_images/fc7ec1d5e87138c6d319d25d1eaa71d67ecd7d9765d38606c5df0ed897e8e578.jpg`，待媒体仓库入库后补链。
+![[c55dc5903b92a60e755e893aa2302010165aa15bcc4a5e633e31dccd0ca72918.jpg]]
+
+![[fc7ec1d5e87138c6d319d25d1eaa71d67ecd7d9765d38606c5df0ed897e8e578.jpg]]。
 
 4-4 实验事实表明，AuTPP 中其中两根 Au-N 键比另两根 Au-N 键短 7%，简述产生这一现象的原因。
 
