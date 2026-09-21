@@ -28,10 +28,12 @@ import re
 
 __all__ = ["strip_mineru_div", "fix_r_break", "fix_aa", "fix_text_nesting",
            "fix_text_inner_cmd", "fix_html_entities_in_math", "fix_dollar_digit",
-           "fix_double_backslash_cmd", "fix_tab_pollution", "sanitize"]
+           "fix_double_backslash_cmd", "fix_dollar_block_leading_colon",
+           "fix_tab_pollution", "sanitize"]
 
 BS = chr(92)
 TAB = chr(9)
+D2 = "$$"            # 显示数学定界符（ⓕ 规则用）
 
 # ── ① MinerU OCR 的行首 div 包裹块 ───────────────────────────────────────
 # CommonMark 系解析器（Obsidian）把行首 <div> 当 raw HTML block，
@@ -202,6 +204,31 @@ _RE_MATH_SPAN = re.compile(
     r"|(?<!\\)\$(?!\$)(?:\\.|[^$\n])*(?<!\\)\$"   # 行内公式
     , re.DOTALL
 )
+
+# ── ③f `$$` 块内**内容行以 `: ` 开头**（pandoc 定义列表干扰）──────────────
+# 机制（2026-09-21 实测）：pandoc 把**以 `: ` 开头**的行当**定义列表标记** ⇒ 整个 `$$` 块
+#   不被当作数学，`$$…$$` 原样落进正文（字面 `$`、oMath 0，且**不报转换失败**）。
+#   实测 `$$\n: C \equiv N: ^{-}\n$$` → 字面 `$`×4；**行首加 `{}`** 后 → 正常（`{}` 是 TeX 空组，不入渲染）。
+#   同型的还有 `: \dot{O} = \dot{O}:`、`: \mathrm{N} - …`（化学的 `:O=O:` / `:C≡N:` 记号）。
+# 实测对照：内容前加**空格**（` : …`）**无效**（仍被当定义列表）；`{}` 前缀 / `\begin{aligned}` / 同行
+#   `$$…$$` 三种均有效 —— 取**改动最小**的 `{}`。
+# ⚠️ 只处理**块内**内容行（行首为 `: `），不动散文里的定义列表。
+def fix_dollar_block_leading_colon(text: str) -> str:
+    """`$$` 块内内容行以 `: ` 开头 → 前置 `{}`，避免被当定义列表标记。"""
+    lines = text.split("\n")
+    out = []
+    inb = False
+    for ln in lines:
+        if ln.strip() == D2:
+            inb = not inb
+            out.append(ln)
+            continue
+        if inb and ln.lstrip().startswith(": "):
+            out.append("{}" + ln)
+            continue
+        out.append(ln)
+    return "\n".join(out)
+
 
 # ── ③d 闭合 `$` 紧跟 ASCII 数字（pandoc `tex_math_dollars` 的**邻接规则**）──
 # pandoc 手册：行内 `$…$` 的**闭合 `$` 右边不能紧跟数字**，否则整个 `$…$`
@@ -411,5 +438,6 @@ def sanitize(text: str) -> str:
     text = fix_text_inner_cmd(text)      # 内含 fix_text_nesting，可处理前后文/空白
     text = fix_html_entities_in_math(text)
     text = fix_dollar_digit(text)
+    text = fix_dollar_block_leading_colon(text)
     text = fix_tab_pollution(text)
     return text
