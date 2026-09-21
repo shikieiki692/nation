@@ -10,13 +10,15 @@ teaching_level: 巩固
 syllabus_codes: ["31"]
 knowledge_points: ["[[晶体结构基础]]", "[[Lewis酸碱理论]]", "[[电子效应]]", "[[碳正离子]]"]
 tags: [化竞, ABOC, 有机化学]
-updated: 2026-07-04
+updated: 2026-09-22
 source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第1章-绪论]]"
 aliases: [ABOC-Ch1-1.3.1-2-188]
 source: ABOC 第1章 自学练习（ARX's Basic Organic Chemistry 第3版）
 cross_references: ["[[04-题库/教材习题/ABOC/题-277-ABOC-Ch1-T2]]", "[[04-题库/教材习题/ABOC/题-275-ABOC-Ch1-T7]]", "[[04-题库/教材习题/ABOC/题-287-ABOC-Ch1-T8]]", "[[04-题库/教材习题/ABOC/题-185-ABOC-Ch1-1.2.2-5-HOMO主要分布在氧和β碳上面]]", "[[04-题库/教材习题/ABOC/题-265-ABOC-Ch1-T8]]"]
 module: 基础要求-有机化学
-status: 已填充
+status: deprecated
+superseded_by: "[[题-088-ABOC-Ch1-1.3.1-2-写出以下反应的电子推动]]"
+deprecation_reason: "原书「习题解析」节答案碎片，缺真实题干，与前段完整题卡 题-88 为同一题，按一题一卡收口标废（2026-09-22 题库体检 P0-3 修复）"
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
@@ -24,6 +26,8 @@ source_grade: B
 source_norm: "ABOC 有机化学"
 ---
 # 题-188：如下所示：
+
+> [!warning] 已弃用（2026-09-22）：本文件为原书「习题解析」节的答案碎片，缺真实题干，与完整题卡 [[题-088-ABOC-Ch1-1.3.1-2-写出以下反应的电子推动]] 为同一题，已按「一题一卡」收口标记 deprecated；组卷与检索请使用该完整题卡。
 
 > **来源**：ABOC 第1章 自学练习 1.3.1-2
 > **难度**：⭐⭐

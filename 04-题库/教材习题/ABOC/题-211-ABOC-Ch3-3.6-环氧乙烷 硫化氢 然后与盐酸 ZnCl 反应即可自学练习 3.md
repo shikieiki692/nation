@@ -10,14 +10,16 @@ teaching_level: 巩固
 syllabus_codes: ["33"]
 knowledge_points: ["[[烯烃]]", "[[亲电加成]]", "[[Markovnikov规则]]"]
 tags: [化竞, ABOC, 有机化学]
-updated: 2026-07-04
+updated: 2026-09-22
 source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第3章-烯烃加成]]"
 aliases: [ABOC-Ch3-3.6-2]
 source: ABOC 第3章 自学练习（ARX's Basic Organic Chemistry 第3版）
 cross_references: ["[[04-题库/教材习题/ABOC/题-109-ABOC-Ch3-3.1.1-在Clayden 教材中存在一个著名的错误]]", "[[04-题库/教材习题/ABOC/题-210-ABOC-Ch3-3.3.4-2-类似 Grob 碎裂化]]", "[[04-题库/教材习题/ABOC/题-208-ABOC-Ch3-3.2.3-这里只能反式消除 正负不要漏]]", "[[04-题库/教材习题/ABOC/题-209-ABOC-Ch3-3.3.4-1-无法形成形式上的二醇]]", "[[04-题库/教材习题/ABOC/题-207-ABOC-Ch3-3.2.2-自己看书]]"]
 module: 基础要求-有机化学
 status: deprecated
-superseded_by: "已合并入完整习题卡"
+superseded_by: ""
+deprecation_reason: "原书「习题解析」节答案碎片，题干全库缺失、前段亦无对应完整题卡（孤儿题卡）；answer_status 待补，待回 OCR 源补录（2026-09-22 题库体检 P0-3 修复）"
+answer_status: 待补
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
@@ -25,6 +27,8 @@ source_grade: B
 source_norm: "ABOC 有机化学"
 ---
 # 题-211：环氧乙烷+硫化氢，然后与盐酸+ZnCl 反应即可自学练习 3.10 羟基诱导。
+
+> [!warning] 孤儿题卡·题干缺失（2026-09-22 注记）：本文件仅存原书「习题解析」节答案碎片，题干在全库缺失，前段亦无对应完整题卡。待回 OCR 源 06-外部资料导入/学而思 有机化学基础/ 补录题干后重建。
 
 > **来源**：ABOC 第3章 自学练习 3.6
 > **难度**：⭐⭐
