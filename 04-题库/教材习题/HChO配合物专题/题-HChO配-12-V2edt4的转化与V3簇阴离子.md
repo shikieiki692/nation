@@ -30,8 +30,6 @@ source_category: 竞赛导向·竞赛教辅
 
 ![[fb6a5a9b5795b04619a19aaf9dedf76775133bc821e0817f5476c0cb6fa2ecf9.jpg]]
 
-![[ced91c456efe5f1a56bd1bc20eaf96dff89e58730096782f495f5744f8b2a95f.jpg]]
-
 **7-1** (NEt₄)₂[V₂(edt)₄] 在乙腈溶液中与吡啶、水和三甲基氯化硅反应，可以得到电中性的八面体络合物深紫色化合物 V₂OCl₄Py₆。不考虑吡啶环上的碳、氢原子的取向问题，V₂OCl₄Py₆ 系 D₂ 点群，画出其结构。
 
 **7-2** (NEt₄)₂[V₂(edt)₄] 在乙腈溶液中与 VCl₃ 以及 NEt₄Cl 反应，可以得到一种棕黑色的盐。该盐中钒的质量分数为 14.80%。阴离子中仅存在一个 V–S 八面体和两个 V–S–Cl 八面体。
@@ -51,6 +49,11 @@ source_category: 竞赛导向·竞赛教辅
 **7-2-2** $\mathrm{(NEt_4)_2[V_2(edt)_4] + 6VCl_3 + 6NEt_4Cl = 4(NEt_4)_3[V_3(edt)_3Cl_6]}$（1 分）
 
 **7-2-3** 结构：3 个 V 中 1 个 V 由 3 个 edt 的 6 个 S 配位（V–S 八面体），另 2 个 V 各由 S 与 Cl 混合配位成 V–S–Cl 八面体，三核共边/共顶点连接。（结构图：![[c7f9f6125278799499661802bdcf037a99d2d757f55b39ce51169ccbc17c32aa.jpg]] 或等价形式，3 分）
+
+![[ced91c456efe5f1a56bd1bc20eaf96dff89e58730096782f495f5744f8b2a95f.jpg]]
+![[7cd8d77496faac8284b6871ad64aee076782d23348eeecd271efbc664dbdade3.jpg]]
+![[b9a87a7a967aebd472524e55e6fab31147e871e9fb3001095026154bdf148eb1.jpg]]
+![[53603a8ae40f4980547f4d46bba9c723bf2d2cb6891ae9e456149a60094d1b34.jpg]]
 
 ## 解析要点
 

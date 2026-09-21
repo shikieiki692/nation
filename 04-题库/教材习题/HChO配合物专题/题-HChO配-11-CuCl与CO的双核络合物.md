@@ -34,6 +34,12 @@ H 为 $\mathrm{[Cu(CO)Cl]_2}$ 型双核络合物：两个 Cu 各配位 1 个端�
 
 评分：写成平面四方不得分；原子排列方式正确但未正确标出配位键或形式电荷得 1 分；化学式写为 [CuCl·2CO]₂ 不得分。
 
+![[950ce2be5db963a382af221f2dd5024b0e6c97c6f492e3a822e451dab87523d0.jpg]]
+![[845d6e1908c0b404502dd07b8739454c30060bde136fb8e3485cab677a438ea8.jpg]]
+![[b2dfac5f56a18512148dd0dcdddd92cfa757f8402058d53db5c55738d5299fb4.jpg]]
+![[ba4d560e5796d4f722f3c4a37f9aa20e277735dd6c5e9d5a4569406c0b7ffb5c.jpg]]
+![[3db41640ff4703683fbe84ff9ccf40621c3fa8b05c9d3fb1f66485bef9b1d59c.jpg]]
+
 ## 解析要点
 
 - 本题是小分结构题：Cu(I) d¹⁰ 与 CO 的 σ 给电子/π 反馈配位稳定化是反应能发生的理由（可作追问）；

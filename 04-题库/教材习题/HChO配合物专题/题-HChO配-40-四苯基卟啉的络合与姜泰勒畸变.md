@@ -28,21 +28,15 @@ source_category: 竞赛导向·竞赛教辅
 
 四苯基卟啉（TPP），是一种人工合成的配体，对一些金属有很好的络合作用。
 
-![[5f95703b15204fe52c608c4171d0aa8826afa9d0cbd6ec976c3e7f4e3f60f105.jpg]]
-
 H₂TPP —（1) KAuCl₄, HOAc/KOAc；2) KPF₆, H₂O/CH₂Cl₂）→ AuTPP⁺PF₆⁻ —（reductant）→ AuTPP
 
 4-1 以下哪种化合物是 TPP?
-
-![[09e299bc490ffa88f62a350bd67408c7da5c3c3f92e3476bd8f709e13befae2d.jpg]]
 
 ![[4970eb28c239b14e0e779b22f51f54a44dfce0c7ea6132d7eec6a2ba4acfcb03.jpg]]。
 
 4-2 指出 AuTPP⁺PF₆⁻ 中 Au 的杂化方式。
 
 4-3 如下四种还原剂中，哪一种无法用于还原 AuTPP⁺PF₆⁻ 到 AuTPP?
-
-![[c55dc5903b92a60e755e893aa2302010165aa15bcc4a5e633e31dccd0ca72918.jpg]]
 
 ![[fc7ec1d5e87138c6d319d25d1eaa71d67ecd7d9765d38606c5df0ed897e8e578.jpg]]。
 
@@ -57,6 +51,11 @@ H₂TPP —（1) KAuCl₄, HOAc/KOAc；2) KPF₆, H₂O/CH₂Cl₂）→ AuTPP�
 4-3 Mg 不能（会取代 Au 形成 Mg 的卟啉络合物，且还原性太强，会出单质）。（1.5 分）
 
 4-4 Au(II) 的价电子构型为 5d⁹6s⁰，最后 1 个电子的电子云在平面四方形场中是不对称的，因此产生了姜-泰勒畸变，成为拉长平面四方。（2 分，答出 d 电子云畸变即可得分，答难以形成 dsp² 杂化、仅能形成 sp 杂化也得分）
+
+![[c55dc5903b92a60e755e893aa2302010165aa15bcc4a5e633e31dccd0ca72918.jpg]]
+
+![[5f95703b15204fe52c608c4171d0aa8826afa9d0cbd6ec976c3e7f4e3f60f105.jpg]]
+![[09e299bc490ffa88f62a350bd67408c7da5c3c3f92e3476bd8f709e13befae2d.jpg]]
 
 ## 解析要点
 

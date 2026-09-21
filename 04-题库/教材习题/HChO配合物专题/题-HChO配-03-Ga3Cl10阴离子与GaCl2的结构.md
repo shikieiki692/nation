@@ -39,6 +39,10 @@ source_category: 竞赛导向·竞赛教辅
 
 评分：A 和 D 各 1.5 分，B 和 C 各 1 分；电荷标在原子上的或整个离子带电荷的形式均得分；C 画成乙醚氧配位 Ga 的特定结构得 1.5 分。
 
+![[c813e28f4a5ea4db5d14a3d7629190b702ff5e28e073b696db3df242e51fea0e.jpg]]
+![[16df9cee1d8767963f7c8c1f74ea6fc25dd51231b909875678bc6c7c11e202a9.jpg]]
+![[833abfccab62089fc24b8053ce956fc6083f15fefbd0577d53981e76ebac5ed3.jpg]]
+
 ## 解析要点
 
 - 本题考"低价卤化物的歧化式结构"：GaCl₂ 不是真正的二价镓化合物，而是 Ga(I)/Ga(III) 混合价（与 InCl₂、TlCl 对比）；D 中 Ga₂Cl₆²⁻ 才是真实的 Ga(II)–Ga(II) 物种（Ga–Ga 键）；

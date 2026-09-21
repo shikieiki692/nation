@@ -28,8 +28,6 @@ source_category: 竞赛导向·竞赛教辅
 
 甲烷的官能团化在化工领域十分重要，如何找到温和、高效、廉价的催化剂便成为研究重点。1998 年，Scripps 研究所的 Periana 教授开发出一种 Pt 催化的高效甲烷碳-氢键活化反应，成果发表在《Science》上。此法有着简洁的流程：
 
-![[dbb6be4512d49c49746ab0cb68eebfac753d006f95b3e9aa0d8db89d8a1809e2.jpg]]
-
 ![[8e31242661a2768750fdb2ab62f673e5f3081aa1d8582eb4317fe74d82e11d5c.jpg]]。
 
 6-1 画出 A 的结构。
@@ -57,6 +55,8 @@ source_category: 竞赛导向·竞赛教辅
 6-3 A 和 B 中，Pt 的氧化态分别为 +2 和 +4，周围电子数分别为 16 和 18。（各 0.5 分，共 2 分；若 A 画成 [Pt(bipy)(OSO₃H)]⁺ 并写 14 电子，本问得分）
 
 6-4 CH₄ + SO₃ + H₂SO₄ = CH₃OSO₃H + SO₂ + H₂O（2 分；写成 CH₄ + 2SO₃ = CH₃OSO₃H + SO₂ 也得分；写成 CH₄ + 2H₂SO₄ = CH₃OSO₃H + SO₂ + 2H₂O 得 1 分）
+
+![[dbb6be4512d49c49746ab0cb68eebfac753d006f95b3e9aa0d8db89d8a1809e2.jpg]]
 
 ## 解析要点
 

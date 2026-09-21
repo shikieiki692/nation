@@ -28,9 +28,9 @@ source_category: 竞赛导向·竞赛教辅
 
 2-2 分别写出下列四个稳定络合物所带的电荷：
 
-![[a83d8db696120da9ad4566f8518d1564b5a9748eaa71b1cbe48bad80cc19c738.jpg]]
-
 ![[ad88e0a75ed7ef0adf156e2eb252f5c1590a61c67378b45086a4a936df0c870a.jpg]]。
+
+![[a83d8db696120da9ad4566f8518d1564b5a9748eaa71b1cbe48bad80cc19c738.jpg]]
 
 ## 解答
 

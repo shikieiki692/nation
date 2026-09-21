@@ -38,8 +38,6 @@ source_category: 竞赛导向·竞赛教辅
 
 3-3-2 如下配体与 M 形成的电中性络合物 F 不具有与 E 相同的构型，而是呈四面体构型的，简述原因。
 
-![[55c975ce4d0f9fe5c30483905ff78e6f4b653fc547733f1f218e94e840589e3a.jpg]]
-
 ![[60d34ef927a45755756889d414fdfc52fd4fc80f0531d970a0ab6dc1a1e7e719.jpg]]。
 
 3-4 在 NaOH 溶液中 A 可被 5 倍量的 CO 定量转化为化合物 G，写出 G 的化学式以及反应的方程式。
@@ -69,6 +67,11 @@ source_category: 竞赛导向·竞赛教辅
 NiS + 5CO + 4NaOH = Ni(CO)₄ + Na₂S + Na₂CO₃ + 2H₂O（2 分，其他答案尤以 COS、CO₂、HCO₃⁻、HS⁻、[Ni(CO)₅](OH)₂ 等不得分）
 
 3-5 H: K₄Ni₂(CN)₆；J: K₄Ni(CN)₄（每个 1.5 分，共 3 分；H 写成 K₆Ni₂(CN)₈ 不得分）
+
+![[55c975ce4d0f9fe5c30483905ff78e6f4b653fc547733f1f218e94e840589e3a.jpg]]
+![[520f4b2d7e75f63d0bb8e4dda9940f61c7dded16b16181b09e9730e2f7091713.jpg]]
+![[2ee07f394ebaa646245262e0ea972300920718ea5ddaffdd7e1beeace2b50cdb.jpg]]
+![[fb307df81b6c5f388c40e214870da68ac54dcdf359cc56e034c320a7eea56e38.jpg]]
 
 ## 解析要点
 

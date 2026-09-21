@@ -54,6 +54,13 @@ source_category: 竞赛导向·竞赛教辅
 
 2-5 **未形成 P-P 键的 P 原子与 Mn 成的键键能更大**（1.5 分）。
 
+![[4e92313574c0a9240c3c3911d7e7d08ac097ecc783ebc60f3cb81669bbfb8da6.jpg]]
+![[945acb9308f914530fd1a326987c3b0747627e07dc26ec492a3180caba9f4a58.jpg]]
+![[bdb477ed0fae1490f38746dd131bfc1560280059bdf2d635d4630d324737e7c4.jpg]]
+![[6b17d2641aa1abc43206bccda7867ec9362b9718345ac1fb7d5c22e5dd2dfdc5.jpg]]
+![[d55e1656a500361e6795d1bc41b0fa1344b43bdc3aaa6592cf9d691fafc78b04.jpg]]
+![[303e69ecc69a21e7cc56c18defe28623186040373c324b546d49d852b052f995.jpg]]
+
 ## 解析要点
 
 - 2-1 先按单核假设计算剩余式量，与候选配体式量对比逐次排除 Mn(CO)₅ 与 Mn(CO)₄ 两种情形；
