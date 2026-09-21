@@ -58,6 +58,24 @@ def load_syllabus_labels():
 
 SYLLABUS_LABELS = load_syllabus_labels()
 
+# 全库 md 名称索引（FM 引用断链检查用；惰性构建，含 _归档——归档引用视为合法历史引用）
+_NAME_IDX = None
+
+
+def _name_index():
+    global _NAME_IDX
+    if _NAME_IDX is None:
+        idx = set()
+        for dp, dn, fns in os.walk(VAULT):
+            if ".git" in dp or ".workbuddy" in dp:
+                dn[:] = []
+                continue
+            for fn in fns:
+                if fn.endswith(".md"):
+                    idx.add(fn[:-3])
+        _NAME_IDX = idx
+    return _NAME_IDX
+
 
 def fm_of(text):
     m = re.match(r"\A---[ \t]*\r?\n(.*?)\r?\n---[ \t]*\r?\n", text, re.S)
@@ -108,6 +126,9 @@ def check(rel):
                 W.append("FM 缺 chapter（待人工对照课程计划补值）")
             else:
                 E.append(f"FM 缺 {k}")
+
+    mfm = re.match(r"\A---[ \t]*\r?\n.*?\r?\n---[ \t]*\r?\n", text, re.S)
+    body = text[mfm.end():] if mfm else text
 
     zs = zones_of(lines)
     zone_kind = [None] * len(lines)
@@ -193,6 +214,60 @@ def check(rel):
                 I.append(f"LO对齐{len(codes)}码")
         else:
             I.append("LO对齐(注册表缺失,码未校验)")
+    # 9 图注编号连续性（质量战普查驱动：批48/51 实证系统性乱序）
+    cap = [int(m.group(1)) for m in re.finditer(r"^\*图[ \t]*(\d{1,3})(?!\d)", text, re.M)]
+    if cap:
+        probs = []
+        if cap != sorted(cap):
+            probs.append("乱序")
+        if len(set(cap)) != len(cap):
+            probs.append("重复")
+        has_pending = "⛔ 待补" in text
+        if not has_pending:
+            if cap[0] != 1:
+                probs.append(f"首图={cap[0]}")
+            gaps = [x for x in range(1, max(cap) + 1) if x not in set(cap)]
+            if gaps:
+                probs.append(f"断档{gaps[:6]}")
+        if probs:
+            W.append(f"图注编号异常（共{len(cap)}条）：{'; '.join(probs)}")
+    # 10 FM 名称列表断链（质量战实证 24 条：problems 多写小问层、related_notes 指向不存在 KP）
+    fm_entries = []
+    _cur = None
+    for _l in fm.splitlines():
+        _m0 = re.match(r"^([A-Za-z_][\w-]*):\s*$", _l)
+        if _m0:
+            _cur = _m0.group(1)
+            continue
+        if re.match(r"^\S", _l):
+            _cur = None
+            continue
+        _m1 = re.match(r'^\s+-\s+"?([^"]+?)"?\s*$', _l)
+        if _m1 and _cur:
+            fm_entries.append((_cur, _m1.group(1).strip()))
+    _cand = []
+    for _k, _e in fm_entries:
+        _m2 = re.match(r"\[\[([^\]|]+)", _e)
+        _t = (_m2.group(1) if _m2 else _e).strip()
+        if _m2 is None and not _t.startswith("题-"):
+            continue  # 自由文本备注不查
+        _n = _t.split("/")[-1].strip()
+        if _n.endswith(".md"):
+            _n = _n[:-3]
+        if _n:
+            _cand.append((_k, _e, _n))
+    if _cand:
+        _bad = [(k, e) for k, e, n in _cand if n not in _name_index()]
+        if _bad:
+            E.append("FM 引用断链: " + "; ".join(f"[{k}] {e[:36]}" for k, e in _bad[:4])
+                     + ("…" if len(_bad) > 4 else ""))
+    # 11 标题「（N 题）」重复悬挂（同模板生成缺陷，全库 6 例）
+    m_dup = re.search(r"^#{2,4}[^\n]*（\d+[ \t]*题[^）]*）（\d+[ \t]*题）", text, re.M)
+    if m_dup:
+        E.append("标题「（N 题）」重复悬挂: " + m_dup.group(0).strip()[:44])
+    # 12 下标「9」误代「g」污染（t₂₉/e₉，仅查正文；FM 批注引文合法）
+    if re.search(r"[te]₂₉", body):
+        E.append("下标污染：正文存在 t₂₉/e₉（应为 math 形式 t2g/eg）")
     I.append(f"练习节×{sum(1 for _,_,k in zs if k=='ex')} 答案节×{sum(1 for _,_,k in zs if k=='ans')} 题{len(set(q_nums))}/答{len(set(a_nums))} 图{len(imgs)}")
     return E, W, I
 
