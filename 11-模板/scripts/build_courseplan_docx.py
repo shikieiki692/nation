@@ -1,14 +1,16 @@
 # -*- coding: utf-8 -*-
-"""把课程计划 md 转成与原样板同版式的 docx。
+"""把课程计划 md 转成与原样板同版式的 docx（通用表格版）。
 
-原样板版式（已逐项提取自 C:\\Users\\蕾赛\\Downloads\\初三未央化学竞赛课程计划..docx）：
+版式（沿用原样板，逐项提取自 C:\\Users\\蕾赛\\Downloads\\初三未央化学竞赛课程计划..docx）：
   - 页面  A4(11906x16838)，页边距 上下 1440 / 左右 1800，docGrid lines linePitch 312
   - 字体  西文 Times New Roman，中文 宋体
   - 字号  标题 14pt（居中），章节标题与表格正文 一律 10pt，全程不加粗
   - 段落  段后 0，行距 240(auto=单倍)
   - 表格  框线 single sz=4；单元格垂直居中、文本水平居中
-  - 表1   3 列 1560/1275/2835，含表头行
-  - 模块表 4 列，无表头行，第 1、4 列按「章」纵向合并
+  - 单元格内以「｜」分行的内容拆成多个段落
+
+v2（2026-09-21）：表格改为**通用渲染**——表头一律保留、列宽按内容自适应；
+仅两类表做纵向合并：模块表（章＋次数 合并、教材来源 合并）与章后课表（章 合并）。
 """
 from pathlib import Path
 import re
@@ -25,23 +27,16 @@ OUT = Path(r"C:\Obsidion\妙妙屋\备课思路\未央化学竞赛课程计划�
 
 SEP = "｜"
 EAST, WEST = "宋体", "Times New Roman"
+TOTAL_W = 8391            # 与旧版一致
+W_MIN = 620
 
-W_SUMMARY = [1560, 1275, 2835]              # 表1（照样板）
-W_MODULE = [1450, 1750, 2550, 2641]         # 模块表（章列 737 -> 1450，总宽仍 8391）
-MODULE_HEADER = ["章", "节", "知识点", "教材来源"]
-
-# §三 复习课与习题课规划（2026-09-16 新增表型，样板无对照，可自由定版式）
-W_REVIEW = [1350, 1000, 2950, 720, 2371]    # 表8：5 列，总宽仍 8391
-REVIEW_HEADER = ["章", "课型", "知识点", "课时", "依据与课件"]
+MODULE_HEADER = ["章", "次数", "节", "知识点", "教材来源"]
+REVIEW_HEADER = ["章", "课型", "知识点", "课次", "依据与课件"]
 
 
 # ---------------- 底层工具 ----------------
 
 def clean_md_text(s):
-    """正文段落：去掉 markdown 字面标记，避免在 Word 里泄漏 [[ ]] 与 ** 。
-
-    md 里保留 [[wikilink]] 供 Obsidian 解析，Word 侧只显示可读名称。
-    """
     s = re.sub(r"\[\[([^\]|]+)\|([^\]]+)\]\]", r"\2", s)
     s = re.sub(r"\[\[([^\]]+)\]\]", lambda m: m.group(1).split("/")[-1], s)
     s = re.sub(r"\*\*([^*]+)\*\*", r"\1", s)
@@ -49,6 +44,14 @@ def clean_md_text(s):
     s = re.sub(r"^>\s*", "", s)
     s = re.sub(r"^[-*]\s+", "· ", s)
     return s.strip()
+
+
+def disp_len(s):
+    """CJK 记 2、其余记 1 的显示宽度。"""
+    n = 0
+    for ch in s:
+        n += 2 if ord(ch) > 0x2E80 else 1
+    return n
 
 
 def set_run(run, hp):
@@ -88,18 +91,6 @@ def add_block(doc, text, align=None, hp=20):
     return style_para(p, align, hp)
 
 
-def set_cell(cell, items, hp=20):
-    """把 items 逐条写成单元格内的多个段落。"""
-    if not items:
-        return
-    first = True
-    for it in items:
-        p = cell.paragraphs[0] if first else cell.add_paragraph()
-        first = False
-        p.add_run(it)
-        style_para(p, WD_ALIGN_PARAGRAPH.CENTER, hp)
-
-
 def table_borders(tbl):
     tblPr = tbl._tbl.tblPr
     for old in tblPr.findall(qn("w:tblBorders")):
@@ -123,11 +114,9 @@ def set_grid(tbl, widths):
     w.set(qn("w:w"), str(sum(widths)))
     w.set(qn("w:type"), "dxa")
     tblPr.append(w)
-
     lay = OxmlElement("w:tblLayout")
     lay.set(qn("w:type"), "fixed")
     tblPr.append(lay)
-
     old = tbl._tbl.find(qn("w:tblGrid"))
     if old is not None:
         tbl._tbl.remove(old)
@@ -137,7 +126,6 @@ def set_grid(tbl, widths):
         gc.set(qn("w:w"), str(ww))
         grid.append(gc)
     tblPr.addnext(grid)
-
     tbl.alignment = WD_TABLE_ALIGNMENT.CENTER
     tbl.autofit = False
 
@@ -158,28 +146,57 @@ def set_vmerge(cell, val=None):
         vm.set(qn("w:val"), val)
 
 
-def layout_cells(tbl, widths):
-    n = len(widths)
-    for row in tbl.rows:
-        for ci, cell in enumerate(row.cells):
-            if ci >= n:
-                continue
-            cell.width = Twips(widths[ci])
-            cell.vertical_alignment = WD_ALIGN_VERTICAL.CENTER
-            for p in cell.paragraphs:
-                style_para(p, WD_ALIGN_PARAGRAPH.CENTER, 20)
-                if not p.runs:
-                    r = p.add_run("")
-                    set_run(r, 20)
+def set_cell(cell, lines, hp=20):
+    if not lines:
+        lines = [""]
+    for i, it in enumerate(lines):
+        p = cell.paragraphs[0] if i == 0 else cell.add_paragraph()
+        p.add_run(it)
+        style_para(p, WD_ALIGN_PARAGRAPH.CENTER, hp)
+
+
+def calc_widths(rows, ncol):
+    """列宽 = 「短标签列给足、长文本列分享剩余」。
+
+    10pt 汉字宽约 200 twips，disp_len 以「半角」为单位（汉字=2），故 1 单位 ≈ 100 twips；
+    单元格左右内边距合计约 220 twips。need ≤ SMALL 的短标签列按需给足，避免折行；
+    其余列按 need 比例分享剩余宽度。
+    """
+    UNIT, PAD, HARD_MIN, CAP = 100, 220, 560, int(TOTAL_W * 0.40)
+    SMALL = int(TOTAL_W * 0.28)
+    need = []
+    for c in range(ncol):
+        mx = 2
+        for r in rows:
+            v = max((disp_len(x) for x in r[c].split(SEP)), default=0)
+            mx = max(mx, v)
+        need.append(min(CAP, mx * UNIT + PAD))
+
+    small = [i for i, n in enumerate(need) if n <= SMALL]
+    big = [i for i, n in enumerate(need) if n > SMALL]
+    fixed = sum(need[i] for i in small)
+    w = [0] * ncol
+    if not big or fixed + HARD_MIN * len(big) > TOTAL_W:
+        # 保护不了短标签列（列太挤）→ 全表按比例缩放
+        k = TOTAL_W / sum(need)
+        w = [max(HARD_MIN, int(n * k)) for n in need]
+    else:
+        rest = TOTAL_W - fixed
+        tot_big = sum(need[i] for i in big)
+        for i in small:
+            w[i] = need[i]
+        for i in big:
+            w[i] = max(HARD_MIN, int(rest * need[i] / tot_big))
+    w[w.index(max(w))] += TOTAL_W - sum(w)
+    return w
 
 
 # ---------------- 解析 md ----------------
 
 lines = SRC.read_text(encoding="utf-8").split("\n")
 title = None
-blocks = []          # [(kind, name, rows)]  kind: 'table'
+blocks = []
 i = 0
-cur_mod = None
 while i < len(lines):
     s = lines[i].strip()
     if s.startswith("# ") and not s.startswith("## "):
@@ -188,26 +205,20 @@ while i < len(lines):
         continue
     if s.startswith("## "):
         blocks.append(("h2", s[3:].strip(), None))
-        cur_mod = None
         i += 1
         continue
     if s.startswith("### "):
-        cur_mod = s[4:].strip()
-        blocks.append(("h3", cur_mod, None))
+        blocks.append(("h3", s[4:].strip(), None))
         i += 1
         continue
     if s.startswith("|"):
         rows = []
         while i < len(lines) and lines[i].strip().startswith("|"):
-            raw = lines[i].strip()
-            cells = [c.strip() for c in raw.strip("|").split("|")]
-            rows.append(cells)
+            rows.append([c.strip() for c in lines[i].strip().strip("|").split("|")])
             i += 1
-        # 去掉分隔行
         rows = [r for r in rows if not (set("".join(r)) <= set(":- ") and r)]
-        blocks.append(("table", cur_mod, rows))
+        blocks.append(("table", None, rows))
         continue
-    # 普通正文段落 / 列表项 / 引用（H1 之前的 frontmatter 区整体跳过）
     if title is not None and s:
         blocks.append(("text", s, None))
     i += 1
@@ -225,7 +236,6 @@ sec.bottom_margin = Twips(1440)
 sec.left_margin = Twips(1800)
 sec.right_margin = Twips(1800)
 
-# Normal 样式兜底（宋体 + Times New Roman / 10pt / 段后0 / 单倍行距）
 normal = doc.styles["Normal"]
 normal.font.size = Pt(10)
 normal.font.name = WEST
@@ -234,10 +244,8 @@ rf = rpr.find(qn("w:rFonts"))
 if rf is None:
     rf = OxmlElement("w:rFonts")
     rpr.insert(0, rf)
-rf.set(qn("w:ascii"), WEST)
-rf.set(qn("w:hAnsi"), WEST)
-rf.set(qn("w:cs"), WEST)
-rf.set(qn("w:eastAsia"), EAST)
+for k, v in (("w:ascii", WEST), ("w:hAnsi", WEST), ("w:cs", WEST), ("w:eastAsia", EAST)):
+    rf.set(qn(k), v)
 normal.paragraph_format.space_after = Pt(0)
 normal.paragraph_format.space_before = Pt(0)
 normal.paragraph_format.line_spacing = 1.0
@@ -250,159 +258,59 @@ if dg is None:
 dg.set(qn("w:type"), "lines")
 dg.set(qn("w:linePitch"), "312")
 
-# 标题
 add_block(doc, title, WD_ALIGN_PARAGRAPH.CENTER, hp=28)
 
-n_summary = 0
-n_module_tables = 0
-n_merge_start = 0
 stats = []
-
+n_merge = 0
+n_mod = 0
 for kind, name, rows in blocks:
-    if kind == "h2":
-        add_block(doc, name, None, hp=20)
-        continue
-    if kind == "h3":
-        add_block(doc, name, None, hp=20)
-        continue
-    if kind == "text":
+    if kind in ("h2", "h3", "text"):
         add_block(doc, clean_md_text(name), None, hp=20)
         continue
 
-    # ---- 表格 ----
-    hdr = rows[0] if rows else []
-    is_module = len(hdr) == 4 and hdr[:4] == MODULE_HEADER
-    if len(hdr) == 3:
-        # 表1 式：3 列，保留表头行
-        widths = W_SUMMARY
-        kind = "summary"
-        body = rows
-    elif len(hdr) == 5 and hdr[:5] == REVIEW_HEADER:
-        # 表8 式：5 列，保留表头行，仅首列「章」纵向合并（每行课时/课件各自独立）
-        widths = W_REVIEW
-        kind = "review"
-        body = rows
-    elif len(hdr) == 4:
-        if is_module:
-            # 模块式 4 列：丢弃 md 表头行（与原样板一致：docx 内不出现表头）
-            widths = W_MODULE
-            kind = "module"
-            body = rows[1:]
-            n_module_tables += 1
-        else:
-            # 表9 式：4 列但表头非模块口径 → 保留表头行，不做纵向合并
-            widths = W_MODULE
-            kind = "labeled4"
-            body = rows
-    else:
-        raise SystemExit("未识别的表格列数: %r" % (hdr,))
-
-    ncol = len(widths)
-    tbl = doc.add_table(rows=len(body), cols=ncol)
+    if not rows:
+        continue
+    ncol = max(len(r) for r in rows)
+    rows = [(list(r) + [""] * ncol)[:ncol] for r in rows]
+    hdr = rows[0]
+    if hdr == MODULE_HEADER:
+        n_mod += 1
+    widths = calc_widths(rows, ncol)
+    tbl = doc.add_table(rows=len(rows), cols=ncol)
     set_grid(tbl, widths)
     table_borders(tbl)
+    for ri in range(len(rows)):
+        for ci in range(ncol):
+            items = [clean_md_text(x) for x in rows[ri][ci].split(SEP) if x.strip()]
+            set_cell(tbl.cell(ri, ci), items or [""])
+            cell = tbl.cell(ri, ci)
+            cell.width = Twips(widths[ci])
+            cell.vertical_alignment = WD_ALIGN_VERTICAL.CENTER
 
-    # 补全「章」与「教材来源」的纵向继承
-    cur_cha = ""
-    cur_src = ""
-    filled = []
-    if kind == "review":
-        # 表8：首列「章」继承，课型/知识点/课时/依据逐行独立
-        for r in body:
-            cells = (list(r) + [""] * 5)[:5]
-            new_group = bool(cells[0].strip())
-            if new_group:
-                cur_cha = cells[0].strip()
-            filled.append({"cha": cur_cha, "jie": cells[1].strip(),
-                           "kp": [x for x in cells[2].split(SEP) if x.strip()],
-                           "hr": [x for x in cells[3].split(SEP) if x.strip()],
-                           "src": [x for x in cells[4].split(SEP) if x.strip()],
-                           "start": new_group})
-    elif kind == "labeled4":
-        # 表9：四列各自独立，不做任何继承
-        for r in body:
-            cells = (list(r) + [""] * 4)[:4]
-            filled.append({"cha": cells[0].strip(), "jie": cells[1].strip(),
-                           "kp": [x for x in cells[2].split(SEP) if x.strip()],
-                           "hr": [],
-                           "src": [x for x in cells[3].split(SEP) if x.strip()],
-                           "start": True})
-    else:
-        for r in body:
-            c0 = r[0] if len(r) > 0 else ""
-            c1 = r[1] if len(r) > 1 else ""
-            c2 = r[2] if len(r) > 2 else ""
-            c3 = r[3] if len(r) > 3 else ""
-            if c0.strip():
-                cur_cha = c0.strip()
-                cur_src = c3.strip()
-                new_group = True
-            else:
-                new_group = False
-            filled.append({"cha": cur_cha, "jie": c1.strip(),
-                           "kp": [x for x in c2.split(SEP) if x.strip()],
-                           "hr": [],
-                           "src": [x for x in cur_src.split(SEP) if x.strip()],
-                           "start": new_group})
-
-    # 写入单元格
-    for ri, f in enumerate(filled):
-        if kind == "summary":
-            # 表1：三列原样
-            set_cell(tbl.cell(ri, 0), [f["cha"]])
-            set_cell(tbl.cell(ri, 1), [f["jie"]])
-            set_cell(tbl.cell(ri, 2), f["kp"])
-        elif kind == "review":
-            # 表8：五列；首列仅在章起始行写一次
-            if f["start"]:
-                set_cell(tbl.cell(ri, 0), [f["cha"]])
-            set_cell(tbl.cell(ri, 1), [f["jie"]] if f["jie"] else [])
-            set_cell(tbl.cell(ri, 2), f["kp"])
-            set_cell(tbl.cell(ri, 3), f["hr"])
-            set_cell(tbl.cell(ri, 4), f["src"])
-        elif kind == "labeled4":
-            # 表9：四列原样
-            set_cell(tbl.cell(ri, 0), [f["cha"]])
-            set_cell(tbl.cell(ri, 1), [f["jie"]])
-            set_cell(tbl.cell(ri, 2), f["kp"])
-            set_cell(tbl.cell(ri, 3), f["src"])
-        else:
-            # 模块式 4 列：首列与末列按「章」纵向继承
-            if f["start"]:
-                set_cell(tbl.cell(ri, 0), [f["cha"]])
-            set_cell(tbl.cell(ri, 1), [f["jie"]] if f["jie"] else [])
-            set_cell(tbl.cell(ri, 2), f["kp"])
-            if f["start"]:
-                set_cell(tbl.cell(ri, 3), f["src"])
-
-    # 纵向合并
-    if is_module:
-        gs = [i for i, f in enumerate(filled) if f["start"]] + [len(filled)]
+    if hdr == MODULE_HEADER:
+        gs = [ri for ri in range(len(rows)) if rows[ri][0].strip()] + [len(rows)]
         for a, b in zip(gs, gs[1:]):
             if b - a > 1:
-                set_vmerge(tbl.cell(a, 0), "restart")
-                set_vmerge(tbl.cell(a, 3), "restart")
-                for k in range(a + 1, b):
-                    set_vmerge(tbl.cell(k, 0), None)
-                    set_vmerge(tbl.cell(k, 3), None)
-                n_merge_start += 2
-    elif kind == "review":
-        gs = [i for i, f in enumerate(filled) if f["start"]] + [len(filled)]
+                for col in (0, 1, 4):
+                    set_vmerge(tbl.cell(a, col), "restart")
+                    for k in range(a + 1, b):
+                        set_vmerge(tbl.cell(k, col), None)
+                n_merge += 3
+    elif hdr == REVIEW_HEADER:
+        gs = [ri for ri in range(len(rows)) if rows[ri][0].strip()] + [len(rows)]
         for a, b in zip(gs, gs[1:]):
             if b - a > 1:
                 set_vmerge(tbl.cell(a, 0), "restart")
                 for k in range(a + 1, b):
                     set_vmerge(tbl.cell(k, 0), None)
-                n_merge_start += 1
+                n_merge += 1
 
-    layout_cells(tbl, widths)
-    stats.append((name, len(body), ncol, kind))
+    stats.append((len(rows), ncol))
 
 OUT.parent.mkdir(parents=True, exist_ok=True)
 doc.save(str(OUT))
-
 print("[ok]", OUT)
 print("[size]", OUT.stat().st_size, "bytes")
-for s in stats:
-    print("   表 %-16s 行=%-4d 列=%d [%s]" % s)
-print("模块表数:", n_module_tables, " 纵向合并起点:", n_merge_start)
+print("[tables]", len(stats), " 模块表:", n_mod, " 纵向合并起点:", n_merge)
+for n, c in stats:
+    print("   行=%-3d 列=%d" % (n, c))
