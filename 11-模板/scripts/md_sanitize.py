@@ -28,7 +28,7 @@ import re
 
 __all__ = ["strip_mineru_div", "fix_r_break", "fix_aa", "fix_text_nesting",
            "fix_text_inner_cmd", "fix_html_entities_in_math", "fix_dollar_digit",
-           "fix_tab_pollution", "sanitize"]
+           "fix_double_backslash_cmd", "fix_tab_pollution", "sanitize"]
 
 BS = chr(92)
 TAB = chr(9)
@@ -236,6 +236,81 @@ def fix_dollar_digit(text: str) -> str:
     return "".join(parts)
 
 
+# ── ③e `\\<字母命令>` 出现在 **array 类环境之外**（多了一个反斜杠）──────────
+# 机制：`\\`（换行）**只在 array/cases/aligned 等环境内合法**（本会话实测：
+#   `$a \\ b$` ❌ 而 `\begin{cases}…\\…\end{cases}` ✅）。
+#   导入/OCR 常把 `\mathrm` 误写成 `\\mathrm` —— 在环境外就是一个非法的 `\\`，
+#   texmath 直接报错、整个公式不渲染。
+#   实测实例：`$K_{\\mathrm{sp}}$`、`$s = \\sqrt{…}$`、`\\text{…} = \\frac{1}{2}\\times\\text{…}`
+#   （`03-知识点/化学原理/溶度积.md` 一处文件就有 103 处）。
+# ⚠️ **必须环境感知**：环境**内**的 `\\` 是合法换行，绝不能碰。
+# 同时必须跳过**代码围栏 / 行内代码**（那些 `\\` 是 Windows 路径、代码示例，合法）。
+_DB_CMD = re.compile(re.escape(BS + BS) + r"([a-zA-Z])")
+_RE_BEGIN = re.compile(re.escape(BS) + r"begin\{")
+_RE_END = re.compile(re.escape(BS) + r"end\{")
+
+
+def fix_double_backslash_cmd(text: str) -> str:
+    """把环境之外的 `\\\\<字母>` 减成一个 `\\`（还原被写坏的 `\\mathrm` 等）。
+
+    环境深度按 `\\begin{` / `\\end{` 位置扫描；代码围栏与行内代码先掩码。
+    """
+    lines = text.split("\n")
+    mask = []                       # 要掩码的区间
+    idx = 0
+    # ① frontmatter：值里可能有 Windows 路径（`C:\\Users\\…`），绝不能动
+    if lines and lines[0].strip() == "---":
+        for k in range(1, len(lines)):
+            if lines[k].strip() == "---":
+                mask.append((0, sum(len(x) + 1 for x in lines[:k + 1])))
+                break
+    fence = False
+    for ln in lines:
+        st = ln.strip()
+        if st.startswith("```") or st.startswith("~~~"):
+            fence = not fence
+            mask.append((idx, idx + len(ln)))
+        elif fence:
+            mask.append((idx, idx + len(ln)))
+        idx += len(ln) + 1
+    for m in re.finditer(r"`[^`]*`", text):
+        mask.append((m.start(), m.end()))
+    chars = list(text)
+    for a, b in mask:
+        for i in range(a, min(b, len(chars))):
+            chars[i] = " "
+    masked = "".join(chars)
+
+    for _ in range(3):              # 迭代，兼顾 `\\\\mathrm` 这类
+        dels = []
+        depth = 0
+        i = 0
+        while i < len(masked):
+            mb = _RE_BEGIN.match(masked, i)
+            me = _RE_END.match(masked, i)
+            mm = _DB_CMD.match(masked, i)
+            if mb:
+                depth += 1
+                i = mb.end()
+                continue
+            if me:
+                depth = max(0, depth - 1)
+                i = me.end()
+                continue
+            if mm:
+                if depth == 0:
+                    dels.append(i)
+                i = mm.end()
+                continue
+            i += 1
+        if not dels:
+            break
+        ds = set(dels)
+        text = "".join(c for k, c in enumerate(text) if k not in ds)
+        masked = "".join(c for k, c in enumerate(masked) if k not in ds)
+    return text
+
+
 # ── ③ TAB 污染：`\t` 被写成真制表符 U+0009，LaTeX 命令断头 ────────────────
 # 例如 `$\text{Pa}$` 实际存成 `$<TAB>ext{Pa}$`。
 # 窄规则：只认 TAB 后跟可识别的 LaTeX 残名，**不碰表格对齐 TAB**。
@@ -332,6 +407,7 @@ def sanitize(text: str) -> str:
     text = strip_mineru_div(text)
     text, _ = fix_r_break(text)
     text = fix_aa(text)
+    text = fix_double_backslash_cmd(text)   # 须在文本嵌套修复**之前**（可能产生 `\text{\text{…}}`）
     text = fix_text_inner_cmd(text)      # 内含 fix_text_nesting，可处理前后文/空白
     text = fix_html_entities_in_math(text)
     text = fix_dollar_digit(text)

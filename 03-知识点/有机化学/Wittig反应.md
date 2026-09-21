@@ -33,7 +33,7 @@ Wittig 反应是**磷叶立德（phosphorus ylide，Ph₃P=CR₂）与醛或酮�
 ## 磷叶立德的制备
 
 $$
-\\ce{Ph3P + R-CH2-X ->[S_N2] [Ph3P^{+}-CH2R] X^{-} ->[\\text{强碱}] Ph3P=CHR}
+\ce{Ph3P + R-CH2-X ->[S_N2] [Ph3P^{+}-CH2R] X^{-} ->[\text{强碱}] Ph3P=CHR}
 $$
 
 1. 三苯基膦对卤代烃做 S_N2 得**季鏻盐**；
@@ -44,7 +44,7 @@ $$
 ## 机理
 
 $$
-\\text{叶立德} + \\text{醛/酮} \\xrightarrow{[2+2]\\text{ 环加成}} \\text{氧杂磷杂环丁烷（oxaphosphetane）} \\xrightarrow{\\text{顺式消除}} \\text{烯烃} + \\ce{Ph3P=O}
+\text{叶立德} + \text{醛/酮} \xrightarrow{[2+2]\text{ 环加成}} \text{氧杂磷杂环丁烷（oxaphosphetane）} \xrightarrow{\text{顺式消除}} \text{烯烃} + \ce{Ph3P=O}
 $$
 
 1. 叶立德的碳负离子进攻羰基碳（[[羰基亲核加成]]），协同形成四元环**氧杂磷杂环丁烷**；
