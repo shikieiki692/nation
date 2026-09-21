@@ -18,8 +18,7 @@ cross_references: ["[[04-题库/教材习题/ABOC/题-109-ABOC-Ch3-3.1.1-在Clay
 module: 基础要求-有机化学
 status: deprecated
 superseded_by: ""
-deprecation_reason: "原书「习题解析」节答案碎片，题干全库缺失、前段亦无对应完整题卡（孤儿题卡）；answer_status 待补，待回 OCR 源补录（2026-09-22 题库体检 P0-3 修复）"
-answer_status: 待补
+deprecation_reason: "注销：原书查无 3.3.4-2 题号（MinerU OCR 源 ABOC202505_1-200.md L2504 证实 3.3.4 系列仅 3.3.4-1），本卡系拆题误立；碎片图片为 Wharton 反应/Grob 碎裂化相关解析，保留待人工归位复核（2026-09-22 第2批）"
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
@@ -28,7 +27,7 @@ source_norm: "ABOC 有机化学"
 ---
 # 题-210：类似 Grob 碎裂化。
 
-> [!warning] 孤儿题卡·题干缺失（2026-09-22 注记）：本文件仅存原书「习题解析」节答案碎片，题干在全库缺失，前段亦无对应完整题卡。待回 OCR 源 06-外部资料导入/学而思 有机化学基础/ 补录题干后重建。
+> [!warning] 已注销（2026-09-22 第2批回源）：原书无自学练习 3.3.4-2（3.3.4 系列仅 3.3.4-1），本卡系拆题误立、无题干可补。碎片图片为 Grob/Wharton 相关解析，保留待人工复核归位。
 
 > **来源**：ABOC 第3章 自学练习 3.3.4-2
 > **难度**：⭐⭐

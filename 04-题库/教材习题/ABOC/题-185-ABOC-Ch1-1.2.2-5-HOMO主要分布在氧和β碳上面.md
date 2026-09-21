@@ -14,7 +14,7 @@ updated: 2026-07-04
 source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第1章-绪论]]"
 aliases: [ABOC-Ch1-1.2.2-5-2]
 source: ABOC 第1章 自学练习（ARX's Basic Organic Chemistry 第3版）
-cross_references: ["[[04-题库/教材习题/ABOC/题-277-ABOC-Ch1-T2]]", "[[04-题库/教材习题/ABOC/题-275-ABOC-Ch1-T7]]", "[[04-题库/教材习题/ABOC/题-287-ABOC-Ch1-T8]]", "[[04-题库/教材习题/ABOC/题-265-ABOC-Ch1-T8]]", "[[04-题库/教材习题/ABOC/题-305-ABOC-Ch1-T2]]"]
+cross_references: ["[[04-题库/教材习题/ABOC/题-674-ABOC-Ch1-T2]]", "[[04-题库/教材习题/ABOC/题-672-ABOC-Ch1-T7]]", "[[04-题库/教材习题/ABOC/题-684-ABOC-Ch1-T8]]", "[[04-题库/教材习题/ABOC/题-662-ABOC-Ch1-T8]]", "[[04-题库/教材习题/ABOC/题-702-ABOC-Ch1-T2]]"]
 module: 基础要求-有机化学
 status: deprecated
 superseded_by: "已合并入完整习题卡"
