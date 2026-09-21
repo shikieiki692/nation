@@ -127,12 +127,30 @@ def resolve_windows_home():
 WINDOWS_HOME = resolve_windows_home()
 
 
+def _sandbox_fontconfig_ok():
+    """沙箱里是否有可用的 fontconfig 配置（`ensure_miktex_sandbox` 的预热会生成它）。"""
+    return os.path.exists(os.path.join(
+        MIKTEX_SANDBOX, 'config', 'fontconfig', 'config', 'fonts.conf'))
+
+
 def build_miktex_env():
     env = base_env.copy()
-    env['MIKTEX_USERCONFIG'] = os.path.join(MIKTEX_SANDBOX, 'config')
-    env['MIKTEX_USERDATA'] = os.path.join(MIKTEX_SANDBOX, 'data')
-    env['MIKTEX_USERINSTALL'] = os.path.join(MIKTEX_SANDBOX, 'install')
-    env['MIKTEX_USERROOTS'] = MIKTEX_INSTALL_ROOT
+    if _sandbox_fontconfig_ok():
+        env['MIKTEX_USERCONFIG'] = os.path.join(MIKTEX_SANDBOX, 'config')
+        env['MIKTEX_USERDATA'] = os.path.join(MIKTEX_SANDBOX, 'data')
+        env['MIKTEX_USERINSTALL'] = os.path.join(MIKTEX_SANDBOX, 'install')
+        env['MIKTEX_USERROOTS'] = MIKTEX_INSTALL_ROOT
+    else:
+        # 🔴 2026-09-21 修（格式线）：沙箱**没有** fontconfig 配置时，绝不能把 MIKTEX_USERCONFIG
+        #    指进去 —— 那会让 xelatex 以
+        #        rc=9 / `Fontconfig error: Cannot load default config file` /
+        #        `fontconfig initialization failed!`
+        #    直接死掉（实测：`_handout_*.tex` 编译 rc=9、0 字节 PDF）。
+        #    沙箱配置由 `fc-conflist` 预热生成，而本机该步骤会崩（见 ensure_miktex_sandbox）；
+        #    此时**不覆盖** MIKTEX_USER* 即可回落到用户已有配置（%APPDATA%\MiKTeX\...），
+        #    实测同一份 .tex 用默认 env 编译 **成功产出 202 KB PDF**。
+        #    HOME/USERPROFILE 等仍按原样设置（不改变 MiKTeX 的默认解析路径）。
+        print('  ⚠️ [WARN] 沙箱缺 fontconfig 配置 → 本文件回落到用户 MiKTeX 配置')
     env['HOME'] = WINDOWS_HOME
     env['USERPROFILE'] = WINDOWS_HOME
     drive, tail = os.path.splitdrive(WINDOWS_HOME)
@@ -160,6 +178,12 @@ def ensure_miktex_sandbox():
             os.path.join(MIKTEX_SANDBOX, 'data', 'fontconfig', 'cache'),
         )
         if not all(os.path.exists(path) for path in required):
+            # 🔴 2026-09-21 修（格式线）：预热只是「编译前的暖机」，**不是必需品**。
+            #    实测本机 `fc-conflist` 直接崩（returncode 3221225477 = 0xC0000005 访问违例，
+            #    输出 `Fontconfig error: Cannot load default config file`），而 **xelatex 本身完全正常**
+            #    （plain 与 xeCJK+SimSun 均能产出 PDF）。原先预热失败即 `raise`，
+            #    等于把整条 PDF 线封死在一个非必需步骤上 ⇒ 改为**降级告警**，
+            #    由随后的真实编译去裁决成败（编译失败仍会按原逻辑报错）。
             try:
                 probe = subprocess.run(
                     [FC_CONFLIST, *MIKTEX_FLAGS],
@@ -168,12 +192,15 @@ def ensure_miktex_sandbox():
                     timeout=120,
                 )
                 decode_subprocess_output(probe)
-            except subprocess.TimeoutExpired as exc:
-                raise RuntimeError('MiKTeX fontconfig 预热超时(120s)') from exc
-
-            if probe.returncode != 0 or not all(os.path.exists(path) for path in required):
-                detail = (probe.stderr or probe.stdout or '').strip()
-                raise RuntimeError(f'MiKTeX fontconfig 预热失败: {detail[:400]}')
+                if probe.returncode != 0 or not all(os.path.exists(p) for p in required):
+                    detail = (probe.stderr or probe.stdout or b'').strip()
+                    detail = detail.decode('utf-8', 'replace') if isinstance(detail, bytes) else detail
+                    print('  ⚠️ [WARN] MiKTeX fontconfig 预热未成功（rc=%s），继续尝试编译：%s'
+                          % (probe.returncode, detail[:200].replace('\n', ' ')))
+            except subprocess.TimeoutExpired:
+                print('  ⚠️ [WARN] MiKTeX fontconfig 预热超时(120s)，继续尝试编译')
+            except OSError as exc:
+                print('  ⚠️ [WARN] 无法执行 fontconfig 预热（%s），继续尝试编译' % exc)
 
         _miktex_ready = True
 
