@@ -27,8 +27,8 @@
 import re
 
 __all__ = ["strip_mineru_div", "fix_r_break", "fix_aa", "fix_text_nesting",
-           "fix_text_inner_cmd", "fix_html_entities_in_math", "fix_tab_pollution",
-           "sanitize"]
+           "fix_text_inner_cmd", "fix_html_entities_in_math", "fix_dollar_digit",
+           "fix_tab_pollution", "sanitize"]
 
 BS = chr(92)
 TAB = chr(9)
@@ -203,6 +203,39 @@ _RE_MATH_SPAN = re.compile(
     , re.DOTALL
 )
 
+# ── ③d 闭合 `$` 紧跟 ASCII 数字（pandoc `tex_math_dollars` 的**邻接规则**）──
+# pandoc 手册：行内 `$…$` 的**闭合 `$` 右边不能紧跟数字**，否则整个 `$…$`
+#   不被认作公式 → `$…$` 原样落进正文。**不报转换失败**（所以闸门 A 栏只数到字面 `$`）。
+#   实测（`:markdown+tex_math_dollars` + 预处理）：
+#     `$\times$2`      → 产物 `$$2`，字面 `$`×2、oMath 0   ❌
+#     `$\times$ 2`     → 产物 `×2`，字面 `$` 0、oMath 1    ✅  ← 修法依据
+#   另两条边界也一并实测过（用来划范围）：
+#     `2$a$`（开 `$` 前是数字）→ ✅ 正常；`$a$ 2`（闭 `$` 后是空格）→ ✅ 正常；
+#     `$c$²`（闭 `$` 后是**上标 2** U+00B2）→ ✅ 正常
+#     （pandoc 用 Haskell `Data.Char.isDigit`，**只认 ASCII 0-9**）。
+# 修法：把紧跟的数字串**移进数学域**（`$\times$2` → `$\times 2$`），产物仍为 `×2`。
+# ⚠️ **必须窄**（这是本会话第三次「代理指标要划边界」的教训）：
+#   只认「数学域内容**以 LaTeX 命令结尾**」的形态 —— 即 `\<字母…>$<数字>`。
+#   若放宽成任意 `$…$`+数字（如价格 `$300 … $500`、`$x$2`），
+#   会**把散文/价格误当公式改造**（实测：`$300 与 $500` 会被配成一对）。
+_DD = re.compile(r"\$([^$\n]*?\\[a-zA-Z]+)\$([0-9]+(?:\.[0-9]+)?)")
+
+
+def _dd_repl(m):
+    return "$" + m.group(1) + " " + m.group(2) + "$"
+
+
+def fix_dollar_digit(text: str) -> str:
+    """`$…\\cmd$<数字>` → `$…\\cmd <数字>$`（把数字移进数学域，救回被吞的公式）。
+
+    只动「域内容以 LaTeX 命令结尾」的形态；行内代码（`` `…` ``）不碰。
+    """
+    parts = re.split(r"(`[^`]*`)", text)
+    for i in range(0, len(parts), 2):          # 偶数下标 = 非代码段
+        parts[i] = _DD.sub(_dd_repl, parts[i])
+    return "".join(parts)
+
+
 # ── ③ TAB 污染：`\t` 被写成真制表符 U+0009，LaTeX 命令断头 ────────────────
 # 例如 `$\text{Pa}$` 实际存成 `$<TAB>ext{Pa}$`。
 # 窄规则：只认 TAB 后跟可识别的 LaTeX 残名，**不碰表格对齐 TAB**。
@@ -301,5 +334,6 @@ def sanitize(text: str) -> str:
     text = fix_aa(text)
     text = fix_text_inner_cmd(text)      # 内含 fix_text_nesting，可处理前后文/空白
     text = fix_html_entities_in_math(text)
+    text = fix_dollar_digit(text)
     text = fix_tab_pollution(text)
     return text
