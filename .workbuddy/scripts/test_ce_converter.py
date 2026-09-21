@@ -118,16 +118,31 @@ check("标注·电荷并组", conv("A ->[H3O^+] B"), "$A " + BS + "xrightarrow{H
 check("标注·方括号保留", conv("A ->[HS(CH2)2SH] B"),
       "$A " + BS + "xrightarrow{HS(CH_{2})_{2}SH} B$")
 
+# ── ⑧ 正向：中文标注——**保持直立**（`\text{}`）但补上下标 ──────
+check("中文标注·补下标且仍直立", conv("A ->[Et2O 或 THF] B"),
+      "$A " + BS + "xrightarrow{" + BS + "text{Et}_{2}" + BS + "text{O 或 THF}} B$")
+check("中文标注·多段", conv("A ->[H2SO4, 氧化剂] B"),
+      "$A " + BS + "xrightarrow{" + BS + "text{H}_{2}" + BS + "text{SO}_{4}" + BS + "text{, 氧化剂}} B$")
+check("中文标注·无数字保持不变", conv("A ->[无水醚] B"),
+      "$A " + BS + "xrightarrow{" + BS + "text{无水醚}} B$")
+
+# ── ⑨ 正向：mhchem 分组花括号剥壳；已含 `\text{}` 的片段保护但外部仍补下标
+check("分组花括号·{MnO2}", conv("A ->[{MnO2}] B"), "$A " + BS + "xrightarrow{MnO_{2}} B$")
+check("分组花括号·中文", conv("A ->[{浓H2SO4}] B"),
+      "$A " + BS + "xrightarrow{" + BS + "text{浓H}_{2}" + BS + "text{SO}_{4}} B$")
+check("内嵌\\text保护·外部仍补下标", conv("A ->[" + BS + "text{1) } CH3OK] B"),
+      "$A " + BS + "xrightarrow{" + BS + "text{1) } CH_{3}OK} B$")
+check("命令+物质·不再当纯命令", conv("A ->[" + BS + "Delta," + BS + ",-N2] B"),
+      "$A " + BS + "xrightarrow{" + BS + "Delta," + BS + ",-N_{2}} B$")
+check("纯命令·原样", conv("A ->[" + BS + "Delta] B"),
+      "$A " + BS + "xrightarrow{" + BS + "Delta} B$")
+
 # ── 🔴 反向：显式下标组后面跟的数字**不得**再被下标 ──────────
 # `S_N2` 的 `2` 是全尺寸（反应类型记法）；`^{288}115` 的 `115` **要**下标（同位素）。
 check("反向·S_N2 的 2 不下标", conv("S_N2"), "$S_{N}2$")
 check("反向·S_N1 的 1 不下标", conv("S_N1"), "$S_{N}1$")
 check("正向·同位素 ^{288}115 要下标", conv("^{288}115"), "$^{288}_{115}$")
 check("正向·(PO4)2 仍下标", conv("Ca3(PO4)2"), "$Ca_{3}(PO_{4})_{2}$")
-
-# ── 🔴 反向：中文标注走 `\text{}`，逐字不变（属另一口径）──────
-check("反向·中文标注不变", conv("A ->[Et2O 或 THF] B"),
-      "$A " + BS + "xrightarrow{" + BS + "text{Et2O 或 THF}} B$")
 
 # ── 🔴 反向：上标标号 + 连接号，绝不能吞连接号 ─────────────────
 check("反向·R^1-X 连接号保住", conv("R^1-X"), "$R^{1}-X$")

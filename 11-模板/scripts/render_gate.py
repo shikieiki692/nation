@@ -259,10 +259,11 @@ def gate_obsidian(text: str):
 # 与管线同口径的两处豁免：
 #   ① `_{…}` 已成组的显式下标**之后**的数字不要求下标 —— `S_N2` 的 `2` 是全尺寸
 #      （反应类型记法），管线也按此豁免；同位素 `^{288}115` 的 `115` 则**要**下标。
-#   ② 箭头标注里含中文的走 `\text{}`（另一口径，待定），本签名不计。
-# 判据只走**主体**，故在本库当前为 0 违例 —— 新增违例即代表新缺陷。
+#   ② 标注**不豁免**：即整条 `\ce{…}`（含 `->[…]` 箭头标注）都参与判据。
+#      （2026-09-21 更早的版本剥掉标注，因为当时含中文的标注整体在 `\text{}` 里、
+#       下标出不来；管线的标注处理已统一为「直立 + 补下标」，豁免随之作废。）
+# 判据覆盖**整块**，故在本库当前为 0 违例 —— 新增违例即代表新缺陷。
 RE_CE_START = re.compile(re.escape(BS + "ce{"))
-RE_CE_LABEL = re.compile(r"(?:->|<-)\[([^\]]*)\]")
 _RE_SUBG = re.compile(r"_\{[^{}]*\}|_[A-Za-z0-9]")   # 显式下标标记（`_{…}` 或裸 `_x`）
 
 
@@ -316,7 +317,7 @@ def ce_invariant_violations(bh, text: str) -> int:
             return n
         inner, whole = text[m.end():j - 1], text[m.start():j]
         out = fn(whole)
-        body = RE_CE_LABEL.sub(" ", inner)                 # 去掉箭头标注
+        body = inner
         body = _RE_SUBG.sub(lambda x: "\x02" * len(x.group(0)), body) if _RE_SUBG.search(body) else body
         for dg in _ce_d0_letter_digits(body):
             if ("_{" + dg + "}") not in out:

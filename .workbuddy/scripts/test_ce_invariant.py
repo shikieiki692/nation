@@ -39,12 +39,23 @@ class FakeOld:
         return s.replace(" + ", " ^{+} ")
 
 
+class FakeOldCJK:
+    """模拟「含中文的箭头标注整段包 `\\text{}`、里面数字不下标」的旧行为。"""
+
+    @staticmethod
+    def _preprocess_ce_in_math(s):
+        import re as _re
+        return _re.sub(r"->\[([^\]]*)\]",
+                       lambda m: "\x5cxrightarrow{\x5ctext{" + m.group(1) + "}}", s)
+
+
 CASES = [
     ("① 当前管线·含电荷", bh, "$\\ce{MnO4^-}$", 0),
     ("② 当前管线·含命令（上版盲区）", bh, "$\\ce{2KClO3 ->[\\Delta\\,\\text{或}\\,h\\nu] 2KCl + 3O2 ^}$", 0),
-    ("③ 当前管线·中文标注（另一口径）", bh, "$\\ce{R-X + Mg ->[Et2O 或 THF] R-Mg-X}$", 0),
+    ("③ 当前管线·中文标注已补下标", bh, "$\\ce{R-X + Mg ->[Et2O 或 THF] R-Mg-X}$", 0),
     ("④ 当前管线·正确写法不误报", bh, "$\\ce{MnO_{4}^{-} + 2NaOH}$ 与 $\\ce{S_{N}2}$", 0),
     ("⑤ 模拟旧行为（应响）", FakeOld, "$\\ce{H2SO4 + 2NaOH}$", 3),
+    ("⑥ 模拟「中文标注不下标」（应响）", FakeOldCJK, "$\\ce{R-X + Mg ->[Et2O 或 THF] R-Mg-X}$", 1),
 ]
 ok = True
 for name, mod, text, want in CASES:

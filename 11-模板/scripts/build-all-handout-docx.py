@@ -1404,12 +1404,21 @@ def _preprocess_ce_in_math(text: str) -> str:
         s = _re.sub(r'\\bond\{([^{}]*)\}',
                     lambda m: _BOND.get(m.group(1).strip(), m.group(1).strip()), s)
 
+        # 标注里「不当作文本包裹」的片段：LaTeX 命令 / 脚本组 `_{…}`·`^{…}` / 受保护的
+        # `\text{…}` 占位符 `\x03N\x03`。含中文的标注靠它把其余部分逐一包 `\text{}`。
+        _LABEL_KEEP_RE = _re.compile(r'\\[a-zA-Z]+|[_^]\{[^{}]*\}|\x03\d+\x03')
+        _LABEL_KEEP_SPLIT_RE = _re.compile(r'(\\[a-zA-Z]+|[_^]\{[^{}]*\}|\x03\d+\x03)')
+
         def _arrow_label(m_body):
-            r"""箭头上方标注：
-              - 已经是 \text{...} 的（源里手写的）→ 原样返回，避免二次包裹成 \text{\text{…}}
-              - 含中文 → 包 \text{}
-              - LaTeX 命令（\Delta、hv）→ 直接用，包 \text{} 会让 OMML 退化成文本
-              - 纯化学式（H3O+、AlCl3）→ 走 _parse_species 补下标/电荷
+            r"""箭头上方标注。
+
+            三种形态与处置：
+              - 已手写 `\text{…}` 的片段 → **原位保护**（绝不二次包裹 `\text{\text{…}}`），
+                但其**外部**的裸数字仍要补下标（如 `\text{1) } CH3OK` → `\text{1) }CH_{3}OK`）
+              - 纯命令标注（`\Delta`、`h\nu`）→ 原样返回（包 `\text{}` 会让 OMML 退化成文本）
+              - 其余 → `_parse_species` 补下标/电荷（标点 `/ , ( ) ℃` 原样穿过）
+              - **含中文的** → 补完下标后，把「非脚本片段」逐一包进 `\text{}`，
+                **保持直立观感不变**（原先是整段包 `\text{}`，数字因此无法下标）
             """
             body = m_body.strip()
             if not body:
@@ -1419,25 +1428,55 @@ def _preprocess_ce_in_math(text: str) -> str:
             #    `unexpected '$'`，整条式子渲染失败。剥掉外层 `$` 即可。
             if len(body) > 2 and body.startswith('$') and body.endswith('$'):
                 body = body[1:-1].strip() or body
-            # ② 标注里**已经含** `\text{…}`（如 `\Delta\,\text{或}\,h\nu,\,\text{苯/二甲苯}`）
-            #    → 绝不能再包一层：`\text{…\text{…}}` 是 texmath 明确拒收的嵌套。
-            #    （原判据只认「整段就是一个 \text{…}」，漏掉了「\text 夹在中间」的形态。）
-            if _re.search(r'\\text\{', body):
+            # ①b mhchem 里 `{…}` 只作**分组**（如 `->[{MnO2}]`）→ 剥掉「整段恰好被一对花括号
+            #     包住」的外壳。否则含中文时会把 `{`/`}` 一起包进 `\text{}` 产出畸形串
+            #     （`{浓H2SO4}` → `\text{{浓H}_{2}\text{SO}_{4}\text{}}`）。
+            if body.startswith('{') and body.endswith('}'):
+                depth, closed_at_end = 0, True
+                for k, ch in enumerate(body):
+                    if ch == '{':
+                        depth += 1
+                    elif ch == '}':
+                        depth -= 1
+                        if depth == 0:
+                            closed_at_end = (k == len(body) - 1)
+                            break
+                if closed_at_end:
+                    body = body[1:-1].strip()
+            # ② 已有 `\text{…}` 的片段先**摘出保护**（既不重包、也不改动）。
+            #    原判据是「只要含 `\text{` 就整条 return」—— 过宽：那样 `\text{1) } CH3OK`
+            #    里的 `CH3` 也永远补不上下标了。
+            _stash: list[str] = []
+
+            def _stash_text(m):
+                _stash.append(m.group(0))
+                return "\x03%d\x03" % (len(_stash) - 1)
+
+            prot = _re.sub(r'\\text\{(?:[^{}]|\{[^{}]*\})*\}', _stash_text, body)
+            has_cjk = bool(_re.search(r'[一-鿿]', prot))
+            # ③ 纯命令标注（`\Delta`、`h\nu`）→ 原样返回（包 `\text{}` 会让 OMML 退化成文本）。
+            #    判据：把命令与分隔符都摘掉后**什么都不剩**才算「纯命令」——
+            #    否则 `\Delta,\,-N2` 这种会因首字符是 `\` 被误判，白丢 `N_{2}` 的下标。
+            if prot.startswith('\\') and not has_cjk and not _stash \
+                    and not _LABEL_KEEP_RE.sub('', prot).strip(' ,;、'):
                 return body
-            if _re.search(r'[一-鿿]', body):
-                return r'\text{' + body + '}'
-            if body.startswith('\\'):
-                return body
-            # 统一走 `_parse_species`：它只做「脚本规范化 + 裸数字补下标 + 裸电荷并组」，
-            # 标点（`/` `,` `(` `)` `℃` …）原样穿过，故对任意标点都安全。
+            # ④ 补下标。`_parse_species` 只做「脚本规范化 + 裸数字补下标 + 裸电荷并组」，
+            #    标点原样穿过 ⇒ 对 `/` `,` `(` `)` 一律安全。
             # 🔴 2026-09-21 修：此前只在 body 恰好命中 `[A-Za-z0-9+\-.\s]+`（**无标点**）
             #    时才走 `_parse_species`，其余一律**原样返回** ⇒ 凡带标点的标注全丢下标：
             #    `->[Zn/H2O]`→`Zn/H2O`、`->[H2O2, NaOH]`、`->[Pd(0)/Et3N]`、
             #    `->[1) Hg(OOCCH3)_2, H_2O]`、`->[NH2NH2,\,KOH]`。
-            #    全库 370 个标注中 **129 个含「字母+数字」**，其中约 120 个属此类
-            #    （另 9 个含中文，走上面的 `\text{}` 分支，属另一口径，见工单）。
-            #    本改动是**单调**的：只在缺失处插入 `_{…}`，不改变包裹方式。
-            return _parse_species(body)
+            #    全库 370 个标注中 **129 个含「字母+数字」**，其中约 120 个属此类。
+            s = _parse_species(prot)
+            # ⑤ 含中文 → 把「非脚本片段」逐一包 `\text{}`，**观感仍是直立**（与改前一致），
+            #    但下标回来了：`Et2O 或 THF` → `\text{Et}_{2}\text{O 或 THF}`。
+            if has_cjk:
+                s = "".join(p if (not p or _LABEL_KEEP_RE.fullmatch(p)) else r'\text{' + p + '}'
+                            for p in _LABEL_KEEP_SPLIT_RE.split(s) if p != '')
+            # ⑥ 还原受保护的 `\text{…}` 片段。
+            for i, g in enumerate(_stash):
+                s = s.replace("\x03%d\x03" % i, g)
+            return s
 
         # Replace arrows (longest first to avoid partial matches)
         # <-[text] and ->[text] with conditions
