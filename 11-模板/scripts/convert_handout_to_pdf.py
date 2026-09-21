@@ -18,6 +18,12 @@ VAULT_ROOT = r'C:\Obsidion\妙妙屋'
 HANDOUTS = r'C:\Obsidion\妙妙屋\04-课件\学生讲义'
 PDF_OUTPUT_DIR = os.path.join(VAULT_ROOT, '00-首页', '学生讲义PDF')
 VAULT_MEDIA = os.path.join(VAULT_ROOT, 'media')
+# 🔴 2026-09-21 增：**回落图源**。vault 根 `media/` 现只剩 841 张，而现役图源是
+#   顶层 `媒体仓库/`（14,570 张，不入库）。实测 11 份学生讲义的 **208 个图引用**：
+#   `media/` 只命中 **28**，`媒体仓库/` 命中 **208**、且两处都无的为 0。
+#   顺序**必须 media 优先**：`媒体仓库/` 不是 `media/` 的超集（media 有 344 个独有文件、
+#   2 个同名异内容文件），反转顺序会静默改变既有取图语义。
+VAULT_MEDIA_REPO = os.path.join(VAULT_ROOT, '媒体仓库')
 PANDOC = r'C:\Users\蕾赛\AppData\Local\Programs\Python\Python312\Lib\site-packages\pypandoc\files\pandoc.exe'
 XELATEX = r'C:\Users\蕾赛\AppData\Local\Programs\MiKTeX\miktex\bin\x64\xelatex.exe'
 LUA_FILTER = os.path.join(SCRIPTS, 'wrap_images.lua')
@@ -390,10 +396,14 @@ def preprint(source_md: str) -> str:
     # E◦_cell → E^{\\circ}_{\\text{cell}} 等模式
     text = re.sub(r'(?<!\$)(E|K|Δ_r[GHS])◦_(\w+)', r'$\\1^{\\circ}_{\\text{\\2}}$', text)
     # Unicode 符号 → LaTeX 宏命令（仅影响非 math 区域，math 已被保护）
-    _sym_map = {'→':'\\箭', '←':'\\左箭', '↑':'\\上箭', '↓':'\\下箭',
-                '⇌':'\\衡', '↔':'\\双箭', '≈':'\\约等于',
-                '≤':'\\小于等于', '≥':'\\大于等于', '≠':'\\不等于',
-                'σ':'\\西格马', 'π':'\\派'}
+    # 🔴 值必须带 `{}` **断词**：xeCJK 下中文字是 catcode 11，若直接产出 `\箭排`，
+    #    TeX 会把「箭排」整体当成一个控制词 ⇒ `Undefined control sequence`。
+    #    最小复现：`算\箭排\箭连\箭填\箭查` 一处即报 4 个错误；改成 `\箭{}排\箭{}连…` 后 **0 错误**。
+    #    实测受害：`分子结构基础` 日志 92 个 `!` 错误、25 个 \includegraphics 只落地 9 张图。
+    _sym_map = {'→':'\\箭{}', '←':'\\左箭{}', '↑':'\\上箭{}', '↓':'\\下箭{}',
+                '⇌':'\\衡{}', '↔':'\\双箭{}', '≈':'\\约等于{}',
+                '≤':'\\小于等于{}', '≥':'\\大于等于{}', '≠':'\\不等于{}',
+                'σ':'\\西格马{}', 'π':'\\派{}'}
     for sym, cmd in _sym_map.items():
         text = text.replace(sym, cmd)
     # 数字上下标：转 Pandoc ^...^ / ~...~ 语法（仅影响非 math 区域）
@@ -406,6 +416,15 @@ def preprint(source_md: str) -> str:
     # 图片引用
     text = re.sub(r'!\[\[media/([^\]|]+)\|[^\]]*\]\]', r'![](media/\1)', text)
     text = re.sub(r'!\[\[media/([^\]|]+)\]\]', r'![](media/\1)', text)
+    # 🔴 2026-09-21 增：**纯文件名**写法（`![[<hash>.png]]` / `![[<hash>.png|别名]]`）。
+    #    本库学生讲义实测：**888 处 / 103 份**用纯文件名，只有 33 处 / 7 份带 `media/` 前缀。
+    #    旧正则只认带前缀的 ⇒ 其余引用**根本不转换**，pandoc 视为未解析 wikilink 直接丢弃，
+    #    PDF **静默丢图**（rc=0、日志还打印「0张图, 全图 OK」）。
+    #    实测受害：元素周期表（5 引用）→ 0 张；分子结构基础（25 引用）→ 0 张；
+    #    而 7 月旧 PDF 分别有 5 / 16 张。判据＝源文件里「字母+数字」不是本事，**图数对照**才是。
+    _IMG_EXT = r'(?:png|jpe?g|gif|svg|webp|bmp)'
+    text = re.sub(r'!\[\[(?!media/)([^\]|]+\.' + _IMG_EXT + r')\|[^\]]*\]\]', r'![](\1)', text, flags=re.I)
+    text = re.sub(r'!\[\[(?!media/)([^\]|]+\.' + _IMG_EXT + r')\]\]', r'![](\1)', text, flags=re.I)
     text = re.sub(r'\.(lewis\.)?md\)', r'.\1png)', text)
 
     # wikilink → 纯文本
@@ -754,6 +773,12 @@ def convert_one(md_target, parallel=False):
                 source_candidates.append(os.path.join(vault_media, real_fn))
                 if real_fn != fn:
                     source_candidates.append(os.path.join(vault_media, fn))
+            # 🔴 2026-09-21 增：**回落图源 `媒体仓库/`**（放在 media/ 之后，不改既有语义）。
+            #    见文件头 VAULT_MEDIA_REPO 处的实测数据（208 引用：media 命中 28）。
+            if os.path.exists(VAULT_MEDIA_REPO):
+                source_candidates.append(os.path.join(VAULT_MEDIA_REPO, real_fn))
+                if real_fn != fn:
+                    source_candidates.append(os.path.join(VAULT_MEDIA_REPO, fn))
 
             for source_fp in source_candidates:
                 if not os.path.exists(source_fp):
@@ -887,6 +912,20 @@ def convert_one(md_target, parallel=False):
     if c.rfind(b'%%EOF') < 0:
         with open(pdf_temp, 'ab') as f:
             f.write(b'\n%%EOF\n')
+
+    # 🔴 2026-09-21 增：**xelatex 中止检测**（防「静默出货截断产物」）
+    #    `Emergency stop` / `(job aborted, no legal \end found)` 这类中止**仍会留下一个 PDF**，
+    #    只是内容被**截断**。旧判据只看「存在且 > 5000 B」⇒ 照样算成功。
+    #    实测受害：`分子结构基础` 25 个 `\includegraphics` 只落地 **9 张**、文本 26k→19k，
+    #    而管线报「22p, 25张图, 全图 OK」。真因＝某个 caption 触发
+    #    `File ended while scanning use of \caption@xdblarg` → 中止。
+    _lp = tex_path.replace('.tex', '.log')
+    if os.path.exists(_lp):
+        with open(_lp, encoding='utf-8', errors='replace') as _f:
+            _lt = _f.read()
+        for _mk in ('Emergency stop', 'no legal \\end found', 'File ended while scanning'):
+            if _mk in _lt:
+                return (md_target, False, f'xelatex 中止（命中 `{_mk}`）⇒ 产物可能被截断，已拒绝入库')
 
     pdf_ok, pdf_diag = validate_pdf_file(pdf_temp)
     if not pdf_ok and os.path.exists(pdf_backup) and os.path.getsize(pdf_backup) > 20000:
