@@ -1312,6 +1312,30 @@ def _preprocess_ce_in_math(text: str) -> str:
 
         s = inner
 
+        # ── mhchem 的「气体 ↑ / 沉淀 ↓」箭头（`^` / `v` 作为**独立记号**）────────
+        # 源里写作 `\ce{... + 3O2 ^}`、`\ce{... + Al(OH)3 v}` —— 这是 mhchem 的
+        # 上/下箭头写法（本库 11 处 ↑ 场景、2 处 ↓ 场景，语义经逐条核对：全部
+        # 对应「生成气体」「生成沉淀」）。原先转换器不认它们，`^` 被原样带进
+        # LaTeX → texmath 报 `unexpected eof` → 整个公式渲染失败（工单第 11 类）。
+        # 本库既成惯例是 `\uparrow` / `\downarrow`（`03-知识点/` 内 `\uparrow` 用了 102 处）。
+        # ⚠️ 判据必须「前后都是空白 / 字符串边界」：`Mn^{2+}`、`Al^3+` 里的 `^`
+        #    是**上标**，一律不能动 —— 否则会毁掉全库所有电荷标注。
+        #    用 lambda 而非字符串替换：re.sub 的替换串会把 `\u` 当非法转义直接报错。
+        #    替换串**不带前导空格** —— 后顾已保证前面有一个空白，再补就成两个。
+        s = _re.sub(r'(?<=\s)\^(?=\s|$)', lambda m: '\\uparrow ', s)
+        s = _re.sub(r'(?<=\s)v(?=\s|$)', lambda m: '\\downarrow ', s)
+
+        # ── mhchem 的 `\bond{...}`（键型记号）：texmath 不认 `\bond` ──────────
+        # 本库实际用到两种：`\bond{->}`（配位/授受键，如 `H3N\bond{->}BF3`）
+        # 与 `\bond{1}`（单键）。共 4 份文件 5 处。
+        # ⚠️ 必须放在**箭头替换之前**：否则 `\bond{->}` 里的 `->` 会先被换成
+        #    `\rightarrow`，产出 `\bond{\rightarrow}` —— 同样非法，且更难查。
+        # 未登记的键型去掉外壳保留内容（至少让它渲染得出来，不静默丢内容）。
+        _BOND = {'->': r' \rightarrow ', '<-': r' \leftarrow ',
+                 '1': '{-}', '2': '{=}', '3': r'{\equiv}'}
+        s = _re.sub(r'\\bond\{([^{}]*)\}',
+                    lambda m: _BOND.get(m.group(1).strip(), m.group(1).strip()), s)
+
         def _arrow_label(m_body):
             r"""箭头上方标注：
               - 已经是 \text{...} 的（源里手写的）→ 原样返回，避免二次包裹成 \text{\text{…}}
