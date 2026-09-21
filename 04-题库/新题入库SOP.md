@@ -416,6 +416,8 @@ python -X utf8 11-模板/scripts/validate_kb.py --full
 ```
 基线：Error 0 / Warning 209（2026-09-02）。升高即本次引入，先修复再提交。
 
+**登记闸门（2026-09-22 增，硬性一步）**：新批次入库**当日**必须在 `04-题库/README.md` 题源登记总表登记一行（来源 ｜ OCR 位置 ｜ 题数＋口径 ｜ 保真 ｜ 答案来源 ｜ 最后核对=当日），并在该表「说明」区追加一行修订记录；**无登记行的新目录不得提交**。背景：0407物化特训、HChO 两批次曾同日漏登（2026-09-21 体检报告 P1-1），「先转录后登记」是登记口径长期失真的根因。
+
 ### 5.2b 构建预演（pack=模块习题集 时必做）
 ```bash
 python -X utf8 11-模板/scripts/build_module_book.py 2>&1 | grep -E "待分类|gap-excluded|deprecated-excluded"
