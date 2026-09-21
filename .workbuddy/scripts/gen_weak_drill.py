@@ -197,6 +197,71 @@ def scan_pool() -> list[dict]:
     return pool
 
 
+def math_spans(s: str) -> list[tuple[int, int]]:
+    """返回 `$…$` / `$$…$$` 数学域的 (起点, 终点) 列表（终点 = 域后第一个字符）。
+
+    规则与 pandoc 的 `tex_math_dollars` 对齐：
+      · `\\$` 是转义的字面美元号，**不是**定界符；
+      · `$$` 开就必须 `$$` 闭，不与单 `$` 配对（混用不当）；
+      · **未配对的定界符视为延伸到字符串末尾** —— 源文件本身有缺陷（本库确有，
+        OCR 截断遗留）时，也不能把它当成「域已经结束」。
+    ⚠️ 不能用「前缀里 `$` 个数为偶数」当判据：`$$a` 恰好是 2 个 `$` 却并未闭合，
+      该判据会误判为安全（单测 `$$块内回退` 用例抓到过）。
+    """
+    spans: list[tuple[int, int]] = []
+    open_at: int | None = None
+    open_block = False
+    i, n = 0, len(s)
+    while i < n:
+        c = s[i]
+        if c == "\\":
+            i += 2
+            continue
+        if c == "$":
+            block = (i + 1 < n and s[i + 1] == "$")
+            step = 2 if block else 1
+            if open_at is None:
+                open_at, open_block = i, block
+            elif block == open_block:
+                spans.append((open_at, i + step))
+                open_at = None
+            i += step
+            continue
+        i += 1
+    if open_at is not None:
+        spans.append((open_at, n))
+    return spans
+
+
+def safe_truncate(seg: str, limit: int) -> str:
+    """截断到 limit 并追加省略号，**绝不切进 `$…$` 数学域**。
+
+    ⚠️ 2026-09-21 修：原先直接 `seg[:limit]` —— 答案含公式时会把 `$…$` 切一半，
+    留下**未闭合 `$`**，Word 里就渲染成字面 `$`。
+    实测受害件：`06-学生侧材料/练习卷/补弱卷-化学平衡-2026-09-02.md` 3 处
+    （`$\\mathrm……` / `\\mathr……` / `$n_{\\text{总}}……`）。
+
+    判据（按结果，不按形状猜）：截断点若落在某个数学域**内部**（起点 < cut < 终点），
+    回退到该域起点之前；`cut == 终点` 表示整域已在前缀里，是安全边界。
+    """
+    if len(seg) <= limit:
+        return seg
+    cut = limit
+    for a, b in math_spans(seg):
+        if cut <= a:
+            break                      # 落在域之前 → 安全
+        if cut < b:
+            cut = a                    # 落在域内部 → 回退到域起点之前
+            break
+    if cut <= 0:
+        # 极端情形：答案以一段比 limit 还长的公式开头 ⇒ 退回全文（宁可长，不可造假）
+        return seg
+    head = seg[:cut].rstrip()
+    if head:
+        head = head.rstrip(" ,;，；、：")   # 截断处常留悬空标点，一并去掉
+    return head + "……"
+
+
 def ans_summary(path: Path, limit: int = 120) -> str:
     """抽题目文件参考答案节文本（≤limit 字符）；纯图答案原样保留不编造。"""
     try:
@@ -212,9 +277,7 @@ def ans_summary(path: Path, limit: int = 120) -> str:
     seg = body[m.end(): nxt.start() if nxt else len(body)]
     seg = "\n".join(ln for ln in seg.split("\n") if not re.match(r"^\s*-{3,}\s*$", ln))
     seg = re.sub(r"\s+", " ", seg).strip()
-    if len(seg) > limit:
-        seg = seg[:limit].rstrip() + "……"
-    return seg
+    return safe_truncate(seg, limit)
 
 
 # ────────────────────────── 选题 ──────────────────────────
