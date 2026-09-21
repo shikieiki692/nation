@@ -12,7 +12,7 @@ source_subject: 综合
 subject_module: 有机化学
 submodule: 全合成
 pack: 章节练习
-knowledge_points: ["[[全合成]]", "[[环加成]]", "[[还原反应]]"]
+knowledge_points: ["[[全合成]]", "[[周环反应]]", "[[还原反应]]"]
 used_in: []
 source_file: "[[习题-北斗40-2017BST7押题二]]"
 updated: 2026-09-21

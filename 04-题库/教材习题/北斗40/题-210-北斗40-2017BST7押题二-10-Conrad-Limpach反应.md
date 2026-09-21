@@ -12,7 +12,7 @@ source_subject: 综合
 subject_module: 有机化学
 submodule: 杂环合成与机理
 pack: 章节练习
-knowledge_points: ["[[杂环化合物]]", "[[亲电取代反应]]", "[[亲核加成]]"]
+knowledge_points: ["[[杂环化合物]]", "[[芳香亲电取代反应]]", "[[亲核加成]]"]
 used_in: []
 source_file: "[[习题-北斗40-2017BST7押题二]]"
 updated: 2026-09-21
