@@ -1308,10 +1308,13 @@ def _preprocess_ce_in_math(text: str) -> str:
                 # ⚠️ 没有命令时**也必须套规则** —— 早期写成 `return s` 就直接漏掉了
                 #    「字母+数字 → 下标」这一步，导致 `PCl3`/`2H2O`/`H2O` 全丢下标
                 #    （靠实测校准抓回，见 test_ce_converter.py 的常规式用例）。
-                return _re.sub(r'([A-Za-z\)}])(\d)', r'\1_{\2}', s)
+                # 数字用 `\d+`（**贪婪取整串**）：`C6H12O6` 必须成 `H_{12}`，
+                # 早期写成 `\d` 只吃第一位 → `H_{1}2`（全库 36 处，如 C10H8、P4O10、
+                # C21H53NO10；同族还有 `^{288}115` 这类同位素记号）。
+                return _re.sub(r'([A-Za-z\)}])(\d+)', r'\1_{\2}', s)
             parts = _CMD_RE.split(s)
             for i in range(len(parts)):
-                parts[i] = _re.sub(r'([A-Za-z\)}])(\d)', r'\1_{\2}', parts[i])
+                parts[i] = _re.sub(r'([A-Za-z\)}])(\d+)', r'\1_{\2}', parts[i])
             out = parts[0]
             for i, c in enumerate(cmds):
                 out += c + parts[i + 1]
@@ -1474,8 +1477,14 @@ def _preprocess_ce_in_math(text: str) -> str:
                            lambda m: _stash[int(m.group(1))], out)
         else:
             # No arrows — parse as space-separated species
+            # 🔴 2026-09-21 修：单独的 `+` / `-` 是**物种分隔符/键号**，不是带电荷物种。
+            #    它们此前也走 `_parse_species`，`charge_match = ([+\-])$` 会命中，
+            #    把空串当 base、产出 `^{+}` / `^{-}` —— 分隔符被抬成上标。
+            #    全库：无箭头 `\ce{}` 里的 ` + ` 113 处（如 `\ce{SiF4 + 2F-}`）、
+            #    单独 `-` 15 处（如 `\ce{NH4+ - NH3}` 缓冲对、`\ce{R3P^+ - CHR2^-}` 键号）。
+            #    箭头分支本就用 `\s\+\s` 做分隔符、不受此影响。
             parts = s.split()
-            parsed = [_parse_species(p) for p in parts if p]
+            parsed = [p if p in ('+', '-') else _parse_species(p) for p in parts if p]
             return ' '.join(parsed)
 
     # Find and replace all \ce{...} blocks with balanced brace matching
