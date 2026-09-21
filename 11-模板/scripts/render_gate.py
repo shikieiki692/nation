@@ -35,6 +35,7 @@ frontmatter、断链、图片、题号……**没有一项查「公式到底能�
 退出码：0 = 全过；1 = 有失败。
 """
 import argparse
+import ast
 import importlib.util
 import os
 import re
@@ -48,8 +49,40 @@ VAULT = Path(__file__).resolve().parents[2]
 PANDOC = os.environ.get("PANDOC_BIN", "pandoc")
 PIPELINE = VAULT / "11-模板" / "scripts" / "build-all-handout-docx.py"
 
-# 管线真实方言（必须与 build-all-handout-docx.py::PANDOC_EXTENSIONS 一致）
-PANDOC_EXT = "markdown+tex_math_dollars+tex_math_single_backslash+pipe_tables+raw_tex"
+# 管线真实方言 —— **从管线源码读取，不再本地复制**。
+# 为什么改成读源码：本值若与 build-all-handout-docx.py 漂移，闸门测的就是**另一种方言**，
+# 结论直接失效（2026-09-21 实测踩到：管线已加 `-superscript`、闸门仍用旧串，导致
+# 「改前后同为 4 份失败」，白跑一轮）。这里用**正则读文本**而非 import，
+# 是为了不把管线模块的导入副作用带进闸门输出（闸门要解析自己的 stdout）。
+def _pipeline_ext() -> str:
+    """用 AST 取管线里的 `PANDOC_EXTENSIONS`（**不 import**，不引入副作用）。
+
+    用 AST 而非正则：该常量可能是多行/括号拼接的字符串，正则会漏；且 AST 取的是
+    **真实求值结果**，不会因为换行或隐式拼接而读错。
+    """
+    try:
+        tree = ast.parse(PIPELINE.read_text(encoding="utf-8"))
+    except (OSError, SyntaxError, ValueError):
+        return _EXT_FALLBACK
+    for node in tree.body:
+        if isinstance(node, ast.Assign) and any(
+                isinstance(t, ast.Name) and t.id == "PANDOC_EXTENSIONS"
+                for t in node.targets):
+            try:
+                v = ast.literal_eval(node.value)
+            except (ValueError, SyntaxError):
+                break
+            if isinstance(v, str) and v:
+                return v
+    return _EXT_FALLBACK
+
+
+# 回退值：读不到源码时用「与当前管线等价」的串 —— 宁可重复，也不静默用错方言。
+_EXT_FALLBACK = ("markdown+tex_math_dollars+tex_math_single_backslash+pipe_tables+raw_tex"
+                 "-superscript-subscript")
+
+
+PANDOC_EXT = _pipeline_ext()
 
 TAB = chr(9)
 BS = chr(92)
@@ -70,6 +103,15 @@ RE_TEXT_TEXT = re.compile(re.escape(BS + "text{" + BS + "text{"))
 #   它能直接量出「公式到底渲没渲染出来」。**别再回到按形状猜。**
 #
 # 同理，`build-all-handout-docx.py` 里曾加的 `bare_script_fatal` 规则也已撤除。
+#
+# ✅ 2026-09-21 **病根已修**：不再"绕"这个机制，而是**关掉它** ——
+#    管线方言加了 `-superscript -subscript`（见 build-all-handout-docx.py 的说明）。
+#    依据：本库正文大量书写「漏了 `$` 的 LaTeX 碎片」（域外 `^` 1111 处 / `~` 8100 处），
+#    而**有意的 `^词^` 上标 0 处、`~下标~` 0 处**（全库扫描），故关闭无内容损失。
+#    收益（均实测）：`氧化还原滴定.md` 的跨 `$` 配对失效**零改 md 即转绿**；
+#    `条件：70~80℃，0.5~1 M H+` 原先被渲成 `7080℃，0.51`（`~` 被吞）现恢复原样。
+#    回归：`^` 风险集 **214 份全量** 与 `~` 风险集抽样 40 份，**均无新增失败**。
+#    ⇒ 本节这条注释保留作「历史教训」，但**不再需要任何形状判据**。
 
 # ⚠️ 临时目录**必须按进程隔离**：本闸门常被并发调用（如批处理扫描时又单查一份），
 #    用固定路径会让两个进程互相覆盖 `_g.md`/`_g.docx`，读出**别人的产物**
