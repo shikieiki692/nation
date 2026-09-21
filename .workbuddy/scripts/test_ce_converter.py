@@ -1,15 +1,19 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""`\\ce{}` 转换器「↑ / ↓ 箭头」单测（2026-09-21 新增能力）。
+"""`\\ce{}` 转换器单测。
 
-正向：`^` / `v` 作为**独立记号** → `\\uparrow` / `\\downarrow`（并顺带补下标）。
-反向：`Mn^{2+}` / `Al^3+` 这类**电荷上标**绝不能被动；常规式输出必须与改前逐字一致。
+覆盖四组能力（均为 2026-09-21 格式线所加/所修）：
+  ① mhchem「↑ / ↓ 箭头」：`^` / `v` 作为**独立记号** → `\\uparrow` / `\\downarrow`
+  ② mhchem `\\bond{...}` 键型记号（配位键 / 单键）
+  ③ **裸电荷并组**：`Cr2O7^2-` → `Cr2O7^{2-}`（正负号必须进上标）
+  ④ **带脚本物种的裸数字补下标**：`MnO4^-` → `MnO_{4}^{-}`
 
-⚠️ 已知既有瑕疵（本次不修，报备）：
-   `\\ce{M_xA_y \\cdot nH2O}` —— 同一个「species」里若同时含 `_` 与裸数字，
-   `_parse_species` 的 early-return 分支只规范 `^`/`_`、**不补裸数字下标**，
-   故 `nH2O` 保持原样（不在 `\\cdot` 那个 token 里的 `nH2O` 则正常）。
-   这是改前就有、且不导致渲染失败的问题，故用例按**现状**锁定，避免掩盖。
+反向用例（同等重要，防"按形状猜"）：
+  - `Mn^{2+}` / `Al^3+` 之类电荷上标不得被动
+  - **`R^1-X` / `Ar^1-N=N-Ar^2` 是「上标标号 + 连接号」**，`^1-` 绝不能并成 `^{1-}`
+    （全库 26 处；靠负向先行断言 `(?![A-Za-z0-9])` 区分）
+  - `\\cdot5H2O` 的系数 5 绝不能被下标到命令上（`\\cdot_{5}`）
+  - 常规式（`PCl3`、`2H2O`、`H2O`）输出不得回归
 """
 import importlib.util
 import sys
@@ -28,6 +32,7 @@ f = bh._preprocess_ce_in_math
 BS = chr(92)
 UP = BS + "uparrow"
 DOWN = BS + "downarrow"
+ARROW = BS + "rightarrow"
 fails = []
 
 
@@ -44,37 +49,57 @@ def check(name, got, want):
         fails.append(name)
 
 
-# ── 正向：气体 ↑（含顺带补下标）────────────────────────────────
+# ── ① 正向：气体 ↑（含顺带补下标）────────────────────────────────
 check("气体↑·KClO3", conv("2KClO3 -> 2KCl + 3O2 ^"),
-      "$2KClO_{3} " + BS + "rightarrow 2KCl + 3O_{2} " + UP + "$")
+      "$2KClO_{3} " + ARROW + " 2KCl + 3O_{2} " + UP + "$")
 check("气体↑·MCO3", conv("MCO3 -> MO + CO2 ^"),
-      "$MCO_{3} " + BS + "rightarrow MO + CO_{2} " + UP + "$")
+      "$MCO_{3} " + ARROW + " MO + CO_{2} " + UP + "$")
 check("气体↑·两个箭头", conv("ROH + SOCl2 -> RCl + SO2 ^ + HCl ^"),
-      "$ROH + SOCl_{2} " + BS + "rightarrow RCl + SO_{2} " + UP + " + HCl " + UP + "$")
+      "$ROH + SOCl_{2} " + ARROW + " RCl + SO_{2} " + UP + " + HCl " + UP + "$")
 check("气体↑·NO", conv("3As2S3 -> 6H3AsO4 + 28NO ^"),
-      "$3As_{2}S_{3} " + BS + "rightarrow 6H_{3}AsO_{4} + 28NO " + UP + "$")
-check("已知瑕疵·\\cdot token 内裸数字不补下标",
-      conv("M_xA_y " + BS + "cdot nH2O -> M_xA_y + nH2O ^"),
-      "$M_{x}A_{y} " + BS + "cdot nH2O " + BS + "rightarrow M_{x}A_{y} + nH_{2}O " + UP + "$")
+      "$3As_{2}S_{3} " + ARROW + " 6H_{3}AsO_{4} + 28NO " + UP + "$")
 
-# ── 正向：沉淀 ↓ ─────────────────────────────────────────────
+# ── ① 正向：沉淀 ↓ ─────────────────────────────────────────────
 check("沉淀↓·Al(OH)3", conv("Al^3+ + 3OH- -> Al(OH)3 v"),
-      "$Al^{3}+ + 3OH^{-} " + BS + "rightarrow Al(OH)_{3} " + DOWN + "$")
+      "$Al^{3+} + 3OH^{-} " + ARROW + " Al(OH)_{3} " + DOWN + "$")
 check("沉淀↓·NaBr", conv("CH3CH2CHBrCH3 + NaI -> CH3CH2CHICH3 + NaBr v"),
-      "$CH_{3}CH_{2}CHBrCH_{3} + NaI " + BS + "rightarrow CH_{3}CH_{2}CHICH_{3} + NaBr " + DOWN + "$")
+      "$CH_{3}CH_{2}CHBrCH_{3} + NaI " + ARROW + " CH_{3}CH_{2}CHICH_{3} + NaBr " + DOWN + "$")
 
-# ── 正向：`\bond{...}` 键型记号（mhchem）─────────────────────
-ARROW = BS + "rightarrow"
+# ── ② 正向：`\bond{...}` 键型记号（mhchem）─────────────────────
 check("配位键·H3N->BF3", conv("NH3 + BF3 -> H3N" + BS + "bond{->}BF3"),
       "$NH_{3} + BF_{3} " + ARROW + " H_{3}N " + ARROW + " BF_{3}$")
 check("配位键·R2C=O", conv("R2C=O" + BS + "bond{->}Al(OiPr)3"),
       "$R_{2}C=O " + ARROW + " Al(OiPr)_{3}$")
-print("   （Stille 实际行）->", repr(conv(
-    "Br-Ar-CHO(OH) + " + BS + "bond{1} SnBu3 ->[?] " + BS + "bond{1}-Ar-CHO(OH)")))
 
-# ── 反向：电荷上标不得被改、不得引入箭头 ─────────────────────
+# ── ③ 正向：裸电荷并组（正负号进上标）──────────────────────────
+check("裸电荷·重铬酸根", conv("Cr2O7^2-"),
+      "$Cr_{2}O_{7}^{2-}$")
+check("裸电荷·单原子", conv("N^3-"), "$N^{3-}$")
+
+# ── ④ 正向：带脚本物种的裸数字补下标（本次修复的核心）───────────
+check("补下标·MnO4^-", conv("MnO4^-"), "$MnO_{4}^{-}$")
+check("补下标·CO3^{2-}", conv("CO3^{2-}"), "$CO_{3}^{2-}$")
+check("补下标·Li_xC6", conv("Li_xC6"), "$Li_{x}C_{6}$")
+check("补下标·[Fe(CN)6]^{3-}", conv("[Fe(CN)6]^{3-}"), "$[Fe(CN)_{6}]^{3-}$")
+check("补下标·[Cr(H2O)6]^{3+}", conv("[Cr(H2O)6]^{3+}"), "$[Cr(H_{2}O)_{6}]^{3+}$")
+check("补下标·链式 L_nM-CH2-CH2-R", conv("L_nM-CH2-CH2-R"), "$L_{n}M-CH_{2}-CH_{2}-R$")
+check("补下标·\\cdot 前段（含箭头）", conv("M_xA_y " + BS + "cdot nH2O -> M_xA_y + nH2O ^"),
+      "$M_{x}A_{y} " + BS + "cdot nH_{2}O " + ARROW + " M_{x}A_{y} + nH_{2}O " + UP + "$")
+check("补下标·\\cdot 前段（无箭头）", conv("M_xA_y " + BS + "cdot nH2O"),
+      "$M_{x}A_{y} " + BS + "cdot nH_{2}O$")
+
+# ── 🔴 反向：上标标号 + 连接号，绝不能吞连接号 ─────────────────
+check("反向·R^1-X 连接号保住", conv("R^1-X"), "$R^{1}-X$")
+check("反向·R^2-CONHR^1", conv("R^2-CONHR^1"), "$R^{2}-CONHR^{1}$")
+check("反向·Ar^1-N=N-Ar^2", conv("Ar^1-N=N-Ar^2"), "$Ar^{1}-N=N-Ar^{2}$")
+
+# ── 🔴 反向：命令尾字母不得当下标锚点 ───────────────────────────
+check("反向·\\cdot5H2O 系数不并进命令", conv("CuSO4" + BS + "cdot5H2O"),
+      "$CuSO_{4}" + BS + "cdot5H_{2}O$")
+
+# ── 🔴 反向：电荷上标不得被改、不得引入箭头 ────────────────────
 for src, must in [("Mn^{2+} + 2e- -> Mn", "Mn^{2+}"),
-                  ("Al^3+ + 3OH- -> Al(OH)3", "Al^{3}+"),
+                  ("Al^3+ + 3OH- -> Al(OH)3", "Al^{3+}"),
                   ("H+ + OH- -> H2O", "H^{+}")]:
     out = conv(src)
     ok = (UP not in out) and (DOWN not in out) and (must in out)
@@ -83,9 +108,11 @@ for src, must in [("Mn^{2+} + 2e- -> Mn", "Mn^{2+}"),
         print("   out:", repr(out))
         fails.append("反向·" + src)
 
-# ── 反向：常规式（无箭头记号）输出逐字不变 ───────────────────
-check("常规式不变", conv("PCl3 + Cl2 -> PCl5"),
-      "$PCl_{3} + Cl_{2} " + BS + "rightarrow PCl_{5}$")
+# ── 🔴 反向：常规式输出不得回归（无脚本分支的裸数字补下标）──────
+check("常规范式·PCl3/Cl2/PCl5", conv("PCl3 + Cl2 -> PCl5"),
+      "$PCl_{3} + Cl_{2} " + ARROW + " PCl_{5}$")
+check("常规范式·2H2O 系数不被吃", conv("2H2O"), "$2H_{2}O$")
+check("常规范式·H2O", conv("H2O"), "$H_{2}O$")
 
 print()
 if fails:

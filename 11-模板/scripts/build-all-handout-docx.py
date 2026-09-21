@@ -1288,17 +1288,57 @@ def _preprocess_ce_in_math(text: str) -> str:
           4. Bare digits after letters → _{digit}
           5. Leading digits → _{digit}
           6. Special chars (*, δ, Δ) preserved
+          7. LaTeX 命令尾巴绝不当下标锚点（`\\cdot5` ≠ `\\cdot_{5}`，见 `_mask_cmds`）
         """
         import re as _re
 
-        # Already fully specified with ^ or _ — just normalize bare markers.
+        _CMD_RE = _re.compile(r'\\[a-zA-Z]+')
+
+        def _mask_cmds(s):
+            """给「字母+数字 → 下标」规则**掩掉 LaTeX 命令**，只保留命令外的字母。
+
+            反例（必须避免）：`\\cdot5H2O` —— 若直接套 `([A-Za-z])(\\d)`，
+            命令尾字母 `t` + `5` 会被命中，产出 `\\cdot_{5}H2O`（把系数下标到命令上）。
+            做法：按命令切分，只对**非命令片段**套规则，再原样拼回。
+            实测全库「命令紧接数字」形态 = 0 处（见工单），故本掩码不改变任何既有输出，
+            纯属防复发。
+            """
+            cmds = _CMD_RE.findall(s)
+            if not cmds:
+                # ⚠️ 没有命令时**也必须套规则** —— 早期写成 `return s` 就直接漏掉了
+                #    「字母+数字 → 下标」这一步，导致 `PCl3`/`2H2O`/`H2O` 全丢下标
+                #    （靠实测校准抓回，见 test_ce_converter.py 的常规式用例）。
+                return _re.sub(r'([A-Za-z\)}])(\d)', r'\1_{\2}', s)
+            parts = _CMD_RE.split(s)
+            for i in range(len(parts)):
+                parts[i] = _re.sub(r'([A-Za-z\)}])(\d)', r'\1_{\2}', parts[i])
+            out = parts[0]
+            for i, c in enumerate(cmds):
+                out += c + parts[i + 1]
+            return out
+
+        # Already fully specified with ^ or _ — normalize bare markers **and still
+        # subscript the remaining bare digits**.
         # 注意：必须先匹配完整的 LaTeX 命令（`\beta`、`\alpha` …），否则 `C_\beta`
         # 会被切成 `_{\` + `beta` → `C_{\}beta`，产生无效 LaTeX 导致 pandoc 无法转换。
         _script_arg = r'(\\[a-zA-Z]+|\\.|[^{])'
         if '^' in species or _has_explicit_subscript(species):
-            s = _re.sub(r'\^' + _script_arg, r'^{\1}', species)
+            # ① 裸电荷先整体并入上标：`Cr2O7^2-` → `Cr2O7^{2-}`。
+            #    ⚠️ 负向先行断言不可省：全库另有 `R^1-X` / `Ar^1-N=N-Ar^2` 等
+            #    **上标标号 + 连接号** 26 处；少了 `(?![A-Za-z0-9])`，`^1-` 会被并成
+            #    `^{1-}`，把连接号吞进上标（`R^{1-}X`）。判据是「正负号之后不能再接
+            #    字母/数字」，`R^1-X` 的 `-` 后面是 `X` ⇒ 不匹配 ⇒ 安全。
+            s = _re.sub(r'\^(\d?)([+\-])(?![A-Za-z0-9])', r'^{\1\2}', species)
+            s = _re.sub(r'\^' + _script_arg, r'^{\1}', s)
             s = _re.sub(r'_' + _script_arg, r'_{\1}', s)
-            return s
+            # ② 补裸数字下标。
+            #    🔴 2026-09-21 修：此处原先**直接 return**，导致「凡是带 `^`/显式 `_`
+            #    的物种，其全部裸数字都丢下标」—— 全库 455 处 / 101 份文件。
+            #    典型：`MnO4^-`→`MnO4^{-}`（4 未下标）、`CO3^{2-}`→`CO3^{2-}`、
+            #    `[Cr(H2O)6]^{3+}`→`[Cr(H2O)6]^{3+}`、`Li_xC6`→`Li_{x}C6`。
+            #    这与库内既有的正确写法（`\mathrm{MnO_4^{-}}`，4 有下标）**自相矛盾**：
+            #    同一个 `MnO4`，无电荷时是 `MnO_{4}`、带电荷时却是 `MnO4`。
+            return _mask_cmds(s)
 
         # Detect trailing charge: ClO4- → charge -, H3O+ → charge +
         # Simple: match only the trailing +/- as the charge
@@ -1309,12 +1349,11 @@ def _preprocess_ce_in_math(text: str) -> str:
             base = species[:charge_match.start()]
             charge = charge_match.group(1)
             # Convert subscripts in the base part (digit after letter → _{digit})
-            base = _re.sub(r'([A-Za-z\)}])(\d)', r'\1_{\2}', base)
+            base = _mask_cmds(base)
             return base + '^{' + charge + '}'
 
         # No charge, no explicit subscripts — add subscripts for bare digits
-        result = _re.sub(r'([A-Za-z\)}])(\d)', r'\1_{\2}', species)
-        return result
+        return _mask_cmds(species)
 
     def _convert_ce_content(inner):
         """Convert full mhchem content to proper LaTeX.
