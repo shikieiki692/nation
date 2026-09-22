@@ -137,7 +137,9 @@ QB_ENUM: dict[str, list[str]] = {
     "fidelity": ["原书逐字", "原书改写", "自编"],
     "exam_stage": ["初赛", "决赛", "省预赛"],
     "subject_module": ["化学原理", "结构化学", "有机化学", "元素与分析"],
-    "pack": ["章节练习", "模块习题集", "综合模拟卷", "预赛专项"],
+    "pack": ["章节练习", "模块习题集", "综合模拟卷", "预赛专项", "综合套卷"],
+    # 综合套卷：2026-09-22 增（第一轮·综合套卷 24 份 pack 已由「综合模拟卷」正名为
+    # 「综合套卷」，见 04-课件/习题集/三·竞赛导向层（载体Ⅱ·Ⅲ）/第一轮·综合套卷/_待办-优化清单）
     # source_category：2026-09-06 全库落库（5,309 题），8 值白名单与
     # .workbuddy/scripts/apply_source_category.py 同口径；磁盘实测分布见当日清单报告
     "source_category": [
@@ -714,6 +716,53 @@ def check_headings(file: Path, body: str, report: Report) -> None:
             prev_level = level
 
 
+def check_student_edition(file: Path, body: str, report: Report) -> None:
+    """学生版禁含检查（2026-09-22 套卷工单·校验链①）。
+
+    文件名含「学生版」的卷面禁出现：<<<、见原卷、参考答案块。
+    这些是组卷管线历史缺陷模式（详见第一轮·综合套卷/_待办-优化清单）。
+    """
+    if "学生版" not in file.name:
+        return
+    hits = []
+    if "<<<" in body:
+        hits.append("<<<")
+    if "见原卷" in body:
+        hits.append("见原卷")
+    if re.search(r"^\*\*参考答案\*\*", body, re.M):
+        hits.append("参考答案块")
+    if hits:
+        report.warnings.append(
+            (str(file), "学生版禁含", "命中：" + "、".join(hits))
+        )
+
+
+_BASENAME_INDEX: dict[str, list[Path]] | None = None
+
+
+def check_basename_uniqueness(file: Path, report: Report) -> None:
+    """题卡 basename 全库唯一性（2026-09-22 题-NNN 冲突族·方案 B 闸门）。
+
+    仅对文件名以「题-」开头的题卡生效；basename 在全库（INCLUDE_DIRS）重名
+    记 Warning（存量冲突族见 初赛讲义 待办清单附录，方案 A 唯一化按需触发）。
+    """
+    global _BASENAME_INDEX
+    m0 = re.match(r"^(题-" + r"\d{3})-", file.name)
+    if not m0:
+        return
+    if _BASENAME_INDEX is None:
+        _BASENAME_INDEX = {}
+        for f in collect_md_files(VAULT_ROOT, INCLUDE_DIRS):
+            mm = re.match(r"^(题-" + r"\d{3})-", f.name)
+            if mm:
+                _BASENAME_INDEX.setdefault(mm.group(1), []).append(f)
+    others = _BASENAME_INDEX.get(m0.group(1), [])
+    if len(others) > 1:
+        report.warnings.append(
+            (str(file), "题卡basename重名", f"全库 {len(others)} 个同名（题-NNN 冲突族；组卷引用请用全路径链）")
+        )
+
+
 def check_stale(file: Path, fm: dict[str, Any], report: Report, threshold_days: int = 30) -> None:
     """检查 updated 日期是否过于陈旧。"""
     rel = file.relative_to(VAULT_ROOT).as_posix()
@@ -981,6 +1030,10 @@ def scan_file(file: Path, report: Report, quick: bool = False) -> None:
         check_headings(file, body, report)
         # 过期检查
         check_stale(file, fm, report)
+        # 学生版禁含检查（2026-09-22 套卷工单：学生版禁 <<</见原卷/答案块）
+        check_student_edition(file, body, report)
+        # 题卡 basename 全库唯一性（2026-09-22 题-NNN 冲突族·方案 B 闸门）
+        check_basename_uniqueness(file, report)
         # 反向索引构建（wikilink_map 已填充）
 
 
