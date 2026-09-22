@@ -23,7 +23,7 @@ status: 已填充
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
 source_norm: "一分册能力测试"
-used_in: "[[第一轮结构·4-晶体结构（教师版）]]"
+used_in: ["[[第一轮结构·4-晶体结构（教师版）]]", "[[初赛模拟卷VII（非有机）]]"]
 ---
 
 # 题-118-一分册测试-Ch7A-2-飞秒化学NaI与NaClO

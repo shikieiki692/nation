@@ -41,7 +41,7 @@ status: 已填充
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
 source_norm: "化学能力测试"
-used_in: "[[第一轮综合卷04（教师版）]]"
+used_in: ["[[第一轮综合卷04（教师版）]]", "[[初赛模拟卷VI（非有机）]]"]
 ---
 
 # 甲醇 PEMFC 与 CO 氧化动力学

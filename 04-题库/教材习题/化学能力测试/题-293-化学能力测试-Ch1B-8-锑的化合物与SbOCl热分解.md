@@ -41,6 +41,7 @@ status: 已填充
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
 source_norm: "化学能力测试"
+used_in: ["[[初赛模拟卷VI（非有机）]]"]
 ---
 
 # 锑的化合物与 SbOCl 热分解

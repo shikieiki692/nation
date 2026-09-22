@@ -20,6 +20,7 @@ status: 待审核
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
 
+used_in: ["[[初赛模拟卷VI（非有机）]]"]
 ---
 
 # HChO配-18 [AuL₄]Cl·xH₂O 的配体滴定推断（12 分）

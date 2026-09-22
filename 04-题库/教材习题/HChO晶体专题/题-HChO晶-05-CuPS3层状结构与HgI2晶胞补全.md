@@ -20,6 +20,7 @@ status: 待审核
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
 
+used_in: ["[[初赛模拟卷VII（非有机）]]"]
 ---
 
 # HChO晶-05 CuPS₃ 的层状结构与 HgI₂ 晶胞补全（11 分）

@@ -20,6 +20,7 @@ status: 待审核
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
 
+used_in: ["[[初赛模拟卷VI（非有机）]]"]
 ---
 
 # HChO晶-06 KMgF₃ 与 Cs₂Au₂Cl₆ 的结构与价态（15 分）

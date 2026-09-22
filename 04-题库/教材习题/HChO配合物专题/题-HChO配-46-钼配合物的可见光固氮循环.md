@@ -20,6 +20,7 @@ status: 待审核
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
 
+used_in: ["[[初赛模拟卷VIII（非有机）]]"]
 ---
 
 # HChO配-46 钼配合物的可见光固氮循环（13 分）

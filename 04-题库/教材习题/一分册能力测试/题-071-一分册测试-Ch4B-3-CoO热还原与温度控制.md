@@ -22,7 +22,7 @@ cross_references: []
 status: 已填充
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
-used_in: "[[综合模拟卷VII]]"
+used_in: ["[[综合模拟卷VII]]", "[[初赛模拟卷VI（非有机）]]"]
 source_norm: "一分册能力测试"
 ---
 
