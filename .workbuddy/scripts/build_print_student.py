@@ -315,12 +315,20 @@ def convert_one(src: Path, dst: Path, dry=False):
 
 
 def main():
+    global SRC, DST
     ap = argparse.ArgumentParser()
     ap.add_argument('--dry-run', action='store_true')
     ap.add_argument('--file', default='', help='文件名子串过滤（如 2-分子结构与化学键）')
+    ap.add_argument('--src', default='', help='源目录覆盖（默认习题书；2026-09-22 参数化，向后兼容）')
+    ap.add_argument('--dst', default='', help='目标目录覆盖（默认同源目录）')
+    ap.add_argument('--pattern', default='*-学生版.docx', help='学生版 glob（综合套卷用 *（学生版）.docx）')
     args = ap.parse_args()
+    if args.src:
+        SRC = Path(args.src)
+    if args.dst:
+        DST = Path(args.dst)
 
-    files = sorted(p for p in SRC.rglob('*-学生版.docx')
+    files = sorted(p for p in SRC.rglob(args.pattern)
                    if not p.stem.endswith('-学生版-打印版')
                    and (not args.file or args.file in p.stem))
     print(f"源文件 {len(files)} 个\n目标 {DST}\n" + "-" * 64)
@@ -328,7 +336,9 @@ def main():
     rows = []
     for f in files:
         rel = f.relative_to(SRC)
-        dst = (DST / rel).with_name(rel.stem + '-打印版.docx')
+        # 输出名：全角括号族「（学生版）」→「（学生版-打印版）」（综合套卷命名）；其余 stem+'-打印版'
+        stem = rel.stem.replace('（学生版）', '（学生版-打印版）')
+        dst = (DST / rel).with_name(stem + '.docx') if stem != rel.stem else (DST / rel).with_name(rel.stem + '-打印版.docx')
         try:
             r = convert_one(f, dst, dry=args.dry_run)
         except Exception as e:
