@@ -18,6 +18,8 @@ created: 2026-09-22
 updated: 2026-09-22
 status: 待审核
 source_category: 竞赛导向·竞赛教辅
+source_grade: A
+
 ---
 
 # HChO晶-04 Li₂TiF₆ 的金红石型结构与空间点阵形式（8 分）

@@ -19,6 +19,8 @@ knowledge_points:
   - "[[溶度积]]"
   - "[[稳定常数]]"
 source_category: 竞赛导向·竞赛教辅
+source_grade: A
+
 ---
 
 # 0407-7 Ag/AgCl 电极与银氨配位溶解度的计算（14 分）

@@ -18,6 +18,8 @@ created: 2026-09-21
 updated: 2026-09-21
 status: 待审核
 source_category: 竞赛导向·竞赛教辅
+source_grade: A
+
 ---
 
 # HChO配-28 IrH(PPh₃)₃CO 与含硼配体的反应（11 分）

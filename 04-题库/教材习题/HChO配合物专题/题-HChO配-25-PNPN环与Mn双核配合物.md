@@ -18,6 +18,8 @@ created: 2026-09-21
 updated: 2026-09-21
 status: 待审核
 source_category: 竞赛导向·竞赛教辅
+source_grade: A
+
 ---
 
 # HChO配-25 (PCl)₂(NBu-t)₂ 与 NaMn(CO)₅ 的反应产物（10 分）

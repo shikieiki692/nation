@@ -18,6 +18,8 @@ created: 2026-09-22
 updated: 2026-09-22
 status: 待审核
 source_category: 竞赛导向·竞赛教辅
+source_grade: A
+
 ---
 
 # HChO配-50 W(CO)₆ 与苯基锂的加成与卡宾配体（5 分）

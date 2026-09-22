@@ -18,6 +18,8 @@ created: 2026-09-22
 updated: 2026-09-22
 status: 待审核
 source_category: 竞赛导向·竞赛教辅
+source_grade: A
+
 ---
 
 # HChO晶-13 paramelaconite Cu₄O₃ 与 SrCu₂O₂（11 分）

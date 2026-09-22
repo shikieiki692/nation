@@ -18,6 +18,8 @@ created: 2026-09-21
 updated: 2026-09-21
 status: 待审核
 source_category: 竞赛导向·竞赛教辅
+source_grade: A
+
 ---
 
 # HChO配-17 Co(en)₂ 与 NO 反应体系的化学式推断（11 分）

@@ -18,6 +18,8 @@ created: 2026-09-22
 updated: 2026-09-22
 status: 待审核
 source_category: 竞赛导向·竞赛教辅
+source_grade: A
+
 ---
 
 # HChO晶-14 Ca₂N 的堆积方式、晶系与电子化物特征（10 分）

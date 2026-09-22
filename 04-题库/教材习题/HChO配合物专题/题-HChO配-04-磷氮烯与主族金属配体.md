@@ -18,6 +18,8 @@ created: 2026-09-21
 updated: 2026-09-21
 status: 待审核
 source_category: 竞赛导向·竞赛教辅
+source_grade: A
+
 ---
 
 # HChO配-04 磷氮烯与双（亚氨基膦）甲烷配体（12 分）

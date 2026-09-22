@@ -18,6 +18,8 @@ created: 2026-09-21
 updated: 2026-09-21
 status: 待审核
 source_category: 竞赛导向·竞赛教辅
+source_grade: A
+
 ---
 
 # HChO配-13 TiCp*Cl₂ 的二聚/三聚体与 Fe₅O 簇（11 分）

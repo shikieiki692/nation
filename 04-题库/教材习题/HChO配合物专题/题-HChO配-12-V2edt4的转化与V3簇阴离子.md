@@ -18,6 +18,8 @@ created: 2026-09-21
 updated: 2026-09-21
 status: 待审核
 source_category: 竞赛导向·竞赛教辅
+source_grade: A
+
 ---
 
 # HChO配-12 (NEt₄)₂[V₂(edt)₄] 的转化与 V₃ 簇阴离子（10 分）
