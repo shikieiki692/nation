@@ -14,7 +14,7 @@ question_count: 16
 
 # 初赛模拟卷 VII（非有机 · 答案版）
 
-> **组卷口径**：16 题跨 **7 个来源机构**抽取（0407物化特训、HChO晶体专题、一分册能力测试、上海中学竞赛课程、化学竞赛初赛讲义、化学能力测试、高中化学竞赛教程第一分册），均满足 `exam_stage=初赛`、`difficulty≥⭐⭐⭐⭐`、`fidelity=原书逐字`；**已剔除全部有机化学题目与真题改编题**，并与 [[04-题库/初赛模拟卷I（非有机·答案版）|卷 I]], [[04-题库/初赛模拟卷II（非有机·答案版）|卷 II]], [[04-题库/初赛模拟卷III（非有机·答案版）|卷 III]], [[04-题库/初赛模拟卷IV（非有机·答案版）|卷 IV]], [[04-题库/初赛模拟卷V（非有机·答案版）|卷 V]] 用题零重复。
+> **组卷口径**：16 题跨 **7 个来源机构**抽取（0407物化特训、HChO晶体专题、一分册能力测试、上海中学竞赛课程、化学竞赛初赛讲义、化学能力测试、高中化学竞赛教程第一分册），均满足 `exam_stage=初赛`、`difficulty≥⭐⭐⭐⭐`、`fidelity=原书逐字`；**已剔除全部有机化学题目与国内初赛真题**（国际竞赛真题与决赛难度题按用户口径允许），并与 [[04-题库/初赛模拟卷I（非有机·答案版）|卷 I]], [[04-题库/初赛模拟卷II（非有机·答案版）|卷 II]], [[04-题库/初赛模拟卷III（非有机·答案版）|卷 III]], [[04-题库/初赛模拟卷IV（非有机·答案版）|卷 IV]], [[04-题库/初赛模拟卷V（非有机·答案版）|卷 V]], [[04-题库/初赛模拟卷VI（非有机·答案版）|卷 VI]] 用题零重复。
 > **范围**：第一部分　元素化学与分析化学（第 1–7 题，59 分）、第二部分　结构化学（第 8–12 题，47 分）、第三部分　化学原理（第 13–16 题，38 分），**满分 144 分，建议用时 180 分钟**；难度 ⭐⭐⭐⭐ ×3、⭐⭐⭐⭐⭐ ×13。
 > 题卡溯源见卷末选题清单。
 
@@ -74,8 +74,11 @@ question_count: 16
 化学方程式为：
 
 (1) 碱熔（空气氧化 Fe²⁺/Mn²⁺）：
+
 $$4\mathrm{FeWO_4} + 8\mathrm{NaOH} + \mathrm{O_2} \longrightarrow 4\mathrm{Na_2WO_4} + 2\mathrm{Fe_2O_3} + 4\mathrm{H_2O}$$
+
 $$2\mathrm{MnWO_4} + 4\mathrm{NaOH} + \mathrm{O_2} \longrightarrow 2\mathrm{Na_2WO_4} + 2\mathrm{MnO_2} + 2\mathrm{H_2O}$$
+
 (产物写 Mn₂O₃ 或 Mn₃O₄ 也可)
 
 (2) 酸化沉淀：$\mathrm{Na_2WO_4} + 2\mathrm{HCl} \longrightarrow \mathrm{H_2WO_4}\downarrow + 2\mathrm{NaCl}$
@@ -85,13 +88,19 @@ $$2\mathrm{MnWO_4} + 4\mathrm{NaOH} + \mathrm{O_2} \longrightarrow 2\mathrm{Na_2
 **1-2** (1) $2\mathrm{WO_3} + 3\mathrm{C} \longrightarrow 2\mathrm{W} + 3\mathrm{CO_2}$（产物也可为 CO）
 
 (2) 298.15 K 时：
+
 $$\Delta H^{\theta} = [3\times(-393.51) - 2\times(-842.87)] = 505.21\ \mathrm{kJ\cdot mol^{-1}}$$
+
 $$\Delta S^{\theta} = (2\times32.64 + 3\times213.64 - 2\times75.90 - 3\times5.74) = 537.18\ \mathrm{J\cdot mol^{-1}\cdot K^{-1}}$$
+
 $$\Delta G^{\theta} = 505.21 - 298.15\times0.53718 = 345.05\ \mathrm{kJ\cdot mol^{-1}} > 0$$
+
 298.15 K 时标准自由能变是正值，此反应不能在该温度下自发进行。当 T > 505.21×1000/537.18 = 940.49 K 时，反应才有可能发生。
 
 **1-3** 钨的熔点很高，不容易转变为液态。若用碳作还原剂，混杂在金属中的碳不易除去，而且碳会在高温下与金属钨形成碳化钨（WC、W₂C），不易获得纯金属钨。用氢气作还原剂则不存在这些问题：
+
 $$\mathrm{WO_3} + 3\mathrm{H_2} \longrightarrow \mathrm{W} + 3\mathrm{H_2O}$$
+
 **1-4** 图(a)是仲钨酸根。图(a)：画面上的 12 个钨氧八面体的氧原子通过共顶共边排成 6:15:15:6 四层结构，共有 6+15+15+6 = 42 个氧原子，所以图(a)是仲钨酸根 [H₂W₁₂O₄₂]¹⁰⁻。
 
 图(b)：含 10 个钨氧八面体，氧原子排成 1:4:9:4:9:4:1 层状结构共 32 个氧，不足 12 个八面体，是十钨酸根 W₁₀O₃₂⁴⁻。
@@ -107,12 +116,17 @@ $$\mathrm{WO_3} + 3\mathrm{H_2} \longrightarrow \mathrm{W} + 3\mathrm{H_2O}$$
 ![[14b429565408461a64631e6d82f015c0fb91b7f17b5bdb886aa1a651de18204a.jpg]]
 
 **1-5** (1) 已知钨的质量分数 0.7985，氧的质量分数 0.2015：
+
 $$n(\mathrm{W}) = 0.7985/183.84 = 4.343\times 10^{-3}\ \mathrm{mol},\quad n(\mathrm{O}) = 0.2015/16.00 = 12.59\times 10^{-3}\ \mathrm{mol}$$
+
 $$n(\mathrm{W}):n(\mathrm{O}) = 1:2.90$$
+
 即在 WO₃₋ₓ 中：3−x = 2.90，所以 x = 0.10。
 
 (2) 把 +5 价和 +6 价钨的氧化物分别写成 WO₂.₅ 与 WO₃。设蓝色氧化钨组成为 xWO₂.₅·yWO₃ = WO₂.₉₀：
+
 $$x + y = 1,\quad 2.5x + 3y = 2.90$$
+
 解得 x = 0.20、y = 0.80。故 n(W(V)):n(W(VI)) = 0.20:0.80 = 1:4（0.25）。
 
 ---
@@ -191,9 +205,11 @@ $Cr_{2}O_{7}^{2-}\sim3I_{2}\sim6S_{2}O_{3}^{2-}$ （写方程式亦可），故�
 三次测定浓度分别为 $0.09456 \, mol \cdot L^{-1}$ ， $0.09437 \, mol \cdot L^{-1}$ 和 $0.09464 \, mol \cdot L^{-1}$ 平均浓度为 $0.09452 \, mol \cdot L^{-1}$ ，
 
 相对平均偏差 0.11%(有效数字也可取一位,若多于两位则扣分)。
+
 $$
 (2) \mathrm{Ag} _ {2} \mathrm{O} _ {3} + 6 \mathrm{KI} + 6 \mathrm{HCl} \longrightarrow 2 \mathrm{AgI} + 2 \mathrm{I} _ {2} + 6 \mathrm{KCl} + 3 \mathrm{H} _ {2} \mathrm{O}
 $$
+
 $2Na_{2}S_{2}O_{3}+I_{2}\longrightarrow Na_{2}S_{4}O_{6}+2NaI$ （离子方程式也可）
 
 由方程式知 $\mathrm{Ag_2O_3\sim 4Na_2S_2O_3}$
@@ -247,13 +263,17 @@ F:
 ![[87e7f892d41865f7b95386d3db6deb5dcc0713d8b8f25d9421172b4ab30f1fef.jpg]]
 
 $2\mathrm{N}_{2}\mathrm{F}_{2} + \mathrm{SnF}_{4}\longrightarrow [\mathrm{N}_{2}\mathrm{F}]_{2}^{+}[\mathrm{SnF}_{6}]^{2-}$
+
 $$
 \left[ \mathrm{N} _ {2} \mathrm{F} \right] _ {2} ^ {+} \left[ \mathrm{SnF} _ {6} \right] ^ {2 -} \longrightarrow \left[ \mathrm{N} _ {2} \mathrm{F} \right] ^ {+} \left[ \mathrm{SnF} _ {5} \right] ^ {-} + \mathrm{N} _ {2} \mathrm{F} _ {2}
 $$
+
 (5) 阳离子的化学式为 $NF_{4}^{+}$
+
 $$
 \mathrm{NF} _ {3} + \mathrm{F} _ {2} + \mathrm{BF} _ {3} \longrightarrow \mathrm{NF} _ {4} ^ {+} \mathrm{BF} _ {4} ^ {-}
 $$
+
 $NF_{4}^{+}$ 水解反应首先得到 HOF(否则写不出配平的 $NF_{4}^{+}$ 水解反应):
 
 $NF_{4}^{+} + H_{2}O \longrightarrow NF_{3} + HOF + H^{+}$ 定量生成 $NF_{3}$ 。
@@ -267,9 +287,11 @@ $NF_{4}^{+} + H_{2}O \longrightarrow NF_{3} + HOF + H^{+}$ 定量生成 $NF_{3}$
 > 来源：化学竞赛初赛讲义·第6讲·推断技术｜难度 ⭐⭐⭐⭐⭐
 
 以下过程得到了一种元素的极不常见价态的化合物，全过程中各物质仅含 $\mathrm{F},\mathrm{Xe}$ 金属元素A以及标出的Cs。已知X中某一元素质量分数 $\omega = 22.44\%$ ，Y中 $\omega (\mathrm{F}) = 41.27\%$ ， $\omega (X_{\mathrm{e}}) =$ $33.55\% ,\mathbf{Z}$ 中某一元素质量分数 $\omega = 25.70\%$ （式中并未表示出化学计量比）
+
 $$
 \mathrm{XeF} _ {2} + \mathrm{F} _ {2} + \mathbf {X} \longrightarrow \mathbf {Y} \xrightarrow {\mathrm{CsF}} \mathrm{XeF} _ {6} + \mathbf {Z} 。
 $$
+
 1. 试写出金属元素 A、X、Y、Z 并指出 A 在 Z 中的价态。
 
 2. 写出上面两个化学反应的方程式。
@@ -424,7 +446,9 @@ BP 的生成速率与反应物的浓度有关，如表所示：
 #### 答案
 
 **8-1**
+
 $$\mathrm{BBr_3} + \mathrm{PBr_3} + 3\mathrm{H_2} \longrightarrow \mathrm{BP} + 6\mathrm{HBr}$$
+
 **8-2** 三溴化硼为平面正三角形（B sp²），三溴化磷为三角锥形（P 有一孤对电子，sp³ 不等性杂化）：
 
 ![[89da4f97a0476565b13c429fe0e5defe5256ef47ddc72f25dae5025d0c4f1ca1.jpg]]
@@ -438,20 +462,29 @@ $$\mathrm{BBr_3} + \mathrm{PBr_3} + 3\mathrm{H_2} \longrightarrow \mathrm{BP} + 
 **8-4** B 原子为 fcc：顶点 $8\times 1/8 = 1$，面心 $6\times 1/2 = 3$，共 4 个；P 原子 4 个位于四面体空隙（填 8 个四面体空隙的一半）。晶胞组成 = 4 BP。
 
 **8-5** 硼和磷的相对原子质量分别为 11 和 31：
+
 $$\rho = \frac{m}{V} = \frac{nM_{\mathrm{BP}}}{N_A a^3} = \frac{4\times 42}{6.022\times 10^{23}\times (4.78\times 10^{-10})^3} = 2554\ \mathrm{kg\cdot m^{-3}}$$
+
 **8-6** B—P 之间的距离 $d = \frac{\sqrt{3}}{4}a = \frac{\sqrt{3}}{4}\times 4.78 = 2.069\ \mathrm{Å}$。
 
 **8-7** BP 晶格能：
+
 $$U = -\frac{1390\times 3\times 3\times 1.638}{2.069}\times\frac{6}{7} = -8489\ \mathrm{kJ\cdot mol^{-1}}$$
+
 （B 与 P 均为 +3/−3 假想离子模型；Born-Lande 以 r₊+r₋ = d(B—P) 代入。）
 
 **8-8** 根据质量作用定律：$r = k[\mathrm{BBr_3}]^m[\mathrm{PBr_3}]^n$。代入数据可求出 m = n = 1。因此反应级数为 2，速率方程 $r = k[\mathrm{BBr_3}][\mathrm{PBr_3}]$（H₂ 浓度改变不影响速率 → H₂ 级数为 0）。
 
 **8-9**
+
 $$k_{800} = \frac{4.60\times 10^{-8}}{2.25\times 10^{-6}\times 9\times 10^{-6}} = 2272\ \mathrm{L^2\cdot mol^{-1}\cdot s^{-1}}$$
+
 $$k_{880} = \frac{19.6\times 10^{-8}}{2.25\times 10^{-6}\times 9\times 10^{-6}} = 9679\ \mathrm{L^2\cdot mol^{-1}\cdot s^{-1}}$$
+
 **8-10** 用阿伦尼乌斯方程（T₁ = 1073 K，T₂ = 1153 K）：
+
 $$E_a = -R\ln(k_2/k_1)\times\left(\frac{1}{T_2} - \frac{1}{T_1}\right)^{-1} = -8.314\times\ln(9679/2272)\times\left(\frac{1}{1153}-\frac{1}{1073}\right)^{-1} = 186\ \mathrm{kJ\cdot mol^{-1}}$$
+
 ---
 
 ### 第 9 题（8 分）离子晶体半径比与配位数
@@ -542,15 +575,19 @@ a²c = 3a³ = V = [zM/DN_A = 4×190.73 g·mol⁻¹/(2.91 g·cm⁻³×6.022×10²
 #### 答案
 
 11-1 立方密堆积；6；4。
+
 $$
 8 - 2 \quad \mathrm{Ba} (\mathrm{OH}) _ {12} ^ {10 -}; \mathrm{Ti} (\mathrm{OH}) _ {6} ^ {2 -};
 $$
+
 $$
 \mathrm{Ba} ^ {2 +} + 2 \mathrm{OH} ^ {-} + 10 \mathrm{H} _ {2} \mathrm{O} = \mathrm{Ba(OH)} _ {12} ^ {10 -} + 10 \mathrm{H} ^ {+};
 $$
+
 $$
 \mathrm{Ti} ^ {4 +} + 2 \mathrm{OH} ^ {-} + 4 \mathrm{H} _ {2} \mathrm{O} = \mathrm{Ti} (\mathrm{OH}) _ {6} ^ {2 -} + 4 \mathrm{H} ^ {+} [ \text {或} \mathrm{TiO} _ {3} ^ {2 -} + 3 \mathrm{H} _ {2} \mathrm{O} = \mathrm{Ti} (\mathrm{OH}) _ {6} ^ {2 -} ] 。
 $$
+
 11-3 立方体; $Ce^{4+}$ 离子的配位数为8。
 
 11-4 八面体；
@@ -576,9 +613,11 @@ $$
 ②与⑦、②与⑧形成的液体化合物是常见的重要溶剂，则②、⑦、⑧三种元素最高价氧化物对应的水化物酸性由强到弱的顺序是：\_\_\_\_（用化学式表示）。
 
 (2) 若甲、乙、丙、丁、戊均为上述八种短周期元素中的某些元素组成的单质或由其中两种元素组成的化合物，且甲、戊为无色气体，反应 a 为置换反应，反应 b 为化合反应。见下图示转化关系推测：
+
 $$
 \begin{array}{c} \text{甲} \\ \text{乙} \end{array} \xrightarrow{\text{反应a}} \begin{array}{c} \text{丙} \\ \text{丁} \end{array} \xrightarrow[\text{反应b}]{\text{+甲}} \text{戊}
 $$
+
 戊可能为：\_\_\_\_、\_\_\_\_（列举合适的两例）。
 
 若甲是 $\mathrm{O}_{2}$、乙是 $\mathrm{N}_{2}\mathrm{H}_{4}$，反应 a 是在强碱性溶液中进行的原电池反应，则负极发生的电极反应式为：\_\_\_\_。
@@ -600,9 +639,11 @@ $$
 **整理者解析**：
 
 (1) 锚点"液体化合物是常见的重要溶剂"：②与⑦、②与⑧的液体化合物分别为 CS₂、CCl₄（经典有机溶剂）→ ②=C、⑦=S、⑧=Cl（表格中 ② 在上一行、⑦⑧ 在其下一行偏右，与 C/第三周期ⅥAⅦA 位置吻合）。最高价氧化物对应水化物酸性：
+
 $$
 \mathrm{HClO}_{4}>\mathrm{H}_{2}\mathrm{SO}_{4}>\mathrm{H}_{2}\mathrm{CO}_{3}
 $$
+
 (2) 置换反应 a（甲+乙→丙+丁）与化合反应 b（丁/丙+甲→戊，戊无色气体）串联：
 
 - 取乙为 H₂S：$2\mathrm{H}_{2}\mathrm{S}+\mathrm{O}_{2}\xrightarrow{\text{点燃}}2\mathrm{S}+2\mathrm{H}_{2}\mathrm{O}$（O₂ 置换出硫），S+O₂→SO₂（无色气体，化合 ✓）→ **戊为 SO₂**；
@@ -611,16 +652,20 @@ $$
 （甲=O₂，两例中甲均为无色气体 ✓）
 
 若甲是 O₂、乙是 N₂H₄（肼），强碱性溶液中的原电池（肼-氧燃料电池），负极肼失电子氧化：
+
 $$
 \mathrm{N}_{2}\mathrm{H}_{4}-4\mathrm{e}^{-}+4\mathrm{OH}^{-}=\mathrm{N}_{2}\uparrow+4\mathrm{H}_{2}\mathrm{O}
 $$
+
 (3) 转化关系：A+B —反应c→ C+D；C —（用惰性电极电解）反应d→ A+E。
 
 - 情景一：A=Cu（常见金属），反应 c 为用 Cu 作电极电解 B（AgNO₃）溶液：阳极 Cu−2e⁻=Cu²⁺、阴极 Ag⁺+e⁻=Ag（D），溶液转变成 C（Cu(NO₃)₂）；反应 d 电解 Cu(NO₃)₂ 溶液回收 A。**阴极电极反应式：$\mathrm{Cu}^{2+}+2\mathrm{e}^{-}=\mathrm{Cu}$**。
 - 情景二：高温放热、工业重要、C 为两性化合物 → 铝热反应（A=Al、C=Al₂O₃ 两性 ✓）：
+
 $$
 2\mathrm{Al}+\mathrm{Fe}_{2}\mathrm{O}_{3}\xrightarrow{\text{高温}}\mathrm{Al}_{2}\mathrm{O}_{3}+2\mathrm{Fe}
 $$
+
 **参考解答**
 
 (1) $\mathrm{HClO}_{4}>\mathrm{H}_{2}\mathrm{SO}_{4}>\mathrm{H}_{2}\mathrm{CO}_{3}$
@@ -799,9 +844,11 @@ n(Fe) = 3n(Fe₃O₄) = 0.0259 mol，m(Fe) = 1.45 g。
 > 来源：高中化学竞赛教程第一分册 测试题三｜难度 ⭐⭐⭐⭐⭐
 
 硫化钠是用于皮革鞣制的重要化学试剂，可用无水芒硝 $\left(\mathrm{Na}_2\mathrm{SO}_4\right)$ 与炭粉在高温下反应而制得，反应式如下：
+
 $$
 \begin{array}{r l} & ①\ \mathrm{Na_2SO_4} + 4\mathrm{C} \xrightarrow{\text{高温}} \mathrm{Na_2S} + 4\mathrm{CO}\uparrow \\ & ②\ \mathrm{Na_2SO_4} + 4\mathrm{CO} \xrightarrow{\text{高温}} \mathrm{Na_2S} + 4\mathrm{CO_2} \end{array}
 $$
+
 (1) 现要制取 $Na_2S$ 7.80 g，若生产过程中无水芒硝（$Na_2SO_4$）的利用率为 90%，则理论上需要无水芒硝（$Na_2SO_4$）____g（精确到 0.01）；
 
 (2) 若在反应中生成的 $\mathrm{Na}_2\mathrm{S}$ 物质的量为 1 mol，则消耗的碳单质的物质的量 $n$ 的范围是____ < n < ____；

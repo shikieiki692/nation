@@ -14,7 +14,7 @@ question_count: 16
 
 # 初赛模拟卷 VIII（非有机 · 答案版）
 
-> **组卷口径**：16 题跨 **7 个来源机构**抽取（0407物化特训、HChO配合物专题、一分册能力测试、上海中学竞赛课程、化学竞赛初赛讲义、化学能力测试、高中化学竞赛教程第一分册），均满足 `exam_stage=初赛`、`difficulty≥⭐⭐⭐⭐`、`fidelity=原书逐字`；**已剔除全部有机化学题目与真题改编题**，并与 [[04-题库/初赛模拟卷I（非有机·答案版）|卷 I]], [[04-题库/初赛模拟卷II（非有机·答案版）|卷 II]], [[04-题库/初赛模拟卷III（非有机·答案版）|卷 III]], [[04-题库/初赛模拟卷IV（非有机·答案版）|卷 IV]], [[04-题库/初赛模拟卷V（非有机·答案版）|卷 V]] 用题零重复。
+> **组卷口径**：16 题跨 **7 个来源机构**抽取（0407物化特训、HChO配合物专题、一分册能力测试、上海中学竞赛课程、化学竞赛初赛讲义、化学能力测试、高中化学竞赛教程第一分册），均满足 `exam_stage=初赛`、`difficulty≥⭐⭐⭐⭐`、`fidelity=原书逐字`；**已剔除全部有机化学题目与国内初赛真题**（国际竞赛真题与决赛难度题按用户口径允许），并与 [[04-题库/初赛模拟卷I（非有机·答案版）|卷 I]], [[04-题库/初赛模拟卷II（非有机·答案版）|卷 II]], [[04-题库/初赛模拟卷III（非有机·答案版）|卷 III]], [[04-题库/初赛模拟卷IV（非有机·答案版）|卷 IV]], [[04-题库/初赛模拟卷V（非有机·答案版）|卷 V]], [[04-题库/初赛模拟卷VI（非有机·答案版）|卷 VI]], [[04-题库/初赛模拟卷VII（非有机·答案版）|卷 VII]] 用题零重复。
 > **范围**：第一部分　元素化学与分析化学（第 1–7 题，64 分）、第二部分　结构化学（第 8–12 题，49 分）、第三部分　化学原理（第 13–16 题，37 分），**满分 150 分，建议用时 180 分钟**；难度 ⭐⭐⭐⭐ ×6、⭐⭐⭐⭐⭐ ×10。
 > 题卡溯源见卷末选题清单。
 
@@ -27,9 +27,11 @@ question_count: 16
 > 来源：化学竞赛初赛讲义·第9讲·溶液与化学分析｜难度 ⭐⭐⭐⭐
 
 渗透方法可以用来研究小分子物质(如小分子药物、荧光探针)和大分子(如蛋白质、DNA)的结合情况。这在药物化学等领域十分重要。试考虑以下理论模型：某渗析袋中含有分析浓度为 $c_{M}$ 的大分子物质M和分析浓度为 $c_{A}$ 的小分子物质A。其中渗析袋中存在自由(free)的A和结合(bound)的A,因此我们可以写 $c_{A}=[A_{free}]+[A_{bound}]$ 。当达到渗透平衡时，设法测量袋子外的A的浓度 $[A_{out}]$ 。引入结合率 $v=[A_{bound}]/c_{M}$ ,且认为结合平衡为
+
 $$
 \mathbf {X} + \mathbf {A} \longrightarrow \mathbf {X A}, K = \frac {[ \mathbf {X A} ]}{[ \mathbf {X} _ {\text { free }} ] [ \mathbf {A} _ {\text { free }} ]}.
 $$
+
 1. 证明： $K=\frac{v}{(1-v)[A_{\mathrm{out}}]}$ 。
 2. 更实际地，若每分子 M 可结合 N 个 A。证明： $\frac{v}{[A_{out}]} = KN - Kv$ 。
 3. 溴化乙锭(EB)可以通过芳环插入DNA的碱基对之间从而与DNA结合。现在利用EB对1.00μmol/L的DNA做上述实验，测得渗析袋内EB的总浓度(单位:μmol/L)变化如下表所示。请求出结合常数和平均结合位点数。
@@ -170,13 +172,17 @@ D 中含氮量更大, 达到 91.24%。E 与 C 在液态 $SO_{2}$ 中以 1:1 摩�
 (3) C 为 $\mathrm{N}_{5}^{+}\mathrm{SbF}_{6}^{-}$
 
 ![[0acdc98c8d26f0b29984fa90f920190e3237df6b448c692bf05a3ebbe7c753ba.jpg]]
+
 $$
 4 \mathrm{N} _ {5} ^ {+} \mathrm{SbF} _ {6} ^ {-} + 2 \mathrm{H} _ {2} \mathrm{O} \longrightarrow 10 \mathrm{N} _ {2} \uparrow + \mathrm{O} _ {2} \uparrow + 4 \mathrm{HF} + 4 \mathrm{SbF} _ {5}
 $$
+
 或 $4\mathrm{N}_{5}^{+}\mathrm{SbF}_{6}^{-} + 2\mathrm{H}_{2}\mathrm{O}\longrightarrow 10\mathrm{N}_{2}\uparrow +\mathrm{O}_{2}\uparrow +4\mathrm{HF}\cdot \mathrm{SbF}_{5}$
+
 $$
 (4) 4 \mathrm{N} _ {5} ^ {+} \cdot \mathrm{P} (\mathrm{N} _ {3}) _ {6} ^ {-} + 5 \mathrm{O} _ {2} \longrightarrow 46 \mathrm{N} _ {2} + 2 \mathrm{P} _ {2} \mathrm{O} _ {5}
 $$
+
 ---
 
 ### 第 5 题（6 分）贵金属提取工艺方程式
@@ -197,9 +203,11 @@ $$
 > 来源：化学竞赛初赛讲义·第6讲·推断技术｜难度 ⭐⭐⭐⭐
 
 在 $40^{\circ} \mathrm{C}$ 加热 $3.109 \mathrm{~g}$ 白色二元化合物盐类A可生成 $2.754 \mathrm{~g}$ 盐B和黄绿色具刺激性气味的气体X。在 $55^{\circ} \mathrm{C}$ 继续加热B可得 $2.577 \mathrm{~g}$ 盐C和气体X。盐A是一种很强的氧化剂，当用KI处理之时可得黑色化合物D，后者的相对分子质量是A的1.882倍。如果向D中加入过量的KI则发生氧化还原反应得到络盐E。E的阴离子和B的阴离子的结构相似。
+
 $$
 \mathbf {E} \xleftarrow {\text {过量KI}} \mathbf {D} \xleftarrow {\mathrm{KI}} \mathbf {A} \xrightarrow {40 ^ {\circ} \mathrm{C} , - \mathbf {X}} \mathbf {B} \xrightarrow {55 ^ {\circ} \mathrm{C} , - \mathbf {X}} \mathbf {C}
 $$
+
 1. 推出 A\~E 和 X。提示: A\~C 的阴离子互不相同。
 2. 写出所有反应的方程式。
 3. 画出 B\~E 的阴离子的结构。
@@ -290,8 +298,11 @@ $\mathrm{Fe^{3+}}$：它与 $\mathrm{Na_2CO_3}$ 也因水解生成红棕色 $\ma
 7-3 $\mathrm{BrO}_{4}^{-}$；$\mathrm{Rb}_{2}\mathrm{SeO}_{4}$；$\mathrm{Kr}$。
 
 7-4 $3\mathrm{Se} + 4\mathrm{HNO}_3 + \mathrm{H}_2\mathrm{O} \longrightarrow 3\mathrm{H}_2\mathrm{SeO}_3 + 4\mathrm{NO}\uparrow$，$\mathrm{H_2SeO_3 + 2RbOH \longrightarrow Rb_2SeO_3 + 2H_2O}$，
+
 $$\mathrm{Rb}_{2}\mathrm{SeO}_{3} + \mathrm{O}_{3} \longrightarrow \mathrm{Rb}_{2}\mathrm{SeO}_{4} + \mathrm{O}_{2}$$
+
 $${}^{83}_{34}\mathrm{SeO}_{4}^{2-} \longrightarrow {}^{83}_{35}\mathrm{BrO}_{4}^{-} + \mathrm{e}$$
+
 7-5 $\mathrm{XeF}_{2} + 2\mathrm{OH}^{-} + \mathrm{BrO}_{3}^{-} \longrightarrow \mathrm{Xe}\uparrow + \mathrm{BrO}_{4}^{-} + 2\mathrm{F}^{-} + \mathrm{H}_{2}\mathrm{O}$。
 
 <!-- 校勘注: 试题 md 中 A 卷第 8 题之后的孤立残句「在过去一个半世纪的时间内，一直试图合成粒子 A 离子。1968 年利用核化学方法经多步合成」为本题题干的错位重复，已在题-105 校勘注声明剔除，本文件照录完整版题干；7-1 第一式 OCR 仅「+ n」，依核反应配平补全 ¹₀n 角标（置信度高）；7-4 末式 ⁸³₃₄SeO₄²⁻→⁸³₃₅BrO₄⁻+e 为 β-蜕变核反应式照录；X 为硒（天然同位素 74/76/77/78/80/82，34 号），A=BrO₄⁻、B=Rb₂SeO₄、C=⁸³Kr；7-5 验算电荷左 −3 右 −3 ✓、H₂/F₂/O₅ 原子平 ✓；余为原书逐字 -->
@@ -317,15 +328,19 @@ $${}^{83}_{34}\mathrm{SeO}_{4}^{2-} \longrightarrow {}^{83}_{35}\mathrm{BrO}_{4}
 2. $Mg_{3}Si_{2}O_{5}(OH)_{4}$
 
 3. 化学式为 $Si_{3}Al_{4}O_{12}$，方程式如下：
+
 $$
 \mathrm{Al}_{2}\mathrm{Si}_{2}\mathrm{O}_{5}(\mathrm{OH})_{4} \longrightarrow \mathrm{Al}_{2}\mathrm{Si}_{2}\mathrm{O}_{7} + 2\mathrm{H}_{2}\mathrm{O}
 $$
+
 $$
 2\mathrm{Al}_{2}\mathrm{Si}_{2}\mathrm{O}_{7} \longrightarrow \mathrm{Si}_{3}\mathrm{Al}_{4}\mathrm{O}_{12} + \mathrm{SiO}_{2}
 $$
+
 $$
 3\mathrm{Si}_{3}\mathrm{Al}_{4}\mathrm{O}_{12} \longrightarrow 2\mathrm{Si}_{2}\mathrm{Al}_{6}\mathrm{O}_{13} + 5\mathrm{SiO}_{2}
 $$
+
 ---
 
 ### 第 9 题（10 分）配套能力测试 第6章
@@ -516,13 +531,17 @@ Na⁺ 离子用●表示， Cl⁻ 离子用○表示。在 NaCl 晶体中每个 
 步骤一: 计算表面原子数。
 
 可用 $n = 2,3$ 的晶胞聚合体建立模型，得出计算公式，用以计算 $n = 10$ 。观察发现，聚集体表面的原子按几何特征不同，可以分为如下6类，每一类原子都可以列出一个计算式，相加，即得到表面原子数的计算公式：
+
 $$[ 8 ] + [ (n - 1) \times 12 ] + [ n \times 12 ] + [ (n - 1) ^ {2} \times 6 ] + [ n ^ {2} \times 6 ] + [ (n - 1) \times n \times 2 \times 6 ]$$
+
 顶角+棱上棱交点+棱上核心+面上棱交点+面上面心+面上棱心
 
 $n = 10$ ，表面原子总数为2402。
 
 步骤二: 计算晶胞聚合体总原子数。若按计算晶胞原子数来计算 $10 \times 10 \times 10$ 晶胞聚集体的总原子数, 得到的数是 8000, 然而, 该数中聚集体顶角原子只计算了 1/8, 应当补足 7 个。总共要补足多少个原子? 只需将上式中 6 类原子一类一类考查, 就可明确, 如面上的原子补足 1/2 个, 棱上的原子补足 3/4 个。因此有:
+
 $$n ^ {3} \times 8 + [ 8 ] \times 7 / 8 + [ (n - 1) \times 12 ] \times 3 / 4 + [ n \times 12 ] \times 3 / 4 + [ (n - 1) ^ {2} \times 6 ] / 2 + [ n ^ {2} \times 6 ] / 2 + [ (n - 1) \times n \times 2 \times 6 ] / 2 = 8000 + 7 + 81 + 90 + 243 + 300 + 540 = 9261$$
+
 表面原子占总原子数的分数： $(2402 / 9261)\times 100\% = 26\%$
 
 另解：
@@ -601,11 +620,17 @@ $$n ^ {3} \times 8 + [ 8 ] \times 7 / 8 + [ (n - 1) \times 12 ] \times 3 / 4 + [
 14-1 因 B 的密度是空气的 0.139 倍，因此 $M(B)=0.139\times29\ \mathrm{g\cdot mol^{-1}}=4\ \mathrm{g\cdot mol^{-1}}$，即 B 为 HT。因此 A 中含有 T，又因为 A 在热核动力中提供能量，因此含有 Li 元素。故 A 为 LiT。
 
 14-2 氧化物 C 与 $\mathrm{SO}_2$ 发生反应，有沉淀产生，说明该氧化物具有氧化性，因为 $\mathrm{SO}_2$ 具有较强的还原性，因此可设 C 为 $\mathrm{XO}_{n/2}$。然后根据题意进行假设讨论，得到 C 为 $\mathrm{SeO}_2$，D 为 $\mathrm{Se}$。
+
 $$\mathrm{SeO}_2 + 2\mathrm{SO}_2 + 2\mathrm{H}_2\mathrm{O} = \mathrm{Se} + 2\mathrm{H}_2\mathrm{SO}_4$$
+
 $$\mathrm{SeO}_2 + \mathrm{H}_2\mathrm{O}_2 = \mathrm{H}_2\mathrm{SeO}_4$$
+
 $$\mathrm{H}_2\mathrm{SeO}_4 + 2\mathrm{NaOH} = \mathrm{Na}_2\mathrm{SeO}_4 + 2\mathrm{H}_2\mathrm{O}$$
+
 14-3 $\quad 2\mathrm{VO}_2\mathrm{Cl} + \mathrm{Zn} + 4\mathrm{HCl} = 2\mathrm{VOCl}_2 + \mathrm{ZnCl}_2 + 2\mathrm{H}_2\mathrm{O}$（黄色变为蓝色）
+
 $$2\mathrm{VOCl}_2 + \mathrm{Zn} + 4\mathrm{HCl} = 2\mathrm{VCl}_3 + \mathrm{ZnCl}_2 + 2\mathrm{H}_2\mathrm{O}$$（蓝色变为绿色）
+
 $$2\mathrm{VCl}_3 + \mathrm{Zn} = 2\mathrm{VCl}_2 + \mathrm{ZnCl}_2$$（绿色变为紫色）
 
 （14-4 解答随小问移除——完全同题，见 [[04-题库/真题/第25届决赛/理论/题-025决-1-4-O2AuF6推断]]。）
@@ -648,35 +673,59 @@ $$2\mathrm{VCl}_3 + \mathrm{Zn} = 2\mathrm{VCl}_2 + \mathrm{ZnCl}_2$$（绿色�
 #### 答案
 
 **15-1**
+
 $$\mathrm{SO_2(g) + 2NH_3(g) + H_2O(g) = (NH_4)_2SO_3(s)}\quad \text{①}$$
+
 $$\mathrm{SO_2(g) + 2NH_3(g) + H_2O(g) + \tfrac{1}{2}O_2(g) = (NH_4)_2SO_4(s)}\quad \text{②}$$
+
 **15-2** 298.15 K 下由题给数据求 $\Delta_{\mathrm{r}}H^{\theta}$ 和 $\Delta_{\mathrm{r}}S^{\theta}$：
 
 反应 ①：
+
 $$\Delta_\mathrm{r}H^\theta_\mathrm{m} = 85.33 - [(-296.83) + 2\times(-45.90) + (-241.82)] = -254.88\ \mathrm{kJ\cdot mol^{-1}}$$
+
 $$\Delta_\mathrm{r}S^\theta_\mathrm{m} = 240.64 - [248.11 + 2\times 192.77 + 188.72] = -581.73\ \mathrm{J\cdot K^{-1}\cdot mol^{-1}}$$
+
 反应 ②：
+
 $$\Delta_\mathrm{r}H^\theta_\mathrm{m} = -1180.85 - [(-296.83) + 2\times(-45.90) + (-241.82) + 0] = -550.40\ \mathrm{kJ\cdot mol^{-1}}$$
+
 $$\Delta_\mathrm{r}S^\theta_\mathrm{m} = 220.08 - [248.11 + 188.72 + 2\times 192.77 + 0.5\times 205.03] = -704.805\ \mathrm{J\cdot K^{-1}\cdot mol^{-1}}$$
+
 T = 353.15 K（80℃），$\Delta_{\mathrm{r}}H^{\theta}$、$\Delta_{\mathrm{r}}S^{\theta}$ 不随温度变：
 
 反应 ①：
+
 $$\Delta_\mathrm{r}G^\theta_\mathrm{m} = -254880 + 353.15\times 581.73 = -49442\ \mathrm{J\cdot mol^{-1}}$$
+
 $$K_\mathrm{p}^\theta = \exp(49442/(8.314\times 353.15)) = \exp(16.839) = 2.057\times 10^7$$
+
 反应 ②：
+
 $$\Delta_\mathrm{r}G^\theta_\mathrm{m} = -550400 + 353.15\times 704.805 = -301.50\ \mathrm{kJ\cdot mol^{-1}}$$
+
 $$K_\mathrm{p}^\theta = \exp(301498/(8.314\times 353.15)) = \exp(102.687) = 3.948\times 10^{44}$$
+
 **15-3** (A) 反应 ① 设平衡时 SO₂ 分压减少 x bar：
+
 $$K_\mathrm{p}^\theta(80℃) = \frac{1}{(p_{\mathrm{SO_2}}/p^\theta)(p_{\mathrm{H_2O}}/p^\theta)(p_{\mathrm{NH_3}}/p^\theta)^2} = \frac{1}{4\times (0.02-x)^4}$$
+
 $$(0.02-x)^4 = 1/(8.228\times 10^7) = 1.215\times 10^{-8}$$
+
 $$0.02 - x = 0.01,\quad x = 0.01$$
+
 按反应 ① 进行的脱硫率 = 0.01/0.02 = 0.5 = 50%。
 
 (B) 反应 ② 设 SO₂ 分压减少 y bar（按化学计量，初始 $p_{\mathrm{SO_2}}$=0.02, $p_{\mathrm{H_2O}}$=0.02, $p_{\mathrm{NH_3}}$=0.04, $p_{\mathrm{O_2}}$=0.01 bar）：
+
 $$K_\mathrm{p}^\theta(80℃) = \frac{1}{(p_{\mathrm{SO_2}}/p^\theta)(p_{\mathrm{H_2O}}/p^\theta)(p_{\mathrm{NH_3}}/p^\theta)^2(p_{\mathrm{O_2}}/p^\theta)^{0.5}}$$
+
 $$= \frac{1}{4\times 0.5^{0.5}\times (0.02-y)^{4.5}}$$
+
 $$(0.02-y)^{4.5} = 1/(1.117\times 10^{45}) = 8.95\times 10^{-46}$$
+
 $$0.02 - y = 9.758\times 10^{-11}$$
+
 按反应 ② 进行的脱硫率 ≈ 100%（99.999 999 5%）。
 
 **15-4** 二氧化硫按生成硫酸铵的反应进行的理论脱硫率比按生成亚硫酸铵的反应进行的脱硫率高得多。为促使反应向生成硫酸铵方向进行，可采用方法：

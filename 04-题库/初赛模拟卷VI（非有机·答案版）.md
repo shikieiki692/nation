@@ -14,7 +14,7 @@ question_count: 16
 
 # 初赛模拟卷 VI（非有机 · 答案版）
 
-> **组卷口径**：16 题跨 **8 个来源机构**抽取（0407物化特训、HChO晶体专题、HChO配合物专题、一分册能力测试、上海中学竞赛课程、化学竞赛初赛讲义、化学能力测试、高中化学竞赛教程第一分册），均满足 `exam_stage=初赛`、`difficulty≥⭐⭐⭐⭐`、`fidelity=原书逐字`；**已剔除全部有机化学题目与真题改编题**，并与 [[04-题库/初赛模拟卷I（非有机·答案版）|卷 I]], [[04-题库/初赛模拟卷II（非有机·答案版）|卷 II]], [[04-题库/初赛模拟卷III（非有机·答案版）|卷 III]], [[04-题库/初赛模拟卷IV（非有机·答案版）|卷 IV]], [[04-题库/初赛模拟卷V（非有机·答案版）|卷 V]] 用题零重复。
+> **组卷口径**：16 题跨 **8 个来源机构**抽取（0407物化特训、HChO晶体专题、HChO配合物专题、一分册能力测试、上海中学竞赛课程、化学竞赛初赛讲义、化学能力测试、高中化学竞赛教程第一分册），均满足 `exam_stage=初赛`、`difficulty≥⭐⭐⭐⭐`、`fidelity=原书逐字`；**已剔除全部有机化学题目与国内初赛真题**（国际竞赛真题与决赛难度题按用户口径允许），并与 [[04-题库/初赛模拟卷I（非有机·答案版）|卷 I]], [[04-题库/初赛模拟卷II（非有机·答案版）|卷 II]], [[04-题库/初赛模拟卷III（非有机·答案版）|卷 III]], [[04-题库/初赛模拟卷IV（非有机·答案版）|卷 IV]], [[04-题库/初赛模拟卷V（非有机·答案版）|卷 V]] 用题零重复。
 > **范围**：第一部分　元素化学与分析化学（第 1–7 题，66 分）、第二部分　结构化学（第 8–12 题，50 分）、第三部分　化学原理（第 13–16 题，40 分），**满分 156 分，建议用时 180 分钟**；难度 ⭐⭐⭐⭐ ×2、⭐⭐⭐⭐⭐ ×14。
 > 题卡溯源见卷末选题清单。
 
@@ -45,10 +45,15 @@ question_count: 16
 **1-1** Fe；$\mathrm{K_3[Fe(CN)_6]}$。
 
 **1-2** 
+
 $${}^{235}_{92}\mathrm{U} + {}^{1}_{0}\mathrm{n} \longrightarrow {}^{72}_{30}\mathrm{Zn} + {}^{160}_{62}\mathrm{Sm} + 4{}^{1}_{0}\mathrm{n}$$
+
 ![[af8a5e0e6eb0bcf07485df1dae4b5f90b53a8464b2f97c541cbffbabba0f786e.jpg]]
+
 $${}^{72}_{30}\mathrm{Zn} + {}^{1}_{0}\mathrm{n} \longrightarrow {}^{69}_{28}\mathrm{Ni} + {}^{4}_{2}\mathrm{He(或}\alpha)$$
+
 $${}^{69}_{28}\mathrm{Ni} + {}^{1}_{0}\mathrm{n} \longrightarrow {}^{66}_{26}\mathrm{Fe} + {}^{4}_{2}\mathrm{He(或}\alpha)$$
+
 **1-3** $3\mathrm{Fe(CN)_6^{3-}} + \mathrm{Cr(OH)_3} + 5\mathrm{OH^-} = 3\mathrm{Fe(CN)_6^{4-}} + \mathrm{CrO_4^{2-}} + 4\mathrm{H_2O}$。
 
 **1-4** 碳水化合物（或葡萄糖）、硫；
@@ -122,17 +127,25 @@ $${}^{69}_{28}\mathrm{Ni} + {}^{1}_{0}\mathrm{n} \longrightarrow {}^{66}_{26}\ma
 #### 答案
 
 **3-1** 用铁做还原剂，在加热条件下，生成单质 Sb 和 FeS：
+
 $$\mathrm{Sb_2S_3} + 3\mathrm{Fe} \rightleftharpoons{\text{高温}} 2\mathrm{Sb} + 3\mathrm{FeS}$$
+
 **3-2** 锑不同于别的物质，热缩冷胀，即在凝固时，体积膨胀，利用这个特殊性来制造铸字合金。
 
 **3-3** $\mathrm{SbF_3}$ 有导电性，说明能电离出离子，$\mathrm{SbF_3}$ 也可电离出一个 $\mathrm{F^-}$，与另一个 $\mathrm{SbF_3}$ 结合成 $\mathrm{SbF_4^-}$。因此：
+
 $$2\mathrm{SbF_3} \rightleftharpoons \mathrm{SbF_2^+} + \mathrm{SbF_4^-}$$
+
 由于 $\mathrm{SbF_5}$ 中有空轨道，能接受 $\mathrm{HSO_3F}$ 中氧原子的配位，从而产生 $\mathrm{H^+}$，$\mathrm{H^+}$ 与 $\mathrm{HSO_3F}$ 结合成 $\mathrm{H_2SO_3F^+}$，当与链烷作用时，链烷起到碱的作用，即产生 $\mathrm{H^-}$，与 $\mathrm{H^+}$ 结合生成 $\mathrm{H_2}$。
+
 $$\mathrm{R_3CH} + \mathrm{H_2SO_3F^+} = \mathrm{R_3C^+} + \mathrm{H_2} + \mathrm{H_2SO_3F}$$
+
 **3-4** 根据题意，在 $25^{\circ}\mathrm{C}$ 时，$\mathrm{SbCl_5}$ 呈液态（熔点 $2.8^{\circ}\mathrm{C}$），$\mathrm{SbCl_3}$ 呈固态（熔点 $73.2^{\circ}\mathrm{C}$）。$\mathrm{SbCl_5}$ 分解反应 $\mathrm{SbCl_5 \to SbCl_3 + Cl_2}$ 的 $\Delta_r G^\theta = \Delta_f G^\theta(\mathrm{SbCl_3}) - \Delta_f G^\theta(\mathrm{SbCl_5}) = -322.5 - (-345.35) = +22.85\ \mathrm{kJ/mol}$，K 很小，故有部分 $\mathrm{SbCl_5}$ 分解。故体系中存在三个相：$\mathrm{SbCl_3}$ 固相、$\mathrm{SbCl_5}$ 液相、$\mathrm{Cl_2}$ 气相。
 
 若再注入 $0.11\ \mathrm{mol}\ \mathrm{Cl_2}$，与 $\mathrm{SbCl_3}$ 反应 $\mathrm{SbCl_3 + Cl_2 \to SbCl_5}$，$\mathrm{SbCl_3}$ 全部向 $\mathrm{SbCl_5}$ 转化，因 $\mathrm{Cl_2}$ 过量 $0.01\ \mathrm{mol}$，故容器中存在两个相：$\mathrm{SbCl_5}$ 液相和 $\mathrm{Cl_2}$ 气相。$\mathrm{Cl_2}$ 的压力为：
+
 $$P = nRT/V = 0.01\times 0.0821\times 298/1 = 0.244\ \mathrm{atm} \approx 0.24\ \mathrm{atm}$$
+
 答案是是：3、2、0.24。
 
 **3-5** 由价层电子对互斥理论知：Sb 提供 5 价电子对（5 个电子对），分子为三角双锥。F 的电负性大，F 应在锥顶上，这样斥力小。结构式：轴向 2 个 F，赤道 3 个 Cl（sp³d 杂化）。
@@ -140,13 +153,21 @@ $$P = nRT/V = 0.01\times 0.0821\times 298/1 = 0.244\ \mathrm{atm} \approx 0.24\ 
 **3-6** 因前三个反应在 $245\sim565^{\circ}\mathrm{C}$，而 $\mathrm{SbCl_3}$ 沸点 $233^{\circ}\mathrm{C}$（前三个反应中失去 $\mathrm{SbCl_3}$ 蒸气），每次失去一分子 $\mathrm{SbCl_3}$。
 
 第一次失重 $26.34\%$，设 $n$ 个 SbOCl 失 1 SbCl₃：$n\cdot M(\mathrm{SbOCl}) = 5\times 173.5 = 867.5$，失 SbCl₃ 228.5，$228.5/867.5 = 26.34\%$ ✓，故 $n=5$：
+
 $$5\mathrm{SbOCl} \xrightarrow{\triangle} \mathrm{SbCl_3}\uparrow + \mathrm{Sb_4O_5Cl_2} (\mathrm{Sb_2O_3\cdot 2SbOCl})$$
+
 第二次失重 $8.94\%$，设 $m$ 个 $\mathrm{Sb_4O_5Cl_2}$ 失 1 SbCl₃：$m\cdot M(\mathrm{Sb_4O_5Cl_2}) = 4\times 639 = 2556$，失 SbCl₃ 228.5，$228.5/2556 = 8.94\%$ ✓，故 $m=4$：
+
 $$4\mathrm{Sb_4O_5Cl_2} \xrightarrow{\triangle} \mathrm{SbCl_3}\uparrow + 5\mathrm{Sb_3O_4Cl}$$
+
 第三次反应 $3\mathrm{Sb_3O_4Cl}$ 分解：
+
 $$3\mathrm{Sb_3O_4Cl} \xrightarrow{\triangle} 4\mathrm{Sb_2O_3(s)} + \mathrm{SbCl_3}\uparrow$$
+
 第四次反应 $\mathrm{Sb_2O_3}$ 熔化：
+
 $$\mathrm{Sb_2O_3(s)} \xrightarrow{\triangle} \mathrm{Sb_2O_3(l)}$$
+
 ---
 
 ### 第 4 题（9 分）CaCO₃溶解度与CO₂通入
@@ -194,30 +215,39 @@ H 和 I 分别含有 47.0%、37.3% 的氟元素。
 1. A1～A3、B、C1～C3、D、E、F、G、VOCl₃、VOF₃、Si(CH₃)₃N₃。结构如下图所示。
 
 2. 8个方程式分别为：
+
 $$
 3\mathrm{N}_{2}\mathrm{O}_{5} + \mathrm{V}_{2}\mathrm{O}_{5} \longrightarrow 2\mathrm{VO}(\mathrm{NO}_{3})_{3}
 $$
+
 $$
 \mathrm{V}_{2}\mathrm{O}_{5} + 4\mathrm{HNO}_{3} + \mathrm{H}_{2}\mathrm{C}_{2}\mathrm{O}_{4} \longrightarrow 2\mathrm{VO}(\mathrm{NO}_{3})_{2} + \mathrm{BaSO}_{4}
 $$
+
 $$
 \mathrm{VOSO}_{4} + \mathrm{Ba}(\mathrm{NO}_{3})_{2}
 $$
+
 $$
 \mathrm{V} + 2\mathrm{N}_{2}\mathrm{O}_{4} \longrightarrow \mathrm{VO}_{2}\mathrm{NO}_{3} + 3\mathrm{NO}
 $$
+
 $$
 2\mathrm{VO}_{2}\mathrm{NO}_{3} \longrightarrow \mathrm{V}_{2}\mathrm{O}_{5} + \mathrm{N}_{2}\mathrm{O}_{5}
 $$
+
 $$
 \mathrm{V}_{2}\mathrm{O}_{5} + 3\mathrm{SOCl}_{2} \longrightarrow 2\mathrm{VOCl}_{3} + 3\mathrm{SO}_{2}
 $$
+
 $$
 \mathrm{VOCl}_{3} + 3\mathrm{HF} \longrightarrow \mathrm{VOF}_{3} + 3\mathrm{HCl}
 $$
+
 $$
 \mathrm{VOF}_{3} + 3\mathrm{Si}(\mathrm{CH}_{3})_{3}\mathrm{N}_{3} \longrightarrow \mathrm{VO}(\mathrm{N}_{3})_{3}
 $$
+
 ---
 
 ### 第 6 题（10 分）I₂O₅ 综合（CO 测定/碘酸/碘盐）
@@ -294,9 +324,11 @@ CO 的体积分数为：$0.326$。
 (2) ① $\mathrm{PbO_2 + PbS \xrightarrow{\triangle} 2Pb + SO_2}$　② $\mathrm{PbO + KCN \longrightarrow Pb + KOCN}$
 
 (3) $\mathrm{SO}_2$ 的物质的量等于 $\mathrm{PbO}_2$，故：
+
 $$
 \left(\frac{2.66\times10^{5}\times10^{-3}}{8.31\times300} - \frac{1.01\times10^{5}\times10^{-3}}{8.31\times291}\right)\times239 = 15.5\,\mathrm{g}
 $$
+
 > **整理者解析**：热失重定 A——$PbO_2\to Pb_3O_4$ 失重 $(239-\frac13\times685.6)/239=4.4\%$（对应 F，647 K），$PbO_2\to PbO$ 失重 $16/239=6.69\%$（对应 G，878 K），故 A=PbO₂；转化图（视觉核验）G=PbO 与 H₂ 或 KCN 反应均得单质 X=Pb，G+HNO₃→L=Pb(NO₃)₂（分解复得 PbO+NO₂+O₂），L+KI→Z=PbI₂（黄色），L+H₂SO₄→Q=PbSO₄，Q+Na₂S→B=PbS（黑色）；等质量 A(PbO₂)+B(PbS) 固相反应 PbO₂+PbS→2Pb+SO₂（电子守恒：Pb(IV)+4e、Pb(II)+2e，S²⁻−6e ✓），容器内仅 Ar 与 SO₂，压差即 $n(SO_2)=n(A)$，质量=$n\times239$。
 
 ---
@@ -352,10 +384,15 @@ $\mathrm{La_2CuO_4}$ 是 1986 年瑞士科学家缪勒和柏诺兹发现的第�
 **8-4** 2；1。
 
 **8-5** 具有相同 $x$ 坐标的原子是同一平面中的原子。故 (0, 0.154, 0.117)，(0, 0.654, 0.383) 是层内原子，层内距离：
+
 $$r_{\text{层内}}^{2} = (0.154 - 0.654)^{2} \times 468.6^{2} + (0.117 - 0.383)^{2} \times 978.4^{2}，\text{解得} r = 350.5\ \mathrm{pm}$$
+
 具有不同 $x$ 坐标的原子是层间原子，因此 (0, 0.154, 0.117) 和 (0.500, 0.654, 0.117) 以及 (0, 0.654, 0.383) 和 (0.500, 0.654, 0.117) 是层间原子，层间距离：
+
 $$r_{\text{层间}}^{2} = 0.500^{2} \times 713.6^{2} + (0.154 - 0.654)^{2} \times 468.6^{2}，\text{解得} r = 426.9\ \mathrm{pm}$$
+
 $$r_{\text{层间}}^{2} = 0.500^{2} \times 713.6^{2} + (0.383 - 0.117)^{2} \times 978.4^{2}，\text{解得} r = 441.6\ \mathrm{pm}$$
+
 取最近距离为 426.9 pm。
 
 I 原子范德华半径之和为 $436\ \mathrm{pm}$，层内和部分层间接触距离小于这个值，这种介于共价单键和范德华距离之间的作用力，导致了碘晶体具有金属光泽；导电性能各向异性是因为碘晶体沿 yz 平面形成层状结构，层内和层间导电性差异导致的。
@@ -554,11 +591,17 @@ E 被认为是一种未来太空旅行的潜力燃料，因为其具有极高吸
 **12-1** 阴离子为 $\mathrm{N_3^-}$；分子为 $\mathrm{N_2}$。
 
 **12-2** A 的钠盐每摩尔包含一摩尔钠，因此其摩尔质量为 $M(\mathrm{A}) = M(\mathrm{Na})/0.3536 = 65.02\ \mathrm{g\cdot mol^{-1}}$。阴离子的摩尔质量为 $42.03\ \mathrm{g\cdot mol^{-1}}$，这意味着为 $\mathrm{N_3^-}$。A 是叠氮化氢 $\mathrm{HN_3}$。Lewis 结构为：
+
 $$\ddot{\mathrm{N}} - \mathrm{N^+} \equiv \mathrm{N}:\quad\text{(H 在左 N 上)}\longleftrightarrow \ddot{\mathrm{N}} = \mathrm{N^+} = \dot{\mathrm{N}}^-\quad\text{(H 在左 N 上)}$$
+
 **12-3** 设卤化物分子式为 $\mathrm{N_a X_b}$（X 表示未知卤素），则：
+
 $$\frac{a M(\mathrm{N})}{a M(\mathrm{N})+b M(\mathrm{X})} = 0.4244$$
+
 由此，$b M(\mathrm{X}) = 19a$。因此 X 是氟，并且 $b=a$。由于不存在 NF，并且由氮形成的最大共价键数为4，因此卤化物为 $\mathrm{N_2F_2}$。顺式异构体：
+
 $$\begin{array}{c}\ddot{\mathrm{N}} = \dot{\mathrm{N}}\\ \vdots\ \ \vdots\\ \mathrm{F}\ \ \mathrm{F}\end{array}$$
+
 （有顺式和反式两种几何异构。）
 
 **12-4** 由于 $\mathrm{SbF}_5$ 是强路易斯酸，所以 B 的阴离子为 $\mathrm{SbF_6^-}$。因为它包含一个阴离子，所以 B 仅包含一个 Sb 原子。因此，该化合物的摩尔质量为 $M = M(\mathrm{Sb})/0.4306 = 282.75\ \mathrm{g\cdot mol^{-1}}$。氮含量为 $282.75\times 0.0991 = 28\ \mathrm{g}$，其余 $(133\ \mathrm{g})$ 为氟。根据这些数据，经验公式为 $\mathrm{SbN_2F}_7$。因此 B 分子式为 $[\mathrm{N_2F}]^+[\mathrm{SbF_6}]^-$。
@@ -570,41 +613,61 @@ $$\begin{array}{c}\ddot{\mathrm{N}} = \dot{\mathrm{N}}\\ \vdots\ \ \vdots\\ \mat
 键角在第一个共振结构中将为 $180^{\circ}$，而在第二个共振结构中将小于 $120^{\circ}$。
 
 **12-6** 如果一氧化二氮的分子式为 $\mathrm{N_aO_b}$，则：
+
 $$\frac{a M(\mathrm{N})}{a M(\mathrm{N})+b M(\mathrm{O})} = 0.6365$$
+
 此时 $a=2b$，因此一氧化二氮的分子式为 $\mathrm{N_2O}$。其共振式为：
+
 $$\dot{\mathrm{N}} = \mathrm{N^+} = \mathrm{O}:\longleftrightarrow :\mathrm{N}\equiv\mathrm{N^+} - \ddot{\mathrm{O}}:$$
+
 **12-7** 生成的 $\mathrm{N_2O}$ 量为 $1.14\ \mathrm{mmol}$。B 的量为 $0.3223\ \mathrm{g}/282.75\ \mathrm{g\cdot mol^{-1}} = 1.14\ \mathrm{mmol}$。氧原子来自水分子。剩下两个氢原子，它们可以与 $\mathrm{F^-}$ 形成 HF：
+
 $$[\mathrm{N_2F}]^+[\mathrm{SbF_6}]^- + \mathrm{H_2O} \longrightarrow \mathrm{N_2O} + 2\mathrm{HF} + \mathrm{SbF_5}$$
+
 $\mathrm{SbF_5}$ 在稀水溶液中会水解，例如 $\mathrm{SbF_5} + \mathrm{H_2O} \longrightarrow \mathrm{SbOF_3} + 2\mathrm{HF}$。
 
 **12-8** C 的阴离子为 $\mathrm{SbF_6^-}$。如果 C 每个阳离子包含 $n$ 个阴离子，并且阳离子包含 $x$ 个 N 原子，则氮和锑的含量为：
+
 $$\frac{x M(\mathrm{N})}{x M(\mathrm{N}) + n M(\mathrm{SbF_6})} = 0.2290,\quad \frac{n M(\mathrm{Sb})}{x M(\mathrm{N}) + n M(\mathrm{SbF_6})} = 0.3982$$
+
 将第一个方程除以第二个方程，我们得到 $n=5x$。由此，C 的化学式为 $[\mathrm{N_5}]^+[\mathrm{SbF_6}]^-$。
 
 **12-9** C 阳离子的共振式为：
+
 $$\mathrm{:\!N\!\equiv\!N^+-\ddot{N}=N^+=N^-} \leftrightarrow \mathrm{:\!N=N^+=\ddot{N}-N^+\!\equiv\!N:}$$
+
 $$\leftrightarrow \mathrm{:\!N\!\equiv\!N^+-\ddot{N}-N^+\!\equiv\!N:} \leftrightarrow \mathrm{:\!N=N^+=\ddot{N}-N=N^+}$$
+
 $$\leftrightarrow \mathrm{:\!N=N^+-\ddot{N}-N=N^+} \leftrightarrow \mathrm{:\!N=N^- - \ddot{N}=N^+=N^-}$$
+
 由于中心氮原子上存在一个或两个孤对电子，因此所有结构的中心键合角均小于 $120^{\circ}$。由于相关氮原子上存在孤对电子，其他两个键角在第一行的共振结构中等于 $180^{\circ}$，但在第二行的共振结构中小于 $180^{\circ}$。
 
 **12-10** 形成 C 的化学方程：
+
 $$[\mathrm{N_2F}]^+[\mathrm{SbF_6}]^- + \mathrm{HN_3} \longrightarrow [\mathrm{N_5}]^+[\mathrm{SbF_6}]^- + \mathrm{HF}$$
+
 由于 HF 的高稳定性，该反应在热力学上是有利的。
 
 **12-11** 若 C 氧化水，且生成两种气体，则其中一种必定是氧气，另一个是氮气，因为 C 阳离子的不稳定性。因此，水解的反应反应式为：
+
 $$4[\mathrm{N_5}]^+[\mathrm{SbF_6}]^- + 2\mathrm{H_2O} \longrightarrow 10\mathrm{N_2}\uparrow + \mathrm{O_2}\uparrow + 4\mathrm{HF} + 4\mathrm{SbF_5}$$
+
 **12-12** 由于 D 的阴离子是八面体配位的，并且包含 $\mathrm{N_3^-}$ 离子（它是由 A 形成的），唯一的可能性是 D 的中心原子（也就是 E 的中心原子）是被六个 $\mathrm{N_3^-}$ 包围的离子。由于 E 的阳离子为 $\mathrm{N_5^+}$，$n$(阳离子):$n$(阴离子)=1:1，E 的化学式是 $[\mathrm{N_5}]^+[\mathrm{X(N_3)_6}]^-$，因此是 $\mathrm{XN_{23}}$（其中 X 是未识别的主族元素）。
 
 ![[2133ad2f045fbe9a188b84fe389e6fde3f0e653093e47dd4325d95810fb0e30c.jpg]]
 
 以相对原子质量表示的氮含量为：
+
 $$\frac{23\cdot M(\mathrm{N})}{23\cdot M(\mathrm{N})+M(\mathrm{X})} = 0.9124$$
+
 解得 $M(\mathrm{X}) = 30.9\ \mathrm{g\cdot mol^{-1}}$。这是磷。因此，E 的化学式为 $[\mathrm{N_5}]^+[\mathrm{P(N_3)_6}]^-$。
 
 **12-13** $\mathrm{Na^+}$ 和 $\mathrm{Cl^-}$ 中原子的氧化数不变，未观察到气体逸出，表明 $\mathrm{N_3^-}$ 在合成过程中不会分解。因此，E 的形成不是氧化还原反应。磷在氯化物中的氧化数与 E 中相同。氯化物为 $\mathrm{PCl_5}$。D 含有 $[\mathrm{P(N_3)_6}]^-$ 阴离子。作为阳离子，它只能包含 $\mathrm{N_3^+}$、$[\mathrm{P(N_3)_6}]^-$。
 
 **12-14** 氮气是气态产物。由于大气中存在氧气，磷会被氧化为 $\mathrm{P_2O_5}$。E 分解的化学方程为：
+
 $$4[\mathrm{N_5}]^+[\mathrm{P(N_3)_6}]^- + 5\mathrm{O_2} \longrightarrow 46\mathrm{N_2} + 2\mathrm{P_2O_5}$$
+
 ---
 
 ## 第三部分　化学原理（第 13–16 题，共 40 分）
@@ -616,12 +679,15 @@ $$4[\mathrm{N_5}]^+[\mathrm{P(N_3)_6}]^- + 5\mathrm{O_2} \longrightarrow 46\math
 金属冶炼最常用的方法之一就是热还原法。如金属钴可用 CO 还原其氧化物制得：
 
 $\mathrm{CoO(s) + CO(g)\longrightarrow Co(s) + CO_2(g)}$。已知：$\Delta G^0 = -RT\ln K^0$
+
 $$
 2 \mathrm{CO} + \mathrm{O} _ {2} \longrightarrow 2 \mathrm{CO} _ {2} \quad \Delta_ {\mathrm{r}} G _ {1} ^ {0} = - 564.8 \times 10 ^ {3} + 173.6 T
 $$
+
 $$
 2 \mathrm{Co} + \mathrm{O} _ {2} \longrightarrow 2 \mathrm{CoO} \quad \Delta_ {\mathrm{r}} G _ {2} ^ {0} = - 457.8 \times 10 ^ {3} + 143.7 T
 $$
+
 13-1 求反应达平衡时气相中 CO 的体积分数与反应温度之间的函数关系。
 
 13-2 在 $1500 \mathrm{~K}$ 时用 $\mathrm{CO}$、$\mathrm{CO}_{2}$ 混合气体还原 $\mathrm{CoO}$，问气相中 $\mathrm{CO}$ 的体积分数 $(\mathrm{CO} \%)$ 应至少控制在多大？
@@ -726,9 +792,11 @@ S₇.₀₀ = 1.001×10⁻⁶ mol·L⁻¹
 (2) 联氨和四氧化二氮可用作火箭推进剂，联氨是燃料，四氧化二氮作氧化剂，反应产物是氮气和水。由联氨和四氧化二氮组成的火箭推进剂完全反应生成 $72.0\,\mathrm{kg}$ 水，计算推进剂中联氨的质量。
 
 (3) 氨的水溶液可用于吸收 NO 与 $NO_2$ 混合气体，反应方程式为：
+
 $$
 \begin{array}{r l} & 6\mathrm{NO} + 4\mathrm{NH}_3 \longrightarrow 5\mathrm{N}_2 + 6\mathrm{H}_2\mathrm{O} \\ & 6\mathrm{NO}_2 + 8\mathrm{NH}_3 \longrightarrow 7\mathrm{N}_2 + 12\mathrm{H}_2\mathrm{O} \end{array}
 $$
+
 NO 与 $NO_2$ 混合气体 180 mol 被 $8.90\times10^{3}$ g 氨水（质量分数 0.300）完全吸收，产生 156 mol 氮气。吸收后氨水密度为 $0.980\,\mathrm{g\cdot cm^{-3}}$。计算：
 
 ① 该混合气体中 NO 与 $NO_2$ 的体积比；
@@ -752,23 +820,29 @@ NO 与 $NO_2$ 混合气体 180 mol 被 $8.90\times10^{3}$ g 氨水（质量分�
 (3) ① $V(\mathrm{NO}):V(\mathrm{NO}_2) = 9:1$；② 2.4 mol/L。
 
 (4) 本题前三问较为简单（(4) 推算如下）：
+
 $$
 120\,\mathrm{CO(NH_2)_2} \longrightarrow m\,\mathrm{C_2H_5N_3O_2} + n(\text{三聚产物}) + 80\,\mathrm{NH_3}
 $$
+
 因此：$\mathrm{C_{120}H_{240}N_{160}O_{120} \longrightarrow mC_2H_5N_3O_2 + m}$（三聚产物）。
 
 设三聚产物为 A，又因为二聚产物占缩合产物的物质的量分数为 0.60，即 $m/(m+n)=0.6$，即 $m/n=3/2$。设公比为 $x$，即 $\mathrm{C_{120}H_{240}N_{160}O_{120} \longrightarrow 3xC_2H_5N_3O_2 + 2xA}$。此时最大公比 $x=10$，因此：
+
 $$
 \mathrm{C_{12}H_{24}N_{16}O_{12} \longrightarrow 3C_2H_5N_3O_2 + 2A}
 $$
+
 所以 $2A = \mathrm{C_6H_9N_7O_6}$。
 
 根据题意，正常的三聚产物为：
 
 ![[21aead02e9c45d569aeb5587d871d82873f5c6a1c1f5d04d470db2ae3b1a3f72.jpg]]
+
 $$
 \mathrm{C}_3\mathrm{H}_6\mathrm{N}_4\mathrm{O}_3
 $$
+
 （其）倍关系的分子式与 2A 分子式不符。因此可以考虑 A 应为：
 
 ![[e9a50de3aa88fbce37ae38c5a7f17a5c98c6b2399590b94045f7c1d91c90d790.jpg]]
@@ -822,7 +896,9 @@ $$
 | H₂(g) | 0 | 130.59 |
 
 **16-2** 上述两种工艺产生的少量 CO 会吸附在燃料电池的 Pt 或其他贵金属催化剂表面，阻碍 H₂ 的吸附和电氧化，引起燃料电池放电性能急剧下降，为此，开发了除去 CO 的方法。现有一组实验结果（500 K）如下：
+
 $$\mathrm{CO(g) + \tfrac{1}{2}O_2(g) \longrightarrow CO_2(g)}$$
+
 | p_CO/$p^{\theta}$ | p_O₂/$p^{\theta}$ | r_CO/(分子数·Ru 位⁻¹ s⁻¹) | p_CO/$p^{\theta}$ | p_O₂/$p^{\theta}$ | $r_{\mathrm{CO}}$ |
 |---|---|---|---|---|---|
 | 0.005 | 0.01 | 20.5 | 0.01 | 0.010 | 7 |
@@ -834,9 +910,13 @@ $$\mathrm{CO(g) + \tfrac{1}{2}O_2(g) \longrightarrow CO_2(g)}$$
 (1) 求催化剂 Ru 上 CO 氧化反应分别对 CO 和 O₂ 的反应级数（取整数），写出速率方程。
 
 (2) 假设 CO 和 O₂ 的吸附与脱附互不影响，且表面均匀，θ 表示覆盖度，气体的吸附速率与气体压力和空活性位数成正比。研究提出机理：
+
 $$\mathrm{CO + M \underset{k_{\mathrm{CO,des}}}{\stackrel{k_{\mathrm{CO,ads}}}{\rightleftharpoons}} OC-M}$$
+
 $$\mathrm{O_2 + 2M \xrightarrow{k_{\mathrm{O_2,ads}}} 2O-M}$$
+
 $$\mathrm{OC-M + O-M \longrightarrow CO_2 + 2M}$$
+
 其中 CO 在 Ru 活性位的吸附比 O₂ 强得多。试根据上述反应机理推导 CO 氧化反应的速率方程（不考虑 O₂ 脱附；也不考虑产物 CO₂ 的吸附），并与实验结果比较。
 
 **16-3** 有关物质的热力学函数（298.15 K）如下：
@@ -861,14 +941,23 @@ $$\mathrm{OC-M + O-M \longrightarrow CO_2 + 2M}$$
 **16-1** 化学方程式：
 
 甲醇水蒸气变换（重整）：
+
 $$\mathrm{CH_3OH(g) + H_2O(g) = CO_2(g) + 3H_2(g)} \quad \text{(a)}$$
+
 甲醇部分氧化：
+
 $$\mathrm{CH_3OH(g) + \tfrac{1}{2}O_2(g) = CO_2(g) + 2H_2(g)} \quad \text{(b)}$$
+
 以上两种工艺都有副反应：
+
 $$\mathrm{CO_2(g) + H_2(g) = CO(g) + H_2O(g)} \quad \text{(c)}$$
+
 热效应计算：
+
 $$\Delta_\mathrm{r}H^\theta_\mathrm{m}(\mathrm{a}) = -393.51 + 200.66 + 241.82 = +48.97\ \mathrm{kJ\cdot mol^{-1}}$$
+
 $$\Delta_\mathrm{r}H^\theta_\mathrm{m}(\mathrm{b}) = -393.51 + 200.66 = -192.85\ \mathrm{kJ\cdot mol^{-1}}$$
+
 反应 (a) 吸热需提供热源（缺点）；H₂ 收率高（优点）。
 
 反应 (b) 放热可自行维持（优点）；H₂ 收率较低，且被空气中 N₂ 稀释使产品 H₂ 浓度较低（缺点）。
@@ -878,34 +967,57 @@ $$\Delta_\mathrm{r}H^\theta_\mathrm{m}(\mathrm{b}) = -393.51 + 200.66 = -192.85\
 (1) 速率方程：$r_\mathrm{CO} = k p_\mathrm{CO}^\alpha p_{\mathrm{O_2}}^\beta$
 
 将数据作 $\ln r_\mathrm{CO} \sim \ln p_\mathrm{CO}$ 与 $\ln r_\mathrm{CO} \sim \ln p_{\mathrm{O_2}}$ 图，得斜率 $\alpha \approx -1$，$\beta \approx 1$。速率方程：
+
 $$-\mathrm{d}p_\mathrm{CO}/\mathrm{d}t = k p_{\mathrm{O_2}}/p_\mathrm{CO}$$
+
 (2) 机理推导：吸附/脱附平衡：
+
 $$r_\mathrm{CO,ads} = k_{\mathrm{CO,ads}} p_\mathrm{CO} \theta_\mathrm{V}$$
+
 $$r_{\mathrm{O_2,ads}} = k_{\mathrm{O_2,ads}} p_{\mathrm{O_2}} \theta_\mathrm{V}^2$$
+
 $$r_\mathrm{CO,des} = k_\mathrm{CO,des} \theta_\mathrm{CO}$$
+
 稳态近似 + 表面反应速率控制 + CO 强吸附 $\theta_\mathrm{CO} \approx 1$：
+
 $$r_{\mathrm{CO_2}} = 2k_{\mathrm{O_2,ads}} p_{\mathrm{O_2}} \theta_\mathrm{V} = \frac{2k_{\mathrm{O_2,ads}} k_{\mathrm{CO,des}}}{k_{\mathrm{CO,ads}}} \cdot \frac{p_{\mathrm{O_2}}}{p_\mathrm{CO}}$$
+
 令 $k = 2k_{\mathrm{O_2,ads}}k_{\mathrm{CO,des}}/k_{\mathrm{CO,ads}}$：
+
 $$r_\mathrm{CO} = k p_{\mathrm{O_2}}/p_\mathrm{CO}$$
+
 与实验结果一致。
 
 **16-3**
 
 (1) H₂(g) + ½O₂(g) → H₂O(l)：
+
 $$\Delta_\mathrm{r}H^\theta_\mathrm{m}(\mathrm{a}) = -285.84\ \mathrm{kJ\cdot mol^{-1}}$$
+
 $$\Delta_\mathrm{r}S^\theta_\mathrm{m}(\mathrm{a}) = 69.94 - 130.59 - \tfrac{1}{2}\times 205.03 = -163.17\ \mathrm{J\cdot K^{-1}\cdot mol^{-1}}$$
+
 $$\Delta_\mathrm{r}G^\theta_\mathrm{m}(\mathrm{a}) = -285.84 - 298.15\times (-163.17)\times 10^{-3} = -237.19\ \mathrm{kJ\cdot mol^{-1}}$$
+
 $$\eta(\mathrm{a}) = \Delta_\mathrm{r}G^\theta_\mathrm{m}(\mathrm{a})/\Delta_\mathrm{r}H^\theta_\mathrm{m}(\mathrm{a}) = 83.0\%$$
+
 H₂(g) + ½O₂(g) → H₂O(g)：
+
 $$\Delta_\mathrm{r}H^\theta_\mathrm{m}(\mathrm{b}) = -241.82\ \mathrm{kJ\cdot mol^{-1}}$$
+
 $$\Delta_\mathrm{r}S^\theta_\mathrm{m}(\mathrm{b}) = 188.83 - 130.59 - 205.03/2 = -44.28\ \mathrm{J\cdot K^{-1}\cdot mol^{-1}}$$
+
 $$\Delta_\mathrm{r}G^\theta_\mathrm{m}(\mathrm{b}) = -241.82 - 298.15\times (-44.28)\times 10^{-3} = -228.63\ \mathrm{kJ\cdot mol^{-1}}$$
+
 $$\eta(\mathrm{b}) = \Delta_\mathrm{r}G^\theta_\mathrm{m}(\mathrm{b})/\Delta_\mathrm{r}H^\theta_\mathrm{m}(\mathrm{b}) = 94.5\%$$
+
 两反应 $\Delta G^{\theta}_{\mathrm{m}}$ 接近（最大电能相近），$\Delta H^{\theta}_{\mathrm{m}}$ 相差大（释放热能不同），故 η 不同。
 
 (2) 在 473.15 K 下（忽略 $\Delta H^{\theta}$、$\Delta S^{\theta}$ 随温度变化）：
+
 $$\Delta_\mathrm{r}G^\theta_\mathrm{m}(\mathrm{b}) = -241.82 + 473.15\times 44.28\times 10^{-3} = -220.88\ \mathrm{kJ\cdot mol^{-1}}$$
+
 $$\eta(\mathrm{b}, 473\ \mathrm K) = -220.88/-241.82 = 91.3\%$$
+
 (3) 燃料电池理论效率随工作温度而变化；温度降低则 η 升高。$\Delta G^{\theta}_{\mathrm{m}}$ 随温度变化主要由 $T\Delta S^{\theta}_{\mathrm{m}}$ 引起。
 
 <!-- 校勘注: ①8-1 ΔrH(a) 验算：-393.51+200.66+241.82=48.97 ✓ 吸热（CO₂+3H₂ 产物侧能量高于 CH₃OH+H₂O 反应物侧，需外加热源）；②8-2 速率方程机理推导 r_CO = k p_O₂/p_CO 与实验对 CO 负一级、对 O₂ 正一级吻合；③8-3 ΔΔH = ΔrH^θ(b) − ΔrH^θ(a) = -241.82 − (-285.84) = 44.02 kJ/mol ≈ H₂O 蒸发焓 40.64 kJ/mol（题给）+CpΔT = 75.6×75 = 5670 J ≈ 5.7 kJ/mol 之和 46.3 kJ/mol，源答案 44.0 与精确 46.3 略有偏差，按源答案照录。 -->
