@@ -18,6 +18,9 @@
   V5 图谱索引对账：登记数 / 真在媒体仓库 / ✅ 标签失实 / 自报规模 vs 条目数
   V6 媒体仓库清单.json 对账，并区分「改名」与「丢失」
   V7 真断链的归属分诊（消费端 / 源料端 / 报告载体）
+  V8 规模与质量（含 minpx 判据：真空白 vs 欠曝可救；伪装扩展名；公式切片；碎片）
+  V9 上下文地图（图片 → 引用者 / 标题链 / 相邻图注）
+  ⚠️ 媒体仓库/_待清理/（隔离区）一律不参与统计
 
 ⚠️ 已知假阳性（不要当作缺陷上报）：
   - 文档里的模板占位串（`<64位哈希>.jpg`、`xxx.jpg`、`{hash}.jpg`）→ placeholder
@@ -40,11 +43,14 @@ try:
 except Exception:
     Image = None
 
-VERSION = "2026-09-23.5"
+VERSION = "2026-09-23.6"
 
 VAULT = Path(__file__).resolve().parents[2]
 MEDIA = VAULT / "媒体仓库"
 IMG_EXT = {".jpg", ".jpeg", ".png", ".gif", ".svg", ".webp", ".tif", ".bmp"}
+# 隔离区：已判定为 OCR 残留/无用图的暂存处，**不参与任何统计**（可回退，见
+# .workbuddy/scripts/img_quarantine_rollback.py 与 quarantine_manifest.json）
+QUARANTINE = "_待清理"
 # 非内容区 / 工具区：不进扫描（否则 33k 源料图会淹没结论）
 SKIP_TOP = {"_归档", "99-归档", "kb-vault-mcp", "pptx-workspace", "skills",
             "copilot", "eiki", "scripts", "11", "mineru", "mineru02",
@@ -70,7 +76,7 @@ def walk_full_names():
         rp = Path(root)
         if rp == VAULT:
             dirs[:] = [d for d in dirs if d not in (".git",)]
-        dirs[:] = [d for d in dirs if not d.startswith(".workbuddy")]
+        dirs[:] = [d for d in dirs if not d.startswith(".workbuddy") and d != QUARANTINE]
         for f in files:
             if Path(f).suffix.lower() in IMG_EXT:
                 names.add(f)
@@ -91,6 +97,7 @@ def walk_media_and_md():
             if suf in IMG_EXT:
                 by_name[f].append(rp / f)
                 by_rel.add(str((rp / f).relative_to(VAULT)).replace("\\", "/"))
+        dirs[:] = [d for d in dirs if d != QUARANTINE]
         for f in files:
             if not f.lower().endswith((".md", ".markdown")):
                 continue
@@ -142,7 +149,9 @@ def resolve_refs(by_name, by_rel, refs):
 
 def media_report(used_names):
     """V2/V3/V4 媒体仓库。"""
-    med = [p for p in MEDIA.rglob("*") if p.is_file() and p.suffix.lower() in IMG_EXT]
+    med = [p for p in MEDIA.rglob("*")
+           if p.is_file() and p.suffix.lower() in IMG_EXT
+           and QUARANTINE not in p.parts]
     top = [p for p in med if p.parent == MEDIA]
     sub = [p for p in med if p.parent != MEDIA]
     used = [p for p in med if p.name in used_names]
@@ -240,9 +249,11 @@ def quality_report(target, json_out=None):
     # ⚠️ SVG 是矢量格式，PIL 读不了 —— 不能算「伪图片」，必须排除出位图测量
     PIL_EXT = IMG_EXT - {".svg"}
     files = [p for p in Path(target).rglob("*")
-             if p.is_file() and p.suffix.lower() in PIL_EXT]
+             if p.is_file() and p.suffix.lower() in PIL_EXT
+             and QUARANTINE not in p.parts]
     svg_n = sum(1 for p in Path(target).rglob("*")
-                if p.is_file() and p.suffix.lower() == ".svg")
+                if p.is_file() and p.suffix.lower() == ".svg"
+                and QUARANTINE not in p.parts)
     print(f"\n=== V8 规模与质量（{Path(target).name}: {len(files)} 张位图"
           f"{f'，另有 {svg_n} 个 SVG 不参与位图测量' if svg_n else ''}）===")
     recs, failed = [], []
@@ -377,6 +388,7 @@ def context_report(json_out=None, sample=0):
         if rp == VAULT:
             dirs[:] = [d for d in dirs if d not in SKIP_TOP]
         dirs[:] = [d for d in dirs if d != ".git" and not d.startswith(".workbuddy")]
+        dirs[:] = [d for d in dirs if d != QUARANTINE]
         for f in files:
             if not f.lower().endswith((".md", ".markdown")):
                 continue
@@ -412,7 +424,9 @@ def context_report(json_out=None, sample=0):
                         md=rel, line=i + 1, head=head,
                         before=near(-1), at=clean(ln), after=near(1)))
 
-    med = [x for x in MEDIA.rglob("*") if x.is_file() and x.suffix.lower() in IMG_EXT]
+    med = [x for x in MEDIA.rglob("*")
+           if x.is_file() and x.suffix.lower() in IMG_EXT
+           and QUARANTINE not in x.parts]
     out = {}
     for x in med:
         v = sorted(ctx.get(x.name, []),
