@@ -40,7 +40,7 @@ try:
 except Exception:
     Image = None
 
-VERSION = "2026-09-23.3"
+VERSION = "2026-09-23.4"
 
 VAULT = Path(__file__).resolve().parents[2]
 MEDIA = VAULT / "媒体仓库"
@@ -330,17 +330,117 @@ def quality_report(target, json_out=None):
     return dict(total=len(recs), garbage={k: len(v) for k, v in cat.items()})
 
 
+def context_report(json_out=None, sample=0):
+    """V9 上下文地图 —— 每张图「谁在引用它 + 引用处说什么」，供视觉×上下文双重判读。
+
+    ⚠️ 判据纪律（踩过）：markdown 图片块**前后必有空行**，只看紧邻行会把绝大多数图
+       误判成「无图注」（本方法首版即踩：8,726 → 修正后 784，虚高 11 倍）。
+       必须**跨空行取最近的非空行**。
+    """
+    WIKI = re.compile(r"!\[\[([^\]]+?)\]\]")
+    MDI = re.compile(r"!\[[^\]]*\]\(([^)\s]+)")
+    ctx = defaultdict(list)
+
+    def clean(x):
+        x = re.sub(r"!\[\[[^\]]*\]\]", "[图]", x)
+        x = re.sub(r"!\[[^\]]*\]\([^)]*\)", "[图]", x)
+        return re.sub(r"^\s*[>\-*+]\s*", "", x).strip()
+
+    for root, dirs, files in os.walk(VAULT):
+        rp = Path(root)
+        if rp == VAULT:
+            dirs[:] = [d for d in dirs if d not in SKIP_TOP]
+        dirs[:] = [d for d in dirs if d != ".git" and not d.startswith(".workbuddy")]
+        for f in files:
+            if not f.lower().endswith((".md", ".markdown")):
+                continue
+            q = rp / f
+            lines = q.read_text(encoding="utf-8", errors="replace").split("\n")
+            rel = str(q.relative_to(VAULT)).replace("\\", "/")
+            for i, ln in enumerate(lines):
+                hits = [m.group(1).split("|")[0].split("#")[0].strip()
+                        for m in WIKI.finditer(ln)]
+                hits += [unquote(m.group(1)).replace("\\", "/") for m in MDI.finditer(ln)
+                         if not m.group(1).startswith(("http", "data:"))]
+                hits = [h for h in hits if h and re.search(
+                    r"\.(jpg|jpeg|png|gif|svg|webp|tif|bmp)$", h.split("/")[-1], re.I)]
+                if not hits:
+                    continue
+                hl = {}
+                for j in range(i - 1, max(-1, i - 80), -1):
+                    mm = re.match(r"^(#{1,3})\s+(.*)$", lines[j])
+                    if mm:
+                        lv = len(mm.group(1))
+                        hl.setdefault(lv, mm.group(2).strip()[:60])
+                        if len(hl) == 3:
+                            break
+                head = " / ".join(hl[k] for k in sorted(hl))
+
+                def near(step):
+                    j = i + step
+                    while 0 <= j < len(lines) and not lines[j].strip():
+                        j += step
+                    return clean(lines[j]) if 0 <= j < len(lines) else ""
+                for h in hits:
+                    ctx[h.split("/")[-1]].append(dict(
+                        md=rel, line=i + 1, head=head,
+                        before=near(-1), at=clean(ln), after=near(1)))
+
+    med = [x for x in MEDIA.rglob("*") if x.is_file() and x.suffix.lower() in IMG_EXT]
+    out = {}
+    for x in med:
+        v = sorted(ctx.get(x.name, []),
+                   key=lambda e: -len(e["at"] + e["before"] + e["after"] + e["head"]))[:2]
+        out[x.name] = v
+
+    def has_cap(v):
+        for e in v[:1]:
+            for t in (e["before"], e["after"]):
+                t = (t or "").strip()
+                if t and t != "[图]" and not t.startswith("#") and not set(t) <= set("|-: "):
+                    return True
+        return False
+
+    orph = [n for n in out if not out[n]]
+    cap = [n for n in out if out[n] and has_cap(out[n])]
+    print(f"\n=== V9 上下文地图 ===")
+    print(f"  md 内图片引用记录 {sum(len(v) for v in ctx.values())} 条，"
+          f"涉及 {len(ctx)} 个 basename")
+    print(f"  媒体仓库 {len(out)} 张：有引用 {len(out)-len(orph)}  孤儿 {len(orph)}"
+          f"  ({len(orph)/max(1,len(out))*100:.1f}%)")
+    print(f"  有引用者中：有相邻图注 {len(cap)}，无图注 {len(out)-len(orph)-len(cap)}，"
+          f"有上文标题锚 {sum(1 for n in out if out[n] and out[n][0]['head'])}")
+    print(f"  → 上下文可用的图 {len(cap)}（视觉×上下文判读的适用面）")
+    if json_out:
+        Path(json_out).write_text(json.dumps(out, ensure_ascii=False), encoding="utf-8")
+        print(f"  [落盘] {json_out}")
+    if sample:
+        print(f"  \n  —— 抽样 {sample} 条（自证：上下文不是空串）——")
+        k = [n for n in out if out[n]][:sample]
+        for n in k:
+            e = out[n][0]
+            print(f"   {n[:28]}  ← {e['md']} L{e['line']}")
+            print(f"     标题：{e['head'] or '（无）'}")
+            print(f"     图注：{(e['after'] or e['before'] or '（无）')[:90]}")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--json", help="把结果落盘为 JSON")
     ap.add_argument("--quality", action="store_true",
                     help="只跑 V8 规模与质量（逐张测图像，需 Pillow）")
     ap.add_argument("--target", default=str(MEDIA), help="V8 的目标目录")
+    ap.add_argument("--context", action="store_true",
+                    help="只跑 V9 上下文地图（图片→引用者/图注/标题锚）")
+    ap.add_argument("--sample", type=int, default=0, help="V9 抽样自证条数")
     a = ap.parse_args()
 
     print(f"[img_asset_audit v{VERSION}] 基线：{VAULT}")
     if a.quality:
         quality_report(a.target, a.json)
+        return
+    if a.context:
+        context_report(a.json, a.sample)
         return
     full_names = walk_full_names()
     by_name, by_rel, refs = walk_media_and_md()
