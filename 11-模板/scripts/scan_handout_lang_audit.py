@@ -210,8 +210,15 @@ def scan_file(path: Path, frag_len: int, dup_n: int, dup_th: float) -> dict:
     # ---- 区块状态机：图注/公式块/引用块/速查节识别 ----
     in_math = False
     in_answer = False
+    in_comment = False
     for i, line in enumerate(lines, 1):
         s = line.strip()
+        if s.startswith("<!--"):
+            in_comment = True
+        if in_comment:
+            if "-->" in line:
+                in_comment = False
+            continue
         # $$ 状态机：按行内 $$ 出现次数的奇偶翻转（兼容 单行完整块/跨行块/行尾缀文字 等全部形态）
         cnt = s.count("$$")
         m0 = in_math
