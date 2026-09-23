@@ -365,7 +365,7 @@ def normalize_dd(txt):
 EXAM_NOTE = re.compile(r"^>\s*\*\*考试说明\*\*")
 
 
-def transform_md(text: str):
+def transform_md(text: str, drop_exam_note: bool = True, title_suffix: str = ""):
     lines = text.split("\n")
     i = 0
     # 剥 frontmatter
@@ -380,14 +380,15 @@ def transform_md(text: str):
         s = ln.strip()
         if s.startswith("# ") and title is None:
             t = s[2:].strip()
-            t = re.sub(r"\s*[·・]\s*学生版(?=\s*）)", "", t)   # （非有机 · 学生版）→（非有机）
-            t = re.sub(r"\s*[·・]\s*学生版\s*$", "", t)        # 裸后缀
-            t = re.sub(r"（\s*学生版\s*）", "", t)
+            t = re.sub(r"\s*[·・]\s*(?:学生版|答案版)(?=\s*）)", "", t)   # （非有机 · 学生版）→（非有机）
+            t = re.sub(r"\s*[·・]\s*(?:学生版|答案版)\s*$", "", t)        # 裸后缀
+            t = re.sub(r"（\s*(?:学生版|答案版)\s*）", "", t)
+            t = t + title_suffix
             title = t
             out.append(f"# {t}")
             i += 1
             continue
-        if EXAM_NOTE.match(ln):
+        if drop_exam_note and EXAM_NOTE.match(ln):
             n_drop_note += 1
             while i < len(lines) and lines[i].lstrip().startswith(">"):
                 i += 1
@@ -432,6 +433,8 @@ TBLPR_ORDER = ["w:tblStyle", "w:tblpPr", "w:tblOverlap", "w:bidiVisual",
 SPACING_RE = re.compile(r"<w:spacing\b[^>]*/>")
 IND_RE = re.compile(r"<w:ind\b[^>]*/>")
 JC_RE = re.compile(r"<w:jc\b[^>]*/>")
+JC_CENTER_RE = re.compile(r'<w:jc w:val="center"')
+
 PPR_RE = re.compile(r"<w:pPr>[\s\S]*?</w:pPr>")
 PARA_RE = re.compile(r"<w:p\b[\s\S]*?</w:p>")
 TBL_RE = re.compile(r"<w:tbl>[\s\S]*?</w:tbl>")
@@ -473,6 +476,10 @@ def set_table_widths(xml: str, stat: dict) -> str:
     """
     def fix(m):
         t = m.group(0)
+        if SHEET_TABLE_MARK in t:
+            # 已由生成器写死列宽（答题卡的得分栏）→ 不参与自动分列宽
+            stat["tbl_skip"] += 1
+            return t
         rows = ROW_RE.findall(t)
         if not rows:
             return t
@@ -637,7 +644,21 @@ def process_document_xml(xml: str, stat: dict) -> str:
         is_list = "<w:numPr>" in p
 
         if style in SKIP_STYLES:
-            out.append(p); continue
+            if style == "BlockText":
+                # 引用块分诊：卷尾「—— 试卷结束 ——」居中；其余（答案版的「组卷口径」/
+                # 逐题「来源…｜难度」）左对齐——若一律居中，16 行来源注记会全部居中，很难看
+                t = txt.strip()
+                if re.match(r"^[—–\-]{2,}", t) or "试卷结束" in t:
+                    p = set_spacing(p, line_mult=LINE_MULT, before_pt=6, after_pt=6)
+                    p = force_jc(p, "center")
+                else:
+                    stat["quote"] += 1
+                    p = set_spacing(p, line_mult=1.0, before_pt=4, after_pt=4)
+                    p = force_jc(p, "left")
+                out.append(p)
+            else:
+                out.append(p)
+            continue
         if in_table(pos):
             out.append(p); continue
         if not txt.strip() and not has_draw:
@@ -668,6 +689,9 @@ def process_document_xml(xml: str, stat: dict) -> str:
             p = set_spacing(p, line_mult=LINE_MULT, before_pt=0, after_pt=0)
             out.append(p); continue
 
+        if JC_CENTER_RE.search(p):   # 居中段（答题卡信息栏等）不加首行缩进，否则整行被推右
+            p = set_spacing(p, line_mult=LINE_MULT, before_pt=0, after_pt=0)
+            out.append(p); continue
         stat["indent"] += 1
         p = set_spacing(p, line_mult=LINE_MULT, before_pt=0, after_pt=0)
         p = add_indent(p, 200)
@@ -728,7 +752,10 @@ def process_document_xml(xml: str, stat: dict) -> str:
 #  4. OMML：化学式转正体
 # ══════════════════════════════════════════════════════════════════
 OMATH_RE = re.compile(r"<m:oMath>[\s\S]*?</m:oMath>")
-LETTER_RUN_RE = re.compile(r'<m:r>(?!<m:rPr>)(<m:t(?:\s[^>]*)?>)([\s\S]*?)(</m:t>)(\s*)</m:r>')
+M_RUN_RE = re.compile(r"<m:r>([\s\S]*?)</m:r>")
+FONT_XML = ('<w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" '
+            'w:cs="Times New Roman" w:eastAsia="SimSun"/>')
+RFONTS_RE = re.compile(r"<w:rFonts\b[^>]*/>")
 
 # 希腊字母 / 中日韩：出现即视为「符号式」（热力学量、相态、角度…），一律保持斜体。
 # 关键反例：$S_m^\theta$ → 文本 "Smθ"，若不当心会被当成钐(Sm)而误改正体。
@@ -798,6 +825,13 @@ def fix_empty_math_base(xml: str):
 
 
 def omml_upright(xml: str, stat: dict) -> str:
+    """化学式改正体：给判定为「化学式/方程式」的 oMath 内每个含字母的 `<m:r>` 加 `<m:rPr><m:sty m:val="p"/>`。
+
+    ⚠️ 用一个统一的「单 run 改写」函数（不是整 run 重建），这样：
+      · 已有 `<w:rPr>`（字体钉定）的 run 不会被打乱父子顺序；
+      · `<m:rPr>` 必须排在 `<m:r>` 的第一个子元素，故用前插。
+    调用顺序：必须**先于** `omml_pin_font`（后者会插 `<w:rPr>`，使按 `<m:t>` 相邻匹配的旧写法失效）。
+    """
     def fix(m):
         blk = m.group(0)
         txt = "".join(re.findall(r"<m:t(?:\s[^>]*)?>([\s\S]*?)</m:t>", blk))
@@ -809,25 +843,363 @@ def omml_upright(xml: str, stat: dict) -> str:
         stat["formula"] += 1
 
         def fix_run(rm):
-            inner = rm.group(2)
-            if not re.search(r"[A-Za-z]", inner):
+            inner = rm.group(1)
+            if "<m:t" not in inner or "<m:rPr>" in inner:
                 return rm.group(0)
-            return (f'<m:r><m:rPr><m:sty m:val="p"/></m:rPr>'
-                    f'{rm.group(1)}{rm.group(2)}{rm.group(3)}{rm.group(4)}</m:r>')
-        return LETTER_RUN_RE.sub(fix_run, blk)
+            rt = "".join(re.findall(r"<m:t(?:\s[^>]*)?>([\s\S]*?)</m:t>", inner))
+            if not re.search(r"[A-Za-z]", rt):
+                return rm.group(0)
+            return ('<m:r><m:rPr><m:sty m:val="p"/></m:rPr>' + inner + "</m:r>")
+        return M_RUN_RE.sub(fix_run, blk)
     return OMATH_RE.sub(fix, xml)
 
 
+# ── 字体统一：所有数字/西文/符号 → Times New Roman，中文与中文标点 → 宋体 ──
+MATH_RPR = ('<w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" '
+            'w:cs="Times New Roman" w:eastAsia="SimSun"/></w:rPr>')
+
+
+def unify_fonts(xml: str):
+    """把每一处 `<w:rFonts>` 规范化成「西文 TNR + 中文宋体」，并**去掉 `w:hint="eastAsia"`**。
+
+    为什么必须去掉 hint：pandoc 对「以汉字开头的 run」会写 `<w:rFonts w:hint="eastAsia"/>`，
+    于是该 run 里的**数字与符号也用中文宋体渲染**（宋体的数字是等宽老式字形，与 TNR 明显不同）
+    ⇒ 同一页里「第 1 题」的 1、`700 °C` 的 700、`pH 4.70` 的 4.70 各用不同字体。
+    去掉 hint 后，Word 按字符的 Unicode 区段分派：ASCII/西文符号 → TNR，汉字与全角标点 → 宋体，
+    正是需求「所有数字和符号用 TNR，特殊中文符号除外」。
+    """
+    n = [0]
+
+    def rep(m):
+        n[0] += 1
+        return FONT_XML
+    return RFONTS_RE.sub(rep, xml), n[0]
+
+
+def omml_pin_font(xml: str, stat: dict) -> str:
+    """给每个数学 run 钉定西文字体（`<m:r>` 内插 `<w:rPr><w:rFonts …/>`）。
+
+    ⚠️ Schema 顺序（CT_R）＝ `m:rPr?` → `w:rPr?` → 内容(`m:t`)，故插在 `<m:t>` 之前。
+    两套机制同时上：本函数管 run 级、`set_math_font` 管文档级 `m:mathPr/m:mathFont`。
+    实测 LibreOffice 的 OMML 导入**不认**这两处（仍用 LiberationSerif 代排），属渲染器限制；
+    Word/WPS 按规范认。
+    """
+    def fix(m):
+        inner = m.group(1)
+        if "<w:rPr>" in inner or "<m:t" not in inner:
+            return m.group(0)
+        i = inner.find("<m:t")
+        stat["omml_font"] += 1
+        return "<m:r>" + inner[:i] + MATH_RPR + inner[i:] + "</m:r>"
+    return M_RUN_RE.sub(fix, xml)
+
+
+def set_math_font(settings_xml: str):
+    """文档级数学字体 → Times New Roman（`w:mathPr/m:mathFont`）。"""
+    if "<m:mathPr" in settings_xml:
+        settings_xml = re.sub(r'<m:mathFont\b[^>]*/>',
+                              '<m:mathFont m:val="Times New Roman"/>', settings_xml, count=1)
+        return settings_xml, 1
+    mp = ('<m:mathPr><m:mathFont m:val="Times New Roman"/>'
+          '<m:brkBin m:val="before"/><m:brkBinSub m:val="--"/><m:smallFrac m:val="0"/>'
+          '<m:dispDef/><m:lMargin m:val="0"/><m:rMargin m:val="0"/>'
+          '<m:defJc m:val="centerGroup"/><m:wrapIndent m:val="1440"/>'
+          '<m:intLim m:val="subSup"/><m:naryLim m:val="undOvr"/></m:mathPr>')
+    return settings_xml.replace("</w:settings>", mp + "</w:settings>"), 1
+
+
+FONT_PARTS = ("word/document.xml", "word/styles.xml", "word/numbering.xml",
+              "word/footnotes.xml", "word/comments.xml", "word/endnotes.xml")
+
+
 # ══════════════════════════════════════════════════════════════════
-#  5. 主流程
+#  6. 答题卡
 # ══════════════════════════════════════════════════════════════════
-def convert_one(vol: str, ref: Path):
-    src = QB / f"初赛模拟卷{vol}（非有机·学生版）.md"
+QH_RE = re.compile(r"^###\s+第\s*(\d+)\s*题\s*（\s*(\d+)\s*分\s*）")
+SEC_RE = re.compile(r"^##\s+(第[一二三]部分.*)$")
+ANS_HEAD_RE = re.compile(r"^#{3,6}\s*答案")
+# 每题答卷高度：按「答案篇幅」折算手写行数（手写密度约为排版的 1/2，再加 2 行余量）
+SHEET_LINE_PT = 26.0        # 一行书写高度（≈0.92cm）
+
+
+def _answer_lengths(vol: str):
+    """从答案版 md 取：分部分标题、每题 (题号, 分值, 答案显示宽度)。
+
+    ⚠️ 答案小节的标题层级**不统一**：常规是 `#### 答案`，另有若干 `### 答案（原书答案区 L####）`
+    的溯源标注（卷VI 4 处、卷VII/IX 各 1 处）。前版用「`^#{2,3}` 即结束」的通用守卫，
+    会被这类三级标题**提前截断**，导致卷VI 第2/7/11/15 题、卷IX 第6 题量到 0 字。
+    现改为「只在遇到新题/分部/卷末附录时结束」，标题层级放宽到 3~6。
+    """
+    md = (QB / f"初赛模拟卷{vol}（非有机·答案版）.md").read_text(encoding="utf-8")
+    if md.startswith("---"):
+        e = md.find("\n---", 3)
+        md = md[e + 4:] if e > 0 else md
+    secs, items, order = [], {}, []
+    cur_q, cur_ans, in_ans = None, [], False
+    score = {}
+
+    def flush():
+        if cur_q is not None:
+            items[cur_q] = "".join(cur_ans)
+
+    for ln in md.split("\n"):
+        if SEC_RE.match(ln):
+            flush(); cur_q, cur_ans, in_ans = None, [], False
+            secs.append((len(order), SEC_RE.match(ln).group(1)))
+            continue
+        if ln.lstrip().startswith("## 附") or ln.lstrip().startswith("## 选题清单"):
+            flush(); cur_q, cur_ans, in_ans = None, [], False
+            continue
+        mq = QH_RE.match(ln)
+        if mq:
+            flush()
+            cur_q = int(mq.group(1)); order.append(cur_q)
+            score[cur_q] = int(mq.group(2))
+            cur_ans, in_ans = [], False
+            continue
+        if ANS_HEAD_RE.match(ln):
+            in_ans = True
+            continue
+        if cur_q is not None and in_ans:
+            cur_ans.append(ln)
+    flush()
+    return secs, order, score, items
+
+
+def _disp_units(s: str) -> float:
+    """粗算答案「显示宽度」（全角 2 / 半角 1），剥掉 markdown 装饰但对图/表折算高度。
+
+    图与表格按「折算宽度」计入（图 150、表行 55），否则「答案就是一张表/一张投影图」
+    的题会被算成 0 字 ⇒ 答题框过小。
+    """
+    n_img = len(re.findall(r"!\[\]\([^)]*\)", s)) + len(re.findall(r"!\[\[[^\]]*\]\]", s))
+    s = re.sub(r"!\[\]\([^)]*\)", "", s)
+    s = re.sub(r"!\[\[[^\]]*\]\]", "", s)
+    n_row = sum(1 for l in s.split("\n") if l.lstrip().startswith("|"))
+    s = re.sub(r"\$+", "", s)
+    s = re.sub(r"\\[A-Za-z]+", "x", s)          # \mathrm \frac 之类当 1 个符号
+    s = re.sub(r"[{}]", "", s)
+    s = re.sub(r"\|", " ", s)
+    s = re.sub(r"^[>\-*#\s]+", "", s, flags=re.M)
+    w = 0.0
+    for ch in s:
+        w += 2 if WIDE.match(ch) else 1
+    return w + n_img * 150 + n_row * 55
+
+
+# 答题框行数 = clamp(max(答案折算行, 分值×0.55), 4, 11)
+# 分母 65 的口径：排版一行≈92 半角宽，手写一行≈65 半角宽 ⇒ 「手写占位 ≈1.4× 排版」。
+# 另按分值兜底（有些题答案只给最终数值，但学生须写过程）。
+# 🔴 上限 11 是被分页反推出来的：页容量 26 行、每题开销 2 行 ⇒ 每页只能放 2 个框；
+#    上限若给 14，任何两框都塞不进一页，实测每页只剩 1 框、整卷 15 页且半数是空白。
+def _sheet_lines(units: float, score: int) -> int:
+    return max(4, min(11, max(int(round(units / 65)) + 1, int(round(score * 0.55)))))
+
+
+# 答题卡版面标定：A4 版心高 717pt ÷ 行高 26pt ≈ 27.6 行；留 1.6 行安全余量 → 26 行/页
+SHEET_PAGE_LINES = 26
+SHEET_HEAD_LINES = 6        # 首页卷头（标题+信息栏+得分表+空行）折算行数
+SHEET_Q_OVERHEAD = 2        # 每题题号行+空行的折算行数
+
+# 答题卡用表：固定列宽（cm），交给 set_table_widths 跳过
+SHEET_TABLE_MARK = '<w:tblLayout w:type="fixed"/>'
+
+
+def build_answer_sheet(vol: str, ref: Path):
+    """生成「答题卡」（信息栏 + 阅卷得分表 + 逐题作答框），无题面。
+
+    分页策略：**贪心装箱**。逐题累加行数，若「已用 + 本题 + 题号开销」超过页容量，
+    则在题号段上加 `pageBreakBefore` 翻页。这样既保证每个作答框不被切断（cantSplit），
+    又不留大片空白——若不控页，14 页里会有近一半是空白（实测未控页时 14 页 vs 控页后 ~9 页）。
+    """
+    import docx
+    from docx.enum.table import WD_ROW_HEIGHT_RULE
+    from docx.enum.text import WD_ALIGN_PARAGRAPH
+    from docx.oxml import OxmlElement
+    from docx.oxml.ns import qn
+    from docx.shared import Pt, Cm
+
+    secs, order, score, ans = _answer_lengths(vol)
+    if not order:
+        print(f"[SKIP] 答题卡 {vol}: 未解析到题目")
+        return None
+
+    doc = docx.Document(str(ref))
+    body = doc.element.body
+    for child in list(body):
+        if child.tag.endswith("}sectPr"):
+            continue
+        body.remove(child)
+
+    def para(text="", style=None, size=None, bold=None, align=None):
+        p = doc.add_paragraph(style=style)
+        if text:
+            r = p.add_run(text)
+            if size:
+                r.font.size = Pt(size)
+            if bold is not None:
+                r.font.bold = bold
+        if align is not None:
+            p.alignment = align
+        return p
+
+    para(f"初赛模拟卷 {vol}（非有机）· 答题卡", style="Heading 1")
+
+    info = para()
+    info.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    r = info.add_run("姓名：____________　　学校：____________　　考号：____________")
+    r.font.size = Pt(BODY_PT)
+
+    para("得分栏（阅卷用）", style="Heading 4")
+
+    # ── 阅卷得分表：列宽写死（自动分列宽会把「题号/得分」挤成两行）──
+    nq = len(order)
+    t = doc.add_table(rows=2, cols=nq + 2)
+    t.autofit = False
+    W_LBL, W_Q = 1.30, 0.90
+    widths = [W_LBL] + [W_Q] * nq + [W_LBL]
+    hdr = ["题号"] + [str(q) for q in order] + ["总分"]
+    for j, v in enumerate(hdr):
+        c = t.cell(0, j)
+        c.text = ""
+        pr = c.paragraphs[0]
+        pr.alignment = WD_ALIGN_PARAGRAPH.CENTER
+        rr = pr.add_run(v)
+        rr.font.size = Pt(9)
+    c0 = t.cell(1, 0)
+    c0.text = ""
+    p0 = c0.paragraphs[0]
+    p0.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    r0 = p0.add_run("得分")
+    r0.font.size = Pt(9)
+    for row in t.rows:
+        row.height = Pt(22)
+        row.height_rule = WD_ROW_HEIGHT_RULE.AT_LEAST
+        for j, cell in enumerate(row.cells):
+            cell.width = Cm(widths[j])
+    # 写死 tblLayout=fixed（set_table_widths 见此后跳过）
+    tblPr = t._tbl.tblPr
+    lay = tblPr.find(qn("w:tblLayout"))
+    if lay is None:
+        lay = OxmlElement("w:tblLayout"); tblPr.append(lay)
+    lay.set(qn("w:type"), "fixed")
+    # ⚠️ 必须同时改 tblGrid：固定布局下渲染器以 tblGrid 分列，
+    #    只写 tcW 不改 grid 时 LibreOffice 仍按原等宽列排，9pt 的「题号/得分/总分」会被拆成两行。
+    grid = t._tbl.find(qn("w:tblGrid"))
+    if grid is not None:
+        t._tbl.remove(grid)
+    grid = OxmlElement("w:tblGrid")
+    for w in widths:
+        gc = OxmlElement("w:gridCol")
+        gc.set(qn("w:w"), str(int(Cm(w).twips)))
+        grid.append(gc)
+    t._tbl.insert(list(t._tbl).index(tblPr) + 1, grid)
+
+    para("", size=6)
+
+    # ── 贪心装箱分页 ──
+    used = SHEET_HEAD_LINES
+    first = True
+    total_lines = 0
+    for q in order:
+        units = _disp_units(ans.get(q, ""))
+        nlines = _sheet_lines(units, score.get(q, 0))
+        total_lines += nlines
+        need = nlines + SHEET_Q_OVERHEAD
+        if (not first) and used + need > SHEET_PAGE_LINES:
+            used = 0
+            brk = True
+        else:
+            brk = False
+        h = para(f"第 {q} 题（{score.get(q, 0)} 分）", style="Heading 3")
+        if brk:
+            pp = h._p.get_or_add_pPr()
+            pb = OxmlElement("w:pageBreakBefore")
+            pp.insert(0, pb) if pp.find(qn("w:pStyle")) is None else pp.find(qn("w:pStyle")).addnext(pb)
+        box = doc.add_table(rows=1, cols=1)
+        box.cell(0, 0).text = ""
+        row = box.rows[0]
+        row.height = Pt(nlines * SHEET_LINE_PT)
+        row.height_rule = WD_ROW_HEIGHT_RULE.AT_LEAST
+        trPr = row._tr.get_or_add_trPr()
+        trPr.append(OxmlElement("w:cantSplit"))
+        para("", size=6)
+        used += need
+        first = False
+
+    stage = TMP / f"初赛模拟卷{vol}（非有机·答题卡）.docx"
+    doc.save(str(stage))
+
+    stat = {"img": 0, "subq": 0, "indent": 0, "tbl": 0, "color": 0, "formula": 0,
+            "sty_color": 0, "empty_base": 0, "tbl_width": 0, "tbl_skip": 0,
+            "caption": 0, "quote": 0, "font": 0, "omml_font": 0}
+    with zipfile.ZipFile(stage) as z:
+        names = z.namelist()
+        entries = {n: z.read(n) for n in names}
+    doc_xml, stat["font"] = unify_fonts(entries["word/document.xml"].decode("utf-8"))
+    doc_xml = process_document_xml(doc_xml, stat)
+    entries["word/document.xml"] = doc_xml.encode("utf-8")
+    for part in FONT_PARTS:
+        if part in entries and part != "word/document.xml":
+            v2, _n = unify_fonts(entries[part].decode("utf-8"))
+            if part == "word/styles.xml":
+                v2, stat["sty_color"] = blacken_colors(v2)
+            entries[part] = v2.encode("utf-8")
+    for n in list(entries):
+        if n.startswith("word/footer") or n.startswith("word/header"):
+            v2, _n = unify_fonts(entries[n].decode("utf-8"))
+            entries[n] = v2.encode("utf-8")
+    if "word/settings.xml" in entries:
+        s2, _n = set_math_font(entries["word/settings.xml"].decode("utf-8"))
+        entries["word/settings.xml"] = s2.encode("utf-8")
+
+    OUTDIR.mkdir(parents=True, exist_ok=True)
+    target = OUTDIR / f"初赛模拟卷{vol}（非有机·答题卡）.docx"
+    tmp_out = TMP / f"_w_kz_{vol}.docx"
+    with zipfile.ZipFile(tmp_out, "w", zipfile.ZIP_DEFLATED) as zo:
+        for n in names:
+            zo.writestr(n, entries[n])
+    shutil.copyfile(tmp_out, target)
+    os.remove(tmp_out)
+    print(f"[OK]  卡 {vol:>4}  题数={nq} 表={stat['tbl']} 框宽={stat['tbl_width']} 字体={stat['font']} "
+          f"总书写行≈{sum(_sheet_lines(_disp_units(ans.get(q, '')), score.get(q, 0)) for q in order)}")
+    return target
+
+
+# ══════════════════════════════════════════════════════════════════
+#  7. 主流程
+# ══════════════════════════════════════════════════════════════════
+# 版本口径：
+#   student —— 学生版：删「考试说明」引用块；标题去「· 学生版」后缀
+#   answer  —— 答案与解析版：**内容一字不动**（组卷口径引用块、逐题「来源…｜难度」行、
+#              卷末《附：选题清单（题卡溯源）》均为规范指定的答案版内容），仅换标题与卷面
+EDITIONS = {
+    "student": {
+        "src": "初赛模拟卷{v}（非有机·学生版）.md",
+        "out": "初赛模拟卷{v}（非有机·学生版·真题版式）.docx",
+        "tmp": "初赛模拟卷{v}（非有机·真题版式）",
+        "drop_exam_note": True,
+        "title_suffix": "",
+    },
+    "answer": {
+        "src": "初赛模拟卷{v}（非有机·答案版）.md",
+        "out": "初赛模拟卷{v}（非有机·答案与解析版·真题版式）.docx",
+        "tmp": "初赛模拟卷{v}（非有机·答案与解析·真题版式）",
+        "drop_exam_note": False,
+        "title_suffix": "· 答案与解析",
+    },
+}
+
+
+def convert_one(vol: str, ref: Path, edition: str = "student"):
+    cfg = EDITIONS[edition]
+    src = QB / cfg["src"].format(v=vol)
     if not src.exists():
         print(f"[SKIP] 源缺失 {src.name}")
         return None
     raw = src.read_text(encoding="utf-8")
-    new_md, title, nd_note, nd_hr = transform_md(raw)
+    new_md, title, nd_note, nd_hr = transform_md(
+        raw, drop_exam_note=cfg["drop_exam_note"], title_suffix=cfg["title_suffix"])
 
     log = []
     n_img_before = len(re.findall(r"!\[\[", new_md))
@@ -837,21 +1209,23 @@ def convert_one(vol: str, ref: Path):
     new_md, n_cap = separate_figure_captions(new_md)
     new_md = normalize_dd(new_md)
 
-    stage = TMP / f"初赛模拟卷{vol}（非有机·真题版式）.md"
+    stage = TMP / (cfg["tmp"].format(v=vol) + ".md")
     with open(stage, "w", encoding="utf-8", newline="\n") as f:
         f.write(new_md)
 
-    docx = TMP / f"初赛模拟卷{vol}（非有机·真题版式）.docx"
+    docx = TMP / (cfg["tmp"].format(v=vol) + ".docx")
     cmd = [PANDOC, str(stage), "-o", str(docx),
            f"--from={PANDOC_EXT}", "--to=docx",
            f"--resource-path={MEDIA}", f"--reference-doc={ref}"]
     r = subprocess.run(cmd, capture_output=True, text=True,
                        encoding="utf-8", errors="replace")
     if r.returncode != 0:
-        print(f"[FAIL] pandoc {vol}: {r.stderr[:400]}")
+        print(f"[FAIL] pandoc {vol}/{edition}: {r.stderr[:400]}")
         return None
 
-    stat = {"img": 0, "subq": 0, "indent": 0, "tbl": 0, "color": 0, "formula": 0, "sty_color": 0, "empty_base": 0, "tbl_width": 0, "tbl_skip": 0, "caption": 0}
+    stat = {"img": 0, "subq": 0, "indent": 0, "tbl": 0, "color": 0, "formula": 0,
+            "sty_color": 0, "empty_base": 0, "tbl_width": 0, "tbl_skip": 0,
+            "caption": 0, "quote": 0, "font": 0, "omml_font": 0}
     with zipfile.ZipFile(docx) as z:
         names = z.namelist()
         entries = {n: z.read(n) for n in names}
@@ -859,19 +1233,30 @@ def convert_one(vol: str, ref: Path):
     n_media = sum(1 for n in names if n.startswith("word/media/"))
     doc = entries["word/document.xml"].decode("utf-8")
     doc = process_document_xml(doc, stat)
-    doc = omml_upright(doc, stat)
+    doc, stat["font"] = unify_fonts(doc)          # 先统一西文/中文字体（去 eastAsia hint）
+    doc = omml_upright(doc, stat)                 # 再判化学式（依赖 <m:t> 紧邻匹配）
+    doc = omml_pin_font(doc, stat)                # 最后钉数学 run 的西文字体
     doc, stat["empty_base"] = fix_empty_math_base(doc)
     entries["word/document.xml"] = doc.encode("utf-8")
 
-    sx = entries.get("word/styles.xml")
-    if sx:
-        sx, stat["sty_color"] = blacken_colors(sx.decode("utf-8"))
-        entries["word/styles.xml"] = sx.encode("utf-8")
+    for part in FONT_PARTS:
+        if part in entries and part != "word/document.xml":
+            v2, _n = unify_fonts(entries[part].decode("utf-8"))
+            if part == "word/styles.xml":
+                v2, stat["sty_color"] = blacken_colors(v2)
+            entries[part] = v2.encode("utf-8")
+    for n in list(entries):
+        if n.startswith("word/footer") or n.startswith("word/header"):
+            v2, _n = unify_fonts(entries[n].decode("utf-8"))
+            entries[n] = v2.encode("utf-8")
+    if "word/settings.xml" in entries:
+        s2, _n = set_math_font(entries["word/settings.xml"].decode("utf-8"))
+        entries["word/settings.xml"] = s2.encode("utf-8")
 
     has_alt = any(b"AlternateContent" in v for k, v in entries.items() if k.endswith(".xml"))
     OUTDIR.mkdir(parents=True, exist_ok=True)
-    target = OUTDIR / f"初赛模拟卷{vol}（非有机·学生版·真题版式）.docx"
-    tmp_out = TMP / f"_w_{vol}.docx"
+    target = OUTDIR / cfg["out"].format(v=vol)
+    tmp_out = TMP / f"_w_{edition}_{vol}.docx"
     with zipfile.ZipFile(tmp_out, "w", zipfile.ZIP_DEFLATED) as zo:
         for n in names:
             zo.writestr(n, entries[n])
@@ -881,26 +1266,47 @@ def convert_one(vol: str, ref: Path):
     warn = ""
     if n_img_before != n_media:
         warn = f"  ⚠️图不守恒 源{n_img_before}→media{n_media}"
-    print(f"[OK] {vol:>4}  标题={title!r}  删考试说明行={nd_note} 删分隔线={nd_hr}  "
-          f"缩进段={stat['indent']} 子问段={stat['subq']} 图={n_media}/{n_img_before} "
-          f"表={stat['tbl']} 公式正体={stat['formula']} 空基修补={stat['empty_base']} 表宽={stat['tbl_width']} 图注={n_cap}/{stat['caption']} AlternateContent={'有' if has_alt else '无'}{warn}")
+    print(f"[OK] {edition[:4]:>4} {vol:>4}  标题={title!r}  删说明={nd_note} 删线={nd_hr}  "
+          f"缩进={stat['indent']} 子问={stat['subq']} 引块={stat['quote']} "
+          f"图={n_media}/{n_img_before} 表={stat['tbl']}/{stat['tbl_width']} "
+          f"正体={stat['formula']} 空基={stat['empty_base']} 字体={stat['font']} 数式字体={stat['omml_font']} "
+          f"图注={n_cap}/{stat['caption']}"
+          f"{' AlternateContent=有' if has_alt else ''}{warn}")
     for l in log:
         print("     ", l)
     return target
 
 
 def main():
-    only = [a for a in sys.argv[1:] if not a.startswith("--")]
-    rebuild = "--rebuild-ref" in sys.argv
+    args = sys.argv[1:]
+    rebuild = "--rebuild-ref" in args
+    only_ans = "--answer" in args
+    only_stu = "--student" in args
+    only_kz = "--kazhu" in args
+    vols = [a for a in args if not a.startswith("--")] or VOLS
     TMP.mkdir(parents=True, exist_ok=True)
     ref = build_reference(force=rebuild)
-    vols = only if only else VOLS
     done = []
-    for v in vols:
-        t = convert_one(v, ref)
-        if t:
-            done.append(t)
-    print(f"\n完成 {len(done)}/{len(vols)} → {OUTDIR}")
+    editions = []
+    if only_ans:
+        editions = ["answer"]
+    elif only_stu:
+        editions = ["student"]
+    elif only_kz:
+        editions = []
+    else:
+        editions = ["student", "answer"]
+    for ed in editions:
+        for v in vols:
+            t = convert_one(v, ref, ed)
+            if t:
+                done.append(t)
+    if only_kz or not editions:
+        for v in vols:
+            t = build_answer_sheet(v, ref)
+            if t:
+                done.append(t)
+    print(f"\n完成 {len(done)}/{len(vols) * max(len(editions), 1)} → {OUTDIR}")
 
 
 if __name__ == "__main__":
