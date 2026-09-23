@@ -2437,6 +2437,11 @@ def pandoc_convert(
         "docx",
         outputfile=str(docx_path),
         extra_args=extra_args,
+        # 单文件输入必须关掉 sort_files：pypandoc 新版对单文件会把 list 退化为
+        # 单个 Path 对象，sort_files=True（默认）时 sorted(Path) 直接 TypeError。
+        # 标题含 [A] 等方括号（如「把 d[A]/dt 解出来」）时 glob 触发字符类匹配，
+        # 稳定复现该崩溃（2026-09-23 数学工具第4讲导出实测）。
+        sort_files=False,
     )
 
 
@@ -2565,14 +2570,19 @@ def convert_file(
     out_dir.mkdir(parents=True, exist_ok=True)
     # Unique per-process/thread temp base so parallel workers never collide on the
     # same `_{stem}.tmp.*` path.
+    # ⚠ tmp 文件名必须净化 glob 特殊字符（[ ] * ?）：stem 来自 H1，可能含 d[A]/dt
+    # 之类内容；pypandoc convert_file 内部用 glob.glob() 解析输入路径，[A] 会被当
+    # 字符类导致失配 → 走 Path fallback → 'WindowsPath' object is not iterable
+    # （2026-09-23 数学工具第4讲导出实测，独立最小复现确认）。
+    tmp_stem = re.sub(r"[\[\]*?]", "_", stem)
     tmp_id = f"{os.getpid()}-{threading.get_ident()}"
-    tmp_md = out_dir / f"_{stem}.{tmp_id}.tmp.md"
+    tmp_md = out_dir / f"_{tmp_stem}.{tmp_id}.tmp.md"
     tmp_md.write_text(full_md, encoding="utf-8")
     resource_path = _build_resource_path(md_path, out_dir)
 
     try:
         # ── Stage 2: Pandoc ──
-        tmp_docx = out_dir / f"_{stem}.{tmp_id}.tmp.docx"
+        tmp_docx = out_dir / f"_{tmp_stem}.{tmp_id}.tmp.docx"
         pandoc_convert(tmp_md, tmp_docx, resource_path=resource_path, verbose=verbose)
 
         # ── Stage 3: Post-process fonts ──
