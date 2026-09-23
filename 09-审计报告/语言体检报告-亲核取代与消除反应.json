@@ -1,0 +1,154 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\6-有机化学\\亲核取代与消除反应.md",
+  "total_lines": 845,
+  "pseudo_callout": [
+   {
+    "line": 47,
+    "title": "适用"
+   },
+   {
+    "line": 48,
+    "title": "对应备课大纲"
+   },
+   {
+    "line": 49,
+    "title": "前置知识"
+   },
+   {
+    "line": 50,
+    "title": "核心概念"
+   },
+   {
+    "line": 672,
+    "title": "纠正"
+   },
+   {
+    "line": 677,
+    "title": "纠正"
+   },
+   {
+    "line": 682,
+    "title": "纠正"
+   },
+   {
+    "line": 687,
+    "title": "纠正"
+   },
+   {
+    "line": 692,
+    "title": "纠正"
+   },
+   {
+    "line": 697,
+    "title": "纠正"
+   },
+   {
+    "line": 702,
+    "title": "纠正"
+   }
+  ],
+  "callout": [
+   {
+    "line": 56,
+    "type": "note"
+   },
+   {
+    "line": 669,
+    "type": "warning"
+   },
+   {
+    "line": 674,
+    "type": "warning"
+   },
+   {
+    "line": 679,
+    "type": "warning"
+   },
+   {
+    "line": 684,
+    "type": "warning"
+   },
+   {
+    "line": 689,
+    "type": "warning"
+   },
+   {
+    "line": 694,
+    "type": "warning"
+   },
+   {
+    "line": 699,
+    "type": "warning"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 258,
+    "text": "**速率方程**：rate = k[RX][Base] （二级反应）",
+    "len": 23
+   },
+   {
+    "line": 525,
+    "text": "**答案**：SN1：D > C > B > A；SN2：A > B > C > D",
+    "len": 20
+   },
+   {
+    "line": 545,
+    "text": "**答案**：(S)-2-丁醇（构型完全翻转）。",
+    "len": 18
+   },
+   {
+    "line": 604,
+    "text": "**思路**：按五问法逐个因子分析。",
+    "len": 14
+   },
+   {
+    "line": 645,
+    "text": "**思路**：从产物反推底物结构 + 用五问法判断机理。",
+    "len": 22
+   }
+  ],
+  "negative_words": [
+   {
+    "line": 332,
+    "word": "走人",
+    "suggest": "离去",
+    "text": "**E1cb 判断口诀**：“β 位拉电子、LG 不给力，先拔 H 成负离子，慢 LG 再走人——E1cb。”（严谨判据"
+   },
+   {
+    "line": 332,
+    "word": "不给力",
+    "suggest": "离去能力弱/亲核性弱",
+    "text": "**E1cb 判断口诀**：“β 位拉电子、LG 不给力，先拔 H 成负离子，慢 LG 再走人——E1cb。”（严谨判据"
+   },
+   {
+    "line": 730,
+    "word": "纠结",
+    "suggest": "竞争激烈/判定依赖试剂（口诀内按规范 §5.3 处理）",
+    "text": "> \"甲基、一级走 SN2，三级 SN1/E1/E2，二级最纠结试剂排第一。"
+   }
+  ],
+  "whitelist_hits": [],
+  "motto_dupe": [],
+  "quickref_names": [
+   {
+    "line": 738,
+    "heading": "十、本讲速查",
+    "matched": "本讲速查"
+   }
+  ],
+  "dup_pairs": [
+   {
+    "line_a": 1,
+    "line_b": 258,
+    "sim": 0.39,
+    "text_a": "[[8b075f14f4228e2c22b24bced77b231556bc201ae54133dd9265b0de4969f593.jpg]]> *图 E2 ",
+    "text_b": "[[8b075f14f4228e2c22b24bced77b231556bc201ae54133dd9265b0de4969f593.jpg|E2 协同机理示意"
+   }
+  ],
+  "callout_density_per_100": 0.95,
+  "callout_limit": 9
+ }
+]
