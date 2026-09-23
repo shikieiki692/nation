@@ -38,6 +38,7 @@
    }
   ],
   "warning_prefix": [],
+  "structural_exempt": [],
   "fragments": [
    {
     "line": 94,
@@ -108,6 +109,13 @@
   "hybrid_syntax": [],
   "unit_range": [],
   "callout_density_per_100": 1.21,
-  "callout_limit": 7
+  "callout_limit": 7,
+  "content_stats": {
+   "h2_sections": 11,
+   "deriv_marks": 6,
+   "examples": 0,
+   "answer_math_blocks": 1,
+   "deriv_per_h2": 0.55
+  }
  }
 ]

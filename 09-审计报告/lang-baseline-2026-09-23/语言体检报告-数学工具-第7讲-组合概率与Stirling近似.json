@@ -2,12 +2,7 @@
  {
   "file": "04-课件\\学生讲义\\_数学工具\\数学工具-第7讲-组合概率与Stirling近似.md",
   "total_lines": 556,
-  "pseudo_callout": [
-   {
-    "line": 555,
-    "title": "全册收官"
-   }
-  ],
+  "pseudo_callout": [],
   "callout": [
    {
     "line": 142,
@@ -23,6 +18,7 @@
    }
   ],
   "warning_prefix": [],
+  "structural_exempt": [],
   "fragments": [
    {
     "line": 178,
@@ -40,6 +36,13 @@
   "hybrid_syntax": [],
   "unit_range": [],
   "callout_density_per_100": 0.54,
-  "callout_limit": 6
+  "callout_limit": 6,
+  "content_stats": {
+   "h2_sections": 11,
+   "deriv_marks": 5,
+   "examples": 0,
+   "answer_math_blocks": 0,
+   "deriv_per_h2": 0.45
+  }
  }
 ]

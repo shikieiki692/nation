@@ -2,12 +2,7 @@
  {
   "file": "04-课件\\学生讲义\\_数学工具\\数学工具-第6讲-量纲数量级与估算.md",
   "total_lines": 591,
-  "pseudo_callout": [
-   {
-    "line": 591,
-    "title": "下一讲"
-   }
-  ],
+  "pseudo_callout": [],
   "callout": [
    {
     "line": 108,
@@ -47,6 +42,7 @@
    }
   ],
   "warning_prefix": [],
+  "structural_exempt": [],
   "fragments": [
    {
     "line": 168,
@@ -89,6 +85,13 @@
   "hybrid_syntax": [],
   "unit_range": [],
   "callout_density_per_100": 1.52,
-  "callout_limit": 6
+  "callout_limit": 6,
+  "content_stats": {
+   "h2_sections": 12,
+   "deriv_marks": 1,
+   "examples": 0,
+   "answer_math_blocks": 0,
+   "deriv_per_h2": 0.08
+  }
  }
 ]
