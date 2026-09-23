@@ -1,0 +1,276 @@
+{
+ "batch": "03-知识点 化学原理+分析化学",
+ "total": 24,
+ "items": [
+  {
+   "md": "03-知识点/化学原理/共轭酸碱对.md",
+   "ln": 110,
+   "end": 110,
+   "del_ln": [
+    111
+   ],
+   "old": [
+    "![[zhao_hs_dissoc_01633064.jpg]]"
+   ],
+   "old_caption": [
+    "*图：多元酸第二步解离 HS⁻⇌H⁺+S²⁻，Ka₂=7.1×10⁻¹⁵，展示酸碱平衡的定量描述*"
+   ]
+  },
+  {
+   "md": "03-知识点/化学原理/标准生成焓.md",
+   "ln": 62,
+   "end": 62,
+   "del_ln": [],
+   "old": [
+    "![[zhao_thermochem_eq.jpg]]"
+   ],
+   "old_caption": []
+  },
+  {
+   "md": "03-知识点/化学原理/氧化还原反应方程式配平.md",
+   "ln": 115,
+   "end": 115,
+   "del_ln": [
+    116
+   ],
+   "old": [
+    "![[zhao_redox_71e756a9.jpg]]"
+   ],
+   "old_caption": [
+    "*图：氧化还原方程 7PbO₂+2MnBr₂+14HNO₃=7Pb(NO₃)₂+2Br₂+2HMnO₄+6H₂O，展示复杂氧化还原反应的配平*"
+   ]
+  },
+  {
+   "md": "03-知识点/化学原理/溶解度.md",
+   "ln": 80,
+   "end": 80,
+   "del_ln": [
+    81
+   ],
+   "old": [
+    "![[zhao_ksp_calc_808585f6.jpg]]"
+   ],
+   "old_caption": [
+    "*图：溶度积计算 x=Ksp/1.52×10⁻³=7.2×10⁻⁸，展示溶解平衡的定量计算*"
+   ]
+  },
+  {
+   "md": "03-知识点/化学原理/焓.md",
+   "ln": 61,
+   "end": 67,
+   "del_ln": [],
+   "old": [
+    "# 焓",
+    "",
+    "![[zhao_thermochem_eq.jpg]]",
+    "",
+    "![[zhao_thermochem_eq.jpg]]",
+    "",
+    "# 焓"
+   ],
+   "old_caption": []
+  },
+  {
+   "md": "03-知识点/化学原理/电子亲合能.md",
+   "ln": 96,
+   "end": 96,
+   "del_ln": [],
+   "old": [
+    "![[zhao_electron_affinity_f.jpg]]"
+   ],
+   "old_caption": []
+  },
+  {
+   "md": "03-知识点/化学原理/电子亲合能.md",
+   "ln": 76,
+   "end": 76,
+   "del_ln": [],
+   "old": [
+    "![[zhao_electron_affinity_f.jpg]]"
+   ],
+   "old_caption": []
+  },
+  {
+   "md": "03-知识点/化学原理/电极.md",
+   "ln": 71,
+   "end": 71,
+   "del_ln": [],
+   "old": [
+    "![[zhao_she_electrode_2026d5ab.jpg]]"
+   ],
+   "old_caption": []
+  },
+  {
+   "md": "03-知识点/化学原理/电离能.md",
+   "ln": 91,
+   "end": 91,
+   "del_ln": [],
+   "old": [
+    "![[zhao_ionization_energy_def.jpg]]"
+   ],
+   "old_caption": []
+  },
+  {
+   "md": "03-知识点/化学原理/稳定常数.md",
+   "ln": 91,
+   "end": 91,
+   "del_ln": [],
+   "old": [
+    "![[zhao_stability_141da9af.jpg]]"
+   ],
+   "old_caption": []
+  },
+  {
+   "md": "03-知识点/化学原理/解离常数.md",
+   "ln": 59,
+   "end": 59,
+   "del_ln": [],
+   "old": [
+    "![[zhao_ka_table.jpg]]"
+   ],
+   "old_caption": []
+  },
+  {
+   "md": "03-知识点/分析化学/条件稳定常数.md",
+   "ln": 79,
+   "end": 79,
+   "del_ln": [],
+   "old": [
+    "![[zhao_edta_equilibrium_0138d246.jpg]]"
+   ],
+   "old_caption": []
+  },
+  {
+   "md": "03-知识点/分析化学/萃取.md",
+   "ln": 59,
+   "end": 59,
+   "del_ln": [],
+   "old": [
+    "![[zhao_extraction_rate.jpg]]"
+   ],
+   "old_caption": []
+  },
+  {
+   "md": "03-知识点/化学原理/内能.md",
+   "ln": 48,
+   "end": 48,
+   "del_ln": [],
+   "old": [
+    "![[zhao_dg_w_relation_91524757.jpg]]"
+   ],
+   "old_caption": []
+  },
+  {
+   "md": "03-知识点/化学原理/反应自发性.md",
+   "ln": 77,
+   "end": 77,
+   "del_ln": [],
+   "old": [
+    "![[zhao_dg_w_relation_91524757.jpg]]"
+   ],
+   "old_caption": []
+  },
+  {
+   "md": "03-知识点/化学原理/等温方程.md",
+   "ln": 74,
+   "end": 74,
+   "del_ln": [],
+   "old": [
+    "![[zhao_deltaG_work.jpg]]"
+   ],
+   "old_caption": []
+  },
+  {
+   "md": "03-知识点/化学原理/化学计量.md",
+   "ln": 74,
+   "end": 74,
+   "del_ln": [],
+   "old": [
+    "![[zhao_stoich_calc_0d3197e4.jpg]]"
+   ],
+   "old_caption": []
+  },
+  {
+   "md": "03-知识点/化学原理/反应速率.md",
+   "ln": 115,
+   "end": 115,
+   "del_ln": [
+    116
+   ],
+   "old": [
+    "![[zhao_arrhenius_03338276.jpg]]"
+   ],
+   "old_caption": [
+    "*图：Arrhenius图（lnk vs 1/T，线性拟合，斜率=-Ea/R），展示反应速率与温度的关系*"
+   ]
+  },
+  {
+   "md": "03-知识点/化学原理/标准态.md",
+   "ln": 51,
+   "end": 51,
+   "del_ln": [],
+   "old": [
+    "![[zhao_thermo_data_table.jpg]]"
+   ],
+   "old_caption": []
+  },
+  {
+   "md": "03-知识点/化学原理/标准熵.md",
+   "ln": 77,
+   "end": 77,
+   "del_ln": [
+    79
+   ],
+   "old": [
+    "![[zhao_thermo_data_table.jpg]]"
+   ],
+   "old_caption": [
+    "> 热力学数据表（CO₂/H₂/CO/H₂O的ΔfHθm与Sθm，赵鑫光 Ch200-350 OCR）"
+   ]
+  },
+  {
+   "md": "03-知识点/化学原理/理想气体状态方程.md",
+   "ln": 62,
+   "end": 62,
+   "del_ln": [],
+   "old": [
+    "![[zhao_partial_pressure.jpg]]"
+   ],
+   "old_caption": []
+  },
+  {
+   "md": "03-知识点/化学原理/离域π键.md",
+   "ln": 68,
+   "end": 68,
+   "del_ln": [],
+   "old": [
+    "![[zhao_benzene_delocalized_pi.jpg]]"
+   ],
+   "old_caption": []
+  },
+  {
+   "md": "03-知识点/化学原理/等电子体.md",
+   "ln": 81,
+   "end": 81,
+   "del_ln": [],
+   "old": [
+    "![[zhao_no3_resonance.jpg]]"
+   ],
+   "old_caption": []
+  },
+  {
+   "md": "03-知识点/分析化学/比色分析.md",
+   "ln": 74,
+   "end": 74,
+   "del_ln": [
+    76
+   ],
+   "old": [
+    "![[zhao_absorption_spectra.jpg]]"
+   ],
+   "old_caption": [
+    "*试剂与络合物吸收光谱对比（试剂515nm，络合物655nm）——比色分析的光谱基础（来源：赵鑫光Ch351-482）*"
+   ]
+  }
+ ]
+}
