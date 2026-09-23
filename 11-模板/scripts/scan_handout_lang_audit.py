@@ -74,6 +74,27 @@ QUICKREF_VARIANTS = ("本节总结", "核心速查卡", "速查卡", "知识速�
 
 CALLOUT_RE = re.compile(r"^>\s*\[!(tip|warning|info|note|abstract|example|quote|summary)\]", re.I)
 PSEUDO_RE = re.compile(r"^>\s*\*\*([^*]{2,40})\*\*\s*[：:]")
+
+# S0 豁免白名单（推广批校准固化，2026-09-23）：下列标题的 `> **…**：` 是**结构位**
+# 而非病灶位（frontmatter 元信息块 / 题目区结构 / 来源登记 / 收尾结构）——
+# 试点三份改造后残留的 15/11/9 个与第一轮校准样本（数学工具第1讲 8 个全豁免）
+# 均由此类构成。命中不计 pseudo_callout，单列 structural_exempt 保留可审计性。
+PSEUDO_STRUCTURAL_EXEMPT = {
+    # 元信息 / frontmatter 块
+    "对应专题", "建议使用方式", "前置要求", "深度边界", "课时", "版本说明",
+    "本讲定位", "对应考纲", "对应备课大纲", "下节衔接", "本讲解决的问题",
+    "关联讲义", "考纲对应", "适用", "轮次导航", "考纲覆盖", "编排说明",
+    "立项依据", "本章定位", "使用边界", "复习提示", "学习目标", "目录",
+    "符号约定", "题源", "来源", "出处", "图片说明", "图源", "使用建议",
+    # 题目区结构
+    "题目", "答案", "解析", "纠正", "练习题", "例题", "思考题", "变式",
+    "考点", "竞赛考点", "竞赛链接", "真题提醒", "题干", "设问",
+    # 收尾结构
+    "方法总结", "本章小结", "习题与思考", "本节总结",
+}
+PSEUDO_STRUCTURAL_EXEMPT_RE = re.compile(
+    r"^(误区\s*[一二三四五六七八九十\d]+|第\s*[一二三四五六七八九十\d]+\s*(问|步|类|部分)|解\s*\d*|辨析\s*\d+|情境\s*\d+)$"
+)
 WARN_PREFIX_RE = re.compile(r"⚠")
 IMG_EMBED_RE = re.compile(r"!\[\[|!\[")
 FIGCAPTION_RE = re.compile(r"^\*[^*]+\*\s*$")          # *图 N …* 斜体图注
@@ -181,6 +202,7 @@ def scan_file(path: Path, frag_len: int, dup_n: int, dup_th: float) -> dict:
     res = {
         "file": str(path), "total_lines": len(lines),
         "pseudo_callout": [], "callout": [], "warning_prefix": [],
+        "structural_exempt": [],
         "fragments": [], "negative_words": [], "whitelist_hits": [],
         "motto_dupe": [], "quickref_names": [], "dup_pairs": [],
         "term_variants": [], "weasel_words": [], "hybrid_syntax": [], "unit_range": [],
@@ -213,7 +235,10 @@ def scan_file(path: Path, frag_len: int, dup_n: int, dup_th: float) -> dict:
             continue
         if PSEUDO_RE.match(s) and not in_answer:
             title = PSEUDO_RE.match(s).group(1)
-            res["pseudo_callout"].append({"line": i, "title": title})
+            if title.strip() in PSEUDO_STRUCTURAL_EXEMPT or PSEUDO_STRUCTURAL_EXEMPT_RE.match(title.strip()):
+                res["structural_exempt"].append({"line": i, "title": title})
+            else:
+                res["pseudo_callout"].append({"line": i, "title": title})
         if WARN_PREFIX_RE.search(s) and not FIGCAPTION_RE.match(s):
             res["warning_prefix"].append({"line": i, "text": s[:60]})
         # 负面词
@@ -272,6 +297,7 @@ def md_report(reports: list[dict]) -> str:
         out.append("| 指标 | 值 | 阈值/说明 |")
         out.append("|:--|--:|:--|")
         out.append(f"| 伪callout | {len(r['pseudo_callout'])} | 目标 0（§2.1 三分法处置） |")
+        out.append(f"| 结构性豁免 | {len(r.get('structural_exempt', []))} | S0 白名单，登记即可 |")
         out.append(f"| 正式callout | {len(r['callout'])}（{r['callout_density_per_100']}/百行） | ≤{r['callout_limit']} 个且 ≤1.0/百行 |")
         out.append(f"| ⚠前缀行 | {len(r['warning_prefix'])} | 目标 0 |")
         out.append(f"| 单句碎片段 | {len(r['fragments'])} | ≤3 |")
@@ -288,13 +314,16 @@ def md_report(reports: list[dict]) -> str:
                          ("warning_prefix", 20), ("motto_dupe", 10), ("dup_pairs", 25),
                          ("whitelist_hits", 10), ("quickref_names", 12),
                          ("term_variants", 20), ("weasel_words", 20),
-                         ("hybrid_syntax", 15), ("unit_range", 15)):
+                         ("hybrid_syntax", 15), ("unit_range", 15),
+                         ("structural_exempt", 60)):
             items = r[key]
             if not items:
                 continue
             out.append(f"\n### {key}（{len(items)}）\n")
             for it in items[:cap]:
                 if key == "pseudo_callout":
+                    out.append(f"- L{it['line']} `> **{it['title']}**：`")
+                elif key == "structural_exempt":
                     out.append(f"- L{it['line']} `> **{it['title']}**：`")
                 elif key == "dup_pairs":
                     out.append(f"- sim={it['sim']} L{it['line_a']}↔L{it['line_b']}：`{it['text_a']}` ↔ `{it['text_b']}`")
