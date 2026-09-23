@@ -1,0 +1,802 @@
+{
+ "gibbs-free-energy-plot.jpg": {
+  "v": "留-曲线图",
+  "n": "gibbs-free-energy-plot ΔG–T 自制曲线",
+  "idx": 0,
+  "used": true,
+  "w": 2379,
+  "h": 980
+ },
+ "boltzmann-energy-distribution.jpg": {
+  "v": "留-曲线图",
+  "n": "boltzmann-energy-distribution 自制曲线",
+  "idx": 1,
+  "used": true,
+  "w": 2379,
+  "h": 980
+ },
+ "zhao_photon_64e5568a.jpg": {
+  "v": "弃-应为文本",
+  "n": "ΔE=hν=hc/λ 计算式切条",
+  "idx": 2,
+  "used": true,
+  "w": 809,
+  "h": 70
+ },
+ "zhao_emission_b5b8e5a4.jpg": {
+  "v": "留-教学图",
+  "n": "氢原子发射光谱实验装置示意（放电管+狭缝+棱镜）",
+  "idx": 3,
+  "used": true,
+  "w": 839,
+  "h": 462
+ },
+ "zhao_ce_electrode.jpg": {
+  "v": "弃-应为文本",
+  "n": "d(NO₂)/dt 速率方程切条",
+  "idx": 4,
+  "used": true,
+  "w": 573,
+  "h": 68
+ },
+ "adsorption-isotherm.jpg": {
+  "v": "留-曲线图",
+  "n": "adsorption-isotherm Freundlich/Langmuir 自制曲线",
+  "idx": 5,
+  "used": true,
+  "w": 2379,
+  "h": 980
+ },
+ "zjwx_ch10_hysteresis_loop.jpg": {
+  "v": "留-教学图",
+  "n": "磁滞回线（a/b 两图）",
+  "idx": 6,
+  "used": true,
+  "w": 776,
+  "h": 398
+ },
+ "zjwx_ch10_chevrel_phase.jpg": {
+  "v": "留-教学图",
+  "n": "Chevrel 相 Mo₆S₈ 结构",
+  "idx": 7,
+  "used": true,
+  "w": 518,
+  "h": 554
+ },
+ "zjwx_ch10_ybco_layered_structure.jpg": {
+  "v": "留-教学图",
+  "n": "YBCO 层状结构多面体堆叠",
+  "idx": 8,
+  "used": true,
+  "w": 384,
+  "h": 623
+ },
+ "zjwx_ch10_chi_vs_temp_magnetism.jpg": {
+  "v": "留-教学图",
+  "n": "χ–T 曲线（反铁磁/顺磁，标 T_N）",
+  "idx": 9,
+  "used": true,
+  "w": 362,
+  "h": 328
+ },
+ "zhao_baycuo_crystal.jpg": {
+  "v": "弃-应为文本",
+  "n": "ΔrHm 计算式切条",
+  "idx": 10,
+  "used": true,
+  "w": 1017,
+  "h": 65
+ },
+ "maxwell-boltzmann-distribution.jpg": {
+  "v": "留-曲线图",
+  "n": "maxwell-boltzmann-dist 自制曲线",
+  "idx": 11,
+  "used": true,
+  "w": 1979,
+  "h": 1180
+ },
+ "zhao_thermochem_29746eca.jpg": {
+  "v": "弃-应为文本",
+  "n": "3H₂+O₂⟶H₂O 反应式切条",
+  "idx": 12,
+  "used": true,
+  "w": 806,
+  "h": 37
+ },
+ "zhao_thermo_e42bd09b.jpg": {
+  "v": "弃-应为文本",
+  "n": "Nernst 方程切条",
+  "idx": 13,
+  "used": true,
+  "w": 345,
+  "h": 70
+ },
+ "zhao_entropy_e476f156.jpg": {
+  "v": "弃-应为文本",
+  "n": "熵计算文本块（文字转图）",
+  "idx": 14,
+  "used": true,
+  "w": 1056,
+  "h": 224
+ },
+ "electrical-conductivity.jpg": {
+  "v": "留-曲线图",
+  "n": "electrical-conductivity 自制曲线",
+  "idx": 15,
+  "used": true,
+  "w": 2379,
+  "h": 980
+ },
+ "zhao_battery_1e581476.jpg": {
+  "v": "弃-应为文本",
+  "n": "电池反应式切条",
+  "idx": 16,
+  "used": true,
+  "w": 862,
+  "h": 37
+ },
+ "zhao_cu_elec.jpg": {
+  "v": "弃-应为文本",
+  "n": "ΔfHm/Sm 数据表转图",
+  "idx": 17,
+  "used": true,
+  "w": 740,
+  "h": 212
+ },
+ "phase-diagram.jpg": {
+  "v": "留-曲线图",
+  "n": "phase-diagram 自制相图曲线",
+  "idx": 18,
+  "used": true,
+  "w": 2379,
+  "h": 980
+ },
+ "82b921bc60387ae7e340b9453c7db27a1a96fef22a985a2dea3adb8da0dbeadd.png": {
+  "v": "留-教学图",
+  "n": "信息提取法流程图（Mermaid 风格节点图）",
+  "idx": 19,
+  "used": true,
+  "w": 1919,
+  "h": 1446
+ },
+ "027880e9e6160d711a68dbedc22626033aaac3a47927c3c6d0d0d11b6630b374.jpg": {
+  "v": "留-教学图",
+  "n": "药物分子结构式（三环+胺）",
+  "idx": 20,
+  "used": true,
+  "w": 832,
+  "h": 279
+ },
+ "6a78eeb4b22f2bb88675b40728328a853e5141e35c91aba2c02a712ee470bbb2.jpg": {
+  "v": "留-教学图",
+  "n": "c–t 浓度-时间曲线（A/P/I）",
+  "idx": 21,
+  "used": true,
+  "w": 329,
+  "h": 337
+ },
+ "zhao_conc_time_halflife.jpg": {
+  "v": "留-教学图",
+  "n": "反应分子簇示意（黑球连线，略粗糙）",
+  "idx": 22,
+  "used": true,
+  "w": 228,
+  "h": 221
+ },
+ "68e9db6c77ab212fd62543a7d95c514e9a83d1bb1b6d612100e7aa4743be9276.jpg": {
+  "v": "留-教学图",
+  "n": "β衰变/电子俘获示意（原子核+能级）",
+  "idx": 23,
+  "used": true,
+  "w": 601,
+  "h": 223
+ },
+ "zhao_rydberg_formula.jpg": {
+  "v": "弃-应为文本",
+  "n": "hν=E₂−E₁ 公式切条",
+  "idx": 24,
+  "used": true,
+  "w": 545,
+  "h": 64
+ },
+ "9ea24f1ec0a45fbba62b375e1af7cb45b61dcd26b98e0ac0377e4a5ca3f040b8.jpg": {
+  "v": "留-教学图",
+  "n": "Mn 各氧化态 Frost 图",
+  "idx": 25,
+  "used": true,
+  "w": 509,
+  "h": 662
+ },
+ "zhao_no3_resonance.jpg": {
+  "v": "弃-应为文本",
+  "n": "Cl(g)+e⁻→Cl⁻ 焓变切条",
+  "idx": 26,
+  "used": true,
+  "w": 712,
+  "h": 37
+ },
+ "fd5b7f66c5e0ac2f09cdc9b1972d4ac867193db5a4ab939f93e6f02e27a5ece0.jpg": {
+  "v": "留-教学图",
+  "n": "周期表 s/p/d/f 分区图",
+  "idx": 27,
+  "used": true,
+  "w": 998,
+  "h": 726
+ },
+ "5f17019ed47a446f6515092df204963ec690487335c040ce1b8bf22b9d631f8b.jpg": {
+  "v": "留-教学图",
+  "n": "原子轨道→晶体轨道能带示意",
+  "idx": 28,
+  "used": true,
+  "w": 915,
+  "h": 324
+ },
+ "2ed7b24fa94703572baf9dd556c7a3190197d8b9faa9ec789d88bd5a1efb6cbd.jpg": {
+  "v": "留-教学图",
+  "n": "喹唑啉酮结构式",
+  "idx": 29,
+  "used": true,
+  "w": 167,
+  "h": 123
+ },
+ "hmo_energy_levels.jpg": {
+  "v": "留-教学图",
+  "n": "HMO 能级计算表（Excel 截图）",
+  "idx": 30,
+  "used": true,
+  "w": 2520,
+  "h": 2540
+ },
+ "zhao_orbital_energy_calc.jpg": {
+  "v": "弃-应为文本",
+  "n": "轨道能量公式切条",
+  "idx": 31,
+  "used": true,
+  "w": 792,
+  "h": 53
+ },
+ "zhao_orbital_overlap.jpg": {
+  "v": "留-教学图",
+  "n": "轨道重叠示意（两圆）",
+  "idx": 32,
+  "used": true,
+  "w": 184,
+  "h": 175
+ },
+ "zhao_sp_overlap.jpg": {
+  "v": "留-教学图",
+  "n": "sp³ 杂化轨道重叠图",
+  "idx": 33,
+  "used": true,
+  "w": 276,
+  "h": 274
+ },
+ "zgxg-hf-mo-energy-diagram.jpg": {
+  "v": "留-教学图",
+  "n": "HF 分子轨道能级图",
+  "idx": 34,
+  "used": true,
+  "w": 473,
+  "h": 476
+ },
+ "zgxg-h2-mo-energy-diagram.jpg": {
+  "v": "留-教学图",
+  "n": "H₂ MO 能级图",
+  "idx": 35,
+  "used": true,
+  "w": 346,
+  "h": 157
+ },
+ "zhao_spdf_orbitals.jpg": {
+  "v": "留-教学图",
+  "n": "原子轨道电子云图",
+  "idx": 36,
+  "used": true,
+  "w": 190,
+  "h": 206
+ },
+ "zhao_quantum_num_00b0e2d6.jpg": {
+  "v": "留-教学图",
+  "n": "H1s MO 能级图",
+  "idx": 37,
+  "used": true,
+  "w": 459,
+  "h": 173
+ },
+ "zhao_wavefunction_vs_cloud.jpg": {
+  "v": "弃-应为文本",
+  "n": "波函数公式切条",
+  "idx": 38,
+  "used": true,
+  "w": 529,
+  "h": 96
+ },
+ "zhao_slater_9b48b088.jpg": {
+  "v": "弃-应为文本",
+  "n": "ΔrHm 计算式切条",
+  "idx": 39,
+  "used": true,
+  "w": 1017,
+  "h": 65
+ },
+ "60e4d8aeece1672565050553bcf9785485da6d0829307e966352fc9b1f8b9184.jpg": {
+  "v": "弃-低价值",
+  "n": "横向表格截图（模糊）",
+  "idx": "R0",
+  "used": true,
+  "w": 989,
+  "h": 101
+ },
+ "ace03ea207bff6af33e63a586f7f2870bbadc51ed9a9b66e2bf65fa75e17f7a5.jpg": {
+  "v": "留-教学图",
+  "n": "t-Bu/OTf 结构式（有水印重影）",
+  "idx": "R1",
+  "used": true,
+  "w": 234,
+  "h": 126
+ },
+ "1cf507af94abe9e6d8f8526bba28f7ad4f60c79c578f0397176e8ddab5acbe16.jpg": {
+  "v": "留-教学图",
+  "n": "合成路线（OMe/TBS）",
+  "idx": "R2",
+  "used": true,
+  "w": 949,
+  "h": 257
+ },
+ "3b3d1c018e8a35da5646aa37e1536cbb8b808ce0a8aade01b6e16586e3d27b6f.jpg": {
+  "v": "留-教学图",
+  "n": "速率分布曲线 1/T",
+  "idx": "R3",
+  "used": true,
+  "w": 793,
+  "h": 487
+ },
+ "9781bb74de750d582f3af67fcfc73336962f350fe72bbf2c089481bae2b08cbd.jpg": {
+  "v": "留-教学图",
+  "n": "NaCl 晶体结构（Na⁺/Cl⁻）",
+  "idx": "R4",
+  "used": true,
+  "w": 310,
+  "h": 231
+ },
+ "7ee34c54f243610acbb6242568ea55d11370554b81ac7c52ab8f68bd09801d44.jpg": {
+  "v": "留-教学图",
+  "n": "双环结构+编号",
+  "idx": "R5",
+  "used": true,
+  "w": 278,
+  "h": 128
+ },
+ "8dab37c086882a698db10e58df39141b4cbfc2de0274ea1fae0d569aca057475.jpg": {
+  "v": "留-教学图",
+  "n": "注射器实物图",
+  "idx": "R6",
+  "used": true,
+  "w": 356,
+  "h": 68
+ },
+ "d68258822fe438b7e90e77ff9f7087cfe299d6e9ed15259e1a0c9a8125972171.jpg": {
+  "v": "弃-应为文本",
+  "n": "极淡波函数公式行",
+  "idx": "R7",
+  "used": true,
+  "w": 1110,
+  "h": 119
+ },
+ "6db54384646c7e7f91fb255111b788bf5dd0bd59ba65cbaa7245ef31b0756f1f.jpg": {
+  "v": "留-教学图",
+  "n": "Van't Hoff 图（散点+拟合）",
+  "idx": "R8",
+  "used": true,
+  "w": 1039,
+  "h": 667
+ },
+ "7abf5931d233c05ad70090badd8b0939a70d8ed8a8d54b50a407ecf54988d96b.jpg": {
+  "v": "留-教学图",
+  "n": "酰胺共振结构",
+  "idx": "R9",
+  "used": true,
+  "w": 300,
+  "h": 95
+ },
+ "75f8e39a3965476953d10d15014513478f321a8bab10f2e82a4496475c68e298.jpg": {
+  "v": "留-教学图",
+  "n": "血红素/Fe 配合物结构",
+  "idx": "R10",
+  "used": true,
+  "w": 426,
+  "h": 306
+ },
+ "6866c745d59d3941ea250a4f2e9268a4ffa7a6a7fce6248a826baa50e72a7a47.jpg": {
+  "v": "留-教学图",
+  "n": "蒽+编号",
+  "idx": "R11",
+  "used": true,
+  "w": 273,
+  "h": 142
+ },
+ "5dd80f68b96952554fd46b0c46ffa97da7d2531db2fd06c495d8bf477787f213.jpg": {
+  "v": "留-教学图",
+  "n": "Br-丁酮结构式（红字）",
+  "idx": "R12",
+  "used": true,
+  "w": 275,
+  "h": 115
+ },
+ "a70f4cfa64aa2083e0e6484c0998bd0b810e83aafc8c5cedf60e74c5e88ac525.jpg": {
+  "v": "留-教学图",
+  "n": "尿素+草酸氢键结构",
+  "idx": "R13",
+  "used": true,
+  "w": 348,
+  "h": 231
+ },
+ "a4fd0a979288b7f3808c4fb6df24dd2d1a2094a6967cd06943ae7574c7577ce8.jpg": {
+  "v": "留-教学图",
+  "n": "硼酸/Suzuki 反应路线",
+  "idx": "R14",
+  "used": true,
+  "w": 893,
+  "h": 164
+ },
+ "209c247ddd13675304909e2742aa9b4d54ea19a2bd62d5d97cbd6c5e88a43e79.jpg": {
+  "v": "留-教学图",
+  "n": "自由基结构（未成对电子）",
+  "idx": "R15",
+  "used": true,
+  "w": 270,
+  "h": 142
+ },
+ "532289805ff6f9078065ed923c07dac5fbef4d5cd5d81de27d91ddcac25597e0.jpg": {
+  "v": "留-教学图",
+  "n": "石墨层状结构",
+  "idx": "R16",
+  "used": true,
+  "w": 273,
+  "h": 353
+ },
+ "51c03713649de871e524f0cb030722ad358677cd3228a0f6888630568691a079.jpg": {
+  "v": "留-教学图",
+  "n": "聚磷腈链结构",
+  "idx": "R17",
+  "used": true,
+  "w": 423,
+  "h": 237
+ },
+ "3b7b9e745536252a529ce8ee16724631b59a957c3512b30c2a304ad60c161c63.jpg": {
+  "v": "留-教学图",
+  "n": "苯+乙酰氯 Friedel-Crafts（红箭头）",
+  "idx": "R18",
+  "used": true,
+  "w": 732,
+  "h": 156
+ },
+ "2e74a10f898207c282e4a979d2b4edc4322edb700ffc3b53eeab5abd167d810c.jpg": {
+  "v": "留-需增强",
+  "n": "多步合成路线（极淡）",
+  "idx": "R19",
+  "used": true,
+  "w": 1140,
+  "h": 198
+ },
+ "731658f116e6f26669fb704d286993d909e0124de250d40c762da08dad7928de.jpg": {
+  "v": "留-教学图",
+  "n": "红外光谱+势能曲线",
+  "idx": "R20",
+  "used": true,
+  "w": 907,
+  "h": 348
+ },
+ "e034fba161f5fb7016c60f2e1f66d6ab5ac410818c3e8e2101c9b4c832d4b4b8.jpg": {
+  "v": "留-教学图",
+  "n": "Ru 配合物（NCS/SCN）",
+  "idx": "R21",
+  "used": true,
+  "w": 251,
+  "h": 201
+ },
+ "4a49d2b3005578e86d67dadbc28e569d6d8b95154de2404cfe1ef6a064bd670f.jpg": {
+  "v": "留-教学图",
+  "n": "Grob 碎裂条件优化路线",
+  "idx": "R22",
+  "used": true,
+  "w": 848,
+  "h": 223
+ },
+ "4e248e305e32d4dcab2e1526b46b03a907d11773f752a63c6b30df52ad096055.jpg": {
+  "v": "留-教学图",
+  "n": "烷烃结构式",
+  "idx": "R23",
+  "used": true,
+  "w": 337,
+  "h": 149
+ },
+ "aee7209e6cc0843ba1800d45c005bb535a82814ee9b8e5f365d6c33a6d7730c5.jpg": {
+  "v": "留-教学图",
+  "n": "多步合成路线",
+  "idx": "R24",
+  "used": true,
+  "w": 801,
+  "h": 249
+ },
+ "eabd88acdb2a6578.png": {
+  "v": "留-需增强",
+  "n": "机理/能量图（几乎不可见）",
+  "idx": "R25",
+  "used": true,
+  "w": 1510,
+  "h": 319
+ },
+ "9e905652f5080166134015232e60e6bb3c3af4e9df30b4c851cadf173150bb07.jpg": {
+  "v": "留-教学图",
+  "n": "Co 配合物顺反异构",
+  "idx": "R26",
+  "used": true,
+  "w": 418,
+  "h": 326
+ },
+ "39943e3cb2e3fa49d85c79f4a7d0dc618af48397dc964768d01f8b3e6ff7de7f.jpg": {
+  "v": "弃-手写残留",
+  "n": "手写笔记/红笔涂鸦",
+  "idx": "R27",
+  "used": true,
+  "w": 475,
+  "h": 112
+ },
+ "76bcaed197bd26a14401740701599268ed56db4f52ec0026a928afa983fb9317.jpg": {
+  "v": "留-教学图",
+  "n": "反应式（OH/Cl 结构）",
+  "idx": "R28",
+  "used": true,
+  "w": 868,
+  "h": 150
+ },
+ "c6d1c52fd1ee2d160e75431ec91f215698389aa6f77fdcda28e3f61e48bccbbf.jpg": {
+  "v": "弃-不可辨",
+  "n": "模糊圆形小块",
+  "idx": "R29",
+  "used": true,
+  "w": 57,
+  "h": 54
+ },
+ "8d404abc935ee93df2c74f1f344f181086f263eff3fba1d1f99df7d21c7e33eb.jpg": {
+  "v": "留-教学图",
+  "n": "含 P 环状化合物（红字）",
+  "idx": "R30",
+  "used": true,
+  "w": 148,
+  "h": 276
+ },
+ "a0f6659dfbb34902e2aa48060e25b82df19fec5421a2db805fee2d5404954316.jpg": {
+  "v": "留-教学图",
+  "n": "合成步骤（TsO/Ac₂O）",
+  "idx": "R31",
+  "used": true,
+  "w": 545,
+  "h": 176
+ },
+ "573657b5fcec1f41651416f3a8b5fd5865ae3b94ca2fcd641fde521dc387e6dd.jpg": {
+  "v": "留-教学图",
+  "n": "Ph 取代四氢吡喃+H₂O⁺",
+  "idx": "R32",
+  "used": true,
+  "w": 395,
+  "h": 173
+ },
+ "f349e560ef201cff226d986f4f81eee9d885365d498763deb4ad3a4b3121252d.jpg": {
+  "v": "留-教学图",
+  "n": "烯丙基溴共振结构",
+  "idx": "R33",
+  "used": true,
+  "w": 354,
+  "h": 79
+ },
+ "9cba9be8a12cb23184148532e5ecaea5bb1f1ba0ce6e3ad2dcf2a889dcd0c57b.jpg": {
+  "v": "留-教学图",
+  "n": "环己烷衍生物（CO₂H）",
+  "idx": "R34",
+  "used": true,
+  "w": 172,
+  "h": 174
+ },
+ "696681ec7eed0d2177f17c1b94e77f0da3f0b988395665bfecbd10d25dc4cdd1.jpg": {
+  "v": "留-需增强",
+  "n": "极淡合成路线",
+  "idx": "R35",
+  "used": true,
+  "w": 917,
+  "h": 253
+ },
+ "365350feaf7f176c1f93c80c87e937ea583eddd17681874d3a700a85db3d3e93.jpg": {
+  "v": "弃-截图残留",
+  "n": "网课录屏截图（老师真人+板书+PPT）",
+  "idx": "R36",
+  "used": true,
+  "w": 671,
+  "h": 504
+ },
+ "fd6abf622becdfe6b69e1173412768afa47a1df34e893ac7d697041726ccc586.jpg": {
+  "v": "留-教学图",
+  "n": "Fe 大环 As 配合物",
+  "idx": "R37",
+  "used": true,
+  "w": 287,
+  "h": 201
+ },
+ "50ecd8a18c0b35fbcbc704e0bfab23244386ad78762f9142f485825249ec32fc.jpg": {
+  "v": "留-教学图",
+  "n": "配合物异构体（6-exo-tet 标注）",
+  "idx": "R38",
+  "used": true,
+  "w": 628,
+  "h": 148
+ },
+ "7a4e1a1f0808b0c0561f354afe27c85e47f31ca2586b3e0bd8e2c626b236e224.jpg": {
+  "v": "留-教学图",
+  "n": "MO 能级图（HOMO/LUMO）",
+  "idx": "R39",
+  "used": true,
+  "w": 515,
+  "h": 418
+ },
+ "3ca5aa9fa0d5376133738aebddd8e0f5b271db5c211811faedc92168aee764cb.jpg": {
+  "v": "留-教学图",
+  "n": "多步合成路线",
+  "idx": "R40",
+  "used": true,
+  "w": 1137,
+  "h": 717
+ },
+ "d2e05019a85b58f8db8ec046b852b263cbe448ad032112c58d746d1524d9a233.jpg": {
+  "v": "留-教学图",
+  "n": "Cu 大环配合物",
+  "idx": "R41",
+  "used": true,
+  "w": 173,
+  "h": 201
+ },
+ "bfe959a4e4cbe5cd3df8ce1206e931a904c3840bf6de9a4b5663cfce3cdfada3.jpg": {
+  "v": "留-教学图",
+  "n": "内酰胺稠环（哌啶酮）",
+  "idx": "R42",
+  "used": true,
+  "w": 160,
+  "h": 176
+ },
+ "e09972d1152a7ccdb7bf292e8cdf6679d490c5e7d7816b610b3a1890d7b287a3.jpg": {
+  "v": "留-教学图",
+  "n": "多步合成（略淡）",
+  "idx": "R43",
+  "used": true,
+  "w": 1148,
+  "h": 237
+ },
+ "4b042cd60fada030ae5f2207da1a37ecef3c88ab0e5eb3eaa584be85186556b1.jpg": {
+  "v": "留-教学图",
+  "n": "Fe(II)/Fe(III) 配位场分裂",
+  "idx": "R44",
+  "used": true,
+  "w": 581,
+  "h": 372
+ },
+ "a4391adc97bc9a95f32b6e89d72d756e7ef76a7a958e5d4dbc271a1aff509f05.jpg": {
+  "v": "留-教学图",
+  "n": "反应式（TMS/CO₂Et）",
+  "idx": "R45",
+  "used": true,
+  "w": 634,
+  "h": 184
+ },
+ "79947523f1771173819ee06f8c4b3489055c7560e3fc070e2ad9db45bbfbddd4.jpg": {
+  "v": "留-教学图",
+  "n": "反应机理（人名反应标注）",
+  "idx": "R46",
+  "used": true,
+  "w": 946,
+  "h": 165
+ },
+ "a5d33255f32115c28a6c00a308d60e3de4d25ac13865aa4285c3fd230623edbb.jpg": {
+  "v": "留-需增强",
+  "n": "极淡结构式行",
+  "idx": "R47",
+  "used": true,
+  "w": 967,
+  "h": 151
+ },
+ "f4660e9e324c4eaeeb22ed6466ec776caec7a2ceeadb6aff8ce78d7da1b02ea7.jpg": {
+  "v": "留-教学图",
+  "n": "立方晶胞",
+  "idx": "R48",
+  "used": false,
+  "w": 129,
+  "h": 131
+ },
+ "97b007c194b4cdb8efbd27d98c3906373c10b37038dd88203a90052bccbb50dd.jpg": {
+  "v": "留-需增强",
+  "n": "较淡反应式（H₂N/NBS）",
+  "idx": "R49",
+  "used": false,
+  "w": 906,
+  "h": 104
+ },
+ "12433a59c2ca082f9cbfbce9fbf209155ccede21903b0c1bc96a3eaf90cd5462.jpg": {
+  "v": "留-需增强",
+  "n": "极淡 NHC 配合物路线（绿字）",
+  "idx": "R50",
+  "used": false,
+  "w": 915,
+  "h": 345
+ },
+ "97d63d8b33fca77ae7eff03172e3281fcc85e00ca31fa24ddc90ae5a15915987.jpg": {
+  "v": "留-教学图",
+  "n": "红色含 S/N 稠环",
+  "idx": "R51",
+  "used": false,
+  "w": 292,
+  "h": 171
+ },
+ "6324365b494a5ebeca3868ec542d3e65417a778eba79709071bda8ce25dae803.jpg": {
+  "v": "留-教学图",
+  "n": "工艺流程框图",
+  "idx": "R52",
+  "used": false,
+  "w": 653,
+  "h": 248
+ },
+ "b1e7d322d2079f0375b6e9cac232de92a22527924c0d3dfbdd2486051ef20919.jpg": {
+  "v": "留-需增强",
+  "n": "lg[c]–Φ 曲线（极淡）",
+  "idx": "R53",
+  "used": false,
+  "w": 617,
+  "h": 390
+ },
+ "82c260805c412aea6374863ce70d61ef81d1dda11f3ba8ad83405556f317cc94.jpg": {
+  "v": "留-教学图",
+  "n": "冠醚构象（文本+结构混合）",
+  "idx": "R54",
+  "used": false,
+  "w": 292,
+  "h": 246
+ },
+ "4ee9a75c8c02805476df7238276dcce606a0ea6c7c5f54d8c22e7bee8daab579.jpg": {
+  "v": "弃-应为文本",
+  "n": "公式 v/(2x+y)=K_HClO",
+  "idx": "R55",
+  "used": false,
+  "w": 551,
+  "h": 81
+ },
+ "547e75b2228368970a88c142395f8bf6b685079678bd89bc14f50b85f1a7c9a0.jpg": {
+  "v": "留-教学图",
+  "n": "Bz₂N-CH(CF₃)NH₂（红字）",
+  "idx": "R56",
+  "used": false,
+  "w": 226,
+  "h": 109
+ },
+ "28ca8191f8f15f873b4b6563a6a8feaba11f76f6e24ef6ae2e983c900b377409.jpg": {
+  "v": "留-需增强",
+  "n": "极淡反应式",
+  "idx": "R57",
+  "used": false,
+  "w": 783,
+  "h": 114
+ },
+ "a8c7496cb27ca122eca4c25b10b1194cc4aa8ebcdfcaabd8c33c4a72f32cddcd.jpg": {
+  "v": "弃-应为文本",
+  "n": "文字块（新戊基碘说明）",
+  "idx": "R58",
+  "used": false,
+  "w": 237,
+  "h": 201
+ },
+ "a30698d97eb8b3156f56f2e40932d5dfc1dd9b20488ec0f906d2a2223d1efd44.jpg": {
+  "v": "留-教学图",
+  "n": "多步反应（红/绿箭头）",
+  "idx": "R59",
+  "used": false,
+  "w": 920,
+  "h": 203
+ }
+}
