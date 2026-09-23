@@ -206,6 +206,7 @@ python .workbuddy/scripts/check_lecture_problems.py --strict          # 历史�
 - [ ] 学习目标表格格式（模块/核心能力）
 - [ ] 例题采用三件套（题号链接 + 题干内嵌 + 解析）
 - [ ] 正文无教师向元信息（深度边界/使用建议/审计等只在 frontmatter 或 HTML 注释）
+- [ ] 语言风格达标（重复控制/提示体系/用词负面清单/段落，对照 [[11-模板/讲义语言规范]] §一~§六；可用 scan_handout_lang_audit.py 机检）
 - [ ] 题量充足（基础巩固 10 + 竞赛入门 9 + 真题挑战 6 = 25，允许 ±3；§四.1）
 - [ ] 分级标题与 `exercise_levels` 为纯文字，无 emoji / 特殊符号
 
