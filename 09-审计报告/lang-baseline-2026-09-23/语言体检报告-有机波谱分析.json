@@ -1,0 +1,113 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\6-有机化学\\有机波谱分析.md",
+  "total_lines": 660,
+  "pseudo_callout": [
+   {
+    "line": 32,
+    "title": "前置要求"
+   },
+   {
+    "line": 33,
+    "title": "对应考纲"
+   },
+   {
+    "line": 80,
+    "title": "竞赛核心原则"
+   },
+   {
+    "line": 162,
+    "title": "McLafferty 重排"
+   },
+   {
+    "line": 221,
+    "title": "竞赛应用"
+   },
+   {
+    "line": 320,
+    "title": "竞赛应用"
+   },
+   {
+    "line": 332,
+    "title": "不能机械套用 n+1 规则"
+   },
+   {
+    "line": 509,
+    "title": "使用建议"
+   }
+  ],
+  "callout": [],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 88,
+    "text": "其中 C = 碳数，H = 氢数，X = 卤素数，N = 氮数",
+    "len": 22
+   },
+   {
+    "line": 288,
+    "text": "等价相邻 H 数为 n → 信号裂分为 **n+1** 重峰。",
+    "len": 20
+   },
+   {
+    "line": 513,
+    "text": "**不饱和度计算**",
+    "len": 6
+   },
+   {
+    "line": 522,
+    "text": "**质谱（MS）**",
+    "len": 6
+   },
+   {
+    "line": 530,
+    "text": "**红外光谱（IR）**",
+    "len": 8
+   },
+   {
+    "line": 541,
+    "text": "**¹H NMR 基础**",
+    "len": 7
+   },
+   {
+    "line": 550,
+    "text": "**MS 综合分析**",
+    "len": 6
+   },
+   {
+    "line": 556,
+    "text": "**IR 与 NMR 联合**",
+    "len": 8
+   },
+   {
+    "line": 568,
+    "text": "**¹³C NMR 与对称性**",
+    "len": 10
+   },
+   {
+    "line": 575,
+    "text": "**J 值与立体化学**",
+    "len": 7
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [],
+  "quickref_names": [],
+  "dup_pairs": [
+   {
+    "line_a": 648,
+    "line_b": 654,
+    "sim": 0.5,
+    "text_a": "1250 cm⁻¹ → **C–O 伸缩**（酯的 C–O–C）。",
+    "text_b": "1230 cm⁻¹ → **C–O 伸缩**（酯的 C–O–C）。"
+   }
+  ],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 0.0,
+  "callout_limit": 7
+ }
+]

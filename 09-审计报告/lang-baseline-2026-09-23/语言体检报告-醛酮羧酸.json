@@ -1,0 +1,162 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\6-有机化学\\醛酮羧酸.md",
+  "total_lines": 635,
+  "pseudo_callout": [
+   {
+    "line": 31,
+    "title": "适用"
+   },
+   {
+    "line": 32,
+    "title": "对应备课大纲"
+   },
+   {
+    "line": 68,
+    "title": "竞赛深化——Bürgi-Dunitz 角（Clayden Ch6）"
+   },
+   {
+    "line": 73,
+    "title": "竞赛必考"
+   },
+   {
+    "line": 141,
+    "title": "Wolff-Kishner还原 vs Clemmensen还原"
+   },
+   {
+    "line": 187,
+    "title": "竞赛深化——动力学 vs 热力学烯醇盐（Clayden Ch20/26）"
+   },
+   {
+    "line": 222,
+    "title": "竞赛深化"
+   },
+   {
+    "line": 272,
+    "title": "竞赛考点"
+   },
+   {
+    "line": 364,
+    "title": "竞赛深化（ABOC Ch6）"
+   },
+   {
+    "line": 378,
+    "title": "工业价值"
+   },
+   {
+    "line": 409,
+    "title": "碳链增长工具箱"
+   },
+   {
+    "line": 418,
+    "title": "羰基还原方法选择"
+   },
+   {
+    "line": 422,
+    "title": "鉴别路线：醛 vs 酮 vs 羧酸"
+   }
+  ],
+  "callout": [],
+  "warning_prefix": [
+   {
+    "line": 129,
+    "text": "> ⚠ **易错——亚胺与烯胺的区别**："
+   },
+   {
+    "line": 183,
+    "text": "> ⚠ **易错——不对称酮的缩合位点**："
+   },
+   {
+    "line": 224,
+    "text": "> ⚠ **易错——Wittig vs 硫叶立德**：磷叶立德与 C=O 生成**烯烃**（P=O 驱动）；而硫叶立德（"
+   },
+   {
+    "line": 247,
+    "text": "> ⚠ **注意**：腈(RCN)不属羧酸衍生物，其水解（→酰胺→酸）走 C≡N 亲核加成机理，不在此活性序列中。"
+   },
+   {
+    "line": 399,
+    "text": "> ⚠ **易错1——缩醛保护的选择性**：醛和酮都能形成缩醛，但在标准条件下（乙二醇/H⁺/Δ），**醛形成缩醛比酮容"
+   },
+   {
+    "line": 401,
+    "text": "> ⚠ **易错2——Grignard与羧酸的反应**：Grignard试剂不能与羧酸直接反应（羧酸有活泼H→Grign"
+   },
+   {
+    "line": 403,
+    "text": "> ⚠ **易错3——交叉羟醛缩合的条件**：只有一种有α-H时才能得到单一产物（如苯甲醛+乙醛）。两种都有α-H时产物"
+   },
+   {
+    "line": 405,
+    "text": "> ⚠ **易错4——Dieckmann缩合的环大小**：最优形成五/六元环。若有多种成环可能，优先选择取代基在热力学上"
+   },
+   {
+    "line": 416,
+    "text": "> ⚠ **易错辨析**：Cannizzaro 反应是无 α-H 的醛在浓碱下的**歧化**（一分子还原为醇、一分子氧化"
+   },
+   {
+    "line": 624,
+    "text": "⚠ 严谨性附注：异丙基卤为**仲卤代烷**，与乙酰乙酸乙酯钠盐反应时 E2 消除竞争显著（得丙烯），烷基化产率有限；更可"
+   }
+  ],
+  "fragments": [
+   {
+    "line": 148,
+    "text": "**① α-卤代反应**",
+    "len": 7
+   },
+   {
+    "line": 155,
+    "text": "**② 卤仿反应**（竞赛经典）",
+    "len": 11
+   },
+   {
+    "line": 162,
+    "text": "**③ 羟醛缩合 (Aldol Reaction)**（挑战）",
+    "len": 22
+   },
+   {
+    "line": 277,
+    "text": "RCOOH + P₂O₅/Δ → (RCO)₂O（酸酐）",
+    "len": 22
+   },
+   {
+    "line": 297,
+    "text": "**Claisen缩合（竞赛核心）**（挑战）",
+    "len": 19
+   },
+   {
+    "line": 356,
+    "text": "**② Mannich反应**（挑战）",
+    "len": 14
+   },
+   {
+    "line": 495,
+    "text": "**思路**：区分两种还原剂的选择性。",
+    "len": 15
+   },
+   {
+    "line": 509,
+    "text": "**题干**：用乙酰乙酸乙酯合成2-庚酮。",
+    "len": 17
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [],
+  "quickref_names": [
+   {
+    "line": 546,
+    "heading": "五、本节总结·速查",
+    "matched": "变体:本节总结"
+   }
+  ],
+  "dup_pairs": [],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 0.0,
+  "callout_limit": 7
+ }
+]

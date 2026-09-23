@@ -1,0 +1,190 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\2-结构化学\\配位光谱与对称性桥-超级充实版（自学完整）.md",
+  "total_lines": 621,
+  "pseudo_callout": [
+   {
+    "line": 30,
+    "title": "对应模块"
+   },
+   {
+    "line": 31,
+    "title": "对应考纲条目"
+   },
+   {
+    "line": 32,
+    "title": "本讲定位"
+   },
+   {
+    "line": 33,
+    "title": "前置讲义"
+   },
+   {
+    "line": 34,
+    "title": "后续衔接"
+   },
+   {
+    "line": 35,
+    "title": "建议使用方式"
+   },
+   {
+    "line": 36,
+    "title": "深度边界"
+   },
+   {
+    "line": 37,
+    "title": "图片说明"
+   },
+   {
+    "line": 38,
+    "title": "记号约定"
+   },
+   {
+    "line": 39,
+    "title": "本讲不做什么"
+   },
+   {
+    "line": 40,
+    "title": "全库空白点（本讲建桥的理由）"
+   },
+   {
+    "line": 41,
+    "title": "本讲在下游的用途"
+   },
+   {
+    "line": 42,
+    "title": "核心判断（一句话）"
+   }
+  ],
+  "callout": [
+   {
+    "line": 84,
+    "type": "tip"
+   },
+   {
+    "line": 131,
+    "type": "warning"
+   },
+   {
+    "line": 164,
+    "type": "tip"
+   },
+   {
+    "line": 206,
+    "type": "tip"
+   },
+   {
+    "line": 259,
+    "type": "tip"
+   },
+   {
+    "line": 281,
+    "type": "tip"
+   },
+   {
+    "line": 318,
+    "type": "tip"
+   },
+   {
+    "line": 334,
+    "type": "warning"
+   },
+   {
+    "line": 367,
+    "type": "tip"
+   },
+   {
+    "line": 403,
+    "type": "tip"
+   },
+   {
+    "line": 447,
+    "type": "warning"
+   },
+   {
+    "line": 502,
+    "type": "tip"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 178,
+    "text": "**读这张表要注意三点：**",
+    "len": 10
+   },
+   {
+    "line": 218,
+    "text": "答案很直接：**从特征标表的基函数栏读出来的。**",
+    "len": 21
+   },
+   {
+    "line": 264,
+    "text": "有了标注，分裂结论可以**推**出来，不必背。",
+    "len": 19
+   },
+   {
+    "line": 461,
+    "text": "**第一步：定骨架与点群。**",
+    "len": 11
+   },
+   {
+    "line": 466,
+    "text": "**第二步：定轨道标注与分裂。**",
+    "len": 13
+   },
+   {
+    "line": 471,
+    "text": "**第三步：填电子、谈性质。**",
+    "len": 12
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [],
+  "quickref_names": [],
+  "dup_pairs": [
+   {
+    "line_a": 42,
+    "line_b": 84,
+    "sim": 0.56,
+    "text_a": "> **核心判断（一句话）**：轨道标注 $t_{2g}$/$e_g$ 不是命名约定，而是\"这条 d 轨道在该点群下属于哪个不可约表示\"的直接结果。",
+    "text_b": "tip] 核心判断> 若读完本讲只带走要点：**轨道标注 $t_{2g}$ / $e_g$ 不是命名约定，而是\"这条 d 轨道在该点群下属于哪个不可约表示\"的直"
+   },
+   {
+    "line_a": 403,
+    "line_b": 523,
+    "sim": 0.52,
+    "text_a": "tip] 一个重要的推论> **四面体配合物的 d-d 吸收通常比八面体配合物强。",
+    "text_b": "**8.** 判断：四面体配合物的 d-d 吸收通常比八面体配合物强。"
+   },
+   {
+    "line_a": 403,
+    "line_b": 572,
+    "sim": 0.44,
+    "text_a": "** 原因：$T_d$ **没有对称中心**，Laporte 选律不适用，d-d 跃迁部分解禁。",
+    "text_b": "因为 $T_d$ 没有对称中心，Laporte 选律不适用，d-d 跃迁部分解禁，所以四面体配合物的 d-d 吸收通常比八面体的强。"
+   },
+   {
+    "line_a": 572,
+    "line_b": 600,
+    "sim": 0.42,
+    "text_a": "因为 $T_d$ 没有对称中心，Laporte 选律不适用，d-d 跃迁部分解禁，所以四面体配合物的 d-d 吸收通常比八面体的强。",
+    "text_b": "8. $T_d$ 没有对称中心 → Laporte 选律不适用 → 四面体配合物的 d-d 吸收通常比八面体强。"
+   },
+   {
+    "line_a": 545,
+    "line_b": 555,
+    "sim": 0.41,
+    "text_a": "判断是否需要调用 Tanabe-Sugano 图，并说明理由。",
+    "text_b": "请判断是否需要调用 Tanabe-Sugano 图，若需要，应重点读图上的哪个特征。"
+   }
+  ],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 1.93,
+  "callout_limit": 7
+ }
+]

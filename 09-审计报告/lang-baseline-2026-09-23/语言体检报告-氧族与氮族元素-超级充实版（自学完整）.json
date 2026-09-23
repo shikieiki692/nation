@@ -1,0 +1,301 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\5-无机化学\\氧族与氮族元素-超级充实版（自学完整）.md",
+  "total_lines": 893,
+  "pseudo_callout": [
+   {
+    "line": 47,
+    "title": "对应专题"
+   },
+   {
+    "line": 48,
+    "title": "对应备课大纲"
+   },
+   {
+    "line": 49,
+    "title": "本讲定位"
+   },
+   {
+    "line": 50,
+    "title": "上节衔接"
+   },
+   {
+    "line": 51,
+    "title": "下节衔接"
+   },
+   {
+    "line": 52,
+    "title": "前置要求"
+   },
+   {
+    "line": 53,
+    "title": "深度边界"
+   },
+   {
+    "line": 54,
+    "title": "建议使用方式"
+   },
+   {
+    "line": 114,
+    "title": "关联知识点"
+   },
+   {
+    "line": 115,
+    "title": "为什么先讲氧"
+   },
+   {
+    "line": 138,
+    "title": "O vs S 的成键倾向"
+   },
+   {
+    "line": 164,
+    "title": "口诀"
+   },
+   {
+    "line": 172,
+    "title": "口诀"
+   },
+   {
+    "line": 186,
+    "title": "关联知识点"
+   },
+   {
+    "line": 187,
+    "title": "核心决策流程"
+   },
+   {
+    "line": 209,
+    "title": "口诀"
+   },
+   {
+    "line": 215,
+    "title": "关联知识点"
+   },
+   {
+    "line": 216,
+    "title": "主线"
+   },
+   {
+    "line": 242,
+    "title": "口诀"
+   },
+   {
+    "line": 256,
+    "title": "类比"
+   },
+   {
+    "line": 313,
+    "title": "口诀"
+   },
+   {
+    "line": 324,
+    "title": "关联知识点"
+   },
+   {
+    "line": 325,
+    "title": "主线"
+   },
+   {
+    "line": 339,
+    "title": "口诀"
+   },
+   {
+    "line": 346,
+    "title": "口诀"
+   },
+   {
+    "line": 365,
+    "title": "NO 的生物学意义"
+   },
+   {
+    "line": 434,
+    "title": "口诀"
+   },
+   {
+    "line": 436,
+    "title": "本质"
+   },
+   {
+    "line": 446,
+    "title": "总反应"
+   },
+   {
+    "line": 463,
+    "title": "方法论"
+   },
+   {
+    "line": 469,
+    "title": "关联知识点"
+   },
+   {
+    "line": 470,
+    "title": "主线"
+   },
+   {
+    "line": 479,
+    "title": "类比"
+   },
+   {
+    "line": 480,
+    "title": "口诀"
+   },
+   {
+    "line": 518,
+    "title": "口诀"
+   },
+   {
+    "line": 538,
+    "title": "认知冲突"
+   },
+   {
+    "line": 572,
+    "title": "关联专题"
+   },
+   {
+    "line": 612,
+    "title": "判题顺序"
+   }
+  ],
+  "callout": [
+   {
+    "line": 72,
+    "type": "tip"
+   },
+   {
+    "line": 161,
+    "type": "warning"
+   },
+   {
+    "line": 240,
+    "type": "warning"
+   },
+   {
+    "line": 253,
+    "type": "warning"
+   },
+   {
+    "line": 289,
+    "type": "warning"
+   },
+   {
+    "line": 386,
+    "type": "warning"
+   },
+   {
+    "line": 406,
+    "type": "tip"
+   },
+   {
+    "line": 420,
+    "type": "warning"
+   },
+   {
+    "line": 431,
+    "type": "warning"
+   },
+   {
+    "line": 476,
+    "type": "warning"
+   },
+   {
+    "line": 509,
+    "type": "warning"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 56,
+    "text": "**深度分层说明**",
+    "len": 6
+   },
+   {
+    "line": 64,
+    "text": "**轮次划分表**",
+    "len": 5
+   },
+   {
+    "line": 676,
+    "text": "**反思**：**数 OH 不数 H——P—H 键不电离。**",
+    "len": 19
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [
+   {
+    "count": 2,
+    "text": "[[12-教学洞察/教学洞察-氧族与氮族元素]]"
+   }
+  ],
+  "quickref_names": [
+   {
+    "line": 713,
+    "heading": "八、本讲速查",
+    "matched": "本讲速查"
+   },
+   {
+    "line": 765,
+    "heading": "九、本讲小结",
+    "matched": "本讲小结"
+   }
+  ],
+  "dup_pairs": [
+   {
+    "line_a": 704,
+    "line_b": 844,
+    "sim": 1.0,
+    "text_a": "完整题面见 [[题-037-5-NO与H2S反应方程式]]。",
+    "text_b": "> 完整题面见 [[题-037-5-NO与H2S反应方程式]]。"
+   },
+   {
+    "line_a": 627,
+    "line_b": 860,
+    "sim": 0.8,
+    "text_a": "(2) 5H₂O₂ + 2KMnO₄ + 3H₂SO₄ → 5O₂↑ + 2MnSO₄ + K₂SO₄ + 8H₂O。",
+    "text_b": "5H₂O₂ + 2KMnO₄ + 3H₂SO₄ → 5O₂↑ + 2MnSO₄ + K₂SO₄ + 8H₂O（**还原性**，O −1→0）。"
+   },
+   {
+    "line_a": 682,
+    "line_b": 866,
+    "sim": 0.78,
+    "text_a": "稀硝酸以 NO₃⁻ 存在 → 还原程度深（NO）；",
+    "text_b": "稀硝酸以 NO₃⁻ 存在，还原程度深。"
+   },
+   {
+    "line_a": 625,
+    "line_b": 860,
+    "sim": 0.62,
+    "text_a": "**解答**：(1) H₂O₂ + 2KI + H₂SO₄ → I₂ + 2H₂O + K₂SO₄。",
+    "text_b": "**3.** H₂O₂ + 2KI + H₂SO₄ → I₂ + 2H₂O + K₂SO₄（**氧化性**，O −1→−2）；"
+   },
+   {
+    "line_a": 850,
+    "line_b": 882,
+    "sim": 0.62,
+    "text_a": "> 完整题面见 [[题-039-1-雄黄变铁与砒黄变铜]]。",
+    "text_b": "详见 [[题-039-1-雄黄变铁与砒黄变铜]]。"
+   },
+   {
+    "line_a": 693,
+    "line_b": 870,
+    "sim": 0.4,
+    "text_a": "**解答**：1. 5BiO₃⁻ + 2Mn²⁺ + 14H⁺ → 5Bi³⁺ + 2MnO₄⁻ + 7H₂O（Mn +2→+7 失 10e⁻；",
+    "text_b": "5BiO₃⁻ + 2Mn²⁺ + 14H⁺ → 5Bi³⁺ + 2MnO₄⁻（紫红）+ 7H₂O。"
+   },
+   {
+    "line_a": 409,
+    "line_b": 682,
+    "sim": 0.36,
+    "text_a": "**### 4.6 硝酸：浓度-还原产物「滑尺」| 硝酸浓度 | 还原产物 | N 氧化态 | 示例 ||:---|:---|:---:|:---|| 浓 | ",
+    "text_b": "**解答**：- 浓：Cu + 4HNO₃(浓) → Cu(NO₃)₂ + 2NO₂↑ + 2H₂O- 稀：3Cu + 8HNO₃(稀) → 3Cu(NO₃)₂"
+   }
+  ],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 1.23,
+  "callout_limit": 9
+ }
+]

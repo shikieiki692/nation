@@ -1,0 +1,203 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\1-化学基础知识\\化学计量与计算规范-超级充实版（自学完整）.md",
+  "total_lines": 849,
+  "pseudo_callout": [
+   {
+    "line": 102,
+    "title": "做题口令"
+   },
+   {
+    "line": 178,
+    "title": "说明"
+   },
+   {
+    "line": 371,
+    "title": "要点"
+   },
+   {
+    "line": 445,
+    "title": "统一认识"
+   },
+   {
+    "line": 478,
+    "title": "第一轮到这里为止"
+   }
+  ],
+  "callout": [
+   {
+    "line": 91,
+    "type": "tip"
+   },
+   {
+    "line": 118,
+    "type": "tip"
+   },
+   {
+    "line": 133,
+    "type": "tip"
+   },
+   {
+    "line": 162,
+    "type": "warning"
+   },
+   {
+    "line": 203,
+    "type": "tip"
+   },
+   {
+    "line": 210,
+    "type": "tip"
+   },
+   {
+    "line": 255,
+    "type": "tip"
+   },
+   {
+    "line": 306,
+    "type": "warning"
+   },
+   {
+    "line": 398,
+    "type": "warning"
+   },
+   {
+    "line": 459,
+    "type": "tip"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 152,
+    "text": "最常见的错误不是\"不会算\"，而是\"单位没统一\"。",
+    "len": 24
+   },
+   {
+    "line": 186,
+    "text": "例如",
+    "len": 2
+   },
+   {
+    "line": 217,
+    "text": "**第一步：写方程式**",
+    "len": 8
+   },
+   {
+    "line": 223,
+    "text": "**第二步：先转物质的量**",
+    "len": 10
+   },
+   {
+    "line": 237,
+    "text": "**第四步：求体积**",
+    "len": 7
+   },
+   {
+    "line": 239,
+    "text": "标准状况下",
+    "len": 5
+   },
+   {
+    "line": 271,
+    "text": "**解**：方程式为",
+    "len": 6
+   },
+   {
+    "line": 282,
+    "text": "较小的是 0.10，所以 **Mg 为限量试剂**。",
+    "len": 19
+   },
+   {
+    "line": 313,
+    "text": "**解**：方程式为",
+    "len": 6
+   },
+   {
+    "line": 331,
+    "text": "质量分数为",
+    "len": 5
+   },
+   {
+    "line": 345,
+    "text": "**第一步：先由纯度求有效成分**",
+    "len": 13
+   },
+   {
+    "line": 355,
+    "text": "**第二步：求理论产量**",
+    "len": 9
+   },
+   {
+    "line": 363,
+    "text": "**第三步：求产率**",
+    "len": 7
+   },
+   {
+    "line": 403,
+    "text": "若只加水稀释，溶质物质的量不变，所以",
+    "len": 18
+   },
+   {
+    "line": 715,
+    "text": "**（3）由硫守恒求纯硫酸**",
+    "len": 11
+   },
+   {
+    "line": 823,
+    "text": "**方案二：用母液稀释**",
+    "len": 9
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [
+   {
+    "count": 2,
+    "text": "[[04-课件/备课大纲/2026-06-09-化学计量与气体-基础班]]"
+   },
+   {
+    "count": 2,
+    "text": "[[04-课件/学生讲义/4-分析化学/有效数字与误差分析-超级充实版（自学完整）]]"
+   },
+   {
+    "count": 2,
+    "text": "[[04-课件/学生讲义/3-物理化学/气体基础-超级充实版（自学完整）]]"
+   }
+  ],
+  "quickref_names": [
+   {
+    "line": 497,
+    "heading": "九、本节总结速查",
+    "matched": "变体:本节总结"
+   },
+   {
+    "line": 839,
+    "heading": "十三、本讲小结",
+    "matched": "本讲小结"
+   }
+  ],
+  "dup_pairs": [
+   {
+    "line_a": 415,
+    "line_b": 564,
+    "sim": 0.41,
+    "text_a": "**示例**：将 $50.0\\ \\mathrm{mL}$ $0.200\\ \\mathrm{mol\\cdot L^{-1}}$ HCl 与 $150.0\\ \\ma",
+    "text_b": "**10.** $50.0\\ \\mathrm{mL}$ $0.200\\ \\mathrm{mol\\cdot L^{-1}}$ HCl 与 $150.0\\ \\mat"
+   },
+   {
+    "line_a": 102,
+    "line_b": 847,
+    "sim": 0.41,
+    "text_a": "最后一定做单位、数量级、有效数字三重反查。",
+    "text_b": "5. 收尾一定要做单位、数量级、有效数字三重反查。"
+   }
+  ],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 1.18,
+  "callout_limit": 9
+ }
+]

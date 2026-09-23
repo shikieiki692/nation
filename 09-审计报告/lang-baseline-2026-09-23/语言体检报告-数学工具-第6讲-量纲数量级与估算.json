@@ -1,0 +1,94 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\_数学工具\\数学工具-第6讲-量纲数量级与估算.md",
+  "total_lines": 591,
+  "pseudo_callout": [
+   {
+    "line": 591,
+    "title": "下一讲"
+   }
+  ],
+  "callout": [
+   {
+    "line": 108,
+    "type": "tip"
+   },
+   {
+    "line": 141,
+    "type": "warning"
+   },
+   {
+    "line": 201,
+    "type": "note"
+   },
+   {
+    "line": 267,
+    "type": "warning"
+   },
+   {
+    "line": 321,
+    "type": "tip"
+   },
+   {
+    "line": 388,
+    "type": "tip"
+   },
+   {
+    "line": 444,
+    "type": "note"
+   },
+   {
+    "line": 475,
+    "type": "abstract"
+   },
+   {
+    "line": 585,
+    "type": "abstract"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 168,
+    "text": "两边都是无量纲，**通过检验**。",
+    "len": 13
+   },
+   {
+    "line": 170,
+    "text": "**例 3-2：Nernst 方程**",
+    "len": 13
+   },
+   {
+    "line": 178,
+    "text": "**例 3-3：一个「看起来很像」的假公式**",
+    "len": 18
+   },
+   {
+    "line": 209,
+    "text": "**例 3-4：硬球气体的黏度**",
+    "len": 12
+   },
+   {
+    "line": 339,
+    "text": "当不确定系数时，算两个极端，答案必在中间。",
+    "len": 21
+   },
+   {
+    "line": 351,
+    "text": "把一个无法直接测的量拆成若干个**能估的量**相乘。",
+    "len": 22
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [],
+  "quickref_names": [],
+  "dup_pairs": [],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 1.52,
+  "callout_limit": 6
+ }
+]

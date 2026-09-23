@@ -1,0 +1,100 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\2-结构化学\\分子结构补充-超级充实版（自学完整）.md",
+  "total_lines": 634,
+  "pseudo_callout": [
+   {
+    "line": 29,
+    "title": "对应模块"
+   },
+   {
+    "line": 30,
+    "title": "对应考纲条目"
+   },
+   {
+    "line": 31,
+    "title": "前置讲义"
+   },
+   {
+    "line": 32,
+    "title": "建议使用方式"
+   },
+   {
+    "line": 33,
+    "title": "前置要求"
+   },
+   {
+    "line": 34,
+    "title": "深度边界"
+   },
+   {
+    "line": 35,
+    "title": "版本说明"
+   },
+   {
+    "line": 36,
+    "title": "记号约定"
+   },
+   {
+    "line": 102,
+    "title": "边界提醒"
+   },
+   {
+    "line": 168,
+    "title": "核心辨析"
+   },
+   {
+    "line": 197,
+    "title": "做题动作"
+   },
+   {
+    "line": 312,
+    "title": "边界说明"
+   },
+   {
+    "line": 413,
+    "title": "理解方法论"
+   }
+  ],
+  "callout": [
+   {
+    "line": 244,
+    "type": "tip"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 166,
+    "text": "这就是 3c-2e 的本质。",
+    "len": 12
+   },
+   {
+    "line": 271,
+    "text": "**用对称性判断哪些轨道根本有资格组合。**",
+    "len": 18
+   },
+   {
+    "line": 273,
+    "text": "这就是 SALC 的出发点。",
+    "len": 12
+   },
+   {
+    "line": 286,
+    "text": "时，中心原子轨道与该 SALC 才能强烈相互作用。",
+    "len": 23
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [],
+  "quickref_names": [],
+  "dup_pairs": [],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 0.16,
+  "callout_limit": 7
+ }
+]

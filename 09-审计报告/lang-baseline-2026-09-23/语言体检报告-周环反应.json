@@ -1,0 +1,112 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\6-有机化学\\周环反应.md",
+  "total_lines": 557,
+  "pseudo_callout": [
+   {
+    "line": 32,
+    "title": "适用"
+   },
+   {
+    "line": 33,
+    "title": "对应考纲"
+   },
+   {
+    "line": 35,
+    "title": "源素材"
+   },
+   {
+    "line": 107,
+    "title": "竞赛口诀"
+   },
+   {
+    "line": 307,
+    "title": "竞赛重点"
+   },
+   {
+    "line": 424,
+    "title": "使用建议"
+   }
+  ],
+  "callout": [
+   {
+    "line": 146,
+    "type": "warning"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 164,
+    "text": "二烯 + 亲双烯体在**同一分子内** → 形成多环产物。",
+    "len": 21
+   },
+   {
+    "line": 270,
+    "text": "**Cope 重排**：纯碳版本的 [3,3]-σ 迁移。",
+    "len": 20
+   },
+   {
+    "line": 280,
+    "text": "**立体化学**：椅式过渡态 → 立体专一性",
+    "len": 16
+   },
+   {
+    "line": 428,
+    "text": "**周环反应总论与 FMO**",
+    "len": 10
+   },
+   {
+    "line": 434,
+    "text": "**Diels-Alder 反应**",
+    "len": 13
+   },
+   {
+    "line": 445,
+    "text": "**[2+2] 环加成**",
+    "len": 6
+   },
+   {
+    "line": 452,
+    "text": "**电环化反应**",
+    "len": 5
+   },
+   {
+    "line": 459,
+    "text": "**σ 迁移反应**",
+    "len": 5
+   },
+   {
+    "line": 468,
+    "text": "**Diels-Alder 区域选择性**",
+    "len": 16
+   },
+   {
+    "line": 475,
+    "text": "**[3,3]-σ 迁移**",
+    "len": 7
+   },
+   {
+    "line": 483,
+    "text": "**Nazarov 环化**",
+    "len": 9
+   },
+   {
+    "line": 490,
+    "text": "**Ene 反应与多步串联**",
+    "len": 10
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [],
+  "quickref_names": [],
+  "dup_pairs": [],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 0.18,
+  "callout_limit": 6
+ }
+]

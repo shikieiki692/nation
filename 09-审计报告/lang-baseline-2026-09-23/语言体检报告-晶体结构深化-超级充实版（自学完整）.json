@@ -1,0 +1,136 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\2-结构化学\\晶体结构深化-超级充实版（自学完整）.md",
+  "total_lines": 669,
+  "pseudo_callout": [
+   {
+    "line": 30,
+    "title": "对应模块"
+   },
+   {
+    "line": 31,
+    "title": "对应知识点"
+   },
+   {
+    "line": 32,
+    "title": "前置讲义"
+   },
+   {
+    "line": 33,
+    "title": "建议使用方式"
+   },
+   {
+    "line": 34,
+    "title": "前置要求"
+   },
+   {
+    "line": 35,
+    "title": "深度边界"
+   },
+   {
+    "line": 36,
+    "title": "版本说明"
+   },
+   {
+    "line": 37,
+    "title": "记号约定"
+   },
+   {
+    "line": 172,
+    "title": "核心辨析"
+   },
+   {
+    "line": 206,
+    "title": "做题动作"
+   },
+   {
+    "line": 377,
+    "title": "做题动作"
+   }
+  ],
+  "callout": [
+   {
+    "line": 120,
+    "type": "tip"
+   },
+   {
+    "line": 276,
+    "type": "tip"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 107,
+    "text": "很多题表面在问第四步，本质仍然得从第一步开。",
+    "len": 22
+   },
+   {
+    "line": 230,
+    "text": "**每一个峰，对应一组满足 Bragg 条件的晶面。**",
+    "len": 22
+   },
+   {
+    "line": 241,
+    "text": "于是粉末衍射最核心的快判工具就出来了。",
+    "len": 19
+   },
+   {
+    "line": 249,
+    "text": "这张表值得你拿来当指纹表。",
+    "len": 13
+   },
+   {
+    "line": 260,
+    "text": "**bcc：**",
+    "len": 4
+   },
+   {
+    "line": 268,
+    "text": "**fcc：**",
+    "len": 4
+   },
+   {
+    "line": 289,
+    "text": "这比一开始就猜 `(111)`、`(200)` 稳得多。",
+    "len": 18
+   },
+   {
+    "line": 323,
+    "text": "**先找骨架，再看填的是什么空隙、填了几成。**",
+    "len": 20
+   },
+   {
+    "line": 357,
+    "text": "很多高阶晶体题，实际上就在考这种多面体连接语言。",
+    "len": 24
+   },
+   {
+    "line": 412,
+    "text": "这会比“背一堆结构名字”稳得多。",
+    "len": 16
+   },
+   {
+    "line": 431,
+    "text": "**缺陷是结构的一部分，不是偶然事故。**",
+    "len": 17
+   },
+   {
+    "line": 461,
+    "text": "这些对象连在一起。",
+    "len": 9
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [],
+  "quickref_names": [],
+  "dup_pairs": [],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 0.3,
+  "callout_limit": 7
+ }
+]

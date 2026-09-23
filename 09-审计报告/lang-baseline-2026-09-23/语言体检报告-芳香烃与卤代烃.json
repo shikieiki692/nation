@@ -1,0 +1,149 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\6-有机化学\\芳香烃与卤代烃.md",
+  "total_lines": 553,
+  "pseudo_callout": [
+   {
+    "line": 37,
+    "title": "适用"
+   },
+   {
+    "line": 38,
+    "title": "对应备课大纲"
+   },
+   {
+    "line": 94,
+    "title": "竞赛必考——非苯芳香烃"
+   },
+   {
+    "line": 118,
+    "title": "为什么看中间体——Hammond 假说"
+   },
+   {
+    "line": 120,
+    "title": "σ-络合物的实验证据"
+   },
+   {
+    "line": 122,
+    "title": "ArSE vs 烯烃亲电加成（本质对比）"
+   },
+   {
+    "line": 167,
+    "title": "卤素的特殊性量化"
+   },
+   {
+    "line": 177,
+    "title": "竞赛记忆要点"
+   },
+   {
+    "line": 263,
+    "title": "竞赛口诀"
+   },
+   {
+    "line": 297,
+    "title": "竞赛拓展"
+   },
+   {
+    "line": 314,
+    "title": "竞赛综合判断"
+   },
+   {
+    "line": 346,
+    "title": "竞赛应用"
+   },
+   {
+    "line": 380,
+    "title": "SN1/SN2/E1/E2统一判断路径"
+   }
+  ],
+  "callout": [
+   {
+    "line": 44,
+    "type": "note"
+   }
+  ],
+  "warning_prefix": [
+   {
+    "line": 130,
+    "text": "> ⚠ **易错点——FC烷基化可能重排**：AlCl₃催化下，伯卤代烷形成的碳正离子可能重排为更稳定的仲/叔碳正离子。"
+   },
+   {
+    "line": 142,
+    "text": "> ⚠ **易错——\"卤素与众不同\"**：卤素(-X)是邻对位定位但钝化苯环。原因：-I(吸电子)降低环上电子云密度→钝"
+   },
+   {
+    "line": 288,
+    "text": "> ⚠ **易错——反式共平面要求**：E2消除要求 H 和离去基团处于反式共平面(anti-periplanar)位置"
+   },
+   {
+    "line": 336,
+    "text": "> ⚠ **易错——Grignard试剂不能与含活泼H的基团共存**：-OH、-COOH、-NH₂、-SH、≡C-H都会"
+   },
+   {
+    "line": 355,
+    "text": "> ⚠ **易错——Grignard 的\"亲核性\"来自 C⁻**：与羰基加成时永远进攻 C=O 的碳（不是氧）；醛/酮/"
+   },
+   {
+    "line": 372,
+    "text": "> ⚠ **易错1**：FC烷基化可能重排(通过碳正离子中间体)，但**FC 酰基化不重排**（酰基正离子 $\\math"
+   },
+   {
+    "line": 374,
+    "text": "> ⚠ **易错2**：**SN2的瓦尔登反转**是竞赛推断题的经典素材——光学活性的底物经SN2反应后产物构型完全反转"
+   },
+   {
+    "line": 376,
+    "text": "> ⚠ **易错3**：**Saytzeff vs Hofmann** 的区分。一般E2 → Saytzeff产物(更取"
+   }
+  ],
+  "fragments": [
+   {
+    "line": 183,
+    "text": "**(A) 加成-消除（SNAr，最常考）**",
+    "len": 16
+   },
+   {
+    "line": 196,
+    "text": "**(B) 消除-加成（苯炔机理）**",
+    "len": 12
+   },
+   {
+    "line": 255,
+    "text": "决定因素是底物结构(3°→SN1, 1°→SN2)",
+    "len": 22
+   },
+   {
+    "line": 257,
+    "text": "其次是离去基团(好LG都有利)",
+    "len": 13
+   },
+   {
+    "line": 259,
+    "text": "再次是溶剂(质子溶剂→SN1, 非质子→SN2)",
+    "len": 21
+   },
+   {
+    "line": 261,
+    "text": "最后是亲核试剂强度（强亲核试剂 → SN2）",
+    "len": 20
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [],
+  "quickref_names": [
+   {
+    "line": 501,
+    "heading": "五、本节总结·速查",
+    "matched": "变体:本节总结"
+   }
+  ],
+  "dup_pairs": [],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 0.18,
+  "callout_limit": 6
+ }
+]

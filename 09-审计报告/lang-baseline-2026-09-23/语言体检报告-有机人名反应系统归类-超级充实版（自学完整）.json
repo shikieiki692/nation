@@ -1,0 +1,139 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\6-有机化学\\有机人名反应系统归类-超级充实版（自学完整）.md",
+  "total_lines": 790,
+  "pseudo_callout": [
+   {
+    "line": 62,
+    "title": "考纲覆盖"
+   },
+   {
+    "line": 114,
+    "title": "一句话纲领"
+   },
+   {
+    "line": 476,
+    "title": "考场策略"
+   },
+   {
+    "line": 636,
+    "title": "选题口径"
+   }
+  ],
+  "callout": [
+   {
+    "line": 490,
+    "type": "abstract"
+   },
+   {
+    "line": 501,
+    "type": "abstract"
+   },
+   {
+    "line": 512,
+    "type": "abstract"
+   },
+   {
+    "line": 523,
+    "type": "abstract"
+   },
+   {
+    "line": 534,
+    "type": "abstract"
+   },
+   {
+    "line": 545,
+    "type": "abstract"
+   },
+   {
+    "line": 554,
+    "type": "warning"
+   },
+   {
+    "line": 557,
+    "type": "warning"
+   },
+   {
+    "line": 560,
+    "type": "warning"
+   },
+   {
+    "line": 563,
+    "type": "warning"
+   },
+   {
+    "line": 566,
+    "type": "warning"
+   },
+   {
+    "line": 569,
+    "type": "warning"
+   },
+   {
+    "line": 572,
+    "type": "warning"
+   },
+   {
+    "line": 579,
+    "type": "warning"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 640,
+    "text": "**子话题A：族归类**",
+    "len": 8
+   },
+   {
+    "line": 646,
+    "text": "**子话题B：条件→族**",
+    "len": 9
+   },
+   {
+    "line": 654,
+    "text": "**子话题C：碳数与骨架**",
+    "len": 10
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [],
+  "quickref_names": [
+   {
+    "line": 609,
+    "heading": "14.3 速查卡：8 族 × 条件触发词",
+    "matched": "变体:速查卡"
+   }
+  ],
+  "dup_pairs": [
+   {
+    "line_a": 114,
+    "line_b": 597,
+    "sim": 1.0,
+    "text_a": "先分族再推导，统一机理走到底。",
+    "text_b": "先分族再推导，统一机理走到底。"
+   },
+   {
+    "line_a": 58,
+    "line_b": 774,
+    "sim": 0.84,
+    "text_a": "不展开光氧化还原双催化体系与烯烃复分解 / C-H 活化的现代拓展。",
+    "text_b": "深度边界：不展开光氧化还原双催化体系与烯烃复分解 / C-H 活化的现代拓展。"
+   },
+   {
+    "line_a": 532,
+    "line_b": 754,
+    "sim": 0.44,
+    "text_a": "(c) Sonogashira；",
+    "text_b": "**18.** Sonogashira 偶联；"
+   }
+  ],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 1.77,
+  "callout_limit": 8
+ }
+]

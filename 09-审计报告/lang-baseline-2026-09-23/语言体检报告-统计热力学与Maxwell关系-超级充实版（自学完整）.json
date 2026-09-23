@@ -1,0 +1,172 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\3-物理化学\\统计热力学与Maxwell关系-超级充实版（自学完整）.md",
+  "total_lines": 591,
+  "pseudo_callout": [
+   {
+    "line": 41,
+    "title": "承接考纲"
+   },
+   {
+    "line": 42,
+    "title": "前置知识"
+   },
+   {
+    "line": 43,
+    "title": "对应专题页"
+   },
+   {
+    "line": 45,
+    "title": "本讲定位"
+   },
+   {
+    "line": 151,
+    "title": "同侧同号，异侧异号"
+   },
+   {
+    "line": 305,
+    "title": "要点"
+   },
+   {
+    "line": 468,
+    "title": "交叉校验"
+   },
+   {
+    "line": 512,
+    "title": "可信度校验"
+   }
+  ],
+  "callout": [
+   {
+    "line": 81,
+    "type": "abstract"
+   },
+   {
+    "line": 84,
+    "type": "abstract"
+   },
+   {
+    "line": 87,
+    "type": "abstract"
+   },
+   {
+    "line": 90,
+    "type": "abstract"
+   },
+   {
+    "line": 134,
+    "type": "note"
+   },
+   {
+    "line": 210,
+    "type": "tip"
+   },
+   {
+    "line": 219,
+    "type": "note"
+   },
+   {
+    "line": 285,
+    "type": "note"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 407,
+    "text": "**1.** 四大基本方程",
+    "len": 8
+   },
+   {
+    "line": 418,
+    "text": "**2.** Maxwell 第 3 条的推导",
+    "len": 15
+   },
+   {
+    "line": 424,
+    "text": "即",
+    "len": 1
+   },
+   {
+    "line": 430,
+    "text": "**3.** Boltzmann 分布与配分函数",
+    "len": 18
+   },
+   {
+    "line": 437,
+    "text": "**4.** 热波长与平动配分函数",
+    "len": 12
+   },
+   {
+    "line": 446,
+    "text": "**5.** 热容差公式验证",
+    "len": 9
+   },
+   {
+    "line": 454,
+    "text": "**6.** Maxwell 第 4 条",
+    "len": 12
+   },
+   {
+    "line": 462,
+    "text": "**7.** Gibbs-Helmholtz 变温",
+    "len": 19
+   },
+   {
+    "line": 471,
+    "text": "**8.** 转动配分函数",
+    "len": 8
+   },
+   {
+    "line": 481,
+    "text": "**9.** 由配分函数求内能",
+    "len": 10
+   },
+   {
+    "line": 488,
+    "text": "**10.** 定域 / 离域熵差",
+    "len": 10
+   },
+   {
+    "line": 515,
+    "text": "**12.** 残余熵",
+    "len": 6
+   },
+   {
+    "line": 523,
+    "text": "**13.** Boltzmann 占据比例",
+    "len": 16
+   },
+   {
+    "line": 551,
+    "text": "**15.** 配分函数求平衡常数",
+    "len": 12
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [],
+  "quickref_names": [
+   {
+    "line": 309,
+    "heading": "本讲速查",
+    "matched": "本讲速查"
+   }
+  ],
+  "dup_pairs": [
+   {
+    "line_a": 93,
+    "line_b": 384,
+    "sim": 0.35,
+    "text_a": "Gibbs-Helmholtz 微分/积分式；",
+    "text_b": "用 Gibbs-Helmholtz 求 350K 的 $\\Delta G^\\theta$。"
+   }
+  ],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 1.35,
+  "callout_limit": 6
+ }
+]

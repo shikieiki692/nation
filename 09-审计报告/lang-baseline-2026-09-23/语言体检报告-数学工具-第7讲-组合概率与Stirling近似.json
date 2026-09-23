@@ -1,0 +1,45 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\_数学工具\\数学工具-第7讲-组合概率与Stirling近似.md",
+  "total_lines": 556,
+  "pseudo_callout": [
+   {
+    "line": 555,
+    "title": "全册收官"
+   }
+  ],
+  "callout": [
+   {
+    "line": 142,
+    "type": "note"
+   },
+   {
+    "line": 248,
+    "type": "warning"
+   },
+   {
+    "line": 550,
+    "type": "abstract"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 178,
+    "text": "**关键直觉：相对涨落**",
+    "len": 9
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [],
+  "quickref_names": [],
+  "dup_pairs": [],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 0.54,
+  "callout_limit": 6
+ }
+]

@@ -1,0 +1,143 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\6-有机化学\\过渡金属催化.md",
+  "total_lines": 638,
+  "pseudo_callout": [
+   {
+    "line": 32,
+    "title": "适用"
+   },
+   {
+    "line": 33,
+    "title": "对应考纲"
+   },
+   {
+    "line": 35,
+    "title": "源素材"
+   },
+   {
+    "line": 101,
+    "title": "竞赛核心"
+   },
+   {
+    "line": 167,
+    "title": "竞赛应用"
+   },
+   {
+    "line": 199,
+    "title": "竞赛应用"
+   },
+   {
+    "line": 281,
+    "title": "竞赛提示"
+   },
+   {
+    "line": 313,
+    "title": "竞赛应用"
+   },
+   {
+    "line": 339,
+    "title": "例外"
+   },
+   {
+    "line": 479,
+    "title": "使用建议"
+   }
+  ],
+  "callout": [],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 107,
+    "text": "σ 给电子：配体孤对电子 → 金属空 dsp 轨道",
+    "len": 20
+   },
+   {
+    "line": 109,
+    "text": "π 反馈： 金属充满 d 轨道 → 配体空 π* 轨道",
+    "len": 18
+   },
+   {
+    "line": 330,
+    "text": "Pd(0) + R–CH=CH–CH₂–OAc",
+    "len": 19
+   },
+   {
+    "line": 337,
+    "text": "**区域选择性**：亲核试剂进攻**空阻较小**的烯丙基末端。",
+    "len": 23
+   },
+   {
+    "line": 383,
+    "text": "**常见导向基**：酰胺、吡啶、羧酸、肟醚",
+    "len": 17
+   },
+   {
+    "line": 468,
+    "text": "[金属价电子数] + [∑ 配体贡献的电子数] = 总电子数",
+    "len": 21
+   },
+   {
+    "line": 483,
+    "text": "**18 电子规则**",
+    "len": 6
+   },
+   {
+    "line": 502,
+    "text": "**催化循环四步曲**",
+    "len": 7
+   },
+   {
+    "line": 512,
+    "text": "**Heck 反应**",
+    "len": 6
+   },
+   {
+    "line": 518,
+    "text": "**6.** 为什么 Heck 反应通常**不能**用烷基卤作为底物？",
+    "len": 24
+   },
+   {
+    "line": 520,
+    "text": "**Suzuki 偶联**",
+    "len": 8
+   },
+   {
+    "line": 534,
+    "text": "**Wacker 氧化**",
+    "len": 8
+   },
+   {
+    "line": 541,
+    "text": "**烯烃复分解**",
+    "len": 5
+   },
+   {
+    "line": 549,
+    "text": "**Tsuji-Trost 反应**",
+    "len": 13
+   },
+   {
+    "line": 556,
+    "text": "**Buchwald-Hartwig 胺化**",
+    "len": 18
+   },
+   {
+    "line": 597,
+    "text": "提示：Y 可由苯乙酮经 Pd 催化反应合成。",
+    "len": 19
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [],
+  "quickref_names": [],
+  "dup_pairs": [],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 0.0,
+  "callout_limit": 7
+ }
+]

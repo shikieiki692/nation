@@ -1,0 +1,192 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\3-物理化学\\物化综合计算-超级充实版（自学完整）.md",
+  "total_lines": 1019,
+  "pseudo_callout": [
+   {
+    "line": 58,
+    "title": "对应备课大纲"
+   },
+   {
+    "line": 59,
+    "title": "对应专题页"
+   },
+   {
+    "line": 60,
+    "title": "前置知识"
+   },
+   {
+    "line": 130,
+    "title": "前置章节"
+   },
+   {
+    "line": 208,
+    "title": "决策原则"
+   },
+   {
+    "line": 334,
+    "title": "冲刺班要点"
+   },
+   {
+    "line": 341,
+    "title": "竞赛前沿"
+   },
+   {
+    "line": 350,
+    "title": "只需知道"
+   },
+   {
+    "line": 427,
+    "title": "反思"
+   },
+   {
+    "line": 457,
+    "title": "反思"
+   },
+   {
+    "line": 682,
+    "title": "关键结论"
+   },
+   {
+    "line": 861,
+    "title": "规律"
+   }
+  ],
+  "callout": [
+   {
+    "line": 101,
+    "type": "abstract"
+   },
+   {
+    "line": 104,
+    "type": "abstract"
+   },
+   {
+    "line": 107,
+    "type": "abstract"
+   },
+   {
+    "line": 110,
+    "type": "abstract"
+   },
+   {
+    "line": 258,
+    "type": "note"
+   },
+   {
+    "line": 315,
+    "type": "warning"
+   },
+   {
+    "line": 359,
+    "type": "warning"
+   },
+   {
+    "line": 392,
+    "type": "warning"
+   },
+   {
+    "line": 415,
+    "type": "note"
+   },
+   {
+    "line": 443,
+    "type": "warning"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 283,
+    "text": "核心原则：**所有平衡必须同时满足**。",
+    "len": 16
+   },
+   {
+    "line": 576,
+    "text": "**1.** Born-Haber：NaCl 晶格能",
+    "len": 20
+   },
+   {
+    "line": 663,
+    "text": "**6.** CuS 在 1.0 M NH₃ 中的溶解度",
+    "len": 18
+   },
+   {
+    "line": 686,
+    "text": "**7.** 一级反应：50 °C 完成 90% 转化所需时间",
+    "len": 22
+   },
+   {
+    "line": 721,
+    "text": "**9.** 耦合驱动：TiO₂ 氯化 + C 燃烧",
+    "len": 17
+   },
+   {
+    "line": 742,
+    "text": "**桥梁图**：同第 3 题一般稳态式 → 代入比较",
+    "len": 18
+   },
+   {
+    "line": 764,
+    "text": "**11.** 39 届·普鲁士蓝理论比容量",
+    "len": 16
+   },
+   {
+    "line": 804,
+    "text": "**13.** 2024 决赛·N-H 键的 BDE（三步循环）",
+    "len": 24
+   },
+   {
+    "line": 865,
+    "text": "**15.** 电池全链（四小问）",
+    "len": 12
+   },
+   {
+    "line": 869,
+    "text": "**(1) 写总反应求 298 K 电动势**",
+    "len": 13
+   },
+   {
+    "line": 934,
+    "text": "**16.** （依数性基础）苯中沸点升高求分子量",
+    "len": 20
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [
+   {
+    "count": 2,
+    "text": "[[12-教学洞察/教学洞察-物化综合计算]]"
+   }
+  ],
+  "quickref_names": [
+   {
+    "line": 461,
+    "heading": "本讲速查——万能转接头",
+    "matched": "本讲速查"
+   }
+  ],
+  "dup_pairs": [
+   {
+    "line_a": 549,
+    "line_b": 709,
+    "sim": 0.37,
+    "text_a": "**8.** **浓差电池**：两 Ag|Ag⁺ 半电池 $c_1=5.0×10^{-4}$ M、$c_2=0.50$ M。",
+    "text_b": "**8.** 浓差电池：两 Ag|Ag⁺ 半电池（$c_1=5.0\\times10^{-4}$ M、$c_2=0.50$ M）**桥梁图**：浓差电池 $E^\\"
+   }
+  ],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [
+   {
+    "line": 268,
+    "match": "0-230 kJ",
+    "text": "3. **H• 生成**：H⁺ + e⁻ → H•，$\\Delta G_\\text{f}(\\mathrm{H^\\bull"
+   }
+  ],
+  "callout_density_per_100": 0.98,
+  "callout_limit": 11
+ }
+]

@@ -1,0 +1,284 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\4-分析化学\\氧化还原滴定与沉淀滴定-超级充实版（自学完整）.md",
+  "total_lines": 711,
+  "pseudo_callout": [
+   {
+    "line": 61,
+    "title": "对应专题"
+   },
+   {
+    "line": 62,
+    "title": "对应备课大纲"
+   },
+   {
+    "line": 63,
+    "title": "前置要求"
+   },
+   {
+    "line": 64,
+    "title": "深度边界"
+   },
+   {
+    "line": 65,
+    "title": "考纲覆盖"
+   },
+   {
+    "line": 83,
+    "title": "课堂建议顺序"
+   },
+   {
+    "line": 102,
+    "title": "轮次导航"
+   },
+   {
+    "line": 125,
+    "title": "关联知识点"
+   },
+   {
+    "line": 126,
+    "title": "考纲对应"
+   },
+   {
+    "line": 152,
+    "title": "比赛关键数据"
+   },
+   {
+    "line": 168,
+    "title": "读图提示"
+   },
+   {
+    "line": 178,
+    "title": "选择原则"
+   },
+   {
+    "line": 183,
+    "title": "答案"
+   },
+   {
+    "line": 193,
+    "title": "关联知识点"
+   },
+   {
+    "line": 194,
+    "title": "考纲对应"
+   },
+   {
+    "line": 227,
+    "title": "关键条件"
+   },
+   {
+    "line": 241,
+    "title": "答案"
+   },
+   {
+    "line": 247,
+    "title": "关联知识点"
+   },
+   {
+    "line": 248,
+    "title": "考纲对应"
+   },
+   {
+    "line": 274,
+    "title": "经典示例"
+   },
+   {
+    "line": 286,
+    "title": "口诀"
+   },
+   {
+    "line": 304,
+    "title": "关联知识点"
+   },
+   {
+    "line": 305,
+    "title": "考纲对应"
+   },
+   {
+    "line": 322,
+    "title": "H₃PO₄ 的作用"
+   },
+   {
+    "line": 347,
+    "title": "关联知识点"
+   },
+   {
+    "line": 348,
+    "title": "考纲对应"
+   },
+   {
+    "line": 364,
+    "title": "口诀"
+   },
+   {
+    "line": 397,
+    "title": "口诀"
+   },
+   {
+    "line": 416,
+    "title": "答案"
+   },
+   {
+    "line": 460,
+    "title": "答案"
+   },
+   {
+    "line": 476,
+    "title": "核心辨析"
+   },
+   {
+    "line": 519,
+    "title": "核心辨析"
+   },
+   {
+    "line": 560,
+    "title": "系统训练"
+   },
+   {
+    "line": 562,
+    "title": "选题口径"
+   },
+   {
+    "line": 666,
+    "title": "下节接口"
+   }
+  ],
+  "callout": [
+   {
+    "line": 139,
+    "type": "info"
+   },
+   {
+    "line": 154,
+    "type": "warning"
+   },
+   {
+    "line": 180,
+    "type": "example"
+   },
+   {
+    "line": 208,
+    "type": "warning"
+   },
+   {
+    "line": 238,
+    "type": "example"
+   },
+   {
+    "line": 285,
+    "type": "tip"
+   },
+   {
+    "line": 297,
+    "type": "info"
+   },
+   {
+    "line": 363,
+    "type": "tip"
+   },
+   {
+    "line": 396,
+    "type": "tip"
+   },
+   {
+    "line": 413,
+    "type": "example"
+   },
+   {
+    "line": 458,
+    "type": "example"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 74,
+    "text": "**第二轮课堂主线导航**",
+    "len": 9
+   },
+   {
+    "line": 85,
+    "text": "**深度分层说明**",
+    "len": 6
+   },
+   {
+    "line": 93,
+    "text": "**轮次划分表**",
+    "len": 5
+   },
+   {
+    "line": 206,
+    "text": "**核心原则**：竞赛仅考**酸性条件**，产物唯一为 Mn²⁺。",
+    "len": 24
+   },
+   {
+    "line": 568,
+    "text": "**子话题A：方法判别**",
+    "len": 9
+   },
+   {
+    "line": 576,
+    "text": "**子话题B：基础计量**",
+    "len": 9
+   },
+   {
+    "line": 584,
+    "text": "**子话题C：方法对比**",
+    "len": 9
+   },
+   {
+    "line": 592,
+    "text": "**子话题D：条件控制**",
+    "len": 9
+   },
+   {
+    "line": 600,
+    "text": "**子话题E：返滴定与误差**",
+    "len": 11
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [
+   {
+    "count": 2,
+    "text": "[[03-知识点/分析化学/氧化还原滴定]]"
+   }
+  ],
+  "quickref_names": [
+   {
+    "line": 523,
+    "heading": "七、本讲速查",
+    "matched": "本讲速查"
+   },
+   {
+    "line": 656,
+    "heading": "十、本讲小结",
+    "matched": "本讲小结"
+   }
+  ],
+  "dup_pairs": [
+   {
+    "line_a": 229,
+    "line_b": 580,
+    "sim": 0.47,
+    "text_a": "example] 练一练> 0.02000 mol/L KMnO₄ 滴定 25.00 mL 0.1000 mol/L Fe²⁺，需 KMnO₄ 多少 mL？",
+    "text_b": "**5.** 0.02000 mol/L KMnO₄ 滴定 25.00 mL 0.1000 mol/L Fe²⁺，求所需 KMnO₄ 体积。"
+   },
+   {
+    "line_a": 564,
+    "line_b": 588,
+    "sim": 0.39,
+    "text_a": "### 8.1 基础巩固（7 题）> 以下习题选自上海中学竞赛课程、分析化学第六版。",
+    "text_b": "### 8.2 竞赛入门（5 题）> 以下习题选自上海中学竞赛课程、分析化学题库。"
+   }
+  ],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 1.55,
+  "callout_limit": 8
+ }
+]

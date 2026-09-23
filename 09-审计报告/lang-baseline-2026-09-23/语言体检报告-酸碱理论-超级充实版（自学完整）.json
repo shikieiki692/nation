@@ -1,0 +1,221 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\3-物理化学\\酸碱理论-超级充实版（自学完整）.md",
+  "total_lines": 1225,
+  "pseudo_callout": [
+   {
+    "line": 100,
+    "title": "核心认知"
+   },
+   {
+    "line": 119,
+    "title": "书写习惯提醒"
+   },
+   {
+    "line": 121,
+    "title": "类比理解"
+   },
+   {
+    "line": 171,
+    "title": "溶剂理论的独特贡献"
+   },
+   {
+    "line": 195,
+    "title": "竞赛考点"
+   },
+   {
+    "line": 219,
+    "title": "推导"
+   },
+   {
+    "line": 256,
+    "title": "定量直觉"
+   },
+   {
+    "line": 285,
+    "title": "金属离子水解"
+   },
+   {
+    "line": 332,
+    "title": "温度升高 → Kw 增大"
+   },
+   {
+    "line": 349,
+    "title": "常见错误"
+   },
+   {
+    "line": 396,
+    "title": "适用条件"
+   },
+   {
+    "line": 469,
+    "title": "教训"
+   },
+   {
+    "line": 578,
+    "title": "本小节要求"
+   },
+   {
+    "line": 610,
+    "title": "只记一条真题规则"
+   },
+   {
+    "line": 642,
+    "title": "第一轮要求"
+   },
+   {
+    "line": 674,
+    "title": "和弱酸弱碱计算是同一套题"
+   },
+   {
+    "line": 753,
+    "title": "本小节要求"
+   },
+   {
+    "line": 796,
+    "title": "补充"
+   },
+   {
+    "line": 806,
+    "title": "缓冲的\"海绵\"类比"
+   },
+   {
+    "line": 826,
+    "title": "深层理解"
+   },
+   {
+    "line": 835,
+    "title": "深层理解"
+   },
+   {
+    "line": 857,
+    "title": "HSAB 的\"媒人\"类比"
+   },
+   {
+    "line": 859,
+    "title": "竞赛应用"
+   },
+   {
+    "line": 890,
+    "title": "规律"
+   },
+   {
+    "line": 904,
+    "title": "本小节要求"
+   },
+   {
+    "line": 936,
+    "title": "注意"
+   },
+   {
+    "line": 941,
+    "title": "读图提示"
+   },
+   {
+    "line": 951,
+    "title": "最小必需结论"
+   }
+  ],
+  "callout": [
+   {
+    "line": 273,
+    "type": "warning"
+   },
+   {
+    "line": 400,
+    "type": "warning"
+   },
+   {
+    "line": 537,
+    "type": "warning"
+   },
+   {
+    "line": 828,
+    "type": "tip"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 248,
+    "text": "若改写成",
+    "len": 4
+   },
+   {
+    "line": 312,
+    "text": "更严格的平衡常数原本应写成",
+    "len": 13
+   },
+   {
+    "line": 439,
+    "text": "**答案**：pH = 2.12，α = 7.6%。",
+    "len": 18
+   },
+   {
+    "line": 463,
+    "text": "c/Kb₁ = 0.10/0.083 = 1.2 ≪ 400",
+    "len": 24
+   },
+   {
+    "line": 531,
+    "text": "**实例**：0.20 M NaHCO₃",
+    "len": 14
+   },
+   {
+    "line": 533,
+    "text": "pKa₁ = 6.35, pKa₂ = 10.33",
+    "len": 20
+   },
+   {
+    "line": 535,
+    "text": "pH = ½(6.35 + 10.33) = 8.34",
+    "len": 19
+   },
+   {
+    "line": 550,
+    "text": "把两式相乘得",
+    "len": 6
+   },
+   {
+    "line": 562,
+    "text": "也就是上面的近似公式。",
+    "len": 11
+   },
+   {
+    "line": 762,
+    "text": "**实例**：向 1 L 缓冲溶液中加入 0.01 mol H₃O⁺",
+    "len": 24
+   },
+   {
+    "line": 912,
+    "text": "酸色形与碱色形颜色不同，所以当",
+    "len": 15
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [],
+  "quickref_names": [
+   {
+    "line": 994,
+    "heading": "十二、本节总结速查",
+    "matched": "变体:本节总结"
+   }
+  ],
+  "dup_pairs": [
+   {
+    "line_a": 872,
+    "line_b": 1107,
+    "sim": 0.36,
+    "text_a": "(b) Al³⁺ 是硬酸，F⁻ 是硬碱，I⁻ 是软碱。",
+    "text_b": "**8.** Na⁺ 是硬酸，F⁻ 是硬碱，I⁻ 是软碱。"
+   }
+  ],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 0.33,
+  "callout_limit": 12
+ }
+]

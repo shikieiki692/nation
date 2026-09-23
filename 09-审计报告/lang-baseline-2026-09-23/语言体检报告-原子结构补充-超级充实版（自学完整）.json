@@ -1,0 +1,137 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\2-结构化学\\原子结构补充-超级充实版（自学完整）.md",
+  "total_lines": 617,
+  "pseudo_callout": [
+   {
+    "line": 28,
+    "title": "对应模块"
+   },
+   {
+    "line": 29,
+    "title": "前置讲义"
+   },
+   {
+    "line": 30,
+    "title": "建议使用方式"
+   },
+   {
+    "line": 31,
+    "title": "前置要求"
+   },
+   {
+    "line": 32,
+    "title": "深度边界"
+   },
+   {
+    "line": 33,
+    "title": "版本说明"
+   },
+   {
+    "line": 34,
+    "title": "记号约定"
+   },
+   {
+    "line": 138,
+    "title": "核心辨析"
+   },
+   {
+    "line": 424,
+    "title": "核心辨析"
+   }
+  ],
+  "callout": [
+   {
+    "line": 93,
+    "type": "tip"
+   },
+   {
+    "line": 176,
+    "type": "warning"
+   },
+   {
+    "line": 269,
+    "type": "tip"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 119,
+    "text": "第一轮已经知道，穿透能力大小规律是",
+    "len": 17
+   },
+   {
+    "line": 164,
+    "text": "这就是 SCF 的名字来源。",
+    "len": 12
+   },
+   {
+    "line": 190,
+    "text": "这条近似为什么不严格？",
+    "len": 11
+   },
+   {
+    "line": 201,
+    "text": "而不适合把每个数值都当成精确答案。",
+    "len": 17
+   },
+   {
+    "line": 217,
+    "text": "原子项符号写成",
+    "len": 7
+   },
+   {
+    "line": 319,
+    "text": "所以有",
+    "len": 3
+   },
+   {
+    "line": 339,
+    "text": "这是竞赛里最经典的一对对比。",
+    "len": 14
+   },
+   {
+    "line": 383,
+    "text": "所以高氧化态稳定性下降，低氧化态相对更稳定。",
+    "len": 22
+   },
+   {
+    "line": 393,
+    "text": "这就是镧系收缩。",
+    "len": 8
+   },
+   {
+    "line": 479,
+    "text": "**题目**：判断 C 和 O 原子的价层基态项。",
+    "len": 17
+   },
+   {
+    "line": 514,
+    "text": "**题目**：为什么 Ag 呈银白色，而 Au 呈黄色？",
+    "len": 20
+   },
+   {
+    "line": 544,
+    "text": "**1.** 用要点区分“交换效应”和“电子相关”。",
+    "len": 21
+   },
+   {
+    "line": 585,
+    "text": "**5.**",
+    "len": 2
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [],
+  "quickref_names": [],
+  "dup_pairs": [],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 0.49,
+  "callout_limit": 7
+ }
+]

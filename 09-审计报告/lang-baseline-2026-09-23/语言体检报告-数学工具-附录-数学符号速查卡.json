@@ -1,0 +1,36 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\_数学工具\\数学工具-附录-数学符号速查卡.md",
+  "total_lines": 348,
+  "pseudo_callout": [],
+  "callout": [
+   {
+    "line": 43,
+    "type": "tip"
+   },
+   {
+    "line": 339,
+    "type": "abstract"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [],
+  "quickref_names": [
+   {
+    "line": 41,
+    "heading": "附录：数学符号与公式速查卡",
+    "matched": "变体:速查卡"
+   }
+  ],
+  "dup_pairs": [],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 0.57,
+  "callout_limit": 4
+ }
+]

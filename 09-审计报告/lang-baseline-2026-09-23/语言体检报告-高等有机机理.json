@@ -1,0 +1,214 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\6-有机化学\\高等有机机理.md",
+  "total_lines": 769,
+  "pseudo_callout": [
+   {
+    "line": 40,
+    "title": "前置要求"
+   },
+   {
+    "line": 43,
+    "title": "核心专题页"
+   },
+   {
+    "line": 98,
+    "title": "考场策略"
+   },
+   {
+    "line": 120,
+    "title": "σ⁺ vs σ⁻ 的使用时机"
+   },
+   {
+    "line": 138,
+    "title": "纠正"
+   },
+   {
+    "line": 152,
+    "title": "考场策略"
+   },
+   {
+    "line": 184,
+    "title": "纠正"
+   },
+   {
+    "line": 186,
+    "title": "考场策略"
+   },
+   {
+    "line": 212,
+    "title": "纠正"
+   },
+   {
+    "line": 227,
+    "title": "考场策略"
+   },
+   {
+    "line": 293,
+    "title": "纠正"
+   },
+   {
+    "line": 305,
+    "title": "考场策略"
+   },
+   {
+    "line": 346,
+    "title": "纠正"
+   },
+   {
+    "line": 363,
+    "title": "考场策略"
+   },
+   {
+    "line": 367,
+    "title": "卡宾自旋态（Clayden Ch.34）"
+   },
+   {
+    "line": 369,
+    "title": "芳炔区域选择（Clayden Ch.22）"
+   },
+   {
+    "line": 371,
+    "title": "证据组合（ABOC）"
+   }
+  ],
+  "callout": [
+   {
+    "line": 135,
+    "type": "warning"
+   },
+   {
+    "line": 179,
+    "type": "warning"
+   },
+   {
+    "line": 209,
+    "type": "warning"
+   },
+   {
+    "line": 290,
+    "type": "warning"
+   },
+   {
+    "line": 343,
+    "type": "warning"
+   },
+   {
+    "line": 590,
+    "type": "warning"
+   },
+   {
+    "line": 593,
+    "type": "warning"
+   },
+   {
+    "line": 596,
+    "type": "warning"
+   },
+   {
+    "line": 599,
+    "type": "warning"
+   },
+   {
+    "line": 602,
+    "type": "warning"
+   },
+   {
+    "line": 605,
+    "type": "warning"
+   }
+  ],
+  "warning_prefix": [
+   {
+    "line": 225,
+    "text": "⚠ 不要用\"氟代环己烷中 F 偏好 a 键\"作例子：实测氟环己烷仍是 **e 键略占优**（A 值仅约 0.25 kca"
+   },
+   {
+    "line": 490,
+    "text": "⚠ 易错两条：① 不要从底物的 E 直接读出产物的顺反——顺反由**旋转方式 × 两端双键构型**共同决定；② 不要因为"
+   }
+  ],
+  "fragments": [
+   {
+    "line": 140,
+    "text": "**考点：ρ 的大小与过渡态位置的关系**",
+    "len": 16
+   },
+   {
+    "line": 207,
+    "text": "**产物比由过渡态能垒差决定，不是由构象浓度决定。**",
+    "len": 23
+   },
+   {
+    "line": 413,
+    "text": "请判断该反应的速控步。",
+    "len": 11
+   },
+   {
+    "line": 454,
+    "text": "A₁ 的过渡态比 A₂ 的过渡态低 4.3 kJ/mol。",
+    "len": 24
+   },
+   {
+    "line": 507,
+    "text": "预测每种条件下产物的立体化学并解释。",
+    "len": 18
+   },
+   {
+    "line": 543,
+    "text": "**思路**：逐个数据分析，再综合收敛到最合理的机理。",
+    "len": 23
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [],
+  "quickref_names": [
+   {
+    "line": 648,
+    "heading": "八、核心速查卡",
+    "matched": "变体:核心速查卡"
+   },
+   {
+    "line": 648,
+    "heading": "八、核心速查卡",
+    "matched": "变体:速查卡"
+   }
+  ],
+  "dup_pairs": [
+   {
+    "line_a": 179,
+    "line_b": 593,
+    "sim": 0.46,
+    "text_a": "warning] **误区2：KIE > 1 一定意味着 C-H 键断裂**> 不一定。",
+    "text_b": "warning] **误区2：KIE > 1 一定意味着 C-H 键断裂**> 纠正：一级 KIE（$k_{\\mathrm{H}}/k_{\\mathrm{D}}"
+   },
+   {
+    "line_a": 194,
+    "line_b": 596,
+    "sim": 0.4,
+    "text_a": "warning] **误区3：Curtin-Hammett = \"构象决定产物\"**> 恰恰相反！",
+    "text_b": "warning] **误区3：Curtin-Hammett = \"构象决定产物\"**> 纠正：恰好相反——快互变时产物比由过渡态能垒差决定，与构象浓度无关。"
+   },
+   {
+    "line_a": 110,
+    "line_b": 586,
+    "sim": 0.4,
+    "text_a": "warning] **误区1：ρ 的符号与电荷的对应关系搞反**> 常见错误：\"ρ > 0 表示过渡态累积正电荷\"。",
+    "text_b": "warning] **误区1：ρ 的符号与电荷的对应关系搞反**> 纠正：ρ > 0 = 负电荷积累；"
+   }
+  ],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [
+   {
+    "line": 158,
+    "match": "4-5 kJ",
+    "text": "**物理本质**：零点能差异。C-H 键的零点能比 C-D 键高约 4-5 kJ/mol，因此断裂 C-H 键需要更低活"
+   }
+  ],
+  "callout_density_per_100": 1.43,
+  "callout_limit": 8
+ }
+]

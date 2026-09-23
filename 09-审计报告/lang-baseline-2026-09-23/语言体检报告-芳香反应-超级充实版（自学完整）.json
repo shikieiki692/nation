@@ -1,0 +1,269 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\6-有机化学\\芳香反应-超级充实版（自学完整）.md",
+  "total_lines": 602,
+  "pseudo_callout": [
+   {
+    "line": 63,
+    "title": "考纲覆盖"
+   },
+   {
+    "line": 100,
+    "title": "关联知识点"
+   },
+   {
+    "line": 101,
+    "title": "考纲对应"
+   },
+   {
+    "line": 135,
+    "title": "练一练"
+   },
+   {
+    "line": 138,
+    "title": "答案"
+   },
+   {
+    "line": 144,
+    "title": "关联知识点"
+   },
+   {
+    "line": 145,
+    "title": "考纲对应"
+   },
+   {
+    "line": 185,
+    "title": "练一练"
+   },
+   {
+    "line": 187,
+    "title": "答案"
+   },
+   {
+    "line": 196,
+    "title": "关联知识点"
+   },
+   {
+    "line": 197,
+    "title": "考纲对应"
+   },
+   {
+    "line": 226,
+    "title": "练一练"
+   },
+   {
+    "line": 229,
+    "title": "答案"
+   },
+   {
+    "line": 238,
+    "title": "关联知识点"
+   },
+   {
+    "line": 239,
+    "title": "考纲对应"
+   },
+   {
+    "line": 270,
+    "title": "练一练"
+   },
+   {
+    "line": 272,
+    "title": "答案"
+   },
+   {
+    "line": 281,
+    "title": "关联知识点"
+   },
+   {
+    "line": 282,
+    "title": "考纲对应"
+   },
+   {
+    "line": 296,
+    "title": "练一练"
+   },
+   {
+    "line": 298,
+    "title": "答案"
+   },
+   {
+    "line": 304,
+    "title": "关联知识点"
+   },
+   {
+    "line": 305,
+    "title": "考纲对应"
+   },
+   {
+    "line": 329,
+    "title": "练一练"
+   },
+   {
+    "line": 331,
+    "title": "答案"
+   },
+   {
+    "line": 340,
+    "title": "考纲对应"
+   },
+   {
+    "line": 356,
+    "title": "练一练"
+   },
+   {
+    "line": 358,
+    "title": "答案"
+   },
+   {
+    "line": 459,
+    "title": "选题口径"
+   }
+  ],
+  "callout": [
+   {
+    "line": 116,
+    "type": "tip"
+   },
+   {
+    "line": 119,
+    "type": "warning"
+   },
+   {
+    "line": 132,
+    "type": "example"
+   },
+   {
+    "line": 157,
+    "type": "tip"
+   },
+   {
+    "line": 180,
+    "type": "warning"
+   },
+   {
+    "line": 189,
+    "type": "tip"
+   },
+   {
+    "line": 223,
+    "type": "warning"
+   },
+   {
+    "line": 231,
+    "type": "tip"
+   },
+   {
+    "line": 267,
+    "type": "warning"
+   },
+   {
+    "line": 274,
+    "type": "tip"
+   },
+   {
+    "line": 293,
+    "type": "tip"
+   },
+   {
+    "line": 326,
+    "type": "warning"
+   },
+   {
+    "line": 333,
+    "type": "tip"
+   },
+   {
+    "line": 353,
+    "type": "tip"
+   },
+   {
+    "line": 381,
+    "type": "abstract"
+   },
+   {
+    "line": 395,
+    "type": "abstract"
+   },
+   {
+    "line": 411,
+    "type": "abstract"
+   },
+   {
+    "line": 422,
+    "type": "abstract"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 465,
+    "text": "**子话题A：机理分流**",
+    "len": 9
+   },
+   {
+    "line": 473,
+    "text": "**子话题B：定位判断**",
+    "len": 9
+   },
+   {
+    "line": 479,
+    "text": "**6.** 解释为什么卤素是钝化基却仍然导向邻对位。",
+    "len": 22
+   },
+   {
+    "line": 483,
+    "text": "**子话题C：杂环与 F-C**",
+    "len": 11
+   },
+   {
+    "line": 487,
+    "text": "**9.** 为什么 F-C 烷基化容易重排，而酰基化不会？",
+    "len": 23
+   },
+   {
+    "line": 495,
+    "text": "**子话题D：SNAr 与苯炔**",
+    "len": 12
+   },
+   {
+    "line": 505,
+    "text": "**子话题E：多取代与合成**",
+    "len": 11
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [],
+  "quickref_names": [],
+  "dup_pairs": [
+   {
+    "line_a": 330,
+    "line_b": 551,
+    "sim": 0.45,
+    "text_a": "吡啶氮的孤对在环外不参与芳香体系，环缺电子，亲电取代困难；",
+    "text_b": "吡啶氮的孤对在环外不参与芳香体系，环缺电子，SEAr 困难，偏向 3 位。"
+   },
+   {
+    "line_a": 391,
+    "line_b": 557,
+    "sim": 0.41,
+    "text_a": "**答案**：(1) 产物为对硝基苯酚（O₂N−C₆H₄−OH），机理为加成-消除。",
+    "text_b": "### 竞赛入门答案**11.** 产物为对硝基苯酚（O₂N−C₆H₄−OH）。"
+   },
+   {
+    "line_a": 271,
+    "line_b": 587,
+    "sim": 0.37,
+    "text_a": ">> **答案**：氯苯无强吸电子基，无法形成稳定的 Meisenheimer 复合物，故排除普通 SNAr；",
+    "text_b": "② 条件为强碱且底物无明显吸电子基，无法形成稳定的 Meisenheimer 复合物，排除加成-消除；"
+   }
+  ],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 2.99,
+  "callout_limit": 7
+ }
+]

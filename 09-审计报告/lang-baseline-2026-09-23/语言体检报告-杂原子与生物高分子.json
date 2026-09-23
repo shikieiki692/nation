@@ -1,0 +1,134 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\6-有机化学\\杂原子与生物高分子.md",
+  "total_lines": 562,
+  "pseudo_callout": [
+   {
+    "line": 30,
+    "title": "适用"
+   },
+   {
+    "line": 31,
+    "title": "对应备课大纲"
+   },
+   {
+    "line": 33,
+    "title": "关联专题页"
+   },
+   {
+    "line": 106,
+    "title": "决策树"
+   },
+   {
+    "line": 159,
+    "title": "竞赛考点"
+   },
+   {
+    "line": 238,
+    "title": "口诀"
+   },
+   {
+    "line": 289,
+    "title": "口诀"
+   },
+   {
+    "line": 313,
+    "title": "方法总结"
+   }
+  ],
+  "callout": [
+   {
+    "line": 237,
+    "type": "tip"
+   },
+   {
+    "line": 288,
+    "type": "tip"
+   }
+  ],
+  "warning_prefix": [
+   {
+    "line": 129,
+    "text": "> ⚠ **温度控制**：重氮化严格在0-5°C进行，重氮盐>5°C分解。"
+   },
+   {
+    "line": 204,
+    "text": "> ⚠ **易错口诀**：\"数π电子看p轨道，不是看孤对电子总数\"。只有**垂直于环平面的p轨道**中的电子才计入π体系"
+   },
+   {
+    "line": 315,
+    "text": "> ⚠ **易错**：pH > pI → 氨基酸带**负电** → 向**阳极（正极）**移动。pH < pI → 氨基"
+   }
+  ],
+  "fragments": [
+   {
+    "line": 214,
+    "text": "**芳香性顺序**：**苯 > 噻吩 > 吡咯 > 呋喃**",
+    "len": 13
+   },
+   {
+    "line": 356,
+    "text": "**思路**：N的孤对电子是否参与芳香体系是核心判据。",
+    "len": 23
+   },
+   {
+    "line": 362,
+    "text": "**答案**：碱性：吡啶 > 吡咯；SEAr活性：吡咯 >> 吡啶。",
+    "len": 23
+   },
+   {
+    "line": 378,
+    "text": "**答案**：(E)-1,2-二苯乙烯（反式二苯乙烯）。",
+    "len": 22
+   },
+   {
+    "line": 400,
+    "text": "**思路**：酸性氨基酸→pI取两个羧基pKa的平均。",
+    "len": 23
+   },
+   {
+    "line": 422,
+    "text": "**思路**：看主链是否保留缩合官能团（酯/酰胺/醚）。",
+    "len": 24
+   },
+   {
+    "line": 444,
+    "text": "**主产物**：3-乙酰基吲哚",
+    "len": 11
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [],
+  "quickref_names": [
+   {
+    "line": 488,
+    "heading": "十一、核心速查卡",
+    "matched": "变体:核心速查卡"
+   },
+   {
+    "line": 488,
+    "heading": "十一、核心速查卡",
+    "matched": "变体:速查卡"
+   }
+  ],
+  "dup_pairs": [],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [
+   {
+    "line": 110,
+    "match": "0-5°C",
+    "text": "**重氮化**：Ar-NH₂ + NaNO₂/HCl (0-5°C) → Ar-N₂⁺Cl⁻"
+   },
+   {
+    "line": 499,
+    "match": "0-5°C",
+    "text": "| **重氮偶联** | Ar-N₂⁺ + 酚/芳胺 → Ar-N=N-Ar' | 0-5°C | 温度过高分解 |"
+   }
+  ],
+  "callout_density_per_100": 0.36,
+  "callout_limit": 6
+ }
+]

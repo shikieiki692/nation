@@ -1,0 +1,285 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\5-无机化学\\碳族与硼族元素-超级充实版（自学完整）.md",
+  "total_lines": 679,
+  "pseudo_callout": [
+   {
+    "line": 47,
+    "title": "对应专题"
+   },
+   {
+    "line": 48,
+    "title": "对应备课大纲"
+   },
+   {
+    "line": 49,
+    "title": "本讲定位"
+   },
+   {
+    "line": 50,
+    "title": "上节衔接"
+   },
+   {
+    "line": 51,
+    "title": "下节衔接"
+   },
+   {
+    "line": 52,
+    "title": "前置要求"
+   },
+   {
+    "line": 53,
+    "title": "深度边界"
+   },
+   {
+    "line": 54,
+    "title": "建议使用方式"
+   },
+   {
+    "line": 115,
+    "title": "关联知识点"
+   },
+   {
+    "line": 116,
+    "title": "主线"
+   },
+   {
+    "line": 145,
+    "title": "结构-性质对应"
+   },
+   {
+    "line": 168,
+    "title": "方法论"
+   },
+   {
+    "line": 180,
+    "title": "口诀"
+   },
+   {
+    "line": 196,
+    "title": "关联知识点"
+   },
+   {
+    "line": 197,
+    "title": "主线"
+   },
+   {
+    "line": 210,
+    "title": "核心"
+   },
+   {
+    "line": 213,
+    "title": "延伸"
+   },
+   {
+    "line": 230,
+    "title": "方法论"
+   },
+   {
+    "line": 241,
+    "title": "关联知识点"
+   },
+   {
+    "line": 242,
+    "title": "主线"
+   },
+   {
+    "line": 255,
+    "title": "口诀"
+   },
+   {
+    "line": 273,
+    "title": "跨族呼应"
+   },
+   {
+    "line": 287,
+    "title": "关联知识点"
+   },
+   {
+    "line": 288,
+    "title": "主线"
+   },
+   {
+    "line": 302,
+    "title": "口诀"
+   },
+   {
+    "line": 304,
+    "title": "类比"
+   },
+   {
+    "line": 328,
+    "title": "本质"
+   },
+   {
+    "line": 330,
+    "title": "口诀"
+   },
+   {
+    "line": 332,
+    "title": "硼珠反应"
+   },
+   {
+    "line": 342,
+    "title": "口诀"
+   },
+   {
+    "line": 351,
+    "title": "口诀"
+   },
+   {
+    "line": 363,
+    "title": "关联知识点"
+   },
+   {
+    "line": 364,
+    "title": "主线"
+   },
+   {
+    "line": 372,
+    "title": "认知冲突（两性的 z/r 根源）"
+   },
+   {
+    "line": 379,
+    "title": "类比"
+   },
+   {
+    "line": 381,
+    "title": "口诀"
+   },
+   {
+    "line": 389,
+    "title": "本质"
+   },
+   {
+    "line": 415,
+    "title": "口诀"
+   },
+   {
+    "line": 439,
+    "title": "判题顺序"
+   }
+  ],
+  "callout": [
+   {
+    "line": 72,
+    "type": "tip"
+   },
+   {
+    "line": 132,
+    "type": "warning"
+   },
+   {
+    "line": 177,
+    "type": "warning"
+   },
+   {
+    "line": 212,
+    "type": "info"
+   },
+   {
+    "line": 252,
+    "type": "warning"
+   },
+   {
+    "line": 257,
+    "type": "warning"
+   },
+   {
+    "line": 299,
+    "type": "warning"
+   },
+   {
+    "line": 348,
+    "type": "warning"
+   },
+   {
+    "line": 376,
+    "type": "warning"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 56,
+    "text": "**深度分层说明**",
+    "len": 6
+   },
+   {
+    "line": 64,
+    "text": "**轮次划分表**",
+    "len": 5
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [
+   {
+    "count": 2,
+    "text": "[[12-教学洞察/教学洞察-碳族与硼族元素]]"
+   }
+  ],
+  "quickref_names": [
+   {
+    "line": 521,
+    "heading": "八、本讲速查",
+    "matched": "本讲速查"
+   },
+   {
+    "line": 553,
+    "heading": "九、本讲小结",
+    "matched": "本讲小结"
+   }
+  ],
+  "dup_pairs": [
+   {
+    "line_a": 199,
+    "line_b": 646,
+    "sim": 1.0,
+    "text_a": "C 无空轨道 → CCl₄ 不水解。",
+    "text_b": "C 无空轨道 → CCl₄ 不水解。"
+   },
+   {
+    "line_a": 636,
+    "line_b": 668,
+    "sim": 0.58,
+    "text_a": "> 完整题面见 [[题-032-1-氮化硅制备方程式]]。",
+    "text_b": "详见 [[题-032-1-氮化硅制备方程式]]。"
+   },
+   {
+    "line_a": 630,
+    "line_b": 664,
+    "sim": 0.55,
+    "text_a": "> 完整题面见 [[题-026-2-BCl元素推断]]。",
+    "text_b": "详见 [[题-026-2-BCl元素推断]]。"
+   },
+   {
+    "line_a": 633,
+    "line_b": 666,
+    "sim": 0.5,
+    "text_a": "> 完整题面见 [[题-029-8-1-锡元素推断]]。",
+    "text_b": "详见 [[题-029-8-1-锡元素推断]]。"
+   },
+   {
+    "line_a": 460,
+    "line_b": 654,
+    "sim": 0.4,
+    "text_a": "配 SnCl₂ 要加 HCl 抑水解 + Sn 粒防氧化。",
+    "text_b": "配制：加 HCl 抑水解 + Sn 粒防氧化。"
+   },
+   {
+    "line_a": 515,
+    "line_b": 664,
+    "sim": 0.35,
+    "text_a": "**解答**：完整题面与推理链见 [[题-026-2-BCl元素推断]]。",
+    "text_b": "详见 [[题-026-2-BCl元素推断]]。"
+   }
+  ],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 1.33,
+  "callout_limit": 7
+ }
+]

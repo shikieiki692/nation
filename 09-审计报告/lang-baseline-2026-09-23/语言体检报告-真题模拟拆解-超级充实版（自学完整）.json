@@ -1,0 +1,118 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\_综合\\真题模拟拆解-超级充实版（自学完整）.md",
+  "total_lines": 538,
+  "pseudo_callout": [
+   {
+    "line": 42,
+    "title": "对应备课大纲"
+   },
+   {
+    "line": 43,
+    "title": "对应专题页"
+   },
+   {
+    "line": 44,
+    "title": "前置知识"
+   },
+   {
+    "line": 149,
+    "title": "判断速度训练"
+   },
+   {
+    "line": 159,
+    "title": "关键认知"
+   },
+   {
+    "line": 260,
+    "title": "学到的"
+   },
+   {
+    "line": 282,
+    "title": "学到的"
+   },
+   {
+    "line": 301,
+    "title": "学到的"
+   }
+  ],
+  "callout": [
+   {
+    "line": 87,
+    "type": "abstract"
+   },
+   {
+    "line": 90,
+    "type": "abstract"
+   },
+   {
+    "line": 93,
+    "type": "abstract"
+   },
+   {
+    "line": 96,
+    "type": "abstract"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 245,
+    "text": "**题型**：综合计算（电化学 + 材料）",
+    "len": 15
+   },
+   {
+    "line": 264,
+    "text": "**题型**：综合计算（热化学循环 + 电化学）",
+    "len": 18
+   },
+   {
+    "line": 286,
+    "text": "**题型**：给材料学习（有机机理 + 催化循环）",
+    "len": 19
+   },
+   {
+    "line": 333,
+    "text": "**背面**：5 步法检查清单 + 各题型止损线 + 检查三优先。",
+    "len": 24
+   }
+  ],
+  "negative_words": [
+   {
+    "line": 122,
+    "word": "纠结",
+    "suggest": "竞争激烈/判定依赖试剂（口诀内按规范 §5.3 处理）",
+    "text": "| 止损意识 | 会解难题 | 卡壳果断跳过不纠结 |"
+   },
+   {
+    "line": 149,
+    "word": "纠结",
+    "suggest": "竞争激烈/判定依赖试剂（口诀内按规范 §5.3 处理）",
+    "text": "> **判断速度训练**：看题 30 秒内必须判断题型归属。1 分钟还判断不出来 → 说明不是题型区分问题，而是题没读懂"
+   }
+  ],
+  "whitelist_hits": [],
+  "motto_dupe": [
+   {
+    "count": 2,
+    "text": "[[12-教学洞察/教学洞察-真题模拟拆解]]"
+   },
+   {
+    "count": 2,
+    "text": "[[备课思路/近五年真题命题拆解分析]]"
+   },
+   {
+    "count": 2,
+    "text": "[[备课思路/审计归档/第四轮冲刺专题体系]]"
+   }
+  ],
+  "quickref_names": [],
+  "dup_pairs": [],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 0.74,
+  "callout_limit": 6
+ }
+]

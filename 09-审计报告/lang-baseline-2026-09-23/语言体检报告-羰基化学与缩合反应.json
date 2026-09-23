@@ -1,0 +1,181 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\6-有机化学\\羰基化学与缩合反应.md",
+  "total_lines": 610,
+  "pseudo_callout": [
+   {
+    "line": 37,
+    "title": "适用"
+   },
+   {
+    "line": 38,
+    "title": "对应备课大纲"
+   },
+   {
+    "line": 40,
+    "title": "专题页"
+   },
+   {
+    "line": 77,
+    "title": "核心逻辑"
+   },
+   {
+    "line": 114,
+    "title": "关键"
+   },
+   {
+    "line": 128,
+    "title": "口诀"
+   },
+   {
+    "line": 204,
+    "title": "别背 1,5→五元、1,6→六元 的口诀"
+   },
+   {
+    "line": 273,
+    "title": "竞赛判断"
+   },
+   {
+    "line": 307,
+    "title": "识别"
+   },
+   {
+    "line": 321,
+    "title": "第三轮思维"
+   },
+   {
+    "line": 342,
+    "title": "认识"
+   }
+  ],
+  "callout": [
+   {
+    "line": 88,
+    "type": "warning"
+   },
+   {
+    "line": 130,
+    "type": "warning"
+   },
+   {
+    "line": 140,
+    "type": "warning"
+   },
+   {
+    "line": 289,
+    "type": "warning"
+   },
+   {
+    "line": 309,
+    "type": "warning"
+   },
+   {
+    "line": 345,
+    "type": "warning"
+   },
+   {
+    "line": 465,
+    "type": "warning"
+   },
+   {
+    "line": 468,
+    "type": "warning"
+   },
+   {
+    "line": 471,
+    "type": "warning"
+   },
+   {
+    "line": 474,
+    "type": "warning"
+   },
+   {
+    "line": 477,
+    "type": "warning"
+   },
+   {
+    "line": 480,
+    "type": "warning"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 357,
+    "text": "**思路**：羰基 C 正电性越强、位阻越小 → 加成越快。",
+    "len": 22
+   },
+   {
+    "line": 366,
+    "text": "**答案**：D > B > A > C",
+    "len": 7
+   },
+   {
+    "line": 394,
+    "text": "**题干**：苯甲醛 + 丙醛 + 稀 NaOH + Δ，主产物？",
+    "len": 22
+   },
+   {
+    "line": 448,
+    "text": "**题干**：2-甲基环戊酮 + MVK + 碱 → 最终产物？",
+    "len": 22
+   },
+   {
+    "line": 564,
+    "text": "**2.** 完成：CH₃COCH₃ + Br₂ —NaOH→ ?",
+    "len": 24
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [],
+  "quickref_names": [
+   {
+    "line": 516,
+    "heading": "十一、核心速查卡",
+    "matched": "变体:核心速查卡"
+   },
+   {
+    "line": 516,
+    "heading": "十一、核心速查卡",
+    "matched": "变体:速查卡"
+   }
+  ],
+  "dup_pairs": [
+   {
+    "line_a": 283,
+    "line_b": 474,
+    "sim": 0.61,
+    "text_a": "warning] **误区4：「Robinson 成环只写 Michael 一步」**> Robinson 成环是**两步串联**（Michael + 羟醛 +",
+    "text_b": "warning] **误区4：「Robinson 成环只写 Michael 一步」**> Robinson 是**两步串联**（Michael + 羟醛 + 脱"
+   },
+   {
+    "line_a": 137,
+    "line_b": 471,
+    "sim": 0.46,
+    "text_a": "warning] **误区3：「O 上负电荷多，亲核进攻就在 O 上」**> 虽然 O 上负电荷多（约 2/3），但合成上有价值的 C-C 键形成在**C 位*",
+    "text_b": "warning] **误区3：「O 上负电荷多，亲核进攻就在 O 上」**> 合成上有价值的 C-C 键形成在**C 位**（前线轨道控制）。"
+   },
+   {
+    "line_a": 116,
+    "line_b": 468,
+    "sim": 0.38,
+    "text_a": "**普通酮的 α-烷基化必须用 LDA（pKa ~36）或 NaH（pKa ~35）**。",
+    "text_b": "**必须用 LDA（pKa ~36）或 NaH**。"
+   },
+   {
+    "line_a": 309,
+    "line_b": 477,
+    "sim": 0.35,
+    "text_a": "warning] **误区5：「Mannich 反应 = 普通 Aldol」**> 虽然机理框架相似，但 Mannich 的**亲电体是亚胺正离子而不是羰基**",
+    "text_b": "warning] **误区5：「Mannich 反应 = 普通 Aldol」**> Mannich 的**亲电体是亚胺正离子**，产物是**β-氨基羰基**而非"
+   }
+  ],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 1.97,
+  "callout_limit": 7
+ }
+]

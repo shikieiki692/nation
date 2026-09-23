@@ -1,0 +1,123 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\2-结构化学\\超分子化学.md",
+  "total_lines": 512,
+  "pseudo_callout": [
+   {
+    "line": 31,
+    "title": "适用"
+   },
+   {
+    "line": 32,
+    "title": "对应考纲"
+   },
+   {
+    "line": 34,
+    "title": "源素材"
+   },
+   {
+    "line": 76,
+    "title": "竞赛提示"
+   },
+   {
+    "line": 106,
+    "title": "竞赛应用"
+   },
+   {
+    "line": 153,
+    "title": "竞赛典型题"
+   },
+   {
+    "line": 219,
+    "title": "竞赛要点"
+   },
+   {
+    "line": 274,
+    "title": "竞赛提示"
+   },
+   {
+    "line": 301,
+    "title": "竞赛题常见套路"
+   },
+   {
+    "line": 363,
+    "title": "使用建议"
+   }
+  ],
+  "callout": [],
+  "warning_prefix": [
+   {
+    "line": 95,
+    "text": "| **Cavitand** | 拥有分子内永久空穴的主体（溶液中存在）| ⚠ 了解 |"
+   },
+   {
+    "line": 96,
+    "text": "| **Clathrand** | 晶体内分子间形成空穴的主体（仅固态）| ⚠ 了解 |"
+   }
+  ],
+  "fragments": [
+   {
+    "line": 135,
+    "text": "**命名**：`[n]冠-m`，n = 环原子总数，m = 氧原子数",
+    "len": 22
+   },
+   {
+    "line": 175,
+    "text": "**命名**：杯[n]芳烃",
+    "len": 7
+   },
+   {
+    "line": 223,
+    "text": "**应用**：增溶、稳定、控释、分离",
+    "len": 14
+   },
+   {
+    "line": 367,
+    "text": "**超分子相互作用**",
+    "len": 7
+   },
+   {
+    "line": 373,
+    "text": "**主客体化学基础**",
+    "len": 7
+   },
+   {
+    "line": 386,
+    "text": "**环糊精与中性分子主体**",
+    "len": 10
+   },
+   {
+    "line": 392,
+    "text": "**杯芳烃与固态包合物**",
+    "len": 9
+   },
+   {
+    "line": 400,
+    "text": "**模板效应与自组装**",
+    "len": 8
+   },
+   {
+    "line": 412,
+    "text": "**机械互锁分子**",
+    "len": 6
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [],
+  "quickref_names": [],
+  "dup_pairs": [],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [
+   {
+    "line": 332,
+    "match": "0-350 kJ",
+    "text": "| \"氢键是超分子中最强的相互作用\" | 离子-离子（100-350 kJ·mol⁻¹）远强于氢键（4-120），氢键的"
+   }
+  ],
+  "callout_density_per_100": 0.0,
+  "callout_limit": 6
+ }
+]

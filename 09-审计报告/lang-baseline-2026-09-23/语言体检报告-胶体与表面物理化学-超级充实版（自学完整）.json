@@ -1,0 +1,279 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\3-物理化学\\胶体与表面物理化学-超级充实版（自学完整）.md",
+  "total_lines": 938,
+  "pseudo_callout": [
+   {
+    "line": 52,
+    "title": "对应专题页"
+   },
+   {
+    "line": 53,
+    "title": "前置知识"
+   },
+   {
+    "line": 54,
+    "title": "承接考纲"
+   },
+   {
+    "line": 56,
+    "title": "R4 定位"
+   },
+   {
+    "line": 242,
+    "title": "表面压（π）"
+   },
+   {
+    "line": 286,
+    "title": "数量级直觉"
+   },
+   {
+    "line": 302,
+    "title": "两个高频失分点"
+   },
+   {
+    "line": 304,
+    "title": "OCR 校勘"
+   },
+   {
+    "line": 332,
+    "title": "与物化综合计算的接口"
+   },
+   {
+    "line": 376,
+    "title": "本章定位"
+   },
+   {
+    "line": 377,
+    "title": "题源声明"
+   },
+   {
+    "line": 378,
+    "title": "题源限制"
+   },
+   {
+    "line": 426,
+    "title": "物理意义"
+   },
+   {
+    "line": 427,
+    "title": "二元体系最常用的推论"
+   },
+   {
+    "line": 456,
+    "title": "与 §一 的呼应"
+   },
+   {
+    "line": 457,
+    "title": "与 §三 3.1 的呼应"
+   },
+   {
+    "line": 467,
+    "title": "题源"
+   },
+   {
+    "line": 483,
+    "title": "⚠ 校勘"
+   },
+   {
+    "line": 497,
+    "title": "题源"
+   },
+   {
+    "line": 517,
+    "title": "与本章主题的关联"
+   },
+   {
+    "line": 564,
+    "title": "2026-09-16 销项"
+   }
+  ],
+  "callout": [
+   {
+    "line": 92,
+    "type": "abstract"
+   },
+   {
+    "line": 95,
+    "type": "abstract"
+   },
+   {
+    "line": 98,
+    "type": "abstract"
+   },
+   {
+    "line": 101,
+    "type": "abstract"
+   },
+   {
+    "line": 132,
+    "type": "note"
+   },
+   {
+    "line": 259,
+    "type": "note"
+   }
+  ],
+  "warning_prefix": [
+   {
+    "line": 459,
+    "text": "> ⚠ **本章理论部分的边界**：Gibbs 吸附等温式的**定量习题**在库内暂无对应真题，故本讲不给自编计算题；其"
+   },
+   {
+    "line": 483,
+    "text": "> **⚠ 校勘**：该题原书答案给 $\\Delta_\\mathrm{ad}H^\\theta_\\mathrm{m}=-9"
+   },
+   {
+    "line": 718,
+    "text": "> ⚠ **本题命题提示**：原题设问把\"电解质阳离子\"与\"反离子\"混在了一起，对**正溶胶**而言这三种盐的反离子均为"
+   }
+  ],
+  "fragments": [
+   {
+    "line": 208,
+    "text": "**DLVO 理论**：胶体总势能 = 引力势能 + 斥力势能",
+    "len": 22
+   },
+   {
+    "line": 266,
+    "text": "**一、比表面量：G、S、H 三兄弟**",
+    "len": 15
+   },
+   {
+    "line": 274,
+    "text": "**二、分散度与表面能增量**",
+    "len": 11
+   },
+   {
+    "line": 288,
+    "text": "**三、浸润热法测定固体比表面积**",
+    "len": 14
+   },
+   {
+    "line": 529,
+    "text": "**练 1**",
+    "len": 2
+   },
+   {
+    "line": 541,
+    "text": "**练 2**",
+    "len": 2
+   },
+   {
+    "line": 685,
+    "text": "**1.** 丁达尔效应",
+    "len": 7
+   },
+   {
+    "line": 687,
+    "text": "**Fe(OH)₃ 溶胶**产生可见光路，NaCl 溶液不产生。",
+    "len": 24
+   },
+   {
+    "line": 694,
+    "text": "**2.** Fe(OH)₃ 胶团结构式与电泳方向",
+    "len": 17
+   },
+   {
+    "line": 724,
+    "text": "**4.** Langmuir 吸附平衡常数 K",
+    "len": 17
+   },
+   {
+    "line": 735,
+    "text": "**5.** 水在石蜡表面的润湿判断",
+    "len": 13
+   },
+   {
+    "line": 753,
+    "text": "**6.** 为什么 CMC 以上渗透压随浓度增加变缓",
+    "len": 20
+   },
+   {
+    "line": 800,
+    "text": "**9.** LH 机理的速率式与低压级数",
+    "len": 15
+   },
+   {
+    "line": 806,
+    "text": "即",
+    "len": 1
+   },
+   {
+    "line": 821,
+    "text": "**10.** Al(OH)₃ 胶体除色素的原理",
+    "len": 16
+   },
+   {
+    "line": 837,
+    "text": "**驱动力是熵（ΔS > 0），不是焓。**",
+    "len": 15
+   },
+   {
+    "line": 876,
+    "text": "**13.** 胶束增溶疏水药物（31 届初赛）",
+    "len": 18
+   },
+   {
+    "line": 902,
+    "text": "**15.** DLVO 解释 ζ 电位下降导致的聚沉",
+    "len": 19
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [
+   {
+    "count": 2,
+    "text": "[[胶体与表面活性剂]]"
+   },
+   {
+    "count": 2,
+    "text": "[[Langmuir吸附等温式]]"
+   }
+  ],
+  "quickref_names": [
+   {
+    "line": 568,
+    "heading": "本讲速查",
+    "matched": "本讲速查"
+   }
+  ],
+  "dup_pairs": [
+   {
+    "line_a": 219,
+    "line_b": 712,
+    "sim": 0.65,
+    "text_a": "**Schulze-Hardy 规则**：反离子价数越高，聚沉能力越强。",
+    "text_b": "按 Schulze-Hardy 规则，反离子价数越高，聚沉能力越强，临界聚沉浓度比约为 $1:\\frac{1}{64}:\\frac{1}{729}$。"
+   },
+   {
+    "line_a": 58,
+    "line_b": 104,
+    "sim": 0.41,
+    "text_a": "用 Schulze-Hardy 规则比较电解质聚沉能力；",
+    "text_b": "Schulze-Hardy 规则；"
+   },
+   {
+    "line_a": 643,
+    "line_b": 712,
+    "sim": 0.39,
+    "text_a": "**3.** 比较 NaCl、CaCl₂、AlCl₃ 对 Fe(OH)₃ 正溶胶的聚沉能力，并给出相对比值。",
+    "text_b": "**3.** NaCl / CaCl₂ / AlCl₃ 对 Fe(OH)₃ 正溶胶的聚沉能力Fe(OH)₃ 为**正溶胶**，起聚沉作用的是**反离子（阴离子）"
+   },
+   {
+    "line_a": 104,
+    "line_b": 219,
+    "sim": 0.35,
+    "text_a": "Schulze-Hardy 规则；",
+    "text_b": "**Schulze-Hardy 规则**：反离子价数越高，聚沉能力越强。"
+   }
+  ],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 0.64,
+  "callout_limit": 10
+ }
+]

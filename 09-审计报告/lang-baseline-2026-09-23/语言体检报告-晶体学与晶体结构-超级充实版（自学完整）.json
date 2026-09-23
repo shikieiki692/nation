@@ -1,0 +1,714 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\2-结构化学\\晶体学与晶体结构-超级充实版（自学完整）.md",
+  "total_lines": 2436,
+  "pseudo_callout": [
+   {
+    "line": 54,
+    "title": "对应专题"
+   },
+   {
+    "line": 55,
+    "title": "建议使用方式"
+   },
+   {
+    "line": 56,
+    "title": "前置要求"
+   },
+   {
+    "line": 57,
+    "title": "深度边界"
+   },
+   {
+    "line": 58,
+    "title": "课时"
+   },
+   {
+    "line": 59,
+    "title": "版本说明"
+   },
+   {
+    "line": 77,
+    "title": "轮次导航"
+   },
+   {
+    "line": 84,
+    "title": "先记住晶体这一讲的主线"
+   },
+   {
+    "line": 96,
+    "title": "黑白打印时优先盯 4 类信息"
+   },
+   {
+    "line": 117,
+    "title": "考纲覆盖"
+   },
+   {
+    "line": 138,
+    "title": "学这章时，脑子里最好一直盯住 3 个问题"
+   },
+   {
+    "line": 143,
+    "title": "深度辨析"
+   },
+   {
+    "line": 167,
+    "title": "欧拉公式（Euler's Formula）"
+   },
+   {
+    "line": 178,
+    "title": "点阵（lattice）的严格定义"
+   },
+   {
+    "line": 180,
+    "title": "基元（basis）"
+   },
+   {
+    "line": 193,
+    "title": "点阵点（lattice point）"
+   },
+   {
+    "line": 214,
+    "title": "直观类比"
+   },
+   {
+    "line": 279,
+    "title": "要点"
+   },
+   {
+    "line": 281,
+    "title": "最容易混淆的一点"
+   },
+   {
+    "line": 293,
+    "title": "抓手"
+   },
+   {
+    "line": 313,
+    "title": "晶胞参数（lattice parameters）"
+   },
+   {
+    "line": 397,
+    "title": "因此判断格子型式时，一定先问"
+   },
+   {
+    "line": 436,
+    "title": "最短距离原则"
+   },
+   {
+    "line": 489,
+    "title": "真题提醒"
+   },
+   {
+    "line": 503,
+    "title": "最重要的提醒"
+   },
+   {
+    "line": 548,
+    "title": "做题习惯"
+   },
+   {
+    "line": 588,
+    "title": "最关键的点"
+   },
+   {
+    "line": 676,
+    "title": "题目"
+   },
+   {
+    "line": 693,
+    "title": "符号约定"
+   },
+   {
+    "line": 713,
+    "title": "直觉理解"
+   },
+   {
+    "line": 744,
+    "title": "推导直觉"
+   },
+   {
+    "line": 757,
+    "title": "竞赛链接"
+   },
+   {
+    "line": 761,
+    "title": "物理背景"
+   },
+   {
+    "line": 790,
+    "title": "最常见的错误"
+   },
+   {
+    "line": 827,
+    "title": "读图技巧"
+   },
+   {
+    "line": 934,
+    "title": "深化"
+   },
+   {
+    "line": 957,
+    "title": "误区 1"
+   },
+   {
+    "line": 959,
+    "title": "误区 2"
+   },
+   {
+    "line": 961,
+    "title": "误区 3"
+   },
+   {
+    "line": 963,
+    "title": "误区 4"
+   },
+   {
+    "line": 1010,
+    "title": "编排说明"
+   },
+   {
+    "line": 1011,
+    "title": "第一轮训练顺序建议"
+   },
+   {
+    "line": 1018,
+    "title": "读题顺口溜"
+   },
+   {
+    "line": 1027,
+    "title": "第一轮提醒"
+   },
+   {
+    "line": 1052,
+    "title": "本节当前显性依赖题图的题目"
+   },
+   {
+    "line": 1096,
+    "title": "读图提示"
+   },
+   {
+    "line": 1120,
+    "title": "读图提示"
+   },
+   {
+    "line": 1134,
+    "title": "读图提示"
+   },
+   {
+    "line": 1224,
+    "title": "来源"
+   },
+   {
+    "line": 1240,
+    "title": "来源"
+   },
+   {
+    "line": 1250,
+    "title": "来源"
+   },
+   {
+    "line": 1267,
+    "title": "来源"
+   },
+   {
+    "line": 1291,
+    "title": "来源"
+   },
+   {
+    "line": 1310,
+    "title": "复习提示"
+   },
+   {
+    "line": 1332,
+    "title": "竞赛常用对比"
+   },
+   {
+    "line": 1398,
+    "title": "堆积（packing）的几何定义"
+   },
+   {
+    "line": 1400,
+    "title": "密置层（close-packed layer）"
+   },
+   {
+    "line": 1402,
+    "title": "配位数（coordination number, CN）"
+   },
+   {
+    "line": 1553,
+    "title": "离子半径的来源"
+   },
+   {
+    "line": 1603,
+    "title": "临界值几何来源"
+   },
+   {
+    "line": 1605,
+    "title": "口诀"
+   },
+   {
+    "line": 1621,
+    "title": "半径比规则的局限性——第一轮先抓这三类偏离"
+   },
+   {
+    "line": 1629,
+    "title": "要点"
+   },
+   {
+    "line": 1631,
+    "title": "什么时候最容易失灵"
+   },
+   {
+    "line": 1698,
+    "title": "这些母型真正要学会的，不是“把图背下来”，而是看到一个结构时能立刻回答"
+   },
+   {
+    "line": 1713,
+    "title": "这几个母型的差别，本质上只在 3 件事"
+   },
+   {
+    "line": 1722,
+    "title": "例如"
+   },
+   {
+    "line": 1726,
+    "title": "因此读结构题时，最好按这 4 句去想"
+   },
+   {
+    "line": 1742,
+    "title": "理解要点"
+   },
+   {
+    "line": 1745,
+    "title": "做题时的最短判断链"
+   },
+   {
+    "line": 1862,
+    "title": "NiAs vs NaCl 的关键区别"
+   },
+   {
+    "line": 1864,
+    "title": "ReO₃ 与钙钛矿的关系"
+   },
+   {
+    "line": 1866,
+    "title": "尖晶石的磁性应用"
+   },
+   {
+    "line": 1883,
+    "title": "回顾"
+   },
+   {
+    "line": 1887,
+    "title": "推荐顺序"
+   },
+   {
+    "line": 1889,
+    "title": "赵鑫光Ch4 §4.4 补充"
+   },
+   {
+    "line": 1897,
+    "title": "第一轮理解"
+   },
+   {
+    "line": 1899,
+    "title": "记忆要点"
+   },
+   {
+    "line": 1905,
+    "title": "Pauling电价规则"
+   },
+   {
+    "line": 1927,
+    "title": "Pauling 规则最该会的用法"
+   },
+   {
+    "line": 1949,
+    "title": "定量理解（以八面体为例）"
+   },
+   {
+    "line": 1966,
+    "title": "第五规则（规则性/简约性）"
+   },
+   {
+    "line": 2017,
+    "title": "规律"
+   },
+   {
+    "line": 2082,
+    "title": "分子晶体的堆积特点"
+   },
+   {
+    "line": 2102,
+    "title": "干冰的易错点"
+   },
+   {
+    "line": 2132,
+    "title": "C₆₀ 的考点"
+   },
+   {
+    "line": 2153,
+    "title": "图示理解"
+   },
+   {
+    "line": 2177,
+    "title": "教材对应"
+   },
+   {
+    "line": 2178,
+    "title": "考纲对应"
+   },
+   {
+    "line": 2189,
+    "title": "读题顺口溜"
+   },
+   {
+    "line": 2208,
+    "title": "读图提示"
+   },
+   {
+    "line": 2224,
+    "title": "原理"
+   },
+   {
+    "line": 2230,
+    "title": "读图提示"
+   },
+   {
+    "line": 2237,
+    "title": "AgBr感光原理"
+   },
+   {
+    "line": 2258,
+    "title": "读图提示"
+   },
+   {
+    "line": 2314,
+    "title": "使用口径"
+   }
+  ],
+  "callout": [
+   {
+    "line": 154,
+    "type": "warning"
+   },
+   {
+    "line": 195,
+    "type": "example"
+   },
+   {
+    "line": 242,
+    "type": "warning"
+   },
+   {
+    "line": 278,
+    "type": "tip"
+   },
+   {
+    "line": 371,
+    "type": "warning"
+   },
+   {
+    "line": 419,
+    "type": "warning"
+   },
+   {
+    "line": 660,
+    "type": "warning"
+   },
+   {
+    "line": 877,
+    "type": "warning"
+   },
+   {
+    "line": 1502,
+    "type": "example"
+   },
+   {
+    "line": 1628,
+    "type": "tip"
+   },
+   {
+    "line": 1636,
+    "type": "example"
+   },
+   {
+    "line": 1868,
+    "type": "example"
+   },
+   {
+    "line": 1937,
+    "type": "example"
+   },
+   {
+    "line": 2051,
+    "type": "example"
+   }
+  ],
+  "warning_prefix": [
+   {
+    "line": 1954,
+    "text": "| **共棱** | 两个八面体共享 1 条棱（2 个顶点） | $d$ | 中等 | ⚠ 中等 |"
+   }
+  ],
+  "fragments": [
+   {
+    "line": 61,
+    "text": "**深度分层说明**",
+    "len": 6
+   },
+   {
+    "line": 68,
+    "text": "**轮次划分表**",
+    "len": 5
+   },
+   {
+    "line": 426,
+    "text": "**第一步：先做坐标差**",
+    "len": 9
+   },
+   {
+    "line": 438,
+    "text": "**第二步：按晶系写距离公式**",
+    "len": 12
+   },
+   {
+    "line": 478,
+    "text": "**第三步：由距离回到化学环境**",
+    "len": 13
+   },
+   {
+    "line": 519,
+    "text": "因此像 XeFₓ 这类题里，若某组 F 写成",
+    "len": 18
+   },
+   {
+    "line": 527,
+    "text": "**Step 3：最后一定回到“计数 + 环境 + 化学式”**",
+    "len": 23
+   },
+   {
+    "line": 641,
+    "text": "**微型例子 1：面心立方金属 Cu 的密度**",
+    "len": 17
+   },
+   {
+    "line": 650,
+    "text": "**微型例子 2：由密度反推摩尔质量**",
+    "len": 15
+   },
+   {
+    "line": 813,
+    "text": "**应用 3：从衍射峰序列判断晶体结构类型**",
+    "len": 18
+   },
+   {
+    "line": 1098,
+    "text": "6-1 写出该晶体的化学式。",
+    "len": 13
+   },
+   {
+    "line": 1102,
+    "text": "6-3 写出所有 B 原子的坐标参数。",
+    "len": 16
+   },
+   {
+    "line": 1122,
+    "text": "给出 A、B 和 C 中氯原子和钠原子的配位数。",
+    "len": 20
+   },
+   {
+    "line": 1136,
+    "text": "5-1 写出晶胞中锆原子和钨原子的数目。",
+    "len": 19
+   },
+   {
+    "line": 1138,
+    "text": "5-2 写出这种复合氧化物的化学式。",
+    "len": 17
+   },
+   {
+    "line": 1218,
+    "text": "**20.**",
+    "len": 3
+   },
+   {
+    "line": 1226,
+    "text": "**21.**",
+    "len": 3
+   },
+   {
+    "line": 1244,
+    "text": "**22.**",
+    "len": 3
+   },
+   {
+    "line": 1252,
+    "text": "**23.**",
+    "len": 3
+   },
+   {
+    "line": 1254,
+    "text": "5-1 晶胞中含 **4 个 Zr 原子**、**8 个 W 原子**",
+    "len": 19
+   },
+   {
+    "line": 1269,
+    "text": "**24.**",
+    "len": 3
+   },
+   {
+    "line": 1320,
+    "text": "晶格能越大 → 离子晶体越稳定 → 熔点越高、硬度越大。",
+    "len": 24
+   },
+   {
+    "line": 2360,
+    "text": "**1. 结构基元识别**",
+    "len": 8
+   },
+   {
+    "line": 2370,
+    "text": "**2. hcp理想c/a推导**",
+    "len": 12
+   },
+   {
+    "line": 2377,
+    "text": "**3. 离子晶体结构表**",
+    "len": 9
+   },
+   {
+    "line": 2386,
+    "text": "**4. 半径比规则应用**",
+    "len": 9
+   },
+   {
+    "line": 2390,
+    "text": "**5. Pauling电价规则检验**",
+    "len": 15
+   },
+   {
+    "line": 2397,
+    "text": "**6. BeO结构解释**",
+    "len": 9
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [],
+  "quickref_names": [
+   {
+    "line": 993,
+    "heading": "九、本节总结 · 速查",
+    "matched": "变体:本节总结"
+   }
+  ],
+  "dup_pairs": [
+   {
+    "line_a": 61,
+    "line_b": 61,
+    "sim": 1.0,
+    "text_a": "七大晶系与14种Bravais格子；",
+    "text_b": "七大晶系与14种Bravais格子；"
+   },
+   {
+    "line_a": 61,
+    "line_b": 102,
+    "sim": 1.0,
+    "text_a": "七大晶系与14种Bravais格子；",
+    "text_b": "七大晶系与14种Bravais格子；"
+   },
+   {
+    "line_a": 61,
+    "line_b": 102,
+    "sim": 1.0,
+    "text_a": "七大晶系与14种Bravais格子；",
+    "text_b": "七大晶系与14种Bravais格子；"
+   },
+   {
+    "line_a": 61,
+    "line_b": 61,
+    "sim": 1.0,
+    "text_a": "Born-Haber循环与晶格能（定性）；",
+    "text_b": "Born-Haber循环与晶格能（定性）；"
+   },
+   {
+    "line_a": 2064,
+    "line_b": 2113,
+    "sim": 0.86,
+    "text_a": "[[e844e8a4c2292791eb78b9ed6387ce93c0f797acfa89966ce62bd2adad8d7ad1.jpg|原子晶体·金刚石]",
+    "text_b": "[[e844e8a4c2292791eb78b9ed6387ce93c0f797acfa89966ce62bd2adad8d7ad1.jpg|372]]　!"
+   },
+   {
+    "line_a": 550,
+    "line_b": 2113,
+    "sim": 0.8,
+    "text_a": "[[e844e8a4c2292791eb78b9ed6387ce93c0f797acfa89966ce62bd2adad8d7ad1.jpg|金刚石晶胞原子计数",
+    "text_b": "[[e844e8a4c2292791eb78b9ed6387ce93c0f797acfa89966ce62bd2adad8d7ad1.jpg|372]]　!"
+   },
+   {
+    "line_a": 550,
+    "line_b": 2064,
+    "sim": 0.76,
+    "text_a": "[[e844e8a4c2292791eb78b9ed6387ce93c0f797acfa89966ce62bd2adad8d7ad1.jpg|金刚石晶胞原子计数",
+    "text_b": "[[e844e8a4c2292791eb78b9ed6387ce93c0f797acfa89966ce62bd2adad8d7ad1.jpg|原子晶体·金刚石]"
+   },
+   {
+    "line_a": 61,
+    "line_b": 61,
+    "sim": 0.73,
+    "text_a": "等径圆球堆积（hcp/ccp/bcc）与空隙；",
+    "text_b": "等径圆球堆积（hcp/ccp/bcc）；"
+   },
+   {
+    "line_a": 1934,
+    "line_b": 2331,
+    "sim": 0.65,
+    "text_a": "example] 练一练> 采用 Pauling 电价规则检验 MgO（NaCl 型）的结构合理性。",
+    "text_b": "**11.** 采用 Pauling 电价规则检验 MgO（NaCl 型）的结构合理性。"
+   },
+   {
+    "line_a": 867,
+    "line_b": 1679,
+    "sim": 0.6,
+    "text_a": "[[f35f43fae734e51d24d5ed3c1037a8f3339883efa0832f621a694c3e15048254.jpg|CsCl 型晶体结",
+    "text_b": "[[f35f43fae734e51d24d5ed3c1037a8f3339883efa0832f621a694c3e15048254.jpg]]*图 45 37"
+   },
+   {
+    "line_a": 1414,
+    "line_b": 1441,
+    "sim": 0.6,
+    "text_a": "[[3301def7083d16028b07aaddfeb97422feaf118e872a0b9853b55801d35c78e3.jpg|116]]*图 3",
+    "text_b": "[[3301def7083d16028b07aaddfeb97422feaf118e872a0b9853b55801d35c78e3.jpg]]*图 36 29"
+   },
+   {
+    "line_a": 374,
+    "line_b": 1414,
+    "sim": 0.59,
+    "text_a": "[[bb6538c2cb73d8fefe6d34dee5fd5536834fe7de2badab04d0f15ba6429dc1ac.jpg|简单立方堆积|17",
+    "text_b": "[[bb6538c2cb73d8fefe6d34dee5fd5536834fe7de2badab04d0f15ba6429dc1ac.jpg]]*图 30 23"
+   },
+   {
+    "line_a": 867,
+    "line_b": 1679,
+    "sim": 0.59,
+    "text_a": "[[fcc146b17d889721a979db46aba57dff23922e194a2b1eca56736960fa0a3b4b.jpg|NaCl 型晶体结",
+    "text_b": "[[fcc146b17d889721a979db46aba57dff23922e194a2b1eca56736960fa0a3b4b.jpg]]*图 44 36"
+   },
+   {
+    "line_a": 1752,
+    "line_b": 2064,
+    "sim": 0.43,
+    "text_a": "[[4c9fea019934e092e2e783cdf02750ad3e9ab2a3a541fce6ff844b105251e435.jpg|337]]*图 4",
+    "text_b": "[[4c9fea019934e092e2e783cdf02750ad3e9ab2a3a541fce6ff844b105251e435.jpg|离子晶体·NaCl"
+   }
+  ],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 0.57,
+  "callout_limit": 12
+ }
+]

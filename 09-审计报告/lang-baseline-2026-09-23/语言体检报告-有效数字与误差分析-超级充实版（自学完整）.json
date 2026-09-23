@@ -1,0 +1,326 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\4-分析化学\\有效数字与误差分析-超级充实版（自学完整）.md",
+  "total_lines": 735,
+  "pseudo_callout": [
+   {
+    "line": 69,
+    "title": "对应专题"
+   },
+   {
+    "line": 70,
+    "title": "对应备课大纲"
+   },
+   {
+    "line": 71,
+    "title": "前置要求"
+   },
+   {
+    "line": 72,
+    "title": "深度边界"
+   },
+   {
+    "line": 73,
+    "title": "考纲覆盖"
+   },
+   {
+    "line": 92,
+    "title": "课堂建议顺序"
+   },
+   {
+    "line": 110,
+    "title": "轮次导航"
+   },
+   {
+    "line": 133,
+    "title": "关联知识点"
+   },
+   {
+    "line": 134,
+    "title": "考纲对应"
+   },
+   {
+    "line": 174,
+    "title": "答案"
+   },
+   {
+    "line": 191,
+    "title": "答案"
+   },
+   {
+    "line": 205,
+    "title": "只能一次修约到位"
+   },
+   {
+    "line": 220,
+    "title": "核心口诀"
+   },
+   {
+    "line": 225,
+    "title": "答案"
+   },
+   {
+    "line": 234,
+    "title": "关联知识点"
+   },
+   {
+    "line": 235,
+    "title": "考纲对应"
+   },
+   {
+    "line": 255,
+    "title": "核心口诀"
+   },
+   {
+    "line": 273,
+    "title": "答案"
+   },
+   {
+    "line": 291,
+    "title": "核心关系"
+   },
+   {
+    "line": 315,
+    "title": "关联知识点"
+   },
+   {
+    "line": 316,
+    "title": "考纲对应"
+   },
+   {
+    "line": 347,
+    "title": "答案"
+   },
+   {
+    "line": 353,
+    "title": "关联知识点"
+   },
+   {
+    "line": 354,
+    "title": "考纲对应"
+   },
+   {
+    "line": 383,
+    "title": "答案"
+   },
+   {
+    "line": 392,
+    "title": "关联知识点"
+   },
+   {
+    "line": 393,
+    "title": "考纲对应"
+   },
+   {
+    "line": 463,
+    "title": "考纲对应"
+   },
+   {
+    "line": 486,
+    "title": "答案"
+   },
+   {
+    "line": 507,
+    "title": "核心辨析"
+   },
+   {
+    "line": 551,
+    "title": "核心辨析"
+   },
+   {
+    "line": 575,
+    "title": "系统训练"
+   },
+   {
+    "line": 577,
+    "title": "选题口径"
+   },
+   {
+    "line": 687,
+    "title": "下节接口"
+   }
+  ],
+  "callout": [
+   {
+    "line": 140,
+    "type": "info"
+   },
+   {
+    "line": 151,
+    "type": "tip"
+   },
+   {
+    "line": 170,
+    "type": "example"
+   },
+   {
+    "line": 176,
+    "type": "warning"
+   },
+   {
+    "line": 188,
+    "type": "example"
+   },
+   {
+    "line": 207,
+    "type": "tip"
+   },
+   {
+    "line": 222,
+    "type": "example"
+   },
+   {
+    "line": 227,
+    "type": "warning"
+   },
+   {
+    "line": 257,
+    "type": "tip"
+   },
+   {
+    "line": 269,
+    "type": "example"
+   },
+   {
+    "line": 305,
+    "type": "info"
+   },
+   {
+    "line": 308,
+    "type": "tip"
+   },
+   {
+    "line": 328,
+    "type": "info"
+   },
+   {
+    "line": 341,
+    "type": "warning"
+   },
+   {
+    "line": 344,
+    "type": "example"
+   },
+   {
+    "line": 380,
+    "type": "example"
+   },
+   {
+    "line": 385,
+    "type": "warning"
+   },
+   {
+    "line": 406,
+    "type": "tip"
+   },
+   {
+    "line": 448,
+    "type": "warning"
+   },
+   {
+    "line": 483,
+    "type": "example"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 82,
+    "text": "**第二轮课堂主线导航**",
+    "len": 9
+   },
+   {
+    "line": 94,
+    "text": "**深度分层说明**",
+    "len": 6
+   },
+   {
+    "line": 102,
+    "text": "**轮次划分表**",
+    "len": 5
+   },
+   {
+    "line": 494,
+    "text": "下列数据中具有三位有效数字的是（多选）",
+    "len": 19
+   },
+   {
+    "line": 505,
+    "text": "**答案**：B、C",
+    "len": 6
+   },
+   {
+    "line": 537,
+    "text": "**答案**：应舍弃",
+    "len": 6
+   },
+   {
+    "line": 583,
+    "text": "**子话题A：有效数字判断**",
+    "len": 11
+   },
+   {
+    "line": 589,
+    "text": "**子话题B：修约规则**",
+    "len": 9
+   },
+   {
+    "line": 595,
+    "text": "**子话题C：运算规则**",
+    "len": 9
+   },
+   {
+    "line": 607,
+    "text": "**子话题D：天平与滴定误差**",
+    "len": 12
+   },
+   {
+    "line": 613,
+    "text": "**子话题E：误差传递**",
+    "len": 9
+   },
+   {
+    "line": 617,
+    "text": "**子话题F：Q 检验与异常值**",
+    "len": 12
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [],
+  "quickref_names": [
+   {
+    "line": 555,
+    "heading": "八、本讲速查",
+    "matched": "本讲速查"
+   },
+   {
+    "line": 677,
+    "heading": "十一、本讲小结",
+    "matched": "本讲小结"
+   }
+  ],
+  "dup_pairs": [
+   {
+    "line_a": 524,
+    "line_b": 617,
+    "sim": 1.0,
+    "text_a": "用 Q 检验判断 62.53 是否应舍弃（置信度 90%）？",
+    "text_b": "用 Q 检验判断 62.53 是否应舍弃（置信度 90%）。"
+   },
+   {
+    "line_a": 380,
+    "line_b": 621,
+    "sim": 0.37,
+    "text_a": "example] 练一练> 5 次测定某溶液浓度（mol/L）为 0.1021、0.1020、0.1022、0.1019、0.1063。",
+    "text_b": "**12.** [分析化学第六版·改编] 4 次平行测定某溶液浓度（mol/L）为 0.1021、0.1020、0.1022、0.1019，用 Q 检验判断有无"
+   }
+  ],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 2.72,
+  "callout_limit": 8
+ }
+]

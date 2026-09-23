@@ -1,0 +1,146 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\6-有机化学\\有机立体化学.md",
+  "total_lines": 716,
+  "pseudo_callout": [
+   {
+    "line": 38,
+    "title": "前置要求"
+   },
+   {
+    "line": 41,
+    "title": "核心专题页"
+   },
+   {
+    "line": 92,
+    "title": "考场策略"
+   },
+   {
+    "line": 132,
+    "title": "纠正"
+   },
+   {
+    "line": 157,
+    "title": "考场策略"
+   },
+   {
+    "line": 174,
+    "title": "纠正"
+   },
+   {
+    "line": 198,
+    "title": "考场策略"
+   },
+   {
+    "line": 235,
+    "title": "考场策略"
+   },
+   {
+    "line": 294,
+    "title": "纠正"
+   },
+   {
+    "line": 339,
+    "title": "Sharpless AE 的标准画法"
+   },
+   {
+    "line": 349,
+    "title": "纠正"
+   },
+   {
+    "line": 383,
+    "title": "考场策略"
+   }
+  ],
+  "callout": [
+   {
+    "line": 129,
+    "type": "warning"
+   },
+   {
+    "line": 171,
+    "type": "warning"
+   },
+   {
+    "line": 291,
+    "type": "warning"
+   },
+   {
+    "line": 346,
+    "type": "warning"
+   },
+   {
+    "line": 570,
+    "type": "warning"
+   },
+   {
+    "line": 573,
+    "type": "warning"
+   },
+   {
+    "line": 576,
+    "type": "warning"
+   },
+   {
+    "line": 579,
+    "type": "warning"
+   },
+   {
+    "line": 582,
+    "type": "warning"
+   },
+   {
+    "line": 585,
+    "type": "warning"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 163,
+    "text": "ΔG‡ = RTc × [22.96 + ln(Tc/Δν)]",
+    "len": 21
+   },
+   {
+    "line": 453,
+    "text": "预测每种条件下的主产物绝对构型并解释。",
+    "len": 19
+   },
+   {
+    "line": 481,
+    "text": "**思路**：Evans 三步序列 + (Z)-烯醇 + 面选择性。",
+    "len": 23
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [],
+  "quickref_names": [
+   {
+    "line": 622,
+    "heading": "九、核心速查卡",
+    "matched": "变体:核心速查卡"
+   },
+   {
+    "line": 622,
+    "heading": "九、核心速查卡",
+    "matched": "变体:速查卡"
+   }
+  ],
+  "dup_pairs": [
+   {
+    "line_a": 274,
+    "line_b": 576,
+    "sim": 0.43,
+    "text_a": "warning] **误区3：有金属条件就自动判为 Cram 螯合**> 不一定！",
+    "text_b": "warning] **误区3：有金属条件就自动判为 Cram 螯合**> 纠正：Cram 螯合需要 α-位有配位杂原子 + 螯合金属。"
+   }
+  ],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 1.4,
+  "callout_limit": 8
+ }
+]

@@ -1,0 +1,126 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\2-结构化学\\配合物深化-超级充实版（自学完整）.md",
+  "total_lines": 691,
+  "pseudo_callout": [
+   {
+    "line": 29,
+    "title": "对应模块"
+   },
+   {
+    "line": 30,
+    "title": "对应考纲条目"
+   },
+   {
+    "line": 31,
+    "title": "前置讲义"
+   },
+   {
+    "line": 32,
+    "title": "建议使用方式"
+   },
+   {
+    "line": 33,
+    "title": "前置要求"
+   },
+   {
+    "line": 34,
+    "title": "深度边界"
+   },
+   {
+    "line": 35,
+    "title": "版本说明"
+   },
+   {
+    "line": 36,
+    "title": "记号约定"
+   },
+   {
+    "line": 195,
+    "title": "核心辨析"
+   },
+   {
+    "line": 272,
+    "title": "做题动作"
+   }
+  ],
+  "callout": [
+   {
+    "line": 121,
+    "type": "tip"
+   },
+   {
+    "line": 334,
+    "type": "tip"
+   },
+   {
+    "line": 413,
+    "type": "tip"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 108,
+    "text": "其中任意两块确定，第三块通常就能被大幅锁死。",
+    "len": 22
+   },
+   {
+    "line": 193,
+    "text": "因此“场强”的实质是**轨道相互作用方式不同**。",
+    "len": 21
+   },
+   {
+    "line": 230,
+    "text": "其中又以 **Cu²⁺** 高频得多。",
+    "len": 13
+   },
+   {
+    "line": 256,
+    "text": "于是总体能量下降。",
+    "len": 9
+   },
+   {
+    "line": 307,
+    "text": "于是强场 / 弱场不再只是背表，而是能被解释。",
+    "len": 21
+   },
+   {
+    "line": 332,
+    "text": "所以 CO / CN⁻ 常强场，并不是偶然。",
+    "len": 18
+   },
+   {
+    "line": 363,
+    "text": "因此 `决赛03` 与后续的金属有机是相互衔接的。",
+    "len": 21
+   },
+   {
+    "line": 378,
+    "text": "**取代反应更快发生在哪个位置。**",
+    "len": 14
+   },
+   {
+    "line": 380,
+    "text": "这件事是**动力学问题**，不是单纯热力学问题。",
+    "len": 20
+   },
+   {
+    "line": 475,
+    "text": "这类思路在高阶结构题和金属有机题里都很有用。",
+    "len": 22
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [],
+  "quickref_names": [],
+  "dup_pairs": [],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 0.43,
+  "callout_limit": 7
+ }
+]

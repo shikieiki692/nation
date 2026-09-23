@@ -1,0 +1,143 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\1-化学基础知识\\方程式书写专项-超级充实版（自学完整）.md",
+  "total_lines": 511,
+  "pseudo_callout": [
+   {
+    "line": 48,
+    "title": "适用"
+   },
+   {
+    "line": 49,
+    "title": "对应专题页"
+   },
+   {
+    "line": 50,
+    "title": "对应备课大纲"
+   },
+   {
+    "line": 51,
+    "title": "对应考纲"
+   },
+   {
+    "line": 52,
+    "title": "前置要求"
+   },
+   {
+    "line": 53,
+    "title": "深度边界"
+   },
+   {
+    "line": 55,
+    "title": "本讲义定位"
+   },
+   {
+    "line": 58,
+    "title": "升级说明（2026-08-08）"
+   },
+   {
+    "line": 93,
+    "title": "做题口令"
+   },
+   {
+    "line": 110,
+    "title": "优先级"
+   },
+   {
+    "line": 127,
+    "title": "示例"
+   },
+   {
+    "line": 128,
+    "title": "多原子变价务必乘原子个数"
+   },
+   {
+    "line": 138,
+    "title": "核心纪律"
+   },
+   {
+    "line": 361,
+    "title": "口径提醒"
+   }
+  ],
+  "callout": [
+   {
+    "line": 99,
+    "type": "tip"
+   },
+   {
+    "line": 144,
+    "type": "tip"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 374,
+    "text": "**题目**：配平 BrF₃ 与 H₂O 的反应。",
+    "len": 17
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [
+   {
+    "count": 2,
+    "text": "[[04-课件/学生讲义/_归档/2026-06-23-方程式书写专项]]"
+   },
+   {
+    "count": 2,
+    "text": "[[04-专题与题型/专题/专题-方程式书写专项（元素化学版）]]"
+   },
+   {
+    "count": 2,
+    "text": "[[04-课件/备课大纲/2026-06-02-方程式书写专项-基础班]]"
+   },
+   {
+    "count": 2,
+    "text": "题-030-1-离子化合物A2B化学式推断"
+   },
+   {
+    "count": 2,
+    "text": "题-038-2-1-KMnO4浓度测定计算"
+   }
+  ],
+  "quickref_names": [],
+  "dup_pairs": [
+   {
+    "line_a": 389,
+    "line_b": 467,
+    "sim": 1.0,
+    "text_a": "推断 A/B/C 并写出反应方程式。",
+    "text_b": "推断 A/B/C 并写出反应方程式。"
+   },
+   {
+    "line_a": 226,
+    "line_b": 496,
+    "sim": 0.64,
+    "text_a": "产物量比 → 3NO₂ + H₂O → 2HNO₃ + NO）。",
+    "text_b": "3NO₂ + H₂O → 2HNO₃ + NO。"
+   },
+   {
+    "line_a": 389,
+    "line_b": 467,
+    "sim": 0.63,
+    "text_a": "**解答**：$$\\mathrm{3Ag_2SO_4 + 4S + 4H_2O \\longrightarrow 3Ag_2S\\downarrow + 4H_2S",
+    "text_b": "**17.** **数据反推**：标准状况下 0.672 L 无色气体 A（对 H₂ 相对密度 23，含氧 69.6%）通入足量水中，得 1.26 g 一元酸 "
+   },
+   {
+    "line_a": 128,
+    "line_b": 322,
+    "sim": 0.43,
+    "text_a": "> **多原子变价务必乘原子个数**：Cr₂O₇²⁻ 含 2 个 Cr，整体得 **6e⁻**；",
+    "text_b": "**Cr₂O₇²⁻ 含 2 个 Cr，整体得 6e⁻。"
+   }
+  ],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 0.39,
+  "callout_limit": 6
+ }
+]

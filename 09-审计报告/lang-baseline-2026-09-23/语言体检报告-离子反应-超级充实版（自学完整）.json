@@ -1,0 +1,148 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\1-化学基础知识\\离子反应-超级充实版（自学完整）.md",
+  "total_lines": 919,
+  "pseudo_callout": [
+   {
+    "line": 519,
+    "title": "要点"
+   }
+  ],
+  "callout": [
+   {
+    "line": 94,
+    "type": "tip"
+   },
+   {
+    "line": 150,
+    "type": "warning"
+   },
+   {
+    "line": 211,
+    "type": "warning"
+   },
+   {
+    "line": 242,
+    "type": "tip"
+   },
+   {
+    "line": 315,
+    "type": "tip"
+   },
+   {
+    "line": 399,
+    "type": "warning"
+   },
+   {
+    "line": 432,
+    "type": "tip"
+   },
+   {
+    "line": 464,
+    "type": "tip"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 127,
+    "text": "各类型的水解常数如下。",
+    "len": 11
+   },
+   {
+    "line": 175,
+    "text": "方向判据是比较稳定常数。配体取代反应",
+    "len": 18
+   },
+   {
+    "line": 181,
+    "text": "的平衡常数为",
+    "len": 6
+   },
+   {
+    "line": 193,
+    "text": "标准电极电势与平衡常数的关系为",
+    "len": 15
+   },
+   {
+    "line": 209,
+    "text": "这条规律很好用，但要注意它有例外。",
+    "len": 17
+   },
+   {
+    "line": 234,
+    "text": "两步相加即为总反应，故",
+    "len": 11
+   },
+   {
+    "line": 622,
+    "text": "**5.**",
+    "len": 2
+   },
+   {
+    "line": 666,
+    "text": "**10.**",
+    "len": 3
+   },
+   {
+    "line": 784,
+    "text": "（注意还要用可逆号。）",
+    "len": 11
+   },
+   {
+    "line": 816,
+    "text": "**21.**",
+    "len": 3
+   },
+   {
+    "line": 856,
+    "text": "**24.** 反应为",
+    "len": 6
+   },
+   {
+    "line": 898,
+    "text": "**第三步：各组分回收**",
+    "len": 9
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [
+   {
+    "count": 2,
+    "text": "[[04-课件/学生讲义/1-化学基础知识/方程式书写专项-超级充实版（自学完整）]]"
+   },
+   {
+    "count": 2,
+    "text": "[[04-课件/学生讲义/3-物理化学/酸碱理论-超级充实版（自学完整）]]"
+   }
+  ],
+  "quickref_names": [
+   {
+    "line": 469,
+    "heading": "七、本节总结速查",
+    "matched": "变体:本节总结"
+   },
+   {
+    "line": 908,
+    "heading": "十一、本讲小结",
+    "matched": "本讲小结"
+   }
+  ],
+  "dup_pairs": [
+   {
+    "line_a": 412,
+    "line_b": 422,
+    "sim": 0.71,
+    "text_a": "**解答**：**(1)** 反应中 $\\mathrm{HCO_3^-}$ 给出质子（作酸），$\\mathrm{CH_3COO^-}$ 接受质子（作碱）。",
+    "text_b": "**(2)** 反应中 $\\mathrm{CH_3COOH}$ 给出质子（作酸），$\\mathrm{CO_3^{2-}}$ 接受质子（作碱）。"
+   }
+  ],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 0.87,
+  "callout_limit": 10
+ }
+]

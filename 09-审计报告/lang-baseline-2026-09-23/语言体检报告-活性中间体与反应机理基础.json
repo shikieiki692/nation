@@ -1,0 +1,252 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\6-有机化学\\活性中间体与反应机理基础.md",
+  "total_lines": 820,
+  "pseudo_callout": [
+   {
+    "line": 58,
+    "title": "适用"
+   },
+   {
+    "line": 59,
+    "title": "对应备课大纲"
+   },
+   {
+    "line": 64,
+    "title": "核心专题页"
+   },
+   {
+    "line": 65,
+    "title": "相关KP"
+   },
+   {
+    "line": 100,
+    "title": "核心精神"
+   },
+   {
+    "line": 113,
+    "title": "口诀"
+   },
+   {
+    "line": 164,
+    "title": "关键洞察"
+   },
+   {
+    "line": 245,
+    "title": "与碳正离子的关键区别"
+   },
+   {
+    "line": 295,
+    "title": "口诀"
+   },
+   {
+    "line": 315,
+    "title": "考纲延伸（点到为止）"
+   },
+   {
+    "line": 353,
+    "title": "竞赛提示"
+   },
+   {
+    "line": 385,
+    "title": "实战运用"
+   },
+   {
+    "line": 398,
+    "title": "判断口诀"
+   },
+   {
+    "line": 425,
+    "title": "竞赛定位"
+   },
+   {
+    "line": 455,
+    "title": "校勘注（2026-09-19）"
+   },
+   {
+    "line": 512,
+    "title": "关键对比"
+   },
+   {
+    "line": 605,
+    "title": "为何不能用 2-戊烯得 1-溴戊烷"
+   },
+   {
+    "line": 626,
+    "title": "纠正"
+   },
+   {
+    "line": 630,
+    "title": "纠正"
+   },
+   {
+    "line": 634,
+    "title": "纠正"
+   },
+   {
+    "line": 638,
+    "title": "纠正"
+   },
+   {
+    "line": 642,
+    "title": "纠正"
+   },
+   {
+    "line": 646,
+    "title": "纠正"
+   },
+   {
+    "line": 650,
+    "title": "纠正"
+   }
+  ],
+  "callout": [
+   {
+    "line": 57,
+    "type": "tip"
+   },
+   {
+    "line": 112,
+    "type": "tip"
+   },
+   {
+    "line": 146,
+    "type": "note"
+   },
+   {
+    "line": 175,
+    "type": "note"
+   },
+   {
+    "line": 191,
+    "type": "warning"
+   },
+   {
+    "line": 259,
+    "type": "note"
+   },
+   {
+    "line": 294,
+    "type": "tip"
+   },
+   {
+    "line": 340,
+    "type": "note"
+   },
+   {
+    "line": 624,
+    "type": "warning"
+   },
+   {
+    "line": 628,
+    "type": "warning"
+   },
+   {
+    "line": 632,
+    "type": "warning"
+   },
+   {
+    "line": 636,
+    "type": "warning"
+   },
+   {
+    "line": 640,
+    "type": "warning"
+   },
+   {
+    "line": 644,
+    "type": "warning"
+   },
+   {
+    "line": 648,
+    "type": "warning"
+   }
+  ],
+  "warning_prefix": [
+   {
+    "line": 781,
+    "text": "⚠ 提醒：CH₃ 的给电子与位阻效应都偏弱，实际两者比例接近，文献多按\"两种异构体的混合物\"处理；竞赛答题**必须把两种"
+   }
+  ],
+  "fragments": [
+   {
+    "line": 41,
+    "text": "**深度分层说明**",
+    "len": 6
+   },
+   {
+    "line": 49,
+    "text": "**轮次划分表**",
+    "len": 5
+   },
+   {
+    "line": 328,
+    "text": "Ar-Br + NaNH₂ → 苯炔 + NaBr + NH₃",
+    "len": 23
+   },
+   {
+    "line": 478,
+    "text": "**答案**：**(D) 硝基甲烷 酸性最强**，生成最稳定的碳负离子。",
+    "len": 24
+   },
+   {
+    "line": 488,
+    "text": "**思路**：ROOR 存在 = 自由基机理 → 反马氏加成。",
+    "len": 22
+   },
+   {
+    "line": 492,
+    "text": "**产物**：1-溴丙烷（反马氏）",
+    "len": 13
+   },
+   {
+    "line": 546,
+    "text": "分别写出产物和反应机理。",
+    "len": 12
+   },
+   {
+    "line": 618,
+    "text": "C→D：SN2（1° 底物 + 强亲核）→ 无中间体",
+    "len": 22
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [
+   {
+    "count": 2,
+    "text": "条件 → 中间体 → 命运 → 产物"
+   }
+  ],
+  "quickref_names": [
+   {
+    "line": 691,
+    "heading": "八、核心速查卡",
+    "matched": "变体:核心速查卡"
+   },
+   {
+    "line": 691,
+    "heading": "八、核心速查卡",
+    "matched": "变体:速查卡"
+   },
+   {
+    "line": 712,
+    "heading": "8.3 机理推导策略速查卡",
+    "matched": "变体:速查卡"
+   }
+  ],
+  "dup_pairs": [],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [
+   {
+    "line": 149,
+    "match": "0-25 kJ",
+    "text": "*图 烷基碳正离子的稳定性序列。从甲基碳正离子（最不稳定）到叔丁基碳正离子（最稳定），超共轭效应（C-H σ→p 空轨道"
+   }
+  ],
+  "callout_density_per_100": 1.83,
+  "callout_limit": 9
+ }
+]

@@ -1,0 +1,128 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\_数学工具\\数学工具-第5讲-偏导与全微分.md",
+  "total_lines": 635,
+  "pseudo_callout": [
+   {
+    "line": 635,
+    "title": "下一讲"
+   }
+  ],
+  "callout": [
+   {
+    "line": 90,
+    "type": "tip"
+   },
+   {
+    "line": 123,
+    "type": "warning"
+   },
+   {
+    "line": 216,
+    "type": "tip"
+   },
+   {
+    "line": 247,
+    "type": "note"
+   },
+   {
+    "line": 329,
+    "type": "abstract"
+   },
+   {
+    "line": 394,
+    "type": "warning"
+   },
+   {
+    "line": 432,
+    "type": "tip"
+   },
+   {
+    "line": 464,
+    "type": "tip"
+   },
+   {
+    "line": 500,
+    "type": "note"
+   },
+   {
+    "line": 630,
+    "type": "abstract"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 81,
+    "text": "这就是偏导存在的全部理由。",
+    "len": 13
+   },
+   {
+    "line": 188,
+    "text": "（为简洁省略下标，默认「其余变量固定」。）",
+    "len": 21
+   },
+   {
+    "line": 194,
+    "text": "**关联讲义**：化学热力学（第二轮）",
+    "len": 15
+   },
+   {
+    "line": 260,
+    "text": "**先对谁求导，结果一样。**",
+    "len": 11
+   },
+   {
+    "line": 264,
+    "text": "**例 4-1 验证**：`f(x,y) = x²y³`。",
+    "len": 17
+   },
+   {
+    "line": 269,
+    "text": "相等 ✓",
+    "len": 3
+   },
+   {
+    "line": 279,
+    "text": "给了你一个微分式，比如",
+    "len": 11
+   },
+   {
+    "line": 285,
+    "text": "**是否真的存在一个函数 `f` 使得这个式子成立？**",
+    "len": 20
+   },
+   {
+    "line": 325,
+    "text": "两者**不等** ⇒ `δW` **不恰当** ⇒ 功不是状态函数 ✓",
+    "len": 19
+   },
+   {
+    "line": 337,
+    "text": "**关联讲义**：统计热力学与 Maxwell 关系（决赛）",
+    "len": 24
+   },
+   {
+    "line": 402,
+    "text": "**关联讲义**：有效数字与误差分析（第二轮）",
+    "len": 19
+   },
+   {
+    "line": 472,
+    "text": "**关联讲义**：化学热力学（第二轮）",
+    "len": 15
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [],
+  "quickref_names": [],
+  "dup_pairs": [],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 1.57,
+  "callout_limit": 7
+ }
+]

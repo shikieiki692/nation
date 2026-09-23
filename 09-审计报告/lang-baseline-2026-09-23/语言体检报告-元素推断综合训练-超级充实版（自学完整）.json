@@ -1,0 +1,217 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\5-无机化学\\元素推断综合训练-超级充实版（自学完整）.md",
+  "total_lines": 634,
+  "pseudo_callout": [
+   {
+    "line": 44,
+    "title": "对应专题"
+   },
+   {
+    "line": 45,
+    "title": "对应备课大纲"
+   },
+   {
+    "line": 46,
+    "title": "本讲定位"
+   },
+   {
+    "line": 47,
+    "title": "上节衔接"
+   },
+   {
+    "line": 48,
+    "title": "下节衔接"
+   },
+   {
+    "line": 49,
+    "title": "前置要求"
+   },
+   {
+    "line": 50,
+    "title": "深度边界"
+   },
+   {
+    "line": 51,
+    "title": "建议使用方式"
+   },
+   {
+    "line": 109,
+    "title": "关联知识点"
+   },
+   {
+    "line": 110,
+    "title": "主线"
+   },
+   {
+    "line": 133,
+    "title": "认知冲突 1（假熟悉陷阱）"
+   },
+   {
+    "line": 136,
+    "title": "认知冲突 2（推断=排除题）"
+   },
+   {
+    "line": 146,
+    "title": "关联知识点"
+   },
+   {
+    "line": 147,
+    "title": "主线"
+   },
+   {
+    "line": 163,
+    "title": "颜色进阶两问"
+   },
+   {
+    "line": 174,
+    "title": "认知冲突 3（单一颜色不能定案）"
+   },
+   {
+    "line": 199,
+    "title": "关联知识点"
+   },
+   {
+    "line": 200,
+    "title": "主线"
+   },
+   {
+    "line": 233,
+    "title": "气体两大约分"
+   },
+   {
+    "line": 245,
+    "title": "关联知识点"
+   },
+   {
+    "line": 246,
+    "title": "主线"
+   },
+   {
+    "line": 293,
+    "title": "关联知识点"
+   },
+   {
+    "line": 294,
+    "title": "主线"
+   },
+   {
+    "line": 316,
+    "title": "认知冲突 4（d⁰/d¹⁰ 无色陷阱）"
+   },
+   {
+    "line": 353,
+    "title": "关联知识点"
+   },
+   {
+    "line": 354,
+    "title": "主线"
+   },
+   {
+    "line": 366,
+    "title": "回查规则"
+   },
+   {
+    "line": 385,
+    "title": "本质"
+   },
+   {
+    "line": 427,
+    "title": "关联知识点"
+   },
+   {
+    "line": 428,
+    "title": "主线"
+   },
+   {
+    "line": 461,
+    "title": "心态提示（39 届 Q1）"
+   },
+   {
+    "line": 476,
+    "title": "核心提醒"
+   },
+   {
+    "line": 570,
+    "title": "使用建议"
+   }
+  ],
+  "callout": [
+   {
+    "line": 69,
+    "type": "tip"
+   }
+  ],
+  "warning_prefix": [
+   {
+    "line": 155,
+    "text": "| 绿色 | Cr³⁺、Ni²⁺、Fe²⁺（浅绿）、MnO₄²⁻（绿） | ⚠ 弱指向 | 加 NaOH：Cr³⁺→灰绿"
+   },
+   {
+    "line": 156,
+    "text": "| 黄色 | Fe³⁺（水解黄棕）、CrO₄²⁻、VO₂⁺、Br₂ 水（橙黄） | ⚠ 需区分 | 加 SCN⁻→血红（"
+   },
+   {
+    "line": 158,
+    "text": "| 粉红 | Co²⁺、Mn²⁺（极淡） | ⚠ 需区分 | 加 NH₃：Co²⁺→土黄→空气中变红 |"
+   },
+   {
+    "line": 160,
+    "text": "| 黑色固体 | Fe₃O₄、FeO、CuO、MnO₂、PbS、CuS、Ag₂S | ⚠ 需区分 | 结合其他线索（与酸"
+   },
+   {
+    "line": 161,
+    "text": "| 白色固体/沉淀 | Zn²⁺/Al³⁺/Mg²⁺/Ca²⁺/Ba²⁺ 盐、TiO₂、SiO₂、AgCl、BaSO₄ "
+   }
+  ],
+  "fragments": [
+   {
+    "line": 53,
+    "text": "**深度分层说明**",
+    "len": 6
+   },
+   {
+    "line": 61,
+    "text": "**轮次划分表**",
+    "len": 5
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [
+   {
+    "count": 2,
+    "text": "[[12-教学洞察/教学洞察-元素推断综合训练]]"
+   }
+  ],
+  "quickref_names": [
+   {
+    "line": 480,
+    "heading": "八、本讲速查（一页）",
+    "matched": "本讲速查"
+   }
+  ],
+  "dup_pairs": [
+   {
+    "line_a": 613,
+    "line_b": 622,
+    "sim": 1.0,
+    "text_a": "Fe³⁺ + SCN⁻ → [Fe(SCN)]²⁺(血红)。",
+    "text_b": "Fe³⁺ + SCN⁻ → [Fe(SCN)]²⁺(血红)。"
+   },
+   {
+    "line_a": 165,
+    "line_b": 601,
+    "sim": 0.36,
+    "text_a": "区分靠沉淀行为——加 NaOH：> - Cr³⁺ → 灰绿沉淀，**溶于过量 NaOH**（两性）；",
+    "text_b": "区分：加 NaOH——Cr³⁺→灰绿沉淀溶于过量碱；"
+   }
+  ],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 0.16,
+  "callout_limit": 7
+ }
+]

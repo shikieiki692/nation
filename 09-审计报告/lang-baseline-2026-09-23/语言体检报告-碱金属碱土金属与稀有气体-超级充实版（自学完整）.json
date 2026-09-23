@@ -1,0 +1,292 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\5-无机化学\\碱金属碱土金属与稀有气体-超级充实版（自学完整）.md",
+  "total_lines": 746,
+  "pseudo_callout": [
+   {
+    "line": 46,
+    "title": "对应专题"
+   },
+   {
+    "line": 47,
+    "title": "对应备课大纲"
+   },
+   {
+    "line": 48,
+    "title": "本讲定位"
+   },
+   {
+    "line": 49,
+    "title": "上节衔接"
+   },
+   {
+    "line": 50,
+    "title": "下节衔接"
+   },
+   {
+    "line": 51,
+    "title": "前置要求"
+   },
+   {
+    "line": 52,
+    "title": "深度边界"
+   },
+   {
+    "line": 53,
+    "title": "建议使用方式"
+   },
+   {
+    "line": 111,
+    "title": "关联知识点"
+   },
+   {
+    "line": 112,
+    "title": "主线"
+   },
+   {
+    "line": 127,
+    "title": "口诀"
+   },
+   {
+    "line": 144,
+    "title": "口诀"
+   },
+   {
+    "line": 159,
+    "title": "口诀"
+   },
+   {
+    "line": 161,
+    "title": "磁性速判"
+   },
+   {
+    "line": 178,
+    "title": "释氧效率"
+   },
+   {
+    "line": 209,
+    "title": "打破中学定式"
+   },
+   {
+    "line": 217,
+    "title": "口径注"
+   },
+   {
+    "line": 219,
+    "title": "离子势判碱性（工具）"
+   },
+   {
+    "line": 225,
+    "title": "关联知识点"
+   },
+   {
+    "line": 226,
+    "title": "主线"
+   },
+   {
+    "line": 240,
+    "title": "类比"
+   },
+   {
+    "line": 253,
+    "title": "口诀"
+   },
+   {
+    "line": 277,
+    "title": "Ca 密度反常"
+   },
+   {
+    "line": 286,
+    "title": "关联知识点"
+   },
+   {
+    "line": 287,
+    "title": "收束"
+   },
+   {
+    "line": 299,
+    "title": "类比"
+   },
+   {
+    "line": 330,
+    "title": "口诀"
+   },
+   {
+    "line": 336,
+    "title": "关联知识点"
+   },
+   {
+    "line": 337,
+    "title": "主线"
+   },
+   {
+    "line": 358,
+    "title": "口诀"
+   },
+   {
+    "line": 415,
+    "title": "关联知识点"
+   },
+   {
+    "line": 440,
+    "title": "关联专题"
+   },
+   {
+    "line": 453,
+    "title": "本质"
+   },
+   {
+    "line": 476,
+    "title": "判题顺序"
+   },
+   {
+    "line": 552,
+    "title": "口诀"
+   }
+  ],
+  "callout": [
+   {
+    "line": 71,
+    "type": "tip"
+   },
+   {
+    "line": 126,
+    "type": "tip"
+   },
+   {
+    "line": 131,
+    "type": "warning"
+   },
+   {
+    "line": 182,
+    "type": "warning"
+   },
+   {
+    "line": 244,
+    "type": "warning"
+   },
+   {
+    "line": 274,
+    "type": "warning"
+   },
+   {
+    "line": 321,
+    "type": "tip"
+   },
+   {
+    "line": 360,
+    "type": "note"
+   },
+   {
+    "line": 364,
+    "type": "note"
+   },
+   {
+    "line": 368,
+    "type": "note"
+   },
+   {
+    "line": 381,
+    "type": "note"
+   },
+   {
+    "line": 385,
+    "type": "note"
+   },
+   {
+    "line": 390,
+    "type": "warning"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 55,
+    "text": "**深度分层说明**",
+    "len": 6
+   },
+   {
+    "line": 63,
+    "text": "**轮次划分表**",
+    "len": 5
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [
+   {
+    "count": 2,
+    "text": "[[12-教学洞察/教学洞察-碱金属碱土金属与稀有气体]]"
+   }
+  ],
+  "quickref_names": [
+   {
+    "line": 583,
+    "heading": "八、本讲速查",
+    "matched": "本讲速查"
+   },
+   {
+    "line": 619,
+    "heading": "九、本讲小结",
+    "matched": "本讲小结"
+   }
+  ],
+  "dup_pairs": [
+   {
+    "line_a": 711,
+    "line_b": 729,
+    "sim": 0.75,
+    "text_a": "与 CO₂：2Na₂O₂ + 2CO₂ → 2Na₂CO₃ + O₂；",
+    "text_b": "2Na₂O₂ + 2CO₂ → 2Na₂CO₃ + O₂。"
+   },
+   {
+    "line_a": 703,
+    "line_b": 735,
+    "sim": 0.69,
+    "text_a": "> 完整题面见 [[题-38决理-1-铍类化合物的结构和性质]]。",
+    "text_b": "详见 [[题-38决理-1-铍类化合物的结构和性质]]。"
+   },
+   {
+    "line_a": 697,
+    "line_b": 731,
+    "sim": 0.64,
+    "text_a": "> 完整题面见 [[题-039-5-XeFₓ晶胞组成推导]]。",
+    "text_b": "详见 [[题-039-5-XeFₓ晶胞组成推导]]。"
+   },
+   {
+    "line_a": 700,
+    "line_b": 733,
+    "sim": 0.62,
+    "text_a": "> 完整题面见 [[题-035-2-臭氧化钾热力学计算]]。",
+    "text_b": "详见 [[题-035-2-臭氧化钾热力学计算]]。"
+   },
+   {
+    "line_a": 711,
+    "line_b": 729,
+    "sim": 0.44,
+    "text_a": "**2.** 与 H₂O：Na₂O₂ + 2H₂O → H₂O₂ + 2NaOH；",
+    "text_b": "Na₂O₂ + 2H₂O → H₂O₂ + 2NaOH（H₂O₂ 分解放 O₂）；"
+   },
+   {
+    "line_a": 55,
+    "line_b": 622,
+    "sim": 0.39,
+    "text_a": "碱金属燃烧产物递变（Li₂O/Na₂O₂/KO₂）；",
+    "text_b": "2. **燃烧产物递变**：Li₂O → Na₂O₂ → KO₂，阳离子越大越能稳定大阴离子；"
+   },
+   {
+    "line_a": 554,
+    "line_b": 686,
+    "sim": 0.36,
+    "text_a": "### 例题 7（碱金属难溶盐鉴别）**题目**：含 Li⁺/Na⁺/K⁺ 的混合溶液，设计分步鉴别方案。",
+    "text_b": "**8.** 含 Li⁺/Na⁺/K⁺ 的混合溶液，设计分步鉴别方案（利用特征难溶盐）。"
+   }
+  ],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 1.74,
+  "callout_limit": 8
+ }
+]

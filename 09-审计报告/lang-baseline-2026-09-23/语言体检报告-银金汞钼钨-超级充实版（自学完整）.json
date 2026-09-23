@@ -1,0 +1,233 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\5-无机化学\\银金汞钼钨-超级充实版（自学完整）.md",
+  "total_lines": 554,
+  "pseudo_callout": [
+   {
+    "line": 52,
+    "title": "对应专题"
+   },
+   {
+    "line": 53,
+    "title": "对应备课大纲"
+   },
+   {
+    "line": 54,
+    "title": "本讲定位"
+   },
+   {
+    "line": 55,
+    "title": "上节衔接"
+   },
+   {
+    "line": 56,
+    "title": "下节衔接"
+   },
+   {
+    "line": 57,
+    "title": "前置要求"
+   },
+   {
+    "line": 58,
+    "title": "深度边界"
+   },
+   {
+    "line": 59,
+    "title": "建议使用方式"
+   },
+   {
+    "line": 118,
+    "title": "关联知识点"
+   },
+   {
+    "line": 119,
+    "title": "主线"
+   },
+   {
+    "line": 130,
+    "title": "核心"
+   },
+   {
+    "line": 142,
+    "title": "理解"
+   },
+   {
+    "line": 154,
+    "title": "核心"
+   },
+   {
+    "line": 163,
+    "title": "关联知识点"
+   },
+   {
+    "line": 164,
+    "title": "主线"
+   },
+   {
+    "line": 177,
+    "title": "突破——Born-Haber 三要素对比（方向性）"
+   },
+   {
+    "line": 180,
+    "title": "口诀"
+   },
+   {
+    "line": 196,
+    "title": "显影（影像出现）"
+   },
+   {
+    "line": 197,
+    "title": "定影（影像固定）"
+   },
+   {
+    "line": 198,
+    "title": "对比"
+   },
+   {
+    "line": 221,
+    "title": "关联知识点"
+   },
+   {
+    "line": 222,
+    "title": "主线"
+   },
+   {
+    "line": 234,
+    "title": "突破——拆成两个耦合子反应"
+   },
+   {
+    "line": 240,
+    "title": "总反应"
+   },
+   {
+    "line": 241,
+    "title": "口诀"
+   },
+   {
+    "line": 243,
+    "title": "类比迁移（氰化提金）"
+   },
+   {
+    "line": 253,
+    "title": "构型判断"
+   },
+   {
+    "line": 268,
+    "title": "关联知识点"
+   },
+   {
+    "line": 269,
+    "title": "主线"
+   },
+   {
+    "line": 275,
+    "title": "突破——相对论效应三步链"
+   },
+   {
+    "line": 280,
+    "title": "同一根因串三件事"
+   },
+   {
+    "line": 281,
+    "title": "口诀"
+   },
+   {
+    "line": 299,
+    "title": "关键辨析"
+   },
+   {
+    "line": 300,
+    "title": "口诀"
+   },
+   {
+    "line": 328,
+    "title": "关联知识点"
+   },
+   {
+    "line": 329,
+    "title": "主线"
+   },
+   {
+    "line": 335,
+    "title": "突破——两个关键因素"
+   },
+   {
+    "line": 339,
+    "title": "口诀"
+   },
+   {
+    "line": 350,
+    "title": "判断口诀"
+   },
+   {
+    "line": 351,
+    "title": "缩合规律"
+   },
+   {
+    "line": 378,
+    "title": "关联知识点"
+   },
+   {
+    "line": 379,
+    "title": "主线"
+   }
+  ],
+  "callout": [
+   {
+    "line": 77,
+    "type": "tip"
+   },
+   {
+    "line": 195,
+    "type": "note"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 61,
+    "text": "**深度分层说明**",
+    "len": 6
+   },
+   {
+    "line": 69,
+    "text": "**轮次划分表**",
+    "len": 5
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [
+   {
+    "count": 2,
+    "text": "[[03-知识点/无机和结构化学/金]]"
+   },
+   {
+    "count": 2,
+    "text": "[[12-教学洞察/教学洞察-银金汞钼钨]]"
+   }
+  ],
+  "quickref_names": [
+   {
+    "line": 433,
+    "heading": "七、本讲速查（一页）",
+    "matched": "本讲速查"
+   }
+  ],
+  "dup_pairs": [
+   {
+    "line_a": 239,
+    "line_b": 531,
+    "sim": 0.38,
+    "text_a": ">> **总反应**：Au + 4HCl + HNO₃ → HAuCl₄ + NO↑ + 2H₂O> **口诀**：金溶王水靠搭档——硝酸氧化氯配位，缺一不灵。",
+    "text_b": "**3.** Au + 4HCl + HNO₃ → HAuCl₄ + NO↑ + 2H₂O。"
+   }
+  ],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 0.36,
+  "callout_limit": 6
+ }
+]

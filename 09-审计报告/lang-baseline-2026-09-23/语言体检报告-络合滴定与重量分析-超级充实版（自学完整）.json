@@ -1,0 +1,296 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\4-分析化学\\络合滴定与重量分析-超级充实版（自学完整）.md",
+  "total_lines": 630,
+  "pseudo_callout": [
+   {
+    "line": 63,
+    "title": "对应专题"
+   },
+   {
+    "line": 64,
+    "title": "对应备课大纲"
+   },
+   {
+    "line": 65,
+    "title": "前置要求"
+   },
+   {
+    "line": 66,
+    "title": "深度边界"
+   },
+   {
+    "line": 67,
+    "title": "考纲覆盖"
+   },
+   {
+    "line": 86,
+    "title": "课堂建议顺序"
+   },
+   {
+    "line": 105,
+    "title": "轮次导航"
+   },
+   {
+    "line": 128,
+    "title": "关联知识点"
+   },
+   {
+    "line": 129,
+    "title": "考纲对应"
+   },
+   {
+    "line": 143,
+    "title": "课堂口诀"
+   },
+   {
+    "line": 153,
+    "title": "易错提醒"
+   },
+   {
+    "line": 190,
+    "title": "答案"
+   },
+   {
+    "line": 196,
+    "title": "关联知识点"
+   },
+   {
+    "line": 197,
+    "title": "考纲对应"
+   },
+   {
+    "line": 205,
+    "title": "对比记忆"
+   },
+   {
+    "line": 215,
+    "title": "口诀"
+   },
+   {
+    "line": 223,
+    "title": "易错提醒"
+   },
+   {
+    "line": 228,
+    "title": "答案"
+   },
+   {
+    "line": 234,
+    "title": "关联知识点"
+   },
+   {
+    "line": 235,
+    "title": "考纲对应"
+   },
+   {
+    "line": 261,
+    "title": "类比"
+   },
+   {
+    "line": 270,
+    "title": "关联知识点"
+   },
+   {
+    "line": 271,
+    "title": "考纲对应"
+   },
+   {
+    "line": 305,
+    "title": "安全提示"
+   },
+   {
+    "line": 310,
+    "title": "答案"
+   },
+   {
+    "line": 316,
+    "title": "关联知识点"
+   },
+   {
+    "line": 317,
+    "title": "考纲对应"
+   },
+   {
+    "line": 327,
+    "title": "核心认知"
+   },
+   {
+    "line": 350,
+    "title": "口诀"
+   },
+   {
+    "line": 352,
+    "title": "易错提醒"
+   },
+   {
+    "line": 374,
+    "title": "答案"
+   },
+   {
+    "line": 389,
+    "title": "易错提醒"
+   },
+   {
+    "line": 402,
+    "title": "关键区分"
+   },
+   {
+    "line": 434,
+    "title": "核心辨析"
+   },
+   {
+    "line": 444,
+    "title": "核心辨析"
+   },
+   {
+    "line": 502,
+    "title": "系统训练"
+   },
+   {
+    "line": 504,
+    "title": "选题口径"
+   },
+   {
+    "line": 591,
+    "title": "下节接口"
+   }
+  ],
+  "callout": [
+   {
+    "line": 137,
+    "type": "note"
+   },
+   {
+    "line": 176,
+    "type": "info"
+   },
+   {
+    "line": 187,
+    "type": "example"
+   },
+   {
+    "line": 225,
+    "type": "example"
+   },
+   {
+    "line": 260,
+    "type": "tip"
+   },
+   {
+    "line": 263,
+    "type": "warning"
+   },
+   {
+    "line": 307,
+    "type": "example"
+   },
+   {
+    "line": 372,
+    "type": "example"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 76,
+    "text": "**第二轮课堂主线导航**",
+    "len": 9
+   },
+   {
+    "line": 88,
+    "text": "**深度分层说明**",
+    "len": 6
+   },
+   {
+    "line": 96,
+    "text": "**轮次划分表**",
+    "len": 5
+   },
+   {
+    "line": 414,
+    "text": "**答案**：可以准确滴定。",
+    "len": 10
+   },
+   {
+    "line": 422,
+    "text": "**答案**：可以选择性滴定 Zn²⁺，Mg²⁺ 不干扰。",
+    "len": 23
+   },
+   {
+    "line": 455,
+    "text": "**答案**：见解析。",
+    "len": 7
+   },
+   {
+    "line": 510,
+    "text": "**子话题A：条件稳定常数**",
+    "len": 11
+   },
+   {
+    "line": 516,
+    "text": "**子话题B：换算因数**",
+    "len": 9
+   },
+   {
+    "line": 520,
+    "text": "**子话题C：指示剂**",
+    "len": 8
+   },
+   {
+    "line": 526,
+    "text": "**子话题D：准确滴定与分别滴定**",
+    "len": 14
+   },
+   {
+    "line": 532,
+    "text": "**子话题E：重量分析计算**",
+    "len": 11
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [],
+  "quickref_names": [
+   {
+    "line": 468,
+    "heading": "七、本讲速查",
+    "matched": "本讲速查"
+   },
+   {
+    "line": 580,
+    "heading": "十、本讲小结",
+    "matched": "本讲小结"
+   }
+  ],
+  "dup_pairs": [
+   {
+    "line_a": 307,
+    "line_b": 424,
+    "sim": 1.0,
+    "text_a": "加甲醛继续滴定耗 12.50 mL（cEDTA = 0.02000 mol/L）。",
+    "text_b": "加甲醛继续滴定耗 12.50 mL（cEDTA = 0.02000 mol/L）。"
+   },
+   {
+    "line_a": 307,
+    "line_b": 424,
+    "sim": 0.37,
+    "text_a": "pH 10 氨性缓冲、EBT 指示剂，EDTA 滴定耗 24.50 mL；",
+    "text_b": "pH 10 氨性缓冲 EBT，EDTA 滴定耗 24.50 mL；"
+   },
+   {
+    "line_a": 51,
+    "line_b": 54,
+    "sim": 0.36,
+    "text_a": "不展开：酸效应系数 α 完整推导、林邦终点误差公式严格推导。",
+    "text_b": "**了解**：酸效应系数完整推导、林邦终点误差公式严格推导。"
+   }
+  ],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 1.27,
+  "callout_limit": 7
+ }
+]

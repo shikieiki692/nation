@@ -1,0 +1,235 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\5-无机化学\\元素化学深度-超级充实版（自学完整）.md",
+  "total_lines": 717,
+  "pseudo_callout": [
+   {
+    "line": 53,
+    "title": "对应专题"
+   },
+   {
+    "line": 54,
+    "title": "对应备课大纲"
+   },
+   {
+    "line": 55,
+    "title": "本讲定位"
+   },
+   {
+    "line": 56,
+    "title": "上节衔接"
+   },
+   {
+    "line": 57,
+    "title": "下节衔接"
+   },
+   {
+    "line": 58,
+    "title": "前置要求"
+   },
+   {
+    "line": 59,
+    "title": "深度边界"
+   },
+   {
+    "line": 60,
+    "title": "建议使用方式"
+   },
+   {
+    "line": 122,
+    "title": "关联知识点"
+   },
+   {
+    "line": 123,
+    "title": "主线"
+   },
+   {
+    "line": 145,
+    "title": "认知冲突 1（新考法）"
+   },
+   {
+    "line": 148,
+    "title": "认知冲突 2（判据链取代现象表）"
+   },
+   {
+    "line": 171,
+    "title": "关联知识点"
+   },
+   {
+    "line": 172,
+    "title": "主线"
+   },
+   {
+    "line": 215,
+    "title": "误区提醒"
+   },
+   {
+    "line": 227,
+    "title": "关联知识点"
+   },
+   {
+    "line": 228,
+    "title": "主线"
+   },
+   {
+    "line": 250,
+    "title": "认知冲突 4（电势不能平均）"
+   },
+   {
+    "line": 286,
+    "title": "认知冲突 3（热力学自发 ≠ 动力学可行）"
+   },
+   {
+    "line": 316,
+    "title": "关联知识点"
+   },
+   {
+    "line": 317,
+    "title": "主线"
+   },
+   {
+    "line": 365,
+    "title": "关联知识点"
+   },
+   {
+    "line": 366,
+    "title": "主线"
+   },
+   {
+    "line": 403,
+    "title": "关联知识点"
+   },
+   {
+    "line": 404,
+    "title": "主线"
+   },
+   {
+    "line": 425,
+    "title": "关联知识点"
+   },
+   {
+    "line": 426,
+    "title": "主线"
+   },
+   {
+    "line": 461,
+    "title": "关联知识点"
+   },
+   {
+    "line": 462,
+    "title": "主线"
+   },
+   {
+    "line": 485,
+    "title": "关联知识点"
+   },
+   {
+    "line": 486,
+    "title": "主线"
+   },
+   {
+    "line": 522,
+    "title": "止损原则"
+   },
+   {
+    "line": 531,
+    "title": "关联知识点"
+   },
+   {
+    "line": 532,
+    "title": "主线"
+   },
+   {
+    "line": 655,
+    "title": "使用建议"
+   }
+  ],
+  "callout": [
+   {
+    "line": 79,
+    "type": "tip"
+   },
+   {
+    "line": 279,
+    "type": "warning"
+   },
+   {
+    "line": 418,
+    "type": "warning"
+   },
+   {
+    "line": 450,
+    "type": "info"
+   },
+   {
+    "line": 478,
+    "type": "info"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 62,
+    "text": "**深度分层说明**",
+    "len": 6
+   },
+   {
+    "line": 70,
+    "text": "**轮次划分表**",
+    "len": 5
+   },
+   {
+    "line": 176,
+    "text": "**经典对角线**：Li–Mg、Be–Al、B–Si。",
+    "len": 23
+   },
+   {
+    "line": 236,
+    "text": "氧化态：+7 → +5 → +3 → +1 → 0 → −1。",
+    "len": 21
+   },
+   {
+    "line": 566,
+    "text": "（先定结构类型 → 再定中心元素角色 → 最后判稳定性）",
+    "len": 24
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [
+   {
+    "count": 2,
+    "text": "[[12-教学洞察/教学洞察-元素化学深度与结构推断综合]]"
+   }
+  ],
+  "quickref_names": [
+   {
+    "line": 560,
+    "heading": "九、本讲速查（一页）",
+    "matched": "本讲速查"
+   }
+  ],
+  "dup_pairs": [
+   {
+    "line_a": 428,
+    "line_b": 704,
+    "sim": 0.46,
+    "text_a": "Be₂(C₅H₅)₂ 中 Be 平均氧化态 +1、Be–Be 键级 1。",
+    "text_b": "**14.** 见 [[题-38决理-1-铍类化合物的结构和性质]]：Be₂(C₅H₅)₂ 中 Be 平均氧化态 +1、Be–Be 键级 1；"
+   },
+   {
+    "line_a": 58,
+    "line_b": 62,
+    "sim": 0.36,
+    "text_a": "Latimer/Frost 图歧化判据与电势加权平均；",
+    "text_b": "Latimer/Frost 图歧化判据（含 Gibbs 能加权平均）；"
+   }
+  ],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 0.7,
+  "callout_limit": 8
+ }
+]

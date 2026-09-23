@@ -1,0 +1,217 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\5-无机化学\\铁钴镍铜锌-超级充实版（自学完整）.md",
+  "total_lines": 617,
+  "pseudo_callout": [
+   {
+    "line": 53,
+    "title": "对应专题"
+   },
+   {
+    "line": 54,
+    "title": "对应备课大纲"
+   },
+   {
+    "line": 55,
+    "title": "本讲定位"
+   },
+   {
+    "line": 56,
+    "title": "上节衔接"
+   },
+   {
+    "line": 57,
+    "title": "下节衔接"
+   },
+   {
+    "line": 58,
+    "title": "前置要求"
+   },
+   {
+    "line": 59,
+    "title": "深度边界"
+   },
+   {
+    "line": 60,
+    "title": "建议使用方式"
+   },
+   {
+    "line": 120,
+    "title": "关联知识点"
+   },
+   {
+    "line": 121,
+    "title": "主线"
+   },
+   {
+    "line": 150,
+    "title": "关联知识点"
+   },
+   {
+    "line": 151,
+    "title": "主线"
+   },
+   {
+    "line": 175,
+    "title": "判断方法"
+   },
+   {
+    "line": 177,
+    "title": "保存亚铁盐"
+   },
+   {
+    "line": 183,
+    "title": "突破——「电子的推和拉」"
+   },
+   {
+    "line": 187,
+    "title": "结论"
+   },
+   {
+    "line": 229,
+    "title": "关联知识点"
+   },
+   {
+    "line": 230,
+    "title": "主线"
+   },
+   {
+    "line": 245,
+    "title": "突破——配体场稳定化能（LFSE，定性）"
+   },
+   {
+    "line": 246,
+    "title": "口诀"
+   },
+   {
+    "line": 248,
+    "title": "历史意义"
+   },
+   {
+    "line": 269,
+    "title": "关联知识点"
+   },
+   {
+    "line": 270,
+    "title": "主线"
+   },
+   {
+    "line": 281,
+    "title": "核心判断"
+   },
+   {
+    "line": 282,
+    "title": "口诀"
+   },
+   {
+    "line": 294,
+    "title": "突破——18 电子规则（入门）"
+   },
+   {
+    "line": 297,
+    "title": "工业应用（蒙德法）"
+   },
+   {
+    "line": 307,
+    "title": "递变规律"
+   },
+   {
+    "line": 308,
+    "title": "溶解性差异（鉴别关键）"
+   },
+   {
+    "line": 326,
+    "title": "关联知识点"
+   },
+   {
+    "line": 327,
+    "title": "主线"
+   },
+   {
+    "line": 333,
+    "title": "突破——Born-Haber 三要素（方向性理解，不做精确计算）"
+   },
+   {
+    "line": 336,
+    "title": "口诀"
+   },
+   {
+    "line": 352,
+    "title": "易错"
+   },
+   {
+    "line": 380,
+    "title": "印刷电路板蚀刻本质"
+   },
+   {
+    "line": 395,
+    "title": "关联知识点"
+   },
+   {
+    "line": 396,
+    "title": "主线"
+   },
+   {
+    "line": 423,
+    "title": "理解"
+   },
+   {
+    "line": 432,
+    "title": "关联知识点"
+   },
+   {
+    "line": 433,
+    "title": "主线"
+   },
+   {
+    "line": 479,
+    "title": "要点"
+   }
+  ],
+  "callout": [
+   {
+    "line": 78,
+    "type": "tip"
+   },
+   {
+    "line": 139,
+    "type": "tip"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 62,
+    "text": "**深度分层说明**",
+    "len": 6
+   },
+   {
+    "line": 70,
+    "text": "**轮次划分表**",
+    "len": 5
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [
+   {
+    "count": 2,
+    "text": "[[12-教学洞察/教学洞察-铁钴镍铜锌]]"
+   }
+  ],
+  "quickref_names": [
+   {
+    "line": 486,
+    "heading": "八、本讲速查（一页）",
+    "matched": "本讲速查"
+   }
+  ],
+  "dup_pairs": [],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 0.32,
+  "callout_limit": 7
+ }
+]

@@ -1,0 +1,165 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\_数学工具\\数学工具-第3讲-导数与微分.md",
+  "total_lines": 760,
+  "pseudo_callout": [
+   {
+    "line": 38,
+    "title": "本讲定位"
+   },
+   {
+    "line": 39,
+    "title": "前置要求"
+   },
+   {
+    "line": 40,
+    "title": "下节衔接"
+   },
+   {
+    "line": 41,
+    "title": "深度边界"
+   },
+   {
+    "line": 44,
+    "title": "本讲解决的问题"
+   },
+   {
+    "line": 45,
+    "title": "关联讲义"
+   },
+   {
+    "line": 46,
+    "title": "考纲对应"
+   }
+  ],
+  "callout": [
+   {
+    "line": 96,
+    "type": "tip"
+   },
+   {
+    "line": 128,
+    "type": "warning"
+   },
+   {
+    "line": 178,
+    "type": "info"
+   },
+   {
+    "line": 232,
+    "type": "tip"
+   },
+   {
+    "line": 254,
+    "type": "tip"
+   },
+   {
+    "line": 326,
+    "type": "warning"
+   },
+   {
+    "line": 368,
+    "type": "warning"
+   },
+   {
+    "line": 456,
+    "type": "info"
+   },
+   {
+    "line": 579,
+    "type": "tip"
+   },
+   {
+    "line": 756,
+    "type": "abstract"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 70,
+    "text": "第 1 讲说过，直线斜率为",
+    "len": 11
+   },
+   {
+    "line": 118,
+    "text": "如果这个极限存在，就说 f 在 x 处**可导**。",
+    "len": 18
+   },
+   {
+    "line": 298,
+    "text": "一句话：**由外向内逐层求导，逐层相乘**。",
+    "len": 18
+   },
+   {
+    "line": 356,
+    "text": "这正对应第 1 讲观察到的\"c–t 曲线越来越平\"。",
+    "len": 23
+   },
+   {
+    "line": 432,
+    "text": "误差 0.0001（相对 0.17%），确实很小。",
+    "len": 23
+   },
+   {
+    "line": 436,
+    "text": "无论 u 是自变量还是中间变量，都有",
+    "len": 16
+   },
+   {
+    "line": 569,
+    "text": "若不用稳态近似，精确解为",
+    "len": 12
+   },
+   {
+    "line": 633,
+    "text": "**子话题A：基本求导**",
+    "len": 9
+   },
+   {
+    "line": 639,
+    "text": "**子话题B：链式法则**",
+    "len": 9
+   },
+   {
+    "line": 645,
+    "text": "**子话题C：意义与单位**",
+    "len": 10
+   },
+   {
+    "line": 653,
+    "text": "**子话题D：化学求导**",
+    "len": 9
+   },
+   {
+    "line": 661,
+    "text": "**子话题E：微分与近似**",
+    "len": 10
+   },
+   {
+    "line": 667,
+    "text": "**子话题F：极值**",
+    "len": 7
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [],
+  "quickref_names": [],
+  "dup_pairs": [
+   {
+    "line_a": 704,
+    "line_b": 728,
+    "sim": 0.7,
+    "text_a": "**练一练 3-1**：$k = v/[\\mathrm{A}]^2$，单位 = `mol·L⁻¹·s⁻¹ ÷ (mol·L⁻¹)² = L·mol⁻¹·s⁻¹`",
+    "text_b": "二级：$k = v/[\\mathrm{A}]^2$，单位 `mol·L⁻¹·s⁻¹ ÷ (mol·L⁻¹)² = L·mol⁻¹·s⁻¹`。"
+   }
+  ],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 1.32,
+  "callout_limit": 8
+ }
+]

@@ -1,0 +1,240 @@
+[
+ {
+  "file": "04-课件\\学生讲义\\4-分析化学\\分光光度法-超级充实版（自学完整）.md",
+  "total_lines": 551,
+  "pseudo_callout": [
+   {
+    "line": 67,
+    "title": "考纲覆盖"
+   },
+   {
+    "line": 85,
+    "title": "课堂建议顺序"
+   },
+   {
+    "line": 103,
+    "title": "轮次导航"
+   },
+   {
+    "line": 125,
+    "title": "关联知识点"
+   },
+   {
+    "line": 126,
+    "title": "考纲对应"
+   },
+   {
+    "line": 157,
+    "title": "易错提醒"
+   },
+   {
+    "line": 162,
+    "title": "答案"
+   },
+   {
+    "line": 184,
+    "title": "关联知识点"
+   },
+   {
+    "line": 185,
+    "title": "考纲对应"
+   },
+   {
+    "line": 201,
+    "title": "易错提醒"
+   },
+   {
+    "line": 207,
+    "title": "考纲对应"
+   },
+   {
+    "line": 226,
+    "title": "竞赛高频考点"
+   },
+   {
+    "line": 231,
+    "title": "答案"
+   },
+   {
+    "line": 237,
+    "title": "考纲对应"
+   },
+   {
+    "line": 252,
+    "title": "考纲对应"
+   },
+   {
+    "line": 270,
+    "title": "易错提醒"
+   },
+   {
+    "line": 276,
+    "title": "关联知识点"
+   },
+   {
+    "line": 277,
+    "title": "考纲对应"
+   },
+   {
+    "line": 302,
+    "title": "参比溶液选择原则"
+   },
+   {
+    "line": 308,
+    "title": "考纲对应"
+   },
+   {
+    "line": 329,
+    "title": "答案"
+   },
+   {
+    "line": 343,
+    "title": "核心辨析"
+   },
+   {
+    "line": 361,
+    "title": "核心辨析"
+   },
+   {
+    "line": 379,
+    "title": "核心辨析"
+   },
+   {
+    "line": 410,
+    "title": "系统训练"
+   },
+   {
+    "line": 412,
+    "title": "选题口径"
+   },
+   {
+    "line": 508,
+    "title": "下节接口"
+   }
+  ],
+  "callout": [
+   {
+    "line": 147,
+    "type": "info"
+   },
+   {
+    "line": 159,
+    "type": "example"
+   },
+   {
+    "line": 228,
+    "type": "example"
+   },
+   {
+    "line": 245,
+    "type": "info"
+   },
+   {
+    "line": 326,
+    "type": "example"
+   }
+  ],
+  "warning_prefix": [],
+  "fragments": [
+   {
+    "line": 76,
+    "text": "**第二轮课堂主线导航**",
+    "len": 9
+   },
+   {
+    "line": 87,
+    "text": "**深度分层说明**",
+    "len": 6
+   },
+   {
+    "line": 95,
+    "text": "**轮次划分表**",
+    "len": 5
+   },
+   {
+    "line": 268,
+    "text": "**酸度（pH）→ 显色剂用量 → 反应时间 → 温度 → 溶剂**",
+    "len": 23
+   },
+   {
+    "line": 416,
+    "text": "**子话题A：A-T 换算与 Lambert-Beer**",
+    "len": 23
+   },
+   {
+    "line": 424,
+    "text": "**子话题B：波长与偏离**",
+    "len": 10
+   },
+   {
+    "line": 430,
+    "text": "**子话题C：标准曲线**",
+    "len": 9
+   },
+   {
+    "line": 436,
+    "text": "**子话题D：灵敏度与组成**",
+    "len": 11
+   },
+   {
+    "line": 444,
+    "text": "**子话题E：显色与参比**",
+    "len": 10
+   },
+   {
+    "line": 448,
+    "text": "**11.** 试液无色、显色剂有色时，参比溶液应选什么？",
+    "len": 24
+   },
+   {
+    "line": 486,
+    "text": "**11.** 试剂空白（仅加显色剂）——扣除显色剂颜色。",
+    "len": 24
+   }
+  ],
+  "negative_words": [],
+  "whitelist_hits": [],
+  "motto_dupe": [],
+  "quickref_names": [
+   {
+    "line": 383,
+    "heading": "九、本讲速查",
+    "matched": "本讲速查"
+   },
+   {
+    "line": 498,
+    "heading": "十二、本讲小结",
+    "matched": "本讲小结"
+   }
+  ],
+  "dup_pairs": [
+   {
+    "line_a": 248,
+    "line_b": 484,
+    "sim": 0.55,
+    "text_a": "磺基水杨酸-Fe³⁺ 在 pH 2~3 紫红（1:1）、pH 4~7 橙（1:2）、pH 8~10 黄（1:3）——$\\kappa$ 完全不同，条件不一致结果不",
+    "text_b": "**10.** pH 2~3 紫红（1:1）、pH 4~7 橙（1:2）、pH 8~10 黄（1:3）——$\\kappa$ 完全不同，条件不一致则 $\\kapp"
+   },
+   {
+    "line_a": 159,
+    "line_b": 414,
+    "sim": 0.5,
+    "text_a": "$（$\\kappa = 2.0\\times10^4$，$b = 1$ cm 时 $c = ?",
+    "text_b": "$**2.** $\\kappa = 2.0\\times10^4$，$b = 1$ cm，$A = 0.56$。"
+   },
+   {
+    "line_a": 230,
+    "line_b": 472,
+    "sim": 0.37,
+    "text_a": ">> **答案**：化学因素主导（高浓度解离/缔合/配合比改变）+ 光学因素（非单色光）。",
+    "text_b": "**5.** 化学因素（高浓度解离/缔合/配合比改变）+ 光学因素（非单色光）→ 负偏离，曲线向 $c$ 轴弯。"
+   }
+  ],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
+  "callout_density_per_100": 0.91,
+  "callout_limit": 6
+ }
+]
