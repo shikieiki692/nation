@@ -40,7 +40,7 @@ try:
 except Exception:
     Image = None
 
-VERSION = "2026-09-23.4"
+VERSION = "2026-09-23.5"
 
 VAULT = Path(__file__).resolve().parents[2]
 MEDIA = VAULT / "媒体仓库"
@@ -276,23 +276,43 @@ def quality_report(target, json_out=None):
         n = sum(1 for r in recs if r["w"] >= need)
         print(f"    宽≥{need:5d}px  {lab:12s} {n:6d}  {n/max(1,len(recs))*100:5.1f}%")
 
-    # 空白/极淡：全分辨率多阈值复核（缩略图口径会误判，必须复核）
-    blank, faint, visible = [], [], []
+    # 空白/欠曝：全分辨率复核（缩略图口径会误判，必须复核）
+    # ★ 关键改进：用「最暗像素 minpx」把两件完全不同的事拆开——
+    #     真空白  = 全图无墨（minpx > 230）→ 弃
+    #     欠曝可救 = 内容在但整体提亮（150 ≤ minpx ≤ 230）→ 增强/重扫，**不是凑数**
+    blank, faded, faint, visible = [], [], [], []
     for r in recs:
         if r["ink"] >= 0.005:
             continue
         try:
             with Image.open(r["f"]) as im:
                 g = im.convert("L")
-                g.thumbnail((600, 600))
-                px = list(g.get_flattened_data())
-                f200 = sum(1 for v in px if v < 200) / len(px)
-            if f200 < 0.002:
-                blank.append(Path(r["f"]).name)
+                g.thumbnail((900, 900))
+                px = sorted(g.get_flattened_data())
+                n = len(px)
+                mn = px[0]
+                f200 = sum(1 for v in px if v < 200) / n
+            name = Path(r["f"]).name
+            r["minpx"] = mn
+            if mn > 230:
+                blank.append(name)
+            elif mn >= 150:
+                faded.append(name)
             elif f200 < 0.01:
-                faint.append(Path(r["f"]).name)
+                faint.append(name)
             else:
-                visible.append(Path(r["f"]).name)   # 缩略图误判，其实可见
+                visible.append(name)                # 缩略图误判，其实可见
+        except Exception:
+            pass
+
+    # 伪装扩展名：内容是 SVG 但扩展名不是（PIL 打不开的那些）
+    disguised = []
+    for x in failed:
+        try:
+            head = Path(x).read_bytes()[:2048].lstrip()
+            if head.startswith(b"<?xml") and (b"<svg" in head or b"<SVG" in head) \
+                    or head.startswith(b"<svg") or head.startswith(b"<!DOCTYPE svg"):
+                disguised.append(Path(x).name)
         except Exception:
             pass
 
@@ -304,9 +324,12 @@ def quality_report(target, json_out=None):
 
     # 互斥：A→B→C→D→E→F
     seen, cat = set(), {}
-    for key, names in (("A 伪图片（打不开）", [Path(x).name for x in failed]),
-                       ("B 真·空白（全分辨率深墨<0.2%）", blank),
-                       ("C 极淡（0.2–1%）", faint),
+    for key, names in (("A1 伪装扩展名（内容是 SVG）→ 可救", disguised),
+                       ("A2 真坏文件（打不开、非 SVG）",
+                        [Path(x).name for x in failed if Path(x).name not in set(disguised)]),
+                       ("B1 真·空白（全图最暗 > 230，无墨）", blank),
+                       ("B2 欠曝可救（最暗 150–230，内容在）", faded),
+                       ("C 极淡（有暗墨但墨量 <1%）", faint),
                        ("D 单行公式切片（高≤70 & 宽高比≥6）", strips),
                        ("E 极小碎片（最长边<60px）", tiny),
                        ("F 纯色（缩略图仅 1 色）", solid)):
@@ -320,6 +343,9 @@ def quality_report(target, json_out=None):
           f"({len(seen)/max(1,len(recs))*100:.1f}% of 目标目录)")
     if visible:
         print(f"    另：{len(visible)} 张在缩略图口径下疑似空白，全分辨率复核后**其实可见**（已剔除）")
+    if faded:
+        print(f"    ★ B2 类不是凑数：{len(faded)} 张内容真实、仅整体欠曝，"
+              f"可用对比度拉伸/重扫救回")
     print("  ★ 抽样目检后再动手：规则假阳性本库实测约 15%（小尺寸≠低质）")
 
     if json_out:
