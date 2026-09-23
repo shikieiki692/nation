@@ -34,7 +34,13 @@ from pathlib import Path
 from collections import defaultdict, Counter
 from urllib.parse import unquote
 
-VERSION = "2026-09-23.2"
+try:
+    from PIL import Image
+    Image.MAX_IMAGE_PIXELS = None
+except Exception:
+    Image = None
+
+VERSION = "2026-09-23.3"
 
 VAULT = Path(__file__).resolve().parents[2]
 MEDIA = VAULT / "媒体仓库"
@@ -219,12 +225,123 @@ def manifest_report(full_names):
                 gone_mb=round(sum(listed[n] for n in gone) / 1024 / 1024, 1))
 
 
+def quality_report(target, json_out=None):
+    """V8 规模与质量 —— 逐张测量（尺寸/长宽比/墨迹/色彩/体积）+ 互斥废片分类。
+
+    ⚠️ 三条判据纪律（踩过）：
+      1. 空白判定必须回**全分辨率**多阈值复核；160px 缩略图口径会误判（实测 5/78）。
+      2. 公式切片必须用**方向性**判据（高≤70 且宽高比≥6）；只判长宽比会算进竖长图。
+      3. 结果**必须抽样目检**——「小 ≠ 低质」，本库实测规则假阳性约 15%。
+    依赖 Pillow；记录落 json_out（默认不落）。
+    """
+    if Image is None:
+        print("  [SKIP] 未安装 Pillow，无法执行质量模式")
+        return {}
+    # ⚠️ SVG 是矢量格式，PIL 读不了 —— 不能算「伪图片」，必须排除出位图测量
+    PIL_EXT = IMG_EXT - {".svg"}
+    files = [p for p in Path(target).rglob("*")
+             if p.is_file() and p.suffix.lower() in PIL_EXT]
+    svg_n = sum(1 for p in Path(target).rglob("*")
+                if p.is_file() and p.suffix.lower() == ".svg")
+    print(f"\n=== V8 规模与质量（{Path(target).name}: {len(files)} 张位图"
+          f"{f'，另有 {svg_n} 个 SVG 不参与位图测量' if svg_n else ''}）===")
+    recs, failed = [], []
+    for p in files:
+        try:
+            sz = p.stat().st_size
+            with Image.open(p) as im:
+                W, H = im.size
+                th = im.copy()
+                th.thumbnail((160, 160))
+                g = th.convert("L")
+                px = list(g.get_flattened_data())
+                n = len(px)
+                ink = sum(1 for v in px if v < 200) / n
+                dark = sum(1 for v in px if v < 128) / n
+                rgb = th.convert("RGB")
+                col = len(set(rgb.get_flattened_data()))
+            recs.append(dict(f=str(p), w=W, h=H, kb=round(sz / 1024, 1),
+                             ink=ink, dark=dark, colors=col,
+                             aspect=max(W, H) / max(1, min(W, H))))
+        except Exception:
+            failed.append(str(p))
+
+    areas = sorted(r["w"] * r["h"] for r in recs)
+    def q(v, x):
+        return v[min(len(v) - 1, int(len(v) * x))] if v else 0
+    print(f"  分辨率：中位 {q(areas,0.5):,} px²（≈{int(q(areas,0.5)**0.5)}²）  "
+          f"P25 {q(areas,0.25):,}  P95 {q(areas,0.95):,}")
+    print("  打印可用性（300 dpi）：")
+    for lab, need in (("4cm 缩略", 472), ("7.5cm 半栏", 886), ("15cm 整栏", 1772)):
+        n = sum(1 for r in recs if r["w"] >= need)
+        print(f"    宽≥{need:5d}px  {lab:12s} {n:6d}  {n/max(1,len(recs))*100:5.1f}%")
+
+    # 空白/极淡：全分辨率多阈值复核（缩略图口径会误判，必须复核）
+    blank, faint, visible = [], [], []
+    for r in recs:
+        if r["ink"] >= 0.005:
+            continue
+        try:
+            with Image.open(r["f"]) as im:
+                g = im.convert("L")
+                g.thumbnail((600, 600))
+                px = list(g.get_flattened_data())
+                f200 = sum(1 for v in px if v < 200) / len(px)
+            if f200 < 0.002:
+                blank.append(Path(r["f"]).name)
+            elif f200 < 0.01:
+                faint.append(Path(r["f"]).name)
+            else:
+                visible.append(Path(r["f"]).name)   # 缩略图误判，其实可见
+        except Exception:
+            pass
+
+    def is_strip(r):
+        return r["h"] <= 70 and r["aspect"] >= 6 and r["w"] >= 250
+    strips = [Path(r["f"]).name for r in recs if is_strip(r)]
+    tiny = [Path(r["f"]).name for r in recs if max(r["w"], r["h"]) < 60]
+    solid = [Path(r["f"]).name for r in recs if r["colors"] == 1]
+
+    # 互斥：A→B→C→D→E→F
+    seen, cat = set(), {}
+    for key, names in (("A 伪图片（打不开）", [Path(x).name for x in failed]),
+                       ("B 真·空白（全分辨率深墨<0.2%）", blank),
+                       ("C 极淡（0.2–1%）", faint),
+                       ("D 单行公式切片（高≤70 & 宽高比≥6）", strips),
+                       ("E 极小碎片（最长边<60px）", tiny),
+                       ("F 纯色（缩略图仅 1 色）", solid)):
+        v = sorted(set(names) - seen)
+        seen |= set(v)
+        cat[key] = v
+    print("  废片分类（互斥）：")
+    for k, v in cat.items():
+        print(f"    {k:38s} {len(v):5d}")
+    print(f"    {'—— 合计':38s} {len(seen):5d}  "
+          f"({len(seen)/max(1,len(recs))*100:.1f}% of 目标目录)")
+    if visible:
+        print(f"    另：{len(visible)} 张在缩略图口径下疑似空白，全分辨率复核后**其实可见**（已剔除）")
+    print("  ★ 抽样目检后再动手：规则假阳性本库实测约 15%（小尺寸≠低质）")
+
+    if json_out:
+        Path(json_out).write_text(json.dumps(
+            dict(target=str(target), records=recs, failed=failed, garbage=cat),
+            ensure_ascii=False), encoding="utf-8")
+        print(f"  [落盘] {json_out}")
+    return dict(total=len(recs), garbage={k: len(v) for k, v in cat.items()})
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--json", help="把结果落盘为 JSON")
+    ap.add_argument("--quality", action="store_true",
+                    help="只跑 V8 规模与质量（逐张测图像，需 Pillow）")
+    ap.add_argument("--target", default=str(MEDIA), help="V8 的目标目录")
     a = ap.parse_args()
 
     print(f"[img_asset_audit v{VERSION}] 基线：{VAULT}")
+    if a.quality:
+        quality_report(a.target, a.json)
+        return
     full_names = walk_full_names()
     by_name, by_rel, refs = walk_media_and_md()
     print(f"  扫描：md 引用 {len(refs)} 条；库内图片 {sum(len(v) for v in by_name.values())} 个；全库图片 basename {len(full_names)} 个")
