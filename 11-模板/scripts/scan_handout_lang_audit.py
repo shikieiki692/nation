@@ -211,6 +211,7 @@ def scan_file(path: Path, frag_len: int, dup_n: int, dup_th: float) -> dict:
     in_math = False
     in_answer = False
     in_comment = False
+    in_callout = False
     for i, line in enumerate(lines, 1):
         s = line.strip()
         if s.startswith("<!--"):
@@ -239,14 +240,17 @@ def scan_file(path: Path, frag_len: int, dup_n: int, dup_th: float) -> dict:
         if CALLOUT_RE.match(s):
             m = CALLOUT_RE.match(s)
             res["callout"].append({"line": i, "type": m.group(1).lower()})
+            in_callout = True
             continue
-        if PSEUDO_RE.match(s) and not in_answer:
+        if in_callout and not s.startswith(">"):
+            in_callout = False  # 正式 callout 连续块结束（空行/普通行）
+        if PSEUDO_RE.match(s) and not in_answer and not in_callout:
             title = PSEUDO_RE.match(s).group(1)
             if title.strip() in PSEUDO_STRUCTURAL_EXEMPT or PSEUDO_STRUCTURAL_EXEMPT_RE.match(title.strip()):
                 res["structural_exempt"].append({"line": i, "title": title})
             else:
                 res["pseudo_callout"].append({"line": i, "title": title})
-        if WARN_PREFIX_RE.search(s) and not FIGCAPTION_RE.match(s):
+        if WARN_PREFIX_RE.search(s) and not FIGCAPTION_RE.match(s) and not in_callout:
             res["warning_prefix"].append({"line": i, "text": s[:60]})
         # 负面词
         for w in NEGATIVE_WORDS:
