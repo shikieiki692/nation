@@ -42,6 +42,31 @@ WHITELIST_PATTERNS = {
     "纠结": [r"“[^”]*纠结[^”]*”", r"「[^」]*纠结[^」]*」"],
 }
 
+# 术语异形词（规范 §8.1 词表）：禁用形 -> 规范词
+TERM_VARIANTS = {
+    "阿佛加德罗": "阿伏伽德罗",
+    "阿伏加德罗": "阿伏伽德罗",
+    "稀烃": "烯烃",
+}
+
+# Weasel 词（规范 §9.2）：匿名权威/跳步遮蔽/预设断言初筛词表
+WEASEL_WORDS = {
+    "研究表明": "写实名出处（如「由 Hess 定律可知」）或删",
+    "众所周知": "删或写实名出处",
+    "人们认为": "删或实名",
+    "显然": "省步须可一步补全，否则补步；合法用「可得/即得」",
+    "显然易见": "同上",
+    "不难发现": "同上",
+}
+
+# 句式杂糅特征词对（规范 §7.1，CY/T 266 条目 1-11）
+HYBRID_SYNTAX_RE = re.compile(
+    r"原因是.{0,24}造成|目的是.{0,16}为目的|围绕.{0,16}为中心|关键在于.{0,16}的问题|由于.{0,20}的结果"
+)
+
+# 数值范围连字符（规范 §7.3，GB/T 15835）：应为「～」；豁免化学式位次连字符
+UNIT_RANGE_RE = re.compile(r"\d\s*[-—]\s*\d+\s*(mL|L|mol|kJ|kJ/mol|K|°C|eV|pm|nm|g)\b")
+
 # 收尾节命名归一目标（规范 §6.1）
 QUICKREF_TARGET = "本讲速查"
 SUMMARY_TARGET = "本讲小结"
@@ -158,6 +183,7 @@ def scan_file(path: Path, frag_len: int, dup_n: int, dup_th: float) -> dict:
         "pseudo_callout": [], "callout": [], "warning_prefix": [],
         "fragments": [], "negative_words": [], "whitelist_hits": [],
         "motto_dupe": [], "quickref_names": [], "dup_pairs": [],
+        "term_variants": [], "weasel_words": [], "hybrid_syntax": [], "unit_range": [],
     }
     # ---- 区块状态机：图注/公式块/引用块/速查节识别 ----
     in_math = False
@@ -196,6 +222,22 @@ def scan_file(path: Path, frag_len: int, dup_n: int, dup_th: float) -> dict:
                 wl = any(re.search(p, s) for p in WHITELIST_PATTERNS.get(w, []))
                 entry = {"line": i, "word": w, "suggest": NEGATIVE_WORDS[w], "text": s[:60]}
                 (res["whitelist_hits"] if wl else res["negative_words"]).append(entry)
+        # 术语异形词（§8）
+        for w, std in TERM_VARIANTS.items():
+            if w in s:
+                res["term_variants"].append({"line": i, "word": w, "suggest": std, "text": s[:60]})
+        # Weasel 词（§9.2）
+        for w, sug in WEASEL_WORDS.items():
+            if w in s:
+                res["weasel_words"].append({"line": i, "word": w, "suggest": sug, "text": s[:60]})
+        # 句式杂糅（§7.1）
+        m = HYBRID_SYNTAX_RE.search(s)
+        if m:
+            res["hybrid_syntax"].append({"line": i, "pattern": m.group(0)[:24], "text": s[:60]})
+        # 数值范围连字符（§7.3）
+        m = UNIT_RANGE_RE.search(s)
+        if m:
+            res["unit_range"].append({"line": i, "match": m.group(0), "text": s[:60]})
     # ---- 单句碎片段（普通段落，前后空行，豁免图注/公式/表/列表/标题/引用） ----
     for i, line in enumerate(lines, 1):
         s = line.strip()
@@ -235,12 +277,18 @@ def md_report(reports: list[dict]) -> str:
         out.append(f"| 单句碎片段 | {len(r['fragments'])} | ≤3 |")
         out.append(f"| 负面词命中 | {len(r['negative_words'])} | 白名单外 0 |")
         out.append(f"| 白名单豁免命中 | {len(r['whitelist_hits'])} | 登记即可 |")
+        out.append(f"| 术语异形词 | {len(r['term_variants'])} | 按 §8 词表替换，0 |")
+        out.append(f"| Weasel 词 | {len(r['weasel_words'])} | 人工复核后 0 |")
+        out.append(f"| 句式杂糅特征 | {len(r['hybrid_syntax'])} | 人工复核后 0 |")
+        out.append(f"| 数值范围连字符 | {len(r['unit_range'])} | 改「～」，0 |")
         out.append(f"| 口诀逐字重复 | {len(r['motto_dupe'])} | 0 |")
         out.append(f"| 疑似重复对 | {len(r['dup_pairs'])} | 人工裁决后残留 0 |")
         out.append(f"| 收尾节命名 | {len(r['quickref_names'])} 处 | 「本讲速查」+「本讲小结」 |")
         for key, cap in (("pseudo_callout", 60), ("fragments", 40), ("negative_words", 30),
                          ("warning_prefix", 20), ("motto_dupe", 10), ("dup_pairs", 25),
-                         ("whitelist_hits", 10), ("quickref_names", 12)):
+                         ("whitelist_hits", 10), ("quickref_names", 12),
+                         ("term_variants", 20), ("weasel_words", 20),
+                         ("hybrid_syntax", 15), ("unit_range", 15)):
             items = r[key]
             if not items:
                 continue
@@ -252,8 +300,12 @@ def md_report(reports: list[dict]) -> str:
                     out.append(f"- sim={it['sim']} L{it['line_a']}↔L{it['line_b']}：`{it['text_a']}` ↔ `{it['text_b']}`")
                 elif key == "motto_dupe":
                     out.append(f"- ×{it['count']} `{it['text']}`")
-                elif key == "negative_words":
+                elif key in ("negative_words", "term_variants", "weasel_words"):
                     out.append(f"- L{it['line']} 【{it['word']}→{it['suggest']}】`{it['text']}`")
+                elif key == "hybrid_syntax":
+                    out.append(f"- L{it['line']} 杂糅型`{it['pattern']}``{it['text']}`")
+                elif key == "unit_range":
+                    out.append(f"- L{it['line']} `{it['match']}` `{it['text']}`")
                 elif key == "fragments":
                     out.append(f"- L{it['line']} ({it['len']}字) `{it['text']}`")
                 else:
