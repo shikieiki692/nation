@@ -297,6 +297,19 @@ def scan_file(path: Path, frag_len: int, dup_n: int, dup_th: float) -> dict:
     # ---- 密度 ----
     res["callout_density_per_100"] = round(len(res["callout"]) * 100 / max(1, len(lines)), 2)
     res["callout_limit"] = min(12, math.ceil(len(lines) / 100))
+    # ---- 内容密度统计（v1.1：只统计不判罚，供内容三轴「推导覆盖/例题完整性/讲解深度」人读定位）----
+    full_text = "\n".join(lines)
+    h2_n = len(re.findall(r"^##\s", full_text, re.M))
+    deriv_n = len(re.findall(r"推导|证明[：:]|联立解出|由此推得|推导思路|的几何推导", full_text))
+    ex_n = len(re.findall(r"例题（|^\*\*\d+\.\*\*（|^> \*\*例", full_text, re.M))
+    ans_zone = full_text[full_text.rfind("参考答案"):] if "参考答案" in full_text else full_text[full_text.rfind("## 习题"): ] if "## 习题" in full_text else ""
+    ans_math_n = ans_zone.count("$$") // 2
+    res["content_stats"] = {
+        "h2_sections": h2_n, "deriv_marks": deriv_n,
+        "examples": ex_n, "answer_math_blocks": ans_math_n,
+        "deriv_per_h2": round(deriv_n / h2_n, 2) if h2_n else 0,
+    }
+
     return res
 
 
@@ -382,8 +395,17 @@ def main():
     md_path = out_dir / f"语言体检报告-{Path(reports[0]['file']).stem}.md"
     md_path.write_text(md_report(reports), encoding="utf-8")
     if args.json:
-        (out_dir / f"语言体检报告-{Path(reports[0]['file']).stem}.json").write_text(
-            json.dumps(reports, ensure_ascii=False, indent=1), encoding="utf-8")
+        # v1.1 修复：逐份 json（此前按首文件 stem 命名一份汇总，与「逐份工作底稿」工作流冲突，
+        # 批量调用时后续文件各自缺 json——配位件与复习件均踩坑）
+        if len(reports) == 1:
+            (out_dir / f"语言体检报告-{Path(reports[0]['file']).stem}.json").write_text(
+                json.dumps(reports, ensure_ascii=False, indent=1), encoding="utf-8")
+        else:
+            for r in reports:
+                (out_dir / f"语言体检报告-{Path(r['file']).stem}.json").write_text(
+                    json.dumps([r], ensure_ascii=False, indent=1), encoding="utf-8")
+            (out_dir / f"语言体检报告-{Path(reports[0]['file']).stem}.json").write_text(
+                json.dumps(reports, ensure_ascii=False, indent=1), encoding="utf-8")
 
     # 控制台摘要
     print(f"{'文件':<36} 伪cal 正式 ⚠ 碎片 负面 重复对 收尾名")
