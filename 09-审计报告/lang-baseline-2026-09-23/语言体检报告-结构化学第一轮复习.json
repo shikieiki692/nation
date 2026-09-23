@@ -1,245 +1,8 @@
 [
  {
   "file": "04-课件\\学生讲义\\2-结构化学\\结构化学第一轮复习.md",
-  "total_lines": 1441,
-  "pseudo_callout": [
-   {
-    "line": 148,
-    "title": "近年真题"
-   },
-   {
-    "line": 154,
-    "title": "口诀"
-   },
-   {
-    "line": 160,
-    "title": "近年真题"
-   },
-   {
-    "line": 267,
-    "title": "Cotton 能级图（为什么先填 4s 又先电离 4s）"
-   },
-   {
-    "line": 268,
-    "title": "反常排布的统一框架"
-   },
-   {
-    "line": 269,
-    "title": "能级组 = int(n+0.7l)"
-   },
-   {
-    "line": 293,
-    "title": "Slater 规则补充"
-   },
-   {
-    "line": 308,
-    "title": "可操作流程"
-   },
-   {
-    "line": 370,
-    "title": "Koopmans 定理"
-   },
-   {
-    "line": 371,
-    "title": "原子光谱项符号"
-   },
-   {
-    "line": 374,
-    "title": "α 衰变"
-   },
-   {
-    "line": 419,
-    "title": "判据精度"
-   },
-   {
-    "line": 421,
-    "title": "VB 理论要点"
-   },
-   {
-    "line": 436,
-    "title": "s 成分越大的键越短越强"
-   },
-   {
-    "line": 493,
-    "title": "三角双锥电负性细则"
-   },
-   {
-    "line": 520,
-    "title": "配位杂化内外轨对照（衔接 §5）"
-   },
-   {
-    "line": 524,
-    "title": "超共轭（gauche 效应）"
-   },
-   {
-    "line": 545,
-    "title": "三中心四电子键（3c-4e）"
-   },
-   {
-    "line": 547,
-    "title": "d–p π 键"
-   },
-   {
-    "line": 549,
-    "title": "离域 π 键的化学性质出口"
-   },
-   {
-    "line": 551,
-    "title": "芳香性 4m+2 规则"
-   },
-   {
-    "line": 553,
-    "title": "等电子体类推实例"
-   },
-   {
-    "line": 555,
-    "title": "8–N 规则"
-   },
-   {
-    "line": 557,
-    "title": "3c–2e 键（补全）"
-   },
-   {
-    "line": 586,
-    "title": "B₂ 顺磁是 s-p 混杂的关键证据"
-   },
-   {
-    "line": 588,
-    "title": "前线轨道 HOMO/LUMO"
-   },
-   {
-    "line": 596,
-    "title": "孤对电子也是偶极矩来源"
-   },
-   {
-    "line": 598,
-    "title": "离子性百分数"
-   },
-   {
-    "line": 600,
-    "title": "偶极矩实验定构型"
-   },
-   {
-    "line": 620,
-    "title": "近年真题"
-   },
-   {
-    "line": 667,
-    "title": "氢键非「有 H 就有」"
-   },
-   {
-    "line": 735,
-    "title": "近年真题"
-   },
-   {
-    "line": 749,
-    "title": "颜色定性"
-   },
-   {
-    "line": 751,
-    "title": "Jahn-Teller 效应"
-   },
-   {
-    "line": 780,
-    "title": "电梯轿厢类比"
-   },
-   {
-    "line": 788,
-    "title": "内外轨判别例"
-   },
-   {
-    "line": 790,
-    "title": "VBT 内/外轨系统表"
-   },
-   {
-    "line": 801,
-    "title": "软硬酸碱（HSAB）"
-   },
-   {
-    "line": 803,
-    "title": "动力学活性/惰性"
-   },
-   {
-    "line": 805,
-    "title": "近年真题"
-   },
-   {
-    "line": 808,
-    "title": "显色本质"
-   },
-   {
-    "line": 809,
-    "title": "判断三步"
-   },
-   {
-    "line": 810,
-    "title": "d⁵ 高自旋特例"
-   },
-   {
-    "line": 811,
-    "title": "深浅规律"
-   },
-   {
-    "line": 849,
-    "title": "反轴 Iₙ（考纲与映轴并列）"
-   },
-   {
-    "line": 978,
-    "title": "半径比是必要条件，非充分条件"
-   },
-   {
-    "line": 1021,
-    "title": "原理"
-   },
-   {
-    "line": 1022,
-    "title": "立方消光规则"
-   },
-   {
-    "line": 1023,
-    "title": "应用"
-   },
-   {
-    "line": 1024,
-    "title": "易错"
-   },
-   {
-    "line": 1040,
-    "title": "能量账本类比"
-   },
-   {
-    "line": 1042,
-    "title": "近年真题"
-   },
-   {
-    "line": 1111,
-    "title": "钙钛矿容忍因子"
-   },
-   {
-    "line": 1113,
-    "title": "结构判断思路"
-   },
-   {
-    "line": 1115,
-    "title": "近年真题"
-   },
-   {
-    "line": 1118,
-    "title": "能带形成"
-   },
-   {
-    "line": 1119,
-    "title": "三态判据"
-   },
-   {
-    "line": 1120,
-    "title": "掺杂半导体"
-   },
-   {
-    "line": 1121,
-    "title": "晶体缺陷"
-   }
-  ],
+  "total_lines": 1452,
+  "pseudo_callout": [],
   "callout": [
    {
     "line": 131,
@@ -294,20 +57,8 @@
     "type": "warning"
    },
    {
-    "line": 753,
-    "type": "warning"
-   },
-   {
-    "line": 756,
-    "type": "tip"
-   },
-   {
     "line": 798,
     "type": "warning"
-   },
-   {
-    "line": 807,
-    "type": "tip"
    },
    {
     "line": 1020,
@@ -320,13 +71,10 @@
    {
     "line": 1108,
     "type": "warning"
-   },
-   {
-    "line": 1117,
-    "type": "tip"
    }
   ],
   "warning_prefix": [],
+  "structural_exempt": [],
   "fragments": [
    {
     "line": 284,
@@ -352,13 +100,24 @@
     "text": "[[题库索引-结构化学基础]]"
    }
   ],
-  "quickref_names": [],
+  "quickref_names": [
+   {
+    "line": 1190,
+    "heading": "本讲小结",
+    "matched": "本讲小结"
+   },
+   {
+    "line": 1201,
+    "heading": "本讲速查",
+    "matched": "本讲速查"
+   }
+  ],
   "dup_pairs": [],
   "term_variants": [],
   "weasel_words": [],
   "hybrid_syntax": [],
   "unit_range": [],
-  "callout_density_per_100": 1.46,
+  "callout_density_per_100": 1.17,
   "callout_limit": 12
  }
 ]
