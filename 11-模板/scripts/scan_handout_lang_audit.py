@@ -72,7 +72,12 @@ QUICKREF_TARGET = "本讲速查"
 SUMMARY_TARGET = "本讲小结"
 QUICKREF_VARIANTS = ("本节总结", "核心速查卡", "速查卡", "知识速查")
 
-CALLOUT_RE = re.compile(r"^>\s*\[!(tip|warning|info|note|abstract|example|quote|summary)\]", re.I)
+# Obsidian 官方 callout 类型全集（2026-09-24 修正：原白名单漏 important/hint/caution/danger 等，
+# 导致 [!important] 块不被识别为正式 callout → 其块内 `> **突破**：` 类结构行被误报伪 callout）
+CALLOUT_RE = re.compile(
+    r"^>\s*\[!(tip|warning|info|note|abstract|example|quote|summary"
+    r"|important|hint|caution|attention|danger|error|bug"
+    r"|success|check|done|failure|fail|missing|question|help|faq|todo)\]", re.I)
 PSEUDO_RE = re.compile(r"^>\s*\*\*([^*]{2,40})\*\*\s*[：:]")
 
 # S0 豁免白名单（推广批校准固化，2026-09-23）：下列标题的 `> **…**：` 是**结构位**
