@@ -1,0 +1,219 @@
+{
+ "op": "SVG-in-.png → 真 PNG（LibreOffice→PDF→pdftoppm 栅格化，原地同名）",
+ "why_not_rename": "Word 管线缺 rsvg-convert（pandoc 实测告警），改 .svg 兼容性不可控",
+ "backup_dir": "媒体仓库\\_待清理\\_SVG原图",
+ "unique_contents": 6,
+ "locations": 21,
+ "items": [
+  {
+   "path": "媒体仓库\\0049220a6496b3666fa27e05dfc7b71b821c29c977f0d16c1c5ff905e1a38118.png",
+   "md5_before": "64525f715a324d3ededbea097d3c83ff",
+   "bytes_before": 21506,
+   "rendered": [
+    1801,
+    943
+   ],
+   "bytes_after": 27179
+  },
+  {
+   "path": "媒体仓库\\141419b5017078dbec3f7bf91148bd2ad886ac05b8206a10d0a4d3e7f80f008c.png",
+   "md5_before": "49a1517071f19c3a44300f6bf76ae1fb",
+   "bytes_before": 4737,
+   "rendered": [
+    2600,
+    1882
+   ],
+   "bytes_after": 88054
+  },
+  {
+   "path": "媒体仓库\\361b63e61a464fc9e2d04dfbb287248a20ed322f4787b2c65394f93b47c82e32.png",
+   "md5_before": "a415f9827ea1e2b4534dac94e16b6b67",
+   "bytes_before": 6740,
+   "rendered": [
+    2394,
+    1625
+   ],
+   "bytes_after": 554225
+  },
+  {
+   "path": "媒体仓库\\56de3842c5c41f2cf6e78a14dea82b588b0a46a95e8a8ed83352b89663928e46.png",
+   "md5_before": "4ea40a5d5790db898870af4d82f00b07",
+   "bytes_before": 1586,
+   "rendered": [
+    441,
+    878
+   ],
+   "bytes_after": 10245
+  },
+  {
+   "path": "06-学生侧材料\\学生讲义\\media\\carbene.png",
+   "md5_before": "4ea40a5d5790db898870af4d82f00b07",
+   "bytes_before": 1586,
+   "rendered": [
+    441,
+    878
+   ],
+   "bytes_after": 10245
+  },
+  {
+   "path": "06-学生侧材料\\讲义\\media\\carbene.png",
+   "md5_before": "4ea40a5d5790db898870af4d82f00b07",
+   "bytes_before": 1586,
+   "rendered": [
+    441,
+    878
+   ],
+   "bytes_after": 10245
+  },
+  {
+   "path": "11-模板\\scripts\\.chem_media\\carbene.png",
+   "md5_before": "4ea40a5d5790db898870af4d82f00b07",
+   "bytes_before": 1586,
+   "rendered": [
+    441,
+    878
+   ],
+   "bytes_after": 10245
+  },
+  {
+   "path": "media\\carbene.png",
+   "md5_before": "4ea40a5d5790db898870af4d82f00b07",
+   "bytes_before": 1586,
+   "rendered": [
+    441,
+    878
+   ],
+   "bytes_after": 10245
+  },
+  {
+   "path": "媒体仓库\\carbene.png",
+   "md5_before": "4ea40a5d5790db898870af4d82f00b07",
+   "bytes_before": 1586,
+   "rendered": [
+    441,
+    878
+   ],
+   "bytes_after": 10245
+  },
+  {
+   "path": "06-学生侧材料\\学生讲义\\media\\chirality-hands.png",
+   "md5_before": "a415f9827ea1e2b4534dac94e16b6b67",
+   "bytes_before": 6740,
+   "rendered": [
+    2394,
+    1625
+   ],
+   "bytes_after": 554225
+  },
+  {
+   "path": "06-学生侧材料\\讲义\\media\\chirality-hands.png",
+   "md5_before": "e624e56c8abaead3a5150a134fd116ff",
+   "bytes_before": 6842,
+   "rendered": [
+    2394,
+    1625
+   ],
+   "bytes_after": 554225
+  },
+  {
+   "path": "11-模板\\scripts\\.chem_media\\chirality-hands.png",
+   "md5_before": "a415f9827ea1e2b4534dac94e16b6b67",
+   "bytes_before": 6740,
+   "rendered": [
+    2394,
+    1625
+   ],
+   "bytes_after": 554225
+  },
+  {
+   "path": "media\\chirality-hands.png",
+   "md5_before": "a415f9827ea1e2b4534dac94e16b6b67",
+   "bytes_before": 6740,
+   "rendered": [
+    2394,
+    1625
+   ],
+   "bytes_after": 554225
+  },
+  {
+   "path": "06-学生侧材料\\学生讲义\\media\\peptide-bond.png",
+   "md5_before": "49a1517071f19c3a44300f6bf76ae1fb",
+   "bytes_before": 4737,
+   "rendered": [
+    2600,
+    1882
+   ],
+   "bytes_after": 88054
+  },
+  {
+   "path": "06-学生侧材料\\讲义\\media\\peptide-bond.png",
+   "md5_before": "49a1517071f19c3a44300f6bf76ae1fb",
+   "bytes_before": 4737,
+   "rendered": [
+    2600,
+    1882
+   ],
+   "bytes_after": 88054
+  },
+  {
+   "path": "11-模板\\scripts\\.chem_media\\peptide-bond.png",
+   "md5_before": "49a1517071f19c3a44300f6bf76ae1fb",
+   "bytes_before": 4737,
+   "rendered": [
+    2600,
+    1882
+   ],
+   "bytes_after": 88054
+  },
+  {
+   "path": "06-学生侧材料\\学生讲义\\media\\radical-chain.png",
+   "md5_before": "64525f715a324d3ededbea097d3c83ff",
+   "bytes_before": 21506,
+   "rendered": [
+    1801,
+    943
+   ],
+   "bytes_after": 27179
+  },
+  {
+   "path": "06-学生侧材料\\讲义\\media\\radical-chain.png",
+   "md5_before": "9cf316d63597d361d33020ca339f521a",
+   "bytes_before": 21635,
+   "rendered": [
+    1801,
+    943
+   ],
+   "bytes_after": 27179
+  },
+  {
+   "path": "11-模板\\scripts\\.chem_media\\radical-chain.png",
+   "md5_before": "64525f715a324d3ededbea097d3c83ff",
+   "bytes_before": 21506,
+   "rendered": [
+    1801,
+    943
+   ],
+   "bytes_after": 27179
+  },
+  {
+   "path": "media\\radical-chain.png",
+   "md5_before": "64525f715a324d3ededbea097d3c83ff",
+   "bytes_before": 21506,
+   "rendered": [
+    1801,
+    943
+   ],
+   "bytes_after": 27179
+  },
+  {
+   "path": "媒体仓库\\radical-chain.png",
+   "md5_before": "64525f715a324d3ededbea097d3c83ff",
+   "bytes_before": 21506,
+   "rendered": [
+    1801,
+    943
+   ],
+   "bytes_after": 27179
+  }
+ ]
+}
