@@ -9,6 +9,7 @@
   ① 移动类（从图库移走 / 从子目录 moved）→ 按清单 move 回原位
   ② 覆盖类（原地覆盖修复）→ 从备份目录 copy 回原位
   ③ 栅格化类（多目录、异名备份）→ 按 item["path"] + `md5__name` 备份名还原
+  ④ 源料侧镜像（`06-外部资料导入/` 下的同名副本）→ items 为路径列表，备份名 `<父目录名>__<原名>`
 
 ⚠️ 清单一律读**已入库**的 `scripts/` 版；`tmp/` 只是草稿区，换机后不可依赖。
 ⚠️ 干跑（默认）只报数，不动文件；确认后加 `run`。
@@ -44,6 +45,7 @@ for _man, _desc in MOVES:
 
 # ── ② 覆盖类：从备份目录 copy 回原位（逆序）──────────────────────────────────
 OVERWRITE = [
+    (S / "img_margin_manifest.json", "媒体仓库/_待清理/_白边原图", "白边裁切"),
     (S / "img_degray_manifest.json", "媒体仓库/_待清理/_灰底原图", "灰底白点拉伸"),
     (S / "img_mirror_manifest.json", "媒体仓库/_待清理/_镜像原图", "镜像水平翻转"),
     (S / "img_deexpose_manifest.json", "媒体仓库/_待清理/_欠曝原图", "欠曝对比度增强"),
@@ -83,6 +85,25 @@ if _man.exists():
     print(verb, n, f'个文件（SVG 栅格化还原为原 .svg 内容）  备份={m["backup_dir"]}')
 else:
     print("  [跳过] SVG 栅格化：清单不存在")
+
+# ── ④ 源料侧镜像：items 是路径字符串，备份名 <父目录名>__<原名> ─────────────────
+_man = S / "img_mirror_src_manifest.json"
+if _man.exists():
+    m = json.load(open(_man, encoding="utf-8"))
+    bak = VAULT / m["backup_dir"]
+    n = 0
+    for rel in m["items"]:
+        d = VAULT / rel
+        b = bak / f"{Path(rel).parent.name}__{Path(rel).name}"
+        if not b.exists():
+            continue
+        if not dry:
+            d.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(b, d)
+        n += 1
+    print(verb, n, f'个文件（源料侧镜像翻转还原）  备份={m["backup_dir"]}')
+else:
+    print("  [跳过] 源料侧镜像：清单不存在")
 
 if dry:
     print("\n（干跑）确认无误后加 run 执行；建议先跑一次 git status 看有无他人未提交改动。")
