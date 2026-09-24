@@ -1278,7 +1278,7 @@ def gate_v2(r, fm, q, a, rej):
     ⚠️ H1 须从**磁盘原文**读取：`load()` 已 drop_h1，q 里拿不到 H1。
     """
     _qs = q.strip()
-    if re.search(r"见原书|图略|自己画吧|待补充|略，见源文件|原文未提供", _qs):
+    if re.search(r"见原书|图略|自己画吧|待补充|略，见源文件|原文未提供|见原卷|<<<", _qs):
         rej["纯指针/无实质题干"] += 1
         return False
     _h1s = ""
