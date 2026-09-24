@@ -25,8 +25,7 @@ last_audit: "2026-08-04 新建（S2）：承接决赛04 热力学深半（Maxwel
 template_version: 自学完整版 v3.0
 stage: published
 sources:
-  - "[[07-资料提炼/书籍提炼/提炼-Atkins物理化学-主题2-3-热力学定律]]"
-  - "[[07-资料提炼/书籍提炼/提炼-Atkins物理化学-主题13-14-统计热力学与分子相互作用]]"
+  - "[[mineru/03-教材书籍/物理化学/物理化学/物理化学（第11版）第13章 统计热力学544-585]]"
 problems: []
 exercise_count: 15
 exercise_levels:
