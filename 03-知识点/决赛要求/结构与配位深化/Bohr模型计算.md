@@ -477,7 +477,7 @@ SORT year DESC, difficulty ASC
 ```
 
 **已配图（07-30）**：
-- 里德伯公式：![[media/zhao_rydberg_formula.jpg]]（赵鑫光笔记Ch1-199，hv=E₂-E₁, hc/λ=E₂-E₁, 波数ν̃=1/λ，Bohr模型核心公式）
+- 里德伯公式：$h\nu = E_2 - E_1$、$hc/\lambda = E_2 - E_1$、波数 $\tilde{\nu} = 1/\lambda$（赵鑫光笔记Ch1-199，Bohr 模型核心公式）
 
 **已配图字段更新**：has_images: true, image_count: 1
 

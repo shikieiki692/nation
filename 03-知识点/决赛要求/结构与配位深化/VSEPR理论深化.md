@@ -228,6 +228,6 @@ VSEPR理论深化
 | **自由基/卡宾** | — | 取决于自旋态 | ✗ 单电子占据轨道难以分类 |
 
 **已配图（07-30）**：
-- NO₃⁻共振结构：![[media/zhao_no3_resonance.jpg]]（赵鑫光笔记Ch1-199，N=O双键，形式电荷±标注，VSEPR理论典型应用案例）
+- NO₃⁻共振结构：原配图 zhao_no3_resonance.jpg 内容为氯的电子亲合能（Cl(g)+e⁻→Cl⁻(g)，ΔH₄=−348.7 kJ/mol），与本条描述不符，已移除，待补正确配图。
 
 **已配图字段更新**：has_images: true, image_count: 1

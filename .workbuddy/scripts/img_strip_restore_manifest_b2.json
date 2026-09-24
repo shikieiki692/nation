@@ -1,0 +1,164 @@
+{
+ "batch": "03-知识点 剩余 20 处（A2）",
+ "total": 18,
+ "items": [
+  {
+   "md": "03-知识点/决赛要求/物理化学深化/光化学基础.md",
+   "ln": 57,
+   "del_ln": [
+    59
+   ],
+   "old": "![[zhao_photon_64e5568a.jpg]]",
+   "old_caption": [
+    "*图：光子能量和波长计算公式（ΔE=hν=hc/λ，λ=480nm），光化学反应的能量基础*"
+   ]
+  },
+  {
+   "md": "03-知识点/决赛要求/物理化学深化/热力学第一定律深化.md",
+   "ln": 68,
+   "del_ln": [
+    69
+   ],
+   "old": "![[zhao_thermochem_29746eca.jpg]]",
+   "old_caption": [
+    "*图：热化学方程 2H₂(g)+O₂(g)=2H₂O(l)，ΔrHm=-571.6kJ/mol，展示热化学反应的能量变化*"
+   ]
+  },
+  {
+   "md": "03-知识点/决赛要求/物理化学深化/电极电势深化.md",
+   "ln": 63,
+   "del_ln": [
+    64
+   ],
+   "old": "![[zhao_battery_1e581476.jpg]]",
+   "old_caption": [
+    "*图：电池符号表示（(-)Zn|Zn²⁺||H⁺|H₂|Pt(+)），展示电化学电池的标准表示方法*"
+   ]
+  },
+  {
+   "md": "03-知识点/决赛要求/结构与配位深化/Bohr模型计算.md",
+   "ln": 480,
+   "del_ln": [],
+   "old": "- 里德伯公式：![[media/zhao_rydberg_formula.jpg]]（赵鑫光笔记Ch1-199，hv=E₂-E₁, hc/λ=E₂-E₁, 波数ν̃=1/λ，Bohr模型核心公式）",
+   "old_caption": []
+  },
+  {
+   "md": "03-知识点/决赛要求/结构与配位深化/原子轨道与波函数.md",
+   "ln": 99,
+   "del_ln": [
+    100
+   ],
+   "old": "![[zhao_slater_9b48b088.jpg]]",
+   "old_caption": [
+    "*图：Slater法轨道能量计算（E₃ₛ=-143.7eV，E₃d=-13.6eV），展示轨道能量的定量计算*"
+   ]
+  },
+  {
+   "md": "03-知识点/有机化学/直接加成与共轭加成.md",
+   "ln": 373,
+   "del_ln": [
+    374
+   ],
+   "old": "![[554d3f272c99473474e220a23c3c79cb02a693f014e50de1fa20071e9a950ec5.jpg]]",
+   "old_caption": [
+    "> *图释：硫醇对丙烯酸甲酯Michael共轭加成合成含硫羧酸酯*（来源：clayden_ch24_thiol_michael_addition_ester.jpg / 共轭加成/硫化学）"
+   ]
+  },
+  {
+   "md": "03-知识点/无机和结构化学/有效核电荷.md",
+   "ln": 184,
+   "del_ln": [
+    185
+   ],
+   "old": "![[d31b275d36a98582661dc0d64b9ea964d12e8c737d65966c75d4c78071e5939c.jpg]]",
+   "old_caption": [
+    "> *图释：电子屏蔽效应与有效核电荷计算模型（Slater）*（来源： / 结构化学第一轮复习）"
+   ]
+  },
+  {
+   "md": "03-知识点/决赛要求/物理化学深化/可逆电池.md",
+   "ln": 165,
+   "del_ln": [],
+   "old": "- 铈电极电势：![[media/zhao_ce_electrode.jpg]]（赵鑫光笔记Ch351-482，Esp=Eθ(Ce⁴⁺/Ce³⁺)+0.0591×lg(c(Ce⁴⁺)/c(Ce³⁺))，铈电极Nernst方程示例）",
+   "old_caption": []
+  },
+  {
+   "md": "03-知识点/决赛要求/物理化学深化/固体物理性质.md",
+   "ln": 192,
+   "del_ln": [],
+   "old": "- Ba-Y-Cu-O高温超导体晶体结构：![[media/zhao_baycuo_crystal.jpg]]（赵鑫光笔记Ch1-199，标注Ba,Y,Cu,O原子位置，高温超导体典型钙钛矿层状结构）",
+   "old_caption": []
+  },
+  {
+   "md": "03-知识点/决赛要求/物理化学深化/热力学第三定律深化.md",
+   "ln": 71,
+   "del_ln": [
+    73
+   ],
+   "old": "![[zhao_thermo_e42bd09b.jpg]]",
+   "old_caption": [
+    "*图：热力学数据表（CO₂/H₂/CO/H₂O的ΔfHθm与Sθm），标准熵数据是第三定律积分结果的直接体现*"
+   ]
+  },
+  {
+   "md": "03-知识点/决赛要求/结构与配位深化/VSEPR理论深化.md",
+   "ln": 231,
+   "del_ln": [],
+   "old": "- NO₃⁻共振结构：![[media/zhao_no3_resonance.jpg]]（赵鑫光笔记Ch1-199，N=O双键，形式电荷±标注，VSEPR理论典型应用案例）",
+   "old_caption": []
+  },
+  {
+   "md": "03-知识点/决赛要求/结构与配位深化/休克尔方法.md",
+   "ln": 340,
+   "del_ln": [],
+   "old": "- Slater法轨道能量计算：![[media/zhao_orbital_energy_calc.jpg]]（赵鑫光笔记Ch1-199，E₃ₛ=-143.7eV，E₃d=-13.6eV，轨道能量计算方法示例）",
+   "old_caption": []
+  },
+  {
+   "md": "03-知识点/决赛要求/金属有机与超分子/β_氢消除.md",
+   "ln": 62,
+   "del_ln": [],
+   "old": "![[zhao_zeise_salt_352d5e21.jpg]]",
+   "old_caption": []
+  },
+  {
+   "md": "03-知识点/决赛要求/金属有机与超分子/催化循环入门.md",
+   "ln": 74,
+   "del_ln": [],
+   "old": "![[zhao_wilkinson_catalyst_2858753d.jpg]]",
+   "old_caption": []
+  },
+  {
+   "md": "03-知识点/有机化学/官能团.md",
+   "ln": 87,
+   "del_ln": [
+    88
+   ],
+   "old": "![[0f0dda23286cc3f48513a5239a6d397e308c9d48196556339fba3ff4954414b0.jpg]]",
+   "old_caption": [
+    "> *图释：官能团（-NH₂/=NH/-COOH/-OH/-CONH₂）*（来源： / 批次31-32）"
+   ]
+  },
+  {
+   "md": "03-知识点/有机化学/苯胺.md",
+   "ln": 63,
+   "del_ln": [],
+   "old": "![[zhao_diazotization_dd5f641b.jpg]]",
+   "old_caption": []
+  },
+  {
+   "md": "03-知识点/有机化学/苯酚.md",
+   "ln": 58,
+   "del_ln": [],
+   "old": "![[zhao_phenol_bromination_92b22a2a.jpg]]",
+   "old_caption": []
+  },
+  {
+   "md": "03-知识点/有机化学/重氮盐.md",
+   "ln": 73,
+   "del_ln": [],
+   "old": "![[zhao_diazotization_dd5f641b.jpg]]",
+   "old_caption": []
+  }
+ ]
+}

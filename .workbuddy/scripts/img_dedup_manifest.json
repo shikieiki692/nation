@@ -1,0 +1,145 @@
+{
+ "rule": "md5 相同者合并；FM 有引用者跳过",
+ "rewrites": [
+  {
+   "name": "zhao_be_n_01a5bf92.jpg",
+   "canon": "zhao_be_n_complex.jpg",
+   "files": [
+    "03-知识点\\决赛要求\\结构与配位深化\\配合物稳定性.md"
+   ]
+  },
+  {
+   "name": "zhao_hess_born_haber_kcl.jpg",
+   "canon": "zhao_born_haber_kcl.jpg",
+   "files": [
+    "03-知识点\\化学原理\\盖斯定律.md"
+   ]
+  },
+  {
+   "name": "zhao_cu_elec_c25abdce.jpg",
+   "canon": "zhao_cu_elec.jpg",
+   "files": [
+    "03-知识点\\分析化学\\条件电势.md"
+   ]
+  },
+  {
+   "name": "zhao_ferrocene_structure.jpg",
+   "canon": "zhao_ferrocene_342ab882.jpg",
+   "files": [
+    "03-知识点\\化学原理\\配合物.md"
+   ]
+  },
+  {
+   "name": "zhao_if6o_516e2d10.jpg",
+   "canon": "zhao_if6o_isomers.jpg",
+   "files": [
+    "03-知识点\\化学原理\\对称性与配位构型.md"
+   ]
+  }
+ ],
+ "moved": [
+  {
+   "cls": "DUP",
+   "name": "zhao_slater_9b48b088.jpg",
+   "why": "双方零引用",
+   "src": "媒体仓库/zhao_slater_9b48b088.jpg",
+   "dst": "媒体仓库/_待清理/_重复/zhao_slater_9b48b088.jpg",
+   "size": 11871
+  },
+  {
+   "cls": "DUP",
+   "name": "zhao_be_n_01a5bf92.jpg",
+   "why": "改引用后去重",
+   "src": "媒体仓库/zhao_be_n_01a5bf92.jpg",
+   "dst": "媒体仓库/_待清理/_重复/zhao_be_n_01a5bf92.jpg",
+   "size": 7991
+  },
+  {
+   "cls": "DUP",
+   "name": "zhao_hess_born_haber_kcl.jpg",
+   "why": "改引用后去重",
+   "src": "媒体仓库/zhao_hess_born_haber_kcl.jpg",
+   "dst": "媒体仓库/_待清理/_重复/zhao_hess_born_haber_kcl.jpg",
+   "size": 17410
+  },
+  {
+   "cls": "DUP",
+   "name": "zhao_cu_elec_c25abdce.jpg",
+   "why": "改引用后去重",
+   "src": "媒体仓库/zhao_cu_elec_c25abdce.jpg",
+   "dst": "媒体仓库/_待清理/_重复/zhao_cu_elec_c25abdce.jpg",
+   "size": 18999
+  },
+  {
+   "cls": "DUP",
+   "name": "zhao_ferrocene_structure.jpg",
+   "why": "改引用后去重",
+   "src": "媒体仓库/zhao_ferrocene_structure.jpg",
+   "dst": "媒体仓库/_待清理/_重复/zhao_ferrocene_structure.jpg",
+   "size": 13581
+  },
+  {
+   "cls": "DUP",
+   "name": "zhao_hs_dissoc_01633064.jpg",
+   "why": "双方零引用",
+   "src": "媒体仓库/zhao_hs_dissoc_01633064.jpg",
+   "dst": "媒体仓库/_待清理/_重复/zhao_hs_dissoc_01633064.jpg",
+   "size": 9178
+  },
+  {
+   "cls": "DUP",
+   "name": "zhao_if6o_516e2d10.jpg",
+   "why": "改引用后去重",
+   "src": "媒体仓库/zhao_if6o_516e2d10.jpg",
+   "dst": "媒体仓库/_待清理/_重复/zhao_if6o_516e2d10.jpg",
+   "size": 19391
+  },
+  {
+   "cls": "DUP",
+   "name": "zhao_thermochem_29746eca.jpg",
+   "why": "双方零引用",
+   "src": "媒体仓库/zhao_thermochem_29746eca.jpg",
+   "dst": "媒体仓库/_待清理/_重复/zhao_thermochem_29746eca.jpg",
+   "size": 8090
+  }
+ ],
+ "skipped": [
+  {
+   "name": "zhao_bondorder_003e7d8e.jpg",
+   "canon": "zhao_mo_h2_003e7d8e.jpg",
+   "body": 1,
+   "fm": 1
+  },
+  {
+   "name": "zhao_dg_w_relation_91524757.jpg",
+   "canon": "zhao_deltaG_work.jpg",
+   "body": 0,
+   "fm": 2
+  },
+  {
+   "name": "zhao_octahedral_cfield.jpg",
+   "canon": "zhao_octahedral_cft.jpg",
+   "body": 1,
+   "fm": 1
+  },
+  {
+   "name": "zhao_orbital_levels_a159723a.jpg",
+   "canon": "zhao_orbital_levels_0621fbe9.jpg",
+   "body": 1,
+   "fm": 1
+  },
+  {
+   "name": "zhao_thermo_data_table.jpg",
+   "canon": "zhao_thermo_e42bd09b.jpg",
+   "body": 0,
+   "fm": 2
+  }
+ ],
+ "changed_files": [
+  "03-知识点\\决赛要求\\结构与配位深化\\配合物稳定性.md",
+  "03-知识点\\化学原理\\盖斯定律.md",
+  "03-知识点\\分析化学\\条件电势.md",
+  "03-知识点\\化学原理\\配合物.md",
+  "03-知识点\\化学原理\\对称性与配位构型.md"
+ ]
+}
