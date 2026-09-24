@@ -64,6 +64,8 @@ skills/
 !11-模板/scripts/render_gate_allowlist.txt
 !11-模板/scripts/hooks/
 !11-模板/scripts/hooks/**
+# 口径 v2 度量器（2026-09-24 独立审查后固化的唯一度量入口）
+!11-模板/scripts/handout_metrics.py
 # 回堵：上面的 ! 会越过第 14 行的 __pycache__/ 规则，这里再排除一次
 11-模板/scripts/qa/__pycache__/
 
