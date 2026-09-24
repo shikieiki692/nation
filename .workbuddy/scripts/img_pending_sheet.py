@@ -30,7 +30,11 @@ Image.MAX_IMAGE_PIXELS = None
 V = Path(r"C:\Obsidion\妙妙屋")
 M = V / "媒体仓库"
 O = V / ".workbuddy/tmp/img_audit"
-WO = V / ".workbuddy/scripts/img_pending_wo.json"
+# 工单可切换：主工单=在库×被引用（589）；副工单=在库×未引用（img_pending_wo_sec.json）
+#   用环境变量 IMG_PENDING_WO 指定，默认主工单
+import os as _os
+WO = V / _os.environ.get("IMG_PENDING_WO", ".workbuddy/scripts/img_pending_wo.json")
+print("[wo]", WO.name)
 CTX = json.load(open(O / "img_context.json", encoding="utf-8"))
 PA = json.load(open(O / "pending_audit.json", encoding="utf-8"))
 
