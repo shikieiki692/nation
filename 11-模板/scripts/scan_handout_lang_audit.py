@@ -12,6 +12,15 @@
   motto_dupe       引号长句（口诀）逐字重复                          规范 §5.3
   quickref_names   收尾节命名识别                                    规范 §6.1
   dup_pairs        跨区域疑似重复对（规范化 8-gram 相似）             规范 §1
+  term_variants    术语异形词（替换式：阿佛加德罗/稀烃等）            规范 §8.1
+  term_confusable  易混用字组（氨铵胺/酯脂/氰腈/羟羧羰，同篇≥2 种才提示）规范 §8.2
+  weasel_words     Weasel 词（匿名权威/跳步遮蔽）                     规范 §9.2
+  hybrid_syntax    句式杂糅特征                                      规范 §7.1
+  unit_range       数值范围误用连字符（应为「～」）                    规范 §7.5/§7.6
+
+  说明：v1.2 新增层中的 §11 化学式与反应式、§12 图表编排（表题/图交叉引用）、
+  §13 出处、§14 安全与伦理**暂无机检判据**，按规范 §10.4 走人工抽验
+  （图交叉引用可用 grep「见图 N」快速核实，见执行手册防坑 30/31）。
 
 用法：
   python -X utf8 scan_handout_lang_audit.py --path <md路径> [--path <md2> ...]
@@ -49,6 +58,16 @@ TERM_VARIANTS = {
     "稀烃": "烯烃",
 }
 
+# 易混用字组（规范 §8.2）：这类字单独看都正确，只有「同组内互混」才是错，
+# 故不能做替换式词表——改为**同篇内出现 ≥2 种即提示人工核对**（低噪声判据）。
+# 形如 组名 -> (辨析提示, 成员字集合)
+TERM_CONFUSABLE = {
+    "氨铵胺": ("氨（NH₃ 分子/氨水）｜铵（NH₄⁺、铵盐）｜胺（有机 -NH₂：甲胺、苯胺）", "氨铵胺"),
+    "酯脂": ("酯（RCOOR'：乙酸乙酯）｜脂（脂肪、脂溶性）", "酯脂"),
+    "氰腈": ("氰（无机 -C≡N：氰化钾）｜腈（有机：丙烯腈）", "氰腈"),
+    "羟羧羰": ("羟基 -OH｜羧基 -COOH｜羰基 C=O", "羟羧羰"),
+}
+
 # Weasel 词（规范 §9.2）：匿名权威/跳步遮蔽/预设断言初筛词表
 WEASEL_WORDS = {
     "研究表明": "写实名出处（如「由 Hess 定律可知」）或删",
@@ -65,7 +84,8 @@ HYBRID_SYNTAX_RE = re.compile(
 )
 
 # 数值范围连字符（规范 §7.3，GB/T 15835）：应为「～」；豁免化学式位次连字符
-UNIT_RANGE_RE = re.compile(r"\d\s*[-—]\s*\d+\s*(mL|L|mol|kJ|kJ/mol|K|°C|eV|pm|nm|g)\b")
+# 补 %（百分数范围：10%-20% 亦应作 10%～20%）
+UNIT_RANGE_RE = re.compile(r"\d\s*[-—]\s*\d+\s*(mL|L|mol|kJ|kJ/mol|K|°C|eV|pm|nm|g|%)\b")
 
 # 收尾节命名归一目标（规范 §6.1）
 QUICKREF_TARGET = "本讲速查"
@@ -211,7 +231,10 @@ def scan_file(path: Path, frag_len: int, dup_n: int, dup_th: float) -> dict:
         "fragments": [], "negative_words": [], "whitelist_hits": [],
         "motto_dupe": [], "quickref_names": [], "dup_pairs": [],
         "term_variants": [], "weasel_words": [], "hybrid_syntax": [], "unit_range": [],
+        "term_confusable": [],
     }
+    # 易混用字组：组名 -> {字: [行号...]}，篇末判定同组出现 ≥2 种才报
+    confusable_seen = {g: {} for g in TERM_CONFUSABLE}
     # ---- 区块状态机：图注/公式块/引用块/速查节识别 ----
     in_math = False
     in_answer = False
@@ -267,6 +290,11 @@ def scan_file(path: Path, frag_len: int, dup_n: int, dup_th: float) -> dict:
         for w, std in TERM_VARIANTS.items():
             if w in s:
                 res["term_variants"].append({"line": i, "word": w, "suggest": std, "text": s[:60]})
+        # 易混用字组（§8.2）：仅做出现统计，篇末判定
+        for gname, (_tip, chars) in TERM_CONFUSABLE.items():
+            for ch in chars:
+                if ch in s:
+                    confusable_seen[gname].setdefault(ch, []).append(i)
         # Weasel 词（§9.2）
         for w, sug in WEASEL_WORDS.items():
             if w in s:
@@ -275,10 +303,18 @@ def scan_file(path: Path, frag_len: int, dup_n: int, dup_th: float) -> dict:
         m = HYBRID_SYNTAX_RE.search(s)
         if m:
             res["hybrid_syntax"].append({"line": i, "pattern": m.group(0)[:24], "text": s[:60]})
-        # 数值范围连字符（§7.3）
+        # 数值范围连字符（§7.5/§7.6）
         m = UNIT_RANGE_RE.search(s)
         if m:
             res["unit_range"].append({"line": i, "match": m.group(0), "text": s[:60]})
+    # ---- 易混用字组篇末判定（§8.2）：同组同篇出现 ≥2 种才提示人工核对 ----
+    for gname, (tip, chars) in TERM_CONFUSABLE.items():
+        seen = confusable_seen[gname]
+        if len(seen) >= 2:
+            res["term_confusable"].append({
+                "group": gname, "tip": tip,
+                "lines": {ch: ls[:3] for ch, ls in seen.items()},
+            })
     # ---- 单句碎片段（普通段落，前后空行，豁免图注/公式/表/列表/标题/引用） ----
     for i, line in enumerate(lines, 1):
         s = line.strip()
