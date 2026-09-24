@@ -1,0 +1,1899 @@
+{
+ "scope": "前 180 张（共 589）",
+ "ok": 171,
+ "bad": 9,
+ "bad_items": [
+  {
+   "idx_no": 10,
+   "idx": "01-有机化学",
+   "ln": 1123,
+   "name": "01f5d138cad369132fc006b6621706721dc5c4399d502b0645f707fdb2cee606.jpg",
+   "verdict": "废片",
+   "why": "剪贴画（望远镜）",
+   "w": 62,
+   "h": 59
+  },
+  {
+   "idx_no": 27,
+   "idx": "01-有机化学",
+   "ln": 1139,
+   "name": "04442447da03cb9ff9a6c749b98b4040f8d989de8d368b32811415d5fe60c85a.jpg",
+   "verdict": "废片",
+   "why": "ISBN 条形码",
+   "w": 245,
+   "h": 184
+  },
+  {
+   "idx_no": 37,
+   "idx": "01-有机化学",
+   "ln": 552,
+   "name": "0a4c3f765cbff5dd4d497d06332885647532e991620434198ffea62c3cf6114e.jpg",
+   "verdict": "废片",
+   "why": "QR 码",
+   "w": 101,
+   "h": 96
+  },
+  {
+   "idx_no": 58,
+   "idx": "01-有机化学",
+   "ln": 684,
+   "name": "240cedaea763d365ee8784ee35b129b445b3d26b8c58ac1d42aa3b4353658380.jpg",
+   "verdict": "废片",
+   "why": "QR 码",
+   "w": 100,
+   "h": 95
+  },
+  {
+   "idx_no": 62,
+   "idx": "01-有机化学",
+   "ln": 555,
+   "name": "25ff7cd2ea78199fd84f9303752e70e22b3524c25ba4ec58289a1ca67675a930.jpg",
+   "verdict": "废片",
+   "why": "内容不可辨（模糊月牙群）",
+   "w": 279,
+   "h": 164
+  },
+  {
+   "idx_no": 80,
+   "idx": "01-有机化学",
+   "ln": 1018,
+   "name": "3bf127945ca23e3c080655e1a69a9e6c7e82a5d591021eb7b348591c1821e636.jpg",
+   "verdict": "废片",
+   "why": "OCR 切图残片（只剩方框）",
+   "w": 215,
+   "h": 223
+  },
+  {
+   "idx_no": 93,
+   "idx": "01-有机化学",
+   "ln": 497,
+   "name": "4dab38215f09b64ee819fd5fc0240b917cfe1883e2d75b00c66a26b4dd18b510.jpg",
+   "verdict": "废片",
+   "why": "不完整残片（孤立波浪线）",
+   "w": 149,
+   "h": 98
+  },
+  {
+   "idx_no": 135,
+   "idx": "01-有机化学",
+   "ln": 1026,
+   "name": "6ae404c7a9964a9b4f1dad6b2bf5539c4d02d5ddd8b2ce89dc808611b2796060.jpg",
+   "verdict": "废片",
+   "why": "OCR 切图残片（只剩方框）",
+   "w": 229,
+   "h": 220
+  },
+  {
+   "idx_no": 160,
+   "idx": "01-有机化学",
+   "ln": 399,
+   "name": "7a92b646cd247e987cf2cbccd481176a7979284727f8624df8a87a4db5399bbb.jpg",
+   "verdict": "废片",
+   "why": "QR 码",
+   "w": 96,
+   "h": 98
+  }
+ ],
+ "all_items": [
+  {
+   "idx_no": 0,
+   "idx": "01-有机化学",
+   "ln": 455,
+   "name": "0016555e6ccf74c5d0b46fbf3a407efda8a53596334b0bf170080b3c50fe0526.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 224,
+   "h": 141
+  },
+  {
+   "idx_no": 1,
+   "idx": "01-有机化学",
+   "ln": 235,
+   "name": "003096ecc39f0c298c51e338473c335e8e773bfefaf1f3c97d06f0f2491dbdcc.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 926,
+   "h": 198
+  },
+  {
+   "idx_no": 2,
+   "idx": "01-有机化学",
+   "ln": 1119,
+   "name": "003a27cf382f086f6366f2c2cd0eb9aadfe061522d29842354c072a4032fb3ae.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 726,
+   "h": 337
+  },
+  {
+   "idx_no": 3,
+   "idx": "01-有机化学",
+   "ln": 232,
+   "name": "00828cab6c9c12d6c58ead94862ad1305b96483316861f4a317a75c2fb7186e8.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 553,
+   "h": 181
+  },
+  {
+   "idx_no": 4,
+   "idx": "01-有机化学",
+   "ln": 1061,
+   "name": "009ea83ccb5c4f4af3e7467c26ad9296b3416728e84dfaaa647f5360d5da082c.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 912,
+   "h": 143
+  },
+  {
+   "idx_no": 5,
+   "idx": "01-有机化学",
+   "ln": 1131,
+   "name": "00f62f54a0fcd425dcd4e78d95fd086dbb3a5818cf4d071bfe98d9103451ca94.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 346,
+   "h": 292
+  },
+  {
+   "idx_no": 6,
+   "idx": "01-有机化学",
+   "ln": 1120,
+   "name": "0112c48669ff590237be19ffb1d5990fd1af030176c39049e255c88bd7f550da.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 126,
+   "h": 104
+  },
+  {
+   "idx_no": 7,
+   "idx": "01-有机化学",
+   "ln": 456,
+   "name": "0180f401bb44701233f14770f2c9af5ca11876ccc4801b7e2b877bcb7f51f6a6.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 123,
+   "h": 101
+  },
+  {
+   "idx_no": 8,
+   "idx": "01-有机化学",
+   "ln": 1122,
+   "name": "01c99271dc8068f500d5295a0cd5a72178f85f5b817ac4a0ef6483e48cbf169a.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 257,
+   "h": 104
+  },
+  {
+   "idx_no": 9,
+   "idx": "01-有机化学",
+   "ln": 1133,
+   "name": "01e388e730f1ece247fc2142650fce205d77628d9aedd3488da5535d77cbbb34.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 271,
+   "h": 160
+  },
+  {
+   "idx_no": 10,
+   "idx": "01-有机化学",
+   "ln": 1123,
+   "name": "01f5d138cad369132fc006b6621706721dc5c4399d502b0645f707fdb2cee606.jpg",
+   "verdict": "废片",
+   "why": "剪贴画（望远镜）",
+   "w": 62,
+   "h": 59
+  },
+  {
+   "idx_no": 11,
+   "idx": "01-有机化学",
+   "ln": 1134,
+   "name": "01fba2a170b3bdc3467c3e3de2b8190fc545018e068d9602a783667753d44049.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 79,
+   "h": 146
+  },
+  {
+   "idx_no": 12,
+   "idx": "01-有机化学",
+   "ln": 1124,
+   "name": "01fd26975bce2555b93a926989c5934d91e78d79b41a0cc75cf70bd7c4c65685.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 145,
+   "h": 153
+  },
+  {
+   "idx_no": 13,
+   "idx": "01-有机化学",
+   "ln": 1135,
+   "name": "02127701212f5c5f7678f11551b627df734177bc424783a29e57386eb879b049.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 304,
+   "h": 176
+  },
+  {
+   "idx_no": 14,
+   "idx": "01-有机化学",
+   "ln": 1136,
+   "name": "022d5a755b66db7d2871905776213b80a9c10522eb6e6433fa52220d6bc45b42.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 182,
+   "h": 192
+  },
+  {
+   "idx_no": 15,
+   "idx": "01-有机化学",
+   "ln": 1125,
+   "name": "0277852e0abf9bfbe17510be6733156f95710fbbbc45dbef3cc8cd39f61d6101.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 801,
+   "h": 231
+  },
+  {
+   "idx_no": 16,
+   "idx": "01-有机化学",
+   "ln": 228,
+   "name": "02836db77acb3bf4a7a77b79b62641e245a5398ccd19c51a0277854593a3fa75.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 501,
+   "h": 103
+  },
+  {
+   "idx_no": 17,
+   "idx": "01-有机化学",
+   "ln": 1127,
+   "name": "02c6a01477174930b39d14c578d22dc00db32a3d1280333842c1b38c040f2540.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 534,
+   "h": 148
+  },
+  {
+   "idx_no": 18,
+   "idx": "01-有机化学",
+   "ln": 1137,
+   "name": "02f5f5154af3e8391864e1f2bb1bf149cc760a95e21b54bd6f81a6596e768613.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 182,
+   "h": 117
+  },
+  {
+   "idx_no": 19,
+   "idx": "01-有机化学",
+   "ln": 625,
+   "name": "02fb6ef528e92acff2e9a6afd10b6afcaefbda026078de1701572ed0136131a2.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 98,
+   "h": 67
+  },
+  {
+   "idx_no": 20,
+   "idx": "01-有机化学",
+   "ln": 748,
+   "name": "02fd3c99f8b7990d10887c60767e068da4d3a1b32fa7cad2a8331ce28b9c7fa5.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 543,
+   "h": 253
+  },
+  {
+   "idx_no": 21,
+   "idx": "01-有机化学",
+   "ln": 1138,
+   "name": "030e23bcc2113405f8897fdd61858402b02cb99f3c0f9d1539f25da9342947c4.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 115,
+   "h": 192
+  },
+  {
+   "idx_no": 22,
+   "idx": "01-有机化学",
+   "ln": 1200,
+   "name": "032d9b62bc369a1c564e878d600ac54f81fc306994de3c1c9930dec7ac2b3aea.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 918,
+   "h": 96
+  },
+  {
+   "idx_no": 23,
+   "idx": "01-有机化学",
+   "ln": 749,
+   "name": "038029860b297f25f314038ddbd78c33e392ba95197b135afb5f90c9f5b12b8a.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 862,
+   "h": 176
+  },
+  {
+   "idx_no": 24,
+   "idx": "01-有机化学",
+   "ln": 1129,
+   "name": "039fa3ef81bf0941cbdf231b39ec508aaa61e975a1465ee06e177da3a8872412.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 295,
+   "h": 246
+  },
+  {
+   "idx_no": 25,
+   "idx": "01-有机化学",
+   "ln": 1130,
+   "name": "0405f295b0791b41850648f7d44d6fe429bbe10387afe48d1102c27e57858351.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 276,
+   "h": 168
+  },
+  {
+   "idx_no": 26,
+   "idx": "01-有机化学",
+   "ln": 315,
+   "name": "041129b583b3af0b129e78bcea98b6943531056a85d0d35471a0f37985fe0679.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 245,
+   "h": 140
+  },
+  {
+   "idx_no": 27,
+   "idx": "01-有机化学",
+   "ln": 1139,
+   "name": "04442447da03cb9ff9a6c749b98b4040f8d989de8d368b32811415d5fe60c85a.jpg",
+   "verdict": "废片",
+   "why": "ISBN 条形码",
+   "w": 245,
+   "h": 184
+  },
+  {
+   "idx_no": 28,
+   "idx": "01-有机化学",
+   "ln": 1140,
+   "name": "044d5d673517716a22d85fe69876c3f3cf9772d53d5d0f76fc461cf4aeb086f5.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 592,
+   "h": 159
+  },
+  {
+   "idx_no": 29,
+   "idx": "01-有机化学",
+   "ln": 105,
+   "name": "048729a9ef5ef20a2adadac40a255f30ff3dff652be1ccf34059a679469ca999.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 984,
+   "h": 104
+  },
+  {
+   "idx_no": 30,
+   "idx": "01-有机化学",
+   "ln": 744,
+   "name": "050c4a485984fbc3e2e3fdcacd10da77c8629ff51d3fe0b5988a6bb21f74e8ed.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 251,
+   "h": 217
+  },
+  {
+   "idx_no": 31,
+   "idx": "01-有机化学",
+   "ln": 751,
+   "name": "05718182f8ac9a1f5f9b452d0951c916eef7f32a4f2f8725a7c9ea06991cb579.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 306,
+   "h": 295
+  },
+  {
+   "idx_no": 32,
+   "idx": "01-有机化学",
+   "ln": 1141,
+   "name": "057f793a516c251363a5677af17003dffc0ee6b39905bdf872fb2bad1cb4bc90.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 1057,
+   "h": 107
+  },
+  {
+   "idx_no": 33,
+   "idx": "01-有机化学",
+   "ln": 99,
+   "name": "081cce77b45e01dc71e35634a891729cdf8e6dc38ec768b3118032d91104dd2f.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 107,
+   "h": 192
+  },
+  {
+   "idx_no": 34,
+   "idx": "01-有机化学",
+   "ln": 746,
+   "name": "08231ef6ee581171169bfe2bdd7372505227395d5a6ad8f0d23aefdd7ce4294b.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 256,
+   "h": 144
+  },
+  {
+   "idx_no": 35,
+   "idx": "01-有机化学",
+   "ln": 752,
+   "name": "088776e3e9047772ae0f52f48c57da6424cba114526bb9a49ad3b541c0169775.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 740,
+   "h": 185
+  },
+  {
+   "idx_no": 36,
+   "idx": "01-有机化学",
+   "ln": 457,
+   "name": "09b3b4f9e06a7d2fdd94ce8ade777db3bf6e62c4bc53e14b454fc18815bbc848.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 139,
+   "h": 92
+  },
+  {
+   "idx_no": 37,
+   "idx": "01-有机化学",
+   "ln": 552,
+   "name": "0a4c3f765cbff5dd4d497d06332885647532e991620434198ffea62c3cf6114e.jpg",
+   "verdict": "废片",
+   "why": "QR 码",
+   "w": 101,
+   "h": 96
+  },
+  {
+   "idx_no": 38,
+   "idx": "01-有机化学",
+   "ln": 292,
+   "name": "0a761d4fb80e9284d7b7204a252528913bf413ccde72d209782b438c403c8912.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 565,
+   "h": 182
+  },
+  {
+   "idx_no": 39,
+   "idx": "01-有机化学",
+   "ln": 755,
+   "name": "0b07cb18c83b3c85ed04b142b2e53b56501c4a1d11371bee54d0d5dcb1df561c.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 959,
+   "h": 143
+  },
+  {
+   "idx_no": 40,
+   "idx": "01-有机化学",
+   "ln": 759,
+   "name": "0dbe05268d16019794244e445ad1a7572c9512884548846d0e64aa204ebee3d2.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 395,
+   "h": 170
+  },
+  {
+   "idx_no": 41,
+   "idx": "01-有机化学",
+   "ln": 553,
+   "name": "0e223e5b4258eb5456b1834d82b71f94c8c96734678285b51d6c4c663ddc30ab.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 1012,
+   "h": 232
+  },
+  {
+   "idx_no": 42,
+   "idx": "01-有机化学",
+   "ln": 1107,
+   "name": "0ef7ad93177820a92aacccdf796c007f92133d09f88fe8018c62a6fe70cb3544.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 90,
+   "h": 207
+  },
+  {
+   "idx_no": 43,
+   "idx": "01-有机化学",
+   "ln": 485,
+   "name": "0f4157970ca06753a09ef4bcaa2707aa00699befbac0879417bba2d5dbfc91c5.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 396,
+   "h": 271
+  },
+  {
+   "idx_no": 44,
+   "idx": "01-有机化学",
+   "ln": 761,
+   "name": "0f8c9b4ed95456c65e2e853fc722c054ad51ba262e16871cdb0855ad2101dea7.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 1012,
+   "h": 192
+  },
+  {
+   "idx_no": 45,
+   "idx": "01-有机化学",
+   "ln": 166,
+   "name": "109a3b69cf75f069052ce02e2f234afe361b518319a1e4c38a32e94890cb08fe.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 864,
+   "h": 275
+  },
+  {
+   "idx_no": 46,
+   "idx": "01-有机化学",
+   "ln": 254,
+   "name": "10afc6cd7bb63e0d8c0025c73b9fa59b8839f930ef3b9895a6bebe32189d9dba.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 670,
+   "h": 219
+  },
+  {
+   "idx_no": 47,
+   "idx": "01-有机化学",
+   "ln": 554,
+   "name": "156352e75acb58fe795ab1b83d0abae3e904a7baf9d8e377798f264c7e79cb8b.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 1048,
+   "h": 221
+  },
+  {
+   "idx_no": 48,
+   "idx": "01-有机化学",
+   "ln": 316,
+   "name": "1602ef6a93e69dc528bbb9b1fd76a6d48d70f3f643983e113fc72316e2812520.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 117,
+   "h": 165
+  },
+  {
+   "idx_no": 49,
+   "idx": "01-有机化学",
+   "ln": 1048,
+   "name": "160df1d6fa11f5115f449838bcc2cb218a0cf16de14d567362db39234cb3d2db.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 126,
+   "h": 115
+  },
+  {
+   "idx_no": 50,
+   "idx": "01-有机化学",
+   "ln": 1236,
+   "name": "16e1d53d4c58dcbd88598e8e9dcdc4f2eea93233d84e2f6e84ada974525179c2.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 251,
+   "h": 145
+  },
+  {
+   "idx_no": 51,
+   "idx": "01-有机化学",
+   "ln": 459,
+   "name": "1a4d2a611a1d42f0bd82c342d16ec4ee011f0480c7b8d146a51e2585e0d6951c.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 156,
+   "h": 156
+  },
+  {
+   "idx_no": 52,
+   "idx": "01-有机化学",
+   "ln": 317,
+   "name": "1b63bc24748c05e9f8c5dc2c8547acc2213a002d94da461b3e5d68c665b38b18.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 153,
+   "h": 140
+  },
+  {
+   "idx_no": 53,
+   "idx": "01-有机化学",
+   "ln": 318,
+   "name": "1c6cf8f50fabc1e8f489de51254eab90a7f75ba66612466c230c66258307bb72.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 137,
+   "h": 193
+  },
+  {
+   "idx_no": 54,
+   "idx": "01-有机化学",
+   "ln": 319,
+   "name": "1d885bf19798034bf608a4f6c4163965fc6a8e25148b06319b49c1d3b3058152.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 212,
+   "h": 173
+  },
+  {
+   "idx_no": 55,
+   "idx": "01-有机化学",
+   "ln": 320,
+   "name": "1e8efbf98d5c9e512c4023b7b4a3c9c461fce080f56573e2531f1bb40f318d26.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 487,
+   "h": 125
+  },
+  {
+   "idx_no": 56,
+   "idx": "01-有机化学",
+   "ln": 294,
+   "name": "2304e874bddaea94d6a08e70a4eb0143b639044d3a4de28468644ba318190196.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 706,
+   "h": 354
+  },
+  {
+   "idx_no": 57,
+   "idx": "01-有机化学",
+   "ln": 1224,
+   "name": "2401f137056c47305425550d11e9de01db8e9b6c1ce3b91464054a949c18345d.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 623,
+   "h": 565
+  },
+  {
+   "idx_no": 58,
+   "idx": "01-有机化学",
+   "ln": 684,
+   "name": "240cedaea763d365ee8784ee35b129b445b3d26b8c58ac1d42aa3b4353658380.jpg",
+   "verdict": "废片",
+   "why": "QR 码",
+   "w": 100,
+   "h": 95
+  },
+  {
+   "idx_no": 59,
+   "idx": "01-有机化学",
+   "ln": 229,
+   "name": "2492c24d5dd5faaafd15c18ab1eb85d439f26c916a17a492280dc29236be9897.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 209,
+   "h": 206
+  },
+  {
+   "idx_no": 60,
+   "idx": "01-有机化学",
+   "ln": 321,
+   "name": "24b801d6a084673ce72e79a7a978f453567cb9da494d0229551962675f4d8c5c.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 197,
+   "h": 216
+  },
+  {
+   "idx_no": 61,
+   "idx": "01-有机化学",
+   "ln": 1108,
+   "name": "25c13755b2eeb3072faafe37a2652ca43720ba0511e0ba67414a679a6d507a63.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 251,
+   "h": 126
+  },
+  {
+   "idx_no": 62,
+   "idx": "01-有机化学",
+   "ln": 555,
+   "name": "25ff7cd2ea78199fd84f9303752e70e22b3524c25ba4ec58289a1ca67675a930.jpg",
+   "verdict": "废片",
+   "why": "内容不可辨（模糊月牙群）",
+   "w": 279,
+   "h": 164
+  },
+  {
+   "idx_no": 63,
+   "idx": "01-有机化学",
+   "ln": 322,
+   "name": "26d37869743e63b03c6e8dac64458c6fe4bdda491cd0a09c10a5b52909f9eb96.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 197,
+   "h": 181
+  },
+  {
+   "idx_no": 64,
+   "idx": "01-有机化学",
+   "ln": 323,
+   "name": "26ee3df9d3b802f6c1cf508ce6d00183a71255e828c39788ea70a5f5fe229cbc.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 404,
+   "h": 140
+  },
+  {
+   "idx_no": 65,
+   "idx": "01-有机化学",
+   "ln": 1062,
+   "name": "278dc79dd2833b128f45b553ccf5050f064c18365e5a6fc4b4634dc0d4ec872d.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 671,
+   "h": 115
+  },
+  {
+   "idx_no": 66,
+   "idx": "01-有机化学",
+   "ln": 256,
+   "name": "2ccb1704f4ef3a1455c3becb0d121e4b76ccc8acd803d8ae916103c3d417b46c.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 639,
+   "h": 219
+  },
+  {
+   "idx_no": 67,
+   "idx": "01-有机化学",
+   "ln": 258,
+   "name": "2d774fad345a7550a92bb2eb92335d9a39d9620723c66123646e22e4e9078ab9.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 669,
+   "h": 69
+  },
+  {
+   "idx_no": 68,
+   "idx": "01-有机化学",
+   "ln": 295,
+   "name": "2d92b2d2a707633d2eeca28059e6024847e29b2c98d87e7865cb751bdd67a76b.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 437,
+   "h": 126
+  },
+  {
+   "idx_no": 69,
+   "idx": "01-有机化学",
+   "ln": 557,
+   "name": "2edf8c49d3a10f8520e38698129c2e0b6504c4adb7d5feb4eef13b52a5730cb0.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 504,
+   "h": 124
+  },
+  {
+   "idx_no": 70,
+   "idx": "01-有机化学",
+   "ln": 597,
+   "name": "2ee1ccc0daaacf422769acad0af3e780359f64a98ebece9a6ce53010d99c06dc.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 934,
+   "h": 245
+  },
+  {
+   "idx_no": 71,
+   "idx": "01-有机化学",
+   "ln": 1056,
+   "name": "2eee06ccaea9700673a8ac326da17c8ade083e0ffc00d020dd14211dac154d1a.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 854,
+   "h": 126
+  },
+  {
+   "idx_no": 72,
+   "idx": "01-有机化学",
+   "ln": 324,
+   "name": "2f3e50a562ddc5f04302a84588f417b205dad1e802e75e3c5984acff4e0b767d.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 151,
+   "h": 190
+  },
+  {
+   "idx_no": 73,
+   "idx": "01-有机化学",
+   "ln": 1196,
+   "name": "31aa9b83f8c33ce0eaff926963c2467e85ea40f3c343992df13acd5c9c3da4e9.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 170,
+   "h": 174
+  },
+  {
+   "idx_no": 74,
+   "idx": "01-有机化学",
+   "ln": 100,
+   "name": "33f55ac0c8bf7ccdf49ee578a799b4b323197f70c6e64df0b766c81375664607.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 857,
+   "h": 184
+  },
+  {
+   "idx_no": 75,
+   "idx": "01-有机化学",
+   "ln": 1203,
+   "name": "34c821eacac1a1f00b0bf31395461ffc4145426f5f213a998cb7c4d4729c5236.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 242,
+   "h": 126
+  },
+  {
+   "idx_no": 76,
+   "idx": "01-有机化学",
+   "ln": 260,
+   "name": "36437ed0e14548906782970cdbcd9af2feb33bf66b5b54d938fe64c3517762c8.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 336,
+   "h": 345
+  },
+  {
+   "idx_no": 77,
+   "idx": "01-有机化学",
+   "ln": 296,
+   "name": "364b2f6790c77a7c59313955f4ccff0b4a50ca9dbd8abb55161ddb40de5add42.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 749,
+   "h": 418
+  },
+  {
+   "idx_no": 78,
+   "idx": "01-有机化学",
+   "ln": 137,
+   "name": "3817d8bbb3fdada74ddccce1e4bcf6523e1e27dfe3ac67a6e6927a3cfaef5039.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 984,
+   "h": 168
+  },
+  {
+   "idx_no": 79,
+   "idx": "01-有机化学",
+   "ln": 167,
+   "name": "3ad389fb71f0ba6379c0e97f033a9038d768f881b0ab60e05634da56370a2669.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 565,
+   "h": 232
+  },
+  {
+   "idx_no": 80,
+   "idx": "01-有机化学",
+   "ln": 1018,
+   "name": "3bf127945ca23e3c080655e1a69a9e6c7e82a5d591021eb7b348591c1821e636.jpg",
+   "verdict": "废片",
+   "why": "OCR 切图残片（只剩方框）",
+   "w": 215,
+   "h": 223
+  },
+  {
+   "idx_no": 81,
+   "idx": "01-有机化学",
+   "ln": 1115,
+   "name": "3d28e07fb623cc8ccbe65dc2a55995fe9a801e58fcf33c84f3abce214d5116db.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 193,
+   "h": 131
+  },
+  {
+   "idx_no": 82,
+   "idx": "01-有机化学",
+   "ln": 1050,
+   "name": "3f2fef82bb4259ac9345998788f8a8a8cfdf8bc1adcfa766761615bbc831347a.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 868,
+   "h": 165
+  },
+  {
+   "idx_no": 83,
+   "idx": "01-有机化学",
+   "ln": 1057,
+   "name": "3fcd57ac48ce7c954e8fa7b81ad4f70bebffd86e65ae687503de37aba4206a6f.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 578,
+   "h": 184
+  },
+  {
+   "idx_no": 84,
+   "idx": "01-有机化学",
+   "ln": 369,
+   "name": "4155e4bc93f919a6218683dad90282d46982d75ec5e97349883b230a82b6d507.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 396,
+   "h": 371
+  },
+  {
+   "idx_no": 85,
+   "idx": "01-有机化学",
+   "ln": 558,
+   "name": "4239c1c87afbfa8734ba8b3875d9ad7490ca0bdac2d274b3c696d6c388f8fa35.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 526,
+   "h": 162
+  },
+  {
+   "idx_no": 86,
+   "idx": "01-有机化学",
+   "ln": 1109,
+   "name": "43e0892dbac1b72babdc2e0f551076c6fe4ffa071cbd653c93a524608556bcd7.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 973,
+   "h": 229
+  },
+  {
+   "idx_no": 87,
+   "idx": "01-有机化学",
+   "ln": 326,
+   "name": "442c5ce389181feb2d5e84105ef7741ec68e1fd7a4fec48c0be9fb454711113b.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 734,
+   "h": 134
+  },
+  {
+   "idx_no": 88,
+   "idx": "01-有机化学",
+   "ln": 327,
+   "name": "44c8bd9294f11feefd27355a39a4498a75a13e32d1a7c99402a76c315806e7bd.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 220,
+   "h": 165
+  },
+  {
+   "idx_no": 89,
+   "idx": "01-有机化学",
+   "ln": 328,
+   "name": "474b61bb385db1fa78f26486dec85a3d63e1c12cad50145a2b369b128201d5f1.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 590,
+   "h": 170
+  },
+  {
+   "idx_no": 90,
+   "idx": "01-有机化学",
+   "ln": 372,
+   "name": "4932f36974723717a60023a2df8b6f9eba2c5a19255523165b2737e0daf0775c.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 304,
+   "h": 84
+  },
+  {
+   "idx_no": 91,
+   "idx": "01-有机化学",
+   "ln": 1082,
+   "name": "4b639f331ba244dfba338b1b36c7c9460ccf1f37ec454f78ac8604655cde50e7.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 701,
+   "h": 226
+  },
+  {
+   "idx_no": 92,
+   "idx": "01-有机化学",
+   "ln": 329,
+   "name": "4b8382e03fbf2b4ae3d2fc9dbdf0aa69e4d249b3f1c0e12070208b4b96c961e5.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 156,
+   "h": 196
+  },
+  {
+   "idx_no": 93,
+   "idx": "01-有机化学",
+   "ln": 497,
+   "name": "4dab38215f09b64ee819fd5fc0240b917cfe1883e2d75b00c66a26b4dd18b510.jpg",
+   "verdict": "废片",
+   "why": "不完整残片（孤立波浪线）",
+   "w": 149,
+   "h": 98
+  },
+  {
+   "idx_no": 94,
+   "idx": "01-有机化学",
+   "ln": 261,
+   "name": "4e50dff2779c89544b2032b6295b45c241b521903d0d317f055271ab65f980a0.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 772,
+   "h": 164
+  },
+  {
+   "idx_no": 95,
+   "idx": "01-有机化学",
+   "ln": 1063,
+   "name": "4efe2b8eb72b525cac93c93cce20de73046799ae6b9d0a80435f0ca1d59d80cb.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 273,
+   "h": 193
+  },
+  {
+   "idx_no": 96,
+   "idx": "01-有机化学",
+   "ln": 559,
+   "name": "4f2366ff66c36519c5f2fd0fa80dfa6c88d0a1c883d316ebf6b1d70f779e9615.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 190,
+   "h": 243
+  },
+  {
+   "idx_no": 97,
+   "idx": "01-有机化学",
+   "ln": 462,
+   "name": "4f816ea1b4457bdaed0232e5ba1658b4942b6a87b4acfaedf0dc8af774671f18.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 176,
+   "h": 170
+  },
+  {
+   "idx_no": 98,
+   "idx": "01-有机化学",
+   "ln": 331,
+   "name": "50957cc2d87a343c2a8079823e6079246f6cd560eb57d287ea881687f5ca7464.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 562,
+   "h": 143
+  },
+  {
+   "idx_no": 99,
+   "idx": "01-有机化学",
+   "ln": 376,
+   "name": "50d0f5574727e1f0a9bb634da37aac68c4b0bcf6b73d45e8c815824a1e3f9381.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 737,
+   "h": 320
+  },
+  {
+   "idx_no": 100,
+   "idx": "01-有机化学",
+   "ln": 560,
+   "name": "510e1fd9834c0c0cfd17a7ae44aba1eb33a2cd10fa6c2a3a99d389c953c92aa7.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 146,
+   "h": 159
+  },
+  {
+   "idx_no": 101,
+   "idx": "01-有机化学",
+   "ln": 138,
+   "name": "5221b16b595e7d2f6660f2918e18d11399494f76d121a4f9285bcf1af0dd84bc.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 176,
+   "h": 193
+  },
+  {
+   "idx_no": 102,
+   "idx": "01-有机化学",
+   "ln": 377,
+   "name": "5267ea22aaee9827287f5fb6e3e928d66b6f544a0615e0d1331e792f72acb9b6.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 345,
+   "h": 373
+  },
+  {
+   "idx_no": 103,
+   "idx": "01-有机化学",
+   "ln": 500,
+   "name": "52b8d7aa54467bd94e3b876d3a4701131e30d34e4e2573a69c4b7acc6cee9058.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 879,
+   "h": 262
+  },
+  {
+   "idx_no": 104,
+   "idx": "01-有机化学",
+   "ln": 379,
+   "name": "54435de736d7459d1d4e737dfe3a07aedea487f4fb5acf63e95628411f420988.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 176,
+   "h": 140
+  },
+  {
+   "idx_no": 105,
+   "idx": "01-有机化学",
+   "ln": 501,
+   "name": "54d633eb67a92dbc18f045bc6c2f669b17b19c3bce53963a2de480f63a36d433.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 1037,
+   "h": 129
+  },
+  {
+   "idx_no": 106,
+   "idx": "01-有机化学",
+   "ln": 1116,
+   "name": "5541e6890c3f28afc773468e917da7fc7b4a799f248736dc2131584465ca6e87.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 187,
+   "h": 153
+  },
+  {
+   "idx_no": 107,
+   "idx": "01-有机化学",
+   "ln": 299,
+   "name": "5552f15e72d485466dd700e7f54726d326052c59fccee8ed67550d91d9c2a088.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 728,
+   "h": 506
+  },
+  {
+   "idx_no": 108,
+   "idx": "01-有机化学",
+   "ln": 1145,
+   "name": "5590468a53d157f2204b5272bbf351bdf9e304b6ea539036e3cda5b26cfda607.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 506,
+   "h": 568
+  },
+  {
+   "idx_no": 109,
+   "idx": "01-有机化学",
+   "ln": 561,
+   "name": "5673519796ac168caaa4dcf062cbc695962e8039041a54cfa480110644a78221.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 206,
+   "h": 164
+  },
+  {
+   "idx_no": 110,
+   "idx": "01-有机化学",
+   "ln": 1051,
+   "name": "56abb8e1193c3322c530e99e8963f375c51df87aa6ac83391dcb7fbee72dbe6b.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 223,
+   "h": 142
+  },
+  {
+   "idx_no": 111,
+   "idx": "01-有机化学",
+   "ln": 562,
+   "name": "579f936578b270524b8a2e8083ac1748896dd26572cd93a7cf2f0f5ea8261ad5.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 317,
+   "h": 143
+  },
+  {
+   "idx_no": 112,
+   "idx": "01-有机化学",
+   "ln": 332,
+   "name": "5980596497d5dca2fc610bea5400413a2f50a41034b68c29ce2fb7203261495f.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 598,
+   "h": 145
+  },
+  {
+   "idx_no": 113,
+   "idx": "01-有机化学",
+   "ln": 1143,
+   "name": "59ec8ced59836e29c265e9eaeaa8c0522c9b755612e874a42d3387874d9d1127.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 184,
+   "h": 159
+  },
+  {
+   "idx_no": 114,
+   "idx": "01-有机化学",
+   "ln": 503,
+   "name": "5a4139de1a8b3fcc190a56b940f904fc2163dfeafe07c89ccea39139bb357b1c.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 942,
+   "h": 185
+  },
+  {
+   "idx_no": 115,
+   "idx": "01-有机化学",
+   "ln": 125,
+   "name": "5aca971a388c6da2f4246eea5d887b6f643bef2d0855d696baf12d249f3cf622.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 768,
+   "h": 151
+  },
+  {
+   "idx_no": 116,
+   "idx": "01-有机化学",
+   "ln": 300,
+   "name": "5d98180034184a77567c2f4d45bd64e29f7ea585c08d64423af6f991c285aa1f.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 662,
+   "h": 118
+  },
+  {
+   "idx_no": 117,
+   "idx": "01-有机化学",
+   "ln": 333,
+   "name": "5db05a06fd6b82dcb58726e44a0113fac322ce8f54d936c9d47a199589e8d122.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 498,
+   "h": 204
+  },
+  {
+   "idx_no": 118,
+   "idx": "01-有机化学",
+   "ln": 564,
+   "name": "5e61e6b47c5bfa4644f2c734f838cd2c04b690226c85f48d8605849fcff0afe7.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 409,
+   "h": 242
+  },
+  {
+   "idx_no": 119,
+   "idx": "01-有机化学",
+   "ln": 334,
+   "name": "5f114989b6278f7364bdcf6e359691b72da23bb0258e9788d01d1be6d01822da.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 393,
+   "h": 379
+  },
+  {
+   "idx_no": 120,
+   "idx": "01-有机化学",
+   "ln": 384,
+   "name": "600b929a0c0171720925e97ffe0e15c664a5d0db49b75dec56c5cafe63aef59d.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 181,
+   "h": 140
+  },
+  {
+   "idx_no": 121,
+   "idx": "01-有机化学",
+   "ln": 607,
+   "name": "604d13185198dc80ceadc75e61a53e8d0284f2cbdec62b3c38543ab9a8b7e5a7.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 168,
+   "h": 120
+  },
+  {
+   "idx_no": 122,
+   "idx": "01-有机化学",
+   "ln": 1182,
+   "name": "61564bc2f7f8681519cff2e1bef3389fd67c49a196572879d8e3f4e65276de67.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 74,
+   "h": 120
+  },
+  {
+   "idx_no": 123,
+   "idx": "01-有机化学",
+   "ln": 168,
+   "name": "615772fb5df8a3bcdd6b6c8655a27413f6b926d4f4fd4a73da4c2a2df7f18490.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 108,
+   "h": 105
+  },
+  {
+   "idx_no": 124,
+   "idx": "01-有机化学",
+   "ln": 335,
+   "name": "615d7636456629560ef0e2e25dd07f7dd4b5eca2bcb80ec3c71352db149321d5.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 274,
+   "h": 168
+  },
+  {
+   "idx_no": 125,
+   "idx": "01-有机化学",
+   "ln": 505,
+   "name": "615ed09b20f948928a1bf2f07f4159bc94a4499e2665a032b6c1edaa49e2592a.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 1012,
+   "h": 159
+  },
+  {
+   "idx_no": 126,
+   "idx": "01-有机化学",
+   "ln": 463,
+   "name": "61a219757bbc2fcc3b73be70b544634138a33e47a6928a68cfa4a001a7cea58f.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 123,
+   "h": 77
+  },
+  {
+   "idx_no": 127,
+   "idx": "01-有机化学",
+   "ln": 1064,
+   "name": "61e4e60bec460687cea7dc46cd0425cfdb41aa71f1fb4e745a9cc4b9c086ef71.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 924,
+   "h": 165
+  },
+  {
+   "idx_no": 128,
+   "idx": "01-有机化学",
+   "ln": 140,
+   "name": "64ea3e2c8804deea903776c30da6acc07fd51a0486fd38ea7c46f6b789b7d999.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 393,
+   "h": 149
+  },
+  {
+   "idx_no": 129,
+   "idx": "01-有机化学",
+   "ln": 336,
+   "name": "65176988383f1d524904574e0f7766fdcf6ae04fcf9987de44c8ab40db5fd1d9.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 140,
+   "h": 123
+  },
+  {
+   "idx_no": 130,
+   "idx": "01-有机化学",
+   "ln": 565,
+   "name": "67b09fbbfdce680d4bed3a3b092288ca8dda27828ab6e0bff36586aa6c24c359.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 198,
+   "h": 225
+  },
+  {
+   "idx_no": 131,
+   "idx": "01-有机化学",
+   "ln": 506,
+   "name": "68000ecbb1a680f19c8b1f63e84da4900397459c02cf9359295a25b4ac13eb8b.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 954,
+   "h": 362
+  },
+  {
+   "idx_no": 132,
+   "idx": "01-有机化学",
+   "ln": 225,
+   "name": "688cf555a552ef3af8d0107c66a1ec9ec2c0163dab1cf0f2191db611f1a0667b.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 281,
+   "h": 281
+  },
+  {
+   "idx_no": 133,
+   "idx": "01-有机化学",
+   "ln": 1183,
+   "name": "690842a64252cc1d03d61801db19ec73b6d897b70b1cf942d06b84b0a8efee16.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 715,
+   "h": 157
+  },
+  {
+   "idx_no": 134,
+   "idx": "01-有机化学",
+   "ln": 134,
+   "name": "6a4bf01907bcc265cada9f1b36cf53bf5413da4f79ffb48f8ce9df697b89d36f.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 183,
+   "h": 155
+  },
+  {
+   "idx_no": 135,
+   "idx": "01-有机化学",
+   "ln": 1026,
+   "name": "6ae404c7a9964a9b4f1dad6b2bf5539c4d02d5ddd8b2ce89dc808611b2796060.jpg",
+   "verdict": "废片",
+   "why": "OCR 切图残片（只剩方框）",
+   "w": 229,
+   "h": 220
+  },
+  {
+   "idx_no": 136,
+   "idx": "01-有机化学",
+   "ln": 231,
+   "name": "6b9cea1dde180bc7cfffe3923149c89a6b99627d3e0a95187c92e8107db824a2.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 554,
+   "h": 226
+  },
+  {
+   "idx_no": 137,
+   "idx": "01-有机化学",
+   "ln": 392,
+   "name": "6bf459a6f4456286c09ef22dd554daaf690564c6822e8d8a241cd9a04b5ce1c2.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 1068,
+   "h": 171
+  },
+  {
+   "idx_no": 138,
+   "idx": "01-有机化学",
+   "ln": 1027,
+   "name": "6c14330fb677130ea483f2620e37280ed910645e9019215fa1588cd4b3d31295.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 676,
+   "h": 173
+  },
+  {
+   "idx_no": 139,
+   "idx": "01-有机化学",
+   "ln": 393,
+   "name": "6c57a5393acc8dc8d10cc75692cf0d83f20e28fb9bcc0511fd60a5c222dd189d.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 187,
+   "h": 103
+  },
+  {
+   "idx_no": 140,
+   "idx": "01-有机化学",
+   "ln": 566,
+   "name": "6cdb0b402c032434fa174cbd89ae5b0b7b517c54224bda805b246fc8ef5ff4ea.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 624,
+   "h": 373
+  },
+  {
+   "idx_no": 141,
+   "idx": "01-有机化学",
+   "ln": 302,
+   "name": "6dce99d74858200bb7592ac5ebbaab2da57b36095c2c963690801a78e1939d9c.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 274,
+   "h": 387
+  },
+  {
+   "idx_no": 142,
+   "idx": "01-有机化学",
+   "ln": 337,
+   "name": "6dda2d394f32554ac4cb17549083db1ba0ca5a9256d82a7f6ab522d64085a6cc.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 126,
+   "h": 284
+  },
+  {
+   "idx_no": 143,
+   "idx": "01-有机化学",
+   "ln": 75,
+   "name": "6ea64931888a4f9df9f674ba93649b15b17cc05e2d416c934d795edb83a4be28.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 940,
+   "h": 140
+  },
+  {
+   "idx_no": 144,
+   "idx": "01-有机化学",
+   "ln": 303,
+   "name": "6ef85296409b05e6e3c7d837b594fb03185b6b8721483c660d37e205fc894e95.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 748,
+   "h": 279
+  },
+  {
+   "idx_no": 145,
+   "idx": "01-有机化学",
+   "ln": 464,
+   "name": "6f189d5a323401856ce0bfef9c563f1614c5ad6596748fed1609c5e8743ae24a.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 837,
+   "h": 190
+  },
+  {
+   "idx_no": 146,
+   "idx": "01-有机化学",
+   "ln": 268,
+   "name": "702a07c493c40c64fb19758e446f7d351d4c94e687fbba500c81b7a5f90dbcdf.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 433,
+   "h": 336
+  },
+  {
+   "idx_no": 147,
+   "idx": "01-有机化学",
+   "ln": 338,
+   "name": "7115870de9a58ab60b18904a3b381ee9afe4f306a749b1852d50dbce8a4816e6.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 926,
+   "h": 195
+  },
+  {
+   "idx_no": 148,
+   "idx": "01-有机化学",
+   "ln": 610,
+   "name": "7236ffe8d5b3f7e5b63b1ec6fbf0248461effa1b5a1c481323d7b65ba61f7955.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 785,
+   "h": 307
+  },
+  {
+   "idx_no": 149,
+   "idx": "01-有机化学",
+   "ln": 126,
+   "name": "725b36c3db2e8de6f90653d6308279ed86d9f838e0afa03f7efaebe318f1ca96.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 962,
+   "h": 251
+  },
+  {
+   "idx_no": 150,
+   "idx": "01-有机化学",
+   "ln": 511,
+   "name": "72652dddab829e943c574caee67b54074e369a880cd9a5c9615f54570e0070a1.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 745,
+   "h": 373
+  },
+  {
+   "idx_no": 151,
+   "idx": "01-有机化学",
+   "ln": 1150,
+   "name": "72b08d381f60affa440f9efbebaf8c2ffd2351173942f1dda928a2139c87f667.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 995,
+   "h": 215
+  },
+  {
+   "idx_no": 152,
+   "idx": "01-有机化学",
+   "ln": 339,
+   "name": "73775a8bb0014bf5511d54cbe91e97c0f0693fe414c686324e66ee4ba54caca0.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 204,
+   "h": 193
+  },
+  {
+   "idx_no": 153,
+   "idx": "01-有机化学",
+   "ln": 1065,
+   "name": "73d832db41168fc5b0ca9fca60cce9cb9c0ce78f452fe3dd60963bfa2978ffab.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 274,
+   "h": 165
+  },
+  {
+   "idx_no": 154,
+   "idx": "01-有机化学",
+   "ln": 394,
+   "name": "75246210cac2ebb32742466517ad73b7e2628ead23d319a4a948636830a3b14f.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 914,
+   "h": 160
+  },
+  {
+   "idx_no": 155,
+   "idx": "01-有机化学",
+   "ln": 395,
+   "name": "753baafae41988881d0c51c1330d77e15877e6383bf54604e201819c0bf3341a.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 311,
+   "h": 148
+  },
+  {
+   "idx_no": 156,
+   "idx": "01-有机化学",
+   "ln": 567,
+   "name": "768d5405ea4e7c9d71d2b5a3f6a7e7c14dfa92d9727e26d9f55e8663956c9fa5.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 471,
+   "h": 190
+  },
+  {
+   "idx_no": 157,
+   "idx": "01-有机化学",
+   "ln": 234,
+   "name": "792659e0e3b4942fe355b6a60a44ea59dd6789eafb81d249ad6de59ce2b636a8.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 164,
+   "h": 120
+  },
+  {
+   "idx_no": 158,
+   "idx": "01-有机化学",
+   "ln": 101,
+   "name": "7a59beae31e254cc65810429e989f44aa508c476c745d6d18710cd741a6fcbd0.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 659,
+   "h": 178
+  },
+  {
+   "idx_no": 159,
+   "idx": "01-有机化学",
+   "ln": 1112,
+   "name": "7a7c31a141c048575e462c6bc9edd2c8be44a9ad473164372e376f71861d629a.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 376,
+   "h": 293
+  },
+  {
+   "idx_no": 160,
+   "idx": "01-有机化学",
+   "ln": 399,
+   "name": "7a92b646cd247e987cf2cbccd481176a7979284727f8624df8a87a4db5399bbb.jpg",
+   "verdict": "废片",
+   "why": "QR 码",
+   "w": 96,
+   "h": 98
+  },
+  {
+   "idx_no": 161,
+   "idx": "01-有机化学",
+   "ln": 269,
+   "name": "7b3c6e3234b6ff4e4843d75eebd6eb648c196930a1219da5b36791f3a4b1c863.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 822,
+   "h": 220
+  },
+  {
+   "idx_no": 162,
+   "idx": "01-有机化学",
+   "ln": 1087,
+   "name": "7b778d4ca713b5b7f71f03845251630caceba3fe7e1de049814029c90dda8398.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 368,
+   "h": 303
+  },
+  {
+   "idx_no": 163,
+   "idx": "01-有机化学",
+   "ln": 400,
+   "name": "7b7903e552acceb4b6dca0bdb79e5ae0e784c572c9e553681279c48242749fdf.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 357,
+   "h": 251
+  },
+  {
+   "idx_no": 164,
+   "idx": "01-有机化学",
+   "ln": 568,
+   "name": "7c14e3b82c104870acf4a05b3e80b7ac3e8ffde29f0c4616a1708f9a78f88a53.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 626,
+   "h": 81
+  },
+  {
+   "idx_no": 165,
+   "idx": "01-有机化学",
+   "ln": 569,
+   "name": "7c8cff543c3dab6734f5b8b898eddcc47377db9900de3108a600c700a9a2ac91.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 729,
+   "h": 200
+  },
+  {
+   "idx_no": 166,
+   "idx": "01-有机化学",
+   "ln": 86,
+   "name": "7d10fbfd6d196277007b0a763cc307303ae80ed85ede78a3acbc53a375831f61.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 1031,
+   "h": 198
+  },
+  {
+   "idx_no": 167,
+   "idx": "01-有机化学",
+   "ln": 732,
+   "name": "7d17f73aac87db9932bf7ac55a62048124989fd6216b805225e332cc4b3c4148.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 270,
+   "h": 215
+  },
+  {
+   "idx_no": 168,
+   "idx": "01-有机化学",
+   "ln": 570,
+   "name": "7d5297ea13989538a255fc4c072f5b001cc5ddad06450697f2a16d6288ff447e.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 909,
+   "h": 190
+  },
+  {
+   "idx_no": 169,
+   "idx": "01-有机化学",
+   "ln": 479,
+   "name": "7d930cd80f7b4454ea7ef1ea7ee87bb3b9e7972ee23935c5656023f6cde3a781.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 575,
+   "h": 123
+  },
+  {
+   "idx_no": 170,
+   "idx": "01-有机化学",
+   "ln": 340,
+   "name": "7ee46c2146de2b1174d83f1986daca1f6c70530b6394d4038cdc39bf5843282d.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 970,
+   "h": 167
+  },
+  {
+   "idx_no": 171,
+   "idx": "01-有机化学",
+   "ln": 465,
+   "name": "7f2e0607df3882ea6482c5595d5011540f686578135fb6c815032a4f283cb61d.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 145,
+   "h": 79
+  },
+  {
+   "idx_no": 172,
+   "idx": "01-有机化学",
+   "ln": 405,
+   "name": "803b348110d38fe77e9ecdd371178dff44bbd26ce81e0414231078c06f6896c2.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 871,
+   "h": 231
+  },
+  {
+   "idx_no": 173,
+   "idx": "01-有机化学",
+   "ln": 341,
+   "name": "80f0b6da32df58d16c64b348f8dfc4ed7bee269461f06dd633a1302210919dd7.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 639,
+   "h": 237
+  },
+  {
+   "idx_no": 174,
+   "idx": "01-有机化学",
+   "ln": 271,
+   "name": "81c51a84a7e77d8fb0b6669ade25457718481339b3182e7e98a152c70775a1a8.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 409,
+   "h": 103
+  },
+  {
+   "idx_no": 175,
+   "idx": "01-有机化学",
+   "ln": 342,
+   "name": "82c86217377bdae735f24e3910018b472932f13ceac153874b54693aae6ffed2.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 176,
+   "h": 140
+  },
+  {
+   "idx_no": 176,
+   "idx": "01-有机化学",
+   "ln": 466,
+   "name": "8384c4b191c6e3c5d101fd4cec43ef25236daf71b20f0089ec1151ee87ec57fa.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 810,
+   "h": 160
+  },
+  {
+   "idx_no": 177,
+   "idx": "01-有机化学",
+   "ln": 697,
+   "name": "83e57661d60a63ef63f4adc374933b9b0eae8008c0ba4d5bb90d535d60f041dc.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 528,
+   "h": 172
+  },
+  {
+   "idx_no": 178,
+   "idx": "01-有机化学",
+   "ln": 272,
+   "name": "83f513fc5f47812a464faa3a24366c05a9005caa744770fa13ce38e1f355f96f.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 459,
+   "h": 469
+  },
+  {
+   "idx_no": 179,
+   "idx": "01-有机化学",
+   "ln": 571,
+   "name": "847a4d39e3d232955a3cbc10dd7c3a3107339ada5053c8c01542cbbdeb0dd0a2.jpg",
+   "verdict": "合格",
+   "why": "",
+   "w": 331,
+   "h": 490
+  }
+ ]
+}
