@@ -88,7 +88,7 @@ $$
 3-2. $\overline{x}_{n} = \frac{\text{总单体数 (进入高分数)}}{\text{高分位数}} = \frac{\text{单位时间消耗的单体}}{\text{单位时间产生的高分数}}.$
 
 $$
-\begin{array}{r l} & {= \frac {- d (M _ {n})}{d [ M _ {n + m} ]}} \\ & {= \frac {- d (m)}{d t} \div \frac {d (M _ {n + m})}{d t}} \\ & {= 2 k _ {1} [ L n _ {2} ] + (\frac {k _ {1}}{k _ {4}}) ^ {\frac {1}{2}} \cdot k _ {3} [ L n _ {2} ] ^ {\frac {1}{2}} (M)} \\ & {\qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \mathrm{(反应进入“轻态”)}} \\ & {\qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \mathrm{共存.}} \\ & {\qquad \qquad \qquad \qquad = 2 k _ {1} [ L n _ {2} ] + (\frac {k _ {1}}{k _ {4}}) ^ {\frac {1}{2}} \cdot k _ {3} [ L n _ {2} ] ^ {\frac {1}{2}} (M)} \\ & \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \q \end{array}
+\begin{array}{r l} & {= \frac {- d (M _ {n})}{d [ M _ {n + m} ]}} \\ & {= \frac {- d (m)}{d t} \div \frac {d (M _ {n + m})}{d t}} \\ & {= 2 k _ {1} [ L n _ {2} ] + (\frac {k _ {1}}{k _ {4}}) ^ {\frac {1}{2}} \cdot k _ {3} [ L n _ {2} ] ^ {\frac {1}{2}} (M)} \\ & {\qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \mathrm{(反应进入“轻态”)}} \\ & {\qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \mathrm{共存.}} \\ & {\qquad \qquad \qquad \qquad = 2 k _ {1} [ L n _ {2} ] + (\frac {k _ {1}}{k _ {4}}) ^ {\frac {1}{2}} \cdot k _ {3} [ L n _ {2} ] ^ {\frac {1}{2}} (M)} \\ & \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad  \end{array}
 $$
 
 过程1

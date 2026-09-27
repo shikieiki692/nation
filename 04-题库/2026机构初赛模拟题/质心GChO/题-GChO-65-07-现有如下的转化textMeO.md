@@ -48,7 +48,7 @@ $$
 $\mathrm{MeO_{2}C}$
 
 $$
-\text {   (2)   } \xrightarrow [ \text {   THF   } ]{1 . \text {   LDA,   TMSCI   }} \text {   A   } \xrightarrow [ \text {   EtOH   } ]\text {   NaBH } _ {4} ]{} \text {   B   } \xrightarrow [ \text {   AIBN,   EtOH,   reflux   } ]{\text {   NaBH } _ {4} , \text {   Bu } _ {3} \text { SnCl   }} \text {   C   }
+\text {   (2)   } \xrightarrow [ \text {   THF   } ]{1 . \text {   LDA,   TMSCI   }} \text {   A   } \xrightarrow [ \text { EtOH } ]{\text { NaBH } _ {4} } \text {   B   } \xrightarrow [ \text {   AIBN,   EtOH,   reflux   } ]{\text {   NaBH } _ {4} , \text {   Bu } _ {3} \text { SnCl   }} \text {   C   }
 $$
 
 已知 B 到 C 的转化为非常经典的自由基链式反应，在此过程中，桥环的骨架还发生了变化。

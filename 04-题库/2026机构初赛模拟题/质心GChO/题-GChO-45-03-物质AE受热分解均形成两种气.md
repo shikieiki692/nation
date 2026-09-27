@@ -85,9 +85,7 @@ A
 :0=Cl-0-Cl=0:
 :0=Cl-0-Cl=0
 
-$$
-: \sigma = \frac {c l}{0} - o:
-$$
+$$ :\sigma = \frac {c l}{0} - o: $$
 
 $$
 E: \therefore c _ {1} - 0, \dots , c _ {i}:
