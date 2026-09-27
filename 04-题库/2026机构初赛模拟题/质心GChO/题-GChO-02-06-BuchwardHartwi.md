@@ -104,7 +104,7 @@ B 不符合
 6-2 动力学研究是机理研究的最重要的方法之一。如果如下机理假设成立，则我们应从实验中观测到，当 $[ArX]$ 、 $[PdL_{2}]$ 、[L]均翻倍，反应速率 $-\frac{d[ArX]}{dt}$ 如何变化？并解释你的推测。
 (3')
 
-(3') $r = \frac{-d\langle ArX\rangle}{dt} = k_2\langle PdI\rangle\langle A,X\rangle$ ① $PdL_2 \xrightarrow[k_{-1}]k_1} PdL + L \xrightarrow{Rapid equilibrium} PdL + ArX \xrightarrow{k_2} A \xrightarrow{Rate-determining step} A \xrightarrow[k_{-3}]k_3} B \xrightarrow{Rapid equilibrium} B \xrightarrow[k_4]k_4} ArNR^1R^2 \xrightarrow{Rapid reaction} ArNR^1R^2$ ∵ rapid equilibrium. $k_1\langle PdI\rangle = k_{-1}\langle PdL\rangle\langle L\rangle$
+(3') $r = \frac{-d\langle ArX\rangle}{dt} = k_2\langle PdI\rangle\langle A,X\rangle$ ① $PdL_2 \xrightarrow[k_{-1}]{k_1} PdL + L \xrightarrow{Rapid equilibrium} PdL + ArX \xrightarrow{k_2} A \xrightarrow{Rate-determining step} A \xrightarrow[k_{-3}]{k_3} B \xrightarrow{Rapid equilibrium} B \xrightarrow[k_4]{k_4} ArNR^1R^2 \xrightarrow{Rapid reaction} ArNR^1R^2$ ∵ rapid equilibrium. $k_1\langle PdI\rangle = k_{-1}\langle PdL\rangle\langle L\rangle$
 
 $$
 \Rightarrow [ P d L ] = \frac {[ k _ {1}}{k - 1} \frac {[ P d L _ {2} ]}{[ L ]} \text {代入①}

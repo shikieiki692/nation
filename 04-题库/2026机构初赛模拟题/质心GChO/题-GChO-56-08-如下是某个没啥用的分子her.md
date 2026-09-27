@@ -40,7 +40,7 @@ $$
 $$
 
 $$
-\begin{array}{c}\text {4 (1.5 eq.), Et_{2} O}\\\text {-78 °C, 30 min}\\\text {then MgBr_{2} (in MeOH)}\\\text {-78 °C to rt, 16 h}\end{array}\quad \mathrm{E} \quad \frac {\mathrm {^ {t} BuLi (2.1 eq.)}}{\mathrm{THF, -78 °C to rt}} \rightarrow \left[\begin{array}{c}\text {F}\\\text {THF, -78 °C to rt}\end{array}\right] \quad \frac {\mathrm{HBF_{4} \cdotEt_{2} O (3.0 eq.)}}{\mathrm{DCM, -78 °C to rt, 12 h}} \rightarrow \mathrm{G}
+\begin{array}{c}\text {4 (1.5 eq.), Et_{2} O}\\\text {-78 °C, 30 min}\\\text {then MgBr_{2} (in MeOH)}\\\text {-78 °C to rt, 16 h}\end{array}\quad \mathrm{E} \quad \frac {\mathrm {^ {t} BuLi (2.1 eq.)}}{\mathrm{THF, -78 °C to rt}} \rightarrow \left[\begin{array}{c}\text {F}\\\text {THF, -78 °C to rt}\end{array}\right] \quad \frac {\mathrm{HBF_{4} \cdot \mathrm{Et}_{2} O (3.0 eq.)}}{\mathrm{DCM, -78 °C to rt, 12 h}} \rightarrow \mathrm{G}
 $$
 
 $$

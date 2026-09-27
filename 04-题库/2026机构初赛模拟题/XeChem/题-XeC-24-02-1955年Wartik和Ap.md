@@ -132,7 +132,7 @@ $$
 \Delta_ {\mathrm{r}} \mathrm{G} _ {\mathrm{m}} = \Delta_ {\mathrm{r}} \mathrm{G} _ {\mathrm{m}} ^ {\circ} + \mathrm{RT} \ln \mathrm{p} (\mathrm{B} _ {2} \mathrm{O} _ {3})
 $$
 
-$\mathrm{p(B_2O_3)_{eq} = \exp[\frac{-13.43}{8.314\times 2200}] = 0.480\mathrm{bar}$ （1分，共7分）
+$\mathrm{p(B_2O_3)_{eq}} = \exp\left[\frac{-13.43}{8.314\times 2200}\right] = 0.480\,\mathrm{bar}$ （1分，共7分）
 
 2-3-1-3 若在 2200 K 下用高速 Ar 气流吹扫, 使气相中 $p(B_{2}O_{3})$ 保持在 0.010 bar, 计算 $\Delta rGm$ 。 $\Delta_{r}G_{m} = \Delta_{r}G_{m}^{\circ} + RT \ln p(B_{2}O_{3}) = -70.82 kJ \cdot mol^{-1}$ (2 分)
 

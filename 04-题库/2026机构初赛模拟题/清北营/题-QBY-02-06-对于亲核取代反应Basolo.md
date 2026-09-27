@@ -40,15 +40,15 @@ source_file: "2026机构初赛模拟题/04-清北营/2026年清北营暑假高�
 以上得到的线性依赖关系和 $k_{s}$ 值证实了所提出的双路径机理。但是又发现，由于水解而存在于溶液中的 $[HNO_{2}]$ 的增加导致了第三条路径的出现，对应于 $S_{N}2$ (lim) 机理的亲电催化：（S 表示溶剂）
 
 $$
-[ P t (p i p) _ {2} C l _ {2} S _ {2} ] + H N O _ {2} \rightleftharpoons [ P t (p i p) _ {2} C l _ {2} (H N O _ {2}) S ] + S\tag{K}
+[ P t (p i p) _ {2} C l _ {2} S _ {2} ] + H N O _ {2} \rightleftharpoons [ P t (p i p) _ {2} C l _ {2} (H N O _ {2}) S ] + S
 $$
 
 $$
-[ P t (p i p) _ {2} C l _ {2} (H N O _ {2}) S ] + N O _ {2} ^ {-} \rightarrow [ P t (p i p) _ {2} C l _ {2} (N O _ {2} ^ {-}) ] ^ {-} + H N O _ {2} + S\tag{\((k_{1})\}
+[ P t (p i p) _ {2} C l _ {2} (H N O _ {2}) S ] + N O _ {2} ^ {-} \rightarrow [ P t (p i p) _ {2} C l _ {2} (N O _ {2} ^ {-}) ] ^ {-} + H N O _ {2} + S
 $$
 
 $$
-[ P t (p i p) _ {2} C l _ {2} (N O _ {2} ^ {-}) ] ^ {-} + 2 S \rightarrow [ P t (p i p) _ {2} C l (N O _ {2} ^ {-}) S _ {2} ] + C l ^ {-}\tag{\((k_{2})\}
+[ P t (p i p) _ {2} C l _ {2} (N O _ {2} ^ {-}) ] ^ {-} + 2 S \rightarrow [ P t (p i p) _ {2} C l (N O _ {2} ^ {-}) S _ {2} ] + C l ^ {-}
 $$
 
 此催化反应向 kobs 的表达式中加入了第 3 项 $k_{obs} = k_{s} + k_{y}[NO_{2}^{-}] + k_{cat}[NO_{2}^{-}][HNO_{2}]$ 。如果 $[NO_{2}^{-}]$ 恒定为 $2 \times 10^{-3} \, mol/L$ ，其他数据不变，则 $k_{\mathrm{obs}} = 1.608 \times 10^{-5} \, s^{-1} + 0.027 \, L \cdot (\mathrm{mol} \cdot \mathrm{s})^{-1} \, [\mathrm{HNO}_{2}]$ 。
@@ -76,11 +76,11 @@ $$
 以上得到的线性依赖关系和 $\mathrm{k_s}$ 值证实了所提出的双路径机理。但是又发现，由于水解而存在于溶液中的 $[\mathrm{HNO}_2]$ 的增加导致了第三条路径的出现，对应于 $\mathrm{S_N2}(\lim)$ 机理的亲电催化：（S表示溶剂） $[Pt(pip)_2Cl_2S_2] + HNO_2 \rightleftharpoons [Pt(pip)_2Cl_2(HNO_2)S] + S$ (K)
 
 $$
-[ P t (p i p) _ {2} C l _ {2} (H N O _ {2}) S ] + N O _ {2} ^ {-} \rightarrow [ P t (p i p) _ {2} C l _ {2} (N O _ {2} ^ {-}) ] ^ {-} + H N O _ {2} + S\tag{\( (k_{1}) \}
+[ P t (p i p) _ {2} C l _ {2} (H N O _ {2}) S ] + N O _ {2} ^ {-} \rightarrow [ P t (p i p) _ {2} C l _ {2} (N O _ {2} ^ {-}) ] ^ {-} + H N O _ {2} + S
 $$
 
 $$
-[ P t (p i p) _ {2} C l _ {2} (N O _ {2} ^ {-}) ] ^ {-} + 2 S \rightarrow [ P t (p i p) _ {2} C l (N O _ {2} ^ {-}) S _ {2} ] + C l ^ {-}\tag{\( (k_{2}) \}
+[ P t (p i p) _ {2} C l _ {2} (N O _ {2} ^ {-}) ] ^ {-} + 2 S \rightarrow [ P t (p i p) _ {2} C l (N O _ {2} ^ {-}) S _ {2} ] + C l ^ {-}
 $$
 
 此催化反应向 $k_{\mathrm{obs}}$ 的表达式中加入了第3项 $k_{\mathrm{obs}} = k_{\mathrm{s}} + k_{\mathrm{y}}[\mathrm{NO}_2^-] + k_{\mathrm{cat}}[\mathrm{NO}_2^-][\mathrm{HNO}_2]$ 。如果 $[\mathrm{NO}_2^-]$ 恒定为 $2\times 10^{-3}\mathrm{mol / L}$ ，其他数据不变，则 $\mathrm{k_{obs} = 1.608\times 10^{-5}s^{-1} + 0.027L\cdot (mol\cdot s)^{-1}[HNO_2]}$ 。

@@ -60,7 +60,7 @@ K _ {a 1} \left(\mathrm{H} _ {3} \mathrm{PO} _ {4}\right) = 7.6 \times 10 ^ {- 3
 $$
 
 $$
-\left\{ \begin{array}{l} M n S + H _ {2} O \rightleftharpoons M n ^ {2 +} + H S + O H ^ {-} \\ K = K _ {S P} \cdot \frac {K _ {W}}{K _ {2}} \\ = 4.5 \times 10 ^ {- 13}.
+\left\{ \begin{array}{l} M n S + H _ {2} O \rightleftharpoons M n ^ {2 +} + H S + O H ^ {-} \\ K = K _ {S P} \cdot \frac {K _ {W}}{K _ {2}} \\ = 4.5 \times 10 ^ {- 13}. \end{array}
 $$
 
 写出溶解+第一步水解平衡1分,平衡常数1分,

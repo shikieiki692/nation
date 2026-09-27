@@ -89,9 +89,8 @@ e) x 三方
 ![](images/941b057d81b9357ffd20c49b9e1f68ec96737a5a015375142c0fff786dac79ef.jpg)
 
 $$
-(f) \quad \overline {{3}} = 3 + i
 $$
-
+(f) \quad \overline {{3}} = 3 + i
 $$
 I _ {3} = C _ {3} + i
 $$
@@ -133,45 +132,35 @@ $$
 已知 $\varphi^{\ominus}(Hg^{2+}/Hg)=0.851\ V,\quad\varphi^{\ominus}(Hg_{2}^{2+}/Hg)=0.797\ V,\quad HgS$ 的 $K_{sp}=4.00\times10^{-52},\quad HgI_{4}^{2-}$ 的 $\beta_{4}^{\ominus}=6.76\times10^{29},\quad H_{2}S$ 的 $K_{a1}=1.31\times10^{-7},\quad K_{a2}=1.00\times10^{-14}$ 3-1 向硝酸亚汞溶液中加入 $Na_{2}S$ 固体，生成黑色沉淀，写出反应式的方程式，并计算该反应在室温下的标准平衡常数 $K^{\ominus}$ 3-2 欲在 100 mL 水中完全溶解 1.98 g 硫化汞，计算需要 HI 的最小起始浓度。
 
 $$
+$$
 3 - 1. \mathrm {Hg_ {2} (NO_ {3}) _ {2} + Na_ {2} S\rightarrow HgS + Hg + 2NaNO_ {3} (1^ {\prime})}
 $$
-
 $$
 H g _ {2} ^ {2 +} + 2 e ^ {-} \rightarrow 2 H g
 $$
-
 $$
 H g - 2 e ^ {-} \rightarrow R l g ^ {2 - 1}
 $$
-
 $$
 H g ^ {2 +} + S ^ {2 -} \rightarrow H (g S
 $$
-
 $$
 \Delta G ^ {\ominus} = - R T \ln k ^ {\ominus} = - 2 F E ^ {\ominus} (i).
 $$
-
 $$
 k = k _ {1} k _ {2} k _ {3} =
 $$
-
 $$
 \exp (\frac {\geq F \varphi^ {\theta} (H g _ {2} ^ {24} / H g)}{R T}) \cdot \exp (- \frac {\geq F \varphi^ {\theta} (H g ^ {2} / H g)}{R T}) \cdot \frac {1}{k _ {s p}}
 $$
-
 $$
 = 3.73 \times 10 ^ {49} (i)
 $$
-
 $$
 \mathrm{另一种总结:}
 $$
-
 $$
 \sqrt {H g \frac {2}{?} H g ^ {2 +} - H g}
-$$
-
 $$
 ① \mathrm{等出} H g _ {2} ^ {2 +} \mathrm{技化的} E ^ {\ominus} (1 ^ {\prime})
 $$
@@ -179,33 +168,26 @@ $$
 ② 用Nerust语并出的可反应： $E^{\theta}$ （①中非标点）（i）
 
 $$
+$$
 ③ f ^ {\prime} k ^ {\theta} (1 ^ {\prime})
 $$
-
 $$
 3 - 2 \beta_ {4} \mathrm{很大} k _ {1} k _ {2} \mathrm{out} =) C (S) = [ H _ {4} ] C (H _ {9}) = [ H _ {9} ] ^ {2 -}
 $$
-
 $$
 C = \frac {m (H g S)}{M (H g S) V} = 0.0851 M (l ^ {\prime})
 $$
-
 $$
 \text { 设物体交定: } Q = k ^ {\ominus}
 $$
-
 $$
-\begin{array}{l}{H g S + 2 H ^ {- 1} + 4 I ^ {-} \rightarrow H g I _ {4} ^ {2 -} + H _ {2} S.}\\{\hline k = \frac {k _ {s p} \cdot \beta_ {4}}{k _ {a 1} k _ {a 2}} = 0.206}\end{array}\tag {i}
+\begin{array}{l}{H g S + 2 H ^ {- 1} + 4 I ^ {-} \rightarrow H g I _ {4} ^ {2 -} + H _ {2} S.}\\ \hline {k = \frac {k _ {s p} \cdot \beta_ {4}}{k _ {a 1} k _ {a 2}} = 0.206}\end{array}
 $$
-
 $$
 [ H ^ {+} ] = C _ {0} - 2 [ H _ {2} S ] \quad [ I ^ {-} ] = C _ {0} - 4 [ H _ {2} S ] (i)
 $$
-
 $$
 Q = \frac {[ H _ {2} S ] [ H _ {3} I _ {4} ^ {2 -} ]}{(C _ {0} - 2 [ H _ {2} S ]) ^ {2} (C _ {0} - 4 [ H _ {2} S ] ^ {4})} = k ^ {\theta} (1).
-$$
-
 $$
 \Rightarrow C _ {0} = 0.861 \mathrm{M}. (1 ^ {\prime})
 $$
@@ -213,9 +195,8 @@ $$
 ② $\therefore {S}^{\prime \prime }\left\lbrack  {{Hg}^{2 + }}\right\rbrack$ 作桥梁
 
 $$
-[ H (g) I _ {4} ^ {2 -} ] = 0.08 t (\overline {{m}}) \quad [ H (g ^ {2 +}) ] = \frac {0.0851 m}{(C _ {0} - 4 [ H _ {2} s ]) ^ {4} \beta_ {4}}
 $$
-
+[ H (g) I _ {4} ^ {2 -} ] = 0.08 t (\overline {{m}}) \quad [ H (g ^ {2 +}) ] = \frac {0.0851 m}{(C _ {0} - 4 [ H _ {2} s ]) ^ {4} \beta_ {4}}
 $$
 [ S ^ {2 -} ] = \frac {[ H _ {2} S ] k a _ {1} k a _ {2}}{(C _ {0} - 2 [ H _ {2} S ]) ^ {2}} = \frac {k s p}{[ H q ^ {2 +} ]}
 $$

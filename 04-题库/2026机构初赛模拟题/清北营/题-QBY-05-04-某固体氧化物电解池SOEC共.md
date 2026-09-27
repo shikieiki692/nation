@@ -73,7 +73,7 @@ $$
 
 在阴极电极表面，以下两条氧交换反应可视为达到热力学平衡： $\begin{aligned} & H_{2}O(g) &= H_{2}(g) + 1/2 O_{2}(g) \\ & CO_{2}(g) &= CO(g) + 1/2 O_{2}(g) \end{aligned}$ R1
 
-气体离开电极区后，迅速达到水煤气变换平衡（WGS）： $CO_{2}(g) + H_{2}(g) &= CO(g) + H_{2}O(g)$ 已知各物种 298.15K 时的热力学数据如下（理想气体）：
+气体离开电极区后，迅速达到水煤气变换平衡（WGS）： $CO_{2}(g) + H_{2}(g) = CO(g) + H_{2}O(g)$ 已知各物种 298.15K 时的热力学数据如下（理想气体）：
 
 <table><tr><td>物种</td><td> $\Delta_{f}H_{m}^{\theta}$ (kJ/mol)</td><td> $S_{m}^{\theta}$ (J/mol·K)</td><td> $C_{p,m}^{\theta}$ (J/mol·K)</td></tr><tr><td> $H_{2}O(g)$ </td><td>-241.8</td><td>188.8</td><td>36.0</td></tr></table>
 

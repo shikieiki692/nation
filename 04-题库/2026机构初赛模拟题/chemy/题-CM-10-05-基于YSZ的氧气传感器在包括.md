@@ -167,7 +167,7 @@ Diffusion barrier 为扩散障碍层；Diffusion gap 为扩散腔；圆图为电
 
 小孔面积 $S=0.25\pi d^{2}=0.25\pi\times(22\times10^{-6})^{2}=3.8\times10^{-10}(m^{2})$ （1分）
 
-待测气体中 $\mathrm{O}_2$ 的浓度 $c_{\mathrm{O_2,}$ 待测气体 $= \frac{p}{RT} = \frac{0.13\times 10^3\times 21\%}{8.314\times 723.15} = 4.5\times 10^{-3}(\mathrm{mol / m^3})$ （1分）
+待测气体中 $\mathrm{O}_2$ 的浓度 $c_{\mathrm{O_2},}$ 待测气体 $= \frac{p}{RT} = \frac{0.13\times 10^3\times 21\%}{8.314\times 723.15} = 4.5\times 10^{-3}(\mathrm{mol / m^3})$ （1分）
 
 单位时间内进入扩散腔内的 $O_{2}$ 物质的量： $n=\frac{0.016cS}{l}=\frac{0.016\times4.54\times10^{-3}\times3.80\times10^{-10}}{0.84\times10^{-3}}=3.3\times10^{-11}$ (mol/s)（2分）
 
