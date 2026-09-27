@@ -1,0 +1,63 @@
+---
+title: "题-GChO-22-09-ent类胡萝卜素是一类结构丰"
+aliases: ["题-GChO-22-09"]
+type: 题目
+fidelity: 原书逐字
+difficulty: 4
+teaching_level: 竞赛
+source: "质心GChO ZCHEM-GChO22 第 9 题"
+module: "2026机构初赛模拟题"
+source_subject: 有机化学
+syllabus_codes: []
+knowledge_points: []
+tags: [化竞, 题目, 初赛, 机构模拟题, 质心GChO]
+updated: 2026-09-26
+status: 已填充
+exam_stage: 初赛
+subject_module: 有机化学
+pack: 综合模拟卷
+submodule: 质心GChO
+source_category: 竞赛导向·竞赛教辅
+source_grade: A
+source_norm: "质心GChO-ZCHEM-GChO22"
+source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO22试题（线下营）.md"
+---
+
+# 题-GChO-22-09-ent类胡萝卜素是一类结构丰
+
+## 题目
+
+### 第 9 题 (9分)
+
+ent-类胡萝卜素是一类结构丰富的多环二萜，最早从腰澡属的植物中发现。其有趣的结构和潜在的生物活性引起了合成化学家的兴趣。如下化合物就是一种 ent-类胡萝卜素
+
+2020年我国化学家完成了该化合物的全合成工作，如下是该化合物合成路线的一部分。
+
+1
+
+![](images/0ac5899b0e19c7bb409bc2ba18e603ec21d42a3b36567785ed67eb00c67dc84d.jpg)
+
+9-1 化合物 1 中有几个手性碳原子？
+
+9-2 请推断 $\mathbf{A} \sim \mathbf{G}$ 的结构。
+
+## 参考答案
+
+ent-类胡萝卜素是一类结构丰富的多环二萜，最早从腰澡属的植物中发现。其有趣的结构和谐的生物活性引起了合成化学家的兴趣。如下化合物就是一种ent-类胡萝卜素
+
+2020 年我国化学家完成了该化合物的全合成工作，如下是该化合物合成路线的一部分。
+
+![](images/b9bfdfdf13a6a02bc30a7a01c77f7526839fc5e27871d6bf6c09bb8a97222a52.jpg)
+
+<table><tr><td><img src="images/1488b355e66ebacdb178710039dac0a0d7669d68494bbfab3e29fdad066a4f7b.jpg"/></td><td></td></tr><tr><td colspan="2">第10题(10分)小环化合物由于具有环张力,因此往往具有很高的反应活性。如下是氮杂四元环醇的反应,忽略底物的差异,两个反应的机理是“一样”的。</td></tr><tr><td><img src="images/5c149bbcd91c59470ac34835a009d2d14c37e23d61268106dd6d6479167c37d8.jpg"/>A<img src="images/c33abd433f8a9b2de491c90a357a6d45b5f0f3e6ba345f09893276bd90a5af38.jpg"/>B</td><td>化合物B的核磁数据如下: $^{1}$ H NMR (CDCl3, 400 MHz): δ 7.65 (2H), 7.28 (3H), 7.11 (2H), 7.05 (2H), 6.89 (1H), 6.44 (1H), 4.71 (1H), 4.51 (1H), 4.26 (1H), 3.79 (3H), 3.55 (1H), 3.35 (1H), 2.43 (3H), 2.31 (3H). $^{13}$ C NMR (CDCl3, 101 MHz): δ 162.1 (C), 161.5 (C), 143.7 (C), 139.5 (C), 137.2 (C), 136.5 (C), 129.9 (CH), 129.7 (CH), 127.1 (CH), 126.4 (CH), 125.0 (CH), 120.9 (C), 107.2 (CH), 96.7 (CH), 82.3 (CH2), 55.6 (CH3), 53.3 (C), 49.9 (CH3), 21.6 (CH3), 21.0 (CH3).10-1请推断化合物A和B的结构。给A的结构。10-2写出产生化合物A的过程中的4个中间体,如果不止4个,请写你认为最重要的。</td></tr><tr><td>[12个含氧]</td><td></td></tr><tr><td>化合物A的核磁数据如下: $^{2}$ H NMR (CDCl3, 400 MHz): δ 7.90 (2H), 7.66 (2H), 7.31–7.21 (6H), 7.15 (2H), 4.96 (1H), 4.88 (1H), 4.46 (1H), 3.39 (1H), 3.22 (1H), 2.43 (3H), 2.39 (3H), 2.34 (3H). $^{3}$ C NMR (CDCl3, 101 MHz): δ 163.7 (C), 143.4 (C), 142.5 (C), 140.2 (C), 138.5 (C), 136.7 (C), 129.7 (CH), 129.46 (CH), 129.1 (CH), 128.7 (CH), 127.0 (CH), 125.5 (CH), 124.2 (C), 76.0 (CH2), 75.7 (C), 51.7 (CH2), 21.7 (CH3), 21.5 (CH3), 21.1 (CH3).</td><td></td></tr><tr><td><img src="images/1e94ac2a92f7cee14843ef7c300987a181265376831a0a4581ff9cc24a05b40d.jpg"/>E</td><td></td></tr><tr><td><img src="images/ec66209e1edb0d0124f593f21f21303d938a5bce677d5087afc2233dc1d06eed.jpg"/></td><td></td></tr><tr><td><img src="images/4c742e89bcd0fe37559c780b4d588f283889bc0030cdc5b55e923907984f3bdc.jpg"/>2&#x27;</td><td><img src="images/489c10f285f0c7af57f8fef3c25264e46c99ae150482112dbdbbc9fa7ea4b962.jpg"/></td></tr><tr><td><img src="images/45db825ba63c98b92eb356efa431c0f36a8b4448ad45640038b05c1b341ee55e.jpg"/> <img src="images/f4e5f5e78295daf503b0eae08fc451a2d2885ea77599ce4049d67c12601defd9.jpg"/>送修2</td><td><img src="images/81b3a9edcb34a6299aba745b8cc2cd3afa57e0f6ccf89efca342f0a57871b5f2.jpg"/></td></tr><tr><td>—</td><td>qwsL</td></tr><tr><td><img src="images/abb67eaaf92e7bbe4335a4a5078edec55d0b84f649583cf08f514ffe885d8f92.jpg"/>2&#x27;</td><td><img src="images/575422ffb796f971cac76ad2b7d35c8004f9b63fa2c9b0f7b54b9fee4c8304ec.jpg"/> + R-CN → <img src="images/41561c58444260002465c673f489eef8f8b789f8f96b9694078afc3cca2866a3.jpg"/>SH</td></tr><tr><td><img src="images/4d397663f858aad9e2d3382aa227e1f87976fe79f4ac6d40f501f43ff9fcd67b.jpg"/></td><td><img src="images/2c348c846500d5df48ef8ae6e071d1b3f851ea65d0e2acf9653017c3d53255a6.jpg"/></td></tr><tr><td rowspan="5"><img src="images/5c3c649ed0897608bfc62c0786be699f70f7c9093c4873e9d9089db02aed2b97.jpg"/></td><td><img src="images/c53e4fe0009e5c63598dc38ec4bf8e4766ff914c552ac1c7b1bbe065b6ac92c3.jpg"/>Y48T</td></tr><tr><td>R</td></tr><tr><td>SDLR</td></tr><tr><td>TC7D→<img src="images/813e741695705144ba8eae4930ae476073d7ca41c3613283abbd4309a9324075.jpg"/></td></tr><tr><td><img src="images/d53e294acc1f0313b9e1611c47ef452f5e82034871aa2d4367cd98f0502373ea.jpg"/></td></tr></table>
+
+![](images/5dc9d4d53e1ed3fc1165c93a7b416073072d0951b0af01ae59efcb170656cf78.jpg)
+
+<table><tr><td>G†</td></tr><tr><td>- OHi</td></tr><tr><td>Ii†</td></tr></table>
+
+## 知识点映射
+
+- （待人工校准）
+
+
+> ⚠️ **自动拆卡标记**：`subject_module`/`difficulty` 为关键词粗判，答案数值与单位**尚未经人工复核**（OCR 原文逐字转录，可能保留原卷笔误）。

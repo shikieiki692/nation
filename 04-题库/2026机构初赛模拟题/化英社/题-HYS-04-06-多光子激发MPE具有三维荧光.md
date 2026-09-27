@@ -1,0 +1,92 @@
+---
+title: "题-HYS-04-06-多光子激发MPE具有三维荧光"
+aliases: ["题-HYS-04-06"]
+type: 题目
+fidelity: 原书逐字
+difficulty: 4
+teaching_level: 竞赛
+source: "化英社 第40届化英社化学奥林匹克初赛夏季模拟4 第 6 题"
+module: "2026机构初赛模拟题"
+source_subject: 化学原理
+syllabus_codes: []
+knowledge_points: []
+tags: [化竞, 题目, 初赛, 机构模拟题, 化英社]
+updated: 2026-09-26
+status: 已填充
+exam_stage: 初赛
+subject_module: 化学原理
+pack: 综合模拟卷
+submodule: 化英社
+source_category: 竞赛导向·竞赛教辅
+source_grade: A
+source_norm: "化英社-第40届化英社化学奥林匹克初赛夏季模拟4"
+source_file: "2026机构初赛模拟题/07-化英社/第40届化英社化学奥林匹克初赛夏季模拟试题4.md"
+---
+
+# 题-HYS-04-06-多光子激发MPE具有三维荧光
+
+## 题目
+
+### 第 6 题 多光子激发荧光材料（24分，占 $13\%$ ）
+
+多光子激发(MPE)具有三维荧光限域、背景噪声低及成像对比度和信噪比高等优势。针对这一特性，研究员提出一种分子策略，仅通过连续的一光子激发(1PE)即可模拟出类似多光子激发的非线性响应行为。
+
+6-1 制备荧光分子探针 SNP 的步骤如下:
+
+![](images/f2872623fd538104fc1a086d63189cfdc44600c3e455eb419e1bf1f9d5a7cdae.jpg)
+
+![](images/c8a29f8a942ab9ed4ae5167249cefcad1a15f31a33cfd12dd03902715d29803a.jpg)
+6-1-1 画出中间产物 A 的结构。
+
+![](images/0b69563cdf7df728d4048a0eda75e8c735145ad86181c7775c31ef266e163ab6.jpg)
+
+6-1-2 上述图片为 SNP 两种存在形式 $\mathrm{SNP}_{\mathrm{C}}$ 与 $\mathrm{SNP}_{\mathrm{CL}}$ 的吸收光谱；已知酸性条件下 $\mathrm{SNP}_{\mathrm{C}}$ 是热力学稳定的形态，其整体呈中性，而 $\mathrm{SNP}_{\mathrm{CL}}$ 整体带一个负电荷。分别画出 $\mathrm{SNP}_{\mathrm{C}}$ 与 $\mathrm{SNP}_{\mathrm{CL}}$ 的结构并将它们与吸收光谱的线条对应。
+
+6-2 通过不同荧光分子之间的组合, 研究人员实现了形式上的单分子多光子激发过程, 以及仅通过连续的一光子激发, 实现多光子类线性响应。将荧光分子 ACD（结构如下图）在铜催化剂的催化下与 SNP 分子结合, 形成 “2 合 1” 大分子 ACD/SNP。
+
+![](images/faab8f6c4c72d6f6fd1027aa303e51ad7c1b8d9284616e279b53145aa008e05e.jpg)
+
+荧光共振能量转移过程（FRET），意味着在供体基团和受体基团相互靠得很近（1\~10 nm）时，光子能从一个受激发的荧光团（供体）转移到另一个荧光团（受体），发生 FRET 的概率随着两个光谱的重叠面积增加而增加。ACD 与 SNP 之间存在这样的 FRET：在 375 nm 的光激发下，第一个光子，会被 1 吸收，通过 FRET 过程将能量共振（过程中能量有一定损耗）转移到 2 上，后第二个光子再被 3 吸收，最终发出荧光。
+
+6-2-1 分别在 1、2、3 三个空中选填 ACD、SNP 的其中之一。
+
+6-2-2 已知上述过程包含了 $\mathsf{SNP}_{\mathsf{C}}$ 与 $\mathsf{SNP}_{\mathsf{CL}}$ 之间的转化, 可进行如下的动力学建模:
+
+$$
+\mathrm{ACD} / \mathrm{SNP} _ {\mathrm{c}} \xrightarrow [ k _ {\mathrm{T}} ]{k _ {\mathrm{iso}}} \mathrm{ACD} / \mathrm{SNP} _ {\mathrm{CL}} \xrightarrow {k _ {\mathrm{a}}} \mathrm{ACD} / \mathrm{SNP} _ {\mathrm{CL}} ^ {*}
+$$
+
+其中 $k_{iso}$ 、 $k_{a}$ 与激发光的强度 $I_{exc}$ 成正比，比值为 p、q，投入体系的 ACD/SNP 物种总浓度为 $c_{0}$ 。荧光强度 $I_{f}$ 与激发态物种生成速率成正比，比值为 r。在达到光热异构化平衡后，将发生荧光强度 $I_{f}$ 用 $k_{T}$ 、 $I_{exc}$ 及给定的常数表示。
+
+6-2-3 按照上述理论模拟，当 $k_{\mathrm{T}}$ 与 $k_{\mathrm{iso}}$ 之间满足什么样的关系时候，荧光强度能与激发光强度成二次关系？
+
+6-2-4 研究人员对不同的光照强度下, 荧光/激发光强度的对数进行了拟合, 在低光照强度下, 观察到近似线性的荧光/激发光强度关系, 在中等光照强度时, 测得非线性因子为 1.53 而非理论上的 2。为了解释这种现象, 研究员引入了一个额外的项来考虑背景发射, 该部分荧光的强度为 $I_{f}^{*} = q r c_{0} I_{\mathrm{exc}}$ , 而修正后的 $I_{f}^{\prime} = X I_{f}^{*} + (1 - X) I_{f}$ 。直接写出修正后 $I_{f}^{\prime}$ 的表达式。
+
+6-2-5 由此修正后的模型，可以计算得到和测定结果相符合的结果。
+
+我们给出非线性因子的定义：在双对数坐标下，如果函数局部像幂函数 $f(x) \propto x^n$ ，那么这个 $n$ 就代表该点的非线性因子（有效次数）， $n$ 的计算公式如下：
+
+$$
+n = \frac {\mathrm{d} \ln f}{\mathrm{d} \ln x} = \frac {x}{f} \cdot \frac {\mathrm{d} f}{\mathrm{d} x}
+$$
+
+补充数学公式：若 $f(x) = \frac{ax^2 + bx}{cx + d}$ ，则导函数 $f'(x) = \frac{\mathrm{d}f}{\mathrm{d}x} = \frac{(2ax + b)(cx + d) - c(ax^2 + bx)}{(cx + d)^2}$
+
+根据上述定义，推导出 n 的表达式，用 p、X、 $k_{T}$ 和 I 表示，要求表达式形式如下：
+
+$$
+n = \frac {d I ^ {2} + e I + f}{a I ^ {2} + b I + c}
+$$
+
+根据实验测定： $p = 0.007$ ， $X = 0.07$ ， $k_{\mathrm{T}} = 0.8~\mathrm{s}^{-1}$ ，而当 $I = 30.24$ 时 $n$ 取到理论最大值，求出 $n$ 的理论最大值。
+
+## 参考答案
+
+⛔ 答案缺失（源答案文件未含该题号，需人工补）
+
+## 知识点映射
+
+- （待人工校准）
+
+
+> ⚠️ **自动拆卡标记**：`subject_module`/`difficulty` 为关键词粗判，答案数值与单位**尚未经人工复核**（OCR 原文逐字转录，可能保留原卷笔误）。

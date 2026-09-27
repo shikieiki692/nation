@@ -1,0 +1,137 @@
+---
+title: "题-BJLY-北京夏令营-有机巩固练习二-04-1小环由于环张力的问题非常不"
+aliases: ["题-BJLY-北京夏令营-有机巩固练习二-04"]
+type: 题目
+fidelity: 原书逐字
+difficulty: 4
+teaching_level: 竞赛
+source: "北京夏令营 北京夏令营-有机巩固练习二 第 4 题"
+module: "2026机构初赛模拟题"
+source_subject: 有机化学
+syllabus_codes: []
+knowledge_points: []
+tags: [化竞, 题目, 初赛, 机构模拟题, 北京夏令营]
+updated: 2026-09-26
+status: 已填充
+exam_stage: 初赛
+subject_module: 有机化学
+pack: 综合模拟卷
+submodule: 北京夏令营
+source_category: 竞赛导向·竞赛教辅
+source_grade: A
+source_norm: "北京夏令营-北京夏令营-有机巩固练习二"
+source_file: "2026机构初赛模拟题/13-北京夏令营/北京夏令营-有机巩固练习二.md"
+---
+
+# 题-BJLY-北京夏令营-有机巩固练习二-04-1小环由于环张力的问题非常不
+
+## 题目
+
+### 第 4 题 小环化合物的特殊性质（21 分）
+
+1. 小环由于环张力的问题，非常不稳定，所以非常容易发生开环反应，并且开环反应有一定的区域选择性。请根据所学知识写出下列开环的产物。
+
+(1)
+
+(2)
+
+![](images/209a8f80867e5874a927f922b8499e22faa551af2f893be180a7a139bcbb23a3.jpg)
+
+(3)
+
+(4)
+
+![](images/bbca7c6dc038479dce57a869ad36a77eb43577824291b9565306c6edb5ee1617.jpg)
+
+(5)
+
+![](images/d53ca95ad65b04b393b95cffef11f8a3ae494f16fbd8b68970ce3712d9186f4a.jpg)
+
+2. 小环的制备更是有机合成的一个难点，比如利用频哪醇重排反应可以进行缩环反应，但是这个方法在制备四元环时却是不行的。请写出下列频哪醇重排产物。
+
+(1)
+
+![](images/60b402c6095a4bcb9969054a5c827e8bb5b78a0a67243d6111cbd5c2baf79135.jpg)
+
+(2)
+
+![](images/6c1efb68973c5bf25ac5de0b2af96e91879594ce1b503a75b9401d7975bb11b7.jpg)
+
+(3)
+
+![](images/afe4969fbc9106a66280b00fd7dd25b3a1ecae9540754f40deeecee167b5f857.jpg)
+
+![](images/afac77f5f6db0c7ba29ccc5f14eabbb5673595adbc12afabbb81336e15d38fa3.jpg)
+(4)
+
+3. Narrish-Yang 光环化反应是一个自由基机理的成小环的重要反应，其反应如下：
+
+![](images/cb3439c0306fedb5f3b56ac21f715fff7bebf08a8ce72f797db89ddd9d3000a7.jpg)
+
+该反应反应物在光照条件下羰基的 $\pi$ 键发生解离，生成一个双自由基中间体A，然后夺取 $\gamma$ 位的氢原子变成新的双自由基中间体B，最后两个双自由基结合形成四元环得到最终产物。
+
+(1) 写出中间体 A 和中间体 B 的结构
+
+(2) 写出下列反应的产物
+
+![](images/f9b22b4959de52accd292067605285b4a812e7ba174df32db5cfb5138789047b.jpg)
+
+(3) 当 $\gamma$ 位的氢换成氰基后会经过另一个机理生成环丙烷产物, A. 请写出下面反应的产物:
+
+![](images/23eb3c574bf5a95406682992172905906ecf795b9d7929bba38a71e849c9ec07.jpg)
+
+B. 该反应首先在光照条件下形成双自由基，然后与氰基发生加成形成五元环，然后氰基复原重新生成新的双自由基中间体，最后两个单电子成键形成最终产物。请根据描述写出该反应的反应机理。
+
+## 参考答案
+
+<table><tr><td>(1)(1分)[IMAGE]</td><td><img src="images/f9116e9277a1b194afcc08ee9864f814cf7da9058521e4fda7411499990c7cdd.jpg"/></td><td>(3)(1分)[IMAGE]</td></tr><tr><td>(4)(1分)<img src="images/5188c06dd80f8ead73b06ebfd8cfe2288ce4835d2683b2eb04c60625accbd748.jpg"/></td><td>(5)(1分)<img src="images/38f9ccaa39ab61c1acc0ad1b8df0f1aa3bb0336c40f9c36b3a9082767925e451.jpg"/></td><td></td></tr></table>
+
+2.
+
+(1) (1 分)
+
+![](images/df528fe7abc9ce9d325821e1bc377bddb56287ae2665c5d30b03c7d5ed7cb4bb.jpg)
+
+(3)(1 分)
+![](images/ff10ec8a5ab7edcf54675d1b8ddc5692ebf4103e441b3e02f1251d24650f74eb.jpg)
+
+(2)(1 分)
+
+![](images/d7a7389430546d91a25fbf2d9735f66b6cd65d4f8887f215502de976ec534d7a.jpg)
+
+(4) (2 分)
+![](images/993ccf1bc771cd9693f7947874e5fae46603c90fa67329a48273c8af5e9729e3.jpg)
+3. (1)
+
+A (1 分)
+
+![](images/2b0738322d264c0cf18a46834fbfcd3923e5187cac8bb6daa907a3516e5649ee.jpg)
+
+![](images/29095244130543b2aeaf8168f5705a89453ca465afd07a931c9627ae1b27be02.jpg)
+3. (2)
+
+A (1 分)
+
+![](images/625d0bc8af109344dfe427868d7c3de662f81c329bd58adab10989987fc56d76.jpg)
+
+B (1 分)
+
+![](images/b4db602508d2647832c48eaec05a32abc429a639b2e6d2db476b87c8dedde83f.jpg)
+
+![](images/1ecadf0a559b1f5911648547a244dd91c9c49847453b4743343fc4074fdaca7d.jpg)
+3. (3)
+
+A (2 分)
+
+![](images/8b0ce9b14d91c2205471b603ba8d67c647c63d16fff06ded5ab70d2f6ef8c9d9.jpg)
+
+B (3 分)
+
+![](images/2dff82019adb9b504c0ea223e41763a647a275097371671973d1b97a3d04d7db.jpg)
+
+## 知识点映射
+
+- （待人工校准）
+
+
+> ⚠️ **自动拆卡标记**：`subject_module`/`difficulty` 为关键词粗判，答案数值与单位**尚未经人工复核**（OCR 原文逐字转录，可能保留原卷笔误）。

@@ -1,0 +1,229 @@
+---
+title: "题-XeC-Xechem模拟三（晶体）-03-是一种极其常见的矿物其常见晶"
+aliases: ["题-XeC-Xechem模拟三（晶体）-03"]
+type: 题目
+fidelity: 原书逐字
+difficulty: 4
+teaching_level: 竞赛
+source: "XeChem Xechem模拟三（晶体） 第 3 题"
+module: "2026机构初赛模拟题"
+source_subject: 结构化学
+syllabus_codes: []
+knowledge_points: []
+tags: [化竞, 题目, 初赛, 机构模拟题, XeChem]
+updated: 2026-09-26
+status: 已填充
+exam_stage: 初赛
+subject_module: 结构化学
+pack: 综合模拟卷
+submodule: XeChem
+source_category: 竞赛导向·竞赛教辅
+source_grade: A
+source_norm: "XeChem-Xechem模拟三（晶体）"
+source_file: "2026机构初赛模拟题/03-XeChem/Xechem模拟三（晶体）.md"
+---
+
+# 题-XeC-Xechem模拟三（晶体）-03-是一种极其常见的矿物其常见晶
+
+## 题目
+
+### 第 3 题 电池材料 $\mathrm{LiMn_2O_4}$ （33分，占 $17\%$ ）
+
+$\mathrm{MnO}_{2}$ 是一种极其常见的矿物,其常见晶型有 5 种,下图展示了 5 种晶型的 $\mathrm{MnO}_{2}$ 的相对稳定性以及其对应部分晶体学数据:
+
+$\beta -\mathrm{MnO}_2$ $\alpha -\mathrm{MnO}_2$ $\gamma -\mathrm{MnO}_2$ $\delta -\mathrm{MnO}_2$ $\lambda -\mathrm{MnO}_2$
+
+![](images/6c4ac593321ba1c45f66238e4f86abc17ffb71ca0e1f5eebfbbd09ace6ab2ac7.jpg)
+
+晶体学数据:
+
+<table><tr><td></td><td>a/pm</td><td>b/pm</td><td>c/pm</td><td> $\alpha$ </td><td> $\beta$ </td><td> $\gamma$ </td><td> $\rho /g·cm^{-3}$ </td><td>空间群</td></tr><tr><td> $\alpha$ </td><td>993</td><td>993</td><td>286</td><td>90°</td><td>90°</td><td>90°</td><td>4.09</td><td>I4/m</td></tr><tr><td> $\beta$ </td><td>441</td><td>441</td><td> $c_1$ </td><td>90°</td><td>90°</td><td>90°</td><td>5.16</td><td> $P4_2/mnm$ </td></tr><tr><td> $\gamma^{*1}$ </td><td>-</td><td>-</td><td>-</td><td>90°</td><td>90°</td><td>90°</td><td>4.78</td><td>正交晶系</td></tr><tr><td> $\delta^{*2}$ </td><td>286/283</td><td>286/283</td><td>1431/1442</td><td>90°</td><td>90°</td><td>120°</td><td> $d_1/d_2$ </td><td> $P6_3/mmc$ </td></tr><tr><td> $\lambda^{*3}$ </td><td> $c_2$ </td><td> $c_2$ </td><td> $c_2$ </td><td>90°</td><td>90°</td><td>90°</td><td>4.49</td><td>Fd-3m</td></tr></table>
+
+注：由于制备方法：
+
+\*1: γ 晶型中 1×1 孔道与 1×2 孔道的排布无法完全确定，其随制备条件不同而变化。
+
+\*2: 含有少量 $\mathrm{K}^{+}$ 掺杂, 根据 $\mathrm{K}^{+}$ 掺杂的量的多少, 晶胞参数发生变化, 分别对应化学式 $\mathrm{K}_{0.33} \mathrm{MnO}_{2}$ 与 $\mathrm{K}_{0.06} \mathrm{MnO}_{2}$ 。
+
+\*3: 含有少量 Li+掺杂, 掺杂后化学式为 Li0.06MnO2。
+
+3-1-1 给出 $c_{1}$ 、 $c_{2}$ 以及 $d_{1}$ 、 $d_{2}$ 的值。
+
+3-1-2 指出 $\beta$ 晶型稳定于 $\alpha$ 晶型的原因。
+
+3-1-3 解释为什么制备出来的 $\delta$ 和 $\lambda$ 晶型的 $\mathrm{MnO}_2$ 中掺杂部分阳离子才能稳定存在。
+
+3-1-4 不难发现，在各种晶型中的结构中对不同化学环境中的 O 进行了区分，将 O 分为了 O1 与 O2 两种，根据你对于各个结构的理解，画出 O1 与 O2 分别的配位环境。
+
+不难发现的是，在上面的某些晶型中，存在大的孔隙允许阳离子掺杂在其中。如果向其中掺杂 $Li^{+}$ ，将可以制备出一种新型的电池材料锰酸锂（ $Li_{x}Mn_{2}O_{4}$ ）。其中 x 的极限值是 1。最常见的 $LiMn_{2}O_{4}$ 属于尖晶石型结构。
+
+3-2-1 给出 $\mathrm{MnO}_2$ -Li 电极电池正负极分别的反应（注意指明正负极分别为何）。
+
+在 $1000^{\circ}$ C、12 GPa 下，尖晶石结构的 $LiMn_{2}O_{4}(SP-LMO)$ 将变成钙铁矿结构 (CF-LMO)，该结构可以看做 $\gamma-MnO_{2}$ 的空隙中插入 $Li^{+}$ 形成的结构：
+
+![](images/e806a72e1ef157f414bb4173727ca9611e5db0103fc41451c584890efe540dfe.jpg)
+第40届XeChem初赛模拟试题晶体专题（三）第3页共6页
+
+常见锕系元素 A 是一种银白色的金属，在空气中加热 A，将得到其最常见氧化物 $A_{1}$ 。这是 A 最稳定的氧化物，只有在 2000℃ 以上蒸发其时，才会放出部分 $O_{2}$ 转化为简单比例氧化物 $A_{2}$ 。其中 $A_{2}$ 含金属 93.55%。与 Ti 的制取方法类似，在 $Cl_{2}$ 存在条件下，用焦炭与 $A_{1}$ 反应即可得到对应卤化物 $A_{3}$ ，这个过程必须严格除氧除水，否则将有 $A_{4}$ 生成，其中 $A_{4}$ 含金属 70.75%。
+
+## 第40届XeChem 初录接成式器晶体导圆（三）第4页共6页
+
+卤化物 $A_{3}$ 结构非常奇特，其具有两种结构。但是两种结构均属于四方晶型，且其中的 A 均为 8 配位，呈现出三角十二面体配位环境（ $D_{2d}$ 点群，如下图所示）。唯一存在区别的地方是三角十二面体之间的连接结构存在差异。分别记两种晶型分别为晶型 I 与晶型 II 的话，晶型 I 在垂直于 a 轴方向具有镜面，晶型 II 则不存在任何镜面。对于两种晶型而言，同种原
+
+![](images/8eaa69fcd119d870b2d370a1bdee1de44b8b6d7a2468671a298605f7f88016b3.jpg)
+
+4-3-1 指出对应卤原子 X 的配位数。
+4-3-2 在答题卡上给出的图中用标粗的棱表示与同一邻接三角十二面体公用的 X 原子，分别给出晶型 I 与晶型 II 的示意图。
+4-3-3 由此画出一个晶胞内 A 的排布，并且根据你对于这种连接结构的思考，给出二者的点
+
+43-4 分别对于晶型 I 与晶型 II 而言，穿过 A 原子方向是否存在四次轴？如果存在，存在的四次轴类型为何；如果不存在，四次轴位置在哪、四次轴类型为何？
+
+3-2-2 根据图中 $600^{\circ}$ C 下的质量分数数据估算并指出 A 与 B 分别的化学式。
+
+3-2-3 写出 SP-LMO 分解的化学方程式。
+
+3-2-4 通过近似计算指出，SP-LMO 向 CF-LMO 的转化相对于高压/低压哪个更有利。（提示： $dG=VdP-SdT$ ; CF-LMO 可以近似为 $\gamma$ 晶型的 $MnO_{2}$ 结构中插入 $Li^{+}$ ）
+
+3-2-5 事实上 SP-LMO 与 CF-LMO 的离子迁移存在显著区别：一种只能向一个方向迁移 $Li^{+}$ ，被称为 1D 迁移材料；一种可以向三个方向迁移 $Li^{+}$ ，被称为 3D 迁移材料。将 1D 与 3D 和 SP-LMO 与 CF-LMO 相对应。
+
+## 实验证明，其并非直接通过 $MnO_{2}$ 骨架重组得到的，其会先分解为三元化合物 A、 $MnO_{2}$ 与二元化合物 B，随后三者重新化合，就得到了 CF-LMO，在不同温度下得到的组分如下所示（绿色为 A、蓝色为 B、深蓝色为 $MnO_{2}$ 、紫色与红色分别为两种不同的 LMO）：
+
+A. 锐钛矿 (TiO $_{2}$ )
+
+4-3-5 对于晶型I而言，共晶胞参数为a=853pm、c=760pm；晶型II则是a=648pm、c=1298pm。
+
+![](images/2712cd3224c251f7ea796a9cc08f3b9602c91d9836462eef5f5300f3a4f88433.jpg)
+
+B. 金红石 (TiO₂)
+
+![](images/b402c793f7dfd9f6b9d90348504e7cb32b61d8860c01d9f20f4408a956bdf74a.jpg)
+
+![](images/1560144f508a09cc20d81b40bce46474c045cd90f6935c5ffc894382a1473358.jpg)
+
+![](images/c56e6f35eed89392625e95ab4f9e2b4a74108568f524567345b193a227989516.jpg)
+
+## 参考答案
+
+$MnO_{2}$ 是一种极其常见的矿物，其常见晶型有 5 种，下图展示了 5 种晶型的 $MnO_{2}$ 的相对稳定性以及其对应部分晶体学数据：
+
+![](images/74154466d10073f910acc0ef5dffe331940d6cd17d207dad744f60c0d3deed37.jpg)
+
+晶体学数据:
+
+<table><tr><td></td><td>a/pm</td><td>b/pm</td><td>c/pm</td><td> $\alpha$ </td><td> $\beta$ </td><td> $\gamma$ </td><td> $\rho /g·cm^{-3}$ </td><td>空间群</td></tr><tr><td> $\alpha$ </td><td>993</td><td>993</td><td>286</td><td>90°</td><td>90°</td><td>90°</td><td>4.09</td><td>I4/m</td></tr><tr><td> $\beta$ </td><td>441</td><td>441</td><td> $c_1$ </td><td>90°</td><td>90°</td><td>90°</td><td>5.16</td><td> $P4_2/mnm$ </td></tr><tr><td> $\gamma$ </td><td>961</td><td>284</td><td>442</td><td>90°</td><td>90°</td><td>90°</td><td>4.78</td><td>-</td></tr><tr><td> $\delta^{*1}$ </td><td>286/283</td><td>286/283</td><td>1431/1442</td><td>90°</td><td>90°</td><td>120°</td><td> $d_1/d_2$ </td><td> $P6_3/mmc$ </td></tr><tr><td> $\lambda^{*2}$ </td><td> $c_2$ </td><td> $c_2$ </td><td> $c_2$ </td><td>90°</td><td>90°</td><td>90°</td><td>4.49</td><td>Fd-3m</td></tr></table>
+
+注：由于制备方法：
+
+\*1: 含有少量 $\mathrm{K}^{+}$ 掺杂, 根据 $\mathrm{K}^{+}$ 掺杂的量的多少, 晶胞参数发生变化, 分别对应化学式 $\mathrm{K}_{0.33} \mathrm{MnO}_{2}$ 与 $\mathrm{K}_{0.06} \mathrm{MnO}_{2}$ 。
+
+\*2: 含有少量 Li+掺杂, 掺杂后化学式为 Li0.06MnO2。
+
+3-1-1 给出 $c_{1}$ 、 $c_{2}$ 以及 $d_{1}$ 、 $d_{2}$ 的值。
+
+$c_{1}=288pm$ （287.7pm 也正确）（1 分） $c_{2}=803pm$ （802.6pm 也正确）（1 分） $d_{1}=3.27g/cm^{3}$ （3.271g/cm $^{3}$ 也正确）（1 分） $d_{2}=2.96g/cm^{3}$ （2.965g/cm $^{3}$ 也正确）（1 分）
+（共4分，不要求计算过程）
+
+3-1-2 指出 $\beta$ 晶型稳定于 $\alpha$ 晶型的原因。
+
+由于 $\beta$ 晶型对应堆积形式更为紧密, 因此其相对稳定性是更高的。（可以多答因为 $\alpha$ 与 $\beta$ 晶型电荷分布都较为平衡, 不存在堆积过紧后出现同类电荷排斥的情况）（2 分, 标粗部分 2 分）
+
+3-1-3 解释为什么制备出来的 $\delta$ 和 $\lambda$ 晶型的 $\mathrm{MnO}_2$ 中掺杂部分阳离子才能稳定存在。
+
+由于 $\delta$ 和 $\lambda$ 晶型中均存在部分紧邻的负电荷堆积在一起，如果不存在阳离子存在缓冲，那么负电荷之间的排斥很大，以至于该晶型不能稳定存在。（2分，标粗部分每点1分）
+3-1-4 不难发现，在各种晶型中的结构中对不同化学环境中的 O 进行了区分，将 O 分为了 O1 与 O2 两种，根据你对于各个结构的理解，画出 O1 与 O2 分别的配位环境。
+
+![](images/d76f15ac6513597b9aa800c85e8c154fa1bfe4bd6ccf5e4af324c9323fe69371.jpg)
+(各2分，共4分)
+
+不难发现的是，在上面的某些晶型中，存在大的孔隙允许阳离子掺杂在其中。如果向其中掺杂 $Li^{+}$ ，将可以制备出一种新型的电池材料锰酸锂（ $Li_{x}Mn_{2}O_{4}$ ）。其中 x 的极限值是 1。最常见的 $LiMn_{2}O_{4}$ 属于尖晶石型结构。
+
+3-2-1 给出 $\mathrm{MnO_2}$ -Li 电极电池正负极分别的反应（注意指明正负极分别为何）。
+
+$$
+\text {   正极（金属Li电极）：   } \mathrm{Li-e} ^ {-} \rightarrow \mathrm{Li} ^ {+}
+$$
+
+负极（ $\mathrm{MnO}_{2}$ 电极）： $2 \mathrm{MnO}_{2} + \mathrm{Li}^{+} + \mathrm{e}^{-} \rightarrow \mathrm{LiMn}_{2} \mathrm{O}_{4}$
+
+$$
+\text {   或者负极写作:   } 2 \mathrm{MnO} _ {2} + x \mathrm{Li} ^ {+} + x \mathrm{e} ^ {-} \rightarrow \mathrm{Li} _ {x} \mathrm{Mn} _ {2} \mathrm{O} _ {4}
+$$
+
+(电极方程式每个1分, 正确对应正负极1分, 共3分)
+
+在 $1000^{\circ}$ C、12 GPa 下，尖晶石结构的 $LiMn_{2}O_{4}(SP-LMO)$ 将变成钙铁矿结构 (CF-LMO)，该结构可以看做 $\gamma-MnO_{2}$ 的空隙中插入 $Li^{+}$ 形成的结构：
+
+![](images/f6595e57629183851ff099c4516a51ef2c01cb733df8ce0cd3bba820536a8e77.jpg)
+
+实验证明, 其并非直接通过 $\mathrm{MnO}_{2}$ 骨架重组得到的, 其会先分解为三元化合物 $\mathbf{A} 、 \mathrm{MnO}_{2}$ 与二元化合物 $\mathbf{B}$ 。随后三者重新化合, 就得到了 CF-LMO, 在不同温度下得到的组分如下所示 (绿色为 $\mathbf{A}$ 、蓝色为 $\mathbf{B}$ 、深蓝色为 $\mathrm{MnO}_{2}$ 、紫色与红色分别为两种不同的 LMO):
+
+![](images/7bbf6bbbbd1c3b542ac8c741913c3513be00d6f184a953bd4f95b01ea1649352.jpg)
+
+3-2-2 根据图中 $600^{\circ} \mathrm{C}$ 下的质量分数数据估算并指出 $\mathbf{A}$ 与 $\mathbf{B}$ 分别的化学式。
+
+由于 A 与 B 分别为三元以及二元化合物，A 中应当包含 Li-Mn-O；B 中应当包含 Mn-O 或者 Li-O。
+
+而根据数据判断能够发现： $\mathrm{MnO_2}$ 是其中占比最小的物种，因此 B 中应当包含 Mn-O 作为二元组成。
+
+假设该分解反应得到产物: $\text{LiMn}_x\text{O}_y$ 与 $\text{MnO}_z$ ，可以优先配平:
+
+$$
+L i M n _ {2} O _ {4} \rightarrow L i M n _ {x} O _ {y} + a M n O _ {z} + b M n O _ {2}
+$$
+
+打表考虑，不难发现当 $z = 1.5$ 的时候，a/b接近2/1，因此配平结果可以得到：
+
+$$
+a L i M n _ {2} O _ {4} \rightarrow a L i M n _ {x} O _ {y} + M n _ {2} O _ {3} + M n O _ {2}
+$$
+
+再次根据打表结果，应当可以得到：
+
+$LiMn_{x}O_{y}$ 为 $LiMn_{1/2}O_{3/2}, a=2$
+
+因此 A 与 B 分别为 $Li_{2}MnO_{3}$ 与 $Mn_{2}O_{3}$
+
+(过程合理即可, 过程 3 分, 最终答案 A 与 B 各 1 分, 共 5 分)
+
+3-2-3 写出 SP-LMO 分解的化学方程式。
+
+$$
+2 \mathrm{LiMn} _ {2} \mathrm{O} _ {4} \rightarrow \mathrm{Li} _ {2} \mathrm{MnO} _ {3} + \mathrm{MnO} _ {2} + \mathrm{Mn} _ {2} \mathrm{O} _ {3}
+$$
+
+3-2-4 通过近似计算指出，SP-LMO 向 CF-LMO 的转化相对于高压/低压哪个更有利。（提示： $dG=Vdp-SdT$ ; CF-LMO 可以近似为 $\gamma$ 晶型的 $MnO_{2}$ 结构中插入 $Li^{+}$ ）
+对于高低压情况而言：
+
+$\left(\frac{\partial G}{\partial p}\right)_T = \Delta V$ （1分）
+
+分别估算 SP-LMO 与 CF-LMO 的晶体密度:
+
+由于二者均为 $Li^{+}$ 插入不同晶型的 $MnO_{2}$ 得到的，因此可以近似 $LiMn_{2}O_{4}$ 的晶胞参数与各对应晶型的 $MnO_{2}$ 一致（1 分）：SP-LMO 使用 $\delta-MnO_{2}$ 的晶胞参数、CF-LMO 使用 $\gamma-MnO_{2}$ 的晶胞参数。（分别正确找到其对应晶型各 1 分，共 2 分）
+
+分别计算二者密度（各1分）：
+
+$$
+\begin{array}{r l} & {\rho_ {S P - L M O} = \rho_ {\delta - M n O _ {2}} \times \frac {M r (L i _ {0.5} M n O _ {2})}{M r (M n O _ {2})} = 4.67 g / c m ^ {3}} \\ & {\rho_ {C F - L M O} = \rho_ {\gamma - M n O _ {2}} \times \frac {M r (L i _ {0.5} M n O _ {2})}{M r (M n O _ {2})} = 4.97 g / c m ^ {3}} \end{array}
+$$
+
+因此不难计算出:
+
+$\Delta V = \frac{Mr(Li_{0.5}MnO_2)}{\rho_{CF - LMO}} -\frac{Mr(Li_{0.5}MnO_2)}{\rho_{SP - LMO}} = -1.168cm^3 /mol <   0$ （2分，答案1分，与0比较1分） $\left(\frac{\partial G}{\partial p}\right)_T <   0$ （1分）
+
+因此更高压强有助于得到更负的 $\Delta G$ ，即高压更有利。（1 分）
+（共 10 分）
+
+3-2-5 事实上 SP-LMO 与 CF-LMO 的离子迁移存在显著区别: 一种只能向一个方向迁移 $\mathrm{Li}^{+}$ , 被称为 1D 迁移材料; 一种可以向三个方向迁移 $\mathrm{Li}^{+}$ , 被称为 3D 迁移材料。将 1D 与 3D 和 SP-LMO 与 CF-LMO 相对应。
+
+1D 材料: CF-LMO
+
+3D 材料: SP-LMO
+
+(完全正确得 1 分)
+
+## 知识点映射
+
+- （待人工校准）
+
+
+> ⚠️ **自动拆卡标记**：`subject_module`/`difficulty` 为关键词粗判，答案数值与单位**尚未经人工复核**（OCR 原文逐字转录，可能保留原卷笔误）。

@@ -1,0 +1,72 @@
+---
+title: "题-YJ-03-02-CaCr和N的三元化合物A沿"
+aliases: ["题-YJ-03-02"]
+type: 题目
+fidelity: 原书逐字
+difficulty: 4
+teaching_level: 竞赛
+source: "壹尖培优 第40届中国化学奥林匹克（初赛）模拟3 第 2 题"
+module: "2026机构初赛模拟题"
+source_subject: 结构化学
+syllabus_codes: []
+knowledge_points: []
+tags: [化竞, 题目, 初赛, 机构模拟题, 壹尖培优]
+updated: 2026-09-26
+status: 已填充
+exam_stage: 初赛
+subject_module: 结构化学
+pack: 综合模拟卷
+submodule: 壹尖培优
+source_category: 竞赛导向·竞赛教辅
+source_grade: A
+source_norm: "壹尖培优-第40届中国化学奥林匹克（初赛）模拟3"
+source_file: "2026机构初赛模拟题/05-壹尖培优/第40届中国化学奥林匹克（初赛）模拟试题3.md"
+---
+
+# 题-YJ-03-02-CaCr和N的三元化合物A沿
+
+## 题目
+
+### 第 2 题 晶格交响（24 分，占 11%）
+
+Ca, Cr 和 N 的三元化合物 A 沿 c 轴的投影如下。
+
+已知如下条件：
+
+I. 在晶胞中，所有原子的 c 轴坐标有且仅有 $\frac{1}{4}$ 和 $\frac{3}{4}$ 两种取值；
+
+II.朝向相同的 $[CrN_{3}]$ 三角形的c轴坐标相同，朝向不同的 $[CrN_{3}]$ 三角形的c轴坐标不同；
+
+III. 对于所有 N 原子，都存在与其 c 轴投影近似相同的 Ca 原子；反之亦然。
+
+2-1 通过观察写出 A 的点阵形式和化学式。
+
+2-2 在下列选项中选出错误的说法。
+A. A 中存在沿 c 轴方向无限延伸且略微畸变的 $[Ca_{4}N_{4}]$ 立方体
+B. A 中 N 对 Ca 的配位多面体为变形四面体
+C. A 中存在两种空间环境的 N
+D. A 中所有 Ca 的化学环境相同
+2-3 写出 A 中金属对 N 的配位数。
+
+神奇的是，将所有 Ca 替换为 Sr 后的化合物 B 却是六方晶系的，其结构仍与 A 有明显的相似之处。B 仍满足前面题设中已知部分的三个条件，且一个 Sr 原子的坐标为 $\left(0.358,0.275,\frac{1}{4}\right)$ ，一个 Cr 原子的坐标为 $\left(\frac{1}{3},\frac{2}{3},\frac{1}{4}\right)$ ，过 Cr 原子存在 $C_{3}$ 轴。
+
+2-4 画出 B 的晶胞沿 c 轴的大致的投影图。
+
+2-5 A 和 B 都存在一个由 2 个 Cr，3 个 Ca/Sr 和 9 个 N 构成的笼状三层多面体，与三帽三棱柱有一定相似性，理想情况下其存在 $C_{3}$ 轴。
+
+2-5-1 画出该笼状结构。
+
+2-5-2 在 B 中，这样的多面体则保持了相对完整的结构，并与不同层的多面体连接（即将 Sr-N-Sr 的 N 与另一多面体的 Cr-N-Sr 的 N 共用），这样的连接方式在其晶胞中即可找到。画出此笼状结构在 B 中的连接方式。（提示：可以将不参与连接的原子适当舍去而简化表示。）2-5-3 在 A 中，这样的多面体除了通过与 B 中相似的方式连接之外，还通过将一条 Ca-N-Ca 棱上的 N 替换为另一多面体的 $[CrN_{3}]$ 的一条 N-Cr-N 边，从而形成 Ca-N-Cr-N-Ca 的方式相连接；画出此笼状结构在 A 中独有的连接方式。（提示：可以将不参与连接的原子适当舍去而简化表示。）
+
+## 参考答案
+
+<table><tr><td>1-1-1共4分</td><td>酸性环境 $Cr_{2}O_{7}^{2-}$ 被还原至 $Cr^{3+}$ ,具有如下计量关系: $Cr_{2}O_{7}^{2-} \sim 3I_{2} \sim 6S_{2}O_{3}^{2-}$ (1分)于是 $c\left(\mathrm{Cr}_{2}\mathrm{O}_{7}^{2-}\right)=\frac{1}{6}\cdot\frac{c\left(S_{2}O_{3}^{2-}\right)\cdot V\left(S_{2}O_{3}^{2-}\right)}{V\left(Cr_{2}O_{7}^{2-}\right)}$  $=\frac{1}{6}\cdot\frac{0.1045\cdot\left(\frac{33.65+33.62+33.64}{3}-0.02\right)}{5.00}\mathrm{mol/L}=0.1171\mathrm{mol/L}$ (3分)</td></tr><tr><td>1-1-2共2分</td><td>由深蓝色(1分)变为浅绿色(1分)。</td></tr><tr><td>1-1-3共2分</td><td> $Cr_{2}O_{7}^{2-} + 14H^{+} + 6I^{-} \rightarrow 2Cr^{3+} + 7H_{2}O + 3I_{2}$ (1分,产物写 $I_{3}$ -也可得分) $I_{2} + 2S_{2}O_{3}^{2-} \rightarrow 2I^{-} + S_{4}O_{6}^{2-}$ (1分,底物写 $I_{3}$ -也可得分)</td></tr><tr><td>1-2-1共6分</td><td> $Cr_{2}O_{7}^{2-} + 3H_{2}O_{2} + 8H^{+} \rightarrow 2Cr^{3+} + 7H_{2}O + 3O_{2}$  $K^{\circ}= \exp(nF\Delta E/RT) = 7.847 \times 10^{63}$ (2分)碱性条件下 $H_{2}O_{2} + 2H^{+} + 2e^{-} \rightarrow 2H_{2}O$  $E = E^{\circ} - RT/nF \times \ln(1/[H^{+}]^{2}) = 0.942\mathrm{~V}$ (1分) $2[Cr(OH)_{4}]^{-} + 2OH^{-} + 3H_{2}O_{2} \rightarrow 2CrO_{4}^{2-} + 8H_{2}O$  $K^{\circ}= \exp(nF\Delta E/RT) = 4.993 \times 10^{108}$ (2分,数量级接近即可)两个反应的平衡常数均非常大,因此在对应条件下会发生相应的反应。(1分)</td></tr><tr><td>1-2-2共2分</td><td> $[Cr(OH)_{4}]^{-} + 2OH^{-} + 5H_{2}O_{2} \rightarrow CrO_{8}^{3-} + 8H_{2}O$ (2分)</td></tr><tr><td>1-2-3共4分</td><td> $Cr_{2}O_{7}^{2-} + 4H_{2}O_{2} + 4H^{+} \rightarrow 2CrO_{5} + 5H_{2}O$ (2分) $4CrO_{5} + 12H^{+} \rightarrow 4Cr^{3+} + 6H_{2}O + 7O_{2}$ (2分)</td></tr><tr><td>1-2-4共2分</td><td> $CrO_{5} \cdot OEt_{2}$ (2分)</td></tr></table>
+
+<table><tr><td>2-1共4分</td><td>点阵形式:底心正交(2分)化学式: $Ca_{3}CrN_{3}$ (2分)</td></tr><tr><td>2-2共3分</td><td>选择BCD(选对1个得1分,共3分;错选倒扣1分,扣完为止,至多得1分)</td></tr><tr><td>2-3共2分</td><td>配位数为6(2分,其它答案不得分)</td></tr><tr><td>2-4共3分</td><td><img src="images/c2c5d892b9517150ef0b6f343d8c2e7aef3c99fd2bb251c5429e3b5800a9853d.jpg"/>大球为Sr,中球为Cr,小球为N(3分,如果在投影图上画出所有N原子亦可)</td></tr><tr><td>2-5-1共4分</td><td>多面体的结构:(其中M=Ca,Sr)<img src="images/367dff2e9832cb4a2ce81ef134133938b3ad8db35dbb1031ae0cd703c0447869.jpg"/>(4分)</td></tr><tr><td>2-5-2共4分</td><td><img src="images/9a91c5ee51812abddfe3bc195c641cec4148088a0a1a7828ffc8693cf8b2d3b8.jpg"/>或<img src="images/c272355d558da8c209d62172fd2a2106ae4ec6e582806dd9877f556af0b23111.jpg"/>(4分)</td></tr><tr><td>2-5-3共4分</td><td><img src="images/a89dce39ef5539354f49629cd01f5490594647f459836175e4ee4b01b24a6659.jpg"/>或<img src="images/db702503b84118eea7dce2990fc765ba4fc5c24fa48653ec6010c93b6da3cd8a.jpg"/>(4分)</td></tr></table>
+
+## 知识点映射
+
+- （待人工校准）
+
+
+> ⚠️ **自动拆卡标记**：`subject_module`/`difficulty` 为关键词粗判，答案数值与单位**尚未经人工复核**（OCR 原文逐字转录，可能保留原卷笔误）。

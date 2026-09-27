@@ -1,0 +1,118 @@
+---
+title: "题-XeC-Xechem模拟三（晶体）-01-在我们通常的认知里布拉维点阵"
+aliases: ["题-XeC-Xechem模拟三（晶体）-01"]
+type: 题目
+fidelity: 原书逐字
+difficulty: 4
+teaching_level: 竞赛
+source: "XeChem Xechem模拟三（晶体） 第 1 题"
+module: "2026机构初赛模拟题"
+source_subject: 结构化学
+syllabus_codes: []
+knowledge_points: []
+tags: [化竞, 题目, 初赛, 机构模拟题, XeChem]
+updated: 2026-09-26
+status: 已填充
+exam_stage: 初赛
+subject_module: 结构化学
+pack: 综合模拟卷
+submodule: XeChem
+source_category: 竞赛导向·竞赛教辅
+source_grade: A
+source_norm: "XeChem-Xechem模拟三（晶体）"
+source_file: "2026机构初赛模拟题/03-XeChem/Xechem模拟三（晶体）.md"
+---
+
+# 题-XeC-Xechem模拟三（晶体）-01-在我们通常的认知里布拉维点阵
+
+## 题目
+
+### 第 1 题 基本点阵形式问题（21分，占 $16\%$ ）
+
+在我们通常的认知里，布拉维点阵共有14个，除去较为特殊的R心（以R表示）六方点阵外，只有包含简单（P）、底心（A、B、C三种）、面心（F）、体心（I）在内的四种带心形式。七大晶系中除去比较特殊的三方晶系还剩余三斜（a）、单斜（m）、正交（o）、六方（h）、四方（t）、立方（c）六种，通过将六种晶系与六种带心形式（底心计算为三种带心形式）相互组合的话，便可以得到总共36种点阵形式，其列为下表：
+
+<table><tr><td></td><td>a</td><td>m</td><td>o</td><td>h</td><td>t</td><td>c</td></tr><tr><td>A</td><td>aA</td><td>mA</td><td>oA</td><td>hA</td><td>tA</td><td>cA</td></tr><tr><td>B</td><td>aB</td><td>mB</td><td>oB</td><td>hB</td><td>tB</td><td>cB</td></tr><tr><td>C</td><td>aC</td><td>mC</td><td>oC</td><td>hC</td><td>tC</td><td>cC</td></tr><tr><td>P</td><td>aP</td><td>mP</td><td>oP</td><td>hP</td><td>tP</td><td>cP</td></tr><tr><td>I</td><td>al</td><td>ml</td><td>ol</td><td>hl</td><td>tl</td><td>cl</td></tr><tr><td>F</td><td>aF</td><td>mF</td><td>oF</td><td>hF</td><td>tF</td><td>cF</td></tr></table>
+
+1-1 在上表中圈出 13 种布拉维点阵对应的符号。
+
+那么我们将可以清楚，除去这 13 种布拉维点阵之外，还余下的 23 种点阵均可以归类为这 13 种布拉维点阵中。
+
+1-2 沿用表中的记号，在答题卡的下表括号中填入该种点阵形式对应的布拉维点阵，如果某种点阵形式本身即为布拉维点阵，则请在括号内画入斜杠占位。提示：布拉维点阵中的底心均以 C 表示。
+
+<table><tr><td></td><td>a</td><td>m</td><td>o</td><td>h</td><td>t</td><td>c</td></tr><tr><td>A</td><td>aA ( )</td><td>mA ( )</td><td>oA ( )</td><td>hA ( )</td><td>tA ( )</td><td>cA ( )</td></tr><tr><td>B</td><td>aB ( )</td><td>mB ( )</td><td>oB ( )</td><td>hB ( )</td><td>tB ( )</td><td>cB ( )</td></tr><tr><td>C</td><td>aC ( )</td><td>mC ( )</td><td>oC ( )</td><td>hC ( )</td><td>tC ( )</td><td>cC ( )</td></tr><tr><td>P</td><td>aP ( )</td><td>mP ( )</td><td>oP ( )</td><td>hP ( )</td><td>tP ( )</td><td>cP ( )</td></tr><tr><td>I</td><td>al ( )</td><td>ml ( )</td><td>ol ( )</td><td>hl ( )</td><td>tl ( )</td><td>cl ( )</td></tr><tr><td>F</td><td>aF ( )</td><td>mF ( )</td><td>oF ( )</td><td>hF ( )</td><td>tF ( )</td><td>cF ( )</td></tr></table>
+
+1-3 下图中 A 代表高度位于 0 或 1 的原子，B 代表高度位于 1/2 的原子，由此在下面的图中用实线画出真正的布拉维点阵晶胞对应的晶胞框线，必要时你需要延伸晶胞范围：
+1-3-1 体心六方点阵：
+
+![](images/081ec994d346d21e8330865be748708fc78f8d5420fce5e2de8d9e717ba1b8d5.jpg)
+
+1-3-2 C 心六方点阵:
+
+![](images/32c7c3122a41b319c5e330c481f60132d7f63da6935959754ec872c196dd1e8f.jpg)
+
+1-3-3 面心四方点阵：
+
+![](images/1e688759fd1e2da5288b4b381b0726b12b3818092f92408bb0e51cff0a892cb3.jpg)
+
+## 参考答案
+
+在我们通常的认知里，布拉维点阵共有14个，除去较为特殊的R心（以R表示）六方点阵外，只有包含简单（P）、底心（A、B、C三种）、面心（F）、体心（I）在内的四种带心形式。七大晶系中除去比较特殊的三方晶系还剩余三斜（a）、单斜（m）、正交（o）、六方（h）、四方（t）、立方（c）六种，通过将六种晶系与六种带心形式（底心计算为三种带心形式）相互组合的话，便可以得到总共36种点阵形式，其列为下表：
+
+<table><tr><td></td><td>a</td><td>m</td><td>o</td><td>h</td><td>t</td><td>c</td></tr><tr><td>A</td><td>aA</td><td>mA</td><td>oA</td><td>hA</td><td>tA</td><td>cA</td></tr><tr><td>B</td><td>aB</td><td>mB</td><td>oB</td><td>hB</td><td>tB</td><td>cB</td></tr><tr><td>C</td><td>aC</td><td>mC</td><td>oC</td><td>hC</td><td>tC</td><td>cC</td></tr><tr><td>P</td><td>aP</td><td>mP</td><td>oP</td><td>hP</td><td>tP</td><td>cP</td></tr><tr><td>I</td><td>al</td><td>ml</td><td>ol</td><td>hl</td><td>tl</td><td>cl</td></tr><tr><td>F</td><td>aF</td><td>mF</td><td>oF</td><td>hF</td><td>tF</td><td>cF</td></tr></table>
+
+1-1 在上表中圈出 13 种布拉维点阵对应的符号。
+
+<table><tr><td></td><td>a</td><td>m</td><td>o</td><td>h</td><td>t</td><td>c</td></tr><tr><td>A</td><td>aA</td><td>mA</td><td>oA</td><td>hA</td><td>tA</td><td>cA</td></tr><tr><td>B</td><td>aB</td><td>mB</td><td>oB</td><td>hB</td><td>tB</td><td>cB</td></tr><tr><td>C</td><td>aC</td><td>mC</td><td>oC</td><td>hC</td><td>tC</td><td>cC</td></tr><tr><td>P</td><td>aP</td><td>mP</td><td>oP</td><td>hP</td><td>tP</td><td>cP</td></tr><tr><td>I</td><td>al</td><td>ml</td><td>ol</td><td>hl</td><td>tl</td><td>cl</td></tr><tr><td>F</td><td>aF</td><td>mF</td><td>oF</td><td>hF</td><td>tF</td><td>cF</td></tr></table>
+
+正确选择 0-5 个: 0 分
+
+正确选择 6-7 个: 1 分
+
+正确选择 8-9 个: 2 分
+
+正确选择 10-11 个: 3 分
+
+正确选择 12 个: 4 分
+
+正确选择 13 个: 5 分
+
+在此基础上，每多选择3个错误答案（不足3个依照3个计算）扣1分，扣完为止。
+
+那么我们将可以清楚，除去这 13 种布拉维点阵之外，还余下的 23 种点阵均可以归类为这 13 种布拉维点阵中。
+
+1-2 沿用表中的记号，在答题卡的下表括号中填入该种点阵形式对应的布拉维点阵，如果某种点阵形式本身即为布拉维点阵，则请在括号内画入斜杠占位。提示：布拉维点阵中的底心均以 C 表示。
+
+<table><tr><td></td><td>a</td><td>m</td><td>o</td><td>h</td><td>t</td><td>c</td></tr><tr><td>A</td><td>aA (aP)</td><td>mA (mC)</td><td>oA (oC)</td><td>hA (oF)</td><td>tA (oC)</td><td>cA (tP)</td></tr><tr><td>B</td><td>aB (aP)</td><td>mB (mP)</td><td>oB (oC)</td><td>hB (oF)</td><td>tB (oC)</td><td>cB (tP)</td></tr><tr><td>C</td><td>aC (aP)</td><td>mC ( / )</td><td>oC ( / )</td><td>hC (oP)</td><td>tC (tP)</td><td>cC (tP)</td></tr><tr><td>P</td><td>aP ( / )</td><td>mP ( / )</td><td>oP ( / )</td><td>hP ( / )</td><td>tP ( / )</td><td>cP ( / )</td></tr><tr><td>l</td><td>al (aP)</td><td>ml (mC)</td><td>ol ( / )</td><td>hl (oF)</td><td>tl ( / )</td><td>cl ( / )</td></tr><tr><td>F</td><td>aF (aP)</td><td>mF (mC)</td><td>oF ( / )</td><td>hF (ol)</td><td>tF (tl)</td><td>cF ( / )</td></tr></table>
+
+在除去所有“/”的前提下：
+正确确定 0 个：0 分
+正确确定 1-5 个：2 分
+正确确定 6-8 个：3 分
+正确确定 9-11 个：4 分
+正确确定 12-14 个：6 分
+正确确定 15-17 个：7 分
+正确确定 18-20 个：8 分
+正确确定 21-22 个：9 分
+正确确定 23 个：10 分
+
+每漏去或错误标出 3 个 “/”（不足 3 个依照 3 个计算）扣 1 分，扣完为止。
+
+1-3 下图中 A 代表高度位于 0 或 1 的原子，B 代表高度位于 $1/2$ 的原子，由此在下面的图中用实线画出真正的布拉维点阵晶胞对应的晶胞框线，必要时你需要延伸晶胞范围：
+
+1-3-1 体心六方点阵:
+
+1-3-2 C 心六方点阵:
+
+![](images/095ccfd9e7afbacba8ae144969a41acd0968961423a745503d70dca041fb2520.jpg)
+
+1-3-3 面心四方点阵:
+
+![](images/eb72bbe2444db0869841e22973c8652a06649e432542887aa375554f1e84d6f2.jpg)
+(2 分)
+
+## 知识点映射
+
+- （待人工校准）
+
+
+> ⚠️ **自动拆卡标记**：`subject_module`/`difficulty` 为关键词粗判，答案数值与单位**尚未经人工复核**（OCR 原文逐字转录，可能保留原卷笔误）。

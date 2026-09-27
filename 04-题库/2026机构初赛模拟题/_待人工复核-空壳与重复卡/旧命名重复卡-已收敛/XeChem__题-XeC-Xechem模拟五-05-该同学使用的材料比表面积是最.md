@@ -1,0 +1,47 @@
+---
+title: "题-XeC-Xechem模拟五-05-该同学使用的材料比表面积是最"
+aliases: ["题-XeC-Xechem模拟五-05"]
+type: 题目
+fidelity: 原书逐字
+difficulty: 4
+teaching_level: 竞赛
+source: "XeChem Xechem模拟五 第 5 题"
+module: "2026机构初赛模拟题"
+source_subject: 化学原理
+syllabus_codes: []
+knowledge_points: []
+tags: [化竞, 题目, 初赛, 机构模拟题, XeChem]
+updated: 2026-09-26
+status: 已填充
+exam_stage: 初赛
+subject_module: 化学原理
+pack: 综合模拟卷
+submodule: XeChem
+source_category: 竞赛导向·竞赛教辅
+source_grade: A
+source_norm: "XeChem-Xechem模拟五"
+source_file: "2026机构初赛模拟题/03-XeChem/Xechem模拟五.md"
+---
+
+# 题-XeC-Xechem模拟五-05-该同学使用的材料比表面积是最
+
+## 题目
+
+### 第 5 题制氧机的物理化学（23分，占 $12\%$ ）制氧机是一种重要的医疗器件，借助变压吸附实现 $\mathrm{O}_2$ 与空气中其它组分的分离。分子筛对 $\mathrm{O}_2$ 和 $\mathsf{N}_2$ 吸附能力不同，通过对空气进行加压，促进 $\mathsf{N}_2$ 在分子筛中的吸附，剩下的空气 $\mathrm{O}_2$ 含量增高。之后，在常压下释放被吸附的 $\mathsf{N}_2$ ，即实现了 $\mathrm{O}_2$ 与 $\mathsf{N}_2$ 的分离。某同学用
+
+该同学使用的材料，比表面积是 $650\mathrm{m}^2 /\mathrm{g}$ ，最大比表面吸附量是 $28.5\mu \mathrm{L} / \mathrm{m}^2$ ，即该材料单位表面积下吸附的气体总量最多相当于常温常压下 $28.5\mu \mathrm{L}$ 的气体。该材料对 $\mathrm{O}_2$ 与 $\mathbf{N}_2$ 的吸附反应表观平衡常数分别为 $0.11\mathrm{atm}^{-1}$ 和 $0.54\mathrm{atm}^{-1}$ 。将 $10\mathrm{g}$ 分子筛放置在容积为40mL的容器中（已除去分子筛所占体积），首先将空气压缩至 $10\mathrm{atm}$ ，充满这个容器中，待吸附反应完全后，收集剩余气体，并在真空下将分子筛内的气体解吸附。随后，分离得到的两部分气体均膨胀或压缩直至压强与外部大气压相等。分子筛吸附-解吸附的过程，称之为一个循环。所有过程维持温度为室温。空气中， $\mathbf{N}_2$ 摩尔分数为 $79\%$ ， $\mathrm{O}_2$ 蹋尔分数为
+
+第40届XeChem 初素模拟试题（五）第6页共12页
+
+的气体分子 A 与 n mol 的气体分子 B，在理想气体近似下，它们的混合 Glbbs 自由能变
+
+## 参考答案
+
+⛔ 答案缺失（源答案文件未含该题号，需人工补）
+
+## 知识点映射
+
+- （待人工校准）
+
+
+> ⚠️ **自动拆卡标记**：`subject_module`/`difficulty` 为关键词粗判，答案数值与单位**尚未经人工复核**（OCR 原文逐字转录，可能保留原卷笔误）。

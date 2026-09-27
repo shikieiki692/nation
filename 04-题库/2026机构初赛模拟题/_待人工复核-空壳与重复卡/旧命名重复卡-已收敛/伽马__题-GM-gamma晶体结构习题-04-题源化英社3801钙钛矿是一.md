@@ -1,0 +1,81 @@
+---
+title: "题-GM-gamma晶体结构习题-04-题源化英社3801钙钛矿是一"
+aliases: ["题-GM-gamma晶体结构习题-04"]
+type: 题目
+fidelity: 原书逐字
+difficulty: 4
+teaching_level: 竞赛
+source: "伽马 gamma晶体结构习题 第 4 题"
+module: "2026机构初赛模拟题"
+source_subject: 结构化学
+syllabus_codes: []
+knowledge_points: []
+tags: [化竞, 题目, 初赛, 机构模拟题, 伽马]
+updated: 2026-09-26
+status: 已填充
+exam_stage: 初赛
+subject_module: 结构化学
+pack: 综合模拟卷
+submodule: 伽马
+source_category: 竞赛导向·竞赛教辅
+source_grade: A
+source_norm: "伽马-gamma晶体结构习题"
+source_file: "2026机构初赛模拟题/06-伽马/gamma晶体结构习题.md"
+---
+
+# 题-GM-gamma晶体结构习题-04-题源化英社3801钙钛矿是一
+
+## 题目
+
+### 第 4 题（26分）六方钙钛矿及其衍生结构
+
+题源：化英社 38-01
+
+钙钛矿是一类化学式为 $ABO_{3}$ 的固体材料，在光电和催化等领域都有着重要的应用。其中 A 一般为稀土或碱土具有较大半径的元素，B 一般为半径较小的高电荷过渡元素。
+
+4-1 镍酸钡( $\mathrm{BaNiO_{3}}$ )是一类 Ni(IV)的具有极高非线性光学系数的晶体，具有立方和六方两种晶型。半径较大的 $\mathrm{Ba^{2+}}$ 与氧离子联合堆积形成密置层，同一层内 $\mathrm{Ba^{2+}}$ 位于氧离子形成的正六边形空穴之中。立方 $\mathrm{BaNiO_{3}}$ 中密置层的排列方式为立方最密堆积，而六方 $\mathrm{BaNiO_{3}}$ 中密置层的排列方式为六方最密堆积， $\mathrm{Ni^{4+}}$ 有序填入层间氧离子形成的八面体空隙中，设 $[\mathrm{NiO_{6}}]$ 八面体均为正八面体。
+
+4-1-1 画出 Ba-O 密堆积层的结构并圈出结构基元，标明图例。
+
+![](images/a1119aa1ee5c228275de7d003bbc6b50fea14bf27369d66eb84f489f388678aa.jpg)
+(2 分，不标图例扣 1 分)
+
+4-1-2 分别指出立方 $BaNiO_{3}$ 和六方 $BaNiO_{3}$ 中 $[NiO_{6}]$ 八面体之间的连接方式。
+立方 $BaNiO_{3}$ ：共顶点连接；六方 $BaNiO_{3}$ ：共面连接（2分，每个各1分）
+4-1-3 立方 $BaNiO_{3}$ 晶胞参数为 a，计算六方 $BaNiO_{3}$ 晶胞参数 $a_{2}$ 和 $c_{2}$ 。
+对于立方 $BaNiO_{3}$ ，晶胞参数为 a，则 $[NiO_{6}]$ 八面体的边长为 $\frac{\sqrt{2}}{2}a$ 所以 Ba-O 联合密堆积层的层间距 $d=\frac{\sqrt{2}}{2}a \times \frac{\sqrt{6}}{3} = \frac{\sqrt{3}}{3}a$
+
+故六方 $BaNiO_{3}$ 的晶胞参数 $c_{2}=2d=\frac{2\sqrt{3}}{3}a$ 同层内 Ba 原子之间的最短距离恰为 $a_{2}=\sqrt{2}a$ （4 分，结果每个 1 分，过程 2 分）
+
+4-2 利用高温高压合成，科学家制得了具有六方钙钛矿衍生结构的 Fe 掺杂的晶体 BFNO，其化学式可表达为 $BaFe_{x}Ni_{1-x}O_{3}$ 。BFNO 中 Ba-O 联合密堆积层的层间排列方式与经典的六方钙钛矿有所不同，其堆积层的周期为...ABCBCABABCAC...，其中大写字母表示 Ba-O 联合密堆积层， $Fe^{4+}$ 和 $Ni^{4+}$ 则填入层间氧离子形成的八面体空隙中，同层填入的金属离子相同。X-射线衍射表明，所有 $[NiO_{6}]$ 八面体只与 $[FeO_{6}]$ 八面体共面相接，而 $[FeO_{6}]$ 八面体之间还存在共顶点连接，且晶体中有一种化学环境的 Ni 和两种化学环境的 Fe。已知晶胞参数 a = 567.0 pm, c = 2785.88 pm，设 $[FeO_{6}]$ 八面体均为正八面体。
+
+4-2-1 结合相关描述确定 $BaFe_{x}Ni_{1-x}O_{3}$ 中 x 的值。
+
+由题意， $\mathrm{[NiO_6]}$ 八面体与 $\mathrm{[FeO_6]}$ 共面连接，推测是 BaCaBa、AcBcAc 和 CbAbCb 单元中位于中间的小写字母。所以 $\mathrm{Fe}^{4+}$ 和 $\mathrm{Ni}^{4+}$ 的比例为 $(2 + 1): 1 = 3: 1$ 故 $(1 - x) = 3x, x = 0.75$ 4-2-2 给出 BFNO 的点阵形式和特征对称元素。 $R$ 心六方，三次反轴（2 分，各 1 分）答三次旋转轴也得分
+4-2-3 分别计算晶体中 Ni-Fe 之间的最短距离以及 Ni-O 键长。晶胞参数 $a = 567.0 \mathrm{pm}$ ，则 $\mathrm{[FeO_6]}$ 八面体的棱长 $d_1 = a / 2 = 283.5 \mathrm{pm}$ 所以 $\mathrm{[FeO_6]}$ 八面体上下两层堆积层间距 $d_2 = d_1 \times \frac{\sqrt{6}}{3} = 231.5 \mathrm{pm}$ 晶胞包含 9 层 $\mathrm{[FeO_6]}$ ，3 层 $\mathrm{[NiO_6]}$ ，故 $\mathrm{[NiO_6]}$ 上下两层间距 $d_3 = (c - 9d_2) / 3 = 234.1 \mathrm{pm}$ 所以 $\mathrm{[NiO_6]}$ 八面体中 $d(\mathrm{Ni}-\mathrm{O}) = \sqrt{\left(\frac{1}{2} d_3\right)^2 + \left(\frac{\sqrt{3}}{3} d_1\right)^2} = 201.2 \mathrm{pm}$ Ni-Fe 之间的最短距离 $d(\mathrm{Ni}-\mathrm{Fe}) = (d_2 + d_3) / 2 = 232.8 \mathrm{pm}$ （5 分，答案每个 1 分，过程 3 分）
+4-2-4 计算出该晶体的密度（若没求出 $x$ 可带 $x$ 计算）。最简式的摩尔质量 $M = 4 \times 137.3 + 3 \times 55.85 + 58.69 + 12 \times 16 = 967.44 \mathrm{~g} \mathrm{~mol}^{-1}$ 密度 $D = ZM / N_{\mathrm{A}}V = 3 \times 967.44 \div (6.022 \times 10^{23} \times 567.0^{2} \times 2785.88 \times \sin 120^{\circ} \times 10^{-30}) = 6.214 \mathrm{~g} \mathrm{~cm}^{-3}$ （2 分，答案 1 分，过程 2 分，若共入，计算不影响得分）
+
+4-3 将 BFNO 在空气中加热至 1100 K，晶体中出现了氧空位。部分 $Fe^{4+}$ 变为 $Fe^{3+}$ ，新的晶体的化学式可记作 $BaFe_{x}Ni_{1-x}O_{3-\delta}$ 。称取 2 份质量相同的样品，将第一份样品置于锥形瓶中并加入 10 mL 2 mol L $^{-1}$ HCl 加热使之溶解，随后加入 10 mL 15% KI 水溶液，放置数分钟。第二份样品置于锥形瓶中，同时加入 10 mL 2 mol L $^{-1}$ HCl 和 10 mL 15% KI 水溶液，适当搅拌并放置。以淀粉为指示剂，对两次实验后的溶液用 0.01145 mol L $^{-1}$ Na $_{2}$ S $_{2}$ O $_{3}$ 标准溶液滴定，分别消耗 27.31 mL 和 63.72 mL。通过计算，确定 Fe 的平均氧化态以及 $\delta$ 的值。
+
+由题意，第一个实验中 HCl 将 Fe 转化为 $Fe^{3+}$ ，Ni 转化为 $Ni^{2+}$ ， $Fe^{3+}$ 氧化 KI
+
+$2Fe^{3+}\sim I_{2}\sim2S_{2}O_{3}^{2-},\ n(Fe)=27.31\ mL\times0.01145\ mol\ L^{-1}=3.127\times10^{-4}\ mol$ 所以 $n(Ni)=n(Fe)/3=1.042\times10^{-4}\ mol$ 由题意，设 Fe 的平均氧化态为 x，第二个实验中 $Ni^{4+}$ 、 $Fe^{x+}$ 均直接氧化 KI $Ni^{4+}\sim I_{2}\sim2S_{2}O_{3}^{2-}$ ， $Ni^{4+}$ 消耗的 $n(S_{2}O_{3}^{2-})=1.042\times10^{-4}\ mol\times2=2.048\times10^{-4}\ mol$ $\mathrm{Fe}^{x+}$ 消耗的 $n(\mathrm{S}_2\mathrm{O}_3^{2-}) = 63.72 \, \mathrm{mL} \times 0.01145 \, \mathrm{mol} \, \mathrm{L}^{-1} - 2.048 \times 10^{-4} \, \mathrm{mol} = 5.248 \times 10^{-4} \, \mathrm{mol}$
+
+$$
+\mathrm{Fe} ^ {x +} \sim (x - 2) / 2 \mathrm{I} _ {2} \sim (x - 2) \mathrm{S} _ {2} \mathrm{O} _ {3} ^ {2 -}, x = [ 2.048 \times 10 ^ {- 4} \mathrm{mol} / 3.127 \times 10 ^ {- 4} \mathrm{mol} ] + 2 = 3.667
+$$
+
+以 Fe 的平均氧化态为 3.667，电荷守恒解得 $\delta = 0.125$
+
+(5 分, 答案 1 分, 过程 4 分)
+
+## 参考答案
+
+⛔ 答案缺失（源答案文件未含该题号，需人工补）
+
+## 知识点映射
+
+- （待人工校准）
+
+
+> ⚠️ **自动拆卡标记**：`subject_module`/`difficulty` 为关键词粗判，答案数值与单位**尚未经人工复核**（OCR 原文逐字转录，可能保留原卷笔误）。

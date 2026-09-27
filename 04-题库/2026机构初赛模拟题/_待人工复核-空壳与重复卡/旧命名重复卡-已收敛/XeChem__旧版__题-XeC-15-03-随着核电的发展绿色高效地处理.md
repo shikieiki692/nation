@@ -1,0 +1,91 @@
+---
+title: "题-XeC-Xechem模拟四-03-随着核电的发展绿色高效地处理"
+aliases: ["题-XeC-Xechem模拟四-03"]
+type: 题目
+fidelity: 原书逐字
+difficulty: 4
+teaching_level: 竞赛
+source: "XeChem Xechem模拟四 第 3 题"
+module: "2026机构初赛模拟题"
+source_subject: 结构化学
+syllabus_codes: []
+knowledge_points: []
+tags: [化竞, 题目, 初赛, 机构模拟题, XeChem]
+updated: 2026-09-26
+status: 已填充
+exam_stage: 初赛
+subject_module: 结构化学
+pack: 综合模拟卷
+submodule: XeChem
+source_category: 竞赛导向·竞赛教辅
+source_grade: A
+source_norm: "XeChem-Xechem模拟四"
+source_file: "2026机构初赛模拟题/03-XeChem/Xechem模拟四.md"
+---
+
+# 题-XeC-Xechem模拟四-03-随着核电的发展绿色高效地处理
+
+## 题目
+
+### 第 3 题 核反应堆中的氧化物（22 分，占 13%）
+
+随着核电的发展，绿色、高效地处理核废料愈发重要。将中子捕获生成的人造超铀元素通过形成氧化物的方式保存于密闭空间内，可以极大地降低核污染。研究人员报道了一例不定组成的，U与Am的混合氧化物 $U_{1-y}Am_{y}O_{2+x}$ （y<0.5），具有氧额外掺杂的萤石型结构。3-1掺杂的氧原子位于晶体的八面体空隙中。指出其填隙率，可用x表示，假设x>0。
+
+3-2 合成反应在高温下进行，产物具有随机的 U/Am 分布，可视作理想混合物。根据如下数据，计算 $U_{0.85}Am_{0.15}O_{2}$ 的标准摩尔生成吉布斯自由能，假设热力学数据随温度不变。注意混合过程。
+
+<table><tr><td>化学式</td><td> $\Delta_{f}H_{m}^{\circ}/ kJ·mol^{-1}$ </td><td> $S_{m}^{\circ}/J·mol^{-1}·K^{-1}$ </td><td> $\Delta_{f}G_{m}^{\circ}/kJ·mol^{-1}$ </td></tr><tr><td> $O_2$ </td><td>/</td><td>205.1</td><td>/</td></tr><tr><td> $UO_2$ </td><td>-1085</td><td>77.03</td><td>/</td></tr><tr><td> $Am_2O_3$ </td><td>-1690</td><td>134.2</td><td>-1605</td></tr><tr><td> $U_4O_9$ </td><td>-4512</td><td>334.1</td><td>-4535</td></tr><tr><td> $AmO_2$ </td><td>-932.2</td><td>75.50</td><td>/</td></tr></table>
+
+3-3 合成时的氧势（ $\Delta G(\mathrm{O}_2) = RT \ln(p_0/p^\circ)$ ，描述氧化物中氧逸出到气相的趋势）可很大程度上影响 $x$ 的取值。对于上述体系，在反应初期，可认为体系中存在一组对峙反应。
+
+$$
+m \mathrm{U} _ {0.85} \mathrm{Am} _ {0.15} \mathrm{O} _ {2} + \mathrm{O} _ {2} \leftrightarrows m \mathrm{U} _ {0.85} \mathrm{Am} _ {0.15} \mathrm{O} _ {2 + \frac {2}{m}}
+$$
+
+反应结束后体系迅速冷却，产物组成可代表反应时的平衡组成。已知 T=2023K 时，不同氧势下，产物的 x 值如下所示，试计算该对峙反应的平衡常数。（提示：掺杂量较小时，相比原始的平衡组成，额外的掺杂氧浓度与氧气分压近似成正比。）
+
+<table><tr><td> $\Delta G(O_2) / kJ·mol^{-1}$ </td><td>-520</td><td>-420</td><td>-350</td><td>-335</td><td>-320</td><td>-310</td></tr><tr><td>x</td><td> $-3.224×10^{-3}$ </td><td> $-3.139×10^{-3}$ </td><td> $2.216×10^{-3}$ </td><td>0.01005</td><td>0.02915</td><td>0.05544</td></tr></table>
+
+3-4 进一步研究发现，无论 x 和 y 的取值如何，该混合氧化物的晶胞参数 a 总比两种原材料的平均值高出近 10 pm。试给出一种合理解释。
+
+3-5 将产物在 $1200 \mathrm{~K}$ 的氧气气氛下灼烧, 可重新得到 $\mathrm{AmO}_{2}$ 。写出反应方程式, 令 $\mathrm{U}_{1 - y} \mathrm{Am}_y \mathrm{O}_{2 + x}$ 系数为 1。
+
+## 参考答案
+
+
+
+
+随着核电的发展，绿色、高效地处理核废料愈发重要。将中子捕获生成的人造超铀元素通过形成氧化物的方式保存于密闭空间内，可以极大地降低核污染。研究人员报道了一例不定组成的，U与Am的混合氧化物 $U_{y}$ 、 $Am_{y}O_{2^{xx}}$ （y>0.5），具有氧额外掺杂的萤石型结构。
+
+3-1掺杂的氧原子位于晶体的八面体空隙中。指出其填隙率，可用x表示，假设x>0。
+
+3-2 合成反应在高温下进行，产物具有随机的 U/Am 分布，可视作理想混合物。根据如下数据，计算 $U_{0.85}Am_{0.15}O_{2}$ 的标准摩尔生成吉布斯自由能，假设热力学数据随温度不变。注意混
+
+合过程。
+
+<table><tr><td>化学式</td><td> $\Delta_{f}H_{m}^{\circ}/ kJ·mol^{-1}$ </td><td> $S_{m}^{\circ}/J·mol^{-1}·K^{-1}$ </td><td> $\Delta_{f}G_{m}^{\circ}/kJ·mol^{-1}$ </td></tr><tr><td> $O_2$ </td><td>/</td><td>205.1</td><td>/</td></tr><tr><td> $UO_2$ </td><td>-1085</td><td>77.03</td><td>/</td></tr><tr><td> $Am_2O_3$ </td><td>-1690</td><td>134.2</td><td>-1605</td></tr><tr><td> $U_4O_9$ </td><td>-4512</td><td>334.1</td><td>-4535</td></tr><tr><td> $AmO_2$ </td><td>-932.2</td><td>75.50</td><td>/</td></tr></table>
+
+$\Delta_{r}S_{\mathrm{m}}^{\circ}\mathrm{l} = 334.1\times 2 - 205.1 - 77.03\times 8 = -153.14\mathrm{J / (mol\cdot K)}$ $\Delta_{r}G_{\mathrm{m}}^{\circ}\mathrm{l} = \Delta_{r}H_{\mathrm{m}}^{\circ}\mathrm{l} - TA_{r}S_{\mathrm{m}}^{\circ}\mathrm{l} = -344 - 298.15\times (-153.14)\times 10^{-3} = -298.3\mathrm{kJ / mol}$
+
+反应 $2Am_{2}O_{3} + O_{2} \rightarrow 4AmO_{2}$ (2)
+
+$\Delta_{r}H_{m}^{\circ}{}_{2} = -932.2\times 4 + 1690\times 2 = -348.8\mathrm{kJ / mol};$ $\Delta_{r}S_{m}^{\circ}{}_{2} = 75.50\times 4 - 205.1 - 134.2\times 2 = -171.5J/(mol\cdot K)$ $\Delta_{r}G_{m}^{\circ}{}_{2} = \Delta_{r}H_{m}^{\circ}{}_{2} - T\Delta_{r}S_{m}^{\circ}{}_{2} = -348.8 - 298.15\times (-171.5)\times 10^{-3} = -297.7\mathrm{kJ / mol}$
+
+$= 0.85\times (-1096) + 0.15\times (-876.9) + 8.3145\times 298.15\times (0.85\ln 0.85 + 0.15\ln 0.15)\times 10^{-3}$
+
+3-3 合成时的氧势 $\left(\Delta G\left(O_{2}\right)=R T \ln\left(p_{0}/p^{\circ}\right)\right)$ ，描述氧化物中氧逸出到气相的趋势）可很大程度上影响 x 的取值。对于上述体系，在反应初期，可认为体系中存在一组对峙反应。
+
+反应结束后体系迅速冷却，产物组成可代表反应时的平衡组成。已知 T=2023K 时，不同氧势下，产物的 x 值如下所示，试计算该对峙反应的平衡常数。（提示：掺杂量较小时，相比原始的平衡组成，额外的掺杂氧浓度与氧气分压近似成正比。）
+
+对 x 和 $\frac{p_{02}}{p_{0}^{\circ}}$ 线性回归： $x = 5.923 \times 10^{6} \cdot \frac{p_{02}}{p_{0}^{\circ}} - 3.224 \times 10^{-3}$ （2 分）
+
+将 $x = 0$ 代入线性回归式，解得： $\frac{P_{\mathrm{O_2}}}{P_{\mathrm{o}}^{\circ}} = 5.443\times 10^{-10}$ （1分）
+
+3-4 进一步研究发现，无论 x 和 y 的取值如何，该混合氧化物的晶胞参数 a 总比两种原材料的平均值高出近 10 pm。试给出一种合理解释。
+Am 的 5f 电子较为收缩， $Am^{4+}$ 氧化性强，难以与还原性较强的 $U^{4+}$ 共存。产物的实际存在形式为 $(U^{4+}1-2x-2y)(U^{5+}2x-2y)(Am^{3+})(O^{2-2x})$ ， $Am^{3+}$ 半径大，将晶格模开，使晶胞参数变大。
+
+## 知识点映射
+
+- （待人工校准）
+
+
+> ⚠️ **自动拆卡标记**：`subject_module`/`difficulty` 为关键词粗判，答案数值与单位**尚未经人工复核**（OCR 原文逐字转录，可能保留原卷笔误）。

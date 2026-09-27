@@ -1,0 +1,65 @@
+---
+title: "题-GM-gamma晶体结构习题-01-题源化英社3809金红石是缺"
+aliases: ["题-GM-gamma晶体结构习题-01"]
+type: 题目
+fidelity: 原书逐字
+difficulty: 4
+teaching_level: 竞赛
+source: "伽马 gamma晶体结构习题 第 1 题"
+module: "2026机构初赛模拟题"
+source_subject: 结构化学
+syllabus_codes: []
+knowledge_points: []
+tags: [化竞, 题目, 初赛, 机构模拟题, 伽马]
+updated: 2026-09-26
+status: 已填充
+exam_stage: 初赛
+subject_module: 结构化学
+pack: 综合模拟卷
+submodule: 伽马
+source_category: 竞赛导向·竞赛教辅
+source_grade: A
+source_norm: "伽马-gamma晶体结构习题"
+source_file: "2026机构初赛模拟题/06-伽马/gamma晶体结构习题.md"
+---
+
+# 题-GM-gamma晶体结构习题-01-题源化英社3809金红石是缺
+
+## 题目
+
+### 第 1 题（12 分）金红石结构新解。
+
+题源：化英社 38-09
+
+金红石是缺位且畸变的 NiAs 结构，它们共同特征为共棱连接的八面体链。本题中假设所有八面体均为正八面体。
+
+下图示出了 NiAs 结构和金红石结构的关系。a、b 分别为 NiAs 结构与金红石结构沿八面体链的连接方向的投影图。
+
+![](images/b09d13fd9c010761a31f6dd81c6a280d2942776e922e19b9606a7298adccc07a.jpg)
+(a)
+
+![](images/d5f39bf6da3dfed6e5af4f4dbc4629a2a90f7ce32c874581f1505c750769a1c5.jpg)
+(b)
+
+1-1 设 NiAs 结构的晶胞参数为 a、c，计算相同体积阴阳离子构成的金红石的晶胞参数 a 与 c，用数值与 a 表示。
+
+1-2 下图示出了一种双金红石链结构。
+
+![](images/a5b6123e45029f8028b8f48dfa0fa11c367ed95fb661a658e3c38245d59e6fdc.jpg)
+
+1-2-1 在图中画出一个二维正当晶胞的一条边。可以在图外补全必要的轮廓。
+
+1-2-2 指出特征对称元素。
+
+1-2-3 设正八面体的棱长为 x，计算该晶体的晶胞参数 a 与 c，用数值表示。提示：可以使用 1-1 中所得数据。
+
+## 参考答案
+
+⛔ 答案缺失（源答案文件未含该题号，需人工补）
+
+## 知识点映射
+
+- （待人工校准）
+
+
+> ⚠️ **自动拆卡标记**：`subject_module`/`difficulty` 为关键词粗判，答案数值与单位**尚未经人工复核**（OCR 原文逐字转录，可能保留原卷笔误）。
