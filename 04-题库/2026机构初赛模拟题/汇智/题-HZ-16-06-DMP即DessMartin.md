@@ -27,6 +27,8 @@ source_file: "2026机构初赛模拟题/08-汇智/汇智起航2026年寒假有�
 
 ## 题目
 
+### 第6题 DMP（16 分，占 8%）
+
 DMP，即 Dess-Martin 氧化剂，以开发者 Daniel Benjamin Dess 和 James Cullen Martin 命名，于 1983 年报道，是有机合成中温和、高选择性的醇氧化试剂。
 
 6.1 以下是高价碘氧化剂 IBX 与 DMP 的合成方法。

@@ -27,6 +27,8 @@ source_file: "2026机构初赛模拟题/10-chemy/第40届Chemy化学奥林匹克
 
 ## 题目
 
+### 第 1 题 Zn-I₂ 水系电池 （18 分，占 9%）
+
 锌-碘(Zn-I₂)电池是一种新兴的二次电池系统，因其具有较低的成本、高安全性、天然丰富和无毒等优势，广泛应用于绿色能源存储等领域。与传统的锂离子电池相比，锌-碘电池具有更为丰富的资源和更高的安全性，尤其在低环境影响和成本控制方面具备显著优势。
 
 1-1 早期对于 $\mathrm{I}_2 / \mathrm{I}^-$ 氧化还原过程的研究发现, 在某些特定条件下, 不论是碘化物还是碘单质都可以产生一个电化学氧化峰。如果此时溶液中有 $\mathrm{Cl}^-$ 离子的存在, 那么对 $\mathrm{I}_2$ 或 $\mathrm{I}^-$ 的电极氧化反应会优先生成化合物 A。A 在水中不稳定, 与水发生化合反应得到 $1:1$ 加合物 B, B 分解得到两种酸 C 和 D。酸 C 不稳定, 光照条件下以方式一分解(反应 1), 伴随气体生成; 酸性条件下则以方式二分解(反应 2)。
@@ -46,28 +48,53 @@ source_file: "2026机构初赛模拟题/10-chemy/第40届Chemy化学奥林匹克
 
 ## 参考答案
 
-(1分) B: $\mathrm{ICl(H_2O)}$ (1分) C: HIO (1分) D: HCl (1分)
+1-1-1 A: ICl (1分) B: $\mathrm{ICl(H_2O)}$ (1分) C: HIO (1分) D: HCl (1分)
 
-(2 分)
 
-(2 分)
+1-1-2
 
-（1分）写成 $1\mathrm{Cl} + 2\mathrm{e}^{-} = \mathrm{I}^{ - } + \mathrm{Cl}^{ - }$ 也可以
+反应 1: $4HIO = 2H_{2}O + 2I_{2} + O_{2}$ (2 分)
 
-(1 分)
+反应 2: $5HIO = 2I_{2} + HIO_{3} + 2H_{2}O$ (2 分)
 
-(1分)}
-(1 分) 同时提供 Cl-稳定 ICl。(1 分)
 
-(1 分) 回答降低水的浓度, 减少 ICl 的水解也可以。
 
-(1分)}
+负极: $\mathrm{{Zn}} = {\mathrm{{Zn}}}^{2 + } + 2{\mathrm{e}}^{ - }\left( {1\text{ 分 }}\right)$
 
-(1分)}
+正极： $2\mathrm{ICl} + 2\mathrm{e}^{-} = \mathrm{I}_{2} + 2\mathrm{G}\mathrm{I}=\mathrm{I}_{2} + 2\mathrm{e}^{-} = 2\mathrm{I}^{ - }$ （1分）写成 $1\mathrm{Cl} + 2\mathrm{e}^{-} = \mathrm{I}^{ - } + \mathrm{Cl}^{ - }$ 也可以
+
+总反应式: $\mathrm{{Zn}} + \mathrm{{ICl}} = {\mathrm{{Zn}}}^{2 + } + {\mathrm{{Cl}}}^{ - } + {\mathrm{I}}^{ - }$ (1 分)
+
+
+1-2-2 理论比容量:
+
+$$
+Q = \frac {z F}{M} = 422.4 \mathrm{mAh/g(1分)}
+$$
+
+
+1-2-3
+
+LiCl: 降低水的活度, 减少 ICl 的水解反应, (1 分) 同时提供 Cl-稳定 ICl。(1 分)
+
+MeCN: 稀释水溶液, 降低水的粘度促进离子传导。(1 分) 回答降低水的浓度, 减少 ICl 的水解也可以。
+
+
+先计算各个半反应的电极电势：
+
+$$
+\varphi_ {\mathrm{Zn} ^ {2 +} / \mathrm{Zn}} = \varphi_ {\mathrm{Zn} ^ {2 +} / \mathrm{Zn}} ^ {\ominus} + \frac {R T}{2 F} \ln [ \mathrm{Zn} ^ {2 +} ] = - 0.819 \mathrm{V(1分)}
+$$
+
+$$
+\varphi_ {l _ {2} / l ^ {-}} = \varphi_ {l _ {2} / l ^ {-}} ^ {\ominus} + \frac {R T}{2 F} \ln \frac {[ l _ {2} ]}{[ l ^ {-} ] ^ {2}} = 0.548 \mathrm{V(1分)}
+$$
 
 电池电动势：
 
-(1分)}
+$$
+E = \varphi_ {\mathrm {I_ {2} / I^ {-}}} - \varphi_ {\mathrm {Zn^ {2 + } / Zn}} = 1.367 \mathrm{V(1分)}
+$$
 
 若用如下所示的计算方法，得到相同的答案，也可以。
 
@@ -79,11 +106,15 @@ $$
 
 电池的标准电动势：
 
-(1分)}
+$$
+E ^ {\ominus} = \varphi_ {l _ {2} / l ^ {-}} ^ {\ominus} - \varphi_ {Z n ^ {2 +} / Z n} ^ {\ominus} = 1.29   \mathrm{V(1分)}
+$$
 
 根据Nerst方程：
 
-(1分)}
+$$
+E = E ^ {\ominus} - \frac {R T}{2 F} \ln Q = 1.367 \mathrm{V(1分)}
+$$
 
 
 ## 知识点映射
