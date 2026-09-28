@@ -51,7 +51,30 @@ source_file: "2026机构初赛模拟题/02-质心UChO/4thZCHEM-UChO-Tour2.md"
 
 ## 参考答案
 
-⛔ **源池含本题解答（待人工核录入）**：源文件 `4thZCHEM-UChO答案.md` 中已按题面指纹定位到本题解答（310 字 / 13 图，自动定位），因其为**手写批注稿 / 讲稿口述**，未自动录入，建议人工核后补入。
+![](images/7970196b994bed9cf4ccf25b0a47ca9dad76b0a88aec9c31dbf6c0b35453b70a.jpg)
+写成221三角形
+正确标识 0.5
+![](images/7aea08fd49a210cf106262af5d5a9156117b8855883b79eec46a33b2ae44b3cd.jpg)
+$(p \text{一样长})$
+只五分组正确部分，不五求相对高低
+![](images/40eb1a00a5879940458edc4bfa8cbe3ed9cf8666aa79d277c45c1fbdc64937b8.jpg)
+![](images/7809dbfb7ee6fa35a3daf2b6856ae98fb91ad1152b2d04929fc352cedf50ec31.jpg)
+![](images/da02498e96ce91e2beb15e16355c4982a4536f77f7c1c35d7c5d5d9ff2155f35.jpg)
+双亿后轻吸收电子功↓
+亲双降体的恒降价
+(当那么缺电子)/(LUMO升高).
+(1)
+![](images/6d45355c6c6efeb2fbceb32a78f0f75550b5a48b5658c13dd9a65f13dc859aff.jpg)
+![](images/245878bbc9cd7af6eba7eea673a5a3e699c557610eae18e1b2cd0452a5f77a35.jpg)
+$(2!)\lambda$
+![](images/53a1ce72e69bec9bf8f2146aadb37421ce0ab88c2531f232cf0a694fa04a1756.jpg)
+![](images/522e85dda6c4c3dc6a8fd03d73ba692b85f4648b0d975a6663d09e2a31753a89.jpg)
+B.
+$(2')$
+![](images/b9fcb238c5c1ec0d695f4b9cb84faa87f94b0127623c2259fe842d8b93fb47e4.jpg)
+不等式R.S的个体化子.
+2-1 下图是三种常见气体的分子轨道能级图, 它们的分
+
 
 ## 知识点映射
 

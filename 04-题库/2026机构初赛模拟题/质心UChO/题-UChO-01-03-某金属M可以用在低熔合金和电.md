@@ -39,7 +39,27 @@ source_file: "2026机构初赛模拟题/02-质心UChO/5thZCHEM-UChO-Tour1.md"
 
 ## 参考答案
 
-⛔ **源池含本题解答（待人工核录入）**：源文件 `5thZCHEM-UChO答案.md` 中已按题面指纹定位到本题解答（505 字 / 4 图，自动定位），因其为**手写批注稿 / 讲稿口述**，未自动录入，建议人工核后补入。
+## 第3题 (10分)
+$$
+\begin{array}{r l} {3 1. M _ {0}} & {= \frac {\rho_ {N A V}}{2} = \dots = 1 4 6. 9 (g \cdot m o l ^ {- 1})} \\ & {\mathrm{InS.}} \\ & {M _ {E} = \frac {\rho_ {N A V}}{2} = \dots = \underbrace {9 1 3 . 3 (g \cdot m o l ^ {- 1})} _ {x \cdot M (I n) + y M (S)} = 9 1 3. 3.} \\ & {\Rightarrow \left\{ \begin{array}{l l} x = 6 \\ y = 7 \end{array} \right. E: I n _ {0} S _ {7}.} \end{array}
+$$
+m. A\~E: 每个0.5'
+$$
+3 - 2. \underbrace {4 C u I + H g \rightarrow C u _ {2} H g I _ {4}} + 2 C u. (1).
+$$
+CuI 自色纸条悬挂于待测处，if不选. OK
+变色. Hg分色超标
+![](images/f4d787288fc5e30bd4528e426fbc9f4b160e69431b831f7dfe2b3973d0549e74.jpg)
+$$
+I _ {n} [ I n _ {3} (S _ {2}) ] \cdot S _ {e}
+$$
+(i).
+![](images/33b77bcf795190c54820c3d19b7f350cdee537682ce46e57f349e64d2290673a.jpg)
+$$
+3 - 4. I _ {n} ^ {I} I _ {n} ^ {\mathrm{II}} C l _ {4} (2 ^ {\prime})
+$$
+某晶体由A、B、C、D、E五种元素构成，已知A和B，C和D的原子序数相邻，
+
 
 ## 知识点映射
 

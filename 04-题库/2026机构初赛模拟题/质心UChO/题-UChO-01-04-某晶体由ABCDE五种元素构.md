@@ -39,7 +39,44 @@ source_file: "2026机构初赛模拟题/02-质心UChO/5thZCHEM-UChO-Tour1.md"
 
 ## 参考答案
 
-⛔ **源池含本题解答（待人工核录入）**：源文件 `5thZCHEM-UChO答案.md` 中已按题面指纹定位到本题解答（373 字 / 2 图，自动定位），因其为**手写批注稿 / 讲稿口述**，未自动录入，建议人工核后补入。
+BC: BO₃⁻ + 3H₂O → B(OH)₄⁻ + 2OH⁻
+BC: BeO₃⁻ + 3H₂O → Be(OH)₄⁻ + 2OH⁻
+$$
+T e (O H) _ {6}.
+$$
+E: A B C A B C
+$E=Bc$ . $AC_{b}B_{a}C_{b}$ $b_{a}c_{b}a_{c}$
+$$
+A b C a B c A b C a B c
+$$
+![](images/33d4db50714f822badca8e9ed078fd023111e469f918fd772e3ca6075f3b60bd.jpg)
+4-2. A: Be
+$$
+\mathrm{元手分} ^ {\prime}, \Delta B _ {2}
+$$
+$$
+B e O _ {3} ^ {4 -}
+$$
+无边独 $(-2')$
+4-3. M = (0.5')
+C. D. 负 D: N. /F
+$$
+E = \frac {B C}{3} \cdot (A D ^ {- 3}) _ {2}
+$$
+$$
+\stackrel {+ 1} {E} (B O _ {3}) (B e F) _ {2}
+$$
+$$
+E (B e O _ {3}) (B F) _ {2} ^ {- 4 + 4}
+$$
+$$
+\begin{array}{c} \text { AD: } (\stackrel {+ 2} {M} F) ^ {+} \\ (\stackrel {+ 3} {M} F) ^ {2 +} \end{array}
+$$
+$$
+K (\mathrm{BeF}) _ {2} (\mathrm{BO} _ {3}). (1 ^ {\prime}).
+$$
+5-1 通常，我们认为 $\mathrm{S_Nl}$ 反应的速率只由底物浓度决定，与亲
+
 
 ## 知识点映射
 

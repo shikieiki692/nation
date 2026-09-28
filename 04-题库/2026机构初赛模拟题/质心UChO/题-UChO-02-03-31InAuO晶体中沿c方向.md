@@ -47,7 +47,66 @@ source_file: "2026机构初赛模拟题/02-质心UChO/5thZCHEM-UChO-Tour2.md"
 
 ## 参考答案
 
-⛔ **源池含本题解答（待人工核录入）**：源文件 `5thZCHEM-UChO答案.md` 中已按题面指纹定位到本题解答（44 字 / 5 图，自动定位），因其为**手写批注稿 / 讲稿口述**，未自动录入，建议人工核后补入。
+3-1-3 该结构是否含有镜面？
+3-1-1.
+$$
+I _ {n} - O - A _ {n} - O - I _ {n} - O - A _ {n} - O.
+$$
+![](images/6e2d58a08b0230fd0c5e7520535680e974eefcb7c610a950b8d7682151a1ebf6.jpg)
+![](images/55661c39f4eec440afa6e9ec27ef7561ffb60fc4d67fe9d2ff94010e19d8bf71.jpg)
+每个代入1，共3' 不写图例-1'
+$$
+3 - 1 - 2
+$$
+![](images/a1abbe896a3b67de6b63f658349c77798c89edbe1dac321761f45a7af41ec068.jpg)
+![](images/650b39c06d44cb45f612dfb059bd293e3b96a2d4238aab5fad5cb5e246e57509.jpg)
+$$
+d ^ {2} (0 - 0) = \frac {1}{3} a ^ {2} + 4 x ^ {2}
+$$
+$$
+(i ^ {\prime})
+$$
+$$
+d ^ {2} (0 - I r) = \frac {1}{3} a ^ {2} + x ^ {2}
+$$
+$$
+x = 1 0 6. 6 p m \cdot
+$$
+$$
+a = 3 3 5. 3 p m (t ^ {\prime})
+$$
+$$
+c = 4 d (A _ {0}: 0) + 4 x = 1 2 6 6. 5 \mathrm{pm} (1 ^ {\prime})
+$$
+$$
+\rho = \frac {Z M}{V N _ {A}} = \frac {2 \times (\quad)}{a ^ {2} c \sin 1 2 0 ^ {\circ} N _ {A}} = 4. 2 6 g \cdot c m ^ {3} \cdot (1 ^ {\prime}).
+$$
+3-1-3. 有 (0.5')
+3-1-4. 六方晶子, $6_{3}$ 轴. hP点阵.
+(0.5') (0.5') (0.5')
+3-2
+$$
+I _ {n} - O - C u - O \cdot - I _ {n} - O - C u - O \cdot - I _ {n} - O - C u - O
+$$
+b A a A. c B b B a C c C
+![](images/a018e53803df872ce2d3337c870e33ec05ada2cb57746d542280eafa719b2ad7.jpg)
+$$
+ⓞ: C u
+$$
+$$
+\cdot : 0
+$$
+$$
+0: I n.
+$$
+6个反对1，共3 $^{1}$
+不写自例-y-i
+$3-2-2 \cdot hR \cdot \frac{1}{3} \cdot 3 = \frac{0.5}{3}$
+有锐面 0.5
+写成3次逆转细一05
+R3m
+##
+
 
 ## 知识点映射
 
