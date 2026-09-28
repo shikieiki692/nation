@@ -77,7 +77,51 @@ $$
 
 ## 参考答案
 
-⛔ **源池含本题解答（待人工核录入）**：源文件 `初赛模拟9答案.md` 中已按题面指纹定位到本题解答（235 字 / 17 图，自动定位），因其为**手写批注稿 / 讲稿口述**，未自动录入，建议人工核后补入。
+### 第6题（46分，占 $22\%$ ）Quadricyclane's Chemistry
+### 6-1 Quadricyclane
+A:
+![](images/beb4d6c280bfb9d9f1d8f3d5dc217f6cdab319baa06b0321b847930cce3e856a.jpg)
+B:
+![](images/9237eb5a8c952fc8cdd37503050c6b19ce116c5597589ada047de6b49d0e9279.jpg)
+C:
+![](images/0548fd65fff0eb41416136138e767bf5a9b9599b5df05142ef11e2c8a2f7854d.jpg)
+![](images/71b3725a30173f6602bfd7cba17e9c1085c3c0bbeafcc3793c444266f8f28cca.jpg)
+D:
+![](images/281d71acde86b6d400e7771d199f730dd028c618f451dbdeb0e2385d748650e5.jpg)
+E:
+![](images/a7a78abf38eb283aa7cb4f8590fb87d2fc926cf48f18f4b819835ead36c4a4a2.jpg)
+G:
+![](images/f57b26dc828956c517162c9b2c39a1e895ec6909f0a8a1b30eed1e3a1a860471.jpg)
+H:
+![](images/eba1b3329d91bac44444fe3c6824579627e12af88d7a4710f318dcdfc5b16538.jpg)
+（共10分，A-F的结构各1分，G和H的结构各2分）
+6-1-1-2 指出加热条件下[6+4]、[6+2]、[4+2]环加成中哪个(些)是禁阻的，说明其实际经历了何种类型反应，并指出在低温和高温下C的二聚反应中G和H何者为主产物。
+[6+2]（1分）
+自由基反应（1分）
+低温：G；高温：H（各1分）
+（共4分）
+![](images/2da018254a19db40a82580809de37c644d826b0d9f287b7bf1486c943ae71559.jpg)
+![](images/17119a4deab18b26c89b692c461434835a13338d5337e5c322573ed5d407dd5f.jpg)
+6-2 Homoquadricyclane
+6-2-1 观察以下反应，回答有关问题。
+![](images/a419bd00abae6ed44fff749341945044f809e96b51c2aaca887de906c8e8fc13.jpg)
+1.0M aq HCl
+acetone
+OH
+已知底物的骨架结构如下所示，且I至J经历了Homoquadricyclane重排（与B至A发生的反应类似）。
+![](images/1e7df60495ed87cf1e07f86ef7c8d89826625760259c57d3c432d7247c462082.jpg)
+6-2-1-1 给出 I 至 L 结构，要求立体化学。
+![](images/de5ae94774741aa6500eb3cb9fd2185c335e1103d9cbf495183ab8aacd6c49ea.jpg)
+（共8分，各2分，结构1分，立化1分）
+![](images/337c6fa504d3a4b55582b9d05db85a243dd4d4f3d359a5194b1553e42e3720f2.jpg)
+6-2-1-3 画出 K→L 的关键中间体结构，金属使用[M^X]表示，X 为价态，无关配体可省略。
+![](images/16e9f5c65e1211755b044fd3164a6f511c3dd3bc9e184f3696cd0bf639b9ef3b.jpg)
+6-2-2 研究人员通过进一步修饰所得骨架，发展出了(-)-Mitrephorone A 的全合成策略。
+![](images/03e62ce8ea0963686ac17c73f3d804e29f6c4b45bed9698ea59153227ab1134e.jpg)
+（共10分，各2分，结构1分，立化1分）（P中下方羟基不要求立体化学）
+![](images/410e3e618b88481c71afb9dc33489cdae25af85e0172f630c7bfdc083e7df822.jpg)
+（共3分，骨架1分，符号1分，立体化学1分）
+
 
 ## 知识点映射
 

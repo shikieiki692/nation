@@ -55,8 +55,24 @@ $$
 
 ## 参考答案
 
-⛔ **源池仅含题面复述**：源文件 `第40届化英社化学奥林匹克（初赛）模拟试题15参考答案.md` 中含本题题面复述，但无独立解答文字（解答疑以手写图给出），未录入。
-
+### 第1题 简单元素题（25分，占 $12\%$ ）
+### 1.1.1 给出 A-F 的化学式。
+<table><tr><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td></tr><tr><td>NH3</td><td>N2H4</td><td>NH4CN</td><td>NO</td><td>HNO3</td><td>NI3·NH3</td></tr><tr><td colspan="6">(共6分,各1分)</td></tr></table>
+1.1.2 给出反应 1-反应 3 的化学方程式。
+$$
+\text { 反应 } 1: 2 \mathrm{NH} _ {3} + \mathrm{C} \rightarrow \mathrm{NH} _ {4} \mathrm{CN} + \mathrm{H} _ {2}
+$$
+$$
+\text {   反应   } 2: 4 \mathrm{NH} _ {3} + 5 \mathrm{O} _ {2} \rightarrow 4 \mathrm{NO} + 6 \mathrm{H} _ {2} \mathrm{O}
+$$
+$$
+\begin{array}{r l}&{\text { 反   应 } 3: 5 \mathrm{NH} _ {3} + 3 \mathrm{I} _ {2} \rightarrow \mathrm{NI} _ {3} \cdot \mathrm{NH} _ {3} + 3 \mathrm{NH} _ {4} \mathrm{I}}\\&{\quad (\text { 共 } 6 \text { 分 }, \text { 各 } 2 \text { 分 })}\end{array}
+$$
+![](images/0f61c211c781299615df74813333af455305d313b7389f887e5c4c1791df486d.jpg)
+(共4分, 结构2分, 标号数量1分, 顺序1分)
+<table><tr><td>3个N,9个O,6个H(共3分,各1分)</td></tr></table>
+<table><tr><td>反应4:15N2H4+6MnO4-+28H+→10NH4++6Mn2++10N2+24H2O</td></tr><tr><td>反应5:2N2H4+2H2O2+H+→NH4++HN3+4H2O</td></tr><tr><td>反应6:N2H4+IO3-+Cl-+2H+→N2+ICl+3H2O</td></tr><tr><td>(共6分,各2分,质子化N2H4并配平不扣分)</td></tr></table>
+### 
 ## 知识点映射
 
 - （待人工校准）

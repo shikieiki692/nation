@@ -86,7 +86,26 @@ $$
 
 ## 参考答案
 
-⛔ **源池含本题解答（待人工核录入）**：源文件 `第40届化英社奥林匹克（初赛）模拟试题13答案（清晰）.md` 中已按题面指纹定位到本题解答（236 字 / 0 图，自动定位），因其为**手写批注稿 / 讲稿口述**，未自动录入，建议人工核后补入。
+6-5 有趣的是，化合物 1 还可与 C $_{70}$ 形成 1:1 或 1:2 的复合物，使用分光光度法可以测定复合物的稳定常数。在比色皿中加入化合物 1 溶液，测定初始光谱。每次加入一定量的 C $_{70}$ 溶液，充分混匀后（静置 2 分钟），再次测定光谱。重复此步骤，获得一系列随 C $_{70}$ 浓度增加而变化的吸收光谱图。化合物 1 在该波长下近似无吸光，给出向化合物 1 溶液中加入 C $_{70}$ 之后的吸光度变化量ΔA 的表达式（使用化合物 1 初始浓度[H] $_{0}$ 、C $_{70}$ 平衡浓度[G]、1:1 复合物的摩尔消光系数ε $_{1}$ 、1:2 复合物的摩尔消光系数ε $_{2}$ 、1:1 复合物的稳定常数 K $_{1}$ 、1:2 复合物的稳定
+常数 $\mathrm{K}_{2}$ 、光程b表示）。
+$$
+\mathrm{朗伯-比尔定律:} \mathrm{A} = \varepsilon \mathrm{bc}
+$$
+ε: 吸光物质的摩尔消光系数 b: 光程 c: 吸光物质的摩尔浓度
+$$
+[ \mathrm{H} ] _ {0} = [ \mathrm{H} ] + [ \mathrm{HG} ] + [ \mathrm{HG} _ {2} ] (\mathrm{H} \text {代表主体，G代表客体})
+$$
+$$
+[ \mathrm{HG} ] = \mathrm{K} _ {1} [ \mathrm{H} ] [ \mathrm{G} ] (1 \text {分}) [ \mathrm{HG} _ {2} ] = \mathrm{K} _ {2} [ \mathrm{H} ] [ \mathrm{G} ] ^ {2} (1 \text {分})
+$$
+$$
+[ \mathrm{HG} ] = \frac {\mathrm{K} _ {1} [ \mathrm{H} ] _ {0} [ \mathrm{G} ]}{1 + \mathrm{K} _ {1} [ \mathrm{G} ] + \mathrm{K} _ {2} [ \mathrm{G} ] ^ {2}} (1 \text {分}) [ \mathrm{HG} _ {2} ] = \frac {\mathrm{K} _ {2} [ \mathrm{H} ] _ {0} [ \mathrm{G} ] ^ {2}}{1 + \mathrm{K} _ {1} [ \mathrm{G} ] + \mathrm{K} _ {2} [ \mathrm{O} ] ^ {2}} (1 \text {分})
+$$
+$$
+\Delta \mathrm{A} = \varepsilon_ {1} [ \mathrm{HG} ] \mathrm{b} + \varepsilon_ {2} [ \mathrm{HG} _ {2} ] \mathrm{b} = \frac {\varepsilon_ {1} K _ {1} [ \mathrm{G} ] \mathrm{b} + \varepsilon_ {2} K _ {2} [ \mathrm{G} ] ^ {2} \mathrm{b}}{1 + K _ {1} [ \mathrm{G} ] + K _ {2} [ \mathrm{G} ] ^ {2}} [ \mathrm{H} ] _ {0} (2 \mathrm{分})
+$$
+(共6分)
+
 
 ## 知识点映射
 

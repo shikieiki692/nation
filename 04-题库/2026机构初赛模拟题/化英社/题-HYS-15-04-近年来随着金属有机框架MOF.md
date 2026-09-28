@@ -66,7 +66,22 @@ Hdbm
 
 ## 参考答案
 
-⛔ **源池含本题解答（待人工核录入）**：源文件 `第40届化英社化学奥林匹克（初赛）模拟试题15参考答案.md` 中已按题面指纹定位到本题解答（278 字 / 9 图，自动定位），因其为**手写批注稿 / 讲稿口述**，未自动录入，建议人工核后补入。
+### 第 4 题 四嗪配合物（19 分，占 9%）
+![](images/e5ac8a34c85c6d9304c68ce097c415ceee38fe9feb2418591ff57ec3335c4356.jpg)
+![](images/66d13ef950e9ecee49cb50aac0ccc5539d228eef760e02320a1909448732eb48.jpg)
+(2 分)
+Ti 上电子填入了 ttz 低能的 $\pi^{*}$ 轨道，降低了 Ti 中心电子密度（1 分）（共 3 分）
+![](images/8caa43de17a625be7a7726bb4fa2876f4e53ead06140174fcc1da1625609390f.jpg)
+(2 分)
+![](images/6ab8cce4180eb7cdca14fd58f2ec6ff965888bf348b311e4f494d6f3ff7d0e5e.jpg)
+(2 分)
+<table><tr><td> $ClO_{4}^{-}$ 与 $Ag^{+}$ 的作用力名称</td><td>配位键/静电力</td></tr><tr><td> $ClO_{4}^{-}$ 与 $Mo_{2}ttz$ 的作用力名称</td><td>阴离子- $\pi$ 相互作用</td></tr><tr><td> $ClO_{4}^{-}$ 与 $H_{2}O$ 的作用力名称</td><td> $O-H\cdots O$ 氢键</td></tr><tr><td>化合物中 $Ag^{+}$ 的配位数</td><td>4</td></tr><tr><td colspan="2">(共4分,各1分)</td></tr></table>
+<table><tr><td colspan="4"></td></tr><tr><td colspan="4"><img src="images/b43c0e9450387458eb66067c3f82803dc59005a6c39c7f26a9e8e2ffbe99dbae.jpg"/>5 配位(2 分)(共 4 分)</td></tr><tr><td colspan="4">4.2.3 解释为何  $\text{Mc}_{2}\text{ttz}$  无法与  $\text{Ag}^{+}$  形成与 ttz 类似的二维平面结构。</td></tr><tr><td colspan="4">其形成平面结构会导致甲基间排斥较大(1 分)</td></tr><tr><td colspan="4">4.3 将 ttz 两侧的 H 换为含有其它配位原子的基团,其配位情况又将变得更加丰富。</td></tr><tr><td><img src="images/295eef699ce20365887e2e3eb0c822a698478c2ffe1a7f7934e09a27c12ca911.jpg"/>2,2&#x27;-bptz</td><td><img src="images/881ef87685739508a298bc6077eb8eb3d8524738d1b3fd9ff904742857136292.jpg"/>3,3&#x27;-bptz</td><td colspan="2"><img src="images/b591c46e9b9a3daa2837abb8af2047055b9a85b85d4fa349028666910732bc1b.jpg"/>Hdbm</td></tr><tr><td colspan="4">4.3.1 研究人员将 Co 前体与 2,2&#x27;-bptz,Hdbm 共煮,随后将所得产物在乙腈中重结晶,最终产物经鉴定分子式为  $\text{Co}_{4}(2,2'-bptz)_{4}(\text{dbm})_{4}$ (此处省略了结晶溶剂),其结构与 A 类似,画出该物质的结构,配体可做适当简化。</td></tr></table>
+![](images/2152b8c7338cd8c4c98e1ad216b5b82f59a5e6d04bd269ef04b2bb2f1591a087.jpg)
+(3 分)
+4.3.2（思考题，不计入总分）对于 $3,3'$ -bptz，其可以与 Cd 形成化合物 $\mathrm{Cd}_{2}(3,3'\text{-bptz})_{n}(\mathrm{NO}_{3})_{4}$ ，其为梯形一椎长链结构，亚硝酸根不参与桥联，Cd 为 7 配位，且四嗪氮不再参与配位，画出其结构。
+![](images/3005d9a2baf04c3437b00c251a36f2044cf79fdec
+
 
 ## 知识点映射
 

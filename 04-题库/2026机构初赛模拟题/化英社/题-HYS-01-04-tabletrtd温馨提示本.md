@@ -103,7 +103,51 @@ $$
 
 ## 参考答案
 
-⛔ **源池含本题解答（待人工核录入）**：源文件 `第40届化英社化学奥林匹克（决赛）夏季模拟试题1参考答案.md` 中已按题面指纹定位到本题解答（64 字 / 4 图，自动定位），因其为**手写批注稿 / 讲稿口述**，未自动录入，建议人工核后补入。
+### 4-1 无机颗粒
+![](images/44f804fd634aa100151f91bf46044095c2ff460278828aacb8d3038c388ef1ea.jpg)
+$$
+\begin{array}{r l} & \mathrm {H_ {2} O_ {2}} + \mathrm{Fe(1)} = \mathrm{Fe(2)} + \mathrm {OH^ {-}} + \mathrm{HO} \\ & \mathrm{HO} + \mathrm{TMB} = \mathrm {H_ {2} O} + \mathrm{TMB} ^ {1} \\ & \mathrm{HO} + \mathrm {H_ {2} O_ {2}} = \mathrm {H_ {2} O} + \mathrm {HO_ {2}} \\ & \mathrm{Fe(2)} + \mathrm {OH^ {-}} + \mathrm {HO_ {2}} = \mathrm{Fe(1)} + \mathrm {O_ {2}} + \mathrm {H_ {2} O} \end{array}
+$$
+4-1-1-1 写出 Fe(1)、Fe(2)各自铁的价态。96.00%
+$$
+\mathrm{Fe(1):2价Fe(2):3价(1分,有错不得分)}
+$$
+![](images/457b77ad685c5c8a4cbc372a91412f781029d5772081e60eb0487604e3d926b2.jpg)
+$$
+\frac {d (S _ {0} \theta)}{d t} = r _ {4} - r _ {1} = k _ {4} [ \mathrm{OH} ^ {-} ] [ \mathrm{HO} _ {2} ] S _ {0} (1 - \theta) - k _ {1} C _ {1} S _ {0} \theta
+$$
+$$
+\frac {d \theta}{d t} = k _ {4} [ \mathrm{OH} ^ {-} ] [ \mathrm{HO} _ {2} ] (1 - \theta) - k _ {1} C _ {1} \theta (1 \text {分})
+$$
+对羟基和 $\mathrm{TMB}^{1}$ 稳态近似得:
+$$
+[ \mathrm{OH} ] = \frac {k _ {1} C _ {1} S _ {0} \theta}{2 k _ {2} C _ {2} + k _ {3} C _ {1}} (2 \text {分})
+$$
+对 $\mathrm{HO}_{2}$ 稳态近似得:
+$$
+\left[ \mathrm{HO} _ {2} \right] = \frac {k _ {1} k _ {3} C _ {1} ^ {2} \theta}{k _ {4} \left[ \mathrm{OH} ^ {-} \right] \left(2 k _ {2} C _ {2} + k _ {3} C _ {1}\right) (1 - \theta)}
+$$
+代入得:
+$$
+\frac {d \theta}{d t} = - \frac {2 k _ {1} k _ {2} C _ {1} C _ {2} \theta}{2 k _ {2} C _ {2} + k _ {3} C _ {1}} (1 \text {分})
+$$
+$$
+\theta_ {0} = \frac {1}{3} (1 \text {分})
+$$
+$$
+\theta = \frac {1}{3} e ^ {- \frac {2 k _ {1} k _ {2} C _ {1} C _ {2} t}{2 k _ {2} C _ {2} + k _ {3} C _ {1}}} (2 \mathrm{分})
+$$
+(共8分)
+若对羟基和 $\mathrm{TMB}^{1}$ 稳态近似得:
+$$
+[ \mathrm{OH} ] = \frac {k _ {1} C _ {1} S _ {0} \theta}{k _ {2} C _ {2} + k _ {3} C _ {1}}, \quad \theta = \frac {1}{3} e ^ {- \frac {k _ {1} k _ {2} C _ {1} C _ {2} t}{k _ {2} C _ {2} + k _ {3} C _ {1}}}
+$$
+900%
+![](images/6d451cb0f17795df7251db35ab4d18ae32bb306a059cbcada20ef940fcb15591.jpg)
+(3 分, 结构 2 分, 圈原子 1 分)
+孔60%
+![](images/d9e0230c5d6809df48506a10a0c665bee88e58c668fe8051c7e052ebf918ddb0.jpg)
+
 
 ## 知识点映射
 

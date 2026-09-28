@@ -67,7 +67,37 @@ $$
 
 ## 参考答案
 
-⛔ **源池含本题解答（待人工核录入）**：源文件 `第40届化英社化学奥林匹克（决赛）夏季模拟试题1参考答案.md` 中已按题面指纹定位到本题解答（150 字 / 14 图，自动定位），因其为**手写批注稿 / 讲稿口述**，未自动录入，建议人工核后补入。
+第8题Aog的简短合成（30分，占 $14\%$ ）
+![](images/04382a75d20c09433126bab9f207332dddccbb70beff0362722da59bbdcf8e3a.jpg)
+![](images/ed3006d14722e18041e4b5de3c7ed5533dda92df2beee6bb63b7c3aab215f0b9.jpg)
+A
+![](images/eff6fa1f6dc7365eb667af72595f6fcd8b7680527048f2dbdfa8cc7fc21258c1.jpg)
+B
+![](images/b0bbf19c99ca5dd3505bb43da8c8fcf2f313a295fd58b5bf77df2bd4119fb643.jpg)
+C
+(各 2 分, 立体化学错误得一半分)
+扭转张力和位阻的竞争
+解释格式试剂的加成选择性：酮羰基与大位阻的四级碳相邻（1 分）
+(共7分)
+![](images/0b92fe13e367d45434f10584a9d5fea069bf5e9419f6b07224dd60f04a7cbcb0.jpg)
+![](images/f7b6959181bf3b510aa174e82f2acfc84ec1deaab4205726acaf63dae51c5a5d.jpg)
+(共4分, 各2分, 立体化学错误扣一分; D和E对应错误共得三分)
+$$
+\mathrm{RuCl} _ {3}, \mathrm{NaIO} _ {4}
+$$
+![](images/504d428c4d0f674a039cb2adc25e909fd26c3698b8ab558b7fe895a4f9cd5d7a.jpg)
+![](images/c296c300a93197d5abc691039c707baaf27355fee519f43ece5f9305025dd18d.jpg)
+F
+![](images/605e0726e8237901bf9c5371349aba28e1a2716b86dd1702d2c45ee36d78ca96.jpg)
+G
+![](images/066c9c0ffad6f06f6168c5a846451d2fa2164f211f29a55f16955f33bfb65f4a.jpg)
+![](images/3a4340ae736695b69733aa5c699c4bd382a08545fbbefe5582d7a72ebe8651ae.jpg)
+![](images/c209e7cd2d956d565209e1f9a2c14bd8a13dccd7774e57e21e704e7f67364c15.jpg)
+（各2分，未示出非共价作用各扣一分，叔丁基的面选择性错误各扣一分）左侧两个为优势过渡态，右侧两个为劣势过渡态。（1分，有错不得分）（共9分）
+![](images/2395bf1d32e442ce16650e80f3fb4bfd2029f6becde6e3c0c2f74342d9223569.jpg)
+![](images/9a0f433e23a97bd19e2b2622d7e7ba4b01351fc009dc988c89e2a63c7f48d0fe.jpg)
+(共 4 分, 各 2 分, 立体化学错误扣一分)
+
 
 ## 知识点映射
 

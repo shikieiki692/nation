@@ -74,8 +74,58 @@ IPAD
 
 ## 参考答案
 
-⛔ **源池含本题解答（待人工核录入）**：源文件 `第40届化英社化学奥林匹克初赛夏季初赛模拟11参考答案.md` 中已按题面指纹定位到本题解答（111 字 / 8 图，自动定位），因其为**手写批注稿 / 讲稿口述**，未自动录入，建议人工核后补入。
-
+![](images/386b4f1f9f7f2c0681841ee2277e7fb34112d627f71d59543d2879189904dfdf.jpg)
+<table><tr><td>C—H...O 氢键、C—H...F 氢键、F 的孤对电子对 S 的σ-hole 的相互作用(3 分,每个 1 分)</td></tr></table>
+<table><tr><td>对水、空气不稳定(1分)</td></tr></table>
+a
+b
+![](images/5ea4775cf7c6dba62e7637f356e8ed7e1221072885f64b29a2142c941b7acacd.jpg)
+![](images/89dbe1b31137c5ae5b12561dd116bba3562a685ba7b078e01c9ddd7b039b729c.jpg)
+d
+![](images/ef9943af168d621b900b775e8e5b01b266e5089485d0335242f1ac0e141bb380.jpg)
+![](images/bdc5a010fbb4f1b4463f60343ea6511b95e89682be8c7b64f3d1ce892de4124f.jpg)
+具有刚性平面结构，共轭较好（1 分）
+$$
+\mathrm{TAM} _ {\mathrm{Hy}}
+$$
+$$
+\mathrm{TAM} _ {\mathrm{Me}}
+$$
+$$
+\mathrm{TAM} _ {\mathrm{Me6}}
+$$
+$$
+\mathrm{d} (\mathrm{C-H})
+$$
+$$
+\Delta G _ {\mathrm{H} ^ {-}}
+$$
+$$
+\mathrm{d} (\mathrm{C} - \mathrm{H})
+$$
+$$
+\mathrm{TAM} _ {\mathrm{Me}}
+$$
+$$
+\mathrm{TAM} _ {\mathrm{Me6}}
+$$
+$$
+\Delta G _ {\mathrm{H} ^ {-}}
+$$
+$$
+\mathrm{TAM} _ {\mathrm{Me}}
+$$
+$$
+\mathrm{TAM} _ {\mathrm{Me6}}
+$$
+![](images/a09688dc6cf67a0098bd867a1566e57d5251f6aad29d184481eb1be657affcf9.jpg)
+DMBI 会与主链发生π-π堆叠（1 分），通过静电作用削弱了电子的移动能力（1 分）而 TAM 结构与脂肪族侧链相似，位于侧链空洞中，不影响主链电子（1 分）
+(共 3 分)
+![](images/edab273e1882cbdd6e87ea55dafb1c0788c84b37911ad387f857c1abc0372976.jpg)
+IPAD
+![](images/6f3e0bbb958ca099e72f2a63dd20a5e69e36c8ce63e6982131991f0ead77d69a.jpg)
+(4 分, 阴阳离子各 2 分, 示出变化的部分即可)
+### 
 ## 知识点映射
 
 - （待人工校准）

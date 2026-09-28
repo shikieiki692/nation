@@ -55,7 +55,47 @@ $$
 
 ## 参考答案
 
-⛔ **源池仅含题面复述**：源文件 `第40届化英社化学奥林匹克决赛模拟试题3参考答案（清晰版）.md` 中含本题题面复述，但无独立解答文字（解答疑以手写图给出），未录入。
+第6题 吸附催化动力学（23分，占8%）
+$$
+\mathbf {A} (\mathrm{g}) + ^ {*} \stackrel {{k _ {a}}} {{\rightarrow}} \mathbf {A} ^ {*}
+$$
+$$
+\mathbf {A} ^ {*} \stackrel {{k _ {d}}} {{\rightarrow}} \mathbf {A} (\mathrm{g}) + *
+$$
+平衡时 $r_{\mathrm{a}} = r_{\mathrm{d}}$ （1分），即： $k_{\mathrm{a}}p(1 - \theta) = k_{\mathrm{d}}\theta$ （1分）
+$$
+\theta = \frac {k _ {a} p}{k _ {a} p + k _ {d}} (2 \text {分})
+$$
+(共4分)
+记 $k_{\mathrm{a}} / k_{\mathrm{d}} = K$ ，则 $\theta = \frac{Kp}{Kp + 1}$ ，即： $\frac{1}{\theta} = 1 + \frac{1}{K}\cdot \frac{1}{p}$ （1分）
+故： $\frac{m_{2}}{m_{1}}=\frac{\theta_{2}}{\theta_{1}}=\frac{K+p_{1}^{-1}}{K+p_{2}^{-1}}$ ，解得 $K=0.537\ kPa^{-1}$ （1分）
+$p = 1.14\mathrm{kPa}$ 时的 $\theta_{1} = \frac{Kp_{1}}{Kp_{1} + 1} = 0.380$ ，即饱和时的质量比为1.19（1分）
+也即 1 g 活性炭吸收了 1.19 g CHCl₃ 分子，截面积可估算为
+$$
+\sigma = \frac {S M}{\tilde {m} N _ {A}} = 3. 2 \times 1 0 ^ {- 1 9} \mathrm{m} ^ {2} \text {即} 0. 3 2 \mathrm{nm} ^ {2} (2 \text {分})
+$$
+(共5分)
+未吸附气体的吸附中心比例为 $1 - \theta_{\mathrm{A}} - \theta_{\mathrm{B}}$ ，即：
+$$
+k _ {\mathrm{d}, \Lambda} p _ {\mathrm{A}} (1 - \theta_ {\mathrm{A}} - \theta_ {\mathrm{B}}) = k _ {\mathrm{d}, \Lambda} \theta_ {\mathrm{A}} (1 \text {分})
+$$
+$$
+k _ {\mathrm{a.B}} p _ {\mathrm{B}} (1 - \theta_ {\mathrm{A}} - \theta_ {\mathrm{B}}) = k _ {\mathrm{d.B}} \theta_ {\mathrm{B}}. (1 \text {分})
+$$
+$$
+\text {故:} \theta_ {A} = \frac {\frac {k _ {a , A}}{k _ {d , A}} p _ {A}}{1 + \frac {k _ {a , A}}{k _ {d , A}} p _ {A} + \frac {k _ {a , B}}{k _ {d , B}} p _ {B}} (2 \text {分}); \theta_ {B} = \frac {\frac {k _ {a , B}}{k _ {d , B}} p _ {B}}{1 + \frac {k _ {a , A}}{k _ {d , A}} p _ {A} + \frac {k _ {a , B}}{k _ {d , B}} p _ {B}}
+$$
+(2分)
+(共6分)
+$$
+r _ {L - H} = \frac {k _ {L - H} \frac {k _ {a , A} k _ {a , B}}{k _ {d , A} k _ {d , B}} p _ {A} p _ {B}}{(1 + \frac {k _ {a , A}}{k _ {d , A}} p _ {A} + \frac {k _ {a , B}}{k _ {d , B}} p _ {B}) ^ {2}} (2 \mathrm{分})
+$$
+$$
+r _ {E - R} = \frac {k _ {E - R} \frac {k _ {a , A}}{k _ {d , A}} p _ {A} p _ {B}}{1 + \frac {k _ {a , A}}{k _ {d , A}} p _ {A} + \frac {k _ {a , B}}{k _ {d , B}} p _ {B}} (2 \text {分})
+$$
+(共4分)
+<table><tr><td>L-H 历程:先上升后下降(2 分)</td></tr><tr><td>E-R 历程:始终上升,趋近某个极大值(2 分)</td></tr><tr><td>(共 4 分)</td></tr></table>
+
 
 ## 知识点映射
 

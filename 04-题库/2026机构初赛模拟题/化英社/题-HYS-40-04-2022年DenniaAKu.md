@@ -66,7 +66,46 @@ source_file: "2026机构初赛模拟题/07-化英社/第40届化英社化学奥�
 
 ## 参考答案
 
-⛔ **源池含本题解答（待人工核录入）**：源文件 `第40届化英社奥林匹克（初赛）模拟试题13答案（清晰）.md` 中已按题面指纹定位到本题解答（134 字 / 8 图，自动定位），因其为**手写批注稿 / 讲稿口述**，未自动录入，建议人工核后补入。
+第4题（21分，占 $11\%$ ）有机分子动力学
+![](images/07f6d0f88cf3e814a74688a19488acc6c83090994291b3a921545f5565452e73.jpg)
+![](images/5bf07464ba730f1b4d6b5ac3b56ec11560cf6cfe817b9114948f780829e777d3.jpg)
+![](images/8994eac3019f505894351e6dab87da2ba15fd41f39ce80677bc63e6978e84703.jpg)
+![](images/63163cb8de8363092d1935417d08693355ef956e832bf216b0a206d7c87fe8b4.jpg)
+(2分，示出羟基与氯离子作用不扣分)
+![](images/ed7325ff1730b089c011103e063d6c958606cc360477b1a0b05cf66a492a98d7.jpg)
+（不必示出氯离子与烯烃的相互作用，结构2分，电荷1分，过渡态符号1分，共4分）4-2-1现将上述过程简化如下：
+![](images/ad4c76d1ee05a1e78d8ef1fdc1d9577dfd34b436567b25f336d21c0e03b138ea.jpg)
+做出如下同位素标记。
+![](images/20ca8b7b4d9ad76a4c9eb9d053f3c58e0b64ff12246cb5f600bae1497be967d2.jpg)
+并做了同样的实验，结果如下：
+(注： $KIE = k_{H}/k_{D}$ ，P、C、E 分别表示 protonation、cyclization、elimination 三步反应)
+<table><tr><td>Experiments</td><td>P</td><td>C</td><td>E</td></tr><tr><td>2b</td><td>0.8-1.0</td><td>0.7-0.9</td><td>0.7-0.9</td></tr><tr><td>2c</td><td>1.0</td><td>0.8-0.9</td><td>0.8-0.9</td></tr><tr><td>2d</td><td>1.0</td><td>1.0-1.5</td><td>&gt;2.0</td></tr></table>
+请判断决速步是哪一步。
+![](images/372b1699d13b387802160c01ff659e13d93d17976e7f13d66f7ef9b0d3e2fb2c.jpg)
+```txt
+对 HBD·HCl、HBD·HCl*、HBD·2a*、HBD·2a+进行稳态近似：
+d[HBD·HCl]/dt = k1[HCl][HBD]-(k1+k2[2a])[HBD·HCl]+k2[HBD·HCl*]+(k5+k6)[HBD·2a+] = 0（1分）
+d[HBD·HCl*]/dt=k2[HBD·HCl][2a]-(k2+k3)[HBD·HCl*=0（1分）
+d[HBD·2a*]/dt=k3[HBD·HCl*-k4[HBD·2a*]=0（1分）
+d[HBD·2a+]/dt=k4[HBD·2a*]-(k5+k6)[HBD·2a*]=0（1分）
+[HBD·HCl*]=(k2[2a][HBD·HCl])/(k2+k3)
+[HBD·2a*]=(k2k3[2a][HBD·HCl])/((k2+k3)k4）（1分）
+[HBD·2a+]=(k2k3[2a][HBD·HCl])/((k2+k3)(k5+k6))（1分）
+[HBD]=k-1[HBD·HCl]/k1[HCl]（1分）
+HBD的物料平衡：[HBD]+[HBD·HCl]+[HBD·2a*]+[HBD·2a*]+[HBD·HCl*=c(HBD)（1分）
+[HBD·HCl]=k1k4(k2+k3)(k5+k6)[HCl]c(HBD)/(k-1k4(k2+k3)(k5+k6)+k1k4(k-2+k3)(k5+k6)
+[HCl]+k1k2k3(k5+k6)[2a][HCl]+k1k2k3k4[2a][HCl]+k1k2k4(k5+k6)[2a][HCl])（1分）
+d[3]/dt=k1k2k3k4k5[2a][HCl][HBD]/(k-1k4(k-2+k3)(k5+k6)+k1k4(k-2+k3)(k5+k6)[HCl]+
+k1k2k3(k5+k6)[2a][HCl]+k1k2k3k4[2a][HCl]+k1k2k4(k5+k6)[2a][HCl])（1分）
+d[4]/dt=k1k2k3k4k6[2a][HCl][HBD]/(k-1k4(k-2+k3)(k5+k6)+k1k4(k-2+k3)(k5+k6)[HCl]+
+k1k2k3(k5+k6)[2a][HCl]+k1k2k3k4[2a][HCl]+k1k2k4(k5+k6)[2a][HCl])（1分）
+（共11分）
+[3]/[4]=k5/k6（1分）/ke=Ae-Ea3/RT    k6=Ae-Ea4/RT
+```
+$$
+\begin{array}{r l} \text { 故 } k _ {5} / k _ {6} & = \mathrm{e} ^ {(\mathrm{E} \alpha + \mathrm{E} \alpha 3) / \mathrm{RT}} = 3. 1 (2 \text { 分 }) \\ & (\text { 共 } 3 \text { 分 }) \end{array}
+$$
+
 
 ## 知识点映射
 

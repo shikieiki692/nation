@@ -65,7 +65,24 @@ source_file: "2026机构初赛模拟题/07-化英社/春季模拟试题9试题-�
 
 ## 参考答案
 
-⛔ **源池含本题解答（待人工核录入）**：源文件 `初赛模拟9答案.md` 中已按题面指纹定位到本题解答（30 字 / 11 图，自动定位），因其为**手写批注稿 / 讲稿口述**，未自动录入，建议人工核后补入。
+第7题（21分，占 $11\%$ ）Silicon Tether
+7-1-1
+![](images/f237d9e5239a71fbf5b072dfcaf93a1e8656a1da7c273cd97d1e0f012e27b975.jpg)
+![](images/050e0eff803337c56221fba3a1edab479bd0e492f30bf85fe95aa861080eb07e.jpg)
+7-1-2 产物中含顺式并环结构。
+![](images/3403f5236733af0c09d89d858dccbebb97b133e7c19e17a19d889802ee5d5771.jpg)
+![](images/60935d7eba3d8c045e27026ec7eba89d32227a15dd387ec24016036c7cd7aa39.jpg)
+![](images/c264f3cd9e697f3196695975287cf2ab899231f02afba57e40059cfaece29bbf.jpg)
+(2 分)
+![](images/007632922067cc7f521b77a5e91e1aedad64f4f80a5c2bd55c42773eed9211f5.jpg)
+7-2-1 已知 C 中不含硅，画出其结构。
+![](images/2f587be365983f314babb678b5f2b94c6fee613cbce67264b4215cec7ecf9c70.jpg)
+![](images/6dedc6cc43d7b82eacb1ce436e091d347afb7e80c8f4cbfc4ed2d31a6eef53fe.jpg)
+(共2分，各1分)
+![](images/7f1c920957313f3364e84aa808fa1177ff208f1c0d9eebc2e7561dc12aa3becf.jpg)
+![](images/255be922c6f00f8c8a092d934c6eb06a1bca0155054f377c32f89e6a9e02e35b.jpg)
+![](images/91d35000330d955b4f82006a0ff88adfebc92c94c4cb48690b45d3fedcbb8af5.jpg)
+
 
 ## 知识点映射
 

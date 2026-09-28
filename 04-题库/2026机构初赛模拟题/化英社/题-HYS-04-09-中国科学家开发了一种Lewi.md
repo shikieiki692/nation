@@ -75,7 +75,19 @@ source_file: "2026机构初赛模拟题/07-化英社/第40届化英社化学奥�
 
 ## 参考答案
 
-⛔ **源池含本题解答（待人工核录入）**：源文件 `第40届化英社化学奥林匹克（初赛）夏季模拟试题4参考答案.md` 中已按题面指纹定位到本题解答（58 字 / 10 图，自动定位），因其为**手写批注稿 / 讲稿口述**，未自动录入，建议人工核后补入。
+### 第9题 硼自由基化学（19分，占 $12\%$ ）
+![](images/6b0c9eee16d79f6bc3e1ceec025c54a7c389ac3651ec3bb33b8ea3d2dd59e18c.jpg)
+![](images/5fc2854e5dfb1062ad5b404109a82def212df0085091c850c9b1400f3f385eea.jpg)
+![](images/9312708acbbb861ed8a3b009ec96089126c2ddef9db07e320acf73d70184c683.jpg)
+![](images/2050fd1393b5026fc9261c32a9a68aaf53d84c1a05317465391983fc72cfe209.jpg)
+![](images/41554c42ed7864504f8952b186767b9e7c552b361bad91299109445209709fa9.jpg)
+![](images/d38801f4c7373362373ed2093d33172e379ed03474e7a2c2ce8b4b46b0d5c319.jpg)
+![](images/372637cc9e4aedc4ef7e3f2c0a915e41c24ec3c4030a90974b5237c42354c7cd.jpg)
+<table><tr><td colspan="3"><img src="images/62ae3d56b6e6ecacda966b215a83435f84f7e2c8446a6a33cafd6f5aacea9763.jpg"/></td></tr><tr><td colspan="3">9-2-2 根据以上信息,完成如下合成路线。提示:路线中每经过一步反应,产物分子中的氟原子数均比反应物减少1个。</td></tr><tr><td rowspan="3">[IMAGE]</td><td>DMAP-BH3‘BuON=NO’Bu2,6-(CH3)2C6H3SHMeCN/H2O, heatHOCH2C=CH2</td><td>DMAP-BH3‘BuON=NO’Bu2,6-(CH3)2C6H3SHMeCN/H2O, heatPhCH2OCH2</td></tr><tr><td>A</td><td>DMAP-BH3‘BuON=NO’Bu2,6-(CH3)2C6H3SHMeCN/H2O, heatPhCH2OCH2</td></tr><tr><td>B</td><td>DMAP-BH3‘BuON=NO’Bu2,6-(CH3)2C6H3SHMeCN/H2O, heatPhCH2OCH2</td></tr></table>
+![](images/6c5e08695994eec05fe27c9462cf2db517bb5ba11f2ff913637ffe3868992a2f.jpg)
+![](images/6e1a04208f03c2b7e7eba90940f2846a19b6ffd603d43a40e0b187a55a087c4d.jpg)
+加成湍阻
+
 
 ## 知识点映射
 

@@ -61,7 +61,26 @@ ITIES 的构建如下: 水相的背景电解质为 $2.5 \mathrm{mM} \mathrm{KCl}
 
 ## 参考答案
 
-⛔ **源池仅含题面复述**：源文件 `第40届化英社化学奥林匹克（初赛）夏季模拟14参考答案.md` 中含本题题面复述，但无独立解答文字（解答疑以手写图给出），未录入。
+由于最终 $\mathrm{pH}$ 较大，可忽略所有酸性物种电荷守恒： $[\mathrm{K}^{+}] = [\mathrm{Cl}^{-}] + [\mathrm{OH}^{-}] = 8.5\mathrm{mM}$ （1分）$\Delta [\mathrm{K}^{+}] = 6.0\mathrm{mM}$ （1分）$m(\mathrm{KOH}) = 3.4\mathrm{mg}$ （1分）（共3分）
+2-1 本题中，奎尼丁用 B 表示，忽略离子跨相转移。已知：
+• B 的分配系数: $K_{D}=316$
+![](images/14903eb15835772222ea952190fe2b1f0543af050f75d0bc4b0b8790aa0580f2.jpg)
+\- $\mathrm{H}_2\mathrm{B}^{2+}$ 的酸解离常数： $\mathrm{pK}_{\mathrm{a1}} = 4.43$ ， $\mathrm{pK}_{\mathrm{a2}} = 8.66$
+2-1-1 不外加酸碱，计算该体系的水相 pH。
+(1) PI working electrode
+(2) Ag/AgCl reference electrode
+$$
+2 \left[ \mathrm{H} _ {2} \mathrm{B} ^ {2 +} \right] + \left[ \mathrm{HB} ^ {+} \right] + \left[ \mathrm{H} ^ {+} \right] + \left[ \mathrm{K} ^ {+} \right] = \left[ \mathrm{Cl} ^ {-} \right] + \left[ \mathrm{OH} ^ {-} \right]
+$$
+$$
+\left[ \mathrm{H} _ {2} \mathrm{B} ^ {2 +} \right] + \left[ \mathrm{HB} ^ {+} \right] + \left[ \mathrm{B} (w) \right] + \left[ \mathrm{B} (o) \right] = c (\mathrm{B})
+$$
+\- $\mathrm{CO}_{2}$ 的亨利常数: $H = 29.4 \mathrm{atm} / \mathrm{M}$
+\- $\mathrm{CO}_{2}$ 的酸解离常数: $\mathrm{pK}_{21} = 6.35, \mathrm{pK}_{22} = 10.33$
+$$
+\begin{array}{r l} \Delta \eta (\mathrm{CO} _ {2}) & = 0. 0 0 0 4 H ^ {- 1} \cdot \Delta \delta^ {- 1} (\mathrm{CO} _ {2}) \cdot V = 1. 7 2 \times 1 0 ^ {- 6} \mathrm{mol(1分)} \\ W _ {\mathrm{tot}} & = U I r = 2. 3 4 \times 1 0 ^ {- 4} \mathrm{kJ(1分)} \\ W & = W _ {\mathrm{tot}} / \Delta \eta (\mathrm{CO} _ {2}) = 1 3 6 \mathrm{kJ/molCO} _ {2} (1 \text {分}) \\ & (\text {共} 3 \text {分}) \end{array}
+$$
+
 
 ## 知识点映射
 

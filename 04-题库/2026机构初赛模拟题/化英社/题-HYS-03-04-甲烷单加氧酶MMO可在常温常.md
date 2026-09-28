@@ -61,7 +61,40 @@ NOH OH /
 
 ## 参考答案
 
-⛔ **源池含本题解答（待人工核录入）**：源文件 `第40届化英社化学奥林匹克初赛夏季模拟试题3参考答案.md` 中已按题面指纹定位到本题解答（89 字 / 2 图，自动定位），因其为**手写批注稿 / 讲稿口述**，未自动录入，建议人工核后补入。
+第 4 题 甲烷的单加氧氧化（22 分，占 11%）
+![](images/da13efecbea6b204c1b129ec74e21d3f917ce1ea2fe6977d01e1ef6d64df2f56.jpg)
+![](images/2a9e3fe5012074b1ddb6c4d664c13444c0e2a5b5a6dde385d54bf550a3f787df.jpg)
+(2 分)
+<table><tr><td>B: LCu3(μ-O)2+ +7/3</td><td>C: LCu3(μ-O)+ +5/3</td></tr><tr><td colspan="2">(共4分,各1分)</td></tr></table>
+$$
+\mathrm{LCu} _ {3} \mathrm{O} ^ {+} + 2 \mathrm{H} ^ {+} + 2 \mathrm{e} ^ {-} \rightarrow \mathrm{LCu} _ {3} ^ {+} + \mathrm{H} _ {2} \mathrm{O} (2 \text {分})
+$$
+$$
+\begin{array}{r l} & {\mathrm{可吸附气体,促进气体参与反应}} \\ & {\mathrm{降低了非均相电子转移速率,防止络离子直接被阴极还原}} \\ & {\mathrm{(2分,任答1条即可得分)}} \end{array}
+$$
+$$
+\begin{array}{r l}&{\mathrm {CH_ {4} + O_ {2} + 2H^ {+} + 2e^ {-} \rightarrow CH_ {3} OH+ H_ {2} O}}\\&{\qquad \mathrm{FE} = \frac {2 n F}{J A t} \times 1 0 0 \% = 2. 3 \% (\text {共} 3 \text {分})}\end{array}
+$$
+$$
+\Gamma = \frac {Q}{3 F A} = 1 7 \mathrm{nmol} \cdot \mathrm{cm} ^ {- 2} (2 \text {分})
+$$
+$$
+\mathrm{TOF} _ {\mathrm{MeOH}} = \frac {n}{\Gamma A} = 1 4. 6 \mathrm{min} ^ {- 1} (\text {共} 4 \text {分})
+$$
+(2分)
+$$
+\begin{array}{r l}&{\mathrm {LCu_ {3} (\mu - O) _ {2} ^ {+} + 4 H ^ {+} + 4 e ^ {-} \rightarrow LCu_ {3} ^ {+} + 2 H _ {2} O (1 \text {   分   })}}\\&{\text {或: } \quad \mathrm {LCu_ {3} (\mu - O) _ {2} ^ {+} + 2 H ^ {+} + 2 e ^ {-} \rightarrow LCu_ {3} O^ {+} + 2 H _ {2} O}}\end{array}
+$$
+$$
+\mathrm{TOFORR} = \frac {J _ {\mathrm{c}}}{4 F \Gamma} = 6 0. 6 \mathrm{min} ^ {- 1} (2 \text {分})
+$$
+$$
+\mathrm{若取} \Gamma = 2 0 \mathrm{nmol} \cdot \mathrm{cm} ^ {- 2}, \mathrm{则} \mathrm{TOF} _ {\mathrm{ORR}} = 5 1. 3 \mathrm{min} ^ {- 1}
+$$
+$$
+\mathrm{可以适当降低溶液中的氧含量(1分)}
+$$
+
 
 ## 知识点映射
 

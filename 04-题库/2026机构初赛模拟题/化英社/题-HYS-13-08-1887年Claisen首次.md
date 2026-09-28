@@ -79,7 +79,25 @@ source_file: "2026机构初赛模拟题/07-化英社/第40届化英社化学奥�
 
 ## 参考答案
 
-⛔ **源池含本题解答（待人工核录入）**：源文件 `第40届化英社化学奥林匹克初赛夏季初赛模拟13参考答案_1.md` 中已按题面指纹定位到本题解答（393 字 / 12 图，自动定位），因其为**手写批注稿 / 讲稿口述**，未自动录入，建议人工核后补入。
+### 第8题 醇醛酯的互相转化（20分，占 $12\%$ ）
+![](images/1d223283ab761bab77b5bd4d088fe65b70c59ccc98ba0c5413a1dcc4a7746cfa.jpg)
+<table><tr><td>8-1(思考题,不计入总分)列举出上述反应体系中可能发生的常见副反应(至少两个)。羟醛缩合,Cannizzaro 反应,Meenvein-Ponndorf-Verley 还原反应,Oppenauer 氧化反应Tishchenko 反应的一种变体是 aldol-Tishchenko 反应:</td></tr><tr><td><img src="images/a12b27a4a32db9a67457f615985aa8e3440e0e87232f10f7ca705fef74c15dd8.jpg"/></td></tr><tr><td>8-2 根据你对以上反应的理解,画出以下反应所经历的关键中间体,注意立体化学,其中 Sm 金属部分可用[Sm]简化表示。</td></tr><tr><td><img src="images/cd69be1aec651e29e9146cf44ebf21e64210817dd13028c14daf0589a48de768.jpg"/></td></tr><tr><td>8-3 该拓展反应常应用于构造多醇骨架:</td></tr><tr><td><img src="images/cd3ed4f7ac63bd2c9563f44cae3340f1fcd62ab6ed465a0bf3198edca084c2ca.jpg"/></td></tr><tr><td>8-3-1 该反应中最少要消耗多少当量的甲醛(不考虑其他副反应)。</td></tr><tr><td>2 当量(1 当量用于羟醛缩合+1 当量用于 Tishchenko 反应)(1 分)</td></tr><tr><td>8-3-2 画出反应所经历的关键中间体,作答时可按方框中的简化方式。</td></tr><tr><td><img src="images/b578119dae8bca1bbe7e2db6bd843471014837c7218c94976b3f34790b409be2.jpg"/></td></tr><tr><td>8-4 研究团队尝试利用底物 D 来探究不同条件下其反应性,其结构如下所示。</td></tr></table>
+![](images/063362c54168854810219eb6773c943d29cea4903ddca6cc0a15f2e48d94044b.jpg)
+![](images/fe1b916dffa54b43ab2cac3d53c4aee38504263db87935c2a779ac65fe91ae44.jpg)
+$$
+\mathrm{Y} \xleftarrow [ \mathrm{C} _ {6} \mathrm{H} _ {6} ]{\triangle} [ \mathrm{X} ] \xleftarrow {\mathrm{Yb(OTf)} _ {3} , \text {I - PrOH, 70°C}} \mathrm{D} \xrightarrow {\mathrm{Yb(OTf)} _ {3} , \text {MeOH, 70°C}} \mathrm{E}
+$$
+8-4-1 试画出 $\mathbf{E}$ 的结构。
+![](images/4393f448d6cb35a2e8a53998fdcbeaaf8afaf6de471b2655a647cc559cc78aea.jpg)
+(1 分, 其他答案不得分)
+![](images/12d4df2b7cd55e737c1e303b0bfd416d95a4fa198437d777f77dc2f53a78fe91.jpg)
+甲醇位阻小，优先与醛基形成缩醛，而非参与 Tishchenko 氢迁移；叔丁醇位阻极大，既无法作为氢供体参与 Tishchenko 反应，也无法形成活性中间体；异丙醇位阻适中，能促进 Tishchenko 反应生成羟基酯；非极性溶剂苯能有效促进分子内羟基与酯基的关环反应，使内酯化完全进行，同时保留了立体化学。
+![](images/1dc5a65e458fcf7f22e4c609193d85a935d0074e79a876a5fea435b0e09f0138.jpg)
+8-5-1 画出 $\mathbf{F}$ 的结构。
+![](images/ef5cd9eec5be66b273b64b873ce388e97f60fe7eee35e5e05dac9b7f8883e6af.jpg)
+(共 3 分, 所有基团为于平伏键 1 分, Li $^{+}$ 的螯合作用 1 分, 使用亚砜氧原子或氮原子螯合均可, 亚砜基团的朝向作用 1 分)
+![](images/6f37bde044e8b0585f3ae44177f735fbf69d04aa4275598abc0954a73a20ecac.jpg)
+
 
 ## 知识点映射
 
