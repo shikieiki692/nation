@@ -53,21 +53,11 @@ $$
 
 ## 参考答案
 
-
-⛔ 答案需人工录入（源为**手写解析稿**，OCR 无法识别手写体；下方 OCR 原文实为**题干复读，非答案**）
-
-<details>
-<summary>OCR 原文（仅留痕，非答案）</summary>
-
 ![](images/9623f609f84ac3622794a80f5a6158fd490394eaded1bdcba67ae097d0a21b8c.jpg)
-
 ![](images/d88505a75962deaac56c596feb7a00891a3243e6321743c506eb47e815dcbb78.jpg)
-
 ![](images/b1d6364351d24712cabb7337511ab23630f0115531b10519205d17d7852d4895.jpg)
-
 ![](images/13d4f19ccaed56ecd30da2f5e80ccbaaca4d25a6a638da4c162015118f7b4595.jpg)
 
-</details>
 
 ## 知识点映射
 
