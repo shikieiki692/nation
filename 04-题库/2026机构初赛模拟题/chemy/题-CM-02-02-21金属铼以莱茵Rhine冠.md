@@ -46,7 +46,7 @@ $$
 \mathrm{A} \xrightarrow [ \mathrm{THF} , 23 ^ {\circ} \mathrm{C} , 15 \mathrm{min} ]{1 \text {eq.} [ \mathrm{Et} _ {3} \mathrm{NH} ] [ \mathrm{BPh} _ {4} ]} \mathrm{C}
 $$
 
-2-1-2 化合物 A 中 Re 的价态: +12-2 科研人员将 A 的化学性质进行进一步的探索，他们偶然发现可以得到一种具有多根金属-金属键的化合物 D。元素分析表明，化合物 D 中各元素的质量分数为 C 55.59; H 6.32; N 3.82 (%), 反应中同时还有化合物 B 产生。
+2-2 科研人员将 A 的化学性质进行进一步的探索，他们偶然发现可以得到一种具有多根金属-金属键的化合物 D。元素分析表明，化合物 D 中各元素的质量分数为 C 55.59; H 6.32; N 3.82 (%), 反应中同时还有化合物 B 产生。
 
 $$
 \mathrm{A} \xrightarrow [ \mathrm{THF} , 23 ^ {\circ} \mathrm{C} , 30 \mathrm{min} ]{0.5 \mathrm{eq.ZnCl} _ {2}} \mathrm{D}
