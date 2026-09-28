@@ -75,7 +75,47 @@ COOH
 
 ## 参考答案
 
-⛔ **源答案文件未含该题号**：本卷答案文件存在，但按题号定位未命中（可能为合并排版/缺页），需人工核。
+（7分）(5.2/7)
+![](images/9d6db2fdb8dc17c5eaeb39e7d6be88ffc0f7d1fc2e5d53ac43fd61e9cdabfcad.jpg)
+COOH
+(a)
+HOOC
+∵ 分子内 H 键，
+(b)
+![](images/332f1a450afe77c4242005a127cdcadfd62c119d0847f9452cc8fb33c1da4c61.jpg)
+马香比
+![](images/2ae0b5de480105ac10e083218f475c6f59e4febb6027161e5382d8a924828adb.jpg)
+(c)
+OH
+![](images/639d517a7cf8fde32dea39b406afb51f9b70f6840f433c928855f4f3b7925ac2.jpg)
+(d)
+![](images/3b9b36e45ef12366a5e911cb1a785c767df908a3786816a7741f46f280f31c70.jpg)
+![](images/b0adfe9c33481e4a18899ddcf55276e7068eb96ac1bb347fa25ce100d73b16bf.jpg)
+phs ⊙ H pho ⊙ 未知 (对子半位效应) 同相期看伸长
+同族看的半位.
+$-NH_{2}$
+(e)
+![](images/02e5a0002fd8565d855bb0da13df946677e117cedb1c5efe7936570eb5e0a7c5.jpg)
+(f)
+![](images/e4cee1dd8e72037835b7afd1d54b1b54eaa959b9b27afc3c2f801b075bbe7274.jpg)
+COOH
+(g)
+![](images/237c74c645d66b9b7ac7281d537cee7a9ea92690c6d100a56c1b25f30acf8a1b.jpg)
+![](images/879868608f64f9c7079b80d3f0718331031497da4cde1a4f7377bc3adf1760db.jpg)
+比较中性有机碳的酸性 (PKa).
+短H+后，燃烧变浑浊体积。
+是考点其 CB 负荷子 CQ Q 快收
+②越程$\vec{L}$=> pka小 20143
+② 状不移 $[L=2)PKa$ 大. 顾性强子.
+比较中小有机械的碱性（ $10^{6}$ ）。
+是考点其CA正高2的④永垂化
+④越短l₁ => pk与越小，成性强.
+④ $\mathrm{f}$ 不稳压 $= 2\mathrm{pk}_{\mathrm{b}}$ 越大，碱性泵
+COOH
+诱导效应
+![](images/5794fe347f8bd3251dcc865814be1797238faa20ff4633696e8420d48e65c895.jpg)
+##
+
 
 ## 知识点映射
 

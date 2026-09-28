@@ -55,7 +55,26 @@ Zn/AcOH
 
 ## 参考答案
 
-⛔ 答案缺失（源答案文件未含该题号，或为手写稿未识别；需人工补）
+6-2-2-3 最后一步 $\mathrm{Zn / AcOH}$ 实现了一步类伯奇还原，对第二步得到的芳环进行单电子还原-质子化-单电子还原-分子内消除后得到C-N键偶联产物，同时产生的新的缺电子芳环继续被还原得到化学式为 $\mathrm{C_6H_4ON_4}$ 的没有芳香性的伴随产物。画出第二步反应得到的中间产物以及该中间产物发生类伯奇还原得到C-N键偶联产物的关键中间体和伴随产物。
+$$
+\begin{array}{c} \text {①} \\ \text {②} \end{array}
+$$
+$$
+\begin{array}{c} \text {   (各1分，共3分) } \\ \text {   IZ   CN   CN   CN   Cl   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   CN   Cl] } \end{array}
+$$
+$$
+\mathrm{O} _ {2}
+$$
+![](images/3d7e2eb07c36575efeff66a11795f894c60e5e257ffc5dbadfc53522c317235c.jpg)
+## 第40届XeChem初赛模拟试题（七）答案第13页共17页
+中，直接的光化学步骤较为罕见。7-1含对硝基苯基的四烯化合物在阳光照射下会发生双键（E,E,E,Z）构型向（E,Z,Z,Z）构型的转化得到中间产物A，A经历热催化的串联关环反应经过中间体B得到并环产物C，对C进行光照纯化，C将发生分解得到对硝基苯基取代产物D和小分子芳香化合物E。
+![](images/c851184dd37882b19f3dfe4f33208ffdde634b1c2d5d443e95a648a0fbc314cb.jpg)
+![](images/033c3069dfd82d4109a2ccb5ef263e340560ec76ccf83408283afc3f3c4c5e6e.jpg)
+4CzIPN (2 mol%) $K_{3}PO_{4}$ (2.0 equiv.)
+![](images/91c0083b3239b4b170847418dad7b5b9569e4f5d748bbe65f60b189b5adb5d6c.jpg)
+![](images/6ad97deb778ec256fe9f1760a0be99423296c89ca0396fa4216d7d8555df230b.jpg)
+6-3 通过自由基过程实现的 Smiles 重排可以实现脱 $\mathrm{SO}_2$ 从而定向改变分子的结构。
+
 
 ## 知识点映射
 

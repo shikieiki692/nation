@@ -43,7 +43,8 @@ Erick M. Carreira 等人运用以下新的简洁全合成路线，以 6% 产率�
 
 ## 参考答案
 
-⛔ **源答案文件未含该题号**：本卷答案文件存在，但按题号定位未命中（可能为合并排版/缺页），需人工核。
+Euphorikanin A的简洁全合成(14分,占9%)</td></tr><tr><td rowspan="3">8-1共6分</td><td colspan="2"><img src="images/cf8f3dfd93d257bf9ba0e4b01cfad180e5a45eb9f7ae35bc470eb97fb20aaaac.jpg"/></td><td><img src="images/014f9df561bbfd968f5577748dde3d10103e789794fd384977818e9566b5fae5.jpg"/></td></tr><tr><td colspan="2">A</td><td>B</td></tr><tr><td colspan="3">各3分,立体构型有误仅得2分</td></tr><tr><td rowspan="2">8-2共6分</td><td><img src="images/6807b84ddc920d1d0120158f3af36ba96e910ef596fc19124bf9ac9a00d2b754.jpg"/></td><td><img src="images/1032a1ffb2e93ef5f47b0087a30ddf8265ed823fa25aa6ea18ba640bfa9abd31.jpg"/></td><td><img src="images/bb2931b649346e4635b0813b94c437bd6bd04a068879a50f30cc59a007d3e139.jpg"/></td></tr><tr><td colspan="3">各2分,立体构型有误仅得1分</td></tr><tr><td>8-3共2分</td><td colspan="3">因为Chugaev反应是顺式消除机理,若使用1和2的对映体进行反应,黄原酸酯的顺位是OTES,无法消除。(2分)</td></tr></table>
+
 
 ## 知识点映射
 
