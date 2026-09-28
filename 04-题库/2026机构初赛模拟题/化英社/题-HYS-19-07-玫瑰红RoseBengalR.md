@@ -1,0 +1,69 @@
+---
+title: "题-HYS-19-07-玫瑰红RoseBengalR"
+aliases: ["题-HYS-19-07"]
+type: 题目
+fidelity: 原书逐字
+difficulty: 4
+teaching_level: 竞赛
+source: "化英社 化英社-夏季有机专题2 第 7 题"
+module: "2026机构初赛模拟题"
+source_subject: 有机化学
+syllabus_codes: []
+knowledge_points: []
+tags: [化竞, 题目, 初赛, 机构模拟题, 化英社]
+updated: 2026-09-28
+status: 已填充
+exam_stage: 初赛
+subject_module: 有机化学
+pack: 综合模拟卷
+submodule: 化英社
+source_category: 竞赛导向·竞赛教辅
+source_grade: A
+source_norm: "化英社-夏季有机专题2"
+source_file: "2026机构初赛模拟题/07-化英社/第40届化英社化学奥林匹克竞赛（初赛）夏季有机专题2参考答案.md"
+---
+
+# 题-HYS-19-07-玫瑰红RoseBengalR
+
+## 题目
+
+玫瑰红（Rose Bengal, RB）是一种廉价无毒的有机染料光敏剂。2018年，Xin等人首次报道了RB催化的可见光驱动烯烃直接C-H胺化反应，实现了唑类与缺电子烯烃的交叉脱氢偶联，构建了一系列N-乙烯基唑化合物。请仔细阅读以下实验信息并回答问题。
+
+底物在 RB 催化下、12W 紧凑型荧光灯（CFL）照射下、丙酮中、空气氛围下室温反应 24 小时，得到产物 3a，分离产率 79%。
+
+![](images/0f42b5994662d9a9bb9f4c244c448128413c6d183e1fc26d85d29b42ae06dc55.jpg)
+
+为探究反应机理，作者进行了下列控制实验（以 3a 的产率为指标）：
+
+① 无 RB 和无可见光的时候不发生反应，Ar 气氛下产率仅 8%;
+
+② 加入 2 equiv 半胱氨酸，产率为 77%; （提示：半胱氨酸一般用于捕获单线态氧）
+
+③ 加入 2 equiv TEMPO，不反应；
+
+④ 加入 BHT，产率大幅降低，HRMS 检测到 $[M+Na^{+}]$ ：m/z = 360.2047；
+
+⑤ 标准条件下加入 TEMPO，检测到 $[\mathrm{M} + \mathrm{H}^{+}]$ ： $m / z = 429.2398$ 。此外，光谱与电化学实验表明：
+
+(i) 1a 和 2 在可见光区无吸收，RB 在 $\lambda_{\max} = 563 \mathrm{~nm}$ 处有强吸收；
+
+(ii) Stern-Volmer 荧光猝灭实验: RB 的荧光随 1a 和 2 浓度的增加而减弱;
+
+(iii) 循环伏安(CV)表明: 1a 的 $E_{1/2} = +0.79 \mathrm{~V} \text{ vs SCE}$ , RB 激发态 $E^{*}(\mathrm{RB}^{*} / \mathrm{RB}^{\bullet -}) = +0.99 \mathrm{~V} \text{ vs SCE}$ (在 $\mathrm{CH}_3\mathrm{CN}$ 中);
+
+(iv) 作者尝试用有机碱催化 1a 与 2 的 Michael 加成——未能得到产物。
+
+7-1 实验数据分析:
+7-1-1 根据实验①，分别说明可见光、RB 和 $O_{2}$ 在反应中的作用。
+
+
+## 参考答案
+
+<table><tr><td>可见光的作用:提供能量将RB从基态激发到激发态(RB+hv→RB*) (1分) RB的作用:光催化剂(1分) O2的作用:氧化剂(1分) (共3分)</td></tr><tr><td>7-1-2 画出实验④和实验⑤生成的两种产物的结构,已知实验④捕获产物保留有酚的结构。</td></tr><tr><td><img src="images/b2327cf0508117cec592bd7be2c9efe87a2d8506def0cd249111b36f3e2da3ba.jpg"/> <img src="images/05f5dbe9c39265962c426151c26ce92c54c45f891c8fcadf74d050ea895a37f2.jpg"/> (共4分,各2分)</td></tr><tr><td>7-2 根据上述所有实验证据,写出该反应的完整催化循环机理。</td></tr><tr><td><img src="images/f8c949c92e1cc036dbd08d4249ee54e0fb70317b3951773373de09012307917b.jpg"/></td></tr><tr><td>7-3 催化体系的运用</td></tr><tr><td><img src="images/333b0acc8dad5b14f8c414c0ba127d572895adccd31f2ed875b8279de4f169c8.jpg"/></td></tr><tr><td>2024年Patel等人将RB光催化体系应用于Biginelli反应。该反应同样使用RB,实验条件为RB(1mol%)/蓝光LED/EtOH/空气/室温。该反应仅需10分钟即可完成。画出反应经历的关键中间体。提示:乙酰乙酸酯先被单电子氧化。</td></tr><tr><td><img src="images/fcb1b94c85d8ba1f8e5cc2c9ee3bff77bf8719689ddd92620f7f8039dbb1a330.jpg"/> (共3分,合适的去质子化和质子化形式亦可)<img src="images/693cfb9c9957cb291905495e8fdacb1fee8d08899594ca5e126885f4a7f78a1b.jpg"/> (2分)</td></tr></table>
+
+
+## 知识点映射
+
+- （待人工校准）
+
+> ⚠️ **自动拆卡标记**：本卡由 2026-09-28 覆盖核查补提炼（源为**题面＋答案合并文件**）；题面/答案边界为自动切分，`subject_module`/`difficulty` 为关键词粗判，答案数值未人工复核。
