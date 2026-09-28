@@ -19,6 +19,7 @@ pack: 综合模拟卷
 submodule: chemy
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
+source_tier: 2
 source_norm: "chemy-第三十九届Chemy化学奥林匹克竞赛联赛5"
 source_file: "2026机构初赛模拟题/10-chemy/第三十九届Chemy化学奥林匹克竞赛联赛试题5.md"
 ---

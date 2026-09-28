@@ -19,6 +19,7 @@ updated: 2026-09-22
 status: 待审核
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
+source_tier: 4
 ---
 
 # HChO方-08 硫代硫酸钠与氯化亚锡的归中（3 分）

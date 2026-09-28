@@ -23,6 +23,7 @@ status: 已填充
 used_in: ["[[化学原理阶段测试卷II]]", "[[第一轮原理·7-沉淀溶解平衡（教师版）]]"]
 source_category: 竞赛导向·竞赛教材
 source_grade: A
+source_tier: 4
 source_norm: "高中化学竞赛教程第二分册"
 ---
 # 题-888-二分册-L3实15-Cu置换法验证CH3COOAg的Ksp

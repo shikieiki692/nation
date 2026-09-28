@@ -19,6 +19,7 @@ pack: 综合模拟卷
 submodule: 汇智
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
+source_tier: 2
 source_norm: "汇智-有机专题卷2"
 source_file: "2026机构初赛模拟题/08-汇智/汇智起航2026年寒假有机化学专题初赛模拟卷2及答案.md"
 ---

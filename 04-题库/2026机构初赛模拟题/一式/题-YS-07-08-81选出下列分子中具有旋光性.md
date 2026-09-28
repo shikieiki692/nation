@@ -19,6 +19,7 @@ pack: 综合模拟卷
 submodule: 一式
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
+source_tier: 2
 source_norm: "一式-一式07"
 source_file: "2026机构初赛模拟题/09-一式/一式07.md"
 ---

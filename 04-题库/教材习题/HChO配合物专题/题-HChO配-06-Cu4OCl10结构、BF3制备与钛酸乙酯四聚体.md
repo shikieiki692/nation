@@ -19,6 +19,7 @@ updated: 2026-09-21
 status: 待审核
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
+source_tier: 4
 
 ---
 
@@ -30,7 +31,7 @@ source_grade: A
 
 **8-1** 化学式为 $[\mathrm{Cu_4OCl_{10}}]^{4-}$ 的配合物的结构可看作一个铜原子构成的四面体环绕着一个中心氧原子，而氯原子有桥基氯原子和端位氯原子两种化学环境。画出该络合物的结构示意图。
 
-**8-2** 制备三氟化硼的步骤如下图所示：
+**8-2** 制备三氟化硼的步骤如下：
 
 $$\mathrm{X \xrightarrow{HF} Y \xrightarrow{浓H_2SO_4} BF_3 + NaHSO_4}$$
 

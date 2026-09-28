@@ -22,6 +22,7 @@ cross_references: ["[[题-415-化学能力测试-Ch7B-10-金属硫化物溶解�
 status: 已填充
 source_category: 竞赛导向·竞赛教材
 source_grade: A
+source_tier: 4
 used_in: ["[[二分册专项卷VIII]]", "[[第一轮原理·7-沉淀溶解平衡（教师版）]]"]
 source_norm: "高中化学竞赛教程第二分册"
 ---

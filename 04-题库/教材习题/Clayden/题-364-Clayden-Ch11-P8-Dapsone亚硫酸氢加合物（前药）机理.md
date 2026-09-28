@@ -21,7 +21,14 @@ subject_module: 有机化学
 pack: 模块习题集
 source_category: 教材课后习题
 source_grade: C
+source_tier: 5
 source_norm: "Clayden 有机化学"
+answer_status: 完整
+consumption_status: 可用
+question_image_status: 已核验匹配
+image_audit_status: 已核验匹配
+replacement_status: 无替代
+withdrawn_checked: false
 ---
 # 题-364: Dapsone亚硫酸氢加合物（前药）机理
 
@@ -31,7 +38,7 @@ source_norm: "Clayden 有机化学"
 
 **【原文】**In chapter 6 we described how the anti-leprosy drug dapsone could be made soluble by the formation of a 'bisulfite adduct'. Now that you know about the reactions described in chapter 11, you should be able to draw a mechanism for this reaction. The adduct is described as a 'prodrug', meaning that it is not the drug but gives rise to the drug by chemistry within the body. How might this happen?
 
-![[428ea5a97d5d4306d96d6a543614d5226f7b592e8a49d3c0f916a485e601c92b.jpg]]
+![[1af86c62a92cc68f2812da3fad653257554972bf289a775fad4349449be298de.jpg]]
 
 ## 参考答案
 

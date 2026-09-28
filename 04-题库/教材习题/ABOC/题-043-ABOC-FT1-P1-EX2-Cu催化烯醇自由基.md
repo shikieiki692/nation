@@ -10,7 +10,7 @@ teaching_level: 竞赛
 syllabus_codes: ["40", "46"]
 knowledge_points: ["[[烯醇]]", "[[自由基]]", "[[铜催化]]"]
 tags: [化竞, ABOC, 有机化学]
-updated: 2026-05-10
+updated: 2026-09-24
 source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第11章-解题训练]]"
 aliases: [ABOC-FT1-P1-EX2]
 source: ABOC 第11章 机理书写题（ARX's Basic Organic Chemistry 第3版）
@@ -20,15 +20,16 @@ subject_module: 有机化学
 pack: 模块习题集
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_tier: 4
 source_norm: "ABOC 有机化学"
 ---
 # 题-043：Cu 催化烯醇自由基
 
 ## 题目
 
-本题题干为反应式图片，见原始 OCR 文件。
+本题题干为下列反应式图片：
 
-图片参考：ABOC202505_200-397_images/4f2c3b4931468abc348a1aa25b717b3c70e1107035f46952a2eab8fea2238195.jpg
+![[4f2c3b4931468abc348a1aa25b717b3c70e1107035f46952a2eab8fea2238195.jpg]]
 
 ## 参考答案
 

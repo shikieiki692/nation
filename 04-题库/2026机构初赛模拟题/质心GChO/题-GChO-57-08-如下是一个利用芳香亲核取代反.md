@@ -19,6 +19,7 @@ pack: 综合模拟卷
 submodule: 质心GChO
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
+source_tier: 2
 source_norm: "质心GChO-ZCHEM-GChO57"
 source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO57试题.md"
 ---

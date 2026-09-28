@@ -19,6 +19,7 @@ pack: 综合模拟卷
 submodule: 化英社
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
+source_tier: 2
 source_norm: "化英社-初赛模拟7已优化"
 source_file: "2026机构初赛模拟题/07-化英社/初赛模拟7试卷已优化.md"
 ---

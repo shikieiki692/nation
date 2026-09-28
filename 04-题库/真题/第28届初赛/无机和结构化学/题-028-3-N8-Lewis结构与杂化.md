@@ -34,6 +34,7 @@ pack: 模块习题集
 year: 2014
 source_category: 竞赛导向·真题
 source_grade: A
+source_tier: 3
 source_norm: "第28届初赛"
 used_in: "[[第一轮结构·3-分子结构（教师版）]]"
 ---

@@ -19,6 +19,7 @@ updated: 2026-09-22
 status: 待审核
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
+source_tier: 4
 ---
 # HChO方-11 亚硝酰正离子的 Lewis 酸性与无水硝酸铁制备（3 分）
 

@@ -11,7 +11,7 @@ teaching_level: 拓展
 syllabus_codes: ["21"]
 knowledge_points: ["[[羧酸衍生物]]"]
 tags: [化竞, Clayden, 有机化学, 有机化学]
-updated: 2026-07-25
+updated: 2026-09-25
 aliases: [Clayden-Ch10-P8]
 source: Clayden Organic Chemistry 2nd Ed. Chapter 10 Problem 8
 cross_references: ["[[题-337-Clayden-Ch7-P2-复杂化合物中共轭体系范围]]", "[[题-369-Clayden-Ch12-P2-三阶酮水解机理推导]]", "[[题-368-Clayden-Ch12-P1-酯取代中间体两个碳正离子稳定性]]", "[[题-336-Clayden-Ch7-P1-共轭判断和弯曲箭头表示]]"]
@@ -21,7 +21,15 @@ subject_module: 有机化学
 pack: 模块习题集
 source_category: 教材课后习题
 source_grade: C
+source_tier: 5
 source_norm: "Clayden 有机化学"
+answer_status: 完整
+consumption_status: 可用
+question_image_status: 已核验匹配
+image_audit_status: 已核验匹配
+answer_image_audit_status: 已核验匹配
+replacement_status: 无替代
+withdrawn_checked: false
 ---
 # 题-352: 酸酐LiAlH4还原vsGrignard加成选择性
 
@@ -37,7 +45,7 @@ source_norm: "Clayden 有机化学"
 
 **Answer (English)**: One of the carbonyl groups of the anhydride must be attacked by $LiAlH_{4}$ and we need to follow that reaction through to see what happens next. The first addition of $AlH_{4}^{-}$ produces a tetrahedral intermediate that decomposes with the loss of the only possible leaving group, the carboxylate ion, to give an aldehyde. That too is quickly reduced by $AlH_{4}^{-}$ to give the hydroxy-acid as its anion, which is resistant to further reduction. In the acidic aqueous work-up, excess $LiAlH_{4}$ is instantly destroyed and the hydroxy-acid cyclizes to the lactone. The fact that the lactone is not formed under the reaction conditions is important: if it were, then it too would be reduced by the $LiAlH_{4}$.
 
-![[7d45347cad1979c1d6a4e582dc93b34eb1af637951d8ca0ff99e37ba406a556f.jpg]]
+![[e3e84bd56a7d352d4dbc48f6658327a501e3a2dcfa9dacc11428d9f7aa1a7531.jpg]]
 
 The second reaction starts similarly with the Grignard reagent adding to the ester carbonyl group and the tetrahedral intermediate losing the only possible leaving group. Again, a reactive carbonyl compound is produced: a ketone that is more electrophilic than the ester, so it adds the Grignard reagent even faster. Work-up in aqueous acid gives the diol.
 
@@ -83,8 +91,3 @@ The second reaction starts similarly with the Grignard reagent adding to the est
 | 认为LiAlH₄会还原羧酸根负离子 | 没有理解羧酸根的稳定性 | 羧酸根负离子不被LiAlH₄还原 | 为什么羧酸根负离子对LiAlH₄是惰性的？ |
 | 认为Grignard只加成一次 | 没有考虑到酮比酯更活泼 | 酮比酯更活泼，会继续与Grignard反应 | 如何控制Grignard只加成一次？ |
 | 忽略内酯的形成时机 | 认为内酯在反应中就形成了 | 内酯在酸性后处理时才形成，反应中不会形成 | 为什么内酯在反应中不会形成？ |
-
-## 图片资源
-- 题目图片：[[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/9dbf6bb6e38ebad729b933849e3293886151257d068f3a92386decc68ea1b1ec.jpg]]
-- 答案图片1：[[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/7d45347cad1979c1d6a4e582dc93b34eb1af637951d8ca0ff99e37ba406a556f.jpg]]
-- 答案图片2：[[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/37107a39b8b6b062464f2a2e310d96c59823404f0c37b3a37861e3bb593ca397.jpg]]

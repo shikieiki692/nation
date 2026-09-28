@@ -19,6 +19,7 @@ pack: 综合模拟卷
 submodule: 化英社
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
+source_tier: 2
 source_norm: "化英社-第40届化英社化学奥林匹克初赛夏季模拟4"
 source_file: "2026机构初赛模拟题/07-化英社/第40届化英社化学奥林匹克初赛夏季模拟试题4.md"
 ---

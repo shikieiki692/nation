@@ -11,7 +11,7 @@ teaching_level: 竞赛
 syllabus_codes: ["21"]
 knowledge_points: ["[[有机反应机理]]"]
 tags: [化竞, Clayden, 有机化学]
-updated: 2026-07-25
+updated: 2026-09-25
 aliases: [Clayden-Ch12-P2]
 source: Clayden Organic Chemistry 2nd Ed. Chapter 12 Problem 2
 cross_references: ["[[题-336-Clayden-Ch7-P1-共轭判断和弯曲箭头表示]]", "[[题-337-Clayden-Ch7-P2-复杂化合物中共轭体系范围]]", "[[题-346-Clayden-Ch10-P2-酯化酸催化vs碱不反应分析]]", "[[题-345-Clayden-Ch10-P1-Phenaglycodol合成试剂选择]]"]
@@ -22,7 +22,15 @@ pack: 模块习题集
 used_in: ["[[有机化学阶段测试卷]]", "[[04-题库/有机化学阶段测试卷]]"]
 source_category: 教材课后习题
 source_grade: C
+source_tier: 5
 source_norm: "Clayden 有机化学"
+answer_status: 完整
+answer_image_audit_status: 已核验匹配
+consumption_status: 可用
+question_image_status: 已核验匹配
+image_audit_status: 已核验匹配
+replacement_status: 无替代
+withdrawn_checked: false
 ---
 # 题-369: 三阶酮水解机理推导
 

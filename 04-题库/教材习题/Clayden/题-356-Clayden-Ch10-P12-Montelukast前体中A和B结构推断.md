@@ -10,7 +10,7 @@ teaching_level: 拓展
 syllabus_codes: ["21"]
 knowledge_points: ["[[羧酸衍生物]]"]
 tags: [化竞, Clayden, 有机化学, 有机化学]
-updated: 2026-07-25
+updated: 2026-09-24
 aliases: [Clayden-Ch10-P12]
 source: Clayden Organic Chemistry 2nd Ed. Chapter 10 Problem 12
 cross_references: ["[[题-369-Clayden-Ch12-P2-三阶酮水解机理推导]]", "[[题-368-Clayden-Ch12-P1-酯取代中间体两个碳正离子稳定性]]", "[[题-336-Clayden-Ch7-P1-共轭判断和弯曲箭头表示]]", "[[题-337-Clayden-Ch7-P2-复杂化合物中共轭体系范围]]"]
@@ -20,6 +20,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 教材课后习题
 source_grade: C
+source_tier: 5
 source_norm: "Clayden 有机化学"
 ---
 # 题-356: Montelukast前体中A和B结构推断
@@ -77,7 +78,3 @@ Alcohols react with acid chlorides to form esters, so again we have the choice b
 | 认为LiAlH₄只还原一个酯 | 没有理解LiAlH₄的强还原性 | LiAlH₄会还原所有可还原的酯基 | 如何控制LiAlH₄只还原一个酯？ |
 | 忽略IR光谱证据 | 没有考虑3600和1700 cm⁻¹峰的意义 | 3600 cm⁻¹表明醇，1700 cm⁻¹表明羰基 | 如何用IR区分醇和酯？ |
 | 混淆单酯和双酯的质谱 | 没有正确计算分子量 | 单酯和双酯的分子量不同，质谱可以区分 | 如何用质谱判断酰化程度？ |
-
-## 图片资源
-- 题目图片：[[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/7d9ddaf303faf96d8215a7d19f8499f8f37013ab4762954024d2c8463c1bb233.jpg]]
-- 答案图片：[[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/80a8de3db012bd8f623b3504aaeb6c02be9d63a27f14080288764b3b974c469b.jpg]]

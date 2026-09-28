@@ -26,6 +26,7 @@ pack: 综合模拟卷
 year: 2011
 source_category: 竞赛导向·真题
 source_grade: A
+source_tier: 3
 used_in: "[[综合模拟卷VI]]"
 source_norm: "第25届决赛"
 ---

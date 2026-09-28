@@ -19,6 +19,7 @@ pack: 综合模拟卷
 submodule: XeChem
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
+source_tier: 2
 source_norm: "XeChem-13"
 source_file: "2026机构初赛模拟题/03-XeChem/（已压缩）PDF合并_1-199.md"
 ---

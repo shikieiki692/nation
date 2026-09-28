@@ -11,16 +11,19 @@ teaching_level: 拓展
 syllabus_codes: ["3.2"]
 knowledge_points: ["[[SN1反应]]", "[[SN2反应]]"]
 tags: [化竞, Clayden, 有机化学]
-updated: 2026-07-25
+updated: 2026-09-24
 aliases: [Clayden-Ch15-P10]
 source: Clayden Organic Chemistry 2nd Ed. Chapter 15 Problem 10
 cross_references: ["[[题-299-Clayden-Ch15-P1-SN1与SN2机理判断]]", "[[题-301-Clayden-Ch15-P3-SN1与SN2微妙选择]]"]
 module: 有机化学
 status: 已填充
+consumption_status: 隔离
+replacement_status: 无替代
 subject_module: 有机化学
 pack: 模块习题集
 source_category: 教材课后习题
 source_grade: C
+source_tier: 5
 source_norm: "Clayden 有机化学"
 ---
 # 题-308: 四个反应SN1与SN2判断（含环氧化物）

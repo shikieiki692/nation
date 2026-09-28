@@ -1,109 +1,83 @@
 ---
-title: "Cannizzaro反应-苯甲醛在浓碱中的歧化"
-aliases: [Cannizzaro反应, 歧化反应, 苯甲醛浓碱]
+title: "Cannizzaro反应的同位素示踪与速率方程"
+aliases: [Cannizzaro反应, 苯甲醛歧化, 同位素示踪, Cannizzaro动力学]
 type: 题目
 status: 已填充
-year: 2019
-source: "中国化学奥林匹克(省级初赛)"
-type_tag: "推断"
+year: 2022
+source: "第34届中国化学奥林匹克初赛"
+type_tag: "机理与动力学"
 difficulty: 3
-knowledge_points: ["[[Cannizzaro反应]]"]
-tags: [化竞, 真题, 有机化学, Cannizzaro反应]
+knowledge_points: ["[[Cannizzaro反应]]", "[[醛酮化学]]", "[[同位素示踪]]", "[[反应动力学]]"]
+tags: [化竞, 真题, 有机化学, Cannizzaro反应, 反应动力学]
 related_notes:
   - "[[专题-羰基化学与缩合反应]]"
-updated: 2026-09-19
+updated: 2026-09-24
 teaching_level: 巩固
-fidelity: 原书改写
-exam_stage: 省预赛
+fidelity: 原题
+exam_stage: 初赛
 subject_module: 有机化学
-pack: 预赛专项
-source_category: 竞赛导向·真题（省级）
+pack: 初赛专项
+source_category: 竞赛导向·真题（全国初赛）
 source_grade: A
-source_norm: "省预赛·讲评重组"
+source_tier: 1
+source_norm: "第34届初赛"
 ---
-
-# Cannizzaro反应-苯甲醛在浓碱中的歧化
+# Cannizzaro反应的同位素示踪与速率方程
 
 ## 题目
 
-苯甲醛 $\mathrm{PhCHO}$ 在浓 $\mathrm{NaOH}$（50%）溶液中加热，发生 Cannizzaro 反应。
+Cannizzaro（康尼查罗）反应是醛在强碱浓溶液中发生的歧化反应。以苯甲醛为底物，根据所给条件和信息，回答以下问题：
 
-(1) 写出主要有机产物的结构式和名称，并计算反应的原子经济性（原子利用率）。
+1. 当反应在重水 $\\mathrm{D_2O}$ 中进行，产物苯甲醇是否含有氘？
+2. 当反应在 $\\mathrm{H_2^{18}O}$ 中进行，画出含 $^{18}\\mathrm{O}$ 产物的结构简式。
+3. 动力学研究发现，该反应的速率方程可以表达为
 
-(2) 写出 Cannizzaro 反应的详细机理，说明为什么需要浓碱条件，以及为什么是一分子醛被氧化、另一分子被还原。
+$$
+v = k_a[\\mathrm{PhCHO}]^2[\\mathrm{OH^-}] + k_b[\\mathrm{PhCHO}]^2[\\mathrm{OH^-}]^2
+$$
 
-(3) 甲醛 $\mathrm{HCHO}$ 在 Cannizzaro 反应条件下与苯甲醛混合，产物组成有何特点？写出产物。
+解释此方程中出现这两项的原因。
 
-(4) 为什么 Cannizzaro 反应仅适用于**无 α-H 的醛**（如苯甲醛、甲醛、三甲基乙醛）？若有 α-H 存在会发生什么竞争反应？
+## 参考答案
 
-![[cannizzaro-mechanism-benzaldehyde.png]]
+**(1) 有氘，但不形成 C-D 键。**
+
+负氢转移后得到 $\\mathrm{PhCH_2O^-}$，它从 $\\mathrm{D_2O}$ 获取 D，产物可写为 $\\mathrm{PhCH_2OD}$。苯甲醇苄位的两个氢仍来自苯甲醛中的 C-H 键/负氢转移，不会因溶剂为重水而全部变成 D。
+
+**(2) 含 $^{18}\\mathrm{O}$ 的产物。**
+
+最直接的标记产物是 $\\mathrm{PhCO^{18}O^-}$，即 $^{18}\\mathrm{OH^-}$ 亲核进攻苯甲醛后，以羧酸根羰基氧的形式保留下来。由于羟基对羰基的加成可逆，苯甲醛原有氧与溶剂氧可以交换，因此苯甲酸根的两个氧及苯甲醇的氧也可能分别被 $^{18}\\mathrm{O}$ 标记。
+
+**(3) 两项对应两条并行的预平衡路径。**
+
+负氢迁移是决速步，反应物为一分子四面体中间体和另一分子 $\\mathrm{PhCHO}$。两个快平衡分别形成：
+
+- 单负离子中间体 $\\mathrm{T_1}$：$[\\mathrm{T_1}]=K_1[\\mathrm{PhCHO}][\\mathrm{OH^-}]$
+- 双负离子中间体 $\\mathrm{T_2}$：$[\\mathrm{T_2}]=K_2[\\mathrm{PhCHO}][\\mathrm{OH^-}]^2$
+
+于是
+
+$$
+v=k_1[\\mathrm{PhCHO}][\\mathrm{T_1}]
+ +k_2[\\mathrm{PhCHO}][\\mathrm{T_2}]
+$$
+
+整理后正好得到题目中的两项：第一项对 $\\mathrm{PhCHO}$ 为二级、对 $\\mathrm{OH^-}$ 为一级；第二项对 $\\mathrm{PhCHO}$ 为二级、对 $\\mathrm{OH^-}$ 为二级。
 
 ## 解析
 
-### 分析
+### 核心机理
 
-1. Cannizzaro 反应是无 α-H 的醛在浓碱中的**歧化反应**：一分子醛被氧化为羧酸盐，另一分子被还原为醇。
-2. 关键中间体是 $\mathrm{PhCH(O^-)O^-}$（四面体双负离子），其中一分子提供 H⁻ 给另一分子醛。
-3. 交叉 Cannizzaro 中，甲醛总是被氧化（更易形成四面体中间体）。
-4. 若有 α-H 则发生 Aldol 缩合，而非 Cannizzaro 反应。
+1. $\\mathrm{OH^-}$ 可逆进攻苯甲醛羰基，形成四面体单负离子；进一步去质子形成双负离子。
+2. 四面体中间体向另一分子苯甲醛转移 $\\mathrm{H^-}$，一分子被氧化为苯甲酸根，另一分子被还原为苯甲醇负离子。
+3. 苯甲醇负离子与溶剂快速发生质子/氘交换。
 
-### 解答
+### 易错点
 
-**(1) 主要产物**
+- “含氘”不等于形成 C-D 键；本题的氘主要出现在 O-D。
+- 不能只画出一种 $^{18}\\mathrm{O}$ 产物而忽略羰基氧交换。
+- 速率方程中的 $[\\mathrm{OH^-}]^2$ 不代表决速步必须同时碰撞两分子 $\\mathrm{OH^-}$，它可来自决速步之前形成双负离子的预平衡。
 
-$$2\mathrm{PhCHO + NaOH \xrightarrow{浓} PhCH_2OH + PhCOONa}$$
+## 来源说明
 
-- 还原产物：**苯甲醇**（$\mathrm{PhCH_2OH}$）
-- 氧化产物：**苯甲酸钠**（$\mathrm{PhCOONa}$），酸化后得到苯甲酸
-
-**原子经济性**：
-原子利用率 = $\frac{M(\text{目标产物})}{M(\text{总反应物})} \times 100\%$
-
-若以苯甲醇为目标产物：$\frac{108}{2\times106 + 40} = \frac{108}{252} \approx 42.9\%$
-
-若以苯甲酸为目标产物：$\frac{122}{252} \approx 48.4\%$
-
-较低的原子经济性体现了歧化反应的本质特征——一半原料被"牺牲"了。
-
-**(2) 详细机理**
-
-**步骤 1**：OH⁻ 对一分子苯甲醛的羰基进行亲核加成
-
-$$\mathrm{PhCHO + OH^- \rightleftharpoons PhCH(O^-)OH}$$
-
-（四面体中间体，去质子化后得 $\mathrm{PhCH(O^-)O^-}$ 双负离子）
-
-**步骤 2（关键步）**：四面体中间体作为**氢负离子供体**，将 H⁻ 转移给第二分子苯甲醛
-
-$$\mathrm{PhCH(O^-)O^- + PhCHO \longrightarrow PhCOO^- + PhCH_2O^-}$$
-
-这是 Cannizzaro 反应的核心——从四面体中间体上离去的是 **H⁻**（不是质子），H⁻ 直接转移到另一分子醛的羰基碳上。这一步需要浓碱条件是因为只有高浓度 OH⁻ 才能将四面体中间体充分去质子化为双负离子，双负离子才是有效的 H⁻ 供体。
-
-**步骤 3**：质子交换
-
-$$\mathrm{PhCH_2O^- + H_2O \rightleftharpoons PhCH_2OH + OH^-}$$
-
-**(3) 甲醛存在的交叉 Cannizzaro**
-
-在浓碱条件下，苯甲醛 + 甲醛 → **苯甲醇 + 甲酸钠**
-
-$$\mathrm{PhCHO + HCHO + NaOH \longrightarrow PhCH_2OH + HCOONa}$$
-
-关键：甲醛总是被**氧化**（生成甲酸盐）。这是因为：
-- 甲醛（$\mathrm{HCHO}$）的羰基碳空间位阻最小、亲电性最强
-- 甲醛形成四面体中间体的速率最快
-- 甲醛的四面体中间体比苯甲醛的更容易将 H⁻ 转移出去
-
-因此，交叉 Cannizzaro 中甲醛优先作为"H⁻ 受体"→ 被还原为甲酸盐，而另一分子醛被氧化。
-
-**(4) 适用范围**
-
-Cannizzaro 反应仅适用于**无 α-H 的醛**，原因：
-
-若醛有 α-H（如乙醛 $\mathrm{CH_3CHO}$），在浓碱中优先发生 **Aldol 缩合**——α-H 被 OH⁻ 夺去生成烯醇负离子，进而进攻另一分子醛的羰基。Aldol 缩合的反应速率远快于 Cannizzaro 反应的 H⁻ 转移步骤 → Cannizzaro 被完全抑制。
-
-因此，Cannizzaro 的"必要非充分"条件是：醛必须无 α-H。常见底物：$\mathrm{HCHO}$、$\mathrm{PhCHO}$、$\mathrm{(CH_3)_3CCHO}$（三甲基乙醛）、呋喃甲醛（糠醛）等。
-
-### 反思
-
-Cannizzaro 反应是初赛中最容易与 Aldol 缩合混淆的反应。区分法则：**无 α-H → Cannizzaro；有 α-H → Aldol**。交叉 Cannizzaro 中，甲醛永远被氧化。另一个常考变体是分子内 Cannizzaro（如乙二醛 → 乙醇酸盐）。
+题干按第34届中国化学奥林匹克初赛第9-2题恢复；同一题也收录于 ABOC 第4章自学练习 4.13.1。参考答案依据第34届初赛官方解析并校正“氘进入羟基而非苄位 C-H”的表述。

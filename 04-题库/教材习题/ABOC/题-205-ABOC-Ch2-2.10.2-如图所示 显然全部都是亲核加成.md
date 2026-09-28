@@ -10,18 +10,22 @@ teaching_level: 巩固
 syllabus_codes: ["32"]
 knowledge_points: ["[[基本反应类型]]", "[[氧化反应]]", "[[还原反应]]"]
 tags: [化竞, ABOC, 有机化学]
-updated: 2026-07-04
+updated: 2026-09-23
 source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第2章-基本反应]]"
 aliases: [ABOC-Ch2-2.10.2-2]
 source: ABOC 第2章 自学练习（ARX's Basic Organic Chemistry 第3版）
 cross_references: ["[[04-题库/教材习题/ABOC/题-202-ABOC-Ch2-2.8-2-得到第三个产物的机理经历了一步负氢迁移]]", "[[04-题库/教材习题/ABOC/题-195-ABOC-Ch2-2.7-氧化性 还原性 还原性]]", "[[04-题库/教材习题/ABOC/题-199-ABOC-Ch2-2.7.2-3-自由基链反应机理]]", "[[04-题库/教材习题/ABOC/题-204-ABOC-Ch2-2.10.1-下列化合物与等物质的量的 Br 发生加成反应时 可能得到哪些]]", "[[04-题库/教材习题/ABOC/题-197-ABOC-Ch2-2.7.2-1-写出格氏试剂 以 RMgX 表示 和二氧化碳反应得到羧酸根的]]"]
 module: 基础要求-有机化学
 status: deprecated
-superseded_by: "已合并入完整习题卡"
+consumption_status: 退役
+replacement_status: 已替代
+deprecation_reason: "原书自学练习答案片段的重复拆卡；已按练习编号与正文双重核对，并入完整题干卡（2026-09-23）"
+superseded_by: "[[题-107-ABOC-Ch2-2.10.2-完成下列反应 写出主要产物 并指出此反应是亲核加成还是亲电加]]"
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_tier: 4
 source_norm: "ABOC 有机化学"
 ---
 # 题-205：如图所示。显然全部都是亲核加成。

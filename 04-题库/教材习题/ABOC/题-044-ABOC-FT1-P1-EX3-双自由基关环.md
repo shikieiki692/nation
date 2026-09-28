@@ -10,7 +10,7 @@ teaching_level: 竞赛
 syllabus_codes: ["49"]
 knowledge_points: ["[[自由基]]", "[[周环反应]]"]
 tags: [化竞, ABOC, 有机化学]
-updated: 2026-05-10
+updated: 2026-09-24
 source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第11章-解题训练]]"
 aliases: [ABOC-FT1-P1-EX3]
 source: ABOC 第11章 机理书写题（ARX's Basic Organic Chemistry 第3版）
@@ -20,15 +20,16 @@ subject_module: 有机化学
 pack: 模块习题集
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_tier: 4
 source_norm: "ABOC 有机化学"
 ---
 # 题-044：双自由基关环
 
 ## 题目
 
-本题题干为反应式图片，见原始 OCR 文件。
+本题题干为下列反应式图片：
 
-图片参考：ABOC202505_200-397_images/24541e8bbdca80cb7b1cf55dc2747b8b1f521694a1b360cff0ceb3f881327db6.jpg
+![[24541e8bbdca80cb7b1cf55dc2747b8b1f521694a1b360cff0ceb3f881327db6.jpg]]
 
 ## 参考答案
 

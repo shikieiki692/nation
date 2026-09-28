@@ -10,18 +10,22 @@ teaching_level: 巩固
 syllabus_codes: ["31"]
 knowledge_points: ["[[晶体结构基础]]", "[[Lewis酸碱理论]]", "[[电子效应]]", "[[碳正离子]]"]
 tags: [化竞, ABOC, 有机化学]
-updated: 2026-07-04
+updated: 2026-09-23
 source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第1章-绪论]]"
 aliases: [ABOC-Ch1-1.4.2-2-192]
 source: ABOC 第1章 自学练习（ARX's Basic Organic Chemistry 第3版）
 cross_references: ["[[04-题库/教材习题/ABOC/题-674-ABOC-Ch1-T2]]", "[[04-题库/教材习题/ABOC/题-672-ABOC-Ch1-T7]]", "[[04-题库/教材习题/ABOC/题-684-ABOC-Ch1-T8]]", "[[04-题库/教材习题/ABOC/题-662-ABOC-Ch1-T8]]", "[[04-题库/教材习题/ABOC/题-702-ABOC-Ch1-T2]]"]
 module: 基础要求-有机化学
 status: deprecated
-superseded_by: "已合并入完整习题卡"
+consumption_status: 退役
+replacement_status: 已替代
+deprecation_reason: "原书自学练习答案片段的重复拆卡；已按练习编号与正文双重核对，并入完整题干卡（2026-09-23）"
+superseded_by: "[[题-092-ABOC-Ch1-1.4.2-2-异头碳效应的实质是孤对电子的作用 在高级性溶剂 如水 中 糖]]"
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_tier: 4
 source_norm: "ABOC 有机化学"
 ---
 # 题-192：孤对电子被溶剂化，且直立异构体偶极矩小于平伏异构体，极性溶剂有利于稳定高极性异构体。(到9 章就会知

@@ -10,15 +10,17 @@ teaching_level: 基础
 knowledge_points: ["[[顺反异构]]", "[[Cahn-Ingold-Prelog规则]]"]
 status: 已填充
 answer_status: 待补
+consumption_status: 隔离
 tags: [化竞, 有机化学, 学而思]
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-09-23
 subject_module: 有机化学
 pack: 章节练习
 fidelity: 原书逐字
 exam_stage: 初赛
 source_category: 其他类型·自编章节题
 source_grade: B-
+source_tier: 4
 source_norm: "自编·有机化学"
 ---
 

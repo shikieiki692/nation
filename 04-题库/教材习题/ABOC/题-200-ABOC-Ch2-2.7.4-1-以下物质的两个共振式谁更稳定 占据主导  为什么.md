@@ -18,12 +18,15 @@ source: ABOC 第2章 自学练习（ARX's Basic Organic Chemistry 第3版）
 cross_references: ["[[04-题库/教材习题/ABOC/题-202-ABOC-Ch2-2.8-2-得到第三个产物的机理经历了一步负氢迁移]]", "[[04-题库/教材习题/ABOC/题-205-ABOC-Ch2-2.10.2-如图所示 显然全部都是亲核加成]]", "[[04-题库/教材习题/ABOC/题-195-ABOC-Ch2-2.7-氧化性 还原性 还原性]]", "[[04-题库/教材习题/ABOC/题-199-ABOC-Ch2-2.7.2-3-自由基链反应机理]]", "[[04-题库/教材习题/ABOC/题-204-ABOC-Ch2-2.10.1-下列化合物与等物质的量的 Br 发生加成反应时 可能得到哪些]]"]
 module: 基础要求-有机化学
 status: deprecated
+consumption_status: 退役
+replacement_status: 已替代
 superseded_by: "[[题-102-ABOC-Ch2-2.7.4-1-以下物质的两个共振式谁更稳定 占据主导  为什么]]"
 deprecation_reason: "原书「习题解析」节答案碎片，缺真实题干，与前段完整题卡 题-102 为同一题，按一题一卡收口标废（2026-09-22 题库体检 P0-3 修复）"
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_tier: 4
 source_norm: "ABOC 有机化学"
 ---
 # 题-200：以下物质的两个共振式谁更稳定（占据主导）？为什么？

@@ -10,7 +10,7 @@ teaching_level: 拓展
 syllabus_codes: ["21"]
 knowledge_points: ["[[羧酸衍生物]]"]
 tags: [化竞, Clayden, 有机化学, 有机化学]
-updated: 2026-07-25
+updated: 2026-09-24
 aliases: [Clayden-Ch10-P4]
 source: Clayden Organic Chemistry 2nd Ed. Chapter 10 Problem 4
 cross_references: ["[[题-337-Clayden-Ch7-P2-复杂化合物中共轭体系范围]]", "[[题-368-Clayden-Ch12-P1-酯取代中间体两个碳正离子稳定性]]", "[[题-336-Clayden-Ch7-P1-共轭判断和弯曲箭头表示]]", "[[题-369-Clayden-Ch12-P2-三阶酮水解机理推导]]"]
@@ -20,13 +20,18 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 教材课后习题
 source_grade: C
+source_tier: 5
 source_norm: "Clayden 有机化学"
+consumption_status: 隔离
+replacement_status: 无替代
 ---
 # 题-348: 含环/二羰基化合物亲核取代机理
 
 ## 题目
 
 Suggest mechanisms for these reactions.
+
+> ⛔ **质量隔离**：题面所列的两个反应式图片缺失，现有材料只有答案机理图。不得从答案图反推补入题面；在回源补齐真实反应式前，本题不可独立作答，不得进入正式组卷。
 
 **Purpose of the problem**: Drawing mechanisms for nucleophilic substitution on important compounds including cyclic and dicarbonyl compounds.
 
@@ -71,7 +76,3 @@ The second reaction is more straightforward. The amide proton is quite acidic an
 | 忽略亲核性差异 | 认为胺和醇活性相同 | 胺的亲核性比醇强，应该先反应 | 为什么胺比醇更具亲核性？ |
 | 画错环化步骤 | 没有理解分子内反应的优势 | 分子内环化比分子间反应更快（熵效应） | 为什么分子内反应比分子间反应更有利？ |
 | 忘记碱的作用 | 认为碱只是溶剂 | 碱可以夺取酰胺的N-H质子，形成更好的亲核试剂 | 为什么酰胺的N-H质子是酸性的？ |
-
-## 图片资源
-- 答案图片1：[[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/de39e8dcb8b977980f73b02ac0951adb9c00c5d0e2d56c80dc28c65d15bcd2e4.jpg]]
-- 答案图片2：[[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/a40ed7863416b4a9b8e49e916e155fd401d59a9bcc748b698c51bf42732b582d.jpg]]

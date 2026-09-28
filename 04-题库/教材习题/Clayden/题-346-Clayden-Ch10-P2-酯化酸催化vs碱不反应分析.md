@@ -10,7 +10,7 @@ teaching_level: 巩固
 syllabus_codes: ["21"]
 knowledge_points: ["[[羧酸衍生物]]"]
 tags: [化竞, Clayden, 有机化学, 有机化学]
-updated: 2026-07-25
+updated: 2026-09-24
 aliases: [Clayden-Ch10-P2]
 source: Clayden Organic Chemistry 2nd Ed. Chapter 10 Problem 2
 cross_references: ["[[题-369-Clayden-Ch12-P2-三阶酮水解机理推导]]", "[[题-337-Clayden-Ch7-P2-复杂化合物中共轭体系范围]]", "[[题-336-Clayden-Ch7-P1-共轭判断和弯曲箭头表示]]", "[[题-368-Clayden-Ch12-P1-酯取代中间体两个碳正离子稳定性]]"]
@@ -20,6 +20,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 教材课后习题
 source_grade: C
+source_tier: 5
 source_norm: "Clayden 有机化学"
 ---
 # 题-346: 酯化酸催化vs碱不反应分析
@@ -75,7 +76,3 @@ Acid anhydrides and acid chlorides do not have this acidic hydrogen so the alcoh
 | 认为碱可以催化酯化 | 混淆了酸和碱的作用 | 碱会使羧酸去质子化，形成稳定负离子 | 为什么碱性条件下羧酸不能发生酯化？ |
 | 忽略吡啶的作用 | 认为吡啶只是溶剂 | 吡啶是碱，可以中和产生的酸，促进反应 | 吡啶的pKa值对反应有什么影响？ |
 | 画错四面体中间体 | 没有正确理解质子转移 | 四面体中间体需要正确的质子化状态才能分解 | 酸催化和碱催化酯化的中间体有什么区别？ |
-
-## 图片资源
-- 题目图片：[[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/c69683aa9a29e81dea86b7bf868125fe3610c1db212f5b15a023725287c4660d.jpg]]
-- 答案图片：[[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/258283506e63f255e08ce8dbf6f5fe4394fc2b6cd267938c56b2771e5e3444bc.jpg]]

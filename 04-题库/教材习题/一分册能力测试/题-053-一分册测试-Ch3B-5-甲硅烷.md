@@ -22,6 +22,7 @@ cross_references: []
 status: 已填充
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
+source_tier: 3
 source_norm: "一分册能力测试"
 used_in: ["[[初赛模拟卷IX（非有机）]]"]
 ---

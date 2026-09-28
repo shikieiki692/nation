@@ -21,7 +21,14 @@ subject_module: 有机化学
 pack: 模块习题集
 source_category: 教材课后习题
 source_grade: C
+source_tier: 5
 source_norm: "Clayden 有机化学"
+answer_status: 完整
+consumption_status: 可用
+question_image_status: 已核验匹配
+image_audit_status: 已核验匹配
+replacement_status: 无替代
+withdrawn_checked: false
 ---
 # 题-475: 自由基关环的立体化学——非对映选择性
 
@@ -31,9 +38,9 @@ source_norm: "Clayden 有机化学"
 
 **【原文】**Suggest a mechanism for this reaction explaining why a mixture of diastereoisomers of the starting material gives a single diastereoisomer of the product. Is there any other form of selectivity?
 
-![[c3c99eb7f7408fe408a48ac6980550a9452d01f24c8e1c4cc3a09eda8577d297.jpg]]
+![[d565534ad9bd7f2004594f4c09bccf7903578f475a321a0194dd29c25758c076.jpg]]
 
-**原文题目**：Suggest a mechanism for this reaction explaining why a mixture of diastereoisomers of the starting material gives a single diastereoisomer of the product. Is there any other form of selectivity?
+
 
 ## 参考答案
 

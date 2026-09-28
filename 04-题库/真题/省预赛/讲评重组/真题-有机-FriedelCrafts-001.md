@@ -19,6 +19,7 @@ subject_module: 有机化学
 pack: 预赛专项
 source_category: 竞赛导向·真题（省级）
 source_grade: A
+source_tier: 1
 source_norm: "省预赛·讲评重组"
 ---
 
@@ -35,9 +36,6 @@ source_norm: "省预赛·讲评重组"
 (3) 该反应还会得到少量多烷基化产物。写出可能生成的二取代产物的结构式（至少三种），并指出哪一种量最多，为什么？
 
 (4) 简述 Friedel-Crafts 烷基化反应的三个主要局限性。
-
-
-![[eas-mechanism.png]]
 
 ## 解析
 

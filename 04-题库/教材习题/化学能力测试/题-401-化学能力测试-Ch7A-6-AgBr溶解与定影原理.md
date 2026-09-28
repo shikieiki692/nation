@@ -37,6 +37,7 @@ status: 已填充
 used_in: ["[[综合模拟卷III]]", "[[第一轮综合卷02（教师版）]]", "[[第一轮原理·6-酸碱理论（教师版）]]"]
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
+source_tier: 3
 source_norm: "化学能力测试"
 ---
 

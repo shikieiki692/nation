@@ -38,6 +38,7 @@ status: 已填充
 used_in: ["[[综合模拟卷IV]]", "[[第一轮综合卷08（教师版）]]"]
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
+source_tier: 3
 source_norm: "化学能力测试"
 ---
 

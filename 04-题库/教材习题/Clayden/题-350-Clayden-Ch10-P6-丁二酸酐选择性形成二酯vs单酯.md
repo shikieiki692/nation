@@ -10,7 +10,7 @@ teaching_level: 拓展
 syllabus_codes: ["21"]
 knowledge_points: ["[[羧酸衍生物]]"]
 tags: [化竞, Clayden, 有机化学, 有机化学]
-updated: 2026-07-25
+updated: 2026-09-24
 aliases: [Clayden-Ch10-P6]
 source: Clayden Organic Chemistry 2nd Ed. Chapter 10 Problem 6
 cross_references: ["[[题-368-Clayden-Ch12-P1-酯取代中间体两个碳正离子稳定性]]", "[[题-336-Clayden-Ch7-P1-共轭判断和弯曲箭头表示]]", "[[题-337-Clayden-Ch7-P2-复杂化合物中共轭体系范围]]", "[[题-369-Clayden-Ch12-P2-三阶酮水解机理推导]]"]
@@ -20,6 +20,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 教材课后习题
 source_grade: C
+source_tier: 5
 source_norm: "Clayden 有机化学"
 ---
 # 题-350: 丁二酸酐选择性形成二酯vs单酯
@@ -83,9 +84,3 @@ In acid solution the first reaction is similar, though the tetrahedral intermedi
 | 认为碱性条件下可以得到二酯 | 没有理解羧酸根的稳定性 | 碱性条件下COO⁻不能被质子化，无法继续反应 | 为什么碱性条件下羧酸根不会被进攻？ |
 | 忽略甲醇过量的作用 | 认为酸性条件下反应不需要推动平衡 | 甲醇大量过量可以推动平衡向产物方向移动 | 如何用Le Chatelier原理解释？ |
 | 混淆质子化位置 | 认为质子化发生在羰基氧上 | 酸性条件下羧酸的OH被质子化，使其成为更好的离去基团 | 为什么质子化发生在OH而不是C=O？ |
-
-## 图片资源
-- 题目图片：[[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/3136e50cc789a2d7f88716b561910aa0d47572a13da936b9318bab55cb6ddc8e.jpg]]
-- 答案图片1：[[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/c7139f32283ee09dd6c96e075f94cd8cf9c6f49992b921ee9bc404fbe81e5ebd.jpg]]
-- 答案图片2：[[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/e36773f7a5a20310ed7a32bfc01009998fa433b1f555236a07aab90acfb4bef7.jpg]]
-- 答案图片3：[[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/0de34df544121077418875d2aac2f4a3c8d96008836911c55f0fc6cf6761be98.jpg]]

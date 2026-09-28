@@ -19,6 +19,7 @@ updated: 2026-09-22
 status: 待审核
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
+source_tier: 4
 ---
 
 # HChO方-06 锂硅合金水解与硅烷的燃烧（4 分）

@@ -10,7 +10,7 @@ teaching_level: 拓展
 syllabus_codes: ["21"]
 knowledge_points: ["[[羧酸衍生物]]"]
 tags: [化竞, Clayden, 有机化学, 有机化学]
-updated: 2026-07-25
+updated: 2026-09-24
 aliases: [Clayden-Ch10-P7]
 source: Clayden Organic Chemistry 2nd Ed. Chapter 10 Problem 7
 cross_references: ["[[题-336-Clayden-Ch7-P1-共轭判断和弯曲箭头表示]]", "[[题-369-Clayden-Ch12-P2-三阶酮水解机理推导]]", "[[题-337-Clayden-Ch7-P2-复杂化合物中共轭体系范围]]", "[[题-368-Clayden-Ch12-P1-酯取代中间体两个碳正离子稳定性]]"]
@@ -20,13 +20,18 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 教材课后习题
 source_grade: C
+source_tier: 5
 source_norm: "Clayden 有机化学"
+consumption_status: 隔离
+replacement_status: 无替代
 ---
 # 题-351: 酸氯/酸酐/酰胺反应性对比机理
 
 ## 题目
 
 Suggest mechanisms for these reactions, explaining why these particular products are formed.
+
+> ⛔ **质量隔离**：题面所列反应式与产物结构图片缺失，现有材料只有答案机理图。不得从答案图反推补入题面；在回源补齐真实反应式前，本题不可独立作答，不得进入正式组卷。
 
 **Purpose of the problem**: A contrast between very reactive (acid chloride), less reactive (anhydride) and unreactive (amide) carbonyl compounds.
 
@@ -71,7 +76,3 @@ The second reaction is an example of the alkaline hydrolysis of amides. Though t
 | 认为酰氯与水反应只生成羧酸 | 没有考虑到酰氯的高反应性 | 生成的羧酸会立即与第二分子酰氯反应 | 如何让酰氯与水反应只停留在羧酸阶段？ |
 | 混淆酸酐和酰氯的反应性 | 认为两者反应性相似 | 酰氯反应性远高于酸酐（pKa差12个单位） | 为什么酸酐可以从溶液中沉淀出来？ |
 | 认为酰胺不能水解 | 认为N不是好的离去基团 | 在碱性条件下，双负离子形式使N可以离去 | 为什么碱性条件比酸性条件更有利于酰胺水解？ |
-
-## 图片资源
-- 答案图片1：[[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/ab7486d13c2ff5180f600bc887c69e06c6b45cf51a4d1e19e1eb40bbdd85a975.jpg]]
-- 答案图片2：[[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/55945e04ad098523a3c7ed0b9d0eed6e2fb8bcb6bd7f81a4991121bc3d5fa09d.jpg]]

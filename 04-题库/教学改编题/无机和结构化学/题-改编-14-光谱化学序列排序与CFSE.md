@@ -19,6 +19,7 @@ subject_module: 结构化学
 pack: 章节练习
 source_category: 其他类型·教学改编
 source_grade: B-
+source_tier: 4
 source_norm: "教学改编题"
 ---
 # 题-改编-14-光谱化学序列排序与CFSE
@@ -35,7 +36,7 @@ $$\text{I}^- < \text{Br}^- < \text{Cl}^- < \text{F}^- < \text{OH}^- < \text{H}_2
 
 (c) 实验测得 [Co(H₂O)₆]³⁺ 为高自旋（磁矩约 5.0 B.M.），而 [Co(NH₃)₆]³⁺ 为低自旋（磁矩约 0 B.M.）。请解释这一现象，并说明光谱化学序列在此判断中的作用。
 
-![[media/光谱化学序列配体排序图.关系图.png]]
+![[d72347c3cfbe30dc1a3de473003eec8081ff501dd0bd3a719c73a5b18f824230.png]]
 
 ## 参考答案
 

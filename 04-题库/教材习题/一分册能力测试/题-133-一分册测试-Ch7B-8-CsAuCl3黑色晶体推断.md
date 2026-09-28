@@ -22,6 +22,7 @@ cross_references: ["[[04-题库/教材习题/赵鑫光/题-赵鑫光-配位-综2
 status: 已填充
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
+source_tier: 3
 source_norm: "一分册能力测试"
 ---
 

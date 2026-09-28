@@ -15,10 +15,17 @@ pack: 模块习题集
 question_type: [结构绘画, 简答]
 tags: [化竞, HChO, 配合物专题, 三氟甲基化, 硼路易斯酸]
 created: 2026-09-22
-updated: 2026-09-22
-status: 待审核
+updated: 2026-09-25
+status: 已填充
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
+source_tier: 4
+question_image_status: 已核验匹配
+image_audit_status: 已核验匹配
+answer_status: 待补
+answer_image_audit_status: 部分缺失
+consumption_status: 隔离
+replacement_status: 无替代
 
 ---
 

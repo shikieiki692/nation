@@ -10,7 +10,7 @@ teaching_level: 基础
 syllabus_codes: ["45"]
 knowledge_points: ["[[缩醛]]", "[[亲核加成]]", "[[酸催化]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-updated: 2026-05-10
+updated: 2026-09-24
 source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第2章-基本反应]]"
 aliases: [ABOC-Ch2-2.3]
 source: ABOC 第2章 自学练习 2.3（ARX's Basic Organic Chemistry 第3版）
@@ -20,6 +20,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_tier: 4
 source_norm: "ABOC 有机化学"
 ---
 # 题-066：缩醛形成机理
@@ -28,7 +29,7 @@ source_norm: "ABOC 有机化学"
 
 画出缩醛形成的完整机理（以醛与醇在酸催化下反应为例）。
 
-![[acetal-protection-cyclohexanone.png]]
+![[8d068d920f755481405761dc8622a6ecf27f00534895fb9897823c8f59462681.jpg]]
 
 ## 参考答案
 

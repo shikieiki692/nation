@@ -21,6 +21,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_tier: 4
 source_norm: "ABOC 有机化学"
 ---
 # 题-694：（Chemy 模拟题改编）桥[3,3,0]-辛烷骨架的构建——向 AAOC 的浅浅过渡
@@ -56,5 +57,5 @@ T5. 丙酮偶极矩更大。氟吸电子成反向偶极，与羰基抵消。甲�
 ## 相关题目
 
 - [[题-053-ABOC-Ch1-T1-金刚烷合成]]
-- [[题-054-ABOC-Ch2-T3-硫叶立德vs半缩硫醛选择性]]
+- [[题-054-ABOC-Ch2-T3-二溴代烃与氨的取代成环]]
 - [[题-055-ABOC-Ch3-T3-特殊氧化烯烃邻二醇切断]]

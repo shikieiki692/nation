@@ -19,6 +19,7 @@ pack: 综合模拟卷
 submodule: 2ChO
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
+source_tier: 2
 source_norm: "2ChO-第6届2ChO化学奥林匹克联考"
 source_file: "2026机构初赛模拟题/11-2ChO/第6届2ChO化学奥林匹克联考试题.md"
 ---

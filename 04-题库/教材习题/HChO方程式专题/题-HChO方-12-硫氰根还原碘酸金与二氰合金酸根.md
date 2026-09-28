@@ -19,6 +19,7 @@ updated: 2026-09-22
 status: 待审核
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
+source_tier: 4
 ---
 # HChO方-12 硫氰根还原碘酸金与二氰合金酸根的生成（2 分）
 

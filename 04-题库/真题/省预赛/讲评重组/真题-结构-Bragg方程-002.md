@@ -19,6 +19,7 @@ subject_module: 结构化学
 pack: 预赛专项
 source_category: 竞赛导向·真题（省级）
 source_grade: A
+source_tier: 1
 source_norm: "省预赛·讲评重组"
 ---
 
@@ -35,7 +36,7 @@ source_norm: "省预赛·讲评重组"
 (3) 同一晶体的 $(200)$ 晶面一级衍射峰应出现在 $2\theta$ 为多少？（$\sin 19.10^\circ = 0.3272$，$\sin 22.38^\circ = 0.3807$）
 
 
-![[13-4-bragg-reflection.jpg]]
+![[4c9fea019934e092e2e783cdf02750ad3e9ab2a3a541fce6ff844b105251e435.jpg]]
 
 ## 解析
 

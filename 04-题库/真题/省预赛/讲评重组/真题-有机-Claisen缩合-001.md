@@ -19,6 +19,7 @@ subject_module: 有机化学
 pack: 预赛专项
 source_category: 竞赛导向·真题（省级）
 source_grade: A
+source_tier: 1
 source_norm: "省预赛·讲评重组"
 ---
 
@@ -35,9 +36,6 @@ source_norm: "省预赛·讲评重组"
 (3) 产物 A 在稀碱中水解并加热脱羧，得到什么产物？写出反应方程式。
 
 (4) 若将乙酸乙酯与苯甲酸乙酯 $\mathrm{PhCOOEt}$（无 α-H）在 $\mathrm{NaOEt}$ 中进行混合 Claisen 缩合，可能得到几种产物？应采取什么实验策略来提高单一产物的选择性？
-
-
-![[claisen-condensation.png]]
 
 ## 解析
 

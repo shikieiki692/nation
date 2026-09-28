@@ -21,6 +21,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_tier: 4
 source_norm: "ABOC 有机化学"
 used_in: "[[第二轮习题集-有机化学一]]"
 ---
@@ -63,5 +64,5 @@ T6. 这个重排称为“碳正离子时钟”，因为反应速率非常快。�
 ## 相关题目
 
 - [[题-053-ABOC-Ch1-T1-金刚烷合成]]
-- [[题-054-ABOC-Ch2-T3-硫叶立德vs半缩硫醛选择性]]
+- [[题-054-ABOC-Ch2-T3-二溴代烃与氨的取代成环]]
 - [[题-055-ABOC-Ch3-T3-特殊氧化烯烃邻二醇切断]]

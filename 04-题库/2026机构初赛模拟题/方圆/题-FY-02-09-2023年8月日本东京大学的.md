@@ -19,6 +19,7 @@ pack: 综合模拟卷
 submodule: 方圆
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
+source_tier: 2
 source_norm: "方圆-有机2.10日晚上习题课"
 source_file: "2026机构初赛模拟题/12-方圆/有机2.10日晚上习题课.md"
 ---

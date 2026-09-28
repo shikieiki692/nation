@@ -36,6 +36,7 @@ source_file: "[[07-资料提炼/习题提炼/习题-一分册测试-Ch13-碳族�
 status: 已填充
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
+source_tier: 3
 source_norm: "一分册能力测试"
 used_in: ["[[第一轮原理·6-酸碱理论（教师版）]]", "[[第一轮综合卷01（教师版）]]"]
 ---

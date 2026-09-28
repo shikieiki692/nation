@@ -18,7 +18,9 @@ teaching_level: 巩固
 knowledge_points: ["[[金]]"]
 
 status: 已填充
-answer_status: 源书无解
+answer_status: 待补
+consumption_status: 隔离
+replacement_status: 无替代
 
 tags: [化竞, 无机化学, Weller, d区元素]
 
@@ -36,6 +38,7 @@ exam_stage: 决赛
 
 source_category: 教材课后习题
 source_grade: C
+source_tier: 5
 source_norm: "无机化学第6版（Weller）"
 ---
 

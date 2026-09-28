@@ -14,7 +14,7 @@ knowledge_points:
 concepts:
   - WagnerMeerwein重排
 tags: [化竞, 题目, 有机化学]
-updated: 2026-07-10
+updated: 2026-09-24
 aliases: ["题-有机-重排-04"]
 source: "Zchem基础有机化学"
 module: 有机化学
@@ -23,6 +23,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 其他类型·自编章节题
 source_grade: B-
+source_tier: 4
 source_norm: "自编·有机化学"
 ---
 # Wagner-Meerwein重排同位素标记追踪
@@ -34,9 +35,6 @@ source_norm: "自编·有机化学"
 **(2)** 如果将新戊基溴中标记了 ¹⁴C 的碳原子标在 CH₂ 上（即 (CH₃)₃C-¹⁴CH₂Br），反应后 ¹⁴C 出现在产物的什么位置？
 
 **(3)** Wagner-Meerwein 重排的驱动力是什么？什么条件下重排更容易发生？
-
-
-![[wagner-meerwein.png]]
 
 ## 参考答案
 
@@ -51,7 +49,7 @@ source_norm: "自编·有机化学"
 3. 迁移后形成更稳定的三级碳正离子：(CH₃)₂C⁺-CH₂CH₃
 4. **乙醇捕获** → (CH₃)₂C(OEt)-CH₂CH₃
 
-**产物**：2-甲氧基-2-甲基丁烷（三级碳正离子的溶剂解产物）
+**产物**：2-乙氧基-2-甲基丁烷（三级碳正离子的溶剂解产物）
 
 ### (2) ¹⁴C 标记追踪
 

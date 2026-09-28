@@ -10,7 +10,7 @@ teaching_level: 拓展
 syllabus_codes: ["21"]
 knowledge_points: ["[[羧酸衍生物]]"]
 tags: [化竞, Clayden, 有机化学, 有机化学]
-updated: 2026-07-25
+updated: 2026-09-24
 aliases: [Clayden-Ch10-P11]
 source: Clayden Organic Chemistry 2nd Ed. Chapter 10 Problem 11
 cross_references: ["[[题-368-Clayden-Ch12-P1-酯取代中间体两个碳正离子稳定性]]", "[[题-337-Clayden-Ch7-P2-复杂化合物中共轭体系范围]]", "[[题-369-Clayden-Ch12-P2-三阶酮水解机理推导]]", "[[题-336-Clayden-Ch7-P1-共轭判断和弯曲箭头表示]]"]
@@ -20,6 +20,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 教材课后习题
 source_grade: C
+source_tier: 5
 source_norm: "Clayden 有机化学"
 ---
 # 题-355: 卤仿反应产物预测（pKa=13.7）
@@ -73,7 +74,3 @@ The result looks like a tetrahedral intermediate: the only possible leaving grou
 | 忽略Br₃C⁻的离去能力 | 认为碳负离子不能作为离去基团 | Br₃C⁻的pKa = 13.7，是相对较好的离去基团 | 为什么Br₃C⁻可以作为离去基团？ |
 | 画错酸碱中和步骤 | 没有考虑到产物之间的酸碱反应 | Br₃C⁻是强碱，会与羧酸反应 | 为什么卤仿反应需要碱性条件？ |
 | 认为反应停留在四面体中间体 | 没有理解离去基团的作用 | 四面体中间体会分解，离去基团离开 | 什么决定了四面体中间体分解的方向？ |
-
-## 图片资源
-- 题目图片：[[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/0e4a2462f149cee1479b2c83b2cfb80ae5fdc32ac154a382ee7c817d83f352af.jpg]]
-- 答案图片：[[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/dfc5cd011bcf2de88e065669ef6733d40839e3268582aac170e2d3d0da76350b.jpg]]

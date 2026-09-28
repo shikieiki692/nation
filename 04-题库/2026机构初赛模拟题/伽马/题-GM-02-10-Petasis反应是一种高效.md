@@ -19,6 +19,7 @@ pack: 综合模拟卷
 submodule: 伽马
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
+source_tier: 2
 source_norm: "伽马-五一伽马杭州2"
 source_file: "2026机构初赛模拟题/06-伽马/五一伽马杭州2.md"
 ---

@@ -20,6 +20,7 @@ knowledge_points:
   - "[[稳定常数]]"
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
+source_tier: 4
 
 ---
 

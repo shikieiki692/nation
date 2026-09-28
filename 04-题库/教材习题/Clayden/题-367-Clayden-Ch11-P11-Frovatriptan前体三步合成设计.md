@@ -20,7 +20,14 @@ subject_module: 有机化学
 pack: 模块习题集
 source_category: 教材课后习题
 source_grade: C
+source_tier: 5
 source_norm: "Clayden 有机化学"
+answer_status: 完整
+consumption_status: 可用
+question_image_status: 已核验匹配
+image_audit_status: 已核验匹配
+replacement_status: 无替代
+withdrawn_checked: false
 ---
 # 题-367: Frovatriptan前体三步合成设计
 
@@ -30,7 +37,7 @@ source_norm: "Clayden 有机化学"
 
 **【原文】**Three chemical steps convert cyclohexane-1,4-dione into a compound which is used for the synthesis of the anti-migraine drug frovatriptan. Suggest how this transformation is carried out.
 
-![[e3e84bd56a7d352d4dbc48f6658327a501e3a2dcfa9dacc11428d9f7aa1a7531.jpg]]
+![[7d45347cad1979c1d6a4e582dc93b34eb1af637951d8ca0ff99e37ba406a556f.jpg]]
 
 ## 参考答案
 

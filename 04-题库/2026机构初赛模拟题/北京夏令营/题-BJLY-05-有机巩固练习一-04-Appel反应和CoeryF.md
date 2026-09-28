@@ -19,6 +19,7 @@ pack: 综合模拟卷
 submodule: 北京夏令营
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
+source_tier: 2
 source_norm: "北京夏令营-北京夏令营-有机巩固练习一"
 source_file: "2026机构初赛模拟题/13-北京夏令营/北京夏令营-有机巩固练习一.md"
 ---

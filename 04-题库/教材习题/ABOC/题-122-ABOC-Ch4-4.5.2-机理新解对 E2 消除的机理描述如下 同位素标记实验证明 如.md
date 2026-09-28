@@ -21,6 +21,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_tier: 4
 source_norm: "ABOC 有机化学"
 ---
 # 题-122：机理新解对 E2 消除的机理描述如下。同位素标记实验证明，如果使用如苯基锂这样的强碱，确实有可能发生
@@ -38,7 +39,7 @@ source_norm: "ABOC 有机化学"
 
 ---
 
-![[aboc-e2-mechanism.jpg]]
+![[3aae909dff510d644105ed3fee197ed19629b64365c106f0fc59629b4ebaaf1e.jpg]]
 
 ## 参考答案
 自学练习 4.5.2 使用强碱时，拔氢不可逆，主导因素是氢的酸性，因此拔掉酸性更强的氢。但是乙醇钠：我何德何能，让我去拔掉产生稳定碳负离子然后迁移？

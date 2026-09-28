@@ -17,12 +17,15 @@ source: ABOC 第1章 章末习题 T3（真题/模拟题改编，非原书逐字�
 cross_references: ["[[04-题库/教材习题/ABOC/题-674-ABOC-Ch1-T2]]", "[[04-题库/教材习题/ABOC/题-684-ABOC-Ch1-T8]]", "[[04-题库/教材习题/ABOC/题-662-ABOC-Ch1-T8]]", "[[04-题库/教材习题/ABOC/题-702-ABOC-Ch1-T2]]", "[[04-题库/教材习题/ABOC/题-679-ABOC-Ch1-T2]]"]
 module: 基础要求-有机化学
 status: deprecated
+consumption_status: 退役
+replacement_status: 已替代
 deprecation_reason: "与完整题卡同题的早期转录版（镜像对收口，2026-09-22 第2批按主题+题号双确认配对）"
 superseded_by: "[[题-698-ABOC-Ch1-T3]]"
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_tier: 4
 source_norm: "ABOC 有机化学"
 ---
 # 题-675：(Chemy模拟题改编) 烯酮亚胺与极性反转
@@ -58,5 +61,5 @@ source_norm: "ABOC 有机化学"
 ## 相关题目
 
 - [[题-053-ABOC-Ch1-T1-金刚烷合成]]
-- [[题-054-ABOC-Ch2-T3-硫叶立德vs半缩硫醛选择性]]
+- [[题-054-ABOC-Ch2-T3-二溴代烃与氨的取代成环]]
 - [[题-055-ABOC-Ch3-T3-特殊氧化烯烃邻二醇切断]]

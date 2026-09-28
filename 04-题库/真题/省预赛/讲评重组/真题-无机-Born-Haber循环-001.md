@@ -11,7 +11,7 @@ knowledge_points: ["[[晶格能]]"]
 tags: [化竞, 真题, Born-Haber循环, 晶格能, 热化学]
 related_notes:
   - "[[专题-热力学初步]]"
-updated: 2026-09-19
+updated: 2026-09-24
 teaching_level: 巩固
 fidelity: 原书改写
 exam_stage: 省预赛
@@ -19,6 +19,7 @@ subject_module: 元素与分析
 pack: 预赛专项
 source_category: 竞赛导向·真题（省级）
 source_grade: A
+source_tier: 1
 source_norm: "省预赛·讲评重组"
 used_in: "[[第一轮原理·3-热力学初步（教师版）]]"
 ---
@@ -44,7 +45,7 @@ used_in: "[[第一轮原理·3-热力学初步（教师版）]]"
 (3) 晶格能的理论值（由 Born-Lande 方程计算）约为 $-786\ \mathrm{kJ\cdot mol^{-1}}$。实验值比理论值偏小（绝对值更小），从化学键角度分析可能的原因。
 
 
-![[born-haber-cycle.png]]
+![[44cde43a08cd3f850289b984aa102bf6c24816634bdb32e9bf8975be103278cd.jpg]]
 
 ## 解析
 

@@ -30,6 +30,7 @@ subject_module: 元素与分析
 pack: 综合模拟卷
 source_category: 竞赛导向·真题
 source_grade: A
+source_tier: 3
 source_norm: "第27届决赛"
 used_in: "[[第一轮原理·2-溶液与相平衡（教师版）]]"
 ---

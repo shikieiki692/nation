@@ -35,6 +35,7 @@ exam_stage: 决赛
 
 source_category: 教材课后习题
 source_grade: C
+source_tier: 5
 used_in: "[[第二轮习题集-元素与分析二]]"
 source_norm: "无机化学第6版（Weller）"
 ---

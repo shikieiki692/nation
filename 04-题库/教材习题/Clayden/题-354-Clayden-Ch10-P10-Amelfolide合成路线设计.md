@@ -11,7 +11,7 @@ teaching_level: 拓展
 syllabus_codes: ["21"]
 knowledge_points: ["[[羧酸衍生物]]"]
 tags: [化竞, Clayden, 有机化学, 有机化学]
-updated: 2026-07-25
+updated: 2026-09-24
 aliases: [Clayden-Ch10-P10]
 source: Clayden Organic Chemistry 2nd Ed. Chapter 10 Problem 10
 cross_references: ["[[题-369-Clayden-Ch12-P2-三阶酮水解机理推导]]", "[[题-368-Clayden-Ch12-P1-酯取代中间体两个碳正离子稳定性]]", "[[题-336-Clayden-Ch7-P1-共轭判断和弯曲箭头表示]]", "[[题-337-Clayden-Ch7-P2-复杂化合物中共轭体系范围]]"]
@@ -21,6 +21,7 @@ subject_module: 有机化学
 pack: 模块习题集
 source_category: 教材课后习题
 source_grade: C
+source_tier: 5
 source_norm: "Clayden 有机化学"
 ---
 # 题-354: Amelfolide合成路线设计
@@ -70,7 +71,3 @@ source_norm: "Clayden 有机化学"
 | 试图直接混合胺和羧酸 | 没有考虑酸碱反应 | 胺和羧酸会发生酸碱中和，生成无活性的盐 | 为什么胺和羧酸不能直接反应？ |
 | 使用酸催化酰化胺 | 没有理解酸催化对胺的影响 | 酸会质子化胺，使其失去亲核性 | 酸催化为什么对醇的酯化有效，但对胺的酰化无效？ |
 | 忘记中和HCl | 认为HCl不影响反应 | HCl会与胺反应，消耗反应物，需要碱中和 | 为什么需要额外加碱？ |
-
-## 图片资源
-- 题目图片：[[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/9be1d15280d1433d96ef7c56b85373ff494364fb7edc83ce5ec82a871c67070f.jpg]]
-- 答案图片：[[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/0b512546d274cae5082f1ac4d9169341f94793a043914fa9107b421567f4df39.jpg]]

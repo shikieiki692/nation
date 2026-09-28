@@ -1,72 +1,52 @@
 ---
-title: 题-058-ABOC-Ch6-T3-缩合策略综合
+title: 题-058-ABOC-Ch6-T3-长春碱类天然产物全合成
 type: 题目
 fidelity: 原书逐字
-submodule: 缩合反应
+submodule: Ch.6
 exam_stage: 决赛
 source_subject: 有机化学
-difficulty: 4
-question_type: [合成]
-teaching_level: 拓展
-syllabus_codes: ["45", "46"]
-knowledge_points: ["[[Aldol缩合]]", "[[Mannich反应]]", "[[Wittig反应]]"]
-tags: [化竞, ABOC, 有机化学]
-updated: 2026-05-10
-source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第6章-缩合反应]]"
+difficulty: 3
+question_type: [合成推断, 中间体推断, 结构书写]
+teaching_level: 巩固
+syllabus_codes: ["32", "34"]
+knowledge_points: ["[[天然产物全合成]]", "[[有机合成]]"]
+tags: [化竞, ABOC, 有机化学, 天然产物, 全合成, 中间体]
+updated: 2026-09-25
+answer_status: 待补
+consumption_status: 隔离
+replacement_status: 无替代
+question_image_status: 完整
+source_file: "[[mineru/03-教材书籍/ABOC有机化学/ABOC202505_200-397]]"
 aliases: [ABOC-Ch6-T3]
-source: ABOC 第6章 章末习题 T3（ARX's Basic Organic Chemistry 第3版）
+source: ABOC 第6章 章末习题 T3（37 届决赛）
 module: 有机化学
 status: 已填充
 subject_module: 有机化学
-pack: 模块习题集
+pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_tier: 4
 source_norm: "ABOC 有机化学"
 ---
-# 题-058：缩合策略综合
+# 题-058：长春碱类天然产物全合成
 
 ## 题目
 
-（部分结构式见原书图片）
+T3.(37 届决赛) 长春碱类天然产物全合成
 
-综合运用 Aldol 缩合、Mannich 反应和 Wittig 反应设计目标分子的合成路线。
+长春碱是从长春花中提取的一类重要生物碱，具有显著的抗癌活性。天然产物 N-methylaspidospermidine (K) 含有长春碱的关键骨架，其合成路线如下。（作答时所有结构不要求画出立体化学）
+
+![[7e0117e9b78e25c250e052dcbe482d63d4c2f3486873340cdb919afb4cd526ea.jpg]]
+
+3-1 画出 B、C、D、E 和 F 的结构。提示：C-D 形成了一个五元芳环。
+
+3-2 化合物 E 转化为 F 的过程中依次经历中间体 E1 及 E2，分别画出其结构。
+
+3-3 画出 F 转化为 G 的过程中最后一个中间体 F1 的结构。
+
+3-4 画出 H、I 和 J 的结构。
 
 ## 参考答案
 
-关键策略：
-1. Aldol 缩合：构建 β-羟基羰基或 α,β-不饱和羰基化合物
-   - 选择适当的烯醇等价物和羰基亲电试剂
-   - 控制区域选择性（动力学/热力学烯醇）和立体选择性
-2. Mannich 反应：构建 β-氨基羰基化合物
-   - 亚胺离子与烯醇的加成
-   - 在生物碱和天然产物合成中广泛应用
-3. Wittig 反应：构建特定位置的碳碳双键
-   - 稳定/不稳定叶立德的选择决定烯烃几何构型
-   - 与 Horner-Wadsworth-Emmons 反应的比较
-
-综合运用：
-- 通过 Aldol 反应构建碳骨架
-- 通过 Mannich 反应引入氨基官能团
-- 通过 Wittig 反应精确控制双键位置
-
-## 知识点映射
-
-| 关联 KP | 考查角度 | 直接/间接 |
-|---|---|:---:|
-| [[Aldol缩合]] | 碳碳键形成与 α,β-不饱和羰基构建 | 直接 |
-| Mannich反应 | β-氨基羰基的合成策略 | 直接 |
-| Wittig反应 | 烯烃的精确构建与几何控制 | 直接 |
-
-## 解题思路
-
-1. **读题定位**：分析目标分子的结构特征（双键位置、羰基分布、氨基位置），识别可以分别由 Aldol、Mannich 和 Wittig 反应构建的子结构。
-2. **🔑 关键转换**：逆合成分析 → 切断双键（Wittig 位点）、切断 β-氨基/羟基（Mannich/Aldol 位点）→ 确定起始原料。
-3. **验证**：检查各步反应的官能团兼容性；确认 Wittig 反应的烯烃几何选择性；验证 Aldol 的立体化学控制策略。
-
-## 易错分析
-
-| 错误 | 原因 | 纠正 | 课堂提问 |
-|---|---|---|---|
-| Wittig 试剂选择错误 | 稳定/不稳定叶立德的产物构型混淆 | 不稳定叶立德 → 顺式烯烃；稳定叶立德 → 反式烯烃 | 如何通过 Wittig 试剂结构预测烯烃几何构型？ |
-| Aldol 区域选择性控制失败 | 未区分动力学/热力学烯醇 | 动力学烯醇：大位阻碱，低温；热力学烯醇：小位阻碱，高温 | LDA 与 NaH 在烯醇化选择性上有何不同？ |
-| Mannich 反应条件过于剧烈 | 未考虑亚胺离子的原位生成 | Mannich 反应通常在弱酸性条件下进行 | Mannich 反应与直接胺甲基化有何区别？ |
+> [!info] 答案待补
+> 当前不写入未经核验的答案。待取得可信答案来源后再补充；不得依据常见缩合反应名称臆造 B-J、E1、E2 或 F1 的结构。

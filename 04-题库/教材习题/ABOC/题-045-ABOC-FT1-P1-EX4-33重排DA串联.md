@@ -10,7 +10,7 @@ teaching_level: 竞赛
 syllabus_codes: ["49"]
 knowledge_points: ["[[σ迁移反应]]", "[[Diels-Alder反应]]", "[[Cope重排]]"]
 tags: [化竞, ABOC, 有机化学]
-updated: 2026-05-10
+updated: 2026-09-24
 source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第11章-解题训练]]"
 aliases: [ABOC-FT1-P1-EX4]
 source: ABOC 第11章 机理书写题（ARX's Basic Organic Chemistry 第3版）
@@ -21,15 +21,16 @@ subject_module: 有机化学
 pack: 模块习题集
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_tier: 4
 source_norm: "ABOC 有机化学"
 ---
 # 题-045：[3,3]重排 → D-A 串联
 
 ## 题目
 
-本题题干为反应式图片，见原始 OCR 文件。
+本题题干为下列反应式图片：
 
-图片参考：ABOC202505_200-397_images/1cffdff7d0124de15b7a2f8b29dbc8b4ffaad83d7c6412cddc213d6f433fdbae.jpg
+![[1cffdff7d0124de15b7a2f8b29dbc8b4ffaad83d7c6412cddc213d6f433fdbae.jpg]]
 
 ## 参考答案
 

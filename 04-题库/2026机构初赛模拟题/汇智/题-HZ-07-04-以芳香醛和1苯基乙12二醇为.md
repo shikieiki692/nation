@@ -19,6 +19,7 @@ pack: 综合模拟卷
 submodule: 汇智
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
+source_tier: 2
 source_norm: "汇智-2.7杭州有机化学班第三天练习题"
 source_file: "2026机构初赛模拟题/08-汇智/2.7杭州有机化学班第三天练习题.md"
 ---

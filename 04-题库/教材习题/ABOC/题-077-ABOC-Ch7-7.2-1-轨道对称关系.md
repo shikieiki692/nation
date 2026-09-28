@@ -11,17 +11,18 @@ teaching_level: 拓展
 syllabus_codes: ["49", "22"]
 knowledge_points: ["[[前线轨道理论]]", "[[有机分子轨道]]", "[[Diels-Alder反应]]"]
 tags: [化竞, ABOC, 有机化学, 自学练习]
-updated: 2026-05-10
+updated: 2026-09-25
 source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第7章-周环反应]]"
 aliases: [ABOC-Ch7-7.2-1]
 source: ABOC 第7章 自学练习 7.2-1（ARX's Basic Organic Chemistry 第3版）
-cross_references: ["[[04-题库/教材习题/ABOC/题-059-ABOC-Ch7-T3-周环反应综合热光选择性]]"]
+cross_references: []
 module: 有机化学
 status: 已填充
 subject_module: 有机化学
 pack: 模块习题集
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_tier: 4
 source_norm: "ABOC 有机化学"
 ---
 # 题-077：轨道对称关系

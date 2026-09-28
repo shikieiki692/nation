@@ -10,7 +10,7 @@ teaching_level: 拓展
 syllabus_codes: ["21"]
 knowledge_points: ["[[羧酸衍生物]]"]
 tags: [化竞, Clayden, 有机化学, 有机化学]
-updated: 2026-07-25
+updated: 2026-09-24
 aliases: [Clayden-Ch10-P9]
 source: Clayden Organic Chemistry 2nd Ed. Chapter 10 Problem 9
 cross_references: ["[[题-368-Clayden-Ch12-P1-酯取代中间体两个碳正离子稳定性]]", "[[题-369-Clayden-Ch12-P2-三阶酮水解机理推导]]", "[[题-336-Clayden-Ch7-P1-共轭判断和弯曲箭头表示]]", "[[题-337-Clayden-Ch7-P2-复杂化合物中共轭体系范围]]"]
@@ -20,6 +20,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 教材课后习题
 source_grade: C
+source_tier: 5
 source_norm: "Clayden 有机化学"
 ---
 # 题-353: 酸/碱条件下酰胺-酯平衡方向
@@ -73,8 +74,3 @@ The amine attacks the ester in the usual way to give the tetrahedral intermediat
 | 认为碱性条件促进胺的亲核性 | 没有考虑胺的质子化状态 | 碱性条件下胺是游离的，有亲核性；但产物酚被去质子化，使逆反应困难 | 为什么碱性条件下平衡向右移动？ |
 | 忽略酚的酸性 | 认为酚和醇相似 | 酚的pKa = 10，比醇（pKa ≈ 15）酸性强得多 | 酚的酸性为什么比醇强？ |
 | 混淆质子化位置 | 认为质子化发生在酯的羰基上 | 酸性条件下胺被质子化，失去亲核性 | 如何用Le Chatelier原理解释？ |
-
-## 图片资源
-- 题目图片：[[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/c6490c3614794e0110bfddb357aed98686c83252110200a4c9f50056682d7691.jpg]]
-- 答案图片1：[[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/c5c8b0b913bb21e3c0be42a8590c34a4bf297d642bc96e58240025f64dc0ae80.jpg]]
-- 答案图片2：[[06-外部资料导入/clayden 有机习题/课后习题答案及解析clayden-SolutionsManualtoAccompanyOrganicChemistry_1-199_images/714160e6ca2bf9e7570b5b9f0c3c6b4b26febbcce4a32b03aabc5daf8353be8b.jpg]]

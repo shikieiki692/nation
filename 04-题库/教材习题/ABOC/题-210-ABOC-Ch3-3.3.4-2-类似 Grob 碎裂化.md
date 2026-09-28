@@ -10,19 +10,22 @@ teaching_level: 巩固
 syllabus_codes: ["33"]
 knowledge_points: ["[[烯烃]]", "[[亲电加成]]", "[[Markovnikov规则]]"]
 tags: [化竞, ABOC, 有机化学]
-updated: 2026-09-22
+updated: 2026-09-23
 source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第3章-烯烃加成]]"
 aliases: [ABOC-Ch3-3.3.4-2]
 source: ABOC 第3章 自学练习（ARX's Basic Organic Chemistry 第3版）
 cross_references: ["[[04-题库/教材习题/ABOC/题-109-ABOC-Ch3-3.1.1-在Clayden 教材中存在一个著名的错误]]", "[[04-题库/教材习题/ABOC/题-208-ABOC-Ch3-3.2.3-这里只能反式消除 正负不要漏]]", "[[04-题库/教材习题/ABOC/题-209-ABOC-Ch3-3.3.4-1-无法形成形式上的二醇]]", "[[04-题库/教材习题/ABOC/题-211-ABOC-Ch3-3.6-环氧乙烷 硫化氢 然后与盐酸 ZnCl 反应即可自学练习 3]]", "[[04-题库/教材习题/ABOC/题-207-ABOC-Ch3-3.2.2-自己看书]]"]
 module: 基础要求-有机化学
 status: deprecated
-superseded_by: ""
+superseded_by: null
+replacement_status: 无替代
+consumption_status: 退役
 deprecation_reason: "注销：原书查无 3.3.4-2 题号（MinerU OCR 源 ABOC202505_1-200.md L2504 证实 3.3.4 系列仅 3.3.4-1），本卡系拆题误立；碎片图片为 Wharton 反应/Grob 碎裂化相关解析，保留待人工归位复核（2026-09-22 第2批）"
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_tier: 4
 source_norm: "ABOC 有机化学"
 ---
 # 题-210：类似 Grob 碎裂化。

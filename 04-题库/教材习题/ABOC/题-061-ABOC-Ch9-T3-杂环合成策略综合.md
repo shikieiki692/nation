@@ -11,23 +11,31 @@ teaching_level: 拓展
 syllabus_codes: ["50", "52"]
 knowledge_points: ["[[Fischer吲哚合成]]", "[[吡啶化学]]", "[[杂环合成]]", "[[芳香亲核取代]]"]
 tags: [化竞, ABOC, 有机化学]
-updated: 2026-05-10
+updated: 2026-09-22
 source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第9章-杂环合成]]"
 aliases: [ABOC-Ch9-T3]
 source: ABOC 第9章 章末习题 T3（ARX's Basic Organic Chemistry 第3版）
 cross_references: ["[[04-题库/教材习题/ABOC/题-047-ABOC-FT1-P2-EX1-氢键导向分子内反应]]", "[[04-题库/教材习题/ABOC/题-050-ABOC-FT1-P2-EX4-吡啶官能团化PADI催化]]"]
 module: 有机化学
+qid: ABOC-Ch9-T3
+used_in: ["[[09-审计报告/2026-09-22-知识库全量体检报告]]"]
 status: deprecated
 deprecation_reason: "自编冒充原书转录且目标分子缺失无法作答，2026-08-30 质量剔除；无取代文件，故 superseded_by 留空"
+superseded_by: null
+replacement_status: 无替代
+answer_status: 不适用
+question_image_status: 不适用
+consumption_status: 退役
 subject_module: 有机化学
 pack: 模块习题集
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_tier: 4
 source_norm: "ABOC 有机化学"
 ---
 # 题-061：杂环合成策略综合
 
-> [!warning] 已弃用（2026-08-30）：经核实，本题并非原书 T3 的忠实转录，而是改编时自行拟写的原创题；目标分子缺失（仅有"部分结构式见原书图片"占位），内容与 ABOC 第9章 T3 完全不符，无法据以作答，故标记 deprecated，不再进入题组。
+> [!warning] 已弃用（2026-08-30）：经核实，本题并非原书 T3 的忠实转录，而是改编时自行拟写的原创题；目标分子缺失（仅有"部分结构式见原书图片"占位），内容与 ABOC 第9章 T3 完全不符，无法据以作答，故标记 deprecated，不再进入题组。退役卡不再按活动题目统计题图状态。
 
 ## 题目
 

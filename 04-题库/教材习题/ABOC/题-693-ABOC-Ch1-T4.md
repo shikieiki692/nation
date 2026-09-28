@@ -10,7 +10,10 @@ teaching_level: 拓展
 syllabus_codes: ["31"]
 knowledge_points: ["[[晶体结构基础]]", "[[Lewis酸碱理论]]", "[[电子效应]]", "[[碳正离子]]"]
 tags: [化竞, ABOC, 有机化学]
-updated: 2026-07-04
+updated: 2026-09-24
+answer_status: 待补
+consumption_status: 隔离
+replacement_status: 无替代
 source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第1章-绪论]]"
 aliases: [ABOC-Ch1-T4-693]
 source: ABOC 第1章 章末习题 T4（真题/模拟题改编，非原书逐字内容）
@@ -21,6 +24,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_tier: 4
 source_norm: "ABOC 有机化学"
 ---
 # 题-693：（33 届初赛）结构分配错误
@@ -70,6 +74,8 @@ source_norm: "ABOC 有机化学"
 
 ---
 
+> [!warning] 退出正式组卷池：题面及题面图完整，但正确机理图和重排产物图仍写“见原书”，答案不能独立使用。待补齐答案图后再复核解锁。
+
 ## 参考答案
 
 （自原书 OCR 提取）
@@ -97,5 +103,5 @@ source_norm: "ABOC 有机化学"
 ## 相关题目
 
 - [[题-053-ABOC-Ch1-T1-金刚烷合成]]
-- [[题-054-ABOC-Ch2-T3-硫叶立德vs半缩硫醛选择性]]
+- [[题-054-ABOC-Ch2-T3-二溴代烃与氨的取代成环]]
 - [[题-055-ABOC-Ch3-T3-特殊氧化烯烃邻二醇切断]]

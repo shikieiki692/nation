@@ -19,6 +19,7 @@ updated: 2026-09-22
 status: 待审核
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
+source_tier: 4
 ---
 # HChO方-27 二氧化碳与二硫化碳在热铜上的转化（1.5 分）
 

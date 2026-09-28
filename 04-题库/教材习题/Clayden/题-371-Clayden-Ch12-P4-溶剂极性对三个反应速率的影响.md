@@ -20,7 +20,14 @@ subject_module: 有机化学
 pack: 模块习题集
 source_category: 教材课后习题
 source_grade: C
+source_tier: 5
 source_norm: "Clayden 有机化学"
+answer_status: 完整
+consumption_status: 可用
+question_image_status: 已核验匹配
+image_audit_status: 已核验匹配
+replacement_status: 无替代
+withdrawn_checked: false
 ---
 # 题-371: 溶剂极性对三个反应速率的影响
 

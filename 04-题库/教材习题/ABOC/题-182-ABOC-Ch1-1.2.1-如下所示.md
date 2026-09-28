@@ -17,12 +17,15 @@ source: ABOC 第1章 自学练习（ARX's Basic Organic Chemistry 第3版）
 cross_references: ["[[04-题库/教材习题/ABOC/题-674-ABOC-Ch1-T2]]", "[[04-题库/教材习题/ABOC/题-684-ABOC-Ch1-T8]]", "[[04-题库/教材习题/ABOC/题-662-ABOC-Ch1-T8]]", "[[04-题库/教材习题/ABOC/题-702-ABOC-Ch1-T2]]", "[[04-题库/教材习题/ABOC/题-679-ABOC-Ch1-T2]]"]
 module: 基础要求-有机化学
 status: deprecated
+consumption_status: 退役
+replacement_status: 已替代
 superseded_by: "[[题-081-ABOC-Ch1-1.2.1-根据下列实验数据判断 与羧基相连的基团的诱导效应是吸电子的还]]"
 deprecation_reason: "原书「习题解析」节答案碎片，缺真实题干，与前段完整题卡 题-81 为同一题，按一题一卡收口标废（2026-09-22 题库体检 P0-3 修复）"
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_tier: 4
 source_norm: "ABOC 有机化学"
 ---
 # 题-182：如下所示：

@@ -11,7 +11,8 @@ teaching_level: 拓展
 syllabus_codes: ["43"]
 knowledge_points: ["[[Claisen缩合]]", "[[乙酰乙酸乙酯合成法]]"]
 tags: [化竞, 题目, 有机化学, 第三轮]
-updated: 2026-06-06
+updated: 2026-09-23
+used_in: []
 aliases: ["题-有机-羰基-02"]
 source: "专题页提炼"
 module: 有机化学
@@ -20,6 +21,7 @@ subject_module: 有机化学
 pack: 模块习题集
 source_category: 其他类型·自编章节题
 source_grade: B-
+source_tier: 4
 source_norm: "自编·有机化学"
 ---
 # Claisen 酯缩合与乙酰乙酸乙酯合成法
@@ -50,7 +52,7 @@ source_norm: "自编·有机化学"
 $$
 \mathrm{CH_3CO_2C_2H_5 + EtO^- \rightleftharpoons {}^-CH_2CO_2C_2H_5 + EtOH}
 $$
-乙酸乙酯的 $\alpha$-H 的 $\mathrm{p}K_\mathrm{a} \approx 25$，$\mathrm{EtO^-}$ 可以将其定量去质子化。
+乙酸乙酯的 $\alpha$-H 的 $\mathrm{p}K_\mathrm{a} \approx 25$，$\mathrm{EtO^-}$ 只能建立少量烯醇负离子平衡，但后续缩合会不断消耗烯醇负离子。
 
 **Step 2 ——亲核加成**：
 烯醇负离子进攻另一分子乙酸乙酯的羰基碳，形成四面体中间体：
@@ -81,10 +83,10 @@ $$
 
 #### (a) 合成 2-丁酮 $\mathrm{CH_3COCH_2CH_3}$
 
-2-丁酮与乙酰乙酸乙酯的区别在于 $\alpha$-位被乙基取代（而非 H）。只需一次烷基化：
+2-丁酮与乙酰乙酸乙酯经脱羧得到的丙酮骨架相比，需要在 $\alpha$-位引入一个甲基。只需一次甲基化：
 
 1. $\mathrm{CH_3COCH_2CO_2Et \xrightarrow{NaOEt/EtOH} CH_3CO{}^-CHCO_2Et}$
-2. $\mathrm{+ CH_3CH_2I\;(S_N2) \longrightarrow CH_3COCH(CO_2Et)CH_2CH_3}$
+2. $\mathrm{+ CH_3I\;(S_N2) \longrightarrow CH_3COCH(CH_3)CO_2Et}$
 3. $\xrightarrow{NaOH/H_2O,\;\Delta}$（水解 + 脱羧）$\longrightarrow \mathrm{CH_3COCH_2CH_3 + CO_2 + EtOH}$
 
 #### (b) 合成 3-甲基-2-戊酮 $\mathrm{CH_3COCH(CH_3)CH_2CH_3}$

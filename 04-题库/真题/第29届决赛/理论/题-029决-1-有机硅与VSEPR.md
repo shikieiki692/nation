@@ -30,6 +30,7 @@ subject_module: 结构化学
 pack: 综合模拟卷
 source_category: 竞赛导向·真题
 source_grade: A
+source_tier: 3
 source_norm: "第29届决赛"
 used_in: "[[第一轮结构·3-分子结构（教师版）]]"
 ---

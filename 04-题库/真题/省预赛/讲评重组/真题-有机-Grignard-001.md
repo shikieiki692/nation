@@ -11,7 +11,7 @@ knowledge_points: ["[[Grignard试剂]]"]
 tags: [化竞, 真题, 有机化学, Grignard试剂]
 related_notes:
   - "[[专题-有机合成与金属有机]]"
-updated: 2026-09-19
+updated: 2026-09-24
 teaching_level: 巩固
 fidelity: 原书改写
 exam_stage: 省预赛
@@ -19,6 +19,7 @@ subject_module: 有机化学
 pack: 预赛专项
 source_category: 竞赛导向·真题（省级）
 source_grade: A
+source_tier: 1
 source_norm: "省预赛·讲评重组"
 ---
 
@@ -36,7 +37,7 @@ source_norm: "省预赛·讲评重组"
 
 (4) 在制备 Grignard 试剂时，能否使用乙醇或丙酮作为溶剂？为什么？应使用何种溶剂？
 
-![[grignard-mechanism-phbr-to-phcooh.png]]
+![[8cc374c48dba61e217c9529a3aa465f02dff8af3a0f649b08c64099b36db9e50.jpg]]
 
 ## 解析
 

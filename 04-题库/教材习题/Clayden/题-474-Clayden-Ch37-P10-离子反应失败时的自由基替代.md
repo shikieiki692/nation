@@ -22,7 +22,14 @@ pack: 模块习题集
 used_in: ["[[有机化学阶段测试卷]]", "[[04-题库/有机化学阶段测试卷]]"]
 source_category: 教材课后习题
 source_grade: C
+source_tier: 5
 source_norm: "Clayden 有机化学"
+answer_status: 完整
+consumption_status: 可用
+question_image_status: 已核验匹配
+image_audit_status: 已核验匹配
+replacement_status: 无替代
+withdrawn_checked: false
 ---
 # 题-474: 自由基替代离子反应——碘内酯化+自由基烯丙基化
 
@@ -32,9 +39,9 @@ source_norm: "Clayden 有机化学"
 
 **【原文】**How would you make the starting material for this sequence of reactions? Give a mechanism for the first reaction that explains its regio- and stereoselectivity. Your answer should include a conformational drawing of the product. What is the mechanism of the last step? Attempts to carry out this last step by iodine/lithium exchange and reaction with allyl bromide failed. Why? Why is the alternative shown here successful?
 
-![[1af86c62a92cc68f2812da3fad653257554972bf289a775fad4349449be298de.jpg]]
+![[428ea5a97d5d4306d96d6a543614d5226f7b592e8a49d3c0f916a485e601c92b.jpg]]
 
-**原文题目**：How would you make the starting material for this sequence of reactions? Give a mechanism for the first reaction that explains its regio- and stereoselectivity. Your answer should include a conformational drawing of the product. What is the mechanism of the last step? Attempts to carry out this last step by iodine/lithium exchange and reaction with allyl bromide failed. Why? Why is the alternative shown here successful?
+
 
 ## 参考答案
 

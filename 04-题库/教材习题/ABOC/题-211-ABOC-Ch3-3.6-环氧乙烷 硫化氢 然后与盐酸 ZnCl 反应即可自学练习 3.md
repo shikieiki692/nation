@@ -17,12 +17,15 @@ source: ABOC 第3章 自学练习（ARX's Basic Organic Chemistry 第3版）
 cross_references: ["[[04-题库/教材习题/ABOC/题-109-ABOC-Ch3-3.1.1-在Clayden 教材中存在一个著名的错误]]", "[[04-题库/教材习题/ABOC/题-210-ABOC-Ch3-3.3.4-2-类似 Grob 碎裂化]]", "[[04-题库/教材习题/ABOC/题-208-ABOC-Ch3-3.2.3-这里只能反式消除 正负不要漏]]", "[[04-题库/教材习题/ABOC/题-209-ABOC-Ch3-3.3.4-1-无法形成形式上的二醇]]", "[[04-题库/教材习题/ABOC/题-207-ABOC-Ch3-3.2.2-自己看书]]"]
 module: 基础要求-有机化学
 status: deprecated
+consumption_status: 退役
+replacement_status: 已替代
 superseded_by: "[[题-115-ABOC-Ch3-3.5-以环氧乙烷为原料 设计一种合成芥子气的方法]]"
 deprecation_reason: "原书自学练习 3.5（合成芥子气）的「习题解析」节答案碎片（粘连 3.10 开头系 OCR 粘连），与题-115 一题两文件，按一题一卡收口标废（2026-09-22 第2批回源侦察修正第1批『无对应题卡』判断）"
 subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_tier: 4
 source_norm: "ABOC 有机化学"
 ---
 # 题-211：环氧乙烷+硫化氢，然后与盐酸+ZnCl 反应即可自学练习 3.10 羟基诱导。

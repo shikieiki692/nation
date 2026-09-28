@@ -10,7 +10,10 @@ teaching_level: 巩固
 syllabus_codes: ["32"]
 knowledge_points: ["[[亲电加成]]", "[[电子效应]]"]
 tags: [化竞, ABOC, 有机化学]
-updated: 2026-07-04
+updated: 2026-09-24
+answer_status: 待补
+consumption_status: 隔离
+replacement_status: 无替代
 source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第2章-基本反应]]"
 aliases: [ABOC-Ch2-2.10.1]
 source: ABOC 第2章 自学练习（ARX's Basic Organic Chemistry 第3版）
@@ -20,6 +23,7 @@ subject_module: 有机化学
 pack: 章节练习
 source_category: 竞赛导向·竞赛教材
 source_grade: B
+source_tier: 4
 source_norm: "ABOC 有机化学"
 ---
 # 题-106：下列化合物与等物质的量的 Br 发生加成反应时，可能得到哪些产物？
@@ -29,6 +33,8 @@ source_norm: "ABOC 有机化学"
 > **教学层级**：巩固
 
 ---
+
+> [!warning] 质量隔离：题面只写“下列化合物”，但待加成底物的结构式缺失；现有结构仅出现在答案图中，不能反推或上移为题面。回源补齐真实题面图前禁止组卷。
 
 ## 题目
 
