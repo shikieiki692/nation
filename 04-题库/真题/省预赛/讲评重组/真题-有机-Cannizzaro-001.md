@@ -19,7 +19,7 @@ subject_module: 有机化学
 pack: 初赛专项
 source_category: 竞赛导向·真题（全国初赛）
 source_grade: A
-source_tier: 1
+source_tier: 4
 source_norm: "第34届初赛"
 ---
 # Cannizzaro反应的同位素示踪与速率方程
