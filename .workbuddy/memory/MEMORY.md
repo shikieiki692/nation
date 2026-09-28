@@ -91,5 +91,21 @@
 
 - 06-外部资料导入已全部 OCR/抽文本完毕（pdf 仅为源留痕）；PDF 不入 git；MinerU 产物剥 `<div class="mineru-algorithm">`。
 - 初赛模拟卷：只排除国内初赛真题；只 `difficulty≥4`＋目检；卷 I~IX 已成（144 卡）。
-- 讲义密度：判据句∶叙述≈1∶9.3，⛔不可用符号数量判密度；删板块不连带删信息（就地并入正文）。
+- 讲义密度：判据句∶叙述≈1∶9.3；⛔不可用符号数量判密度；删板块不连带删信息（就地并入正文）。
 - 图片：图库不受版本控制只移不删，判据只用像素。打印版：三段式、绝不染指 md 源。
+
+## 六、🔴 隔离索引提交的「基线过旧 ⇒ 误回退」陷阱（2026-09-28 实测）
+
+- **现象**：多会话并行时，A 会话执行 `git read-tree HEAD` → `git add` → `git commit`；若 B 会话在 read-tree 与 commit 之间提交了 C，则 A 的提交**父为 C 但树基于旧 HEAD**，结果把 C 的改动整批回退（实测出现过 9331 文件级误回退、以及 2 份讲义 md+docx 被回退后由 B 会话用「恢复」提交救回）。
+- **加固写法（提交前二次锁基线）**：
+  ```bash
+  BASE=$(git rev-parse HEAD)
+  export GIT_INDEX_FILE=.workbuddy/tmp/index_xxx
+  git read-tree "$BASE"; git add -- <本会话文件>
+  NOW=$(git rev-parse HEAD)
+  [ "$BASE" = "$NOW" ] || { git read-tree "$NOW"; git add -- <本会话文件>; }   # 基线被并行会话前移 ⇒ 重挂
+  git commit -q -m "..."
+  ```
+- **提交后必核**：`git diff-tree --no-commit-id --name-only -r HEAD | wc -l` 须**等于本会话文件数**（多出即发生了回退）；再看 `git log --oneline -3` 是否出现「恢复…误回退」类提交。
+- **判据**：`git show --stat HEAD` 的 `files changed` 与本会话文件数不符 ⇒ 立即用 `git checkout <被误删文件>` / 从 `git reflog` 定位恢复，并单独提交一笔「恢复」。
+- ⚠️ 仓库工作区长期处于高脏度（实测 2114 ` M` / 785 ` D` / 861 `??`），**不得**用 `git add -A` 或全库 `git status` 结论去判断自己的产物是否落地——**只按本会话文件路径核验**。
