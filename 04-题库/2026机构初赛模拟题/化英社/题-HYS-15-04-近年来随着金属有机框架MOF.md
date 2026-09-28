@@ -66,6 +66,8 @@ Hdbm
 
 ## 参考答案
 
+
+
 ### 第 4 题 四嗪配合物（19 分，占 9%）
 ![](images/e5ac8a34c85c6d9304c68ce097c415ceee38fe9feb2418591ff57ec3335c4356.jpg)
 ![](images/66d13ef950e9ecee49cb50aac0ccc5539d228eef760e02320a1909448732eb48.jpg)
@@ -80,8 +82,8 @@ Ti 上电子填入了 ttz 低能的 $\pi^{*}$ 轨道，降低了 Ti 中心电子
 ![](images/2152b8c7338cd8c4c98e1ad216b5b82f59a5e6d04bd269ef04b2bb2f1591a087.jpg)
 (3 分)
 4.3.2（思考题，不计入总分）对于 $3,3'$ -bptz，其可以与 Cd 形成化合物 $\mathrm{Cd}_{2}(3,3'\text{-bptz})_{n}(\mathrm{NO}_{3})_{4}$ ，其为梯形一椎长链结构，亚硝酸根不参与桥联，Cd 为 7 配位，且四嗪氮不再参与配位，画出其结构。
-![](images/3005d9a2baf04c3437b00c251a36f2044cf79fdec
 
+![](images/3005d9a2baf04c3437b00c251a36f2044cf79fdec7e200b2a395a3fc3d85a2ef.jpg)
 
 ## 知识点映射
 
