@@ -206,9 +206,7 @@ def main():
             k = int(mh.group(1))
             out.append("### %s.%s（%s）" % (mh.group(1), mh.group(2).strip(), mods_span[k]))
             if k in mods_note:
-                # 已有同内容分段注则不重复插入
-                if not (i + 1 < len(lines) and lines[i + 1].strip() == "> " + mods_note[k]):
-                    out.append("> " + mods_note[k])
+                out.append("> " + mods_note[k])      # 一律重写；旧注由下面统一丢弃
             n3 += 1
             i += 1
             continue
