@@ -71,7 +71,25 @@ a）粉末状    b）层状    c）针状    d）鱼籽状
 
 ## 参考答案
 
-⛔ **源池含本题解答（待人工核录入）**：源文件 `五一伽马杭州答案1.md` 中已按题面指纹定位到本题解答（77 字 / 5 图，自动定位），因其为**手写批注稿 / 讲稿口述**，未自动录入，建议人工核后补入。
+第 5 题 (17 分, 8%) Sb(III)配合物的结构
+![](images/a04c3c900d23e36e7d6039501ae8082f8c1c8628d9c4dc3bb6388fba2b50d963.jpg)
+解答：
+![](images/94f63c0e4e0f896866b3472eb093310f90068aab380489c498a769c8df0b37b2.jpg)
+4 分
+![](images/873ac30acf0c509ae970d09ae2b3c9d7a795b016abfde922da5f83cc82d57981.jpg)
+5.2.1 写出该配合物的化学式。
+解答:
+$$
+\mathrm{Sb} \left(\left(\mathrm{CH} _{3} \mathrm{CH} _{2}\right) _{2} \mathrm{C} (\mathrm{OH}) \mathrm{CH} _{2} \mathrm{NH} _{3}\right) \left(\mathrm{C} _{6} \mathrm{H} _{4} \mathrm{O} _{2}\right) _{2} \quad 2 \text {分}
+$$
+![](images/dd65aa0f193db17a52648d9894db1666d6b13ba073c5496e703c38d62cdfa1fb.jpg)
+3 分
+![](images/155bfd4f8534992c7bd989d086a2c36b6eb811123f28f0b0f02862e7d19f0128.jpg)
+4 分，骨架正确 2 分，氢键表示正确 2 分
+a）粉末状    b）层状    c）针状    d）鱼籽状
+c）1 分微观链状结构使晶体在单一方向生长较快，表现为细长的针状 2 分
+
+
 
 ## 知识点映射
 

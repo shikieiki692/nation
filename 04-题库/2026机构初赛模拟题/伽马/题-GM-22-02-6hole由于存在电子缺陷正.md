@@ -112,7 +112,34 @@ $$
 
 ## 参考答案
 
-⛔ **源池含本题解答（待人工核录入）**：源文件 `五一伽马杭州答案2.md` 中已按题面指纹定位到本题解答（36 字 / 8 图，自动定位），因其为**手写批注稿 / 讲稿口述**，未自动录入，建议人工核后补入。
+第2题 卤键（17分，占总分的 $9\%$ ）
+卤素对烯烃亲电加成鎓离子形成的过渡态 2 分
+![](images/de473a36adbc2bd6de19d909a1d8d9bcf47e00f6a95153cfd02c07c52fb9bdba.jpg)
+D-X……D
+(a)
+![](images/fe4be81443bd66d150ccba73f9f2e6f7d9b08ffafb9f425c75acac495ec7a233.jpg)
+(b)
+(a) > (b) > (c) 2 分
+(c)
+(a)
+![](images/62bef569ecb11e8abe4cd170c53c388036e6aa8c2111df3d3d4dd89b2c149b39.jpg)
+(b)
+![](images/286b46ee4c3eb9dd3417e5e0828365f53e9ec1435f89d87a26a9f2754e0b6bf1.jpg)
+(c)
+![](images/eda6ef7b0466d9fdf2bba4dab477f542daa8c2a105416cdf4d5d348eb9efe6b1.jpg)
+(d)
+![](images/368f6404f602067df0451e9f0c76ec967a8479f8edc7761b3b4bfcfcf8887611.jpg)
+(a) > (c) > (b) > (d) 3 分
+4分
+![](images/7199496a08b896e43d96b1bef049f7dd34c74e8b9359dde43bb6ee22b2e3d5c4.jpg)
+$L^{3+}$
+参考图形
+![](images/9e116314a1937d66b12ec0df5c50f71a9914ef6b241a1421341ef32e157b087f.jpg)
+$$
+4 \mathrm{L} (\mathrm{PF} _{6}) _{3 +} 6 \mathrm{AgPF} _{6} + 6 \mathrm{I} _{2} = 6 \mathrm{AgI} + \mathrm{L} _{4} \mathrm{I} _{6} (\mathrm{PF} _{6}) _{1 8} \quad 2 \text {分}
+$$
+
+
 
 ## 知识点映射
 

@@ -53,7 +53,36 @@ DNA是对生命现象非常重要的一种生物大分子，是决定生命遗�
 
 ## 参考答案
 
-⛔ **源池含本题解答（待人工核录入）**：源文件 `第42届Chemy联赛决赛试题答案.md` 中已按题面指纹定位到本题解答（240 字 / 10 图，自动定位），因其为**手写批注稿 / 讲稿口述**，未自动录入，建议人工核后补入。
+第 1 题 DNA 及其螺旋 (20 分)
+![](images/7d08cdf1134cd4126e2be82868ff7cdbc7e7ff52c19d824daeb8e5a788cc9b8d.jpg)
+A
+![](images/fe1b16157fd6b79e2493436c3ff7ad0d7978bd5b4f7c801bfe7e95a28c5ea1d4.jpg)
+G
+![](images/39eccfae8d8a764b221627e2a1e9acddbebbafc4df251f5accf4ada7d6600526.jpg)
+C
+![](images/3e9176a5652a466534094c9f5ba637b6de34ab9f0bee5329750d66fe776a9264.jpg)
+1.1.1 T·A\*T 1.1.2 C·G\*C $^{+}$ (C 被质子化) 1.1.3 T·A\*A 1.1.4 C·G\*G
+![](images/e4f2bc0479745391422187212b7746c2e4a5f31ec086fab84b72d55c80b01eb8.jpg)
+![](images/795520c82634a7b0e7e39cca9467d4cddd72133b7e972c54c5856ef6ffdf52b8.jpg)
+![](images/cfec22dfe744c53025140f3c2e6c910d55f2ffc336e7cee4d6fdb345d4df450b.jpg)
+![](images/02605bf8680df5804babdd2c689bcf58ec504c1d6cb84f5f37044027bf76ae3e.jpg)
+每个结构 2 分；形成氢键的方向、顺反、或质子化位置错误，不得分。
+![](images/a98ffb16a481d713ed4cb0929ab5c87d95f83c13bb0f2e546242acfdda4617c1.jpg)
+1.2.1（共3分）
+(TC) $_{s}$ 或 TCTCTCTCTCTCTCTCTC (1分)
+(GA) $_{8}$ 或 GAGAGAGAGAGAGAGA (1 分)
+(CT) $_{s}$ 或 CTCTCTCTCTCTCTCT (1分)
+1.2.2 (共2分)
+酸性（1 分）。 $H^{+}$ 促使胞嘧啶质子化（1 分），形成三股螺旋时利于其以 Hoogsteen 氢键与鸟嘌呤配对
+1.2.3（2分）H-DNA三股链结构的存在可以物理性占据转录因子在DNA的正常结合位点；使一些转录因子(或聚合酶)难以与该区段结合：阻遏有关基因的表达；（2分）
+评分标准：阻碍表达、难结合聚合酶/转录因子、干扰DNA正常修复等，答出任何1点，或有其他合理解释的，或答出抑制/阻碍表达的其他表述，都可以；答发挥激活转录和抑制转录的双重功能，或只答激活转录，也可以。
+也可以只要有字就给分。
+1.3.1 (共3分)
+![](images/4b5a8157f2575f58b6e51171bc848984343fe175ab3bf2e609b411cfbe9dc65f.jpg)
+1.3.2（共2分）配位原子为O，配位数为8
+##
+
+
 
 ## 知识点映射
 

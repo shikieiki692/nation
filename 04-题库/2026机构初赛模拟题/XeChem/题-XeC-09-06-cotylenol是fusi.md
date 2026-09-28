@@ -69,7 +69,46 @@ source_file: "2026机构初赛模拟题/03-XeChem/Xechem模拟9（有机）.md"
 
 ## 参考答案
 
-⛔ **源池含本题解答（待人工核录入）**：源文件 `Xechem有机答案.md` 中已按题面指纹定位到本题解答（73 字 / 15 图，自动定位），因其为**手写批注稿 / 讲稿口述**，未自动录入，建议人工核后补入。
+第6题 Total Synthesis of (-)-Cotylenol（共42分，占16%）
+![](images/23fd5497cd66c4c67b6d6193fe6aa20eaf1e44bc57d8be7b2305cc17a9af9c3b.jpg)
+![](images/e45572ff431ab406f7e077497e8feb52651ab185668cf5731b20932577a7c28d.jpg)
+![](images/ee201d165ba1764f350ab21e4b91a619081b3c53a2434f20a4d98c8988c8b931.jpg)
+![](images/2b6001ec632b52e314d3fc4762e4c05d611a7e53af5930841f37fa481777df23.jpg)
+6-2 随后课题组拟采用晾砌块 C 与砌块 B 连接得到两片段连接的产物 D，作者首先采用如下条件进行反应，实现两片段连接，(Tris 为 2,4,6-三异丙基苯磺酰胺)
+$$
+\mathrm{HO} _{2} \mathrm{O} _{\mathrm{Me}} \mathrm{N} _{\mathrm{HTRis}}
+$$
+$$
+\mathrm{HO}
+$$
+$$
+\mathrm{OMe}
+$$
+$$
+\mathrm{LiO} \quad \mathrm{OMe} \quad \mathrm{N} \quad \mathrm{N} \quad \mathrm{I}
+$$
+$$
+\begin{array}{c} \text {MeO} \\ \text {LiO} \\ \text {SAr} \end{array} \begin{array}{c} \text {HO} \\ \text {Me} \\ \text {iPr} \end{array}
+$$
+$$
+\mathrm{MeO} _{\text {   }} \mathrm{HO} _{\text {   }} \mathrm{Me} _{\text {   }} \mathrm{Pr}
+$$
+轻基诱导以及底物构象限制
+![](images/1a82b7ad3a3a39afdb39ba95a65c441932216552162484f0a8c17e2cd4829f00.jpg)
+![](images/302e2a83ef3d66290e0ccadb46e54ac0e31a6d06c304b91637c2d4a532263423.jpg)
+![](images/ee36b5b43dd22af15ca31fe39a680eef4c1686aeeb2feccbd5e29d029f415789.jpg)
+![](images/233d51a3cb9f2d3aed27bb20bdca728609a23f57289398f28e80f6c16b0efeb5.jpg)
+![](images/89d9d1672a6f45f61b431956e639739aa30c2d32e76f328a35cc35b08b37961f.jpg)
+![](images/703662e81d96bd6544c9647545c0c2b0cef192d6e9c829eb6cfd601a95547d0d.jpg)
+![](images/d890f9a5d6ee3f8a2e7ae9acb42768a9291a03c68498663c9e8f323b4e6dfaa3.jpg)
+![](images/1f6f130a8cb4ce2fdf7eca5762d14406af6b514992a458feff719e743dd881d2.jpg)
+$N_{2}H_{2}$
+![](images/84999a8b1d1635f484bf073673e5fa6c4ecbfb9eb3f9bcd349bc80127f50f253.jpg)
+## x e C h e m
+![](images/55ba7502c5453daa57e6e397ace51e10806b9e07be86e1b380470928019880ad.jpg)
+![](images/029cbfd3867c4e8549cef75880c7883f89acac2ac2e254fed2caa922fb7a89dd.jpg)
+
+
 
 ## 知识点映射
 

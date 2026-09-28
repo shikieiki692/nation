@@ -53,7 +53,7 @@ source_file: "2026机构初赛模拟题/07-化英社/第40届化英社化学奥�
 6-2-2 已知上述过程包含了 $\mathsf{SNP}_{\mathsf{C}}$ 与 $\mathsf{SNP}_{\mathsf{CL}}$ 之间的转化, 可进行如下的动力学建模:
 
 $$
-\mathrm{ACD} / \mathrm{SNP} _ {\mathrm{c}} \xrightarrow [ k _ {\mathrm{T}} ]{k _ {\mathrm{iso}}} \mathrm{ACD} / \mathrm{SNP} _ {\mathrm{CL}} \xrightarrow {k _ {\mathrm{a}}} \mathrm{ACD} / \mathrm{SNP} _ {\mathrm{CL}} ^ {*}
+\mathrm{ACD} / \mathrm{SNP} _{\mathrm{c}} \xrightarrow[ k _{\mathrm{T}} ]{k _{\mathrm{iso}}} \mathrm{ACD} / \mathrm{SNP} _{\mathrm{CL}} \xrightarrow {k _{\mathrm{a}}} \mathrm{ACD} / \mathrm{SNP} _{\mathrm{CL}} ^{*}
 $$
 
 其中 $k_{iso}$ 、 $k_{a}$ 与激发光的强度 $I_{exc}$ 成正比，比值为 p、q，投入体系的 ACD/SNP 物种总浓度为 $c_{0}$ 。荧光强度 $I_{f}$ 与激发态物种生成速率成正比，比值为 r。在达到光热异构化平衡后，将发生荧光强度 $I_{f}$ 用 $k_{T}$ 、 $I_{exc}$ 及给定的常数表示。
@@ -75,16 +75,49 @@ $$
 根据上述定义，推导出 n 的表达式，用 p、X、 $k_{T}$ 和 I 表示，要求表达式形式如下：
 
 $$
-n = \frac {d I ^ {2} + e I + f}{a I ^ {2} + b I + c}
+n = \frac {d I ^{2} + e I + f}{a I ^{2} + b I + c}
 $$
 
 根据实验测定： $p = 0.007$ ， $X = 0.07$ ， $k_{\mathrm{T}} = 0.8~\mathrm{s}^{-1}$ ，而当 $I = 30.24$ 时 $n$ 取到理论最大值，求出 $n$ 的理论最大值。
 
 ## 参考答案
 
-⛔ **源池含本题解答（待人工核录入）**：源文件 `第40届化英社化学奥林匹克（初赛）夏季模拟试题4参考答案.md` 中已按题面指纹定位到本题解答（71 字 / 5 图，自动定位），因其为**手写批注稿 / 讲稿口述**，未自动录入，建议人工核后补入。
+第6题 多光子激发荧光材料（24分，占 $13\%$ ）
+6-1 制备荧光分子探针SNP的步骤如下：
+![](images/e2a83d2a215c8ddfa62979573138e90ca43ab69f1f223d80f2c29a25e617b6c3.jpg)
+6-1-1 画出中间产物 $\mathbf{A}$ 的结构。
+![](images/b7eabe8e465d32ef0d3abd8da4af1fa5a152d8beeac2a17d67a32e458a698416.jpg)
+![](images/8b29cbbc088192058b6163f628277fda3058c41d709a1d4ff09bb9691712a1e5.jpg)
+![](images/3f8343e76ee595f53fa014c29d9a6af352daa668e3427cc3ccc60b6b8e3ed74c.jpg)
+![](images/2c48b8633366573315de585447f84c6a33737c498ffa8f4de69c5d4a46310122.jpg)
+   1: ACD 2: SNP 3: ACD (3分,各1分)   
+$$
+\mathrm{ACD} / \mathrm{SNP} _{\mathrm{c}} \xrightarrow[ k _{\mathrm{T}} ]{k _{\mathrm{iso}}} \mathrm{ACD} / \mathrm{SNP} _{\mathrm{CL}} \xrightarrow {k _{\mathrm{a}}} \mathrm{ACD} / \mathrm{SNP} _{\mathrm{CL}} ^{*}
+$$
+$$
+\begin{array}{r l} & {\text {由分布分数可知} [ \mathbf {A C D / S N P _{C L}} ] = \frac {k _{i s o}}{k _{i s o} + k _{T}} c _{0}, k _{i s o} = p I _{\mathrm{exc}} (2 \text {分})} \\ & {\qquad I _{f} = q r [ \mathbf {A C D / S N P _{C L}} ] I _{\mathrm{exc}} (1 \text {分})} \\ & {\qquad \text {带入得} I _{f} = \frac {p q r I _{\mathrm{exc}} ^{2}}{p I _{\mathrm{exc}} + k _{T}} c _{0} (2 \text {分})} \\ & {\qquad (\text {共} 5 \text {分})} \end{array}
+$$
+$$
+k _{\mathrm{T}}
+$$
+$$
+k _{2 5 0}
+$$
+$$
+= \left[ \frac {p (1 - X) I _{\mathrm{exc}} ^{2}}{p I _{\mathrm{exc}} + k _{T}} + X I _{\mathrm{exc}} \right] q r c _{0} (2 \text {分})
+$$
+$$
+n = \frac {\mathrm{d} \ln f}{\mathrm{d} \ln x} = \frac {x}{f} - \frac {\mathrm{d} f}{\mathrm{d} x}
+$$
+补充数学公式：若 $f(x) = \frac{ax^2 + bx}{cx + d}$ ，则导函数 $f'(x) = \frac{\mathrm{d}f}{\mathrm{d}x} = \frac{(2ax + b)(cx + d) - c(ax^2 + bx)}{(cx + d)^2}$
+$$
+n = \frac {d I ^{2} + e I + f}{a I ^{2} + b I + c}
+$$
+根据实验测定： $p = 0.007$ ， $X = 0.07$ ，
 
-> ⚠️ **源答案 OCR 公式损毁**：该题源答案已按指纹定位，但其中公式区 OCR 损坏过重（相邻 `$$` 无空行 / HTML 表格内公式 / 跨行未闭合 `$` / `\ce` 嵌套等），自动录入会致渲染失败，故退回本标注，需人工对照源 PDF 整理后补入。
+
+
+> ⚠️ **源答案 OCR 公式损毁**：该题源答案已按指纹定位，但其中公式区 OCR 损坏过重（相邻 `
 
 ## 知识点映射
 

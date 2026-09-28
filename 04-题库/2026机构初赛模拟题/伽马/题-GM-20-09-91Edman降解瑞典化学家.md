@@ -68,7 +68,7 @@ Tunable skeletal and peripheral editing with a common editing reagent
 
 9.2.4 事实上, 反应所加的 $\mathrm{H}_{2} \mathrm{O}$ 为底物的 20 当量, 从反应进行的角度, ( ) 不加入 DMSO 溶剂, 并解释原因。
 
-<table><tr><td>解答: b) 1分 DMSO配位能力比水强,配位Cs离子,增大CsF的溶解度和CsF通过氢键相互作用稳定反应中间体</td><td>1分</td></tr></table>
+   解答: b) 1分 DMSO配位能力比水强,配位Cs离子,增大CsF的溶解度和CsF通过氢键相互作用稳定反应中间体  1分   
 
 能想出这个原因的可以把自己脑袋卸下来装到神威太湖之光上了。
 
@@ -78,7 +78,32 @@ Tunable skeletal and peripheral editing with a common editing reagent
 
 ## 参考答案
 
-⛔ **源池含本题解答（待人工核录入）**：源文件 `五一伽马杭州答案1.md` 中已按题面指纹定位到本题解答（125 字 / 11 图，自动定位），因其为**手写批注稿 / 讲稿口述**，未自动录入，建议人工核后补入。
+第 9 题 (27 分, 10%) 氮杂环的反应
+![](images/a0d2521253e61ed5fd917d79ddf96571ae848df8964603146fc8bdbce48c2204.jpg)
+![](images/6106907ba4795d3a1e2a04ec1ec44cdb64b777fc878cb7225d5bfdc0e8ae3eb8.jpg)
+6 分，产物 2 分，转化过程 4 分
+![](images/04be76d5f703b46b7122af7ea1afe3e91e1649326103364d6946697155cb92e1.jpg)
+解答:
+![](images/f11c0923d002d1ce4d6596e2d70865f4de00e1e7eff0fc97d45c52cc0a109b3e.jpg)
+4 分，产物 2 分，转化过程 2 分
+S 的亲核性较 N 原子强，故环化反应是 S 进攻羰基碳，动力学有利 2 分
+![](images/ce3dd43e23618a50cd91414928a31901cf7750bbad16c20ec320f2735d253949.jpg)
+解答:
+![](images/3b9e725a0707ce101deb8389fa48f36d9c7ce7ba85926c658d749b8e3d531b1c.jpg)
+9.2.2 写出得到 A、B 的关键带电中间体（2 个）。
+解答:
+![](images/a1ba8f1d52ea04a9b1e778822ab2b489ab7cf6477ba373301e196a5e9aafcee4.jpg)
+2 分，或写成 N 连 Si 基负离子的形式
+![](images/508e65f39963195faceeb38797a78dd167acdd57e32dec725c1a09f136d11e69.jpg)
+解答：
+![](images/e75598211cc6cb681733b40c019b2b3673c3e8317b22854638e4b2661afbcc58.jpg)
+![](images/0208b34c13b0dc6fbf648366096f79e669d7d481744ab4eb0abd8e519578b9a0.jpg)
+![](images/b433914ea8141ce698c02da81b3165aa09faef9a4e47c31825a252c80d79fabe.jpg)
+9.2.4 事实上, 反应所加的 $\mathrm{H}_2\mathrm{O}$ 为底物的 20 当量, 从反应进行的角度, ( ) 不加入 DMSO 溶剂, 并解释原因。 a) 可以 b) 不可以
+解答:
+b）1分
+
+
 
 ## 知识点映射
 

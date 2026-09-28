@@ -48,13 +48,13 @@ source_file: "2026机构初赛模拟题/12-方圆/有机化学试卷讲解2.md"
 ![](images/49233bef3a6a26bef875eae9984baef6fdd7ca843c09003f5223eff7b7a9c49d.jpg)
 
 $$
-\mathrm{C} _ {17} \mathrm{H} _ {19} \mathrm{N} _ {3} \mathrm{O} _ {3} \mathrm{S}
+\mathrm{C} _{17} \mathrm{H} _{19} \mathrm{N} _{3} \mathrm{O} _{3} \mathrm{S}
 $$
 
 ![](images/af02169917277089d6856fc02b28a6922bc4b47af8503d4abcbff946fff6f689.jpg)
 
 $$
-_ {17} \mathrm{H} _ {21} \mathrm{N} _ {3} \mathrm{O} _ {3} \mathrm{S} ^ {2 +}
+_{17} \mathrm{H} _{21} \mathrm{N} _{3} \mathrm{O} _{3} \mathrm{S} ^{2 +}
 $$
 
 7-5 若只考虑 D 与 R-SH 的结合过程，艾美拉唑的立体异构体药效非常接近，解释原因。
@@ -64,7 +64,15 @@ E.
 
 ## 参考答案
 
-⛔ **源池含本题解答（待人工核录入）**：源文件 `有机化学测试2参考答案.md` 中已按题面指纹定位到本题解答（192 字 / 6 图，自动定位），因其为**手写批注稿 / 讲稿口述**，未自动录入，建议人工核后补入。
+第 7 题（11 分） 艾美拉唑
+   <img src="images/3d774d693971b5bd51a6db8a2ba23bb2708a3fa4856776929cce5873a0da7493.jpg"/>    <img src="images/dac57d5d9fa5358ef4ec07fdc1e6de339d6e83e950c2c108010dc37ab81c4056.jpg"/>(每个1分,共2分)    7-2 加入乙酸和三乙胺哪个更有利于反应2进行?解释原因。    三乙胺(0.5分)中和反应中产生的HCl,促进反应进行(或拔除硫醇的质子,增强其亲核性)(0.5分)(共1分)    7-3 艾美拉唑可被拆分为一对手性异构体,其中埃索美拉唑是艾美拉唑的S型异构体,它具有相对较好的药物活性,画出埃索美拉唑的结构式。在上述合成路线中,若要选择性合成埃索美拉唑,应当在哪一步合成时使用手性控制?(1、2或3)    <img src="images/15a4c492364c52fd9a2e7c7d3660ab8287567d132b67451a7c7058e0cbf119e2.jpg"/>(1分,构型错误不得分)3(1分)(共2分)   
+![](images/68745fb5bdbe79e6c1f31b26216ac258ad67f36b1c5868e215b06aa7ad9fb05a.jpg)
+   不论是哪种立体异构体,产生D的时候手性消失。(2分)   
+![](images/c55b9846a744e25450adccfecaa975381a361d962e1588bccd7bb66855c3f8cb.jpg)
+![](images/f0c5a59e2f0e593412ee7ae84be08b7aac8b05e8e63f317dc8ea7cd5a9ff681b.jpg)
+##
+
+
 
 ## 知识点映射
 

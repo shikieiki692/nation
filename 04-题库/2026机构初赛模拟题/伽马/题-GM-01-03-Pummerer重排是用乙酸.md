@@ -111,7 +111,25 @@ Pummerer 重排是用乙酸酐将亚砜重排为 $\alpha$ -酰氧基硫醚的化
 
 ## 参考答案
 
-⛔ **源池含本题解答（待人工核录入）**：源文件 `12.7号作业答案.md` 中已按题面指纹定位到本题解答（369 字 / 15 图，自动定位），因其为**手写批注稿 / 讲稿口述**，未自动录入，建议人工核后补入。
+![](images/11aaab837c50f01c0bc40a81b806bfcbdbef9d3716a9a1405254b7116f8e2864.jpg)
+(a) 使用 $(tBuOOC)_{2}O$ 以替代 $Ac_{2}O$ ;
+(b) $\alpha$ -碳上的取代基为强吸电子基;
+(c) 反应溶剂的极性减小;
+(d) 使用弱酸作为助催化剂；
+(e) 以上选项均不为合理备选项。
+   8-1-1(本小问共1分)      (e)(1分)或(d)   
+(e) 以上选项均不为合理备选项。
+## 8-1-2（本小问共1分）
+(e) 以上选项均不为合理备选项。
+   8-1-3(本小问共2分)      (a)(b)(c)(d) (2分)   
+![](images/7acf82291d12ada0a93d0f324b5cbf48ca5ef510322c7148ed3c545748a20eeb.jpg)
+   8-2-1(本小问共3分)    <img src="images/b713028378ddf579a9abfea08f80c5656f46d2d14b60fc8880eb548e873b12f5.jpg"/> (2分)区域选择性:S可稳定碳负离子,中部的碳负离子更稳定。(1分)    8-2-2给出由中间产物A生成最终产物的关键中间体。    8-2-(本小问共4分)    <img src="images/e813f2e50cad1e7486cd185f08dd345f6162b174314f27e30564d2d0514e16ad.jpg"/> <img src="images/f4640c3da7924a9637388722f3f43af25f9bddbf37111c27bef1a373ebb1afe4.jpg"/> <img src="images/dc49a77c1c0b12d4f62d57a3f3f35fe77da9e959a3b9736f82d64b86854459db.jpg"/>    <img src="images/6b0c2bb8e8f6eb19ee7e6b2081356e4882b45ec151d192830edfbceb4d92a3d5.jpg"/> <img src="images/0d6198447b021f3aec178cae75895c1bad6e5830eeb96aabe925e24664a1f883.jpg"/>    (写出4个得满分4分)    8-3通过Pummerer重排,可以一步构建多取代呋喃产物:    <img src="images/79b44bf13cc37855e4face97c8a75abd38b1e477ae11c3d2e96ed3ba63b444b2.jpg"/>    8-3-1给出该反应的关键中间体。    8-3-(本小问共3分)    <img src="images/a0735574efd9ccad31287d81cc46d5692f7d2aa6c7104848f0ff959e9a619665.jpg"/> <img src="images/cdefc5dae1b8c4988039671f4b65fb72c0445099443b5017fc51324c3feb8b30.jpg"/> <img src="images/fd2498b6f9f357a9dfaef0552841119313ba0f0ac4f829d23ddd5254394fceea.jpg"/>    (每个1分)    8-3-2该反应中,若将S上的甲基更换为-CH2CO2Et,反应将无法得到类似产物,请解释原因,并给出实际得到的产物。    8-3-(本小问共3分)    更换后的位点上连接的氢酸性增强,易发生消除(1分),随后得到如下产物:    <img src="images/5b8c7a6afd9fdea77a8ef305c41d0cfaf142df2e807e0c574e8601cb200f9b9d.jpg"/>    8-4-3(本小问共2分)    (a)    8-4-4示出不同反应路径的中间体结构,并加以必要的文字描述,通过对比解释你的判断。    8-4-4(本小问共6分)    <img src="images/cceadae5b8b7c9770959baa3e6a555ca310448c1d3c39fcdd1b705cf4aff9b90.jpg"/>紧密离子对每个中间体结构各占2分为避免叔丁基和苯基的排斥,形成紧密离子对时进攻基团位于下方(2分)   
+![](images/716d0bdcd6f03341bd19d7183ce1b28512592314d56bd9c1a72258fb7b9ffcce.jpg)
+   8-4-1(本小问共1分)    R   
+   8-4-2(本小问共2分)    S   
+(a) 溶液中存在紧密离子对效应;
+
+
 
 ## 知识点映射
 

@@ -55,7 +55,19 @@ Appel 反应和 Coery-Fuchs 反应使用的反应条件非常接近，但产物�
 
 ## 参考答案
 
-⛔ **源池含本题解答（待人工核录入）**：源文件 `有机化学测试2参考答案.md` 中已按题面指纹定位到本题解答（45 字 / 3 图，自动定位），因其为**手写批注稿 / 讲稿口述**，未自动录入，建议人工核后补入。
+第8题（7分） 两个人名反应
+![](images/ed9d74aee14a69c69b42880783cb1977bc6fc4b8f0f5458ed1a683f5fac17035.jpg)
+8-1 画出 X 的结构式。
+ $Ph_{3}P=O$ 或 $Ph_{3}P^{-}-O^{+}$ (1分) 
+   2 当量(1 分)1 当量的 nBuLi 作强碱,发生消除反应(0.5 分)1 当量的 nBuLi 发生锂卤交换(0.5 分)(共 2 分)   
+![](images/c5f3f89d9a7d87cd00ab0eaf3ac5b3f7da28b1395d108c5f80c43d05b0f38e85.jpg)
+![](images/8fe027cee0d0b85dcc4982b2ff141b6927838683f720d05a5ab1c65fc160e756.jpg)
+$$
+\mathrm{Ph} _{3} \mathrm{P} = \mathrm{CBr} _{2} \longleftrightarrow \mathrm{Ph} _{3} \stackrel {+} {\mathrm{P}} - \bar {\mathrm{CBr}} _{2}
+$$
+##
+
+
 
 ## 知识点映射
 
