@@ -50,7 +50,7 @@ Ph</td><td>conditions</td><td>A</td><td>+</td><td>B</td><td>+</td><td>C</td></tr
 
 
 
-⚠️ 答案原为**手写/图形**，OCR 未识别。**已附源 PDF 答案页**（第 8 页）对照：
+📎 **答案出处**：源卷答案 PDF 第 8 页已随卡（见下）；解答含结构式/图，**文字化需人工转录**。
 
 ![](images/答案页-ZCHEMGChO31参-3e5561-p8.png)
 
