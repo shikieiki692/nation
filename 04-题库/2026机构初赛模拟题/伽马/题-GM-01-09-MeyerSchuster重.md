@@ -67,7 +67,7 @@ OH Ph -N BF3 OEt2(3O, m01%) X Me Ph = C24H21NO Ph
 9-1 画出如下反应的产物。
 ![](images/0c2fc24f48849cd109fcb98e6de88c94bfb713af3e94404c3d2dd38e1a802b9f.jpg)
 9-1（本小问共4分）
-⛔ 配图缺失（MinerU 未导出，原引用：`ab5bc32fd05af8b4b87527cdd9e421d78c80089d2c9fcf8e02f1667dc4049bd3.jpg`）
+![](images/ed729763630cc015f279f51257ffc564e243b3106e4740a0c6a683ea5029b6d0.png)
 (4 分)
 ![](images/e5aa9bae359c8ee4746c6b5c9367a3ddeb744cc9f74e2891119c52cc6e0f4bb5.jpg)
 9-2（本小问共4分）

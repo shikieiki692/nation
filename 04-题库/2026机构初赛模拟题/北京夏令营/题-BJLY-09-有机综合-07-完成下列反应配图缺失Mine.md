@@ -32,7 +32,7 @@ source_file: "2026机构初赛模拟题/13-北京夏令营/北京夏令营-有�
 
 完成下列反应，
 
-⛔ 配图缺失（MinerU 未导出，原引用：`5c3908b7f089365652f4fe0373e2a84e40da2ac847d7e53b3341ec20658ccc64.jpg`）
+![](images/1eeda0a1503071d68ff77fb7abef6d9a556ce89a84b371113d9f3ced7bf68001.png)
 
 ![](images/53fb8145d9ed537ea45a18d5a608e0bab4943414b58dfe77ca2e4f190d7a56dd.jpg)
 
