@@ -30,7 +30,7 @@ EAST, WEST = "宋体", "Times New Roman"
 TOTAL_W = 8391            # 与旧版一致
 W_MIN = 620
 
-MODULE_HEADER = ["章", "节", "知识点", "教材来源", "次数"]
+MODULE_HEADER = ["章", "节", "知识点", "教材来源", "起止日期", "次数"]
 REVIEW_HEADER = ["章", "课型", "知识点", "课次"]
 
 
@@ -47,10 +47,18 @@ def clean_md_text(s):
 
 
 def disp_len(s):
-    """CJK 记 2、其余记 1 的显示宽度。"""
+    """保留：CJK 记 2、其余记 1 的显示宽度。"""
     n = 0
     for ch in s:
         n += 2 if ord(ch) > 0x2E80 else 1
+    return n
+
+
+def text_tw(s):
+    """按字符类型估算 10pt 下的排版宽度（twips）：汉字/全角标点 200，ASCII 90。"""
+    n = 0
+    for ch in s:
+        n += 200 if ord(ch) > 0x2E80 else 90
     return n
 
 
@@ -162,22 +170,22 @@ def calc_widths(rows, ncol):
     单元格左右内边距合计约 220 twips。need ≤ SMALL 的短标签列按需给足，避免折行；
     其余列按 need 比例分享剩余宽度。
     """
-    UNIT, PAD, HARD_MIN, CAP = 100, 220, 560, int(TOTAL_W * 0.40)
-    SMALL = int(TOTAL_W * 0.28)
+    UNIT, PAD, HARD_MIN, CAP = 100, 220, 560, int(TOTAL_W * 0.42)
+    SMALL = int(TOTAL_W * 0.30)
     need = []
     for c in range(ncol):
-        mx = 2
+        mx = 200
         for r in rows:
-            v = max((disp_len(x) for x in r[c].split(SEP)), default=0)
+            v = max((text_tw(x) for x in r[c].split(SEP)), default=0)
             mx = max(mx, v)
-        need.append(min(CAP, mx * UNIT + PAD))
+        need.append(min(CAP, mx + PAD))
 
     small = [i for i, n in enumerate(need) if n <= SMALL]
     big = [i for i, n in enumerate(need) if n > SMALL]
     fixed = sum(need[i] for i in small)
     w = [0] * ncol
-    if not big or fixed + HARD_MIN * len(big) > TOTAL_W:
-        # 保护不了短标签列（列太挤）→ 全表按比例缩放
+    # 保护短标签列的前提：保护后每个长列仍至少拿得到 SMALL，否则全表按比例缩放
+    if not big or fixed + SMALL * len(big) > TOTAL_W:
         k = TOTAL_W / sum(need)
         w = [max(HARD_MIN, int(n * k)) for n in need]
     else:
@@ -293,8 +301,8 @@ for kind, name, rows in blocks:
         gs = [ri for ri in range(len(rows)) if rows[ri][0].strip()] + [len(rows)]
         for a, b in zip(gs, gs[1:]):
             if b - a > 1:
-                # 章(0) / 教材来源(3) / 次数(4) 均为章级字段 → 一并纵向合并
-                for col in (0, 3, 4):
+                # 章(0) / 教材来源(3) / 起止日期(4) / 次数(5) 均为章级字段 → 一并纵向合并
+                for col in (0, 3, 4, 5):
                     set_vmerge(tbl.cell(a, col), "restart")
                     for k in range(a + 1, b):
                         set_vmerge(tbl.cell(k, col), None)
