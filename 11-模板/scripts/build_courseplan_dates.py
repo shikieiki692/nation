@@ -180,9 +180,41 @@ def main():
         assert len(chap_days.get(nm, [])) == k, (nm, k)
 
     # --- 写回 ---
-    out, i, n1, n2 = [], 0, 0, 0
+    out, i, n1, n2, n3 = [], 0, 0, 0, 0
+    mods_span, mods_note = {}, {}
+    for mi, m in enumerate(mods[:6]):
+        ds = sorted(d for nm, _ in m for d in chap_days.get(nm, []))
+        mods_span[mi + 1] = fmt_long(ds[0], ds[-1]) if ds else "—"
+        # 分块：相邻上课日间隔 > 200 天视为进入下一轮
+        blocks, cur = [], [ds[0]]
+        for a, b in zip(ds, ds[1:]):
+            if (date.fromisoformat(b) - date.fromisoformat(a)).days > 200:
+                blocks.append(cur)
+                cur = []
+            cur.append(b)
+        blocks.append(cur)
+        if len(blocks) > 1:
+            mods_note[mi + 1] = "分 %d 段：" % len(blocks) + "｜".join(
+                "%s %s" % (("第一轮初步", "第三轮深化")[i] if len(blocks) == 2 else "第 %d 段" % (i + 1),
+                           fmt_long(b[0], b[-1]))
+                for i, b in enumerate(blocks)) + "（其余为两段之间的间隔期）"
     while i < len(lines):
         s = lines[i].strip()
+        mh = re.fullmatch(r"### (\d)\.(.+?)(?:（\d{4}\.\d{1,2}\.\d{1,2}.*?）)?", s)
+        if mh and MODNAME[int(mh.group(1)) - 1] == mh.group(2).strip() \
+                and int(mh.group(1)) in mods_span:
+            k = int(mh.group(1))
+            out.append("### %s.%s（%s）" % (mh.group(1), mh.group(2).strip(), mods_span[k]))
+            if k in mods_note:
+                # 已有同内容分段注则不重复插入
+                if not (i + 1 < len(lines) and lines[i + 1].strip() == "> " + mods_note[k]):
+                    out.append("> " + mods_note[k])
+            n3 += 1
+            i += 1
+            continue
+        if s.startswith("> 分 ") and s.endswith("（其余为两段之间的间隔期）"):
+            i += 1
+            continue                              # 旧的分段注由上面重写
         if s == "| 期次 | 起止日期 | 排课形式 | 次数（校内＋外出） | 课程模块（括号内为次数） |":
             out.append(lines[i]); i += 1; out.append(lines[i]); i += 1
             while i < len(lines) and lines[i].strip().startswith("|"):
@@ -203,7 +235,7 @@ def main():
             continue
         out.append(lines[i]); i += 1
 
-    assert n1 == 15 and n2 == 63, (n1, n2)
+    assert n1 == 15 and n2 == 63 and n3 == 6, (n1, n2, n3)
     new = "\r\n".join(out)
 
     if not DRY:
@@ -211,8 +243,9 @@ def main():
         assert SRC.read_text(encoding="utf-8", newline="") == new
     CACHE.mkdir(parents=True, exist_ok=True)
     (CACHE / "calendar.json").write_text(json.dumps(CAL, ensure_ascii=False, indent=1), encoding="utf-8")
-    print("[%s] 期次 %d / 章 %d；md 变更 %d 行" %
-          ("dry-run" if DRY else "ok", n1, n2, sum(1 for x, y in zip(text.split("\r\n"), out) if x != y)))
+    print("[%s] 期次 %d / 章 %d / 模块 %d；md 变更 %d 行" %
+          ("dry-run" if DRY else "ok", n1, n2, n3,
+           sum(1 for x, y in zip(text.split("\r\n"), out) if x != y)))
 
 
 if __name__ == "__main__":

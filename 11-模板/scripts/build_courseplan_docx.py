@@ -266,7 +266,33 @@ if dg is None:
 dg.set(qn("w:type"), "lines")
 dg.set(qn("w:linePitch"), "312")
 
-add_block(doc, title, WD_ALIGN_PARAGRAPH.CENTER, hp=28)
+# ---- 封面（数字从 §1.4 现取，改计划不用手改封面）----
+_tot = {}
+for _k, _n, _r in blocks:
+    if _k == "table" and _r and [_c.strip() for _c in _r[0]][:1] == ["项"] and len(_r[0]) == 2:
+        for _row in _r[1:]:
+            _c = [x.strip().replace("**", "") for x in _row]
+            if len(_c) == 2:
+                _tot[_c[0]] = _c[1]
+assert _tot.get("校内合计"), "未取到 §1.4 校内合计"
+
+for _ in range(10):
+    add_block(doc, "", WD_ALIGN_PARAGRAPH.CENTER, hp=20)
+add_block(doc, "未央化学竞赛课程计划", WD_ALIGN_PARAGRAPH.CENTER, hp=44)
+add_block(doc, "（初二至高二）", WD_ALIGN_PARAGRAPH.CENTER, hp=32)
+for _ in range(3):
+    add_block(doc, "", WD_ALIGN_PARAGRAPH.CENTER, hp=20)
+for line in ("适用对象：未央班（初二 — 高二，四年制）",
+             "课程起止：初二寒假 — 高二暑假（初赛前）",
+             "校内 %s 次 ｜ 外出 %s 次 ｜ 合计 %s 次"
+             % (_tot["校内合计"], _tot["外出合计"], _tot["总计"]),
+             "第一轮 化学原理与结构 → 第二轮 元素与分析",
+             "第三轮 有机与深化 → 第四轮 复习与真题"):
+    add_block(doc, line, WD_ALIGN_PARAGRAPH.CENTER, hp=24)
+for _ in range(6):
+    add_block(doc, "", WD_ALIGN_PARAGRAPH.CENTER, hp=20)
+add_block(doc, "编制：备课线 ｜ 2026 年 9 月", WD_ALIGN_PARAGRAPH.CENTER, hp=24)
+doc.add_page_break()
 
 stats = []
 n_merge = 0
