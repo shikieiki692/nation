@@ -1,7 +1,7 @@
 ---
-title: 学生讲义-统计热力学与Maxwell关系（超级充实版·自学完整）
+title: 学生讲义-统计热力学与Maxwell关系（超级充实版·学生专用版）
 type: 学生讲义
-template_version: 自学完整版 v2.0
+template_version: 学生专用版 v2.0
 version: v2.0
 source_book: "物理化学（第六版下册）-傅献彩等 Ch03, Ch07; Atkins《物理化学》第11版 Ch03, Ch13; 全国决赛真题"
 chapter: 第四轮·4-7（物化线）
@@ -520,24 +520,9 @@ $$K_p^\theta = \prod_i \left(\frac{q_{i,\mathrm{m}}^\theta}{N_A}\right)^{\nu_i} 
 (2) 该气体发生 Joule 绝热自由膨胀（$U$ 恒定，$dU = 0$）时的温度变化率 $\left(\frac{\partial T}{\partial V_\mathrm{m}}\right)_U$；
 (3) 若 1 摩尔该气体在绝热自由膨胀中体积由 $V_1$ 膨胀至 $V_2$，试求其温度变化量 $\Delta T$ 的解析表达式。
 
-**详细微观解析**：
-(1) 将 van der Waals 方程整理为压强的显式表达式：
-$$p = \frac{RT}{V_\mathrm{m} - b} - \frac{a}{V_\mathrm{m}^2}$$
-在恒容条件下对温度求偏导：
-$$\left(\frac{\partial p}{\partial T}\right)_{V_\mathrm{m}} = \frac{R}{V_\mathrm{m} - b}$$
-根据热力学第一状态方程 $\left(\frac{\partial U_\mathrm{m}}{\partial V_\mathrm{m}}\right)_T = T\left(\frac{\partial p}{\partial T}\right)_{V_\mathrm{m}} - p$：
-$$\left(\frac{\partial U_\mathrm{m}}{\partial V_\mathrm{m}}\right)_T = T\left(\frac{R}{V_\mathrm{m} - b}\right) - \left(\frac{RT}{V_\mathrm{m} - b} - \frac{a}{V_\mathrm{m}^2}\right) = \frac{a}{V_\mathrm{m}^2}$$
-故该气体的内压力为 $\pi_T = \frac{a}{V_\mathrm{m}^2}$。
 
-(2) 考虑内能的全微分 $dU_\mathrm{m} = \left(\frac{\partial U_\mathrm{m}}{\partial T}\right)_{V_\mathrm{m}} dT + \left(\frac{\partial U_\mathrm{m}}{\partial V_\mathrm{m}}\right)_T dV_\mathrm{m} = C_{V,\mathrm{m}}\,dT + \left(\frac{\partial U_\mathrm{m}}{\partial V_\mathrm{m}}\right)_T dV_\mathrm{m}$。
-在绝热自由膨胀中，体系不吸热（$q=0$）且不克服外压做功（$w=0$），故由第一定律知内能保持不变（$dU_\mathrm{m} = 0$）。
-令 $dU_\mathrm{m} = 0$，应用偏导数循环法则：
-$$\left(\frac{\partial T}{\partial V_\mathrm{m}}\right)_U = -\frac{(\partial U_\mathrm{m}/\partial V_\mathrm{m})_T}{(\partial U_\mathrm{m}/\partial T)_{V_\mathrm{m}}} = -\frac{a/V_\mathrm{m}^2}{C_{V,\mathrm{m}}} = -\frac{a}{C_{V,\mathrm{m}} V_\mathrm{m}^2}$$
+<br><br><br>
 
-(3) 假定在膨胀的温区内定容摩尔热容 $C_{V,\mathrm{m}}$ 视为常数。在初态 $(T_1, V_1)$ 到末态 $(T_2, V_2)$ 之间分离变量积分：
-$$dT = -\frac{a}{C_{V,\mathrm{m}} V_\mathrm{m}^2}\,dV_\mathrm{m} \implies \int_{T_1}^{T_2} dT = -\frac{a}{C_{V,\mathrm{m}}} \int_{V_1}^{V_2} \frac{1}{V_\mathrm{m}^2}\,dV_\mathrm{m}$$
-$$\Delta T = T_2 - T_1 = \left[\frac{a}{C_{V,\mathrm{m}} V_\mathrm{m}}\right]_{V_1}^{V_2} = -\frac{a}{C_{V,\mathrm{m}}}\left(\frac{1}{V_1} - \frac{1}{V_2}\right)$$
-由于 $V_2 > V_1$ 且范德华常数 $a > 0$，括号内项恒为正，因此 $\Delta T < 0$。该微观推导从严格理论上证明：真实气体发生绝热自由膨胀时，必须消耗热运动动能去克服分子间固有的范德华引力势阱做功，因而必然导致气体温度显著下降。
 
 ---
 
@@ -547,30 +532,9 @@ $$\Delta T = T_2 - T_1 = \left[\frac{a}{C_{V,\mathrm{m}} V_\mathrm{m}}\right]_{V
 (2) 利用 Gibbs-Helmholtz 方程的微分形式，推导该反应的标准摩尔 Gibbs 自由能变 $\Delta_r G^\theta(T)$ 的解析积分表达式；
 (3) 计算反应在 $T = 600\ \mathrm{K}$ 下的标准摩尔 Gibbs 自由能变 $\Delta_r G^\theta(600\ \mathrm{K})$。
 
-**详细微观解析**：
-(1) 根据 Kirchhoff 定律，在恒压下 $(\partial \Delta_r H^\theta/\partial T)_p = \Delta_r C_p^\theta$。从参考温度 $T^\theta = 298.15\ \mathrm{K}$ 积分至温度 $T$：
-$$\Delta_r H^\theta(T) = \Delta_r H^\theta(T^\theta) + \Delta_r C_p^\theta (T - T^\theta)$$
-代入具体数值：
-$$\Delta_r H^\theta(T) = -92220 + (-40.00)(T - 298.15) = -80294 - 40.00\,T \quad (\mathrm{J\cdot mol^{-1}})$$
 
-(2) 由 Gibbs-Helmholtz 微分方程：
-$$\left[\frac{\partial (\Delta_r G^\theta/T)}{\partial T}\right]_p = -\frac{\Delta_r H^\theta(T)}{T^2} = -\frac{\Delta_r H^\theta(T^\theta) - \Delta_r C_p^\theta T^\theta}{T^2} - \frac{\Delta_r C_p^\theta}{T}$$
-对上式两端从 $T^\theta$ 到 $T$ 进行不定积分或定积分：
-$$\int_{T^\theta}^T d\left(\frac{\Delta_r G^\theta}{T}\right) = \int_{T^\theta}^T \left[-\frac{\Delta_r H_0}{T^2} - \frac{\Delta_r C_p^\theta}{T}\right] dT$$
-式中积分基准常数 $\Delta_r H_0 = \Delta_r H^\theta(T^\theta) - \Delta_r C_p^\theta T^\theta = -80294\ \mathrm{J\cdot mol^{-1}}$。
-积分求解：
-$$\frac{\Delta_r G^\theta(T)}{T} - \frac{\Delta_r G^\theta(T^\theta)}{T^\theta} = \Delta_r H_0 \left(\frac{1}{T} - \frac{1}{T^\theta}\right) - \Delta_r C_p^\theta \ln\left(\frac{T}{T^\theta}\right)$$
-两端同乘以 $T$，整理得到解析解：
-$$\Delta_r G^\theta(T) = \frac{T}{T^\theta}\Delta_r G^\theta(T^\theta) + \Delta_r H_0\left(1 - \frac{T}{T^\theta}\right) - \Delta_r C_p^\theta\,T\ln\left(\frac{T}{T^\theta}\right)$$
+<br><br><br>
 
-(3) 将 $T^\theta = 298.15\ \mathrm{K}$，$T = 600\ \mathrm{K}$，$\Delta_r G^\theta(T^\theta) = -33000\ \mathrm{J\cdot mol^{-1}}$，$\Delta_r H_0 = -80294\ \mathrm{J\cdot mol^{-1}}$，$\Delta_r C_p^\theta = -40.00\ \mathrm{J\cdot K^{-1}\cdot mol^{-1}}$ 代入：
-$$\frac{T}{T^\theta} = \frac{600}{298.15} \approx 2.0124$$
-第一项：$2.0124 \times (-33000) = -66409\ \mathrm{J\cdot mol^{-1}}$；
-第二项：$(-80294) \times (1 - 2.0124) = (-80294) \times (-1.0124) = +81290\ \mathrm{J\cdot mol^{-1}}$；
-第三项：$-(-40.00) \times 600 \times \ln(2.0124) = 24000 \times 0.6993 = +16783\ \mathrm{J\cdot mol^{-1}}$。
-三项求和：
-$$\Delta_r G^\theta(600\ \mathrm{K}) = -66409 + 81290 + 16783 = +31664\ \mathrm{J\cdot mol^{-1}} \approx +31.66\ \mathrm{kJ\cdot mol^{-1}}$$
-在 $298.15\ \mathrm{K}$ 下该反应为自发反应（$\Delta_r G^\theta < 0$），而升温至 $600\ \mathrm{K}$ 后，$\Delta_r G^\theta$ 变为正值，反应自发性发生逆转，这生动展示了温度对放热缔合反应自由能的强烈驱动作用。
 
 ---
 
@@ -580,29 +544,9 @@ $$\Delta_r G^\theta(600\ \mathrm{K}) = -66409 + 81290 + 16783 = +31664\ \mathrm{
 (2) 推导体系摩尔定容热容 $C_{V,\mathrm{m}}(T)$ 的数学表达式；
 (3) 分析体系在极低温（$T \to 0$）与极高温（$T \to \infty$）下的热容极限，并证明定容热容必在某一特征温度处出现极大值峰（即固体物理中著名的 Schottky 异常）。
 
-**详细微观解析**：
-(1) 单分子配分函数为两个能级项的加和：
-$$q = \sum_{i=0}^1 g_i e^{-\beta \varepsilon_i} = 1 + e^{-\beta \varepsilon}$$
-对温度 $T$ 求导：
-$$\frac{\partial \ln q}{\partial T} = \frac{1}{q}\frac{d}{dT}\left(1 + e^{-\frac{\varepsilon}{kT}}\right) = \frac{1}{1 + e^{-\frac{\varepsilon}{kT}}}\cdot e^{-\frac{\varepsilon}{kT}}\left(\frac{\varepsilon}{kT^2}\right) = \frac{\varepsilon}{kT^2}\frac{e^{-\frac{\varepsilon}{kT}}}{1 + e^{-\frac{\varepsilon}{kT}}} = \frac{\varepsilon}{kT^2}\frac{1}{1 + e^{\frac{\varepsilon}{kT}}}$$
-体系摩尔内能为：
-$$U_\mathrm{m} - U_\mathrm{m}(0) = N_A kT^2\left(\frac{\partial \ln q}{\partial T}\right) = N_A \varepsilon \frac{1}{1 + e^{\frac{\varepsilon}{kT}}}$$
 
-(2) 定容摩尔热容为内能对温度的导数：
-$$C_{V,\mathrm{m}} = \left(\frac{\partial U_\mathrm{m}}{\partial T}\right)_{V_\mathrm{m}} = N_A \varepsilon \frac{d}{dT}\left(1 + e^{\frac{\varepsilon}{kT}}\right)^{-1} = -N_A \varepsilon \left(1 + e^{\frac{\varepsilon}{kT}}\right)^{-2} e^{\frac{\varepsilon}{kT}}\left(-\frac{\varepsilon}{kT^2}\right)$$
-整理得：
-$$C_{V,\mathrm{m}} = N_A k \left(\frac{\varepsilon}{kT}\right)^2 \frac{e^{\frac{\varepsilon}{kT}}}{\left(1 + e^{\frac{\varepsilon}{kT}}\right)^2} = R \left(\frac{\varepsilon}{kT}\right)^2 \frac{e^{-\frac{\varepsilon}{kT}}}{\left(1 + e^{-\frac{\varepsilon}{kT}}\right)^2}$$
+<br><br><br>
 
-(3) 考察热容在极限温度下的行为：
-当 $T \to 0$ 时，定义无量纲参数 $x = \varepsilon/kT \to \infty$。热容表达式中前因子为 $x^2$，而后半部分指数项 $e^{-x}$ 在无穷远处衰减速度远快于任何代数多项式，故：
-$$\lim_{T \to 0} C_{V,\mathrm{m}} = R \lim_{x \to \infty} x^2 e^{-x} = 0$$
-物理本质：在绝对零度附近，热运动能量 $kT \ll \varepsilon$，体系无力跨越能级间隙 $\varepsilon$，所有粒子完全冻结在基态，吸收微小热量无法引起粒子跃迁，故热容归零。
-当 $T \to \infty$ 时，$x = \varepsilon/kT \to 0$。分母 $(1 + e^{-x})^2 \to 4$，分子 $e^{-x} \to 1$，但前因子 $x^2 \to 0$，故：
-$$\lim_{T \to \infty} C_{V,\mathrm{m}} = R \lim_{x \to 0} \frac{x^2}{4} = 0$$
-物理本质：在极高温下，$kT \gg \varepsilon$，基态与激发态被均匀等概率占据（各占 50%），体系能级占据数饱和，进一步升温不再改变粒子分布，故能级热容同样趋于零。
-由 Rolle 定理，由于 $C_{V,\mathrm{m}}(T)$ 在 $T \in (0, \infty)$ 连续可导，且两端极限均为零，其中间必存在一个极大值峰。对 $x$ 求导令导数为零：
-$$\frac{d}{dx}\left[\frac{x e^{-x/2}}{1 + e^{-x}}\right] = 0 \implies \tanh\left(\frac{x}{2}\right) = \frac{x}{2}$$
-数值解得峰值出现在 $x_\mathrm{max} \approx 2.40$，即特征温度 $T_\mathrm{max} \approx \frac{\varepsilon}{2.40\,k}$ 处。这种在低温区由微观低能激发引起的独立热容尖峰，是现代磁性材料与顺磁盐绝热退磁的核心物理机制。
 
 ---
 
@@ -613,31 +557,9 @@ $$\mathrm{H}_2(\mathrm{g}) + \mathrm{D}_2(\mathrm{g}) \rightleftharpoons 2\mathr
 (1) 试由统计配分函数平衡公式，分别写出平动配分函数项之比与转动配分函数项之比；
 (2) 结合分子的核空间对称数 $\sigma$，推导并计算该同位素反应在高温极限下的统计平衡常数 $K_p$。
 
-**详细微观解析**：
-(1) 根据理想气体统计平衡常数主公式：
-$$K_p = \frac{\left(q_{\mathrm{m},\mathrm{HD}}^\theta/N_A\right)^2}{\left(q_{\mathrm{m},\mathrm{H}_2}^\theta/N_A\right)\left(q_{\mathrm{m},\mathrm{D}_2}^\theta/N_A\right)} \exp\left(-\frac{\Delta_r E_0}{RT}\right)$$
-在高温极限下，反应前后分子摩尔质量分别为 $m_\mathrm{H} = 1, m_\mathrm{D} = 2$，故 $M_{\mathrm{H}_2} = 2, M_{\mathrm{D}_2} = 4, M_{\mathrm{HD}} = 3$。
-三维平动配分函数与质量的关系为 $q^T \propto M^{3/2}$。平动配分函数对平衡常数的贡献比值为：
-$$\frac{(q_{\mathrm{HD}}^T)^2}{q_{\mathrm{H}_2}^T\, q_{\mathrm{D}_2}^T} = \frac{(M_{\mathrm{HD}}^{3/2})^2}{M_{\mathrm{H}_2}^{3/2}\, M_{\mathrm{D}_2}^{3/2}} = \left(\frac{M_{\mathrm{HD}}^2}{M_{\mathrm{H}_2} M_{\mathrm{D}_2}}\right)^{3/2} = \left(\frac{3^2}{2 \times 4}\right)^{3/2} = \left(\frac{9}{8}\right)^{3/2} \approx 1.193$$
 
-考察高温极限下的转动配分函数：$q^R = \frac{kT}{\sigma hc\tilde{B}} = \frac{8\pi^2 I k T}{\sigma h^2}$。
-转动惯量 $I = \mu R_e^2$，式中折合质量 $\mu = \frac{m_1 m_2}{m_1 + m_2}$。同位素分子的平衡核间距 $R_e$ 完全由核外电子势能曲线决定，化学上严格相同。
-折合质量计算：
-$$\mu_{\mathrm{H}_2} = \frac{1 \times 1}{1 + 1} = \frac{1}{2}, \qquad \mu_{\mathrm{D}_2} = \frac{2 \times 2}{2 + 2} = 1, \qquad \mu_{\mathrm{HD}} = \frac{1 \times 2}{1 + 2} = \frac{2}{3}$$
-转动配分函数中转动惯量贡献的比值为：
-$$\frac{(I_{\mathrm{HD}})^2}{I_{\mathrm{H}_2} I_{\mathrm{D}_2}} = \frac{(\mu_{\mathrm{HD}})^2}{\mu_{\mathrm{H}_2} \mu_{\mathrm{D}_2}} = \frac{(2/3)^2}{(1/2) \times 1} = \frac{4/9}{1/2} = \frac{8}{9}$$
-极为震撼的是：转动惯量比值项 $8/9$ 与平动质量比项 $(9/8)^{3/2}$ 中的底数恰好互为倒数！二者相乘：
-$$\frac{(q_{\mathrm{HD}}^T)^2}{q_{\mathrm{H}_2}^T\, q_{\mathrm{D}_2}^T} \times \frac{(I_{\mathrm{HD}})^2}{I_{\mathrm{H}_2} I_{\mathrm{D}_2}} = \left(\frac{9}{8}\right)^{3/2} \times \left(\frac{8}{9}\right)^1 = \left(\frac{9}{8}\right)^{1/2}$$
+<br><br><br>
 
-(2) 关键的决定性因素在于空间对称数 $\sigma$：
-$\mathrm{H}_2$ 为同核双原子分子，空间旋转具有 $C_2$ 对称轴，其对称数 $\sigma_{\mathrm{H}_2} = 2$；
-$\mathrm{D}_2$ 同样为同核双原子分子，对称数 $\sigma_{\mathrm{D}_2} = 2$；
-$\mathrm{HD}$ 为异核双原子分子，两端不同，对称数 $\sigma_{\mathrm{HD}} = 1$。
-对称数倒数对转动配分函数的比值贡献为：
-$$\frac{\left(1/\sigma_{\mathrm{HD}}\right)^2}{\left(1/\sigma_{\mathrm{H}_2}\right)\left(1/\sigma_{\mathrm{D}_2}\right)} = \frac{(1/1)^2}{(1/2) \times (1/2)} = \frac{1}{1/4} = 4$$
-在充分高温下，同位素零点能差 $\Delta_r E_0$ 相比于 $RT$ 可以忽略（$\exp(-\Delta_r E_0/RT) \to 1$），且平动与转动惯量的微小质量差异在严格量子经典极限下相互抵消（在经典相空间积分中，由于相空间积分测度仅依赖质点质量矩阵，平动与转动积分直接消去质量因数，仅保留对称数项），最终平衡常数收敛于对称数的统计权重比：
-$$K_p \approx \frac{\sigma_{\mathrm{H}_2} \sigma_{\mathrm{D}_2}}{\sigma_{\mathrm{HD}}^2} = \frac{2 \times 2}{1^2} = 4$$
-这一优美的经典统计结果 $K = 4$ 完美对应于宏观排列组合几率：将 2 个 $\mathrm{H}$ 原子与 2 个 $\mathrm{D}$ 原子完全随机两两配对，生成 $2\mathrm{HD}$ 的微观状态组合几率恰好为生成 $\mathrm{H}_2 + \mathrm{D}_2$ 的 4 倍。
 
 ## §10 竞赛思考强化题与微观机理精解
 
@@ -646,11 +568,20 @@ $$K_p \approx \frac{\sigma_{\mathrm{H}_2} \sigma_{\mathrm{D}_2}}{\sigma_{\mathrm
 **1.** 在298K、100kPa下，判断以下说法是否正确：
 "1 mol H₂O(g)的微观状态数 $\Omega$ > 1 mol H₂(g)的微观状态数 $\Omega$"
 
+
+<br><br><br>
+
 **2.** 在298K、100kPa下，判断以下说法是否正确：
 "1 mol H₂O(l)的微观状态数 $\Omega$ > 1 mol H₂(g)的微观状态数 $\Omega$"
 
+
+<br><br><br>
+
 **3.** 判断以下说法是否正确：
 "熵S是状态函数（状态量）"
+
+
+<br><br><br>
 
 **4.** 根据以下数据，计算甲醇和一氧化碳化合生成醋酸反应的 $K^{\ominus}(298\mathrm{K})$ 。
 
@@ -658,6 +589,9 @@ $$K_p \approx \frac{\sigma_{\mathrm{H}_2} \sigma_{\mathrm{D}_2}}{\sigma_{\mathrm
 | --- | --- | --- | --- |
 | $\Delta H_f^\ominus/(\mathrm{kJ}\cdot\mathrm{mol}^{-1})$ | -200.8 | -110.5 | -435 |
 | $S^\ominus/(\mathrm{J}\cdot\mathrm{mol}^{-1}\cdot\mathrm{K}^{-1})$ | +238 | +198 | +293 |
+
+
+<br><br><br>
 
 **5.** 根据 298 K 的 $\Delta H_{f}^{\ominus}$ 、 $\Delta G_{f}^{\ominus}$ 和 $S^{\ominus}$ ，计算下列相平衡的转变温度：
 
@@ -667,13 +601,22 @@ $$
 
 再分别计算上述相平衡的 $\Delta G^{\ominus}(300\mathrm{K})$ 和 $\Delta G^{\ominus}(400\mathrm{K})$ ，判定在 300K 和 400K 相变发生的方向，并和水的相图对照。
 
+
+<br><br><br>
+
 **6.** 根据热力学数据计算 $\mathrm{BCl}_3$ 在 $298\mathrm{K}$ 时的饱和蒸气压及正常沸点。在 $298\mathrm{K}$ 和 $100\mathrm{kPa}$ 条件下， $\mathrm{BCl}_3$ 呈液态还是气态？
+
+
+<br><br><br>
 
 **7.** $\mathrm{CuSO_4\cdot 5H_2O}$ 的风化若用式 $\mathrm{CuSO_4\cdot 5H_2O(s)}\rightleftharpoons \mathrm{CuSO_4(s)} + 5\mathrm{H}_2\mathrm{O(g)}$ 表示，求 $25^{\circ}C$ 时：
 
 (1) $\Delta G^{\ominus}$ 和 $K_{p}^{\ominus}$ 。
 
 (2) 若空气的相对湿度为 60%, 在敞口容器中, 上述反应的 $\Delta G$ 是多少? 此时 $CuSO_{4} \cdot 5H_{2}O$ 是否会风化成 $\mathrm{CuSO}_{4}$ ?
+
+
+<br><br><br>
 
 **8.** 下图表示生成几种氯化物反应的 $\Delta_{\mathrm{r}}G_{\mathrm{m}}^{\ominus}$ 随温度变化情况，试回答：
 
@@ -689,9 +632,15 @@ $$
 
 （5）在温度 $d$ 时，能否用 $\mathrm{H}_{2}$ 还原 $\mathrm{SiCl}_4$ 制备 Si？温度低于 $b$ 时，又怎么样？
 
+
+<br><br><br>
+
 **9.** 对于范特霍夫等温式 $\Delta_r G_m = \Delta_r G_m^{\circ} + RT \ln Q$，判断以下说法是否正确：
 ① "$\Delta_r G_m^{\circ} = 0$ 则体系平衡"
 ② "$\Delta_r G_m = 0$ 则体系平衡"
+
+
+<br><br><br>
 
 **10.** 估算常压下单质溴的沸点。已知液态溴与气态溴的相变反应 $Br_2(l) \rightleftharpoons Br_2(g)$ 的热力学参数为：
 
@@ -703,198 +652,15 @@ $$
 \Delta_r S_m^\circ = 93.3 \, \text{J} \cdot \text{mol}^{-1} \cdot \text{K}^{-1}
 $$
 
+
+<br><br><br>
+
 **11.** 已知方程式①有 $K_1^\circ = x$，方程式②有 $K_2^\circ = y$。
 
 (1) 若③ = ① + ②，则 $K_3^\circ = ?$
 (2) 若③ = ① - ②，则 $K_3^\circ = ?$
 (3) 若③ = $\frac{1}{3}$① - 2②，则 $K_3^\circ = ?$
 
-### 参考答案与精解
 
-**解 1**：正确。在298K、100kPa下，1 mol气态水 $H_2O(g)$ 的微观状态数 $\Omega$ 大于1 mol气态氢 $H_2(g)$ 的微观状态数。因为H₂O是三原子分子，比双原子分子H₂具有更多的振动和转动自由度，分子复杂程度更高，微观状态数更大。根据熵公式 $S = k \ln \Omega$，微观状态数越大，系统混乱度越高。
 
-**解 2**：错误。不论分子复杂程度如何，同条件下气态物质的微观状态数总是大于液态。因为气体分子具有更大的运动自由度（平动、转动、振动），而液态分子运动受限。$S_{气态} > S_{液态}$ 是普遍规律，由分子运动自由度决定。因此1 mol H₂O(l)的 $\Omega$ < 1 mol H₂(g)的 $\Omega$。
-
-**解 3**：正确。熵S是状态函数（状态量）。给定系统的状态确定后，其熵值就唯一确定。熵变 $\Delta S$ 只与始末状态有关，与过程路径无关。这与热量Q和功W不同，Q和W是过程量，与路径相关。
-
-**解 4**：
-
-$\mathrm{CH}_3\mathrm{OH(g)} + \mathrm{CO(g)}\rightleftharpoons \mathrm{CH}_3\mathrm{COOH(g)}$
-
-$$
-\Delta H^{\ominus} = \left[ - 435 - (- 200.8) - (- 110.5) \right] \mathrm{kJ} \cdot \mathrm{mol}^{-1} = - 124 \mathrm{kJ} \cdot \mathrm{mol}^{-1}
-$$
-
-$$
-\Delta S^{\ominus} = (293 - 238 - 198) \mathrm{J} \cdot \mathrm{mol}^{-1} \cdot \mathrm{K}^{-1} = - 143 \mathrm{J} \cdot \mathrm{mol}^{-1} \cdot \mathrm{K}^{-1}
-$$
-
-$$
-\Delta G^{\ominus} = \left[ - 124 - 298 \times (- 143 \times 10^{-3}) \right] \mathrm{kJ} \cdot \mathrm{mol}^{-1} = - 81 \mathrm{kJ} \cdot \mathrm{mol}^{-1}
-$$
-
-$$
-\lg K^{\ominus} = \frac {- \Delta G^{\ominus}}{2.30 R T} = \frac {- (- 81 \times 10^{3}) \mathrm{J} \cdot \mathrm{mol}^{-1}}{2.30 \times 8.31 \mathrm{J} \cdot \mathrm{mol}^{-1} \cdot \mathrm{K}^{-1} \times 298 \mathrm{K}} = 14.2, K^{\ominus} = 2 \times 10^{14}
-$$
-
-**解 5**：
-
-$\mathrm{H}_2\mathrm{O(l)}\rightleftharpoons \mathrm{H}_2\mathrm{O(g)}$
-
-$$
-\Delta H^{\ominus} = [ (- 241.8) - (- 285.83) ] \mathrm{kJ} \cdot \mathrm{mol}^{-1} = 44.0 \mathrm{kJ} \cdot \mathrm{mol}^{-1}
-$$
-
-$$
-\Delta S^{\ominus} = (188.8 - 70.0) \mathrm{J} \cdot \mathrm{mol}^{-1} \cdot \mathrm{K}^{-1} = 118.8 \mathrm{J} \cdot \mathrm{mol}^{-1} \cdot \mathrm{K}^{-1}
-$$
-
-$$
-T_{\mathrm{转}} = \frac {\Delta H^{\ominus}}{\Delta S^{\ominus}} = \frac {44.0 \mathrm{kJ} \cdot \mathrm{mol}^{-1}}{118.8 \times 10^{-3} \mathrm{kJ} \cdot \mathrm{mol}^{-1} \cdot \mathrm{K}^{-1}} = 370 \mathrm{K}
-$$
-
-$$
-\Delta G^{\ominus} (300 \mathrm{K})   = \Delta H^{\ominus} - T \Delta S^{\ominus}
-$$
-
-$$
-= 44.0 \mathrm{kJ} \cdot \mathrm{mol}^{-1} - 300 \mathrm{K} \times 0.1188 \mathrm{kJ} \cdot \mathrm{mol}^{-1} \cdot \mathrm{K}^{-1}
-$$
-
-$$
-= 8.3 \mathrm{kJ} \cdot \mathrm{mol}^{-1}
-$$
-
-$$
-\Delta G^{\ominus} (400 \mathrm{K}) = 44.0 \mathrm{kJ} \cdot \mathrm{mol}^{-1} - 400 \mathrm{K} \times 0.1188 \mathrm{kJ} \cdot \mathrm{mol}^{-1} \cdot \mathrm{K}^{-1} = - 3.6 \mathrm{kJ} \cdot \mathrm{mol}^{-1}
-$$
-
-$$
-\mathrm{H}_{2} \mathrm{O(g)} \longrightarrow \mathrm{H}_{2} \mathrm{O(l)}
-$$
-
-$$
-400 \mathrm{K} \text{   时，相变方向为   } \mathrm{H}_{2} \mathrm{O(l)} \longrightarrow \mathrm{H}_{2} \mathrm{O(g)}
-$$
-
-上述判定与相图一致。
-
-**解 6**：
-
-$$
-\mathrm{BCl}_{3} (1)   \longrightarrow \mathrm{BCl}_{3} (\mathrm{g})
-$$
-
-$$
-\Delta G^{\ominus}   = [ (- 388.7) - (- 387.4) ] \mathrm{kJ} \cdot \mathrm{mol}^{-1} = - 1.3 \mathrm{kJ} \cdot \mathrm{mol}^{-1}
-$$
-
-$$
-\Delta G^{\ominus}   = - 2.30 R T \lg K_{p}
-$$
-
-设 $p(\mathrm{BCl}_3) = x$ bar，则有
-
-$$
-K_{p} = p (\mathrm{BCl}_{3})
-$$
-
-$$
-1.3 \mathrm{kJ} \cdot \mathrm{mol}^{-1} = 2.30 \times 0.00831 \mathrm{kJ} \cdot \mathrm{mol}^{-1} \cdot \mathrm{K}^{-1} \times 298 \mathrm{K} \times \lg x
-$$
-
-$$
-x = 1.7, \quad p (\mathrm{BCl}_{3}) = 1.7 \mathrm{bar} = 1.7 \times 10^{2} \mathrm{kPa}
-$$
-
-$$
-\Delta H^{\ominus} = [ (- 403.8) - (- 427.2) ] \mathrm{kJ} \cdot \mathrm{mol}^{-1} = 23.4 \mathrm{kJ} \cdot \mathrm{mol}^{-1}
-$$
-
-$$
-\Delta S^{\ominus} = (290.1 - 206.3) \mathrm{J} \cdot \mathrm{mol}^{-1} \cdot \mathrm{K}^{-1} = 83.8 \mathrm{J} \cdot \mathrm{mol}^{-1} \cdot \mathrm{K}^{-1}
-$$
-
-$$
-T_{\mathrm{b}} = \frac {\Delta H^{\ominus}}{\Delta S^{\ominus}} = \frac {23.4 \mathrm{kJ} \cdot \mathrm{mol}^{-1}}{0.0838 \mathrm{kJ} \cdot \mathrm{mol}^{-1} \cdot \mathrm{K}^{-1}} = 279 \mathrm{K}
-$$
-
-在 298 K 和 100 kPa 条件下， $\mathrm{BCl}_{3}$ 是气态。
-
-**解 7**：(1) $\Delta G^{\ominus}(298\mathrm{K}) = [(-662.2) - 228.6\times 5 - (-1880.04)]\mathrm{kJ}\cdot \mathrm{mol}^{-1}$ $= 74.8\mathrm{kJ}\cdot \mathrm{mol}^{-1}$
-
-$$
-\lg K_{p}^{\ominus} (298 \mathrm{K}) = \frac {- \Delta G^{\ominus} (298 \mathrm{K})}{2.30 R T} = \frac {- 74.8 \times 10^{3} \mathrm{J} \cdot \mathrm{mol}^{-1}}{2.30 \times 8.31 \mathrm{J} \cdot \mathrm{mol}^{-1} \cdot \mathrm{K}^{-1} \times 298 \mathrm{K}}
-$$
-
-$$
-K_{p}^{\ominus} (298 \mathrm{K}) = 7 \times 10^{-14}
-$$
-
-(2) 298 K, $p(\mathrm{H}_{2}\mathrm{O})=3.167\mathrm{kPa}$
-
-$$
-298 \mathrm{K}, p (\mathrm{H}_{2} \mathrm{O})   = 3.167 \mathrm{kPa}
-$$
-
-$$
-\Delta G (298 \mathrm{K})   = \Delta G^{\ominus} + 2.30 R T \lg Q
-$$
-
-$$
-= 74.8 \mathrm{kJ} \cdot \mathrm{mol}^{-1} + 2.30 \times 0.00831 \mathrm{kJ} \cdot \mathrm{mol}^{-1} \cdot \mathrm{K}^{-1} \times 298 \mathrm{K}
-$$
-
-$$
-\times \lg \left(\frac {3.167 \mathrm{kPa} \times 0.60}{100 \mathrm{kPa}}\right) ^{5}
-$$
-
-$$
-= 25.8 \mathrm{kJ} \cdot \mathrm{mol}^{-1}
-$$
-
-此时 $CuSO_{4} \cdot 5H_{2}O$ 不会风化成 $\mathrm{CuSO}_{4}$ 。
-
-**解 8**：（1）反应①在温度 $a$ 时， $\Delta_{\mathrm{r}}G^{\ominus} = 0$ ，所以 $K^{\ominus} = 1$ 。
-
-(2) 反应②是熵减反应, $\Delta_{\mathrm{r}}G^{\ominus} = \Delta_{\mathrm{r}}H^{\ominus} - T\Delta_{\mathrm{r}}S^{\ominus}, \Delta_{\mathrm{r}}G^{\ominus}$ 为负值, $-T\Delta_{\mathrm{r}}S^{\ominus}$ 为正值, 因此 $\Delta_{\mathrm{r}}H_{\mathrm{m}}^{\ominus}$ 一定是负值, 为放热反应。
-
-(3) 反应④的 $\Delta_{r}G^{\ominus}$ 随温度升高不断减小, 是熵增反应。
-
-（4）置换反应 $\frac{1}{2}\mathrm{Ti} + \frac{1}{2}\mathrm{SiCl}_4\rightleftharpoons \frac{1}{2}\mathrm{Si} + \frac{1}{2}\mathrm{TiCl}_4$ 为反应③一②。温度 $a$ 时，反应③的 $\Delta_{\mathrm{r}}G^{\ominus}$ 小于反应②的，置换反应的 $\Delta_{\mathrm{r}}G^{\ominus}$ 为负值，反应可自发进行，Ti可置换出Si。
-
-(5) 置换反应 $\mathrm{H}_{2} + \frac{1}{2}\mathrm{SiCl}_{4} \rightleftharpoons \frac{1}{2}\mathrm{Si} + 2\mathrm{HCl}$ 为反应④-②。温度 $d$ 时，反应④的 $\Delta_{\mathrm{r}}G^{\ominus}$ 小于反应②的，置换反应的 $\Delta_{\mathrm{r}}G^{\ominus}$ 为负值，反应可自发进行， $\mathrm{H}_{2}$ 能还原 $\mathrm{SiCl}_{4}$ 制备 Si；温度低于 $b$ 时，情况相反，置换反应的 $\Delta_{\mathrm{r}}G^{\ominus}$ 为正值，标准状态下 $\mathrm{H}_{2}$ 不能还原 $\mathrm{SiCl}_{4}$ 。
-
-**解 9**：① 错误。$\Delta_r G_m^{\circ} = 0$ 并不意味着体系处于平衡状态。$\Delta_r G_m^{\circ}$ 是标准状态下的吉布斯自由能变化，与平衡常数的关系为 $\Delta_r G_m^{\circ} = -RT \ln K^{\circ}$。$\Delta_r G_m^{\circ} = 0$ 只意味着 $K^{\circ} = 1$，不代表平衡。
-
-② 正确。$\Delta_r G_m = 0$ 是体系达到平衡的准确判据。此时反应商 $Q = K^{\circ}$，正逆反应速率相等。
-
-**解 10**：在沸点时，液态溴与气态溴达到平衡，$\Delta_r G_m^\circ = 0$。
-
-根据公式 $\Delta_r G_m^\circ = \Delta_r H_m^\circ - T \Delta_r S_m^\circ = 0$，解得：
-
-$$
-T = \frac{\Delta_r H_m^\circ}{\Delta_r S_m^\circ} = \frac{30.9 \times 10^3}{93.3} \approx 331 \, \text{K}
-$$
-
-**解 11**：基本规则：当反应式叠加时，平衡常数遵循以下规则：
-
-(1) 反应相加，平衡常数相乘：
-
-$$
-K_3^\circ = K_1^\circ \times K_2^\circ = x \times y
-$$
-
-(2) 反应相减，平衡常数相除：
-
-$$
-K_3^\circ = \frac{K_1^\circ}{K_2^\circ} = \frac{x}{y}
-$$
-
-(3) 系数变化，系数变为指数：
-
-$$
-K_3^\circ = \frac{(K_1^\circ)^{1/3}}{(K_2^\circ)^2} = \frac{x^{1/3}}{y^2} = \frac{\sqrt[3]{x}}{y^2}
-$$
-
-推导依据：来源于热力学公式 $\Delta G^\circ = -RT\ln K^\circ$ 的推导。
+<br><br><br>
