@@ -57,95 +57,27 @@ source_file: "2026机构初赛模拟题/12-方圆/卷一-1.md"
 
 ## 参考答案
 
-8-1 试比较下列氢的酸性（由弱至强）。
+8-1-1 与角甲基发生了[1,7]氢迁移完成了逆 aldol 反应（3 分）
 
-![](images/fcf9e7403b8c960799fc51d2265e1c9e42dae199c6756752d469c53ce24284fe.jpg)
+## 第7页,共9页
 
-A
+![](images/9f0f122a7cf18505c99ab334daafe2751fdee353293dd06a1b05a797efcc76e9.jpg)
 
-![](images/b360262defe8f16c16f693eb8cf5cab3ca326878b0f02fd64fe3d8b98e43ae37.jpg)
+8-1-2 三氟乙醇是更强的氢给体，可以快速淬灭 $\mathrm{SmI}_2$ 还原产生的 Oα位自由基，从而抑制了氢迁移产物的生成。（2 分）
 
-B
+8-2-1（6分，三键配位、抓氢键、成环得到的三个中间体各2分）
 
-![](images/ee8e64013aad924a4ceb4f92c2d1c8d635eb8851e6d96dda18fb93c9641a329a.jpg)
+![](images/12a175faf903ca6713ded63f160bb8e0875088c592e60d28053ec6494c9aba9e.jpg)
 
-C
+8-2-2（4分）
 
-![](images/5006b43e750394dacb3c07941485c7385d9aba9683bd974dc07f4518eba90999.jpg)
+![](images/682b09d5e398fc40ae640d71c5d7d3f5982d4d9cd935c15c0559e2f0737f62a6.jpg)
 
-D
+8-3（3分）
 
-D < C < B < A
+![](images/8fc50d0dda73c37fa3ac24b93cf60e8c525a56b24e890d87681499dbd323e22f.jpg)
 
-(共 4 分, 按空给分, 1 个 1 分)
-
-8-2 试比较下列化合物的pKa（由大到小）。
-
-![](images/a7dacbf8ddb9b5150b40aa1368dd4c6f4ac19dd4bb40719e077e620ba327f066.jpg)
-
-![](images/fd7abb1c2e0d876d465239273175c486c90c6f43a1a258b2fe30cc71fe940634.jpg)
-
-A
-
-B
-
-![](images/9a2b9f5cd1e9422ad945aa2b08149381c65e648c7c10ee632ecfcb534ea184a2.jpg)
-
-C
-
-![](images/4afa610f0479f4b4eb6eb237af816884ee670c6883ac402b3730b28aa92ffa7d.jpg)
-
-D
-
-D > C > B > A
-
-(共 4 分, 按空给分, 1 个 1 分)
-
-8-3 试比较下列化合物的 $pKa$ （由大到小）。
-
-![](images/f503db4f786f08eb99e035bb55943e6a51ad371f60ddde7c9c1c746001476c61.jpg)
-
-![](images/9bf20bf3c4d2cef09cedcf56e3d37725c26e742141b0a006ccf55a2e7eefe4dd.jpg)
-
-![](images/8a3578eb54a37d99b8d10a35ad617bb454ec6e3ecb67d652d4129759343cc0c6.jpg)
-
-A
-
-![](images/3a388eec2eb40f3a18e272d260b58499f96d63e52463fbf78a17e9819366fcd3.jpg)
-
-B
-
-C
-
-D
-
-$$
-\mathrm{C} > \mathrm{D} > \mathrm{B} > \mathrm{A}
-$$
-
-(共 4 分，按空给分，1 个 1 分)
-
-8-4 试比较下列化合物的芳香性，并给出理由（由弱到强）。
-
-![](images/f983543e165f539a4e574dbf60e62914cde10b5e24bf2f89f0c1dacb5c05e024.jpg)
-
-A
-
-![](images/ef7979da1c3b8c005cce1dcc9778e6a54b59cbc496f706b1daaeb2429475a8cc.jpg)
-
-B
-
-![](images/0847f054ea169422f3c8a01d8572877398500eca3fba1d335462bd93dcff4080.jpg)
-
-C
-
-$$
-\mathrm{B} <   \mathrm{A} <   \mathrm{C}
-$$
-
-原子的电负性顺序为 $0 > N > S \approx C$ ，因此三种芳环的杂原子孤对电子与其他碳原子 p 轨道上的单电子共轭产生的离域效应由强到弱为 $B < A < C$ ，即芳香性的强弱顺序
-
-（共6分，排序按空给分，1个1分；解释3分）
+(构型画错也可以得分)
 
 ## 知识点映射
 

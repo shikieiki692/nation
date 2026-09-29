@@ -66,61 +66,67 @@ $$
 
 ## 参考答案
 
-1-1 SiC，俗名金刚砂，是一种极其耐磨的材料，可用于制作轴承、砂轮等器件。SiC由于表层覆盖有 $SiO_{2}$ ，对酸的抗腐蚀能力较强。用熔融的NaOH除去表面的 $SiO_{2}$ 后，SiC在空气中会迅速与NaOH反应。请写出反应方程式。
-
 $$
-S i C + 4 N a O H + 2 O _ {2} \rightarrow N a _ {2} S i O _ {3} + 2 H _ {2} O + N a _ {2} C O _ {3}
+1 - 1 - 1 ^ {2 3 8} _ {9 2} U \rightarrow {} ^ {2 0 6} _ {8 2} P b + 8 _ {2} ^ {4} H e + 6 _ {- 1} ^ {0} e (2 \text {分})
 $$
 
-(共2分)
-
-1-2 $SiH_{4}$ 与AgCl在260℃发生反应，生成一种无色透明且有刺激性气味的气体，其中Cl的质量分数为53.3%。请写出该反应的化学方程式。
-
 $$
-S i H _ {4} + 2 A g C l \rightarrow S i H _ {3} C l + H C l + 2 A g
+1 - 1 - 2 _ {9 2} ^ {2 3 5} U \rightarrow_ {8 2} ^ {2 0 7} P b + 7 _ {2} ^ {4} H e + 4 _ {- 1} ^ {0} e (2 \text {分}
 $$
 
-(共2分)
+$$
+1 - 1 - 3 _ {9 2} ^ {2 3 5} U + _ {0} ^ {1} n \rightarrow F P + 2. 5 _ {0} ^ {1} n (2 \text {分})
+$$
 
-1-3 Si与O的高亲和性使得硅酸盐的种类与结构丰富多彩。大多数硅酸盐中都包含有 $[SiO_{4}]$ 四面体单元。该单元的表示方法如下图（俯视图）。
+$$
+1 - 2 - 1 _ {9 2} ^ {2 3 8} U + _ {0} ^ {1} n \rightarrow_ {9 4} ^ {2 3 9} P u + 2 _ {- 1} ^ {0} e (2 \text {分})
+$$
 
-![](images/a2f2d309a51186d7793b74312e3487c72a81f86ae88127f1f3a24b86d42c1280.jpg)
+$$
+1 - 2 - 2 _ {9 0} ^ {2 3 2} T h + _ {0} ^ {1} n \rightarrow_ {9 2} ^ {2 3 3} U + 2 _ {- 1} ^ {0} e (2 \text {分})
+$$
 
-1-3-1 请用该表示方式画出 $Si_{2}O_{7}^{6-}$ 的示意图。
+1-3-1 根据 $\rho=ZM/N_{A}V$ ，计算得晶胞的摩尔质量 $ZM=2310\ g\ mol^{-1}$ ，刚好是 $U_{9}N_{12}$ ，因此 A 的化学式为 $U_{3}N_{4}$ （3 分）
 
-![](images/cc52dedb7b2a8942e662e2694ede235fd613442b813e5b16ca620cbe3e810152.jpg)
+B 的结构与 NaCl 相同，因此化学式为 UN（1 分）
 
-(共3分)
+$$
+1 - 3 - 2 \rho = \mathrm{ZM} / \mathrm{N} _ {\mathrm{A}} \mathrm{V} = 1 2. 2 \mathrm{g} / \mathrm{cm} ^ {3} (2 \text {分})
+$$
 
-1-3-2 试写出下面结构对应的化学式。
+1-4-1 $UO_{2}^{2+}$ 和 $U^{4+}$ 。 $UO_{2}^{+}$ 会歧化，U 和 $U^{3+}$ 会被氢离子氧化。（4 分）
 
-![](images/050cb171a9bd9a5cd7e4d3dd911987372cdd5f37cdbb8692f7a413019fd8eac9.jpg)
+$$
+1 - 4 - 2 (0. 0 5 2 + 0. 6 1 2) / 2 = 0. 3 3 2 \mathrm{V} (2 \text {分})
+$$
 
-$Si_{3}O_{9}^{6-}$ ; $Si_{6}O_{18}^{12-}$
+1-4-3（共8分）
 
-(共6分，每个3分)
+$$
+2 \mathrm{Ti} ^ {3 +} + \mathrm{UO} _ {2} ^ {2 +} \rightarrow 2 \mathrm{TiO} ^ {2 +} + \mathrm{U} ^ {4 +}
+$$
 
-1-3-3 试写出下面一维无限延伸结构对应的化学式（写最简式）。
+$$
+2 \mathrm{Fe} ^ {3 +} + \mathrm{U} ^ {4 +} + 2 \mathrm{H} _ {2} \mathrm{O} \rightarrow \mathrm{UO} _ {2} ^ {2 +} + 2 \mathrm{Fe} ^ {3 +} + 4 \mathrm{H} ^ {+}
+$$
 
-![](images/c897f0c98a6bb67ce278585d1ca884499532369b30cca9ad849c8bfee1ff7195.jpg)
+$$
+\mathrm{O} _ {2} + 4 \mathrm{Ti} ^ {3 +} + 2 \mathrm{H} _ {2} \mathrm{O} \rightarrow 4 \mathrm{TiO} ^ {2 +} + 4 \mathrm{H} ^ {+}
+$$
 
-$Si_{2}O_{5}^{2 - }$ ； $Si_{4}O_{11}^{6 - }$ ； $Si_{6}O_{17}^{10 - }$
+$$
+\mathrm{Cr} _ {2} \mathrm{O} _ {7} ^ {2 -} + 6 \mathrm{Fe} ^ {2 +} + 1 4 \mathrm{H} ^ {+} \rightarrow 2 \mathrm{Cr} ^ {3 +} + 1 4 \mathrm{H} _ {2} \mathrm{O} + 6 \mathrm{Fe} ^ {3 +} (\text {各} 1 \text {分，共} 4 \text {分})
+$$
 
-(共9分，每个3分)
+$\mathrm{Cr_2O_7^{2 - }}$ 消耗量 $\mathrm{n}(\mathrm{Cr_2O_7^{2 - }}) = \mathrm{c}(\mathrm{Cr_2O_7^{2 - }})\mathrm{V}(\mathrm{Cr_2O_7^{2 - }}) = 0.01044\mathrm{L}\times 0.01004\mathrm{mol / L} = 1.048\times 10^{-4}\mathrm{mol}$
 
-1-4 Si与C属同一主族，化学性质也较为相似。硅能够在一定条件下形成硅卡宾并发生有趣的反应。
+稀释液中 $\mathrm{UO}_2^{2+}$ 的量 $\mathrm{n(UO_2^{2+}) = 3n(Cr_2O_7^{2-}) = 3.144\times 10^{-4} mol}$ （1分）
 
-1-4-1 请写出中间产物 $A - C$ 的结构。
+试样中 $\mathrm{UO}_3$ 的量 $\mathrm{m(UO_3) = 10n(UO_2^{2 + })\times 286 = 0.899g}$
 
-![](images/c2b2647b096e8d2d5324ed6633192a88f0745b89cc5679d10446aecacaf9f2d4.jpg)
+试样中 $UO_{3}$ 的质量分数 $w(UO_{3})=m(UO_{3})/m$ 总=62.65%（2 分）
 
-(共6分，每个2分)
-
-1-4-2 硅的同族锗也能形成锗卡宾。当锗卡宾与硅卡宾处于同一体系中，二者将会表现出略微不同的性质。反应首先发生了一步插入反应得到 E，随后 E 二聚得到产物 F。请画出 E 和 F 的结构。
-
-![](images/e15ab360cb85e052be5fd536562e284debdc9f72d4879b21d85c5f98bb6bda6b.jpg)
-
-(共6分，每个3分)
+第1页,共9页
 
 ## 知识点映射
 
