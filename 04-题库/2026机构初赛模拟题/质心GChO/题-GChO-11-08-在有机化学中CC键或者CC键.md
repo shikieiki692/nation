@@ -58,7 +58,17 @@ $$
 
 ## 参考答案
 
-⛔ **源为手写解析手稿**：源答案文件 `ZCHEM-GChO11解析手稿.md` 系手写稿扫描，OCR 未识别出第 8 题的文字解答（解答以手写图给出）。
+📎 **答案出处**：源卷**手写解析手稿**全部 5 页已随卡（见下），第 08 题解答在其内；手写笔迹，**文字化需人工转录**。
+
+![](images/e13c10f102a0cfa2c76d6e800e4a07e5fd956caf7f65b65df678b267040829a3.jpg)
+
+![](images/59c0fa44dc1da4dea753fc6c3244434d8269182627080fa7a97e063f01c7d7c6.jpg)
+
+![](images/24fdebf9885bb132f16dd8d0b1f0de44edfcdaf097984e6410b9ad31c1ecfaa5.jpg)
+
+![](images/818cfc8663931347b729be7b2a4630eed5729c145762dd336f4ebc17ddbe75e5.jpg)
+
+![](images/72a41f7cd25878a9d3c47ce711591c1127e18eead3da713ea2c820a028ac46f3.jpg)
 
 ## 知识点映射
 

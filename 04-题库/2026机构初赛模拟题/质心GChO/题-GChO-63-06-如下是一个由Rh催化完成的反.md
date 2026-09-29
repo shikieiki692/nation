@@ -44,7 +44,29 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO63试题.md"
 
 ## 参考答案
 
-⛔ **源为手写解析手稿**：源答案文件 `ZCHEM-GChO63解析手稿.md` 系手写稿扫描，OCR 未识别出第 6 题的文字解答（解答以手写图给出）。
+📎 **答案出处**：源卷**手写解析手稿**全部 11 页已随卡（见下），第 06 题解答在其内；手写笔迹，**文字化需人工转录**。
+
+![](images/fe1b858bed708c63d92db699fcf945449293621ec026dadbdd9c2f2db2dd78c3.jpg)
+
+![](images/243edafbd0b3cc0d9c2b5854d22031acd23173ef91e222cc87a27b3dafdf2b2f.jpg)
+
+![](images/2526ea33a72758b6b0cb64aa3d98124ac3d0a82b4b0a5e13ac4497aef321da21.jpg)
+
+![](images/9d675974fb1a1c528b2195b34b48f10b073eaa11f1833c73f6961368afdb65dc.jpg)
+
+![](images/bc3d394257322009489a84e505bcfdcae7424e15514b30a65987f69c90c356d3.jpg)
+
+![](images/155c196d165212ab3050826c90312451f859abbc5fd57335be06aa18a5d5464c.jpg)
+
+![](images/a81df01be149d853d6197f7e880285a2a8ee09fc428331660c75b87c41b2b1df.jpg)
+
+![](images/cc68e881042f6d6f05d52a4914015a6f0a121fa02a86ecf244e0b96e537c78a5.jpg)
+
+![](images/4fb559f1db28d55900d7974b44cd0d0879bf915ca8e16ed8343d8e6c3de7d73c.jpg)
+
+![](images/45f951352ca7306073030488fea1a0400ae7744e3b977f2c9ae7960bdb6d61d4.jpg)
+
+![](images/cfff1a80338699aa3b9b2feda88d371663648f38aa5da1c2dbf2d6200ff5b4b1.jpg)
 
 ## 知识点映射
 

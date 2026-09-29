@@ -93,7 +93,15 @@ NMP
 
 ## 参考答案
 
-⛔ **源为手写解析手稿**：源答案文件 `ZCHEM-GChO26解析手稿.md` 系手写稿扫描，OCR 未识别出第 9 题的文字解答（解答以手写图给出）。
+📎 **答案出处**：源卷**手写解析手稿**全部 4 页已随卡（见下），第 09 题解答在其内；手写笔迹，**文字化需人工转录**。
+
+![](images/d8927505cf3aaf320a5aeb8bed65d6ba15b316913124cec8bf04146c9f25e615.jpg)
+
+![](images/b85decca840f7ffcaae16f44430932e938b6afe25243fcac4639a1af2a5a98aa.jpg)
+
+![](images/4f1c2a48ac8f1822ab26a28808aeac1d20a85fcd1a37f27f6c1a30d90650c661.jpg)
+
+![](images/1c5798388f0ede5224fa1fddb2f3bf899973a251504590d3d585fc7a6ab4bb88.jpg)
 
 ## 知识点映射
 

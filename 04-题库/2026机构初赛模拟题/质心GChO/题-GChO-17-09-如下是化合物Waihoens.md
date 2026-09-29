@@ -46,7 +46,21 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO17试题（线�
 
 ## 参考答案
 
-⛔ **源为手写解析手稿**：源答案文件 `ZCHEM-GChO17解析手稿.md` 系手写稿扫描，OCR 未识别出第 9 题的文字解答（解答以手写图给出）。
+📎 **答案出处**：源卷**手写解析手稿**全部 7 页已随卡（见下），第 09 题解答在其内；手写笔迹，**文字化需人工转录**。
+
+![](images/07cf4e2e7f6edb11aab17837344409a5ed6c7a3752688945cc707b4d0235ea3d.jpg)
+
+![](images/92642dc1ea9c6dd358b427776aa9e95f103fd97d9cbdb5dbd2de985ab3e98147.jpg)
+
+![](images/99d3ebb428e2096c194297dca4eed343eaad39ca3b83a939aa2c4733773d5256.jpg)
+
+![](images/3989ab780f3ee29f901a5331e7a47e0894023a15536d7c77452415b35fb0756e.jpg)
+
+![](images/5fa7fc8a91c775e4393557cb8f404f8e1fa680ed0816dbcc243d3b5cd98d2443.jpg)
+
+![](images/a9d20b13503c9ccbbfe1991d1d0f1f6a824586a2112a241dc00f757470461540.jpg)
+
+![](images/586f1b59cd6fa68e34556224c3e5845ea93566406cc4acaf12619861fe06a171.jpg)
 
 ## 知识点映射
 
