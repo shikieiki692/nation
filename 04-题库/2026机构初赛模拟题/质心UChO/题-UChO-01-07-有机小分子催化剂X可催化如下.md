@@ -46,7 +46,21 @@ source_file: "2026机构初赛模拟题/02-质心UChO/4thZCHEM-UChO-Tour1.md"
 
 ## 参考答案
 
-⛔ **源池含本题解答（需人工核）**：源文件 `4thZCHEM-UChO答案.md` 已按指纹定位到本题，但其内容为纯图 / 仅题面复述 / 公式 OCR 损毁，自动录入不可靠，需人工核后补入。
+📎 **答案出处**：源卷答案（手写解答图）已随卡；解答以源卷图给出，文字未逐条复核。
+
+> 源：4thZCHEM-UChO答案.md
+
+**7-1~7-4 解答（源卷手写解答图）**
+
+![](images/3191fd4c7b11226f0072a53a646ae973473a2f47755f96c209e1a841ae9ab784.jpg)
+
+![](images/f41855ba81f0d5ad429a8ef91fb53e79240b12a004b99746458a646af43f36f3.jpg)
+
+![](images/7ad98b6db02e9b78a3a77eca87b26578538f1403d055d88e13d236b4706efcdb.jpg)
+
+![](images/37f37a34bc634ad1b919ae24198918318feadc88fed43c65ccfda59889140582.jpg)
+
+![](images/b479d0bcc4b14fa067eaf8bb1493e68101115c039dab2ca05a9c89c18f5af0b1.jpg)
 
 ## 知识点映射
 
