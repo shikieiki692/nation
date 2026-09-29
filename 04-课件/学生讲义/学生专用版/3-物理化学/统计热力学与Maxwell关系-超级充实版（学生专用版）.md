@@ -22,7 +22,7 @@ sources:
 tags: [学生讲义, 超级充实版, 物理化学, 第四轮, 统计热力学, Maxwell关系, 自学完整]
 created: 2026-08-04
 updated: 2026-09-29
-last_audit: "2026-09-29 口径升级：去 H1；「学习目标」改为「学习目标与考纲锚点」并补齐六行三线表；正文节号统一 §1~§9（§9 经典示范例题）；练习区改为 §10 竞赛思考强化题与微观机理精解，题量按实际可用题源收编为 11 题（Ch05 熵的状态函数性与微观状态数判据 3 题 ＋ Ch06 ΔG—K 互算与 Gibbs-Helmholtz 相变类 8 题），不另补自编题；配图逐张目检均为教材原书图；四闸门机检闭环"
+last_audit: "2026-09-29 口径升级：去 H1；「学习目标」改为「学习目标与考纲锚点」并补齐六行三线表；正文节号统一 §1~§9（§9 经典示范例题）；练习区改为 §10 竞赛思考强化题与微观机理精解，题量按实际可用题源收编为 11 题（Ch05 熵的状态函数性与微观状态数判据 3 题 ＋ Ch06 ΔG—K 互算与 Gibbs-Helmholtz 相变类 8 题），不另补自编题；配图逐张目检均为教材原书图；四闸门机检闭环；2026-09-29 口径 v4（教师版＝学生版＋答案）：删「学习目标与考纲锚点」节（考纲码保留于 FM syllabus_codes），练习区统一改「§N 课后习题」并删导语，删花活栏目（知识网络与方法论／本节总结速查／赛场高频失分命题陷阱清单／命题陷阱与失分误区清单／失分陷阱子节）并重编节号，去 AI 修辞与来源署名，图注保留编号只留一句事实，并列项与小标题行前补空行（修 docx 并段）"
 stage: published
 related:
   - "[[03-知识点/决赛要求/物理化学深化/麦克斯韦关系式]]"
@@ -40,7 +40,7 @@ status: 已填充
 
 $$dU = T\,dS - p\,dV$$
 
-从微观统计物理的视角审视，内能方程具有极其精微的物理诠释。宏观体系的内能是所有微观能级平均能量的总和，即 $U = \sum_i N_i \varepsilon_i$。对其取全微分可得 $dU = \sum_i \varepsilon_i\,dN_i + \sum_i N_i\,d\varepsilon_i$。对比热力学基本方程，第一项 $\sum_i \varepsilon_i\,dN_i$ 对应体系微观能级粒子占据数分布的变化，粒子在固定能级间的跃迁直接宏观表现为热交换 $T\,dS$；第二项 $\sum_i N_i\,d\varepsilon_i$ 对应于外部体积改变引发的量子势阱尺寸变化，进而引起单粒子能级本征值的升降，能级位移在宏观上直接表现为体积功 $-p\,dV$。
+从微观统计物理的视角审视，内能方程具有精微的物理诠释。宏观体系的内能是所有微观能级平均能量的总和，即 $U = \sum_i N_i \varepsilon_i$。对其取全微分可得 $dU = \sum_i \varepsilon_i\,dN_i + \sum_i N_i\,d\varepsilon_i$。对比热力学基本方程，第一项 $\sum_i \varepsilon_i\,dN_i$ 对应体系微观能级粒子占据数分布的变化，粒子在固定能级间的跃迁直接宏观表现为热交换 $T\,dS$；第二项 $\sum_i N_i\,d\varepsilon_i$ 对应于外部体积改变引发的量子势阱尺寸变化，进而引起单粒子能级本征值的升降，能级位移在宏观上直接表现为体积功 $-p\,dV$。
 
 由此式可知，内能 $U$ 的特征变量（即自然变量）为熵 $S$ 与体积 $V$。只要获知了内能关于自然变量的函数关系 $U = U(S, V)$，通过一次偏导数运算即可求出体系的压强 $p = -(\partial U/\partial V)_S$ 与绝对温度 $T = (\partial U/\partial S)_V$，进而求得体系的全部平衡热力学性质。然而在实验室真实测量中，熵 $S$ 无法由仪表直接读取或精确控制，体积 $V$ 在高压或凝聚态实验中同样难以维持严格等容。化学家迫切需要以易于测量的强大量（如温度 $T$、压强 $p$）作为独立自变量的热力学函数。
 
@@ -83,7 +83,7 @@ Gibbs 自由能 $G$ 的自然变量为 $(T, p)$。由全微分直接可得熵 $S
 
 $$\frac{\partial^2 z}{\partial x\,\partial y} = \frac{\partial^2 z}{\partial y\,\partial x}$$
 
-将该定理严格应用于四大热力学基本方程，即催生了热力学中极为深刻且威力强大的四大 Maxwell 关系式。
+将该定理严格应用于四大热力学基本方程，即催生了热力学中深刻且威力强大的四大 Maxwell 关系式。
 
 第一式：考察内能母方程 $dU = T\,dS - p\,dV$。由于 $dU$ 是全微分，有 $(\partial U/\partial S)_V = T$ 以及 $(\partial U/\partial V)_S = -p$。内能对 $S$ 和 $V$ 的二阶混合偏导数必须相等：
 
@@ -137,7 +137,7 @@ $$\left(\frac{\partial H_\mathrm{m}}{\partial p}\right)_T = V_\mathrm{m} - T\lef
 
 $$\left(\frac{\partial U_\mathrm{m}}{\partial V_\mathrm{m}}\right)_T = T\left(\frac{R}{V_\mathrm{m} - b}\right) - \left(\frac{RT}{V_\mathrm{m} - b} - \frac{a}{V_\mathrm{m}^2}\right) = \frac{a}{V_\mathrm{m}^2}$$
 
-这一结果极其优美地揭示了分子间引力的微观本质：项 $a/V_\mathrm{m}^2$ 正是克服分子间范德华吸引力所需的内压力。当气体等温膨胀（$dV_\mathrm{m} > 0$）时，分子间距增大，分子势能升高，导致体系内能相应增加。
+这一结果优美地揭示了分子间引力的微观本质：项 $a/V_\mathrm{m}^2$ 正是克服分子间范德华吸引力所需的内压力。当气体等温膨胀（$dV_\mathrm{m} > 0$）时，分子间距增大，分子势能升高，导致体系内能相应增加。
 
 ---
 
@@ -183,7 +183,7 @@ $$C_p = C_V + T\left(\frac{\partial p}{\partial T}\right)_V \left(\frac{\partial
 
 $$C_p - C_V = \frac{\alpha^2 T V}{\kappa_T}$$
 
-该公式具有极为深远的热力学哲学意义。根据热力学力学稳定性准则，外界对体系加压，其体积必趋于缩小（即 $-(\partial V/\partial p)_T > 0$），因此对于任何稳定存在的宏观均匀相物质，等温压缩率必严格大于零（$\kappa_T > 0$）。又因绝对温度 $T > 0$ 且体系体积 $V > 0$，项 $\alpha^2$ 为平方实数必非负，故恒有：
+该公式具有深远的热力学哲学意义。根据热力学力学稳定性准则，外界对体系加压，其体积必趋于缩小（即 $-(\partial V/\partial p)_T > 0$），因此对于任何稳定存在的宏观均匀相物质，等温压缩率必严格大于零（$\kappa_T > 0$）。又因绝对温度 $T > 0$ 且体系体积 $V > 0$，项 $\alpha^2$ 为平方实数必非负，故恒有：
 
 $$C_p \ge C_V$$
 
@@ -329,7 +329,7 @@ $$\frac{1}{T} = \left(\frac{\partial S}{\partial E}\right)_V = k\beta \implies \
 
 ## §6 分子配分函数的微观解耦与各模式展开
 
-在实际多原子分子体系中，单分子的微观运动状态极其复杂，包含了在三维空间中的质心平动、绕惯性主轴的分子整体转动、各化学键与键角的骨架振动以及分子内部电子态与原子核自旋的取向跃迁。根据量子力学的 Born-Oppenheimer 近似与刚性转子-简谐振子近似，不同空间坐标与时间尺度的运动模式在很大程度上是相互独立的。分子的总能量可以高度精确地写为各独立运动模式能量的代数加和：
+在实际多原子分子体系中，单分子的微观运动状态复杂，包含了在三维空间中的质心平动、绕惯性主轴的分子整体转动、各化学键与键角的骨架振动以及分子内部电子态与原子核自旋的取向跃迁。根据量子力学的 Born-Oppenheimer 近似与刚性转子-简谐振子近似，不同空间坐标与时间尺度的运动模式在很大程度上是相互独立的。分子的总能量可以高度精确地写为各独立运动模式能量的代数加和：
 
 $$\varepsilon = \varepsilon^T + \varepsilon^R + \varepsilon^V + \varepsilon^E$$
 
@@ -337,7 +337,7 @@ $$\varepsilon = \varepsilon^T + \varepsilon^R + \varepsilon^V + \varepsilon^E$$
 
 $$q = q^T \cdot q^R \cdot q^V \cdot q^E$$
 
-第一，平动配分函数 $q^T$。将质量为 $m$ 的单分子置于宏观体积为 $V = L_x L_y L_z$ 的三维三维方势阱中。由量子力学薛定谔方程，分子在三个正交方向上的平动能级完全解耦：$\varepsilon^T = \frac{h^2}{8m}\left(\frac{n_x^2}{L_x^2} + \frac{n_y^2}{L_y^2} + \frac{n_z^2}{L_z^2}\right)$，其中量子数 $n_x, n_y, n_z = 1, 2, 3, \dots$。由于宏观容器线度 $L \sim 10^{-1}\ \mathrm{m}$，相邻能级间隔极其微小（$\Delta\varepsilon \sim 10^{-38}\ \mathrm{J} \ll kT \sim 10^{-21}\ \mathrm{J}$），分立求和可极其精确地转变为连续积分。以 $x$ 方向为例：
+第一，平动配分函数 $q^T$。将质量为 $m$ 的单分子置于宏观体积为 $V = L_x L_y L_z$ 的三维三维方势阱中。由量子力学薛定谔方程，分子在三个正交方向上的平动能级完全解耦：$\varepsilon^T = \frac{h^2}{8m}\left(\frac{n_x^2}{L_x^2} + \frac{n_y^2}{L_y^2} + \frac{n_z^2}{L_z^2}\right)$，其中量子数 $n_x, n_y, n_z = 1, 2, 3, \dots$。由于宏观容器线度 $L \sim 10^{-1}\ \mathrm{m}$，相邻能级间隔微小（$\Delta\varepsilon \sim 10^{-38}\ \mathrm{J} \ll kT \sim 10^{-21}\ \mathrm{J}$），分立求和可精确地转变为连续积分。以 $x$ 方向为例：
 
 $$q_x^T = \sum_{n_x=1}^\infty e^{-\frac{\beta h^2 n_x^2}{8m L_x^2}} \approx \int_0^\infty e^{-\frac{\beta h^2 n_x^2}{8m L_x^2}}\,dn_x = \frac{\sqrt{2\pi m k T}}{h} L_x$$
 
@@ -345,7 +345,7 @@ $$q_x^T = \sum_{n_x=1}^\infty e^{-\frac{\beta h^2 n_x^2}{8m L_x^2}} \approx \int
 
 $$q^T = q_x^T q_y^T q_z^T = \frac{(2\pi m k T)^{3/2}}{h^3} V = \frac{V}{\Lambda^3}$$
 
-式中引入了极其重要的微观特征尺度——热 de Broglie 波长 $\Lambda$：
+式中引入了重要的微观特征尺度——热 de Broglie 波长 $\Lambda$：
 
 $$\Lambda = \frac{h}{\sqrt{2\pi m k T}}$$
 
@@ -369,7 +369,7 @@ $$q^R = \frac{kT}{\sigma hc\tilde{B}} = \frac{T}{\sigma \Theta_R}$$
 
 $$q^V = \sum_{v=0}^\infty e^{-v \beta hc\tilde{\nu}} = \frac{1}{1 - e^{-\beta hc\tilde{\nu}}} = \frac{1}{1 - e^{-\Theta_V/T}}$$
 
-式中定义振动特征温度 $\Theta_V = \frac{hc\tilde{\nu}}{k}$。化学键的力常数极大，通常多原子分子的特征振动温度高达上千开尔文（例如氮气 $\Theta_V \approx 3374\ \mathrm{K}$，一氧化碳 $\Theta_V \approx 3120\ \mathrm{K}$，水分子伸缩振动 $\Theta_V \approx 5300\ \mathrm{K}$）。在室温（$T \approx 300\ \mathrm{K}$）下，$\Theta_V/T \gg 1$，指数项 $e^{-\Theta_V/T} \approx 0$，导致分母极度接近 1，即 $q^V \approx 1$。这意味着在常温常压下，绝大多数分子的化学键骨架振动均处于深度冻结状态，仅停留在基态而无法被热激发。
+式中定义振动特征温度 $\Theta_V = \frac{hc\tilde{\nu}}{k}$。化学键的力常数极大，通常多原子分子的特征振动温度高达上千开尔文（例如氮气 $\Theta_V \approx 3374\ \mathrm{K}$，一氧化碳 $\Theta_V \approx 3120\ \mathrm{K}$，水分子伸缩振动 $\Theta_V \approx 5300\ \mathrm{K}$）。在室温（$T \approx 300\ \mathrm{K}$）下，$\Theta_V/T \gg 1$，指数项 $e^{-\Theta_V/T} \approx 0$，导致分母接近 1，即 $q^V \approx 1$。这意味着在常温常压下，绝大多数分子的化学键骨架振动均处于深度冻结状态，仅停留在基态而无法被热激发。
 
 ![[45d5e5f3be2bb30bea78ad397179f9243c7f890aa8a057b2cef13d11c29280a3.jpg]]
 > 图 10-4：量子谐振子能级占据直方图随温度演化特征
@@ -390,7 +390,7 @@ $$Q = q^N$$
 
 $$Q = \frac{q^N}{N!}$$
 
-这一因子 $1/N!$ 的引入具有极其震撼的历史意义，正是它彻底化解了困扰古典热力学数十年的“Gibbs 悖论”（即同种气体等温等压虚构扩散混合时熵变不为零的逻辑谬误）。
+这一因子 $1/N!$ 的引入具有重要的历史意义，正是它彻底化解了困扰古典热力学数十年的“Gibbs 悖论”（即同种气体等温等压虚构扩散混合时熵变不为零的逻辑谬误）。
 
 一旦获得体系的总配分函数 $Q = Q(T, V, N)$，全部经典热力学平衡函数均可作为其解析偏导数直接导出。
 
@@ -419,7 +419,7 @@ $$p = -\left(\frac{\partial A}{\partial V}\right)_T = kT\left(\frac{\partial \ln
 
 $$p = NkT\left(\frac{\partial \ln V}{\partial V}\right)_T = \frac{NkT}{V} \implies pV = NkT = nRT$$
 
-这是物理化学史上最纯粹的奇迹之一：无需引入任何唯象的气体实验定律，仅凭三维量子方势阱能级积分与全同粒子不可区分性，统计热力学从第一性原理直接严格推导出了理想气体状态方程。
+这是物理化学史上最重要的结果之一：无需引入任何唯象的气体实验定律，仅凭三维量子方势阱能级积分与全同粒子不可区分性，统计热力学从第一性原理直接严格推导出了理想气体状态方程。
 
 最后导出体系的统计熵 $S$。根据热力学关系 $S = -\left(\frac{\partial A}{\partial T}\right)_V = \frac{U - A}{T}$：
 
@@ -455,13 +455,13 @@ $$S = \frac{\frac{3}{2}NkT}{T} + Nk\ln\left(\frac{V e}{N\Lambda^3}\right) = Nk\l
 
 $$S_\mathrm{m}^\theta = R\ln\left(\frac{V_\mathrm{m} e^{5/2}}{N_A \Lambda^3}\right) = R\left[\frac{5}{2}\ln T + \frac{3}{2}\ln M - \ln(p^\theta/\mathrm{Pa})\right] - 9.68\ \mathrm{J\cdot K^{-1}\cdot mol^{-1}}$$
 
-式中 $M$ 为相对分子质量。这就是由 Otto Sackur 与 Hugo Tetrode 分别独立推导出的著名的 Sackur-Tetrode 方程。该方程在物理学史上占有极其崇高的地位：它完全不依赖任何低温量热比热数据，仅凭普朗克常数 $h$、玻尔兹曼常数 $k$、气体摩尔质量 $M$ 与温度 $T$，便以惊人的精度直接计算出了气体的热力学第三定律绝对熵。其实验检验精度高达小数点后两到三位有效数字，成为了量子统计物理最辉煌的胜利之一。
+式中 $M$ 为相对分子质量。这就是由 Otto Sackur 与 Hugo Tetrode 分别独立推导出的著名的 Sackur-Tetrode 方程。该方程在物理学史上占有崇高的地位：它完全不依赖任何低温量热比热数据，仅凭普朗克常数 $h$、玻尔兹曼常数 $k$、气体摩尔质量 $M$ 与温度 $T$，便以显著的精度直接计算出了气体的热力学第三定律绝对熵。其实验检验精度高达小数点后两到三位有效数字，成为了量子统计物理重要成就。
 
 第二，残余熵（Residual Entropy）与微观冻结无序。热力学第三定律断言完美晶体在 $0\ \mathrm{K}$ 下熵为零。然而在 20 世纪前期的低温实验中，化学家通过量热积分 $S_\mathrm{cal}(298.15\ \mathrm{K}) = \int_0^{298.15} \frac{C_p}{T}\,dT + \sum \frac{\Delta H_\mathrm{相变}}{T_\mathrm{相变}}$ 测得的量热熵，在与光谱数据通过统计力学计算得出的绝对熵对比时，发现一氧化碳 $\mathrm{CO}$、一氧化二氮 $\mathrm{N}_2\mathrm{O}$ 以及普通固态冰 $\mathrm{H}_2\mathrm{O}$ 等物质存在系统的正偏差：
 
 $$S_\mathrm{spec} - S_\mathrm{cal} = S_0 > 0$$
 
-这一偏差值 $S_0$ 被称为绝对零度下的残余熵。统计热力学对残余熵给出了深刻而唯妙的微观诠释：在晶体自熔体或高温缓慢冷却凝固的过程中，分子的微观偶极矩极小（例如 $\mathrm{CO}$ 的偶极矩仅为 $0.11\ \mathrm{Debye}$），分子以正向 $\mathrm{C}-\mathrm{O}$ 排列与反向 $\mathrm{O}-\mathrm{C}$ 排列的晶格静电能差异极度微小（$\Delta\varepsilon \ll kT$）。当温度降低至极低温时，晶格分子发生旋转翻转所必须跨越的空间位阻活化势垒却相当可观。分子在其取向能够完全有序化之前，其无规取向状态便已被晶格的坚硬势阱永久“冻结”。
+这一偏差值 $S_0$ 被称为绝对零度下的残余熵。统计热力学对残余熵给出了深刻而唯妙的微观诠释：在晶体自熔体或高温缓慢冷却凝固的过程中，分子的微观偶极矩极小（例如 $\mathrm{CO}$ 的偶极矩仅为 $0.11\ \mathrm{Debye}$），分子以正向 $\mathrm{C}-\mathrm{O}$ 排列与反向 $\mathrm{O}-\mathrm{C}$ 排列的晶格静电能差异微小（$\Delta\varepsilon \ll kT$）。当温度降低至极低温时，晶格分子发生旋转翻转所必须跨越的空间位阻活化势垒却相当可观。分子在其取向能够完全有序化之前，其无规取向状态便已被晶格的坚硬势阱永久“冻结”。
 
 在 $0\ \mathrm{K}$ 时，每个 $\mathrm{CO}$ 分子在其固定的晶格位点上均保留有 2 种完全等价的朝向可能。对于 1 摩尔由 $N_A$ 个分子构成的晶体，其冻结的可能微观构型总数高达 $W_0 = 2^{N_A}$。应用 Boltzmann 统计熵公式：
 
