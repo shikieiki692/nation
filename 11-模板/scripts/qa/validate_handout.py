@@ -25,13 +25,16 @@ ROOT = os.path.join(VAULT, "04-课件", "学生讲义")
 
 REQUIRED_FM = ["title", "type", "chapter", "serve_rounds", "stage",
                "difficulty_level", "has_images"]  # exercise_count 单独按「有练习题」条件查（规范 §五）
-EX_HEAD_WHITELIST = ("综合串联题",)  # 节名变体白名单
+EX_HEAD_WHITELIST = ("综合串联题", "竞赛思考强化题", "思考强化题", "思维强化",
+                     "思考强化大题", "化竞思维强化训练题")  # 节名变体白名单
 # 装饰性 emoji（排除 ✓✗≈ 等文本功能符号；⭐ 单列铁律项）
 EMOJI = re.compile(r"[\U0001F300-\U0001FAFF\u2B00-\u2BFF\u2728\u274C\u2757\U0001F900-\U0001F9FF]")
 # 合法题目/答案行：**N.** 题干 或 **N. [标签] 题名**
 PAT_ITEM = re.compile(r"^\*\*(\d{1,2})\.\*\*[ \t]*", re.A)
 PAT_ITEM_T = re.compile(r"^\*\*(\d{1,2})\.[ \t]+\[.*\][ \t]*\S.*\*\*[ \t]*", re.A)  # **26. [届次] 题名**
 PAT_BARE = re.compile(r"^(\d{1,2})\.[ \t]+", re.A)
+# 答案条目另一种编号：**解 12**：（新口径练习区解题用此式，题面用 **12.**）
+PAT_ANS = re.compile(r"^\*\*解[ \t]*(\d{1,2})\*\*", re.A)
 
 # 考纲注册表（教学价值战 B1）：`02-考纲条目/` FM syllabus_code 的固化快照
 SYL_PATH = os.path.join(os.path.dirname(_here), "data", "syllabus_registry.json")
@@ -111,6 +114,7 @@ def check(rel):
     with open(p, encoding="utf-8", errors="replace") as f:
         text = f.read()
     lines = text.splitlines(keepends=True)
+    is_stu = "学生专用版/" in rel.replace("\\", "/")
     fm = fm_of(text)
     if fm is None:
         E.append("无 frontmatter")
@@ -154,8 +158,11 @@ def check(rel):
         if PAT_ITEM.match(body) or PAT_ITEM_T.match(body):
             n = int(re.match(r"^\*\*(\d{1,2})\.", body).group(1))
             (q_nums if in_q else a_nums).append(n)
-        elif PAT_BARE.match(body) and (in_q or in_a):
+        elif PAT_ANS.match(body) and in_a:
+            a_nums.append(int(PAT_ANS.match(body).group(1)))
+        elif PAT_BARE.match(body) and in_q:
             # 裸编号行可能是题内小问/步骤/要点列表（规范定义「不是题目」），降级 WARNING 人工复核
+            # 仅在**题面区**报：答案区里的 1./2./3. 多为解题步骤/评分要点，属正常写法
             W.append(f"L{i+1} 裸编号行（若为题目请加粗）：{body[:40]}…")
     # 2 题号连续
     if q_nums:
@@ -164,9 +171,10 @@ def check(rel):
         if miss:
             E.append(f"题号不连续，缺 {miss}")
     # 3 配平
-    if q_nums and a_nums and len(set(q_nums)) != len(set(a_nums)):
+    if q_nums and a_nums and len(set(q_nums)) != len(set(a_nums)) and not is_stu:
         E.append(f"练习 {len(set(q_nums))} 题 ≠ 答案 {len(set(a_nums))} 条")
-    if q_nums and not a_nums:
+    if q_nums and not a_nums and not is_stu:
+        # 学生专用版按铁律整块剥离答案区，无答案属**预期**，不计入待补
         W.append(f"有 {len(set(q_nums))} 题无答案区（登记待补清单）")
     # 4 FM 题数口径（纯练习数）
     fm_ex = fm_get(fm, "exercise_count")
