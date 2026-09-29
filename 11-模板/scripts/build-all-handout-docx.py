@@ -373,6 +373,20 @@ def _next_significant_char(text: str, idx: int) -> str | None:
     return text[i] if i < len(text) else None
 
 
+# 温标单位（C/F）：`25℃` 可写成 `25\,^\circ\mathrm{C}` / `^\circ\text{C}` / `^\circ C`
+_DEGREE_UNIT_AHEAD = re.compile(
+    r"\s*\{?\s*(?:\\mathrm\s*\{|\\text\s*\{|\\mathrm\s+|\\text\s+)?\s*[CF](?![A-Za-z])"
+)
+
+
+def _ahead_is_degree_unit(text: str, idx: int) -> bool:
+    """`^\\circ` / `°` 之后是否紧跟温标单位 C/F（含 `\\mathrm{C}` / `\\text{C}` 写法）。
+
+    用于把「角度／摄氏温度」的度符号与「标准态」上标区分开：前者保留 `°`，后者才转 `\\theta`。
+    """
+    return bool(_DEGREE_UNIT_AHEAD.match(text[idx:idx + 24]))
+
+
 def _is_caption_line(line: str) -> bool:
     """Heuristic for figure/table caption lines in markdown sources."""
     stripped = line.strip()
@@ -585,7 +599,8 @@ def _run_word_formula_precheck(
         for match in circ_superscript.finditer(raw_line):
             prev = _prev_significant_char(raw_line, match.start())
             nxt = _next_significant_char(raw_line, match.end())
-            if prev and not prev.isdigit() and nxt not in {"C", "F"}:
+            if (prev and not prev.isdigit() and nxt not in {"C", "F"}
+                    and not _ahead_is_degree_unit(raw_line, match.end())):
                 _append_precheck_issue(
                     issues,
                     seen,
@@ -599,7 +614,8 @@ def _run_word_formula_precheck(
         for match in re.finditer("°", raw_line):
             prev = _prev_significant_char(raw_line, match.start())
             nxt = _next_significant_char(raw_line, match.start() + 1)
-            if prev and not prev.isdigit() and nxt not in {"C", "F"}:
+            if (prev and not prev.isdigit() and nxt not in {"C", "F"}
+                    and not _ahead_is_degree_unit(raw_line, match.start() + 1)):
                 _append_precheck_issue(
                     issues,
                     seen,
@@ -1895,15 +1911,27 @@ def _preprocess_markdown_inner(text: str) -> str:
     def _std_state_circ(m: re.Match) -> str:
         prev = _prev_significant_char(m.string, m.start())
         nxt = _next_significant_char(m.string, m.end())
-        if prev and not prev.isdigit() and nxt not in {"C", "F"}:
+        if (prev and not prev.isdigit() and nxt not in {"C", "F"}
+                and not _ahead_is_degree_unit(m.string, m.end())):
             return m.group(0).replace("\\circ", "\\theta").replace("°", "θ")
         return m.group(0)
     text = re.sub(r"\^\s*\{?\s*\\circ\s*\}?|°", _std_state_circ, text)
 
-    # 1) Image embeds: ![[image.png]] or ![[image.png|alt text]] → ![alt](image.png)
+    # 1) Image embeds: ![[image.png]] or ![[image.png|alt text]] → ![alt](image.png){width=...}
+    def _docx_image_repl(m):
+        target = f"{m.group(1)}.{m.group(2)}"
+        attr = (m.group(3) or "").strip()
+        if attr.isdigit():
+            # If numeric pixel width specified in Obsidian, scale down moderately for Word (clamp max 280px)
+            w = min(int(attr), 280)
+            return f'![]({target}){{width={w}px}}'
+        elif attr:
+            return f'![{attr}]({target}){{width=280px}}'
+        return f'![]({target}){{width=280px}}'
+
     text = re.sub(
         r'!\[\[([^\]]+?)\.(png|jpg|jpeg|gif|webp|svg)(?:\|([^\]]*))?\]\]',
-        lambda m: f'![{m.group(3) or ""}]({m.group(1)}.{m.group(2)})',
+        _docx_image_repl,
         text, flags=re.IGNORECASE)
     # Adjacent embeds in one table cell (e.g. `![[a.jpg]]![[b.jpg]]`) must be
     # separated, otherwise pandoc merges the pair and drops one image.
