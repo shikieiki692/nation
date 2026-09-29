@@ -22,7 +22,7 @@ sources:
 tags: [学生讲义, 超级充实版, 物理化学, 第四轮, 统计热力学, Maxwell关系, 自学完整]
 created: 2026-08-04
 updated: 2026-09-29
-last_audit: "2026-09-29 口径升级：去 H1；「学习目标」改为「学习目标与考纲锚点」并补齐六行三线表；正文节号统一 §1~§9（§9 经典示范例题）；练习区改为 §10 竞赛思考强化题与微观机理精解，题量按实际可用题源收编为 11 题（Ch05 熵的状态函数性与微观状态数判据 3 题 ＋ Ch06 ΔG—K 互算与 Gibbs-Helmholtz 相变类 8 题），不另补自编题；配图逐张目检均为教材原书图；四闸门机检闭环"
+last_audit: "2026-09-29 口径升级：去 H1；「学习目标」改为「学习目标与考纲锚点」并补齐六行三线表；正文节号统一 §1~§9（§9 经典示范例题）；练习区改为 §10 竞赛思考强化题与微观机理精解，题量按实际可用题源收编为 11 题（Ch05 熵的状态函数性与微观状态数判据 3 题 ＋ Ch06 ΔG—K 互算与 Gibbs-Helmholtz 相变类 8 题），不另补自编题；配图逐张目检均为教材原书图；四闸门机检闭环；2026-09-29 口径 v4（教师版＝学生版＋答案）：删「学习目标与考纲锚点」节（考纲码保留于 FM syllabus_codes），练习区统一改「§N 课后习题」并删导语，删花活栏目（知识网络与方法论／本节总结速查／赛场高频失分命题陷阱清单／命题陷阱与失分误区清单／失分陷阱子节）并重编节号，去 AI 修辞与来源署名，图注保留编号只留一句事实，并列项与小标题行前补空行（修 docx 并段）"
 stage: published
 related:
   - "[[03-知识点/决赛要求/物理化学深化/麦克斯韦关系式]]"
@@ -33,18 +33,6 @@ related:
   - "[[04-课件/学生讲义/3-物理化学/胶体与表面物理化学-超级充实版（自学完整）]]"
 status: 已填充
 ---
-## 学习目标与考纲锚点
-
-> 对齐考纲：§06 热力学初步 · 决赛04 热力学
-
-| 考纲条目 | 学完本讲你应能 |
-|:---|:---|
-| §06 热力学初步 · 热力学基本方程 | 由 Legendre 变换辨识四大特征函数的自然变量，写出四大基本方程 |
-| 决赛04 热力学 · Maxwell 关系 | 由二阶混合偏导互易定理推出四大 Maxwell 关系，用偏导数循环法则完成变量代换 |
-| 决赛04 热力学 · 响应函数与节流效应 | 建立 $C_p$、$C_V$、$\alpha$、$\kappa_T$ 之间的关系，由 Joule-Thomson 系数判定致冷条件 |
-| 决赛04 热力学 · Gibbs-Helmholtz 方程 | 由 $\left[\partial(G/T)/\partial T\right]_p$ 推导变温平衡关系，用 $\Delta G=0$ 判据求相变温度 |
-| 决赛04 热力学 · 统计热力学与配分函数 | 由 Boltzmann 分布建立微观状态数与宏观熵的联系，按平动／转动／振动解耦分子配分函数 |
-| 决赛04 热力学 · 配分函数桥接宏观量 | 由分子配分函数计算 $U$、$H$、$S$、$C_V$ 与标准平衡常数 |
 
 ## §1 热力学四大基本方程与 Legendre 变换
 
@@ -521,6 +509,7 @@ $$K_p^\theta = \prod_i \left(\frac{q_{i,\mathrm{m}}^\theta}{N_A}\right)^{\nu_i} 
 (3) 若 1 摩尔该气体在绝热自由膨胀中体积由 $V_1$ 膨胀至 $V_2$，试求其温度变化量 $\Delta T$ 的解析表达式。
 
 **详细微观解析**：
+
 (1) 将 van der Waals 方程整理为压强的显式表达式：
 $$p = \frac{RT}{V_\mathrm{m} - b} - \frac{a}{V_\mathrm{m}^2}$$
 在恒容条件下对温度求偏导：
@@ -548,6 +537,7 @@ $$\Delta T = T_2 - T_1 = \left[\frac{a}{C_{V,\mathrm{m}} V_\mathrm{m}}\right]_{V
 (3) 计算反应在 $T = 600\ \mathrm{K}$ 下的标准摩尔 Gibbs 自由能变 $\Delta_r G^\theta(600\ \mathrm{K})$。
 
 **详细微观解析**：
+
 (1) 根据 Kirchhoff 定律，在恒压下 $(\partial \Delta_r H^\theta/\partial T)_p = \Delta_r C_p^\theta$。从参考温度 $T^\theta = 298.15\ \mathrm{K}$ 积分至温度 $T$：
 $$\Delta_r H^\theta(T) = \Delta_r H^\theta(T^\theta) + \Delta_r C_p^\theta (T - T^\theta)$$
 代入具体数值：
@@ -581,6 +571,7 @@ $$\Delta_r G^\theta(600\ \mathrm{K}) = -66409 + 81290 + 16783 = +31664\ \mathrm{
 (3) 分析体系在极低温（$T \to 0$）与极高温（$T \to \infty$）下的热容极限，并证明定容热容必在某一特征温度处出现极大值峰（即固体物理中著名的 Schottky 异常）。
 
 **详细微观解析**：
+
 (1) 单分子配分函数为两个能级项的加和：
 $$q = \sum_{i=0}^1 g_i e^{-\beta \varepsilon_i} = 1 + e^{-\beta \varepsilon}$$
 对温度 $T$ 求导：
@@ -614,6 +605,7 @@ $$\mathrm{H}_2(\mathrm{g}) + \mathrm{D}_2(\mathrm{g}) \rightleftharpoons 2\mathr
 (2) 结合分子的核空间对称数 $\sigma$，推导并计算该同位素反应在高温极限下的统计平衡常数 $K_p$。
 
 **详细微观解析**：
+
 (1) 根据理想气体统计平衡常数主公式：
 $$K_p = \frac{\left(q_{\mathrm{m},\mathrm{HD}}^\theta/N_A\right)^2}{\left(q_{\mathrm{m},\mathrm{H}_2}^\theta/N_A\right)\left(q_{\mathrm{m},\mathrm{D}_2}^\theta/N_A\right)} \exp\left(-\frac{\Delta_r E_0}{RT}\right)$$
 在高温极限下，反应前后分子摩尔质量分别为 $m_\mathrm{H} = 1, m_\mathrm{D} = 2$，故 $M_{\mathrm{H}_2} = 2, M_{\mathrm{D}_2} = 4, M_{\mathrm{HD}} = 3$。
@@ -639,9 +631,7 @@ $$\frac{\left(1/\sigma_{\mathrm{HD}}\right)^2}{\left(1/\sigma_{\mathrm{H}_2}\rig
 $$K_p \approx \frac{\sigma_{\mathrm{H}_2} \sigma_{\mathrm{D}_2}}{\sigma_{\mathrm{HD}}^2} = \frac{2 \times 2}{1^2} = 4$$
 这一优美的经典统计结果 $K = 4$ 完美对应于宏观排列组合几率：将 2 个 $\mathrm{H}$ 原子与 2 个 $\mathrm{D}$ 原子完全随机两两配对，生成 $2\mathrm{HD}$ 的微观状态组合几率恰好为生成 $\mathrm{H}_2 + \mathrm{D}_2$ 的 4 倍。
 
-## §10 竞赛思考强化题与微观机理精解
-
-本组 11 题全部取自题库，覆盖熵的状态函数性与微观状态数判据、$\Delta_\mathrm{r}G^\ominus$—$K^\ominus$ 互算与多重平衡耦合、Gibbs-Helmholtz 方程与相变温度的 $\Delta G=0$ 判据、$\Delta_\mathrm{r}G_\mathrm{m}$—$T$ 图线判据、van't Hoff 等温式与平衡常数组合关系等本讲核心考点。本讲在竞赛考纲中属决赛深化内容，题库内可直接组入的合规题卡有限，故练习区按实际可用题源收编，不另补自编题。
+## §10 课后习题
 
 **1.** 在298K、100kPa下，判断以下说法是否正确：
 "1 mol H₂O(g)的微观状态数 $\Omega$ > 1 mol H₂(g)的微观状态数 $\Omega$"
