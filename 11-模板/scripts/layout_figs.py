@@ -17,10 +17,33 @@
     build-all-handout-docx.py 的 _docx_image_repl 已在 2026-09-30 支持该转义。
     ⚠️ 不要用 `<br>` 把标号塞进图同一格——实测 pandoc 不换行，文字会压在图里。
 
+标签驱动的子组切分（2026-09-30 追加，解决「示例/记号/投影」这类结构）
+    「以冒号结尾的短行」（如 `示例:`、`记号：`、`投影：`）旧版含中文被判为正文 ⇒
+    **打断**图组，于是「记号：」下面两张图各自独占一行（实测 8-1-2 就是这样乱的）。
+    现改为：不打断，且作**子组边界**，标签升级成该子组的表格表头：
+
+        | 示例: |
+        | :---: |
+        | ![[a.jpg\\|250]] |
+
+        | 记号： |  |
+        | :---: | :---: |
+        | ![[b.jpg\\|250]] | ![[c.jpg\\|250]] |
+        | $4^{6}3^{8}$ |  |
+
+    短公式行（`$…$`，≤30 字）作为「图的注释」并入其下方一行
+    （常是图内标签被 OCR 抓到外层）。⛔ 触发门槛：组内标签 **≥2 个**才切分，
+    单个标签（如「注意：」）不触发，避免误伤正文。
+    ⚠️ 标签与图进同一张表 ⇒ Word 不会把「标签留在上页、图推到下页」。
+    ⚠️ 逐轮迭代时**不要 v1/v2 混用**（v1 已表格化的组，v2 接管不了，其标签会被丢）
+    ⇒ 改规则后应从**未排版的原始 md** 重新跑一遍。
+
 列数与图宽（实测：A4 正文宽 ≈ 449pt）
     2 图 → 2 列 / 250px；3 图 → 3 列 / 175px；4 图 → 2 列 ×2 行；
-    5 图及以上 → 3 列多行 / 175px。
+    5 图及以上 → 3 列多行 / 175px；标签子组内单图 → 1 列 / 250px。
     （3 列 ×180px 实测右边界 526pt，已顶到页边距；175px 留余量。）
+    宽度再按 min(目标, max(原图宽,120)) 收敛 —— **小图不放大**（曾遇 90px 的图
+    硬拉 175px，放大近 2 倍发糊）。
 
 用法
     python layout_figs.py <file.md> [more.md ...]        # dry-run
@@ -103,12 +126,16 @@ def collect(lines, start):
     return imgs, toks, k, npre
 
 
-def drop_trailing_tokens(out, cnt):
-    """从 out 尾部删掉 cnt 个短 token（连同其间空行），并保证尾部留一个空行。"""
+def drop_trailing_tokens(out, cnt, pred=None):
+    """从 out 尾部删掉 cnt 个「前置 token」（连同其间空行），并保证尾部留一个空行。
+
+    pred 默认 is_short；标签驱动路径要传 _tok_or_label（标签含中文、is_short 不认）。
+    """
+    pred = pred or is_short
     removed = 0
     while removed < cnt and out:
         s = out[-1]
-        if is_short(s):
+        if pred(s):
             out.pop()
             removed += 1
         elif not s.strip():
@@ -198,11 +225,135 @@ def render_block(imgs, toks):
     return out
 
 
+LABEL_RE = re.compile(r'[：:]$')
+NOTE_RE = re.compile(r'^\$[^$]{1,30}\$$')
+
+
+def is_label(l: str) -> bool:
+    """标签行：以冒号结尾的短行（「示例:」「记号：」「投影：」）。
+
+    这类行在旧逻辑里含中文 ⇒ 被判为正文 ⇒ **打断**图组，于是「记号：」下面的
+    两张图各自独占一行（实测 8-1-2 就是这样乱掉的）。现改为：不打断，且作为
+    **子组边界**，标签本身升级成该子组的表格表头。
+    """
+    s = l.strip()
+    if not s or len(s) > 10:
+        return False
+    if s[0] in '|#$>*-!+=':
+        return False
+    return bool(LABEL_RE.search(s))
+
+
+def is_note(l: str) -> bool:
+    """短公式行（如 `$4^{6}3^{8}$`）——常是图内标签被 OCR 抓到外层，作图的注释。"""
+    return bool(NOTE_RE.match(l.strip()))
+
+
+def _tok_or_label(l: str) -> bool:
+    return is_short(l) or is_label(l)
+
+
+def collect_v2(lines, start):
+    """标签驱动的子组收集。返回 (segments, end, npre)；标签 <2 时 segments=None。
+
+    segments = [(label, [img…], [note|None…]), …]
+    """
+    seq = []
+    k = start - 1
+    pre = []
+    while k >= 0:
+        if is_blank(lines[k]):
+            k -= 1
+            continue
+        if is_label(lines[k]):
+            pre.append(('label', lines[k].strip()))
+            break
+        if is_short(lines[k]) or is_note(lines[k]):
+            k -= 1
+            continue
+        break
+    seq.extend(reversed(pre))
+    seq.append(('img', IMG.match(lines[start]).group(1)))
+    k = start + 1
+    while k < len(lines):
+        if is_blank(lines[k]):
+            k += 1
+            continue
+        if is_label(lines[k]):
+            seq.append(('label', lines[k].strip()))
+            k += 1
+            continue
+        if is_img(lines[k]):
+            seq.append(('img', IMG.match(lines[k]).group(1)))
+            k += 1
+            continue
+        if is_note(lines[k]) or is_short(lines[k]):
+            seq.append(('note', lines[k].strip()))
+            k += 1
+            continue
+        break
+    if sum(1 for t, _ in seq if t == 'label') < 2:
+        return None, start, 0
+    segs, cur = [], [None, [], []]
+    for t, x in seq:
+        if t == 'label':
+            if cur[1] or cur[0]:
+                segs.append(cur)
+            cur = [x, [], []]
+        elif t == 'img':
+            cur[1].append(x)
+            cur[2].append(None)
+        else:
+            if cur[1]:
+                cur[2][-1] = ((cur[2][-1] + ' ' + x) if cur[2][-1] else x)
+    if cur[1] or cur[0]:
+        segs.append(cur)
+    return segs, k, len(pre)
+
+
+def render_segments(segs):
+    out = []
+    for label, imgs, notes in segs:
+        if not imgs:
+            # 只有标签、没有图（例如该组的图已被前一轮排成表格）——
+            # 此时标签必须保留成普通段落，⛔ 不能丢（丢过「投影：」）。
+            if label:
+                out.append(label)
+                out.append('')
+            continue
+        n = len(imgs)
+        cols, w = (1, 250) if n == 1 else plan(n)
+        for x in imgs:
+            assert re.fullmatch(r'[0-9a-fA-F]{64}\.[A-Za-z0-9]+', x), x
+        head = [label or ''] + [''] * (cols - 1)
+        out.append('| ' + ' | '.join(head) + ' |')
+        out.append('| ' + ' | '.join([':---:'] * cols) + ' |')
+        for r0 in range(0, n, cols):
+            row = imgs[r0:r0 + cols]
+            k = len(row)
+            out.append('| ' + ' | '.join(
+                ['![[%s\\|%d]]' % (x, fit_w(x, w)) for x in row]
+                + [''] * (cols - k)) + ' |')
+            nts = [(notes[r0 + i] or '') if r0 + i < n else '' for i in range(cols)]
+            if any(nts):
+                out.append('| ' + ' | '.join(nts) + ' |')
+        out.append('')
+    return out
+
+
 def process(text):
     lines = text.split('\n')
     out, i, nblocks, nfigs = [], 0, 0, 0
     while i < len(lines):
         if is_img(lines[i]) and not (out and TBL.match(out[-1] or '')):
+            segs, end2, npre2 = collect_v2(lines, i)
+            if segs:
+                drop_trailing_tokens(out, npre2, pred=_tok_or_label)
+                out.extend(render_segments(segs))
+                nblocks += len(segs)
+                nfigs += sum(len(s[1]) for s in segs)
+                i = end2
+                continue
             imgs, toks, end, npre = collect(lines, i)
             if len(imgs) >= 2:
                 drop_trailing_tokens(out, npre)
