@@ -1929,8 +1929,12 @@ def _preprocess_markdown_inner(text: str) -> str:
             return f'![{attr}]({target}){{width=280px}}'
         return f'![]({target}){{width=280px}}'
 
+    # 2026-09-30 修复：`\\?` 容忍 Markdown 表格单元格内被转义的 `![[图\|宽]]`。
+    #   表格里 `|` 必须转义成 `\|`（否则被当列分隔符），但旧正则只认裸 `|`，
+    #   于是整条失配 ⇒ pandoc 把 `![[x.jpg|260]]` 当字面文本，渲染成 "!260"（图丢失）。
+    #   实测：表内排图（本节新增的讲义/试卷图组并排范式）必须走这一支。
     text = re.sub(
-        r'!\[\[([^\]]+?)\.(png|jpg|jpeg|gif|webp|svg)(?:\|([^\]]*))?\]\]',
+        r'!\[\[([^\]]+?)\.(png|jpg|jpeg|gif|webp|svg)(?:\\?\|([^\]]*))?\]\]',
         _docx_image_repl,
         text, flags=re.IGNORECASE)
     # Adjacent embeds in one table cell (e.g. `![[a.jpg]]![[b.jpg]]`) must be

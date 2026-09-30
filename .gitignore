@@ -69,6 +69,9 @@ skills/
 # PDF 分诊与文字层抽取（2026-09-25 固化，用于教辅资源利用）
 !11-模板/scripts/pdf_triage.py
 !11-模板/scripts/pdf_textlayer_to_md.py
+# 图片排版器（2026-09-30 固化）：把 Markdown 里「同小问的多图组」并排成表格，
+# 避免一张图独占一行/一页。试卷线与讲义线通用（详见脚本 docstring 的列数/宽度实测）。
+!11-模板/scripts/layout_figs.py
 # 回堵：上面的 ! 会越过第 14 行的 __pycache__/ 规则，这里再排除一次
 11-模板/scripts/qa/__pycache__/
 
