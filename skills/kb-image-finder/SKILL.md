@@ -9,6 +9,7 @@ triggers:
   - "配.*图"
   - "mineru"
   - "图片检索"
+status: 已填充
 ---
 
 # KB-Image-Finder · 知识库图片资产检索

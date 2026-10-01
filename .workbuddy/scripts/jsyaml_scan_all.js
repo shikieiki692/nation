@@ -1,6 +1,10 @@
-// 全库 js-yaml 扫描 v2：仅解析 frontmatter 段（与 jsyaml_verify.js 口径一致）
-const fs = require("fs"), path = require("path"), yaml = require("js-yaml");
+// 全库 YAML frontmatter 扫描：严格模式拒绝重复键/非法结构。
+// 当前环境缺少 js-yaml 4，本脚本通过 yaml_compat_client.js 委托 ruamel.yaml；
+// 口径接近但不宣称与 js-yaml 4 完全等价。--json-mode 可模拟重复键兼容模式。
+const fs = require("fs"), path = require("path");
+const { DESCRIPTION, loadYaml } = require("./yaml_compat_client");
 const VAULT = "C:\\Obsidion\\妙妙屋";
+const MODE = process.argv.includes("--json-mode") ? "json" : "strict";
 const SKIP = new Set([".git", ".workbuddy", ".obsidian", ".trash", ".smart-env", "媒体仓库", "node_modules"]);
 
 function* walk(dir) {
@@ -12,33 +16,43 @@ function* walk(dir) {
   }
 }
 
+function add(byTop, top, rel, err) {
+  const b = (byTop[top] = byTop[top] || { fails: [] });
+  b.fails.push({ rel, err });
+}
+
 const byTop = {};
-let total = 0, withFm = 0, failTotal = 0, unclosed = 0;
+const pending = [];
+let total = 0, withFm = 0, unclosed = 0;
 for (const f of walk(VAULT)) {
   const rel = path.relative(VAULT, f);
   const top = rel.split(path.sep)[0];
   total++;
-  let t;
-  try { t = fs.readFileSync(f, "utf8"); } catch { continue; }
-  const lines = t.split(/\r?\n/);
-  if ((lines[0] || "").trim() !== "---") continue;   // 无 frontmatter，跳过
+  let text;
+  try { text = fs.readFileSync(f, "utf8"); } catch { continue; }
+  const lines = text.split(/\r?\n/);
+  if ((lines[0] || "").trim() !== "---") continue;
   withFm++;
   let end = -1;
   for (let i = 1; i < lines.length; i++) {
     if ((lines[i] || "").trim() === "---") { end = i; break; }
   }
-  if (end === -1) { unclosed++; add(top, rel, "frontmatter 未闭合"); continue; }
-  const fm = lines.slice(1, end).join("\n");
-  try { yaml.load(fm, { json: true }); }
-  catch (e) {
-    const msg = String(e.message).split("\n")[0].replace(/at line (\d+)/, (m, n) => `at line ${+n + 1}`);
-    add(top, rel, msg);
+  if (end === -1) {
+    unclosed++;
+    add(byTop, top, rel, "frontmatter 未闭合");
+    continue;
   }
+  pending.push({ id: pending.length, top, rel, source: lines.slice(1, end).join("\n"), mode: MODE });
 }
-function add(top, rel, err) {
-  failTotal++;
-  const b = (byTop[top] = byTop[top] || { total: 0, fails: [] });
-  b.fails.push({ rel, err });
+
+const parsed = loadYaml(pending);
+let failTotal = unclosed;
+for (const item of pending) {
+  const row = parsed.get(item.id);
+  if (!row || !row.ok) {
+    failTotal++;
+    add(byTop, item.top, item.rel, row?.error || "解析后端未返回结果");
+  }
 }
 
 const lines2 = [];
@@ -50,6 +64,8 @@ for (const top of Object.keys(byTop).sort()) {
   if (b.fails.length > 8) console.log(`    … 共 ${b.fails.length}`);
   for (const f of b.fails) lines2.push(`${f.rel}\t${f.err}`);
 }
-console.log(`\n全库 md=${total}，有 frontmatter=${withFm}（未闭合 ${unclosed}），js-yaml 解析失败=${failTotal}`);
+console.log(`\n全库 md=${total}，有 frontmatter=${withFm}（未闭合 ${unclosed}），YAML 解析失败=${failTotal}`);
+console.log(`解析后端: ${DESCRIPTION}；模式=${MODE}`);
 fs.writeFileSync(path.join(VAULT, ".workbuddy", "tmp", "_jsyaml_all_fail.txt"), lines2.join("\n"), "utf8");
 console.log("清单 → .workbuddy/tmp/_jsyaml_all_fail.txt");
+process.exit(failTotal ? 1 : 0);

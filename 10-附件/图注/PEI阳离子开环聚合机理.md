@@ -19,6 +19,7 @@ tags:
 confidence: "🟢"
 created: 2026-05-20
 updated: 2026-05-20
+status: 已填充
 ---
 
 # PEI阳离子开环聚合机理

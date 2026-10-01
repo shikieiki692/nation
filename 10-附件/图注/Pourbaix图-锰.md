@@ -20,6 +20,7 @@ tags:
 confidence: "🟢"
 created: 2026-05-20
 updated: 2026-05-20
+status: 已填充
 ---
 
 # Pourbaix图——锰

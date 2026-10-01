@@ -3,6 +3,7 @@ title: 索引与统计
 type: 工作流说明
 tags: [化竞, 索引, 统计]
 updated: 2026-06-19
+status: draft
 ---
 
 # 索引与统计

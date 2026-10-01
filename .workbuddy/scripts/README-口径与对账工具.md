@@ -2,7 +2,7 @@
 title: 口径与对账工具（部分索引）
 type: 系统
 role: 工具索引
-updated: 2026-09-21
+updated: 2026-09-23
 tags: [系统, 工具, 题库, 口径, 对账]
 ---
 
@@ -14,6 +14,7 @@ tags: [系统, 工具, 题库, 口径, 对账]
 > （判据 `git check-ignore -v --no-index <路径>`）。
 > ⚠️ 统一跑法：`"C:/Users/蕾赛/.workbuddy/binaries/python/versions/3.13.12/python.exe" -X utf8 <脚本>`
 > （在仓库根执行）。
+> **权威校验入口**：`11-模板/scripts/validate_kb.py --full`；变更批次可用 `--changed`。本目录脚本负责专项口径/对账，不替代权威校验器。
 
 | 工具 | 用途 | 通过判据 |
 |:--|:--|:--|
@@ -21,6 +22,17 @@ tags: [系统, 工具, 题库, 口径, 对账]
 | `verify_source_map.py` | **溯源映射 vs 成书逐章对账**（每次重建习题书后必跑） | `分组数 = 36` 且 `不一致条目数 = 0`（逐章 `question_count` 全等） |
 | `measure_dir_tree.py` | **目录树 / 源头表实测**：逐子目录 md 计数（供 `04-题库/README.md` 目录树、`教材习题/README.md` 表重写） | 各分行之和 ＝ 根总数（如 6,399） |
 | `scan_stale_stats.py` | **过期统计数字全库扫描**：千分位 ＋ 三位数同表；**十六进制边界排除**避开 SHA1/行号假阳性；行内须含「题库/题目/教材/…」上下文词 | 命中项逐条定性后，只剩历史流水（`归档/`、`工作日志/`、已完成的卡） |
+
+## 2026-09-23 校验与生命周期对账工具
+
+| 工具 | 用途 | 通过判据 |
+|:--|:--|:--|
+| `question_intake_gate.py` | 题库字段与引用闸门；兼容显式生命周期 `replacement_status: 无替代` / `待人工对账` | `--strict` 无新增阻断；存量字段欠账单独统计 |
+| `check_deprecation_targets.py` | 弃用替代链闭环检查；`derived_from` 只作来源证据 | `错误 0`；未闭环项必须显式为 `待人工对账`，无替代项必须显式为 `无替代` |
+| `jsyaml_scan_all.js` | 全库 frontmatter 严格扫描（解析兼容层） | `未闭合 0 / 解析失败 0` |
+
+> **YAML 后端口径**：兼容链基于 `ruamel.yaml`，只覆盖本库实际 YAML 子集与双解析器一致性检查，不宣称等价于 js-yaml 4 全部行为。
+> **弃用状态口径**：`superseded_by` 必须指向可解析的完整替代卡；确实无替代写 `replacement_status: 无替代`；需人工核对来源写 `replacement_status: 待人工对账`。
 
 ## 2026-09-21 批量固化：闸门 / 题库审计 / 组卷（自 `tmp/` 提升）
 
@@ -49,4 +61,9 @@ tags: [系统, 工具, 题库, 口径, 对账]
 | `build_source_map.py` | `11-模板/scripts/` | 生成/重建 `04-课件/习题集/溯源映射.json`（成书题 ↔ 题库源文件；**重建后必须跑本目录的 `verify_source_map.py` 对账**） |
 | `build_module_book.py` | `11-模板/scripts/` | 生成习题书 md 源（成书取题池＝`gather_questions` 口径，见 `04-题库/题库架构总览.md` §四c） |
 | `validate_module_book.py` | `11-模板/scripts/` | 成书双版本校验（目录 vs 章节文件一致性） |
-| `validate_kb.py` / `jsyaml_direct.js` | `11-模板/scripts/`、`.workbuddy/tmp/` | 改 md 后的双闸门（受检数须按**域内**文件数核） |
+| `validate_kb.py` | `11-模板/scripts/` | **权威校验器**；全量跑 `--full`，小批次跑 `--changed` |
+| `jsyaml_scan_all.js` | `.workbuddy/scripts/` | 全库 YAML 兼容层严格扫描 |
+| `question_intake_gate.py` | `.workbuddy/scripts/` | 题库字段与引用专项闸门 |
+| `check_deprecation_targets.py` | `.workbuddy/scripts/` | 弃用替代链闭环检查 |
+| `classify_broken_links_v5.py` | `.workbuddy/scripts/` | 当前断链分诊入口 |
+| `broken_link_audit.js` | `.workbuddy/scripts/` | **已退役**；由 `classify_broken_links_v5.py` 与 `11-模板/scripts/validate_kb.py --full` 替代 |

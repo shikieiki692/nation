@@ -8,6 +8,7 @@ triggers:
   - "链接健康检查"
   - "broken link"
   - "redlink"
+status: 已填充
 ---
 
 # KB-Link-Doctor · 断链检测与修复

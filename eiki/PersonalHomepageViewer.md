@@ -83,6 +83,7 @@ homepage:
       bgOpacity: 0.25
       showBorder: false
       borderRadius: 0
+status: draft
 ---
 # 个人主页 v13.4 - 查看器入口
 

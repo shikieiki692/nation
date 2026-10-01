@@ -76,6 +76,7 @@ homepage:
       backgroundStyle: softShadow
       bgOpacity: 0.25
       bgColor: "#fcfdf6"
+status: draft
 ---
 [[PersonalHomepageViewer]]
 

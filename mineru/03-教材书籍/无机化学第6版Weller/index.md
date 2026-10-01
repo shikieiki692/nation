@@ -3,6 +3,7 @@ title: 无机化学第6版Weller MinerU 提取索引
 type: MinerU 教材提取
 source: Inorganic Chemistry (6th ed.) — Weller, Overton, Rourke, Armstrong
 extracted: 2026-06
+status: 已填充
 ---
 
 # 无机化学第6版Weller — MinerU 提取索引

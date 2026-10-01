@@ -2,7 +2,7 @@
 title: 讲义产线与只读诊断工具（部分索引）
 type: 系统
 role: 工具索引
-updated: 2026-09-21
+updated: 2026-09-23
 tags: [系统, 工具, 讲义, 诊断, 产线]
 ---
 
@@ -39,6 +39,20 @@ tags: [系统, 工具, 讲义, 诊断, 产线]
 | `triage_archived_links_0916.py` | 归档区链接三形态分诊 ＋ 报告 |
 | `verify_kp_links_0916.py` | frontmatter 内 wikilink 目标存在性 + 弃用页核查 |
 | `audit_first_round.py` | 第一轮化学原理习题集机检（题数/图数/答案） |
+
+## 2026-09-23 全库校验与生命周期对账
+
+| 工具 | 用途 | 通过判据 |
+|:--|:--|:--|
+| `11-模板/scripts/validate_kb.py` | **权威校验器**；全量 `--full`，小批次 `--changed` | 0 个阻断错误 |
+| `question_intake_gate.py` | 题库字段与引用专项闸门 | `--strict` 无新增阻断；存量字段欠账单独统计 |
+| `check_deprecation_targets.py` | 弃用替代链闭环检查 | `错误 0`；剩余项显式为 `无替代` 或 `待人工对账` |
+| `jsyaml_scan_all.js` | 全库 frontmatter 严格扫描 | `未闭合 0 / 解析失败 0` |
+| `classify_broken_links_v5.py` | 当前断链分诊入口 | 输出可按 P0/P1/P2 复核 |
+
+> `broken_link_audit.js` **已退役**；替代链为 `classify_broken_links_v5.py` 与 `11-模板/scripts/validate_kb.py --full`。
+> YAML 兼容链基于 `ruamel.yaml`，只覆盖本库实际 YAML 子集与双解析器一致性检查，不宣称等价于 js-yaml 4 全部行为。
+> 弃用闭环只接受三种状态：`superseded_by` 指向完整替代卡、`replacement_status: 无替代`、`replacement_status: 待人工对账`。`derived_from` 不能替代 `superseded_by`。
 
 ## 三、未提升（有意保留在 `tmp/`）
 

@@ -20,6 +20,7 @@ tags:
 confidence: "🟢"
 created: 2026-05-20
 updated: 2026-05-20
+status: 已填充
 ---
 
 # 晶体场分裂——八面体场 d 轨道能级图
