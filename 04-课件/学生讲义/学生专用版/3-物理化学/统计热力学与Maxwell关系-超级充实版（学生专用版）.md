@@ -415,6 +415,7 @@ $$U - U(0) = NkT^2\left(\frac{\partial \ln q}{\partial T}\right)_V = kT^2\left(\
 $$A - A(0) = -kT\ln Q$$
 
 对于定域子系统：$A - A(0) = -NkT\ln q$。
+
 对于气相离域子系统，代入 $Q = q^N / N!$ 并利用 Stirling 公式 $\ln N! \approx N\ln N - N$：
 
 $$A - A(0) = -kT\ln\left(\frac{q^N}{N!}\right) = -kT(N\ln q - N\ln N + N) = -NkT\left[\ln\left(\frac{q}{N}\right) + 1\right] = -NkT\ln\left(\frac{qe}{N}\right)$$
@@ -516,7 +517,9 @@ $$K_p^\theta = \prod_i \left(\frac{q_{i,\mathrm{m}}^\theta}{N_A}\right)^{\nu_i} 
 
 设某真实气体服从 van der Waals 状态方程：$\left(p + \frac{a}{V_\mathrm{m}^2}\right)(V_\mathrm{m} - b) = RT$。试应用热力学第一状态方程与 Maxwell 关系式，严格推导：
 (1) 该气体的内压力 $\pi_T = \left(\frac{\partial U_\mathrm{m}}{\partial V_\mathrm{m}}\right)_T$；
+
 (2) 该气体发生 Joule 绝热自由膨胀（$U$ 恒定，$dU = 0$）时的温度变化率 $\left(\frac{\partial T}{\partial V_\mathrm{m}}\right)_U$；
+
 (3) 若 1 摩尔该气体在绝热自由膨胀中体积由 $V_1$ 膨胀至 $V_2$，试求其温度变化量 $\Delta T$ 的解析表达式。
 
 
@@ -529,7 +532,9 @@ $$K_p^\theta = \prod_i \left(\frac{q_{i,\mathrm{m}}^\theta}{N_A}\right)^{\nu_i} 
 
 某气相合成反应在 $298.15\ \mathrm{K}$ 下的标准摩尔反应焓为 $\Delta_r H^\theta(298.15\ \mathrm{K}) = -92.22\ \mathrm{kJ\cdot mol^{-1}}$，标准摩尔 Gibbs 自由能变为 $\Delta_r G^\theta(298.15\ \mathrm{K}) = -33.00\ \mathrm{kJ\cdot mol^{-1}}$。在所研究的温度区间内，反应的定压热容差可近似表达为经验常数 $\Delta_r C_p^\theta = -40.00\ \mathrm{J\cdot K^{-1}\cdot mol^{-1}}$。试推导：
 (1) 反应焓变 $\Delta_r H^\theta(T)$ 关于绝对温度 $T$ 的函数关系式；
+
 (2) 利用 Gibbs-Helmholtz 方程的微分形式，推导该反应的标准摩尔 Gibbs 自由能变 $\Delta_r G^\theta(T)$ 的解析积分表达式；
+
 (3) 计算反应在 $T = 600\ \mathrm{K}$ 下的标准摩尔 Gibbs 自由能变 $\Delta_r G^\theta(600\ \mathrm{K})$。
 
 
@@ -541,8 +546,11 @@ $$K_p^\theta = \prod_i \left(\frac{q_{i,\mathrm{m}}^\theta}{N_A}\right)^{\nu_i} 
 **例 3**（双能级系统的 Schottky 热容异常）
 
 考察 1 摩尔独立的定域粒子体系，每个粒子仅具有两个非简并能级：基态能级 $\varepsilon_0 = 0$（简并度 $g_0 = 1$），第一激发态能级 $\varepsilon_1 = \varepsilon$（简并度 $g_1 = 1$）。
+
 (1) 试写出体系单分子配分函数 $q$ 与内能 $U - U(0)$ 的解析表达式；
+
 (2) 推导体系摩尔定容热容 $C_{V,\mathrm{m}}(T)$ 的数学表达式；
+
 (3) 分析体系在极低温（$T \to 0$）与极高温（$T \to \infty$）下的热容极限，并证明定容热容必在某一特征温度处出现极大值峰（即固体物理中著名的 Schottky 异常）。
 
 

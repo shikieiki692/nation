@@ -415,6 +415,7 @@ $$U - U(0) = NkT^2\left(\frac{\partial \ln q}{\partial T}\right)_V = kT^2\left(\
 $$A - A(0) = -kT\ln Q$$
 
 对于定域子系统：$A - A(0) = -NkT\ln q$。
+
 对于气相离域子系统，代入 $Q = q^N / N!$ 并利用 Stirling 公式 $\ln N! \approx N\ln N - N$：
 
 $$A - A(0) = -kT\ln\left(\frac{q^N}{N!}\right) = -kT(N\ln q - N\ln N + N) = -NkT\left[\ln\left(\frac{q}{N}\right) + 1\right] = -NkT\ln\left(\frac{qe}{N}\right)$$
@@ -516,7 +517,9 @@ $$K_p^\theta = \prod_i \left(\frac{q_{i,\mathrm{m}}^\theta}{N_A}\right)^{\nu_i} 
 
 设某真实气体服从 van der Waals 状态方程：$\left(p + \frac{a}{V_\mathrm{m}^2}\right)(V_\mathrm{m} - b) = RT$。试应用热力学第一状态方程与 Maxwell 关系式，严格推导：
 (1) 该气体的内压力 $\pi_T = \left(\frac{\partial U_\mathrm{m}}{\partial V_\mathrm{m}}\right)_T$；
+
 (2) 该气体发生 Joule 绝热自由膨胀（$U$ 恒定，$dU = 0$）时的温度变化率 $\left(\frac{\partial T}{\partial V_\mathrm{m}}\right)_U$；
+
 (3) 若 1 摩尔该气体在绝热自由膨胀中体积由 $V_1$ 膨胀至 $V_2$，试求其温度变化量 $\Delta T$ 的解析表达式。
 
 **详细微观解析**：
@@ -530,7 +533,9 @@ $$\left(\frac{\partial U_\mathrm{m}}{\partial V_\mathrm{m}}\right)_T = T\left(\f
 故该气体的内压力为 $\pi_T = \frac{a}{V_\mathrm{m}^2}$。
 
 (2) 考虑内能的全微分 $dU_\mathrm{m} = \left(\frac{\partial U_\mathrm{m}}{\partial T}\right)_{V_\mathrm{m}} dT + \left(\frac{\partial U_\mathrm{m}}{\partial V_\mathrm{m}}\right)_T dV_\mathrm{m} = C_{V,\mathrm{m}}\,dT + \left(\frac{\partial U_\mathrm{m}}{\partial V_\mathrm{m}}\right)_T dV_\mathrm{m}$。
+
 在绝热自由膨胀中，体系不吸热（$q=0$）且不克服外压做功（$w=0$），故由第一定律知内能保持不变（$dU_\mathrm{m} = 0$）。
+
 令 $dU_\mathrm{m} = 0$，应用偏导数循环法则：
 $$\left(\frac{\partial T}{\partial V_\mathrm{m}}\right)_U = -\frac{(\partial U_\mathrm{m}/\partial V_\mathrm{m})_T}{(\partial U_\mathrm{m}/\partial T)_{V_\mathrm{m}}} = -\frac{a/V_\mathrm{m}^2}{C_{V,\mathrm{m}}} = -\frac{a}{C_{V,\mathrm{m}} V_\mathrm{m}^2}$$
 
@@ -545,7 +550,9 @@ $$\Delta T = T_2 - T_1 = \left[\frac{a}{C_{V,\mathrm{m}} V_\mathrm{m}}\right]_{V
 
 某气相合成反应在 $298.15\ \mathrm{K}$ 下的标准摩尔反应焓为 $\Delta_r H^\theta(298.15\ \mathrm{K}) = -92.22\ \mathrm{kJ\cdot mol^{-1}}$，标准摩尔 Gibbs 自由能变为 $\Delta_r G^\theta(298.15\ \mathrm{K}) = -33.00\ \mathrm{kJ\cdot mol^{-1}}$。在所研究的温度区间内，反应的定压热容差可近似表达为经验常数 $\Delta_r C_p^\theta = -40.00\ \mathrm{J\cdot K^{-1}\cdot mol^{-1}}$。试推导：
 (1) 反应焓变 $\Delta_r H^\theta(T)$ 关于绝对温度 $T$ 的函数关系式；
+
 (2) 利用 Gibbs-Helmholtz 方程的微分形式，推导该反应的标准摩尔 Gibbs 自由能变 $\Delta_r G^\theta(T)$ 的解析积分表达式；
+
 (3) 计算反应在 $T = 600\ \mathrm{K}$ 下的标准摩尔 Gibbs 自由能变 $\Delta_r G^\theta(600\ \mathrm{K})$。
 
 **详细微观解析**：
@@ -579,8 +586,11 @@ $$\Delta_r G^\theta(600\ \mathrm{K}) = -66409 + 81290 + 16783 = +31664\ \mathrm{
 **例 3**（双能级系统的 Schottky 热容异常）
 
 考察 1 摩尔独立的定域粒子体系，每个粒子仅具有两个非简并能级：基态能级 $\varepsilon_0 = 0$（简并度 $g_0 = 1$），第一激发态能级 $\varepsilon_1 = \varepsilon$（简并度 $g_1 = 1$）。
+
 (1) 试写出体系单分子配分函数 $q$ 与内能 $U - U(0)$ 的解析表达式；
+
 (2) 推导体系摩尔定容热容 $C_{V,\mathrm{m}}(T)$ 的数学表达式；
+
 (3) 分析体系在极低温（$T \to 0$）与极高温（$T \to \infty$）下的热容极限，并证明定容热容必在某一特征温度处出现极大值峰（即固体物理中著名的 Schottky 异常）。
 
 **详细微观解析**：
@@ -627,7 +637,9 @@ $$K_p = \frac{\left(q_{\mathrm{m},\mathrm{HD}}^\theta/N_A\right)^2}{\left(q_{\ma
 $$\frac{(q_{\mathrm{HD}}^T)^2}{q_{\mathrm{H}_2}^T\, q_{\mathrm{D}_2}^T} = \frac{(M_{\mathrm{HD}}^{3/2})^2}{M_{\mathrm{H}_2}^{3/2}\, M_{\mathrm{D}_2}^{3/2}} = \left(\frac{M_{\mathrm{HD}}^2}{M_{\mathrm{H}_2} M_{\mathrm{D}_2}}\right)^{3/2} = \left(\frac{3^2}{2 \times 4}\right)^{3/2} = \left(\frac{9}{8}\right)^{3/2} \approx 1.193$$
 
 考察高温极限下的转动配分函数：$q^R = \frac{kT}{\sigma hc\tilde{B}} = \frac{8\pi^2 I k T}{\sigma h^2}$。
+
 转动惯量 $I = \mu R_e^2$，式中折合质量 $\mu = \frac{m_1 m_2}{m_1 + m_2}$。同位素分子的平衡核间距 $R_e$ 完全由核外电子势能曲线决定，化学上严格相同。
+
 折合质量计算：
 $$\mu_{\mathrm{H}_2} = \frac{1 \times 1}{1 + 1} = \frac{1}{2}, \qquad \mu_{\mathrm{D}_2} = \frac{2 \times 2}{2 + 2} = 1, \qquad \mu_{\mathrm{HD}} = \frac{1 \times 2}{1 + 2} = \frac{2}{3}$$
 转动配分函数中转动惯量贡献的比值为：
