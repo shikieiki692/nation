@@ -4,6 +4,7 @@ type: 系统
 role: 外部题源中转区
 updated: 2026-08-27
 tags: [外部资料, 题源, OCR, 待整理]
+status: 已填充
 ---
 
 # 题源PDF待OCR

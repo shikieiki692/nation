@@ -48,6 +48,7 @@ related_knowledge:
 imported_pages: 1-336
 import_status: 已提炼Chapter1-8（全书完成）
 updated: 2026-05-06
+status: 已填充
 ---
 
 # Arrow Pushing in Inorganic Chemistry（无机化学中的箭头推动法）

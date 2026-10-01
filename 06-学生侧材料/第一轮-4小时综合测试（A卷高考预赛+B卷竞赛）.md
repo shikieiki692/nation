@@ -12,6 +12,7 @@ difficulty_floor: 高考
 difficulty_ceiling: 初赛级
 updated: 2026-08-25
 tags: [测试卷, 综合测试, 学生侧材料, 结构化学, 化学原理, 必修一, 选修一, 选修二]
+status: 已填充
 ---
 
 # 第一轮-4小时综合测试（A卷 高考+预赛 / B卷 竞赛）

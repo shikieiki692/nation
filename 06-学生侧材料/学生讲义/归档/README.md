@@ -3,6 +3,7 @@ title: 学生讲义归档说明
 type: 系统
 role: 历史版本说明
 updated: 2026-07-03
+status: draft
 ---
 
 # 学生讲义归档说明

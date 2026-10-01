@@ -5,6 +5,7 @@ role: OCR 转写
 scope: 省预赛真题
 updated: 2026-08-12
 tags: [系统, 模板, OCR, 省预赛, 真题]
+status: draft
 ---
 
 # 省预赛图依赖题 OCR 模板

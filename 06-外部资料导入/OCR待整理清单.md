@@ -4,6 +4,7 @@ type: 系统
 role: 资料待整理清单
 updated: 2026-06-18
 tags: [外部资料, OCR, 待整理, 资料导入]
+status: draft
 ---
 
 # OCR待整理清单

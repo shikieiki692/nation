@@ -4,6 +4,7 @@ type: 系统
 role: Anki 导出工作流说明
 updated: 2026-06-15
 tags: [学生侧材料, 闪卡, Anki, CSV]
+status: 已填充
 ---
 
 # Anki CSV 导出说明
