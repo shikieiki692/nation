@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-22T14:29:24.095323+00:00",
+  "root": "C:\\Obsidion\\妙妙屋",
+  "source_script": ".workbuddy/scripts/kb_metrics.py",
+  "question_bank": {
+    "md_total": 6390,
+    "question_like_total": 6125,
+    "question_like_active": 6062,
+    "question_like_deprecated": 63,
+    "by_type": {
+      "真题": {"total": 41, "active": 41, "deprecated": 0},
+      "题目": {"total": 6084, "active": 6021, "deprecated": 63}
+    }
+  },
+  "links": {
+    "total": 85654,
+    "resolved": 78163,
+    "broken_candidates": 7491,
+    "sample": [
+      {"source": "00-首页/Agent任务分解指南.md", "target": "模板-XXX"},
+      {"source": "00-首页/KP-提炼-题库挂接巡检表.md", "target": "03-知识点/无机和结构化学/尖晶石结构"},
+      {"source": "00-首页/使用说明.md", "target": "..."},
+      {"source": "00-首页/图片索引.md", "target": "无机化学第6版氧化还原反应180-212_images/_index.md"},
+      {"source": "00-首页/图片索引.md", "target": "无机化学第6版主族364-564_images/_index_batch1.md"},
+      {"source": "00-首页/图片索引.md", "target": "无机化学第6版主族364-564_images/_index_batch2.md"},
+      {"source": "00-首页/图片索引.md", "target": "无机化学第6版主族364-564_images/_index_batch3.md"},
+      {"source": "00-首页/图片索引.md", "target": "无机化学第6版副族金属有机565-748_images/_index_part1.md"},
+      {"source": "00-首页/图片索引.md", "target": "无机化学第6版副族金属有机565-748_images/_index_part2.md"},
+      {"source": "00-首页/图片索引.md", "target": "无机化学第6版Welle19-21章_images/_index.md"},
+      {"source": "00-首页/图片索引.md", "target": "无机化学第6版Weller2425章753-866_images/_index.md"},
+      {"source": "00-首页/图片索引.md", "target": "中级无机化学_1-199_images/_index.md"},
+      {"source": "00-首页/图片索引.md", "target": "中级无机化学_200-343_images/_index.md"},
+      {"source": "00-首页/图片索引.md", "target": "中文版clayden-chinese24章592-614_images/_index.md"},
+      {"source": "00-首页/图片索引.md", "target": "中文版clayden-chinese30-33章787-907_images/_index.md"},
+      {"source": "00-首页/图片索引.md", "target": "中文版clayden-chinese-34-36907-999_images/_index.md"},
+      {"source": "00-首页/图片索引.md", "target": "中文版clayden-chinese37-401000-1132_images/_index.md"},
+      {"source": "00-首页/图片索引.md", "target": "中文版clayden-chinese-41章1132-1164_images/_index.md"},
+      {"source": "00-首页/图片索引.md", "target": "中文版clayden-chinese42章1164-1199_images/_index.md"},
+      {"source": "00-首页/图片索引.md", "target": "ABOC202505_1-200_images/_index.md"}
+    ],
+    "audit_self_references_excluded": true,
+    "code_blocks_and_images_excluded": true
+  },
+  "artifacts": {
+    "student_handout_md": 86,
+    "docx_total": 1146
+  },
+  "definitions": {
+    "active_question": "type in {题目, 真题} and status != deprecated",
+    "link_scope": "exclude audit reports, code blocks, image embeds, archives and external imports"
+  }
+}

@@ -2,7 +2,7 @@
 title: KP薄壳队列与治理后续
 type: 活跃任务卡
 task_type: 系统维护
-status: blocked
+status: 待审核
 priority: P2
 area: 知识点治理
 owner: Agent

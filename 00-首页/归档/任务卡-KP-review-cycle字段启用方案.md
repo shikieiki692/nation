@@ -4,7 +4,7 @@ deprecatedDate: 2026-08-13
 sunsetDate: 2026-08-20
 title: KP review_cycle 字段启用方案
 type: 活跃任务卡
-status: archived
+status: deprecated
 priority: P1
 area: 知识库系统
 owner: Agent

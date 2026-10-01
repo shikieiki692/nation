@@ -4,6 +4,7 @@ type: 系统
 role: 自动库存汇总
 tags: [系统, 自动汇总, KP库存]
 updated: 2026-06-13
+status: draft
 ---
 
 # 自动汇总 · KP库存统计
