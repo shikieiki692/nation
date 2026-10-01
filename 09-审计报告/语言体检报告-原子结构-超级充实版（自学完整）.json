@@ -1,7 +1,7 @@
 [
  {
   "file": "04-课件\\学生讲义\\2-结构化学\\原子结构-超级充实版（自学完整）.md",
-  "total_lines": 1203,
+  "total_lines": 1200,
   "pseudo_callout": [
    {
     "line": 32,
@@ -36,31 +36,31 @@
     "title": "关联知识点"
    },
    {
-    "line": 568,
+    "line": 565,
     "title": "关联知识点"
    },
    {
-    "line": 1109,
+    "line": 1106,
     "title": "来源"
    },
    {
-    "line": 1131,
+    "line": 1128,
     "title": "来源"
    },
    {
-    "line": 1142,
+    "line": 1139,
     "title": "来源"
    },
    {
-    "line": 1161,
+    "line": 1158,
     "title": "来源"
    },
    {
-    "line": 1174,
+    "line": 1171,
     "title": "来源"
    },
    {
-    "line": 1191,
+    "line": 1188,
     "title": "来源"
    }
   ],
@@ -82,35 +82,35 @@
     "type": "warning"
    },
    {
-    "line": 462,
+    "line": 461,
     "type": "tip"
    },
    {
-    "line": 472,
+    "line": 471,
     "type": "info"
    },
    {
-    "line": 486,
+    "line": 485,
     "type": "warning"
    },
    {
-    "line": 513,
+    "line": 511,
     "type": "warning"
    },
    {
-    "line": 522,
+    "line": 520,
     "type": "tip"
    },
    {
-    "line": 594,
+    "line": 591,
     "type": "warning"
    },
    {
-    "line": 727,
+    "line": 724,
     "type": "warning"
    },
    {
-    "line": 770,
+    "line": 767,
     "type": "tip"
    }
   ],
@@ -127,132 +127,117 @@
     "len": 5
    },
    {
-    "line": 433,
-    "text": "——",
-    "len": 2
-   },
-   {
-    "line": 501,
-    "text": "——",
-    "len": 2
-   },
-   {
-    "line": 564,
-    "text": "——",
-    "len": 2
-   },
-   {
-    "line": 814,
+    "line": 811,
     "text": "（答案见§八“典型例题答案”）",
     "len": 15
    },
    {
-    "line": 820,
+    "line": 817,
     "text": "（答案见§八“典型例题答案”）",
     "len": 15
    },
    {
-    "line": 826,
+    "line": 823,
     "text": "（答案见§八“典型例题答案”）",
     "len": 15
    },
    {
-    "line": 832,
+    "line": 829,
     "text": "（答案见§八“典型例题答案”）",
     "len": 15
    },
    {
-    "line": 838,
+    "line": 835,
     "text": "（答案见§八“典型例题答案”）",
     "len": 15
    },
    {
-    "line": 844,
+    "line": 841,
     "text": "（答案见§八“典型例题答案”）",
     "len": 15
    },
    {
-    "line": 850,
+    "line": 847,
     "text": "（答案见§八“典型例题答案”）",
     "len": 15
    },
    {
-    "line": 929,
+    "line": 926,
     "text": "**26. [第34届初赛] 晶胞参数推断元素与化学式**",
     "len": 21
    },
    {
-    "line": 938,
+    "line": 935,
     "text": "**27. [第31届初赛] 热重分析推断元素与化学式**",
     "len": 21
    },
    {
-    "line": 944,
+    "line": 941,
     "text": "通过计算，指出 M 是哪种金属，确定 A 的化学式。",
     "len": 22
    },
    {
-    "line": 946,
+    "line": 943,
     "text": "**28. [第36届初赛] 铁化合物 A~D 化学式**",
     "len": 19
    },
    {
-    "line": 952,
+    "line": 949,
     "text": "**29. [第30届初赛] 配合物价电子组态与自旋态**",
     "len": 21
    },
    {
-    "line": 960,
+    "line": 957,
     "text": "**30. [第32届初赛] V 价电子组态与抗磁性**",
     "len": 19
    },
    {
-    "line": 964,
+    "line": 961,
     "text": "**31. [第31届初赛] 元素推断与分子式**",
     "len": 17
    },
    {
-    "line": 968,
+    "line": 965,
     "text": "写出 A、C、D、E、F、G1 和 G2 的分子式。",
     "len": 22
    },
    {
-    "line": 1097,
+    "line": 1094,
     "text": "**26.**",
     "len": 3
    },
    {
-    "line": 1111,
+    "line": 1108,
     "text": "**27.**",
     "len": 3
    },
    {
-    "line": 1133,
+    "line": 1130,
     "text": "**28.**",
     "len": 3
    },
    {
-    "line": 1144,
+    "line": 1141,
     "text": "**29.**",
     "len": 3
    },
    {
-    "line": 1163,
+    "line": 1160,
     "text": "**30.**",
     "len": 3
    },
    {
-    "line": 1167,
+    "line": 1164,
     "text": "三棱柱配位场下可写作",
     "len": 10
    },
    {
-    "line": 1176,
+    "line": 1173,
     "text": "**31.**",
     "len": 3
    },
    {
-    "line": 1186,
+    "line": 1183,
     "text": "**F**：HCl",
     "len": 5
    }
@@ -269,15 +254,15 @@
   "motto_dupe": [],
   "quickref_names": [
    {
-    "line": 853,
+    "line": 850,
     "heading": "六、本讲速查",
     "matched": "本讲速查"
    }
   ],
   "dup_pairs": [
    {
-    "line_a": 1037,
-    "line_b": 1037,
+    "line_a": 1034,
+    "line_b": 1034,
     "sim": 0.71,
     "text_a": "Be₂: $(\\sigma_{1s})^2(\\sigma_{1s}^*)^2(\\sigma_{2s})^2(\\sigma_{2s}^*)^2$，键级0，不能稳定",
     "text_b": "Ne₂: $(\\sigma_{1s})^2(\\sigma_{1s}^*)^2(\\sigma_{2s})^2(\\sigma_{2s}^*)^2(\\sigma_{2"
@@ -290,6 +275,10 @@
     "text_b": "Slater规则计算 Z*（Na+Ti 完整示例）；"
    }
   ],
+  "term_variants": [],
+  "weasel_words": [],
+  "hybrid_syntax": [],
+  "unit_range": [],
   "callout_density_per_100": 1.0,
   "callout_limit": 12
  }

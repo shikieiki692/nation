@@ -1,14 +1,14 @@
 ---
 title: 断链检测脚本 aliases 支持
 type: 活跃任务卡
-status: completed
+status: 已填充
 priority: P2
 area: 脚本维护
 owner: Agent
 created: 2026-06-03
 updated: 2026-06-07
 completed: 2026-06-07
-source_notes: "[[09-审计报告/2026-06-07-断链检测]]"
+source_notes: "[[09-审计报告/_归档-历史快照/2026-06-07-断链检测]]"
 related_notes:
   - "[[状态摘要]]"
   - "[[00-首页/工作日志/2026-06-07]]"

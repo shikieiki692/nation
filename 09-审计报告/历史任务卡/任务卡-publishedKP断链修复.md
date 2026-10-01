@@ -2,7 +2,7 @@
 title: published KP 断链修复（18处）
 type: 活跃任务卡
 task_type: 知识库维护
-status: completed
+status: 已填充
 priority: P2
 area: 知识库系统
 owner: Agent

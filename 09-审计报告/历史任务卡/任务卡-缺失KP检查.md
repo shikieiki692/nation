@@ -1,7 +1,7 @@
 ---
 title: 缺失 KP 检查
 type: 活跃任务卡
-status: completed
+status: 已填充
 priority: P2
 area: 知识点维护
 owner: Agent

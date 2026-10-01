@@ -2,7 +2,7 @@
 title: ΔrH散文口径规范
 type: 活跃任务卡
 task_type: 知识库维护
-status: completed
+status: 已填充
 priority: P3
 area: 知识库内容
 owner: Agent

@@ -2,7 +2,7 @@
 title: clayden去重
 type: 活跃任务卡
 task_type: 系统维护
-status: completed
+status: 已填充
 priority: P3
 area: 知识库系统
 owner: Agent

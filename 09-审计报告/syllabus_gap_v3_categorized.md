@@ -3,6 +3,7 @@ title: 真正缺失 189 KP 语义分桶（Phase 0 输出）
 type: 系统
 generated_at: 2026-05-17 08:47
 tags: [系统, 缺口, 分桶, 决策依据]
+status: 已填充
 ---
 
 # 真正缺失 189 KP 语义分桶

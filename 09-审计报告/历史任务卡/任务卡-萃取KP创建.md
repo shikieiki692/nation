@@ -1,7 +1,7 @@
 ---
 title: 萃取 KP 创建
 type: 活跃任务卡
-status: completed
+status: 已填充
 priority: P1
 area: 知识点建设
 owner: Agent

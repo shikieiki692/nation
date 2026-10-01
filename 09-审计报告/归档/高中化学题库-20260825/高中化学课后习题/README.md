@@ -4,6 +4,7 @@ type: 系统
 role: 子目录索引
 updated: 2026-07-27
 tags: [系统, 索引, 高中基础, 题库]
+status: draft
 ---
 
 # 高中化学课后习题
