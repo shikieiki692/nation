@@ -13,6 +13,7 @@ updated: 2026-06-29
 version: v1.0
 created: 2026-06-10
 tags: [教学洞察, 酸碱, Brønsted, 质子理论, 共轭酸碱对]
+status: 已填充
 ---
 
 # 教学洞察：Brønsted 酸碱理论

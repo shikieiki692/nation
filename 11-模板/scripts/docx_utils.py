@@ -1221,8 +1221,61 @@ def postprocess_pandoc_docx(
                 if key in rFonts.attrib:
                     del rFonts.attrib[key]
 
-    # ── 表格字体 + 内容居中 ──
+    # ── 表格字体 + 内容居中 + 学术三段式（三线表）边框 ──
     for table in doc.tables:
+        tblPr = table._element.xpath("w:tblPr")
+        if tblPr:
+            tp = tblPr[0]
+            # 表格整体水平居中
+            jc_list = tp.xpath("w:jc")
+            if not jc_list:
+                jc = OxmlElement("w:jc")
+                jc.set(qn("w:val"), "center")
+                tp.append(jc)
+            else:
+                jc_list[0].set(qn("w:val"), "center")
+
+            # 移除已有的全表边框设置，重设标准三线表（顶线 1.5pt，底线 1.5pt，其余无）
+            for old_b in tp.xpath("w:tblBorders"):
+                tp.remove(old_b)
+            tblBorders = OxmlElement("w:tblBorders")
+
+            top_b = OxmlElement("w:top")
+            top_b.set(qn("w:val"), "single")
+            top_b.set(qn("w:sz"), "12")  # 1.5 pt
+            top_b.set(qn("w:space"), "0")
+            top_b.set(qn("w:color"), "333333")
+            tblBorders.append(top_b)
+
+            bot_b = OxmlElement("w:bottom")
+            bot_b.set(qn("w:val"), "single")
+            bot_b.set(qn("w:sz"), "12")  # 1.5 pt
+            bot_b.set(qn("w:space"), "0")
+            bot_b.set(qn("w:color"), "333333")
+            tblBorders.append(bot_b)
+
+            for side in ("left", "right", "insideH", "insideV"):
+                side_el = OxmlElement(f"w:{side}")
+                side_el.set(qn("w:val"), "none")
+                tblBorders.append(side_el)
+            tp.append(tblBorders)
+
+        # 首行表头底部添加栏目线 (0.75 pt)
+        if len(table.rows) > 1:
+            header_row = table.rows[0]
+            for cell in header_row.cells:
+                tcPr = cell._element.get_or_add_tcPr()
+                for old_tc_b in tcPr.xpath("w:tcBorders"):
+                    tcPr.remove(old_tc_b)
+                tcBorders = OxmlElement("w:tcBorders")
+                tc_bot = OxmlElement("w:bottom")
+                tc_bot.set(qn("w:val"), "single")
+                tc_bot.set(qn("w:sz"), "6")  # 0.75 pt
+                tc_bot.set(qn("w:space"), "0")
+                tc_bot.set(qn("w:color"), "333333")
+                tcBorders.append(tc_bot)
+                tcPr.append(tcBorders)
+
         for i, row in enumerate(table.rows):
             cf = head_font if i == 0 else body_font
             for cell in row.cells:
@@ -1307,7 +1360,22 @@ def postprocess_pandoc_docx(
     for para in doc.paragraphs:
         _set_display_math_font_size(para, size_pt=14)
 
-
+    # ── 正文自然段落首行缩进 2 字符 (21 pt) ──
+    #    对标正式学术教材出版体例：正文叙述段首行缩进 2 汉字字符（10.5pt * 2 = 21pt）
+    #    严格豁免：标题、图表题注、代码块、大图段落、纯显示公式段落、居中/右对齐段落
+    for para in doc.paragraphs:
+        style_name = para.style.name or ""
+        pPr = para._element.find(qn("w:pPr"))
+        sv = pPr.find(qn("w:pStyle")).get(qn("w:val"), "") if (pPr is not None and pPr.find(qn("w:pStyle")) is not None) else style_name
+        is_heading = bool(sv.startswith("Heading") or sv in ("Title", "Subtitle", "TOCHeading"))
+        text_content = para.text.strip()
+        is_caption = text_content.startswith("图 ") or text_content.startswith("表 ")
+        is_code = sv in MONO_STYLES or sv == "SourceCode"
+        is_display_math = len(para._element.xpath(".//m:oMathPara")) > 0 or (len(text_content) == 0 and len(para._element.xpath(".//m:oMath")) > 0)
+        is_img = _has_image(para)
+        if not is_heading and not is_caption and not is_code and not is_display_math and not is_img:
+            if _has_cjk(text_content) and para.alignment not in (WD_ALIGN_PARAGRAPH.CENTER, WD_ALIGN_PARAGRAPH.RIGHT):
+                para.paragraph_format.first_line_indent = Pt(21)
 
     # ── 标题段落间距：Heading 前后增加间距，避免紧贴上文 ──
     for para in doc.paragraphs:

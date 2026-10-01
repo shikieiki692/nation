@@ -4,6 +4,7 @@ type: hub
 role: 教案库入口
 updated: 2026-09-05
 tags: [教案, 人教版, 教学]
+status: 已填充
 ---
 
 # 13-教案

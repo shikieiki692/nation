@@ -12,6 +12,7 @@ version: v1.0
 created: 2026-06-09
 updated: 2026-06-10
 tags: [教学洞察, Dalton分压, 气体]
+status: 已填充
 ---
 
 # 教学洞察：Dalton 分压定律

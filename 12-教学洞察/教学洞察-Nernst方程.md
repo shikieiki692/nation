@@ -13,6 +13,7 @@ rounds: [第一轮, 第二轮]
 updated: 2026-06-29
 created: 2026-06-09
 tags: [教学洞察, Nernst方程, 电化学]
+status: 已填充
 ---
 
 # 教学洞察：Nernst 方程

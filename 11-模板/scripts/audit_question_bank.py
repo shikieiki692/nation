@@ -73,6 +73,13 @@ ALLOWED_STATUS = ["draft", "review", "published", "已入库", "已填充", "已
 # ── 只有这些 type 视为「题」，其余（系统/索引/答案/横向对比）不计入题库缺陷 ──
 QUESTION_TYPES = {"题目", "真题", "例题", "题组", "题目集"}
 
+# ── 消费状态规范（来源：04-题库/元文件/题库字段与消费状态规范.md）────────
+ANSWER_STATUS_VALUES = {"完整", "待补", "存疑", "仅题干", "不适用"}
+CONSUMPTION_STATUS_VALUES = {"可用", "隔离", "退役"}
+REPLACEMENT_STATUS_VALUES = {"无替代", "待人工对账", "已替代"}
+FORMAL_ANSWER_VALUES = {"完整", "不适用"}
+AUDIT_UNIVERSE = "04-题库 / 05-真题库 下的 md 文件；题卡 universe = frontmatter type ∈ {题目, 真题, 例题, 题组, 题目集}；单题规范分母排除题组（题组按组 schema 单独检查）"
+
 # ── 命名规范（来源：SOP 1.1）────────────────────────────────
 NAME_RULES = {
     "教材习题/化学竞赛初赛讲义": r"^题-\d{3}-初赛讲义-.+-习题\d+(\.\d+)?$",
@@ -224,6 +231,16 @@ class R:
         self.ext_answer = 0
         self.short_answer = 0
         self.sub = Counter()   # E 维度子类型计数
+        self.answer_status_counts = Counter()
+        self.consumption_status_counts = Counter()
+        self.replacement_status_counts = Counter()
+        self.formal_ready = 0
+        self.legacy_compatible = 0
+        self.blocked_questions = 0
+        self.deprecated_questions = 0
+        self.qids = defaultdict(list)
+        self.question_basenames = defaultdict(list)
+        self.question_numbers = defaultdict(list)
 
     def add(self, level, d, f, dim, detail):
         self.rows.append((level, d, f, dim, detail))
@@ -237,6 +254,24 @@ def norm_dir(rel: str) -> str:
     if len(p) >= 2:
         return "/".join(p[:2])
     return rel
+
+
+def self_link_hits(body: str, path: Path) -> list[str]:
+    """返回指向当前文件自身的 wikilink；同一目标出现多次即为重复自链。"""
+    rel = path.relative_to(VAULT).as_posix()
+    keys = {
+        path.stem.lower(),
+        rel.lower(),
+        rel[:-3].lower() if rel.lower().endswith(".md") else rel.lower(),
+    }
+    hits = []
+    for raw in re.findall(r"(?<!!)\[\[([^\]|#]+)(?:#[^\]|]*)?(?:\|[^\]]*)?\]\]", body):
+        target = raw.strip().replace("\\", "/")
+        target_key = Path(target).stem.lower()
+        target_path = target.lower().removesuffix(".md")
+        if target_key == path.stem.lower() or target_path in keys:
+            hits.append(raw.strip())
+    return hits
 
 
 # 宽口径答案标记（2026-08-31 修正：原规则漏掉 `> **答案**：` 引用块与【答案】格式，虚报约 500 处）
@@ -279,6 +314,7 @@ def audit_file(path: Path, r: R, md_idx, img_idx, label_idx) -> None:
     if ftype == "题组":
         # 题组是题目组 schema（含 question_count 等），不套用单题六字段
         r.skipped += 1
+        r.skipped_types[ftype] += 1
         return
     if ftype not in QUESTION_TYPES:
         # 索引/系统/答案/横向对比类文件不是题目，不按题库规范审计
@@ -320,8 +356,52 @@ def audit_file(path: Path, r: R, md_idx, img_idx, label_idx) -> None:
             r.add("P1", d, rel, "A-枚举", f"difficulty='{diff}' 非 1-5 整数或合法区间")
 
     st = fm.get("status")
+    answer_status_raw = fm.get("answer_status")
+    consumption_status_raw = fm.get("consumption_status")
+    replacement_status_raw = fm.get("replacement_status")
+    answer_status = str(answer_status_raw).strip() if answer_status_raw not in (None, "", []) else ""
+    consumption_status = str(consumption_status_raw).strip() if consumption_status_raw not in (None, "", []) else ""
+    replacement_status = str(replacement_status_raw).strip() if replacement_status_raw not in (None, "", []) else ""
+    for field, value, allowed in (
+        ("answer_status", answer_status_raw, ANSWER_STATUS_VALUES),
+        ("consumption_status", consumption_status_raw, CONSUMPTION_STATUS_VALUES),
+        ("replacement_status", replacement_status_raw, REPLACEMENT_STATUS_VALUES),
+    ):
+        if value not in (None, "", []):
+            normalized = str(value).strip()
+            if normalized not in allowed:
+                r.add("P1", d, rel, "A-枚举", f"{field}='{value}' 不在 {sorted(allowed)}")
+    r.answer_status_counts[answer_status or "(缺字段)"] += 1
+    r.consumption_status_counts[consumption_status or "(缺字段)"] += 1
+    r.replacement_status_counts[replacement_status or "(缺字段)"] += 1
     if st is not None and st not in ALLOWED_STATUS:
         r.add("P2", d, rel, "A-枚举", f"status='{st}' 不在允许列表")
+
+    # ── A2. 消费状态 / 正式组卷准入 ───────────────────────────
+    if st == "deprecated":
+        r.deprecated_questions += 1
+        if fm.get("superseded_by") in (None, "", []):
+            r.add("P1", d, rel, "A-退役对账", "deprecated 且 superseded_by 为空；需人工确认无替代或补替代卡")
+        if replacement_status in (None, "", []):
+            r.add("P2", d, rel, "A-退役对账", "deprecated 未标 replacement_status")
+        if consumption_status == "可用":
+            r.add("P0", d, rel, "A-消费状态", "deprecated 与 consumption_status=可用 冲突")
+    else:
+        formal_ready = consumption_status == "可用" and answer_status in FORMAL_ANSWER_VALUES
+        unsafe = consumption_status in {"隔离", "退役"} or (
+            answer_status not in (None, "", []) and answer_status not in FORMAL_ANSWER_VALUES
+        )
+        if formal_ready:
+            r.formal_ready += 1
+        elif unsafe:
+            r.blocked_questions += 1
+        else:
+            r.legacy_compatible += 1
+        if consumption_status == "可用" and answer_status not in FORMAL_ANSWER_VALUES:
+            r.add("P1", d, rel, "A-消费准入", "consumption_status=可用，但 answer_status 不是完整/不适用")
+
+    if path.stem.startswith("题-XES-") and answer_status == "待补":
+        r.add("P1", d, rel, "D-XES待补", "XES 题卡 answer_status=待补；补齐并复核前禁止正式组卷")
 
     # ── B. 链接 ───────────────────────────────────────────
     for field in ("knowledge_points", "depends_on", "cross_references", "related"):
@@ -444,6 +524,16 @@ def audit_file(path: Path, r: R, md_idx, img_idx, label_idx) -> None:
             break
 
     # ── F. 重复 ───────────────────────────────────────────
+    qid = str(fm.get("qid") or fm.get("id") or "").strip()
+    if qid:
+        r.qids[qid].append(rel)
+    r.question_basenames[path.stem.lower()].append(rel)
+    number_match = re.match(r"题-(\d{3})(?:-|$)", path.stem)
+    if number_match:
+        r.question_numbers[f"{d}:{number_match.group(1)}"].append(rel)
+    self_hits = self_link_hits(body, path)
+    if len(self_hits) > 1:
+        r.add("P1", d, rel, "F-重复自链", f"指向本卡的 wikilink 重复 {len(self_hits)} 次：{' / '.join(self_hits[:4])}")
     title = str(fm.get("title", "")).strip()
     if title:
         r.titles[title].append(rel)
@@ -493,6 +583,17 @@ def main() -> None:
             r.add("P0", norm_dir(f.relative_to(VAULT).as_posix()),
                   f.relative_to(VAULT).as_posix(), "扫描异常", str(e)[:100])
 
+    # ── ID / basename 复用（跨目录全局对账） ────────────────
+    dup_qids = {k: v for k, v in r.qids.items() if len(v) > 1}
+    dup_names = {k: v for k, v in r.question_basenames.items() if len(v) > 1}
+    dup_numbers = {k: v for k, v in r.question_numbers.items() if len(v) > 1}
+    for qid, paths in sorted(dup_qids.items()):
+        r.add("P1", "ID复用", " / ".join(paths), "F-qid复用", f"qid={qid} 被 {len(paths)} 张题卡复用")
+    for number_key, paths in sorted(dup_numbers.items()):
+        r.add("P2", "ID复用", " / ".join(paths), "F-同号复用", f"同来源同号 {number_key} 被 {len(paths)} 张题卡复用")
+    for name, paths in sorted(dup_names.items(), key=lambda x: -len(x[1])):
+        r.add("P2", "ID复用", " / ".join(paths), "F-basename复用", f"basename={name} 被 {len(paths)} 张题卡复用")
+
     # ── 汇总 ──────────────────────────────────────────────
     lv = defaultdict(int)
     dim = defaultdict(int)
@@ -508,11 +609,14 @@ def main() -> None:
     lines.append(f"# 题库专项审计报告 · {today}")
     lines.append("")
     lines.append(f"> **范围**：{' / '.join(dirs)}　**受检文件**：{len(files)}")
+    lines.append(f"> **审计 universe**：{AUDIT_UNIVERSE}")
+    lines.append("> **分母口径**：受检文件 = 目录下全部 md；实际审计题数 = universe 中通过 type 分流的题卡；"
+                 "frontmatter 命中数 = 上述题卡逐文件解析出的字段计数；Dataview 查询结果数不属于本脚本口径。")
     lines.append(f"> **依据**：[[04-题库/新题入库SOP]] v1.1 · [[04-题库/习题集体系总纲]] v1.1")
     lines.append(f"> **工具**：`11-模板/scripts/audit_question_bank.py`")
-    lines.append(f"> **实际审计题数**：{sum(r.dir_total.values())}（另有 {r.skipped} 个非题目文件："
+    lines.append(f"> **实际审计题数**：{sum(r.dir_total.values())}（另有 {r.skipped} 个文件未计入单题规范分母："
                  + "、".join(f"{k}×{v}" for k, v in sorted(r.skipped_types.items(), key=lambda x: -x[1]))
-                 + "，不计入缺陷）")
+                 + "，含题组/索引/系统/答案等）")
     lines.append("")
     lines.append("## 一、总览")
     lines.append("")
@@ -545,6 +649,16 @@ def main() -> None:
     lines.append(f"- 占位答案：**{r.placeholder_answer}**")
     lines.append(f"- 外链答案（合法）：**{r.ext_answer}**")
     lines.append(f"- 合法短答案（选择题/数值）：**{r.short_answer}**")
+    lines.append("")
+    lines.append("### 消费准入")
+    lines.append("")
+    lines.append(f"- 正式组卷池（严格：active + consumption_status=可用 + answer_status∈完整/不适用）：**{r.formal_ready}**")
+    lines.append(f"- legacy 兼容池（缺消费字段但未被明确阻断）：**{r.legacy_compatible}**")
+    lines.append(f"- 明确阻断（隔离/退役/非正式答案状态）：**{r.blocked_questions}**")
+    lines.append(f"- deprecated：**{r.deprecated_questions}**")
+    lines.append(f"- `answer_status` 分布：{' / '.join(f'{k}×{v}' for k, v in r.answer_status_counts.most_common())}")
+    lines.append(f"- `consumption_status` 分布：{' / '.join(f'{k}×{v}' for k, v in r.consumption_status_counts.most_common())}")
+    lines.append(f"- `replacement_status` 分布：{' / '.join(f'{k}×{v}' for k, v in r.replacement_status_counts.most_common())}")
     lines.append("")
 
     lines.append("## 二、各来源库六字段合规率")
@@ -619,6 +733,10 @@ def main() -> None:
     lines.append("")
     lines.append(f"- **title 重复**：{len(dup_titles)} 组")
     lines.append(f"- **正文完全重复**：{len(dup_body)} 组")
+    lines.append(f"- **qid 复用**：{len(dup_qids)} 组")
+    lines.append(f"- **同来源同号复用**：{len(dup_numbers)} 组")
+    lines.append(f"- **basename 复用**：{len(dup_names)} 组")
+    lines.append(f"- **重复自链**：{sum(1 for row in r.rows if row[3] == 'F-重复自链')} 个文件")
     lines.append("")
     if dup_titles:
         lines.append("| title | 文件数 | 样例 |")

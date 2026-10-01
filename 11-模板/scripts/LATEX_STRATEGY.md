@@ -2,6 +2,7 @@
 title: LaTeX PDF生成策略文档
 type: 系统
 updated: 2026-06-29
+status: 已填充
 ---
 
 # LaTeX PDF 生成策略文档

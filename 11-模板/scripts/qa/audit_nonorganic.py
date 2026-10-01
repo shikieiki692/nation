@@ -44,6 +44,11 @@ def split_fm(raw):
     return fm, raw[len(fm):]
 
 
+def fm_offset(fm):
+    """FM 占的行数——body 相对行号 + 该偏移 = 文件绝对行号。"""
+    return fm.count("\n")
+
+
 def fm_int(fm, key):
     m = re.search(r"(?m)^%s:\s*(\d+)" % key, fm)
     return int(m.group(1)) if m else None
@@ -77,7 +82,10 @@ def audit_one(sec, p):
     r["n_cap"] = len(caps)
     # 图注在表外：只算 `> 图 N-M：`（带冒号的独立行，属正文区插图漏包装）；
     # `| 图 N-M 标签 |` 是例题/习题题面图样式，合法，不计。
-    r["cap_outside"] = [i + 1 for i, l in enumerate(L) if i < ax and re.match(r"^> 图 \d+-\d+：", l)]
+    # ⚠️ 行号必须是**文件绝对行号**（body 行号 + FM 行数），否则定位到无关行
+    off = fm_offset(fm)
+    r["cap_outside"] = [i + 1 + off for i, l in enumerate(L)
+                        if i < ax and re.match(r"^> 图 \d+-\d+：", l)]
     r["broken"] = [f"{h}.{e}" for h, e in hs if not (MEDIA / f"{h}.{e}").exists()]
 
     # C 标题层级
@@ -87,10 +95,12 @@ def audit_one(sec, p):
 
     # D 并段
     a = b = head_adj = 0
+    head_lines = []
     for i in range(1, len(L)):
         cur, prev = L[i], L[i - 1]
         if cur.startswith("#") and prev.strip():
             head_adj += 1
+            head_lines.append(i + 1 + fm_offset(fm))
         if not cur.strip() or not prev.strip():
             continue
         if cur.startswith(BLOCK) or prev.startswith(BLOCK):
@@ -100,6 +110,7 @@ def audit_one(sec, p):
         elif not LISTY.match(cur) and not LISTY.match(prev):
             b += 1
     r["adj_a"], r["adj_b"], r["head_adj"] = a, b, head_adj
+    r["head_lines"] = head_lines
 
     # E 双轨
     sp = BASE / "学生专用版" / sec / (name + "-超级充实版（学生专用版）.md")
@@ -194,6 +205,8 @@ def main():
             extra = ""
             if "图注在表外" in x:
                 extra = " 行号 " + ",".join(map(str, r["cap_outside"]))
+            if "标题缺空行" in x:
+                extra = " 行号 " + ",".join(map(str, r.get("head_lines", [])))
             if "断链" in x:
                 extra = " " + ", ".join(r["broken"][:3])
             print(f"  [{sec}] {name}  →  {x}{extra}")

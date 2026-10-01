@@ -26,7 +26,11 @@ ROOT = os.path.join(VAULT, "04-课件", "学生讲义")
 REQUIRED_FM = ["title", "type", "chapter", "serve_rounds", "stage",
                "difficulty_level", "has_images"]  # exercise_count 单独按「有练习题」条件查（规范 §五）
 EX_HEAD_WHITELIST = ("综合串联题", "竞赛思考强化题", "思考强化题", "思维强化",
-                     "思考强化大题", "化竞思维强化训练题")  # 节名变体白名单
+                     "思考强化大题", "化竞思维强化训练题",
+                     "课后习题", "课后练习")  # 节名变体白名单
+# ⚠️ 2026-09-29 口径变更：练习区标题由「§N 竞赛思考强化题与微观机理精解」统一改为
+# 「§N 课后习题」（母版/学生版同口径）。若此处未同步收录，练习节将不被识别
+# （报告恒「练习节×0」）⇒ 题/答配平与题号连续性检查会**静默失效**。
 # 装饰性 emoji（排除 ✓✗≈ 等文本功能符号；⭐ 单列铁律项）
 EMOJI = re.compile(r"[\U0001F300-\U0001FAFF\u2B00-\u2BFF\u2728\u274C\u2757\U0001F900-\U0001F9FF]")
 # 合法题目/答案行：**N.** 题干 或 **N. [标签] 题名**
@@ -176,6 +180,43 @@ def check(rel):
     if q_nums and not a_nums and not is_stu:
         # 学生专用版按铁律整块剥离答案区，无答案属**预期**，不计入待补
         W.append(f"有 {len(set(q_nums))} 题无答案区（登记待补清单）")
+
+    # 3b ⭐ 学生专用版零答案（铁律；2026-09-29 新增，P0 缺陷回流防线）
+    #    只做**标记级**扫描（高精度）；散文级匹配经实测噪声极大（40~70% 假阳性），不做。
+    if is_stu:
+        PROC = r"(?:详细|微观|完整|简要|逐步|逐题|逐问)*"
+        P_MARK = re.compile(r"^\*\*(?:%s(?:解|解析|解答|详解|答案|参考答案|精解)"
+                            r"(?:\s*\d{1,2}|（[^）]*）)*|例\s*\d+[^\n*]{0,30}?(?:详细解答|解答|解析|详解))\*\*" % PROC)
+        P_MARK_INLINE = re.compile(r"^\*\*%s(?:解|解析|解答|详解|答案|参考答案|精解)"
+                                   r"(?:\s*\d{1,2})?\*\*[ \t]*[：:]?[ \t]*\S" % PROC)
+        P_LIAN = re.compile(r"^\*\*练\s*\d+\*\*(?!\s*·)\s*$")
+        for i, L in enumerate(lines):
+            b = L.rstrip("\r\n")
+            if P_MARK.match(b) or P_MARK_INLINE.match(b) or P_LIAN.match(b):
+                E.append(f"L{i+1} 学生版残留答案标记：{b[:40]}…")
+                break
+
+    # 3c ⭐ 题面自洽（C8）：练习区**题面区**出现教材交叉引用 / 自编题标签 → WARNING
+    for i, L in enumerate(lines):
+        if zone_kind[i] != "ex":
+            continue
+        if emb_start is not None and i >= emb_start:
+            continue
+        b = L.rstrip("\r\n")
+        if re.search(r"参考教材|教材中图|教材例题|原书第|见教材第|用\s*\d+\.\d+\s*题", b):
+            W.append(f"L{i+1} 题面交叉引用教材（非自治）：{b[:40]}…")
+        elif "[经典例题" in b:
+            W.append(f"L{i+1} 题面含自编题标签：{b[:40]}…")
+
+    # 3d ⭐ 答案区/题面区重叠（母版结构，防「解答写进题面区」重现）→ WARNING
+    if not is_stu and emb_start is not None:
+        STRONG = ("可简化计算", "平衡浓度}", "由多重平衡规则", "设溶解度为")
+        for i, L in enumerate(lines):
+            if zone_kind[i] == "ex" and i < emb_start:
+                b = L.rstrip("\r\n")
+                hit = [s for s in STRONG if s in b]
+                if hit:
+                    W.append(f"L{i+1} 题面区疑含解答（{'/'.join(hit)}）：{b[:36]}…")
     # 4 FM 题数口径（纯练习数）
     fm_ex = fm_get(fm, "exercise_count")
     if q_nums:

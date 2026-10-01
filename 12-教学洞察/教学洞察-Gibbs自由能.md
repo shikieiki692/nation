@@ -13,6 +13,7 @@ updated: 2026-06-29
 version: v1.0
 created: 2026-06-11
 tags: [教学洞察, 热力学, Gibbs自由能, 自发性, 相变, ΔG判据]
+status: 已填充
 ---
 
 # 教学洞察：Gibbs自由能
