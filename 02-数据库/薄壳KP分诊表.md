@@ -4,6 +4,7 @@ type: 数据库
 audit: P1-8
 created: 2026-07-23
 updated: 2026-07-23
+status: 已填充
 ---
 
 # 薄壳 KP 分诊表（审计 P1-8）

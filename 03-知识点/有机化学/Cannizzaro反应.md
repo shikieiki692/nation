@@ -55,7 +55,7 @@ source_extracts:
 
 # Cannizzaro 反应（Cannizzaro Reaction）
 
-![Cannizzaro 反应机理](media/cannizzaro-mechanism-benzaldehyde.png)
+![[cannizzaro-mechanism-benzaldehyde.png|Cannizzaro 反应机理]]
 *图：Cannizzaro 反应机理示意图。苯甲醛在浓 NaOH 作用下发生歧化反应，一分子苯甲醛被氧化为苯甲酸，另一分子被还原为苯甲醇。关键步骤是 OH⁻ 进攻羰基碳，然后发生负氢迁移。来源：有机化学教材。*
 
 - 总览：[[中国化学奥林匹克基本要求-总览]]

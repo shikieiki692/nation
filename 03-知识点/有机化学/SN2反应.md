@@ -478,15 +478,15 @@ $$\mathrm{4{-}Cl{-}1{-}OH{-}C_5H_{10}} + \text{NaH} \to \mathrm{2{-}CH_3{-}THF} 
 
 **已配图**（ABOC精标图，共5张）：
 
-![SN2背面进攻](media/aboc-sn2-backside-attack.jpg)
+![[aboc-sn2-backside-attack.jpg|SN2背面进攻]]
 
-![SN2过渡态轨道](media/aboc-sn2-transition-state.jpg)
+![[aboc-sn2-transition-state.jpg|SN2过渡态轨道]]
 
-![SN2势能图](media/aboc-sn2-energy-diagram.jpg)
+![[aboc-sn2-energy-diagram.jpg|SN2势能图]]
 
-![SN2亲核体与亲电体概念](media/arrowpushing-sn2-nucleophile-electrophile.jpg)
+![[arrowpushing-sn2-nucleophile-electrophile.jpg|SN2亲核体与亲电体概念]]
 
-![SN2 Walden翻转](media/aboc-sn2-inversion.jpg)
+![[aboc-sn2-inversion.jpg|SN2 Walden翻转]]
 
 **题目**：CH₃Br 在 50% NaOH/H₂O 与 NaOH/DMSO 两种条件下都得到 CH₃OH。哪个条件下反应更快？为什么？
 

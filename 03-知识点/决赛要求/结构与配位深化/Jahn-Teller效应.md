@@ -416,7 +416,7 @@ Cu²⁺为d⁹构型，在八面体场中：
 
 **已配图**（共2张）：
 
-![赵鑫光Jahn-Teller效应图](media/zgxg-jahn-teller-effect.jpg)
+![[zgxg-jahn-teller-effect.jpg|赵鑫光Jahn-Teller效应图]]
 
 ![晶体场分裂图-弱场强场高自旋低自旋](media/weller-ch19-cft-splitting.jpg)
 

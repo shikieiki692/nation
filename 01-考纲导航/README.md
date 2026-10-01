@@ -4,6 +4,7 @@ type: 系统
 role: 考纲系统入口
 updated: 2026-08-02
 tags: [系统, 考纲, 索引]
+status: draft
 ---
 
 # 考纲导航

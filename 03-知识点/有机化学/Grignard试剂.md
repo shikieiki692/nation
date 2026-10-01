@@ -36,7 +36,7 @@ source_extracts:
 
 # Grignard 试剂
 
-![Grignard 反应机理](media/grignard-mechanism-phbr-to-phcooh.png)
+![[grignard-mechanism-phbr-to-phcooh.png|Grignard 反应机理]]
 *图：Grignard 反应机理示意图。溴苯与镁反应生成苯基溴化镁（PhMgBr），然后与二氧化碳反应生成苯甲酸。Grignard 试剂是强亲核试剂，可与醛、酮、酯、CO₂等亲电试剂反应。来源：有机化学教材。*
 
 ## 一、定义

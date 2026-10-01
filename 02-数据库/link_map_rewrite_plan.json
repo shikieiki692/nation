@@ -1,0 +1,315 @@
+[
+  {
+    "old": "endo/exo",
+    "new": "Diels-Alder反应",
+    "target": "03-知识点/有机化学/Diels-Alder反应.md",
+    "occurrences": [
+      {
+        "file": "04-题库/教材习题/Clayden/题-489-Clayden-Ch34-P1-中等复杂Diels-Alder产物预测.md",
+        "line": 64
+      },
+      {
+        "file": "04-题库/教材习题/Clayden/题-491-Clayden-Ch34-P3-分子内Diels-Alder立体化学.md",
+        "line": 60
+      },
+      {
+        "file": "04-题库/教材习题/Clayden/题-492-Clayden-Ch34-P4-分子间+分子内DA区域立体选择性.md",
+        "line": 77
+      },
+      {
+        "file": "04-题库/教材习题/Clayden/题-498-Clayden-Ch34-P10-8+2环加成+芳香性复习.md",
+        "line": 73
+      },
+      {
+        "file": "04-题库/教材习题/Clayden/题-499-Clayden-Ch34-P11-氧化触发分子内DA效应.md",
+        "line": 74
+      },
+      {
+        "file": "07-资料提炼/书籍提炼/提炼-Clayden-PhaseD-习题拆题清单.md",
+        "line": 384
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-08-02-validation.md",
+        "line": 452
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-08-02-validation.md",
+        "line": 453
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-08-02-validation.md",
+        "line": 454
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-08-02-validation.md",
+        "line": 462
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-08-02-validation.md",
+        "line": 463
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-08-02-validation.md",
+        "line": 1383
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-08-03-validation.md",
+        "line": 301
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-08-03-validation.md",
+        "line": 302
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-08-03-validation.md",
+        "line": 303
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-08-03-validation.md",
+        "line": 309
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-08-03-validation.md",
+        "line": 310
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-08-03-validation.md",
+        "line": 1143
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-08-09-validation.md",
+        "line": 344
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-08-09-validation.md",
+        "line": 345
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-08-09-validation.md",
+        "line": 346
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-08-09-validation.md",
+        "line": 352
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-08-09-validation.md",
+        "line": 353
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-08-09-validation.md",
+        "line": 1168
+      }
+    ]
+  },
+  {
+    "old": "XeF2",
+    "new": "氢和稀有气体",
+    "target": "03-知识点/无机和结构化学/氢和稀有气体.md",
+    "occurrences": [
+      {
+        "file": "04-题库/元文件/模块习题集-元素与分析.md",
+        "line": 32
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-08-31-validation.md",
+        "line": 451
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-09-01-validation.md",
+        "line": 37
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-09-02-validation.md",
+        "line": 37
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-09-03-validation.md",
+        "line": 53
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-09-16-validation.md",
+        "line": 34
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-09-17-validation.md",
+        "line": 34
+      }
+    ]
+  },
+  {
+    "old": "KMnO₄滴定",
+    "new": "氧化还原滴定",
+    "target": "03-知识点/分析化学/氧化还原滴定.md",
+    "occurrences": [
+      {
+        "file": "09-审计报告/auto-validation/2026-08-02-validation.md",
+        "line": 923
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-08-03-validation.md",
+        "line": 710
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-08-09-validation.md",
+        "line": 748
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-08-10-validation.md",
+        "line": 513
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-08-13-validation.md",
+        "line": 512
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-08-14-validation.md",
+        "line": 512
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-08-15-validation.md",
+        "line": 513
+      }
+    ]
+  },
+  {
+    "old": "¹³C NMR",
+    "new": "NMR谱学",
+    "target": "03-知识点/分析化学/NMR谱学.md",
+    "occurrences": [
+      {
+        "file": "09-审计报告/auto-validation/2026-08-02-validation.md",
+        "line": 1440
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-08-03-validation.md",
+        "line": 1188
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-08-09-validation.md",
+        "line": 1212
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-08-10-validation.md",
+        "line": 837
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-08-13-validation.md",
+        "line": 837
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-08-14-validation.md",
+        "line": 837
+      },
+      {
+        "file": "09-审计报告/auto-validation/2026-08-15-validation.md",
+        "line": 838
+      }
+    ]
+  },
+  {
+    "old": "R/S命名",
+    "new": "R-S构型",
+    "target": "03-知识点/有机化学/R-S构型.md",
+    "occurrences": [
+      {
+        "file": "07-资料提炼/教学逻辑提炼/学而思 有机化学基础/教学逻辑提炼-学而思有机化学基础-批次A-第三轮起步.md",
+        "line": 30
+      },
+      {
+        "file": "07-资料提炼/教学逻辑提炼/学而思 有机化学基础/教学逻辑提炼-学而思有机化学基础-批次A-第三轮起步.md",
+        "line": 46
+      },
+      {
+        "file": "07-资料提炼/教学逻辑提炼/学而思 有机化学基础/教学逻辑提炼-学而思有机化学基础-批次A-第三轮起步.md",
+        "line": 85
+      },
+      {
+        "file": "07-资料提炼/网课资料/学而思 有机化学基础/资料提炼-学而思有机化学基础-批次A-绪论烷烃立体化学.md",
+        "line": 80
+      },
+      {
+        "file": "07-资料提炼/网课资料/学而思 有机化学基础/资料提炼-学而思有机化学基础-批次A-绪论烷烃立体化学.md",
+        "line": 104
+      }
+    ]
+  },
+  {
+    "old": "sp³杂化",
+    "new": "sp3杂化",
+    "target": "03-知识点/有机化学/sp3杂化.md",
+    "occurrences": [
+      {
+        "file": "04-题库/教材习题/赵鑫光/题-赵鑫光-分子-习19.md",
+        "line": 12
+      },
+      {
+        "file": "04-题库/教材习题/赵鑫光/题-赵鑫光-分子-习26.md",
+        "line": 12
+      },
+      {
+        "file": "04-题库/教材习题/赵鑫光/题-赵鑫光-分子-习39.md",
+        "line": 12
+      }
+    ]
+  },
+  {
+    "old": "E1cB消除",
+    "new": "消除反应",
+    "target": "03-知识点/有机化学/消除反应.md",
+    "occurrences": [
+      {
+        "file": "04-题库/教材习题/Clayden/题-402-Clayden-Ch26-P1-最简单Aldol自缩合机理.md",
+        "line": 71
+      },
+      {
+        "file": "04-题库/教材习题/Clayden/题-619-Clayden-Ch36-P12-碎片化后接另一反应.md",
+        "line": 75
+      }
+    ]
+  },
+  {
+    "old": "PH控制",
+    "new": "pH",
+    "target": "03-知识点/化学原理/pH.md",
+    "occurrences": [
+      {
+        "file": "04-题库/真题/第30届初赛/有机化学/题-030-9-1-化合物B结构简式.md",
+        "line": 19
+      }
+    ]
+  },
+  {
+    "old": "Mn/Fe配位化学",
+    "new": "配位化学",
+    "target": "03-知识点/无机和结构化学/配位化学.md",
+    "occurrences": [
+      {
+        "file": "04-题库/真题/第32届初赛/无机和结构化学/题-032-7-V2-edt-4结构.md",
+        "line": 15
+      }
+    ]
+  },
+  {
+    "old": "50--有机合成",
+    "new": "50-有机合成",
+    "target": "02-考纲条目/基础要求/有机化学/50-有机合成.md",
+    "occurrences": [
+      {
+        "file": "09-审计报告/2026-07-12-全库逐文件深度审计.md",
+        "line": 147
+      }
+    ]
+  },
+  {
+    "old": "β-氢消除",
+    "new": "β_氢消除",
+    "target": "03-知识点/决赛要求/金属有机与超分子/β_氢消除.md",
+    "occurrences": [
+      {
+        "file": "09-审计报告/2026-07-22-全库深度检查报告.md",
+        "line": 118
+      }
+    ]
+  }
+]

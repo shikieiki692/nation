@@ -144,7 +144,7 @@ $$K_{sp}(\mathrm{AgCl}) = 1.8\times10^{-8}\times 0.010 = 1.8\times10^{-10}$$
 
 **已配图**（共1张）：
 
-![Atkins Nernst E vs lgQ图](media/physchem-nernst-e-vs-q.jpg)
+![[physchem-nernst-e-vs-q.jpg|Atkins Nernst E vs lgQ图]]
 
 **题目**：计算 [Zn²⁺] = 0.010 mol·dm⁻³ 时 Zn²⁺/Zn 电对的电极电势（$E^{\theta} = -0.76$ V）。
 

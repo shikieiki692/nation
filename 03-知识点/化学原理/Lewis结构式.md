@@ -35,15 +35,15 @@ Lewis 结构式用点（电子）和线（共用电子对）表示分子中**价
 
 Lewis 结构式是分子结构研究的第一块基石：价电子计数 → 骨架连接 → 电子分配 → 形式电荷评估，这套流程的产物直接对接 [[VSEPR理论]]（数电子对定构型）、[[杂化轨道理论]] 和键级/键长比较。
 
-![Pauling电负性](media/arrowpushing-pauling-electronegativity.jpg)
+![[arrowpushing-pauling-electronegativity.jpg|Pauling电负性]]
 
 > Pauling 电负性标度：电负性差决定了化学键的离子性/共价性。Δχ > 1.7 约对应 50% 离子性。Lewis 结构式中，电负性大的原子倾向持有孤对电子和负形式电荷。
 
-![波函数vs电子云](media/zgxg-wavefunction-vs-electron-cloud-table.jpg)
+![[zgxg-wavefunction-vs-electron-cloud-table.jpg|波函数vs电子云]]
 
 > 波函数 ψ 与电子云 |ψ|² 的区别：Lewis 结构式本质上是用"点"近似表示电子云的定域分布。
 
-![He2 MO能级图](media/zgxg-he2-mo-energy-diagram.jpg)
+![[zgxg-he2-mo-energy-diagram.jpg|He2 MO能级图]]
 
 > He₂ 的分子轨道能级图：成键与反键轨道各填满2个电子，净键级为零——这解释了为什么 He₂ 不能稳定存在，也是 Lewis 结构式中"共享电子对"概念的量子力学基础。
 

@@ -479,9 +479,9 @@ $$\text{Step 2：OH⁻ 进攻硫鎓开环（SN2）}$$
 
 **已配图**（ABOC精标图，共2张）：
 
-![SN1离子对机理（Winstein三层模型）](media/aboc-sn1-ion-pair-mechanism.jpg)
+![[aboc-sn1-ion-pair-mechanism.jpg|SN1离子对机理（Winstein三层模型）]]
 
-![SN1势能图](media/aboc-sn1-energy-diagram.jpg)
+![[aboc-sn1-energy-diagram.jpg|SN1势能图]]
 
 **题目**：为什么 t-BuOH 在室温下与浓 HCl 直接得到 t-BuCl，而 MeOH 与浓 HCl 必须高温/催化剂才反应？
 

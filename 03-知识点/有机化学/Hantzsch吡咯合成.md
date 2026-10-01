@@ -73,7 +73,7 @@ $$
 
 ### 3.1 反应机理
 
-![Hantzsch机理](media/clayden-hantzsch-mechanism.jpg)
+![[clayden-hantzsch-mechanism.jpg|Hantzsch机理]]
 *图：Hantzsch反应的详细机理，显示多组分缩合构建吡咯环的过程。来源：Clayden*
 
 **步骤 1：胺的亲核取代**

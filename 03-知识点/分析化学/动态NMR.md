@@ -319,7 +319,7 @@ $$
 - [x] 补充实际竞赛真题中的动态NMR案例——见下方 §15.1
 - [x] 评估配图：建议补充慢交换/共合/快交换的峰形示意图（图片任务）——已用 matplotlib 生成并配图（07-29）
 
-![动态NMR峰形演化：慢交换→共合→快交换](media/dynamic-nmr-lineshape-evolution.png)
+![[dynamic-nmr-lineshape-evolution.png|动态NMR峰形演化：慢交换→共合→快交换]]
 
 
 ### §15.1 竞赛中动态 NMR 的相关案例

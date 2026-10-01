@@ -5,7 +5,7 @@ module: 化学基础
 created: 2026-07-25
 updated: 2026-07-27
 tags: [初中基础, 导航, 目录]
-status: 待填充
+status: draft
 template_version: v1.3
 ---
 
