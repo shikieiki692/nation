@@ -513,6 +513,7 @@ $$K_p^\theta = \prod_i \left(\frac{q_{i,\mathrm{m}}^\theta}{N_A}\right)^{\nu_i} 
 ## §9 经典示范例题
 
 **例 1**（真实气体状态方程与偏导数变换）
+
 设某真实气体服从 van der Waals 状态方程：$\left(p + \frac{a}{V_\mathrm{m}^2}\right)(V_\mathrm{m} - b) = RT$。试应用热力学第一状态方程与 Maxwell 关系式，严格推导：
 (1) 该气体的内压力 $\pi_T = \left(\frac{\partial U_\mathrm{m}}{\partial V_\mathrm{m}}\right)_T$；
 (2) 该气体发生 Joule 绝热自由膨胀（$U$ 恒定，$dU = 0$）时的温度变化率 $\left(\frac{\partial T}{\partial V_\mathrm{m}}\right)_U$；
@@ -525,6 +526,7 @@ $$K_p^\theta = \prod_i \left(\frac{q_{i,\mathrm{m}}^\theta}{N_A}\right)^{\nu_i} 
 ---
 
 **例 2**（Gibbs-Helmholtz 方程与 Kirchhoff 耦合积分）
+
 某气相合成反应在 $298.15\ \mathrm{K}$ 下的标准摩尔反应焓为 $\Delta_r H^\theta(298.15\ \mathrm{K}) = -92.22\ \mathrm{kJ\cdot mol^{-1}}$，标准摩尔 Gibbs 自由能变为 $\Delta_r G^\theta(298.15\ \mathrm{K}) = -33.00\ \mathrm{kJ\cdot mol^{-1}}$。在所研究的温度区间内，反应的定压热容差可近似表达为经验常数 $\Delta_r C_p^\theta = -40.00\ \mathrm{J\cdot K^{-1}\cdot mol^{-1}}$。试推导：
 (1) 反应焓变 $\Delta_r H^\theta(T)$ 关于绝对温度 $T$ 的函数关系式；
 (2) 利用 Gibbs-Helmholtz 方程的微分形式，推导该反应的标准摩尔 Gibbs 自由能变 $\Delta_r G^\theta(T)$ 的解析积分表达式；
@@ -537,6 +539,7 @@ $$K_p^\theta = \prod_i \left(\frac{q_{i,\mathrm{m}}^\theta}{N_A}\right)^{\nu_i} 
 ---
 
 **例 3**（双能级系统的 Schottky 热容异常）
+
 考察 1 摩尔独立的定域粒子体系，每个粒子仅具有两个非简并能级：基态能级 $\varepsilon_0 = 0$（简并度 $g_0 = 1$），第一激发态能级 $\varepsilon_1 = \varepsilon$（简并度 $g_1 = 1$）。
 (1) 试写出体系单分子配分函数 $q$ 与内能 $U - U(0)$ 的解析表达式；
 (2) 推导体系摩尔定容热容 $C_{V,\mathrm{m}}(T)$ 的数学表达式；
@@ -549,6 +552,7 @@ $$K_p^\theta = \prod_i \left(\frac{q_{i,\mathrm{m}}^\theta}{N_A}\right)^{\nu_i} 
 ---
 
 **例 4**（由微观配分函数第一性原理推导同位素交换平衡常数）
+
 考察双原子分子的气相均相化学平衡：
 $$\mathrm{H}_2(\mathrm{g}) + \mathrm{D}_2(\mathrm{g}) \rightleftharpoons 2\mathrm{HD}(\mathrm{g})$$
 假定体系处于高温极限状态（$T \approx 1000\ \mathrm{K}$），所有分子的平动和转动自由度均已充分激发，但振动仍处于基态冻结，忽略电子激发的微小差异，同位素替代前后分子间核间距与力常数严格相等。
@@ -562,18 +566,21 @@ $$\mathrm{H}_2(\mathrm{g}) + \mathrm{D}_2(\mathrm{g}) \rightleftharpoons 2\mathr
 ## §10 课后习题
 
 **1.** 在298K、100kPa下，判断以下说法是否正确：
+
 "1 mol H₂O(g)的微观状态数 $\Omega$ > 1 mol H₂(g)的微观状态数 $\Omega$"
 
 
 <br><br><br>
 
 **2.** 在298K、100kPa下，判断以下说法是否正确：
+
 "1 mol H₂O(l)的微观状态数 $\Omega$ > 1 mol H₂(g)的微观状态数 $\Omega$"
 
 
 <br><br><br>
 
 **3.** 判断以下说法是否正确：
+
 "熵S是状态函数（状态量）"
 
 
@@ -632,6 +639,7 @@ $$
 <br><br><br>
 
 **9.** 对于范特霍夫等温式 $\Delta_r G_m = \Delta_r G_m^{\circ} + RT \ln Q$，判断以下说法是否正确：
+
 ① "$\Delta_r G_m^{\circ} = 0$ 则体系平衡"
 ② "$\Delta_r G_m = 0$ 则体系平衡"
 
