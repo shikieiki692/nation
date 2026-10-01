@@ -7,7 +7,7 @@ syllabus_codes: [36, 38, 44]
 tags: [化竞, 有机化学, 题型, 机理判断]
 difficulty: 4
 importance: 5
-status: 完整
+status: 已填充
 stage: published
 updated: 2026-06-29
 source_extracts:

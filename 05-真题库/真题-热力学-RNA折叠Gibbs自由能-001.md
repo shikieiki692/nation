@@ -3,17 +3,21 @@ title: "RNA折叠-热力学参数的线性拟合与Gibbs自由能分析"
 aliases: [38届初赛3.4, RNA折叠, van't Hoff作图]
 type: 真题
 status: 已填充
+answer_status: 待补
+consumption_status: 隔离
+replacement_status: 无替代
+superseded_by: null
 year: 2024
 source: "中国化学奥林匹克(初赛) 第38届 第3题(3-4)"
 type_tag: "化学热力学-计算"
 difficulty: 4
 knowledge_points: ["[[Gibbs自由能]]", "[[平衡常数]]", "[[线性拟合]]"]
 tags: [化竞, 真题, 38届, 热力学, RNA, 生物交叉]
-updated: 2026-08-31
+updated: 2026-09-24
 teaching_level: 竞赛
 quality_tier: "🥇策略级"
-related_notes:
-  - "[[题-038-3-螺吡喃机械力变色]]"
+related_notes: []
+
 fidelity: 原书改写
 exam_stage: 初赛
 subject_module: 化学原理
@@ -33,7 +37,7 @@ source_norm: "05-真题库（真题讲评层）"
 
 ## 原题
 
-完整题干与解答请见：[[题-038-3-螺吡喃机械力变色]]
+题面尚未在库内找到可靠来源，本页仅保留讲评；完整原题待回源补录。此前指向的 `题-038-3-螺吡喃机械力变色` 与本主题无关，已移除。
 
 ---
 

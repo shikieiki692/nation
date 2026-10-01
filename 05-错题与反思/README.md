@@ -3,6 +3,7 @@ title: 错题与反思区
 type: 工作流说明
 tags: [化竞, 错题, 反思]
 updated: 2026-07-12
+status: draft
 ---
 
 # 错题与反思区

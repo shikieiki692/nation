@@ -4,6 +4,7 @@ type: 系统
 role: 真题按题型索引
 updated: 2026-09-19
 tags: [系统, 真题, 题型, 索引]
+status: 已填充
 ---
 
 # 真题库（按题型分类）
@@ -84,3 +85,18 @@ TMSOTf 开 D-A 螺环丙烷经 nitrilium 环合脱 MeOH 芳构化）。
 - 要找某届真题 → 去 `04-题库/真题/第XX届初赛/`
 - 要找某类题型的所有真题 → 在本目录按文件名搜索
 - 每个文件的 `aliases` 字段包含原始届次信息，可反向定位到04-题库/
+
+## 2026-09-25 元数据体检与组卷闸门
+
+本目录当前有 **41 张真题卡**（文件名为 `真题-*.md`，不含 README）。体检发现：
+
+- 仅 4 张具备 `answer_status` / `consumption_status`；
+- 仅 3 张具备 `replacement_status`；
+- 0 张具备 `question_image_status`；
+- 41 张均缺 `source_file` 与 `withdrawn_checked`。
+
+字段缺失明细：`answer_status` 37、`consumption_status` 37、`question_image_status` 41、`replacement_status` 38、`source_file` 41、`withdrawn_checked` 41。
+
+因此，在字段补齐和题面图片边界核验完成前，查询/组卷层必须按“字段缺失即隔离”处理，不得把本目录卡直接当作正式带答案题池。已知 `真题-结构-SrSb晶胞分数坐标-001.md`、`真题-结构-WSe2键长计算-001.md`、`真题-热力学-RNA折叠Gibbs自由能-001.md` 明确为 `answer_status: 待补` + `consumption_status: 隔离`；`真题-结构-MOF晶胞溶剂推断-001.md` 为 `answer_status: 完整` + `consumption_status: 可用`，是本目录唯一满足正式硬闸门的题卡。
+
+> **全库统计口径**：本目录使用 `真题-*.md`，而 `04-题库` 使用 `题-*.md`。全库必须按两种命名模式合并计数：5424 + 41 = 5465 张；不可用单一 `题-*.md` glob 代替全库。
