@@ -5,6 +5,7 @@ subject: 系统
 module: 课件体系
 tags: [化竞, 课件, 备课, 索引]
 updated: 2026-08-06
+status: 已填充
 ---
 
 # 课件总入口

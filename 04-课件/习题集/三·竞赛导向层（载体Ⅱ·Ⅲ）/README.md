@@ -6,6 +6,7 @@ layer: 用途分层
 carrier: 载体 II（竞赛教材版分章）/ III（综合套卷）
 updated: 2026-09-19
 tags: [系统, 索引, 习题集, 竞赛导向, 第一轮]
+status: 已填充
 ---
 
 # 三 · 竞赛导向层（载体 II · III）

@@ -5,6 +5,7 @@ subject: 系统
 module: 课件体系
 tags: [化竞, 课件, 习题课]
 updated: 2026-05-20
+status: draft
 ---
 
 # 习题课目录

@@ -4,6 +4,7 @@ type: 系统
 role: 子目录索引
 updated: 2026-07-27
 tags: [系统, 索引, 专题课, 课件]
+status: draft
 ---
 
 # 专题课

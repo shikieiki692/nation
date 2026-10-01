@@ -5,7 +5,7 @@ role: 出题方法论
 round: 第一轮
 created: 2026-09-18
 updated: 2026-09-18
-status: 已定稿
+status: 已审校
 tags: [化竞, 第一轮, 出题规范, 竞赛导向, 选题口径]
 related_notes:
   - "[[第一轮·竞赛教材版/_总索引]]"

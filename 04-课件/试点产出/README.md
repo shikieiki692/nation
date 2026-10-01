@@ -4,6 +4,7 @@ type: 系统
 role: 产出目录说明
 tags: [系统, 索引, 课件]
 updated: 2026-08-16
+status: draft
 ---
 
 # 试点产出
