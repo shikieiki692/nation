@@ -2,7 +2,7 @@
 title: 高考资料提炼
 type: 占位
 role: 高考赛道-资料提炼目录占位
-status: 待填充
+status: draft
 created: 2026-08-16
 updated: 2026-08-16
 tags: [高中化学, 高考, 资料提炼]

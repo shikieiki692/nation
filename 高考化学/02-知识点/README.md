@@ -2,7 +2,7 @@
 title: 高考知识点
 type: 占位
 role: 高考赛道-知识点目录占位
-status: 待填充
+status: draft
 created: 2026-08-16
 updated: 2026-08-16
 tags: [高中化学, 高考, 知识点]

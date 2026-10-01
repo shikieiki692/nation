@@ -2,7 +2,7 @@
 title: 高考考纲
 type: 系统
 role: 高考赛道-考纲目录（已建设）
-status: 已建设
+status: 已填充
 level: 高考
 syllabus: 新课标
 created: 2026-08-16

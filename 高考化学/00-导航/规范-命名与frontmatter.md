@@ -2,7 +2,7 @@
 title: 高考赛道命名与frontmatter规范
 type: 规范
 role: 高考赛道命名/frontmatter/标签/桥接硬规范
-status: active
+status: 已填充
 version: v1.0
 created: 2026-08-16
 updated: 2026-08-16

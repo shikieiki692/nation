@@ -2,7 +2,7 @@
 title: 高考讲义
 type: 目录
 role: 高考赛道-讲义目录
-status: active
+status: 已填充
 created: 2026-08-16
 updated: 2026-08-16
 tags: [高中化学, 高考, 讲义]

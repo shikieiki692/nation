@@ -2,7 +2,7 @@
 title: 高考备课
 type: 占位
 role: 高考赛道-备课目录占位
-status: 待填充
+status: draft
 created: 2026-08-16
 updated: 2026-08-16
 tags: [高中化学, 高考, 备课]

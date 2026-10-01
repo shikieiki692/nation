@@ -2,7 +2,7 @@
 title: 高考题库
 type: 目录
 role: 高考赛道-题库目录
-status: active
+status: 已填充
 created: 2026-08-16
 updated: 2026-08-20
 tags: [高中化学, 高考, 题库]
