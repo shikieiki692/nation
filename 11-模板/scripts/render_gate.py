@@ -130,6 +130,13 @@ TMPDIR = VAULT / ".workbuddy" / "tmp" / ("_render_gate_%d" % os.getpid())
 DOC_SKIP_DOMAINS = (
     "09-审计报告/", "02-数据库/", "12-教学洞察/", "08-可视化资源/",
     "10-索引与统计/", "01-考纲导航/", "11-模板/", "00-首页/", ".workbuddy/",
+    # 教材 OCR 源料（2026-10-01 加入）：A 栏断言「产物字面 `$` == 0」在其上必假——
+    # OCR 教材正文大量出现**合法的货币 `\$`**（如 "cost was \$690/kg"、价格对比表
+    # `Price/$ kg$^{-1}$`），pandoc 会如实渲染成字面 `$`。这属**成片误报**（与
+    # 「README/索引/审计报告 天然含坏例子」同类），按本文件既定设计用**域划分**处理。
+    # 源料本身已做机械净化（`11-模板/scripts/md_sanitize.py`）与专项修（$$ 内直双引号）。
+    # 仍需检查时：`render_gate.py --changed <文件> --include-docs`。
+    "mineru/", "mineru02/",
 )
 
 
