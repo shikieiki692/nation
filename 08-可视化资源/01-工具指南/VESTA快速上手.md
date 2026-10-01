@@ -6,6 +6,7 @@ purpose: 晶体结构可视化
 created: 2026-08-01
 updated: 2026-08-01
 tags: [可视化, VESTA, 晶体结构, 教程]
+status: 已填充
 ---
 
 # VESTA 快速上手

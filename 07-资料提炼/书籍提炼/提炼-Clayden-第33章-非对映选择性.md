@@ -15,6 +15,7 @@ handout_plan:
     source_sections: ["第33章 非对映选择性（Cram规则、Felkin-Anh模型、手性辅助基、立体化学控制）"]
     estimated_pages: 6
 knowledge_points: [Felkin-Anh模型, 立体化学, 非对映选择性, 立体选择性, 手性中心, 不对称合成, Aldol缩合, 环状分子的立体选择性, 烯烃]
+status: 已填充
 ---
 
 # 提炼：Clayden 第33章 非对映选择性

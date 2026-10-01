@@ -5,6 +5,7 @@ purpose: Blender / VESTA Python 动画脚本管理
 created: 2026-08-01
 updated: 2026-08-01
 tags: [可视化, 动画, Python, 脚本]
+status: 已填充
 ---
 
 # 动画脚本

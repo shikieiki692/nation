@@ -3,6 +3,7 @@ title: 术语与卡片
 type: 工作流说明
 tags: [化竞, 术语, 卡片]
 updated: 2026-06-19
+status: draft
 ---
 
 # 术语与卡片

@@ -12,6 +12,7 @@ target_kp: ["[[方程式书写]]", "[[离子方程式]]", "[[氧化还原反应�
 created: 2026-09-22
 updated: 2026-09-22
 stage: needs_review
+status: 已填充
 ---
 
 # 王沐焓《竞赛反应方程式讲义》提炼

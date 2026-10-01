@@ -15,6 +15,7 @@ handout_plan:
     source_sections: ["第30章 芳杂环合成（六元杂环、五元杂环、嘧啶、嘌呤、稠合杂环）"]
     estimated_pages: 8
 knowledge_points: [杂环化合物, 杂环合成, 杂环合成策略, 杂环芳香性, 富电子杂环, 芳香性, 有机合成, 人名反应, Diels-Alder反应, 1,3-偶极环加成]
+status: 已填充
 ---
 
 # 提炼：Clayden 第30章 芳杂环 2：合成

@@ -7,7 +7,7 @@ chapter: 12
 chapter_title: 习题解析
 syllabus_module: 基础要求-有机化学
 phase: B
-status: 已提炼
+status: 已填充
 updated: 2026-05-10
 target_kp: ["[[有机化学基础]]", "[[有机反应机理]]"]
 ---

@@ -6,6 +6,7 @@ purpose: 化学分子和晶体结构的导入与可视化
 created: 2026-08-01
 updated: 2026-08-01
 tags: [可视化, Blender, Molecular Nodes, 化学, 详细教程]
+status: 已填充
 ---
 
 # Molecular Nodes 详细使用指南

@@ -9,7 +9,7 @@ source_range: line 27–439
 chapter: "9"
 template_version: v1.3
 extracted_date: 2026-07-09
-status: 已提炼
+status: 已填充
 target_kp: [Grignard试剂, 有机锂试剂]
 tags: [化竞, 有机化学, 有机金属, Grignard, 有机锂, C-C键, Clayden]
 handout_plan:

@@ -15,6 +15,7 @@ handout_plan:
     source_sections: ["第32章 环状分子中的立体选择性（环己烷构象、多环体系、立体选择性控制）"]
     estimated_pages: 6
 knowledge_points: [环状分子的立体选择性, 立体化学, 立体选择性, 手性中心, 构象分析, 环己烷构象, 立体电子效应]
+status: 已填充
 ---
 
 # 提炼：Clayden 第32章 环状分子中的立体选择性

@@ -15,6 +15,7 @@ handout_plan:
     source_sections: ["第31章 饱和杂环和立体电子效应（饱和杂环、异头碳效应、立体电子效应）"]
     estimated_pages: 6
 knowledge_points: [立体电子效应, 杂环化合物, 构象分析, 有机合成, NMR谱学]
+status: 已填充
 ---
 
 # 提炼：Clayden 第31章 饱和杂环和立体电子效应

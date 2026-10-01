@@ -15,6 +15,7 @@ topics: [第三轮专题1-有机结构基础与电子效应, 第三轮专题2-�
 problems_extracted: 30
 review_status: 待审核
 updated: 2026-06-06
+status: 已填充
 ---
 
 # 提炼-Zchem基础有机化学-批次Z-A到Z-E：结构与反应体系

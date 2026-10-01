@@ -33,6 +33,7 @@ handout_plan:
     priority: P2
     source_sections: ["附录B 有机化学知识要点（电子效应、羰基反应、缩合反应、周环反应、重排反应、杂环化学速查）"]
     estimated_pages: 4
+status: 已填充
 ---
 
 # 提炼：化学竞赛初赛讲义附录B 有机化学知识要点

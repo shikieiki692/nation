@@ -3,6 +3,7 @@ title: 竞赛教程-KP缺口清单
 type: 习题提炼
 updated: 2026-09-03
 tags: [化竞, KP缺口, 一分册测试]
+status: 已填充
 ---
 
 # 竞赛教程提炼 · KP 缺口清单

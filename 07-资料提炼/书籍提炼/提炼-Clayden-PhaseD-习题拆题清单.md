@@ -3,7 +3,7 @@ title: 提炼-Clayden-PhaseD-习题拆题清单
 type: 资料提炼
 source: "Clayden Organic Chemistry 2nd Edition (Jonathan Clayden, Nick Greeves, Stuart Warren)"
 phase: D
-status: 进行中
+status: 已填充
 updated: 2026-07-25
 total_problems: 393
 entry_start: 262

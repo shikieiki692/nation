@@ -9,7 +9,7 @@ source_range: line 440–1122
 chapter: "10"
 template_version: v1.3
 extracted_date: 2026-07-09
-status: 已提炼
+status: 已填充
 target_kp: [羧酸衍生物, 亲核取代]
 tags: [化竞, 有机化学, 羰基取代, 酯化, 酰卤, 酸酐, 酰胺, Clayden]
 handout_plan:

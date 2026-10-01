@@ -15,6 +15,7 @@ topics: [第三轮专题8-周环与重排, 第三轮专题9-波谱与结构鉴�
 problems_extracted: 25
 review_status: 待审核
 updated: 2026-06-06
+status: 已填充
 ---
 
 # 提炼-Zchem基础有机化学-批次Z-F：周环反应+重排反应+有机波谱分析

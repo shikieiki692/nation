@@ -56,6 +56,7 @@ handout_plan:
     priority: P2
     source_sections: ["~20% 反常现象→原理解释型题目"]
     estimated_pages: 2
+status: 已填充
 ---
 
 # 提炼：化学竞赛初赛讲义附录A 元素化学复习问题

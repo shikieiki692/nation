@@ -8,7 +8,7 @@ related_topic: "[[专题-晶体结构深化]]"
 related_kps: [NaCl型结构, 尖晶石, 六方最密堆积, 体心立方堆积, 氢键, 非化学计量化合物]
 target_kp: ["[[主族元素]]", "[[共价键]]", "[[分子结构补充]]"]
 applicable_rounds: [第二轮, 第三轮, 决赛]
-status: 草稿
+status: draft
 created: 2026-05-31
 updated: 2026-05-31
 tags: [教学逻辑, 资料提炼, 备课, 晶体结构, 中级无机]

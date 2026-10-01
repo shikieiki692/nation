@@ -6,6 +6,7 @@ purpose: 分子构建、力场优化、构象分析、格式导出
 created: 2026-08-02
 updated: 2026-08-02
 tags: [可视化, Avogadro, 分子建模, 完整指南]
+status: 已填充
 ---
 
 # Avogadro 完整指南

@@ -11,7 +11,7 @@ topics:
 total_notes: 4
 total_images: 306
 note_format: OCR转写 + 板书截图
-status: 已索引
+status: 已填充
 related_teaching_logic:
   - "[[Zchem物理化学-授课顺序总表]]"
   - "[[教学逻辑提炼-Zchem-热力学-第一三轮]]"

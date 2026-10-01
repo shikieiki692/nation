@@ -26,6 +26,7 @@ handout_plan:
     priority: P1
     source_sections: ["第2章 基本反应（四类反应入门、八大思维、离子型/自由基/周环反应）"]
     estimated_pages: 8
+status: 已填充
 ---
 
 # 第2章 基本反应介绍：四类反应入门 + 八大思维

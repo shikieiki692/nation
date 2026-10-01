@@ -15,6 +15,7 @@ topics: [第三轮专题1-有机结构基础与电子效应, 第三轮专题5-�
 problems_extracted: 13
 review_status: 待审核
 updated: 2026-06-04
+status: 已填充
 ---
 
 # 提炼-学而思有机化学基础-批次C-芳香烃与醇酚醚

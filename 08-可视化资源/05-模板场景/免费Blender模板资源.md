@@ -5,6 +5,7 @@ purpose: 收集可直接下载使用的免费 Blender 模板和资源
 created: 2026-08-02
 updated: 2026-08-02
 tags: [可视化, Blender, 免费资源, 模板, 下载]
+status: draft
 ---
 
 # 免费 Blender 模板资源

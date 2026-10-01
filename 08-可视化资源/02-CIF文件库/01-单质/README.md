@@ -5,6 +5,7 @@ purpose: 单质晶体结构 CIF 数据
 created: 2026-08-01
 updated: 2026-08-01
 tags: [可视化, CIF, 单质]
+status: draft
 ---
 
 # 单质 CIF 文件库

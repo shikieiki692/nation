@@ -15,6 +15,7 @@ topics: [第三轮专题2-立体化学与区域选择性, 第三轮专题3-活�
 problems_extracted: 14
 review_status: 待审核
 updated: 2026-06-04
+status: 已填充
 ---
 
 # 提炼-学而思有机化学基础-批次B-卤代烃烯烃炔烃与二烯烃

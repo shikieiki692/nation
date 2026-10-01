@@ -5,6 +5,7 @@ purpose: 导出的静态渲染图片管理
 created: 2026-08-01
 updated: 2026-08-02
 tags: [可视化, 渲染, 图片]
+status: 已填充
 ---
 
 # 渲染图片

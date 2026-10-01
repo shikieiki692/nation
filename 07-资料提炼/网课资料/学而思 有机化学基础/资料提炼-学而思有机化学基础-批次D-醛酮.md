@@ -15,6 +15,7 @@ topics: [第三轮专题5-加成反应, 第三轮专题6-羰基化学与缩合�
 problems_extracted: 15
 review_status: 待审核
 updated: 2026-06-04
+status: 已填充
 ---
 
 # 提炼-学而思有机化学基础-批次D-醛酮

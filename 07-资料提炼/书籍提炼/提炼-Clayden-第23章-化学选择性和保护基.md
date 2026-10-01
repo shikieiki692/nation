@@ -8,7 +8,7 @@ template_version: v1.3
 source_path: clayden 有机化学/Clayden中文版_402-600.md
 source_range: line 4448–5326
 chapter: "23"
-status: 已提炼
+status: 已填充
 target_kp: [化学选择性, 保护基]
 extracted_date: 2026-07-09
 tags: [化竞, 有机化学, 化学选择性, 保护基, TBDMS, THP, 苄基, Cbz, Boc, Fmoc, 肽合成, 还原, 氧化, Clayden]

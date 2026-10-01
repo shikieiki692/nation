@@ -26,6 +26,7 @@ handout_plan:
     priority: P1
     source_sections: ["第1章 绪论（电子效应、立体电子效应、共振论、反应机理表示法）"]
     estimated_pages: 6
+status: 已填充
 ---
 
 # 第1章 绪论：电子推动 + 电子效应 + 立体电子效应

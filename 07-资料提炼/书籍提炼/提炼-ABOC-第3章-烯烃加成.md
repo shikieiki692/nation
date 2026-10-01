@@ -50,6 +50,7 @@ handout_plan:
     source_sections: ["第3章 烯烃加成（鎓离子化学、硼氢化、臭氧化、卡宾、炔烃）"]
     estimated_pages: 8
 tags: [化竞, ABOC, 有机化学, 资料提炼, 烯烃, 鎓离子, 立体化学]
+status: 已填充
 ---
 
 # 提炼-ABOC-第3章-烯烃加成

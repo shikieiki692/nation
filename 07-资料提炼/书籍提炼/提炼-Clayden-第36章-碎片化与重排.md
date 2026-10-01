@@ -7,7 +7,7 @@ source_path: mineru/中文版clayden-chinese-34-36907-999.md
 source_range: line 3057–5140
 extracted_date: 2026-05-18
 template_version: v1.3
-status: 已提炼
+status: 已填充
 target_kp: [重排反应, Beckmann重排]
 handout_plan:
   - target: "有机化学基础"

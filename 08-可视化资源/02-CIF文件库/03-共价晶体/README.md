@@ -5,6 +5,7 @@ purpose: 共价网络晶体结构 CIF 数据
 created: 2026-08-01
 updated: 2026-08-01
 tags: [可视化, CIF, 共价晶体]
+status: draft
 ---
 
 # 共价晶体 CIF 文件库

@@ -9,7 +9,7 @@ source_range: line 1653–2585
 chapter: "12"
 template_version: v1.3
 extracted_date: 2026-07-09
-status: 已提炼
+status: 已填充
 target_kp: [有机反应机理, 反应动力学]
 tags: [化竞, 有机化学, 动力学, 热力学, 机理, Hammett, Clayden]
 handout_plan:

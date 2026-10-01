@@ -7,7 +7,7 @@ source_path: mineru/中文版clayden-chinese37-401000-1132.md
 source_range: line 1–1802
 extracted_date: 2026-05-19
 template_version: v1.3
-status: 已提炼
+status: 已填充
 target_kp: [自由基, 自由基取代]
 handout_plan:
   - target: "烷烃烯烃炔烃"

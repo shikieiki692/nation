@@ -5,6 +5,7 @@ purpose: 晶体结构 CIF 数据文件管理
 created: 2026-08-01
 updated: 2026-08-01
 tags: [可视化, CIF, 晶体结构, 数据]
+status: 已填充
 ---
 
 # CIF 文件库

@@ -5,6 +5,7 @@ purpose: 配位化合物晶体结构 CIF 数据
 created: 2026-08-01
 updated: 2026-08-01
 tags: [可视化, CIF, 配合物]
+status: 已填充
 ---
 
 # 配合物 CIF 文件库

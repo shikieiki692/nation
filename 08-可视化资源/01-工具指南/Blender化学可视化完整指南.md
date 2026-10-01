@@ -6,6 +6,7 @@ purpose: 从零基础到高级渲染的完整教程
 created: 2026-08-02
 updated: 2026-08-02
 tags: [可视化, Blender, Molecular Nodes, 完整指南, 化学]
+status: 已填充
 ---
 
 # Blender 化学可视化完整指南

@@ -5,6 +5,7 @@ purpose: 为化学教学可视化提供预设的 Blender 场景模板
 created: 2026-08-02
 updated: 2026-08-02
 tags: [可视化, Blender, 模板, 化学教学, 场景]
+status: draft
 ---
 
 # Blender 化学教学模板库

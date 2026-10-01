@@ -22,7 +22,7 @@ syllabus_codes:
   - 决赛14-超分子相互作用
   - 决赛15-主客体化学
   - 决赛13-超分子聚合物
-status: 已提炼
+status: 已填充
 handout_plan:
   - target: "配位化合物基础"
     status: pending

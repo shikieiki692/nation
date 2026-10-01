@@ -6,6 +6,7 @@ created: 2026-08-02
 updated: 2026-08-02
 tags: [VESTA, 操作手册, 晶体结构, 可视化, 教程]
 version: 1.0
+status: 已填充
 ---
 
 # VESTA完整操作手册

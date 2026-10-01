@@ -14,6 +14,7 @@ tags: [化竞, ABOC, 有机化学, MOC, 资料提炼]
 syllabus_codes: [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52]
 review_status: 进行中
 updated: 2026-05-10
+status: 已填充
 ---
 
 # ABOC（ARX's Basic Organic Chemistry）知识提炼

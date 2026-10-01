@@ -15,6 +15,7 @@ handout_plan:
     source_sections: ["第34章 周环反应1——环加成（Diels-Alder、[2+2]环加成、前线轨道理论、endo规则）"]
     estimated_pages: 8
 knowledge_points: [周环反应, 协同反应, 轨道对称性, Diels-Alder反应, 2+2环加成, 49-周环反应, Ene反应, 前线轨道理论, 臭氧解, OsO4双羟基化, 1,3-偶极环加成]
+status: 已填充
 ---
 
 # Clayden 第34章：周环反应1——环加成 资料提炼

@@ -7,7 +7,7 @@ chapter: 9
 chapter_title: 复习挑战：杂环合成
 syllabus_module: 基础要求-有机化学
 phase: B
-status: 已提炼
+status: 已填充
 target_kp: [杂环化合物, 杂环合成]
 updated: 2026-05-10
 handout_plan:

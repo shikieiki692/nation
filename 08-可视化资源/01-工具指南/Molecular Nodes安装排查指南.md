@@ -5,6 +5,7 @@ purpose: 解决 Molecular Nodes 安装和使用中的常见问题
 created: 2026-08-01
 updated: 2026-08-01
 tags: [可视化, Blender, Molecular Nodes, 安装, 故障排除]
+status: 已填充
 ---
 
 # Molecular Nodes 安装排查指南

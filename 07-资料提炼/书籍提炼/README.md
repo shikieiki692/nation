@@ -5,6 +5,7 @@ role: 子目录索引
 subject: 综合
 updated: 2026-07-10
 tags: [系统, 索引, 资料提炼, 书籍]
+status: 已填充
 ---
 
 # 书籍提炼

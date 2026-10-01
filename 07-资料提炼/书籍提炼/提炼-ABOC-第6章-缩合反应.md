@@ -7,7 +7,7 @@ chapter: 6
 chapter_title: 缩合反应
 syllabus_module: 基础要求-有机化学
 phase: B
-status: 已提炼
+status: 已填充
 target_kp: [Aldol缩合, Claisen缩合, 羟醛缩合]
 updated: 2026-05-10
 handout_plan:

@@ -9,7 +9,7 @@ source_range: line 3779–4325
 chapter: "5"
 template_version: v1.3
 extracted_date: 2026-07-09
-status: 已提炼
+status: 已填充
 target_kp: [有机反应机理, 亲核试剂, 亲电试剂]
 tags: [化竞, 有机化学, 反应机理, 亲核试剂, 亲电试剂, Clayden]
 handout_plan:

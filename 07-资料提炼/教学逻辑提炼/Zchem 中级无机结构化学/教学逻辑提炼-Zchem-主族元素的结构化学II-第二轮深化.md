@@ -8,7 +8,7 @@ related_topic: "[[专题-主族元素结构化学]]"
 related_kps: [氢键, 金属氢化物, 碱金属低氧化物, 硼酸盐, 金刚烷, 电荷转移配合物]
 target_kp: ["[[主族元素]]", "[[分子间作用力]]", "[[氢键]]"]
 applicable_rounds: [第二轮, 第三轮, 决赛]
-status: 草稿
+status: draft
 created: 2026-05-31
 updated: 2026-05-31
 tags: [教学逻辑, 资料提炼, 备课, 主族元素, 中级无机]

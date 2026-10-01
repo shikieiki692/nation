@@ -15,7 +15,7 @@ topics:
 total_notes: 4
 total_images: 约 180+
 note_format: OCR转写 + 板书截图
-status: 已索引
+status: 已填充
 related_teaching_logic:
   - "[[Zchem有机反应合成与机理-授课顺序总表]]"
   - "[[教学逻辑提炼-Zchem-周环反应与活性中间体-第三轮]]"

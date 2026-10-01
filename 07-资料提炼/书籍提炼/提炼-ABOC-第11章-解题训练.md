@@ -7,7 +7,7 @@ chapter: 11
 chapter_title: 解题训练 · ABOC FINAL TEST
 syllabus_module: 基础要求-有机化学
 phase: B
-status: 已提炼
+status: 已填充
 updated: 2026-05-10
 target_kp: ["[[有机合成]]", "[[Diels-Alder反应]]", "[[Aldol缩合]]", "[[自由基]]", "[[光氧化还原催化]]", "[[周环反应]]", "[[重排反应]]"]
 ---

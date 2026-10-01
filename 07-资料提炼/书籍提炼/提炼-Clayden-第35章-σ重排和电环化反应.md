@@ -22,6 +22,7 @@ handout_plan:
     source_sections: ["第35章 σ重排和电环化反应（[3,3]-σ迁移、Cope/Claisen、电环化、Nazarov环化）"]
     estimated_pages: 6
 knowledge_points: [电环化反应, σ迁移反应, 重排反应, Claisen重排, Cope重排, 49-周环反应, 基础要求-有机化学, Diels-Alder反应, 前线轨道理论, Fischer吲哚合成, Cr(VI)氧化, 维生素D]
+status: 已填充
 ---
 
 # 提炼：Clayden 第35章 — σ 重排和电环化反应

@@ -6,6 +6,7 @@ purpose: 量子化学计算从入门到进阶
 created: 2026-08-02
 updated: 2026-08-02
 tags: [可视化, Gaussian, 量子化学, 完整指南]
+status: 已填充
 ---
 
 # Gaussian 完整指南

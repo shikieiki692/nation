@@ -5,6 +5,7 @@ purpose: 分子晶体结构 CIF 数据
 created: 2026-08-01
 updated: 2026-08-08
 tags: [可视化, CIF, 分子晶体]
+status: 已填充
 ---
 
 # 分子晶体 CIF 文件库

@@ -9,7 +9,7 @@ source_range: line 4738–5361
 chapter: "7"
 template_version: v1.3
 extracted_date: 2026-07-09
-status: 已提炼
+status: 已填充
 target_kp: [共轭体系, 共轭二烯烃]
 tags: [化竞, 有机化学, 共轭, 离域, 1,4-加成, 芳香性, Clayden]
 handout_plan:
