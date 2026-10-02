@@ -282,10 +282,4 @@ WHERE contains(knowledge_points, "Swern氧化")
 SORT year DESC, difficulty ASC
 ```
 
-## 十二、🎯 教学视角
-
-## 十三、竞赛拓展
-
-## 十四、外部资料出处
-
 ## 十五、待完善项
