@@ -202,6 +202,13 @@
 
 ## ★ 已确认保留（owner 裁定，勿改回）
 
+0. 🆕 **`03-知识点` 基线（2026-10-02 实测）**：`validate_kb --quick` = **12212 文件 / Error 74 / Warn 3182 / Info 1132**；
+   **03-知识点 0 Error**（74 个错误里 **71 个是 `06-学生侧材料` 的 `.tmp.md`＝并行会话残留，⛔ 别动**）。
+   947 页 / 29 页 `status: deprecated`（均带 `superseded_by`）。
+   🔴 **废止字段两套并存**：`03-知识点` 用 `status:deprecated + superseded_by`（29 例）；`04-课件` 用 `stage:deprecated + replacement`（4 例）。
+   而 `validate_kb` 只在 `stage == "deprecated"` 时查 `replacement` ⇒ 现在 0 触发。**⛔ 勿给 29 页补 `stage:deprecated`（会立刻产生 29 条 warning）**。
+   🔴 **章节编号重复 127/939 页（13.5%）**：根因＝页尾/中段多了「修订记录」节（末节 31／中段 46／其他 50）。
+   ✅ **已排证 0 处脚本/模板依赖章节名** ⇒ 重编号可安全脚本化。
 1. `render_gate.py` 的 `DOC_SKIP_DOMAINS` 含 `mineru/`、`mineru02/`（保留 `--include-docs` 口子）。
 2. `学生讲义排版规范.md` **v2.0**（按全库 934 张实测：单 320／双 250／三 175；图注＝图块表格末行）。
 3. `04-课件/学生讲义` **维持平铺**（不清退 2-结构 10 变体、不建子目录）——工具链非递归 glob，只认顶层现役母版。

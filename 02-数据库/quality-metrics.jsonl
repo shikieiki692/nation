@@ -1481,3 +1481,4 @@
 {"date": "2026-09-30", "files_checked": 4, "errors": 0, "warnings": 4, "infos": 0, "broken_wikilinks": 0, "orphan_files": 0, "orphan_images": 0, "stale_files": 0}
 {"date": "2026-09-30", "files_checked": 0, "errors": 0, "warnings": 0, "infos": 0, "broken_wikilinks": 0, "orphan_files": 0, "orphan_images": 0, "stale_files": 0}
 {"date": "2026-09-30", "files_checked": 0, "errors": 0, "warnings": 0, "infos": 0, "broken_wikilinks": 0, "orphan_files": 0, "orphan_images": 0, "stale_files": 0}
+{"date": "2026-10-02", "files_checked": 12212, "errors": 74, "warnings": 3182, "infos": 1132, "broken_wikilinks": null, "orphan_files": null, "orphan_images": null, "stale_files": 0}
