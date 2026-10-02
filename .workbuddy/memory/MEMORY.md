@@ -40,12 +40,12 @@
 ## ★ 讲义/课件生产框架 v2.3（指针）
 
 - 📐 `11-模板/规范/竞赛驱动课件制作框架.md` **v2.3**（路线图 **7/9**；#4 大章升级／#6 P0 落点＝**待撰写**，已转出至 `交接提示词-2026-10-02-讲义课件撰写落地.md`）＋ `11-模板/模板/模板-专题课.md`（`7ba3c1fec`）。主轴＝库内既有「章后层」制度（`六大新课大章节总表.md` §十一），⛔ 不另起炉灶。
-- 🆕 **外挂索引**＝`10-索引与统计/04-考点题源索引.{md,json}`：**566 考点／5196 引用**（955 机构题＋648 真题）；⛔ 不入红区、可重复生成（技能 `qbank-anchor-manual-tagging` 的 `scripts/i1_/i2_`）。
+- 🆕 **外挂索引**＝`10-索引与统计/04-考点题源索引.{md,json}`（**566 考点／5196 引用**）；⛔ 不入红区、可重复生成（技能 `scripts/i1_/i2_`）。
 - 🔴 **判据**：① `exam_syllabus` **用完整路径不用短名**（`化学动力学` 有歧义）② 正文「考纲 §N」可映射条目页（N＝`syllabus_code`）③ 生成脚本**必须 `newline='\n'`** ④ 表格内**带路径 wikilink 的别名 `|` 须转义**。细节 **ARCHIVE §4.2**。
 
 ## ★ 题库线：机构模拟题补锚点
 
-- 🆕 **chemy试题 题源就绪**：`chemy试题/` 36 md 已 OCR/精修**只读待提炼**；与在用 183 张 CM 卡届次错开。⚠️ 图引 `<stem>._images/` 须迁 `chemy/images/`；**202 处表内 `<img src="images/…">` 全库无实体**（P0 占 41）。
+- 🆕 **chemy试题 题源就绪**：`chemy试题/` 36 md 已 OCR/精修**只读待提炼**；⚠️ 图引 `<stem>._images/` 须迁 `chemy/images/`；**202 处表内 `<img src="images/…">` 全库无实体**。
 - ✅ **机构题锚点：XeChem 204 ＋ 质心GChO 751 ＋ 化英社 41（结构级 b01~b05）⇒ 非空 996/3009**（可做池 184/395＝A0 87＋B-清 23＋B2-中 34＋B3-可 40；C-难 211 搁置）。✅ **题型页题链已打通**（109 份，`bec5a2a5a`）。
 - 🔴 **T4 精度标准（owner 定 2026-10-02）**：锚点须**结构级**（题面全文 ＋ **逐张读图**拼碎片 ＋ **答案对照**）；⛔ 题面级只作预标。⚠️ **化英社卡有「答案区串题」⇒ 对照前必先核对答案与题面是否对应**。规划＝`计划-2026-10-02-机构题锚点高精度（T4）.md`。
 - 🔴🔴 **真题侧基线**（旧记「仅 32%」已证伪）：744 卡 94% 有 KP、真题目卡 648 张 0 缺。**判据三连坑**：① 单索引≠可解析（只按文件名判 ⇒ 假阳性过半）② **块列表可零缩进** ③ **文件名优先于 alias**。详见 **ARCHIVE §4.4**。
@@ -89,11 +89,11 @@
 - ⛔ **永不 `git add -A`**；逐路径精确 add（含空格/中文**必加引号**）。`git status` 会折叠未跟踪目录 ⇒ 核体量必须 `-uall`；⚠️ porcelain 默认 octal 转义 ⇒ 过滤用 `-c core.quotepath=false`。
 - 🔴 **提交脚本给 600 s 超时**（`git commit` 跑 75 s render_gate 钩子＋18 MB 隔离索引 read-tree，前台 120 s 会被 SIGTERM）。
 - 🔴 **提交纪律三条**：① **不可并发跑两个提交脚本**（争抢暂存区；另一形态＝并行会话推进 HEAD ⇒ `cannot lock ref 'HEAD'`，**重 read-tree 重试即可**，内容不丢）② **提交脚本必须 Write 成 `.py`**（内联反引号被 shell 当命令替换；`git commit -F -` 走 stdin 亦可）③ **FM 校验须分块**（>200 路径报 `WinError 206`，`uf_fmchunk.py` 每 100 一批）。跑完核对 `git log -1` 与 `git status`。
-- 🔴🔴 **目录级 `git add` 必查暂存区**：曾误把并行会话正在写的 10 个 `化英社/题-HYS-*` 一起暂存。⇒ **add 后立即** `git -c core.quotepath=false diff --cached --name-only` 复核；⛔ 并行会话在写某目录时**不用目录级 add**，改逐文件列举。**本会话正解＝隔离索引**（`GIT_INDEX_FILE=.workbuddy/tmp/_iso_index` ＋ `read-tree HEAD`）提交，主索引不受扰。
+- 🔴🔴 **目录级 `git add` 必查暂存区**：曾误把并行会话正在写的 10 个 `化英社/题-HYS-*` 一起暂存。⇒ **add 后立即** `git -c core.quotepath=false diff --cached --name-only` 复核；⛔ 并行会话在写某目录时**不用目录级 add**，改逐文件列举。**本会话正解＝隔离索引**（`GIT_INDEX_FILE` ＋ `read-tree HEAD`）提交，主索引不受扰。⚠️ **提交后必 `git reset -q HEAD -- <本会话路径>`** —— 库内有自动暂存，会把**旧版（`[]`）**留在索引 ⇒ 状态呈 `MM`（暂存面其实是「**回滚**」我方改动），被他人提交即丢标注。
 - 🔴 **推送**：2026-10-02 21:2x **已全部推送**（远端==本地 `6c14bb5c4`）。⛔ 未推送数只信 `git ls-remote`。**受阻先读技能 `github-push-proxy-recovery`** —— 本机 `~/.gitconfig` 有**空 `helper = `**（清空 helper）⇒ 正解 `git -c credential.helper=manager push origin master`。
 - 🔴 **render_gate 拦未加工 OCR 源料**，full 也 FAIL 即**非误伤 ⇒ ⛔ 不得登记 allowlist**，正确处置＝不入库（`DOC_SKIP_DOMAINS` 含 `mineru/`、`mineru02/`）。
 - 🔴 读文件一律 `utf-8-sig`；批量替换后专扫叠词与 `。。`。
-- 🔴🔴 **行尾真相**：`.gitattributes` 定 `*.md eol=lf` ⇒ **别按「工作区检测到 CRLF」写回**（实测 3 文件变整文件 diff）；改完必须复核 `git diff --cached -U0` 新增行**只含目标改动**。明细见 **ARCHIVE §十**。
+- 🔴🔴 **行尾真相**：`.gitattributes` 定 `*.md eol=lf` ⇒ **别按「工作区 CRLF」写回**（曾致整文件 diff）；改完复核 `git diff --cached -U0` 新增行**只含目标改动**。明细 **ARCHIVE §十**。
 - 🔴 **FM 护栏**：脚本须跳过 FM 域＋「FM 字节级不变否则拒写」。**FM 块列表必须写 `- `**（裸 `[[…]]` ⇒ js-yaml4 THROW ⇒ 文件在 Obsidian 消失）。FM 边界用 `^---[ \t]*\n(.*?)\n---[ \t]*\n`（⛔ `index("---",…)` 撞正文分割线；`\s*` 吃掉 FM 后空行）；`jsyaml_verify.js` 在沙箱内 `spawnSync python EBUSY` ⇒ 直接用 py3.12 `ruamel`。
 - 🔴🔴 **FM 解析必抗 CRLF ＋ 抗行内数组**（本库 md 大量 CRLF，且列表字段「行内数组／块列表」并存 ⇒ 硬编码 `\n`、`^key:\s*$`、`^key:\s*(\S+)` 三种写法**静默失败**，曾误报「72 考纲页全缺 code」「41 真题卡全缺 KP」）。✅ 正解：先 `read_bytes().decode('utf-8-sig').replace('\r\n','\n')`，再 `^key:(.*)$` ＋ `[^\r\n]+`。工具 `.workbuddy/tmp/fmtool.py`。判覆盖仍按**值非空**。明细 **ARCHIVE §十一**。
 - 🔴 **docx 管线会把连续非空行并进同一 Word 段落**：`**小标题**：`／`1. …；`／表格块／图片块**前后必留空行**。precheck：表格内裸下标＝Error；度符号＝Warning。写法 `$\mathrm{p}K_{\mathrm{b}1}$`、`$E^\theta(…)$`。
