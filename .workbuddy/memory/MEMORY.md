@@ -91,7 +91,8 @@
 - 🔴 **提交纪律三条**：① **不可并发跑两个提交脚本**（争抢暂存区；另一形态＝并行会话推进 HEAD ⇒ `cannot lock ref 'HEAD'`，**重 read-tree 重试即可**，内容不丢）② **提交脚本必须 Write 成 `.py`**（内联反引号被 shell 当命令替换）③ **FM 校验须分块**（>200 路径报 `WinError 206`，`uf_fmchunk.py` 每 100 一批）。跑完核对 `git log -1` 与 `git status`。
 - 🔴 **推送**：2026-10-02 21:2x **已全部推送**（远端==本地 `6c14bb5c4`）。⛔ 未推送数只信 `git ls-remote`。**受阻先读技能 `github-push-proxy-recovery`** —— 本机 `~/.gitconfig` 有**空 `helper = `**（清空 helper）⇒ 正解 `git -c credential.helper=manager push origin master`。
 - 🔴 **render_gate 拦未加工 OCR 源料**，full 也 FAIL 即**非误伤 ⇒ ⛔ 不得登记 allowlist**，正确处置＝不入库（`DOC_SKIP_DOMAINS` 含 `mineru/`、`mineru02/`）。
-- 🔴 读文件一律 `utf-8-sig`；写盘前查行尾（CRLF 守恒）；批量替换后专扫叠词与 `。。`。
+- 🔴 读文件一律 `utf-8-sig`；批量替换后专扫叠词与 `。。`。
+- 🔴🔴 **行尾真相（2026-10-02 血泪，勿再犯）**：`.gitattributes` 定 `*.md eol=lf` ⇒ **git 存储与 diff 基准恒为 LF**。⛔ **不要按「工作区检测到 CRLF」写回**——2026-10-02 实测 3 个文件因此变成**整文件 diff（174 insertions）**。✅ 正确做法：批量改写前先 `git show HEAD:<path>` 取基准；或统一强制 LF；**并加断言「非目标行逐字节不变」**；改完必须复核 `git diff --cached -U0 | grep '^+' | grep -v '^+++'` 为**空**。误判已发生时 `git checkout -- <精确路径>` 回滚即可（内容不会丢）。
 - 🔴 **FM 护栏**：脚本须跳过 FM 域＋「FM 字节级不变否则拒写」。**FM 块列表必须写 `- `**（裸 `[[…]]` ⇒ js-yaml4 THROW ⇒ 文件在 Obsidian 消失）。FM 边界用 `^---[ \t]*\n(.*?)\n---[ \t]*\n`（⛔ `index("---",…)` 撞正文分割线；`\s*` 吃掉 FM 后空行）；`jsyaml_verify.js` 在沙箱内 `spawnSync python EBUSY` ⇒ 直接用 py3.12 `ruamel`。
 - 🔴 **docx 管线会把连续非空行并进同一 Word 段落**：`**小标题**：`／`1. …；`／表格块／图片块**前后必留空行**。precheck：表格内裸下标＝Error；度符号＝Warning。写法 `$\mathrm{p}K_{\mathrm{b}1}$`、`$E^\theta(…)$`。
 - 🔴 **判据（易忘）**：并段残余 A 类 28（全为 `**解 N**：$$`）／B 类 2048（~1507 在课后习题节之后，**刻意不动**）。
