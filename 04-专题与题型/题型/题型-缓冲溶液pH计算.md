@@ -12,6 +12,7 @@ source_extracts:
     asset_id: "普化原理Ch8"
     asset_type: "书籍提炼"
     asset_summary: "酸碱平衡教材主干，含缓冲溶液pH计算"
+knowledge_points: ["[[缓冲溶液]]", "[[酸碱平衡]]"]
 ---
 
 # 题型 · 缓冲溶液pH计算
@@ -101,3 +102,14 @@ $$V_2 = 500 - 177 = 323\ \text{mL}$$
 4. **稀释对 pH 影响的误解**：对于缓冲溶液，稀释时 $[\text{A}^-]/[\text{HA}]$ 比值不变，pH 基本不变。但缓冲容量会随稀释而降低。
 
 5. **多元酸缓冲体系 $\text{p}K_a$ 选择错误**：如磷酸盐缓冲液，应根据目标 pH 选择合适的 $\text{p}K_a$。$\text{p}K_{a1} = 2.12$，$\text{p}K_{a2} = 7.21$，$\text{p}K_{a3} = 12.32$，分别适用于不同 pH 范围。
+
+---
+
+## 相关题目
+
+```dataview
+TABLE file.name AS "文件名", year AS "年份", type AS "题型", difficulty AS "难度"
+FROM "04-题库"
+WHERE contains(knowledge_points, "缓冲溶液") OR contains(knowledge_points, "酸碱平衡")
+SORT year DESC, difficulty ASC
+```

@@ -33,6 +33,7 @@ status: 已填充
 stage: draft
 created: 2026-06-30
 updated: 2026-07-12
+knowledge_points: ["[[立体化学]]", "[[对映异构]]", "[[手性中心]]", "[[Fischer投影式]]", "[[SN2反应]]", "[[亲电加成]]"]
 ---
 
 # 题型 · R/S构型判断
@@ -189,3 +190,14 @@ R/S构型判断是有机化学竞赛中最基础的立体化学技能之一，�
 - [[SN2反应]] — 构型翻转的立体化学
 - [[亲电加成]] — syn/anti加成的立体化学
 - [[专题-立体化学与区域选择性]] — 立体化学综合专题
+
+---
+
+## 相关题目
+
+```dataview
+TABLE file.name AS "文件名", year AS "年份", type AS "题型", difficulty AS "难度"
+FROM "04-题库"
+WHERE contains(knowledge_points, "立体化学") OR contains(knowledge_points, "对映异构") OR contains(knowledge_points, "手性中心") OR contains(knowledge_points, "Fischer投影式") OR contains(knowledge_points, "SN2反应") OR contains(knowledge_points, "亲电加成")
+SORT year DESC, difficulty ASC
+```

@@ -23,6 +23,7 @@ source_extracts:
     asset_id: ""
     asset_type: ""
     asset_summary: ""
+knowledge_points: ["[[SN1反应]]", "[[SN2反应]]", "[[E1反应]]", "[[E2反应]]"]
 ---
 
 # 题型：SN1/SN2/E1/E2 竞争判断

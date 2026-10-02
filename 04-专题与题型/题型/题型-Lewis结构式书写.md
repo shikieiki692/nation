@@ -28,6 +28,7 @@ tags:
   - 结构化学
   - Lewis结构
   - 第一轮
+knowledge_points: ["[[Lewis结构式]]", "[[VSEPR理论]]"]
 ---
 
 # 题型 · Lewis结构式书写
@@ -202,3 +203,14 @@ $$
 1. 如果你刚练完骨架、孤对和形式电荷，下一步直接转 [[VSEPR理论]] 或讲义中的 VSEPR 小节。
 2. 如果你已经能稳定画结构，就把题目往后推进：判断 AXₙEₘ、构型、杂化和极性。
 3. 如果你在离子共振题上仍卡顿，优先重复做 `NO₃⁻ / CO₃²⁻ / SCN⁻ / N₂O` 这一组经典题。
+
+---
+
+## 相关题目
+
+```dataview
+TABLE file.name AS "文件名", year AS "年份", type AS "题型", difficulty AS "难度"
+FROM "04-题库"
+WHERE contains(knowledge_points, "Lewis结构式") OR contains(knowledge_points, "VSEPR理论")
+SORT year DESC, difficulty ASC
+```

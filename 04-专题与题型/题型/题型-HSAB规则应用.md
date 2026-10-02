@@ -24,6 +24,7 @@ status: 已填充
 stage: draft
 created: 2026-06-30
 updated: 2026-06-30
+knowledge_points: ["[[软硬酸碱理论]]", "[[Lewis酸碱理论]]", "[[配位化学]]", "[[溶度积]]"]
 ---
 
 # 题型 · HSAB规则应用
@@ -204,3 +205,14 @@ HSAB（Hard and Soft Acids and Bases）规则应用题的核心是预测配合�
 ---
 
 *本题型依据 [[模板-题型]] v1.0 生成，状态：已填充。*
+
+---
+
+## 相关题目
+
+```dataview
+TABLE file.name AS "文件名", year AS "年份", type AS "题型", difficulty AS "难度"
+FROM "04-题库"
+WHERE contains(knowledge_points, "软硬酸碱理论") OR contains(knowledge_points, "Lewis酸碱理论") OR contains(knowledge_points, "配位化学") OR contains(knowledge_points, "溶度积")
+SORT year DESC, difficulty ASC
+```

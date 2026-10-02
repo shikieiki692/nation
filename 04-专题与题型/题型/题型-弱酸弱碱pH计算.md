@@ -12,6 +12,7 @@ source_extracts:
     asset_id: "普化原理Ch8"
     asset_type: "书籍提炼"
     asset_summary: "酸碱平衡教材主干，含弱酸弱碱pH精确计算"
+knowledge_points: ["[[酸碱平衡]]", "[[pH]]"]
 ---
 
 # 题型 · 弱酸弱碱pH计算
@@ -88,3 +89,14 @@ $$[\mathrm{S}^{2-}] = \frac{K_{a1}K_{a2} \cdot [\mathrm{H_2S}]}{[\mathrm{H}^+]^2
 2. **多元酸分步近似条件不满足**：若$K_{a1}/K_{a2} < 10^5$，不能忽略二级电离对$[\mathrm{H}^+]$的贡献
 3. **两性物质公式误用**：$[\mathrm{H}^+] = \sqrt{K_{a1}K_{a2}}$仅在$c \gg K_{a1}$且$cK_{a2} \gg K_w$时成立，Na₂HPO₄等体系需更精确的公式
 4. **忘记验证5%原则**：算出$[\mathrm{H}^+]$后必须检查$\alpha < 5\%$，否则近似无效
+
+---
+
+## 相关题目
+
+```dataview
+TABLE file.name AS "文件名", year AS "年份", type AS "题型", difficulty AS "难度"
+FROM "04-题库"
+WHERE contains(knowledge_points, "酸碱平衡") OR contains(knowledge_points, "pH")
+SORT year DESC, difficulty ASC
+```
