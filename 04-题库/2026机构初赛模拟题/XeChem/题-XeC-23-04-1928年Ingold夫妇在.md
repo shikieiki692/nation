@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "XeChem 第40届初赛模拟试题（23）第 4 题"
 module: "2026机构初赛模拟题"
 source_subject: 化学原理
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [13, 7]
+knowledge_points:
+  - "[[二氧化硅结构]]"
+  - "[[硼化学]]"
+  - "[[催化剂]]"
+  - "[[化学动力学]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, XeChem]
 updated: 2026-09-26
 status: 已填充
