@@ -12,7 +12,7 @@ knowledge_points:
   - "[[亲电加成]]"
   - "[[鎓离子]]"
   - "[[邻基参与]]"
-  - "[[Prévost反应]]"
+  - "[[Prevost反应与Woodward反应]]"
   - "[[立体化学]]"
 concepts:
   - 水解机理

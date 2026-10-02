@@ -15,7 +15,7 @@ knowledge_points:
   - "[[碱催化]]"
   - "[[pKa]]"
   - "[[逆合成分析]]"
-  - "[[Knoevenagel]]"
+  - "[[Knoevenagel缩合]]"
   - "[[Michael加成]]"
   - "[[串联反应]]"
 concepts:
