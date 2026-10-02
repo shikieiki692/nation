@@ -22,6 +22,7 @@ source_grade: A
 source_tier: 2
 source_norm: "汇智-长沙冲刺综合2"
 source_file: "2026机构初赛模拟题/08-汇智/长沙冲刺综合2.md"
+mixed_content: true   # 正文含相邻题段落（拆卡越界），勿整卡组卷
 ---
 
 # 题-HZ-02-08-光延反应Mitsunobur

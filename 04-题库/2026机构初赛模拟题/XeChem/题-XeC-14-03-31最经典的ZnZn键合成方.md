@@ -22,6 +22,7 @@ source_grade: A
 source_tier: 2
 source_norm: "XeChem-Xechem模拟五"
 source_file: "2026机构初赛模拟题/03-XeChem/Xechem模拟五.md"
+mixed_content: true   # 正文含相邻题段落（拆卡越界），勿整卡组卷
 ---
 
 # 题-XeC-Xechem模拟五-03-31最经典的ZnZn键合成方

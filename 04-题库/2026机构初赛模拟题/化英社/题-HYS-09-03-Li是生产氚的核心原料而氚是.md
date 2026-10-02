@@ -22,6 +22,7 @@ source_grade: A
 source_tier: 2
 source_norm: "化英社-第40届化英社化学奥林匹克初赛夏季初赛模拟9"
 source_file: "2026机构初赛模拟题/07-化英社/第40届化英社化学奥林匹克初赛夏季初赛模拟9.md"
+mixed_content: true   # 正文含相邻题段落（拆卡越界），勿整卡组卷
 ---
 
 # 题-HYS-09-03-Li是生产氚的核心原料而氚是

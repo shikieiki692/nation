@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "XeChem-Xechem模拟7"
 source_file: "2026机构初赛模拟题/03-XeChem/Xechem模拟7.md"
+mixed_content: true   # 正文含相邻题段落（拆卡越界），勿整卡组卷
 ---
 
 # 题-XeC-07-07-第40届XeChem初装模拟

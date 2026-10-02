@@ -22,6 +22,7 @@ source_grade: A
 source_tier: 2
 source_norm: "XeChem-24"
 source_file: "2026机构初赛模拟题/03-XeChem/PDF合并_400-496.md"
+mixed_content: true   # 正文含相邻题段落（拆卡越界），勿整卡组卷
 ---
 
 # 题-XeC-24-02-1955年Wartik和Ap
