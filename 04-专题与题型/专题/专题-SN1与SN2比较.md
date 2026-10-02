@@ -1,5 +1,6 @@
 ---
 title: 专题-SN1与SN2比较
+knowledge_points: ["[[E1反应]]", "[[E2反应]]", "[[SN1反应]]", "[[SN2反应]]"]
 type: 专题
 subject: 有机化学
 syllabus_codes: [32, 36, 44]
