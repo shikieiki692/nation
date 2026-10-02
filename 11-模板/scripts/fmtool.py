@@ -53,6 +53,29 @@ def get_raw(fm, key, default=None):
     return m.group(1).strip()
 
 
+def split_inline_array(inner):
+    """切分行内数组，**尊重引号**：元素内可含逗号。
+
+    🔴 2026-10-02 实测踩坑：`["[[1,2-迁移与重排]]", "[[X]]"]`按逗号裸切
+       会把元素撕成 `[[1` 与 `2-迁移与重排]]` ⇒ 误报「KP 不存在」。
+       故须先按引号成对，再取每对内的内容。
+    """
+    out, buf, in_q = [], [], False
+    for ch in inner:
+        if ch == '"':
+            in_q = not in_q
+            continue
+        if ch == "," and not in_q:
+            if buf:
+                out.append("".join(buf).strip())
+            buf = []
+            continue
+        buf.append(ch)
+    if buf:
+        out.append("".join(buf).strip())
+    return [x for x in out if x]
+
+
 def get_list(fm, key):
     """取列表字段（同时吃行内数组与块列表），返回 list[str]；无则返回 []。"""
     v = get_raw(fm, key)
@@ -67,7 +90,7 @@ def get_list(fm, key):
         inner = v[1:-1].strip()
         if not inner:
             return []
-        return [x.strip().strip('"\'') for x in inner.split(',') if x.strip()]
+        return [x.strip().strip('"\'') for x in split_inline_array(inner) if x.strip()]
     return [v] if v else []
 
 

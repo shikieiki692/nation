@@ -1,5 +1,6 @@
 ---
 title: 酸碱平衡与pH计算
+knowledge_points: ["[[化学平衡]]", "[[溶度积]]", "[[物质的量与气体计算]]", "[[络合滴定]]"]
 type: 专题
 module: 化学原理
 status: deprecated
