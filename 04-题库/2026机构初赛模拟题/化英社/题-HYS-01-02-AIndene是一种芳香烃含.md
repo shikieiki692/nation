@@ -8,12 +8,8 @@ teaching_level: 竞赛
 source: "化英社 化英社寒假初赛模拟-1 第 2 题"
 module: "2026机构初赛模拟题"
 source_subject: 结构化学
-syllabus_codes: [41, 14, 24]
-knowledge_points:
-  - "[[芳香性]]"
-  - "[[磁矩]]"
-  - "[[分子对称性初步]]"
-  - "[[构造异构]]"
+syllabus_codes: []
+knowledge_points: []
 tags: [化竞, 题目, 初赛, 机构模拟题, 化英社]
 updated: 2026-09-26
 status: 已填充
