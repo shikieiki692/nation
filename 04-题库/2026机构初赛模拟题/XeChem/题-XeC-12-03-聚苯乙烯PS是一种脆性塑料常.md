@@ -8,8 +8,10 @@ teaching_level: 竞赛
 source: "XeChem 第40届初赛模拟试题（12）第 3 题"
 module: "2026机构初赛模拟题"
 source_subject: 有机化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [55]
+knowledge_points:
+  - "[[高分子化学]]"
+  - "[[构象分析]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, XeChem]
 updated: 2026-09-26
 status: 已填充
