@@ -8,8 +8,11 @@ teaching_level: 竞赛
 source: "化英社 化英社寒假初赛模拟-2 第 1 题"
 module: "2026机构初赛模拟题"
 source_subject: 元素与分析
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [13, 51]
+knowledge_points:
+  - "[[主族元素化学]]"
+  - "[[原子簇化学]]"
+  - "[[金属有机与羰基化学]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 化英社]
 updated: 2026-09-26
 status: 已填充

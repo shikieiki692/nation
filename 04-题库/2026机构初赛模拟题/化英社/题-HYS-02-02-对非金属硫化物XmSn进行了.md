@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "化英社 化英社寒假初赛模拟-2 第 2 题"
 module: "2026机构初赛模拟题"
 source_subject: 元素与分析
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [18, 13]
+knowledge_points:
+  - "[[碘量法]]"
+  - "[[滴定分析基本原理]]"
+  - "[[硫及其化合物]]"
+  - "[[化学式推断]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 化英社]
 updated: 2026-09-26
 status: 已填充
