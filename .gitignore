@@ -93,6 +93,22 @@ skills/
 !11-模板/scripts/handout_metrics.py
 # PDF 分诊与文字层抽取（2026-09-25 固化，用于教辅资源利用）
 !11-模板/scripts/pdf_triage.py
+# 讲义口径升级·正式工具（2026-10-02 全库体检补漏）
+# 起因：体检发现顶层 129 个 .py 中 13 个未入库，其中含 gen_handout_student.py
+#       ——「标准动作」第一步（学生版派生）的执行体。.gitignore 静默跳过、git 无感知。
+!11-模板/scripts/gen_handout_student.py
+!11-模板/scripts/emit_changed_handout_list.py
+!11-模板/scripts/generate_handout_readme.py
+!11-模板/scripts/check_comment_balance.py
+!11-模板/scripts/handout_code_span_to_math.py
+!11-模板/scripts/handout_fix_half_math.py
+!11-模板/scripts/handout_latex_outside_math.py
+!11-模板/scripts/handout_normalize_meta.py
+!11-模板/scripts/handout_stale_docx_report.py
+!11-模板/scripts/handout_sync_image_meta.py
+!11-模板/scripts/handout_teacher_meta_to_comment.py
+!11-模板/scripts/handout_unwrap_in_display.py
+!11-模板/scripts/handout_wrap_bare_latex.py
 !11-模板/scripts/pdf_textlayer_to_md.py
 # 图片排版器（2026-09-30 固化）：把 Markdown 里「同小问的多图组」并排成表格，
 # 避免一张图独占一行/一页。试卷线与讲义线通用（详见脚本 docstring 的列数/宽度实测）。
