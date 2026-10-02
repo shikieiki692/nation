@@ -8,8 +8,11 @@ teaching_level: 竞赛
 source: "质心GChO ZCHEM-GChO60 第 1 题"
 module: "2026机构初赛模拟题"
 source_subject: 结构化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [8, 13]
+knowledge_points:
+  - "[[元素化学]]"
+  - "[[氧化还原反应]]"
+  - "[[化学方程式]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 质心GChO]
 updated: 2026-09-26
 status: 已填充
