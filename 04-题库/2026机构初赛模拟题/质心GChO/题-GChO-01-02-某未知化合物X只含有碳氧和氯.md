@@ -11,7 +11,7 @@ source_subject: 化学原理
 syllabus_codes: [1, 2, 18]
 knowledge_points:
   - "[[化学式推断]]"
-  - "[[理想气体状态方程]]"
+  - "[[理想气体]]"
   - "[[酸碱滴定]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 质心GChO]
 updated: 2026-09-26

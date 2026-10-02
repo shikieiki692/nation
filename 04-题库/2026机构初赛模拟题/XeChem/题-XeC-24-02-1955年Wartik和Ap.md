@@ -10,7 +10,7 @@ module: "2026机构初赛模拟题"
 source_subject: 结构化学
 syllabus_codes: [13, 6, 15]
 knowledge_points:
-  - "[[硼化学]]"
+  - "[[硼]]"
   - "[[键能]]"
   - "[[晶胞]]"
   - "[[热力学计算]]"

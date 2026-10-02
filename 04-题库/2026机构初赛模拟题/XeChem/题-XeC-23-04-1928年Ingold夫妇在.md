@@ -11,7 +11,7 @@ source_subject: 化学原理
 syllabus_codes: [13, 7]
 knowledge_points:
   - "[[二氧化硅结构]]"
-  - "[[硼化学]]"
+  - "[[硼]]"
   - "[[催化剂]]"
   - "[[化学动力学]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, XeChem]
