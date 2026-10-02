@@ -88,7 +88,8 @@
 
 - ⛔ **永不 `git add -A`**；逐路径精确 add（含空格/中文**必加引号**）。`git status` 会折叠未跟踪目录 ⇒ 核体量必须 `-uall`；⚠️ porcelain 默认 octal 转义 ⇒ 过滤用 `-c core.quotepath=false`。
 - 🔴 **提交脚本给 600 s 超时**（`git commit` 跑 75 s render_gate 钩子＋18 MB 隔离索引 read-tree，前台 120 s 会被 SIGTERM）。
-- 🔴 **提交纪律三条**：① **不可并发跑两个提交脚本**（争抢暂存区；另一形态＝并行会话推进 HEAD ⇒ `cannot lock ref 'HEAD'`，**重 read-tree 重试即可**，内容不丢）② **提交脚本必须 Write 成 `.py`**（内联反引号被 shell 当命令替换）③ **FM 校验须分块**（>200 路径报 `WinError 206`，`uf_fmchunk.py` 每 100 一批）。跑完核对 `git log -1` 与 `git status`。
+- 🔴 **提交纪律三条**：① **不可并发跑两个提交脚本**（争抢暂存区；另一形态＝并行会话推进 HEAD ⇒ `cannot lock ref 'HEAD'`，**重 read-tree 重试即可**，内容不丢）② **提交脚本必须 Write 成 `.py`**（内联反引号被 shell 当命令替换；`git commit -F -` 走 stdin 亦可）③ **FM 校验须分块**（>200 路径报 `WinError 206`，`uf_fmchunk.py` 每 100 一批）。跑完核对 `git log -1` 与 `git status`。
+- 🔴🔴 **目录级 `git add` 必查暂存区**（2026-10-02 22:40 实测险情）：`git add -- "04-专题与题型/专题/"` **误把并行会话正在写的 10 个 `04-题库/化英社/题-HYS-*` 一起暂存**（它当时正在提交 b04）。⇒ **每次 add 后立即** `git -c core.quotepath=false diff --cached --name-only | grep -c '<他线目录>'` 复核，非 0 则逐个 `git reset -q HEAD --<path>` 移出。⛔ **并行会话在写某目录时，不要用目录级 add**，改逐文件列举。
 - 🔴 **推送**：2026-10-02 21:2x **已全部推送**（远端==本地 `6c14bb5c4`）。⛔ 未推送数只信 `git ls-remote`。**受阻先读技能 `github-push-proxy-recovery`** —— 本机 `~/.gitconfig` 有**空 `helper = `**（清空 helper）⇒ 正解 `git -c credential.helper=manager push origin master`。
 - 🔴 **render_gate 拦未加工 OCR 源料**，full 也 FAIL 即**非误伤 ⇒ ⛔ 不得登记 allowlist**，正确处置＝不入库（`DOC_SKIP_DOMAINS` 含 `mineru/`、`mineru02/`）。
 - 🔴 读文件一律 `utf-8-sig`；批量替换后专扫叠词与 `。。`。
