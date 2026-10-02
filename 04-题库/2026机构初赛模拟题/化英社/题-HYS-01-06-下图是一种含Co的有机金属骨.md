@@ -8,8 +8,13 @@ teaching_level: 竞赛
 source: "化英社 第40届决赛模拟1 第 6 题"
 module: "2026机构初赛模拟题"
 source_subject: 结构化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [15, 16, 12]
+knowledge_points:
+  - "[[晶体结构]]"
+  - "[[点阵类型]]"
+  - "[[对称元素]]"
+  - "[[配位化学]]"
+  - "[[化学式推断]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 化英社]
 updated: 2026-09-26
 status: 已填充
