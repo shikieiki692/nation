@@ -301,7 +301,7 @@ A. CH₃COOH  B. CH₃OH  C. PhNH₂  D. HN₃
 
 ---
 
-## 十四、修订记录
+## 修订记录
 
 - **v1.1（2026-05-10）**：首次创建。基于 ABOC §4.2 Mitsunobu 框架。涵盖四步机理、P=O 驱动力、亲核试剂 pKa 限制、立体化学翻转、与 SN2/Appel 对比。Phase C Ch.4 核心 KP。
 

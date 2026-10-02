@@ -228,7 +228,7 @@ $$
 
 ---
 
-## 十三、修订记录
+## 修订记录
 
 - **v1.1（2026-05-10）**：首次创建完整 v1.1 模板。基于 ABOC §9.5 Bischler-Napieralski 反应框架。涵盖 POCl₃ 活化机理、SEAr 关环、脱水剂选择、与 Pictet-Spengler 的比较。Phase C Ch.9 重点 KP。
 

@@ -335,7 +335,7 @@ $$
 
 ---
 
-## 十四、修订记录
+## 修订记录
 
 - **v1.1（2026-05-10）**：首次创建完整 v1.1 模板。基于 ABOC §8.4 Suzuki 偶联框架。涵盖 Pd(0)/Pd(II) 催化循环、碱活化机理、配体选择（PPh₃/SPhos/XPhos）、底物范围、与 Negishi/Stille/Heck 的比较。Phase C Ch.8 核心 KP。
 
