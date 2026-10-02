@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "XeChem 第40届初赛模拟试题（25）第 7 题"
 module: "2026机构初赛模拟题"
 source_subject: 元素与分析
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [32, 34, 13]
+knowledge_points:
+  - "[[含硫化合物]]"
+  - "[[自由基]]"
+  - "[[中间体]]"
+  - "[[反应机理]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, XeChem]
 updated: 2026-09-26
 status: 已填充

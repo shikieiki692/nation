@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "XeChem 第40届初赛模拟试题（24）第 2 题"
 module: "2026机构初赛模拟题"
 source_subject: 结构化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [13, 6, 15]
+knowledge_points:
+  - "[[硼化学]]"
+  - "[[键能]]"
+  - "[[晶胞]]"
+  - "[[热力学计算]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, XeChem]
 updated: 2026-09-26
 status: 已填充
