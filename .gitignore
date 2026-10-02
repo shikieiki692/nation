@@ -109,6 +109,11 @@ skills/
 !11-模板/scripts/handout_teacher_meta_to_comment.py
 !11-模板/scripts/handout_unwrap_in_display.py
 !11-模板/scripts/handout_wrap_bare_latex.py
+# FM 稳健解析工具（2026-10-02 第三轮体检产出）
+# 起因：本库 md 大量 CRLF ＋ 行内数组/块列表并存，导致手写正则**静默失败**，
+#       一度误报「72 个考纲页全缺 code」「41 张真题卡全缺 KP」「专题层全缺 KP」。
+#       判覆盖前一律用本工具，勿再手写 `^key:\s*$`（漏行内数组）或 `\S+`（吃行尾 \r）。
+!11-模板/scripts/fmtool.py
 !11-模板/scripts/pdf_textlayer_to_md.py
 # 图片排版器（2026-09-30 固化）：把 Markdown 里「同小问的多图组」并排成表格，
 # 避免一张图独占一行/一页。试卷线与讲义线通用（详见脚本 docstring 的列数/宽度实测）。
