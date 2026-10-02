@@ -8,8 +8,11 @@ teaching_level: 竞赛
 source: "XeChem 第40届初赛模拟试题（20）第 6 题"
 module: "2026机构初赛模拟题"
 source_subject: 化学原理
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [7, 5]
+knowledge_points:
+  - "[[化学平衡]]"
+  - "[[酸碱平衡]]"
+  - "[[氧化还原反应]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, XeChem]
 updated: 2026-09-26
 status: 已填充
