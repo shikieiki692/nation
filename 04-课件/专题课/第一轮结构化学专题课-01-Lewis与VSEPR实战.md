@@ -4,8 +4,22 @@ type: 课件
 lesson_type: 题目驱动专题课
 audience_level: 基础班（第一轮）
 duration: 45min
+role: "专题课"
+scope:
+  - "Lewis 结构五步法与形式电荷"
+  - "VSEPR 构型预测"
+  - "Bent 规则"
+  - "三中心四电子键（3c-4e）"
+  - "gauche 效应（邻位交叉效应）"
+source_lectures:
+  - "[[04-课件/学生讲义/2-结构化学/分子结构基础-超级充实版（自学完整）]]"
+related_kps:
+  - "[[03-知识点/化学原理/Lewis结构式]]"
+  - "[[03-知识点/化学原理/VSEPR理论]]"
+  - "[[03-知识点/化学原理/杂化轨道理论]]"
+  - "[[03-知识点/化学原理/键角]]"
 tags: [结构化学, 专题课, Lewis结构, VSEPR, Bent规则]
-updated: 2026-07-20
+updated: 2026-10-02
 status: 已填充
 exam_syllabus:
   - "[[02-考纲条目/基础要求/化学原理/09-原子结构]]"
@@ -14,6 +28,7 @@ exam_syllabus:
 exam_evidence: "[[备课思路/近五年真题命题拆解分析]]"
 exam_trend: "Lewis 结构由「画结构」转形式电荷与杂化联合判断｜VSEPR 让位于 Bent 规则与构象推理｜gauche 效应入题（36–39 届）"
 exam_weight: "分子结构与成键每年稳定入题；39 届第 8 题（Bent 规则＋构象）为集中载体，37 届第 5 题 5-2、36 届第二场第 2／10 题同源"
+problem_count: 5
 real_exam_count: 5
 ---
 
