@@ -708,19 +708,19 @@ $$
 
 （5）在温度 $d$ 时，能否用 $\mathrm{H}_{2}$ 还原 $\mathrm{SiCl}_4$ 制备 Si？温度低于 $b$ 时，又怎么样？
 
-**9.** 对于范特霍夫等温式 $\Delta_r G_m = \Delta_r G_m^{\circ} + RT \ln Q$，判断以下说法是否正确：
+**9.** 对于范特霍夫等温式 $\Delta_r G_m = \Delta_r G_m^{\theta} + RT \ln Q$，判断以下说法是否正确：
 
-① "$\Delta_r G_m^{\circ} = 0$ 则体系平衡"
+① "$\Delta_r G_m^{\theta} = 0$ 则体系平衡"
 ② "$\Delta_r G_m = 0$ 则体系平衡"
 
 **10.** 估算常压下单质溴的沸点。已知液态溴与气态溴的相变反应 $Br_2(l) \rightleftharpoons Br_2(g)$ 的热力学参数为：
 
 $$
-\Delta_r H_m^\circ = 30.9 \, \text{kJ} \cdot \text{mol}^{-1}
+\Delta_r H_m^\theta = 30.9 \, \text{kJ} \cdot \text{mol}^{-1}
 $$
 
 $$
-\Delta_r S_m^\circ = 93.3 \, \text{J} \cdot \text{mol}^{-1} \cdot \text{K}^{-1}
+\Delta_r S_m^\theta = 93.3 \, \text{J} \cdot \text{mol}^{-1} \cdot \text{K}^{-1}
 $$
 
 **11.** 已知方程式①有 $K_1^\circ = x$，方程式②有 $K_2^\circ = y$。
@@ -885,16 +885,16 @@ $$
 
 (5) 置换反应 $\mathrm{H}_{2} + \frac{1}{2}\mathrm{SiCl}_{4} \rightleftharpoons \frac{1}{2}\mathrm{Si} + 2\mathrm{HCl}$ 为反应④-②。温度 $d$ 时，反应④的 $\Delta_{\mathrm{r}}G^{\ominus}$ 小于反应②的，置换反应的 $\Delta_{\mathrm{r}}G^{\ominus}$ 为负值，反应可自发进行， $\mathrm{H}_{2}$ 能还原 $\mathrm{SiCl}_{4}$ 制备 Si；温度低于 $b$ 时，情况相反，置换反应的 $\Delta_{\mathrm{r}}G^{\ominus}$ 为正值，标准状态下 $\mathrm{H}_{2}$ 不能还原 $\mathrm{SiCl}_{4}$ 。
 
-**解 9**：① 错误。$\Delta_r G_m^{\circ} = 0$ 并不意味着体系处于平衡状态。$\Delta_r G_m^{\circ}$ 是标准状态下的吉布斯自由能变化，与平衡常数的关系为 $\Delta_r G_m^{\circ} = -RT \ln K^{\circ}$。$\Delta_r G_m^{\circ} = 0$ 只意味着 $K^{\circ} = 1$，不代表平衡。
+**解 9**：① 错误。$\Delta_r G_m^{\theta} = 0$ 并不意味着体系处于平衡状态。$\Delta_r G_m^{\theta}$ 是标准状态下的吉布斯自由能变化，与平衡常数的关系为 $\Delta_r G_m^{\theta} = -RT \ln K^{\theta}$。$\Delta_r G_m^{\theta} = 0$ 只意味着 $K^{\theta} = 1$，不代表平衡。
 
-② 正确。$\Delta_r G_m = 0$ 是体系达到平衡的准确判据。此时反应商 $Q = K^{\circ}$，正逆反应速率相等。
+② 正确。$\Delta_r G_m = 0$ 是体系达到平衡的准确判据。此时反应商 $Q = K^{\theta}$，正逆反应速率相等。
 
-**解 10**：在沸点时，液态溴与气态溴达到平衡，$\Delta_r G_m^\circ = 0$。
+**解 10**：在沸点时，液态溴与气态溴达到平衡，$\Delta_r G_m^\theta = 0$。
 
-根据公式 $\Delta_r G_m^\circ = \Delta_r H_m^\circ - T \Delta_r S_m^\circ = 0$，解得：
+根据公式 $\Delta_r G_m^\theta = \Delta_r H_m^\theta - T \Delta_r S_m^\theta = 0$，解得：
 
 $$
-T = \frac{\Delta_r H_m^\circ}{\Delta_r S_m^\circ} = \frac{30.9 \times 10^3}{93.3} \approx 331 \, \text{K}
+T = \frac{\Delta_r H_m^\theta}{\Delta_r S_m^\theta} = \frac{30.9 \times 10^3}{93.3} \approx 331 \, \text{K}
 $$
 
 **解 11**：基本规则：当反应式叠加时，平衡常数遵循以下规则：
@@ -917,4 +917,4 @@ $$
 K_3^\circ = \frac{(K_1^\circ)^{1/3}}{(K_2^\circ)^2} = \frac{x^{1/3}}{y^2} = \frac{\sqrt[3]{x}}{y^2}
 $$
 
-推导依据：来源于热力学公式 $\Delta G^\circ = -RT\ln K^\circ$ 的推导。
+推导依据：来源于热力学公式 $\Delta G^\theta = -RT\ln K^\theta$ 的推导。

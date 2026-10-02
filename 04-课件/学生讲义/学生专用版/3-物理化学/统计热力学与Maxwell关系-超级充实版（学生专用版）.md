@@ -646,9 +646,9 @@ $$
 
 <br><br><br>
 
-**9.** 对于范特霍夫等温式 $\Delta_r G_m = \Delta_r G_m^{\circ} + RT \ln Q$，判断以下说法是否正确：
+**9.** 对于范特霍夫等温式 $\Delta_r G_m = \Delta_r G_m^{\theta} + RT \ln Q$，判断以下说法是否正确：
 
-① "$\Delta_r G_m^{\circ} = 0$ 则体系平衡"
+① "$\Delta_r G_m^{\theta} = 0$ 则体系平衡"
 ② "$\Delta_r G_m = 0$ 则体系平衡"
 
 
@@ -657,11 +657,11 @@ $$
 **10.** 估算常压下单质溴的沸点。已知液态溴与气态溴的相变反应 $Br_2(l) \rightleftharpoons Br_2(g)$ 的热力学参数为：
 
 $$
-\Delta_r H_m^\circ = 30.9 \, \text{kJ} \cdot \text{mol}^{-1}
+\Delta_r H_m^\theta = 30.9 \, \text{kJ} \cdot \text{mol}^{-1}
 $$
 
 $$
-\Delta_r S_m^\circ = 93.3 \, \text{J} \cdot \text{mol}^{-1} \cdot \text{K}^{-1}
+\Delta_r S_m^\theta = 93.3 \, \text{J} \cdot \text{mol}^{-1} \cdot \text{K}^{-1}
 $$
 
 
