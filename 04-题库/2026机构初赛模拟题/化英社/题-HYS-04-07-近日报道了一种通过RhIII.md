@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "化英社 第40届化英社化学奥林匹克（初赛）春季联考4 第 7 题"
 module: "2026机构初赛模拟题"
 source_subject: 有机化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [51, 50]
+knowledge_points:
+  - "[[金属有机与羰基化学]]"
+  - "[[过渡金属催化]]"
+  - "[[18电子规则]]"
+  - "[[有机合成]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 化英社]
 updated: 2026-09-26
 status: 已填充
