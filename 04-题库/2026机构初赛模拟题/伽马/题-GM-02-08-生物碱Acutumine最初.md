@@ -8,8 +8,11 @@ teaching_level: 竞赛
 source: "伽马 伽马化学2026年暑期模拟2 第 8 题"
 module: "2026机构初赛模拟题"
 source_subject: 化学原理
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [32, 51]
+knowledge_points:
+  - "[[反应机理]]"
+  - "[[Grignard试剂]]"
+  - "[[芳香亲电取代反应]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 伽马]
 updated: 2026-09-26
 status: 已填充

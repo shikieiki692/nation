@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "化英社 第40届化英社化学奥林匹克（初赛）夏季模拟11 第 7 题"
 module: "2026机构初赛模拟题"
 source_subject: 化学原理
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [55, 22, 11]
+knowledge_points:
+  - "[[能带理论]]"
+  - "[[高分子化学]]"
+  - "[[氢键]]"
+  - "[[自由基]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 化英社]
 updated: 2026-09-26
 status: 已填充
