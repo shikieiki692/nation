@@ -1,0 +1,57 @@
+---
+title: "题-CM-75-06-1891年MREngel令浓"
+aliases: ["题-CM-75-06"]
+type: 题目
+fidelity: 原书逐字
+difficulty: 4
+teaching_level: 竞赛
+source: "chemy 第34届chemy模拟2 第 6 题"
+module: "2026机构初赛模拟题"
+source_subject: 结构化学
+syllabus_codes: []
+knowledge_points: []
+tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
+updated: 2026-10-04
+status: 已填充
+exam_stage: 初赛
+subject_module: 结构化学
+pack: 综合模拟卷
+submodule: chemy
+source_category: 竞赛导向·竞赛教辅
+source_grade: A
+source_tier: 2
+source_norm: "chemy-第34届chemy模拟2"
+source_file: "chemy试题/第34届Chemy化学奥林匹克题目合集..md"
+---
+
+# 题-CM-75-06-1891年MREngel令浓
+
+## 题目
+
+### 第 6 题（9 分）
+
+1891 年，M. R. Engel 令浓盐酸与硫代硫酸盐的饱和溶液在 $0^{\circ}C$ 下作用，析出的产物为硫单质的同素异形体 $\varepsilon-S$ 。然而，直到 1961 年，人们才通过 X-射线衍射的方法确定了 $\varepsilon-S$ 的结构。 $\varepsilon-S$ 为 R 心六方晶体，其六方晶胞的晶胞参数为 $a=b=1082\ pm,\quad c=428\ pm,\quad \alpha=\beta=90^{\circ},\quad \gamma=120^{\circ}$ ，密度 $D=2.21\ g/cm^{3}$ 。晶胞的原点是该晶体的一个对称中心，过该对称中心存在平行于 c 轴的 $C_{3}$ 轴，晶胞中一个硫原子的坐标为：(0.9572, 0.1454, 0.8945)。
+
+6-1 通过计算确定 $\varepsilon-S$ 的六方晶胞中硫原子的数目。
+
+6-2 $\varepsilon$ -S 为分子晶体，写出 $\varepsilon$ -S 六方晶胞中所含分子的数目，并画图示出一个分子的结构。
+6-3 写出与坐标为(0.9572, 0.1454, 0.8945)的硫原子相成键的所有硫原子的坐标。
+
+6-4 组成该晶体的分子是否具有镜面？若有，指出个数。
+
+6-5 该晶体是否具有镜面？若有，指出其位置。
+
+## 参考答案
+
+## 第6题（9分）
+
+$$
+\varepsilon \mathrm{-} S
+$$
+
+<table><tr><td>6-1  $Z(S) = DN_{A}V/M(S) \approx 18$ (2分)</td></tr><tr><td>6-2 ε-S为分子晶体,写出ε-S六方晶胞中所含分子的数目,并画图示出一个分子的结构。</td></tr><tr><td>6-2 3个(1分) $S-S-S-S$ (1分)</td></tr><tr><td>6-3 写出与坐标为(0.9572,0.1454,0.8945)的硫原子相成键的所有硫原子的坐标。</td></tr><tr><td>6-3 (0.1454,0.1882,0.1055)(1分)和(0.8118,0.9572,0.1055)(1分)</td></tr><tr><td>6-4 组成该晶体的分子是否具有镜面?若有,指出个数。</td></tr><tr><td>6-4 有(1分);3个镜面(1分)。</td></tr><tr><td>6-5 该晶体是否具有镜面?若有,指出其位置。</td></tr><tr><td>6-5 无(1分)。</td></tr></table>
+置。6-5 无（1 分）。第7 题（9 分）7-1 理论研究表明，S8 在光照条件下可异构化为含七元环的S8 分子。画出含七元环的S8 分子
+
+## 知识点映射
+
+- （待人工校准）
