@@ -8,8 +8,11 @@ teaching_level: 竞赛
 source: "方圆 卷一 第 5 题"
 module: "2026机构初赛模拟题"
 source_subject: 结构化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [15, 16, 12]
+knowledge_points:
+  - "[[晶体结构]]"
+  - "[[立方密堆积]]"
+  - "[[配合物几何构型]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 方圆]
 updated: 2026-09-26
 status: 已填充

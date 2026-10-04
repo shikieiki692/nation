@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "壹尖培优 第40届中国化学奥林匹克（初赛）模拟3 第 6 题"
 module: "2026机构初赛模拟题"
 source_subject: 化学原理
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [48, 57, 45, 27]
+knowledge_points:
+  - "[[膦化学]]"
+  - "[[化学动力学]]"
+  - "[[亲核加成]]"
+  - "[[R-S构型]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 壹尖培优]
 updated: 2026-09-26
 status: 已填充

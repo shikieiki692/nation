@@ -8,8 +8,11 @@ teaching_level: 竞赛
 source: "方圆 卷一-1 第 4 题"
 module: "2026机构初赛模拟题"
 source_subject: 化学原理
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [22, 30, 28]
+knowledge_points:
+  - "[[分子轨道理论]]"
+  - "[[有机波谱分析]]"
+  - "[[共轭效应]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 方圆]
 updated: 2026-09-26
 status: 已填充
