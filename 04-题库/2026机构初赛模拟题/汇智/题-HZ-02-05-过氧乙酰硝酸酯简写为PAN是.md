@@ -8,8 +8,11 @@ teaching_level: 竞赛
 source: "汇智 长沙冲刺综合2 第 5 题"
 module: "2026机构初赛模拟题"
 source_subject: 化学原理
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [57, 40]
+knowledge_points:
+  - "[[化学动力学]]"
+  - "[[自由基]]"
+  - "[[反应机理与近似]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 汇智]
 updated: 2026-09-26
 status: 已填充
