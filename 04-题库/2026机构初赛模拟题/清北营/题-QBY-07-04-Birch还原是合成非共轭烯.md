@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "清北营 2026年清北营暑假高二班-7-有机专题 第 4 题"
 module: "2026机构初赛模拟题"
 source_subject: 化学原理
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [52, 40, 32]
+knowledge_points:
+  - "[[Birch还原]]"
+  - "[[呋喃]]"
+  - "[[有机还原反应]]"
+  - "[[立体选择性]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 清北营]
 updated: 2026-09-26
 status: 已填充

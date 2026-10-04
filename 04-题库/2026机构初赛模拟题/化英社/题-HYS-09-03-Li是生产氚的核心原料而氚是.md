@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "化英社 第40届化英社化学奥林匹克初赛夏季初赛模拟9 第 3 题"
 module: "2026机构初赛模拟题"
 source_subject: 结构化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [11, 12, 56]
+knowledge_points:
+  - "[[冠醚]]"
+  - "[[同位素效应]]"
+  - "[[氢键]]"
+  - "[[Boltzmann统计初步]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 化英社]
 updated: 2026-09-26
 status: 已填充
