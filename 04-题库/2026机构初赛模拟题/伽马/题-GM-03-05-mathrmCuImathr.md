@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "伽马 五一伽马杭州3 第 5 题"
 module: "2026机构初赛模拟题"
 source_subject: 结构化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [12, 57, 8]
+knowledge_points:
+  - "[[稳定常数]]"
+  - "[[配合物]]"
+  - "[[速率方程]]"
+  - "[[氧化还原反应]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 伽马]
 updated: 2026-09-26
 status: 已填充

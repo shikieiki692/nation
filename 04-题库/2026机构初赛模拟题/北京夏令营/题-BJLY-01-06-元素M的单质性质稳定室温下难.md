@@ -8,8 +8,11 @@ teaching_level: 竞赛
 source: "北京夏令营 北京夏令营-无机巩固练习一1785409334 第 6 题"
 module: "2026机构初赛模拟题"
 source_subject: 元素与分析
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [13]
+knowledge_points:
+  - "[[元素推断]]"
+  - "[[元素化学]]"
+  - "[[过渡元素]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 北京夏令营]
 updated: 2026-09-26
 status: 已填充

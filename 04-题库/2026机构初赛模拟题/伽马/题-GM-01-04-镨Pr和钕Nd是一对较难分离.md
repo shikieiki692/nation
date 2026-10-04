@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "伽马 伽马化学2026年暑期模拟1 第 4 题"
 module: "2026机构初赛模拟题"
 source_subject: 元素与分析
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [20, 12, 13]
+knowledge_points:
+  - "[[分光光度法]]"
+  - "[[稳定常数]]"
+  - "[[稀土元素]]"
+  - "[[混合价态]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 伽马]
 updated: 2026-09-26
 status: 已填充
