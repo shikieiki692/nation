@@ -8,8 +8,13 @@ teaching_level: 竞赛
 source: "2ChO 第6届2ChO化学奥林匹克联考 第 2 题"
 module: "2026机构初赛模拟题"
 source_subject: 化学原理
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [56, 8, 30, 27]
+knowledge_points:
+  - "[[主客体化学]]"
+  - "[[超分子作用力]]"
+  - "[[Nernst方程]]"
+  - "[[¹H NMR]]"
+  - "[[手性面]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 2ChO]
 updated: 2026-09-26
 status: 已填充

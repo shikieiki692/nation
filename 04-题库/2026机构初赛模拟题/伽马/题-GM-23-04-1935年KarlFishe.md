@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "伽马 伽马化学2026年五一模拟6-讲稿 第 4 题"
 module: "2026机构初赛模拟题"
 source_subject: 化学原理
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [18, 8, 1]
+knowledge_points:
+  - "[[碘量法]]"
+  - "[[氧化还原滴定]]"
+  - "[[有效数字]]"
+  - "[[双组分相图]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 伽马]
 updated: 2026-09-26
 status: 已填充
