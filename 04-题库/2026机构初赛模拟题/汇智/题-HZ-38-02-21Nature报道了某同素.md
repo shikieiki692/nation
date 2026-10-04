@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "汇智 长沙冲刺结构 第 2 题"
 module: "2026机构初赛模拟题"
 source_subject: 结构化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [10, 11, 12, 14]
+knowledge_points:
+  - "[[化学键]]"
+  - "[[氢键]]"
+  - "[[配合物]]"
+  - "[[分子对称性初步]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 汇智]
 updated: 2026-09-26
 status: 已填充
