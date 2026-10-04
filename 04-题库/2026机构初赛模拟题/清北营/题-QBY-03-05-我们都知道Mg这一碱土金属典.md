@@ -8,8 +8,11 @@ teaching_level: 竞赛
 source: "清北营 2026年清北营暑假高二班-3 第 5 题"
 module: "2026机构初赛模拟题"
 source_subject: 结构化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [6, 13, 51]
+knowledge_points:
+  - "[[Born-Haber循环]]"
+  - "[[金属-金属键]]"
+  - "[[金属有机化学基础]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 清北营]
 updated: 2026-09-26
 status: 已填充

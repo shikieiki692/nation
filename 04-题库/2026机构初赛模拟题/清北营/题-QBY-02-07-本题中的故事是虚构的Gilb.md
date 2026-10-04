@@ -8,8 +8,11 @@ teaching_level: 竞赛
 source: "清北营 清北营2026年物化专题班2 第 7 题"
 module: "2026机构初赛模拟题"
 source_subject: 化学原理
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [6, 57]
+knowledge_points:
+  - "[[热力学第二定律]]"
+  - "[[化学热力学]]"
+  - "[[扩散动力学]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 清北营]
 updated: 2026-09-26
 status: 已填充
