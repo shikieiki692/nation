@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "chemy 第34届chemy模拟2 第 5 题"
 module: "2026机构初赛模拟题"
 source_subject: 化学原理
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [7, 13, 5]
+knowledge_points:
+  - "[[多金属氧酸盐]]"
+  - "[[分布分数]]"
+  - "[[Le Châtelier原理]]"
+  - "[[钼]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
 updated: 2026-10-04
 status: 已填充

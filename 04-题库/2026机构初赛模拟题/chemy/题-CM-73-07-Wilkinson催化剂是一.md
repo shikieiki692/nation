@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "chemy 第33届chemy无机化学专题2 第 7 题"
 module: "2026机构初赛模拟题"
 source_subject: 有机化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [51, 24, 12]
+knowledge_points:
+  - "[[催化循环入门]]"
+  - "[[氧化加成与还原消除]]"
+  - "[[配合物异构]]"
+  - "[[对映异构]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
 updated: 2026-10-04
 status: 已填充

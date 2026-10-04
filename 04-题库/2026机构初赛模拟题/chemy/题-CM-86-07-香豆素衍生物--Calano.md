@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "chemy 第34届chemy有机化学专题 第 7 题"
 module: "2026机构初赛模拟题"
 source_subject: 有机化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [41, 50, 51]
+knowledge_points:
+  - "[[芳香亲电取代反应]]"
+  - "[[保护基策略]]"
+  - "[[区域选择性]]"
+  - "[[有机锌试剂]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
 updated: 2026-10-04
 status: 已填充
