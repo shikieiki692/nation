@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "chemy 第38届 初赛10 第 8 题"
 module: "2026机构初赛模拟题"
 source_subject: 有机化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [43, 27]
+knowledge_points:
+  - "[[环氧化反应]]"
+  - "[[区域选择性]]"
+  - "[[立体选择性]]"
+  - "[[R-S构型]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
 updated: 2026-10-04
 status: 已填充

@@ -8,8 +8,11 @@ teaching_level: 竞赛
 source: "chemy 第32届chemy初赛有机专题 第 10 题"
 module: "2026机构初赛模拟题"
 source_subject: 有机化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [52, 27]
+knowledge_points:
+  - "[[Skraup合成]]"
+  - "[[杂环合成]]"
+  - "[[手性中心]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
 updated: 2026-10-04
 status: 已填充

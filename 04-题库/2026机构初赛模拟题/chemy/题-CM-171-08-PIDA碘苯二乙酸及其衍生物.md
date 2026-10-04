@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "chemy 第38届 初赛22 第 8 题"
 module: "2026机构初赛模拟题"
 source_subject: 有机化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [40, 41, 32]
+knowledge_points:
+  - "[[高价碘试剂]]"
+  - "[[氧化反应]]"
+  - "[[自由基]]"
+  - "[[芳香亲电取代反应]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
 updated: 2026-10-04
 status: 已填充
