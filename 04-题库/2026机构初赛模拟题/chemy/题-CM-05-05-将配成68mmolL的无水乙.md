@@ -8,8 +8,13 @@ teaching_level: 竞赛
 source: "chemy 第三十九届Chemy化学奥林匹克竞赛联赛5 第 5 题"
 module: "2026机构初赛模拟题"
 source_subject: 结构化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [15, 14, 30]
+knowledge_points:
+  - "[[热重分析]]"
+  - "[[晶体结构]]"
+  - "[[晶胞投影图分析]]"
+  - "[[红外光谱]]"
+  - "[[点群初步]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
 updated: 2026-09-26
 status: 已填充
