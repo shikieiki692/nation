@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "汇智 汇智起航五一初赛模拟2 第 3 题"
 module: "2026机构初赛模拟题"
 source_subject: 结构化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [15, 16, 14]
+knowledge_points:
+  - "[[晶体结构]]"
+  - "[[分数坐标]]"
+  - "[[晶体对称性]]"
+  - "[[晶胞]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 汇智]
 updated: 2026-09-26
 status: 已填充
