@@ -8,8 +8,11 @@ teaching_level: 竞赛
 source: "质心UChO 1stZCHEM-UChO 第 1 题"
 module: "2026机构初赛模拟题"
 source_subject: 元素与分析
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [10, 13]
+knowledge_points:
+  - "[[VSEPR理论]]"
+  - "[[含硫化合物]]"
+  - "[[等电子体]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 质心UChO]
 updated: 2026-09-26
 status: 已填充

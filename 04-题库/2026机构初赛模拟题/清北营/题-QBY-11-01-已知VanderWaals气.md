@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "清北营 春季模拟11 第 1 题"
 module: "2026机构初赛模拟题"
 source_subject: 化学原理
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [6]
+knowledge_points:
+  - "[[van der Waals方程]]"
+  - "[[内能]]"
+  - "[[Maxwell关系]]"
+  - "[[热容与摩尔热容]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 清北营]
 updated: 2026-09-26
 status: 已填充

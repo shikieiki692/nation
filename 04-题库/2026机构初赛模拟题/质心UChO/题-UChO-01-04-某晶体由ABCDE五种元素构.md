@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "质心UChO 5thZCHEM-UChO-Tour1 第 4 题"
 module: "2026机构初赛模拟题"
 source_subject: 结构化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [13, 15, 16]
+knowledge_points:
+  - "[[元素推断]]"
+  - "[[密堆积]]"
+  - "[[等电子体]]"
+  - "[[晶体密度公式]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 质心UChO]
 updated: 2026-09-26
 status: 已填充

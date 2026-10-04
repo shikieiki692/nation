@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "质心UChO 2ndZCHEM-UChO 第 4 题"
 module: "2026机构初赛模拟题"
 source_subject: 化学原理
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [57, 32, 51]
+knowledge_points:
+  - "[[金属有机化学基础]]"
+  - "[[化学动力学]]"
+  - "[[反应机理与近似]]"
+  - "[[键能]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 质心UChO]
 updated: 2026-09-26
 status: 已填充

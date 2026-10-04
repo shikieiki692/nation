@@ -8,8 +8,13 @@ teaching_level: 竞赛
 source: "质心UChO 10thZCHEM-UChO 第 1 题"
 module: "2026机构初赛模拟题"
 source_subject: 结构化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [13, 17, 14]
+knowledge_points:
+  - "[[稀土元素]]"
+  - "[[CaF2型结构]]"
+  - "[[对称元素]]"
+  - "[[核反应]]"
+  - "[[Langmuir吸附等温式]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 质心UChO]
 updated: 2026-09-26
 status: 已填充
