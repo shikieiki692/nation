@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "chemy 第36届 决赛16 第 1 题"
 module: "2026机构初赛模拟题"
 source_subject: 结构化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [12, 6, 11]
+knowledge_points:
+  - "[[NO配体与亚硝酰配合物]]"
+  - "[[18电子规则]]"
+  - "[[Clapeyron方程]]"
+  - "[[氢键]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
 updated: 2026-10-04
 status: 已填充

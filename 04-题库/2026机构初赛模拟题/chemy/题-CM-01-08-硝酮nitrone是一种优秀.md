@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "chemy chemy-初赛模拟1 第 8 题"
 module: "2026机构初赛模拟题"
 source_subject: 有机化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [49, 52, 34]
+knowledge_points:
+  - "[[1,3-偶极环加成]]"
+  - "[[周环反应]]"
+  - "[[电环化反应]]"
+  - "[[杂环合成]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
 updated: 2026-09-28
 status: 已填充

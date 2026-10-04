@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "chemy 第40届chemy初赛有机模拟22 第 1 题"
 module: "2026机构初赛模拟题"
 source_subject: 结构化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [15, 16, 10]
+knowledge_points:
+  - "[[晶体结构]]"
+  - "[[晶体密度公式]]"
+  - "[[能带理论]]"
+  - "[[分光光度法]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
 updated: 2026-09-26
 status: 已填充
