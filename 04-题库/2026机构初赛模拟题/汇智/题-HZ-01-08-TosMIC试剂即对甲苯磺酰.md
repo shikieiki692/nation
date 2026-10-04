@@ -8,8 +8,11 @@ teaching_level: 竞赛
 source: "汇智 汇智起航五一初赛模拟1 第 8 题"
 module: "2026机构初赛模拟题"
 source_subject: 有机化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [52, 49, 50]
+knowledge_points:
+  - "[[TosMIC]]"
+  - "[[杂环合成]]"
+  - "[[1,3-偶极环加成]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 汇智]
 updated: 2026-09-26
 status: 已填充

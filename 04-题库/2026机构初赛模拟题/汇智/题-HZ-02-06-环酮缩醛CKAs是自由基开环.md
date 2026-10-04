@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "汇智 汇智起航五一初赛模拟2 第 6 题"
 module: "2026机构初赛模拟题"
 source_subject: 有机化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [55, 53, 27]
+knowledge_points:
+  - "[[高分子化学]]"
+  - "[[加聚反应]]"
+  - "[[自由基]]"
+  - "[[糖类]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 汇智]
 updated: 2026-09-26
 status: 已填充

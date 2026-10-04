@@ -8,8 +8,11 @@ teaching_level: 竞赛
 source: "清北营 2026年清北营暑假高二班-3 第 10 题"
 module: "2026机构初赛模拟题"
 source_subject: 有机化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [49, 34]
+knowledge_points:
+  - "[[Nazarov环化]]"
+  - "[[电环化反应]]"
+  - "[[碳正离子]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 清北营]
 updated: 2026-09-26
 status: 已填充

@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "清北营 2026年清北营寒假班-5 第 2 题"
 module: "2026机构初赛模拟题"
 source_subject: 化学原理
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [6, 2]
+knowledge_points:
+  - "[[卡诺循环]]"
+  - "[[理想气体]]"
+  - "[[热容与摩尔热容]]"
+  - "[[绝热可逆过程]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 清北营]
 updated: 2026-09-26
 status: 已填充
