@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "质心UChO 7thZCHEM-UChO-Tour1 第 8 题"
 module: "2026机构初赛模拟题"
 source_subject: 化学原理
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [49, 50]
+knowledge_points:
+  - "[[Diels-Alder反应]]"
+  - "[[周环反应]]"
+  - "[[全合成]]"
+  - "[[不对称合成]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 质心UChO]
 updated: 2026-09-26
 status: 已填充

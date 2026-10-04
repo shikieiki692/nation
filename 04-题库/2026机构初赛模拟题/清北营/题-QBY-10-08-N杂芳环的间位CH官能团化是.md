@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "清北营 2026年清北营暑假高二班-10 第 8 题"
 module: "2026机构初赛模拟题"
 source_subject: 元素与分析
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [41, 49, 51]
+knowledge_points:
+  - "[[C-H活化]]"
+  - "[[芳香亲电取代反应]]"
+  - "[[σ迁移反应]]"
+  - "[[偶联反应]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 清北营]
 updated: 2026-09-26
 status: 已填充

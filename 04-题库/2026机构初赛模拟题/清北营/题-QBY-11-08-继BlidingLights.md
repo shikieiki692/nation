@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "清北营 春季模拟11 第 8 题"
 module: "2026机构初赛模拟题"
 source_subject: 有机化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [27, 49, 50]
+knowledge_points:
+  - "[[全合成]]"
+  - "[[R-S构型]]"
+  - "[[周环反应]]"
+  - "[[自由基]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 清北营]
 updated: 2026-09-26
 status: 已填充
