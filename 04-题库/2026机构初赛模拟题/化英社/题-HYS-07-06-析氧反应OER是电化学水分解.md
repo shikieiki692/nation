@@ -8,8 +8,13 @@ teaching_level: 竞赛
 source: "化英社 初赛模拟7已优化 第 6 题"
 module: "2026机构初赛模拟题"
 source_subject: 化学原理
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [8, 57]
+knowledge_points:
+  - "[[电化学]]"
+  - "[[Nernst方程]]"
+  - "[[Marcus理论]]"
+  - "[[速率控制步骤]]"
+  - "[[稳态近似]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 化英社]
 updated: 2026-09-26
 status: 已填充

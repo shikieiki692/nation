@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "化英社 初赛模拟7已优化 第 2 题"
 module: "2026机构初赛模拟题"
 source_subject: 化学原理
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [55, 57]
+knowledge_points:
+  - "[[高分子化学]]"
+  - "[[加聚反应]]"
+  - "[[反应级数]]"
+  - "[[速率方程]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 化英社]
 updated: 2026-09-26
 status: 已填充

@@ -8,8 +8,11 @@ teaching_level: 竞赛
 source: "清北营 2026年清北营寒假班-5 第 1 题"
 module: "2026机构初赛模拟题"
 source_subject: 化学原理
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [8, 6, 7]
+knowledge_points:
+  - "[[Latimer图]]"
+  - "[[标准电极电势]]"
+  - "[[钒]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 清北营]
 updated: 2026-09-26
 status: 已填充

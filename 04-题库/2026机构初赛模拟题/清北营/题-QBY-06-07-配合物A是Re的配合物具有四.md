@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "清北营 2026年清北营暑假高二班-6 第 7 题"
 module: "2026机构初赛模拟题"
 source_subject: 元素与分析
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [12, 51, 13]
+knowledge_points:
+  - "[[18电子规则]]"
+  - "[[配合物]]"
+  - "[[环戊二烯配合物]]"
+  - "[[稀土元素]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 清北营]
 updated: 2026-09-26
 status: 已填充

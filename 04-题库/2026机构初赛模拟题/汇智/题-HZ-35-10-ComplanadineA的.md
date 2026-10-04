@@ -8,8 +8,11 @@ teaching_level: 竞赛
 source: "汇智 汇智起航2026年(五一期间)有机化学初赛模拟卷1(4) 第 10 题"
 module: "2026机构初赛模拟题"
 source_subject: 化学原理
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [50, 32, 45]
+knowledge_points:
+  - "[[有机合成]]"
+  - "[[反应机理]]"
+  - "[[亲核加成]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 汇智]
 updated: 2026-09-26
 status: 已填充
