@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "汇智 长沙化学刷初赛模拟12 第 5 题"
 module: "2026机构初赛模拟题"
 source_subject: 化学原理
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [8, 12]
+knowledge_points:
+  - "[[电化学基础]]"
+  - "[[标准电极电势]]"
+  - "[[Nernst方程]]"
+  - "[[配位平衡]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 汇智]
 updated: 2026-09-26
 status: 已填充
