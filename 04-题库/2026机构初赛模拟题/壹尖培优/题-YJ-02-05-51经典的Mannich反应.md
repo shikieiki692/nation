@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "壹尖培优 模拟测2 第 5 题"
 module: "2026机构初赛模拟题"
 source_subject: 有机化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [46, 45, 50]
+knowledge_points:
+  - "[[Mannich反应]]"
+  - "[[Aldol缩合]]"
+  - "[[立体选择性]]"
+  - "[[不对称合成]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 壹尖培优]
 updated: 2026-09-26
 status: 已填充

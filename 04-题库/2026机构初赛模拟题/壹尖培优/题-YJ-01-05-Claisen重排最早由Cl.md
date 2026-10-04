@@ -8,8 +8,11 @@ teaching_level: 竞赛
 source: "壹尖培优 模拟测1 第 5 题"
 module: "2026机构初赛模拟题"
 source_subject: 有机化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [49, 39]
+knowledge_points:
+  - "[[Claisen重排]]"
+  - "[[σ迁移反应]]"
+  - "[[周环反应]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 壹尖培优]
 updated: 2026-09-26
 status: 已填充

@@ -8,8 +8,11 @@ teaching_level: 竞赛
 source: "化英社 化英社-夏季无机专题1 第 2 题"
 module: "2026机构初赛模拟题"
 source_subject: 化学原理
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [13, 16]
+knowledge_points:
+  - "[[锡]]"
+  - "[[晶体结构]]"
+  - "[[水解反应]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 化英社]
 updated: 2026-09-28
 status: 已填充

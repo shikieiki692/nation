@@ -8,8 +8,11 @@ teaching_level: 竞赛
 source: "方圆 有机化学讲解2 第 7 题"
 module: "2026机构初赛模拟题"
 source_subject: 化学原理
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [52, 50, 27]
+knowledge_points:
+  - "[[药物化学]]"
+  - "[[杂环化合物]]"
+  - "[[手性中心]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 方圆]
 updated: 2026-09-26
 status: 已填充
