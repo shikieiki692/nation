@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "chemy chemy-初赛模拟2 第 1 题"
 module: "2026机构初赛模拟题"
 source_subject: 化学原理
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [8, 13]
+knowledge_points:
+  - "[[化学电源]]"
+  - "[[Nernst方程]]"
+  - "[[标准电极电势]]"
+  - "[[卤素互化物]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
 updated: 2026-09-28
 status: 已填充

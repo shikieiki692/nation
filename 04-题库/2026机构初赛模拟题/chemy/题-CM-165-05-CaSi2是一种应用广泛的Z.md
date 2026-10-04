@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "chemy 第38届 初赛15 第 5 题"
 module: "2026机构初赛模拟题"
 source_subject: 结构化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [15, 16, 6]
+knowledge_points:
+  - "[[分数坐标]]"
+  - "[[点阵类型]]"
+  - "[[晶体结构]]"
+  - "[[化学热力学]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
 updated: 2026-10-04
 status: 已填充

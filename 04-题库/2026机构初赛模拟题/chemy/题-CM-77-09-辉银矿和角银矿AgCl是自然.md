@@ -8,8 +8,11 @@ teaching_level: 竞赛
 source: "chemy 第34届chemy模拟4 第 9 题"
 module: "2026机构初赛模拟题"
 source_subject: 元素与分析
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [7, 8]
+knowledge_points:
+  - "[[溶度积]]"
+  - "[[分布分数]]"
+  - "[[Nernst方程]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
 updated: 2026-10-04
 status: 已填充

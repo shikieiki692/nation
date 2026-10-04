@@ -8,8 +8,11 @@ teaching_level: 竞赛
 source: "chemy 第40届chemy初赛模拟17 第 4 题"
 module: "2026机构初赛模拟题"
 source_subject: 化学原理
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [18, 5]
+knowledge_points:
+  - "[[酸碱滴定]]"
+  - "[[缓冲溶液]]"
+  - "[[化学式推断]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
 updated: 2026-09-26
 status: 已填充

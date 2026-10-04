@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "chemy 第38届 决赛6 第 5 题"
 module: "2026机构初赛模拟题"
 source_subject: 元素与分析
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [13, 14, 10]
+knowledge_points:
+  - "[[硼族元素]]"
+  - "[[点群初步]]"
+  - "[[卤素]]"
+  - "[[电负性]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
 updated: 2026-10-04
 status: 已填充

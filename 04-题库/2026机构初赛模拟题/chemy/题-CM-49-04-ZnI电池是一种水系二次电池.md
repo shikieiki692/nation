@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "chemy 第37届chemy决赛第二场 第 4 题"
 module: "2026机构初赛模拟题"
 source_subject: 化学原理
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [8]
+knowledge_points:
+  - "[[化学电源]]"
+  - "[[标准电极电势]]"
+  - "[[溶度积]]"
+  - "[[能量密度]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
 updated: 2026-10-03
 status: 已填充

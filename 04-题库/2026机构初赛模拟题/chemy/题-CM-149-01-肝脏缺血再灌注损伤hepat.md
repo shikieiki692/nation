@@ -8,8 +8,11 @@ teaching_level: 竞赛
 source: "chemy 第37届 决赛25 第 1 题"
 module: "2026机构初赛模拟题"
 source_subject: 元素与分析
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [13]
+knowledge_points:
+  - "[[超氧化物与臭氧化物]]"
+  - "[[分子识别]]"
+  - "[[生物无机化学]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
 updated: 2026-10-04
 status: 已填充

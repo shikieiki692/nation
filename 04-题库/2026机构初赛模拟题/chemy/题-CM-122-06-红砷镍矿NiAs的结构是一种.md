@@ -8,8 +8,11 @@ teaching_level: 竞赛
 source: "chemy 第36届 决赛16 第 6 题"
 module: "2026机构初赛模拟题"
 source_subject: 结构化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [17, 16, 14]
+knowledge_points:
+  - "[[NiAs型结构]]"
+  - "[[分数坐标]]"
+  - "[[点群初步]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
 updated: 2026-10-04
 status: 已填充

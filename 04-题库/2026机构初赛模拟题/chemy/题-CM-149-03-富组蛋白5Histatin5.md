@@ -8,8 +8,13 @@ teaching_level: 竞赛
 source: "chemy 第37届 决赛25 第 3 题"
 module: "2026机构初赛模拟题"
 source_subject: 结构化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [6, 7, 15, 17]
+knowledge_points:
+  - "[[量热法]]"
+  - "[[平衡常数]]"
+  - "[[Gibbs自由能]]"
+  - "[[CsCl型结构]]"
+  - "[[晶胞]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
 updated: 2026-10-04
 status: 已填充
