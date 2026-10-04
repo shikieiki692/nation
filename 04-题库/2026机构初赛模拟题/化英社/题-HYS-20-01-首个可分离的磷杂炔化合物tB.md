@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "化英社 化英社-夏季结构专题 第 1 题"
 module: "2026机构初赛模拟题"
 source_subject: 元素与分析
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [13, 12]
+knowledge_points:
+  - "[[磷化学]]"
+  - "[[配合物]]"
+  - "[[18电子规则]]"
+  - "[[原子簇化学]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 化英社]
 updated: 2026-09-28
 status: 已填充

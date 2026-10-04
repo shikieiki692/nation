@@ -8,8 +8,11 @@ teaching_level: 竞赛
 source: "方圆 有机化学讲解1 第 9 题"
 module: "2026机构初赛模拟题"
 source_subject: 有机化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [51, 32, 39]
+knowledge_points:
+  - "[[Grignard试剂]]"
+  - "[[反应机理]]"
+  - "[[Favorskii重排]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 方圆]
 updated: 2026-09-26
 status: 已填充

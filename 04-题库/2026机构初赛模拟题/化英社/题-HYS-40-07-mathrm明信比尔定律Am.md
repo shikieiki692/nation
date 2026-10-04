@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "化英社 第40届化英社化学奥林匹克（初赛）模拟13（高清版） 第 7 题"
 module: "2026机构初赛模拟题"
 source_subject: 化学原理
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [20, 56]
+knowledge_points:
+  - "[[分光光度法]]"
+  - "[[Lambert-Beer定律]]"
+  - "[[稳定常数]]"
+  - "[[主客体化学]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 化英社]
 updated: 2026-09-26
 status: 已填充

@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "壹尖培优 第40届中国化学奥林匹克（初赛）模拟5 第 7 题"
 module: "2026机构初赛模拟题"
 source_subject: 有机化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [27, 49, 50]
+knowledge_points:
+  - "[[立体化学]]"
+  - "[[周环反应]]"
+  - "[[全合成]]"
+  - "[[氢键]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 壹尖培优]
 updated: 2026-09-26
 status: 已填充

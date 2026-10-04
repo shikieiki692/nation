@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "方圆 无机专题二 第 6 题"
 module: "2026机构初赛模拟题"
 source_subject: 结构化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [15, 16, 56]
+knowledge_points:
+  - "[[晶胞]]"
+  - "[[点阵类型]]"
+  - "[[晶体结构]]"
+  - "[[分子自组装]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 方圆]
 updated: 2026-09-26
 status: 已填充

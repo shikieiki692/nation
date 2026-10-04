@@ -8,8 +8,11 @@ teaching_level: 竞赛
 source: "汇智 汇智-有机专题卷2 第 6 题"
 module: "2026机构初赛模拟题"
 source_subject: 结构化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [40, 49]
+knowledge_points:
+  - "[[Dess-Martin氧化]]"
+  - "[[高价碘试剂]]"
+  - "[[周环反应]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 汇智]
 updated: 2026-09-28
 status: 已填充

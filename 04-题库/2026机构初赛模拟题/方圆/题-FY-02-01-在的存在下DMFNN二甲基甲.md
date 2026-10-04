@@ -8,8 +8,11 @@ teaching_level: 竞赛
 source: "方圆 有机2.10日晚上习题课 第 1 题"
 module: "2026机构初赛模拟题"
 source_subject: 有机化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [41, 32]
+knowledge_points:
+  - "[[芳香亲电取代反应]]"
+  - "[[反应机理]]"
+  - "[[亚胺]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 方圆]
 updated: 2026-09-26
 status: 已填充
