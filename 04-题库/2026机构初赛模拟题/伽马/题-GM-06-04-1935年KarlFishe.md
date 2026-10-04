@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "伽马 五一伽马杭州6 第 4 题"
 module: "2026机构初赛模拟题"
 source_subject: 化学原理
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [1, 18, 19]
+knowledge_points:
+  - "[[容量分析计算]]"
+  - "[[有效数字]]"
+  - "[[误差]]"
+  - "[[指示剂]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 伽马]
 updated: 2026-09-26
 status: 已填充

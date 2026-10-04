@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "伽马 五一伽马杭州1 第 5 题"
 module: "2026机构初赛模拟题"
 source_subject: 结构化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [12, 10, 11]
+knowledge_points:
+  - "[[配合物]]"
+  - "[[VSEPR理论]]"
+  - "[[配合物几何构型]]"
+  - "[[氢键]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 伽马]
 updated: 2026-09-26
 status: 已填充

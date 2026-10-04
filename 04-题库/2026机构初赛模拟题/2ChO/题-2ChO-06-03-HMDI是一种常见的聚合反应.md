@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "2ChO 第6届2ChO化学奥林匹克联考 第 3 题"
 module: "2026机构初赛模拟题"
 source_subject: 有机化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [55, 56]
+knowledge_points:
+  - "[[高分子化学]]"
+  - "[[主客体化学]]"
+  - "[[氢键]]"
+  - "[[加聚反应]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 2ChO]
 updated: 2026-09-26
 status: 已填充

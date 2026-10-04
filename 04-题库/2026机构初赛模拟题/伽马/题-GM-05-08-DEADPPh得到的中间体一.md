@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "伽马 五一伽马杭州5 第 8 题"
 module: "2026机构初赛模拟题"
 source_subject: 有机化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [48, 32, 52]
+knowledge_points:
+  - "[[膦化学]]"
+  - "[[反应机理]]"
+  - "[[中间体]]"
+  - "[[杂环化合物]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 伽马]
 updated: 2026-09-26
 status: 已填充

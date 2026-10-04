@@ -8,8 +8,13 @@ teaching_level: 竞赛
 source: "伽马 伽马化学2026年暑期模拟2 第 6 题"
 module: "2026机构初赛模拟题"
 source_subject: 化学原理
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [12, 51]
+knowledge_points:
+  - "[[晶体场理论]]"
+  - "[[高自旋与低自旋]]"
+  - "[[磁矩]]"
+  - "[[过渡金属羰基化合物]]"
+  - "[[多核簇]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 伽马]
 updated: 2026-09-26
 status: 已填充

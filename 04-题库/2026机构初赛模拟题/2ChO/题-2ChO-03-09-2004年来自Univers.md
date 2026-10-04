@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "2ChO 第3届2ChO化学奥林匹克联考 第 9 题"
 module: "2026机构初赛模拟题"
 source_subject: 有机化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [32, 39, 30]
+knowledge_points:
+  - "[[反应机理]]"
+  - "[[重排反应]]"
+  - "[[高价碘试剂]]"
+  - "[[¹H NMR]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 2ChO]
 updated: 2026-09-26
 status: 已填充

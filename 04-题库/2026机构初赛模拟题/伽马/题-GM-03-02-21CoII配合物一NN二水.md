@@ -8,8 +8,11 @@ teaching_level: 竞赛
 source: "伽马 伽马化学2026年暑期模拟3 第 2 题"
 module: "2026机构初赛模拟题"
 source_subject: 有机化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [12, 2]
+knowledge_points:
+  - "[[配合物]]"
+  - "[[生物无机化学]]"
+  - "[[理想气体]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 伽马]
 updated: 2026-09-26
 status: 已填充
