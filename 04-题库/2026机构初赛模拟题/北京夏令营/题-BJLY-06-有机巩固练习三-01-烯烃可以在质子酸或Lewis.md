@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "北京夏令营 北京夏令营-有机巩固练习三 第 1 题"
 module: "2026机构初赛模拟题"
 source_subject: 有机化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [43, 32]
+knowledge_points:
+  - "[[亲电加成]]"
+  - "[[卤代内酯化反应]]"
+  - "[[反应机理]]"
+  - "[[非对映选择性]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 北京夏令营]
 updated: 2026-09-26
 status: 已填充

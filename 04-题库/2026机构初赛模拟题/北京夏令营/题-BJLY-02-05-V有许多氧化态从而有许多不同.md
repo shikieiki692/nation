@@ -8,8 +8,13 @@ teaching_level: 竞赛
 source: "北京夏令营 北京夏令营-无机巩固练习二1785491436 第 5 题"
 module: "2026机构初赛模拟题"
 source_subject: 结构化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [13, 15, 12]
+knowledge_points:
+  - "[[钒]]"
+  - "[[过渡元素]]"
+  - "[[晶体结构]]"
+  - "[[配合物]]"
+  - "[[能带理论]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 北京夏令营]
 updated: 2026-09-26
 status: 已填充

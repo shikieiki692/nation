@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "清北营 春季模拟12 第 4 题"
 module: "2026机构初赛模拟题"
 source_subject: 结构化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [12, 14, 15]
+knowledge_points:
+  - "[[金属多重键]]"
+  - "[[点群初步]]"
+  - "[[过渡金属羰基化合物]]"
+  - "[[晶体密度公式]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 清北营]
 updated: 2026-09-26
 status: 已填充
