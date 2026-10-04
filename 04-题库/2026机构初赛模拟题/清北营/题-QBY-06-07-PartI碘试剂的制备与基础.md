@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "清北营 春季模拟6 第 7 题"
 module: "2026机构初赛模拟题"
 source_subject: 结构化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [40, 32, 49]
+knowledge_points:
+  - "[[高价碘试剂]]"
+  - "[[氧化反应]]"
+  - "[[反应机理]]"
+  - "[[周环反应]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 清北营]
 updated: 2026-09-26
 status: 已填充

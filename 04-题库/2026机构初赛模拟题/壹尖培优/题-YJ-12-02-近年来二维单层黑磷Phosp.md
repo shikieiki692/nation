@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "壹尖培优 第40届中国化学奥林匹克（初赛）模拟12 第 2 题"
 module: "2026机构初赛模拟题"
 source_subject: 化学原理
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [10, 9]
+knowledge_points:
+  - "[[VSEPR理论]]"
+  - "[[杂化轨道理论]]"
+  - "[[惰性对效应]]"
+  - "[[电离能与电负性]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 壹尖培优]
 updated: 2026-09-26
 status: 已填充

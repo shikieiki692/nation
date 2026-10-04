@@ -8,8 +8,13 @@ teaching_level: 竞赛
 source: "方圆 卷一-1 第 1 题"
 module: "2026机构初赛模拟题"
 source_subject: 结构化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [8, 15, 18]
+knowledge_points:
+  - "[[核反应]]"
+  - "[[晶体密度公式]]"
+  - "[[Latimer图]]"
+  - "[[标准电极电势]]"
+  - "[[氧化还原滴定]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 方圆]
 updated: 2026-09-26
 status: 已填充

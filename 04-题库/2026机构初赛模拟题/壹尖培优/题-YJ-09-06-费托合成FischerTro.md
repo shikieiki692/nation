@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "壹尖培优 第40届中国化学奥林匹克（初赛）模拟9 第 6 题"
 module: "2026机构初赛模拟题"
 source_subject: 有机化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [51, 13]
+knowledge_points:
+  - "[[过渡金属羰基化合物]]"
+  - "[[原子簇化学]]"
+  - "[[金属有机化学基础]]"
+  - "[[18电子规则]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 壹尖培优]
 updated: 2026-09-26
 status: 已填充
