@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "chemy 第36届 决赛16 第 9 题"
 module: "2026机构初赛模拟题"
 source_subject: 有机化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [50, 27, 37]
+knowledge_points:
+  - "[[全合成]]"
+  - "[[环氧化合物开环]]"
+  - "[[立体选择性]]"
+  - "[[路易斯酸]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
 updated: 2026-10-04
 status: 已填充
@@ -58,6 +62,8 @@ L
 
 ## 参考答案
 
+
+
 第9题（11分）
 
 ![](images/22a6de5bafbdbbbf3a1b407050972ed8c02aa7352963428cf663b5780f09897e.jpg)
@@ -76,7 +82,6 @@ B
 ![](images/9f945bf8d6cecf0a57952cdea6c4415c71549052514d29faac983eafdcbf0ba4.jpg)
 中间体
 
-9-2 观察如下反应路线:
 
 ![](images/b09af5c42ab36294b8657f79cd4ce7413317def2aef3400cfca1c878e5ffc5dc.jpg)
 
@@ -109,6 +114,8 @@ G
 (2 分)
 
 解释只需答到是由于距离太远无法关环即可得分。
+
+
 
 ## 知识点映射
 

@@ -8,8 +8,11 @@ teaching_level: 竞赛
 source: "chemy 第35届 模拟11 第 10 题"
 module: "2026机构初赛模拟题"
 source_subject: 有机化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [39, 49, 32]
+knowledge_points:
+  - "[[Pummerer重排]]"
+  - "[[σ迁移反应]]"
+  - "[[反应机理]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
 updated: 2026-10-04
 status: 已填充
@@ -62,6 +65,8 @@ D
 
 ## 参考答案
 
+
+
 第10题（15分）
 
 ![](images/21f1c21d8458ee066aa6a685e0e64cb069fb03d6f42946a6019b1dafe1d18002.jpg)
@@ -72,7 +77,6 @@ D
 
 ![](images/1418fc4108e945c490c3ab3db398ea78242fad7023a99da5d2a540c60f9149e4.jpg)
 
-请给出生成产物 F 的机理。
 
 ![](images/4f5a94e6b3a62bd228e86853a7da032e602d54c520a0eed6434ae58513e42a43.jpg)
 
@@ -88,6 +92,8 @@ H
 
 ![](images/2c4f9844607593a1d2b36ddf82d4c50623d431c290ff0a75c1d06f89e84e234b.jpg)
 |
+
+
 
 ## 知识点映射
 

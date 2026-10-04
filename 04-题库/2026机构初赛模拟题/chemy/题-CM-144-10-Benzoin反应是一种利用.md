@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "chemy 第37届 初赛19 第 10 题"
 module: "2026机构初赛模拟题"
 source_subject: 有机化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [45, 34, 32]
+knowledge_points:
+  - "[[安息香缩合]]"
+  - "[[卡宾]]"
+  - "[[反应机理]]"
+  - "[[亲核加成]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
 updated: 2026-10-04
 status: 已填充
@@ -54,15 +58,18 @@ Benzoin 反应是一种利用极性反转策略实现的羰基化合物之间的
 
 ## 参考答案
 
+
+
 ![](images/23aa8ecf60a8caf8e14492a0f2f7ddd97a0e92765ecb1d0483ed00aa3ec03729.jpg)
 
 ![](images/7730e1688a68778dfcbeeb2beeed5916c5e59218dcd7ba1704e718802e85f99d.jpg)
 
 ![](images/8e8441039f9c74b4573974a7318feb8330199a52544d59c1095e1a747265b03b.jpg)
 
-产物C。10-2-1 机理实验(1)的实验结果说明了什么(从有机反应性角度作答)。10-2-1 说明了苯甲酰基取代的不饱和羰基相较于乙酰基取代的不饱和羰基更容易与NHC发生反应（1 分），或者说实验(1)中第一个底物比第二个底物活性更高。10-2-2 说明机理实验(2)中当量的试剂X 在体系中的作用。10-2-2 X 作为氧化剂，将NHC 与醛反应得到的中间体氧化（1 分）。Ph OH N N Mes Mes X Ph O N N Mes Mes 10-2-3 结合机理实验(1)和(2)的实验结果，画出A 到B 转
 
 ![](images/c8018603cc602459aa589cfd15f344dd32dadc2c580a745ad718fd7049a28919.jpg)
+
+
 
 ## 知识点映射
 

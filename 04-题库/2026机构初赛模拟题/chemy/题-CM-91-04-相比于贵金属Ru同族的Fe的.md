@@ -8,8 +8,12 @@ teaching_level: 竞赛
 source: "chemy 第35届 模拟1 第 4 题"
 module: "2026机构初赛模拟题"
 source_subject: 有机化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [51, 40, 32]
+knowledge_points:
+  - "[[过渡金属催化]]"
+  - "[[负氢转移]]"
+  - "[[催化循环入门]]"
+  - "[[配合物异构]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
 updated: 2026-10-04
 status: 已填充

@@ -8,8 +8,11 @@ teaching_level: 竞赛
 source: "chemy 第36届 初赛14 第 8 题"
 module: "2026机构初赛模拟题"
 source_subject: 有机化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [51, 32]
+knowledge_points:
+  - "[[扩环反应]]"
+  - "[[过渡金属催化]]"
+  - "[[迁移插入]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
 updated: 2026-10-04
 status: 已填充
@@ -64,6 +67,8 @@ Ramburg-Backlund 反应的通式如下:
 
 ## 参考答案
 
+
+
 ## 第8题（9分）
 
 ![](images/16ae565ce69e9519534176d8e70b53933fff322530f7387e38e85a2a2f5f6eaa.jpg)
@@ -74,10 +79,11 @@ Ramburg-Backlund 反应的通式如下:
 
 ![](images/32694163b1b096a20e5b717c95cc7f8f7f41da4f946a08d1f4ccd05f4d9fb4d2.jpg)
 
-8-2-1 画出 B 的结构。
 ![](images/2de3c108e32c8a19526aa3c4f72cf3b676f9570719c799b6d731971d423b2df9.jpg)
 
 ![](images/a1c93bfa2af6c6ab67590d8813fe13b48ee451643f362047d722d3f59f86a9a7.jpg)
+
+
 
 ## 知识点映射
 
