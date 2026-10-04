@@ -8,8 +8,14 @@ teaching_level: 竞赛
 source: "chemy 第33届chemy联赛 第 6 题"
 module: "真题"
 source_subject: 结构化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [15, 16, 18]
+knowledge_points:
+  - "[[MOF材料]]"
+  - "[[点阵类型]]"
+  - "[[晶胞]]"
+  - "[[晶体密度公式]]"
+  - "[[配位数]]"
+  - "[[碘量法]]"
 tags: [化竞, 题目, 初赛, 真题, chemy]
 updated: 2026-10-02
 status: 已填充

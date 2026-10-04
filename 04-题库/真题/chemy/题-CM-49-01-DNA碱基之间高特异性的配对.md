@@ -8,8 +8,14 @@ teaching_level: 竞赛
 source: "chemy 第37届chemy决赛第二场 第 1 题"
 module: "真题"
 source_subject: 化学原理
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [57, 56, 11]
+knowledge_points:
+  - "[[化学动力学]]"
+  - "[[反应级数]]"
+  - "[[分子自组装]]"
+  - "[[超分子作用力]]"
+  - "[[氢键]]"
+  - "[[分光光度法]]"
 tags: [化竞, 题目, 决赛, 决赛真题, chemy]
 updated: 2026-10-03
 status: 已填充

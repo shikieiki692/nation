@@ -8,8 +8,13 @@ teaching_level: 竞赛
 source: "chemy 第37届chemy决赛第二场 第 9 题"
 module: "真题"
 source_subject: 有机化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [39, 32, 27]
+knowledge_points:
+  - "[[Wagner-Meerwein重排]]"
+  - "[[1,2-迁移与重排]]"
+  - "[[碳正离子]]"
+  - "[[重排反应]]"
+  - "[[内消旋体与外消旋体]]"
 tags: [化竞, 题目, 决赛, 决赛真题, chemy]
 updated: 2026-10-03
 status: 已填充

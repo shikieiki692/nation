@@ -8,8 +8,13 @@ teaching_level: 竞赛
 source: "chemy 第37届chemy决赛第一场 第 3 题"
 module: "真题"
 source_subject: 有机化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [13, 21]
+knowledge_points:
+  - "[[硼]]"
+  - "[[含硅化合物]]"
+  - "[[等电子体]]"
+  - "[[休克尔规则]]"
+  - "[[芳香性]]"
 tags: [化竞, 题目, 决赛, 决赛真题, chemy]
 updated: 2026-10-03
 status: 已填充

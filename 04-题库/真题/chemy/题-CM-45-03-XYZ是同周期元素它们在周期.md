@@ -8,8 +8,14 @@ teaching_level: 竞赛
 source: "chemy 第35届chemy联赛 第 3 题"
 module: "真题"
 source_subject: 结构化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [4, 13, 10]
+knowledge_points:
+  - "[[元素推断]]"
+  - "[[元素化学]]"
+  - "[[化学方程式]]"
+  - "[[缺电子化合物]]"
+  - "[[VSEPR理论]]"
+  - "[[键长]]"
 tags: [化竞, 题目, 初赛, 真题, chemy]
 updated: 2026-10-02
 status: 已填充

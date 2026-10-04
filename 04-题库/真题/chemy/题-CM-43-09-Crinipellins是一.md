@@ -8,8 +8,13 @@ teaching_level: 竞赛
 source: "chemy 第33届chemy联赛 第 9 题"
 module: "真题"
 source_subject: 有机化学
-syllabus_codes: []
-knowledge_points: []
+syllabus_codes: [50, 32, 34]
+knowledge_points:
+  - "[[NBS]]"
+  - "[[自由基]]"
+  - "[[立体选择性]]"
+  - "[[空间位阻效应]]"
+  - "[[全合成]]"
 tags: [化竞, 题目, 初赛, 真题, chemy]
 updated: 2026-10-02
 status: 已填充
