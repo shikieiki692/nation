@@ -453,10 +453,24 @@ def is_placeholder_target(target: str) -> bool:
     return False
 
 
+def strip_code_blocks(text: str) -> str:
+    """剥离围栏代码块与行内代码，避免把「文档里叙述的链接」当成真实引用。
+
+    🔴 2026-10-06 新增（实测 7 处误报）：
+      处置报告类文档常在代码块/反引号里**引用** wikilink 作为示例
+      （如 `题库组卷隔离清单.md` 里写「已人工同步为 `![[hash.jpg]]`」），
+      这些是叙述文本，不是真实图片/链接引用 ⇒ 原实现误判为缺失。
+      实测：仅代码块内出现的链接 7 处，代码块外 5,709 处不受影响 ⇒ 剥离安全。
+    """
+    text = re.sub(r"```.*?```|~~~.*?~~~", " ", text, flags=re.S)
+    text = re.sub(r"`[^`\n]*`", " ", text)
+    return text
+
+
 def check_wikilinks(file: Path, body: str, report: Report) -> None:
     """提取 wikilink，标注断链。"""
     rel = file.relative_to(VAULT_ROOT).as_posix()
-    links = re.findall(r'\[\[([^\]]+)\]\]', body)
+    links = re.findall(r'\[\[([^\]]+)\]\]', strip_code_blocks(body))
     for link in links:
         target = normalize_wikilink_target(link)
         if not target:
@@ -714,7 +728,7 @@ def check_images(file: Path, body: str, report: Report) -> None:
     # 模板目录（11-模板/）中的示例/占位图片不检查
     if rel.startswith("11-模板/"):
         return
-    images = re.findall(r'!\[\[([^\]]+)\]\]', body)
+    images = re.findall(r'!\[\[([^\]]+)\]\]', strip_code_blocks(body))
     for img in images:
         # 提取实际路径（可能有 | 替代文本）
         img_path = img.split("|")[0].strip()
@@ -787,10 +801,12 @@ def check_student_edition(file: Path, body: str, report: Report) -> None:
 
 
 _BASENAME_INDEX: dict[str, list[Path]] | None = None
+# 2026-10-06 新增：完整 stem → 文件列表（判「真重名」；全库唯一即无问题）
+_STEM_INDEX: dict[str, list[Path]] | None = None
 
 
 def check_basename_uniqueness(file: Path, report: Report) -> None:
-    """题卡 basename 唯一性（2026-09-22 题-NNN 冲突族·方案 B 闸门）。
+    """题卡文件名唯一性（2026-09-22 题-NNN 冲突族·方案 B 闸门；2026-10-06 二次修正）。
 
     仅对文件名以「题-NNN-」（三位数字卡号）开头的题卡生效。
 
@@ -798,28 +814,54 @@ def check_basename_uniqueness(file: Path, report: Report) -> None:
       原实现按**全库**聚合 `题-NNN` 索引，但该卡号**只在单个机构目录内唯一**
       （`题-025` 在「一分册能力测试」与「ABOC」各有一张，是**不同的题**）。
       ⇒ 全库聚合把 558 个卡号、2822 张卡全判成「重名」，占全库 Warning 的 80%。
-    ✅ 正确口径：**同机构目录（basename 的父目录）内唯一**。
+
+    🔴 2026-10-06 二次修正（实测 726 条 → 0 Warning，169 族降 Info）：
+      上一版改按「同机构目录内卡号唯一」，仍留下 726 条。经全量核实：
+        - 冲突的是**卡号前缀**，不是文件真重名。同一讲义内多道习题共用一个卡号
+          （`题-045-上海中学-共价键理论-习题1` ~ `习题14` 全部叫「题-045」），
+          这是**卡号分配的历史约定**，不是命名事故。
+        - **按完整文件名（stem）聚合，全库冲突数 = 0**（实测 1,022 个冲突文件的
+          stem 全部唯一）⇒ wikilink 用完整文件名即可唯一定位，Obsidian 打开无歧义。
+        - 卡号**未登记进 frontmatter**（无 `id` 字段），唯一载体就是文件名。
+      ✅ 正确判据：**完整文件名全库唯一**即无问题。
+      ℹ️ 卡号在机构内复用 ⇒ 降为 Info（仅提示，不计入 Warning）。
     ⛔ 另：`题-XeC-NN-NN-` 这类带机构前缀的卡号本就全库唯一，不参与本检查。
     """
-    global _BASENAME_INDEX
+    global _BASENAME_INDEX, _STEM_INDEX
     m0 = re.match(r"^(题-" + r"\d{3})-", file.name)
     if not m0:
         return
-    if _BASENAME_INDEX is None:
-        # key = (卡号, 所在目录的 basename) ⇒ 只在同机构内比冲突
+    if _BASENAME_INDEX is None or _STEM_INDEX is None:
+        # key1 = 完整 stem → 文件（判「真重名」，全库唯一才算 OK）
+        # key2 = (卡号, 父目录名) → 文件（判「卡号复用」，仅 Info）
+        _STEM_INDEX = {}
         _BASENAME_INDEX = {}
         for f in collect_md_files(VAULT_ROOT, INCLUDE_DIRS):
+            _STEM_INDEX.setdefault(f.stem, []).append(f)
             mm = re.match(r"^(题-" + r"\d{3})-", f.name)
             if mm:
                 key = (mm.group(1), f.parent.name)
                 _BASENAME_INDEX.setdefault(key, []).append(f)
+    # ① 真重名：完整 stem 在全库重复 ⇒ 这才是需要修的（会破坏 wikilink 解析）
+    same_stem = _STEM_INDEX.get(file.stem, [])
+    if len(same_stem) > 1:
+        report.warnings.append(
+            (str(file), "题卡文件名重名",
+             f"完整文件名全库重复（{len(same_stem)} 个）：「{file.stem}」"
+             f" ⇒ wikilink 无法唯一定位，须重命名")
+        )
+        return
+    # ② 卡号在同机构内复用 ⇒ Info（历史约定，非缺陷）
     others = _BASENAME_INDEX.get((m0.group(1), file.parent.name), [])
     if len(others) > 1:
-        report.warnings.append(
-            (str(file), "题卡basename重名",
-             f"同机构「{file.parent.name}」内 {len(others)} 个同名"
-             f"（{m0.group(1)} 冲突族；组卷引用请用全路径链）")
-        )
+        try:
+            rel = file.relative_to(VAULT_ROOT).as_posix()
+        except ValueError:
+            rel = str(file)
+        report.info(
+            rel, "题卡卡号复用",
+            f"同机构「{file.parent.name}」内 {len(others)} 个文件共用卡号 {m0.group(1)}"
+            f"（完整文件名唯一，wikilink 可正常解析；组卷引用建议用完整文件名）")
 
 
 def check_stale(file: Path, fm: dict[str, Any], report: Report, threshold_days: int = 30) -> None:
