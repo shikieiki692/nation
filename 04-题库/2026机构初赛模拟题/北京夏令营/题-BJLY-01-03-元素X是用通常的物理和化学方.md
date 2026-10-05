@@ -52,7 +52,41 @@ source_file: "2026机构初赛模拟题/13-北京夏令营/北京夏令营-无�
 
 ## 参考答案
 
-⛔ **源池无本题答案**：本卷在源池全部文件中均未定位到本题解答（仅有题干），非提取遗漏。
+## 第3题 一道看似简单的元素推断（34分，占 $18\%$ ）
+
+3-1
+
+X: Re A: $Re_{2}O_{7}$ B: $ReO_{3}$ C: $ReCl_{5}$ D: $ReCl_{3}$ E: $ReO_{2}$ F: $Re_{2}$ (CO) 10 G: Re (CO) 5Cl H: $Re_{2}$ (CO) 8Cl 2 I: Re (CO) 5NO
+
+各 1 分，共 10 分
+
+3-2
+
+$$
+\mathrm{e} _ {2} \mathrm{O} _ {7} + \mathrm{CO} = = 2 \mathrm{ReO} _ {3} + \mathrm{CO} _ {2}
+$$
+
+$Re_{2}O_{7} + 7CCl_{4} == 2ReCl_{5} + 7COCl_{2} + 2Cl_{2}$ （含碳产物写为 $CO_{2}$ 并配平也给分）
+
+$$
+2 \mathrm{NH} _ {4} \mathrm{ReO} _ {4} = = 2 \mathrm{ReO} _ {2} + \mathrm{N} _ {2} + 4 \mathrm{H} _ {2} \mathrm{O}
+$$
+
+$Re_{2}(CO)10+2N_{2}O_{4}=2Re(CO)5NO_{3}+2NO$ 各 1 分，共 4 分
+
+3-3
+
+3-3-1
+
+![](images/837e893c2956b54198de4abcc1c523b9f9b3974dfc71718176ee17b2763f3a47.jpg)
+
+Re-Re 成双键，所有单电子均成对，故显抗磁性。（1 分）
+
+3-3-2
+
+J 的阴离子:
+
+![](images/af172fbe2edde73f9959c26c4792212f4386b899bd4d117bc6e5bdd9272a2099.jpg)
 
 ## 知识点映射
 

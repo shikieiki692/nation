@@ -60,7 +60,61 @@ $H_{2}L$
 
 ## 参考答案
 
-⛔ **源池无本题答案**：本卷在源池全部文件中均未定位到本题解答（仅有题干），非提取遗漏。
+## 第5题
+
+5-1-1
+
+$$
+\mathrm{V} _ {2} \mathrm{O} _ {5} + \mathrm{H} _ {2} \mathrm{C} _ {2} \mathrm{O} _ {4} = 2 \mathrm{VO} _ {2} + \mathrm{H} _ {2} \mathrm{O} + 2 \mathrm{CO} _ {2}
+$$
+
+5-1-2
+
+$$
+b = c = 2 8 5. 1 p m
+a ^ {2} + b ^ {2} = (2 \times 1 9 5. 2 + 2 \times \sqrt {1 9 2 . 9 ^ {2} - \left(\frac {2 8 5 . 1}{2}\right) ^ {2}}) ^ {2}
+$$
+
+解得 a = 584.5 pm
+
+$$
+\rho = \frac {N M}{V N _ {A}} = \frac {2 \times (5 0 . 9 4 + 1 6 . 0 0 \times 2)}{5 8 4 . 5 \times 2 8 5 . 1 \times 2 8 5 . 1 \times 6 . 0 2 2 \times 1 0 ^ {2 3} \times 1 0 ^ {- 3 0}} = 5. 8 0 g / c m ^ {3}
+$$
+
+5-1-3
+
+高温下 A 的导电能力更强（1 分）
+
+A 中 V 的价电子组态为 d1，在低温下存在交替变化的 V-V 键长可知，形成了 V-V 键，而在高温下仅存在一种 V-V 键长，即该单价电子在整个体系中离域，故导电性更强。（2 分）
+
+![](images/20b8afa6cadf4289de2a84957ea93980fc1827cc4c915ac99f9ebf0d730c4e87.jpg)
+
+[VL]CF3SO3·2CH3CN
+
+5-2-2
+
+$$
+2 \mathrm{VOL} + 2 \mathrm{H} ^ {+} = [ \mathrm{VOL} ] + + [ \mathrm{VL} ] + + \mathrm{H} _ {2} \mathrm{O}
+$$
+
+5-2-3
+
+![](images/fa386b697c7d0f985463497d059d1703ca687a8466e710626bbf3d7fe40f9005.jpg)
+
+2+
+
+5-3-1
+![](images/813fe5fac6224918ee2b52bb7fe8640a187047cbe3f5c17115c1305d6aa4d721.jpg)
+
+顶点和棱心为 V 原子，体内为 S 原子。
+
+5-3-2
+
+![](images/e2ef8548f8f58bff6d7a93f843c0ee4fb24acfbb4aa478def57a87a895e6409e.jpg)
+
+![](images/e5057a53fac6386a070fe28aa20c9b169d4a1dd3f6273e98094d9cb3307b6cbc.jpg)
+
++4
 
 ## 知识点映射
 
