@@ -62,6 +62,12 @@ EXCLUDE_PATTERNS = [
     "09-审计报告", "06-外部资料导入",
     "00-首页",  # 系统入口页不由本脚本检查
     ".chem_media",
+    # 2026-10-05：已收敛的重复卡/空壳卡停放区（528 条「枚举-题库」误报的来源）
+    #   这些卡本就不该有 knowledge_points（重复已去重、题面已空壳），
+    #   正解是整目录豁免枚举检查，⛔ 而不是逐个补 KP。
+    #   注意：只加精确目录名，⛔ 不用「_待人工复核」这种宽前缀（会误伤同名前缀的真目录）。
+    "_待人工复核-空壳与重复卡",
+    "chemy合集重复卡-已收敛",
 ]
 EXCLUDE_FILE_PREFIXES = ["_pre_"]
 EXCLUDE_FILE_NAMES = {"_preprocessed.md", "_test_sup.md", "_test_sup2.md", "新题入库SOP.md", "习题集体系总纲.md"}
@@ -134,19 +140,41 @@ ALLOWED_STATUS: dict[str, list[str]] = {
 # ── 题库 frontmatter 枚举（与 audit_question_bank.py 同口径）────────
 QB_TYPES = {"题目", "真题", "例题", "题组", "题目集"}
 QB_ENUM: dict[str, list[str]] = {
-    "fidelity": ["原书逐字", "原书改写", "自编"],
-    "exam_stage": ["初赛", "决赛", "省预赛"],
+    # fidelity 三基值之外（2026-10-05 增）：
+    #   「原书逐字＋注记」复合写法已在校验逻辑里放行（见下方 for 循环），基值仍须在白名单内。
+    #   以下 4 个是**语义正当的一卡一值**（实测各 1~3 张，均为有意标注，⛔ 不是错值）：
+    #     元数据整理 ＝ 已 deprecated 的「重复卡」停放（34 决赛 2-8-1 / 2-9-1，tags 含「退役 重复卡」）
+    #     来源冲突    ＝ ABOC-053「来源冲突退役卡」（status: deprecated + consumption_status: 退役）
+    #     原题        ＝ 省预赛「讲评重组」卷的原始真题标注（同目录另 45 张为「原书改写」）
+    #     原书解答提炼 ＝ 结构化学基础 3 张（5.13/5.15/5.17）——从原书解答提炼而非题干逐字
+    "fidelity": ["原书逐字", "原书改写", "自编", "元数据整理", "来源冲突", "原题", "原书解答提炼"],
+    # exam_stage 2026-10-05 增 2 值：
+    #   模拟     ＝ ABOC 章末 T3「Chemy 模拟题」（source 字段明写，3 张）
+    #   教材自学 ＝ ABOC-064 教材自学练习（1 张）
+    #   ⛔ 不是把 4,347 张「初赛」误标成模拟；这两值是**有意的细粒度标注**。
+    "exam_stage": ["初赛", "决赛", "省预赛", "模拟", "教材自学"],
     "subject_module": ["化学原理", "结构化学", "有机化学", "元素与分析"],
-    "pack": ["章节练习", "模块习题集", "综合模拟卷", "预赛专项", "综合套卷"],
+    # pack 2026-10-05 增 2 值：
+    #   真题卷        ＝ 04-题库/真题/chemy 67 张（真题卡的自然归属，⛔ 不属模拟卷）
+    #   教材自学练习 ＝ ABOC-064（1 张，与 exam_stage: 教材自学 配对）
+    #   下游只消费 pack=="模块习题集"（build_module_book / audit_book_coverage），
+    #   故新增取值不影响组卷口径。综合套卷虽在列但磁盘实测 0 用量（历史正名后未再写入）。
+    "pack": ["章节练习", "模块习题集", "综合模拟卷", "预赛专项", "综合套卷", "真题卷",
+             "教材自学练习"],
     # 综合套卷：2026-09-22 增（第一轮·综合套卷 24 份 pack 已由「综合模拟卷」正名为
     # 「综合套卷」，见 04-课件/习题集/三·竞赛导向层（载体Ⅱ·Ⅲ）/第一轮·综合套卷/_待办-优化清单）
     # source_category：2026-09-06 全库落库（5,309 题），8 值白名单与
     # .workbuddy/scripts/apply_source_category.py 同口径；磁盘实测分布见当日清单报告
+    # 2026-10-05 增 2 值：chemy 真题线（04-题库/真题/chemy，67 张）确立了
+    #   「竞赛导向·竞赛真题」（= 真题里的竞赛真题，与「竞赛导向·真题（省级）」区分）
+    #   与「竞赛导向·真题（全国初赛）」1 张；两条规则已同步进 apply_source_category.py。
     "source_category": [
         "竞赛导向·真题",
         "竞赛导向·真题（省级）",
         "竞赛导向·竞赛教材",
         "竞赛导向·竞赛教辅",
+        "竞赛导向·竞赛真题",
+        "竞赛导向·真题（全国初赛）",
         "教材课后习题",
         "其他类型·自编章节题",
         "其他类型·教学改编",
@@ -329,6 +357,14 @@ def check_frontmatter(file: Path, fm: dict[str, Any], report: Report) -> None:
             parts = [p.strip() for p in str(v).split("/") if p.strip()]
             if parts and all(p in allowed for p in parts):
                 continue
+            # fidelity 复合写法：fidelity="原书逐字＋OCR清理＋科学口径注记"
+            #   （2026-10-05）本库既有约定＝「基值＋加工注记」，基值须合法，
+            #   注记部分自由（记录该卡做过哪些 OCR 修复/口径补充）。全库 57 张在用。
+            #   ⛔ 只认全角「＋」作分隔符；基值仍须在白名单内 ⇒ 不放宽真越界。
+            if k == "fidelity" and "＋" in str(v):
+                base = str(v).split("＋", 1)[0].strip()
+                if base in allowed:
+                    continue
             report.warning(rel, "枚举-题库", f"{k}='{v}' 不在 {allowed}")
 
         diff = fm.get("difficulty")
@@ -348,7 +384,14 @@ def check_frontmatter(file: Path, fm: dict[str, Any], report: Report) -> None:
 
         kp = fm.get("knowledge_points")
         if isinstance(kp, list) and len(kp) == 0:
-            report.warning(rel, "枚举-题库", "knowledge_points 为空列表")
+            # 2026-10-05：已退役/废弃的题卡豁免「KP 不能为空」。
+            #   退役卡（status: deprecated 或 consumption_status: 退役）本就不参与组卷与检索，
+            #   空 KP 是正确状态（如 ABOC-053「来源冲突退役卡」——题面本身有来源冲突，
+            #   强行补 KP 会把错误来源固化进索引）。实测 66 张退役卡中仅此 1 张为空。
+            retired = str(fm.get("status") or "") == "deprecated" or \
+                str(fm.get("consumption_status") or "") == "退役"
+            if not retired:
+                report.warning(rel, "枚举-题库", "knowledge_points 为空列表")
 
     # ── frontmatter 内 wikilink 断链（正文断链由 check_wikilinks 覆盖，此处补 frontmatter 盲区）──
     for field in QB_LINK_FIELDS:
@@ -400,6 +443,12 @@ def is_placeholder_target(target: str) -> bool:
     if re.fullmatch(r"(图名|完整相对路径|图片文件名|xxx)(\.\w+)?", target):
         return True
     if target in ("专题-XX", "题-XXX", "教学逻辑提炼-XX", "官能团"):
+        return True
+    # 2026-10-05：补 4 个实测占位符（均为「元文件/说明类」文档行内代码里的示范写法，
+    # ⛔ 不是真引用）。实测剥代码块只减 4 条断链 ⇒ 收益不足以改解析器口径，
+    #   按既有占位符机制收录更稳（不触碰 8 万条链接的解析行为）。
+    #   hash.jpg：kb_move 保留原文件名的占位写法（见 题库组卷隔离清单 §流程问题）。
+    if target in ("hash.jpg", "hash.png", "文件名", "卷名", "…", "..."):
         return True
     return False
 
@@ -741,25 +790,35 @@ _BASENAME_INDEX: dict[str, list[Path]] | None = None
 
 
 def check_basename_uniqueness(file: Path, report: Report) -> None:
-    """题卡 basename 全库唯一性（2026-09-22 题-NNN 冲突族·方案 B 闸门）。
+    """题卡 basename 唯一性（2026-09-22 题-NNN 冲突族·方案 B 闸门）。
 
-    仅对文件名以「题-」开头的题卡生效；basename 在全库（INCLUDE_DIRS）重名
-    记 Warning（存量冲突族见 初赛讲义 待办清单附录，方案 A 唯一化按需触发）。
+    仅对文件名以「题-NNN-」（三位数字卡号）开头的题卡生效。
+
+    🔴 2026-10-05 修正（实测 2822 条误报 → 0）：
+      原实现按**全库**聚合 `题-NNN` 索引，但该卡号**只在单个机构目录内唯一**
+      （`题-025` 在「一分册能力测试」与「ABOC」各有一张，是**不同的题**）。
+      ⇒ 全库聚合把 558 个卡号、2822 张卡全判成「重名」，占全库 Warning 的 80%。
+    ✅ 正确口径：**同机构目录（basename 的父目录）内唯一**。
+    ⛔ 另：`题-XeC-NN-NN-` 这类带机构前缀的卡号本就全库唯一，不参与本检查。
     """
     global _BASENAME_INDEX
     m0 = re.match(r"^(题-" + r"\d{3})-", file.name)
     if not m0:
         return
     if _BASENAME_INDEX is None:
+        # key = (卡号, 所在目录的 basename) ⇒ 只在同机构内比冲突
         _BASENAME_INDEX = {}
         for f in collect_md_files(VAULT_ROOT, INCLUDE_DIRS):
             mm = re.match(r"^(题-" + r"\d{3})-", f.name)
             if mm:
-                _BASENAME_INDEX.setdefault(mm.group(1), []).append(f)
-    others = _BASENAME_INDEX.get(m0.group(1), [])
+                key = (mm.group(1), f.parent.name)
+                _BASENAME_INDEX.setdefault(key, []).append(f)
+    others = _BASENAME_INDEX.get((m0.group(1), file.parent.name), [])
     if len(others) > 1:
         report.warnings.append(
-            (str(file), "题卡basename重名", f"全库 {len(others)} 个同名（题-NNN 冲突族；组卷引用请用全路径链）")
+            (str(file), "题卡basename重名",
+             f"同机构「{file.parent.name}」内 {len(others)} 个同名"
+             f"（{m0.group(1)} 冲突族；组卷引用请用全路径链）")
         )
 
 

@@ -15,7 +15,7 @@ source_extracts:
     asset_type: "分类资产"
     asset_summary: "VSEPR 构型速查表（AXnEm → 理想构型 → 实际分子形状），讲义有完整表格"
 subject: 化学
-status: 已审校
+status: 已填充
 stage: draft
 created: 2026-06-30
 updated: 2026-07-07

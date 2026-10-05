@@ -103,7 +103,7 @@ A.
 
 ![](images/b6b9c0ef3ca47e5265c3b7326b8e2fbc15cd82cfe4917ef089afde13dbd667f8.jpg)
 
-# 本题：看fMO，若设相，无——
+本题：看fMO，若设相，无——
 
 ![](images/793c822d9d5d2856a5f079d15ee1bc37c5edd95bd27475f271d66202949ae73e.jpg)
 

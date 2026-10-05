@@ -9,7 +9,7 @@ related_topic: "[[专题-过渡金属元素化学]]"
 related_kps: [铜副族, 锌副族, ds区元素, 氰化法, 惰性电子对效应, 混合价态]
 target_kp: ["[[铜副族]]", "[[锌副族]]"]
 applicable_rounds: [第一轮, 第二轮]
-status: draft
+status: 草稿
 created: 2026-05-31
 updated: 2026-05-31
 tags: [教学逻辑, 资料提炼, 备课, 元素化学, ds区, 铜副族, 锌副族]

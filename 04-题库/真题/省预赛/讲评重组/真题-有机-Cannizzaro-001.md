@@ -16,7 +16,7 @@ teaching_level: 巩固
 fidelity: 原题
 exam_stage: 初赛
 subject_module: 有机化学
-pack: 初赛专项
+pack: 预赛专项
 source_category: 竞赛导向·真题（全国初赛）
 source_grade: A
 source_tier: 4

@@ -134,7 +134,7 @@ $$
 \begin{array}{c}2 [ 8 ] \mathrm{CPP} + 3 \mathrm{Et} _ {3} \mathrm{O} ^ {+} \mathrm{SbCl} _ {6} ^ {-} \rightarrow 2 [ 8 ] \mathrm{CPP} ^ {\cdot +} \mathrm{SbCl} _ {6} ^ {-} + 3 \mathrm{EtCl} + 3 \mathrm{Et} _ {2} \mathrm{O} + \mathrm{SbCl} 3\\[ 8 ] \mathrm{CPP} + 2 \mathrm{NOSbF} _ {6} \rightarrow 2 \mathrm{NO} + [ 8 ] \mathrm{CPP} ^ {2 +} (\mathrm{SbF} _ {6} ^ {-}) _ {2}\end{array}
 $$
 
-# (两个方程式各1分，共2分)
+(两个方程式各1分，共2分)
 
 π-7（1分）
 
