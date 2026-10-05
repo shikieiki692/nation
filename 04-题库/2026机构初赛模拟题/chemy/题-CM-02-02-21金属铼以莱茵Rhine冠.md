@@ -66,6 +66,9 @@ $$
 根据产率可以推算出 A 的分子量为 691.85 g/mol (1 分)
 
 
+![](images/f67e05fa66a0a72e6f51c49e247818d290ba7878008cdf3a2ffeceb470939d75.jpg)
+
+
 该分子量恰好对应于 1 个 L、1 个 Re 和 1 个 Cp 以及 1 个 Na。
 
 因此化合物 A 的化学式为 Na[ReLCp]（1 分）
@@ -80,6 +83,9 @@ $$
 $$
 
 2-1-2 化合物 A 中 Re 的价态: +1 (1 分)
+
+
+![](images/df464553b7d9b7b83a7be635de1edc3b3788a07b3e462a10a2ea3c0c6f85f959.jpg)
 
 
 (各2分)
@@ -99,6 +105,11 @@ $$
 
 
 2-2-2
+![](images/e0c43fd3123e321dfaca88b5cdbce5b4875930a2a8b030b5eba2ed6c211b28b5.jpg)
+
+![](images/18e0bdfaf8845cb5cb8774f83df0e224b3efadc782120bb73cad8b4f6d5c0570.jpg)
+
+
 
 
 ## 知识点映射

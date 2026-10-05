@@ -65,6 +65,13 @@ source_file: "2026机构初赛模拟题/10-chemy/化学试卷-初赛模拟试题
 
 
 
+![](images/5c96c34316dc9c5388b1f71c0a9717a4617fcd09dff36c02eb465706d948f710.jpg)
+
+![](images/5bb4035a8ec19b60980288f1430562df0fe0282682112dc3cfc29a4b984df663.jpg)
+
+![](images/640bcb17a241a5e64efdfb7e0ded58c74cca0bd0c3a9909c335ba1e45866ea05.jpg)
+
+
 三个中间体（各2分）：
 
 
@@ -74,7 +81,17 @@ E
 
 F
 
+![](images/4d7a880bf6ebcd32da1c6d4ffdabb7a1ca30bd105b30f1d4e4ba593c9372e88f.jpg)
+
+![](images/a098a51456d485f067360d0ea0f753e5d3722520a2ec8c3e51f1dc93782cb32e.jpg)
+
+
 解释：过渡态中新形成的并环迫使下方的碳碳键采取部分重叠的构象，具有较大的张力。
+![](images/49f108e3a57c42fcc5184b70f07eedbf56b770038d8a0d1b65fc6e4daa145514.jpg)
+
+![](images/250a3ac4c12ee92e4f91c4d43eecd69e8b2d14274edd955222f3efe63945491b.jpg)
+
+
 
 
 ## 知识点映射

@@ -84,6 +84,11 @@ HON $^{Mo}$
 
 
 
+![](images/f4296d8bf78633839365b517489c9098babb9485fb439e19afcc57149e099581.jpg)
+
+![](images/19b5adfb99cd19192b800fd388680e3003bc5979d5196fca0902470b9ed1dc78.jpg)
+
+
 6-1-2 (各 2 分, 必须表示出配体的正确存在形态, Ar = Dipp)
 
 $$
@@ -95,6 +100,9 @@ CHO
 
 
 
+![](images/07ccea6b488f80d4fd4ac4daf9511695f1e6a3434f1bd572b9990d588ea32a19.jpg)
+
+
 6-2-1（共6分，Ar=2,6-二甲基苯基）
 
 A 中 $n(\mathrm{C}):n(\mathrm{H}):n(\mathrm{N})=(53.46/12.01):(5.24/1.008):(12.74/14.01)\approx4.9:5.7:1$ （1分），显然有较大误差，考虑各配体的化学式： $HON_{2}^{Mc}$ 的化学式为 $C_{28}H_{32}N_{2}O$
@@ -103,6 +111,9 @@ A 中 $n(\mathrm{C}):n(\mathrm{H}):n(\mathrm{N})=(53.46/12.01):(5.24/1.008):(12.
 
 故 A 的化学式为 $\mathrm{Fe}_{2}(\mathrm{NO})_{4}(\mathrm{ON}_{2}^{\mathrm{M}c})$ (2 分) A 的结构 (2 分) 为:
 
+
+
+![](images/eac1333737b291c10588a10e5e1e8cc7d79f95648cfd04333fb3da94d8aab3d0.jpg)
 
 
 6-2-2 两个 Fe 中心的单电子通过自旋耦合（1 分）配对，自旋相反， $(\mathrm{ON}_{2}^{\mathrm{Me}})^{2-}$ 配体上仍存在一个单电子（1 分）。
@@ -118,9 +129,15 @@ B: $\{\mathrm{Fe}(\mathrm{NO})_2\}^{9-}(\mathrm{ON}_2^{\mathrm{M}})_{2}^{-}-\{\m
 6-3-2（4分，Ar=26-二甲基苯基）
 
 
+![](images/b7113a2f9e84bfb7bcd27dadb98a04f0148769c6449d92c6eee8c5e591e543e7.jpg)
+
+
 6-3-3 写出反应 1 的化学方程式。(要求明斯表示出离子化合物的阴阳离子组成, 配体可用缩写表示)
 
 6-3-3 $\{\mathrm{Fe}(\mathrm{NO})_{2}\}^{10}+\mathrm{KH}+18-\mathrm{c}-6+\mathrm{HON}_{2}^{\mathrm{Mc}}=\mathrm{H}_{2}+[K(18-\mathrm{c}-6)][\mathrm{Fe}(\mathrm{NO})_{2}(\mathrm{ON}_{2}^{\mathrm{Mg}})]$ (2分，不要求表示出配合物的电子结构，化学式正确即可得分)
+![](images/41a2c0d64efc77ce0b636bcc451fb27d50cca6928b470fe267980f6b90bc630b.jpg)
+
+
 
 
 ## 知识点映射
