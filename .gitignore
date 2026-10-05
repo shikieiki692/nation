@@ -145,3 +145,6 @@ images_in_q.txt
 # 2026-09-29 清理 171 个（06-学生侧材料/讲义 全模块）；备份见 .workbuddy/tmp/bak_tmp_residue_20260929/
 _*.tmp.md
 _*.tmp.docx
+
+# 重新ocr：OCR 产物的 images 目录不入库（只提交 md ＋ 报告，owner 2026-10-05 裁定）
+重新ocr/*_images/
