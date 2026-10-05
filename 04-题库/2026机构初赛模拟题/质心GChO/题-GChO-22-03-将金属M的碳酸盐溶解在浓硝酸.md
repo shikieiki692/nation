@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "质心GChO-ZCHEM-GChO22"
 source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO22试题（线下营）.md"
+quality_warning: "答案区尾部原混入下一题标题与题干（源答案卷错排），已剔除以避免组卷时污染；剔出处见本卡校勘注。"
 ---
 
 # 题-GChO-22-03-将金属M的碳酸盐溶解在浓硝酸
@@ -140,20 +141,6 @@ $$
 $$
 C: (B i 6 O _ {6}) [ N O _ {3} ] _ {6} \cdot 3 H _ {2} O.
 $$
-
-### 第 4 题 (10分)
-
-$$
-2 A g ^ {+} + H _ {4} O = A g _ {15} + H ^ {+} = C: C ^ {+} - 202 / m
-$$
-
-利用氧化还原反应测定，在不同温度下 $\mathrm{H}_{2} \mathrm{O}$ 的自耦电离常数 $K_{\mathrm{w}}$ ，所使用的电池反应，正极为 $\mathrm{AgCl/Ag}$ 电极，负极则为 $\mathrm{H}_{2} \mathrm{O}/\mathrm{H}_{2}$ 电极。保持溶液中的 $\mathrm{H}^{+}$ 与 $\mathrm{Cl}^{-}$ 的浓度为恒定值，改变测试温度，通过测量电池的电动势进而计算在该温度下 $\mathrm{H}_{2} \mathrm{O}$ 的自耦电离常数。对所得到的数据进行拟合，如下表所示（ $\mathrm{H}_{2}$ 的分压恒为标准大气压）：
-
-<table><tr><td>实验次数:</td><td>[Cl-]/(mol L-1)</td><td>[OH-]/(mol L-1)</td><td>T/K</td><td>E/V</td></tr><tr><td>1</td><td>0.0100</td><td> $1.00 \times 10^{-3}$ </td><td>293.15</td><td>0.986</td></tr><tr><td>2</td><td>0.0100</td><td> $1.00 \times 10^{-3}$ </td><td>298.15</td><td>0.991</td></tr><tr><td>3</td><td>0.0100</td><td> $1.00 \times 10^{-3}$ </td><td>303.15</td><td>0.996</td></tr></table>
-
-解答本题时, 可认为一切物种的活度系数 $\gamma = 1.000$ , 部分可能需要使用到的热力学数据如下表所示, 为 $298.15 \mathrm{~K}$ 下测定的物理化学常数, 可认为在题设的温度范围内, 这些常数不随温度而变化,且已知 $\varphi_{\mathrm{Ag}^{+}/\mathrm{Ag}}^{\mathrm{O}} = 0.799 \mathrm{~V}$ 。不以海温度
-
-<table><tr><td>物质</td><td> $\Delta_{\text{f}}H_{\text{m}}^{\Theta} / (\text{kJ mol}^{-1})$ </td><td> $S_{\text{m}}^{\Theta} / (\text{J mol}^{-1}\text{K}^{-1})$ </td></tr><tr><td> $Ag^{+}$ </td><td>105.58</td><td>72.68</td></tr><tr><td> $Cl^{-}$ </td><td>-167.16</td><td>56.50</td></tr><tr><td> $OH^{-}$ </td><td>-230.00</td><td>-10.75</td></tr><tr><td> $AgCl(s)$ </td><td>-127.07</td><td>96.20</td></tr></table>
 
 > ✅ 答案由源《ZCHEM-GChO22解析手稿.md》第 3 题回收补录（回源核对 2026-09-27）。
 

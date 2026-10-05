@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "质心GChO-ZCHEM-GChO36"
 source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO36试题.md"
+quality_warning: "答案区尾部原混入下一题标题与题干（源答案卷错排），已剔除以避免组卷时污染；剔出处见本卡校勘注。"
 ---
 
 # 题-GChO-36-06-有人研究了苯甲醛B与巯基SM
@@ -159,8 +160,6 @@ $$
 $$
 \mathrm{线性回归.} \frac {R _ {1} (O B u H ^ {+})}{R _ {2}} = 0.26
 $$
-
-### 第 7 题 (7分)
 
 > ✅ 答案由源《ZCHEM-GChO36解析手稿.md》第 6 题回收补录（回源核对 2026-09-27）。
 

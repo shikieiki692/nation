@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "质心GChO-ZCHEM-GChO40"
 source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO40试题.md"
+quality_warning: "答案区尾部原混入下一题标题与题干（源答案卷错排），已剔除以避免组卷时污染；剔出处见本卡校勘注。"
 ---
 
 # 题-GChO-40-05-如图此为某CsO化合物沿着c
@@ -114,8 +115,6 @@ $$
 $$
 F \geq 6
 $$
-
-### 第 6 题(6分)
 
 > ✅ 答案由源《ZCHEM-GChO40解析手稿.md》第 5 题回收补录（回源核对 2026-09-27）。
 

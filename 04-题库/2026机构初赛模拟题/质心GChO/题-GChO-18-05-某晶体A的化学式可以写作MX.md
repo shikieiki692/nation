@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "质心GChO-ZCHEM-GChO18"
 source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO18试题（线下营）.md"
+quality_warning: "答案区尾部原混入下一题标题与题干（源答案卷错排），已剔除以避免组卷时污染；剔出处见本卡校勘注。"
 ---
 
 # 题-GChO-18-05-某晶体A的化学式可以写作MX
@@ -59,44 +60,6 @@ $$
 $$
 \begin{array}{r l} {5 - 3.} & {d _ {1}} = a \sqrt {(0.133 ^ {2} + 0.265 ^ {2} - 2 \times 0.133 \times 0.265 \times \cos 60 ^ {\circ})} \\ & {\qquad = 1.24 \text{Å}^ {\circ} \quad (i)} \\ & {d _ {2}} = 0.176 c = 1.12 \text{Å}^ {\circ} (i) \\ & {\mathrm {NO_ {2} ^ {+}: N O _ {2} \text {吸收为 } 2 . (0.5)}} \\ & {\mathrm {NO_ {3} ^ {-}: N - O _ {2} \text {吸收: } 1.33 / \frac {4}{3} (0.5)}} \end{array}
 $$
-
-### 第 6 题 (10分)
-
-现拟采用定量分析方法欲测定HCOOH的电离常数，取未知浓度的HCOOH溶液，但其中掺杂部分HOAc。
-
-移取25.00mL上述溶液，以0.1095mol L $^{-1}$ 的NaOH进行滴定，消耗26.58mL。
-
-再移取相同的25.00mL上述溶液，调节pH至强碱性，加入50.00mL，0.02028mol L $^{-1}$ 的KMnO $_{4}$ ，充分反应后，加入H $_{2}$ SO $_{4}$ 酸化，然后加入15.00mL，0.1102mol L $^{-1}$ 的Fe $^{-}$ 标准溶液，再以同样的KMnO $_{4}$ 溶液滴定，消耗15.61mL。再移取25.00mL上述混合溶液，用pH计测得精确pH=2.32，已知HOAc的 $K_{a}$ =1.8×10 $^{-5}$ 。
-
-$$
-G - 1.2 M n O _ {4} + H C O O ^ {-} + 3 D H ^ {-} = 2 M n O _ {4} ^ {2 -} + C O _ {3} ^ {2 -} + H _ {2} O
-$$
-
-$$
-3 M n O _ {4} ^ {2 -} + 4 H ^ {-} = M n O _ {2} + 2 M n O _ {4} ^ {-} + 2 H _ {2} O
-$$
-
-$$
-4 H ^ {+} - M n O _ {2} + 2 F e ^ {2 +} = M n ^ {2 +} + 2 F e ^ {3 +} + 2 H _ {2} O
-$$
-
-$$
-M n O _ {4} ^ {-} + 5 F e ^ {2 +} + 8 H ^ {- 1} = M n ^ {2 +} + 5 F e ^ {3 +} + 4 H ^ {2} \quad (0.5 ^ {\prime} > 8)
-$$
-
-$$
-n (H C O O H) + n (H O A C) = C V = 2.911 \times 10 ^ {- 3} m o l (f).
-$$
-
-由电子理守恒
-
-$$
-\begin{array}{r l} {2 n (H C O O H) + n (F e ^ {2 +})} & {= 5 n (K M _ {n} O _ {4}) \quad (2 ^ {\prime})} \\ & {\Rightarrow n (H C O O H) = \underbrace {2.500 \times 10 ^ {- 3} m o l} _ {(i)}} \\ & {n (H O A c) = 4.106 \times 10 ^ {- 64} m o l.} \\ & {= C (H C O O H) = 0.1000 M \cdot (i)} \\ & {C (H O A c) = 0.01642 M} \end{array}
-$$
-
-![](images/33b98df1f7cc14eb38c660296d211d1586a4f2aafc548f83f3621043d8afc1ad.jpg)
-
-![](images/e7617202a96a949ac765edab75f76d4bd22edcf798c171b076868603b6adcc00.jpg)
 
 > ✅ 答案由源《ZCHEM-GChO18解析手稿.md》第 5 题回收补录（回源核对 2026-09-27）。
 

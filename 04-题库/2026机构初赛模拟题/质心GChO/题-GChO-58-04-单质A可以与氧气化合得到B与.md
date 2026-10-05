@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "质心GChO-ZCHEM-GChO58"
 source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO58试题.md"
+quality_warning: "答案区尾部原混入下一题标题与题干（源答案卷错排），已剔除以避免组卷时污染；剔出处见本卡校勘注。"
 ---
 
 # 题-GChO-58-04-单质A可以与氧气化合得到B与
@@ -79,12 +80,6 @@ $4TiAl_{3}.60.130.16.$ 到 $150\approx A_{2}74.92$
 $$
 A _ {S _ {2} O} (C H _ {3}) _ {4} = 1 M _ {1} W
 $$
-
-### 第 5 题 (11分)
-
-下图是 $\mathrm{Cd}_3\mathrm{PCl}_3$ 的正当晶胞结构，请仔细观察并回答问题。
-
-![](images/42eddd6f2abf98ff7530eb50bc357b347548532779048cb67198b25ee57dd567.jpg)
 
 > ✅ 答案由源《ZCHEM-GChO58解析手稿.md》第 4 题回收补录（回源核对 2026-09-27）。
 

@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "质心GChO-ZCHEM-GChO40"
 source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO40试题.md"
+quality_warning: "答案区尾部原混入下一题标题与题干（源答案卷错排），已剔除以避免组卷时污染；剔出处见本卡校勘注。"
 ---
 
 # 题-GChO-40-07-如下反应是GCHO29考试的
@@ -79,28 +80,6 @@ A : 9
 每个1
 
 ![](images/605037c358d8105a02744ee534e04e0cd92ad48e3859a4a0a7905a49f031da93.jpg)
-
-### 第 8 题(15分)
-
-磷是有机化学的重要组成元素，尤其在生物有机化学(农药，药物，生物大分子等)，有机配体等
-
-![](images/18c2252de663d307c819ea1bec8fc8b965f89ec21d450c6bbf1c54ca0ac29932.jpg)
-
-![](images/0aaf932d82de690f0c0258afc03503da2fe7cfe791fe14a30a4dd941d82c9e66.jpg)
-
-![](images/069e65eec7ef3feeb2e1d5eff7dc2c6fad0845b4644ea819cab10a6d267bef4c.jpg)
-
-$$
-(r e t r o - i n s e r l o r)
-$$
-
-$$
-r e t r o - c y c l o a d d i t m
-$$
-
-(每个13场1', )
-
-Z: 弯式左(A) - 1'
 
 > ✅ 答案由源《ZCHEM-GChO40解析手稿.md》第 7 题回收补录（回源核对 2026-09-27）。
 

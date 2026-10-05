@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "XeChem-Xechem模拟一"
 source_file: "2026机构初赛模拟题/03-XeChem/Xechem模拟一.md"
+quality_warning: "答案区尾部原混入下一题标题与题干（源答案卷错排），已剔除以避免组卷时污染；剔出处见本卡校勘注。"
 ---
 
 # 题-XeC-Xechem模拟一-06-环对苯撑cycloparap
@@ -156,14 +157,6 @@ $H_{b}$ : -4.6 ppm $H_{c}$ : -8.9 ppm $H_{d}$ : -14.5 ppm (2 分，有错不得�
 
 $H_{b}$ 与 $H_{c}$ 耦合， $H_{c}$ 与 $H_{d}$ 耦合（1 分，答到耦合即可得分）
 Nat Commun 14, 8091 (2023)
-
-### 第 7 题 Lu, Levin & Isodiazene（共25分，占 $13\%$ ）
-
-异二氮烯（Isodiazene/1,1-diazene）化学是近十年来兴起的一个新兴研究领域。其核心结构结构如下所示。
-
-![](images/0dcde5e858d248100a795f5a04009eef2a111b99b26c39262e2e21486fda5c88.jpg)
-
-氮删除（nitrogen deletion）是伴随异二氮烯化学发展而提出的一种合成策略，主要指删除底物中的二级胺氮原子，或将一级胺进行脱氨官能化。该策略的优势在于，许多胺类骨架的骨架构建和手性控制，往往比删除氮后的烷基骨架简便。
 
 > ✅ 答案由源《Xechem模拟一答案.md》第 6 题回收补录（回源核对 2026-09-27）。
 

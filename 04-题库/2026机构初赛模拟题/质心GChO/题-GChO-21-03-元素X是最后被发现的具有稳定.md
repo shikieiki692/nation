@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "质心GChO-ZCHEM-GChO21"
 source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO21试题（线下营）.md"
+quality_warning: "答案区尾部原混入下一题标题与题干（源答案卷错排），已剔除以避免组卷时污染；剔出处见本卡校勘注。"
 ---
 
 # 题-GChO-21-03-元素X是最后被发现的具有稳定
@@ -166,10 +167,6 @@ $$
 $$
 + 7.6 > 6.
 $$
-
-### 第 4 题(8分)
-
-在某体积可变的恒压密闭容器中可以发生反应： $\mathbf{A}(\mathrm{g}) + \mathbf{B}(\mathrm{g}) = \mathbf{C}(\mathrm{g})$ ，为了测定反应在 $298\mathrm{K}$ 下的平衡常数，在一个标准大气压 $p^{\ominus}$ 下，向该容器中充入 $3.0\mathrm{mol}$ A(g)与 $2.0\mathrm{mol}$ B(g)，反应达平衡时，测定 $\mathbf{C}(\mathrm{g})$ 的物质的量为 $n = 0.70\mathrm{mol}$ 。
 
 > ✅ 答案由源《ZCHEM-GChO21解析手稿.md》第 3 题回收补录（回源核对 2026-09-27）。
 

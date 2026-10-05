@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "质心GChO-ZCHEM-GChO56"
 source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO56试题.md"
+quality_warning: "答案区尾部原混入下一题标题与题干（源答案卷错排），已剔除以避免组卷时污染；剔出处见本卡校勘注。"
 ---
 
 # 题-GChO-56-08-如下是某个没啥用的分子her
@@ -73,12 +74,6 @@ $$
 ≠ 得写≠不8分.
 
 ![](images/75ce98e8c3922bc6958dc2700d3bd0d07ef12d91eef3fb79fc042cc0125475bf.jpg)
-
-### 第 9 题(13分)
-
-苯环作为可以大量获得的化工原料，一直是化工合成的理想原料。利用苯环可以实现多种转化，其中一种如下：
-
-![](images/d46e1058a099a0bbfa1d2a5f5b6d665cc0fcb53fb63d1d1873c6af241de075f0.jpg)
 
 > ✅ 答案由源《ZCHEM-GChO56解析手稿.md》第 8 题回收补录（回源核对 2026-09-27）。
 

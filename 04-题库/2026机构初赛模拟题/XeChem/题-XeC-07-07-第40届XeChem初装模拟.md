@@ -26,6 +26,7 @@ source_tier: 2
 source_norm: "XeChem-Xechem模拟7"
 source_file: "2026机构初赛模拟题/03-XeChem/Xechem模拟7.md"
 mixed_content: true   # 正文含相邻题段落（拆卡越界），勿整卡组卷
+quality_warning: "答案区尾部原混入下一题标题与题干（源答案卷错排），已剔除以避免组卷时污染；剔出处见本卡校勘注。"
 ---
 
 # 题-XeC-07-07-第40届XeChem初装模拟
@@ -120,22 +121,6 @@ TMSOTf, DTBP, PhCH₃, 60 °C
 ![](images/24cd8464f8bbd26f679f1e71e5fd4512795fccb64a86d08eaed3c8047dd015c0.jpg)
 
 ![](images/3b77fa2cc0cdaeac75894ac9e5738384e5e93a36915324e749c27b6a8da1104d.jpg)
-
-### 第 8 题联烯的环加成（13分，占 $9\%$ ）在40多年前描述的分子内芳烃-联烯环加成反应能够形成巨大合成潜力的多环化合
-
-![](images/146c88db27ae54eb7c4745e43417777f07236b92348eb2ba325a25956041ee59.jpg)
-
-(各一分, 共3分)
-
-![](images/cc3799acd66f98d1d8f9305ffdcca082bf736cbfdfac28710d546113152f852a.jpg)
-
-![](images/b6125ca7252290ca14371d109fb7911b0fd2cbe9a604ed11672e253f2d984611.jpg)
-
-![](images/c28d74a385cff19257b722451a0707b9ab8943ae6f83e1aef137975d3d0ab616.jpg)
-
-![](images/0836e95718ed8f887a41010773ed6451b0c7e0f1c9c6ad5b1765d6afa6c1efa2.jpg)
-
-![](images/2394f7bf16926e5a9d3a2f332f610fdbee1156734b3b47986a693f2cc09cdb76.jpg)
 
 > ✅ 答案由源《Xechem模拟7答案.md》第 7 题回收补录（回源核对 2026-09-27）。
 
