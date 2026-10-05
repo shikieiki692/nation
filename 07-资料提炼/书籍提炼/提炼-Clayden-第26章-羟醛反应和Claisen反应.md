@@ -357,7 +357,7 @@ knowledge_points: [烯醇, 亲核加成, Reformatsky反应, Michael加成, 羟�
 - [[烯醇硅醚]] —— Mukaiyama Aldol 的关键试剂
 - [[Wittig反应]] —— Ch27 详述，Ch26 中提及共轭 Wittig 试剂
 - [[Michael加成]] —— Robinson 增环的第一步
-- [[1,3-二羰基化合物]] —— Knoevenagel 反应的底物，Claisen 缩合的产物
+- [[缩合反应]] —— Knoevenagel 反应的底物，Claisen 缩合的产物
 - [[β-酮酯]] —— Claisen 缩合产物，可水解脱羧得酮
 - [[逆合成分析]] —— Ch28 将用 Aldol/Claisen 切断讨论合成设计
 - [[立体化学]] —— Zimmerman-Traxler 模型预测 anti/syn 选择性

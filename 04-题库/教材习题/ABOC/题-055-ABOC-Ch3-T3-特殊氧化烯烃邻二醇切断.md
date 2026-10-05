@@ -9,7 +9,7 @@ difficulty: 3
 question_type: [产物预测, 谱图推断]
 teaching_level: 巩固
 syllabus_codes: ["32", "34"]
-knowledge_points: ["[[有机锂试剂]]", "[[产物结构推断]]", "[[1H NMR]]"]
+knowledge_points: ["[[有机锂试剂]]", "[[邻二醇切断]]", "[[1H NMR]]"]
 tags: [化竞, ABOC, 有机化学, 有机锂试剂, NMR]
 updated: 2026-09-25
 answer_status: 待补

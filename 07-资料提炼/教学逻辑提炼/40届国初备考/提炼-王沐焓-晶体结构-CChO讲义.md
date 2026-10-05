@@ -8,7 +8,7 @@ source_type: 竞赛讲义
 serve_rounds: [第二轮, 第三轮]
 difficulty_level: 综合~拔高
 tags: [晶体结构, 空间点阵, 结构基元, 化学环境, 复杂晶体, HChO, 40届国初备考, bdwp]
-target_kp: ["[[晶体结构]]", "[[空间点阵]]", "[[结构基元]]", "[[晶胞]]", "[[密堆积]]"]
+target_kp: ["[[晶体结构]]", "[[空间点阵]]", "[[点阵类型]]", "[[晶胞]]", "[[密堆积]]"]
 created: 2026-09-21
 updated: 2026-09-22
 stage: needs_review
