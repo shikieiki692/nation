@@ -96,167 +96,32 @@ A 为白色氧化物粉末； $1.578 \mathrm { g } \mathsf { A }$ 经足量CO �
 
 ## 参考答案
 
-## 第9题 缩合反应及进程探究（16分，占 $9\%$ ）
+9-1 在三氟乙酸酐(简写为 TFAA)的存在下，TT 试剂可以与普通烯烃反应，立体选择性的得到对应的硫正中间体，反应如下图所示：
 
-9-1 苯甲醛与苯乙酮在控制条件下缩合得到 A，A 在 $BF_{3}\cdot Et_{2}O$ 存在下在干燥的二氯甲烷中继续与苯乙酮反应可生成正离子 B：B 比 A 多 2 个芳环。画出 A 和 B 的结构简式。
+![](images/d7c7cf2872e112aa110da3b5fa7479499ceb5db2b5fcbbac54fdc99c84f4f02a.jpg)
 
-![](images/4d0c801db8426071efe25ac41bb38463dc9de6bed33ab50d436774834e337b20.jpg)
+![](images/9ae49f2418da342107848c6089c8d729197fa85163c14ba6cf3132d30b3fe425.jpg)
 
-9-1
+9-1-1 以反式产物为例，画出上述转化所有关键中间体的结构简式。
 
-![](images/2b4937a042867f7e5cd51688f0638d4a83ef0f248887a15881c213629640a974.jpg)
-(2 分)
+9-1-1
 
-![](images/3e9bd6dffeaf7e0570b14c85ce580c70fc6712db1c585e52d8f185186aa15b27.jpg)
-(3 分)
+![](images/cf5f060a83962b314232fe852de90941587000588bc8958af108d27644b18ad4.jpg)
 
-9-2 构建 $C^{sp2}-CN$ 与 $C^{sp2}-H$ 之间的碳碳键，常需要金属催化剂进行；但经过巧妙设计通过酸催化下串联缩合反应便可以快速实现：
+(各 2 分)
 
-![](images/afba6c6e38d4b9b1cbae2986e60b2afbb7c3d2fd126d3a939cd238cd3d485738.jpg)
+9-1-2 解释反应立体选择性的来源。
 
-将温度降低到 $65^{\circ}C$ 时，主产物为 $\mathbf{D}(\mathrm{C}_{24}\mathrm{H}_{18}\mathrm{N}_{2})$ 。画出 C 和 D 的结构简式，指出构建 $C^{sp2}-CN$ 与 $C^{sp2}-H$ 之间的碳碳键的反应名称。
-降低到65°C 时，主产物为D(C24H18N2
+9-1-2 TT 试剂形成双正离子中间体，与烯烃发生 DA 反应的过程保留了烯烃的立体化学（1 分），后续的消除过程为 E2 机理，应满足反式共平面的立体化学需求。（1 分）
 
-9-2
+9-2 根据上述信息，完成如下反应，画出主要产物的结构简式。
 
-![](images/b7bc386a68961e09a1e1fb38bf002533e9c5dc4e122d6038c9b181a30e5d20a0.jpg)
-C (2 分)
+![](images/adeb6b79d6a46244aaa740b7868d591d7ac12b3e50ad5c019f579d72db97c2d4.jpg)
 
-![](images/2815eba7b97413a01d3bfec7da89eafadff2521da9513635756604f0cb28a3aa.jpg)
-D（2分）
+9-3 用反应式或反应中间体的方式解释 9-2-2 的区域选择性。
+9-3
 
-反应名称： $6\pi$ 电环化反应。（1 分）答周环反应、电环化反应，都可以
-9-3 对以下缩合反应进行研究：
-
-![](images/b4a19f678927a4faf96ea6212f98082c27ec3a9714400d9d755cffaaa84dd607.jpg)
-
-对该反应进程监测发现，在最开始的半小时里，化合物 $\mathbf{E}(\mathrm{C}_{10}\mathrm{H}_{11}\mathrm{NO}_{2})$ 大量生成，并有少量 $\mathbf{F}(\mathrm{C}_{16}\mathrm{H}_{18}\mathrm{N}_{2}\mathrm{O}_{2})$ 生成；1 小时后，E 逐渐减少，而 F 大量生成；此时开始有少量 $\mathbf{G}(\mathrm{C}_{16}\mathrm{H}_{18}\mathrm{N}_{2}\mathrm{O}_{2})$ 生成；2 小时后体系里主要物质仅为 G。为进一步验证反应机理，将 E 与苯胺投入反应体系中，8 小时后得到了产率 80% 的 G；将 F 单独在该反应条件下反应，得到了产率 90% 的 G。 $^{1}$ H-NMR 表明 G 中有 8 个芳基氢。画出 E 和 F、G 的结构简式。
-
-![](images/6544a0a1f8cbea1e3106e828acf618cc24b31779bbb4aa02e3bbbdb37fbc53ab.jpg)
-第 10 题 高价碘与酚环的反应（26 分，占 15%）
-
-在六氟异丙醇中，利用碘苯二乙酸作为氧化剂实现了如下所示酚类化合物的氧化重排反应：
-
-![](images/3cf1af42fcba1783cea646652086959205de62fd2ffd63e7bf4dd0936b5c8629.jpg)
-
-A 的 ${}^{1}$ H-NMR (600 MHz, CDCl $_{3}$ ) 谱：δ(ppm): 7.16(2H), 6.97 (2H), 2.59 (2H), 2.54 (2H), 1.74 (2H), 1.59 (2H), 1.44 (2H), 1.35 (2H), 0.97 (3H), 0.92 (3H)。回答以下问题。
-
-10-1 画出以上反应的产物 A 的结构简式。
-
-10-1
-
-![](images/4891f1499f363f73564a348ddd35291e866fb9f092b4f610bb42028cc77f86dd.jpg)
-
-10-2 根据以上研究结果，分别画出以下氧化重排产物 B\~E 的结构简式(提示：PhI(OAc) $_{2}$ 均为 1 当量；C 中不含七元环)。
-
-10-2-1
-
-![](images/f2bdbc28a52e7da3176ae4de59d9730669d00eef46f641ec657a1cf15e07b724.jpg)
-
-10-2-2
-
-![](images/61a98f709d733830576b8790fb457be8277276c6241441e3f80ae0f7d3058dc0.jpg)
-10-2-3
-
-![](images/def82ab1944300f4fa970c97cf115501d3ba5b0dc46e03015a542ce432520770.jpg)
-
-(各2分)
-
-![](images/0c92b1341a57579c61c2a388e47106b62f7722855cdab152cb49f7962a2b79d8.jpg)
-
-10-3 当反应体系中存在亲核试剂时，可能会发生进一步的反应：
-
-![](images/03587dd3e456348533496458bee302852947cae4d875f9e63e15661c095c96d4.jpg)
-
-10-3-1 画出 E、 $\mathbf{F}(\mathrm{C}_{10}\mathrm{H}_{14}\mathrm{O}_{2})$ 的结构简式。
-
-10-3-2 画出由底物生成 E 经历的所有关键中间体。
-
-10-3-3 若使用的水为 $H_{2}^{18}O$ ，画出能得到的所有 E 的结构简式。
-
-10-3-1
-
-10-3-2
-![](images/0f2756183d6bd8bc4860796f947849b25c1afc156e1d7db7cd5d05b02d6ed0a3.jpg)
-
-![](images/fdc57b7b01606427bf543b8f6b917d3fd277d0256625f6e021604e8832ae16a2.jpg)
-
-画成对应的正离子或负离子形式，也可以
-
-10-3-3
-
-![](images/b6620c072464b338343084f9fd21c5000c4f8b6583274b6403376cf359318a41.jpg)
-
-![](images/c48d057c8e796e6ca2d8d98fa856fabf3048db9861dd310022f4856d9faec55e.jpg)
-(1 分)
-
-![](images/cb0792cf298721a19ace33d4d3bc300579899aa19095f8908ba107c7168013a7.jpg)
-(1 分)
-
-10-4 将以上反应利用到全合成中，可以构建生物碱 Neblinine 中的核心四环结构。画出 G、 $\mathsf{H}(\mathrm{C}_{19}\mathrm{H}_{28}\mathrm{I}_{2}\mathrm{O}_{4}\mathrm{Si})$ 、I、J、K、 $\mathsf{L}(\mathrm{C}_{14}\mathrm{H}_{18}\mathrm{INO}_{3})$ 的结构简式(提示：H 的环外双键为 E 构型；L 为四环化合物；不要求立体化学)。
-
-![](images/766b2ca03fe9185fe183bad72822784706d08f53919ca9392f1d4d4a99a6907e.jpg)
-
-第 1 题 含碳物种（20 分，占 9%）
-
-1-1 在 $1400^{\circ}$ C 下，氧化镁与甲烷作用；该反应生成的固体为化合物 X；X 含碳而不含氢。X 化学性质活泼，遇水分解放出气体；气体干燥后 $25^{\circ}$ C，101.325 kPa 下的密度为 1.64 g/L。
-
-1-1-1 通过计算，推出 X 的化学式；写出生成 X 以及 X 遇水分解的化学反应方程式。
-
-1-1-2 画出 X 阴离子的 Lewis 结构式。
-
-$$
-1 - 1 - 1 M = \rho R T / p = 1.64 \mathrm{g} / \mathrm{L} \times 8.314 \mathrm{J} / (\mathrm{mol} \mathrm{K}) \times 298.15 \mathrm{K} / 101.325 \mathrm{kPa} = 40.1 \mathrm{g} / \mathrm{mol} (2 \text {分})
-$$
-
-因此，反应放出的气体为 $C_{3}H_{4}$ ; X 的阴离子为 $C_{3}^{4-}$ ; X 为 $Mg_{2}C_{3}$ （2 分）
-
-$$
-2 \mathrm{MgO} + 3 \mathrm{CH} _{4} \rightarrow \mathrm{Mg} _{2} \mathrm{C} _{3} + 2 \mathrm{H} _{2} \mathrm{O} + 4 \mathrm{H} _{2} (2 \text {分})
-\mathrm{Mg} _{2} \mathrm{C} _{3} + 4 \mathrm{H} _{2} \mathrm{O} \rightarrow 2 \mathrm{Mg} (\mathrm{OH}) _{2} + \mathrm{HC} \equiv \mathrm{CCH} _{3} (2 \text {分})
-$$
-
-产物写 $C_{3}H_{4}$ 或 $H_{2}C=C=CH_{2}$ ，可不扣分。
-
-1-1-2
-
-![](images/afb9a081bc85dad529f3006533df94884afeeeae9c28d696ff2fbc29c1146e69.jpg)
-
-形式电荷标为总电荷，也可以得分；
-
-若不标电荷，只得 1 分。
-
-1-2 将铼(Re)的单核配合物 A $[\mathrm{Re}(\mathrm{NO})(\mathrm{Cp}^{*})(\mathrm{PPh}_{3})(\mathrm{C}_{2}\mathrm{H})](\mathrm{Cp}^{*}$ 为五甲基环戊二烯基；Ph 为苯基)用醋酸铜和吡啶处理，得到含 $[C_{4}]$ 配体的双核配合物 B；B 经 $AgPF_{6}$ 氧化可得到阳离子 $B^{2+}$ 。A、B、 $B^{2+}$ 均满足 18 电子规则。
-
-1-2-1 画出 A 的结构示意图；指出 Re 的氧化态。
-
-1-2-2 分别画出 B 和 $B^{2+}$ 的结构示意图。 $[C_{4}]$ 之外的配体可不示出。
-
-1-2-3 在 $\mathrm{Co}_{6}(\mathrm{CO})_{18}(\mathrm{C}_{4})$ 中，所有 Co 化学环境相同；画出其结构示意图。CO 配体可不示出。
-1-2-1
-
-![](images/8465fd8f3394397364eafdd8f5fdd6d22e2b3c64b10915f1e93d6eeacd642edc.jpg)
-
-1-2-2
-
-(2 分) 氧化态为+1 (1 分)
-
-![](images/7afba38e8bbbfa5955a22ed6b1191ac9f64d3d2da3f6e49010ce05425b7ffd48.jpg)
-
-(2 分)
-
-![](images/0d5ab3566dab5a34749d72ed9f52f3f42fc4106819efbdf696f7704d3c438745.jpg)
-
-(2 分)
-
-键级表示不合理的，不得分。
-
-1-2-3
-
-![](images/b3111929925420e0d7bfcdfcf8108905d194028edba2424e0d907349979e4603.jpg)
-(3 分)
-
-不要求 C-C 单键构象。
+![](images/6babd3c7f712dcd899368d48ffc865aef553fee66c64f4103b001813dde1f257.jpg)
 
 ## 知识点映射
 
