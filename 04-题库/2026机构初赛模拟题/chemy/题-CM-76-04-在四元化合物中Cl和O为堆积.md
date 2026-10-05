@@ -26,6 +26,7 @@ source_grade: A
 source_tier: 2
 source_norm: "chemy-第34届chemy模拟3"
 source_file: "chemy试题/第34届Chemy化学奥林匹克题目合集..md"
+quality_warning: "源无答案（源卷为纯题目合集）；答案区为占位语，组卷不可用"
 ---
 
 # 题-CM-76-04-在四元化合物中Cl和O为堆积
@@ -46,7 +47,9 @@ source_file: "chemy试题/第34届Chemy化学奥林匹克题目合集..md"
 
 ## 参考答案
 
-## 第4题（8分）
+> ⛔ 源无答案：源卷（chemy 第34届模拟题合集）为纯题目合集，未含参考答案。
+>
+> 组卷时该题不可用；如需答案请回源 `chemy试题/第34届Chemy化学奥林匹克题目合集..md` 核对。
 
 ## 知识点映射
 
