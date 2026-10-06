@@ -242,6 +242,20 @@ def strip_fm(text: str):
     return text, {}
 
 
+def strip_withdrawn(body: str) -> str:
+    """删除 `<!-- BEGIN WITHDRAWN … -->` 与 `<!-- END WITHDRAWN … -->` 之间的**整块内容**。
+
+    ⚠️ 普通 `re.sub(r"<!--.*?-->", "")` 只能删注释标记本身，两条标记之间的正文
+    （撤题题面＋答案）会原样流入发布稿 —— 卷 IX 第 7 题（题-288）曾因此泄漏。
+    撤题内容必须**彻底删除**，不留痕。
+    """
+    return re.sub(
+        r"<!--\s*BEGIN\s+WITHDRAWN[\s\S]*?<!--\s*END\s+WITHDRAWN[^>]*-->",
+        "",
+        body,
+    )
+
+
 def extract_stem(path: Path):
     """返回 (题面 md, warnings[list])"""
     t = path.read_text(encoding="utf-8", newline="").replace("\r\n", "\n")
@@ -249,6 +263,7 @@ def extract_stem(path: Path):
     if path.stem in CURATED_STEMS:
         return CURATED_STEMS[path.stem].strip(), fm, ["人工精修题面（CURATED_STEMS）"]
     # <details> 块整体剥离（教师侧答案折叠块）；HTML 校勘注释不入学生卷
+    body = strip_withdrawn(body)          # 先整块删除撤题内容（含 BEGIN/END 之间正文）
     body = re.sub(r"<details>.*?</details>", "", body, flags=re.S)
     body = re.sub(r"<!--.*?-->", "", body, flags=re.S)
     lines = body.split("\n")
@@ -332,6 +347,7 @@ def extract_answer(path) -> str:
     """教师版用：从 ANS_SECTION 边界起提取答案区（清洗 details/校验注释）"""
     t = path.read_text(encoding="utf-8", newline="").replace("\r\n", "\n")
     body, _fm = strip_fm(t)
+    body = strip_withdrawn(body)          # 先整块删除撤题内容（含 BEGIN/END 之间正文）
     body = re.sub(r"<details>.*?</details>", "", body, flags=re.S)
     body = re.sub(r"<!--.*?-->", "", body, flags=re.S)
     lines = body.split("\n")

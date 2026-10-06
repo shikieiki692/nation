@@ -365,7 +365,24 @@ def normalize_dd(txt):
 EXAM_NOTE = re.compile(r"^>\s*\*\*考试说明\*\*")
 
 
+def callout_to_quote(text: str):
+    """Obsidian callout `> [!type] 内容` → pandoc 不识别，会把 `[!type]` 原样渲成乱码文本。
+    统一剥去 `[!type]`(+可选标题) 标记，保留 `> ` 引用块（pandoc 渲为普通引用）。
+    实测卷IX 有 2 处（[!warning] 撤题说明、[!info] 复算核验）。"""
+    def rep(m):
+        rest = m.group(2).strip()
+        return f"> {rest}" if rest else ">"
+    return re.sub(r"^(>+\s*)\[!\w+\][-+]?\s*(.*)$", rep, text, flags=re.M)
+
+
 def transform_md(text: str, drop_exam_note: bool = True, title_suffix: str = ""):
+    # 先整块删除撤题内容：pandoc 只删注释标记、不删标记之间的正文 ⇒ 卷IX 第7题会泄漏
+    text = re.sub(
+        r"<!--\s*BEGIN\s+WITHDRAWN[\s\S]*?<!--\s*END\s+WITHDRAWN[^>]*-->",
+        "",
+        text,
+    )
+    text = callout_to_quote(text)
     lines = text.split("\n")
     i = 0
     # 剥 frontmatter
@@ -378,6 +395,10 @@ def transform_md(text: str, drop_exam_note: bool = True, title_suffix: str = "")
     while i < len(lines):
         ln = lines[i]
         s = ln.strip()
+        # 撤题行（选题清单中标记「已撤题 / 隔离」的表格行）不得出现于发布稿
+        if s.startswith("|") and ("已撤题" in s or "撤题隔离" in s):
+            i += 1
+            continue
         if s.startswith("# ") and title is None:
             t = s[2:].strip()
             t = re.sub(r"\s*[·・]\s*(?:学生版|答案版)(?=\s*）)", "", t)   # （非有机 · 学生版）→（非有机）
@@ -615,6 +636,56 @@ def force_jc(p: str, val: str) -> str:
     return _insert_into_pPr(p, "jc", xml)
 
 
+# 图片尺寸上限（EMU），与 11-模板/scripts/docx_utils.py 的图片定尺逻辑保持一致
+# （横向 ≤10cm / 纵向 ≤7cm / 方形 ≤9cm；小图放大到 5cm），避免两套产物图大小不一致。
+CM_TO_EMU = 360000
+MAX_LANDSCAPE = int(10.0 * CM_TO_EMU)
+MAX_PORTRAIT = int(7.0 * CM_TO_EMU)
+MAX_SQUARE = int(9.0 * CM_TO_EMU)
+MIN_WIDTH = int(4.0 * CM_TO_EMU)
+ENLARGE_TARGET = int(5.0 * CM_TO_EMU)
+EXTENT_RE = re.compile(r'<wp:extent cx="(\d+)" cy="(\d+)"')
+A_EXT_RE = re.compile(r'<a:ext cx="(\d+)" cy="(\d+)"')
+
+
+def cap_image_width(p: str) -> str:
+    """按宽高比限制图片尺寸（横向≤10cm/纵向≤7cm/方形≤9cm；过小图放大到 5cm）。
+
+    pandoc 默认把图放大到页宽，真题版式原先无任何约束 ⇒ 卷VII 第1题三张小图竖排
+    占满整页。此函数按 aspect 定尺，与基础版（docx_utils）口径统一。
+    """
+    def _size(cx, cy):
+        if cx <= 0 or cy <= 0:
+            return cx, cy
+        aspect = cx / cy
+        if aspect > 1.3:
+            max_w = MAX_LANDSCAPE
+        elif aspect < 0.7:
+            max_w = MAX_PORTRAIT
+        else:
+            max_w = MAX_SQUARE
+        if cx < MIN_WIDTH:
+            r = ENLARGE_TARGET / cx
+            return ENLARGE_TARGET, int(cy * r)
+        if cx > max_w:
+            r = max_w / cx
+            return max_w, int(cy * r)
+        return cx, cy
+
+    def rep(m):
+        cx, cy = _size(int(m.group(1)), int(m.group(2)))
+        return f'<wp:extent cx="{cx}" cy="{cy}"'
+
+    # 同步更新 drawingml 的 a:ext（与 wp:extent 成对出现，保持尺寸一致）
+    def rep_a(m):
+        cx, cy = _size(int(m.group(1)), int(m.group(2)))
+        return f'<a:ext cx="{cx}" cy="{cy}"'
+
+    p = EXTENT_RE.sub(rep, p)
+    p = A_EXT_RE.sub(rep_a, p)
+    return p
+
+
 SKIP_STYLES = {"Heading1", "Heading2", "Heading3", "Heading4", "Heading5",
                "Heading6", "Title", "Subtitle", "BlockText", "SourceCode",
                "TableCaption", "ImageCaption", "Caption"}
@@ -668,6 +739,8 @@ def process_document_xml(xml: str, stat: dict) -> str:
         if has_draw or has_disp_math:
             p = set_spacing(p, line_mult=1.0, before_pt=6, after_pt=6)
             p = force_jc(p, "center")
+            if has_draw:
+                p = cap_image_width(p)      # 限制单图最大宽度，防小图被放大撑满整页
             stat["img"] += 1
             out.append(p); continue
 
