@@ -47,6 +47,8 @@ PLAN_OUT = os.path.join(HERE, 'vol_plan_%s.json' % VOL)
 #   实测 source_norm 大量不带年份字样（质心GChO/UChO、汇智、一式、方圆…）⇒ 硬闸误杀 2019 张。
 ALL_YEARS = ('--all-years' in sys.argv) or (os.environ.get('ALL_YEARS') == '1')
 JIE = re.compile(r'第\s*(\d+)\s*届')
+OVERFLOW_HITS = []        # 越界闸命中（路径, 本卡题号, 原因）
+HANDWRITTEN_HITS = []     # 手写稿闸命中（路径）
 PLACEHOLDER = re.compile(r'⛔|源池(无|仅|未见)|未录入|未定位|待人工核'
                          r'|文字化需人工转录|已随卡|源卷答案|答案出处[：:]'
                          r'|文字层自动提取|未逐字校对|答案（源 ?PDF')
@@ -77,6 +79,73 @@ LEAK = re.compile(
     r'注意此题|请注意本题|希望我的|这题[^\n]{0,8}没救|黄金好|大声|记住这个|送分')
 # 批次级排除：源为「讲稿」（授课脚本，题面混入讲解/口播）
 BATCH_BAD = re.compile(r'讲稿')
+
+# ── ★ 越界闸（SOP §七 的 P0 闸，2026-10-07 落码）──────────────────────────
+# 症状：源卡 OCR 建卡时**边界判断越界**，把「下一题」的开头并进本卡的题面/答案区
+#   （实测 题-YJ-01-03 第3题答案尾部滚入「## Se的元素化学…完成 4-5 两题」）。
+# 判据（ARCHIVE §十三：「答案区越界」按 **int** 比题号）：
+#   ① 题面区或答案区出现「第 M 题」且 M > 本卡题号；
+#   ② 答案区出现**行首小问组** `M-K`（M > 本卡题号）。
+# 命中即**弃卡**（SOP 铁律：优先换卡，不硬修）。
+_CN2INT = {'零': 0, '一': 1, '二': 2, '三': 3, '四': 4, '五': 5, '六': 6, '七': 7,
+           '八': 8, '九': 9, '十': 10}
+QW_RE = re.compile(r'第\s*([0-9]{1,2}|[一二三四五六七八九十]{1,3})\s*题')
+# 行首小问组：可带 #/** 前缀；后随空白/顿号/括号/行尾；且后一位不得是数字（防日期 2024-1）
+SUBQ_HEAD_RE = re.compile(
+    r'(?m)^[ \t]*(?:#{1,4}[ \t]*)?\*{0,2}[ \t]*(\d{1,2})\s*[-－]\s*\d{1,2}'
+    r'(?:\s*[-－]\s*\d{1,2})?(?![0-9])')
+
+
+def _cn2int(s):
+    s = s.strip()
+    if s.isdigit():
+        return int(s)
+    if s == '十':
+        return 10
+    if len(s) == 1:
+        return _CN2INT.get(s)
+    if s.startswith('十'):
+        return 10 + _CN2INT.get(s[1], 0)
+    if '十' in s:
+        a, _, b = s.partition('十')
+        return _CN2INT.get(a, 0) * 10 + (_CN2INT.get(b, 0) if b else 0)
+    return None
+
+
+def own_qno(text, path):
+    """本卡题号：优先题目 H1（`第 N 题`，含中文数字），回退文件名 `题-…-NN-MM` 的 MM。"""
+    m = re.search(r'^#{1,4}\s*第\s*([0-9]{1,2}|[一二三四五六七八九十]{1,3})\s*题', text, re.M)
+    if m:
+        n = _cn2int(m.group(1))
+        if n:
+            return n
+    m = re.search(r'题-[A-Za-z0-9]+-\d+-(\d+)', os.path.basename(path))
+    return int(m.group(1)) if m else None
+
+
+# ── ★ 手写解析稿闸（2026-10-07）────────────────────────────────────────
+# 源「答案」实为**手写解析稿**的 OCR ⇒ 答案区混入口语/涂鸦（实测 题-GChO-37-05：
+# 「(4) ⇒ x = cd. D = cd s.」「200my 134.2my」「12分 ≥14 ≥10 awsl」）⇒ 答案不可用。
+# 词表保持**极窄**（只收明确的网络用语/涂鸦，避免误伤正常表述）。
+HANDWRITTEN = re.compile(r'awsl|yyds|栓Q|xswl|nsdd|凑不出|瞎写|乱写|随便写|懒得写|不会画')
+# ⚠️ 匹配前必须先剥「图引用 / 长十六进制哈希」——实测 `2333` 会命中图片名哈希（假阳性）
+_HW_STRIP = re.compile(r'!\[\[[^\]]*\]\]|!\[\]\([^)]*\)|[0-9a-fA-F]{24,}')
+
+
+def overflow_reason(q, a, own):
+    """越界判据；返回原因串或 None。"""
+    if not own:
+        return None
+    for seg, tag in ((q, '题面'), (a, '答案')):
+        for mm in QW_RE.finditer(seg):
+            n = _cn2int(mm.group(1))
+            if n and n > own:
+                return '%s区出现「第%s题」(>本卡第%d题)' % (tag, mm.group(1), own)
+    for mm in SUBQ_HEAD_RE.finditer(a):
+        if int(mm.group(1)) > own:
+            return '答案区出现行首小问组「%s-…」 (>本卡第%d题)' % (mm.group(1), own)
+    return None
+
 _MOD_LABEL = {'元素与分析': '元素化学与分析化学', '结构化学': '结构化学', '化学原理': '化学原理'}
 _CN_NUM = ['一', '二', '三', '四', '五', '六']
 
@@ -480,6 +549,10 @@ def fix_tex(s):
        只是不再对齐；实测 `gathered/aligned` 会**丢掉分行**，不可用）。
     """
     s = re.sub(r'\\sf\b\s*', '', s)
+    # ④ `\xlongequal{X}`（extpfeil）texmath 不认 ⇒ 整块公式印字面 `$` ⇒ 换 `\xrightarrow`
+    s = s.replace(r'\xlongequal', r'\xrightarrow')
+    s = s.replace(r'\xlongeq', r'\xrightarrow')
+
 
     def _dearray(m):
         return (r'\begin{array}' + (m.group(1) or '')
@@ -599,7 +672,17 @@ def desc_of(c):
     # 兜底 A：题面首句（到第一个句末标点；过长则在逗号处断，再退到空格/定长）
     q = re.sub(r'^#{2,4}\s*第\s*[0-9一二三四五六七八九十]+\s*题[^\n]*\n',
                '', c.get('question', ''), flags=re.M)
-    first = re.split(r'[。！？\n]', q.strip(), 1)[0].strip()
+    first = ''
+    for _raw in q.split('\n'):
+        _ln = _raw.strip()
+        if not _ln:
+            continue
+        if '![' in _ln or ']]' in _ln:      # ★ 跳过图引用行（题面首行常是 `![](...)`/`![[hash]]`）
+            continue
+        first = re.split(r'[。！？]', _ln, 1)[0].strip()
+        if first:
+            break
+    first = re.sub(r'!\[\[?[^\]]*\]?\]?', ' ', first)   # 兜底再剥一次行内图引用
     first = re.sub(r'\$[^$\n]*\$', ' ', first)          # 去行内公式（题7 的 `$\mathrm{Cr}$`）
     first = re.sub(r'^[\s.．·、,，;；:：\-（(「『“"《]+', '', first)
     first = re.sub(r'\s+', ' ', first)
@@ -621,6 +704,7 @@ def desc_of(c):
 
 def build_pool():
     pool = collections.defaultdict(list)
+    OVERFLOW_HITS.clear(); HANDWRITTEN_HITS.clear()
     for rel in SRCS:
         for p in sorted(glob.glob(os.path.join(BASE, rel, '**', '题-*.md'), recursive=True)):
             if p.replace(os.sep, '/') in EXCLUDE:      # ★ 回源核验发现问题 ⇒ 换卡
@@ -686,6 +770,17 @@ def build_pool():
                 continue
             if len(re.findall(r'^\*\*\s*\d{1,2}\s*[.．]\s*\*\*', q + '\n' + a, re.M)) >= 8:
                 continue
+            # ★ 手写解析稿闸：答案区含口语/涂鸦 ⇒ 弃卡
+            if HANDWRITTEN.search(_HW_STRIP.sub(' ', q + ' ' + a)):
+                HANDWRITTEN_HITS.append(p.replace(os.sep, '/'))
+                continue
+            # ★ 越界闸：题面/答案含「高于本卡题号」的题号 ⇒ 弃卡（换卡，不硬修）
+            _own = own_qno(t, p)
+            _of = overflow_reason(q, a, _own)
+            if _of:
+                OVERFLOW_HITS.append((p.replace(os.sep, '/'), _own, _of))
+                continue
+            q, a = fix_tex(q), fix_tex(a)      # ★ 不支持宏替换
             c['question'], c['answer'] = q, a
             c['qlen'] = len(qn); c['src_dir'] = rel
             c['recent'] = _recent
@@ -922,6 +1017,17 @@ def main():
             _c['path'] = _c['path'].replace('\\', '/')
     for m in pool:
         print('  pool[%s] = %d' % (m, len(pool[m])))
+    if OVERFLOW_HITS:
+        print('  ── ★ 越界闸命中 %d 卡（已弃卡；SOP：优先换卡）' % len(OVERFLOW_HITS))
+        for _p, _o, _r in OVERFLOW_HITS[:12]:
+            print('     [越界] 本卡第%s题  %-32s ← %s' % (_o, os.path.basename(_p)[:32], _r))
+        if len(OVERFLOW_HITS) > 12:
+            print('     … 其余 %d 卡见 .workbuddy/tmp/opt_pipe/overflow_hits.csv' % (len(OVERFLOW_HITS) - 12))
+        import csv as _csv
+        with open(os.path.join(HERE, 'overflow_hits.csv'), 'w', encoding='utf-8-sig', newline='') as _f:
+            _w = _csv.writer(_f)
+            _w.writerow(['path', 'own_qno', 'reason'])
+            _w.writerows(OVERFLOW_HITS)
     # ★ 载入既往各卷已用卡（vol_plan_*.json）⇒ 跨卷不重题（卷X 之前 main 里是 used=set()）
     used = set()
     for pf in sorted(glob.glob(os.path.join(HERE, 'vol_plan_*.json'))):
