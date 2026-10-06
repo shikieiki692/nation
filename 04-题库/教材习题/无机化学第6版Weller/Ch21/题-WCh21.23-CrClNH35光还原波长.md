@@ -23,7 +23,6 @@ created: 2026-08-27
 
 updated: 2026-09-24
 
-
 subject_module: 结构化学
 
 pack: 模块习题集
@@ -39,27 +38,20 @@ source_tier: 5
 source_norm: "无机化学第6版（Weller）"
 ---
 
-
-
 # 题-WCh21.23-CrClNH35光还原波长
-
-
 
 > **来源**：无机化学第6版（Weller等著，中文版）Ch21 练习题21.23
 
 > **难度**：⭐⭐⭐⭐⭐
 
-
-
 ## 题目
-
-
 
 根据图 20.33 中 $\left[\mathrm{CrCl}\left(\mathrm{NH}_{3}\right)_{5}\right]^{2+}$ 的谱图提出一种合适的波长以引发 $\mathrm{Cr(III)}$ 还原为 $\mathrm{Cr(II)}$ 的反应（伴随着一个配体被氧化）。
 
 ![[4fa678cd43d081abc72121746bbc51bf60f11140eea7d4b1570e12c011022c59.jpg]]
 
+---
+
+## 参考答案
 
 > **答案**：原书未提供解答（《无机化学》第6版练习题，OCR 源 `06-外部资料导入/无机化学Weller/无机化学第6版Welle19-21章.md` 不含答案区，2026-08-31 核查）。
-
-
