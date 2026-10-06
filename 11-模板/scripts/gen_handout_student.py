@@ -17,8 +17,19 @@ import pathlib
 
 name, mod = sys.argv[1], sys.argv[2]
 BASE = pathlib.Path("C:/Obsidion/妙妙屋/04-课件/学生讲义")
-SRC = BASE / mod / f"{name}-超级充实版（自学完整）.md"
-DST = BASE / "学生专用版" / mod / f"{name}-超级充实版（学生专用版）.md"
+cand_src1 = BASE / mod / f"{name}-超级充实版（自学完整）.md"
+if cand_src1.exists():
+    SRC = cand_src1
+    DST = BASE / "学生专用版" / mod / f"{name}-超级充实版（学生专用版）.md"
+else:
+    cand_src2 = BASE / mod / f"{name}.md"
+    if cand_src2.exists():
+        SRC = cand_src2
+        DST = BASE / "学生专用版" / mod / f"{name}-超级充实版（学生专用版）.md"
+    else:
+        raise FileNotFoundError(f"未找到源讲义文件: {name}（尝试了 {cand_src1.name} 与 {cand_src2.name}）")
+
+DST.parent.mkdir(parents=True, exist_ok=True)
 
 MOD = r"(?:详细|微观|完整|简要|逐步|逐题|逐问)*"
 # ---- 答案起始标记（独占一行的加粗标记）----
