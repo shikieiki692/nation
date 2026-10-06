@@ -27,7 +27,25 @@ BASE = '04-题库/2026机构初赛模拟题'
 QB = '04-题库'
 OUTdocx = os.path.join('00-首页', '题组Word', '初赛模拟卷')
 SRCS = ['化英社', '清北营', 'chemy', '伽马', '壹尖培优', '汇智', 'XeChem', '质心GChO', '质心UChO', '方圆', '一式', '北京夏令营', '2ChO']
-VOL = 'X'
+# ── 卷号参数化（`--vol XI`；默认 X 保持向后兼容）＋计划读写分离 ───────────────
+ROMAN = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X',
+         'XI', 'XII', 'XIII', 'XIV', 'XV']
+
+
+def _arg_vol():
+    for i, a in enumerate(sys.argv):
+        if a == '--vol' and i + 1 < len(sys.argv):
+            return sys.argv[i + 1]
+        if a.startswith('--vol='):
+            return a.split('=', 1)[1]
+    return os.environ.get('VOL') or 'X'
+
+
+VOL = _arg_vol()
+PLAN_OUT = os.path.join(HERE, 'vol_plan_%s.json' % VOL)
+# ★ 年份闸：默认仍作硬闸（保持卷X 行为不变）；`--all-years` 改为「排序偏好」——
+#   实测 source_norm 大量不带年份字样（质心GChO/UChO、汇智、一式、方圆…）⇒ 硬闸误杀 2019 张。
+ALL_YEARS = ('--all-years' in sys.argv) or (os.environ.get('ALL_YEARS') == '1')
 JIE = re.compile(r'第\s*(\d+)\s*届')
 PLACEHOLDER = re.compile(r'⛔|源池(无|仅|未见)|未录入|未定位|待人工核'
                          r'|文字化需人工转录|已随卡|源卷答案|答案出处[：:]'
@@ -114,6 +132,41 @@ def in_2526(norm, sf):
         return True
     t = norm + " " + os.path.basename(sf)
     return ("2025" in t or "2026" in t)
+
+
+def deep_fp(q, n=400):
+    """题面指纹（深归一）：用于**跨批次识别同一道题**（机构回收旧题）。
+    剥图片 / 表头 / LaTeX / 标点 / 空白 / 数字 ⇒ 只留中英文字符，取前 n 字。"""
+    s = q
+    s = re.sub(r'!\[\[?[^\]]*\]?\]', '', s)
+    s = re.sub(r'!\[[^\]]*\]\([^)]*\)', '', s)
+    s = re.sub(r'<img[^>]*>', '', s)
+    s = re.sub(r'(?m)^#{1,6}\s*第\s*[0-9一二三四五六七八九十]+\s*题[^\n]*$', '', s)
+    s = re.sub(r'(?m)^#{1,6}.*$', '', s)
+    s = re.sub(r'\$[^$]*\$', '', s)
+    s = re.sub(r'\\[a-zA-Z]+', '', s)
+    s = re.sub(r'[\\{}^_&]', '', s)
+    s = re.sub(r'[^\u4e00-\u9fffa-zA-Z0-9]', '', s)
+    s = re.sub(r'[0-9]+', '', s)
+    return s[:n]
+
+
+def shingles(text, k=5):
+    """字符 k-gram 集合（模糊判重：OCR 个别字差异不致漏判）。"""
+    return frozenset(text[i:i + k] for i in range(max(0, len(text) - k + 1)))
+
+
+def is_near(sh, seen, thr=0.80):
+    """与已选指纹集比较，Jaccard ≥ thr 视为同题。"""
+    if not sh:
+        return False
+    for o in seen:
+        if not o:
+            continue
+        inter = len(sh & o)
+        if inter and inter / len(sh | o) >= thr:
+            return True
+    return False
 
 
 def strip_q_echo(q, a):
@@ -514,7 +567,8 @@ def build_pool():
                 return m.group(1).strip() if m else ''
             mod, stage, diff = g('subject_module'), g('exam_stage'), int(g('difficulty') or 0)
             src = g('source'); norm = g('source_norm'); sf = g('source_file')
-            if not in_2526(norm, sf):
+            _recent = 1 if in_2526(norm, sf) else 0   # ★ 年份＝排序偏好（见 ALL_YEARS）
+            if _recent == 0 and not ALL_YEARS:
                 continue
             if BATCH_BAD.search(norm):     # 「讲稿」批次＝授课脚本，题面混讲解
                 continue
@@ -570,22 +624,34 @@ def build_pool():
                 continue
             c['question'], c['answer'] = q, a
             c['qlen'] = len(qn); c['src_dir'] = rel
+            c['recent'] = _recent
             c['intl'] = B.is_intl(tn)
             c['imgs'] = re.findall(r'!\[\[([^\]\|]+)\]\]', q + a)
-            # 去重指纹：剥掉 `### 第 N 题（…）` 表头（同题在不同批次里题号不同）
-            q_fp = re.sub(r'^#{3,4}\s*第\s*\d+\s*题[^\n]*\n', '', q, count=1, flags=re.M)
-            c['fp'] = re.sub(r'\s+', '', q_fp)[:120]
+            # 去重指纹：深归一题面（跨批次识别同一道题）＋ 5-gram 集合（模糊判重）
+            c['fp'] = deep_fp(q)
+            c['fpsh'] = shingles(c['fp'])
             pool[mod].append(c)
     return pool
 
 
-def pick_vol(pool, used, max_per_src=4):
+def fp_of_path(p):
+    """从任意卡文件重算 (deep_fp, shingles)（用于把「既往卷已用卡」的指纹种进 fps）。"""
+    try:
+        t = open(p, encoding='utf-8-sig').read().replace('\r\n', '\n')
+    except Exception:
+        return ''
+    i = t.find('## 题目'); j = t.find('## 参考答案')
+    q = t[i:j] if j > i > 0 else (t[i:] if i > 0 else '')
+    return deep_fp(q)
+
+
+def pick_vol(pool, used, max_per_src=4, fps0=None):
     picks = []
     per_src = collections.Counter()
-    fps = set()
+    seen_sh = list(fps0 or ())        # ★ 种入既往卷指纹 ⇒ 跨卷同题不重
     for mod, _, need in QUOTA:
         by_src = collections.defaultdict(list)
-        for c in sorted(pool[mod], key=lambda x: (-x['difficulty'], -x['qlen'])):
+        for c in sorted(pool[mod], key=lambda x: (-x.get('recent', 0), -x['difficulty'], -x['qlen'])):
             if c['path'] in used:
                 continue
             by_src[c['src_dir']].append(c)
@@ -601,11 +667,11 @@ def pick_vol(pool, used, max_per_src=4):
                 lst = by_src.get(s, [])
                 if r < len(lst):
                     c = lst[r]
-                    # 跨批次重复题（机构回收旧题）：同题只取一次
-                    if c['fp'] in fps:
+                    # 跨批次重复题（机构回收旧题）：模糊指纹判重，同题只取一次
+                    if is_near(c.get('fpsh'), seen_sh):
                         continue
                     got.append(c); used.add(c['path']); per_src[s] += 1
-                    fps.add(c['fp']); prog = True
+                    seen_sh.append(c.get('fpsh')); prog = True
             if not prog:
                 break
             r += 1
@@ -678,7 +744,9 @@ def write_vol(picks, flat, SC):
                 '# 初赛模拟卷 %s（非有机 · %s）' % (VOL, tag), '']
         segtxt = '、'.join('%s（第 %d–%d 题，%d 分）' % (lbl, seg_start[m][0], seg_start[m][1], seg_score[m])
                           for m, lbl, _ in QUOTA)
-        prev = ', '.join('[[04-题库/初赛模拟卷%s（非有机·答案版）|卷 %s]]' % (x, x) for x in ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX'])
+        before = ROMAN[:ROMAN.index(VOL)] if VOL in ROMAN else []
+        prev = '、'.join('[[04-题库/初赛模拟卷%s（非有机·答案版）|卷 %s]]' % (x, x)
+                          for x in before) or '—'
         if is_ans:
             out += ['> **组卷口径**：16 题跨 **%d 个来源机构**抽取（%s），全部取自各机构 '
                     '**2025~2026 年最新批次**（第39/40届 ＋ 2026 年班次）；均满足 `difficulty≥⭐⭐⭐⭐`、'
@@ -753,13 +821,69 @@ def write_vol(picks, flat, SC):
     return flat
 
 
+def load_plan_picks(pool, plan_path):
+    """按既有计划重建 picks —— 内容取池中**最新版本**、**题序不变**。
+
+    用途：回源补录/修卡后重出同一卷，选题不漂移（不依赖排序稳定性）。
+    """
+    by_path = {}
+    for _m in pool:
+        for _c in pool[_m]:
+            by_path[_c['path']] = _c
+    try:
+        plan = json.load(open(plan_path, encoding='utf-8'))
+    except Exception as e:
+        print('  ⚠ 计划读取失败:', e)
+        return None
+    picks = []
+    for mod, lst in plan:
+        got = []
+        for item in lst:
+            p = item['path'].replace('\\', '/')
+            c = by_path.get(p)
+            if c is None:
+                print('  ⚠ 计划内卡不在池中（被闸剔除或已删）:', p)
+                return None
+            got.append(c)
+        picks.append((mod, got))
+    return picks or None
+
+
 def main():
     mode = 'apply' if '--apply' in sys.argv else 'check'
     pool = build_pool()
+    for _m in pool:                       # 统一为正斜杠（glob 在 Win 下产混合分隔符）
+        for _c in pool[_m]:
+            _c['path'] = _c['path'].replace('\\', '/')
     for m in pool:
         print('  pool[%s] = %d' % (m, len(pool[m])))
+    # ★ 载入既往各卷已用卡（vol_plan_*.json）⇒ 跨卷不重题（卷X 之前 main 里是 used=set()）
     used = set()
-    picks = pick_vol(pool, used, max_per_src=4)
+    for pf in sorted(glob.glob(os.path.join(HERE, 'vol_plan_*.json'))):
+        if os.path.normcase(pf) == os.path.normcase(PLAN_OUT):
+            continue
+        try:
+            for _mod, _lst in json.load(open(pf, encoding='utf-8')):
+                for _c in _lst:
+                    used.add(_c['path'].replace('\\', '/'))
+        except Exception as e:
+            print('  ⚠ 读既往计划失败 %s: %s' % (os.path.basename(pf), e))
+    print('  ── 既往卷已用卡 %d 张（已从池中排除）' % len(used))
+    # ★ 跨卷同题去重：把既往卷卡片的**题面指纹**也种进 fps（机构会跨批次回收旧题）
+    fps0 = []
+    for p in used:
+        sh = shingles(fp_of_path(p))
+        if sh:
+            fps0.append(sh)
+    print('  ── 既往卷题面指纹 %d 个（跨卷同题将不再入选）' % len(fps0))
+    picks = None
+    if '--repick' not in sys.argv and os.path.exists(PLAN_OUT):
+        picks = load_plan_picks(pool, PLAN_OUT)
+        if picks:
+            print('  ── [plan-lock] 按 %s 重建（%d 题，内容取池中最新）'
+                  % (os.path.basename(PLAN_OUT), sum(len(g) for _, g in picks)))
+    if picks is None:
+        picks = pick_vol(pool, used, max_per_src=4, fps0=fps0)
     flat = [(mod, c, i) for mod, got in picks for i, c in enumerate(got, 1)]
     SC = assign_scores(flat, target=150)
     total = sum(SC[c['path']] for _, c, _ in flat)
@@ -774,10 +898,11 @@ def main():
     if mode == 'apply':
         write_vol(picks, flat, SC)
         json.dump([[mod, [dict(path=c['path'].replace(os.sep, '/'), src_dir=c['src_dir'],
-                               score=SC[c['path']]) for c in got]] for mod, got in picks],
-                  open(os.path.join(HERE, 'vol_plan_X.json'), 'w', encoding='utf-8'),
+                               score=SC[c['path']], fp=c.get('fp', '')) for c in got]]
+                   for mod, got in picks],
+                  open(PLAN_OUT, 'w', encoding='utf-8'),
                   ensure_ascii=False, indent=1)
-        print('  [plan] 已固化 vol_plan_X.json')
+        print('  [plan] 已固化 %s' % os.path.basename(PLAN_OUT))
 
 
 if __name__ == '__main__':
