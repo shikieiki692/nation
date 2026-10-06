@@ -892,6 +892,113 @@ def _resize_and_center_images(doc: Document) -> None:
                             except (ValueError, TypeError):
                                 continue
 
+    def _recalc_list_table_widths():
+        """卷末《选题清单（题卡溯源）》表：按内容宽度重算列宽。
+
+        判据：表头首格含「卷内题号」且恰 7 列 ⇒ 视为选题清单表。
+        列义：卷内题号 | 题名 | 题卡 | 来源 | 模块 | 难度 | 分值
+        目标：正文宽 16.6cm 内按「内容显示宽（全角2/半角1）」成比例分配，
+              每列设最小/最大钳制，避免题名/题卡被压成竖排。
+        """
+        PAGE_W = int(16.6 * CM_TO_EMU)      # 正文可用宽（EMU）
+        EMU_DXA = 635                        # 1 DXA = 635 EMU
+        # 各列最小/最大（cm）
+        # 列义：卷内题号 | 题名 | 题卡 | 来源 | 模块 | 难度 | 分值
+        # 策略：短列（题号/模块/难度/分值）优先保底，剩余宽度按内容权重分给题名/题卡/来源。
+        FIXED = [1.30, None, None, None, 1.70, 1.75, 1.15]   # 保底宽（cm）；None＝弹性列
+        TOTAL = 16.6
+        # 弹性列的内容权重（按各列 maxw，题卡权重稍高）
+        #   来源列虽内容短，但需容「北斗学友」(4 全角≈0.84cm)＋边距 ⇒ 权重下限抬高
+        ELASTIC_W = {1: 1.0, 2: 1.05, 3: 0.85}
+        ELASTIC_MIN = {1: 2.8, 2: 3.0, 3: 1.9}   # 弹性列最小宽（cm）
+
+        def disp_w(s):
+            return sum(2 if ord(c) > 127 else 1 for c in s)
+
+        for tbl in body.iter(f"{{{W_NS}}}tbl"):
+            rows = list(tbl.iter(f"{{{W_NS}}}tr"))
+            if not rows:
+                continue
+            # 表头 7 列且首格含「卷内题号」
+            hdr_txt = "".join(t.text or "" for t in rows[0].iter(f"{{{W_NS}}}t"))
+            if "卷内题号" not in hdr_txt:
+                continue
+            ncol = len(list(rows[0].iter(f"{{{W_NS}}}tc")))
+            if ncol != 7:
+                continue
+            # 每列最大内容显示宽
+            maxw = [0] * 7
+            for tr in rows:
+                for ci, tc in enumerate(tr.findall(f"{{{W_NS}}}tc")):
+                    if ci >= 7:
+                        break
+                    txt = "".join(t.text or "" for t in tc.iter(f"{{{W_NS}}}t"))
+                    maxw[ci] = max(maxw[ci], disp_w(txt))
+            # 目标宽（cm）：固定列保底 + 弹性列按权重分剩余（封顶后余量再分配）
+            sum_fixed = sum(x for x in FIXED if x is not None)
+            elast_idx = [1, 2, 3]
+            cap = {1: 5.2, 2: 5.4, 3: 3.0}
+            # 弹性列基础权重（含内容长度因素，下限用 ELASTIC_MIN）
+            base_w = {}
+            for ci in elast_idx:
+                base_w[ci] = max(maxw[ci] * 0.21, ELASTIC_MIN[ci]) * ELASTIC_W[ci]
+            final = list(FIXED)
+            active = list(elast_idx)
+            remain = TOTAL - sum_fixed
+            # 迭代：按权重分 remain，超 cap 的列固定下来，余量重分
+            for _ in range(5):
+                sbase = sum(base_w[ci] for ci in active) or 1.0
+                overflow = 0.0
+                new_active = []
+                for ci in active:
+                    alloc = remain * base_w[ci] / sbase
+                    if alloc > cap[ci]:
+                        final[ci] = cap[ci]
+                        overflow += alloc - cap[ci]
+                    else:
+                        final[ci] = alloc
+                        new_active.append(ci)
+                if not new_active or overflow <= 1e-6:
+                    break
+                active = new_active
+                remain = sum(final[ci] for ci in active) + overflow
+            # 若仍有盈余（所有弹性列都封顶），按序补给题卡/题名/来源
+            slack = TOTAL - sum(final)
+            if slack > 1e-6:
+                for ci in (2, 1, 3):
+                    if final[ci] < cap[ci]:
+                        add = min(slack, cap[ci] - final[ci])
+                        final[ci] += add
+                        slack -= add
+                        if slack <= 1e-6:
+                            break
+            # 写回 gridCol
+            grids = list(tbl.iter(f"{{{W_NS}}}gridCol"))
+            if len(grids) != 7:
+                continue
+            for ci, gc in enumerate(grids):
+                dxa = max(1, int(final[ci] * CM_TO_EMU / EMU_DXA))
+                gc.set(f"{{{W_NS}}}w", str(dxa))
+            # 同步每格 tcW（若存在）
+            for tr in rows:
+                for ci, tc in enumerate(tr.findall(f"{{{W_NS}}}tc")):
+                    if ci >= 7:
+                        break
+                    tcPr = tc.find(f"{{{W_NS}}}tcPr")
+                    if tcPr is None:
+                        continue
+                    tcW = tcPr.find(f"{{{W_NS}}}tcW")
+                    if tcW is not None:
+                        dxa = max(1, int(final[ci] * CM_TO_EMU / EMU_DXA))
+                        tcW.set(f"{{{W_NS}}}w", str(dxa))
+            # 表总宽（若有 tblW）
+            tblPr = tbl.find(f"{{{W_NS}}}tblPr")
+            if tblPr is not None:
+                tblW = tblPr.find(f"{{{W_NS}}}tblW")
+                if tblW is not None:
+                    tblW.set(f"{{{W_NS}}}w", str(int(16.6 * CM_TO_EMU / EMU_DXA)))
+                    tblW.set(f"{{{W_NS}}}type", "dxa")
+
     for p_elem in body.iter(f"{{{W_NS}}}p"):
         drawings = p_elem.findall(f".//{{{W_NS}}}drawing")
         if not drawings:
@@ -965,6 +1072,9 @@ def _resize_and_center_images(doc: Document) -> None:
 
     # —— 末尾收紧：把表格内插图限制到单元格宽度（并排图防溢出）——
     _clamp_table_images()
+
+    # —— 卷末选题清单表：按内容重算列宽（题名/题卡列防竖排）——
+    _recalc_list_table_widths()
 
 
 def _convert_inline_to_wrap_top_bottom(drawing, inline, cx, cy):

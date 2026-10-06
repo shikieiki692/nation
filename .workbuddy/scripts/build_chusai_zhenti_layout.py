@@ -467,6 +467,7 @@ TCW_RE = re.compile(r"<w:tcW\b[^>]*/>")
 
 # A4 21cm − 左右各 1.9cm = 17.2cm = 9752 twips
 TEXT_W_TW = 9752
+TWIPS_PER_CM = 1440.0 / 2.54  # 1cm = 566.93 twips（DXA）
 WIDE = re.compile(r"[\u1100-\u115f\u2e80-\ua4cf\ua960-\ua97f\uac00-\ud7ff"
                   r"\uf900-\ufaff\ufe10-\ufe19\ufe30-\ufe6f\uff00-\uff60\uffe0-\uffe6]")
 
@@ -573,6 +574,107 @@ def set_table_widths(xml: str, stat: dict) -> str:
         t = segs[0] + "".join(fix_row(r) + (segs[k + 1] if k + 1 < len(segs) else "")
                               for k, r in enumerate(rows2))
         stat["tbl_width"] += 1
+        return t
+    return TBL_RE.sub(fix, xml)
+
+
+def set_list_table_widths(xml: str, stat: dict) -> str:
+    """卷末「选题清单」表（表头含「卷内题号」）按内容重算列宽。
+
+    set_table_widths 的通用按比例分列会把「题名」「题卡」两列压得过窄
+    （长英文 stem 被排成 8~10 行竖排）。这里改用固定列保底 + 弹性列按内容
+    权重分配剩余宽度，总宽对齐 TEXT_W_TW，使长文本列获得足够横向空间。
+    仅命中 7 列且表头含「卷内题号」的表；其余表不动。
+    """
+    def disp_w(s: str) -> float:
+        return sum(2.0 if WIDE.match(c) else 1.0 for c in s)
+
+    FIXED = [1.30, None, None, None, 1.70, 1.75, 1.15]  # cm 保底宽；None＝弹性列
+    ELASTIC_W = {1: 1.0, 2: 1.05, 3: 0.85}
+    ELASTIC_MIN = {1: 2.8, 2: 3.0, 3: 1.9}
+    CAP = {1: 5.2, 2: 5.4, 3: 3.0}
+    TOTAL = TEXT_W_TW / TWIPS_PER_CM  # twips → cm（与后文 tblW 同宽）
+
+    def fix(m):
+        t = m.group(0)
+        rows = ROW_RE.findall(t)
+        if not rows:
+            return t
+        hdr = "".join(re.findall(r"<w:t(?:\s[^>]*)?>([\s\S]*?)</w:t>", rows[0]))
+        if "卷内题号" not in hdr:
+            return t
+        ncol = max(len(CELL_RE.findall(r)) for r in rows)
+        if ncol != 7:
+            stat["lst_skip"] = stat.get("lst_skip", 0) + 1
+            return t
+        maxw = [0.0] * 7
+        for r in rows:
+            for j, c in enumerate(CELL_RE.findall(r)):
+                if j >= 7:
+                    break
+                txt = "".join(re.findall(r"<w:t(?:\s[^>]*)?>([\s\S]*?)</w:t>", c))
+                txt = txt.replace("&amp;", "&").replace("&lt;", "<").replace("&gt;", ">")
+                maxw[j] = max(maxw[j], disp_w(txt))
+        sum_fixed = sum(x for x in FIXED if x is not None)
+        elast = [1, 2, 3]
+        base_w = {ci: max(maxw[ci] * 0.21, ELASTIC_MIN[ci]) * ELASTIC_W[ci] for ci in elast}
+        final = list(FIXED)
+        active = list(elast)
+        remain = TOTAL - sum_fixed
+        for _ in range(5):
+            sbase = sum(base_w[ci] for ci in active) or 1.0
+            overflow = 0.0
+            new_active = []
+            for ci in active:
+                alloc = remain * base_w[ci] / sbase
+                if alloc > CAP[ci]:
+                    final[ci] = CAP[ci]
+                    overflow += alloc - CAP[ci]
+                else:
+                    final[ci] = alloc
+                    new_active.append(ci)
+            if not new_active or overflow <= 1e-6:
+                break
+            active = new_active
+            remain = sum(final[ci] for ci in active) + overflow
+        slack = TOTAL - sum(final)
+        if slack > 1e-6:
+            for ci in (2, 1, 3):
+                if final[ci] < CAP[ci]:
+                    add = min(slack, CAP[ci] - final[ci])
+                    final[ci] += add
+                    slack -= add
+                    if slack <= 1e-6:
+                        break
+        wid = [max(600, int(round(x * TWIPS_PER_CM))) for x in final]  # cm → twips
+        wid[-1] += TEXT_W_TW - sum(wid)
+        g = ("<w:tblGrid>" + "".join(f'<w:gridCol w:w="{w}"/>' for w in wid)
+             + "</w:tblGrid>")
+        t = GRID_RE.sub(g, t, count=1) if GRID_RE.search(t) else t
+        # 每行逐单元格写回 tcW
+        def fix_row(row: str) -> str:
+            out, last = [], 0
+            for j, cm in enumerate(CELL_RE.finditer(row)):
+                cell = cm.group(0)
+                tcw = f'<w:tcW w:type="dxa" w:w="{wid[min(j, len(wid)-1)]}"/>'
+                if TCW_RE.search(cell):
+                    cell = TCW_RE.sub(tcw, cell, count=1)
+                elif "<w:tcPr/>" in cell:
+                    cell = cell.replace("<w:tcPr/>", f"<w:tcPr>{tcw}</w:tcPr>", 1)
+                elif "<w:tcPr>" in cell:
+                    cell = cell.replace("<w:tcPr>", f"<w:tcPr>{tcw}", 1)
+                else:
+                    cell = cell.replace("<w:tc>", f"<w:tc><w:tcPr>{tcw}</w:tcPr>", 1)
+                out.append(row[last:cm.start()])
+                out.append(cell)
+                last = cm.end()
+            out.append(row[last:])
+            return "".join(out)
+        segs = ROW_RE.split(t)
+        rows2 = ROW_RE.findall(t)
+        t = segs[0] + "".join(fix_row(r) + (segs[k + 1] if k + 1 < len(segs) else "")
+                              for k, r in enumerate(rows2))
+        stat["lst_width"] = stat.get("lst_width", 0) + 1
         return t
     return TBL_RE.sub(fix, xml)
 
@@ -852,6 +954,7 @@ def process_document_xml(xml: str, stat: dict) -> str:
 
     xml = TBL_RE.sub(fix_tbl, xml)
     xml = set_table_widths(xml, stat)
+    xml = set_list_table_widths(xml, stat)
 
     # —— 去彩色：document.xml 里非黑 w:color 一律删 ——
     def kill_color(m):
@@ -1249,6 +1352,7 @@ def build_answer_sheet(vol: str, ref: Path):
 
     stat = {"img": 0, "subq": 0, "indent": 0, "tbl": 0, "color": 0, "formula": 0,
             "sty_color": 0, "empty_base": 0, "tbl_width": 0, "tbl_skip": 0,
+            "lst_width": 0, "lst_skip": 0,
             "caption": 0, "quote": 0, "font": 0, "omml_font": 0}
     with zipfile.ZipFile(stage) as z:
         names = z.namelist()
@@ -1342,6 +1446,7 @@ def convert_one(vol: str, ref: Path, edition: str = "student"):
 
     stat = {"img": 0, "subq": 0, "indent": 0, "tbl": 0, "color": 0, "formula": 0,
             "sty_color": 0, "empty_base": 0, "tbl_width": 0, "tbl_skip": 0,
+            "lst_width": 0, "lst_skip": 0,
             "caption": 0, "quote": 0, "font": 0, "omml_font": 0}
     with zipfile.ZipFile(docx) as z:
         names = z.namelist()
@@ -1385,7 +1490,7 @@ def convert_one(vol: str, ref: Path, edition: str = "student"):
         warn = f"  ⚠️图不守恒 源{n_img_before}→media{n_media}"
     print(f"[OK] {edition[:4]:>4} {vol:>4}  标题={title!r}  删说明={nd_note} 删线={nd_hr}  "
           f"缩进={stat['indent']} 子问={stat['subq']} 引块={stat['quote']} "
-          f"图={n_media}/{n_img_before} 表={stat['tbl']}/{stat['tbl_width']} "
+          f"图={n_media}/{n_img_before} 表={stat['tbl']}/{stat['tbl_width']} 清单表={stat.get('lst_width',0)}/{stat.get('lst_skip',0)} "
           f"正体={stat['formula']} 空基={stat['empty_base']} 字体={stat['font']} 数式字体={stat['omml_font']} "
           f"图注={n_cap}/{stat['caption']}"
           f"{' AlternateContent=有' if has_alt else ''}{warn}")
