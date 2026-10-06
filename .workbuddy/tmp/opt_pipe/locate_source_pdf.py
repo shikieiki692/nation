@@ -128,7 +128,8 @@ def render_page(pdf, pno, tag):
 
 
 def main():
-    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    args = [a.strip() for a in sys.argv[1:] if not a.startswith("--")]
+    args = [a for a in args if a]          # 容错：CRLF 清单经 $(cat) 传入时会留 \r
     dump = "--dump" in sys.argv
     cards = []
     for a in args:

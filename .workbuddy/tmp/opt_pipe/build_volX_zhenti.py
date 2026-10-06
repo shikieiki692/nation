@@ -19,7 +19,17 @@ VAULT = Path(r"C:\Obsidion\妙妙屋")
 QB = VAULT / "04-题库"
 ORGBASE = QB / "2026机构初赛模拟题"
 SCRIPTS = VAULT / ".workbuddy" / "scripts"
-WORK = VAULT / ".workbuddy" / "tmp" / "volX_zhenti"
+def _arg_vol():
+    for i, a in enumerate(sys.argv):
+        if a == "--vol" and i + 1 < len(sys.argv):
+            return sys.argv[i + 1]
+        if a.startswith("--vol="):
+            return a.split("=", 1)[1]
+    return os.environ.get("VOL") or "X"
+
+
+VOL = _arg_vol()
+WORK = VAULT / ".workbuddy" / "tmp" / ("vol%s_zhenti" % VOL)
 STAGE = WORK / "media"
 for d in (WORK, STAGE):
     d.mkdir(parents=True, exist_ok=True)
@@ -30,8 +40,7 @@ sys.path.insert(0, str(SCRIPTS))
 # 旧包装器被 GC 时会连带关掉底层 buffer（ValueError: I/O operation on closed file）。
 import build_chusai_zhenti_layout as Z   # noqa: E402
 
-VOL = "X"
-MEDIA_FILES = ["初赛模拟卷X（非有机·答案版）.md", "初赛模拟卷X（非有机·学生版）.md"]
+MEDIA_FILES = ["初赛模拟卷%s（非有机·答案版）.md" % VOL, "初赛模拟卷%s（非有机·学生版）.md" % VOL]
 
 
 def prepare_media():
