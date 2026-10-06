@@ -64,9 +64,53 @@ D. A 中所有 Ca 的化学环境相同
 
 ## 参考答案
 
-<table><tr><td>1-1-1共4分</td><td>酸性环境 $Cr_{2}O_{7}^{2-}$ 被还原至 $Cr^{3+}$ ,具有如下计量关系: $Cr_{2}O_{7}^{2-} \sim 3I_{2} \sim 6S_{2}O_{3}^{2-}$ (1分)于是 $c\left(\mathrm{Cr}_{2}\mathrm{O}_{7}^{2-}\right)=\frac{1}{6}\cdot\frac{c\left(S_{2}O_{3}^{2-}\right)\cdot V\left(S_{2}O_{3}^{2-}\right)}{V\left(Cr_{2}O_{7}^{2-}\right)}$  $=\frac{1}{6}\cdot\frac{0.1045\cdot\left(\frac{33.65+33.62+33.64}{3}-0.02\right)}{5.00}\mathrm{mol/L}=0.1171\mathrm{mol/L}$ (3分)</td></tr><tr><td>1-1-2共2分</td><td>由深蓝色(1分)变为浅绿色(1分)。</td></tr><tr><td>1-1-3共2分</td><td> $Cr_{2}O_{7}^{2-} + 14H^{+} + 6I^{-} \rightarrow 2Cr^{3+} + 7H_{2}O + 3I_{2}$ (1分,产物写 $I_{3}$ -也可得分) $I_{2} + 2S_{2}O_{3}^{2-} \rightarrow 2I^{-} + S_{4}O_{6}^{2-}$ (1分,底物写 $I_{3}$ -也可得分)</td></tr><tr><td>1-2-1共6分</td><td> $Cr_{2}O_{7}^{2-} + 3H_{2}O_{2} + 8H^{+} \rightarrow 2Cr^{3+} + 7H_{2}O + 3O_{2}$  $K^{\circ}= \exp(nF\Delta E/RT) = 7.847 \times 10^{63}$ (2分)碱性条件下 $H_{2}O_{2} + 2H^{+} + 2e^{-} \rightarrow 2H_{2}O$  $E = E^{\circ} - RT/nF \times \ln(1/[H^{+}]^{2}) = 0.942\mathrm{~V}$ (1分) $2[Cr(OH)_{4}]^{-} + 2OH^{-} + 3H_{2}O_{2} \rightarrow 2CrO_{4}^{2-} + 8H_{2}O$  $K^{\circ}= \exp(nF\Delta E/RT) = 4.993 \times 10^{108}$ (2分,数量级接近即可)两个反应的平衡常数均非常大,因此在对应条件下会发生相应的反应。(1分)</td></tr><tr><td>1-2-2共2分</td><td> $[Cr(OH)_{4}]^{-} + 2OH^{-} + 5H_{2}O_{2} \rightarrow CrO_{8}^{3-} + 8H_{2}O$ (2分)</td></tr><tr><td>1-2-3共4分</td><td> $Cr_{2}O_{7}^{2-} + 4H_{2}O_{2} + 4H^{+} \rightarrow 2CrO_{5} + 5H_{2}O$ (2分) $4CrO_{5} + 12H^{+} \rightarrow 4Cr^{3+} + 6H_{2}O + 7O_{2}$ (2分)</td></tr><tr><td>1-2-4共2分</td><td> $CrO_{5} \cdot OEt_{2}$ (2分)</td></tr></table>
 
-<table><tr><td>2-1共4分</td><td>点阵形式:底心正交(2分)化学式: $Ca_{3}CrN_{3}$ (2分)</td></tr><tr><td>2-2共3分</td><td>选择BCD(选对1个得1分,共3分;错选倒扣1分,扣完为止,至多得1分)</td></tr><tr><td>2-3共2分</td><td>配位数为6(2分,其它答案不得分)</td></tr><tr><td>2-4共3分</td><td><img src="images/c2c5d892b9517150ef0b6f343d8c2e7aef3c99fd2bb251c5429e3b5800a9853d.jpg"/>大球为Sr,中球为Cr,小球为N(3分,如果在投影图上画出所有N原子亦可)</td></tr><tr><td>2-5-1共4分</td><td>多面体的结构:(其中M=Ca,Sr)<img src="images/367dff2e9832cb4a2ce81ef134133938b3ad8db35dbb1031ae0cd703c0447869.jpg"/>(4分)</td></tr><tr><td>2-5-2共4分</td><td><img src="images/9a91c5ee51812abddfe3bc195c641cec4148088a0a1a7828ffc8693cf8b2d3b8.jpg"/>或<img src="images/c272355d558da8c209d62172fd2a2106ae4ec6e582806dd9877f556af0b23111.jpg"/>(4分)</td></tr><tr><td>2-5-3共4分</td><td><img src="images/a89dce39ef5539354f49629cd01f5490594647f459836175e4ee4b01b24a6659.jpg"/>或<img src="images/db702503b84118eea7dce2990fc765ba4fc5c24fa48653ec6010c93b6da3cd8a.jpg"/>(4分)</td></tr></table>
+
+**1-1-1共4分** 酸性环境 $Cr_{2}O_{7}^{2-}$ 被还原至 $Cr^{3+}$ ,具有如下计量关系: $Cr_{2}O_{7}^{2-} \sim 3I_{2} \sim 6S_{2}O_{3}^{2-}$ (1分)于是 $c\left(\mathrm{Cr}_{2}\mathrm{O}_{7}^{2-}\right)=\frac{1}{6}\cdot\frac{c\left(S_{2}O_{3}^{2-}\right)\cdot V\left(S_{2}O_{3}^{2-}\right)}{V\left(Cr_{2}O_{7}^{2-}\right)}$  $=\frac{1}{6}\cdot\frac{0.1045\cdot\left(\frac{33.65+33.62+33.64}{3}-0.02\right)}{5.00}\mathrm{mol/L}=0.1171\mathrm{mol/L}$ (3分)
+
+**1-1-2共2分** 由深蓝色(1分)变为浅绿色(1分)。
+
+**1-1-3共2分** $Cr_{2}O_{7}^{2-} + 14H^{+} + 6I^{-} \rightarrow 2Cr^{3+} + 7H_{2}O + 3I_{2}$ (1分,产物写 $I_{3}$ -也可得分) $I_{2} + 2S_{2}O_{3}^{2-} \rightarrow 2I^{-} + S_{4}O_{6}^{2-}$ (1分,底物写 $I_{3}$ -也可得分)
+
+**1-2-1共6分** $Cr_{2}O_{7}^{2-} + 3H_{2}O_{2} + 8H^{+} \rightarrow 2Cr^{3+} + 7H_{2}O + 3O_{2}$  $K^{\circ}= \exp(nF\Delta E/RT) = 7.847 \times 10^{63}$ (2分)碱性条件下 $H_{2}O_{2} + 2H^{+} + 2e^{-} \rightarrow 2H_{2}O$  $E = E^{\circ} - RT/nF \times \ln(1/[H^{+}]^{2}) = 0.942\mathrm{~V}$ (1分) $2[Cr(OH)_{4}]^{-} + 2OH^{-} + 3H_{2}O_{2} \rightarrow 2CrO_{4}^{2-} + 8H_{2}O$  $K^{\circ}= \exp(nF\Delta E/RT) = 4.993 \times 10^{108}$ (2分,数量级接近即可)两个反应的平衡常数均非常大,因此在对应条件下会发生相应的反应。(1分)
+
+**1-2-2共2分** $[Cr(OH)_{4}]^{-} + 2OH^{-} + 5H_{2}O_{2} \rightarrow CrO_{8}^{3-} + 8H_{2}O$ (2分)
+
+**1-2-3共4分** $Cr_{2}O_{7}^{2-} + 4H_{2}O_{2} + 4H^{+} \rightarrow 2CrO_{5} + 5H_{2}O$ (2分) $4CrO_{5} + 12H^{+} \rightarrow 4Cr^{3+} + 6H_{2}O + 7O_{2}$ (2分)
+
+**1-2-4共2分** $CrO_{5} \cdot OEt_{2}$ (2分)
+
+
+
+
+
+**2-1共4分** 点阵形式:底心正交(2分)化学式: $Ca_{3}CrN_{3}$ (2分)
+
+**2-2共3分** 选择BCD(选对1个得1分,共3分;错选倒扣1分,扣完为止,至多得1分)
+
+**2-3共2分** 配位数为6(2分,其它答案不得分)
+
+**2-4共3分** 
+<img src="images/c2c5d892b9517150ef0b6f343d8c2e7aef3c99fd2bb251c5429e3b5800a9853d.jpg"/>
+大球为Sr,中球为Cr,小球为N(3分,如果在投影图上画出所有N原子亦可)
+
+**2-5-1共4分** 多面体的结构:(其中M=Ca,Sr)
+<img src="images/367dff2e9832cb4a2ce81ef134133938b3ad8db35dbb1031ae0cd703c0447869.jpg"/>
+(4分)
+
+**2-5-2共4分** 
+<img src="images/9a91c5ee51812abddfe3bc195c641cec4148088a0a1a7828ffc8693cf8b2d3b8.jpg"/>
+或
+<img src="images/c272355d558da8c209d62172fd2a2106ae4ec6e582806dd9877f556af0b23111.jpg"/>
+(4分)
+
+**2-5-3共4分** 
+<img src="images/a89dce39ef5539354f49629cd01f5490594647f459836175e4ee4b01b24a6659.jpg"/>
+或
+<img src="images/db702503b84118eea7dce2990fc765ba4fc5c24fa48653ec6010c93b6da3cd8a.jpg"/>
+(4分)
+
+
 
 ## 知识点映射
 

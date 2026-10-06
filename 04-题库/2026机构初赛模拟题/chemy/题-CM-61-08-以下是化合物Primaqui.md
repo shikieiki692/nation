@@ -52,7 +52,13 @@ source_file: "chemy试题/第33届Chemy化学奥林匹克题目合集..md"
 
 ![](images/0a0497ee88930f95b105d8e6578bd3bc19d9b62ff5a03ad05257acdb38f0d1c2.jpg)
 
-<table><tr><td>8-2 能否通过由 A 和 C 直接反应,再加入  $NH_3$  的方法合成 Primaquine?为什么?</td></tr><tr><td>8-2 不能。(1 分)若直接由 A 和 C 反应,则 C 优先取代空间位阻小的端位溴原子,进而无法以高产率得到 Primaquine。(1 分)</td></tr></table>
+
+
+**8-2** 能否通过由 A 和 C 直接反应,再加入  $NH_3$  的方法合成 Primaquine?为什么?
+
+**8-2** 不能。(1 分)若直接由 A 和 C 反应,则 C 优先取代空间位阻小的端位溴原子,进而无法以高产率得到 Primaquine。(1 分)
+
+
 
 ## 知识点映射
 

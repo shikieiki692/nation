@@ -72,7 +72,35 @@ source_file: "2026机构初赛模拟题/07-化英社/第40届化英社化学奥�
 
 > 📌 本源为「参考答案」稿（题面与解答逐问交错）。本段按源稿原序保留，**其中包含题面性质的叙述（提示／条件／实验步骤），并非全部为解答**；请与前文「题目」段合并阅读。
 
-<table><tr><td>可见光的作用:提供能量将RB从基态激发到激发态(RB+hv→RB*) (1分) RB的作用:光催化剂(1分) O2的作用:氧化剂(1分) (共3分)</td></tr><tr><td>7-1-2 画出实验④和实验⑤生成的两种产物的结构,已知实验④捕获产物保留有酚的结构。</td></tr><tr><td><img src="images/b2327cf0508117cec592bd7be2c9efe87a2d8506def0cd249111b36f3e2da3ba.jpg"/> <img src="images/05f5dbe9c39265962c426151c26ce92c54c45f891c8fcadf74d050ea895a37f2.jpg"/> (共4分,各2分)</td></tr><tr><td>7-2 根据上述所有实验证据,写出该反应的完整催化循环机理。</td></tr><tr><td><img src="images/f8c949c92e1cc036dbd08d4249ee54e0fb70317b3951773373de09012307917b.jpg"/></td></tr><tr><td>7-3 催化体系的运用</td></tr><tr><td><img src="images/333b0acc8dad5b14f8c414c0ba127d572895adccd31f2ed875b8279de4f169c8.jpg"/></td></tr><tr><td>2024年Patel等人将RB光催化体系应用于Biginelli反应。该反应同样使用RB,实验条件为RB(1mol%)/蓝光LED/EtOH/空气/室温。该反应仅需10分钟即可完成。画出反应经历的关键中间体。提示:乙酰乙酸酯先被单电子氧化。</td></tr><tr><td><img src="images/fcb1b94c85d8ba1f8e5cc2c9ee3bff77bf8719689ddd92620f7f8039dbb1a330.jpg"/> (共3分,合适的去质子化和质子化形式亦可)<img src="images/693cfb9c9957cb291905495e8fdacb1fee8d08899594ca5e126885f4a7f78a1b.jpg"/> (2分)</td></tr></table>
+
+
+可见光的作用:提供能量将RB从基态激发到激发态(RB+hv→RB*) (1分) RB的作用:光催化剂(1分) O2的作用:氧化剂(1分) (共3分)
+
+**7-1-2** 画出实验④和实验⑤生成的两种产物的结构,已知实验④捕获产物保留有酚的结构。
+
+
+<img src="images/b2327cf0508117cec592bd7be2c9efe87a2d8506def0cd249111b36f3e2da3ba.jpg"/>
+ 
+<img src="images/05f5dbe9c39265962c426151c26ce92c54c45f891c8fcadf74d050ea895a37f2.jpg"/>
+ (共4分,各2分)
+
+**7-2** 根据上述所有实验证据,写出该反应的完整催化循环机理。
+
+<img src="images/f8c949c92e1cc036dbd08d4249ee54e0fb70317b3951773373de09012307917b.jpg"/>
+
+**7-3** 催化体系的运用
+
+<img src="images/333b0acc8dad5b14f8c414c0ba127d572895adccd31f2ed875b8279de4f169c8.jpg"/>
+
+2024年Patel等人将RB光催化体系应用于Biginelli反应。该反应同样使用RB,实验条件为RB(1mol%)/蓝光LED/EtOH/空气/室温。该反应仅需10分钟即可完成。画出反应经历的关键中间体。提示:乙酰乙酸酯先被单电子氧化。
+
+
+<img src="images/fcb1b94c85d8ba1f8e5cc2c9ee3bff77bf8719689ddd92620f7f8039dbb1a330.jpg"/>
+ (共3分,合适的去质子化和质子化形式亦可)
+<img src="images/693cfb9c9957cb291905495e8fdacb1fee8d08899594ca5e126885f4a7f78a1b.jpg"/>
+ (2分)
+
+
 
 
 ## 知识点映射

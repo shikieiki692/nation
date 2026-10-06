@@ -66,7 +66,6 @@ $$
 
 8-5 若将 F 先在光照下发生一步双键的顺反异构化得到 J（其中甲基指向环内侧），再进行反应，则不会生成预想中的结构 G 的类似物 G2，而是生成 G2 后又发生了一步双 1,2 迁移得到产物 K，请画出 J、G2、K 的结构。
 
-![](images/78429a3ae8227cbca4bd47981f86cdd66c716cbcd85942825415ae044ca37b39.jpg)
 
 ## 参考答案
 
@@ -90,7 +89,7 @@ $$
 
 8-2-1 画出 C 的结构。
 
-![](images/d406bb3f66cebe65f6a6de5f7e859c7f4f0cec859c2462a24967e3fb758f35e2.jpg)  
+![](images/d406bb3f66cebe65f6a6de5f7e859c7f4f0cec859c2462a24967e3fb758f35e2.jpg)
 8-2-2 画出生成 C 的优势过渡态和生成其对映异构体的优势过渡态，并简单解释为何只得到 C。
 
 <table><tr><td rowspan="3">8-2-2</td><td>优势 TS</td><td>劣势 TS</td></tr><tr><td></td><td></td></tr><tr><td colspan="2">解释:unfavored TS 中会有额外的甲基和前面基团的排斥,所以能量不利</td></tr></table>
@@ -113,7 +112,6 @@ $$
 
 <table><tr><td rowspan="2">8-5</td><td>J</td><td>G2</td><td>K</td></tr><tr><td></td><td></td><td></td></tr></table>
 
-![](images/b376d23b5595f694f3ffd3ef71866e09b06749b0dce4072ce7dcedeb5b28ff44.jpg)
 
 ## 知识点映射
 

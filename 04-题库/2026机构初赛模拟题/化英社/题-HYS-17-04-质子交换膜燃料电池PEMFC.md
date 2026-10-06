@@ -170,7 +170,11 @@ $$
 <table><tr><td>物种</td><td>相对能量(kJ/mol)</td><td>偶极矩(Debye)</td></tr><tr><td> $O_{2}(g)+Pt$  表面</td><td>0.0</td><td>0</td></tr><tr><td>过渡态(TS)</td><td>45.8</td><td>3.2</td></tr><tr><td>OOH*吸附态</td><td>-20.3</td><td>2.5</td></tr></table>
 
 
-<table><tr><td> $\Delta H = - {20.3}\mathrm{\;{kJ}}/\mathrm{{mol}}\left( {1\text{分}}\right)$  ${E}_{a} = {45.8}\mathrm{\;{kJ}}/\mathrm{{mol}}\left( {1\text{分}}\right)$ (共2分)</td></tr></table>
+
+
+$\Delta H = - {20.3}\mathrm{\;{kJ}}/\mathrm{{mol}}\left( {1\text{分}}\right)$  ${E}_{a} = {45.8}\mathrm{\;{kJ}}/\mathrm{{mol}}\left( {1\text{分}}\right)$ (共2分)
+
+
 
 
 $$

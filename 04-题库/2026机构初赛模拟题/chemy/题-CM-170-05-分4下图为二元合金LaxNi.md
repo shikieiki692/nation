@@ -46,7 +46,6 @@ source_file: "chemy试题/第38届化学奥林匹克Chemy模拟试题题目合�
 
 第5题（5分，4%）
 
-![](images/1744e96eee599c6ecdbeb9704d7ad2f798e398c5df508351bcddf7658e7cd069.jpg)
 
 ![](images/5d93c66a521bcd4a71eb2edde679a1ed578077f5d2486c2a0e15abf820bb16ae.jpg)
 

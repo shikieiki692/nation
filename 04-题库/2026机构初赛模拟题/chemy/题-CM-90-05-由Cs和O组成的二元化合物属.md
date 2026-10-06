@@ -60,7 +60,15 @@ source_file: "chemy试题/第34届Chemy化学奥林匹克题目合集..md"
 
 出CsxOy 的化学式。5-1 化学式为Cs7O（2 分）5-2 分别写出CsxOy 中Cs
 
-<table><tr><td>5-3-2 真实存在形式为 $(Cs^{+})_{11}(O^{2-})_{3}(e^{-})_{5}$ (2分)</td></tr><tr><td>5-3 已知 $Cs_{x}O_{y}$ 正当晶胞的晶胞参数: $a = 1624.4 \text{ pm}$ , $c = 914.5 \text{ pm}$ ,计算 $Cs_{x}O_{y}$ 的密度。</td></tr><tr><td>5-4  $\rho = ZM/N_{A}V$  $= 2838.9/(6.022 \times 10^{23} \times 1624.4 \times 914.5 \times \sin 120^{\circ} \times 10^{-30}) \text{ g} \cdot \text{cm}^{-3} = 2.256 \text{ g} \cdot \text{cm}^{-3}$ (2分)</td></tr></table>
+
+
+**5-3-2** 真实存在形式为 $(Cs^{+})_{11}(O^{2-})_{3}(e^{-})_{5}$ (2分)
+
+**5-3** 已知 $Cs_{x}O_{y}$ 正当晶胞的晶胞参数: $a = 1624.4 \text{ pm}$ , $c = 914.5 \text{ pm}$ ,计算 $Cs_{x}O_{y}$ 的密度。
+
+**5-4** $\rho = ZM/N_{A}V$  $= 2838.9/(6.022 \times 10^{23} \times 1624.4 \times 914.5 \times \sin 120^{\circ} \times 10^{-30}) \text{ g} \cdot \text{cm}^{-3} = 2.256 \text{ g} \cdot \text{cm}^{-3}$ (2分)
+
+
 
 ## 知识点映射
 

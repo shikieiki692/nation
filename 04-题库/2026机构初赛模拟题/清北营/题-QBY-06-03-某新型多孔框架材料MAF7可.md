@@ -62,13 +62,23 @@ $$
 
 3-1 求出 298 K 下 $CO_{2}$ 的饱和吸附量 $q_{m}$ 以及吸附常数 $b_{298}$ 。已知 Langmuir 等温式：
 
-<table><tr><td>3-1</td><td>可以先由实验数据计算得到平衡吸附量:  $q_{A} = 3.39 \text{ mmol/g}$ ,  $q_{B} = 4.12 \text{ mmol/g}$ 由 Langmuir 等温式,可得: $\frac{P}{q} = \frac{1}{q_{m}b} + \frac{P}{q_{m}}$  $q_{m} = \frac{P_{B}-P_{A}}{\frac{P_{B}}{q_{B}} - \frac{P_{A}}{q_{A}}} = 5.06 \text{ mmol/g}$ </td></tr></table>
+
+
+**3-1** 可以先由实验数据计算得到平衡吸附量:  $q_{A} = 3.39 \text{ mmol/g}$ ,  $q_{B} = 4.12 \text{ mmol/g}$ 由 Langmuir 等温式,可得: $\frac{P}{q} = \frac{1}{q_{m}b} + \frac{P}{q_{m}}$  $q_{m} = \frac{P_{B}-P_{A}}{\frac{P_{B}}{q_{B}} - \frac{P_{A}}{q_{A}}} = 5.06 \text{ mmol/g}$
+
+
 
 ## 再代回 Langmuir 等温式，可得 $b_{298}=9.76\ bar^{-1}$
 
 3-2 求 328 K 下的吸附平衡常数 $b_{328}$ 和 $CO_{2}$ 的吸附焓变 $\Delta H$ 。（假设该材料对 $CO_{2}$ 的饱和吸附量不随温度变化）
 
-<table><tr><td>3-2</td><td></td></tr><tr><td></td><td> $\Delta H = -37.3 \text{ kJ/mol}$ </td></tr></table>
+
+
+3-2
+
+$\Delta H = -37.3 \text{ kJ/mol}$
+
+
 
 $$
 b _ {328} = \frac {q}{P \left(q _ {m} - q\right)} = 2.46 \mathrm{bar} ^ {- 1}

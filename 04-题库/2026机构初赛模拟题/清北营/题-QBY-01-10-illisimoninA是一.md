@@ -45,7 +45,6 @@ source_file: "2026机构初赛模拟题/04-清北营/2026年清北营寒假班-�
 
 10-4 给出？处的合理反应试剂。
 
-![](images/cd509418f67b6202f04fe4a608f400f52edc31813c715bd8b62adaa648fba809.jpg)
 
 ## 参考答案
 
@@ -63,7 +62,6 @@ source_file: "2026机构初赛模拟题/04-清北营/2026年清北营寒假班-�
 
 <table><tr><td rowspan="3">10-2</td><td>F</td><td rowspan="2"></td><td rowspan="2"><img src="images/2b264038fda61a9e091e4fd2b9cb325f306ea5ad96d52aa8d1dcb544fee024fe.jpg"/></td><td rowspan="2"><img src="images/7586b3bd359d852fff778132ed27d93b509aa0c9e6e037600651a4b6c69a4eca.jpg"/></td></tr><tr><td><img src="images/8ed5c2045cd5b1e440f90719a8d6b7379617ebd41d8ecbf3b2730223c8b9d643.jpg"/></td></tr><tr><td colspan="4">首先第一步反应是氧气参与的ene反应,在还原剂的存在下O-O键断裂生成羟基,上方反应的位阻小,然后被乙酰化,接下来是一步3,3-σ迁移,其中显然不含有硅基,否则下一步无法反应,TMSCI起到催化作用,下一步是一个催化偶联,产物可以根据I的结构逆推,不难。</td></tr><tr><td colspan="5">10-3 已知K的化学式为 $C_{22}H_{26}O_{6}$ ,acetone为丙酮,TBD为1,5,7-三氮杂双环[4.4.0]癸烯-5-烯,是一种有机碱,画出K和L的结构,注意立体化学。</td></tr><tr><td rowspan="3">10-3</td><td colspan="2">K</td><td colspan="2">L</td></tr><tr><td colspan="2"><img src="images/dd7a31e5a32fff5c01c962d0172ba35fb277afe147835f9fd595559425dfa95f.jpg"/></td><td colspan="2"><img src="images/65d5bb2a7021c78dedc2f8e0c32b814d829f6a1f9b798f485917d0357e02019e.jpg"/></td></tr><tr><td colspan="4">J到K的过程中,缩酮在酸性条件下变成了半缩酮,这样为下一步反应中的碱催化作用下形成五元环做了铺垫。</td></tr><tr><td colspan="5">10-4 给出?处的合理反应试剂。</td></tr><tr><td rowspan="2">10-4</td><td colspan="4">Pd/C, $H_2$ </td></tr><tr><td colspan="4">合适的脱除苄基的方法均可</td></tr></table>
 
-![](images/299e3a5e41fe67aaf430cf96c421aa6b7f9d3055df9ff3373527dc80648f547e.jpg)
 
 ## 知识点映射
 

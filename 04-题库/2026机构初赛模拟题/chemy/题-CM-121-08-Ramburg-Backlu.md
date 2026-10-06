@@ -73,7 +73,11 @@ Ramburg-Backlund 反应的通式如下:
 
 ![](images/16ae565ce69e9519534176d8e70b53933fff322530f7387e38e85a2a2f5f6eaa.jpg)
 
-<table><tr><td>8-1  $SO_{2}$ (1分)</td></tr></table>
+
+
+**8-1** $SO_{2}$ (1分)
+
+
 
 ![](images/07732a0dd48f06746b9e7bff6de55c277991bfcd3bc2366bd6258a069b675980.jpg)
 

@@ -40,9 +40,6 @@ source_file: "2026机构初赛模拟题/04-清北营/2026年清北营寒假班-�
 
 2-1 让我们把目光回到 Carnot 循环上。这个由两个等温可逆过程和两个绝热可逆过程构成的热机循环，循环的 $p - V$ 图如下所示，热机工质为理想气体，物质的量为 $n$ 。
 
-![](images/8b4cf596e029e1072ca6493e517ca83cef5ec40d9ba0a680aa6788100ece259a.jpg)
-
-![](images/602c427def766e3b358de80f5e713880bac44a23c103b8ce6dff6dfb1b508fdb.jpg)
 
 2-1-1 记工质的等压热容为 $C_{p}$ ，等容热容为 $C_{V}$ ，试根据两者的定义：
 
@@ -74,7 +71,6 @@ $$
 
 2-2 由于难以高效地工作的原因，现实的制冷机通常不会按照 Carnot 循环的步骤运转。逆 Brayton 循环是一种典型的应用于制冷机的理想循环，它由两个绝热可逆过程和两个等压可逆过程组成，循环的 $p - V$ 图如下所示。我们仍然假定循环的工质为理想气体，其物质的量为 $n$ ，热容比仍记作 $\gamma$ ，并假定热容不随温度变化。
 
-![](images/a5bf57025b3938fc2c8523b462215822c01cf64c2053070ff70bb3ab491e6de1.jpg)
 
 记工作在 $p_{1}$ 与 $p_{2}$ （ $p_{1}<p_{2}$ ）的 Brayton 循环的压缩比 $r=p_{2}/p_{1}$ ，求 Brayton 循环的制冷效率 $\eta_{Brayton}$ ，用压缩
 
@@ -88,7 +84,6 @@ $$
 
 2-1 让我们把目光回到 Carnot 循环上。这个由两个等温可逆过程和两个绝热可逆过程构成的热机循环，循环的 $p - V$ 图如下所示，热机工质为理想气体，物质的量为 $n$ 。
 
-![](images/b035bfa6c82f33693ea2652d5ef42284b8a564e7c8bf07ca51d04df48db044c2.jpg)
 
 2-1-1 记工质的等压热容为 $C_{p}$ ，等容热容为 $C_{V}$ ，试根据两者的定义：
 
@@ -102,18 +97,30 @@ $$
 C _ {p} - C _ {V} = n R
 $$
 
-<table><tr><td>2-1-1</td><td>因为理想气体的内能U与焓H均与压力p和体积V无关,只与温度T有关,因此 $C_p - C_V = \left( \frac{\partial H}{\partial T} \right)_p - \left( \frac{\partial U}{\partial T} \right)_V = \frac{dH}{dT} - \frac{dU}{dT}$ 由焓的定义H=U+pV,可得 $C_p - C_V = \frac{d(U+pV)}{dT} - \frac{dU}{dT} = \frac{d(pV)}{dT}$ 又因 $pV = nRT$ ,可得 $C_p - C_V = \frac{d(nRT)}{dT} = nR$ </td></tr></table>
+
+**2-1-1** 因为理想气体的内能U与焓H均与压力p和体积V无关,只与温度T有关,因此 $C_p - C_V = \left( \frac{\partial H}{\partial T} \right)_p - \left( \frac{\partial U}{\partial T} \right)_V = \frac{dH}{dT} - \frac{dU}{dT}$ 由焓的定义H=U+pV,可得 $C_p - C_V = \frac{d(U+pV)}{dT} - \frac{dU}{dT} = \frac{d(pV)}{dT}$ 又因 $pV = nRT$ ,可得 $C_p - C_V = \frac{d(nRT)}{dT} = nR$
+
 
 2-1-2 记工质的等压热容 $C_p$ 与等容热容 $C_V$ 之比为 $\gamma$ 。试证明：仅考虑体积功的情况下，在绝热可逆过程中有：
 
 ## $pV =$ 常数
 
-<table><tr><td>2-1-2</td><td>绝热过程中Q=0。在不做非体积功的情况下,根据热力学第一定律有 $\mathrm{d}U=\delta W=-p\mathrm{d}V$ 对内能U做全微分,并且理想气体的U与V无关,于是 $\mathrm{d}U=\left(\frac{\partial U}{\partial T}\right)_{V}\mathrm{d}T+\left(\frac{\partial U}{\partial V}\right)_{T}\mathrm{d}V=C_{V}\mathrm{d}T$ 将理想气体状态方程 $p=\frac{nRT}{V}$ 代入上式中,然后统一两个等式即可得 $\mathrm{d}U=-\frac{nRT}{V}\mathrm{d}V=C_{V}\mathrm{d}T$  <img src="images/5e1c7d3b70545e9779f55a791f6df205a76d26845399cc31c480b49cd8d7df4b.jpg"/>整理即可得 $\frac{\mathrm{d}T}{T}+\frac{nR}{C_{V}}\frac{\mathrm{d}V}{V}=0$ 又因 $C_{p}-C_{V}=nR$ ,于是代入并用热容比γ表示即可得 $\frac{\mathrm{d}T}{T}+(\gamma-1)\frac{\mathrm{d}V}{V}=0$ 移项积分可得 $\ln T+(\gamma-1)\ln V=\text{常数}$  <img src="images/c869c3cb9af2074a0691f67a476261e8d4971965a05c74bae8fe6541184c58a2.jpg"/>将 $T=\frac{pV}{nR}$ 代入上式,并取指数即可得 $pV^{T}=\text{常数}$ </td></tr></table>
+
+**2-1-2** 绝热过程中Q=0。在不做非体积功的情况下,根据热力学第一定律有 $\mathrm{d}U=\delta W=-p\mathrm{d}V$ 对内能U做全微分,并且理想气体的U与V无关,于是 $\mathrm{d}U=\left(\frac{\partial U}{\partial T}\right)_{V}\mathrm{d}T+\left(\frac{\partial U}{\partial V}\right)_{T}\mathrm{d}V=C_{V}\mathrm{d}T$ 将理想气体状态方程 $p=\frac{nRT}{V}$ 代入上式中,然后统一两个等式即可得 $\mathrm{d}U=-\frac{nRT}{V}\mathrm{d}V=C_{V}\mathrm{d}T$
+
+整理即可得 $\frac{\mathrm{d}T}{T}+\frac{nR}{C_{V}}\frac{\mathrm{d}V}{V}=0$ 又因 $C_{p}-C_{V}=nR$ ,于是代入并用热容比γ表示即可得 $\frac{\mathrm{d}T}{T}+(\gamma-1)\frac{\mathrm{d}V}{V}=0$ 移项积分可得 $\ln T+(\gamma-1)\ln V=\text{常数}$
+
+将 $T=\frac{pV}{nR}$ 代入上式,并取指数即可得 $pV^{T}=\text{常数}$
+
 
 2-1-3 将上述四条 $p - V$ 线分别对应于等温可逆过程和绝热可逆过程，并给出你的判断依据。
 2-1-4 如果要将上述循环应用于制冷机，请选择合适的运行方向。 (a) $\mathrm{A} \rightarrow \mathrm{D} \rightarrow \mathrm{C} \rightarrow \mathrm{B} \rightarrow \mathrm{A}$ (b) $\mathrm{A} \rightarrow \mathrm{B} \rightarrow \mathrm{C} \rightarrow \mathrm{D} \rightarrow \mathrm{A}$
 
-<table><tr><td>2-1-3</td><td>等温可逆过程:AB、CD绝热可逆过程:AD、BC(全部正确得2分,不要求各曲线段字母的前后顺序)绝热过程满足 $pV^{\gamma}$ =常数,并且热容比 $\gamma>1$ ,对应的曲线更陡峭</td></tr><tr><td>2-1-4</td><td>(a)</td></tr></table>
+
+**2-1-3** 等温可逆过程:AB、CD绝热可逆过程:AD、BC(全部正确得2分,不要求各曲线段字母的前后顺序)绝热过程满足 $pV^{\gamma}$ =常数,并且热容比 $\gamma>1$ ,对应的曲线更陡峭
+
+**2-1-4** (a)
+
 
 2-1-5 现有一按照上述 Carnot 循环工作于高温热源 $T_{h}$ 与低温热源 $T_{c}$ 间的 Carnot 制冷机，其工质的等压热容 $C_{p}$ 与等容热容 $C_{V}$ 之比为 $\gamma$ 。记工质处于 A，B，C 和 D 状态时的体积分别为 $V_{A}$ ， $V_{B}$ ， $V_{C}$ 和 $V_{A}$ 。通过计算各步骤的功和热，推导该制冷机的制冷效率 $\eta_{Carnot}$ ，即对热机做的总功 W 与从低温热源吸收的热量 $Q_{c}$ 之比。（直接给出答案不得分）
 
@@ -165,7 +172,6 @@ $$
 
 2-2 由于难以高效地工作的原因，现实的制冷机通常不会按照 Carnot 循环的步骤运转。逆 Brayton 循环是一种典型的应用于制冷机的理想循环，它由两个绝热可逆过程和两个等压可逆过程组成，循环的 p-V 图如下所示。我们仍然假定循环的工质为理想气体，其物质的量为 n，热容比仍记作 $\gamma$ ，并假定热容不随温度变化。
 
-![](images/5322e1494e5b227fa5e3f98e172dd0f79f80ad9578f56c92c5a20f082aa28bd6.jpg)
 
 记工作在 $p_1$ 与 $p_2$ ( $p_1 < p_2$ ) 的 Brayton 循环的压缩比 $r = p_2 / p_1$ ，求 Brayton 循环的制冷效率 $\eta_{\text{Brayton}}$ ，用压缩比 $r$ 和热容比 $\gamma$ 表示。（仍然以吸热过程所吸收的热量与外界对制冷机所做总功比值定义制冷效率 $\eta$ ）
 

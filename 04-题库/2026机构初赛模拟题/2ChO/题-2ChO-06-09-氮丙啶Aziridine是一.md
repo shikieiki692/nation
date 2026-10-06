@@ -84,20 +84,13 @@ source_file: "2026机构初赛模拟题/11-2ChO/第6届2ChO化学奥林匹克联
 ![](images/0837fa0eb01354e595180d8c6c41d1def18afc593a612dff77b8a354b420e2d2.jpg)
 
 
-
-
 ![](images/d56e1372d79e0806162cf5e8ec18220d3160089435b6ea7f79b088c3035340ee.jpg)
 
 
 ![](images/e24f53c49fbd225a80fd27dba045023b0edd8c93b37d9916c40cce5571f73c6b.jpg)
 
 
-
-
-
 ![](images/b13ca07548c88dcce93bbe94758d8f8bf23e06cc91ab3d875f81e414ae95dd1a.jpg)
-
-
 
 
 ![](images/2ba9225d5a2cf966306350979946f47eaa44e964ec3e61ff2b0be9bf78cb3130.jpg)
@@ -106,14 +99,12 @@ source_file: "2026机构初赛模拟题/11-2ChO/第6届2ChO化学奥林匹克联
 ![](images/8fd9f1278a3ebe254b7efe1cdf2cb46d90d9373088724a240cc3c0338b328083.jpg)
 
 
-
 <table><tr><td>9.1.1共4分</td><td><img src="images/b99b0dbd61b838fbec8f8dfab3528802c9670f7b5007518e203b75b368f28bbf.jpg"/> (1分) COOMe NtBu COOMe (1分) COOMe NtBu (2分)</td></tr><tr><td>9.1.2共2分</td><td>[1,3]-σ迁移(2分)写[1,3]-σ不得分。</td></tr><tr><td>9.1.3共6分</td><td><img src="images/c6188a3145195ec45a7bafc877e6dc732f67c41a53bbcb686e94072a8749afb2.jpg"/> (1分) <img src="images/6035b36b2a60c22527c2f2d356ea1c248c28239c9a2e9f52c47f2fa245c81fa1.jpg"/> (1分) <img src="images/f007928bdefe3cb67eca55f701db9be6f254a9356a43a951e12dc2ab655c9809.jpg"/> (2分)<img src="images/e1fd33ca0a519e2d69e24715dddf596f94bb919d7f2cc2b87dfa99222ecd8f60.jpg"/> 或 <img src="images/130cbe020b24145006433c39c6ccd20bfb3a3e741cf4742d569a6d7edca830ea.jpg"/></td></tr><tr><td>9.2.1共2分</td><td><img src="images/e6f1ecbf409bd89103c8b390db349b3dd1c858d8322f8f99dcd5a9a25d8d46de.jpg"/>2分,骨架正确1分,立体化学正确1分。</td></tr><tr><td>9.2.2共4分</td><td><img src="images/aebd8424baec65e859b1a543a581b345570a2d01c37f7da2850b8f69ff455ddc.jpg"/> (示出金属,1分)<img src="images/d7324c878ba7070fbb093f12307516927f1766f3e3ddd420a1acd9180b913fce.jpg"/>或<img src="images/3798b6d0632028fcc34783bdb575388033750cf808f61f443b82289522a46e49.jpg"/>(1分)<img src="images/f9cecb54ffac842108a54e8885d0b15a95c06e89198370ddb9ab63c7d69b1da1.jpg"/> (骨架1分,立体化学1分)</td></tr><tr><td>9.2.3共1分</td><td>R(1分)</td></tr><tr><td>9.3.1共3分</td><td><img src="images/03227d9909292dc2e543b0c92e8d81b15b90f61f7fefc326848eb91c227951b2.jpg"/>共3分,每个1分。</td></tr></table>
 
 ## 2ChO 化学团队交流群：963598333
 
 <table><tr><td>9.3.2共2分</td><td><img src="images/68563e282ee8fbe01193b803b1652173df5560affa3374fe9899b0a447237970.jpg"/> R = COOMe共2分,不要求立体化学。</td></tr><tr><td>9.3.3共2分</td><td>加热:光照:<img src="images/11c7ad8b144bb967f46ea3cb09aa2bbc61fefee220bc10bbd651730233c61298.jpg"/>(1分)<img src="images/25cc5cbc0a6cc3e8d898710cc6fb821c127935db2d0afeb49ce4766e42f9761d.jpg"/>(1分)</td></tr><tr><td>9.3.4共4分</td><td><img src="images/c1a0204393edb2a7dc6e47d563d4ed93e048a62279c5db40fc0fd9a157766522.jpg"/>(2分)<img src="images/f65d5d70838cc2372f98d83bedbca035bbb71f1f8962a5d9f31cf29949f46a75.jpg"/>(2分)</td></tr></table>
 
-![](images/e0e04e5240033e975b4094c1d104ab498b6b81656ce1c1bf8eb2ce4334a12e1d.jpg)
 
 > ✅ 答案由源《第6届2ChO化学奥林匹克联考试题、答案、说明与评分细则_20260524版.md》第 9 题回收补录（回源核对 2026-09-27）。
 

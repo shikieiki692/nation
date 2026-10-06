@@ -87,7 +87,6 @@ source_file: "2026机构初赛模拟题/07-化英社/第40届化英社化学奥�
 <table><tr><td>Experiments</td><td>P</td><td>C</td><td>E</td></tr><tr><td>2b</td><td>0.8-1.0</td><td>0.7-0.9</td><td>0.7-0.9</td></tr><tr><td>2c</td><td>1.0</td><td>0.8-0.9</td><td>0.8-0.9</td></tr><tr><td>2d</td><td>1.0</td><td>1.0-1.5</td><td>&gt;2.0</td></tr></table>
 请判断决速步是哪一步。
 ![](images/372b1699d13b387802160c01ff659e13d93d17976e7f13d66f7ef9b0d3e2fb2c.jpg)
-```txt
 对 HBD·HCl、HBD·HCl*、HBD·2a*、HBD·2a+进行稳态近似：
 d[HBD·HCl]/dt = k1[HCl][HBD]-(k1+k2[2a])[HBD·HCl]+k2[HBD·HCl*]+(k5+k6)[HBD·2a+] = 0（1分）
 d[HBD·HCl*]/dt=k2[HBD·HCl][2a]-(k2+k3)[HBD·HCl*=0（1分）
@@ -106,7 +105,6 @@ d[4]/dt=k1k2k3k4k6[2a][HCl][HBD]/(k-1k4(k-2+k3)(k5+k6)+k1k4(k-2+k3)(k5+k6)[HCl]+
 k1k2k3(k5+k6)[2a][HCl]+k1k2k3k4[2a][HCl]+k1k2k4(k5+k6)[2a][HCl])（1分）
 （共11分）
 [3]/[4]=k5/k6（1分）/ke=Ae-Ea3/RT    k6=Ae-Ea4/RT
-```
 $$
 \begin{array}{r l} \text { 故 } k _ {5} / k _ {6} & = \mathrm{e} ^ {(\mathrm{E} \alpha + \mathrm{E} \alpha 3) / \mathrm{RT}} = 3. 1 (2 \text { 分 }) \\ & (\text { 共 } 3 \text { 分 }) \end{array}
 $$

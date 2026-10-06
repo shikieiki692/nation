@@ -116,7 +116,6 @@ $$
 \frac {1}{d _ {201} ^ {2}} = \frac {4 (2 ^ {2} + 0 + 0 ^ {2})}{3 a ^ {2}} +
 $$
 
-![](images/438cc4228d4546e03ba313d05f4d466213b05ba9fd2cacff6858b1074d9b3a41.jpg)
 
 $$
 [ 1.54 / 2 \sin (40.09 ^ {\circ} / 2) ] ^ {2}
@@ -142,17 +141,20 @@ $$
 
 8-2-3 求 B 的(101)(211)两个晶面的衍射角。
 
-<table><tr><td>8-2-3</td><td>由 Bragg 方程 2dsinθ=nλ,以及 $\frac{1}{d_{hkl}^{2}}=\frac{4(h^{2}+hk+k^{2})}{3a^{2}}+\frac{l^{2}}{c^{2}}$ ,</td></tr></table>
+
+**8-2-3** 由 Bragg 方程 2dsinθ=nλ,以及 $\frac{1}{d_{hkl}^{2}}=\frac{4(h^{2}+hk+k^{2})}{3a^{2}}+\frac{l^{2}}{c^{2}}$ ,
+
 
 ![](images/2cff0369d2835716926e360c61c8180aa23ac11eafcef8754bfe7448c165388f.jpg)
 
-<table><tr><td></td><td>得到, $2\theta(101)=28.56^{\circ}$ , $2\theta(211)=49.33^{\circ}$ </td></tr></table>
+
+得到, $2\theta(101)=28.56^{\circ}$ , $2\theta(211)=49.33^{\circ}$
+
 
 8-3 按照题目条件制得的 X 属于立方晶系，有以下几个衍射角（2θ）：28.28°、32.76°、47.01°、55.77°。通过计算找出衍射角对应晶面，给出 X 的点阵形式。
 
 <table><tr><td>点阵类型</td><td>允许衍射的晶面指数特征</td></tr><tr><td>简单(P)</td><td>所有晶面</td></tr><tr><td>体心(I)</td><td>h+k+1为偶数</td></tr><tr><td>面心(F)</td><td>h,k,l奇偶性相同</td></tr></table>
 
-![](images/7822bd7e39fa0007130b1fa85f563157546a1896a44224801481e58917c5adcb.jpg)
 
 8-3 由 Bragg 方程 $2d\sin\theta=n\lambda$ ，可以得到各衍射角对应的 d 如下：
 

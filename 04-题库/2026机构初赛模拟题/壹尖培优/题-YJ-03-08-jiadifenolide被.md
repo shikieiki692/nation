@@ -61,7 +61,15 @@ source_file: "2026机构初赛模拟题/05-壹尖培优/第40届中国化学奥�
 
 ## 参考答案
 
-<table><tr><td>8-1共4分</td><td><img src="images/efb22227cc2e5dcb745561a134eb6dfd3839e71a3a94a60182be70829ff57b8b.jpg"/>(-)-jiadifenolide4分,错1个手性中心扣1分,扣至0分为止</td></tr><tr><td>8-2-1共4分</td><td>Favorski重排反应,臭氧化-还原反应(直接写臭氧化反应也可以)每个2分</td></tr></table>
+
+
+**8-1共4分** 
+<img src="images/efb22227cc2e5dcb745561a134eb6dfd3839e71a3a94a60182be70829ff57b8b.jpg"/>
+(-)-jiadifenolide4分,错1个手性中心扣1分,扣至0分为止
+
+**8-2-1共4分** Favorski重排反应,臭氧化-还原反应(直接写臭氧化反应也可以)每个2分
+
+
 
 <table><tr><td rowspan="5">8-2-2共9分</td><td><img src="images/3fe86e50ba6b699f9de727ebe2bdc3ab6e7a089c18f16b422ec347f44d2f6f24.jpg"/></td><td><img src="images/29ee1e79605013f5c02b21bb4a7041c6a7ca82166ff223607b1c99fd71f56f86.jpg"/></td></tr><tr><td>C</td><td>D</td></tr><tr><td><img src="images/4474de2a2ca097b08657cb6f38c61045b59ea97d6e320b32b9523b2b9ea16663.jpg"/></td><td rowspan="2"></td></tr><tr><td>E</td></tr><tr><td colspan="2">每个3分,立体化学有误扣1分</td></tr><tr><td rowspan="2">8-2-3共4分</td><td><img src="images/32d35b4169702b76ffccabbc12cdde161ae5a6731791b5957234a47e03deb75d.jpg"/></td><td><img src="images/202fb187469c140e20a0eaaee7b018e3ecb2b693db446143cf99ca433c682f39.jpg"/></td></tr><tr><td colspan="2">只要包含这2个中间体即可,每个2分</td></tr><tr><td rowspan="4">8-3-1共9分</td><td><img src="images/0388bbe22aa620a5d31db49eb04e29be6bd5967d863f63683772488b0d67bb0c.jpg"/></td><td><img src="images/6652ad1eac262db696b5a4ba99fa27682a507f7e238d5d6fb70e7264974ee1e5.jpg"/></td></tr><tr><td>I</td><td>J</td></tr><tr><td><img src="images/0f61cbb999bae8d85f21d557ab7f5663857bb1275d6db675783760994055dbd8.jpg"/></td><td rowspan="2">每个3分,立体化学有误扣1分</td></tr><tr><td>L</td></tr><tr><td>8-3-2共2分</td><td colspan="2">将五元环内酯(和酮羰基)去质子化,保护其不被DIBAL-H还原。(2分)</td></tr></table>
 

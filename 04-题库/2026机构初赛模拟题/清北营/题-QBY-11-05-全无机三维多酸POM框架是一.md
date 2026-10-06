@@ -96,9 +96,33 @@ A）C中的 $\mathrm{Cu}$ 原子 B） $[\mathrm{Cu_4(OH)_5}]$ 簇中的 $\mathrm
 
 5-6-2 已知在 $298 \mathrm{~K}$ 下吸附平衡常数为 $6.2 \mathrm{~Pa}^{-1}$ , 吸附标准焓变 $\Delta \mathrm{H}^{0} = -42.05 \mathrm{~kJ} \cdot \mathrm{mol}^{-1}$ , 计算吸附过程的熵变, 解释其为何为负。
 
-<table><tr><td>5-1-1</td><td>(μ3-O连接3个八面体,四面体与三个八面体通过三个μ2-O桥联)</td></tr><tr><td>5-1-2</td><td>X:PNb9O3418- 点群:C3vANb6O2826-B Nb10O4234-C Nb11O4331-</td></tr></table>
 
-<table><tr><td>5-1-3</td><td>D Cu4P2Nb29O9323-</td></tr><tr><td>5-2</td><td><img src="images/04e412be337dc7543212102914feae7bf1c6c4db82b8484df0ef2506eafc1dac.jpg"/>(不要求画出电荷)</td></tr><tr><td>5-3</td><td>E ([Cu4(OH)5][Cu(H2O)]2[Cu4P2Nb29O93]2)39.</td></tr><tr><td>5-4</td><td>设F的化学式为HxNayK2([Cu4(OH)5][Cu(H2O)]2[Cu4P2Nb29O93]2)F中H与Nb的原子数之比为11:29,F中H的个数为22个,去掉[Cu4(OH)5]和[Cu(H2O)]中的H后x=13M_F=10401.0g/mol,取出阴离子E和H+后yMNn+zMK=888.5g/mol又由电荷守值可得:y+z=39-13=26解得y=8,z=18FH13Na8K1s([Cu4(OH)5][Cu(H2O)]2[Cu4P2Nb29O93]2)</td></tr><tr><td>5-5</td><td>29K7HNb6O19+12Na2HPO4+42Cu(CH3COO)2+189H2O=3H13Na8K1s([Cu4(OH)5][Cu(H2O)]2[Cu4P2Nb29O93]2)·48H2O+84CH3COOK+65KOH</td></tr><tr><td>5-6-1</td><td>C</td></tr><tr><td>5-6-2</td><td>298K下吸附过程的吉布斯自由能变ΔrGm0=-RTlnK0=-33.04kJ·mol-1熵变ΔrSm0=ΔrHm0-ΔrGm0/T=-30.22J·mol-1·K-1吸附过程NH3从自由运动的气态变为被固定的吸附态,体系自由度降低,熵变为负。</td></tr></table>
+
+**5-1-1** (μ3-O连接3个八面体,四面体与三个八面体通过三个μ2-O桥联)
+
+**5-1-2** X:PNb9O3418- 点群:C3vANb6O2826-B Nb10O4234-C Nb11O4331-
+
+
+
+
+
+**5-1-3** D Cu4P2Nb29O9323-
+
+**5-2** 
+<img src="images/04e412be337dc7543212102914feae7bf1c6c4db82b8484df0ef2506eafc1dac.jpg"/>
+(不要求画出电荷)
+
+**5-3** E ([Cu4(OH)5][Cu(H2O)]2[Cu4P2Nb29O93]2)39.
+
+**5-4** 设F的化学式为HxNayK2([Cu4(OH)5][Cu(H2O)]2[Cu4P2Nb29O93]2)F中H与Nb的原子数之比为11:29,F中H的个数为22个,去掉[Cu4(OH)5]和[Cu(H2O)]中的H后x=13M_F=10401.0g/mol,取出阴离子E和H+后yMNn+zMK=888.5g/mol又由电荷守值可得:y+z=39-13=26解得y=8,z=18FH13Na8K1s([Cu4(OH)5][Cu(H2O)]2[Cu4P2Nb29O93]2)
+
+**5-5** 29K7HNb6O19+12Na2HPO4+42Cu(CH3COO)2+189H2O=3H13Na8K1s([Cu4(OH)5][Cu(H2O)]2[Cu4P2Nb29O93]2)·48H2O+84CH3COOK+65KOH
+
+**5-6-1** C
+
+**5-6-2** 298K下吸附过程的吉布斯自由能变ΔrGm0=-RTlnK0=-33.04kJ·mol-1熵变ΔrSm0=ΔrHm0-ΔrGm0/T=-30.22J·mol-1·K-1吸附过程NH3从自由运动的气态变为被固定的吸附态,体系自由度降低,熵变为负。
+
+
 
 ## 知识点映射
 

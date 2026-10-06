@@ -38,7 +38,6 @@ source_file: "chemy试题/第34届Chemy化学奥林匹克题目合集..md"
 
 ![](images/de45b2af7fbc13c89ed9905049d8f96153d7420c918c92b2357d612f6a11b56f.jpg)
 
-![](images/62508592a298236606acd2dc8f41ee530ec0c162d2f0ccc7ffe01221067e485e.jpg)
 
 ## 参考答案
 

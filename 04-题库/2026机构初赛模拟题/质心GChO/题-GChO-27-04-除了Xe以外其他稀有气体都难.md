@@ -53,7 +53,17 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO27试题.md"
 
 4-3 已知 $\varphi^{\Theta}_{F_{2}/F}=2.86\,V, K(HF)=6.3\times10^{-4}$ ，计算 $\varphi^{\Theta}_{F_{2}/HF}$ 4-4 结合题目中给出的其他热力学数据，计算 298 K 下的 $\varphi^{\Theta}_{KrF_{2}/Kr}$ 。
 
-<table><tr><td>4-1</td><td> $5(\text{KrF}_2 \cdot 2\text{SbF}_5) + 4\text{XeOF}_4 + 2\text{SbF}_5 = 4(\text{XeF}_6 \cdot 2\text{SbF}_5) + 2[\text{O}_2][\text{Sb}_2\text{F}_{11}] + 5\text{Kr}$  3分将两种加合物用离子形态表示也可。价层电子对的构型为正八面体;离子构型为四方锥或四角锥。各1分,共2分</td></tr><tr><td>4-2</td><td> $\text{KrF}_2 + 2\text{e}^- + 2\text{H}^+ = 2\text{HF} + \text{Kr}$  1分</td></tr><tr><td>4-3</td><td>反应可看作是 $\text{F}_2 + 2\text{e}^- = 2\text{F}^-$ 与 $2\text{H}^+ + 2\text{F}^- = 2\text{HF}$ 的耦合0.5分反应1的 $\ln K_I = zF\varphi^{\text{O}}_{\text{F}_2/\text{F}}/RT = 222.8$ 0.5分故 $\ln K = \ln [K_1/K(\text{HF})^2] = \ln K_1 - 2\ln K(\text{HF}) = 237.5$ 0.5分故 $\varphi^{\text{O}}_{\text{F}_2/\text{HF}} = (RT\ln K)/zF = 3.05\,\text{V}$ 0.5分</td></tr><tr><td>4-4</td><td>考虑以下的电池反应: $\text{KrF}_2 + 2\text{H}^+ + 2\text{e} = \text{Kr} + 2\text{HF}, \text{H}_2 = 2\text{H}^+ + 2\text{e}$ ,电池反应为 $\text{KrF}_2 + \text{H}_2 = \text{Kr} + 2\text{HF}$ ,计算其标准电动势。将其拆分为: $\text{KrF}_2 = \text{Kr} + \text{F}_2, \text{F}_2 + \text{H}_2 = 2\text{HF}$ ,分别计算其 $\Delta_r G_m^\Theta$ 。0.5分反应1的 $\Delta_r H_m^\Theta = -\Delta_f H_m^\Theta = -60.2\,\text{kJ mol}^{-1}$ , $\Delta_r S_m^\Theta = S_m^\Theta (\text{F}_2) + S_m^\Theta (\text{Kr}) - S_m^\Theta (\text{KrF}_2) = 254.4\,\text{J mol}^{-1}\,\text{K}^{-1}$ ,0.5分</td></tr></table>
+
+
+**4-1** $5(\text{KrF}_2 \cdot 2\text{SbF}_5) + 4\text{XeOF}_4 + 2\text{SbF}_5 = 4(\text{XeF}_6 \cdot 2\text{SbF}_5) + 2[\text{O}_2][\text{Sb}_2\text{F}_{11}] + 5\text{Kr}$  3分将两种加合物用离子形态表示也可。价层电子对的构型为正八面体;离子构型为四方锥或四角锥。各1分,共2分
+
+**4-2** $\text{KrF}_2 + 2\text{e}^- + 2\text{H}^+ = 2\text{HF} + \text{Kr}$  1分
+
+**4-3** 反应可看作是 $\text{F}_2 + 2\text{e}^- = 2\text{F}^-$ 与 $2\text{H}^+ + 2\text{F}^- = 2\text{HF}$ 的耦合0.5分反应1的 $\ln K_I = zF\varphi^{\text{O}}_{\text{F}_2/\text{F}}/RT = 222.8$ 0.5分故 $\ln K = \ln [K_1/K(\text{HF})^2] = \ln K_1 - 2\ln K(\text{HF}) = 237.5$ 0.5分故 $\varphi^{\text{O}}_{\text{F}_2/\text{HF}} = (RT\ln K)/zF = 3.05\,\text{V}$ 0.5分
+
+**4-4** 考虑以下的电池反应: $\text{KrF}_2 + 2\text{H}^+ + 2\text{e} = \text{Kr} + 2\text{HF}, \text{H}_2 = 2\text{H}^+ + 2\text{e}$ ,电池反应为 $\text{KrF}_2 + \text{H}_2 = \text{Kr} + 2\text{HF}$ ,计算其标准电动势。将其拆分为: $\text{KrF}_2 = \text{Kr} + \text{F}_2, \text{F}_2 + \text{H}_2 = 2\text{HF}$ ,分别计算其 $\Delta_r G_m^\Theta$ 。0.5分反应1的 $\Delta_r H_m^\Theta = -\Delta_f H_m^\Theta = -60.2\,\text{kJ mol}^{-1}$ , $\Delta_r S_m^\Theta = S_m^\Theta (\text{F}_2) + S_m^\Theta (\text{Kr}) - S_m^\Theta (\text{KrF}_2) = 254.4\,\text{J mol}^{-1}\,\text{K}^{-1}$ ,0.5分
+
+
 
 故 $\Delta_{\mathrm{r}}G_{\mathrm{m},1}^{\Theta} = \Delta_{\mathrm{r}}H_{\mathrm{m}}^{\Theta} - T\cdot \Delta_{\mathrm{r}}S_{\mathrm{m}}^{\Theta} = -136.0\mathrm{kJ mol^{-1}}$ 0.5分对于反应2， $\Delta_{\mathrm{r}}G_{\mathrm{m},2}^{\Theta} = -zFE^{\Theta} = -zF\varphi^{\Theta}\mathrm{F}_{2 / \mathrm{HF}} = -588.6\mathrm{kJ mol^{-1}}$ 1分故总反应的 $\Delta_{\mathrm{r}}G_{\mathrm{m}}^{\Theta} = \Delta_{\mathrm{r}}G_{\mathrm{m},1}^{\Theta} + \Delta_{\mathrm{r}}G_{\mathrm{m},2}^{\Theta} = -724.6\mathrm{kJ mol^{-1}}$ 0.5分因此得 $\varphi^{\Theta}_{\mathrm{KrF_2 / Kr}} = E^{\Theta} = \Delta_{\mathrm{r}}G_{\mathrm{m}}^{\Theta} / zF = 3.75\mathrm{V}$ 1分用其他方法计算，步骤合理，答案正确，也得满分。
 

@@ -60,18 +60,46 @@ source_file: "2026机构初赛模拟题/08-汇智/汇智起航五一初赛模拟
 
 ## 参考答案
 
-<table><tr><td>6-1</td><td>关键自由基中间体:
-    CN <img src="images/0ab83ba72e7fbf12cb36f3b5362469878e637483a7c17f945c60d9a35a71ff47.jpg"/> <img src="images/66fbb44239be602d40c77827e00fa8aafff07d4718516c03eead8ec76dde24e1.jpg"/> <img src="images/567081f27eccc123d2c5fa07212767c2596b7a5bced7c179a241700c633b9215.jpg"/>
-各1分,共4分</td></tr><tr><td>6-2</td><td>结构:
+
+
+**6-1** 关键自由基中间体:
+    CN 
+<img src="images/0ab83ba72e7fbf12cb36f3b5362469878e637483a7c17f945c60d9a35a71ff47.jpg"/>
+ 
+<img src="images/66fbb44239be602d40c77827e00fa8aafff07d4718516c03eead8ec76dde24e1.jpg"/>
+ 
+<img src="images/567081f27eccc123d2c5fa07212767c2596b7a5bced7c179a241700c633b9215.jpg"/>
+
+各1分,共4分
+
+**6-2** 结构:
 <img src="images/fa96e48cefb2190a0cbd7148158da8bab5f771ac8315ecfb8ef6e2e6002e66be.jpg"/> <img src="images/f94a9304d0213c91516d58e566617c1a69a6b7e6c311e36fc1b8bf477e5707a4.jpg"/> <img src="images/0bf4223ea668efdce3e1c7f9c700114cea21f92dce29e47905b173c82e519f9a.jpg"/>
 A B
 A、B各2分,C3分,共7分,C主链结构正确但为正确表示端基可得2分得到C的选择性(3分,各1分):
 (1)4-氰基-4-[(十二烷基硫基硫代羰基)硫基]戊醇(CTA)作为链转移试剂,在AIBN作用下产生的亲电性氰基自由基优先与富电子的CKA双键反应
 (2)CKA开环优先形成稳定的苄基自由基
-(3)CKA裂解得到的亲核性苄基自由基优先与缺电子的马来酰亚胺双键反应,最终得到交叉聚合的产物</td></tr><tr><td>6-3</td><td>6-3-1
+(3)CKA裂解得到的亲核性苄基自由基优先与缺电子的马来酰亚胺双键反应,最终得到交叉聚合的产物
+
+**6-3** 6-3-1
 最稳定构象(2分):
     <img src="images/0529f4c4acedb5377c4b4c7276aaffd5e5b5c1d845fbae733219b511dcbec774.jpg"/>
-绝对构型(各1分,共2分):C1:R,C2:R6-3-2结构(各2分,共4分):<img src="images/9ed05ac89b71059095bf4b00a59b5e441fb3d8fdfc0203ce8f11d27adb80d261.jpg"/> <img src="images/0fba97dba223db61c63a311c384f70892b2530e13e74389bed8bad3360f69714.jpg"/>D Glu-CKA</td></tr><tr><td></td><td>6-3-3结构(各2分,共4分):<img src="images/bafe0a82319012c55b9244bd6340e563f3e76067f6acf8a0bdeb657feed0394a.jpg"/> <img src="images/44b06327176eec281e466e8d750f52449607ae8645f69f00fcef56653c360d43.jpg"/>E机理:<img src="images/9560b0109ab3c9f6db7965de3212046e960a40ed1c4d902e3296e41fcd489d81.jpg"/><img src="images/f0f2ef7434321af06bfab14f8403c701561414290d30e6dc8d6c161a3f189911.jpg"/></td></tr></table>
+绝对构型(各1分,共2分):C1:R,C2:R6-3-2结构(各2分,共4分):
+<img src="images/9ed05ac89b71059095bf4b00a59b5e441fb3d8fdfc0203ce8f11d27adb80d261.jpg"/>
+ 
+<img src="images/0fba97dba223db61c63a311c384f70892b2530e13e74389bed8bad3360f69714.jpg"/>
+D Glu-CKA
+
+6-3-3结构(各2分,共4分):
+<img src="images/bafe0a82319012c55b9244bd6340e563f3e76067f6acf8a0bdeb657feed0394a.jpg"/>
+ 
+<img src="images/44b06327176eec281e466e8d750f52449607ae8645f69f00fcef56653c360d43.jpg"/>
+E机理:
+<img src="images/9560b0109ab3c9f6db7965de3212046e960a40ed1c4d902e3296e41fcd489d81.jpg"/>
+
+<img src="images/f0f2ef7434321af06bfab14f8403c701561414290d30e6dc8d6c161a3f189911.jpg"/>
+
+
+
 
 ## 知识点映射
 

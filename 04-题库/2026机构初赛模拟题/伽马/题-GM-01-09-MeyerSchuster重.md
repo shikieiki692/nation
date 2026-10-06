@@ -79,7 +79,25 @@ OH Ph -N BF3 OEt2(3O, m01%) X Me Ph = C24H21NO Ph
 ![](images/c6a86b08748cff4ad4ab211f9c1589b8963cef3efd4a468b0d6f9df651562b80.jpg)
 画出该反应的关键中间体。
 9-3（本小问共12分）
-   <img src="images/5f326cec4ddf5ea84bd32abd85f5bec7cb6b09c74b84b402b0715160f511f582.jpg"/>  <img src="images/0c1ddfcf1f30d139e6bf222cb7b852265137d2692a0d5104ce4b29b501a885c4.jpg"/>  <img src="images/d5444323c04f62e5865b4bf48dfbc748d7400d2de0423b81f1359c9ee5bf442f.jpg"/>    <img src="images/8f69174d226db3151a8d61d7cebddd0ffae8182c87b68e9f868c1dceda5f0dfa.jpg"/>  <img src="images/8075586aac087f8de6e17ec387e73c0673e8707ac801bfd478656d27ce79d7ca.jpg"/>  <img src="images/28d47f42d116a0d67d8108d49d39dae86d25a69200f75256402aaa0e5d25bfe3.jpg"/>    (共12分,各2分)    9-4早期研究该反应时,研究人员研究了如下底物的反应:    <img src="images/374ddd69a7b9f9095bc1122f0bcca99ba4a609f9074e60ef13c1741d498579b3.jpg"/>    而当使用碱的时候,得到的骨架又发生了较大变化:    <img src="images/8ed9338b154088110dc9bf5d40b867eec791332bb64552d3b39e9aa7fe805a90.jpg"/>    考虑酸性条件下得到的产物机理,画出用碱得到的产物的结构,已知其结构含有八元环。    9-4(本小问共4分)    <img src="images/da4699e2e2f376999388fcd38719389032c89f99c1a20e3fc9ae88fc48c538f5.jpg"/>    (4分)   
+   
+<img src="images/5f326cec4ddf5ea84bd32abd85f5bec7cb6b09c74b84b402b0715160f511f582.jpg"/>
+  
+<img src="images/0c1ddfcf1f30d139e6bf222cb7b852265137d2692a0d5104ce4b29b501a885c4.jpg"/>
+  
+<img src="images/d5444323c04f62e5865b4bf48dfbc748d7400d2de0423b81f1359c9ee5bf442f.jpg"/>
+    
+<img src="images/8f69174d226db3151a8d61d7cebddd0ffae8182c87b68e9f868c1dceda5f0dfa.jpg"/>
+  
+<img src="images/8075586aac087f8de6e17ec387e73c0673e8707ac801bfd478656d27ce79d7ca.jpg"/>
+  
+<img src="images/28d47f42d116a0d67d8108d49d39dae86d25a69200f75256402aaa0e5d25bfe3.jpg"/>
+    (共12分,各2分)    9-4早期研究该反应时,研究人员研究了如下底物的反应:    
+<img src="images/374ddd69a7b9f9095bc1122f0bcca99ba4a609f9074e60ef13c1741d498579b3.jpg"/>
+    而当使用碱的时候,得到的骨架又发生了较大变化:    
+<img src="images/8ed9338b154088110dc9bf5d40b867eec791332bb64552d3b39e9aa7fe805a90.jpg"/>
+    考虑酸性条件下得到的产物机理,画出用碱得到的产物的结构,已知其结构含有八元环。    9-4(本小问共4分)    
+<img src="images/da4699e2e2f376999388fcd38719389032c89f99c1a20e3fc9ae88fc48c538f5.jpg"/>
+    (4分)   
 
 
 

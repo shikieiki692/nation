@@ -107,7 +107,19 @@ $$
 
 5-5 实验发现, 当体系中 $[\mathrm{NO}] \gg [\mathrm{NO}_{2}]$ 时, 该反应表现为表观一级反应。请利用上述速率方程简化说明其原因, 并给出此时表观速率常数 $k_{app}$ 与基元反应速率常数的关系。
 
-<table><tr><td>5-1</td><td>ABCD(6分,漏选一个扣1.5分)</td></tr><tr><td>5-2</td><td>A(3分)</td></tr><tr><td>5-3</td><td>由稳态近似法,中间体生成速率等于消耗速率,有(3分): $\frac{d[PA \cdot ]}{dt} = k_1[PAN] - k_2[PA \cdot ][NO_2] - k_3[PA \cdot ][NO] = 0$ </td></tr><tr><td>5-4</td><td>PAN的消耗速率(1分): $r = -\frac{d[PAN]}{dt} = k_1[PAN] - k_2[PA \cdot ][NO_2]$ 由5-3整理得(1分): $[PA \cdot ] = \frac{k_1[PAN]}{k_2[NO_2] + k_3[NO]}$ 代入速率方程(1分): $r = k_1[PAN] - \frac{k_1k_2[NO_2][PAN]}{k_2[NO_2] + k_3[NO]}$ 通分并化简: $r = \frac{k_1k_2[NO_2][PAN] + k_1k_3[NO][PAN] - k_1k_2[NO_2][PAN]}{k_2[NO_2] + k_3[NO]}$ 得出结果(1分): $r = \frac{k_1 k_3 [NO][PAN]}{k_2 [NO_2] + k_3 [NO]}$ 共4分,结果正确过程合理即可得分</td></tr><tr><td>5-5</td><td>当[NO]≫[NO2]时, $k_3 [NO]$ 项远大于 $k_2 [NO_2]$ 此时分母近似为 $k_3 [NO]$ ,速率方程简化为(2分): $r \approx \frac{k_1 k_3 [NO][PAN]}{k_3 [NO]} = k_1 [PAN]$ 该方程符合一级反应特征,速率常数(1分): $k_{app} = k_1$ </td></tr></table>
+
+
+**5-1** ABCD(6分,漏选一个扣1.5分)
+
+**5-2** A(3分)
+
+**5-3** 由稳态近似法,中间体生成速率等于消耗速率,有(3分): $\frac{d[PA \cdot ]}{dt} = k_1[PAN] - k_2[PA \cdot ][NO_2] - k_3[PA \cdot ][NO] = 0$
+
+**5-4** PAN的消耗速率(1分): $r = -\frac{d[PAN]}{dt} = k_1[PAN] - k_2[PA \cdot ][NO_2]$ 由5-3整理得(1分): $[PA \cdot ] = \frac{k_1[PAN]}{k_2[NO_2] + k_3[NO]}$ 代入速率方程(1分): $r = k_1[PAN] - \frac{k_1k_2[NO_2][PAN]}{k_2[NO_2] + k_3[NO]}$ 通分并化简: $r = \frac{k_1k_2[NO_2][PAN] + k_1k_3[NO][PAN] - k_1k_2[NO_2][PAN]}{k_2[NO_2] + k_3[NO]}$ 得出结果(1分): $r = \frac{k_1 k_3 [NO][PAN]}{k_2 [NO_2] + k_3 [NO]}$ 共4分,结果正确过程合理即可得分
+
+**5-5** 当[NO]≫[NO2]时, $k_3 [NO]$ 项远大于 $k_2 [NO_2]$ 此时分母近似为 $k_3 [NO]$ ,速率方程简化为(2分): $r \approx \frac{k_1 k_3 [NO][PAN]}{k_3 [NO]} = k_1 [PAN]$ 该方程符合一级反应特征,速率常数(1分): $k_{app} = k_1$
+
+
 
 ## 知识点映射
 

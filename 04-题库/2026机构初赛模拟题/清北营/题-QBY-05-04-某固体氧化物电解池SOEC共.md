@@ -53,7 +53,6 @@ $$
 
 已知各物种 298.15K 时的热力学数据如下（理想气体）：
 
-![](images/7491a12d1a54372c0968338a593f95351b560cbee69666e77539adc7bd00b18b.jpg)
 
 <table><tr><td>物种</td><td> $\Delta_{f}H_{m}^{\ominus}$  (kJ/mol)</td><td> $S_{m}^{\ominus}$  (J/mol·K)</td><td> $C_{p,m}^{\ominus}$  (J/mol·K)</td></tr><tr><td> $H_2O(g)$ </td><td>-241.8</td><td>188.8</td><td>36.0</td></tr><tr><td> $CO_2(g)$ </td><td>-393.5</td><td>213.7</td><td>44.0</td></tr><tr><td> $H_2(g)$ </td><td>0</td><td>130.7</td><td>29.0</td></tr><tr><td>CO(g)</td><td>-110.5</td><td>197.7</td><td>30.0</td></tr><tr><td> $O_2(g)$ </td><td>0</td><td>205.2</td><td>33.0</td></tr></table>
 
@@ -87,7 +86,6 @@ $$
 
 4-2 计算 1000 K 下 R1 和 R2 反应的标准平衡常数 $K_{p,1}^{\ominus}$ 和 $K_{p,2}^{\ominus}$ 。
 
-![](images/18d9bed82f5c207a2a32a98de102b981e7a6006b7007a6c1adb6bd98788f1077.jpg)
 
 4-2
 $\Delta_{r}H_{m}^{\ominus}(T_{2})=\Delta_{r}H_{m}^{\ominus}(T_{1})+\Delta C_{p}(T_{2}-T_{1})$ $\Delta_{r}S_{m}^{\ominus}(T_{2})=\Delta_{r}S_{m}^{\ominus}(T_{1})+\Delta C_{p}\ln(T_{2}/T_{1})$

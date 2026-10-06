@@ -58,13 +58,21 @@ source_file: "2026机构初赛模拟题/07-化英社/第40届化英社化学奥�
 
 > 📌 本源为「参考答案」稿（题面与解答逐问交错）。本段按源稿原序保留，**其中包含题面性质的叙述（提示／条件／实验步骤），并非全部为解答**；请与前文「题目」段合并阅读。
 
-<table><tr><td>P 的电负性略小于 C,导致电荷基本在 C 和 P 之间平均分布,P 的诱导吸电子不明显 (2 分,回答 P 的电负性和 C 相差不大亦可)</td></tr></table>
+
+
+P 的电负性略小于 C,导致电荷基本在 C 和 P 之间平均分布,P 的诱导吸电子不明显 (2 分,回答 P 的电负性和 C 相差不大亦可)
+
+
 
 
 <table><tr><td colspan="2">1-1-2-1</td><td>1-1-2-2</td></tr><tr><td colspan="2"></td><td>(1) RCOCI(2) NaOH(s), 140°C</td></tr><tr><td colspan="3">1-1-2-3</td></tr><tr><td colspan="3"> $Nb(NR^1R^2)_3 + P_4 + Na(Hg) + R\overset{O}{\underset{\vert}{C}}\overset{\Delta}{\underset{\vert}{Cl}}$ </td></tr><tr><td>1-1-2-1</td><td colspan="2">1-1-2-2</td></tr><tr><td>—≡P + ||</td><td colspan="2"> $R—\equiv P + SiMe_3Cl + (SiMe_3)_2O(SiMe_3)_2O$ 可写作  $Me_3SiOH$  or  $Me_3SiONa$ </td></tr><tr><td colspan="3">1-1-2-3</td></tr><tr><td colspan="3"> $R—\equiv P + NbO(NR^1R^2)_3 + NaCl$ </td></tr><tr><td colspan="3">(共6分,各2分,漏产物扣1分)</td></tr></table>
 
 
-<table><tr><td>温馨提示:1-2-1、1-2-2、1-3 和 1-4 之间相互独立</td></tr></table>
+
+
+温馨提示:1-2-1、1-2-2、1-3 和 1-4 之间相互独立
+
+
 
 
 区分度

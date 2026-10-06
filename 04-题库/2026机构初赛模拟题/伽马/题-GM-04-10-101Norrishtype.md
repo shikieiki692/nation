@@ -96,7 +96,33 @@ MeCOOH C
 
 10-3 下面这个反应历经两个双自由基中间体后发生了电荷转移，生成一个正负电荷分离的中间体，最后生成了螺环化合物。写出产物、第二个双自由基中间体以及正负电荷分离的中间体。
 
-<table><tr><td><img src="images/65cbe658f315f94cc149b12b7d12008e677765587dd559ca63e6e46a5cb4fe4b.jpg"/></td></tr><tr><td>10-3(6分)</td></tr><tr><td><img src="images/aa6d3dd7a623f4c82c1a73693bc1ba3c8835a4aa577825d312332cee9804e9b7.jpg"/>A:(2分)<img src="images/2d7f4637675d16059ef1725c62ec4aa20f753471487c72530c35f6b796520da4.jpg"/><img src="images/98b7d659eb3f9be7758d005b2561bc827f1c03e9e9927a79137cd532bf9a9584.jpg"/>中间体1:(2分)中间体2:(2分)</td></tr><tr><td>10-4下面这个反应历经两个双自由基中间体后,生成了一个小环。写出产物以及第二个双自由基中间体(MOM与SEM均为无关的保护基)(注意立体化学)。<img src="images/2fbec04cb155167d45019ec1b24e7536344e46cd8ee800ce1c350a7b8d98c4b3.jpg"/></td></tr><tr><td>10-4(5分)</td></tr><tr><td><img src="images/82c09c82b9a0f838471631ef263f52f34b04dfc1f212546dd47ad2f50b075e5e.jpg"/>A: SEMU (3分,立体错误1分)<img src="images/68728ef06e01b6404e4390f62f1175036ec8e011c32af9c1834028f93d2576f4.jpg"/>中间体:(2分)</td></tr></table>
+
+
+<img src="images/65cbe658f315f94cc149b12b7d12008e677765587dd559ca63e6e46a5cb4fe4b.jpg"/>
+
+10-3(6分)
+
+
+<img src="images/aa6d3dd7a623f4c82c1a73693bc1ba3c8835a4aa577825d312332cee9804e9b7.jpg"/>
+A:(2分)
+<img src="images/2d7f4637675d16059ef1725c62ec4aa20f753471487c72530c35f6b796520da4.jpg"/>
+
+<img src="images/98b7d659eb3f9be7758d005b2561bc827f1c03e9e9927a79137cd532bf9a9584.jpg"/>
+中间体1:(2分)中间体2:(2分)
+
+10-4下面这个反应历经两个双自由基中间体后,生成了一个小环。写出产物以及第二个双自由基中间体(MOM与SEM均为无关的保护基)(注意立体化学)。
+<img src="images/2fbec04cb155167d45019ec1b24e7536344e46cd8ee800ce1c350a7b8d98c4b3.jpg"/>
+
+
+10-4(5分)
+
+
+<img src="images/82c09c82b9a0f838471631ef263f52f34b04dfc1f212546dd47ad2f50b075e5e.jpg"/>
+A: SEMU (3分,立体错误1分)
+<img src="images/68728ef06e01b6404e4390f62f1175036ec8e011c32af9c1834028f93d2576f4.jpg"/>
+中间体:(2分)
+
+
 
 ![](images/635d90bb44a12839b86d283beadcf91f23bb819bef8aba18f84a58357ed23c9e.jpg)
 

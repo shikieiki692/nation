@@ -58,7 +58,11 @@ source_file: "2026机构初赛模拟题/10-chemy/第三十九届Chemy化学奥�
 
 7-1 若 $\mathrm{N}_2$ 仅由端基配位, 则 $\mathrm{Fe}(\mathrm{dmpe})_2(\mathrm{N}_2)$ 共有几种异构体(含三角双锥和四方锥结构)?
 
-<table><tr><td>7-1(2分)共6种</td></tr></table>
+
+
+7-1(2分)共6种
+
+
 
 ## 7-2-1 写出 A、C、D 的化学式；画出八面体配合物 B 的结构。
 

@@ -70,7 +70,6 @@ $$
 
 ![](images/c3b46dee71ed9ac986bb84fd7d3aa85af4587405f9ab6d705e0133174feb3714.jpg)
 
-![](images/4991df3156a103f035db24f27d8c8fc66a5e79da5b48e4871bf4741497b8fb09.jpg)
 
 ![](images/f1f6b00adf2d538cb15c144fd9d1851512fde6e3c1bd0b75224dc0926dd08f35.jpg)
 

@@ -46,7 +46,6 @@ Pummerer 重排是一类常见的分子内氧化还原反应
 
 (m-CPBA: 间氯过氧苯甲酸; LDA: 二异丙基氨基锂; DMF: N,N-二甲基甲酰胺)
 
-![](images/10eb82e22cf992902cccdabb3a2def7d4cb0a49624f72e63775fe42381fe7196.jpg)
 
 ## 参考答案
 

@@ -111,7 +111,13 @@ L不能做到芳构化，若不存在羟基推电子则难以发生。
 ![](images/dffbbc6f8bd9ec708a87d5236204ad00a72730fba91e00837eb76258fbf98eae.jpg)
 $R = Ph, p - MeOPh, p - CF_{3}Ph$
 
-<table><tr><td>p-MeOC6H4&gt;Ph&gt;p-CF3C6H4</td></tr><tr><td>1分</td></tr></table>
+
+
+p-MeOC6H4&gt;Ph&gt;p-CF3C6H4
+
+1分
+
+
 
 1-4现在回看1-2-1反应，两种产物存在着竞争关系。
 

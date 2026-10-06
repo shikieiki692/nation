@@ -162,7 +162,7 @@ $PhNMe_{2}$ 碱性显著弱于 $PhCH_{2}NMe_{2}$ (1 分)
 ![](images/91e51e1ed16f5193b255afb1498224424923561491713d914d28fd7365af295d.jpg)
 
 7-2-4-3
-![](images/181e6d98eb66b28ae5517154da32aad92d00cfe3e476f52a7257094b48258793.jpg)
+
 (2 分)
 
 7-2-4-3 共 2 分
@@ -191,7 +191,6 @@ $$
 \begin{array}{r l}\mathrm {B(C_ {6} F_ {5}) _ {3} \cdot H_ {2} O}&\rightleftharpoons \mathrm {B(C_ {6} F_ {5}) _ {3} (OH) ^ {-} + H^ {+}} (\mathrm {pK_ {a} = 8.6})\\\mathrm{HF}&\rightleftharpoons \mathrm {F^ {-} + H^ {+}} (\mathrm {pK_ {a} = 25.2})\end{array}
 $$
 
-![](images/8a44d7e02e1d03d435c332e50b3f54da6a05c25891c9e519f6d32667ee7b9bbb.jpg)
 
 ![](images/dee972ae8ba39b31b5716616b737ac1dbae2c78fdd02e0fdff9afbf360a571ae.jpg)
 

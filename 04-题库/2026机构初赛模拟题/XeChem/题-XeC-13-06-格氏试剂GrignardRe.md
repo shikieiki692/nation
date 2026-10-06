@@ -66,7 +66,6 @@ $\left[\mathrm{CpFe}(\mathrm{CO})_{2}\right]_{2} (\mathbf{A})$ 与两当量 K �
 B: K[CpFe(CO) $_{2}$ ] (2 分)
 
 ![](images/07e1f472a5f40dc30374d95cee91a38f645a4385d29254c7c27734cfc90a72d6.jpg)  
-X
 
 ![](images/c6e5bc0d33818218884f4818e63c369bcfae960e43cfc18e09e64f23e1607301.jpg)  
 (各3分，共6分)

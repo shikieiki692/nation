@@ -45,7 +45,6 @@ source_file: "chemy试题/第36届化学奥林匹克Chemy模拟试题题目合�
 
 ![](images/df4fc65863e45c52e4b5efca0e630f81bde66fced07fbbb23bf895b938b97950.jpg)
 
-```txt
 5-1-1 Mo: 三棱柱（0.5分）Si: 四面体（0.5分）
 5-1-2 MoSi₂N₄（2分）
 
@@ -72,7 +71,6 @@ c = (256.1 pm + 270.3 pm) × 3 = 1579 pm（1分）
 D = ZM/NₐV
 = ZM/Nₐa²csin120°（1分）
 = 5.792 g/cm³（1分）
-```
 
 ## 知识点映射
 

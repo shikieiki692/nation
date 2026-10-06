@@ -38,7 +38,7 @@ source_file: "chemy试题/第33届Chemy化学奥林匹克题目合集..md"
 ![](images/1202c28914fdac61a47addcf9cb11b055306a3c142c7645a182cc23ca0d18d3a.jpg)
 
 10-1 画出 $\boldsymbol { \mathsf { B } } \sim \boldsymbol { \mathsf { E } }$ 的结构简式。
-10-2 若上述反应不经过 $ { \mathrm { Br } } _{ 2 }$ 和 AcOH 溶液的处理， 则最终会以较高的产率生成另外一种副产物， 画出此副产物的结构简式。
+10-2 若上述反应不经过 ${ \mathrm { Br } } _{ 2 }$ 和 AcOH 溶液的处理， 则最终会以较高的产率生成另外一种副产物， 画出此副产物的结构简式。
 10-3 画出生成B 过程中所经历的反应历程。
 
 ## 参考答案

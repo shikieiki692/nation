@@ -89,7 +89,13 @@ G
 
 5-3-1 写出小分子 I 和 J 的化学式。
 
-<table><tr><td><img src="images/c9806191edd7cde3a72b656fc35ebc8d649badbd365e376b8c3dfc6e9f8c4210.jpg"/></td></tr><tr><td>5-3-2 实际上,配合物 H-R 由一对异构体组成,而两种异构体的占比由—R 基决定。当 R=H 时,只能得到 H-H1一种异构体;当 R=Ph 时,只能得到 H-Ph2一种异构体;当 R=Me 时,得到的是 H-Me1和 H-Me2的混合物。请画出 H-R1和 H-R2的结构,并简要描述造成反应结果差异化的两个关键性因素。</td></tr></table>
+
+
+<img src="images/c9806191edd7cde3a72b656fc35ebc8d649badbd365e376b8c3dfc6e9f8c4210.jpg"/>
+
+**5-3-2** 实际上,配合物 H-R 由一对异构体组成,而两种异构体的占比由—R 基决定。当 R=H 时,只能得到 H-H1一种异构体;当 R=Ph 时,只能得到 H-Ph2一种异构体;当 R=Me 时,得到的是 H-Me1和 H-Me2的混合物。请画出 H-R1和 H-R2的结构,并简要描述造成反应结果差异化的两个关键性因素。
+
+
 
 ![](images/0a821dd95d8df3fcd866cf3401428141e03e0200306efa7ae89b6ac93201fa65.jpg)
 

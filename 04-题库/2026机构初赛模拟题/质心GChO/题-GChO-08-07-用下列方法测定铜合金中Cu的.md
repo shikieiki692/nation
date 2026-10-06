@@ -78,7 +78,11 @@ $$
 \begin{array}{r l} c \left(\mathrm{Na} _ {2} \mathrm{S} _ {2} \mathrm{O} _ {3}\right) & = \frac {n}{V} = \frac {6 \times c \left(\mathrm{K} _ {2} \mathrm{Cr} _ {2} \mathrm{O} _ {7}\right) \times V \left(\mathrm{K} _ {2} \mathrm{Cr} _ {2} \mathrm{O} _ {7}\right)}{V \left(\mathrm{Na} _ {2} \mathrm{S} _ {2} \mathrm{O} _ {3}\right)} \\ & = \frac {6 \times 1.701 \times 10 ^ {- 2} \times 25.00 \times 10 ^ {- 3}}{25.16 \times 10 ^ {- 3}} = 0.1014 \mathrm{mol} \cdot \mathrm{L} ^ {- 1} (1 ^ {\prime}) \end{array}
 $$
 
-<table><tr><td> $\text{Cu} + \text{H}_2\text{O}_2 + 2\text{H}^+ = \text{Cu}^{2+} + 2\text{H}_2\text{O}$  (1&#x27;)</td></tr></table>
+
+
+$\text{Cu} + \text{H}_2\text{O}_2 + 2\text{H}^+ = \text{Cu}^{2+} + 2\text{H}_2\text{O}$  (1&#x27;)
+
+
 
 7-2 用分析天平准确称取 0.8752 g 铜合金，加入 10 mL、6M 的 HCl 与 10mL，30% 的过氧化氢，加热溶解，直到无氧气析出后停止加热，冷却至室温后滤去难溶物，然后定容至 100.0 mL，准确移取 25.00 mL 该溶液，加入 40 mL 去离子水，加入 2.0 g KI 固体，轻摇使之充分反应，然后以上述 $Na_{2}S_{2}O_{3}$ 溶液滴定，临近终点时加入淀粉与 $NH_{4}SCN$ ，达终点时，消耗 21.68 mL。
 

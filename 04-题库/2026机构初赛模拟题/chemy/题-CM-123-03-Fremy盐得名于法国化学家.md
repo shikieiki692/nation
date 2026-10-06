@@ -53,7 +53,19 @@ Fremy 盐得名于法国化学家 E. Frémy，其化学式为 $\mathrm{K}_{2}[\m
 反应2：$[\mathrm{N(OH)(SO_3)_2}]^{2-} + \mathrm{OH}^- - \mathrm{e}^- = [\mathrm{NO(SO_3)_2}]^{2-} + \mathrm{H}_2\mathrm{O}$ （1分）
 反应3：$2\mathrm{H}_2\mathrm{O} + 2\mathrm{e}^- = \mathrm{H}_2 + 2\mathrm{OH}^-$ （1分）
 
-<table><tr><td>4-1<img src="images/f945bc558507074b098095e3cd009883c389da5c84acc24c8decbaf3af888026.jpg"/>(各1分)</td></tr><tr><td>4-2 通过计算和推导确定链终止的方式,画出所得聚合物的结构。</td></tr><tr><td>4-2 每根PS链含有的苯乙烯单体数目为: $1.30 \times 10^{6} \div 104.1 = 1.25 \times 10^{4}$ (1分)每个AIBN对应的苯乙烯单体数目为: $1.919 \times 10^{8} \div [858 \div (5.80 \div 104.1)] = 1.24 \times 10^{4}$ (1分)二者数值相近;由于1个AIBN分子产生2个自由基,因此实验条件下链终止的方式是偶合终止 $R \cdot +R \cdot \rightarrow R_{2}$ (1分)。<img src="images/8013f8f16cfbb72471b3ca997acd42421c221e49362eca174401bd3a6668bab7.jpg"/>(2分)</td></tr></table>
+
+
+4-1
+<img src="images/f945bc558507074b098095e3cd009883c389da5c84acc24c8decbaf3af888026.jpg"/>
+(各1分)
+
+**4-2** 通过计算和推导确定链终止的方式,画出所得聚合物的结构。
+
+**4-2** 每根PS链含有的苯乙烯单体数目为: $1.30 \times 10^{6} \div 104.1 = 1.25 \times 10^{4}$ (1分)每个AIBN对应的苯乙烯单体数目为: $1.919 \times 10^{8} \div [858 \div (5.80 \div 104.1)] = 1.24 \times 10^{4}$ (1分)二者数值相近;由于1个AIBN分子产生2个自由基,因此实验条件下链终止的方式是偶合终止 $R \cdot +R \cdot \rightarrow R_{2}$ (1分)。
+<img src="images/8013f8f16cfbb72471b3ca997acd42421c221e49362eca174401bd3a6668bab7.jpg"/>
+(2分)
+
+
 
 ## 知识点映射
 

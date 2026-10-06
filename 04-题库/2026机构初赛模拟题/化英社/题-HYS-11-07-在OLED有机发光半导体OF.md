@@ -80,8 +80,16 @@ IPAD
 ## 参考答案
 
 ![](images/386b4f1f9f7f2c0681841ee2277e7fb34112d627f71d59543d2879189904dfdf.jpg)
-<table><tr><td>C—H...O 氢键、C—H...F 氢键、F 的孤对电子对 S 的σ-hole 的相互作用(3 分,每个 1 分)</td></tr></table>
-<table><tr><td>对水、空气不稳定(1分)</td></tr></table>
+
+
+C—H...O 氢键、C—H...F 氢键、F 的孤对电子对 S 的σ-hole 的相互作用(3 分,每个 1 分)
+
+
+
+
+对水、空气不稳定(1分)
+
+
 a
 b
 ![](images/5ea4775cf7c6dba62e7637f356e8ed7e1221072885f64b29a2142c941b7acacd.jpg)

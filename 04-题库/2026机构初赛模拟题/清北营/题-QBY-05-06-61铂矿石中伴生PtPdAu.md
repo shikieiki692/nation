@@ -115,7 +115,13 @@ $$
 
 ![](images/2fa4e363e8344c64c87a139cc5453a65ce676dd7d30ec984992ebc7fffee41b3.jpg)
 
-<table><tr><td>6-2-3</td><td><img src="images/5c28091a703d54c40942ea046daedb44d30734a4e84255c4580d3b4d9a2abc4b.jpg"/>写成氯铵盐的形式也给分</td></tr></table>
+
+
+**6-2-3** 
+<img src="images/5c28091a703d54c40942ea046daedb44d30734a4e84255c4580d3b4d9a2abc4b.jpg"/>
+写成氯铵盐的形式也给分
+
+
 
 6-2-4 研究表明，P 的催化机理如下图所示：
 

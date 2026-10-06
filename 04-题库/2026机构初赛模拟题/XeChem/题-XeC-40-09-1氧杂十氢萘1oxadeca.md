@@ -113,7 +113,6 @@ H
 ![](images/a3dc47e74920343e12ee10f88eea0ad349410faa8a20d216f4a2d433ad57e02e.jpg)
 (第一个 2 分, 第二个 3 分, 共 5 分)
 
-![](images/b5febfe7983579f07bcc4f3d57a2d7c4e542bedcc3003cb5d3960d346ccf974a.jpg)
 
 ## 知识点映射
 

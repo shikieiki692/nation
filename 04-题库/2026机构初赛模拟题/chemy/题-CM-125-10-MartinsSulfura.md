@@ -68,7 +68,6 @@ Martin's Sulfurane 是一种经典的脱水剂，通过活化羟基，对其进�
 
 (3 分, 产物 1 分, 中间体 2 分)
 
-![](images/7c61a2578103b60f34b45fd8bae841a7708ccb72f8fa3f5a67e3615e182c8206.jpg)
 
 ## 知识点映射
 

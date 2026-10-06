@@ -129,7 +129,13 @@ source_file: "2026机构初赛模拟题/02-质心UChO/9thZCHEM-UChO-Tour1.md"
 
 <table><tr><td></td><td>O</td><td>O</td><td>O</td><td>O</td><td>O</td><td>O</td><td>O’</td><td>O’</td><td>O’</td></tr><tr><td>Ba</td><td>2</td><td>2</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>Ba</td><td></td><td></td><td></td><td>2</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Ba’Mn</td><td></td><td></td><td></td><td></td><td></td><td></td><td>2</td><td></td><td></td></tr><tr><td>Mn</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Mn'</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
 
-<table><tr><td>4-4-3(5分)</td><td></td><td><img src="images/78301d99ea98a70ced754cd50349a6a9fa916b9e65252ecff33f670feeb7b722.jpg"/></td><td></td></tr></table>
+
+
+**4-4-3(5分)** 
+<img src="images/78301d99ea98a70ced754cd50349a6a9fa916b9e65252ecff33f670feeb7b722.jpg"/>
+
+
+
 
 ## 知识点映射
 

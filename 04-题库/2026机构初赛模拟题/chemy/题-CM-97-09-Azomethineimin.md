@@ -62,7 +62,11 @@ Azomethine imines 是一类不太常见的 1,3 偶极体。
 
 ![](images/6f1cf4c0275e8c85f204fa84635529da9bb5200f4d81459713d1dcdf36a3838f.jpg)
 
-<table><tr><td>9-1N-C 键更长1 分</td></tr></table>
+
+
+9-1N-C 键更长1 分
+
+
 
 ![](images/dc973045b04f6a5c60e1b202f85625e6467f7c417dbd740481fa38bbf43f3768.jpg)
 

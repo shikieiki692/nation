@@ -48,7 +48,6 @@ $\left[\mathrm{Mes}^{*}\mathrm{B}(\mathrm{Br})\mathrm{NH}\right]_{2}$ 与 ItBu(�
 
 1-2-2 以 C 为例，写出加入 HCl 水溶液后发生的反应方程式。
 
-![](images/aaebecd0ebffd5aca768ff55e96c8b1103a35c5e75aeb984dcd51fea4163e89d.jpg)
 
 ## 参考答案
 

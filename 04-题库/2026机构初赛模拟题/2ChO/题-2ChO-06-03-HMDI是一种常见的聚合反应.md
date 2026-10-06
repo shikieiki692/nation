@@ -56,9 +56,7 @@ HMDI $[OCN(CH_{2})_{6}NCO]$ 是一种常见的聚合反应原料。
 ![](images/6a780c1d4a830fdffd5ff9b7b860a760228fa816ddc73e08fdc64c8e30c91df0.jpg)
 
 
-
 3.3.3 以此法解离得到的HMDI纯度高，可以在溶剂中与二醇或二胺高效地发生聚加成反应。写出其与三甘醇 $\mathrm{(HOCH_2CH_2OCH_2CH_2OCH_2CH_2OH)}$ 反应得到的高分子的结构简式，无需示出端基。
-
 
 
 <table><tr><td>3.1共3分</td><td>OCN(CH2)6NCO + 2H2O → HOOCNH(CH2)6NHCOOH (1分)HOOCNH(CH2)6NHCOOH → H2N(CH2)6NH2 + 2CO2(1分)<img src="images/0b08f91447c0f5f1b5b8348c009547dfdb65bd5334dec8270069cd4eb6285785.jpg"/><img src="images/55221aef76a633277cc62f94b504a401efa672705b270f74a0c266ef23bdbd07.jpg"/>或OCN(CH2)6NCO + H2O → HOOCNH(CH2)6NCO (1分)HOOCNH(CH2)6NCO → H2N(CH2)6NCO + CO2(1分)<img src="images/c4b926935639ba6caddff72e27f6e6cedc9ed6ea22d9fff2623591cf32294967.jpg"/>或<img src="images/e3a898c5ec5434c6ef4f421986b46b9c4020252f39841738cfe1494fec1c13ca.jpg"/>聚合物产物不要求端基,若未配平扣1分。</td></tr><tr><td>3.2共2分</td><td>高温加热容易导致副反应(1分)仅答纯度低不得分。</td></tr></table>
@@ -69,7 +67,6 @@ HMDI $[OCN(CH_{2})_{6}NCO]$ 是一种常见的聚合反应原料。
 
 <table><tr><td></td><td>脱去的小分子醇或胺会残留在体系中干扰聚合反应(1分)</td></tr><tr><td>3.3.1共3分</td><td>C-H...Π氢键(1分)、C-H...O氢键(1分)合并答为“氢键”,只得1分。疏水/亲脂相互作用(1分)</td></tr><tr><td>3.3.2共2分</td><td>DCM和氯仿尺寸较小,可以取代HMDI进入P5A的空腔与之结合;而环己烷尺寸太大难以进入并稳定结合(2分)答到尺寸差异即可得分。</td></tr><tr><td>3.3.3共2分</td><td> $\left[\begin{array}{c} \text{O} \\ | \\ \text{NH} \end{array}\right]_{2n}$ (2分)聚合度不写扣1分。</td></tr></table>
 
-![](images/dfb299fe68354610e74f9955f37d17a5f0ae3242cc8fce53db8285a23eb06038.jpg)
 
 > ✅ 答案由源《第6届2ChO化学奥林匹克联考试题、答案、说明与评分细则_20260524版.md》第 3 题回收补录（回源核对 2026-09-27）。
 

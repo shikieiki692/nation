@@ -102,7 +102,33 @@ $$
 \stackrel {\ominus} {N} = \stackrel {\oplus} {N} = N ^ {-} \stackrel {\circledast} {N} = N = N \stackrel {\ominus} {N} (\text {2分，未标形式电荷不得分})
 $$
 
-<table><tr><td><img src="images/3884afd2132327e723b313787bf4e93b8e192eeea9650f60c7b7cfaf9c7ab37c.jpg"/>2-2-1 (3分)</td></tr><tr><td><img src="images/c9e7a2dbe3a654e41f81895e6a4f1ad288fd4705f538cd305c9410f7b70f0bdd.jpg"/>2-2-2 (3分,未表示出氢键得1分)</td></tr><tr><td>2-3 <img src="images/0096c0fb3452308365ce87d89395c9664b391ab0eb767fb3511c39f046043505.jpg"/>3分</td></tr><tr><td>2-4-1<img src="images/153a9f82e0ae1e5cd1236fdc6b1138777be310b9e6aa576d8c63be70ded49bed.jpg"/>(结构3分)</td></tr><tr><td><img src="images/b5575cd26df5953bd123369f2b9052d309f22a8b8792edc58c8d4de4b8017e62.jpg"/>2-4-2(1、2对应102°C、3、4对应115°C、5对应245°C)脱水顺序为图中标注,因水分子成氢键个数和强度不同,导致脱水温度的差异(解释顺序2分)如果画出以下结构也给分。<img src="images/67063d85cabf243d8e1db2f673fdcbdb869f8b64872d666dbb95d0dc16d3e1aa.jpg"/>图19-3  $CaSO_{4} \cdot 5H_{2}O$  中原子间的连接关系</td></tr><tr><td>2-5-1</td></tr></table>
+
+
+**2-2-1** 
+<img src="images/3884afd2132327e723b313787bf4e93b8e192eeea9650f60c7b7cfaf9c7ab37c.jpg"/>
+2-2-1 (3分)
+
+**2-2-2** 
+<img src="images/c9e7a2dbe3a654e41f81895e6a4f1ad288fd4705f538cd305c9410f7b70f0bdd.jpg"/>
+2-2-2 (3分,未表示出氢键得1分)
+
+**2-3** 
+<img src="images/0096c0fb3452308365ce87d89395c9664b391ab0eb767fb3511c39f046043505.jpg"/>
+3分
+
+2-4-1
+<img src="images/153a9f82e0ae1e5cd1236fdc6b1138777be310b9e6aa576d8c63be70ded49bed.jpg"/>
+(结构3分)
+
+
+<img src="images/b5575cd26df5953bd123369f2b9052d309f22a8b8792edc58c8d4de4b8017e62.jpg"/>
+2-4-2(1、2对应102°C、3、4对应115°C、5对应245°C)脱水顺序为图中标注,因水分子成氢键个数和强度不同,导致脱水温度的差异(解释顺序2分)如果画出以下结构也给分。
+<img src="images/67063d85cabf243d8e1db2f673fdcbdb869f8b64872d666dbb95d0dc16d3e1aa.jpg"/>
+图19-3  $CaSO_{4} \cdot 5H_{2}O$  中原子间的连接关系
+
+2-5-1
+
+
 
 ![](images/f3120206cfd2812c3dc39c175de2b9a3c34ff5ebc9332a7339062d9f69981c30.jpg)
 (2 分)

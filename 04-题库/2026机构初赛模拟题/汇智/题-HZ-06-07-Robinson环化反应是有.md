@@ -82,7 +82,11 @@ Robinson 环化反应是有机化学中较为古早的反应之一，在有机�
 
 <table><tr><td><img src="images/08848ec98ad555762d5c435c62d48c943ec1e747ef8933301323519408b4853c.jpg"/> (2分)</td><td><img src="images/3183893620a753620f195ccfa36baf56bb5ad36f4e32c774d753845e53bcb365.jpg"/> (2分,写后处理后的最终产物也正确)</td></tr></table>
 
-<table><tr><td>产物中含有1、3-二羰基结构,容易被醇钠夺去质子,形成负离子,拉动平衡正向移动(2分,写到其他原因如季碳原子的角张力等也可酌情给分)</td></tr></table>
+
+
+产物中含有1、3-二羰基结构,容易被醇钠夺去质子,形成负离子,拉动平衡正向移动(2分,写到其他原因如季碳原子的角张力等也可酌情给分)
+
+
 
 7-2 Stork 教授曾应用过 Robinson 环化反应的变式，其优点在于环化的底物对碱稳定，而经典 Robinson 环化中的甲基乙烯酮则不具此特点。
 
@@ -96,7 +100,11 @@ Robinson 环化反应是有机化学中较为古早的反应之一，在有机�
 
 7-2-1 甲基乙烯酮在碱中容易发生什么副反应？
 
-<table><tr><td>发生自身缩合(1分)</td></tr></table>
+
+
+发生自身缩合(1分)
+
+
 
 <table><tr><td><img src="images/b282d0e5a6fc6ef1c40e59ef503d4f11c52b5d808d6af4c3ec1c6fa5a6706a75.jpg"/>(2分)</td><td><img src="images/fab4970145a206f98585a1e005881dce74ed3b434a94d19c84cceb9816dc1e63.jpg"/>(2分)</td></tr><tr><td><img src="images/068feecb11096611ade905c6189217db9e39b3cead923518faf6b93ce89373a1.jpg"/>(2分)</td><td><img src="images/a20468911666b1b12e26ecc00ad68d67fd93fe1cd9a72be696c57a4ac48f0b4b.jpg"/>(2分)</td></tr><tr><td><img src="images/ef439dfa1b90fc063e75c99cbd9865e7160dee743372edbcb6b121ad11467264.jpg"/>(2分)</td><td><img src="images/d865fba6bb8216b45c42cfd3baf6312f307eb16bcbf9566eb62b8aa07a294a4a.jpg"/>(2分)</td></tr></table>
 

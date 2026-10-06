@@ -63,7 +63,6 @@ L
 ## 参考答案
 
 
-
 第9题（11分）
 
 ![](images/22a6de5bafbdbbbf3a1b407050972ed8c02aa7352963428cf663b5780f09897e.jpg)
@@ -110,11 +109,10 @@ D
 ![](images/848cf686689273f3b15ec978bdcc3f9897d0018fa081cec9c75259fba5be9fd5.jpg)
 G
 
-![](images/6ba2c6b738359b592338e2dceda9456d3afc28fb703e03341d6e09495f57cde7.jpg)
+
 (2 分)
 
 解释只需答到是由于距离太远无法关环即可得分。
-
 
 
 ## 知识点映射

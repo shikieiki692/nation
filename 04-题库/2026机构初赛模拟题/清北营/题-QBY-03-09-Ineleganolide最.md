@@ -59,20 +59,17 @@ source_file: "2026机构初赛模拟题/04-清北营/春季模拟3.md"
 
 9-2 研究人员发现, 若不对 B 的羟基进行保护, 无论是否使用 Lewis 酸 (如 $\mathrm{TiCl}_{4} 、 \mathrm{MgBr}_{2}$ 等) 催化反应,主要产物是 S 构型的非期望产物, 而只有保护后进行反应, 才能得到主产物 C , 画出决定立体化学的反应过渡态, 分析为什么会有如此现象。
 
-![](images/bc47121eb3ac0f4575ecd88dff75bff528677583234ea5009799f88563e56eeb.jpg)
 
 9-2
 
 <table><tr><td><img src="images/13c7adfbcf92bf68e2e5abccf7ae3e4613b47b1d668a157ee55c6e52ca37aa2d.jpg"/></td><td><img src="images/30128ba537d11fcb4b24655d7a858eec4e392297f18018784fc0628828adb65c.jpg"/></td></tr><tr><td><img src="images/8fa7b3c8104a3673c384a277628147a4e68aba0f8628e178473652475b8f4854.jpg"/></td><td><img src="images/755fbaa73a638e0f24540394bfd0c4a17fd45151cba17368263ecd25803d757a.jpg"/></td></tr><tr><td colspan="2">不进行保护时,羟基与金属形成六元环配合物,使得生成了S构型的产物,而加入TBS保护后,用Felkin-Anh模型判断,右图为优势构象。</td></tr><tr><td colspan="2">注意:OTBS的位阻小于双键,所以此处让双键位于两个H之间,亲核试剂从左侧进攻。参考环己烷直立键和平伏键能量的区别(H为基准),可以发现由于O上没有H,导致其可以选择一个合适的构象使得O上的取代基远离其他基团,位阻小于双键。(本题也不要求这一点,只需根据产物结构画出构象)</td></tr></table>
 
 表 2.14 一些环己烷的 A 值(单位:kcal/mol)
-![](images/5cca85a5087d33eae19e38109a2951bc3a2b8c07a8f48f20027db8eec477623f.jpg)
+
 
 <table><tr><td>基团</td><td>A 值</td><td>基团</td><td>A 值</td></tr><tr><td>D</td><td>0.006</td><td> ${\mathrm{{CH}}}_{3}$ </td><td>1.74</td></tr><tr><td>F</td><td>0.25~0.42</td><td> ${\mathrm{C}}_{1}{\mathrm{H}}_{8}$ </td><td>1.79</td></tr><tr><td>Cl</td><td>0.53~0.64</td><td> $\mathrm{{CH}}{\left( {\mathrm{{CH}}}_{2}\right) }_{2}$ </td><td>2.21</td></tr><tr><td>Br</td><td>0.48~0.67</td><td> $\mathrm{C}{\left( {\mathrm{{CH}}}_{3}\right) }_{3}$ </td><td>4.7~4.9</td></tr><tr><td>I</td><td>0.47~0.61</td><td> ${\mathrm{{CF}}}_{3}$ </td><td>2.4~2.5</td></tr><tr><td>OH</td><td>0.60~1.04</td><td> ${\mathrm{C}}_{5}{\mathrm{H}}_{5}$ </td><td>2.8</td></tr><tr><td>OCH3</td><td>0.55~0.75</td><td> ${\mathrm{C}}_{4}{\mathrm{H}}_{11}$ </td><td>2.2</td></tr><tr><td>OC,  ${\mathrm{H}}_{2}$ </td><td>0.65</td><td> ${\mathrm{{CH}}}_{3}\mathrm{{Br}}$ </td><td>1.79</td></tr><tr><td>OCOCH3</td><td>0.68~0.87</td><td> $\mathrm{{Si}}{\left( {\mathrm{{CH}}}_{3}\right) }_{2}$ </td><td>2.5</td></tr><tr><td>OSi(CH3)1</td><td>0.74</td><td> $\mathrm{{CH}} = {\mathrm{{CH}}}_{2}$ </td><td>1.5~1.7</td></tr><tr><td> ${\mathrm{{NH}}}_{2}$ </td><td>1.23~1.7</td><td>CHO</td><td>0.56~0.8</td></tr><tr><td>N(CH2)2</td><td>1.5~2.1</td><td>COCH3</td><td>1.0~1.5</td></tr><tr><td> ${\mathrm{{NO}}}_{2}$ </td><td>1.1</td><td> ${\mathrm{{CO}}}_{2}^{2}$ </td><td>2.0</td></tr><tr><td>SH</td><td>1.21</td><td> ${\mathrm{{CO}}}_{2}\mathrm{H}$ </td><td>1.4</td></tr><tr><td> ${\mathrm{{SO}}}_{2}{\mathrm{{CH}}}_{3}$ </td><td>2.50</td><td> ${\mathrm{{CO}}}_{2}{\mathrm{{CH}}}_{3}$ </td><td>1.2~1.3</td></tr></table>
 
-![](images/ed62ddbe0ce972d178ccfac95f2ef4b718f2922c47bf614930c6cd19c19849c9.jpg)
 
-![](images/2c5f118fa00885f2fd0a7da2cc627bf2d9a38fe3e6fa781a974c10c18697b03f.jpg)
 ♦ Eliel, F. I., Wilen, S. II., and Mander, L. N. (1954), Stereochemistry of
 (Organic Compounds, John Wiley & Sons, New York.
 《现代物理有机化学》

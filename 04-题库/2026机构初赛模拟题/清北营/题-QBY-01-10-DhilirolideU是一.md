@@ -77,7 +77,6 @@ Dhilirolide U 是一种从真菌中分离得到的一种萜类物质，具有潜
 
 若将 D 和 E 画反，仅扣除 1 分
 
-![](images/47087fc0e29faac16af9dde21dc2e5ec1c051ad8c692b863cdfe11587428ac50.jpg)
 
 ![](images/14e273af495eb74dee7ddf93eec1ade6058bfbbbe013a82e68641e7e4d1f4588.jpg)
 
@@ -94,7 +93,15 @@ Dhilirolide U 是一种从真菌中分离得到的一种萜类物质，具有潜
 Burgess reagent
 Martin's reagent
 
-<table><tr><td rowspan="3">10-2</td><td>F</td></tr><tr><td><img src="images/907e91a9a2e7b7cb150610037e24de0453ff0df973751e6c11a676f4a1263339.jpg"/>3若解释正确,不要求F中双键的顺反</td></tr><tr><td>因为两者羟基的立体构型不同,两者均为脱水剂,Martin硫化物试剂发生反式消除,而Burgess试剂是经历了六元环过渡态的顺式消除。(答出顺反消除的不同即可)</td></tr></table>
+
+**10-2** F
+
+
+<img src="images/907e91a9a2e7b7cb150610037e24de0453ff0df973751e6c11a676f4a1263339.jpg"/>
+3若解释正确,不要求F中双键的顺反
+
+因为两者羟基的立体构型不同,两者均为脱水剂,Martin硫化物试剂发生反式消除,而Burgess试剂是经历了六元环过渡态的顺式消除。(答出顺反消除的不同即可)
+
 
 10-3 G 到 H 经历了几步重排反应，画出 G 的结构，结合产物 H 的立体化学，给出 G 反应得到 H 的关键中间体。
 

@@ -56,7 +56,6 @@ X
 第4题（8分）
 
 ![](images/33e9116c14901cdf2e3dc5a0ce2df8b2c6ac6d839c00340c33c111125d86c871.jpg)
-X
 
 ![](images/4a2d7badc48bfa904da0a0979020c232eda4e886072115c57c5364a8b5e00820.jpg)
 

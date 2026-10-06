@@ -94,7 +94,37 @@ source_file: "2026机构初赛模拟题/02-质心UChO/9thZCHEM-UChO-Tour2.md"
 
 请结合化学反应基本原理和上述实验结果，推出反应的4个关键反应中间体。注意立体化学!!!
 
-<table><tr><td>9-1(10分)</td><td> $(C_6F_5)_3\overset{-}{B}-\overset{+}{OH}_2$  <img src="images/f646f2bfe00abc6e542a2293bc0b3875ba6c5ce77e28dd66aa71bb57488d58df.jpg"/> <img src="images/83781399a772d08c8369d02046daab83065e2e8ae69fa6dd7816903dbf17a27c.jpg"/> <img src="images/bbebb203c599d6c28b10afc39b9038a7bd6fa16f20b8511a922a9a3d2c1ebb28.jpg"/>前两个中间体每个2分,后两个中间体每个3分,骨架2分,立体化学1分,共10分</td></tr><tr><td>9-2-1(2分)</td><td>CO2(2分)</td></tr><tr><td>9-2-2(16分)</td><td><img src="images/43f66fb6b4df9e9bf13842b7e31037ec40819b7055fa9b662b8467fb9c7d9709.jpg"/> <img src="images/71eed2b6697ed40053dbad16639c13f07a4a4c19b420faf20ae1e1e15a54dea0.jpg"/> <img src="images/38667924faeb9d647917442965a8dbb5e2d61d5ef7739460c7d3ff9ca042f9e9.jpg"/><img src="images/9067ffbbf8a5cff472d43fb28ae4ddfc9f8cf80ee90b0ecee6107208d83aa849.jpg"/> <img src="images/4b8f2c0a199d655696f74d081fddddff252d72a06cbb9410da8a988e8c2a6253.jpg"/> <img src="images/d4cd3c8adbe10cf25ffc83da85af436e890d7aa07424f5531cfed0493f5d867e.jpg"/> <img src="images/34a58aeca39a98619f21120ac48980ee9503cccd818c8e1a2e2b084fa4bd869e.jpg"/><img src="images/74ce1515f2b76e02d273ddb61136ae5b16e635b7f093586755a733aa6bd076b7.jpg"/>第1个和最后2个中间体1分,其余中间体2分,共16分</td></tr></table>
+
+
+**9-1(10分)** $(C_6F_5)_3\overset{-}{B}-\overset{+}{OH}_2$  
+<img src="images/f646f2bfe00abc6e542a2293bc0b3875ba6c5ce77e28dd66aa71bb57488d58df.jpg"/>
+ 
+<img src="images/83781399a772d08c8369d02046daab83065e2e8ae69fa6dd7816903dbf17a27c.jpg"/>
+ 
+<img src="images/bbebb203c599d6c28b10afc39b9038a7bd6fa16f20b8511a922a9a3d2c1ebb28.jpg"/>
+前两个中间体每个2分,后两个中间体每个3分,骨架2分,立体化学1分,共10分
+
+**9-2-1(2分)** CO2(2分)
+
+**9-2-2(16分)** 
+<img src="images/43f66fb6b4df9e9bf13842b7e31037ec40819b7055fa9b662b8467fb9c7d9709.jpg"/>
+ 
+<img src="images/71eed2b6697ed40053dbad16639c13f07a4a4c19b420faf20ae1e1e15a54dea0.jpg"/>
+ 
+<img src="images/38667924faeb9d647917442965a8dbb5e2d61d5ef7739460c7d3ff9ca042f9e9.jpg"/>
+
+<img src="images/9067ffbbf8a5cff472d43fb28ae4ddfc9f8cf80ee90b0ecee6107208d83aa849.jpg"/>
+ 
+<img src="images/4b8f2c0a199d655696f74d081fddddff252d72a06cbb9410da8a988e8c2a6253.jpg"/>
+ 
+<img src="images/d4cd3c8adbe10cf25ffc83da85af436e890d7aa07424f5531cfed0493f5d867e.jpg"/>
+ 
+<img src="images/34a58aeca39a98619f21120ac48980ee9503cccd818c8e1a2e2b084fa4bd869e.jpg"/>
+
+<img src="images/74ce1515f2b76e02d273ddb61136ae5b16e635b7f093586755a733aa6bd076b7.jpg"/>
+第1个和最后2个中间体1分,其余中间体2分,共16分
+
+
 
 9-2 如下是一个光敏剂作用下小环碳碳 sigma 键断裂的反应。
 
@@ -104,7 +134,17 @@ source_file: "2026机构初赛模拟题/02-质心UChO/9thZCHEM-UChO-Tour2.md"
 
 9-3-1 画出 A 的结构式，不要求立体化学
 
-<table><tr><td>9-3-1(3分)</td><td><img src="images/70748e52144828a33a61ec87109bb51ae9db0787e3b0de89870e2edd5775370c.jpg"/>(3分)</td></tr><tr><td colspan="2">9-3-2 画出产生A的两个关键反应中间体。</td></tr><tr><td>9-3-2(4分)</td><td><img src="images/750e9c9ed1c420ffba4aff1ce50d2f541e5974d26c810c529227b57de38a3db5.jpg"/>每个2分,共4分</td></tr></table>
+
+
+**9-3-1(3分)** 
+<img src="images/70748e52144828a33a61ec87109bb51ae9db0787e3b0de89870e2edd5775370c.jpg"/>
+(3分)
+
+**9-3-2(4分)** 
+<img src="images/750e9c9ed1c420ffba4aff1ce50d2f541e5974d26c810c529227b57de38a3db5.jpg"/>
+每个2分,共4分
+
+
 
 ## 知识点映射
 

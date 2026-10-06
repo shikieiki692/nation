@@ -68,7 +68,9 @@ $$
 
 常见的 Nazarov 反应往往先进行 $4\pi$ 电子电环化，然后阳离子失去质子产生烯烃。然而在 interrupted Nazarov 反应中，产生的烯丙基阳离子并没有失去质子，而是被其他亲核试剂捕获或者参加了其他的反应。9-1 正常的 Nazarov 反应是包含多少个 $\pi$ 电子的周环反应？是顺旋还是对旋？
 
-<table><tr><td>9-1</td><td>Nazarov 反应是  $4\pi$  电子电环化,顺旋</td></tr></table>
+
+**9-1** Nazarov 反应是  $4\pi$  电子电环化,顺旋
+
 
 9-2 在 1903 年，Vorländer 等人发现二烯基酮在乙酸酐存在下发生的 Nazarov 反应会被中断，已知反应中存在一步氧化一根碳碳键为双键的步骤，直接给出本反应的产物。
 
@@ -102,7 +104,6 @@ $$
 
 9-5 研究人员利用 Nazarov 反应构筑了七环化合物 F。
 
-![](images/46b1913e6e1a3fa3e0e9994b6276b4a09edea9c22b5a083c6ba041b4ab5848b6.jpg)
 
 ![](images/e35305b85d4f069ef535e8d889a8704837873b8b65a68ab598f130090a04e5b3.jpg)
 
@@ -116,7 +117,7 @@ $$
 
 9-5-2 请正确画出产物中 4 个未确定氢的立体化学。
 
-<table><tr><td rowspan="3">9-5-1</td><td colspan="2"><img src="images/10368cd1237a0203e14696c99402c7c83ed7fdc78633960e0571a8dd94233145.jpg"/> <img src="images/48748b48a30cf888f51e6e11e5299f0d97bd3c95088d855a57337f4487a7009f.jpg"/> <img src="images/eadd41c67f4de640932b935f7dfbfe737c3c8b91db31b8ac78105d6afe0aba3d.jpg"/></td></tr><tr><td colspan="2"><img src="images/8f84ec63a07a05d565520ca20e154c5dc2bc88a5ac63941f65617cb66416124f.jpg"/> <img src="images/ac7c9d2ff2c323551ef43fa3618060e4351d11c858c2455d2631b1c11b5c6193.jpg"/></td></tr><tr><td><img src="images/45426d6376859fbfe45eca8765e50bfa89fcfcc490d4147548e556aed4ac0cb4.jpg"/></td><td>第二个中间体写成非经典碳正离子也可,中间体不要求立体化学</td></tr><tr><td>9-5-2</td><td><img src="images/00999e25f1c50f86caa32543651da4fae0143319c0e07ca6476c7a642e1c0e7d.jpg"/></td><td><img src="images/f5c368127a5ac4a680c5a13b790ac0895fd4a227a057a81130a5d5008106bf0f.jpg"/> <img src="images/4bcffafacc30f8fa8d94b91defe321101bdc4e226f5ed64ee77432fce181ee41.jpg"/></td></tr></table>
+<table><tr><td rowspan="3">9-5-1</td><td colspan="2"><img src="images/10368cd1237a0203e14696c99402c7c83ed7fdc78633960e0571a8dd94233145.jpg"/> <img src="images/48748b48a30cf888f51e6e11e5299f0d97bd3c95088d855a57337f4487a7009f.jpg"/> <img src="images/eadd41c67f4de640932b935f7dfbfe737c3c8b91db31b8ac78105d6afe0aba3d.jpg"/></td></tr><tr><td colspan="2"><img src="images/8f84ec63a07a05d565520ca20e154c5dc2bc88a5ac63941f65617cb66416124f.jpg"/> <img src="images/ac7c9d2ff2c323551ef43fa3618060e4351d11c858c2455d2631b1c11b5c6193.jpg"/></td></tr><tr><td><img src="images/45426d6376859fbfe45eca8765e50bfa89fcfcc490d4147548e556aed4ac0cb4.jpg"/></td><td>第二个中间体写成非经典碳正离子也可,中间体不要求立体化学</td></tr><tr><td>9-5-2</td><td></td><td><img src="images/f5c368127a5ac4a680c5a13b790ac0895fd4a227a057a81130a5d5008106bf0f.jpg"/> <img src="images/4bcffafacc30f8fa8d94b91defe321101bdc4e226f5ed64ee77432fce181ee41.jpg"/></td></tr></table>
 
 ## 知识点映射
 

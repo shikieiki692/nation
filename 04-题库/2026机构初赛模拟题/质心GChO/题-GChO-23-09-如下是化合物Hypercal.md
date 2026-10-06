@@ -94,7 +94,29 @@ F
 
 低温下稳定.
 
-<table><tr><td>第10题(13分)磷与氧的成键很强,因此在有机化学中,三价磷化合物经常被当做还原剂使用来实现一些“脱氧还原”的反应。所得的五价磷化合物通常比较稳定,但在可以被强还原性的硅烷还原到三价,而通常硅烷化合物不易与各种有机化合物反应,利用这一性质,可以实现三价磷化合物催化的各种“脱氧还原”反应。<img src="images/7b791b745c43e85fd53e3ed3955a39ab07a25737d8e5f55748e2f3f7fe98b91f.jpg"/>2-硝基联苯在膦-硅烷催化体系下可以高产率的转化成吲哚。<img src="images/313e22850319614dc896c0c6b05f12ad48e35a4a57a17c20d47cf2c2848fc351.jpg"/>10-1已知m-xylene是间二甲苯。请写出4个重要的反应中间体。如果将硝基苯和苯硼酸一起加入到反应体系中,则可以生成二苯胺。<img src="images/519fb5e744d8dd308307396a0b339ae687ca81bc810be01e969dbb485040d0d3.jpg"/>10-2CPME是甲基环戊基醚,是一种醚类溶剂。反应过程中的前三个反应中间体与9-1类似,请写出反应过程中4个中间体。A R2P无催化剂 用出一个就任 每9.2′.共8′.<img src="images/9c826d57cc860bc5efaf047a67dd03c81098573e82322fb7f07bcc3d657d5add.jpg"/> ${N}_{3} = 7\mathrm{R}$ .<img src="images/86d05cf2fa9494e0ffa1259f2b44414f90cf3dc799ade253a412d55014c8858e.jpg"/>(其它合成共板本、也目)6π $\mathrm{N}$ 呈守底 $\mathrm{O} - {\mathrm{{Pt}}}_{3}^{2 - }$  也得余不是能直接通过<img src="images/df1adf4b0828eec59d611e877218c475b9bc246ab11a71aa394bb3a9bad7739f.jpg"/><img src="images/493c6d0aa924bf391e9be42c0e7bca600900adcbfe10f3431d6a1bc55bbd8fe1.jpg"/><img src="images/1da43021dd0335fb882cb767d5e686895000c4a34d1a28a7bd0559d555b99989.jpg"/><img src="images/e2cfd2afd8f12e8179b491d8a596108a46a9623f2c6fd144742756d42bcebe43.jpg"/>共5&#x27; $\mathrm{N} - {\mathrm{{O}}}^{ + }{\mathrm{{PPh}}}_{3}$  $\mathrm{N} - {\mathrm{O}}^{ - }{\mathrm{{Ph}}}_{3}$  $\mathrm{N} - {\mathrm{O}}^{ - }{\mathrm{{Ph}}}_{3}$  $\mathrm{N} - {\mathrm{O}}^{ - }{\mathrm{{Ph}}}_{3}$  $\mathrm{N} - {\mathrm{O}}^{ - }{\mathrm{{Ph}}}_{3}$  $\mathrm{N} - {\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{{KA}}$  $\mathrm{N} - {\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{{KA}}$  $\mathrm{N} - {\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{{KA}}$  $\mathrm{N} - {\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{{KA}}$  $\mathrm{N} - \mathrm{O} - {\mathrm{C}}_{62}\mathrm{{KA}}$  $\mathrm{N} - {\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{{KA}}$  $\mathrm{N} - {\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{{KA}}$  $\mathrm{N} - {\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{H}_{2}$  $\mathrm{N} - {\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{H}_{2}$  $\mathrm{N} - {\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{H}_{2}$  $\mathrm{N} - {\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{H}_{2}$  ${\mathrm{N}}^{ - }{\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{H}_{2}$  ${\mathrm{N}}^{ - }{\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{H}_{2}$  ${\mathrm{N}}^{ - }{\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{H}_{2}$  ${\mathrm{N}}^{ + }{\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{H}_{2}$  ${\mathrm{N}}^{ - }{\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{H}_{2}$  ${\mathrm{N}}^{ - }{\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{H}_{2}$  ${\mathrm{N} - }^{ - }{\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{H}_{2}$  ${\mathrm{N} - }^{ - }{\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{H}_{2}$  ${\mathrm{N} - }^{ - }{\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{H}_{2}$ </td><td></td></tr></table>
+
+
+第10题(13分)磷与氧的成键很强,因此在有机化学中,三价磷化合物经常被当做还原剂使用来实现一些“脱氧还原”的反应。所得的五价磷化合物通常比较稳定,但在可以被强还原性的硅烷还原到三价,而通常硅烷化合物不易与各种有机化合物反应,利用这一性质,可以实现三价磷化合物催化的各种“脱氧还原”反应。
+<img src="images/7b791b745c43e85fd53e3ed3955a39ab07a25737d8e5f55748e2f3f7fe98b91f.jpg"/>
+2-硝基联苯在膦-硅烷催化体系下可以高产率的转化成吲哚。
+<img src="images/313e22850319614dc896c0c6b05f12ad48e35a4a57a17c20d47cf2c2848fc351.jpg"/>
+10-1已知m-xylene是间二甲苯。请写出4个重要的反应中间体。如果将硝基苯和苯硼酸一起加入到反应体系中,则可以生成二苯胺。
+<img src="images/519fb5e744d8dd308307396a0b339ae687ca81bc810be01e969dbb485040d0d3.jpg"/>
+10-2CPME是甲基环戊基醚,是一种醚类溶剂。反应过程中的前三个反应中间体与9-1类似,请写出反应过程中4个中间体。A R2P无催化剂 用出一个就任 每9.2′.共8′.
+<img src="images/9c826d57cc860bc5efaf047a67dd03c81098573e82322fb7f07bcc3d657d5add.jpg"/>
+ ${N}_{3} = 7\mathrm{R}$ .
+<img src="images/86d05cf2fa9494e0ffa1259f2b44414f90cf3dc799ade253a412d55014c8858e.jpg"/>
+(其它合成共板本、也目)6π $\mathrm{N}$ 呈守底 $\mathrm{O} - {\mathrm{{Pt}}}_{3}^{2 - }$  也得余不是能直接通过
+<img src="images/df1adf4b0828eec59d611e877218c475b9bc246ab11a71aa394bb3a9bad7739f.jpg"/>
+
+<img src="images/493c6d0aa924bf391e9be42c0e7bca600900adcbfe10f3431d6a1bc55bbd8fe1.jpg"/>
+
+<img src="images/1da43021dd0335fb882cb767d5e686895000c4a34d1a28a7bd0559d555b99989.jpg"/>
+
+<img src="images/e2cfd2afd8f12e8179b491d8a596108a46a9623f2c6fd144742756d42bcebe43.jpg"/>
+共5&#x27; $\mathrm{N} - {\mathrm{{O}}}^{ + }{\mathrm{{PPh}}}_{3}$  $\mathrm{N} - {\mathrm{O}}^{ - }{\mathrm{{Ph}}}_{3}$  $\mathrm{N} - {\mathrm{O}}^{ - }{\mathrm{{Ph}}}_{3}$  $\mathrm{N} - {\mathrm{O}}^{ - }{\mathrm{{Ph}}}_{3}$  $\mathrm{N} - {\mathrm{O}}^{ - }{\mathrm{{Ph}}}_{3}$  $\mathrm{N} - {\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{{KA}}$  $\mathrm{N} - {\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{{KA}}$  $\mathrm{N} - {\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{{KA}}$  $\mathrm{N} - {\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{{KA}}$  $\mathrm{N} - \mathrm{O} - {\mathrm{C}}_{62}\mathrm{{KA}}$  $\mathrm{N} - {\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{{KA}}$  $\mathrm{N} - {\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{{KA}}$  $\mathrm{N} - {\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{H}_{2}$  $\mathrm{N} - {\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{H}_{2}$  $\mathrm{N} - {\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{H}_{2}$  $\mathrm{N} - {\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{H}_{2}$  ${\mathrm{N}}^{ - }{\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{H}_{2}$  ${\mathrm{N}}^{ - }{\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{H}_{2}$  ${\mathrm{N}}^{ - }{\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{H}_{2}$  ${\mathrm{N}}^{ + }{\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{H}_{2}$  ${\mathrm{N}}^{ - }{\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{H}_{2}$  ${\mathrm{N}}^{ - }{\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{H}_{2}$  ${\mathrm{N} - }^{ - }{\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{H}_{2}$  ${\mathrm{N} - }^{ - }{\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{H}_{2}$  ${\mathrm{N} - }^{ - }{\mathrm{O}}^{ - }{\mathrm{C}}_{62}\mathrm{H}_{2}$
+
+
 
 ## 知识点映射
 

@@ -47,7 +47,27 @@ $$
 \mathrm{CaO}
 $$
 
-<table><tr><td>1-1 CaO + Mg + H2 = MgO + CaH2(2分)</td></tr><tr><td>1-2 热分解碳酸铀酰铵(NH4)4[UO2(CO3)3]制备UO2。</td></tr><tr><td>1-2 3(NH4)4[UO2(CO3)3] = 3UO2 + N2 + 10NH3 + 9CO2 + 9H2O(2分)</td></tr><tr><td>1-3 UO2与CCl4共热制备UCl4,随反应温度不同而发生了不同的反应。低温时,生成每1mol UCl4同时产生1mol其他气体;高温时则产生4mol其他气体。请分别写出反应方程式。</td></tr><tr><td>1-3 低温:UO2 + CCl4 = UCl4 + CO2(1.5分)高温:UO2 + 2CCl4 = UCl4 + 2CO + 2Cl2(1.5分)</td></tr><tr><td>1-4 用冰冷的30% H2O2氧化Na2S2O3溶液制备连三硫酸钠,体系pH没有明显变化。</td></tr><tr><td>1-4 2Na2S2O3 + 4H2O2 = Na2SO4 + Na2S3O6 + 4H2O(2分)</td></tr><tr><td>1-5 19世纪初,F.von Stadion向熔融KClO3中滴入少量浓硫酸,产生了一种氧化物气体(提示:混合物冷却后以水处理,有不溶物,溶液呈酸性)。</td></tr><tr><td>1-5 3KClO3 + 2H2SO4 = 2ClO2 + KClO4 + K2S2O7 + 2H2O(2分)</td></tr></table>
+
+
+**1-1** CaO + Mg + H2 = MgO + CaH2(2分)
+
+**1-2** 热分解碳酸铀酰铵(NH4)4[UO2(CO3)3]制备UO2。
+
+**1-2** 3(NH4)4[UO2(CO3)3] = 3UO2 + N2 + 10NH3 + 9CO2 + 9H2O(2分)
+
+**1-3** UO2与CCl4共热制备UCl4,随反应温度不同而发生了不同的反应。低温时,生成每1mol UCl4同时产生1mol其他气体;高温时则产生4mol其他气体。请分别写出反应方程式。
+
+**1-3** 低温:UO2 + CCl4 = UCl4 + CO2(1.5分)高温:UO2 + 2CCl4 = UCl4 + 2CO + 2Cl2(1.5分)
+
+**1-4** 用冰冷的30% H2O2氧化Na2S2O3溶液制备连三硫酸钠,体系pH没有明显变化。
+
+**1-4** 2Na2S2O3 + 4H2O2 = Na2SO4 + Na2S3O6 + 4H2O(2分)
+
+**1-5** 19世纪初,F.von Stadion向熔融KClO3中滴入少量浓硫酸,产生了一种氧化物气体(提示:混合物冷却后以水处理,有不溶物,溶液呈酸性)。
+
+**1-5** 3KClO3 + 2H2SO4 = 2ClO2 + KClO4 + K2S2O7 + 2H2O(2分)
+
+
 
 ## 知识点映射
 

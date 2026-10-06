@@ -114,9 +114,6 @@ $$
 \frac {P b _ {p} ^ {207}}{P b _ {p} ^ {306}} = \frac {1}{137.9} \left(\frac {e ^ {k _ {295} t} - 1}{e ^ {k _ {238} t} - 1}\right),
 $$
 
-![](images/ebb32b3754b009e59948df07f19315e1acfd768d9023075584107ce4fda30063.jpg)
-
-![](images/e46fa388f0bb529e767985b6bf3318efd1ef776e881bc8bf902b5efff9368cda.jpg)
 
 $$
 P b _ {p} ^ {207} = 1.615 P b _ {p} ^ {206}
@@ -178,9 +175,9 @@ $$
 ^ {87} \mathrm{Rb} _ {i} / ^ {86} \mathrm{Sr} = 0.195
 $$
 
-![](images/1365de95ebc3ba7f92b26bf5d8efa378516bc234f21e495485a12f152b209f70.jpg)
 
-<table><tr><td></td><td>嫦娥: $^{87}Rb_{v}/^{86}Sr = 0.022$ ,差距较大,不来自同一KREEP岩</td></tr></table>
+嫦娥: $^{87}Rb_{v}/^{86}Sr = 0.022$ ,差距较大,不来自同一KREEP岩
+
 
 ## 知识点映射
 

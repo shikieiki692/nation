@@ -51,7 +51,23 @@ Forskolin 是一种从亚热带薄荷科植物中分离出来的分子，是一�
 ![](images/53743ca424b592633954e7a6dd63248cec88f1511077cda8466c123aa7bb5a5d.jpg)
 2 (±)
 
-<table><tr><td><img src="images/f0d2c5a4dcf987e1862846d6a3a84614411811367d2acb0dd81d009015a41ee4.jpg"/></td></tr><tr><td>9-2 解释得到 D 的立体选择性。</td></tr><tr><td>9-2 羟基通过氢键诱导 mCPBA 环氧化的方向。(1 分)</td></tr><tr><td>9-3 画出由 B 得到 C 的过程中,加入 TsNHNH2 后底物经历的中间体。</td></tr><tr><td>9-3 <img src="images/9a48921c5763de208cc98b63836050ba3736f696e273480f5feeb72527f25eb4.jpg"/> <img src="images/b12a4db72fab056ea7f3bb020be355783192411083166a03ef05874708eb4f43.jpg"/>(±) (±)(2 分,不要求消旋符号)</td></tr></table>
+
+
+<img src="images/f0d2c5a4dcf987e1862846d6a3a84614411811367d2acb0dd81d009015a41ee4.jpg"/>
+
+**9-2** 解释得到 D 的立体选择性。
+
+**9-2** 羟基通过氢键诱导 mCPBA 环氧化的方向。(1 分)
+
+**9-3** 画出由 B 得到 C 的过程中,加入 TsNHNH2 后底物经历的中间体。
+
+**9-3** 
+<img src="images/9a48921c5763de208cc98b63836050ba3736f696e273480f5feeb72527f25eb4.jpg"/>
+ 
+<img src="images/b12a4db72fab056ea7f3bb020be355783192411083166a03ef05874708eb4f43.jpg"/>
+(±) (±)(2 分,不要求消旋符号)
+
+
 
 ![](images/f5bfda46a8aa599da0d8793cdaf4d1fdedf29a11537ecf1115db96f6776277bf.jpg)
 

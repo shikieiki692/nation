@@ -64,7 +64,6 @@ source_file: "2026机构初赛模拟题/04-清北营/春季模拟10.md"
 
 研究人员以 $\mathrm{Ir}_{2} \mathrm{Mo}_{2}(\mathrm{CO})_{10}(\eta^{5}-\mathrm{C}_{5} \mathrm{H}_{5})_{2}$ 作为金属前驱体, 在 $\mathrm{TiO}_{2}$ 基底上热解, 制备了双-单原子催化剂 $\mathrm{Ir}_{1} \mathrm{Mo}_{1} / \mathrm{TiO}_{2}$ 。2-1 给出金属簇骨架为四面体、满足 EAN 规则的 $\mathrm{Ir}_{2} \mathrm{Mo}_{2}(\mathrm{CO})_{10}(\eta^{5}-\mathrm{C}_{5} \mathrm{H}_{5})_{2}$ 的结构, 已知其中 Mo 化学环境不同, 且存在 3 个 $\mu^{2}-\mathrm{CO}$ , $\eta^{5}-\mathrm{C}_{5} \mathrm{H}_{5}$ 对 Mo 配位, “金属簇”骨架中两两金属原子之间均以金属-金属键连接。
 
-![](images/73c82e6a04b12ee4bd1503153759e26ffcda31f95e3f4ea9bb1518b93db036ae.jpg)
 
 ![](images/dccadd4943a0980a9ed63f38116492311ad916df1f8a20d1d7416ba33d68dc03.jpg)
 —: CO
@@ -87,7 +86,9 @@ source_file: "2026机构初赛模拟题/04-清北营/春季模拟10.md"
 
 ![](images/0e245cd389f671ff00ed80864e40a928f6b346b27894512c5f9d8b268db0f990.jpg)
 
-<table><tr><td>2-3-1</td><td>硝基</td></tr></table>
+
+**2-3-1** 硝基
+
 
 2-3-2 某温度下 $\mathrm{H}_{2}$ 在 $\mathbf{A}$ 原子上的吸附速率常数 $k_{\mathrm{od,H2}} = 4.6 \times 10^{3} \mathrm{kPa}^{-7} \mathrm{s}^{-1}$ , 脱附速率常数 $k_{\mathrm{do,H2}} = 3.2 \times 10^{4} \mathrm{s}^{-1}$ 。当氢气分压为 $60 \mathrm{kPa}$ 时, 计算 $1 \mathrm{~g}$ 催化剂上平衡吸附体积的标况下 $\mathrm{H}_{2}$ (Ir、Mo 单原子负载率均为 $0.1 \mathrm{wt}\%$ , 每个 $\mathbf{A}$ 、 $\mathbf{B}$ 原子最多负载 1 个分子)
 

@@ -55,7 +55,41 @@ $$
 
 ## 第10题（11分）
 
-<table><tr><td>以下是(±)-lycodoline的合成路线:</td></tr><tr><td><img src="images/5e62169953dc724c833e9fc7d4feddd26c6d5ac1c57085069586ddcd2dae952d.jpg"/></td></tr><tr><td><img src="images/0fcee33bc6f5843840552f544e45d2441b19aae228fce29e9b47de7a941550e2.jpg"/></td></tr><tr><td>注:pyrrolideine=四氢吡咯,acroleine=丙烯醛,allyl=烯丙基。10-1画出C的最优势构象。</td></tr><tr><td>10-1</td></tr><tr><td><img src="images/438bb078741a21d7ee792e277cbeda93730767be2ad43766a05ed8c4de7afcef.jpg"/> (3分)</td></tr><tr><td>10-2按照C中的立体化学,画出A和B的结构式。</td></tr><tr><td>10-2</td></tr><tr><td><img src="images/5c87aded2f52519f4dcc98a22ec64ae703a8f5ef1a6b9c3c29e4b82a10301ee2.jpg"/> <img src="images/c677086fb92195e87972cbcf1b4c3c4ac06512c8a390a15d20be8f668e1536cd.jpg"/> A B (每个2分)</td></tr><tr><td>10-3已知D中无Cl,画出D的结构式。</td></tr><tr><td>10-3</td></tr><tr><td><img src="images/00d6fbc300267035abecd8071c2acbd229374b109813541a524e6c5f3d19c744.jpg"/> (4分)</td></tr></table>
+
+
+以下是(±)-lycodoline的合成路线:
+
+<img src="images/5e62169953dc724c833e9fc7d4feddd26c6d5ac1c57085069586ddcd2dae952d.jpg"/>
+
+<img src="images/0fcee33bc6f5843840552f544e45d2441b19aae228fce29e9b47de7a941550e2.jpg"/>
+
+注:pyrrolideine=四氢吡咯,acroleine=丙烯醛,allyl=烯丙基。10-1画出C的最优势构象。
+
+10-1
+
+
+<img src="images/438bb078741a21d7ee792e277cbeda93730767be2ad43766a05ed8c4de7afcef.jpg"/>
+ (3分)
+
+10-2按照C中的立体化学,画出A和B的结构式。
+
+10-2
+
+
+<img src="images/5c87aded2f52519f4dcc98a22ec64ae703a8f5ef1a6b9c3c29e4b82a10301ee2.jpg"/>
+ 
+<img src="images/c677086fb92195e87972cbcf1b4c3c4ac06512c8a390a15d20be8f668e1536cd.jpg"/>
+ A B (每个2分)
+
+10-3已知D中无Cl,画出D的结构式。
+
+10-3
+
+
+<img src="images/00d6fbc300267035abecd8071c2acbd229374b109813541a524e6c5f3d19c744.jpg"/>
+ (4分)
+
+
 
 1-4 $\mathrm{VCl}_2$ 在氨气气氛中加热，发生歧化反应，得到一种1:1型化合物，它可作为合金添加剂。
 

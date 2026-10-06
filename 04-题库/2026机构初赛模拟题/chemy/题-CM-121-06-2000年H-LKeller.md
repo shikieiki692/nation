@@ -65,7 +65,6 @@ $$
 
 nm)
 
-![](images/3706d1bfff39839876135b8c1237ce5535dfff50d8fbeb1359c327a2dfcf6753.jpg)
 
 ## 知识点映射
 

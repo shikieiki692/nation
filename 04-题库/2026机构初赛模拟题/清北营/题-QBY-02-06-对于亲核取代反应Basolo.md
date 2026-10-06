@@ -75,7 +75,13 @@ $$
 
 6-1 通过拟合计算 $k_{s}$ 和 $k_{y}$ 。
 
-<table><tr><td>6-1</td><td>反应遵循双路径机理,表观速率常数满足: $k_{\text{obs}} = k_{\text{s}} + k_{\text{y}}[\text{NO}_2^-]$ 线性拟合得到: $k_{\text{s}} = 1.2 \times 10^{-5} \text{s}^{-1}$ , $k_{\text{y}} = 2.04 \times 10^{-3} \text{L} \cdot \text{mol}^{-1} \cdot \text{s}^{-1}$ </td></tr><tr><td colspan="2">6-2 已知 45°C 时  $k_{\text{s}} = 5.00 \times 10^{-5} \text{s}^{-1}$ , $k_{\text{y}} = 6.25 \times 10^{-3} \text{L} \cdot \text{mol}^{-1} \cdot \text{s}^{-1}$ ,分别计算两种反应路径的活化能。</td></tr><tr><td>6-2</td><td>根据阿伦尼乌斯积公式: $\ln \frac{k_2}{k_1} = \frac{E_a}{R} \left( \frac{1}{T_1} - \frac{1}{T_2} \right)$  <img src="images/967b81f6621cabaca46cdeb0397ade1bd7cc1b5efcdb87044c5d927aa7b5adbe.jpg"/>有: $E_{a,s} = \frac{RT_1 T_2}{T_2 - T_1} \ln \frac{k_2}{k_1} = \frac{8.314 \times 303.15 \times 318.15}{318.15 - 303.15} \ln \frac{5.00 \times 10^{-5}}{1.2 \times 10^{-5}} = 76.22 \text{ kJ/mol}$  $E_{a,y} = \frac{RT_1 T_2}{T_2 - T_1} \ln \frac{k_2}{k_1} = \frac{8.314 \times 303.15 \times 318.15}{318.15 - 303.15} \ln \frac{6.25 \times 10^{-3}}{2.04 \times 10^{-3}} = 59.80 \text{ kJ/mol}$ </td></tr></table>
+
+**6-1** 反应遵循双路径机理,表观速率常数满足: $k_{\text{obs}} = k_{\text{s}} + k_{\text{y}}[\text{NO}_2^-]$ 线性拟合得到: $k_{\text{s}} = 1.2 \times 10^{-5} \text{s}^{-1}$ , $k_{\text{y}} = 2.04 \times 10^{-3} \text{L} \cdot \text{mol}^{-1} \cdot \text{s}^{-1}$
+
+**6-2** 根据阿伦尼乌斯积公式: $\ln \frac{k_2}{k_1} = \frac{E_a}{R} \left( \frac{1}{T_1} - \frac{1}{T_2} \right)$
+
+有: $E_{a,s} = \frac{RT_1 T_2}{T_2 - T_1} \ln \frac{k_2}{k_1} = \frac{8.314 \times 303.15 \times 318.15}{318.15 - 303.15} \ln \frac{5.00 \times 10^{-5}}{1.2 \times 10^{-5}} = 76.22 \text{ kJ/mol}$  $E_{a,y} = \frac{RT_1 T_2}{T_2 - T_1} \ln \frac{k_2}{k_1} = \frac{8.314 \times 303.15 \times 318.15}{318.15 - 303.15} \ln \frac{6.25 \times 10^{-3}}{2.04 \times 10^{-3}} = 59.80 \text{ kJ/mol}$
+
 
 以上得到的线性依赖关系和 $\mathrm{k_s}$ 值证实了所提出的双路径机理。但是又发现，由于水解而存在于溶液中的 $[\mathrm{HNO}_2]$ 的增加导致了第三条路径的出现，对应于 $\mathrm{S_N2}(\lim)$ 机理的亲电催化：（S表示溶剂） $[Pt(pip)_2Cl_2S_2] + HNO_2 \rightleftharpoons [Pt(pip)_2Cl_2(HNO_2)S] + S$ (K)
 

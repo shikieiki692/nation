@@ -42,7 +42,6 @@ source_file: "chemy试题/第35届中国化学奥林匹克Chemy题目合集..md"
 ![](images/bc7f0759d992824a80754571a3c9972028024cc3edb82df0b494e5e664be6c60.jpg)
 β-Pinene
 
-![](images/d8db08eb72926a5718a755ac91afa9ed6240991ce44bd201f0bf563e3aad5834.jpg)
 
 3-1 两种异构体中，哪种更易在酸催化下发生聚合反应？简述理由。
 

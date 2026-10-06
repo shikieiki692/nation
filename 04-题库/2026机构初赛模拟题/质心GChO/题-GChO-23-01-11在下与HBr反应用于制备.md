@@ -45,7 +45,21 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO23试题（线�
 
 1-6 在封管中加热 $SO_{3}$ 与 $GeCl_{4}$ 发生非氧化还原反应，产物中有一种氯化砜类化合物，含 Cl 的质量分数为 32.97%。
 
-<table><tr><td>1-1</td><td></td></tr><tr><td>1-2</td><td></td></tr><tr><td>1-3</td><td></td></tr><tr><td>1-4</td><td></td></tr><tr><td>1-5</td><td></td></tr><tr><td>1-6</td><td></td></tr></table>
+
+
+1-1
+
+1-2
+
+1-3
+
+1-4
+
+1-5
+
+1-6
+
+
 
 ## 参考答案
 

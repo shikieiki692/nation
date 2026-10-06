@@ -48,13 +48,37 @@ $$
 
 6-2-1 完成反应：产生正离子的裂解。
 
-<table><tr><td>6-2-1-1</td><td><img src="images/07108f9affb829b923499bb56a5f58df4fe0d307bc7b0ebf545f6c5128bc5016.jpg"/></td></tr><tr><td>6-2-1-2</td><td><img src="images/1b1ad3a86f445543dd10296f93837a5c8cca8feb506b02ef18bcb1b38e5f0d9a.jpg"/></td></tr><tr><td>6-2-1-3</td><td><img src="images/9daf63587accf86957d22e571fe0e5e19db027ed7eafd7183d5212b091dd19a9.jpg"/></td></tr></table>
+
+
+**6-2-1-1** 
+<img src="images/07108f9affb829b923499bb56a5f58df4fe0d307bc7b0ebf545f6c5128bc5016.jpg"/>
+
+
+**6-2-1-2** 
+<img src="images/1b1ad3a86f445543dd10296f93837a5c8cca8feb506b02ef18bcb1b38e5f0d9a.jpg"/>
+
+
+**6-2-1-3** 
+<img src="images/9daf63587accf86957d22e571fe0e5e19db027ed7eafd7183d5212b091dd19a9.jpg"/>
+
+
+
 
 已知上述反应中“?”指代的均为正离子，其中6-2-1-1的体系中检测到两种正离子，而6-2-1-3中裂解后的正离子经过了一步重排，最终产生了一种稳定的芳香正离子。补全上述反应中的“?”部分。
 
 6-2-2 完成反应：产生中性分子的裂解。
 
-<table><tr><td>6-2-2-1</td><td><img src="images/6e2fc002026537caba018406e3edd88818e8a20d237141175ef1c58704ef0af9.jpg"/></td></tr><tr><td>6-2-2-2</td><td><img src="images/dc4ee19a5dec47e3f936b221cec1a255fb10b4c54fc7357cbdb3834dbd3b4328.jpg"/></td></tr></table>
+
+
+**6-2-2-1** 
+<img src="images/6e2fc002026537caba018406e3edd88818e8a20d237141175ef1c58704ef0af9.jpg"/>
+
+
+**6-2-2-2** 
+<img src="images/dc4ee19a5dec47e3f936b221cec1a255fb10b4c54fc7357cbdb3834dbd3b4328.jpg"/>
+
+
+
 
 ![](images/871e8e218c43ad64ba6098fbed7671830ed61ea91c4d9e9c9dd24136e6d0fa7d.jpg)
 
@@ -98,7 +122,21 @@ $$
 <table><tr><td>6-1-1</td><td>6-1-2</td><td>6-1-3</td><td>6-1-4</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td colspan="4">(共4分,各1分,6-1-3换成其他合理共振形式亦可得分)</td></tr></table>
 
 
-<table><tr><td>6-2-1-1</td><td><img src="images/202a630f5aa2adf5d6acf4f19724223a361e0bcbd7606cb8b2d7bb91e837b7de.jpg"/></td></tr><tr><td>6-2-1-2</td><td><img src="images/74fb61c6e85ce4ce1ec384bff9bda4c2ae651bee441232f74c75e06e3df7b5a6.jpg"/></td></tr><tr><td>6-2-1-3</td><td><img src="images/6923a5a3fba92da09006f8d0480f2ae49809be59f41ae615d3f7178323f3e3da.jpg"/></td></tr></table>
+
+
+**6-2-1-1** 
+<img src="images/202a630f5aa2adf5d6acf4f19724223a361e0bcbd7606cb8b2d7bb91e837b7de.jpg"/>
+
+
+**6-2-1-2** 
+<img src="images/74fb61c6e85ce4ce1ec384bff9bda4c2ae651bee441232f74c75e06e3df7b5a6.jpg"/>
+
+
+**6-2-1-3** 
+<img src="images/6923a5a3fba92da09006f8d0480f2ae49809be59f41ae615d3f7178323f3e3da.jpg"/>
+
+
+
 
 已知上述反应中 “?” 指代的均为正离子, 其中 6-2-1-1 的体系中检测到两种正离子, 而 6-2-1-3 中裂解后的正离子经过了一步重排, 最终产生了一种稳定的芳香正离子。补全上述反应中的 “?” 部分。
 
@@ -112,7 +150,21 @@ The image contains no text. The OCR result "Θ" is a hallucination and does not 
 
 ![](images/7e05c79a43b13e6ef4517ead431fcc083c79cb272da69d6841e3d6d48daca6c3.jpg)
 
-<table><tr><td>6-2-2-1</td><td><img src="images/0f03368ddf4ca830f225ab65a17023f451723f4d65902f35a42c3cb86f1a6e62.jpg"/></td></tr><tr><td>6-2-2-2</td><td><img src="images/25e95a14ade5ff9730d4f4fcad17c32bbecda3801428ff375f9ffc41aa2f8a15.jpg"/></td></tr><tr><td>6-2-2-3</td><td><img src="images/84e2febb0592a0078c24043bbc0312156251c2db768514e583b7b57416cf9d53.jpg"/></td></tr></table>
+
+
+**6-2-2-1** 
+<img src="images/0f03368ddf4ca830f225ab65a17023f451723f4d65902f35a42c3cb86f1a6e62.jpg"/>
+
+
+**6-2-2-2** 
+<img src="images/25e95a14ade5ff9730d4f4fcad17c32bbecda3801428ff375f9ffc41aa2f8a15.jpg"/>
+
+
+**6-2-2-3** 
+<img src="images/84e2febb0592a0078c24043bbc0312156251c2db768514e583b7b57416cf9d53.jpg"/>
+
+
+
 
 
 ![](images/ea4f3e428f31e5dd62c88a23b0a18baf28c2d841d4a599ff32294e62bbce3a77.jpg)

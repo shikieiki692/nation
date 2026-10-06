@@ -51,7 +51,11 @@ Torhu Fukuyama 于 2015 年完成了天然产物 Isoschizogamine 的全合成，
 
 ![](images/106046eff9d54484f62e7df83c8f2ab60a96e954932218bfc9ac40507963fbc2.jpg)
 
-<table><tr><td>4-1 (R)-二环[2.2.1]-2-庚醇(1分)</td></tr></table>
+
+
+**4-1** (R)-二环[2.2.1]-2-庚醇(1分)
+
+
 
 ![](images/c9f34957c43fd778d86ad869c7ce892c16e48e52c9eee78faeab8011ba321f0f.jpg)
 

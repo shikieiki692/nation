@@ -55,7 +55,19 @@ $$
 
 ## 参考答案
 
-<table><tr><td>2-1共3分</td><td> $f_{36} = \alpha - \frac{1}{2} f_{34}$ (1分) $f_{32} = 1 - \alpha - \frac{1}{2} f_{34}$ (1分)</td></tr><tr><td>2-2共2分</td><td> $K = \frac{(p_{16O^{18}O})^2}{p_{16O_2} p_{18O_2}} = \frac{(f_{34})^2}{f_{32} f_{36}} = \frac{(f_{34})^2}{(1 - \alpha - \frac{1}{2} f_{34})(\alpha - \frac{1}{2} f_{34})} = \frac{4f_{34}^2}{(2 - 2\alpha - f_{34})(2\alpha - f_{34})}$ (2分)</td></tr><tr><td>2-3共7分</td><td>对于 $^{16}O_2$ 和 $^{18}O_2$ 而言,0K时均对应唯一一种微观状态,因此S=0(2分)。对于 $^{16}O^{18}O$ 而言,在0K时有两种取向, $1mol^{16}O^{18}O$ 共有 $2^{N_A}$ 种可能的微观状态,其摩尔熵 $S = k_B \ln 2^{N_A} = k_B N_A \ln 2 = R \ln 2$ (2分)因此反应的熵变为 $\Delta S = 2S_{16O^{18}O} - S_{16O_2} - S_{18O_2} = 2R \ln 2$ (2分)反应的平衡常数即为 $K = \exp\left(\frac{\Delta G}{RT}\right) = \exp\left(-\frac{\Delta H}{RT}\right) \cdot \exp\left(\frac{\Delta S}{R}\right) = e^0 \cdot e^{2\ln 2} = 4$ (1分)</td></tr><tr><td>2-4共5分</td><td>不难看出此时α=0.25。而我们有 $K = \frac{(f_{34})^2}{f_{32} f_{36}} = \frac{(f_{34})^2}{\left(\alpha - \frac{1}{2} f_{34}\right)\left(1 - \alpha - \frac{1}{2} f_{34}\right)}$ (1分)代入数据即可解得 $f_{34} = \frac{3}{8}$ (2分)因此 $f_{32} = \frac{9}{16}$ (1分) $f_{36} = \frac{1}{16}$ (1分)没有过程不得分。</td></tr><tr><td>2-5共4分</td><td>同样地,对于 $^{16}O_2^{18}O$ 或 $^{16}O^{18}O_2$ ,都有三种可能的取向,并且这三种取向概率相等。因此,其摩尔熵 $S = k_B \ln 3^{N_A} = k_B N_A \ln 3 = R \ln 3$ (2分)同样地,可以得出该反应的平衡常数 $K = \exp\left(\frac{\Delta H}{RT}\right) \cdot \exp\left(\frac{\Delta S}{R}\right) = e^0 \cdot e^{2\ln 3} = 9$ (2分)</td></tr></table>
+
+
+**2-1共3分** $f_{36} = \alpha - \frac{1}{2} f_{34}$ (1分) $f_{32} = 1 - \alpha - \frac{1}{2} f_{34}$ (1分)
+
+**2-2共2分** $K = \frac{(p_{16O^{18}O})^2}{p_{16O_2} p_{18O_2}} = \frac{(f_{34})^2}{f_{32} f_{36}} = \frac{(f_{34})^2}{(1 - \alpha - \frac{1}{2} f_{34})(\alpha - \frac{1}{2} f_{34})} = \frac{4f_{34}^2}{(2 - 2\alpha - f_{34})(2\alpha - f_{34})}$ (2分)
+
+**2-3共7分** 对于 $^{16}O_2$ 和 $^{18}O_2$ 而言,0K时均对应唯一一种微观状态,因此S=0(2分)。对于 $^{16}O^{18}O$ 而言,在0K时有两种取向, $1mol^{16}O^{18}O$ 共有 $2^{N_A}$ 种可能的微观状态,其摩尔熵 $S = k_B \ln 2^{N_A} = k_B N_A \ln 2 = R \ln 2$ (2分)因此反应的熵变为 $\Delta S = 2S_{16O^{18}O} - S_{16O_2} - S_{18O_2} = 2R \ln 2$ (2分)反应的平衡常数即为 $K = \exp\left(\frac{\Delta G}{RT}\right) = \exp\left(-\frac{\Delta H}{RT}\right) \cdot \exp\left(\frac{\Delta S}{R}\right) = e^0 \cdot e^{2\ln 2} = 4$ (1分)
+
+**2-4共5分** 不难看出此时α=0.25。而我们有 $K = \frac{(f_{34})^2}{f_{32} f_{36}} = \frac{(f_{34})^2}{\left(\alpha - \frac{1}{2} f_{34}\right)\left(1 - \alpha - \frac{1}{2} f_{34}\right)}$ (1分)代入数据即可解得 $f_{34} = \frac{3}{8}$ (2分)因此 $f_{32} = \frac{9}{16}$ (1分) $f_{36} = \frac{1}{16}$ (1分)没有过程不得分。
+
+**2-5共4分** 同样地,对于 $^{16}O_2^{18}O$ 或 $^{16}O^{18}O_2$ ,都有三种可能的取向,并且这三种取向概率相等。因此,其摩尔熵 $S = k_B \ln 3^{N_A} = k_B N_A \ln 3 = R \ln 3$ (2分)同样地,可以得出该反应的平衡常数 $K = \exp\left(\frac{\Delta H}{RT}\right) \cdot \exp\left(\frac{\Delta S}{R}\right) = e^0 \cdot e^{2\ln 3} = 9$ (2分)
+
+
 
 ## 知识点映射
 

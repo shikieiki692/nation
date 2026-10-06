@@ -66,7 +66,29 @@ source_file: "2026机构初赛模拟题/08-汇智/长沙冲刺结构.md"
 
 5-1 两种 Tl 分别为 $sp^{2}$ 杂化和 $sp^{3}$ 杂化（1 分）。参考图形如下：（不标负电荷不扣分，下同）
 
-<table><tr><td><img src="images/f9236fab4275313620ad342ea42952cb72f197512319cbb479fa9029386217ce.jpg"/> (3分)</td></tr><tr><td>5-2 参考图形如下: <img src="images/ee05879cb700f4503e89664d6a44ef44d2a0e88f53f5091beeceda1283328367.jpg"/> (3分)</td></tr><tr><td>5-3-13 TlCl + 3 Na2Se5 + 3 Et4NBr → (Et4N)3Tl3Se15 + 3 NaCl + 3 NaBr (3分)</td></tr><tr><td>5-3-2 +3(1分)、+1(1分)</td></tr><tr><td>5-3-3 <img src="images/4014ee5a90af11647129819b17795afa7d60ecd802db5782ce62454c85260ff6.jpg"/> <img src="images/6666993ad06a3f8b316779142937c1e996e4cdb526524787d7c5350fa35c811c.jpg"/> <img src="images/78fb1bbd567673c7b02481c09aaa4e8de692489b92e00836054263f41f81e9d5.jpg"/> (各2分,左图为A23-) 5-3-2判断:左图可看作Tl3(Se5)33-,因此为+1</td></tr></table>
+
+
+
+<img src="images/f9236fab4275313620ad342ea42952cb72f197512319cbb479fa9029386217ce.jpg"/>
+ (3分)
+
+**5-2** 参考图形如下: 
+<img src="images/ee05879cb700f4503e89664d6a44ef44d2a0e88f53f5091beeceda1283328367.jpg"/>
+ (3分)
+
+**5-3-13** TlCl + 3 Na2Se5 + 3 Et4NBr → (Et4N)3Tl3Se15 + 3 NaCl + 3 NaBr (3分)
+
+**5-3-2** +3(1分)、+1(1分)
+
+**5-3-3** 
+<img src="images/4014ee5a90af11647129819b17795afa7d60ecd802db5782ce62454c85260ff6.jpg"/>
+ 
+<img src="images/6666993ad06a3f8b316779142937c1e996e4cdb526524787d7c5350fa35c811c.jpg"/>
+ 
+<img src="images/78fb1bbd567673c7b02481c09aaa4e8de692489b92e00836054263f41f81e9d5.jpg"/>
+ (各2分,左图为A23-) 5-3-2判断:左图可看作Tl3(Se5)33-,因此为+1
+
+
 
 ## 知识点映射
 

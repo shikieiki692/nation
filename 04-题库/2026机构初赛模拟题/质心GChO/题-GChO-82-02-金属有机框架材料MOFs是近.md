@@ -51,7 +51,11 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO82试题.md"
 
 ## 2-1 通过合理的计算和推导，指出 M 为何种金属元素。
 
-<table><tr><td>2-1(4分)</td><td> $M_{\mathrm{r}}(\mathbf{MOF}-71)=\rho N_{\mathrm{A}}V/Z=1.597\times6.0221\times10^{23}\times1.232\times10^{-21}/4=296.1$  1分由M与C的原子比为1:11推断,化学式中含有一个(BDC) $^{2-}$ 和DMF,则:296.1-164.114-73.10=58.89,为Co。3分</td></tr></table>
+
+
+**2-1(4分)** $M_{\mathrm{r}}(\mathbf{MOF}-71)=\rho N_{\mathrm{A}}V/Z=1.597\times6.0221\times10^{23}\times1.232\times10^{-21}/4=296.1$  1分由M与C的原子比为1:11推断,化学式中含有一个(BDC) $^{2-}$ 和DMF,则:296.1-164.114-73.10=58.89,为Co。3分
+
+
 
 $$
 \mathrm{Co} _ {3} \mathrm{O} _ {4}

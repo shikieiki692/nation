@@ -57,7 +57,11 @@ James R. Fuchs 和 Raymond L. Funk 于 2001 年报道了一种制备多环体系
 
 ![](images/8949f45fe5047f1a9de7a943f828b1fd15088161fdcd054af9b30677a90bcbcb.jpg)
 
-<table><tr><td>9-2 条件为 1) LiAlH4, THF, reflux; 2) BBr3, CH2Cl2(2 分)</td></tr></table>
+
+
+**9-2** 条件为 1) LiAlH4, THF, reflux; 2) BBr3, CH2Cl2(2 分)
+
+
 
 ## 知识点映射
 

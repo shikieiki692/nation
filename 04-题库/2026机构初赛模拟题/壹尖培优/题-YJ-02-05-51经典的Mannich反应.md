@@ -73,7 +73,17 @@ source_file: "2026机构初赛模拟题/05-壹尖培优/模拟测试卷2.md"
 
 5.1.1 画出以上反应过程中含有四配位硼的关键中间体，并标注得到产物的电子转移方向。
 
-<table><tr><td>5.1.1(本问4分)</td></tr><tr><td><img src="images/bdd5d7bd6dba7d7f3536cf20ef532ea061eaed01c763dae6bff52b2f12059d8f.jpg"/></td></tr><tr><td>4分;结构正确3分,标注1分</td></tr><tr><td>实际上迁移基团和O上基团处于反式更能体现迁移的轨道作用</td></tr></table>
+
+
+5.1.1(本问4分)
+
+<img src="images/bdd5d7bd6dba7d7f3536cf20ef532ea061eaed01c763dae6bff52b2f12059d8f.jpg"/>
+
+4分;结构正确3分,标注1分
+
+实际上迁移基团和O上基团处于反式更能体现迁移的轨道作用
+
+
 
 5.1.2 应用 Petasis 反应合成的氨基烷基酚可以作为抗菌剂，完成以下反应式。
 

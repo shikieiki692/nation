@@ -71,7 +71,6 @@ TT 氧化物试剂 （Thianthrenium-S-oxide， 结构如下图所示， 以下�
 
 ![](images/289e762ac1c95c9b21c0816d89316a6f728cf0fb8141915de9785a0a3491b732.jpg)
 
-![](images/030346006ebfea5438c7cc219b331d1a7cd6d8ea41ea6a2826e6c8d19e91ff0d.jpg)
 
 1-2-1 写出 F、 G 的化学式。
 

@@ -52,7 +52,13 @@ source_file: "2026机构初赛模拟题/08-汇智/长沙冲刺综合4.md"
 
 <table><tr><td>OH O
 I III Fe-O-Fe</td><td>HO O
-I III Fe-O-Fe</td><td><img src="images/497e202f6a12a47084f620c59fdfe2b179530c2f52ff188ae85f4266e08b8ed9.jpg"/></td><td><img src="images/7988dfa428d0c4318825d9a3b14c6cae0e41a6314ee5fd1b6da2d263818ca0e0.jpg"/></td><td rowspan="2"><img src="images/efb9f20ca781afeb14e93db52d24503cf10892558784c4d82fdfc24ccfd163bd.jpg"/></td></tr><tr><td>A</td><td>B</td><td>C</td><td>D</td></tr><tr><td colspan="5">X1:己内酯
+I III Fe-O-Fe</td><td>
+<img src="images/497e202f6a12a47084f620c59fdfe2b179530c2f52ff188ae85f4266e08b8ed9.jpg"/>
+</td><td>
+<img src="images/7988dfa428d0c4318825d9a3b14c6cae0e41a6314ee5fd1b6da2d263818ca0e0.jpg"/>
+</td><td rowspan="2">
+<img src="images/efb9f20ca781afeb14e93db52d24503cf10892558784c4d82fdfc24ccfd163bd.jpg"/>
+</td></tr><tr><td>A</td><td>B</td><td>C</td><td>D</td></tr><tr><td colspan="5">X1:己内酯
 (结构每个2分,名称1分)</td></tr></table>
 
 ## 知识点映射

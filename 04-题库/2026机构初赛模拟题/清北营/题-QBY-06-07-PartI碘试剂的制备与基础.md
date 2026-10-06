@@ -103,7 +103,6 @@ D. 反应必须在无氧条件下进行
 
 7-8 现在，根据前面的讨论，画出 Q 的结构，注意立体化学。
 
-![](images/e0e9ef1c8f29b8dbfc90274eb0ef9f044f925c13854cf1fc071926e7837999f1.jpg)
 
 ## 参考答案
 
@@ -180,7 +179,21 @@ D. 反应必须在无氧条件下进行
 
 7-8 现在，根据前面的讨论，画出Q的结构，注意立体化学。
 
-<table><tr><td>7-5</td><td><img src="images/f9a6e607efbeba5f8da1b11a663c9277820ebb743f8ab3cb86dc9169ffc84e2d.jpg"/></td></tr><tr><td>7-6-1</td><td></td></tr><tr><td>7-6-2</td><td></td></tr><tr><td>7-6-3</td><td>ABD</td></tr><tr><td>7-7</td><td>B</td></tr><tr><td>7-8</td><td></td></tr></table>
+
+**7-5**
+<img src="images/f9a6e607efbeba5f8da1b11a663c9277820ebb743f8ab3cb86dc9169ffc84e2d.jpg"/>
+
+
+**7-6-3** ABD
+
+**7-7** B
+
+7-6-1
+
+7-6-2
+
+7-8
+
 
 ## 知识点映射
 

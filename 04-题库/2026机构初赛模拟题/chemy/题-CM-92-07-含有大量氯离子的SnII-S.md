@@ -48,7 +48,15 @@ source_file: "chemy试题/第35届中国化学奥林匹克Chemy题目合集..md"
 
 ## 第7题（8分）
 
-<table><tr><td>7-1  $M = D{N}_{\mathrm{A}}V/Z = {420.1}\mathrm{\;g}/\mathrm{{mol}}$ (2分)</td></tr><tr><td>该配合物中至少含有1个Sn和1个Mn原子; Sn的原子量为118.7,锰的原子量为54.94,剩余原子量为246.5,对应于5个CO和3个Cl;</td></tr><tr><td>因此化学式为 ${\mathrm{{Cl}}}_{3}{\mathrm{{SnMn}}}{\left( \mathrm{{CO}}\right) }_{5}$ (1分)</td></tr></table>
+
+
+**7-1** $M = D{N}_{\mathrm{A}}V/Z = {420.1}\mathrm{\;g}/\mathrm{{mol}}$ (2分)
+
+该配合物中至少含有1个Sn和1个Mn原子; Sn的原子量为118.7,锰的原子量为54.94,剩余原子量为246.5,对应于5个CO和3个Cl;
+
+因此化学式为 ${\mathrm{{Cl}}}_{3}{\mathrm{{SnMn}}}{\left( \mathrm{{CO}}\right) }_{5}$ (1分)
+
+
 
 7-2
 

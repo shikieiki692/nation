@@ -53,7 +53,6 @@ ene 反应作为一种相对隐蔽的反应，在复杂反应机理的推断中�
 
 相似的底物和条件却得到了不同的产物，完成以下 Penicibilaene A 和(+)-Waihoensene 的部分合成路线：
 
-![](images/e887dca03f682d73326416c789aa00f3df1ce5199534792ddc528100657090e8.jpg)
 
 ![](images/9eb770230f45009f46ff84c73ee49b3258cfa6ce1ed0067387f8b00aea0fc1aa.jpg)
 
@@ -69,7 +68,7 @@ ene 反应作为一种相对隐蔽的反应，在复杂反应机理的推断中�
 
 ![](images/4c195eb5214576f30d5c85f30a184eac4d743185c5d1b59cde2812f6da84bba9.jpg)
 
-<table><tr><td>4-1</td><td>20 电子</td></tr><tr><td colspan="2">4-2 请指出 corannulene 是否具有芳香性(有,非或无?),并对你的判断做出解释说明。</td></tr><tr><td>4-2</td><td>有芳香性将其中一根双键拆成碳正离子与碳负离子,可以认为它存在内外两个环,内环有6个π电子,而外环具有14个π电子,都符合4n+2规则,所以具有芳香性。实际上corannulene的内环电子密度也远高于外环,所以这样进行判断是在事实上合理的,这样的共振式也很大程度的反映出了corannulene的反应性!以下小间接围绕着其电子结构揭示出的反应性展开。</td></tr><tr><td colspan="2">4-3 corannulene 的卤代物易于发生亲核取代反应,请对这一现象做出解释。</td></tr><tr><td colspan="2"><img src="images/52bb68e26f92e3f8762f64a5d0cf51c36411b5fa5c24734907aeeac210b04ecf.jpg"/></td></tr></table>
+<table><tr><td>4-1</td><td>20 电子</td></tr><tr><td>4-2</td><td>有芳香性将其中一根双键拆成碳正离子与碳负离子,可以认为它存在内外两个环,内环有6个π电子,而外环具有14个π电子,都符合4n+2规则,所以具有芳香性。实际上corannulene的内环电子密度也远高于外环,所以这样进行判断是在事实上合理的,这样的共振式也很大程度的反映出了corannulene的反应性!以下小间接围绕着其电子结构揭示出的反应性展开。</td></tr><tr><td colspan="2">4-3 corannulene 的卤代物易于发生亲核取代反应,请对这一现象做出解释。</td></tr><tr><td colspan="2"><img src="images/52bb68e26f92e3f8762f64a5d0cf51c36411b5fa5c24734907aeeac210b04ecf.jpg"/></td></tr></table>
 
 ![](images/1d9c625999684ee15e346162c2fdb4b77666b64ff4c4830dd27822516c8f61e0.jpg)
 

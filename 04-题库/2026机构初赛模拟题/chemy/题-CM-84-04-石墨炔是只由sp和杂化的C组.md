@@ -56,7 +56,6 @@ source_file: "chemy试题/第34届Chemy化学奥林匹克题目合集..md"
 
 ## 第4题（10分）
 
-![](images/b385db922d1b94bced741a4ac1eeffee843c10b37725c9072cee682ad68406fd.jpg)
 
 ![](images/4d0987627b9f1cc0079f14deb215fb450912734ddad0af8b30ecc497d950f7a6.jpg)
 

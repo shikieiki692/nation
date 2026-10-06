@@ -73,7 +73,7 @@ N 杂芳环的间位 C-H 官能团化是一个备受讨论的话题。
 
 ![](images/c662e306566be30145714d4eab76e71549ff8c961ea8279b4efedceff799bfe8.jpg)
 
-![](images/54deaf6e864eb6444bb43c5e2289285c4cc44d6c02f1e0e3f04b8f474fef40a7.jpg)  
+![](images/54deaf6e864eb6444bb43c5e2289285c4cc44d6c02f1e0e3f04b8f474fef40a7.jpg)
 B
 
 ![](images/87a96fa96c3a3eae786174190f2cd7fab597cb63c36be1aebe9be2ce9e9d806a.jpg)
@@ -81,7 +81,18 @@ B
 8-1-1 已知 A 中有 N-B 键，画出 A 的结构，解释区域选择性。
 8-1-2 写出 A 到 B 发生的化学反应方程式，有机物需要画出结构。
 
-<table><tr><td>8-1-1</td><td><img src="images/484f7799b700360d19d2579650000dbb3f83b7d6665bb69d21eb1af1cd5e76d6.jpg"/> 区域选择性:Bpin 导致在 N 的邻位还原位阻过大。</td></tr><tr><td>8-1-2</td><td><img src="images/f909eba26a3dca944b5360910afcce18926e01a41a40847742633f36a1137de6.jpg"/> + 2 <img src="images/24a69f498596fd3eef9f69f5776d57bdf22048cffb5016187e6cfebb91fc8e46.jpg"/> → Ph-NHBOc+ <img src="images/eb9703b160489fc6ebb66b6b3da219417f3069f0a7632e180a20091107d786f7.jpg"/></td></tr></table>
+
+**8-1-1**
+
+ 区域选择性:Bpin 导致在 N 的邻位还原位阻过大。
+
+**8-1-2**
+<img src="images/f909eba26a3dca944b5360910afcce18926e01a41a40847742633f36a1137de6.jpg"/>
+ + 2
+<img src="images/24a69f498596fd3eef9f69f5776d57bdf22048cffb5016187e6cfebb91fc8e46.jpg"/>
+ → Ph-NHBOc+
+<img src="images/eb9703b160489fc6ebb66b6b3da219417f3069f0a7632e180a20091107d786f7.jpg"/>
+
 
 8-2 使用设计好的配体可以实现 C-C 多重键对 C-H 键的插入。该反应先通过合适的诱导，让 Ni 作用到吡啶的间位。
 

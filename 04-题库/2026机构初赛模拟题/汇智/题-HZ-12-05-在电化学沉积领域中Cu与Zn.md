@@ -82,7 +82,17 @@ $$
 
 5-4 计算脱合金过程中的电流效率，并解释为什么电流效率较大。
 
-<table><tr><td>5-1共6分</td><td>由于络合反应平衡常数很大,认为完全络合 $[Cu(P_2O_7)_2^{6-}] = 0.012 \text{mol} \cdot \text{L}^{-1}$  $[Zn(P_2O_7)_2^{6-}] = 0.024 \text{mol} \cdot \text{L}^{-1}$  $[P_2O_7^{4-}] = 0.028 \text{mol} \cdot \text{L}^{-1}$ 带入平衡常数可得 $[Cu^{2+}] = \frac{[Cu(P_2O_7)_2^{6-}]}{K_1[P_2O_7^{4-}]^2} = 5.5 \times 10^{-12} \text{mol} \cdot \text{L}^{-1}$  $[Zn^{2+}] = \frac{[Zn(P_2O_7)_2^{6-}]}{K_1[P_2O_7^{4-}]^2} = 3.1 \times 10^{-9} \text{mol} \cdot \text{L}^{-1}$ 带入Nemst方程 $\varphi_{Cu^{2+}/Cu} = \varphi_{Cu^{2+}/Cu}^{\ominus} - \frac{RT}{nF} ln \frac{1}{[Cu^{2+}]} = 0.009 \text{V}$  $\varphi_{Zn^{2+}/Zn} = \varphi_{Zn^{2+}/Zn}^{\ominus} - \frac{RT}{nF} ln \frac{1}{[Zn^{2+}]} = -1.0 \text{V}$ 写出 $Cu(P_2O_7)_2^{6-}$ , $Zn(P_2O_7)_2^{6-}$ , $P_2O_7^+$ 的浓度得2分;算出 $Cu^{2+}$ , $Zn^{2+}$ 的浓度各1分:算出Cu,Zn的电极电势各1分</td></tr><tr><td>5-2共6分</td><td>联立有 $\eta = |E_{vq} - E| = bIg \frac{l}{l_0}$ 代入得 $|-0.009 - (-1.40)| = 0.120Ig \frac{l_{Cu}}{2.21 \times 10^{-7}}$  $|-1.0 - (-1.40)| = 0.060Ig \frac{l_{Zn}}{1.00 \times 10^{-2}}$ 解得 $l_{Cu} = 1.2 \times 10^{5} \text{ A} \cdot \text{cm}^{-2}, l_{Zn} = 4.6 \times 10^{4} \text{ A} \cdot \text{cm}^{-2}$ 由于是活化控制,沉积过程速率与底物浓度无关,而和沉积电流密度成正比铜锌比 Cu: Zn =  $l_{Cu}$ :  $l_{Zn}$  = 2.6计算过程2分,铜锌的沉积电流密度各1分,铜锌比2分</td></tr><tr><td>5-3共4分</td><td>计算可得 Cu: Zn =  $l_{Cu}'$ :  $l_{Zn}'$  = 0.014合金中铜的含量下降,锌的含量上升,铜锌比下降计算结果2分,判断2分</td></tr><tr><td>5-4共8分</td><td>合金中Zn的物质的量 $n_{Zn} = \frac{m}{M} \times 0.35 = \frac{0.0550}{0.65 \times 63.55 + 0.35 \times 65.38} \times 0.35 = 3.0 \times 10^{-4} (\text{mol})$ 理论需要的电量 $Q = 2Fn_{Zn} = 2 \times 96485 \times 3.0 \times 10^{-4} = 58 (\text{C})$ 电流效率 η =  $\frac{Q}{Q_{real}}$  = 289%电流效率较大的原因:反应在1M H2SO4中进行,Zn会和酸直接反应,无需外加电子参与每个式子2分,解释2分</td></tr></table>
+
+
+**5-1共6分** 由于络合反应平衡常数很大,认为完全络合 $[Cu(P_2O_7)_2^{6-}] = 0.012 \text{mol} \cdot \text{L}^{-1}$  $[Zn(P_2O_7)_2^{6-}] = 0.024 \text{mol} \cdot \text{L}^{-1}$  $[P_2O_7^{4-}] = 0.028 \text{mol} \cdot \text{L}^{-1}$ 带入平衡常数可得 $[Cu^{2+}] = \frac{[Cu(P_2O_7)_2^{6-}]}{K_1[P_2O_7^{4-}]^2} = 5.5 \times 10^{-12} \text{mol} \cdot \text{L}^{-1}$  $[Zn^{2+}] = \frac{[Zn(P_2O_7)_2^{6-}]}{K_1[P_2O_7^{4-}]^2} = 3.1 \times 10^{-9} \text{mol} \cdot \text{L}^{-1}$ 带入Nemst方程 $\varphi_{Cu^{2+}/Cu} = \varphi_{Cu^{2+}/Cu}^{\ominus} - \frac{RT}{nF} ln \frac{1}{[Cu^{2+}]} = 0.009 \text{V}$  $\varphi_{Zn^{2+}/Zn} = \varphi_{Zn^{2+}/Zn}^{\ominus} - \frac{RT}{nF} ln \frac{1}{[Zn^{2+}]} = -1.0 \text{V}$ 写出 $Cu(P_2O_7)_2^{6-}$ , $Zn(P_2O_7)_2^{6-}$ , $P_2O_7^+$ 的浓度得2分;算出 $Cu^{2+}$ , $Zn^{2+}$ 的浓度各1分:算出Cu,Zn的电极电势各1分
+
+**5-2共6分** 联立有 $\eta = |E_{vq} - E| = bIg \frac{l}{l_0}$ 代入得 $|-0.009 - (-1.40)| = 0.120Ig \frac{l_{Cu}}{2.21 \times 10^{-7}}$  $|-1.0 - (-1.40)| = 0.060Ig \frac{l_{Zn}}{1.00 \times 10^{-2}}$ 解得 $l_{Cu} = 1.2 \times 10^{5} \text{ A} \cdot \text{cm}^{-2}, l_{Zn} = 4.6 \times 10^{4} \text{ A} \cdot \text{cm}^{-2}$ 由于是活化控制,沉积过程速率与底物浓度无关,而和沉积电流密度成正比铜锌比 Cu: Zn =  $l_{Cu}$ :  $l_{Zn}$  = 2.6计算过程2分,铜锌的沉积电流密度各1分,铜锌比2分
+
+**5-3共4分** 计算可得 Cu: Zn =  $l_{Cu}'$ :  $l_{Zn}'$  = 0.014合金中铜的含量下降,锌的含量上升,铜锌比下降计算结果2分,判断2分
+
+**5-4共8分** 合金中Zn的物质的量 $n_{Zn} = \frac{m}{M} \times 0.35 = \frac{0.0550}{0.65 \times 63.55 + 0.35 \times 65.38} \times 0.35 = 3.0 \times 10^{-4} (\text{mol})$ 理论需要的电量 $Q = 2Fn_{Zn} = 2 \times 96485 \times 3.0 \times 10^{-4} = 58 (\text{C})$ 电流效率 η =  $\frac{Q}{Q_{real}}$  = 289%电流效率较大的原因:反应在1M H2SO4中进行,Zn会和酸直接反应,无需外加电子参与每个式子2分,解释2分
+
+
 
 ## 知识点映射
 

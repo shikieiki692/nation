@@ -202,7 +202,6 @@ $$
 
 注意单位换算。
 
-![](images/1b4ff94ff7befdf27bcf6d18ef7a3c6ff550bc9efbbc4cb233a1c62c3b4340b9.jpg)
 
 ## 知识点映射
 

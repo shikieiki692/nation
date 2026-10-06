@@ -99,7 +99,11 @@ Gilbert 在仔细研究微观世界的物理规律后提出了如下的假想机
 
 提示：一维扩散方程中位移与时间的关系满足 $x^{2}=2Dt$
 
-<table><tr><td>7-2-1(2分)</td><td>空载速度 $v = L/t = L/(L^{2}/2D) = 2D/L$ 。(2分)</td></tr></table>
+
+
+**7-2-1(2分)** 空载速度 $v = L/t = L/(L^{2}/2D) = 2D/L$ 。(2分)
+
+
 
 然后我们引入负载力 f，仍保持理想棘轮的假设。此时我们考虑 M 个棘轮的概率密度分布 P(x)，满足 Smoluchowski 方程： $\frac{d}{dx}\left(\frac{dP}{dx}+\frac{1}{k_{B}T}P\frac{dU_{tot}}{dx}\right)=0$ ，即单位时间通过某位置的净棘轮数（通量）
 
@@ -113,7 +117,11 @@ $$
 
 提示：v = L / Δt，Δt 对应棘轮从左至右通过 L 的平均时间。
 
-<table><tr><td>7-2-2(10分)</td><td>由于棘轮通量J与位置x无关,因此JΔt=M(通量的定义)故Δt=M/J=-1/ D(dP/dx+1/kBTPduTot/dx)(2分)v=L/Δt=-LD(dP/dx+1/kBTPduTot/dx)(2分)对于概率密度函数P(x),由P(L)=0可知:C&#x27;=-C,即P(x)=C[e-(x-L)f/kBT-1](1分)其中C为归一化常数,满足∫0L P(x)dx=1,即C=(∫0L[e-(x-L)f/kBT-1]dx)-1(1分)将P(x)=C[e-(x-L)f/kBT-1]代入平均速度v的式子里,有:v=-LD(dP/dx+1/kBTPduTot/dx)=-LD(-Cf/kBTe-(x-L)f/kBT+1/kBTC[e-(x-L)f/kBT-1])(2分)化简后得:v=LDf/kBTC=LDf/kBT(∫0L[e-(x-L)f/kBT-1]dx)-1=(1fL/kBT)2D/L(efl/kBT-1-fL/kBT)-1(2分)</td></tr></table>
+
+
+**7-2-2(10分)** 由于棘轮通量J与位置x无关,因此JΔt=M(通量的定义)故Δt=M/J=-1/ D(dP/dx+1/kBTPduTot/dx)(2分)v=L/Δt=-LD(dP/dx+1/kBTPduTot/dx)(2分)对于概率密度函数P(x),由P(L)=0可知:C&#x27;=-C,即P(x)=C[e-(x-L)f/kBT-1](1分)其中C为归一化常数,满足∫0L P(x)dx=1,即C=(∫0L[e-(x-L)f/kBT-1]dx)-1(1分)将P(x)=C[e-(x-L)f/kBT-1]代入平均速度v的式子里,有:v=-LD(dP/dx+1/kBTPduTot/dx)=-LD(-Cf/kBTe-(x-L)f/kBT+1/kBTC[e-(x-L)f/kBT-1])(2分)化简后得:v=LDf/kBTC=LDf/kBT(∫0L[e-(x-L)f/kBT-1]dx)-1=(1fL/kBT)2D/L(efl/kBT-1-fL/kBT)-1(2分)
+
+
 
 7-2-3 写出平均速度 v 在高负载下的简化表达式。
 

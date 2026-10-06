@@ -71,7 +71,9 @@ $$
 \Delta H _ {\mathrm{L}} ^ {\ominus} = \frac {N _ {\mathrm{A}} | z _ {\mathrm{A}} z _ {\mathrm{B}} | e ^ {2}}{4 \pi \varepsilon_ {0} d} \bigg (1 - \frac {d ^ {*}}{d} \bigg) A
 $$
 
-<table><tr><td>5-1</td><td> $\text{Mg(s)} + \text{MgF}_2(\text{s)} \rightarrow 2\text{MgF(s)} \Delta H$  $\downarrow \Delta H_{\text{sub}} \quad \downarrow \Delta H_{\text{L(MgF2)}} \quad \downarrow -2\Delta H_{\text{L(MgF)}}$  $\text{Mg(g)} \quad \text{Mg}^{2+}(\text{g}) + 2\text{F}^{-}(\text{g}) \quad 2\text{Mg}^{+}(\text{g}) + 2\text{F}^{-}(\text{g})$  $\downarrow I_1 \quad \downarrow \quad \uparrow -I_2$  $\text{Mg}^{+}(\text{g}) \quad \text{Mg}^{2+}(\text{g}) + 2\text{F}^{-}(\text{g}) \quad \text{Mg}^{+}(\text{g}) + \text{Mg}^{2+}(\text{g}) + 2\text{F}^{-}(\text{g})$  (图2分) $\Delta H_{\text{L(MgF)}} = 840.2\text{kJ/mol}$  $\Delta H = \Delta H_{\text{sub}} + \Delta H_{\text{L(MgF2)}} + I_1 - I_2 - 2\Delta H_{\text{L(MgF)}} = +674.6\text{kJ/mol}$ </td></tr></table>
+
+**5-1** $\text{Mg(s)} + \text{MgF}_2(\text{s)} \rightarrow 2\text{MgF(s)} \Delta H$  $\downarrow \Delta H_{\text{sub}} \quad \downarrow \Delta H_{\text{L(MgF2)}} \quad \downarrow -2\Delta H_{\text{L(MgF)}}$  $\text{Mg(g)} \quad \text{Mg}^{2+}(\text{g}) + 2\text{F}^{-}(\text{g}) \quad 2\text{Mg}^{+}(\text{g}) + 2\text{F}^{-}(\text{g})$  $\downarrow I_1 \quad \downarrow \quad \uparrow -I_2$  $\text{Mg}^{+}(\text{g}) \quad \text{Mg}^{2+}(\text{g}) + 2\text{F}^{-}(\text{g}) \quad \text{Mg}^{+}(\text{g}) + \text{Mg}^{2+}(\text{g}) + 2\text{F}^{-}(\text{g})$  (图2分) $\Delta H_{\text{L(MgF)}} = 840.2\text{kJ/mol}$  $\Delta H = \Delta H_{\text{sub}} + \Delta H_{\text{L(MgF2)}} + I_1 - I_2 - 2\Delta H_{\text{L(MgF)}} = +674.6\text{kJ/mol}$
+
 
 5-2 虽然含+1价 $\mathrm{Mg}$ 的离子化合物难于稳定形成，但人们合成了稳定的含 $\mathrm{Mg - Mg}$ 共价键的 $+1$ 价 $\mathrm{Mg}$ 化合物。
 
@@ -79,7 +81,10 @@ $$
 
 ![](images/c2a4e76b898262b5335008ae59d38332a6c21e5ac0a150d805db6f105446235e.jpg)
 
-<table><tr><td>5-2-1</td><td><img src="images/b44cddf799a9009d5802a858d58fbd22d0dad031d1d950f5b8d4b5633528e133.jpg"/></td></tr></table>
+
+**5-2-1**
+<img src="images/b44cddf799a9009d5802a858d58fbd22d0dad031d1d950f5b8d4b5633528e133.jpg"/>
+
 
 5-2-2 由于 A 具有高 HOMO 的 Mg-Mg 键，可以完成一些意料之外的转化，例如，以下课题组进行了以下转化。A 到 B 的过程中发生了氧化加成，B 和 D 中 Mg 均为 4 配位，B 无对称中心，C 含对称中心。请画出 B、C、D 的结构。
 
@@ -104,7 +109,6 @@ J. Am. Chem. Soc. 2021, 143, 17851–17856
 
 ![](images/72fcb9084f59ad394c7016f7da1c99a3db610b301e00669f4551c96508a45ae8.jpg)
 
-![](images/74ffe113f8c2bab098aed4d6583ead150f6ca0bdd6c8ed39c9b709590412814b.jpg)
 
 ## 知识点映射
 

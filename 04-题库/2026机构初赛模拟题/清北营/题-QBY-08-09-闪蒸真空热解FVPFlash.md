@@ -52,7 +52,6 @@ source_file: "2026机构初赛模拟题/04-清北营/春季模拟8.md"
 
 9-2 Wiersum 报告了在 1.3 克规模上通过 Meldrum 酸前体 H 在 $600^{\circ} \mathrm{C} / 0.05 \mathrm{hPa}$ 条件下反应生成了有趣的化合物 I，产率为 $81 \%$ 。
 
-![](images/27c943c28d87aae241fa29bc1c1ed31ea0ee99232a34171b75efc3280af22e69.jpg)
 
 ![](images/7fb367a8380558aa1b6d3dcfda892fab9b4914da07a9d61bdd1f33f2588343f5.jpg)
 

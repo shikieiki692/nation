@@ -64,7 +64,15 @@ source_file: "chemy试题/第34届Chemy化学奥林匹克题目合集..md"
 因此 x=1, y=1，即最简式为 $[Ti_{x}Cl_{y}(CyNCHNCy)_{2}]\cdot C_{4}H_{8}O$ （1分）
 又因为该配合物为双核配合物，故其化学式应为： $[Ti_{2}Cl_{2}(CyNCHNCy)_{4}]\cdot2C_{4}H_{8}O$ （1分）
 
-<table><tr><td>4-2 参考图形如下(4分)含氮配体采用其他方式排布,不得分。</td></tr><tr><td><img src="images/cd905e1aa758fec0fefd222d7aacfcc3d884ff398a9fec01448063c6320420b5.jpg"/></td></tr><tr><td>不画出 Ti-Ti 单键,扣1分。</td></tr></table>
+
+
+**4-2** 参考图形如下(4分)含氮配体采用其他方式排布,不得分。
+
+<img src="images/cd905e1aa758fec0fefd222d7aacfcc3d884ff398a9fec01448063c6320420b5.jpg"/>
+
+不画出 Ti-Ti 单键,扣1分。
+
+
 
 4-3  $d_{x2-y2}$  轨道（1 分）
 有兴趣的同学可思考以下小问题：

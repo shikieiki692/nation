@@ -53,14 +53,26 @@ quality_warning: "答案区尾部原混入下一题标题与题干（源答案�
 
 4-2-1 已知某人体细胞的线粒体内膜上，每个 ATP 的合成需要 3 个 $\mathrm{H}^{+}$ 驱动，ATP 水解为 ADP 与 Pi 所释放的能量为 $30.54 \mathrm{~kJ} / \mathrm{mol}$ ，计算膜间区域与基质的质子浓度之比 $[\mathrm{H}^{+}]_{\text {膜间}} / [\mathrm{H}^{+}]_{\text {基质}}$ 。（体温取 $37^{\circ} \mathrm{C}$ ）
 
-<table><tr><td>4-2-1</td><td>3倍质子电势能的70%为30.54kJ/mol,则: $\frac{30.54kJ/mol}{70\%} = 3 \times \left(-RTln\frac{\left[H^{+}\right]_{\text{基质}}}{\left[H^{+}\right]_{\text{膜间}}}\right)$ 解得: $\frac{\left[H^{+}\right]_{\text{膜间}}}{\left[H^{+}\right]_{\text{基质}}} = 281.83$ </td></tr></table>
+
+
+**4-2-1** 3倍质子电势能的70%为30.54kJ/mol,则: $\frac{30.54kJ/mol}{70\%} = 3 \times \left(-RTln\frac{\left[H^{+}\right]_{\text{基质}}}{\left[H^{+}\right]_{\text{膜间}}}\right)$ 解得: $\frac{\left[H^{+}\right]_{\text{膜间}}}{\left[H^{+}\right]_{\text{基质}}} = 281.83$
+
+
 
 4-2-2 假设该线粒体内膜两侧电位差完全由 $\mathrm{H^{+}}$ 带来，计算线粒体内膜两侧的电势差。
 
-<table><tr><td>4-2-2</td><td>3倍质子电势能的70%为30.54kJ/mol质子电势能 $E = \phi \times \text{ne}$  $\phi \times 3\text{e} \times 70\% = 30.54\text{kJ/mol}$  $\phi = 0.151\text{V}$ </td></tr></table>
 
 
-<table><tr><td>4-2-3</td><td>正常有氧呼吸生理过程中,线粒体内外膜处于动态平衡膜间区域初始时:pH=7.45, $[HCO_{3}^{-}]=24mmol/L$ 则膜间 $HCO_{3}^{-}$ 数量为 $10^{-13}L\times24\ mmol/L\times N_{A}=1.445\times10^{9}$ 个8h后,膜间进入了 $n_{0}=3\times10^{5}\times60\times8=1.44\times10^{8}$ 个 $H^{+}$ ,即 $pH=pKa-log\left(\frac{n[H_{2}CO_{3}]+n_{0}}{n[HCO_{3}^{-}]-n_{0}}\right)$  $pH=7.05$ </td></tr></table>
+**4-2-2** 3倍质子电势能的70%为30.54kJ/mol质子电势能 $E = \phi \times \text{ne}$  $\phi \times 3\text{e} \times 70\% = 30.54\text{kJ/mol}$  $\phi = 0.151\text{V}$
+
+
+
+
+
+
+**4-2-3** 正常有氧呼吸生理过程中,线粒体内外膜处于动态平衡膜间区域初始时:pH=7.45, $[HCO_{3}^{-}]=24mmol/L$ 则膜间 $HCO_{3}^{-}$ 数量为 $10^{-13}L\times24\ mmol/L\times N_{A}=1.445\times10^{9}$ 个8h后,膜间进入了 $n_{0}=3\times10^{5}\times60\times8=1.44\times10^{8}$ 个 $H^{+}$ ,即 $pH=pKa-log\left(\frac{n[H_{2}CO_{3}]+n_{0}}{n[HCO_{3}^{-}]-n_{0}}\right)$  $pH=7.05$
+
+
 
 > ✅ 答案由源《2026年清北营寒假班-试卷3-参考答案.md》第 4 题回收补录（回源核对 2026-09-27）。
 

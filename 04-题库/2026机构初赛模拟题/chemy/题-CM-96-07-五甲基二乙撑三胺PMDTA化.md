@@ -50,7 +50,15 @@ a) 为高自旋    b) 为低自旋    c) 高低自旋同时存在
 
 ## 第7题（8分）
 
-<table><tr><td>7-1</td></tr><tr><td><img src="images/aa9b6f2726ac36f65f888283bfdeb67d3d37a4a2da20390dcf2a7af2a1d82fcf.jpg"/></td></tr><tr><td>(2分,PMDTA必须只用相邻的两个氮原子配位;不画出Fe或N的立体结构,不扣分;不体现出Fe-N-O键的键角以及N-O键的键级,不扣分)抗磁性(0.5分);-2(0.5分)</td></tr></table>
+
+
+7-1
+
+<img src="images/aa9b6f2726ac36f65f888283bfdeb67d3d37a4a2da20390dcf2a7af2a1d82fcf.jpg"/>
+
+(2分,PMDTA必须只用相邻的两个氮原子配位;不画出Fe或N的立体结构,不扣分;不体现出Fe-N-O键的键角以及N-O键的键级,不扣分)抗磁性(0.5分);-2(0.5分)
+
+
 
 ![](images/6207ea4db50218ffc274528c0c22cea12e0eaba6fef78394a4195281adbe3b34.jpg)
 

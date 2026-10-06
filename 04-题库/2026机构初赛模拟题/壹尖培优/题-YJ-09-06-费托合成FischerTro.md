@@ -76,8 +76,28 @@ Me，甲基；Et，乙基；Pr，丙基；Bu，丁基；Ph，苯基；Ac，乙�
 
 ## 参考答案
 
-三钴碳化物簇(26分,占13%)</td></tr><tr><td>6-1共2分</td><td colspan="2"> $n\mathrm{{CO}} + \left( {{2n} + 1}\right) {\mathrm{H}}_{2} \rightarrow {\mathrm{C}}_{n}{\mathrm{H}}_{{2n} + 2} + n{\mathrm{H}}_{2}\mathrm{O}$ (2分)</td></tr><tr><td>6-2共3分</td><td colspan="2"><img src="images/5159bec050f9b9743c911cc1ae28cd816a149348bc49d29c1ace012f0a225044.jpg"/>(3分)</td></tr><tr><td rowspan="2">6-3-1共4分</td><td><img src="images/a522e9180944afac3ebadf00b2cd9b928ba56fb70a97d42dcecafe52fe4e388c.jpg"/>(2分)</td><td><img src="images/50802ae446763f62382fae047cda61972ff0abef193f4e64b466e72c9766b8ff.jpg"/>(2分)</td></tr><tr><td>P</td><td>Q</td></tr><tr><td>6-3-2共2分</td><td colspan="2"><img src="images/5d5e2b3a234d05e935fd645674a6af16830f3675c7b75d7ec98ed176bff6018e.jpg"/>(2分)</td></tr><tr><td>6-4-1共3分</td><td colspan="2"><img src="images/40469e2ed186c4d328997a63f6c5c70cad7dab6aa5ee9039438919bfc4fb50f6.jpg"/>(3分)</td></tr><tr><td rowspan="4">6-4-2共9分</td><td><img src="images/217774eee8e633eb51d4db71cf13c18e306875b9d5adb6eef221b514917d4ad3.jpg"/>(3分)</td><td><img src="images/99e02b8672007e5819a2b8afd9be57f79d7db823512a106081d92ffc2d0ee62c.jpg"/>(3分)</td></tr><tr><td>A</td><td>B</td></tr><tr><td><img src="images/4913da2ebc0d86c043378c8cf48745ec2e07c00e9b215c2abf472fb544e06896.jpg"/>(3分,注意标注电荷)</td><td rowspan="2">共9分。</td></tr><tr><td>C</td></tr></table>
-<table><tr><td>6-4-3共3分</td><td> $[(^{F,TBS}L)Co_{3}(Ph_{2}P(CH_{2})_{2})]^{-} + BEt_{3} \rightarrow Ph_{2}MePBEt_{3} + [(^{F,TBS}L)Co_{3}(CH)]^{-}$ (3分)</td></tr></table>
+三钴碳化物簇(26分,占13%)</td></tr><tr><td>6-1共2分</td><td colspan="2"> $n\mathrm{{CO}} + \left( {{2n} + 1}\right) {\mathrm{H}}_{2} \rightarrow {\mathrm{C}}_{n}{\mathrm{H}}_{{2n} + 2} + n{\mathrm{H}}_{2}\mathrm{O}$ (2分)</td></tr><tr><td>6-2共3分</td><td colspan="2">
+<img src="images/5159bec050f9b9743c911cc1ae28cd816a149348bc49d29c1ace012f0a225044.jpg"/>
+(3分)</td></tr><tr><td rowspan="2">6-3-1共4分</td><td>
+<img src="images/a522e9180944afac3ebadf00b2cd9b928ba56fb70a97d42dcecafe52fe4e388c.jpg"/>
+(2分)</td><td>
+<img src="images/50802ae446763f62382fae047cda61972ff0abef193f4e64b466e72c9766b8ff.jpg"/>
+(2分)</td></tr><tr><td>P</td><td>Q</td></tr><tr><td>6-3-2共2分</td><td colspan="2">
+<img src="images/5d5e2b3a234d05e935fd645674a6af16830f3675c7b75d7ec98ed176bff6018e.jpg"/>
+(2分)</td></tr><tr><td>6-4-1共3分</td><td colspan="2">
+<img src="images/40469e2ed186c4d328997a63f6c5c70cad7dab6aa5ee9039438919bfc4fb50f6.jpg"/>
+(3分)</td></tr><tr><td rowspan="4">6-4-2共9分</td><td>
+<img src="images/217774eee8e633eb51d4db71cf13c18e306875b9d5adb6eef221b514917d4ad3.jpg"/>
+(3分)</td><td>
+<img src="images/99e02b8672007e5819a2b8afd9be57f79d7db823512a106081d92ffc2d0ee62c.jpg"/>
+(3分)</td></tr><tr><td>A</td><td>B</td></tr><tr><td>
+<img src="images/4913da2ebc0d86c043378c8cf48745ec2e07c00e9b215c2abf472fb544e06896.jpg"/>
+(3分,注意标注电荷)</td><td rowspan="2">共9分。</td></tr><tr><td>C</td></tr></table>
+
+
+**6-4-3共3分** $[(^{F,TBS}L)Co_{3}(Ph_{2}P(CH_{2})_{2})]^{-} + BEt_{3} \rightarrow Ph_{2}MePBEt_{3} + [(^{F,TBS}L)Co_{3}(CH)]^{-}$ (3分)
+
+
 ##
 
 

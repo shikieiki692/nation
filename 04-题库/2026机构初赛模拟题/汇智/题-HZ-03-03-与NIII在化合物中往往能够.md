@@ -47,7 +47,29 @@ source_file: "2026机构初赛模拟题/08-汇智/汇智起航五一初赛模拟
 
 ## 参考答案
 
-<table><tr><td>3-1水相,有机相分别如下:每个1分,共2分<img src="images/5f46058d50d2e42d55739f76d52de3c3a711d45f42c05588f3af3dcab05e13ad.jpg"/></td></tr><tr><td>3-2-1每个Lewis结构式2分,杂化形式1分,共6分。<img src="images/aa5b933226aca8539badd1e643c9e95618655934ffde559cc90411658931b19b.jpg"/>A:<img src="images/371366198c75013ad5e4c5254ec8f64aad793137318e307a13e4995636e8f05d.jpg"/></td></tr><tr><td>3-2-2A</td></tr><tr><td>3-3-1ArNPCl+2KOTMS=O(TMS)2+KCl+KArNPO(2分)<img src="images/f4c4015f1f83b8975374e4758ca82872c6baf8e85336898c83bd1f91494b65fe.jpg"/>(共振式3分,只错1个扣1分)</td></tr><tr><td>3-3-2产物分别如下所示:每个2分,共6分<img src="images/f7e074d7c7f3bb1ee7542186425b98cb2fa94fdd6d095f1ad9d90093c4cd78df.jpg"/></td></tr></table>
+
+
+3-1水相,有机相分别如下:每个1分,共2分
+<img src="images/5f46058d50d2e42d55739f76d52de3c3a711d45f42c05588f3af3dcab05e13ad.jpg"/>
+
+
+3-2-1每个Lewis结构式2分,杂化形式1分,共6分。
+<img src="images/aa5b933226aca8539badd1e643c9e95618655934ffde559cc90411658931b19b.jpg"/>
+A:
+<img src="images/371366198c75013ad5e4c5254ec8f64aad793137318e307a13e4995636e8f05d.jpg"/>
+
+
+3-2-2A
+
+3-3-1ArNPCl+2KOTMS=O(TMS)2+KCl+KArNPO(2分)
+<img src="images/f4c4015f1f83b8975374e4758ca82872c6baf8e85336898c83bd1f91494b65fe.jpg"/>
+(共振式3分,只错1个扣1分)
+
+3-3-2产物分别如下所示:每个2分,共6分
+<img src="images/f7e074d7c7f3bb1ee7542186425b98cb2fa94fdd6d095f1ad9d90093c4cd78df.jpg"/>
+
+
+
 
 ## 知识点映射
 

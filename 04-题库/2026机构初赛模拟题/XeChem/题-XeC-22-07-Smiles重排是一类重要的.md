@@ -74,10 +74,10 @@ C) $\mathrm{BH}_{3} \cdot \mathrm{THF}; \mathrm{H}_{2} \mathrm{O}_{2}, \mathrm{N
 
 D) ${\mathrm{{OsO}}}_{4},{\mathrm{{NaIO}}}_{4};{\mathrm{{NaBH}}}_{4}$
 
-![](images/b90e8c9f2e08a6ad2bf6ac0ca59cddccce169a199121cde51dc0e7c0a66e2494.jpg)  
+![](images/b90e8c9f2e08a6ad2bf6ac0ca59cddccce169a199121cde51dc0e7c0a66e2494.jpg)
 (-)-limaspermidine
 
-第 40 届 XeChem 初赛模拟试题（二十二）答题卡  
+第 40 届 XeChem 初赛模拟试题（二十二）答题卡
 (2026年7月27日)
 
 <table><tr><td>题号</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>总分</td></tr><tr><td>满分</td><td>30</td><td>42</td><td>23</td><td>35</td><td>29</td><td>42</td><td>40</td><td>241</td></tr><tr><td>占比</td><td>13</td><td>13</td><td>11</td><td>11</td><td>15</td><td>19</td><td>18</td><td>100</td></tr><tr><td>得分</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>评卷人</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>
@@ -90,12 +90,12 @@ Smiles 重排是一类重要的分子内芳基迁移反应，能够在较温和�
 
 7-1 直接给出如下反应的产物与转化的关键中间体并指出该反应会释放出何种气体。
 
-![](images/25842b983fd0f2ebf14a96f6496b9a7b57333e57e05fe0717034f9c62b8c32a4.jpg)  
+![](images/25842b983fd0f2ebf14a96f6496b9a7b57333e57e05fe0717034f9c62b8c32a4.jpg)
 (产物 2 分、气体与中间体各 1 分, 共 7 分)
 
 7-22024 年，Mao 和 Walsh 课题组利用双硅胺基锂/钾体系，实现了苄基砜与苯甲酸氯一锅合成多种二芳基乙炔，直接给出如下反应的关键中间体。
 
-![](images/8d7a31a376b92a79c1ff89820056819c082a101ab5b69dba0cc92578fbc18148.jpg)  
+![](images/8d7a31a376b92a79c1ff89820056819c082a101ab5b69dba0cc92578fbc18148.jpg)
 (各2分，共8分)
 
 7-32016 年，Canesi 课题组提出了 Ns 功能性保护基策略，利用 Michael-Smiles 串联将保护基携带的硝基芳基转移至分子骨架，快速构建多环及杂环体系。
@@ -104,21 +104,21 @@ Smiles 重排是一类重要的分子内芳基迁移反应，能够在较温和�
 
 7-3-1 已知第一步中产生了去芳构化的物种 A，且物种 A 中环的数目未发生变化；由物种 A 得到物种 B 的过程中，经历了两次 aza-Michael 过程；在由 B 得到最终吲哚产物中，经历了还原驱动的芳构化过程。直接给出物种 A 与 B 的结构。
 
-![](images/450c756a20500a827bf626c19c6547ce3f73550084d9bd9ed0d4538e8988fee8.jpg)  
+
 (各2分，共4分)
 
 7-3-2 根据上述历程及题目，给出由物种 A 转化为物种 B 所涉及的关键中间体。
 
-![](images/cc40b0a0751b8dd9facd531cbd077e554aacd611b7cc0133f257a5d602635a6d.jpg)  
+![](images/cc40b0a0751b8dd9facd531cbd077e554aacd611b7cc0133f257a5d602635a6d.jpg)
 (各2分，共8分)
 
 7-3-32022 年，Signo 和 Canesi 以 Ns 基兼作胺保护基和硝基芳基供体，通过上述类似策略，一步构建了如下含氮杂环丙烷的多环产物，直接给出如下产物的结构。（注意立体化学）
 
-E  
-C  
+E
+C
 ![](images/aedd51371e2393d265335a7e39f1288ac92935f352d8947b05881a918b754e21.jpg)
 
-![](images/d0dfbd5a05211b9d84fb3ed284ce691ec56ab3720f6d4b9ceac5808375a2c7d8.jpg)  
+![](images/d0dfbd5a05211b9d84fb3ed284ce691ec56ab3720f6d4b9ceac5808375a2c7d8.jpg)
 (3 分, 相对立体化学错误扣 1 分)
 
 7-42022 年，Ruijter 课题组继续发展了 Michael-Smiles 串联策略，并将其用于(-)-limaspermidine 等多种生物碱的不对称全合成。(acetone 为丙酮)
@@ -131,7 +131,7 @@ C
 
 ![](images/7604a4ad7a0dd96c2836fcba3cad66c2f8909c27c83775cb66d9aef9c6d4d14e.jpg)
 
-![](images/6345a2e6cd2a640c4e87c131c01a5029846720193ff014db2f2fae5a0bdfeec7.jpg)  
+![](images/6345a2e6cd2a640c4e87c131c01a5029846720193ff014db2f2fae5a0bdfeec7.jpg)
 (各2分，共6分)
 
 7-4-2 指出由 D 转化为 E 的两步转化中，反应的驱动力。

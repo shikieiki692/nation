@@ -36,10 +36,8 @@ source_file: "chemy试题/第37届Chemy题目合集..md"
 
 环蕃(cyclophane)由一个芳环和一条在该芳环的两个不相邻位置之间形成桥的链组成。2019年 G. Bodwell 课题组利用卡宾插入和扩环芳构化合成了新型环蕃 X( $C_{19}H_{16}$ ):
 
-```text
 \begin{array}{c} \text {1} \xrightarrow [ \mathrm{AlCl} _{3} ]{\mathrm{AcCl}} \text {A} \xrightarrow [ 110^{\circ} \mathrm{C} ]{\mathrm{SeO} _{2}} \text {B} \xrightarrow [ \mathrm{Cs} _{2} \mathrm{CO} _{3} ]{\mathrm{TsNHNH} _{2}} \text {C} \\ \text {Rh} _{2} (\mathrm{OAc}) _{4} (1 \mathrm{mol} \%) \\ \text {DCM}, 40^{\circ} \mathrm{C} \end{array}
 \begin{array}{c} \text {   1)   LiCl,   DMSO } \\ \mathrm {H_{2} O, 140^{\circ} C} \quad \text {   2)   NaBH_{4} ,   MeOH } \\ \text {   3)   TsOH,   90^{\circ} C   4).   DDQ,   K_{2} CO_{3}} \end{array} \quad \begin{array}{c} \text {   D   } \\ \text {   N_{2} CHCO_{2} Et} \\ \text {   Et_{2} O\cdot BF_{3}} \end{array} \quad \begin{array}{c} \text {   E   } \\ \text {   } \end{array}
-```
 
 10-1 画出 A、B、C $\left(\mathrm{C}_{18}\mathrm{H}_{16}\mathrm{N}_{2}\mathrm{O}\right)$ 、D、X 的结构(DDQ 为 2,3-二氯-5,6-二氰基对苯醌)。
 

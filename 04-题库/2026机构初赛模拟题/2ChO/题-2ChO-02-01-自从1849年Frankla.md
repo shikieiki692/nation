@@ -50,7 +50,23 @@ source_file: "2026机构初赛模拟题/11-2ChO/第2届2ChO化学奥林匹克联
 
 第1题(14分)
 
-<table><tr><td>1-1</td><td>L更容易与π受体配位,卡宾更容易与π给体配位(2分)</td></tr><tr><td>1-2</td><td> $\begin{array}{c} \text{L} \\ \downarrow \\ \text{I}^{\text{Zn}}\text{I} \end{array}$ (2分)<img src="images/b676c23e3b82051f69a2c014b19a48e573d72df4c4fd20eac67325a8e6eb5e4c.jpg"/>(2分)</td></tr><tr><td>1-3</td><td><img src="images/2d04b59a84a6fb0a69f3553fb88ae1258e1f214c422464e6cdffbfa3f8051eb0.jpg"/>(3分)不要求金属键。</td></tr><tr><td>1-4</td><td> $Co_{8}C(CO)_{18}^{2-}$ (2分)写  $Co_{8}C_{19}O_{18}^{2-}$ 亦可得分。未标电荷得1分。</td></tr><tr><td>1-5</td><td> $WCl_{6} + 6(CH_{3})_{3}CCH_{2}Li + Ph_{2}PCH_{2}CH_{2}PPh_{2} \rightarrow 3C(CH_{3})_{4} + 6LiCl + W(Ph_{2}PCH_{2}CH_{2}PPh_{2})[(CH_{3})_{3}CCH_{2}][(CH_{3})_{3}CCH][(CH_{3})_{3}CC]$ (3分)</td></tr></table>
+
+
+**1-1** L更容易与π受体配位,卡宾更容易与π给体配位(2分)
+
+**1-2** $\begin{array}{c} \text{L} \\ \downarrow \\ \text{I}^{\text{Zn}}\text{I} \end{array}$ (2分)
+<img src="images/b676c23e3b82051f69a2c014b19a48e573d72df4c4fd20eac67325a8e6eb5e4c.jpg"/>
+(2分)
+
+**1-3** 
+<img src="images/2d04b59a84a6fb0a69f3553fb88ae1258e1f214c422464e6cdffbfa3f8051eb0.jpg"/>
+(3分)不要求金属键。
+
+**1-4** $Co_{8}C(CO)_{18}^{2-}$ (2分)写  $Co_{8}C_{19}O_{18}^{2-}$ 亦可得分。未标电荷得1分。
+
+**1-5** $WCl_{6} + 6(CH_{3})_{3}CCH_{2}Li + Ph_{2}PCH_{2}CH_{2}PPh_{2} \rightarrow 3C(CH_{3})_{4} + 6LiCl + W(Ph_{2}PCH_{2}CH_{2}PPh_{2})[(CH_{3})_{3}CCH_{2}][(CH_{3})_{3}CCH][(CH_{3})_{3}CC]$ (3分)
+
+
 
 ## 知识点映射
 

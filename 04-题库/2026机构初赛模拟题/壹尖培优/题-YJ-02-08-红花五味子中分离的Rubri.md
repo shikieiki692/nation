@@ -58,8 +58,44 @@ SEM: （三甲硅基）乙氧基甲基，9-BBN：9-硼双环[3.3.1]壬烷，OTf�
 
 ## 参考答案
 
-(26分,12%)有机综合题:天然产物全合成8.1已知:B→C转化中发生了Suzuki-Miyaura偶联反应,E→F转化中经过协同过渡态。画出化合物B和F的结构,注意立体化学。</td></tr><tr><td colspan="2">8.1(本问6分)</td></tr><tr><td colspan="2"><img src="images/8fcf51953fc310f9b758f84b6f529a1de94525173f8a23700f9024a7fded8417.jpg"/> <img src="images/3e9cfb59d60b4abbdb8523ff8daaa8bfc4529ff87b76c668af24634e2f40da59.jpg"/>B F各3分,骨架正确2分,立体化学1分</td></tr><tr><td colspan="2">8.2指出C→D转化的反应类型,并画出化合物D的结构。</td></tr><tr><td colspan="2">8.2(本问4分)</td></tr><tr><td colspan="2">芳香亲电加成反应1分<img src="images/fa5162fe9e1f90db420ddd4ce0bf36c486752d25a48d9c677ead30484e3b565f.jpg"/>D3分,骨架正确2分,立体化学1分</td></tr></table>
-<table><tr><td>8.3(本问3分)</td></tr><tr><td>TBAF的作用是作碱攫取质子,引发Kornblum-DeLaMare重排反应,使过氧键断裂生成酮和对位羟基 2分但TBAF碱性远弱于DBU,不会使右边部分乙酰基缩醛发生逆缩合的副反应 1分</td></tr><tr><td>8.4化合物G先经过氧化重排生成中间体M,再在强碱性条件下反应生成化合物H。给出中间体M转化为化合物H的转化历程。</td></tr><tr><td>8.4(本问7分)</td></tr><tr><td><img src="images/4680b008addb01de4499d5de936df6c6388e9384ce7ee67b9c7801cc6bb9ea74.jpg"/> DBU <img src="images/e733e5701a7d7ae7d7fd0bf1386483a0187b49ac32ceafd4953dc84f70a6a829.jpg"/>M → <img src="images/48685cc47ad3f805df5c6b8887fa640fd9f41cf5d793d12b6cb26f2fa03e2e89.jpg"/> <img src="images/b8a78f4b6435208edd70d900304886a82a5ff01ddb03964a38d7f49936b30e0b.jpg"/>H的结构3分,转化历程4分</td></tr><tr><td>8.5下图是前体A的合成路线片段:</td></tr><tr><td>8.5(本问6分)</td></tr><tr><td>反应中间体如下:3分<img src="images/336eb656ab822f03ae7480610bbcf35617a3f5e2e43601b2e5ffb14b574cbedf.jpg"/> <img src="images/0c3f478f215ffa1d1d7bcea8a07fd05d46b04cd2f62721a8c4489271ac3bb9bd.jpg"/>Y的结构:解释:化合物X中的氧原子会与Li离子发生螯合,使得重排通过椅式过渡态进行,由此C5位的构型(如上图所示)由1,3-顺式立体关系决定 3分</td></tr></table>
+(26分,12%)有机综合题:天然产物全合成8.1已知:B→C转化中发生了Suzuki-Miyaura偶联反应,E→F转化中经过协同过渡态。画出化合物B和F的结构,注意立体化学。</td></tr><tr><td colspan="2">8.1(本问6分)</td></tr><tr><td colspan="2">
+<img src="images/8fcf51953fc310f9b758f84b6f529a1de94525173f8a23700f9024a7fded8417.jpg"/>
+ 
+<img src="images/3e9cfb59d60b4abbdb8523ff8daaa8bfc4529ff87b76c668af24634e2f40da59.jpg"/>
+B F各3分,骨架正确2分,立体化学1分</td></tr><tr><td colspan="2">8.2指出C→D转化的反应类型,并画出化合物D的结构。</td></tr><tr><td colspan="2">8.2(本问4分)</td></tr><tr><td colspan="2">芳香亲电加成反应1分
+<img src="images/fa5162fe9e1f90db420ddd4ce0bf36c486752d25a48d9c677ead30484e3b565f.jpg"/>
+D3分,骨架正确2分,立体化学1分</td></tr></table>
+
+
+8.3(本问3分)
+
+TBAF的作用是作碱攫取质子,引发Kornblum-DeLaMare重排反应,使过氧键断裂生成酮和对位羟基 2分但TBAF碱性远弱于DBU,不会使右边部分乙酰基缩醛发生逆缩合的副反应 1分
+
+8.4化合物G先经过氧化重排生成中间体M,再在强碱性条件下反应生成化合物H。给出中间体M转化为化合物H的转化历程。
+
+8.4(本问7分)
+
+
+<img src="images/4680b008addb01de4499d5de936df6c6388e9384ce7ee67b9c7801cc6bb9ea74.jpg"/>
+ DBU 
+<img src="images/e733e5701a7d7ae7d7fd0bf1386483a0187b49ac32ceafd4953dc84f70a6a829.jpg"/>
+M → 
+<img src="images/48685cc47ad3f805df5c6b8887fa640fd9f41cf5d793d12b6cb26f2fa03e2e89.jpg"/>
+ 
+<img src="images/b8a78f4b6435208edd70d900304886a82a5ff01ddb03964a38d7f49936b30e0b.jpg"/>
+H的结构3分,转化历程4分
+
+8.5下图是前体A的合成路线片段:
+
+8.5(本问6分)
+
+反应中间体如下:3分
+<img src="images/336eb656ab822f03ae7480610bbcf35617a3f5e2e43601b2e5ffb14b574cbedf.jpg"/>
+ 
+<img src="images/0c3f478f215ffa1d1d7bcea8a07fd05d46b04cd2f62721a8c4489271ac3bb9bd.jpg"/>
+Y的结构:解释:化合物X中的氧原子会与Li离子发生螯合,使得重排通过椅式过渡态进行,由此C5位的构型(如上图所示)由1,3-顺式立体关系决定 3分
+
+
 
 
 ## 知识点映射

@@ -53,8 +53,11 @@ ent-类胡萝卜素是一类结构丰富的多环二萜，最早从腰澡属的�
 
 ![](images/b9bfdfdf13a6a02bc30a7a01c77f7526839fc5e27871d6bf6c09bb8a97222a52.jpg)
 
-<table><tr><td><img src="images/1488b355e66ebacdb178710039dac0a0d7669d68494bbfab3e29fdad066a4f7b.jpg"/></td><td></td></tr>
-</table>
+
+
+<img src="images/1488b355e66ebacdb178710039dac0a0d7669d68494bbfab3e29fdad066a4f7b.jpg"/>
+
+
 
 ## 知识点映射
 

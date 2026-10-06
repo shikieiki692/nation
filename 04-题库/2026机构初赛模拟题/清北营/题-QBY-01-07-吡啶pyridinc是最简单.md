@@ -68,7 +68,7 @@ source_file: "2026机构初赛模拟题/04-清北营/春季模拟1.md"
 
 7- 1 完成下列反应:
 
-<table><tr><td colspan="2"><img src="images/eb4f6ba24acfd823f260378ecab1a06dc50bc30de4ce43b127296d0317d29ffc.jpg"/></td></tr><tr><td>7-1</td><td><img src="images/9346eae74f796eb04aa8505d124e5fbf2f81ea72526b5b5eda8e6ef17df56e36.jpg"/></td></tr><tr><td colspan="2">7-2 众所周知吡啶难以发生  $S_{EAr}$ ,请给出两点理由。</td></tr><tr><td>7-2</td><td>(1) 吡啶土 N 的电负性大,使得吡啶的电子云密度低,且不平均。</td></tr></table>
+<table><tr><td colspan="2"><img src="images/eb4f6ba24acfd823f260378ecab1a06dc50bc30de4ce43b127296d0317d29ffc.jpg"/></td></tr><tr><td>7-1</td><td><img src="images/9346eae74f796eb04aa8505d124e5fbf2f81ea72526b5b5eda8e6ef17df56e36.jpg"/></td></tr><tr><td>7-2</td><td>(1) 吡啶土 N 的电负性大,使得吡啶的电子云密度低,且不平均。</td></tr></table>
 
 (2) 吡啶 N 的孤对电子容易与亲电试剂结合, 使得吡啶 N 带形式正电荷, 吡啶环更加缺电子。 7-3 一种使吡啶发生 ${\mathrm{S}}_{\mathrm{{EAr}}}$ 的方法如下面所示。给出此过程的三个中间体, 解释其高度专一的区域选择性。
 

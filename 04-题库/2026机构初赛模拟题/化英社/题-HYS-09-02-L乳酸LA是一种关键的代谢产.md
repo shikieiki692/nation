@@ -54,7 +54,7 @@ L-乳酸（LA）是一种关键的代谢产物，其异常水平可反映多种�
 研究人员将含硼酸的聚丙烯酰胺大分子可逆加成-断裂链转移（RAFT）试剂与 N-苯基丙烯酰胺（PhA）单体和偶氮引发剂共同溶于水-乙醇混合溶剂，在 $70^{\circ}$ C 下反应 2 小时，通过 PISA 得到表面硼酸功能化的球形核壳结构纳米颗粒（NPs）分散液。在 pH 7.4 磷酸盐缓冲溶液中，NP 与茜素红 S（ARS）结合形成荧光复合物 NP-ARS，吸收峰从 520 nm（来自游离 ARS）蓝移至约 470 nm（来自 NP-ARS）。
 2-1 于 $470 \mathrm{~nm}$ 处进行激发, 通过测定复合前后 $580 \mathrm{~nm}$ 处的荧光强度变化 $\Delta F_{\mathrm{ARS}}$ , 可以确定 NP 与 ARS 复合的平衡常数 $K_{\mathrm{NP-ARS}}$ 。控制 ARS 大大过量, 保持 NP 的初始浓度 $[\mathrm{NP}]_0$ 不变, 改变 ARS 的初始浓度 $[\mathrm{ARS}]_0$ , 测得 $\Delta F_{\mathrm{ARS}}$ 分别如下:
 
-<table><tr><td>$ [ARS]_{0}(\mu M) $</td><td>5</td><td>7</td><td>10</td><td>15</td><td>20</td><td>25</td><td>35</td><td>50</td></tr><tr><td>$ \Delta F_{ARS} $</td><td>40</td><td>50</td><td>64</td><td>81</td><td>92</td><td>101</td><td>114</td><td>118</td></tr></table>
+<table><tr><td>$[ARS]_{0}(\mu M)$</td><td>5</td><td>7</td><td>10</td><td>15</td><td>20</td><td>25</td><td>35</td><td>50</td></tr><tr><td>$\Delta F_{ARS}$</td><td>40</td><td>50</td><td>64</td><td>81</td><td>92</td><td>101</td><td>114</td><td>118</td></tr></table>
 
 已知 $\Delta F_{\mathrm{ARS}}$ 正比于 NP-ARS 的平衡浓度[NP-ARS], 通过线性回归计算 NP 与 ARS 复合的平衡常数 $K_{\mathrm{NP-ARS}}$ 。 (单位: $\mathbf{M}^{-1}$ )
 

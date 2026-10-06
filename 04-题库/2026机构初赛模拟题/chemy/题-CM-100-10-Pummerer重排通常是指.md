@@ -73,7 +73,35 @@ D
 
 ![](images/bde040314a53983b1b50b7d7cb1da085b847ea629e267eaacabf246f64674b77.jpg)
 
-<table><tr><td>10-1-2<img src="images/09be85191c100072502cbdc0383f0c7a568dbbe7c590c3bbf47c33c3b9f54b21.jpg"/>(2分)</td></tr><tr><td>10-2 当Pummerer重排的底物为烯基亚砜D时,原有的Pummerer重排过程将不能发生。</td></tr><tr><td><img src="images/93b712e699f99bbc448597531af72a9f20958ead9ccc6c2f359632b53151f65b.jpg"/></td></tr><tr><td>10-2-1 当R=H时,反应产物为 $C_9H_{11}F_3S_2$ ,请给出产物的结构。</td></tr><tr><td>10-2-1<img src="images/c561e4293bf6882a03d61fb8e260dbb3088bb0dbbde1721faafd08303a523c42.jpg"/></td></tr><tr><td>10-2-2 当R=C7H15时,反应仅得到了一种产物,这一实验现象暗示着这类反应通过周环反应的机理进行。请指出发生的周环反应名称,并给出生成的唯一产物结构。</td></tr><tr><td>10-2-2[3,3]σ重排(1分)<img src="images/09c192974e95f903a40a2e8c6da5f97a0abcc80717ba5a566f1e776c18cd4184.jpg"/>(1分)</td></tr><tr><td>10-2-3 苯酚与烯基亚砜D在Tf2O作用下反应得到了螺环化合物E,请给出E的结构。</td></tr><tr><td>10-2-3<img src="images/683b1d808a3f50ba9fb2330f835418c505ab0f95a2b0ebe5d5ca3d17bd72b809.jpg"/>(2分)</td></tr></table>
+
+
+10-1-2
+<img src="images/09be85191c100072502cbdc0383f0c7a568dbbe7c590c3bbf47c33c3b9f54b21.jpg"/>
+(2分)
+
+**10-2** 当Pummerer重排的底物为烯基亚砜D时,原有的Pummerer重排过程将不能发生。
+
+<img src="images/93b712e699f99bbc448597531af72a9f20958ead9ccc6c2f359632b53151f65b.jpg"/>
+
+**10-2-1** 当R=H时,反应产物为 $C_9H_{11}F_3S_2$ ,请给出产物的结构。
+
+10-2-1
+<img src="images/c561e4293bf6882a03d61fb8e260dbb3088bb0dbbde1721faafd08303a523c42.jpg"/>
+
+
+**10-2-2** 当R=C7H15时,反应仅得到了一种产物,这一实验现象暗示着这类反应通过周环反应的机理进行。请指出发生的周环反应名称,并给出生成的唯一产物结构。
+
+10-2-2[3,3]σ重排(1分)
+<img src="images/09c192974e95f903a40a2e8c6da5f97a0abcc80717ba5a566f1e776c18cd4184.jpg"/>
+(1分)
+
+**10-2-3** 苯酚与烯基亚砜D在Tf2O作用下反应得到了螺环化合物E,请给出E的结构。
+
+10-2-3
+<img src="images/683b1d808a3f50ba9fb2330f835418c505ab0f95a2b0ebe5d5ca3d17bd72b809.jpg"/>
+(2分)
+
+
 
 ![](images/1418fc4108e945c490c3ab3db398ea78242fad7023a99da5d2a540c60f9149e4.jpg)
 

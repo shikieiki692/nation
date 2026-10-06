@@ -67,7 +67,19 @@ source_file: "2026机构初赛模拟题/04-清北营/清北营2026年物化专�
 
 ## 5-3-2 计算丙酮二氯甲烷二元非理想溶液在 $40^{\circ} \mathrm{C}$ 时形成恒沸物的压力。
 
-<table><tr><td>5-1-1(5分)</td><td> $1 = {0.75} \times {0.42} \times \exp\left\lbrack {\frac{\Delta \text{vapHm}^\circ(\Lambda)}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right) }\right\rbrack + {0.25} \times {0.98} \times \exp\left\lbrack {\frac{\Delta \text{vapHm}^\circ(\mathrm{B})}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right) }\right\rbrack$ (2分)解得 T=330.4K (2分) $P_A=0.5650 \text{ bar, } P_B=0.4350 \text{ bar } y_A=0.5650$ (1分)</td></tr><tr><td>5-1-2(6分)</td><td>对于刚形成的液体有: $P_A=x_A \times {0.42} \times \exp\left[\frac{\Delta \text{vapHm}^\circ(\Lambda)}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right)\right]=0.75$ (1分) $P_B=(1-x_A) \times {0.98} \times \exp\left[\frac{\Delta \text{vapHm}^\circ(\mathrm{B})}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right)\right]=0.25$ (1分)联立解得 T=334.5K (3分) $x_A=87.4\%$ (1分)</td></tr><tr><td>5-2(5分)</td><td> $\gamma_A=\exp(A \cdot x_B^2)=1.058$ (1分) $\gamma_B=\exp(A \cdot x_A^2)=1.659$ (1分) $1=0.75 \times {0.42} \times \exp\left[\frac{\Delta \text{vapHm}^\circ(\Lambda)}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right)\right] \times \gamma_A+0.25 \times {0.98} \times \exp\left[\frac{\Delta \text{vapHm}^\circ(\mathrm{B})}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right)\right] \times \gamma_B$ (1分)解得 T=321.9K (2分)</td></tr><tr><td>5-3-1(8分)</td><td>此时  $y_A=x_A=\frac{\gamma_A x_A p_A}{\gamma_A x_A p_A^*+\gamma_B x_B p_B^*}$ (2分)移项得: $\gamma_A x_A p_A^*+\gamma_B x_B p_B^*=\gamma_A p_A^*$ (1分)再移项,并约去  $x_B=1-x_A$  $\gamma_A \cdot P_A^*= \gamma_B \cdot P_B^*$ (1分)带入  $\gamma$  的表达式,并取  $\ln: A(x_B^2-x_A^2)=\ln(P_B^*/P_A^*)$ 带入  $x_B=1-x_A$  $A(1-2x_A)=\ln(P_B^*/P_A^*)$ (2分)化简,得到  $x_A=0.5-\frac{1}{2A}\ln(P_B^*/P_A^*)$ (2分)</td></tr><tr><td>5-3-2(3分)</td><td>带入数据, $x_A=0.0293$ (1分) $p=\gamma_A x_A p_A^*+\gamma_B x_B p_B^*=0.981 \text{ atm}$ (2分)</td></tr></table>
+
+
+**5-1-1(5分)** $1 = {0.75} \times {0.42} \times \exp\left\lbrack {\frac{\Delta \text{vapHm}^\circ(\Lambda)}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right) }\right\rbrack + {0.25} \times {0.98} \times \exp\left\lbrack {\frac{\Delta \text{vapHm}^\circ(\mathrm{B})}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right) }\right\rbrack$ (2分)解得 T=330.4K (2分) $P_A=0.5650 \text{ bar, } P_B=0.4350 \text{ bar } y_A=0.5650$ (1分)
+
+**5-1-2(6分)** 对于刚形成的液体有: $P_A=x_A \times {0.42} \times \exp\left[\frac{\Delta \text{vapHm}^\circ(\Lambda)}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right)\right]=0.75$ (1分) $P_B=(1-x_A) \times {0.98} \times \exp\left[\frac{\Delta \text{vapHm}^\circ(\mathrm{B})}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right)\right]=0.25$ (1分)联立解得 T=334.5K (3分) $x_A=87.4\%$ (1分)
+
+**5-2(5分)** $\gamma_A=\exp(A \cdot x_B^2)=1.058$ (1分) $\gamma_B=\exp(A \cdot x_A^2)=1.659$ (1分) $1=0.75 \times {0.42} \times \exp\left[\frac{\Delta \text{vapHm}^\circ(\Lambda)}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right)\right] \times \gamma_A+0.25 \times {0.98} \times \exp\left[\frac{\Delta \text{vapHm}^\circ(\mathrm{B})}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right)\right] \times \gamma_B$ (1分)解得 T=321.9K (2分)
+
+**5-3-1(8分)** 此时  $y_A=x_A=\frac{\gamma_A x_A p_A}{\gamma_A x_A p_A^*+\gamma_B x_B p_B^*}$ (2分)移项得: $\gamma_A x_A p_A^*+\gamma_B x_B p_B^*=\gamma_A p_A^*$ (1分)再移项,并约去  $x_B=1-x_A$  $\gamma_A \cdot P_A^*= \gamma_B \cdot P_B^*$ (1分)带入  $\gamma$  的表达式,并取  $\ln: A(x_B^2-x_A^2)=\ln(P_B^*/P_A^*)$ 带入  $x_B=1-x_A$  $A(1-2x_A)=\ln(P_B^*/P_A^*)$ (2分)化简,得到  $x_A=0.5-\frac{1}{2A}\ln(P_B^*/P_A^*)$ (2分)
+
+**5-3-2(3分)** 带入数据, $x_A=0.0293$ (1分) $p=\gamma_A x_A p_A^*+\gamma_B x_B p_B^*=0.981 \text{ atm}$ (2分)
+
+
 
 ## 知识点映射
 

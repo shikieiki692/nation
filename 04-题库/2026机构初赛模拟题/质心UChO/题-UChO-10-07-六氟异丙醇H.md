@@ -93,7 +93,15 @@ Togni's reagent
 
 ![](images/e48d3b6f8ff87121002d7ea522c9b33f4a84971c648affe79c102f56e0511095.jpg)
 
-<table><tr><td>7-1-1(3分)</td><td>1个供体,7个受体;pKaHFIP小于异丙醇各1分,共3分</td></tr><tr><td>7-1-2(4分)</td><td><img src="images/5c9fcd05da616f176cea99f0bdf4790ac01645c11f74e3072ebd921de132bc77.jpg"/>(4分)</td></tr></table>
+
+
+**7-1-1(3分)** 1个供体,7个受体;pKaHFIP小于异丙醇各1分,共3分
+
+**7-1-2(4分)** 
+<img src="images/5c9fcd05da616f176cea99f0bdf4790ac01645c11f74e3072ebd921de132bc77.jpg"/>
+(4分)
+
+
 
 7-2 在 1,2-二氟乙烷中，氟原子的强电负性(3.98)使 C-F 键被强烈极化，导致反键轨道能量显著下降，使得 C-F 键的反键轨道成为了很好的电子受体，C-H 键成键轨道对其超共轭效应显著加强，促成了邻位交叉(Gauche)构象的稳定性。事实上，F 的强电负性以及 C-F 键的反键轨道作为电子受体的性质引起了很多理论化学家的关注。
 
@@ -101,7 +109,15 @@ Togni's reagent
 
 7-2-2 画出苄基氟 $\left(\mathrm{C}_{6}\mathrm{H}_{5}\mathrm{CH}_{2}\mathrm{F}\right)$ 的优势构象，并示出关键的轨道作用。
 
-<table><tr><td>7-2-1(3分)</td><td>C-F键p成分大,导致C-C键s成分大。(3分)</td></tr><tr><td>7-2-2(4分)</td><td><img src="images/c81fce4277891629a0d6c8486e73026a55c83f42738f64c58995f44dd3f5c0d6.jpg"/>(4分)直接文字写出 $\pi \rightarrow C—F\sigma^{*}$ 的超共轭效应也行。</td></tr></table>
+
+
+**7-2-1(3分)** C-F键p成分大,导致C-C键s成分大。(3分)
+
+**7-2-2(4分)** 
+<img src="images/c81fce4277891629a0d6c8486e73026a55c83f42738f64c58995f44dd3f5c0d6.jpg"/>
+(4分)直接文字写出 $\pi \rightarrow C—F\sigma^{*}$ 的超共轭效应也行。
+
+
 
 7-2-3 根据杂化轨道理论，两个等性杂化轨道的最大值之间的夹角 $\theta$ (一般而言可以等价于键角)与参与形成杂化轨道的s成分 $(\alpha)$ 、p成分 $(\beta)$ 的关系：
 
@@ -115,11 +131,19 @@ $$
 
 (2) 预测两根 C-F 键杂化轨道的最大值之间的夹角。
 
-<table><tr><td>7-2-3(7分)</td><td>(1) $\alpha + (1 - \alpha)\cos 113.8^{\circ} = 0$ (1分)解得 $\alpha = 0.288$ (1分)故 $CH_2F_2$ C-H键中, $s$ 成分占28.8%, $p$ 成分占71.2%,因此为 $sp^{2.5}$ 杂化。(1分)一个碳原子共形成2根C-H键和2根C-F键,因此参与C-F键的 $s$ 成分为: $s = \frac{1 - 2 \times 0.288}{1 - 2 \times 0.288 + 3 - 2 \times 0.712} = 0.212$ (1分)故C-F键中, $s$ 成分占21.2%, $p$ 成分占78.8%,因此为 $sp^{3.7}$ 杂化。(1分)(2) $0.212 + 0.788\cos\theta = 0$ (1分)代入得 $\theta = 105.6^{\circ}$ (1分)</td></tr></table>
+
+
+**7-2-3(7分)** (1) $\alpha + (1 - \alpha)\cos 113.8^{\circ} = 0$ (1分)解得 $\alpha = 0.288$ (1分)故 $CH_2F_2$ C-H键中, $s$ 成分占28.8%, $p$ 成分占71.2%,因此为 $sp^{2.5}$ 杂化。(1分)一个碳原子共形成2根C-H键和2根C-F键,因此参与C-F键的 $s$ 成分为: $s = \frac{1 - 2 \times 0.288}{1 - 2 \times 0.288 + 3 - 2 \times 0.712} = 0.212$ (1分)故C-F键中, $s$ 成分占21.2%, $p$ 成分占78.8%,因此为 $sp^{3.7}$ 杂化。(1分)(2) $0.212 + 0.788\cos\theta = 0$ (1分)代入得 $\theta = 105.6^{\circ}$ (1分)
+
+
 
 7-2-4 将 7-2-3 中计算得到的 F-C-F 夹角与偕二氟亚甲基 F-C-F 实际键角 $104^{\circ}$ 对比，解释为什么偕二氟亚甲基( $—CF_{2}—$ )可以作为羰基( $—CO—$ )的电子等排体？
 
-<table><tr><td>7-2-4(4分)</td><td>偕二甲基效应; $n_{\text{F}} \rightarrow \sigma_{\text{C-F}}^{*}$ 超共轭各2分,共4分</td></tr></table>
+
+
+**7-2-4(4分)** 偕二甲基效应; $n_{\text{F}} \rightarrow \sigma_{\text{C-F}}^{*}$ 超共轭各2分,共4分
+
+
 
 7-3 Umemoto 试剂和 Togni 试剂是目前最重要的亲电三氟甲基化试剂(提供 $\mathrm{CF}_3^+$ )，可实现多种底物的三氟甲基化，若与其他反应串联，可完成底物骨架上的改变。
 
@@ -133,13 +157,27 @@ Togni's reagent
 
 ![](images/e5483a4f0febc4e56b4cff533050af0664b399d24cbf8bbd6427c0dcdb99ac18.jpg)
 
-<table><tr><td>7-3-1(6分)</td><td><img src="images/70dc8eef575873f51147f5f88b738805e56378a5cac1ed0818a457ea68a1d9a2.jpg"/> <img src="images/4916772fc538fbbbb2875450dd76184abbe7fb5c03fd98c3fceee80520988462.jpg"/>M N各3分,共6分</td></tr></table>
+
+
+**7-3-1(6分)** 
+<img src="images/70dc8eef575873f51147f5f88b738805e56378a5cac1ed0818a457ea68a1d9a2.jpg"/>
+ 
+<img src="images/4916772fc538fbbbb2875450dd76184abbe7fb5c03fd98c3fceee80520988462.jpg"/>
+M N各3分,共6分
+
+
 
 7-3-2 Togni 试剂可完成缺电子芳环 2 的三氟甲基化，官能团兼容性高。写出下列反应的主产物 K。
 
 ![](images/525fad4ead67b358c6dc36b374078bef064e260a415d3c493da783a5caa43520.jpg)
 
-<table><tr><td>7-3-2(3分)</td><td><img src="images/bf6afce03f12e0f241f1a6a2b217f2175b8b6e3065283b2f80ee590370e3ab4b.jpg"/>3分</td></tr></table>
+
+
+**7-3-2(3分)** 
+<img src="images/bf6afce03f12e0f241f1a6a2b217f2175b8b6e3065283b2f80ee590370e3ab4b.jpg"/>
+3分
+
+
 
 7-4 氟离子可催化苯甲醛 3 和苯基羟胺 4 合成酰胺 5，该方法实现了无金属催化下的酰胺合成。若将 3 替换为酮，底物将无法转化；若未投料碱(KOH)，原料完全回收。为下列反应提供至少 4 个关键中间体。(提示：反应机理经过了三元环中间体)
 

@@ -85,7 +85,31 @@ source_file: "2026机构初赛模拟题/07-化英社/第40届化英社化学奥�
 
 ### 第8题 醇醛酯的互相转化（20分，占 $12\%$ ）
 ![](images/1d223283ab761bab77b5bd4d088fe65b70c59ccc98ba0c5413a1dcc4a7746cfa.jpg)
-<table><tr><td>8-1(思考题,不计入总分)列举出上述反应体系中可能发生的常见副反应(至少两个)。羟醛缩合,Cannizzaro 反应,Meenvein-Ponndorf-Verley 还原反应,Oppenauer 氧化反应Tishchenko 反应的一种变体是 aldol-Tishchenko 反应:</td></tr><tr><td><img src="images/a12b27a4a32db9a67457f615985aa8e3440e0e87232f10f7ca705fef74c15dd8.jpg"/></td></tr><tr><td>8-2 根据你对以上反应的理解,画出以下反应所经历的关键中间体,注意立体化学,其中 Sm 金属部分可用[Sm]简化表示。</td></tr><tr><td><img src="images/cd69be1aec651e29e9146cf44ebf21e64210817dd13028c14daf0589a48de768.jpg"/></td></tr><tr><td>8-3 该拓展反应常应用于构造多醇骨架:</td></tr><tr><td><img src="images/cd3ed4f7ac63bd2c9563f44cae3340f1fcd62ab6ed465a0bf3198edca084c2ca.jpg"/></td></tr><tr><td>8-3-1 该反应中最少要消耗多少当量的甲醛(不考虑其他副反应)。</td></tr><tr><td>2 当量(1 当量用于羟醛缩合+1 当量用于 Tishchenko 反应)(1 分)</td></tr><tr><td>8-3-2 画出反应所经历的关键中间体,作答时可按方框中的简化方式。</td></tr><tr><td><img src="images/b578119dae8bca1bbe7e2db6bd843471014837c7218c94976b3f34790b409be2.jpg"/></td></tr><tr><td>8-4 研究团队尝试利用底物 D 来探究不同条件下其反应性,其结构如下所示。</td></tr></table>
+
+
+8-1(思考题,不计入总分)列举出上述反应体系中可能发生的常见副反应(至少两个)。羟醛缩合,Cannizzaro 反应,Meenvein-Ponndorf-Verley 还原反应,Oppenauer 氧化反应Tishchenko 反应的一种变体是 aldol-Tishchenko 反应:
+
+<img src="images/a12b27a4a32db9a67457f615985aa8e3440e0e87232f10f7ca705fef74c15dd8.jpg"/>
+
+**8-2** 根据你对以上反应的理解,画出以下反应所经历的关键中间体,注意立体化学,其中 Sm 金属部分可用[Sm]简化表示。
+
+<img src="images/cd69be1aec651e29e9146cf44ebf21e64210817dd13028c14daf0589a48de768.jpg"/>
+
+**8-3** 该拓展反应常应用于构造多醇骨架:
+
+<img src="images/cd3ed4f7ac63bd2c9563f44cae3340f1fcd62ab6ed465a0bf3198edca084c2ca.jpg"/>
+
+**8-3-1** 该反应中最少要消耗多少当量的甲醛(不考虑其他副反应)。
+
+2 当量(1 当量用于羟醛缩合+1 当量用于 Tishchenko 反应)(1 分)
+
+**8-3-2** 画出反应所经历的关键中间体,作答时可按方框中的简化方式。
+
+<img src="images/b578119dae8bca1bbe7e2db6bd843471014837c7218c94976b3f34790b409be2.jpg"/>
+
+**8-4** 研究团队尝试利用底物 D 来探究不同条件下其反应性,其结构如下所示。
+
+
 ![](images/063362c54168854810219eb6773c943d29cea4903ddca6cc0a15f2e48d94044b.jpg)
 ![](images/fe1b916dffa54b43ab2cac3d53c4aee38504263db87935c2a779ac65fe91ae44.jpg)
 $$

@@ -75,7 +75,7 @@ source_file: "2026机构初赛模拟题/07-化英社/春季模拟试题9试题-�
 ![](images/f237d9e5239a71fbf5b072dfcaf93a1e8656a1da7c273cd97d1e0f012e27b975.jpg)
 ![](images/050e0eff803337c56221fba3a1edab479bd0e492f30bf85fe95aa861080eb07e.jpg)
 7-1-2 产物中含顺式并环结构。
-![](images/3403f5236733af0c09d89d858dccbebb97b133e7c19e17a19d889802ee5d5771.jpg)
+
 ![](images/60935d7eba3d8c045e27026ec7eba89d32227a15dd387ec24016036c7cd7aa39.jpg)
 ![](images/c264f3cd9e697f3196695975287cf2ab899231f02afba57e40059cfaece29bbf.jpg)
 (2 分)
