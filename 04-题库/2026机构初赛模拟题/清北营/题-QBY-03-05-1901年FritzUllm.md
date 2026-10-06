@@ -138,7 +138,7 @@ Int-R-a 和 Int-R-b 的生成机理研究 为了探究上述中间体是经过 5
 
 5-2 写出 O 和 $P_{1}$ 的化学式。
 
-<table><tr><td rowspan="2">5-1</td><td><img src="images/84eba556c2e10453072032ef7c166f3060f365e29ef8e019e30b1557bbc84654.jpg"/></td><td> $L_n - Cu^{II} - Nu$ </td><td> $[ArX]^{-}$ </td><td> $\begin{array}{c} X \\ | \\ Cu^{II} \\ | \\ N u \\ | \\ C_1 \\ | \\ L_n \end{array} \cdot Ar$ </td></tr><tr><td>A</td><td> $B_1$ </td><td> $B_2$ </td><td> $C_1$   $C_2$ </td></tr><tr><td>5-2</td><td colspan="4">O的化学式: $[Ph_4P][Cu(CF_3)_2]$  $P_1$ 的化学式: $Cu(bipy)(CF_3)$ </td></tr></table>
+<table><tr><td rowspan="2">5-1</td><td><img src="images/84eba556c2e10453072032ef7c166f3060f365e29ef8e019e30b1557bbc84654.jpg"/></td><td> $L_n - Cu^{II} - Nu$ </td><td> $[ArX]^{-}$ </td><td> ![[4ead61bd211a57aa959681debe35f47b1ca8a98810e860a11c2b032e88e7b3af.png]] </td></tr><tr><td>A</td><td> $B_1$ </td><td> $B_2$ </td><td> $C_1$   $C_2$ </td></tr><tr><td>5-2</td><td colspan="4">O的化学式: $[Ph_4P][Cu(CF_3)_2]$  $P_1$ 的化学式: $Cu(bipy)(CF_3)$ </td></tr></table>
 
 5-3 在溶液中， $P_{1}$ 可以异构化为离子化合物 $P_{2}$ ，其中阴阳离子中的 Cu 的配位数不同。
 
