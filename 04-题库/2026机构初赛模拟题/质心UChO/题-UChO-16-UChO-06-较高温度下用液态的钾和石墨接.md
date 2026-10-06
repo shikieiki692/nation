@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-16-UChO-06-较高温度下用液态的钾和石墨接"
-aliases: ["题-UChO-16-UChO"]
+aliases: ["题-UChO-16-UChO·1stZCHEMUChO-5"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

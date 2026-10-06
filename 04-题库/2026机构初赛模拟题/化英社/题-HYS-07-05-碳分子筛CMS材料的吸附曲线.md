@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-07-05-碳分子筛CMS材料的吸附曲线"
-aliases: ["题-HYS-07-05"]
+aliases: ["题-HYS-07-05·夏季初赛模拟7"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

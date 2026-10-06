@@ -1,6 +1,6 @@
 ---
 title: "题-HZ-01-06-CuI由于具有灵活多变的配位"
-aliases: ["题-HZ-01-06"]
+aliases: ["题-HZ-01-06·长沙刷初赛模拟1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

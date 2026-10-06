@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-16-UChO-02-钽试剂N苯甲酰N苯基羟胺BH"
-aliases: ["题-UChO-16-UChO"]
+aliases: ["题-UChO-16-UChO·1stZCHEMUChO"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

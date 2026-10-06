@@ -1,6 +1,6 @@
 ---
 title: "题-QBY-06-04-足球烯Fullerene是一"
-aliases: ["题-QBY-06-04"]
+aliases: ["题-QBY-06-04·春季模拟6"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

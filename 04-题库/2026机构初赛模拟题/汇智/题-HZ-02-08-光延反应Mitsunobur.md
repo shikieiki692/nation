@@ -1,6 +1,6 @@
 ---
 title: "题-HZ-02-08-光延反应Mitsunobur"
-aliases: ["题-HZ-02-08"]
+aliases: ["题-HZ-02-08·长沙冲刺综合2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

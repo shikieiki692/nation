@@ -1,6 +1,6 @@
 ---
 title: "题-QBY-02-09-闪式真空热解FVP是一种在真"
-aliases: ["题-QBY-02-09"]
+aliases: ["题-QBY-02-09·2026年寒假班2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

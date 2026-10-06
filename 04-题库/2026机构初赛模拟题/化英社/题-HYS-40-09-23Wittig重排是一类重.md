@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-40-09-23Wittig重排是一类重"
-aliases: ["题-HYS-40-09"]
+aliases: ["题-HYS-40-09·春季联考6final"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

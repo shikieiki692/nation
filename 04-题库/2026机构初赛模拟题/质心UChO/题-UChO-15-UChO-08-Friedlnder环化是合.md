@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-15-UChO-08-Friedlnder环化是合"
-aliases: ["题-UChO-15-UChO"]
+aliases: ["题-UChO-15-UChO·10thZCHEMUChO-7"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

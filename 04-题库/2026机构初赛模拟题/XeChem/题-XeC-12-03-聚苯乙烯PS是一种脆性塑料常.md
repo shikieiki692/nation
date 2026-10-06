@@ -1,6 +1,6 @@
 ---
 title: "题-XeC-12-03-聚苯乙烯PS是一种脆性塑料常"
-aliases: ["题-XeC-12-03"]
+aliases: ["题-XeC-12-03·12"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

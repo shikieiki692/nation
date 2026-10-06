@@ -1,6 +1,6 @@
 ---
 title: "题-GM-01-02-实验人员将和过量NaOH溶液"
-aliases: ["题-GM-01-02"]
+aliases: ["题-GM-01-02·2026年暑期模拟1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

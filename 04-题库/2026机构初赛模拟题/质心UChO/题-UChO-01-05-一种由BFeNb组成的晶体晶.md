@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-01-05-一种由BFeNb组成的晶体晶"
-aliases: ["题-UChO-01-05"]
+aliases: ["题-UChO-01-05·7thZCHEMUChOTour1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

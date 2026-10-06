@@ -1,6 +1,6 @@
 ---
 title: "题-HZ-04-05-化学中很多氧化反应与OATo"
-aliases: ["题-HZ-04-05"]
+aliases: ["题-HZ-04-05·长沙冲刺综合4"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

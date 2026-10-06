@@ -1,6 +1,6 @@
 ---
 title: "题-YJ-01-05-Claisen重排最早由Cl"
-aliases: ["题-YJ-01-05"]
+aliases: ["题-YJ-01-05·模拟测1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

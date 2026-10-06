@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-07-04-近日JessCampos课题"
-aliases: ["题-HYS-07-04"]
+aliases: ["题-HYS-07-04·夏季初赛模拟7"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

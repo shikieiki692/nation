@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-40-07-单原子催化剂SACs通过将金"
-aliases: ["题-HYS-40-07"]
+aliases: ["题-HYS-40-07·初赛计算与实验"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

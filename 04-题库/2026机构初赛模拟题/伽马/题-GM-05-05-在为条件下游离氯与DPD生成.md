@@ -1,6 +1,6 @@
 ---
 title: "题-GM-05-05-在为条件下游离氯与DPD生成"
-aliases: ["题-GM-05-05"]
+aliases: ["题-GM-05-05·五一杭州5"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

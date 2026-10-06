@@ -1,6 +1,6 @@
 ---
 title: "题-FY-01-08-81Masahiro课题组开"
-aliases: ["题-FY-01-08"]
+aliases: ["题-FY-01-08·卷二1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-17-UChO-04-411960年Wacker开"
-aliases: ["题-UChO-17-UChO"]
+aliases: ["题-UChO-17-UChO·2ndZCHEMUChO-2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

@@ -1,6 +1,6 @@
 ---
 title: "题-GM-02-08-生物碱Acutumine最初"
-aliases: ["题-GM-02-08"]
+aliases: ["题-GM-02-08·2026年暑期模拟2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

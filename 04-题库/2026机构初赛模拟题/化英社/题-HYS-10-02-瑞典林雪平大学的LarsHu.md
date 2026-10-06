@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-10-02-瑞典林雪平大学的LarsHu"
-aliases: ["题-HYS-10-02"]
+aliases: ["题-HYS-10-02·夏季初赛模拟10"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

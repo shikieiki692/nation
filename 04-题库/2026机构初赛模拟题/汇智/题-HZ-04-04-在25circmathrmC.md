@@ -1,6 +1,6 @@
 ---
 title: "题-HZ-04-04-在25circmathrmC"
-aliases: ["题-HZ-04-04"]
+aliases: ["题-HZ-04-04·起航五一初赛模拟4"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

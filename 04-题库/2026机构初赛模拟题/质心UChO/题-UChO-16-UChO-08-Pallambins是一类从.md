@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-16-UChO-08-Pallambins是一类从"
-aliases: ["题-UChO-16-UChO"]
+aliases: ["题-UChO-16-UChO·1stZCHEMUChO-7"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

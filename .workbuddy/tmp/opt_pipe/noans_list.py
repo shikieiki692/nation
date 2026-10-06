@@ -15,8 +15,9 @@ BASE = '04-题库/2026机构初赛模拟题'
 SRCS = ['化英社', '清北营', 'chemy', '伽马', '壹尖培优', '汇智', 'XeChem',
         '质心GChO', '质心UChO', '方圆', '一式', '北京夏令营', '2ChO']
 
-# 明示「源池没有答案」的占位标记（只认真正的无答案声明）
-PH = re.compile(r'⛔|源池(无|仅|未见)')
+# 明示「源池没有答案」的占位标记（⚠️ 含「校勘」的行先剔除——那是有答案卡的校勘注，非无答案）
+PH = re.compile(r'源池(无|仅|未见)|源答案缺失|源无答案|无独立文字答案|答案缺失|题答逐问交错'
+                r'|云端 ?OCR 产物的公式与配图保持原样|未逐字校对|源确缺答案')
 
 
 def get_fm(t, key):
@@ -57,14 +58,20 @@ for r in SRCS:
         t = open(p, encoding='utf-8-sig').read().replace('\r\n', '\n')
         a = ans_sec(t)
         has_img = bool(re.search(r'!\[|<img', a))
-        an = strip_marks(a)
+        # 剔除「校勘」行 与「占位声明」行后，看还剩多少实质文字
+        keep = []
+        for l in a.split('\n'):
+            if '校勘' in l:
+                continue
+            if PH.search(l):
+                continue
+            keep.append(l)
+        a_pure = '\n'.join(keep)
+        an = strip_marks(a_pure)
         cat = None
-        if PH.search(a):
-            cat = 'PH占位'
+        if len(an) < 12 and not has_img:
+            cat = 'EMPTY无实质答案'
             cnt_ph[r] += 1
-        elif len(an) < 12 and not has_img:
-            cat = 'EMPTY真空'
-            cnt_noph[r] += 1
         if cat:
             rows.append(dict(
                 inst=r,

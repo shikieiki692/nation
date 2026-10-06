@@ -1,6 +1,6 @@
 ---
 title: "题-BJLY-09-有机综合-06-Pummerer重排是用乙酸"
-aliases: ["题-BJLY-09-有机综合"]
+aliases: ["题-BJLY-09-有机综合·有机综合-5"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

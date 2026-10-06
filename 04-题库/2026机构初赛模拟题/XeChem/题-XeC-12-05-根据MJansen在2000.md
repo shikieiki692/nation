@@ -1,6 +1,6 @@
 ---
 title: "题-XeC-12-05-根据MJansen在2000"
-aliases: ["题-XeC-12-05"]
+aliases: ["题-XeC-12-05·Xechem模拟三（晶体）"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

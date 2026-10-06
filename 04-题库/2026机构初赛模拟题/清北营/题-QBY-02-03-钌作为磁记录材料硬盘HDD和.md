@@ -1,6 +1,6 @@
 ---
 title: "题-QBY-02-03-钌作为磁记录材料硬盘HDD和"
-aliases: ["题-QBY-02-03"]
+aliases: ["题-QBY-02-03·2026年寒假班2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

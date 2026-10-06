@@ -1,6 +1,6 @@
 ---
 title: "题-GM-01-08-以下为天然产物Guignar"
-aliases: ["题-GM-01-08"]
+aliases: ["题-GM-01-08·2026年暑期模拟1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

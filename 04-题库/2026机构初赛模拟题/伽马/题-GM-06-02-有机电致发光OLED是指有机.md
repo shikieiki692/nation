@@ -1,6 +1,6 @@
 ---
 title: "题-GM-06-02-有机电致发光OLED是指有机"
-aliases: ["题-GM-06-02"]
+aliases: ["题-GM-06-02·五一杭州6"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

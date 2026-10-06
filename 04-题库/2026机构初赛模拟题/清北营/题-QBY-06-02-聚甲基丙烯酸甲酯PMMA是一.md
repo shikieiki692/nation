@@ -1,6 +1,6 @@
 ---
 title: "题-QBY-06-02-聚甲基丙烯酸甲酯PMMA是一"
-aliases: ["题-QBY-06-02"]
+aliases: ["题-QBY-06-02·2026年暑假高二班6"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

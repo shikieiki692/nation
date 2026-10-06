@@ -1,6 +1,6 @@
 ---
 title: "题-GM-04-01-短周期元素ABC和D两两之间"
-aliases: ["题-GM-04-01"]
+aliases: ["题-GM-04-01·五一杭州4"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

@@ -1,6 +1,6 @@
 ---
 title: "题-GM-06-01-对于RichardTurne"
-aliases: ["题-GM-06-01"]
+aliases: ["题-GM-06-01·五一杭州6"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

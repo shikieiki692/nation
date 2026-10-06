@@ -1,6 +1,6 @@
 ---
 title: "题-FY-01-02-金属有机框架MetalOrg"
-aliases: ["题-FY-01-02"]
+aliases: ["题-FY-01-02·卷一1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-01-03-氯代碳酸乙烯酯CEC是合成碳"
-aliases: ["题-HYS-01-03"]
+aliases: ["题-HYS-01-03·春季联考1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

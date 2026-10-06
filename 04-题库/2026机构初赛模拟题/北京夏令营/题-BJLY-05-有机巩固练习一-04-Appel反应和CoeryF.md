@@ -1,6 +1,6 @@
 ---
 title: "题-BJLY-05-有机巩固练习一-04-Appel反应和CoeryF"
-aliases: ["题-BJLY-05-有机巩固练习一"]
+aliases: ["题-BJLY-05-有机巩固练习一·有机巩固练习一-3"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

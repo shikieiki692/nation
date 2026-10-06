@@ -1,6 +1,6 @@
 ---
 title: "题-CM-21-05-作为一种温室气体mathrm"
-aliases: ["题-CM-21-05"]
+aliases: ["题-CM-21-05·15套卷21"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

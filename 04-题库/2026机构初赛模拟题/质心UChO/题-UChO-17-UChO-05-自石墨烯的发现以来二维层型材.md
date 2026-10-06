@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-17-UChO-05-自石墨烯的发现以来二维层型材"
-aliases: ["题-UChO-17-UChO"]
+aliases: ["题-UChO-17-UChO·2ndZCHEMUChO-3"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-02-06-众所周知ZCHEM考试是有传"
-aliases: ["题-UChO-02-06"]
+aliases: ["题-UChO-02-06·3rdZCHEMUChOTour2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

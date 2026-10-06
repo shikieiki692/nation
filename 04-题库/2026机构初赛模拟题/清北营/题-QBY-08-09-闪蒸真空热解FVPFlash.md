@@ -1,6 +1,6 @@
 ---
 title: "题-QBY-08-09-闪蒸真空热解FVPFlash"
-aliases: ["题-QBY-08-09"]
+aliases: ["题-QBY-08-09·春季模拟8"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

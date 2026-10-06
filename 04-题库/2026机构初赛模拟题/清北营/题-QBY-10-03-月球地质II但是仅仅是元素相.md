@@ -1,6 +1,6 @@
 ---
 title: "题-QBY-10-03-月球地质II但是仅仅是元素相"
-aliases: ["题-QBY-10-03"]
+aliases: ["题-QBY-10-03·春季模拟10"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

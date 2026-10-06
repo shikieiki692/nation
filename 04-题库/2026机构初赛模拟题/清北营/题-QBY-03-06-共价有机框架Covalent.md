@@ -1,6 +1,6 @@
 ---
 title: "题-QBY-03-06-共价有机框架Covalent"
-aliases: ["题-QBY-03-06"]
+aliases: ["题-QBY-03-06·春季模拟3"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

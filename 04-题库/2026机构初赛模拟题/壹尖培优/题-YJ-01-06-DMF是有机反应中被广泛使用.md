@@ -1,6 +1,6 @@
 ---
 title: "题-YJ-01-06-DMF是有机反应中被广泛使用"
-aliases: ["题-YJ-01-06"]
+aliases: ["题-YJ-01-06·模拟测1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

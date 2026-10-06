@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-16-UChO-03-31现拟采用催化氧化的方法制"
-aliases: ["题-UChO-16-UChO"]
+aliases: ["题-UChO-16-UChO·1stZCHEMUChO-2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

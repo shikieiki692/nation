@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-17-UChO-06-化合物A为某无色晶体易溶于水"
-aliases: ["题-UChO-17-UChO"]
+aliases: ["题-UChO-17-UChO·2ndZCHEMUChO-4"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

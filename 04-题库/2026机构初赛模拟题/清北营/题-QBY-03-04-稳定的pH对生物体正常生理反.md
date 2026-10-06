@@ -1,6 +1,6 @@
 ---
 title: "题-QBY-03-04-稳定的pH对生物体正常生理反"
-aliases: ["题-QBY-03-04"]
+aliases: ["题-QBY-03-04·2026年寒假班3"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

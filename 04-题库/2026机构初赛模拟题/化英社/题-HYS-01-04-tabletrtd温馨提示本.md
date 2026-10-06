@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-01-04-tabletrtd温馨提示本"
-aliases: ["题-HYS-01-04"]
+aliases: ["题-HYS-01-04·决赛夏季模拟1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

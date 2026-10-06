@@ -1,6 +1,6 @@
 ---
 title: "题-HZ-02-09-前列腺素prostaglan"
-aliases: ["题-HZ-02-09"]
+aliases: ["题-HZ-02-09·起航2026年五一期间有机初赛模拟卷2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

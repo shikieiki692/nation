@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-05-03-原子转移自由基聚合ATRP是"
-aliases: ["题-HYS-05-03"]
+aliases: ["题-HYS-05-03·初赛夏季模拟5"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

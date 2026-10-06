@@ -1,6 +1,6 @@
 ---
 title: "题-YJ-02-08-红花五味子中分离的Rubri"
-aliases: ["题-YJ-02-08"]
+aliases: ["题-YJ-02-08·模拟测2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

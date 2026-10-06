@@ -1,6 +1,6 @@
 ---
 title: "题-FY-01-04-多环芳烃PAHs是大气污染物"
-aliases: ["题-FY-01-04"]
+aliases: ["题-FY-01-04·卷一1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

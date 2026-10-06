@@ -1,6 +1,6 @@
 ---
 title: "题-QBY-04-05-二茂铁具有芳香性可发生Fri"
-aliases: ["题-QBY-04-05"]
+aliases: ["题-QBY-04-05·2026年暑假高二班4"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

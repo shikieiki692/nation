@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-02-06-孟山都公司MonsantoC"
-aliases: ["题-HYS-02-06"]
+aliases: ["题-HYS-02-06·夏季初赛模拟2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

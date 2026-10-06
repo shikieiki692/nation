@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-02-07-天然产物Clionastat"
-aliases: ["题-UChO-02-07"]
+aliases: ["题-UChO-02-07·4thZCHEMUChOTour2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

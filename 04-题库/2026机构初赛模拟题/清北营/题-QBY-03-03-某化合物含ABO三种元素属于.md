@@ -1,6 +1,6 @@
 ---
 title: "题-QBY-03-03-某化合物含ABO三种元素属于"
-aliases: ["题-QBY-03-03"]
+aliases: ["题-QBY-03-03·2026年寒假班3"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

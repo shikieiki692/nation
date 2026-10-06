@@ -1,6 +1,6 @@
 ---
 title: "题-HZ-01-09-Mitsunobu反应是一类"
-aliases: ["题-HZ-01-09"]
+aliases: ["题-HZ-01-09·长沙刷初赛模拟1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

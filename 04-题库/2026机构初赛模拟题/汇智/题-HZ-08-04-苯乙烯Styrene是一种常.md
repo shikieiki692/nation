@@ -1,6 +1,6 @@
 ---
 title: "题-HZ-08-04-苯乙烯Styrene是一种常"
-aliases: ["题-HZ-08-04"]
+aliases: ["题-HZ-08-04·长沙刷初赛模拟8"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

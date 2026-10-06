@@ -1,6 +1,6 @@
 ---
 title: "题-BJLY-07-有机巩固练习二-05-mathrmAmathrmC"
-aliases: ["题-BJLY-07-有机巩固练习二"]
+aliases: ["题-BJLY-07-有机巩固练习二·有机巩固练习二-4"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

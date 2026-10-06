@@ -1,6 +1,6 @@
 ---
 title: "题-FY-02-07-质子泵抑制剂PPI是目前治疗"
-aliases: ["题-FY-02-07"]
+aliases: ["题-FY-02-07·有机讲解2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

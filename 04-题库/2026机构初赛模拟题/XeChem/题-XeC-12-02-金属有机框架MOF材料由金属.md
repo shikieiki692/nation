@@ -1,6 +1,6 @@
 ---
 title: "题-XeC-12-02-金属有机框架MOF材料由金属"
-aliases: ["题-XeC-12-02"]
+aliases: ["题-XeC-12-02·12"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

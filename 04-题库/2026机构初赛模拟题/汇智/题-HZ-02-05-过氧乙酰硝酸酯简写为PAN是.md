@@ -1,6 +1,6 @@
 ---
 title: "题-HZ-02-05-过氧乙酰硝酸酯简写为PAN是"
-aliases: ["题-HZ-02-05"]
+aliases: ["题-HZ-02-05·长沙冲刺综合2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

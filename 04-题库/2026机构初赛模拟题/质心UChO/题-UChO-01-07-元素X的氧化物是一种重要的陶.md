@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-01-07-元素X的氧化物是一种重要的陶"
-aliases: ["题-UChO-01-07"]
+aliases: ["题-UChO-01-07·3rdZCHEMUChOTour1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

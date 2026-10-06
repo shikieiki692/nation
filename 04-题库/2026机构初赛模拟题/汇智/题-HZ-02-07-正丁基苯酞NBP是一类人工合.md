@@ -1,6 +1,6 @@
 ---
 title: "题-HZ-02-07-正丁基苯酞NBP是一类人工合"
-aliases: ["题-HZ-02-07"]
+aliases: ["题-HZ-02-07·起航五一初赛模拟2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

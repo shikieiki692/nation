@@ -1,6 +1,6 @@
 ---
 title: "题-CM-10-05-beginarrayrlMP"
-aliases: ["题-CM-10-05"]
+aliases: ["题-CM-10-05·15套卷10"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

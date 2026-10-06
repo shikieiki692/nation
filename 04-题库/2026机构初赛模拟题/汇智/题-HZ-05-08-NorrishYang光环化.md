@@ -1,6 +1,6 @@
 ---
 title: "题-HZ-05-08-NorrishYang光环化"
-aliases: ["题-HZ-05-08"]
+aliases: ["题-HZ-05-08·长沙冲刺综合5"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

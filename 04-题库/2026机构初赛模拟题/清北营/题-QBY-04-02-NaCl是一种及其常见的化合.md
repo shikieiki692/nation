@@ -1,6 +1,6 @@
 ---
 title: "题-QBY-04-02-NaCl是一种及其常见的化合"
-aliases: ["题-QBY-04-02"]
+aliases: ["题-QBY-04-02·2026年暑假高二班4"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

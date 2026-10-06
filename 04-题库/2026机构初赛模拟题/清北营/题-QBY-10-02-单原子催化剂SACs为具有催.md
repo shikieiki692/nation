@@ -1,6 +1,6 @@
 ---
 title: "题-QBY-10-02-单原子催化剂SACs为具有催"
-aliases: ["题-QBY-10-02"]
+aliases: ["题-QBY-10-02·春季模拟10"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

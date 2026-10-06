@@ -1,6 +1,6 @@
 ---
 title: "题-BJLY-06-有机巩固练习三-04-化合物A是合成天然产物Lyc"
-aliases: ["题-BJLY-06-有机巩固练习三"]
+aliases: ["题-BJLY-06-有机巩固练习三·有机巩固练习三-3"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

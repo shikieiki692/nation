@@ -1,6 +1,6 @@
 ---
 title: "题-BJLY-06-有机巩固练习三-03-如下环化反应被称之为Haus"
-aliases: ["题-BJLY-06-有机巩固练习三"]
+aliases: ["题-BJLY-06-有机巩固练习三·有机巩固练习三-2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

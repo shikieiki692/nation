@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-02-04-由LuMnO三种元素组成的晶"
-aliases: ["题-UChO-02-04"]
+aliases: ["题-UChO-02-04·9thZCHEMUChOTour2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

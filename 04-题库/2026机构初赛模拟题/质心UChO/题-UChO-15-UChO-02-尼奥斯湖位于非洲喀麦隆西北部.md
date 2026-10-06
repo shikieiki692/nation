@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-15-UChO-02-尼奥斯湖位于非洲喀麦隆西北部"
-aliases: ["题-UChO-15-UChO"]
+aliases: ["题-UChO-15-UChO·10thZCHEMUChO"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4
@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "质心UChO-10thZCHEM-UChO"
 source_file: "2026机构初赛模拟题/02-质心UChO/10thZCHEM-UChO.md"
+quality_warning: "源确缺答案（源资料无本题解答，2026-10-06 核验）；组卷不可用"
 ---
 
 # 题-UChO-10thZCHEM-UChO-02-尼奥斯湖位于非洲喀麦隆西北部
@@ -47,7 +48,7 @@ source_file: "2026机构初赛模拟题/02-质心UChO/10thZCHEM-UChO.md"
 
 ## 参考答案
 
-⛔ **源池无本题答案**：本卷在源池全部文件中均未定位到本题解答（仅有题干），非提取遗漏。
+⛔ **源确缺答案**：源资料中确无本题解答（2026-10-06 逐卷核验，非提取遗漏）；本卡不可组卷，如需答案请另找外部资料。
 
 ## 知识点映射
 

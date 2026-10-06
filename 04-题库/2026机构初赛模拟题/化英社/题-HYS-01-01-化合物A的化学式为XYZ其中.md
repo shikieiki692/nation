@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-01-01-化合物A的化学式为XYZ其中"
-aliases: ["题-HYS-01-01"]
+aliases: ["题-HYS-01-01·春季联考1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

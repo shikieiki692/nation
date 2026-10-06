@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-01-07-有机小分子催化剂X可催化如下"
-aliases: ["题-UChO-01-07"]
+aliases: ["题-UChO-01-07·4thZCHEMUChOTour1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

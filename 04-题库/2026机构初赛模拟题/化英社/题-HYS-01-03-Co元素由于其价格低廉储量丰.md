@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-01-03-Co元素由于其价格低廉储量丰"
-aliases: ["题-HYS-01-03"]
+aliases: ["题-HYS-01-03·寒假初赛模拟1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

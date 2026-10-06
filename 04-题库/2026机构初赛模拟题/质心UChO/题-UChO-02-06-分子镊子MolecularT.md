@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-02-06-分子镊子MolecularT"
-aliases: ["题-UChO-02-06"]
+aliases: ["题-UChO-02-06·8thZCHEMUChOTour2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

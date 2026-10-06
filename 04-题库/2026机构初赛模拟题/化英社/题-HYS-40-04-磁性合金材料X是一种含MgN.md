@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-40-04-磁性合金材料X是一种含MgN"
-aliases: ["题-HYS-40-04"]
+aliases: ["题-HYS-40-04·春季联考6final"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

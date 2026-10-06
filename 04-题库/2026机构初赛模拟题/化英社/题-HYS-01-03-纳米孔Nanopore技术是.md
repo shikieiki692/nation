@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-01-03-纳米孔Nanopore技术是"
-aliases: ["题-HYS-01-03"]
+aliases: ["题-HYS-01-03·决赛模拟1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

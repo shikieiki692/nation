@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-01-02-酿氢醒电极QQH是一个对pH"
-aliases: ["题-HYS-01-02"]
+aliases: ["题-HYS-01-02·夏季模拟1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

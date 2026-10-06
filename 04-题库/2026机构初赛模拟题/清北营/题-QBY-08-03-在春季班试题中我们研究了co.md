@@ -1,6 +1,6 @@
 ---
 title: "题-QBY-08-03-在春季班试题中我们研究了co"
-aliases: ["题-QBY-08-03"]
+aliases: ["题-QBY-08-03·春季模拟8"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

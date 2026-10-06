@@ -1,6 +1,6 @@
 ---
 title: "题-YJ-02-02-已知醋酸HAc的21向的HA"
-aliases: ["题-YJ-02-02"]
+aliases: ["题-YJ-02-02·模拟2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

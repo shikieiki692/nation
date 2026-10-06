@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-01-08-耐甲氧西林金黄色葡萄球菌MR"
-aliases: ["题-HYS-01-08"]
+aliases: ["题-HYS-01-08·决赛夏季模拟1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

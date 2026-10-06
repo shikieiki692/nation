@@ -1,6 +1,6 @@
 ---
 title: "题-XeC-13-07-细胞周期cellcycle指"
-aliases: ["题-XeC-13-07"]
+aliases: ["题-XeC-13-07·Xechem模拟二"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

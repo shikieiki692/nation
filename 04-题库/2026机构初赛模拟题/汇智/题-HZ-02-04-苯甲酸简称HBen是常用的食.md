@@ -1,6 +1,6 @@
 ---
 title: "题-HZ-02-04-苯甲酸简称HBen是常用的食"
-aliases: ["题-HZ-02-04"]
+aliases: ["题-HZ-02-04·长沙冲刺物化2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

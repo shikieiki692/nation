@@ -1,6 +1,6 @@
 ---
 title: "题-QBY-05-04-某固体氧化物电解池SOEC共"
-aliases: ["题-QBY-05-04"]
+aliases: ["题-QBY-05-04·春季模拟5"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

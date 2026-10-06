@@ -1,6 +1,6 @@
 ---
 title: "题-BJLY-09-有机综合-03-Nazarov环化反应早在2"
-aliases: ["题-BJLY-09-有机综合"]
+aliases: ["题-BJLY-09-有机综合·有机综合-2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

@@ -1,6 +1,6 @@
 ---
 title: "题-YJ-01-08-在20世纪Stocks等按以"
-aliases: ["题-YJ-01-08"]
+aliases: ["题-YJ-01-08·无机专题卷1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

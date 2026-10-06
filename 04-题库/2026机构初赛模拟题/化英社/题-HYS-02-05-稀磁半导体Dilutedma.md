@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-02-05-稀磁半导体Dilutedma"
-aliases: ["题-HYS-02-05"]
+aliases: ["题-HYS-02-05·决赛夏季模拟2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

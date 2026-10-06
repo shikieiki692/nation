@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-01-04-某三元化合物X具有ABC三种"
-aliases: ["题-HYS-01-04"]
+aliases: ["题-HYS-01-04·夏季初赛模拟121"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

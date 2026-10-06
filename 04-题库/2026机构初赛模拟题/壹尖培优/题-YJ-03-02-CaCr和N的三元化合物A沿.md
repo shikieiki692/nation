@@ -1,6 +1,6 @@
 ---
 title: "题-YJ-03-02-CaCr和N的三元化合物A沿"
-aliases: ["题-YJ-03-02"]
+aliases: ["题-YJ-03-02·模拟3"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

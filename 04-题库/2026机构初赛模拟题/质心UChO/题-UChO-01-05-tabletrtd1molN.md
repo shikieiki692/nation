@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-01-05-tabletrtd1molN"
-aliases: ["题-UChO-01-05"]
+aliases: ["题-UChO-01-05·3rdZCHEMUChOTour1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

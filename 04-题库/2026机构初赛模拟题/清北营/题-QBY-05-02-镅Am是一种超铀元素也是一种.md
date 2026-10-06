@@ -1,6 +1,6 @@
 ---
 title: "题-QBY-05-02-镅Am是一种超铀元素也是一种"
-aliases: ["题-QBY-05-02"]
+aliases: ["题-QBY-05-02·春季模拟5"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

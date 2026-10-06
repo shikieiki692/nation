@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-03-08-固相多肽合成SPPS的基本思"
-aliases: ["题-HYS-03-08"]
+aliases: ["题-HYS-03-08·寒假初赛模拟3"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

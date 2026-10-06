@@ -1,6 +1,6 @@
 ---
 title: "题-HZ-02-02-在特种钢材生产中钒V和铬Cr"
-aliases: ["题-HZ-02-02"]
+aliases: ["题-HZ-02-02·长沙冲刺综合2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

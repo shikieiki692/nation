@@ -1,6 +1,6 @@
 ---
 title: "题-QBY-01-04-声音靠介质的弹性传播牛顿Ne"
-aliases: ["题-QBY-01-04"]
+aliases: ["题-QBY-01-04·2026年物化专题班1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

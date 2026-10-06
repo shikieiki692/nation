@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-01-02-研究钙钛矿衍生结构时常用Ra"
-aliases: ["题-HYS-01-02"]
+aliases: ["题-HYS-01-02·春季联考1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

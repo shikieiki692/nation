@@ -1,6 +1,6 @@
 ---
 title: "题-HZ-01-08-TosMIC试剂即对甲苯磺酰"
-aliases: ["题-HZ-01-08"]
+aliases: ["题-HZ-01-08·起航五一初赛模拟1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

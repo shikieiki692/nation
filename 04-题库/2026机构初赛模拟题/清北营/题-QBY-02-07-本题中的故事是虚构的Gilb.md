@@ -1,6 +1,6 @@
 ---
 title: "题-QBY-02-07-本题中的故事是虚构的Gilb"
-aliases: ["题-QBY-02-07"]
+aliases: ["题-QBY-02-07·2026年物化专题班2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

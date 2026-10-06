@@ -1,6 +1,6 @@
 ---
 title: "题-HZ-02-06-环酮缩醛CKAs是自由基开环"
-aliases: ["题-HZ-02-06"]
+aliases: ["题-HZ-02-06·起航五一初赛模拟2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

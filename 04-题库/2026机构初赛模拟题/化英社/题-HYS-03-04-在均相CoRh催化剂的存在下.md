@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-03-04-在均相CoRh催化剂的存在下"
-aliases: ["题-HYS-03-04"]
+aliases: ["题-HYS-03-04·年后国初模拟3"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

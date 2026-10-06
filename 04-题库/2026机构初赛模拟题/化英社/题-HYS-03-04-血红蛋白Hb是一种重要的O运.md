@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-03-04-血红蛋白Hb是一种重要的O运"
-aliases: ["题-HYS-03-04"]
+aliases: ["题-HYS-03-04·寒假初赛模拟3"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

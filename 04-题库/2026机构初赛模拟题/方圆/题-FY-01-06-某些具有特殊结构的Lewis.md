@@ -1,6 +1,6 @@
 ---
 title: "题-FY-01-06-某些具有特殊结构的Lewis"
-aliases: ["题-FY-01-06"]
+aliases: ["题-FY-01-06·卷一1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

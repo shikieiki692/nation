@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-16-UChO-07-硅和碳是同一族的元素在性质上"
-aliases: ["题-UChO-16-UChO"]
+aliases: ["题-UChO-16-UChO·1stZCHEMUChO-6"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

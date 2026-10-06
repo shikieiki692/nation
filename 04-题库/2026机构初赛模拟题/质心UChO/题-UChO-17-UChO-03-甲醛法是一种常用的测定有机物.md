@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-17-UChO-03-甲醛法是一种常用的测定有机物"
-aliases: ["题-UChO-17-UChO"]
+aliases: ["题-UChO-17-UChO·2ndZCHEMUChO"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

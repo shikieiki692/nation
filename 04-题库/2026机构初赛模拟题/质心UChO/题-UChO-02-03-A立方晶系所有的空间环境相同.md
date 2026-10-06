@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-02-03-A立方晶系所有的空间环境相同"
-aliases: ["题-UChO-02-03"]
+aliases: ["题-UChO-02-03·3rdZCHEMUChOTour2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

@@ -1,6 +1,6 @@
 ---
 title: "题-FY-01-05-下图所示的是CuO沿三个轴向"
-aliases: ["题-FY-01-05"]
+aliases: ["题-FY-01-05·卷一1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

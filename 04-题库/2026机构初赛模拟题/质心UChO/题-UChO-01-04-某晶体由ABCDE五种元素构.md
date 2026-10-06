@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-01-04-某晶体由ABCDE五种元素构"
-aliases: ["题-UChO-01-04"]
+aliases: ["题-UChO-01-04·5thZCHEMUChOTour1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

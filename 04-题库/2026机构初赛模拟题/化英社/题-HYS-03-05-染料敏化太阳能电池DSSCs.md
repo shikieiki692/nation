@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-03-05-染料敏化太阳能电池DSSCs"
-aliases: ["题-HYS-03-05"]
+aliases: ["题-HYS-03-05·寒假初赛模拟3"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

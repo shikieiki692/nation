@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-11-07-在OLED有机发光半导体OF"
-aliases: ["题-HYS-11-07"]
+aliases: ["题-HYS-11-07·夏季模拟11"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

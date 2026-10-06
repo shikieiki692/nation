@@ -1,6 +1,6 @@
 ---
 title: "题-FY-01-01-铀Uranium是最重要的天"
-aliases: ["题-FY-01-01"]
+aliases: ["题-FY-01-01·卷一1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

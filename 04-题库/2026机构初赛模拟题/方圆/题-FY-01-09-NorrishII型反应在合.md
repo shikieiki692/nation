@@ -1,6 +1,6 @@
 ---
 title: "题-FY-01-09-NorrishII型反应在合"
-aliases: ["题-FY-01-09"]
+aliases: ["题-FY-01-09·卷一1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

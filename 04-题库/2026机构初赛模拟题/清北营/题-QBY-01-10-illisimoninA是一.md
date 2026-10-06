@@ -1,6 +1,6 @@
 ---
 title: "题-QBY-01-10-illisimoninA是一"
-aliases: ["题-QBY-01-10"]
+aliases: ["题-QBY-01-10·2026年寒假班1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

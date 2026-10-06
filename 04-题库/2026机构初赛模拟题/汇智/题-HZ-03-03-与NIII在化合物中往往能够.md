@@ -1,6 +1,6 @@
 ---
 title: "题-HZ-03-03-与NIII在化合物中往往能够"
-aliases: ["题-HZ-03-03"]
+aliases: ["题-HZ-03-03·起航五一初赛模拟3"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

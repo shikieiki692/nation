@@ -1,6 +1,6 @@
 ---
 title: "题-QBY-02-05-本题记丙酮为A二氯甲烷为B在"
-aliases: ["题-QBY-02-05"]
+aliases: ["题-QBY-02-05·2026年物化专题班2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

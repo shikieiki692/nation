@@ -1,6 +1,6 @@
 ---
 title: "题-GM-01-04-镨Pr和钕Nd是一对较难分离"
-aliases: ["题-GM-01-04"]
+aliases: ["题-GM-01-04·2026年暑期模拟1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

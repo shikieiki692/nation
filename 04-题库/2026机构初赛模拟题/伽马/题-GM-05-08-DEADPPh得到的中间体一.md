@@ -1,6 +1,6 @@
 ---
 title: "题-GM-05-08-DEADPPh得到的中间体一"
-aliases: ["题-GM-05-08"]
+aliases: ["题-GM-05-08·五一杭州5"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

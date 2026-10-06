@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-09-03-Li是生产氚的核心原料而氚是"
-aliases: ["题-HYS-09-03"]
+aliases: ["题-HYS-09-03·初赛夏季初赛模拟9"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

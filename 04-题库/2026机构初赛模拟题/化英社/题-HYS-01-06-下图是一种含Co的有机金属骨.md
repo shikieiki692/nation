@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-01-06-下图是一种含Co的有机金属骨"
-aliases: ["题-HYS-01-06"]
+aliases: ["题-HYS-01-06·决赛模拟1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

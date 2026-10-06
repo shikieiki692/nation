@@ -1,6 +1,6 @@
 ---
 title: "题-YJ-02-05-多金属纳米颗粒材料简称MMN"
-aliases: ["题-YJ-02-05"]
+aliases: ["题-YJ-02-05·模拟2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

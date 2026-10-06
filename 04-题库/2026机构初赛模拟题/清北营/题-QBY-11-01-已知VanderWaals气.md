@@ -1,6 +1,6 @@
 ---
 title: "题-QBY-11-01-已知VanderWaals气"
-aliases: ["题-QBY-11-01"]
+aliases: ["题-QBY-11-01·春季模拟11"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

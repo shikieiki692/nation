@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-11-04-在最新最热街机音游舞萌DX中"
-aliases: ["题-HYS-11-04"]
+aliases: ["题-HYS-11-04·夏季模拟11"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

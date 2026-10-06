@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-16-UChO-05-在弱碱性的缓冲体系中向钼VI"
-aliases: ["题-UChO-16-UChO"]
+aliases: ["题-UChO-16-UChO·1stZCHEMUChO-4"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

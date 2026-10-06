@@ -1,6 +1,6 @@
 ---
 title: "题-GM-06-07-靛蓝Indigo最早于400"
-aliases: ["题-GM-06-07"]
+aliases: ["题-GM-06-07·五一杭州6"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

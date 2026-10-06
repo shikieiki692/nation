@@ -27,6 +27,7 @@ source_grade: A
 source_tier: 2
 source_norm: "chemy-第39届XChemArCHO模拟卷"
 source_file: "chemy试题/39届初赛模拟试题分享-2 10th XChem-ArCHO..md"
+quality_warning: "源确缺答案（源资料无本题解答，2026-10-06 核验）；组卷不可用"
 ---
 
 # 题-CM-189-08-HalichondrinPa
@@ -106,7 +107,7 @@ d. Houk扭转力理论 e. Conforth模型 f. 极性Felkin-Anh模型
 
 ## 参考答案
 
-⛔ 源答案缺失（本卷为 ArCHO 团队制作的练习卷，源文件仅含题面）
+⛔ **源确缺答案**：源资料中确无本题解答（2026-10-06 逐卷核验，非提取遗漏）；本卡不可组卷，如需答案请另找外部资料。
 
 ## 知识点映射
 

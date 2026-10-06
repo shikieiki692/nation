@@ -1,6 +1,6 @@
 ---
 title: "题-QBY-08-01-含元素X的矿石与NaCl混合"
-aliases: ["题-QBY-08-01"]
+aliases: ["题-QBY-08-01·春季模拟8"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

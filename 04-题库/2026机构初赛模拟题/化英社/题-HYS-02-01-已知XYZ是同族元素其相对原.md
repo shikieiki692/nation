@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-02-01-已知XYZ是同族元素其相对原"
-aliases: ["题-HYS-02-01"]
+aliases: ["题-HYS-02-01·寒假初赛模拟2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

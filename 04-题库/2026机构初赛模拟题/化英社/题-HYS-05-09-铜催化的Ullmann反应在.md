@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-05-09-铜催化的Ullmann反应在"
-aliases: ["题-HYS-05-09"]
+aliases: ["题-HYS-05-09·春季联考5"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

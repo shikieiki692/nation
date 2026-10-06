@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-04-04-累积多烯Cumulenes是"
-aliases: ["题-HYS-04-04"]
+aliases: ["题-HYS-04-04·春季联考4"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

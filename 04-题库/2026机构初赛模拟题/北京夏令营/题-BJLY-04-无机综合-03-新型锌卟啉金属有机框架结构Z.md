@@ -1,6 +1,6 @@
 ---
 title: "题-BJLY-04-无机综合-03-新型锌卟啉金属有机框架结构Z"
-aliases: ["题-BJLY-04-无机综合"]
+aliases: ["题-BJLY-04-无机综合·无机综合-2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

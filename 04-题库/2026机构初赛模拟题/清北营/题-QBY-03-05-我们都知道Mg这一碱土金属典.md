@@ -1,6 +1,6 @@
 ---
 title: "题-QBY-03-05-我们都知道Mg这一碱土金属典"
-aliases: ["题-QBY-03-05"]
+aliases: ["题-QBY-03-05·2026年暑假高二班3"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

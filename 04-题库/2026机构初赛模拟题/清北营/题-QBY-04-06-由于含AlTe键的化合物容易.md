@@ -1,6 +1,6 @@
 ---
 title: "题-QBY-04-06-由于含AlTe键的化合物容易"
-aliases: ["题-QBY-04-06"]
+aliases: ["题-QBY-04-06·2026年寒假班4"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

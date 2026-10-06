@@ -1,6 +1,6 @@
 ---
 title: "题-QBY-06-03-某新型多孔框架材料MAF7可"
-aliases: ["题-QBY-06-03"]
+aliases: ["题-QBY-06-03·2026年暑假高二班6"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

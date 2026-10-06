@@ -1,6 +1,6 @@
 ---
 title: "题-CM-21-01-11化学式为leftmath"
-aliases: ["题-CM-21-01"]
+aliases: ["题-CM-21-01·15套卷21"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

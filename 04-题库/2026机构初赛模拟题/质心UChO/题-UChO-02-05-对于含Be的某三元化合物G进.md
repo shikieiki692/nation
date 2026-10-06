@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-02-05-对于含Be的某三元化合物G进"
-aliases: ["题-UChO-02-05"]
+aliases: ["题-UChO-02-05·7thZCHEMUChOTour2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

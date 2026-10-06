@@ -1,6 +1,6 @@
 ---
 title: "题-CM-10-07-mathrmBmathrmC"
-aliases: ["题-CM-10-07"]
+aliases: ["题-CM-10-07·15套卷10"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

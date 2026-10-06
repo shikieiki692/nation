@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-11-06-电子顺磁共振EPR波谱被用于"
-aliases: ["题-HYS-11-06"]
+aliases: ["题-HYS-11-06·夏季模拟11"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

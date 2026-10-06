@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-02-03-金属有机框架MOF是由金属离"
-aliases: ["题-HYS-02-03"]
+aliases: ["题-HYS-02-03·春季联考2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

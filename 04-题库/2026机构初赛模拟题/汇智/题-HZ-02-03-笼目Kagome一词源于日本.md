@@ -1,6 +1,6 @@
 ---
 title: "题-HZ-02-03-笼目Kagome一词源于日本"
-aliases: ["题-HZ-02-03"]
+aliases: ["题-HZ-02-03·起航五一初赛模拟2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

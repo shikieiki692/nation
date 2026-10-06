@@ -1,6 +1,6 @@
 ---
 title: "题-QBY-09-02-金属有机框架MOF的合成主要"
-aliases: ["题-QBY-09-02"]
+aliases: ["题-QBY-09-02·2026年暑假高二班9"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

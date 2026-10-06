@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-01-04-标准压力下Fes的熔点为18"
-aliases: ["题-UChO-01-04"]
+aliases: ["题-UChO-01-04·8thZCHEMUChOTour1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

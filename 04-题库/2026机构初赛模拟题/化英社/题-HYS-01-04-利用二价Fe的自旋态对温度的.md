@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-01-04-利用二价Fe的自旋态对温度的"
-aliases: ["题-HYS-01-04"]
+aliases: ["题-HYS-01-04·春季联考1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-01-07-CC键迁移在环状结构的构建中"
-aliases: ["题-HYS-01-07"]
+aliases: ["题-HYS-01-07·春季联考1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

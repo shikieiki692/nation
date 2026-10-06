@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-02-02-Wade规则又称多面体骨架电"
-aliases: ["题-HYS-02-02"]
+aliases: ["题-HYS-02-02·年后国初模拟2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

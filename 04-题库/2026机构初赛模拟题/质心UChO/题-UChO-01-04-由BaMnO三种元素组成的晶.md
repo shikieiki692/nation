@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-01-04-由BaMnO三种元素组成的晶"
-aliases: ["题-UChO-01-04"]
+aliases: ["题-UChO-01-04·9thZCHEMUChOTour1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

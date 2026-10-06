@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-02-02-对非金属硫化物XmSn进行了"
-aliases: ["题-HYS-02-02"]
+aliases: ["题-HYS-02-02·寒假初赛模拟2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

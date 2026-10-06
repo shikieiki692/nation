@@ -1,6 +1,6 @@
 ---
 title: "题-BJLY-04-无机综合-07-有人将纯净的NO气体收集到一"
-aliases: ["题-BJLY-04-无机综合"]
+aliases: ["题-BJLY-04-无机综合·无机综合-6"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-01-08-DA反应是全合成化学家最喜欢"
-aliases: ["题-UChO-01-08"]
+aliases: ["题-UChO-01-08·7thZCHEMUChOTour1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

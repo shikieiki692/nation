@@ -1,6 +1,6 @@
 ---
 title: "题-QBY-01-07-吡啶pyridinc是最简单"
-aliases: ["题-QBY-01-07"]
+aliases: ["题-QBY-01-07·春季模拟1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

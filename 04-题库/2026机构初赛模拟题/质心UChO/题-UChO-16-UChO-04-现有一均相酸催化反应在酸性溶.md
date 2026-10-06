@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-16-UChO-04-现有一均相酸催化反应在酸性溶"
-aliases: ["题-UChO-16-UChO"]
+aliases: ["题-UChO-16-UChO·1stZCHEMUChO-3"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

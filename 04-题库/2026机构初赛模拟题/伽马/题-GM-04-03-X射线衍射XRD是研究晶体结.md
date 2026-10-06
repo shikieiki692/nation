@@ -1,6 +1,6 @@
 ---
 title: "题-GM-04-03-X射线衍射XRD是研究晶体结"
-aliases: ["题-GM-04-03"]
+aliases: ["题-GM-04-03·五一杭州4"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

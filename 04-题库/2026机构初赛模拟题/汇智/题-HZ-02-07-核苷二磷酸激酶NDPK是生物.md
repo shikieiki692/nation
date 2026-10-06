@@ -1,6 +1,6 @@
 ---
 title: "题-HZ-02-07-核苷二磷酸激酶NDPK是生物"
-aliases: ["题-HZ-02-07"]
+aliases: ["题-HZ-02-07·长沙冲刺物化2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

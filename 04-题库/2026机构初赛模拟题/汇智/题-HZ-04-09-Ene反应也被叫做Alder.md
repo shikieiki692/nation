@@ -1,6 +1,6 @@
 ---
 title: "题-HZ-04-09-Ene反应也被叫做Alder"
-aliases: ["题-HZ-04-09"]
+aliases: ["题-HZ-04-09·起航五一初赛模拟4"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

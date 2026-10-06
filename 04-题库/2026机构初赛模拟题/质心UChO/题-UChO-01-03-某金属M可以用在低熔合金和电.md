@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-01-03-某金属M可以用在低熔合金和电"
-aliases: ["题-UChO-01-03"]
+aliases: ["题-UChO-01-03·5thZCHEMUChOTour1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

@@ -1,6 +1,6 @@
 ---
 title: "题-QBY-06-05-晶体X和Y由金属元素ABC和"
-aliases: ["题-QBY-06-05"]
+aliases: ["题-QBY-06-05·2026年暑假高二班6"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

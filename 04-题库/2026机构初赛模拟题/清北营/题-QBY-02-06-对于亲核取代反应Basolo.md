@@ -1,6 +1,6 @@
 ---
 title: "题-QBY-02-06-对于亲核取代反应Basolo"
-aliases: ["题-QBY-02-06"]
+aliases: ["题-QBY-02-06·2026年暑假高二班2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-17-UChO-07-Nazarov环化反应可以广"
-aliases: ["题-UChO-17-UChO"]
+aliases: ["题-UChO-17-UChO·2ndZCHEMUChO-5"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

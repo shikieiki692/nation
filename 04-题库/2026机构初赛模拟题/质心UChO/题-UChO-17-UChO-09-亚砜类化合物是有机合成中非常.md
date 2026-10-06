@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-17-UChO-09-亚砜类化合物是有机合成中非常"
-aliases: ["题-UChO-17-UChO"]
+aliases: ["题-UChO-17-UChO·2ndZCHEMUChO-7"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

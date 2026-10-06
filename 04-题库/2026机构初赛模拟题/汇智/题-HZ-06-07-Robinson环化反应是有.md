@@ -1,6 +1,6 @@
 ---
 title: "题-HZ-06-07-Robinson环化反应是有"
-aliases: ["题-HZ-06-07"]
+aliases: ["题-HZ-06-07·起航五一初赛模拟6"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

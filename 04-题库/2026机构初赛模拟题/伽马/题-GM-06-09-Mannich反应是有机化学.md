@@ -1,6 +1,6 @@
 ---
 title: "题-GM-06-09-Mannich反应是有机化学"
-aliases: ["题-GM-06-09"]
+aliases: ["题-GM-06-09·五一杭州6"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

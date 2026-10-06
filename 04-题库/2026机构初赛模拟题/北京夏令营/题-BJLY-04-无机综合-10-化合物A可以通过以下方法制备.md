@@ -1,6 +1,6 @@
 ---
 title: "题-BJLY-04-无机综合-10-化合物A可以通过以下方法制备"
-aliases: ["题-BJLY-04-无机综合"]
+aliases: ["题-BJLY-04-无机综合·无机综合-9"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

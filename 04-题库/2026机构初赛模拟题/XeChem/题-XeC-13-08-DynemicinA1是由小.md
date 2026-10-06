@@ -1,6 +1,6 @@
 ---
 title: "题-XeC-13-08-DynemicinA1是由小"
-aliases: ["题-XeC-13-08"]
+aliases: ["题-XeC-13-08·13"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-02-03-某种Ta的氧化物的晶胞结构如"
-aliases: ["题-UChO-02-03"]
+aliases: ["题-UChO-02-03·8thZCHEMUChOTour2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

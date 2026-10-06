@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-02-07-是一种经典的Lewis酸与其"
-aliases: ["题-UChO-02-07"]
+aliases: ["题-UChO-02-07·6thZCHEMUChOTour2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

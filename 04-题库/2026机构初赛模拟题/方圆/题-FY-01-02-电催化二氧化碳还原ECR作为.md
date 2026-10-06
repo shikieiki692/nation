@@ -1,6 +1,6 @@
 ---
 title: "题-FY-01-02-电催化二氧化碳还原ECR作为"
-aliases: ["题-FY-01-02"]
+aliases: ["题-FY-01-02·卷三1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

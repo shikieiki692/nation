@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-02-08-氮杂环卡宾NHC是重要的有机"
-aliases: ["题-UChO-02-08"]
+aliases: ["题-UChO-02-08·6thZCHEMUChOTour2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

@@ -1,6 +1,6 @@
 ---
 title: "题-HZ-07-08-偶氮二异丁腈AIBN第7题中"
-aliases: ["题-HZ-07-08"]
+aliases: ["题-HZ-07-08·起航五一初赛模拟7"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

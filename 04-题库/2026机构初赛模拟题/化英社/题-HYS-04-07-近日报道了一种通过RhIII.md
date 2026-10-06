@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-04-07-近日报道了一种通过RhIII"
-aliases: ["题-HYS-04-07"]
+aliases: ["题-HYS-04-07·春季联考4"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

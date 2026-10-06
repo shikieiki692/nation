@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-04-06-多光子激发MPE具有三维荧光"
-aliases: ["题-HYS-04-06"]
+aliases: ["题-HYS-04-06·初赛夏季模拟4"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-07-06-析氧反应OER是电化学水分解"
-aliases: ["题-HYS-07-06"]
+aliases: ["题-HYS-07-06·初赛模拟7已优化"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

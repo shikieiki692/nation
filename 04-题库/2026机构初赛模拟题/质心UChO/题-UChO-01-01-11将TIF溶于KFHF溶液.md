@@ -1,6 +1,6 @@
 ---
 title: "题-UChO-01-01-11将TIF溶于KFHF溶液"
-aliases: ["题-UChO-01-01"]
+aliases: ["题-UChO-01-01·9thZCHEMUChOTour1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

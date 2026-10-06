@@ -1,6 +1,6 @@
 ---
 title: "题-QBY-03-10-Prins反应早在100年前"
-aliases: ["题-QBY-03-10"]
+aliases: ["题-QBY-03-10·春季模拟3"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

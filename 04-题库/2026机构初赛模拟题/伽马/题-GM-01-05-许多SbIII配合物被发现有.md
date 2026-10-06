@@ -1,6 +1,6 @@
 ---
 title: "题-GM-01-05-许多SbIII配合物被发现有"
-aliases: ["题-GM-01-05"]
+aliases: ["题-GM-01-05·五一杭州1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

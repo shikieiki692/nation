@@ -1,6 +1,6 @@
 ---
 title: "题-BJLY-05-有机巩固练习一-02-1完成Linoxepin的合"
-aliases: ["题-BJLY-05-有机巩固练习一"]
+aliases: ["题-BJLY-05-有机巩固练习一·有机巩固练习一"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

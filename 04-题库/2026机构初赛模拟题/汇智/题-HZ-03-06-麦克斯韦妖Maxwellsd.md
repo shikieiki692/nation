@@ -1,6 +1,6 @@
 ---
 title: "题-HZ-03-06-麦克斯韦妖Maxwellsd"
-aliases: ["题-HZ-03-06"]
+aliases: ["题-HZ-03-06·起航五一初赛模拟3"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

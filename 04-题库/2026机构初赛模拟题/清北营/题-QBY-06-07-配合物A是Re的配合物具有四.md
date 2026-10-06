@@ -1,6 +1,6 @@
 ---
 title: "题-QBY-06-07-配合物A是Re的配合物具有四"
-aliases: ["题-QBY-06-07"]
+aliases: ["题-QBY-06-07·2026年暑假高二班6"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

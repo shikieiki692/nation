@@ -1,6 +1,6 @@
 ---
 title: "题-GM-04-09-RC策略RelayCatal"
-aliases: ["题-GM-04-09"]
+aliases: ["题-GM-04-09·五一杭州4"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

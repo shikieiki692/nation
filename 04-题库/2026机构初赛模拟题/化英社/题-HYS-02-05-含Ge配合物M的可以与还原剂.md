@@ -1,6 +1,6 @@
 ---
 title: "题-HYS-02-05-含Ge配合物M的可以与还原剂"
-aliases: ["题-HYS-02-05"]
+aliases: ["题-HYS-02-05·年后国初模拟2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

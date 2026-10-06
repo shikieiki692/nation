@@ -1,6 +1,6 @@
 ---
 title: "题-HZ-06-03-一种由Ba蓝球深色球和Cu绿"
-aliases: ["题-HZ-06-03"]
+aliases: ["题-HZ-06-03·起航五一初赛模拟6"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

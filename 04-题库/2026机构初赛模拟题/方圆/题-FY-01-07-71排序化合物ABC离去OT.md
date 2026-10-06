@@ -1,6 +1,6 @@
 ---
 title: "题-FY-01-07-71排序化合物ABC离去OT"
-aliases: ["题-FY-01-07"]
+aliases: ["题-FY-01-07·卷一1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

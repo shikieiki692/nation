@@ -1,6 +1,6 @@
 ---
 title: "题-HZ-07-02-Cupowder即铜粉书写时"
-aliases: ["题-HZ-07-02"]
+aliases: ["题-HZ-07-02·2.7杭州有机班第三天练习题"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

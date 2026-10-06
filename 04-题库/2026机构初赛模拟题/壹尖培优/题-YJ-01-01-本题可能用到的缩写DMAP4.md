@@ -1,6 +1,6 @@
 ---
 title: "题-YJ-01-01-本题可能用到的缩写DMAP4"
-aliases: ["题-YJ-01-01"]
+aliases: ["题-YJ-01-01·模拟测1"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

@@ -1,6 +1,6 @@
 ---
 title: "题-HZ-02-02-锂硫电池LiSBattery"
-aliases: ["题-HZ-02-02"]
+aliases: ["题-HZ-02-02·起航五一初赛模拟2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

@@ -62,14 +62,13 @@ F
 
 ## 参考答案
 
-![](images/37a839f0a29dd3a30c4f460419c8cd8e6fd7a24e7371bfccc4263b2bcb793ba1.jpg)
-9-1-22，碱和亲核试剂（各2分，共4分）
+（源：方圆《有机化学测试题1》参考答案 · 第 9 题；按原册裁区，保留结构图与答案）
 
-<table><tr><td><img src="images/9f946c1aab084526d091022ff3dd181c92a3eb62bd20cfbc0bcc8cc390866b34.jpg"/></td><td><img src="images/ab10685f8c1aae7980dd1a324fc6ec500839fafd1d56ecd6375f16ad8a1af697.jpg"/></td><td></td><td></td></tr><tr><td>E</td><td></td><td></td><td></td></tr><tr><td></td><td></td><td>F</td><td></td></tr><tr><td><img src="images/3bad21a4790c1bcaf0b2388170d6aad7b6888a88c75120d3e4da164926684143.jpg"/></td><td><img src="images/972cd120cc47c41fccfe1b26c2950ec117e01a9da3389f6cf2fe32bdda00e92b.jpg"/></td><td><img src="images/e0e38fea0dea2958b8381de679bf1b6f88932d20b814194e419f60b61e201034.jpg"/></td><td></td></tr><tr><td>G</td><td>H</td><td>I</td><td></td></tr><tr><td>9-2</td><td></td><td>∅</td><td></td></tr><tr><td><img src="images/1d5800db0cec042e213137b10676b55aa2fb3530c087385fde34e1067a3399f9.jpg"/></td><td><img src="images/4cc3167f12a84a2718e2f3ed12002bc2ce39ec2a09c6d59c260da8cbe686b0c7.jpg"/></td><td><img src="images/dd1e11d83cd1b61e0942d7e21ecf71bd15862830741bb46a2911cb783a0b8185.jpg"/></td><td><img src="images/bfb36b458c51d8cebf17d95bff930ee802e5723ab9d8123d58104759bf2ea18e.jpg"/></td></tr><tr><td>G</td><td>H</td><td>I</td><td>J</td></tr></table>
+![](images/fy1_FY-01-09_p05.png)
+![](images/fy1_FY-01-09_p06.png)
+![](images/fy1_FY-01-09_p07.png)
 
-## 9-1-3 （各 1 分，共 5 分）
-
-![](images/129bd064e21d95af3bcaa158c4a185c6f8b5ab03b4cfc2ad9910eec8eaa02557.jpg)
+> 📌 据源答案册逐题裁区回填。
 
 ## 知识点映射
 

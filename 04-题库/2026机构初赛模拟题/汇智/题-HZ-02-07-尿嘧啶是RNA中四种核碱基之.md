@@ -1,6 +1,6 @@
 ---
 title: "题-HZ-02-07-尿嘧啶是RNA中四种核碱基之"
-aliases: ["题-HZ-02-07"]
+aliases: ["题-HZ-02-07·长沙冲刺综合2"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

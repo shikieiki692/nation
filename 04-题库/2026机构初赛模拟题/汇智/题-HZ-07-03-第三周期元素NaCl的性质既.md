@@ -1,6 +1,6 @@
 ---
 title: "题-HZ-07-03-第三周期元素NaCl的性质既"
-aliases: ["题-HZ-07-03"]
+aliases: ["题-HZ-07-03·长沙刷初赛模拟7"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4

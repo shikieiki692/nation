@@ -1,6 +1,6 @@
 ---
 title: "题-GM-01-09-MeyerSchuster重"
-aliases: ["题-GM-01-09"]
+aliases: ["题-GM-01-09·作业(1)"]
 type: 题目
 fidelity: 原书逐字
 difficulty: 4
