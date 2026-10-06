@@ -741,11 +741,13 @@ def force_jc(p: str, val: str) -> str:
 # 图片尺寸上限（EMU），与 11-模板/scripts/docx_utils.py 的图片定尺逻辑保持一致
 # （横向 ≤10cm / 纵向 ≤7cm / 方形 ≤9cm；小图放大到 5cm），避免两套产物图大小不一致。
 CM_TO_EMU = 360000
-MAX_LANDSCAPE = int(10.0 * CM_TO_EMU)
-MAX_PORTRAIT = int(7.0 * CM_TO_EMU)
-MAX_SQUARE = int(9.0 * CM_TO_EMU)
-MIN_WIDTH = int(4.0 * CM_TO_EMU)
-ENLARGE_TARGET = int(5.0 * CM_TO_EMU)
+# ★ 宽高**双封顶**（只缩不放）。原实现只限宽（横10/竖7/方9）⇒ 竖长图可达 18cm 高
+#   （卷VI 实测 10.0×18.1cm），整页被图挤占。改为双限，与「普通版」的 clamp 口径统一。
+CAP = {
+    "land": (7.0, 5.2),    # 横图 aspect > 1.3
+    "port": (4.6, 6.6),    # 竖图 aspect < 0.7
+    "sq":   (5.6, 5.6),    # 方形
+}
 EXTENT_RE = re.compile(r'<wp:extent cx="(\d+)" cy="(\d+)"')
 A_EXT_RE = re.compile(r'<a:ext cx="(\d+)" cy="(\d+)"')
 
@@ -760,19 +762,12 @@ def cap_image_width(p: str) -> str:
         if cx <= 0 or cy <= 0:
             return cx, cy
         aspect = cx / cy
-        if aspect > 1.3:
-            max_w = MAX_LANDSCAPE
-        elif aspect < 0.7:
-            max_w = MAX_PORTRAIT
-        else:
-            max_w = MAX_SQUARE
-        if cx < MIN_WIDTH:
-            r = ENLARGE_TARGET / cx
-            return ENLARGE_TARGET, int(cy * r)
-        if cx > max_w:
-            r = max_w / cx
-            return max_w, int(cy * r)
-        return cx, cy
+        key = "land" if aspect > 1.3 else ("port" if aspect < 0.7 else "sq")
+        mw, mh = CAP[key]
+        scale = min(1.0, (mw * CM_TO_EMU) / cx, (mh * CM_TO_EMU) / cy)
+        if scale >= 0.999:
+            return cx, cy
+        return int(cx * scale), int(cy * scale)
 
     def rep(m):
         cx, cy = _size(int(m.group(1)), int(m.group(2)))
@@ -791,6 +786,7 @@ def cap_image_width(p: str) -> str:
 # 单元格内插图：按所在单元格宽度收缩（并排图用，防溢出单元格）
 CELL_GRID_RE = re.compile(r'<w:gridCol w:w="(\d+)"')
 CELL_MARGIN_EMU = int(0.3 * CM_TO_EMU)  # 单元格左右留白
+CELL_MAX_H = int(4.6 * CM_TO_EMU)         # 单元格内图的高度上限（并排图不宜过高）
 
 
 def cap_table_images(tbl_xml: str) -> str:
@@ -816,10 +812,12 @@ def cap_table_images(tbl_xml: str) -> str:
         limit = max(int(1.0 * CM_TO_EMU), col_emu[col] - CELL_MARGIN_EMU)
 
         def _size(cx, cy):
-            if cx <= 0 or cy <= 0 or cx <= limit:
+            if cx <= 0 or cy <= 0:
                 return cx, cy
-            r = limit / cx
-            return limit, int(cy * r)
+            scale = min(1.0, limit / cx, CELL_MAX_H / cy)
+            if scale >= 0.999:
+                return cx, cy
+            return int(cx * scale), int(cy * scale)
 
         frag = EXTENT_RE.sub(
             lambda mm: (lambda s: f'<wp:extent cx="{s[0]}" cy="{s[1]}"')(_size(int(mm.group(1)), int(mm.group(2)))), frag)
