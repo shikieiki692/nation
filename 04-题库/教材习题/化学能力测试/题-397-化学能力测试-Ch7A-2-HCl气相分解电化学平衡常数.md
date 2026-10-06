@@ -44,6 +44,8 @@ used_in: "[[第一轮原理·6-酸碱理论（教师版）]]"
 
 > **来源**：化学竞赛能力测试·第7章·A卷第2题（10 分）
 
+## 题目
+
 可逆电池 Pt, H₂(g) | HCl(aq) | Cl₂(g), Pt（303.1 K），气体与电解质溶液达成平衡。填空缺数据：
 
 | $p_{\mathrm{HCl}}/\mathrm{Torr}$ | $p_{\mathrm{H_2}}$=$p_{\mathrm{Cl_2}}/\mathrm{Torr}$ | E/V |

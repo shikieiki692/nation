@@ -45,6 +45,8 @@ used_in: ["[[第一轮原理·7-沉淀溶解平衡（教师版）]]", "[[第一�
 
 > **来源**：化学竞赛能力测试·第7章·B卷第8题（10 分）
 
+## 题目
+
 已知 Ag⁺/Ag $E^{\theta}$=+0.7996 V；AgBr(s)/Ag,Br⁻ $E^{\theta}$=+0.0713 V；$\Delta_{\mathrm{f}}G^{\theta}$(NH₃(aq))=−26.50、$\Delta_{\mathrm{f}}G^{\theta}$[Ag(NH₃)₂⁺]=−17.12 kJ/mol；Br Latimer：BrO₃⁻ +1.491→HOBr +1.584→Br₂(aq) →?→ Br⁻。
 
 **8-1** 计算 $\Delta_{\mathrm{f}}G^{\theta}$(Ag⁺(aq))。

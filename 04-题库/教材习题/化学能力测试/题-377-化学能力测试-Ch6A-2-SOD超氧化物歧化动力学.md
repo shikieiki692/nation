@@ -48,6 +48,8 @@ used_in: "[[第一轮原理·4-化学动力学（教师版）]]"
 
 > **来源**：化学竞赛能力测试·第6章·A卷第2题（10 分）
 
+## 题目
+
 超氧化物歧化酶 SOD（代号 E）催化超氧离子歧化：
 
 $$2\mathrm{O_2^-} + 2\mathrm{H^+} \xrightarrow{\mathrm{E}} \mathrm{O_2} + \mathrm{H_2O_2}$$

@@ -42,6 +42,8 @@ source_norm: "化学能力测试"
 
 > **来源**：化学竞赛能力测试·第5章·B卷第1题（10 分）
 
+## 题目
+
 已知 298.15 K 时热力学数据（CH₄/Cu/CuO/CO₂/H₂O(l)/H₂O(g) 的 $\Delta_{\mathrm{f}}H^{\theta}_{\mathrm{m}}$、$S^{\theta}_{\mathrm{m}}$、$\Delta_{\mathrm{f}}G^{\theta}_{\mathrm{m}}$）。
 
 计算反应 $\mathrm{CH_4(g) + 4CuO(s) = CO_2(g) + 2H_2O(l) + 4Cu(s)}$

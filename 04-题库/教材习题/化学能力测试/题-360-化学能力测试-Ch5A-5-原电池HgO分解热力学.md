@@ -45,6 +45,8 @@ used_in: "[[第一轮原理·3-热力学初步（教师版）]]"
 
 > **来源**：化学竞赛能力测试·第5章·A卷第5题（10 分）
 
+## 题目
+
 原电池 $\mathrm{H_2(g)\mid NaOH(aq)\mid HgO(s),\ Hg(l)}$ 在 298.15 K 下的标准电动势 $E^\theta = 0.926\ \mathrm{V}$。
 
 反应 $\mathrm{H_2(g) + \tfrac{1}{2}O_2(g) = H_2O(l)}$，$\Delta_\mathrm{r}G^\theta_\mathrm{m}(298\ \mathrm K) = -237.2\ \mathrm{kJ\cdot mol^{-1}}$。

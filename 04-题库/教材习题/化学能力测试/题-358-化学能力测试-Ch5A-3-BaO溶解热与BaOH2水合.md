@@ -46,6 +46,8 @@ source_norm: "化学能力测试"
 
 > **来源**：化学竞赛能力测试·第5章·A卷第3题（10 分）
 
+## 题目
+
 已知：
 
 | 反应 | $\Delta_{\mathrm{r}}H^{\theta}_{\mathrm{m}}$ / kJ·mol⁻¹ |
