@@ -43,7 +43,7 @@ question_count: 16
 #### 答案
 
 $$
-\begin{array}{r l} & 6 \mathrm{Ta} + 8 \mathrm{KOH} + 2 8 \mathrm{H} _ {2} \mathrm{O} = \mathrm{K} _ {8} \mathrm{Ta} _ {5} \mathrm{O} _ {1 9} \cdot 1 7 \mathrm{H} _ {2} \mathrm{O} + 1 5 \mathrm{H} _ {2} \\ & \mathrm{TaCl} _ {5} + \mathrm{Cl} _ {2} \mathrm{O} = \mathrm{TaOCl} _ {3} + 2 \mathrm{Cl} _ {2} \\ & (\text {各2分共4分}) \end{array}
+\begin{array}{r l}   6 \mathrm{Ta} + 8 \mathrm{KOH} + 2 8 \mathrm{H} _ {2} \mathrm{O} = \mathrm{K} _ {8} \mathrm{Ta} _ {5} \mathrm{O} _ {1 9} \cdot 1 7 \mathrm{H} _ {2} \mathrm{O} + 1 5 \mathrm{H} _ {2} \\   \mathrm{TaCl} _ {5} + \mathrm{Cl} _ {2} \mathrm{O} = \mathrm{TaOCl} _ {3} + 2 \mathrm{Cl} _ {2} \\   (\text {各2分共4分}) \end{array}
 $$
 
 |  |  |
@@ -140,9 +140,11 @@ B 和一种含有 Mg-Mg 键的化合物，分别给出[A]与 B 的结构。
 
 **2-1** 稳定化因素: $E^{4-} \rightarrow Mg^{2+}$ 电子转移半导体类型:n型
 
-**2-2-1** $\mathbf{X}:\text{Si[AlCl}_{2}(\text{OEt}_{2})]_{4}$  $\begin{array}{c}\text{AlCl}_{2}(\text{OEt}_{2})\\|\quad\text{Si}\\(\text{Et}_{2}\text{O})\text{Cl}_{2}\text{Al}/\\\text{(Et}_{2}\text{O})\text{Cl}_{2}\text{Al}\end{array}$  $\begin{array}{c}\text{AlCl}_{2}(\text{OEt}_{2})\\|\\\text{AlCl}_{2}(\text{OEt}_{2})\\\text{Si}\\/\\\text{AlCl}_{2}(\text{OEt}_{2})\\\end{array}$
+**2-2-1**
 
-![[d59abaf80d045224beec77a8cc40d35defa442200e2c50f995b691fab057dee4.jpg]]
+|  |  |
+| :---: | :---: |
+| ![[a6ac38603af86101b5528df8fc8ea8035a0c900f9e2690fdb353be1fcf237185.png\|250]] | ![[d59abaf80d045224beec77a8cc40d35defa442200e2c50f995b691fab057dee4.jpg\|250]] |
 
 (图中略去了所有 $\mathrm{Cp^{*}}$ 上的Me)
 
@@ -262,7 +264,7 @@ $\mathrm{Na}[\mathrm{Ru}(\mathrm{C}_5\mathrm{H}_5)(\mathrm{CO})_2]$ 与三氟化
 
 ---
 
-### 第 4 题（6 分）Te的卤化物有着非常丰富的结
+### 第 4 题（6 分）Te 的元素化学
 
 > 来源：伽马 伽马化学2026年暑期模拟5 第 4 题｜难度 ⭐⭐⭐⭐
 
@@ -283,13 +285,13 @@ Te 的卤化物有着非常丰富的结构， $Te_{2}Br$ 结构中存在着共�
 4-2-1(5 分)
 
 $$
-\begin{array}{r l} & 3 \mathrm{H} _ {2} \mathrm{TeO} _ {3} + \mathrm{Cr} _ {2} \mathrm{O} _ {7} ^ {2 -} + 8 \mathrm{H} ^ {+} + 2 \mathrm{H} _ {2} \mathrm{O} = 3 \mathrm{H} _ {6} \mathrm{TeO} _ {6} + 2 \mathrm{Cr} ^ {3 +} \\ & \mathrm{Cr} _ {2} \mathrm{O} _ {7} ^ {2 -} + 6 \mathrm{Fe} ^ {2 +} + 14 \mathrm{H} ^ {+} = 2 \mathrm{Cr} ^ {3 +} + 6 \mathrm{Fe} ^ {3 +} + 7 \mathrm{H} _ {2} \mathrm{O} \end{array}
+\begin{array}{r l}   3 \mathrm{H} _ {2} \mathrm{TeO} _ {3} + \mathrm{Cr} _ {2} \mathrm{O} _ {7} ^ {2 -} + 8 \mathrm{H} ^ {+} + 2 \mathrm{H} _ {2} \mathrm{O} = 3 \mathrm{H} _ {6} \mathrm{TeO} _ {6} + 2 \mathrm{Cr} ^ {3 +} \\   \mathrm{Cr} _ {2} \mathrm{O} _ {7} ^ {2 -} + 6 \mathrm{Fe} ^ {2 +} + 14 \mathrm{H} ^ {+} = 2 \mathrm{Cr} ^ {3 +} + 6 \mathrm{Fe} ^ {3 +} + 7 \mathrm{H} _ {2} \mathrm{O} \end{array}
 $$
 
 4-2-2(5 分)
 
 $$
-\begin{array}{r l} & \mathrm{n} \left(\mathrm{Cr} _ {2} \mathrm{O} _ {7} ^ {2 -}\right) = 40.02 \times 0.02334 \times 10 ^ {- 3} - 15.67 \times 0.2005 \div 6 = 4.104 \times 10 ^ {- 4} \mathrm{mol} (1 \text {分}) \\ & \omega (\mathrm{Te}) = 3 \times 4.104 \times 10 ^ {- 4} \times 127.6 \div 0.3631 \times 100 \% = 43.27 \% (1 \text {分}) \end{array}
+\begin{array}{r l}   \mathrm{n} \left(\mathrm{Cr} _ {2} \mathrm{O} _ {7} ^ {2 -}\right) = 40.02 \times 0.02334 \times 10 ^ {- 3} - 15.67 \times 0.2005 \div 6 = 4.104 \times 10 ^ {- 4} \mathrm{mol} (1 \text {分}) \\   \omega (\mathrm{Te}) = 3 \times 4.104 \times 10 ^ {- 4} \times 127.6 \div 0.3631 \times 100 \% = 43.27 \% (1 \text {分}) \end{array}
 $$
 
 ---
@@ -342,7 +344,7 @@ $$
 
 ---
 
-### 第 6 题（6 分）多核金I硫化物团簇具有丰富的
+### 第 6 题（6 分）多核金硫化物团簇
 
 > 来源：清北营 2026年清北营暑假高二班-11 第 6 题｜难度 ⭐⭐⭐⭐
 
@@ -392,7 +394,7 @@ Au5-LHAu5-SP C
 
 ---
 
-### 第 7 题（7 分）氟磷酸钙中掺杂的平均价态的测
+### 第 7 题（7 分）铬掺杂的氟磷酸钙
 
 > 来源：chemy 第39届 HiChO 初赛模拟1 第 2 题｜难度 ⭐⭐⭐⭐
 
@@ -541,7 +543,7 @@ $$
 | ![[5e943a199ed8215aa70903267802b5eb7db84cad9a9197b9bb754f9e18adbbed.jpg\|250]] | ![[94f80904e6bb20c69c0c714fbe6c0ca424e95c511ff0721668ce2aee2e2b6944.jpg\|250]] |
 
 $$
-\begin{array}{r l} & p = - (1.3 \mathrm{eV/atom-0.2eV/atom}) / (5.0 \mathrm {\text{Å}^ {3} /atom-10.0 \text{Å}^ {3} /atom}) = 3.5 \times 10 ^ {10} \mathrm{Pa} \\ & \quad (2 \text {分,} 2.7 \times 10 ^ {10} \mathrm{Pa} \sim 3.7 \times 10 ^ {10} \mathrm{Pa} \text {均得分}) \end{array}
+\begin{array}{r l}   p = - (1.3 \mathrm{eV/atom-0.2eV/atom}) / (5.0 \mathrm {\text{Å}^ {3} /atom-10.0 \text{Å}^ {3} /atom}) = 3.5 \times 10 ^ {10} \mathrm{Pa} \\   \quad (2 \text {分,} 2.7 \times 10 ^ {10} \mathrm{Pa} \sim 3.7 \times 10 ^ {10} \mathrm{Pa} \text {均得分}) \end{array}
 $$
 
 8-2-1 已知 $\mathrm{eg} - \mathrm{N}$ 的正当晶胞为复晶胞。根据文射线的射谱，确定 $\mathrm{cg} - \mathrm{N}$ 的点阵形式和晶胞参数 $a$ ，可他用到的信息如下：
@@ -636,7 +638,7 @@ $$
 与钠原子相比，钾原子向 cg-N 表面转移更多电荷（2 分）
 
 $$
-\begin{array}{r l} & \mathrm {1. KN_ {3} 比NaN_ {3} 稳定性更高, 更安全} \\ & 2. \text {   无需碳纳米管进行纳米限域,   } \mathrm{-cg-N的生产更易于规模化} \\ & (2 \text {   分,盲之有理即可得分 }) \end{array}
+\begin{array}{r l}   \mathrm {1. KN_ {3} 比NaN_ {3} 稳定性更高, 更安全} \\   2. \text {   无需碳纳米管进行纳米限域,   } \mathrm{-cg-N的生产更易于规模化} \\   (2 \text {   分,盲之有理即可得分 }) \end{array}
 $$
 
 $$
@@ -647,7 +649,7 @@ $$
 
 ---
 
-### 第 9 题（11 分）离子晶体在绝对零度时为完美晶
+### 第 9 题（11 分）晶体缺陷
 
 > 来源：清北营 2026年清北营暑假高二班-11 第 2 题｜难度 ⭐⭐⭐⭐
 
@@ -927,7 +929,7 @@ Ru 半径比 Os 小, C $_{1}$ 类似物的两个 B $_{5}$ H $_{10}$ 环间距更
 
 ---
 
-### 第 11 题（7 分）铁是地壳中第四个丰度最大的元
+### 第 11 题（7 分）Fe 的配位化学
 
 > 来源：伽马 伽马化学2026年暑期模拟5 第 1 题｜难度 ⭐⭐⭐⭐
 
@@ -1253,7 +1255,7 @@ $$
 
 ---
 
-### 第 14 题（13 分）光合作用是个复杂的过程在人们
+### 第 14 题（13 分）光合作用的深入探究之 Hill 反应
 
 > 来源：清北营 清北营2026年物化专题班1 第 7 题｜难度 ⭐⭐⭐⭐
 
@@ -1478,7 +1480,7 @@ $$
 
 ---
 
-### 第 16 题（9 分）可以用离子选择电极监测乳品厂
+### 第 16 题（9 分）硝酸根的探测
 
 > 来源：伽马 伽马化学2026年暑期模拟5 第 5 题｜难度 ⭐⭐⭐⭐
 
@@ -1493,7 +1495,7 @@ $$
 产生相同电位响应的被测离子活度与干扰离子活度的比值。在本题中，认为离子活度等于其浓度。已知 $Cl^{-}$ ， $SO_{4}^{2-}$ ， $ClO_{4}^{-}$ 对 $NO_{3}^{-}$ 测定的选择性系数分别表示为：
 
 $$
-\begin{array}{r l} & \mathrm {K_ {NO_ {3} ^ {-} ,Cl^ {-}} = \frac {[NO_ {3} ^ {-} ]}{[Cl^ {-} ]} = 4.9\times 10^ {- 2}} \\ & \mathrm {K_ {NO_ {3} ^ {-} ,SO_ {4} ^ {2 - }} = \frac {[NO_ {3} ^ {-} ]}{[SO_ {4} ^ {2 - } ]} = 4.1\times 10^ {- 5}} \\ & \mathrm {K_ {NO_ {3} ^ {-} ,ClO_ {4} ^ {-}} = \frac {[NO_ {3} ^ {-} ]}{[ClO_ {4} ^ {-} ]} = 1.0\times 10^ {- 3}} \end{array}
+\begin{array}{r l}   \mathrm {K_ {NO_ {3} ^ {-} ,Cl^ {-}} = \frac {[NO_ {3} ^ {-} ]}{[Cl^ {-} ]} = 4.9\times 10^ {- 2}} \\   \mathrm {K_ {NO_ {3} ^ {-} ,SO_ {4} ^ {2 - }} = \frac {[NO_ {3} ^ {-} ]}{[SO_ {4} ^ {2 - } ]} = 4.1\times 10^ {- 5}} \\   \mathrm {K_ {NO_ {3} ^ {-} ,ClO_ {4} ^ {-}} = \frac {[NO_ {3} ^ {-} ]}{[ClO_ {4} ^ {-} ]} = 1.0\times 10^ {- 3}} \end{array}
 $$
 
 16-2-1 当乳清中 $NO_{3}^{-}$ 的含量为 $1.4 \times 10^{-3} \, mol \cdot L^{-1}$ ， $Cl^{-}$ 的含量为 $1.6 \times 10^{-2} \, mol \cdot L^{-1}$ 时，为使得 $NO_{3}^{-}$ 测定误差小于 1%，计算分析应当选用下列哪种物质来消除 $Cl^{-}$ 离子的干扰？
@@ -1543,7 +1545,7 @@ $$
 16-2-2(2分)
 
 $$
-\begin{array}{r l} \frac {4.9 \times 10 ^ {- 2} \times (1.6 \times 10 ^ {- 2} - 2 x) + 4.1 \times 10 ^ {- 5} \times x}{1.4 \times 10 ^ {- 3}} & = 0.01, x = 7.9 \times 10 ^ {- 3} \mathrm{mol} \bullet \mathrm{L} ^ {- 1} \\ \mathrm{m} & = 7.9 \times 10 ^ {- 3} \times 311.87 = 2.5 \mathrm{g} \end{array}
+\begin{array}{r l} \frac {4.9 \times 10 ^ {- 2} \times (1.6 \times 10 ^ {- 2} - 2 x) + 4.1 \times 10 ^ {- 5} \times x}{1.4 \times 10 ^ {- 3}}   = 0.01, x = 7.9 \times 10 ^ {- 3} \mathrm{mol} \bullet \mathrm{L} ^ {- 1} \\ \mathrm{m}   = 7.9 \times 10 ^ {- 3} \times 311.87 = 2.5 \mathrm{g} \end{array}
 $$
 
 16-3(2 分)
@@ -1555,7 +1557,7 @@ $$
 16-4(2 分)最后允许存在的醋酸根浓度为:
 
 $$
-\begin{array}{r l} & c (\mathrm {AcO^ {-}}) = \frac {1.4 \times 10 ^ {- 3} \times 0.01}{2.7 \times 10 ^ {- 3}} = 5.2 \times 10 ^ {- 3} \mathrm{mol} \bullet \mathrm{L} ^ {- 1} \\ & c (\mathrm{AcOH}) = 1.6 \times 10 ^ {- 2} - 5.2 \times 10 ^ {- 3} = 1.1 \times 10 ^ {- 2} \mathrm{mol} \bullet \mathrm{L} ^ {- 1} \\ & [ \mathrm{H} ^ {+} ] = \frac {1.7 \times 10 ^ {- 5} \times 1.1 \times 10 ^ {- 2}}{5.2 \times 10 ^ {- 3}} = 3.5 \times 10 ^ {- 5} \mathrm{mol} \bullet \mathrm{L} ^ {- 1}, \mathrm{pH} <   4.45 \end{array}
+\begin{array}{r l}   c (\mathrm {AcO^ {-}}) = \frac {1.4 \times 10 ^ {- 3} \times 0.01}{2.7 \times 10 ^ {- 3}} = 5.2 \times 10 ^ {- 3} \mathrm{mol} \bullet \mathrm{L} ^ {- 1} \\   c (\mathrm{AcOH}) = 1.6 \times 10 ^ {- 2} - 5.2 \times 10 ^ {- 3} = 1.1 \times 10 ^ {- 2} \mathrm{mol} \bullet \mathrm{L} ^ {- 1} \\   [ \mathrm{H} ^ {+} ] = \frac {1.7 \times 10 ^ {- 5} \times 1.1 \times 10 ^ {- 2}}{5.2 \times 10 ^ {- 3}} = 3.5 \times 10 ^ {- 5} \mathrm{mol} \bullet \mathrm{L} ^ {- 1}, \mathrm{pH} <   4.45 \end{array}
 $$
 
 ---
@@ -1567,19 +1569,19 @@ $$
 | 1 | 生物相容性的金属 | [[题-HYS-40-01-高周期过渡金属M具有很好的生]] | 化英社 | 元素与分析 | ⭐⭐⭐⭐ | 7 |
 | 2 | 碳族元素需要得到或失去四个电 | [[题-QBY-17-02-碳族元素需要得到或失去四个电]] | 清北营 | 元素与分析 | ⭐⭐⭐⭐ | 11 |
 | 3 | 一氟化硼及其等电子体 | [[题-CM-19-01-一氟化硼BF是由硼与氟元素形]] | chemy | 元素与分析 | ⭐⭐⭐⭐ | 9 |
-| 4 | Te的卤化物有着非常丰富的结 | [[题-GM-05-04-Te的卤化物有着非常丰富的结]] | 伽马 | 元素与分析 | ⭐⭐⭐⭐ | 6 |
+| 4 | Te 的元素化学 | [[题-GM-05-04-Te的卤化物有着非常丰富的结]] | 伽马 | 元素与分析 | ⭐⭐⭐⭐ | 6 |
 | 5 | 元素推断与方程式书写 | [[题-XeC-40-05-元素X的名称来自希腊神话中满]] | XeChem | 元素与分析 | ⭐⭐⭐⭐ | 6 |
-| 6 | 多核金I硫化物团簇具有丰富的 | [[题-QBY-11-06-多核金I硫化物团簇具有丰富的]] | 清北营 | 元素与分析 | ⭐⭐⭐⭐ | 6 |
-| 7 | 氟磷酸钙中掺杂的平均价态的测 | [[题-CM-175-02-氟磷酸钙中掺杂的平均价态的测]] | chemy | 元素与分析 | ⭐⭐⭐⭐ | 7 |
+| 6 | 多核金硫化物团簇 | [[题-QBY-11-06-多核金I硫化物团簇具有丰富的]] | 清北营 | 元素与分析 | ⭐⭐⭐⭐ | 6 |
+| 7 | 铬掺杂的氟磷酸钙 | [[题-CM-175-02-氟磷酸钙中掺杂的平均价态的测]] | chemy | 元素与分析 | ⭐⭐⭐⭐ | 7 |
 | 8 | cg-N: 结构与合成 | [[题-HYS-11-04-分子氙通常被视为惰性物质因为]] | 化英社 | 结构化学 | ⭐⭐⭐⭐ | 13 |
-| 9 | 离子晶体在绝对零度时为完美晶 | [[题-QBY-11-02-离子晶体在绝对零度时为完美晶]] | 清北营 | 结构化学 | ⭐⭐⭐⭐ | 11 |
+| 9 | 晶体缺陷 | [[题-QBY-11-02-离子晶体在绝对零度时为完美晶]] | 清北营 | 结构化学 | ⭐⭐⭐⭐ | 11 |
 | 10 | 平面硼环 | [[题-CM-14-06-硼和碳是周期表中唯二可形成大]] | chemy | 结构化学 | ⭐⭐⭐⭐ | 13 |
-| 11 | 铁是地壳中第四个丰度最大的元 | [[题-GM-05-01-铁是地壳中第四个丰度最大的元]] | 伽马 | 结构化学 | ⭐⭐⭐⭐ | 7 |
+| 11 | Fe 的配位化学 | [[题-GM-05-01-铁是地壳中第四个丰度最大的元]] | 伽马 | 结构化学 | ⭐⭐⭐⭐ | 7 |
 | 12 | $CoSb_{3}$ 基方钴矿热电材料的晶体结构 | [[题-XeC-40-04-方钴矿系skutterudi]] | XeChem | 结构化学 | ⭐⭐⭐⭐ | 6 |
 | 13 | 随机中的动热力学 | [[题-HYS-02-06-在噪声中偏向于随机里定轨在化]] | 化英社 | 化学原理 | ⭐⭐⭐⭐ | 13 |
-| 14 | 光合作用是个复杂的过程在人们 | [[题-QBY-01-07-光合作用是个复杂的过程在人们]] | 清北营 | 化学原理 | ⭐⭐⭐⭐ | 13 |
+| 14 | 光合作用的深入探究之 Hill 反应 | [[题-QBY-01-07-光合作用是个复杂的过程在人们]] | 清北营 | 化学原理 | ⭐⭐⭐⭐ | 13 |
 | 15 | 你有轮牌吗 | [[题-CM-14-04-第111号元素轮是第七周期超]] | chemy | 化学原理 | ⭐⭐⭐⭐ | 13 |
-| 16 | 可以用离子选择电极监测乳品厂 | [[题-GM-05-05-可以用离子选择电极监测乳品厂]] | 伽马 | 化学原理 | ⭐⭐⭐⭐ | 9 |
+| 16 | 硝酸根的探测 | [[题-GM-05-05-可以用离子选择电极监测乳品厂]] | 伽马 | 化学原理 | ⭐⭐⭐⭐ | 9 |
 
 合计 150 分；难度 ⭐⭐⭐⭐ ×16、⭐⭐⭐⭐⭐ ×0；有机化学 0 题、真题 0 题；跨 5 个来源机构。
 > 难度星级取自题卡 `difficulty` 字段。**本库 `exam_stage` 字段不可信**，故本卷不按考段标注。
