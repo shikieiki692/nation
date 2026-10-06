@@ -20,7 +20,7 @@ related_kps:
 target_kp:
   - "[[相图]]"
   - "[[胶体]]"
-  - "[[表面化学]]"
+  - "[[表面与界面化学]]"
 applicable_rounds:
   - 第三轮
 class_type: 提高班（第三轮取相平衡段+前半活度段可回流到电化学专题）
