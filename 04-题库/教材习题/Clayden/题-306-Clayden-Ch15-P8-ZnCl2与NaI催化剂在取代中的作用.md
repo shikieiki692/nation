@@ -26,7 +26,7 @@ source_norm: "Clayden 有机化学"
 ---
 # 题-306: ZnCl₂与NaI催化剂在取代中的作用
 
-## 题题目
+## 题目
 
 Explain the role of the following catalysts in nucleophilic substitution reactions:
 
