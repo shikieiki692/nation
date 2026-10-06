@@ -107,6 +107,12 @@ def check(path):
     # WARN ③：题面指图但无图
     if FIG_HINT.search(q) and not IMG_REF.search(q):
         warn.append("题面指图但无图")
+    # WARN ④：缺 `## 题目` 区标题
+    #   抽取器以「首个答案节标题」为题面终点，缺题面区标题时 H1 之后的来源标注、
+    #   说明文字会一并算进题面（内容可用但夹带杂质）。2026-10-07 实测：闸门原先只查答案切分、
+    #   不查题面区标题，导致 16 张「只有题号分节」的题组卡从未进 FATAL，整批漏网。
+    if not re.search(r"^#{2,4}[ \t]*(?:题目|本讲习题|习题)[ \t]*$", body, re.M):
+        warn.append("缺 `## 题目` 区标题（题面会夹带 H1 后的来源标注与说明文字）")
     return fatal, warn
 
 
