@@ -849,6 +849,49 @@ def _resize_and_center_images(doc: Document) -> None:
 
     body = doc.element.body
 
+    # —— 注意：表格内插图的最终收紧在函数末尾（_clamp_table_images），
+    #    以免被下方按 aspect 的通用缩放再次放大。——
+    CELL_MARGIN = int(0.3 * CM_TO_EMU)
+
+    def _clamp_table_images():
+        for tbl in body.iter(f"{{{W_NS}}}tbl"):
+            # 列宽表：优先 tblGrid 的 gridCol；无则退回均分
+            grid = [int(gc.get(f"{{{W_NS}}}w") or 0)
+                    for gc in tbl.iter(f"{{{W_NS}}}gridCol")]
+            grid = [g for g in grid if g > 0]
+            if not grid:
+                continue
+            for tr in tbl.iter(f"{{{W_NS}}}tr"):
+                for ci, tc in enumerate(tr.findall(f"{{{W_NS}}}tc")):
+                    # 列宽：按 tc 序号取 gridCol（超界则取最后列）
+                    col_dxa = grid[ci] if ci < len(grid) else grid[-1]
+                    limit = max(int(1.0 * CM_TO_EMU), col_dxa * 635 - CELL_MARGIN)
+                    for drawing in tc.iter(f"{{{W_NS}}}drawing"):
+                        inline = drawing.find(f"{{{WP_NS}}}inline")
+                        if inline is None:
+                            continue
+                        extent = inline.find(f"{{{WP_NS}}}extent")
+                        if extent is None:
+                            continue
+                        try:
+                            cx = int(extent.get("cx") or 0)
+                            cy = int(extent.get("cy") or 0)
+                        except ValueError:
+                            continue
+                        if cx <= 0 or cy <= 0 or cx <= limit:
+                            continue
+                        ncx, ncy = limit, int(cy * limit / cx)
+                        extent.set("cx", str(ncx))
+                        extent.set("cy", str(ncy))
+                        for aext in drawing.iter(f"{{{A_NS}}}ext"):
+                            try:
+                                if int(aext.get("cx", "0")) > 0 and abs(int(aext.get("cx")) / int(aext.get("cy")) - cx / cy) < 0.1:
+                                    aext.set("cx", str(ncx))
+                                    aext.set("cy", str(ncy))
+                                    break
+                            except (ValueError, TypeError):
+                                continue
+
     for p_elem in body.iter(f"{{{W_NS}}}p"):
         drawings = p_elem.findall(f".//{{{W_NS}}}drawing")
         if not drawings:
@@ -919,6 +962,9 @@ def _resize_and_center_images(doc: Document) -> None:
             jc = OxmlElement("w:jc")
             pPr.append(jc)
         jc.set(f"{{{W_NS}}}val", "center")
+
+    # —— 末尾收紧：把表格内插图限制到单元格宽度（并排图防溢出）——
+    _clamp_table_images()
 
 
 def _convert_inline_to_wrap_top_bottom(drawing, inline, cx, cy):

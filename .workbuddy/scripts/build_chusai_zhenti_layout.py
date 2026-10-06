@@ -686,6 +686,48 @@ def cap_image_width(p: str) -> str:
     return p
 
 
+# 单元格内插图：按所在单元格宽度收缩（并排图用，防溢出单元格）
+CELL_GRID_RE = re.compile(r'<w:gridCol w:w="(\d+)"')
+CELL_MARGIN_EMU = int(0.3 * CM_TO_EMU)  # 单元格左右留白
+
+
+def cap_table_images(tbl_xml: str) -> str:
+    """把表格内每张图按所在列宽收缩（仅在超出列宽时）。
+
+    pandoc 把表格内图片按原图比例放到「页面可用宽度」⇒ 三列并排时会溢出列宽。
+    此函数按 `w:gridCol` 列宽（DXA，1/20 pt）逐个单元格收图。
+    """
+    grids = [int(g) for g in CELL_GRID_RE.findall(tbl_xml)]
+    if not grids:
+        return tbl_xml
+    # DXA → EMU：1 pt = 12700 EMU，gridCol 单位是 1/20 pt ⇒ 1 dxa = 635 EMU
+    col_emu = [int(g * 635) for g in grids]
+
+    # 逐单元格处理（<w:tc>…</w:tc>），按出现顺序对应列序
+    tc_re = re.compile(r"<w:tc>.*?</w:tc>", re.S)
+    idx = [0]
+
+    def fix_tc(m):
+        frag = m.group(0)
+        col = idx[0] % len(col_emu)
+        idx[0] += 1
+        limit = max(int(1.0 * CM_TO_EMU), col_emu[col] - CELL_MARGIN_EMU)
+
+        def _size(cx, cy):
+            if cx <= 0 or cy <= 0 or cx <= limit:
+                return cx, cy
+            r = limit / cx
+            return limit, int(cy * r)
+
+        frag = EXTENT_RE.sub(
+            lambda mm: (lambda s: f'<wp:extent cx="{s[0]}" cy="{s[1]}"')(_size(int(mm.group(1)), int(mm.group(2)))), frag)
+        frag = A_EXT_RE.sub(
+            lambda mm: (lambda s: f'<a:ext cx="{s[0]}" cy="{s[1]}"')(_size(int(mm.group(1)), int(mm.group(2)))), frag)
+        return frag
+
+    return tc_re.sub(fix_tc, tbl_xml)
+
+
 SKIP_STYLES = {"Heading1", "Heading2", "Heading3", "Heading4", "Heading5",
                "Heading6", "Title", "Subtitle", "BlockText", "SourceCode",
                "TableCaption", "ImageCaption", "Caption"}
@@ -694,6 +736,8 @@ CAPTION_RE = re.compile(r"^[（(]?第\s*\d+\s*题\s*图|^图\s*\d+")
 
 
 def process_document_xml(xml: str, stat: dict) -> str:
+    # —— 表格内插图先按列宽收缩（并排图防溢出），再做段落级处理 ——
+    xml = TBL_RE.sub(lambda m: cap_table_images(m.group(0)), xml)
     # —— 表格外区域 vs 表格内：先记下表格区间，表格段落不做首行缩进 ——
     tbl_spans = [(m.start(), m.end()) for m in TBL_RE.finditer(xml)]
 
