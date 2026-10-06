@@ -77,9 +77,71 @@ LEAK = re.compile(
     r'注意此题|请注意本题|希望我的|这题[^\n]{0,8}没救|黄金好|大声|记住这个|送分')
 # 批次级排除：源为「讲稿」（授课脚本，题面混入讲解/口播）
 BATCH_BAD = re.compile(r'讲稿')
-QUOTA = [('元素与分析', '第一部分　元素化学与分析化学', 7),
-         ('结构化学', '第二部分　结构化学', 5),
-         ('化学原理', '第三部分　化学原理', 4)]
+_MOD_LABEL = {'元素与分析': '元素化学与分析化学', '结构化学': '结构化学', '化学原理': '化学原理'}
+_CN_NUM = ['一', '二', '三', '四', '五', '六']
+
+
+def _arg_quota():
+    """`--quota "结构化学=5,化学原理=5"` ⇒ 自定义分卷模块与题量（默认 7/5/4）。
+
+    模块名须为 subject_module 取值之一（元素与分析／结构化学／化学原理）；
+    部分标题按给定顺序重编号（第一部分、第二部分…）。
+    """
+    val = None
+    for i, a in enumerate(sys.argv):
+        if a == '--quota' and i + 1 < len(sys.argv):
+            val = sys.argv[i + 1]
+        elif a.startswith('--quota='):
+            val = a.split('=', 1)[1]
+    if not val:
+        return [('元素与分析', '第一部分　元素化学与分析化学', 7),
+                ('结构化学', '第二部分　结构化学', 5),
+                ('化学原理', '第三部分　化学原理', 4)]
+    out = []
+    for k, part in enumerate(val.split(',')):
+        if '=' not in part:
+            raise SystemExit('--quota 格式应为「模块=数量,…」：%s' % part)
+        m, n = part.split('=', 1)
+        m = m.strip()
+        if m not in _MOD_LABEL:
+            raise SystemExit('--quota 未知模块「%s」（可用：元素与分析/结构化学/化学原理）' % m)
+        out.append((m, '第%s部分　%s' % (_CN_NUM[k], _MOD_LABEL[m]), int(n)))
+    if not out:
+        raise SystemExit('--quota 为空')
+    return out
+
+
+def _arg_target():
+    """全卷满分（默认 150）。"""
+    for i, a in enumerate(sys.argv):
+        if a == '--target' and i + 1 < len(sys.argv):
+            return int(sys.argv[i + 1])
+        if a.startswith('--target='):
+            return int(a.split('=', 1)[1])
+    return 150
+
+
+def _arg_exclude():
+    """`--exclude <paths.txt>` ⇒ 逐行给出**禁用卡路径**（回源核验发现问题时换卡用）。"""
+    path = None
+    for i, a in enumerate(sys.argv):
+        if a == '--exclude' and i + 1 < len(sys.argv):
+            path = sys.argv[i + 1]
+        elif a.startswith('--exclude='):
+            path = a.split('=', 1)[1]
+    if not path:
+        return set()
+    out = set()
+    for l in open(path, encoding='utf-8'):
+        l = l.strip()
+        if l:
+            out.add(l.replace('\\', '/'))
+    return out
+
+
+QUOTA = _arg_quota()
+TARGET = _arg_target()
+EXCLUDE = _arg_exclude()
 VOL_PREF = ['化英社', '清北营', 'chemy', '伽马', '壹尖培优', '汇智', 'XeChem']
 
 # ── 图片判噪（规则化，可复现）────────────────────────────────────────────
@@ -561,6 +623,8 @@ def build_pool():
     pool = collections.defaultdict(list)
     for rel in SRCS:
         for p in sorted(glob.glob(os.path.join(BASE, rel, '**', '题-*.md'), recursive=True)):
+            if p.replace(os.sep, '/') in EXCLUDE:      # ★ 回源核验发现问题 ⇒ 换卡
+                continue
             t = open(p, encoding='utf-8').read()
             def g(k):
                 m = re.search(r'^' + k + r':\s*(.*)$', t, re.M)
@@ -729,6 +793,7 @@ def write_vol(picks, flat, SC):
         seg_score[mod] = sum(SC[c['path']] for c in got)
     n4 = sum(1 for _, c, _ in flat if c['difficulty'] == 4)
     n5 = sum(1 for _, c, _ in flat if c['difficulty'] == 5)
+    mins = max(60, int(round(len(flat) * 11.25 / 10.0) * 10))   # 16 题→180 分/分钟；10 题→110
     modshort = {'元素与分析': '元素与分析', '结构化学': '结构化学', '化学原理': '化学原理'}
 
     ans, stu = [], []
@@ -748,15 +813,15 @@ def write_vol(picks, flat, SC):
         prev = '、'.join('[[04-题库/初赛模拟卷%s（非有机·答案版）|卷 %s]]' % (x, x)
                           for x in before) or '—'
         if is_ans:
-            out += ['> **组卷口径**：16 题跨 **%d 个来源机构**抽取（%s），全部取自各机构 '
+            out += ['> **组卷口径**：%d 题跨 **%d 个来源机构**抽取（%s），全部取自各机构 '
                     '**2025~2026 年最新批次**（第39/40届 ＋ 2026 年班次）；均满足 `difficulty≥⭐⭐⭐⭐`、'
                     '`fidelity=原书逐字`；**已剔除全部有机化学题与国内初赛真题**，与 %s 用题零重复。'
-                    % (len(orgs), '、'.join(orgs), prev),
-                    '> **范围**：' + segtxt + '，**满分 %d 分，建议用时 180 分钟**；'
-                    '难度 ⭐⭐⭐⭐ ×%d、⭐⭐⭐⭐⭐ ×%d。' % (total, n4, n5),
+                    % (len(flat), len(orgs), '、'.join(orgs), prev),
+                    '> **范围**：' + segtxt + '，**满分 %d 分，建议用时 %d 分钟**；'
+                    '难度 ⭐⭐⭐⭐ ×%d、⭐⭐⭐⭐⭐ ×%d。' % (total, mins, n4, n5),
                     '> 题卡溯源见卷末选题清单。']
         else:
-            out += ['> **考试说明**：本卷共 16 题，满分 %d 分，建议用时 180 分钟。' % total,
+            out += ['> **考试说明**：本卷共 %d 题，满分 %d 分，建议用时 %d 分钟。' % (len(flat), total, mins),
                     '> **范围**：' + segtxt + '。',
                     '> 请将答案写在答题纸上，写出必要的推理与计算过程。']
         out += ['', '---', '']
@@ -885,7 +950,7 @@ def main():
     if picks is None:
         picks = pick_vol(pool, used, max_per_src=4, fps0=fps0)
     flat = [(mod, c, i) for mod, got in picks for i, c in enumerate(got, 1)]
-    SC = assign_scores(flat, target=150)
+    SC = assign_scores(flat, target=TARGET)
     total = sum(SC[c['path']] for _, c, _ in flat)
     orgs = sorted({c['src_dir'] for _, c, _ in flat})
     print('=' * 96)
@@ -895,6 +960,8 @@ def main():
         print('  %2d d%d q%-5d %2d分 前缀%-4s 图%-2d 有机%d [%-6s] %s'
               % (i, c['difficulty'], c['qlen'], SC[c['path']], B.vote_prefix(c),
                  len(c['imgs']), len(hits), c['src_dir'], desc_of(c)[:30]))
+        if '--paths' in sys.argv:
+            print('       %s' % c['path'])
     if mode == 'apply':
         write_vol(picks, flat, SC)
         json.dump([[mod, [dict(path=c['path'].replace(os.sep, '/'), src_dir=c['src_dir'],
