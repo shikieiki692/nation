@@ -118,6 +118,10 @@ skills/
 # 图片排版器（2026-09-30 固化）：把 Markdown 里「同小问的多图组」并排成表格，
 # 避免一张图独占一行/一页。试卷线与讲义线通用（详见脚本 docstring 的列数/宽度实测）。
 !11-模板/scripts/layout_figs.py
+# 考点-题源外挂索引生成与校验工具（2026-10-06 固化）
+!11-模板/scripts/gen_kp_index.py
+!11-模板/scripts/gen_kp_index_md.py
+!11-模板/scripts/verify_kp_index.py
 # 回堵：上面的 ! 会越过第 14 行的 __pycache__/ 规则，这里再排除一次
 11-模板/scripts/qa/__pycache__/
 
