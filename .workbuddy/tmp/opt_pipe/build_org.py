@@ -718,7 +718,25 @@ def fix_orphan_tables(s):
     return re.sub(r'\n{3,}', '\n\n', '\n'.join(out))
 
 
+def strip_note_lines(s):
+    """剔除**内部注记行**（行首 `📎/⛔/📄`，或行首 `答案出处：`）。
+
+    🔴 2026-10-07：注记只作文档用途（校勘/出处），**不应渲染进出卷成品**——
+    实测**895 张卡**含注记行（题面 14 / 答案 885），若不剥离，组卷时会在题干或答案里
+    冒出一行「> 📄 校勘（…）：…」。此处仅**窄判据**（行首标记/`答案出处：`），
+    避免误删正文（⛔ 不用 `NOTE_LINE` 的宽判据，它含 `源卷答案` 等可能出现在正文的串）。
+    """
+    keep = []
+    for l in s.split('\n'):
+        st = l.strip()
+        if re.match(r'^(?:>+\s*)?(?:📎|⛔|📄)', st) or re.match(r'^(?:>+\s*)?答案出处[：:]', st):
+            continue
+        keep.append(l)
+    return '\n'.join(keep)
+
+
 def clean_q(q):
+    q = strip_note_lines(q)
     q = strip_src_heading(q)
     q = flatten_layout_tables(q)
     q = drop_empty_headings(q)
@@ -755,6 +773,7 @@ def strip_artifacts(s):
 
 
 def clean_a(a, q):
+    a = strip_note_lines(a)
     a = strip_src_heading(a)
     a = flatten_layout_tables(a)
     a = strip_q_echo(q, a)
