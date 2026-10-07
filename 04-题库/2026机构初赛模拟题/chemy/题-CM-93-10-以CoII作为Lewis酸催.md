@@ -14,7 +14,7 @@ knowledge_points:
   - "[[路易斯酸]]"
   - "[[呋喃]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-07
 status: 已填充
 exam_stage: 初赛
 subject_module: 有机化学
@@ -55,7 +55,7 @@ $$
 
 ## 参考答案
 
-## 第10题（10分）
+第10题（10分）
 
 ![](images/1e2376d535033a34cbcd41f660dd2c85b520a03dcc1c55eb42002f903c6238fb.jpg)
 

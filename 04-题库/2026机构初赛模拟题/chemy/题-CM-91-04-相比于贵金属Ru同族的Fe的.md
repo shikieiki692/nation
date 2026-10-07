@@ -15,7 +15,7 @@ knowledge_points:
   - "[[催化循环入门]]"
   - "[[配合物异构]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-07
 status: 已填充
 exam_stage: 初赛
 subject_module: 有机化学
@@ -58,7 +58,7 @@ source_file: "chemy试题/第35届中国化学奥林匹克Chemy题目合集..md"
 
 ## 参考答案
 
-## 第4题（16分）
+第4题（16分）
 
 4-1 Fe 为第一过渡系金属，而 Ru 为第二过渡系金属，Fe 电负性小，轨道收缩，与 H 成键离子性更强，故 Fe-H 中 H 上负电荷更集中，亲核性更强（2 分）
 

@@ -15,7 +15,7 @@ knowledge_points:
   - "[[周环反应]]"
   - "[[立体化学]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-07
 status: 已填充
 exam_stage: 初赛
 subject_module: 有机化学
@@ -44,7 +44,7 @@ C 和 D 均为含 2 个六元环和 1 个四元环的三环化合物，它们在
 
 ## 参考答案
 
-## 第10题（11分）
+第10题（11分）
 
 ![](images/bd33832cfd8965ce231446a93388904dee5276016106d0214b170df8083ebd74.jpg)
 

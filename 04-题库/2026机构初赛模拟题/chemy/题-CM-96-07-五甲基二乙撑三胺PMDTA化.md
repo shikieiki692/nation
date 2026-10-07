@@ -15,7 +15,7 @@ knowledge_points:
   - "[[高自旋与低自旋]]"
   - "[[氧化态]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-07
 status: 已填充
 exam_stage: 初赛
 subject_module: 结构化学
@@ -48,7 +48,7 @@ a) 为高自旋    b) 为低自旋    c) 高低自旋同时存在
 
 ## 参考答案
 
-## 第7题（8分）
+第7题（8分）
 
 
 

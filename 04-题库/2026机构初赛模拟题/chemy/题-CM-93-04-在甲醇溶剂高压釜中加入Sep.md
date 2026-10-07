@@ -14,7 +14,7 @@ knowledge_points:
   - "[[配位化学]]"
   - "[[原子簇化学]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-07
 status: 已填充
 exam_stage: 初赛
 subject_module: 有机化学
@@ -45,7 +45,7 @@ source_file: "chemy试题/第35届中国化学奥林匹克Chemy题目合集..md"
 
 ## 参考答案
 
-## 第4题（7分）
+第4题（7分）
 
 ![](images/57158d95bd0a41b6c3f16ef34a5e8a629a446affd15486f8880df35310b77116.jpg)
 

@@ -15,7 +15,7 @@ knowledge_points:
   - "[[自由基]]"
   - "[[立体化学]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-07
 status: 已填充
 exam_stage: 初赛
 subject_module: 有机化学
@@ -48,7 +48,7 @@ DMSO-二甲亚砜，DCM-二氯甲烷，TEA-三乙胺，THF-四氢呋喃，Toluen
 
 ## 参考答案
 
-## 第9题（8分）
+第9题（8分）
 
 ![](images/67eb7a42581ab68bccfd65b54859d64252aef13facce8e1fcf2c58d2215f4baa.jpg)
 
