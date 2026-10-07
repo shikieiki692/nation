@@ -350,17 +350,32 @@ def strip_q_echo(q, a):
     qsegs = [nz(p) for p in re.split(r'\n{2,}', q)]
     qsegs = [s for s in qsegs if len(s) >= 12]
     # ① 字符间容空白（治「黏连」回显）
+    # 🔴🔴 2026-10-07 修：原实现 `pat.sub('', a)` 无长度约束，遇到「题面段恰为答案的
+    #   子序列」时会**从头吞到尾**（实测 `题-HYS-40-03` 1652 字/14 图 → 0 字/0 图；
+    #   全库 6 张中招，且会一并污染**出卷答案区**）。⇒ 真回显长度≈段长，超长匹配＝误吞，**拒绝**。
     for seg in sorted(qsegs, key=len, reverse=True):
         try:
-            a = re.compile(r'[ \t{}]*'.join(map(re.escape, seg))).sub('', a)
+            pat = re.compile(r'[ \t{}]*'.join(map(re.escape, seg)))
         except re.error:
-            pass
+            continue
+        limit = 4 * len(seg) + 40
+        out, last, hit = [], 0, False
+        for m in pat.finditer(a):
+            if (m.end() - m.start()) > limit:
+                continue                       # ★ 拒绝过度匹配（非回显）
+            out.append(a[last:m.start()]); last = m.end(); hit = True
+        if hit:
+            out.append(a[last:])
+            a = "".join(out)
     # ②③ 段落级
+    # 🔴🔴 2026-10-07 修：原 `s in pn` 分支在**答案区无空行**（整块＝一个段落）时，
+    #   只要段内含任一题面片段就把**整段答案**删掉（实测 6 张答案被清空，并污染出卷）。
+    #   ⇒ 「答案段**包含**题面段」只在其长度与题面段相当（≤1.6×）时才算回显。
     keep = []
     for p in re.split(r'\n{2,}', a):
         pn = nz(p)
         if len(pn) >= 12:
-            if any(pn in s or s in pn for s in qsegs):
+            if any((pn in s) or (s in pn and len(pn) <= 1.6 * len(s)) for s in qsegs):
                 continue
             if len(pn) >= 40:
                 best, br = None, 0.0
@@ -840,7 +855,11 @@ def build_pool():
             #   注：评分符（`2'`）在手写/印刷答案都出现，无区分度，**不作判据**（实测误杀 HZ-01-02）。
             if '![[' not in a:
                 _an = re.sub(r'\s+', '', a); _qn = re.sub(r'\s+', '', q)
-                if len(_an) >= 40 and contain_ratio(_an, _qn) >= 0.80:
+                # 🔴 2026-10-07 补：单看 ratio 会漏掉「回显占比高、但总字数够」的卡
+                #   （实测 `题-HYS-02-01-科学…`：ratio 0.78、非回显实质仅 69 字 ⇒ 无实质解答）
+                #   ⇒ 叠加「**非回显实质 < 80 字** ⇒ 视为无答案」。
+                _r = contain_ratio(_an, _qn)
+                if len(_an) >= 40 and (_r >= 0.80 or (_r >= 0.70 and len(_an) * (1 - _r) < 80)):
                     ECHO_HITS.append(p.replace(os.sep, '/')); continue
                 if GARB2PAT.search(a):
                     GARB2_HITS.append(p.replace(os.sep, '/')); continue

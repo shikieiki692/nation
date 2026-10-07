@@ -111,7 +111,8 @@ def judge(p, rel):
         return "弃卡", "手写稿口语/涂鸦", meta
     if "![[" not in a:
         _an = re.sub(r"\s+", "", a); _qn = re.sub(r"\s+", "", q)
-        if len(_an) >= 40 and BO.contain_ratio(_an, _qn) >= 0.80:
+        _r = BO.contain_ratio(_an, _qn)
+        if len(_an) >= 40 and (_r >= 0.80 or (_r >= 0.70 and len(_an) * (1 - _r) < 80)):
             return "弃卡", "仅题干回显", meta
         if BO.GARB2PAT.search(a):
             return "弃卡", "OCR 乱码宏", meta
