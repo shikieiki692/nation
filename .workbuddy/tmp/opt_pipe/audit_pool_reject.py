@@ -20,7 +20,7 @@ OUT = os.path.join(BO.ROOT, "09-审计报告", "2026-10-07-不可组卷题目清
 
 # A 类＝内容不可用（需修）；B 类＝口径外（正常过滤）
 CLASS = {
-    "回源核验换卡": "A", "无答案/占位": "A", "假结构式": "A", "答案公式未转录": "A",
+    "回源核验换卡": "A", "无答案/占位": "A", "假结构式": "A", "答案乱码（无中文）": "A",
     "题名泄露": "A", "题面泄露": "A", "手写稿口语/涂鸦": "A", "仅题干回显": "A",
     "OCR 乱码宏": "A", "越界（含他题内容）": "A", "题面/答案过短": "A",
     "有机章节": "B", "非目标模块": "B", "省预赛": "B", "年份口径外": "B",
@@ -78,8 +78,9 @@ def judge(p, rel):
             return "弃卡", "无答案/占位", meta
     if BO.has_fake_struct(rawa) or BO.has_fake_struct(rawq):
         return "弃卡", "假结构式", meta
-    if len(rawa) >= 400 and rawa.count("$") == 0 and rawq.count("$") >= 10:
-        return "弃卡", "答案公式未转录", meta
+    if (len(rawa) >= 400 and rawa.count("$") == 0 and rawq.count("$") >= 10
+            and "![" not in rawa and not re.search(r"[\u4e00-\u9fff]", rawa)):
+        return "弃卡", "答案乱码（无中文）", meta
     tm = re.search(
         r"^#{2,4}\s*第\s*[0-9一二三四五六七八九十]+\s*题\s*[.．、]?\s*"
         r"(?:[（(][^）)\n]*[）)])?\s*([^\n（(]{2,26}?)\s*(?:[（(]|$)", rawq, re.M)
