@@ -799,7 +799,11 @@ def build_pool():
             a0 = clean_a(conv_imgs(rawa), q0)
             q, a = html_table_to_md(q0), html_table_to_md(a0)
             if LEAK.search(q):        # 题面泄露（源卡缺陷）⇒ 弃卡
-                continue
+                # ★ 2026-10-07 修正：先剔除**题目标题行**再判——标题里的「（12 分，占 8%）」
+                #   是分值不是答案；原判据会把标题分值当泄露（实测伽马 GM-25 系列 7 张被误弃）。
+                _qchk = re.sub(r'^#{2,4}[ \t]*第[ \t]*\d+[ \t]*题[^\n]*$', '', q, flags=re.M)
+                if LEAK.search(_qchk):
+                    continue
             qn = re.sub(r'\s+', '', q); an = re.sub(r'\s+', '', a)
             if len(an) < 25 or len(qn) < 60:
                 continue

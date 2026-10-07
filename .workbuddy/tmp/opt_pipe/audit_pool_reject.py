@@ -93,7 +93,10 @@ def judge(p, rel):
     a0 = BO.clean_a(BO.conv_imgs(rawa), q0)
     q, a = BO.html_table_to_md(q0), BO.html_table_to_md(a0)
     if BO.LEAK.search(q):
-        return "弃卡", "题面泄露", meta
+        # 剔除题目标题行后再判（标题的「（12 分）」是分值，不是泄露）
+        _qchk = re.sub(r"^#{2,4}[ \t]*第[ \t]*\d+[ \t]*题[^\n]*$", "", q, flags=re.M)
+        if BO.LEAK.search(_qchk):
+            return "弃卡", "题面泄露", meta
     qn = re.sub(r"\s+", "", q); an = re.sub(r"\s+", "", a)
     if len(an) < 25 or len(qn) < 60:
         return "弃卡", "题面/答案过短", meta
