@@ -18,6 +18,7 @@ knowledge_points: ["[[过渡金属催化]]", "[[催化循环入门]]"]
 used_in: []
 source_file: "[[习题-北斗40-2015BST7押题二]]"
 updated: 2026-09-21
+tags: [化竞, 教材习题, 北斗40, 模拟卷, 2019BST4强化一]
 ---
 
 # 题-356-北斗40-2015BST7押题二-08-Ziegler-Natta催化乙烯聚合

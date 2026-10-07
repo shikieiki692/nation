@@ -18,6 +18,7 @@ knowledge_points: ["[[亲核取代]]", "[[全合成]]"]
 used_in: []
 source_file: "[[习题-北斗40-2016BAT3一模]]"
 updated: 2026-09-21
+tags: [化竞, 教材习题, 北斗40, 模拟卷, 2019BST4强化一]
 ---
 
 # 题-293-北斗40-2016BAT3一模-08-Corey-Nicolaou大环内酯化

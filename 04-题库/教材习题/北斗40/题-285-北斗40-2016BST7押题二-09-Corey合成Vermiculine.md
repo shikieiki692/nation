@@ -18,6 +18,7 @@ knowledge_points: ["[[全合成]]", "[[立体化学]]"]
 used_in: []
 source_file: "[[习题-北斗40-2016BST7押题二]]"
 updated: 2026-09-21
+tags: [化竞, 教材习题, 北斗40, 模拟卷, 2019BST4强化一]
 ---
 
 # 题-285-北斗40-2016BST7押题二-09-Corey合成Vermiculine

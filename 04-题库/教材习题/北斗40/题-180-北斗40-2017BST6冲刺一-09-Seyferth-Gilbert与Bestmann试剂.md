@@ -18,6 +18,7 @@ knowledge_points: ["[[卡宾]]", "[[亲核加成]]"]
 used_in: []
 source_file: "[[习题-北斗40-2017BST6冲刺一]]"
 updated: 2026-09-21
+tags: [化竞, 教材习题, 北斗40, 模拟卷, 2019BST4强化一]
 ---
 
 # 题-180-北斗40-2017BST6冲刺一-09-Seyferth-Gilbert与Bestmann试剂

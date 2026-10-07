@@ -18,6 +18,7 @@ knowledge_points: ["[[Claisen重排]]", "[[周环反应]]"]
 used_in: []
 source_file: "[[习题-北斗40-2017BST4强化二]]"
 updated: 2026-09-21
+tags: [化竞, 教材习题, 北斗40, 模拟卷, 2019BST4强化一]
 ---
 
 # 题-170-北斗40-2017BST4强化二-09-Johnson-Claisen重排

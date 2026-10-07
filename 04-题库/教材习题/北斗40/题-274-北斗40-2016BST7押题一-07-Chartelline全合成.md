@@ -18,6 +18,7 @@ knowledge_points: ["[[全合成]]", "[[2+2环加成]]"]
 used_in: []
 source_file: "[[习题-北斗40-2016BST7押题一]]"
 updated: 2026-09-21
+tags: [化竞, 教材习题, 北斗40, 模拟卷, 2019BST4强化一]
 ---
 
 # 题-274-北斗40-2016BST7押题一-07-Chartelline全合成

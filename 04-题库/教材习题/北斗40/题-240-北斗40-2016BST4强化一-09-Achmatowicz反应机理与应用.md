@@ -18,6 +18,7 @@ knowledge_points: ["[[Achmatowicz重排]]", "[[杂环化合物]]", "[[亲电加�
 used_in: []
 source_file: "[[习题-北斗40-2016BST4强化一]]"
 updated: 2026-09-21
+tags: [化竞, 教材习题, 北斗40, 模拟卷, 2019BST4强化一]
 ---
 
 # 题-240-北斗40-2016BST4强化一-09-Achmatowicz反应机理与应用
