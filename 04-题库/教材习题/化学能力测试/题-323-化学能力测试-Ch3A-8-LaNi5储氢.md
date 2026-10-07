@@ -15,9 +15,10 @@ teaching_level: 竞赛
 fidelity: 原书逐字
 knowledge_points:
   - "[[晶胞]]"
-  - "[[六方晶系]]"
+  - "[[晶体结构]]"
   - "[[储氢材料]]"
   - "[[晶体密度公式]]"
+
 concepts:
   - "LaNi₅ 六方晶胞：a=511 pm、c=397 pm"
   - "晶胞含 3 La（顶点 1/6 ×12 + 底心 1/2 ×2）+ 15 Ni（= 1 LaNi₅ ×3? 见校勘）"

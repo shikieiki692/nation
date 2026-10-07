@@ -8,7 +8,7 @@ source_subject: 有机化学
 difficulty: 2
 teaching_level: 拓展
 syllabus_codes: []
-knowledge_points: ["[[芳香性]]", "[[Hückel规则]]", "[[共轭体系]]"]
+knowledge_points: ["[[芳香性]]", "[[Hückel规则]]", "[[共轭体系电子计数]]"]
 tags: [化竞, 题库, 教材习题, 有机化学]
 updated: 2026-07-09
 aliases: []

@@ -8,7 +8,7 @@ source_subject: 有机化学
 difficulty: 3
 teaching_level: 巩固
 syllabus_codes: ["34"]
-knowledge_points: ["[[Cannizzaro反应]]", "[[醛酮化学]]", "[[同位素示踪]]", "[[反应动力学]]"]
+knowledge_points: ["[[Cannizzaro反应]]", "[[醛酮]]", "[[同位素示踪]]", "[[反应动力学]]"]
 tags: [化竞, ABOC, 有机化学]
 updated: 2026-09-24
 source_file: "[[07-资料提炼/书籍提炼/提炼-ABOC-第4章-取代与消除]]"

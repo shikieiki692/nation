@@ -7,7 +7,7 @@ year: 2022
 source: "第34届中国化学奥林匹克初赛"
 type_tag: "机理与动力学"
 difficulty: 3
-knowledge_points: ["[[Cannizzaro反应]]", "[[醛酮化学]]", "[[同位素示踪]]", "[[反应动力学]]"]
+knowledge_points: ["[[Cannizzaro反应]]", "[[醛酮]]", "[[同位素示踪]]", "[[反应动力学]]"]
 tags: [化竞, 真题, 有机化学, Cannizzaro反应, 反应动力学]
 related_notes:
   - "[[专题-羰基化学与缩合反应]]"

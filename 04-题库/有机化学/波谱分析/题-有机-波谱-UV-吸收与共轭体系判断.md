@@ -11,7 +11,8 @@ teaching_level: 巩固
 syllabus_codes: ["49"]
 knowledge_points:
   - "[[紫外光谱]]"
-  - "[[共轭体系]]"
+  - "[[共轭体系电子计数]]"
+
 concepts:
   - λmax
   - Woodward规则

@@ -10,7 +10,8 @@ teaching_level: 巩固
 syllabus_codes: ["49"]
 knowledge_points:
   - "[[邻基参与]]"
-  - "[[分子内SN2]]"
+  - "[[亲核取代]]"
+
 concepts:
   - 构型保持
 tags: [化竞, 题目, 有机化学]

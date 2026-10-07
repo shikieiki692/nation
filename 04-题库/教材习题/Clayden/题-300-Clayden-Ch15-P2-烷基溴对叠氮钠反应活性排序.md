@@ -9,7 +9,7 @@ difficulty: 2
 question_type: [简答]
 teaching_level: 巩固
 syllabus_codes: ["3.2"]
-knowledge_points: ["[[SN2反应]]", "[[亲核试剂]]"]
+knowledge_points: ["[[SN2反应]]", "[[硬软亲核试剂]]"]
 tags: [化竞, Clayden, 有机化学]
 updated: 2026-07-25
 aliases: [Clayden-Ch15-P2]

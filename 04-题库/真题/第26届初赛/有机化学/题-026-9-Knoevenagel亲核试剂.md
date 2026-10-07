@@ -10,7 +10,7 @@ teaching_level: 基础
 syllabus_codes: []
 knowledge_points:
   - "[[Knoevenagel反应]]"
-  - "[[亲核试剂]]"
+  - "[[硬软亲核试剂]]"
   - "[[碳负离子]]"
   - "[[碱催化]]"
   - "[[pKa]]"
@@ -18,6 +18,7 @@ knowledge_points:
   - "[[Knoevenagel缩合]]"
   - "[[Michael加成]]"
   - "[[串联反应]]"
+
 concepts:
   - 亚胺活化
   - gabapentin
