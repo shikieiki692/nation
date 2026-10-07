@@ -41,7 +41,7 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO45试题.md"
 
 3-2 假设 $\mathbf{A} \sim \mathbf{E}$ 中, 所有 $\mathbf{X} - \mathbf{Y}$ 键能都为 $a$ , $\mathbf{X} = \mathbf{Y}$ 键能都为 $b$ , $\mathrm{BDE}(\mathbf{X2}) = c$ , $\mathrm{BDE}(\mathbf{Y2}) = d$ ( $\mathbf{X}$ 是摩尔质量较大的那一个, 单位均取 $\mathrm{kJ mol^{-1}}$ )
 
-写出 A\~E 标准摩尔生成焓 $\Delta_{f}H_{m}^{\circ}$ 的表达式，并根据已有数据计算 B 和 C 的 $\Delta_{f}H_{m}^{\circ}$ 。
+写出 A\~E 标准摩尔生成焓 $\Delta_{f}H_{m}^{\ominus}$ 的表达式，并根据已有数据计算 B 和 C 的 $\Delta_{f}H_{m}^{\ominus}$ 。
 
 ## 参考答案
 

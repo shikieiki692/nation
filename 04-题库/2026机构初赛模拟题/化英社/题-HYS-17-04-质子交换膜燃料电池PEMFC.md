@@ -45,7 +45,7 @@ $$
 \mathrm{H} _ {2} + \frac {1}{2} \mathrm{O} _ {2} \rightarrow \mathrm{H} _ {2} \mathrm{O} (\mathrm{l})
 $$
 
-已知标准条件下（298 K、1 bar）反应焓变 $\Delta H^{\circ}=-286\ kJ/mol$ ，熵变 $\Delta S^{\circ}=-163\ J/(mol\cdot K)$ 。4-1-1 计算该反应的标准吉布斯自由能变 $\Delta G^{\circ}$ 及理论电动势 $E^{\circ}$ 。
+已知标准条件下（298 K、1 bar）反应焓变 $\Delta H^{\ominus}=-286\ kJ/mol$ ，熵变 $\Delta S^{\ominus}=-163\ J/(mol\cdot K)$ 。4-1-1 计算该反应的标准吉布斯自由能变 $\Delta G^{\ominus}$ 及理论电动势 $E^{\circ}$ 。
 
 $$
 $$
@@ -70,7 +70,7 @@ $$
 $350 \mathrm{~K}$ 时:
 
 $$
-\Delta G ^ {\circ} = \Delta H ^ {\circ} - T \Delta S ^ {\circ} = - 228.95 \mathrm{kJ/mol(1分)}
+\Delta G^{\ominus} = \Delta H^{\ominus} - T \Delta S^{\ominus} = - 228.95 \mathrm{kJ/mol(1分)}
 $$
 
 $$

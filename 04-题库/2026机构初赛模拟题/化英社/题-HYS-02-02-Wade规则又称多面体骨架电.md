@@ -58,7 +58,7 @@ Wade 规则，又称多面体骨架电子对理论（PSEPT），是一种常见�
 
 2-1巢式硼烷具有非封闭结构，其中 $\mathrm{B}_n$ 原子簇占据有 $(n + 1)$ 个顶点的多面体的 $n$ 个顶点，可以看作从 $(n + 1)$ 的多面体中去除了一个连接度最高或使得剩余结构张力最小的顶点，网式结构以此类推。结合wade规则与元素知识，直接画出巢式硼烷 $\mathrm{B}_6\mathrm{H}_{10}$ 和网式硼烷 $\mathrm{B}_5\mathrm{H}_{11}$ 的结构，已知两者的结构中均含有一个镜面，要求在结构中表示出B-B键和B-B-B键的区别。
 
-<table><tr><td colspan="2">B6H10</td><td>B5H11</td></tr><tr><td colspan="2"><img src="images/df960f87f3421d2207c66df6c93d9d4249250dd3bcb679752fccf3781043fec7.jpg"/></td><td><img src="images/edfe7f808b8595abee7b82646993ff7605164803bfb0ba4e509fc12fd2840b30.jpg"/></td></tr><tr><td colspan="3">(共4分,各2分)</td></tr></table>
+<table><tr><td colspan="2">$B_{6}H_{10}$</td><td>$B_{5}H_{11}$</td></tr><tr><td colspan="2"><img src="images/df960f87f3421d2207c66df6c93d9d4249250dd3bcb679752fccf3781043fec7.jpg"/></td><td><img src="images/edfe7f808b8595abee7b82646993ff7605164803bfb0ba4e509fc12fd2840b30.jpg"/></td></tr><tr><td colspan="3">(共4分,各2分)</td></tr></table>
 
 2-2四方晶系的金属互化物 $\mathrm{Rb_2In_3}$ 具有层状结构，其中Rb可看作 $+1$ 价，而In形成某种团簇阴离子（晶体结构中为 $\mathrm{D_{4h}}$ 点群）并在层内相互连接形成无限层状结构，Rb填入层间。
 

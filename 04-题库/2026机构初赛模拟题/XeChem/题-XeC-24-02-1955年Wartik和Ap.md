@@ -89,7 +89,7 @@ $$
 
 2-3 下表给出有关物质在 $298.15\mathrm{K}$ 下的标准摩尔生成焓、标准摩尔熵、标准恒压摩尔热容。设本题中所有热容均不随温度变化，气体均视为理想气体，纯固体和纯液体活度均取1。如下所有小问均需考虑热容贡献。
 
-<table><tr><td>物质</td><td> $\Delta_{\text{f}}H_{\text{m}}^{\circ}$  (kJ·mol-1)</td><td> $S_{\text{m}}^{\circ}$  (J·mol-1·K-1)</td><td> $C_{\text{p,m}}^{\circ}$  (J·K-1·mol-1)</td></tr><tr><td>B(s)</td><td>0</td><td>5.90</td><td>11.1</td></tr><tr><td>O2(g)</td><td>0</td><td>205.0</td><td>29.4</td></tr><tr><td>N2(g)</td><td>0</td><td>191.6</td><td>29.1</td></tr><tr><td>B2O3(s)</td><td>-1273.5</td><td>53.9</td><td>62.0</td></tr><tr><td>B2O3(l)</td><td>-1252.0</td><td>69.3</td><td>110.0</td></tr><tr><td>B2O3(g)</td><td>-700.0</td><td>330.0</td><td>96.0</td></tr><tr><td>Mg(s)</td><td>0</td><td>32.7</td><td>24.9</td></tr><tr><td>MgO(s)</td><td>-601.6</td><td>26.9</td><td>37.2</td></tr></table>
+<table><tr><td>物质</td><td> $\Delta_{\text{f}}H_{\text{m}}^{\circ}$  (kJ·mol-1)</td><td> $S_{\text{m}}^{\circ}$  (J·mol-1·K-1)</td><td> $C_{\text{p,m}}^{\circ}$  (J·K-1·mol-1)</td></tr><tr><td>B(s)</td><td>0</td><td>5.90</td><td>11.1</td></tr><tr><td>$O_{2}(g)$</td><td>0</td><td>205.0</td><td>29.4</td></tr><tr><td>$N_{2}(g)$</td><td>0</td><td>191.6</td><td>29.1</td></tr><tr><td>$B_{2}O_{3}(s)$</td><td>-1273.5</td><td>53.9</td><td>62.0</td></tr><tr><td>$B_{2}O_{3}(l)$</td><td>-1252.0</td><td>69.3</td><td>110.0</td></tr><tr><td>$B_{2}O_{3}(g)$</td><td>-700.0</td><td>330.0</td><td>96.0</td></tr><tr><td>Mg(s)</td><td>0</td><td>32.7</td><td>24.9</td></tr><tr><td>MgO(s)</td><td>-601.6</td><td>26.9</td><td>37.2</td></tr></table>
 
 2-3-1 化合物 $\mathrm{B}_2\mathrm{O}_3$ 具有玻璃形成能力。较低温度下可形成黏稠液态，但在高温火焰中显著挥发。设纯 $\mathrm{B}_2\mathrm{O}_3(\mathrm{s}), \mathrm{B}_2\mathrm{O}_3(\mathrm{l}), \mathrm{B}_2\mathrm{O}_3(\mathrm{g})$ 的活度或逸度分别可用纯相和理想气体近似处理。
 2-3-1-1 计算 $\mathrm{B}_2\mathrm{O}_3(\mathrm{s}) = \mathrm{B}_2\mathrm{O}_3(\mathrm{l})$ 在 $800\mathrm{K}$ 下的 $\Delta \mathrm{rGm}^{\circ}$ ，判断 $800\mathrm{K}$ 下稳定相是固态还是液态。 $298.15\mathrm{K}$ 下：
@@ -140,7 +140,7 @@ $$
 
 $\mathrm{p(B_2O_3)_{eq}} = \exp\left[\frac{-13.43}{8.314\times 2200}\right] = 0.480\,\mathrm{bar}$ （1分，共7分）
 
-2-3-1-3 若在 2200 K 下用高速 Ar 气流吹扫, 使气相中 $p(B_{2}O_{3})$ 保持在 0.010 bar, 计算 $\Delta rGm$ 。 $\Delta_{r}G_{m} = \Delta_{r}G_{m}^{\circ} + RT \ln p(B_{2}O_{3}) = -70.82 kJ \cdot mol^{-1}$ (2 分)
+2-3-1-3 若在 2200 K 下用高速 Ar 气流吹扫, 使气相中 $p(B_{2}O_{3})$ 保持在 0.010 bar, 计算 $\Delta rGm$ 。 $\Delta_{r}G_{m} = \Delta_{r}G_{m}^{\ominus} + RT \ln p(B_{2}O_{3}) = -70.82 kJ \cdot mol^{-1}$ (2 分)
 
 2-3-2 设有 $0.100 \mathrm{~g}$ 单质硼粉在化学计量量空气中燃烧，反应容器中空气的组成按 $\mathrm{n}(\mathrm{N}_{2}) : \mathrm{n}(\mathrm{O}_{2}) = 3.76:1$ 处理。燃烧产物暂只考虑 $\mathrm{B}_{2} \mathrm{O}_{3}$ 。设反应器等效热容为 $1.50 \mathrm{~J} \cdot \mathrm{K}^{-1}$ ，初始温度为 $298.15 \mathrm{~K}$ 。暂忽略 $\mathrm{B}_{2} \mathrm{O}_{3}$ 挥发。
 

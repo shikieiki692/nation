@@ -61,7 +61,7 @@ $$
 
 ### 第1题 简单元素题（25分，占 $12\%$ ）
 ### 1.1.1 给出 A-F 的化学式。
-<table><tr><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td></tr><tr><td>NH3</td><td>N2H4</td><td>NH4CN</td><td>NO</td><td>HNO3</td><td>NI3·NH3</td></tr><tr><td colspan="6">(共6分,各1分)</td></tr></table>
+<table><tr><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td></tr><tr><td>$NH_{3}$</td><td>$N_{2}H_{4}$</td><td>$NH_{4}CN$</td><td>NO</td><td>$HNO_{3}$</td><td>NI3·NH3</td></tr><tr><td colspan="6">(共6分,各1分)</td></tr></table>
 1.1.2 给出反应 1-反应 3 的化学方程式。
 $$
 \text { 反应 } 1: 2 \mathrm{NH} _ {3} + \mathrm{C} \rightarrow \mathrm{NH} _ {4} \mathrm{CN} + \mathrm{H} _ {2}

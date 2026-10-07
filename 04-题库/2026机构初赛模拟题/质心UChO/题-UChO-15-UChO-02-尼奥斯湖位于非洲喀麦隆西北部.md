@@ -38,7 +38,7 @@ quality_warning: "源确缺答案（源资料无本题解答，2026-10-06 核验
 
 我们把尼奥斯湖看作一个底面积为 $1.20 \, km^{2}$ 的圆柱体，湖底由 $FeCO_{3}$ 组成，湖水中各个深度都被 $CO_{2}$ 饱和，且可认为湖水中亚铁离子的浓度与 $CO_{2}$ 的总浓度相等且不水解，湖水的密度都近似为 $1.00 \, g \, mL^{-1}$ ，重力加速度 $g = 9.81 \, m \, s^{-2}$ 。在我们本题的计算中，温度都视作 $23^{\circ}C$ ，且已知 $23^{\circ}C$ 时的热力学数据：
 
-<table><tr><td></td><td>CO2(g)</td><td>H2CO3(aq)</td><td>H2O(l)</td></tr><tr><td>ΔfHm°(kJ mol-1)</td><td>-393.5</td><td>-699.0</td><td>-285.8</td></tr><tr><td>Sm°(J K-1mol-1)</td><td>213.8</td><td>190.0</td><td>70.1</td></tr></table>
+<table><tr><td></td><td>$CO_{2}(g)$</td><td>$H_{2}CO_{3}(aq)$</td><td>$H_{2}O(l)$</td></tr><tr><td>$\Delta_{\mathrm{f}}H_{\mathrm{m}}^{\ominus}/\mathrm{kJ}\cdot\mathrm{mol}^{-1}$</td><td>-393.5</td><td>-699.0</td><td>-285.8</td></tr><tr><td>Sm°(J K-1mol-1)</td><td>213.8</td><td>190.0</td><td>70.1</td></tr></table>
 
 2-1 计算 $K_{H} = [H_{2}CO_{3}(aq)] / p[CO_{2}(g)]$ 的值，注意单位。
 

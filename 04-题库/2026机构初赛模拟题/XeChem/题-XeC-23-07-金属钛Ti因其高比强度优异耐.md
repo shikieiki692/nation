@@ -44,7 +44,7 @@ source_file: "2026机构初赛模拟题/03-XeChem/（已压缩）PDF合并_200-3
 
 7-1 试根据如上数据回答以下Kroll法冶炼钛的热力学问题。
 
-7-1-1 写出 298.15 K 下反应 1、反应 2、反应 3 的化学方程式并分别计算 $\Delta_{r}G_{m}^{\circ}$ 。
+7-1-1 写出 298.15 K 下反应 1、反应 2、反应 3 的化学方程式并分别计算 $\Delta_{r}G_{m}^{\ominus}$ 。
 
 7-1-2 注意到 $TiCl_{3}$ 在高温下会发生歧化反应（反应 4）。设反应温度为 1123 K，计算此条件下反应 4 的 $\Delta rG_{m}$ 。若体系中 $TiCl_{4}(g)$ 分压为 10 kPa，判断反应方向。
 
@@ -56,7 +56,7 @@ source_file: "2026机构初赛模拟题/03-XeChem/（已压缩）PDF合并_200-3
 
 7-3 由 $\mathrm{TiO_2}$ 出发与过量焦炭混合制备 $\mathrm{TiCl_4}$ 是Kroll法的前驱步骤。已知该反应6（令反应式中 $\mathrm{TiO_2}$ 前的系数为1）的 $\Delta_{\mathrm{r}}\mathrm{H}_{\mathrm{m}}^{\circ} = -80.0\mathrm{kJ / mol},\Delta_{\mathrm{r}}\mathrm{S}_{\mathrm{m}}^{\circ} = 258.5\mathrm{J / molK}$ 。实际工业氯化炉中， $\mathrm{Cl}_2$ 并非以标准压力 $1\mathrm{p}^{\circ}$ 通入，而是以总压 $3.0\mathrm{p}^{\circ}$ 、 $\mathrm{Cl}_2$ 摩尔分数为0.50的混合气（其余为CO）进入，反应温度为 $1173\mathrm{K}$ 。
 
-7-3-1 写出反应 6 的化学方程式，并分别在 573 K 与 1173 K 下的 $\Delta_{r}G_{m}^{\circ}$ 与标准平衡常数，并解释工业上需在高温下进行氯化焙烧而非低温操作的原因。
+7-3-1 写出反应 6 的化学方程式，并分别在 573 K 与 1173 K 下的 $\Delta_{r}G_{m}^{\ominus}$ 与标准平衡常数，并解释工业上需在高温下进行氯化焙烧而非低温操作的原因。
 
 7-3-2 在工业操作中，随着反应进行，CO 不断积累会导致 Q 上升，最终使反应趋向平衡。若保持温度 1173 K 和总压 $p_{0}$ 不变，设平衡时 $TiCl_{4}$ 的分压为 $p^{*}$ ， $Cl_{2}$ 的初始分压为 $1.5\;p^{\circ}$ ，CO 初始分压为 $1.5\;p^{\circ}$ ， $TiCl_{4}$ 初始分压为 $\epsilon\approx0$ 。，推导并求解 $p_{0}/2-p^{*}$ 的近似值（提示：可对 $\xi$ 进行合理放缩）。
 
@@ -68,11 +68,11 @@ source_file: "2026机构初赛模拟题/03-XeChem/（已压缩）PDF合并_200-3
 
 本题可能用到的热力学数据（298.15 K， $p^{\circ}=100\ kPa$ ）如下。假设焓与熵不随温度变化。
 
-<table><tr><td>化合物</td><td> $\Delta_{\text{f}}H_{\text{m}}^{\circ}/\text{kJ}\cdot\text{mol}^{-1}$ </td><td> $S_{\text{m}}^{\circ}/\text{J}\cdot\text{mol}^{-1}\cdot\text{K}^{-1}$ </td></tr><tr><td>Ti(s)</td><td>0</td><td>30.72</td></tr><tr><td>Mg(s)</td><td>0</td><td>32.69</td></tr><tr><td>TiCl2(s)</td><td>-513.8</td><td>87.4</td></tr><tr><td>TiCl3(s)</td><td>-720.9</td><td>139.7</td></tr><tr><td>TiCl4(g)</td><td>-763.2</td><td>355.0</td></tr><tr><td>MgCl2(s)</td><td>-641.3</td><td>89.62</td></tr><tr><td>Cl2(g)</td><td>0</td><td>223.08</td></tr></table>
+<table><tr><td>化合物</td><td> $\Delta_{\text{f}}H_{\text{m}}^{\circ}/\text{kJ}\cdot\text{mol}^{-1}$ </td><td> $S_{\text{m}}^{\circ}/\text{J}\cdot\text{mol}^{-1}\cdot\text{K}^{-1}$ </td></tr><tr><td>Ti(s)</td><td>0</td><td>30.72</td></tr><tr><td>Mg(s)</td><td>0</td><td>32.69</td></tr><tr><td>$TiCl_{2}(s)$</td><td>-513.8</td><td>87.4</td></tr><tr><td>$TiCl_{3}(s)$</td><td>-720.9</td><td>139.7</td></tr><tr><td>$TiCl_{4}(g)$</td><td>-763.2</td><td>355.0</td></tr><tr><td>$MgCl_{2}(s)$</td><td>-641.3</td><td>89.62</td></tr><tr><td>$Cl_{2}(g)$</td><td>0</td><td>223.08</td></tr></table>
 
 7-1 试根据如上数据回答以下 Kroll 法冶炼钛的热力学问题。
 
-7-1-1 写出 298.15 K 下反应 1、反应 2、反应 3 的化学方程式并分别计算 $\Delta_{r}G_{m}^{\circ}$ $TiCl_{4}(g) + 2\ Mg(s) \rightarrow Ti(s) + 2\ MgCl_{2}(s), \Delta_{r}G_{m}^{\circ} = -456.7\ kJ/mol.$ （2 分） $TiCl_{4}(g) + Mg(s) \rightarrow TiCl_{2}(s) + MgCl_{2}(s), \Delta_{r}G_{m}^{\circ} = -329.1\ kJ/mol.$ （2 分） $2\ TiCl_{4}(g) + Mg(s) \rightarrow 2\ TiCl_{3}(s) + MgCl_{2}(s), \Delta_{r}G_{m}^{\circ} = -445.3\ kJ/mol.$ （2 分）
+7-1-1 写出 298.15 K 下反应 1、反应 2、反应 3 的化学方程式并分别计算 $\Delta_{r}G_{m}^{\ominus}$ $TiCl_{4}(g) + 2\ Mg(s) \rightarrow Ti(s) + 2\ MgCl_{2}(s), \Delta_{r}G_{m}^{\ominus} = -456.7\ kJ/mol.$ （2 分） $TiCl_{4}(g) + Mg(s) \rightarrow TiCl_{2}(s) + MgCl_{2}(s), \Delta_{r}G_{m}^{\ominus} = -329.1\ kJ/mol.$ （2 分） $2\ TiCl_{4}(g) + Mg(s) \rightarrow 2\ TiCl_{3}(s) + MgCl_{2}(s), \Delta_{r}G_{m}^{\ominus} = -445.3\ kJ/mol.$ （2 分）
 
 （共 6 分）
 
@@ -82,15 +82,15 @@ $\Delta \mathrm{rHm}^{\circ} = [(-513.8) + (-763.2)] - 2 \times (-720.9) = +164.
 
 7-2 考虑将 $MgCl_{2}$ 电解再生金属 Mg 的过程（反应 5，该电解在熔融 $MgCl_{2}$ 中进行）。已知 $MgCl_{2}$ 的熔点为 $714^{\circ}C$ ，Mg 的熔点为 $650^{\circ}C$ 。在相变温度附近，熔化焓分别为 $\Delta_{\mathrm{fus}}H_{\mathrm{m}}(\mathrm{MgCl}_{2}) = 43.1 \, \mathrm{kJ/mol}$ ， $\Delta_{\mathrm{fus}}H_{\mathrm{m}}(\mathrm{Mg}) = 8.48 \, \mathrm{kJ/mol}$ 。
 
-7-2-1 请计算反应 5 的 $\Delta_{r}G_{m}^{\circ}$ 与最小分解电压 $E_{min}$ ，按电解温度为 1123 K 计算。 $\mathrm{MgCl}_{2}(l) \rightarrow \mathrm{Mg}(l) + \mathrm{Cl}_{2}(g)$ （1 分） $MgCl_{2}$ 的熔化熵： $\Delta_{\mathrm{fus}}S_{\mathrm{m}}(\mathrm{MgCl}_{2}) = \Delta_{\mathrm{fus}}H_{\mathrm{m}}/T_{\mathrm{m}} = 43.1 \times 10^{3}/987.15 = 43.66 \, J \cdot mol^{-1} \cdot K^{-1}$ （1 分）
+7-2-1 请计算反应 5 的 $\Delta_{r}G_{m}^{\ominus}$ 与最小分解电压 $E_{min}$ ，按电解温度为 1123 K 计算。 $\mathrm{MgCl}_{2}(l) \rightarrow \mathrm{Mg}(l) + \mathrm{Cl}_{2}(g)$ （1 分） $MgCl_{2}$ 的熔化熵： $\Delta_{\mathrm{fus}}S_{\mathrm{m}}(\mathrm{MgCl}_{2}) = \Delta_{\mathrm{fus}}H_{\mathrm{m}}/T_{\mathrm{m}} = 43.1 \times 10^{3}/987.15 = 43.66 \, J \cdot mol^{-1} \cdot K^{-1}$ （1 分）
 
-Mg 的熔化熵： $\Delta_{\mathrm{fus}}S_{\mathrm{m}}(\mathrm{Mg}) = 8.48 \times 10^{3}/923.15 = 9.19 \, J \cdot mol^{-1} \cdot K^{-1}$ （1 分） $\Delta_{r}H_{m}^{\circ} = [0 + 8.48 + 0] - [(-641.3) + 43.1] = +606.7 \, kJ \cdot mol^{-1}$ （1 分） $\Delta_{r}S_{m}^{\circ} = [(32.69 + 9.19) + 223.08] - [(89.62 + 43.66)] = +131.68 \, J \cdot mol^{-1} \cdot K^{-1}$ （1 分） $\Delta_{r}G_{m}^{\circ} = \Delta_{r}H_{m}^{\circ} - T\Delta_{r}S_{m}^{\circ} = 606.7 - 1123 \times 0.13168 = 458.8 \, kJ \cdot mol^{-1}$ （1 分） $E_{\min} = \Delta_{r}G_{m}^{\circ}/(2F) = 458800/(2 \times 9.6485 \times 10^{4}) = 2.38 \, V$ （1 分）
+Mg 的熔化熵： $\Delta_{\mathrm{fus}}S_{\mathrm{m}}(\mathrm{Mg}) = 8.48 \times 10^{3}/923.15 = 9.19 \, J \cdot mol^{-1} \cdot K^{-1}$ （1 分） $\Delta_{r}H_{m}^{\ominus} = [0 + 8.48 + 0] - [(-641.3) + 43.1] = +606.7 \, kJ \cdot mol^{-1}$ （1 分） $\Delta_{r}S_{m}^{\ominus} = [(32.69 + 9.19) + 223.08] - [(89.62 + 43.66)] = +131.68 \, J \cdot mol^{-1} \cdot K^{-1}$ （1 分） $\Delta_{r}G_{m}^{\ominus} = \Delta_{r}H_{m}^{\ominus} - T\Delta_{r}S_{m}^{\ominus} = 606.7 - 1123 \times 0.13168 = 458.8 \, kJ \cdot mol^{-1}$ （1 分） $E_{\min} = \Delta_{r}G_{m}^{\ominus}/(2F) = 458800/(2 \times 9.6485 \times 10^{4}) = 2.38 \, V$ （1 分）
 
 7-2-2 注意到实际电解电压约为 6.5 V，远高于理论值。已知 $Cl_{2}$ 在阳极上的超电压约为 1.0 V，欧姆内阻造成的额外电压降约为 1.2 V。试估算阴极析出 Mg 的超电压，并判断哪个环节是降低能耗的关键瓶颈。 $\eta_{阴} = E_{实际} - E_{min} - \eta_{阳} - E_{欧姆} = 6.5 - 2.38 - 1.0 - 1.2 = 1.92 \, V$ 阴极析出 Mg 的超电压（超电压 2 分，环节 1 分，共 3 分）
 
-7-3 由 $TiO_{2}$ 出发与过量焦炭混合制备 $TiCl_{4}$ 是 Kroll 法的前驱步骤。已知该反应 6（令反应式中 $TiO_{2}$ 前的系数为 1）的 $\Delta_{r}H_{m}^{\circ} = -80.0 \, kJ/mol, \Delta_{r}S_{m}^{\circ} = 258.5 \, J/mol K$ 。实际工业氯化炉中， $Cl_{2}$ 并非以标准压力 $1 p^{\circ}$ 通入，而是以总压 $3.0 p^{\circ}$ ， $Cl_{2}$ 摩尔分数为 0.50 的混合气（其余为 CO）进入，反应温度为 1173 K。
+7-3 由 $TiO_{2}$ 出发与过量焦炭混合制备 $TiCl_{4}$ 是 Kroll 法的前驱步骤。已知该反应 6（令反应式中 $TiO_{2}$ 前的系数为 1）的 $\Delta_{r}H_{m}^{\ominus} = -80.0 \, kJ/mol, \Delta_{r}S_{m}^{\ominus} = 258.5 \, J/mol K$ 。实际工业氯化炉中， $Cl_{2}$ 并非以标准压力 $1 p^{\circ}$ 通入，而是以总压 $3.0 p^{\circ}$ ， $Cl_{2}$ 摩尔分数为 0.50 的混合气（其余为 CO）进入，反应温度为 1173 K。
 
-7-3-1 写出反应 6 的化学方程式，并分别在 573 K 与 1173 K 下的 $\Delta_{r}G_{m}^{\circ}$ 与标准平衡常数，并解释工业上需在高温下进行氯化焙烧而非低温操作的原因。 $TiO_{2}(s) + 2C(s) + 2Cl_{2}(g) \rightarrow TiCl_{4}(g) + 2CO(g)$ （1 分） $\Delta_{r}G_{m}^{\circ} = -228.1 \, kJ/mol, K = 6.24 \times 10^{20}$ （2 分） $\Delta_{r}G_{m}^{\circ} = -383.2 \, kJ/mol, K = 1.16 \times 10^{17}$ （2 分）
+7-3-1 写出反应 6 的化学方程式，并分别在 573 K 与 1173 K 下的 $\Delta_{r}G_{m}^{\ominus}$ 与标准平衡常数，并解释工业上需在高温下进行氯化焙烧而非低温操作的原因。 $TiO_{2}(s) + 2C(s) + 2Cl_{2}(g) \rightarrow TiCl_{4}(g) + 2CO(g)$ （1 分） $\Delta_{r}G_{m}^{\ominus} = -228.1 \, kJ/mol, K = 6.24 \times 10^{20}$ （2 分） $\Delta_{r}G_{m}^{\ominus} = -383.2 \, kJ/mol, K = 1.16 \times 10^{17}$ （2 分）
 
 虽然升温后标准平衡常数减小，但在 573 K 和 1173 K 下，K 均远大于 1，反应在热力学上均可充分进行。工业上采用高温主要是为了提高气—固反应速率，克服较高的反应活化能，并改善传质过程（1 分，本小题共 6 分）
 

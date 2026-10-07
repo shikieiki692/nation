@@ -78,9 +78,9 @@ $$
 
 气体离开电极区后，迅速达到水煤气变换平衡（WGS）： $CO_{2}(g) + H_{2}(g) = CO(g) + H_{2}O(g)$ 已知各物种 298.15K 时的热力学数据如下（理想气体）：
 
-<table><tr><td>物种</td><td> $\Delta_{f}H_{m}^{\theta}$ (kJ/mol)</td><td> $S_{m}^{\theta}$ (J/mol·K)</td><td> $C_{p,m}^{\theta}$ (J/mol·K)</td></tr><tr><td> $H_{2}O(g)$ </td><td>-241.8</td><td>188.8</td><td>36.0</td></tr></table>
+<table><tr><td>物种</td><td> $\Delta_{f}H_{m}^{\ominus}$ (kJ/mol)</td><td> $S_{m}^{\ominus}$ (J/mol·K)</td><td> $C_{p,m}^{\theta}$ (J/mol·K)</td></tr><tr><td> $H_{2}O(g)$ </td><td>-241.8</td><td>188.8</td><td>36.0</td></tr></table>
 
-<table><tr><td>CO2(g)</td><td>-393.5</td><td>213.7</td><td>44.0</td></tr><tr><td>H2(g)</td><td>0</td><td>130.7</td><td>29.0</td></tr><tr><td>CO(g)</td><td>-110.5</td><td>197.7</td><td>30.0</td></tr><tr><td>O2(g)</td><td>0</td><td>205.2</td><td>33.0</td></tr></table>
+<table><tr><td>$CO_{2}(g)$</td><td>-393.5</td><td>213.7</td><td>44.0</td></tr><tr><td>$H_{2}(g)$</td><td>0</td><td>130.7</td><td>29.0</td></tr><tr><td>CO(g)</td><td>-110.5</td><td>197.7</td><td>30.0</td></tr><tr><td>$O_{2}(g)$</td><td>0</td><td>205.2</td><td>33.0</td></tr></table>
 
 电解以恒流方式运行: 电流 $I = 160 \mathrm{~A}$ , 时间 $t = 200 \mathrm{~s}$ 。假设电子全部用于阴极生成 $\mathrm{O}^{2-}$ (法拉第效率 $100 \%$ ), 且净共电解 $(\mathrm{H}_{2} \mathrm{O}(\mathrm{g}) + \mathrm{CO}_{2}(\mathrm{g}) = \mathrm{H}_{2}(\mathrm{g}) + \mathrm{CO}(\mathrm{g}) + \mathrm{O}_{2}(\mathrm{g}))$ 的电子转移数为 $n = 4$ 。4-1 指出各个气体分别在电极的哪一级生成。 4-1 阳极: $\mathrm{O}_{2}$ ; 阴极: $\mathrm{H}_{2}, \mathrm{CO}$
 

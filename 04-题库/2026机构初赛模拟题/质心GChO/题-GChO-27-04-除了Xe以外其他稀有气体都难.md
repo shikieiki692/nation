@@ -33,7 +33,7 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO27试题.md"
 
 ### 第 4 题 (12 分)
 
-除了 Xe 以外，其他稀有气体都难以形成较稳定的化合物，Kr 已经被证实的化合物只有 $KrF_{2}$ 。由于 $KrF_{2}$ 的化学稳定性较差，故其热力学数据不够精确。根据粗估， $KrF_{2}$ 的 $\Delta_{f}H_{m}^{\Theta}=60.2\ kJ\cdot mol^{-1}$ ， $S_{m}^{\Theta}=100.2\ J\cdot mol^{-1}\cdot K^{-1}$ ，同时已知 $F_{2}$ 的 $S_{m}^{\Theta}=202.8\ J\cdot mol^{-1}\cdot K^{-1}$ ，Kr 的 $S_{m}^{\Theta}=151.8\ J\cdot mol^{-1}\cdot K^{-1}$ 。
+除了 Xe 以外，其他稀有气体都难以形成较稳定的化合物，Kr 已经被证实的化合物只有 $KrF_{2}$ 。由于 $KrF_{2}$ 的化学稳定性较差，故其热力学数据不够精确。根据粗估， $KrF_{2}$ 的 $\Delta_{f}H_{m}^{\ominus}=60.2\ kJ\cdot mol^{-1}$ ， $S_{m}^{\ominus}=100.2\ J\cdot mol^{-1}\cdot K^{-1}$ ，同时已知 $F_{2}$ 的 $S_{m}^{\ominus}=202.8\ J\cdot mol^{-1}\cdot K^{-1}$ ，Kr 的 $S_{m}^{\ominus}=151.8\ J\cdot mol^{-1}\cdot K^{-1}$ 。
 
 4-1 二氟化氮可以与 $\mathrm{SbF_5}$ 形成 $1:2$ 型加合物，该加合物也具有强氧化性，例如在 $\mathrm{SbF_5}$ 中，此加合物与 $\mathrm{XeOF_4}$ 反应，除放出Kr以外还生成2种盐，已知这两种盐的阴离子与 $\mathrm{KrF_2\cdot 2SbF_5}$ 中的阴离子相同，Xe的氧化态并未改变且不存在Xe-O键，写出反应方程式，并用VSEPR理论判断含Xe离子的离子构型。（需同时写出价层电子对的构型和离子构型）
 
@@ -45,7 +45,7 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO27试题.md"
 
 ## 参考答案
 
-除了 Xe 以外，其他稀有气体都难以形成较稳定的化合物，Kr 已经被证实的化合物只有 $KrF_{2}$ 。由于 $KrF_{2}$ 的化学稳定性较差，故其热力学数据不够精确。根据粗估， $KrF_{2}$ 的 $\Delta_{f}H_{m}^{\Theta}=60.2\,kJ\cdot mol^{-1}$ ， $S_{m}^{\Theta}=100.2\,J\cdot mol^{-1}\cdot K^{-1}$ ，同时已知 $F_{2}$ 的 $S_{m}^{\Theta}=202.8\,J\cdot mol^{-1}\cdot K^{-1}$ ，Kr 的 $S_{m}^{\Theta}=151.8\,J\cdot mol^{-1}\cdot K^{-1}$ 。
+除了 Xe 以外，其他稀有气体都难以形成较稳定的化合物，Kr 已经被证实的化合物只有 $KrF_{2}$ 。由于 $KrF_{2}$ 的化学稳定性较差，故其热力学数据不够精确。根据粗估， $KrF_{2}$ 的 $\Delta_{f}H_{m}^{\ominus}=60.2\,kJ\cdot mol^{-1}$ ， $S_{m}^{\ominus}=100.2\,J\cdot mol^{-1}\cdot K^{-1}$ ，同时已知 $F_{2}$ 的 $S_{m}^{\ominus}=202.8\,J\cdot mol^{-1}\cdot K^{-1}$ ，Kr 的 $S_{m}^{\ominus}=151.8\,J\cdot mol^{-1}\cdot K^{-1}$ 。
 
 4-1 二氟化氮可以与 $SbF_{5}$ 形成 1:2 型加合物，该加合物也具有强氧化性，例如在 $SbF_{5}$ 中，此加合物与 $XeOF_{4}$ 反应，除放出 Kr 以外还生成 2 种盐，已知这两种盐的阴离子与 $KrF_{2}\cdot2SbF_{5}$ 中的阴离子相同，Xe 的氧化态并未改变且不存在 Xe-O 键，写出反应方程式，并用 VSEPR 理论判断含 Xe 离子的离子构型。（需同时写出价层电子对的构型和离子构型）
 
@@ -61,7 +61,7 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO27试题.md"
 
 **4-3** 反应可看作是 $\text{F}_2 + 2\text{e}^- = 2\text{F}^-$ 与 $2\text{H}^+ + 2\text{F}^- = 2\text{HF}$ 的耦合0.5分反应1的 $\ln K_I = zF\varphi^{\text{O}}_{\text{F}_2/\text{F}}/RT = 222.8$ 0.5分故 $\ln K = \ln [K_1/K(\text{HF})^2] = \ln K_1 - 2\ln K(\text{HF}) = 237.5$ 0.5分故 $\varphi^{\text{O}}_{\text{F}_2/\text{HF}} = (RT\ln K)/zF = 3.05\,\text{V}$ 0.5分
 
-**4-4** 考虑以下的电池反应: $\text{KrF}_2 + 2\text{H}^+ + 2\text{e} = \text{Kr} + 2\text{HF}, \text{H}_2 = 2\text{H}^+ + 2\text{e}$ ,电池反应为 $\text{KrF}_2 + \text{H}_2 = \text{Kr} + 2\text{HF}$ ,计算其标准电动势。将其拆分为: $\text{KrF}_2 = \text{Kr} + \text{F}_2, \text{F}_2 + \text{H}_2 = 2\text{HF}$ ,分别计算其 $\Delta_r G_m^\Theta$ 。0.5分反应1的 $\Delta_r H_m^\Theta = -\Delta_f H_m^\Theta = -60.2\,\text{kJ mol}^{-1}$ , $\Delta_r S_m^\Theta = S_m^\Theta (\text{F}_2) + S_m^\Theta (\text{Kr}) - S_m^\Theta (\text{KrF}_2) = 254.4\,\text{J mol}^{-1}\,\text{K}^{-1}$ ,0.5分
+**4-4** 考虑以下的电池反应: $\text{KrF}_2 + 2\text{H}^+ + 2\text{e} = \text{Kr} + 2\text{HF}, \text{H}_2 = 2\text{H}^+ + 2\text{e}$ ,电池反应为 $\text{KrF}_2 + \text{H}_2 = \text{Kr} + 2\text{HF}$ ,计算其标准电动势。将其拆分为: $\text{KrF}_2 = \text{Kr} + \text{F}_2, \text{F}_2 + \text{H}_2 = 2\text{HF}$ ,分别计算其 $\Delta_r G_m^{\ominus}$ 。0.5分反应1的 $\Delta_r H_m^{\ominus} = -\Delta_f H_m^{\ominus} = -60.2\,\text{kJ mol}^{-1}$ , $\Delta_r S_m^{\ominus} = S_m^{\ominus} (\text{F}_2) + S_m^{\ominus} (\text{Kr}) - S_m^{\ominus} (\text{KrF}_2) = 254.4\,\text{J mol}^{-1}\,\text{K}^{-1}$ ,0.5分
 
 
 

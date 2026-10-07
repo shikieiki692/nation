@@ -99,7 +99,7 @@ $$
 \ln K = 764.2 \times \frac {1}{T / \mathrm{K}} - 4.0502 \text {分}
 $$
 
-故 $\Delta_{r}H_{m}^{\circ}=-764.2\times8.314\ J\ mol^{-1}=-6.35\ kJ\ mol^{-1}$ 1 分
+故 $\Delta_{r}H_{m}^{\ominus}=-764.2\times8.314\ J\ mol^{-1}=-6.35\ kJ\ mol^{-1}$ 1 分
 
 $$
 \Delta_ {\mathrm{r}} S _ {\mathrm{m}} ^ {\circ} = - 4.050 \times 8.3145 \mathrm{JK} ^ {- 1} \mathrm{mol} ^ {- 1} = - 33.7 \mathrm{JK} ^ {- 1} \mathrm{mol} ^ {- 1} \quad 1 \text {分}

@@ -50,7 +50,7 @@ $\mathrm{CaSO_4}$ 的溶解度较低，可将其饱和溶液的蒸气压视为�
 
 1-255℃时，在 $CaSO_{4}$ 的饱和溶液中加入一定量的 $CaCl_{2}$ 使蒸气压降低 16.3%，通过计算说明此时将有何种固体析出。
 
-1-3 如果认为焓变不随温度改变, 利用题目中的数据以及水在 $100^{\circ}C$ 时的蒸气压这 5 个数据, 找到物理量之间的线性关系, 通过线性回归的方法计算水的蒸发焓 $\Delta_{vap}H_{m}^{\theta}$ 。
+1-3 如果认为焓变不随温度改变, 利用题目中的数据以及水在 $100^{\circ}C$ 时的蒸气压这 5 个数据, 找到物理量之间的线性关系, 通过线性回归的方法计算水的蒸发焓 $\Delta_{vap}H_{m}^{\ominus}$ 。
 
 如果计算器没有线性回归的功能, 可以采取如下的方法计算回归方程:
 
@@ -62,7 +62,7 @@ $$
 
 （注：答案里需要先得到一个线性回归的方程，并指明方程中的 $y$ 、 $b$ 、 $x$ 分别代表什么）
 
-1-4 已知 $25^{\circ}C$ 时， $\Delta f G_{m}^{\theta}(H_{2}O,g) = -228.57\ kJ/mol$ ，若将所有气体都视作理想气体，并且不考虑温度对焓变、熵变的影响，写出下列电池的电池反应，并计算 $25^{\circ}C$ 时电池的电动势 E。
+1-4 已知 $25^{\circ}C$ 时， $\Delta f G_{m}^{\ominus}(H_{2}O,g) = -228.57\ kJ/mol$ ，若将所有气体都视作理想气体，并且不考虑温度对焓变、熵变的影响，写出下列电池的电池反应，并计算 $25^{\circ}C$ 时电池的电动势 E。
 
 $$
 \mathrm{Pt} (\mathrm{s}) | \mathrm{H} _ {2} (\mathrm{g}, p ^ {\Theta}) | \mathrm{H} + (\mathrm{aq}, 0.02 \mathrm{M}) | \mathrm{O} _ {2} (\mathrm{g}, p ^ {\Theta}) | \mathrm{Pt} (\mathrm{s})
@@ -216,7 +216,7 @@ $$
 y = - 5.08 \times 10 ^ {3} x + 13.6
 $$
 
-1-4 已知 $25^{\circ}C$ 时， $\Delta f G_{m}^{\theta}(H_{2}O,g) = -228.57\ kJ/mol$ ，若将所有气体都视作理想气体，并且不考虑温度对焓变、熵变的影响，写出下列电池的电池反应，并计算 $25^{\circ}C$ 时电池的电动势 E。
+1-4 已知 $25^{\circ}C$ 时， $\Delta f G_{m}^{\ominus}(H_{2}O,g) = -228.57\ kJ/mol$ ，若将所有气体都视作理想气体，并且不考虑温度对焓变、熵变的影响，写出下列电池的电池反应，并计算 $25^{\circ}C$ 时电池的电动势 E。
 
 $$
 \mathrm{Pt} (\mathrm{s}) \left| \mathrm{H} _ {2} \left(\mathrm{g}, p ^ {\Theta}\right) \right| \mathrm{H} + (\mathrm{aq}, 0.02 \mathrm{M}) \left| \mathrm{O} _ {2} \left(\mathrm{g}, p ^ {\Theta}\right) \right| \mathrm{Pt} (\mathrm{s})
@@ -245,7 +245,7 @@ $$
 
 如果没用1-3的方程结论计算，而是使用两个温度下的C-C方程得到结果的，扣0.5分。
 
- $\Delta_{r}G_{m}=\Delta_{f}G_{m}^{\theta}(H_{2}O,g,25^{\circ}C)+\Delta G_{1}+\Delta G_{2}=\Delta_{f}G_{m}^{\theta}(H_{2}O,g,25^{\circ}C)+nRT\ln\frac{p_{s}(298K)}{p_{s}(373K)}$
+ $\Delta_{r}G_{m}=\Delta_{f}G_{m}^{\ominus}(H_{2}O,g,25^{\circ}C)+\Delta G_{1}+\Delta G_{2}=\Delta_{f}G_{m}^{\ominus}(H_{2}O,g,25^{\circ}C)+nRT\ln\frac{p_{s}(298K)}{p_{s}(373K)}$
 
 (0.5分)
 
@@ -259,13 +259,13 @@ $$
 
 在1-3中，若用到了 Gibbs-Helmhotlz 方程的不定积分式，有
 
- $\ln(p_{s}/p^{\Theta})=-\frac{\Delta_{vap}H_{m}^{\theta}}{R}\cdot\frac{1}{T}+C$
+ $\ln(p_{s}/p^{\Theta})=-\frac{\Delta_{vap}H_{m}^{\ominus}}{R}\cdot\frac{1}{T}+C$
 
-由于熵变不随温度改变，所以可以认为截距  $C=\Delta_{vap}S_{m}^{\theta}/R$ ，求得  $\Delta_{vap}S_{m}^{\theta}=113kJ/mol(1分)$
+由于熵变不随温度改变，所以可以认为截距  $C=\Delta_{vap}S_{m}^{\ominus}/R$ ，求得  $\Delta_{vap}S_{m}^{\ominus}=113kJ/mol(1分)$
 
-此时  $\Delta_{vap}G_{m}^{\theta}(25^{\circ}C)=\Delta_{vap}H_{m}^{\theta}-T\Delta_{vap}S_{m}^{\theta}=8.5kJ/mol(1分)$ $\Delta_{r}G_{m}=\Delta_{f}G_{m}^{\theta}(H_{2}O,g,25^{\circ}C)-\Delta_{vap}G_{m}^{\theta}(25^{\circ}C)=-237.1kJ/mol(1分)$ $E=-\frac{\Delta_{r}G_{m}}{zF}=1.229V$  (0.5分)
+此时  $\Delta_{vap}G_{m}^{\ominus}(25^{\circ}C)=\Delta_{vap}H_{m}^{\ominus}-T\Delta_{vap}S_{m}^{\ominus}=8.5kJ/mol(1分)$ $\Delta_{r}G_{m}=\Delta_{f}G_{m}^{\ominus}(H_{2}O,g,25^{\circ}C)-\Delta_{vap}G_{m}^{\ominus}(25^{\circ}C)=-237.1kJ/mol(1分)$ $E=-\frac{\Delta_{r}G_{m}}{zF}=1.229V$  (0.5分)
 
-注：若直接认为373K下相变的  $\Delta_{vap}G_{m}^{\theta}=0$  求出相变的  $\Delta_{vap}S_{m}^{\theta}$  进而求得 298K下的  $\Delta_{vap}G_{m}^{\theta}$  和最后总的  $\Delta_{r}G_{m}$  和 E，共扣1分。
+注：若直接认为373K下相变的  $\Delta_{vap}G_{m}^{\ominus}=0$  求出相变的  $\Delta_{vap}S_{m}^{\ominus}$  进而求得 298K下的  $\Delta_{vap}G_{m}^{\ominus}$  和最后总的  $\Delta_{r}G_{m}$  和 E，共扣1分。
 
 因为：
 
@@ -273,7 +273,7 @@ $$
 
 （2）严格定义下水的沸点是 1atm 下达到相平衡 ( $\Delta G=0$ ) 时的温度，所以实际上是
 
-$\Delta_{vap}G_m(1\mathrm{atm},373\mathrm{K}) = 0$ ，严格上还是需要计算 $\Delta_{vap}G_m^{\theta}(373\mathrm{K})$ 的值，虽然最后的答案只有微小区别。
+$\Delta_{vap}G_m(1\mathrm{atm},373\mathrm{K}) = 0$ ，严格上还是需要计算 $\Delta_{vap}G_m^{\ominus}(373\mathrm{K})$ 的值，虽然最后的答案只有微小区别。
 
 ## 知识点映射
 

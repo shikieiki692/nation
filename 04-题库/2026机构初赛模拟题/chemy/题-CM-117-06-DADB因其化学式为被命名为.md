@@ -38,7 +38,7 @@ DADB，因其化学式为 $(\mathrm{NH}_{3}\cdot\mathrm{BH}_{3})_{2}$ 被命名�
 
 ![](images/268bd2a06ed4decbe10cf9128b4b11f9b7968fbf02fa4766dfc2d205855425e4.jpg)
 
-<table><tr><td>Atom</td><td>x/a</td><td>y/b</td><td>z/c</td></tr><tr><td>B1</td><td>0</td><td>0.5</td><td>0.25</td></tr><tr><td>B2</td><td>0</td><td>0</td><td>0.25</td></tr><tr><td>B3</td><td>0.2200</td><td>0.7200</td><td>0.5</td></tr><tr><td>N1</td><td>0.2424</td><td>0.5744</td><td>0.5</td></tr><tr><td>H1</td><td>0.0652</td><td>0.5652</td><td>0.3256</td></tr><tr><td>H2</td><td>0.0652</td><td>0.4348</td><td>0.3256</td></tr><tr><td>H3</td><td>0.0000</td><td>0.0922</td><td>0.3256</td></tr><tr><td>H4</td><td>0.2583</td><td>0.7583</td><td>0.5889</td></tr><tr><td>H5</td><td>0.3224</td><td>0.5592</td><td>0.5</td></tr><tr><td>H6</td><td>0.2086</td><td>0.5417</td><td>0.5771</td></tr></table>
+<table><tr><td>Atom</td><td>x/a</td><td>y/b</td><td>z/c</td></tr><tr><td>B1</td><td>0</td><td>0.5</td><td>0.25</td></tr><tr><td>B2</td><td>0</td><td>0</td><td>0.25</td></tr><tr><td>B3</td><td>0.2200</td><td>0.7200</td><td>0.5</td></tr><tr><td>N1</td><td>0.2424</td><td>0.5744</td><td>0.5</td></tr><tr><td>H1</td><td>0.0652</td><td>0.5652</td><td>0.3256</td></tr><tr><td>$H_{2}$</td><td>0.0652</td><td>0.4348</td><td>0.3256</td></tr><tr><td>H3</td><td>0.0000</td><td>0.0922</td><td>0.3256</td></tr><tr><td>H4</td><td>0.2583</td><td>0.7583</td><td>0.5889</td></tr><tr><td>H5</td><td>0.3224</td><td>0.5592</td><td>0.5</td></tr><tr><td>H6</td><td>0.2086</td><td>0.5417</td><td>0.5771</td></tr></table>
 
 6-1 写出 DADB 的晶系和点阵。
 

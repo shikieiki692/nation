@@ -76,7 +76,7 @@ source_file: "2026机构初赛模拟题/04-清北营/春季模拟9.md"
 
 2-1 请给出 A\~D 的化学式，以及 Ti 的核外电子排布。
 
-<table><tr><td rowspan="2">2-1</td><td>A</td><td>B</td><td>C</td><td>D</td><td>电子排布</td></tr><tr><td>TiO</td><td>Ti2O3</td><td>Ti3O5</td><td>TiO2</td><td>[Ar]3d24s2</td></tr></table>
+<table><tr><td rowspan="2">2-1</td><td>A</td><td>B</td><td>C</td><td>D</td><td>电子排布</td></tr><tr><td>TiO</td><td>$Ti_{2}O_{3}$</td><td>$Ti_{3}O_{5}$</td><td>$TiO_{2}$</td><td>[Ar]3d24s2</td></tr></table>
 
 2- 2- 1 上面提到的各种氧化物中，A 的结构耐人寻味。根据化学式，我们可以猜测其为岩盐型结构，科学家发现在其（整比化合物）晶体中存在 1/6 的空缺，已知 Ti -O 距离为 208pm。试计算其密度。
 

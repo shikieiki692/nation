@@ -55,7 +55,7 @@ $$
 
 6-2 写出反应 1\~反应 3 的化学方程式。
 
-<table><tr><td>6-1NO+AuF6-A</td><td>IF5B</td><td>IF7C</td><td>NOD</td></tr><tr><td>NO+IF6-E</td><td>SbF5F</td><td>IF6+SbF6-G</td><td>O2+AuF6-H</td></tr></table>
+<table><tr><td>6-1NO+AuF6-A</td><td>$IF_{5}B$</td><td>$IF_{7}C$</td><td>NOD</td></tr><tr><td>NO+IF6-E</td><td>$SbF_{5}F$</td><td>IF6+SbF6-G</td><td>O2+AuF6-H</td></tr></table>
 
 每个1分，共8分。
 

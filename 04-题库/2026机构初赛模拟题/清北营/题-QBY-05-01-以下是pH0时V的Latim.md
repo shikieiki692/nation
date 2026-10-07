@@ -37,7 +37,7 @@ source_file: "2026机构初赛模拟题/04-清北营/2026年清北营寒假班-�
 
 ![](images/8b7533f70e6e2aa76611e1c94744ee22bf1568f9a78cb5e38365127693cdde2f.jpg)
 
-1-1 通过计算 $\Delta_{r}G_{m}^{\circ}$ 判断 $VO^{2+}$ 是否容易发生歧化反应。
+1-1 通过计算 $\Delta_{r}G_{m}^{\ominus}$ 判断 $VO^{2+}$ 是否容易发生歧化反应。
 
 1-2-1 计算缺失的标准电极电势 $E_{X}$ 。
 
@@ -53,7 +53,7 @@ source_file: "2026机构初赛模拟题/04-清北营/2026年清北营寒假班-�
 
 1-3-4 该反应的标准电势差 $\mathrm{E}^{\circ}$ 随温度的线性变化率为 $-1.75 \times 10^{-3} \mathrm{~V} / \mathrm{K}$ 。已知以下物质的标准熵数据，计算反应的焓变及 $\mathrm{VO}^{2+}$ 的标准摩尔熵（298K）。
 
-<table><tr><td></td><td> $H_{2}(g)$ </td><td> $H_{2}O(l)$ </td><td> $V^{3+}(aq)$ </td><td> $H^{+}(aq)$ </td></tr><tr><td> $S_{m}^{\circ}J/(mol\cdot K)$ </td><td>130.7</td><td>70.0</td><td>-307.0</td><td>0</td></tr></table>
+<table><tr><td></td><td> $H_{2}(g)$ </td><td> $H_{2}O(l)$ </td><td> $V^{3+}(aq)$ </td><td> $H^{+}(aq)$ </td></tr><tr><td> $S_{m}^{\ominus}J/(mol\cdot K)$ </td><td>130.7</td><td>70.0</td><td>-307.0</td><td>0</td></tr></table>
 
 ## 参考答案
 
@@ -61,7 +61,7 @@ source_file: "2026机构初赛模拟题/04-清北营/2026年清北营寒假班-�
 
 ![](images/2ba88ff646e2096883f466ed236ebe427046728f8a90b8189c3c16dfccea4b1b.jpg)
 
-1-1 通过计算 $\Delta_{r}G_{m}^{\circ}$ 判断 $VO^{2+}$ 是否容易发生歧化反应。
+1-1 通过计算 $\Delta_{r}G_{m}^{\ominus}$ 判断 $VO^{2+}$ 是否容易发生歧化反应。
 
 $$
 2 \mathrm{VO} ^ {2 +} \rightarrow \mathrm{VO} _ {2} ^ {+} + \mathrm{V} ^ {3 +}
@@ -125,7 +125,7 @@ $$
 
 1-3-4 该反应的标准电势差 $\mathrm{E}^{\circ}$ 随温度的线性变化率为 $-1.75 \times 10^{-3} \mathrm{~V} / \mathrm{K}$ 。已知以下物质的标准熵数据，计算反应的焓变及 $\mathrm{VO}^{2+}$ 的标准摩尔熵（298K）。
 
-<table><tr><td></td><td> $H_{2}(g)$ </td><td> $H_{2}O(l)$ </td><td> $V^{3+}(aq)$ </td><td> $H^{+}(aq)$ </td></tr><tr><td> $S_{m}^{\circ}J/(mol\cdot K)$ </td><td>130.7</td><td>70.0</td><td>-307.0</td><td>0</td></tr></table>
+<table><tr><td></td><td> $H_{2}(g)$ </td><td> $H_{2}O(l)$ </td><td> $V^{3+}(aq)$ </td><td> $H^{+}(aq)$ </td></tr><tr><td> $S_{m}^{\ominus}J/(mol\cdot K)$ </td><td>130.7</td><td>70.0</td><td>-307.0</td><td>0</td></tr></table>
 
 $$
 E ^ {\circ} = - \frac {\Delta_ {r} H _ {m} ^ {\circ}}{2 F} + \frac {\Delta_ {r} S _ {m} ^ {\circ}}{2 F} T

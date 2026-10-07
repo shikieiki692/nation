@@ -43,7 +43,7 @@ source_file: "2026机构初赛模拟题/02-质心UChO/2ndZCHEM-UChO.md"
 
 4-2 已知如下的键解离能数据:
 
-<table><tr><td>R</td><td>H</td><td>CH3</td><td>CH3CO</td><td>I</td></tr><tr><td>H</td><td>435.8</td><td>439.3</td><td>374</td><td>298.3</td></tr><tr><td>I</td><td>298.3</td><td>238.9</td><td>-</td><td>152.7</td></tr></table>
+<table><tr><td>R</td><td>H</td><td>$CH_{3}$</td><td>$CH_{3}CO$</td><td>I</td></tr><tr><td>H</td><td>435.8</td><td>439.3</td><td>374</td><td>298.3</td></tr><tr><td>I</td><td>298.3</td><td>238.9</td><td>-</td><td>152.7</td></tr></table>
 
 乙醛在碘单质的作用下的热分解，研究表明其反应的机理可以如下表示：
 
@@ -106,10 +106,10 @@ $$
 $$
 
 $$
-\Delta H ^ {\Theta} = B E (C - H) + B E (I - I) - B E (C - I) - B E (H I) = 54.8 \mathrm{kJ/mol} (0.5 \text {分})
+\Delta H^{\ominus} = B E (C - H) + B E (I - I) - B E (C - I) - B E (H I) = 54.8 \mathrm{kJ/mol} (0.5 \text {分})
 $$
 
-是一个明显的吸热反应，反应的熵变较小（气体分子数不变），故 $\Delta G^{\theta}$ 也远大于0，反应很难发生。(0.5分)
+是一个明显的吸热反应，反应的熵变较小（气体分子数不变），故 $\Delta G^{\ominus}$ 也远大于0，反应很难发生。(0.5分)
 
 4-2-2 写出乙醛热分解的方程式。
 
@@ -186,7 +186,7 @@ $$
 对反应 2 来说，
 
 $$
-\Delta H ^ {\theta} (2) = B E \left(\mathrm{H} _ {3} \mathrm{COC} - \mathrm{H}\right) - B E (\mathrm{H} - \mathrm{I}) = 75.7 \mathrm{kJ/mol} (0.5 \text {分})
+\Delta H^{\ominus} (2) = B E \left(\mathrm{H} _ {3} \mathrm{COC} - \mathrm{H}\right) - B E (\mathrm{H} - \mathrm{I}) = 75.7 \mathrm{kJ/mol} (0.5 \text {分})
 $$
 
 系吸热反应，所以其逆反应的活化能可以用提示3里的经验规则计算：
@@ -196,7 +196,7 @@ E _ {- 2} = 0.055 B E (\mathrm{H} - \mathrm{I}) = 16.4 \mathrm{kJ/mol(0.5分)}
 $$
 
 $$
-\text { 故 } E _ {2} = \Delta H ^ {\theta} (2) + E _ {- 2} = 92.1 \mathrm{kJ/mol(0.5分)}
+\text { 故 } E _ {2} = \Delta H^{\ominus} (2) + E _ {- 2} = 92.1 \mathrm{kJ/mol(0.5分)}
 $$
 
 $$

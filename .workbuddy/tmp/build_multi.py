@@ -57,7 +57,16 @@ def is_cn_prelim(blob):
       · 上下文标「国际 / IChO」⇒ 不是国内初赛
       · 上下文标「模拟 / 仿真 / 自测」⇒ 是本系列要收的模拟题，不是真题
     ⚠️ 不能用整篇 blob 判：来源行写「本书含初赛与决赛真题汇编」会把同书所有题误杀。
+
+    🔴 2026-10-07 追加修复：调用方（`build_org.build_pool`）传进来的是**含 frontmatter 的
+    整卡文本**，而 FM 的 `source:` 常写「化英社 第40届化英社化学奥林匹克（初赛）春季联考1」
+    —— 那是**机构自己模拟卷的卷名**，被当成真题特征；实测 349 张该标记里 **342 张命中在 FM**。
+    故此处先剥掉 YAML frontmatter 再判（对只传题面的调用方为 no-op）。
     """
+    if blob.lstrip().startswith("---"):
+        seg = blob.split("---", 2)
+        if len(seg) >= 3:
+            blob = seg[2]
     m = CN_PRELIM.search(blob)
     if not m:
         return False

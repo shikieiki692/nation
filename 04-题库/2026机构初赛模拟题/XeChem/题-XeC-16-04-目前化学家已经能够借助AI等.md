@@ -146,7 +146,7 @@ $$
 4-4-1 已知对于嵌段共聚物 P 而言，CMC 为 $4.4 \mu mol/L$ ，估算 1 mol P 形成胶束的标准摩尔 Gibbs 自由能变。
 
 $$
-\begin{array}{r l} & K ^ {\circ} = c ^ {\circ} / \mathrm{CMC} = 2.273 \times 10 ^ {5} \\ & \Delta G ^ {\circ} = - R T \ln K ^ {\circ} = - 30.6 \mathrm{kJ/mol(2分)} \end{array}
+\begin{array}{r l} & K ^ {\circ} = c ^ {\circ} / \mathrm{CMC} = 2.273 \times 10 ^ {5} \\ & \Delta G^{\ominus} = - R T \ln K ^ {\circ} = - 30.6 \mathrm{kJ/mol(2分)} \end{array}
 $$
 
 4- 4- 2 假定载药量 LC 是在溶液中 M 的浓度达到饱和时测量得到的，计算 K 的值。

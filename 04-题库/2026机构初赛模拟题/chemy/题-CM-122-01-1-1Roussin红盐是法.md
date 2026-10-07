@@ -60,10 +60,10 @@ source_file: "chemy试题/第36届化学奥林匹克Chemy模拟试题题目合�
 1-1-2  $2NH_{4}[Fe_{4}S_{3}(NO)_{7}] + 6NaOH = 3Na_{2}[Fe_{2}(NO)_{4}S_{2}] + 2Fe(OH)_{3} + N_{2}O + 2NH_{3} + H_{2}O$  （2分）
 
 1-2（共3分）
- $\Delta_{vap}H_{m}^{\circ}(H_{2}O)=\Delta_{f}H_{m}^{\circ}(H_{2}O,g)-\Delta_{f}H_{m}^{\circ}(H_{2}O,l)=(-241.818+285.830)kJ/mol=44.012kJ/mol$
+ $\Delta_{vap}H_{m}^{\ominus}(H_{2}O)=\Delta_{f}H_{m}^{\ominus}(H_{2}O,g)-\Delta_{f}H_{m}^{\ominus}(H_{2}O,l)=(-241.818+285.830)kJ/mol=44.012kJ/mol$
 由沸点的定义知， $T_{1}=373.15K$  时， $p_{1}(H_{2}O,g)=1atm=101.325kPa$ （1分）
 又  $T_{2}=298.15K$ ，由 Clausius-Clapeyron 方程得：
- $\ln(p_{2}/p_{1})=(1/T_{1}-1/T_{2})\times\Delta_{vap}H_{m}^{\circ}(H_{2}O)/R$ （1分）
+ $\ln(p_{2}/p_{1})=(1/T_{1}-1/T_{2})\times\Delta_{vap}H_{m}^{\ominus}(H_{2}O)/R$ （1分）
 代入得  $p_{2}=\exp[44.012\times10^{3}/8.314\times(1/373.15-1/298.15)]\times101.325kPa=2.857kPa$
 故当天该地近地面大气中  $p(H_{2}O)=0.75p_{2}=2.1kPa$ （1分）
 

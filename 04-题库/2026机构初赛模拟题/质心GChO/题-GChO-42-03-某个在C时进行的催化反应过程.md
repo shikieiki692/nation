@@ -43,13 +43,13 @@ $$
 2 \mathbf {B} \rightarrow 2 \mathbf {C} + \mathrm{Cl} _ {2} \quad \Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\circ} (2) = 148.28 \mathrm{kJ} \mathrm{mol} ^ {- 1}
 $$
 
-$4C + O_{2} \rightarrow 2A + 2B \quad \Delta_{r}H_{m}^{\circ}(3) = -192.97\ kJ\ mol^{-1}$
+$4C + O_{2} \rightarrow 2A + 2B \quad \Delta_{r}H_{m}^{\ominus}(3) = -192.97\ kJ\ mol^{-1}$
 
-3-1 写出反应的总反应方程式(要求系数均为整数)，计算其 $\Delta_{r}H_{m}^{\circ}$ 。
+3-1 写出反应的总反应方程式(要求系数均为整数)，计算其 $\Delta_{r}H_{m}^{\ominus}$ 。
 
 3-2 已知 C 中金属元素的质量分数为 64.2%，给出 A\~C 的化学式。
 
-3-3 将原料按化学计量比投料，在恒外压为 $100 \, kPa, 625^{\circ}C$ 时，转化率为 2/3。计算总反应的标准平衡常数 $K^{\circ}$ 和 $\Delta_{r} S_{m}^{\circ}$ 。
+3-3 将原料按化学计量比投料，在恒外压为 $100 \, kPa, 625^{\circ}C$ 时，转化率为 2/3。计算总反应的标准平衡常数 $K^{\circ}$ 和 $\Delta_{r} S_{m}^{\ominus}$ 。
 
 3-4 在什么温度下，转化率能达到 $90\%$ ？为什么实际生产不采取这个温度？
 
@@ -67,13 +67,13 @@ $$
 \Delta_ {\mathrm{r}} H _ {\mathrm{m}} ^ {\circ} (2) = 148.28 \mathrm{kJ} \mathrm{mol} ^ {- 1}
 $$
 
-$4C + O_{2} \rightarrow 2A + 2B \quad \Delta_{r}H_{m}^{\circ}(3) = -192.97\ kJ\ mol^{-1}$
+$4C + O_{2} \rightarrow 2A + 2B \quad \Delta_{r}H_{m}^{\ominus}(3) = -192.97\ kJ\ mol^{-1}$
 
-3-1 写出反应的总反应方程式(要求系数均为整数)，计算其 $\Delta_{r}H_{m}^{\circ}$ 。
+3-1 写出反应的总反应方程式(要求系数均为整数)，计算其 $\Delta_{r}H_{m}^{\ominus}$ 。
 
 3-2 已知 C 中金属元素的质量分数为 64.2%，给出 A\~C 的化学式。
 
-3-3 将原料按化学计量比投料，在恒外压为 $100 \, kPa, 625^{\circ}C$ 时，转化率为 2/3。计算总反应的标准平衡常数 $K^{\circ}$ 和 $\Delta_{r} S_{m}^{\circ}$ 。
+3-3 将原料按化学计量比投料，在恒外压为 $100 \, kPa, 625^{\circ}C$ 时，转化率为 2/3。计算总反应的标准平衡常数 $K^{\circ}$ 和 $\Delta_{r} S_{m}^{\ominus}$ 。
 
 3-4 在什么温度下，转化率能达到 $90\%$ ？为什么实际生产不采取这个温度？
 
