@@ -127,10 +127,14 @@ _ANS_HEAD = re.compile(
 # 加粗标记型：**答案：** / **参考答案：**
 _ANS_MARK = re.compile(r"(?m)^[ \t]*(?:>[ \t]*)?\*\*[ \t]*(?:参考)?答案(?:[ \t]*[:：]|[ \t]*\*\*)")
 # 外链型：答案区只写「答案见 [[…]] 的参考答案区」
-_EXT_REF = re.compile(r"(?:本题)?答案(?:见|在)[^\n]{0,20}?\[\[")
+# 外链型：答案区只写指针而非答案。
+# ⚠️ 2026-10-07 放宽：原式只认「答案见/答案在」，但库里有「> 见 [[卷-01]] 的参考答案区」
+#    这类**省略主语**的写法（段边界修复后暴露：这类段被判成有实体答案）。
+#    判据收紧为：短段 ＋ 含 wikilink ＋ 含「见/参见/详见/答案」任一 ⇒ 视为外链指针。
+_EXT_REF = re.compile(r"(?:答案(?:见|在)|见|参见|详见)[^\n]{0,24}?\[\[")
 # 折叠块
 _DET = re.compile(r"(?s)<details[^>]*>(.*?)</details>")
-_ANY_HEAD = re.compile(r"(?m)^#{1,6}[ \t]*(.+?)[ \t]*$")
+_ANY_HEAD = re.compile(r"(?m)^(#{1,6})[ \t]*(.+?)[ \t]*$")
 
 
 def find_answer_section(body, allow_details=True):
@@ -139,16 +143,33 @@ def find_answer_section(body, allow_details=True):
     kind ∈ {标准, 异形标题, 加粗标记, details}
     「参考答案/答案与解析/答案解析/参考解答」算标准（与旧口径一致），
     其余（答案/解答/解析要点/详解/解析）算异形标题。
+
+    🔴 2026-10-07 修（真实缺陷，A 层标注时踩到）：
+    段边界原先用「下一个**任意**标题」作结束，但答案区里**紧跟子标题**是常态
+    （`## 参考答案` → `### (1) …`），于是段长被截成 0 ⇒ `has_entity=False`
+    ⇒ 21 张**有答案**的卡被误判为「答案区空」。
+    正解：**同级别或更高级**的标题才算区界；`###`/`####` 是答案区的子结构，要**并入**。
     """
-    std = re.compile(r"(?m)^#{1,6}[ \t]*(?:参考解答|参考答案与解析|参考答案|答案与解析|答案解析)[ \t]*$")
+    def _end_after(m):
+        """找答案区结束位置：下一个 level <= 本级的标题；没有则到文末。
+
+        ⚠️ 必须从 **m.end()** 起扫，不能从 m.start()——否则会匹配到**标题自己**
+        并立刻返回自身位置（实测把 `## 参考答案\\n\\n#### 答\\n\\n答案…` 截成空段）。
+        """
+        m0 = re.match(r"(?m)^(#{1,6})[ \t]*", body[m.start():m.end() + 1])
+        level = len(m0.group(1)) if m0 else 2
+        for h in _ANY_HEAD.finditer(body, m.end()):
+            if len(h.group(1)) <= level:
+                return h.start()
+        return len(body)
+
+    std = re.compile(r"(?m)^(#{1,6})[ \t]*(?:参考解答|参考答案与解析|参考答案|答案与解析|答案解析)[ \t]*$")
     m = std.search(body)
     if m:
-        nxt = _ANY_HEAD.search(body, m.end())
-        return m.start(), (nxt.start() if nxt else len(body)), "标准"
+        return m.start(), _end_after(m), "标准"
     m = _ANS_HEAD.search(body)
     if m:
-        nxt = _ANY_HEAD.search(body, m.end())
-        return m.start(), (nxt.start() if nxt else len(body)), "异形标题"
+        return m.start(), _end_after(m), "异形标题"
     # ⚠️ details 必须排在加粗标记**之前**：库里多数折叠块里有 `**答案：**`，
     #    先匹配加粗标记会把整块答案截成一行。
     if allow_details:
@@ -157,8 +178,7 @@ def find_answer_section(body, allow_details=True):
             return m.start(), m.end(), "details"
     m = _ANS_MARK.search(body)
     if m:
-        nxt = _ANY_HEAD.search(body, m.end())
-        return m.start(), (nxt.start() if nxt else len(body)), "加粗标记"
+        return m.start(), _end_after(m), "加粗标记"
     return None
 
 
