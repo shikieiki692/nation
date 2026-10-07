@@ -129,6 +129,37 @@ def own_qno(text, path):
     return int(m.group(1)) if m else None
 
 
+def _int2cn(n):
+    """1~99 → 中文题号。"""
+    d = '零一二三四五六七八九'
+    if not n or n <= 0:
+        return ''
+    if n <= 9:
+        return d[n]
+    if n == 10:
+        return '十'
+    if n < 20:
+        return '十' + d[n - 10]
+    if n % 10 == 0:
+        return d[n // 10] + '十'
+    if n < 100:
+        return d[n // 10] + '十' + d[n % 10]
+    return ''
+
+
+def num_alt(n):
+    """题号匹配式：**阿拉伯 + 中文**并列。
+
+    🔴🔴 2026-10-07：原「剔本卡标题行」只用阿拉伯数字（`_own`）⇒ 匹配不了中文数字标题
+    （`### 第 一 题（8分）完成反应方程式`）⇒ 该行里的「（8分）」被 LEAK 闸当成题面泄露，
+    整卡被误判（实测 `题-FY-无机专题一-01-11` 因此被错误「救援」，题干被搬进答案区）。
+    """
+    if not n:
+        return r'\d{1,2}'
+    c = _int2cn(n)
+    return r'(?:%d|%s)' % (n, c) if c else (r'%d' % n)
+
+
 # ── ★ 手写解析稿闸（2026-10-07）────────────────────────────────────────
 # 源「答案」实为**手写解析稿**的 OCR ⇒ 答案区混入口语/涂鸦（实测 题-GChO-37-05：
 # 「(4) ⇒ x = cd. D = cd s.」「200my 134.2my」「12分 ≥14 ≥10 awsl」）⇒ 答案不可用。
@@ -392,17 +423,40 @@ def strip_q_echo(q, a):
 
 
 def strip_src_heading(s):
-    """剥开头的源卡标题 `### 第 N 题 题名（X分，占 Y%）`（⚠️ 题号有中文数字变体「第 四 题」）。"""
+    """剥开头的源卡标题 `### 第 N 题 题名（X分，占 Y%）`（⚠️ 题号有中文数字变体「第 四 题」）。
+
+    🔴🔴 2026-10-07 修：源卡常把**题干引言并入标题行**（`### 第 1 题红釉（22分，占 10%）在古代，红釉是…`、
+    `### 第 2 题(15分)元素X是一种稀少的元素,…`）⇒ 原实现**整行删除**会把题干正文一起删掉
+    （实测 `题-UChO-02-02-21给出XY…` 596→57 字；全库 44 张卡标题行携带 >45 字）。
+    正解＝只删「题号 + 题名 + 分值注记」，**保留其后的正文**（题名另有 `c['title']` 单独抽取，不依赖本行）。
+    """
     lines = s.split('\n')
     i = 0
     while i < len(lines) and lines[i].strip() == '':
         i += 1
-    if i < len(lines) and re.match(r'^#{2,4}\s*第\s*[0-9一二三四五六七八九十]+\s*题', lines[i].strip()):
+    if i >= len(lines):
+        return s
+    m = re.match(r'^#{2,4}\s*第\s*[0-9一二三四五六七八九十]+\s*题\s*[.．、]?\s*(.*)$',
+                 lines[i].strip())
+    if not m:
+        return s
+    rest = m.group(1)
+    # 分值注记（`（22分，占 10%）` / `(15分)` / `(21分， 占10%）`）：删到注记结束；保留其后正文
+    sm = re.search(r'[（(][^（()）]*?分[^（()）]*?[）)]', rest)
+    body = (rest[sm.end():] if sm else rest).strip()
+    # ⚠️ `### 第 N 题（分值）题名`（题名在分值**之后**，如「磷」「冰！」「水星」）⇒ post-score 文本
+    #   其实是题名。判据：**正文**＝足够长（≥50 字），或（≥30 字且含句读 `。！？：`）；
+    #   否则一律视为题名丢弃（实测 12~46 字的 post-score 文本 99% 是题名）。
+    _bn = len(re.sub(r'\s+', '', body))
+    if not (_bn >= 50 or (_bn >= 30 and re.search(r'[。！？：]', body))):
+        body = ''
+    i += 1
+    while i < len(lines) and lines[i].strip() == '':
         i += 1
-        while i < len(lines) and lines[i].strip() == '':
-            i += 1
-        s = '\n'.join(lines[i:])
-    return s
+    tail = lines[i:]
+    if body:
+        return '\n'.join([body] + tail)
+    return '\n'.join(tail)
 
 
 def flatten_subq_headings(s):
@@ -836,7 +890,7 @@ def build_pool():
                 #   ⚠️ 只剔**本卡号**的标题（`### 第 6 题（22分）…`），
                 #   否则会连「下一题题头串入」（`第7題（18分，占9%）`）一起放过。
                 _own = own_qno(t, p)
-                _qchk = re.sub(r'^#{0,4}[^\S\n]*第[^\S\n]*%s[^\S\n]*[题題][^\n]*$' % (_own if _own else r'\d+'),
+                _qchk = re.sub(r'^#{0,4}[^\S\n]*第[^\S\n]*%s[^\S\n]*[题題][^\n]*$' % num_alt(_own),
                                '', q, flags=re.M)
                 if LEAK.search(_qchk):
                     continue
