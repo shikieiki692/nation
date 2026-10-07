@@ -135,6 +135,10 @@ _EXT_REF = re.compile(r"(?:答案(?:见|在)|见|参见|详见)[^\n]{0,24}?\[\["
 # 折叠块
 _DET = re.compile(r"(?s)<details[^>]*>(.*?)</details>")
 _ANY_HEAD = re.compile(r"(?m)^(#{1,6})[ \t]*(.+?)[ \t]*$")
+# 「整行只有答案类标题」的形态（用于识别连续包裹标题）
+_ANS_TITLE_ONLY = re.compile(
+    r"(?m)^#{1,6}[ \t]*(?:参考解答|参考答案与解析|参考答案|答案与解析|答案解析|"
+    r"解析要点|详解|解答|答案|解析)[ \t]*$")
 
 
 def find_answer_section(body, allow_details=True):
@@ -155,13 +159,26 @@ def find_answer_section(body, allow_details=True):
 
         ⚠️ 必须从 **m.end()** 起扫，不能从 m.start()——否则会匹配到**标题自己**
         并立刻返回自身位置（实测把 `## 参考答案\\n\\n#### 答\\n\\n答案…` 截成空段）。
+        ⚠️ 2026-10-07 再修：库里有**连续答案类标题**（`## 答案与解析` 紧跟 `## 参考答案`，
+           两者同级且中间无内容）⇒ 按原规则会截成空段，误判「答案区空」。
+           正解：**跳过后续连续的答案类标题**，直到遇到「非答案类」标题或正文。
         """
         m0 = re.match(r"(?m)^(#{1,6})[ \t]*", body[m.start():m.end() + 1])
         level = len(m0.group(1)) if m0 else 2
-        for h in _ANY_HEAD.finditer(body, m.end()):
-            if len(h.group(1)) <= level:
-                return h.start()
-        return len(body)
+        pos = m.end()
+        while True:
+            nxt = None
+            for h in _ANY_HEAD.finditer(body, pos):
+                if len(h.group(1)) <= level:
+                    nxt = h
+                    break
+            if nxt is None:
+                return len(body)
+            # 该标题若是「答案类」，说明是连续包裹标题 ⇒ 跳过，继续往后找
+            if _ANS_TITLE_ONLY.match(nxt.group(0)):
+                pos = nxt.end()
+                continue
+            return nxt.start()
 
     std = re.compile(r"(?m)^(#{1,6})[ \t]*(?:参考解答|参考答案与解析|参考答案|答案与解析|答案解析)[ \t]*$")
     m = std.search(body)
