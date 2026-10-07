@@ -38,11 +38,12 @@ for rel in paths:
         bad.append((rel, "FM 非映射")); continue
     ps = d.get("pool_scope")
     if ps is None:
-        nokey += 1
-    elif ps not in OK_VALS:
-        bad.append((rel, "pool_scope 值非法: %r" % ps))
-    if len(re.findall(r"(?m)^pool_scope[ \t]*:", fm)) != 1:
-        bad.append((rel, "pool_scope 键数≠1"))
+        nokey += 1                     # 入池卡本就不该有 pool_scope ⇒ 只计数，不判错
+    else:
+        if ps not in OK_VALS:
+            bad.append((rel, "pool_scope 值非法: %r" % ps))
+        if len(re.findall(r"(?m)^pool_scope[ \t]*:", fm)) != 1:
+            bad.append((rel, "pool_scope 键数≠1"))
 
 print("校验 %d 文件；无 pool_scope %d；异常 %d" % (len(paths), nokey, len(bad)))
 for rel, why in bad[:30]:

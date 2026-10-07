@@ -838,6 +838,7 @@ def desc_of(c):
 
 def build_pool():
     pool = collections.defaultdict(list)
+    KEEP_POOL = load_pool_keep()          # ★ 人工放行清单（覆盖 is_cn_prelim 假阳性）
     OVERFLOW_HITS.clear(); HANDWRITTEN_HITS.clear(); ECHO_HITS.clear(); GARB2_HITS.clear()
     for rel in SRCS:
         for p in sorted(glob.glob(os.path.join(BASE, rel, '**', '题-*.md'), recursive=True)):
@@ -861,7 +862,7 @@ def build_pool():
             h1m = re.search(r'^#\s+(.+)$', t, re.M)
             h1 = h1m.group(1) if h1m else ''
             tn = re.sub(r'<!--.*?-->', '', t, flags=re.S)
-            if B.is_cn_prelim(tn):
+            if B.is_cn_prelim(tn) and os.path.basename(p) not in KEEP_POOL:
                 continue
             if B.ORG_CHAP.search(src) or B.ORG_CHAP.search(h1):
                 continue
@@ -1070,6 +1071,26 @@ def load_keep():
     """
     try:
         with open(os.path.join(HERE, 'noise_keep.json'), encoding='utf-8') as f:
+            return set(json.load(f))
+    except Exception:
+        return set()
+
+
+def load_pool_keep():
+    """人工「放行入池」清单（`pool_keep.json`，题目卡**文件名**数组）。
+
+    用途：覆盖 `is_cn_prelim()` 的**假阳性**。实测该判据除了 FM 的 `source:` 行
+    （已于 2026-10-07 修：先剥 FM），还会命中 **H1 标题行**（H1 常＝文件名，
+    含「第40届…化学奥林匹克（初赛）模拟13」）与**答案区出处注记**
+    （`> ✅ 答案由源《第40届化英社化学奥林匹克（初赛）春季联考1 答案》…`）
+    —— 两者都是**机构模拟卷的卷名**，不是「本题即真题」的证据。
+
+    入册前须过 **8-gram × 真题语料去重**（`p1a_dedup2.py`）：实测这 21 张
+    对初赛真题合集(1~38 届)+05-真题库+04-题库/真题 的最高覆盖仅 0.154
+    （疑似档 0.30），即 **0 张真重复**。清单见 `2026-10-07-P1a真题特征核验与判据修复.md`。
+    """
+    try:
+        with open(os.path.join(HERE, 'pool_keep.json'), encoding='utf-8') as f:
             return set(json.load(f))
     except Exception:
         return set()

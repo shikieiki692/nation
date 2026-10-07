@@ -15,6 +15,7 @@ sys.path.insert(0, BASE_DIR)
 import build_org as BO          # 复用其全部判据常量与函数
 X = BO.X
 B = BO.B
+KEEP_POOL = BO.load_pool_keep()   # ★ 与 build_org 同步：人工放行清单（覆盖 is_cn_prelim 假阳性）
 
 OUT = os.path.join(BO.ROOT, "09-审计报告", "2026-10-07-不可组卷题目清单.csv")
 
@@ -60,7 +61,7 @@ def judge(p, rel):
     h1m = re.search(r"^#\s+(.+)$", t, re.M)
     h1 = h1m.group(1) if h1m else ""
     tn = re.sub(r"<!--.*?-->", "", t, flags=re.S)
-    if B.is_cn_prelim(tn):
+    if B.is_cn_prelim(tn) and os.path.basename(p) not in KEEP_POOL:
         return "弃卡", "题面含竞赛真题特征", meta
     if B.ORG_CHAP.search(src) or B.ORG_CHAP.search(h1):
         return "弃卡", "有机章节", meta
