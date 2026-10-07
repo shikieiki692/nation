@@ -52,6 +52,11 @@ HANDWRITTEN_HITS = []     # 手写稿闸命中（路径）
 PLACEHOLDER = re.compile(r'⛔|源池(无|仅|未见)|未录入|未定位|待人工核'
                          r'|文字化需人工转录|已随卡|源卷答案|答案出处[：:]'
                          r'|文字层自动提取|未逐字校对|答案（源 ?PDF')
+# ★ 占位/出处「注记行」识别（2026-10-07 新增）：用于把注记行从答案里剔除后再判占位，
+#   避免误杀「注记 ＋ 实质解答」的卡（实测 11 张被误弃）。
+NOTE_LINE = re.compile(r'^(?:[>]+\s*)*(?:📎|⛔|📄)'
+                       r'|答案出处[：:]|[（(]源 ?PDF|未逐字校对|文字层自动提取'
+                       r'|文字化需人工转录|源卷答案')
 # 题面泄露闸：源卡「题面区」若含答案/讲稿内容（化英社 HYS-02 参考答案稿、伽马讲稿批次），
 # 直接弃卡——这类泄露无法可靠清洗（题面↔解答逐小问交错）。
 # 假结构式闸：OCR 把**结构式/竖排标签**塞进 `\begin{array}` 转成 ASCII 骨架
@@ -752,9 +757,15 @@ def build_pool():
             except Exception:
                 continue
             rawq, rawa = c['question'], c['answer']
-            # ★ 占位闸：答案区**带图**者不算占位（图片即答案；注记只是出处说明）
-            if (PLACEHOLDER.search(rawa) and '![' not in rawa) or PLACEHOLDER.search(rawq):
+            # ★ 占位闸：答案区**带图**者不算占位（图片即答案；注记只是出处说明）；
+            #   且须**剔除注记行**后仍无实质内容才算无答案（2026-10-07 修正）。
+            if PLACEHOLDER.search(rawq):
                 continue
+            if PLACEHOLDER.search(rawa) and '![' not in rawa:
+                _body = "\n".join(l for l in rawa.split("\n")
+                                  if l.strip() and not NOTE_LINE.search(l.strip()))
+                if len(re.sub(r"\s+", "", _body)) < 25:
+                    continue
             # ASCII 结构骨架闸：⚠️ **题面与答案都要查**（只查答案会漏掉题目区的图）
             if has_fake_struct(rawa) or has_fake_struct(rawq):
                 continue
