@@ -138,6 +138,10 @@ _ANS_MARK = re.compile(r"(?m)^[ \t]*(?:>[ \t]*)?\*\*[ \t]*(?:参考)?答案(?:[ 
 _EXT_REF = re.compile(r"(?:答案(?:见|在)|见|参见|详见)[^\n]{0,24}?\[\[")
 # 折叠块
 _DET = re.compile(r"(?s)<details[^>]*>(.*?)</details>")
+# Obsidian callout 整块：`> [!warning] 标题` + 后续连续的 `>` 行（2026-10-07 加，
+# 用于剔除「只有核查标注、没有实质答案」的自我满足式误判）
+_CALLOUT_BLOCK = re.compile(
+    r"(?m)^[ \t]*>[ \t]*\[!\w+\][^\n]*(?:\n[ \t]*>[^\n]*)*\n?")
 _ANY_HEAD = re.compile(r"(?m)^(#{1,6})[ \t]*(.+?)[ \t]*$")
 # 「整行只有答案类标题」的形态（用于识别连续包裹标题）
 _ANS_TITLE_ONLY = re.compile(
@@ -197,8 +201,20 @@ def find_answer_section(body, allow_details=True):
 
     std = re.compile(r"(?m)^(#{1,6})[ \t]*(?:参考解答|参考答案与解析|参考答案|答案与解析|答案解析)"
                      + _ANS_SUFFIX + r"[ \t]*(?:[（(][^）)\n]{0,12}[）)])?[ \t]*$")
-    m = std.search(body)
-    if m:
+    # 🔴 第六形态（2026-10-07，final_stats 时发现 47 张卡命中）：
+    #    **同页重复的答案标题**——这些卡的正文被整段复制了两遍，
+    #    于是 `## 参考答案` 出现 2–6 次；`search` 只取**第一个**，
+    #    其后紧跟的同名标题立刻成为区界 ⇒ 截成空段 ⇒ 误判「答案区空」。
+    #    正解：取**最后一个「后面确实有内容」的**那个标题。
+    allm = list(std.finditer(body))
+    if allm:
+        if len(allm) > 1:
+            for mm in reversed(allm):
+                s0, e0 = mm.start(), _end_after(mm)
+                seg0 = re.sub(r"(?m)^#{1,6}[ \t]*.*$", "", body[s0:e0])
+                if re.sub(r"[\s>*`]", "", seg0):
+                    return s0, e0, "标准"
+        m = allm[0]
         return m.start(), _end_after(m), "标准"
     m = _ANS_HEAD.search(body)
     if m:
@@ -228,6 +244,12 @@ def classify_answer(body):
     s, e, kind = loc
     seg = body[s:e]
     txt = _DET.sub(lambda m: m.group(1), seg) if kind == "details" else seg
+    # 🔴 第七形态（2026-10-07，final_stats 时发现 207 张受影响）：
+    #    答案区**只有 callout 标注块**（`> [!warning] 源确缺答案…` / `> [!warning] 待人工核…`）。
+    #    这些标注是**我们自己的核查记录，不是答案**；原判据把它当成实体答案
+    #    ⇒ **「自我满足式误判」**：标注让卡片看起来有答案，可用率虚高 207 张。
+    #    正解：**先把 callout 整块剥掉**，再判是否还有实质内容。
+    txt = _CALLOUT_BLOCK.sub("", txt)
     txt = re.sub(r"(?m)^[ \t]*(?:>[ \t]*)?#{1,6}[ \t]*.*$", "", txt)      # 去标题行
     plain = re.sub(r"[\s>*#`\[\]（）()｜|]", "", txt)
     ext = bool(_EXT_REF.search(txt))
