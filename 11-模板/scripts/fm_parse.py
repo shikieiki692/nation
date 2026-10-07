@@ -143,6 +143,10 @@ _ANY_HEAD = re.compile(r"(?m)^(#{1,6})[ \t]*(.+?)[ \t]*$")
 _ANS_TITLE_ONLY = re.compile(
     r"(?m)^#{1,6}[ \t]*(?:参考解答|参考答案与解析|参考答案|答案与解析|答案解析|"
     r"解析要点|详解|解答|答案|解析)" + _ANS_SUFFIX + r"[ \t]*$")
+# 🔴 第五种形态（2026-10-07）：答案区里用**一级标题**写小问
+#    （`## 参考答案` → `#1-1 (2分)` / `#1-2` / `#(浓度转化过程 2 分)`）。
+#    判据：井号后**紧跟数字或中文括号**（不要求空格）⇒ 视为答案小问标题而非区界。
+_SUBQ_HEAD = re.compile(r"(?m)^#{1,6}[ \t]*(?=[0-9（(【\[])")
 
 
 def find_answer_section(body, allow_details=True):
@@ -180,6 +184,13 @@ def find_answer_section(body, allow_details=True):
                 return len(body)
             # 该标题若是「答案类」，说明是连续包裹标题 ⇒ 跳过，继续往后找
             if _ANS_TITLE_ONLY.match(nxt.group(0)):
+                pos = nxt.end()
+                continue
+            # 🔴 2026-10-07 第五种形态：答案区里用**一级标题**写小问
+            #    （`## 参考答案` → `#1-1 (2分)`、`#1-2`、`#(浓度转化过程 2 分)`）。
+            #    这类「`#` ＋ 题号数字/括号」的标题是**答案的子结构**，不是区界。
+            #    判据：井号后紧跟数字或中文括号 ⇒ 视为答案小问标题。
+            if _SUBQ_HEAD.match(nxt.group(0)):
                 pos = nxt.end()
                 continue
             return nxt.start()
