@@ -1,0 +1,123 @@
+{
+  "generated_at": "2026-10-07T05:30:49.406480+00:00",
+  "root": "C:\\Obsidion\\妙妙屋",
+  "question_bank": {
+    "md_total": 11448,
+    "question_like_total": 11170,
+    "question_like_active": 11046,
+    "question_like_deprecated": 124,
+    "by_type": {
+      "真题": {
+        "total": 41,
+        "active": 41,
+        "deprecated": 0
+      },
+      "题目": {
+        "total": 11129,
+        "active": 11005,
+        "deprecated": 124
+      }
+    }
+  },
+  "links": {
+    "total": 104251,
+    "resolved": 96171,
+    "broken_candidates": 8080,
+    "sample": [
+      {
+        "source": "00-首页/KP-提炼-题库挂接巡检表.md",
+        "target": "03-知识点/无机和结构化学/尖晶石结构"
+      },
+      {
+        "source": "00-首页/活跃任务.md",
+        "target": "02-数据库/活跃任务.base"
+      },
+      {
+        "source": "00-首页/知识库待补充清单.md",
+        "target": "反应机理同源谱系图"
+      },
+      {
+        "source": "01-考纲导航/README.md",
+        "target": "02-考纲条目/"
+      },
+      {
+        "source": "01-考纲导航/决赛要求-总览.md",
+        "target": "决赛09"
+      },
+      {
+        "source": "01-考纲导航/决赛要求-总览.md",
+        "target": "决赛09"
+      },
+      {
+        "source": "01-考纲导航/决赛要求-金属有机与超分子.md",
+        "target": "07-资料提炼/教学逻辑提炼"
+      },
+      {
+        "source": "02-数据库/README.md",
+        "target": "03-知识点/"
+      },
+      {
+        "source": "02-数据库/README.md",
+        "target": "04-题库/"
+      },
+      {
+        "source": "02-数据库/README.md",
+        "target": "05-真题库/"
+      },
+      {
+        "source": "02-数据库/数据库-工作流.md",
+        "target": "02-数据库/活跃任务.base"
+      },
+      {
+        "source": "02-数据库/数据库-真题.md",
+        "target": "02-数据库/真题.base"
+      },
+      {
+        "source": "02-数据库/数据库-知识点.md",
+        "target": "02-数据库/知识点.base"
+      },
+      {
+        "source": "02-数据库/数据库-知识点.md",
+        "target": "02-数据库/知识点.base"
+      },
+      {
+        "source": "02-数据库/薄壳KP分诊表.md",
+        "target": "Hofmann重排"
+      },
+      {
+        "source": "02-数据库/薄壳KP分诊表.md",
+        "target": "霍夫曼重排"
+      },
+      {
+        "source": "02-数据库/薄壳KP分诊表.md",
+        "target": "路易斯结构式"
+      },
+      {
+        "source": "03-知识点/README.md",
+        "target": "07-资料提炼/"
+      },
+      {
+        "source": "03-知识点/README.md",
+        "target": "04-题库/"
+      },
+      {
+        "source": "03-知识点/README.md",
+        "target": "04-专题与题型/"
+      }
+    ],
+    "audit_self_references_excluded": true,
+    "code_blocks_and_images_excluded": true
+  },
+  "pending_review": {
+    "pending_review_cards": 315,
+    "pending_review_dir": "_待人工复核-空壳与重复卡"
+  },
+  "artifacts": {
+    "student_handout_md": 129,
+    "docx_total": 1309
+  },
+  "definitions": {
+    "active_question": "type in {题目, 真题} and status != deprecated",
+    "link_scope": "exclude audit reports, code blocks, image embeds, archives and external imports"
+  }
+}
