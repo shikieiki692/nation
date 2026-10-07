@@ -129,7 +129,8 @@ def own_qno(text, path):
 # 词表保持**极窄**（只收明确的网络用语/涂鸦，避免误伤正常表述）。
 HANDWRITTEN = re.compile(r'awsl|yyds|栓Q|xswl|nsdd|凑不出|瞎写|乱写|随便写|懒得写|不会画')
 SCOREMARK = re.compile(r"(?<![\d.])\d{1,2}(?:\.\d)?\s*['\u2032\u2019]")   # 手写评分符 1'（无区分度，仅统计）
-GARB2PAT = re.compile(r"\\xlongequal|\\xrightarrow\s*\{\s*\d+\s*\}|_\s*\{\s*n\s*\}")  # 已知 OCR/宏乱码特征
+GARB2PAT = re.compile(r"\\xlongequal|\\xrightarrow\s*\{\s*\d+\s*\}")  # 已知 OCR/宏乱码特征
+# ⚠️ 曾误加 `_{n}`：`r_n`/`v_n` 等**合法下标**会被误伤（实测把 题-HZ-12-06 整卡弃掉 ⇒ 卷XI 计划锁失效重选）。
 ECHO_HITS = []            # 答案可用闸：仅题干回显
 GARB2_HITS = []           # 答案可用闸：OCR 乱码宏
 
