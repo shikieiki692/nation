@@ -71,7 +71,12 @@ for fn, gen, desc in PIPES:
 
     # ② 生成类脚本必须有 dry-run（除非它只写 .workbuddy/tmp 之外的 staging）
     if gen:
-        has_dry = ("--write" in src and "DRY-RUN" in src) or ("APPLY" in src and "dry" in src.lower())
+        # ⚠️ 判据要认三种写法：APPLY / WRITE 变量，或字面 DRY-RUN 提示。
+        #    build_module_book 用的是 WRITE = "--write" in sys.argv（2026-10-07 核实它
+        #    本来就有 dry-run，WRITE=False 时只打印「[dry-run] …」）
+        has_dry = ("--write" in src
+                   and ("DRY-RUN" in src or "dry-run" in src
+                        or re.search(r'\b(APPLY|WRITE)\b\s*=\s*.--write', src)))
         chk("%-26s 有 dry-run" % fn, has_dry,
             "" if has_dry else "生成类脚本但无 dry-run ⇒ 误跑即改写库")
 
@@ -96,8 +101,21 @@ for fn, gen, desc in PIPES:
                             # ⚠️ 别用 `fn` 这个名字——外层循环变量也是它，会被覆盖
                             callee = sub.func
                             cname = getattr(callee, "attr", None) or getattr(callee, "id", None)
-                            if cname in ("write_text", "write_bytes", "open", "save"):
-                                bad_top.append(cname)
+                            if cname not in ("write_text", "write_bytes", "open", "save"):
+                                continue
+                            # ⚠️ 只认**写**模式；`open(path, encoding=...)` 是读，
+                            #    不算顶层写盘（build_module_book 的 --merge-keys-file 就是读）
+                            mode = ""
+                            for kw in sub.keywords:
+                                if kw.arg == "mode" and isinstance(kw.value, ast.Constant):
+                                    mode = str(kw.value.value)
+                            if cname == "open" and not any(
+                                    isinstance(a, ast.Constant) and str(a.value) in ("w", "a", "w+", "r+", "x")
+                                    for a in sub.args):
+                                continue
+                            if mode and "r" in mode and "w" not in mode:
+                                continue
+                            bad_top.append("line %d: %s" % (sub.lineno, cname))
         except SyntaxError as e:
             bad_top = ["<语法错误 %s>" % str(e)[:30]]
         chk("%-26s 顶层不写盘" % fn, not bad_top,

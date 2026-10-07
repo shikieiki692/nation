@@ -124,16 +124,29 @@ def backfill(picked, paper):
         n += 1
     print(f"used_in 回填: {n}")
 
+
+
+def _cli():
 # ── 一分册专项卷 I ──
-c1 = scan("高中化学竞赛教程第一分册", "一分册正册")
-p1 = pick_balanced(c1, 25)
-print(f"  选中 {len(p1)}: d={dict(sorted(collections.Counter(c['d'] for c in p1).items()))}, "
-      f"章={dict(sorted(collections.Counter(c['chap'] for c in p1).items()))}")
-json.dump(p1, open(".workbuddy/tmp/p1_picked.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    c1 = scan("高中化学竞赛教程第一分册", "一分册正册")
+    p1 = pick_balanced(c1, 25)
+    print(f"  选中 {len(p1)}: d={dict(sorted(collections.Counter(c['d'] for c in p1).items()))}, "
+          f"章={dict(sorted(collections.Counter(c['chap'] for c in p1).items()))}")
+    if APPLY:
+        json.dump(p1, open(".workbuddy/tmp/p1_picked.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 
 # ── 二分册专项卷 I（d5 主攻）──
-c2 = scan("高中化学竞赛教程第二分册", "二分册")
-p2 = pick_balanced(c2, 25, d_weights={2: 0, 3: 0, 4: 1, 5: 1})
-print(f"  选中 {len(p2)}: d={dict(sorted(collections.Counter(c['d'] for c in p2).items()))}, "
-      f"章={dict(sorted(collections.Counter(c['chap'] for c in p2).items()))}")
-json.dump(p2, open(".workbuddy/tmp/p2_picked.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    c2 = scan("高中化学竞赛教程第二分册", "二分册")
+    p2 = pick_balanced(c2, 25, d_weights={2: 0, 3: 0, 4: 1, 5: 1})
+    print(f"  选中 {len(p2)}: d={dict(sorted(collections.Counter(c['d'] for c in p2).items()))}, "
+          f"章={dict(sorted(collections.Counter(c['chap'] for c in p2).items()))}")
+    if APPLY:
+        json.dump(p2, open(".workbuddy/tmp/p2_picked.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+
+
+if __name__ == "__main__":
+    # 2026-10-07 加 dry-run（默认不写盘，须 --write）—— 门禁 pipe_qa.py 要求
+    APPLY = "--write" in sys.argv
+    if not APPLY:
+        print("模式：**DRY-RUN**（不写盘）。确认后加 --write 落盘。")
+    _cli()

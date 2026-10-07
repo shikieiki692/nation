@@ -63,73 +63,88 @@ def classify(sub, kp_text, path):
         return "综合"
 
 # 收集
-pool = []
-for root, dirs, fs in os.walk(BASE):
-    if "高考" in root: continue
-    for fn in fs:
-        if not fn.endswith(".md"): continue
-        s = open(os.path.join(root, fn), encoding="utf-8", errors="replace").read()
-        fm = re.match(r"^---\n(.*?)\n---\n", s, re.S)
-        if not fm: continue
-        y = fm.group(1)
-        if not re.search(r"(?m)^type: 题目", y): continue
-        if re.search(r"(?m)^status:\s*deprecated", y): continue
-        if not re.search(rf"(?m)^pack: 模块习题集", y): continue
-        if not re.search(rf"(?m)^subject_module: {MODULE}$", y): continue
-        if "used_in" in y: continue
-        diff = (re.search(r"(?m)^difficulty: (.*)", y) or [None, "3"])[1].strip()
-        fid = (re.search(r"(?m)^fidelity: (.*)", y) or [None, ""])[1].strip()
-        kps = _kps_of(y)
-        sub = (re.search(r"(?m)^submodule: (.*)", y) or [None, ""])[1].strip().strip('"')
-        src = (re.search(r"(?m)^source: (.*)", y) or [None, ""])[1].strip().strip('"')[:35]
-        grp = classify(sub, " ".join(kps), fn)
-        try: d = int(diff)
-        except: d = 3
-        pool.append((grp, d, fn[:-3], fid, src, kps))
 
-pool.sort(key=lambda x: (x[0], -x[1], x[2]))
+
+def _cli():
+    pool = []
+    for root, dirs, fs in os.walk(BASE):
+        if "高考" in root: continue
+        for fn in fs:
+            if not fn.endswith(".md"): continue
+            s = open(os.path.join(root, fn), encoding="utf-8", errors="replace").read()
+            fm = re.match(r"^---\n(.*?)\n---\n", s, re.S)
+            if not fm: continue
+            y = fm.group(1)
+            if not re.search(r"(?m)^type: 题目", y): continue
+            if re.search(r"(?m)^status:\s*deprecated", y): continue
+            if not re.search(rf"(?m)^pack: 模块习题集", y): continue
+            if not re.search(rf"(?m)^subject_module: {MODULE}$", y): continue
+            if "used_in" in y: continue
+            diff = (re.search(r"(?m)^difficulty: (.*)", y) or [None, "3"])[1].strip()
+            fid = (re.search(r"(?m)^fidelity: (.*)", y) or [None, ""])[1].strip()
+            kps = _kps_of(y)
+            sub = (re.search(r"(?m)^submodule: (.*)", y) or [None, ""])[1].strip().strip('"')
+            src = (re.search(r"(?m)^source: (.*)", y) or [None, ""])[1].strip().strip('"')[:35]
+            grp = classify(sub, " ".join(kps), fn)
+            try: d = int(diff)
+            except: d = 3
+            pool.append((grp, d, fn[:-3], fid, src, kps))
+
+    pool.sort(key=lambda x: (x[0], -x[1], x[2]))
 
 # 分组
-groups = collections.OrderedDict()
-for g, d, fn, fid, src, kps in pool:
-    groups.setdefault(g, []).append((d, fn, fid, src, kps))
+    groups = collections.OrderedDict()
+    for g, d, fn, fid, src, kps in pool:
+        groups.setdefault(g, []).append((d, fn, fid, src, kps))
 
 # 输出
-lines = []
-lines.append("---")
-lines.append(f'title: "模块习题集-{MODULE}"')
-lines.append("type: 系统")
-lines.append("role: 模块习题集")
-lines.append(f"updated: {TODAY}")
-lines.append(f"tags: [系统, 题库, 模块习题集, {MODULE}]")
-lines.append("---")
-lines.append("")
-lines.append(f"# 模块习题集 · {MODULE}")
-lines.append("")
-dc = collections.Counter(x[1] for x in pool)
-lines.append(f"> **题量**: {len(pool)} 题")
-lines.append(f"> **难度**: " + " / ".join(f"d{k}={v}" for k, v in sorted(dc.items())))
-lines.append(f"> **用途**: {MODULE}模块阶段测试")
-lines.append(f"> **选题方法**: 按子模块选 50-70 题，难度梯度 2:5:3；出卷后在源文件加 `used_in` 标记")
-lines.append(f"> **重新生成**: `python 11-模板/scripts/gen_module_set.py {MODULE} {OUTPUT}`")
-lines.append("")
-lines.append("---")
-lines.append("")
-
-for grp in groups:
-    items = groups[grp]
-    items.sort(key=lambda x: (-x[0], x[2]))
-    lines.append(f"## {grp}（{len(items)} 题）")
+    lines = []
+    lines.append("---")
+    lines.append(f'title: "模块习题集-{MODULE}"')
+    lines.append("type: 系统")
+    lines.append("role: 模块习题集")
+    lines.append(f"updated: {TODAY}")
+    lines.append(f"tags: [系统, 题库, 模块习题集, {MODULE}]")
+    lines.append("---")
     lines.append("")
-    for d, fn, fid, src, kps in items:
-        if "逐字" in fid: tag = "🟢"
-        elif "自编" in fid: tag = "🔵"
-        else: tag = "🟡"
-        kp_str = " ".join(f"[[{k}]]" for k in kps) if kps else ""
-        lines.append(f"- {tag} **d{d}** [[{fn}]] | {kp_str}")
+    lines.append(f"# 模块习题集 · {MODULE}")
+    lines.append("")
+    dc = collections.Counter(x[1] for x in pool)
+    lines.append(f"> **题量**: {len(pool)} 题")
+    lines.append(f"> **难度**: " + " / ".join(f"d{k}={v}" for k, v in sorted(dc.items())))
+    lines.append(f"> **用途**: {MODULE}模块阶段测试")
+    lines.append(f"> **选题方法**: 按子模块选 50-70 题，难度梯度 2:5:3；出卷后在源文件加 `used_in` 标记")
+    lines.append(f"> **重新生成**: `python 11-模板/scripts/gen_module_set.py {MODULE} {OUTPUT}`")
+    lines.append("")
+    lines.append("---")
     lines.append("")
 
-open(OUTPUT_PATH, "w", encoding="utf-8", newline="").write("\n".join(lines))
-dc = collections.Counter(x[1] for x in pool)
-print(f"已生成 {OUTPUT_PATH}: {len(pool)} 题, {len(groups)} 个子模块")
-print(f"难度: {dict(sorted(dc.items()))}")
+    for grp in groups:
+        items = groups[grp]
+        items.sort(key=lambda x: (-x[0], x[2]))
+        lines.append(f"## {grp}（{len(items)} 题）")
+        lines.append("")
+        for d, fn, fid, src, kps in items:
+            if "逐字" in fid: tag = "🟢"
+            elif "自编" in fid: tag = "🔵"
+            else: tag = "🟡"
+            kp_str = " ".join(f"[[{k}]]" for k in kps) if kps else ""
+            lines.append(f"- {tag} **d{d}** [[{fn}]] | {kp_str}")
+        lines.append("")
+
+    if APPLY:
+        open(OUTPUT_PATH, "w", encoding="utf-8", newline="").write("\n".join(lines))
+    dc = collections.Counter(x[1] for x in pool)
+    if APPLY:
+        print(f"已写入 {OUTPUT_PATH}: {len(pool)} 题, {len(groups)} 个子模块")
+    else:
+        print(f"[dry-run] 将写入 {OUTPUT_PATH}: {len(pool)} 题, {len(groups)} 个子模块")
+    print(f"难度: {dict(sorted(dc.items()))}")
+
+
+if __name__ == "__main__":
+    # 2026-10-07 加 dry-run（默认不写盘，须 --write）—— 门禁 pipe_qa.py 要求
+    APPLY = "--write" in sys.argv
+    if not APPLY:
+        print("模式：**DRY-RUN**（不写盘）。确认后加 --write 落盘。")
+    _cli()
