@@ -19,9 +19,12 @@ sys.stdout.reconfigure(encoding="utf-8")
 ROOT = r"C:\Obsidion\妙妙屋"
 CSV = os.path.join(ROOT, "09-审计报告", "2026-10-07-不可组卷题目清单.csv")
 BAK = os.path.join(ROOT, ".workbuddy/tmp/opt_pipe/poolscope_bak")
-CHG = os.path.join(ROOT, ".workbuddy/tmp/opt_pipe/poolscope_changes.txt")
-SKIP = os.path.join(ROOT, ".workbuddy/tmp/opt_pipe/poolscope_skip.txt")
+_SUF = "_dry" if DRY else ""
+CHG = os.path.join(ROOT, ".workbuddy/tmp/opt_pipe/poolscope_changes%s.txt" % _SUF)
+SKIP = os.path.join(ROOT, ".workbuddy/tmp/opt_pipe/poolscope_skip%s.txt" % _SUF)
 DRY = "--dry" in sys.argv
+# --allow-staged：允许写盘「主索引已暂存」的路径（仅当并行会话已暂停、且经 owner 确认时用）
+ALLOW_STAGED = "--allow-staged" in sys.argv
 
 FM = re.compile(r"^---[ \t]*\n(.*?)\n---[ \t]*\n", re.S)
 
@@ -58,7 +61,7 @@ def rel_of(p):
 
 
 def main():
-    staged = staged_paths()
+    staged = set() if ALLOW_STAGED else staged_paths()
     rows = list(csv.DictReader(open(CSV, encoding="utf-8-sig")))
     tgt = [r for r in rows if r["verdict"] == "弃卡" and r["reason"] in MAP]
     print("弃卡合计 %d；其中可标注 %d" % (sum(1 for r in rows if r["verdict"] == "弃卡"), len(tgt)))
