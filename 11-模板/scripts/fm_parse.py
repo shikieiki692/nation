@@ -70,6 +70,15 @@ def get_list_field(fm, key):
             if x and x not in ("(空)", "~", "null"):
                 out.append(x)
         return out
+    # 标量：key: value（2026-10-07 补）。
+    # ⚠️ 此前一直返回 []，被误当成「空值」的正确行为 —— 实则标量**有值**，
+    #    会让 `knowledge_points: "[[X]]"` 这类卡被判成无 KP。
+    rest2 = rest.lstrip(" \t")
+    if rest2 and not rest2.startswith(("[", "|", ">", "#", "\n", "-")):
+        first = rest2.split("\n")[0].strip()
+        first = first.strip("'").strip('"').strip()
+        if first and first not in ("(空)", "~", "null"):
+            return [first]
     return []
 
 

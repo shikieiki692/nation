@@ -51,6 +51,8 @@ WIKI = re.compile(r"\[\[([^\]\|#]+)")
 NUM = re.compile(r"\d+")
 ANS_H = re.compile(r"(?m)^#{1,6}\s*(?:参考答案|答案与解析|答案)\s*$")
 HEAD = re.compile(r"(?m)^#{1,6}\s")
+# 2026-10-07：「答案区只写外链指引」的识别（577 张卡；派生文件有意不复制卷内 OCR 答案）
+EXT_ANSWER_RE = re.compile(r"(?:本题)?答案(?:见|在)\s*\[\[|详见\s*\[\[|参见\s*\[\[")
 
 
 # ────────────────────────── 基础工具 ──────────────────────────
@@ -289,7 +291,12 @@ def safe_truncate(seg: str, limit: int) -> str:
 
 
 def ans_summary(path: Path, limit: int = 120) -> str:
-    """抽题目文件参考答案节文本（≤limit 字符）；纯图答案原样保留不编造。"""
+    """抽题目文件参考答案节文本（≤limit 字符）；纯图答案原样保留不编造。
+
+    2026-10-07 新增「外链型」识别：本库有 577 张卡的答案区只写「答案见 [[卷册]] 的参考答案区」
+    （派生文件**有意不复制**卷内 OCR 答案，因源答案存在跨题粘连缺陷）。这类卡若把指引原文
+    当答案摘要输出，会让读者误以为那就是答案——故改为明确标注。
+    """
     try:
         text = read_raw(path)
     except OSError:
@@ -303,6 +310,9 @@ def ans_summary(path: Path, limit: int = 120) -> str:
     seg = body[m.end(): nxt.start() if nxt else len(body)]
     seg = "\n".join(ln for ln in seg.split("\n") if not re.match(r"^\s*-{3,}\s*$", ln))
     seg = re.sub(r"\s+", " ", seg).strip()
+    # 外链型：正文只是「答案见某卷册」的指引，不是答案本身
+    if EXT_ANSWER_RE.search(seg) and len(re.sub(r"[\[\]`>*#]", "", seg)) < 200:
+        return "（答案见卷册，未复制——源答案存在跨题粘连缺陷，见原文件）"
     return safe_truncate(seg, limit)
 
 

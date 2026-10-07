@@ -7,6 +7,21 @@ import os, re, sys, io, collections, datetime
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
+# 2026-10-07：KP 解析改用 fm_parse（支持同行数组 / 跨行数组 / 块列表三种写法）。
+# 原实现用 `re.search(r"(?m)^knowledge_points: \[(.*?)\]")` 只认同行数组，
+# 块列表形式的 KP 会漏 ⇒ 子模块分组会少数据。取不到 fm_parse 时回退原正则。
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+try:
+    import fm_parse as _fp
+
+    def _kps_of(fm_text):
+        return _fp.get_wikilinks_field(fm_text, "knowledge_points")[:3]
+except Exception:  # pragma: no cover
+    def _kps_of(fm_text):
+        m = re.search(r"(?ms)^knowledge_points[ \t]*:[\s]*\[(.*?)\]", fm_text)
+        raw = m.group(1) if m else ""
+        return [k.strip() for k in re.findall(r"\[\[([^\]|]+)", raw)][:3]
+
 BASE = "04-题库"
 TODAY = datetime.date.today().isoformat()
 
@@ -64,8 +79,7 @@ for root, dirs, fs in os.walk(BASE):
         if "used_in" in y: continue
         diff = (re.search(r"(?m)^difficulty: (.*)", y) or [None, "3"])[1].strip()
         fid = (re.search(r"(?m)^fidelity: (.*)", y) or [None, ""])[1].strip()
-        kp = (re.search(r"(?m)^knowledge_points: \[(.*?)\]", y) or [None, ""])[1]
-        kps = [k.strip() for k in re.findall(r"\[\[([^\]|]+)", kp)][:3]
+        kps = _kps_of(y)
         sub = (re.search(r"(?m)^submodule: (.*)", y) or [None, ""])[1].strip().strip('"')
         src = (re.search(r"(?m)^source: (.*)", y) or [None, ""])[1].strip().strip('"')[:35]
         grp = classify(sub, " ".join(kps), fn)
