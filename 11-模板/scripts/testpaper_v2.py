@@ -264,8 +264,14 @@ if __name__ == "__main__":
     print("单次遍历扫描 04-题库 …")
     index, records = single_pass()
     print("索引:", len(index), "| 解析:", len(records))
-    ap = None
+    # 2026-10-07 加 --dry-run：默认 dry-run（只报告不写盘），--write 才落盘。
+    # 起因：本脚本是**生成类脚本无 dry-run**，曾被误跑，实际重写 3 个卷文件 ＋
+    #       给 150 张题卡回填 used_in。验证必须走 dry-run。
     argv = sys.argv[1:]
+    APPLY = "--write" in argv
+    if not APPLY:
+        print("模式：**DRY-RUN**（不写盘）。确认无误后加 --write 落盘。")
+    ap = None
     if "--kp" in argv:
         i = argv.index("--kp")
         ap = [x for x in argv[i + 1:] if not x.startswith("-")]
@@ -273,7 +279,15 @@ if __name__ == "__main__":
     print("目标考点：%s" % ("、".join(ap) if ap else "（未指定，走原配额逻辑）"))
     for subject in ["结构化学", "有机化学", "元素与分析"]:
         results, chosen = select(subject, records, target_kps=ap)
-        fn = write_paper(subject, results, chosen)
-        nb = backfill(subject, chosen, index)
         dif = collections.Counter(p["difficulty"] for p in chosen)
-        print(f"{subject}: {fn} ｜ {len(chosen)} 题 ｜ d分布 {dict(sorted(dif.items()))} ｜ used_in 回填 {nb}")
+        covered = sorted({k for p in chosen for k in p.get("kp_cover", [])})
+        line = ("%s: %d 题 ｜ d分布 %s" % (subject, len(chosen), dict(sorted(dif.items()))))
+        if ap:
+            line += " ｜ KP 覆盖 %d/%d（%s）" % (
+                len(covered), len(ap), "、".join(covered) or "无")
+        line += " ｜ 题组 %d 个" % len(results)
+        if APPLY:
+            fn = write_paper(subject, results, chosen)
+            nb = backfill(subject, chosen, index)
+            line += " → 已写 %s ｜ used_in 回填 %d" % (fn, nb)
+        print(line)
