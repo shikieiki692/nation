@@ -135,6 +135,7 @@ def prepare_media():
 def main():
     only_ans = "--answer" in sys.argv
     only_stu = "--student" in sys.argv
+    only_kz = "--kazhu" in sys.argv
     n, missing = prepare_media()
     print("图准备：引用 %d 张，已铺 %d 张，缺 %d" % (n, len(os.listdir(STAGE)), len(missing)))
     for m in missing[:10]:
@@ -163,11 +164,17 @@ def main():
         eds = ["answer"]
     elif only_stu:
         eds = ["student"]
+    elif only_kz:
+        eds = []
     else:
         eds = ["student", "answer"]
     done = []
     for ed in eds:
         t = Z.convert_one(VOL, ref, ed)
+        if t:
+            done.append(t)
+    if only_kz or not eds:                 # ★ 答题卡（信息栏＋阅卷得分表＋逐题作答框）
+        t = Z.build_answer_sheet(VOL, ref)
         if t:
             done.append(t)
     print("\n完成 %d 个：%s" % (len(done), Z.OUTDIR))
