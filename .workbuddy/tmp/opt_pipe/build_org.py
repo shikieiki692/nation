@@ -46,6 +46,8 @@ PLAN_OUT = os.path.join(HERE, 'vol_plan_%s.json' % VOL)
 # ★ 年份闸：默认仍作硬闸（保持卷X 行为不变）；`--all-years` 改为「排序偏好」——
 #   实测 source_norm 大量不带年份字样（质心GChO/UChO、汇智、一式、方圆…）⇒ 硬闸误杀 2019 张。
 ALL_YEARS = ('--all-years' in sys.argv) or (os.environ.get('ALL_YEARS') == '1')
+# ★ 偏计算偏好（opt-in，`--calc-bias`，2026-10-07 新增）：同难度内优先「计算型」题。
+CALC_BIAS = ('--calc-bias' in sys.argv) or (os.environ.get('CALC_BIAS') == '1')
 JIE = re.compile(r'第\s*(\d+)\s*届')
 OVERFLOW_HITS = []        # 越界闸命中（路径, 本卡题号, 原因）
 HANDWRITTEN_HITS = []     # 手写稿闸命中（路径）
@@ -945,6 +947,7 @@ def build_pool():
             q, a = fix_tex(q), fix_tex(a)      # ★ 不支持宏替换
             c['question'], c['answer'] = q, a
             c['qlen'] = len(qn); c['src_dir'] = rel
+            c['calc'] = calc_score(q)          # ★ 偏计算偏好：计算信号密度（opt-in 用于排序）
             c['recent'] = _recent
             c['intl'] = B.is_intl(tn)
             c['imgs'] = re.findall(r'!\[\[([^\]\|]+)\]\]', q + a)
@@ -966,13 +969,31 @@ def fp_of_path(p):
     return deep_fp(q)
 
 
+def calc_score(q):
+    """偏计算偏好用的「计算信号」密度分（越大越偏计算）。
+
+    信号＝数字串 ＋ 计算动词 ＋ 行内公式 ＋ 常用量纲/单位。归一化到「每 100 字」。
+    """
+    if not q:
+        return 0.0
+    sig = len(re.findall(r'\d', q))
+    sig += 3 * len(re.findall(r'计算|求算|推导|求出|求该|求其|试求|算出|求解|表达式', q))
+    sig += 2 * len(re.findall(r'\$[^$\n]{1,80}\$', q))
+    sig += 2 * len(re.findall(r'kJ|mol|cm|pm|nm|kPa|bar|\bPa\b|\bK\b|Å|g/mol|g·|g/', q))
+    return round(sig * 100.0 / max(1, len(q)), 2)
+
+
 def pick_vol(pool, used, max_per_src=4, fps0=None):
     picks = []
     per_src = collections.Counter()
     seen_sh = list(fps0 or ())        # ★ 种入既往卷指纹 ⇒ 跨卷同题不重
     for mod, _, need in QUOTA:
         by_src = collections.defaultdict(list)
-        for c in sorted(pool[mod], key=lambda x: (-x.get('recent', 0), -x['difficulty'], -x['qlen'])):
+        if CALC_BIAS:                 # ★ opt-in：同难度内优先计算型
+            _key = lambda x: (-x.get('recent', 0), -x['difficulty'], -x.get('calc', 0), -x['qlen'])
+        else:
+            _key = lambda x: (-x.get('recent', 0), -x['difficulty'], -x['qlen'])
+        for c in sorted(pool[mod], key=_key):
             if c['path'] in used:
                 continue
             by_src[c['src_dir']].append(c)
@@ -1037,6 +1058,20 @@ def load_noise():
             return set(json.load(f)['union'])
     except Exception as e:
         print('  ⚠ load_noise 失败:', e)
+        return set()
+
+
+def load_keep():
+    """人工「强制保留」清单（`noise_keep.json`，一个 64-hex 名的 JSON 数组）。
+
+    用途：覆盖 `noise_of()` 的**假阳性**——实测**浅色晶体投影图**（近黑占比 <0.005）
+    与**手写答案裁图**会被误判为 watermark，而这些是题目/答案**必需图**
+    （判据坑：「页眉噪点图必逐张目检」，2026-10-07）。
+    """
+    try:
+        with open(os.path.join(HERE, 'noise_keep.json'), encoding='utf-8') as f:
+            return set(json.load(f))
+    except Exception:
         return set()
 
 
@@ -1126,8 +1161,10 @@ def write_vol(picks, flat, SC):
         if why:
             rule_noise[h] = why
     manual = load_noise() & refs
-    NOISE = set(rule_noise) | manual
-    print('  ── 判噪 %d 图（规则 %d + 人工清单 %d）' % (len(NOISE), len(rule_noise), len(manual)))
+    KEEP = load_keep() & refs
+    NOISE = (set(rule_noise) | manual) - KEEP
+    print('  ── 判噪 %d 图（规则 %d + 人工清单 %d − 强制保留 %d）'
+          % (len(NOISE), len(rule_noise), len(manual), len(KEEP)))
     for h in sorted(rule_noise):
         p = IMG_IDX.get(h)
         inst = os.path.relpath(p, BASE).split(os.sep)[0] if p else '?'
