@@ -95,7 +95,79 @@ def fm_split还原正文():
 
 
 # ══════════════════════════════════════════════════════════════
-# 2. 库内真实数据（不依赖硬编码样本）
+# 2. 答案区识别（异形标题 / details / 外链型）—— 2026-10-07 并入 fm_parse
+# ══════════════════════════════════════════════════════════════
+@case("答案区")
+def 答案区识别四形态():
+    CASES = [
+        ("## 参考答案\n答案是 B", "标准", True, False),
+        ("## 答案\nB", "异形标题", True, False),
+        ("## 解答\n因为……", "异形标题", True, False),
+        ("## 解析要点\n关键在于氧化性更强。", "异形标题", True, False),
+        ("## 答案与解析\nB", "标准", True, False),
+        ("**答案：** B", "加粗标记", True, False),
+        ("<details><summary>查看答案</summary>\n**答案：C**\n</details>", "details", True, False),
+        ("## 参考答案\n> 本题答案见 [[卷-01]] 的 `## 参考答案` 区。\n> 卷内锚表标识题号：1。",
+         "标准", False, True),
+        ("## 题目\n只有题面", None, False, False),
+    ]
+    for body, kind, ent, ext in CASES:
+        info = fp.classify_answer(body)
+        assert info["kind"] == kind, "kind：%s（期望 %s）" % (info["kind"], kind)
+        assert info["has_entity"] == ent, "has_entity：%s（期望 %s）｜%s" % (info["has_entity"], ent, body[:30])
+        assert info["ext_ref"] == ext, "ext_ref：%s（期望 %s）" % (info["ext_ref"], ext)
+
+
+@case("答案区")
+def 答案区短答案不算缺():
+    """回归：不能用字数阈值判「有实体答案」——'答案是 B' 只有 4 字。
+    记忆里早已记着「短答案≠无答案」（如 '有;无;有' / 单结论分子式）。"""
+    for body in ("## 参考答案\nB", "## 参考答案\n有;无;有", "## 答案\nCuSO4"):
+        info = fp.classify_answer(body)
+        assert info["has_entity"], "短答案被误判为无实体：%r" % body
+
+
+@case("答案区")
+def 答案区details优先于加粗标记():
+    """回归：多数折叠块内部就有 `**答案：**`，先匹配标记会把整块答案截成一行。"""
+    body = "<details><summary>查看答案与解析</summary>\n**8-1** 化学式：MX。\n\n**8-2** 配位数：4。\n</details>"
+    s, e, kind = fp.find_answer_section(body)
+    assert kind == "details", kind
+    got = fp.answer_text(body)
+    assert "配位数" in got, got
+    assert len(got) > 40, "details 内容被截短：%s" % got[:60]
+
+
+@case("答案区")
+def 外链型答案不被当成实体答案():
+    """577 张外链型卡：答案区只写指针，摘要须标注而非截原文。"""
+    body = "## 参考答案\n> 本题答案见 [[卷-01-第1章-A卷-化学反应速率与化学平衡]] 的 `## 参考答案` 区。\n> 卷内锚表标识题号：1。"
+    txt = fp.answer_text(body)
+    assert "[[" not in txt, txt
+    assert "答案见卷册" in txt, txt
+
+
+@case("答案区")
+def 库内异形答案卡能被新口径识别():
+    """真实数据回归：抽 40 张原判「无答案区」的卡，新口径须能定位到答案区。"""
+    import glob
+    hit = 0
+    for p in glob.glob(os.path.join(ROOT, "04-题库", "**", "*.md"), recursive=True):
+        t = open(p, encoding="utf-8-sig", errors="replace").read()
+        fmx, body = fp.split_fm(t)
+        if re.search(r"(?m)^type[ \t]*:", fmx) is None or "status: deprecated" in fmx:
+            continue
+        if "## 参考答案" in body:
+            continue                       # 只看原本被判「无标准答案区」的
+        if fp.classify_answer(body)["found"]:
+            hit += 1
+        if hit >= 40:
+            break
+    assert hit >= 40, "只识别到 %d 张" % hit
+
+
+# ══════════════════════════════════════════════════════════════
+# 3. 库内真实数据（不依赖硬编码样本）
 # ══════════════════════════════════════════════════════════════
 @case("库内")
 def 库内知识点索引可用():
