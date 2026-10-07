@@ -63,7 +63,7 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO79试题.md"
 
 📎 **答案出处**：源卷**手写解析手稿**第 4 题（p5）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-![](images/762ae4add21e73ab0d4ae31aaae9287c809d6ad27f1147e67e6ba974073efd95.jpg)
+![](images/63344163fe8bc8ce4480e2ee13c22a725851b60c3cb6749af9dac9fc88520188.jpg)
 
 ## 知识点映射
 

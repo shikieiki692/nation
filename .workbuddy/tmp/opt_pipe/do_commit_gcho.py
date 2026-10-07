@@ -36,8 +36,9 @@ PATHS += [
 TOOLS = ["gcho_crop.py", "gcho_batch_apply.py", "gcho_preflight.py", "ocr_batch_gcho.py",
          "verify_gcho_crop.py", "gc_gcho_imgs.py", "patch_ans_gate.py", "patch_ph.py",
          "sample_garb2.py", "build_org.py", "trim_overflow.py", "do_commit_gcho.py",
-         "add_gcho_allow.py", "msg_gcho.txt", "overflow_hits.csv", "gcho_audit.tsv",
-         "apply_log.txt", "apply_log2.txt", "apply_log3.txt", "ocr_log2.txt"]
+         "add_gcho_allow.py", "fix_gap3.py", "msg_gcho.txt", "overflow_hits.csv",
+         "gcho_audit.tsv", "apply_log.txt", "apply_log2.txt", "apply_log3.txt",
+         "apply_log4.txt", "ocr_log2.txt"]
 PATHS += [O + "/" + t for t in TOOLS if os.path.exists(os.path.join(O, t))]
 
 PATHS = list(dict.fromkeys(PATHS))

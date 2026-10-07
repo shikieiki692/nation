@@ -51,9 +51,9 @@ quality_warning: "答案区尾部原混入下一题标题与题干（源答案�
 
 📎 **答案出处**：源卷**手写解析手稿**第 4 题（p2、3）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-![](images/9a7c006e23bae0d64974e9973136ef07c34a2745e8144b86dd1b5da2ca3bec85.jpg)
+![](images/bd3aabc73fbc228d9f1239bfca4c6e8fcc905990b4160a8eacdfae89ef1e26ab.jpg)
 
-![](images/94f2066c6c6414cace0b846b11605a433611952c4e9c2fb56893e77f7310593b.jpg)
+![](images/2d04853c5cca3e44136bfcb7c2bc0f90fcd89fdf516719e2ece371d795abfbe1.jpg)
 
 ## 知识点映射
 

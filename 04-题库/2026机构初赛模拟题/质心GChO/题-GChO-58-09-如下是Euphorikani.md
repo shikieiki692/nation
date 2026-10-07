@@ -58,17 +58,11 @@ G. 饱和 $Na_{2}SO_{3}$ 溶液
 
 ## 参考答案
 
+📎 **答案出处**：源卷**手写解析手稿**第 9 题（p5、6）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-9-2 写出 B 到 C 过程中的 4 个关键反应中间体。
+![](images/3df466903f65853171a7dbf997ad151980fafbc39e95b845c4f32ed6cf7c57c6.jpg)
 
-9-3 写出 6 到 K 过程中的 3 个关键反应中间体，不包含 LiAlH $_4$ 还原的过程。
-
-9-4后处理也是一个反应重要的一部分，后处理操作不当，轻则是的产物分离困难，重则会发生副反应，使产率降低，甚至有可能无法得到想要的产物。常见的淬灭反应的试剂有如下几种：A.自来水 B.饱和 $\mathrm{NaHCO_3}$ 溶液 C.饱和 $\mathrm{NH_4Cl}$ 溶液D. $1\mathrm{mol} / \mathrm{L}$ 盐酸 E. $1\mathrm{mol} / \mathrm{L}$ NaOH F.饱和食盐水G.饱和 $\mathrm{Na_2SO_3}$ 溶液
-
-
-<table><tr><td>≥90</td><td>A</td><td> $P_{2}O_{5}$ </td><td> $P_{4}O_{10}$ </td></tr><tr><td>≥80</td><td>B</td><td> $1H_{2}Cl_{2}O_{4}$ </td><td></td></tr><tr><td>≥70</td><td>C</td><td></td><td></td></tr><tr><td>≥60</td><td>D</td><td></td><td></td></tr><tr><td>≥50</td><td>E</td><td></td><td></td></tr><tr><td>≥40</td><td>F</td><td></td><td></td></tr><tr><td>&lt;40</td><td>G</td><td></td><td></td></tr></table>
-
-> ✅ 答案由源《ZCHEM-GChO58解析手稿.md》第 9 题回收补录（回源核对 2026-09-27）。
+![](images/452a00ff879ec14f08d1cd446a901d2f33d50ebf736293e16db26d68c89de0eb.jpg)
 
 ## 知识点映射
 

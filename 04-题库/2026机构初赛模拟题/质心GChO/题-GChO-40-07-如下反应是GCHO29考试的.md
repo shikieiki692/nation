@@ -72,7 +72,7 @@ B
 
 📎 **答案出处**：源卷**手写解析手稿**第 7 题（p5）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-![](images/e7acbba24fadd4ac854ba29d928833d6c48157ae7dad953c4df4569990d9ddcb.jpg)
+![](images/9fdcad4c6ae41c6aebf6252d6ac1abf2bb01ce039825e226853c46eb1121b4d6.jpg)
 
 ## 知识点映射
 

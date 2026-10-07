@@ -81,9 +81,9 @@ COOH
 
 📎 **答案出处**：源卷**手写解析手稿**第 7 题（p8、9）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-![](images/f6e7c82a436a9f0d7e140782cd576bafbc28264ba08d6f68dabf41c4653615e3.jpg)
+![](images/cd8b6e76581f07b16ea6652df6bcc486df7e7d4199e43137e6d43150902bfd8c.jpg)
 
-![](images/996a1bef11de526e2785266d5fa8802c38e5a55747ce44e42de892300b595cad.jpg)
+![](images/43c8591760324192587eab870152e1a497dbb59cb9ea77b36f1ca94bcd951a71.jpg)
 
 ## 知识点映射
 

@@ -45,47 +45,11 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO7试题（线下
 
 ## 参考答案
 
-① 标上 $KMnO_4$ .
+📎 **答案出处**：源卷**手写解析手稿**第 6 题一带（p2、3）已随卡；手写笔迹，**题界未能自动定位**，随卡图区含相邻题内容，文字化需人工转录。
 
-②. 加一至过点 $KMnO_4$ 氧化还的性质是
+![](images/a85a5503a37c033f8de8028eae5401228471837c80d0ea1e992b89b762c9157c.jpg)
 
-⑤ $H_{2}O-$ $\ce{H_{2}O}$ $\ce{H_{2}O}$ $\ce{H_{2}O}$ $\ce{H_{2}O}$ $\ce{H_{2}O}$ $\ce{H_{2}O}$ $\ce{H_{2}O}$ $\ce{H_{2}O}$ $\ce{H}_{4}$ $\ce{H_{2}O}$ $\ce{H_{2}O}$ $\ce{H_{2}O}$ $\ce{H_{2}O}$ $\ce{H_{2}O}$ $\ce{H_{2}O}$ $\ce{H_{2}O}$ $\ce{MnO_{4}}$
-
-④ 用 $KMnO_4$ 汲足过量： $Na_2CO_2O_4$ .
-
-6-1. “ $KMnO_{4}$ 时，为H $_{2}$ 安pH=0，T=70\~80℃
-
-温度高：H $_{2}$ C $_{2}$ O $_{4}$ 分时，催化剂，反应太快。
-
-浓度高：H $_{2}$ C $_{2}$ O $_{4}$ 分时，催化剂：MnO $_{4}^{-}$ 天时发生；反应生成 Mn $_{2}^{2+}$ ，(MnO $_{2}$ 施)。
-
-6-2. $5{\mathrm{{Na}}}_{2}{\mathrm{C}}_{2}{\mathrm{O}}_{4} \sim  2\mathrm{{KMnO}}4\;\left( {0.5}\right) .$
-
-$$
-C (N a _ {2} C _ {2} O _ {4}) = \frac {m}{M V} = \frac {0.6821}{134.00 \times 100.0 \times 10 ^ {- 3}} = 0.05090 (m). (0.5)
-$$
-
-$$
-C (K M _ {n} O _ {4}) = \frac {C (N a _ {2} C _ {2} O _ {4}) V (N a _ {2} C _ {2} O _ {4}) \times \frac {2}{5}}{V (K M _ {n} O _ {4})} = \frac {0.05090 \times 25.00 \times \frac {2}{5}}{27.85}
-$$
-
-$$
-= 0.01828 (M). (1 ^ {\prime}),
-$$
-
-6-3. 电子特性. $e^{-} \sim \frac{1}{4} O_{2} \sim \frac{1}{2} Na_{2}C_{2}O_{4} \sim \frac{1}{5} KMnO_{4}$ (i).
-
-$$
-n (O _ {2}) = \frac {5 \times 0.01828 \times (25.00 + 19.23) - 2 \times 25.00 \times 0.05090}{4} \times 10 ^ {- 3}
-$$
-
-$= {3.742} \times  {10}^{-4}\left( {\mathrm{{mol}}\;T}\right)  \rightarrow  \mathrm{{mg}}{\mathrm{L}}^{-1}.\;\left( {{0.5}^{\prime }}\right)$
-
-$$
-\mathrm{COD} = \frac {3.742 \times 10 ^ {- 4} \times 32.00 \times 10 ^ {3}}{100.0 \times 10 ^ {- 3}} = 119.8 (\mathrm{mg} \cdot \mathrm{L} ^ {- 1}) \cdot (0.5)
-$$
-
-6-4. $COD_{Mn}$ . $COD_{Cr}$ . $K_{2}Cr_{2}O_{7}$ . (i)
+![](images/865d062e33362f3ac12c6df0702c10b36cd717903c462649afb6e7a7e2f39046.jpg)
 
 ## 知识点映射
 

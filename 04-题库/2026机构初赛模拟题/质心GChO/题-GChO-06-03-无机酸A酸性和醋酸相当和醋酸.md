@@ -43,32 +43,9 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO6试题（线下
 
 ## 参考答案
 
-3-1. A $HN_{3}$ B. $NH_{3}$ C. $N_{2}$ E. $C_{0}(N_{3})(NH_{3})_{5}^{2+}$
+📎 **答案出处**：源卷**手写解析手稿**第 3 题（p2）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-3-2. $M-NH_3$ < $M_2N \equiv N$
-
-M: d 电子可以仅得到 N₂ 配体, π\* 轨迹上.
-
-使 N-N 设设 ↓，M-N 设设 ↑。该函数矢量。
-
-(答到有反链不键(π-acid ligand)使M-N级更短).
-
-$3-3.\quad Z_{n}+3+1N_{3}=Z_{n}(N_{3})_{2}+NH_{3}\uparrow+N_{2}\uparrow\quad(2')$
-
-![](images/c5f5285b4112ecf497205a150a975effd9d9964abaca79b2d731188aa9cf5ce6.jpg)
-
-$$
-\begin{array}{c c c} {\checkmark C o (N _ {3}) (M H _ {3}) _ {5} ^ {2 +} + H N O _ {2} + H ^ {+}} & {= C o (H _ {2} O) (M H _ {3}) _ {5} ^ {3 +} + N _ {2} I + N _ {2} O I} \\ {\mathrm{(难)}} & {\downarrow} & {\downarrow} \\ & {X} & {C o (O H) (M H _ {3}) _ {5} ^ {2 +} \quad (2 ^ {\prime}).} \end{array}
-$$
-
-$$
-2 C o (N _ {3}) (N H _ {3}) _ {5} ^ {2 +} + 10 H ^ {+} + 12 H _ {2} O \stackrel {\mathrm{h} U} {=} 2 C o (H _ {2} O) _ {6} ^ {2 +} + 3 N _ {2} \uparrow + 10 N H _ {4} ^ {+}   (2 ^ {\prime}).
-$$
-
-
-![](images/0122a1b7583e1ec2b9184113d0991f5ec9adf21eae0ccb2bd1009b699940cf0b.jpg)
-
-质主摩尔浓度mol·kg $^{-1}$
+![](images/f26366d4512112206410f0dce191d9d216f69094f80a647acdd25ea2d547e47b.jpg)
 
 ## 知识点映射
 

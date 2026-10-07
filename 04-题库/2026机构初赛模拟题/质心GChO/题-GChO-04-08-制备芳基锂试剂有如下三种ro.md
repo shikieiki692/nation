@@ -61,9 +61,9 @@ B
 
 📎 **答案出处**：源卷**手写解析手稿**第 8 题（p4、5）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-![](images/d4370ba20ff918d30b04d6946a21e93879afe28c1e994b058c23ec164a0538ef.jpg)
+![](images/5d4ec70c40990c2462794fae9cd02ab7ac8c5193b3fb858ad634d056ec9fe0ac.jpg)
 
-![](images/75dbdf2caa26eb45b0d9bfffcad8cdf48b7c8fcad201ef68c3e34b1a5b668ff2.jpg)
+![](images/10b7a7125c08c01e117297c9eac29a238ff5077cddb35719f5e7392e2f18c16f.jpg)
 
 ## 知识点映射
 

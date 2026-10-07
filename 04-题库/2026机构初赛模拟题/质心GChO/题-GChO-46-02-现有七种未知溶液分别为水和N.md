@@ -41,7 +41,7 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO46试题.md"
 
 📎 **答案出处**：源卷**手写解析手稿**第 2 题（p1）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-![](images/759ad8d9dad7b8368510f72f988cc6af3363604ba365a6f60e0aa1643af3e7d2.jpg)
+![](images/fecd2cefbcb308be824fc5730657c0875f75cee80ec892dfeab1608f9d328863.jpg)
 
 ## 知识点映射
 

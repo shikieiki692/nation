@@ -41,9 +41,9 @@ A 是人类发现最晚的天然元素，也地球地壳中最稀有的元素之
 
 📎 **答案出处**：源卷**手写解析手稿**第 1 题（p1、2）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-![](images/fe2f015754523dfd387643795b61a3416cb0f75808053ea3864ee4eadb24a40d.jpg)
+![](images/2099d4c1f965bae67cad5f072bec2be4f4ca818179829231dec800d234186690.jpg)
 
-![](images/e23227e2bb59389a36dfecc6e1bb724bb331f5c384b0a59dd0d2b37dcd39e731.jpg)
+![](images/ea0e631a7de2a4625bad5aa8f41320e0ea1158a422ab855ba11075b83e93cb6a.jpg)
 
 ## 知识点映射
 

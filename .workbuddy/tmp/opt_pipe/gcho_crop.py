@@ -48,49 +48,96 @@ def load_index(rnd, pdf):
 
 
 def markers(idx, dpi):
-    """→ [(qno, page, y_px@dpi)]，按 (page,y) 排序。"""
+    """→ [(qno, page, y_px, x_px, page_w_px)]，按「阅读流」排序（页 → 栏 → y）。
+    手稿多为双页跨页扫描（左栏＝一页、右栏＝另一页），故顺序须含栏次。"""
     out = []
     for row in idx:
         for b in row["blocks"]:
             m = MARK.search(b["t"].replace(" ", ""))
-            if m and len(b["t"]) <= 12:      # 只认短标题块，避免正文里的「第N题」误命中
-                out.append((int(m.group(1)), row["page"], b["y"]))
-    out.sort(key=lambda x: (x[1], x[2]))
-    # 同一题号只留首次
+            if m and len(b["t"]) <= 16:      # 只认短标题块，避免正文里的「第N题」误命中
+                out.append((int(m.group(1)), row["page"], b["y"], b["x"], row["w"]))
+    out.sort(key=lambda t: (t[1], 0 if t[3] < t[4] * 0.45 else 1, t[2]))
     seen, res = set(), []
-    for q, p, y in out:
-        if q in seen:
+    for t in out:
+        if t[0] in seen:
             continue
-        seen.add(q); res.append((q, p, y))
+        seen.add(t[0]); res.append(t)
     return res
 
 
+def _col(x, w):
+    return 0 if x < w * 0.45 else 1
+
+
+SUB1 = re.compile(r"^[（(]?\s*(\d{1,2})\s*[-–—－]\s*1\s*(?![\d\-–—])")
+
+
+def sub_markers(idx):
+    """子问标号「N-1」作**补充**标记（仅当该题号无题头标记时启用）。→ {qno: (q,page,y,x,w)}"""
+    out = {}
+    for row in idx:
+        for b in row["blocks"]:
+            s = b["t"].strip()
+            if len(s) > 14:
+                continue
+            m = SUB1.match(s)
+            if not m:
+                continue
+            n = int(m.group(1))
+            if 1 <= n <= 15 and n not in out:
+                out[n] = (n, row["page"], b["y"], b["x"], row["w"])
+    return out
+
+
 def crop_q(pdf, mks, i, dpi_out=DPI):
-    """裁第 i 个 marker 对应的题目区（到下一个 marker 或页末）。返回 [(page, PIL.Image)]。
-    坐标：OCR 索引为 150dpi 像素 → 先转输出 dpi 像素，再转 PDF 点。"""
-    q, p0, y0 = mks[i]
+    """按「阅读流」裁题区：从 marker[i] 顺流到 marker[i+1]（跨栏/跨页自动切片）。
+    双页跨页扫描 ⇒ 一个物理页含左右两栏；栏内 y 递减。返回 [(page, PIL.Image)]。"""
+    q, p0, y0, x0, w = mks[i][:5]
+    c0 = _col(x0, w)
     if i + 1 < len(mks):
-        _, p1, y1 = mks[i + 1]
+        _, p1, y1, x1, _ = mks[i + 1][:5]
+        c1 = _col(x1, w)
     else:
-        p1, y1 = 10 ** 9, 10 ** 9
+        p1, y1, c1 = 10 ** 8, 10 ** 8, 1      # 末题：顺流到文档末页右栏
     SRC = 150.0
-    k = dpi_out / SRC                       # 150dpi px → 输出 px
+    k = dpi_out / SRC
     doc = fitz.open(pdf)
+    last = doc.page_count
     out = []
-    for p in range(p0, min(p1, doc.page_count) + 1):
+    for p in range(p0, (last if p1 > last else p1) + 1):
         pg = doc[p - 1]; Rc = pg.rect
-        H_out = Rc.height * dpi_out / 72.0  # 该页在输出 dpi 下的像素高
-        y0o = (y0 * k) if p == p0 else 0.0
-        y1o = (y1 * k) if (p == p1 and y1 < 10 ** 8) else H_out
-        top = max(0.0, y0o - 10 * k)
-        bot = min(H_out, y1o + 4 * k)
-        if bot - top < 220:                 # 输出像素阈值：过矮视为跨页收尾细条
+        H_out = Rc.height * dpi_out / 72.0
+        W_pt = Rc.width
+        regs = []
+        for c in (0, 1):
+            if p == p0 and c < c0:
+                continue
+            if p1 <= last and p == p1 and c > c1:
+                continue
+            top_v = (y0 * k - 10 * k) if (p == p0 and c == c0) else 0.0
+            bot_v = (y1 * k + 4 * k) if (p == p1 and c == c1 and y1 < 10 ** 8) else H_out
+            if bot_v - top_v < 220:
+                continue
+            x_a = 16.0 if c == 0 else W_pt * 0.5 + 2
+            x_b = W_pt * 0.5 - 2 if c == 0 else W_pt - 16.0
+            regs.append((top_v, bot_v, x_a, x_b))
+        if not regs:
             continue
-        top_pt = top * 72.0 / dpi_out
-        bot_pt = bot * 72.0 / dpi_out
-        pix = pg.get_pixmap(dpi=dpi_out, clip=fitz.Rect(Rc.x0 + 20, top_pt, Rc.x1 - 20, bot_pt))
-        im = Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
-        out.append((p, im))
+        # 同页多栏 → 按原版面位置拼回一张图，再裁到实际使用范围
+        top_min = min(r[0] for r in regs); bot_max = max(r[1] for r in regs)
+        x_min = min(r[2] for r in regs); x_max = max(r[3] for r in regs)
+        px = dpi_out / 72.0
+        Wc = int(round((x_max - x_min) * px)); Hc = int(round(bot_max - top_min))
+        if Wc < 40 or Hc < 80:
+            continue
+        canvas = Image.new("RGB", (Wc, Hc), "white")
+        for top_v, bot_v, x_a, x_b in regs:
+            pix = pg.get_pixmap(dpi=dpi_out,
+                                clip=fitz.Rect(x_a, top_v * 72.0 / dpi_out,
+                                               x_b, bot_v * 72.0 / dpi_out))
+            im = Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
+            canvas.paste(im, (int(round((x_a - x_min) * px)), int(round(top_v - top_min))))
+        out.append((p, canvas))
     doc.close()
     return q, out
 
@@ -142,8 +189,10 @@ def locate_by_text(idx, qtext, min_cov=0.30):
     for j in range(len(row["blocks"])):
         win = "".join(_norm(b["t"]) for b in row["blocks"][j:j + 6])
         if sum(1 for g in gs if g in win) / len(gs) >= min_cov:
-            return (best[1], row["blocks"][j]["y"])
-    return (best[1], row["blocks"][0]["y"])
+            b = row["blocks"][j]
+            return (best[1], b["y"], b["x"], row["w"])
+    b = row["blocks"][0]
+    return (best[1], b["y"], b["x"], row["w"])
 
 
 def cards_of(rnd):
@@ -171,15 +220,28 @@ def main():
     if idx is None:
         print("!! 缺 OCR 索引，请先: python ocr_index.py <pdf> GChO%d 150" % rnd); return 1
     mks = markers(idx, 150)
-    print("题标记 %d 个：%s" % (len(mks), [(q, p) for q, p, _ in mks]))
+    print("题标记 %d 个：%s" % (len(mks), [(t[0], t[1], _col(t[3], t[4])) for t in mks]))
     cards = cards_of(rnd)
     print("卡 %d 张" % len(cards))
     if a.limit:
         cards = cards[:a.limit]
     os.makedirs(BK, exist_ok=True)
-    # 兜底：题标记缺失的卡，用题面文本匹配补合成标记
     aug = list(mks)
-    qset = {q for q, _, _ in aug}
+    qset = {t[0] for t in aug}
+    # 兜底①：第 1 题缺标记 ⇒ 文档起始
+    if 1 not in qset and any(card_qno(c) == 1 for c in cards):
+        w0 = idx[0]["w"]
+        aug.append((1, 1, 0.0, 0.0, w0)); qset.add(1)
+        print("  [起始兜底] 届%d 第1题 → p1 页首" % rnd)
+    # 兜底②：子问标号 N-1（仅当题头缺失）
+    sub = sub_markers(idx)
+    for c in cards:
+        q = card_qno(c)
+        if q is None or q in qset or q not in sub:
+            continue
+        aug.append(sub[q]); qset.add(q)
+        print("  [子问标号] 届%d 第%d题 → p%d y%.0f x%.0f" % (rnd, q, sub[q][1], sub[q][2], sub[q][3]))
+    # 兜底②：题面文本匹配
     for c in cards:
         q = card_qno(c)
         if q is None or q in qset:
@@ -188,13 +250,13 @@ def main():
         i = t.find("## 题目"); j = t.find("## 参考答案")
         loc = locate_by_text(idx, t[i:j] if i >= 0 and j > i else "")
         if loc:
-            aug.append((q, loc[0], loc[1])); qset.add(q)
-            print("  [兜底] 届%d 第%d题 → p%d y%.0f" % (rnd, q, loc[0], loc[1]))
+            aug.append((q, loc[0], loc[1], loc[2], loc[3])); qset.add(q)
+            print("  [兜底] 届%d 第%d题 → p%d y%.0f x%.0f" % (rnd, q, loc[0], loc[1], loc[2]))
         else:
             print("  [兜底失败] 届%d 第%d题" % (rnd, q))
-    aug.sort(key=lambda x: (x[1], x[2]))
+    aug.sort(key=lambda t: (t[1], 0 if t[3] < t[4] * 0.45 else 1, t[2]))
     plan = []
-    by_q = {q: i for i, (q, p, y) in enumerate(aug)}
+    by_q = {t[0]: i for i, t in enumerate(aug)}
     for c in cards:
         q = card_qno(c)
         if q is None or q not in by_q:

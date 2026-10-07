@@ -60,48 +60,9 @@ A 用 BrF₃ 氧化可以定量的得到 J, J 充分水解后的溶液中加入 
 
 ## 参考答案
 
-第一段：某种过渡金属/p区金属
+📎 **答案出处**：源卷**手写解析手稿**第 3 题（p1）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-$\underline{p} = \frac{ZM}{a^3NA}$ $\frac{8M}{(19)^3 \times 6.022 \times 10^-7} = 4.322 \times (1 + 4.0\%)$ .
-
-$$
-M = 580.3.
-$$
-
-F: $MO_{x} + 2x + HI = MI_{2x} + xH_{2}O$ $M I_{2x}$ x = 0.5, 1, 1.5, 2.
-
-$x = 2,\;M = {72.7},\;{G}_{e}$
-
-A: $GeO_{2}$ B. $GeCl_{4}$ C. GeCl D. $H_{2}GeO_{3}/H_{2}Ge(OH)_{4}$
-
-E. $Ge(OAc)_{4}$ . F. $GeI_{4}$ $\leftarrow$ G. $GeI_{2}$ . H. $GeNH_{3}$ . $GeI_{2} \rightarrow Ge^{2}IMH_{2} \rightarrow Ge(NH_{2})^{-NH_{3}} \rightarrow GeNH_{3} \rightarrow Ge_{3}N_{2}$ . $GeI_{2} + 2NH_{3} = Ge(NH_{2})I + NH_{4}I$ .
-
-I. $a_{e_{3}}N_{2}$ J: $a_{e}F_{4}$ K: $H_{2}a_{e}F_{6}$ L: $a_{e}O$ .
-
-(✗, 1', A ∼ L, 0.5 × 12)
-
-3-2. 便于分岔 (1).
-
-$As \downarrow Ge$ 任金元子. $AsCl_{3} \xrightarrow{a_{2}} H_{3}A_{3}O_{4}$ (高 b.p.)
-
-3-3. $GeCl_{4} + 4Ac_{2}O \rightleftharpoons Ge(OAc)_{4} + (A_{2}Cl)$ (i) $AcCl + TiOAc \rightleftharpoons TiCl\downarrow + Ac_{2}O$ (i)
-生成不溶：TlCl
-
-$$
-3 - 4 ^ {(1)} 2 G e C l + 6 O H ^ {-} = 2 G e O _ {3} ^ {2 -} + 2 C l ^ {-} + 3 H _ {2} \uparrow
-$$
-
-$$
-\underbrace {G _ {e} (I)} _ {a e (I) \rightarrow a e (0)} \rightarrow \underbrace {G _ {e} (I ^ {- 1})} _ {a e (0) - 1} \downarrow_ {a e (0) - 1} ^ {2 -}
-$$
-
-2). $CeI_{2} + I_{2} + 3H_{2}O = H_{2}GeO_{3} + 4H_{2}$ $(J_{8}^{-})$ $\downarrow$ $H_{2}Ge(OH)_{6}$
-
-(3) $CeI_{2} + 3NH_{3} = CeNH + 2NH_{4}$
-
-(4). $3GeO_{2} + 4BrF_{3} = 3GeF_{4} + 3O_{2} + 2Br_{2}$
-
-(5) $GeO + 2AgClO_{4} + 6HF = 2Ag + 2HClO_{4} + H_{2}GeF_{6}$ $(1' \times 5)$ $+ H_{2}O$
+![](images/28b5ead06ae5f34cf5c7f5b48d0e693843e233dd163748c713d6182a38252741.jpg)
 
 ## 知识点映射
 

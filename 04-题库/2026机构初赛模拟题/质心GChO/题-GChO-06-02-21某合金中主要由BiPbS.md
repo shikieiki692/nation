@@ -47,15 +47,11 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO6试题（线下
 
 ## 参考答案
 
-📎 **答案出处**：源卷**手写解析手稿**第 2 题（p1、2、3、4）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
+📎 **答案出处**：源卷**手写解析手稿**第 2 题（p1、2）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-![](images/9be9c48f31361f614e3f91bd385ecb7ba34548aacda012bdd6a9ae493ba907c0.jpg)
+![](images/93a46732e729ca2c07fa895cc854e23952054766ea72693d3dbfbe9565cf6176.jpg)
 
-![](images/a821903d4a0a5364151a2b8185f678cf06fe5c8eeb3e756c9ac3e65c280d0ed3.jpg)
-
-![](images/05ce34cd7dae2d2a868cd0b1272b892e1af61fa3f0a409bda542e010ca584eaf.jpg)
-
-![](images/ba526cb4f61c7b34aa75aa4563c33a6544465e9044ccf3553c60b21afba410bd.jpg)
+![](images/c0c3b44679f151e8effa3992222619ab1ff4d554b9e659b84391ad7146c3cb0b.jpg)
 
 ## 知识点映射
 

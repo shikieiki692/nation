@@ -67,19 +67,19 @@ b. 所有 Cu 原子的配位环境均为平面四方。
 
 📎 **答案出处**：源卷**手写解析手稿**第 6 题（p4、5、6、7、8、9、10）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-![](images/f18333f9d7a15d7a07fa151aeb93105c38ddf8f54251a189b7c94de8e0565aaa.jpg)
+![](images/4fb47bc250c362d6080e692d0fe268fc998182b40b2db90429549ea884a64fc2.jpg)
 
-![](images/3b96d4d3d3f686293fa245e7b8bb251d427ae2ec788508ef7053e86da284e819.jpg)
+![](images/64fa5fc11a91f63c1abcba24cfd18113518699a041f394203ff77dce06aaaeef.jpg)
 
-![](images/9c78b620b8a31b3171dac1ce9d70daac2636f9159cc3875e7aeae5e4f8985681.jpg)
+![](images/f1b19974c13e1b7dbc021303a50981095ce84919978fd79a38ba828c4cc8f73c.jpg)
 
-![](images/930b5954d29c3961f95ee5064afa6b1dfbdc5e8298e05733646ef1a5f3eb1048.jpg)
+![](images/d0124c7bbb652999f6082f3d1c5f6b703a35b1fd185f0c2aabc7f15a3f9e07a7.jpg)
 
-![](images/a01ea5e9132b7c1a410ce9e9b14985b1ff40525c118a02cce76da346b563f33b.jpg)
+![](images/7e600bd6afe5ec8577641464eca10bc90f0016c13d3f632a496382c1f7c08771.jpg)
 
-![](images/59178419763c332a1383cfac92b93503a4d7d73328b0a2d94f36f8da378bfc4c.jpg)
+![](images/51d9350cc4462a0afeb36a995e3e3ccdaa4ede752a0ff19f980bf95b708b2357.jpg)
 
-![](images/99296d8fde7270557d837cea6129275f672c171ab2b7a244b35a9a32a5a0544c.jpg)
+![](images/786a57fa9ca977cc515cd0051c2b45f234b996c58ef36291a73f472f274cde9c.jpg)
 
 ## 知识点映射
 
