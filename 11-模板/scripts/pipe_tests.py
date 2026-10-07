@@ -255,12 +255,18 @@ def _load_partial(name, symbols):
     import ast
     src = open(os.path.join(HERE, name + ".py"), encoding="utf-8", errors="replace").read()
     tree = ast.parse(src)
-    ns = {"__file__": os.path.join(HERE, name + ".py"), "re": re, "os": os, "sys": sys}
+    import io, random, collections, types
+    ns = {"__file__": os.path.join(HERE, name + ".py"), "re": re, "os": os, "sys": sys,
+          "io": io, "random": random, "collections": collections}
     picked = []
     for node in tree.body:
         nm = getattr(node, "name", None)
         if isinstance(node, ast.Try):
             picked.append(node)                      # _kps_of 定义在 try/except 里
+        elif isinstance(node, ast.Assign):           # 顶层常量（MERGE / QUOTA …）
+            tgt = node.targets[0]
+            if isinstance(tgt, ast.Name) and tgt.id in symbols:
+                picked.append(node)
         elif nm in symbols:
             picked.append(node)
     if not picked:
@@ -333,6 +339,93 @@ def gms_块列表形态原本会漏项():
     assert old_got == [], "前提变了：旧正则居然能解析块列表"
     ns = _load_partial("gen_module_set", ["_kps_of"])
     assert ns["_kps_of"](fm) == ["A", "B"]
+
+
+# ══════════════════════════════════════════════════════════════
+# 4. testpaper_v2：KP 接入（2026-10-07）
+# ══════════════════════════════════════════════════════════════
+@case("testpaper_v2")
+def tp2_有main保护():
+    """🔴 回归：2026-10-07 误跑本脚本，**实际改写了库**——
+    重写 3 个阶段测试卷 ＋ 给 150 张卡回填 `used_in`。
+    根因是它是「生成类脚本」且无 dry-run。⇒ 必须有 `__main__` 保护，
+    且测试**只测解析层**、绝不 import 后直接调用 main。"""
+    src = open(os.path.join(HERE, "testpaper_v2.py"), encoding="utf-8", errors="replace").read()
+    assert 'if __name__ == "__main__":' in src, "缺 __main__ 保护，import 即产生副作用"
+    # 生成与回填入口必须在 __main__ 之内
+    body = src.split('if __name__ == "__main__":', 1)[1]
+    assert "write_paper(" in body, "write_paper 不在 main 内"
+    assert "backfill(" in body, "backfill 不在 main 内"
+    # 模块顶层不得出现写盘调用
+    import re as _re2
+    top = src.split('if __name__ == "__main__":', 1)[0]
+    # 只看真正的调用行（排除 def 定义行）
+    calls = [_re2.sub(r"^\s+", "", ln) for ln in top.split("\n")
+             if not ln.lstrip().startswith("def ")]
+    calls = "\n".join(calls)
+    assert "write_paper(" not in calls, "顶层调用了 write_paper（import 即写盘）"
+    assert "backfill(" not in calls, "顶层调用了 backfill（import 即改 FM）"
+
+
+@case("testpaper_v2")
+def tp2_路径自动定位():
+    src = open(os.path.join(HERE, "testpaper_v2.py"), encoding="utf-8", errors="replace").read()
+    assert "__file__" in src, "缺 __file__ 自动定位"
+    assert "Obsidion" not in src, "仍含硬编码 vault 路径"
+
+
+@case("testpaper_v2")
+def tp2_KP解析走fm_parse():
+    """KP 是数组形态（原 parse_fm 的正则只认标量会全漏），须走 fm_parse。"""
+    ns = _load_partial("testpaper_v2", ["parse_fm"])
+    pf = ns["parse_fm"]
+    import tempfile
+    cases = [
+        ('knowledge_points: ["[[晶胞]]", "[[化学平衡]]"]', ["晶胞", "化学平衡"]),
+        ('knowledge_points:\n  - "[[晶胞]]"', ["晶胞"]),
+        ('knowledge_points: "[[晶胞]]"', ["晶胞"]),
+    ]
+    for kp, want in cases:
+        txt = '---\ntitle: t\npack: 模块习题集\nsubject_module: 结构化学\ndifficulty: 4\n' + kp + '\n---\n\n## 题目\nx\n'
+        fd, p = tempfile.mkstemp(suffix=".md")
+        os.close(fd)
+        open(p, "w", encoding="utf-8").write(txt)
+        try:
+            fm = pf(p)
+            assert fm is not None, "parse_fm 返回 None：%r" % kp
+            assert fm.get("kps") == want, "%r → %s（期望 %s）" % (kp, fm.get("kps"), want)
+        finally:
+            os.unlink(p)
+
+
+@case("testpaper_v2")
+def tp2_KP贪心覆盖():
+    """select(target_kps=[...])：每个目标 KP 先保底 1 题，且不与原配额重复抽。"""
+    ns = _load_partial("testpaper_v2", ["select", "pick_pool", "normalize", "allocate_quota", "pick_from", "MERGE", "QUOTA"])
+    sel = ns["select"]
+
+    def rec(name, kps, subj="结构化学", diff=4, group="晶体结构"):
+        fm = {"pack": "模块习题集", "subject_module": subj, "status": "已填充",
+              "submodule": group, "difficulty": diff}
+        if kps is not None:
+            fm["kps"] = kps
+        return (name, fm)
+
+    # ⚠️ 数据量要够：allocate_quota 按「子模块组」分配配额，组太少会除零。
+    #    真实池有十几个子模块组，这里造 6 组 × 8 题。
+    groups = ["晶体结构", "分子结构", "配位化学", "立体化学", "分析化学", "元素化学"]
+    records = []
+    for gi, g in enumerate(groups):
+        for j in range(8):
+            kps = [["晶胞", "化学平衡"]][0] if (gi == 0 and j < 2) else \
+                  ["分子对称性"] if gi == 1 else ["能级"] if gi == 2 else \
+                  ["立体选择性"] if gi == 3 else ["滴定分析"] if gi == 4 else ["元素性质"]
+            records.append(rec("%s-%02d" % (g, j), kps, group=g))
+    records.append(rec("无KP题", None, group="元素化学"))
+    _, chosen = sel("结构化学", records, seed=42, target_kps=["晶胞", "化学平衡"])
+    files = {p["file"] for p in chosen}
+    assert "晶体结构-00" in files, "晶胞保底题未入卷：%s" % sorted(files)[:8]
+    assert len(chosen) == len({p["file"] for p in chosen}), "出现重复题"
 
 
 # ══════════════════════════════════════════════════════════════
