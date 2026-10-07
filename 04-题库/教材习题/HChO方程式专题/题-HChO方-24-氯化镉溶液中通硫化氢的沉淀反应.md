@@ -10,7 +10,7 @@ exam_stage: 初赛
 difficulty: 3
 teaching_level: 竞赛
 fidelity: 原书逐字
-knowledge_points: ["[[方程式书写]]", "[[镉]]", "[[溶度积]]", "[[沉淀溶解平衡]]"]
+knowledge_points: ["[[方程式书写]]", "[[镉]]", "[[溶度积]]"]
 pack: 模块习题集
 question_type: [方程式书写, 简答]
 tags: [化竞, HChO, 方程式专题, 元素化学, 镉]
