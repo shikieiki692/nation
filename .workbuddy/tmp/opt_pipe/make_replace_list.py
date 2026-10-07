@@ -67,18 +67,20 @@ for r in targets:
             sc.append((ov, bn, inst, sorted(tk & k2)))
     sc.sort(key=lambda x: -x[0])
     md.append('\n## `%s`\n' % os.path.basename(p)[:56])
-    md.append('| 项 | 值 |\n|:--|:--|\n')
-    md.append('| 原因 | %s |\n' % r['reason'])
-    md.append('| 模块 | %s |\n' % mod)
-    md.append('| 考点 | %s |\n' % ('、'.join(sorted(tk)) if tk else '—'))
-    md.append('| 源 | %s |\n' % (f1(b, 'source')[:60] or '—'))
+    trow = ['| 项 | 值 |', '|:--|:--|',
+            '| 原因 | %s |' % r['reason'],
+            '| 模块 | %s |' % mod,
+            '| 考点 | %s |' % ('、'.join(sorted(tk)) if tk else '—'),
+            '| 源 | %s |' % (f1(b, 'source')[:60] or '—')]
+    md.append('\n'.join(trow) + '\n')
     md.append('\n**替代候选（同模块·考点重合）：**\n')
     if not sc:
         md.append('> （同模块内无考点重合候选 ⇒ 需放宽到「同模块任意卡」人工挑）\n')
         continue
-    md.append('| # | 候选卡 | 机构 | 重合考点 |\n|--:|:--|:--|:--|\n')
+    rows = ['| # | 候选卡 | 机构 | 重合考点 |', '|--:|:--|:--|:--|']
     for i, (ov, bn, inst, common) in enumerate(sc[:5], 1):
-        md.append('| %d | `%s` | %s | %s |\n' % (i, bn[:48], inst, '、'.join(common)[:34]))
+        rows.append('| %d | `%s` | %s | %s |' % (i, bn[:48], inst, '、'.join(common)[:34]))
+    md.append('\n'.join(rows) + '\n')
 
 open(OUT, 'w', encoding='utf-8', newline='\n').write('\n'.join(md) + '\n')
 print('已生成 %s（%d 行）' % (OUT, len(md)))
