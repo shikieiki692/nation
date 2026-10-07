@@ -154,15 +154,23 @@ _HW_STRIP = re.compile(r'!\[\[[^\]]*\]\]|!\[\]\([^)]*\)|[0-9a-fA-F]{24,}')
 
 
 def overflow_reason(q, a, own):
-    """越界判据；返回原因串或 None。"""
+    """越界判据；返回原因串或 None。
+
+    ★ 2026-10-07：**先剔除注记行**再判——出处注记里常带「第 N 题」引用
+    （如「答案由源《…》第 2 题回收补录」），会被误判为越界（实测 题-HYS-11-02 假阳性）。
+    """
     if not own:
         return None
-    for seg, tag in ((q, '题面'), (a, '答案')):
+    _NOTE = re.compile(r'^(?:[>]+\s*)*(?:📎|⛔|📄)|答案出处[：:]|[（(]源 ?PDF|未逐字校对'
+                       r'|文字层自动提取|文字化需人工转录|源卷答案')
+    a_chk = "\n".join(l for l in a.split("\n")
+                      if l.strip() and not _NOTE.search(l.strip()))
+    for seg, tag in ((q, '题面'), (a_chk, '答案')):
         for mm in QW_RE.finditer(seg):
             n = _cn2int(mm.group(1))
             if n and n > own:
                 return '%s区出现「第%s题」(>本卡第%d题)' % (tag, mm.group(1), own)
-    for mm in SUBQ_HEAD_RE.finditer(a):
+    for mm in SUBQ_HEAD_RE.finditer(a_chk):
         if int(mm.group(1)) > own:
             return '答案区出现行首小问组「%s-…」 (>本卡第%d题)' % (mm.group(1), own)
     return None
