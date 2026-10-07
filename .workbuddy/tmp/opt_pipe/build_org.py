@@ -1064,8 +1064,9 @@ def write_vol(picks, flat, SC):
                 'source_category: 竞赛导向·竞赛教辅', 'exam_stage: 初赛',
                 'question_count: %d' % len(flat), '满分: %d' % total, '---', '',
                 '# 初赛模拟卷 %s（非有机 · %s）' % (VOL, tag), '']
+        # ⚠️ 只列**实际有题**的模块段（试点卷 XIp 无「元素与分析」⇒ 原写法 KeyError）
         segtxt = '、'.join('%s（第 %d–%d 题，%d 分）' % (lbl, seg_start[m][0], seg_start[m][1], seg_score[m])
-                          for m, lbl, _ in QUOTA)
+                          for m, lbl, _ in QUOTA if m in seg_start)
         before = ROMAN[:ROMAN.index(VOL)] if VOL in ROMAN else []
         prev = '、'.join('[[04-题库/初赛模拟卷%s（非有机·答案版）|卷 %s]]' % (x, x)
                           for x in before) or '—'
@@ -1083,8 +1084,11 @@ def write_vol(picks, flat, SC):
                     '> 请将答案写在答题纸上，写出必要的推理与计算过程。']
         out += ['', '---', '']
 
+        _pdict = dict(picks)
         for mod, lbl, _ in QUOTA:
-            got = dict(picks)[mod]
+            if mod not in _pdict:            # ⚠️ 试点卷 XIp 无「元素与分析」⇒ 原写法 KeyError
+                continue
+            got = _pdict[mod]
             out += ['## %s（第 %d–%d 题，共 %d 分）' % (lbl, seg_start[mod][0], seg_start[mod][1], seg_score[mod]), '']
             for i, c in enumerate(got, seg_start[mod][0]):
                 sc = SC[c['path']]
