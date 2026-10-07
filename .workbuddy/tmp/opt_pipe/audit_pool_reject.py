@@ -93,8 +93,11 @@ def judge(p, rel):
     a0 = BO.clean_a(BO.conv_imgs(rawa), q0)
     q, a = BO.html_table_to_md(q0), BO.html_table_to_md(a0)
     if BO.LEAK.search(q):
-        # 剔除题目标题行后再判（标题的「（12 分）」是分值，不是泄露）
-        _qchk = re.sub(r"^#{2,4}[ \t]*第[ \t]*\d+[ \t]*题[^\n]*$", "", q, flags=re.M)
+        # 剔除**本卡自身**题目标题行后再判（标题的「（12 分，占 8%）」是分值，不是泄露）；
+        # ⚠️ 只剔本卡号，否则会放过「下一题题头串入」。
+        _ow = BO.own_qno(t, p)
+        _qchk = re.sub(r"^#{0,4}[^\S\n]*第[^\S\n]*%s[^\S\n]*[题題][^\n]*$" % (_ow if _ow else r"\d+"),
+                       "", q, flags=re.M)
         if BO.LEAK.search(_qchk):
             return "弃卡", "题面泄露", meta
     qn = re.sub(r"\s+", "", q); an = re.sub(r"\s+", "", a)

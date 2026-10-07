@@ -78,8 +78,9 @@ def has_fake_struct(a):
 
 
 LEAK = re.compile(
+    r'(?m)^[ \t]*解答[ \t]*[:：]|^[ \t]*答案[ \t]*[:：]|'
     r'```txt|（\s*\d+\s*分|\(\s*\d+\s*分|共\s*\d+\s*分|各\s*\d+\s*分|得\s*\d+\s*分|'
-    r'解答\s*[:：]|答案\s*[:：]|回归计算得|代入数据得|'
+    r'回归计算得|代入数据得|'
     r'送大分|高中数学|不是重要考点|这一块需要|给出的答案全错|理清楚|'
     r'注意此题|请注意本题|希望我的|这题[^\n]{0,8}没救|黄金好|大声|记住这个|送分')
 # 批次级排除：源为「讲稿」（授课脚本，题面混入讲解/口播）
@@ -132,7 +133,9 @@ def own_qno(text, path):
 # 源「答案」实为**手写解析稿**的 OCR ⇒ 答案区混入口语/涂鸦（实测 题-GChO-37-05：
 # 「(4) ⇒ x = cd. D = cd s.」「200my 134.2my」「12分 ≥14 ≥10 awsl」）⇒ 答案不可用。
 # 词表保持**极窄**（只收明确的网络用语/涂鸦，避免误伤正常表述）。
-HANDWRITTEN = re.compile(r'awsl|yyds|栓Q|xswl|nsdd|凑不出|瞎写|乱写|随便写|懒得写|不会画')
+# ★ 2026-10-07 移除 `乱写`：印刷版《参考答案与评分标准》常写「…乱写一堆不行」这类评分说明
+#   （实测误杀 题-GChO-41-02，其答案为规范 $$ 排版），属**载体条件**缺失型假阳性。
+HANDWRITTEN = re.compile(r'awsl|yyds|栓Q|xswl|nsdd|凑不出|瞎写|随便写|懒得写|不会画')
 SCOREMARK = re.compile(r"(?<![\d.])\d{1,2}(?:\.\d)?\s*['\u2032\u2019]")   # 手写评分符 1'（无区分度，仅统计）
 GARB2PAT = re.compile(r"\\xlongequal|\\xrightarrow\s*\{\s*\d+\s*\}")  # 已知 OCR/宏乱码特征
 # ⚠️ 曾误加 `_{n}`：`r_n`/`v_n` 等**合法下标**会被误伤（实测把 题-HZ-12-06 整卡弃掉 ⇒ 卷XI 计划锁失效重选）。
@@ -158,17 +161,23 @@ def overflow_reason(q, a, own):
 
     ★ 2026-10-07：**先剔除注记行**再判——出处注记里常带「第 N 题」引用
     （如「答案由源《…》第 2 题回收补录」），会被误判为越界（实测 题-HYS-11-02 假阳性）。
+    ★ 2026-10-07：**再排除引用性表述**——「参考…第五题」「对应来源…第5题」
+      「在 … 考试的第 9 题」都是**引证**非越界（实测 题-FY-01-03 / 题-BJLY-07 / 题-GChO-16-08）。
     """
     if not own:
         return None
     _NOTE = re.compile(r'^(?:[>]+\s*)*(?:📎|⛔|📄)|答案出处[：:]|[（(]源 ?PDF|未逐字校对'
                        r'|文字层自动提取|文字化需人工转录|源卷答案')
-    a_chk = "\n".join(l for l in a.split("\n")
-                      if l.strip() and not _NOTE.search(l.strip()))
-    for seg, tag in ((q, '题面'), (a_chk, '答案')):
+    _CITE = re.compile(r'参考|参见|参看|详见|可见|对应|来源|引自|选自|出自|考试|试题|试卷|组卷')
+    _strip = lambda seg: "\n".join(l for l in seg.split("\n")
+                                   if l.strip() and not _NOTE.search(l.strip()))
+    q_chk, a_chk = _strip(q), _strip(a)
+    for seg, tag in ((q_chk, '题面'), (a_chk, '答案')):
         for mm in QW_RE.finditer(seg):
             n = _cn2int(mm.group(1))
             if n and n > own:
+                if _CITE.search(seg[max(0, mm.start() - 16):mm.start()]):
+                    continue
                 return '%s区出现「第%s题」(>本卡第%d题)' % (tag, mm.group(1), own)
     for mm in SUBQ_HEAD_RE.finditer(a_chk):
         if int(mm.group(1)) > own:
@@ -807,9 +816,13 @@ def build_pool():
             a0 = clean_a(conv_imgs(rawa), q0)
             q, a = html_table_to_md(q0), html_table_to_md(a0)
             if LEAK.search(q):        # 题面泄露（源卡缺陷）⇒ 弃卡
-                # ★ 2026-10-07 修正：先剔除**题目标题行**再判——标题里的「（12 分，占 8%）」
-                #   是分值不是答案；原判据会把标题分值当泄露（实测伽马 GM-25 系列 7 张被误弃）。
-                _qchk = re.sub(r'^#{2,4}[ \t]*第[ \t]*\d+[ \t]*题[^\n]*$', '', q, flags=re.M)
+                # ★ 2026-10-07 修正：先剔除**本卡自身题目标题行**再判——标题里的
+                #   「（12 分，占 8%）」是分值不是答案；原判据会把标题分值当泄露。
+                #   ⚠️ 只剔**本卡号**的标题（`### 第 6 题（22分）…`），
+                #   否则会连「下一题题头串入」（`第7題（18分，占9%）`）一起放过。
+                _own = own_qno(t, p)
+                _qchk = re.sub(r'^#{0,4}[^\S\n]*第[^\S\n]*%s[^\S\n]*[题題][^\n]*$' % (_own if _own else r'\d+'),
+                               '', q, flags=re.M)
                 if LEAK.search(_qchk):
                     continue
             qn = re.sub(r'\s+', '', q); an = re.sub(r'\s+', '', a)

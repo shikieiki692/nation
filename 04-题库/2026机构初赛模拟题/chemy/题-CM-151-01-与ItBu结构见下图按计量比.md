@@ -69,8 +69,7 @@ $$
 1 - 2 - 2 \left[ \mathrm{Mes} ^{*} \mathrm{BNLi} \right] _{6} + 12 \mathrm{HCl} + 12 \mathrm{H} _{2} \mathrm{O} = 6 \mathrm{Mes} ^{*} \mathrm{B} (\mathrm{OH}) _{2} + 6 \mathrm{NH} _{4} \mathrm{Cl} + 6 \mathrm{LiCl} (2 \text {分})
 $$
 
-2-1-2 电极反应：DSPZ + $2H_{2}O + 2e^{-} = H_{2}DSPZ + 2OH^{-}$ （2分）
-
+> ⛔ 校勘（2026-10-07）：源卡答案区**混入了他题内容**（63 字：2-1），已按题界剔除；如需该题请查源卷。
 ## 知识点映射
 
 - （待人工校准）
