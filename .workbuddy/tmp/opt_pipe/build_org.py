@@ -489,9 +489,9 @@ def html_table_to_md(s):
 
     def rep(m):
         tbl = m.group(0)
-        grid, pending = [], {}
+        grid, pending, rowspans = [], {}, []          # rowspans：每行 [(起始列, colspan)]
         for rm in TR.finditer(tbl):
-            row, col = [], [0]
+            row, col, sp = [], [0], []
 
             def fillp():
                 while col[0] in pending:
@@ -508,6 +508,7 @@ def html_table_to_md(s):
                 rsm = re.search(r'rowspan\s*=\s*"?(\d+)"?', attrs)
                 cs = int(csm.group(1)) if csm else 1
                 rs = int(rsm.group(1)) if rsm else 1
+                sp.append((len(row), cs))
                 row.append(_cell_clean(inner))
                 row.extend([''] * (cs - 1))
                 if rs > 1:                                    # ① rowspan 占位
@@ -515,16 +516,21 @@ def html_table_to_md(s):
                         pending[col[0] + k] = rs - 1
                 col[0] += cs
                 fillp()
-            grid.append(row)
+            grid.append(row); rowspans.append(sp)
         if not grid:
             return tbl
         ncol = max(len(r) for r in grid)
         grid = [r + [''] * (ncol - len(r)) for r in grid]
-        # ③ 全跨度说明行 ⇒ 切段
+        # ③ 全跨度说明行 ⇒ 切段。
+        #   ★ 2026-10-07 修正：原判据 `len(ne)==1 and len(r)-1 >= ncol-2` 会把
+        #   「只有第一格有内容的数据行」（如 `['1','','','']`）误判成说明行 ⇒ 数据行被拆成段落
+        #   （实测「Hund 规则」作答表：表头之后只剩 1/2/3/4/5/6 散行）。
+        #   正确判据＝**该行唯一单元格的 colspan ≥ 表宽**（真·跨满整行）。
         segs, cur = [], []
-        for r in grid:
-            ne = [c for c in r if c]
-            if len(ne) == 1 and (len(r) - 1) >= max(1, ncol - 2):
+        for idx, r in enumerate(grid):
+            sp = rowspans[idx] if idx < len(rowspans) else []
+            wide = (len(sp) == 1 and ncol > 1 and sp[0][1] >= ncol)
+            if wide:
                 if cur:
                     segs.append(cur); cur = []
                 segs.append([r])

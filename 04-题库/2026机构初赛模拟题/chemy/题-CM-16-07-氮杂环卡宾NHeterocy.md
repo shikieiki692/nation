@@ -48,8 +48,6 @@ $$
 
 ![](images/35c1901030a73f1f37ae098f2812e3338902b2942fac88a7ebd5adab866636f9.jpg)
 
-![](images/48268f649c00965ee4447742a2b6108da5688c8e6991e31844a0c86253a04f7d.jpg)
-
 7-2 Wanzlick 认为，NHC 单体与二聚体之间存在可逆的解离平衡，这个平衡被称为 Wanzlick 平衡。1999 年，Denk 报道了四氨基乙烯之间的 crossover 反应（Ar = 对甲基苯基）：
 
 ![](images/76c90a28d3cff769b50478e4f1bac6b019950ba244b53e7b15ba0ba8a1f86ff3.jpg)
@@ -149,6 +147,5 @@ NHC 的用量: 当量 (1 分)
 ## 知识点映射
 
 - （待人工校准）
-
 
 > ⚠️ **自动拆卡标记**：`subject_module`/`difficulty` 为关键词粗判，答案数值与单位**尚未经人工复核**（OCR 原文逐字转录，可能保留原卷笔误）。

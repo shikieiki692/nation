@@ -120,8 +120,6 @@ YSZ layer 为 YSZ 层；electrode 为电极；Protective layer 为保护层；Re
 
 5-2-1 分别写出电势差稳定后上方和下方铂电极上所发生的电极方程式。
 
-![](images/adfc433973f4c2667931f132795f4a9421b5d02e0ce34af02c1482604b710721.jpg)
-
 ![](images/9831e7e81596b1a8a754bfd39514961f61856c99954c1354cf3993bd1b28db9d.jpg)
 
 5-2-1 共 2 分
@@ -133,7 +131,6 @@ YSZ layer 为 YSZ 层；electrode 为电极；Protective layer 为保护层；Re
 5-2-2 共 4 分
 
 A.
-![](images/35c8ca0e47ae3fb8e76863671d141c2a79bb38664eae6e5aefa052349a321b77.jpg)
 
 总反应可写为 $O_{2}$ (参比气体) $\rightarrow$ $O_{2}$ (待测气体)（1 分），电子转移数为 4（1 分）。
 
@@ -182,6 +179,5 @@ Diffusion barrier 为扩散障碍层；Diffusion gap 为扩散腔；圆图为电
 ## 知识点映射
 
 - （待人工校准）
-
 
 > ⚠️ **自动拆卡标记**：`subject_module`/`difficulty` 为关键词粗判，答案数值与单位**尚未经人工复核**（OCR 原文逐字转录，可能保留原卷笔误）。

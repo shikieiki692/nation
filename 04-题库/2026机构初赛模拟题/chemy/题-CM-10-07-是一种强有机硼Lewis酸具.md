@@ -143,8 +143,6 @@ $PhNMe_{2}$ 碱性显著弱于 $PhCH_{2}NMe_{2}$ (1 分)
 
 7-2-4 画出下列反应的产物，要求立体化学。
 
-![](images/9924993b1050cd509ff805a4457c9a76599059c999e56e9ba3e49e51fc2d97c0.jpg)
-
 7-2-4-1
 
 ![](images/6cf9543b5dfb35d4cc536da7ffd289e7e1f513c9cade829c86b30c6806308900.jpg)
@@ -191,7 +189,6 @@ $$
 \begin{array}{r l}\mathrm {B(C_ {6} F_ {5}) _ {3} \cdot H_ {2} O}&\rightleftharpoons \mathrm {B(C_ {6} F_ {5}) _ {3} (OH) ^ {-} + H^ {+}} (\mathrm {pK_ {a} = 8.6})\\\mathrm{HF}&\rightleftharpoons \mathrm {F^ {-} + H^ {+}} (\mathrm {pK_ {a} = 25.2})\end{array}
 $$
 
-
 ![](images/dee972ae8ba39b31b5716616b737ac1dbae2c78fdd02e0fdff9afbf360a571ae.jpg)
 
 不同催化剂的转化率-时间曲线在此列出，可以发现各催化曲线均为 S 型，表明该反应为自催化反应。7-4-1 画出反应刚开始时，Catalyst = 1 mol% B(C $_{6}$ F $_{5}$ ) $_{3}$ ·H $_{2}$ O 的体系主要如何促进 C-F 键断裂。
@@ -212,6 +209,5 @@ $$
 ## 知识点映射
 
 - （待人工校准）
-
 
 > ⚠️ **自动拆卡标记**：`subject_module`/`difficulty` 为关键词粗判，答案数值与单位**尚未经人工复核**（OCR 原文逐字转录，可能保留原卷笔误）。
