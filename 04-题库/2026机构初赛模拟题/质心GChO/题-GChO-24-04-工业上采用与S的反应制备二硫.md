@@ -45,43 +45,9 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO24试题（线�
 
 ## 参考答案
 
-工业上采用 $\mathrm{CH_4}$ 与S的反应制备二硫化碳 $\mathrm{CS}_2$ ，已知相关的热力学数据如下所示：
+📎 **答案出处**：源卷**手写解析手稿**第 4 题（p4）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-$$
-\begin{array}{r l r} & (1) \mathrm {CH_ {4} (g) = C(s) + 2H_ {2} (g)} & \Delta_ {\mathrm{r}} H _ {\mathrm{m}, 1} ^ {\Theta} = 74.8 \mathrm{kJmol} ^ {- 1} \\ & (2) \mathrm {C(s) + 2S(s) = CS_ {2} (g)} & \Delta_ {\mathrm{r}} H _ {\mathrm{m}, 2} ^ {\Theta} = 117.4 \mathrm{kJmol} ^ {- 1} \end{array}
-$$
-
-工业上将过量的 S 送入反应炉，并在加热条件下反应，将生成的 $CS_{2}$ 不断提取出来，反应的热可以通过 C(s) 的加热提供，已知 $\mathrm{CO}_{2}(\mathrm{~g})$ 的 $\Delta f H_{m}\Theta = -393.5\ kJ\ mol^{-1}$ 。
-
-4-1 写出反应的总方程式，并计算该反应的 $\Delta_{\mathrm{r}}H_{\mathrm{m}}^{\ominus}$ 。
-
-4-2 若希望制备 $100\mathrm{g}$ 的 $\mathrm{CS}_2$ ，已知C燃烧的供能效率为 $25.0\%$ ， $\mathrm{CH_4(g)}$ 分解产生的C(s)全部转化为 $\mathrm{CS}_2(\mathrm{g})$ ，计算说明至少加入多少质量的焦炭维持反应的进行。
-
-$$
-4 - 1. \quad C H _ {4} (g) + 2 S _ {(s)} = C S _ {2} (g) + 2 H _ {2} (g)
-$$
-
-$$
-\Delta r H _ {m} ^ {a} = \cdot \Delta r H _ {m} ^ {a} (1) + \Delta r H _ {m} ^ {a} (2): 192.2 k J \cdot m o l ^ {- 1} 2 ^ {\prime}
-$$
-
-$$
-4 - 2. \quad N. (S _ {2}) = \frac {100}{12.01 + 32.066 \times 2} = 1.313 m o l
-$$
-
-共4'
-
-$$
-Q _ {\mathrm{需}} = n \cdot \Delta V H _ {m} ^ {2} \div 25 \% = 100.7 \mathrm{kJ}
-$$
-
-$$
-n _ {(c)} = \frac {Q _ {3}}{\Delta H _ {m} ^ {\circ}} = 2.366 m o l
-$$
-
-$$
-m = 30.8 g. 2 ^ {\prime}.
-$$
+![](images/9f7eb28c885696ab38e8220c3ed92f37ec05c1e255e516b2f0a0cc1cc8133719.jpg)
 
 ## 知识点映射
 

@@ -61,58 +61,9 @@ ent-类胡萝卜素是一类结构丰富的多环二萜，最早从腰澡属的�
 
 ## 参考答案
 
+📎 **答案出处**：源卷**手写解析手稿**第 8 题（p4）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-A.
-
-![](images/b3241bf038faf1ef6cb1e51c8ddd5254605f2c83071cde444372839ba1742100.jpg)
-
-![](images/31624f50ed3333bc54717687f086686fe1071fccfd35fd4bf84dbacb7ff1b537.jpg)
-
-![](images/a058901db6d8396d864791a877a0d2435380fdf04c579fe94dfb80732cc16f43.jpg)
-
-![](images/e44083d900ac977efa9f412305a28f38047aaf5926fc1690859ce61ee9a2147f.jpg)
-
-![](images/ba92965cbd379eb644a88e01f9b06025510d0bfa09d6cda49345431d1a08875d.jpg)
-
-![](images/0bc0eb916314d5ba828435fbc67fd86dee43f1ecb9ae8fc83b7d7042e6846735.jpg)
-
-![](images/a3bba9b13a81a5db6c35ed2f0d2638158981ea5c75a433ad61244dc66b933084.jpg)
-
-![](images/eee787616c5e19645e2041b37a4c8ef900ad21343c36663a1cdc6d07126ac4d0.jpg)
-
-![](images/e98c6829fbd220dccd33432016438f87f67a37e054659663997f52636793571e.jpg)
-
-![](images/8d8f593e7e6728ea65a36f0f358d3127dffdb944dc48c13012a16945ed07f637.jpg)
-
-![](images/47e7619fbc693ad84f161bb763e307aa555f0c5506df97e603dd1f82f802d170.jpg)
-
-
-![](images/3f329434d3479b438caeb8898ac0d17df95d74d73790df4d5b8c76593a44019c.jpg)
-
-8-3 请写出 $\mathbf{G}$ 和 $\mathbf{H}$ 的结构。
-
-8-4 化合物6中圈出的甲基和氢是顺式还是反式？ 顺式(1)
-
-电极化/Na2O $_{4}$ /O $_{2}$ 化
-
-
-![](images/6da636712b6353b9726df9a002554e6551a74bb12a0ed26a14d4c1eb03cb98d6.jpg)
-
-![](images/a4a166eb51c2d337975727a171a4fcabb4bed0ded036aea06c8cdf6df1371320.jpg)
-
-![](images/7960d040f4115cbd48a566a13b0995dc7058e843c049df1ddf81daae67edd134.jpg)
-
-![](images/b6b9c0ef3ca47e5265c3b7326b8e2fbc15cd82cfe4917ef089afde13dbd667f8.jpg)
-
-本题：看fMO，若设相，无——
-
-![](images/793c822d9d5d2856a5f079d15ee1bc37c5edd95bd27475f271d66202949ae73e.jpg)
-
-$\frac{t}{A} = t$
-
-热顺
-
-> ✅ 答案由源《ZCHEM-GChO18解析手稿.md》第 8 题回收补录（回源核对 2026-09-27）。
+![](images/bbcae4999021515bafc0598d844906117882d962d17f4c1909189d47190448c8.jpg)
 
 ## 知识点映射
 

@@ -70,18 +70,9 @@ B
 
 ## 参考答案
 
+📎 **答案出处**：源卷**手写解析手稿**第 7 题（p5）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-7-2 写出 $\mathbf{A}$ , 生成 $\mathbf{A}$ 的 2 个中间体和 $\mathbf{A}$ 生成 $\mathbf{B}$ 的 4 个中间体的结构。
-
-A : 9
-
-![](images/dab730ca75aee29b5f14d8308c691b13b46f1f6bef1c69ad19c1133a2bf00c6b.jpg)
-
-每个1
-
-![](images/605037c358d8105a02744ee534e04e0cd92ad48e3859a4a0a7905a49f031da93.jpg)
-
-> ✅ 答案由源《ZCHEM-GChO40解析手稿.md》第 7 题回收补录（回源核对 2026-09-27）。
+![](images/e7acbba24fadd4ac854ba29d928833d6c48157ae7dad953c4df4569990d9ddcb.jpg)
 
 ## 知识点映射
 

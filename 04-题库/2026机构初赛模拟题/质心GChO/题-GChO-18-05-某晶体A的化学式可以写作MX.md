@@ -44,24 +44,9 @@ quality_warning: "答案区尾部原混入下一题标题与题干（源答案�
 
 ## 参考答案
 
+📎 **答案出处**：源卷**手写解析手稿**第 5 题（p3）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-![](images/bc287fbd7cc1ab06c67b8592817ebb84db0fae9c374e2f55decb0a37e7f17731.jpg)
-
-![](images/67bbaf8388e83400752f8a3df4f817293064f8981307edc92041eaff5d124ee7.jpg)
-
-$$
-\begin{array}{r l} {5.2.} & {\frac {M (M)}{M (X)} = \frac {25.94 \% / 2}{74.04 \% / 5} = 7.8. (i)} \\ & {N _ {2} O _ {5}. (i).} \end{array}
-$$
-
-$$
-4 H N O _ {3} + P a O _ {10} \rightarrow 2 N _ {2} O _ {5} + 4 H P O _ {3}. \quad (i) H _ {4} P _ {2} O _ {4}
-$$
-
-$$
-\begin{array}{r l} {5 - 3.} & {d _ {1}} = a \sqrt {(0.133 ^ {2} + 0.265 ^ {2} - 2 \times 0.133 \times 0.265 \times \cos 60 ^ {\circ})} \\ & {\qquad = 1.24 \text{Å}^ {\circ} \quad (i)} \\ & {d _ {2}} = 0.176 c = 1.12 \text{Å}^ {\circ} (i) \\ & {\mathrm {NO_ {2} ^ {+}: N O _ {2} \text {吸收为 } 2 . (0.5)}} \\ & {\mathrm {NO_ {3} ^ {-}: N - O _ {2} \text {吸收: } 1.33 / \frac {4}{3} (0.5)}} \end{array}
-$$
-
-> ✅ 答案由源《ZCHEM-GChO18解析手稿.md》第 5 题回收补录（回源核对 2026-09-27）。
+![](images/d01c09797553e7e6e32bbd361b54314869e8d4741f835f2a487acfa86d024690.jpg)
 
 ## 知识点映射
 

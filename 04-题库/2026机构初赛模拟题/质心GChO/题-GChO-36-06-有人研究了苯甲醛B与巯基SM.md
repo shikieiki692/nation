@@ -74,94 +74,9 @@ quality_warning: "答案区尾部原混入下一题标题与题干（源答案�
 
 ## 参考答案
 
+📎 **答案出处**：源卷**手写解析手稿**第 6 题（p6）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-$$
-6 - 1 + \sin + D B u \frac {R _ {1}}{k - 1} = (1) + D B u H ^ {+}
-$$
-
-$$
-2 ^ {\prime} \frac {[ D B u (H ^ {+}) [ H ]}{[ S M ] [ D B u ]} = \frac {k _ {1}}{k _ {1}} \Rightarrow [ 1 ] = \frac {k _ {1}}{k _ {1}} \cdot \frac {[ S M ] [ D B u ]}{[ D B u ] [ H ^ {+} ]}
-$$
-
-$$
-\gamma = - \frac {d [ B ]}{d t} = k _ {2} [ B ] (1) = \left\{ \begin{array}{l l} k _ {1} k _ {2} & [ S M ] [ B ] (D B u) \\ k _ {- 1} & [ D B u H ^ {- 1} ]. \end{array} \right.
-$$
-
-$$
-\begin{array}{r l} {6 + - 2 \cdot \frac {d C _ {1}}{d t} = R _ {1} [ S M _ {2} ] [ O B u ] - k _ {1} [ O B u (H ^ {-}) L _ {1} ]} \\ & {- k _ {2} [ I ] [ B ] = 0} \end{array}
-$$
-
-$$
-3! \Rightarrow C D = \frac {k _ {1} [ S M ] [ D B u ]}{k + [ D B u H ^ {+} ] + k _ {2} [ C B ]}
-$$
-
-$$
-r = k _ {2} (1) [ B ] = \frac {k _ {1} k _ {2} (B) (S M) (D B u)}{k - 1 (D B u H ^ {+}) + k _ {2} (B)}
-$$
-
-$$
-[ B ] \downarrow , r \approx \frac {k _ {1} k _ {2} [ B ] (S M) (D R u)}{k + [ D B u H ^ {+} ]}
-$$
-
-$$
-\begin{array}{r l} {[ B ] \mathrm{很大}} & {r \approx \frac {k _ {1} k _ {2} [ B ] (S M) [ P B u)}{k _ {2} [ B ]}.} \\ & {= k _ {1} [ S M ] [ D B u ].} \end{array}
-$$
-
-$$
-y = a x + b
-$$
-
-
-![](images/3d227b28b6edfbd6655ac708219c9a8b252ab8f0bbf5bccf3ef7469a0fa3991f.jpg)
-
-
-$$
-1 \mathrm{级、} \quad l n \frac {c _ {0}}{c} = k t \Rightarrow h c = h c _ {0} - (k t
-$$
-
-6-3 然后，使 $[\mathbf{B}] = 0.0174\mathrm{M}$ ，改变 DBU 的浓度，测定 $\ln [\mathbf{SM}]$ 与时间的关系，结果如下：
-
-
-
-$$
-\begin{array}{l} 0.0068 \\ 0.0199 \\ 0.0329 \\ 0.0466 \end{array}
-$$
-
-$$
-k ^ {\prime} = k ^ {\prime \prime} [ D B u ] x \Rightarrow \ln k ^ {\prime} = x \ln [ D B u ] + \ln k ^ {\prime \prime}
-$$
-
-6-4 最后，使[DBU]=0.156 M，改变 B 的浓度，测定 ln[SM]与时间的关系，结果如下。
-
-
-
-至此，根据实验6-2到6-4的结果，指出哪一种速率方程更为合理，说明理由，并给出表观速率常数 $k_{\mathrm{obs}}$ 的表达式。
-
-6-5假设第三步是快反应，根据6-4的实验数据，计算 $k_{-1}[\mathrm{DBUH}^{+}] / k_{2}$ 的值。（提示：尝试取 $k_{\mathrm{obs}}$ 的倒数，利用计算器的线性回归功能）
-
-6-4.1-3 组回归 n=0.91 r=0.9995 (线性好)
-
-1-6 组回归. $n=0.738$ $r=0.98$ (线性不好)
-
-稳态近似更合理. (B) 小时, 对 (B) 为 1 级. (B) 复大的趋势
-
-向0级.与状态近似更符合
-
-$\left\langle  {j}\right\rangle  _{k}$
-
-$$
-k _ {\mathrm{obs}} = \frac {k _ {1} k _ {2} [ B ] [ D B u ]}{k _ {1} (D B u H ^ {+}) + k _ {2} [ B ]}
-$$
-
-$$
-\frac {1}{k _ {\mathrm{obs}}} = \frac {k _ {- 1} (\mathrm{DBuH}) + k _ {2} (\mathrm{B})}{k _ {1} k _ {2} (\mathrm{B}) (\mathrm{DBu})} = \frac {k _ {- 1} (\mathrm{DBuH})}{k _ {2}} \cdot \frac {1}{k _ {1} (\mathrm{DBu})} \cdot \frac {1}{(\mathrm{B})}
-$$
-
-$$
-\mathrm{线性回归.} \frac {R _ {1} (O B u H ^ {+})}{R _ {2}} = 0.26
-$$
-
-> ✅ 答案由源《ZCHEM-GChO36解析手稿.md》第 6 题回收补录（回源核对 2026-09-27）。
+![](images/4494428fc36878a1378df3e2104ecd7463bfedcd23e71a4161533b9f9bb67359.jpg)
 
 ## 知识点映射
 

@@ -47,22 +47,11 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO14试题.md"
 
 ## 参考答案
 
-如下是一类潛在的治疗 HIV-1 的药物的合成路线。 是oBnn-BuLi (1.5 eq.) 2DMF (2.0 eq.) 2 (1.0 eq.) NHBr THF, -78C DCMMe O+BいC GCHOCbz LiHMDS (1.1 eq.) B(1.0 eq.) NH4OAC (10.0 eq.) CAN (2.0 eq.)  
-AV N TFA(SOiven) otn THF - 78°C H DM 10 ) -40C,3h R/ G M 2 P r36.) EtoH,refux Ar LON ④ 0 H MeoH1H-0 D KHSg5(3.0 eq.) MeOH -0-503 公DCM, rt. DCM = 19:11\~2{cS(R)-CBS (40 mol%)Me C PhMe, 5 (1.4 eq.) -20 ºC, 4 d OH 70% HCIO4 (3.0 eq.) AcO'Bu/DCM = 8:5 J Pd/C (10 mol%), H2, MeOHCbzMe CO2Me Av Whhe H Rof tBu- pthyAv\` 1WNaBH3CN (5.0 eq.)6 (3.0 eq.) 限公司MeOH, 2 h Me OBuph\HO 教育 Ph N co2Me 北京质心教育科技有限公司京质心4 Me
+📎 **答案出处**：源卷**手写解析手稿**第 9 题（p6、7）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-些试剂的结构如下：
+![](images/4a289d4e5adbf71cca656dc1183c4782cd1853ba0ad1880b8fa37696c8a19933.jpg)
 
-![](images/5274d603eef373ed94f5e1991d1d663239bba19644e077ce3f55ef041423b7a0.jpg)
-
-9-1 请推出A\~K的结构
-
-9-2 请写出H到化合物4的过程中的至少三个重要中间体。
-
-A A MeOH, AO V.H
-
-![](images/cc3dcccbe01c779cb7543629f7e1f4969f5921ec0dbd54a941696286512a7ada.jpg)
-
-10-2 请写出生成E过程中重要的反应中间体。
+![](images/98d688291a79ec89ee3bb5bc8d05ca47cdc84384509f102403d13c5a8f2df354.jpg)
 
 ## 知识点映射
 

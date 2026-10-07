@@ -53,11 +53,13 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO70试题.md"
 
 ## 参考答案
 
-第7题（24分，占 $11\%$ ）
-烯丙基乙烯基醚在加热条件下异构化为 $\gamma, \delta$ -不饱和羰基化合物的反应称为 Claisen 重排。自 1912 年报道以来，Claisen 重排反应作为一种形成碳碳键的有效方法，长期以来一直被用于构筑有机分子。(本题不要求立体化学)
-![](images/ea9b08e1f728553545ec1c1609f49aac19b483dc246e66bd5a1c8cc464558c6d.jpg)
-![](images/d17f44b87408cfa21c3c40da2396313838e6340d6d30971c46c70fef20b9a82b.jpg)
+📎 **答案出处**：源卷**手写解析手稿**第 7 题（p7、8、9）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
+![](images/0e77daf2386b8b7b4fab0c6d944dcf5bac4b5decd7ce52a588ea901e7a705f4b.jpg)
+
+![](images/0c9d74f4fc895075dafdc75d4ac0236a1fc2f8b37ef083a4b4f01f65e1bd1e85.jpg)
+
+![](images/8969862cc955dada82ced74e4b1960ca7d4de45f8f44fcb09b1a42bd12b9004b.jpg)
 
 ## 知识点映射
 

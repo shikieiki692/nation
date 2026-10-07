@@ -62,19 +62,9 @@ Au cat.
 
 ## 参考答案
 
-📎 **答案出处**：源卷**手写解析手稿**全部 6 页已随卡（见下），第 09 题解答在其内；手写笔迹，**文字化需人工转录**。
+📎 **答案出处**：源卷**手写解析手稿**第 9 题（p5）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-![](images/b478b9eae10b699e6695e916023cfdf9ae8c4522d043071169c89d9488423607.jpg)
-
-![](images/d7b5a2adb9bc70d236118c51a6bbc0f3ef91cef38ffbbfd6fa27ba9f882e8ce8.jpg)
-
-![](images/c5d469101abe339c801a8eb6c27ea75f8a9e36ebfb029679b5e74f0981f632bf.jpg)
-
-![](images/a3ff6abcb62106ac9806088ccb968ce3c6e106f042ead7ede3bd11a1bc34bc43.jpg)
-
-![](images/db6ff8549bb2080247956f835a0d761ae004485671024f86ab35642d6d014b9e.jpg)
-
-![](images/a5f3d70d824fb82c9fd6695c65650c39588577bbae714990fd461b52ca041763.jpg)
+![](images/7023f967608b899a9721bea8d22b92b6ecaa3f17dc1a1f0dec2ce6efa6a7e710.jpg)
 
 ## 知识点映射
 

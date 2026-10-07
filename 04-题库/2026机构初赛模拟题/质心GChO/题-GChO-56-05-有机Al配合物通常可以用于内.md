@@ -48,32 +48,9 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO56试题.md"
 
 ## 参考答案
 
+📎 **答案出处**：源卷**手写解析手稿**第 5 题（p6）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-
-
-
-📎 **答案出处**：源卷答案 PDF 全部 11 页已随卡（见下），第 5 题解答在其内；解答含结构式/图，**文字化需人工转录**。
-
-![](images/答案页-ZCHEMGChO56解-cba087-p1.png)
-
-![](images/答案页-ZCHEMGChO56解-cba087-p2.png)
-
-![](images/答案页-ZCHEMGChO56解-cba087-p3.png)
-
-![](images/答案页-ZCHEMGChO56解-cba087-p4.png)
-
-![](images/答案页-ZCHEMGChO56解-cba087-p5.png)
-
-![](images/答案页-ZCHEMGChO56解-cba087-p6.png)
-
-![](images/答案页-ZCHEMGChO56解-cba087-p7.png)
-
-![](images/答案页-ZCHEMGChO56解-cba087-p8.png)
-
-![](images/答案页-ZCHEMGChO56解-cba087-p9.png)
-
-![](images/答案页-ZCHEMGChO56解-cba087-p10.png)
-
+![](images/4940ca5b76b770f32003cc9dac857355eb12fe768ef64965a1337608a329d966.jpg)
 
 ## 知识点映射
 

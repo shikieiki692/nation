@@ -128,6 +128,21 @@ def own_qno(text, path):
 # 「(4) ⇒ x = cd. D = cd s.」「200my 134.2my」「12分 ≥14 ≥10 awsl」）⇒ 答案不可用。
 # 词表保持**极窄**（只收明确的网络用语/涂鸦，避免误伤正常表述）。
 HANDWRITTEN = re.compile(r'awsl|yyds|栓Q|xswl|nsdd|凑不出|瞎写|乱写|随便写|懒得写|不会画')
+SCOREMARK = re.compile(r"(?<![\d.])\d{1,2}(?:\.\d)?\s*['\u2032\u2019]")   # 手写评分符 1'（无区分度，仅统计）
+GARB2PAT = re.compile(r"\\xlongequal|\\xrightarrow\s*\{\s*\d+\s*\}|_\s*\{\s*n\s*\}")  # 已知 OCR/宏乱码特征
+ECHO_HITS = []            # 答案可用闸：仅题干回显
+GARB2_HITS = []           # 答案可用闸：OCR 乱码宏
+
+
+def contain_ratio(inner, outer):
+    """inner 中有多少 8-gram 出现在 outer 里（判「仅题干回显」）。"""
+    if len(inner) < 8:
+        return 1.0 if inner and inner in outer else 0.0
+    gs = [inner[i:i + 8] for i in range(0, len(inner) - 7, 4)]
+    if not gs:
+        return 0.0
+    return sum(1 for g in gs if g in outer) / len(gs)
+
 # ⚠️ 匹配前必须先剥「图引用 / 长十六进制哈希」——实测 `2333` 会命中图片名哈希（假阳性）
 _HW_STRIP = re.compile(r'!\[\[[^\]]*\]\]|!\[\]\([^)]*\)|[0-9a-fA-F]{24,}')
 
@@ -704,7 +719,7 @@ def desc_of(c):
 
 def build_pool():
     pool = collections.defaultdict(list)
-    OVERFLOW_HITS.clear(); HANDWRITTEN_HITS.clear()
+    OVERFLOW_HITS.clear(); HANDWRITTEN_HITS.clear(); ECHO_HITS.clear(); GARB2_HITS.clear()
     for rel in SRCS:
         for p in sorted(glob.glob(os.path.join(BASE, rel, '**', '题-*.md'), recursive=True)):
             if p.replace(os.sep, '/') in EXCLUDE:      # ★ 回源核验发现问题 ⇒ 换卡
@@ -736,7 +751,8 @@ def build_pool():
             except Exception:
                 continue
             rawq, rawa = c['question'], c['answer']
-            if PLACEHOLDER.search(rawa) or PLACEHOLDER.search(rawq):
+            # ★ 占位闸：答案区**带图**者不算占位（图片即答案；注记只是出处说明）
+            if (PLACEHOLDER.search(rawa) and '![' not in rawa) or PLACEHOLDER.search(rawq):
                 continue
             # ASCII 结构骨架闸：⚠️ **题面与答案都要查**（只查答案会漏掉题目区的图）
             if has_fake_struct(rawa) or has_fake_struct(rawq):
@@ -774,6 +790,14 @@ def build_pool():
             if HANDWRITTEN.search(_HW_STRIP.sub(' ', q + ' ' + a)):
                 HANDWRITTEN_HITS.append(p.replace(os.sep, '/'))
                 continue
+            # ★ 答案可用闸：答案区无图 且（仅题干回显 / 已知 OCR 乱码宏）⇒ 弃卡
+            #   注：评分符（`2'`）在手写/印刷答案都出现，无区分度，**不作判据**（实测误杀 HZ-01-02）。
+            if '![[' not in a:
+                _an = re.sub(r'\s+', '', a); _qn = re.sub(r'\s+', '', q)
+                if len(_an) >= 40 and contain_ratio(_an, _qn) >= 0.80:
+                    ECHO_HITS.append(p.replace(os.sep, '/')); continue
+                if GARB2PAT.search(a):
+                    GARB2_HITS.append(p.replace(os.sep, '/')); continue
             # ★ 越界闸：题面/答案含「高于本卡题号」的题号 ⇒ 弃卡（换卡，不硬修）
             _own = own_qno(t, p)
             _of = overflow_reason(q, a, _own)
@@ -1017,6 +1041,10 @@ def main():
             _c['path'] = _c['path'].replace('\\', '/')
     for m in pool:
         print('  pool[%s] = %d' % (m, len(pool[m])))
+    if ECHO_HITS:
+        print('  ── ★ 答案可用闸：仅题干回显 %d 卡' % len(ECHO_HITS))
+    if GARB2_HITS:
+        print('  ── ★ 答案可用闸：OCR 乱码宏 %d 卡' % len(GARB2_HITS))
     if OVERFLOW_HITS:
         print('  ── ★ 越界闸命中 %d 卡（已弃卡；SOP：优先换卡）' % len(OVERFLOW_HITS))
         for _p, _o, _r in OVERFLOW_HITS[:12]:

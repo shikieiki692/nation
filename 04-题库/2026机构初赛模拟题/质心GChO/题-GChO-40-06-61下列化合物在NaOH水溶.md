@@ -95,71 +95,9 @@ C
 
 ## 参考答案
 
-6-1 下列化合物在 NaOH 水溶液中水解反应速率由快到慢排序。
+📎 **答案出处**：源卷**手写解析手稿**第 6 题（p4）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-$$
-\mathrm{Me} \stackrel {\mathrm{O}} {\mathrm{C}} \mathrm{OMe} \quad \text {   B   }
-$$
-
-6-2 下列化合物水解反应速率由快到慢排序。
-
-$$
-\mathrm{H} \stackrel {\mathrm{O}} {\mathrm{C}} \mathrm{OMe} \quad \mathrm{C} > \mathrm{B} > \mathrm{A}
-$$
-
-![](images/d76a4d9169be7b529c1713d84832f92c6951e128a146f738f6a7f61b74265393.jpg)
-
-$$
-B > A > C
-$$
-
-6-3 下列中间体稳定性由高到低排序。
-
-![](images/433a6972f5fd19a84281942b770f8414e9d21925b33da6530a1352f450656e06.jpg)
-
-$$
-\approx \bigwedge_ {D}
-$$
-
-6-4 将下列化合物酸性由弱到强排序。
-
-![](images/aa1609db48511abd04947a8039d240f946ed7b1df8a1487c20d937e4177971b9.jpg)
-
-![](images/de9d03525ab8e28c0996505ba937832c11a2bfd22655e1c70ac7ff11b20b315e.jpg)
-
-PhCOHCHOCH
-
-![](images/afa7e6c74d71ccb464bb17b2b2e45f07e77de09a74c42aec460a8c9339302121.jpg)
-
-$$
-A > B > C
-$$
-
-① 邻位改性背之求理
-
-![](images/72c60d41e9308cae040b4389df3b02d110ae6beb70446f1360b8f7fe443b3072.jpg)
-
-② fG 处于邻对角, 在点I和C
-
-结构于间位，只有一相对，不有一结构
-
-<table><tr><td>结构</td><td>HIA</td><td>相对</td></tr><tr><td> $CH_3^+$ </td><td>1305</td><td>0</td></tr><tr><td> $C_2H_5^+$ </td><td>1142</td><td>163</td></tr><tr><td></td><td>1113</td><td>192</td></tr><tr><td></td><td>1109</td><td>196</td></tr><tr><td></td><td>1109</td><td>196</td></tr><tr><td></td><td>1029</td><td>276</td></tr><tr><td></td><td>1033</td><td>272</td></tr><tr><td></td><td>967</td><td>338</td></tr><tr><td></td><td>937</td><td>368</td></tr><tr><td></td><td>967</td><td>338</td></tr><tr><td></td><td>941</td><td>364</td></tr><tr><td></td><td>1042</td><td>263</td></tr></table>
-
-<table><tr><td>结构</td><td>HIA</td><td>相对</td></tr><tr><td> $Ph^{+}$ </td><td>1201</td><td>104</td></tr><tr><td></td><td>958</td><td>347</td></tr><tr><td></td><td>954</td><td>351</td></tr><tr><td></td><td>950</td><td>355</td></tr><tr><td></td><td>946</td><td>359</td></tr><tr><td></td><td>941</td><td>364</td></tr><tr><td></td><td>941</td><td>364</td></tr><tr><td></td><td>1038</td><td>267</td></tr><tr><td></td><td>941</td><td>364</td></tr><tr><td></td><td>1079</td><td>226</td></tr><tr><td></td><td>841</td><td>464</td></tr><tr><td></td><td>912</td><td>393</td></tr></table>
-
-<table><tr><td>A: 6</td><td>B5</td><td>C4</td><td>D3</td><td>E2</td></tr><tr><td></td><td>F1</td><td>Go</td><td></td><td></td></tr></table>
-
-如下反应是 GCHO-29 考试的内容。
-
-7-2 写出 $\mathbf{A}$ , 生成 $\mathbf{A}$ 的 2 个中间体和 $\mathbf{A}$ 生成 $\mathbf{B}$ 的 4 个中间体的结构。
-
-A : 9
-
-![](images/dab730ca75aee29b5f14d8308c691b13b46f1f6bef1c69ad19c1133a2bf00c6b.jpg)
-
-每个1
-
-![](images/605037c358d8105a02744ee534e04e0cd92ad48e3859a4a0a7905a49f031da93.jpg)
+![](images/d0b6be72165a2d40ad103445f35a58b70c4e511abd9d0bb824073e19bdb0f466.jpg)
 
 ## 知识点映射
 

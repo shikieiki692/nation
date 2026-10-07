@@ -39,30 +39,9 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO49试题.md"
 
 ## 参考答案
 
-写出下列高分子反应中，A\~F所表示的单体/产生的小分子/高分子的结构或化学式。
+📎 **答案出处**：源卷**手写解析手稿**第 4 题（p4）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-![](images/015b4d3f5020e8fc06b9f8c927c7e75afe510ea3ed9f1538c7fa6aa48e208444.jpg)
-
-![](images/5e2028e9a028f5ce53f7f0eb69ed255b56463c9c46496e578f0609593ce59849.jpg)
-
-![](images/c8992b1c2a92dfb26526c1d92e1325dc595bcf173b2855394876257df892760a.jpg)
-
-C+D
-
-![](images/e17fb90f140773cb96d5a2c2c78c51eef87703396070e31c171a3cc2729a8325.jpg)
-
-E: HCl Cl $^{0}$ (1' × 3)
-
-![](images/95dbbb2d75b495b0003b6bedec31eb0cb127ddf6c7288932d2286987358b34bd.jpg)
-
-![](images/df151c57b65f0aee68c9664afaf8e2166cfa0060e9e1125177bb61d9adbc1fc4.jpg)
-
-致单元1'．R海至1'，
-右边建议不写，学情不扣分
-
-C3 AWSL.
-
-![](images/fb936bdabc982e520ceea766916c4505a24654cc0ac3724e70e7228b78338fe1.jpg)
+![](images/58ffad12cca8bb2195b346b9d638dcad8e2e4b68707b40836893e5baa715e301.jpg)
 
 ## 知识点映射
 

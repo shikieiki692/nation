@@ -37,34 +37,9 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO63试题.md"
 
 ## 参考答案
 
+📎 **答案出处**：源卷**手写解析手稿**第 7 题（p8）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-
-
-
-📎 **答案出处**：源卷答案 PDF 全部 12 页已随卡（见下），第 7 题解答在其内；解答含结构式/图，**文字化需人工转录**。
-
-![](images/答案页-ZCHEMGChO63解-693130-p1.png)
-
-![](images/答案页-ZCHEMGChO63解-693130-p2.png)
-
-![](images/答案页-ZCHEMGChO63解-693130-p3.png)
-
-![](images/答案页-ZCHEMGChO63解-693130-p4.png)
-
-![](images/答案页-ZCHEMGChO63解-693130-p5.png)
-
-![](images/答案页-ZCHEMGChO63解-693130-p6.png)
-
-![](images/答案页-ZCHEMGChO63解-693130-p7.png)
-
-![](images/答案页-ZCHEMGChO63解-693130-p8.png)
-
-![](images/答案页-ZCHEMGChO63解-693130-p9.png)
-
-![](images/答案页-ZCHEMGChO63解-693130-p10.png)
-
-![](images/答案页-ZCHEMGChO63解-693130-p11.png)
-
+![](images/2d5a79468fe12706cb4d4b352eaac321d96dbc2a3762b673f1560af9e5aca714.jpg)
 
 ## 知识点映射
 

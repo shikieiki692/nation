@@ -44,44 +44,9 @@ quality_warning: "答案区尾部原混入下一题标题与题干（源答案�
 
 ## 参考答案
 
+📎 **答案出处**：源卷**手写解析手稿**第 4 题（p3）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-$$
-\begin{array}{l} 2 \mathrm{As} + 11 \mathrm{NaClO} + 3 \mathrm{H} _ {2} \mathrm{O} = 2 \mathrm{Na} _ {3} \mathrm{AsO} _ {4} + 5 \mathrm{NaCl} + 6 \mathrm{HOCl} \\ 2 \mathrm{Sb} + 5 \mathrm{NaClO} = \mathrm{Sb} _ {2} \mathrm{O} _ {5} + 5 \mathrm{NaCl} \end{array}
-$$
-
-$$
-1.5 \mathrm{分} / \mathrm{g}
-$$
-
-$A{C}_{k}$ . $C : {A}_{3}{C}_{b}$
-
-$$
-\mathrm {AsCl_ {3} + Cl_ {3} \omega_ {2} H + Cl_ {3} .}
-$$
-
-$$
-+ H C l
-$$
-
-$$
-A _ {3} (O A C) _ {3} + 3 H C l \quad A _ {3} C. O.
-$$
-
-$$
-\begin{array}{r l} {C: 0 = 4: 1} & {\Rightarrow \frac {4 \uparrow C l O _ {3}}{2 \uparrow C l O _ {3} + C H _ {3} C O _ {2}} + 9 \uparrow 0.} \\ & {6 \uparrow C l O _ {3} + C H _ {3} C O _ {2}} \end{array}
-$$
-
-$$
-1 \text {   个   } O \Rightarrow M = 226. g \cdot m o l ^ {- 1}
-$$
-
-$4TiAl_{3}.60.130.16.$ 到 $150\approx A_{2}74.92$
-
-$$
-A _ {S _ {2} O} (C H _ {3}) _ {4} = 1 M _ {1} W
-$$
-
-> ✅ 答案由源《ZCHEM-GChO58解析手稿.md》第 4 题回收补录（回源核对 2026-09-27）。
+![](images/c5c601f5fdc99d93f3294f512fafcbf43646e53478867773935705c81b0b073d.jpg)
 
 ## 知识点映射
 

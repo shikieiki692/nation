@@ -65,37 +65,21 @@ b. 所有 Cu 原子的配位环境均为平面四方。
 
 ## 参考答案
 
-右图是由Cu和Ag组成的复合氧化物的四方晶胞，该晶胞仅示出了Cu和Ag的分布，棕色球（深色球）为Cu，灰色球（浅色球）为Ag。
-请仔细观察右图，回答以下问题。等量Cu、Ag。
-6-1 写出该晶体的点阵形式与结构基元（忽略O原子），并指出特征对称元素及其所在位置之一(若存在多种特征对称元素，指出一种即可)。
+📎 **答案出处**：源卷**手写解析手稿**第 6 题（p4、5、6、7、8、9、10）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-![](images/8ccdaa70d6aed6d8e205d38f85932e04f4407479d403f3d0f9bfa986224b0472.jpg)
+![](images/f18333f9d7a15d7a07fa151aeb93105c38ddf8f54251a189b7c94de8e0565aaa.jpg)
 
-b. 所有 Cu 原子的配位环境均为平面四方。
+![](images/3b96d4d3d3f686293fa245e7b8bb251d427ae2ec788508ef7053e86da284e819.jpg)
 
-![](images/5688ce2c60fe34c890ac4317952a2853e70f33586b73ff557b9c3f3ca690adb1.jpg)
+![](images/9c78b620b8a31b3171dac1ce9d70daac2636f9159cc3875e7aeae5e4f8985681.jpg)
 
-![](images/f05ae1d008ca951075f487e75131198347b0aab36dc964978667c57b70608e19.jpg)
+![](images/930b5954d29c3961f95ee5064afa6b1dfbdc5e8298e05733646ef1a5f3eb1048.jpg)
 
-6-2-2 写出该晶体的化学式，并分别指出三种原子的空间环境数。
+![](images/a01ea5e9132b7c1a410ce9e9b14985b1ff40525c118a02cce76da346b563f33b.jpg)
 
-$$
-C u: 4, A g: 4, O: 6
-$$
+![](images/59178419763c332a1383cfac92b93503a4d7d73328b0a2d94f36f8da378bfc4c.jpg)
 
-6-2-3 已知 $Cu_{4}$ 四面体的体积为 $3.887 \, Å^{3}$ ，求该晶体的密度。
-
-$$
-V = 32 \times 3 \times 3.887 \text{Å}^ {3}
-$$
-
-$$
-6.958 g / c m ^ {3}
-$$
-
-6-3 该化合物也可以用作电池的电极材料, 下表给出了 $\mathrm{Cu}$ 和 $\mathrm{Ag}$ 质量分数与充电电量的关系, 写出该材料的充电半反应方程式, 并指明其作为正极材料还是负极材料。
-
-<table><tr><td>Charge [mA*h]</td><td>Silver content exp. [w%]</td><td>Copper content exp. [w%]</td></tr><tr><td>0</td><td>52.7</td><td>33.4</td></tr><tr><td>4.76</td><td>46.0</td><td>39.3</td></tr><tr><td>5.71</td><td>43.4</td><td>41.0</td></tr><tr><td>7.61</td><td>41.6</td><td>42.4</td></tr><tr><td>11.42</td><td>41.9</td><td>41.8</td></tr><tr><td>13.32</td><td>42.3</td><td>41.5</td></tr><tr><td>15.22</td><td>41.1</td><td>43.6</td></tr></table>
+![](images/99296d8fde7270557d837cea6129275f672c171ab2b7a244b35a9a32a5a0544c.jpg)
 
 ## 知识点映射
 

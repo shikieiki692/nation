@@ -44,94 +44,11 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO16试题（线�
 
 ## 参考答案
 
-元素X常见于半导体材料中,其单质A是一种稀散金属,熔点约157℃。Ge. Sn Pb 3-1 A在HCl气体中反应得到化合物B,而B可以分解为1:1的与其组成元素相同的C和D。A也可以和C的蒸气反应生成D。D可以与AlCl₃作用得到离子化合物E。写出B到E的化学式。
+📎 **答案出处**：源卷**手写解析手稿**第 3 题（p1、2）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-3-2 写出下列过程每一步的反应方程式:
+![](images/2236771196cd0f8ef4c9618007ad9a87f428b0173b50455f88659911ff592dd5.jpg)
 
-3-3 直接写出 $\mathrm{X}_{2} \mathrm{Cl}_{3}$ 能表示结构组成的化学式，并标出其中 $\mathrm{X}$ 的氧化态。
-
-$$
-\begin{array}{r l} & x = 2, \quad + 1 + 3 \\ & x = 3. \quad + 2 + 4 \\ & \left| x = 4 \quad + 2 + 6 \right. \\ & \left. \quad + 3 + 5 \right. \end{array}
-$$
-
-3-1. B. $InCl_{2}$ . $In[InCl_{4}]$ .
-C. $InCl_{3}$ D. $InCl$ E. $InA(Cl_{4})$ $(6,1')$
-
-3-2. $InCl_{3} + 3NaOH \rightarrow In(OH)_{3} + 3NaCl$ $InOCl$ $In(OH)_{3} + NaOH \rightarrow NaIn(OH)_{4}$ $In(OH)_{3}$ $2InCl_{3} + 3Na_{2}S \rightarrow In_{2}S_{3} + 6NaCl$ $In_{2}S_{3} + Na_{2}S \rightarrow 2NaIn_{2}S_{2}$ $InCl_{3} + 4LiH \rightarrow LiInH_{4} + 3LiCl$ $3LiInH_{4} + InCl_{3} \rightarrow 4InH_{3} + 3LiCl$ $(1' \times 6)$ 3-3. $In_{3}[InCl_{6}]$ 写 $1'$ 标 $1'$ $In_{3}(I)[In(II)Cl_{6}]$
-
-$$
-K _ {1} = 1.40 \times 10 ^ {- 4}, K _ {2} = 3.25 \times 10 ^ {- 8}
-$$
-
-$$
-= 0.341 \mathrm{V}, [ \mathbf {M A} _ {2} ] ^ {3 -} \text {的} \beta_ {2} = 4.27 \times 10 ^ {20}
-$$
-
-4-2 体积, 浓度相等的 $0.200 \mathrm{~mol} / \mathrm{L}$ 的 $\mathrm{H}_{2} \mathrm{~A}$ 溶液与 $\mathrm{NaOH}$ 溶液混合, 写出此反应的方程式, 并计算反应充分进行后溶液的 $\mathrm{pH}$ 。
-
-$$
-K _ {\mathrm{D}} = \left[ \mathrm{H} _ {2} \mathbf {A} \right] _ {\mathrm{w}} / \left[ \mathrm{H} _ {2} \mathbf {A} \right] _ {\mathrm{b}}
-$$
-
-$$
-c k _ {1} \gg 10 k w :=)
-$$
-
-$$
-\mathrm{设} \mathrm{电}
-$$
-
-$$
-\frac {c}{k _ {1}} = 7 \times 10 ^ {2} > 500 \Rightarrow \frac {1}{400} \mathrm{的成}
-$$
-
-$$
-(H ^ {+}) = \sqrt {C K _ {1}} = 3.74 \times 10 ^ {- 3} \mathrm{m} \quad \rho H = 2.427.
-$$
-
-(1.5). 矛无大改说明为什么的时间段问?如果无证明. -0.5.
-
-$$
-H _ {2} A + N a O H = N a H A + H _ {2} O (0.5 ^ {\prime})
-$$
-
-$$
-\frac {c}{k _ {1}} > 10 \text {   kW   }
-$$
-
-黄时洋
-
-$$
-\begin{array}{r l} {[ (- 1 ^ {\prime}) ]} & {= \sqrt {k _ {1} k _ {2}} = 2.13 \times 10 ^ {- 6} m} \\ {\mathrm{pH}} & {= 5.671} \\ {(1 ^ {\prime}).} \end{array}
-$$
-
-4-3.0.1 M $H_{2}A$ 在水中 $[H^{+})=3.74\times10^{-3}M$ $[H_{2}A]_{W}=\frac{[H^{+}]}{[H^{+}]+K_{1}}C_{0}=0.0964M$ $\Rightarrow[H_{2}A]_{b}=\frac{[H_{2}A]_{w}}{K_{0}}=0.0338M$ $[H_{2}A]_{b}+2[(H_{2}A)_{2}]_{b}=0.100M$ $\Rightarrow[(H_{2}A)_{2}]_{b}=0.0331M$ $K=\frac{[(H_{2}A)_{2}]_{b}}{[H_{2}A]_{b}^{2}}=29.0\cdot(0.5^{\prime})$
-
-4-4. $2M + 4H_2A = 2MA_2^{3-} + 6H^+ + H_2 \uparrow$ (1) $\sqrt{5}$ 反立 $\frac{2M + 2H^+ \rightarrow 2M^+ + H_2 \uparrow}{E = E^\ominus - \frac{R_T}{\geq F} \ln \frac{[M^+]^2 \frac{P_m}{P^0}}{[H^+]^2}} \quad (1.5')$ $= -0.341 - \frac{288 \times 8.3 \times 4 \times 2}{2 \times 96485} \ln \frac{[M^+]}{0.0100}$ $\Rightarrow [M^+] = 1.71 \times 10^{-8} M. \quad (i)$ $\Rightarrow [MA_2^{3-}] = 0.0100 M$ $\Rightarrow [A^{2-}] = \sqrt{\frac{[MA_2^{3-}]}{\beta_2 [M^+]}} = 1.16 \times 10^{-7} M \quad (0.5')$ $\Rightarrow [HA^-] = 0.0114 M \quad (0.5') \quad [H_2A] = 0.814 M \quad (0.5')$ $Co(H_2A) = 2[MA_2^{3-}] + [H_2A] + [HA^-] + [A^{2-}]$ $= 0.845 M. \quad (1')$ .
-
-并总反立之 $k^{\ominus}$
-
-$$
-\left\{\begin{array}{l}2 M + 2 H ^ {+} \rightarrow 2 M ^ {+} + H _ {2}\\4 H _ {2} A \rightarrow 8 H ^ {+} + 4 A ^ {2 -}\\2 M ^ {+} + 4 A ^ {2 -} \rightarrow 2 M A _ {2} ^ {3 -}\end{array}\right.
-$$
-
-$$
-\begin{array}{r l} {k ^ {\theta}} & {= \exp (- \frac {2 F \varphi^ {\theta}}{R T}) \cdot (k _ {1} k _ {2}) ^ {4} \cdot \beta_ {2} ^ {2}} \\ & {= 2.28 \times 10 ^ {- 16} \cdot (2 ^ {1})} \end{array}
-$$
-
-$$
-Q = \frac {[ H ^ {+} ] ^ {6} [ M A _ {2} ^ {3 -} ] ^ {2}}{[ H _ {2} A ] ^ {4}} = k ^ {\theta}
-$$
-
-$$
-\Rightarrow [ H _ {2} A ] = 0.8 (4 M (1 ^ {\prime}).
-$$
-
-$$
-[ H A ^ {-} ] = 0.01 (4 m \Rightarrow [ A ^ {2 -} ] = 3.70 \times 10 ^ {- 8} \cdot m) \mathrm{或设非负小}
-$$
-
-$C_0 = \cdots = 0.845 \text{ M} \cdot (1')$
+![](images/dc32d3b73bb3682c6b084e76f9b1f27e427bf1225f86785e64b661277c8af739.jpg)
 
 ## 知识点映射
 

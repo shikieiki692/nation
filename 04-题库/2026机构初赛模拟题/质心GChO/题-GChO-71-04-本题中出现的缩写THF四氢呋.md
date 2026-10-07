@@ -53,43 +53,9 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO71试题.md"
 
 ## 参考答案
 
-![](images/070693f82cb1c6c59ce72d07c9c9cc8c03b957c0be065e34af6b4024b649ac24.jpg)
+📎 **答案出处**：源卷**手写解析手稿**第 4 题（p4）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-本题中出现的缩写：THF：四氢呋喃；Ph：苯基；Me：甲基；Et：乙基；r.t.：室温
-
-4- 1 如下图所示为二茂铁衍生物的转化反应，给出 A 和 B 的结构。 $[Ph_{3}C]^{+}$ 是一种强 Lewis 酸。
-
-![](images/e49097661d6026ed5f8f8122795039fb8eb750fb2b0182a2a5304082be888663.jpg)
-
-(ii) $2{\mathrm{{Me}}}_{3}\mathrm{{SiCl}}$
-
-![](images/d7612528849a7fa218d26116a761f6515d107c2ee8089d76f866a4be395c50ce.jpg)
-
-$\left[\mathrm{CPh}_{3}\right]\left[\mathrm{BR}_{4}\right]$
-
-![](images/34cb617173d31e369eef7164098dddb5361e946adbe9ab043ec9478e80da22cd.jpg)
-
-4-2 化合物 1 与 2 首先生成 Lewis 酸碱加合物 C1，C1 随后在 $\mathrm{ZnBr_2}$ 的催化下发生三元环的开环得到 C2，C2 在有机强碱的作用下进行消除反应关环得到终产物 C。给出 C1、C2 和 C 的结构式。
-
-![](images/f80f75971429fbc772bfa62655a604e01c27c60f0791feb31eb15b8f30216b2a.jpg)
-
-![](images/1545e5d933ade1579068444df48a8207688b81174bb652a5d1a9171d81c48156.jpg)
-
-(i) $ZnBr_{2}$ (10 mol%), PhCl, 60 °C, 4 h
-
-(ii)
-
-## 碳酸硼大完而发
-
-![](images/ed259920676ad50fa58f75cb5792e4e1e6dccb234a10eaacf8f50a4817728ca5.jpg)
-
-, 60 °C, 24 h
-
-![](images/91756bfda5a6a58d5339555f7f7e09c8348be5cda6a8e551492e22589cca089b.jpg)
-
-4-3 $[Me_{3}Si(HCB_{11}H_{5}Br_{6})]$ 具有强 Lewis 酸性，可以催化室温下的 Friedel-Crafts 烷基化反应，给出产物 D 和 E 的结构式，并补全机理中阳离子 3、4 和 5 的结构式。(机理中 RBr 表示卤代烃)
-
-![](images/aeb2d4423819d7325f96e3dc82cbaf365ee250928c674b5e3f88d9c639baf8d2.jpg)
+![](images/f4f077896c20f1f9ec9eeaa1eae60ffc948c4f7144baa52f3a7b26e9e358a5ff.jpg)
 
 ## 知识点映射
 

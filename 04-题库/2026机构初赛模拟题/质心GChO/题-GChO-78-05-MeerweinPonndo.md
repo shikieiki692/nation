@@ -47,47 +47,11 @@ Meerwein-Ponndorf 还原是一种常用的利用异丙醇在异丙醇铝的催�
 
 ## 参考答案
 
-Meerwein-Ponndorf 还原是一种常用的利用异丙醇在异丙醇铝的催化下将酮还原的过程:
+📎 **答案出处**：源卷**手写解析手稿**第 5 题（p7、8）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-$$
-\mathrm{R} ^ {1} \stackrel {\mathrm{O}} {\mathrm{C}} \mathrm{R} ^ {2} + \stackrel {\mathrm{OH}} {\mathrm{C}} \stackrel {\mathrm{OH}} {\mathrm{C}} \xrightarrow {\mathrm{Al} (\mathrm{O} ^ {i} \mathrm{Pr}) _ {3}} \stackrel {\mathrm{OH}} {\mathrm{R} ^ {1}} \stackrel {\mathrm{OH}} {\mathrm{C}} \mathrm{R} ^ {2} + \stackrel {\mathrm{O}} {\mathrm{C}} \stackrel {\mathrm{OH}} {\mathrm{C}}
-$$
+![](images/f36f157678324587f2be54787f4e7d511c7dad1c4c6f6051e623432e8a7860bf.jpg)
 
-该反应往往是一个平衡，而且平衡常数不会特别大也不会特别小。要完成还原的过程，通常需要加入过量的还原剂。当然，对于某些特殊的底物而言（比如芳醛等），可能反应本身就具有很大的平衡常数，并不需要加过量的还原剂。
-
-如下是某些液态物质在 298 K 下的标准摩尔生成焓和标准摩尔熵，以及它们在 1 atm 下的沸点。
-
-<table><tr><td>物质</td><td> $\Delta_{\text{f}}H_{\text{m}}^{\circ}(\text{kJ mol}^{-1})$ </td><td> $S_{\text{m}}^{\circ}(\text{J K}^{-1}\text{mol}^{-1})$ </td><td> $T_{\text{b}}(^{\circ}\text{C})$ </td></tr><tr><td>丙酮</td><td>-248.4</td><td>200.4</td><td>56</td></tr><tr><td>异丙醇</td><td>-318.1</td><td>180.6</td><td>82</td></tr><tr><td>环己酮</td><td>-271.2</td><td>229.0</td><td>156</td></tr><tr><td>环己醇</td><td>-348.2</td><td>203.4</td><td>161</td></tr></table>
-
-计算在 $298 \mathrm{~K}$ 下, 需要加入环己酮质量多少倍的异丙醇, 才能使得反应达到平衡时, 有 $99 \%$ 的环己酮都被还原了。
-
-$$
-\Delta_ {f} H _ {m} ^ {\circ} = \sum_ {B} V _ {B} \Delta_ {f} H _ {m} ^ {\circ} = (- 248.4) + (- 34 f 2) - (- 318.1) - (- 271.2) = - 7.3 (k J \cdot e t)
-$$
-
-$$
-\Delta_ {1} S _ {m} ^ {0} = \sum_ {B} U _ {B} S _ {m} ^ {0} = 200.4 + 203.4 - 180.6 - 229.0 = - 5.8 (J \cdot k ^ {- 1} \cdot m l ^ {- 1})
-$$
-
-$$
-i ^ {\prime} \Delta r C _ {m} ^ {0} = \Delta r + I _ {n} ^ {0} - T \Delta r S _ {m} ^ {0} = - 7.3 - 2 f x (- 5.8) \times 10 ^ {- 3} = - 5.6 k J \cdot w ^ {- 1}
-$$
-
-$$
-a (\bigcap_ {i = 1} ^ {n}) = y \sim d
-$$
-
-$$
-K = \frac {(0.99 y) ^ {2}}{0.01 y \times (z - 0.99 y)} = 9.6
-$$
-
-$$
-n (\lambda^ {O H}) = 3 \text {   m / d   }
-$$
-
-$$
-\frac {m (\sqrt [ 8 ]{1})}{m (\sqrt [ 9 ]{1})} = \frac {11.2 \times 60}{1 \times 98} = 6.9
-$$
+![](images/827599a202a1ce17c17c9de3f4606d80fc0e82c49ea83d50e698e313599f0baf.jpg)
 
 ## 知识点映射
 

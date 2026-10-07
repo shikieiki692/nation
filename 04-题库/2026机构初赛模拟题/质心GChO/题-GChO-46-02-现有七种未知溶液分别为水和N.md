@@ -39,19 +39,9 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO46试题.md"
 
 ## 参考答案
 
-$$
-\vert C l _ {2} + 2 F e ^ {2 +} \rightarrow 2 F e ^ {3 +} + 2 U \vert
-$$
+📎 **答案出处**：源卷**手写解析手稿**第 2 题（p1）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-现有七种未知溶液，分别为 $BaCl_{2}$ 、 $Cl_{2}$ 水、 $FeSO_{4}$ 、 $\mathrm{Pb(NO_{3})_{2}}$ 、 $AgNO_{3}$ 、 $Na_{2}CO_{3}$ 和 NaI 水溶液，以未知顺序分别标注为 A\~G，并两两相互混合，分别得到下表中的现象。请根据表中的实验现象将字母与物质进行对应。
-
-<table><tr><td></td><td>A</td><td>B</td><td>NaI</td><td>C</td><td> ${\mathrm{{BaCl}}}_{2}$ </td><td>D</td><td> ${\mathrm{{AgNO}}}_{3}$ </td><td>E</td><td> ${\mathrm{{Na}}}_{2}{\mathrm{O}}_{3}$ </td><td>F</td><td>FesO4</td><td>G</td><td>Cl2ClC</td></tr><tr><td>Pb(NO3)3</td><td>-</td><td colspan="2">黄色沉淀</td><td colspan="2">白色沉淀</td><td colspan="2"></td><td colspan="2">白色沉淀</td><td colspan="2">白色沉淀</td><td colspan="2">白色沉淀</td></tr><tr><td>NaI</td><td></td><td colspan="2"></td><td colspan="2"></td><td rowspan="2" colspan="2">黄色沉淀</td><td rowspan="2" colspan="2"></td><td rowspan="2" colspan="2"></td><td rowspan="2" colspan="2">褐色溶液</td></tr><tr><td>B</td><td>-</td><td colspan="2">-</td><td colspan="2"></td></tr><tr><td>C</td><td>-</td><td colspan="2">-</td><td colspan="2">-</td><td colspan="2">白色沉淀(久置变暗)</td><td colspan="2">白色沉淀</td><td colspan="2">白色沉淀</td><td colspan="2"></td></tr><tr><td>D</td><td>-</td><td colspan="2">-</td><td colspan="2">-</td><td colspan="2">-</td><td colspan="2">灰白色沉淀</td><td colspan="2">白色沉淀</td><td colspan="2">白色沉淀(久置变暗)</td></tr><tr><td> ${\mathrm{{AgNO}}}_{3}$ </td><td></td><td colspan="2"></td><td colspan="2"></td><td colspan="2"></td><td colspan="2"></td><td colspan="2"></td><td colspan="2"></td></tr><tr><td>E</td><td>-</td><td colspan="2">-</td><td colspan="2">-</td><td colspan="2">-</td><td colspan="2">-</td><td colspan="2">灰绿色-褐色沉淀</td><td colspan="2"></td></tr><tr><td> ${\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3}$ </td><td></td><td colspan="2"></td><td colspan="2"></td><td colspan="2"></td><td colspan="2"></td><td colspan="2"></td><td colspan="2"></td></tr><tr><td>F</td><td>-</td><td colspan="2">-</td><td colspan="2">-</td><td colspan="2">-</td><td colspan="2">-</td><td colspan="2">-</td><td colspan="2">淡黄色沉淀</td></tr><tr><td>G</td><td>-</td><td colspan="2">-</td><td colspan="2">-</td><td colspan="2">-</td><td colspan="2">-</td><td colspan="2">-</td><td colspan="2">-</td></tr></table>
-
-每个 ${i}^{\prime }$
-
-$$
-\cos L \leq 3
-$$
+![](images/759ad8d9dad7b8368510f72f988cc6af3363604ba365a6f60e0aa1643af3e7d2.jpg)
 
 ## 知识点映射
 

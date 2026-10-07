@@ -41,36 +41,9 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO49试题.md"
 
 ## 参考答案
 
+📎 **答案出处**：源卷**手写解析手稿**第 7 题（p7）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-7-1
-
-![](images/c328757c101d724843d1e0ddae2fff9045d8c59ee3edced88cf6c4607ec11d3c.jpg)
-
-![](images/2c7b1371c61940b1fb1c9dd3da94c8080dc6863ab97a32f7e2bc5da759133742.jpg)
-
-$$
-\frac {P _ {4} 80.5 \%}{3130}
-$$
-
-B.
-![](images/53d0a0b4eefce8f0bdc8b060ed806134a5d40665e35e4931cbc9447e72994ca9.jpg)
-
-未打电部分又n-17-1不会
-7-2. 大过假设 $\Delta$ 则下 $\therefore 2{NO}$ 利下 123
-
-$$
-\begin{array}{l} X _ {n} (N O) ^ {+} \\ \delta - \end{array}
-$$
-
-![](images/f2bf2e6bbb9ebb9c12844045a8190269e124948323a5c407b63c8ea36962b3a5.jpg)
-
-![](images/26287b06c02f702b31a80406869dd022d8b4c013e818001129ac6284fac66715.jpg)
-
-![](images/20568fdf183af364f335fc50fe6e655686fbf65bc8b8294859dbad681fd9d96a.jpg)
-
-![](images/d72be44fa2198fa6d43de9ced404338742d693505e653b3b68565d11f289c927.jpg)
-
-> ✅ 答案由源《ZCHEM-GChO49解析手稿.md》第 7 题回收补录（回源核对 2026-09-27）。
+![](images/ddd3d1479925f8396b6c9c5e6f76b50da1ee69662606bfe9a6a71d76aa4f4650.jpg)
 
 ## 知识点映射
 

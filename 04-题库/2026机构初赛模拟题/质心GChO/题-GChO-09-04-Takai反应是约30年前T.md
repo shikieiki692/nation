@@ -62,47 +62,9 @@ $$
 
 ## 参考答案
 
-Takai 反应是约 30 年前 Takai 与其合作者发展的一种醛基的（卤）烯化反应，其烯化产物以 E 型为主。其中一种利用 $CrCl_{3}$ 被 $LiAlH_{4}$ 还原产生的 $CrCl_{2}$ 和碘仿的混合物来对醛进行的碘烯化反应可以如下示意：
+📎 **答案出处**：源卷**手写解析手稿**第 4 题（p2）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-![](images/2d2c641e8b79aadf83d9011faeecc1061ac466bebefaa0ab83c3c41baf975194.jpg)
-
-Takai 反应的活性中间体已经被研究了多年、目前普遍的认知是要么是 Cr 处于混合价态的 A，要么是亚甲基碘桥连的 B。然而之前还没人能够将 A 和 B 进行分离，导致无法对 Takai 反应进行更加细致的研究，且 Takai 反应整体上来说产率较低。
-
-近日, 有化学家通过改进原位反应的条件, 成功合成并分离出了 type A 型和 type B 型的两种能够用于 Takai 反应的活性配合物 (分别以 TA 和 TB 表示), 并将它们应用于了苯甲醛的碘烯化反应,反应很迅速, 并获得了较高的产率和立体选择性:
-
-![](images/5ec1b6e14871427f294f28db4f178f92fbd07790ac6facfbc37994662973ebec.jpg)
-
-其中TA和TB分别在如下的条件下合成：
-
-$$
-\begin{array}{r l} {- \mathrm {OSi(O^ {\prime} Bu) _ {3}}.} & {\mathrm {Cr[OSi(O^{\prime} Bu) _ {3} ] _ {2} + CHI_ {3} \xrightarrow {|C_ {6} D_ {6} |rt} TA}} \\ & {\mathrm {CrCl_ {2} +CHI_ {3} \xrightarrow {THF, - 35^ {\circ} C} TB}} \end{array}
-$$
-
-已知：TA 和 TB 中 Cr 的氧化态分别与 A、B 相同，均含有两个 Cr 原子，且均只有一个 Takai 反应的活性部位。TA 中有三个四元环，Cr 与 Si 的比例是 1:1，含硅配体在配体命名中既是 $\mu_{2}$ 又是 $\eta^{2}$ 。TB 中有两种不同的 Cl 原子，其中 O 元素的质量是 Cr 元素质量的 8/13。
-
-TA:
-
-$$
-O ^ {+} B u \text { 上一氧(必考与)配位 }
-$$
-
-![](images/ed6a1a9ac4fc8c922d2389e931e680a5434ad6cb1fbd40189f127f9596c98319.jpg)
-
-![](images/4649beebfa51e05820497adc03c679304940539877f18cd78a1387266e24af58.jpg)
-
-(4')
-
-$$
-T B. ① N (C r): N (O) = 1: 2. (440) = 2 (44 T H F)
-$$
-
-②
-
-![](images/56d2bcf58dfacff780a7067e2374ee10302c250f874701bef1ae1de12ca910af.jpg)
-
-![](images/0a1f7951333cae3273edbca154e823430053dd7aee3764614ab11fd11b7df5b7.jpg)
-
-(2').
+![](images/7994aae05240be4e38c425facde1b02def6e5af9b6a31a11582cf2ed8fd40e04.jpg)
 
 ## 知识点映射
 

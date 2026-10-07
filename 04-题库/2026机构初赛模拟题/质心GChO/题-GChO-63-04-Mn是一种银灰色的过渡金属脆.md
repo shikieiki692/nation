@@ -45,34 +45,9 @@ Mn 是一种银灰色的过渡金属，脆。Mn 易溶于 20% 的醋酸，将所
 
 ## 参考答案
 
+📎 **答案出处**：源卷**手写解析手稿**第 4 题（p5）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-
-
-
-📎 **答案出处**：源卷答案 PDF 全部 12 页已随卡（见下），第 4 题解答在其内；解答含结构式/图，**文字化需人工转录**。
-
-![](images/答案页-ZCHEMGChO63解-693130-p1.png)
-
-![](images/答案页-ZCHEMGChO63解-693130-p2.png)
-
-![](images/答案页-ZCHEMGChO63解-693130-p3.png)
-
-![](images/答案页-ZCHEMGChO63解-693130-p4.png)
-
-![](images/答案页-ZCHEMGChO63解-693130-p5.png)
-
-![](images/答案页-ZCHEMGChO63解-693130-p6.png)
-
-![](images/答案页-ZCHEMGChO63解-693130-p7.png)
-
-![](images/答案页-ZCHEMGChO63解-693130-p8.png)
-
-![](images/答案页-ZCHEMGChO63解-693130-p9.png)
-
-![](images/答案页-ZCHEMGChO63解-693130-p10.png)
-
-![](images/答案页-ZCHEMGChO63解-693130-p11.png)
-
+![](images/ee7a8bebe08fbd61bc00f41cc534afdab2548834afc54b42159e7077adb97978.jpg)
 
 ## 知识点映射
 

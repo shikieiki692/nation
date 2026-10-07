@@ -79,37 +79,9 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO68试题.md"
 
 ## 参考答案
 
+📎 **答案出处**：源卷**手写解析手稿**第 10 题（p10）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-📎 **答案出处**：源卷**手写解析手稿**全部 10 页已随卡（见下），第 10 题解答在其内；手写笔迹，**文字化需人工转录**。
-
-![](images/78be30a66690153eb9a2ae58c4776ea25d4f6f33432aade28bb170fb95b43593.jpg)
-
-![](images/2718ea86e54443ffec186724cb773508a3e963bf4d899372e1d763bdd3403f21.jpg)
-
-![](images/26ce66fba20b665ddf28073cdbe3dd220ef82ec2811bc2c2e1f71815cf0d07eb.jpg)
-
-![](images/1e94ac9cb2d6972d5d196e9f192172a17981144b2be8eb6e70c0570a612fe069.jpg)
-
-![](images/ca44b43367028e550d861ecfbf4f975cb1d138bd0a4aaac29d20b2ffa88081fc.jpg)
-
-![](images/e6612731bb6f689b5042b9f80b2e8ef5293326949b5ee57db60640c73d198e02.jpg)
-
-![](images/8e887148dfc25c314fd6587691f821a5d7a92df21d736231940d1480617089a0.jpg)
-
-![](images/88ad4597752d17e2cab07ce34aabb0d964f433ff451141631841a14ee31a4fcb.jpg)
-
-![](images/5b19db22af8f9acc63c105fd018150cd803777b46046f4797ad0e7fcdb9d6a81.jpg)
-
-![](images/a393fdd054bbf4f304502205201827ff54989e6f0a9f0c65cf95363fb247fb7b.jpg)
-
-<details>
-<summary>OCR 原文（仅留痕，非答案）</summary>
-
-(2) 循环伏安法
-
-![](images/8550abecad9a100837f0d905c9a1b41186c6ac59692a2430d810e0b0e94c3d6a.jpg)
-
-</details>
+![](images/7829f8dd5c880a6847f8c3b5b6334f0192e156b802f064354af91b4b140c7dd0.jpg)
 
 ## 知识点映射
 

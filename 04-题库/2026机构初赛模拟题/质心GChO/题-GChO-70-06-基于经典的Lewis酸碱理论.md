@@ -61,32 +61,9 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO70试题.md"
 
 ## 参考答案
 
+📎 **答案出处**：源卷**手写解析手稿**第 6 题（p6）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-
-
-
-📎 **答案出处**：源卷答案 PDF 全部 11 页已随卡（见下），第 6 题解答在其内；解答含结构式/图，**文字化需人工转录**。
-
-![](images/答案页-ZCHEMGChO70解-71936c-p1.png)
-
-![](images/答案页-ZCHEMGChO70解-71936c-p2.png)
-
-![](images/答案页-ZCHEMGChO70解-71936c-p3.png)
-
-![](images/答案页-ZCHEMGChO70解-71936c-p4.png)
-
-![](images/答案页-ZCHEMGChO70解-71936c-p5.png)
-
-![](images/答案页-ZCHEMGChO70解-71936c-p6.png)
-
-![](images/答案页-ZCHEMGChO70解-71936c-p7.png)
-
-![](images/答案页-ZCHEMGChO70解-71936c-p8.png)
-
-![](images/答案页-ZCHEMGChO70解-71936c-p9.png)
-
-![](images/答案页-ZCHEMGChO70解-71936c-p10.png)
-
+![](images/9e5e008be6f393607e3dd4c4de1efb5eb5c92044888b6d02cfe162feb78e5d79.jpg)
 
 ## 知识点映射
 

@@ -54,21 +54,11 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO43试题（线�
 
 ## 参考答案
 
-📎 **答案出处**：源卷**手写解析手稿**全部 7 页已随卡（见下），第 08 题解答在其内；手写笔迹，**文字化需人工转录**。
+📎 **答案出处**：源卷**手写解析手稿**第 8 题（p6、7）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-![](images/1958e7afddfe5681ec9e8ac4663738533c54baa40e33d184b334f93d36d041df.jpg)
+![](images/28b184db8e8d852f56369bd50c69e54254cc5987a1fe78d117aa1e6655164e25.jpg)
 
-![](images/a5cfbf3c81ac1900878d362976b8b2c6e1c2f9b8c26e709228120baab00fb592.jpg)
-
-![](images/bf79c5fa8754bec0a9fc648766c3707bb36c814e4b9e419c0740a5eb3665c0db.jpg)
-
-![](images/9ccfc86364e34086f26f5e88b4bac397698758e2cd25fe2c755e0713738b9e56.jpg)
-
-![](images/c557ea2f3c339ecbcbfa212431f60ffdf41b35ef884296e530a4cd838fe1a2b8.jpg)
-
-![](images/68e4c61655bb58b2535c89f5d90a97d150150d785c1486c02f9db581c97a2115.jpg)
-
-![](images/5c0869c2a5198fb3601fe0e8206876531e5e3488cd610cea82ba555ff33660b2.jpg)
+![](images/81f7ce785112da77618ca6221657aa1fec5ce06d420bc9d8a0c67a11d12dca11.jpg)
 
 ## 知识点映射
 
