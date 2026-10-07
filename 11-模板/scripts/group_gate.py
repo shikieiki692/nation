@@ -52,7 +52,10 @@ ANS_PTS = [
 QN_HEAD = re.compile(r"^#{2,4}[ \t]*\d+[.．]\d*[^\n]{0,60}$", re.M)
 QN_INLINE = re.compile(r"^[ \t]{0,4}\*{0,2}\d+[.．]\d+[^\n]{0,70}", re.M)
 FIG_HINT = re.compile(r"(如下图|上图|如图所示|见图|如左图|右图|（见图片）|\[见图片\])")
-IMG_REF = re.compile(r"!\[\[[^\]]+\]\]")
+# ⚠️ 图片引用有两种形态：Obsidian 的 `![[hash.jpg]]` 与标准 Markdown 的 `![](images/xxx.jpg)`。
+#    只认前者会把「题面说『如右图所示』且下一行就跟着图」的卡误判为「指图但无图」
+#    （2026-10-07 实测机构模拟题域大量误报，抽验 3/3 都是误报）。
+IMG_REF = re.compile(r"!\[\[[^\]]+\]\]|!\[[^\]]*\]\([^)]+\)")
 FM = re.compile(r"^---[ \t]*\n.*?\n---[ \t]*\n", re.S)
 
 
