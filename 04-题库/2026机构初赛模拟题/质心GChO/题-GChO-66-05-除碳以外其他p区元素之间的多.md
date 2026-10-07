@@ -60,9 +60,9 @@ Ph'
 
 📎 **答案出处**：源卷**手写解析手稿**第 5 题（p6、7）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-![](images/fa1c1ad703aafe3bee61839d1e4fcbbc5de9d69cec86765fa47677ebd57d6894.jpg)
+![](images/49fc98139fa9399ac2897f8c9226f917137578ed5edc5fbeb6216759a56eb04b.jpg)
 
-![](images/7a7eecca5cd17a858e92a3d684f9fe75e385f2e6b1117cc7644fb11a352cf1df.jpg)
+![](images/0448a15c6a402cdaf801754d4a185865bdabce9f976cb011bb7fa283b5cacc66.jpg)
 
 ## 知识点映射
 

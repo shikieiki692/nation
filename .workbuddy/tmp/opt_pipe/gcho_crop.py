@@ -47,6 +47,30 @@ def load_index(rnd, pdf):
     return json.load(open(f, encoding="utf-8"))
 
 
+def text_markers(pdf):
+    """用 PDF **文字层**定位印刷题头「第N题」→ {qno: (page, y_pt, x_pt, page_w_pt)}。
+    手稿的题干是印刷体（有文字层），手写的是解答 ⇒ 文字层比 OCR 可靠。"""
+    out = {}
+    try:
+        doc = fitz.open(pdf)
+    except Exception:
+        return out
+    for i in range(doc.page_count):
+        pg = doc[i]; W = pg.rect.width
+        d = pg.get_text("dict")
+        for blk in d.get("blocks", []):
+            for ln in blk.get("lines", []):
+                txt = "".join(sp.get("text", "") for sp in ln.get("spans", [])).replace(" ", "")
+                m = re.match(r"^第(\d{1,2})题", txt)
+                if m:
+                    q = int(m.group(1))
+                    if 1 <= q <= 30 and q not in out:
+                        x0, y0, x1, y1 = ln["bbox"]
+                        out[q] = (i + 1, float(y0), float(x0), float(W))
+    doc.close()
+    return out
+
+
 def markers(idx, dpi):
     """→ [(qno, page, y_px, x_px, page_w_px)]，按「阅读流」排序（页 → 栏 → y）。
     手稿多为双页跨页扫描（左栏＝一页、右栏＝另一页），故顺序须含栏次。"""
@@ -220,6 +244,16 @@ def main():
     if idx is None:
         print("!! 缺 OCR 索引，请先: python ocr_index.py <pdf> GChO%d 150" % rnd); return 1
     mks = markers(idx, 150)
+    # ★ 文字层优先（印刷题干定位，优于手写题头 OCR）
+    _k = 150.0 / 72.0
+    _tm = text_markers(pdf)
+    if _tm:
+        tm = [(q, p, y * _k, x * _k, w * _k) for q, (p, y, x, w) in sorted(_tm.items())]
+        tm.sort(key=lambda t: (t[1], _col(t[3], t[4]), t[2]))
+        have = {t[0] for t in tm}
+        mks = tm + [m for m in mks if m[0] not in have]
+        mks.sort(key=lambda t: (t[1], _col(t[3], t[4]), t[2]))
+        print("  [文字层定位] %d 题：%s" % (len(tm), [t[0] for t in tm]))
     print("题标记 %d 个：%s" % (len(mks), [(t[0], t[1], _col(t[3], t[4])) for t in mks]))
     cards = cards_of(rnd)
     print("卡 %d 张" % len(cards))

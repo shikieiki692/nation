@@ -83,7 +83,7 @@ COOH
 
 ![](images/cd8b6e76581f07b16ea6652df6bcc486df7e7d4199e43137e6d43150902bfd8c.jpg)
 
-![](images/43c8591760324192587eab870152e1a497dbb59cb9ea77b36f1ca94bcd951a71.jpg)
+![](images/b1390e75288ad693b2d6f264fe5a34983a67c6fc2d7a63a17ad60db261e01a2b.jpg)
 
 ## 知识点映射
 

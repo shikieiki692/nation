@@ -45,65 +45,13 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO76试题.md"
 
 ## 参考答案
 
-$$
-A - R
-$$
+📎 **答案出处**：源卷**手写解析手稿**第 5 题（p5、6、7）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-2022 年，Nilay Hazari 等人报道了一种可以实现催化甲酸脱氢的配合物 A-R（R 表示配合物中 N 原子所连的基团），其中心金属元素为 M。
+![](images/d7bf04d359e6ebd04a116e1e18f57ee343ada504f23e178194de95007a708808.jpg)
 
-5-18.30 g 金属 M 单质与氢氧化钾、硝酸钾共熔，得到 13.55 g 氧化物 B；将 B 加入到盐酸中并蒸发，得到 18.34 g 卤氧化物 C，用 SnCl₂ 还原 C，得到 17.03 g 卤化物 D。请写出 B \~ D 的化学式并写出 B → C 的化学方程式。（注意，如果你没能顺利推出 M，在后续的题目中你可以就用 M 来表示各种结构，但该题总分额外扣 6 分原始分）
+![](images/f83052821a990e9924d6efa0e68dc31b40d46d3d5d485a919ca618d92fd0a7e2.jpg)
 
-$$
-\frac {13.55 - 8.30}{8.30} = \frac {16 x}{m}
-$$
-
-$$
-R u O _ {q} ^ {2}
-$$
-
-$$
-R u O C l _ {3} ^ {2}
-$$
-
-$$
-R u C l _ {3}
-$$
-
-$$
-2 R u O _ {4} + 1 H C l \rightarrow 2 R u O C l _ {3} + 3 C l _ {2} + 6 H _ {2} O 2 ^ {\prime}
-$$
-
-5-2 如下为配合物 A-Ph 的合成路线, 已知 E 为阴阳离子数目比为 $1: 1$ 的盐酸盐, G 具有一个镜面, 且其中 N 原子与羰配体处于对位, 请画出 $\mathrm{E} \sim \mathrm{G}$ 和 A-Ph 的结构, 并画出 $(\mathrm{PPh}_{3})_{3} \mathrm{MHCl}(\mathrm{CO})$ 所有八面体配位的立体异构体。
-
-![](images/62fca6893cd69fbc67f84986ba6d7d265e80604b11b48206d641722891c26faf.jpg)
-
-F.
-![](images/acbf647d7e6db0142a1b8f29e57d9b0e3ecc7a292ad4c9044942852165d9d914.jpg)
-
-G
-![](images/d054211cc7586e3ed6bc2beb176aef8c63cda7cd9f4aeaeacfff011fe931ec9f.jpg)
-
-![](images/429a66675f1aaf8b10ea9df02af4123d585a119cfb9bbc94a38850a1ec7548ad.jpg)
-
-5-3 配合物 A-R 催化甲酸脱氢的反应历程可以描述为: 甲酸对 A-R 进行配体取代, 得到配合物 H-R 和小分子 I, H-R 自发缓慢分解得到配合物 A-R 和小分子 J。
-
-5-3-1 写出小分子 I 和 J 的化学式。
-
-
-
-<img src="images/c9806191edd7cde3a72b656fc35ebc8d649badbd365e376b8c3dfc6e9f8c4210.jpg"/>
-
-**5-3-2** 实际上,配合物 H-R 由一对异构体组成,而两种异构体的占比由—R 基决定。当 R=H 时,只能得到 H-H1一种异构体;当 R=Ph 时,只能得到 H-Ph2一种异构体;当 R=Me 时,得到的是 H-Me1和 H-Me2的混合物。请画出 H-R1和 H-R2的结构,并简要描述造成反应结果差异化的两个关键性因素。
-
-
-
-![](images/0a821dd95d8df3fcd866cf3401428141e03e0200306efa7ae89b6ac93201fa65.jpg)
-
-① H: 分子内容积
-
-②.在H.有红阳. Ph红阳大
-
-![](images/b9f0fb59dce3e4fa861bf7ecf19b7a810fa9b5b6b2c07543a53f3484994f003e.jpg)
+![](images/3b39dc3c1ae854d8fd45665be0252b8cf1eea5a36a398ed62b52d0f3bfb2106d.jpg)
 
 ## 知识点映射
 

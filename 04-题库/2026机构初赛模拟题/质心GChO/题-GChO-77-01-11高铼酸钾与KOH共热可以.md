@@ -66,11 +66,11 @@ Bonus: 反应中生成的水，被无水 HF 结合得到 $H_{3}OHF_{2}$ 后被 $
 
 📎 **答案出处**：源卷**手写解析手稿**第 1 题（p1、2、3）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-![](images/233a259f37f20e55fc074d9c20030e935cf1b0a54d25294fabb6d5e67f48ccb0.jpg)
+![](images/aec2d50e26156f36f08650fb7958180890d5b5572da824fed24c494950394e1a.jpg)
 
 ![](images/38f59b7b955a07e82180aa27dfcf485c65a91dbdfa1588229260adbc59ebb64d.jpg)
 
-![](images/9d6b3aee7ee4729b698cb666dd42bc6dd67010d82d03386fc3d3938fe67f8ebd.jpg)
+![](images/2b1d900ad078562e1e7c4df1bd38b4543d36537d08e0a46219eeb59ba321c11a.jpg)
 
 ## 知识点映射
 

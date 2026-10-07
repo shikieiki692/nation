@@ -49,9 +49,9 @@ Meerwein-Ponndorf 还原是一种常用的利用异丙醇在异丙醇铝的催�
 
 📎 **答案出处**：源卷**手写解析手稿**第 5 题（p7、8）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-![](images/5431e2bc2bcc4673668b473403e7e318cd2f684e2f57c832e7efbb2912f98556.jpg)
+![](images/048b09b241630107bca95ea03ba08862b6cc650d0532c9fde7e9fdbd6efc8831.jpg)
 
-![](images/0f98bd159e1b3baa0b44e04a8557b75478e5a8872c75727f7fed0059db292cf7.jpg)
+![](images/c558303726b00aa18b7cd9f89a9838173e8b3b725bbf29e7027aa2262ea5e996.jpg)
 
 ## 知识点映射
 

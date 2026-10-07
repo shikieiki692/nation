@@ -72,11 +72,11 @@ DPPF 也是 Buchward-Hartwig 偶联反应的常用配体。摩尔质量为 554.4
 
 📎 **答案出处**：源卷**手写解析手稿**第 6 题（p6、7、8）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-![](images/b90773dc35ff03a8e7530693f8377bc84f83696135f2964e30d9ba20a1e1c367.jpg)
+![](images/89c89560c9f76e2a6947765d6341a4a27a65a245b6b402352ae8440d4771eb3a.jpg)
 
 ![](images/0300e9dbcd9fe7df3a9e495a2fd22b9366ced2f5038a13c77af1ec22e074e12d.jpg)
 
-![](images/de1d14fb6b74107dc86cddb4cfaca509f51f0bec5cafed4ebcf61e2d0b2100f2.jpg)
+![](images/dcc3dc10f033a01e6055f44ee39e4b905fea7c6cbaba148e089eaafd998471de.jpg)
 
 ## 知识点映射
 

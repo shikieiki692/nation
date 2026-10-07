@@ -47,28 +47,11 @@ $$
 
 ## 参考答案
 
-现有如下的转化:
+📎 **答案出处**：源卷**手写解析手稿**第 7 题（p5、6）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-$\mathrm{MeO_{2}C}$
+![](images/4a97698e526d22fab17370892dffd08e0d199f4217b40ea46788b28d7b15a2ea.jpg)
 
-$$
-\text {   (2)   } \xrightarrow [ \text {   THF   } ]{1 . \text {   LDA,   TMSCI   }} \text {   A   } \xrightarrow [ \text { EtOH } ]{\text { NaBH } _ {4} } \text {   B   } \xrightarrow [ \text {   AIBN,   EtOH,   reflux   } ]{\text {   NaBH } _ {4} , \text {   Bu } _ {3} \text { SnCl   }} \text {   C   }
-$$
-
-已知 B 到 C 的转化为非常经典的自由基链式反应，在此过程中，桥环的骨架还发生了变化。
-7-1 写出 A\~C 的结构简式，不要求立体化学。
-
-![](images/2f8b78a92a28f06a955c147e808561b76c569145d30aec887d5953a3b0edc3a4.jpg)
-
-![](images/393501683daccc34ca4f4a146fcf567902e151bcf01d4cf359d5e806e7041c6a.jpg)
-
-7-2 写出 B→C 转换过程中，链引发和链增长的步骤，一步基元反应写一行，每步基元反应所有的反应物和生成物都要写出。已知 $Bu_{3}SnCl$ 先原位被 $NaBH_{4}$ 还原成了 $Bu_{3}SnH$ 。
-
-引发：
-
-![](images/be24e298a81e1606839307f8101b1154aa4eb96b8a1ad83d3ffda2beb3e272c0.jpg)
-
-7-3 根据链式反应的机理， $\mathrm{Bu}_{3} \mathrm{SnCl}$ 需要加当量以上还是催化量即可？简要解释原因。
+![](images/93a8786570e99563826c3baa71b416d64df21b699da85059b7e7bbc8789257b3.jpg)
 
 ## 知识点映射
 

@@ -66,11 +66,11 @@ HL
 
 📎 **答案出处**：源卷**手写解析手稿**第 4 题（p5、6、7）已随卡；手写笔迹，含结构式/图，**文字化需人工转录**。组卷命中本卡时请以图为准。
 
-![](images/05d1688ec3daa43321ffc02cb56dfa3698e9eedfaa6b3955310ccb0f3b0628e0.jpg)
+![](images/a0fd2f5ac411a4b8d5c176ce75991b6a52947d0fb9152b314a4d3ffcb27f5433.jpg)
 
 ![](images/080d4236b64f441aca42b306877a93d35d4c662f027cec998aafc9c9a0216b24.jpg)
 
-![](images/daafdb1e8b7899f489f1ee4e6f20db6703e2077185784f624e60743294839d11.jpg)
+![](images/041b5229f692b3d07656284fadfd2c0b537826abee2f99362c4eae4ae4e014b8.jpg)
 
 ## 知识点映射
 
