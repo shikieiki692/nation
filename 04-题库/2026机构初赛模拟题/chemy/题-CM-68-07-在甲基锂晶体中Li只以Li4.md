@@ -14,7 +14,7 @@ knowledge_points:
   - "[[体心立方堆积]]"
   - "[[晶体密度公式]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 结构化学
@@ -44,7 +44,7 @@ source_file: "chemy试题/第33届Chemy化学奥林匹克题目合集..md"
 
 ## 参考答案
 
-## 第7题（9分）
+第7题（9分）
 
 ![](images/99a7d768f6d1cb24c0281151560e29bcbef67700ac2f188c2a1f9cab25fb4a12.jpg)
 

@@ -14,7 +14,7 @@ knowledge_points:
   - "[[分布分数]]"
   - "[[Nernst方程]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 元素与分析
@@ -46,7 +46,7 @@ $K_{\mathrm{sp}}(\mathrm{Ag}_{2}\mathrm{S})=2.0\times10^{-49}$ ， $K_{\mathrm{s
 
 ## 参考答案
 
-## 第9题（10分）
+第9题（10分）
 
 9-1 海水中氯化钠浓度为： $c(\mathrm{NaCl}) = 35 \, \mathrm{g/L} / (58.44 \, \mathrm{g/mol}) = 0.599 \, \mathrm{mol/L}$ （1分）
 硫的分布分数为： $\delta(S^{2-})=\frac{K_{\mathrm{a1}}K_{\mathrm{a2}}}{[\mathrm{H}^{+}]^{2}+\left[\mathrm{H}^{+}\right]K_{\mathrm{a1}}+K_{\mathrm{a1}}K_{\mathrm{a2}}} = 1.5 \times 10^{-6}$ （1分）

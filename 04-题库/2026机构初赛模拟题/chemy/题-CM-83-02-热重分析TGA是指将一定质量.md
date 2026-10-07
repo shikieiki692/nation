@@ -14,7 +14,7 @@ knowledge_points:
   - "[[理想气体]]"
   - "[[误差]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 元素与分析
@@ -37,7 +37,7 @@ source_file: "chemy试题/第34届Chemy化学奥林匹克题目合集..md"
 
 ## 参考答案
 
-## 第2题（5分）
+第2题（5分）
 
 不妨设有  $1.00 \, cm^{3}$  样品，其质量为  $2.00 \, g$
 取空气平均摩尔质量为  $29 \, g \cdot mol^{-1}$ ，外压  $100 \, kPa$

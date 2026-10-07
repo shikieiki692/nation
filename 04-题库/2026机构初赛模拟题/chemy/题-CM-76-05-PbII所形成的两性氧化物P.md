@@ -14,7 +14,7 @@ knowledge_points:
   - "[[两性物质]]"
   - "[[溶解度]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 化学原理
@@ -46,7 +46,7 @@ $$
 
 ## 参考答案
 
-## 第5题（10分）
+第5题（10分）
 
 
 5-1 在刚开始生成沉淀时 $[\mathrm{OH}^{-}] = (K_{\mathrm{sp}} / [\mathrm{Pb}^{2+}])^{1/2} = 5.16\times 10^{-7}\mathrm{mol}\cdot \mathrm{L}^{-1}$ （0.5分）$\mathrm{pH} = 14 - \mathrm{pOH} = 7.71$ （1分）$[\mathrm{H}^{+}] = K_{\mathrm{a}} / [\mathrm{Pb(OH)}_3^-] = 3.33\times 10^{-13}\mathrm{mol}\cdot \mathrm{L}^{-1}$ （0.5分）$\mathrm{pH} = 12.48$ （1分）

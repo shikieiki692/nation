@@ -14,7 +14,7 @@ knowledge_points:
   - "[[晶体密度公式]]"
   - "[[配位数]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 结构化学
@@ -51,7 +51,7 @@ source_file: "chemy试题/第36届化学奥林匹克Chemy模拟试题题目合�
 
 ## 参考答案
 
-## 第6题（11分）
+第6题（11分）
 
 ![](images/c4b6e2fb0e3d9932b5192030fb36de39fe2c7c285231d57994268c057796eff2.jpg)
 

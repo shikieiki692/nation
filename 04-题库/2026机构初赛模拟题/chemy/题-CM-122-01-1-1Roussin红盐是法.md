@@ -15,7 +15,7 @@ knowledge_points:
   - "[[Clapeyron方程]]"
   - "[[氢键]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 结构化学
@@ -48,7 +48,7 @@ source_file: "chemy试题/第36届化学奥林匹克Chemy模拟试题题目合�
 
 ## 参考答案
 
-## 第1题（10分）
+第1题（10分）
 
 ![](images/d16adb4275abec78aaaf0b93f54e4767347924288e6b8f686dd8ccc37a4460b7.jpg)
 

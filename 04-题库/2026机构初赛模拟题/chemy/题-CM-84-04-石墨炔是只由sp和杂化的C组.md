@@ -15,7 +15,7 @@ knowledge_points:
   - "[[杂化轨道理论]]"
   - "[[二维材料]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 结构化学
@@ -54,7 +54,7 @@ source_file: "chemy试题/第34届Chemy化学奥林匹克题目合集..md"
 
 ## 参考答案
 
-## 第4题（10分）
+第4题（10分）
 
 
 ![](images/4d0987627b9f1cc0079f14deb215fb450912734ddad0af8b30ecc497d950f7a6.jpg)

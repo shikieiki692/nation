@@ -14,7 +14,7 @@ knowledge_points:
   - "[[氧化态]]"
   - "[[水解反应]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 元素与分析
@@ -43,7 +43,7 @@ source_file: "chemy试题/第36届化学奥林匹克Chemy模拟试题题目合�
 
 ## 参考答案
 
-## 第1题（7分）
+第1题（7分）
 
 ![](images/89605ec4d816b93b8768fd4a52a6bf08f57fe7fe8e7362730b4987dd52e9faff.jpg)
 

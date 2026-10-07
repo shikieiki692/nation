@@ -15,7 +15,7 @@ knowledge_points:
   - "[[化学式推断]]"
   - "[[元素分析]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 结构化学
@@ -56,7 +56,7 @@ X型沸石(Zeolite X)可视作 $\beta$ 笼通过六棱柱笼相连接从而搭�
 
 ## 参考答案
 
-## 第6题（11分）
+第6题（11分）
 
 ![](images/e57125af7e64d0abf05e9bcbf8172905f2bdbd9c3340ae7e1d893002bc5a8768.jpg)
 

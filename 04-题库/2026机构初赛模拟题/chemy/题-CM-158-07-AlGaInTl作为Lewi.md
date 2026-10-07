@@ -14,7 +14,7 @@ knowledge_points:
   - "[[Clapeyron方程]]"
   - "[[元素周期律]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 化学原理
@@ -40,7 +40,7 @@ $7 { \cdot } 2 \ \mathrm { B } ( \mathrm { C } _{ 6 } \mathrm { F } _{ 5 } ) _{ 
 
 ## 参考答案
 
-## 第7题（11分，5%）
+第7题（11分，5%）
 
 7-1 饱和蒸汽压达到大气压时，温度为 $\Delta H/\Delta S$
 

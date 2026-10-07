@@ -14,7 +14,7 @@ knowledge_points:
   - "[[分数坐标]]"
   - "[[点群初步]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 结构化学
@@ -59,7 +59,7 @@ source_file: "chemy试题/第36届化学奥林匹克Chemy模拟试题题目合�
 
 ## 参考答案
 
-## 第6题（11分）
+第6题（11分）
 
 6-1
 ![](images/e613d72d9e0df2ae44dbf8609e7bfecfc1122b5116f4adee00d69b95a32e7e20.jpg)

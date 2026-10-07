@@ -15,7 +15,7 @@ knowledge_points:
   - "[[Le Châtelier原理]]"
   - "[[钼]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 化学原理
@@ -56,7 +56,7 @@ source_file: "chemy试题/第34届Chemy化学奥林匹克题目合集..md"
 
 ## 参考答案
 
-## 第5题（10分）
+第5题（10分）
 
 ![](images/1df0051e4cae0ffff492b5330668000bced6131a09eb0263ed97f2ace7214025.jpg)
 图1

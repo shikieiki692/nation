@@ -15,7 +15,7 @@ knowledge_points:
   - "[[Born-Haber循环]]"
   - "[[标准摩尔熵]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 化学原理
@@ -89,7 +89,7 @@ $$
 
 ## 参考答案
 
-## 第6题（14分）
+第6题（14分）
 
 $$
 \mathrm{XeF} _{2} + \mathrm{F} ^{-} \rightleftharpoons \mathrm{XeF} _{3} ^{-}

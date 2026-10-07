@@ -15,7 +15,7 @@ knowledge_points:
   - "[[磁矩]]"
   - "[[氧化态]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 元素与分析
@@ -50,7 +50,7 @@ K2O 和Co3O4 的混合物至460℃，可以得
 
 ## 参考答案
 
-## 第6题（8分）
+第6题（8分）
 
 6-1 $\mathrm{K}_3\mathrm{CoO}_4$ (1分)
 6-2产生大量气泡，溶液变为紫红色（1分）$4\mathrm{K}_3\mathrm{CoO}_4 + 10\mathrm{H}_2\mathrm{SO}_4 = 4\mathrm{CoSO}_4 + 6\mathrm{K}_2\mathrm{SO}_4 + 3\mathrm{O}_2 + 10\mathrm{H}_2\mathrm{O}$ (1分)
