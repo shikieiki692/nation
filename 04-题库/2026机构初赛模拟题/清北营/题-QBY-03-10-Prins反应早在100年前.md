@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "清北营-春季模拟3"
 source_file: "2026机构初赛模拟题/04-清北营/春季模拟3.md"
+pool_scope: 有机化学
 ---
 
 # 题-QBY-03-10-Prins反应早在100年前

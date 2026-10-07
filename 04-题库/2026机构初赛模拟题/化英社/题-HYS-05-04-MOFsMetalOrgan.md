@@ -26,6 +26,7 @@ source_grade: A
 source_tier: 2
 source_norm: "化英社-第40届化英社化学奥林匹克（初赛）春季联考5"
 source_file: "2026机构初赛模拟题/07-化英社/第40届化英社化学奥林匹克（初赛）春季联考5.md"
+pool_scope: 有机化学
 ---
 
 # 题-HYS-05-04-MOFsMetalOrgan

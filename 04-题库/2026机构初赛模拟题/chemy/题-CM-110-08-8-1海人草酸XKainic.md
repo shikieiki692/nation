@@ -26,6 +26,7 @@ source_grade: A
 source_tier: 2
 source_norm: "chemy-第35届模拟23"
 source_file: "chemy试题/第35届中国化学奥林匹克Chemy题目合集..md"
+pool_scope: 有机化学
 ---
 
 # 题-CM-110-08-8-1海人草酸XKainic

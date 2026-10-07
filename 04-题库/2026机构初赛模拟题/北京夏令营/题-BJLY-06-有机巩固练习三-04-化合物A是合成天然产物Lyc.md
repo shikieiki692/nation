@@ -26,6 +26,7 @@ source_grade: A
 source_tier: 2
 source_norm: "北京夏令营-北京夏令营-有机巩固练习三"
 source_file: "2026机构初赛模拟题/13-北京夏令营/北京夏令营-有机巩固练习三.md"
+pool_scope: 有机化学
 ---
 
 # 题-BJLY-北京夏令营-有机巩固练习三-04-化合物A是合成天然产物Lyc

@@ -26,6 +26,7 @@ source_grade: A
 source_tier: 2
 source_norm: "汇智-2.7杭州有机化学班第三天练习题"
 source_file: "2026机构初赛模拟题/08-汇智/2.7杭州有机化学班第三天练习题.md"
+pool_scope: 有机化学
 ---
 
 # 题-HZ-07-02-Cupowder即铜粉书写时

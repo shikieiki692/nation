@@ -27,6 +27,7 @@ source_tier: 2
 source_norm: "XeChem-T1"
 source_file: "2026机构初赛模拟题/03-XeChem/T1.md"
 quality_warning: "源确缺答案（源资料无本题解答，2026-10-06 核验）；组卷不可用"
+pool_scope: 有机化学
 ---
 
 # 题-XeC-01-01-二萜entkaurene家族

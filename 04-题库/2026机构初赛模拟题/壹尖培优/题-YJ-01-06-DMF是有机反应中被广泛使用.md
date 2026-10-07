@@ -26,6 +26,7 @@ source_grade: A
 source_tier: 2
 source_norm: "壹尖培优-模拟测1"
 source_file: "2026机构初赛模拟题/05-壹尖培优/模拟测试卷1.md"
+pool_scope: 有机化学
 ---
 
 # 题-YJ-01-06-DMF是有机反应中被广泛使用

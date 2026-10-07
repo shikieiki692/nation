@@ -26,6 +26,7 @@ source_grade: A
 source_tier: 2
 source_norm: "一式-一式07"
 source_file: "2026机构初赛模拟题/09-一式/一式07.md"
+pool_scope: 有机化学
 ---
 
 # 题-YS-07-06-ZIS的光催化与PPol的裂

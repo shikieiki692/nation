@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "质心UChO-1stZCHEM-UChO"
 source_file: "2026机构初赛模拟题/02-质心UChO/1stZCHEM-UChO.md"
+pool_scope: 有机化学
 ---
 
 # 题-UChO-1stZCHEM-UChO-05-在弱碱性的缓冲体系中向钼VI

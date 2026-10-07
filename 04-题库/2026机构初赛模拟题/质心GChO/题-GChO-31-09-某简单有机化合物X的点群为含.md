@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "质心GChO-ZCHEM-GChO31"
 source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO31试题.md"
+pool_scope: 有机化学
 ---
 
 # 题-GChO-31-09-某简单有机化合物X的点群为含

@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "伽马-五一伽马杭州1"
 source_file: "2026机构初赛模拟题/06-伽马/五一伽马杭州1.md"
+pool_scope: 有机化学
 ---
 
 # 题-GM-01-09-91Edman降解瑞典化学家

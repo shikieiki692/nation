@@ -26,6 +26,7 @@ source_grade: A
 source_tier: 2
 source_norm: "化英社-第40届化英社化学奥林匹克（初赛）模拟14"
 source_file: "2026机构初赛模拟题/07-化英社/第40届化英社化学奥林匹克（初赛）模拟试题14.md"
+pool_scope: 有机化学
 ---
 
 # 题-HYS-14-02-电化学碳捕获ECC是减少二氧

@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "chemy-第38届第0届初赛10"
 source_file: "chemy试题/第38届化学奥林匹克Chemy模拟试题题目合集..md"
+pool_scope: 有机化学
 ---
 
 # 题-CM-162-09-TT氧化物试剂Thianth

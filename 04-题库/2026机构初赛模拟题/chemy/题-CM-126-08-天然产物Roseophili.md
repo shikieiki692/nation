@@ -26,6 +26,7 @@ source_grade: A
 source_tier: 2
 source_norm: "chemy-第36届决赛模拟21"
 source_file: "chemy试题/第36届化学奥林匹克Chemy模拟试题题目合集..md"
+pool_scope: 有机化学
 ---
 
 # 题-CM-126-08-天然产物Roseophili

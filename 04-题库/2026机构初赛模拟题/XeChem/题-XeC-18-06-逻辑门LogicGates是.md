@@ -25,6 +25,7 @@ source_tier: 2
 source_norm: "XeChem-18"
 source_file: "2026机构初赛模拟题/03-XeChem/（已压缩）PDF合并_1-199.md"
 quality_warning: "源确缺答案（源资料无本题解答，2026-10-06 核验）；组卷不可用"
+pool_scope: 无答案练习
 ---
 
 # 题-XeC-18-06-逻辑门LogicGates是

@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "XeChem-Xechem模拟一"
 source_file: "2026机构初赛模拟题/03-XeChem/Xechem模拟一.md"
+pool_scope: 有机化学
 ---
 
 # 题-XeC-Xechem模拟一-07-异二氮烯Isodiazene

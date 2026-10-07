@@ -26,6 +26,7 @@ source_grade: A
 source_tier: 2
 source_norm: "伽马-五一伽马杭州5"
 source_file: "2026机构初赛模拟题/06-伽马/五一伽马杭州5.md"
+pool_scope: 有机化学
 ---
 
 # 题-GM-05-08-DEADPPh得到的中间体一

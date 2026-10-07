@@ -28,6 +28,7 @@ source_tier: 2
 source_norm: "质心UChO-10thZCHEM-UChO"
 source_file: "2026机构初赛模拟题/02-质心UChO/10thZCHEM-UChO.md"
 quality_warning: "源确缺答案（源资料无本题解答，2026-10-06 核验）；组卷不可用"
+pool_scope: 有机化学
 ---
 
 # 题-UChO-10thZCHEM-UChO-09-重排反应是有机化学中最为神奇

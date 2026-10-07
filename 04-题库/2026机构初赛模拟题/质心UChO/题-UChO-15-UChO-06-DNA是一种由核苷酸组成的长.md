@@ -27,6 +27,7 @@ source_tier: 2
 source_norm: "质心UChO-10thZCHEM-UChO"
 source_file: "2026机构初赛模拟题/02-质心UChO/10thZCHEM-UChO.md"
 quality_warning: "源确缺答案（源资料无本题解答，2026-10-06 核验）；组卷不可用"
+pool_scope: 无答案练习
 ---
 
 # 题-UChO-10thZCHEM-UChO-06-DNA是一种由核苷酸组成的长

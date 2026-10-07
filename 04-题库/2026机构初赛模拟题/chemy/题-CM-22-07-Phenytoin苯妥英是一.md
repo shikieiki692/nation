@@ -26,6 +26,7 @@ source_grade: A
 source_tier: 2
 source_norm: "chemy-第40届chemy初赛有机模拟22"
 source_file: "2026机构初赛模拟题/10-chemy/第40届chemy初赛有机模拟22试题.md"
+pool_scope: 有机化学
 ---
 
 # 题-CM-22-07-Phenytoin苯妥英是一

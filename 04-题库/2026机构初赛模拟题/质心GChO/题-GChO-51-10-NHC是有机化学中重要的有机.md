@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "质心GChO-ZCHEM-GChO51"
 source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO51试题.md"
+pool_scope: 有机化学
 ---
 
 # 题-GChO-51-10-NHC是有机化学中重要的有机

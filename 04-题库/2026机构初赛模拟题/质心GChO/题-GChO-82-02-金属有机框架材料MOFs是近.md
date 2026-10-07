@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "质心GChO-ZCHEM-GChO82"
 source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO82试题.md"
+pool_scope: 有机化学
 ---
 
 # 题-GChO-82-02-金属有机框架材料MOFs是近

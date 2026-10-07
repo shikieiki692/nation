@@ -26,6 +26,7 @@ source_grade: A
 source_tier: 2
 source_norm: "XeChem-25"
 source_file: "2026机构初赛模拟题/03-XeChem/PDF合并_400-496.md"
+pool_scope: 有机化学
 ---
 
 # 题-XeC-25-07-对甲苯磺酰卤TsX兼具磺酰基

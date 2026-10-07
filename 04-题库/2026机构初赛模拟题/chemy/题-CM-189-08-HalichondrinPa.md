@@ -28,6 +28,7 @@ source_tier: 2
 source_norm: "chemy-第39届XChemArCHO模拟卷"
 source_file: "chemy试题/39届初赛模拟试题分享-2 10th XChem-ArCHO..md"
 quality_warning: "源确缺答案（源资料无本题解答，2026-10-06 核验）；组卷不可用"
+pool_scope: 有机化学
 ---
 
 # 题-CM-189-08-HalichondrinPa

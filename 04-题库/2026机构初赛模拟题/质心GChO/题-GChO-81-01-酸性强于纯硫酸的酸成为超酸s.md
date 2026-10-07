@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "质心GChO-ZCHEM-GChO81"
 source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO81试题.md"
+pool_scope: 有机化学
 ---
 
 # 题-GChO-81-01-酸性强于纯硫酸的酸成为超酸s

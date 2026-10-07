@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "质心UChO-4thZCHEM-UChO-Tour1"
 source_file: "2026机构初赛模拟题/02-质心UChO/4thZCHEM-UChO-Tour1.md"
+pool_scope: 有机化学
 ---
 
 # 题-UChO-01-07-有机小分子催化剂X可催化如下

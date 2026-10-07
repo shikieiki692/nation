@@ -27,6 +27,7 @@ source_tier: 2
 source_norm: "汇智-长沙冲刺无机综合"
 source_file: "2026机构初赛模拟题/08-汇智/长沙冲刺无机综合.md"
 quality_warning: "源确缺答案（源资料无本题解答，2026-10-06 核验）；组卷不可用"
+pool_scope: 无答案练习
 ---
 
 # 题-HZ-长沙冲刺无机综合-07-逆配合物inversecoo

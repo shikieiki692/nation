@@ -26,6 +26,7 @@ source_grade: A
 source_tier: 2
 source_norm: "清北营-2026年清北营寒假班-4"
 source_file: "2026机构初赛模拟题/04-清北营/2026年清北营寒假班-试卷4.md"
+pool_scope: 有机化学
 ---
 
 # 题-QBY-04-09-常见的Nazarov反应往往

@@ -26,6 +26,7 @@ source_grade: A
 source_tier: 2
 source_norm: "伽马-伽马化学2026年五一模拟4-讲稿"
 source_file: "2026机构初赛模拟题/06-伽马/伽马化学2026年五一模拟4-讲稿.md"
+pool_scope: 讲稿
 ---
 
 # 题-GM-2026-03-X射线衍射XRD是研究晶体结

@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "汇智-汇智起航五一初赛模拟3"
 source_file: "2026机构初赛模拟题/08-汇智/汇智起航五一初赛模拟3试卷.md"
+pool_scope: 有机化学
 ---
 
 # 题-HZ-03-03-与NIII在化合物中往往能够

@@ -26,6 +26,7 @@ source_grade: A
 source_tier: 2
 source_norm: "chemy-第40届chemy初赛模拟16"
 source_file: "2026机构初赛模拟题/10-chemy/第40届chemy初赛模拟16试题.md"
+pool_scope: 有机化学
 ---
 
 # 题-CM-16-09-底物A和酮酯在TMSOTf催

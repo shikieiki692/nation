@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "质心GChO-ZCHEM-GChO26"
 source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO26试题（线下营）.md"
+pool_scope: 无答案练习
 ---
 
 # 题-GChO-26-09-如下是化合物Rubriflo

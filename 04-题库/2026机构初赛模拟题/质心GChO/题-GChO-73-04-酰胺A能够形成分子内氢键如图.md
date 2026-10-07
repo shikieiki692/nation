@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "质心GChO-ZCHEM-GChO73"
 source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO73试题.md"
+pool_scope: 有机化学
 ---
 
 # 题-GChO-73-04-酰胺A能够形成分子内氢键如图

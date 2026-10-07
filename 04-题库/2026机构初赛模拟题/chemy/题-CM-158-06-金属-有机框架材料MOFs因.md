@@ -26,6 +26,7 @@ source_grade: A
 source_tier: 2
 source_norm: "chemy-第38届决赛模拟6"
 source_file: "chemy试题/第38届化学奥林匹克Chemy模拟试题题目合集..md"
+pool_scope: 有机化学
 ---
 
 # 题-CM-158-06-金属-有机框架材料MOFs因

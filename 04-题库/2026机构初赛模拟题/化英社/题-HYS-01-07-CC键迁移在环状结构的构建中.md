@@ -26,6 +26,7 @@ source_grade: A
 source_tier: 2
 source_norm: "化英社-第40届化英社化学奥林匹克（初赛）春季联考1"
 source_file: "2026机构初赛模拟题/07-化英社/第40届化英社化学奥林匹克（初赛）春季联考1.md"
+pool_scope: 有机化学
 ---
 
 # 题-HYS-01-07-CC键迁移在环状结构的构建中

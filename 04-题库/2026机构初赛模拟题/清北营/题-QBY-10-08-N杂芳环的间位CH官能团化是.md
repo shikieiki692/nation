@@ -26,6 +26,7 @@ source_grade: A
 source_tier: 2
 source_norm: "清北营-2026年清北营暑假高二班-10"
 source_file: "2026机构初赛模拟题/04-清北营/2026年清北营暑假高二班-试卷10.md"
+pool_scope: 有机化学
 ---
 
 # 题-QBY-10-08-N杂芳环的间位CH官能团化是

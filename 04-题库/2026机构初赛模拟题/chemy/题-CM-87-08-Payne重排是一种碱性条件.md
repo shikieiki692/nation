@@ -27,6 +27,7 @@ source_grade: A
 source_tier: 2
 source_norm: "chemy-第34届chemy决赛模拟1"
 source_file: "chemy试题/第34届Chemy化学奥林匹克题目合集..md"
+pool_scope: 有机化学
 ---
 
 # 题-CM-87-08-Payne重排是一种碱性条件

@@ -27,6 +27,7 @@ source_tier: 2
 source_norm: "质心UChO-2ndZCHEM-UChO"
 source_file: "2026机构初赛模拟题/02-质心UChO/2ndZCHEM-UChO.md"
 quality_warning: "答案区尾部原混入下一题标题与题干（源答案卷错排），已剔除以避免组卷时污染；剔出处见本卡校勘注。"
+pool_scope: 有机化学
 ---
 
 # 题-UChO-2ndZCHEM-UChO-07-Nazarov环化反应可以广

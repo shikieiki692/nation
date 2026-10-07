@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "伽马-伽马化学2026年暑期模拟2"
 source_file: "2026机构初赛模拟题/06-伽马/伽马化学2026年暑期模拟2.md"
+pool_scope: 有机化学
 ---
 
 # 题-GM-02-08-生物碱Acutumine最初

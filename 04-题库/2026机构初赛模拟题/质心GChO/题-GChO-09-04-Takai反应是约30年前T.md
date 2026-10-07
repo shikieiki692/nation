@@ -26,6 +26,7 @@ source_grade: A
 source_tier: 2
 source_norm: "质心GChO-ZCHEM-GChO9"
 source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO9试题.md"
+pool_scope: 有机化学
 ---
 
 # 题-GChO-09-04-Takai反应是约30年前T

@@ -27,6 +27,7 @@ source_tier: 2
 source_norm: "伽马-有机作业L6"
 source_file: "2026机构初赛模拟题/06-伽马/有机作业L6.md"
 quality_warning: "源确缺答案（源资料无本题解答，2026-10-06 核验）；组卷不可用"
+pool_scope: 有机化学
 ---
 
 # 题-GM-06-08-1993年ClaudeAga

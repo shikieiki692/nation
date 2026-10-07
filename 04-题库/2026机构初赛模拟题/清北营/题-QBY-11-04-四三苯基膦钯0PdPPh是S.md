@@ -26,6 +26,7 @@ source_grade: A
 source_tier: 2
 source_norm: "清北营-2026年清北营暑假高二班-11"
 source_file: "2026机构初赛模拟题/04-清北营/2026年清北营暑假高二班-试卷11.md"
+pool_scope: 有机化学
 ---
 
 # 题-QBY-11-04-四三苯基膦钯0PdPPh是S

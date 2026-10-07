@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "方圆-有机化学测1"
 source_file: "2026机构初赛模拟题/12-方圆/有机化学测试题1.md"
+pool_scope: 有机化学
 ---
 
 # 题-FY-01-09-Grignardreagen

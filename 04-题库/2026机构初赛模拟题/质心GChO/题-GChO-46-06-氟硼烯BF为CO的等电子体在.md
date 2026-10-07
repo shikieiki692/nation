@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "质心GChO-ZCHEM-GChO46"
 source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO46试题.md"
+pool_scope: 有机化学
 ---
 
 # 题-GChO-46-06-氟硼烯BF为CO的等电子体在

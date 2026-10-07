@@ -26,6 +26,7 @@ source_grade: A
 source_tier: 2
 source_norm: "清北营-春季模拟12"
 source_file: "2026机构初赛模拟题/04-清北营/春季模拟12.md"
+pool_scope: 有机化学
 ---
 
 # 题-QBY-12-05-共价有机框架Covalent

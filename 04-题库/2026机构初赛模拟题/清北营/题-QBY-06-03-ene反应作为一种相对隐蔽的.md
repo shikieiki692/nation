@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "清北营-春季模拟6"
 source_file: "2026机构初赛模拟题/04-清北营/春季模拟6.md"
+pool_scope: 有机化学
 ---
 
 # 题-QBY-06-03-ene反应作为一种相对隐蔽的

@@ -26,6 +26,7 @@ source_grade: A
 source_tier: 2
 source_norm: "XeChem-Xechem模拟6"
 source_file: "2026机构初赛模拟题/03-XeChem/Xechem模拟6.md"
+pool_scope: 有机化学
 ---
 
 # 题-XeC-06-01-11OCP离子是重要的含P杂

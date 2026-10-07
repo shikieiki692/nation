@@ -26,6 +26,7 @@ source_grade: A
 source_tier: 2
 source_norm: "汇智-汇智起航五一初赛模拟4"
 source_file: "2026机构初赛模拟题/08-汇智/汇智起航五一初赛模拟4试卷.md"
+pool_scope: 有机化学
 ---
 
 # 题-HZ-04-09-第9题ene反应与立体选择性

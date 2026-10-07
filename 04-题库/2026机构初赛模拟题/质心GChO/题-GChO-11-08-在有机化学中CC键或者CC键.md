@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "质心GChO-ZCHEM-GChO11"
 source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO11试题（线下营）.md"
+pool_scope: 有机化学
 ---
 
 # 题-GChO-11-08-在有机化学中CC键或者CC键

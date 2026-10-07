@@ -26,6 +26,7 @@ source_grade: A
 source_tier: 2
 source_norm: "汇智-汇智起航五一初赛模拟2"
 source_file: "2026机构初赛模拟题/08-汇智/汇智起航五一初赛模拟2试卷.md"
+pool_scope: 有机化学
 ---
 
 # 题-HZ-02-06-环酮缩醛CKAs是自由基开环

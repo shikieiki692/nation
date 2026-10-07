@@ -27,6 +27,7 @@ source_tier: 2
 source_norm: "汇智-长沙化学刷初赛模拟9"
 source_file: "2026机构初赛模拟题/08-汇智/长沙化学刷初赛模拟9.md"
 quality_warning: "源确缺答案（源资料无本题解答，2026-10-06 核验）；组卷不可用"
+pool_scope: 有机化学
 ---
 
 # 题-HZ-09-07-71请你比较DMFNN二甲基

@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "质心GChO-ZCHEM-GChO40"
 source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO40试题.md"
+pool_scope: 有机化学
 ---
 
 # 题-GChO-40-03-如下是可降解高分子C的合成路

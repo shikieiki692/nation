@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "质心UChO-3rdZCHEM-UChO-Tour2"
 source_file: "2026机构初赛模拟题/02-质心UChO/3rdZCHEM-UChO-Tour2.md"
+pool_scope: 有机化学
 ---
 
 # 题-UChO-02-06-众所周知ZCHEM考试是有传

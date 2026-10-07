@@ -27,6 +27,7 @@ source_norm: "XeChem-Xechem模拟7"
 source_file: "2026机构初赛模拟题/03-XeChem/Xechem模拟7.md"
 mixed_content: true   # 正文含相邻题段落（拆卡越界），勿整卡组卷
 quality_warning: "答案区尾部原混入下一题标题与题干（源答案卷错排），已剔除以避免组卷时污染；剔出处见本卡校勘注。"
+pool_scope: 有机化学
 ---
 
 # 题-XeC-07-07-第40届XeChem初装模拟

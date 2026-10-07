@@ -26,6 +26,7 @@ source_grade: A
 source_tier: 2
 source_norm: "chemy-第37届第0届初赛4"
 source_file: "chemy试题/第37届Chemy题目合集..md"
+pool_scope: 有机化学
 ---
 
 # 题-CM-137-10-环蕃cyclophane由一

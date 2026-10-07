@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "chemy-第33届chemy模拟7"
 source_file: "chemy试题/第33届Chemy化学奥林匹克题目合集..md"
+pool_scope: 有机化学
 ---
 
 # 题-CM-67-04-将DMPDA溶液与溶液混合室

@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "XeChem-Xechem模拟7"
 source_file: "2026机构初赛模拟题/03-XeChem/Xechem模拟7.md"
+pool_scope: 有机化学
 ---
 
 # 题-XeC-07-06-61以下过程是典型的Smil

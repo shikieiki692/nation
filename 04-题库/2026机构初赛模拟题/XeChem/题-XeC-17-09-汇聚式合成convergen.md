@@ -26,6 +26,7 @@ source_grade: A
 source_tier: 2
 source_norm: "XeChem-17"
 source_file: "2026机构初赛模拟题/03-XeChem/（已压缩）PDF合并_1-199.md"
+pool_scope: 有机化学
 ---
 
 # 题-XeC-17-09-汇聚式合成convergen

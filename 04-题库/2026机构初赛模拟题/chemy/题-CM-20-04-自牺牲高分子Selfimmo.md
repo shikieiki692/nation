@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "chemy-15套卷20"
 source_file: "2026机构初赛模拟题/10-chemy/新-2026年暑假Chemy刷题（15套）_200-391.md"
+pool_scope: 有机化学
 ---
 
 # 题-CM-20-04-自牺牲高分子Selfimmo

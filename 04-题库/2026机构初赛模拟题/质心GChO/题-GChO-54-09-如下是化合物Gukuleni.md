@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "质心GChO-ZCHEM-GChO54"
 source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO54试题.md"
+pool_scope: 无答案练习
 ---
 
 # 题-GChO-54-09-如下是化合物Gukuleni

@@ -25,6 +25,7 @@ source_grade: A
 source_tier: 2
 source_norm: "汇智-长沙化学刷初赛模拟7"
 source_file: "2026机构初赛模拟题/08-汇智/长沙化学刷初赛模拟7.md"
+pool_scope: 有机化学
 ---
 
 # 题-HZ-07-08-VilsmeierHaack

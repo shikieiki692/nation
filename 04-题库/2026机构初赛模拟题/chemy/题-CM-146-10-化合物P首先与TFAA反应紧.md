@@ -26,6 +26,7 @@ source_grade: A
 source_tier: 2
 source_norm: "chemy-第37届第0届初赛22"
 source_file: "chemy试题/第37届Chemy题目合集..md"
+pool_scope: 有机化学
 ---
 
 # 题-CM-146-10-化合物P首先与TFAA反应紧

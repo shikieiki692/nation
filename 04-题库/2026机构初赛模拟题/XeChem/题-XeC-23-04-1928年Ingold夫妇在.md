@@ -26,6 +26,7 @@ source_grade: A
 source_tier: 2
 source_norm: "XeChem-23"
 source_file: "2026机构初赛模拟题/03-XeChem/（已压缩）PDF合并_200-399.md"
+pool_scope: 有机化学
 ---
 
 # 题-XeC-23-04-1928年Ingold夫妇在

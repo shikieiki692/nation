@@ -26,6 +26,7 @@ source_grade: A
 source_tier: 2
 source_norm: "方圆-卷三-1"
 source_file: "2026机构初赛模拟题/12-方圆/卷三-1.md"
+pool_scope: 有机化学
 ---
 
 # 题-FY-01-02-电催化二氧化碳还原ECR作为
