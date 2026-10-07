@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-07T05:30:49.406480+00:00",
+  "generated_at": "2026-10-07T14:57:07.989395+00:00",
   "root": "C:\\Obsidion\\妙妙屋",
   "question_bank": {
-    "md_total": 11448,
+    "md_total": 11450,
     "question_like_total": 11170,
     "question_like_active": 11046,
     "question_like_deprecated": 124,
@@ -20,8 +20,8 @@
     }
   },
   "links": {
-    "total": 104251,
-    "resolved": 96171,
+    "total": 104279,
+    "resolved": 96199,
     "broken_candidates": 8080,
     "sample": [
       {
@@ -114,7 +114,7 @@
   },
   "artifacts": {
     "student_handout_md": 129,
-    "docx_total": 1309
+    "docx_total": 1313
   },
   "definitions": {
     "active_question": "type in {题目, 真题} and status != deprecated",
