@@ -486,8 +486,10 @@ def renumber2(text, new_no, prefix):
     # 裸三级（先做，含间距变体）
     text = re.sub(r'(?<![\w\d.])' + p + r'\s*-\s*(\d{1,2})\s*-\s*(\d{1,2})(?![\w\d.])',
                   lambda m: '%d-%s-%s' % (new_no, m.group(1), m.group(2)), text)
-    # 裸二级
-    text = re.sub(r'(?<![\w\d.])' + p + r'\s*-\s*(\d{1,2})(?![\w\d.]|-)',
+    # 裸二级 —— lookbehind 须排除 `-`：否则会二次命中刚生成的三级号里的 `2-1`
+    # ⇒ `2-2-1` 被错成 `5-5-1`（2026-10-08 卷 XIV 实测）；lookahead 保持原样
+    # （收紧 lookahead 会在 4 级小问上引入新错位，已证伪勿再试）
+    text = re.sub(r'(?<![\w\d.\-])' + p + r'\s*-\s*(\d{1,2})(?![\w\d.]|-)',
                   lambda m: '%d-%s' % (new_no, m.group(1)), text)
     return text
 
