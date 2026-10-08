@@ -24,6 +24,7 @@
   python build_chusai_zhenti_layout.py --rebuild-ref
 """
 import io
+import math
 import os
 import re
 import shutil
@@ -468,6 +469,7 @@ TCW_RE = re.compile(r"<w:tcW\b[^>]*/>")
 # A4 21cm − 左右各 1.9cm = 17.2cm = 9752 twips
 TEXT_W_TW = 9752
 TWIPS_PER_CM = 1440.0 / 2.54  # 1cm = 566.93 twips（DXA）
+COL_MIN_TW = 600              # 单列最小宽 600twips＝1.06cm（原口径，勿降）
 WIDE = re.compile(r"[\u1100-\u115f\u2e80-\ua4cf\ua960-\ua97f\uac00-\ud7ff"
                   r"\uf900-\ufaff\ufe10-\ufe19\ufe30-\ufe6f\uff00-\uff60\uffe0-\uffe6]")
 
@@ -484,6 +486,70 @@ def _disp_w(s: str) -> float:
             w += 0.5
         else:
             w += 1
+    return w
+
+
+# ── 表格列宽字体度量（避免「短内容被挤成两行」）────────────────────────────
+# 实测标定（卷 XII 答案版 PDF span，LibreOffice 渲染）：
+#   正文字号 10.5pt（五号）；CJK/全角 = 10.5pt/字；ASCII 按 Times New Roman 字宽表
+#   （已用 chemy=27.99pt、che=14.55pt、GC=14.54pt、Xe=12.20pt 逐项校验）；
+#   ⭐（U+2B50，SegoeUIEmoji 回退）= 14.41pt/颗 —— 4 颗即 57.6pt，必须单行给足。
+#   单元格可用宽 ≈ 列宽 − CELL_PAD（108twips 左右边距 ×2 ＋ 安全余量；实测：
+#   「汇智」21pt 在 30pt 列里折行、「分值」21pt 在 32.05pt 列里不折 ⇒ PAD∈(9,11]）。
+TBL_FS = 10.5
+CELL_PAD = 12.0
+CJK_LATIN_GAP = 2.6      # CJK↔半角字母/数字 自动间距（≈1/4 em）
+
+
+def _build_tnr():
+    d = {}
+    for c, u in ((" ", 250), ("!", 333), ('"', 408), ("#", 500), ("$", 500), ("%", 833),
+                 ("&", 778), ("'", 180), ("(", 333), (")", 333), ("*", 500), ("+", 564),
+                 (",", 250), ("-", 333), (".", 250), ("/", 278), (":", 278), (";", 278),
+                 ("<", 564), ("=", 564), (">", 564), ("?", 444), ("@", 921),
+                 ("[", 333), ("\\", 278), ("]", 333), ("^", 469), ("_", 500), ("`", 333),
+                 ("{", 480), ("|", 200), ("}", 480), ("~", 541)):
+        d[c] = u
+    for c in "0123456789":
+        d[c] = 500
+    for c, u in zip("ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+                    (722, 667, 667, 722, 611, 556, 722, 722, 333, 389, 722, 611, 889,
+                     722, 722, 556, 722, 667, 556, 611, 722, 722, 944, 722, 722, 611)):
+        d[c] = u
+    for c, u in zip("abcdefghijklmnopqrstuvwxyz",
+                    (444, 500, 444, 500, 444, 333, 500, 500, 278, 278, 500, 278, 778,
+                     500, 500, 500, 500, 333, 389, 278, 500, 500, 722, 500, 500, 444)):
+        d[c] = u
+    return d
+
+
+TNR_W = _build_tnr()
+
+
+def _ch_pt(ch: str) -> float:
+    """单字符排版宽度（pt，字号 TBL_FS）。"""
+    o = ord(ch)
+    if ch == "\u2b50" or 0x2B00 <= o <= 0x2BFF or 0x1F000 <= o <= 0x1FAFF:
+        return 14.41                      # 彩色 emoji（⭐ 实测值）
+    if WIDE.match(ch):
+        return TBL_FS                     # 全角 / CJK
+    if ch in TNR_W:
+        return TNR_W[ch] * TBL_FS / 1000.0
+    return 6.0 if o > 127 else 3.5
+
+
+def _txt_pt(s: str) -> float:
+    """字符串排版宽度（pt）。
+
+    含「CJK↔拉丁 自动间距」：Word/LibreOffice 会在中日韩字符与半角字母/数字
+    相邻处自动插入约 1/4 em（10.5pt ⇒ ≈2.6pt）的间距 —— 这是 `质心GChO`
+    看似 48.4pt 却塞不进 49.7pt 可用宽的真因（纯 CJK 的「分值」则不受影响）。
+    """
+    w = sum(_ch_pt(c) for c in s)
+    for a, b in zip(s, s[1:]):
+        if (WIDE.match(a) and b.isascii() and b.isalnum()) or \
+           (a.isascii() and a.isalnum() and WIDE.match(b)):
+            w += CJK_LATIN_GAP
     return w
 
 
@@ -511,6 +577,7 @@ def set_table_widths(xml: str, stat: dict) -> str:
             stat["tbl_skip"] += 1
             return t
         units = [0.0] * ncol
+        needp = [0.0] * ncol
         cells_all = []
         for r in rows:
             cs = CELL_RE.findall(r)
@@ -519,14 +586,32 @@ def set_table_widths(xml: str, stat: dict) -> str:
                 txt = "".join(re.findall(r"<w:t(?:\s[^>]*)?>([\s\S]*?)</w:t>", c))
                 txt = (txt.replace("&amp;", "&").replace("&lt;", "<").replace("&gt;", ">"))
                 units[j] = max(units[j], _disp_w(txt))
+                needp[j] = max(needp[j], _txt_pt(txt))
         # 权重 = max(内容宽, 3) + 1.5（吸收单元格左右边距 216twips≈1.2字宽）
         wt = [max(u, 3.0) + 1.5 for u in units]
         cap = 0.45 * sum(wt)
         wt = [min(x, cap) for x in wt]
         tot = sum(wt)
-        wid = [max(600, int(TEXT_W_TW * x / tot)) for x in wt]
+        wid = [max(COL_MIN_TW, int(TEXT_W_TW * x / tot)) for x in wt]
         # 末尾配平到 TEXT_W_TW
         wid[-1] += TEXT_W_TW - sum(wid)
+        # 2.5) 短列保底：任何列不得窄于其「最长单元格单行所需」（上限 45% 表宽）
+        #      否则 '2-1-1' / '7-1' / 单位列等短 token 会被断成两行。
+        cap_pt = 0.45 * (TEXT_W_TW / 20.0)
+        want = [min(needp[j] + CELL_PAD, cap_pt) for j in range(ncol)]
+        cur = [w / 20.0 for w in wid]
+        short = [max(0.0, want[j] - cur[j]) for j in range(ncol)]
+        if sum(short) > 0.05:
+            give = sum(short)
+            slack = [max(cur[j] - want[j], 0.0) for j in range(ncol)]
+            if sum(slack) < give:                 # 无富余列 ⇒ 按列宽比例承担
+                slack = [max(cur[j], 1.0) for j in range(ncol)]
+            tot = sum(slack) or 1.0
+            cur = [cur[j] + short[j] - give * slack[j] / tot for j in range(ncol)]
+            wid = [max(COL_MIN_TW, int(math.ceil(x * 20.0 - 1e-6))) for x in cur]
+            d = TEXT_W_TW - sum(wid)
+            if d:
+                wid[max(range(ncol), key=lambda i: wid[i])] += d
         # 1) tblGrid
         g = "<w:tblGrid>" + "".join(f'<w:gridCol w:w="{w}"/>' for w in wid) + "</w:tblGrid>"
         t = GRID_RE.sub(g, t, count=1) if GRID_RE.search(t) else t
@@ -579,21 +664,22 @@ def set_table_widths(xml: str, stat: dict) -> str:
 
 
 def set_list_table_widths(xml: str, stat: dict) -> str:
-    """卷末「选题清单」表（表头含「卷内题号」）按内容重算列宽。
+    """卷末「选题清单」表（表头含「卷内题号」）按「单行所需宽度」精确分配。
 
-    set_table_widths 的通用按比例分列会把「题名」「题卡」两列压得过窄
-    （长英文 stem 被排成 8~10 行竖排）。这里改用固定列保底 + 弹性列按内容
-    权重分配剩余宽度，总宽对齐 TEXT_W_TW，使长文本列获得足够横向空间。
-    仅命中 7 列且表头含「卷内题号」的表；其余表不动。
+    旧实现按字符数比例分列，把「来源」「难度」两列压到 ~1.0~1.1cm：
+    `chemy` 断成 `che`/`my`、`质心GChO` 断成 4 行、4 颗 ⭐（57.6pt）断成两行、
+    「模块」（化学原理 / 结构化学，42pt）也塞不进。
+    新口径（字体度量模型 `_txt_pt`）：
+      · 来源 / 模块 / 难度 / 分值 四列 —— 按「最长单元格单行所需 ＋ CELL_PAD」给足；
+      · 卷内题号 —— 固定 1.30cm（表头「卷内题号」设计上折两行）；
+      · 题名 / 题卡 —— 长文本列，分掉剩余宽度（仍会折行，属预期）。
+    总宽对齐 TEXT_W_TW。仅命中 7 列且表头含「卷内题号」的表；其余表不动。
     """
-    def disp_w(s: str) -> float:
-        return sum(2.0 if WIDE.match(c) else 1.0 for c in s)
-
-    FIXED = [1.30, None, None, None, 1.70, 1.75, 1.15]  # cm 保底宽；None＝弹性列
-    ELASTIC_W = {1: 1.0, 2: 1.05, 3: 0.85}
-    ELASTIC_MIN = {1: 2.8, 2: 3.0, 3: 1.9}
-    CAP = {1: 5.2, 2: 5.4, 3: 3.0}
-    TOTAL = TEXT_W_TW / TWIPS_PER_CM  # twips → cm（与后文 tblW 同宽）
+    TOTAL_PT = TEXT_W_TW / 20.0
+    QNO_PT = 1.30 * (72.0 / 2.54)              # 卷内题号固定宽
+    RIGID = (3, 4, 5, 6)                       # 来源 / 模块 / 难度 / 分值
+    FLEX = (1, 2)                              # 题名 / 题卡
+    FLEX_MIN = (2.6 * (72.0 / 2.54), 3.0 * (72.0 / 2.54))
 
     def fix(m):
         t = m.group(0)
@@ -607,47 +693,41 @@ def set_list_table_widths(xml: str, stat: dict) -> str:
         if ncol != 7:
             stat["lst_skip"] = stat.get("lst_skip", 0) + 1
             return t
-        maxw = [0.0] * 7
+        need = [0.0] * 7
         for r in rows:
             for j, c in enumerate(CELL_RE.findall(r)):
                 if j >= 7:
                     break
                 txt = "".join(re.findall(r"<w:t(?:\s[^>]*)?>([\s\S]*?)</w:t>", c))
                 txt = txt.replace("&amp;", "&").replace("&lt;", "<").replace("&gt;", ">")
-                maxw[j] = max(maxw[j], disp_w(txt))
-        sum_fixed = sum(x for x in FIXED if x is not None)
-        elast = [1, 2, 3]
-        base_w = {ci: max(maxw[ci] * 0.21, ELASTIC_MIN[ci]) * ELASTIC_W[ci] for ci in elast}
-        final = list(FIXED)
-        active = list(elast)
-        remain = TOTAL - sum_fixed
-        for _ in range(5):
-            sbase = sum(base_w[ci] for ci in active) or 1.0
-            overflow = 0.0
-            new_active = []
-            for ci in active:
-                alloc = remain * base_w[ci] / sbase
-                if alloc > CAP[ci]:
-                    final[ci] = CAP[ci]
-                    overflow += alloc - CAP[ci]
-                else:
-                    final[ci] = alloc
-                    new_active.append(ci)
-            if not new_active or overflow <= 1e-6:
+                need[j] = max(need[j], _txt_pt(txt))
+        # 刚性四列＝单行所需；若总预算给「题名/题卡」留不下限，逐级压缩单元格边距
+        rigid = {j: need[j] + CELL_PAD for j in RIGID}
+        remain = TOTAL_PT - QNO_PT - sum(rigid.values())
+        for pad in (8.0, 6.0, 4.0):
+            if remain >= sum(FLEX_MIN):
                 break
-            active = new_active
-            remain = sum(final[ci] for ci in active) + overflow
-        slack = TOTAL - sum(final)
-        if slack > 1e-6:
-            for ci in (2, 1, 3):
-                if final[ci] < CAP[ci]:
-                    add = min(slack, CAP[ci] - final[ci])
-                    final[ci] += add
-                    slack -= add
-                    if slack <= 1e-6:
-                        break
-        wid = [max(600, int(round(x * TWIPS_PER_CM))) for x in final]  # cm → twips
-        wid[-1] += TEXT_W_TW - sum(wid)
+            rigid = {j: need[j] + pad for j in RIGID}
+            remain = TOTAL_PT - QNO_PT - sum(rigid.values())
+        w = [0.0] * 7
+        w[0] = QNO_PT
+        for j in RIGID:
+            w[j] = rigid[j]
+        # 弹性两列：能用「题名单行 ＋ 题卡两行」就用（余额给题卡）；
+        # 题名单行无望时按内容比例分（长列各让一步），避免任一方被压死。
+        w1_full = need[1] + CELL_PAD               # 题名 单行所需
+        card2 = need[2] / 2.0 + CELL_PAD           # 题卡 两行所需
+        if remain >= w1_full + card2 - 4.0:        # 4pt 容差：两列各让 2pt
+            w[1] = min(w1_full, remain - FLEX_MIN[1])
+        else:
+            s = (need[1] + need[2]) or 1.0
+            w[1] = remain * need[1] / s
+        w[2] = max(remain - w[1], FLEX_MIN[1])
+        w[1] = remain - w[2]
+        wid = [max(COL_MIN_TW, int(math.ceil(x * 20.0 - 1e-6))) for x in w]   # pt → twips（向上取整，防 0.02pt 差）
+        d = TEXT_W_TW - sum(wid)
+        if d:
+            wid[max(range(7), key=lambda i: wid[i])] += d   # 余数给最宽列（题卡），不动刚性列
         g = ("<w:tblGrid>" + "".join(f'<w:gridCol w:w="{w}"/>' for w in wid)
              + "</w:tblGrid>")
         t = GRID_RE.sub(g, t, count=1) if GRID_RE.search(t) else t
