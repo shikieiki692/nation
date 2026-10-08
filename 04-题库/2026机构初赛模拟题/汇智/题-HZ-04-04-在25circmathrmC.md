@@ -96,8 +96,6 @@ $$
 有：
  $K_{a}=\frac{x^{2}}{c_{0}-x}$
 
-
-
 弱酸,若 $x \ll c_0$ ,近似 $c_0 - x \approx c_0$ ,则: $x^2 \approx K_a c_0 = 1.8 \times 10^{-5} \times 0.10 = 1.8 \times 10^{-6}$  $x \approx \sqrt{1.8 \times 10^{-6}} \approx 1.34 \times 10^{-3} \text{mol/L}^{-1}$  $[\text{H}^{+}] \approx 1.34 \times 10^{-3} \text{mol/L}^{-1}$ pH  $= -\log_{10}[\text{H}^{+}] \approx -\log_{10}(1.34 \times 10^{-3}) \approx 2.87$ (3分,共4分)
 
 4-2-1(每个电势3分,共6分)氢电极(还原方向) $2\text{H}^{+} + 2e^{-} \rightleftharpoons \text{H}_2(g), E^\circ = 0.000 \text{V}$  $E = E^\circ - \frac{0.0591}{2} \log Q = -\frac{0.0591}{2} \log \frac{P_{\text{H}_2}}{[\text{H}^{+}]^2}$ 当 $P_{\text{H}_2} = 1.00 \text{atm}$ 时: $E(\text{H}^{+}/\text{H}_{2}) = -\frac{0.0591}{2} \log \frac{1}{[\text{H}^{+}]^2} = 0.0591 \log [\text{H}^{+}]$  $\boxed{E(\text{H}^{+}/\text{H}_{2}) = -0.0591 \text{pH}}$ 代入pH = 2.87计算电极电势 $E_{\text{cath}} = -0.0591 \times 2.87 = -0.1697 \text{V} = -0.170 \text{V}$ 氧还原/析氧(还原方向) $\text{O}_2(g) + 4\text{H}^{+} + 4e^{-} \rightleftharpoons 2\text{H}_2\text{O}(l), E^\circ = 1.229 \text{V}$ 反应商: $Q = \frac{1}{P_{\text{O}_2}[\text{H}^{+}]^{\ddagger}}$ 能斯特方程: $E = 1.229 - \frac{0.0591}{4} \log Q = 1.229 + \frac{0.0591}{4} \log (P_{\text{O}_2}[\text{H}^{+}]^4)$ 当 $P_{\text{O}_2} = 1.00 \text{atm}$ 时: $E(\text{O}_2/\text{H}_2\text{O}) = 1.229 + \frac{0.0591}{4} \log [\text{H}^{+}]^4 = 1.229 + 0.0591 \log [\text{H}^{+}] = 1.229 - 0.0591 \text{pH}$  $\boxed{E(\text{O}_2/\text{H}_2\text{O}) = 1.229 - 0.0591 \text{pH}}$ 代入pH = 2.87计算电极电势 $E_{\text{anode(cred)}} = 1.229 - 0.0591 \times 2.87 \approx 1.229 - 0.1697 \approx 1.059 \text{V}$
