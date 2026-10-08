@@ -14,7 +14,7 @@ knowledge_points:
   - "[[密度公式]]"
   - "[[元素化学]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 质心UChO]
-updated: 2026-09-26
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 结构化学
@@ -43,7 +43,7 @@ source_file: "2026机构初赛模拟题/02-质心UChO/5thZCHEM-UChO-Tour1.md"
 
 ## 参考答案
 
-## 第3题 (10分)
+第3题 (10分)
 $$
 \begin{array}{r l} {3 1. M _ {0}} & {= \frac {\rho_ {N A V}}{2} = \dots = 1 4 6. 9 (g \cdot m o l ^ {- 1})} \\ & {\mathrm{InS.}} \\ & {M _ {E} = \frac {\rho_ {N A V}}{2} = \dots = \underbrace {9 1 3 . 3 (g \cdot m o l ^ {- 1})} _ {x \cdot M (I n) + y M (S)} = 9 1 3. 3.} \\ & {\Rightarrow \left\{ \begin{array}{l l} x = 6 \\ y = 7 \end{array} \right. E: I n _ {0} S _ {7}.} \end{array}
 $$

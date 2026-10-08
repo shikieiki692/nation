@@ -16,7 +16,7 @@ knowledge_points:
   - "[[配合物]]"
   - "[[能带理论]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 北京夏令营]
-updated: 2026-09-26
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 结构化学
@@ -60,7 +60,7 @@ $H_{2}L$
 
 ## 参考答案
 
-## 第5题
+第5题
 
 5-1-1
 
