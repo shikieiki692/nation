@@ -15,7 +15,7 @@ knowledge_points:
   - "[[熵变计算]]"
   - "[[热力学第一定律]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, 质心UChO]
-updated: 2026-09-26
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 化学原理
@@ -33,6 +33,9 @@ source_file: "2026机构初赛模拟题/02-质心UChO/3rdZCHEM-UChO-Tour1.md"
 ## 题目
 
 ### 第 5 题 (12 分) 现有如下图所示的绝热容器, 中间用可以自由滑动但不导热的隔板隔开.
+
+> ⛔ **待补图**：题面此处原文有插图，OCR 建卡时图片未随卡（源答案文件亦无此图），回源补图待人工。组卷引用此题时注意图缺失。
+
 
 <table><tr><td>1 mol N2100 kPa30 °C</td><td>1 mol N2100 kPa30 °C</td></tr></table>
 

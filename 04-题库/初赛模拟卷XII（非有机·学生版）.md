@@ -84,11 +84,11 @@ question_count: 10
 甲烷在 298.15K，101.325kPa 下燃烧反应方程式如下：
 
 $$
-\mathrm{CH} _ {4} (\mathrm{g}) + 2 \mathrm{O} _ {2} (\mathrm{g}) = \mathrm{CO} _ {2} (\mathrm{g}) + 2 \mathrm{H} _ {2} \mathrm{O} (\mathrm{l}) \quad \Delta_ {\mathrm{r}} \mathrm{H} _ {\mathrm{m}} ^ {\ominus} (1) = - 890.35 \mathrm{kJ/mol}
+\mathrm{CH} _ {4} (\mathrm{g}) + 2 \mathrm{O} _ {2} (\mathrm{g}) = \mathrm{CO} _ {2} (\mathrm{g}) + 2 \mathrm{H} _ {2} \mathrm{O} (\mathrm{l}) \quad \Delta_ {\mathrm{r}} \mathrm{H} _ {\mathrm{m}} ^ {\ominus} (1) = - 890.35 \mathrm{kJ\cdot mol^{-1}}
 $$
 
 $$
-\mathrm{CH} _ {4} (\mathrm{g}) + 2 \mathrm{O} _ {2} (\mathrm{g}) = \mathrm{CO} _ {2} (\mathrm{g}) + 2 \mathrm{H} _ {2} \mathrm{O} (\mathrm{g}) \quad \Delta_ {\mathrm{r}} \mathrm{H} _ {\mathrm{m}} ^ {\ominus} (2) = - 802.29 \mathrm{kJ/mol}
+\mathrm{CH} _ {4} (\mathrm{g}) + 2 \mathrm{O} _ {2} (\mathrm{g}) = \mathrm{CO} _ {2} (\mathrm{g}) + 2 \mathrm{H} _ {2} \mathrm{O} (\mathrm{g}) \quad \Delta_ {\mathrm{r}} \mathrm{H} _ {\mathrm{m}} ^ {\ominus} (2) = - 802.29 \mathrm{kJ\cdot mol^{-1}}
 $$
 
 4-1 计算水在 298.15K，101.325kPa 下的标准摩尔蒸发焓 $\Delta_{vap}H_{m}^{\ominus}$ 。(2')
@@ -101,11 +101,13 @@ $$
 
 ### 第 5 题（13 分）
 
-随着核电的发展，绿色、高效地处理核废料愈发重要。将中子捕获生成的人造超铀元素通过形成氧化物的方式保存于密闭空间内，可以极大地降低核污染。研究人员报道了一例不定组成的，U与Am的混合氧化物 $U_{1-y}Am_{y}O_{2+x}$ （y<0.5），具有氧额外掺杂的萤石型结构。3-1掺杂的氧原子位于晶体的八面体空隙中。指出其填隙率，可用x表示，假设x>0。
+随着核电的发展，绿色、高效地处理核废料愈发重要。将中子捕获生成的人造超铀元素通过形成氧化物的方式保存于密闭空间内，可以极大地降低核污染。研究人员报道了一例不定组成的，U与Am的混合氧化物 $U_{1-y}Am_{y}O_{2+x}$ （y<0.5），具有氧额外掺杂的萤石型结构。
+
+5-1 掺杂的氧原子位于晶体的八面体空隙中。指出其填隙率，可用x表示，假设x>0。
 
 5-2 合成反应在高温下进行，产物具有随机的 U/Am 分布，可视作理想混合物。根据如下数据，计算 $U_{0.85}Am_{0.15}O_{2}$ 的标准摩尔生成吉布斯自由能，假设热力学数据随温度不变。注意混合过程。
 
-| 化学式 | $\Delta_{f}H_{m}^{\circ}/ kJ·mol^{-1}$ | $S_{m}^{\circ}/J·mol^{-1}·K^{-1}$ | $\Delta_{f}G_{m}^{\circ}/kJ·mol^{-1}$ |
+| 化学式 | $\Delta_{f}H_{m}^{\ominus}/ kJ·mol^{-1}$ | $S_{m}^{\ominus}/J·mol^{-1}·K^{-1}$ | $\Delta_{f}G_{m}^{\ominus}/kJ·mol^{-1}$ |
 |:--:|:--:|:--:|:--:|
 | $O_2$ | / | 205.1 | / |
 | $UO_2$ | -1085 | 77.03 | / |
@@ -113,7 +115,7 @@ $$
 | $U_4O_9$ | -4512 | 334.1 | -4535 |
 | $AmO_2$ | -932.2 | 75.50 | / |
 
-5-3 合成时的氧势（ $\Delta G(\mathrm{O}_2) = RT \ln(p_0/p^\circ)$ ，描述氧化物中氧逸出到气相的趋势）可很大程度上影响 $x$ 的取值。对于上述体系，在反应初期，可认为体系中存在一组对峙反应。
+5-3 合成时的氧势（ $\Delta G(\mathrm{O}_2) = RT \ln(p_0/p^{\ominus})$ ，描述氧化物中氧逸出到气相的趋势）可很大程度上影响 $x$ 的取值。对于上述体系，在反应初期，可认为体系中存在一组对峙反应。
 
 $$
 m \mathrm{U} _ {0.85} \mathrm{Am} _ {0.15} \mathrm{O} _ {2} + \mathrm{O} _ {2} \leftrightarrows m \mathrm{U} _ {0.85} \mathrm{Am} _ {0.15} \mathrm{O} _ {2 + \frac {2}{m}}
@@ -144,16 +146,18 @@ $$
 
 7-1 在 968 K 和 1247 K 时，在液态钠上方钠蒸气的平衡分压分别为 13.7 kPa 和 219.9 kPa。计算钠的蒸发焓 $\Delta H_{\mathrm{vap}}$ (设各反应的焓变不随温度变化)。
 
-7-2 气态钠原子电离 1 个电子所对应的谱线波数(即波长的倒数)为 $D = 41449 \, cm^{-1}$ ，计算该过程对应的能量变化 I (以 kJ/mol 表示)。I 为由静止的钠原子生成静止的钠离子和电子的能量变化；而在 298.15 K 下，该过程的焓变 $\Delta H_{I} = I + 2.5RT$ ，计算 $\Delta H_{I}$ 。(阿伏伽德罗常量 $N_{A} = 6.02214076 \times 10^{23}/mol$ ，普朗克常数 $h = 6.62607015 \times 10^{-34} J \cdot s$ ，光速 c = 299792458 m/s)
+7-2 气态钠原子电离 1 个电子所对应的谱线波数(即波长的倒数)为 $D = 41449 \, cm^{-1}$ ，计算该过程对应的能量变化 I (以 $\mathrm{kJ\cdot mol^{-1}}$ 表示)。I 为由静止的钠原子生成静止的钠离子和电子的能量变化；而在 298.15 K 下，该过程的焓变 $\Delta H_{I} = I + 2.5RT$ ，计算 $\Delta H_{I}$ 。(阿伏伽德罗常量 $N_{A} = 6.02214076 \times 10^{23}/mol$ ，普朗克常数 $h = 6.62607015 \times 10^{-34} J \cdot s$ ，光速 c = 299792458 m/s)
 
-| 反应 | ΔH (kJ/mol) |
+7-3 根据下表数据，计算 NaCl 在 298.15 K 下的标准摩尔生成焓。
+
+| 反应 | $\Delta H/\mathrm{kJ}\cdot\mathrm{mol}^{-1}$ |
 |:--:|:--:|
 | 2Na(s) + 2H2O(l) → 2NaOH(aq) + H2(g) | -369.24 |
 | Cl2(g)+ H2(g) → 2HCl(aq) | -334.48 |
 | HCl(aq) + NaOH(aq) → NaCl(aq) + H2O(I) | -55.72 |
 | NaCl(s) → NaCl(aq) | 3.87 |
 
-7-4 测得 Na 的熔化焓为 $\Delta H_{fus} = 2.6 \, kJ/mol$ ， $Cl_{2}$ 的键焓为 $\Delta H_{D} = 242.6 \, kJ/mol$ ，气态氯原子结合一个电子的焓变为 $\Delta H_{E} = -349.0 \, kJ/mol$ ，计算 NaCl 在 298.15 K 下的晶格焓。
+7-4 测得 Na 的熔化焓为 $\Delta H_{fus} = 2.6 \, \mathrm{kJ\cdot mol^{-1}}$ ， $Cl_{2}$ 的键焓为 $\Delta H_{D} = 242.6 \, \mathrm{kJ\cdot mol^{-1}}$ ，气态氯原子结合一个电子的焓变为 $\Delta H_{E} = -349.0 \, \mathrm{kJ\cdot mol^{-1}}$ ，计算 NaCl 在 298.15 K 下的晶格焓。
 
 ---
 
@@ -201,16 +205,16 @@ $$
 
 |  | $NH_3(g)$ | $NO_3^- (aq)$ | $NO_2(g)$ | NO(g) | $H_2O(l)$ | $O_2(g)$ |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| $Δ_fH_m^\theta/kJ·mol^{-1}$ | -45.9 | -206.9 | 33.2 | 91.3 | -285.8 | 0 |
-| $S_m^\theta/J·mol^{-1}·K^{-1}$ | 192.8 | 146.7 | 240.1 | 210.8 | 70.0 | 205.2 |
+| $Δ_fH_m^{\ominus}/kJ·mol^{-1}$ | -45.9 | -206.9 | 33.2 | 91.3 | -285.8 | 0 |
+| $S_m^{\ominus}/J·mol^{-1}·K^{-1}$ | 192.8 | 146.7 | 240.1 | 210.8 | 70.0 | 205.2 |
 
 (本题忽略各物质热容影响, 认为 $\mathrm{HNO}_{3}$ 完全电离)
 
 ## 第2页,共6页
 
-10-1 硝酸的生产使用现代版的 Ostwald 法，该法首先经两步反应将 $\mathrm{NH}_{3}(\mathrm{~g})$ 氧化成 $\mathrm{NO}_{2}(\mathrm{~g})$ 。请写出总反应的热化学方程式，并计算 $\Delta_{r}H_{m}^{\theta}$ 、 $\Delta_{r}S_{m}^{\theta}$ 、 $\Delta_{r}G_{m}^{\theta}$ 。(T = 298.15 K)
+10-1 硝酸的生产使用现代版的 Ostwald 法，该法首先经两步反应将 $\mathrm{NH}_{3}(\mathrm{~g})$ 氧化成 $\mathrm{NO}_{2}(\mathrm{~g})$ 。请写出总反应的热化学方程式，并计算 $\Delta_{r}H_{m}^{\ominus}$ 、 $\Delta_{r}S_{m}^{\ominus}$ 、 $\Delta_{r}G_{m}^{\ominus}$ 。(T = 298.15 K)
 
-10-2 随后，在加热条件下将 $\mathrm{NO}_2(\mathrm{g})$ 溶于水得到 $\mathrm{HNO}_3$ ，请写出该反应的热化学方程式，并计算 $\Delta_{\mathrm{r}}\mathrm{G}_{\mathrm{m}}^{\theta}$ 以及标准平衡常数 $\mathrm{K}^{\theta}$ 。（T = 348.15 K）
+10-2 随后，在加热条件下将 $\mathrm{NO}_2(\mathrm{g})$ 溶于水得到 $\mathrm{HNO}_3$ ，请写出该反应的热化学方程式，并计算 $\Delta_{\mathrm{r}}\mathrm{G}_{\mathrm{m}}^{\ominus}$ 以及标准平衡常数 $\mathrm{K}^{\ominus}$ 。（T = 348.15 K）
 
 10-3 一体积为 40.0 L 的密闭容器中装有 300 bar NO(g)，从容器上的小孔通入原压强为 1.00 bar NO $_{2}$ (g) 21.0 m $^{3}$ 与一定量的水，随后封闭容器。反应达平衡后，溶液体积为 30.0 L。温度默认为 348.15 K，不考虑NO $_{2}$ (g)二聚。
 

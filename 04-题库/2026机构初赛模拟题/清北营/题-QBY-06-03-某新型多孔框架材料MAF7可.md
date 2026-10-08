@@ -76,7 +76,7 @@ $$
 
 3-2
 
-$\Delta H = -37.3 \text{ kJ/mol}$
+$\Delta H = -37.3 \mathrm{kJ\cdot mol^{-1}}$
 
 
 

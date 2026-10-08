@@ -38,9 +38,8 @@ question_count: 10
 
 #### 答案
 
-1-1 n = 3；六方晶系。（各 1 分，共 2 分）
-
-1-2 M 和 F 的坐标每个 0.5 分，共 5 分。如果旋转方向有误导致 z 坐标错误，整题扣 3 分。
+1-1n = 3；六方晶系。（各 1 分，共 2 分）
+1-2M 和 F 的坐标每个 0.5 分，共 5 分。如果旋转方向有误导致 z 坐标错误，整题扣 3 分。
 M (0.4812, 0.2406, 0.0833) (0.2406, 0.7594, 0.9167) (0.7594, 0.5188, 0.7500)
 (0.5188, 0.7594, 0.5833) (0.7594, 0.2406, 0.4167) (0.2406, 0.4812, 0.2500)
 F (0.1673, 0.1673, 0.1667) (0, 0.1673, 0.3333) (0.8327, 0, 0.5000)
@@ -48,10 +47,23 @@ F (0.1673, 0.1673, 0.1667) (0, 0.1673, 0.3333) (0.8327, 0, 0.5000)
 
 坐标为(0.1673, 0.1673, 0.1667)的 F 原子对应 205.2 pm，坐标为(0.7761, 0.4639, 0.1624)的 F 原子对应 193.3 pm。（1 分） $205.2\ \text{pm} = [(0.0834c)^{2} + (0.3139a)^{2} + (0.0733a)^{2} - 0.3139a \times 0.0733a]^{0.5}$ （1 分） $193.3\ \text{pm} = [(0.0791c)^{2} + (0.2949a)^{2} + (0.2233a)^{2} - 0.2949a \times 0.2233a]^{0.5}$ （1 分）
 解得 a = 534.5 pm, c = 1652.6 pm（1 分）
+1-4根据密度可得出 $M_{r}=254\ g/mol$ ，从而 M 为 Au。（计算 1 分，结果 1 分）
 
-1-4 根据密度可得出 $M_{r}=254\ g/mol$ ，从而 M 为 Au。（计算 1 分，结果 1 分）
-
-> **解析**（据源答案整理）：考查由螺旋链构型定晶系与分数坐标。要点：由 MF₄ 四边形共顶点连接的一维螺旋链，按 4 重/6 重螺旋的对称性判定 n=3、属六方晶系；再由螺旋轴操作生成 M 与 F 的全部分数坐标（旋转方向有误会致 z 坐标整体错位）；末问由两组 F–F 距离反解 a、c。
+> —— 解析 ——
+>
+> **考点**：晶体对称性与螺旋轴（知识点：〈晶体对称性〉、〈七大晶系〉、〈晶胞〉、〈点阵与晶胞〉）
+>
+> **思路**：由「过 (0,0,0) 有 $6_1$ 螺旋轴」直接定晶系；再用 $6_1$ 的对称操作（绕 $c$ 轴逆时针转 $60^\circ$并沿 $c$ 上升 $1/6$）生成全部坐标；键长问题回到**六方晶系的点间距离公式**联立求解晶胞参数；最后用密度公式反推式量，据式量锁定元素。
+>
+> **1-1**（2 分）$6_1$ 螺旋轴说明晶体具有**六次轴**⇒ 属**六方晶系**。再看 $n$：$MF_4$ 中每个 M 与 4 个 F 配位（四边形配位），其中**2 个 F 为桥连**（被 2 个 M 共用）、**2 个 F 为端基**（只与 1 个 M 相连），故每个 M 净摊到的 F 数为 $2\times\frac12+2=3$ ⇒ 化学式 $MF_3$，$n=3$。
+>
+> **1-2**（5 分）$6_1$ 操作＝绕 $c$ 轴逆时针转 $60^\circ$ 并上升 $c/6$。由 $M_1(0.4812,0.2406,0.0833)$ 依次施加 5 次得 6 个 M：$z$ 依次为 $0.0833\to0.2500\to0.4167\to0.5833\to0.7500\to0.9167$（每步 $+1/6$）；$(x,y)$ 每步按 $60^\circ$ 旋转的整数坐标变换得到。被 2 个 M 共用的 F 同理生成 6 个，$z$ 为$0.1667,0.3333,0.5000,0.6667,0.8333,0$（亦步进 $1/6$）。坐标见源答案表（每个 0.5 分，共 5 分）。
+>
+> **1-3**（4 分）六方晶系中两点 $(u_1,v_1,w_1)$ 与 $(u_2,v_2,w_2)$ 的距离：$d^2=a^2(\Delta u^2+\Delta v^2-\Delta u\,\Delta v)+c^2\Delta w^2$（$\gamma=120^\circ$，$\vec a_1\!\cdot\!\vec a_2=-a^2/2$ 给出交叉项 $-\Delta u\Delta v$）。对 $F(0.1673,0.1673,0.1667)$ 与 $M_1$：$\Delta u=-0.3139,\Delta v=-0.0733,\Delta w=0.0834$；对 $F(0.7761,0.4639,0.1624)$：$\Delta u=0.2949,\Delta v=0.2233,\Delta w=0.0791$。两个方程联立即得 $a\approx534.5\ \mathrm{pm}$、$c\approx1652.6\ \mathrm{pm}$。键长对应关系：$(0.1673,0.1673,0.1667)$ 的 F 为长键 $205.2\ \mathrm{pm}$，$(0.7761,0.4639,0.1624)$ 为短键 $193.3\ \mathrm{pm}$。
+>
+> **1-4**（2 分）六方晶胞体积 $V=a^2c\sin60^\circ=(534.5\times10^{-10})^2\times1652.6\times10^{-10}\times0.8660\approx4.09\times10^{-22}\ \mathrm{cm^3}$。由 $\rho=\dfrac{Z M_r}{N_A V}$，$M_r=\dfrac{\rho N_A V}{Z}$；每晶胞含 6 个 $MF_3$ 式量单元（$Z=6$），得 $M_r(MF_3)\approx254$ ⇒ $M_r(M)=254-3\times19.00\approx197$ ⇒ **M 为 Au**。
+>
+> **易错**：① 旋转方向必须按「逆时针」，否则 $z$ 坐标整题出错（源卷明示扣 3 分）；② 六方晶系距离公式的交叉项是 **$-\Delta u\Delta v$**（由 $120^\circ$ 夹角而来），误写成「加」则解不出正确晶胞参数；③ 密度公式中的 $Z$ 是**式量单元数**（此题为 $MF_3$ 的 6 个），若按「原子数」算会多出 3 倍误差。
 
 ---
 
@@ -85,15 +97,31 @@ F (0.1673, 0.1673, 0.1667) (0, 0.1673, 0.3333) (0.8327, 0, 0.5000)
 **2-1-2** $\rho = \frac{4x}{3.922^{2} \times 14.154 \times 1 \times 10^{-24} \times N_{A}} = 8.976$ ,解得  $x=294.21$ g/mol将所有非金属元素带入发现 USi2 符合条件,故 A 为 U,B 为 Si
 
 **2-1-3** $4_{1}$ 螺旋轴在(0.25,0.75,0)(0.75,0.25,0)通过两点与c轴平行的直线上晶体中还有 $4_{3}$ 螺旋轴,在(0.25,0.25,0),(0.75,0.75,0)两点与c轴平行的直线上
-
-2-1-4
-第一种 B-B 的距离为 $\sqrt{(0.07c)^{2} + (0.5a)^{2}} = 2.197\text{Å}$ 第二种 B-B 之间的距离为 $\sqrt{((0.59 - 0.41)c)^{2}} = 2.548\text{Å}$ 第一种可能的 A-B 最短距离为 $\sqrt{2 \times (0.5a)^{2} + (0.09c)^{2}} = 3.052\text{Å}$ 第二种可能的 A-B 最短距离为 $\sqrt{(0.5a)^{2} + (0.16c)^{2}} = 2.996\text{Å}$ 故 B-B 最短距离为 2.197Å，A-B 最短距离为 2.996Å
+2-1-4第一种 B-B 的距离为 $\sqrt{(0.07c)^{2} + (0.5a)^{2}} = 2.197\text{Å}$ 第二种 B-B 之间的距离为 $\sqrt{((0.59 - 0.41)c)^{2}} = 2.548\text{Å}$ 第一种可能的 A-B 最短距离为 $\sqrt{2 \times (0.5a)^{2} + (0.09c)^{2}} = 3.052\text{Å}$ 第二种可能的 A-B 最短距离为 $\sqrt{(0.5a)^{2} + (0.16c)^{2}} = 2.996\text{Å}$ 故 B-B 最短距离为 2.197Å，A-B 最短距离为 2.996Å
 
 **2-2-1** 含有 1mol 这样的六元环
 
 **2-2-2** $\rho = \frac{ZM}{N_{AV}}$ ,这种晶体密度为  $9.400g/cm^{3}$ 故六方晶形密度较大
 
-> **解析**（据源答案整理）：考查 4₁ 螺旋轴操作与分数坐标生成。要点：由部分 A 原子坐标按 4₁ 螺旋（绕 c 转 90° 并平移 c/4）推出其余 A、B 原子坐标；再由 a＝b＝3.922 Å、c＝14.154 Å 与密度 8.976 g·cm⁻³ 反推化学式（A 为 U、B 为 Si）；并指出晶体中 4₁ 与 4₃ 螺旋轴所在位置。
+> —— 解析 ——
+>
+> **考点**：螺旋轴与等效点系、晶胞参数与密度（知识点：〈晶体对称性〉、〈晶胞〉、〈点阵与晶胞〉、〈晶体密度公式〉）
+>
+> **思路**：用 $4_1$ 螺旋操作（「转 $90^\circ$ ＋升 $c/4$」，轴位置由已知点反推）生成全部等效点；化学式由**密度公式**试算式量后按「第三周期非金属」筛选；距离按四方晶系公式平方求和。
+>
+> **2-1-1**$4_1$ 轴沿 $c$，其位置可由已知 A$(0,0,0)$ 与 $(0,0.5,0.25)$ 反推为过 $(0.25,0.75)$（等价地 $(0.75,0.25)$）的直线，操作为「**逆时针**转 $90^\circ$ 且 $z$ 上升 $1/4$」。由 $(0,0,0)$ 生成 $(0,0.5,0.25)\to(0.5,0.5,0.50)\to(0.5,0,0.75)$；故其余 A 为 $(0.5,0.5,0.50)$、$(0.5,0,0.75)$。B 有两组化学环境，同法各生成 4 个，新增 6 个：$(0.5,0,0.34),(0,0,0.41),(0,0.5,0.66),(0,0.5,0.84),(0,0,0.59),(0.5,0.5,0.91)$（见源答案表）。
+>
+> **2-1-2**$V=a^2c=3.922^2\times14.154=217.7\ \mathrm{Å^3}=2.177\times10^{-22}\ \mathrm{cm^3}$。晶胞含 4 个 A、8 个 B（即 $Z=4$ 个 $AB_2$），由 $\rho=\dfrac{ZM_r}{N_A V}$ 得$M_r=\dfrac{8.976\times6.022\times10^{23}\times2.177\times10^{-22}}{4}\approx294.2$。$M_r(AB_2)=A+2B=294.2$，B 为第三周期非金属（Si、P、S、Cl 逐个试），仅 $A=238$（U）、$B=28$（Si）使 $238+2\times28=294$ 成立 ⇒ **$USi_2$**。
+>
+> **2-1-3**$4_1$ 螺旋轴位于过 $(0.25,0.75,0)$ 与 $(0.75,0.25,0)$、平行于 $c$ 轴的两条直线上；晶胞中另有 $4_3$ 螺旋轴，位于过 $(0.25,0.25,0)$、$(0.75,0.75,0)$ 的平行 $c$ 轴直线上（$4_3$ 与 $4_1$ 同轴但旋向相反，$4_1$ 的镜像/反演等价操作）。
+>
+> **2-1-4**$a=b=3.922\ \mathrm{Å},\ c=14.154\ \mathrm{Å}$。B–B（同层相邻，$z$ 差 $0.07$）：$\sqrt{(0.07c)^2+(0.5a)^2}=\sqrt{0.991^2+1.961^2}=2.197\ \mathrm{Å}$；B–B（另一组，$z$ 差 $0.18$）：$0.18c=2.548\ \mathrm{Å}$。A–B（体对角方向）：$\sqrt{(0.5a)^2+(0.16c)^2}=2.996\ \mathrm{Å}$ 与 $\sqrt{2(0.5a)^2+(0.09c)^2}=3.052\ \mathrm{Å}$。故 **B–B 最短 $2.197\ \mathrm{Å}$，A–B 最短 $2.996\ \mathrm{Å}$**。
+>
+> **2-2-1**简单六方堆积中 B 填入全部三棱柱空隙。同层 B 相互连接成六元环：每个六元环由 6 个 B 构成，而每个 B 同时属于 3 个环 ⇒ 每个环净摊到 $6/3=2$ 个 B。$1\ \mathrm{mol}\ AB_2$ 含 $2\ \mathrm{mol}\ B$，故含 $2/2=1\ \mathrm{mol}$ 六元环。
+>
+> **2-2-2**$a=b=3.839\ \mathrm{Å},\ c=4.072\ \mathrm{Å}$，$V=a^2c\sin60^\circ=3.839^2\times4.072\times0.8660=51.97\ \mathrm{Å^3}$。该六方堆积每晶胞含 1 个 $AB_2$：$\rho=\dfrac{294.2}{6.022\times10^{23}\times51.97\times10^{-24}}=9.40\ \mathrm{g\cdot cm^{-3}}$。与 2-1 的 $8.976\ \mathrm{g\cdot cm^{-3}}$ 相比，**六方堆积（同素异构体）密度更大**（原子堆积更紧密）。
+>
+> **易错**：① $4_1$ 螺旋轴的位置要**由已知等效点反推**（过 $(0.25,0.75)$ 而非原点），直接用原点会得错坐标；② 旋向（逆时针）影响坐标生成顺序；③ 2-2-1 中「每个六元环净含 2 个 B」是易漏的共享计数；④ 两种异构体密度比较不要凭体积大小直觉，须代入公式计算。
 
 ---
 
@@ -127,7 +155,7 @@ $$
 \mathrm{TiO} _ {2} + \mathrm{B} _ {2} \mathrm{O} _ {3} + 5 \mathrm{C} \rightarrow \mathrm{TiB} _ {2} + 5 \mathrm{CO} (3 \text {分})
 $$
 
-$Ti + 2B \rightarrow TiB_{2}$ (2 分)
+$Ti + 2B \rightarrow TiB_{2}$ （2 分）
 
 $$
 \mathrm{TiCl} _ {4} + 2 \mathrm{BCl} _ {3} + 5 \mathrm{H} _ {2} \rightarrow \mathrm{TiB} _ {2} + 10 \mathrm{HCl} (3 \text {分})
@@ -149,7 +177,27 @@ a 轴： $\alpha_{0}\Delta T=8.2\times10^{-6}\times(1300-300)=8.2\times10^{-6}\t
 
 c 轴: $\alpha_{\mathrm{c}} \Delta T = 10.5 \times 10^{-6} \times 1000 = 0.0105 = 1.05\%$
 
-> **解析**（据源答案整理）：考查 AlB₂ 型结构与成键解释。要点：B 形成石墨烯状六元环、Ti 位于环间，共价/离子/金属键构成的三维强键网络解释其高硬度与高熔点；书写三条制备 TiB₂ 的反应方程式；由 a＝3.03 Å、c＝3.23 Å、Z＝1 计算理论密度与 B–B 最短距离；思考题按热膨胀系数计算 a、c 轴的相对伸长率。
+> —— 解析 ——
+>
+> **考点**：过渡金属硼化物的成键与结构、晶胞密度与几何计算（知识点：〈晶体密度公式〉、〈离子晶体与键型〉、〈晶格能〉）
+>
+> **思路**：3-1 从「强共价网络＋混合键型」解释宏观性质；3-2 按反应物配平化学方程式；3-3 用六方晶胞体积公式算密度、按六元环几何算 B–B 键长；3-4 由热膨胀系数定义直接积分得相对伸长率。
+>
+> **3-1**（2 分）① B 原子之间形成**类石墨烯的六元环共价网络**（强 B–B 共价键），构成二维刚性骨架；② Ti 与 B 之间为**离子键与金属键的混合**，Ti 层与 B 层交替堆垛，构成**三维强键网络**；③ 强键网络使原子难以移动（高熔点）且难以形变（高硬度）。
+>
+> **3-2-1**（3 分）$\mathrm{TiO_2+B_2O_3+5C\to TiB_2+5CO}$（碳作还原剂，产物为 CO；按 Ti、B 守恒配平）。
+>
+> **3-2-2**（2 分）$\mathrm{Ti+2B\to TiB_2}$。
+>
+> **3-2-3**（3 分）$\mathrm{TiCl_4+2BCl_3+5H_2\to TiB_2+10HCl}$（H₂ 为还原剂，Cl 全部转入 HCl：$4+6=10$）。
+>
+> **3-3-1**（4 分）$V=a^2c\sin60^\circ=(3.03\times10^{-8})^2\times3.23\times10^{-8}\times\dfrac{\sqrt3}{2}\approx2.57\times10^{-23}\ \mathrm{cm^3}$；每晶胞 1 个 $TiB_2$，$\rho=\dfrac{M_r}{N_A V}=\dfrac{47.88+2\times10.81}{6.022\times10^{23}\times2.57\times10^{-23}}=\dfrac{69.50}{15.48}\approx4.49\ \mathrm{g\cdot cm^{-3}}$。
+>
+> **3-3-2**（1 分）B 六元环内相邻 B 原子间距＝正六边形边长。$a/2$ 为六元环外接圆半径，边长 $=a/\sqrt3$，故 $d(\mathrm{B-B})=3.03/\sqrt3\approx1.75\ \mathrm{Å}$。
+>
+> **3-4**（不计分）相对伸长率 $=\dfrac{\Delta L}{L}=\alpha\Delta T$。$a$ 轴：$8.2\times10^{-6}\times(1300-300)=0.82\%$；$c$ 轴：$10.5\times10^{-6}\times1000=1.05\%$。（$c$ 轴伸长更多，与 $c$ 轴方向的键强较弱一致。）
+>
+> **易错**：① 3-2-1／3-2-3 配平要按 **Ti、B、Cl 守恒**逐项核对（CO／HCl 系数最易错）；② 六方晶胞体积必须乘 $\sin60^\circ$，漏乘会偏大 $15\%$；③ 3-3-1 的 $Z=1$（不是 2），因为 $TiB_2$ 的化学式单元就是 1 个；④ 3-4 是「相对伸长率」（无量纲百分比），不要与绝对长度混淆。
 
 ---
 
@@ -162,11 +210,11 @@ c 轴: $\alpha_{\mathrm{c}} \Delta T = 10.5 \times 10^{-6} \times 1000 = 0.0105 
 甲烷在 298.15K，101.325kPa 下燃烧反应方程式如下：
 
 $$
-\mathrm{CH} _ {4} (\mathrm{g}) + 2 \mathrm{O} _ {2} (\mathrm{g}) = \mathrm{CO} _ {2} (\mathrm{g}) + 2 \mathrm{H} _ {2} \mathrm{O} (\mathrm{l}) \quad \Delta_ {\mathrm{r}} \mathrm{H} _ {\mathrm{m}} ^ {\ominus} (1) = - 890.35 \mathrm{kJ/mol}
+\mathrm{CH} _ {4} (\mathrm{g}) + 2 \mathrm{O} _ {2} (\mathrm{g}) = \mathrm{CO} _ {2} (\mathrm{g}) + 2 \mathrm{H} _ {2} \mathrm{O} (\mathrm{l}) \quad \Delta_ {\mathrm{r}} \mathrm{H} _ {\mathrm{m}} ^ {\ominus} (1) = - 890.35 \mathrm{kJ\cdot mol^{-1}}
 $$
 
 $$
-\mathrm{CH} _ {4} (\mathrm{g}) + 2 \mathrm{O} _ {2} (\mathrm{g}) = \mathrm{CO} _ {2} (\mathrm{g}) + 2 \mathrm{H} _ {2} \mathrm{O} (\mathrm{g}) \quad \Delta_ {\mathrm{r}} \mathrm{H} _ {\mathrm{m}} ^ {\ominus} (2) = - 802.29 \mathrm{kJ/mol}
+\mathrm{CH} _ {4} (\mathrm{g}) + 2 \mathrm{O} _ {2} (\mathrm{g}) = \mathrm{CO} _ {2} (\mathrm{g}) + 2 \mathrm{H} _ {2} \mathrm{O} (\mathrm{g}) \quad \Delta_ {\mathrm{r}} \mathrm{H} _ {\mathrm{m}} ^ {\ominus} (2) = - 802.29 \mathrm{kJ\cdot mol^{-1}}
 $$
 
 4-1 计算水在 298.15K，101.325kPa 下的标准摩尔蒸发焓 $\Delta_{vap}H_{m}^{\ominus}$ 。(2')
@@ -178,32 +226,45 @@ $$
 #### 答案
 
 $$
-\Delta_ {\mathrm{vap}} \mathrm{H} _ {\mathrm{m}} ^ {\ominus} = \left[ \Delta_ {\mathrm{r}} \mathrm{H} _ {\mathrm{m}} ^ {\ominus} (2) - \Delta_ {\mathrm{r}} \mathrm{H} _ {\mathrm{m}} ^ {\ominus} (1) \right] \times 1 / 2 (1 ^ {\prime})
+\Delta_ {\mathrm{vap}} \mathrm{H} _ {\mathrm{m}} ^ {\ominus} = \left[ \Delta_ {\mathrm{r}} \mathrm{H} _ {\mathrm{m}} ^ {\ominus} (2) - \Delta_ {\mathrm{r}} \mathrm{H} _ {\mathrm{m}} ^ {\ominus} (1) \right] \times 1 / 2 （1 分）
 $$
 
 $$
-\Delta \mathrm{H} = \Delta_ {\mathrm{r}} \mathrm{H} _ {\mathrm{m}} ^ {\ominus} (1) \times 0.5 \mathrm{mol} = - 890.35 \mathrm{kJ/mol} \times 0.5 \mathrm{mol} = - 445.18 \mathrm{kJ} (1 ^ {\prime})
+\Delta \mathrm{H} = \Delta_ {\mathrm{r}} \mathrm{H} _ {\mathrm{m}} ^ {\ominus} (1) \times 0.5 \mathrm{mol} = - 890.35 \mathrm{kJ\cdot mol^{-1}} \times 0.5 \mathrm{mol} = - 445.18 \mathrm{kJ} （1 分）
 $$
 
 $$
-\Delta \mathrm{U} = \Delta \mathrm{H} - \Delta \mathrm{n} _ {\mathrm{g}} \cdot \mathrm{RT} (1 ^ {\prime})
+\Delta \mathrm{U} = \Delta \mathrm{H} - \Delta \mathrm{n} _ {\mathrm{g}} \cdot \mathrm{RT} （1 分）
 $$
 
 $$
-= - 445.18 \mathrm{kJ} - (0.5 \mathrm{mol} - 1.5 \mathrm{mol}) \times 8.314 \times 10 ^ {- 3} \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{K} ^ {- 1} \times 298.15 \mathrm{K} = - 442.70 \mathrm{kJ} (1 ^ {\prime})
+= - 445.18 \mathrm{kJ} - (0.5 \mathrm{mol} - 1.5 \mathrm{mol}) \times 8.314 \times 10 ^ {- 3} \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{K} ^ {- 1} \times 298.15 \mathrm{K} = - 442.70 \mathrm{kJ} （1 分）
 $$
+**4-3**
 
-故一个晶胞中含有 $8 \times 4.430 \times 10^{4} / 7.705 \times 10^{3} \approx 46$ 个水分子，组成为 $8 \mathrm{CH}_{4} \cdot 46 \mathrm{H}_{2} \mathrm{O}(0.5^{\prime})$ 由宏观和微观的关系，
+故一个晶胞中含有 $8 \times 4.430 \times 10^{4} / 7.705 \times 10^{3} \approx 46$ 个水分子，组成为 $8 \mathrm{CH}_{4} \cdot 46 \mathrm{H}_{2} \mathrm{O}（0.5 分）$ 由宏观和微观的关系，
 
 $$
 \frac {8}{\mathrm{n} (\mathrm{CH} _ {4}) \mathrm{N} _ {\mathrm{A}}} = \frac {a ^ {3}}{\mathrm{V} (\text {甲烷水合物})}
 $$
 
-求得 $a=1199\mathrm{pm}(1')$
+求得 $a=1199\mathrm{pm}（1 分）$
 
 其他合理方法，比如先计算了甲烷水合物的密度，算出正确答案也可。
 
-> **解析**（据源答案整理）：考查立方晶系与量热计算。要点：由分解所得液态水与甲烷气体的体积-密度数据求得一个立方正晶胞中水分子数为 46，从而给出晶胞组成（8 CH₄·46 H₂O）与立方晶胞参数；由两组燃烧焓之差求水的标准摩尔蒸发焓；再由恒容反应热换算标准反应焓。
+> —— 解析 ——
+>
+> **考点**：热化学（盖斯定律、生成焓与燃烧焓）与晶胞组成的定量关联（知识点：〈盖斯定律〉、〈化学热力学〉、〈焓变计算〉、〈晶体密度公式〉）
+>
+> **思路**：4-1 用**盖斯定律**：两式相减即得 2 倍汽化焓；4-2 先由燃烧焓算恒压热 $\Delta H$，再用 $\Delta U=\Delta H-\Delta n_g RT$ 换算恒容热；4-3 由分解实验换算每 m³ 水合物的 $n(\mathrm{CH_4})$、$n(\mathrm{H_2O})$ 定晶胞组成，再由 $a^3$ 反解参数。
+>
+> **4-1**（2 分）两反应相减 $\mathrm{CH_4+2O_2\to CO_2+2H_2O(g)}$ 减 $\mathrm{CH_4+2O_2\to CO_2+2H_2O(l)}$ 得$2\mathrm{H_2O(l)}\to2\mathrm{H_2O(g)}$。故$\Delta_{\mathrm{vap}}H_m^\ominus=\dfrac{\Delta_rH_m^\ominus(2)-\Delta_rH_m^\ominus(1)}{2}=\dfrac{-802.29-(-890.35)}{2}=44.03\ \mathrm{kJ\cdot mol^{-1}}$。
+>
+> **4-2**（3 分）按 $0.5\ \mathrm{mol}$ 甲烷计算：$\Delta H=0.5\times(-890.35)=-445.18\ \mathrm{kJ}$。气体物质的量变化 $\Delta n_g=0.5-(0.5+1.0)=-1$（水为液态），$\Delta U=\Delta H-\Delta n_gRT=-445.18-(-1)\times8.314\times10^{-3}\times298.15=-445.18+2.48=-442.70\ \mathrm{kJ}$。
+>
+> **4-3**（3 分）取 $1.000\ \mathrm{m^3}$ 水合物：$n(\mathrm{CH_4})=\dfrac{pV}{RT}=\dfrac{101.325\times172.7}{8.314\times273.15}\approx7.705\times10^{3}\ \mathrm{mol}$；$n(\mathrm{H_2O})=\dfrac{0.7981\ \mathrm{m^3}\times1.000\ \mathrm{g\cdot cm^{-3}}}{18.015\ \mathrm{g\cdot mol^{-1}}}\approx4.430\times10^{4}\ \mathrm{mol}$。$\dfrac{n(\mathrm{H_2O})}{n(\mathrm{CH_4})}=5.75$，故组成写作 $8\mathrm{CH_4}\cdot46\mathrm{H_2O}$。每晶胞 8 个 $\mathrm{CH_4}$ ⇒ $a^3=\dfrac{8}{n(\mathrm{CH_4})N_A}$（$1\ \mathrm{m^3}$ 为基准），$a^3=\dfrac{8}{7.705\times10^{3}\times6.022\times10^{23}}=1.724\times10^{-27}\ \mathrm{m^3}$ ⇒ $a=1.199\times10^{-9}\ \mathrm{m}=1199\ \mathrm{pm}$。
+>
+> **易错**：① 4-1 的系数 $1/2$ 来自「2 个水分子汽化」，漏掉会得 2 倍；② 4-2 中 $\Delta n_g$ 只统计**气态**物质，液态水不计入，符号易反；③ 4-3 用「$1\ \mathrm{m^3}$ 为基准」时 $a^3$ 的物理意义要写清楚（每晶胞 8 个甲烷）。
 
 ---
 
@@ -211,13 +272,15 @@ $$
 
 > 来源：XeChem Xechem模拟四 第 3 题｜难度 ⭐⭐⭐⭐
 
-随着核电的发展，绿色、高效地处理核废料愈发重要。将中子捕获生成的人造超铀元素通过形成氧化物的方式保存于密闭空间内，可以极大地降低核污染。研究人员报道了一例不定组成的，U与Am的混合氧化物 $U_{1-y}Am_{y}O_{2+x}$ （y<0.5），具有氧额外掺杂的萤石型结构。3-1掺杂的氧原子位于晶体的八面体空隙中。指出其填隙率，可用x表示，假设x>0。
+随着核电的发展，绿色、高效地处理核废料愈发重要。将中子捕获生成的人造超铀元素通过形成氧化物的方式保存于密闭空间内，可以极大地降低核污染。研究人员报道了一例不定组成的，U与Am的混合氧化物 $U_{1-y}Am_{y}O_{2+x}$ （y<0.5），具有氧额外掺杂的萤石型结构。
+
+5-1 掺杂的氧原子位于晶体的八面体空隙中。指出其填隙率，可用x表示，假设x>0。
 
 5-2 合成反应在高温下进行，产物具有随机的 U/Am 分布，可视作理想混合物。根据如下数据，计算 $U_{0.85}Am_{0.15}O_{2}$ 的标准摩尔生成吉布斯自由能，假设热力学数据随温度不变。注意混合过程。
 
 
 
-| 化学式 | $\Delta_{f}H_{m}^{\circ}/ kJ·mol^{-1}$ | $S_{m}^{\circ}/J·mol^{-1}·K^{-1}$ | $\Delta_{f}G_{m}^{\circ}/kJ·mol^{-1}$ |
+| 化学式 | $\Delta_{f}H_{m}^{\ominus}/ kJ·mol^{-1}$ | $S_{m}^{\ominus}/J·mol^{-1}·K^{-1}$ | $\Delta_{f}G_{m}^{\ominus}/kJ·mol^{-1}$ |
 |:--:|:--:|:--:|:--:|
 | $O_2$ | / | 205.1 | / |
 | $UO_2$ | -1085 | 77.03 | / |
@@ -227,7 +290,7 @@ $$
 
 
 
-5-3 合成时的氧势（ $\Delta G(\mathrm{O}_2) = RT \ln(p_0/p^\circ)$ ，描述氧化物中氧逸出到气相的趋势）可很大程度上影响 $x$ 的取值。对于上述体系，在反应初期，可认为体系中存在一组对峙反应。
+5-3 合成时的氧势（ $\Delta G(\mathrm{O}_2) = RT \ln(p_0/p^{\ominus})$ ，描述氧化物中氧逸出到气相的趋势）可很大程度上影响 $x$ 的取值。对于上述体系，在反应初期，可认为体系中存在一组对峙反应。
 
 $$
 m \mathrm{U} _ {0.85} \mathrm{Am} _ {0.15} \mathrm{O} _ {2} + \mathrm{O} _ {2} \leftrightarrows m \mathrm{U} _ {0.85} \mathrm{Am} _ {0.15} \mathrm{O} _ {2 + \frac {2}{m}}
@@ -251,27 +314,44 @@ $$
 
 合过程。
 
-$\Delta_{r}S_{\mathrm{m}}^{\circ}\mathrm{l} = 334.1\times 2 - 205.1 - 77.03\times 8 = -153.14\mathrm{J / (mol\cdot K)}$ $\Delta_{r}G_{\mathrm{m}}^{\circ}\mathrm{l} = \Delta_{r}H_{\mathrm{m}}^{\circ}\mathrm{l} - TA_{r}S_{\mathrm{m}}^{\circ}\mathrm{l} = -344 - 298.15\times (-153.14)\times 10^{-3} = -298.3\mathrm{kJ / mol}$
+$\Delta_{r}S_{\mathrm{m}}^{\circ}\mathrm{l} = 334.1\times 2 - 205.1 - 77.03\times 8 = -153.14\mathrm{J / (mol\cdot K)}$ $\Delta_{r}G_{\mathrm{m}}^{\circ}\mathrm{l} = \Delta_{r}H_{\mathrm{m}}^{\circ}\mathrm{l} - TA_{r}S_{\mathrm{m}}^{\circ}\mathrm{l} = -344 - 298.15\times (-153.14)\times 10^{-3} = -298.3\mathrm{\mathrm{kJ\cdot mol^{-1}}}$
 
 反应 $2Am_{2}O_{3} + O_{2} \rightarrow 4AmO_{2}$ (2)
 
-$\Delta_{r}H_{m}^{\circ}{}_{2} = -932.2\times 4 + 1690\times 2 = -348.8\mathrm{kJ / mol};$ $\Delta_{r}S_{m}^{\circ}{}_{2} = 75.50\times 4 - 205.1 - 134.2\times 2 = -171.5J/(mol\cdot K)$ $\Delta_{r}G_{m}^{\circ}{}_{2} = \Delta_{r}H_{m}^{\circ}{}_{2} - T\Delta_{r}S_{m}^{\circ}{}_{2} = -348.8 - 298.15\times (-171.5)\times 10^{-3} = -297.7\mathrm{kJ / mol}$
+$\Delta_{r}H_{m}^{\ominus}{}_{2} = -932.2\times 4 + 1690\times 2 = -348.8\mathrm{\mathrm{kJ\cdot mol^{-1}}};$ $\Delta_{r}S_{m}^{\ominus}{}_{2} = 75.50\times 4 - 205.1 - 134.2\times 2 = -171.5J/(mol\cdot K)$ $\Delta_{r}G_{m}^{\ominus}{}_{2} = \Delta_{r}H_{m}^{\ominus}{}_{2} - T\Delta_{r}S_{m}^{\ominus}{}_{2} = -348.8 - 298.15\times (-171.5)\times 10^{-3} = -297.7\mathrm{\mathrm{kJ\cdot mol^{-1}}}$
 
 $= 0.85\times (-1096) + 0.15\times (-876.9) + 8.3145\times 298.15\times (0.85\ln 0.85 + 0.15\ln 0.15)\times 10^{-3}$
+**5-3**
 
 对 x 和 $\frac{p_{02}}{p_{0}^{\circ}}$ 线性回归： $x = 5.923 \times 10^{6} \cdot \frac{p_{02}}{p_{0}^{\circ}} - 3.224 \times 10^{-3}$ （2 分）
 
-将 $x = 0$ 代入线性回归式，解得： $\frac{P_{\mathrm{O_2}}}{P_{\mathrm{o}}^{\circ}} = 5.443\times 10^{-10}$ （1分）
+将 $x = 0$ 代入线性回归式，解得： $\frac{P_{\mathrm{O_2}}}{P_{\mathrm{o}}^{\circ}} = 5.443\times 10^{-10}$ （1 分）
 
 Am 的 5f 电子较为收缩， $Am^{4+}$ 氧化性强，难以与还原性较强的 $U^{4+}$ 共存。产物的实际存在形式为 $(U^{4+}1-2x-2y)(U^{5+}2x-2y)(Am^{3+})(O^{2-2x})$ ， $Am^{3+}$ 半径大，将晶格模开，使晶胞参数变大。
 
-> **解析**（据源答案整理）：考查萤石型掺杂结构与混合热力学。要点：额外氧占据八面体空隙，由电价平衡求填隙率（用 x 表示）；由各组分的 ΔfH°、S°、ΔfG° 并按理想混合物模型计算 U₀.₈₅Am₀.₁₅O₂ 的标准摩尔生成吉布斯自由能；由氧势与平衡常数求 x 随氧分压的变化；解释晶胞参数偏大约 10 pm 的缺陷成因；写出灼烧再氧化为 AmO₂ 的方程式。
+> —— 解析 ——
+>
+> **考点**：萤石型结构与点缺陷、生成吉布斯自由能与混合熵、对峙反应平衡、Born-Haber 型热力学循环（知识点：〈Gibbs自由能〉、〈化学平衡〉、〈晶胞〉、〈熵变计算〉、〈电极过程热力学〉）
+>
+> **思路**：5-1 从萤石型的空隙分布定位掺杂氧的位置并数出填隙率；5-2 先用两个辅助反应（$8UO_2+O_2\to2U_4O_9$、$2Am_2O_3+O_2\to4AmO_2$）分别反求 $\Delta_fG^\ominus(UO_2)$ 与 $\Delta_fG^\ominus(AmO_2)$，再按 $0.85:0.15$ 加权，**并叠加混合熵项**；5-3 把氧势换算成氧分压后线性回归，令 $x=0$ 求平衡氧压；5-4／5-5 从离子半径与价态稳定性定性解释、并配平氧化反应。
+>
+> **5-1**萤石型结构中阴离子构成简单立方、阳离子填半数立方体中心，**八面体空隙空置**（每晶胞 4 个，恰与 4 个 $UO_2$ 式量对应）。额外掺入的氧即进入这些八面体空隙，每式量多出的氧为 $x$，故**填隙率＝$x$**（占八面体空隙的 $x\times100\%$；$x<0.5$ 与题设一致）。⚠️ 源答案此问答在 OCR 中缺失，以上据萤石型结构规律补出。
+>
+> **5-2**① $8UO_2+O_2\to2U_4O_9$：$\Delta_rS^\ominus=2\times334.1-8\times77.03-205.1=-153.14\ \mathrm{J\cdot mol^{-1}\cdot K^{-1}}$，$\Delta_rH^\ominus=2\times(-4512)-8\times(-1085)=-344\ \mathrm{kJ\cdot mol^{-1}}$，$\Delta_rG^\ominus=-344-298.15\times(-153.14)\times10^{-3}=-298.3\ \mathrm{kJ\cdot mol^{-1}}$；由 $2\Delta_fG^\ominus(U_4O_9)-8\Delta_fG^\ominus(UO_2)=-298.3$ 得 $\Delta_fG^\ominus(UO_2)=-1096\ \mathrm{kJ\cdot mol^{-1}}$。② $2Am_2O_3+O_2\to4AmO_2$：$\Delta_rH^\ominus=-348.8$、$\Delta_rS^\ominus=-171.5\ \mathrm{J\cdot mol^{-1}\cdot K^{-1}}$，$\Delta_rG^\ominus=-297.7\ \mathrm{kJ\cdot mol^{-1}}$ ⇒ $\Delta_fG^\ominus(AmO_2)=-876.9\ \mathrm{kJ\cdot mol^{-1}}$。③ $\Delta_fG^\ominus(U_{0.85}Am_{0.15}O_2)=0.85\times(-1096)+0.15\times(-876.9)+RT(0.85\ln0.85+0.15\ln0.15)\times10^{-3}\approx-931.6-131.5-1.05\approx-1064\ \mathrm{kJ\cdot mol^{-1}}$。**末项即混合熵贡献**（$T\Delta S_{\mathrm{mix}}<0$ 使生成自由能略降低）。
+>
+> **5-3**（3 分）由 $\Delta G(O_2)=RT\ln(p_{O_2}/p^\ominus)$（$T=2023\ \mathrm K$，$RT=16.82\ \mathrm{kJ\cdot mol^{-1}}$）把 6 组数据换算成$p_{O_2}/p^\ominus$，对 $x\!\sim\!p_{O_2}/p^\ominus$ 线性回归得$x=5.923\times10^{6}\cdot\dfrac{p_{O_2}}{p^\ominus}-3.224\times10^{-3}$。令 $x=0$ 解得 $\dfrac{p_{O_2}}{p^\ominus}=5.443\times10^{-10}$（即该对峙反应达平衡时的氧分压，与「额外掺杂氧浓度与氧分压成正比」的提示一致）。
+>
+> **5-4**$Am$ 的 5f 电子收缩使 $Am^{4+}$ 氧化性强，难以与还原性较强的 $U^{4+}$ 大量共存 ⇒ 实际存在的形式为混合价 $(U^{4+}_{1-2x-2y})(U^{5+}_{2x-2y})(Am^{3+})(O^{2-}_{2-2x})$。$Am^{3+}$ 的离子半径明显大于 $U^{4+}/Am^{4+}$，把晶格「撑开」，故晶胞参数 $a$ 总比两种原料的平均值大约 $10\ \mathrm{pm}$。
+>
+> **5-5**灼烧的目的是把 $Am$ 由 $+3$ 氧化到 $+4$（生成 $AmO_2$），同时把 $U$ 氧化到高价态。若 $U$ 氧化为 $UO_3$，令 $U_{1-y}Am_yO_{2+x}$ 系数为 1，按 **U、Am、O 三元素守恒**配平：$U_{1-y}Am_yO_{2+x}+\dfrac{1-y-x}{2}O_2\to y\,AmO_2+(1-y)UO_3$。⚠️ 源答案此问缺失；上式为「$U\to+6$、$Am\to+4$」假设下的配平结果，若按 $U$ 只氧化到 $+5$（或生成 $U_4O_9$）则系数不同。
+>
+> **易错**：① 5-2 **必须含混合熵项**（题目明示「注意混合过程」），漏掉会使结果偏差约 $1\ \mathrm{kJ\cdot mol^{-1}}$；② $\Delta_fG^\ominus(UO_2)$、$\Delta_fG^\ominus(AmO_2)$ **没有直接给**，须用辅助反应间接求解（这是本题的题眼）；③ 5-3 的氧势要先经 $\Delta G=RT\ln(p/p^\ominus)$ 换成氧分压，不能直接拿 $\Delta G$ 与 $x$ 回归；④ 5-5 配平要按元素守恒逐项核对（氧的收支最易错）。
 
 ---
 
 ## 第二部分　化学原理（第 6–10 题，共 65 分）
 
-### 第 6 题（13 分）3-1 已知 的
+### 第 6 题（13 分）硫化氢的酸碱平衡与金属硫化物的溶度积
 
 > 来源：质心GChO ZCHEM-GChO12 第 3 题｜难度 ⭐⭐⭐⭐
 
@@ -280,7 +360,7 @@ Am 的 5f 电子较为收缩， $Am^{4+}$ 氧化性强，难以与还原性较�
 
 #### 答案
 
-6-1 已知 $H_{2}S$ 的 $K_{1}=1.3\times10^{-7}$ ， $K_{2}=7.1\times10^{-15}$ ，计算 $1.0\times10^{-6}\ mol\cdot L^{-1}\ H_{2}S$ 水溶液的 pH。因 $K_{1}>>K_{2}$ ，可以忽略 $H_{2}S$ 的二级电离，可以只考虑一级电离： $H_{2}S\rightarrow H^{+}+HS^{-}(0.5\text{ 分})$ 体系的 PBE/CBE： $[H^{+}]=[OH^{-}]+[HS^{-}]$ (0.5 分)
+6-1已知 $H_{2}S$ 的 $K_{1}=1.3\times10^{-7}$ ， $K_{2}=7.1\times10^{-15}$ ，计算 $1.0\times10^{-6}\ mol\cdot L^{-1}\ H_{2}S$ 水溶液的 pH。因 $K_{1}>>K_{2}$ ，可以忽略 $H_{2}S$ 的二级电离，可以只考虑一级电离： $H_{2}S\rightarrow H^{+}+HS^{-}(0.5\text{ 分})$ 体系的 PBE/CBE： $[H^{+}]=[OH^{-}]+[HS^{-}]$ （0.5 分）
 
 将 $[OH^{-}]$ 和 $[HS^{-}]$ 用 $[H^{+}]$ 和平衡常数表示，有
 
@@ -288,30 +368,41 @@ $$
 \left[ \mathrm{H} ^ {+} \right] = \frac {K _ {w}}{\left[ \mathrm{H} ^ {+} \right]} + c \frac {K _ {1}}{K _ {1} + \left[ \mathrm{H} ^ {+} \right]} (1 \text {分})
 $$
 
-解得 $[H^{+}]=3.2\times10^{-7}\ mol/L$ (0.5分)，则 pH=6.49 (0.5分)
-
-6-2 金属离子 $\mathrm{M}^{2+}$ 可以被 $\mathrm{H}_2\mathrm{S}$ 沉淀为硫化物，完全沉淀指 $[\mathrm{M}^{2+}] \leqslant 1.0 \times 10^{-6} \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ 。向 $0.10 \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ 的 $\mathrm{M}^{2+}$ 溶液中通入 $\mathrm{H}_2\mathrm{S}$ 至饱和 $([\mathrm{H}_2\mathrm{S}] = 0.10 \, \mathrm{mol} \cdot \mathrm{L}^{-1})$ ，计算MS的 $\mathrm{pK}_{\mathrm{sp}}$ 至少为多少时，可完全沉淀。
-通入硫化氢后发生反应 $\mathrm{M}^{2+} + \mathrm{H}_2\mathrm{S} = \mathrm{MS} + 2\mathrm{H}^+$ 由于所求条件是 $[\mathrm{M}^{2+}] \leqslant 1.0 \times 10^{-6} \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ 故可认为 $[\mathrm{H}^+] = 0.20 \, \mathrm{mol/L}$ (1分)
-此时 $[\mathrm{S}^{2-}] = K_1K_2[\mathrm{H}_2\mathrm{S}] / [\mathrm{H}^+]^2 = 2.1 \times 10^{-21} \, \mathrm{mol/L}$ (1分)
-故要使得 $[\mathrm{M}^{2+}] \leqslant 1.0 \times 10^{-6} \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ $K_{\mathrm{sp}} = [\mathrm{S}^{2-}][\mathrm{M}^{2+}] \leqslant 2.1 \times 10^{-27}$ (0.5分)
-即 $\mathrm{pK}_{\mathrm{sp}} \geqslant 26.68$ (0.5分)
+解得 $[H^{+}]=3.2\times10^{-7}\ mol/L$ （0.5 分），则 pH=6.49 （0.5 分）
+6-2金属离子 $\mathrm{M}^{2+}$ 可以被 $\mathrm{H}_2\mathrm{S}$ 沉淀为硫化物，完全沉淀指 $[\mathrm{M}^{2+}] \leqslant 1.0 \times 10^{-6} \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ 。向 $0.10 \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ 的 $\mathrm{M}^{2+}$ 溶液中通入 $\mathrm{H}_2\mathrm{S}$ 至饱和 $([\mathrm{H}_2\mathrm{S}] = 0.10 \, \mathrm{mol} \cdot \mathrm{L}^{-1})$ ，计算MS的 $\mathrm{pK}_{\mathrm{sp}}$ 至少为多少时，可完全沉淀。
+通入硫化氢后发生反应 $\mathrm{M}^{2+} + \mathrm{H}_2\mathrm{S} = \mathrm{MS} + 2\mathrm{H}^+$ 由于所求条件是 $[\mathrm{M}^{2+}] \leqslant 1.0 \times 10^{-6} \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ 故可认为 $[\mathrm{H}^+] = 0.20 \, \mathrm{mol/L}$ （1 分）
+此时 $[\mathrm{S}^{2-}] = K_1K_2[\mathrm{H}_2\mathrm{S}] / [\mathrm{H}^+]^2 = 2.1 \times 10^{-21} \, \mathrm{mol/L}$ （1 分）
+故要使得 $[\mathrm{M}^{2+}] \leqslant 1.0 \times 10^{-6} \, \mathrm{mol} \cdot \mathrm{L}^{-1}$ $K_{\mathrm{sp}} = [\mathrm{S}^{2-}][\mathrm{M}^{2+}] \leqslant 2.1 \times 10^{-27}$ （0.5 分）
+即 $\mathrm{pK}_{\mathrm{sp}} \geqslant 26.68$ （0.5 分）
 其他方法，合理且结果正确也得满分。
 
-> **解析**（据源答案整理）：考查弱酸分级电离与硫化物沉淀。要点：由 K₁≫K₂ 只计一级电离，用质子条件 [H⁺]＝[OH⁻]＋[HS⁻] 解出 pH；再由「完全沉淀」判据 [M²⁺]≤1.0×10⁻⁶ mol/L 与通 H₂S 至饱和（[H₂S]＝0.10 mol/L），求 MS 的 pKsp 下限。
+> —— 解析 ——
+>
+> **考点**：弱酸质子条件（PBE）与二元酸的处理、金属硫化物沉淀的溶度积判据（知识点：〈酸碱平衡〉、〈缓冲溶液〉、〈溶度积〉、〈沉淀溶解平衡〉）
+>
+> **思路**：6-1 因 $K_1\gg K_2$ 可只考虑一级电离，列出**质子条件式** $[\mathrm H^+]=[\mathrm{OH^-}]+[\mathrm{HS^-}]$，再以 $[\mathrm H^+]$ 为未知量解方程；6-2 先由沉淀反应定量算出完全沉淀时溶液的 $[\mathrm H^+]$，再由 $K_{a1}K_{a2}$ 求 $[\mathrm S^{2-}]$，最后按 $K_{sp}=[\mathrm M^{2+}][\mathrm S^{2-}]$ 求 $pK_{sp}$ 下限。
+>
+> **6-1**（2 分）$K_1\gg K_2$ ⇒ 忽略二级电离。质子条件：$[\mathrm H^+]=[\mathrm{OH^-}]+[\mathrm{HS^-}]$，用 $[\mathrm H^+]$ 表示为 $[\mathrm H^+]=\dfrac{K_w}{[\mathrm H^+]}+\dfrac{cK_1}{K_1+[\mathrm H^+]}$（$c=1.0\times10^{-6}\ \mathrm{mol\cdot L^{-1}}$）。解得 $[\mathrm H^+]=3.2\times10^{-7}\ \mathrm{mol\cdot L^{-1}}$ ⇒ $\mathrm{pH}=-\lg(3.2\times10^{-7})=6.49$。（此时电离度已相当可观，说明极稀弱酸中 $K_1$ 与水的电离**必须同时计入**。）
+>
+> **6-2**（3 分）沉淀反应 $\mathrm M^{2+}+\mathrm H_2S\to\mathrm{MS}+2\mathrm H^+$。当 $[\mathrm M^{2+}]\le1.0\times10^{-6}$ 时，$0.10\ \mathrm{mol\cdot L^{-1}}$ 的 $\mathrm M^{2+}$ 已基本沉淀完，故 $[\mathrm H^+]\approx0.20\ \mathrm{mol\cdot L^{-1}}$。$[\mathrm S^{2-}]=\dfrac{K_1K_2[\mathrm H_2S]}{[\mathrm H^+]^2}=\dfrac{1.3\times10^{-7}\times7.1\times10^{-15}\times0.10}{0.20^2}\approx2.1\times10^{-21}\ \mathrm{mol\cdot L^{-1}}$。于是 $K_{sp}=[\mathrm M^{2+}][\mathrm S^{2-}]\le1.0\times10^{-6}\times2.1\times10^{-21}=2.1\times10^{-27}$，即 $\mathrm{p}K_{sp}\ge26.68$。
+>
+> **易错**：① 6-1 若只列 $[\mathrm H^+]=[\mathrm{HS^-}]$ 而漏掉 $[\mathrm{OH^-}]$，在 $10^{-6}$ 级稀酸中会显著偏差；② 6-2 的 $[\mathrm H^+]$ 由**沉淀反应完全进行**定量得到（$0.10\to0.20$），不是由 $K_a$ 算；③ $[\mathrm S^{2-}]$ 必须用 $K_1K_2$ 两级常数相乘得到，只用 $K_2$ 会错。
 
 ---
 
-### 第 7 题（13 分）4-1 在 968 K 和
+### 第 7 题（13 分）钠的蒸发焓与 NaCl 的晶格焓
 
 > 来源：chemy 第35届 模拟15 第 4 题｜难度 ⭐⭐⭐⭐
 
 7-1 在 968 K 和 1247 K 时，在液态钠上方钠蒸气的平衡分压分别为 13.7 kPa 和 219.9 kPa。计算钠的蒸发焓 $\Delta H_{\mathrm{vap}}$ (设各反应的焓变不随温度变化)。
 
-7-2 气态钠原子电离 1 个电子所对应的谱线波数(即波长的倒数)为 $D = 41449 \, cm^{-1}$ ，计算该过程对应的能量变化 I (以 kJ/mol 表示)。I 为由静止的钠原子生成静止的钠离子和电子的能量变化；而在 298.15 K 下，该过程的焓变 $\Delta H_{I} = I + 2.5RT$ ，计算 $\Delta H_{I}$ 。(阿伏伽德罗常量 $N_{A} = 6.02214076 \times 10^{23}/mol$ ，普朗克常数 $h = 6.62607015 \times 10^{-34} J \cdot s$ ，光速 c = 299792458 m/s)
+7-2 气态钠原子电离 1 个电子所对应的谱线波数(即波长的倒数)为 $D = 41449 \, cm^{-1}$ ，计算该过程对应的能量变化 I (以 $\mathrm{kJ\cdot mol^{-1}}$ 表示)。I 为由静止的钠原子生成静止的钠离子和电子的能量变化；而在 298.15 K 下，该过程的焓变 $\Delta H_{I} = I + 2.5RT$ ，计算 $\Delta H_{I}$ 。(阿伏伽德罗常量 $N_{A} = 6.02214076 \times 10^{23}/mol$ ，普朗克常数 $h = 6.62607015 \times 10^{-34} J \cdot s$ ，光速 c = 299792458 m/s)
+
+7-3 根据下表数据，计算 NaCl 在 298.15 K 下的标准摩尔生成焓。
 
 
 
-| 反应 | ΔH (kJ/mol) |
+| 反应 | $\Delta H/\mathrm{kJ}\cdot\mathrm{mol}^{-1}$ |
 |:--:|:--:|
 | 2Na(s) + 2H2O(l) → 2NaOH(aq) + H2(g) | -369.24 |
 | Cl2(g)+ H2(g) → 2HCl(aq) | -334.48 |
@@ -320,28 +411,40 @@ $$
 
 
 
-7-4 测得 Na 的熔化焓为 $\Delta H_{fus} = 2.6 \, kJ/mol$ ， $Cl_{2}$ 的键焓为 $\Delta H_{D} = 242.6 \, kJ/mol$ ，气态氯原子结合一个电子的焓变为 $\Delta H_{E} = -349.0 \, kJ/mol$ ，计算 NaCl 在 298.15 K 下的晶格焓。
+7-4 测得 Na 的熔化焓为 $\Delta H_{fus} = 2.6 \, \mathrm{kJ\cdot mol^{-1}}$ ， $Cl_{2}$ 的键焓为 $\Delta H_{D} = 242.6 \, \mathrm{kJ\cdot mol^{-1}}$ ，气态氯原子结合一个电子的焓变为 $\Delta H_{E} = -349.0 \, \mathrm{kJ\cdot mol^{-1}}$ ，计算 NaCl 在 298.15 K 下的晶格焓。
 
 #### 答案
 
-7-1 由克劳修斯-克拉贝龙方程： $\ln\frac{p_{2}}{p_{1}}=\frac{\Delta H_{vap}}{R}\left(\frac{1}{T_{1}}-\frac{1}{T_{2}}\right)$ （1分）
+第4题（9 分）
+7-1由克劳修斯-克拉贝龙方程： $\ln\frac{p_{2}}{p_{1}}=\frac{\Delta H_{vap}}{R}\left(\frac{1}{T_{1}}-\frac{1}{T_{2}}\right)$ （1 分）
 
-解得： $\Delta H_{vap}=99.8\ kJ/mol$ （1分）
-
-7-2 $E_{1} = hc_{0}N_{A}D = 495.84 \, kJ/mol$ （1 分）
-
-$$
-\Delta H _{\mathrm{I}} = I + 2.5 R T = 502.04 \mathrm{kJ/mol}
-$$
-
-7-3 根据下表数据，计算 NaCl 在 298.15 K 下的标准摩尔生成焓。
+解得： $\Delta H_{vap}=99.8\ \mathrm{kJ\cdot mol^{-1}}$ （1 分）
+7-2$E_{1} = hc_{0}N_{A}D = 495.84 \, \mathrm{kJ\cdot mol^{-1}}$ （1 分）
 
 $$
-\Delta_{\mathrm{f}} H _{\mathrm{m}} ^{\circ} (\mathrm{NaCl}) = 0.5 \Delta H _{1} + 0.5 \Delta H _{2} + \Delta H _{3} - \Delta H _{4} = - 411.45 \mathrm{kJ/mol} (2 \text {分})
-7-4 \Delta H _{\mathrm{L}} = \Delta_{\mathrm{f}} H _{\mathrm{m}} ^{\mathrm{e}} (\mathrm{NaCl}) - \Delta H _{\text {fus}} - \Delta H _{\text {vap}} - 0.5 \Delta H _{\mathrm{D}} - \Delta H _{\mathrm{I}} - \Delta H _{\mathrm{E}} = - 788.2 \mathrm{kJ/mol} (3 \text {分})
+\Delta H _{\mathrm{I}} = I + 2.5 R T = 502.04 \mathrm{kJ\cdot mol^{-1}}
 $$
 
-> **解析**（据源答案整理）：考查 Clausius–Clapeyron 方程与光谱解离能。要点：由两组温度下液态钠上方钠蒸气的平衡分压，用 ln(p₂/p₁)＝−(ΔH_vap/R)(1/T₂−1/T₁) 求蒸发热 ΔH_vap；再由 E＝hc₀N_A D 求解离能并计入 2.5RT 得 ΔH。
+$$
+\Delta_{\mathrm{f}} H _{\mathrm{m}} ^{\circ} (\mathrm{NaCl}) = 0.5 \Delta H _{1} + 0.5 \Delta H _{2} + \Delta H _{3} - \Delta H _{4} = - 411.45 \mathrm{kJ\cdot mol^{-1}} (2 \text {分})
+7-4\Delta H _{\mathrm{L}} = \Delta_{\mathrm{f}} H _{\mathrm{m}} ^{\mathrm{e}} (\mathrm{NaCl}) - \Delta H _{\text {fus}} - \Delta H _{\text {vap}} - 0.5 \Delta H _{\mathrm{D}} - \Delta H _{\mathrm{I}} - \Delta H _{\mathrm{E}} = - 788.2 \mathrm{kJ\cdot mol^{-1}} (3 \text {分})
+$$
+
+> —— 解析 ——
+>
+> **考点**：克劳修斯-克拉珀龙方程、原子光谱项与电离能、盖斯定律与 Born-Haber 循环（知识点：〈Clapeyron方程〉、〈盖斯定律〉、〈Born-Haber循环〉、〈晶格能〉、〈焓变计算〉）
+>
+> **思路**：7-1 由两个温度的蒸气压用 Clausius-Clapeyron 方程解蒸发焓；7-2 波数经 $E=N_Ahc\tilde\nu$ 换算成摩尔能量，再加 $2.5RT$ 的平动/转动贡献得焓变；7-3 把表中 4 个反应按系数线性组合出 $\mathrm{Na+\frac12Cl_2\to NaCl(s)}$；7-4 走 Born-Haber 循环：由生成焓倒推升华、电离、键焓、电子亲和能各步后得晶格焓。
+>
+> **7-1**（2 分）$\ln\dfrac{p_2}{p_1}=\dfrac{\Delta H_{vap}}{R}\left(\dfrac1{T_1}-\dfrac1{T_2}\right)$，代入 $p_1=13.7$、$p_2=219.9\ \mathrm{kPa}$，$T_1=968$、$T_2=1247\ \mathrm K$：$\ln\dfrac{219.9}{13.7}=2.776$，$\dfrac1{968}-\dfrac1{1247}=2.311\times10^{-4}\ \mathrm{K^{-1}}$，$\Delta H_{vap}=\dfrac{2.776\times8.314}{2.311\times10^{-4}}\approx99.8\ \mathrm{kJ\cdot mol^{-1}}$。
+>
+> **7-2**（2 分）$I=N_Ahc\tilde\nu=6.022\times10^{23}\times6.626\times10^{-34}\times2.998\times10^{8}\times4.1449\times10^{6}\approx495.8\ \mathrm{kJ\cdot mol^{-1}}$（$\tilde\nu=41449\ \mathrm{cm^{-1}}=4.1449\times10^6\ \mathrm{m^{-1}}$）。$\Delta H_I=I+2.5RT=495.8+2.5\times8.314\times298.15\times10^{-3}=495.8+6.2=502.0\ \mathrm{kJ\cdot mol^{-1}}$。
+>
+> **7-3**（2 分）按 $\mathrm{Na+\frac12Cl_2\to NaCl(s)}$ 组合表中四式（系数 $+\frac12,+\frac12,+1,-1$）：$\Delta_fH_m^\ominus(\mathrm{NaCl})=0.5\Delta H_1+0.5\Delta H_2+\Delta H_3-\Delta H_4=0.5\times(-369.24)+0.5\times(-334.48)+(-55.72)-3.87=-411.45\ \mathrm{kJ\cdot mol^{-1}}$。**组合思路**：$\frac12$①＋$\frac12$②得 $\mathrm{Na+\frac12Cl_2\to NaOH(aq)+HCl(aq)}$，再加③（酸碱中和）减④（NaCl 溶解）即得目标式。
+>
+> **7-4**（3 分）Born-Haber 循环：$\Delta_fH^\ominus(\mathrm{NaCl})=\Delta H_{fus}+\Delta H_{vap}+\Delta H_I+0.5\Delta H_D+\Delta H_E+\Delta H_L$，故 $\Delta H_L=\Delta_fH^\ominus-\Delta H_{fus}-\Delta H_{vap}-0.5\Delta H_D-\Delta H_I-\Delta H_E=-411.45-2.6-99.8-0.5\times242.6-502.04-(-349.0)\approx-788.2\ \mathrm{kJ\cdot mol^{-1}}$。（负号表示由气态离子结合成晶体放热，量级与 NaCl 晶格能公认值一致。）
+>
+> **易错**：① 7-1 温度必须用**热力学温标**、蒸气压取比值；② 7-2 波数 $\mathrm{cm^{-1}}$ 换 $\mathrm{m^{-1}}$ 要 ×100，漏乘会差 100 倍；③ 7-3 组合系数为 $+\frac12,+\frac12,+1,-1$，符号（尤其 $-1$）易错；④ 7-4 中 $\Delta H_E$ 本身为负值，公式里是「减去 $\Delta H_E$」⇒ 实际是加 $349.0$。
 
 ---
 
@@ -376,10 +479,7 @@ $$
 **8-1** 可以先由实验数据计算得到平衡吸附量:  $q_{A} = 3.39 \text{ mmol/g}$ ,  $q_{B} = 4.12 \text{ mmol/g}$ 由 Langmuir 等温式,可得: $\frac{P}{q} = \frac{1}{q_{m}b} + \frac{P}{q_{m}}$  $q_{m} = \frac{P_{B}-P_{A}}{\frac{P_{B}}{q_{B}} - \frac{P_{A}}{q_{A}}} = 5.06 \text{ mmol/g}$
 
 ## 再代回 Langmuir 等温式，可得 $b_{298}=9.76\ bar^{-1}$
-
-8-2
-
-$\Delta H = -37.3 \text{ kJ/mol}$
+8-2$\Delta H = -37.3 \mathrm{kJ\cdot mol^{-1}}$
 
 $$
 b _ {328} = \frac {q}{P \left(q _ {m} - q\right)} = 2.46 \mathrm{bar} ^ {- 1}
@@ -388,10 +488,7 @@ $$
 $$
 \ln \frac {b _ {328}}{b _ {298}} = - \frac {\Delta \mathrm{H}}{\mathrm{R}} \left(\frac {1}{328} - \frac {1}{298}\right)
 $$
-
-8-3
-
-根据物料守恒，可以列出方程：
+8-3根据物料守恒，可以列出方程：
 
 $$
 n _ {C O _ {2}, 0} = n _ {\mathrm{g}, C O _ {2}} + n _ {a d s, C O _ {2}} = \frac {1000 P}{R \cdot 298} + \frac {5.00}{1000} \cdot \frac {q _ {m} b _ {298} P}{1 + b _ {298} P}
@@ -439,7 +536,21 @@ $$
 \eta = \frac {q _ {\text { ads }} - q _ {\text { des }}}{q _ {\text { ads }}} = 59.9 \%
 $$
 
-> **解析**（据源答案整理）：考查 Langmuir 等温式与吸附热力学。要点：用两次进气-平衡压强数据联立 Langmuir 方程求出 298 K 下的饱和吸附量 q_m 与吸附常数 b₂₉₈；再由不同温度下的吸附量经 van't Hoff 式求吸附焓（或吸附热），并据此讨论吸附强弱。
+> —— 解析 ——
+>
+> **考点**：Langmuir 吸附等温式与线性化、吸附焓的 van't Hoff 关系、多组分吸附中的物料守恒（知识点：〈Langmuir吸附等温式〉、〈吸附〉、〈化学平衡计算〉、〈van't Hoff方程〉）
+>
+> **思路**：8-1 由两次实验的初、末态气体量差算吸附量 $q_A,q_B$，再用 Langmuir 的线性式 $\frac Pq=\frac1{q_mb}+\frac P{q_m}$ 两点定 $q_m$、$b$；8-2 由 328 K 的单点数据反求 $b_{328}$，再用 van't Hoff 关系求吸附焓；8-3 对 CO₂、N₂ 分别列「气相＋吸附相＝总量」的**物料守恒方程**求解分压；8-4 吸附剂转入新容器、升温后重新建立平衡，仍用物料守恒，效率＝(吸附量−脱附后残留)/吸附量。
+>
+> **8-1**初始通入的 CO₂：$n_0=\dfrac{pV}{RT}=\dfrac{1.000\times10^{5}\times5.00\times10^{-4}}{8.314\times298.15}=2.017\times10^{-2}\ \mathrm{mol}$；平衡时气相残留 $n_g=\dfrac{0.208\times10^{5}\times2.00\times10^{-3}}{8.314\times298.15}=1.678\times10^{-2}\ \mathrm{mol}$，故 $q_A=(2.017-1.678)\times10^{-3}/1.000=3.39\ \mathrm{mmol\cdot g^{-1}}$。同理第二次 $q_B=4.11\ \mathrm{mmol\cdot g^{-1}}$。由线性式两点求解：$q_m=\dfrac{P_B-P_A}{P_B/q_B-P_A/q_A}=\dfrac{0.449-0.208}{0.449/4.11-0.208/3.39}\approx5.06\ \mathrm{mmol\cdot g^{-1}}$；再代回得 $b_{298}=\dfrac{q}{P(q_m-q)}$ 形式反解约 $9.76\ \mathrm{bar^{-1}}$。
+>
+> **8-2**328 K、$P=0.200\ \mathrm{bar}$、$q=1.67\ \mathrm{mmol\cdot g^{-1}}$（设 $q_m$ 不随温度变）：$b_{328}=\dfrac{q}{P(q_m-q)}=\dfrac{1.67}{0.200\times(5.06-1.67)}\approx2.46\ \mathrm{bar^{-1}}$。由 $\ln\dfrac{b_{328}}{b_{298}}=-\dfrac{\Delta H}{R}\left(\dfrac1{328}-\dfrac1{298}\right)$ 得$\Delta H\approx-37.3\ \mathrm{kJ\cdot mol^{-1}}$（负值 ⇒ 吸附放热，升温不利于吸附）。
+>
+> **8-3**通入烟气：$n(\mathrm{CO_2})_0=0.15\times\dfrac{1.000\times10^{5}\times10.0\times10^{-3}}{8.314\times298.15}=6.05\times10^{-2}\ \mathrm{mol}$，$n(\mathrm{N_2})_0=0.85\times0.4034=3.429\times10^{-1}\ \mathrm{mol}$。**CO₂ 物料守恒**：$n_g+n_{ads}=n_0$，即$\dfrac{P_{\mathrm{CO_2}}\times1000}{8.314\times298.15}+5.00\times\dfrac{q_mb_{298}P}{1+b_{298}P}\times10^{-3}=6.05\times10^{-2}$ ⇒ 解得 $P_{\mathrm{CO_2}}=0.117\ \mathrm{bar}$，$q_{ads}=2.70\ \mathrm{mmol\cdot g^{-1}}$（合 $13.5\ \mathrm{mmol}$）。**N₂ 物料守恒**（Henry 式 $q=kP$）：$0.4034P_{N_2}+5.00\times0.0500P_{N_2}\times10^{-3}=0.3429$ ⇒ $P_{\mathrm{N_2}}=0.849\ \mathrm{bar}$，$n_{ads}=0.212\ \mathrm{mmol}$。
+>
+> **8-4**取出吸附剂（仅含 CO₂ $13.5\ \mathrm{mmol}$）转入 $2.00\ \mathrm L$ 真空容器、升温至 $328\ \mathrm K$，重新列物料守恒：$\dfrac{P\times2000}{8.314\times328.15}+5.00\times\dfrac{q_mb_{328}P}{1+b_{328}P}\times10^{-3}=1.35\times10^{-2}$ ⇒ 解得 $P_{\mathrm{CO_2}}=0.110\ \mathrm{bar}$，此时残留吸附量 $q_{des}=1.08\ \mathrm{mmol\cdot g^{-1}}$。工作效率 $\eta=\dfrac{q_{ads}-q_{des}}{q_{ads}}=\dfrac{2.70-1.08}{2.70}\approx59.9\%$。
+>
+> **易错**：① 8-1 的吸附量必须由「初态总量 − 平衡气相量」求出，直接用量纲算 $P/q$ 而不做物质的量换算会错；② Langmuir 线性式有两个等价形式（$\frac Pq$ 对 $P$、或 $\frac1q$ 对 $\frac1P$），用错形式会算错 $b$；③ 8-3／8-4 的气相体积分别是 $10.0\ \mathrm L$ 与 $2.00\ \mathrm L$（不是吸附剂体积），易混；④ 328 K 时 $b$ 变小、$q$ 变小 ⇒ 脱附，效率分母用**吸附量**而非脱附量。
 
 ---
 
@@ -480,7 +591,7 @@ $$
 将 $\gamma$ 代回 $r_1$ 的方程：
 
 $$
-\begin{array}{r l}   {\ln \frac {S _ {1}}{S _ {\infty}} = \frac {\gamma M}{\rho r _ {1} R T}} \\   {\text {得} S _ {\infty} = 1.000 \times 10 ^ {- 5} \mathrm{mol/L(2分)}} \\   {\quad (\text {共} 5 \text {分})} \end{array}
+\begin{array}{r l}   {\ln \frac {S _ {1}}{S _ {\infty}} = \frac {\gamma M}{\rho r _ {1} R T}} \\   {\text {得} S _ {\infty} = 1.000 \times 10 ^ {- 5} \mathrm{mol/L（2 分）}} \\   {\quad (\text {共} 5 \text {分})} \end{array}
 $$
 
 体系中存在大小不同的两种颗粒，小颗粒表面能更高、溶解度更大，因此小颗粒会不断溶解，溶质沉积到大颗粒上（奥斯特瓦尔德熟化现象）。最终小颗粒将完全消失，物质全部转移到原本的大颗粒上（2分，在计算中体现或简要说明均可）
@@ -496,7 +607,7 @@ $$
 单颗粒终态体积 $V_{3} = \frac{n_{0}M}{\rho N_{1}} = 2V_{1}, V_{3} = \frac{4}{3}\pi r_{3}^{3} = 2\times \frac{4}{3}\pi r_{1}^{3} = 2V_{1}$
 
 $$
-r _ {3} = \sqrt [ 3 ]{2} r _ {1} = 50.40 \mathrm{nm(2分)}
+r _ {3} = \sqrt [ 3 ]{2} r _ {1} = 50.40 \mathrm{nm（2 分）}
 $$
 
 此时体系的终态溶解度 $S_{3}$ 根据Ostwald-Freundlich公式计算：
@@ -505,8 +616,8 @@ $$
 \mathrm{RTln} \frac {S _ {3}}{S _ {\infty}} = \frac {\gamma M}{\rho r _ {3}}
 $$
 
-得 $S_{3}=1.051\times10^{-5}$ mol/L（2分）
-(共6分)
+得 $S_{3}=1.051\times10^{-5}$ mol/L（2 分）
+（共 6 分）
 
 对于浓度为 C 的过饱和溶液，临界晶核必须处于亚稳平衡状态，即其自身对应的溶解度正好等于过饱和溶液的浓度 $(S_{c}=C)$ :
 
@@ -532,7 +643,7 @@ $$
 
 解得临界半径 $r_c = -\frac{2\gamma}{\Delta g_v}$
 
-因此 $\Delta g_{v} = -\frac{2\gamma}{r_{c}}$ （1分）
+因此 $\Delta g_{v} = -\frac{2\gamma}{r_{c}}$ （1 分）
 
 $$
 \Delta G _ {V, C} = \frac {4}{3} \pi r _ {c} ^ {3} \Delta g _ {v} = \frac {4}{3} \pi r _ {c} ^ {3} (- \frac {2 \gamma}{r _ {c}}) = - \frac {8}{3} \pi r _ {c} ^ {2} \gamma (1 \mathrm{分})
@@ -542,7 +653,19 @@ $$
 \Delta G _ {C} = \Delta G _ {V, C} + \Delta G _ {S, C} = \frac {4}{3} \pi (r _ {c}) ^ {2} \gamma = 6.545 \times 10 ^ {- 18} \mathrm{J(2分}
 $$
 
-> **解析**（据源答案整理）：考查微晶溶解的界面热力学（Ostwald–Freundlich 公式）。要点：由两种晶粒半径的溶解度联立 RT·ln(S_r/S_∞)＝γM/(ρr) 求固-液界面张力 γ 与大块溶解度 S_∞；再由 Ostwald 熟化判断共存时的终态（大晶粒长大、小晶粒溶解）及终态溶解度；末问由过饱和浓度求均相成核临界半径与 Gibbs 自由能变（体积项＋表面项）。
+> —— 解析 ——
+>
+> **考点**：Ostwald-Freundlich（Kelvin）方程的溶解度–粒度关系、奥斯特瓦尔德熟化、均相成核的临界晶核与成核势垒（知识点：〈表面张力〉、〈溶解度〉、〈Gibbs自由能〉、〈溶度积〉、〈相变热力学〉）
+>
+> **思路**：9-1 由两个不同半径的溶解度**相比**消去 $S_\infty$ 求界面张力 $\gamma$，再代回求大块溶解度；9-2 熟化过程的本质是「小颗粒全溶、物质并入大颗粒」⇒ 颗粒数不变、**总体积不变**，据此定 $r_3$，再回代方程求 $S_3$；9-3 临界晶核处于「自身溶解度＝过饱和浓度」的亚稳平衡，先求 $r_c$；成核势垒由体积项与表面项相加、对 $r$ 求极值得 $\Delta G_C$。
+>
+> **9-1**（5 分）对 1:1 型电解质 $K_{sp}=S^2$，Ostwald-Freundlich 方程化为 $RT\ln\dfrac{S_r}{S_\infty}=\dfrac{\gamma M}{\rho r}$。取两半径之比消去 $S_\infty$：$\ln\dfrac{S_2}{S_1}=\dfrac{\gamma M}{\rho RT}\left(\dfrac1{r_2}-\dfrac1{r_1}\right)$。代入 $S_1=1.065\times10^{-5}$、$S_2=1.285\times10^{-5}$、$M=233.4\ \mathrm{g\cdot mol^{-1}}$、$\rho=4.50\ \mathrm{g\cdot cm^{-3}}$，得 $\gamma\approx0.1197\ \mathrm{J\cdot m^{-2}}$。再把 $\gamma$ 与 $r_1$ 代回：$\ln\dfrac{S_1}{S_\infty}=\dfrac{\gamma M}{\rho r_1RT}$ ⇒ $S_\infty=1.000\times10^{-5}\ \mathrm{mol\cdot L^{-1}}$。
+>
+> **9-2**（6 分）小颗粒（$r_2=10.0\ \mathrm{nm}$）表面能高、溶解度大，会持续溶解并沉积到大颗粒（$r_1=40.0\ \mathrm{nm}$）上（**奥斯特瓦尔德熟化**）。设大颗粒数 $N_1$ 不变，终态全部 $1.0\ \mathrm{mol}$ 由这 $N_1$ 个晶粒构成，由**体积守恒**知终态单颗粒体积为初态的 2 倍：$r_3=\sqrt[3]{2}\,r_1=1.260\times40.0\ \mathrm{nm}=50.40\ \mathrm{nm}$。再由 $RT\ln\dfrac{S_3}{S_\infty}=\dfrac{\gamma M}{\rho r_3}$ 得 $S_3=1.051\times10^{-5}\ \mathrm{mol\cdot L^{-1}}$。
+>
+> **9-3**临界晶核处于亚稳平衡：其溶解度恰等于过饱和浓度 $S_c=C$，即 $RT\ln\dfrac{C}{S_\infty}=\dfrac{\gamma M}{\rho r_c}$，$\ln2\times2478.8$ 代入得 $r_c=3.613\times10^{-9}\ \mathrm m=3.613\ \mathrm{nm}$。成核自由能 $\Delta G=\dfrac43\pi r^3\Delta g_v+4\pi r^2\gamma$（$\Delta g_v<0$），对 $r$ 求导为零 ⇒ $r_c=-\dfrac{2\gamma}{\Delta g_v}$ ⇒ $\Delta g_v=-\dfrac{2\gamma}{r_c}$。代回：$\Delta G_C=\dfrac43\pi r_c^3\times\left(-\dfrac{2\gamma}{r_c}\right)+4\pi r_c^2\gamma=\dfrac43\pi\gamma r_c^2\approx6.55\times10^{-18}\ \mathrm J$。
+>
+> **易错**：① 9-1 必须先「两式相除」消 $S_\infty$（$S_\infty$ 未知），直接代入会陷入死循环；② 单位：$M$ 用 $\mathrm{kg\cdot mol^{-1}}$、$\rho$ 用 $\mathrm{kg\cdot m^{-3}}$、$r$ 用 $\mathrm m$ 才能与 $RT$ 匹配；③ 9-2 的 $r_3$ 由**体积守恒**（颗粒数 $N_1$ 不变）求得，不是「半径取平均」；④ 9-3 的 $\Delta G_C$ 是 $\frac43\pi\gamma r_c^2$（推导后交叉项相消），漏掉体积项会得 2 倍值。
 
 ---
 
@@ -556,8 +679,8 @@ $$
 
 |  | $NH_3(g)$ | $NO_3^- (aq)$ | $NO_2(g)$ | NO(g) | $H_2O(l)$ | $O_2(g)$ |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| $Δ_fH_m^\theta/kJ·mol^{-1}$ | -45.9 | -206.9 | 33.2 | 91.3 | -285.8 | 0 |
-| $S_m^\theta/J·mol^{-1}·K^{-1}$ | 192.8 | 146.7 | 240.1 | 210.8 | 70.0 | 205.2 |
+| $Δ_fH_m^{\ominus}/kJ·mol^{-1}$ | -45.9 | -206.9 | 33.2 | 91.3 | -285.8 | 0 |
+| $S_m^{\ominus}/J·mol^{-1}·K^{-1}$ | 192.8 | 146.7 | 240.1 | 210.8 | 70.0 | 205.2 |
 
 
 
@@ -565,9 +688,9 @@ $$
 
 ## 第2页,共6页
 
-10-1 硝酸的生产使用现代版的 Ostwald 法，该法首先经两步反应将 $\mathrm{NH}_{3}(\mathrm{~g})$ 氧化成 $\mathrm{NO}_{2}(\mathrm{~g})$ 。请写出总反应的热化学方程式，并计算 $\Delta_{r}H_{m}^{\theta}$ 、 $\Delta_{r}S_{m}^{\theta}$ 、 $\Delta_{r}G_{m}^{\theta}$ 。(T = 298.15 K)
+10-1 硝酸的生产使用现代版的 Ostwald 法，该法首先经两步反应将 $\mathrm{NH}_{3}(\mathrm{~g})$ 氧化成 $\mathrm{NO}_{2}(\mathrm{~g})$ 。请写出总反应的热化学方程式，并计算 $\Delta_{r}H_{m}^{\ominus}$ 、 $\Delta_{r}S_{m}^{\ominus}$ 、 $\Delta_{r}G_{m}^{\ominus}$ 。(T = 298.15 K)
 
-10-2 随后，在加热条件下将 $\mathrm{NO}_2(\mathrm{g})$ 溶于水得到 $\mathrm{HNO}_3$ ，请写出该反应的热化学方程式，并计算 $\Delta_{\mathrm{r}}\mathrm{G}_{\mathrm{m}}^{\theta}$ 以及标准平衡常数 $\mathrm{K}^{\theta}$ 。（T = 348.15 K）
+10-2 随后，在加热条件下将 $\mathrm{NO}_2(\mathrm{g})$ 溶于水得到 $\mathrm{HNO}_3$ ，请写出该反应的热化学方程式，并计算 $\Delta_{\mathrm{r}}\mathrm{G}_{\mathrm{m}}^{\ominus}$ 以及标准平衡常数 $\mathrm{K}^{\ominus}$ 。（T = 348.15 K）
 
 10-3 一体积为 40.0 L 的密闭容器中装有 300 bar NO(g)，从容器上的小孔通入原压强为 1.00 bar NO $_{2}$ (g) 21.0 m $^{3}$ 与一定量的水，随后封闭容器。反应达平衡后，溶液体积为 30.0 L。温度默认为 348.15 K，不考虑NO $_{2}$ (g)二聚。
 
@@ -577,7 +700,7 @@ $$
 
 #### 答案
 
-10-1 $4\mathrm{NH}_{3}(\mathrm{~g})+7\mathrm{O}_{2}(\mathrm{~g})\rightarrow4\mathrm{NO}_{2}(\mathrm{~g})+6\mathrm{H}_{2}\mathrm{O}(\mathrm{l})$ （1分）
+10-1$4\mathrm{NH}_{3}(\mathrm{~g})+7\mathrm{O}_{2}(\mathrm{~g})\rightarrow4\mathrm{NO}_{2}(\mathrm{~g})+6\mathrm{H}_{2}\mathrm{O}(\mathrm{l})$ （1 分）
 
 $$
 \Delta_ {\mathrm{r}} \mathrm{H} _ {\mathrm{m}} ^ {\theta} = - 1398.4 \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1}, \quad \Delta_ {\mathrm{r}} \mathrm{S} _ {\mathrm{m}} ^ {\theta} = - 827.2 \mathrm{J} \cdot \mathrm{mol} ^ {- 1} \cdot \mathrm{K} ^ {- 1}, \quad \Delta_ {\mathrm{r}} \mathrm{G} _ {\mathrm{m}} ^ {\theta} = - 1151.8 \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1}
@@ -590,7 +713,6 @@ $$
 $$
 \mathrm{K} ^ {\theta} = 3.2 \times 10 ^ {5} (2 \text {分})
 $$
-
 10-3-1
 
 $$
@@ -628,7 +750,21 @@ $$
 
 （共 5 分，K'值 1 分，列方程 1 分，x 值 1 分， $p(NO_{2})$ ， $c(NO_{2})$ 各 1 分）
 
-> **解析**（据源答案整理）：考查气相反应的热力学量与平衡计算。要点：先由标准生成焓、熵数据求氨氧化反应的 Δ_rH°、Δ_rS°、Δ_rG°，判断标准态自发性与最低反应温度；再由平衡常数求各组分平衡分压与转化率；末问在认为 HNO₃ 完全电离的前提下做物料与电荷守恒计算。
+> —— 解析 ——
+>
+> **考点**：热力学函数（$\Delta_rH$、$\Delta_rS$、$\Delta_rG$）与平衡常数的相互换算、气相–液相–溶解多相平衡的物料守恒与亨利定律（知识点：〈化学热力学〉、〈Gibbs自由能〉、〈化学平衡〉、〈反应商〉、〈标准生成焓〉、〈标准熵〉）
+>
+> **思路**：10-1／10-2 直接由 $\Delta_fH^\ominus$、$S_m^\ominus$ 算出 $\Delta_rH^\ominus$、$\Delta_rS^\ominus$，再按 $T$ 算 $\Delta_rG^\ominus$、由 $\Delta_rG^\ominus=-RT\ln K^\ominus$ 求 $K^\ominus$；10-3 以「气–液两相物料守恒」列方程，气相用 $pV=nRT$、液相用浓度的 4 次方与气体分压的 3 次方之比写出 $K$，解出反应进度 $x$；末问引入亨利定律把溶解量并入守恒式。
+>
+> **10-1**（3 分）$4\mathrm{NH_3(g)}+7\mathrm{O_2(g)}\to4\mathrm{NO_2(g)}+6\mathrm{H_2O(l)}$。$\Delta_rH_m^\ominus=4\times33.2+6\times(-285.8)-4\times(-45.9)=132.8-1714.8+183.6=-1398.4\ \mathrm{kJ\cdot mol^{-1}}$；$\Delta_rS_m^\ominus=4\times240.1+6\times70.0-4\times192.8-7\times205.2=960.4+420.0-771.2-1436.4=-827.2\ \mathrm{J\cdot mol^{-1}\cdot K^{-1}}$；$\Delta_rG_m^\ominus=-1398.4-298.15\times(-827.2)\times10^{-3}=-1151.8\ \mathrm{kJ\cdot mol^{-1}}$。
+>
+> **10-2**$3\mathrm{NO_2(g)}+\mathrm{H_2O(l)}\to2\mathrm{HNO_3(aq)}$（$\mathrm{HNO_3}$ 完全电离，写成 $2\mathrm{H^+}+2\mathrm{NO_3^-}$）：$\Delta_rH_m^\ominus=2\times(-206.9)+91.3-3\times33.2-(-285.8)=-136.3\ \mathrm{kJ\cdot mol^{-1}}$；$\Delta_rS_m^\ominus=2\times146.7+210.8-3\times240.1-70.0=-286.1\ \mathrm{J\cdot mol^{-1}\cdot K^{-1}}$。$T=348.15\ \mathrm K$ 时 $\Delta_rG_m^\ominus=-136.3-348.15\times(-286.1)\times10^{-3}=-36.7\ \mathrm{kJ\cdot mol^{-1}}$；$K^\ominus=\exp\!\left(\dfrac{36.7\times10^{3}}{8.314\times348.15}\right)\approx3.2\times10^{5}$。
+>
+> **10-3-1**$n_0(\mathrm{NO})=\dfrac{p_0V}{RT}=\dfrac{300\times40.0}{0.08314\times348.15}\approx415\ \mathrm{mol}$；$n_0(\mathrm{NO_2})=\dfrac{100\times21000}{8.314\times348.15}\approx726\ \mathrm{mol}$。气相体积 $=40.0-30.0=10.0\ \mathrm L$。设反应 $3\mathrm{NO_2}+\mathrm{H_2O}\to2\mathrm{H^+}+2\mathrm{NO_3^-}+\mathrm{NO}$ 进度为 $x$，由 $K^\ominus=\dfrac{(2x/30)^4\cdot p(\mathrm{NO})}{p(\mathrm{NO_2})^3}=3.20\times10^{5}$ 解得 $x\approx241$。于是 $c(\mathrm{HNO_3})=\dfrac{2x}{30.0}=16.1\ \mathrm{mol\cdot L^{-1}}$；$p(\mathrm{NO})=1.90\times10^{3}\ \mathrm{bar}$、$p(\mathrm{NO_2})\approx7\ \mathrm{bar}$。
+>
+> **10-3-2**$\mathrm{NO_2(g)\rightleftharpoons NO_2(aq)}$：$K'=k\dfrac{p^\ominus}{c^\ominus}=1.20\times10^{-4}\times\dfrac{10^{5}}{10^{3}}=1.20\times10^{-2}$。把溶解项并入物料守恒（气相分压由 $(726-3x)/(3K'RT+1)$ 形式给出），仍用同一 $K^\ominus=3.20\times10^{5}$ 解得$p(\mathrm{NO_2})=7.30\ \mathrm{bar}$、$c(\mathrm{NO_2})=8.76\times10^{-2}\ \mathrm{mol\cdot L^{-1}}$。
+>
+> **易错**：① 10-1／10-2 的 $\Delta_rG^\ominus$ 必须在**指定温度**下算（$298.15$ vs $348.15\ \mathrm K$），不能混用；② 10-3 的气相体积是「总容积 $40.0\ \mathrm L$ − 溶液 $30.0\ \mathrm L$ ＝ $10.0\ \mathrm L$」，漏减是常见错误；③ 平衡常数表达式中浓度的幂次是 4（$2x/30$ 的 4 次方，来自 $2\mathrm{H^+}$ 与 $2\mathrm{NO_3^-}$），气体项幂次为 3（$3\mathrm{NO_2}$）／1（$\mathrm{NO}$），配错会无解；④ 亨利常数的量纲换算 $K'=k\,p^\ominus/c^\ominus$ 不可漏。
 
 ---
 
@@ -641,8 +777,8 @@ $$
 | 3 | 过渡金属硼化物——二硼化钛 | [[题-HZ-08-03-过渡金属硼化物具有高熔点高硬]] | 汇智 | 结构化学 | ⭐⭐⭐⭐ | 13 |
 | 4 | 天然气的主要成分为甲烷水合物 | [[题-GChO-03-02-天然气的主要成分为甲烷水合物]] | 质心GChO | 结构化学 | ⭐⭐⭐⭐ | 13 |
 | 5 | 核反应堆中的氧化物 | [[题-XeC-15-03-随着核电的发展绿色高效地处理]] | XeChem | 结构化学 | ⭐⭐⭐⭐ | 13 |
-| 6 | 3-1 已知 的 | [[题-GChO-12-03-31已知的计算水溶液的pH3]] | 质心GChO | 化学原理 | ⭐⭐⭐⭐ | 13 |
-| 7 | 4-1 在 968 K 和 | [[题-CM-103-04-4-1在968K和1247K]] | chemy | 化学原理 | ⭐⭐⭐⭐ | 13 |
+| 6 | 硫化氢的酸碱平衡与金属硫化物的溶度积 | [[题-GChO-12-03-31已知的计算水溶液的pH3]] | 质心GChO | 化学原理 | ⭐⭐⭐⭐ | 13 |
+| 7 | 钠的蒸发焓与 NaCl 的晶格焓 | [[题-CM-103-04-4-1在968K和1247K]] | chemy | 化学原理 | ⭐⭐⭐⭐ | 13 |
 | 8 | 多孔材料的吸附 | [[题-QBY-06-03-某新型多孔框架材料MAF7可]] | 清北营 | 化学原理 | ⭐⭐⭐⭐ | 13 |
 | 9 | 沉淀的演化与成核热力学 | [[题-HYS-10-04-已知在29815K下将具有完]] | 化英社 | 化学原理 | ⭐⭐⭐⭐ | 13 |
 | 10 | 硝酸的热力学 | [[题-FY-10-04-硝酸是一种重要的工业原料可用]] | 方圆 | 化学原理 | ⭐⭐⭐⭐ | 13 |
