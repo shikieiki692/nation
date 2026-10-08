@@ -15,7 +15,7 @@ knowledge_points:
   - "[[苯酚]]"
   - "[[芳香亲电取代反应]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 有机化学
@@ -53,7 +53,7 @@ pool_scope: 有机化学
 
 ## 参考答案
 
-## 第7题（11分）
+第7题（11分）
 
 7-1
 

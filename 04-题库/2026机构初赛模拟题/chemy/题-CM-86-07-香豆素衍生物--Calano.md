@@ -15,7 +15,7 @@ knowledge_points:
   - "[[区域选择性]]"
   - "[[有机锌试剂]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 有机化学
@@ -49,7 +49,7 @@ pool_scope: 有机化学
 
 ## 参考答案
 
-## 第7题（11分）
+第7题（11分）
 
 ![](images/19b782ff4766245efbcd275c5112284e9e6028e71af0a3a6ec5889ad1bc3dad9.jpg)
 

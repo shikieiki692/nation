@@ -15,7 +15,7 @@ knowledge_points:
   - "[[晶体密度公式]]"
   - "[[分数坐标]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 结构化学
@@ -53,7 +53,7 @@ DADB，因其化学式为 $(\mathrm{NH}_{3}\cdot\mathrm{BH}_{3})_{2}$ 被命名�
 
 ## 参考答案
 
-## 第6题（12分）
+第6题（12分）
 
 ![](images/420619a107a767df0d2df38a08dca9b318cdcf20cba5b11d3a008b5569d4a57d.jpg)
 

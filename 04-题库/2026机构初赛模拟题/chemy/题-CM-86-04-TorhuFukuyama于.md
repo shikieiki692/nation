@@ -15,7 +15,7 @@ knowledge_points:
   - "[[烯烃复分解]]"
   - "[[逆合成分析]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 有机化学
@@ -48,7 +48,7 @@ Torhu Fukuyama 于 2015 年完成了天然产物 Isoschizogamine 的全合成，
 
 ## 参考答案
 
-## 第4题（8分）
+第4题（8分）
 
 ![](images/106046eff9d54484f62e7df83c8f2ab60a96e954932218bfc9ac40507963fbc2.jpg)
 

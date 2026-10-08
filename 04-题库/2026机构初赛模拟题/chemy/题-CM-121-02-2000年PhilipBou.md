@@ -14,7 +14,7 @@ knowledge_points:
   - "[[硅烷]]"
   - "[[¹H NMR]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 结构化学
@@ -55,7 +55,7 @@ A 为 1:1 型离子化合物。A 的阳离子 X 中硅为八面体配位，氢�
 
 
 
-## 第2题（10分）
+第2题（10分）
 
 
 ![](images/6cd47544a8496541c8b41a262df2bbb9d9097af95543478875ffe79fdaa216a3.jpg)

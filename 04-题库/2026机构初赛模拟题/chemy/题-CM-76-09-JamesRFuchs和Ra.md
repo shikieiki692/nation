@@ -14,7 +14,7 @@ knowledge_points:
   - "[[天然产物合成]]"
   - "[[自由基]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 有机化学
@@ -50,7 +50,7 @@ James R. Fuchs 和 Raymond L. Funk 于 2001 年报道了一种制备多环体系
 
 ## 参考答案
 
-## 第9题（10分）
+第9题（10分）
 
 ![](images/6ad51d3143963f1fe5f43721b6461ad137543d0a1931843e1a823b4df5938658.jpg)
 

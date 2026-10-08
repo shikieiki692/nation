@@ -15,7 +15,7 @@ knowledge_points:
   - "[[空间位阻效应]]"
   - "[[范德华力]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 有机化学
@@ -55,7 +55,7 @@ AuNP 已经具有了催化剂载体的功能。 为进一步改进，科学家�
 
 ## 参考答案
 
-## 第9题（9分，4%）
+第9题（9分，4%）
 
 ![](images/aa0b99474d31060ac93850993aee8a7b6adde4c98ac29ce6616a178a18a042a8.jpg)
 

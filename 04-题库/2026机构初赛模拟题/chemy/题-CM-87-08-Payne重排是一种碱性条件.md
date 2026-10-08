@@ -16,7 +16,7 @@ knowledge_points:
   - "[[动力学控制]]"
   - "[[¹H NMR]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 有机化学
@@ -74,7 +74,7 @@ Payne 重排是一种碱性条件下 2,3-环氧醇的异构化反应。
 
 ## 参考答案
 
-## 第8题（16分）
+第8题（16分）
 
 ![](images/8cf365de1d6fd389171195fe0fe79f07839b7a0c9616347d0f3604a8d2b70436.jpg)
 

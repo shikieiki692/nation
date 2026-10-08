@@ -15,7 +15,7 @@ knowledge_points:
   - "[[速率方程]]"
   - "[[半衰期]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 有机化学
@@ -57,7 +57,7 @@ pool_scope: 有机化学
 
 ## 参考答案
 
-## 第4题（14分）
+第4题（14分）
 
 ![](images/b9dcefd85bf197341298509cc4a79076b417afc05bff1bb13455a41fcbfddbe8.jpg)
 

@@ -15,7 +15,7 @@ knowledge_points:
   - "[[配合物]]"
   - "[[配位数]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 结构化学
@@ -51,7 +51,7 @@ $\left[\mathrm{H}_{3} \mathrm{~L}\right] \mathrm{Cl}$
 
 ## 参考答案
 
-## 第2题（7分）
+第2题（7分）
 
 ![](images/72df2516660cf663ed65b45e785c2a2bbac4f83de678d428dd196afd2f3454f2.jpg)
 

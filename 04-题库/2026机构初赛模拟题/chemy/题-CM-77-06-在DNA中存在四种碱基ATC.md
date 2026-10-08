@@ -14,7 +14,7 @@ knowledge_points:
   - "[[分子识别]]"
   - "[[生物化学]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 有机化学
@@ -42,7 +42,7 @@ pool_scope: 有机化学
 
 ## 参考答案
 
-## 第6题（4分）
+第6题（4分）
 
 ![](images/a0c94b2cb30b3988ceafaf046a344488e9313147fef10a0f1b06e7a40d68e973.jpg)
 

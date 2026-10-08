@@ -14,7 +14,7 @@ knowledge_points:
   - "[[自由基]]"
   - "[[有机合成]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 有机化学
@@ -46,7 +46,7 @@ Merrilactone 是一种从中国大茴香中提取出来的天然产物，在治�
 
 ## 参考答案
 
-# 第 9 题（11 分）
+第 9 题（11 分）
 
 ![](images/ea85212b81825eb0844c7e94e87f76d653268862893cebc753fa025f5a4b5cfb.jpg)
 

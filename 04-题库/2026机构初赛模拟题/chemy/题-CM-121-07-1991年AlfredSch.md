@@ -14,7 +14,7 @@ knowledge_points:
   - "[[共振论]]"
   - "[[亲核体与亲电体]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 结构化学
@@ -52,7 +52,7 @@ source_file: "chemy试题/第36届化学奥林匹克Chemy模拟试题题目合�
 
 ## 参考答案
 
-## 第7题（10分）
+第7题（10分）
 
 ![](images/a6cee92cf0df05bac88b89027fbee94002fffba38f094e292f31bcfb834be378.jpg)
 

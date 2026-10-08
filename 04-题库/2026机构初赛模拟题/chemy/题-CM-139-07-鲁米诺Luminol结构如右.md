@@ -14,7 +14,7 @@ knowledge_points:
   - "[[氢键]]"
   - "[[光化学基础]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 结构化学
@@ -43,7 +43,7 @@ source_file: "chemy试题/第37届Chemy题目合集..md"
 
 ## 参考答案
 
-## 第7题（5分）鲁米诺
+第7题（5分）鲁米诺
 
 ![](images/38c7dc9909815b1ddf64ab531df1c08b2a3d4e2b741a2e0f7267816d593b8b90.jpg)
 
