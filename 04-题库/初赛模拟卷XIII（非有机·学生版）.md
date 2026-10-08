@@ -28,8 +28,8 @@ question_count: 10
 
 | 物质 | CO(g) | $CH_{3}OH(g)$ | $CO_{2}(g)$ | $H_{2}O(l)$ |
 |:--:|:--:|:--:|:--:|:--:|
-| $\Delta_{\mathrm{f}}H_{\mathrm{m}}^{\ominus}/\mathrm{kJ}/\mathrm{mol}$ | -110.5 | -200.7 | -393.5 | -285.8 |
-| $\Delta_{\mathrm{f}}G_{\mathrm{m}}^{\ominus}/\mathrm{kJ}/\mathrm{mol}$ | -137.2 | -162.0 | -394.4 | -237.1 |
+| $\Delta_{\mathrm{f}}H_{\mathrm{m}}^{\ominus}/\mathrm{kJ}\cdot\mathrm{mol}^{-1}$ | -110.5 | -200.7 | -393.5 | -285.8 |
+| $\Delta_{\mathrm{f}}G_{\mathrm{m}}^{\ominus}/\mathrm{kJ}\cdot\mathrm{mol}^{-1}$ | -137.2 | -162.0 | -394.4 | -237.1 |
 
 1-1 分别计算在 298.15 K 下，上述甲醇裂解反应的摩尔恒压热效应 $Q_{p,m}$ ，以及摩尔恒容热效应 $Q_{v,m}$ 。
 
@@ -101,7 +101,7 @@ question_count: 10
 
 5-3-2 若通入氢气至压力为 1.0bar，通过缓冲体系维持溶液 pH=4.15，计算反应的平衡转化率。
 
-1-3-3298K、氢气压力 1bar 下，要使 99.5% 以上的 VO $^{2+}$ 被还原为 V $^{3+}$ ，计算溶液的最大允许 pH。
+5-3-3 298 K、氢气压力 1 bar 下，要使 99.5% 以上的 VO $^{2+}$ 被还原为 V $^{3+}$ ，计算溶液的最大允许 pH。
 
 5-3-4 该反应的标准电势差 $\mathrm{E}^{\circ}$ 随温度的线性变化率为 $-1.75 \times 10^{-3} \mathrm{~V} / \mathrm{K}$ 。已知以下物质的标准熵数据，计算反应的焓变及 $\mathrm{VO}^{2+}$ 的标准摩尔熵（298K）。
 
@@ -174,7 +174,7 @@ question_count: 10
 
 ### 第 10 题（13 分）
 
-1-1298K 下, 在一弹式热量计中完全燃烧 $0.30 \mathrm{~mol} \mathrm{H}_{2}(\mathrm{~g})$ 生成 $\mathrm{H}_{2} \mathrm{O}(\mathrm{l})$ , 热量计中的水温升高 $5.212 \mathrm{~K}$ ; 将 $2.345 \mathrm{~g}$ 正癸烷完全燃烧, 使热量计中的水温升高 $6.862 \mathrm{~K}$ 。已知 $\mathrm{H}_{2} \mathrm{O}(\mathrm{l})$ 的标准摩尔生成热为 $-285.8 \mathrm{~kJ} \mathrm{mol}^{-1}$ , 求正癸烷的燃烧热。
+10-1 298 K 下, 在一弹式热量计中完全燃烧 $0.30 \mathrm{~mol} \mathrm{H}_{2}(\mathrm{~g})$ 生成 $\mathrm{H}_{2} \mathrm{O}(\mathrm{l})$ , 热量计中的水温升高 $5.212 \mathrm{~K}$ ; 将 $2.345 \mathrm{~g}$ 正癸烷完全燃烧, 使热量计中的水温升高 $6.862 \mathrm{~K}$ 。已知 $\mathrm{H}_{2} \mathrm{O}(\mathrm{l})$ 的标准摩尔生成热为 $-285.8 \mathrm{~kJ} \mathrm{mol}^{-1}$ , 求正癸烷的燃烧热。
 
 10-2 早期科学家用冰量热计（绝热恒压）研究碳（石墨）的燃烧热，实验结果如下：
 
@@ -186,7 +186,7 @@ question_count: 10
 
 |  | CO(g) | $CO_2$ (g) | $H_2O$ (g) | $H_2O$ (l) |
 |:--:|:--:|:--:|:--:|:--:|
-| $\Delta_fH^{\ominus}m(kJ/mol)$ | -110.52 | -393.51 | -241.82 | -285.83 |
+| $\Delta_fH^{\ominus} m(kJ/mol)$ | -110.52 | -393.51 | -241.82 | -285.83 |
 
 10-3 已知金星表面大气压是地球表面的 93.0 倍，大气的主要成分为 $\mathrm{CO}_{2}$ ，水的凝固点降低系数为 $1.86 \mathrm{~K} \cdot \mathrm{kg} \cdot \mathrm{mol}^{-1}$ 。在金星表面大气压下水中 $\mathrm{CO}_{2}$ 质量分数为 $7.50\%$ ，冰的熔点为 $269.29 \mathrm{~K}$ 。结合以上信息，求出 $\frac{dT}{dP}$ （即熔点随压强变化图像的斜率）在 $273.16 \mathrm{~K}$ 处的值，并从化学平衡角度说明该数值为何大于（或小于）零。已知水的三相点（即固液气三相共存）为 $610.48 \mathrm{~Pa}$ ， $273.16 \mathrm{~K}$ 。
 
