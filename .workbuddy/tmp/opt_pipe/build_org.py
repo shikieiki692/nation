@@ -1175,7 +1175,7 @@ def write_vol(picks, flat, SC):
                     out.append('| %d | %s | [[%s]] | %s | %s | %s | %d |' % (
                         n, desc_of(c), stem, c['src_dir'], modshort[mod], c['stars'] or '—', SC[c['path']]))
             out += ['', '合计 %d 分；难度 ⭐⭐⭐⭐ ×%d、⭐⭐⭐⭐⭐ ×%d；有机化学 0 题、真题 0 题；跨 %d 个来源机构。'
-                    % (total, n4, n5, len(orgs)),
+                    % (total, n4, n5, len(orgs)), '',
                     '> 难度星级取自题卡 `difficulty` 字段。**本库 `exam_stage` 字段不可信**，故本卷不按考段标注。', '']
         out.append('')
 
