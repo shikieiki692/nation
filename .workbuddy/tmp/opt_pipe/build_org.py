@@ -483,13 +483,16 @@ def renumber2(text, new_no, prefix):
                   lambda m: '**%d-%s-%s**' % (new_no, m.group(1), m.group(2)), text)
     text = re.sub(r'\*\*\s*' + p + r'\s*[-.．]\s*(\d{1,2})\s*\*\*',
                   lambda m: '**%d-%s**' % (new_no, m.group(1)), text)
+    # 计数量词（`N-M 个/种/条…`＝**区间**，不是小问号）——不得改写，
+    # 否则 `正确确定 1-5 个` 会被错成 `9-5 个`（2026-10-08 卷 XIV 第 9 题实测）。
+    RANGE_TAIL = r'(?!\s*[个种条次层组份])'
     # 裸三级（先做，含间距变体）
-    text = re.sub(r'(?<![\w\d.])' + p + r'\s*-\s*(\d{1,2})\s*-\s*(\d{1,2})(?![\w\d.])',
+    text = re.sub(r'(?<![\w\d.])' + p + r'\s*-\s*(\d{1,2})\s*-\s*(\d{1,2})(?![\w\d.])' + RANGE_TAIL,
                   lambda m: '%d-%s-%s' % (new_no, m.group(1), m.group(2)), text)
     # 裸二级 —— lookbehind 须排除 `-`：否则会二次命中刚生成的三级号里的 `2-1`
     # ⇒ `2-2-1` 被错成 `5-5-1`（2026-10-08 卷 XIV 实测）；lookahead 保持原样
     # （收紧 lookahead 会在 4 级小问上引入新错位，已证伪勿再试）
-    text = re.sub(r'(?<![\w\d.\-])' + p + r'\s*-\s*(\d{1,2})(?![\w\d.]|-)',
+    text = re.sub(r'(?<![\w\d.\-])' + p + r'\s*-\s*(\d{1,2})(?![\w\d.]|-)' + RANGE_TAIL,
                   lambda m: '%d-%s' % (new_no, m.group(1)), text)
     return text
 
