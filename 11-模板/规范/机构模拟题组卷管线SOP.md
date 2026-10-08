@@ -1,12 +1,12 @@
 ---
-title: "机构模拟题组卷管线 SOP（定版 v1.1）"
+title: "机构模拟题组卷管线 SOP（定版 v1.2）"
 type: 规范
-version: v1.1
+version: v1.2
 updated: 2026-10-08
-tags: [规范, 组卷线, 机构模拟题, 初赛模拟卷, 真题版式, 回源核验, 答案核验, 解析]
+tags: [规范, 组卷线, 机构模拟题, 初赛模拟卷, 真题版式, 回源核验, 答案核验, 解析, 卷级后处理]
 ---
 
-# 机构模拟题组卷管线 SOP（定版 v1.1 · 2026-10-08）
+# 机构模拟题组卷管线 SOP（定版 v1.2 · 2026-10-08）
 
 > 配套技能：`~/.workbuddy/skills/multisource-exam-paper-compose/SKILL.md`（细节/坑表/工具用法看它）。
 > 配套规范：[[机构模拟题解析撰写规范]]（解析的四段式结构与知识库取材口径）。
@@ -27,6 +27,13 @@ tags: [规范, 组卷线, 机构模拟题, 初赛模拟卷, 真题版式, 回源
 **铁律三（答案侧）**：**答案区也必须逐页视觉核验**。交付前把答案版 docx **全页渲染、逐张打开**，
 对照 md 原文与 docx 的 OMML 文本（`docx_probe.py`）三方核验；不得只看缩略图下结论
 （缩略图会把 `=63.97` 误读成 `=−63.97`）。
+
+**铁律四（格式工具不得在题面区生成评分标记）**：`build_org.LEAK` 判据把「**（N 分**」视作答案特征 ⇒
+若把**题面区**的 `(2')` 规范成 `（2 分）`，该卡会被判「题面泄露」而**掉出池**；
+而 `load_plan_picks` 的规则是「**计划内任一张不在池 ⇒ 整卷重选**」⇒ **整卷题目被悄悄换掉**
+（2026-10-08 实测：`题-GChO-03-02` 掉池 ⇒ 卷 XII 十题全换）。
+⇒ 硬性要求：① 评分标记类规范化**只在答案区**跑（`volpost.SC_NAMES`）；
+② **改完源卡、组卷之前，必须验证卷内 10 卡仍在池**（`xii_poolchk.py` / `volpost --diag`）。
 
 ## 一、目录与产物口径
 
@@ -54,19 +61,22 @@ O=.workbuddy/tmp/opt_pipe
 #   ⚠️ 带图卡必须**逐张打开核图的内容**（不是「有没有图」）——曾两次把邻题图切进本卡
 
 # ⓪-b 答案侧核验：源卡答案区「九类缺陷」逐条扫（见 §五-b），数值一律**自己重算一遍**
-"$PY" -X utf8 $O/diag_xiii_ans.py                          # 模板：定位待修点（题号残留/下标/表格标签/残迹）
-"$PY" -X utf8 $O/fix_xiii_ans.py --dry                     # 幂等修复器（RMW·备份·逐字节复核）
-"$PY" -X utf8 $O/fix_xiii_ans2.py --dry                    # 二轮：OCR 残迹（\dot、^{0}、断下标）
+"$PY" -X utf8 $O/volpost.py --vol <VOL> --diag              # 形态扫描（含「游离编号 / 首问缺号」报警）
+"$PY" -X utf8 $O/volpost.py --vol <VOL> --subq              # 小问编号核对（题面 vs 答案）
+"$PY" -X utf8 $O/vol_poolchk.py --vol <VOL>                 # ★ 改卡后**必跑**：确认卷内卡仍在池（防整卷被换）
 
 # ① 组卷（先看不写）→ ② 写盘
 "$PY" -X utf8 $O/build_org.py --vol <VOL> --all-years
 "$PY" -X utf8 $O/build_org.py --vol <VOL> --all-years --apply
 #   打印 pool[元素与分析]/[结构化学]/[化学原理] ＋ 16 题清单；⚠️ 某段池 < 所需 ⇒ 停手报告
 
-# ②-b 写盘后后处理（顺序：题名 → 解析 → 答案区结构）
-"$PY" -X utf8 $O/fix_titles_<VOL>.py                       # 人工题名（防文件名残段/含 $ 残段）
-"$PY" -X utf8 $O/add_analysis_<VOL>.py                     # 注入结构化解析（见 [[机构模拟题解析撰写规范]]）
-"$PY" -X utf8 $O/restructure_ans_<VOL>.py --apply          # 答案区去「题面重述行」→ 小问标签
+# ②-b 写盘后后处理（**全部由通用工具驱动**，顺序不可乱；详见 §五-d）
+"$PY" -X utf8 $O/volpost.py --vol <VOL> --fmt [--apply]                    # ① 源卡格式规范化
+"$PY" -X utf8 $O/volpost.py --vol <VOL> --patch <cfg>.json [--apply]       # ② 回源补漏行 / 断粘连
+"$PY" -X utf8 $O/volpost.py --vol <VOL> --titles <cfg>.json [--apply]      # ③ 人工题名
+"$PY" -X utf8 $O/add_analysis.py --vol <VOL> --data an<vol>_data1.py,…     # ④ 结构化解析
+"$PY" -X utf8 $O/volpost.py --vol <VOL> --ans [--apply]                    # ⑤ 答案区结构 + 卷 md 修复
+#   ⚠️ ② 改卡后必须回头跑 `vol_poolchk`：卡掉池 ⇒ 下次组卷会**整卷重选**（铁律四）
 
 # ③ 出交付物（真题版式）
 "$PY" -X utf8 $O/build_volX_zhenti.py --vol <VOL>          # 学生版 + 答案与解析版
@@ -142,6 +152,33 @@ git commit -m "…"                    # render_gate 拦下 ⇒ 先 --changed �
 - 位置：插入在每题块最后一个 `---` 之前（即「答案区之后」）。
 - 首行用居中横幅 `> —— 解析 ——`（出卷器对 `—` 开头引用块会居中）。
 - 闸门：注入后 `qa_volX2.py` 仍须「问题数 0」；`引块`/`数式字体` 计数应显著上升。
+
+## 五-d、卷级后处理工具箱（v1.2 新增 · 通用参数化）
+
+> 背景：此前每出一卷都要**重抄**一份 `fix_xiii_fmt/fmt2/ans/ans2`、`restructure_ans_<VOL>`、
+> `fix_titles_<VOL>`、`add_analysis_<VOL>`（**9 个硬编码脚本**）—— 规则完全一样，只有卷号不同。
+> v1.2 起收敛为**三个通用工具**，新卷只需写「数据/配置」。
+
+| 工具 | 作用 | 用法 |
+|:--|:--|:--|
+| `volpost.py` | 卷级后处理（诊断 / 规范化 / 结构 / 题名 / 补漏） | `--vol <V> --diag\|--subq\|--fmt\|--ans\|--titles cfg.json\|--patch cfg.json [--apply] [--cards 清单]` |
+| `add_analysis.py` | 结构化解析注入（数据驱动） | `--vol <V> --data an<V>_data1.py,…` |
+| `vol_poolchk.py` | **池校验**（改卡后必跑，见铁律四） | `--vol <V>` |
+
+**`volpost --fmt` 规则库**（全部幂等 + RMW + 备份 + 逐字节复核）：
+
+- 标准态 `\theta/\Theta/\circ → \ominus`（含无 `^` 的裸写法）· 单位 `kJ/mol → kJ·mol⁻¹`（区分数学/正文）
+- `\mathrm{n} → \ln`（OCR 丢字）· 下标句点 → 逗号 · 饱和蒸气压 `^{\bullet}/^* → ^{\ast}`
+- 评分标记 `(N')` / `(N^{\prime})` / 半角括号 → **`（N 分）`**（⚠️ **只在答案区**，见铁律四）
+- **`$$` 拆行**（行尾 `$$` ⇒ 独占一行，SOP 铁律二）
+- **数学块内多余 `$` 清理**（`in_math` 必须正确识别 `$$` 块）
+- **`\text{ \mathrm{X}}` 解嵌**（texmath 不支持该嵌套 ⇒ 整个 `$…$` 变字面）
+- **`$$` 块内小问号断块**（块内多行会超版心 ⇒ 右侧被裁）
+- EOL 归一（CRLF→LF，符合 `.gitattributes` 的 `*.md eol=lf`）
+
+**新卷复用手册**：① 写 `make_plan_<V>.py`（人工名单 → 计划锁，先 `--dry` 核对）；
+② `volpost --patch cfg.json` 补回源漏行 / 断粘连；③ 写 `an<V>_data*.py` 解析数据；
+④ 写题名配置；⑤ 按 §二 顺序跑全链，每步 `--dry` 先行。
 
 ## 六、当前池基线（2026-10-06 详查，`pool_census.py`）
 

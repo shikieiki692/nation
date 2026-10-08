@@ -109,17 +109,17 @@ F (0.1673, 0.1673, 0.1667) (0, 0.1673, 0.3333) (0.8327, 0, 0.5000)
 >
 > **思路**：用 $4_1$ 螺旋操作（「转 $90^\circ$ ＋升 $c/4$」，轴位置由已知点反推）生成全部等效点；化学式由**密度公式**试算式量后按「第三周期非金属」筛选；距离按四方晶系公式平方求和。
 >
-> **2-1-1**$4_1$ 轴沿 $c$，其位置可由已知 A$(0,0,0)$ 与 $(0,0.5,0.25)$ 反推为过 $(0.25,0.75)$（等价地 $(0.75,0.25)$）的直线，操作为「**逆时针**转 $90^\circ$ 且 $z$ 上升 $1/4$」。由 $(0,0,0)$ 生成 $(0,0.5,0.25)\to(0.5,0.5,0.50)\to(0.5,0,0.75)$；故其余 A 为 $(0.5,0.5,0.50)$、$(0.5,0,0.75)$。B 有两组化学环境，同法各生成 4 个，新增 6 个：$(0.5,0,0.34),(0,0,0.41),(0,0.5,0.66),(0,0.5,0.84),(0,0,0.59),(0.5,0.5,0.91)$（见源答案表）。
+> **2-1-1**：$4_1$ 轴沿 $c$，其位置可由已知 A$(0,0,0)$ 与 $(0,0.5,0.25)$ 反推为过 $(0.25,0.75)$（等价地 $(0.75,0.25)$）的直线，操作为「**逆时针**转 $90^\circ$ 且 $z$ 上升 $1/4$」。由 $(0,0,0)$ 生成 $(0,0.5,0.25)\to(0.5,0.5,0.50)\to(0.5,0,0.75)$；故其余 A 为 $(0.5,0.5,0.50)$、$(0.5,0,0.75)$。B 有两组化学环境，同法各生成 4 个，新增 6 个：$(0.5,0,0.34),(0,0,0.41),(0,0.5,0.66),(0,0.5,0.84),(0,0,0.59),(0.5,0.5,0.91)$（见源答案表）。
 >
-> **2-1-2**$V=a^2c=3.922^2\times14.154=217.7\ \mathrm{Å^3}=2.177\times10^{-22}\ \mathrm{cm^3}$。晶胞含 4 个 A、8 个 B（即 $Z=4$ 个 $AB_2$），由 $\rho=\dfrac{ZM_r}{N_A V}$ 得$M_r=\dfrac{8.976\times6.022\times10^{23}\times2.177\times10^{-22}}{4}\approx294.2$。$M_r(AB_2)=A+2B=294.2$，B 为第三周期非金属（Si、P、S、Cl 逐个试），仅 $A=238$（U）、$B=28$（Si）使 $238+2\times28=294$ 成立 ⇒ **$USi_2$**。
+> **2-1-2**：$V=a^2c=3.922^2\times14.154=217.7\ \mathrm{Å^3}=2.177\times10^{-22}\ \mathrm{cm^3}$。晶胞含 4 个 A、8 个 B（即 $Z=4$ 个 $AB_2$），由 $\rho=\dfrac{ZM_r}{N_A V}$ 得$M_r=\dfrac{8.976\times6.022\times10^{23}\times2.177\times10^{-22}}{4}\approx294.2$。$M_r(AB_2)=A+2B=294.2$，B 为第三周期非金属（Si、P、S、Cl 逐个试），仅 $A=238$（U）、$B=28$（Si）使 $238+2\times28=294$ 成立 ⇒ **$USi_2$**。
 >
-> **2-1-3**$4_1$ 螺旋轴位于过 $(0.25,0.75,0)$ 与 $(0.75,0.25,0)$、平行于 $c$ 轴的两条直线上；晶胞中另有 $4_3$ 螺旋轴，位于过 $(0.25,0.25,0)$、$(0.75,0.75,0)$ 的平行 $c$ 轴直线上（$4_3$ 与 $4_1$ 同轴但旋向相反，$4_1$ 的镜像/反演等价操作）。
+> **2-1-3**：$4_1$ 螺旋轴位于过 $(0.25,0.75,0)$ 与 $(0.75,0.25,0)$、平行于 $c$ 轴的两条直线上；晶胞中另有 $4_3$ 螺旋轴，位于过 $(0.25,0.25,0)$、$(0.75,0.75,0)$ 的平行 $c$ 轴直线上（$4_3$ 与 $4_1$ 同轴但旋向相反，$4_1$ 的镜像/反演等价操作）。
 >
-> **2-1-4**$a=b=3.922\ \mathrm{Å},\ c=14.154\ \mathrm{Å}$。B–B（同层相邻，$z$ 差 $0.07$）：$\sqrt{(0.07c)^2+(0.5a)^2}=\sqrt{0.991^2+1.961^2}=2.197\ \mathrm{Å}$；B–B（另一组，$z$ 差 $0.18$）：$0.18c=2.548\ \mathrm{Å}$。A–B（体对角方向）：$\sqrt{(0.5a)^2+(0.16c)^2}=2.996\ \mathrm{Å}$ 与 $\sqrt{2(0.5a)^2+(0.09c)^2}=3.052\ \mathrm{Å}$。故 **B–B 最短 $2.197\ \mathrm{Å}$，A–B 最短 $2.996\ \mathrm{Å}$**。
+> **2-1-4**：$a=b=3.922\ \mathrm{Å},\ c=14.154\ \mathrm{Å}$。B–B（同层相邻，$z$ 差 $0.07$）：$\sqrt{(0.07c)^2+(0.5a)^2}=\sqrt{0.991^2+1.961^2}=2.197\ \mathrm{Å}$；B–B（另一组，$z$ 差 $0.18$）：$0.18c=2.548\ \mathrm{Å}$。A–B（体对角方向）：$\sqrt{(0.5a)^2+(0.16c)^2}=2.996\ \mathrm{Å}$ 与 $\sqrt{2(0.5a)^2+(0.09c)^2}=3.052\ \mathrm{Å}$。故 **B–B 最短 $2.197\ \mathrm{Å}$，A–B 最短 $2.996\ \mathrm{Å}$**。
 >
-> **2-2-1**简单六方堆积中 B 填入全部三棱柱空隙。同层 B 相互连接成六元环：每个六元环由 6 个 B 构成，而每个 B 同时属于 3 个环 ⇒ 每个环净摊到 $6/3=2$ 个 B。$1\ \mathrm{mol}\ AB_2$ 含 $2\ \mathrm{mol}\ B$，故含 $2/2=1\ \mathrm{mol}$ 六元环。
+> **2-2-1**：简单六方堆积中 B 填入全部三棱柱空隙。同层 B 相互连接成六元环：每个六元环由 6 个 B 构成，而每个 B 同时属于 3 个环 ⇒ 每个环净摊到 $6/3=2$ 个 B。$1\ \mathrm{mol}\ AB_2$ 含 $2\ \mathrm{mol}\ B$，故含 $2/2=1\ \mathrm{mol}$ 六元环。
 >
-> **2-2-2**$a=b=3.839\ \mathrm{Å},\ c=4.072\ \mathrm{Å}$，$V=a^2c\sin60^\circ=3.839^2\times4.072\times0.8660=51.97\ \mathrm{Å^3}$。该六方堆积每晶胞含 1 个 $AB_2$：$\rho=\dfrac{294.2}{6.022\times10^{23}\times51.97\times10^{-24}}=9.40\ \mathrm{g\cdot cm^{-3}}$。与 2-1 的 $8.976\ \mathrm{g\cdot cm^{-3}}$ 相比，**六方堆积（同素异构体）密度更大**（原子堆积更紧密）。
+> **2-2-2**：$a=b=3.839\ \mathrm{Å},\ c=4.072\ \mathrm{Å}$，$V=a^2c\sin60^\circ=3.839^2\times4.072\times0.8660=51.97\ \mathrm{Å^3}$。该六方堆积每晶胞含 1 个 $AB_2$：$\rho=\dfrac{294.2}{6.022\times10^{23}\times51.97\times10^{-24}}=9.40\ \mathrm{g\cdot cm^{-3}}$。与 2-1 的 $8.976\ \mathrm{g\cdot cm^{-3}}$ 相比，**六方堆积（同素异构体）密度更大**（原子堆积更紧密）。
 >
 > **易错**：① $4_1$ 螺旋轴的位置要**由已知等效点反推**（过 $(0.25,0.75)$ 而非原点），直接用原点会得错坐标；② 旋向（逆时针）影响坐标生成顺序；③ 2-2-1 中「每个六元环净含 2 个 B」是易漏的共享计数；④ 两种异构体密度比较不要凭体积大小直觉，须代入公式计算。
 
@@ -335,15 +335,15 @@ Am 的 5f 电子较为收缩， $Am^{4+}$ 氧化性强，难以与还原性较�
 >
 > **思路**：5-1 从萤石型的空隙分布定位掺杂氧的位置并数出填隙率；5-2 先用两个辅助反应（$8UO_2+O_2\to2U_4O_9$、$2Am_2O_3+O_2\to4AmO_2$）分别反求 $\Delta_fG^\ominus(UO_2)$ 与 $\Delta_fG^\ominus(AmO_2)$，再按 $0.85:0.15$ 加权，**并叠加混合熵项**；5-3 把氧势换算成氧分压后线性回归，令 $x=0$ 求平衡氧压；5-4／5-5 从离子半径与价态稳定性定性解释、并配平氧化反应。
 >
-> **5-1**萤石型结构中阴离子构成简单立方、阳离子填半数立方体中心，**八面体空隙空置**（每晶胞 4 个，恰与 4 个 $UO_2$ 式量对应）。额外掺入的氧即进入这些八面体空隙，每式量多出的氧为 $x$，故**填隙率＝$x$**（占八面体空隙的 $x\times100\%$；$x<0.5$ 与题设一致）。⚠️ 源答案此问答在 OCR 中缺失，以上据萤石型结构规律补出。
+> **5-1**：萤石型结构中阴离子构成简单立方、阳离子填半数立方体中心，**八面体空隙空置**（每晶胞 4 个，恰与 4 个 $UO_2$ 式量对应）。额外掺入的氧即进入这些八面体空隙，每式量多出的氧为 $x$，故**填隙率＝$x$**（占八面体空隙的 $x\times100\%$；$x<0.5$ 与题设一致）。⚠️ 源答案此问答在 OCR 中缺失，以上据萤石型结构规律补出。
 >
-> **5-2**① $8UO_2+O_2\to2U_4O_9$：$\Delta_rS^\ominus=2\times334.1-8\times77.03-205.1=-153.14\ \mathrm{J\cdot mol^{-1}\cdot K^{-1}}$，$\Delta_rH^\ominus=2\times(-4512)-8\times(-1085)=-344\ \mathrm{kJ\cdot mol^{-1}}$，$\Delta_rG^\ominus=-344-298.15\times(-153.14)\times10^{-3}=-298.3\ \mathrm{kJ\cdot mol^{-1}}$；由 $2\Delta_fG^\ominus(U_4O_9)-8\Delta_fG^\ominus(UO_2)=-298.3$ 得 $\Delta_fG^\ominus(UO_2)=-1096\ \mathrm{kJ\cdot mol^{-1}}$。② $2Am_2O_3+O_2\to4AmO_2$：$\Delta_rH^\ominus=-348.8$、$\Delta_rS^\ominus=-171.5\ \mathrm{J\cdot mol^{-1}\cdot K^{-1}}$，$\Delta_rG^\ominus=-297.7\ \mathrm{kJ\cdot mol^{-1}}$ ⇒ $\Delta_fG^\ominus(AmO_2)=-876.9\ \mathrm{kJ\cdot mol^{-1}}$。③ $\Delta_fG^\ominus(U_{0.85}Am_{0.15}O_2)=0.85\times(-1096)+0.15\times(-876.9)+RT(0.85\ln0.85+0.15\ln0.15)\times10^{-3}\approx-931.6-131.5-1.05\approx-1064\ \mathrm{kJ\cdot mol^{-1}}$。**末项即混合熵贡献**（$T\Delta S_{\mathrm{mix}}<0$ 使生成自由能略降低）。
+> **5-2**：① $8UO_2+O_2\to2U_4O_9$：$\Delta_rS^\ominus=2\times334.1-8\times77.03-205.1=-153.14\ \mathrm{J\cdot mol^{-1}\cdot K^{-1}}$，$\Delta_rH^\ominus=2\times(-4512)-8\times(-1085)=-344\ \mathrm{kJ\cdot mol^{-1}}$，$\Delta_rG^\ominus=-344-298.15\times(-153.14)\times10^{-3}=-298.3\ \mathrm{kJ\cdot mol^{-1}}$；由 $2\Delta_fG^\ominus(U_4O_9)-8\Delta_fG^\ominus(UO_2)=-298.3$ 得 $\Delta_fG^\ominus(UO_2)=-1096\ \mathrm{kJ\cdot mol^{-1}}$。② $2Am_2O_3+O_2\to4AmO_2$：$\Delta_rH^\ominus=-348.8$、$\Delta_rS^\ominus=-171.5\ \mathrm{J\cdot mol^{-1}\cdot K^{-1}}$，$\Delta_rG^\ominus=-297.7\ \mathrm{kJ\cdot mol^{-1}}$ ⇒ $\Delta_fG^\ominus(AmO_2)=-876.9\ \mathrm{kJ\cdot mol^{-1}}$。③ 混合熵项 $T\Delta S_{\mathrm{mix}}=RT(0.85\ln0.85+0.15\ln0.15)=-1.05\ \mathrm{kJ\cdot mol^{-1}}$；$\Delta_fG^\ominus=0.85\times(-1096)+0.15\times(-876.9)-1.05\approx-1064\ \mathrm{kJ\cdot mol^{-1}}$。**末项即混合熵贡献**（$T\Delta S_{\mathrm{mix}}<0$ 使生成自由能略降低）。
 >
 > **5-3**（3 分）由 $\Delta G(O_2)=RT\ln(p_{O_2}/p^\ominus)$（$T=2023\ \mathrm K$，$RT=16.82\ \mathrm{kJ\cdot mol^{-1}}$）把 6 组数据换算成$p_{O_2}/p^\ominus$，对 $x\!\sim\!p_{O_2}/p^\ominus$ 线性回归得$x=5.923\times10^{6}\cdot\dfrac{p_{O_2}}{p^\ominus}-3.224\times10^{-3}$。令 $x=0$ 解得 $\dfrac{p_{O_2}}{p^\ominus}=5.443\times10^{-10}$（即该对峙反应达平衡时的氧分压，与「额外掺杂氧浓度与氧分压成正比」的提示一致）。
 >
-> **5-4**$Am$ 的 5f 电子收缩使 $Am^{4+}$ 氧化性强，难以与还原性较强的 $U^{4+}$ 大量共存 ⇒ 实际存在的形式为混合价 $(U^{4+}_{1-2x-2y})(U^{5+}_{2x-2y})(Am^{3+})(O^{2-}_{2-2x})$。$Am^{3+}$ 的离子半径明显大于 $U^{4+}/Am^{4+}$，把晶格「撑开」，故晶胞参数 $a$ 总比两种原料的平均值大约 $10\ \mathrm{pm}$。
+> **5-4**：$Am$ 的 5f 电子收缩使 $Am^{4+}$ 氧化性强，难以与还原性较强的 $U^{4+}$ 大量共存 ⇒ 实际存在的形式为混合价 $(U^{4+}_{1-2x-2y})(U^{5+}_{2x-2y})(Am^{3+})(O^{2-}_{2-2x})$。$Am^{3+}$ 的离子半径明显大于 $U^{4+}/Am^{4+}$，把晶格「撑开」，故晶胞参数 $a$ 总比两种原料的平均值大约 $10\ \mathrm{pm}$。
 >
-> **5-5**灼烧的目的是把 $Am$ 由 $+3$ 氧化到 $+4$（生成 $AmO_2$），同时把 $U$ 氧化到高价态。若 $U$ 氧化为 $UO_3$，令 $U_{1-y}Am_yO_{2+x}$ 系数为 1，按 **U、Am、O 三元素守恒**配平：$U_{1-y}Am_yO_{2+x}+\dfrac{1-y-x}{2}O_2\to y\,AmO_2+(1-y)UO_3$。⚠️ 源答案此问缺失；上式为「$U\to+6$、$Am\to+4$」假设下的配平结果，若按 $U$ 只氧化到 $+5$（或生成 $U_4O_9$）则系数不同。
+> **5-5**：灼烧的目的是把 $Am$ 由 $+3$ 氧化到 $+4$（生成 $AmO_2$），同时把 $U$ 氧化到高价态。若 $U$ 氧化为 $UO_3$，令 $U_{1-y}Am_yO_{2+x}$ 系数为 1，按 **U、Am、O 三元素守恒**配平：$U_{1-y}Am_yO_{2+x}+\dfrac{1-y-x}{2}O_2\to y\,AmO_2+(1-y)UO_3$。⚠️ 源答案此问缺失；上式为「$U\to+6$、$Am\to+4$」假设下的配平结果，若按 $U$ 只氧化到 $+5$（或生成 $U_4O_9$）则系数不同。
 >
 > **易错**：① 5-2 **必须含混合熵项**（题目明示「注意混合过程」），漏掉会使结果偏差约 $1\ \mathrm{kJ\cdot mol^{-1}}$；② $\Delta_fG^\ominus(UO_2)$、$\Delta_fG^\ominus(AmO_2)$ **没有直接给**，须用辅助反应间接求解（这是本题的题眼）；③ 5-3 的氧势要先经 $\Delta G=RT\ln(p/p^\ominus)$ 换成氧分压，不能直接拿 $\Delta G$ 与 $x$ 回归；④ 5-5 配平要按元素守恒逐项核对（氧的收支最易错）。
 
@@ -427,6 +427,9 @@ $$
 
 $$
 \Delta_{\mathrm{f}} H _{\mathrm{m}} ^{\circ} (\mathrm{NaCl}) = 0.5 \Delta H _{1} + 0.5 \Delta H _{2} + \Delta H _{3} - \Delta H _{4} = - 411.45 \mathrm{kJ\cdot mol^{-1}} (2 \text {分})
+$$
+
+$$
 7-4\Delta H _{\mathrm{L}} = \Delta_{\mathrm{f}} H _{\mathrm{m}} ^{\mathrm{e}} (\mathrm{NaCl}) - \Delta H _{\text {fus}} - \Delta H _{\text {vap}} - 0.5 \Delta H _{\mathrm{D}} - \Delta H _{\mathrm{I}} - \Delta H _{\mathrm{E}} = - 788.2 \mathrm{kJ\cdot mol^{-1}} (3 \text {分})
 $$
 
@@ -542,13 +545,13 @@ $$
 >
 > **思路**：8-1 由两次实验的初、末态气体量差算吸附量 $q_A,q_B$，再用 Langmuir 的线性式 $\frac Pq=\frac1{q_mb}+\frac P{q_m}$ 两点定 $q_m$、$b$；8-2 由 328 K 的单点数据反求 $b_{328}$，再用 van't Hoff 关系求吸附焓；8-3 对 CO₂、N₂ 分别列「气相＋吸附相＝总量」的**物料守恒方程**求解分压；8-4 吸附剂转入新容器、升温后重新建立平衡，仍用物料守恒，效率＝(吸附量−脱附后残留)/吸附量。
 >
-> **8-1**初始通入的 CO₂：$n_0=\dfrac{pV}{RT}=\dfrac{1.000\times10^{5}\times5.00\times10^{-4}}{8.314\times298.15}=2.017\times10^{-2}\ \mathrm{mol}$；平衡时气相残留 $n_g=\dfrac{0.208\times10^{5}\times2.00\times10^{-3}}{8.314\times298.15}=1.678\times10^{-2}\ \mathrm{mol}$，故 $q_A=(2.017-1.678)\times10^{-3}/1.000=3.39\ \mathrm{mmol\cdot g^{-1}}$。同理第二次 $q_B=4.11\ \mathrm{mmol\cdot g^{-1}}$。由线性式两点求解：$q_m=\dfrac{P_B-P_A}{P_B/q_B-P_A/q_A}=\dfrac{0.449-0.208}{0.449/4.11-0.208/3.39}\approx5.06\ \mathrm{mmol\cdot g^{-1}}$；再代回得 $b_{298}=\dfrac{q}{P(q_m-q)}$ 形式反解约 $9.76\ \mathrm{bar^{-1}}$。
+> **8-1**：初始通入的 CO₂：$n_0=\dfrac{pV}{RT}=\dfrac{1.000\times10^{5}\times5.00\times10^{-4}}{8.314\times298.15}=2.017\times10^{-2}\ \mathrm{mol}$；平衡时气相残留 $n_g=\dfrac{0.208\times10^{5}\times2.00\times10^{-3}}{8.314\times298.15}=1.678\times10^{-2}\ \mathrm{mol}$，故 $q_A=(2.017-1.678)\times10^{-3}/1.000=3.39\ \mathrm{mmol\cdot g^{-1}}$。同理第二次 $q_B=4.11\ \mathrm{mmol\cdot g^{-1}}$。由线性式两点求解：$q_m=\dfrac{P_B-P_A}{P_B/q_B-P_A/q_A}=\dfrac{0.449-0.208}{0.449/4.11-0.208/3.39}\approx5.06\ \mathrm{mmol\cdot g^{-1}}$；再代回得 $b_{298}=\dfrac{q}{P(q_m-q)}$ 形式反解约 $9.76\ \mathrm{bar^{-1}}$。
 >
-> **8-2**328 K、$P=0.200\ \mathrm{bar}$、$q=1.67\ \mathrm{mmol\cdot g^{-1}}$（设 $q_m$ 不随温度变）：$b_{328}=\dfrac{q}{P(q_m-q)}=\dfrac{1.67}{0.200\times(5.06-1.67)}\approx2.46\ \mathrm{bar^{-1}}$。由 $\ln\dfrac{b_{328}}{b_{298}}=-\dfrac{\Delta H}{R}\left(\dfrac1{328}-\dfrac1{298}\right)$ 得$\Delta H\approx-37.3\ \mathrm{kJ\cdot mol^{-1}}$（负值 ⇒ 吸附放热，升温不利于吸附）。
+> **8-2**：328 K、$P=0.200\ \mathrm{bar}$、$q=1.67\ \mathrm{mmol\cdot g^{-1}}$（设 $q_m$ 不随温度变）：$b_{328}=\dfrac{q}{P(q_m-q)}=\dfrac{1.67}{0.200\times(5.06-1.67)}\approx2.46\ \mathrm{bar^{-1}}$。由 $\ln\dfrac{b_{328}}{b_{298}}=-\dfrac{\Delta H}{R}\left(\dfrac1{328}-\dfrac1{298}\right)$ 得$\Delta H\approx-37.3\ \mathrm{kJ\cdot mol^{-1}}$（负值 ⇒ 吸附放热，升温不利于吸附）。
 >
-> **8-3**通入烟气：$n(\mathrm{CO_2})_0=0.15\times\dfrac{1.000\times10^{5}\times10.0\times10^{-3}}{8.314\times298.15}=6.05\times10^{-2}\ \mathrm{mol}$，$n(\mathrm{N_2})_0=0.85\times0.4034=3.429\times10^{-1}\ \mathrm{mol}$。**CO₂ 物料守恒**：$n_g+n_{ads}=n_0$，即$\dfrac{P_{\mathrm{CO_2}}\times1000}{8.314\times298.15}+5.00\times\dfrac{q_mb_{298}P}{1+b_{298}P}\times10^{-3}=6.05\times10^{-2}$ ⇒ 解得 $P_{\mathrm{CO_2}}=0.117\ \mathrm{bar}$，$q_{ads}=2.70\ \mathrm{mmol\cdot g^{-1}}$（合 $13.5\ \mathrm{mmol}$）。**N₂ 物料守恒**（Henry 式 $q=kP$）：$0.4034P_{N_2}+5.00\times0.0500P_{N_2}\times10^{-3}=0.3429$ ⇒ $P_{\mathrm{N_2}}=0.849\ \mathrm{bar}$，$n_{ads}=0.212\ \mathrm{mmol}$。
+> **8-3**：通入烟气：$n(\mathrm{CO_2})_0=0.15\times\dfrac{1.000\times10^{5}\times10.0\times10^{-3}}{8.314\times298.15}=6.05\times10^{-2}\ \mathrm{mol}$，$n(\mathrm{N_2})_0=0.85\times0.4034=3.429\times10^{-1}\ \mathrm{mol}$。**CO₂ 物料守恒**：$n_g+n_{ads}=n_0$，即$\dfrac{P_{\mathrm{CO_2}}\times1000}{8.314\times298.15}+5.00\times\dfrac{q_mb_{298}P}{1+b_{298}P}\times10^{-3}=6.05\times10^{-2}$ ⇒ 解得 $P_{\mathrm{CO_2}}=0.117\ \mathrm{bar}$，$q_{ads}=2.70\ \mathrm{mmol\cdot g^{-1}}$（合 $13.5\ \mathrm{mmol}$）。**N₂ 物料守恒**（Henry 式 $q=kP$）：$0.4034P_{N_2}+5.00\times0.0500P_{N_2}\times10^{-3}=0.3429$ ⇒ $P_{\mathrm{N_2}}=0.849\ \mathrm{bar}$，$n_{ads}=0.212\ \mathrm{mmol}$。
 >
-> **8-4**取出吸附剂（仅含 CO₂ $13.5\ \mathrm{mmol}$）转入 $2.00\ \mathrm L$ 真空容器、升温至 $328\ \mathrm K$，重新列物料守恒：$\dfrac{P\times2000}{8.314\times328.15}+5.00\times\dfrac{q_mb_{328}P}{1+b_{328}P}\times10^{-3}=1.35\times10^{-2}$ ⇒ 解得 $P_{\mathrm{CO_2}}=0.110\ \mathrm{bar}$，此时残留吸附量 $q_{des}=1.08\ \mathrm{mmol\cdot g^{-1}}$。工作效率 $\eta=\dfrac{q_{ads}-q_{des}}{q_{ads}}=\dfrac{2.70-1.08}{2.70}\approx59.9\%$。
+> **8-4**：取出吸附剂（仅含 CO₂ $13.5\ \mathrm{mmol}$）转入 $2.00\ \mathrm L$ 真空容器、升温至 $328\ \mathrm K$，重新列物料守恒：$\dfrac{P\times2000}{8.314\times328.15}+5.00\times\dfrac{q_mb_{328}P}{1+b_{328}P}\times10^{-3}=1.35\times10^{-2}$ ⇒ 解得 $P_{\mathrm{CO_2}}=0.110\ \mathrm{bar}$，此时残留吸附量 $q_{des}=1.08\ \mathrm{mmol\cdot g^{-1}}$。工作效率 $\eta=\dfrac{q_{ads}-q_{des}}{q_{ads}}=\dfrac{2.70-1.08}{2.70}\approx59.9\%$。
 >
 > **易错**：① 8-1 的吸附量必须由「初态总量 − 平衡气相量」求出，直接用量纲算 $P/q$ 而不做物质的量换算会错；② Langmuir 线性式有两个等价形式（$\frac Pq$ 对 $P$、或 $\frac1q$ 对 $\frac1P$），用错形式会算错 $b$；③ 8-3／8-4 的气相体积分别是 $10.0\ \mathrm L$ 与 $2.00\ \mathrm L$（不是吸附剂体积），易混；④ 328 K 时 $b$ 变小、$q$ 变小 ⇒ 脱附，效率分母用**吸附量**而非脱附量。
 
@@ -663,7 +666,7 @@ $$
 >
 > **9-2**（6 分）小颗粒（$r_2=10.0\ \mathrm{nm}$）表面能高、溶解度大，会持续溶解并沉积到大颗粒（$r_1=40.0\ \mathrm{nm}$）上（**奥斯特瓦尔德熟化**）。设大颗粒数 $N_1$ 不变，终态全部 $1.0\ \mathrm{mol}$ 由这 $N_1$ 个晶粒构成，由**体积守恒**知终态单颗粒体积为初态的 2 倍：$r_3=\sqrt[3]{2}\,r_1=1.260\times40.0\ \mathrm{nm}=50.40\ \mathrm{nm}$。再由 $RT\ln\dfrac{S_3}{S_\infty}=\dfrac{\gamma M}{\rho r_3}$ 得 $S_3=1.051\times10^{-5}\ \mathrm{mol\cdot L^{-1}}$。
 >
-> **9-3**临界晶核处于亚稳平衡：其溶解度恰等于过饱和浓度 $S_c=C$，即 $RT\ln\dfrac{C}{S_\infty}=\dfrac{\gamma M}{\rho r_c}$，$\ln2\times2478.8$ 代入得 $r_c=3.613\times10^{-9}\ \mathrm m=3.613\ \mathrm{nm}$。成核自由能 $\Delta G=\dfrac43\pi r^3\Delta g_v+4\pi r^2\gamma$（$\Delta g_v<0$），对 $r$ 求导为零 ⇒ $r_c=-\dfrac{2\gamma}{\Delta g_v}$ ⇒ $\Delta g_v=-\dfrac{2\gamma}{r_c}$。代回：$\Delta G_C=\dfrac43\pi r_c^3\times\left(-\dfrac{2\gamma}{r_c}\right)+4\pi r_c^2\gamma=\dfrac43\pi\gamma r_c^2\approx6.55\times10^{-18}\ \mathrm J$。
+> **9-3**：临界晶核处于亚稳平衡：其溶解度恰等于过饱和浓度 $S_c=C$，即 $RT\ln\dfrac{C}{S_\infty}=\dfrac{\gamma M}{\rho r_c}$，$\ln2\times2478.8$ 代入得 $r_c=3.613\times10^{-9}\ \mathrm m=3.613\ \mathrm{nm}$。成核自由能 $\Delta G=\dfrac43\pi r^3\Delta g_v+4\pi r^2\gamma$（$\Delta g_v<0$），对 $r$ 求导为零 ⇒ $r_c=-\dfrac{2\gamma}{\Delta g_v}$ ⇒ $\Delta g_v=-\dfrac{2\gamma}{r_c}$。代回：$\Delta G_C=\dfrac43\pi r_c^3\times\left(-\dfrac{2\gamma}{r_c}\right)+4\pi r_c^2\gamma=\dfrac43\pi\gamma r_c^2\approx6.55\times10^{-18}\ \mathrm J$。
 >
 > **易错**：① 9-1 必须先「两式相除」消 $S_\infty$（$S_\infty$ 未知），直接代入会陷入死循环；② 单位：$M$ 用 $\mathrm{kg\cdot mol^{-1}}$、$\rho$ 用 $\mathrm{kg\cdot m^{-3}}$、$r$ 用 $\mathrm m$ 才能与 $RT$ 匹配；③ 9-2 的 $r_3$ 由**体积守恒**（颗粒数 $N_1$ 不变）求得，不是「半径取平均」；④ 9-3 的 $\Delta G_C$ 是 $\frac43\pi\gamma r_c^2$（推导后交叉项相消），漏掉体积项会得 2 倍值。
 
@@ -758,11 +761,11 @@ $$
 >
 > **10-1**（3 分）$4\mathrm{NH_3(g)}+7\mathrm{O_2(g)}\to4\mathrm{NO_2(g)}+6\mathrm{H_2O(l)}$。$\Delta_rH_m^\ominus=4\times33.2+6\times(-285.8)-4\times(-45.9)=132.8-1714.8+183.6=-1398.4\ \mathrm{kJ\cdot mol^{-1}}$；$\Delta_rS_m^\ominus=4\times240.1+6\times70.0-4\times192.8-7\times205.2=960.4+420.0-771.2-1436.4=-827.2\ \mathrm{J\cdot mol^{-1}\cdot K^{-1}}$；$\Delta_rG_m^\ominus=-1398.4-298.15\times(-827.2)\times10^{-3}=-1151.8\ \mathrm{kJ\cdot mol^{-1}}$。
 >
-> **10-2**$3\mathrm{NO_2(g)}+\mathrm{H_2O(l)}\to2\mathrm{HNO_3(aq)}$（$\mathrm{HNO_3}$ 完全电离，写成 $2\mathrm{H^+}+2\mathrm{NO_3^-}$）：$\Delta_rH_m^\ominus=2\times(-206.9)+91.3-3\times33.2-(-285.8)=-136.3\ \mathrm{kJ\cdot mol^{-1}}$；$\Delta_rS_m^\ominus=2\times146.7+210.8-3\times240.1-70.0=-286.1\ \mathrm{J\cdot mol^{-1}\cdot K^{-1}}$。$T=348.15\ \mathrm K$ 时 $\Delta_rG_m^\ominus=-136.3-348.15\times(-286.1)\times10^{-3}=-36.7\ \mathrm{kJ\cdot mol^{-1}}$；$K^\ominus=\exp\!\left(\dfrac{36.7\times10^{3}}{8.314\times348.15}\right)\approx3.2\times10^{5}$。
+> **10-2**：$3\mathrm{NO_2(g)}+\mathrm{H_2O(l)}\to2\mathrm{HNO_3(aq)}$（$\mathrm{HNO_3}$ 完全电离，写成 $2\mathrm{H^+}+2\mathrm{NO_3^-}$）：$\Delta_rH_m^\ominus=2\times(-206.9)+91.3-3\times33.2-(-285.8)=-136.3\ \mathrm{kJ\cdot mol^{-1}}$；$\Delta_rS_m^\ominus=2\times146.7+210.8-3\times240.1-70.0=-286.1\ \mathrm{J\cdot mol^{-1}\cdot K^{-1}}$。$T=348.15\ \mathrm K$ 时 $\Delta_rG_m^\ominus=-136.3-348.15\times(-286.1)\times10^{-3}=-36.7\ \mathrm{kJ\cdot mol^{-1}}$；$K^\ominus=\exp\!\left(\dfrac{36.7\times10^{3}}{8.314\times348.15}\right)\approx3.2\times10^{5}$。
 >
-> **10-3-1**$n_0(\mathrm{NO})=\dfrac{p_0V}{RT}=\dfrac{300\times40.0}{0.08314\times348.15}\approx415\ \mathrm{mol}$；$n_0(\mathrm{NO_2})=\dfrac{100\times21000}{8.314\times348.15}\approx726\ \mathrm{mol}$。气相体积 $=40.0-30.0=10.0\ \mathrm L$。设反应 $3\mathrm{NO_2}+\mathrm{H_2O}\to2\mathrm{H^+}+2\mathrm{NO_3^-}+\mathrm{NO}$ 进度为 $x$，由 $K^\ominus=\dfrac{(2x/30)^4\cdot p(\mathrm{NO})}{p(\mathrm{NO_2})^3}=3.20\times10^{5}$ 解得 $x\approx241$。于是 $c(\mathrm{HNO_3})=\dfrac{2x}{30.0}=16.1\ \mathrm{mol\cdot L^{-1}}$；$p(\mathrm{NO})=1.90\times10^{3}\ \mathrm{bar}$、$p(\mathrm{NO_2})\approx7\ \mathrm{bar}$。
+> **10-3-1**：$n_0(\mathrm{NO})=\dfrac{p_0V}{RT}=\dfrac{300\times40.0}{0.08314\times348.15}\approx415\ \mathrm{mol}$；$n_0(\mathrm{NO_2})=\dfrac{100\times21000}{8.314\times348.15}\approx726\ \mathrm{mol}$。气相体积 $=40.0-30.0=10.0\ \mathrm L$。设反应 $3\mathrm{NO_2}+\mathrm{H_2O}\to2\mathrm{H^+}+2\mathrm{NO_3^-}+\mathrm{NO}$ 进度为 $x$，由 $K^\ominus=\dfrac{(2x/30)^4\cdot p(\mathrm{NO})}{p(\mathrm{NO_2})^3}=3.20\times10^{5}$ 解得 $x\approx241$。于是 $c(\mathrm{HNO_3})=\dfrac{2x}{30.0}=16.1\ \mathrm{mol\cdot L^{-1}}$；$p(\mathrm{NO})=1.90\times10^{3}\ \mathrm{bar}$、$p(\mathrm{NO_2})\approx7\ \mathrm{bar}$。
 >
-> **10-3-2**$\mathrm{NO_2(g)\rightleftharpoons NO_2(aq)}$：$K'=k\dfrac{p^\ominus}{c^\ominus}=1.20\times10^{-4}\times\dfrac{10^{5}}{10^{3}}=1.20\times10^{-2}$。把溶解项并入物料守恒（气相分压由 $(726-3x)/(3K'RT+1)$ 形式给出），仍用同一 $K^\ominus=3.20\times10^{5}$ 解得$p(\mathrm{NO_2})=7.30\ \mathrm{bar}$、$c(\mathrm{NO_2})=8.76\times10^{-2}\ \mathrm{mol\cdot L^{-1}}$。
+> **10-3-2**：$\mathrm{NO_2(g)\rightleftharpoons NO_2(aq)}$：$K'=k\dfrac{p^\ominus}{c^\ominus}=1.20\times10^{-4}\times\dfrac{10^{5}}{10^{3}}=1.20\times10^{-2}$。把溶解项并入物料守恒（气相分压由 $(726-3x)/(3K'RT+1)$ 形式给出），仍用同一 $K^\ominus=3.20\times10^{5}$ 解得$p(\mathrm{NO_2})=7.30\ \mathrm{bar}$、$c(\mathrm{NO_2})=8.76\times10^{-2}\ \mathrm{mol\cdot L^{-1}}$。
 >
 > **易错**：① 10-1／10-2 的 $\Delta_rG^\ominus$ 必须在**指定温度**下算（$298.15$ vs $348.15\ \mathrm K$），不能混用；② 10-3 的气相体积是「总容积 $40.0\ \mathrm L$ − 溶液 $30.0\ \mathrm L$ ＝ $10.0\ \mathrm L$」，漏减是常见错误；③ 平衡常数表达式中浓度的幂次是 4（$2x/30$ 的 4 次方，来自 $2\mathrm{H^+}$ 与 $2\mathrm{NO_3^-}$），气体项幂次为 3（$3\mathrm{NO_2}$）／1（$\mathrm{NO}$），配错会无解；④ 亨利常数的量纲换算 $K'=k\,p^\ominus/c^\ominus$ 不可漏。
 
