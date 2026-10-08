@@ -444,7 +444,9 @@ def ans_step(vol, apply_):
             if tn and sim >= 0.70:
                 rep, n_rep = "**%s**" % new_num, n_rep + 1
             else:
-                rep = new_num + tail
+                # ★ 保留「题号」与「正文」之间的分隔（原 `new_num + tail` 会吞掉空格 ⇒ 得到
+                #   `2-2计算…` 这类粘连标签；2026-10-08 卷 XV 实测）
+                rep = new_num + ((" " + tail) if tail.strip() else "")
             new_ap = new_ap[:m.start()] + rep + new_ap[m.end():]
         if new_ap != apart:
             stats += n_rep
