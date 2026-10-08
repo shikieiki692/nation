@@ -50,8 +50,6 @@ $$
 
 $$
 $$
-
-
 4-1-2 若实际操作温度为 350 K, 阴极和阳极的氢气和氧气分压分别为 0.800 bar 和 0.200 bar。假设电池反应的焓变和熵变不随温度变化, 计算实际工作电压 E。
 4-2-1 计算该催化剂中铂的比表面积 $S$ （单位： $\mathrm{m}^2 /\mathrm{g}_{\mathrm{Pt}}$ ）。提示：假设铂颗粒为球形。
 4-2-2 Nafion 膜是常用质子交换膜，其电导率与含水量线性相关。测得某 Nafion 膜在 $80^{\circ}$ C、饱和湿度下的质子电导率为 0.100 S/cm，膜厚度为 50.0 μm。若工作电流密度为 $1.00 \, A/cm^{2}$ ，计算膜两侧的质子迁移过电位 $\eta_{migration}$ 。
@@ -85,8 +83,6 @@ $$
 ## 4-2 催化剂与质子交换膜的材料特性
 
 铂碳催化剂（Pt/C）是 PEMFC 常用阴极材料。某 Pt/C 催化剂中铂负载量为 20 wt%，铂纳米颗粒平均直径为 3.00 nm，铂密度为 21.45 g/cm³。
-
-
 $$
 V _ {s i n g l e} = \frac {4}{3} \pi r ^ {3} = = 1.41 \times 10 ^ {- 26} \mathrm{m} ^ {3} (1 \text {分})
 $$
@@ -102,8 +98,6 @@ $$
 $$
 
 (共4分)
-
-
 提示：电导的单位是西门子（S），等于一安培每伏特。
 
 $$
@@ -118,15 +112,11 @@ $$
 E = E ^ {\circ} - \frac {R T}{n F} \ln (\frac {1}{P _ {\mathrm{O} _ {2}} \times [ \mathrm{H} ^ {+} ] ^ {4}}) = 1.11 \mathrm{V(2分)}
 $$
 
-
-
 $$
 j = j _ {0} \left[ \exp \left(\frac {\alpha F \eta}{R T}\right) - \exp \left(- \frac {(1 - \alpha) F \eta}{R T}\right) \right]
 $$
 
 其中 $j_{0}$ 为交换电流密度，传递系数a=0.5。
-
-
 提示: 1. 高过电位时可对电流密度进行适当近似。
 
 2. 电流密度直接正比于反应速率: $j = B \exp(-E_a^{app}/RT)$ , 其中 $B$ 为一常数。
@@ -152,8 +142,6 @@ E _ {a} ^ {a p p} = E _ {a} - \alpha F \eta (1 \text {分})
 $$
 
 (共4分)
-
-
 $$
 \ln (\frac {j _ {02}}{j _ {01}}) = - \frac {E _ {a}}{R} (\frac {1}{T _ {2}} - \frac {1}{T _ {1}}) (1 \text {分})
 $$
@@ -169,15 +157,7 @@ $$
 对 ORR 在 Pt(111)表面的关键步骤（O₂吸附 → OOH\*形成）进行模拟，数据如下：
 
 <table><tr><td>物种</td><td>相对能量(kJ/mol)</td><td>偶极矩(Debye)</td></tr><tr><td> $O_{2}(g)+Pt$  表面</td><td>0.0</td><td>0</td></tr><tr><td>过渡态(TS)</td><td>45.8</td><td>3.2</td></tr><tr><td>OOH*吸附态</td><td>-20.3</td><td>2.5</td></tr></table>
-
-
-
-
 $\Delta H = - {20.3}\mathrm{\;{kJ}}/\mathrm{{mol}}\left( {1\text{分}}\right)$  ${E}_{a} = {45.8}\mathrm{\;{kJ}}/\mathrm{{mol}}\left( {1\text{分}}\right)$ (共2分)
-
-
-
-
 $$
 \begin{array}{l} \text {电荷重排:} \\ \mathrm{H带正电, O-H键形成导致电荷分离, 偶极矩增大(1分)} \\ \text {或:} \\ \mathrm{铂的电子转移至氧上, 导致电荷极化(1分)} \\ \text {对离子分布影响:} \\ \mathrm{偶极矩变化吸引电解质中反离子在界面聚集, 影响双电层结构及反应势垒(1分)} \\ \mathrm{(共2分)} \end{array}
 $$

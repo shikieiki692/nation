@@ -84,7 +84,7 @@ D. PMMA的熔点较低，远远低于玻璃。
 
 
 
-**2-2** $\ce{CH3}$  $\ce{OCH3} \xrightarrow[\text{hv}]{\text{(PhCOO)}_2} \ce{COOCH3}$ 不用表示封端,但必须有引发剂,且需要光照或加热,合理即可。
+**2-2** $\mathrm{CH_{3}}$  $\mathrm{OCH_{3}} \xrightarrow[\text{hv}]{\text{(PhCOO)}_2} \mathrm{COOCH_{3}}$ 不用表示封端,但必须有引发剂,且需要光照或加热,合理即可。
 
 
 

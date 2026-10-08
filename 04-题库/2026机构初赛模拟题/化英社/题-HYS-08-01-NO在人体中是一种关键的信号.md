@@ -79,7 +79,7 @@ NO 桥杯
 
 请根据以上信息，画出 B 可能的四种结构，省略其他配体，不要求电荷。提示：体系中 NO 过量，B 可能会进多步与 NO 结合脱除 $N_{2}O$ 。
 
-<table><tr><td>第一种</td><td>第二种</td><td>第三种</td><td>第四种</td></tr><tr><td>Cu $\ce{O-N=N-Cu}$ </td><td><img src="images/8d99d98c5dc9455f9527ad9f51509a63f310f70213f22222e006541f1fa6169b.jpg"/>  $\ce{O-N-Cu}$ (画其中一种即可)</td><td><img src="images/8b7c00340195496ec26930b5bb0a6de0f61ffc4b47cec1ca8309696cb5d76875.jpg"/></td><td><img src="images/2f18ca15c922762020ee310cd7a3eb630d14e459309eb200ce8a68a80b87d8ef.jpg"/></td></tr><tr><td colspan="4">(共4分,各1分,不要求Cu的相互作用) 非极性键(碳化率)</td></tr></table>
+<table><tr><td>第一种</td><td>第二种</td><td>第三种</td><td>第四种</td></tr><tr><td>Cu $\mathrm{O-N=N-Cu}$ </td><td><img src="images/8d99d98c5dc9455f9527ad9f51509a63f310f70213f22222e006541f1fa6169b.jpg"/>  $\mathrm{O-N-Cu}$ (画其中一种即可)</td><td><img src="images/8b7c00340195496ec26930b5bb0a6de0f61ffc4b47cec1ca8309696cb5d76875.jpg"/></td><td><img src="images/2f18ca15c922762020ee310cd7a3eb630d14e459309eb200ce8a68a80b87d8ef.jpg"/></td></tr><tr><td colspan="4">(共4分,各1分,不要求Cu的相互作用) 非极性键(碳化率)</td></tr></table>
 
 红外(假极矩)
 
@@ -109,7 +109,7 @@ NO 桥杯
 
 请根据以上信息，画出 B 可能的四种结构，省略其他配体，不要求电荷。提示：体系中 NO 过量，B 可能会进多步与 NO 结合脱除 $N_{2}O$ 。
 
-<table><tr><td>第一种</td><td>第二种</td><td>第三种</td><td>第四种</td></tr><tr><td>Cu $\ce{O-N=N-O-Cu}$ </td><td>(画其中一种即可)</td><td><img src="images/bfd185fba8bd50f0af5bdd88e51a8c57cf267aad1398209d06edd31a9088d627.jpg"/></td><td><img src="images/0aa9abef2bb4596c67367d516fa1eab1c2fbdfb4685b3ebc1578b1a6c516c9b5.jpg"/></td></tr><tr><td colspan="4">(共4分,各1分,不要求Cu的相互作用) 非极性键(碳化单)</td></tr></table>
+<table><tr><td>第一种</td><td>第二种</td><td>第三种</td><td>第四种</td></tr><tr><td>Cu $\mathrm{O-N=N-O-Cu}$ </td><td>(画其中一种即可)</td><td><img src="images/bfd185fba8bd50f0af5bdd88e51a8c57cf267aad1398209d06edd31a9088d627.jpg"/></td><td><img src="images/0aa9abef2bb4596c67367d516fa1eab1c2fbdfb4685b3ebc1578b1a6c516c9b5.jpg"/></td></tr><tr><td colspan="4">(共4分,各1分,不要求Cu的相互作用) 非极性键(碳化单)</td></tr></table>
 
 红外(很极短)
 

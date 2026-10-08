@@ -57,23 +57,15 @@ $$
 2-2-2 画出化合物 D 的结构。
 
 2-2-3 写出由 A 生成 D 的化学反应方程式(配体可简写为 L)。
-
-
 ## 参考答案
 
 2-1-1 计算得到 $\left[\mathrm{LReOCp}\right]^{+}\left[\mathrm{SnCl}_{3}\right]^{-}$ 的分子量为 $909.988\mathrm{g / mol}$
 
 根据产率可以推算出 A 的分子量为 691.85 g/mol (1 分)
-
-
 ![](images/f67e05fa66a0a72e6f51c49e247818d290ba7878008cdf3a2ffeceb470939d75.jpg)
-
-
 该分子量恰好对应于 1 个 L、1 个 Re 和 1 个 Cp 以及 1 个 Na。
 
 因此化合物 A 的化学式为 Na[ReLCp]（1 分）
-
-
 $$
 \mathrm{A} \xrightarrow [ \mathrm{Et} _ {2} \mathrm{O} , 23 ^ {\circ} \mathrm{C} , 15 \mathrm{min} ]{1 \text {eq. AgOTf}} \mathrm{B}
 $$
@@ -83,18 +75,10 @@ $$
 $$
 
 2-1-2 化合物 A 中 Re 的价态: +1 (1 分)
-
-
 ![](images/df464553b7d9b7b83a7be635de1edc3b3788a07b3e462a10a2ea3c0c6f85f959.jpg)
-
-
 (各2分)
-
-
 $$
 $$
-
-
 2-2-1 由元素质量分数可得 $n(\mathrm{C}):n(\mathrm{H}):n(\mathrm{N})=17:23:1$ （1分）
 
 考虑到一个 L 中含有 2 个 N 原子，且 34 个 C 和 46 个 H 恰好对应于一个 L 和一个 Cp，据此算出当分子内含有一个 L 和一个 Cp 时，D 的分子量 M = 734.56 g/mol。
@@ -102,16 +86,10 @@ $$
 扣去一个 Re、一个 L 和一个 Cp 后余下的分子量为 65.63 g/mol，恰好对应于一个 Zn 原子，即最简式为 ReZnLCp（1 分）
 
 由于 D 中具有多根金属-金属键，若考虑 $[ReLCp]^{-}$ 作为一个整体，则其中 Zn 为+1 价，合理的存在形式应当为 $Zn_{2}^{2+}$ ，因此 D 的分子式为 $[ReZnLCp]_{2}$ （1 分）
-
-
 2-2-2
 ![](images/e0c43fd3123e321dfaca88b5cdbce5b4875930a2a8b030b5eba2ed6c211b28b5.jpg)
 
 ![](images/18e0bdfaf8845cb5cb8774f83df0e224b3efadc782120bb73cad8b4f6d5c0570.jpg)
-
-
-
-
 ## 知识点映射
 
 - （待人工校准）
