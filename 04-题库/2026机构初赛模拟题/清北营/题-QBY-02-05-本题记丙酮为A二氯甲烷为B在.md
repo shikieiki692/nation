@@ -33,7 +33,7 @@ source_file: "2026机构初赛模拟题/04-清北营/清北营2026年物化专�
 
 ### 第 5 题（27 分，占 14%）
 
-本题记丙酮为 A，二氯甲烷为 B。在 $40^{\circ}$ C 下，A 与 B 的饱和蒸气压为 $p_{A}^{*}=0.42\ atm,\quad p_{B}^{*}=0.98\ atm$ ；A 与 B 的摩尔蒸发焓为 $\Delta_{vap}H_{m}^{\ominus}(A)=29.10\ kJ/mol,\quad \Delta_{vap}H_{m}^{\ominus}(B)=28.60\ kJ/mol$ ，且 $\Delta_{vap}H_{m}^{\ominus}$ 视为常数。（本题中所提到的“正常沸点”均为在一个标准大气压下的沸点）
+本题记丙酮为 A，二氯甲烷为 B。在 $40^{\circ}$ C 下，A 与 B 的饱和蒸气压为 $p_{A}^{*}=0.42\ atm,\quad p_{B}^{*}=0.98\ atm$ ；A 与 B 的摩尔蒸发焓为 $\Delta_{vap}H_{m}^{\ominus}(A)=29.10\ \mathrm{kJ\cdot mol^{-1}},\quad \Delta_{vap}H_{m}^{\ominus}(B)=28.60\ \mathrm{kJ\cdot mol^{-1}}$ ，且 $\Delta_{vap}H_{m}^{\ominus}$ 视为常数。（本题中所提到的“正常沸点”均为在一个标准大气压下的沸点）
 
 5-1 若溶液视为理想溶液，混合气体视为理想混合气体，百分数为摩尔分数。
 
@@ -45,13 +45,13 @@ source_file: "2026机构初赛模拟题/04-清北营/清北营2026年物化专�
 
 5-3 对于二元非理想溶液，若 $\gamma$ 均大于1，可形成恒沸物，其特点为气相与液相组成相同。
 
-5-3-1 推导形成恒沸物时 $x_{A}$ 的表达式(用 A, $p_{A}^{\bullet}$ 和 $p_{B}^{\bullet}$ 表示)。
+5-3-1 推导形成恒沸物时 $x_{A}$ 的表达式(用 A, $p_{A}^{\ast}$ 和 $p_{B}^{\ast}$ 表示)。
 
 5-3-2 计算丙酮二氯甲烷二元非理想溶液在 $40^{\circ}$ C 时形成恒沸物的压力。
 
 ## 参考答案
 
-本题记丙酮为 A，二氯甲烷为 B。在 $40^{\circ}$ C 下，A 与 B 的饱和蒸气压为 $p_{A} \cdot = 0.42 \, atm$ ， $p_{B} \cdot = 0.98 \, atm$ ；A 与 B 的摩尔蒸发焓为 $\Delta_{vap} H_{m} \circ (A) = 29.10 \, \text{kJ/mol}$ ， $\Delta_{vap} H_{m} \circ (B) = 28.60 \, \text{kJ/mol}$ ，且 $\Delta_{vap} H_{m} \circ$ 视为常数。（本题中所提到的“正常沸点”均为在一个标准大气压下的沸点）
+本题记丙酮为 A，二氯甲烷为 B。在 $40^{\circ}$ C 下，A 与 B 的饱和蒸气压为 $p_{A} \cdot = 0.42 \, atm$ ， $p_{B} \cdot = 0.98 \, atm$ ；A 与 B 的摩尔蒸发焓为 $\Delta_{vap} H_{m}^{\ominus} (A) = 29.10 \, \mathrm{kJ\cdot mol^{-1}}$ ， $\Delta_{vap} H_{m}^{\ominus} (B) = 28.60 \, \mathrm{kJ\cdot mol^{-1}}$ ，且 $\Delta_{vap} H_{m}^{\ominus}$ 视为常数。（本题中所提到的“正常沸点”均为在一个标准大气压下的沸点）
 
 5-1 若溶液视为理想溶液，混合气体视为理想混合气体，百分数为摩尔分数。
 
@@ -63,21 +63,21 @@ source_file: "2026机构初赛模拟题/04-清北营/清北营2026年物化专�
 
 5-3 对于二元非理想溶液，若 $\gamma$ 均大于1，可形成恒沸物，其特点为气相与液相组成相同。
 
-5-3-1 推导形成恒沸物时 $x_{A}$ 的表达式(用 A, $p_{A}^{\bullet}$ 和 $p_{B}^{\bullet}$ 表示)。
+5-3-1 推导形成恒沸物时 $x_{A}$ 的表达式(用 A, $p_{A}^{\ast}$ 和 $p_{B}^{\ast}$ 表示)。
 
 ## 5-3-2 计算丙酮二氯甲烷二元非理想溶液在 $40^{\circ} \mathrm{C}$ 时形成恒沸物的压力。
 
 
 
-**5-1-1(5分)** $1 = {0.75} \times {0.42} \times \exp\left\lbrack {\frac{\Delta \text{vapHm}^\circ(\Lambda)}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right) }\right\rbrack + {0.25} \times {0.98} \times \exp\left\lbrack {\frac{\Delta \text{vapHm}^\circ(\mathrm{B})}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right) }\right\rbrack$ (2分)解得 T=330.4K (2分) $P_A=0.5650 \text{ bar, } P_B=0.4350 \text{ bar } y_A=0.5650$ (1分)
+**5-1-1(5分)** $1 = {0.75} \times {0.42} \times \exp\left\lbrack {\frac{\Delta \text{vapHm}^{\ominus}(\Lambda)}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right) }\right\rbrack + {0.25} \times {0.98} \times \exp\left\lbrack {\frac{\Delta \text{vapHm}^{\ominus}(\mathrm{B})}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right) }\right\rbrack$ (2分)解得 T=330.4K (2分) $P_A=0.5650 \text{ bar, } P_B=0.4350 \text{ bar } y_A=0.5650$ (1分)
 
-**5-1-2(6分)** 对于刚形成的液体有: $P_A=x_A \times {0.42} \times \exp\left[\frac{\Delta \text{vapHm}^\circ(\Lambda)}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right)\right]=0.75$ (1分) $P_B=(1-x_A) \times {0.98} \times \exp\left[\frac{\Delta \text{vapHm}^\circ(\mathrm{B})}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right)\right]=0.25$ (1分)联立解得 T=334.5K (3分) $x_A=87.4\%$ (1分)
+**5-1-2(6分)** 对于刚形成的液体有: $P_A=x_A \times {0.42} \times \exp\left[\frac{\Delta \text{vapHm}^{\ominus}(\Lambda)}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right)\right]=0.75$ (1分) $P_B=(1-x_A) \times {0.98} \times \exp\left[\frac{\Delta \text{vapHm}^{\ominus}(\mathrm{B})}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right)\right]=0.25$ (1分)联立解得 T=334.5K (3分) $x_A=87.4\%$ (1分)
 
-**5-2(5分)** $\gamma_A=\exp(A \cdot x_B^2)=1.058$ (1分) $\gamma_B=\exp(A \cdot x_A^2)=1.659$ (1分) $1=0.75 \times {0.42} \times \exp\left[\frac{\Delta \text{vapHm}^\circ(\Lambda)}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right)\right] \times \gamma_A+0.25 \times {0.98} \times \exp\left[\frac{\Delta \text{vapHm}^\circ(\mathrm{B})}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right)\right] \times \gamma_B$ (1分)解得 T=321.9K (2分)
+**5-2(5分)** $\gamma_A=\exp(A \cdot x_B^2)=1.058$ (1分) $\gamma_B=\exp(A \cdot x_A^2)=1.659$ (1分) $1=0.75 \times {0.42} \times \exp\left[\frac{\Delta \text{vapHm}^{\ominus}(\Lambda)}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right)\right] \times \gamma_A+0.25 \times {0.98} \times \exp\left[\frac{\Delta \text{vapHm}^{\ominus}(\mathrm{B})}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right)\right] \times \gamma_B$ (1分)解得 T=321.9K (2分)
 
-**5-3-1(8分)** 此时  $y_A=x_A=\frac{\gamma_A x_A p_A}{\gamma_A x_A p_A^*+\gamma_B x_B p_B^*}$ (2分)移项得: $\gamma_A x_A p_A^*+\gamma_B x_B p_B^*=\gamma_A p_A^*$ (1分)再移项,并约去  $x_B=1-x_A$  $\gamma_A \cdot P_A^*= \gamma_B \cdot P_B^*$ (1分)带入  $\gamma$  的表达式,并取  $\ln: A(x_B^2-x_A^2)=\ln(P_B^*/P_A^*)$ 带入  $x_B=1-x_A$  $A(1-2x_A)=\ln(P_B^*/P_A^*)$ (2分)化简,得到  $x_A=0.5-\frac{1}{2A}\ln(P_B^*/P_A^*)$ (2分)
+**5-3-1(8分)** 此时  $y_A=x_A=\frac{\gamma_A x_A p_A}{\gamma_A x_A p_{A}^{\ast}+\gamma_B x_B p_{B}^{\ast}}$ (2分)移项得: $\gamma_A x_A p_{A}^{\ast}+\gamma_B x_B p_{B}^{\ast}=\gamma_A p_{A}^{\ast}$ (1分)再移项,并约去  $x_B=1-x_A$  $\gamma_A \cdot P_A^*= \gamma_B \cdot P_B^*$ (1分)带入  $\gamma$  的表达式,并取  $\ln: A(x_B^2-x_A^2)=\ln(P_B^*/P_A^*)$ 带入  $x_B=1-x_A$  $A(1-2x_A)=\ln(P_B^*/P_A^*)$ (2分)化简,得到  $x_A=0.5-\frac{1}{2A}\ln(P_B^*/P_A^*)$ (2分)
 
-**5-3-2(3分)** 带入数据, $x_A=0.0293$ (1分) $p=\gamma_A x_A p_A^*+\gamma_B x_B p_B^*=0.981 \text{ atm}$ (2分)
+**5-3-2(3分)** 带入数据, $x_A=0.0293$ (1分) $p=\gamma_A x_A p_{A}^{\ast}+\gamma_B x_B p_{B}^{\ast}=0.981 \text{ atm}$ (2分)
 
 
 

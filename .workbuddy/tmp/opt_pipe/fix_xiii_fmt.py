@@ -18,12 +18,19 @@ BAK = os.path.join(R, ".workbuddy/tmp/opt_pipe/xiii_fmt_bak")
 DRY = "--dry" in sys.argv
 
 RULES = [
-    ("theta", re.compile(r"\^\s*\{\s*\\theta\s*\}"), r"^{\\ominus}"),
-    ("unit", re.compile(r"/\\mathrm\{kJ\}/\\mathrm\{mol\}"), r"/\\mathrm{kJ}\\cdot\\mathrm{mol}^{-1}"),
+    # 标准态上标：\theta / \Theta / \circ 三种错形 → \ominus（前面不是数字，排除角度 `30^{\circ}`）
+    ("std", re.compile(r"(?<![0-9])\s*\^\s*\{?\s*\\(?:theta|Theta|circ)\s*\}?"), r"^{\\ominus}"),
+    # 无 `^` 的裸写法：`H_{m} \circ` / `H_{m}\theta` ⇒ `H_{m}^{\ominus}`（仅当前面是 `}`，避免误改角度）
+    ("std2", re.compile(r"(?<=\})[ \t]*\\(?:theta|Theta|circ)\b"), r"^{\\ominus}"),
+    ("unit_kjmol", re.compile(r"/\\mathrm\{kJ\}/\\mathrm\{mol\}"), r"/\\mathrm{kJ}\\cdot\\mathrm{mol}^{-1}"),
+    ("unit_JmolK", re.compile(r"\\mathrm\{J\s*/\s*\(\s*mol\s*K\s*\)\}"), r"\\mathrm{J\\cdot mol^{-1}\\cdot K^{-1}}"),
+    ("unit_kJ_mol", re.compile(r"\\mathrm\{kJ\}\s*\\mathrm\{mol\}"), r"\\mathrm{kJ\\cdot mol}"),
+    ("lnfix", re.compile(r"\\mathrm\{n\}\s*(?=\\frac)"), r"\\ln "),
     ("Vdotm", re.compile(r"\{\s*([pV])\s*\.\s*\\mathrm\{m\}\s*\}"), lambda m: "{%s,\\mathrm{m}}" % m.group(1)),
     ("pdotm", re.compile(r"\{\\mathrm\{\s*([pV])\s*\.\s*m\s*\}\}"), lambda m: "{\\mathrm{%s,m}}" % m.group(1)),
     ("score", re.compile(r"\(\s*(\d+)\s*\^?\s*\{\s*\\prime\s*\}\s*\)"), lambda m: "（%s 分）" % m.group(1)),
-    ("score2", re.compile(r"\(\s*(\d+)\s*'\s*\)"), lambda m: "（%s 分）" % m.group(1)),
+    ("score2", re.compile(r"(?<![\^])(\d+)\s*\^\s*\{\s*\\prime\s*\}"), lambda m: "（%s 分）" % m.group(1)),
+    ("score3", re.compile(r"\(\s*(\d+)\s*'\s*\)"), lambda m: "（%s 分）" % m.group(1)),
 ]
 
 

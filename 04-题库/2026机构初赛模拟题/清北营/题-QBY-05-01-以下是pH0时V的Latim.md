@@ -51,7 +51,7 @@ source_file: "2026机构初赛模拟题/04-清北营/2026年清北营寒假班-�
 
 1-3-3 298 K、氢气压力 1 bar 下，要使 99.5% 以上的 VO $^{2+}$ 被还原为 V $^{3+}$ ，计算溶液的最大允许 pH。
 
-1-3-4 该反应的标准电势差 $\mathrm{E}^{\circ}$ 随温度的线性变化率为 $-1.75 \times 10^{-3} \mathrm{~V} / \mathrm{K}$ 。已知以下物质的标准熵数据，计算反应的焓变及 $\mathrm{VO}^{2+}$ 的标准摩尔熵（298K）。
+1-3-4 该反应的标准电势差 $\mathrm{E}^{\ominus}$ 随温度的线性变化率为 $-1.75 \times 10^{-3} \mathrm{~V} / \mathrm{K}$ 。已知以下物质的标准熵数据，计算反应的焓变及 $\mathrm{VO}^{2+}$ 的标准摩尔熵（298K）。
 
 <table><tr><td></td><td> $H_{2}(g)$ </td><td> $H_{2}O(l)$ </td><td> $V^{3+}(aq)$ </td><td> $H^{+}(aq)$ </td></tr><tr><td> $S_{m}^{\ominus}J/(mol\cdot K)$ </td><td>130.7</td><td>70.0</td><td>-307.0</td><td>0</td></tr></table>
 
@@ -68,7 +68,7 @@ $$
 $$
 
 $$
-\Delta_ {r} G _ {m} ^ {\circ} = - n F (E _ {2} ^ {\circ} - E _ {1} ^ {\circ}) = - 1 \times F \times (0.337 - 1) = 63.97 k J / m o l
+\Delta_ {r} G _ {m}^{\ominus} = - n F (E _ {2}^{\ominus} - E _ {1}^{\ominus}) = - 1 \times F \times (0.337 - 1) = 63.97 k J / m o l
 $$
 
 1-2-1 计算缺失的标准电极电势 $E_{X}$ 。
@@ -88,7 +88,7 @@ $$
 $$
 
 $$
-\Delta_ {r} G _ {m} ^ {\circ} = - n F (E _ {0} ^ {\circ} - E _ {X}) = - 1 \times F \times (0 + 0.254) = - 24.51 k J / m o l
+\Delta_ {r} G _ {m}^{\ominus} = - n F (E _ {0}^{\ominus} - E _ {X}) = - 1 \times F \times (0 + 0.254) = - 24.51 k J / m o l
 $$
 
 1-3 要制取 $V^{3+}$ 溶液，可通过氢气还原 $VO^{2+}$ 溶液的方式获得。
@@ -100,47 +100,47 @@ $$
 $$
 
 $$
-\Delta_ {r} G _ {m} ^ {\circ} = - n F (E _ {2} ^ {\circ} - E _ {0} ^ {\circ}) = - 2 \times F \times (0.337 - 0) = - 65.03 k J / m o l
+\Delta_ {r} G _ {m}^{\ominus} = - n F (E _ {2}^{\ominus} - E _ {0}^{\ominus}) = - 2 \times F \times (0.337 - 0) = - 65.03 k J / m o l
 $$
 
 $$
-K ^ {\circ} = e ^ {- \frac {\Delta_ {r} G _ {m} ^ {\circ}}{R T}} = e ^ {- \frac {- 65.03 \times 10 ^ {3}}{R \times 298}} = 2.51 \times 10 ^ {11}
+K^{\ominus} = e ^ {- \frac {\Delta_ {r} G _ {m}^{\ominus}}{R T}} = e ^ {- \frac {- 65.03 \times 10 ^ {3}}{R \times 298}} = 2.51 \times 10 ^ {11}
 $$
 
 1-3-2 若通入氢气至压力为 1.0bar，通过缓冲体系维持溶液 pH=4.15，计算反应的平衡转化率。
 
 $$
-\frac {[ V ^ {3 +} ] ^ {2}}{[ V O ^ {2 +} ] ^ {2} [ H ^ {+} ] ^ {2} \frac {p}{p ^ {\circ}}} = \frac {\alpha^ {2}}{(1 - \alpha) ^ {2} (10 ^ {- 4.15}) ^ {2}} = 2.51 \times 10 ^ {11}
+\frac {[ V ^ {3 +} ] ^ {2}}{[ V O ^ {2 +} ] ^ {2} [ H ^ {+} ] ^ {2} \frac {p}{p^{\ominus}}} = \frac {\alpha^ {2}}{(1 - \alpha) ^ {2} (10 ^ {- 4.15}) ^ {2}} = 2.51 \times 10 ^ {11}
 $$
 
 1-3-3298K、氢气压力 1bar 下，要使 99.5%以上的 VO $^{2+}$ 被还原为 V $^{3+}$ ，计算溶液的最大允许 pH。
 
 $$
-K ^ {\circ} = \frac {[ V ^ {3 +} ] ^ {2}}{[ V O ^ {2 +} ] ^ {2} [ H ^ {+} ] ^ {2} \frac {p}{p ^ {\circ}}} = \frac {\alpha^ {2}}{(1 - \alpha) ^ {2} (10 ^ {- p H}) ^ {2}} = 2.51 \times 10 ^ {11}
+K^{\ominus} = \frac {[ V ^ {3 +} ] ^ {2}}{[ V O ^ {2 +} ] ^ {2} [ H ^ {+} ] ^ {2} \frac {p}{p^{\ominus}}} = \frac {\alpha^ {2}}{(1 - \alpha) ^ {2} (10 ^ {- p H}) ^ {2}} = 2.51 \times 10 ^ {11}
 $$
 
 $$
 \mathrm{pH} = 3.40
 $$
 
-1-3-4 该反应的标准电势差 $\mathrm{E}^{\circ}$ 随温度的线性变化率为 $-1.75 \times 10^{-3} \mathrm{~V} / \mathrm{K}$ 。已知以下物质的标准熵数据，计算反应的焓变及 $\mathrm{VO}^{2+}$ 的标准摩尔熵（298K）。
+1-3-4 该反应的标准电势差 $\mathrm{E}^{\ominus}$ 随温度的线性变化率为 $-1.75 \times 10^{-3} \mathrm{~V} / \mathrm{K}$ 。已知以下物质的标准熵数据，计算反应的焓变及 $\mathrm{VO}^{2+}$ 的标准摩尔熵（298K）。
 
 <table><tr><td></td><td> $H_{2}(g)$ </td><td> $H_{2}O(l)$ </td><td> $V^{3+}(aq)$ </td><td> $H^{+}(aq)$ </td></tr><tr><td> $S_{m}^{\ominus}J/(mol\cdot K)$ </td><td>130.7</td><td>70.0</td><td>-307.0</td><td>0</td></tr></table>
 
 $$
-E ^ {\circ} = - \frac {\Delta_ {r} H _ {m} ^ {\circ}}{2 F} + \frac {\Delta_ {r} S _ {m} ^ {\circ}}{2 F} T
+E^{\ominus} = - \frac {\Delta_ {r} H _ {m}^{\ominus}}{2 F} + \frac {\Delta_ {r} S _ {m}^{\ominus}}{2 F} T
 $$
 
 $$
-\Delta_ {r} S _ {m} ^ {\circ} = - 2 F \times 1.75 \times 10 ^ {- 3} = - 337.7 J / (m o l \cdot K)
+\Delta_ {r} S _ {m}^{\ominus} = - 2 F \times 1.75 \times 10 ^ {- 3} = - 337.7 J / (m o l \cdot K)
 $$
 
 $$
-S _ {m} ^ {\circ} (V O ^ {2 +}) = - 133.5 J / (m o l \cdot K)
+S _ {m}^{\ominus} (V O ^ {2 +}) = - 133.5 J / (m o l \cdot K)
 $$
 
 $$
-\Delta_ {r} H _ {m} ^ {\circ} = \Delta_ {r} G _ {m} ^ {\circ} + T \Delta_ {r} S _ {m} ^ {\circ} = - 165.7 k J / m o l
+\Delta_ {r} H _ {m}^{\ominus} = \Delta_ {r} G _ {m}^{\ominus} + T \Delta_ {r} S _ {m}^{\ominus} = - 165.7 k J / m o l
 $$
 
 ## 知识点映射

@@ -66,11 +66,11 @@ $$
 $$
 
 $$
-\Delta_ {\mathrm{mel}} G _ {\mathrm{m}} ^ {\circ} (1673 \mathrm{K}) = \Delta_ {\mathrm{mel}} H _ {\mathrm{m}} (1673 \mathrm{K}) - T \Delta_ {\mathrm{mel}} S _ {\mathrm{m}} (1673 \mathrm{K}) = 973.44 \mathrm{Jmol} ^ {- 1}
+\Delta_ {\mathrm{mel}} G _ {\mathrm{m}}^{\ominus} (1673 \mathrm{K}) = \Delta_ {\mathrm{mel}} H _ {\mathrm{m}} (1673 \mathrm{K}) - T \Delta_ {\mathrm{mel}} S _ {\mathrm{m}} (1673 \mathrm{K}) = 973.44 \mathrm{Jmol} ^ {- 1}
 $$
 
 $$
-K ^ {\circ} = \exp \left[ - \Delta_ {\mathrm{mel}} G _ {\mathrm{m}} ^ {\circ} / R T \right] = 0.931
+K^{\ominus} = \exp \left[ - \Delta_ {\mathrm{mel}} G _ {\mathrm{m}}^{\ominus} / R T \right] = 0.931
 $$
 
 也可以直接利用 Gibbs-Helmholtz 方程的不定积分式求解:
@@ -87,7 +87,7 @@ $$
 
 4-3 计算熔融液体中 Fe 的活度系数 $\gamma$ 。此问结果保留两位有效数字即可。
 
-根据题意，反应商 $Q = K^{\circ} = \gamma x$ ，故 $\gamma = Q / x = 0.93 / 0.87 = 1.1$ 2 分
+根据题意，反应商 $Q = K^{\ominus} = \gamma x$ ，故 $\gamma = Q / x = 0.93 / 0.87 = 1.1$ 2 分
 
 ## 知识点映射
 

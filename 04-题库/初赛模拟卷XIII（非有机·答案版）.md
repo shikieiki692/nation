@@ -43,7 +43,7 @@ question_count: 10
 
 1-3 使用电解 $H_{2}O$ 的方法也可以制备 $H_{2}$ ，假设对于 $O_{2}$ ，在阳极上析出的超电势为 0.9 V， $H_{2}$ 在阴极上析出的超电势为 1.5 V，假设电解过程中，在电解质溶液与导线上损失 35% 的电能，计算电解效率。
 
-1-4 已知 $H_{2}O(l)$ 在 298.15 K 下的恒压摩尔蒸发焓为 44.0 kJ/mol，若以 $H_{2}$ 的燃烧来供给甲醇裂解的能量，其中 $H_{2}$ 燃烧的 70% 的能量用于供给甲醇裂解，通过计算来计算（忽略温度对反应焓变的影响），这种方法生成的 $H_{2}$ 的效率是多少（例：若消耗了 1 mol 的甲醇，最后生成了 1.2 mol 的 $H_{2}$ ，则生成 $H_{2}$ 的效率为 1.2/2.0 = 60%）。
+1-4 已知 $H_{2}O(l)$ 在 298.15 K 下的恒压摩尔蒸发焓为 44.0 $\mathrm{kJ\cdot mol^{-1}}$，若以 $H_{2}$ 的燃烧来供给甲醇裂解的能量，其中 $H_{2}$ 燃烧的 70% 的能量用于供给甲醇裂解，通过计算来计算（忽略温度对反应焓变的影响），这种方法生成的 $H_{2}$ 的效率是多少（例：若消耗了 1 mol 的甲醇，最后生成了 1.2 mol 的 $H_{2}$ ，则生成 $H_{2}$ 的效率为 1.2/2.0 = 60%）。
 
 #### 答案
 
@@ -164,11 +164,11 @@ $$
 $$
 
 $$
-\Delta_ {\mathrm{mel}} G _ {\mathrm{m}} ^ {\circ} (1673 \mathrm{K}) = \Delta_ {\mathrm{mel}} H _ {\mathrm{m}} (1673 \mathrm{K}) - T \Delta_ {\mathrm{mel}} S _ {\mathrm{m}} (1673 \mathrm{K}) = 973.44 \mathrm{Jmol} ^ {- 1}
+\Delta_ {\mathrm{mel}} G _ {\mathrm{m}}^{\ominus} (1673 \mathrm{K}) = \Delta_ {\mathrm{mel}} H _ {\mathrm{m}} (1673 \mathrm{K}) - T \Delta_ {\mathrm{mel}} S _ {\mathrm{m}} (1673 \mathrm{K}) = 973.44 \mathrm{Jmol} ^ {- 1}
 $$
 
 $$
-K ^ {\circ} = \exp \left[ - \Delta_ {\mathrm{mel}} G _ {\mathrm{m}} ^ {\circ} / R T \right] = 0.931
+K^{\ominus} = \exp \left[ - \Delta_ {\mathrm{mel}} G _ {\mathrm{m}}^{\ominus} / R T \right] = 0.931
 $$
 
 也可以直接利用 Gibbs-Helmholtz 方程的不定积分式求解:
@@ -183,7 +183,7 @@ $$
 
 代入 1673 K 数据即可求解 2 分
 
-根据题意，反应商 $Q = K^{\circ} = \gamma x$ ，故 $\gamma = Q / x = 0.93 / 0.87 = 1.1$ 2 分
+根据题意，反应商 $Q = K^{\ominus} = \gamma x$ ，故 $\gamma = Q / x = 0.93 / 0.87 = 1.1$ 2 分
 
 > **解析**（据源答案整理）：考查相平衡与熔化热力学。2-1：由基尔霍夫定律 $\Delta_{\mathrm{mel}}H_m(T) = \Delta_{\mathrm{mel}}H_m(T_m) + \Delta C_{p,m}(T-T_m)$，其中 $T_m = 1808\ \mathrm{K}$、$\Delta_{\mathrm{mel}}H_m(T_m) = 15355\ \mathrm{J\cdot mol^{-1}}$、$\Delta C_{p,m} = 1.255\ \mathrm{J\cdot K^{-1}\cdot mol^{-1}}$ ⇒ $\Delta_{\mathrm{mel}}H_m = (1.255\,T/\mathrm{K} + 13086)\ \mathrm{J\cdot mol^{-1}}$。2-2：正常熔点 1808 K 处熔化处于平衡，$\Delta_{\mathrm{mel}}S_m(1808\ \mathrm{K}) = 15355/1808 \approx 8.49\ \mathrm{J\cdot K^{-1}\cdot mol^{-1}}$；经 $\Delta C_p$ 项修正 $\Delta_{\mathrm{mel}}S_m(1673\ \mathrm{K}) = 8.49 + 1.255\ln(1673/1808) \approx 8.40\ \mathrm{J\cdot K^{-1}\cdot mol^{-1}}$；$\Delta_{\mathrm{mel}}H_m(1673\ \mathrm{K}) = 1.255\times 1673 + 13086 \approx 15186\ \mathrm{J\cdot mol^{-1}}$；$\Delta_{\mathrm{mel}}G_m^\ominus = \Delta_{\mathrm{mel}}H_m - T\Delta_{\mathrm{mel}}S_m \approx 1.13\ \mathrm{kJ\cdot mol^{-1}}$，故 $K^\ominus = \exp(-\Delta_{\mathrm{mel}}G_m^\ominus/RT) \approx 0.92$。（注：源答案将 $\Delta_{\mathrm{mel}}S_m(1808\ \mathrm{K})$ 印作 $8.59\ \mathrm{J\cdot K^{-1}\cdot mol^{-1}}$，与 $15355/1808$ 不符，系笔误；修正后 $K^\ominus \approx 0.92$，与其印值 0.931 的差异不改变下文两位有效数字的结论。）2-3：该温度下 $\delta\text{-}\mathrm{Fe(s)}$ 与含 Fe 的硫化铁熔体两相平衡，$K^\ominus = a(\mathrm{Fe,l}) = \gamma x$（$x = 0.87$）⇒ $\gamma = K^\ominus/x \approx 0.92/0.87 \approx 1.06 \approx 1.1$。
 
@@ -193,7 +193,7 @@ $$
 
 > 来源：清北营 清北营2026年物化专题班2 第 5 题｜难度 ⭐⭐⭐⭐
 
-本题记丙酮为 A，二氯甲烷为 B。在 $40^{\circ}$ C 下，A 与 B 的饱和蒸气压为 $p_{A}^{*}=0.42\ atm,\quad p_{B}^{*}=0.98\ atm$ ；A 与 B 的摩尔蒸发焓为 $\Delta_{vap}H_{m}^{\ominus}(A)=29.10\ kJ/mol,\quad \Delta_{vap}H_{m}^{\ominus}(B)=28.60\ kJ/mol$ ，且 $\Delta_{vap}H_{m}^{\ominus}$ 视为常数。（本题中所提到的“正常沸点”均为在一个标准大气压下的沸点）
+本题记丙酮为 A，二氯甲烷为 B。在 $40^{\circ}$ C 下，A 与 B 的饱和蒸气压为 $p_{A}^{*}=0.42\ atm,\quad p_{B}^{*}=0.98\ atm$ ；A 与 B 的摩尔蒸发焓为 $\Delta_{vap}H_{m}^{\ominus}(A)=29.10\ \mathrm{kJ\cdot mol^{-1}},\quad \Delta_{vap}H_{m}^{\ominus}(B)=28.60\ \mathrm{kJ\cdot mol^{-1}}$ ，且 $\Delta_{vap}H_{m}^{\ominus}$ 视为常数。（本题中所提到的“正常沸点”均为在一个标准大气压下的沸点）
 
 3-1 若溶液视为理想溶液，混合气体视为理想混合气体，百分数为摩尔分数。
 
@@ -205,25 +205,23 @@ $$
 
 3-3 对于二元非理想溶液，若 $\gamma$ 均大于1，可形成恒沸物，其特点为气相与液相组成相同。
 
-3-3-1 推导形成恒沸物时 $x_{A}$ 的表达式(用 A, $p_{A}^{\bullet}$ 和 $p_{B}^{\bullet}$ 表示)。
+3-3-1 推导形成恒沸物时 $x_{A}$ 的表达式(用 A, $p_{A}^{\ast}$ 和 $p_{B}^{\ast}$ 表示)。
 
 3-3-2 计算丙酮二氯甲烷二元非理想溶液在 $40^{\circ}$ C 时形成恒沸物的压力。
 
 #### 答案
 
-本题记丙酮为 A，二氯甲烷为 B。在 $40^{\circ}$ C 下，A 与 B 的饱和蒸气压为 $p_{A} \cdot = 0.42 \, atm$ ， $p_{B} \cdot = 0.98 \, atm$ ；A 与 B 的摩尔蒸发焓为 $\Delta_{vap} H_{m} \circ (A) = 29.10 \, \text{kJ/mol}$ ， $\Delta_{vap} H_{m} \circ (B) = 28.60 \, \text{kJ/mol}$ ，且 $\Delta_{vap} H_{m} \circ$ 视为常数。（本题中所提到的“正常沸点”均为在一个标准大气压下的沸点）
+**3-1-1(5分)** $1 = {0.75} \times {0.42} \times \exp\left\lbrack {\frac{\Delta \text{vapHm}^{\ominus}(\Lambda)}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right) }\right\rbrack + {0.25} \times {0.98} \times \exp\left\lbrack {\frac{\Delta \text{vapHm}^{\ominus}(\mathrm{B})}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right) }\right\rbrack$ (2分)解得 T=330.4K (2分) $P_A=0.5650 \text{ bar, } P_B=0.4350 \text{ bar } y_A=0.5650$ (1分)
 
-**3-1-1(5分)** $1 = {0.75} \times {0.42} \times \exp\left\lbrack {\frac{\Delta \text{vapHm}^\circ(\Lambda)}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right) }\right\rbrack + {0.25} \times {0.98} \times \exp\left\lbrack {\frac{\Delta \text{vapHm}^\circ(\mathrm{B})}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right) }\right\rbrack$ (2分)解得 T=330.4K (2分) $P_A=0.5650 \text{ bar, } P_B=0.4350 \text{ bar } y_A=0.5650$ (1分)
+**3-1-2(6分)** 对于刚形成的液体有: $P_A=x_A \times {0.42} \times \exp\left[\frac{\Delta \text{vapHm}^{\ominus}(\Lambda)}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right)\right]=0.75$ (1分) $P_B=(1-x_A) \times {0.98} \times \exp\left[\frac{\Delta \text{vapHm}^{\ominus}(\mathrm{B})}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right)\right]=0.25$ (1分)联立解得 T=334.5K (3分) $x_A=87.4\%$ (1分)
 
-**3-1-2(6分)** 对于刚形成的液体有: $P_A=x_A \times {0.42} \times \exp\left[\frac{\Delta \text{vapHm}^\circ(\Lambda)}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right)\right]=0.75$ (1分) $P_B=(1-x_A) \times {0.98} \times \exp\left[\frac{\Delta \text{vapHm}^\circ(\mathrm{B})}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right)\right]=0.25$ (1分)联立解得 T=334.5K (3分) $x_A=87.4\%$ (1分)
+**3-2(5分)** $\gamma_A=\exp(A \cdot x_B^2)=1.058$ (1分) $\gamma_B=\exp(A \cdot x_A^2)=1.659$ (1分) $1=0.75 \times {0.42} \times \exp\left[\frac{\Delta \text{vapHm}^{\ominus}(\Lambda)}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right)\right] \times \gamma_A+0.25 \times {0.98} \times \exp\left[\frac{\Delta \text{vapHm}^{\ominus}(\mathrm{B})}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right)\right] \times \gamma_B$ (1分)解得 T=321.9K (2分)
 
-**3-2(5分)** $\gamma_A=\exp(A \cdot x_B^2)=1.058$ (1分) $\gamma_B=\exp(A \cdot x_A^2)=1.659$ (1分) $1=0.75 \times {0.42} \times \exp\left[\frac{\Delta \text{vapHm}^\circ(\Lambda)}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right)\right] \times \gamma_A+0.25 \times {0.98} \times \exp\left[\frac{\Delta \text{vapHm}^\circ(\mathrm{B})}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right)\right] \times \gamma_B$ (1分)解得 T=321.9K (2分)
+**3-3-1(8分)** 此时  $y_A=x_A=\frac{\gamma_A x_A p_A}{\gamma_A x_A p_{A}^{\ast}+\gamma_B x_B p_{B}^{\ast}}$ (2分)移项得: $\gamma_A x_A p_{A}^{\ast}+\gamma_B x_B p_{B}^{\ast}=\gamma_A p_{A}^{\ast}$ (1分)再移项,并约去  $x_B=1-x_A$  $\gamma_A \cdot P_A^*= \gamma_B \cdot P_B^*$ (1分)带入  $\gamma$  的表达式,并取  $\ln: A(x_B^2-x_A^2)=\ln(P_B^*/P_A^*)$ 带入  $x_B=1-x_A$  $A(1-2x_A)=\ln(P_B^*/P_A^*)$ (2分)化简,得到  $x_A=0.5-\frac{1}{2A}\ln(P_B^*/P_A^*)$ (2分)
 
-**3-3-1(8分)** 此时  $y_A=x_A=\frac{\gamma_A x_A p_A}{\gamma_A x_A p_A^*+\gamma_B x_B p_B^*}$ (2分)移项得: $\gamma_A x_A p_A^*+\gamma_B x_B p_B^*=\gamma_A p_A^*$ (1分)再移项,并约去  $x_B=1-x_A$  $\gamma_A \cdot P_A^*= \gamma_B \cdot P_B^*$ (1分)带入  $\gamma$  的表达式,并取  $\ln: A(x_B^2-x_A^2)=\ln(P_B^*/P_A^*)$ 带入  $x_B=1-x_A$  $A(1-2x_A)=\ln(P_B^*/P_A^*)$ (2分)化简,得到  $x_A=0.5-\frac{1}{2A}\ln(P_B^*/P_A^*)$ (2分)
+**3-3-2(3分)** 带入数据, $x_A=0.0293$ (1分) $p=\gamma_A x_A p_{A}^{\ast}+\gamma_B x_B p_{B}^{\ast}=0.981 \text{ atm}$ (2分)
 
-**3-3-2(3分)** 带入数据, $x_A=0.0293$ (1分) $p=\gamma_A x_A p_A^*+\gamma_B x_B p_B^*=0.981 \text{ atm}$ (2分)
-
-> **解析**（据源答案整理）：考查稀溶液气液平衡与恒沸。3-1：以 40 ℃（313.15 K）的 $p_A^* = 0.42\ \mathrm{atm}$、$p_B^* = 0.98\ \mathrm{atm}$ 为基准，用克拉佩龙-克劳修斯式 $\ln[p^*(T)/p^*(313.15)] = (\Delta_{\mathrm{vap}}H_m/R)(1/313.15 - 1/T)$ 外推。3-1-1：正常沸点处 $p_{\text{总}} = 1\ \mathrm{atm}$，故 $0.75\,p_A^*(T) + 0.25\,p_B^*(T) = 1$，解得 $T \approx 330.4\ \mathrm{K}$；此时 $p_A = 0.565\ \mathrm{bar}$、$p_B = 0.435\ \mathrm{bar}$，气相丙酮摩尔分数 $y_A = p_A/(p_A+p_B) = 0.565$。3-1-2：已知气相组成 $y_A = 0.75$，由 $p_A = x_A p_A^*(T) = y_A p$、$p_B = (1-x_A)p_B^*(T) = (1-y_A)p$ 联立求沸点与液相组成，得 $T \approx 334.5\ \mathrm{K}$、$x_A \approx 0.874$。3-2：由 Margules 式 $\gamma_A = \exp(A x_B^2)$、$\gamma_B = \exp(A x_A^2)$（$A = 0.90$，$x_A = 0.75$、$x_B = 0.25$）得 $\gamma_A \approx 1.058$、$\gamma_B \approx 1.659$；以修正的拉乌尔定律 $x_A\gamma_A p_A^*(T) + x_B\gamma_B p_B^*(T) = 1$ 求沸点，解得 $T \approx 321.9\ \mathrm{K}$。3-3-1：恒沸时气液两相组成相同，$y_A = x_A$ ⇒ $\gamma_A p_A^* = \gamma_B p_B^*$ ⇒ $A(x_B^2 - x_A^2) = \ln(p_B^*/p_A^*)$；以 $x_B = 1-x_A$ 化简得 $A(1-2x_A) = \ln(p_B^*/p_A^*)$，即 $x_A = \frac{1}{2} - \frac{1}{2A}\ln(p_B^*/p_A^*)$。3-3-2：代入 $A = 0.90$ 与 $p_A^*$、$p_B^*$（二者之比 40 ℃ 时为 2.33）得 $x_A \approx 0.0293$；恒沸压力 $p = \gamma_A x_A p_A^* + \gamma_B x_B p_B^* \approx 0.981\ \mathrm{atm}$。
+> **解析**（据源答案整理）：考查稀溶液气液平衡与恒沸。3-1：以 40 ℃（313.15 K）的 $p_A^{\ast} = 0.42\ \mathrm{atm}$、$p_B^{\ast} = 0.98\ \mathrm{atm}$ 为基准，用克拉佩龙-克劳修斯式 $\ln[p^*(T)/p^*(313.15)] = (\Delta_{\mathrm{vap}}H_m/R)(1/313.15 - 1/T)$ 外推。3-1-1：正常沸点处 $p_{\text{总}} = 1\ \mathrm{atm}$，故 $0.75\,p_A^{\ast}(T) + 0.25\,p_B^{\ast}(T) = 1$，解得 $T \approx 330.4\ \mathrm{K}$；此时 $p_A = 0.565\ \mathrm{bar}$、$p_B = 0.435\ \mathrm{bar}$，气相丙酮摩尔分数 $y_A = p_A/(p_A+p_B) = 0.565$。3-1-2：已知气相组成 $y_A = 0.75$，由 $p_A = x_A p_A^{\ast}(T) = y_A p$、$p_B = (1-x_A)p_B^{\ast}(T) = (1-y_A)p$ 联立求沸点与液相组成，得 $T \approx 334.5\ \mathrm{K}$、$x_A \approx 0.874$。3-2：由 Margules 式 $\gamma_A = \exp(A x_B^2)$、$\gamma_B = \exp(A x_A^2)$（$A = 0.90$，$x_A = 0.75$、$x_B = 0.25$）得 $\gamma_A \approx 1.058$、$\gamma_B \approx 1.659$；以修正的拉乌尔定律 $x_A\gamma_A p_A^{\ast}(T) + x_B\gamma_B p_B^{\ast}(T) = 1$ 求沸点，解得 $T \approx 321.9\ \mathrm{K}$。3-3-1：恒沸时气液两相组成相同，$y_A = x_A$ ⇒ $\gamma_A p_A^{\ast} = \gamma_B p_B^{\ast}$ ⇒ $A(x_B^2 - x_A^2) = \ln(p_B^{\ast}/p_A^{\ast})$；以 $x_B = 1-x_A$ 化简得 $A(1-2x_A) = \ln(p_B^{\ast}/p_A^{\ast})$，即 $x_A = \frac{1}{2} - \frac{1}{2A}\ln(p_B^{\ast}/p_A^{\ast})$。3-3-2：代入 $A = 0.90$ 与 $p_A^{\ast}$、$p_B^{\ast}$（二者之比 40 ℃ 时为 2.33）得 $x_A \approx 0.0293$；恒沸压力 $p = \gamma_A x_A p_A^{\ast} + \gamma_B x_B p_B^{\ast} \approx 0.981\ \mathrm{atm}$。
 
 ---
 
@@ -240,10 +238,7 @@ $$
 #### 答案
 
 第5题
-
-4-1
-
-电荷守恒： $[NH_4^+] + [H^+] + [Ag^+] + [Ag(NH_3)^+ ] + [Ag(NH_3)_2^+] = [Cl^-] + [OH^-]$
+4-1电荷守恒： $[NH_4^+] + [H^+] + [Ag^+] + [Ag(NH_3)^+ ] + [Ag(NH_3)_2^+] = [Cl^-] + [OH^-]$
 
 物料平衡： $1.0 = [NH_3] + [NH_4^+] + [Ag(NH_3)^+] + 2[Ag(NH_3)_2^+]$
 
@@ -254,12 +249,9 @@ $$
 代入 2 中解得 $[NH_{3}]=0.794\ mol/L$
 
 $$
-\mathrm{s} = \left[ A g ^ {+} \right] + \left[ A g (N H _ {3}) ^ {+} \right] + \left[ A g (N H _ {3}) _ {2} ^ {+} \right] = 0. 1 0 1 \mathrm{mol/L}, m = 1 4. 5 \mathrm{g} \left(1 ^ {\prime}\right)
+\mathrm{s} = \left[ A g ^ {+} \right] + \left[ A g (N H _ {3}) ^ {+} \right] + \left[ A g (N H _ {3}) _ {2} ^ {+} \right] = 0. 1 0 1 \mathrm{mol/L}, m = 1 4. 5 \mathrm{g} \left(（1 分）\right)
 $$
-
-4-2
-
-若已完全溶解，则 $[Cl^-] = m / M = 5.233 \times 10^{-3} \mathrm{~mol} / \mathrm{L}$
+4-2若已完全溶解，则 $[Cl^-] = m / M = 5.233 \times 10^{-3} \mathrm{~mol} / \mathrm{L}$
 
 $$
 [ A g ^ {+} ] = K _ {s p} / [ C l ^ {-} ] = 3. 3 9 8 \times 1 0 ^ {- 8} \mathrm{mol/L} （1 分）
@@ -273,7 +265,7 @@ $$
 
 $$
 [ N H _ {4} ^ {+} ] = 8. 7 0 \times 1 0 ^ {- 4} \mathrm{mol/L} （1 分）
-\mathrm{c} = \left[ N H _ {3} \right] + \left[ N H _ {4} ^ {+} \right] + \left[ A g (N H _ {3}) ^ {+} \right] + 2 \left[ A g (N H _ {3}) _ {2} ^ {+} \right] = 0. 0 5 2 9 \mathrm{mol/L} \left(2 ^ {\prime}\right)
+\mathrm{c} = \left[ N H _ {3} \right] + \left[ N H _ {4} ^ {+} \right] + \left[ A g (N H _ {3}) ^ {+} \right] + 2 \left[ A g (N H _ {3}) _ {2} ^ {+} \right] = 0. 0 5 2 9 \mathrm{mol/L} \left(（2 分）\right)
 $$
 
 > **解析**（据源答案整理）：考查沉淀-配位多重平衡。4-1：设 1 L 氨水溶解 AgCl 达饱和，溶解量为 $s\ \mathrm{mol/L}$。由 $[\mathrm{Ag^+}][\mathrm{Cl^-}] = K_{sp}$ 及 $[\mathrm{Cl^-}] = [\mathrm{Ag^+}]\left(1 + \beta_1[\mathrm{NH_3}] + \beta_2[\mathrm{NH_3}]^2\right)$ 得 $[\mathrm{Ag^+}] = \sqrt{K_{sp}/\left(1 + \beta_1[\mathrm{NH_3}] + \beta_2[\mathrm{NH_3}]^2\right)}$；氨的物料守恒 $1.00 = [\mathrm{NH_3}] + [\mathrm{NH_4^+}] + [\mathrm{Ag(NH_3)^+}] + 2[\mathrm{Ag(NH_3)_2^+}]$；联立解得 $[\mathrm{NH_3}] \approx 0.794\ \mathrm{mol/L}$、$s \approx 0.101\ \mathrm{mol/L}$，故 $m = s\,M(\mathrm{AgCl}) \approx 0.101\times 143.4 \approx 14.5\ \mathrm{g}$。4-2：完全溶解 1.50 g AgCl 于 2.0 L ⇒ $c(\mathrm{Cl^-}) = 1.50/(143.4\times 2.0) \approx 5.23\times 10^{-3}\ \mathrm{mol/L}$，$[\mathrm{Ag^+}] = K_{sp}/[\mathrm{Cl^-}] \approx 3.40\times 10^{-8}\ \mathrm{mol/L}$；由溶解守恒解得 $[\mathrm{NH_3}] \approx 0.0416\ \mathrm{mol/L}$；再由电荷守恒得 $[\mathrm{NH_4^+}] \approx 8.70\times 10^{-4}\ \mathrm{mol/L}$，故氨水最低总浓度 $c = [\mathrm{NH_3}] + [\mathrm{NH_4^+}] + [\mathrm{Ag(NH_3)^+}] + 2[\mathrm{Ag(NH_3)_2^+}] \approx 0.0529\ \mathrm{mol/L}$。
@@ -302,7 +294,7 @@ $$
 
 5-3-3 298 K、氢气压力 1 bar 下，要使 99.5% 以上的 VO $^{2+}$ 被还原为 V $^{3+}$ ，计算溶液的最大允许 pH。
 
-5-3-4 该反应的标准电势差 $\mathrm{E}^{\circ}$ 随温度的线性变化率为 $-1.75 \times 10^{-3} \mathrm{~V} / \mathrm{K}$ 。已知以下物质的标准熵数据，计算反应的焓变及 $\mathrm{VO}^{2+}$ 的标准摩尔熵（298K）。
+5-3-4 该反应的标准电势差 $\mathrm{E}^{\ominus}$ 随温度的线性变化率为 $-1.75 \times 10^{-3} \mathrm{~V} / \mathrm{K}$ 。已知以下物质的标准熵数据，计算反应的焓变及 $\mathrm{VO}^{2+}$ 的标准摩尔熵（298K）。
 
 
 
@@ -319,7 +311,7 @@ $$
 $$
 
 $$
-\Delta_ {r} G _ {m} ^ {\circ} = - n F (E _ {2} ^ {\circ} - E _ {1} ^ {\circ}) = - 1 \times F \times (0.337 - 1) = 63.97 k J / m o l
+\Delta_ {r} G _ {m}^{\ominus} = - n F (E _ {2}^{\ominus} - E _ {1}^{\ominus}) = - 1 \times F \times (0.337 - 1) = 63.97 k J / m o l
 $$
 
 $$
@@ -335,7 +327,7 @@ $$
 $$
 
 $$
-\Delta_ {r} G _ {m} ^ {\circ} = - n F (E _ {0} ^ {\circ} - E _ {X}) = - 1 \times F \times (0 + 0.254) = - 24.51 k J / m o l
+\Delta_ {r} G _ {m}^{\ominus} = - n F (E _ {0}^{\ominus} - E _ {X}) = - 1 \times F \times (0 + 0.254) = - 24.51 k J / m o l
 $$
 
 $$
@@ -343,19 +335,19 @@ $$
 $$
 
 $$
-\Delta_ {r} G _ {m} ^ {\circ} = - n F (E _ {2} ^ {\circ} - E _ {0} ^ {\circ}) = - 2 \times F \times (0.337 - 0) = - 65.03 k J / m o l
+\Delta_ {r} G _ {m}^{\ominus} = - n F (E _ {2}^{\ominus} - E _ {0}^{\ominus}) = - 2 \times F \times (0.337 - 0) = - 65.03 k J / m o l
 $$
 
 $$
-K ^ {\circ} = e ^ {- \frac {\Delta_ {r} G _ {m} ^ {\circ}}{R T}} = e ^ {- \frac {- 65.03 \times 10 ^ {3}}{R \times 298}} = 2.51 \times 10 ^ {11}
+K^{\ominus} = e ^ {- \frac {\Delta_ {r} G _ {m}^{\ominus}}{R T}} = e ^ {- \frac {- 65.03 \times 10 ^ {3}}{R \times 298}} = 2.51 \times 10 ^ {11}
 $$
 
 $$
-\frac {[ V ^ {3 +} ] ^ {2}}{[ V O ^ {2 +} ] ^ {2} [ H ^ {+} ] ^ {2} \frac {p}{p ^ {\circ}}} = \frac {\alpha^ {2}}{(1 - \alpha) ^ {2} (10 ^ {- 4.15}) ^ {2}} = 2.51 \times 10 ^ {11}
+\frac {[ V ^ {3 +} ] ^ {2}}{[ V O ^ {2 +} ] ^ {2} [ H ^ {+} ] ^ {2} \frac {p}{p^{\ominus}}} = \frac {\alpha^ {2}}{(1 - \alpha) ^ {2} (10 ^ {- 4.15}) ^ {2}} = 2.51 \times 10 ^ {11}
 $$
 
 $$
-K ^ {\circ} = \frac {[ V ^ {3 +} ] ^ {2}}{[ V O ^ {2 +} ] ^ {2} [ H ^ {+} ] ^ {2} \frac {p}{p ^ {\circ}}} = \frac {\alpha^ {2}}{(1 - \alpha) ^ {2} (10 ^ {- p H}) ^ {2}} = 2.51 \times 10 ^ {11}
+K^{\ominus} = \frac {[ V ^ {3 +} ] ^ {2}}{[ V O ^ {2 +} ] ^ {2} [ H ^ {+} ] ^ {2} \frac {p}{p^{\ominus}}} = \frac {\alpha^ {2}}{(1 - \alpha) ^ {2} (10 ^ {- p H}) ^ {2}} = 2.51 \times 10 ^ {11}
 $$
 
 $$
@@ -363,19 +355,19 @@ $$
 $$
 
 $$
-E ^ {\circ} = - \frac {\Delta_ {r} H _ {m} ^ {\circ}}{2 F} + \frac {\Delta_ {r} S _ {m} ^ {\circ}}{2 F} T
+E^{\ominus} = - \frac {\Delta_ {r} H _ {m}^{\ominus}}{2 F} + \frac {\Delta_ {r} S _ {m}^{\ominus}}{2 F} T
 $$
 
 $$
-\Delta_ {r} S _ {m} ^ {\circ} = - 2 F \times 1.75 \times 10 ^ {- 3} = - 337.7 J / (m o l \cdot K)
+\Delta_ {r} S _ {m}^{\ominus} = - 2 F \times 1.75 \times 10 ^ {- 3} = - 337.7 J / (m o l \cdot K)
 $$
 
 $$
-S _ {m} ^ {\circ} (V O ^ {2 +}) = - 133.5 J / (m o l \cdot K)
+S _ {m}^{\ominus} (V O ^ {2 +}) = - 133.5 J / (m o l \cdot K)
 $$
 
 $$
-\Delta_ {r} H _ {m} ^ {\circ} = \Delta_ {r} G _ {m} ^ {\circ} + T \Delta_ {r} S _ {m} ^ {\circ} = - 165.7 k J / m o l
+\Delta_ {r} H _ {m}^{\ominus} = \Delta_ {r} G _ {m}^{\ominus} + T \Delta_ {r} S _ {m}^{\ominus} = - 165.7 k J / m o l
 $$
 
 > **解析**（据源答案整理）：考查 Latimer 电势图与电化学计算。5-1：歧化反应 $2\mathrm{VO^{2+}} \to \mathrm{VO_2^+} + \mathrm{V^{3+}}$，$\Delta_r G_m^\ominus = -nF\Delta E^\ominus = -1\times F\times(0.337-1.0) \approx +63.9\ \mathrm{kJ\cdot mol^{-1}} > 0$，即歧化不能正向自发，故 $\mathrm{VO^{2+}}$ 不易发生歧化。5-2-1：由连续电势对电子的加权平均关系 $(1.0+0.337+E_X)/3 = 0.361$ ⇒ $E_X \approx -0.254\ \mathrm{V}$（即 $E^\ominus(\mathrm{V^{3+}/V^{2+}})$）。5-2-2：$\mathrm{V^{2+}}$ 被 $\mathrm{H^+}$ 氧化：$\mathrm{V^{2+}} + \mathrm{H^+} \to \mathrm{V^{3+}} + \frac{1}{2}\mathrm{H_2}$，$\Delta_r G_m^\ominus = -1\times F\times(-0.254-0) \approx +24.5\ \mathrm{kJ\cdot mol^{-1}} > 0$，反应不能自发，故 $\mathrm{V^{2+}}$ 在无氧条件下可热力学稳定存在。5-3-1：$2\mathrm{VO^{2+}} + \mathrm{H_2} + 2\mathrm{H^+} \to 2\mathrm{V^{3+}} + 2\mathrm{H_2O}$，$\Delta_r G_m^\ominus = -2F\times(0.337-0) \approx -65.0\ \mathrm{kJ\cdot mol^{-1}}$，$K^\ominus = \exp(-\Delta_r G_m^\ominus/RT) \approx 2.5\times 10^{11}$。5-3-2：$K^\ominus = [\mathrm{V^{3+}}]^2/\left([\mathrm{VO^{2+}}]^2[\mathrm{H^+}]^2\,p(\mathrm{H_2})/p^\ominus\right) = \alpha^2/[(1-\alpha)^2 (10^{-\mathrm{pH}})^2]$；取 pH = 4.15 解得 $\alpha \approx 1$（近乎完全还原）。5-3-3：取 $\alpha = 0.995$ 反解最大允许 pH，得 pH ≈ 3.40。5-3-4：由 $\Delta E^\ominus = -\Delta_r H_m^\ominus/(zF) + [\Delta_r S_m^\ominus/(zF)]T$，斜率 $\mathrm{d}E^\ominus/\mathrm{d}T = \Delta_r S_m^\ominus/(zF) = -1.75\times 10^{-3}\ \mathrm{V\cdot K^{-1}}$ ⇒ $\Delta_r S_m^\ominus = zF\times(-1.75\times 10^{-3}) \approx -337.7\ \mathrm{J\cdot K^{-1}\cdot mol^{-1}}$（$z = 2$）；再由题给各物质标准熵求 $\Delta_r H_m^\ominus = \Delta_r G_m^\ominus + T\Delta_r S_m^\ominus \approx -165.7\ \mathrm{kJ\cdot mol^{-1}}$。
@@ -386,7 +378,7 @@ $$
 
 > 来源：chemy 第35届 模拟11 第 1 题｜难度 ⭐⭐⭐⭐
 
-氯苯(A)和溴苯(B)可以形成理想液态混合物。若将 9 mol A 与 1 mol B 组成的混合物在 101.3 kPa 的压力下加热，至 407 K 时沸腾。已知溴苯的正常沸点为 429 K，其摩尔气化焓 $\Delta_{\mathrm{vap}}H_{\mathrm{m}}(\mathrm{B}) = 44.5 \, \mathrm{kJ/mol}$ ，标准大气压为 101.325 kPa。
+氯苯(A)和溴苯(B)可以形成理想液态混合物。若将 9 mol A 与 1 mol B 组成的混合物在 101.3 kPa 的压力下加热，至 407 K 时沸腾。已知溴苯的正常沸点为 429 K，其摩尔气化焓 $\Delta_{\mathrm{vap}}H_{\mathrm{m}}(\mathrm{B}) = 44.5 \, \mathrm{kJ\cdot mol^{-1}}$ ，标准大气压为 101.325 kPa。
 
 6-1 现有组成为 $x_{A}=0.4$ 的液态混合物，在 407 K 时不断降低压力，当出现第一个气泡时，请计算气相的总压和气相的组成。
 
@@ -395,8 +387,7 @@ $$
 #### 答案
 
 第1题（10分）
-
-6-1 利用 Clausius-Clapeyron 方程求 407 K 时的  $p_{\mathrm{B}}^{*}(407 \mathrm{~K})$ $\ln \frac{p_{\mathrm{B}}^{*}(407 \mathrm{~K})}{101.325 \mathrm{kPa}} = \frac{44500}{8.314} \left( \frac{1}{429} - \frac{1}{407} \right)$
+6-1利用 Clausius-Clapeyron 方程求 407 K 时的  $p_{\mathrm{B}}^{*}(407 \mathrm{~K})$ $\ln \frac{p_{\mathrm{B}}^{*}(407 \mathrm{~K})}{101.325 \mathrm{kPa}} = \frac{44500}{8.314} \left( \frac{1}{429} - \frac{1}{407} \right)$
 
 解得  $p_{\mathrm{B}}^{*}(407 \mathrm{~K}) = 51.621 \mathrm{kPa}$ （1 分）
 
@@ -411,15 +402,14 @@ $$
  $p_{I} = p_{A}^{*} x_{A} + p_{B}^{*} x_{B} = 73.701 \mathrm{kPa}$ （2 分）
 
 设气相中 A 的组成为  $y_{A}$ ，则  $y_{A} = p_{A}^{*} x_{A} / p_{I} = 0.58$ $y_{B} = 1 - y_{A} = 0.42$ （2 分）
-
-6-2 当剩下最后一滴液体时，可近似认为气相的组成等于原液相的组成
+6-2当剩下最后一滴液体时，可近似认为气相的组成等于原液相的组成
 即  $y_{A}=0.4,\ y_{B}=0.6$ （1 分）
 设此时气相总压为  $p_{2}$ ，则有：
  $p_{A}=p_{A}^{*}x_{A}=0.4p_{2},\ p_{B}=p_{B}^{*}x_{B}=0.6p_{2},\ x_{A}+x_{B}=1$
 联立解得  $x_{A}=0.24,\ x_{B}=0.76$ （2 分）
  $p_{2}=65.39\ kPa$ （1 分）
 
-> **解析**（据源答案整理）：考查二组分理想液态混合物的气液平衡。6-1：先用克拉佩龙-克劳修斯方程由溴苯的正常沸点求 407 K 时的饱和蒸气压，$\ln[p_B^*(407\ \mathrm{K})/101.325\ \mathrm{kPa}] = (\Delta_{\mathrm{vap}}H_m(B)/R)(1/429-1/407)$，得 $p_B^* \approx 51.6\ \mathrm{kPa}$；由 $x_A = 0.9$、$x_B = 0.1$ 的混合物在 407 K 恰好沸腾（$p = 101.325\ \mathrm{kPa}$）反解：$101.325 = 0.9p_A^* + 0.1p_B^*$ ⇒ $p_A^* \approx 106.8\ \mathrm{kPa}$。再对 $x_A = 0.4$、$x_B = 0.6$ 求出现第一个气泡（液相组成基本不变）时的总压 $p_1 = 0.4p_A^* + 0.6p_B^* \approx 73.7\ \mathrm{kPa}$，气相组成 $y_A = 0.4p_A^*/p_1 \approx 0.58$（$y_B \approx 0.42$）。6-2：蒸馏至剩最后一滴液体时，可近似认为气相组成等于原液相组成，即 $y_A = 0.4$、$y_B = 0.6$；由 $p_A = p_A^* x_A = y_A p_2$、$p_B = p_B^* x_B = y_B p_2$ 及 $x_A + x_B = 1$ 联立，解得 $x_A \approx 0.24$、$x_B \approx 0.76$，此时总压 $p_2 \approx 65.4\ \mathrm{kPa}$。
+> **解析**（据源答案整理）：考查二组分理想液态混合物的气液平衡。6-1：先用克拉佩龙-克劳修斯方程由溴苯的正常沸点求 407 K 时的饱和蒸气压，$\ln[p_B^{\ast}(407\ \mathrm{K})/101.325\ \mathrm{kPa}] = (\Delta_{\mathrm{vap}}H_m(B)/R)(1/429-1/407)$，得 $p_B^{\ast} \approx 51.6\ \mathrm{kPa}$；由 $x_A = 0.9$、$x_B = 0.1$ 的混合物在 407 K 恰好沸腾（$p = 101.325\ \mathrm{kPa}$）反解：$101.325 = 0.9p_A^{\ast} + 0.1p_B^{\ast}$ ⇒ $p_A^{\ast} \approx 106.8\ \mathrm{kPa}$。再对 $x_A = 0.4$、$x_B = 0.6$ 求出现第一个气泡（液相组成基本不变）时的总压 $p_1 = 0.4p_A^{\ast} + 0.6p_B^{\ast} \approx 73.7\ \mathrm{kPa}$，气相组成 $y_A = 0.4p_A^{\ast}/p_1 \approx 0.58$（$y_B \approx 0.42$）。6-2：蒸馏至剩最后一滴液体时，可近似认为气相组成等于原液相组成，即 $y_A = 0.4$、$y_B = 0.6$；由 $p_A = p_A^{\ast} x_A = y_A p_2$、$p_B = p_B^{\ast} x_B = y_B p_2$ 及 $x_A + x_B = 1$ 联立，解得 $x_A \approx 0.24$、$x_B \approx 0.76$，此时总压 $p_2 \approx 65.4\ \mathrm{kPa}$。
 
 ---
 
@@ -433,7 +423,7 @@ $$
 
 
 
-| 物质 | 标准摩尔生成焓(kJ/mol) | 标准摩尔熵(J/mol·K) |
+| 物质 | 标准摩尔生成焓($\mathrm{kJ\cdot mol^{-1}}$) | 标准摩尔熵($\mathrm{J\cdot mol^{-1}\cdot K^{-1}}$) |
 |:--:|:--:|:--:|
 | NO(g) | 91.3 | 210.8 |
 | $NO_2$ (g) | 33.2 | 240.1 |
@@ -445,7 +435,7 @@ $$
 
 
 
-| 物质 | 标准摩尔生成焓(kJ/mol) | 标准摩尔熵(J/mol·K) |
+| 物质 | 标准摩尔生成焓($\mathrm{kJ\cdot mol^{-1}}$) | 标准摩尔熵($\mathrm{J\cdot mol^{-1}\cdot K^{-1}}$) |
 |:--:|:--:|:--:|
 | $SO_{2}$ (g) | -296.8 | 248.2 |
 | $SO_{3}$ (g) | -395.7 | 256.8 |
@@ -457,10 +447,9 @@ $$
 #### 答案
 
 7-1（4分，分步写也可以） $4NO + 3O_{2} + 2H_{2}O \rightarrow 4HNO_{3}$ （2分） $2SO_{2} + O_{2} + 2H_{2}O \rightarrow 2H_{2}SO_{4}$ （2分）
-
 7-2（7分）
 
--2（7分） $\Delta_{r}H_{m}^{\ominus}=2\times33.2-2\times91.3=-116.2\ \text{kJ/mol}$ （1分） $\Delta_{r}S_{m}^{\ominus}=2\times240.1-2\times210.8-205.2=-146.6\ \text{J/mol}\cdot K$ （1分） $\Delta_{r}G_{m}^{\ominus}=\Delta_{r}H_{m}^{\ominus}-T\Delta_{r}S_{m}^{\ominus}=-116.2+600\times0.1466=-28.2\ \text{kJ/mol}$ （1分） $K^{\ominus}=\exp\left(-\frac{\Delta_{r}G_{m}^{\ominus}}{RT}\right)=\exp\left(\frac{28.2\times1000}{8.314\times600}\right)=285$ （1分）
+-2（7分） $\Delta_{r}H_{m}^{\ominus}=2\times33.2-2\times91.3=-116.2\ \mathrm{kJ\cdot mol^{-1}}$ （1分） $\Delta_{r}S_{m}^{\ominus}=2\times240.1-2\times210.8-205.2=-146.6\ \text{J/mol}\cdot K$ （1分） $\Delta_{r}G_{m}^{\ominus}=\Delta_{r}H_{m}^{\ominus}-T\Delta_{r}S_{m}^{\ominus}=-116.2+600\times0.1466=-28.2\ \mathrm{kJ\cdot mol^{-1}}$ （1分） $K^{\ominus}=\exp\left(-\frac{\Delta_{r}G_{m}^{\ominus}}{RT}\right)=\exp\left(\frac{28.2\times1000}{8.314\times600}\right)=285$ （1分）
 
 设转化率为 x，则各物质的量为：
 
@@ -475,7 +464,6 @@ $$
 $K^{\ominus}=\frac{[2x/(3-x)]^{2}}{[(2-2x)/(3-x)]^{2}\times(1-x)/(3-x)}=285$ （2分）
 
 解得 x=0.83 （1 分）
-
 7-3（8分）
 
 $$
@@ -511,7 +499,6 @@ $$
 解得 x=0.42（1 分）
 
 $p=\frac{(2-x)\times8.314\times900}{0.08}=1.48\ bar$ （1分）
-
 7-4（7分）
 
 $$
@@ -551,10 +538,8 @@ pH=4.22（1分）
 #### 答案
 
 第3题（8分）
-
-8-1 $n(\mathrm{NaAc}) = 1.52 \times 10^{-3} (\mathrm{mol})$，故溶液中 $c(\mathrm{NaAc}) = 0.0762 (\mathrm{mol/L})$ 故有 $\mathrm{pH} = \mathrm{pK}_{\mathrm{a}} + \lg (c(\mathrm{NaAc}) / c(\mathrm{HAc})) = 6.76$（2分）
-
-8-2 不能（1分，无论是否写出过程，回答出不能即可得分）
+8-1$n(\mathrm{NaAc}) = 1.52 \times 10^{-3} (\mathrm{mol})$，故溶液中 $c(\mathrm{NaAc}) = 0.0762 (\mathrm{mol/L})$ 故有 $\mathrm{pH} = \mathrm{pK}_{\mathrm{a}} + \lg (c(\mathrm{NaAc}) / c(\mathrm{HAc})) = 6.76$（2分）
+8-2不能（1分，无论是否写出过程，回答出不能即可得分）
 若要完全溶解，则溶液中  $c(\mathrm{Pb}) = [\mathrm{SO}_{4}^{2-}]$ ，且  $[\mathrm{Pb}^{2+}] [\mathrm{SO}_{4}^{2-}] = K_{\mathrm{sp}}$ ，（1分）
 而  $c(\mathrm{Pb}) = [\mathrm{Pb}^{2+}] (1 + \beta_{1}[\mathrm{Ac}^{-}] + \beta_{2}[\mathrm{Ac}^{-}]^{2} + \beta_{3}[\mathrm{Ac}^{-}]^{3})$ ，（1分）
 由  $c_{总}(HAc-NaAc)$  的守恒关系，
@@ -590,7 +575,7 @@ pH=4.22（1分）
 #### 答案
 
 $$
-\mathrm{CH} _ {4} (\mathrm{g}) + \mathrm{H} _ {2} \mathrm{O} (\mathrm{g}) \rightarrow \mathrm{CO} (\mathrm{g}) + 3 \mathrm{H} _ {2} (\mathrm{g}) 2 ^ {\prime}
+\mathrm{CH} _ {4} (\mathrm{g}) + \mathrm{H} _ {2} \mathrm{O} (\mathrm{g}) \rightarrow \mathrm{CO} (\mathrm{g}) + 3 \mathrm{H} _ {2} (\mathrm{g}) （2 分）
 $$
 
 $$
@@ -598,35 +583,34 @@ $$
 $$
 
 $$
-\mathrm{n} \frac {K _ {p} ^ {\ominus} [ 298 ]}{K _ {p} ^ {\ominus} [ 1580 ]} = - \frac {\Delta_ {r} H _ {m} ^ {\ominus}}{R} \left(\frac {1}{298} - \frac {1}{1580}\right) \Longrightarrow \Delta_ {r} H _ {m} ^ {\ominus} = 2.06 \times 10 ^ {5},
+\ln \frac {K _ {p} ^ {\ominus} [ 298 ]}{K _ {p} ^ {\ominus} [ 1580 ]} = - \frac {\Delta_ {r} H _ {m} ^ {\ominus}}{R} \left(\frac {1}{298} - \frac {1}{1580}\right) \Longrightarrow \Delta_ {r} H _ {m} ^ {\ominus} = 2.06 \times 10 ^ {5}\ \mathrm{J\cdot mol^{-1}},
 $$
 
 $$
-K _ {p} ^ {\Theta} = 28.4,
+K _ {p}^{\ominus} = 28.4,
 $$
 
 $$
-\Delta_ {\mathrm{r}} G _ {\mathrm{m}} ^ {\Theta} = - R T \ln K _ {p} ^ {\Theta} = - 3.06 \times 10 ^ {4}, \quad 2 ^ {\prime}
+\Delta_ {\mathrm{r}} G _ {\mathrm{m}}^{\ominus} = - R T \ln K _ {p}^{\ominus} = - 3.06 \times 10 ^ {4}, \quad （2 分）
 $$
 
 $$
-\Delta_ {r} S _ {\mathrm{m}} ^ {\ominus} = (\Delta_ {r} H _ {\mathrm{m}} ^ {\ominus} - \Delta_ {r} G _ {\mathrm{m}} ^ {\ominus}) / 1100 = 215 \mathrm{J/(molK)}
+\Delta_ {r} S _ {\mathrm{m}} ^ {\ominus} = (\Delta_ {r} H _ {\mathrm{m}} ^ {\ominus} - \Delta_ {r} G _ {\mathrm{m}} ^ {\ominus}) / 1100 = 215 \mathrm{J\cdot mol^{-1}\cdot K^{-1}}
 $$
 
-设转化率 $x$ ，则反应平衡时各物种对应为 $\mathrm{CH_4:1 - x,H_2O:1 - x,CO:x,H_2:3x}$ ，总量为 $2 + 2x$ ，故有 $K_{p}^{\ominus} = K_{x}\left(\frac{1.6\mathrm{bar}}{p^{\ominus}}\right)^{2} = \frac{(3x)^{3}x}{(2 + 2x)^{2}(1 - x)^{2}}\times 1.6^{2},$ 解得 $x = 0.749$ 列出方程 $3^{\prime}$ 结果 $2^{\prime}$
+设转化率 $x$ ，则反应平衡时各物种对应为 $\mathrm{CH_4:1 - x,H_2O:1 - x,CO:x,H_2:3x}$ ，总量为 $2 + 2x$ ，故有 $K_{p}^{\ominus} = K_{x}\left(\frac{1.6\mathrm{bar}}{p^{\ominus}}\right)^{2} = \frac{(3x)^{3}x}{(2 + 2x)^{2}(1 - x)^{2}}\times 1.6^{2},$ 解得 $x = 0.749$ 列出方程 $（3 分）$ 结果 $（2 分）$
+**9-4**
 
-9-4 增加压力对提高 $CH_{4}$ 的平衡转化率是否有利，为什么？
-
-由于 $(\frac{\partial lnK_x}{\partial p})_T = -\frac{\sum v_B(g)}{p} < 0$
+由于 $(\frac{\partial \ln K_x}{\partial p})_T = -\frac{\sum v_B(g)}{p} < 0$
 
 即以摩尔分数表示的平衡常数 $K_{x}$ 随压力的增加而减小,因此不有利.
 2' 也可以用勒夏特列原理解释.
 
 $$
-\mathrm{由于} (\frac {\partial l n K _ {p} ^{\ominus}}{\partial p}) _ {T} = \frac {\Delta H _ {m} ^{\ominus}}{R T ^ {2}} > 0
+(\frac {\partial \ln K _ {p} ^{\ominus}}{\partial T}) _ {p} = \frac {\Delta_ {r} H _ {m} ^{\ominus}}{R T ^ {2}} > 0
 $$
 
-$K_{p}^{\Theta}$ 随着温度的升高而增大,因而有利.
+$K_{p}^{\ominus}$ 随着温度的升高而增大,因而有利.
 
 2' 也可以用勒夏特列原理解释.
 
@@ -656,7 +640,7 @@ $K_{p}^{\Theta}$ 随着温度的升高而增大,因而有利.
 
 |  | CO(g) | $CO_2$ (g) | $H_2O$ (g) | $H_2O$ (l) |
 |:--:|:--:|:--:|:--:|:--:|
-| $\Delta_fH^{\ominus} m(kJ/mol)$ | -110.52 | -393.51 | -241.82 | -285.83 |
+| $\Delta_fH^{\ominus} m(\mathrm{kJ\cdot mol^{-1}})$ | -110.52 | -393.51 | -241.82 | -285.83 |
 
 
 
@@ -689,8 +673,7 @@ $$
 $$
 
 同样的方法不难得到 $\Delta_{r}H_{m}^{\ominus} = -6.773\times 10^{3}kJ\cdot mol^{-1}$
-
-10-2 只需分别计算燃烧C生成CO和 $\mathrm{CO}_{2}$ 时熔化冰的质量与燃烧碳的质量的比值：
+10-2只需分别计算燃烧C生成CO和 $\mathrm{CO}_{2}$ 时熔化冰的质量与燃烧碳的质量的比值：
 
 $$
 C \big (\mathrm{石墨} \big) + O 2 (g) = C O 2 (g) \quad \Delta_ {f} H _ {m} ^{\ominus} (C O 2) = - 393.51 \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1}
@@ -715,8 +698,7 @@ $$
 $$
 
 实验测得比值：96.5、69、40，均介于27.60\~98.27之间。说明实验中碳发生不完全燃烧，生成CO和 $\mathrm{CO}_{2}$ 的混合物，因此碳的不完全燃烧可以解释数据的差异。
-
-10-3 每 1L 水溶解 $1000 \times 0.075 / 44.01 = 1.704 \, mol$ 的 $CO_{2}$ ， $m(CO_{2}) = 1.842 \, \text{mol/kg}$ 说明由稀溶液依数性造成凝固点降低 $1.7842 \times 1.86 = 3.43 \, K$ 仅有浓度变化引起的熔点为：273.16 - 3.43 = 269.73K
+10-3每 1L 水溶解 $1000 \times 0.075 / 44.01 = 1.704 \, mol$ 的 $CO_{2}$ ， $m(CO_{2}) = 1.842 \, \text{mol/kg}$ 说明由稀溶液依数性造成凝固点降低 $1.7842 \times 1.86 = 3.43 \, K$ 仅有浓度变化引起的熔点为：273.16 - 3.43 = 269.73K
 
 所以由压强变化导致熔点降低 269.73 - 269.29 = 0.44K，即得出了温度变化量。
 
