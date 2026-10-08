@@ -147,16 +147,16 @@ $$
 
 #### 答案
 
-易知 $\Delta_{\mathrm{mel}}H_{\mathrm{m}}(T)=\Delta C_{\mathrm{p,m}}T+I$ ，1分代入 $T=1808\ K$ ， $\Delta_{\mathrm{mel}}H_{\mathrm{m}}=15355\ J\ mol^{-1}$ 有 $I=13086\ J\ mol^{-1}$
+易知 $\Delta_{\mathrm{mel}}H_{\mathrm{m}}(T)=\Delta C_{\mathrm{p,m}}T+I$ ，（1 分）代入 $T=1808\ K$ ， $\Delta_{\mathrm{mel}}H_{\mathrm{m}}=15355\ J\ mol^{-1}$ 有 $I=13086\ J\ mol^{-1}$
 
-故 $\Delta_{\mathrm{mel}}H_{\mathrm{m}} = (1.255T / K + 13086)\mathrm{J mol^{-1}}$ 1分
-
-$$
-\Delta_ {\mathrm{mel}} S _ {\mathrm{m}} (1808 \mathrm{K}) = \Delta_ {\mathrm{mel}} H _ {\mathrm{m}} (1808 \mathrm{K}) / 1808 \mathrm{K} = 8.5924 \mathrm{JK} ^ {- 1} \mathrm{mol} ^ {- 1} 1
-$$
+故 $\Delta_{\mathrm{mel}}H_{\mathrm{m}} = (1.255T / K + 13086)\mathrm{J mol^{-1}}$ （1 分）
 
 $$
-\Delta_ {\mathrm{mel}} S _ {\mathrm{m}} (1673 \mathrm{K}) = \Delta_ {\mathrm{mel}} S _ {\mathrm{m}} (1808 \mathrm{K}) + \Delta C _ {\mathrm{p}, \mathrm{m}} \ln (1673 \mathrm{K} / 1808 \mathrm{K}) = 8.4950 \mathrm{JK} ^ {- 1} \mathrm{mol} ^ {- 1}
+\Delta_ {\mathrm{mel}} S _ {\mathrm{m}} (1808 \mathrm{K}) = \Delta_ {\mathrm{mel}} H _ {\mathrm{m}} (1808 \mathrm{K}) / 1808 \mathrm{K} = 8.494 \mathrm{J} \cdot \mathrm{K} ^ {- 1} \cdot \mathrm{mol} ^ {- 1} （1 分）
+$$
+
+$$
+\Delta_ {\mathrm{mel}} S _ {\mathrm{m}} (1673 \mathrm{K}) = \Delta_ {\mathrm{mel}} S _ {\mathrm{m}} (1808 \mathrm{K}) + \Delta C _ {\mathrm{p}, \mathrm{m}} \ln (1673 \mathrm{K} / 1808 \mathrm{K}) = 8.397 \mathrm{J} \cdot \mathrm{K} ^ {- 1} \cdot \mathrm{mol} ^ {- 1}
 $$
 
 $$
@@ -164,28 +164,32 @@ $$
 $$
 
 $$
-\Delta_ {\mathrm{mel}} G _ {\mathrm{m}}^{\ominus} (1673 \mathrm{K}) = \Delta_ {\mathrm{mel}} H _ {\mathrm{m}} (1673 \mathrm{K}) - T \Delta_ {\mathrm{mel}} S _ {\mathrm{m}} (1673 \mathrm{K}) = 973.44 \mathrm{Jmol} ^ {- 1}
+\Delta_ {\mathrm{mel}} G _ {\mathrm{m}}^{\ominus} (1673 \mathrm{K}) = \Delta_ {\mathrm{mel}} H _ {\mathrm{m}} (1673 \mathrm{K}) - T \Delta_ {\mathrm{mel}} S _ {\mathrm{m}} (1673 \mathrm{K}) = 1138 \mathrm{J} \cdot \mathrm{mol} ^ {- 1}
 $$
 
 $$
-K^{\ominus} = \exp \left[ - \Delta_ {\mathrm{mel}} G _ {\mathrm{m}}^{\ominus} / R T \right] = 0.931
+K^{\ominus} = \exp \left[ - \Delta_ {\mathrm{mel}} G _ {\mathrm{m}}^{\ominus} / R T \right] = 0.921
 $$
+
+（校勘：源答案将 $\Delta_{\mathrm{mel}}S_{\mathrm{m}}(1808\ \mathrm{K})$ 印作 8.5924，与 $15355/1808 \approx 8.494$ 不符，系笔误；此处已更正，$K^{\ominus}$ 相应为 0.921。）
 
 也可以直接利用 Gibbs-Helmholtz 方程的不定积分式求解:
 
 $$
-\frac {\Delta G}{T} = - \int \frac {\Delta H}{T ^ {2}} \mathrm{d} T + I = - \int \left(\frac {1.255}{T} + \frac {13086}{T ^ {2}}\right) + I = - 1.255 \ln T + \frac {13086}{T} + I ^ {\prime} 2 \text {分}
+\frac {\Delta G}{T} = - \int \frac {\Delta H}{T ^ {2}} \mathrm{d} T + I = - \int \left(\frac {1.255}{T} + \frac {13086}{T ^ {2}}\right) + I = - 1.255 \ln T + \frac {13086}{T} + I ^ {\prime}
 $$
+
+（2 分）
 
 代入 $T = 1808 \, K, \Delta G = 0$ ，解得 $I' = 2.175$
 
-于是 $\Delta G = -1.255T\ln T + 13086 + 2.175T$ 2分
+于是 $\Delta G = -1.255T\ln T + 13086 + 2.175T$ （2 分）
 
-代入 1673 K 数据即可求解 2 分
+代入 1673 K 数据即可求解 （2 分）
 
-根据题意，反应商 $Q = K^{\ominus} = \gamma x$ ，故 $\gamma = Q / x = 0.93 / 0.87 = 1.1$ 2 分
+根据题意，反应商 $Q = K^{\ominus} = \gamma x$ ，故 $\gamma = Q / x = 0.92 / 0.87 = 1.1$ （2 分）
 
-> **解析**（据源答案整理）：考查相平衡与熔化热力学。2-1：由基尔霍夫定律 $\Delta_{\mathrm{mel}}H_m(T) = \Delta_{\mathrm{mel}}H_m(T_m) + \Delta C_{p,m}(T-T_m)$，其中 $T_m = 1808\ \mathrm{K}$、$\Delta_{\mathrm{mel}}H_m(T_m) = 15355\ \mathrm{J\cdot mol^{-1}}$、$\Delta C_{p,m} = 1.255\ \mathrm{J\cdot K^{-1}\cdot mol^{-1}}$ ⇒ $\Delta_{\mathrm{mel}}H_m = (1.255\,T/\mathrm{K} + 13086)\ \mathrm{J\cdot mol^{-1}}$。2-2：正常熔点 1808 K 处熔化处于平衡，$\Delta_{\mathrm{mel}}S_m(1808\ \mathrm{K}) = 15355/1808 \approx 8.49\ \mathrm{J\cdot K^{-1}\cdot mol^{-1}}$；经 $\Delta C_p$ 项修正 $\Delta_{\mathrm{mel}}S_m(1673\ \mathrm{K}) = 8.49 + 1.255\ln(1673/1808) \approx 8.40\ \mathrm{J\cdot K^{-1}\cdot mol^{-1}}$；$\Delta_{\mathrm{mel}}H_m(1673\ \mathrm{K}) = 1.255\times 1673 + 13086 \approx 15186\ \mathrm{J\cdot mol^{-1}}$；$\Delta_{\mathrm{mel}}G_m^\ominus = \Delta_{\mathrm{mel}}H_m - T\Delta_{\mathrm{mel}}S_m \approx 1.13\ \mathrm{kJ\cdot mol^{-1}}$，故 $K^\ominus = \exp(-\Delta_{\mathrm{mel}}G_m^\ominus/RT) \approx 0.92$。（注：源答案将 $\Delta_{\mathrm{mel}}S_m(1808\ \mathrm{K})$ 印作 $8.59\ \mathrm{J\cdot K^{-1}\cdot mol^{-1}}$，与 $15355/1808$ 不符，系笔误；修正后 $K^\ominus \approx 0.92$，与其印值 0.931 的差异不改变下文两位有效数字的结论。）2-3：该温度下 $\delta\text{-}\mathrm{Fe(s)}$ 与含 Fe 的硫化铁熔体两相平衡，$K^\ominus = a(\mathrm{Fe,l}) = \gamma x$（$x = 0.87$）⇒ $\gamma = K^\ominus/x \approx 0.92/0.87 \approx 1.06 \approx 1.1$。
+> **解析**（据源答案整理）：考查相平衡与熔化热力学。2-1：由基尔霍夫定律 $\Delta_{\mathrm{mel}}H_m(T) = \Delta_{\mathrm{mel}}H_m(T_m) + \Delta C_{p,m}(T-T_m)$，其中 $T_m = 1808\ \mathrm{K}$、$\Delta_{\mathrm{mel}}H_m(T_m) = 15355\ \mathrm{J\cdot mol^{-1}}$、$\Delta C_{p,m} = 1.255\ \mathrm{J\cdot K^{-1}\cdot mol^{-1}}$ ⇒ $\Delta_{\mathrm{mel}}H_m = (1.255\,T/\mathrm{K} + 13086)\ \mathrm{J\cdot mol^{-1}}$。2-2：正常熔点 1808 K 处熔化处于平衡，$\Delta_{\mathrm{mel}}S_m(1808\ \mathrm{K}) = 15355/1808 = 8.494\ \mathrm{J\cdot K^{-1}\cdot mol^{-1}}$；经 $\Delta C_p$ 项修正 $\Delta_{\mathrm{mel}}S_m(1673\ \mathrm{K}) = 8.494 + 1.255\ln(1673/1808) = 8.397\ \mathrm{J\cdot K^{-1}\cdot mol^{-1}}$；$\Delta_{\mathrm{mel}}H_m(1673\ \mathrm{K}) = 1.255\times 1673 + 13086 = 15186\ \mathrm{J\cdot mol^{-1}}$；$\Delta_{\mathrm{mel}}G_m^\ominus = \Delta_{\mathrm{mel}}H_m - T\Delta_{\mathrm{mel}}S_m = 1138\ \mathrm{J\cdot mol^{-1}}$，故 $K^\ominus = \exp(-\Delta_{\mathrm{mel}}G_m^\ominus/RT) = 0.921$。（注：源答案将 $\Delta_{\mathrm{mel}}S_m(1808\ \mathrm{K})$ 印作 $8.5924\ \mathrm{J\cdot K^{-1}\cdot mol^{-1}}$，与 $15355/1808 = 8.494$ 不符，系笔误；本卷已按更正值计算。）2-3：该温度下 $\delta\text{-}\mathrm{Fe(s)}$ 与含 Fe 的硫化铁熔体两相平衡，$K^\ominus = a(\mathrm{Fe,l}) = \gamma x$（$x = 0.87$）⇒ $\gamma = K^\ominus/x = 0.921/0.87 \approx 1.06 \approx 1.1$。
 
 ---
 
@@ -211,11 +215,17 @@ $$
 
 #### 答案
 
-**3-1-1(5分)** $1 = {0.75} \times {0.42} \times \exp\left\lbrack {\frac{\Delta \text{vapHm}^{\ominus}(\Lambda)}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right) }\right\rbrack + {0.25} \times {0.98} \times \exp\left\lbrack {\frac{\Delta \text{vapHm}^{\ominus}(\mathrm{B})}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right) }\right\rbrack$ (2分)解得 T=330.4K (2分) $P_A=0.5650 \text{ bar, } P_B=0.4350 \text{ bar } y_A=0.5650$ (1分)
+**3-1-1(5分)** $1 = {0.75} \times {0.42} \times \exp\left\lbrack {\frac{\Delta \text{vapHm}^{\ominus}(\mathrm{A})}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right) }\right\rbrack + {0.25} \times {0.98} \times \exp\left\lbrack {\frac{\Delta \text{vapHm}^{\ominus}(\mathrm{B})}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right) }\right\rbrack$ (2分)解得 T=330.4K (2分) $P_A=0.5650 \text{ bar, } P_B=0.4350 \text{ bar } y_A=0.5650$ (1分)
 
-**3-1-2(6分)** 对于刚形成的液体有: $P_A=x_A \times {0.42} \times \exp\left[\frac{\Delta \text{vapHm}^{\ominus}(\Lambda)}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right)\right]=0.75$ (1分) $P_B=(1-x_A) \times {0.98} \times \exp\left[\frac{\Delta \text{vapHm}^{\ominus}(\mathrm{B})}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right)\right]=0.25$ (1分)联立解得 T=334.5K (3分) $x_A=87.4\%$ (1分)
+**3-1-2(6分)** 对于刚形成的液体有: $P_A=x_A \times {0.42} \times \exp\left[\frac{\Delta \text{vapHm}^{\ominus}(\mathrm{A})}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right)\right]=0.75$ (1分) $P_B=(1-x_A) \times {0.98} \times \exp\left[\frac{\Delta \text{vapHm}^{\ominus}(\mathrm{B})}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right)\right]=0.25$ (1分)联立解得 T=334.5K (3分) $x_A=87.4\%$ (1分)
 
-**3-2(5分)** $\gamma_A=\exp(A \cdot x_B^2)=1.058$ (1分) $\gamma_B=\exp(A \cdot x_A^2)=1.659$ (1分) $1=0.75 \times {0.42} \times \exp\left[\frac{\Delta \text{vapHm}^{\ominus}(\Lambda)}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right)\right] \times \gamma_A+0.25 \times {0.98} \times \exp\left[\frac{\Delta \text{vapHm}^{\ominus}(\mathrm{B})}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right)\right] \times \gamma_B$ (1分)解得 T=321.9K (2分)
+**3-2(5分)** $\gamma_A=\exp(A \cdot x_B^2)=1.058$ (1分) $\gamma_B=\exp(A \cdot x_A^2)=1.659$ (1分)
+
+$1={0.75} \times {0.42} \times \exp\left[\frac{\Delta \text{vapHm}^{\ominus}(\mathrm{A})}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right)\right] \times \gamma_A$
+
+$+\ {0.25} \times {0.98} \times \exp\left[\frac{\Delta \text{vapHm}^{\ominus}(\mathrm{B})}{R}\left( {\frac{1}{313.15} - \frac{1}{T}}\right)\right] \times \gamma_B$
+
+（1 分）解得 T=321.9K (2分)
 
 **3-3-1(8分)** 此时  $y_A=x_A=\frac{\gamma_A x_A p_A}{\gamma_A x_A p_{A}^{\ast}+\gamma_B x_B p_{B}^{\ast}}$ (2分)移项得: $\gamma_A x_A p_{A}^{\ast}+\gamma_B x_B p_{B}^{\ast}=\gamma_A p_{A}^{\ast}$ (1分)再移项,并约去  $x_B=1-x_A$  $\gamma_A \cdot P_A^*= \gamma_B \cdot P_B^*$ (1分)带入  $\gamma$  的表达式,并取  $\ln: A(x_B^2-x_A^2)=\ln(P_B^*/P_A^*)$ 带入  $x_B=1-x_A$  $A(1-2x_A)=\ln(P_B^*/P_A^*)$ (2分)化简,得到  $x_A=0.5-\frac{1}{2A}\ln(P_B^*/P_A^*)$ (2分)
 
@@ -237,19 +247,18 @@ $$
 
 #### 答案
 
-第5题
 4-1电荷守恒： $[NH_4^+] + [H^+] + [Ag^+] + [Ag(NH_3)^+ ] + [Ag(NH_3)_2^+] = [Cl^-] + [OH^-]$
 
 物料平衡： $1.0 = [NH_3] + [NH_4^+] + [Ag(NH_3)^+] + 2[Ag(NH_3)_2^+]$
 
 溶解守恒： $[Cl^{-}] = K_{sp} / [Ag^{+}] = [Ag^{+}] + [Ag(NH_{3})^{+}] + [Ag(NH_{3})_{2}^{+}]$ （3 分）
 
-由1得： $[H^{+}] = \sqrt{\frac{K_{w}}{1 + \frac{[NH_3]}{K_a}}}$ （其中 $K_{a} = K_{w} / K_{b}$ ），由3得 $[Ag^{+}] = \sqrt{\frac{K_{sp}}{1 + \beta_1[NH_3] + \beta_2[NH_3]_2}}$ （2 分）
+由1得： $[H^{+}] = \sqrt{\frac{K_{w}}{1 + \frac{[NH_3]}{K_a}}}$ （其中 $K_{a} = K_{w} / K_{b}$ ），由3得 $[Ag^{+}] = \sqrt{\frac{K_{sp}}{1 + \beta_1[NH_3] + \beta_2[NH_3]^{2}}}$ （2 分）
 
 代入 2 中解得 $[NH_{3}]=0.794\ mol/L$
 
 $$
-\mathrm{s} = \left[ A g ^ {+} \right] + \left[ A g (N H _ {3}) ^ {+} \right] + \left[ A g (N H _ {3}) _ {2} ^ {+} \right] = 0. 1 0 1 \mathrm{mol/L}, m = 1 4. 5 \mathrm{g} \left(（1 分）\right)
+\mathrm{s} = \left[ A g ^ {+} \right] + \left[ A g (N H _ {3}) ^ {+} \right] + \left[ A g (N H _ {3}) _ {2} ^ {+} \right] = 0. 1 0 1 \mathrm{mol/L}, m = 1 4. 5 \mathrm{g} （1 分）
 $$
 4-2若已完全溶解，则 $[Cl^-] = m / M = 5.233 \times 10^{-3} \mathrm{~mol} / \mathrm{L}$
 
@@ -265,7 +274,7 @@ $$
 
 $$
 [ N H _ {4} ^ {+} ] = 8. 7 0 \times 1 0 ^ {- 4} \mathrm{mol/L} （1 分）
-\mathrm{c} = \left[ N H _ {3} \right] + \left[ N H _ {4} ^ {+} \right] + \left[ A g (N H _ {3}) ^ {+} \right] + 2 \left[ A g (N H _ {3}) _ {2} ^ {+} \right] = 0. 0 5 2 9 \mathrm{mol/L} \left(（2 分）\right)
+\mathrm{c} = \left[ N H _ {3} \right] + \left[ N H _ {4} ^ {+} \right] + \left[ A g (N H _ {3}) ^ {+} \right] + 2 \left[ A g (N H _ {3}) _ {2} ^ {+} \right] = 0. 0 5 2 9 \mathrm{mol/L} （2 分）
 $$
 
 > **解析**（据源答案整理）：考查沉淀-配位多重平衡。4-1：设 1 L 氨水溶解 AgCl 达饱和，溶解量为 $s\ \mathrm{mol/L}$。由 $[\mathrm{Ag^+}][\mathrm{Cl^-}] = K_{sp}$ 及 $[\mathrm{Cl^-}] = [\mathrm{Ag^+}]\left(1 + \beta_1[\mathrm{NH_3}] + \beta_2[\mathrm{NH_3}]^2\right)$ 得 $[\mathrm{Ag^+}] = \sqrt{K_{sp}/\left(1 + \beta_1[\mathrm{NH_3}] + \beta_2[\mathrm{NH_3}]^2\right)}$；氨的物料守恒 $1.00 = [\mathrm{NH_3}] + [\mathrm{NH_4^+}] + [\mathrm{Ag(NH_3)^+}] + 2[\mathrm{Ag(NH_3)_2^+}]$；联立解得 $[\mathrm{NH_3}] \approx 0.794\ \mathrm{mol/L}$、$s \approx 0.101\ \mathrm{mol/L}$，故 $m = s\,M(\mathrm{AgCl}) \approx 0.101\times 143.4 \approx 14.5\ \mathrm{g}$。4-2：完全溶解 1.50 g AgCl 于 2.0 L ⇒ $c(\mathrm{Cl^-}) = 1.50/(143.4\times 2.0) \approx 5.23\times 10^{-3}\ \mathrm{mol/L}$，$[\mathrm{Ag^+}] = K_{sp}/[\mathrm{Cl^-}] \approx 3.40\times 10^{-8}\ \mathrm{mol/L}$；由溶解守恒解得 $[\mathrm{NH_3}] \approx 0.0416\ \mathrm{mol/L}$；再由电荷守恒得 $[\mathrm{NH_4^+}] \approx 8.70\times 10^{-4}\ \mathrm{mol/L}$，故氨水最低总浓度 $c = [\mathrm{NH_3}] + [\mathrm{NH_4^+}] + [\mathrm{Ag(NH_3)^+}] + 2[\mathrm{Ag(NH_3)_2^+}] \approx 0.0529\ \mathrm{mol/L}$。
@@ -386,7 +395,6 @@ $$
 
 #### 答案
 
-第1题（10分）
 6-1利用 Clausius-Clapeyron 方程求 407 K 时的  $p_{\mathrm{B}}^{*}(407 \mathrm{~K})$ $\ln \frac{p_{\mathrm{B}}^{*}(407 \mathrm{~K})}{101.325 \mathrm{kPa}} = \frac{44500}{8.314} \left( \frac{1}{429} - \frac{1}{407} \right)$
 
 解得  $p_{\mathrm{B}}^{*}(407 \mathrm{~K}) = 51.621 \mathrm{kPa}$ （1 分）
@@ -486,7 +494,7 @@ $$
 
 
 
-| $SO_{3}$ | $O_{2}$ | $SO_{3}$ |
+| $SO_{2}$ | $O_{2}$ | $SO_{3}$ |
 |:--:|:--:|:--:|
 | 1-2x | 1-x | 2x |
 
@@ -537,7 +545,6 @@ pH=4.22（1分）
 
 #### 答案
 
-第3题（8分）
 8-1$n(\mathrm{NaAc}) = 1.52 \times 10^{-3} (\mathrm{mol})$，故溶液中 $c(\mathrm{NaAc}) = 0.0762 (\mathrm{mol/L})$ 故有 $\mathrm{pH} = \mathrm{pK}_{\mathrm{a}} + \lg (c(\mathrm{NaAc}) / c(\mathrm{HAc})) = 6.76$（2分）
 8-2不能（1分，无论是否写出过程，回答出不能即可得分）
 若要完全溶解，则溶液中  $c(\mathrm{Pb}) = [\mathrm{SO}_{4}^{2-}]$ ，且  $[\mathrm{Pb}^{2+}] [\mathrm{SO}_{4}^{2-}] = K_{\mathrm{sp}}$ ，（1分）
@@ -562,7 +569,7 @@ pH=4.22（1分）
 
 9-1 写出上述可逆反应的方程式.
 
-已知该反应的 $K_{p}^{0}$ 在 298 K 下为 $1.45 \times 10^{-25}$ ，在 1580 K 下为 $2.66 \times 10^{4}$ ，假设所有气体均为理想气体，忽略反应焓变和熵变关于温度的变化。
+已知该反应的 $K_{p}^{\ominus}$ 在 298 K 下为 $1.45 \times 10^{-25}$ ，在 1580 K 下为 $2.66 \times 10^{4}$ ，假设所有气体均为理想气体，忽略反应焓变和熵变关于温度的变化。
 
 9-2 计算 1100 K 时,该反应的 $\Delta_{r}H_{m}^{\ominus}, \Delta_{r}S_{m}^{\ominus}, \Delta_{r}G_{m}^{\ominus}, K_{p}^{\ominus}$ .
 
@@ -604,7 +611,7 @@ $$
 由于 $(\frac{\partial \ln K_x}{\partial p})_T = -\frac{\sum v_B(g)}{p} < 0$
 
 即以摩尔分数表示的平衡常数 $K_{x}$ 随压力的增加而减小,因此不有利.
-2' 也可以用勒夏特列原理解释.
+（亦可由勒夏特列原理解释。）
 
 $$
 (\frac {\partial \ln K _ {p} ^{\ominus}}{\partial T}) _ {p} = \frac {\Delta_ {r} H _ {m} ^{\ominus}}{R T ^ {2}} > 0
@@ -612,7 +619,7 @@ $$
 
 $K_{p}^{\ominus}$ 随着温度的升高而增大,因而有利.
 
-2' 也可以用勒夏特列原理解释.
+（亦可由勒夏特列原理解释。）
 
 > **解析**（据源答案整理）：考查化学平衡与 van't Hoff 方程。9-1：$\mathrm{CH_4(g)} + \mathrm{H_2O(g)} \to \mathrm{CO(g)} + 3\mathrm{H_2(g)}$。9-2：由 van't Hoff 等压方程 $\ln\frac{K^\ominus(298)}{K^\ominus(1580)} = -\frac{\Delta_r H_m^\ominus}{R}\left(\frac{1}{298}-\frac{1}{1580}\right)$ 解得 $\Delta_r H_m^\ominus \approx 2.06\times 10^{5}\ \mathrm{J\cdot mol^{-1}}$；再由 $\ln K^\ominus(1100) = \ln K^\ominus(298) - \frac{\Delta_r H_m^\ominus}{R}\left(\frac{1}{1100}-\frac{1}{298}\right)$ 得 $K^\ominus \approx 28.4$，$\Delta_r G_m^\ominus = -RT\ln K^\ominus \approx -3.06\times 10^{4}\ \mathrm{J\cdot mol^{-1}}$，$\Delta_r S_m^\ominus = (\Delta_r H_m^\ominus - \Delta_r G_m^\ominus)/1100 \approx 215\ \mathrm{J\cdot K^{-1}\cdot mol^{-1}}$。9-3：设 $\mathrm{CH_4}$ 转化率为 $x$，平衡 $n(\mathrm{CH_4}) = n(\mathrm{H_2O}) = 1-x$、$n(\mathrm{CO}) = x$、$n(\mathrm{H_2}) = 3x$，$\sum n = 2+2x$，气相 $\Delta\nu = 2$；由 $K^\ominus = K_x (p/p^\ominus)^2$ 代入 $p = 1.60\ \mathrm{bar}$ 解得 $x \approx 0.749$。9-4：$\Delta\nu(\mathrm{g}) = 2 > 0$，加压使平衡向气体分子数减小（逆向）的方向移动，$(\partial\ln K_x/\partial p)_T = -\Delta\nu/p < 0$，故加压不利于提高转化率。9-5：$\Delta_r H_m^\ominus > 0$（吸热），$(\partial\ln K^\ominus/\partial T)_p = \Delta_r H_m^\ominus/(RT^2) > 0$ ⇒ $K^\ominus$ 随温度升高而增大，故升温对提高转化率有利。
 
@@ -640,7 +647,7 @@ $K_{p}^{\ominus}$ 随着温度的升高而增大,因而有利.
 
 |  | CO(g) | $CO_2$ (g) | $H_2O$ (g) | $H_2O$ (l) |
 |:--:|:--:|:--:|:--:|:--:|
-| $\Delta_fH^{\ominus} m(\mathrm{kJ\cdot mol^{-1}})$ | -110.52 | -393.51 | -241.82 | -285.83 |
+| $\Delta_{\mathrm{f}}H_{\mathrm{m}}^{\ominus}/(\mathrm{kJ}\cdot\mathrm{mol}^{-1})$ | -110.52 | -393.51 | -241.82 | -285.83 |
 
 
 
@@ -656,7 +663,7 @@ $$
 \Delta_ {r} H _ {m} ^{\ominus} = - 285.8 k J m o l ^ {- 1}
 $$
 
-$\Delta_{\mathrm{r}}\mathrm{U}_{\mathrm{m}}^{\ominus} = \Delta_{\mathrm{r}}\dot{\mathrm{H}}_{\mathrm{m}}^{\ominus} - \Delta \mathrm{nRT} = -282.08\mathrm{kJ}\cdot \mathrm{mol}^{-1}$
+$\Delta_{\mathrm{r}}\mathrm{U}_{\mathrm{m}}^{\ominus} = \Delta_{\mathrm{r}}\mathrm{H}_{\mathrm{m}}^{\ominus} - \Delta \mathrm{nRT} = -282.08\mathrm{kJ}\cdot \mathrm{mol}^{-1}$
 
 $$
 \Delta_ {\mathrm{r}} \mathrm{U} ^{\ominus} = 0.3 \times (- 282.08) = - 84.624 \mathrm{kJ} \cdot \mathrm{mol} ^ {- 1}
@@ -669,7 +676,7 @@ $$
 2.345g 正癸烷对应 0.01648mol
 
 $$
-\dot {\Delta} _ {r} U _ {m 2} ^ {0} = \frac {- 111.41}{0.01648} = - 6.759 \times 10 ^ {3} k J \cdot m o l ^ {- 1}
+\Delta_ {\mathrm{r}} U _ {\mathrm{m}} ^{\ominus} = \frac {- 111.41}{0.01648} = - 6.759 \times 10 ^ {3} k J \cdot m o l ^ {- 1}
 $$
 
 同样的方法不难得到 $\Delta_{r}H_{m}^{\ominus} = -6.773\times 10^{3}kJ\cdot mol^{-1}$
