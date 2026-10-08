@@ -15,7 +15,7 @@ knowledge_points:
   - "[[构象分析]]"
   - "[[立体化学]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 有机化学
@@ -54,7 +54,7 @@ $$
 
 ## 参考答案
 
-## 第10题（11分）
+第10题（11分）
 
 
 

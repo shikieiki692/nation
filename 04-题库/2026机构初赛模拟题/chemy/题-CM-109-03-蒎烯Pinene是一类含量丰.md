@@ -15,7 +15,7 @@ knowledge_points:
   - "[[环氧化合物开环]]"
   - "[[高分子化学]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 有机化学
@@ -56,7 +56,7 @@ pool_scope: 有机化学
 
 ## 参考答案
 
-## 第3题（6分）
+第3题（6分）
 
 ![](images/f4dfb2a39c8356d6ea8c911e68be841e33bc69808aaaecb13e29e565eb17f085.jpg)
 α-Pinene

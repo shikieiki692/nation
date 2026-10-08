@@ -15,7 +15,7 @@ knowledge_points:
   - "[[自由基]]"
   - "[[氢键]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 有机化学
@@ -47,7 +47,7 @@ pool_scope: 有机化学
 
 ## 参考答案
 
-## 第7题（7分）
+第7题（7分）
 
 ![](images/649a2c1b46b93f4268e7203bf543684f1ad280e3aea9fda04717aea0c19f7433.jpg)
 

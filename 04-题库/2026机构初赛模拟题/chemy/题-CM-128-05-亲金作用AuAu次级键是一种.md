@@ -14,7 +14,7 @@ knowledge_points:
   - "[[配合物几何构型]]"
   - "[[Lambert-Beer定律]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 元素与分析
@@ -48,7 +48,7 @@ source_file: "chemy试题/第36届化学奥林匹克Chemy模拟试题题目合�
 
 ## 参考答案
 
-## 第5题（9分）
+第5题（9分）
 
 5-2
 5-1

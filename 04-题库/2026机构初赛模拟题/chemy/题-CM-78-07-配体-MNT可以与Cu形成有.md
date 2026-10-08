@@ -15,7 +15,7 @@ knowledge_points:
   - "[[多核簇]]"
   - "[[氧化还原反应]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 结构化学
@@ -47,7 +47,7 @@ source_file: "chemy试题/第34届Chemy化学奥林匹克题目合集..md"
 
 ## 参考答案
 
-## 第7题（8分）
+第7题（8分）
 
 ![](images/c1271cc620ded00f8e606dd1e26361eeb871b39c36d8fc31078b523ab86cc918.jpg)
 i-MNT $^{2-}$

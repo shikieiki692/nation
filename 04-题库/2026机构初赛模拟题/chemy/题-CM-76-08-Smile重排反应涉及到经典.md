@@ -15,7 +15,7 @@ knowledge_points:
   - "[[反应机理]]"
   - "[[中间体]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 有机化学
@@ -61,7 +61,7 @@ $$
 
 ## 参考答案
 
-## 第8题（12分）
+第8题（12分）
 
 ![](images/57c2c6fe52006c104c0ebdd70d2afaebcc3e04ee44bda43f655ecbb3aa3354c7.jpg)
 

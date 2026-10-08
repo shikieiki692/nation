@@ -15,7 +15,7 @@ knowledge_points:
   - "[[Corey-Chaykovsky反应]]"
   - "[[偶联反应]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 有机化学
@@ -47,7 +47,7 @@ pool_scope: 有机化学
 
 ## 参考答案
 
-## 第6题（12分）
+第6题（12分）
 
 ![](images/1eeae58641754900f2e209ff63916d176d435b3e8a801dfac52e3e389918244e.jpg)
 

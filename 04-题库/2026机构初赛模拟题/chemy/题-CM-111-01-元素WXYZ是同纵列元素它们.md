@@ -14,7 +14,7 @@ knowledge_points:
   - "[[杂化轨道理论]]"
   - "[[分子对称性初步]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 元素与分析
@@ -47,7 +47,7 @@ source_file: "chemy试题/第35届中国化学奥林匹克Chemy题目合集..md"
 
 ## 参考答案
 
-## 第1题（8分）
+第1题（8分）
 
 ![](images/b1fa6383b6a28d559585d79c0ba9f619e6d450f46353a4771b899a5c2041b3e0.jpg)
 

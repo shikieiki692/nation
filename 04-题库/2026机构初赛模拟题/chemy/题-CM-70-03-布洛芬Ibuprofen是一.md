@@ -15,7 +15,7 @@ knowledge_points:
   - "[[羧酸]]"
   - "[[醛酮]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 有机化学
@@ -45,7 +45,7 @@ pool_scope: 有机化学
 
 ## 参考答案
 
-## 第3题（7分）
+第3题（7分）
 
 ![](images/3e3420aad71a7ce31a18b9612bd504b69de6d0949b6f8bb45ad26e7b9d444f02.jpg)
 

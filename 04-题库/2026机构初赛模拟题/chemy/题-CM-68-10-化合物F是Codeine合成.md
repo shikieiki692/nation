@@ -14,7 +14,7 @@ knowledge_points:
   - "[[天然产物合成]]"
   - "[[反应机理]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 有机化学
@@ -44,7 +44,7 @@ pool_scope: 有机化学
 
 ## 参考答案
 
-## 第10题（9分）
+第10题（9分）
 
 ![](images/4385ea63f8bfaea3f8094abd15a6207a6df39bda4362667fec5f8cd51aff8916.jpg)
 

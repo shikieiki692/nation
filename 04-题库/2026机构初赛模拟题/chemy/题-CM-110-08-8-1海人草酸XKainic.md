@@ -15,7 +15,7 @@ knowledge_points:
   - "[[Hofmann消除]]"
   - "[[指示剂]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 有机化学
@@ -65,7 +65,7 @@ e) X 与过量乙酸酐反应，可以得到一个并环产物 D；而与 $Br_{2
 
 ## 参考答案
 
-## 第8题（14分）
+第8题（14分）
 
 ![](images/ccd1e6b101a9988872a8f5a2e7972e6290338a291145379890cff6491be6cbf6.jpg)
 

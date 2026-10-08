@@ -14,7 +14,7 @@ knowledge_points:
   - "[[化学式推断]]"
   - "[[元素分析]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 元素与分析
@@ -45,7 +45,7 @@ source_file: "chemy试题/第35届中国化学奥林匹克Chemy题目合集..md"
 
 ## 参考答案
 
-## 第3题（12分）
+第3题（12分）
 
 3-1-1 DmpBBr₂ 的物质的量为：4.84 g / 484.1 g·mol⁻¹ = 1.00×10⁻² mol
 LiNH₂ 的物质的量为：0.25 g / 23.0 g·mol⁻¹ = 1.09×10⁻² mol

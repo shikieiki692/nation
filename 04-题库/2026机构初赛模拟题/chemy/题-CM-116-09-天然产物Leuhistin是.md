@@ -14,7 +14,7 @@ knowledge_points:
   - "[[立体化学]]"
   - "[[反应机理]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 有机化学
@@ -52,7 +52,7 @@ $$
 
 ## 参考答案
 
-## 第9题（8分）
+第9题（8分）
 
 ![](images/286a052c309a48bfa00b933a19f99986d4584a1466661564c55c4aebe26dd01a.jpg)
 

@@ -15,7 +15,7 @@ knowledge_points:
   - "[[配合物异构]]"
   - "[[对映异构]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 有机化学
@@ -52,7 +52,7 @@ HH2 Phep RhpPh3 PPh3PPh3PhaPm.hphg BPPh3 FPhep png D PheP hphgR…M TPPh3 R"'图
 
 ## 参考答案
 
-## 第7题（11分）
+第7题（11分）
 
 ![](images/d00e5bf4dd840a6c33b6b53d44a36d1e559d55f17a52abcd6df966a27012abd7.jpg)
 

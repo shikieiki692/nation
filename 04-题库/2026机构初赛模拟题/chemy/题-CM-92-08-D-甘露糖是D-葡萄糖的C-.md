@@ -15,7 +15,7 @@ knowledge_points:
   - "[[有机合成]]"
   - "[[R-S构型]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 有机化学
@@ -47,7 +47,7 @@ $$
 
 ## 参考答案
 
-## 第8题（10分）
+第8题（10分）
 
 ![](images/b51e8d4bbda04ab8d8bc899743d6b1fda390dd0c37af1db024b0e756780cc33b.jpg)
 

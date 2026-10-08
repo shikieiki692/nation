@@ -14,7 +14,7 @@ knowledge_points:
   - "[[氢键]]"
   - "[[水解反应]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 有机化学
@@ -68,7 +68,7 @@ DNA 与 RNA 承载了生命遗传信息, 其关键是五种碱基腺嘌呤(A)、
 
 ## 参考答案
 
-## 第2题（15分）
+第2题（15分）
 
 <table><tr><td><img src="images/2d6c6af5b24417a4bbfa78e50788d79dccdb486bab542eae9e20858a67c9cd31.jpg"/></td><td><img src="images/c9acc9b6498ce0110c76b5721e414551a64033000b4542c3395c8c60066d8d0e.jpg"/></td><td><img src="images/6dc618791c313886fff567ed6482b991c1cb8464ad4884fe46ff622e067da4e3.jpg"/></td><td><img src="images/13af6e339d523ba5e1c373ac355dee9d8ab68c6db3373350bcde380b2a3a466a.jpg"/></td><td><img src="images/221ecc1fc71e6771f68c2e4304c5b54a43d7fa3580721de6b52602ca4abd5f08.jpg"/></td></tr><tr><td>A</td><td>G</td><td>C</td><td>T</td><td>U</td></tr></table>
 

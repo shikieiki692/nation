@@ -15,7 +15,7 @@ knowledge_points:
   - "[[立体选择性]]"
   - "[[反应机理]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 有机化学
@@ -66,7 +66,7 @@ a) 对映异构体 b) 非对映异构体 c) 差向异构体 d) 构象异构体
 
 ## 参考答案
 
-## 第8题（10分）
+第8题（10分）
 
 ![](images/2cf87000b9fba0b0512696b389e3d4132580e7e868a51090862af6636899357a.jpg)
 

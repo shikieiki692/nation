@@ -14,7 +14,7 @@ knowledge_points:
   - "[[晶体密度公式]]"
   - "[[化学式推断]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-08
 status: 已填充
 exam_stage: 初赛
 subject_module: 结构化学
@@ -52,7 +52,7 @@ source_file: "chemy试题/第34届Chemy化学奥林匹克题目合集..md"
 
 ## 参考答案
 
-## 第5题（10分）
+第5题（10分）
 
 ![](images/c7581635e7adcae1a436afa542d0e08f343152cf3af6a166e7054185e977e2dd.jpg)
 
