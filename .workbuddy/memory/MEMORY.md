@@ -16,7 +16,7 @@
 - 🔴 **卷 md 后处理链顺序**＝`build_org → volpost --ans → theme_<卷>_md.py → build_volX_zhenti → qa`。只跑 build_org 会丢 `--ans` 与 theme。
 - 🔴 **回源定页勿用页序启发式**（`pdf_text_check` 被页眉带偏）⇒ 特征串全文检索（`find_page.py`）＋双向比对（`diff_card_pdf.py`，各列「对方没有的 ≥8 字汉字串」）。
 - 🔴🔴 **丢图判据**：`build_org.noise_of()` 按「近黑占比 < 0.005」判 watermark ⇒ **浅色晶体投影图**（dark≈0）被 `drop_noise_imgs()` 删 ⇒ 登记 `noise_keep.json`（**白名单优先于规则**）。凡「卡内 `![[…]]` 在卷 md 缺失」先查 `noise_of()`。
-- 🆕 **化学式排版**（`volpost --fmt`，全 ALWAYS）：`fspace`（`CrF $_{6}$`→去空格）／`fbase`（**docx 空基底**：`CrF$_{6}$`⇒`<m:sSub><m:e></m:e>` 占位空隙，正解 `$\mathrm{CrF}_{6}$`）／`fbase2`（数字·右括号基底）／`fempty`（块内空组 `X{}^{+}`）。**判据＝`build_volX_zhenti.py` 字段 `空基=` 为 0**。✅ 10-09 全库落地：源卡 771 卡/5181 处＋卷 md 15 文件＋7 卷重出。
+- 🆕 **化学式排版**（`volpost --fmt`，全 ALWAYS）：`fspace`（`CrF $_{6}$`→去空格）／`fbase`（**单／双上下标**均支持；**docx 空基底**：`CrF$_{6}$`⇒`<m:sSub><m:e></m:e>` 占位空隙，正解 `$\mathrm{CrF}_{6}$`；`X$_{a}^{b}$` 不并则被讲义管线**折叠 Unicode** ⇒ oMath 倒退/白名单）／`fbase2`（数字·右括号基底）／`fempty`（块内空组 `X{}^{+}`）。**判据＝`build_volX_zhenti.py` 字段 `空基=` 为 0**。✅ 10-09 全库落地：源卡 771+27 卡／卷 md 15 文件（交付件无需重出）。
 - 🆕 **判定「卡可用性」必走真实池** `build_org.build_pool()`——FM 里 `quality_warning`/`pool_scope` 文字标注**会陈旧**。
 - 🆕 **S1「题面图落在答案区」**：题面「下图/如右图」但**图引用在答案区** ⇒ 学生版无图不可做。根因＝机构答案稿（评分细则）复述题干带走配图，与伽马卡 `GM-25-*`「按答案起点截断过头」同源。报告＝`09-审计报告/2026-10-09-机构域题面图位置缺陷筛查报告.md`＋清单 csv。⚠️ **S1 只作候选筛选，定性与修复前必须逐张 Read 目检**（`HYS-01-01` 假阳性）。
 - **收口基线（10-09 fmt 后）**：全量 4032 卡 → 入池 **1895**（元素与分析 317／结构化学 733／化学原理 845）／A 类不可用 124；**弃卡一律标 `pool_scope`**。卷 X／XIp／XI／XII／XIII／XIV（晶体·10题·钙钛矿6）／XV（晶体·10题·钙钛矿7）已交付（三件套＝学生版／答案与解析版／答题卡，在 `00-首页/题组Word/初赛模拟卷/真题版式/`）；卷 I~IX 归档勿动；计划锁 `vol_plan_{…}.json` 有效。
