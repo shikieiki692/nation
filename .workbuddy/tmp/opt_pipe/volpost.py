@@ -366,15 +366,18 @@ def split_inner_qno(t):
         lines = inner.split("\n")
         if not any(QN_IN_BLOCK.match(l) for l in lines):
             return m.group(0)
+        # ★ 2026-10-09 修：块内**首/尾空行**会让 `cur` 非空 ⇒ 首个内容行被误判为「第二组」
+        #   ⇒ 生成空 `$$\n\n$$` 块 + 内容块（卷 XIV 第3题实测）。判据改为「cur 里有非空行」。
         groups, cur = [], []
         for l in lines:
-            if QN_IN_BLOCK.match(l) and cur:
+            if QN_IN_BLOCK.match(l) and any(x.strip() for x in cur):
                 groups.append(cur)
                 cur = [l]
             else:
                 cur.append(l)
-        if cur:
+        if any(x.strip() for x in cur):
             groups.append(cur)
+        groups = [g for g in groups if any(x.strip() for x in g)]
         if len(groups) <= 1:
             return m.group(0)
         n += len(groups) - 1
@@ -403,6 +406,55 @@ def md_fix(t):
 
 # ─────────────────────────── ans 步骤 ───────────────────────────
 CLEAN = re.compile(r"\$[^$\n]*\$|\\[a-zA-Z]+|\s+|[\[\]{}()（）,，。.、；;:：'\"`*_^~|<>/\\-]")
+
+# ★ 回显题面行：机构「参考答案稿」把题干逐问抄进答案区，交付件里表现为标签重复。
+_ECHO_LAB = re.compile(r"^[ \t]*(?:\*\*)?(\d{1,2}(?:-\d{1,2}){1,3})(?:\*\*)?[ \t]*(?=$|[^\d])")
+_BARE_LAB = re.compile(r"[ \t]*\*\*\d{1,2}(?:-\d{1,2}){1,3}\*\*[ \t]*")
+
+
+def strip_echo_labels(seg):
+    """删「回显行」：① 以标签 L 开头、且下一非空行也以 L 开头；② 裸标签紧跟另一标签行。
+    返回 (新文本, 删除数, 被删行清单)。"""
+    lines = seg.split("\n")
+    out, dropped = [], []
+    for i, l in enumerate(lines):
+        m = _ECHO_LAB.match(l)
+        if m:
+            nxt = next((x for x in lines[i + 1:] if x.strip()), "")
+            m2 = _ECHO_LAB.match(nxt)
+            if (m2 and m2.group(1) == m.group(1)) or (bool(m2) and _BARE_LAB.fullmatch(l)):
+                dropped.append(l)
+                continue
+        out.append(l)
+    return "\n".join(out), len(dropped), dropped
+
+
+_ANS_HEAD = re.compile(r"(?m)^#### 答案[^\n]*\n")
+_ANS_END = re.compile(r"(?m)^(?:### |## |---[ \t]*$)")
+
+
+def strip_echo_sections(t):
+    """★ 在**全文**范围内对每个 `#### 答案` 段做回显清理。
+
+    必要性：ans_step 的逐题循环只认「答案段内**行首为裸标签**」的行；而**加粗标签**
+    （`**4-2** 指出…`）不以数字开头 ⇒ 该题整段被跳过、回显行留存（卷 XIV 第4题实测）。
+    这里与逐题循环解耦：按 `#### 答案` 段切分后统一清理，规则与 `strip_echo_labels` 同源。
+    返回 (新文本, 删除数, 被删行清单) —— 清单供人工逐条复核。
+    """
+    out, prev, dropped = [], 0, []
+    for m in _ANS_HEAD.finditer(t):
+        s = m.end()
+        e = _ANS_END.search(t, s)
+        e = e.start() if e else len(t)
+        if e <= s:
+            continue
+        seg, n, dl = strip_echo_labels(t[s:e])
+        dropped += dl
+        out.append(t[prev:s])
+        out.append(seg)
+        prev = e
+    out.append(t[prev:])
+    return "".join(out), len(dropped), dropped
 
 
 def norm(s):
@@ -448,13 +500,14 @@ def ans_step(vol, apply_):
                 #   `2-2计算…` 这类粘连标签；2026-10-08 卷 XV 实测）
                 rep = new_num + ((" " + tail) if tail.strip() else "")
             new_ap = new_ap[:m.start()] + rep + new_ap[m.end():]
+        stats += n_rep
         if new_ap != apart:
-            stats += n_rep
             rep_cnt += 1
             body = body[:am.start(1)] + new_ap + body[am.end(1):]
         out.append(txt[prev_end:s]); out.append(body); prev_end = e
     out.append(txt[prev_end:])
     txt2 = "".join(out)
+    txt2, k_echo, echolines = strip_echo_sections(txt2)   # ★ 全文按答案段清回显行（含加粗标签题）
     txt2, k_md = md_fix(txt2)          # ★ 卷 md 层修复：拆行尾 `$$`、清块内多余 `$`
     if txt2 == txt:
         print("(无变化)")
@@ -463,8 +516,10 @@ def ans_step(vol, apply_):
         os.makedirs(bak, exist_ok=True)
         shutil.copy2(md, os.path.join(bak, os.path.basename(md)))
         write(md, txt2)
-    print("%s ans：%d 题变动；重述转标签 %d 处；卷 md 修复 %d 处；文件 %d→%d 字"
-          % ("(dry)" if not apply_ else "已写盘", rep_cnt, stats, k_md, len(txt), len(txt2)))
+    print("%s ans：%d 题变动；重述转标签 %d 处；删回显行 %d 处；卷 md 修复 %d 处；文件 %d→%d 字"
+          % ("(dry)" if not apply_ else "已写盘", rep_cnt, stats, k_echo, k_md, len(txt), len(txt2)))
+    for l in echolines:
+        print("   [删回显] %r" % l.strip()[:78])
 
 
 # ─────────────────────────── titles 步骤 ───────────────────────────
