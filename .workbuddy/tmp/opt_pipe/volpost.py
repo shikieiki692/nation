@@ -69,16 +69,23 @@ def _next_visible(s):
 
 
 def _fbase(m):
-    r"""字母基底 + 空基底上下标 ⇒ 并入数学式 `$\mathrm{X}_{n}$`。
+    r"""字母基底 + 空基底上下标 ⇒ 并入数学式 `$\mathrm{X}_{n}$`（支持**双上下标** `$\mathrm{X}_{n}^{m}$`）。
 
     ⚠️ 守卫：若上下标内容是**短小写字母**（t/i/n/…烷基前缀）且数学式后紧跟拉丁字母
        ⇒ 那是「前置上标」（`KO $^{t}$Bu` 的 t 属于 Bu），**不并**。
        注意判定要**穿透**后续的 `$\\mathrm{…}$`（实测 `I $^{i}$ $\\mathrm{Pr}_{2}$`）。
+    🆕 2026-10-09 扩面：原规则只认**单个**上下标（`X$_{6}$`），
+       `X$_{6}^{-}$`（双上下标，化学离子极常见：BF₄⁻／SbCl₆⁻／TEMPO⁺BF₄⁻）
+       落进空档 ⇒ 去空格后被**讲义管线折叠成 Unicode**（oMath 计数下降 ⇒ render_gate 误报）。
+       正解＝把 `(?:([_^])\{([^{}]*)\})?` 并进来，同时匹配单/双形态。
     """
-    if _ALKYL_PREFIX.match(m.group(3).strip()) and \
+    p1, p2 = m.group(3), m.group(5)
+    if (_ALKYL_PREFIX.match(p1.strip()) or (p2 and _ALKYL_PREFIX.match(p2.strip()))) and \
             re.match(r"[ \t]*[A-Za-z]", _next_visible(m.string[m.end():])):
         return m.group(0)
-    return "$\\mathrm{%s}%s{%s}$" % (m.group(1), m.group(2), m.group(3))
+    if p2 is None:
+        return "$\\mathrm{%s}%s{%s}$" % (m.group(1), m.group(2), p1)
+    return "$\\mathrm{%s}%s{%s}%s{%s}$" % (m.group(1), m.group(2), p1, m.group(4), p2)
 
 
 _NUMONLY = re.compile(r"[0-9+\-\u2212\u00b7\s]*")
@@ -135,7 +142,8 @@ RULES = [
     #   正解：`$\mathrm{ABX}_{3}$` ⇒ 基底入 m:e，渲染紧贴。
     #   ⚠️ 守卫：**烷基前置上标**（`KO $^{t}$Bu`、`I $^{i}$Pr`）里那个 `t/i` 属于**后面的**字母，
     #   不能并进前面的 `KO/I`。判据＝上下标内容为短小写字母**且**数学式后面紧跟拉丁字母 ⇒ 跳过。
-    ("fbase", re.compile(r"([A-Za-z][A-Za-z0-9]*)[ \t]*\$([_^])\{([^{}]*)\}\$"), _fbase),
+    #   🆕 2026-10-09 扩面：第二组上下标可选 ⇒ 同时覆盖 `X$_{6}$` 与 `X$_{6}^{-}$`（双上下标）。
+    ("fbase", re.compile(r"([A-Za-z][A-Za-z0-9]*)[ \t]*\$([_^])\{([^{}]*)\}(?:([_^])\{([^{}]*)\})?\$"), _fbase),
     # ★★ 数字/右括号基底（`10$^{4}$`、`)$_{4}$`）⇒ 并入数学式，但**不加 `\mathrm`**
     #   （数字与括号在数学模式下本就正体）。守卫：上下标内容含拉丁字母即跳过
     #   —— 否则 `2$^{t}$Bu`（前置上标）会被误并。（2026-10-09 实测：`K=8.03×10$^{4}$` 有可见空隙）
