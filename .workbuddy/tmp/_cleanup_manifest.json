@@ -1,0 +1,36 @@
+{
+ "stray_files": [],
+ "tmpdir": [],
+ "mine_dirs": [
+  {
+   "path": ".workbuddy/tmp/opt_pipe/render_out/xiv_ans_old",
+   "files": 23,
+   "bytes": 8023440
+  },
+  {
+   "path": ".workbuddy/tmp/opt_pipe/render_out/xiv_ans_new",
+   "files": 23,
+   "bytes": 7746057
+  },
+  {
+   "path": ".workbuddy/tmp/opt_pipe/render_out/xip19",
+   "files": 2,
+   "bytes": 3295094
+  },
+  {
+   "path": ".workbuddy/tmp/opt_pipe/render_out/xip24",
+   "files": 2,
+   "bytes": 3197232
+  },
+  {
+   "path": ".workbuddy/tmp/opt_pipe/render_out/xi14",
+   "files": 2,
+   "bytes": 1565564
+  },
+  {
+   "path": ".workbuddy/tmp/opt_pipe/render_out/xia31",
+   "files": 2,
+   "bytes": 4422016
+  }
+ ]
+}
