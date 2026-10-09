@@ -125,7 +125,7 @@ $$
 d \left(\mathrm{Cu} _ {2} - \mathrm{C} _ {1}\right) = 262.53 \mathrm{pm(3分)}
 $$
 
-将 $200 \mathrm{mg} \mathrm{CuCN}$ 于室温溶解于 $10 \mathrm{~mL}$ 的 DMSO 并静置一周后得到了一种与 $\mathrm{CuCN} \cdot \mathrm{DMSO}$ 和 $2 \mathrm{CuCN} \cdot \mathrm{DMSO}$ 不同的无色晶体, 经鉴定, 其化学式为 $[\mathrm{Cu(DMSO)}_{6}][\mathrm{Cu}_{6}(\mathrm{CN})_{8}]$ , 其部分晶胞参数为: $a = b = 1249.060 \mathrm{pm}, c = 2221.580 \mathrm{pm}, \alpha = \beta = 90.0000^{\circ}, \gamma = 120.0000^{\circ}$ . 品体的宏观对称元素只有三次对称轴、二次对称轴和恒等操作三种。
+将 $200 \mathrm{mg} \mathrm{CuCN}$ 于室温溶解于 $10 \mathrm{~mL}$ 的 DMSO 并静置一周后得到了一种与 $\mathrm{CuCN} \cdot \mathrm{DMSO}$ 和 $2 \mathrm{CuCN} \cdot \mathrm{DMSO}$ 不同的无色晶体, 经鉴定, 其化学式为 $[\mathrm{Cu(DMSO)}_{6}][\mathrm{Cu}_{6}(\mathrm{CN})_{8}]$ , 其部分晶胞参数为: $a = b = 1249.060 \mathrm{pm}, c = 2221.580 \mathrm{pm}, \alpha = \beta = 90.0000^{\circ}, \gamma = 120.0000^{\circ}$ . 结晶的宏观对称元素只有三次对称轴、二次对称轴和恒等操作三种。
 
 ## 6-3-1 给出 $\left[\mathrm{Cu}(\mathrm{DMSO})_{6}\right]\left[\mathrm{Cu}_{6}(\mathrm{CN})_{8}\right]$ 中 $\mathrm{Cu(II)}$ 的配位多面体。
 
