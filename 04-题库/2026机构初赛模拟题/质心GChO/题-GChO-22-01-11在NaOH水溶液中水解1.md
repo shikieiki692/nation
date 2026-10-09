@@ -57,7 +57,7 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO22试题（线�
 
 $FeSO_{4}$ $H_{2}PtCl_{6}$ t $Na_{2}CO_{3}$
 
-1-1. $2NF_{4}^{+}$ AsF6 $^{-}$ + 20OH $^{-}$
+1-1. $2NF_{4}^{+}$ $\mathrm{AsF6}^{-}$ + 20$\mathrm{OH}^{-}$
 
 $= 2.AsO_{4}^{3-} + 14F^{-} + O_{2} + 2NF_{3}$
 
@@ -88,9 +88,9 @@ $$
 \begin{array}{r l} {1 - 5} & {\mathrm {H_ {2} PtCl_ {6} + 7Na_ {2} CO_ {3} + 4FeSO_ {4} + 5H_ {2} O}} \\ {2 ^ {\prime}} & {= \cdot \mathrm{Pt.} + 7 \mathrm {C O _ {2}} + 6 \mathrm{NaCl} + 4 \mathrm {FeCOH_ {3}}} \\ & {+ 4 \mathrm {Na_ {2} SO_ {4}}.} \end{array}
 $$
 
-写离子天法展示 Na $_{2}$ CO $_{3}$ 的作用
-——H $^{+}$ 没与反应，不然
-NaHCO $_{3}$ 600.5 $^{-1}$ H $^{+}$ : P6Cl $_{6}$ $^{2-}$
+写离子天法展示 $\mathrm{Na}_{2}$ $\mathrm{CO}_{3}$ 的作用
+——$\mathrm{H}^{+}$ 没与反应，不然
+$\mathrm{NaHCO}_{3}$ 600.$5^{-1}$ $\mathrm{H}^{+}$ : $\mathrm{P6Cl}_{6}$ $^{2-}$
 
 ## 知识点映射
 

@@ -50,7 +50,7 @@ DNA 是一种由核苷酸组成的长链聚合物，由两条核苷酸链通过�
 
 6-4 DNA 解链温度/融解温度 $T_{m}$ 是评估 DNA 稳定性的重要参数，其定义为当 50% DNA 解开为单链的温度，为了较准确的根据序列计算 DNA 的 $T_{m}$ ，Donald Hicks 提出了一个最近邻模型来描述 DNA 形成双链的热力学参数如下
 
-<table><tr><td>最近邻碱基对 (5'→3')</td><td> $\Delta H^{\ominus}$ (kJ mol $^{-1}$ )</td><td> $\Delta S^{\ominus}$ (J K $^{-1}$  mol $^{-1}$ )</td></tr><tr><td>AA/TT</td><td>-31.80</td><td>-89.12</td></tr><tr><td>AT/TA</td><td>-30.12</td><td>-85.35</td></tr><tr><td>TA/AT</td><td>-30.12</td><td>-89.12</td></tr><tr><td>CA/GT</td><td>-35.56</td><td>-94.97</td></tr><tr><td>GT/CA</td><td>-35.15</td><td>-93.72</td></tr><tr><td>CT/GA</td><td>-32.64</td><td>-87.86</td></tr><tr><td>GA/CT</td><td>-34.31</td><td>-92.89</td></tr><tr><td>CG/GC</td><td>-44.35</td><td>-113.80</td></tr><tr><td>GC/CG</td><td>-41.00</td><td>-102.09</td></tr><tr><td>GG/CC</td><td>-33.47</td><td>-83.26</td></tr><tr><td>Initiation correction</td><td>+0.84</td><td>-23.85</td></tr><tr><td>Terminal A/T correction</td><td>+9.20</td><td>+28.87</td></tr><tr><td>Symmetry correction</td><td>0.00</td><td>-5.86</td></tr></table>
+<table><tr><td>最近邻碱基对 (5'→3')</td><td> $\Delta H^{\ominus}$ (kJ $\mathrm{mol}^{-1}$ )</td><td> $\Delta S^{\ominus}$ (J $\mathrm{K}^{-1}$  $\mathrm{mol}^{-1}$ )</td></tr><tr><td>AA/TT</td><td>-31.80</td><td>-89.12</td></tr><tr><td>AT/TA</td><td>-30.12</td><td>-85.35</td></tr><tr><td>TA/AT</td><td>-30.12</td><td>-89.12</td></tr><tr><td>CA/GT</td><td>-35.56</td><td>-94.97</td></tr><tr><td>GT/CA</td><td>-35.15</td><td>-93.72</td></tr><tr><td>CT/GA</td><td>-32.64</td><td>-87.86</td></tr><tr><td>GA/CT</td><td>-34.31</td><td>-92.89</td></tr><tr><td>CG/GC</td><td>-44.35</td><td>-113.80</td></tr><tr><td>GC/CG</td><td>-41.00</td><td>-102.09</td></tr><tr><td>GG/CC</td><td>-33.47</td><td>-83.26</td></tr><tr><td>Initiation correction</td><td>+0.84</td><td>-23.85</td></tr><tr><td>Terminal A/T correction</td><td>+9.20</td><td>+28.87</td></tr><tr><td>Symmetry correction</td><td>0.00</td><td>-5.86</td></tr></table>
 
 其中 Initiation correction 用于校正起始端，Terminal correction 用于校正链末端为 A/T 配对的情况，Symmetry correction 用于校正单链 DNA 解折叠，对于如下两条配对的 DNA 链，假定两条链的总浓度为 2.00 μM，计算 $T_{m}$
 
@@ -73,7 +73,7 @@ $I+B \rightarrow P$ (对应 $k_{2}$ )
 
 6-7-2 根据上表数据是否可以计算 $k_{1}$ 、 $k_{-1}$ 、 $k_{2}$ ？如不能，计算其中可以计算的。
 
-6-8 实际上 A 和 B 是癌症的肿瘤标志物，而 G 就是被设计用来检测 A 和 B 的，假定此时存在一个单碱基突变的单链 DNA 为 A'，37 度下 A 与 G 的结合自由能变分别为 -40.0 kJ mol $^{-1}$ ，A' 与 G 的结合自由能变分别为 -28.0 kJ mol $^{-1}$ ，假定现在有一个被污染的样品，存在 1.0 nM G、50.0 nM A 和 500 nM A'，计算平衡后 G-A' 占 G-A 和 G-A' 总的浓度的百分比。
+6-8 实际上 A 和 B 是癌症的肿瘤标志物，而 G 就是被设计用来检测 A 和 B 的，假定此时存在一个单碱基突变的单链 DNA 为 A'，37 度下 A 与 G 的结合自由能变分别为 -40.0 kJ $\mathrm{mol}^{-1}$ ，A' 与 G 的结合自由能变分别为 -28.0 kJ $\mathrm{mol}^{-1}$ ，假定现在有一个被污染的样品，存在 1.0 nM G、50.0 nM A 和 500 nM A'，计算平衡后 G-A' 占 G-A 和 G-A' 总的浓度的百分比。
 
 ## 参考答案
 

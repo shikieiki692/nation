@@ -156,7 +156,7 @@ $$
 
 
 
-${\mathrm{C}}_{2}{\mathrm{\;B}}_{10}{\mathrm{H}}_{12} + {\mathrm{{EtO}}}^{ - } + 2\mathrm{{EtOH}} = {\mathrm{C}}_{2}{\mathrm{\;B}}_{9}{\mathrm{H}}_{12}{}^{ - } + \mathrm{B}{\left( \mathrm{{OEt}}\right) }_{3} + {\mathrm{H}}_{2}$ (2分,写成四乙氧基合硼酸根亦得分)
+${\mathrm{C}}_{2}{\mathrm{\;B}}_{10}{\mathrm{H}}_{12} + {\mathrm{{EtO}}}^{ - } + 2\mathrm{{EtOH}} = {\mathrm{C}}_{2}{\mathrm{\;B}}_{9}{\mathrm{H}}_{12}^{ - } + \mathrm{B}{\left( \mathrm{{OEt}}\right) }_{3} + {\mathrm{H}}_{2}$ (2分,写成四乙氧基合硼酸根亦得分)
 
 
 

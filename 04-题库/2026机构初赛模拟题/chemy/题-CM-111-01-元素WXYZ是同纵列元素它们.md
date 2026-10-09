@@ -51,7 +51,7 @@ source_file: "chemy试题/第35届中国化学奥林匹克Chemy题目合集..md"
 
 ![](images/b1fa6383b6a28d559585d79c0ba9f619e6d450f46353a4771b899a5c2041b3e0.jpg)
 
-W sp $^{3}$ (0.5 分) X sp $^{3}$ (0.5 分)
+W $\mathrm{sp}^{3}$ (0.5 分) X $\mathrm{sp}^{3}$ (0.5 分)
 
 1-2 2 种（0.5 分）分别是 12 个和 72 个（0.5 分）
 

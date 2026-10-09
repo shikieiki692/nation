@@ -146,7 +146,7 @@ $\therefore t = 2.01 \times 10^9\ \mathrm{y}$
 
 $\dfrac{^{206}\mathrm{Pb}}{^{238}\mathrm{U}} = e^{0.6931 t / t_{1/2}} - 1 = e^{0.6931 \times 2.01/4.47} - 1 = 0.366$
 
-**3-3** $\mathrm{^{232}_{90}Th \xrightarrow{(n,\gamma)} {}^{233}_{90}Th \xrightarrow{\beta^-} {}^{233}_{91}Pa \xrightarrow{\beta^-} {}^{233}_{92}U}$
+**3-3** $\mathrm{^{232}_{90}Th \xrightarrow{(n,\gamma)}^{233}_{90}Th \xrightarrow{\beta^-}^{233}_{91}Pa \xrightarrow{\beta^-}^{233}_{92}U}$
 
 即 ²³²Th 俘获热中子成 ²³³Th，再经两次连续 β⁻ 衰变（²³³Th→²³³Pa→²³³U）得到 ²³³U。
 

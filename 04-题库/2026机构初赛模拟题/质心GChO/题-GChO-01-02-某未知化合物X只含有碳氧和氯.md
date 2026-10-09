@@ -51,7 +51,7 @@ $$
 M = \frac {m}{n} = \frac {1.05 \mathrm{g} \cdot \mathrm{mol} ^ {- 1}}{0.0106 \mathrm{mol}} = 99.1 \mathrm{g} \cdot \mathrm{mol} ^ {- 1}
 $$
 
-Q2 分子式: COCl $_{2}$
+Q2 分子式: $\mathrm{COCl}_{2}$
 
 Lewis 结构:
 

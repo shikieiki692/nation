@@ -67,7 +67,7 @@ $$
 
 4-2 写出 C 转化为 A，A 转化为 D，A 转化为 E 三个反应的方程式。
 
-1-1 A $V_{2}O_{5}$ B NaVO $_{3}$ C NH $_{4}$ VO $_{3}$ D VOSO $_{4}$ ·5H $_{2}$ O E VCl $_{3}$ ·6H $_{2}$ O
+1-1 A $V_{2}O_{5}$ B $\mathrm{NaVO}_{3}$ C $\mathrm{NH}_{4}$ $\mathrm{VO}_{3}$ D $\mathrm{VOSO}_{4}$ ·5$\mathrm{H}_{2}$ O E $\mathrm{VCl}_{3}$ ·6$\mathrm{H}_{2}$ O
 
 ## 第2页/共8页
 

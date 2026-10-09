@@ -99,9 +99,9 @@ $\mathrm{^{235}U + n \rightarrow U^* \rightarrow}$ 裂变产物 $+ 2 \sim 3n + 2
 
 α 衰变使 Z 减少 2×（α 数）。但最终稳定元素 Z 高于纯 α 衰变的预期 Z，Z 的差异由 β 粒子数补足。因此：
 
-$\mathrm{^{238}U \rightarrow {}^{206}Pb}$：α = ΔA/4 = (238−206)/4 = 32/4 = **8**，β = 2α − ΔZ = 16 − (92−82) = **6**
+$\mathrm{^{238}U \rightarrow^{206}Pb}$：α = ΔA/4 = (238−206)/4 = 32/4 = **8**，β = 2α − ΔZ = 16 − (92−82) = **6**
 
-$\mathrm{^{235}U \rightarrow {}^{207}Pb}$：α = ΔA/4 = (235−207)/4 = 28/4 = **7**，β = 2α − ΔZ = 14 − (92−82) = **4**
+$\mathrm{^{235}U \rightarrow^{207}Pb}$：α = ΔA/4 = (235−207)/4 = 28/4 = **7**，β = 2α − ΔZ = 14 − (92−82) = **4**
 
 **3-2** 当一次 α 衰变（ΔZ = −2）之后跟着两个连续的 β 衰变（ΔZ = +2）时，原子序数回到原值，此时该元素的另一种同位素再次出现（同元素不同质量数出现不止一次）。
 
@@ -277,7 +277,7 @@ $\mathrm{Fe^{3+}}$：它与 $\mathrm{Na_2CO_3}$ 也因水解生成红棕色 $\ma
 | --- | --- | --- | --- | --- | --- | --- |
 | 核素的摩尔分数，% | 0.87 | 9.02 | 7.58 | 23.52 | 49.82 | 9.19 |
 
-富集 $^{82}\mathrm{X}$ 的核素的制剂，以中子流照射得到核素 $^{83}\mathrm{X}$，将其单质溶于稀 $\mathrm{HNO}_{3}$ 中，向所得溶液中加入过量的 RbOH，之后，将 $\mathrm{O}_{3}$ 通入溶液，得到 B 溶液。由于得到的 B 中含核素 $^{83}\mathrm{X}$ 的 β-蜕变（$t_{1/2}=22.5\ min$），形成了 A 离子（$^{83}X \rightarrow{}^{n}Y$）；A 中所含核素 ${}^{n}Y$ 继续发生 β-蜕变（$t_{1/2}=2.39\ h$），同时从溶液中释放出的气体中一种是惰性的（C）。
+富集 $^{82}\mathrm{X}$ 的核素的制剂，以中子流照射得到核素 $^{83}\mathrm{X}$，将其单质溶于稀 $\mathrm{HNO}_{3}$ 中，向所得溶液中加入过量的 RbOH，之后，将 $\mathrm{O}_{3}$ 通入溶液，得到 B 溶液。由于得到的 B 中含核素 $^{83}\mathrm{X}$ 的 β-蜕变（$t_{1/2}=22.5\ min$），形成了 A 离子（$^{83}X \rightarrow^{n}Y$）；A 中所含核素 ${}^{n}Y$ 继续发生 β-蜕变（$t_{1/2}=2.39\ h$），同时从溶液中释放出的气体中一种是惰性的（C）。
 
 7-1 写出制备 $^{83}\mathrm{X}$ 和 ${}^{n}\mathrm{Y}$ 的核反应方程式。
 
@@ -291,7 +291,7 @@ $\mathrm{Fe^{3+}}$：它与 $\mathrm{Na_2CO_3}$ 也因水解生成红棕色 $\ma
 
 #### 答案
 
-7-1 $^{82}_{34}\mathrm{Se} + {}^{1}_{0}\mathrm{n} \longrightarrow {}^{83}_{34}\mathrm{Se}$；${}^{83}_{34}\mathrm{Se} \longrightarrow {}^{83}_{35}\mathrm{Br} + \mathrm{e}$。
+7-1$^{82}_{34}\mathrm{Se} + {}^{1}_{0}\mathrm{n} \longrightarrow^{83}_{34}\mathrm{Se}$；${}^{83}_{34}\mathrm{Se} \longrightarrow^{83}_{35}\mathrm{Br} + \mathrm{e}$。
 
 7-2 有偶数中子的核素一般比有奇数中子的核素的丰度大。
 
@@ -301,7 +301,7 @@ $\mathrm{Fe^{3+}}$：它与 $\mathrm{Na_2CO_3}$ 也因水解生成红棕色 $\ma
 
 $$\mathrm{Rb}_{2}\mathrm{SeO}_{3} + \mathrm{O}_{3} \longrightarrow \mathrm{Rb}_{2}\mathrm{SeO}_{4} + \mathrm{O}_{2}$$
 
-$${}^{83}_{34}\mathrm{SeO}_{4}^{2-} \longrightarrow {}^{83}_{35}\mathrm{BrO}_{4}^{-} + \mathrm{e}$$
+$${}^{83}_{34}\mathrm{SeO}_{4}^{2-} \longrightarrow^{83}_{35}\mathrm{BrO}_{4}^{-} + \mathrm{e}$$
 
 7-5 $\mathrm{XeF}_{2} + 2\mathrm{OH}^{-} + \mathrm{BrO}_{3}^{-} \longrightarrow \mathrm{Xe}\uparrow + \mathrm{BrO}_{4}^{-} + 2\mathrm{F}^{-} + \mathrm{H}_{2}\mathrm{O}$。
 

@@ -35,7 +35,7 @@ pool_scope: 有机化学
 
 ### 第 9 题 SmI₂ 与六元环内酯的爱恨情仇（19 分，占 11%）
 
-2011 年 LomaADuffy 发现了 SmI $_{2}$ -H $_{2}$ O 还原体系对六元内酯的选择性优于其他内酯类。
+2011 年 LomaADuffy 发现了 $\mathrm{SmI}_{2}$ -$\mathrm{H}_{2}$ O 还原体系对六元内酯的选择性优于其他内酯类。
 
 ![](images/5d8cd9a0bddf1f0a72e3472778dfd0ef7d7fb49428eaf1c38bd925747d679bbc.jpg)
 

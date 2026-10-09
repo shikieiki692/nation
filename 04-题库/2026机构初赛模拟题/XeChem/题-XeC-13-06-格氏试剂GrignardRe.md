@@ -64,7 +64,7 @@ $\left[\mathrm{CpFe}(\mathrm{CO})_{2}\right]_{2} (\mathbf{A})$ 与两当量 K �
 (提示：绘制结构时，可将 Cp 与 Cp\* 简写，DippBDI 简写为 N∩N)
 6-1 写出 B 的化学式，画出 X、Y 的结构。
 
-B: K[CpFe(CO) $_{2}$ ] (2 分)
+B: K[CpFe(CO$)_{2}$ ] (2 分)
 
 ![](images/07e1f472a5f40dc30374d95cee91a38f645a4385d29254c7c27734cfc90a72d6.jpg)  
 

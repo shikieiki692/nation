@@ -44,7 +44,7 @@ source_file: "2026机构初赛模拟题/10-chemy/化学试卷-初赛模拟试题
 $\mathrm{HON}_{2}^{\mathrm{Mo}}$
 
 ![](images/50764cd7f6d3cdfc567b054f14b91d507a3bafa75cf8b145df44b0c3301ebfe9.jpg)
-HON $^{Mo}$
+$\mathrm{HON}^{Mo}$
 
 6-1 利用配合物 $\mathrm{Fe(PDI)(N_{2})_{2}}$ 可以在热条件下完成 $[2+2]$ 环加成反应。
 
@@ -74,7 +74,7 @@ NO 在某种意义上也属于氧化还原活性配体，可以以 $NO^{+}$ ，N
 PDI
 
 
-HON $^{Mo}$
+$\mathrm{HON}^{Mo}$
 
 
 

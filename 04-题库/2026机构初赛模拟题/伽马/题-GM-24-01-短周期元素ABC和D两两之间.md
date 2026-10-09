@@ -67,9 +67,9 @@ $\frac{1}{2}S_{8}(s) + 2N_{2}(g) \xrightarrow{\Delta H_{4}} S_{4}N_{4}(s)$ $\Del
 
 五氟化砷的反应性？氯化亚锡的反应性？
 
-$\frac{1}{2} \text{Al}: (S_{4}N_{4})(AsF_{6})_{2}$ . AsFi $_{3}$
+$\frac{1}{2} \text{Al}: (S_{4}N_{4})(AsF_{6})_{2}$ . $\mathrm{AsFi}_{3}$
 
-As(V) Levis酸 → AsF $_{6}^{-}$ 2 : S $_{4}$ N $_{4}$ H $_{4}$
+As(V) Levis酸 → AsF$_{6}^{-}$ 2 : $\mathrm{S}_{4}$ $\mathrm{N}_{4}$ $\mathrm{H}_{4}$
 
 ![](images/eeffc413c204f95f39e4b4e63db19611af4ac34f7c8f3a6938464e7a9e8c9385.jpg)
 

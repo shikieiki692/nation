@@ -39,7 +39,7 @@ source_file: "2026机构初赛模拟题/04-清北营/春季模拟10.md"
 3-1 首先，科学家采用 Pb-Pb 等时线法对样品进行测年。涉及以下反应：
 
 $$
-\begin{array}{l l}^ {238} \mathrm{U} \rightarrow {} ^ {206} \mathrm{Pb},&t _ {1 / 2} = 4.92 \times 10 ^ {10} \mathrm{a}.\\^ {235} \mathrm{U} \rightarrow {} ^ {207} \mathrm{Pb},&t _ {1 / 2} = 7.00 \times 10 ^ {8} \mathrm{a}.\end{array}
+\begin{array}{l l}^ {238} \mathrm{U} \rightarrow^ {206} \mathrm{Pb},&t _ {1 / 2} = 4.92 \times 10 ^ {10} \mathrm{a}.\\^ {235} \mathrm{U} \rightarrow^ {207} \mathrm{Pb},&t _ {1 / 2} = 7.00 \times 10 ^ {8} \mathrm{a}.\end{array}
 $$
 
 假设岩石形成时不存在 $^{206}\mathrm{Pb}, ^{207}\mathrm{Pb}$ 核素, 当前 $^{235}\mathrm{U}$ 丰度为 $0.72\%$ (忽略除 $^{238}\mathrm{U}$ 外其他核素)。测定了同源样品中三种矿物的 $^{206}\mathrm{Pb}/^{204}\mathrm{Pb}, ^{207}\mathrm{Pb}/^{204}\mathrm{Pb}$ 值 ( $^{204}\mathrm{Pb}$ 为稳定核素)

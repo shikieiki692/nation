@@ -60,6 +60,42 @@ def write(p, t):
 
 # ─────────────────────────── 规则库（fmt）───────────────────────────
 # 全部在**源卡**上跑；只做「错形 → 规范形」的等价替换，不动正文语义。
+_ALKYL_PREFIX = re.compile(r"^(?:t|i|n|s|o|m|p|sec|tert|neo|am)$")
+
+
+def _next_visible(s):
+    """去掉数学定界符 / 组括号 / `\\mathrm` 后的「下一个可见字符」（用于判定前置上标）。"""
+    return re.sub(r"\$|\{|\}|\\mathrm", "", s)[:24]
+
+
+def _fbase(m):
+    r"""字母基底 + 空基底上下标 ⇒ 并入数学式 `$\mathrm{X}_{n}$`。
+
+    ⚠️ 守卫：若上下标内容是**短小写字母**（t/i/n/…烷基前缀）且数学式后紧跟拉丁字母
+       ⇒ 那是「前置上标」（`KO $^{t}$Bu` 的 t 属于 Bu），**不并**。
+       注意判定要**穿透**后续的 `$\\mathrm{…}$`（实测 `I $^{i}$ $\\mathrm{Pr}_{2}$`）。
+    """
+    if _ALKYL_PREFIX.match(m.group(3).strip()) and \
+            re.match(r"[ \t]*[A-Za-z]", _next_visible(m.string[m.end():])):
+        return m.group(0)
+    return "$\\mathrm{%s}%s{%s}$" % (m.group(1), m.group(2), m.group(3))
+
+
+_NUMONLY = re.compile(r"[0-9+\-\u2212\u00b7\s]*")
+
+
+def _fbase2(m):
+    """数字 / 右括号基底 + 空基底上下标 ⇒ 并入数学式（不加 `\\mathrm`）。
+
+    ⚠️ 守卫：上下标内容**必须只含数字/正负号/中点/空白**，否则跳过
+       —— 保护 `2$^{t}$Bu`（前置上标）、`1994$^{年}$` 这类写法。
+    ⚠️ 数字基底用 `[0-9]+` **贪婪**匹配（`10$^{-4}$` 必须抓成 `10`，否则会拆出 `1$0^{-4}$`）。
+    """
+    if not _NUMONLY.fullmatch(m.group(3)):
+        return m.group(0)
+    return "$%s%s{%s}$" % (m.group(1), m.group(2), m.group(3))
+
+
 RULES = [
     # 标准态上标：\theta / \Theta / \circ 三种错形 → \ominus（前面不是数字，排除角度 30^{\circ}）
     ("std", re.compile(r"(?<![0-9])\s*\^\s*\{?\s*\\(?:theta|Theta|circ)\s*\}?"), r"^{\\ominus}"),
@@ -97,8 +133,13 @@ RULES = [
     #   （**基底为空**）⇒ LibreOffice/Word 渲染成「ABX ₃」，字母与下标之间出现占位空隙
     #   （2026-10-09 owner 反馈「CrF 6 之间不要有空隙」，实测仅去空格**不能**解决）。
     #   正解：`$\mathrm{ABX}_{3}$` ⇒ 基底入 m:e，渲染紧贴。
-    ("fbase", re.compile(r"([A-Za-z][A-Za-z0-9]*)[ \t]*\$([_^])\{([^{}]*)\}\$"),
-     r"$\\mathrm{\1}\2{\3}$"),
+    #   ⚠️ 守卫：**烷基前置上标**（`KO $^{t}$Bu`、`I $^{i}$Pr`）里那个 `t/i` 属于**后面的**字母，
+    #   不能并进前面的 `KO/I`。判据＝上下标内容为短小写字母**且**数学式后面紧跟拉丁字母 ⇒ 跳过。
+    ("fbase", re.compile(r"([A-Za-z][A-Za-z0-9]*)[ \t]*\$([_^])\{([^{}]*)\}\$"), _fbase),
+    # ★★ 数字/右括号基底（`10$^{4}$`、`)$_{4}$`）⇒ 并入数学式，但**不加 `\mathrm`**
+    #   （数字与括号在数学模式下本就正体）。守卫：上下标内容含拉丁字母即跳过
+    #   —— 否则 `2$^{t}$Bu`（前置上标）会被误并。（2026-10-09 实测：`K=8.03×10$^{4}$` 有可见空隙）
+    ("fbase2", re.compile(r"([0-9]+|[\]\)])[ \t]*\$([_^])\{([^{}]*)\}\$"), _fbase2),
     # ★★ 数学块内「空组上/下标」`X{}^{+}` ⇒ 并入基底 `X^{+}`。
     #   病象：`{\mathrm{{NH}}}_{3}{}^{ + }` ⇒ docx 生成 `<m:sSup><m:e>` 内含**一个空格**
     #   ⇒ LibreOffice 渲染成 `NH₃ ⁺`（基底是空隙）。与 fbase 同族（2026-10-09）。
@@ -107,7 +148,7 @@ RULES = [
     ("fempty", re.compile(r"([}\w\)\]])[ \t]*\{\}[ \t]*([\^_])"), r"\1\2"),
 ]
 # 在两区（题面 / 答案）都要跑的通用规则
-ALWAYS = {"split_ss", "fspace", "fbase", "fempty"}
+ALWAYS = {"split_ss", "fspace", "fbase", "fbase2", "fempty"}
 # 🔴 评分标记规则**只在答案区**跑：`build_org.LEAK` 判据把「（N 分」视作**答案特征**，
 #    若在题面区生成该形态 ⇒ 卡被判「题面泄露」⇒ **掉出池**（实测致 `题-GChO-03-02` 掉池、
 #    plan-lock 失效、整卷重选）。此坑为格式工具与判据的交互缺陷，2026-10-08 实测。
@@ -140,7 +181,7 @@ TEXT_RM = re.compile(r"\\text\{\s*(\\mathrm\{.+?\})\s*\}")
 
 
 def unwrap_text(t, chg):
-    """去 `\text{ \mathrm{…}}` 的 `\text` 外壳（须在「裸 kJ/mol」替换**之后**跑）。"""
+    r"""去 `\text{ \mathrm{…}}` 的 `\text` 外壳（须在「裸 kJ/mol」替换**之后**跑）。"""
     n = 0
 
     def rep(m):

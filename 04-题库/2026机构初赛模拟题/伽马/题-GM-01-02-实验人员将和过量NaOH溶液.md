@@ -59,7 +59,7 @@ source_file: "2026机构初赛模拟题/06-伽马/伽马化学2026年暑期模�
 
 解答：（本问共2分）
 
-物质 A Cu(OH) $_{2}$ 1 分
+物质 A Cu(OH$)_{2}$ 1 分
 
 溶解反应 $\mathrm{Cu(OH)_{2}+2NaOH\rightarrow Na_{2}Cu(OH)_{4}}$ 1 分
 

@@ -153,7 +153,7 @@ $NR_{3}$ 的一部分负电荷通过 R 传给了 X，使原来中性的 $NR_{3}$
 
 8-9 下列是一些常用的 DMSO 用于氧化醇制备醛酮的试剂。画出 DMSO 被等量以下试剂活化后的中间体结构式(接下来与醇反应)。
 
-<table><tr><td colspan="3">8-9-1(COCl) $_{2}$  <img src="images/83f6d2a12a3f4d2c57d008bfb2c912dbed70100d39309263930f3cb48d3e4fa8.jpg"/> 1分</td><td>8-9-2</td><td><img src="images/f4652f6aa5932b554c524033af0dff706d78903f3161270de83ec2754564374b.jpg"/></td><td></td></tr><tr><td>8-9-3</td><td><img src="images/2e02aeed9757e445d7dcef285dd14b3c0462194b21fcff630ff9b7a89ad13a4c.jpg"/></td><td></td><td>8-9-4</td><td><img src="images/c615390a54816fbbab377af4c0b011bee1b4160bc6a30ef86cab632a25a6b5fa.jpg"/></td><td>1分</td></tr></table>
+<table><tr><td colspan="3">8-9-1(COCl$)_{2}$  <img src="images/83f6d2a12a3f4d2c57d008bfb2c912dbed70100d39309263930f3cb48d3e4fa8.jpg"/> 1分</td><td>8-9-2</td><td><img src="images/f4652f6aa5932b554c524033af0dff706d78903f3161270de83ec2754564374b.jpg"/></td><td></td></tr><tr><td>8-9-3</td><td><img src="images/2e02aeed9757e445d7dcef285dd14b3c0462194b21fcff630ff9b7a89ad13a4c.jpg"/></td><td></td><td>8-9-4</td><td><img src="images/c615390a54816fbbab377af4c0b011bee1b4160bc6a30ef86cab632a25a6b5fa.jpg"/></td><td>1分</td></tr></table>
 
 ![](images/7e97c40ccb2835e919f93580cbba40c1a9c7a15e308a7f616f8a19c9812d4e0d.jpg)
 

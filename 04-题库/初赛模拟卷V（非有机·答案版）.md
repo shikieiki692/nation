@@ -630,7 +630,7 @@ $$
 
 第八题（14分）
 
-由 $H_{2}O(l)$ 的标准生成吉布斯自由能为-237.1kJ·mol $^{-1}$ ，可设计电池：
+由 $H_{2}O(l)$ 的标准生成吉布斯自由能为-237.1kJ·$\mathrm{mol}^{-1}$ ，可设计电池：
 
 $$
 \mathrm{Pt} (\mathrm{s}) \mid \mathrm{H} _ {2} (\mathrm{g}), \mathrm{p} \ominus \mid \mathrm{H} ^ {+} (1. 0 0 \mathrm{mol} \cdot \mathrm{L} ^ {- 1}) \mid \mathrm{O} _ {2} (\mathrm{g}), \mathrm{p} \ominus \mid \mathrm{Pt} (\mathrm{s})

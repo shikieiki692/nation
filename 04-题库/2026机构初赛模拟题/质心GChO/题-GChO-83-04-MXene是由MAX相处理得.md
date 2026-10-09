@@ -71,7 +71,7 @@ MXene 材料在锂硫电池的应用中具有诸多优势。单质 $S_{8}$ 和�
 
 
 
-**4-6(2分)** 比容量 =  $\frac{n(e)F}{M(S_8)}$  =  $\frac{16\ \text{mol} \times 96485\ \text{C mol}^{-1}}{8 \times 32.07\ \text{g mol}^{-1}}$  = 6017 C g $^{-1}$  = 1671 mAh g $^{-1}$ 公式 1 分,代数和结果 1 分
+**4-6(2分)** 比容量 =  $\frac{n(e)F}{M(S_8)}$  =  $\frac{16\ \text{mol} \times 96485\ \text{C mol}^{-1}}{8 \times 32.07\ \text{g mol}^{-1}}$  = 6017 C $\mathrm{g}^{-1}$  = 1671 mAh $\mathrm{g}^{-1}$ 公式 1 分,代数和结果 1 分
 
 
 

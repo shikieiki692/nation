@@ -47,7 +47,7 @@ source_file: "2026机构初赛模拟题/10-chemy/新-2026年暑假Chemy刷题（
 
 1.4 顺铂与碱基(如胞嘧啶)混合时，溶液会逐渐变为深蓝色，形成被称为“铂蓝”的物质，这可能与顺铂的抗癌机制有关。为了探究铂蓝的组成与性质，研究人员合成了配合物 X:
 
-称取 1 mmol cis- $\left[\mathrm{PtCl}_{2}\left(\mathrm{NH}_{3}\right)_{2}\right]$ 、2 mmol AgNO $_{3}$ ，溶于水后过滤除去沉淀；随后加入 1 mL 含 1 mmol α-吡啶酮(结构如下图所示)的水溶液，用 NaOH 调整 pH 至中性，在暗处于 40℃ 的空气中反应 5 天；再加入浓硝酸调整 pH 至 1，随后加入饱和 NaNO $_{3}$ 溶液，析出深蓝色沉淀，用乙醇洗涤后干燥可得 X。
+称取 1 mmol cis- $\left[\mathrm{PtCl}_{2}\left(\mathrm{NH}_{3}\right)_{2}\right]$ 、2 mmol $\mathrm{AgNO}_{3}$ ，溶于水后过滤除去沉淀；随后加入 1 mL 含 1 mmol α-吡啶酮(结构如下图所示)的水溶液，用 NaOH 调整 pH 至中性，在暗处于 40℃ 的空气中反应 5 天；再加入浓硝酸调整 pH 至 1，随后加入饱和 $\mathrm{NaNO}_{3}$ 溶液，析出深蓝色沉淀，用乙醇洗涤后干燥可得 X。
 
 ![](images/115afa104bd99142c704bd8cf3dd4ed2c9ef57680a9aa06e14ba96634eb84f6a.jpg)
 
@@ -99,7 +99,7 @@ $\{[\mathrm{Pt(EtNH_2)_4}][\mathrm{Pt(EtNH_2)_4Cl_2}]\} \mathrm{Cl}_4 \cdot 4 \m
 
 1.4 顺铂与碱基(如胞嘧啶)混合时，溶液会逐渐变为深蓝色，形成被称为“铂蓝”的物质，这可能与顺铂的抗癌机制有关。为了探究铂蓝的组成与性质，研究人员合成了配合物 X:
 
-称取 1 mmol cis- $\left[\mathrm{PtCl}_{2}\left(\mathrm{NH}_{3}\right)_{2}\right]$ 、2 mmol AgNO $_{3}$ ，溶于水后过滤除去沉淀；随后加入 1 mL 含 1 mmol α-吡啶酮(结构如下图所示)的水溶液，用 NaOH 调整 pH 至中性，在暗处于 40℃ 的空气中反应 5 天；再加入浓硝酸调整 pH 至 1，随后加入饱和 NaNO $_{3}$ 溶液，析出深蓝色沉
+称取 1 mmol cis- $\left[\mathrm{PtCl}_{2}\left(\mathrm{NH}_{3}\right)_{2}\right]$ 、2 mmol $\mathrm{AgNO}_{3}$ ，溶于水后过滤除去沉淀；随后加入 1 mL 含 1 mmol α-吡啶酮(结构如下图所示)的水溶液，用 NaOH 调整 pH 至中性，在暗处于 40℃ 的空气中反应 5 天；再加入浓硝酸调整 pH 至 1，随后加入饱和 $\mathrm{NaNO}_{3}$ 溶液，析出深蓝色沉
 
 淀，用乙醇洗涤后干燥可得 X。
 

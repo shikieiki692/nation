@@ -34,7 +34,7 @@ source_file: "chemy试题/第34届Chemy化学奥林匹克题目合集..md"
 
 ### 第 7 题（8 分）
 
-配体 $i$ -MNT $^{2-}$ 可以与 Cu 形成有趣的配合物。
+配体 $i$ -$\mathrm{MNT}^{2-}$ 可以与 Cu 形成有趣的配合物。
 
 ![](images/1a38bbf4e6ec370c7a83aebcfc09ae0262bbd5d16c12d5e76779adcd0f2c38bb.jpg)
 
@@ -50,7 +50,7 @@ source_file: "chemy试题/第34届Chemy化学奥林匹克题目合集..md"
 第7题（8分）
 
 ![](images/c1271cc620ded00f8e606dd1e26361eeb871b39c36d8fc31078b523ab86cc918.jpg)
-i-MNT $^{2-}$
+i-$\mathrm{MNT}^{2-}$
 
 ![](images/3f6906cc233990f9bc38780db70abb8a9724bdceaa24668037911d01fdbc5941.jpg)
 

@@ -34,7 +34,7 @@ pool_scope: 有机化学
 
 ### 第 5 题 TEMPO 衍生物 O-H 键能的测定（19 分，占 13%）
 
-TEMPOH/TEMPO $^{+}$ 的氧化还原循环在催化、储能和生物代谢过程中发挥关键作用。某课题组通过量热法和电化学分析测定了乙腈中该类化合物发生 H $^{-}$ 、H $^{+}$ 和 H $^{-}$ 转移的键能及氧化还原电势。
+TEMPOH/$\mathrm{TEMPO}^{+}$ 的氧化还原循环在催化、储能和生物代谢过程中发挥关键作用。某课题组通过量热法和电化学分析测定了乙腈中该类化合物发生 $\mathrm{H}^{-}$ 、$\mathrm{H}^{+}$ 和 $\mathrm{H}^{-}$ 转移的键能及氧化还原电势。
 
 5-1 课题组设计了两个标准反应，分别用于测量发生 H⁻、H⁺ 转移的键能变化：
 
@@ -44,7 +44,7 @@ TEMPOH/TEMPO $^{+}$ 的氧化还原循环在催化、储能和生物代谢过程
 
 5-1-2 乙腈中 $\mathrm{AcrH_2}$ 的负氢解离焓为 $\Delta \mathrm{H}_{\mathrm{H}^{-}\mathrm{D}}(\mathrm{AcrH_2})$ ， $\mathrm{H}_2\mathrm{B}$ 的键解离焓为 $\Delta \mathrm{H}_{\mathrm{HD(HB)}}$ 。分别给出乙腈中 $\Delta \mathrm{H}_{\mathrm{H}^{-}\mathrm{D}(1\mathrm{H})}$ 与 $\Delta \mathrm{H}_{\mathrm{HD}(1\mathrm{H})}$ 的表达式。
 
-5-2 各个 N-O·物种的可逆电极电势在乙腈 (0.1 M TBAPF $_{6}$ ) 中通过循环伏安法测定，不可逆电极电势则通过差分脉冲伏安法 (DPV) 测定，以\*标记。部分物种的数据如下：
+5-2 各个 N-O·物种的可逆电极电势在乙腈 (0.1 M $\mathrm{TBAPF}_{6}$ ) 中通过循环伏安法测定，不可逆电极电势则通过差分脉冲伏安法 (DPV) 测定，以\*标记。部分物种的数据如下：
 
 <table><tr><td>化合物</td><td> $\Delta {\mathrm{H}}_{\mathrm{{HD}}}/\mathrm{{kcal}} \cdot {\mathrm{{mol}}}^{-1}$ </td><td> ${\mathrm{E}}_{\text{ox(A+/0) }}/\mathrm{V}$ </td><td> ${\mathrm{E}}_{\text{red(A0/-) }}/\mathrm{V}$ </td></tr><tr><td>1Ha</td><td>71.8</td><td>0.24</td><td>-1.85*</td></tr><tr><td>1Hb</td><td>72.6</td><td>0.32</td><td>-1.65*</td></tr><tr><td>2H</td><td>72.2</td><td>0.35</td><td>-1.33</td></tr><tr><td>3H</td><td>75.3</td><td>0.54*</td><td>-1.02</td></tr></table>
 

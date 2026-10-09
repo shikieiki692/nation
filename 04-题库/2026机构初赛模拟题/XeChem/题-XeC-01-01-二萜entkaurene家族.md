@@ -78,7 +78,7 @@ pool_scope: 有机化学
 
 (-)-ludongnin C: Pd/C, H₂
 
-(-)-macrocalyxoformins A : NaBH $_{4}$ , CeCl $_{3}$ ·7H $_{2}$ O
+(-)-macrocalyxoformins A : $\mathrm{NaBH}_{4}$ , $\mathrm{CeCl}_{3}$ ·7$\mathrm{H}_{2}$ O
 
 1-2-1
 

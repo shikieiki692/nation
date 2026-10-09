@@ -46,13 +46,13 @@ question_count: 16
 
 **1-2** 
 
-$${}^{235}_{92}\mathrm{U} + {}^{1}_{0}\mathrm{n} \longrightarrow {}^{72}_{30}\mathrm{Zn} + {}^{160}_{62}\mathrm{Sm} + 4{}^{1}_{0}\mathrm{n}$$
+$${}^{235}_{92}\mathrm{U} + {}^{1}_{0}\mathrm{n} \longrightarrow^{72}_{30}\mathrm{Zn} + {}^{160}_{62}\mathrm{Sm} + 4^{1}_{0}\mathrm{n}$$
 
 ![[af8a5e0e6eb0bcf07485df1dae4b5f90b53a8464b2f97c541cbffbabba0f786e.jpg]]
 
-$${}^{72}_{30}\mathrm{Zn} + {}^{1}_{0}\mathrm{n} \longrightarrow {}^{69}_{28}\mathrm{Ni} + {}^{4}_{2}\mathrm{He(或}\alpha)$$
+$${}^{72}_{30}\mathrm{Zn} + {}^{1}_{0}\mathrm{n} \longrightarrow^{69}_{28}\mathrm{Ni} + {}^{4}_{2}\mathrm{He(或}\alpha)$$
 
-$${}^{69}_{28}\mathrm{Ni} + {}^{1}_{0}\mathrm{n} \longrightarrow {}^{66}_{26}\mathrm{Fe} + {}^{4}_{2}\mathrm{He(或}\alpha)$$
+$${}^{69}_{28}\mathrm{Ni} + {}^{1}_{0}\mathrm{n} \longrightarrow^{66}_{26}\mathrm{Fe} + {}^{4}_{2}\mathrm{He(或}\alpha)$$
 
 **1-3** $3\mathrm{Fe(CN)_6^{3-}} + \mathrm{Cr(OH)_3} + 5\mathrm{OH^-} = 3\mathrm{Fe(CN)_6^{4-}} + \mathrm{CrO_4^{2-}} + 4\mathrm{H_2O}$。
 

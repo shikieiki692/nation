@@ -57,7 +57,7 @@ $$
 
 2-3-1 在高电压下（提示：此时 m 为定值）测出了 4 组电流密度与电压的关系，如下：
 
-<table><tr><td> $J_{SCLC}$ </td><td>107.0 mA cm $^{-2}$ </td><td>218.8 mA cm $^{-2}$ </td><td>315.2 mA cm $^{-2}$ </td><td>492.5 mA cm $^{-2}$ </td></tr><tr><td>V</td><td>7 V</td><td>10V</td><td>12V</td><td>15 V</td></tr></table>
+<table><tr><td> $J_{SCLC}$ </td><td>107.0 mA $\mathrm{cm}^{-2}$ </td><td>218.8 mA $\mathrm{cm}^{-2}$ </td><td>315.2 mA $\mathrm{cm}^{-2}$ </td><td>492.5 mA $\mathrm{cm}^{-2}$ </td></tr><tr><td>V</td><td>7 V</td><td>10V</td><td>12V</td><td>15 V</td></tr></table>
 
 通过计算, 给出器件的电荷迁移率, 以 $\mathrm{m}^{2} \mathrm{~V}^{-1} \mathrm{~s}^{-1}$ 为单位。
 

@@ -39,7 +39,7 @@ source_file: "chemy试题/第34届Chemy化学奥林匹克题目合集..md"
 
 1-3 $\mathrm{UO}_2$ 与 $\mathrm{CCl}_4$ 共热制备 $\mathrm{UCl}_4$ ，随反应温度不同而发生了不同的反应。低温时，生成每 $1\mathrm{mol}$ $\mathrm{UCl}_4$ 同时产生 $1\mathrm{mol}$ 其他气体；高温时则产生 $4\mathrm{mol}$ 其他气体。请分别写出反应方程式。1-4 用冰冷的 $30\% \mathrm{H}_2\mathrm{O}_2$ 氧化 $\mathrm{Na}_2\mathrm{S}_2\mathrm{O}_3$ 溶液制备连三硫酸钠，体系 $\mathrm{pH}$ 没有明显变化。
 
-1-5 19 世纪初，F. von Stadion 向熔融 KClO $_{3}$ 中滴入少量浓硫酸，产生了一种氧化物气体(提示：混合物冷却后以水处理，有不溶物，溶液呈酸性)。
+1-5 19 世纪初，F. von Stadion 向熔融 $\mathrm{KClO}_{3}$ 中滴入少量浓硫酸，产生了一种氧化物气体(提示：混合物冷却后以水处理，有不溶物，溶液呈酸性)。
 
 ## 参考答案
 

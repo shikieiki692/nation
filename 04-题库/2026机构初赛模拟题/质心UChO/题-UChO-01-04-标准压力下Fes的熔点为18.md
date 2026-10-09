@@ -33,7 +33,7 @@ source_file: "2026机构初赛模拟题/02-质心UChO/8thZCHEM-UChO-Tour1.md"
 
 ### 第 4 题（10 分，占 6%）熔融体系的热力学
 
-标准压力下， $\delta$ -Fe(s)的熔点为 1808 K，熔化热为 15355 J mol $^{-1}$ ，可以认为 Fe(l)与 $\delta$ -Fe(s)的标准恒压摩尔热容差为 1.255 J K $^{-1}$ mol $^{-1}$ 。现又已知 $\delta$ -Fe(s)和铁溶于硫化铁的熔融液体(其中 Fe 的摩尔分数为 0.87)刚好在 1673 K 下达到相平衡，在本题的计算中认为纯的 Fe(l)为标态。
+标准压力下， $\delta$ -Fe(s)的熔点为 1808 K，熔化热为 15355 J $\mathrm{mol}^{-1}$ ，可以认为 Fe(l)与 $\delta$ -Fe(s)的标准恒压摩尔热容差为 1.255 J $\mathrm{K}^{-1}$ $\mathrm{mol}^{-1}$ 。现又已知 $\delta$ -Fe(s)和铁溶于硫化铁的熔融液体(其中 Fe 的摩尔分数为 0.87)刚好在 1673 K 下达到相平衡，在本题的计算中认为纯的 Fe(l)为标态。
 
 4-1 导出 $\delta-\mathrm{Fe}(\mathrm{s})$ 的熔化热 $\Delta_{\mathrm{mel}}H_{\mathrm{m}}(\text{单位 J mol}^{-1})$ 与温度(单位 K)的关系。
 

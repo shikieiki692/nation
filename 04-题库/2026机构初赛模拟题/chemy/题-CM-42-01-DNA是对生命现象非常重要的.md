@@ -66,7 +66,7 @@ G
 ![](images/39eccfae8d8a764b221627e2a1e9acddbebbafc4df251f5accf4ada7d6600526.jpg)
 C
 ![](images/3e9176a5652a466534094c9f5ba637b6de34ab9f0bee5329750d66fe776a9264.jpg)
-1.1.1 T·A\*T 1.1.2 C·G\*C $^{+}$ (C 被质子化) 1.1.3 T·A\*A 1.1.4 C·G\*G
+1.1.1 T·A\*T 1.1.2 C·G\*$\mathrm{C}^{+}$ (C 被质子化) 1.1.3 T·A\*A 1.1.4 C·G\*G
 ![](images/e4f2bc0479745391422187212b7746c2e4a5f31ec086fab84b72d55c80b01eb8.jpg)
 ![](images/795520c82634a7b0e7e39cca9467d4cddd72133b7e972c54c5856ef6ffdf52b8.jpg)
 ![](images/cfec22dfe744c53025140f3c2e6c910d55f2ffc336e7cee4d6fdb345d4df450b.jpg)
@@ -75,7 +75,7 @@ C
 ![](images/a98ffb16a481d713ed4cb0929ab5c87d95f83c13bb0f2e546242acfdda4617c1.jpg)
 1.2.1（共3分）
 (TC) $_{s}$ 或 TCTCTCTCTCTCTCTCTC (1分)
-(GA) $_{8}$ 或 GAGAGAGAGAGAGAGA (1 分)
+(GA$)_{8}$ 或 GAGAGAGAGAGAGAGA (1 分)
 (CT) $_{s}$ 或 CTCTCTCTCTCTCTCT (1分)
 1.2.2 (共2分)
 酸性（1 分）。 $H^{+}$ 促使胞嘧啶质子化（1 分），形成三股螺旋时利于其以 Hoogsteen 氢键与鸟嘌呤配对

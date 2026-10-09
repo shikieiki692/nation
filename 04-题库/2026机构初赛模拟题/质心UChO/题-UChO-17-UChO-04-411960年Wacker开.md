@@ -90,7 +90,7 @@ $$
 
 4-2 已知如下的键解离能数据：
 
-单位：kJ·mol $^{-1}$
+单位：kJ·$\mathrm{mol}^{-1}$
 
 <table><tr><td>R</td><td>H</td><td> $CH_3$ </td><td> $CH_3CO$ </td><td>I</td></tr><tr><td>H</td><td>435.8</td><td>439.3</td><td>374</td><td>298.3</td></tr><tr><td>I</td><td>298.3</td><td>238.9</td><td>-</td><td>152.7</td></tr></table>
 

@@ -76,7 +76,7 @@ source_file: "2026机构初赛模拟题/08-汇智/长沙冲刺结构.md"
 
 2-2-2 乙酸铍可吸收自身两倍当量的氨气生成含有环状氢键结构的二氨合物，画出其结构，需准确表示出 Be 原子的配位构型。
 
-2-3 画出 $\mathrm{Zr}_{2} \mathrm{~F}_{13}{}^{5-}$ 的结构, 已知该阴离子具有 3 个 $\mathrm{C}_{2}$ 轴, 3 个 $\sigma$ 和 1 个对称中心, F 原子一共有三种不同的化学环境。
+2-3 画出 $\mathrm{Zr}_{2} \mathrm{~F}_{13}^{5-}$ 的结构, 已知该阴离子具有 3 个 $\mathrm{C}_{2}$ 轴, 3 个 $\sigma$ 和 1 个对称中心, F 原子一共有三种不同的化学环境。
 
 2-4 已知五水合硫酸铜加热至 $102^{\circ} \mathrm{C}$ 、 $115^{\circ} \mathrm{C}$ 、 $245^{\circ} \mathrm{C}$ 时分别失去 2、2、1 个 $\mathrm{H}_{2} \mathrm{O}$ 分子
 
@@ -133,7 +133,7 @@ $$
 ![](images/f3120206cfd2812c3dc39c175de2b9a3c34ff5ebc9332a7339062d9f69981c30.jpg)
 (2 分)
 
-2-5-2 三角双锥构型构型下, 沿 Re-Re 方向能有效重叠的主要是一个 $\mathrm{d}{\mathrm{z}}^{2}$ 轨道, 形成一个 $\sigma$ 键; 而本来可能参与 $\mathrm{{Re}} - \mathrm{{Re}}\pi$ 、 $\delta$ 多重键的 $\mathrm{d}$ 轨道, 会受到几何构型的限制, 不能像 ${\mathrm{{Re}}}_{2}{\mathrm{{Cl}}}_{8}{}^{2 - }{\mathrm{D}}_{4\mathrm{\;h}}$ 整齐地形成 $\pi$ 、 $\delta$ 键。(1 分)
+2-5-2 三角双锥构型构型下, 沿 Re-Re 方向能有效重叠的主要是一个 $\mathrm{d}{\mathrm{z}}^{2}$ 轨道, 形成一个 $\sigma$ 键; 而本来可能参与 $\mathrm{{Re}} - \mathrm{{Re}}\pi$ 、 $\delta$ 多重键的 $\mathrm{d}$ 轨道, 会受到几何构型的限制, 不能像 ${\mathrm{{Re}}}_{2}{\mathrm{{Cl}}}_{8}^{2 - }{\mathrm{D}}_{4\mathrm{\;h}}$ 整齐地形成 $\pi$ 、 $\delta$ 键。(1 分)
 
 ## 知识点映射
 

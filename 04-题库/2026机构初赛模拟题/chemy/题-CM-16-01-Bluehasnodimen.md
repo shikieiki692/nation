@@ -81,7 +81,7 @@ Blue has no dimension, it exceeds everything.
 
 二氧化硅（ $\mathrm{SiO}_2$ ）： $n_2 = 14.4 \, \text{g} / 60.09 \, \text{g} \cdot \text{mol}^{-1} = 240 \, \text{mmol}$ ；
 
-重晶石（BaSO $_{4}$ ）：n $_{3}$ = 14.0 g / 237.3 g·mol $^{-1}$ = 60.0 mmol；
+重晶石（$\mathrm{BaSO}_{4}$ ）：$\mathrm{n}_{3}$ = 14.0 g / 237.3 g·$\mathrm{mol}^{-1}$ = 60.0 mmol；
 
 三者的比例接近为 $1: 8: 2$ (2 分) 根据元素守恒可以确定:
 

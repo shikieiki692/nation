@@ -86,7 +86,7 @@ $$
 4-2-1（2分）
 
 $$
-E = \left(\frac {n _ {y} {} ^ {2}}{d ^ {2}} + \frac {n _ {x} {} ^ {2}}{w ^ {2} d ^ {2}}\right) \frac {h ^ {2}}{8 m _ {\mathrm{e}}} = \left(n _ {y} ^ {2} + \frac {n _ {x} {} ^ {2}}{w ^ {2}}\right) \frac {h ^ {2}}{8 m _ {\mathrm{e}} d ^ {2}}
+E = \left(\frac {n _ {y}^ {2}}{d ^ {2}} + \frac {n _ {x}^ {2}}{w ^ {2} d ^ {2}}\right) \frac {h ^ {2}}{8 m _ {\mathrm{e}}} = \left(n _ {y} ^ {2} + \frac {n _ {x}^ {2}}{w ^ {2}}\right) \frac {h ^ {2}}{8 m _ {\mathrm{e}} d ^ {2}}
 $$
 
 第4页,共9页

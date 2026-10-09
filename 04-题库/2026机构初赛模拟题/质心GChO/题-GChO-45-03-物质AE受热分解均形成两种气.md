@@ -35,7 +35,7 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO45试题.md"
 
 物质 A\~E 受热分解，均形成两种气态单质 $X_{2}$ 和 $Y_{2}$ ，它们的熔沸点、分解热和气态产物的密度 (0 ℃, 101.325 kPa) 列于如下表格中：
 
-<table><tr><td>物质</td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td></tr><tr><td>熔点/°C</td><td>-90</td><td>3.5</td><td>-117</td><td>-59</td><td>-116</td></tr><tr><td>沸点/°C</td><td>80</td><td>约203</td><td>44.5</td><td>9.7</td><td>2</td></tr><tr><td>密度/g mL $^{-1}$ </td><td>1.815</td><td>1.864</td><td>2.009</td><td>2.009</td><td>2.589</td></tr><tr><td> $\Delta_{r}H_{m}{}^{\circ}/kJ mol^{-1}$ </td><td>-272.0</td><td>?</td><td>?</td><td>-102.6</td><td>-80.3</td></tr></table>
+<table><tr><td>物质</td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td></tr><tr><td>熔点/°C</td><td>-90</td><td>3.5</td><td>-117</td><td>-59</td><td>-116</td></tr><tr><td>沸点/°C</td><td>80</td><td>约203</td><td>44.5</td><td>9.7</td><td>2</td></tr><tr><td>密度/g $\mathrm{mL}^{-1}$ </td><td>1.815</td><td>1.864</td><td>2.009</td><td>2.009</td><td>2.589</td></tr><tr><td> $\Delta_{r}H_{m}^{\circ}/kJ mol^{-1}$ </td><td>-272.0</td><td>?</td><td>?</td><td>-102.6</td><td>-80.3</td></tr></table>
 
 3-1 给出 A\~E 的化学式，并画出它们的 Lewis 结构式。
 

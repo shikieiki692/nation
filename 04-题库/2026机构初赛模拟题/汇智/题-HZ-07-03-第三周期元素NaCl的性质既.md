@@ -33,7 +33,7 @@ source_file: "2026机构初赛模拟题/08-汇智/长沙化学刷初赛模拟7.m
 
 ### 第 3 题（23分，占 $16\%$ ）
 
-第三周期元素 Na～Cl 的性质既有明显周期性，又有若干 “反常”。已知部分数据如下（单位：kJ·mol $^{-1}$ ）：
+第三周期元素 Na～Cl 的性质既有明显周期性，又有若干 “反常”。已知部分数据如下（单位：kJ·$\mathrm{mol}^{-1}$ ）：
 
 <table><tr><td>元素</td><td>第一电离能  $I_1$ </td><td>第二电离能  $I_2$ </td><td>电子亲和能  $E_a^*$ </td></tr><tr><td>Na</td><td>496</td><td>4562</td><td>53</td></tr><tr><td>Mg</td><td>738</td><td>1451</td><td>—</td></tr><tr><td>Al</td><td>578</td><td>1817</td><td>43</td></tr><tr><td>Si</td><td>787</td><td>1577</td><td>134</td></tr><tr><td>P</td><td>1012</td><td>1907</td><td>72</td></tr><tr><td>S</td><td>1000</td><td>2252</td><td>200</td></tr><tr><td>CI</td><td>1251</td><td>2298</td><td>349</td></tr></table>
 
@@ -61,7 +61,7 @@ $$
 
 ## 参考答案
 
-第三周期元素 Na～Cl 的性质既有明显周期性，又有若干 “反常”。已知部分数据如下（单位：kJ·mol $^{-1}$ ）：
+第三周期元素 Na～Cl 的性质既有明显周期性，又有若干 “反常”。已知部分数据如下（单位：kJ·$\mathrm{mol}^{-1}$ ）：
 
 <table><tr><td>元素</td><td>第一电离能  $I_1$ </td><td>第二电离能  $I_2$ </td><td>电子亲和能  $E_a^*$ </td></tr><tr><td>Na</td><td>496</td><td>4562</td><td>53</td></tr><tr><td>Mg</td><td>738</td><td>1451</td><td>—</td></tr><tr><td>Al</td><td>578</td><td>1817</td><td>43</td></tr><tr><td>Si</td><td>787</td><td>1577</td><td>134</td></tr><tr><td>P</td><td>1012</td><td>1907</td><td>72</td></tr><tr><td>S</td><td>1000</td><td>2252</td><td>200</td></tr><tr><td>Cl</td><td>1251</td><td>2298</td><td>349</td></tr></table>
 
@@ -99,7 +99,7 @@ P &gt; S（反常二）: P 的  $3p^{3}$  为半充满，洪特规则带来较�
 $\chi_{M} = \frac{I_{1} + E_{a}}{2}$
 其中能量以 eV 为单位（1 eV = 96.485 kJ·mol-1）。
 3-2-1 若忽略 Mg，试根据表中数据定量计算 Na、Al、Si、P、S、Cl 的 $\chi_{M}$，指出其相对排序。
-3-2-2 已知 F 的电子亲和能约为 328 kJ·mol$^{-1}$，小于 Cl 的 349 kJ·mol$^{-1}$。请用原子半径、电子云密度、电子间排斥解释：为什么同族中 F 的电子亲和能反而小于 Cl？
+3-2-2 已知 F 的电子亲和能约为 328 kJ·$\mathrm{mol}^{-1}$，小于 Cl 的 349 kJ·$\mathrm{mol}^{-1}$。请用原子半径、电子云密度、电子间排斥解释：为什么同族中 F 的电子亲和能反而小于 Cl？
 3-2-1 Mulliken 电负性计算
 换算因子：1 eV = 96.485 kJ·mol-1。
 $\chi_{M} = \frac{I_{1} + E_{a}}{2 \times 96.485}$

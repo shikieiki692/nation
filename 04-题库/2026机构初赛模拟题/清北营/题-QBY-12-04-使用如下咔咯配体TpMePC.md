@@ -82,7 +82,7 @@ source_file: "2026机构初赛模拟题/04-清北营/春季模拟12.md"
 
 4-1-2 画出 B，C 的结构。
 
-<table><tr><td rowspan="2">4-1-2</td><td>B</td><td>C</td></tr><tr><td>不要求 Re-O键级</td><td><img src="images/1ca0134ad1aab773b0d3d362aedef8065a65f5b872ca756d426e79ed025d9df5.jpg"/>不要求 Cl 在同侧</td></tr><tr><td colspan="3">4-1-3 写出 G 与 PhMgBr 反应得到 A 的化学方程式(咔咯配体可用 L 表示)。</td></tr><tr><td>4-1-3</td><td colspan="2"> $2\mathrm{{Re}}{\left( \mathrm{L}\right) }{\mathrm{{Cl}}}_{2} + 4\mathrm{{PhMgBr}} = {\mathrm{{Re}}}_{2}{\left( \mathrm{L}\right) }_{2} + 2\mathrm{{MgBr}}{}_{2} + 2\mathrm{{MgCl}}{}_{2} + 2{\mathrm{C}}_{6}{\mathrm{H}}_{5} - {\mathrm{C}}_{6}{\mathrm{H}}_{5}$ </td></tr><tr><td colspan="3">4-1-4 给出 A 的结构,指出 M-M 键级是多少?</td></tr><tr><td rowspan="2">4-1-4</td><td colspan="2">= TpxPC $^{2 - }$ ReIIIReIII</td></tr><tr><td colspan="2">M-M 键级:4 (σ+2π+δ)</td></tr></table>
+<table><tr><td rowspan="2">4-1-2</td><td>B</td><td>C</td></tr><tr><td>不要求 Re-O键级</td><td><img src="images/1ca0134ad1aab773b0d3d362aedef8065a65f5b872ca756d426e79ed025d9df5.jpg"/>不要求 Cl 在同侧</td></tr><tr><td colspan="3">4-1-3 写出 G 与 PhMgBr 反应得到 A 的化学方程式(咔咯配体可用 L 表示)。</td></tr><tr><td>4-1-3</td><td colspan="2"> $2\mathrm{{Re}}{\left( \mathrm{L}\right) }{\mathrm{{Cl}}}_{2} + 4\mathrm{{PhMgBr}} = {\mathrm{{Re}}}_{2}{\left( \mathrm{L}\right) }_{2} + 2\mathrm{{MgBr}}_{2} + 2\mathrm{{MgCl}}_{2} + 2{\mathrm{C}}_{6}{\mathrm{H}}_{5} - {\mathrm{C}}_{6}{\mathrm{H}}_{5}$ </td></tr><tr><td colspan="3">4-1-4 给出 A 的结构,指出 M-M 键级是多少?</td></tr><tr><td rowspan="2">4-1-4</td><td colspan="2">= $\mathrm{TpxPC}^{2 - }$ ReIIIReIII</td></tr><tr><td colspan="2">M-M 键级:4 (σ+2π+δ)</td></tr></table>
 
 4-2 科学家通过 X-射线衍射法得到了 A 晶体的结构，A 晶体为正交晶系，晶胞参数为 $a = 14.9614 \, \text{Å}$ ， $b = 20.5775 \, \text{Å}$ ， $c = 21.8546 \, \text{Å}$ ，Z = 4。
 

@@ -318,7 +318,7 @@ $\Delta_{r}S_{\mathrm{m}}^{\circ}\mathrm{l} = 334.1\times 2 - 205.1 - 77.03\time
 
 反应 $2Am_{2}O_{3} + O_{2} \rightarrow 4AmO_{2}$ (2)
 
-$\Delta_{r}H_{m}^{\ominus}{}_{2} = -932.2\times 4 + 1690\times 2 = -348.8\mathrm{\mathrm{kJ\cdot mol^{-1}}};$ $\Delta_{r}S_{m}^{\ominus}{}_{2} = 75.50\times 4 - 205.1 - 134.2\times 2 = -171.5J/(mol\cdot K)$ $\Delta_{r}G_{m}^{\ominus}{}_{2} = \Delta_{r}H_{m}^{\ominus}{}_{2} - T\Delta_{r}S_{m}^{\ominus}{}_{2} = -348.8 - 298.15\times (-171.5)\times 10^{-3} = -297.7\mathrm{\mathrm{kJ\cdot mol^{-1}}}$
+$\Delta_{r}H_{m}^{\ominus}_{2} = -932.2\times 4 + 1690\times 2 = -348.8\mathrm{\mathrm{kJ\cdot mol^{-1}}};$ $\Delta_{r}S_{m}^{\ominus}_{2} = 75.50\times 4 - 205.1 - 134.2\times 2 = -171.5J/(mol\cdot K)$ $\Delta_{r}G_{m}^{\ominus}_{2} = \Delta_{r}H_{m}^{\ominus}_{2} - T\Delta_{r}S_{m}^{\ominus}_{2} = -348.8 - 298.15\times (-171.5)\times 10^{-3} = -297.7\mathrm{\mathrm{kJ\cdot mol^{-1}}}$
 
 $= 0.85\times (-1096) + 0.15\times (-876.9) + 8.3145\times 298.15\times (0.85\ln 0.85 + 0.15\ln 0.15)\times 10^{-3}$
 **5-3**
@@ -695,7 +695,7 @@ $$
 
 10-2 随后，在加热条件下将 $\mathrm{NO}_2(\mathrm{g})$ 溶于水得到 $\mathrm{HNO}_3$ ，请写出该反应的热化学方程式，并计算 $\Delta_{\mathrm{r}}\mathrm{G}_{\mathrm{m}}^{\ominus}$ 以及标准平衡常数 $\mathrm{K}^{\ominus}$ 。（T = 348.15 K）
 
-10-3 一体积为 40.0 L 的密闭容器中装有 300 bar NO(g)，从容器上的小孔通入原压强为 1.00 bar NO $_{2}$ (g) 21.0 m $^{3}$ 与一定量的水，随后封闭容器。反应达平衡后，溶液体积为 30.0 L。温度默认为 348.15 K，不考虑NO $_{2}$ (g)二聚。
+10-3 一体积为 40.0 L 的密闭容器中装有 300 bar NO(g)，从容器上的小孔通入原压强为 1.00 bar $\mathrm{NO}_{2}$ (g) 21.0 $\mathrm{m}^{3}$ 与一定量的水，随后封闭容器。反应达平衡后，溶液体积为 30.0 L。温度默认为 348.15 K，不考虑$\mathrm{NO}_{2}$ (g)二聚。
 
 10-3-1 不考虑 $NO_{2}(g)$ 在水中的溶解, 计算此时溶液中 $HNO_{3}$ 的浓度, 容器中的压强, 以及 $NO(g)$ 与 $NO_{2}(g)$ 各自的分压。
 
