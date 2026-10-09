@@ -54,6 +54,65 @@ MAXPX, TARGETPX = 2600, 2400  # 降采样后长边仍 ≥1800 ⇒ 整页档判�
 NAME_MAP = {}                # 原图名 → 暂存实际文件名
 PAGE_NAMES = set()           # ★ 判定为「整页级」的**暂存实际文件名**
 
+# ── ★ 构建期「图有效分辨率」封顶（治本，2026-10-09）─────────────────────
+# 病根：物理档封顶（land 7.0cm 等）与**源像素**无关 ⇒ 低清小图被拉到 7.0cm 打印，
+#       有效分辨率掉到 72~100 dpi（渲染层机检 40 处 BLUR/SMALL 全是这一类）。
+# 治法：在全部物理档封顶**之后**再加一道按源像素的封顶 —— 渲染宽 ≤ px/MIN_DPI。
+#       等价于「印刷有效分辨率 ≥ MIN_DPI」，只缩不放（≥MIN_DPI 的图不受影响）。
+# 位置：作为 process_document_xml 的**最终 pass**（monkey-patch 包装），
+#       在 <w:drawing> 粒度上处理 ⇒ **段落图与表格内图一并覆盖**（表格图走的是
+#       cap_table_images，不走 cap_image_width，故不能只在 cap_image_width 里加）。
+MIN_DPI = 150.0              # 印刷线稿的最低有效分辨率（≈印刷厂对线稿的合格线）
+EMU_PER_CM = 360000
+IMG_PX = {}                  # ★ 暂存实际文件名 → (w,h) **最终**像素（降采样后）
+DRAW_RE = re.compile(r"<w:drawing>.*?</w:drawing>", re.S)
+DESCR_RE = re.compile(r'<pic:cNvPr[^>]*?\bdescr="([^"]*)"')
+_CX_RE = re.compile(r'<wp:extent cx="(\d+)" cy="(\d+)"')
+_AX_RE = re.compile(r'<a:ext cx="(\d+)" cy="(\d+)"')
+
+
+def apply_dpi_cap(xml: str):
+    """按源像素封顶每张图的渲染尺寸，保证有效分辨率 ≥ MIN_DPI（只缩不放）。
+
+    返回 (xml, 被缩图数, 缩放清单)。
+    """
+    log = []
+
+    def _one(m):
+        frag = m.group(0)
+        d = DESCR_RE.search(frag)
+        nm = (d.group(1) if d else "").strip()
+        wh = IMG_PX.get(nm)
+        if not wh:
+            return frag
+        w_px, h_px = wh
+        if w_px <= 0 or h_px <= 0:
+            return frag
+        max_w = w_px / MIN_DPI * 2.54 * EMU_PER_CM
+        max_h = h_px / MIN_DPI * 2.54 * EMU_PER_CM
+        before = _CX_RE.search(frag)
+
+        def _size(cx, cy):
+            if cx <= 0 or cy <= 0:
+                return cx, cy
+            s = min(1.0, max_w / cx, max_h / cy)
+            if s >= 0.9995:
+                return cx, cy
+            return max(1, int(round(cx * s))), max(1, int(round(cy * s)))
+
+        frag = _CX_RE.sub(
+            lambda mm: '<wp:extent cx="%d" cy="%d"' % _size(int(mm.group(1)), int(mm.group(2))), frag)
+        frag = _AX_RE.sub(
+            lambda mm: '<a:ext cx="%d" cy="%d"' % _size(int(mm.group(1)), int(mm.group(2))), frag)
+        after = _CX_RE.search(frag)
+        if before and after and int(after.group(1)) < int(before.group(1)):
+            log.append((nm, w_px, h_px, int(before.group(1)) / EMU_PER_CM,
+                        int(after.group(1)) / EMU_PER_CM))
+        return frag
+
+    xml = DRAW_RE.sub(_one, xml)
+    return xml, len(log), log
+
 # 🔴 关键：pandoc 会先把每张图铺到「版心宽」再写 <wp:extent>，故 XML 里的 cx 与
 #    「原图像素」无关 ⇒ 不能用 cx 判整页档。改从 <pic:cNvPr descr="原名"> 取图片名，
 #    与 PAGE_NAMES 比对（descr 由 resolve_images 输出的文件名决定）。
@@ -100,14 +159,17 @@ def stage_image(src: str, name: str) -> str:
         shutil.copyfile(src, str(STAGE / name))
         return name
     real = name
+    fw, fh = w, h
     if max(w, h) > MAXPX:
         sc = TARGETPX / max(w, h)
         im2 = im.convert("RGB").resize((max(1, int(w * sc)), max(1, int(h * sc))), Image.LANCZOS)
         real = os.path.splitext(name)[0] + ".jpg"
         im2.save(str(STAGE / real), "JPEG", quality=86, optimize=True)
-        print("     [缩图] %s %dx%d → %s %dx%d" % (name[:28], w, h, real[-24:], im2.width, im2.height))
+        fw, fh = im2.width, im2.height
+        print("     [缩图] %s %dx%d → %s %dx%d" % (name[:28], w, h, real[-24:], fw, fh))
     else:
         shutil.copyfile(src, str(STAGE / name))
+    IMG_PX[real] = (fw, fh)          # ★ 记录**最终**像素（供 DPI 封顶）
     if max(w, h) >= PAGE_MIN_LONG:
         PAGE_NAMES.add(real)
     return real
@@ -156,6 +218,22 @@ def main():
         return re.sub(r"!\[\[([^\]\|\\]+?)(?:\\?\|\d+)?\]\]", rep, body)
 
     Z.resolve_images = resolve_images2
+
+    # ★ monkey-patch：在段落/表格全部封顶**之后**加一道「按源像素」的有效分辨率封顶
+    if "--no-dpi-cap" not in sys.argv:
+        _orig_pdx = Z.process_document_xml
+
+        def process_document_xml2(xml, stat):
+            xml = _orig_pdx(xml, stat)
+            xml, _n, _log = apply_dpi_cap(xml)
+            if _log:
+                _log.sort(key=lambda r: r[4])
+                worst = _log[:5]
+                print("  图分辨率封顶：缩 %d 张（目标 ≥%.0fdpi）｜最紧 %s"
+                      % (_n, MIN_DPI, "、".join("%s %.2f→%.2fcm" % (r[0][:12], r[3], r[4]) for r in worst)))
+            return xml
+
+        Z.process_document_xml = process_document_xml2
     Z.TMP.mkdir(parents=True, exist_ok=True)
     ref = Z.build_reference()
     print("reference:", ref)

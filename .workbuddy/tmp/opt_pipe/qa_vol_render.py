@@ -29,6 +29,7 @@ LATEX = re.compile(r"\\mathrm|\\frac|\\text\{|\\begin\{|\\ce\{|\$(?![\d\s])")
 MIN_DPI = 105.0       # 图片有效分辨率低于此 ⇒ 印出来发虚（线稿最低 ~110dpi）
 MIN_W_MM = 18.0       # 图宽小于此 ⇒ 太小、看不清
 MIN_H_MM = 12.0
+THIN_LONG_MM = 30.0   # ★ 短边欠阈值但长边 ≥ 此 ⇒ 判「细长条」(THIN)：源切片属性，非版面缺陷
 
 
 def ink_stats(im):
@@ -94,7 +95,15 @@ def one(p):
                     issues.append(("SQUASH", i + 1, "源 %d×%d(%.2f) → 版面 %.0f×%.0fmm(%.2f)"
                                    % (px, py, r_src, w_mm, h_mm, r_pdf)))
             if w_mm < MIN_W_MM or h_mm < MIN_H_MM:
-                issues.append(("SMALL", i + 1, "%.0f×%.0fmm" % (w_mm, h_mm)))
+                # ★ 2026-10-09 分类细化（不放宽判据，只是把两类分开以便追责）：
+                #   THIN ＝ 细长条（短边小但长边 ≥ THIN_LONG_MM）⇒ 源切片本身是细长条，
+                #           remedy 是「回源重裁」，非版面缺陷；dpi 往往很高（200~800）。
+                #   SMALL ＝ 两维都小（真·小图）⇒ 才可能是版面/尺寸配置问题。
+                short, long_ = min(w_mm, h_mm), max(w_mm, h_mm)
+                if long_ >= THIN_LONG_MM:
+                    issues.append(("THIN", i + 1, "%.0f×%.0fmm %ddpi" % (w_mm, h_mm, px / (w_mm / 25.4) if px else 0)))
+                else:
+                    issues.append(("SMALL", i + 1, "%.0f×%.0fmm" % (w_mm, h_mm)))
             elif px and px / (w_mm / 25.4) < MIN_DPI:
                 issues.append(("BLUR", i + 1, "%.0fdpi %.0fmm %dpx" % (px / (w_mm / 25.4), w_mm, px)))
     n = d.page_count
@@ -126,7 +135,10 @@ def main():
             rows.append([name, it[1], it[0], it[2] if len(it) > 2 else ""])
         tot += len(issues)
     print("=" * 78)
-    print("合计 %d 处（%d 份）" % (tot, len(files)))
+    thin = sum(1 for r in rows if r[2] == "THIN")
+    act = tot - thin
+    print("合计 %d 处（%d 份）｜可追责 %d ｜细长条 THIN（源切片属性，informational）%d"
+          % (tot, len(files), act, thin))
     if "--csv" in sys.argv:
         import csv
         out = r"C:\Obsidion\妙妙屋\.workbuddy\tmp\opt_pipe\render_findings.csv"
