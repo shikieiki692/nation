@@ -29,7 +29,7 @@ OUTdocx = os.path.join('00-首页', '题组Word', '初赛模拟卷')
 SRCS = ['化英社', '清北营', 'chemy', '伽马', '壹尖培优', '汇智', 'XeChem', '质心GChO', '质心UChO', '方圆', '一式', '北京夏令营', '2ChO']
 # ── 卷号参数化（`--vol XI`；默认 X 保持向后兼容）＋计划读写分离 ───────────────
 ROMAN = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X',
-         'XI', 'XII', 'XIII', 'XIV', 'XV']
+         'XI', 'XII', 'XIII', 'XIV', 'XV', 'XVI']
 
 
 def _arg_vol():

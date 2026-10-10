@@ -1,0 +1,52 @@
+# -*- coding: utf-8 -*-
+"""按关键章节抽取知识点页（取『判据原句 + 迷思概念』），控制体量。
+用法: python xvi_kbkey.py <batch>
+"""
+import io, os, re, sys
+sys.stdout.reconfigure(encoding="utf-8")
+
+B = {
+ "b2r": ["无机和结构化学/晶体密度公式.md", "无机和结构化学/晶体结构.md",
+         "无机和结构化学/晶胞投影图分析.md"],
+ "b3": ["无机和结构化学/能带理论.md", "高中化学基础/分子极性与分子间作用力.md",
+        "无机和结构化学/点阵类型.md", "无机和结构化学/晶体对称性.md"],
+ "b4": ["化学原理/化学平衡.md", "化学原理/van't Hoff方程.md",
+        "决赛要求/物理化学深化/相变热力学.md", "决赛要求/物理化学深化/克拉佩隆方程.md",
+        "化学原理/溶度积.md"],
+ "b5": ["无机和结构化学/磁矩.md", "无机和结构化学/18电子规则.md",
+        "无机和结构化学/过渡金属羰基化合物.md", "分析化学/条件稳定常数.md",
+        "分析化学/分布分数.md"],
+ "b6": ["化学原理/Nernst方程.md", "分析化学/分光光度法.md",
+        "决赛要求/金属有机与超分子/金属有机化学基础.md", "无机和结构化学/配位化学.md"],
+}
+KEY = re.compile(r"核心|原理|关键结论|适用条件|限制|易错|易混|误区|判据|典型题型|关键|公式")
+LIMIT = 1500
+
+key = sys.argv[1]
+for rel in B[key]:
+    p = os.path.join("03-知识点", rel)
+    t = io.open(p, encoding="utf-8-sig").read()
+    if t.startswith("---"):
+        i = t.find("\n---", 3)
+        t = t[i + 4:] if i > 0 else t
+    lines = t.split("\n")
+    out, buf, grab = [], [], False
+    for ln in lines:
+        if ln.startswith("#"):
+            if buf:
+                out.append("\n".join(buf))
+                buf = []
+            grab = bool(KEY.search(ln))
+            if grab:
+                buf.append(ln)
+        elif grab:
+            buf.append(ln)
+    if buf:
+        out.append("\n".join(buf))
+    body = "\n\n".join(out)
+    if len(body) > LIMIT:
+        body = body[:LIMIT] + "\n…(截断)"
+    print("\n" + "=" * 78)
+    print("### KB: " + p)
+    print("=" * 78)
+    print(body.strip())

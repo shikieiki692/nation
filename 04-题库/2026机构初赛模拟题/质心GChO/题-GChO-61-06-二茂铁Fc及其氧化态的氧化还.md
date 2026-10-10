@@ -35,7 +35,7 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO61试题.md"
 
 二茂铁(Fc)及其氧化态( $Fc^{+}$ )的氧化还原电对，因其可以定量、快速的相互转化，且转化过程只涉及一个电子的转移，此电对常用作各种类型的电化学研究。
 
-已知 $\varphi^{\circ}(\mathrm{Fc}^{+}/\mathrm{Fc})=0.647\ \mathrm{V}$ 。
+已知 $\varphi^{\ominus}(\mathrm{Fc}^{+}/\mathrm{Fc})=0.647\ \mathrm{V}$ 。
 
 对于一个原电池反应(或电极反应)，其电动势(或电极电势)与标准电动势(或标准电极电势)的关系为:
 
@@ -55,7 +55,7 @@ FcX 表示不同的二茂铁的衍生物。300 K 下不同 X 对应的电池电�
 
 其中 FcTMA 为— $CH_{2}N^{+}Me_{3}$ 取代的二茂铁，FcHM 为羟甲基取代的二茂铁。
 
-6-1 导出 $\varphi^{\circ}(\mathrm{FcX}^{+}/\mathrm{FcX})$ 的表达式(用 $E$ 、 $\varphi^{\circ}(\mathrm{Fc}^{+}/\mathrm{Fc})$ 、各物种的浓度、各种常数等表示)，并代入表格中具体的电动势 $E$ 的数据求出后三种二茂铁衍生物对应的标准电极电势 $\varphi^{\circ}(\mathrm{FcX}^{+}/\mathrm{FcX})$ 的数值。(为了防止后续小问因为此小问计算错误连续翻车，这里给出 $\varphi^{\circ}(\mathrm{FcTMA}^{+}/\mathrm{FcTMA}) = 0.665\mathrm{V}$ ，你也可以用此条件检验你此小问导出的公式是否正确)
+6-1 导出 $\varphi^{\ominus}(\mathrm{FcX}^{+}/\mathrm{FcX})$ 的表达式(用 $E$ 、 $\varphi^{\ominus}(\mathrm{Fc}^{+}/\mathrm{Fc})$ 、各物种的浓度、各种常数等表示)，并代入表格中具体的电动势 $E$ 的数据求出后三种二茂铁衍生物对应的标准电极电势 $\varphi^{\ominus}(\mathrm{FcX}^{+}/\mathrm{FcX})$ 的数值。(为了防止后续小问因为此小问计算错误连续翻车，这里给出 $\varphi^{\ominus}(\mathrm{FcTMA}^{+}/\mathrm{FcTMA}) = 0.665\mathrm{V}$ ，你也可以用此条件检验你此小问导出的公式是否正确)
 
 6-2 计算 FcTMA 对应的原电池在放电达到平衡时 FcTMA 的平衡浓度[FcTMA] (mmol/L)。
 
@@ -69,9 +69,11 @@ $$
 \theta = \frac {K c}{1 + K c}
 $$
 
-其中， $\theta$ 为吸附分子的吸附百分比， $K$ 为上述吸附反应的平衡常数， $c$ 为吸附分子在溶液中的浓度。6-3用某吸附状态下 $\mathrm{FcTMA^{+} / FcTMA}$ 电对的电极电势 $\varphi$ ，标准电极电势 $\varphi^{\circ}$ ，吸附反应的 $K$ 和 $\theta$ 表示出此时 $[\mathrm{FcTMA^{+}}]$ 的计算式。(用已有物理量和一些常数表示)
+其中， $\theta$ 为吸附分子的吸附百分比， $K$ 为上述吸附反应的平衡常数， $c$ 为吸附分子在溶液中的浓度。
 
-6-4 如下实验在 300 K 下进行, $\left[\mathrm{FcTMA}^{+}\right]=1.000\ \mathrm{mmol/L}$ 。实验测得了一系列的 FcTMA 的吸附量 $v(\mathrm{mmol/m^{2}})$ 与此时相应的电极电势 $\varphi$ ，显然 $v=v_{max}\theta$ ，其中 $v_{max}$ 为最大吸附量，在温度不变时为常数。
+6-3 用某吸附状态下 $\mathrm{FcTMA^{+} / FcTMA}$ 电对的电极电势 $\varphi$ ，标准电极电势 $\varphi^{\ominus}$ ，吸附反应的 $K$ 和 $\theta$ 表示出此时 $[\mathrm{FcTMA^{+}}]$ 的计算式。(用已有物理量和一些常数表示)
+
+6-4 如下实验在 300 K 下进行, $\left[\mathrm{FcTMA}^{+}\right]=1.000\ \mathrm{mmol/L}$ 。实验测得了一系列的 FcTMA 的吸附量 $v(\mathrm{mmol/m^{2}})$ 与此时相应的电极电势 $\varphi$ ，显然 $v=v_{max}^{\ominus}$ ，其中 $v_{max}$ 为最大吸附量，在温度不变时为常数。
 
 <table><tr><td> $v(mmol/m^{2})$ </td><td>0.183</td><td>0.539</td><td>0.893</td><td>1.262</td><td>1.621</td></tr><tr><td> $\varphi(V)$ </td><td>0.743</td><td>0.708</td><td>0.686</td><td>0.644</td><td>0.629</td></tr></table>
 
@@ -165,7 +167,9 @@ $$
 \theta = \frac {K c}{1 + K c}
 $$
 
-其中， $\theta$ 为吸附分子的吸附百分比， $K$ 为上述吸附反应的平衡常数， $c$ 为吸附分子在溶液中的浓度。6-3用某吸附状态下 $\mathrm{FcTMA^{+} / FcTMA}$ 电对的电极电势 $\varphi$ ，标准电极电势 $\varphi^{\circ}$ ，吸附反应的 $K$ 和 $\theta$ 表示出此时 $[\mathrm{FcTMA^{+}}]$ 的计算式。(用已有物理量和一些常数表示)
+其中， $\theta$ 为吸附分子的吸附百分比， $K$ 为上述吸附反应的平衡常数， $c$ 为吸附分子在溶液中的浓度。
+
+6-3 用某吸附状态下 $\mathrm{FcTMA^{+} / FcTMA}$ 电对的电极电势 $\varphi$ ，标准电极电势 $\varphi^{\circ}$ ，吸附反应的 $K$ 和 $\theta$ 表示出此时 $[\mathrm{FcTMA^{+}}]$ 的计算式。(用已有物理量和一些常数表示)
 
 $$
 \theta = \frac {K c}{1 + K c}, \text {则} c = [ \mathrm{FcTMA} ] = \frac {1}{K} \frac {\theta}{1 - \theta}
