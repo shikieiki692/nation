@@ -11,6 +11,8 @@ qa_volX2 已覆盖：图守恒(md↔docx)、题标题数、字面 <table>、字�
   E 卷 md **常见 OCR 错字**（curated 词表）
   F 学生版 **「图指代词存在但该题无图」**（S1 卷级判据）
   G 学生版图集合 ⊆ 答案版图集合
+  I 交付 docx **每张图有效分辨率 ≥150dpi**（权威算法：读 word/media/ 实际像素
+    ÷ 渲染宽 cm；构建期 apply_dpi_cap 的守门人，见 SOP §五-h）
 
 用法：python -X utf8 qa_vol_deliver.py [--vol XIV] [--all]
 """
@@ -20,6 +22,11 @@ import os
 import re
 import sys
 import zipfile
+
+try:
+    from PIL import Image
+except Exception:                       # 缺 PIL 时判据 I 自动跳过（不阻断其余 7 判据）
+    Image = None
 
 sys.stdout.reconfigure(encoding="utf-8")
 ROOT = r"C:\Obsidion\妙妙屋"
@@ -42,6 +49,59 @@ TYPO = {
     "品胞": "晶胞", "品系": "晶系", "品体": "晶体", "中的中的": "中的",
     "设立方体": "设大立方体", "正前": "正确",
 }
+
+# ── 判据 I：图有效分辨率（与 probe_all_dpi.py 同源算法）────────────────────────
+MIN_DPI = 150.0
+DPI_BAD = 149.9                          # 与 probe_all_dpi.py 一致（容忍浮点/取整）
+EMU_CM = 360000
+DRAW_RE = re.compile(r"<w:drawing>.*?</w:drawing>", re.S)
+BLIP_RE = re.compile(r'<a:blip[^>]*r:embed="([^"]+)"')
+EXT_RE = re.compile(r'<wp:extent cx="(\d+)" cy="(\d+)"')
+RELS_RE = re.compile(r'<Relationship[^>]*Id="([^"]+)"[^>]*Target="([^"]+)"')
+
+
+def docx_dpi(p):
+    """→ (n_imgs, min_dpi, bad_list)。bad_list=[(dpi,px_w,px_h,cm_w)]，dpi<DPI_BAD。
+    算法：每张 <w:drawing> 取 r:embed → media 实际像素；取 wp:extent cx(EMU) → 渲染宽 cm；
+    dpi = px_w / (cm_w / 2.54)。"""
+    if Image is None:
+        return None
+    z = zipfile.ZipFile(p)
+    x = z.read("word/document.xml").decode("utf-8")
+    rels = z.read("word/_rels/document.xml.rels").decode("utf-8")
+    rid2t = {m.group(1): m.group(2) for m in RELS_RE.finditer(rels)}
+    cache = {}
+
+    def px(rid):
+        if rid in cache:
+            return cache[rid]
+        t = rid2t.get(rid, "")
+        name = t if t.startswith("word/") else "word/" + t.replace("../", "")
+        name = name.replace("word/word/", "word/")
+        try:
+            with Image.open(io.BytesIO(z.read(name))) as im:
+                cache[rid] = im.size
+        except Exception:
+            cache[rid] = None
+        return cache[rid]
+
+    rows = []
+    for d in DRAW_RE.findall(x):
+        b = BLIP_RE.search(d)
+        e = EXT_RE.search(d)
+        if not b or not e:
+            continue
+        wh = px(b.group(1))
+        if not wh:
+            continue
+        cm = int(e.group(1)) / EMU_CM
+        rows.append((wh[0] / (cm / 2.54), wh[0], wh[1], cm))
+    if not rows:
+        return (0, None, [])
+    rows.sort()
+    bad = [r for r in rows if r[0] < DPI_BAD]
+    return (len(rows), rows[0][0], bad)
+
 
 
 def vol_plan(v):
@@ -167,6 +227,28 @@ def check_vol(v):
     if ms - ma:
         issues.append(("G", "学生版有而答案版无的图 %d" % len(ms - ma)))
 
+    # I 图有效分辨率 ≥150dpi（构建期 apply_dpi_cap 的守门人；权威算法＝读 media 实际像素）
+    dpi_info = []
+    for tag, fn in (("学生版", "初赛模拟卷%s（非有机·学生版·真题版式）.docx" % v),
+                    ("答案版", "初赛模拟卷%s（非有机·答案与解析版·真题版式）.docx" % v),
+                    ("答题卡", "初赛模拟卷%s（非有机·答题卡）.docx" % v)):
+        p = os.path.join(DESK, fn)
+        if not os.path.exists(p):
+            continue
+        r = docx_dpi(p)
+        if r is None:
+            dpi_info.append("%s 跳过(无 PIL)" % tag)
+            continue
+        n, mn, bad = r
+        if n == 0:
+            continue
+        dpi_info.append("%s 最低 %.2f（图 %d）" % (tag, mn, n))
+        if bad:
+            issues.append(("I", "%s 有效分辨率 <150dpi %d 张（最低 %.1f｜例 %dx%dpx/%.2fcm）"
+                           % (tag, len(bad), bad[0][0], bad[0][1], bad[0][2], bad[0][3])))
+
+    if dpi_info:
+        print("  · dpi 核验：%s" % "｜".join(dpi_info))
     for k, m in issues:
         print("  ✗ [%s] %s" % (k, m))
     if not issues:
