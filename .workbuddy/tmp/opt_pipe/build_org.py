@@ -1210,6 +1210,110 @@ def write_vol(picks, flat, SC):
     return flat
 
 
+def why_not_in_pool(p):
+    """★ 2026-10-11：单卡「为什么不在池」——逐条复演 build_pool 的判定链，返回**首个**命中原因。
+
+    为什么需要：`build_org` 只说「计划内卡不在池中」，`vol_poolchk` 只说「掉池 N 张」，
+    实际定位要另写诊断脚本（本日实测：HZ-01-06「不在池」的真因是**漏带 --all-years**
+    ⇒ 年份硬闸把池压到 ~350）。有了本函数，掉池会直接给出闸门名。
+    返回 None ⇒ 该卡**在池内**（或文件不存在/SRCS 目录外，此时返回 '文件不存在或不在卡族目录'）。
+    """
+    rel = p.replace(os.sep, '/')
+    # ★ 路径归一化：EXCLUDE／SRCS 判定用**相对仓库根**的形式；
+    #   调用方可能传绝对路径（如 vol_poolchk 用 os.path.join(R, p)）⇒ 此处统一转换。
+    if os.path.isabs(rel) or re.match(r'^[A-Za-z]:/', rel):
+        try:
+            rel = os.path.relpath(rel, ROOT).replace(os.sep, '/')
+        except Exception:
+            pass
+    if rel in EXCLUDE:
+        return '排除清单（--exclude）'
+    if not os.path.exists(os.path.join(ROOT, rel) if not os.path.isabs(p) else p):
+        return '文件不存在'
+    # 是否落在 SRCS 卡族目录内
+    if not any(('/' + s + '/') in rel or rel.startswith('04-题库/2026机构初赛模拟题/' + s + '/')
+               for s in SRCS):
+        return '不在卡族目录（SRCS 之外）'
+    t = open(p, encoding='utf-8').read()
+
+    def g(k):
+        m = re.search(r'^' + k + r':\s*(.*)$', t, re.M)
+        return m.group(1).strip() if m else ''
+
+    mod, stage, diff = g('subject_module'), g('exam_stage'), int(g('difficulty') or 0)
+    src, norm, sf = g('source'), g('source_norm'), g('source_file')
+    _recent = 1 if in_2526(norm, sf) else 0
+    if _recent == 0 and not ALL_YEARS:
+        return '★年份闸（非 25–26；需 --all-years，否则池只有 ~350 张）'
+    if BATCH_BAD.search(norm):
+        return '讲稿批次（BATCH_BAD）'
+    if mod not in ('元素与分析', '结构化学', '化学原理') or stage == '省预赛':
+        return '模块=%s／省预赛（%.20s）' % (mod or '空', stage)
+    if diff < 4:
+        return '难度 %d < 4' % diff
+    if [x for x in B.RISK if x in t]:
+        return '含 RISK 字样：%s' % [x for x in B.RISK if x in t][:2]
+    h1m = re.search(r'^#\s+(.+)$', t, re.M)
+    h1 = h1m.group(1) if h1m else ''
+    tn = re.sub(r'<!--.*?-->', '', t, flags=re.S)
+    if B.is_cn_prelim(tn) and os.path.basename(p) not in load_pool_keep():
+        return 'is_cn_prelim（判为初赛范围外；可用 pool_keep 白名单放行）'
+    if B.ORG_CHAP.search(src) or B.ORG_CHAP.search(h1):
+        return 'ORG_CHAP（有机章节）'
+    try:
+        c = X.extract(p)
+    except Exception as e:
+        return 'extract 失败：%s' % e
+    rawq, rawa = c['question'], c['answer']
+    if PLACEHOLDER.search(rawq):
+        return '占位闸（题面占位符）'
+    if PLACEHOLDER.search(rawa) and '![' not in rawa:
+        _body = "\n".join(l for l in rawa.split("\n")
+                          if l.strip() and not NOTE_LINE.search(l.strip()))
+        if len(re.sub(r"\s+", "", _body)) < 25:
+            return '占位闸（答案仅注记、无实质）'
+    if has_fake_struct(rawa) or has_fake_struct(rawq):
+        return 'ASCII 假结构闸'
+    if (len(rawa) >= 400 and rawa.count('$') == 0 and rawq.count('$') >= 10
+            and '![' not in rawa and not re.search(r'[\u4e00-\u9fff]', rawa)):
+        return '公式乱码闸（答案近乎无中文）'
+    tm = re.search(r'^#{2,4}\s*第\s*[0-9一二三四五六七八九十]+\s*题\s*[.．、]?\s*'
+                   r'(?:[（(][^）)\n]*[）)])?\s*([^\n（(]{2,26}?)\s*(?:[（(]|$)', rawq, re.M)
+    _title = tm.group(1).strip() if tm else ''
+    if _title and LEAK.search(_title):
+        return '题名泄露（题名即讲解口播）'
+    if len(re.sub(r'\s+', '', rawq)) < 60 or len(re.sub(r'\s+', '', rawa)) < 25:
+        return '题面<60 字或答案<25 字'
+    q0 = conv_imgs(clean_q(rawq))
+    a0 = clean_a(conv_imgs(rawa), q0)
+    q, a = html_table_to_md(q0), html_table_to_md(a0)
+    if LEAK.search(q):
+        _own = own_qno(t, p)
+        _qchk = re.sub(r'^#{0,4}[^\S\n]*第[^\S\n]*%s[^\S\n]*[题題][^\n]*$' % num_alt(_own), '', q, flags=re.M)
+        if LEAK.search(_qchk):
+            return '题面泄露（LEAK 命中，见 铁律四）'
+    qn = re.sub(r'\s+', '', q); an = re.sub(r'\s+', '', a)
+    if len(an) < 25 or len(qn) < 60:
+        return '清洗后题面<60 或答案<25 字'
+    if len(B.ORGRE.findall(q + ' ' + a)) >= 3:
+        return '题面含 ≥3 处「有机」字样（ORGRE）'
+    if len(re.findall(r'^\*\*\s*\d{1,2}\s*[.．]\s*\*\*', q + '\n' + a, re.M)) >= 8:
+        return '含 ≥8 个加粗点号小问（讲稿式排版）'
+    if HANDWRITTEN.search(_HW_STRIP.sub(' ', q + ' ' + a)):
+        return '手写解析稿闸'
+    if '![[' not in a:
+        _an = re.sub(r'\s+', '', a); _qn = re.sub(r'\s+', '', q)
+        _r = contain_ratio(_an, _qn)
+        if len(_an) >= 40 and (_r >= 0.80 or (_r >= 0.70 and len(_an) * (1 - _r) < 80)):
+            return '答案可用闸：仅题干回显（ratio=%.2f）' % _r
+        if GARB2PAT.search(a):
+            return '答案可用闸：OCR 乱码宏'
+    _of = overflow_reason(q, a, own_qno(t, p))
+    if _of:
+        return '越界闸：%s' % _of
+    return None
+
+
 def load_plan_picks(pool, plan_path):
     """按既有计划重建 picks —— 内容取池中**最新版本**、**题序不变**。
 
@@ -1239,11 +1343,14 @@ def load_plan_picks(pool, plan_path):
                 if ('--lenient-plan-lock' in sys.argv) or ('--repick' in sys.argv):
                     print('  ⚠ 计划内卡不在池中（已 --repick/--lenient-plan-lock ⇒ 允许整卷重选）:', p)
                     return None
+                _why = why_not_in_pool(p)
                 raise PlanLockError(
-                    '计划内卡不在池中（被闸剔除或已删）：%s\n'
-                    '     处置：① python vol_poolchk.py --vol %s  → 定位掉池原因并修卡（推荐）；\n'
-                    '           ② 核对本次开关是否与建计划时一致（漏 --all-years 会把池压到 ~350）；\n'
-                    '           ③ 仅当确需换题：加 --repick 重选（旧计划将被覆盖）。' % (p, VOL))
+                    '计划内卡不在池中：%s\n'
+                    '     掉池原因：%s\n'
+                    '     处置：① python vol_poolchk.py --vol %s  → 复核并修卡；\n'
+                    '           ② 核对开关是否与建计划时一致（漏 --all-years 会把池压到 ~350）；\n'
+                    '           ③ 仅当确需换题：加 --repick 重选（旧计划将被覆盖）。'
+                    % (p, _why or '（未知：可能被删或不在卡族目录）', VOL))
             got.append(c)
         picks.append((mod, got))
     return picks or None

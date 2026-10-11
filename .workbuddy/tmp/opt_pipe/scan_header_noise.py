@@ -8,6 +8,7 @@
    本脚本按「卡的机构 = 该字样机构」加权：GChO 卡里的裸 `CHO/GChO` 行 ⇒ 高度可疑。
 """
 import glob
+import json
 import os
 import re
 import sys
@@ -39,8 +40,65 @@ for _i in INSTS:
     ALL_TOKENS.setdefault(_i, set()).add(_i)
 
 
+def scan_img_adjacent(p):
+    """★ 规则 B（2026-10-11 新增）：**图邻散字** —— 独占一行的短 token（≤8 字符、无中文/无 $/无 |）
+    且其 ±2 行内存在图片引用 ⇒ 高度疑似「图内标注被 OCR 抽成正文散字」（卷 XVI 的 CHO 即此类）。
+
+    为什么单列此规则：源页的结构图里常有 CHO/TMS/OTIPS/CN/Ph 等**图示标注**，OCR 会把它当正文行。
+    这类 token 多数情况下是**合法简写**，故本规则**只产候选**，定性一律回源目检。
+    """
+    t = open(p, encoding="utf-8-sig").read().replace("\r\n", "\n")
+    lines = t.split("\n")
+    img_idx = [i for i, l in enumerate(lines) if "![[" in l or "![](" in l]
+    hits = []
+    for i, l in enumerate(lines):
+        tok = l.strip()
+        if not tok or len(tok) > 8:
+            continue
+        if any(ch in tok for ch in "$|#>*`[]（）()。，；："):
+            continue
+        if not re.fullmatch(r"[A-Za-z][A-Za-z0-9]{0,7}", tok):
+            continue
+        near = [j for j in img_idx if abs(j - i) <= 2]
+        if not near:
+            continue
+        hits.append((i + 1, tok, near[0] + 1))
+    return hits
+
+
 def main():
     only = sys.argv[1] if len(sys.argv) > 1 else None
+    if "--img-adj" in sys.argv:
+        # 范围：默认 = 各卷计划锁内的卡（已交付件才需要真缺陷判定）；--all 才全库
+        if "--all" in sys.argv:
+            cards = sorted(glob.glob(os.path.join(BASE, "*", "题-*.md")))
+            scope = "全库 %d 张" % len(cards)
+        else:
+            cards, seen = [], set()
+            for f in sorted(glob.glob(os.path.join(R, ".workbuddy/tmp/opt_pipe", "vol_plan_*.json"))):
+                try:
+                    d = json.load(open(f, encoding="utf-8"))
+                except Exception:
+                    continue
+                for _m, lst in d:
+                    for c in lst:
+                        p = os.path.join(R, c["path"].replace("/", os.sep))
+                        if p not in seen and os.path.exists(p):
+                            seen.add(p)
+                            cards.append(p)
+            scope = "各卷计划锁内 %d 张（已交付）" % len(cards)
+        print("扫描范围：%s\n" % scope)
+        tot = 0
+        for p in cards:
+            hits = scan_img_adjacent(p)
+            if hits:
+                tot += len(hits)
+                print("▸ [%s] %s" % (os.path.basename(os.path.dirname(p)), os.path.basename(p)[:44]))
+                for ln, tok, imln in hits:
+                    print("    L%-5d 「%-8s」 邻图行 L%d" % (ln, tok, imln))
+        print("\n合计候选 %d 处 ｜ ⚠️ 只筛候选：多数 token 是合法简写，定性必须回源目检。" % tot)
+        return 0
+
     cards = sorted(glob.glob(os.path.join(BASE, "*", "题-*.md")))
     total = 0
     per_card = []

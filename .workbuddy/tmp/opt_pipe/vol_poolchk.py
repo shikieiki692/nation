@@ -41,7 +41,9 @@ for _mod, lst in plan:
 n = sum(len(l) for _, l in plan)
 print("卷 %s：计划 %d 张 ｜ 池内 %d 张 ｜ **掉池 %d 张**" % (A.vol, n, len(inpool), len(miss)))
 for p in miss:
+    why = BO.why_not_in_pool(os.path.join(R, p))       # ★ 2026-10-11：直接给出闸门原因
     print("   ✗ 掉池:", p)
+    print("        原因:", why or "（未知：可能被删／不在卡族目录）")
 print("池规模:", {m: len(pool[m]) for m in pool})
 if miss:
     print("\n⛔ 有卡掉池 ⇒ **禁止组卷**（会导致整卷重选）；先修卡或改计划锁。")
