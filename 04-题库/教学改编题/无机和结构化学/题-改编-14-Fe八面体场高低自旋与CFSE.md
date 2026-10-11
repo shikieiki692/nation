@@ -10,7 +10,7 @@ teaching_level: 拓展
 syllabus_codes: []
 knowledge_points: ["[[晶体场理论]]", "[[高自旋与低自旋]]", "[[CFSE]]"]
 tags: [化竞, 题库, 改编题, 配位化学, 结构化学]
-updated: 2026-07-04
+updated: 2026-10-11
 aliases: ["改编-原子-30", "Fe八面体场高低自旋与CFSE"]
 source: "第一轮结构化学主讲义替换存档（2026-07-03）"
 module: 配位化合物
@@ -39,8 +39,6 @@ source_norm: "教学改编题"
 (b) 画出两种情况下 $t_{2g}$ 和 $e_g$ 轨道的电子排布图  
 (c) 计算两种情况下的 CFSE（晶体场稳定化能）  
 (d) 解释为什么 CN⁻ 的场强比 H₂O 大得多
-
-![[7937fa3a4ad6d5d9124ba067bca2710abd9c4ab591c0e70741f298f0452bda78.png]]
 
 ## 参考答案
 

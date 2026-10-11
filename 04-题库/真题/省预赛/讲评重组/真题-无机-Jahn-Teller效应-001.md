@@ -11,7 +11,7 @@ knowledge_points: ["[[Jahn-Teller效应]]", "[[晶体场理论]]"]
 tags: [化竞, 真题, Jahn-Teller效应, 配合物, 晶体场理论]
 related_notes:
   - "[[专题-晶体与配合物深化]]"
-updated: 2026-09-19
+updated: 2026-10-11
 teaching_level: 拓展
 fidelity: 原书改写
 exam_stage: 省预赛
@@ -35,9 +35,6 @@ $\mathrm{Cu^{2+}}$（$d^9$）的六配位配合物几乎总是呈现拉长的八
 (2) 在拉长八面体场中，画出 $d$ 轨道能级分裂图，标出 9 个 $d$ 电子的排布。
 
 (3) 判断下列 $d$ 电子组态中哪些也会产生显著的 Jahn-Teller 畸变（八面体场）：$d^4$（高自旋）、$d^7$（低自旋）、$d^8$、$d^{10}$。简要说明理由。
-
-
-![[7937fa3a4ad6d5d9124ba067bca2710abd9c4ab591c0e70741f298f0452bda78.png]]
 
 ![[f89e4c238e305a028de1a6948f88e8e271b32284021b9432e65674ef6d8a9e9a.png]]
 

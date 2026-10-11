@@ -11,7 +11,7 @@ module: 化学原理
 syllabus_codes: [12]
 knowledge_points: ["[[晶体场理论]]", "[[高自旋与低自旋]]"]
 tags: [化竞, 配位化学, CFSE]
-updated: 2026-05-03
+updated: 2026-10-11
 status: 已填充
 exam_stage: 初赛
 subject_module: 结构化学
@@ -28,8 +28,6 @@ source_norm: "经典例题"
 > 来源：经典例题
 
 计算 $[\mathrm{CoF_6}]^{3-}$（高自旋）和 $[\mathrm{Co(NH_3)_6}]^{3+}$（低自旋）的晶体场稳定化能 CFSE。以 $\Delta_o$ 为单位表示。
-
-![[7937fa3a4ad6d5d9124ba067bca2710abd9c4ab591c0e70741f298f0452bda78.png]]
 
 ## 参考答案
 $\mathrm{Co^{3+}}$ 为 $d^6$ 组态。
