@@ -36,7 +36,7 @@ pool_scope: 有机化学
 
 甲烷单加氧酶（MMO) 可在常温常压下实现由甲烷到甲醇的一步氧化。仿照pMMO活性位点的结构，实验人员利用HL配体（结构如下图所示）合成出了一种三核铜配合物阳离子，并进一步测定了此催化剂催化氧化甲烷的机制。在本题的作答中，你需要用字母缩写来表示此配体
 
-NOH OH /
+![](images/da13efecbea6b204c1b129ec74e21d3f917ce1ea2fe6977d01e1ef6d64df2f56.jpg)
 
 4-1将HL与[Cu(MeCNA]ICIO4]在三乙胺作用下反应可得到前体络阳离子A，其与等当量量的氧气化合得到络离子B。B可将等当量甲烷氧化为甲醇， 随后自身转换为络离子C，最终C与还原剂作用后可重新得到A， 完成催化剂的再生。
 
@@ -67,7 +67,6 @@ NOH OH /
 ## 参考答案
 
 第 4 题 甲烷的单加氧氧化（22 分，占 11%）
-![](images/da13efecbea6b204c1b129ec74e21d3f917ce1ea2fe6977d01e1ef6d64df2f56.jpg)
 ![](images/2a9e3fe5012074b1ddb6c4d664c13444c0e2a5b5a6dde385d54bf550a3f787df.jpg)
 (2 分)
 <table><tr><td>B: LCu3(μ-O)2+ +7/3</td><td>C: LCu3(μ-O)+ +5/3</td></tr><tr><td colspan="2">(共4分,各1分)</td></tr></table>
