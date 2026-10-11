@@ -25,6 +25,11 @@ from concurrent.futures import ThreadPoolExecutor
 import pymupdf as fitz
 from PIL import Image
 
+try:                       # ★ 向量化 ink 统计（快 ~50×）；缺 numpy 时自动回退逐像素实现
+    import numpy as _np
+except Exception:          # pragma: no cover
+    _np = None
+
 sys.stdout.reconfigure(encoding="utf-8")
 D = r"C:\Obsidion\妙妙屋\00-首页\题组Word\初赛模拟卷\真题版式"
 SOFFICE = r"C:\Program Files\LibreOffice\program\soffice.exe"
@@ -44,7 +49,25 @@ THIN_LONG_MM = 30.0   # ★ 短边欠阈值但长边 ≥ 此 ⇒ 判「细长条
 
 
 def ink_stats(im):
-    g = im.convert("L")
+    """页墨量 + 外框墨量。★ 2026-10-11：numpy 向量化（原逐像素 Python 循环是整个闸门的瓶颈：
+    实测全量 24 份 14 分钟，其中绝大部分花在这里）——判据定义**逐字保持不变**，
+    仅换实现，故阈值无需重标定（用 render_baseline.json 做等价性验证）。"""
+    if _np is not None:
+        a = _np.asarray(im.convert("L"), dtype=_np.uint8)
+        h, w = a.shape
+        n = a.size
+        ink = float((a < 240).sum()) / n
+        if h > 2 * EDGE_ROW and w > 2 * EDGE_ROW:
+            top = a[:EDGE_ROW, :]
+            bot = a[h - EDGE_ROW:, :]
+            left = a[EDGE_ROW:h - EDGE_ROW, :EDGE_ROW]
+            right = a[EDGE_ROW:h - EDGE_ROW, w - EDGE_ROW:]
+            bpx = int((top < 240).sum() + (bot < 240).sum()
+                      + (left < 240).sum() + (right < 240).sum())
+        else:
+            bpx = int((a < 240).sum())
+        return ink, float(bpx) / (n if h else 1)
+    g = im.convert("L")                    # 回退：无 numpy 时用原逐像素实现
     w, h = g.size
     px = list(g.getdata())
     n = len(px)
@@ -183,7 +206,9 @@ def main():
             base = None
         if base:
             new, less = [], []
-            for name in sorted(set(cur) | set(base)):
+            # ★ 只比对**本次实测到**的 docx：跑子集（--vol/--one/--calib）时，
+            #   基线里有、本轮没测的文件不能被当成「改善」。
+            for name in sorted(cur):
                 for kind in sorted(set(cur.get(name, {})) | set(base.get(name, {}))):
                     a = base.get(name, {}).get(kind, 0)
                     b = cur.get(name, {}).get(kind, 0)
@@ -191,9 +216,13 @@ def main():
                         new.append("%s %s +%d" % (name[:32], kind, b - a))
                     elif b < a:
                         less.append("%s %s −%d" % (name[:32], kind, a - b))
+            skipped = sorted(set(base) - set(cur))
             print("── 与基线比对（只列**变化**；基线=%s）──" % os.path.basename(BASELINE))
             print("  新增/变差: " + ("；".join(new) if new else "无 ✅"))
             print("  消失/改善: " + ("；".join(less) if less else "无"))
+            if skipped:
+                print("  （本轮未测 %d 份，未参与比对：%s%s）"
+                      % (len(skipped), skipped[0][:30], "…" if len(skipped) > 1 else ""))
         else:
             print("（无基线文件；用 --baseline-write 建立）")
     if "--csv" in sys.argv:
