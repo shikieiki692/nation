@@ -35,6 +35,8 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO42试题.md"
 
 下图展示了某过渡元素 X 相关的转化，A\~I 都是含有 X 元素的化合物。
 
+![](images/7eb3f705d76fcc86149b7633400fb563a380208a743b42635c20ef80beb3a313.jpg)
+
 $$
 \begin{array}{c} \text { 北京质 } \\ \text { Center   Of   Mass } \\ \text { NH } _ {4} \mathrm{VO} _ {3} \\ \text { O } _ {2}, \text { heat } \\ \text { B } \xrightarrow {\text { H } _ {2} \mathrm{SO} _ {4} , \text { pH } \sim 3} \text { A } \xrightarrow {\text { H } _ {2} \mathrm{SO} _ {4} , \text { H } _ {2} \mathrm{C} _ {2} \mathrm{O} _ {4}} \text { D } \\ \text { Na } _ {2} \mathrm{CO} _ {3}, \text { heat } \\ \text { O } _ {2}, \text { heat } \\ \text { X, HCl } \\ \text { H } \xleftarrow {\text { NH } _ {3} \cdot \text { H } _ {2} \text { O }} \text { E } \xrightarrow {\text { CsHSO} _ {4}} \text { F } \\ \text { KHC } _ {2} \mathrm{O} _ {4} \\ \text { G } \end{array}
 $$
