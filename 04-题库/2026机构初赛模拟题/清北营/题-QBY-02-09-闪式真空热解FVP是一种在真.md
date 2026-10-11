@@ -93,8 +93,6 @@ pool_scope: 有机化学
 
 <table><tr><td rowspan="4">9-3</td><td rowspan="2"><img src="images/21ce0aae0120f705788fe242a2ef24cd8d44bbd87c60dfe2894c07d2924b217d.jpg"/></td><td rowspan="2"><img src="images/9aeb82acc578c6257ed74bc4d5943dec1677ab30e48d4b7c5149c58f3d47b101.jpg"/></td><td>J</td></tr><tr><td><img src="images/afe9ad28f691bd563c12491aec318a6b8a7c931194ddb0b489dea5f6d7517854.jpg"/></td></tr><tr><td>K</td><td>L</td><td></td></tr><tr><td><img src="images/fed8b809f880229cebbab6474c412bffbaab78a98ad0ebdbbc14d45ef311ab29.jpg"/></td><td><img src="images/23adc1dc2a5bca4d87d594eba4a888ae506764cf352e95a971c178b010bb1cac.jpg"/></td><td>其他合理共振式也可</td></tr></table>
 
-清北营教育
-清北营教育
 
 ## 知识点映射
 
