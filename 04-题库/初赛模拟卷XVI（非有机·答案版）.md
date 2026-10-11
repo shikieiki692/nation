@@ -672,7 +672,7 @@ Cu(I)由于具有灵活多变的配位数，在配体存在时该物种常常形
 
 （3 分）
 
-更温和的反应条件和 $\mathrm{NaHSO_{3}}$ 的溶液避免了 $(\mathrm{CN})_{2}$ 的释放（2 分）
+更温和的反应条件和 $\mathrm{NaHSO_{3}}$ 的添加避免了 $(\mathrm{CN})_{2}$ 的释放（2 分）
 6-2 将 200 mg CuCN 于 70°C 溶解于 10 mL 的 DMSO，在室温下静置一周后得到两种晶体，其化学式分别为 CuCN·DMSO 和 2CuCN·DMSO。
 
 ![[966c089979d3ffeb591ed443433b0c94ecec9127a30d3d6ba29f4ab0718b7c81.jpg]]
