@@ -1349,6 +1349,27 @@ def main():
         except Exception as e:
             print('  ⚠ 读既往计划失败 %s: %s' % (os.path.basename(pf), e))
     print('  ── 既往卷已用卡 %d 张（已从池中排除）' % len(used))
+    # ★ P2-9（2026-10-11）：旧格式 `.workbuddy/tmp/vol_plan.json`（dict，键=卷号，含卷 VI~IX）
+    #   也种进 used —— 该文件用的是**教材习题族**卡（与机构族零重叠，故对现有选题无影响），
+    #   但将来若从教材习题族组卷、或机构回收了同一道教材题，这层种子能挡住重题。
+    #   实测：卷 VI~IX 共 64 张，与 X~XVI 计划重叠 0。
+    _legacy = os.path.join(os.path.dirname(HERE), 'vol_plan.json')
+    _n0 = len(used)
+    if os.path.exists(_legacy):
+        try:
+            _d = json.load(open(_legacy, encoding='utf-8'))
+            _items = []
+            if isinstance(_d, dict):
+                for _v in _d.values():
+                    _items += list(_v)
+            else:
+                _items = list(_d)
+            for _mod, _lst in _items:
+                for _c in _lst:
+                    used.add(_c['path'].replace('\\', '/'))
+            print('  ── 旧格式 vol_plan.json（卷 VI~IX 等）补种 %d 张' % (len(used) - _n0))
+        except Exception as e:
+            print('  ⚠ 旧格式计划读取失败（忽略）:', e)
     # ★ 跨卷同题去重：把既往卷卡片的**题面指纹**也种进 fps（机构会跨批次回收旧题）
     fps0 = []
     for p in used:
