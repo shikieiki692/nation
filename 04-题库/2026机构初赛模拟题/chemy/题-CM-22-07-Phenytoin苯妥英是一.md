@@ -87,8 +87,6 @@ Benzaldehyde 是一种具有着强烈杏仁味的液体，密度约为 1.04 g/mL
 
 7-1（结构2分，解释1分，共3分）
 
-CHO
-
 ## A 苯甲醛被空气氧化
 
 紧接着准备下一步实验的装置, 称取氢氧化钠 $10 \mathrm{~g}$ , 用 $90 \mathrm{~mL}$ 水稀释配成溶液, 随后冰浴降温至至 $7^{\circ} \mathrm{C}$ 左右备用。随后称取 Thiamine Hydrochloride (盐酸硫胺素) $3.5 \mathrm{~g}$ , 溶于 $10 \mathrm{~mL}$ 水后再补入 $30 \mathrm{~mL}$ 的无水乙醇。然后便可以准备搭建反应器材了: 在三颈烧瓶中加入所有的 Thiamine Hydrochloride 溶液并准备冰浴, 逐渐滴入已经冰冷的氢氧化钠溶液, 在这个阶段要不断用 $\mathrm{pH}$ 试纸监测 $\mathrm{pH}$ , 直至 $\mathrm{pH}$ 为 $9 \sim 10$ 时停止, 在此刻溶液应当保持为金黄色。随后加入前面新蒸的 $18 \mathrm{~mL}$ Benzaldehyde, 搭建回流装置。
@@ -147,6 +145,5 @@ Step3: the Synthesis of Phenytoin
 ## 知识点映射
 
 - （待人工校准）
-
 
 > ⚠️ **自动拆卡标记**：`subject_module`/`difficulty` 为关键词粗判，答案数值与单位**尚未经人工复核**（OCR 原文逐字转录，可能保留原卷笔误）。

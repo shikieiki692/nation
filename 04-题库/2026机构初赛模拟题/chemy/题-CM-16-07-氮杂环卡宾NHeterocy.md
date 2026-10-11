@@ -85,8 +85,6 @@ $$
 
 7- 1- 2 （共4分，各2分）
 
-CHO
-
 ![](images/ba5881727887c221e77fd83e715351eca2558ee021480c6823c08cae9bdfe5f9.jpg)
 
 7-2 Wanzlick 认为, NHC 单体与二聚体之间存在可逆的解离平衡, 这个平衡被称为 Wanzlick 平衡。1999 年, Denk 报道了四氨基乙烯之间的 crossover 反应 (Ar = 对甲基苯基):

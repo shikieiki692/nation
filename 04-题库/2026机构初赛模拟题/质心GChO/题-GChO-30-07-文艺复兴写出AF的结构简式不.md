@@ -39,7 +39,6 @@ source_file: "2026机构初赛模拟题/01-质心GChO/ZCHEM-GChO30试题.md"
 
 ![](images/340330c620d0b7997449ce74a73571e62063315156190a421cc2ad8ec97004a9.jpg)
 
-CHO
 
 A
 

@@ -169,7 +169,8 @@ def main():
         files = [f for f in files if key in f]
     elif "--vol" in sys.argv:                      # ★ P1-5：`--vol XVI` 别名（防被静默忽略）
         key = "卷%s" % sys.argv[sys.argv.index("--vol") + 1]
-        files = [f for f in files if key in f]
+        # ★ 2026-10-11 修：子串匹配会把 `--vol X` 连带匹配「卷XV/卷XVI」⇒ 用「卷X（」定界
+        files = [f for f in files if (key + "（") in f] or [f for f in files if key in f]
         if not files:
             print("⛔ --vol 未匹配到任何 docx：%s" % key)
             return 2
