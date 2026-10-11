@@ -8,7 +8,7 @@
 - 券末清单用**格式 C**（卷内题号|题名|题卡|来源|模块|难度|分值），题卡列**纯短名**
 用法：python build_org.py [--check|--apply]
 """
-import re, sys, os, glob, collections, json, difflib
+import re, sys, os, glob, collections, json, difflib, time
 sys.stdout.reconfigure(encoding='utf-8')
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
@@ -1214,6 +1214,11 @@ def load_plan_picks(pool, plan_path):
     """按既有计划重建 picks —— 内容取池中**最新版本**、**题序不变**。
 
     用途：回源补录/修卡后重出同一卷，选题不漂移（不依赖排序稳定性）。
+
+    ★ 2026-10-11（P0-1）：计划内卡不在池时**抛 PlanLockError**（默认），
+      不再静默回落 `pick_vol` 整卷重选——实测漏带 `--all-years` 时年份硬闸把池压到
+      ~350，于是「计划卡不在池 ⇒ 整卷重选」会打印一份**完全不同的计划**（机构数/题号全变），
+      只在 stdout 留一行 `⚠ 计划内卡不在池中`，极易被当成噪声忽略。
     """
     by_path = {}
     for _m in pool:
@@ -1231,11 +1236,82 @@ def load_plan_picks(pool, plan_path):
             p = item['path'].replace('\\', '/')
             c = by_path.get(p)
             if c is None:
-                print('  ⚠ 计划内卡不在池中（被闸剔除或已删）:', p)
-                return None
+                if ('--lenient-plan-lock' in sys.argv) or ('--repick' in sys.argv):
+                    print('  ⚠ 计划内卡不在池中（已 --repick/--lenient-plan-lock ⇒ 允许整卷重选）:', p)
+                    return None
+                raise PlanLockError(
+                    '计划内卡不在池中（被闸剔除或已删）：%s\n'
+                    '     处置：① python vol_poolchk.py --vol %s  → 定位掉池原因并修卡（推荐）；\n'
+                    '           ② 核对本次开关是否与建计划时一致（漏 --all-years 会把池压到 ~350）；\n'
+                    '           ③ 仅当确需换题：加 --repick 重选（旧计划将被覆盖）。' % (p, VOL))
             got.append(c)
         picks.append((mod, got))
     return picks or None
+
+
+# ── ★ 计划锁 sidecar（P0-1/P0-2/P0-3，2026-10-11）───────────────────────────
+# 病根（卷 XVI 实测三起「静默」事故）：
+#   ① 漏带 `--all-years` ⇒ 池从 1895 压到 ~350 ⇒ 计划卡「不在池」⇒ **整卷重选**；
+#   ② 卷级后处理补丁（卷 XVI 的 21 列颜色表网格修复）重建 docx 后漏跑 ⇒ 所有闸门都不报；
+#   ③ OCR 碎片重建的文字（卷 XVI 6-1-2「溶液/添加」）无回源比对清单，靠人工「仔细检查」兜。
+# 对策：把「建计划的池开关 / 卷级补丁 / 重建待核清单」写进 vol_meta_<卷>.json，重放时硬校验。
+META_OUT = os.path.join(HERE, 'vol_meta_%s.json' % VOL)
+
+
+class PlanLockError(RuntimeError):
+    """计划锁冲突（默认拒绝整卷重选）。"""
+
+
+def _sel_flags():
+    """本次实际影响「选题池／选题顺序」的开关（与计划锁记录比对用）。"""
+    f = []
+    if ALL_YEARS:
+        f.append('--all-years')
+    if CALC_BIAS:
+        f.append('--calc-bias')
+    for a in sys.argv:
+        if a == '--exclude' or a.startswith('--exclude='):
+            f.append('--exclude')
+            break
+    for a in sys.argv:
+        if a == '--target' or a.startswith('--target='):
+            f.append('--target')
+            break
+    if '--quota' in sys.argv:
+        f.append('--quota')
+    return sorted(set(f))
+
+
+def load_meta():
+    try:
+        return json.load(open(META_OUT, encoding='utf-8'))
+    except Exception:
+        return {}
+
+
+def save_meta(**kw):
+    m = load_meta()
+    m.update(kw)
+    json.dump(m, open(META_OUT, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    return m
+
+
+def report_meta():
+    """打印「卷级补丁」「重建待核清单」——交付前应当看见的两张清单。"""
+    m = load_meta()
+    if not m:
+        return
+    rl = m.get('rebuild_flags') or []
+    if rl:
+        print('  ── ★ 「重建待核」清单 %d 条（OCR 碎片重建的文字 ⇒ 交付前**逐条回源核字**）：' % len(rl))
+        for it in rl:
+            print('     · %-46s ｜ %s' % (it.get('card', '?'), it.get('note', '')))
+    pp = m.get('post_patches') or []
+    if pp:
+        print('  ── ★ 卷级后处理补丁 %d 个（build_volX_zhenti 会自动串行执行并校验）：' % len(pp))
+        for it in pp:
+            print('     · %-46s ｜ %s' % (it.get('script', '?'), it.get('why', '')))
+
 
 
 def main():
@@ -1282,10 +1358,25 @@ def main():
     print('  ── 既往卷题面指纹 %d 个（跨卷同题将不再入选）' % len(fps0))
     picks = None
     if '--repick' not in sys.argv and os.path.exists(PLAN_OUT):
-        picks = load_plan_picks(pool, PLAN_OUT)
+        # ★ P0-1：先校验「建计划时的池开关」与本次一致（防静默换卷）
+        _meta = load_meta()
+        _want, _have = _meta.get('flags'), _sel_flags()
+        if _want is not None and sorted(_want) != sorted(_have) \
+                and '--allow-flag-mismatch' not in sys.argv:
+            print('  ⛔ [plan-lock] 建计划时开关 %s ≠ 本次 %s' % (_want, _have))
+            print('     ⇒ 拒绝继续：池口径不同会让计划卡「不在池」并**静默整卷重选**。')
+            print('       处置：① 补上原开关重跑（如 --all-years）；② 确要按新开关重选：加 --repick。')
+            sys.exit(3)
+        try:
+            picks = load_plan_picks(pool, PLAN_OUT)
+        except PlanLockError as e:
+            print('  ⛔ [plan-lock]', e)
+            print('     ⇒ 已按「不自动重选」退出（铁律四：整卷被悄悄换掉比报错更危险）。')
+            sys.exit(4)
         if picks:
             print('  ── [plan-lock] 按 %s 重建（%d 题，内容取池中最新）'
                   % (os.path.basename(PLAN_OUT), sum(len(g) for _, g in picks)))
+    report_meta()
     if picks is None:
         picks = pick_vol(pool, used, max_per_src=4, fps0=fps0)
     flat = [(mod, c, i) for mod, got in picks for i, c in enumerate(got, 1)]
@@ -1308,7 +1399,12 @@ def main():
                    for mod, got in picks],
                   open(PLAN_OUT, 'w', encoding='utf-8'),
                   ensure_ascii=False, indent=1)
-        print('  [plan] 已固化 %s' % os.path.basename(PLAN_OUT))
+        # ★ P0-1：固化本次「池开关」+ 题数（post_patches / rebuild_flags 由人工登记，此处保留）
+        save_meta(flags=_sel_flags(), written=time.strftime('%Y-%m-%dT%H:%M:%S'),
+                  n=len(flat), vol=VOL, total=total,
+                  orgs=sorted({c['src_dir'] for _, c, _ in flat}))
+        print('  [plan] 已固化 %s ＋ %s（flags=%s）'
+              % (os.path.basename(PLAN_OUT), os.path.basename(META_OUT), _sel_flags()))
 
 
 if __name__ == '__main__':

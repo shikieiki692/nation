@@ -85,9 +85,12 @@ def patch_xml(xml: str) -> tuple[str, bool]:
 
 
 def main():
+    # ★ 2026-10-11：备份写到 tmp（此前写在交付目录，会留 *.bak_tbl 污染 00-首页/题组Word/…）。
+    bakdir = Path(__file__).resolve().parent / "_bak_tbl"
+    bakdir.mkdir(exist_ok=True)
     for f in FILES:
         assert f.exists(), f
-        bak = f.with_suffix(".docx.bak_tbl")
+        bak = bakdir / (f.name + ".bak_tbl")
         shutil.copy2(f, bak)
         zin = zipfile.ZipFile(bak)
         items = zin.infolist()
@@ -101,7 +104,7 @@ def main():
                 data = xml2.encode("utf-8") if it.filename == "word/document.xml" else zin.read(it.filename)
                 zout.writestr(it, data)
         zin.close()
-        print(f"[OK] {f.name}：网格 21 列已重写（col0={COL0}, 数据列均分, 边距 {MAR}tw）")
+        print(f"[OK] {f.name}：网格 21 列已重写（col0={COL0}, 数据列均分, 边距 {MAR}tw）｜备份 {bak.name}")
 
 
 if __name__ == "__main__":

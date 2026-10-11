@@ -8,10 +8,20 @@
   HEAVY  过黑（ink > HEAVY_T —— 整页图糊/过大）
   LEAK   页文本出现未渲染 LaTeX 宏（\\mathrm / \\frac / \\text{）或字面 `$`
 
-用法：python qa_vol_render.py [--calib]      # --calib 只跑 XIV/XV（基线校准）
-      python qa_vol_render.py                # 全量 21 份
+用法：python qa_vol_render.py [--calib]            # --calib 只跑 XIV/XV（基线校准）
+      python qa_vol_render.py --vol XVI            # ★ 只跑本卷（26 份 → 3 份，省时）
+      python qa_vol_render.py --one 卷XVI
+      python qa_vol_render.py --baseline-write      # 把当前结果写成基线（render_baseline.json）
+      python qa_vol_render.py                       # 全量（与基线比对，只突出**新增**项）
+
+★ 2026-10-11（P1-5）：① 支持 `--vol <卷>`（此前只有 `--one`，用 `--vol` 会被静默忽略而跑全量）；
+  ② 转换与逐页分析**多线程**（LibreOffice 每份一个进程 ⇒ 线程池即可，实测 14min → ~4min）；
+  ③ 结果与 `render_baseline.json` 比对，**只报新增/减少**——闸门用途是「发现新增」，
+     全量罗列会把既有信息性项（THIN 等）淹没。
 """
-import glob, os, re, subprocess, sys, tempfile, io
+import glob, os, re, subprocess, sys, tempfile, io, json
+from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor
 import pymupdf as fitz
 from PIL import Image
 
@@ -19,6 +29,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 D = r"C:\Obsidion\妙妙屋\00-首页\题组Word\初赛模拟卷\真题版式"
 SOFFICE = r"C:\Program Files\LibreOffice\program\soffice.exe"
 TMP = r"C:\Obsidion\妙妙屋\.workbuddy\tmp\opt_pipe\render_gate_out"
+BASELINE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "render_baseline.json")
 
 DPI = 100
 BLANK_T = 0.0020      # ink 低于此 ⇒ 空白页
@@ -61,11 +72,16 @@ def one(p):
             os.remove(f)
         except Exception:
             pass
-    subprocess.run([SOFFICE, "--headless", "--convert-to", "pdf", "--outdir", out, p],
+    # ★ P1-5：每份一个独立 LibreOffice profile —— 否则多线程并发会互相抢单实例锁
+    #   （实测 3 并发时 PDF 生成失败）；路径用 as_uri() 保证 Windows 下格式正确。
+    prof = os.path.join(TMP, "_lo_profile", name[:40])
+    os.makedirs(prof, exist_ok=True)
+    subprocess.run([SOFFICE, "-env:UserInstallation=%s" % Path(prof).as_uri(),
+                    "--headless", "--convert-to", "pdf", "--outdir", out, p],
                    capture_output=True, timeout=600)
     pdfs = glob.glob(os.path.join(out, "*.pdf"))
     if not pdfs:
-        return name, -1, [("PDF 生成失败",)]
+        return name, -1, [("PDF 生成失败", 0, "")]
     d = fitz.open(pdfs[0])
     issues = []
     for i in range(d.page_count):
@@ -111,6 +127,15 @@ def one(p):
     return name, n, issues
 
 
+def summarize(rows):
+    """rows → {docx: {类型: 计数}}（基线比对用）。"""
+    d = {}
+    for name, _page, kind, _detail in rows:
+        d.setdefault(name, {})
+        d[name][kind] = d[name].get(kind, 0) + 1
+    return d
+
+
 def main():
     calib = "--calib" in sys.argv
     files = sorted(glob.glob(os.path.join(D, "*.docx")))
@@ -119,26 +144,58 @@ def main():
     if "--one" in sys.argv:
         key = sys.argv[sys.argv.index("--one") + 1]
         files = [f for f in files if key in f]
+    elif "--vol" in sys.argv:                      # ★ P1-5：`--vol XVI` 别名（防被静默忽略）
+        key = "卷%s" % sys.argv[sys.argv.index("--vol") + 1]
+        files = [f for f in files if key in f]
+        if not files:
+            print("⛔ --vol 未匹配到任何 docx：%s" % key)
+            return 2
     rows = []
-    print("闸门参数：BLANK<%.4f  HEAVY>%.2f  EDGE(row=%d)>%.4f" % (BLANK_T, HEAVY_T, EDGE_ROW, EDGE_T))
+    print("闸门参数：BLANK<%.4f  HEAVY>%.2f  EDGE(row=%d)>%.4f ｜ 并行 3"
+          % (BLANK_T, HEAVY_T, EDGE_ROW, EDGE_T))
     tot = 0
-    for i, f in enumerate(files, 1):
-        name, n, issues = one(f)
-        tag = ("%d 页" % n) if n > 0 else "—"
-        print("%-52s %-7s %s" % (name[:50], tag, ("%d 处" % len(issues)) if issues else "✅"))
-        by = {}
-        for it in issues:
-            by.setdefault(it[0], []).append(it[1:])
-        for k, v in sorted(by.items()):
-            print("      %-6s ×%-3d 例 %s" % (k, len(v), v[0]))
-        for it in issues:
-            rows.append([name, it[1], it[0], it[2] if len(it) > 2 else ""])
-        tot += len(issues)
+    with ThreadPoolExecutor(max_workers=3) as ex:      # ★ P1-5：LibreOffice 每份一进程 ⇒ 并行
+        for i, (name, n, issues) in enumerate(ex.map(one, files), 1):
+            tag = ("%d 页" % n) if n > 0 else "—"
+            print("%-52s %-7s %s" % (name[:50], tag, ("%d 处" % len(issues)) if issues else "✅"))
+            by = {}
+            for it in issues:
+                by.setdefault(it[0], []).append(it[1:])
+            for k, v in sorted(by.items()):
+                print("      %-6s ×%-3d 例 %s" % (k, len(v), v[0]))
+            for it in issues:
+                rows.append([name, it[1] if len(it) > 1 else 0, it[0],
+                             it[2] if len(it) > 2 else ""])
+            tot += len(issues)
     print("=" * 78)
     thin = sum(1 for r in rows if r[2] == "THIN")
     act = tot - thin
     print("合计 %d 处（%d 份）｜可追责 %d ｜细长条 THIN（源切片属性，informational）%d"
           % (tot, len(files), act, thin))
+    cur = summarize(rows)
+    if "--baseline-write" in sys.argv:
+        json.dump(cur, open(BASELINE, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        print("→ 基线已写入 %s" % os.path.basename(BASELINE))
+    else:
+        try:
+            base = json.load(open(BASELINE, encoding="utf-8"))
+        except Exception:
+            base = None
+        if base:
+            new, less = [], []
+            for name in sorted(set(cur) | set(base)):
+                for kind in sorted(set(cur.get(name, {})) | set(base.get(name, {}))):
+                    a = base.get(name, {}).get(kind, 0)
+                    b = cur.get(name, {}).get(kind, 0)
+                    if b > a:
+                        new.append("%s %s +%d" % (name[:32], kind, b - a))
+                    elif b < a:
+                        less.append("%s %s −%d" % (name[:32], kind, a - b))
+            print("── 与基线比对（只列**变化**；基线=%s）──" % os.path.basename(BASELINE))
+            print("  新增/变差: " + ("；".join(new) if new else "无 ✅"))
+            print("  消失/改善: " + ("；".join(less) if less else "无"))
+        else:
+            print("（无基线文件；用 --baseline-write 建立）")
     if "--csv" in sys.argv:
         import csv
         out = r"C:\Obsidion\妙妙屋\.workbuddy\tmp\opt_pipe\render_findings.csv"
@@ -147,7 +204,8 @@ def main():
             w.writerow(["docx", "页", "类型", "细节"])
             w.writerows(rows)
         print("→", out)
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main() or 0)

@@ -1,0 +1,36 @@
+{
+ "flags": [
+  "--all-years"
+ ],
+ "vol": "XVI",
+ "n": 16,
+ "backfilled": "2026-10-11",
+ "post_patches": [
+  {
+   "script": "xvi_tbl_color_fix.py",
+   "why": "修「21 列颜色汉字波长表」的 pandoc 网格错误（20 根 gridCol×600tw 溢出版心 9752tw ⇒ LO 压缩致波长 950 折成 95/0）；重建 docx 后**必须**重跑，漏跑所有闸门都不报",
+   "added": "2026-10-11"
+  }
+ ],
+ "rebuild_flags": [
+  {
+   "card": "题-HZ-01-06-CuI由于具有灵活多变的配位",
+   "where": "答案区 6-1-2",
+   "note": "源答案句在 OCR md 中整句丢失（只剩 $$NaHSO_3$$/$$(CN)_2$$ 两块漂移公式）⇒ 2026-10-11 据残留重建为散文句；已回源目检（汇智《长沙化学刷初赛模拟1》答案册 p7）逐字核对为「更温和的反应条件和 NaHSO₃ 的添加避免了 (CN)₂ 的释放」",
+   "status": "已回源核对"
+  },
+  {
+   "card": "题-QBY-16-05-液体中的起泡现象广泛存在于多",
+   "where": "答案区 10-5 附近（L157-159）",
+   "note": "rebuild_frag_scan 候选：独占行 $$\\sqrt{3}$$ 块——上下文（「临界半径为…气泡半径的 √3 倍」）已用行内式复述同一结论 ⇒ 属**源卷自身的重复显示**，语义无损，良性",
+   "status": "良性（已分诊）"
+  }
+ ],
+ "rebuild_scan": {
+  "tool": "rebuild_frag_scan.py",
+  "date": "2026-10-11",
+  "scope": "卷 XVI 计划锁 16 张",
+  "candidates": 1,
+  "defects": 0
+ }
+}

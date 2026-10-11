@@ -194,6 +194,48 @@ def prepare_media():
     return len(need), missing
 
 
+META = VAULT / ".workbuddy" / "tmp" / "opt_pipe" / ("vol_meta_%s.json" % VOL)
+
+
+def run_post_patches() -> int:
+    """★ P0-2（2026-10-11）：按 vol_meta_<卷>.json 的 post_patches 串行执行**卷级后处理补丁**。
+
+    病根：卷级补丁（如卷 XVI 的「21 列颜色表 pandoc 网格修复」）必须在本脚本**重建 docx 之后**
+          再跑，但没有任何环节强制它 —— 漏跑时**所有闸门都不报**（折行审计不感知显式 tblCellMar），
+          交付件会静默带缺陷。
+    对策：把补丁登记进计划 sidecar（`post_patches`），由本脚本自动串行执行并**校验退出码**；
+          补丁脚本缺失或失败 ⇒ 明确报错并返回非 0，绝不「静默交付未打补丁的 docx」。
+    """
+    import json
+    import subprocess
+    try:
+        meta = json.loads(META.read_text(encoding="utf-8"))
+    except Exception:
+        return 0
+    patches = meta.get("post_patches") or []
+    if not patches:
+        return 0
+    print("\n卷级后处理补丁 %d 个（登记于 %s）：" % (len(patches), META.name))
+    for it in patches:
+        script = it.get("script") or ""
+        path = VAULT / ".workbuddy" / "tmp" / "opt_pipe" / script
+        if not path.exists():
+            print("  ⛔ 补丁脚本缺失：%s ⇒ 交付件可能带缺陷，请先补齐脚本" % script)
+            return 2
+        r = subprocess.run([sys.executable, "-X", "utf8", str(path)],
+                           cwd=str(VAULT), capture_output=True, text=True,
+                           encoding="utf-8", errors="replace")
+        ok = r.returncode == 0
+        print("  %s %s ｜ %s" % ("[OK]  " if ok else "[FAIL]", script, it.get("why", "")))
+        for line in (r.stdout or "").strip().splitlines()[-4:]:
+            print("        " + line)
+        if not ok:
+            print("        " + (r.stderr or "").strip()[-400:])
+            print("  ⛔ 补丁失败 ⇒ 请修复后重跑本脚本（勿带未打补丁的 docx 交付）")
+            return 3
+    return 0
+
+
 def main():
     only_ans = "--answer" in sys.argv
     only_stu = "--student" in sys.argv
@@ -256,6 +298,9 @@ def main():
         if t:
             done.append(t)
     print("\n完成 %d 个：%s" % (len(done), Z.OUTDIR))
+    rc = run_post_patches()
+    if rc:
+        return rc
     return 0
 
 
