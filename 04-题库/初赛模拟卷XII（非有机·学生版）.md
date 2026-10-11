@@ -210,8 +210,6 @@ $$
 
 (本题忽略各物质热容影响, 认为 $\mathrm{HNO}_{3}$ 完全电离)
 
-## 第2页,共6页
-
 10-1 硝酸的生产使用现代版的 Ostwald 法，该法首先经两步反应将 $\mathrm{NH}_{3}(\mathrm{~g})$ 氧化成 $\mathrm{NO}_{2}(\mathrm{~g})$ 。请写出总反应的热化学方程式，并计算 $\Delta_{r}H_{m}^{\ominus}$ 、 $\Delta_{r}S_{m}^{\ominus}$ 、 $\Delta_{r}G_{m}^{\ominus}$ 。(T = 298.15 K)
 
 10-2 随后，在加热条件下将 $\mathrm{NO}_2(\mathrm{g})$ 溶于水得到 $\mathrm{HNO}_3$ ，请写出该反应的热化学方程式，并计算 $\Delta_{\mathrm{r}}\mathrm{G}_{\mathrm{m}}^{\ominus}$ 以及标准平衡常数 $\mathrm{K}^{\ominus}$ 。（T = 348.15 K）

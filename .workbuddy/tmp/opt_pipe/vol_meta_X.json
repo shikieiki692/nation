@@ -4,5 +4,19 @@
  ],
  "vol": "X",
  "n": 16,
- "backfilled": "2026-10-11"
+ "backfilled": "2026-10-11",
+ "md_patches": [
+  {
+   "script": "multi_vol_fix.py",
+   "why": "第 13 题小问号 6.x→13-x（源卷号未随卷重编）",
+   "apply": "python multi_vol_fix.py --apply",
+   "added": "2026-10-12"
+  },
+  {
+   "manual": true,
+   "why": "答案版第 15 题 `## 18（1分）` 去误置标题标记（渲染成居中标题）",
+   "apply": "`## 18（1分）` → `18（1分）`",
+   "added": "2026-10-12"
+  }
+ ]
 }

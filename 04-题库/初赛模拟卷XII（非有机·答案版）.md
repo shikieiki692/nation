@@ -481,7 +481,7 @@ $$
 
 **8-1** 可以先由实验数据计算得到平衡吸附量:  $q_{A} = 3.39 \text{ mmol/g}$ ,  $q_{B} = 4.12 \text{ mmol/g}$ 由 Langmuir 等温式,可得: $\frac{P}{q} = \frac{1}{q_{m}b} + \frac{P}{q_{m}}$  $q_{m} = \frac{P_{B}-P_{A}}{\frac{P_{B}}{q_{B}} - \frac{P_{A}}{q_{A}}} = 5.06 \text{ mmol/g}$
 
-## 再代回 Langmuir 等温式，可得 $b_{298}=9.76\ bar^{-1}$
+再代回 Langmuir 等温式，可得 $b_{298}=9.76\ bar^{-1}$
 8-2$\Delta H = -37.3 \mathrm{kJ\cdot mol^{-1}}$
 
 $$
@@ -688,8 +688,6 @@ $$
 
 
 (本题忽略各物质热容影响, 认为 $\mathrm{HNO}_{3}$ 完全电离)
-
-## 第2页,共6页
 
 10-1 硝酸的生产使用现代版的 Ostwald 法，该法首先经两步反应将 $\mathrm{NH}_{3}(\mathrm{~g})$ 氧化成 $\mathrm{NO}_{2}(\mathrm{~g})$ 。请写出总反应的热化学方程式，并计算 $\Delta_{r}H_{m}^{\ominus}$ 、 $\Delta_{r}S_{m}^{\ominus}$ 、 $\Delta_{r}G_{m}^{\ominus}$ 。(T = 298.15 K)
 

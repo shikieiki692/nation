@@ -4,5 +4,19 @@
  ],
  "vol": "XI",
  "n": 16,
- "backfilled": "2026-10-11"
+ "backfilled": "2026-10-11",
+ "md_patches": [
+  {
+   "script": "multi_vol_fix.py",
+   "why": "第 3/8 题小问号 1.x→3-x / 8-x；并删题面区源页脚窜入 `## 第1页/共6页`",
+   "apply": "python multi_vol_fix.py --apply",
+   "added": "2026-10-12"
+  },
+  {
+   "manual": true,
+   "why": "答案版第 6/8 题去误置标题（`## $\\gamma$ 衰变`、`### 铋铋键小于锑锑键`）",
+   "apply": "去行首 `## `/`### `",
+   "added": "2026-10-12"
+  }
+ ]
 }

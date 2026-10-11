@@ -4,5 +4,19 @@
  ],
  "vol": "XIp",
  "n": 10,
- "backfilled": "2026-10-11"
+ "backfilled": "2026-10-11",
+ "md_patches": [
+  {
+   "script": "multi_vol_fix.py",
+   "why": "第 1 题小问号 5.x→1-x",
+   "apply": "python multi_vol_fix.py --apply",
+   "added": "2026-10-12"
+  },
+  {
+   "manual": true,
+   "why": "答案版第 3 题 `## A (3 分)` 去误置标题标记",
+   "apply": "`## A (3 分)` → `A (3 分)`",
+   "added": "2026-10-12"
+  }
+ ]
 }

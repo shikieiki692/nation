@@ -26,6 +26,32 @@
    "status": "良性（已分诊）"
   }
  ],
+ "md_patches": [
+  {
+   "script": "xvi_heading_titles.py",
+   "why": "学生版题目标题补「题型名」（题名逐字取自答案版＝源卷原题名）",
+   "apply": "python xvi_heading_titles.py --apply",
+   "added": "2026-10-11"
+  },
+  {
+   "script": "xvi_subq_fix.py",
+   "why": "小问编号统一为「卷号-N[-N…]」（第 1/4/9/12 题原为源卷号 4.x/5.x/3.x/6.x）＋ 第 11 题题面小问号去加粗",
+   "apply": "python xvi_subq_fix.py --apply",
+   "added": "2026-10-11"
+  },
+  {
+   "manual": true,
+   "why": "第 9 题 9-1-1 选项行删去误置的 `## ` 前缀（源卡题面即有；同卡答案区无）——否则该行被渲染成加粗居中标题",
+   "apply": "行替换 `## D. 刻度不均匀，上疏下密 E. 刻度不均匀，上密下疏` → `D. 刻度不均匀，上疏下密 E. 刻度不均匀，上密下疏`（学生版 + 答案版各 1 处）",
+   "added": "2026-10-11"
+  },
+  {
+   "script": "xvi_filltable_fix.py",
+   "why": "第 1 题 1-2-1-3「填全下方表格」的 4 行纯文本还原为 pipe 表（空表头 `|  |  |`＋`| :---: | :---: |` ⇒ pandoc 丢表头 ⇒ 2 列×4 行无表头表；框线/列宽/居中由共享脚本自动给）",
+   "apply": "python xvi_filltable_fix.py --apply",
+   "added": "2026-10-12"
+  }
+ ],
  "rebuild_scan": {
   "tool": "rebuild_frag_scan.py",
   "date": "2026-10-11",

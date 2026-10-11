@@ -4,5 +4,19 @@
  ],
  "vol": "XII",
  "n": 10,
- "backfilled": "2026-10-11"
+ "backfilled": "2026-10-11",
+ "md_patches": [
+  {
+   "script": "multi_vol_fix.py",
+   "why": "删题面区源页脚窜入 `## 第2页,共6页`",
+   "apply": "python multi_vol_fix.py --apply",
+   "added": "2026-10-12"
+  },
+  {
+   "manual": true,
+   "why": "答案版第 8 题 `## 再代回 Langmuir 等温式…` 去误置标题标记",
+   "apply": "去行首 `## `",
+   "added": "2026-10-12"
+  }
+ ]
 }

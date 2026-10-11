@@ -49,7 +49,13 @@ CM_TO_EMU = 360000
 EMU_PER_PX = 9525            # pandoc 按 96dpi 折算像素→EMU
 PAGE_MIN_LONG = 1800         # ★ 长边 ≥1800px ⇒ 判为「整页级」（实测：该档 206 张抽样全部为整页扫描；
                              #   而 1000–1799 档抽样为正常结构图）
-CAP_ORG = {"land": (7.0, 5.2), "port": (4.6, 6.6), "sq": (5.6, 5.6), "page": (16.5, 21.0)}
+CAP_ORG = {"land": (8.4, 5.2), "port": (4.8, 6.8), "sq": (6.0, 6.0), "page": (16.5, 21.0)}
+# ↑ 2026-10-11 版式优化（第二轮：「再仔细斟酌」）：
+#   首轮放宽到 land 9.5／sq 7.0／port 6.0×8.0 后**部分图占版面过大**（实测 17 张 >8cm 宽、5 张 7.0cm 高，
+#   单图面积最大 55cm² ＝ 近 1/5 页）⇒ 回调为**适度档**（相对首轮 −12%~−15%，相对原档仍 +10~20%），
+#   并加**单图面积上限**（`AREA_MAX`）作硬闸，确保任何一张图都不霸版。
+AREA_MAX_CM2 = 42.0          # 单图面积上限（≈6.5×6.5cm），超出按等比再缩
+
 MAXPX, TARGETPX = 2600, 2400  # 降采样后长边仍 ≥1800 ⇒ 整页档判定不受影响
 NAME_MAP = {}                # 原图名 → 暂存实际文件名
 PAGE_NAMES = set()           # ★ 判定为「整页级」的**暂存实际文件名**
@@ -83,11 +89,7 @@ def apply_dpi_cap(xml: str):
         d = DESCR_RE.search(frag)
         nm = (d.group(1) if d else "").strip()
         wh = IMG_PX.get(nm)
-        if not wh:
-            return frag
-        w_px, h_px = wh
-        if w_px <= 0 or h_px <= 0:
-            return frag
+        w_px, h_px = (wh if wh else (0, 0))
         max_w = w_px / MIN_DPI * 2.54 * EMU_PER_CM
         max_h = h_px / MIN_DPI * 2.54 * EMU_PER_CM
         before = _CX_RE.search(frag)
@@ -95,10 +97,15 @@ def apply_dpi_cap(xml: str):
         def _size(cx, cy):
             if cx <= 0 or cy <= 0:
                 return cx, cy
-            s = min(1.0, max_w / cx, max_h / cy)
-            if s >= 0.9995:
+            s = 1.0
+            if w_px > 0 and h_px > 0:                 # ① 有效分辨率 ≥ MIN_DPI（只缩不放）
+                s = min(1.0, max_w / cx, max_h / cy)
+            area = (cx * s / EMU_PER_CM) * (cy * s / EMU_PER_CM)
+            if nm not in PAGE_NAMES and area > AREA_MAX_CM2:   # ② 单图面积硬闸（整页档豁免）
+                s *= (AREA_MAX_CM2 / area) ** 0.5
+            if s >= 0.99999:      # 容差收紧（原 0.9995 会跳过 0.05% 级别的微缩 ⇒ 有效 dpi 掉到 149.98）
                 return cx, cy
-            return max(1, int(round(cx * s))), max(1, int(round(cy * s)))
+            return max(1, int(cx * s)), max(1, int(cy * s))   # 向下取整 ⇒ 有效 dpi 严格 ≥ MIN_DPI
 
         frag = _CX_RE.sub(
             lambda mm: '<wp:extent cx="%d" cy="%d"' % _size(int(mm.group(1)), int(mm.group(2))), frag)
@@ -146,27 +153,128 @@ def cap_image_width2(p: str) -> str:
     return p
 
 
+# ── ★ 2026-10-11 图像净化（构建期，源图**不动**，只净化卷内副本）──────────────
+# 病根：源为扫描件，裁图时带入**灰色底纹 / 浅灰水印（清北营教育·CHICAMY）/邻页渗色**。
+# 处置：① 灰底 ⇒ 白场化（把背景灰压到纯白）；② 浅灰低饱和像素 ⇒ 压白（含水印）。
+# 覆盖范围＝**目检白名单**（80 张里 ~22 张；自动判据区分度不足，勿改为自动）。
+CLEAN_GRAY = {  # 灰底：白场化 + 浅中性残压白
+    "d240dbfd83b5e53e8e7ba12459776562ce4f312afb96feed09b5e0aeb2339b95.jpg",
+    "4d09f4727126dea2b0952ad5793eee5610e0bd114f997e72738445bb59044ab5.jpg",
+    "ff0f77a73636e174d037b4cb8ea6a320550c4ee2aabf41f8a60053b041b107f7.jpg",
+    "e5506a959df8daa2605586c8861f93b8a0c121409fb1fd73817cf40bcc9dacee.jpg",
+    "07b102e8611dac7b8c84f0d140579e8dbbc5c882fee8db0b952e568ffdddcbf1.jpg",
+    "7c7fa2cda2d458bd0f3b42a0c7fdb2f7d126cef96447c7867eafa18fab438caa.jpg",
+    "a7bbb5441b19f87dbaacd3a1ea4f3605f0bc6390080134738072f34c6d785fde.jpg",
+    "8caa43de17a625be7a7726bb4fa2876f4e53ead06140174fcc1da1625609390f.jpg",
+    "295eef699ce20365887e2e3eb0c822a698478c2ffe1a7f7934e09a27c12ca911.jpg",
+    "881ef87685739508a298bc6077eb8eb3d8524738d1b3fd9ff904742857136292.jpg",
+    "b591c46e9b9a3daa2837abb8af2047055b9a85b85d4fa349028666910732bc1b.jpg",
+    "3005d9a2baf04c3437b00c251a36f2044cf79fdec7e200b2a395a3fc3d85a2ef.jpg",
+    "c1408cb1ca0a90afd6888a8d959f2c1b7d0760c4d63767966c4f5d2edcf946d6.jpg",
+    "ba5ef0a9381a4e29cba25e4764eb49dbc7f774fb8c590d01b0e2b99da636ec47.jpg",
+    "08e3478dc6b008f42ed754d8f0e89dea7f2410c4f9629753a397a5c62a8ed971.jpg",
+    "87e86bb30c8a9d2eeb69cdeaa4f06768b3542b55ea97dcd16f363d2903da7c08.jpg",
+    "5128a54af65ce9323d8d75d3e3711af61226fb77832e12be2d267fabe6ebdd34.jpg",
+}
+CLEAN_WM = {  # 仅浅灰水印（底已白）：浅中性像素压白
+    "a8ce9ccff7b1a53f039c7aaa3a8b8facb6b676dff863261bab4c479768fdbbcd.jpg",   # 清北营 吸附曲线
+    "2486ce26aa01bd92f21d240383e0219c52b449c23e201a07436122019f33ff30.jpg",   # 清北营 [Cr(O2)2] 结构
+    "792684dab0c2f995f1ca4a09b9f731f1ae24aced341aad08ea92123f7f2b26d4.jpg",   # XeChem 曲线
+}
+# 🔴 未纳入白名单（保持原图）：`a8ec894e…`/`a9b30bc6…`（XeChem 晶体图）——
+#   其**灰色填充原子与灰底同灰阶**（实测二者 lum 均 ≈200-230，不可分离），
+#   任何去背景的阈值都会同时把原子填充削白 ⇒ 一并不动。
+TH_MAIN = 168
+# ── ★ 2026-10-11 回源重裁（构建期；源图不动）────────────────────────────
+# 病根：源卡的图从原 PDF 裁切时**切掉了图下的标签行**（实测：壹尖培优 Fe₄L₄ 笼 2 张，
+#       卡内标签只剩半行「T  R  M…」）。⇒ 按「图 ＋ 图下标签」从源 PDF 重新裁切。
+# 说明：源 PDF 为**数字版**（有文字层），`get_image_info()` 取各联图像 bbox，
+#       标签为图下的文本行（同一页 y 724–735）⇒ 裁到 737 即「图＋标签」完整。
+_YJ12 = ("06-外部资料导入/OCR/01-题目/2026年壹尖培优夏令营（国初高端冲刺营）/"
+         "第40届中国化学奥林匹克（初赛）模拟试题和答题卡/"
+         "第 40 届中国化学奥林匹克（初赛）模拟试题12.pdf")
+RECROP = {
+    # 卡图名 → 源（PDF 相对路径 / 页序 / 裁切框 pt / dpi）
+    "6f6ea31f7b45c003ce00373828c3e58e6cfa8cc3e2c94608124772f698e30a16.jpg":
+        {"pdf": _YJ12, "page": 4, "bbox": (87, 617, 192, 737), "dpi": 300},   # T_L R = Me
+    "f9c25d8cf66afa052557dc1db8cde1a47309ce437479934e5eea042528911c26.jpg":
+        {"pdf": _YJ12, "page": 4, "bbox": (194, 617, 298, 737), "dpi": 300},  # T_L R = Et
+}
+CLEAN_LOG = []
+
+
+def _clean_array(a, th):
+    """a: HxWx3 int16 → 净化后 uint8 数组（白场化 + 浅中性压白）。"""
+    import numpy as np
+    bg = int(np.argmax(np.bincount(a.mean(axis=2).astype(np.int16).ravel(), minlength=256)[128:])) + 128
+    if bg < 246:
+        sc = 255.0 / max(bg, 190)
+        a = np.clip(a.astype(np.float32) * sc, 0, 255).astype(np.int16)
+    lum = a.mean(axis=2)
+    sat = a.max(axis=2) - a.min(axis=2)
+    m = (lum >= th) & (sat <= 32)          # 浅且中性 ⇒ 背景/水印（168 离线对比实测最佳）
+    a = a.copy()
+    a[m] = 255
+    return a.astype(np.uint8)
+
+
+def clean_scan(im, name):
+    """按白名单净化（源图不动）。返回 (新图, 是否净化)。"""
+    if name not in CLEAN_GRAY and name not in CLEAN_WM:
+        return im, False
+    try:
+        from PIL import Image
+        import numpy as np
+        a = np.asarray(im.convert("RGB")).astype(np.int16)
+        return Image.fromarray(_clean_array(a, TH_MAIN)), True
+    except Exception as e:  # 净化失败不阻断构建
+        print("     [净化跳过] %s：%s" % (name[:20], e))
+        return im, False
+
+
 def stage_image(src: str, name: str) -> str:
     """把源图铺到暂存：长边 >MAXPX 者降采样存 JPEG；长边 ≥PAGE_MIN_LONG 者登记为「整页档」。
 
     返回暂存实际文件名。
     """
     from PIL import Image
+    rc = RECROP.get(name)
+    if rc:                                   # ★ 回源重裁（补回被切掉的图下标签）
+        try:
+            import fitz
+            doc = fitz.open(os.path.join(str(VAULT), rc["pdf"]))
+            pix = doc[rc["page"]].get_pixmap(dpi=rc.get("dpi", 300), clip=fitz.Rect(*rc["bbox"]))
+            im = Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
+            print("     [回源重裁] %s → %dx%d（含图下标签）" % (name[:18], pix.width, pix.height))
+            im, _c = clean_scan(im, name)
+            real = os.path.splitext(name)[0] + ".jpg"
+            im.save(str(STAGE / real), "JPEG", quality=92, optimize=True)
+            IMG_PX[real] = (im.width, im.height)
+            if max(im.size) >= PAGE_MIN_LONG:
+                PAGE_NAMES.add(real)
+            return real
+        except Exception as e:
+            print("     [重裁失败⇒回退原图] %s：%s" % (name[:18], e))
     try:
-        im = Image.open(src)
+        im = Image.open(src).convert("RGB")
         w, h = im.size
     except Exception:
         shutil.copyfile(src, str(STAGE / name))
         return name
+    im, cleaned = clean_scan(im, name)
     real = name
     fw, fh = w, h
-    if max(w, h) > MAXPX:
-        sc = TARGETPX / max(w, h)
-        im2 = im.convert("RGB").resize((max(1, int(w * sc)), max(1, int(h * sc))), Image.LANCZOS)
+    if max(w, h) > MAXPX or cleaned:
+        im2 = im
+        if max(w, h) > MAXPX:
+            sc = TARGETPX / max(w, h)
+            im2 = im.resize((max(1, int(w * sc)), max(1, int(h * sc))), Image.LANCZOS)
+            print("     [缩图] %s %dx%d → %dx%d" % (name[:28], w, h, im2.width, im2.height))
+        if cleaned:
+            print("     [净化] %s（去灰底/浅水印）" % name[:24])
         real = os.path.splitext(name)[0] + ".jpg"
-        im2.save(str(STAGE / real), "JPEG", quality=86, optimize=True)
+        im2.save(str(STAGE / real), "JPEG", quality=92, optimize=True)
         fw, fh = im2.width, im2.height
-        print("     [缩图] %s %dx%d → %s %dx%d" % (name[:28], w, h, real[-24:], fw, fh))
     else:
         shutil.copyfile(src, str(STAGE / name))
     IMG_PX[real] = (fw, fh)          # ★ 记录**最终**像素（供 DPI 封顶）
@@ -236,6 +344,107 @@ def run_post_patches() -> int:
     return 0
 
 
+# ── ★ 2026-10-11 版式优化 pass（作用于 document.xml 最终态，dpi 封顶之后）──────
+_PARA_RE = re.compile(r"<w:p\b[\s\S]*?</w:p>")
+_TBL_RE2 = re.compile(r"<w:tbl>[\s\S]*?</w:tbl>")
+_JC_RE2 = re.compile(r"<w:jc\b[^>]*/>")
+_SP_RE2 = re.compile(r"<w:spacing\b[^>]*/>")
+_TXT2 = re.compile(r"<w:t(?:\s[^>]*)?>([\s\S]*?)</w:t>")
+OPT_RE = re.compile(r"^\s*[A-D][.、．)）]")
+SCORE_RE = re.compile(r"^\s*[（(]\s*\d+\s*分\s*[）)]")
+NONE_BORDERS = ('<w:tblBorders>'
+                '<w:top w:val="nil"/><w:left w:val="nil"/><w:bottom w:val="nil"/>'
+                '<w:right w:val="nil"/><w:insideH w:val="nil"/><w:insideV w:val="nil"/>'
+                '</w:tblBorders>')
+_SP_IMG = '<w:spacing w:before="120" w:after="40" w:line="240" w:lineRule="auto"/>'
+_SP_CAP = '<w:spacing w:before="0" w:after="120" w:line="240" w:lineRule="auto"/>'
+
+
+def _ptxt(p):
+    return "".join(_TXT2.findall(p))
+
+
+def _ensure(p, tag, xml):
+    if "<w:pPr>" not in p:
+        m = re.match(r"<w:p\b[^>]*>", p)
+        p = p[:m.end()] + "<w:pPr></w:pPr>" + p[m.end():]
+    if tag == "jc" and _JC_RE2.search(p):
+        return _JC_RE2.sub(xml, p, count=1)
+    if tag == "spacing" and _SP_RE2.search(p):
+        return _SP_RE2.sub(xml, p, count=1)
+    if tag == "keepNext":
+        return p if "<w:keepNext" in p else Z._insert_into_pPr(p, "keepNext", "<w:keepNext/>")
+    return Z._insert_into_pPr(p, tag, xml)
+
+
+def _is_caption(t):
+    """紧随图片的「短图注」判据（治：图居中、注左对齐）。"""
+    if not t:
+        return False
+    if Z.SUBQ_RE.match(t) or OPT_RE.match(t) or SCORE_RE.match(t):
+        return False
+    if Z.CAPTION_RE.match(t):          # 「图 N …」「第 N 题图…」：无论长短一律图注
+        return True
+    if len(t) > 26 or t.endswith("分"):
+        return False
+    if any(ch in t for ch in "。：；？！，"):   # 句读 ⇒ 非图注（半角逗号不算，如 2,2'-bptz）
+        return False
+    return True
+
+
+def polish_images(xml: str, stat: dict) -> str:
+    # ① 含图表格：去框 + 居中（并排图不再被黑框住）
+    def _tbl(m):
+        t = m.group(0)
+        if "<w:drawing" not in t:
+            return t
+        t = re.sub(r"<w:tblBorders\b[\s\S]*?</w:tblBorders>", NONE_BORDERS, t)
+        if "<w:tblBorders" not in t:
+            t = re.sub(r"(<w:tblPr>)", r"\1" + NONE_BORDERS, t, count=1)
+        if "<w:tblPr>" in t and "<w:jc " not in t[:t.find("</w:tblPr>") + 10]:
+            t = re.sub(r"(<w:tblW\b[^>]*/>)", r'\1<w:jc w:val="center"/>', t, count=1)
+        stat["img_tbl"] = stat.get("img_tbl", 0) + 1
+        return t
+    xml = _TBL_RE2.sub(_tbl, xml)
+
+    spans = [(m.start(), m.end()) for m in _TBL_RE2.finditer(xml)]
+
+    def in_tbl(pos):
+        return any(a <= pos < b for a, b in spans)
+
+    out, last, prev_img = [], 0, False
+    for m in _PARA_RE.finditer(xml):
+        p, pos = m.group(0), m.start()
+        out.append(xml[last:pos])
+        last = m.end()
+        if in_tbl(pos):
+            out.append(p)
+            prev_img = False
+            continue
+        if "<w:drawing" in p:                       # 图片段：居中 + 紧下距 + 跨页不分离
+            p = _ensure(p, "spacing", _SP_IMG)
+            p = _ensure(p, "jc", '<w:jc w:val="center"/>')
+            p = _ensure(p, "keepNext", "")
+            prev_img = True
+            out.append(p)
+            continue
+        t = _ptxt(p).strip()
+        if not t:                                   # 空段不打断「图 → 图注」邻接
+            out.append(p)
+            continue
+        if prev_img and _is_caption(t):             # 图注：居中贴图
+            p = _ensure(p, "spacing", _SP_CAP)
+            p = _ensure(p, "jc", '<w:jc w:val="center"/>')
+            stat["caption_c"] = stat.get("caption_c", 0) + 1
+            out.append(p)
+            prev_img = False
+            continue
+        prev_img = False
+        out.append(p)
+    out.append(xml[last:])
+    return "".join(out)
+
+
 def main():
     only_ans = "--answer" in sys.argv
     only_stu = "--student" in sys.argv
@@ -273,6 +482,10 @@ def main():
                 worst = _log[:5]
                 print("  图分辨率封顶：缩 %d 张（目标 ≥%.0fdpi）｜最紧 %s"
                       % (_n, MIN_DPI, "、".join("%s %.2f→%.2fcm" % (r[0][:12], r[3], r[4]) for r in worst)))
+            xml = polish_images(xml, stat)
+            if stat.get("caption_c") or stat.get("img_tbl"):
+                print("  版式优化：图注居中 %d 处 ｜ 并排图表去框 %d 张"
+                      % (stat.get("caption_c", 0), stat.get("img_tbl", 0)))
             return xml
 
         Z.process_document_xml = process_document_xml2
