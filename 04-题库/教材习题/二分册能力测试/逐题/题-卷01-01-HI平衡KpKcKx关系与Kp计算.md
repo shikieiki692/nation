@@ -7,7 +7,7 @@ submodule: "化学反应速率与化学平衡"
 pack: 章节练习
 difficulty: 4
 exam_stage: 初赛
-teaching_level: 竞赛拔高
+teaching_level: 竞赛
 source_subject: 化学竞赛能力测试·高中第二分册
 source_category: 竞赛导向·竞赛教辅
 source_grade: A

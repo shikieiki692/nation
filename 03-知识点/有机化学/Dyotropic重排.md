@@ -59,12 +59,12 @@ Dyotropic 重排的通式可表示为：
 
 $$
 \begin{array}{l}
-\overset{X}{\underset{1}{C}} - \overset{Y}{\underset{2}{C}} \\
+\overset{X}{\underset{1}{C}} - \overset{Y}{\underset{2}{C}} 
 \end{array}
 \longrightarrow
 \left[
 \begin{array}{c}
-\overset{X}{\underset{Y}{C}} - \overset{Y}{\underset{2}{C}} \\
+\overset{X}{\underset{Y}{C}} - \overset{Y}{\underset{2}{C}} 
 \end{array}
 \right]^{\ddagger}
 \longrightarrow

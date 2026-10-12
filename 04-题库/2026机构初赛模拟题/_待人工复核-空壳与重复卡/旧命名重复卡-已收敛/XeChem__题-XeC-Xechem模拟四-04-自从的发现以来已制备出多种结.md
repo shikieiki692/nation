@@ -52,7 +52,7 @@ source_file: "2026机构初赛模拟题/03-XeChem/Xechem模拟四.md"
 4-1 画出预期产物 $\mathrm{Ru_3(CO)_n^{2+}}$ 的结构，并示出其最稳定构象。
 
 $$
-\begin{array}{c} \text {O} \\ \text {C} \\ \text {R} \\ \text {C} \\ \text {R} \\ \text {C} \\ \text {R} \\ \text {C} \\ \text {R} \\ \text {C} \\ \text {R} \\ \text {C} \\ \text {R} \\ \text {C} \\ \text {R} \\ \text {C} \\ \text {R} \\ \text {C} \\ \text {R} \\ \end{array}
+\begin{array}{c} \text {O} \\ \text {C} \\ \text {R} \\ \text {C} \\ \text {R} \\ \text {C} \\ \text {R} \\ \text {C} \\ \text {R} \\ \text {C} \\ \text {R} \\ \text {C} \\ \text {R} \\ \text {C} \\ \text {R} \\ \text {C} \\ \text {R} \\ \text {C} \\ \text {R}  \end{array}
 $$
 
 4-2 首先尝试了利用无机氧化剂。向 $\mathrm{Ru_3(CO)_12}$ 的四氟苯溶液中加入0.5当量的 $[\mathrm{Ag}][\mathrm{Al(OR)}_4]$ ，没有得到预期的氧化产物，而是发生了化合反应，得到了一种具有 $\mathrm{D_{2d}}$ 对
