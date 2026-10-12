@@ -234,8 +234,8 @@ R 的形成机理： $2\mathrm{PhCS}_{3}\mathrm{Cl} + \mathrm{SO}_{2} \rightarro
 4-1 $\mathrm{Cr_2O_7^{2 - } + 14H^+ + 6I^- \rightarrow 2Cr^{3 + } + 3I_2 + 7H_2O}$ （1分） $\mathrm{I}_2 + 2\mathrm{S}_2\mathrm{O}_3^{2 - }\rightarrow 2\mathrm{I}^{-} + \mathrm{S}_4\mathrm{O}_6^{2 - }$ （1分）由 $\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7\sim 3\mathrm{I}_2\sim 6\mathrm{Na}_2\mathrm{S}_2\mathrm{O}_3$ ，有 $c = (6\times 0.12 / 294.18) / (V / 1000) = 2.45 / V$ (mol/L）（2分）
 4-2 $\mathrm{S}_2\mathrm{O}_3^{2 - } + 2\mathrm{H}^+ \rightarrow \mathrm{S} + \mathrm{SO}_2 + \mathrm{H}_2\mathrm{O}$ （2分）
 4-3-1 $2\mathrm{Mn}^{2 + } + \mathrm{O}_2 + 4\mathrm{OH}^{-}\rightarrow 2\mathrm{MnO(OH)}_2$ （1分） $\mathrm{MnO(OH)_2 + 2I^{-} + 4H^{+}\rightarrow Mn^{2 + } + I_2 + 3H_2O}$ （1分）
-1-3-2由电子守恒 $1\mathrm{mol}\mathrm{O}_2$ 对应 $4\mathrm{molNa_2S_2O_3}$ $n = 0.01000\times 8.50\times 10^{-3} / 4 = 2.125\times 10^{-5}(\mathrm{mol})$ DO浓度 $= 6.80~\mathrm{mg / L}$ （2分）
-1-4过量的 $\mathrm{Na_2S_2O_3}$ 均转化，硫原子总浓度为： $2\times (25 - 2.45) / (100 + 25) = 0.36(\mathrm{mol / L})$ （2分）对应 $\mathbf{S}_8$ 浓度为： $0.36\times 17\% \times 90\% /8 = 6.9\times 10^{-3}(\mathrm{mol / L})$ （1分）溶液的密度近似为纯水，S8浓度为 $6.9\times 10^{-3}\mathrm{mol / kg}$ （1分）沉淀的分散度 $= K\cdot (C_{\mathrm{Q}} - s) / s = 1\times (6.9\times 10^{-3} - 1.9\times 10^{-8}) / 1.9\times 10^{-8} = 3.6\times 10^{5}$ （2分）
+4-3-2 由电子守恒 $1\mathrm{mol}\mathrm{O}_2$ 对应 $4\mathrm{molNa_2S_2O_3}$ $n = 0.01000\times 8.50\times 10^{-3} / 4 = 2.125\times 10^{-5}(\mathrm{mol})$ DO浓度 $= 6.80~\mathrm{mg / L}$ （2分）
+4-4 过量的 $\mathrm{Na_2S_2O_3}$ 均转化，硫原子总浓度为： $2\times (25 - 2.45) / (100 + 25) = 0.36(\mathrm{mol / L})$ （2分）对应 $\mathbf{S}_8$ 浓度为： $0.36\times 17\% \times 90\% /8 = 6.9\times 10^{-3}(\mathrm{mol / L})$ （1分）溶液的密度近似为纯水，S8浓度为 $6.9\times 10^{-3}\mathrm{mol / kg}$ （1分）沉淀的分散度 $= K\cdot (C_{\mathrm{Q}} - s) / s = 1\times (6.9\times 10^{-3} - 1.9\times 10^{-8}) / 1.9\times 10^{-8} = 3.6\times 10^{5}$ （2分）
 
 > **解析**（据源答案整理）：考查碘量法原理与实验异常探究。要点：滴定基于 Cr₂O₇²⁻~3I₂~6S₂O₃²⁻ 的计量关系；淡黄色沉淀源于 S₂O₃²⁻ 在酸性条件下分解（S₂O₃²⁻ + 2H⁺ → S↓ + SO₂ + H₂O）；末问由硫原子守恒与溶度积估算 S₈ 浓度及沉淀分散度（≈3.6×10⁵）。
 
@@ -1046,17 +1046,17 @@ A. Cu, Sn    B. Cu, Ni    C. Cu, Zn
 | :---: | :---: |
 | ![[28484c6597137c398dc8528dab0d28181e37bdc3e668b8598bd7efb89c2046f7.jpg\|250]] | ![[ce7a923777224e8d56cc2ccdb6a6103f3a95d507559e6ad25a773ff601fdf1c5.jpg\|250]] |
 
-3-1-1CuNi3(2分),9.04 g·cm-3(2分)
+11-1-1 CuNi3(2分),9.04 g·cm-3(2分)
 
-3-1-2正交晶系(2分),底心正交(2分)
+11-1-2 正交晶系(2分),底心正交(2分)
 
 11-2-2 Cul 可以与 Hg 单质发生反应，生成一红色物质，写出化学反应方程式。
 
-3-2-1A, C, B (3分)
+11-2-1 A, C, B (3分)
 
-3-2-24CuI+Hg → Cu2HgI4+2Cu (2分)
+11-2-2 4CuI+Hg → Cu2HgI4+2Cu (2分)
 
-3-2-3Cu2O 晶体结构存在缺陷。(2分)
+11-2-3 Cu2O 晶体结构存在缺陷。(2分)
 
 11-11-1 写出 A 的结构式，A 中含有四元环系。
 
