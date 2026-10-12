@@ -17,6 +17,30 @@
    "why": "答案版第 15 题 `## 18（1分）` 去误置标题标记（渲染成居中标题）",
    "apply": "`## 18（1分）` → `18（1分）`",
    "added": "2026-10-12"
+  },
+  {
+   "script": "srcno_fix.py",
+   "why": "类 B 连字符源号 15 处：第8题 5 处粘连拆分（4-1-21994→8-1-2 1994 等）、第15题 1 处、答案版第3题 3 处引用改号（1-6→3-6 等）＋答案版同 6 处",
+   "apply": "python srcno_fix.py --apply",
+   "added": "2026-10-12"
+  },
+  {
+   "manual": true,
+   "why": "第13题「第2部分」升为 H2（原无 `## `，与「第1部分」层级不一致）——方案②：升标题而非降标题，避免消掉 H2 间距导致末页空白",
+   "apply": "`第2部分 化学动力学中的类似：Kramers模型` → `## 第2部分 化学动力学中的类似：Kramers模型`（学生版 L580 + 答案版 L1501 各 1 处）",
+   "added": "2026-10-12"
+  },
+  {
+   "script": "xvi_titles_allvol.py",
+   "why": "学生版题目标题补题型名 13 处（源出铁证：答案版题名与源卡标题行题名完全相等）",
+   "apply": "python xvi_titles_allvol.py --apply（数据源 _title_ok.json）",
+   "added": "2026-10-12"
+  },
+  {
+   "script": "xvi_titles_allvol.py",
+   "why": "学生版题目标题补题型名 13 处（源出铁证：答案版题名与源卡标题行题名完全相等）",
+   "apply": "python xvi_titles_allvol.py --apply（数据源 _title_ok.json）",
+   "added": "2026-10-12"
   }
  ]
 }

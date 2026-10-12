@@ -17,6 +17,18 @@
    "why": "答案版第 3 题 `## A (3 分)` 去误置标题标记",
    "apply": "`## A (3 分)` → `A (3 分)`",
    "added": "2026-10-12"
+  },
+  {
+   "script": "srcno_fix.py",
+   "why": "类 B 连字符源号 3 处：第2题 6-3-22010→2-3-2 2010（学生+答案）、答案版第10题 2-4-112→10-4-1 12",
+   "apply": "python srcno_fix.py --apply",
+   "added": "2026-10-12"
+  },
+  {
+   "script": "xvi_titles_allvol.py",
+   "why": "学生版题目标题补题型名 10 处（源出铁证：答案版题名与源卡标题行题名完全相等）",
+   "apply": "python xvi_titles_allvol.py --apply（数据源 _title_ok.json）",
+   "added": "2026-10-12"
   }
  ]
 }

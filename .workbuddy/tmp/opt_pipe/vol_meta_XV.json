@@ -4,5 +4,13 @@
  ],
  "vol": "XV",
  "n": 10,
- "backfilled": "2026-10-11"
+ "backfilled": "2026-10-11",
+ "md_patches": [
+  {
+   "script": "xvi_titles_allvol.py",
+   "why": "学生版题目标题补题型名 9 处（源出铁证：答案版题名与源卡标题行题名完全相等）",
+   "apply": "python xvi_titles_allvol.py --apply（数据源 _title_ok.json）",
+   "added": "2026-10-12"
+  }
+ ]
 }

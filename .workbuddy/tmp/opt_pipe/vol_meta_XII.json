@@ -17,6 +17,18 @@
    "why": "答案版第 8 题 `## 再代回 Langmuir 等温式…` 去误置标题标记",
    "apply": "去行首 `## `",
    "added": "2026-10-12"
+  },
+  {
+   "script": "xvi_titles_allvol.py",
+   "why": "学生版题目标题补题型名 6 处（源出铁证：答案版题名与源卡标题行题名完全相等）",
+   "apply": "python xvi_titles_allvol.py --apply（数据源 _title_ok.json）",
+   "added": "2026-10-12"
+  },
+  {
+   "script": "xvi_titles_allvol.py",
+   "why": "学生版题目标题补题型名 6 处（源出铁证：答案版题名与源卡标题行题名完全相等）",
+   "apply": "python xvi_titles_allvol.py --apply（数据源 _title_ok.json）",
+   "added": "2026-10-12"
   }
  ]
 }
