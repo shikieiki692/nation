@@ -1,0 +1,1813 @@
+{
+ "generated": "2026-10-14",
+ "method": "题面指纹 v3（全字符 12-gram ⊕ 纯 CJK 8-gram，取 containment 最大）",
+ "threshold": 0.5,
+ "entries": [
+  {
+   "lib_year": 32,
+   "lib_set": "决赛模拟",
+   "cards": 22,
+   "matched": 22,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy32-12",
+     "votes": 15
+    },
+    {
+     "site": "chemy32-11",
+     "votes": 7
+    }
+   ],
+   "site_resolved": "chemy32-12",
+   "note": ""
+  },
+  {
+   "lib_year": 32,
+   "lib_set": "初赛有机专题",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy32-10",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy32-10",
+   "note": ""
+  },
+  {
+   "lib_year": 32,
+   "lib_set": "初赛模拟1",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy32-1",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy32-1",
+   "note": ""
+  },
+  {
+   "lib_year": 32,
+   "lib_set": "初赛模拟2",
+   "cards": 11,
+   "matched": 11,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy32-2",
+     "votes": 11
+    }
+   ],
+   "site_resolved": "chemy32-2",
+   "note": ""
+  },
+  {
+   "lib_year": 32,
+   "lib_set": "初赛模拟3",
+   "cards": 11,
+   "matched": 11,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy32-3",
+     "votes": 11
+    }
+   ],
+   "site_resolved": "chemy32-3",
+   "note": ""
+  },
+  {
+   "lib_year": 32,
+   "lib_set": "初赛模拟4",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy32-4",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy32-4",
+   "note": ""
+  },
+  {
+   "lib_year": 32,
+   "lib_set": "初赛模拟5",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy32-5",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy32-5",
+   "note": ""
+  },
+  {
+   "lib_year": 32,
+   "lib_set": "初赛模拟6",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy32-6",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy32-6",
+   "note": ""
+  },
+  {
+   "lib_year": 32,
+   "lib_set": "初赛模拟7",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy32-7",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy32-7",
+   "note": ""
+  },
+  {
+   "lib_year": 32,
+   "lib_set": "初赛模拟8",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy32-8",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy32-8",
+   "note": ""
+  },
+  {
+   "lib_year": 32,
+   "lib_set": "初赛模拟9",
+   "cards": 10,
+   "matched": 9,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy32-9",
+     "votes": 9
+    }
+   ],
+   "site_resolved": "chemy32-9",
+   "note": ""
+  },
+  {
+   "lib_year": 33,
+   "lib_set": "无机化学专题1",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy33-12",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy33-12",
+   "note": ""
+  },
+  {
+   "lib_year": 33,
+   "lib_set": "无机化学专题2",
+   "cards": 17,
+   "matched": 17,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy33-13",
+     "votes": 9
+    },
+    {
+     "site": "chemy33-18",
+     "votes": 6
+    },
+    {
+     "site": "chemy33-17",
+     "votes": 1
+    }
+   ],
+   "site_resolved": "chemy33-13",
+   "note": ""
+  },
+  {
+   "lib_year": 33,
+   "lib_set": "有机化学专题1",
+   "cards": 9,
+   "matched": 9,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy33-10",
+     "votes": 9
+    }
+   ],
+   "site_resolved": "chemy33-10",
+   "note": ""
+  },
+  {
+   "lib_year": 33,
+   "lib_set": "有机化学专题2",
+   "cards": 10,
+   "matched": 9,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy33-11",
+     "votes": 9
+    }
+   ],
+   "site_resolved": "chemy33-11",
+   "note": ""
+  },
+  {
+   "lib_year": 33,
+   "lib_set": "模拟1",
+   "cards": 9,
+   "matched": 9,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy33-1",
+     "votes": 9
+    }
+   ],
+   "site_resolved": "chemy33-1",
+   "note": ""
+  },
+  {
+   "lib_year": 33,
+   "lib_set": "模拟2",
+   "cards": 9,
+   "matched": 9,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy33-2",
+     "votes": 9
+    }
+   ],
+   "site_resolved": "chemy33-2",
+   "note": ""
+  },
+  {
+   "lib_year": 33,
+   "lib_set": "模拟3",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 0.984,
+   "site_vote": [
+    {
+     "site": "chemy33-3",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy33-3",
+   "note": ""
+  },
+  {
+   "lib_year": 33,
+   "lib_set": "模拟4",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy33-4",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy33-4",
+   "note": ""
+  },
+  {
+   "lib_year": 33,
+   "lib_set": "模拟5",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy33-5",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy33-5",
+   "note": ""
+  },
+  {
+   "lib_year": 33,
+   "lib_set": "模拟6",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy33-6",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy33-6",
+   "note": ""
+  },
+  {
+   "lib_year": 33,
+   "lib_set": "模拟7",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy33-7",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy33-7",
+   "note": ""
+  },
+  {
+   "lib_year": 33,
+   "lib_set": "模拟8",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy33-8",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy33-8",
+   "note": ""
+  },
+  {
+   "lib_year": 33,
+   "lib_set": "模拟9",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy33-9",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy33-9",
+   "note": ""
+  },
+  {
+   "lib_year": 34,
+   "lib_set": "决赛模拟1",
+   "cards": 9,
+   "matched": 9,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy34-14",
+     "votes": 9
+    }
+   ],
+   "site_resolved": "chemy34-14",
+   "note": ""
+  },
+  {
+   "lib_year": 34,
+   "lib_set": "决赛模拟2",
+   "cards": 8,
+   "matched": 8,
+   "median_score": 0.983,
+   "site_vote": [
+    {
+     "site": "chemy34-15",
+     "votes": 8
+    }
+   ],
+   "site_resolved": "chemy34-15",
+   "note": ""
+  },
+  {
+   "lib_year": 34,
+   "lib_set": "决赛模拟3",
+   "cards": 9,
+   "matched": 9,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy34-16",
+     "votes": 9
+    }
+   ],
+   "site_resolved": "chemy34-16",
+   "note": ""
+  },
+  {
+   "lib_year": 34,
+   "lib_set": "决赛模拟4",
+   "cards": 9,
+   "matched": 9,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy34-17",
+     "votes": 9
+    }
+   ],
+   "site_resolved": "chemy34-17",
+   "note": ""
+  },
+  {
+   "lib_year": 34,
+   "lib_set": "无机化学专题",
+   "cards": 9,
+   "matched": 9,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy34-12",
+     "votes": 9
+    }
+   ],
+   "site_resolved": "chemy34-12",
+   "note": ""
+  },
+  {
+   "lib_year": 34,
+   "lib_set": "有机化学专题",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy34-13",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy34-13",
+   "note": ""
+  },
+  {
+   "lib_year": 34,
+   "lib_set": "模拟1",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy34-1",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy34-1",
+   "note": ""
+  },
+  {
+   "lib_year": 34,
+   "lib_set": "模拟10",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy34-10",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy34-10",
+   "note": ""
+  },
+  {
+   "lib_year": 34,
+   "lib_set": "模拟11",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy34-11",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy34-11",
+   "note": ""
+  },
+  {
+   "lib_year": 34,
+   "lib_set": "模拟2",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy34-2",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy34-2",
+   "note": ""
+  },
+  {
+   "lib_year": 34,
+   "lib_set": "模拟3",
+   "cards": 9,
+   "matched": 9,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy34-3",
+     "votes": 9
+    }
+   ],
+   "site_resolved": "chemy34-3",
+   "note": ""
+  },
+  {
+   "lib_year": 34,
+   "lib_set": "模拟4",
+   "cards": 11,
+   "matched": 11,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy34-4",
+     "votes": 11
+    }
+   ],
+   "site_resolved": "chemy34-4",
+   "note": ""
+  },
+  {
+   "lib_year": 34,
+   "lib_set": "模拟5",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy34-5",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy34-5",
+   "note": ""
+  },
+  {
+   "lib_year": 34,
+   "lib_set": "模拟6",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy34-6",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy34-6",
+   "note": ""
+  },
+  {
+   "lib_year": 34,
+   "lib_set": "模拟7",
+   "cards": 11,
+   "matched": 11,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy34-7",
+     "votes": 11
+    }
+   ],
+   "site_resolved": "chemy34-7",
+   "note": ""
+  },
+  {
+   "lib_year": 34,
+   "lib_set": "模拟8",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy34-8",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy34-8",
+   "note": ""
+  },
+  {
+   "lib_year": 34,
+   "lib_set": "模拟9",
+   "cards": 9,
+   "matched": 9,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy34-9",
+     "votes": 9
+    }
+   ],
+   "site_resolved": "chemy34-9",
+   "note": ""
+  },
+  {
+   "lib_year": 35,
+   "lib_set": "决赛26",
+   "cards": 7,
+   "matched": 7,
+   "median_score": 0.986,
+   "site_vote": [
+    {
+     "site": "chemy35-26",
+     "votes": 7
+    }
+   ],
+   "site_resolved": "chemy35-26",
+   "note": ""
+  },
+  {
+   "lib_year": 35,
+   "lib_set": "决赛5",
+   "cards": 7,
+   "matched": 7,
+   "median_score": 0.989,
+   "site_vote": [
+    {
+     "site": "chemy35-5",
+     "votes": 7
+    }
+   ],
+   "site_resolved": "chemy35-5",
+   "note": ""
+  },
+  {
+   "lib_year": 35,
+   "lib_set": "决赛8",
+   "cards": 9,
+   "matched": 9,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy35-8",
+     "votes": 9
+    }
+   ],
+   "site_resolved": "chemy35-8",
+   "note": ""
+  },
+  {
+   "lib_year": 35,
+   "lib_set": "模拟1",
+   "cards": 9,
+   "matched": 9,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy35-1",
+     "votes": 9
+    }
+   ],
+   "site_resolved": "chemy35-1",
+   "note": ""
+  },
+  {
+   "lib_year": 35,
+   "lib_set": "模拟11",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy35-11",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy35-11",
+   "note": ""
+  },
+  {
+   "lib_year": 35,
+   "lib_set": "模拟12",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy35-12",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy35-12",
+   "note": ""
+  },
+  {
+   "lib_year": 35,
+   "lib_set": "模拟15",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy35-15",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy35-15",
+   "note": ""
+  },
+  {
+   "lib_year": 35,
+   "lib_set": "模拟17",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy35-17",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy35-17",
+   "note": ""
+  },
+  {
+   "lib_year": 35,
+   "lib_set": "模拟18",
+   "cards": 9,
+   "matched": 9,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy35-18",
+     "votes": 9
+    }
+   ],
+   "site_resolved": "chemy35-18",
+   "note": ""
+  },
+  {
+   "lib_year": 35,
+   "lib_set": "模拟2",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy35-2",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy35-2",
+   "note": ""
+  },
+  {
+   "lib_year": 35,
+   "lib_set": "模拟20",
+   "cards": 10,
+   "matched": 9,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy35-20",
+     "votes": 9
+    }
+   ],
+   "site_resolved": "chemy35-20",
+   "note": ""
+  },
+  {
+   "lib_year": 35,
+   "lib_set": "模拟21",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy35-21",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy35-21",
+   "note": ""
+  },
+  {
+   "lib_year": 35,
+   "lib_set": "模拟22",
+   "cards": 11,
+   "matched": 11,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy35-22",
+     "votes": 11
+    }
+   ],
+   "site_resolved": "chemy35-22",
+   "note": ""
+  },
+  {
+   "lib_year": 35,
+   "lib_set": "模拟23",
+   "cards": 9,
+   "matched": 9,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy35-23",
+     "votes": 9
+    }
+   ],
+   "site_resolved": "chemy35-23",
+   "note": ""
+  },
+  {
+   "lib_year": 35,
+   "lib_set": "模拟24",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy35-24",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy35-24",
+   "note": ""
+  },
+  {
+   "lib_year": 35,
+   "lib_set": "模拟3",
+   "cards": 11,
+   "matched": 11,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy35-3",
+     "votes": 11
+    }
+   ],
+   "site_resolved": "chemy35-3",
+   "note": ""
+  },
+  {
+   "lib_year": 35,
+   "lib_set": "模拟6",
+   "cards": 9,
+   "matched": 9,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy35-6",
+     "votes": 9
+    }
+   ],
+   "site_resolved": "chemy35-6",
+   "note": ""
+  },
+  {
+   "lib_year": 35,
+   "lib_set": "模拟7",
+   "cards": 11,
+   "matched": 11,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy35-7",
+     "votes": 11
+    }
+   ],
+   "site_resolved": "chemy35-7",
+   "note": ""
+  },
+  {
+   "lib_year": 35,
+   "lib_set": "模拟9",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy35-9",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy35-9",
+   "note": ""
+  },
+  {
+   "lib_year": 36,
+   "lib_set": "决赛16",
+   "cards": 9,
+   "matched": 9,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy36-16",
+     "votes": 9
+    }
+   ],
+   "site_resolved": "chemy36-16",
+   "note": ""
+  },
+  {
+   "lib_year": 36,
+   "lib_set": "决赛21",
+   "cards": 9,
+   "matched": 9,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy36-21",
+     "votes": 9
+    }
+   ],
+   "site_resolved": "chemy36-21",
+   "note": ""
+  },
+  {
+   "lib_year": 36,
+   "lib_set": "决赛22",
+   "cards": 9,
+   "matched": 9,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy36-22",
+     "votes": 9
+    }
+   ],
+   "site_resolved": "chemy36-22",
+   "note": ""
+  },
+  {
+   "lib_year": 36,
+   "lib_set": "决赛23",
+   "cards": 14,
+   "matched": 14,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy36-23",
+     "votes": 8
+    },
+    {
+     "site": "chemy36-24",
+     "votes": 6
+    }
+   ],
+   "site_resolved": "chemy36-23",
+   "note": ""
+  },
+  {
+   "lib_year": 36,
+   "lib_set": "初赛14",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy36-14",
+     "votes": 8
+    },
+    {
+     "site": "chemy36-15",
+     "votes": 2
+    }
+   ],
+   "site_resolved": "chemy36-14",
+   "note": ""
+  },
+  {
+   "lib_year": 36,
+   "lib_set": "初赛17",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy36-17",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy36-17",
+   "note": ""
+  },
+  {
+   "lib_year": 36,
+   "lib_set": "初赛18",
+   "cards": 11,
+   "matched": 11,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy36-18",
+     "votes": 8
+    },
+    {
+     "site": "chemy36-19",
+     "votes": 3
+    }
+   ],
+   "site_resolved": "chemy36-18",
+   "note": ""
+  },
+  {
+   "lib_year": 36,
+   "lib_set": "初赛2",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy36-2",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy36-2",
+   "note": ""
+  },
+  {
+   "lib_year": 36,
+   "lib_set": "初赛20",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy36-20",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy36-20",
+   "note": ""
+  },
+  {
+   "lib_year": 36,
+   "lib_set": "初赛25",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy36-25",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy36-25",
+   "note": ""
+  },
+  {
+   "lib_year": 36,
+   "lib_set": "初赛3",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy36-3",
+     "votes": 9
+    },
+    {
+     "site": "chemy36-4",
+     "votes": 1
+    }
+   ],
+   "site_resolved": "chemy36-3",
+   "note": ""
+  },
+  {
+   "lib_year": 36,
+   "lib_set": "初赛6",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy36-6",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy36-6",
+   "note": ""
+  },
+  {
+   "lib_year": 37,
+   "lib_set": "决赛20",
+   "cards": 9,
+   "matched": 9,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy37-20",
+     "votes": 8
+    },
+    {
+     "site": "chemy37-21",
+     "votes": 1
+    }
+   ],
+   "site_resolved": "chemy37-20",
+   "note": ""
+  },
+  {
+   "lib_year": 37,
+   "lib_set": "决赛25",
+   "cards": 9,
+   "matched": 9,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy37-25",
+     "votes": 7
+    },
+    {
+     "site": "chemy37-26",
+     "votes": 2
+    }
+   ],
+   "site_resolved": "chemy37-25",
+   "note": ""
+  },
+  {
+   "lib_year": 37,
+   "lib_set": "决赛27",
+   "cards": 9,
+   "matched": 9,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy37-27",
+     "votes": 9
+    }
+   ],
+   "site_resolved": "chemy37-27",
+   "note": ""
+  },
+  {
+   "lib_year": 37,
+   "lib_set": "决赛28",
+   "cards": 9,
+   "matched": 9,
+   "median_score": 0.991,
+   "site_vote": [
+    {
+     "site": "chemy37-28",
+     "votes": 9
+    }
+   ],
+   "site_resolved": "chemy37-28",
+   "note": ""
+  },
+  {
+   "lib_year": 37,
+   "lib_set": "决赛8",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy37-8",
+     "votes": 9
+    },
+    {
+     "site": "chemy37-9",
+     "votes": 1
+    }
+   ],
+   "site_resolved": "chemy37-8",
+   "note": ""
+  },
+  {
+   "lib_year": 37,
+   "lib_set": "初赛10",
+   "cards": 11,
+   "matched": 11,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy37-10",
+     "votes": 11
+    }
+   ],
+   "site_resolved": "chemy37-10",
+   "note": ""
+  },
+  {
+   "lib_year": 37,
+   "lib_set": "初赛11",
+   "cards": 9,
+   "matched": 9,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy37-11",
+     "votes": 7
+    },
+    {
+     "site": "chemy37-12",
+     "votes": 2
+    }
+   ],
+   "site_resolved": "chemy37-11",
+   "note": ""
+  },
+  {
+   "lib_year": 37,
+   "lib_set": "初赛13",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 0.976,
+   "site_vote": [
+    {
+     "site": "chemy37-13",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy37-13",
+   "note": ""
+  },
+  {
+   "lib_year": 37,
+   "lib_set": "初赛14",
+   "cards": 9,
+   "matched": 8,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy37-14",
+     "votes": 8
+    }
+   ],
+   "site_resolved": "chemy37-14",
+   "note": ""
+  },
+  {
+   "lib_year": 37,
+   "lib_set": "初赛15",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy37-16",
+     "votes": 7
+    },
+    {
+     "site": "chemy37-15",
+     "votes": 3
+    }
+   ],
+   "site_resolved": "chemy37-16",
+   "note": ""
+  },
+  {
+   "lib_year": 37,
+   "lib_set": "初赛19",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy37-19",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy37-19",
+   "note": ""
+  },
+  {
+   "lib_year": 37,
+   "lib_set": "初赛2",
+   "cards": 9,
+   "matched": 9,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy37-2",
+     "votes": 9
+    }
+   ],
+   "site_resolved": "chemy37-2",
+   "note": ""
+  },
+  {
+   "lib_year": 37,
+   "lib_set": "初赛22",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy37-22",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy37-22",
+   "note": ""
+  },
+  {
+   "lib_year": 37,
+   "lib_set": "初赛23",
+   "cards": 9,
+   "matched": 9,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy37-23",
+     "votes": 9
+    }
+   ],
+   "site_resolved": "chemy37-23",
+   "note": ""
+  },
+  {
+   "lib_year": 37,
+   "lib_set": "初赛24",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy37-24",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy37-24",
+   "note": ""
+  },
+  {
+   "lib_year": 37,
+   "lib_set": "初赛4",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy37-4",
+     "votes": 9
+    },
+    {
+     "site": "chemy37-5",
+     "votes": 1
+    }
+   ],
+   "site_resolved": "chemy37-4",
+   "note": ""
+  },
+  {
+   "lib_year": 38,
+   "lib_set": "决赛24",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy38-24",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy38-24",
+   "note": ""
+  },
+  {
+   "lib_year": 38,
+   "lib_set": "决赛6",
+   "cards": 13,
+   "matched": 13,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy38-6",
+     "votes": 13
+    }
+   ],
+   "site_resolved": "chemy38-6",
+   "note": ""
+  },
+  {
+   "lib_year": 38,
+   "lib_set": "初赛10",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy38-11",
+     "votes": 6
+    },
+    {
+     "site": "chemy38-10",
+     "votes": 4
+    }
+   ],
+   "site_resolved": "chemy38-11",
+   "note": ""
+  },
+  {
+   "lib_year": 38,
+   "lib_set": "初赛15",
+   "cards": 9,
+   "matched": 9,
+   "median_score": 0.992,
+   "site_vote": [
+    {
+     "site": "chemy38-15",
+     "votes": 9
+    }
+   ],
+   "site_resolved": "chemy38-15",
+   "note": ""
+  },
+  {
+   "lib_year": 38,
+   "lib_set": "初赛16",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy38-16",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy38-16",
+   "note": ""
+  },
+  {
+   "lib_year": 38,
+   "lib_set": "初赛17",
+   "cards": 9,
+   "matched": 9,
+   "median_score": 0.987,
+   "site_vote": [
+    {
+     "site": "chemy38-17",
+     "votes": 9
+    }
+   ],
+   "site_resolved": "chemy38-17",
+   "note": ""
+  },
+  {
+   "lib_year": 38,
+   "lib_set": "初赛20",
+   "cards": 9,
+   "matched": 9,
+   "median_score": 0.975,
+   "site_vote": [
+    {
+     "site": "chemy38-20",
+     "votes": 9
+    }
+   ],
+   "site_resolved": "chemy38-20",
+   "note": ""
+  },
+  {
+   "lib_year": 38,
+   "lib_set": "初赛21",
+   "cards": 12,
+   "matched": 12,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy38-21",
+     "votes": 12
+    }
+   ],
+   "site_resolved": "chemy38-21",
+   "note": ""
+  },
+  {
+   "lib_year": 38,
+   "lib_set": "初赛22",
+   "cards": 8,
+   "matched": 8,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy38-22",
+     "votes": 8
+    }
+   ],
+   "site_resolved": "chemy38-22",
+   "note": ""
+  },
+  {
+   "lib_year": 38,
+   "lib_set": "初赛23",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy38-23",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy38-23",
+   "note": ""
+  },
+  {
+   "lib_year": 38,
+   "lib_set": "初赛3",
+   "cards": 10,
+   "matched": 10,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy38-3",
+     "votes": 10
+    }
+   ],
+   "site_resolved": "chemy38-3",
+   "note": ""
+  },
+  {
+   "lib_year": 38,
+   "lib_set": "初赛8",
+   "cards": 11,
+   "matched": 11,
+   "median_score": 1.0,
+   "site_vote": [
+    {
+     "site": "chemy38-8",
+     "votes": 11
+    }
+   ],
+   "site_resolved": "chemy38-8",
+   "note": ""
+  },
+  {
+   "lib_year": 39,
+   "lib_set": "HiChO 初赛模拟1",
+   "cards": 8,
+   "matched": 0,
+   "median_score": 0.012,
+   "site_vote": [],
+   "site_resolved": null,
+   "note": "站点无对应（本库独有）"
+  },
+  {
+   "lib_year": 39,
+   "lib_set": "XChem-ArCHO 模拟卷",
+   "cards": 10,
+   "matched": 0,
+   "median_score": 0.0,
+   "site_vote": [],
+   "site_resolved": null,
+   "note": "站点无对应（本库独有）"
+  },
+  {
+   "lib_year": 39,
+   "lib_set": "联赛5",
+   "cards": 10,
+   "matched": 0,
+   "median_score": 0.045,
+   "site_vote": [],
+   "site_resolved": null,
+   "note": "站点无对应（本库独有）"
+  },
+  {
+   "lib_year": 40,
+   "lib_set": "初赛有机模拟20",
+   "cards": 2,
+   "matched": 0,
+   "median_score": 0.056,
+   "site_vote": [],
+   "site_resolved": null,
+   "note": "站点无对应（本库独有）"
+  },
+  {
+   "lib_year": 40,
+   "lib_set": "初赛有机模拟21",
+   "cards": 2,
+   "matched": 0,
+   "median_score": 0.009,
+   "site_vote": [],
+   "site_resolved": null,
+   "note": "站点无对应（本库独有）"
+  },
+  {
+   "lib_year": 40,
+   "lib_set": "初赛有机模拟22",
+   "cards": 9,
+   "matched": 0,
+   "median_score": 0.0,
+   "site_vote": [],
+   "site_resolved": null,
+   "note": "站点无对应（本库独有）"
+  },
+  {
+   "lib_year": 40,
+   "lib_set": "初赛模拟10",
+   "cards": 5,
+   "matched": 0,
+   "median_score": 0.0,
+   "site_vote": [],
+   "site_resolved": null,
+   "note": "站点无对应（本库独有）"
+  },
+  {
+   "lib_year": 40,
+   "lib_set": "初赛模拟11",
+   "cards": 11,
+   "matched": 0,
+   "median_score": 0.029,
+   "site_vote": [],
+   "site_resolved": null,
+   "note": "站点无对应（本库独有）"
+  },
+  {
+   "lib_year": 40,
+   "lib_set": "初赛模拟12",
+   "cards": 10,
+   "matched": 0,
+   "median_score": 0.036,
+   "site_vote": [],
+   "site_resolved": null,
+   "note": "站点无对应（本库独有）"
+  },
+  {
+   "lib_year": 40,
+   "lib_set": "初赛模拟13",
+   "cards": 10,
+   "matched": 0,
+   "median_score": 0.003,
+   "site_vote": [],
+   "site_resolved": null,
+   "note": "站点无对应（本库独有）"
+  },
+  {
+   "lib_year": 40,
+   "lib_set": "初赛模拟14",
+   "cards": 9,
+   "matched": 0,
+   "median_score": 0.0,
+   "site_vote": [],
+   "site_resolved": null,
+   "note": "站点无对应（本库独有）"
+  },
+  {
+   "lib_year": 40,
+   "lib_set": "初赛模拟15",
+   "cards": 9,
+   "matched": 0,
+   "median_score": 0.0,
+   "site_vote": [],
+   "site_resolved": null,
+   "note": "站点无对应（本库独有）"
+  },
+  {
+   "lib_year": 40,
+   "lib_set": "初赛模拟16",
+   "cards": 10,
+   "matched": 0,
+   "median_score": 0.044,
+   "site_vote": [],
+   "site_resolved": null,
+   "note": "站点无对应（本库独有）"
+  },
+  {
+   "lib_year": 40,
+   "lib_set": "初赛模拟17",
+   "cards": 10,
+   "matched": 0,
+   "median_score": 0.019,
+   "site_vote": [],
+   "site_resolved": null,
+   "note": "站点无对应（本库独有）"
+  },
+  {
+   "lib_year": 40,
+   "lib_set": "初赛模拟18",
+   "cards": 9,
+   "matched": 0,
+   "median_score": 0.012,
+   "site_vote": [],
+   "site_resolved": null,
+   "note": "站点无对应（本库独有）"
+  },
+  {
+   "lib_year": 41,
+   "lib_set": "联赛",
+   "cards": 10,
+   "matched": 0,
+   "median_score": 0.037,
+   "site_vote": [],
+   "site_resolved": null,
+   "note": "站点无对应（本库独有）"
+  },
+  {
+   "lib_year": 42,
+   "lib_set": "联赛(决赛)",
+   "cards": 8,
+   "matched": 0,
+   "median_score": 0.043,
+   "site_vote": [],
+   "site_resolved": null,
+   "note": "站点无对应（本库独有）"
+  },
+  {
+   "lib_year": null,
+   "lib_set": "初赛模拟1",
+   "cards": 9,
+   "matched": 0,
+   "median_score": 0.022,
+   "site_vote": [],
+   "site_resolved": null,
+   "note": "站点无对应（本库独有）"
+  },
+  {
+   "lib_year": null,
+   "lib_set": "初赛模拟2",
+   "cards": 9,
+   "matched": 0,
+   "median_score": 0.009,
+   "site_vote": [],
+   "site_resolved": null,
+   "note": "站点无对应（本库独有）"
+  },
+  {
+   "lib_year": null,
+   "lib_set": "初赛模拟3",
+   "cards": 8,
+   "matched": 0,
+   "median_score": 0.005,
+   "site_vote": [],
+   "site_resolved": null,
+   "note": "站点无对应（本库独有）"
+  },
+  {
+   "lib_year": null,
+   "lib_set": "初赛模拟4",
+   "cards": 9,
+   "matched": 0,
+   "median_score": 0.005,
+   "site_vote": [],
+   "site_resolved": null,
+   "note": "站点无对应（本库独有）"
+  },
+  {
+   "lib_year": null,
+   "lib_set": "新-2026年暑假刷题（15套）卷10",
+   "cards": 3,
+   "matched": 0,
+   "median_score": 0.016,
+   "site_vote": [],
+   "site_resolved": null,
+   "note": "站点无对应（本库独有）"
+  },
+  {
+   "lib_year": null,
+   "lib_set": "新-2026年暑假刷题（15套）卷19",
+   "cards": 9,
+   "matched": 0,
+   "median_score": 0.018,
+   "site_vote": [],
+   "site_resolved": null,
+   "note": "站点无对应（本库独有）"
+  },
+  {
+   "lib_year": null,
+   "lib_set": "新-2026年暑假刷题（15套）卷20",
+   "cards": 6,
+   "matched": 0,
+   "median_score": 0.029,
+   "site_vote": [],
+   "site_resolved": null,
+   "note": "站点无对应（本库独有）"
+  },
+  {
+   "lib_year": null,
+   "lib_set": "新-2026年暑假刷题（15套）卷21",
+   "cards": 6,
+   "matched": 0,
+   "median_score": 0.008,
+   "site_vote": [],
+   "site_resolved": null,
+   "note": "站点无对应（本库独有）"
+  }
+ ]
+}
