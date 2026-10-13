@@ -27,9 +27,23 @@ BASE = '04-题库/2026机构初赛模拟题'
 QB = '04-题库'
 OUTdocx = os.path.join('00-首页', '题组Word', '初赛模拟卷')
 SRCS = ['化英社', '清北营', 'chemy', '伽马', '壹尖培优', '汇智', 'XeChem', '质心GChO', '质心UChO', '方圆', '一式', '北京夏令营', '2ChO']
+# ── 单一来源限定（`--only-src <机构>`；专题卷用）───────────────────────────────
+def _arg_only_src():
+    for i, a in enumerate(sys.argv):
+        if a == '--only-src' and i + 1 < len(sys.argv):
+            return sys.argv[i + 1]
+        if a.startswith('--only-src='):
+            return a.split('=', 1)[1]
+    return None
+
+ONLY_SRC = _arg_only_src()
+if ONLY_SRC:
+    if ONLY_SRC not in SRCS:
+        raise SystemExit('--only-src 未知机构「%s」（可用：%s）' % (ONLY_SRC, '、'.join(SRCS)))
+    SRCS = [ONLY_SRC]
 # ── 卷号参数化（`--vol XI`；默认 X 保持向后兼容）＋计划读写分离 ───────────────
 ROMAN = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X',
-         'XI', 'XII', 'XIII', 'XIV', 'XV', 'XVI']
+         'XI', 'XII', 'XIII', 'XIV', 'XV', 'XVI', 'XVII']
 
 
 def _arg_vol():
@@ -474,10 +488,16 @@ def drop_empty_headings(s):
 
 
 def renumber2(text, new_no, prefix):
-    """重编号（兼容源卡把小题写成 `6- 2- 1` 的**间距变体**，原 renumber 只认 `6-2-1`）。"""
+    """重编号（兼容源卡把小题写成 `6- 2- 1` 的**间距变体**，原 renumber 只认 `6-2-1`）。
+    v2 追加：**行首点号形态** `6.1` / `6.3.1`（chemy 卡常见，如 `6.1 写出…`）——
+    行首限定以防误改正文中的小数（`0.5` 等）。"""
     if prefix is None:
         return text
     p = str(prefix)
+    # ★ 行首点号形态（`6.1`/`6.3.1`／亦可后紧跟中文，如 `6-2-1假设`）
+    text = re.sub(r'(?m)^([ \t]*)' + p + r'[ \t]*\.[ \t]*(\d{1,2})(?:[ \t]*\.[ \t]*(\d{1,2}))?(?![\d])',
+                  lambda m: '%s%d-%s%s' % (m.group(1), new_no, m.group(2),
+                                           ('-%s' % m.group(3)) if m.group(3) else ''), text)
     # 加粗三级/二级
     text = re.sub(r'\*\*\s*' + p + r'\s*[-.．]\s*(\d{1,2})\s*[-.．]\s*(\d{1,2})\s*\*\*',
                   lambda m: '**%d-%s-%s**' % (new_no, m.group(1), m.group(2)), text)
@@ -487,12 +507,12 @@ def renumber2(text, new_no, prefix):
     # 否则 `正确确定 1-5 个` 会被错成 `9-5 个`（2026-10-08 卷 XIV 第 9 题实测）。
     RANGE_TAIL = r'(?!\s*[个种条次层组份])'
     # 裸三级（先做，含间距变体）
-    text = re.sub(r'(?<![\w\d.])' + p + r'\s*-\s*(\d{1,2})\s*-\s*(\d{1,2})(?![\w\d.])' + RANGE_TAIL,
+    text = re.sub(r'(?<![\w\d.])' + p + r'\s*-\s*(\d{1,2})\s*-\s*(\d{1,2})(?![\d.])' + RANGE_TAIL,
                   lambda m: '%d-%s-%s' % (new_no, m.group(1), m.group(2)), text)
     # 裸二级 —— lookbehind 须排除 `-`：否则会二次命中刚生成的三级号里的 `2-1`
     # ⇒ `2-2-1` 被错成 `5-5-1`（2026-10-08 卷 XIV 实测）；lookahead 保持原样
     # （收紧 lookahead 会在 4 级小问上引入新错位，已证伪勿再试）
-    text = re.sub(r'(?<![\w\d.\-])' + p + r'\s*-\s*(\d{1,2})(?![\w\d.]|-)' + RANGE_TAIL,
+    text = re.sub(r'(?<![\w\d.\-])' + p + r'\s*-\s*(\d{1,2})(?![\d.]|-)' + RANGE_TAIL,
                   lambda m: '%d-%s' % (new_no, m.group(1)), text)
     return text
 
@@ -1386,6 +1406,10 @@ def _sel_flags():
             break
     if '--quota' in sys.argv:
         f.append('--quota')
+    for a in sys.argv:
+        if a == '--only-src' or a.startswith('--only-src='):
+            f.append('--only-src')
+            break
     return sorted(set(f))
 
 
@@ -1506,7 +1530,7 @@ def main():
                   % (os.path.basename(PLAN_OUT), sum(len(g) for _, g in picks)))
     report_meta()
     if picks is None:
-        picks = pick_vol(pool, used, max_per_src=4, fps0=fps0)
+        picks = pick_vol(pool, used, max_per_src=(99 if ONLY_SRC else 4), fps0=fps0)
     flat = [(mod, c, i) for mod, got in picks for i, c in enumerate(got, 1)]
     SC = assign_scores(flat, target=TARGET)
     total = sum(SC[c['path']] for _, c, _ in flat)

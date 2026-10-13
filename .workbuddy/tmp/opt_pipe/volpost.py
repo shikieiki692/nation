@@ -319,8 +319,8 @@ def diag(vol):
         for name, rx in DIAG:
             n_all, n_ans = len(rx.findall(t)), len(rx.findall(seg))
             if n_all:
-                sample = rx.search(seg or t)
-                ctx = t[max(0, sample.start() - 30):sample.end() + 16].replace("\n", "⏎")
+                sample = rx.search(seg or t) or rx.search(t)
+                ctx = t[max(0, sample.start() - 30):sample.end() + 16].replace("\n", "⏎") if sample else ""
                 hits.append((name, n_all, n_ans, ctx))
         if hits:
             print("\n第%2d题 ← %s" % (i, os.path.basename(rel)[:56]))

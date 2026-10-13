@@ -256,16 +256,24 @@ def vote_prefix(c):
         v = int(m.group(1))
         if 1 <= v <= 30:
             bare[v] += 1
+    # ★ v2：**行首点号形态**（chemy 卡常见 `6.1 写出…`）——行首限定，防误投正文小数
+    dot = collections.Counter()
+    for m in re.finditer(r'(?m)^[ \t]*(\d{1,2})[ \t]*\.[ \t]*(\d{1,2})(?![\d])', blob):
+        v = int(m.group(1))
+        if 1 <= v <= 30:
+            dot[v] += 1
     vc = collections.Counter()
     for k, n in star.items():
         vc[k] += n * 2
     for k, n in bare.items():
         vc[k] += n
+    for k, n in dot.items():
+        vc[k] += n
     if not vc:
         return None
     cand, _ = vc.most_common(1)[0]
-    # 回查：该前缀必须真的能以 **P-M** 或 裸 P-M 的形式出现
-    if star.get(cand, 0) == 0 and bare.get(cand, 0) == 0:
+    # 回查：该前缀必须真的能以 **P-M** / 裸 P-M / 行首点号 P.M 的形式出现
+    if star.get(cand, 0) == 0 and bare.get(cand, 0) == 0 and dot.get(cand, 0) == 0:
         return None
     return cand
 
