@@ -147,11 +147,35 @@ updated: 2026-10-05
 
 | CM-182 ~ CM-191 | `chemy-第39届XChemArCHO模拟卷` | 10（8 正式 ＋ 2 思考） | `39届初赛模拟试题分享-2 10th XChem-ArCHO..md` | 🆕 2026-10-04 新建（P5） |
 
+| CM-192 | `chemy-第39届初赛模拟1` | 10 | `Chemy-项目 dist/questions.json#chemy39-1-*` | 🆕 2026-10-14 新建（P2 批1） |
+| CM-193 | `chemy-第39届初赛模拟2` | 10 | `Chemy-项目 dist/questions.json#chemy39-2-*` | 🆕 2026-10-14 新建（P2 批1） |
+| CM-194 | `chemy-第39届初赛模拟3` | 9 | `Chemy-项目 dist/questions.json#chemy39-3-*` | 🆕 2026-10-14 新建（P2 批1） |
+| CM-195 | `chemy-第39届初赛模拟4` | 10 | `Chemy-项目 dist/questions.json#chemy39-4-*` | 🆕 2026-10-14 新建（P2 批1） |
+| CM-196 | `chemy-第39届初赛模拟5` | 9 | `Chemy-项目 dist/questions.json#chemy39-5-*` | 🆕 2026-10-14 新建（P2 批1） |
+| CM-197 | `chemy-第39届初赛模拟6` | 9 | `Chemy-项目 dist/questions.json#chemy39-6-*` | 🆕 2026-10-14 新建（P2 批1） |
+| CM-198 | `chemy-第39届初赛模拟7` | 9 | `Chemy-项目 dist/questions.json#chemy39-7-*` | 🆕 2026-10-14 新建（P2 批1） |
+| CM-199 | `chemy-第39届初赛模拟8` | 8 | `Chemy-项目 dist/questions.json#chemy39-8-*` | 🆕 2026-10-14 新建（P2 批1） |
+| CM-200 | `chemy-第39届初赛模拟9` | 12 | `Chemy-项目 dist/questions.json#chemy39-9-*` | 🆕 2026-10-14 新建（P2 批1） |
+| CM-201 | `chemy-第39届初赛模拟10` | 10 | `Chemy-项目 dist/questions.json#chemy39-10-*` | 🆕 2026-10-14 新建（P2 批1） |
+| CM-202 | `chemy-第39届初赛模拟11` | 9 | `Chemy-项目 dist/questions.json#chemy39-11-*` | 🆕 2026-10-14 新建（P2 批1） |
+| CM-203 | `chemy-第39届初赛模拟12` | 9 | `Chemy-项目 dist/questions.json#chemy39-12-*` | 🆕 2026-10-14 新建（P2 批1） |
+| CM-204 | `chemy-第39届初赛模拟13` | 11 | `Chemy-项目 dist/questions.json#chemy39-13-*` | 🆕 2026-10-14 新建（P2 批1） |
+| CM-205 | `chemy-第39届初赛模拟14` | 8 | `Chemy-项目 dist/questions.json#chemy39-14-*` | 🆕 2026-10-14 新建（P2 批1） |
+| CM-206 | `chemy-第39届初赛模拟15` | 11 | `Chemy-项目 dist/questions.json#chemy39-15-*` | 🆕 2026-10-14 新建（P2 批1） |
+| CM-207 | `chemy-第39届初赛模拟16` | 9 | `Chemy-项目 dist/questions.json#chemy39-16-*` | 🆕 2026-10-14 新建（P2 批1） |
+| CM-208 | `chemy-第39届初赛模拟17` | 10 | `Chemy-项目 dist/questions.json#chemy39-17-*` | 🆕 2026-10-14 新建（P2 批1） |
+| CM-209 | `chemy-第39届初赛模拟18` | 9 | `Chemy-项目 dist/questions.json#chemy39-18-*` | 🆕 2026-10-14 新建（P2 批1） |
+| CM-210 | `chemy-第39届初赛模拟19` | 9 | `Chemy-项目 dist/questions.json#chemy39-19-*` | 🆕 2026-10-14 新建（P2 批1） |
+| CM-211 | `chemy-第39届初赛模拟20` | 9 | `Chemy-项目 dist/questions.json#chemy39-20-*` | 🆕 2026-10-14 新建（P2 批1） |
+| CM-212 | `chemy-第39届初赛模拟21` | 11 | `Chemy-项目 dist/questions.json#chemy39-21-*` | 🆕 2026-10-14 新建（P2 批1） |
+| CM-213 | `chemy-第39届初赛模拟22` | 9 | `Chemy-项目 dist/questions.json#chemy39-22-*` | 🆕 2026-10-14 新建（P2 批1） |
+
 ## 编号实况
 
-- 已占用套号 **145 个**：CM-01 ~ CM-05, CM-10 ~ CM-22, CM-41 ~ CM-191
+- 已占用套号 **167 个**：CM-01 ~ CM-05, CM-10 ~ CM-22, CM-41 ~ CM-213
 - 区间内空缺：CM-06, CM-07, CM-08, CM-09, CM-23, CM-24, CM-25, CM-26, CM-27, CM-28, CM-29, CM-30, CM-31, CM-32, CM-33, CM-34, CM-35, CM-36, CM-37, CM-38, CM-39, CM-40
-- 当前最大套号 **CM-191**，下一个新套号从 **CM-192** 起。
+- 当前最大套号 **CM-213**，下一个新套号从 **CM-214** 起。
+- P2 批1（2026-10-14）新建：CM-192~CM-213（**39 届初赛模拟 1~22 全 22 套 / 210 张卡**；源＝Chemy- 项目 `dist/questions.json`，图＝站点 `assets/e39-pNN-[qa]MM-*` 原卷切图）。
 - P0（2026-10-02）新建：CM-43（33届联赛）、CM-44（34届联赛）、CM-45（35届联赛）、CM-46（38届联赛）、CM-47（40届联赛），共 **45** 张卡。
 - P1（2026-10-03）新建：CM-48（37届决赛第一场，13 题）、CM-49（37届决赛第二场，9 题），共 **22** 张卡。
 - P2-a（2026-10-04）新建：CM-50~CM-59（32 届初赛模拟 1~9 ＋ 有机专题）＋ CM-60（32 届决赛模拟，22 题），共 **124** 张卡。
