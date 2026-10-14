@@ -1,12 +1,12 @@
 ---
-title: "机构模拟题组卷管线 SOP（定版 v1.7）"
+title: "机构模拟题组卷管线 SOP（定版 v1.8）"
 type: 规范
-version: v1.7
+version: v1.8
 updated: 2026-10-11
 tags: [规范, 组卷线, 机构模拟题, 初赛模拟卷, 真题版式, 回源核验, 答案核验, 解析, 卷级后处理, 表格列宽, 交付件审计, 丢图, 图分辨率, 计划锁, 重建失真]
 ---
 
-# 机构模拟题组卷管线 SOP（定版 v1.7 · 2026-10-11）
+# 机构模拟题组卷管线 SOP（定版 v1.8 · 2026-10-14）
 
 > 配套技能：`~/.workbuddy/skills/multisource-exam-paper-compose/SKILL.md`（细节/坑表/工具用法看它）。
 > 配套规范：[[机构模拟题解析撰写规范]]（解析的四段式结构与知识库取材口径）。
@@ -36,6 +36,14 @@ tags: [规范, 组卷线, 机构模拟题, 初赛模拟卷, 真题版式, 回源
 > 另：**折行审计**改读表自带 `tblCellMar` ＋ 新增 **`grid 总宽 > tblW`** 与 **`gridCol 数 ≠ 单元格数`** 两条真判据（配 `selftest_table_wrap_audit.py` 双样本自证）；
 > **渲染机检** `--vol <卷>` 别名（原先 `--vol` 被**静默忽略**跑全量）＋ numpy 向量化（**14m16s → 6m35s**）＋**基线比对只报变化**；
 > 新增 §五-i 工具链与 §五-b 缺陷 **13（图内标签/页眉残留）**；§七 待落码状态更新。
+> **v1.8 变更（2026-10-14）**：卷 XVII（chemy 单源·物化＋结构 10 题）线新增**两类「三闸门盲区」缺陷**并落闸：
+> ① **新增 ④-c 交付前扫描器** `.workbuddy/scripts/scan_mathring.py`——治 `\mathrm{…\mathring…}`（源卡把 `\mathring{A}` 误包进 `\mathrm{}`
+>    ⇒ 交付 docx **印字面「mathtyping A」**）与 Δ 噪声；**`qa_volX2`／`qa_vol_deliver`／`table_wrap_audit` 三闸门均看不见**（实测）。
+>    退出码 0/1 可直接串入交付链；批量修工具 `.workbuddy/tmp/opt_pipe/fix_mathring_delta.py`（`--dry` 先行，含防误改跳过规则）。
+> ② **表格单元格内 OMML 公式被 LibreOffice 按估算宽度裁切**（卷 XVII 第 10 题实测：`[H⁺]/mol·L⁻¹` 印成 `[H⁺]/mo`、
+>    `8.71×10⁻³` 印成 `8.71 × 10`）⇒ 规避＝该格改**纯文本 Unicode**；同表纯文本格正常可作反证。
+> 另：组卷器新增 **`--only-src <机构>`** 单一来源开关（专题卷用）＋ `ROMAN` 扩容；**chemy 卡小问编号为「行首点号」形态**
+> （`6.1`/`6.3.1`）⇒ `renumber2`／`vote_prefix` 已补行首点号支持（原只认连字符 ⇒ 整卡不重编号）。
 
 ## 〇、铁律（最高优先级）
 
@@ -122,6 +130,17 @@ O=.workbuddy/tmp/opt_pipe
 #   期望「✓ 全部通过」。**任一条 ✗ 必须查明并修复后重出**——尤其 A/H（丢图）：
 #   卡图没进卷 md ⇒ 要么进 keep 清单（真图），要么进 reviewed 清单（装饰性），二者必居其一。
 #   判据 I＝「每张图有效 dpi ≥150」（§五-h 构建期封顶的守门人）；报 ✗ ⇒ 查是否有图绕过了 dpi 封顶。
+
+# ④-c 「Å 误包 / mathtyping / Δ 噪声」专用扫描（2026-10-14 立；秒级，纯读）
+"$PY" -X utf8 .workbuddy/scripts/scan_mathring.py --vol <VOL>
+#   期望 VERDICT: PASS（退出码 0）。🔴 命中＝**必修**：
+#     `\mathrm{…\mathring…}`（源卡把 `\mathring{A}` 误包进 `\mathrm{}`）⇒ 交付 docx 印**字面「mathtyping A」**；
+#     `qa_volX2` / `qa_vol_deliver` / `table_wrap_audit` **三闸门均看不见**（2026-10-13 卷 XVII 实测）。
+#     修法：卷 md 层改 `\text{Å}`；批量工具 `.workbuddy/tmp/opt_pipe/fix_mathring_delta.py`（`--dry` 先看）。
+#   🟠 命中＝Δ 噪声候选（`\xrightarrow[…\Delta…]`＝加热条件、`\Delta_r G`/`\Delta H_n`＝正当符号，
+#     工具已自动排除；仍被报者需**人工判**是否为 OCR 噪声）。
+#   ★ 语义等价的另一路：表格单元格内 OMML 公式会被 LibreOffice 按估算宽度**裁切**（同属三闸门盲区），
+#     规避＝该格改纯文本 Unicode（卷 XVII 第 10 题实例）。
 
 # ⑤ 视觉核验（不可省）——**学生版 + 答案版 + 答题卡三份逐页**
 "$PY" -X utf8 $O/render_any.py "<docx 绝对路径>" <tag> 1 45
