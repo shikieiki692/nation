@@ -59,6 +59,7 @@
 ## ★ 工作区 / 环境 / 提交
 
 - ⛔ 永不 `git add -A`/目录级 add；逐路径精确 add；核体量 `-uall`＋`-c core.quotepath=false`。🔴🔴 正解＝**隔离索引＋竞态重试**（`do_commit_*.py`：read-tree HEAD→分块 add→核对「暂存==本会话集合」→commit→`cannot lock ref 'HEAD'` 重试）；主索引末 `reset -q HEAD -- <paths>`。脚本 Write 成 `.py`；**分块 add（>200 路径 `WinError 206`）**。
+  · 🔴🔴 **竞态重试挡不住「stale tree」**（2026-10-14 实伤）：`read-tree HEAD` 与 `git commit` 之间**并行会话提交** ⇒ 本提交 tree 落后于其父提交 ⇒ **静默回退他人文件**（先例：并行 `b594bc5bc` 回退了本会话批6 的 7 个文件——报告被删、ARCHIVE/MEMORY/日志/计划/README 被退回）。**防护**：每次 commit 后必 `git diff --name-status <本会话上一次提交> HEAD` 自查；发现被回退**只补回本会话文件**（`git add` 工作区版本 → 单独 fixup commit），⛔ 不碰并行会话暂存项。
 - 🔴 回滚 ref＝「误修复之前」commit；「让闸门变差」的修复一律回滚。推送＝`git -c credential.helper=manager push origin master`＋`git ls-remote` 核对。
 - 🔴🔴 行尾：`.gitattributes` 定 `*.md eol=lf` ⇒ 别按工作区 CRLF 写回；改完复核 `git diff --cached -U0`。🔴🔴 **`04-题库/**/images/` gitignore** ⇒ 图片类改动**只提交卡 md**。
 - 🔴 FM 护栏：块列表必须 `- `（裸 `[[…]]` ⇒ js-yaml4 THROW ⇒ Obsidian 消失）；值含裸 `: `、以 `*`/`[`/`{` 开头加引号；校验 py3.12 ruamel。🔴🔴 FM 解析必抗 CRLF＋抗行内数组，**取值禁用 `\s*`** ⇒ 一律 `[ \t]*`。读文件一律 `utf-8-sig`。
