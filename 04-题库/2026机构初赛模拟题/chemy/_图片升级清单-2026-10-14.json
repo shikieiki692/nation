@@ -1,0 +1,6010 @@
+{
+ "generated": "2026-10-14",
+ "scope": "chemy 存量卡图「小图优先」升级（原地覆盖 + 备份旧图）",
+ "site_source": "https://github.com/BruceJLLpku/Chemy-  (Pages CDN assets)",
+ "policy": {
+  "rule": "只替换不新增；引用数不变；图数守恒",
+  "pairing": "内容级配对（墨迹框归一化相关系数），非序号对位",
+  "threshold": "score>=0.80 且 站点墨迹宽高均 >=1.15x 且 形状比>=0.5(PAD=8, TH=200)",
+  "landing": "原地覆盖同名文件；旧图备份见 backup_dir",
+  "watermark": "未做任何水印处理；部分站点图本身不含水印（非本线删除）"
+ },
+ "backup_dir": "06-外部资料导入/OCR/chemy/_images_backup_2026-10-14/",
+ "counts": {
+  "candidates": 316,
+  "replaced": 314,
+  "skipped": 2,
+  "cards_touched": 186
+ },
+ "gain": {
+  "width_p50": 1.25,
+  "ink_ratio_p50": 1.49,
+  "note": "实测线性增益约 1.26x（非 2.9x）"
+ },
+ "replaced": [
+  {
+   "lib_img": "00d71587fb4218d97adb8f990f81fb1331b954f28da7ed38e755f5de571fb539.jpg",
+   "card": "题-CM-71-05-5-1355-三甲基环己-2.md",
+   "kind": "a",
+   "site_img": "e33-p11-q05-01-6dd01a450c80.webp",
+   "score": 0.8832,
+   "old_sha256": "78a2e4e3b7ee2a210cf63ce7c9489508fea67df9fda236c7fb1cbda6c39eba01",
+   "new_sha256": "a0a77c9051a3c4bf5075bdae88388e03da6b488ce46ba46fd8fd76b5df18fbba",
+   "old_wh": [
+    203,
+    139
+   ],
+   "new_wh": [
+    261,
+    180
+   ],
+   "old_bytes": 5027,
+   "new_bytes": 10290
+  },
+  {
+   "lib_img": "0248bd905bd1b617ccf0a2a8b4e97c3c0e59cb4a25f310ab35d7e7ca9540cf6c.jpg",
+   "card": "题-CM-106-07-7-1化合物A和B分别进行水.md",
+   "kind": "a",
+   "site_img": "e35-p18-a07-03-8b8fde98d372.webp",
+   "score": 0.987,
+   "old_sha256": "47fbf11a0a90fbad063b5a05f87774e10077d4385a5b97d60eef761f9467ce63",
+   "new_sha256": "fe8fa1a253b4c217aa4b76928851e92f3507a281114c311a15359174baf30d3e",
+   "old_wh": [
+    484,
+    237
+   ],
+   "new_wh": [
+    610,
+    309
+   ],
+   "old_bytes": 13690,
+   "new_bytes": 42814
+  },
+  {
+   "lib_img": "04f271d2a9c5d1a64002f3cc8250491bf920327b8b6ccc4b735bc13ae10d5da1.jpg",
+   "card": "题-CM-108-05-在24-二硝基苯磺酸催化下1.md",
+   "kind": "a",
+   "site_img": "e35-p21-q05-02-8691d5c540b2.webp",
+   "score": 0.9938,
+   "old_sha256": "c505153f6239b583f72216af5168a7cc55e3c3245c18967d3b85dcbabc5539a2",
+   "new_sha256": "094cc92a100e2c270f71a5d13e8364577cb26adccecc8c901679f54584f7497d",
+   "old_wh": [
+    482,
+    376
+   ],
+   "new_wh": [
+    688,
+    537
+   ],
+   "old_bytes": 21063,
+   "new_bytes": 65942
+  },
+  {
+   "lib_img": "0531c4c0870330366040985f7c1d5d8363446e0cc6394e5e2162ea9b2afcfe0c.jpg",
+   "card": "题-CM-145-08-反式5并5环系具有比较高的环.md",
+   "kind": "q",
+   "site_img": "e37-p20-q08-01-2417f6bd9f83.webp",
+   "score": 0.8477,
+   "old_sha256": "a453d1216820957852c233110e5cf53f5a56093d77cbec89106456a168e36b54",
+   "new_sha256": "52076bd2c051fee0931b89fd22608cb40d7e683b310328570ee32dad83ffd787",
+   "old_wh": [
+    173,
+    153
+   ],
+   "new_wh": [
+    224,
+    205
+   ],
+   "old_bytes": 5470,
+   "new_bytes": 16622
+  },
+  {
+   "lib_img": "05a45b154abcd93eff31d9e015d23a8591ae29711928ac8b4d10aac0cfe622e2.jpg",
+   "card": "题-CM-165-02-顾名思义超酸是一类酸度极强的.md",
+   "kind": "a",
+   "site_img": "e38-p15-a02-02-11111738416a.webp",
+   "score": 0.9554,
+   "old_sha256": "69c508d204aa9c9222a24b432ff02ea3d634aa38bfab4c706249c8d9c71c22aa",
+   "new_sha256": "5423c0389f1fc035514cd5522ca66fc2dd7b0411c2185a54e81dcf181eb31503",
+   "old_wh": [
+    465,
+    104
+   ],
+   "new_wh": [
+    584,
+    133
+   ],
+   "old_bytes": 5469,
+   "new_bytes": 17958
+  },
+  {
+   "lib_img": "060d15a81898d332d9fb6abf727037e75f3288cace5ee8822aa97c1256dc9568.jpg",
+   "card": "题-CM-101-02-2-1在外界的机械力下有些聚.md",
+   "kind": "a",
+   "site_img": "e35-p12-a02-01-9b4bbf96596a.webp",
+   "score": 0.8469,
+   "old_sha256": "a9dd3a8dbace20176a7a61b6008c34ed3464a65b8d663eb4bd28047a25d33e10",
+   "new_sha256": "7cb749d3e08a4f835029831b3fea763be7ce3edece5ce2148efb6d74880e0e87",
+   "old_wh": [
+    298,
+    184
+   ],
+   "new_wh": [
+    374,
+    234
+   ],
+   "old_bytes": 8222,
+   "new_bytes": 30576
+  },
+  {
+   "lib_img": "06b568cce41849f582cba23767b44145a6e06c507558a6319faf47cc9ddb0ea2.jpg",
+   "card": "题-CM-169-04-将醋酸钯六水合硝酸铟按照一定.md",
+   "kind": "a",
+   "site_img": "e38-p20-a04-02-f141ded27a90.webp",
+   "score": 0.998,
+   "old_sha256": "aa05b0ce14d40dc1092ce3a08034f0d7edeba6f3958b5d39feb9e1930524c8b7",
+   "new_sha256": "1be11fce0a0be2aea9e86803a7ca864ffa985257714dc82e47a1cc9461038bf8",
+   "old_wh": [
+    462,
+    346
+   ],
+   "new_wh": [
+    573,
+    412
+   ],
+   "old_bytes": 22061,
+   "new_bytes": 71187
+  },
+  {
+   "lib_img": "074c4cb172732691bba274ff2cf19386ef300df8288b4a9bca4fca54e2fa0eb9.jpg",
+   "card": "题-CM-124-03-用气体X还原缺陷氧化物可得到.md",
+   "kind": "q",
+   "site_img": "e36-p18-q03-01-5aa1d0ad7365.webp",
+   "score": 0.9653,
+   "old_sha256": "5931b2b58b2500d94153b966d613e95f5ff59973e1e3bc292394b8b1a522d8cf",
+   "new_sha256": "bc542d298aaef4c7e0a862455f08475489f2435c38c6f8f2cd86e7b3afdb109f",
+   "old_wh": [
+    184,
+    153
+   ],
+   "new_wh": [
+    236,
+    196
+   ],
+   "old_bytes": 3728,
+   "new_bytes": 7556
+  },
+  {
+   "lib_img": "0769915b5ceda39376c10084edeb3c2ffcf3881c05e1d8ff50cfabd02e08887d.jpg",
+   "card": "题-CM-107-10-二烷氧基卡宾是一类特征的反应.md",
+   "kind": "q",
+   "site_img": "e35-p20-q10-03-8e3068a75313.webp",
+   "score": 0.9523,
+   "old_sha256": "7adf00c6f65a35e46a7518f18e6d5bf122cfaa671af49eb1beb2b2f010799452",
+   "new_sha256": "a2fea4871adc6fa61eed72dd1aa98ef72614d20ef7cb84d9170d3188456fa997",
+   "old_wh": [
+    259,
+    184
+   ],
+   "new_wh": [
+    314,
+    220
+   ],
+   "old_bytes": 7127,
+   "new_bytes": 11176
+  },
+  {
+   "lib_img": "08b59357139f70c5f440ef3883d7c6999f16f00f561c2f19318b4dcb7cc664cf.jpg",
+   "card": "题-CM-167-07-7-1同碳上亚甲基的氢酸性有.md",
+   "kind": "a",
+   "site_img": "e38-p17-q07-05-9c8d83feb258.webp",
+   "score": 0.9412,
+   "old_sha256": "269e743c1836d400a53d11d4fe542d4f7274f02e09407a5e0603e88ec5fc0937",
+   "new_sha256": "ab3e0ef43e9b6102284689cb149a21ffab135f9846294c1ea18f2eb35a47a1f4",
+   "old_wh": [
+    248,
+    121
+   ],
+   "new_wh": [
+    304,
+    149
+   ],
+   "old_bytes": 3991,
+   "new_bytes": 7697
+  },
+  {
+   "lib_img": "08f405f39ac7cc4add9366cf3cdfd4b23b3cc67cb9d1ae99a7a661ced310bcd2.jpg",
+   "card": "题-CM-165-01-1-1生活中使用的各种材料与.md",
+   "kind": "a",
+   "site_img": "e38-p15-a01-03-5703aebf35bc.webp",
+   "score": 0.9553,
+   "old_sha256": "e3461810520a9210a67755f2459d277aead3fdf31c93af835c4e877ce3d7703a",
+   "new_sha256": "7f953b32fb9ebbe692f044bc093ee0598e08235dccdbc157a99a724eafc85eba",
+   "old_wh": [
+    145,
+    154
+   ],
+   "new_wh": [
+    182,
+    196
+   ],
+   "old_bytes": 3436,
+   "new_bytes": 10397
+  },
+  {
+   "lib_img": "09cdf9c9ae9180a14aad0773d9b079b94963734a4a69e7253cea5368cca21caf.jpg",
+   "card": "题-CM-110-06-卟啉是一类由四个吡咯类亚基的.md",
+   "kind": "q",
+   "site_img": "e35-p23-q06-02-48ae188d1778.webp",
+   "score": 0.8963,
+   "old_sha256": "a544966c90e9c093f9ce83502f4d9d1f51a72ab5b528bd016ddd64a450f58655",
+   "new_sha256": "0d73194d3f2e2825341802879fb297a2d96ae8a52c2891b4362bf717d904737f",
+   "old_wh": [
+    321,
+    104
+   ],
+   "new_wh": [
+    394,
+    126
+   ],
+   "old_bytes": 4313,
+   "new_bytes": 7082
+  },
+  {
+   "lib_img": "09d4edcbec58645074b63129983afc3fc5d10d958ad8ff116b3ca98b2becd8ab.jpg",
+   "card": "题-CM-89-07-烯丙醇的选择性氧化非常有趣.md",
+   "kind": "a",
+   "site_img": "e34-p16-q07-02-b79b93c89451.webp",
+   "score": 0.8186,
+   "old_sha256": "70ec0d012aac928e56db84332e0104a5edaa83153f29034aa40fa7349beb250a",
+   "new_sha256": "8c98ac573cb9dd3ff1f2a2b4acec8fa6224643fd8c4a7fcf2efa542be08292b3",
+   "old_wh": [
+    143,
+    87
+   ],
+   "new_wh": [
+    177,
+    116
+   ],
+   "old_bytes": 2492,
+   "new_bytes": 4266
+  },
+  {
+   "lib_img": "0c0223a33ea107e43c78945696ef3aaf12997df596445d5e3e1696b87afdfce9.jpg",
+   "card": "题-CM-139-11-产物的正确表征是论文发表的前.md",
+   "kind": "q",
+   "site_img": "e37-p10-q11-04-62349e9e6e34.webp",
+   "score": 0.9565,
+   "old_sha256": "8fa375f978dd0146afebd460ed3f881da9b84932320a6f37d909e7b2d781a6b7",
+   "new_sha256": "ffd044b2d6b905984a14c0175244a90d935074497114326130a81ed1bca9c0c3",
+   "old_wh": [
+    274,
+    151
+   ],
+   "new_wh": [
+    340,
+    193
+   ],
+   "old_bytes": 8179,
+   "new_bytes": 15174
+  },
+  {
+   "lib_img": "0c29c15afb002fe1938c00c08a551e0e342fdff32495cb9e8a18e370f4414a58.jpg",
+   "card": "题-CM-169-02-2-1小宇正在做通过分光光度.md",
+   "kind": "a",
+   "site_img": "e38-p20-q02-03-364a411edcde.webp",
+   "score": 0.8436,
+   "old_sha256": "bbfdf492a5f5e5920c15ecacdcbcf4a1c15d4256b3d6ea1360363354d5959b98",
+   "new_sha256": "4aac5c0cd15cb6d7e6f7aab1a1fed601ccb0e70f9a3aa850d875be1a333768d4",
+   "old_wh": [
+    209,
+    217
+   ],
+   "new_wh": [
+    269,
+    283
+   ],
+   "old_bytes": 8039,
+   "new_bytes": 14911
+  },
+  {
+   "lib_img": "0c58fa829ba916c8f14703590a397b826259f60e94bef7046378460ed1a693f9.jpg",
+   "card": "题-CM-91-09-α-氨基酸是蛋白质的基本砌块.md",
+   "kind": "a",
+   "site_img": "e35-p01-q09-02-8cc92b8ccef0.webp",
+   "score": 0.928,
+   "old_sha256": "c063a93e4e1472123c43d6188872967522fad29f4fdd52f9ebb30b9f0d4ab15b",
+   "new_sha256": "f6a35b41468fbb7e6b72ce0f2019db63d37a07117bbd95cad436ba01cbe54950",
+   "old_wh": [
+    162,
+    112
+   ],
+   "new_wh": [
+    193,
+    141
+   ],
+   "old_bytes": 3509,
+   "new_bytes": 6315
+  },
+  {
+   "lib_img": "0dcf0e0aed7a7baf3826e64660923f51c5ff3bd90f65b4b5569057e763001b14.jpg",
+   "card": "题-CM-169-08-8-1叔膦是一种有机化学中常.md",
+   "kind": "a",
+   "site_img": "e38-p20-a08-05-661a19bdd333.webp",
+   "score": 0.9178,
+   "old_sha256": "d8dd5640f8d763393610760111ee3355ca0b0fb52fef987330814aee639f954e",
+   "new_sha256": "a5adc8adb99cfb2dadf0bfd95da08a5766db87cb465004e057c41f81a66f989b",
+   "old_wh": [
+    268,
+    167
+   ],
+   "new_wh": [
+    334,
+    215
+   ],
+   "old_bytes": 6832,
+   "new_bytes": 24156
+  },
+  {
+   "lib_img": "0eefaba995c6b9b2f57437a1645c37521b1cbe0b403ec7ce9f23c85528009458.jpg",
+   "card": "题-CM-82-02-DNA与RNA承载了生命遗传.md",
+   "kind": "a",
+   "site_img": "e34-p09-q02-03-d5870772f432.webp",
+   "score": 0.8923,
+   "old_sha256": "f127325b89799ea9f26dfbc720ec39110b3782e74c74fda5276d5cee0a1578c7",
+   "new_sha256": "14467afdd7b1e3df9f962de0ba9fcb6b21ef1a50a6a77268e15ef29f78e4c0ac",
+   "old_wh": [
+    171,
+    180
+   ],
+   "new_wh": [
+    217,
+    228
+   ],
+   "old_bytes": 4415,
+   "new_bytes": 8750
+  },
+  {
+   "lib_img": "12b1a27ce898083c4283e52d1f58d658a9259ca6820003989a21ac62b98c2c02.jpg",
+   "card": "题-CM-169-08-8-1叔膦是一种有机化学中常.md",
+   "kind": "a",
+   "site_img": "e38-p20-a08-04-64ec50338993.webp",
+   "score": 0.9679,
+   "old_sha256": "dc739674e149c8de42c27f95ee9670f862fb3e232566a15878765a4c41e8107b",
+   "new_sha256": "58416cafa81b720fe211a7af8c2772b78e3dfae4d1a2aff54615d49632519cb1",
+   "old_wh": [
+    329,
+    131
+   ],
+   "new_wh": [
+    415,
+    172
+   ],
+   "old_bytes": 5301,
+   "new_bytes": 17806
+  },
+  {
+   "lib_img": "13b700928c0718fc7632ac85985f18622330806806241e89e276223d6359cac5.jpg",
+   "card": "题-CM-106-07-7-1化合物A和B分别进行水.md",
+   "kind": "a",
+   "site_img": "e35-p18-a07-02-0dea29b8b213.webp",
+   "score": 0.9744,
+   "old_sha256": "54ad1c9df51a8cf6e30603537f5a04c5115aa7374fbad2bc9b865139b97dae24",
+   "new_sha256": "57e170596a170d90fb99c50693d5b3ddc11302e103e0c8ee452872376c43a74d",
+   "old_wh": [
+    178,
+    146
+   ],
+   "new_wh": [
+    224,
+    187
+   ],
+   "old_bytes": 5485,
+   "new_bytes": 16726
+  },
+  {
+   "lib_img": "13fe53caed4830eaa708105a1e916f8be060ad4441d2b4f75b732761a37363c3.jpg",
+   "card": "题-CM-165-06-6-1该催化剂的制备方法为在.md",
+   "kind": "a",
+   "site_img": "e38-p15-a06-03-1984de52fb2e.webp",
+   "score": 0.8971,
+   "old_sha256": "ee9e7ed9f2f005e57c75edca23ebc0d0629da21b1c86a49a6086d4167e7cf14f",
+   "new_sha256": "f779d8acbb1ddfc70464781ced9f3794b7670fe3a819b791da5bab0d1eb371ec",
+   "old_wh": [
+    387,
+    112
+   ],
+   "new_wh": [
+    485,
+    149
+   ],
+   "old_bytes": 5629,
+   "new_bytes": 17638
+  },
+  {
+   "lib_img": "155de6a09ca07e3007b3c9e417689f5c0d83855c413b547e12b82382ddd2760f.jpg",
+   "card": "题-CM-60-14-有机化合物中官能团的转换是有.md",
+   "kind": "q",
+   "site_img": "e32-p12-q14-04-08d03347fe51.webp",
+   "score": 0.9536,
+   "old_sha256": "c17a5a5004222b12a39b946bacee2b29cfb0381860dfd6e568a10ff64918f910",
+   "new_sha256": "77d307ebc04202bfc482d66af1dc1abf1db92dc7a9b756cffb408507f3d67616",
+   "old_wh": [
+    501,
+    95
+   ],
+   "new_wh": [
+    630,
+    123
+   ],
+   "old_bytes": 7727,
+   "new_bytes": 16477
+  },
+  {
+   "lib_img": "158ea00969ae110a005e1b8c9b7580d8df82fa5ae472b8d7f6aeab4016af528a.jpg",
+   "card": "题-CM-116-10-叠氮化合物具有一定程度的亲核.md",
+   "kind": "a",
+   "site_img": "e36-p02-q10-06-8dab930ed18a.webp",
+   "score": 0.9531,
+   "old_sha256": "1e1805ed3f85dc785e1c5c7b7c38599adcf80185e0d040d980134b48bd10685a",
+   "new_sha256": "44deb398e7caf2fb434088f49eebfa9bafed4e090a1ff52bd60af3a21229bc6d",
+   "old_wh": [
+    453,
+    165
+   ],
+   "new_wh": [
+    568,
+    206
+   ],
+   "old_bytes": 7306,
+   "new_bytes": 13620
+  },
+  {
+   "lib_img": "159c09a5ce3a73ccac0d587d35769f73a4d6c6984c0ff46212bdca5c2a0f1942.jpg",
+   "card": "题-CM-113-02-五氘代吡啶作答时可直接用py.md",
+   "kind": "q",
+   "site_img": "e35-p26-q02-06-df54f5b5e087.webp",
+   "score": 0.978,
+   "old_sha256": "87309216a61f3bf7a966d42118c3cc43a3750dbd4fe2c935222802a3f0498f84",
+   "new_sha256": "99648b10cf4d1366098a07ae63d2234263873005e423a2f8aada3cfd71fa8207",
+   "old_wh": [
+    487,
+    404
+   ],
+   "new_wh": [
+    613,
+    508
+   ],
+   "old_bytes": 12082,
+   "new_bytes": 23421
+  },
+  {
+   "lib_img": "15cd325b105edebdb7fff7b32f675db6281199499db0f000dfac7bfb84f5595f.jpg",
+   "card": "题-CM-160-09-吗啉是有机化学中常用的一种试.md",
+   "kind": "a",
+   "site_img": "e38-p08-a09-05-fd305fdfe3e2.webp",
+   "score": 0.9129,
+   "old_sha256": "3934330add075cc237d4846deb33cc5d4ca8de200e0fa7b1b8e72f0b1c675151",
+   "new_sha256": "91f9cb9700276717b1680aac5dbe7e0e7a4bc21f9a2115023d27c87ff4a471e4",
+   "old_wh": [
+    293,
+    159
+   ],
+   "new_wh": [
+    361,
+    197
+   ],
+   "old_bytes": 5382,
+   "new_bytes": 18917
+  },
+  {
+   "lib_img": "1723bdebca2b84761cb8db6e93a7089dc9f2e7e042f32ba74d09889373e14aca.jpg",
+   "card": "题-CM-172-10-腙在碘的作用下会生成重氮中间.md",
+   "kind": "a",
+   "site_img": "e38-p23-q10-02-d0d5031a06d6.webp",
+   "score": 0.9248,
+   "old_sha256": "b1406214bae7a50908b36d2f00f88b2d5d9316aedb09bb8564acfbf6db012b43",
+   "new_sha256": "e8ebee94658fe0f4587c1b2071956d145f65c77a86557295b36864ee30a93fbd",
+   "old_wh": [
+    448,
+    92
+   ],
+   "new_wh": [
+    552,
+    122
+   ],
+   "old_bytes": 5488,
+   "new_bytes": 10506
+  },
+  {
+   "lib_img": "17d1b9bd85ce861b8fa58d2b8e966f11120c29667d59a30342ca123e45dd162b.jpg",
+   "card": "题-CM-116-05-5-1将聚乙烯纺织物浸渍在下.md",
+   "kind": "q",
+   "site_img": "e36-p02-q05-01-41f18e022a5f.webp",
+   "score": 0.9247,
+   "old_sha256": "6afeed7f28d34b0b7a76544339902ce8b27cac7569c8e250555c51da830138c7",
+   "new_sha256": "1846473972ddc833fe8af25189f756d5360495c21e6532bce96797bf456a51ca",
+   "old_wh": [
+    312,
+    168
+   ],
+   "new_wh": [
+    399,
+    210
+   ],
+   "old_bytes": 7515,
+   "new_bytes": 14339
+  },
+  {
+   "lib_img": "1850a8e659a36f0d256c99666485361c4ab6c2a78fab399c1e9de9421b74f957.jpg",
+   "card": "题-CM-165-04-4-1的制备思路与前人报道的.md",
+   "kind": "a",
+   "site_img": "e38-p15-a04-02-8961b022eb5e.webp",
+   "score": 0.958,
+   "old_sha256": "b0376152739a62bbbc69b74de115483d3282a882e4adeac7e2047eceefaa2062",
+   "new_sha256": "b78a1603a0e74f3d076637c8c5cf007ab22cd906373841405c41ca7147f9a1d7",
+   "old_wh": [
+    403,
+    137
+   ],
+   "new_wh": [
+    509,
+    177
+   ],
+   "old_bytes": 7397,
+   "new_bytes": 24514
+  },
+  {
+   "lib_img": "18e674edca9261f2a1c1e87fa7f19cf2dff4b81c296e6d5695087732047bee53.jpg",
+   "card": "题-CM-113-05-酰胺由于存在具有较高的稳定性.md",
+   "kind": "q",
+   "site_img": "e35-p26-q05-04-e102c1e4f0f2.webp",
+   "score": 0.9651,
+   "old_sha256": "14c82e3ad6ec7a77d33281bdc46584ae894042c7b1a353f332731f318b075263",
+   "new_sha256": "17f0888c16283b43beac1c84a94f19a80c7ba386a0a914a73da96fac2f1369ff",
+   "old_wh": [
+    237,
+    176
+   ],
+   "new_wh": [
+    294,
+    224
+   ],
+   "old_bytes": 4815,
+   "new_bytes": 9380
+  },
+  {
+   "lib_img": "19954dd065baa066a09efa6ab018550584c413dcda07cff2788aeceeae50a7dd.jpg",
+   "card": "题-CM-58-06-近日《Science》杂志报.md",
+   "kind": "q",
+   "site_img": "e32-p09-q06-02-2fd8d5c92bf5.webp",
+   "score": 0.9901,
+   "old_sha256": "874c0f9f309943e2d51d86297064196c2e2f75225a1cf23fa427eba894d0f507",
+   "new_sha256": "ee36d74dff6faefc5d836ad2e79a6efe33edccf88262305cc57411bd87b89b7e",
+   "old_wh": [
+    354,
+    345
+   ],
+   "new_wh": [
+    445,
+    437
+   ],
+   "old_bytes": 15431,
+   "new_bytes": 40065
+  },
+  {
+   "lib_img": "1a38bbf4e6ec370c7a83aebcfc09ae0262bbd5d16c12d5e76779adcd0f2c38bb.jpg",
+   "card": "题-CM-78-07-配体-MNT可以与Cu形成有.md",
+   "kind": "q",
+   "site_img": "e34-p05-q07-01-56eacfa4cc6f.webp",
+   "score": 0.9571,
+   "old_sha256": "9f01b0675dda47dccf63d65b7e715210f6e9df925eeb86087b6d4250a078762c",
+   "new_sha256": "520daecc2a558423edb2885729b2d750bb19bc969397058fe2d40990e9690673",
+   "old_wh": [
+    156,
+    135
+   ],
+   "new_wh": [
+    193,
+    173
+   ],
+   "old_bytes": 3734,
+   "new_bytes": 7293
+  },
+  {
+   "lib_img": "1bd4fe866dfb19bee667532a8a2cce10233a0b60400c6d1bfa7e3182cdd6405b.jpg",
+   "card": "题-CM-87-08-Payne重排是一种碱性条件.md",
+   "kind": "a",
+   "site_img": "e34-p14-q08-05-c00e5c112b3e.webp",
+   "score": 0.9579,
+   "old_sha256": "469766ccb47151951a64e5c0f1999def9acb53dcc70e2d11041b356aff3fefc3",
+   "new_sha256": "61d2bf8292d282d875b9ea4b6deca0f1550a1bde82db77f9f1100a7dacb4a654",
+   "old_wh": [
+    424,
+    165
+   ],
+   "new_wh": [
+    529,
+    210
+   ],
+   "old_bytes": 6594,
+   "new_bytes": 13756
+  },
+  {
+   "lib_img": "1cdb26cb6813e0229d656fda7898ba38152d552de77faa3056bc5b02a43b8efe.jpg",
+   "card": "题-CM-94-07-仿生合成是通往天然产物的一条.md",
+   "kind": "q",
+   "site_img": "e35-p05-q07-01-309b7ebdc7cd.webp",
+   "score": 0.9745,
+   "old_sha256": "bb036fd52f94afd4ba3122c26805e90fca172eaaedce2d71c11e67546275e01e",
+   "new_sha256": "27e7dd92e78a2be0ecd318ce471b152f2a395b0017426490d5607ed621c1e07e",
+   "old_wh": [
+    401,
+    273
+   ],
+   "new_wh": [
+    503,
+    348
+   ],
+   "old_bytes": 17738,
+   "new_bytes": 40573
+  },
+  {
+   "lib_img": "1df8085ef588a2d11628bf7d84f28c66ababd38808b56eed67b8a8f071c08d0b.jpg",
+   "card": "题-CM-84-09-已知如下反应.md",
+   "kind": "a",
+   "site_img": "e34-p11-q09-02-3be90a6446db.webp",
+   "score": 0.8853,
+   "old_sha256": "1f67dab9a1958897aa29217eb0e698afb244ad353cbe6579719b3c95e5795426",
+   "new_sha256": "1a56134a3d9b1caa2b1b43f1269445b3c6e470b3edbf1f2e6551ec79428c0494",
+   "old_wh": [
+    393,
+    137
+   ],
+   "new_wh": [
+    489,
+    165
+   ],
+   "old_bytes": 7409,
+   "new_bytes": 14008
+  },
+  {
+   "lib_img": "1ec3db02d61447f5edd284c9765dce9e3b5b7e4e86d935e54a4d253ed8884aa8.jpg",
+   "card": "题-CM-167-08-8-1若想专一性制备以下烯烃.md",
+   "kind": "a",
+   "site_img": "e38-p17-q08-01-0c9e4e2a23e8.webp",
+   "score": 0.9008,
+   "old_sha256": "3473d8656069d262592665472134f14fd9bfeb8dbac4d26d5b163265c663eb92",
+   "new_sha256": "a75323368e5712dad4d2f81b603deec8c664d8443be20f907e3c2d1904e699ae",
+   "old_wh": [
+    187,
+    79
+   ],
+   "new_wh": [
+    228,
+    101
+   ],
+   "old_bytes": 2594,
+   "new_bytes": 4547
+  },
+  {
+   "lib_img": "207fb3ee593fb908d313a4b146a46fad1473d41184aa2655f645baf33b96ef6c.jpg",
+   "card": "题-CM-169-07-7-2比较并解释A和B与PC.md",
+   "kind": "a",
+   "site_img": "e38-p20-q07-01-c6d7d9d68434.webp",
+   "score": 0.9851,
+   "old_sha256": "e7951b4acf849615222a7952f9fcbfacf528d4ffae86d48dd2868927b0511019",
+   "new_sha256": "f9caa6bd155d20ee1224c05dd192e3d23f307a949f26d148aa4ac9776e190a52",
+   "old_wh": [
+    412,
+    117
+   ],
+   "new_wh": [
+    506,
+    145
+   ],
+   "old_bytes": 6316,
+   "new_bytes": 12453
+  },
+  {
+   "lib_img": "2084b7fd09afe856d881a155a9c69938a41c57ad5b7ea1280033cea340edffbf.jpg",
+   "card": "题-CM-144-06-理想的三角十二面体不同于五角.md",
+   "kind": "q",
+   "site_img": "e37-p19-q06-01-7efa90b6c7cb.webp",
+   "score": 0.8954,
+   "old_sha256": "02beff38bd5b0efbd899bb63e191e19d62eca3d0fcec83045457038e341c1715",
+   "new_sha256": "f18dc75c1efdbe4137a92b9dedb55632151b11d15f5118bca1599e7d85381678",
+   "old_wh": [
+    440,
+    234
+   ],
+   "new_wh": [
+    555,
+    295
+   ],
+   "old_bytes": 14474,
+   "new_bytes": 27929
+  },
+  {
+   "lib_img": "209ec00e979c531589d67f5a0dc495fef7a348182b7f03e33cfb097882a81828.jpg",
+   "card": "题-CM-77-04-镉与钽形成了一种复合氧化物该.md",
+   "kind": "q",
+   "site_img": "e34-p04-q04-01-562960a33093.webp",
+   "score": 0.929,
+   "old_sha256": "0d8b4d624840b512017924aa902c1e6496d2afbbc16c7c9826b545e64d4ce6da",
+   "new_sha256": "e3859449c72a51c63591a3a3de201cb00813b1786ac3f144f60d7706620b5621",
+   "old_wh": [
+    306,
+    295
+   ],
+   "new_wh": [
+    399,
+    385
+   ],
+   "old_bytes": 21313,
+   "new_bytes": 76506
+  },
+  {
+   "lib_img": "21cf5c229a4ad2e9f1f889c91188c9deeb4e10377e3bb71e8d0ebddd8920d2b6.jpg",
+   "card": "题-CM-57-10-高价碘化合物在氧化过程中具有.md",
+   "kind": "q",
+   "site_img": "e32-p08-q10-03-b709ccd6d28c.webp",
+   "score": 0.9639,
+   "old_sha256": "4547da92cade0be5688e561624b279d79b5fe972bc84e235cfaee03fdd69ca97",
+   "new_sha256": "c76012d3dfd37e3c1fdaf5947731a24463f3038b08cac737107e3dc84cd1c64b",
+   "old_wh": [
+    448,
+    159
+   ],
+   "new_wh": [
+    559,
+    204
+   ],
+   "old_bytes": 9914,
+   "new_bytes": 19469
+  },
+  {
+   "lib_img": "2222956663e5dd9446ec5f29fb6f96b995b32a4da5c6decb362800a958abd6ad.jpg",
+   "card": "题-CM-149-05-自组装被广泛应用于各种纳米材.md",
+   "kind": "q",
+   "site_img": "e37-p25-q05-03-1afdd55af46d.webp",
+   "score": 0.9614,
+   "old_sha256": "f72ae48f5bc8ebd6ff52ceb940dd52c4f4aa73e9895684c62377efd8283e65c9",
+   "new_sha256": "0121f4eac513b837581f2a0efe52d67833a07505439ec196e8c0f83a2f0b8ab9",
+   "old_wh": [
+    221,
+    162
+   ],
+   "new_wh": [
+    283,
+    209
+   ],
+   "old_bytes": 5648,
+   "new_bytes": 10615
+  },
+  {
+   "lib_img": "22d7830235e6ba26b94cae840f5ed37111164a11cd723bca2b41881f371d6b60.jpg",
+   "card": "题-CM-75-08-8-1将萘和硫酸混合加热至C.md",
+   "kind": "q",
+   "site_img": "e34-p02-q08-01-6d5e6de79e10.webp",
+   "score": 0.9587,
+   "old_sha256": "a1f2ccd478afe52d9f895e446dcd3b7d003d84400c217a1abbdeaa86312ff677",
+   "new_sha256": "5e7c21dd5465d27ac16b2c440db96e81480d5d9109f6991af12d4aa8ecc8a028",
+   "old_wh": [
+    464,
+    142
+   ],
+   "new_wh": [
+    582,
+    183
+   ],
+   "old_bytes": 8489,
+   "new_bytes": 15513
+  },
+  {
+   "lib_img": "2305ee97b0bcd1de45e0ef03f8e2c12b4298a3277dd4a9cae4957f5041d72851.jpg",
+   "card": "题-CM-101-08-如下所示利用蒎烯氧化物的水解.md",
+   "kind": "a",
+   "site_img": "e35-p12-a08-04-8e62d1be8f66.webp",
+   "score": 0.9799,
+   "old_sha256": "b176572dc49f328e31b88c909614be28f8e15a7aeacb64a3e29fdf74e2ce0899",
+   "new_sha256": "5e924e7fe57f9f211202ede3ab2549c0fdd8234187944b25fdfe1ab9ce8706e9",
+   "old_wh": [
+    454,
+    195
+   ],
+   "new_wh": [
+    566,
+    246
+   ],
+   "old_bytes": 8052,
+   "new_bytes": 25610
+  },
+  {
+   "lib_img": "23d6d653488d9a48ffd6e54d93cd10d55ee966d45c32c7c2b8b95bb12c65e182.jpg",
+   "card": "题-CM-167-07-7-1同碳上亚甲基的氢酸性有.md",
+   "kind": "a",
+   "site_img": "e38-p17-q07-02-44ba3cb6d182.webp",
+   "score": 0.9738,
+   "old_sha256": "7a17948c7400d71adc25e1f13c800f67aae1d53d00aa19538bca9edf67b6f0d8",
+   "new_sha256": "90aa2c0e6e051589f1e7eece815e80cfee25e90b23a58e4fd89613fa7694d483",
+   "old_wh": [
+    376,
+    331
+   ],
+   "new_wh": [
+    462,
+    416
+   ],
+   "old_bytes": 9938,
+   "new_bytes": 21362
+  },
+  {
+   "lib_img": "2438f6f1c96ed069dda145ce2719d0e2fb0480013479a423466053f7a32fc4ea.jpg",
+   "card": "题-CM-124-07-DNA有四种脱氧核苷腺嘌呤脱.md",
+   "kind": "q",
+   "site_img": "e36-p18-q07-02-070f34a9a8e1.webp",
+   "score": 0.9349,
+   "old_sha256": "cd6fd10e743149ef087dd3effd1df5b48c4891d47992104c6f80f3ae322edc29",
+   "new_sha256": "173068238bb5c80f57aec9022db7dbd6e3b830e66f063fdedb36c95ce6e6e683",
+   "old_wh": [
+    100,
+    73
+   ],
+   "new_wh": [
+    115,
+    94
+   ],
+   "old_bytes": 2030,
+   "new_bytes": 3381
+  },
+  {
+   "lib_img": "258e2c421c033cb8831f237207254b6cd7296bfd65ed39ca12cffd2344d8cb07.jpg",
+   "card": "题-CM-137-07-弱相互作用的强度要比共价键小.md",
+   "kind": "q",
+   "site_img": "e37-p04-q07-03-f9017ecadc58.webp",
+   "score": 0.9657,
+   "old_sha256": "5e7ee38fd6187eead9aabfcdefdc5cc6748d476f392c977adc87de56798a66eb",
+   "new_sha256": "8355cadb8bd7223d13328ae17e485b66608f81f3f8d18a68e20259b62191e773",
+   "old_wh": [
+    259,
+    245
+   ],
+   "new_wh": [
+    324,
+    309
+   ],
+   "old_bytes": 8606,
+   "new_bytes": 18462
+  },
+  {
+   "lib_img": "260aff7b88f8359c6ae820e922285a3e343b8ae10ca9436e2b922310ba390612.jpg",
+   "card": "题-CM-107-10-二烷氧基卡宾是一类特征的反应.md",
+   "kind": "a",
+   "site_img": "e35-p20-q10-01-bc21ea9558b3.webp",
+   "score": 0.9443,
+   "old_sha256": "6858c0b2551a2ae331533302e0b768033920eead52f8dc22819ee6c58edc29e2",
+   "new_sha256": "6c2f16216a72814d38e8f4270ff7e3fd9256cd15a8f0040573b5143ef596cfd9",
+   "old_wh": [
+    237,
+    109
+   ],
+   "new_wh": [
+    292,
+    135
+   ],
+   "old_bytes": 5475,
+   "new_bytes": 11006
+  },
+  {
+   "lib_img": "268751d3a047abf935f28e47894b1d674a51ff32660f55713baaeb4553769874.jpg",
+   "card": "题-CM-89-07-烯丙醇的选择性氧化非常有趣.md",
+   "kind": "q",
+   "site_img": "e34-p16-q07-01-47a817aefbd3.webp",
+   "score": 0.9587,
+   "old_sha256": "fa89bad58be2157db12eab310cf9a3758aa8069d7f115f0443667f73c6889484",
+   "new_sha256": "9e230417ae86970d751ca68d09ff0839117b35022ba0e988dfc4f6d4a99cb946",
+   "old_wh": [
+    251,
+    101
+   ],
+   "new_wh": [
+    309,
+    129
+   ],
+   "old_bytes": 3681,
+   "new_bytes": 6487
+  },
+  {
+   "lib_img": "27f1b8f3aedb06af872a8c0791e035a0316ad64ef2bac1828fff0ca7bf840a80.jpg",
+   "card": "题-CM-91-09-α-氨基酸是蛋白质的基本砌块.md",
+   "kind": "q",
+   "site_img": "e35-p01-q09-02-8cc92b8ccef0.webp",
+   "score": 0.8816,
+   "old_sha256": "1e4b894fb1c5b488db8856397fa67ea812058ace99f3c3c6ef2ebce7c38e3762",
+   "new_sha256": "f6a35b41468fbb7e6b72ce0f2019db63d37a07117bbd95cad436ba01cbe54950",
+   "old_wh": [
+    153,
+    109
+   ],
+   "new_wh": [
+    193,
+    141
+   ],
+   "old_bytes": 3391,
+   "new_bytes": 6315
+  },
+  {
+   "lib_img": "28539239e338c7dc7e98d15a7dd5aa9aca22619665a41673efd26db0924b6cc4.jpg",
+   "card": "题-CM-103-05-生物正交反应是在活细胞内进行.md",
+   "kind": "a",
+   "site_img": "e35-p15-a05-02-4fba5e828573.webp",
+   "score": 0.9737,
+   "old_sha256": "bafe086580acb12cd36069305f34eb2d3bfc38932672f4714f804c571f60bcef",
+   "new_sha256": "4cf179261d60573e4e2ba80383b59a4430f8c912e18d0ee0600e3b8fbef080e7",
+   "old_wh": [
+    287,
+    204
+   ],
+   "new_wh": [
+    370,
+    263
+   ],
+   "old_bytes": 9619,
+   "new_bytes": 35659
+  },
+  {
+   "lib_img": "28a8087f6bf2fb17f2d60835795afb3159390ce7e13f75b6bbf5f29fb164162b.jpg",
+   "card": "题-CM-106-01-1-1在C减压下丙二酸用脱水.md",
+   "kind": "a",
+   "site_img": "e35-p18-a01-06-ecb04c4c0a37.webp",
+   "score": 0.9235,
+   "old_sha256": "6ead37fe182fc6fd477f32b171cc133b1f3a7877107e2637268bf28aedc26a71",
+   "new_sha256": "7d07d0a5987a4896df8c62b68f88b71e54bd03011921a6c38a5dcc65abbbffe9",
+   "old_wh": [
+    295,
+    151
+   ],
+   "new_wh": [
+    375,
+    197
+   ],
+   "old_bytes": 4419,
+   "new_bytes": 9185
+  },
+  {
+   "lib_img": "294b27f20b96b0df3fc157dd5bc022247fa33376b2b0202518efd8258bae12d6.jpg",
+   "card": "题-CM-110-01-1-1小分子X的化学式为已知.md",
+   "kind": "q",
+   "site_img": "e35-p23-q01-01-b9c2f1295e00.webp",
+   "score": 0.8348,
+   "old_sha256": "edb71ad0383451f8948cbfca44933eb6099ff6599274716375a0049572db5afd",
+   "new_sha256": "7c3fbc81592981fbf79907ff56667c13096d756c0ab15c9d2f0bfad320ef5105",
+   "old_wh": [
+    190,
+    84
+   ],
+   "new_wh": [
+    237,
+    112
+   ],
+   "old_bytes": 2672,
+   "new_bytes": 4923
+  },
+  {
+   "lib_img": "2a295aa4db78f6585745c9dd848acb0ac58cf78a59aa7fa1cfa62fab10c4459c.jpg",
+   "card": "题-CM-116-05-5-1将聚乙烯纺织物浸渍在下.md",
+   "kind": "a",
+   "site_img": "e36-p02-q05-01-41f18e022a5f.webp",
+   "score": 0.9667,
+   "old_sha256": "4be5d8489c25fb44e22a29236e8f24d35b283929a7aab1bc61430d1652c8d266",
+   "new_sha256": "1846473972ddc833fe8af25189f756d5360495c21e6532bce96797bf456a51ca",
+   "old_wh": [
+    318,
+    167
+   ],
+   "new_wh": [
+    399,
+    210
+   ],
+   "old_bytes": 7460,
+   "new_bytes": 14339
+  },
+  {
+   "lib_img": "2ac4ab0758bb20f54e4bbb9cdefefda754e607e3d942d7ce33b5e732e1c03a7f.jpg",
+   "card": "题-CM-90-02-近年来基于配位的超分子自组装.md",
+   "kind": "a",
+   "site_img": "e34-p17-q02-01-50656d978403.webp",
+   "score": 0.903,
+   "old_sha256": "f7d5c3af8881cb063925bbee79d045d4079b2e88c0ade286568e09004fa09e21",
+   "new_sha256": "7f83223c09d89b57bd0311b35eb7bedfda9d6f5a20f39ebd0805abb6af3780b4",
+   "old_wh": [
+    206,
+    223
+   ],
+   "new_wh": [
+    261,
+    283
+   ],
+   "old_bytes": 6632,
+   "new_bytes": 13369
+  },
+  {
+   "lib_img": "2ac8bd14c31b9b0b5175874d4ab006bb463e20201ca3509c01cda883ee3734ec.jpg",
+   "card": "题-CM-111-09-有以下一种合成吡啶衍生物的方.md",
+   "kind": "a",
+   "site_img": "e35-p24-a09-03-b83a59ef253a.webp",
+   "score": 0.9738,
+   "old_sha256": "9cca2cf3961a2c0e5be0ca9dec0902a91e7e8d4944e6bcd2306f7d62dad15317",
+   "new_sha256": "bed9906b194e327c4b373e8d433570ca17d7879bb5953660ce4461be07db3350",
+   "old_wh": [
+    300,
+    201
+   ],
+   "new_wh": [
+    374,
+    253
+   ],
+   "old_bytes": 8230,
+   "new_bytes": 25798
+  },
+  {
+   "lib_img": "2bcaac8dcab9781bbe643d1f7212687e830da7517a2f9db4bde0c66eb75ec5c5.jpg",
+   "card": "题-CM-126-05-杯芳烃是由对烷基酚与甲醛在一.md",
+   "kind": "q",
+   "site_img": "e36-p21-q05-01-88a49c8e43eb.webp",
+   "score": 0.9334,
+   "old_sha256": "cd65949b4682dea601e191d070a9dd8a8b34c82bf262ff14517c0f216c860c37",
+   "new_sha256": "e9a7c5839978e16a3dddd1e5e671c7813705293bce918cd8c12b4c6a3c0a14ad",
+   "old_wh": [
+    326,
+    326
+   ],
+   "new_wh": [
+    422,
+    420
+   ],
+   "old_bytes": 10113,
+   "new_bytes": 22033
+  },
+  {
+   "lib_img": "2c636e18e93b93ed559e249517fbc12849843ba5785c476db0559f534796a4c7.jpg",
+   "card": "题-CM-98-07-7-1在27315K下将溶于.md",
+   "kind": "a",
+   "site_img": "e35-p09-q07-01-aeaffb0ec3e8.webp",
+   "score": 0.9327,
+   "old_sha256": "6b0ffb2ff73410d82696559908016fe0b96cd61a1649120ebc473f1056bb3b9d",
+   "new_sha256": "2a63d7877ad9292f81eb7b87d5f51dc9f65ed76ed256859865787a9bfe151765",
+   "old_wh": [
+    279,
+    190
+   ],
+   "new_wh": [
+    345,
+    234
+   ],
+   "old_bytes": 6456,
+   "new_bytes": 12689
+  },
+  {
+   "lib_img": "2cd3b2e37d93562539a48c8048c45efda39ae4dd447579db276a6c75e4e1c000.jpg",
+   "card": "题-CM-98-08-8-1以下化合物在醋酸溶剂中.md",
+   "kind": "q",
+   "site_img": "e35-p09-q08-02-c47d8db200af.webp",
+   "score": 0.9089,
+   "old_sha256": "f3cb99753e5740db17a9e18bd2b755aef3a59c65ad90ce7474849dcb48a59aa9",
+   "new_sha256": "185bb24102b6ac338252ec28581321688e288628b68dc25eefa3ce2dbaca4184",
+   "old_wh": [
+    165,
+    101
+   ],
+   "new_wh": [
+    198,
+    125
+   ],
+   "old_bytes": 3164,
+   "new_bytes": 5260
+  },
+  {
+   "lib_img": "2d366a710c4497992f78ea52a27820ffc34df75d19afb5fbfb6cb8d3abc24b95.jpg",
+   "card": "题-CM-110-05-贵金属纳米颗粒在催化传感医药.md",
+   "kind": "a",
+   "site_img": "e35-p23-q05-01-df792824be7e.webp",
+   "score": 0.9579,
+   "old_sha256": "b2bcd543fda26731c2eaf11734c75cbfc101514b6697327392229d5a3de6d376",
+   "new_sha256": "0bd2ac674b76af6a3c4ab08b1b37c3f1d9b188fa5a746aad5cc771776d58a2e0",
+   "old_wh": [
+    245,
+    117
+   ],
+   "new_wh": [
+    303,
+    147
+   ],
+   "old_bytes": 4096,
+   "new_bytes": 7696
+  },
+  {
+   "lib_img": "2d7b5d699a05bba9ea8514b39750e0eb5e91745f353af44057a71a6180c29296.jpg",
+   "card": "题-CM-146-08-8-1-BuAlH简写为DI.md",
+   "kind": "q",
+   "site_img": "e37-p22-q08-01-6327c37abe17.webp",
+   "score": 0.9139,
+   "old_sha256": "d2a74d9f34be2b78087b3a3adaf5462d2e4838c27a9331665769da09079d3718",
+   "new_sha256": "5eaf34f50c694aaa33a29910d075018f25b845b4793395508df90facadaf9104",
+   "old_wh": [
+    451,
+    82
+   ],
+   "new_wh": [
+    559,
+    109
+   ],
+   "old_bytes": 5927,
+   "new_bytes": 11577
+  },
+  {
+   "lib_img": "2d7ce4a8e8b7abbdff6c3932844fa9a18da798d822aee9c8842e8a58357ef95b.jpg",
+   "card": "题-CM-84-08-8-1判断下列化合物是否具有.md",
+   "kind": "a",
+   "site_img": "e34-p11-q08-04-92ca0cb1a939.webp",
+   "score": 0.932,
+   "old_sha256": "11e7d781f44fa1595f4690f22973326f71eba01844893fb9d571b118a4be8704",
+   "new_sha256": "87d98986ccc6aa8621f96c3576152f9dead20226d1f5c9110dac8e0c1048b2bf",
+   "old_wh": [
+    378,
+    185
+   ],
+   "new_wh": [
+    473,
+    227
+   ],
+   "old_bytes": 6944,
+   "new_bytes": 14445
+  },
+  {
+   "lib_img": "2e5463d705d3e95a5a6f0dd8bae8b5020ddb1ba8e497660b7ab2d8cd002be306.jpg",
+   "card": "题-CM-127-09-有机催化或称为小分子催化这一.md",
+   "kind": "q",
+   "site_img": "e36-p22-q09-07-3aca1b9ccab7.webp",
+   "score": 0.9737,
+   "old_sha256": "ee1a09eeab4ddcbcd7727097177ae4334cc0616d92f43044a7935013d8456c32",
+   "new_sha256": "23eaedb1c6ba459e1c837fe33b9a1a0069adaaad81365465fa9eec9aff05b1ac",
+   "old_wh": [
+    187,
+    126
+   ],
+   "new_wh": [
+    234,
+    160
+   ],
+   "old_bytes": 3569,
+   "new_bytes": 6025
+  },
+  {
+   "lib_img": "2eb25f5862a8b2143c3de8ea69d9af7cd937e4632afe9313df66bfed3f46a23a.jpg",
+   "card": "题-CM-77-03-化合物I是一种较强的有机碱向.md",
+   "kind": "q",
+   "site_img": "e34-p04-q03-01-0c00e6642019.webp",
+   "score": 0.9679,
+   "old_sha256": "dffe385521fcecd44e3057e313a34bce20d1935d50623a0000483de57c3e822f",
+   "new_sha256": "33d39c5b6e46976ac6e2bd747c84fcb4917dab39726b45b0e8002937b6cc2b5b",
+   "old_wh": [
+    298,
+    248
+   ],
+   "new_wh": [
+    375,
+    317
+   ],
+   "old_bytes": 7472,
+   "new_bytes": 14103
+  },
+  {
+   "lib_img": "2f0083b412e1394643a1ed8a8982d82a34de359e671884b1444be6a403e80419.jpg",
+   "card": "题-CM-122-04-X是元素M的金属有机化合物只.md",
+   "kind": "q",
+   "site_img": "e36-p16-q04-02-ec4bb691289b.webp",
+   "score": 0.9733,
+   "old_sha256": "26d124b2252fbd4272d2defa8e85e79e419562f9102f025693ec867eba3f171a",
+   "new_sha256": "69be4252353e446ab32518d45ec4b8cb028f154f2fa6c096aa1f513f74300a25",
+   "old_wh": [
+    371,
+    178
+   ],
+   "new_wh": [
+    466,
+    231
+   ],
+   "old_bytes": 7914,
+   "new_bytes": 16887
+  },
+  {
+   "lib_img": "2f228a7fba2a798bbf8b19bc0791438022ef901d5c75460b13495a049dbbbce9.jpg",
+   "card": "题-CM-77-02-2-1碲与氯形成的八面体能通.md",
+   "kind": "q",
+   "site_img": "e34-p04-q02-01-d53e8b00b5c9.webp",
+   "score": 0.943,
+   "old_sha256": "2fe5973879c1ed273d577a1aedefcd428822f6ea6c58ea4615756c7c39b9dc2c",
+   "new_sha256": "57e95918a3da9eef4dc0a3094d24ca503b412012843feb11dd33fa141c09eb51",
+   "old_wh": [
+    356,
+    181
+   ],
+   "new_wh": [
+    460,
+    236
+   ],
+   "old_bytes": 11135,
+   "new_bytes": 29736
+  },
+  {
+   "lib_img": "304d06768fc9e6300617245aa397b863143930831859f9718976fadc568ab892.jpg",
+   "card": "题-CM-173-10-10-1观察并思考下面的反应.md",
+   "kind": "a",
+   "site_img": "e38-p24-a10-02-74d253599826.webp",
+   "score": 0.9299,
+   "old_sha256": "37f68630be3a2560a9b7918970eb6f4a0b0fb6b3067e34ceabc89dabc757140e",
+   "new_sha256": "f02de28ba12faca23bf53441715b6851620657f9161757d73d5a9d6b45b525f7",
+   "old_wh": [
+    515,
+    187
+   ],
+   "new_wh": [
+    644,
+    231
+   ],
+   "old_bytes": 13922,
+   "new_bytes": 49608
+  },
+  {
+   "lib_img": "306a87967e2e903d7e3a95108772e94e15e3f88f2dd40a105ef57982b4e94a47.jpg",
+   "card": "题-CM-172-09_羰基_亚胺腈是一类高官能.md",
+   "kind": "a",
+   "site_img": "e38-p23-a09-08-2f2659ec63a2.webp",
+   "score": 0.9552,
+   "old_sha256": "6d68602a1ecc95c3d10c1fb32c8a9381585d7ac4d71cd0865f5f8e784a35a6aa",
+   "new_sha256": "59c3cbd3243b6fdbc29a82f9dcf9f85c5831494e10a299dfffc56a23ff9d533e",
+   "old_wh": [
+    190,
+    168
+   ],
+   "new_wh": [
+    231,
+    208
+   ],
+   "old_bytes": 4840,
+   "new_bytes": 15201
+  },
+  {
+   "lib_img": "311d5b71a790a91c7e4032373d1b24ddce8f502c20ca2ffa23c6edd88027f22c.jpg",
+   "card": "题-CM-53-10-以下体系能经历23-重排得到.md",
+   "kind": "q",
+   "site_img": "e32-p04-q10-01-2cbaf0134a54.webp",
+   "score": 0.9087,
+   "old_sha256": "64f48ec69bb0373e872fc375099f6d1bd1c05ed1663f0c89a7682b1b1770ee39",
+   "new_sha256": "91466dd515d13ae5f11fb256cbed36550186f536827f37d987f035c8ee7fbd73",
+   "old_wh": [
+    301,
+    95
+   ],
+   "new_wh": [
+    375,
+    123
+   ],
+   "old_bytes": 3739,
+   "new_bytes": 6604
+  },
+  {
+   "lib_img": "33726bdeabdea1192e4c7bc600ca3163a26676f515e22cf41af879c3b9e31678.jpg",
+   "card": "题-CM-81-09-9-1在1952年Esche.md",
+   "kind": "q",
+   "site_img": "e34-p08-q09-01-b62ef6ba8e54.webp",
+   "score": 0.8851,
+   "old_sha256": "e8a52fbe36d9de2669dd89d9fc276dde66b4b7c7c4d8bfc6a7ad18a616c82917",
+   "new_sha256": "69b8c05e79c1b77de88cfd2ae197ae5d5cfc10c5537041e6142117f98fac01d9",
+   "old_wh": [
+    143,
+    140
+   ],
+   "new_wh": [
+    176,
+    177
+   ],
+   "old_bytes": 3158,
+   "new_bytes": 5681
+  },
+  {
+   "lib_img": "34e1a43a79655e9faacef54568291181fa38df66c69cb53cdec3c08c4509aea6.jpg",
+   "card": "题-CM-170-02-某单核Ti配合物可用如下方法.md",
+   "kind": "a",
+   "site_img": "e38-p21-a02-02-57aac226d398.webp",
+   "score": 0.9041,
+   "old_sha256": "2ae304f474871a12cf3916d4c5304116d63ed2e409553da149b4f898b835a596",
+   "new_sha256": "fb388c41e28c050f314857c413e6c5567e3b076de8f1ddc297d1b8abeb11df95",
+   "old_wh": [
+    281,
+    153
+   ],
+   "new_wh": [
+    353,
+    204
+   ],
+   "old_bytes": 8069,
+   "new_bytes": 31482
+  },
+  {
+   "lib_img": "359e10ef205d16aea91407f11c4c7fdfe129ce3758625ca7042bf50ac18708a8.jpg",
+   "card": "题-CM-166-08-8-1在四氯化碳溶液中336.md",
+   "kind": "a",
+   "site_img": "e38-p16-a08-02-cccff8f0a4c5.webp",
+   "score": 0.9604,
+   "old_sha256": "57bac1665ab3cf147eecacae41d0fd911c3454d0e427821cac7683caeaf0f7eb",
+   "new_sha256": "edc8ba9e925d641060a50a5fcec677bb9b59003043ac6c5ab500c71550983b20",
+   "old_wh": [
+    462,
+    201
+   ],
+   "new_wh": [
+    569,
+    241
+   ],
+   "old_bytes": 12716,
+   "new_bytes": 49818
+  },
+  {
+   "lib_img": "35ee559d591b59890906b06b30ab1452766a62138e6ca1d3e4e5fcaff5d23c3e.jpg",
+   "card": "题-CM-165-01-1-1生活中使用的各种材料与.md",
+   "kind": "a",
+   "site_img": "e38-p15-a01-04-1f70e96e6d2b.webp",
+   "score": 0.9596,
+   "old_sha256": "16f466a9d6a649c3ed6a055851dcfedd160d635cf379c6468fa6ccdc30582e43",
+   "new_sha256": "965f4f65777fb6d7b9122f23be13d71f9bd80f27e80de3439b14d1730a2143fd",
+   "old_wh": [
+    409,
+    185
+   ],
+   "new_wh": [
+    517,
+    239
+   ],
+   "old_bytes": 8507,
+   "new_bytes": 30674
+  },
+  {
+   "lib_img": "360ec6ceb7f01cddf06b49e04247ac7100100115d3d4646a5bfb9ec7a67f58c8.jpg",
+   "card": "题-CM-167-07-7-1同碳上亚甲基的氢酸性有.md",
+   "kind": "a",
+   "site_img": "e38-p17-q07-04-1497bf63ff30.webp",
+   "score": 0.9567,
+   "old_sha256": "d45e4f40fded37af5ec07414b1eaf2aed6c6be824be56545d242ed2a5e989583",
+   "new_sha256": "b400425a0f4b15bf0c54a7c7a1a126a37f2f1df333637cf7e6c5e509d19cd718",
+   "old_wh": [
+    251,
+    148
+   ],
+   "new_wh": [
+    303,
+    181
+   ],
+   "old_bytes": 4387,
+   "new_bytes": 8660
+  },
+  {
+   "lib_img": "3855d804f3c244f6d6e504caf3ef8f5e20fb349c75e0227514a157f1aed326a8.jpg",
+   "card": "题-CM-83-09-甲醛是一种有毒的物质当人体内.md",
+   "kind": "a",
+   "site_img": "e34-p10-q09-02-01e32bff8844.webp",
+   "score": 0.9747,
+   "old_sha256": "ce4b0d4cb3530179982d0952e5e44a2417f28d62484cf5f7f7ae3e3c710b243a",
+   "new_sha256": "4c114c2d793fc9310fa8fe7413cb6af7e229c464bb13951bbbca4cde10b1d575",
+   "old_wh": [
+    388,
+    192
+   ],
+   "new_wh": [
+    485,
+    244
+   ],
+   "old_bytes": 9430,
+   "new_bytes": 20022
+  },
+  {
+   "lib_img": "399ab69ae6507703e33250f609350303d3b20aa8b362918de21c8e459345a16b.jpg",
+   "card": "题-CM-116-10-叠氮化合物具有一定程度的亲核.md",
+   "kind": "q",
+   "site_img": "e36-p02-q10-06-8dab930ed18a.webp",
+   "score": 0.9237,
+   "old_sha256": "9001c6e87c4f480979ccb91ddff2ddfa71abe8ecc6654208316aa088950d7913",
+   "new_sha256": "44deb398e7caf2fb434088f49eebfa9bafed4e090a1ff52bd60af3a21229bc6d",
+   "old_wh": [
+    459,
+    165
+   ],
+   "new_wh": [
+    568,
+    206
+   ],
+   "old_bytes": 7313,
+   "new_bytes": 13620
+  },
+  {
+   "lib_img": "3a1efc06b9c3db8c3adbcb03b3d37a59c62b00fb9e5379152b1ac4e75f65c1c6.jpg",
+   "card": "题-CM-171-07-对于单线态氧参与的以下反应研.md",
+   "kind": "a",
+   "site_img": "e38-p22-q07-06-704b234da441.webp",
+   "score": 0.961,
+   "old_sha256": "6ab7cc1ddd99915df638a10e9d788362fed40465cf3da56df5c546720878abc1",
+   "new_sha256": "8fef124e45b1441ea392cad9c18985db570fe14ec77219d1df11346bca67ad67",
+   "old_wh": [
+    470,
+    134
+   ],
+   "new_wh": [
+    592,
+    164
+   ],
+   "old_bytes": 6654,
+   "new_bytes": 12418
+  },
+  {
+   "lib_img": "3ac0befc08378e658e53f47d0a6223dead770564e120705a04ba4ed221a66f10.jpg",
+   "card": "题-CM-135-08-吡啶环上的亲电取代反应条件较.md",
+   "kind": "q",
+   "site_img": "e37-p02-q08-02-8bcc9d4652b6.webp",
+   "score": 0.9306,
+   "old_sha256": "5453ad39d5aac66fb4f88bf822de5d564e60c2499f86f51ea845a19255591c20",
+   "new_sha256": "02187785c250bed4b665dbbfffccbbf8e8c00c50d4b85c4f40e6b032a31c747c",
+   "old_wh": [
+    146,
+    112
+   ],
+   "new_wh": [
+    178,
+    143
+   ],
+   "old_bytes": 3063,
+   "new_bytes": 5737
+  },
+  {
+   "lib_img": "3be8e0f71c8c569efa31ae2bed135f1a69762328e9f465cafff07e6ef08bc454.jpg",
+   "card": "题-CM-165-06-6-1该催化剂的制备方法为在.md",
+   "kind": "a",
+   "site_img": "e38-p15-a06-04-c593205fa1cc.webp",
+   "score": 0.9384,
+   "old_sha256": "b690266ed0cfbd1318d098ddd055eeb81da74f55b3cdd69b21a422653fee4a3a",
+   "new_sha256": "164340539d0f6617a8a74404531a42db4a7e9d961c951d359ce2d875a4bb24b1",
+   "old_wh": [
+    418,
+    168
+   ],
+   "new_wh": [
+    517,
+    209
+   ],
+   "old_bytes": 10861,
+   "new_bytes": 37522
+  },
+  {
+   "lib_img": "3c63c6e718f1f03bfe726a3931c54b1f1cbfb8abc94618897d52c3888a6a330d.jpg",
+   "card": "题-CM-125-08-8-1现有如下反应.md",
+   "kind": "a",
+   "site_img": "e36-p20-q08-02-077f8c23d1cd.webp",
+   "score": 0.9451,
+   "old_sha256": "d49f2999a2ded70decb985c91485f56364c43bce299da00fb14951f1f5601dad",
+   "new_sha256": "c0ba9ed186350035b7e9b6b13a42185a9eb6cf6c88d42ae462b685a859a897f1",
+   "old_wh": [
+    496,
+    101
+   ],
+   "new_wh": [
+    613,
+    120
+   ],
+   "old_bytes": 5625,
+   "new_bytes": 10078
+  },
+  {
+   "lib_img": "3c7e32f076ab2dc42744d0e78b116e16f153e7e61a96056d12a78069cbcb9663.jpg",
+   "card": "题-CM-144-08-8-1在第36届初赛中考察了.md",
+   "kind": "q",
+   "site_img": "e37-p19-q08-03-76c29c7d22c2.webp",
+   "score": 0.8635,
+   "old_sha256": "da043f2248c127c034596ff4a02bcfe885a4ad27758dd82ce4b72dc701203307",
+   "new_sha256": "c738ab41866c2648cf40fc69daa62f41769bbe5dcaecb80e536ca3c9209b2103",
+   "old_wh": [
+    354,
+    154
+   ],
+   "new_wh": [
+    437,
+    200
+   ],
+   "old_bytes": 11005,
+   "new_bytes": 20332
+  },
+  {
+   "lib_img": "3d3f2c0341539dd590c722d8a775d0e108491e473be6ed873d01aac868e4fc82.jpg",
+   "card": "题-CM-121-07-1991年AlfredSch.md",
+   "kind": "q",
+   "site_img": "e36-p14-q07-02-5e701c618666.webp",
+   "score": 0.954,
+   "old_sha256": "2345af39198a362e215446efd62767aa66d0ebfe1adcb452e91e60417a4ba76f",
+   "new_sha256": "9c7ef2b19fe316af285a3ae91abf14b3694d25fb3c719429303b70b474443791",
+   "old_wh": [
+    446,
+    62
+   ],
+   "new_wh": [
+    553,
+    77
+   ],
+   "old_bytes": 4065,
+   "new_bytes": 6646
+  },
+  {
+   "lib_img": "3de4890568192f080119d3030ad45ce50a9903565941fb00fe96f7c6839f5349.jpg",
+   "card": "题-CM-117-07-在光化学串联反应中掺入金属C.md",
+   "kind": "q",
+   "site_img": "e36-p03-q07-02-3019ddd05453.webp",
+   "score": 0.9484,
+   "old_sha256": "dd6a787cdd46b88d2cb9f328529c5e06e12b120800edd02c1b12acca8ac9e597",
+   "new_sha256": "0caf5e6cec87d332dc47d2c3b1cd6cd2301da1ac667f7f62100c2c12b498c72c",
+   "old_wh": [
+    231,
+    223
+   ],
+   "new_wh": [
+    290,
+    282
+   ],
+   "old_bytes": 6314,
+   "new_bytes": 12316
+  },
+  {
+   "lib_img": "3e7f739957414885033417ce260bfd17716e4403cf7d6347e69c63c314822043.jpg",
+   "card": "题-CM-124-02-将溶于沸水中再加入加热搅拌使.md",
+   "kind": "a",
+   "site_img": "e36-p18-a02-01-16b123386e1c.webp",
+   "score": 0.9518,
+   "old_sha256": "737845f3dca0755ff333ba5f598a8b352d14e7af3035d4756e7635de1b2655e1",
+   "new_sha256": "7163553a32855a2961072563b7da087f91aab1761d002c0d3b179c293e3845e2",
+   "old_wh": [
+    232,
+    279
+   ],
+   "new_wh": [
+    302,
+    363
+   ],
+   "old_bytes": 10053,
+   "new_bytes": 42397
+  },
+  {
+   "lib_img": "3f9af54c2424294ae7e48ff633b032252d1ffbefc9badfd81c720306b83e9549.jpg",
+   "card": "题-CM-151-07-利用化学方法活化是新能源研究.md",
+   "kind": "q",
+   "site_img": "e37-p28-q07-04-e567b825ec46.webp",
+   "score": 0.952,
+   "old_sha256": "c33ecff0b22863f3d126cbb0223a1e09977fda5f79fccfcb5cbbd1b9e5622513",
+   "new_sha256": "78c0fdb8c7d24f157fa2577db8b734f49c212e258db388a07e5fbcbf8f4f98be",
+   "old_wh": [
+    221,
+    101
+   ],
+   "new_wh": [
+    281,
+    124
+   ],
+   "old_bytes": 3247,
+   "new_bytes": 5969
+  },
+  {
+   "lib_img": "3fa62f1542ab7c779d93b2a77842257b59a114d3ee11b84dafcde27f364ae93f.jpg",
+   "card": "题-CM-129-06-6-1如下图所示在金属M的氧.md",
+   "kind": "q",
+   "site_img": "e36-p25-q06-02-a800fd0128d0.webp",
+   "score": 0.9576,
+   "old_sha256": "d5abb226491c3eab41228e7c6d674215b25f4aac2893a51e291120304fe3b0a9",
+   "new_sha256": "9eb58ecfb7ab35117d0bb487f904e2d36241425dbbe6ac7c62b3373bff51137f",
+   "old_wh": [
+    317,
+    320
+   ],
+   "new_wh": [
+    404,
+    413
+   ],
+   "old_bytes": 10427,
+   "new_bytes": 26773
+  },
+  {
+   "lib_img": "40fdcfb62d72239c3e36d48762bc57eaac84f958647c99cd724680baa2ad3102.jpg",
+   "card": "题-CM-158-03-是一种对生命体十分重要的元素.md",
+   "kind": "a",
+   "site_img": "e38-p06-a03-02-1c62777e7202.webp",
+   "score": 0.9736,
+   "old_sha256": "71461a0cbf095293fd69ffe03fd994e2f7c0313db4d0ce5dad3cf59615f550ac",
+   "new_sha256": "c24393618139e16782c52733de7b677d7a2612ad23301c04112c63755ab97359",
+   "old_wh": [
+    407,
+    207
+   ],
+   "new_wh": [
+    518,
+    268
+   ],
+   "old_bytes": 9366,
+   "new_bytes": 34092
+  },
+  {
+   "lib_img": "41496b53cb9411c1143af59abfbfee134f6f70c5fd7e525597dece4a19a0f04a.jpg",
+   "card": "题-CM-146-02-2-1和以不同比例反应会得到.md",
+   "kind": "q",
+   "site_img": "e37-p22-q02-01-226d41c55e45.webp",
+   "score": 0.8016,
+   "old_sha256": "d089ed5b0882fc55f59c79db3f71124432f3e9daf021ed35df147f7b9e4f7d9d",
+   "new_sha256": "b5bcc09e1067edd8bcba927c3f277dffddb07a49262fe939f9f208c1afaf0ccd",
+   "old_wh": [
+    445,
+    184
+   ],
+   "new_wh": [
+    561,
+    236
+   ],
+   "old_bytes": 11624,
+   "new_bytes": 17599
+  },
+  {
+   "lib_img": "41ce641a9e2fd4de8a905578e71188dec146eb12f625821cb96d7564ea31ae22.jpg",
+   "card": "题-CM-135-04-是一种重要的无机化合物在硼酸.md",
+   "kind": "q",
+   "site_img": "e37-p02-a04-02-cdec2f90fb3c.webp",
+   "score": 0.9556,
+   "old_sha256": "15cd31b7c313c2ac908e89932c9d4f5c55cf9f1973e41c59e06094a3961f2f75",
+   "new_sha256": "719ef31e4f816e72e79ed8416ba27cf030a2de35332f2f8593a927c7d943ffd9",
+   "old_wh": [
+    359,
+    209
+   ],
+   "new_wh": [
+    507,
+    298
+   ],
+   "old_bytes": 9072,
+   "new_bytes": 30995
+  },
+  {
+   "lib_img": "42b3e2c2ca74c5dc7979de27c522fe4696994c4433c84f1186488a5a171259ac.jpg",
+   "card": "题-CM-117-08-8-1指出与的酸性何者更强.md",
+   "kind": "q",
+   "site_img": "e36-p03-q08-01-7934f7fd04d9.webp",
+   "score": 0.9562,
+   "old_sha256": "547913ab4f37298d838ed2746c5d214fbf5487343a83fcd0fe867bdca437e1d2",
+   "new_sha256": "e6128ff0c9e65d714e5c9b733cb252c5423d988bdd7ae17a5d337cfd2badf909",
+   "old_wh": [
+    187,
+    123
+   ],
+   "new_wh": [
+    226,
+    151
+   ],
+   "old_bytes": 4680,
+   "new_bytes": 7573
+  },
+  {
+   "lib_img": "44537b1a9569f822092a3574c153d5c196538668a41d01a26bd5751da1439388.jpg",
+   "card": "题-CM-109-08-8-1化合物的实际组成可表示.md",
+   "kind": "a",
+   "site_img": "e35-p22-a08-01-65ecd3e7c157.webp",
+   "score": 0.9941,
+   "old_sha256": "3fbaa06db8026fca8e9c436be85f11af5d07dd3cd4603e6b7a8dc63b8b5ceacd",
+   "new_sha256": "d8af12879ec0c9f5cb180bb94ee159937da610bf0f682ed72ff146b0a1e5fa82",
+   "old_wh": [
+    340,
+    368
+   ],
+   "new_wh": [
+    431,
+    460
+   ],
+   "old_bytes": 13549,
+   "new_bytes": 48445
+  },
+  {
+   "lib_img": "447c20500389681c33a091d413467d3fece76524749414ac4d28ffda7265748d.jpg",
+   "card": "题-CM-167-07-7-1同碳上亚甲基的氢酸性有.md",
+   "kind": "a",
+   "site_img": "e38-p17-a07-02-efb33c9281ef.webp",
+   "score": 0.9326,
+   "old_sha256": "103fca2b3876eca699d8294afbd68289605227ed05b5646703eeec02a0f081c1",
+   "new_sha256": "3d8ba174137eaebe16d035575382322e461c9766a4acde509fddf1a0266eb930",
+   "old_wh": [
+    293,
+    159
+   ],
+   "new_wh": [
+    362,
+    202
+   ],
+   "old_bytes": 5890,
+   "new_bytes": 19640
+  },
+  {
+   "lib_img": "462a4921b8f4bf97ea72c3059b35f18926e3802105c818164d79d713214318a6.jpg",
+   "card": "题-CM-165-01-1-1生活中使用的各种材料与.md",
+   "kind": "a",
+   "site_img": "e38-p15-a01-01-5f329eb11953.webp",
+   "score": 0.9607,
+   "old_sha256": "1ff31ad1b4fa140555ac005eb4675503b530dcef7694630ac190665181284547",
+   "new_sha256": "9b3d465b9ae7721c3e0eb37745f317ce962a1b4bb7dc5e095684ea3546896fbf",
+   "old_wh": [
+    465,
+    156
+   ],
+   "new_wh": [
+    580,
+    201
+   ],
+   "old_bytes": 7845,
+   "new_bytes": 26326
+  },
+  {
+   "lib_img": "47ebf038f1b6fc1ccb94037cc6dadc14cc8bd182552f52b8a1b65dcdc10f5f3b.jpg",
+   "card": "题-CM-173-03-笼行走策略CageWalki.md",
+   "kind": "a",
+   "site_img": "e38-p24-q03-01-33dc45b5e576.webp",
+   "score": 0.9333,
+   "old_sha256": "baebe4b94273aa5e2127c02ba41e1d1d87ff4ddd57b883b7a1030ae8b1d1da27",
+   "new_sha256": "d7ecb1ac6aff0c88252880f29d8912582de73f0ba9cbb981b2da62900b653b23",
+   "old_wh": [
+    351,
+    181
+   ],
+   "new_wh": [
+    440,
+    237
+   ],
+   "old_bytes": 16039,
+   "new_bytes": 35566
+  },
+  {
+   "lib_img": "4833b461cf6b6c6ca8f5768ecb5d129169e5c9e0a028da920f8cf8c4000f30eb.jpg",
+   "card": "题-CM-82-05-复合氧化物具有缺陷的NaCl.md",
+   "kind": "q",
+   "site_img": "e34-p09-q05-01-67b714c0de46.webp",
+   "score": 0.994,
+   "old_sha256": "f962f1dc80690c7c08229a6d9fa85d957166738a71c7872b56cda52ecb51e9ee",
+   "new_sha256": "be104cee739305947bc001142a1e6e0ec7f43530d8322ce720daa4aa684a60ba",
+   "old_wh": [
+    393,
+    395
+   ],
+   "new_wh": [
+    502,
+    504
+   ],
+   "old_bytes": 21862,
+   "new_bytes": 75607
+  },
+  {
+   "lib_img": "486443ee298f3e15d9fdbe205ef9edc6016396eac4079cfc465a66d5e05e8e7b.jpg",
+   "card": "题-CM-86-02-2-1下面的化合物在甲醇中发.md",
+   "kind": "q",
+   "site_img": "e34-p13-q02-01-2864987737d3.webp",
+   "score": 0.9595,
+   "old_sha256": "85507f19cefe93fc187f1840b48b4dab7227f73c800bb937cff40828c8bacc35",
+   "new_sha256": "52283816a52f606e967ec500f2f47b9354584e9037697e6c6fdf568b534a9f9f",
+   "old_wh": [
+    323,
+    76
+   ],
+   "new_wh": [
+    398,
+    99
+   ],
+   "old_bytes": 3836,
+   "new_bytes": 7571
+  },
+  {
+   "lib_img": "48b02d7035725d49a2b0e5855b4d7e81c93f438ed7bd7845b017bbe3734d62e2.jpg",
+   "card": "题-CM-165-06-6-1该催化剂的制备方法为在.md",
+   "kind": "a",
+   "site_img": "e38-p15-q06-03-29ec1a2a5875.webp",
+   "score": 0.9693,
+   "old_sha256": "d4cf4b96c5c1b02ae1d9118835df5db9c1cc6eb5d52a687bb4d43042f7ec9606",
+   "new_sha256": "21881ce91ec4e3f53f07b227a92274f6ace48e0df65f50ae32853bac71dbe116",
+   "old_wh": [
+    332,
+    303
+   ],
+   "new_wh": [
+    415,
+    385
+   ],
+   "old_bytes": 9378,
+   "new_bytes": 19268
+  },
+  {
+   "lib_img": "490af5c2ef94aa4bf25e82a41351e75bfff35ec3ed6a92feb7160e33d7140fd1.jpg",
+   "card": "题-CM-113-05-酰胺由于存在具有较高的稳定性.md",
+   "kind": "q",
+   "site_img": "e35-p26-q05-01-9f01a49893dd.webp",
+   "score": 0.9652,
+   "old_sha256": "e5b36f2925321072e39565a7d261b9841a32a5b45727ea4453bc5804e09765c3",
+   "new_sha256": "3b3742f904e47a77676089f57d24be07d5317f7e72aab20effa460978138b206",
+   "old_wh": [
+    474,
+    156
+   ],
+   "new_wh": [
+    595,
+    202
+   ],
+   "old_bytes": 7180,
+   "new_bytes": 12976
+  },
+  {
+   "lib_img": "49a3589c67e560da8b6af7e0495c7dc437ef580670f169db0f25780859b41019.jpg",
+   "card": "题-CM-121-07-1991年AlfredSch.md",
+   "kind": "q",
+   "site_img": "e36-p14-q07-03-6a653a32b750.webp",
+   "score": 0.9407,
+   "old_sha256": "daf81407076a1bf1dff504d34d49903d7f4a59d4203b9aee78072d4d204925bb",
+   "new_sha256": "133646ea4329a06e8a7d47287d954928296ad3e178f80b232276b7e05c4c1d4b",
+   "old_wh": [
+    224,
+    56
+   ],
+   "new_wh": [
+    270,
+    73
+   ],
+   "old_bytes": 1895,
+   "new_bytes": 2655
+  },
+  {
+   "lib_img": "49eac906fe55f4f412fde1cadb91c3b6012c8f335e3148eeff993c9b586d857d.jpg",
+   "card": "题-CM-116-10-叠氮化合物具有一定程度的亲核.md",
+   "kind": "a",
+   "site_img": "e36-p02-q10-04-a67822bf4d25.webp",
+   "score": 0.9636,
+   "old_sha256": "9a3c78b32f4c437e3c82f725a4389626e4faefdb7f88a1210a9475a8788fe691",
+   "new_sha256": "87404191bb4f5ff4efb37f2a4d6354c53c83c199f849f0ba004ffc45c4c58d2e",
+   "old_wh": [
+    415,
+    162
+   ],
+   "new_wh": [
+    512,
+    208
+   ],
+   "old_bytes": 6869,
+   "new_bytes": 12884
+  },
+  {
+   "lib_img": "4a5bfdc57179cf3ce8f5c7db641a318fcfdab2c1dbc4a3fbedffb1727f9fd1dc.jpg",
+   "card": "题-CM-59-02-2-1直接写出上述三个物质所.md",
+   "kind": "q",
+   "site_img": "e32-p10-q02-01-5c797f901a14.webp",
+   "score": 0.9759,
+   "old_sha256": "cbc4b629629d30f312d805e2fb8669d03f9db572081ca7624317c5f32f290893",
+   "new_sha256": "8bc85d2b080a19a6053d33fe9d0fca7bdabb431c317bd2b5f39ae31c1d39457d",
+   "old_wh": [
+    506,
+    146
+   ],
+   "new_wh": [
+    635,
+    182
+   ],
+   "old_bytes": 8578,
+   "new_bytes": 18095
+  },
+  {
+   "lib_img": "4a9ac72ee9ed8436af17ae9f7b81c5b5ce3113944e19adfef5ee8f5b28cd926b.jpg",
+   "card": "题-CM-147-09-研究人员意外发现了如下反应.md",
+   "kind": "q",
+   "site_img": "e37-p23-q09-03-75484c8d7113.webp",
+   "score": 0.9831,
+   "old_sha256": "4818ee3817d0d65979b70a5b9a0e171038addd0d2d360b459f71c59db820abaa",
+   "new_sha256": "89b9312dadead459ae01bf8a87f2ac1447aa6acd282962b39d01a03815f03d4b",
+   "old_wh": [
+    265,
+    273
+   ],
+   "new_wh": [
+    336,
+    343
+   ],
+   "old_bytes": 9697,
+   "new_bytes": 20337
+  },
+  {
+   "lib_img": "4adc1a875ec6ea9921ee6cefb63a7d4e670c8bdb4d9fb4f324a307e09e4378d3.jpg",
+   "card": "题-CM-82-05-复合氧化物具有缺陷的NaCl.md",
+   "kind": "a",
+   "site_img": "e34-p09-q05-01-67b714c0de46.webp",
+   "score": 0.9922,
+   "old_sha256": "26960eddbdc5ede172d43f3bcd0bc1036165dedda9f9b6d0b9745205aa2f21d2",
+   "new_sha256": "be104cee739305947bc001142a1e6e0ec7f43530d8322ce720daa4aa684a60ba",
+   "old_wh": [
+    398,
+    395
+   ],
+   "new_wh": [
+    502,
+    504
+   ],
+   "old_bytes": 22922,
+   "new_bytes": 75607
+  },
+  {
+   "lib_img": "4b0c1c6b4310e2399c560b478c13e73c8908735639b1499c74f49b884ad86ae9.jpg",
+   "card": "题-CM-110-05-贵金属纳米颗粒在催化传感医药.md",
+   "kind": "q",
+   "site_img": "e35-p23-q05-01-df792824be7e.webp",
+   "score": 0.9579,
+   "old_sha256": "55012edfa06d1531942385ee205b00c5ffb7c288c63e212ec3da49484c856705",
+   "new_sha256": "0bd2ac674b76af6a3c4ab08b1b37c3f1d9b188fa5a746aad5cc771776d58a2e0",
+   "old_wh": [
+    245,
+    120
+   ],
+   "new_wh": [
+    303,
+    147
+   ],
+   "old_bytes": 4096,
+   "new_bytes": 7696
+  },
+  {
+   "lib_img": "4d01e73e54a03a6feed65eef6add800f6e33974d5d694f194940a2967c62e273.jpg",
+   "card": "题-CM-167-07-7-1同碳上亚甲基的氢酸性有.md",
+   "kind": "a",
+   "site_img": "e38-p17-q07-01-0df97388985a.webp",
+   "score": 0.954,
+   "old_sha256": "8af314558678f2742d7ec442be915540ffadc06d16f0f2dec48600a5efe754b4",
+   "new_sha256": "2d8e81856268b8d47835e6a3d4339ce6b32f5b0e57f893e0f07c0c412a5bd832",
+   "old_wh": [
+    240,
+    146
+   ],
+   "new_wh": [
+    294,
+    186
+   ],
+   "old_bytes": 4686,
+   "new_bytes": 9122
+  },
+  {
+   "lib_img": "4d7b0d00f51026517e1784e7f3e8ebcc161c0482f2f787ccaad919203f4218a9.jpg",
+   "card": "题-CM-106-01-1-1在C减压下丙二酸用脱水.md",
+   "kind": "a",
+   "site_img": "e35-p18-a01-02-09988142b59b.webp",
+   "score": 0.9376,
+   "old_sha256": "9cddb4bebe2a93f740d2ce22eeba41d9052e8cdd65e17494cc17a0ce1d7c67a6",
+   "new_sha256": "4adbe6fb651394a6951827b98758ac8e266016d47cf89b873e9054294f80828f",
+   "old_wh": [
+    187,
+    96
+   ],
+   "new_wh": [
+    237,
+    116
+   ],
+   "old_bytes": 3490,
+   "new_bytes": 9995
+  },
+  {
+   "lib_img": "4d8c5929b35b17b1267803ceab41604719e91e09733afba3e9aef0bf07b98eba.jpg",
+   "card": "题-CM-109-06-利用配合物A可实现由向的转化.md",
+   "kind": "a",
+   "site_img": "e35-p22-a06-02-8be402644a36.webp",
+   "score": 0.8051,
+   "old_sha256": "90f620ada2b2bc6ed655c7e0675e2eabd34d2f0d53f45bec6542e5b8ebc92d10",
+   "new_sha256": "daad74f0dc4e7cb40d16a2383e906843e0cddbf27278f5131840bf90daa463fb",
+   "old_wh": [
+    295,
+    126
+   ],
+   "new_wh": [
+    375,
+    159
+   ],
+   "old_bytes": 9093,
+   "new_bytes": 30931
+  },
+  {
+   "lib_img": "4e2d28986bbde7e485b8c8973ccc25e6aa1a5fc8af2eca5ed29ffa6123edcc34.jpg",
+   "card": "题-CM-170-10-10-1在超酸介质中往往会发.md",
+   "kind": "a",
+   "site_img": "e38-p21-q10-02-37244a63c2d1.webp",
+   "score": 0.9675,
+   "old_sha256": "4460531b4a4af0bb73b21ec827c27263d29d8b8eafaa7a45eeed208bacb201a4",
+   "new_sha256": "ff9d79eb1eb9b064cf7029e75e1148b0d3c6e4f625026de10a442089c2616e09",
+   "old_wh": [
+    515,
+    212
+   ],
+   "new_wh": [
+    641,
+    266
+   ],
+   "old_bytes": 10768,
+   "new_bytes": 22374
+  },
+  {
+   "lib_img": "4f87f5b59a94c526fbc3ca4dd28a0095ade238545014fb48ebf1ca8336b6e46e.jpg",
+   "card": "题-CM-127-09-有机催化或称为小分子催化这一.md",
+   "kind": "a",
+   "site_img": "e36-p22-q09-07-3aca1b9ccab7.webp",
+   "score": 0.9526,
+   "old_sha256": "2f242a6ced0be9710b370ecf2aab85a25023bc5fb26916a340220adcadbce342",
+   "new_sha256": "23eaedb1c6ba459e1c837fe33b9a1a0069adaaad81365465fa9eec9aff05b1ac",
+   "old_wh": [
+    178,
+    117
+   ],
+   "new_wh": [
+    234,
+    160
+   ],
+   "old_bytes": 3835,
+   "new_bytes": 6025
+  },
+  {
+   "lib_img": "501ac55b5cf6ece5195f9628fc3ae4caf8315fb7f192dc1cdd61965f9ef2220a.jpg",
+   "card": "题-CM-87-08-Payne重排是一种碱性条件.md",
+   "kind": "q",
+   "site_img": "e34-p14-q08-06-32892f3bef94.webp",
+   "score": 0.9652,
+   "old_sha256": "ae35f1a47cfb0da393963d870ab079908615013a287148a73f89daffa8bf1f14",
+   "new_sha256": "880953a48932067113d7cf9bf7c54bdee9e4e7acdee130e2ffa0bdc7e2b8f83c",
+   "old_wh": [
+    376,
+    71
+   ],
+   "new_wh": [
+    471,
+    91
+   ],
+   "old_bytes": 4327,
+   "new_bytes": 8203
+  },
+  {
+   "lib_img": "515fd1dfac5596f08c5e301e33473fe77ac0843adb5487f7bea478f96c6beb6c.jpg",
+   "card": "题-CM-167-07-7-1同碳上亚甲基的氢酸性有.md",
+   "kind": "a",
+   "site_img": "e38-p17-q07-06-d82f539eea3e.webp",
+   "score": 0.9238,
+   "old_sha256": "7e4c9e8525ee88208a66f3c89d724637cd7dc89dcb96f886fb369ebb2ce3c70c",
+   "new_sha256": "971da459b58c39c0756e3ae882ebb46ee9823d5e5f71e1649207a9ec43d08246",
+   "old_wh": [
+    143,
+    51
+   ],
+   "new_wh": [
+    170,
+    62
+   ],
+   "old_bytes": 1911,
+   "new_bytes": 2918
+  },
+  {
+   "lib_img": "51c427dd4f5976fdddfd1c260c6439c9daae05c3c2d4ca36055a3f6cf45cbf04.jpg",
+   "card": "题-CM-135-09-近年来对氨基酸进行同位素标记.md",
+   "kind": "q",
+   "site_img": "e37-p02-q09-04-fdd7e69ea95d.webp",
+   "score": 0.9512,
+   "old_sha256": "043991d2d23309cb809477646378f370c0985ea839d12a2b45d5be8b47489055",
+   "new_sha256": "23eb1bc063bcd5bb2080136312bce3a5e3662c5f573a13774a3880c20e208c59",
+   "old_wh": [
+    190,
+    84
+   ],
+   "new_wh": [
+    231,
+    108
+   ],
+   "old_bytes": 3065,
+   "new_bytes": 5358
+  },
+  {
+   "lib_img": "523aa02fd9a63d5141ba55e507d6811a1866a150330c26b39d67170a4c0bb0b6.jpg",
+   "card": "题-CM-51-09-9-1一般认为格氏试剂与羰基.md",
+   "kind": "q",
+   "site_img": "e32-p02-a09-01-1601575fe493.webp",
+   "score": 0.9537,
+   "old_sha256": "f6abab3a619d1f6e57d241cadb7760427e33c5d327e0782fe05c25b8870d7309",
+   "new_sha256": "d5e1111b427f8279ddf884c8b387cb6376cc754edad6c0ad428ad7428725d354",
+   "old_wh": [
+    287,
+    182
+   ],
+   "new_wh": [
+    364,
+    231
+   ],
+   "old_bytes": 6356,
+   "new_bytes": 12546
+  },
+  {
+   "lib_img": "5370d0cd5525f1df633166bb25c5db2e2bbbb64cf9af69a4673da6827755da8f.jpg",
+   "card": "题-CM-171-08-PIDA碘苯二乙酸及其衍生物.md",
+   "kind": "a",
+   "site_img": "e38-p22-q08-02-42b7f304fd5b.webp",
+   "score": 0.9347,
+   "old_sha256": "2e41546c715830bdbf545ff5c19c90df5ba27caeaa6e6ed1dcd9b0fb213c06c1",
+   "new_sha256": "94586c752aa987b42ba90eb847918468bfdcdb495d50725cc95a06304f8a159e",
+   "old_wh": [
+    409,
+    112
+   ],
+   "new_wh": [
+    515,
+    142
+   ],
+   "old_bytes": 4893,
+   "new_bytes": 9552
+  },
+  {
+   "lib_img": "546bb2d8ca9fca7fac99c0a00f12b45fda3e866748ff906577c5fe287f3f90f1.jpg",
+   "card": "题-CM-116-10-叠氮化合物具有一定程度的亲核.md",
+   "kind": "q",
+   "site_img": "e36-p02-q10-02-489a5528e178.webp",
+   "score": 0.9569,
+   "old_sha256": "eed93014489dcf0010d832e436551c2910e35d51b4b2440e43d5dda73d93df47",
+   "new_sha256": "73eb79f8890969fb241fe4ef6c53b8164acd7a3e723ef01372302348fd156f3f",
+   "old_wh": [
+    426,
+    129
+   ],
+   "new_wh": [
+    526,
+    160
+   ],
+   "old_bytes": 5913,
+   "new_bytes": 10846
+  },
+  {
+   "lib_img": "54c693a78b1b159df9690811a6cd92013be97dfe011227159beb4a062122a7a4.jpg",
+   "card": "题-CM-107-10-二烷氧基卡宾是一类特征的反应.md",
+   "kind": "q",
+   "site_img": "e35-p20-q10-01-bc21ea9558b3.webp",
+   "score": 0.9496,
+   "old_sha256": "d1aebe1a63efe1a712c9928e2cc55ce7d82ef37c827f6ad063683dc1a792ed34",
+   "new_sha256": "6c2f16216a72814d38e8f4270ff7e3fd9256cd15a8f0040573b5143ef596cfd9",
+   "old_wh": [
+    237,
+    107
+   ],
+   "new_wh": [
+    292,
+    135
+   ],
+   "old_bytes": 5428,
+   "new_bytes": 11006
+  },
+  {
+   "lib_img": "56424d655ee6f86177cca6b97f5b1b31a636e9a69e80883bebb3cd659fced7ee.jpg",
+   "card": "题-CM-82-02-DNA与RNA承载了生命遗传.md",
+   "kind": "q",
+   "site_img": "e34-p09-q02-02-8e3dd3934770.webp",
+   "score": 0.9829,
+   "old_sha256": "bf19fc21c98fdf348241ae63a22548dab8522564e0c79bbe5332aeb96751a6ed",
+   "new_sha256": "28d745ec111d749821a9a65bda38fe3268fcf086970e54895f1e3eb0d545122b",
+   "old_wh": [
+    159,
+    381
+   ],
+   "new_wh": [
+    205,
+    481
+   ],
+   "old_bytes": 10334,
+   "new_bytes": 38708
+  },
+  {
+   "lib_img": "56d98b5f28b4de4088ab167db20da39762c4ed1ebea1b5541ea70e4e302698a6.jpg",
+   "card": "题-CM-89-03-在传统的负载型催化剂中过渡金.md",
+   "kind": "q",
+   "site_img": "e34-p16-q03-01-0c4fb8577850.webp",
+   "score": 0.9272,
+   "old_sha256": "ae040d7c191d9d5bafd5f67e525b8fedd7b8b614a38551fe9b06fe013fa04d3d",
+   "new_sha256": "7b4a5cbc8fd2f1d9c5a46c475896f689a0d9b1fbd9d4453d08014d5b79c7aedd",
+   "old_wh": [
+    182,
+    195
+   ],
+   "new_wh": [
+    225,
+    249
+   ],
+   "old_bytes": 6377,
+   "new_bytes": 10922
+  },
+  {
+   "lib_img": "595aa6df94aad528ce253d473b0d8e777c3e91241c309fb3173b956e4c60c5e5.jpg",
+   "card": "题-CM-169-09-9-11903年Zincke.md",
+   "kind": "a",
+   "site_img": "e38-p20-a08-13-52c30d8b594c.webp",
+   "score": 0.9653,
+   "old_sha256": "8c6bee5f15e7489f4df74272df84fa5003fe343ed31edf8c21c8c7256f1dd1c1",
+   "new_sha256": "da96ef4025cc24db8b1a523793b8eed86bd15ef920744b268cf5398db132fd25",
+   "old_wh": [
+    206,
+    234
+   ],
+   "new_wh": [
+    254,
+    299
+   ],
+   "old_bytes": 5535,
+   "new_bytes": 17791
+  },
+  {
+   "lib_img": "5a16e8b2684a95e34acf1586cabc17bd9a9ea3b3e37be1a2e64573b8a5eb93de.jpg",
+   "card": "题-CM-106-07-7-1化合物A和B分别进行水.md",
+   "kind": "q",
+   "site_img": "e35-p18-q07-05-0c25cd25ffd2.webp",
+   "score": 0.8338,
+   "old_sha256": "5550461f635ddeda0940554493f08b5ea5bb23a6d3a15ed18173d20f044d5056",
+   "new_sha256": "c8a9dcbf58d27604af7469c798386e011d13463081ac05c42dc07e7a7a8d50a3",
+   "old_wh": [
+    109,
+    106
+   ],
+   "new_wh": [
+    140,
+    139
+   ],
+   "old_bytes": 3423,
+   "new_bytes": 6323
+  },
+  {
+   "lib_img": "5a181cb759dabacbd020da326deeb6633f02d28080611ca7dcd418047fd8d897.jpg",
+   "card": "题-CM-166-09-9-1如图所示以下化合物经T.md",
+   "kind": "a",
+   "site_img": "e38-p16-a09-03-cdabd5e0a707.webp",
+   "score": 0.9114,
+   "old_sha256": "336a371beda6e61fac86e984e73a5cb276c50550c085ded09507697bb09fbfe0",
+   "new_sha256": "f7a3363bc3e9fc3544743d921bea2b5a99b2fa3d340adb976f52e6519cbd87a4",
+   "old_wh": [
+    331,
+    104
+   ],
+   "new_wh": [
+    409,
+    130
+   ],
+   "old_bytes": 4615,
+   "new_bytes": 16000
+  },
+  {
+   "lib_img": "5a5d5530258a5f7102da381a6dcfbd6337125827a03c0c18cd729854c8a833fe.jpg",
+   "card": "题-CM-92-09-通过以下方法合成了化合物ch.md",
+   "kind": "q",
+   "site_img": "e35-p02-q09-02-934f6cec515d.webp",
+   "score": 0.9437,
+   "old_sha256": "78129b71bbf13bb17f23d58f5c1dcedb483d2ee6acf0141b78de4046ff4561f6",
+   "new_sha256": "d616c38e7ac106d89145ba54ad967ec8c58f781b3f1c43af26ee13db6226ceca",
+   "old_wh": [
+    284,
+    184
+   ],
+   "new_wh": [
+    359,
+    241
+   ],
+   "old_bytes": 7549,
+   "new_bytes": 15612
+  },
+  {
+   "lib_img": "5a7d979b2909acebc32f22f9eb54df1feaed6f721b37aa0c04732967acdcaaa7.jpg",
+   "card": "题-CM-125-07-将醋酸乙烯酯与乙烯的共聚物用.md",
+   "kind": "a",
+   "site_img": "e36-p20-a07-01-5cc56b0da3a4.webp",
+   "score": 0.9638,
+   "old_sha256": "a9b2352df705f5b633ee0bf91f43e1f11e760f887aa87c8022ffbfb604dd00c2",
+   "new_sha256": "31883877f08b71410435bca2cf7a9b903ea8af1d1002e1826a20707cae046089",
+   "old_wh": [
+    303,
+    287
+   ],
+   "new_wh": [
+    391,
+    363
+   ],
+   "old_bytes": 10745,
+   "new_bytes": 37831
+  },
+  {
+   "lib_img": "5c0dc2d15515d8d21078462addd267d213fe4d8f4eb616410b9a22479dd9dc16.jpg",
+   "card": "题-CM-155-03-将加入至和的甲苯溶液中充分反.md",
+   "kind": "a",
+   "site_img": "e38-p03-a03-02-888bab040f73.webp",
+   "score": 0.9437,
+   "old_sha256": "363610b7a50e2f75567e24431210fde5bd80bdaff68bf0b775e56f1737f46e58",
+   "new_sha256": "e169383e8972b3c036e9e0d1eb8b24adb258ebda1f7cf090c0fa3b55f7377d33",
+   "old_wh": [
+    495,
+    115
+   ],
+   "new_wh": [
+    617,
+    150
+   ],
+   "old_bytes": 7969,
+   "new_bytes": 28485
+  },
+  {
+   "lib_img": "5c876b45e5757fe60751803c94cedfdc869fde4eaecd24c9741a0886d2969096.jpg",
+   "card": "题-CM-119-01-二十世纪五六十年代Bluse.md",
+   "kind": "a",
+   "site_img": "e36-p06-a01-01-ab42d11e9ef7.webp",
+   "score": 0.9376,
+   "old_sha256": "53056057d29a2730f28300131aee9598d51a5b87790b1d64a04e24e03de7e2a7",
+   "new_sha256": "7052a042c783039e2e977c8d06156dfeec82d8c9210d9e197e5b2c1b54a6a70b",
+   "old_wh": [
+    284,
+    190
+   ],
+   "new_wh": [
+    352,
+    245
+   ],
+   "old_bytes": 10698,
+   "new_bytes": 40763
+  },
+  {
+   "lib_img": "5d377fdec8d926b2a7a9f730af02e5b0c4cb3f851c53110839f3fd1b1ebfc07b.jpg",
+   "card": "题-CM-123-04-利用偶氮二异丁腈AIBN结构.md",
+   "kind": "q",
+   "site_img": "e36-p17-q04-01-5f197a1699c0.webp",
+   "score": 0.8534,
+   "old_sha256": "a0c927150981f525a22328b8909f9a86a925d0104e053eca32c38e9bb4775f5d",
+   "new_sha256": "a0468e3169b0ed8c543730c3ec4016768a9602521a0d3c4759d57439f50a6f1b",
+   "old_wh": [
+    445,
+    201
+   ],
+   "new_wh": [
+    566,
+    265
+   ],
+   "old_bytes": 8325,
+   "new_bytes": 17342
+  },
+  {
+   "lib_img": "5dcf539052eba1a71e0811cbf0ef859bc01c139eefca8a1b4e437b357b848456.jpg",
+   "card": "题-CM-106-09-多米诺苯炔是一种高活性的有机.md",
+   "kind": "a",
+   "site_img": "e35-p18-a09-05-53df42098b9d.webp",
+   "score": 0.9668,
+   "old_sha256": "dbc7720ba6b34c0c055a5191764e8bdbb49c46c3f9dafcf606285abd9d40d52c",
+   "new_sha256": "be97a611674a59215a2e9c9f23b1d1c0eac8c4ff5efe9979c8992508d62e9014",
+   "old_wh": [
+    229,
+    207
+   ],
+   "new_wh": [
+    291,
+    260
+   ],
+   "old_bytes": 6787,
+   "new_bytes": 23493
+  },
+  {
+   "lib_img": "5ddaf34a6f45e52672533d7b77ffd11d75c40d929a119d800d68e232d1dd9498.jpg",
+   "card": "题-CM-149-07-1985年以色列化学家YAp.md",
+   "kind": "q",
+   "site_img": "e37-p25-q07-01-61bc9a2e037c.webp",
+   "score": 0.9811,
+   "old_sha256": "5b76b3e8938e675b09217ebd6b6e0d203f21c7d37bcd859b09a21930c8edd0d5",
+   "new_sha256": "a233656c000bfe65a3f740d179b8403f615508ad9f7556efe74c4540f3d583b2",
+   "old_wh": [
+    356,
+    132
+   ],
+   "new_wh": [
+    451,
+    168
+   ],
+   "old_bytes": 7692,
+   "new_bytes": 14367
+  },
+  {
+   "lib_img": "5f404d13af099fe84da5f696b798eef7d5c632e87f765d69b4aeb06b5fa3a738.jpg",
+   "card": "题-CM-172-10-腙在碘的作用下会生成重氮中间.md",
+   "kind": "a",
+   "site_img": "e38-p23-q10-01-60389558eba1.webp",
+   "score": 0.9202,
+   "old_sha256": "c4f2434aaa99e83a2806055a937c9759cc36ebe8e9e65f18022f0127808a1e24",
+   "new_sha256": "9cb088915eb18b769aea5c64f8acc7e15c15f2821f4256b0963e5c0e05728df3",
+   "old_wh": [
+    515,
+    90
+   ],
+   "new_wh": [
+    636,
+    119
+   ],
+   "old_bytes": 6830,
+   "new_bytes": 13875
+  },
+  {
+   "lib_img": "5fd0334167ff519de027aa6946455d521ed44df19f333bd30d7c26ae9be853b5.jpg",
+   "card": "题-CM-55-02-2-1向含的待测溶液中加入氨.md",
+   "kind": "q",
+   "site_img": "e32-p06-q02-01-906ab7b08c90.webp",
+   "score": 0.8694,
+   "old_sha256": "0fad3d513e1112ee502740c92f3bfafe619151d4caa9202bc52034394e726a45",
+   "new_sha256": "1670a0647c40a3742edbfc4908a37ea75cc0ce160d04ef61235b6c8ff6610a33",
+   "old_wh": [
+    317,
+    304
+   ],
+   "new_wh": [
+    410,
+    389
+   ],
+   "old_bytes": 10961,
+   "new_bytes": 29649
+  },
+  {
+   "lib_img": "60b6332b59cb05cb1cb613d2735ca8ee08e67b40c6ef6100a05ea597bd3d4702.jpg",
+   "card": "题-CM-116-10-叠氮化合物具有一定程度的亲核.md",
+   "kind": "q",
+   "site_img": "e36-p02-q10-03-4fd71404d0d6.webp",
+   "score": 0.9592,
+   "old_sha256": "bd924713f86e04d5fd0b4815ed63b053a749dc37714f6ee23aee9903a62f92de",
+   "new_sha256": "da05c813c6b4d95ae17cd802ce515040745a4654366e48305a1896316372af84",
+   "old_wh": [
+    434,
+    82
+   ],
+   "new_wh": [
+    536,
+    99
+   ],
+   "old_bytes": 5832,
+   "new_bytes": 11301
+  },
+  {
+   "lib_img": "61d1a09a5b8f5f4ab73433f5c1e6b9ecd78b2ee40d232f11b9a4c0c9266e83f9.jpg",
+   "card": "题-CM-113-05-酰胺由于存在具有较高的稳定性.md",
+   "kind": "a",
+   "site_img": "e35-p26-q05-01-9f01a49893dd.webp",
+   "score": 0.9562,
+   "old_sha256": "790bb0f65f4df8611022ddc53f064658920bec0fff275bdc95cbb803cef8d347",
+   "new_sha256": "3b3742f904e47a77676089f57d24be07d5317f7e72aab20effa460978138b206",
+   "old_wh": [
+    476,
+    159
+   ],
+   "new_wh": [
+    595,
+    202
+   ],
+   "old_bytes": 6699,
+   "new_bytes": 12976
+  },
+  {
+   "lib_img": "620927e1880b41f5f215fa7334784d2e45f100518cf65c4fa22dbd53d2af1659.jpg",
+   "card": "题-CM-89-03-在传统的负载型催化剂中过渡金.md",
+   "kind": "a",
+   "site_img": "e34-p16-q03-01-0c4fb8577850.webp",
+   "score": 0.9137,
+   "old_sha256": "ef075c105b880eead227b8bf64f5e1a18ec2da8975f3b5785187e5b105e9dc60",
+   "new_sha256": "7b4a5cbc8fd2f1d9c5a46c475896f689a0d9b1fbd9d4453d08014d5b79c7aedd",
+   "old_wh": [
+    185,
+    201
+   ],
+   "new_wh": [
+    225,
+    249
+   ],
+   "old_bytes": 6215,
+   "new_bytes": 10922
+  },
+  {
+   "lib_img": "6239b62145c911b35079eae343de13eb37c3ab79687877ad41597031369f07b2.jpg",
+   "card": "题-CM-125-07-将醋酸乙烯酯与乙烯的共聚物用.md",
+   "kind": "q",
+   "site_img": "e36-p20-q07-01-ac1df5af922c.webp",
+   "score": 0.9864,
+   "old_sha256": "35c333b94f600ee8e8c4076c3452baa77d62f1fd93ddce6e99c594193bb7177a",
+   "new_sha256": "317e5cd5bd5f95322ce1ad3962488da17ae32cbba0434b885f8166753074365b",
+   "old_wh": [
+    401,
+    373
+   ],
+   "new_wh": [
+    511,
+    472
+   ],
+   "old_bytes": 15537,
+   "new_bytes": 55432
+  },
+  {
+   "lib_img": "64c16a62e1bffa93e374639b1d41da57cc033c62dcdd03ed91143309a34e9702.jpg",
+   "card": "题-CM-58-08-莫达非尼是一种新型的治疗嗜睡.md",
+   "kind": "q",
+   "site_img": "e32-p09-q08-01-3edf264d5bdc.webp",
+   "score": 0.9513,
+   "old_sha256": "1c774e5c19f840ba0ce3ddafffc4ef74ef13b18053ce52991ae50da69842dbfd",
+   "new_sha256": "c13a8a754cc5adeace38b4eef0cdda0825d9bfbf5bc3eef577dafbc085e25f08",
+   "old_wh": [
+    300,
+    215
+   ],
+   "new_wh": [
+    379,
+    277
+   ],
+   "old_bytes": 6876,
+   "new_bytes": 14046
+  },
+  {
+   "lib_img": "651e6f642b52afb8e38687231992f7278bedcbc692436788fd80426c50300170.jpg",
+   "card": "题-CM-97-09-Azomethineimin.md",
+   "kind": "q",
+   "site_img": "e35-p08-q09-01-0803afbf84d6.webp",
+   "score": 0.9518,
+   "old_sha256": "91b3fced7fec53590adc62c37d90308cf081c90f51e1a3db9589ad5181bd542d",
+   "new_sha256": "f49801a3fa42f6d1063814ba25dd86e689ebdccdf8879f93b53e15c424f9250a",
+   "old_wh": [
+    451,
+    84
+   ],
+   "new_wh": [
+    559,
+    109
+   ],
+   "old_bytes": 5119,
+   "new_bytes": 9868
+  },
+  {
+   "lib_img": "678116cd0afc987a323c0170b62dc7e1ccf4f0ec5444861c16f25c8e67853a69.jpg",
+   "card": "题-CM-173-02-Tr-COF.md",
+   "kind": "a",
+   "site_img": "e38-p24-a02-01-104e10b4e308.webp",
+   "score": 0.9633,
+   "old_sha256": "ce79a76809a69a58de7d63cda88ba546eabd2112c0fb463f5c5ad4e324d1e5fd",
+   "new_sha256": "66f14e26f8f531f895eab22aa20ffde0b07a48ffdf176d4e816af691bf50b2e0",
+   "old_wh": [
+    204,
+    173
+   ],
+   "new_wh": [
+    257,
+    219
+   ],
+   "old_bytes": 5552,
+   "new_bytes": 19366
+  },
+  {
+   "lib_img": "683dfbb2b6bc602b39bda5ccb17a1751c5e9ba28550af60a05880184f27f1b78.jpg",
+   "card": "题-CM-165-02-顾名思义超酸是一类酸度极强的.md",
+   "kind": "a",
+   "site_img": "e38-p15-a02-01-5ded82fbade0.webp",
+   "score": 0.8627,
+   "old_sha256": "1355c9f0ac8a04a92832bccfaad1e7e892a1f29e124226590ef92ec6f93f5452",
+   "new_sha256": "8364fa9806fe8029c48152549bed601cda172ddfcb35c679ff2903bbdb6d950b",
+   "old_wh": [
+    457,
+    176
+   ],
+   "new_wh": [
+    580,
+    215
+   ],
+   "old_bytes": 9702,
+   "new_bytes": 28767
+  },
+  {
+   "lib_img": "6951e933fde2c77bcc61144e22220e791af6c1693d0c204babb3e599e3c0d92f.jpg",
+   "card": "题-CM-55-08-在酸性条件下将醛肟和酮肟转化.md",
+   "kind": "q",
+   "site_img": "e32-p06-q08-03-b5d9805cad51.webp",
+   "score": 0.9517,
+   "old_sha256": "0195bb9be90a4bf9f76789edf3877468e24af039f58f1e4d4cde60a2811033d6",
+   "new_sha256": "4fabf50a816b897f75f6805f2266895b194183a4524efed949384b0ff9a04ea1",
+   "old_wh": [
+    403,
+    148
+   ],
+   "new_wh": [
+    497,
+    188
+   ],
+   "old_bytes": 6172,
+   "new_bytes": 11886
+  },
+  {
+   "lib_img": "6972bcf9e167c4286cc5f826fc0e152714231ca96e8da0549f5d97238985127d.jpg",
+   "card": "题-CM-121-08-Ramburg-Backlu.md",
+   "kind": "q",
+   "site_img": "e36-p14-q08-01-611854d86747.webp",
+   "score": 0.94,
+   "old_sha256": "4dd59dd2fd84a5158016b727af4c24c7c70900ac5e96f3f505780325ba980c26",
+   "new_sha256": "8c5927001c045f518ee74939b325471fb64666decc433a3e74d386431c81f952",
+   "old_wh": [
+    471,
+    115
+   ],
+   "new_wh": [
+    585,
+    149
+   ],
+   "old_bytes": 5879,
+   "new_bytes": 11521
+  },
+  {
+   "lib_img": "6b217aed62d64e585f346939a54a85d6110d74a5fafb16d0405cb6ca24377a20.jpg",
+   "card": "题-CM-100-04-配体X可以和PdII形成一系.md",
+   "kind": "a",
+   "site_img": "e35-p11-q04-03-5500cb58787a.webp",
+   "score": 0.9475,
+   "old_sha256": "8323bc22f676cbe95df438594ba579112de13e49f7d09d6d4b6c1bd00033e0f9",
+   "new_sha256": "9800910677d8389d8af7cc255897ef0fd793976de1d3d1e44e63355fa53e09f9",
+   "old_wh": [
+    453,
+    207
+   ],
+   "new_wh": [
+    568,
+    262
+   ],
+   "old_bytes": 10830,
+   "new_bytes": 24518
+  },
+  {
+   "lib_img": "6b838e94e2db60f9e29efdec473b68b34e3663fb676c4793b7f4a43ef27f09c6.jpg",
+   "card": "题-CM-108-10-以上合成路线中的试剂1可用以.md",
+   "kind": "a",
+   "site_img": "e35-p21-q10-05-2e394b590d1b.webp",
+   "score": 0.9185,
+   "old_sha256": "39dac0bb124106ec1aea6ff9f8834f113f173e006ae65cb71b2c527774971617",
+   "new_sha256": "c317413e5124fe74e7315ea383d950e47003b33ca5d64c246450e6e912a4489d",
+   "old_wh": [
+    224,
+    81
+   ],
+   "new_wh": [
+    274,
+    97
+   ],
+   "old_bytes": 2866,
+   "new_bytes": 4818
+  },
+  {
+   "lib_img": "6b897683304e0c213c0198b51ff64fa1df2050eae088349d4c80ec0eb01da809.jpg",
+   "card": "题-CM-158-04-仅含CH的新开发三齿配体L由.md",
+   "kind": "a",
+   "site_img": "e38-p06-a04-01-64739c44299b.webp",
+   "score": 0.9409,
+   "old_sha256": "ed98299cd2b4a2fcf0c4d2f911c953014077ff7665e989300eb633ffdd05d548",
+   "new_sha256": "7799f23d0e7c2378d1e1671b171b04194afd341f3622d8829c072f088080ba93",
+   "old_wh": [
+    476,
+    206
+   ],
+   "new_wh": [
+    602,
+    267
+   ],
+   "old_bytes": 12284,
+   "new_bytes": 44136
+  },
+  {
+   "lib_img": "6bf90f57987ad12274eb04c65aeed067d49b8bd0dcda0aa3637feb391cad8480.jpg",
+   "card": "题-CM-83-09-甲醛是一种有毒的物质当人体内.md",
+   "kind": "q",
+   "site_img": "e34-p10-q09-02-01e32bff8844.webp",
+   "score": 0.8295,
+   "old_sha256": "0918d0bd42df6e47cbdc4841ed89692d6dca79ad9c865e22f592bbd6548312a1",
+   "new_sha256": "4c114c2d793fc9310fa8fe7413cb6af7e229c464bb13951bbbca4cde10b1d575",
+   "old_wh": [
+    381,
+    187
+   ],
+   "new_wh": [
+    485,
+    244
+   ],
+   "old_bytes": 9509,
+   "new_bytes": 20022
+  },
+  {
+   "lib_img": "6c2512c02ecda009e455af4486fcd3c9e1ebf6e2a67d82be83c1f4fed36353a3.jpg",
+   "card": "题-CM-103-02-铅与碘能形成丰富多彩的化合物.md",
+   "kind": "a",
+   "site_img": "e35-p15-a02-02-add338d39bd1.webp",
+   "score": 0.9402,
+   "old_sha256": "ec3ac6ed7eb6d3f4b30d24b31793663ec37a3fbea5d974d8b0cb5561b0f2a2a3",
+   "new_sha256": "222405dfaf5748da90bdc6bd450963e59d5f27c4afa8f2b6cc1f8b4d652efcb8",
+   "old_wh": [
+    376,
+    284
+   ],
+   "new_wh": [
+    481,
+    367
+   ],
+   "old_bytes": 12284,
+   "new_bytes": 36775
+  },
+  {
+   "lib_img": "6cadd8a2897c3f83650ca3b1ee9eb5972f69872d17c477955044f38d90c681a0.jpg",
+   "card": "题-CM-169-09-9-11903年Zincke.md",
+   "kind": "a",
+   "site_img": "e38-p20-q08-09-ce3c5e5feb77.webp",
+   "score": 0.923,
+   "old_sha256": "9ac5677ca7b8afaa7833358d65b9d2f7903f246172f326a46141d31855e80dee",
+   "new_sha256": "eb77f71d4a2e1d16794d17b9a7f21835051b61c8af95a2c6afe49165e35fc9e3",
+   "old_wh": [
+    212,
+    209
+   ],
+   "new_wh": [
+    280,
+    286
+   ],
+   "old_bytes": 6049,
+   "new_bytes": 13444
+  },
+  {
+   "lib_img": "6d638a09dd0a9ee79af2e39aa307391205b9cb9be9324417555e24ff273a492c.jpg",
+   "card": "题-CM-138-02-2-1NaOCP的一种制备方.md",
+   "kind": "q",
+   "site_img": "e37-p08-q02-01-af519faef596.webp",
+   "score": 0.8517,
+   "old_sha256": "4e32ce8e36424dff0b00bc4b0c4ab5a233f3e192e9c3b5aba0ff797b3cabc434",
+   "new_sha256": "f28bb976765e7f08594263493c61fe2edc36ed0fd34bc4fc89eee674a304505e",
+   "old_wh": [
+    129,
+    148
+   ],
+   "new_wh": [
+    163,
+    196
+   ],
+   "old_bytes": 2824,
+   "new_bytes": 4896
+  },
+  {
+   "lib_img": "6d6fffa29fa044abe53610f1f669d3437335a3140fa9ab41798a02423bf87895.jpg",
+   "card": "题-CM-158-08-作为一种经典的C-C键合成反.md",
+   "kind": "a",
+   "site_img": "e38-p06-a08-02-da76a24e95df.webp",
+   "score": 0.8152,
+   "old_sha256": "fc6bf5452dd26bcce07b14fb35456aa272457aad90b3b7aa739bb04e0f444024",
+   "new_sha256": "33f4fa7cce9fbd336e849bfe3152f41956f605f62c2b3a6df2ff675d78f54763",
+   "old_wh": [
+    234,
+    221
+   ],
+   "new_wh": [
+    303,
+    288
+   ],
+   "old_bytes": 8104,
+   "new_bytes": 27877
+  },
+  {
+   "lib_img": "7069efcbb4b3c013fb943ef93dca9cc5e05df8a7f7b92038239bf06ef15f6125.jpg",
+   "card": "题-CM-79-08-8-1将下列化合物的碱性从强.md",
+   "kind": "a",
+   "site_img": "e34-p06-q08-02-ee767ecd2ff8.webp",
+   "score": 0.8576,
+   "old_sha256": "5ac81fbf996588518fa518e0449620d7ee233a76bf4ce5de8f07a506cc12d295",
+   "new_sha256": "3500919ca689c4bbe7a82c8f6935dd2bac757aac59b0341882e3bf74e675100d",
+   "old_wh": [
+    359,
+    168
+   ],
+   "new_wh": [
+    454,
+    218
+   ],
+   "old_bytes": 6146,
+   "new_bytes": 12314
+  },
+  {
+   "lib_img": "7119ba9b90038e0423a56cce5ab703e74639785a140435c8c82382009fa74207.jpg",
+   "card": "题-CM-124-06-6-1检验-氨基酸灵敏且最简.md",
+   "kind": "a",
+   "site_img": "e36-p18-a07-04-ca98e3c0c01a.webp",
+   "score": 0.98,
+   "old_sha256": "099aec203d851d4d0b2e2a7daaa96701e1ee7cc57ffa202916d785199c68f597",
+   "new_sha256": "ec4c9f8e37cbdd4d9b365780ee26db07c3d826658aa1b7e33961ac5966b1ec9c",
+   "old_wh": [
+    340,
+    198
+   ],
+   "new_wh": [
+    431,
+    254
+   ],
+   "old_bytes": 9150,
+   "new_bytes": 32541
+  },
+  {
+   "lib_img": "7395d8566846da6bdb3af6a3317f778b2b890812a328ceefc0222ba931fad8c3.jpg",
+   "card": "题-CM-77-02-2-1碲与氯形成的八面体能通.md",
+   "kind": "a",
+   "site_img": "e34-p04-q02-01-d53e8b00b5c9.webp",
+   "score": 0.924,
+   "old_sha256": "32c16cf855bf90677e8047560cd05b02f03cd391b7f6ef0d5a79179a6c75a8e9",
+   "new_sha256": "57e95918a3da9eef4dc0a3094d24ca503b412012843feb11dd33fa141c09eb51",
+   "old_wh": [
+    356,
+    181
+   ],
+   "new_wh": [
+    460,
+    236
+   ],
+   "old_bytes": 11263,
+   "new_bytes": 29736
+  },
+  {
+   "lib_img": "73e231666dae07a296618364590374744a8c1f836c03207ffed5f0253e2db446.jpg",
+   "card": "题-CM-85-04-4-1某种Ru的有机氯化物A.md",
+   "kind": "a",
+   "site_img": "e34-p12-q04-01-fe3387c11d3a.webp",
+   "score": 0.9622,
+   "old_sha256": "9c0cf35f68406e869bbd88cb61baddcab3269d14a6da0ba4055dfcd1dc32000e",
+   "new_sha256": "02e0455223673754a8916a10f29de121d95be26fc3d19a8bf5eb1378b14832c6",
+   "old_wh": [
+    370,
+    340
+   ],
+   "new_wh": [
+    459,
+    417
+   ],
+   "old_bytes": 12371,
+   "new_bytes": 21706
+  },
+  {
+   "lib_img": "746a97fa076c1b8cc33643200dfaa7008ff4ee665078daaed4631da238991fa3.jpg",
+   "card": "题-CM-106-01-1-1在C减压下丙二酸用脱水.md",
+   "kind": "a",
+   "site_img": "e35-p18-a01-04-ab70b03c69f9.webp",
+   "score": 0.977,
+   "old_sha256": "55d347bcf88dde21db42641891f50e0b4eba945813b1a2a2f1bf13a36af0949b",
+   "new_sha256": "aad219eaf136823131f1a4bb04c69a28febcbc495899ddae906526eaf91905c6",
+   "old_wh": [
+    334,
+    156
+   ],
+   "new_wh": [
+    418,
+    198
+   ],
+   "old_bytes": 7406,
+   "new_bytes": 25512
+  },
+  {
+   "lib_img": "74eda96bae4c6a619185d5eab6d3d304ccb27ef59320d50ff1d377ef4077482a.jpg",
+   "card": "题-CM-116-10-叠氮化合物具有一定程度的亲核.md",
+   "kind": "a",
+   "site_img": "e36-p02-q10-05-668fa70df061.webp",
+   "score": 0.9556,
+   "old_sha256": "b8acb0aafb0ef8df7b53fcbc7d8d3fb94a2246a02af7b3a171bda834de8f90ce",
+   "new_sha256": "d6947440b029a1008f5a4ee357e74b49b3f2e82ae1bc63c71063d809f339512a",
+   "old_wh": [
+    451,
+    164
+   ],
+   "new_wh": [
+    561,
+    196
+   ],
+   "old_bytes": 5920,
+   "new_bytes": 10968
+  },
+  {
+   "lib_img": "75d3cf1f08f2ef29fc7d992d3c69071d86f2780a13679964f5a40e998208e14d.jpg",
+   "card": "题-CM-106-08-将以下化合物在C加热10s发.md",
+   "kind": "q",
+   "site_img": "e35-p18-q08-01-76a8e59546c7.webp",
+   "score": 0.9328,
+   "old_sha256": "abcbc3a6141871d1c9e64266427b2e6d7dcb0ba007abdd6dcca16fd59381ad56",
+   "new_sha256": "62e4598ce7b250018912b3709eeecc69d4e5d773f30681ca9a59e3ad2481973e",
+   "old_wh": [
+    165,
+    110
+   ],
+   "new_wh": [
+    207,
+    141
+   ],
+   "old_bytes": 3036,
+   "new_bytes": 5666
+  },
+  {
+   "lib_img": "77eb12cf8dcde8c9cd2dd8b2b3ef4cea265600298cb4f609b87c917a70b46ae7.jpg",
+   "card": "题-CM-125-02-下图为酸性溶液中氮元素的La.md",
+   "kind": "q",
+   "site_img": "e36-p20-q02-02-8968bc1fa4e2.webp",
+   "score": 0.938,
+   "old_sha256": "bfa5bf6ccadd47055749e9f3fca30c9dbb10598a2b98d2f035c55df5dd08dfb9",
+   "new_sha256": "be8840dc75d0539b4d6be91bc57f534062931da65835583f91df774b1cdea5e1",
+   "old_wh": [
+    154,
+    256
+   ],
+   "new_wh": [
+    194,
+    321
+   ],
+   "old_bytes": 5380,
+   "new_bytes": 10156
+  },
+  {
+   "lib_img": "783ca4b9dd5afa3e7321d9b9c44d5d5ea9cb8540f6b253e5db716fc5c89a8ba5.jpg",
+   "card": "题-CM-109-06-利用配合物A可实现由向的转化.md",
+   "kind": "a",
+   "site_img": "e35-p22-a06-01-121680ae7323.webp",
+   "score": 0.9641,
+   "old_sha256": "59e0a0415a29ede3ed25e2ad4fe9371c219591d2905f278ca43fef66094f7aeb",
+   "new_sha256": "ecf7ef20f484516c9a0cf7ead255fe048339e4ccc5f0838245b9e9c53deb692a",
+   "old_wh": [
+    398,
+    139
+   ],
+   "new_wh": [
+    500,
+    173
+   ],
+   "old_bytes": 10230,
+   "new_bytes": 36661
+  },
+  {
+   "lib_img": "786fca8307de6013257eb63895a6db1a8fcb14d271e89321c0cb44d3fa9b34fb.jpg",
+   "card": "题-CM-119-07-7-1Sulflower是一.md",
+   "kind": "q",
+   "site_img": "e36-p06-q07-01-d5b7d2b5f90b.webp",
+   "score": 0.9697,
+   "old_sha256": "5aad79050b2857adb10d2ae7e7f46508afcc34817e4f51afe1b89999a9d3c967",
+   "new_sha256": "4f185b690318479f94d7e3de464764aba8c5b8906b424b3f0874aa64c0761287",
+   "old_wh": [
+    434,
+    223
+   ],
+   "new_wh": [
+    537,
+    281
+   ],
+   "old_bytes": 10790,
+   "new_bytes": 22977
+  },
+  {
+   "lib_img": "792852e0a2fb0748c8c1840d3aadaaec772532f9526ddf1345228892b7476875.jpg",
+   "card": "题-CM-111-09-有以下一种合成吡啶衍生物的方.md",
+   "kind": "a",
+   "site_img": "e35-p24-a09-04-66a86ef20ecd.webp",
+   "score": 0.9734,
+   "old_sha256": "7a322f05ca49f2f5616636e7c5d9fd3c768fb6e2568ad47b9a9c333dfe33b562",
+   "new_sha256": "a0fdb4fe29144fe299205806eba19394cac60b108046d187a05aa3ed981c85b3",
+   "old_wh": [
+    196,
+    237
+   ],
+   "new_wh": [
+    248,
+    296
+   ],
+   "old_bytes": 7938,
+   "new_bytes": 26629
+  },
+  {
+   "lib_img": "79abfee632ced3e1b152b9a9b705ecea5c8ef9af629a35918319ff5c9131d8a0.jpg",
+   "card": "题-CM-75-08-8-1将萘和硫酸混合加热至C.md",
+   "kind": "a",
+   "site_img": "e34-p02-q08-01-6d5e6de79e10.webp",
+   "score": 0.938,
+   "old_sha256": "8c299880d96a30f8f4da14a7fdaf2d347eb0c3216fef5ca0b8660e3f2f645ca8",
+   "new_sha256": "5e7c21dd5465d27ac16b2c440db96e81480d5d9109f6991af12d4aa8ecc8a028",
+   "old_wh": [
+    467,
+    148
+   ],
+   "new_wh": [
+    582,
+    183
+   ],
+   "old_bytes": 8195,
+   "new_bytes": 15513
+  },
+  {
+   "lib_img": "7bc4a9768a1bd31b5f9d251355ac05a57f6971b4cb31d2881f93848398e17aa5.jpg",
+   "card": "题-CM-172-10-腙在碘的作用下会生成重氮中间.md",
+   "kind": "a",
+   "site_img": "e38-p23-q10-04-3af303bcff13.webp",
+   "score": 0.9493,
+   "old_sha256": "548217aa0899f79d1b6aeedf6d5b23f545718cee27d70269fb3de1bbc90406da",
+   "new_sha256": "bc6f597d61722dba694fb50e74b022e4e65131ff670a79bfd3dfb4bac1d5bfa8",
+   "old_wh": [
+    412,
+    137
+   ],
+   "new_wh": [
+    513,
+    173
+   ],
+   "old_bytes": 7247,
+   "new_bytes": 13838
+  },
+  {
+   "lib_img": "7c1caec6975b95aeaadc885989497bbf4c7131430758fe4119e08c481fb3edc7.jpg",
+   "card": "题-CM-109-03-蒎烯Pinene是一类含量丰.md",
+   "kind": "a",
+   "site_img": "e35-p22-a03-01-28e00a075de0.webp",
+   "score": 0.9201,
+   "old_sha256": "58e7faabbbdae8f256efdf23a7b8b9156147ed370e10d6679264d6899414afb9",
+   "new_sha256": "434afdc3f9feeeedeab5bbedeb00b7eef03dea79f9f09da5e3c5b56d3f029d5c",
+   "old_wh": [
+    245,
+    139
+   ],
+   "new_wh": [
+    303,
+    164
+   ],
+   "old_bytes": 5817,
+   "new_bytes": 15303
+  },
+  {
+   "lib_img": "7c402740436882d9d27ada6624e187a07669e84c93809818bcf8fde56d4864c3.jpg",
+   "card": "题-CM-106-08-将以下化合物在C加热10s发.md",
+   "kind": "a",
+   "site_img": "e35-p18-q08-01-76a8e59546c7.webp",
+   "score": 0.9227,
+   "old_sha256": "ee838ccfddb01072bd13a039de7d4e39c8edb822eaa78992e6a3f90b158dff40",
+   "new_sha256": "62e4598ce7b250018912b3709eeecc69d4e5d773f30681ca9a59e3ad2481973e",
+   "old_wh": [
+    168,
+    112
+   ],
+   "new_wh": [
+    207,
+    141
+   ],
+   "old_bytes": 3003,
+   "new_bytes": 5666
+  },
+  {
+   "lib_img": "7d8b7516e027c00020a18eacb4073c18eb868fd2f715053cf39af14c09300271.jpg",
+   "card": "题-CM-167-08-8-1若想专一性制备以下烯烃.md",
+   "kind": "a",
+   "site_img": "e38-p17-q08-04-e916a7aa6570.webp",
+   "score": 0.9577,
+   "old_sha256": "05071fecea3d48c3dbfb3aed11d34e63ed01c4a6bc07e3ec6de189afd5ce85cc",
+   "new_sha256": "d68c954c3fd33fe23fd1efaec17356a29bf4deae39a9fe35f57b191dc8054d65",
+   "old_wh": [
+    370,
+    106
+   ],
+   "new_wh": [
+    446,
+    136
+   ],
+   "old_bytes": 4977,
+   "new_bytes": 8785
+  },
+  {
+   "lib_img": "7ec80ce4d38cd33ea24ea181c301588a4c625541c1f738dbf36d7605e6753da5.jpg",
+   "card": "题-CM-140-05-由于其金属-金属键的独特性质.md",
+   "kind": "q",
+   "site_img": "e37-p11-q05-01-ce14e2ca3f92.webp",
+   "score": 0.9519,
+   "old_sha256": "f08119b996623af655bf7914cab62e404e3a034646de61463342db15414499f3",
+   "new_sha256": "0bac8d0f6a93fe11f86dfd76c03e24176ac34155553bb36545e6ba74a7c55011",
+   "old_wh": [
+    459,
+    151
+   ],
+   "new_wh": [
+    573,
+    192
+   ],
+   "old_bytes": 7925,
+   "new_bytes": 15688
+  },
+  {
+   "lib_img": "815b4aae69cefa76dcfaad3f104d14d2b4015113717263ad1fe2589fd040747f.jpg",
+   "card": "题-CM-80-08-在高纯氮气氛围下向烷基锂引发.md",
+   "kind": "a",
+   "site_img": "e34-p07-q08-02-25b32d3f7a53.webp",
+   "score": 0.992,
+   "old_sha256": "d31c0178c17d2b0ebecd4921409e7a0bc6886b378f78d3e98588e223500e9818",
+   "new_sha256": "b6a6d8064025bdb35163de8b7f49989b2433ee662d31579e16f9c79310a73cd3",
+   "old_wh": [
+    287,
+    268
+   ],
+   "new_wh": [
+    365,
+    338
+   ],
+   "old_bytes": 7107,
+   "new_bytes": 22643
+  },
+  {
+   "lib_img": "819ba1b8545515f4bfb5d53add7a0698025c910cf018307846a3778a4b3e8cda.jpg",
+   "card": "题-CM-127-09-有机催化或称为小分子催化这一.md",
+   "kind": "q",
+   "site_img": "e36-p22-q09-02-95c02b01acbc.webp",
+   "score": 0.9675,
+   "old_sha256": "941fa55a1cd90e26a110f52f91a55aa45237d67818caf01a68a412078a4c983a",
+   "new_sha256": "b693e682844ef943251a4be1080a8dd9fc6bce746e5cdd59fd188b0f4007f973",
+   "old_wh": [
+    393,
+    121
+   ],
+   "new_wh": [
+    491,
+    155
+   ],
+   "old_bytes": 6811,
+   "new_bytes": 13678
+  },
+  {
+   "lib_img": "821c8f59a57b75202d86bf427072feb84b1961f1ce159e2e62709e68a096b7ff.jpg",
+   "card": "题-CM-68-05-将水合盐置于流动的氧气氛中加.md",
+   "kind": "a",
+   "site_img": "e33-p08-q05-01-ccd74102c46f.webp",
+   "score": 0.8924,
+   "old_sha256": "90944db1c110b567dac45beb1b5cc29425e988d21cfe9c11b545e977d3985260",
+   "new_sha256": "932f087b732a40e5d5bb4e738764a03c027fc5d942bcfd79ed9c8655de6bd812",
+   "old_wh": [
+    404,
+    301
+   ],
+   "new_wh": [
+    518,
+    382
+   ],
+   "old_bytes": 7957,
+   "new_bytes": 18263
+  },
+  {
+   "lib_img": "8457b37eda8931b192e80fea72b56accd6800fcb8bc4d8fad3f5eaf3cad0b642.jpg",
+   "card": "题-CM-142-09-惰性键的活化是目前有机化学界.md",
+   "kind": "q",
+   "site_img": "e37-p14-q09-03-b36346460d8c.webp",
+   "score": 0.9683,
+   "old_sha256": "0462784e42819418346471508c0ccab37ea0df24cf991e78040dbd0b93efc78a",
+   "new_sha256": "28f9791cb236ec10c83507f246ae5a7b123079dab882e9b2a9791397d4aefa17",
+   "old_wh": [
+    487,
+    226
+   ],
+   "new_wh": [
+    611,
+    282
+   ],
+   "old_bytes": 11660,
+   "new_bytes": 22440
+  },
+  {
+   "lib_img": "847ea2891bd534951672b3d94e79e691969a0e9348da3d1c93171d15b111fe51.jpg",
+   "card": "题-CM-113-05-酰胺由于存在具有较高的稳定性.md",
+   "kind": "a",
+   "site_img": "e35-p26-q05-04-e102c1e4f0f2.webp",
+   "score": 0.9495,
+   "old_sha256": "91262f3c3fc8971c19ac6a1549ab6a2f43f62604a3a4edbeda16fbc5ece9c3ca",
+   "new_sha256": "17f0888c16283b43beac1c84a94f19a80c7ba386a0a914a73da96fac2f1369ff",
+   "old_wh": [
+    237,
+    176
+   ],
+   "new_wh": [
+    294,
+    224
+   ],
+   "old_bytes": 4840,
+   "new_bytes": 9380
+  },
+  {
+   "lib_img": "85ea6ae876a649e5406993585c4fbd751f0d30d0fbab69f0e81f1ff4c9ff6df8.jpg",
+   "card": "题-CM-149-01-肝脏缺血再灌注损伤hepat.md",
+   "kind": "q",
+   "site_img": "e37-p25-q01-02-5f4ee89743d3.webp",
+   "score": 0.9481,
+   "old_sha256": "a3d888e6bd3d791faa88fa1dee667121afa7daac1b42d9495e628d84d78730a0",
+   "new_sha256": "f611a0bcdb4fb7b947111eaa24b39cd7d3291cf8459d9ca2c797e2393d79dabc",
+   "old_wh": [
+    462,
+    154
+   ],
+   "new_wh": [
+    569,
+    185
+   ],
+   "old_bytes": 10191,
+   "new_bytes": 15948
+  },
+  {
+   "lib_img": "8660157a1855647d24112141fcf7be4e65dcdb6401e6e462c2e164c27f379beb.jpg",
+   "card": "题-CM-109-11-在室温以及碱存在下以下两化合.md",
+   "kind": "q",
+   "site_img": "e35-p22-q11-03-d288f98d71d5.webp",
+   "score": 0.8995,
+   "old_sha256": "996b8cb105bcc2bd1df3289ced899f5be46c5bc89107d69d688b09413b830c07",
+   "new_sha256": "4a2ecefa824a286151ed8dab540385e8425e12a9a31e016839a7c199c5fe2c93",
+   "old_wh": [
+    193,
+    87
+   ],
+   "new_wh": [
+    240,
+    115
+   ],
+   "old_bytes": 3683,
+   "new_bytes": 6977
+  },
+  {
+   "lib_img": "876304b386da23737e7d2b764cb99c369876adf4b480e141fbb499355621aa70.jpg",
+   "card": "题-CM-106-01-1-1在C减压下丙二酸用脱水.md",
+   "kind": "a",
+   "site_img": "e35-p18-a01-03-846e69ae142e.webp",
+   "score": 0.9719,
+   "old_sha256": "cca8acf12ddf15ea2a6afc19c0540116566bac70afffb18105365fdb4be40073",
+   "new_sha256": "c66b12e3a85a8115df5185ef5d229b4c29bc9993fa453c0177e211842f25d0f4",
+   "old_wh": [
+    440,
+    276
+   ],
+   "new_wh": [
+    550,
+    345
+   ],
+   "old_bytes": 14775,
+   "new_bytes": 50274
+  },
+  {
+   "lib_img": "87adabec603d0fe086c2c0dd169307c20f78bdae02e762ab6fdf2f3d52b16da3.jpg",
+   "card": "题-CM-110-08-8-1海人草酸XKainic.md",
+   "kind": "q",
+   "site_img": "e35-p23-q08-03-c7d4893bb211.webp",
+   "score": 0.9518,
+   "old_sha256": "39c776d4ffc68ed1e77b9f2e5b7d588ce3620f7bc1143163a1bd26ac8059bd6e",
+   "new_sha256": "dc1beceeb7a9db0e924727dfb58583151f1d8a4817ac2e6fcda57cbe2fb98e12",
+   "old_wh": [
+    287,
+    284
+   ],
+   "new_wh": [
+    362,
+    360
+   ],
+   "old_bytes": 9067,
+   "new_bytes": 19953
+  },
+  {
+   "lib_img": "880625199ffd74d47445588292d8634b416232a3f450d64924ab5fe7b612fdf1.jpg",
+   "card": "题-CM-129-06-6-1如下图所示在金属M的氧.md",
+   "kind": "a",
+   "site_img": "e36-p25-q06-02-a800fd0128d0.webp",
+   "score": 0.9707,
+   "old_sha256": "9063527a8f0f9e4d6c59656044f053078cf0a5cff58242081078c32ebd835570",
+   "new_sha256": "9eb58ecfb7ab35117d0bb487f904e2d36241425dbbe6ac7c62b3373bff51137f",
+   "old_wh": [
+    320,
+    323
+   ],
+   "new_wh": [
+    404,
+    413
+   ],
+   "old_bytes": 10353,
+   "new_bytes": 26773
+  },
+  {
+   "lib_img": "88b644810edb891f2d6a14cafe8d0783f726015bdb11cd135df27b1be1fc528b.jpg",
+   "card": "题-CM-169-03-众所周知在第34届初赛中出现.md",
+   "kind": "a",
+   "site_img": "e38-p20-a03-02-c35a11f25ccd.webp",
+   "score": 0.9763,
+   "old_sha256": "005c2bbbaed4b3503dd4193e79cb54084e9e3191f90ac8695c9ec576fadba4be",
+   "new_sha256": "7fde141eb89ab889f96d2f1f79aa7bd8d5ff59f8299e557976d6c3c38531782f",
+   "old_wh": [
+    329,
+    362
+   ],
+   "new_wh": [
+    414,
+    461
+   ],
+   "old_bytes": 18843,
+   "new_bytes": 74365
+  },
+  {
+   "lib_img": "8a6d5ad058ec34f23b0f479b82424c1386ed4146875ed0d1376f57150182116a.jpg",
+   "card": "题-CM-127-01-CO是配合物中的常见配体18.md",
+   "kind": "q",
+   "site_img": "e36-p22-q01-07-bcdecabfad16.webp",
+   "score": 0.9019,
+   "old_sha256": "ae162590de44b0bf15d69d5f8d966848995e37763078cc7fb340c4a5bdcb9141",
+   "new_sha256": "4a166f7c6164e12b0ff2f67ef9b6d00dde1ad155e99f8806d3bdef3f5ea27157",
+   "old_wh": [
+    306,
+    192
+   ],
+   "new_wh": [
+    379,
+    245
+   ],
+   "old_bytes": 7278,
+   "new_bytes": 15295
+  },
+  {
+   "lib_img": "8b25479e0672537949300e89bfe954035c56d63a7bd36287f758777bd9e949c0.jpg",
+   "card": "题-CM-78-06-以氧化随后将固体真空脱气处理.md",
+   "kind": "q",
+   "site_img": "e34-p05-q06-01-c8cad8eaf2d7.webp",
+   "score": 0.9477,
+   "old_sha256": "bbd5715255e10e1b200b87de06c391cd0bf53bf699da8ce4bcd512e86a1069ae",
+   "new_sha256": "074c70f97b63de0f1d4bad2840ecc2ebb3945ebd7e2614add6579c22cafd7b04",
+   "old_wh": [
+    376,
+    376
+   ],
+   "new_wh": [
+    479,
+    480
+   ],
+   "old_bytes": 9218,
+   "new_bytes": 18214
+  },
+  {
+   "lib_img": "8b4f1c4f6f7de2bc8a85c9c3bbabac02081d093c1d1a2d892b66ca611854c115.jpg",
+   "card": "题-CM-109-03-蒎烯Pinene是一类含量丰.md",
+   "kind": "a",
+   "site_img": "e35-p22-a03-02-95f8779dab0f.webp",
+   "score": 0.9266,
+   "old_sha256": "eda6df1ead04f11a4ab27944139d92b231d140986f765d5a7137f5d02a828fe1",
+   "new_sha256": "1d8470a442ac590fb68032ef31d86988c90ee5b739385add43bc036516927f6c",
+   "old_wh": [
+    198,
+    118
+   ],
+   "new_wh": [
+    252,
+    152
+   ],
+   "old_bytes": 5038,
+   "new_bytes": 16576
+  },
+  {
+   "lib_img": "8bb6682b33d99662111a11966961dd19a1ef2a5412a3aa33c5c42207f5b78d12.jpg",
+   "card": "题-CM-116-10-叠氮化合物具有一定程度的亲核.md",
+   "kind": "a",
+   "site_img": "e36-p02-q10-03-4fd71404d0d6.webp",
+   "score": 0.9543,
+   "old_sha256": "0a2430ca6e3fb4ce07b718e2c3ecfecc3943ea20e6390af3aec88cab29fa8c5f",
+   "new_sha256": "da05c813c6b4d95ae17cd802ce515040745a4654366e48305a1896316372af84",
+   "old_wh": [
+    437,
+    84
+   ],
+   "new_wh": [
+    536,
+    99
+   ],
+   "old_bytes": 5938,
+   "new_bytes": 11301
+  },
+  {
+   "lib_img": "8be1e8237e6504f168b38f15518218f804e5264b14f87884a601cb1c98da31fb.jpg",
+   "card": "题-CM-100-10-Pummerer重排通常是指.md",
+   "kind": "q",
+   "site_img": "e35-p11-q10-02-bf04006ea88c.webp",
+   "score": 0.9065,
+   "old_sha256": "1a4b91dd35c66c4feaf5975be6186372bcbe24a1b38eed08334a3b9617dad669",
+   "new_sha256": "5e1a0b6933ecff9b961eb61c5a94415bb74ecc2292b36712221ef7b342119528",
+   "old_wh": [
+    471,
+    207
+   ],
+   "new_wh": [
+    588,
+    269
+   ],
+   "old_bytes": 10711,
+   "new_bytes": 21938
+  },
+  {
+   "lib_img": "8c9d7afe65329fc8999b1a9ae1c332faec967f0eb87dff9df105d36cc4471641.jpg",
+   "card": "题-CM-84-09-已知如下反应.md",
+   "kind": "a",
+   "site_img": "e34-p11-q09-01-686d67b88832.webp",
+   "score": 0.9284,
+   "old_sha256": "20fa139b65cc3171aca42c8f7fb4604940fe9b58eefc997fddde89ec5d6037bf",
+   "new_sha256": "530016ba3ecd9c82bc09249ca5aa5cc3c76198b63a10496a1337b38817894abc",
+   "old_wh": [
+    415,
+    140
+   ],
+   "new_wh": [
+    516,
+    183
+   ],
+   "old_bytes": 8169,
+   "new_bytes": 16557
+  },
+  {
+   "lib_img": "8d19173449932c91239045f0d10c042618cae250c6170e9dc467e788d9204a76.jpg",
+   "card": "题-CM-169-08-8-1叔膦是一种有机化学中常.md",
+   "kind": "a",
+   "site_img": "e38-p20-a08-06-c1f54a3a927b.webp",
+   "score": 0.9236,
+   "old_sha256": "fcf471ca5e76b1d32a6346f06eacb88b562ebc4435b5d6ccf2c01681088b9f84",
+   "new_sha256": "01a277c0e2185e96d686f914b4742b81f17d0be6db8f5ef790fffc5714e75197",
+   "old_wh": [
+    234,
+    165
+   ],
+   "new_wh": [
+    293,
+    212
+   ],
+   "old_bytes": 6937,
+   "new_bytes": 24807
+  },
+  {
+   "lib_img": "8dbeb9fbd45726173d9c1019638086f5bdc82ebd0f5adb2684821c5bce0bd254.jpg",
+   "card": "题-CM-150-08-8-1人们发现了以下的甲基迁.md",
+   "kind": "q",
+   "site_img": "e37-p27-q08-02-76a16a6f4740.webp",
+   "score": 0.9734,
+   "old_sha256": "6d5c3157fa33182396f4798c08a3febf6f759162ea0b65e1b10ec0579c248b84",
+   "new_sha256": "c68ec659811faa47ceba9ed57c85db16277942ddc027ad2f5afce19b729ca831",
+   "old_wh": [
+    501,
+    182
+   ],
+   "new_wh": [
+    628,
+    232
+   ],
+   "old_bytes": 11017,
+   "new_bytes": 23023
+  },
+  {
+   "lib_img": "8e3c435bf7f6a0a27236e2c162cffeb8edf5653e510059b1577a22ad31f27ce5.jpg",
+   "card": "题-CM-106-09-多米诺苯炔是一种高活性的有机.md",
+   "kind": "a",
+   "site_img": "e35-p18-a09-03-d168d16d3642.webp",
+   "score": 0.935,
+   "old_sha256": "7647b9ef67be38e0c2326bfe95af6afab532a24e3a7786e07ceb6367028b4720",
+   "new_sha256": "d9e0bc0606f43744ab2c907211d0069979725b019060cd2e6f852a6b9e3fcf6e",
+   "old_wh": [
+    212,
+    145
+   ],
+   "new_wh": [
+    263,
+    185
+   ],
+   "old_bytes": 4907,
+   "new_bytes": 16043
+  },
+  {
+   "lib_img": "8fa6840387cfb00e08c3f5a7e924b631913d772b57e9b418162796cb454beecb.jpg",
+   "card": "题-CM-80-07-在主-客体化学中为提高主体分.md",
+   "kind": "q",
+   "site_img": "e34-p07-q07-02-66bd71f50ec9.webp",
+   "score": 0.9852,
+   "old_sha256": "0ef494ca1bb98123cfe15ea79d69bdc6e6a1110a7ef7763d49999197dddb7332",
+   "new_sha256": "fcbdd55658757f546fe5b060801151cbf5357cde1ca7657807b31272d54b328f",
+   "old_wh": [
+    365,
+    371
+   ],
+   "new_wh": [
+    460,
+    473
+   ],
+   "old_bytes": 14788,
+   "new_bytes": 36720
+  },
+  {
+   "lib_img": "8fe53713e5776649c4f23fb358c86771cf18858ce1ba86b5e404a31d8df40842.jpg",
+   "card": "题-CM-89-07-烯丙醇的选择性氧化非常有趣.md",
+   "kind": "q",
+   "site_img": "e34-p16-q07-02-b79b93c89451.webp",
+   "score": 0.914,
+   "old_sha256": "0d560903c4b3a582d187daa6529298e2d2fab82adc0159ca800bb6b4125bc675",
+   "new_sha256": "8c98ac573cb9dd3ff1f2a2b4acec8fa6224643fd8c4a7fcf2efa542be08292b3",
+   "old_wh": [
+    140,
+    90
+   ],
+   "new_wh": [
+    177,
+    116
+   ],
+   "old_bytes": 2521,
+   "new_bytes": 4266
+  },
+  {
+   "lib_img": "920793ae55563fd2fb669ecadc552a8ff4ee791cf20a3fd5d1630063a847b693.jpg",
+   "card": "题-CM-151-05-2021年英国曼彻斯特大学一.md",
+   "kind": "a",
+   "site_img": "e37-p28-q05-02-684d790148d0.webp",
+   "score": 0.94,
+   "old_sha256": "d8a53d32253c6dc08168f247d451b803d92aa44cb5df3659479f34de722835b1",
+   "new_sha256": "41ec96caa3f8fc627603cbeef3bb454de5b35e232a24bab008db91ecd2e2e6fd",
+   "old_wh": [
+    373,
+    165
+   ],
+   "new_wh": [
+    545,
+    251
+   ],
+   "old_bytes": 6625,
+   "new_bytes": 17191
+  },
+  {
+   "lib_img": "936f71c2e903b9e5869aaa582c06ee1c0f48fad68601057e260b624e29310ede.jpg",
+   "card": "题-CM-173-05-稀土元素是钪钇镧系元素共17.md",
+   "kind": "a",
+   "site_img": "e38-p24-q05-01-e1e82ef73dad.webp",
+   "score": 0.9791,
+   "old_sha256": "7ac9e1f40e750116176d25d35357238233ffb5fcac0bf75b6403f222dd0d30a2",
+   "new_sha256": "499ab31d8ed3c40802265f6744cdcad3532b04f47708712cf4e9e9fee3442631",
+   "old_wh": [
+    290,
+    259
+   ],
+   "new_wh": [
+    368,
+    326
+   ],
+   "old_bytes": 12072,
+   "new_bytes": 24671
+  },
+  {
+   "lib_img": "937d031c26111cf0f0f674359fbab4ec7eb080a0f37c8aa3f2ed057bdb26bb95.jpg",
+   "card": "题-CM-155-09-很多重排反应是类似的.md",
+   "kind": "a",
+   "site_img": "e38-p03-q09-01-6b51b78d49cc.webp",
+   "score": 0.9791,
+   "old_sha256": "b2c7de4c935d1ee4a8e45656a78a1ef451a27a47948b435ab4f108cfb5dff12a",
+   "new_sha256": "c4953a58a6c2cbc1967db9ea80ad76c44eea44d2672f596a4873fae9f4c4f625",
+   "old_wh": [
+    403,
+    190
+   ],
+   "new_wh": [
+    504,
+    236
+   ],
+   "old_bytes": 7353,
+   "new_bytes": 13579
+  },
+  {
+   "lib_img": "93b712e699f99bbc448597531af72a9f20958ead9ccc6c2f359632b53151f65b.jpg",
+   "card": "题-CM-100-10-Pummerer重排通常是指.md",
+   "kind": "a",
+   "site_img": "e35-p11-q10-03-f433cf6f9446.webp",
+   "score": 0.9772,
+   "old_sha256": "ff6834046dbab1bd430a9b6e93d28b33cbbf6591c3a2287006cb427af3ca636f",
+   "new_sha256": "791f3d1d8738387fa6a343e43bb6be2598e8563db7b292f519f80404411b523f",
+   "old_wh": [
+    448,
+    191
+   ],
+   "new_wh": [
+    563,
+    242
+   ],
+   "old_bytes": 10956,
+   "new_bytes": 22741
+  },
+  {
+   "lib_img": "940fc74549d2c0bae6cea82cc08f20e06b7a5bd56f66c3f779df357e0d2dd999.jpg",
+   "card": "题-CM-113-02-五氘代吡啶作答时可直接用py.md",
+   "kind": "a",
+   "site_img": "e35-p26-q02-06-df54f5b5e087.webp",
+   "score": 0.9785,
+   "old_sha256": "e93012e0e6cca188b817a77f69094df79e7b227feb0c2ca24614f4f1a67fb48d",
+   "new_sha256": "99648b10cf4d1366098a07ae63d2234263873005e423a2f8aada3cfd71fa8207",
+   "old_wh": [
+    487,
+    401
+   ],
+   "new_wh": [
+    613,
+    508
+   ],
+   "old_bytes": 11599,
+   "new_bytes": 23421
+  },
+  {
+   "lib_img": "948723b10beb3e224a4cb36615d372a6f943c512da4a4854f772fb8c8c9b3ace.jpg",
+   "card": "题-CM-119-07-7-1Sulflower是一.md",
+   "kind": "a",
+   "site_img": "e36-p06-q07-01-d5b7d2b5f90b.webp",
+   "score": 0.9536,
+   "old_sha256": "2746b4e73d3c74fee0bc8af56fbc9937178cfdcd1c2cf043dae29a4099af0c95",
+   "new_sha256": "4f185b690318479f94d7e3de464764aba8c5b8906b424b3f0874aa64c0761287",
+   "old_wh": [
+    431,
+    223
+   ],
+   "new_wh": [
+    537,
+    281
+   ],
+   "old_bytes": 10929,
+   "new_bytes": 22977
+  },
+  {
+   "lib_img": "94b085f574543484ac937ce91e2ac15f5c99875da949c3eabc90c4180f1d7edb.jpg",
+   "card": "题-CM-125-05-将不含结晶水的不溶性无色盐A.md",
+   "kind": "q",
+   "site_img": "e36-p20-q05-01-b8194622f5c2.webp",
+   "score": 0.9841,
+   "old_sha256": "1dd65309f3f80825eb605a91a15715be0cf88ae4d69f0670890394f3627fbbcd",
+   "new_sha256": "ed86df931f1cbab01183bcb147ba234dbb8795dab92abfb5f6af3b7580acdbbe",
+   "old_wh": [
+    489,
+    667
+   ],
+   "new_wh": [
+    620,
+    835
+   ],
+   "old_bytes": 17913,
+   "new_bytes": 40501
+  },
+  {
+   "lib_img": "97984be1a0dac3b53f175a4731dd60edef4429e08d76c9ea89bf11b3b0908bda.jpg",
+   "card": "题-CM-103-06-金属M与卟啉配体结构如下所示.md",
+   "kind": "a",
+   "site_img": "e35-p15-q06-01-fbc68d669bdc.webp",
+   "score": 0.9304,
+   "old_sha256": "515d487b5cd18d2ebc9b1e219a43648d5532737740ced343c31aada8985a771e",
+   "new_sha256": "22f1329830f36f37297b4578bb5adec9c0051a3e31feeaef989801d9718e1d40",
+   "old_wh": [
+    279,
+    282
+   ],
+   "new_wh": [
+    353,
+    355
+   ],
+   "old_bytes": 9817,
+   "new_bytes": 21615
+  },
+  {
+   "lib_img": "97c5e462045553b8f519db886e8c319db6b232cfbd6da8eec91c552a4cb2b010.jpg",
+   "card": "题-CM-170-10-10-1在超酸介质中往往会发.md",
+   "kind": "a",
+   "site_img": "e38-p21-a10-01-110ab032eb93.webp",
+   "score": 0.9667,
+   "old_sha256": "826235b58477e42aa34d724ef13703f4ecdb9d67b355b0444eaa3e5de78b8c87",
+   "new_sha256": "37d8664de5638d11e0df96ad8c2f39df41b51b7dedbc72bd489dc30d72728b91",
+   "old_wh": [
+    273,
+    187
+   ],
+   "new_wh": [
+    334,
+    246
+   ],
+   "old_bytes": 6482,
+   "new_bytes": 22779
+  },
+  {
+   "lib_img": "98c704691ac167bc201673378a69b7a27f2b49988220c309ad6d0c7b847643ae.jpg",
+   "card": "题-CM-106-09-多米诺苯炔是一种高活性的有机.md",
+   "kind": "a",
+   "site_img": "e35-p18-a09-04-dba63ac0e032.webp",
+   "score": 0.9202,
+   "old_sha256": "39497b752fcf38af8d7546272752d18f9161a5e2827b0f3efd1ba76a5fc57734",
+   "new_sha256": "84b37363d5b217058e7fdf4df5d4c61b1cc67806598c493a5f4c3037f1c1cf32",
+   "old_wh": [
+    98,
+    140
+   ],
+   "new_wh": [
+    114,
+    181
+   ],
+   "old_bytes": 3378,
+   "new_bytes": 10055
+  },
+  {
+   "lib_img": "9997a8662089ae4edd0b92429d83949102d4773040fe80705b5897daae04894c.jpg",
+   "card": "题-CM-101-10-亚砜类化合物作为氧化剂时具有.md",
+   "kind": "a",
+   "site_img": "e35-p12-a10-02-f19aa8c83bc1.webp",
+   "score": 0.9414,
+   "old_sha256": "35cc45b08f010e9f3c8a4b3fef1f541dfac9bd719df81ebabcfc8af6d20be076",
+   "new_sha256": "8314986eb03d2d07c5b9556394a90c136ab4a84c221350cc4ed4edc60553d709",
+   "old_wh": [
+    148,
+    117
+   ],
+   "new_wh": [
+    179,
+    150
+   ],
+   "old_bytes": 3548,
+   "new_bytes": 10889
+  },
+  {
+   "lib_img": "9c39043ae8b19c7c7d484e861c54d75af3e1cd9638d1955cfcc43e820b5c85fd.jpg",
+   "card": "题-CM-169-08-8-1叔膦是一种有机化学中常.md",
+   "kind": "a",
+   "site_img": "e38-p20-a08-03-55baf8d3c308.webp",
+   "score": 0.952,
+   "old_sha256": "1a9dd7dcdc3164b9f3d59f55ac278f3da4e7c84dd0bd84040a2d6a71fe21ca23",
+   "new_sha256": "137dea24f838ca64ec8cb5fc6752e68ad5df6315c72a29ec579f2c10e744bfd0",
+   "old_wh": [
+    190,
+    131
+   ],
+   "new_wh": [
+    225,
+    165
+   ],
+   "old_bytes": 4528,
+   "new_bytes": 14050
+  },
+  {
+   "lib_img": "9c3aa7e6aa4777e926eb766ae3c6b0cb2dc105fe027cb17dae8ca2a16bd97f32.jpg",
+   "card": "题-CM-98-08-8-1以下化合物在醋酸溶剂中.md",
+   "kind": "a",
+   "site_img": "e35-p09-q08-02-c47d8db200af.webp",
+   "score": 0.8658,
+   "old_sha256": "58efdd0c924ba42598b3e6401b5b5d2eef00a2e0270cd8ddcf56ee226499d8be",
+   "new_sha256": "185bb24102b6ac338252ec28581321688e288628b68dc25eefa3ce2dbaca4184",
+   "old_wh": [
+    159,
+    98
+   ],
+   "new_wh": [
+    198,
+    125
+   ],
+   "old_bytes": 3080,
+   "new_bytes": 5260
+  },
+  {
+   "lib_img": "9ede24186f7fba699ffe91b734e0d024f90c72457d447f2b23eaa5320202f462.jpg",
+   "card": "题-CM-60-04-电石高温下与反应得到化合物A.md",
+   "kind": "q",
+   "site_img": "e32-p12-q04-01-83d7a7876c3a.webp",
+   "score": 0.9732,
+   "old_sha256": "b935e35c0bf1b8d0ff5c1e38be24413649d1680e074f749817eb6990e3c41bab",
+   "new_sha256": "64f9c0aed7ea5ee9121ee811ef95be4eef8af3ec653646e35db56a80347eb718",
+   "old_wh": [
+    498,
+    129
+   ],
+   "new_wh": [
+    625,
+    168
+   ],
+   "old_bytes": 8648,
+   "new_bytes": 15477
+  },
+  {
+   "lib_img": "9f5fac68adeb44b0fe864e06bdbf30b98bdcde33887ba8976f6ef1de8a734504.jpg",
+   "card": "题-CM-137-08-2022年科学家报道了一种合.md",
+   "kind": "q",
+   "site_img": "e37-p04-q08-03-61a8fb7e0040.webp",
+   "score": 0.9459,
+   "old_sha256": "74206ec4310f8d3dc62229289f3001e95b9473cb2ff389e5edd4bd754682e935",
+   "new_sha256": "fdb418571960f50f2fbc4fb632b6f2c973acfe695ce2f75a1ac803f222642dff",
+   "old_wh": [
+    209,
+    121
+   ],
+   "new_wh": [
+    257,
+    144
+   ],
+   "old_bytes": 5210,
+   "new_bytes": 8411
+  },
+  {
+   "lib_img": "9f7a35c633077b2f309989a0e258fe05e6acf372a86cfd3e7902348ceb4b287f.jpg",
+   "card": "题-CM-96-09-有以下合成路线.md",
+   "kind": "a",
+   "site_img": "e35-p07-q10-04-ae3ad1817d8a.webp",
+   "score": 0.9567,
+   "old_sha256": "d2d34a0756e3a50041d56364dbf9b46307805e840574c47643a6ed441eb1b701",
+   "new_sha256": "9e5901a1ec522942bcfcf782d23a861fd413bb3d9e87f8240055b9c65a81ad3e",
+   "old_wh": [
+    460,
+    209
+   ],
+   "new_wh": [
+    578,
+    265
+   ],
+   "old_bytes": 9905,
+   "new_bytes": 19183
+  },
+  {
+   "lib_img": "9fb47dbc599ed6e83e98076434dec12c28b12279b31662018fbda7d3fdcf3ab9.jpg",
+   "card": "题-CM-84-08-8-1判断下列化合物是否具有.md",
+   "kind": "q",
+   "site_img": "e34-p11-q08-03-30e3f51ce0c4.webp",
+   "score": 0.9732,
+   "old_sha256": "2400ea62bf05d56cd3fa82f7b8e58c0bc6076271aed9121932606cb2cd033c36",
+   "new_sha256": "dda0f71a6f41a6360b5b7e65947a28adc0814ec89806bd20fa7eb948f20c8d44",
+   "old_wh": [
+    476,
+    142
+   ],
+   "new_wh": [
+    590,
+    181
+   ],
+   "old_bytes": 6999,
+   "new_bytes": 13905
+  },
+  {
+   "lib_img": "9ff256253aedd7928ec503e91c009e7cbc91ef04a9b22578b36951e12a09f637.jpg",
+   "card": "题-CM-123-10-奠是萘的同分异构体奠环体系的.md",
+   "kind": "q",
+   "site_img": "e36-p17-q10-02-27b245c7a1bd.webp",
+   "score": 0.922,
+   "old_sha256": "f0bc8a3e4733991ceef98db7f46f2baf2183ce5677a9d390636cf97236e514f9",
+   "new_sha256": "0408b1bfbca68cdbae62004407be647aa509160b87bf98a16a0ddc5b72e0feef",
+   "old_wh": [
+    493,
+    103
+   ],
+   "new_wh": [
+    613,
+    134
+   ],
+   "old_bytes": 7762,
+   "new_bytes": 15622
+  },
+  {
+   "lib_img": "a06afad496eb91260469ae7f1a6b049b77c83d4c84950658c1e3256b661ecc0f.jpg",
+   "card": "题-CM-170-10-10-1在超酸介质中往往会发.md",
+   "kind": "a",
+   "site_img": "e38-p21-a10-02-e7c72d227bd6.webp",
+   "score": 0.9512,
+   "old_sha256": "685be61fc233b982d810e56bbecd25942d950a73cf7b54a336733a1bb0752dee",
+   "new_sha256": "53d639b5b957c12edc4547465ab7d58606dcd30dd7fd1db6ed517643fd65a5a1",
+   "old_wh": [
+    312,
+    212
+   ],
+   "new_wh": [
+    384,
+    277
+   ],
+   "old_bytes": 8991,
+   "new_bytes": 32882
+  },
+  {
+   "lib_img": "a0de3e03be75c9516b2fc24026336d2a95cadfbd94c9ff7cae0f7a5723579685.jpg",
+   "card": "题-CM-158-12-12-1已知A的化学式为画出.md",
+   "kind": "a",
+   "site_img": "e38-p06-q12-02-80894e595049.webp",
+   "score": 0.9746,
+   "old_sha256": "ffbe74417e88bcbc7dd199c9e9e1bbbb8ae316d5776a9adaeeb43b7f494c8ce2",
+   "new_sha256": "6c6a1f44681808a6f9cd7a1745fb5a7730335e9db878a4e6917e9ff0c7986b31",
+   "old_wh": [
+    498,
+    189
+   ],
+   "new_wh": [
+    621,
+    239
+   ],
+   "old_bytes": 12220,
+   "new_bytes": 26073
+  },
+  {
+   "lib_img": "a11df34e738152395275cb15beacdc84cf9ed99b09f5afed7995ef9138be53f2.jpg",
+   "card": "题-CM-141-08-8-1选出以下各组结构中的优.md",
+   "kind": "q",
+   "site_img": "e37-p13-q08-02-7b3fdd27f832.webp",
+   "score": 0.9433,
+   "old_sha256": "231a30ffd7320f18d700efaa032438278ad64bc525b165f452a3173b6e7d0ac8",
+   "new_sha256": "23da943eb71fb10b7e7d8a1514bbb6d0626eaeddd79332809a51af982d3b4462",
+   "old_wh": [
+    459,
+    101
+   ],
+   "new_wh": [
+    571,
+    131
+   ],
+   "old_bytes": 5943,
+   "new_bytes": 12197
+  },
+  {
+   "lib_img": "a131304e9ea02c34c16bf4babf494f68d9be889169389168b9c0d45758b6d5cc.jpg",
+   "card": "题-CM-101-05-通过以下方法制备了一种钌的单.md",
+   "kind": "a",
+   "site_img": "e35-p12-a05-01-8f04d2846456.webp",
+   "score": 0.9963,
+   "old_sha256": "0d68971dc781ddf69f4330206a26e8e82508b02a1ff9200fc6733c1f72362774",
+   "new_sha256": "f29356e21c0734927052281ba8e9ee94dadc2a29e0bc21366b1c7d854957cb15",
+   "old_wh": [
+    234,
+    356
+   ],
+   "new_wh": [
+    292,
+    446
+   ],
+   "old_bytes": 9571,
+   "new_bytes": 28912
+  },
+  {
+   "lib_img": "a1ab71b5aa1046508d48d1d804f96187f7463f464e12cb8dfb390046562b51df.jpg",
+   "card": "题-CM-147-01-1-1在过去的几十年里化石燃.md",
+   "kind": "q",
+   "site_img": "e37-p23-q01-02-0a3972536b0f.webp",
+   "score": 0.932,
+   "old_sha256": "10a98cf1a386545ba99c774db388042b259795817d8a5cb81374fe9848d738f9",
+   "new_sha256": "c15741d6dc9919dc2e3d2cfcdcbb5bd92543ebc913254f57933e4449e961ebe8",
+   "old_wh": [
+    187,
+    129
+   ],
+   "new_wh": [
+    239,
+    164
+   ],
+   "old_bytes": 4254,
+   "new_bytes": 7342
+  },
+  {
+   "lib_img": "a272ff66a552347664e0273f02ff8a1f30883ba346e2c1806d96949b1a126bd8.jpg",
+   "card": "题-CM-85-04-4-1某种Ru的有机氯化物A.md",
+   "kind": "q",
+   "site_img": "e34-p12-q04-01-fe3387c11d3a.webp",
+   "score": 0.9758,
+   "old_sha256": "551c37f21f4b6cf8c5b7a532a112d8d93cc1f7ef8d4772a1252572c52d784a1b",
+   "new_sha256": "02e0455223673754a8916a10f29de121d95be26fc3d19a8bf5eb1378b14832c6",
+   "old_wh": [
+    362,
+    326
+   ],
+   "new_wh": [
+    459,
+    417
+   ],
+   "old_bytes": 10565,
+   "new_bytes": 21706
+  },
+  {
+   "lib_img": "a2ebbb3202601ea713af717d0a8ddcb77558a6c89fee8101e23c00ad30b0a1e5.jpg",
+   "card": "题-CM-127-01-CO是配合物中的常见配体18.md",
+   "kind": "a",
+   "site_img": "e36-p22-q01-07-bcdecabfad16.webp",
+   "score": 0.9719,
+   "old_sha256": "000964f62c8fd91c1b304dcfc86f174c772a32c774079e22156afe7311e214ce",
+   "new_sha256": "4a166f7c6164e12b0ff2f67ef9b6d00dde1ad155e99f8806d3bdef3f5ea27157",
+   "old_wh": [
+    306,
+    198
+   ],
+   "new_wh": [
+    379,
+    245
+   ],
+   "old_bytes": 7238,
+   "new_bytes": 15295
+  },
+  {
+   "lib_img": "a300176f2f549eaa7f274183b1b2c9d8320c4379c7545c5d4f22eeafa5d2a276.jpg",
+   "card": "题-CM-109-09-9-1葡萄糖仅考虑链状结构共.md",
+   "kind": "a",
+   "site_img": "e35-p22-q09-03-f7e5a2c88afd.webp",
+   "score": 0.9154,
+   "old_sha256": "6216f19f072fe6fe3c9fe281295a4c4fa59b326cf8e4fcc7998d3cb1f835ee5e",
+   "new_sha256": "6d270e96d05885a059f95b4bf8e24d2936bd5aa4e1ac764bf3d7301de688d0ac",
+   "old_wh": [
+    479,
+    190
+   ],
+   "new_wh": [
+    597,
+    242
+   ],
+   "old_bytes": 10512,
+   "new_bytes": 20778
+  },
+  {
+   "lib_img": "a30fb42e473ffb47fa1c4f222022de793054cceb6fe7cac344615dffbd537693.jpg",
+   "card": "题-CM-126-03-金属氯化物具有丰富多彩的结构.md",
+   "kind": "q",
+   "site_img": "e36-p21-q03-01-deec733bdb4c.webp",
+   "score": 0.9962,
+   "old_sha256": "bc526b56451370b161b833d1ae04528488869324ab8a73c0d1f41b980813ad4c",
+   "new_sha256": "9dfe13ca2a23104e175feed3c4d5f275ee1f02a958953ae9adc22a699f90d578",
+   "old_wh": [
+    437,
+    273
+   ],
+   "new_wh": [
+    554,
+    345
+   ],
+   "old_bytes": 22431,
+   "new_bytes": 84601
+  },
+  {
+   "lib_img": "a33c358f7b69a1a94f49c9ff002c3b6ba6004ac86036e7bec5fae29969a90324.jpg",
+   "card": "题-CM-145-08-反式5并5环系具有比较高的环.md",
+   "kind": "a",
+   "site_img": "e37-p20-q08-01-2417f6bd9f83.webp",
+   "score": 0.9473,
+   "old_sha256": "d44504da33fc6e4246af9961e776a989ff0e041f3b77df638fe30205f22d487a",
+   "new_sha256": "52076bd2c051fee0931b89fd22608cb40d7e683b310328570ee32dad83ffd787",
+   "old_wh": [
+    117,
+    104
+   ],
+   "new_wh": [
+    224,
+    205
+   ],
+   "old_bytes": 3535,
+   "new_bytes": 16622
+  },
+  {
+   "lib_img": "a37917e58a7efee059715a6a0fc2472e468e32fa23a302607a2ab59603f3a4db.jpg",
+   "card": "题-CM-110-08-8-1海人草酸XKainic.md",
+   "kind": "q",
+   "site_img": "e35-p23-q08-02-3f9ae69e33b2.webp",
+   "score": 0.9657,
+   "old_sha256": "eaa08ca134a06cab161aac017ad2649c1c9502a48ee1d7f85861e039821ceb05",
+   "new_sha256": "b419e4bfb56b6ddfeac709889d0678d8508543123d2ac72fd88e2febd174fab5",
+   "old_wh": [
+    245,
+    240
+   ],
+   "new_wh": [
+    286,
+    299
+   ],
+   "old_bytes": 8203,
+   "new_bytes": 13015
+  },
+  {
+   "lib_img": "a3feb4cc06ae4e73768428a1d8fa9cb4267bc8cad5ab00522646dd496faa71b7.jpg",
+   "card": "题-CM-87-08-Payne重排是一种碱性条件.md",
+   "kind": "a",
+   "site_img": "e34-p14-q08-03-992422da0ea8.webp",
+   "score": 0.9387,
+   "old_sha256": "f0f0b57d0cf77989b44117f46a5acc5116cdaa4b1286b706bba55c53c4b9c4ae",
+   "new_sha256": "55e2701d9b5f6459fb437b7eb821f69ad2c3906733e193dc7aeb73812c088215",
+   "old_wh": [
+    476,
+    87
+   ],
+   "new_wh": [
+    589,
+    110
+   ],
+   "old_bytes": 6051,
+   "new_bytes": 12724
+  },
+  {
+   "lib_img": "a484936e99cbd45864bfa9181185fb16e92aaee54ef70193dd2233ce54db170e.jpg",
+   "card": "题-CM-117-09-现有如下反应.md",
+   "kind": "a",
+   "site_img": "e36-p03-a10-02-8edad59710dd.webp",
+   "score": 0.9635,
+   "old_sha256": "dbaa53d2a24056defc0bb6dffd75b3228bde0c85d2d3761d973371c2916f32a4",
+   "new_sha256": "304931c9170e62aac3c88832e1017ff2e2347ba5d4d14b2f8e416618fc30fb67",
+   "old_wh": [
+    300,
+    279
+   ],
+   "new_wh": [
+    380,
+    357
+   ],
+   "old_bytes": 12710,
+   "new_bytes": 43103
+  },
+  {
+   "lib_img": "a4e93b67996c583509ec7352d3e79ba2d608f67d675a8847ca2f34ec4d5edfd6.jpg",
+   "card": "题-CM-165-02-顾名思义超酸是一类酸度极强的.md",
+   "kind": "a",
+   "site_img": "e38-p15-a02-03-dc23bde20ade.webp",
+   "score": 0.9678,
+   "old_sha256": "fd0e47f5b9998728d36bb1966e20bd7e85302c901a35c049b89db61941fa1195",
+   "new_sha256": "34a2f201a9be7cdfcbf4aadc4587255f4011b5aef28d043e26b2dd0d3d79177f",
+   "old_wh": [
+    451,
+    162
+   ],
+   "new_wh": [
+    567,
+    206
+   ],
+   "old_bytes": 10011,
+   "new_bytes": 37580
+  },
+  {
+   "lib_img": "a4f21fc9af2e7f33f20c75f8f0498158123ea8bc165d8758593361b9e489168a.jpg",
+   "card": "题-CM-86-02-2-1下面的化合物在甲醇中发.md",
+   "kind": "q",
+   "site_img": "e34-p13-q02-02-049a8cba6228.webp",
+   "score": 0.9378,
+   "old_sha256": "adfee252fddb8ce85c2efd9dabdd9096828cb34ba3655f1e57b41b93b186b0ca",
+   "new_sha256": "dc840290df631634c2b06226f47c86620b2a9e19d56bad99b2fadd1cd49ce5f9",
+   "old_wh": [
+    471,
+    112
+   ],
+   "new_wh": [
+    588,
+    141
+   ],
+   "old_bytes": 7548,
+   "new_bytes": 15638
+  },
+  {
+   "lib_img": "a5427d3b52b0d7c3f6d1c7abe9a28f698a031905b3f032df131dec9772239823.jpg",
+   "card": "题-CM-78-06-以氧化随后将固体真空脱气处理.md",
+   "kind": "a",
+   "site_img": "e34-p05-q06-01-c8cad8eaf2d7.webp",
+   "score": 0.9497,
+   "old_sha256": "3c40cf17c9b7731e8609f1ee7becdf8c5fc883c8928c9bf74b44f650374904f5",
+   "new_sha256": "074c70f97b63de0f1d4bad2840ecc2ebb3945ebd7e2614add6579c22cafd7b04",
+   "old_wh": [
+    376,
+    376
+   ],
+   "new_wh": [
+    479,
+    480
+   ],
+   "old_bytes": 9097,
+   "new_bytes": 18214
+  },
+  {
+   "lib_img": "a59b9da4d786013923e44c213dde20a92b0d159e53315714cf8115ee46c15701.jpg",
+   "card": "题-CM-85-03-3-1可以与下图所示配体以的.md",
+   "kind": "a",
+   "site_img": "e34-p12-q03-01-ce8f7da26094.webp",
+   "score": 0.9493,
+   "old_sha256": "e10657886b59103d4e49ed2ffafb2282a861e6e59bafa3e6dc82d69eb29cec84",
+   "new_sha256": "b9378d8402b3a42a7f1f1a077358956aaff30f59625be8227d1eee7e6244bc23",
+   "old_wh": [
+    351,
+    190
+   ],
+   "new_wh": [
+    444,
+    235
+   ],
+   "old_bytes": 7292,
+   "new_bytes": 14418
+  },
+  {
+   "lib_img": "a700638b8071307433300b2c7534e91d6d811dfe32b1ab1d3492486f80bb33cb.jpg",
+   "card": "题-CM-109-09-9-1葡萄糖仅考虑链状结构共.md",
+   "kind": "q",
+   "site_img": "e35-p22-q09-04-084ce319d71d.webp",
+   "score": 0.9456,
+   "old_sha256": "d69588fbcac467cddfdfdae47f682784378ef982a966f2409585a69c6ad4a2ea",
+   "new_sha256": "802d5a86927be23aa690d24c31fb327f323916d5037558e6fff569fbbc75f437",
+   "old_wh": [
+    165,
+    87
+   ],
+   "new_wh": [
+    199,
+    110
+   ],
+   "old_bytes": 2351,
+   "new_bytes": 4193
+  },
+  {
+   "lib_img": "a926f496c0085350d217520940edc3189ba13d841e353fd64102418729f23ade.jpg",
+   "card": "题-CM-109-11-在室温以及碱存在下以下两化合.md",
+   "kind": "a",
+   "site_img": "e35-p22-q11-03-d288f98d71d5.webp",
+   "score": 0.8962,
+   "old_sha256": "50c1a8b875338b3c361349600b0838358c41506362d0e12102c30cb18f3e16a1",
+   "new_sha256": "4a2ecefa824a286151ed8dab540385e8425e12a9a31e016839a7c199c5fe2c93",
+   "old_wh": [
+    193,
+    95
+   ],
+   "new_wh": [
+    240,
+    115
+   ],
+   "old_bytes": 3730,
+   "new_bytes": 6977
+  },
+  {
+   "lib_img": "a947d4f4636505ab946d712325a8763f76b9ae3a0a57fca323583d8743f8afeb.jpg",
+   "card": "题-CM-162-08-在-CPBA作用下烯烃可发生.md",
+   "kind": "a",
+   "site_img": "e38-p11-a08-03-09f8aaea3f5a.webp",
+   "score": 0.8141,
+   "old_sha256": "87a457008a159f093b6564bd4347fb503075d155f5df305384dc7260ddcc7369",
+   "new_sha256": "b0f62ee945a622ecf69f5b90ed2c8710dc5552cad1e03fc50fefcd387c75fa5e",
+   "old_wh": [
+    273,
+    190
+   ],
+   "new_wh": [
+    337,
+    234
+   ],
+   "old_bytes": 10284,
+   "new_bytes": 32997
+  },
+  {
+   "lib_img": "ab0acde6f01ab30c3b7ccd7c608a0e5763ece0a46bdafd6db4c6255c827b85c5.jpg",
+   "card": "题-CM-76-06-某课题组研究类似生物氢化酶的.md",
+   "kind": "a",
+   "site_img": "e34-p03-q06-02-ae0cabde267f.webp",
+   "score": 0.9253,
+   "old_sha256": "38734db6e6f4dd69a0667d3e2aaf91a427ffad4c71e67f25269541293e4d62e6",
+   "new_sha256": "0baeb7cffd46634d596c570165d60061d4318ff4cddff9103664f5880a0e7af0",
+   "old_wh": [
+    329,
+    287
+   ],
+   "new_wh": [
+    414,
+    359
+   ],
+   "old_bytes": 9467,
+   "new_bytes": 14122
+  },
+  {
+   "lib_img": "abd36d950c11a0e70a6fcd6a054729571d6425ec794411fee2d293a0b9b8f25a.jpg",
+   "card": "题-CM-172-09_羰基_亚胺腈是一类高官能.md",
+   "kind": "a",
+   "site_img": "e38-p23-a09-07-76d7879d8190.webp",
+   "score": 0.9263,
+   "old_sha256": "937d957f201bc7c7d987caf74d1ac0e6b7c393a7727e807f893bb6e0c3ed57a5",
+   "new_sha256": "45183c6cd27c23d4430d33ca4345654ce244443f07c685f61b90cd7d5f9e9639",
+   "old_wh": [
+    432,
+    115
+   ],
+   "new_wh": [
+    531,
+    147
+   ],
+   "old_bytes": 11481,
+   "new_bytes": 40389
+  },
+  {
+   "lib_img": "ac3d06c8fff96d65d5d56c2b1121ee4481d3d224613a2fd6e3a6933b5515de8b.jpg",
+   "card": "题-CM-167-07-7-1同碳上亚甲基的氢酸性有.md",
+   "kind": "a",
+   "site_img": "e38-p17-q07-07-0556849770bd.webp",
+   "score": 0.9759,
+   "old_sha256": "cd0aeddf20138b2b9261e71ebabc36a245b461ba38758643ca9bb8be8fb52e37",
+   "new_sha256": "228be94f774bb840c275f84b2d8aba670c1d64fa7e1889e796da1221e6510ee8",
+   "old_wh": [
+    426,
+    181
+   ],
+   "new_wh": [
+    533,
+    228
+   ],
+   "old_bytes": 8686,
+   "new_bytes": 16444
+  },
+  {
+   "lib_img": "ad126a0ccbdf2d3f64e3367e24dabe359b36e52138b23d92e19fdab4c5040554.jpg",
+   "card": "题-CM-84-08-8-1判断下列化合物是否具有.md",
+   "kind": "q",
+   "site_img": "e34-p11-q08-04-92ca0cb1a939.webp",
+   "score": 0.9716,
+   "old_sha256": "0a6b3a7323746899a55dde4d06f1eddd3baeb43d64fc221cb1aae38d8d19b096",
+   "new_sha256": "87d98986ccc6aa8621f96c3576152f9dead20226d1f5c9110dac8e0c1048b2bf",
+   "old_wh": [
+    382,
+    182
+   ],
+   "new_wh": [
+    473,
+    227
+   ],
+   "old_bytes": 7314,
+   "new_bytes": 14445
+  },
+  {
+   "lib_img": "b23e235585f459cd7c1e4aca4d70c397b5b1d1cfdda965645cf84e7038bd68a9.jpg",
+   "card": "题-CM-119-09-9-1如下反应为合成茉莉酮中.md",
+   "kind": "a",
+   "site_img": "e36-p06-q09-01-7f7f43f75f41.webp",
+   "score": 0.9563,
+   "old_sha256": "4e644d0921da6ea7aa4fc295ab799b89e138fa489ae2b3284398dc6efeefb815",
+   "new_sha256": "f85339f3ff2c22ad8e6353e9d145f817714b4836102acdaa75a3dd4cfcd69b70",
+   "old_wh": [
+    437,
+    121
+   ],
+   "new_wh": [
+    545,
+    157
+   ],
+   "old_bytes": 5587,
+   "new_bytes": 11442
+  },
+  {
+   "lib_img": "b2b3520642de906140bbbf0cc3dfa7a84b946ad74fd8ef382b8b0ca9b714c592.jpg",
+   "card": "题-CM-101-08-如下所示利用蒎烯氧化物的水解.md",
+   "kind": "a",
+   "site_img": "e35-p12-a08-01-ddd59c4eacdd.webp",
+   "score": 0.9006,
+   "old_sha256": "83c49bcfad8edc8da27ab9559b17b7fe7133ac50b2b53100c7010b72b338ed7d",
+   "new_sha256": "20a99a71876a471cb286b6245351732f366e7997e82dcad3db2f3f14f6e347f8",
+   "old_wh": [
+    134,
+    190
+   ],
+   "new_wh": [
+    165,
+    244
+   ],
+   "old_bytes": 4455,
+   "new_bytes": 15128
+  },
+  {
+   "lib_img": "b2fa3cf2ad9827bb6c35938b846a5bc3c973b494644ca30377d0b784774dbb28.jpg",
+   "card": "题-CM-81-09-9-1在1952年Esche.md",
+   "kind": "a",
+   "site_img": "e34-p08-q09-01-b62ef6ba8e54.webp",
+   "score": 0.8641,
+   "old_sha256": "929bf47aa421c1345211f5b2fbb477fd2b90f204d2c3b4b14855c08887eeedd7",
+   "new_sha256": "69b8c05e79c1b77de88cfd2ae197ae5d5cfc10c5537041e6142117f98fac01d9",
+   "old_wh": [
+    143,
+    140
+   ],
+   "new_wh": [
+    176,
+    177
+   ],
+   "old_bytes": 3044,
+   "new_bytes": 5681
+  },
+  {
+   "lib_img": "b4d27881f20f72bc7811ff4b238f7ff2f3def710ff110aff64e1f0cb22888e0c.jpg",
+   "card": "题-CM-148-10-10-1以下反应共经历了2次.md",
+   "kind": "q",
+   "site_img": "e37-p24-q10-02-862a8c402653.webp",
+   "score": 0.9395,
+   "old_sha256": "79ee509a8c3b2a56a44297204973e06096ae1b6a2d6e60331cae8e0f1cade53b",
+   "new_sha256": "545bdb8209b1f0198d913bedc34c14d9809b8615e5dd36cb1fc5f9be34d3d655",
+   "old_wh": [
+    396,
+    159
+   ],
+   "new_wh": [
+    496,
+    208
+   ],
+   "old_bytes": 5633,
+   "new_bytes": 11085
+  },
+  {
+   "lib_img": "b552b084239edc2bb1474144909176fe34529e2a639fcae91c844504997bea49.jpg",
+   "card": "题-CM-170-10-10-1在超酸介质中往往会发.md",
+   "kind": "a",
+   "site_img": "e38-p21-a10-03-0eae6b5d3b5d.webp",
+   "score": 0.9608,
+   "old_sha256": "a7c98c713a9dfef65587fa7dcca4b59e2ad4a420ab6c8322cc4a30da99f396e8",
+   "new_sha256": "95a4bc136ddf3fcf605058023b46031db8021e50b4617b010186e9a604d4853a",
+   "old_wh": [
+    292,
+    220
+   ],
+   "new_wh": [
+    366,
+    277
+   ],
+   "old_bytes": 7821,
+   "new_bytes": 27639
+  },
+  {
+   "lib_img": "b575153c99cee1723a4f42ac1873afccae2be2aaba768db2c768a87595df340a.jpg",
+   "card": "题-CM-170-08-有科学家设计了一种双空腔离子.md",
+   "kind": "a",
+   "site_img": "e38-p21-q08-04-d4c8e01fedeb.webp",
+   "score": 0.9576,
+   "old_sha256": "43a107171e10f9b0a7ec966aed8b0ea3cb916430bc3bd403d485a56b4ca01ec3",
+   "new_sha256": "6855304a071b5843785d1e9aeb5523e620ae267bb3e987e856a6292f04506b8e",
+   "old_wh": [
+    282,
+    173
+   ],
+   "new_wh": [
+    347,
+    219
+   ],
+   "old_bytes": 5306,
+   "new_bytes": 10096
+  },
+  {
+   "lib_img": "b5a17c9ed57cf3b75eabd9c2e4ea312004161db4f72fa65a8f0df3ee5bebbb82.jpg",
+   "card": "题-CM-76-06-某课题组研究类似生物氢化酶的.md",
+   "kind": "q",
+   "site_img": "e34-p03-q06-02-ae0cabde267f.webp",
+   "score": 0.9431,
+   "old_sha256": "19febc57f66a4a447c1b665805cd53967b2cdcd71ececb8286a604df8eec82e7",
+   "new_sha256": "0baeb7cffd46634d596c570165d60061d4318ff4cddff9103664f5880a0e7af0",
+   "old_wh": [
+    326,
+    282
+   ],
+   "new_wh": [
+    414,
+    359
+   ],
+   "old_bytes": 7715,
+   "new_bytes": 14122
+  },
+  {
+   "lib_img": "b65a754861ccc7f1f974f4896ea8af0ee387ace948b3e4231ffcf3d1c231dbbc.jpg",
+   "card": "题-CM-145-06-随着周期数的增加金属半径不断.md",
+   "kind": "q",
+   "site_img": "e37-p20-q06-02-a8e6ff6344a0.webp",
+   "score": 0.9497,
+   "old_sha256": "bdf8870e0845b161a922d7f8982ca3fd321c9bafb4229caacd7fa7f054a0198a",
+   "new_sha256": "aac54dde0c8b16f89edf6fa14a8aeca3de9e092f1b841767bc326bbeded88253",
+   "old_wh": [
+    250,
+    107
+   ],
+   "new_wh": [
+    308,
+    131
+   ],
+   "old_bytes": 4901,
+   "new_bytes": 9517
+  },
+  {
+   "lib_img": "b73dcd481f67c6179df332ec89500a08109db792f4ef4629218546e3f7c530ca.jpg",
+   "card": "题-CM-106-07-7-1化合物A和B分别进行水.md",
+   "kind": "a",
+   "site_img": "e35-p18-q07-05-0c25cd25ffd2.webp",
+   "score": 0.9321,
+   "old_sha256": "15b37a45befebb765f8ec992caf586e4390d0e2122214c0e28518d579f45fdf4",
+   "new_sha256": "c8a9dcbf58d27604af7469c798386e011d13463081ac05c42dc07e7a7a8d50a3",
+   "old_wh": [
+    115,
+    112
+   ],
+   "new_wh": [
+    140,
+    139
+   ],
+   "old_bytes": 3351,
+   "new_bytes": 6323
+  },
+  {
+   "lib_img": "b8c624c4898eec2dbc22b0d4777ab8a04929dfdfe48557251d0e03488d8926dd.jpg",
+   "card": "题-CM-171-07-对于单线态氧参与的以下反应研.md",
+   "kind": "a",
+   "site_img": "e38-p22-a07-01-da585860b6f6.webp",
+   "score": 0.9391,
+   "old_sha256": "227ec0db74248d86b5349ae8cf27c3cb518a1449bafa8e8e6913e052536a3d39",
+   "new_sha256": "399e0e0548459e2fd559f64883b5831380b7820be50351b443e81f9a4b62a0c0",
+   "old_wh": [
+    245,
+    154
+   ],
+   "new_wh": [
+    308,
+    201
+   ],
+   "old_bytes": 5593,
+   "new_bytes": 19659
+  },
+  {
+   "lib_img": "ba9c569639444cc2d2e0f83db813650a07dbed115a37aac2df5e913539ecaa73.jpg",
+   "card": "题-CM-155-07-7-1下面给出了的前体A的制.md",
+   "kind": "a",
+   "site_img": "e38-p03-q08-05-dffe32ebd12b.webp",
+   "score": 0.9454,
+   "old_sha256": "608a390559f3fdefdf29ece06b8e68f2ba5b8f937e39b0916316db02cd6793fb",
+   "new_sha256": "c38e2c89cc6be62a64e1aa21af9b3d4db58638cbf563a3c29156564c91280ded",
+   "old_wh": [
+    487,
+    142
+   ],
+   "new_wh": [
+    615,
+    184
+   ],
+   "old_bytes": 6577,
+   "new_bytes": 11599
+  },
+  {
+   "lib_img": "bab58eef6fcec8e4fdd6f016ef444f7587b1a7eaa5ea0173748dc3927f409169.jpg",
+   "card": "题-CM-77-04-镉与钽形成了一种复合氧化物该.md",
+   "kind": "a",
+   "site_img": "e34-p04-q04-01-562960a33093.webp",
+   "score": 0.9437,
+   "old_sha256": "6d4220eb1cdeef7b53e6fd2faf4df2b7659b11a1b2fb19370daaf6828538be90",
+   "new_sha256": "e3859449c72a51c63591a3a3de201cb00813b1786ac3f144f60d7706620b5621",
+   "old_wh": [
+    306,
+    296
+   ],
+   "new_wh": [
+    399,
+    385
+   ],
+   "old_bytes": 21261,
+   "new_bytes": 76506
+  },
+  {
+   "lib_img": "bd9b7fbd1ecf7b8fc9d69fc23500a0635f100863c2da3442b88bf19341e00d3a.jpg",
+   "card": "题-CM-86-03-将化合物A在苯中加热至C得到.md",
+   "kind": "a",
+   "site_img": "e34-p13-q03-03-13269bf80982.webp",
+   "score": 0.9366,
+   "old_sha256": "a0a255e1a24b736a3aaa9f13f04db7899cdab50baece09401d3e15c25b1ac6a1",
+   "new_sha256": "5588fa9d6755d4ee0cdfcd783e6023f55d29c4bf2f06400661438fe61fa07aee",
+   "old_wh": [
+    248,
+    170
+   ],
+   "new_wh": [
+    310,
+    218
+   ],
+   "old_bytes": 5015,
+   "new_bytes": 9462
+  },
+  {
+   "lib_img": "bdb1ca650fca2f2ebdd592a5a1a50e620c22ac8371fca177c19f8c1d070a54aa.jpg",
+   "card": "题-CM-124-02-将溶于沸水中再加入加热搅拌使.md",
+   "kind": "a",
+   "site_img": "e36-p18-q03-01-5aa1d0ad7365.webp",
+   "score": 0.9446,
+   "old_sha256": "ba0d691c583c75536a8a85783b73b38b08aa37fd6b1e2c53e243970d02093e9f",
+   "new_sha256": "bc542d298aaef4c7e0a862455f08475489f2435c38c6f8f2cd86e7b3afdb109f",
+   "old_wh": [
+    190,
+    151
+   ],
+   "new_wh": [
+    236,
+    196
+   ],
+   "old_bytes": 3752,
+   "new_bytes": 7556
+  },
+  {
+   "lib_img": "bfdb64c1ab16bb840495ad86b7ee0d7079dbda398380c01a5a48b8e8dd138962.jpg",
+   "card": "题-CM-165-08-1943年Alder首次报道.md",
+   "kind": "a",
+   "site_img": "e38-p15-a08-01-f61db83964c2.webp",
+   "score": 0.966,
+   "old_sha256": "9e8291589abd2ce24806da38c1c42cc4e40c17c66181ac3d6da4c86a7230bce2",
+   "new_sha256": "5341d4091899d3f35cf9334cc3d83de0486cd7fb0677ce1f0ea001edb2ab6191",
+   "old_wh": [
+    473,
+    162
+   ],
+   "new_wh": [
+    592,
+    208
+   ],
+   "old_bytes": 9009,
+   "new_bytes": 32730
+  },
+  {
+   "lib_img": "c0f95fe75046b00f4c2b65c67cab3456139d30753ada087e61f2b72e8980445b.jpg",
+   "card": "题-CM-162-08-在-CPBA作用下烯烃可发生.md",
+   "kind": "a",
+   "site_img": "e38-p11-a08-05-d242e979aa55.webp",
+   "score": 0.9309,
+   "old_sha256": "ae75d0b621bff3eebed7214965ff656d134d683b6352b7104fa80ffbae5abf3d",
+   "new_sha256": "231172d5b0dc6811a9fe6ca9b3de1f23a72eb75509c06a7eeb10bbd3af22165f",
+   "old_wh": [
+    179,
+    112
+   ],
+   "new_wh": [
+    215,
+    142
+   ],
+   "old_bytes": 4170,
+   "new_bytes": 13518
+  },
+  {
+   "lib_img": "c125c88ef0463069a4f9d6448cd49dec5d0dd21e11c87d3430a2b25b7376be51.jpg",
+   "card": "题-CM-111-04-将环戊二烯基二羰基钌二聚体溶.md",
+   "kind": "a",
+   "site_img": "e35-p24-a04-03-37739a8ea09f.webp",
+   "score": 0.9739,
+   "old_sha256": "466ae35d41f8b6dacc4cbe8e99cdb4f20337868f8485b7303fe22e9e421aaa52",
+   "new_sha256": "a0260437f00f295604dba567fe445149ec7e175d70b9a6cfa8d8adddd5136ed2",
+   "old_wh": [
+    473,
+    195
+   ],
+   "new_wh": [
+    596,
+    248
+   ],
+   "old_bytes": 6682,
+   "new_bytes": 21991
+  },
+  {
+   "lib_img": "c1271cc620ded00f8e606dd1e26361eeb871b39c36d8fc31078b523ab86cc918.jpg",
+   "card": "题-CM-78-07-配体-MNT可以与Cu形成有.md",
+   "kind": "a",
+   "site_img": "e34-p05-q07-01-56eacfa4cc6f.webp",
+   "score": 0.9167,
+   "old_sha256": "37762f478cdedbf34bf121a20a3f7be2a64199d1d2331984db2f8bb207c5bc0a",
+   "new_sha256": "520daecc2a558423edb2885729b2d750bb19bc969397058fe2d40990e9690673",
+   "old_wh": [
+    159,
+    134
+   ],
+   "new_wh": [
+    193,
+    173
+   ],
+   "old_bytes": 3679,
+   "new_bytes": 7293
+  },
+  {
+   "lib_img": "c13acf910303dbe4f19844923e6905750bc5d344b5e4f7be93b8bfe58c2f9063.jpg",
+   "card": "题-CM-125-09-9-1以下反应别具一格的引入.md",
+   "kind": "a",
+   "site_img": "e36-p20-q10-01-af207fa4114d.webp",
+   "score": 0.9505,
+   "old_sha256": "9ecb576ce64624261b34b9096c98c1e12f87077cc5a4c3fd1ebf23e8b75e73ef",
+   "new_sha256": "4380517d4a94c4778b0c40bddcc769dc6764505ba57289d571697ad65162e237",
+   "old_wh": [
+    435,
+    140
+   ],
+   "new_wh": [
+    547,
+    181
+   ],
+   "old_bytes": 6553,
+   "new_bytes": 12920
+  },
+  {
+   "lib_img": "c179ca7959e4456218e10a3b30bc3ebc8d69488dac5f1a5cd16563a79b7af007.jpg",
+   "card": "题-CM-151-05-2021年英国曼彻斯特大学一.md",
+   "kind": "q",
+   "site_img": "e37-p28-q05-02-684d790148d0.webp",
+   "score": 0.9788,
+   "old_sha256": "76472c5cfe6101dd05014c77c18cd723b9ebaa1af6615e4e0a18a3ca02cbea03",
+   "new_sha256": "41ec96caa3f8fc627603cbeef3bb454de5b35e232a24bab008db91ecd2e2e6fd",
+   "old_wh": [
+    434,
+    196
+   ],
+   "new_wh": [
+    545,
+    251
+   ],
+   "old_bytes": 9257,
+   "new_bytes": 17191
+  },
+  {
+   "lib_img": "c1b2c440552cd89ce13f5f8d610850f35778e494b721d86193d20b95d29d4707.jpg",
+   "card": "题-CM-81-09-9-1在1952年Esche.md",
+   "kind": "q",
+   "site_img": "e34-p08-q09-03-90d57f4bb8de.webp",
+   "score": 0.9661,
+   "old_sha256": "e3fbf334d02c9633f70abd1cf0357ec1e12ef049dfe7449db20cc161bfbfd938",
+   "new_sha256": "9d1ccfe75e0da7cac4061d9baa50b4f151e0ff15f9d6a02c5a756ff374e79159",
+   "old_wh": [
+    393,
+    165
+   ],
+   "new_wh": [
+    482,
+    211
+   ],
+   "old_bytes": 10336,
+   "new_bytes": 19403
+  },
+  {
+   "lib_img": "c1d29ddf3ff92c9e4e3e13be98c170814214d04a90858fcce86f7f77dbed1cbf.jpg",
+   "card": "题-CM-67-10-10-1将以下桥环化合物加热.md",
+   "kind": "a",
+   "site_img": "e33-p07-q10-01-e0d9b5c935e4.webp",
+   "score": 0.8023,
+   "old_sha256": "23153786d52c019ec8e1d0bce0a07f1f1a5895e9d91db004daad5f9c39ddd508",
+   "new_sha256": "4920f4ab2f460e14dd402634fcaf25600240078f4bf339c2bec23b88bfb7e38c",
+   "old_wh": [
+    276,
+    170
+   ],
+   "new_wh": [
+    344,
+    208
+   ],
+   "old_bytes": 6641,
+   "new_bytes": 13364
+  },
+  {
+   "lib_img": "c22f597274b1fd6110a7d1d28e3834b246e6d9c84eccd867dbea4201cb567fc0.jpg",
+   "card": "题-CM-151-07-利用化学方法活化是新能源研究.md",
+   "kind": "q",
+   "site_img": "e37-p28-q07-07-8d16eeeec49d.webp",
+   "score": 0.9687,
+   "old_sha256": "51af9dab370f12c86b2288f07adbe6e00323351eb7060ac9624d7e1df97da43b",
+   "new_sha256": "2059fff08ddf28f4ccb331f7a3fbcdfd29e00d27fa1e6cab4efa289f77ce6470",
+   "old_wh": [
+    343,
+    153
+   ],
+   "new_wh": [
+    424,
+    198
+   ],
+   "old_bytes": 6967,
+   "new_bytes": 13821
+  },
+  {
+   "lib_img": "c50a237685d5594848571a2b0c81994a0fbd4fff05531ac5d7bc19426c0cc938.jpg",
+   "card": "题-CM-110-08-8-1海人草酸XKainic.md",
+   "kind": "q",
+   "site_img": "e35-p23-q08-01-ff80610f3ca0.webp",
+   "score": 0.8019,
+   "old_sha256": "9dee3806dff5e53c2463f033bc88317c867f9ed6895245da3860aa14b30d0504",
+   "new_sha256": "7203553e1c3a120b4000f45dc63b5dcdeec2840daf6ffb0e077b32d99fcbfa0e",
+   "old_wh": [
+    129,
+    170
+   ],
+   "new_wh": [
+    166,
+    222
+   ],
+   "old_bytes": 2931,
+   "new_bytes": 5282
+  },
+  {
+   "lib_img": "c727b0eab0a03be6bbe60e8a81a2196c7cbd9c42f7ad61e2896a5e84bf95531a.jpg",
+   "card": "题-CM-53-10-以下体系能经历23-重排得到.md",
+   "kind": "q",
+   "site_img": "e32-p04-q10-02-851fbc099d51.webp",
+   "score": 0.9767,
+   "old_sha256": "e3feb55c276e0362ba2b3e9d26a0b18774383387a59e297646ae88edffa804a3",
+   "new_sha256": "117fe9f195fd40f0719e66d83c1cf7c59d620e8c5cc5bc677c50b6a379b64c81",
+   "old_wh": [
+    393,
+    135
+   ],
+   "new_wh": [
+    488,
+    172
+   ],
+   "old_bytes": 6063,
+   "new_bytes": 11685
+  },
+  {
+   "lib_img": "c802f67fa921cb420b8fe6f4c1b25016b877d27d68f613548b7d6ae8ae6a1c56.jpg",
+   "card": "题-CM-119-09-9-1如下反应为合成茉莉酮中.md",
+   "kind": "q",
+   "site_img": "e36-p06-q09-01-7f7f43f75f41.webp",
+   "score": 0.9563,
+   "old_sha256": "5ef0413707cc6425b78cbd473dce4ce22a93bbaf1578c85a2279b1be34f7b9b4",
+   "new_sha256": "f85339f3ff2c22ad8e6353e9d145f817714b4836102acdaa75a3dd4cfcd69b70",
+   "old_wh": [
+    437,
+    121
+   ],
+   "new_wh": [
+    545,
+    157
+   ],
+   "old_bytes": 5587,
+   "new_bytes": 11442
+  },
+  {
+   "lib_img": "c964a052aed5e9280716d5bed3b33985f4eee34c1c6608aab5756883c2073610.jpg",
+   "card": "题-CM-101-09-近日兰州大学和上海交通大学的.md",
+   "kind": "a",
+   "site_img": "e35-p12-a09-03-c287bc5c8645.webp",
+   "score": 0.9689,
+   "old_sha256": "6b39a5c82aa78e89f488051ed1ce0179ec324624121dcb2dbb854b503a6e4c56",
+   "new_sha256": "a09ecd83d22e451ff594e7620f33ee4a913c67390b7bea0d5ae65291aa1c1c95",
+   "old_wh": [
+    256,
+    217
+   ],
+   "new_wh": [
+    317,
+    269
+   ],
+   "old_bytes": 7365,
+   "new_bytes": 26085
+  },
+  {
+   "lib_img": "cb22af914fb992d19d342780c92f9cd17863d626aa69f9865822328f53ba1e0b.jpg",
+   "card": "题-CM-101-06-利用多核金属催化剂可实现对小.md",
+   "kind": "a",
+   "site_img": "e35-p12-a06-02-7d0fa18325c1.webp",
+   "score": 0.9591,
+   "old_sha256": "e1f4a84c3f49539c53f0b31a9e47f806de2304cdc95469649c185b391a9c4e71",
+   "new_sha256": "4a23312074ecba119000f07eeddf2cd92baba96d46c00c213d22001a2bc7a019",
+   "old_wh": [
+    303,
+    112
+   ],
+   "new_wh": [
+    382,
+    140
+   ],
+   "old_bytes": 4853,
+   "new_bytes": 16729
+  },
+  {
+   "lib_img": "cb2828efe395ca0fc171ff96dc9e98030c5c235ba8cd1b51a4f52a08838df772.jpg",
+   "card": "题-CM-98-08-8-1以下化合物在醋酸溶剂中.md",
+   "kind": "a",
+   "site_img": "e35-p09-q08-01-05b40c03552c.webp",
+   "score": 0.8987,
+   "old_sha256": "2690a2a07085ac5e22b3d79287eb119071dca261a26f76bc89176a45c22e0d95",
+   "new_sha256": "941d1778be421370f35e79f57e07ccd17f06d5d864415bc7499429a8a0d14fd8",
+   "old_wh": [
+    397,
+    103
+   ],
+   "new_wh": [
+    498,
+    127
+   ],
+   "old_bytes": 5814,
+   "new_bytes": 10951
+  },
+  {
+   "lib_img": "cc85fd06947f1c0bbcfd603830d0865e19d68b253a91c5a19ad2f4160f4089db.jpg",
+   "card": "题-CM-160-09-吗啉是有机化学中常用的一种试.md",
+   "kind": "a",
+   "site_img": "e38-p08-q09-05-ceeb3ba5d42f.webp",
+   "score": 0.8971,
+   "old_sha256": "9fba023219c1d30e444d5d2a5f34cbbe68a4d7c376a3027942ae1e6c065d0b22",
+   "new_sha256": "61cb445eb419d6454ac2319b98a07210c6972b9f3b8644c3c5c8f2c5ce722175",
+   "old_wh": [
+    398,
+    95
+   ],
+   "new_wh": [
+    491,
+    112
+   ],
+   "old_bytes": 4956,
+   "new_bytes": 9139
+  },
+  {
+   "lib_img": "ccd1e6b101a9988872a8f5a2e7972e6290338a291145379890cff6491be6cbf6.jpg",
+   "card": "题-CM-110-08-8-1海人草酸XKainic.md",
+   "kind": "a",
+   "site_img": "e35-p23-q08-01-ff80610f3ca0.webp",
+   "score": 0.9508,
+   "old_sha256": "84b1c9e4d016554c04d011fd2540086d5e03a9aae00c0a11e6ea14cca7e3dcd0",
+   "new_sha256": "7203553e1c3a120b4000f45dc63b5dcdeec2840daf6ffb0e077b32d99fcbfa0e",
+   "old_wh": [
+    126,
+    173
+   ],
+   "new_wh": [
+    166,
+    222
+   ],
+   "old_bytes": 2850,
+   "new_bytes": 5282
+  },
+  {
+   "lib_img": "cd030ffa17778b485d0203495813e27fdeb51102cbf3475858a93400d1a83f73.jpg",
+   "card": "题-CM-81-09-9-1在1952年Esche.md",
+   "kind": "a",
+   "site_img": "e34-p08-q09-03-90d57f4bb8de.webp",
+   "score": 0.9333,
+   "old_sha256": "12a102fb5689e76e0e235b30a6287967f16c57ec15509d929694c53998a911ac",
+   "new_sha256": "9d1ccfe75e0da7cac4061d9baa50b4f151e0ff15f9d6a02c5a756ff374e79159",
+   "old_wh": [
+    384,
+    165
+   ],
+   "new_wh": [
+    482,
+    211
+   ],
+   "old_bytes": 8931,
+   "new_bytes": 19403
+  },
+  {
+   "lib_img": "cddd3e1ae57f56904dc89b4c0da007ec24200d54be3099e9f51468d890bdaa8a.jpg",
+   "card": "题-CM-82-02-DNA与RNA承载了生命遗传.md",
+   "kind": "a",
+   "site_img": "e34-p09-q02-02-8e3dd3934770.webp",
+   "score": 0.9788,
+   "old_sha256": "17b63d3fd270ca1d251467a2ef1761cf689cff5c6da45aebb134dc69c9cc9475",
+   "new_sha256": "28d745ec111d749821a9a65bda38fe3268fcf086970e54895f1e3eb0d545122b",
+   "old_wh": [
+    157,
+    376
+   ],
+   "new_wh": [
+    205,
+    481
+   ],
+   "old_bytes": 10342,
+   "new_bytes": 38708
+  },
+  {
+   "lib_img": "cf4741fccd008a6a6d2a2f3080d0758083b67bb8946f7018e00e5f9a88e5738e.jpg",
+   "card": "题-CM-147-06-一类金属配合物可起到类似酸的.md",
+   "kind": "q",
+   "site_img": "e37-p23-q06-01-9b58a3bb8ab0.webp",
+   "score": 0.9522,
+   "old_sha256": "eb9d24e10e6705d777b9e86e3bb74dc2220c0dbff4fb42a5f9eeaf12a94c2e5b",
+   "new_sha256": "85dfb0ce31551c7fc87942bc039bb9f3cf30fa4df68baccea3b5be1ac592c3e8",
+   "old_wh": [
+    229,
+    179
+   ],
+   "new_wh": [
+    286,
+    228
+   ],
+   "old_bytes": 4744,
+   "new_bytes": 8495
+  },
+  {
+   "lib_img": "cfa2aca35a165501903dc211ceb902727ea52ac2c817d85c5b567c63054aff18.jpg",
+   "card": "题-CM-158-10-叠氮乙烯是一种合成中常见的前.md",
+   "kind": "a",
+   "site_img": "e38-p06-q10-04-46bfed1e245a.webp",
+   "score": 0.9744,
+   "old_sha256": "2066005eea6c2b81042eaf0ad1b9bc1f653ec48d785be4f063c635ee7010aef6",
+   "new_sha256": "e4980ee64e716dfe225e20dc9e7782a9a206cdac69512272446df1c9d7dda058",
+   "old_wh": [
+    426,
+    220
+   ],
+   "new_wh": [
+    589,
+    314
+   ],
+   "old_bytes": 8751,
+   "new_bytes": 18924
+  },
+  {
+   "lib_img": "d28a2907492397d83568eb98949cdfe4f325e218fc005b532788e44470ea6611.jpg",
+   "card": "题-CM-103-10-由于轨道对称性守恒的要求碳负.md",
+   "kind": "a",
+   "site_img": "e35-p15-q10-02-40bd5817dddd.webp",
+   "score": 0.953,
+   "old_sha256": "8166afbc19112704d02a49bc93af59bf56e3f35a02e2c4f8355d48cf48f17229",
+   "new_sha256": "950ec08e9bd7b156eac15a0f9d68861e5efab54137425bee1c0674d1abb7187d",
+   "old_wh": [
+    137,
+    101
+   ],
+   "new_wh": [
+    171,
+    129
+   ],
+   "old_bytes": 3189,
+   "new_bytes": 6246
+  },
+  {
+   "lib_img": "d3194a02ffca65ddce2070fdc7d3b95e4eb171e882836432f23251068af4cf03.jpg",
+   "card": "题-CM-58-06-近日《Science》杂志报.md",
+   "kind": "q",
+   "site_img": "e32-p09-a06-01-77830798f8b1.webp",
+   "score": 0.9981,
+   "old_sha256": "bf54a8d43f77340aedc666da1c1dacdd81ae3451fa7c3c2d176a2eb4b7a91d18",
+   "new_sha256": "5f5ebeb758b127c5505e235b14cc91b6b4f5f50b1e478645fdd3aa46cc648f4e",
+   "old_wh": [
+    354,
+    421
+   ],
+   "new_wh": [
+    444,
+    526
+   ],
+   "old_bytes": 26406,
+   "new_bytes": 80301
+  },
+  {
+   "lib_img": "d3eba9b10b5a309d411eaf20d21ed7edb46806b471a35d31d08691b83dfa99cd.jpg",
+   "card": "题-CM-85-03-3-1可以与下图所示配体以的.md",
+   "kind": "q",
+   "site_img": "e34-p12-q03-01-ce8f7da26094.webp",
+   "score": 0.8617,
+   "old_sha256": "aa6f40207d049cb73ab84ed840fd8968a201d9303044ad248f75ab910672fb4c",
+   "new_sha256": "b9378d8402b3a42a7f1f1a077358956aaff30f59625be8227d1eee7e6244bc23",
+   "old_wh": [
+    343,
+    184
+   ],
+   "new_wh": [
+    444,
+    235
+   ],
+   "old_bytes": 7561,
+   "new_bytes": 14418
+  },
+  {
+   "lib_img": "d49cb204872e62693b3bfb008d0c37a181cbe6cfad49d6db698292c1eecc0dbb.jpg",
+   "card": "题-CM-155-07-7-1下面给出了的前体A的制.md",
+   "kind": "a",
+   "site_img": "e38-p03-q07-02-294324c0ca3a.webp",
+   "score": 0.9726,
+   "old_sha256": "89f062ca659a8e3d8be3637c7bcc9f8f2ca3b9279a74fd2a22d0ca37a620268e",
+   "new_sha256": "49f2af0e886a72a40456f07e773653573801f7cdb775e696341969c1bf77cab8",
+   "old_wh": [
+    473,
+    329
+   ],
+   "new_wh": [
+    678,
+    471
+   ],
+   "old_bytes": 12658,
+   "new_bytes": 30515
+  },
+  {
+   "lib_img": "d4d96535fcf516ef9910de624edcb9880d5a04bd97bf454c076b6400dc129b0c.jpg",
+   "card": "题-CM-98-08-8-1以下化合物在醋酸溶剂中.md",
+   "kind": "q",
+   "site_img": "e35-p09-q08-01-05b40c03552c.webp",
+   "score": 0.8463,
+   "old_sha256": "45d5093b2d715cddf64a5cc8c4e9f7737ddfa8fbb466039c528b53fbb02428d9",
+   "new_sha256": "941d1778be421370f35e79f57e07ccd17f06d5d864415bc7499429a8a0d14fd8",
+   "old_wh": [
+    401,
+    101
+   ],
+   "new_wh": [
+    498,
+    127
+   ],
+   "old_bytes": 5635,
+   "new_bytes": 10951
+  },
+  {
+   "lib_img": "d50b62a511ac08cc79c59e8262571adeac36afe507d3bbd862473ff3bb66aac6.jpg",
+   "card": "题-CM-109-09-9-1葡萄糖仅考虑链状结构共.md",
+   "kind": "q",
+   "site_img": "e35-p22-q09-03-f7e5a2c88afd.webp",
+   "score": 0.8535,
+   "old_sha256": "12baeb56832baf98addf44e28e96bd0297a1efa6e34f1db6253bc84dd267e306",
+   "new_sha256": "6d270e96d05885a059f95b4bf8e24d2936bd5aa4e1ac764bf3d7301de688d0ac",
+   "old_wh": [
+    487,
+    203
+   ],
+   "new_wh": [
+    597,
+    242
+   ],
+   "old_bytes": 14185,
+   "new_bytes": 20778
+  },
+  {
+   "lib_img": "d7cc010908908db6c72eefc85d63dbff4c402c8c44b06f46b73f57bb5be91fed.jpg",
+   "card": "题-CM-150-08-8-1人们发现了以下的甲基迁.md",
+   "kind": "q",
+   "site_img": "e37-p27-q08-03-0ae0a5fa677c.webp",
+   "score": 0.8935,
+   "old_sha256": "4ad0ce5b8775196d273ad8f4e1e3c01ef591748926ad3894bb087e4b3dd19192",
+   "new_sha256": "e7b2bbae09d5bbf36c235ffd5a746a7b8e45e839446e6791b72ce2237f291cb2",
+   "old_wh": [
+    137,
+    93
+   ],
+   "new_wh": [
+    168,
+    120
+   ],
+   "old_bytes": 2440,
+   "new_bytes": 3988
+  },
+  {
+   "lib_img": "d8e825b4ebf1bef7f11b1e91b356588f62df7dea0c0e86dc0baf2b6de0bf95a5.jpg",
+   "card": "题-CM-135-04-是一种重要的无机化合物在硼酸.md",
+   "kind": "q",
+   "site_img": "e37-p02-a04-01-9da38ed93aaa.webp",
+   "score": 0.9806,
+   "old_sha256": "9832511a5f5b0572cd65a581b10e52028c584eb65b49de80479bbaa01c84afb2",
+   "new_sha256": "4c08f88980870d0535f2e7185d4cd6ee7dd7534c1d4c1ea922de6e539b2e1326",
+   "old_wh": [
+    409,
+    243
+   ],
+   "new_wh": [
+    567,
+    337
+   ],
+   "old_bytes": 13198,
+   "new_bytes": 46434
+  },
+  {
+   "lib_img": "d9db6da7373dc577a847e205eb126e580e0da755a2f39155ca1f682881307560.jpg",
+   "card": "题-CM-167-07-7-1同碳上亚甲基的氢酸性有.md",
+   "kind": "a",
+   "site_img": "e38-p17-q07-03-4ad4e577589b.webp",
+   "score": 0.9454,
+   "old_sha256": "72dfd93de7a2f0d971994b2ce091f51e3ee6b489784b6e8fb918528bb1b5132f",
+   "new_sha256": "ef70491e82f110fff39d6a6371d2e8bda5d22c36f6e306acb4b60540be577685",
+   "old_wh": [
+    176,
+    126
+   ],
+   "new_wh": [
+    216,
+    159
+   ],
+   "old_bytes": 2929,
+   "new_bytes": 5174
+  },
+  {
+   "lib_img": "dc9766a56731c70de3b687216615c7c396d7f7b7e3d7cf12e3610281d25a96c9.jpg",
+   "card": "题-CM-74-06-某复盐属四方晶系含钙和XYZ.md",
+   "kind": "q",
+   "site_img": "e34-p01-q06-01-8731b349dea8.webp",
+   "score": 0.9719,
+   "old_sha256": "9700d95475f1730a5536e6b372677d0c60416c372e2a79814f12e824ad918949",
+   "new_sha256": "48cda4e9b5150630f3d6a25c74960ea2eed80295c63228bd640b9770ccf58c69",
+   "old_wh": [
+    326,
+    328
+   ],
+   "new_wh": [
+    421,
+    420
+   ],
+   "old_bytes": 14576,
+   "new_bytes": 47381
+  },
+  {
+   "lib_img": "ddff09322161cca584bfad1a9d5beab16d8781587454be867ef5f9f312c134a7.jpg",
+   "card": "题-CM-169-01-分占9锑的化合物1-1Sb2.md",
+   "kind": "a",
+   "site_img": "e38-p20-q01-01-276a816099a3.webp",
+   "score": 0.9565,
+   "old_sha256": "39e0ad31b5e9a56e98dcbf541905fa731267436e1df9823b592d8c5fcc913167",
+   "new_sha256": "c04c13ca4b1f97e5413f037ac9ad9e1975e7e5b71d0753c04e70cc769f6d350a",
+   "old_wh": [
+    476,
+    196
+   ],
+   "new_wh": [
+    661,
+    275
+   ],
+   "old_bytes": 12087,
+   "new_bytes": 28176
+  },
+  {
+   "lib_img": "def82ab1944300f4fa970c97cf115501d3ba5b0dc46e03015a542ce432520770.jpg",
+   "card": "题-CM-162-10-在六氟异丙醇中利用碘苯二乙酸.md",
+   "kind": "a",
+   "site_img": "e38-p11-q10-04-ca5b6b9b9282.webp",
+   "score": 0.9529,
+   "old_sha256": "a77eb3f2fe63fb17186b4df7333165c2a8faaa9c66c2c33fbaf80dbfe0dcb796",
+   "new_sha256": "1de48625784c0b8ca044f7978d9b0de95e0c2d6f8eb9d374d423093f88f2740d",
+   "old_wh": [
+    481,
+    142
+   ],
+   "new_wh": [
+    595,
+    178
+   ],
+   "old_bytes": 8246,
+   "new_bytes": 16134
+  },
+  {
+   "lib_img": "e0e41de8c87839efe4741b86b7f62b65f87ac4af5c5312dca4ae4f88381856cd.jpg",
+   "card": "题-CM-103-08-无支链D-构型的单糖可与稀硝.md",
+   "kind": "a",
+   "site_img": "e35-p15-a08-03-f14f0185e057.webp",
+   "score": 0.9432,
+   "old_sha256": "7ea73a24e4db26dca34ea27153451f440fdba4cec42ce8e5cfecaaa1a6ca4d0f",
+   "new_sha256": "4a7a86e31800c20cdc6409c078fcb6d780238753a0d520bf5dae10fdcb8c83f3",
+   "old_wh": [
+    181,
+    187
+   ],
+   "new_wh": [
+    228,
+    239
+   ],
+   "old_bytes": 7463,
+   "new_bytes": 26272
+  },
+  {
+   "lib_img": "e1b203dda021b18eab03b93dcf3d7d0b1d7a9d1b151e0fff02ff22f652f9322c.jpg",
+   "card": "题-CM-167-07-7-1同碳上亚甲基的氢酸性有.md",
+   "kind": "a",
+   "site_img": "e38-p17-a07-04-b603619cd4a3.webp",
+   "score": 0.8986,
+   "old_sha256": "73b5078f88c1b05a9d06a7925f49b7910531ccf8cfb4611166191b8563703d07",
+   "new_sha256": "9323aacbd720c7615158bacaad5e7b7066b3e4c79c02952ff2c674bcb1d62cfb",
+   "old_wh": [
+    228,
+    95
+   ],
+   "new_wh": [
+    284,
+    120
+   ],
+   "old_bytes": 3481,
+   "new_bytes": 11088
+  },
+  {
+   "lib_img": "e1eb362b9918368ff84634daeb2c927d5b93042c24a6bca8674c5276622467db.jpg",
+   "card": "题-CM-160-05-Struvite是一种优质肥.md",
+   "kind": "a",
+   "site_img": "e38-p08-a05-01-9257d1798d32.webp",
+   "score": 0.995,
+   "old_sha256": "3e96bb26bd48af0a5b757e0112b5a1efd9160fb79a9f4ab539aaf4824e6a7f8e",
+   "new_sha256": "585f3a2806448ef87d8682e9ddf43164c1e456be7762a21ce7dabf11fc15d619",
+   "old_wh": [
+    387,
+    334
+   ],
+   "new_wh": [
+    494,
+    432
+   ],
+   "old_bytes": 16089,
+   "new_bytes": 53891
+  },
+  {
+   "lib_img": "e2f2a5aa8ebcd868fa582a50ac3502c9f784812927eb913e431304f25e6aa53d.jpg",
+   "card": "题-CM-165-04-4-1的制备思路与前人报道的.md",
+   "kind": "a",
+   "site_img": "e38-p15-a04-03-ebf86f38d176.webp",
+   "score": 0.9656,
+   "old_sha256": "a25f047d89bd26089cb011daa96785d56164c4895fed31cb2f8d000a10caa38d",
+   "new_sha256": "4618b1cdead582825a7c0998bed4f466141f5d02635ae0bd8f62c3f017879f89",
+   "old_wh": [
+    373,
+    176
+   ],
+   "new_wh": [
+    474,
+    223
+   ],
+   "old_bytes": 11022,
+   "new_bytes": 40847
+  },
+  {
+   "lib_img": "e35bc8a5b6b103de7164a5b6f9f88e0a76bf6b997630721ee5bc2c3de0f47764.jpg",
+   "card": "题-CM-90-02-近年来基于配位的超分子自组装.md",
+   "kind": "q",
+   "site_img": "e34-p17-q02-01-50656d978403.webp",
+   "score": 0.93,
+   "old_sha256": "feb6ed9c847eca60a99f5661d790364ac4f329bb0f4d74c0b40e1eba6c027767",
+   "new_sha256": "7f83223c09d89b57bd0311b35eb7bedfda9d6f5a20f39ebd0805abb6af3780b4",
+   "old_wh": [
+    206,
+    223
+   ],
+   "new_wh": [
+    261,
+    283
+   ],
+   "old_bytes": 7837,
+   "new_bytes": 13369
+  },
+  {
+   "lib_img": "e39c75de02a04dc0284381cd773f3fff23e61d3911a0d9dccbc2de3135f358dd.jpg",
+   "card": "题-CM-59-03-3-1氮芥是最早应用于临床并.md",
+   "kind": "q",
+   "site_img": "e32-p10-q03-03-d0fdff71023a.webp",
+   "score": 0.9512,
+   "old_sha256": "714e2c7fd3ece3fa92231eaff11715e5e64d5c3b78d47eb37c05af1e37310d05",
+   "new_sha256": "f0851421b7bb97536d186a36f7af45ff8853846b32ef9cf5300ff32fb75b9480",
+   "old_wh": [
+    156,
+    160
+   ],
+   "new_wh": [
+    193,
+    202
+   ],
+   "old_bytes": 3597,
+   "new_bytes": 6358
+  },
+  {
+   "lib_img": "e3cd9947858457115d5ed1d9736870b95fe1b1f4bee0bbc464680482d9f8980b.jpg",
+   "card": "题-CM-125-10-MartinsSulfura.md",
+   "kind": "q",
+   "site_img": "e36-p20-q10-01-af207fa4114d.webp",
+   "score": 0.9076,
+   "old_sha256": "284a6fcdda6dab49559aecbf7d9afb585c9ede0e835cbdb088b41114004ffc2a",
+   "new_sha256": "4380517d4a94c4778b0c40bddcc769dc6764505ba57289d571697ad65162e237",
+   "old_wh": [
+    434,
+    140
+   ],
+   "new_wh": [
+    547,
+    181
+   ],
+   "old_bytes": 6533,
+   "new_bytes": 12920
+  },
+  {
+   "lib_img": "e4fb697146f31117e6e403bded8ba1977bdb17e07375b30b0277109cc1e31a2d.jpg",
+   "card": "题-CM-127-05-在常压下由于碳半径小以及大键.md",
+   "kind": "a",
+   "site_img": "e36-p22-q05-01-021ee03115c8.webp",
+   "score": 0.9895,
+   "old_sha256": "28f6c187815eff039d41c000b9404bc5a6fad9b4baccc1633cd78106bf1e440e",
+   "new_sha256": "6ff77d82b7682d94812bf5c0db3a64d0ba991feaec52ce203c68a41da6fe1069",
+   "old_wh": [
+    274,
+    279
+   ],
+   "new_wh": [
+    516,
+    526
+   ],
+   "old_bytes": 11054,
+   "new_bytes": 71601
+  },
+  {
+   "lib_img": "e4fc2a0f39a839643bc09b9c831c582cf944d127db2bdd91fdb99973c31f5ab3.jpg",
+   "card": "题-CM-117-08-8-1指出与的酸性何者更强.md",
+   "kind": "a",
+   "site_img": "e36-p03-a08-02-3631c5800477.webp",
+   "score": 0.8913,
+   "old_sha256": "2c1090ddb0eb5681f88209e6c0b12c877df989a63196d0275ae2f9227aa37769",
+   "new_sha256": "d11537a1d7293bc64d4818a0a7ed3c0626626be0d41b49f31f7fcb6c3fa0effd",
+   "old_wh": [
+    206,
+    118
+   ],
+   "new_wh": [
+    252,
+    144
+   ],
+   "old_bytes": 4226,
+   "new_bytes": 12232
+  },
+  {
+   "lib_img": "e5b8b3ce93c2fd9f572eaa974c2bc6def62b55352082ef1927634b088c6ab4d9.jpg",
+   "card": "题-CM-56-05-近日一研究团队发现铀的金属有.md",
+   "kind": "q",
+   "site_img": "e32-p07-q05-01-f6191f6f8037.webp",
+   "score": 0.9918,
+   "old_sha256": "cb991ff68ee7145ea565905ba6d53312bdee465c6854d0e876c28a6fff097cc4",
+   "new_sha256": "59de053a875e66344d4ef6b2bd385dc671b61c64e341672de690994b58a3ad46",
+   "old_wh": [
+    423,
+    371
+   ],
+   "new_wh": [
+    538,
+    470
+   ],
+   "old_bytes": 12830,
+   "new_bytes": 44821
+  },
+  {
+   "lib_img": "e682220a0da6dd79f02e109003db9a94b31ffc0549843105e3a16158aafbcd3a.jpg",
+   "card": "题-CM-101-04-某含砷化合物的晶体属四方晶系.md",
+   "kind": "a",
+   "site_img": "e35-p12-a04-02-a09196a99b91.webp",
+   "score": 0.9745,
+   "old_sha256": "8668acf59faf2423be2b4c07a8faf7b9cc8c28b30f717c4065ecd0d47a625883",
+   "new_sha256": "b6902e3eef333c091b13434711be2e7eb60db1290b20364201131fc5d958f09f",
+   "old_wh": [
+    190,
+    195
+   ],
+   "new_wh": [
+    237,
+    250
+   ],
+   "old_bytes": 4588,
+   "new_bytes": 13806
+  },
+  {
+   "lib_img": "e6d29180bf61c20e1538a32b2bd59f92a5aba4038226567b3b5fb13af60d1a9e.jpg",
+   "card": "题-CM-89-07-烯丙醇的选择性氧化非常有趣.md",
+   "kind": "a",
+   "site_img": "e34-p16-q07-01-47a817aefbd3.webp",
+   "score": 0.9404,
+   "old_sha256": "a69a5a2889eba654bdb6792ce82f4fcc81ce4bf9d6e32f133d72bb9441138d60",
+   "new_sha256": "9e230417ae86970d751ca68d09ff0839117b35022ba0e988dfc4f6d4a99cb946",
+   "old_wh": [
+    246,
+    101
+   ],
+   "new_wh": [
+    309,
+    129
+   ],
+   "old_bytes": 3525,
+   "new_bytes": 6487
+  },
+  {
+   "lib_img": "e7ad0c205e645f43c404a41963e904ec270a58d714d21033d84afa10c664b041.jpg",
+   "card": "题-CM-147-04-研究人员设计出了一种含杂多酸.md",
+   "kind": "q",
+   "site_img": "e37-p23-q04-01-f86bd8e72a28.webp",
+   "score": 0.9622,
+   "old_sha256": "d38b8cabbc6365b8166125f7fab1a070a4880971aebbbb945d5dc659e8efbde1",
+   "new_sha256": "ab1854f1fbb3ebaa3ddeaa53a7be18f2a5ddab18931ec7141a27507634e2e802",
+   "old_wh": [
+    406,
+    229
+   ],
+   "new_wh": [
+    516,
+    295
+   ],
+   "old_bytes": 9328,
+   "new_bytes": 18954
+  },
+  {
+   "lib_img": "e81f38e3d54ca1bf7a80451f1d5fb3b9e76895d39347087ffb3628457c9dc3e7.jpg",
+   "card": "题-CM-117-02-硼氧双键具有较高的反应活性其.md",
+   "kind": "a",
+   "site_img": "e36-p03-a02-04-de342ab6e92d.webp",
+   "score": 0.9842,
+   "old_sha256": "bf375b2790ebee2554f27b422f05c509883abb1a1d4d91069c11c1dd9995e448",
+   "new_sha256": "c1e818ed6ce4692420c4a0d8e2d6de9576afd7dad3abc276b4befba2ab3f7066",
+   "old_wh": [
+    440,
+    214
+   ],
+   "new_wh": [
+    556,
+    272
+   ],
+   "old_bytes": 15353,
+   "new_bytes": 60133
+  },
+  {
+   "lib_img": "e959aad4db15cca8cba011329b7f90747c20ecb8ae96fe0800d6387811cf3933.jpg",
+   "card": "题-CM-142-08-吡啶并嘧啶酮是一种重要的杂环.md",
+   "kind": "q",
+   "site_img": "e37-p14-q08-02-46a8a9245b26.webp",
+   "score": 0.9263,
+   "old_sha256": "bc44d7d0e3793dee401f0b04f278d996be176810729f6d3cde978fdec8ca50cd",
+   "new_sha256": "34db58eb86363fbecdb34dbac52d57eb1c6fc26f2e6815d9e41e939ce0885bff",
+   "old_wh": [
+    384,
+    154
+   ],
+   "new_wh": [
+    485,
+    179
+   ],
+   "old_bytes": 6199,
+   "new_bytes": 10512
+  },
+  {
+   "lib_img": "e9ca109f1ca2f93d093e802a86fad558b90d8410542c438572fff6bd82acf808.jpg",
+   "card": "题-CM-158-10-叠氮乙烯是一种合成中常见的前.md",
+   "kind": "a",
+   "site_img": "e38-p06-a10-02-a44680c46960.webp",
+   "score": 0.9613,
+   "old_sha256": "96c421f154889a63d404b30946751518dad758dc774a28e3c112c9ba7525c97f",
+   "new_sha256": "936dceed095c6cae95c64af77121d81222206ad73474585b92c4a246be4e79d0",
+   "old_wh": [
+    431,
+    212
+   ],
+   "new_wh": [
+    538,
+    270
+   ],
+   "old_bytes": 9780,
+   "new_bytes": 33239
+  },
+  {
+   "lib_img": "e9ecc93cf5df8eaf48e484da62ae4d532493c0fd0f993823b89048499ef46f7d.jpg",
+   "card": "题-CM-86-02-2-1下面的化合物在甲醇中发.md",
+   "kind": "a",
+   "site_img": "e34-p13-q02-02-049a8cba6228.webp",
+   "score": 0.9093,
+   "old_sha256": "a849dacff485d73fd4848a5ca24c7d1cac994707b200e5913ea6cd51b3966fab",
+   "new_sha256": "dc840290df631634c2b06226f47c86620b2a9e19d56bad99b2fadd1cd49ce5f9",
+   "old_wh": [
+    471,
+    112
+   ],
+   "new_wh": [
+    588,
+    141
+   ],
+   "old_bytes": 7414,
+   "new_bytes": 15638
+  },
+  {
+   "lib_img": "ec0dd56b9d280ef02b85910174a4258d338d857ec1a7a68525a86f0c26abcbee.jpg",
+   "card": "题-CM-110-06-卟啉是一类由四个吡咯类亚基的.md",
+   "kind": "a",
+   "site_img": "e35-p23-q06-02-48ae188d1778.webp",
+   "score": 0.9161,
+   "old_sha256": "2cf19cd09f622c969f2d332a5d1a6ec21158c8326874d605b9f0741327a35a3e",
+   "new_sha256": "0d73194d3f2e2825341802879fb297a2d96ae8a52c2891b4362bf717d904737f",
+   "old_wh": [
+    312,
+    104
+   ],
+   "new_wh": [
+    394,
+    126
+   ],
+   "old_bytes": 4271,
+   "new_bytes": 7082
+  },
+  {
+   "lib_img": "eed1d3f9b97b54faaf75e7f6ab85649ccd8060b2cf17af776d0ee76519a399e3.jpg",
+   "card": "题-CM-79-08-8-1将下列化合物的碱性从强.md",
+   "kind": "q",
+   "site_img": "e34-p06-q08-02-ee767ecd2ff8.webp",
+   "score": 0.9642,
+   "old_sha256": "dc614aeb73cfd07c8e0d2ba955d60371004750583d188acef1c4e4db71fb295c",
+   "new_sha256": "3500919ca689c4bbe7a82c8f6935dd2bac757aac59b0341882e3bf74e675100d",
+   "old_wh": [
+    359,
+    168
+   ],
+   "new_wh": [
+    454,
+    218
+   ],
+   "old_bytes": 6392,
+   "new_bytes": 12314
+  },
+  {
+   "lib_img": "f02802d7ac690f603b77e25fd0cc644b28acfe7b3c880d498a08690e58ecd0ad.jpg",
+   "card": "题-CM-129-07-利用为苯基与重氮化合物的反应.md",
+   "kind": "a",
+   "site_img": "e36-p25-a07-02-d302a024376b.webp",
+   "score": 0.9367,
+   "old_sha256": "2d80fedf25839e3be45253f2cbc1f109a0f2dc8071dbb0a81ca5b12bbd580300",
+   "new_sha256": "016a4fe6646b558c2981bed2d71cd5e7cce8e6688113973274df4e0e4c2f4d18",
+   "old_wh": [
+    257,
+    151
+   ],
+   "new_wh": [
+    319,
+    194
+   ],
+   "old_bytes": 5847,
+   "new_bytes": 20029
+  },
+  {
+   "lib_img": "f0b3bda2b843cca8644833bf2d198d843fb637661f1985fa9792e01378a0eed4.jpg",
+   "card": "题-CM-103-06-金属M与卟啉配体结构如下所示.md",
+   "kind": "q",
+   "site_img": "e35-p15-q06-01-fbc68d669bdc.webp",
+   "score": 0.9713,
+   "old_sha256": "3cfa226557d29d8486664a48439c3866fd72ba2445ba69b0a0be008228ac8af1",
+   "new_sha256": "22f1329830f36f37297b4578bb5adec9c0051a3e31feeaef989801d9718e1d40",
+   "old_wh": [
+    279,
+    279
+   ],
+   "new_wh": [
+    353,
+    355
+   ],
+   "old_bytes": 9910,
+   "new_bytes": 21615
+  },
+  {
+   "lib_img": "f10d7861ed5613792933349c3f01d212f3ed572f1c4e7de4b815f1f557c97aed.jpg",
+   "card": "题-CM-155-07-7-1下面给出了的前体A的制.md",
+   "kind": "a",
+   "site_img": "e38-p03-q08-02-7b3b56798bad.webp",
+   "score": 0.98,
+   "old_sha256": "b9b5fe5bfcf540d89e05a0af5560b03462fae9a34c241e7a4e0c3ee2a5e5fc10",
+   "new_sha256": "003a92ad15f04d70c857e5945043a114ef6137c523ef010387938f460ea6c98a",
+   "old_wh": [
+    373,
+    151
+   ],
+   "new_wh": [
+    470,
+    186
+   ],
+   "old_bytes": 6156,
+   "new_bytes": 13221
+  },
+  {
+   "lib_img": "f154e613e6c63f16984acf086dd3c2e066d6582247d9821fb088f970617208f0.jpg",
+   "card": "题-CM-108-10-以上合成路线中的试剂1可用以.md",
+   "kind": "a",
+   "site_img": "e35-p21-q10-04-fdd287cd40c3.webp",
+   "score": 0.9569,
+   "old_sha256": "62487e9021baaa10205a682637f4a6709df2fc7a43ccc46bba8c6170ad734d1f",
+   "new_sha256": "bb815160ab3ed9d2bede77bfe9f089748c473332008debe9a3b79f2cab3c3d6a",
+   "old_wh": [
+    476,
+    128
+   ],
+   "new_wh": [
+    594,
+    165
+   ],
+   "old_bytes": 8836,
+   "new_bytes": 17836
+  },
+  {
+   "lib_img": "f19b140e44302648180c0ef8913d8448f3f82cdcde21cc16c067dfd8d9bbb903.jpg",
+   "card": "题-CM-80-07-在主-客体化学中为提高主体分.md",
+   "kind": "a",
+   "site_img": "e34-p07-q07-02-66bd71f50ec9.webp",
+   "score": 0.9897,
+   "old_sha256": "e53d65c23940aa0a54fdb8f842bf6811df94dc454cc679415d776b26fc796616",
+   "new_sha256": "fcbdd55658757f546fe5b060801151cbf5357cde1ca7657807b31272d54b328f",
+   "old_wh": [
+    364,
+    370
+   ],
+   "new_wh": [
+    460,
+    473
+   ],
+   "old_bytes": 15284,
+   "new_bytes": 36720
+  },
+  {
+   "lib_img": "f26390a482d9ac912b21714dbb53af24cdafcd31772352ba9dc8fd83b2bc4a23.jpg",
+   "card": "题-CM-75-09-将化合物X结构如下图所示溶于.md",
+   "kind": "q",
+   "site_img": "e34-p02-q09-01-054a471e3074.webp",
+   "score": 0.9342,
+   "old_sha256": "dfce11d4c32c79d83e1b34aa070afb25b3803adb0793f559bd1e6725113fc441",
+   "new_sha256": "b7aefd8ed26cdb23f2f2fccec3596fc6dae94a442dc2f470262a6a76d1a8491f",
+   "old_wh": [
+    203,
+    115
+   ],
+   "new_wh": [
+    252,
+    146
+   ],
+   "old_bytes": 4206,
+   "new_bytes": 6900
+  },
+  {
+   "lib_img": "f2bdbc28a52e7da3176ae4de59d9730669d00eef46f641ec657a1cf15e07b724.jpg",
+   "card": "题-CM-162-10-在六氟异丙醇中利用碘苯二乙酸.md",
+   "kind": "a",
+   "site_img": "e38-p11-q10-02-229291ef1ef4.webp",
+   "score": 0.8553,
+   "old_sha256": "8d462c1434b295892d2dc5116a082f46706348006a462b45df6c6f8ee60ec886",
+   "new_sha256": "b6230761b897c5cb73d793c9fe150d98f012b3e1f74eeedd75e79d7ca0a4159a",
+   "old_wh": [
+    498,
+    123
+   ],
+   "new_wh": [
+    617,
+    157
+   ],
+   "old_bytes": 7536,
+   "new_bytes": 14894
+  },
+  {
+   "lib_img": "f2d9e33275ca78d1f5ec495455737ee61f4e8443d5817621af5df465efb18a2c.jpg",
+   "card": "题-CM-165-09-9-1根据杂化轨道理论两个等.md",
+   "kind": "a",
+   "site_img": "e38-p15-a09-04-ccf9b3b96839.webp",
+   "score": 0.9603,
+   "old_sha256": "2db8f1d050ee12a6e737667a6e0673281a753f0064cf7d4220d94265bf34b8ed",
+   "new_sha256": "894945d41019a8784f15fc62296046f58f38344a430375973b8d788587d8cd00",
+   "old_wh": [
+    498,
+    162
+   ],
+   "new_wh": [
+    622,
+    210
+   ],
+   "old_bytes": 9029,
+   "new_bytes": 30296
+  },
+  {
+   "lib_img": "f356098bd175f8736168281a883fc5959ab3dd2e9592bc68a814169511148dee.jpg",
+   "card": "题-CM-170-11-最近某小组合成了一种光驱动的.md",
+   "kind": "a",
+   "site_img": "e38-p21-q11-03-c339346722d3.webp",
+   "score": 0.9556,
+   "old_sha256": "14b5dbcbb6399f978591ef9c666bdd31ade92e3926ef644b0a9cf8b76ec5df5b",
+   "new_sha256": "797e08bceb030683fb880292bfc5fc88eef6ac592b3f9498ba814541aeec5e8b",
+   "old_wh": [
+    465,
+    65
+   ],
+   "new_wh": [
+    577,
+    88
+   ],
+   "old_bytes": 3232,
+   "new_bytes": 5381
+  },
+  {
+   "lib_img": "f6e61ce95003a29e452f433878f3f4a0307dd9008907bd4fdad8747b32869102.jpg",
+   "card": "题-CM-170-09-长时间以来试剂的高效利用一直.md",
+   "kind": "a",
+   "site_img": "e38-p21-q09-03-71c102d2b815.webp",
+   "score": 0.9376,
+   "old_sha256": "75388d3889ea41808c035c0732871a932500626d04dc4cc98ea8570abce7a73b",
+   "new_sha256": "3385dee672219f3a17150f81b27dbfec9899de69c46a10128a681b547c5cb6a1",
+   "old_wh": [
+    304,
+    142
+   ],
+   "new_wh": [
+    375,
+    180
+   ],
+   "old_bytes": 5608,
+   "new_bytes": 11072
+  },
+  {
+   "lib_img": "f78b28c43e17da4d48be2216b987d7ca7dfc1c0df1c265e8c35570741659560c.jpg",
+   "card": "题-CM-170-10-10-1在超酸介质中往往会发.md",
+   "kind": "a",
+   "site_img": "e38-p21-q10-01-a8bf013ac691.webp",
+   "score": 0.9236,
+   "old_sha256": "f8a243e1809f2cf5f8fe91d1d67611d27cbf4019801f1d7ef86507bc420acd44",
+   "new_sha256": "be859bbe0bc707c8aefc826b65409bb8c00e2c06e830bdab7ada4ac79e0f5340",
+   "old_wh": [
+    512,
+    203
+   ],
+   "new_wh": [
+    600,
+    256
+   ],
+   "old_bytes": 10776,
+   "new_bytes": 19545
+  },
+  {
+   "lib_img": "f84c43f8939b0069a0a539757f16177bd9a3543b602f800df75d1dd44fdc760e.jpg",
+   "card": "题-CM-125-02-下图为酸性溶液中氮元素的La.md",
+   "kind": "a",
+   "site_img": "e36-p20-q02-02-8968bc1fa4e2.webp",
+   "score": 0.9613,
+   "old_sha256": "4c67e8d804fb316b3497db781c7ab442b15ba24d9754abbf2e9102c36fc41284",
+   "new_sha256": "be8840dc75d0539b4d6be91bc57f534062931da65835583f91df774b1cdea5e1",
+   "old_wh": [
+    148,
+    257
+   ],
+   "new_wh": [
+    194,
+    321
+   ],
+   "old_bytes": 5284,
+   "new_bytes": 10156
+  },
+  {
+   "lib_img": "f8d67b6700d444a4dbe6faf38006402b22bb919f445119082774b9c62dbdcff1.jpg",
+   "card": "题-CM-171-07-对于单线态氧参与的以下反应研.md",
+   "kind": "a",
+   "site_img": "e38-p22-q07-01-d2aa162d45b6.webp",
+   "score": 0.9534,
+   "old_sha256": "d9edc3fba0b59db9fb679c84e47b5761ef6452aee395de74d87b4aef3e14a3af",
+   "new_sha256": "0055301baf33c5b5e552deccf542e99f8c9b4040e61857821032d56621c96d4b",
+   "old_wh": [
+    343,
+    87
+   ],
+   "new_wh": [
+    425,
+    116
+   ],
+   "old_bytes": 3970,
+   "new_bytes": 7616
+  },
+  {
+   "lib_img": "f9ec996d2ab8df3e44bfa10315527a43ab07a4e258d7c4d0de63610a49984223.jpg",
+   "card": "题-CM-106-01-1-1在C减压下丙二酸用脱水.md",
+   "kind": "a",
+   "site_img": "e35-p18-a01-05-56b9df7c9694.webp",
+   "score": 0.8161,
+   "old_sha256": "964a82a7feebf02c298b9bc8e04b63f3f1dfbad5a4a27315852547c679b1c7f8",
+   "new_sha256": "582d3b3dfbc95a5eac8a15deed33b892bdf50bb653bc537b172dfff034cee0a9",
+   "old_wh": [
+    262,
+    290
+   ],
+   "new_wh": [
+    344,
+    380
+   ],
+   "old_bytes": 12166,
+   "new_bytes": 38250
+  },
+  {
+   "lib_img": "fa2df8a335ba72db95620f5fdb7b67241bf234ced6212bf635b86e7a64325d5c.jpg",
+   "card": "题-CM-158-13-化学人应该保持一颗赤子之心童.md",
+   "kind": "a",
+   "site_img": "e38-p06-a13-05-8eb3eb13c434.webp",
+   "score": 0.9769,
+   "old_sha256": "d7bf73fd49318bb47fe162cac6f761dd23610a69f045b93a323cdada387d61b2",
+   "new_sha256": "c3df80936f9a48de2cf3655a6b87d1a3a8845d83ba2971874026e86056743334",
+   "old_wh": [
+    443,
+    446
+   ],
+   "new_wh": [
+    554,
+    564
+   ],
+   "old_bytes": 15643,
+   "new_bytes": 56094
+  },
+  {
+   "lib_img": "fabd1c9fffccaf4620020d5ee4e71627668170789ff8f7802a0e9880af9afa0d.jpg",
+   "card": "题-CM-135-07-美国芝加哥大学一课题组研究了.md",
+   "kind": "q",
+   "site_img": "e37-p02-q07-07-abfe20ba378d.webp",
+   "score": 0.8911,
+   "old_sha256": "f6485636b848bbedd35521dc37e219a39587152f6cc19546a0482e0488331d6d",
+   "new_sha256": "b1debee527196e084d2b6044cd74a362bf6c6a74bac2a599686f00a780cb8cac",
+   "old_wh": [
+    215,
+    140
+   ],
+   "new_wh": [
+    270,
+    183
+   ],
+   "old_bytes": 5333,
+   "new_bytes": 10594
+  },
+  {
+   "lib_img": "fd7cbf2d49611cc48be83ba1f7cf0cf347e27f4b5f980f4ea19f1a15efcee182.jpg",
+   "card": "题-CM-106-07-7-1化合物A和B分别进行水.md",
+   "kind": "a",
+   "site_img": "e35-p18-a07-08-f2c609bd78ff.webp",
+   "score": 0.9559,
+   "old_sha256": "b7a419d622d353918c7e1135d0b8c8db3f0035667e3f26b5dccc48f2887b070b",
+   "new_sha256": "1037403f63c767e8528476f36cb3d9e3d0157af4fe2702c416d19cbe5d8e31da",
+   "old_wh": [
+    190,
+    65
+   ],
+   "new_wh": [
+    239,
+    86
+   ],
+   "old_bytes": 3409,
+   "new_bytes": 10095
+  },
+  {
+   "lib_img": "fe29ae3ff48641c2c396008f6dfad810cf378bf3e1f409be4bcc382d6c3fd939.jpg",
+   "card": "题-CM-123-10-奠是萘的同分异构体奠环体系的.md",
+   "kind": "a",
+   "site_img": "e36-p17-q10-02-27b245c7a1bd.webp",
+   "score": 0.9752,
+   "old_sha256": "ca0fae1544c8f12bbbcbc85896cd5a5188fc6ab088cb08021cce9587e07e056c",
+   "new_sha256": "0408b1bfbca68cdbae62004407be647aa509160b87bf98a16a0ddc5b72e0feef",
+   "old_wh": [
+    493,
+    110
+   ],
+   "new_wh": [
+    613,
+    134
+   ],
+   "old_bytes": 8180,
+   "new_bytes": 15622
+  },
+  {
+   "lib_img": "fee173666bec67d514f7b5899af8395f8fcb238c52f8e650d7c4df87fb89995f.jpg",
+   "card": "题-CM-124-06-6-1检验-氨基酸灵敏且最简.md",
+   "kind": "a",
+   "site_img": "e36-p18-a08-05-ce7597fdea04.webp",
+   "score": 0.9504,
+   "old_sha256": "c1b5d82e5a81512982bb2bf2f4dae7e8853cbd1bcd85daaf24f8b5073643d19c",
+   "new_sha256": "d42ceca1582add101fcb577653180566bc7815733945f6c79f0c16f231c31718",
+   "old_wh": [
+    326,
+    115
+   ],
+   "new_wh": [
+    399,
+    146
+   ],
+   "old_bytes": 5062,
+   "new_bytes": 17582
+  },
+  {
+   "lib_img": "ff08e804719b6864da945a9342f9979e822c7dfe69a942425cd3ae6e5a64e823.jpg",
+   "card": "题-CM-172-06-如图61所示的铁硫簇是FeF.md",
+   "kind": "a",
+   "site_img": "e38-p23-q06-02-a28ec009913c.webp",
+   "score": 0.9402,
+   "old_sha256": "2b86bea3f7d2bdaaaf56aa4b5b4908889b7c4b55ceb406a8fd7464dbe8f43d7e",
+   "new_sha256": "bd9f3a20af9dc88390b477fb0506fd4bc8648f2a54a4f71ceec39eec51d5ec77",
+   "old_wh": [
+    518,
+    234
+   ],
+   "new_wh": [
+    613,
+    290
+   ],
+   "old_bytes": 13071,
+   "new_bytes": 20139
+  },
+  {
+   "lib_img": "ff8251f9c54a3f61eaafe0e7367ed32707023a1c897fe4b13202b91b09c63b9a.jpg",
+   "card": "题-CM-155-03-将加入至和的甲苯溶液中充分反.md",
+   "kind": "a",
+   "site_img": "e38-p03-a03-01-454dcc9e67f4.webp",
+   "score": 0.9047,
+   "old_sha256": "b80bd1c80724163ca8a00423b223fb25e006441b2ddc1177a0bf2cae2af4fd8f",
+   "new_sha256": "77bad3e5494e165cb76a7c794634ee17fd88a96b63ea87f5432ac299457de815",
+   "old_wh": [
+    245,
+    106
+   ],
+   "new_wh": [
+    308,
+    141
+   ],
+   "old_bytes": 4173,
+   "new_bytes": 14304
+  }
+ ],
+ "skipped": [
+  {
+   "lib_img": "0e4d926e731e56505ddf6e23990bab41f86be7ef5f1db3c12dcbf6c0b7f8b9e1.jpg",
+   "card": "题-CM-103-09-有时吡啶环能呈现出一些类似于.md",
+   "kind": "a",
+   "site_img": "e35-p15-a09-02-b50ebd6817f6.webp",
+   "score": 0.9531,
+   "reason": "宽度增益不足 1.15x（保守跳过，已目检确认为同图）"
+  },
+  {
+   "lib_img": "e0e22831b30ac78febf42b093688f6909f4f6dd78c72754bad7c3e07515cb6ac.jpg",
+   "card": "题-CM-87-08-Payne重排是一种碱性条件.md",
+   "kind": "q",
+   "site_img": "e34-p14-q08-05-c00e5c112b3e.webp",
+   "score": 0.9552,
+   "reason": "宽度增益不足 1.15x（保守跳过，已目检确认为同图）"
+  }
+ ]
+}
