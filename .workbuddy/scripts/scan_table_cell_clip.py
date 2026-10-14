@@ -52,6 +52,17 @@ def norm(s):
     return re.sub(r'\s+', '', s.translate(TRANS))
 
 
+# ★ 已目检确认的误报白名单（覆盖规则假阳性的最后手段；见 scan_cell_clip_keep.json）
+#   ⚠️ key 必须与 norm() 同口径归一化，否则静默不命中（2026-10-14 实测踩过）
+import json
+KEEP_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'scan_cell_clip_keep.json')
+try:
+    with open(KEEP_PATH, encoding='utf-8') as _f:
+        KEEP = {norm(k): v for k, v in json.load(_f).items() if not k.startswith('_')}
+except Exception:
+    KEEP = {}
+
+
 def omml_cells(docx_path):
     """[(表序, 列数, 单元格文本)]，仅含 OMML 者。"""
     x = zipfile.ZipFile(docx_path).read('word/document.xml').decode('utf-8')
@@ -98,6 +109,9 @@ for docx in sorted(glob.glob(os.path.join(DOCX_DIR, '*.docx'))):
     for ti, ncol, t in cells:
         n = norm(t)
         if len(n) < 5 or n in full:
+            continue
+        # ★ 白名单：精确命中 或 前缀命中（key 足够长才允许前缀，防过宽）
+        if n in KEEP or any(len(k) >= 8 and n.startswith(k) for k in KEEP):
             continue
         r = longest_prefix(n, full) / len(n)
         if r >= 0.90:
