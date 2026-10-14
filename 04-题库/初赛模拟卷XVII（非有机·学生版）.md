@@ -46,13 +46,8 @@ question_count: 10
 ![[7e3f8fe7bb6519e3cba77128a9acdaefa48af2ea4d1b3bcc072b5ea399bf9bf5.jpg]]
 图 3
 
-8
-
 ![[ce154830d0887d2c916956e432e7052f70809892698becd06caa82d78401cd86.jpg]]
-图 4
-图 5
-图 6
-图 7
+图 4～图 7
 
 1-3 在 $63.5 \mathrm { GPa }$ 下， Zn 与N 可以形成含有多氮阴离子的化合物D（图 5）； $100 \mathrm { GPa }$ 下， 则形成包含一维氮链的化合物E（图6）。大球为Zn， 小球为N。
 
