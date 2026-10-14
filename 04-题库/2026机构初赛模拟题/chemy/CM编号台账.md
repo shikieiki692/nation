@@ -169,12 +169,28 @@ updated: 2026-10-05
 | CM-211 | `chemy-第39届初赛模拟20` | 9 | `Chemy-项目 dist/questions.json#chemy39-20-*` | 🆕 2026-10-14 新建（P2 批1） |
 | CM-212 | `chemy-第39届初赛模拟21` | 11 | `Chemy-项目 dist/questions.json#chemy39-21-*` | 🆕 2026-10-14 新建（P2 批1） |
 | CM-213 | `chemy-第39届初赛模拟22` | 9 | `Chemy-项目 dist/questions.json#chemy39-22-*` | 🆕 2026-10-14 新建（P2 批1） |
+| CM-214 | `chemy-第36届初赛模拟1` | 11 | `Chemy-项目 dist/questions.json#chemy36-1-*` | 🆕 2026-10-14 新建（P2 批2，36 届缺口） |
+| CM-215 | `chemy-第36届初赛模拟4` | 9 | `Chemy-项目 dist/questions.json#chemy36-4-*` | 🆕 2026-10-14 新建（P2 批2，36 届缺口） |
+| CM-216 | `chemy-第36届初赛模拟5` | 12 | `Chemy-项目 dist/questions.json#chemy36-5-*` | 🆕 2026-10-14 新建（P2 批2，36 届缺口） |
+| CM-217 | `chemy-第36届初赛模拟7` | 10 | `Chemy-项目 dist/questions.json#chemy36-7-*` | 🆕 2026-10-14 新建（P2 批2，36 届缺口） |
+| CM-218 | `chemy-第36届决赛模拟8` | 10 | `Chemy-项目 dist/questions.json#chemy36-8-*` | 🆕 2026-10-14 新建（P2 批2，36 届决赛缺口） |
+| CM-219 | `chemy-第36届决赛模拟9` | 9 | `Chemy-项目 dist/questions.json#chemy36-9-*` | 🆕 2026-10-14 新建（P2 批2，36 届决赛缺口） |
+| CM-220 | `chemy-第36届初赛模拟10` | 10 | `Chemy-项目 dist/questions.json#chemy36-10-*` | 🆕 2026-10-14 新建（P2 批2，36 届缺口） |
+| CM-221 | `chemy-第36届初赛模拟11` | 10 | `Chemy-项目 dist/questions.json#chemy36-11-*` | 🆕 2026-10-14 新建（P2 批2，36 届缺口） |
+| CM-222 | `chemy-第36届初赛模拟12` | 10 | `Chemy-项目 dist/questions.json#chemy36-12-*` | 🆕 2026-10-14 新建（P2 批2，36 届缺口） |
+| CM-223 | `chemy-第36届初赛模拟13` | 10 | `Chemy-项目 dist/questions.json#chemy36-13-*` | 🆕 2026-10-14 新建（P2 批2，36 届缺口） |
+| CM-224 | `chemy-第36届初赛模拟15` | 8 | `Chemy-项目 dist/questions.json#chemy36-15-*` | 🆕 2026-10-14 新建（P2 批2，36 届缺口） |
+| CM-225 | `chemy-第36届初赛模拟19` | 8 | `Chemy-项目 dist/questions.json#chemy36-19-*` | 🆕 2026-10-14 新建（P2 批2，36 届缺口） |
+| CM-226 | `chemy-第36届决赛模拟23` | 2 | `Chemy-项目 dist/questions.json#chemy36-23-*` | 🆕 2026-10-14 新建（P2 批2，36 届决赛缺口；与 CM-128 同源，本行为缺口部分） |
+| CM-227 | `chemy-第36届综合模拟24` | 8 | `Chemy-项目 dist/questions.json#chemy36-24-*` | 🆕 2026-10-14 新建（P2 批2，36 届综合缺口；与 CM-128 同源，本行为缺口部分） |
 
 ## 编号实况
 
-- 已占用套号 **167 个**：CM-01 ~ CM-05, CM-10 ~ CM-22, CM-41 ~ CM-213
+- 已占用套号 **181 个**：CM-01 ~ CM-05, CM-10 ~ CM-22, CM-41 ~ CM-227
 - 区间内空缺：CM-06, CM-07, CM-08, CM-09, CM-23, CM-24, CM-25, CM-26, CM-27, CM-28, CM-29, CM-30, CM-31, CM-32, CM-33, CM-34, CM-35, CM-36, CM-37, CM-38, CM-39, CM-40
-- 当前最大套号 **CM-213**，下一个新套号从 **CM-214** 起。
+- 当前最大套号 **CM-227**，下一个新套号从 **CM-228** 起。
+- P2 批2（2026-10-14）新建：CM-214~CM-227（**36 届缺口 127 题 / 14 套**；对照站点 `chemy36-*`，仅补库内未收部分；源＝Chemy- 项目 `dist/questions.json`，图＝站点 `assets/e36-pNN-[qa]MM-*` 原卷切图）。
+  - ⚠ CM-226 / CM-227 与既有 CM-128（36 届「决赛23」，源卷跨套合并）**同源**：CM-128 收录了站点 36-23／36-24 的 14 题，本批补其未收的 2＋8 题。库内 36 届既有 12 套（CM-116~129）与站点 25 套的对应关系详见 `09-审计报告/2026-10-14-chemy补录报告-批2（36届）.md`。
 - P2 批1（2026-10-14）新建：CM-192~CM-213（**39 届初赛模拟 1~22 全 22 套 / 210 张卡**；源＝Chemy- 项目 `dist/questions.json`，图＝站点 `assets/e39-pNN-[qa]MM-*` 原卷切图）。
 - P0（2026-10-02）新建：CM-43（33届联赛）、CM-44（34届联赛）、CM-45（35届联赛）、CM-46（38届联赛）、CM-47（40届联赛），共 **45** 张卡。
 - P1（2026-10-03）新建：CM-48（37届决赛第一场，13 题）、CM-49（37届决赛第二场，9 题），共 **22** 张卡。
