@@ -59,7 +59,7 @@ source_file: "chemy试题/第32届中国化学奥林匹克Chemy题目合集..md"
 
 20-5
 
-分类讨论， 设 $\mathbf { \Psi } _{ c }$ ， 根据余弦定理求角， 即可推得 $c = 6.2340 \mathrm{\mathring A}$ （2 分）$D = Z M _{ \mathrm { r } } / \mathrm { N } _{ \mathrm { A } } a ^{ 2 } c = 9.21 ~ \mathrm { g } { \cdot } \mathrm { cm } ^{ - 3 }$ （3 分）
+分类讨论， 设 $\mathbf { \Psi } _{ c }$ ， 根据余弦定理求角， 即可推得 $c = 6.2340 \text{Å}$ （2 分）$D = Z M _{ \mathrm { r } } / \mathrm { N } _{ \mathrm { A } } a ^{ 2 } c = 9.21 ~ \mathrm { g } { \cdot } \mathrm { cm } ^{ - 3 }$ （3 分）
 
 ## 知识点映射
 

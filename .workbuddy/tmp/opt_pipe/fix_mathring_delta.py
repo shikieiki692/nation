@@ -79,7 +79,7 @@ for dp, dn, fn in os.walk(ROOT):
             if r == '':
                 t2 = t2[:m.start()] + t2[m.end():]          # 孤立 Δ ⇒ 整体删除（不留空壳 \mathrm{}）
             else:
-                t2 = t2[:m.start()] + r'\\mathrm{%s}' % r.rstrip() + t2[m.end():]
+                t2 = t2[:m.start()] + r'\mathrm{%s}' % r.strip() + t2[m.end():]
         plan.append((p, n1, n2, len(t), len(t2), t2))
 
 print('待修卡数 %d ｜ 需人工复核项 %d' % (len(plan), len(review)))

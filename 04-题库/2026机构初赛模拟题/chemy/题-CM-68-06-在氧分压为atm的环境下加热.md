@@ -34,7 +34,7 @@ source_file: "chemy试题/第33届Chemy化学奥林匹克题目合集..md"
 
 ### 第 6 题（8 分）
 
-在氧分压为 atm 的环境下加热 $\mathrm { K } _{ 2 } \mathrm { O }$ 和 $\mathrm { Co } _{ 3 } \mathrm { O } _{ 4 }$ 的混合物至 $460^{ \circ } \mathrm { C }$ ， 可以得到一种蓝黑色吸湿性固体 $\pmb { x }$ 。在 $2 \mathrm { mol } { \cdot } \mathrm { L } ^{ - 1 }$ 盐酸中使用碘量法(以KI 作为碘源)测定 $\pmb { x }$ 的组成，平均每次测定耗去3 当量 $\mathrm { Na } _{ 2 } \mathrm { S } _{ 2 } \mathrm { O } _{ 3 }$ 。 $\mathrm { \Delta } \mathrm { X }$ 射线衍射结果表明固体 $\pmb { x }$ 的结构与某常见三元酸正盐的结构相似；在低温下测定该固体的磁矩并外推至 $0 \mathrm { ~ K ~ }$ ，可得该固体在 $178 \mathrm { ~ K ~ }$ 下的磁矩为 $2.6 \ \mathrm { B . M } .$ ， 在 $0 \mathrm { ~ K ~ }$ 下的磁矩为0。
+在氧分压为 atm 的环境下加热 $\mathrm { K } _{ 2 } \mathrm { O }$ 和 $\mathrm { Co } _{ 3 } \mathrm { O } _{ 4 }$ 的混合物至 $460^{ \circ } \mathrm { C }$ ， 可以得到一种蓝黑色吸湿性固体 $\pmb { x }$ 。在 $2 \mathrm { mol } { \cdot } \mathrm { L } ^{ - 1 }$ 盐酸中使用碘量法(以KI 作为碘源)测定 $\pmb { x }$ 的组成，平均每次测定耗去3 当量 $\mathrm { Na } _{ 2 } \mathrm { S } _{ 2 } \mathrm { O } _{ 3 }$ 。 $ \mathrm { X }$ 射线衍射结果表明固体 $\pmb { x }$ 的结构与某常见三元酸正盐的结构相似；在低温下测定该固体的磁矩并外推至 $0 \mathrm { ~ K ~ }$ ，可得该固体在 $178 \mathrm { ~ K ~ }$ 下的磁矩为 $2.6 \ \mathrm { B . M } .$ ， 在 $0 \mathrm { ~ K ~ }$ 下的磁矩为0。
 K2O 和Co3O4 的混合物至460℃，可以得
 
 6-1 写出 $\pmb { x }$ 的化学式。
