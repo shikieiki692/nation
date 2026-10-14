@@ -1,6 +1,6 @@
 ---
 title: Word友好 Markdown 符号速查表
-type: 系统
+type: 参考
 updated: 2026-08-01
 aliases:
   - Word Markdown 符号速查表

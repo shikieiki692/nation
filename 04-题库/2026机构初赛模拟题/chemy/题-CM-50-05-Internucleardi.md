@@ -14,7 +14,7 @@ knowledge_points:
   - "[[密堆积]]"
   - "[[配位数]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-15
 status: 已填充
 exam_stage: 初赛
 subject_module: 元素与分析
@@ -45,9 +45,11 @@ Internuclear distances, R (Å)
 
 ## 参考答案
 
+> 📄 校勘（2026-10-15）：答案区 OCR 吞值已按源件答案合集（第 32 届 Chemy 题目合集答案 PDF）回补 1 处。
+
 第 5 题（11 分）
 
-$\mathbf { 5 - 1 } \mathrm { A } \mathrm { : W } _{ 3 } \mathrm { N } _{ 4 }$ （0.5 分） B:WN （0.5 分） $\cdot$ （1 分）
+$\mathbf { 5 - 1 } \mathrm { A } \mathrm { : W } _{ 3 } \mathrm { N } _{ 4 }$ （0.5 分） B:WN （0.5 分） C: $\mathrm { W } _{ 2 } \mathrm { N } _{ 3 }$ （1 分）
 
 5-2 A 中氮原子配位数是 4 和 6 （0.5 分）， 钨原子配位数是 6 （0.5 分）。B 中氮原子配位数是 6（0.5 分），钨原子配位数是 6（0.5 分）。C 中氮原子的配位数是3 和6（0.5 分），钨原子的配位数是 6（0.5 分）
 

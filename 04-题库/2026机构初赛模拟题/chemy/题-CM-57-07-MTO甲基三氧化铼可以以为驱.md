@@ -14,7 +14,7 @@ knowledge_points:
   - "[[配合物]]"
   - "[[氧化态]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-15
 status: 已填充
 exam_stage: 初赛
 subject_module: 有机化学
@@ -52,6 +52,8 @@ L 代表溶剂，n = 1、2。
 
 ## 参考答案
 
+> 📄 校勘（2026-10-15）：答案区 OCR 吞值已按源件答案合集（第 32 届 Chemy 题目合集答案 PDF）回补 1 处。
+
 第 7 题（9 分）
 
 ![](images/9d042c73259151445ec67d4338a9a7170cc543605428e47f472393edcc832b61.jpg)
@@ -62,7 +64,7 @@ L 代表溶剂， $\mathbf { n } = 1$ 、2。
 
 H₃C H3C H₃CORe.oTR O=Re: ;oY —RA B C （每个2 分）
 
-7-2 B： $\cdot$ （0.5 分）； C： $+ 7$ （0.5 分）
+7-2 B： $+ 5$ （0.5 分）； C： $+ 7$ （0.5 分）
 
 ![](images/c1af48dc60933ac5d3e9fedefb5bbfc809de32fcb079c2452b6dd6e25da3ca4a.jpg)
 
