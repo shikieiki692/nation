@@ -226,12 +226,40 @@ updated: 2026-10-05
 | CM-268 | `chemy-第32届chemy初赛模拟9` | 1 | `Chemy-项目 dist/questions.json#chemy32-9-*` | 🆕 2026-10-14 新建（P2 批6，32 届残缺口；与 CM-58 同源，本行为缺口部分） |
 | CM-269 | `chemy-第32届chemy决赛模拟` | 2 | `Chemy-项目 dist/questions.json#chemy32-11-*` | 🆕 2026-10-14 新建（P2 批6，32 届残缺口；与 CM-60 同源，本行为缺口部分） |
 | CM-270 | `chemy-第32届chemy部分练习题目集锦` | 4 | `Chemy-项目 dist/questions.json#chemy32-12-*` | 🆕 2026-10-14 新建（P2 批6，32 届残缺口；站点 32-12；库内旧 CM-60 曾跨收本站点套，见校勘表待核项） |
+| CM-271 | `chemy-联赛第1套` | 10 | `Chemy-项目 dist/questions.json#chemy0-1-*` | 🆕 2026-10-14 新建（P2 批7·联赛） |
+| CM-272 | `chemy-联赛第2套` | 9 | `Chemy-项目 dist/questions.json#chemy0-2-*` | 🆕 2026-10-14 新建（P2 批7·联赛） |
+| CM-273 | `chemy-联赛第3套` | 10 | `Chemy-项目 dist/questions.json#chemy0-3-*` | 🆕 2026-10-14 新建（P2 批7·联赛） |
+| CM-274 | `chemy-联赛第4套` | 10 | `Chemy-项目 dist/questions.json#chemy0-4-*` | 🆕 2026-10-14 新建（P2 批7·联赛） |
+| CM-275 | `chemy-联赛第5套` | 9 | `Chemy-项目 dist/questions.json#chemy0-5-*` | 🆕 2026-10-14 新建（P2 批7·联赛） |
+| CM-276 | `chemy-联赛第6套` | 9 | `Chemy-项目 dist/questions.json#chemy0-6-*` | 🆕 2026-10-14 新建（P2 批7·联赛） |
+| CM-277 | `chemy-联赛第7套` | 10 | `Chemy-项目 dist/questions.json#chemy0-7-*` | 🆕 2026-10-14 新建（P2 批7·联赛） |
+| CM-278 | `chemy-联赛第8套` | 9 | `Chemy-项目 dist/questions.json#chemy0-8-*` | 🆕 2026-10-14 新建（P2 批7·联赛） |
+| CM-279 | `chemy-联赛第9套` | 9 | `Chemy-项目 dist/questions.json#chemy0-9-*` | 🆕 2026-10-14 新建（P2 批7·联赛） |
+| CM-280 | `chemy-联赛第10套` | 9 | `Chemy-项目 dist/questions.json#chemy0-10-*` | 🆕 2026-10-14 新建（P2 批7·联赛） |
+| CM-281 | `chemy-联赛第11套` | 10 | `Chemy-项目 dist/questions.json#chemy0-11-*` | 🆕 2026-10-14 新建（P2 批7·联赛） |
+| CM-282 | `chemy-联赛第12套` | 9 | `Chemy-项目 dist/questions.json#chemy0-12-*` | 🆕 2026-10-14 新建（P2 批7·联赛） |
+| CM-283 | `chemy-联赛第13套` | 10 | `Chemy-项目 dist/questions.json#chemy0-13-*` | 🆕 2026-10-14 新建（P2 批7·联赛） |
+| CM-284 | `chemy-联赛第14套` | 7 | `Chemy-项目 dist/questions.json#chemy0-14-*` | 🆕 2026-10-14 新建（P2 批7·联赛） |
+| CM-285 | `chemy-联赛第15套` | 15 | `Chemy-项目 dist/questions.json#chemy0-15-*` | 🆕 2026-10-14 新建（P2 批7·联赛） |
+| CM-286 | `chemy-联赛第16套` | 10 | `Chemy-项目 dist/questions.json#chemy0-16-*` | 🆕 2026-10-14 新建（P2 批7·联赛） |
+| CM-287 | `chemy-联赛第17套` | 11 | `Chemy-项目 dist/questions.json#chemy0-17-*` | 🆕 2026-10-14 新建（P2 批7·联赛） |
+| CM-288 | `chemy-联赛第18套` | 11 | `Chemy-项目 dist/questions.json#chemy0-18-*` | 🆕 2026-10-14 新建（P2 批7·联赛） |
+| CM-289 | `chemy-联赛第19套` | 13 | `Chemy-项目 dist/questions.json#chemy0-19-*` | 🆕 2026-10-14 新建（P2 批7·联赛） |
+| CM-290 | `chemy-联赛第20套` | 10 | `Chemy-项目 dist/questions.json#chemy0-20-*` | 🆕 2026-10-14 新建（P2 批7·联赛） |
+| CM-291 | `chemy-联赛第21套` | 11 | `Chemy-项目 dist/questions.json#chemy0-21-*` | 🆕 2026-10-14 新建（P2 批7·联赛） |
+| CM-292 | `chemy-联赛第22套` | 9 | `Chemy-项目 dist/questions.json#chemy0-22-*` | 🆕 2026-10-14 新建（P2 批7·联赛） |
+| CM-293 | `chemy-联赛第23套` | 10 | `Chemy-项目 dist/questions.json#chemy0-23-*` | 🆕 2026-10-14 新建（P2 批7·联赛） |
+| CM-294 | `chemy-联赛第24套` | 10 | `Chemy-项目 dist/questions.json#chemy0-24-*` | 🆕 2026-10-14 新建（P2 批7·联赛） |
 
 ## 编号实况
 
-- 已占用套号 **224 个**：CM-01 ~ CM-05, CM-10 ~ CM-22, CM-41 ~ CM-270
+- 已占用套号 **248 个**：CM-01 ~ CM-05, CM-10 ~ CM-22, CM-41 ~ CM-294
 - 区间内空缺：CM-06, CM-07, CM-08, CM-09, CM-23, CM-24, CM-25, CM-26, CM-27, CM-28, CM-29, CM-30, CM-31, CM-32, CM-33, CM-34, CM-35, CM-36, CM-37, CM-38, CM-39, CM-40
-- 当前最大套号 **CM-270**，下一个新套号从 **CM-271** 起。
+- 当前最大套号 **CM-294**，下一个新套号从 **CM-295** 起。
+- P2 批7·联赛（2026-10-14，**末批**）新建：CM-271~CM-294（**联赛 24 套 240 题**；对照站点 `chemy0-*`，库内该系列 **A=0**，240 题全为缺口；源＝Chemy- 项目 `dist/questions.json`，图＝站点 `assets/e0-pNN-[qa]MM-*` 原卷切图）。
+  - 🔴 **命名（owner 已拍板，P1 报告 §4.1）**：`source` 写 `chemy 联赛 第K套 第 N 题`（**不写届**），`source_norm: chemy-联赛第K套`；卡内注明站点编号 `chemy0-K`——避免与库内既有 **39/41/42 届联赛卷**（CM-05/41/42，28 题，**内容零重叠**）混淆。
+  - 源＝站点 `data/editions.json` 的 `0` 键：`Chemy化学奥林匹克竞赛联赛试题合集(1~24).pdf`（＋答案合集）；**该合集本地未存**（库内仅 33/34/35/38/40 届联赛单卷），故 `source_file` 记该 PDF 名。
+  - `exam_stage: 初赛`（与库内既有联赛卡 CM-05 一致）。
 - P2 批6（2026-10-14）新建：CM-262~CM-270（**33 届缺口 46 题 / 6 套 ＋ 32 届残缺口 7 题 / 3 套**；对照站点 `chemy33-*`／`chemy32-*`，仅补库内未收部分；源＝Chemy- 项目 `dist/questions.json`，图＝站点 `assets/eNN-pNN-[qa]MM-*` 原卷切图）。
   - 套型按本地源件目录 TOC 判：**33 届**（`第33届Chemy化学奥林匹克题目合集..md`，源件 18 段）＝ 有机化学专题2／计算题专题／决赛模拟1/2/3／**部分练习题目集锦**（末段，非决赛）；**32 届**（`第32届中国化学奥林匹克Chemy题目合集..md`）＝ 初赛模拟9／决赛模拟／**部分练习题目集锦**。决赛套 `exam_stage: 决赛`，其余记初赛。
   - 🔴 **命名沿用 32/33 届家族口径**（含历史遗留的重复 `chemy`）：`chemy-第33届chemy{套名}`／`chemy-第32届chemy{套名}`——与库内既有（CM-50~60、CM-61~79 区间）保持一致（同届内一致优先于跨届统一）。
