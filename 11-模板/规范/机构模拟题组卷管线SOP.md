@@ -56,6 +56,7 @@ tags: [规范, 组卷线, 机构模拟题, 初赛模拟卷, 真题版式, 回源
 >    同轮改 `qa_vol_deliver.py` 的 **H 判据**（卡答案图 ⊆ 卷答案图）为内容 sha 比对（原按文件名 ⇒ 同图不同名误报）。
 >    🔴 **全量核查发现 X/XI/XIp/XIV/XV/XVI 六卷亦报「缺图题」**（X 7、XI 5、XIp 6、XIV 5、XV 5、XVI 8 题）——
 >    已另立待办，**下一步逐卷核查**。
+> **提交脚本加固（同日）**：隔离索引提交（read-tree → add → commit）**会把并行会话「已删未提交」的文件一并提交为 delete**（本次实伤：误删对方的 chemy 报告，已 fixup 补回）。⇒ **必用 `git commit --only -m … <paths>`**，或提交后**必扫 `git show --stat HEAD` 有无 `delete mode` / 陌生路径**。
 > ④（同日追加）**新增 ④-a 一键执行入口 `qa_vol_all.py`**：串跑 ④/④-b/④-c/④-d/⑤/⑥（`--with-render` 追加 ⑦），
 >    汇总并给出退出码；④-d 判据加**字符归一化**（疑点 85→9）；引入**误报白名单** `scan_cell_clip_keep.json`
 >    （key 须与 `norm()` 同口径 + 支持前缀命中）。**定版实测：X~XVII 九卷 ALL PASS**。
