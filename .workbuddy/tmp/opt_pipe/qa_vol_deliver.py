@@ -16,6 +16,7 @@ qa_volX2 已覆盖：图守恒(md↔docx)、题标题数、字面 <table>、字�
 
 用法：python -X utf8 qa_vol_deliver.py [--vol XIV] [--all]
 """
+import hashlib
 import io
 import json
 import os
@@ -42,6 +43,27 @@ except Exception:
     REVIEWED = set()
 IMG_EMBED = re.compile(r"!\[\[([^\]\|\\]+)")
 IMG_MD = re.compile(r"!\[\]\(images/([^)\s]+)\)")
+
+
+def _ckey(name):
+    """★ 图片**内容** sha 前缀 —— 库内存在「同图不同名」（如 f86442ad 与 ce154830 内容一致，
+    系历史遗留命名）⇒ 只比文件名会误报「卡答案图缺失」（2026-10-14 卷 XVII 实测）。"""
+    b = os.path.basename(name)
+    for d in _IMG_DIRS:
+        q = os.path.join(d, b)
+        if os.path.isfile(q):
+            try:
+                return hashlib.sha256(open(q, "rb").read()).hexdigest()[:12]
+            except Exception:
+                break
+    m = re.match(r"^[0-9a-f]{8,}", b)
+    return m.group(0)[:12] if m else b
+
+
+_IMG_DIRS = []
+for _r, _d, _f in os.walk(os.path.join(ROOT, "04-题库")):
+    if os.path.basename(_r) == "images":
+        _IMG_DIRS.append(_r)
 # 「图指代词」：题面提到图却没有图 ⇒ 候选 S1
 FIG_REF = re.compile(r"(下图|右图|左图|上图|如下图|如图|见图|图\s*\d)")
 # curated OCR 错字（同形/形近，来自回源核验累积）
@@ -159,7 +181,8 @@ def check_vol(v):
             issues.append(("A", "题 %d 缺学生版段落" % (i + 1)))
             continue
         got = set(IMG_EMBED.findall("".join(stu_q[i][1].split("#### 答案")[:1])))
-        miss = {x for x in want if x not in got and x not in REVIEWED}
+        got_c = {_ckey(x) for x in got}
+        miss = {x for x in want if _ckey(x) not in got_c and x not in REVIEWED}
         if miss:
             issues.append(("A", "题 %d 卡题面图缺失 %d 张（例 %s）｜卡=%s 学生版=%s"
                            % (i + 1, len(miss), sorted(miss)[0][:16], sorted(want), sorted(got))))
@@ -183,7 +206,8 @@ def check_vol(v):
         if not want or i >= len(ans_q):
             continue
         got = set(IMG_EMBED.findall(ans_q[i][1]))
-        miss = {x for x in want if x not in got and x not in REVIEWED}
+        got_c = {_ckey(x) for x in got}
+        miss = {x for x in want if _ckey(x) not in got_c and x not in REVIEWED}
         if miss:
             issues.append(("H", "题 %d 卡答案图缺失 %d 张（例 %s）" % (i + 1, len(miss), sorted(miss)[0][:16])))
 

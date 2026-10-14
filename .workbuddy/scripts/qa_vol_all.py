@@ -11,6 +11,7 @@ r"""卷级「一键闸门」：串跑 ④ 系列全部交付前检查，退出�
   ② ④-b  交付件综合审计  qa_vol_deliver.py --vol <V>
   ③ ④-c  Å 误包/mathtyping 扫描   scan_mathring.py --vol <V>
   ④ ④-d  表格单元格 OMML 裁切扫描 scan_table_cell_clip.py --vol <V>   （须 pymupdf 解释器）
+  ⑤ ④-e  图源覆盖核验（逐题比对源卡图 vs 卷内图）verify_fig_coverage.py --vol <V> --strict
   ⑤ 师/生题面一致        gate_s_t_<V>.py（若存在）
   ⑥ 折行审计            table_wrap_audit.py <学生版.docx> <答案版.docx>
   ⑦ ⑫    渲染机检        qa_vol_render.py --vol <V>                  （仅 --with-render）
@@ -67,6 +68,7 @@ for V in VOLS:
     res.append(step('④-b 交付件审计', PY_SYS, [os.path.join(O, 'qa_vol_deliver.py'), '--vol', V]))
     res.append(step('④-c Å误包扫描', PY_SYS, [os.path.join(S, 'scan_mathring.py'), '--vol', V]))
     res.append(step('④-d 表格裁切扫描', PY_VENV, [os.path.join(S, 'scan_table_cell_clip.py'), '--vol', V]))
+    res.append(step('④-e 图源覆盖核验', PY_SYS, [os.path.join(S, 'verify_fig_coverage.py'), '--vol', V, '--strict']))
     st = os.path.join(O, 'gate_s_t_%s.py' % V)
     if not os.path.exists(st):
         st = os.path.join(O, '%s_consistency.py' % V.lower())
