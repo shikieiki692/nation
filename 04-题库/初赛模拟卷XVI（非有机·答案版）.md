@@ -70,7 +70,7 @@ Hdbm
 
 |  |  |
 | :---: | :---: |
-| ![[e5ac8a34c85c6d9304c68ce097c415ceee38fe9feb2418591ff57ec3335c4356.jpg\|250]] | ![[66d13ef950e9ecee49cb50aac0ccc5539d228eef760e02320a1909448732eb48.jpg\|250]] |
+| ![[e5ac8a34c85c6d9304c68ce097c415ceee38fe9feb2418591ff57ec3335c4356.jpg]] | ![[66d13ef950e9ecee49cb50aac0ccc5539d228eef760e02320a1909448732eb48.jpg]] |
 
 （2 分）
 Ti 上电子填入了 ttz 低能的 $\pi^{*}$ 轨道，降低了 Ti 中心电子密度（1 分）（共 3 分）
@@ -126,7 +126,7 @@ Ti 上电子填入了 ttz 低能的 $\pi^{*}$ 轨道，降低了 Ti 中心电子
 > **1-2-1-3**：$\mathrm{ClO_4^-}$ 与 $\mathrm{Ag^+}$：配位键（静电力）；$\mathrm{ClO_4^-}$ 与 $Me_2ttz$：**阴离子-$\pi$ 相互作用**（高氯酸根负电中心对着缺电子四嗪环的 $\pi$ 云）；$\mathrm{ClO_4^-}$ 与 $\mathrm{H_2O}$：$O-H\cdots O$ 氢键；化合物中 $\mathrm{Ag^+}$ 的配位数为 4。
 >
 > **1-2-2**：$\mathrm{Ag^+}$ 与 ttz 形成二维（4,4）网：每个 ttz 以对位两个 N 各连 2 个 Ag，Ag 兼作节点；平面间通过共用 $\mathrm{Ag^+}$ 交叉堆叠，$\mathrm{NO_3^-}$ 作端基单齿配体补位。此结构中 $\mathrm{Ag^+}$ 为 5 配位（网内 4 个 N＋1 个端基 O）。
-![[d30ac8db123e48dbb01b550e33aece2016e273b429f8fc776937840925f157ae.jpg|400]]
+![[d30ac8db123e48dbb01b550e33aece2016e273b429f8fc776937840925f157ae.jpg]]
 >
 > 校勘（2026-10-13）：1-2-2 答案结构图（二维 (4,4) 网·5 配位）系建卷漏收——源卷（化英社初赛模拟15 答案册 p7 4.2.2）原图在卡内而卷内缺失，本轮回源 PDF 目检后补入（学生版不含答案，不受影响）。
 > **1-2-3**：若 $Me_2ttz$ 也形成与 ttz 类似的二维平面结构，两对甲基将被挤到环同侧且彼此紧邻，**甲基间排斥（空间位阻）过大**，故只能退而形成一维链。
@@ -315,7 +315,7 @@ $$
 
 |  |  |
 | :---: | :---: |
-| ![[7597bc48390540bb3221ae3a26712b3477348def79894b4b5f86b44320f31c78.jpg\|250]] | ![[c1408cb1ca0a90afd6888a8d959f2c1b7d0760c4d63767966c4f5d2edcf946d6.jpg\|250]] |
+| ![[7597bc48390540bb3221ae3a26712b3477348def79894b4b5f86b44320f31c78.jpg]] | ![[c1408cb1ca0a90afd6888a8d959f2c1b7d0760c4d63767966c4f5d2edcf946d6.jpg]] |
 
 图 3 DXL-4 的晶体投影图
 
@@ -538,7 +538,7 @@ $$
 
 |  |  |
 | :---: | :---: |
-| ![[6f6ea31f7b45c003ce00373828c3e58e6cfa8cc3e2c94608124772f698e30a16.jpg\|250]] | ![[f9c25d8cf66afa052557dc1db8cde1a47309ce437479934e5eea042528911c26.jpg\|250]] |
+| ![[6f6ea31f7b45c003ce00373828c3e58e6cfa8cc3e2c94608124772f698e30a16.jpg]] | ![[f9c25d8cf66afa052557dc1db8cde1a47309ce437479934e5eea042528911c26.jpg]] |
 
 $$
 T _ {\mathrm{L}}
@@ -650,7 +650,7 @@ Cu(I)由于具有灵活多变的配位数，在配体存在时该物种常常形
 
 |  |  |
 | :---: | :---: |
-| ![[cd66c0426c1d0d98315d5cf5a44bb769392b9c793b474b2348f9b285ebf6bdb7.jpg\|250]] | ![[a7424c98bea73b88b1f9a20fd7a80421510b3cf2a10dde197a40de029fb42658.jpg\|250]] |
+| ![[cd66c0426c1d0d98315d5cf5a44bb769392b9c793b474b2348f9b285ebf6bdb7.jpg]] | ![[a7424c98bea73b88b1f9a20fd7a80421510b3cf2a10dde197a40de029fb42658.jpg]] |
 
 6-2-2 计算该晶体的密度 D。
 
@@ -685,7 +685,7 @@ Cu(I)由于具有灵活多变的配位数，在配体存在时该物种常常形
 
 |  |  |
 | :---: | :---: |
-| ![[0703fbadbc7bb15e6dd7759b2b3d03e39bca17c3043d39b071c60a9ec988e6bb.jpg\|250]] | ![[800ab172af72e914a4fa6ebe5d44a0685bb7d0d98af9b1619a6d5aa3fb0f7a01.jpg\|250]] |
+| ![[0703fbadbc7bb15e6dd7759b2b3d03e39bca17c3043d39b071c60a9ec988e6bb.jpg]] | ![[800ab172af72e914a4fa6ebe5d44a0685bb7d0d98af9b1619a6d5aa3fb0f7a01.jpg]] |
 **6-2-2**
 
 $$
@@ -866,7 +866,7 @@ Na 的电荷密度高，极化性强，与 Si(1) 配位，吸取 Si(1) 的电子
 
 |  |  |
 | :---: | :---: |
-| ![[a8ec894e2d9d4a311f8eea0d9bf94bf3cd0e71763bfabe54082718dc55509c3a.jpg\|250]] | ![[a9b30bc60f7623c25ecce039b809828dce0a6032c6c5aefcc25ab05b6c2a035d.jpg\|250]] |
+| ![[a8ec894e2d9d4a311f8eea0d9bf94bf3cd0e71763bfabe54082718dc55509c3a.jpg]] | ![[a9b30bc60f7623c25ecce039b809828dce0a6032c6c5aefcc25ab05b6c2a035d.jpg]] |
 
 Figure 1. Crystal structure of $Cs_{7}NaSi_{8}$ . The cubic unit cell (a), the coordination of the Na atoms within the $[\mathrm{Na}(\mathrm{Si}_{4})_{2}]^{7-}$ units (b), and the coordination of the Cs1 and Cs2 atoms (c) are depicted. All interatomic distances are given in Å with respect to the crystal structure determined at 100 K.
 (请注意题干中的 Si(1)与 Si(2)记号和原文献图中的不一致。另外本题采用 Materials Project 网站上的数据，和原文献存在一定偏差。)
@@ -1376,7 +1376,7 @@ $$S_8^{\#} + S_8^{\circ} \rightleftharpoons S_{(8n+8)}^{\#} \qquad K_2=\frac{[S_
 
 |  |  |  |
 | :---: | :---: | :---: |
-| ![[23c91d0ba2ad6d009f5b4b04be2d53b899c8e29f7654da36d478936fbe2814c4.jpg\|175]] | ![[aef85dcee47ce2caf5ea6bb4b90bd5543bc4036cf2adbfcfe6299f02f391219e.jpg\|175]] | ![[349c6e99c2e3a6c69a9ac3d1b570bffc189e23418ae6b1a231c91510bd80e242.jpg\|175]] |
+| ![[23c91d0ba2ad6d009f5b4b04be2d53b899c8e29f7654da36d478936fbe2814c4.jpg]] | ![[aef85dcee47ce2caf5ea6bb4b90bd5543bc4036cf2adbfcfe6299f02f391219e.jpg]] | ![[349c6e99c2e3a6c69a9ac3d1b570bffc189e23418ae6b1a231c91510bd80e242.jpg]] |
 
 不要求键级、自由基；结构2、3不要求立体结构，只要键连顺序正确就可以。
 
@@ -1854,7 +1854,7 @@ Cu(In, Ga)$\mathrm{Se}_{2}$ -I-III-VI 族量子点 PbS-IV-VI 族量子点 InAs-I
 
 |  |  |
 | :---: | :---: |
-| ![[7df8ce37f3cbc48cc8e4cf773d4b48ae29f5145cd112d8dee3eff1171d79936d.jpg\|250]] | ![[d427b345d3ba72ce53c1d56597eb6963fa43b94755b9fc8724265870449d0e73.jpg\|250]] |
+| ![[7df8ce37f3cbc48cc8e4cf773d4b48ae29f5145cd112d8dee3eff1171d79936d.jpg]] | ![[d427b345d3ba72ce53c1d56597eb6963fa43b94755b9fc8724265870449d0e73.jpg]] |
 
 以 $\frac{d+194.84}{\lambda}$ 对 $\lambda$ 作图，利用二次函数回归方程得：
 

@@ -188,7 +188,7 @@ Cardiolyte
 
 | Myoview | Ceretec |
 | :---: | :---: |
-| ![[0161e0666a4c4780b20247dd1cda8405369adf86b36051ad3af0ddbb49150f88.jpg\|250]] | ![[15cc592c5a684bf709783d2daa6f7073a868348879cf3399d97217eb9eb675d2.jpg\|184]] |
+| ![[0161e0666a4c4780b20247dd1cda8405369adf86b36051ad3af0ddbb49150f88.jpg]] | ![[15cc592c5a684bf709783d2daa6f7073a868348879cf3399d97217eb9eb675d2.jpg]] |
 
 6-6 在开发用放射性同位素进行肿瘤成像的新技术时，一个目标是标记可以有效靶向肿瘤的单链抗体片段。 $\left[{ }^{am}\mathrm{X}\left(\mathrm{H}_{2} \mathrm{O}\right)_{3}(\mathrm{CO})_{3}\right]^{+}$ 可用于标记带有 C-末端组氨酸结构的单链抗体片段。一种合成方法是： $THF \cdot BH_{3}$ 、CO、KOH 在乙醇中按 1:1:2 的比例反应，得到一种 2:1 型盐 K(反应 3)，其中 B 不与 O 相连；K 再与 ${}^{am}X$ 的最高价简单含氧酸阴离子反应，即可得到 $\left[{ }^{am}\mathrm{X}\left(\mathrm{H}_{2} \mathrm{O}\right)_{3}(\mathrm{CO})_{3}\right]^{+}$ 。写出 K 的化学式，并写出反应 3 的化学反应方程式。
 

@@ -155,11 +155,11 @@ Ref. air duct 为参比气体，其中 $\mathrm{O}_2$ 分压为 $0.21 \mathrm{at
 
 |  |  |
 | :---: | :---: |
-| ![[b00246ed9bd76c1c4de9c3cc2580dd995c3cde7ad645d7a8803554bd25b76215.jpg\|250]] | ![[8ddc41bdf4c2b9acf9a1d8eb495c0a6684a8825d26a97a3f15d5a6a1301a2378.jpg\|250]] |
+| ![[b00246ed9bd76c1c4de9c3cc2580dd995c3cde7ad645d7a8803554bd25b76215.jpg]] | ![[8ddc41bdf4c2b9acf9a1d8eb495c0a6684a8825d26a97a3f15d5a6a1301a2378.jpg]] |
 
 |  |  |
 | :---: | :---: |
-| ![[11ba7b2e8160df6e5da9805448f77f12311832d1b8c933efb4da315e4d65083e.jpg\|250]] | ![[b8ea3462d5d84411963b67be129281fc54e279bd3b2a6311d4455ba05f33e728.jpg\|250]] |
+| ![[11ba7b2e8160df6e5da9805448f77f12311832d1b8c933efb4da315e4d65083e.jpg]] | ![[b8ea3462d5d84411963b67be129281fc54e279bd3b2a6311d4455ba05f33e728.jpg]] |
 
 3-3 极限电流型传感器也是一种常见的氧气传感器，其结构示意图如右：
 
@@ -231,7 +231,7 @@ Diffusion barrier 为扩散障碍层；Diffusion gap 为扩散腔；圆圈为电
 
 |  |  |  |
 | :---: | :---: | :---: |
-| ![[38af43a60ccea950f7d90132b78e5f883a4b9d6114f5f7e56efd88660a85ab84.jpg\|175]] | ![[81a30f4af75c11d9caab186a9977878a4fc34f10dafe4ccd26676cbc2c66d8f2.jpg\|175]] | ![[a5a8eb811bd4258bddc146ba3b91f6ce3b16a9656a9d1c09b9fc9e3324271e33.jpg\|175]] |
+| ![[38af43a60ccea950f7d90132b78e5f883a4b9d6114f5f7e56efd88660a85ab84.jpg]] | ![[81a30f4af75c11d9caab186a9977878a4fc34f10dafe4ccd26676cbc2c66d8f2.jpg]] | ![[a5a8eb811bd4258bddc146ba3b91f6ce3b16a9656a9d1c09b9fc9e3324271e33.jpg]] |
 
 图 D、E、F 显示了不同含水量的 PVA 水凝胶对可见光的吸收率。
 
@@ -250,7 +250,7 @@ Diffusion barrier 为扩散障碍层；Diffusion gap 为扩散腔；圆圈为电
 
 | B |  |
 | :---: | :---: |
-| ![[df0e84b7ccebc1a778f88c06be8e17048ec84e0a735ea0cbced9118a235fff22.jpg\|250]] | ![[a3daa739e9396155741580f23faffaf945d0515a32963c8d4a58092b7662cd53.jpg\|250]] |
+| ![[df0e84b7ccebc1a778f88c06be8e17048ec84e0a735ea0cbced9118a235fff22.jpg]] | ![[a3daa739e9396155741580f23faffaf945d0515a32963c8d4a58092b7662cd53.jpg]] |
 
 6-3-1 若释放某环状团簇所需的最大波长为 500 nm，假设构成该团簇的水分子在液相中均参与形成所有可能的氢键，平均键能 $\Delta_{1}=0.248$ eV，根据计算画出该团簇的结构。
 
@@ -474,7 +474,7 @@ a) 锯齿型    b) 扶手椅型    c) 螺旋型
 
 | (a) | (b) | (c) |
 | :---: | :---: | :---: |
-| ![[4cc1c49d5f19e32869fe06c3287d51685125cbe287c514835cb477a2550e5b26.jpg\|175]] | ![[85d249e18fb123282ad76e457c74729dab5b2f698ce76b5a9ce50585603a6973.jpg\|175]] | ![[627649c752e9177bb2214fc0bba9f1b029e1d7612c8cb339de6cfa916f43cf2e.jpg\|175]] |
+| ![[4cc1c49d5f19e32869fe06c3287d51685125cbe287c514835cb477a2550e5b26.jpg]] | ![[85d249e18fb123282ad76e457c74729dab5b2f698ce76b5a9ce50585603a6973.jpg]] | ![[627649c752e9177bb2214fc0bba9f1b029e1d7612c8cb339de6cfa916f43cf2e.jpg]] |
 
 ---
 

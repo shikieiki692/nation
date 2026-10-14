@@ -467,7 +467,7 @@ Cardiolyte
 
 | Myoview | Ceretec |
 | :---: | :---: |
-| ![[0161e0666a4c4780b20247dd1cda8405369adf86b36051ad3af0ddbb49150f88.jpg\|250]] | ![[15cc592c5a684bf709783d2daa6f7073a868348879cf3399d97217eb9eb675d2.jpg\|184]] |
+| ![[0161e0666a4c4780b20247dd1cda8405369adf86b36051ad3af0ddbb49150f88.jpg]] | ![[15cc592c5a684bf709783d2daa6f7073a868348879cf3399d97217eb9eb675d2.jpg]] |
 
 6-6 在开发用放射性同位素进行肿瘤成像的新技术时，一个目标是标记可以有效靶向肿瘤的单链抗体片段。 $\left[{ }^{am}\mathrm{X}\left(\mathrm{H}_{2} \mathrm{O}\right)_{3}(\mathrm{CO})_{3}\right]^{+}$ 可用于标记带有 C-末端组氨酸结构的单链抗体片段。一种合成方法是： $THF \cdot BH_{3}$ 、CO、KOH 在乙醇中按 1:1:2 的比例反应，得到一种 2:1 型盐 K(反应 3)，其中 B 不与 O 相连；K 再与 ${}^{am}X$ 的最高价简单含氧酸阴离子反应，即可得到 $\left[{ }^{am}\mathrm{X}\left(\mathrm{H}_{2} \mathrm{O}\right)_{3}(\mathrm{CO})_{3}\right]^{+}$ 。写出 K 的化学式，并写出反应 3 的化学反应方程式。
 
@@ -675,7 +675,7 @@ $4[\mathrm{K}([2.2.2]\mathrm{crypt})]_{2}[\mathrm{Sn}_{2}\mathrm{Bi}_{2}]\cdot \
 
 |  |  |  |
 | :---: | :---: | :---: |
-| ![[dbaabe28d7f397af6feb08c2ed2b72164a121bc9fa2118e4a4304b9d2e9e04a5.jpg\|175]] | ![[bd92ba2b449195988d5dbffbae0998193adb482669d99b5e0ad0e69401679db2.jpg\|175]] | ![[0d41f58b955e03da8b401131b9dc031eb70ea02e6469776e8190651c013a4dfd.jpg\|175]] |
+| ![[dbaabe28d7f397af6feb08c2ed2b72164a121bc9fa2118e4a4304b9d2e9e04a5.jpg]] | ![[bd92ba2b449195988d5dbffbae0998193adb482669d99b5e0ad0e69401679db2.jpg]] | ![[0d41f58b955e03da8b401131b9dc031eb70ea02e6469776e8190651c013a4dfd.jpg]] |
 
 (3 分, 漏标电荷扣一分, 不重复扣分; 漏画阳离子扣一分)
 
@@ -1044,7 +1044,7 @@ A. Cu, Sn    B. Cu, Ni    C. Cu, Zn
 
 |  |  |
 | :---: | :---: |
-| ![[28484c6597137c398dc8528dab0d28181e37bdc3e668b8598bd7efb89c2046f7.jpg\|250]] | ![[ce7a923777224e8d56cc2ccdb6a6103f3a95d507559e6ad25a773ff601fdf1c5.jpg\|250]] |
+| ![[28484c6597137c398dc8528dab0d28181e37bdc3e668b8598bd7efb89c2046f7.jpg]] | ![[ce7a923777224e8d56cc2ccdb6a6103f3a95d507559e6ad25a773ff601fdf1c5.jpg]] |
 
 11-1-1 CuNi3(2分),9.04 g·cm-3(2分)
 
@@ -1062,11 +1062,11 @@ A. Cu, Sn    B. Cu, Ni    C. Cu, Zn
 
 |  |  |
 | :---: | :---: |
-| ![[6ec8cfa37f272f546d8b5b71f5deb69a6edb4bdd756babe3f488a6e8815f4346.jpg\|250]] | ![[64a542540ca46c03419f51fc35c44308761a6ef2145d3fe48f18754f0b34436c.jpg\|250]] |
+| ![[6ec8cfa37f272f546d8b5b71f5deb69a6edb4bdd756babe3f488a6e8815f4346.jpg]] | ![[64a542540ca46c03419f51fc35c44308761a6ef2145d3fe48f18754f0b34436c.jpg]] |
 
 |  |  |
 | :---: | :---: |
-| ![[8057a86d826b81438191614525cd4f135d94ed3c0e11d18b7bd646a942399114.jpg\|250]] | ![[0045f8c100fabfdb4c146293e67d4f81683f6de259f31233bfb2192a9e7dac99.jpg\|250]] |
+| ![[8057a86d826b81438191614525cd4f135d94ed3c0e11d18b7bd646a942399114.jpg]] | ![[0045f8c100fabfdb4c146293e67d4f81683f6de259f31233bfb2192a9e7dac99.jpg]] |
 
 > **解析**（据源答案整理）：考查铜的元素化学。要点：由晶胞参数与原子计数得金属互化物 CuNi₃、ρ≈9.04 g·cm⁻³，属正交晶系底心点阵；Cu₂O 显色归因于晶体缺陷；CuI 与 Hg 反应生成 Cu₂HgI₄ 并析出 Cu。
 
@@ -1413,7 +1413,7 @@ CO（A 的结构 2 分，副产物 1 分）
 
 |  |  |
 | :---: | :---: |
-| ![[d24780f20ffafc1586d62c011137b302fa9a93929f1eccf6cfef3271d41378e4.jpg\|250]] | ![[c8fc60d0db2e3f83633ca9dae5cc9d17284b459ebe13432450471e525e8c4b52.jpg\|250]] |
+| ![[d24780f20ffafc1586d62c011137b302fa9a93929f1eccf6cfef3271d41378e4.jpg]] | ![[c8fc60d0db2e3f83633ca9dae5cc9d17284b459ebe13432450471e525e8c4b52.jpg]] |
 
 根据测定的数据，指出反应近似对各底物的整数级数，并指出反应的决速步。对二氟乙烯酮（F）为1级，对亚胺（G）为0级；决速步为二氟乙烯酮的产生。（反应级数各1分，决速步1分）
 

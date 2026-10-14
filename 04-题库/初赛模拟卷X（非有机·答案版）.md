@@ -48,7 +48,7 @@ $$
 
 |  |  |
 | :---: | :---: |
-| ![[743970b176aa3dd4740e77074afdab11cb5af08f70e7bd582f2b315441d37fc0.jpg\|250]] | ![[6a1ff241851b4001a2fb8f4d46c7075f5327dcc498dd35b1e133238973012670.jpg\|250]] |
+| ![[743970b176aa3dd4740e77074afdab11cb5af08f70e7bd582f2b315441d37fc0.jpg]] | ![[6a1ff241851b4001a2fb8f4d46c7075f5327dcc498dd35b1e133238973012670.jpg]] |
 
 (3 分)
 
@@ -166,7 +166,7 @@ B 和一种含有 Mg-Mg 键的化合物，分别给出[A]与 B 的结构。
 
 |  |  |
 | :---: | :---: |
-| ![[a6ac38603af86101b5528df8fc8ea8035a0c900f9e2690fdb353be1fcf237185.png\|250]] | ![[d59abaf80d045224beec77a8cc40d35defa442200e2c50f995b691fab057dee4.jpg\|250]] |
+| ![[a6ac38603af86101b5528df8fc8ea8035a0c900f9e2690fdb353be1fcf237185.png]] | ![[d59abaf80d045224beec77a8cc40d35defa442200e2c50f995b691fab057dee4.jpg]] |
 
 (图中略去了所有 $\mathrm{Cp^{*}}$ 上的Me)
 
@@ -176,7 +176,7 @@ B 和一种含有 Mg-Mg 键的化合物，分别给出[A]与 B 的结构。
 
 |  |  |
 | :---: | :---: |
-| ![[dd0241b1991dcad9adc1a4fa9109fd982fc83b6b3bb49f0637b4f60ae76a5985.jpg\|250]] | ![[9c359535c484ab1ac02057c6304a5140c2e4eaba75ec6d7d348a2fa2edfb14bd.jpg\|250]] |
+| ![[dd0241b1991dcad9adc1a4fa9109fd982fc83b6b3bb49f0637b4f60ae76a5985.jpg]] | ![[9c359535c484ab1ac02057c6304a5140c2e4eaba75ec6d7d348a2fa2edfb14bd.jpg]] |
 
 | 2-3-1 | [A] | B |
 |:--:|:--:|:--:|
@@ -286,7 +286,7 @@ $\mathrm{Na}[\mathrm{Ru}(\mathrm{C}_5\mathrm{H}_5)(\mathrm{CO})_2]$ 与三氟化
 
 |  |  |
 | :---: | :---: |
-| ![[ba0fc0cc0c01d5981f404ce7a173479b748db4925bdb02108304207823ccb449.jpg\|250]] | ![[19084cecf29a4134bddcd5ea6eac9d88528989448ff4984d0c740a72db4411f3.jpg\|250]] |
+| ![[ba0fc0cc0c01d5981f404ce7a173479b748db4925bdb02108304207823ccb449.jpg]] | ![[19084cecf29a4134bddcd5ea6eac9d88528989448ff4984d0c740a72db4411f3.jpg]] |
 
 (每个2分)3-5-2  $2B_{3}F_{5}=B_{2}F_{4}+B_{4}F_{6}CO$ (2分)
 
@@ -296,7 +296,7 @@ $\mathrm{Na}[\mathrm{Ru}(\mathrm{C}_5\mathrm{H}_5)(\mathrm{CO})_2]$ 与三氟化
 
 |  |  |  |
 | :---: | :---: | :---: |
-| ![[5bbcb4e78d91a04ce6771e4726b154d3605a761b5c385dd9d69c62e88f2cbaff.jpg\|175]] | ![[d733153e71c4edda84beb1c40cc8b6fed025e49fe9a9071d3067175a12ab3045.jpg\|175]] | ![[bab43762084554077733f58ba85b70dcfc817c48c99fdbe2baf285945f5cb1c9.jpg\|175]] |
+| ![[5bbcb4e78d91a04ce6771e4726b154d3605a761b5c385dd9d69c62e88f2cbaff.jpg]] | ![[d733153e71c4edda84beb1c40cc8b6fed025e49fe9a9071d3067175a12ab3045.jpg]] | ![[bab43762084554077733f58ba85b70dcfc817c48c99fdbe2baf285945f5cb1c9.jpg]] |
 
 每个2分;结构 $Q^{+}$ 不要求键级。
 
@@ -492,7 +492,7 @@ Au5-LHAu5-SP C
 
 |  |  |  |
 | :---: | :---: | :---: |
-| ![[dc6a9a39b362eca76e5a3fb250c783d3a6d153e953a402c8da47bececc870983.jpg\|175]] | ![[13b7690c2f301d7d0367d99cbb0c788fbc30b7203a6b615c374f13953575a958.jpg\|175]] | ![[e0c3c9c1637cc7097b12517b9efb21a81a789a92d6417d887f5b6684365b65f9.jpg\|175]] |
+| ![[dc6a9a39b362eca76e5a3fb250c783d3a6d153e953a402c8da47bececc870983.jpg]] | ![[13b7690c2f301d7d0367d99cbb0c788fbc30b7203a6b615c374f13953575a958.jpg]] | ![[e0c3c9c1637cc7097b12517b9efb21a81a789a92d6417d887f5b6684365b65f9.jpg]] |
 
 **6-2-2** 仅通过题目条件判断, $L_{Ph}$ 可能有一下两种结构。
 
@@ -621,13 +621,13 @@ $$w(\mathrm{Cr}) = \frac{n_2(\mathrm{Cr^{n+}}) \times M(\mathrm{Cr})}{m_2(\mathr
 
 | (a) | (b) |
 | :---: | :---: |
-| ![[62a8c234f6fadcb3841662199524150d837d8d1d4822d0373c52d05e94471302.jpg\|250]] | ![[fc9561331e87f00b90b31d8c2fb06734d5c62041a8963c1cbb822c48ed9b08a0.jpg\|250]] |
+| ![[62a8c234f6fadcb3841662199524150d837d8d1d4822d0373c52d05e94471302.jpg]] | ![[fc9561331e87f00b90b31d8c2fb06734d5c62041a8963c1cbb822c48ed9b08a0.jpg]] |
 
 8-1-2 1994 年对固相分子氚 $\varepsilon-N_{2}$ 的计算研究表明，其在高压下可转变为聚合相 cg-N。如下左图，零温下 $\varepsilon-N_{2}\rightarrow cg-N$ 聚合反应的转变压力可通过二者的能量(eV/atom)-体积( $A^{3}/atom$ )曲线（图中用实线表示）的公切线（图中用点状直线表示）给出。根据此图，计算零温下 $\varepsilon-N_{2}\rightarrow cg-N$ 聚合反应的转变压力，结果保留 2 位有效数字。
 
 |  |  |
 | :---: | :---: |
-| ![[4bfd296bbf1e9fcbb56ae15e3c355d895f2ab466203fabf037ce3d9dc4a2e0ab.jpg\|250]] | ![[60931edafd99344873e8cf7ab0048a85166fe5f9b79e71dacd61d8de126a398e.jpg\|250]] |
+| ![[4bfd296bbf1e9fcbb56ae15e3c355d895f2ab466203fabf037ce3d9dc4a2e0ab.jpg]] | ![[60931edafd99344873e8cf7ab0048a85166fe5f9b79e71dacd61d8de126a398e.jpg]] |
 
 8-2 2004 年，Eremets 等使用激光加热和金刚石压砧装置，在 T > 2000 K，p > 110 GPa 条件下首次得到了 cg-N 晶体。表征产物的方法包括以 5 μm 为步长穿过砧面采集 X 射线衍射谱，如上右图所示，衍射峰已用粗实线段标出。提示：图中 ±20 μm 为砧面边缘，衍射峰不属于 cg-N 晶体。
 
@@ -720,13 +720,13 @@ $$
 
 |  |  |
 | :---: | :---: |
-| ![[1a69878f1c3e0eea89cefc6142e795ec24c6d66a8b88e6b9219fb27ce555799e.jpg\|250]] | ![[5c949451b0feb00a9bd43f8c4153d1638801f463c85e92f91312477f2dbfc5e8.jpg\|250]] |
+| ![[1a69878f1c3e0eea89cefc6142e795ec24c6d66a8b88e6b9219fb27ce555799e.jpg]] | ![[5c949451b0feb00a9bd43f8c4153d1638801f463c85e92f91312477f2dbfc5e8.jpg]] |
 
 (b) (1 分)
 
 |  |  |
 | :---: | :---: |
-| ![[5e943a199ed8215aa70903267802b5eb7db84cad9a9197b9bb754f9e18adbbed.jpg\|250]] | ![[94f80904e6bb20c69c0c714fbe6c0ca424e95c511ff0721668ce2aee2e2b6944.jpg\|250]] |
+| ![[5e943a199ed8215aa70903267802b5eb7db84cad9a9197b9bb754f9e18adbbed.jpg]] | ![[94f80904e6bb20c69c0c714fbe6c0ca424e95c511ff0721668ce2aee2e2b6944.jpg]] |
 
 $$
 \begin{array}{r l}   p = - (1.3 \mathrm{eV/atom-0.2eV/atom}) / (5.0 \mathrm {\text{Å}^ {3} /atom-10.0 \text{Å}^ {3} /atom}) = 3.5 \times 10 ^ {10} \mathrm{Pa} \\   \quad (2 \text {分,} 2.7 \times 10 ^ {10} \mathrm{Pa} \sim 3.7 \times 10 ^ {10} \mathrm{Pa} \text {均得分}) \end{array}
@@ -777,7 +777,7 @@ $$
 
 |  |  |
 | :---: | :---: |
-| ![[610bb28e95b5d9517baacbead5156a83bb3fd59e93c7871b546daa55fed84143.jpg\|250]] | ![[01301307c6e51eb1debcc76439836b58391c52851773eb73759f3a1694f1e484.jpg\|250]] |
+| ![[610bb28e95b5d9517baacbead5156a83bb3fd59e93c7871b546daa55fed84143.jpg]] | ![[01301307c6e51eb1debcc76439836b58391c52851773eb73759f3a1694f1e484.jpg]] |
 
 8-8-1 为 H、 $CH_{3}$ 和 OH 稳定 cg-N 表面的能力从强到弱排序。
 

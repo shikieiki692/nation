@@ -71,7 +71,7 @@ question_count: 10
 
 | Ca |  |
 | :---: | :---: |
-| ![[5fc4764497bebbbd924885aad5494e91c5dea9d3db1c9494b35ccd0ab4db1bfa.jpg\|250]] | ![[bddab23ff37b8554e19e06a54dcc437ab0d1fba489ddb76c43301f1f2f56ea02.jpg\|250]] |
+| ![[5fc4764497bebbbd924885aad5494e91c5dea9d3db1c9494b35ccd0ab4db1bfa.jpg]] | ![[bddab23ff37b8554e19e06a54dcc437ab0d1fba489ddb76c43301f1f2f56ea02.jpg]] |
 
 若干超导氧化物结构沿 a 方向的投影图如下（从左到右依次记为图 1、图 2、图 3），所有示出的配位多面体中心或小白球为铜，大白球代表稀土原子（Ln），配位多面体的顶点与阴影球为 O 原子。
 
@@ -79,7 +79,7 @@ question_count: 10
 
 |  |  |  |
 | :---: | :---: | :---: |
-| ![[2b1ebe6a2ed3201cb7d01454f418c9d01c69224d0472316c7def280b2271f3fa.jpg\|175]] | ![[ed3cb5dc5dc5e91c3868ea6ce38fcce8dc3c2fe3114125c80233df878e8bcc39.jpg\|175]] | ![[2b32cb3837c2abde14c1dc2a3f877f3f21f864165228547d18f609b129c63bb2.jpg\|175]] |
+| ![[2b1ebe6a2ed3201cb7d01454f418c9d01c69224d0472316c7def280b2271f3fa.jpg]] | ![[ed3cb5dc5dc5e91c3868ea6ce38fcce8dc3c2fe3114125c80233df878e8bcc39.jpg]] | ![[2b32cb3837c2abde14c1dc2a3f877f3f21f864165228547d18f609b129c63bb2.jpg]] |
 
 2-2 指出图 2 对应晶体中金属离子的配位多面体。
 
@@ -125,7 +125,7 @@ question_count: 10
 
 |  |  |
 | :---: | :---: |
-| ![[6a7cbcf3dfd44a534bf6325f3b4687aa361245698395205597594924db34c817.jpg\|250]] | ![[2166f9778b29c1758cde1d80fe2cc1ed68459e80798e911b603824eaae559953.jpg\|250]] |
+| ![[6a7cbcf3dfd44a534bf6325f3b4687aa361245698395205597594924db34c817.jpg]] | ![[2166f9778b29c1758cde1d80fe2cc1ed68459e80798e911b603824eaae559953.jpg]] |
 
 4-1 写出该晶体的化学式，并指出它的点阵形式和结构基元。
 

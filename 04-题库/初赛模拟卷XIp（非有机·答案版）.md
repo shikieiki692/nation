@@ -233,11 +233,11 @@ $$
 
 |  |  |
 | :---: | :---: |
-| ![[d957a2c21ad6022361efcfdd4664c178f6c91fe21ec4fdc34d31e30c43889beb.jpg\|250]] | ![[df4e342e3ee82ad0d86ff48685c1feaff4882ac630ce0288b3a026b86214bb6b.jpg\|250]] |
+| ![[d957a2c21ad6022361efcfdd4664c178f6c91fe21ec4fdc34d31e30c43889beb.jpg]] | ![[df4e342e3ee82ad0d86ff48685c1feaff4882ac630ce0288b3a026b86214bb6b.jpg]] |
 
 |  |  |
 | :---: | :---: |
-| ![[135132630ccb6d5e18c2bae609c10735330c80549b62bf4903f5c91f722945c0.jpg\|250]] | ![[ee483295375b403019e7a4b430a7170f73fc18254bc8f23409f90d0a4fe3dfb7.jpg\|250]] |
+| ![[135132630ccb6d5e18c2bae609c10735330c80549b62bf4903f5c91f722945c0.jpg]] | ![[ee483295375b403019e7a4b430a7170f73fc18254bc8f23409f90d0a4fe3dfb7.jpg]] |
 
 > —— 解析 ——
 >
@@ -297,11 +297,11 @@ Ref. air duct 为参比气体，其中 $\mathrm{O}_2$ 分压为 $0.21 \mathrm{at
 
 |  |  |
 | :---: | :---: |
-| ![[b00246ed9bd76c1c4de9c3cc2580dd995c3cde7ad645d7a8803554bd25b76215.jpg\|250]] | ![[8ddc41bdf4c2b9acf9a1d8eb495c0a6684a8825d26a97a3f15d5a6a1301a2378.jpg\|250]] |
+| ![[b00246ed9bd76c1c4de9c3cc2580dd995c3cde7ad645d7a8803554bd25b76215.jpg]] | ![[8ddc41bdf4c2b9acf9a1d8eb495c0a6684a8825d26a97a3f15d5a6a1301a2378.jpg]] |
 
 |  |  |
 | :---: | :---: |
-| ![[11ba7b2e8160df6e5da9805448f77f12311832d1b8c933efb4da315e4d65083e.jpg\|250]] | ![[b8ea3462d5d84411963b67be129281fc54e279bd3b2a6311d4455ba05f33e728.jpg\|250]] |
+| ![[11ba7b2e8160df6e5da9805448f77f12311832d1b8c933efb4da315e4d65083e.jpg]] | ![[b8ea3462d5d84411963b67be129281fc54e279bd3b2a6311d4455ba05f33e728.jpg]] |
 
 3-3 极限电流型传感器也是一种常见的氧气传感器，其结构示意图如右：
 
@@ -356,11 +356,11 @@ A.
 
 |  |  |
 | :---: | :---: |
-| ![[8242801ed29597111f95d15e18a4e351a574dce46169126353c9420bf278b072.jpg\|250]] | ![[8e954a9608c01cdd49eb32e35efa9e904b76e4abd86de865c2c87917d8b34011.jpg\|250]] |
+| ![[8242801ed29597111f95d15e18a4e351a574dce46169126353c9420bf278b072.jpg]] | ![[8e954a9608c01cdd49eb32e35efa9e904b76e4abd86de865c2c87917d8b34011.jpg]] |
 
 |  |  |
 | :---: | :---: |
-| ![[2ef658182fedef4dae80a68033def5f832f10271829786b7f534f8df8ea24ba1.jpg\|250]] | ![[27e08dea23b925d7a57cf0ff7775174ab5b1132a6111e0770d8b7b0714d7f2dc.jpg\|250]] |
+| ![[2ef658182fedef4dae80a68033def5f832f10271829786b7f534f8df8ea24ba1.jpg]] | ![[27e08dea23b925d7a57cf0ff7775174ab5b1132a6111e0770d8b7b0714d7f2dc.jpg]] |
 
 3-2-3 共 3 分
 
@@ -602,7 +602,7 @@ $$
 
 |  |  |  |
 | :---: | :---: | :---: |
-| ![[38af43a60ccea950f7d90132b78e5f883a4b9d6114f5f7e56efd88660a85ab84.jpg\|175]] | ![[81a30f4af75c11d9caab186a9977878a4fc34f10dafe4ccd26676cbc2c66d8f2.jpg\|175]] | ![[a5a8eb811bd4258bddc146ba3b91f6ce3b16a9656a9d1c09b9fc9e3324271e33.jpg\|175]] |
+| ![[38af43a60ccea950f7d90132b78e5f883a4b9d6114f5f7e56efd88660a85ab84.jpg]] | ![[81a30f4af75c11d9caab186a9977878a4fc34f10dafe4ccd26676cbc2c66d8f2.jpg]] | ![[a5a8eb811bd4258bddc146ba3b91f6ce3b16a9656a9d1c09b9fc9e3324271e33.jpg]] |
 
 图 D、E、F 显示了不同含水量的 PVA 水凝胶对可见光的吸收率。
 
@@ -621,7 +621,7 @@ $$
 
 | B |  |
 | :---: | :---: |
-| ![[df0e84b7ccebc1a778f88c06be8e17048ec84e0a735ea0cbced9118a235fff22.jpg\|250]] | ![[a3daa739e9396155741580f23faffaf945d0515a32963c8d4a58092b7662cd53.jpg\|250]] |
+| ![[df0e84b7ccebc1a778f88c06be8e17048ec84e0a735ea0cbced9118a235fff22.jpg]] | ![[a3daa739e9396155741580f23faffaf945d0515a32963c8d4a58092b7662cd53.jpg]] |
 
 6-3-1 若释放某环状团簇所需的最大波长为 500 nm，假设构成该团簇的水分子在液相中均参与形成所有可能的氢键，平均键能 $\Delta_{1}=0.248$ eV，根据计算画出该团簇的结构。
 
@@ -655,7 +655,7 @@ $$
 
 |  |  |  |
 | :---: | :---: | :---: |
-| ![[c7dce5f2cbcb566adebe488948c1e5d58320dd4d84ae6857744bca9cd2f294e9.jpg\|175]] | ![[39977a354020d7c2c3f96dd1077dd6f08b19d221a6303f59aa631a9b91bef601.jpg\|175]] | ![[e50dfedc6c318978c21b83359e704aed3b9fe3e14243d90b24628905fe9481bc.jpg\|175]] |
+| ![[c7dce5f2cbcb566adebe488948c1e5d58320dd4d84ae6857744bca9cd2f294e9.jpg]] | ![[39977a354020d7c2c3f96dd1077dd6f08b19d221a6303f59aa631a9b91bef601.jpg]] | ![[e50dfedc6c318978c21b83359e704aed3b9fe3e14243d90b24628905fe9481bc.jpg]] |
 
 ① 纯水和纯 PVA 对大部分波长可见光的吸收率均远低于水凝胶。
 ② 冻干 PVA 水凝胶的含水量居中时对 520nm 光的吸收率较高，约在水质量分数 0.8 处最高；含水量过高或过低均不利于吸收。
@@ -779,7 +779,7 @@ C. $K_{\mathrm{R}} = 16K^{6}\cdot \mathrm{EM} / 3$
 
 | A | B |
 | :---: | :---: |
-| ![[3ee698847197c5fa5b436c15e7290b9c0b61195ea8f23aa1bedb2af560323d80.jpg\|250]] | ![[4fd8e335543dac02beed15b4935f72ac77aeaca212875942bcbbfdb6600cb498.jpg\|250]] |
+| ![[3ee698847197c5fa5b436c15e7290b9c0b61195ea8f23aa1bedb2af560323d80.jpg]] | ![[4fd8e335543dac02beed15b4935f72ac77aeaca212875942bcbbfdb6600cb498.jpg]] |
 
 7-3 在测得氢键强度(即对应的平衡常数)后,研究人员进而想要测出组装过程最后一步对应的有效浓度 EM。
 
@@ -787,7 +787,7 @@ C. $K_{\mathrm{R}} = 16K^{6}\cdot \mathrm{EM} / 3$
 
 |  |  |  |
 | :---: | :---: | :---: |
-| ![[1aab72985cc7f2787181aed1ec99378def234d41ac2fbe0020ca5b4fd1d07035.jpg\|175]] | ![[1c201f73f9b5f8c4c4e7030f212f01f70d7ea0b61ffa0fdaf77fda7e0cc552c5.jpg\|175]] | ![[7c8bc8a42c68ef2279896b09fef3098382a4e8a4b91ee100767cb4dba38ad6e0.jpg\|175]] |
+| ![[1aab72985cc7f2787181aed1ec99378def234d41ac2fbe0020ca5b4fd1d07035.jpg]] | ![[1c201f73f9b5f8c4c4e7030f212f01f70d7ea0b61ffa0fdaf77fda7e0cc552c5.jpg]] | ![[7c8bc8a42c68ef2279896b09fef3098382a4e8a4b91ee100767cb4dba38ad6e0.jpg]] |
 
 $$
 \mathrm{EM} = K _ {\text { intra }} / K _ {\text { inter }}
@@ -914,7 +914,7 @@ $$
 
 |  |  |
 | :---: | :---: |
-| ![[1371e0a529bc9ff516d205f6721a8708608889bed037fda99f44158c865ee0d7.jpg\|250]] | ![[37158fa880d01ad48c1fecf2e8f00888e8319b611f46c5c57c9d70691948acf9.jpg\|250]] |
+| ![[1371e0a529bc9ff516d205f6721a8708608889bed037fda99f44158c865ee0d7.jpg]] | ![[37158fa880d01ad48c1fecf2e8f00888e8319b611f46c5c57c9d70691948acf9.jpg]] |
 
 8-2-1-2（共2分）
 
@@ -924,7 +924,7 @@ E 中存在螯合配体，相比 C 更难发生配体取代反应（1分）
 
 |  |  |
 | :---: | :---: |
-| ![[f380e9544b4788e576cd5b00862011faed58466ff9a95b4a7cf8e228150114bd.jpg\|250]] | ![[069d700bef0c9a7fcaae05885c3d4a97651043a6fafb6ba952fdb91f3ee1a551.jpg\|250]] |
+| ![[f380e9544b4788e576cd5b00862011faed58466ff9a95b4a7cf8e228150114bd.jpg]] | ![[069d700bef0c9a7fcaae05885c3d4a97651043a6fafb6ba952fdb91f3ee1a551.jpg]] |
 
 8-2-2-1（共4分，PpY链段骨架、立体结构、聚合度、端基结构各1分）
 
@@ -942,7 +942,7 @@ E 中存在螯合配体，相比 C 更难发生配体取代反应（1分）
 
 |  |  |
 | :---: | :---: |
-| ![[41727827cf2ca366c0a707558bdb98f8135bda4705804dcea80bb8903b6cb1dc.jpg\|250]] | ![[285d08bdabee3d5abdada318b71fe5c089edd01d227f82edcea4d3cdbee25ce2.jpg\|250]] |
+| ![[41727827cf2ca366c0a707558bdb98f8135bda4705804dcea80bb8903b6cb1dc.jpg]] | ![[285d08bdabee3d5abdada318b71fe5c089edd01d227f82edcea4d3cdbee25ce2.jpg]] |
 
 8-8-2 H 可以与 $Zn^{2+}$ 络合，掠夺蛋白质中的 $Zn^{2+}$ ，转移到细胞质中，使细胞质中 $Zn^{2+}$ 累积，从而引发免疫反应（1 分，写出 H 与 $Zn^{2+}$ 络合即可得分）
 
@@ -1128,7 +1128,7 @@ a) 锯齿型    b) 扶手椅型    c) 螺旋型
 
 | (a) | (b) | (c) |
 | :---: | :---: | :---: |
-| ![[4cc1c49d5f19e32869fe06c3287d51685125cbe287c514835cb477a2550e5b26.jpg\|175]] | ![[85d249e18fb123282ad76e457c74729dab5b2f698ce76b5a9ce50585603a6973.jpg\|175]] | ![[627649c752e9177bb2214fc0bba9f1b029e1d7612c8cb339de6cfa916f43cf2e.jpg\|175]] |
+| ![[4cc1c49d5f19e32869fe06c3287d51685125cbe287c514835cb477a2550e5b26.jpg]] | ![[85d249e18fb123282ad76e457c74729dab5b2f698ce76b5a9ce50585603a6973.jpg]] | ![[627649c752e9177bb2214fc0bba9f1b029e1d7612c8cb339de6cfa916f43cf2e.jpg]] |
 
 #### 答案
 
