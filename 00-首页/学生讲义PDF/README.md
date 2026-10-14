@@ -8,6 +8,7 @@ related:
   - "[[11-模板/PDF生成策略-Agent一键说明]]"
   - "[[11-模板/scripts/LATEX_STRATEGY]]"
 status: draft
+role: 资源索引
 ---
 
 # 学生讲义 PDF 目录说明

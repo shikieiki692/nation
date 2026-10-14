@@ -11,6 +11,7 @@ tags:
   - word
   - handout
 status: 已填充
+role: 速查卡
 ---
 
 # Word友好 Markdown 符号速查表

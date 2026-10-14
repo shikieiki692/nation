@@ -4,6 +4,7 @@ type: 系统
 status: 已填充
 updated: 2026-06-15
 tags: [系统, 复习, KP, Dataview]
+role: 资源索引
 ---
 
 # KP复习清单
