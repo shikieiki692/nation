@@ -1,7 +1,7 @@
 ---
 title: 给Agent下指令模板
 type: 系统
-role: 用户提示模板
+role: 启动提示词
 updated: 2026-08-01
 tags: [系统, 用户入口, 指令模板, 快捷口令, Agent]
 status: draft

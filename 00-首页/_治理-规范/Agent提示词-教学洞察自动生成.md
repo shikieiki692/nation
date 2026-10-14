@@ -2,7 +2,7 @@
 title: Agent提示词-教学洞察自动生成
 type: 系统
 version: v1.0
-role: 教学洞察批量生产
+role: 启动提示词
 triggers:
   - "生成教学洞察"
   - "从教学逻辑提炼生成洞察"

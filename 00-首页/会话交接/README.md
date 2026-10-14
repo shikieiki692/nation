@@ -1,7 +1,7 @@
 ---
 title: 会话交接-说明
 type: 系统
-role: 会话交接说明
+role: 会话交接
 updated: 2026-06-24
 tags: [系统, 会话交接]
 max_active_notes: 5

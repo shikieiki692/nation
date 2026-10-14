@@ -1,7 +1,7 @@
 ---
 title: 讲义生产SOP与双向映射规范
 type: 系统
-role: SOP
+role: 标准作业流程
 date: 2026-07-24
 updated: 2026-08-01
 sop_target: 学生讲义与习题集生产

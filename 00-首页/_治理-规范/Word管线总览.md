@@ -4,7 +4,7 @@ aliases:
   - Word 讲义管线总览
   - Word讲义生成总览
 type: 系统
-role: Word讲义入口说明
+role: 工具说明
 purpose: 统一说明学生讲义 Markdown 到 Word 成品的当前主链路、依赖、脚本、目录和使用方式
 version: v1.0
 created: 2026-07-03

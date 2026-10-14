@@ -1,7 +1,7 @@
 ---
 title: 断链内容建设backlog
 type: 系统
-role: 内容建设清单
+role: 历史缺口 / 监控
 tags: [系统, 断链, 内容建设, 待办]
 updated: 2026-09-01
 status: 已填充

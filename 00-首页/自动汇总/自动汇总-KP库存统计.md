@@ -1,7 +1,7 @@
 ---
 title: 自动汇总-KP库存统计
 type: 系统
-role: 自动库存汇总
+role: 质量仪表
 tags: [系统, 自动汇总, KP库存]
 updated: 2026-06-13
 status: draft
