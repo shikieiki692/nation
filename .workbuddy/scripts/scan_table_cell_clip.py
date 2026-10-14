@@ -39,8 +39,17 @@ except ImportError:
     pymupdf = None
 
 
+# ★ 字符归一化表：消解 PDF 文本提取与 docx 的**符号变体**差异（这是本判据的主要误报源）
+TRANS = str.maketrans({
+    '∘': '°', '\u2212': '-', '\u2013': '-', '\u2014': '-',   # 度符号 / 各种减号
+    '⋅': '·', '\u00b7': '·',                                  # 点乘
+    '（': '(', '）': ')', '，': ',', '：': ':',               # 全角→半角
+    '\u00a0': '', '\u2009': '', '\u200b': '',                 # 各类窄空格/零宽
+})
+
+
 def norm(s):
-    return re.sub(r'[\s\u00a0]+', '', s)
+    return re.sub(r'\s+', '', s.translate(TRANS))
 
 
 def omml_cells(docx_path):
