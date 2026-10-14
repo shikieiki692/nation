@@ -2,7 +2,7 @@
 title: validate_kb 每周运行（定时巡检）
 type: 活跃任务卡
 task_type: 系统维护
-status: 已填充
+status: active
 priority: P3
 area: 知识库系统
 owner: Agent

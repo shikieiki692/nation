@@ -2,7 +2,7 @@
 title: KP待完善项-非文字任务清零
 type: 活跃任务卡
 task_type: 知识库构建
-status: 已填充
+status: active
 priority: P1
 area: 知识库内容
 owner: Agent
