@@ -53,7 +53,7 @@ source_norm: "自编·有机化学"
 Grignard 试剂对甲醛的 C=O 进行亲核加成，水解后得到**伯醇**。
 
 $$
-\mathrm{CH_3MgBr + HCHO \xrightarrow{1.\;Et_2O\\2.\;H_3O^+} CH_3CH_2OH}
+\mathrm{CH_3MgBr + HCHO \xrightarrow{\substack{1.\;Et_2O\\2.\;H_3O^+}} CH_3CH_2OH}
 $$
 
 产物：乙醇（伯醇）。
@@ -65,7 +65,7 @@ $$
 Grignard 试剂对醛的 C=O 加成，水解后得到**仲醇**。
 
 $$
-\mathrm{CH_3CH_2MgBr + CH_3CHO \xrightarrow{1.\;Et_2O\\2.\;H_3O^+} CH_3CH_2CH(OH)CH_3}
+\mathrm{CH_3CH_2MgBr + CH_3CHO \xrightarrow{\substack{1.\;Et_2O\\2.\;H_3O^+}} CH_3CH_2CH(OH)CH_3}
 $$
 
 产物：2-丁醇（仲醇）。
@@ -121,7 +121,7 @@ $$
 
 **合成路线**：
 $$
-\mathrm{CH_3CH_2MgBr + CH_3CH_2CH_2CHO \xrightarrow{1.\;Et_2O\\2.\;H_3O^+} CH_3CH_2CH(OH)CH_2CH_2CH_3}
+\mathrm{CH_3CH_2MgBr + CH_3CH_2CH_2CHO \xrightarrow{\substack{1.\;Et_2O\\2.\;H_3O^+}} CH_3CH_2CH(OH)CH_2CH_2CH_3}
 $$
 
 **切断方式二**：切断 OH 与丁基之间的键：
@@ -140,7 +140,7 @@ $$
 
 **合成路线**：
 $$
-\mathrm{C_6H_5COCH_3 + CH_3MgBr \xrightarrow{1.\;Et_2O\\2.\;H_3O^+} C_6H_5C(CH_3)_2OH}
+\mathrm{C_6H_5COCH_3 + CH_3MgBr \xrightarrow{\substack{1.\;Et_2O\\2.\;H_3O^+}} C_6H_5C(CH_3)_2OH}
 $$
 
 **方式二**：切断苯基：
@@ -159,7 +159,7 @@ $$
 
 **合成路线**：
 $$
-\mathrm{Ph_2CO + PhMgBr \xrightarrow{1.\;Et_2O\\2.\;H_3O^+} Ph_3COH}
+\mathrm{Ph_2CO + PhMgBr \xrightarrow{\substack{1.\;Et_2O\\2.\;H_3O^+}} Ph_3COH}
 $$
 
 二苯甲酮本身就是酮（无 $\alpha$-H，不会发生烯醇化副反应），反应非常干净。
