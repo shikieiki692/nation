@@ -5,7 +5,7 @@ type: 题目
 fidelity: 原书逐字
 difficulty: 4
 teaching_level: 竞赛
-source: "chemy 第32届chemy决赛模拟 第 20 题"
+source: "chemy 第32届chemy部分练习题目集锦 第 20 题"
 module: "2026机构初赛模拟题"
 source_subject: 结构化学
 syllabus_codes: [15, 16]
@@ -17,14 +17,14 @@ knowledge_points:
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
 updated: 2026-10-04
 status: 已填充
-exam_stage: 决赛
+exam_stage: 初赛
 subject_module: 结构化学
 pack: 综合模拟卷
 submodule: chemy
 source_category: 竞赛导向·竞赛教辅
 source_grade: A
 source_tier: 2
-source_norm: "chemy-第32届chemy决赛模拟"
+source_norm: "chemy-第32届chemy部分练习题目集锦"
 source_file: "chemy试题/第32届中国化学奥林匹克Chemy题目合集..md"
 ---
 
