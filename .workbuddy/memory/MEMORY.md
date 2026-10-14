@@ -1,4 +1,4 @@
-# 妙妙屋·长期记忆（v94，2026-10-14）
+# 妙妙屋·长期记忆（v95，2026-10-14）
 
 > 高频规则＋判据坑＋指针。规范在 `11-模板/规范/`；逐日经过＝`.workbuddy/memory/YYYY-MM-DD.md`、`09-审计报告/`。
 > ⚠️ 细节／已关闭的线**先读**：`ARCHIVE-2026-10-02-遗留判据.md`（§一~§十五）、`工程细则速查.md`、`题库选题口径速查.md`。超限会被注入截断 ⇒ 只留高频规则与指针。
@@ -6,16 +6,16 @@
 ## ★ 交接入口（各线指针）
 
 - **交接口令**：owner「XX 可以做」＝开放候选≠指派，跨线动工先对齐。已授权＝讲义／题库**标注类 FM**／**经授权的源卡结构修复**／全库化学式排版格式化。
-- **A 机构模拟题组卷线**（活跃）：交接＝`00-首页/活跃任务/【直接复制】新会话提示词-2026-10-07-机构模拟题组卷线.md`；管线＝`11-模板/规范/机构模拟题组卷管线SOP.md`（v1.7）；工具＝`.workbuddy/tmp/opt_pipe/{volpost,add_analysis,vol_poolchk,xv_q3_consistency2,qa_vol_deliver,qa_vol_render}.py`、`.workbuddy/scripts/table_wrap_audit.py`。
+- **A 机构模拟题组卷线**（活跃）：交接＝`00-首页/活跃任务/【直接复制】新会话提示词-2026-10-07-机构模拟题组卷线.md`；管线＝`11-模板/规范/机构模拟题组卷管线SOP.md`（v1.7）；工具＝`.workbuddy/tmp/opt_pipe/*.py`（volpost/add_analysis/vol_poolchk/xv_q3_consistency2/qa_vol_deliver/qa_vol_render）＋`.workbuddy/scripts/table_wrap_audit.py`。
   · 🔴 **铁律四**：格式工具**不得在题面区**生成「（N 分」⇒ 被 `LEAK` 判据当答案特征 ⇒ 掉池 ⇒ plan-lock 整卷重选 ⇒ **卷被悄悄换掉**。
   · 🔴 **重建有损**：`--titles`／`add_analysis` 只在**卷 md 层** ⇒ `build_org` 重建即抹掉；重出须**卷 md 最小改动**。链＝`build_org → volpost --ans → theme_<卷>_md.py → build_volX_zhenti → qa`。
-  · 🔴🔴 **交付件精修（卷 XV）**：①「答案图落题面区」＝9 判据盲区 ⇒ 唯一检出＝**逐页目检＋源 PDF 回证**；② 原卷笔误在**交付卷 md 径改**（＋`> 校勘（日期）`）、源卡不动；③「灰带/水印与抗锯齿边共用灰阶」者必切虚细线 ⇒ **改形态学**（膨胀墨迹掩膜护抗锯齿边）；④ 提交后**必 `reset -q HEAD -- <paths>`**。
+  · 🔴🔴 **交付件精修（卷 XV）**：①「答案图落题面区」＝9 判据盲区 ⇒ 唯一检出＝**逐页目检＋源 PDF 回证**；② 原卷笔误在**交付卷 md 径改**（＋`> 校勘（日期）`）、源卡不动；③「灰带/水印与抗锯齿边共用灰阶」必切虚细线 ⇒ **改形态学**（膨胀墨迹掩膜护抗锯齿边）；④ 提交后**必 `reset -q HEAD -- <paths>`**。
 - **B 第一轮·综合套卷线**（`f0a99f4`／`d5ffe67`／`7c17d679`）：源 md＝`04-课件/习题集/三·竞赛导向层（载体Ⅱ·Ⅲ）/第一轮·综合套卷/`；回源钥匙＝同目录 `_选题清单.json` 的 `paths`；答案回补＝`04-题库/…/化学竞赛初赛讲义/答案/第N讲-…-答案.md`。
   · 两根因：① 源卡设问写进「## 参考答案」开头 ⇒ 学生版题干无提问；② 源卡 `<details>`（mineru 图 OCR 块）被当正文 ⇒ 英文噪音当答案。
   · 🔴🔴 **第一闸门＝「学生版题面 ≡ 教师版题面」**（仅 `> 来源` 行教师版独有）；**比对前必剥块尾 `---`**（否则 300+ 假不一致）。
-  · 工具＝`.workbuddy/tmp/r1/`（`diag_all`／`fix_qmove`／`renumber`／`fix_options`／`fix_vol_residual`／`fix_sep`／`fix_vol_num3`／`build_r1zonghe_docx`＋`gate_docx34`）。🔴 按锚点段删/替换**必须先 `blocks()` 切题块、块内改、整块替换**（⛔ 禁整文件 `find` 切片）；每轮改完**必查题数＋字节数**（骤降 10%＝事故）。
-- **C 其它卷族**：生成器↔族**按脚本 `OUTDIR` 认**＝`gen_r1.py`→竞赛教材版／`gen_r1_mixed.py`→综合套卷／`special_papers.py`→专项卷（26 卷）。工具＝`gate_family.py`（G1 题数／G2 师-生一致／G3 卷答案⊄源卡答案／P1–P9）。🔴🔴 `gen_r1.py` 重建＝**整套换题** ⇒ 存量卷一律外科式修，⛔ 禁 `--write`。🔴 缺陷类「卷层落后于源卡修复」。🔴 师/生一致闸门按卷族适配分段；末题吃卷尾页脚，比对前必剥。
-- **卷族 docx↔md 一致性**：ⓐ 决定性＝`git diff <docx构建提交> -- <源目录>` 后**只比 FM 之后正文**（mtime 被 checkout 污染不可用）。ⓑ 内容级＝CJK 三元组缺口比（新鲜 docx <1.5%）。ⓒ 交付 docx 扫**字面图引用** `![hash.jpg]`＝构建期未解析。ⓓ 习题书正解链＝构建器→`docx_print_polish.py --answer-space auto --strip-ledger auto`（缺之选项不分行）→打印版＝`build_print_student.py`。
+  · 工具＝`.workbuddy/tmp/r1/*.py`（diag_all/fix_qmove/renumber/fix_options/fix_vol_residual/fix_sep/fix_vol_num3/build_r1zonghe_docx/gate_docx34）。🔴 按锚点段删/替换**必须先 `blocks()` 切题块、块内改、整块替换**（⛔ 禁整文件 `find` 切片）；每轮改完**必查题数＋字节数**（骤降 10%＝事故）。
+- **C 其它卷族**：生成器↔族**按脚本 `OUTDIR` 认**＝`gen_r1.py`→竞赛教材版／`gen_r1_mixed.py`→综合套卷／`special_papers.py`→专项卷（26 卷）。工具＝`gate_family.py`（G1 题数／G2 师-生一致／G3 卷答案⊄源卡答案／P1–P9）。🔴🔴 `gen_r1.py` 重建＝**整套换题** ⇒ 存量卷外科式修，⛔ 禁 `--write`。🔴 缺陷类「卷层落后于源卡修复」。🔴 师/生一致闸门按卷族适配分段；末题吃卷尾页脚，比对前必剥。
+- **卷族 docx↔md 一致性**：ⓐ 决定性＝`git diff <docx构建提交> -- <源目录>` **只比 FM 之后正文**（mtime 不可用）。ⓑ CJK 三元组缺口比（新鲜 docx <1.5%）。ⓒ 交付 docx 扫字面图引用 `![hash.jpg]`＝构建期未解析。ⓓ 习题书正解链＝构建器→`docx_print_polish.py --answer-space auto --strip-ledger auto`→打印版 `build_print_student.py`。
 - 🔴🔴 **畸形图引用类**：md 写 `![hash.jpg]`／`![hash.jpg|alt]`（**单方括号**）⇒ 构建器不解析 ⇒ docx **印字面路径且无图**；根多在源卡。扫描＝`.workbuddy/tmp/r1/scan_badimg2.py`。
 
 ## ★ 讲义线（勿重做）／课件线（另一套规范）
@@ -31,21 +31,22 @@
 - 03-知识点：948 页/29 deprecated（带 `superseded_by`），0 Error。判据：判重叠必比正文；去重须标题＋正文双同；写盘 LF 无 BOM；`§中文序号` 禁自动重编号。
 
 ## ★ 判据坑（血泪，跨线通用）
-
-- 🔴🔴 **chemy 全量对账与补录线**（活跃）：交接＝`00-首页/活跃任务/计划-2026-10-14-chemy全量对账与补录.md`；P1 产出＝`09-审计报告/2026-10-14-chemy对账报告.md`＋`chemy-mapping.json`＋`chemy缺题清单.csv`＋`chemy卡级分桶.csv`。**四类**＝A 993／B 205／D 3／**C 912**（库内 1,201 卡零未定）；站点 1,933 题。🔴 基线错数：「早期 1~4 共 218 题」实 **35 题**、**与 32 届不重复**。**P2 批1（39 届 210 卡，CM-192~213）＋批2（36 届缺口 127 卡，CM-214~227）＋批3（38 届缺口 110 卡，CM-228~238）＋批4（37 届缺口 103 卡，CM-239~253）＋批5（35 届缺口 69 卡，CM-254~261）已落库 ⇒ chemy 1,820 卡**（批1 `source_file` 已回填；组卷池 2,237）；批序 33→32 残→联赛（末批，命名「chemy 联赛 第K套」）；**下一可用套号 CM-262**。工具＝`.workbuddy/tmp/{chemy_fp3,chemy_build35,chemy_build37,chemy_build38,chemy_gate35,chemy_poolchk35,chemy_backfill39}.py`；站点数据 `.workbuddy/tmp/chemy_site/`。
-  · 🔴🔴 **套名判定**：站点 `sourcePaperLabel` 在 **35/36/37/38/39 届为 null** ⇒ 从**本地源件合集 md 的目录 TOC** 读套名（站点第 N 套 ≡ 模拟试题 N；**35 届 决赛4/5/8/25/26、17=无机、21=有机**；36 届 8/9/16/21/22/23=决赛、24=综合；37 届 8/20/21/25/26/27/28=决赛、6/17=**无机**、7/18=**有机**；38 届 6/9/14/24=决赛）。
-  · 🔴🔴 **家族命名优先**：`source_norm` 按**该届既有卡**口径（35 届＝`chemy-第35届模拟N`/**无「初赛」前缀**；36/37/38 届新卡＝`chemy-第XX届初赛模拟N`）——同届内保持一致优先于跨届统一。
+- 🔴🔴 **chemy 全量对账与补录线**（活跃）：交接＝`00-首页/活跃任务/计划-2026-10-14-chemy全量对账与补录.md`；P1 产出＝`09-审计报告/2026-10-14-chemy对账报告.md`＋`chemy-mapping.json`＋`chemy缺题清单.csv`＋`chemy卡级分桶.csv`。**四类**＝A 993／B 205／D 3／**C 912**（库内 1,201 卡零未定）；站点 1,933 题。🔴 基线错数：「早期 1~4 共 218 题」实 **35 题**、**与 32 届不重复**。**P2 批1（39 届 210，CM-192~213）～批5（35 届 69，CM-254~261）＋批6（33 届 46＋32 届残 7，CM-262~270）已落库 ⇒ chemy 1,873 卡**（组卷池 2,274）；缺口剩序 **联赛（240，末批，命名「chemy 联赛 第K套」）**；**下一可用套号 CM-271**。工具＝`.workbuddy/tmp/{chemy_fp3,chemy_build*,chemy_gate*,chemy_poolchk*}.py`；站点数据 `.workbuddy/tmp/chemy_site/`。
+  · 🔴🔴 **套名判定**：站点 `sourcePaperLabel` 在 **32/33/35~39 届为 null** ⇒ 从**本地源件合集 md 的目录 TOC** 读套名（站点第 N 套 ≡ 源件第 N 段；32 届＝模拟1~9＋有机专题＋**决赛模拟**＋**部分练习题目集锦**；33 届 **18 段逐位对齐**、决赛模拟1/2/3=决赛；35 届 决赛4/5/8/25/26、17=无机、21=有机；36 届 8/9/16/21/22/23=决赛、24=综合；37 届 8/20/21/25/26/27/28=决赛、6/17=无机、7/18=有机；38 届 6/9/14/24=决赛）。
+  · 🔴🔴 **家族命名优先**：`source_norm` 按**该届既有卡**口径——同届内一致优先于跨届统一。35 届＝`chemy-第35届模拟N`（**无「初赛」前缀**）；36/37/38 届＝`chemy-第XX届初赛模拟N`（无机/有机套＝`第XX届无机模拟N`/`有机模拟N`）；**32/33 届＝`chemy-第3X届chemy{套名}`（历史遗留重复 `chemy`，照抄）**。
+  · 🔴 **末段「部分练习题目集锦」**：32/33 届源件末段为该名（**非决赛模拟**）⇒ 建 `chemy-第3X届chemy部分练习题目集锦` 独立套，`exam_stage` 记初赛。
   · 🔴🔴 **小问编号两源之别**：`questions.json` = 套内号（`8-1`，✅ 采信）；`presentation.json` = 全局号（`209-1`）。
-  · 🔴 **建卡口径**：题号**缺口制**（库内已有则只补差集）；`source_file` 必写（批1 已回填）；`exam_stage` 按套型（决赛套→决赛，**含无机/有机专题套→初赛**，先例 `第40届…有机模拟20` 记初赛），库内旧决赛套卡一律「初赛」⇒ 待 P3「chemy 考段回填」统一（该字段不参与池筛选）；**无机/有机 `source_norm`＝`chemy-第XX届无机模拟N`/`有机模拟N`**。
-  · 🔴 **池白名单**：`is_cn_prelim` 会把**答案/题面里引用他届真题**的模拟题误杀（假阳性）⇒ 加 `.workbuddy/tmp/opt_pipe/pool_keep.json` 放行（先例 `题-CM-244-06` 引「第33届…初赛试题」）。
+  · 🔴 **建卡口径**：题号**缺口制**（库内已有则只补差集）；`source_file` 必写；`exam_stage` 按套型（决赛套→决赛，**含无机/有机专题套→初赛**，先例 `第40届…有机模拟20`），库内旧决赛套卡一律「初赛」⇒ 待 P3「chemy 考段回填」统一（该字段不参与池筛选）。
+  · 🔴🔴 **存量旧卡问题（P3）**：① **跨套错位**——33 届库内「无机化学专题2」17 卡中 8 张实对站点 15/17/18；② **多题合并/越界**——`题-CM-60-05` 题面滚入「第6题」、`题-CM-60-09` 答案吞入「部分练习题目集锦」，`CM-60` 曾跨收站点 32-11/32-12 两套；均建于 2026-10-07 越界闸落码**之前**。⛔ 不回溯改，P3 评估拆卡。
+  · 🔴 **池白名单**：`is_cn_prelim` 会把**答案/题面里引用他届真题**的模拟题误杀（假阳性）⇒ 加 `.workbuddy/tmp/opt_pipe/pool_keep.json` 放行（先例 `题-CM-244-06` 引「第33届…初赛试题」）。⚠️ **白名单只覆盖 `is_cn_prelim`，不覆盖越界闸**——站点重编号题面未同步答案（如 `题-CM-270-02` 题面 `2-1/2-2`／答案 `5-1/5-2`）会被越界闸弃卡 ⇒ 照录不擅改、登记 `校勘对照表`、暂不入池。
   · 🔴🔴 **站点抓取三坑**：① `raw.githubusercontent.com` **间歇不可达**（须重试）；② `api.github.com/contents/` **单目录上限 1,000** ⇒ 全量清单走 **`git/trees?recursive=1`**；③ 未认证 API **60 次/时** ⇒ 批量下载**禁 API**，走 **`brucejllpku.github.io/Chemy-/assets/<name>`（Pages CDN 无限制）**。
   · 🔴🔴 **图片对照（owner 追加，10-14）**：库内 OCR 切图宽中位 **515px** vs 站点原卷切图 **1,505px**（≈2.9 倍；≈87 vs ≈255 dpi）⇒ 存量大面积不满足闸门 12；**812/1,000 卡（81.2%）**可按 `e<届>-p<套>-[qa]<题号>-*` 定位 ⇒ **P3 图升级线**（只替换不新增＋逐张目检＋图数守恒）。图名 `e<届>-p<套>-[qa]<题号>-<序号>-<12hex>.webp`。
-  · 🔴 **组卷池复现须带 `--all-years`**（默认压到 458；带之 1,895→**2,203**〔批4 后〕）；池**只收非有机** ⇒ chemy 大批卡按模块政策排除（非缺陷）；诊断＝`build_org.why_not_in_pool(path)`。
+  · 🔴 **组卷池复现须带 `--all-years`**（默认压到 458；带之 1,895→2,203〔批4〕→2,237〔批5〕→**2,274**〔批6〕）；池**只收非有机** ⇒ chemy 大批卡按模块政策排除（非缺陷）；诊断＝`build_org.why_not_in_pool(path)`。
   · 🔴 **建卡避坑**：站点 HTML `<sub>/<sup>` **原样保留**（⛔ 勿转 `$_2$`，texmath 空基底渲染 ❑）；「答案实体率」须**含图为有答案**。
 - 🔴🔴 **题面指纹判据三坑**：① **必先剥 LaTeX 命令再取指纹**（`\mathrm{k_2}` vs `k2` ⇒ 真值 0.98 被压到 0.66）；② **PDF 版面抽取把变量字母乱序插入中文** ⇒ 纯 n-gram 撕裂；③ **正解＝双指纹取最大：全字符 12-gram ⊕ 纯 CJK 8-gram**。题面须在 `<details>` 与 `^#{1,3}\s*参考答案` 两处截断。
 - 🔴🔴 **放宽判据＝引入新误命中源**：放宽前必问「会不会把**更大的非答案段**算进来」。**命中量突变时先怀疑判据**。
 - 🔴🔴 **机检 9 判据有盲区 ⇒ 必须专扫**：① 截断重复行（题面区近邻非空行互为前缀；须**去尾省略号**＋**宽窗 5 行**＋排除表格分隔行）＝`scan_dup*.py`；② 跨卷重复题（源卡一卡两题）＝扫「同源题干串在多卷」；③ 生成器 **census 是时间快照** ⇒ **重建＝整套换题**，判「能否重建」必先干跑比对，⛔ 禁直接 `--write`；④ **源卡缺陷须按各卷族 `_选题清单.json` 各扫**。
-- 🔴 **docx「空基底」三形态**：① `\\` 紧跟 `\end{array}`；② `\\ \hline \end{array}`（**texmath 不支持 `\hline`**）⇒ 删尾部 `\\`（②连 `\hline` 删）；判据＝docx 探 `<m:mr>\s*<m:e/>\s*</m:mr>`；③ **`X'^n` 空基**（撇号＋上标，如 `2a'^2`）⇒ OMML 印 ❑；**豁免写法＝`{a'}^2`**；扫 `grep -E "[A-Za-zΑ-Ωα-ω]'\^"`；构建期 `fix_empty_math_base()` 兜底（报「空基=N」＝**修复数**，应在 md 源层消灭）。
+- 🔴 **docx「空基底」三形态**：① `\\` 紧跟 `\end{array}`；② `\\ \hline \end{array}`（texmath 不支持 `\hline`）⇒ 删尾部 `\\`（②连 `\hline` 删）；判据＝docx 探 `<m:mr>\s*<m:e/>\s*</m:mr>`；③ **`X'^n` 空基**（`2a'^2`）⇒ 印 ❑；**豁免＝`{a'}^2`**；扫 `grep -E "[A-Za-zΑ-Ωα-ω]'\^"`；构建期 `fix_empty_math_base()` 兜底（报「空基=N」＝**修复数**）。
 - 🔴 判据校准（`gate_family2.py`）：① P1 须**认 ASCII `?`**、补 ASK 词、题面含 `(N)` 编号小问即视为有设问、选项缝隙 `[（(]\s*[）)]`；② P3 仅**「答案区实质 <20 字」**才算占位符。
 - 🔴 `\mathrm{}` 包裹差异（师 `\mathrm{cm}`／生 `cm`，渲染等价）会造成「师/生不一致」**假警报** ⇒ 对比前归一化。
 - 🔴🔴 **回源补录四道写盘防线**：① 答案区原为空 ② 题面段逐字未改 ③ 写盘后可定位有实体 ④ 源-题面 3-gram ≥10%。⚠️ 前三道**挡不住「配错文件」**；阈值类都假阳性 ⇒ 只筛「值得看」，**最终人工逐字核对**。
@@ -57,21 +58,16 @@
 
 ## ★ 工作区 / 环境 / 提交
 
-- ⛔ 永不 `git add -A`/目录级 add；逐路径精确 add；核体量 `-uall`＋`-c core.quotepath=false`。🔴🔴 正解＝**隔离索引＋竞态重试**（`do_commit_*.py`：read-tree HEAD → 分块 add → 核对「暂存==本会话集合」→ commit → `cannot lock ref 'HEAD'` 重试）；主索引末 `reset -q HEAD -- <paths>`。提交脚本 Write 成 `.py`；**分块 add（>200 路径 `WinError 206`）**。
+- ⛔ 永不 `git add -A`/目录级 add；逐路径精确 add；核体量 `-uall`＋`-c core.quotepath=false`。🔴🔴 正解＝**隔离索引＋竞态重试**（`do_commit_*.py`：read-tree HEAD→分块 add→核对「暂存==本会话集合」→commit→`cannot lock ref 'HEAD'` 重试）；主索引末 `reset -q HEAD -- <paths>`。脚本 Write 成 `.py`；**分块 add（>200 路径 `WinError 206`）**。
 - 🔴 回滚 ref＝「误修复之前」commit；「让闸门变差」的修复一律回滚。推送＝`git -c credential.helper=manager push origin master`＋`git ls-remote` 核对。
 - 🔴🔴 行尾：`.gitattributes` 定 `*.md eol=lf` ⇒ 别按工作区 CRLF 写回；改完复核 `git diff --cached -U0`。🔴🔴 **`04-题库/**/images/` gitignore** ⇒ 图片类改动**只提交卡 md**。
 - 🔴 FM 护栏：块列表必须 `- `（裸 `[[…]]` ⇒ js-yaml4 THROW ⇒ Obsidian 消失）；值含裸 `: `、以 `*`/`[`/`{` 开头加引号；校验 py3.12 ruamel。🔴🔴 FM 解析必抗 CRLF＋抗行内数组，**取值禁用 `\s*`** ⇒ 一律 `[ \t]*`。读文件一律 `utf-8-sig`。
 - ⛔ 禁改 `05-真题库/`、`_归档/`；`04-题库/` 仅标注类 FM ＋经授权的源卡结构修复；不动并行会话未跟踪文件。**疑问句＝只核验不执行**。
-- 🔴 texmath 边界：`\frac` 三层嵌套必炸；array 单元格 `\text{}` 不可含 `_`/`^`；行首 `[` 须 `\mathrm{[]}`；忌 `\dfrac`；`\xlongequal` 不支持（改 `\xrightarrow`）。🔴 **`$$` 必须独占一行**；🔴🔴 **blockquote（`> …`）无法让 `$$` 独占行** ⇒ 解析内公式一律**行内 `$…$`**。🔴🔴 **`\bf` 与 `\tag {X}`（带空格）texmath 不支持 ⇒ 整块印字面**（`\tag{1}` 无空格可渲染）；扫描＝`.workbuddy/tmp/r1/scan_macro.py`，docx 体检＝`docx_health.py`。🔴 `\begin{array}` 两坑：① `&` 无对齐点 ⇒ 印字面；② texmath 压平成单行 ⇒ `|`/`/`/`\` 全印字面＝**假结构式**（查题面＋答案双区）。
+- 🔴 texmath 边界：`\frac` 三层嵌套必炸；array 单元格 `\text{}` 不可含 `_`/`^`；行首 `[` 须 `\mathrm{[]}`；忌 `\dfrac`；`\xlongequal` 不支持（改 `\xrightarrow`）。🔴 **`$$` 必须独占一行**；🔴🔴 **blockquote（`> …`）内 `$$` 无法独占行** ⇒ 一律**行内 `$…$`**。🔴🔴 **`\bf` 与 `\tag {X}`（带空格）不支持 ⇒ 整块印字面**（`\tag{1}` 可渲染）；扫描 `scan_macro.py`、体检 `docx_health.py`。🔴 `\begin{array}` 二坑：① `&` 无对齐点 ⇒ 印字面；② 压平成单行 ⇒ `|`/`/`/`\` 全印字面＝**假结构式**（查题面＋答案双区）。
 - 🔴 bash 双引号内 `python -c` 含反引号 ⇒ 被命令替换 ⇒ 含反引号/非 ASCII/正则一律 Write `.py`；Py 含 LaTeX 用 `r""`。
 - ⚠️ 工具链：ruamel 只在系统 py3.12；受管 py3.13（venv：pypdf＋pymupdf）；Node 22。`.workbuddy/scripts/`、`.workbuddy/tmp/` 被 gitignore（需 `-f`）。
 
-## ★ 视觉核验 / 交付审计 / 池基线
+## ★ 视觉核验 / 交付审计 / 池基线（明细 ⋙ ARCHIVE §十六）
 
-- 🔴 **交付审计三闸门**：⑩`qa_vol_deliver.py`＝8 判据（卡题面图⊆学生版／卡答案图⊆答案版／空基底／`$$` 行尾粘连／表格 ragged／OCR 错形字／题面提图无图／**每图 dpi ≥150**）；校准必先在 XIV/XV 目检基线全绿零误报。⑪`qa_vol_render.py`＝LibreOffice→PDF 逐页像素判 BLANK/HEAVY/EDGE/LEAK/SMALL·THIN·BLUR·SQUASH（advisory 不阻断，用途＝发现新增；基线 BLUR 0／SMALL 1／THIN 6）。⑫图分辨率＝构建期约束 `build_volX_zhenti.py::apply_dpi_cap`（宽 ≤ px/150×25.4mm，只缩不放，挂 `process_document_xml` 最终 pass；探针 `probe_all_dpi.py`）。
-- 🔴🔴 **丢图／判噪三件套**：`noise_of()` 按「近黑占比<0.005」判 watermark ⇒ 必误伤薄线结构图/浅色晶体图/手写解答；双清单 `noise_keep.json`（**白名单优先**）／`noise_reviewed.json`；凡「卡内 `![[…]]` 在卷 md 缺失」先查 `noise_of()`，⛔ 别全链重建 ⇒「加 keep＋`inject_keep_imgs.py` 最小注入」。🔴 判据白名单机制（先例 `noise_keep.json`／`pool_keep.json`）＝覆盖规则假阳性的首选。
-- 🔴 **判「卡可用性」必走真实池** `build_org.build_pool()`（FM 里 `quality_warning`/`pool_scope` 会陈旧）。🔴 S1「题面图落答案区」只作候选筛选，定性/修复前**必逐张 Read 目检**。
-- 🔴 **视觉核验纪律**：图**内容级**核验须以当轮确实逐张目检为准；核验脚本一律 Write `.py`。图身份校验：mineru 图名（64hex）≠内容 sha ⇒ 只能 Read 目检＋md5 拷贝一致性。
-- **答案可用率线（已收官）**：全库 11,170 卡 92.2%→96.8%（机构域 99.4%）；根因＝「答案挂答案区外 `## 第N题` 标题下被判区外」（修复＝题号标题降裸文本）；「源无匹配」≠「源缺」。
-- **池基线（10-09）**：全量 4,032 卡 → 入池 **1,895**（元素与分析 317／结构化学 733／化学原理 845）／A 类不可用 124；弃卡一律标 `pool_scope`。卷 X~XV 三件套已交付；卷 I~IX 归档勿动；计划锁 `vol_plan_{…}.json` 有效。
-- 已确认保留（勿改回）＝ARCHIVE §六。磁盘（10-05）全库 28.1 GiB，P0 可清 ≈5.6 GB，owner 裁定**暂不处理**；目录级一律 `du --block-size=1M`。🔴 `check_stale` 盲态**已判「不修」**（勿再提议）。
+- 🔴 **三闸门＝`qa_vol_all.py`**（⑩`qa_vol_deliver.py` 8判据含 **dpi≥150**／⑪`qa_vol_render.py` 逐页像素 advisory／⑫`apply_dpi_cap` 构建期约束）；启用前须在 XIV/XV 目检基线零误报。**丢图判噪三件套**：`noise_of()` 判 watermark 会误伤薄线/浅色图 ⇒ 白名单 `noise_keep.json`（优先）＋`noise_reviewed.json`；「卡内图在卷 md 缺失」先查之，⛔ 别全链重建。🔴 **白名单机制＝治规则假阳性的首选**。
+- 🔴 **判卡可用性必走真实池** `build_org.build_pool()`；S1「题面图落答案区」只作候选，修复前**必逐张 Read 目检**；图内容核验以当轮逐张目检为准（图名 64hex≠内容 sha）。**池基线（10-09）**：4,032→入池 **1,895**；弃卡标 `pool_scope`；卷 X~XV 已交付、I~IX 归档勿动。答案可用率线**已收官**（92.2%→96.8%）。🔴 `check_stale` 盲态**已判「不修」**。
