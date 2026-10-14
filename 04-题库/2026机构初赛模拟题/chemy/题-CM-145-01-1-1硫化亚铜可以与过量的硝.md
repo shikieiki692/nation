@@ -16,7 +16,7 @@ knowledge_points:
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
 updated: 2026-10-04
 status: 已填充
-exam_stage: 初赛
+exam_stage: 决赛
 subject_module: 元素与分析
 pack: 综合模拟卷
 submodule: chemy

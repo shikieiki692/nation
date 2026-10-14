@@ -15,7 +15,7 @@ tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
 created: 2026-10-14
 updated: 2026-10-14
 status: 已填充
-exam_stage: 初赛
+exam_stage: 决赛
 subject_module: 有机化学
 pack: 综合模拟卷
 submodule: chemy
