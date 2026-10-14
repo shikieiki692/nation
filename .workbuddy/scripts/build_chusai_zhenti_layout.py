@@ -41,6 +41,7 @@ QB = VAULT / "04-题库"
 MEDIA = VAULT / "媒体仓库"
 OUTDIR = VAULT / "00-首页" / "题组Word" / "初赛模拟卷" / "真题版式"
 TMP = VAULT / ".workbuddy" / "tmp" / "chusai_zhenti"
+STAGE_IMG = TMP / "imgstage"          # 构建期图片暂存（自动 staging，见 img_index/resolve_images）
 REF = TMP / "reference-zhenti.docx"
 PANDOC = r"C:\Users\蕾赛\AppData\Local\Pandoc\pandoc.exe"
 
@@ -277,15 +278,54 @@ def build_reference(force=False):
 # ══════════════════════════════════════════════════════════════════
 # 以下三个预处理函数与既有的 .workbuddy/tmp/build_simvol_docx.py 保持一致
 # （图引用解析 / 内链降级 / $$ 块结构规范化），改口径须两处同步。
+_IMG_INDEX = None
+
+
+def img_index():
+    """全库图片**文件名**索引（一次性构建，排除 .git/.workbuddy）。
+
+    ⚠️ 2026-10-14 根因修复：旧版 `resolve_images` **只查 `媒体仓库/`**，而
+    「2026 机构模拟题」系新卷的图**全在 `04-题库/2026机构初赛模拟题/<机构>/images/`**
+    ⇒ 直接重建会**整卷丢图**（实测 XIp 80→11、XVI 80→0、XVII 56→5）。
+    老卷（I~IX）的图在 `媒体仓库/`，故旧行为对其不变（多路径是其超集）。
+    """
+    global _IMG_INDEX
+    if _IMG_INDEX is None:
+        idx = {}
+        for dp, dn, fn in os.walk(VAULT):
+            dn[:] = [d for d in dn if d not in (".git", ".workbuddy")]
+            for f in fn:
+                if f.lower().endswith((".jpg", ".jpeg", ".png", ".svg")):
+                    idx.setdefault(f, Path(dp) / f)
+        _IMG_INDEX = idx
+    return _IMG_INDEX
+
+
 def resolve_images(body, log):
+    """`![[hash.jpg]]` → `![](hash.jpg)`；图源多路径解析。
+
+    查找顺序：① `媒体仓库/`（老卷与构建期手工部署）→ ② **全库图片索引**
+    （新卷图在 `04-题库/<机构>/images/` 等）⇒ 命中即**自动 staging** 到
+    `STAGE_IMG`，供 pandoc `--resource-path` 的第二根解析。
+    ⇒ 新卷**无需再手工部署图片到 `媒体仓库/`**。
+    """
+    idx = img_index()
+    STAGE_IMG.mkdir(parents=True, exist_ok=True)
+
     def rep(m):
         name = m.group(1)
         p = MEDIA / name
         if not p.exists():
-            log.append(f"   [缺图] {name}")
-            return ""
+            src = idx.get(name)
+            if src is None:
+                log.append(f"   [缺图] {name}")
+                return ""
+            p = STAGE_IMG / name
+            if not p.exists():
+                shutil.copy2(src, p)
         return f"![]({name})"
     return re.sub(r"!\[\[([^\]\|]+\.(?:jpg|png|jpeg|svg))(?:\|\d+)?\]\]", rep, body)
+
 
 
 def dewikilink(body):
@@ -1515,7 +1555,7 @@ def convert_one(vol: str, ref: Path, edition: str = "student"):
     docx = TMP / (cfg["tmp"].format(v=vol) + ".docx")
     cmd = [PANDOC, str(stage), "-o", str(docx),
            f"--from={PANDOC_EXT}", "--to=docx",
-           f"--resource-path={MEDIA}", f"--reference-doc={ref}"]
+           f"--resource-path={MEDIA}{os.pathsep}{STAGE_IMG}", f"--reference-doc={ref}"]
     r = subprocess.run(cmd, capture_output=True, text=True,
                        encoding="utf-8", errors="replace")
     if r.returncode != 0:
@@ -1585,6 +1625,7 @@ def main():
     only_kz = "--kazhu" in args
     vols = [a for a in args if not a.startswith("--")] or VOLS
     TMP.mkdir(parents=True, exist_ok=True)
+    shutil.rmtree(STAGE_IMG, ignore_errors=True)   # 每次运行重建 staging（防 tmp 累积）
     ref = build_reference(force=rebuild)
     done = []
     editions = []
