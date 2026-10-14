@@ -42,5 +42,12 @@
    "apply": "python xvi_titles_allvol.py --apply（数据源 _title_ok.json）",
    "added": "2026-10-12"
   }
+ ],
+ "post_patches": [
+  {
+   "script": "vol_img_upscale.py --vol X",
+   "why": "图片排版：构建器按朝向定尺寸后 apply_dpi_cap 只缩不放 ⇒ 图偏小（同 XVI/XVII）。本补丁在保证 ≥150dpi 下放大到 min(dpi上限, CAP_ORG×1.35, 12cm)，幂等；重建 docx 后必须重跑。",
+   "added": "2026-10-14"
+  }
  ]
 }
