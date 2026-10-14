@@ -72,7 +72,8 @@ def main():
     if a.docx:
         docx = a.docx
     elif a.vol and a.kind:
-        hits = glob.glob(os.path.join(D, "*%s*%s*.docx" % (a.vol, a.kind)))
+        # ★ 罗马卷号互为前缀（XV⊂XVII）⇒ 必须带「（」分隔符匹配
+        hits = glob.glob(os.path.join(D, "*%s（*%s*.docx" % (a.vol, a.kind)))
         if not hits:
             print("⛔ 未找到 docx:", a.vol, a.kind); return 1
         docx = hits[0]
