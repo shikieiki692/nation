@@ -7,6 +7,7 @@
 
 - **交接口令**：owner「XX 可以做」＝开放候选≠指派，跨线动工先对齐。已授权＝讲义／题库**标注类 FM**／**经授权的源卡结构修复**／全库化学式排版格式化。
 - **A 机构模拟题组卷线**（活跃）：交接＝`00-首页/活跃任务/【直接复制】新会话提示词-2026-10-07-机构模拟题组卷线.md`；管线＝`11-模板/规范/机构模拟题组卷管线SOP.md` v1.7；工具＝`.workbuddy/tmp/opt_pipe/*.py`（volpost/add_analysis/vol_poolchk/xv_q3_consistency2/qa_vol_deliver/qa_vol_render）＋`.workbuddy/scripts/table_wrap_audit.py`。
+  · **A-图 九卷图回源重制线**（活跃，10-14）：交接＝`【直接复制】新会话提示词-2026-10-14-九卷图回源重制线.md`；✅ XVI（25图+7修）／XV 试点（9图+2内容修）收官；**续作 XI→X→XIV，⛔ 避开 XII/XIII**；工具＝`scripts/render_vol_docx.py`＋`scripts/verify_img_decodable.py`＋`tmp/opt_pipe/xv_*.py`；判据 ⋙ `2026-10-14.md` XVI/XV 两段。
   · 🔴 **铁律四**：格式工具**不得在题面区**生成「（N 分」⇒ 被 `LEAK` 判据当答案特征 ⇒ 掉池 ⇒ plan-lock 整卷重选 ⇒ **卷被悄悄换掉**。
   · 🔴 **重建有损**：`--titles`／`add_analysis` 只在**卷 md 层** ⇒ `build_org` 重建即抹掉；重出须**卷 md 最小改动**。
   · 🔴🔴 **交付件精修（卷 XV）**：①「答案图落题面区」＝9 判据盲区 ⇒ 唯一检出＝**逐页目检＋源 PDF 回证**；② 原卷笔误在**交付卷 md 径改**（＋`> 校勘（日期）`）、源卡不动；③「灰带/水印与抗锯齿边共用灰阶」必切虚细线 ⇒ **改形态学**（膨胀墨迹掩膜护抗锯齿边）；④ 提交后**必 `reset -q HEAD -- <paths>`**。
