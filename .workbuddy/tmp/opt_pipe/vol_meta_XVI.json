@@ -10,11 +10,6 @@
    "script": "xvi_tbl_color_fix.py",
    "why": "修「21 列颜色汉字波长表」的 pandoc 网格错误（20 根 gridCol×600tw 溢出版心 9752tw ⇒ LO 压缩致波长 950 折成 95/0）；重建 docx 后**必须**重跑，漏跑所有闸门都不报",
    "added": "2026-10-11"
-  },
-  {
-   "script": "vol_img_upscale.py --vol XVI",
-   "why": "图片排版：构建器按朝向定尺寸后 apply_dpi_cap 只缩不放 ⇒ 图偏小（同 XVII）。本补丁在保证 ≥150dpi 下放大到 min(dpi上限, CAP_ORG×1.35, 12cm)，幂等；重建 docx 后必须重跑。",
-   "added": "2026-10-14"
   }
  ],
  "rebuild_flags": [
