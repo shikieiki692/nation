@@ -48,7 +48,10 @@ hits = []          # (级别, 文件, 类型, 片段)
 def scan_md():
     paths = sorted(glob.glob(MD_GLOB))
     if VOL:
-        paths = [p for p in paths if ('卷%s' % VOL) in os.path.basename(p)]
+        # ⚠️ 必须带分隔符匹配：`卷XVI` 是 `卷XVII` 的子串（曾致 --vol XVI 误含 XVII）
+        paths = [p for p in paths if ('卷%s（' % VOL) in os.path.basename(p)]
+    else:
+        paths = paths
     for p in paths:
         try:
             t = io.open(p, encoding='utf-8-sig').read()

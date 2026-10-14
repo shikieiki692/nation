@@ -44,6 +44,11 @@ tags: [规范, 组卷线, 机构模拟题, 初赛模拟卷, 真题版式, 回源
 >    `8.71×10⁻³` 印成 `8.71 × 10`）⇒ 规避＝该格改**纯文本 Unicode**；同表纯文本格正常可作反证。
 > 另：组卷器新增 **`--only-src <机构>`** 单一来源开关（专题卷用）＋ `ROMAN` 扩容；**chemy 卡小问编号为「行首点号」形态**
 > （`6.1`/`6.3.1`）⇒ `renumber2`／`vote_prefix` 已补行首点号支持（原只认连字符 ⇒ 整卡不重编号）。
+> ③（同日追加）**新增 ④-d 表格单元格 OMML 裁切扫描**：`.workbuddy/scripts/scan_table_cell_clip.py`。
+>    背景：表格内 OMML 被 LibreOffice 按估算宽度裁切（XVII 第 10 题、XVI 第 2 题实测），三闸门均不见；
+>    判据＝「单元格文本 ↔ 同卷 PDF 全文最长前缀匹配率」（<90% 疑／<70% 高疑）；**真阳性率约 1/5 ⇒ 只筛查、须逐页目检定性**。
+>    本轮据此修 **XVI 学生/答案版**表格首列 `V_ads/(cm³·g⁻¹)`→`V_ads`（单位已在正文给出），重建后目检确认。
+>    另修两个扫描器 `--vol` 的**子串误匹配**（`卷XVI` ⊂ `卷XVII`）。
 
 ## 〇、铁律（最高优先级）
 
@@ -145,6 +150,18 @@ O=.workbuddy/tmp/opt_pipe
 #     再提取 `word/document.xml` 的可见文本看 texmath→OMML 实际落字。⚠️ 测试 md 里公式**不可加反引号**
 #     （`` `$…$` `` 会被当行内代码而不转公式）。实测档：`\mathrm{\mathring A}` → `mathringA`（🔴 真缺陷）；
 #     `\mathrm{\Delta N}` → `ΔN`、`\mathrm{\Delta_rG_m^\ominus}` → `ΔrGm⊖`（**渲染正常** ⇒ 该类属**内容**问题）。
+
+# ④-d 交付前「表格单元格 OMML 裁切」扫描（2026-10-14 立；秒级，纯读）
+"$PY_MP" -X utf8 .workbuddy/scripts/scan_table_cell_clip.py [--vol <VOL>] [--pages]
+#   期望 VERDICT: PASS（退出码 0）。⚠️ **须用带 pymupdf 的解释器**（受管 venv：
+#   `C:/Users/<u>/.workbuddy/binaries/python/envs/default/Scripts/python.exe`）。
+#   背景：表格单元格内的 OMML 会被 LibreOffice 按「估算宽度」裁切 —— 卷 XVII 第 10 题
+#     `[H⁺]/mol·L⁻¹`→`[H⁺]/mo`、`8.71×10⁻³`→`8.71 × 10`；卷 XVI 第 2 题 `V_ads/(cm³·g⁻¹)`→`V_ads/(c`。
+#   **qa_volX2 / qa_vol_deliver / table_wrap_audit 三闸门都看不见**（裁切在渲染层）。
+#   判据：该单元格文本 ↔ 同卷已渲染 PDF 全文的**最长前缀匹配率**（<90% 疑／<70% 高疑）。
+#   🔴 **真阳性率约 1/5 ⇒ 本工具只作筛查，定性必须逐页目检**（PDF 字符差异会误报：∘/°、上下标位置）。
+#   修法：该格改**纯文本 Unicode**，或缩短内容（单位移正文句）；改后重建 docx 并目检该表。
+#   ⚠️ 两个扫描器（④-c/④-d）的 `--vol` 匹配**必须带分隔符**（`卷XVI` 是 `卷XVII` 的子串）。
 
 # ⑤ 视觉核验（不可省）——**学生版 + 答案版 + 答题卡三份逐页**
 "$PY" -X utf8 $O/render_any.py "<docx 绝对路径>" <tag> 1 45

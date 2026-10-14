@@ -191,3 +191,7 @@
 | `.workbuddy/tmp/opt_pipe/scan_table_omml.py` | 清单化「表格 + 含 OMML 单元格」 |
 | `.workbuddy/tmp/opt_pipe/find_cell_clip.py` | 前缀匹配率筛查（<90% 疑、<70% 高疑） |
 | `.workbuddy/tmp/opt_pipe/locate_clip_pages.py` | 定位疑点页号（供目检） |
+
+### 7.6 工具已正式化（2026-10-14）
+
+三个临时脚本已**合并提升**为正式工具 **`.workbuddy/scripts/scan_table_cell_clip.py`**（清单化＋筛疑＋`--pages` 定页一体），并**并入 SOP ④-d**；`scan_mathring.py`（④-c）同步修复 `--vol` 子串误匹配（`卷XVI` ⊂ `卷XVII`）。
