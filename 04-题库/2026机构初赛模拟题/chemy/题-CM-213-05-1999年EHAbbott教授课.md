@@ -24,6 +24,7 @@ source_category: 竞赛导向·竞赛教辅
 source_grade: A
 source_tier: 2
 source_norm: "chemy-第39届初赛模拟22"
+source_file: "chemy试题/第39届Chemy化学奥林匹克竞赛模拟试题参考答案合集._200-329.md"
 ---
 
 # 题-CM-213-05-1999年EHAbbott教授课
