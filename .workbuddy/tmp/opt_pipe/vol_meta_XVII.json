@@ -1,0 +1,21 @@
+{
+ "flags": [
+  "--all-years",
+  "--only-src",
+  "--quota"
+ ],
+ "written": "2026-10-14T00:00:21",
+ "n": 10,
+ "vol": "XVII",
+ "total": 130,
+ "orgs": [
+  "chemy"
+ ],
+ "post_patches": [
+  {
+   "script": "xvii_img_upscale.py",
+   "why": "图片排版：构建器 CAP_ORG 按朝向定尺寸后 apply_dpi_cap 只缩不放 ⇒ 源 px 小的图排得极小（3.08cm vs 相邻 8.4cm，观感悬殊）。本补丁在**保证 ≥150dpi** 下放大到 min(dpi上限, CAP_ORG×1.35)，幂等；重建 docx 后必须重跑。",
+   "added": "2026-10-14"
+  }
+ ]
+}
