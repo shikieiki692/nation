@@ -141,6 +141,10 @@ O=.workbuddy/tmp/opt_pipe
 #     工具已自动排除；仍被报者需**人工判**是否为 OCR 噪声）。
 #   ★ 语义等价的另一路：表格单元格内 OMML 公式会被 LibreOffice 按估算宽度**裁切**（同属三闸门盲区），
 #     规避＝该格改纯文本 Unicode（卷 XVII 第 10 题实例）。
+#   ★ 判「某形态是否真缺陷」的最快法＝**渲染实测**（2026-10-14 立）：把最小 md 用 `pandoc` 转 docx，
+#     再提取 `word/document.xml` 的可见文本看 texmath→OMML 实际落字。⚠️ 测试 md 里公式**不可加反引号**
+#     （`` `$…$` `` 会被当行内代码而不转公式）。实测档：`\mathrm{\mathring A}` → `mathringA`（🔴 真缺陷）；
+#     `\mathrm{\Delta N}` → `ΔN`、`\mathrm{\Delta_rG_m^\ominus}` → `ΔrGm⊖`（**渲染正常** ⇒ 该类属**内容**问题）。
 
 # ⑤ 视觉核验（不可省）——**学生版 + 答案版 + 答题卡三份逐页**
 "$PY" -X utf8 $O/render_any.py "<docx 绝对路径>" <tag> 1 45

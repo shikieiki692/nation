@@ -39,9 +39,12 @@ def d2_fix(seg):
     if XARR.search(seg):
         return None                       # 正当：反应条件「Δ」（\xrightarrow[\Delta]）
     if re.search(r'\\Delta\s*[_^]', seg):
-        return None                       # 正当：\Delta_r G / \Delta H_n 等带下标的符号 ⇒ 人工复核
+        return None                       # 正当：\Delta_r G / \Delta H_n（带下标）⇒ 人工复核
+    # 正当：热力学量符号（\Delta H / \Delta G / \Delta S / \Delta U / \Delta F / \Delta A …）
+    if re.search(r'\\Delta\s*(?:[HGSURAF](?![a-z]))', seg):
+        return None
     if re.search(r'\\Delta\s*[A-Z][A-Za-z]', seg):
-        out = re.sub(r'\\Delta\s*', '', seg)   # OCR 噪声：如 `\Delta VCl_3` → `VCl_3`
+        out = re.sub(r'\\Delta\s*', '', seg)   # 内容噪声：如 `\Delta VCl_3` 渲染成 ΔVCl₃ ⇒ 应删 Δ
         return out if out.strip() else None
     if re.fullmatch(r'[\s~]*\\Delta[\s~]*', seg):
         return ''                          # 孤立 Δ ⇒ 删除
@@ -73,7 +76,10 @@ for dp, dn, fn in os.walk(ROOT):
             r = d2_fix(m.group(1))
             if r is None:
                 review.append((p, 'D2', m.group(0)[:70])); continue
-            t2 = t2[:m.start()] + r'\\mathrm{%s}' % r.rstrip() + t2[m.end():]
+            if r == '':
+                t2 = t2[:m.start()] + t2[m.end():]          # 孤立 Δ ⇒ 整体删除（不留空壳 \mathrm{}）
+            else:
+                t2 = t2[:m.start()] + r'\\mathrm{%s}' % r.rstrip() + t2[m.end():]
         plan.append((p, n1, n2, len(t), len(t2), t2))
 
 print('待修卡数 %d ｜ 需人工复核项 %d' % (len(plan), len(review)))
