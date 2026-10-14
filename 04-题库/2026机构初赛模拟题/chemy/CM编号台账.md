@@ -194,12 +194,30 @@ updated: 2026-10-05
 | CM-236 | `chemy-第38届决赛模拟14` | 8 | `Chemy-项目 dist/questions.json#chemy38-14-*` | 🆕 2026-10-14 新建（P2 批3，38 届决赛缺口） |
 | CM-237 | `chemy-第38届初赛模拟18` | 10 | `Chemy-项目 dist/questions.json#chemy38-18-*` | 🆕 2026-10-14 新建（P2 批3，38 届缺口） |
 | CM-238 | `chemy-第38届初赛模拟19` | 11 | `Chemy-项目 dist/questions.json#chemy38-19-*` | 🆕 2026-10-14 新建（P2 批3，38 届缺口） |
+| CM-239 | `chemy-第37届初赛模拟1` | 10 | `Chemy-项目 dist/questions.json#chemy37-1-*` | 🆕 2026-10-14 新建（P2 批4，37 届缺口） |
+| CM-240 | `chemy-第37届初赛模拟3` | 9 | `Chemy-项目 dist/questions.json#chemy37-3-*` | 🆕 2026-10-14 新建（P2 批4，37 届缺口） |
+| CM-241 | `chemy-第37届初赛模拟5` | 7 | `Chemy-项目 dist/questions.json#chemy37-5-*` | 🆕 2026-10-14 新建（P2 批4，37 届缺口） |
+| CM-242 | `chemy-第37届无机模拟6` | 15 | `Chemy-项目 dist/questions.json#chemy37-6-*` | 🆕 2026-10-14 新建（P2 批4，37 届无机专题缺口） |
+| CM-243 | `chemy-第37届有机模拟7` | 9 | `Chemy-项目 dist/questions.json#chemy37-7-*` | 🆕 2026-10-14 新建（P2 批4，37 届有机专题缺口） |
+| CM-244 | `chemy-第37届初赛模拟9` | 9 | `Chemy-项目 dist/questions.json#chemy37-9-*` | 🆕 2026-10-14 新建（P2 批4，37 届缺口） |
+| CM-245 | `chemy-第37届初赛模拟11` | 1 | `Chemy-项目 dist/questions.json#chemy37-11-*` | 🆕 2026-10-14 新建（P2 批4，37 届缺口） |
+| CM-246 | `chemy-第37届初赛模拟12` | 7 | `Chemy-项目 dist/questions.json#chemy37-12-*` | 🆕 2026-10-14 新建（P2 批4，37 届缺口） |
+| CM-247 | `chemy-第37届初赛模拟14` | 1 | `Chemy-项目 dist/questions.json#chemy37-14-*` | 🆕 2026-10-14 新建（P2 批4，37 届缺口） |
+| CM-248 | `chemy-第37届初赛模拟16` | 3 | `Chemy-项目 dist/questions.json#chemy37-16-*` | 🆕 2026-10-14 新建（P2 批4，37 届缺口） |
+| CM-249 | `chemy-第37届无机模拟17` | 9 | `Chemy-项目 dist/questions.json#chemy37-17-*` | 🆕 2026-10-14 新建（P2 批4，37 届无机专题缺口） |
+| CM-250 | `chemy-第37届有机模拟18` | 7 | `Chemy-项目 dist/questions.json#chemy37-18-*` | 🆕 2026-10-14 新建（P2 批4，37 届有机专题缺口） |
+| CM-251 | `chemy-第37届决赛模拟21` | 8 | `Chemy-项目 dist/questions.json#chemy37-21-*` | 🆕 2026-10-14 新建（P2 批4，37 届决赛缺口） |
+| CM-252 | `chemy-第37届决赛模拟25` | 1 | `Chemy-项目 dist/questions.json#chemy37-25-*` | 🆕 2026-10-14 新建（P2 批4，37 届决赛缺口） |
+| CM-253 | `chemy-第37届决赛模拟26` | 7 | `Chemy-项目 dist/questions.json#chemy37-26-*` | 🆕 2026-10-14 新建（P2 批4，37 届决赛缺口） |
 
 ## 编号实况
 
-- 已占用套号 **192 个**：CM-01 ~ CM-05, CM-10 ~ CM-22, CM-41 ~ CM-238
+- 已占用套号 **207 个**：CM-01 ~ CM-05, CM-10 ~ CM-22, CM-41 ~ CM-253
 - 区间内空缺：CM-06, CM-07, CM-08, CM-09, CM-23, CM-24, CM-25, CM-26, CM-27, CM-28, CM-29, CM-30, CM-31, CM-32, CM-33, CM-34, CM-35, CM-36, CM-37, CM-38, CM-39, CM-40
-- 当前最大套号 **CM-238**，下一个新套号从 **CM-239** 起。
+- 当前最大套号 **CM-253**，下一个新套号从 **CM-254** 起。
+- P2 批4（2026-10-14）新建：CM-239~CM-253（**37 届缺口 103 题 / 15 套**；对照站点 `chemy37-*`，仅补库内未收部分；源＝Chemy- 项目 `dist/questions.json`，图＝站点 `assets/e37-pNN-[qa]MM-*` 原卷切图）。
+  - 套型按本地源件 `chemy试题/第37届Chemy题目合集..md` 目录 TOC 判：**初赛 1/3/5/9/11/12/14/16、无机 6/17、有机 7/18、决赛 21/25/26**。其中「无机/有机」为 37 届首现的专题套型，`exam_stage` 记**初赛**（库内既有先例：`第40届…有机模拟20` 亦记初赛），`source_norm` 记 `chemy-第37届无机模拟N`／`chemy-第37届有机模拟N`。
+  - 库内 37 届既有 **16 套（CM-135~151）** 全部 `exam_stage: 初赛`、`source_file` 已带 `chemy试题/第37届Chemy题目合集..md`；本批仅补缺口、不重录。
 - P2 批3（2026-10-14）新建：CM-228~CM-238（**38 届缺口 110 题 / 11 套**；对照站点 `chemy38-*`，仅补库内未收部分；源＝Chemy- 项目 `dist/questions.json`，图＝站点 `assets/e38-pNN-[qa]MM-*` 原卷切图）。
   - 11 套全部为**库内零覆盖**（初赛 1/2/4/5/7/12/13/18/19 ＋ 决赛 9/14）；库内 38 届既有 12 套（CM-155/158/160/162/165/166/167/169/170/171/172/173）与站点 24 套的对应关系详见 `09-审计报告/2026-10-14-chemy补录报告-批3（38届）.md`。
 - P2 批2（2026-10-14）新建：CM-214~CM-227（**36 届缺口 127 题 / 14 套**；对照站点 `chemy36-*`，仅补库内未收部分；源＝Chemy- 项目 `dist/questions.json`，图＝站点 `assets/e36-pNN-[qa]MM-*` 原卷切图）。
