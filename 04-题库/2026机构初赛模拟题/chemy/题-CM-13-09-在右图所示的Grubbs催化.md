@@ -5,7 +5,7 @@ type: 题目
 fidelity: 原书逐字
 difficulty: 4
 teaching_level: 竞赛
-source: "chemy 第40届chemy初赛模拟13 第 9 题"
+source: "chemy 2026夏令营·第40届chemy初赛模拟13 第 9 题"
 module: "2026机构初赛模拟题"
 source_subject: 有机化学
 syllabus_codes: [51, 50]

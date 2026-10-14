@@ -5,7 +5,7 @@ type: 题目
 fidelity: 原书逐字
 difficulty: 4
 teaching_level: 竞赛
-source: "chemy chemy-初赛模拟4 第 3 题"
+source: "chemy 2026寒假班·初赛模拟4 第 3 题"
 module: "2026机构初赛模拟题"
 source_subject: 有机化学
 syllabus_codes: [13, 10]
