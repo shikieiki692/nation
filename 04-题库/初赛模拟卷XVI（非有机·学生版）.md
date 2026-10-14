@@ -523,6 +523,8 @@ A. 1.5mL B. 3.0mL C. 4.5mL D. 6.0mL
 
 ![[1ef6944ecb02edc345af1e7c799ec440f8b95a67be4dcbb9ca90c0581d0530c7.jpg]]
 
+![[96ea08d2500c9bdb2bfcf5149af01013e005963ef3f593d2ea81ade26fcacaf4.jpg]]
+
 推导 $\sigma_{c}$ 与临界半径 $r_{c}$ 的数学表达式，通过计算给出临界半径为饱和二氧化碳溶液中气泡半径的几倍，并计算 $P_{1}=1\ \mathrm{atm}$ 、 $\alpha=72mN/m$ 、 $r_{0}=0.284\mu m$ 对应的 $\sigma_{c}$ 。
 
 10-5-2 在 $\sigma > \sigma_{c}$ 的二氧化碳水溶液中，可观测到二氧化碳气泡保持近乎静止的缓慢生长状态。下列说法正确的是（）

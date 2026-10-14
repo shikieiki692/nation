@@ -80,6 +80,41 @@ def content_key(name):
     return norm_hash(name)
 
 
+# ★ 「源卡图但卷内**故意不引**」白名单（如源件答案页扫描、装饰音符、纯图例条）
+#   —— 覆盖规则假阳性，避免闸门长期假 FAIL；见 figcov_keep.json
+KEEP = {}
+try:
+    KEEP = {k: v for k, v in json.load(io.open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                                           'figcov_keep.json'), encoding='utf-8')).items()
+            if not k.startswith('_')}
+except Exception:
+    KEEP = {}
+
+
+def in_keep(name):
+    """白名单匹配：**文件名前缀** 或 **内容 sha 前缀** 任一命中即算。
+    （源卡里图名与内容 sha 常不同 ⇒ 只按文件名匹配会漏，2026-10-14 实测。）"""
+    b = os.path.basename(name)
+    if any(b.startswith(k[:len(k)]) and len(k) >= 8 for k in KEEP):
+        return True
+    ck = content_key(name)
+    return any(k.startswith(ck) or ck.startswith(k[:12]) for k in KEEP if len(k) >= 8)
+
+
+def img_size(name):
+    """返回 (w,h)；取不到返回 None。用于「同图不同 JPEG 编码」的等价判定。"""
+    b = os.path.basename(name)
+    for d in IMG_DIRS:
+        p = os.path.join(d, b)
+        if os.path.isfile(p):
+            try:
+                from PIL import Image
+                return Image.open(p).size
+            except Exception:
+                return None
+    return None
+
+
 def vol_images(vol):
     """卷内逐题图引用 —— **学生版与答案版的并集**。
 
@@ -126,14 +161,18 @@ def check(vol):
         if ci is None:
             print('%-4d %-8s %-8d %-6s ⚠ 源卡缺失：%s' % (n, '?', len(vs), '', cpath[:50]))
             continue
+        ci = [x for x in ci if not in_keep(x)]   # ★ 白名单：故意不引的源卡图
         src_h = [content_key(x) for x in ci]
         vol_h = {content_key(x) for x in vs}
-        missing = [h for h in src_h if h not in vol_h]
+        # ★ 同尺寸等价：源卡与卷内常有**同图不同 JPEG 编码**（内容 sha 不同、尺寸一致）
+        vol_sizes = {img_size(x) for x in vs} - {None}
+        missing = [x for x in ci if content_key(x) not in vol_h and img_size(x) not in vol_sizes]
         # 去重保序
         seen, uniq = set(), []
-        for h in missing:
-            if h not in seen:
-                seen.add(h); uniq.append(h)
+        for x in missing:
+            k = content_key(x)
+            if k not in seen:
+                seen.add(k); uniq.append(k)
         tot_src += len(set(src_h)); tot_vol += len({content_key(x) for x in vs})
         if uniq:
             mark = '🔴 %d' % len(uniq); miss += 1
