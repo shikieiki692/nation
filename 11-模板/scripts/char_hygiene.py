@@ -70,6 +70,7 @@ CATS = collections.OrderedDict([
     ('nonchar',  (re.compile(r'[\uFDD0-\uFDEF\uFFFE\uFFFF]'), 'Unicode 非字符')),
     ('cjk_stroke', (re.compile(r'[\u31C0-\u31EF]'), 'CJK 笔画 U+31C0–31EF')),
     ('kana',     (re.compile(r'[\u3040-\u309F\u30A0-\u30FF]'), '日文假名（引用合法 / OCR 噪声需甄别）')),
+    ('mojibake', (re.compile(r'(?!x)x'), 'GBK/UTF-8 编码层 mojibake（行级判据：标记字 ≥3）')),
     # —— ADVISORY ——
     ('cjk_comp', (re.compile(r'[\uF900-\uFAFF]'), 'CJK 兼容表意（已实证 0 处）')),
     ('greek',    (re.compile(r'[\u0370-\u03FF\u1F00-\u1FFF]'), '希腊字母（化学用量，合法）')),
@@ -85,8 +86,25 @@ CATS = collections.OrderedDict([
                       '呈现形式/连字')),
     ('u00c5cmp', (re.compile(r'[\u00C5]'), 'Å U+00C5（规范写法，参考）')),
 ])
+def _build_moji_set():
+    """从固定常用字集构造「GBK mojibake 标记字」集。
+    原理：把常用汉字逐字做 c.encode('utf-8').decode('gb18030')，得到 UTF-8 串被按
+    GB18030 解码后出现的字形；剔除本身即常用字者，余下即高信号标记字。
+    判据（行级）：一行内标记字 >= 3 即判 mojibake（实测：已知真阳性 9 字，全库假阳性 0）。
+    """
+    base = ('的一是了我不人在他有这上们来到时大地为子中你说生国年就那和要出也得里后自以会家可下过天去能对小多然于心学么之都看好起发当没成只如事把还用第样道想作种开美总从无情己面最女但现前些所同日手又行意动方期它头经长儿回位分爱老因很给名法间知世什两次使身者被高已亲其进此话常与活正感'
+            '化反温压溶液电分原键能结元构析计算量值图表明含量质数式应平衡速催剂储物质能量')
+    m = set()
+    for c in set(base):
+        for ch in c.encode('utf-8').decode('gb18030', 'ignore'):
+            if ch not in base:
+                m.add(ch)
+    return m
+
+
+MOJI_SET = _build_moji_set()
 JUDGE = ['fffd', 'pua', 'pua_supp', 'kangxi', 'mathalnum', 'indic', 'cyrillic', 'otherscript',
-         'u212b', 'ctrl', 'nonchar', 'cjk_stroke', 'kana']
+         'u212b', 'ctrl', 'nonchar', 'cjk_stroke', 'kana', 'mojibake']
 
 
 def iter_md(root):
@@ -148,6 +166,13 @@ def main():
         grp = '源材料' if is_raw(rel) else '真内容'
         hits = {}
         for c in cats:
+            if c == 'mojibake':
+                for line in t.split('\n'):
+                    n = sum(1 for ch in line if ch in MOJI_SET)
+                    if n >= 3:
+                        hits['mojibake'] = [(n, line.strip()[:70])]
+                        break
+                continue
             f = [(m.start(), m.group(0)) for m in CATS[c][0].finditer(t)]
             if f:
                 hits[c] = f
@@ -194,6 +219,9 @@ def main():
             t = io.open(os.path.join(VAULT, rel), encoding='utf-8-sig').read()
             for c, lst in hits.items():
                 for pos, ch in lst[:40]:
+                    if c == 'mojibake':
+                        P('   %-11s 标记字 %d 处，所在行：%s' % (c, pos, ch))
+                        continue
                     ctx = t[max(0, pos - 25):pos + 25].replace('\n', '⏎')
                     P('   %-11s U+%04X %r  …%s…' % (c, ord(ch), ch, ctx))
 
