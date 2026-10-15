@@ -71,6 +71,30 @@ ORG = ('--organic' in sys.argv) or (os.environ.get('ORG') == '1')
 ORG_SEG_LABELS = ['有机合成与反应机理', '结构鉴定与立体化学']
 
 
+def _arg_topic_map():
+    """`--topic-map <file.json>`：{卡文件名: 0|1} 人工核定的两段主题覆盖表。
+
+    关键词分类器（ORG_TOPIC_PAT）实测误配明显（「天然产物全合成」被分进结构鉴定、
+    「Picrotoxin」结构解析被分进合成与机理）⇒ 选题后逐卡人工判定并写死。
+    """
+    val = None
+    for i, a in enumerate(sys.argv):
+        if a == '--topic-map' and i + 1 < len(sys.argv):
+            val = sys.argv[i + 1]
+        elif a.startswith('--topic-map='):
+            val = a.split('=', 1)[1]
+    if not val:
+        return {}
+    try:
+        d = json.load(open(val, encoding='utf-8'))
+    except Exception as e:
+        raise SystemExit('--topic-map 读取失败：%s' % e)
+    return {k: int(v) for k, v in d.items() if not k.startswith('_') and str(v).isdigit()}
+
+
+ORG_TOPIC_MAP = _arg_topic_map()
+
+
 def _org_no(v):
     """`O3` ⇒ 3（用于算「既往有机卷」）；非 O 编号 ⇒ 0。"""
     m = re.match(r'^O(\d+)$', v or '')
@@ -1039,7 +1063,10 @@ def build_pool():
             if ORG:
                 _tt = q + ' ' + a
                 _tsc = [len(p.findall(_tt)) for p in ORG_TOPIC_PAT]
-                c['otopic'] = (0 if _tsc[0] >= _tsc[1] else 1)
+                _auto = (0 if _tsc[0] >= _tsc[1] else 1)
+                _bn = os.path.basename(c['path'])
+                c['otopic'] = ORG_TOPIC_MAP.get(_bn, _auto)   # 人工覆盖表优先
+                c['otopic_auto'] = _auto
                 c['otopic_sc'] = _tsc
             pool[mod].append(c)
     return pool
