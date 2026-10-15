@@ -19,17 +19,22 @@
     python char_hygiene.py --detail                  # 附每处上下文
     python char_hygiene.py --report <out.md>         # 落报告（自带 FM，可 --report 到 09-审计报告）
     python char_hygiene.py --all -q                  # 只打印判定类目非零的行
+    python char_hygiene.py --no-judged               # 忽略「已判定清单」（按原始命中报警）
 
 退出码：0 = 无「判定类目」命中；1 = 有；2 = 参数错误。
+（注：已判定清单只影响**输出标注**，不改变退出码 —— 语义上「已判定 ≠ 无命中」。）
 
 类目分两档：
   · JUDGE    —— 判定为缺陷（命中即退出码 1）
   · ADVISORY —— 参考档（已知含大量合法用法：℃，x̄，全角标点，emoji 变体选择符…）
+
+已判定清单：同目录 `char_hygiene_judged.json`（逐卡终局判定，当前＝04-题库 kana 24 卡）。
 """
 import argparse
 import collections
 import datetime as _dt
 import io
+import json
 import os
 import re
 import sys
@@ -106,6 +111,22 @@ MOJI_SET = _build_moji_set()
 JUDGE = ['fffd', 'pua', 'pua_supp', 'kangxi', 'mathalnum', 'indic', 'cyrillic', 'otherscript',
          'u212b', 'ctrl', 'nonchar', 'cjk_stroke', 'kana', 'mojibake']
 
+# ---- 已判定清单（term-end verdicts）----
+# 同目录 `char_hygiene_judged.json`：记录**逐卡终局判定**的命中（当前＝04-题库 kana 24 卡，见报告 §6.17）。
+# 清单内文件不再作为「待查缺陷」，仅在输出中标注；未列入清单的新增命中仍照常报警。
+JUDGED_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'char_hygiene_judged.json')
+
+
+def _load_judged():
+    try:
+        d = json.load(io.open(JUDGED_PATH, encoding='utf-8'))
+        return d.get('cards', {}), d.get('_meta', {})
+    except Exception:
+        return {}, {}
+
+
+JUDGED, JUDGED_META = _load_judged()
+
 
 def iter_md(root):
     for dp, dns, fns in os.walk(root):
@@ -133,7 +154,9 @@ def main():
     ap.add_argument('--detail', action='store_true')
     ap.add_argument('--report', default=None)
     ap.add_argument('-q', '--quiet', action='store_true')
+    ap.add_argument('--no-judged', action='store_true', help='忽略已判定清单（按原始命中报警）')
     args = ap.parse_args()
+    judged = {} if args.no_judged else JUDGED
 
     cats = list(CATS.keys())
     if args.cat:
@@ -198,8 +221,16 @@ def main():
         if not cat_occ[c]:
             continue
         tagc = 'J' if c in JUDGE else '-'
+        suffix = ''
+        if c in JUDGE and judged:
+            jn = sum(1 for rel, _, h in rows if c in h and rel in judged
+                     and c in judged[rel].get('cats', ['kana']))
+            if jn and jn == cat_files[c]:
+                suffix = '  ← 已判定 %d/%d 卡（终局判定，见报告 §6.17）' % (jn, cat_files[c])
+            elif jn:
+                suffix = '  ← 已判定 %d 卡；**新增 %d 卡未判定** ⚠️' % (jn, cat_files[c] - jn)
         if not (args.quiet and c not in JUDGE):
-            P('[%s] %-10s %7d %8d  %s' % (tagc, c, cat_files[c], cat_occ[c], CATS[c][1]))
+            P('[%s] %-10s %7d %8d  %s%s' % (tagc, c, cat_files[c], cat_occ[c], CATS[c][1], suffix))
         if c in JUDGE:
             judge_hit = True
     if not judge_hit:
@@ -215,7 +246,10 @@ def main():
     if args.detail and rows:
         P('=' * 78)
         for rel, grp, hits in rows:
-            P('[%s|%s] %s' % (grp, top_of(rel), rel))
+            tag = ''
+            if judged and rel in judged:
+                tag = '  〔已判定: %s〕' % judged[rel].get('verdict', '已判定')
+            P('[%s|%s] %s%s' % (grp, top_of(rel), rel, tag))
             t = io.open(os.path.join(VAULT, rel), encoding='utf-8-sig').read()
             for c, lst in hits.items():
                 for pos, ch in lst[:40]:
