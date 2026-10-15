@@ -10,7 +10,7 @@ module: "2026机构初赛模拟题"
 source_subject: 有机化学
 knowledge_points:
   - "[[化学方程式]]"
-  - "[[共振结构]]"
+  - "[[共振论]]"
   - "[[反应机理]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
 created: 2026-10-14

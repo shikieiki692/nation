@@ -11,7 +11,7 @@ source_subject: 化学原理
 knowledge_points:
   - "[[氧化反应]]"
   - "[[氧化态]]"
-  - "[[氧化数]]"
+  - "[[氧化态]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
 created: 2026-10-14
 updated: 2026-10-14
