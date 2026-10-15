@@ -33,7 +33,7 @@ images_priority: medium
 images_note: 结构/轨道相关 KP，可用 Mermaid 或 LaTeX 绘制示意图，无需外部截图。
 teaching_ready: true
 teaching_insight: "[[教学洞察-VSEPR]]"
-updated: 2026-06-21
+updated: 2026-10-16
 source_extracts:
   - source_file: "[[07-资料提炼/书籍提炼/提炼-化学竞赛初赛讲义-第3讲-分子结构]]"
     asset_id: "第3讲-VSEPR精细规则"
@@ -279,7 +279,7 @@ graph TD
 - 立体化学活性的孤电子对（如 XeF₆ 的非刚性构型）
 
 ## 十四、外部资料出处
-- 北⼤《结构化学基础》
+- 北大《结构化学基础》
 - 《无机化学》各版本分子结构章节
 - 《Orbital Interactions in Chemistry》
 
@@ -355,3 +355,5 @@ SORT year DESC, difficulty ASC
 - 总览：[[中国化学奥林匹克基本要求-总览]]
 - 所属模块：[[基础要求-化学原理]]
 - 对应考纲条目：[[10-分子结构与化学键]]
+
+<!-- 校勘（2026-10-16）：正文出处行的「大」字曾以**康熙部首字形**（码点 U+2F24）录入，已按 Unicode NFKD 1:1 还原为常规汉字。 -->
