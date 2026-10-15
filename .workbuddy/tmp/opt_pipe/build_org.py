@@ -62,6 +62,44 @@ PLAN_OUT = os.path.join(HERE, 'vol_plan_%s.json' % VOL)
 ALL_YEARS = ('--all-years' in sys.argv) or (os.environ.get('ALL_YEARS') == '1')
 # ★ 偏计算偏好（opt-in，`--calc-bias`，2026-10-07 新增）：同难度内优先「计算型」题。
 CALC_BIAS = ('--calc-bias' in sys.argv) or (os.environ.get('CALC_BIAS') == '1')
+# ── 有机专题卷开关（`--organic`，2026-10-16 新增；默认关 ⇒ 主系列行为零变化）──────────
+# 主池有两条**有机排除闸**（`ORG_CHAP` 章节闸／`ORGRE ≥3` 有机词闸），
+# 有机卡在主池里**全部被弃**（实测漏斗 2264→2223、有机词≥3 弃 426）。
+# 开本开关 ⇒ ① 模块闸放开「有机化学」；② 上述两条**反向放行**；③ 卷标题/标签改「有机」。
+ORG = ('--organic' in sys.argv) or (os.environ.get('ORG') == '1')
+# 有机两段主题（对应 QUOTA 的两个分段顺序）
+ORG_SEG_LABELS = ['有机合成与反应机理', '结构鉴定与立体化学']
+
+
+def _org_no(v):
+    """`O3` ⇒ 3（用于算「既往有机卷」）；非 O 编号 ⇒ 0。"""
+    m = re.match(r'^O(\d+)$', v or '')
+    return int(m.group(1)) if m else 0
+# ── 有机内容闸（2026-10-16 实测补）：FM 的 `subject_module: 有机化学` **在内容层不可靠** ——
+#    实测有机池里混入「[Co(II)(Salen)] 载氧体制备」「Pd(PPh₃)₄ 制备」「醋酸亚铬二水合物合成」等
+#    **配位/无机实验题**（FM 标 有机化学）。⇒ 加内容级判据：有机信号须显著强于无机信号。
+ORG_POS = re.compile(r'有机|结构式|合成|反应机理|重排|加成|消除|取代|亲核|亲电|手性|构型|构象'
+                     r'|异构|烃|醇|醛|酮|羧酸|酯\b|酰胺|胺\b|苯环|杂环|糖类|肽|生物碱|天然产物'
+                     r'|核磁|NMR|红外|质谱|立体|烯|炔|环化|偶联|催化氢化|逆合成')
+ORG_NEG = re.compile(r'配合物|配位[数场]|载氧|晶胞|晶格|点阵|布拉维|电离能|电子亲和'
+                     r'|电极电势|电动势|能斯特|溶度积|晶体场|磁矩|d\s*轨道|配位数'
+                     r'|Schlenk|手套箱|分子筛|沸点测定|熔点测定')
+
+
+def org_gate_ok(text):
+    """有机内容闸：有机信号 ≥5 且 有机信号 > 2× 无机信号。"""
+    p = len(ORG_POS.findall(text))
+    n = len(ORG_NEG.findall(text))
+    return p >= 5 and p > 2 * n
+
+
+# 主题分类器词表：0＝合成与机理；1＝结构鉴定与立体化学
+ORG_TOPIC_PAT = [
+    re.compile(r'合成|反应机理|机理|历程|中间体|催化|重排|加成|消除|取代'
+               r'|路线|试剂|产率|反应条件|周环|亲核|亲电|氧化|还原|环化|构建|构筑'),
+    re.compile(r'核磁|NMR|氢谱|碳谱|红外|IR\b|质谱|MS\b|谱图|谱数据|推断.*结构|结构推断'
+               r'|手性|对映|非对映|构型|构象|立体|旋光|ee值|ee\b|顺反|异构|R/S|E/Z'),
+]
 JIE = re.compile(r'第\s*(\d+)\s*届')
 OVERFLOW_HITS = []        # 越界闸命中（路径, 本卡题号, 原因）
 HANDWRITTEN_HITS = []     # 手写稿闸命中（路径）
@@ -232,6 +270,8 @@ def overflow_reason(q, a, own):
     return None
 
 _MOD_LABEL = {'元素与分析': '元素化学与分析化学', '结构化学': '结构化学', '化学原理': '化学原理'}
+if ORG:                       # 有机专题卷：两段同模块，主题名由 ORG_SEG_LABELS 提供
+    _MOD_LABEL['有机化学'] = '有机化学'
 _CN_NUM = ['一', '二', '三', '四', '五', '六']
 
 
@@ -248,6 +288,9 @@ def _arg_quota():
         elif a.startswith('--quota='):
             val = a.split('=', 1)[1]
     if not val:
+        if ORG:               # 有机专题卷默认：两段各 5 题（共 10 题）
+            return [('有机化学', '第一部分　' + ORG_SEG_LABELS[0], 5),
+                    ('有机化学', '第二部分　' + ORG_SEG_LABELS[1], 5)]
         return [('元素与分析', '第一部分　元素化学与分析化学', 7),
                 ('结构化学', '第二部分　结构化学', 5),
                 ('化学原理', '第三部分　化学原理', 4)]
@@ -259,7 +302,9 @@ def _arg_quota():
         m = m.strip()
         if m not in _MOD_LABEL:
             raise SystemExit('--quota 未知模块「%s」（可用：元素与分析/结构化学/化学原理）' % m)
-        out.append((m, '第%s部分　%s' % (_CN_NUM[k], _MOD_LABEL[m]), int(n)))
+        # 有机专题卷：同模块多段 ⇒ 段名取 ORG_SEG_LABELS[k]（主题名），不再取模块名
+        _lbl = (ORG_SEG_LABELS[k] if (ORG and k < len(ORG_SEG_LABELS)) else _MOD_LABEL[m])
+        out.append((m, '第%s部分　%s' % (_CN_NUM[k], _lbl), int(n)))
     if not out:
         raise SystemExit('--quota 为空')
     return out
@@ -880,7 +925,9 @@ def build_pool():
                 continue
             if BATCH_BAD.search(norm):     # 「讲稿」批次＝授课脚本，题面混讲解
                 continue
-            if mod not in ('元素与分析', '结构化学', '化学原理') or stage == '省预赛':
+            _MODS_OK = ('元素与分析', '结构化学', '化学原理', '有机化学') if ORG \
+                else ('元素与分析', '结构化学', '化学原理')
+            if mod not in _MODS_OK or stage == '省预赛':
                 continue
             if diff < 4 or [x for x in B.RISK if x in t]:
                 continue
@@ -889,7 +936,8 @@ def build_pool():
             tn = re.sub(r'<!--.*?-->', '', t, flags=re.S)
             if B.is_cn_prelim(tn) and os.path.basename(p) not in KEEP_POOL:
                 continue
-            if B.ORG_CHAP.search(src) or B.ORG_CHAP.search(h1):
+            # 有机专题卷 ⇒ 该闸**反向放行**（主池用它弃掉有机章卡）
+            if not ORG and (B.ORG_CHAP.search(src) or B.ORG_CHAP.search(h1)):
                 continue
             try:
                 c = X.extract(p)
@@ -944,7 +992,14 @@ def build_pool():
             qn = re.sub(r'\s+', '', q); an = re.sub(r'\s+', '', a)
             if len(an) < 25 or len(qn) < 60:
                 continue
-            if len(B.ORGRE.findall(q + ' ' + a)) >= 3:
+            # 有机专题卷 ⇒ 该闸**反向放行**（主池用它弃掉「有机词≥3」的卡，实测弃 426 张）
+            if not ORG and len(B.ORGRE.findall(q + ' ' + a)) >= 3:
+                continue
+            # 有机内容闸（仅有机卷）：FM 标「有机化学」却实为配位/无机实验题者 ⇒ 弃卡
+            #   ① 有机/无机词信号比；② `ORGRE ≥2`（实测「醋酸亚铬二水合物合成」ORGRE=0、
+            #      「Au 团簇圆二色」ORGRE=0 ⇒ 均为无机题，仅靠①拦不住）。
+            if ORG and not (org_gate_ok(q + ' ' + a)
+                            and len(B.ORGRE.findall(q + ' ' + a)) >= 2):
                 continue
             if len(re.findall(r'^\*\*\s*\d{1,2}\s*[.．]\s*\*\*', q + '\n' + a, re.M)) >= 8:
                 continue
@@ -980,6 +1035,12 @@ def build_pool():
             # 去重指纹：深归一题面（跨批次识别同一道题）＋ 5-gram 集合（模糊判重）
             c['fp'] = deep_fp(q)
             c['fpsh'] = shingles(c['fp'])
+            # 有机专题卷：主题归类（0＝合成与机理／1＝结构鉴定与立体化学），供两段分池
+            if ORG:
+                _tt = q + ' ' + a
+                _tsc = [len(p.findall(_tt)) for p in ORG_TOPIC_PAT]
+                c['otopic'] = (0 if _tsc[0] >= _tsc[1] else 1)
+                c['otopic_sc'] = _tsc
             pool[mod].append(c)
     return pool
 
@@ -1009,11 +1070,18 @@ def calc_score(q):
     return round(sig * 100.0 / max(1, len(q)), 2)
 
 
+def _cap_of(src, max_per_src):
+    """单机构题量上限（有机卷：chemy 体量占 44% ⇒ 单独放宽到 3，其余机构 ≤2）。"""
+    if ORG:
+        return 3 if src == 'chemy' else min(2, max_per_src)
+    return max_per_src
+
+
 def pick_vol(pool, used, max_per_src=4, fps0=None):
     picks = []
     per_src = collections.Counter()
     seen_sh = list(fps0 or ())        # ★ 种入既往卷指纹 ⇒ 跨卷同题不重
-    for mod, _, need in QUOTA:
+    for _k, (mod, _, need) in enumerate(QUOTA):
         by_src = collections.defaultdict(list)
         if CALC_BIAS:                 # ★ opt-in：同难度内优先计算型
             _key = lambda x: (-x.get('recent', 0), -x['difficulty'], -x.get('calc', 0), -x['qlen'])
@@ -1021,6 +1089,8 @@ def pick_vol(pool, used, max_per_src=4, fps0=None):
             _key = lambda x: (-x.get('recent', 0), -x['difficulty'], -x['qlen'])
         for c in sorted(pool[mod], key=_key):
             if c['path'] in used:
+                continue
+            if ORG and c.get('otopic') != _k:      # 有机两段按主题分池
                 continue
             by_src[c['src_dir']].append(c)
         order = VOL_PREF + [s for s in SRCS if s not in VOL_PREF]
@@ -1030,7 +1100,7 @@ def pick_vol(pool, used, max_per_src=4, fps0=None):
             for s in order:
                 if len(got) >= need:
                     break
-                if per_src[s] >= max_per_src:
+                if per_src[s] >= _cap_of(s, max_per_src):
                     continue
                 lst = by_src.get(s, [])
                 if r < len(lst):
@@ -1133,29 +1203,38 @@ def write_vol(picks, flat, SC):
     n5 = sum(1 for _, c, _ in flat if c['difficulty'] == 5)
     mins = max(60, int(round(len(flat) * 11.25 / 10.0) * 10))   # 16 题→180 分/分钟；10 题→110
     modshort = {'元素与分析': '元素与分析', '结构化学': '结构化学', '化学原理': '化学原理'}
+    if ORG:
+        modshort['有机化学'] = '有机化学'
+    _DOM = ('有机' if ORG else '非有机')     # 卷族域标记（标题/文件名/标签统一走它）
 
     ans, stu = [], []
     for tag, out in (('答案版', ans), ('学生版', stu)):
         is_ans = (tag == '答案版')
-        out += ['---', 'title: 初赛模拟卷%s（非有机·%s）' % (VOL, tag), 'type: 题组',
+        out += ['---', 'title: 初赛模拟卷%s（%s·%s）' % (VOL, _DOM, tag), 'type: 题组',
                 'role: 竞赛模拟训练卷', 'created: 2026-10-06', 'updated: 2026-10-06',
-                'tags: [化竞, 模拟卷, 初赛, 非有机, 多源, 机构模拟题]',
+                'tags: [化竞, 模拟卷, 初赛, %s, 多源, 机构模拟题]' % _DOM,
                 'source: ' + ('题库多家机构合编' if not is_ans else
                               B.esc('题库多家机构合编（含 ' + '、'.join(orgs) + '）')),
                 'source_category: 竞赛导向·竞赛教辅', 'exam_stage: 初赛',
                 'question_count: %d' % len(flat), '满分: %d' % total, '---', '',
-                '# 初赛模拟卷 %s（非有机 · %s）' % (VOL, tag), '']
+                '# 初赛模拟卷 %s（%s · %s）' % (VOL, _DOM, tag), '']
         # ⚠️ 只列**实际有题**的模块段（试点卷 XIp 无「元素与分析」⇒ 原写法 KeyError）
         segtxt = '、'.join('%s（第 %d–%d 题，%d 分）' % (lbl, seg_start[m][0], seg_start[m][1], seg_score[m])
                           for m, lbl, _ in QUOTA if m in seg_start)
-        before = ROMAN[:ROMAN.index(VOL)] if VOL in ROMAN else []
-        prev = '、'.join('[[04-题库/初赛模拟卷%s（非有机·答案版）|卷 %s]]' % (x, x)
+        # 有机系列（O1、O2…）独立编号，其「既往卷」只指同族已出卷
+        if ORG:
+            before = ['O%d' % i for i in range(1, _org_no(VOL))]
+        else:
+            before = ROMAN[:ROMAN.index(VOL)] if VOL in ROMAN else []
+        prev = '、'.join('[[04-题库/初赛模拟卷%s（%s·答案版）|卷 %s]]' % (x, _DOM, x)
                           for x in before) or '—'
         if is_ans:
             out += ['> **组卷口径**：%d 题跨 **%d 个来源机构**抽取（%s），全部取自各机构 '
                     '**2025~2026 年最新批次**（第39/40届 ＋ 2026 年班次）；均满足 `difficulty≥⭐⭐⭐⭐`、'
-                    '`fidelity=原书逐字`；**已剔除全部有机化学题与国内初赛真题**，与 %s 用题零重复。'
-                    % (len(flat), len(orgs), '、'.join(orgs), prev),
+                    '`fidelity=原书逐字`；%s，与 %s 用题零重复。'
+                    % (len(flat), len(orgs), '、'.join(orgs),
+                       '**全部为有机化学题（已剔除国内初赛真题）**' if ORG
+                       else '**已剔除全部有机化学题与国内初赛真题**', prev),
                     '> **范围**：' + segtxt + '，**满分 %d 分，建议用时 %d 分钟**；'
                     '难度 ⭐⭐⭐⭐ ×%d、⭐⭐⭐⭐⭐ ×%d。' % (total, mins, n4, n5),
                     '> 题卡溯源见卷末选题清单。']
@@ -1223,7 +1302,7 @@ def write_vol(picks, flat, SC):
         nb = nf = 0
         if LF:
             txt, nb, nf = LF.process(txt)
-        p = os.path.join(QB, '初赛模拟卷%s（非有机·%s）.md' % (VOL, tag))
+        p = os.path.join(QB, '初赛模拟卷%s（%s·%s）.md' % (VOL, _DOM, tag))
         open(p, 'w', encoding='utf-8', newline='\n').write(txt)
         print('  → %s：噪声剔 %d 图，并排 %d 组/%d 图' % (tag, n0 - n1, nb, nf))
     print('  → 卷 %s 已写出（%d 题 / %d 分 / %d 机构）' % (VOL, len(flat), total, len(orgs)))
