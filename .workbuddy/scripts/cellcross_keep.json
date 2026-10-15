@@ -1,0 +1,6 @@
+{
+ "XI/答案与解析版/p25/x366.5": {
+  "why": "卷 XI 答案版 p25 解析正文（考点/思路）内的行内公式 `I \\propto |F|^2`；该竖线是复现 span `' ∝'` 旁 OMML 绝对值定界符 `|F|` 的竖笔画，**非表格竖border**。",
+  "checked": "2026-10-15 420dpi 裁图目检（.workbuddy/tmp/opt_pipe/render_out/crosschk/XI_p25.png）：该页为散文解析，无表格。"
+ }
+}
