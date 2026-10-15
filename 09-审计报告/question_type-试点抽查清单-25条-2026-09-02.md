@@ -1,3 +1,9 @@
+---
+title: 'question_type · LLM 试点抽查清单（25 条分层样本）'
+type: 审计报告
+date: 2026-09-02
+---
+
 # question_type · LLM 试点抽查清单（25 条分层样本）
 
 > 2026-09-02 · 从「question_type-LLM补全试点-抽样判定报告-2026-09-02」125 条明细按判定类别分层抽取：

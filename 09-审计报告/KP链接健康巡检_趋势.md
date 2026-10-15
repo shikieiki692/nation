@@ -1,3 +1,9 @@
+---
+title: 'KP 链接健康巡检 · 趋势'
+type: 审计报告
+date: 2026-09-03
+---
+
 # KP 链接健康巡检 · 趋势
 
 > 由 `kp_link_patrol.py --report` 自动追加。A/C/D/H/G 应为 0；E 允许 ≤3。

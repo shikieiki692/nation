@@ -1,3 +1,9 @@
+---
+title: 'question_type · LLM 语义补全试点抽样判定报告'
+type: 审计报告
+date: 2026-09-02
+---
+
 # question_type · LLM 语义补全试点抽样判定报告
 
 > 2026-09-02 · 抽样器 `.workbuddy/scripts/llm_type_pilot.py`（seed=42，口径与 infer_question_type.py 完全一致）

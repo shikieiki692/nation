@@ -1,3 +1,9 @@
+---
+title: '缺陷类全库扫描报告（mathring / \Delta 噪声 / 双花括号）— 2026-10-14'
+type: 审计报告
+date: 2026-10-14
+---
+
 # 缺陷类全库扫描报告（mathring / \Delta 噪声 / 双花括号）— 2026-10-14
 
 > 触发：卷 XVII 组卷时新发现 `\mathrm{mathring A}` 类缺陷（交付 docx 印字面「mathtyping A」）⇒ 顺势做**全库分布扫描**（只读）。
