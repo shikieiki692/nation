@@ -33,6 +33,8 @@ source_file: "chemy试题/第38届化学奥林匹克Chemy模拟试题题目合�
 
 ## 题目
 
+> 📄 校勘（2026-10-15）：字符规范化——题面区 1 处非规范埃符号 Å(U+212B，Unicode 明示应用 U+00C5)替换为 Å(U+00C5)（库内 1,455 卡通行写法；全库 U+212B 共 4 处＝CM-170-05 1＋本卡 1，均题面区、经 owner 授权）；纯字符级替换，数值与表述零改动。
+
 ### 第 5 题 5 分， $4 \%$
 
 分，4%）下图为二元合金LaxNiy 的
@@ -42,7 +44,7 @@ source_file: "chemy试题/第38届化学奥林匹克Chemy模拟试题题目合�
 ![](images/a8353236f8897da339feb9dde786666c9f0ae773aded2d45aef982f04a8517bd.jpg)
 
 5-1 写出该合金的化学式。
-5-2 晶胞中 Ni – Ni 键长为 2.512 Å， 晶体密度 $\rho = 8.51 \mathrm { g } \cdot \mathrm { cm } ^{ - 3 }$ ， 求晶胞参数 $\scriptstyle { c }$ 。
+5-2 晶胞中 Ni – Ni 键长为 2.512 Å， 晶体密度 $\rho = 8.51 \mathrm { g } \cdot \mathrm { cm } ^{ - 3 }$ ， 求晶胞参数 $\scriptstyle { c }$ 。
 
 ## 参考答案
 
