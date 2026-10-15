@@ -1,6 +1,6 @@
 # 自动验证报告 · 2026-10-16
 
-> **扫描模式**: changed: 3 files
+> **扫描模式**: changed: 2 files
 > **受检文件**: 0
 > **检出异常**: 0 error / 0 warning / 0 info
 
