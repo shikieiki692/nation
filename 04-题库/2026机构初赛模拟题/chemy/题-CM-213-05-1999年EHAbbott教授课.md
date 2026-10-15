@@ -14,7 +14,7 @@ knowledge_points:
   - "[[溶液]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
 created: 2026-10-14
-updated: 2026-10-14
+updated: 2026-10-15
 status: 已填充
 exam_stage: 初赛
 subject_module: 化学原理
@@ -32,6 +32,8 @@ source_file: "chemy试题/第39届Chemy化学奥林匹克竞赛模拟试题参�
 > 来源：Chemy- 项目（brucejllpku.github.io/Chemy-）`chemy39-22-5`；版权归 Chemy 化学奥林匹克团队原命题组，仅供内部备课、禁商用、不删原水印。
 
 ## 题目
+
+> 📄 校勘（2026-10-15）：数学字母规范化——源件（Chemy- 站点 questions.json）落入的 Unicode 数学斜体字母共 9 处（题面区 0／答案区 9），按本卡纯文本书写惯例（∆＋`<sub>/<sup>`＋普通字母）转为普通字母；站点 JSON 自身即乱（17/1933 条同病），无清洁上游；纯字符级替换，数值与表述零改动。
 
 ### 第 5 题（10 分，占 10%）
 
@@ -63,7 +65,7 @@ source_file: "chemy试题/第39届Chemy化学奥林匹克竞赛模拟试题参�
 
 ![](images/155e51657aabeb06dee99f1192647a814d5dfbffc646bb28cdd8d9f9b1b6fc7f.jpg)
 
-**5-2-1** ∆𝐺 = −𝑅𝑇𝑙𝑛𝐾 = ∆𝐻 − 𝑇∆𝑆（1 分）
+**5-2-1** ∆G = −RTlnK = ∆H − T∆S（1 分）
 
 ![](images/7c55382f78b8d9cecae609a69571194134c47fae8e28e987db0ad73d497e85ef.jpg)
 
