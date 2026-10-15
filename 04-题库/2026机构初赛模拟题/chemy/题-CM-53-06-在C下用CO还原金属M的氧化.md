@@ -15,7 +15,7 @@ knowledge_points:
   - "[[晶体密度公式]]"
   - "[[能带理论]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-15
 status: 已填充
 exam_stage: 初赛
 subject_module: 结构化学
@@ -29,6 +29,8 @@ source_file: "chemy试题/第32届中国化学奥林匹克Chemy题目合集..md"
 ---
 
 # 题-CM-53-06-在C下用CO还原金属M的氧化
+
+> 来源：Chemy- 项目（brucejllpku.github.io/Chemy-）`chemy32-4-6`；版权归 Chemy 化学奥林匹克团队原命题组，仅供内部备课、禁商用、不删原水印。
 
 ## 题目
 

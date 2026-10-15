@@ -14,7 +14,7 @@ knowledge_points:
   - "[[R-S构型]]"
   - "[[反应机理]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-15
 status: 已填充
 exam_stage: 决赛
 subject_module: 有机化学
@@ -29,6 +29,8 @@ pool_scope: 有机化学
 ---
 
 # 题-CM-128-08-盐酸哌甲酯又称利他林Rita
+
+> 来源：Chemy- 项目（brucejllpku.github.io/Chemy-）`chemy36-23-8`；版权归 Chemy 化学奥林匹克团队原命题组，仅供内部备课、禁商用、不删原水印。
 
 ## 题目
 

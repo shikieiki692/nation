@@ -15,7 +15,7 @@ knowledge_points:
   - "[[杂化轨道理论]]"
   - "[[金属-金属键]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-08
+updated: 2026-10-15
 status: 已填充
 exam_stage: 初赛
 subject_module: 结构化学
@@ -30,6 +30,8 @@ pool_scope: 待复核
 ---
 
 # 题-CM-121-04-2000年PeterHofm
+
+> 来源：Chemy- 项目（brucejllpku.github.io/Chemy-）`chemy36-14-4`；版权归 Chemy 化学奥林匹克团队原命题组，仅供内部备课、禁商用、不删原水印。
 
 ## 题目
 

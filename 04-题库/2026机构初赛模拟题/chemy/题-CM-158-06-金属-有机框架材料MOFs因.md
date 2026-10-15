@@ -15,7 +15,7 @@ knowledge_points:
   - "[[点群初步]]"
   - "[[配位化学]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-08
+updated: 2026-10-15
 status: 已填充
 exam_stage: 决赛
 subject_module: 结构化学
@@ -30,6 +30,8 @@ pool_scope: 有机化学
 ---
 
 # 题-CM-158-06-金属-有机框架材料MOFs因
+
+> 来源：Chemy- 项目（brucejllpku.github.io/Chemy-）`chemy38-6-6`；版权归 Chemy 化学奥林匹克团队原命题组，仅供内部备课、禁商用、不删原水印。
 
 ## 题目
 

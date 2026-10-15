@@ -14,7 +14,7 @@ knowledge_points:
   - "[[分布分数]]"
   - "[[Nernst方程]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-08
+updated: 2026-10-15
 status: 已填充
 exam_stage: 初赛
 subject_module: 元素与分析
@@ -28,6 +28,8 @@ source_file: "chemy试题/第34届Chemy化学奥林匹克题目合集..md"
 ---
 
 # 题-CM-77-09-辉银矿和角银矿AgCl是自然
+
+> 来源：Chemy- 项目（brucejllpku.github.io/Chemy-）`chemy34-4-9`；版权归 Chemy 化学奥林匹克团队原命题组，仅供内部备课、禁商用、不删原水印。
 
 ## 题目
 

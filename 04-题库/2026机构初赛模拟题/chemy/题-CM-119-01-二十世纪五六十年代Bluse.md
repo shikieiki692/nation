@@ -14,7 +14,7 @@ knowledge_points:
   - "[[氧化态]]"
   - "[[水解反应]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-08
+updated: 2026-10-15
 status: 已填充
 exam_stage: 初赛
 subject_module: 元素与分析
@@ -28,6 +28,8 @@ source_file: "chemy试题/第36届化学奥林匹克Chemy模拟试题题目合�
 ---
 
 # 题-CM-119-01-二十世纪五六十年代Bluse
+
+> 来源：Chemy- 项目（brucejllpku.github.io/Chemy-）`chemy36-6-1`；版权归 Chemy 化学奥林匹克团队原命题组，仅供内部备课、禁商用、不删原水印。
 
 ## 题目
 

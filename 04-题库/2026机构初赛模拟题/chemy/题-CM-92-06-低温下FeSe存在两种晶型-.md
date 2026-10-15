@@ -15,7 +15,7 @@ knowledge_points:
   - "[[密堆积]]"
   - "[[晶胞投影图分析]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-08
+updated: 2026-10-15
 status: 已填充
 exam_stage: 初赛
 subject_module: 结构化学
@@ -29,6 +29,8 @@ source_file: "chemy试题/第35届中国化学奥林匹克Chemy题目合集..md"
 ---
 
 # 题-CM-92-06-低温下FeSe存在两种晶型-
+
+> 来源：Chemy- 项目（brucejllpku.github.io/Chemy-）`chemy35-2-6`；版权归 Chemy 化学奥林匹克团队原命题组，仅供内部备课、禁商用、不删原水印。
 
 ## 题目
 

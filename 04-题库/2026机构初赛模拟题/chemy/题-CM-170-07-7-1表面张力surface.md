@@ -13,7 +13,7 @@ knowledge_points:
   - "[[表面张力]]"
   - "[[分子间力]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-08
+updated: 2026-10-15
 status: 已填充
 exam_stage: 初赛
 subject_module: 化学原理
@@ -27,6 +27,8 @@ source_file: "chemy试题/第38届化学奥林匹克Chemy模拟试题题目合�
 ---
 
 # 题-CM-170-07-7-1表面张力surface
+
+> 来源：Chemy- 项目（brucejllpku.github.io/Chemy-）`chemy38-21-7`；版权归 Chemy 化学奥林匹克团队原命题组，仅供内部备课、禁商用、不删原水印。
 
 ## 题目
 

@@ -15,7 +15,7 @@ knowledge_points:
   - "[[催化循环入门]]"
   - "[[配合物异构]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-07
+updated: 2026-10-15
 status: 已填充
 exam_stage: 初赛
 subject_module: 有机化学
@@ -30,6 +30,8 @@ pool_scope: 有机化学
 ---
 
 # 题-CM-91-04-相比于贵金属Ru同族的Fe的
+
+> 来源：Chemy- 项目（brucejllpku.github.io/Chemy-）`chemy35-1-4`；版权归 Chemy 化学奥林匹克团队原命题组，仅供内部备课、禁商用、不删原水印。
 
 ## 题目
 

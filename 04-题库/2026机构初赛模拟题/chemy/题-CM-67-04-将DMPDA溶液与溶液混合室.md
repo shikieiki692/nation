@@ -14,7 +14,7 @@ knowledge_points:
   - "[[配合物异构]]"
   - "[[配合物几何构型]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-15
 status: 已填充
 exam_stage: 初赛
 subject_module: 有机化学
@@ -29,6 +29,8 @@ pool_scope: 有机化学
 ---
 
 # 题-CM-67-04-将DMPDA溶液与溶液混合室
+
+> 来源：Chemy- 项目（brucejllpku.github.io/Chemy-）`chemy33-7-4`；版权归 Chemy 化学奥林匹克团队原命题组，仅供内部备课、禁商用、不删原水印。
 
 ## 题目
 

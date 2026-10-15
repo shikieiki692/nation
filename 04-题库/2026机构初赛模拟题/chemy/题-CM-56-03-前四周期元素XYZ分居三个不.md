@@ -15,7 +15,7 @@ knowledge_points:
   - "[[晶体结构]]"
   - "[[晶体密度公式]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-04
+updated: 2026-10-15
 status: 已填充
 exam_stage: 初赛
 subject_module: 元素与分析
@@ -29,6 +29,8 @@ source_file: "chemy试题/第32届中国化学奥林匹克Chemy题目合集..md"
 ---
 
 # 题-CM-56-03-前四周期元素XYZ分居三个不
+
+> 来源：Chemy- 项目（brucejllpku.github.io/Chemy-）`chemy32-7-3`；版权归 Chemy 化学奥林匹克团队原命题组，仅供内部备课、禁商用、不删原水印。
 
 ## 题目
 

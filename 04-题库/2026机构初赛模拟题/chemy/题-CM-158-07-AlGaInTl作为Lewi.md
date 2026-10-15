@@ -14,7 +14,7 @@ knowledge_points:
   - "[[Clapeyron方程]]"
   - "[[元素周期律]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-08
+updated: 2026-10-15
 status: 已填充
 exam_stage: 决赛
 subject_module: 化学原理
@@ -28,6 +28,8 @@ source_file: "chemy试题/第38届化学奥林匹克Chemy模拟试题题目合�
 ---
 
 # 题-CM-158-07-AlGaInTl作为Lewi
+
+> 来源：Chemy- 项目（brucejllpku.github.io/Chemy-）`chemy38-6-7`；版权归 Chemy 化学奥林匹克团队原命题组，仅供内部备课、禁商用、不删原水印。
 
 ## 题目
 

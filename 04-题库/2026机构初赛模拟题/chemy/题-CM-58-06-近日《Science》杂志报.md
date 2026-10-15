@@ -30,6 +30,8 @@ pool_scope: 有机化学
 
 # 题-CM-58-06-近日《Science》杂志报
 
+> 来源：Chemy- 项目（brucejllpku.github.io/Chemy-）`chemy32-9-6`；版权归 Chemy 化学奥林匹克团队原命题组，仅供内部备课、禁商用、不删原水印。
+
 ## 题目
 
 ### 第 6 题（16 分）

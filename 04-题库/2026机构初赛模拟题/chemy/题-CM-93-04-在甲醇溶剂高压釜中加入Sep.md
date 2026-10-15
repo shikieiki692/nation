@@ -14,7 +14,7 @@ knowledge_points:
   - "[[配位化学]]"
   - "[[原子簇化学]]"
 tags: [化竞, 题目, 初赛, 机构模拟题, chemy]
-updated: 2026-10-07
+updated: 2026-10-15
 status: 已填充
 exam_stage: 初赛
 subject_module: 有机化学
@@ -29,6 +29,8 @@ pool_scope: 有机化学
 ---
 
 # 题-CM-93-04-在甲醇溶剂高压釜中加入Sep
+
+> 来源：Chemy- 项目（brucejllpku.github.io/Chemy-）`chemy35-3-4`；版权归 Chemy 化学奥林匹克团队原命题组，仅供内部备课、禁商用、不删原水印。
 
 ## 题目
 
