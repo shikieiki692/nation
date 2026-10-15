@@ -12,9 +12,17 @@ r"""卷级「一键闸门」：串跑 ④ 系列全部交付前检查，退出�
   ③ ④-c  Å 误包/mathtyping 扫描   scan_mathring.py --vol <V>
   ④ ④-d  表格单元格 OMML 裁切扫描 scan_table_cell_clip.py --vol <V>   （须 pymupdf 解释器）
   ⑤ ④-e  图源覆盖核验（逐题比对源卡图 vs 卷内图）verify_fig_coverage.py --vol <V> --strict
+  ⑤ ④-f  单元格越界扫描（渲染几何级：文字跨表格竖线）scan_cell_cross.py --vol <V> --strict
   ⑤ 师/生题面一致        gate_s_t_<V>.py（若存在）
   ⑥ 折行审计            table_wrap_audit.py <学生版.docx> <答案版.docx>
   ⑦ ⑫    渲染机检        qa_vol_render.py --vol <V>                  （仅 --with-render）
+
+★ ④-f 补 ④-d 的结构性盲区（2026-10-15 卷 XII 实测）：
+  ④-d 用「PDF 文字层最长前缀匹配」判裁切 ⇒ 对「LibreOffice **视觉裁切**、但文字**仍留在文字层**」
+  的形态**会漏报**（XII 第二处热力学表裁切 ④-d 零命中，只报出 1/3）。
+  ④-f 改从**渲染几何**判：文字 span 包围盒跨过长竖线（≥12pt）即候选；白名单
+  `cellcross_keep.json`。⚠️ 两者**自带独立 PDF 缓存**（`cellcross_out/` vs `render_gate_out/`），
+  **重出 docx 后须各自刷新**再扫 —— ④-f 按 docx mtime 自动重渲染，④-d 须手动刷。
 
 ★ 与 SOP 的关系：本脚本是 ④ 系列的**执行入口**，判据定义仍以 SOP 为准。
 """
@@ -69,6 +77,8 @@ for V in VOLS:
     res.append(step('④-c Å误包扫描', PY_SYS, [os.path.join(S, 'scan_mathring.py'), '--vol', V]))
     res.append(step('④-d 表格裁切扫描', PY_VENV, [os.path.join(S, 'scan_table_cell_clip.py'), '--vol', V]))
     res.append(step('④-e 图源覆盖核验', PY_SYS, [os.path.join(S, 'verify_fig_coverage.py'), '--vol', V, '--strict']))
+    # ★ 2026-10-15 新增：④-f 渲染几何级单元格越界（补 ④-d 的「视觉裁切但文字仍在文字层」盲区）
+    res.append(step('④-f 单元格越界扫描', PY_VENV, [os.path.join(S, 'scan_cell_cross.py'), '--vol', V, '--strict']))
     st = os.path.join(O, 'gate_s_t_%s.py' % V)
     if not os.path.exists(st):
         st = os.path.join(O, '%s_consistency.py' % V.lower())
