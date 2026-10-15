@@ -14,15 +14,15 @@ description: >
 source_notes:
   - "[[00-首页/状态摘要]]"
   - "[[00-首页/知识库治理待办]]"
-  - "[[11-模板/scripts/validate_kb.py]]"
+  - "`11-模板/scripts/validate_kb.py`（脚本，非笔记）"
 related_notes:
-  - "[[09-审计报告/auto-validation/2026-08-02-validation]]"
+  - "09-审计报告/auto-validation/2026-08-02-validation（该批报告未入库）"
   - "[[00-首页/自动汇总/自动汇总-系统库存统计]]"
 evidence:
   - "2026-08-02: 机制恢复——cron 23 8 * * 1 会话级定时任务已建；validate_kb.py 降噪修复（5251→2648 warning）：图片全库 basename 解析 + status 枚举补全 + 目录链接识别 + 模板占位符排除 + 带.md后缀短链接兼容。基线 48 error / 2648 warning / 7296 info。"
   - "2026-08-02: 状态摘要 低优/定时任务区 + 知识库治理待办 已上线自动化区已同步记录。"
   - "2026-08-03: 全量验证确认基线 0 error / 2179 warning / 7293 info（6112 文件）；48 个 frontmatter 补齐后 error=0，脚本再降噪（图片全库解析+占位排除+published门禁复用图片解析），周巡检报告 [[09-审计报告/周巡检-2026-08-03]] 无异常增量。"
-  - "2026-08-03(第二轮): validate_kb.py build_label_index 修复——YAML 解析失败时 aliases 退化为含方括号字符串（如 \"[a, b]\"），索引把整串当一个 label 导致别名全部丢失；改为拆分为单项。断链 2559→2020（-539）、Warning 2986→2350。附带发现 300 个 KP frontmatter 存在 `tags: [X]`+缩进块列表 YAML 损坏 → **已用 [[11-模板/scripts/fix_tags_yaml.py]] 批量修复（357 文件）**，aliases 全部恢复。最终基线：0 error / 2134 warning / 1837 断链 / 86 图片缺失 / 196 标题跳跃 / 166 过期(Info)。"
+  - "2026-08-03(第二轮): validate_kb.py build_label_index 修复——YAML 解析失败时 aliases 退化为含方括号字符串（如 \"[a, b]\"），索引把整串当一个 label 导致别名全部丢失；改为拆分为单项。断链 2559→2020（-539）、Warning 2986→2350。附带发现 300 个 KP frontmatter 存在 `tags: [X]`+缩进块列表 YAML 损坏 → **已用 `11-模板/scripts/fix_tags_yaml.py` 批量修复（357 文件）**，aliases 全部恢复。最终基线：0 error / 2134 warning / 1837 断链 / 86 图片缺失 / 196 标题跳跃 / 166 过期(Info)。"
   - "2026-08-04: 巡检逻辑新增第5步——顺带刷新 backup_media.py manifest + 检查 zip 新鲜度，媒体仓库 241MB gitignore 资产纳入周期健康检查。"
   - "2026-08-10: 08-10 精选重组归档移动后合规补跑（--full 6237 文件）——0 error / 1926 warning / 7406 info / 断链 1885 / 图片缺失 3。精选重组断链旧→新路径平移数量不变，未引入体系性断链；新增 ~68 断链为 08-09 晚间真题三方审计 knowledge_points 补全产物（目标 KP 缺失，已入断链内容建设backlog）；图片缺失 +1 为 04-课件/习题集/一·随堂层（载体I·配套讲义章末练习）/第一轮结构化学-晶体结构练习题组 mineru 图引用（08-10 07:59 修改）。"
   - "2026-08-13: 任务卡大规模迁移（104 张移出活跃任务+引用修复+索引重建）后合规补跑（--full 6266 文件）——0 error / 1366 warning / 7442 info / 断链 1355 / 图片缺失 3。对比 08-10：Warning -560、断链 -530，迁移零新断链（短名歧义修复使断链大幅下降）；首跑检出 2 个 frontmatter 缺字段 Error（08-13 新建的化学原理-跨模块同源题答案口径一致性审计 + 化学原理-重复题目去重记录，缺 title/updated），已补全归零。基线更新为 0 error / 1366 warning。"
@@ -90,12 +90,12 @@ python "11-模板/scripts/scan_question_quality.py"       # 逐题质量扫描�
 
 ## 最近运行记录
 
-- **2026-09-02 full（三篇测试卷后，最新）**：6410 文件 · **0 error / 1641 warning**（省预赛 240 拆题 + 3 新卷 + 150 used_in 回填，warning 全程纹丝不动）。报告 [[09-审计报告/auto-validation/2026-09-02-validation]]
-- **2026-09-02 full（浙江拆题后）**：6407 文件 · **0 error / 1641 warning**（warning 纹丝不动 = 240 新题 0 断链 0 缺图）。报告 [[09-审计报告/auto-validation/2026-09-02-validation]]
-- **2026-09-01 full（深夜终检）**：6167 文件 · **0 error / 1641 warning**。较 08-31（2,578）**-937**：图片缺失 357→0（355 处校验器误报修复 + 缺图恢复 + EDTA 真图挂接）、正文断链 554→45（子编号 26 处 + 阶段七~九治理 + 新建 4 个高频 KP）、frontmatter 1,642→1,590（非术语值 17 个 51 处清除）。报告 [[09-审计报告/auto-validation/2026-09-01-validation]]
-- **2026-08-31 full（终检）**：6162 文件 · **0 error / 2578 warning**。较盲区补齐基线（2,660）-82：路径式断链 34→0、KP 改指 50 处（frontmatter 断链 1,724→1,642）、汇智补题 4 题并恢复 9 处引用；status-枚举 4 处（补题 status 值）已修为 `已补全答案` 归零。报告 [[09-审计报告/auto-validation/2026-08-31-validation]]
-- **2026-08-31 full（盲区补齐后）**：6160 文件 · 0 error / 2660 warning。validate_kb 新增题库六字段枚举检查（仅题目类）+ frontmatter 内 wikilink 断链检查；枚举 0 告警，frontmatter 断链暴露存量 KP 红链 1724（knowledge_points 挂载不存在的 KP 标题，与 audit 同源，暂不处理）；2 个习题书附录 Error 已补 frontmatter 清零。报告 [[09-审计报告/auto-validation/2026-08-31-validation]]
-- **2026-08-28 full 最终**：6509 文件 · 0 error / 2 warning / 7674 info · 断链 1 / 图片缺失 1 / 标题跳跃 0。修复：XES 50 条+33 届决赛 19 条+模块习题集 87 条+标题跳跃 2357 处+验证器排除噪音 254 条。报告 [[09-审计报告/auto-validation/2026-08-29-validation]]
+- **2026-09-02 full（三篇测试卷后，最新）**：6410 文件 · **0 error / 1641 warning**（省预赛 240 拆题 + 3 新卷 + 150 used_in 回填，warning 全程纹丝不动）。报告 09-审计报告/auto-validation/2026-09-02-validation（该批报告未入库）
+- **2026-09-02 full（浙江拆题后）**：6407 文件 · **0 error / 1641 warning**（warning 纹丝不动 = 240 新题 0 断链 0 缺图）。报告 09-审计报告/auto-validation/2026-09-02-validation（该批报告未入库）
+- **2026-09-01 full（深夜终检）**：6167 文件 · **0 error / 1641 warning**。较 08-31（2,578）**-937**：图片缺失 357→0（355 处校验器误报修复 + 缺图恢复 + EDTA 真图挂接）、正文断链 554→45（子编号 26 处 + 阶段七~九治理 + 新建 4 个高频 KP）、frontmatter 1,642→1,590（非术语值 17 个 51 处清除）。报告 09-审计报告/auto-validation/2026-09-01-validation（该批报告未入库）
+- **2026-08-31 full（终检）**：6162 文件 · **0 error / 2578 warning**。较盲区补齐基线（2,660）-82：路径式断链 34→0、KP 改指 50 处（frontmatter 断链 1,724→1,642）、汇智补题 4 题并恢复 9 处引用；status-枚举 4 处（补题 status 值）已修为 `已补全答案` 归零。报告 09-审计报告/auto-validation/2026-08-31-validation（该批报告未入库）
+- **2026-08-31 full（盲区补齐后）**：6160 文件 · 0 error / 2660 warning。validate_kb 新增题库六字段枚举检查（仅题目类）+ frontmatter 内 wikilink 断链检查；枚举 0 告警，frontmatter 断链暴露存量 KP 红链 1724（knowledge_points 挂载不存在的 KP 标题，与 audit 同源，暂不处理）；2 个习题书附录 Error 已补 frontmatter 清零。报告 09-审计报告/auto-validation/2026-08-31-validation（该批报告未入库）
+- **2026-08-28 full 最终**：6509 文件 · 0 error / 2 warning / 7674 info · 断链 1 / 图片缺失 1 / 标题跳跃 0。修复：XES 50 条+33 届决赛 19 条+模块习题集 87 条+标题跳跃 2357 处+验证器排除噪音 254 条。报告 09-审计报告/auto-validation/2026-08-29-validation（该批报告未入库）
 - **2026-08-28 full 中间**：6591 文件 · 0 error / 456 warning · 断链 337 / 图片缺失 73（修复前基线）
 - **2026-08-27 quick**：6591 文件 · 0 error / 0 warning（quick 模式不检测断链）
 - **2026-08-16 full**：6266 文件 · 0 error / 1343 warning · 断链 1355（历史基线）
