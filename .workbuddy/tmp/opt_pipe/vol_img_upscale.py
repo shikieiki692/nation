@@ -40,6 +40,47 @@ def orient(w_px, h_px):
     return 'sq'
 
 
+def cell_caps(x):
+    """★ 2026-10-15：求「表格单元格内 <w:drawing> 片段 → 可用宽度(twips)」映射。
+
+    病根：本补丁按朝向目标尺寸放大，**不知图是否在表格单元格内** ⇒ 三列并排图（列宽 5.73cm）
+          被放大到 8.10cm，超出单元格 ⇒ Word/LO **裁切右缘**（实测 XIp 第 6 题 D/E/F/B 图右缘被切）。
+    治法：逐行累加 gridCol 得每列宽（含 gridSpan），单元格内图的目标宽不得超该列宽。
+    """
+    caps = {}
+    for mt in re.finditer(r'<w:tbl>.*?</w:tbl>', x, re.S):
+        tbl = mt.group(0)
+        cols = [int(c) for c in re.findall(r'<w:gridCol w:w="(\d+)"', tbl)]
+        if not cols:
+            continue
+        # ★ 单元格左右内边距（未显式设 tblCellMar 时 Word 默认 108 twips/侧）
+        marL = marR = 108
+        mm2 = re.search(r'<w:tblCellMar>.*?</w:tblCellMar>', tbl, re.S)
+        if mm2:
+            ml = re.search(r'<w:left w:w="(\d+)"', mm2.group(0))
+            mr2 = re.search(r'<w:right w:w="(\d+)"', mm2.group(0))
+            if ml:
+                marL = int(ml.group(1))
+            if mr2:
+                marR = int(mr2.group(1))
+        for mr in re.finditer(r'<w:tr\b.*?</w:tr>', tbl, re.S):
+            row = mr.group(0)
+            ci = 0
+            for mc in re.finditer(r'<w:tc\b[^>]*>.*?</w:tc>', row, re.S):
+                cell = mc.group(0)
+                span = 1
+                gs = re.search(r'<w:gridSpan w:val="(\d+)"', cell)
+                if gs:
+                    span = int(gs.group(1))
+                w = sum(cols[ci:ci + span]) if ci < len(cols) else 0
+                ci += span
+                w = max(0, w - marL - marR)      # 扣除内边距 ⇒ 可用宽
+                for md in re.finditer(r'<w:drawing>.*?</w:drawing>', cell, re.S):
+                    if w > 0:
+                        caps[md.group(0)] = max(caps.get(md.group(0), 0), w)
+    return caps
+
+
 def patch(path):
     z = zipfile.ZipFile(path)
     names = z.namelist()
@@ -51,7 +92,9 @@ def patch(path):
 
     # 逐 drawing 片段处理
     frags = re.findall(r'<w:drawing>.*?</w:drawing>', x, re.S)
+    caps = cell_caps(x)
     changes = []
+    shrinks = []
     for frag in frags:
         m = re.search(r'<wp:extent cx="(\d+)" cy="(\d+)"', frag)
         r = re.search(r'r:embed="(rId\d+)"', frag)
@@ -74,28 +117,43 @@ def patch(path):
         # 目标尺寸，再与 dpi 上限取 min（保证 ≥150dpi）
         new_cx = int(min(tgt_w, cap_w))
         new_cy = int(min(tgt_h, cap_h))
-        if new_cx <= cx and new_cy <= cy:
-            continue                       # 已到顶 ⇒ 不动（幂等）
+        # ★ 单元格宽度上限（治「表格内图被裁切」）
+        cell_tw = caps.get(frag, 0)
+        cell_emu = cell_tw / 567.0 * EMU_PER_CM if cell_tw else 0
+        enlarge = new_cx > cx or new_cy > cy
+        shrink = bool(cell_emu and cx > cell_emu)
+        if not enlarge and not shrink:
+            continue                       # 已到顶且不超列宽 ⇒ 不动（幂等）
         # 缩放比取 min：保证**宽/高两维都不超**目标，且都不超 dpi 上限
         # （曾用 max ⇒ 按高度放大时会溢出宽度目标，实测 8.40cm 图被放到 14.82cm）
         s = min(new_cx / cx, new_cy / cy, cap_w / cx, cap_h / cy)
-        if s <= 1.001:
-            continue
+        if cell_emu:
+            s = min(s, cell_emu / cx)      # ★ 单元格内不超列宽（必要时**缩小**治裁切）
         ncx, ncy = int(cx * s), int(cy * s)
+        if ncx == cx and ncy == cy:
+            continue
         frag2 = frag.replace('<wp:extent cx="%d" cy="%d"' % (cx, cy),
                              '<wp:extent cx="%d" cy="%d"' % (ncx, ncy))
         frag2 = frag2.replace('<a:ext cx="%d" cy="%d"' % (cx, cy),
                               '<a:ext cx="%d" cy="%d"' % (ncx, ncy))
         if frag2 != frag:
             x = x.replace(frag, frag2, 1)
-            changes.append((o, cx / EMU_PER_CM, ncx / EMU_PER_CM, w_px))
+            if ncx < cx:
+                shrinks.append((o, cx / EMU_PER_CM, ncx / EMU_PER_CM, w_px))
+            else:
+                changes.append((o, cx / EMU_PER_CM, ncx / EMU_PER_CM, w_px))
 
-    if not changes:
+    if not changes and not shrinks:
         print('  %s：无需放大（全部已到 dpi 上限或已达目标）' % os.path.basename(path)[:40])
         return 0
-    print('  %s：放大 %d 张' % (os.path.basename(path)[:40], len(changes)))
-    for o, a, b, px in changes[:8]:
-        print('     %-5s %5.2f→%5.2fcm (源%4dpx)' % (o, a, b, px))
+    if changes:
+        print('  %s：放大 %d 张' % (os.path.basename(path)[:40], len(changes)))
+        for o, a, b, px in changes[:8]:
+            print('     %-5s %5.2f→%5.2fcm (源%4dpx)' % (o, a, b, px))
+    if shrinks:
+        print('  %s：★收窄至列宽 %d 张（治表格裁切）' % (os.path.basename(path)[:40], len(shrinks)))
+        for o, a, b, px in shrinks[:8]:
+            print('     表格内 %5.2f→%5.2fcm (源%4dpx)' % (a, b, px))
     if DRY:
         return 0
     blobs['word/document.xml'] = x.encode('utf-8')
@@ -104,7 +162,7 @@ def patch(path):
         for n in names:
             zo.writestr(n, blobs[n])
     shutil.move(tmp, path)
-    return len(changes)
+    return len(changes) + len(shrinks)
 
 
 if __name__ == '__main__':
