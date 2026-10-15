@@ -1221,11 +1221,13 @@ def load_pool_keep():
 def write_vol(picks, flat, SC):
     total = sum(SC[c['path']] for _, c, _ in flat)
     orgs = sorted({c['src_dir'] for _, c, _ in flat})
+    # 🔴 分段键不能用模块名：有机专题卷两段同模块（有机化学），dict 键相撞 ⇒ 两段题号错乱。
+    #    改用「段序号」为键，标签→段 的映射同序。
     seg_start, seg_score, idx = {}, {}, 1
-    for mod, got in picks:
-        seg_start[mod] = (idx, idx + len(got) - 1); idx += len(got)
-    for mod, got in picks:
-        seg_score[mod] = sum(SC[c['path']] for c in got)
+    for _si, (mod, got) in enumerate(picks):
+        seg_start[_si] = (idx, idx + len(got) - 1); idx += len(got)
+    for _si, (mod, got) in enumerate(picks):
+        seg_score[_si] = sum(SC[c['path']] for c in got)
     n4 = sum(1 for _, c, _ in flat if c['difficulty'] == 4)
     n5 = sum(1 for _, c, _ in flat if c['difficulty'] == 5)
     mins = max(60, int(round(len(flat) * 11.25 / 10.0) * 10))   # 16 题→180 分/分钟；10 题→110
@@ -1238,16 +1240,18 @@ def write_vol(picks, flat, SC):
     for tag, out in (('答案版', ans), ('学生版', stu)):
         is_ans = (tag == '答案版')
         out += ['---', 'title: 初赛模拟卷%s（%s·%s）' % (VOL, _DOM, tag), 'type: 题组',
-                'role: 竞赛模拟训练卷', 'created: 2026-10-06', 'updated: 2026-10-06',
+                'role: 竞赛模拟训练卷', 'created: %s' % time.strftime('%Y-%m-%d'),
+                'updated: %s' % time.strftime('%Y-%m-%d'),
                 'tags: [化竞, 模拟卷, 初赛, %s, 多源, 机构模拟题]' % _DOM,
                 'source: ' + ('题库多家机构合编' if not is_ans else
                               B.esc('题库多家机构合编（含 ' + '、'.join(orgs) + '）')),
                 'source_category: 竞赛导向·竞赛教辅', 'exam_stage: 初赛',
                 'question_count: %d' % len(flat), '满分: %d' % total, '---', '',
                 '# 初赛模拟卷 %s（%s · %s）' % (VOL, _DOM, tag), '']
-        # ⚠️ 只列**实际有题**的模块段（试点卷 XIp 无「元素与分析」⇒ 原写法 KeyError）
-        segtxt = '、'.join('%s（第 %d–%d 题，%d 分）' % (lbl, seg_start[m][0], seg_start[m][1], seg_score[m])
-                          for m, lbl, _ in QUOTA if m in seg_start)
+        # ⚠️ 只列**实际有题**的段（试点卷 XIp 无「元素与分析」⇒ 原写法 KeyError）
+        #    🔴 有机专题卷两段同模块 ⇒ 按「段序号」取 seg_start/seg_score（键=段序）
+        segtxt = '、'.join('%s（第 %d–%d 题，%d 分）' % (lbl, seg_start[_si][0], seg_start[_si][1], seg_score[_si])
+                          for _si, (m, lbl, _) in enumerate(QUOTA) if _si in seg_start)
         # 有机系列（O1、O2…）独立编号，其「既往卷」只指同族已出卷
         if ORG:
             before = ['O%d' % i for i in range(1, _org_no(VOL))]
@@ -1271,13 +1275,12 @@ def write_vol(picks, flat, SC):
                     '> 请将答案写在答题纸上，写出必要的推理与计算过程。']
         out += ['', '---', '']
 
-        _pdict = dict(picks)
-        for mod, lbl, _ in QUOTA:
-            if mod not in _pdict:            # ⚠️ 试点卷 XIp 无「元素与分析」⇒ 原写法 KeyError
+        for _si, (mod, lbl, _) in enumerate(QUOTA):
+            if _si not in seg_start:         # 段序号键（同模块两段不再相互覆盖）
                 continue
-            got = _pdict[mod]
-            out += ['## %s（第 %d–%d 题，共 %d 分）' % (lbl, seg_start[mod][0], seg_start[mod][1], seg_score[mod]), '']
-            for i, c in enumerate(got, seg_start[mod][0]):
+            got = picks[_si][1]
+            out += ['## %s（第 %d–%d 题，共 %d 分）' % (lbl, seg_start[_si][0], seg_start[_si][1], seg_score[_si]), '']
+            for i, c in enumerate(got, seg_start[_si][0]):
                 sc = SC[c['path']]
                 pre = B.vote_prefix(c)
                 q = renumber2(B.strip_src_no(c['question'], pre), i, pre)

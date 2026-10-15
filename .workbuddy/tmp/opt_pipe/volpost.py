@@ -47,7 +47,12 @@ def plan_cards(vol):
 
 
 def md_path(vol):
-    return os.path.join(R, "04-题库", "初赛模拟卷%s（非有机·答案版）.md" % vol)
+    p = os.path.join(R, "04-题库", "初赛模拟卷%s（非有机·答案版）.md" % vol)
+    if not os.path.exists(p):   # 有机专题卷（O1、O2…）⇒ 卷名为「有机」域
+        p2 = os.path.join(R, "04-题库", "初赛模拟卷%s（有机·答案版）.md" % vol)
+        if os.path.exists(p2):
+            return p2
+    return p
 
 
 def read(p):
