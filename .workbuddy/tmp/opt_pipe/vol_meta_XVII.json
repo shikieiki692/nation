@@ -13,8 +13,8 @@
  ],
  "post_patches": [
   {
-   "script": "xvii_img_upscale.py",
-   "why": "图片排版：构建器 CAP_ORG 按朝向定尺寸后 apply_dpi_cap 只缩不放 ⇒ 源 px 小的图排得极小（3.08cm vs 相邻 8.4cm，观感悬殊）。本补丁在**保证 ≥150dpi** 下放大到 min(dpi上限, CAP_ORG×1.35)，幂等；重建 docx 后必须重跑。",
+   "script": "vol_img_upscale.py --vol XVII",
+   "why": "图片排版：构建器 CAP_ORG 按朝向定尺寸后 apply_dpi_cap 只缩不放 ⇒ 源 px 小的图排得极小（3.08cm vs 相邻 8.4cm，观感悬殊）。本补丁在**保证 ≥150dpi** 下放大到 min(dpi上限, CAP_ORG×1.35, 12cm)，幂等；重建 docx 后必须重跑。★2026-10-15 由 `xvii_img_upscale.py` 换为通用版：后者用 `s=max(宽比,高比)` ⇒ 扁宽图按高度目标放大时溢出宽度，实测 1350×282px 图被吹到 **22.86cm（越出版心 17.2cm）**。",
    "added": "2026-10-14"
   }
  ]

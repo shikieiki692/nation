@@ -15,6 +15,7 @@ import os, re, sys, zipfile, shutil, io
 from PIL import Image
 
 SCALE = 1.35                      # 目标放大系数（再受 dpi 上限约束）
+MAX_W_CM = 12.0                   # ★ 绝对上限：避免图越出版心（与 vol_img_upscale.py 对齐）
 CAP_ORG = {"land": (8.4, 5.2), "port": (4.8, 6.8), "sq": (6.0, 6.0), "page": (16.5, 21.0)}
 MIN_DPI = 150.0
 EMU_PER_CM = 360000.0
@@ -65,15 +66,17 @@ def patch(path):
         o = orient(w_px, h_px)
         cap_w = w_px / MIN_DPI * 2.54 * EMU_PER_CM
         cap_h = h_px / MIN_DPI * 2.54 * EMU_PER_CM
-        tgt_w = CAP_ORG[o][0] * SCALE * EMU_PER_CM
-        tgt_h = CAP_ORG[o][1] * SCALE * EMU_PER_CM
+        tgt_w = min(CAP_ORG[o][0] * SCALE, MAX_W_CM) * EMU_PER_CM
+        tgt_h = min(CAP_ORG[o][1] * SCALE, MAX_W_CM) * EMU_PER_CM
         # 目标尺寸，再与 dpi 上限取 min（保证 ≥150dpi）
         new_cx = int(min(tgt_w, cap_w))
         new_cy = int(min(tgt_h, cap_h))
         if new_cx <= cx and new_cy <= cy:
             continue                       # 已到顶 ⇒ 不动（幂等）
-        s = max(new_cx / cx, new_cy / cy)  # 等比（取较大者不超 dpi 上限）
-        s = min(s, cap_w / cx, cap_h / cy)
+        # ★ 2026-10-15 修（与 vol_img_upscale.py 对齐）：原为 `s = max(new_cx/cx, new_cy/cy)`
+        #   ⇒ 扁宽图按**高度**目标放大时**溢出宽度目标**，实测 1350×282px 图被吹到 22.86cm
+        #     （> A4 版心 17.2cm，页面上越界）。改为 min ⇒ 宽/高两维都不超目标且不超 dpi 上限。
+        s = min(new_cx / cx, new_cy / cy, cap_w / cx, cap_h / cy)
         if s <= 1.001:
             continue
         ncx, ncy = int(cx * s), int(cy * s)

@@ -325,12 +325,18 @@ def run_post_patches() -> int:
         return 0
     print("\n卷级后处理补丁 %d 个（登记于 %s）：" % (len(patches), META.name))
     for it in patches:
-        script = it.get("script") or ""
-        path = VAULT / ".workbuddy" / "tmp" / "opt_pipe" / script
+        script = (it.get("script") or "").strip()
+        # ★ 2026-10-15 修：`script` 可含参数（如 `vol_img_upscale.py --vol XVI`）。
+        #   原实现把整串当文件名 ⇒ `path.exists()` 恒 False ⇒ **带参数的补丁全部被静默跳过**
+        #   （X/XI/XIp/XIV/XV/XVI 的图片放大补丁因此从未自动生效，只靠人工补跑）。
+        parts = script.split()
+        if not parts:
+            continue
+        path = VAULT / ".workbuddy" / "tmp" / "opt_pipe" / parts[0]
         if not path.exists():
             print("  ⛔ 补丁脚本缺失：%s ⇒ 交付件可能带缺陷，请先补齐脚本" % script)
             return 2
-        r = subprocess.run([sys.executable, "-X", "utf8", str(path)],
+        r = subprocess.run([sys.executable, "-X", "utf8", str(path)] + parts[1:],
                            cwd=str(VAULT), capture_output=True, text=True,
                            encoding="utf-8", errors="replace")
         ok = r.returncode == 0
