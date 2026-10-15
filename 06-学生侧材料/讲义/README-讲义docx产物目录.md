@@ -1,10 +1,11 @@
 ---
 title: 讲义 docx 产物目录说明
-type: 说明
+type: 系统
 tags: [学生讲义, 产物, 目录规范]
 created: 2026-09-07
 updated: 2026-09-18
 status: 已填充
+role: 资源索引
 ---
 
 # 06-学生侧材料/讲义 — 讲义 docx 产物目录

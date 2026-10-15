@@ -1,7 +1,7 @@
 ---
 title: 学生侧材料
 type: 系统
-role: 学生材料总入口
+role: 资源索引
 updated: 2026-07-27
 tags: [学生侧材料, 索引]
 ---

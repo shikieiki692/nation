@@ -1,7 +1,7 @@
 ---
 title: 学生侧材料-策略卡
 type: 系统
-role: 策略卡材料入口
+role: 资源索引
 updated: 2026-08-09
 tags: [学生侧材料, 策略卡]
 status: 已填充

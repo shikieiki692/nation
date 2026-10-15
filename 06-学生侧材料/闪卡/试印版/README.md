@@ -1,7 +1,7 @@
 ---
 title: 闪卡试印版
 type: 系统
-role: 纸质版排版测试入口
+role: 资源索引
 updated: 2026-06-19
 tags: [学生侧材料, 闪卡, 试印版, 排版测试]
 status: 已填充

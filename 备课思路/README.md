@@ -1,7 +1,7 @@
 ---
 title: 备课思路
 type: 系统
-role: 教学规划层
+role: 方向指引
 updated: 2026-07-20
 tags: [系统, 备课, 教学规划, 索引]
 status: 已填充
