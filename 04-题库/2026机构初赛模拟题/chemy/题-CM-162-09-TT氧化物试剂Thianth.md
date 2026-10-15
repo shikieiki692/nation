@@ -30,7 +30,7 @@ pool_scope: 有机化学
 
 # 题-CM-162-09-TT氧化物试剂Thianth
 
-> 来源：Chemy- 项目（brucejllpku.github.io/Chemy-）`chemy38-11-3`；版权归 Chemy 化学奥林匹克团队原命题组，仅供内部备课、禁商用、不删原水印。
+> 来源：Chemy- 项目（brucejllpku.github.io/Chemy-）`chemy38-10-9`；版权归 Chemy 化学奥林匹克团队原命题组，仅供内部备课、禁商用、不删原水印。
 
 ## 题目
 
