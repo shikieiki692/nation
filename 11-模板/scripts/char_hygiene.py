@@ -76,6 +76,10 @@ CATS = collections.OrderedDict([
     ('cjk_stroke', (re.compile(r'[\u31C0-\u31EF]'), 'CJK 笔画 U+31C0–31EF')),
     ('kana',     (re.compile(r'[\u3040-\u309F\u30A0-\u30FF]'), '日文假名（引用合法 / OCR 噪声需甄别）')),
     ('mojibake', (re.compile(r'(?!x)x'), 'GBK/UTF-8 编码层 mojibake（行级判据：标记字 ≥3）')),
+    ('surrogate', (re.compile(r'[\uD800-\uDFFF]'), '单独代理项（wtf-8 残留）')),
+    ('tags',     (re.compile(r'[\U000E0001\U000E0020-\U000E007F]'), 'Unicode tags（隐形标注）')),
+    ('interlinear', (re.compile(r'[\uFFF9-\uFFFB]'), '插入注记符 U+FFF9–FFFB')),
+    ('bidi_iso', (re.compile(r'[\u2066-\u2069]'), '双向隔离符 U+2066–2069')),
     # —— ADVISORY ——
     ('cjk_comp', (re.compile(r'[\uF900-\uFAFF]'), 'CJK 兼容表意（已实证 0 处）')),
     ('greek',    (re.compile(r'[\u0370-\u03FF\u1F00-\u1FFF]'), '希腊字母（化学用量，合法）')),
@@ -109,7 +113,8 @@ def _build_moji_set():
 
 MOJI_SET = _build_moji_set()
 JUDGE = ['fffd', 'pua', 'pua_supp', 'kangxi', 'mathalnum', 'indic', 'cyrillic', 'otherscript',
-         'u212b', 'ctrl', 'nonchar', 'cjk_stroke', 'kana', 'mojibake']
+         'u212b', 'ctrl', 'nonchar', 'cjk_stroke', 'kana', 'mojibake',
+         'surrogate', 'tags', 'interlinear', 'bidi_iso']
 
 # ---- 已判定清单（term-end verdicts）----
 # 同目录 `char_hygiene_judged.json`：记录**逐卡终局判定**的命中（当前＝04-题库 kana 24 卡，见报告 §6.17）。
