@@ -42,7 +42,16 @@ sys.path.insert(0, str(SCRIPTS))
 # 包装器（基于当时的底层 buffer）。不要在这之前/之后自行重设 stdout。
 import build_chusai_zhenti_layout as Z   # noqa: E402
 
-MEDIA_FILES = ["初赛模拟卷%s（非有机·答案版）.md" % VOL, "初赛模拟卷%s（非有机·学生版）.md" % VOL]
+def _media_name(tag):
+    """★ 有机卷（O1…）卷名不含「非有机」⇒ 优先取实际存在的文件。"""
+    for cand in ("初赛模拟卷%s（有机·%s）.md" % (VOL, tag),
+                 "初赛模拟卷%s（非有机·%s）.md" % (VOL, tag)):
+        if (QB / cand).exists():
+            return cand
+    return "初赛模拟卷%s（非有机·%s）.md" % (VOL, tag)
+
+
+MEDIA_FILES = [_media_name("答案版"), _media_name("学生版")]
 
 # ── ★ 机构线专属：整页档封顶 + 落盘降采样 ─────────────────────────────
 CM_TO_EMU = 360000
