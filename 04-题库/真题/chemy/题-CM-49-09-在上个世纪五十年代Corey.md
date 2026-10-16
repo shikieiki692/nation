@@ -16,11 +16,11 @@ knowledge_points:
   - "[[重排反应]]"
   - "[[内消旋体与外消旋体]]"
 tags: [化竞, 题目, 决赛, 决赛真题, chemy]
-updated: 2026-10-03
+updated: 2026-10-16
 status: 已填充
 exam_stage: 决赛
 subject_module: 有机化学
-pack: 真题卷
+pack: 综合模拟卷
 submodule: chemy
 source_category: 竞赛导向·竞赛真题
 source_grade: A

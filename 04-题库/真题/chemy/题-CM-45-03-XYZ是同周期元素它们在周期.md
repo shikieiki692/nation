@@ -17,11 +17,11 @@ knowledge_points:
   - "[[VSEPR理论]]"
   - "[[键长]]"
 tags: [化竞, 题目, 初赛, 真题, chemy]
-updated: 2026-10-02
+updated: 2026-10-16
 status: 已填充
 exam_stage: 初赛
 subject_module: 结构化学
-pack: 真题卷
+pack: 模块习题集
 submodule: chemy
 source_category: 竞赛导向·竞赛真题
 source_grade: A

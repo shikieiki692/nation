@@ -13,7 +13,7 @@ tags: [化竞, Clayden, 有机化学, 自由基反应]
 updated: 2026-07-25
 aliases: [Clayden-Ch37-P2]
 source: Clayden Organic Chemistry 2nd Ed. Chapter 37 Problem 2
-cross_references: ["[[题-466-Clayden-Ch37-P2-重氮盐亲核取代vs自由基对比]]", "[[题-291-Clayden-Ch14-P1-五个分子手性判断]]", "[[题-465-Clayden-Ch37-P1-重要自由基反应复习]]", "[[题-292-Clayden-Ch14-P2-旋光值区分]]"]
+cross_references: ["[[题-291-Clayden-Ch14-P1-五个分子手性判断]]", "[[题-465-Clayden-Ch37-P1-重要自由基反应复习]]", "[[题-292-Clayden-Ch14-P2-旋光值区分]]"]
 module: 有机化学
 status: 已填充
 subject_module: 有机化学
