@@ -8,9 +8,10 @@ audit_question_bank.py — 题库专项深度审计
 
 检查维度：
   A. frontmatter：YAML 可解析 / BOM / 六字段 / 枚举值 / status
+     （fidelity 支持「<基础值>＋<处理注记>」复合写法，按基础值校验）
   B. 链接：knowledge_points / depends_on / cross_references 断链
   C. 图片：![[...]] 是否存在
-  D. 内容：题干缺失 / 答案缺失或占位 / 答案过短
+  D. 内容：题干缺失（已隔离/退役卡豁免）/ 答案缺失或占位 / 答案过短
   E. 成书兼容格式：单行紧凑 / HTML 标签 / 高危宏 / 半截 math / 裸下标 / 重复反斜杠
   F. 重复：title 重复 / 正文重复
   G. 命名规范：按来源库正则抽查
@@ -62,11 +63,15 @@ SKIP_DIR_PARTS = {".obsidian", ".git", "node_modules", "__pycache__", "09-AI工�
 # ── 规范常量（来源：04-题库/新题入库SOP.md v1.1）────────────
 SIX_FIELDS = ["fidelity", "difficulty", "exam_stage", "subject_module", "pack", "knowledge_points"]
 ENUM = {
-    "fidelity": ["原书逐字", "原书改写", "自编"],
     "exam_stage": ["初赛", "决赛", "省预赛"],
     "subject_module": ["化学原理", "结构化学", "有机化学", "元素与分析"],
     "pack": ["章节练习", "模块习题集", "综合模拟卷", "预赛专项"],
 }
+# fidelity 允许「<基础值>＋<处理注记>」复合写法（教材习题线惯用；＋ 后为自由注记文本，
+# 如「原书逐字＋OCR清理＋科学口径注记」）。基础值 = SOP v1.1 三值 ＋ 2026-10-16 按实测
+# 登记的四项（原书解答提炼／元数据整理／来源冲突／原题；前三者只见于退役卡标注，
+# 「原题」为真题卡惯用写法，见抽查核验报告 §一）。
+FIDELITY_BASES = ["原书逐字", "原书改写", "自编", "原书解答提炼", "元数据整理", "来源冲突", "原题"]
 ALLOWED_STATUS = ["draft", "review", "published", "已入库", "已填充", "已补全答案",
                   "deprecated", "待审核", "待填充"]
 
@@ -330,6 +335,13 @@ def audit_file(path: Path, r: R, md_idx, img_idx, label_idx) -> None:
     else:
         r.dir_six_ok[d] += 1
 
+    # fidelity：复合写法「<基础值>＋<处理注记>」按基础值校验（＋ 后为自由注记）
+    fv = fm.get("fidelity")
+    if fv not in (None, "", []):
+        base = str(fv).split("＋")[0].strip()
+        if base not in FIDELITY_BASES:
+            r.add("P1", d, rel, "A-枚举", f"fidelity='{fv}' 的基础值 '{base}' 不在 {FIDELITY_BASES}")
+
     for k, allowed in ENUM.items():
         v = fm.get(k)
         if v in (None, "", []):
@@ -442,7 +454,10 @@ def audit_file(path: Path, r: R, md_idx, img_idx, label_idx) -> None:
     plain = re.sub(r"!\[\[[^\]]+\]\]", "", body)
     plain = re.sub(r"\s+", "", plain)
     if len(plain) < 50:
-        r.add("P0", d, rel, "D-题干", f"正文过短（{len(plain)} 字符），疑似题干缺失")
+        if consumption_status in {"隔离", "退役"}:
+            pass  # 已隔离/退役卡属已知处置（如系统性 OCR 损坏整题隔离），不计 P0
+        else:
+            r.add("P0", d, rel, "D-题干", f"正文过短（{len(plain)} 字符），疑似题干缺失")
     # 宽口径答案标记：<details> / 各级标题 / > **答案**： 引用块 / **答案**：粗体 / 【答案】
     if ftype == "题目集":
         pass  # 题目集是存档/集合，不强制单题答案块
