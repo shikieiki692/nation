@@ -9,9 +9,9 @@ difficulty: 3
 question_type: [机理, 产物预测, 结构书写]
 teaching_level: 巩固
 syllabus_codes: ["32", "33", "34"]
-knowledge_points: ["[[亚胺]]", "[[极性反转]]", "[[[3,3]-σ迁移]]", "[[2+2环加成]]", "[[卤代内酯化反应]]"]
+knowledge_points: ["[[亚胺]]", "[[极性反转]]", "[[σ迁移反应]]", "[[2+2环加成]]", "[[卤代内酯化反应]]"]
 tags: [化竞, ABOC, 有机化学, 烯酮亚胺, 极性反转, 周环反应]
-updated: 2026-09-25
+updated: 2026-10-16
 answer_status: 待补
 consumption_status: 隔离
 replacement_status: 无替代

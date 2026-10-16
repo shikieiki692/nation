@@ -83,6 +83,11 @@ ANSWER_STATUS_VALUES = {"完整", "待补", "存疑", "仅题干", "不适用"}
 CONSUMPTION_STATUS_VALUES = {"可用", "隔离", "退役"}
 REPLACEMENT_STATUS_VALUES = {"无替代", "待人工对账", "已替代"}
 FORMAL_ANSWER_VALUES = {"完整", "不适用"}
+# 题目练习池允许的 answer_status（规范：`04-题库/元文件/题库字段与消费状态规范.md`
+# 「题目练习池：…允许 answer_status ∈ {完整, 待补, 仅题干, 不适用}」）。
+# 注意 consumption_status=可用 的规范语义是「题干和必要题图达到**练习池**质量要求；
+# **不等同于答案完备**」——正式答案组卷池另查 answer_status ∈ {完整, 不适用}。
+EXERCISE_POOL_ANSWER_VALUES = {"完整", "待补", "仅题干", "不适用"}
 AUDIT_UNIVERSE = "04-题库 / 05-真题库 下的 md 文件；题卡 universe = frontmatter type ∈ {题目, 真题, 例题, 题组, 题目集}；单题规范分母排除题组（题组按组 schema 单独检查）"
 
 # ── 命名规范（来源：SOP 1.1）────────────────────────────────
@@ -392,8 +397,11 @@ def audit_file(path: Path, r: R, md_idx, img_idx, label_idx) -> None:
     # ── A2. 消费状态 / 正式组卷准入 ───────────────────────────
     if st == "deprecated":
         r.deprecated_questions += 1
-        if fm.get("superseded_by") in (None, "", []):
-            r.add("P1", d, rel, "A-退役对账", "deprecated 且 superseded_by 为空；需人工确认无替代或补替代卡")
+        if fm.get("superseded_by") in (None, "", []) and replacement_status != "无替代":
+            # superseded_by 为空**且未确认「无替代」**才需人工对账；
+            # replacement_status=无替代 ＝ 已确认无可证明替代（规范允许的正确终态，不报）
+            r.add("P1", d, rel, "A-退役对账",
+                  "deprecated 且 superseded_by 为空、replacement_status 未确认无替代；需人工对账")
         if replacement_status in (None, "", []):
             r.add("P2", d, rel, "A-退役对账", "deprecated 未标 replacement_status")
         if consumption_status == "可用":
@@ -409,8 +417,10 @@ def audit_file(path: Path, r: R, md_idx, img_idx, label_idx) -> None:
             r.blocked_questions += 1
         else:
             r.legacy_compatible += 1
-        if consumption_status == "可用" and answer_status not in FORMAL_ANSWER_VALUES:
-            r.add("P1", d, rel, "A-消费准入", "consumption_status=可用，但 answer_status 不是完整/不适用")
+        if consumption_status == "可用" and answer_status not in EXERCISE_POOL_ANSWER_VALUES:
+            r.add("P1", d, rel, "A-消费准入",
+                  "consumption_status=可用，但 answer_status=%r 不在练习池允许集 %s"
+                  % (answer_status, sorted(EXERCISE_POOL_ANSWER_VALUES)))
 
     if path.stem.startswith("题-XES-") and answer_status == "待补":
         r.add("P1", d, rel, "D-XES待补", "XES 题卡 answer_status=待补；补齐并复核前禁止正式组卷")
@@ -543,9 +553,12 @@ def audit_file(path: Path, r: R, md_idx, img_idx, label_idx) -> None:
     if qid:
         r.qids[qid].append(rel)
     r.question_basenames[path.stem.lower()].append(rel)
-    number_match = re.match(r"题-(\d{3})(?:-|$)", path.stem)
-    if number_match:
-        r.question_numbers[f"{d}:{number_match.group(1)}"].append(rel)
+    # 题目身份按命名规范取**完整 stem**（全局）：上海中学／初赛讲义等卷族的三位数是
+    # **讲次号**（NAME_RULES: `题-\d{3}-<卷族>-<主题>-习题\d+`，题号在「-习题N」段），
+    # 按三位数键会把「同讲多习题卡」误报为同号复用（上海中学 127 卡即此型，实为规范设计）。
+    # 完整 stem 全局撞名才是真正的「同题两卡」。
+    if path.stem.startswith("题-"):
+        r.question_numbers[path.stem].append(rel)
     self_hits = self_link_hits(body, path)
     if len(self_hits) > 1:
         r.add("P1", d, rel, "F-重复自链", f"指向本卡的 wikilink 重复 {len(self_hits)} 次：{' / '.join(self_hits[:4])}")
@@ -605,7 +618,8 @@ def main() -> None:
     for qid, paths in sorted(dup_qids.items()):
         r.add("P1", "ID复用", " / ".join(paths), "F-qid复用", f"qid={qid} 被 {len(paths)} 张题卡复用")
     for number_key, paths in sorted(dup_numbers.items()):
-        r.add("P2", "ID复用", " / ".join(paths), "F-同号复用", f"同来源同号 {number_key} 被 {len(paths)} 张题卡复用")
+        r.add("P2", "ID复用", " / ".join(paths), "F-同号复用",
+              f"完整题名 [{number_key}] 被 {len(paths)} 张题卡复用（同题两卡）")
     for name, paths in sorted(dup_names.items(), key=lambda x: -len(x[1])):
         r.add("P2", "ID复用", " / ".join(paths), "F-basename复用", f"basename={name} 被 {len(paths)} 张题卡复用")
 

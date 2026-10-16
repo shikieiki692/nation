@@ -77,7 +77,7 @@ Me，甲基；Et，乙基；Pr，丙基；Bu，丁基；Ph，苯基；Ac，乙�
 
 ## 参考答案
 
-<table><tr><td colspan="3">三钴碳化物簇(26分,占13%)</td></tr><tr><td>6-1共2分</td><td colspan="2"> $n\mathrm{{CO}} + \left( {{2n} + 1}\right) {\mathrm{H}}_{2} \rightarrow {\mathrm{C}}_{n}{\mathrm{H}}_{{2n} + 2} + n{\mathrm{H}}_{2}\mathrm{O}$ （2 分）</td></tr><tr><td>6-2共3分</td><td colspan="2">
+三钴碳化物簇(26分,占13%)</td></tr><tr><td>6-1共2分</td><td colspan="2"> $n\mathrm{{CO}} + \left( {{2n} + 1}\right) {\mathrm{H}}_{2} \rightarrow {\mathrm{C}}_{n}{\mathrm{H}}_{{2n} + 2} + n{\mathrm{H}}_{2}\mathrm{O}$ （2 分）</td></tr><tr><td>6-2共3分</td><td colspan="2">
 <img src="images/5159bec050f9b9743c911cc1ae28cd816a149348bc49d29c1ace012f0a225044.jpg"/>
 （3 分）</td></tr><tr><td rowspan="2">6-3-1共4分</td><td>
 <img src="images/a522e9180944afac3ebadf00b2cd9b928ba56fb70a97d42dcecafe52fe4e388c.jpg"/>
