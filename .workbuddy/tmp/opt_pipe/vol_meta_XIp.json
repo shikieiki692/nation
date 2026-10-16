@@ -29,6 +29,12 @@
    "why": "学生版题目标题补题型名 10 处（源出铁证：答案版题名与源卡标题行题名完全相等）",
    "apply": "python xvi_titles_allvol.py --apply（数据源 _title_ok.json）",
    "added": "2026-10-12"
+  },
+  {
+   "script": "b1_fix_xip_parts.py",
+   "why": "卷级分区标题编号错位修复：第二/第三 → 第一/第二（学生版 L23/L222 ＋ 答案版 L23/L591）。依据＝试点命令 `--quota \"结构化学=5,化学原理=5\"`（2026-10-07 报告）；现行生成器按 quota 列表序编号 ⇒ 结构化学＝第一部分、化学原理＝第二部分（与同构卷 XII 一致）。现值＝旧版生成器（模块→固定序号映射）的陈旧产物。",
+   "apply": "python b1_fix_xip_parts.py --apply",
+   "added": "2026-10-16"
   }
  ],
  "post_patches": [
