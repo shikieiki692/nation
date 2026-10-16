@@ -491,8 +491,32 @@ def strip_q_echo(q, a):
     for p in re.split(r'\n{2,}', a):
         pn = nz(p)
         if len(pn) >= 12:
-            if any((pn in s) or (s in pn and len(pn) <= 1.6 * len(s)) for s in qsegs):
+            pure, excise = False, None
+            for s in qsegs:
+                if pn in s:                                  # 段落 ⊂ 题面段 ⇒ 纯回显
+                    pure = True
+                    break
+                if s in pn and len(pn) <= 1.6 * len(s):
+                    # 🔴🔴 2026-10-16 修：段＝「题面回显 ＋ 末小问答案」（如伽马 GM-02-02 的
+                    #   「2.5 … 解答：（本问共 2 分）／d) 2 分」整段）⇒ 原实现**整段删**会丢答案
+                    #   （全库复算：旧逻辑 1 卡真丢答案、新逻辑 0）。⇒ 残余 <12 字才视为纯回显；
+                    #   否则**只挖掉回显部分**、保留答案残余。
+                    if len(pn) - len(s) < 12:
+                        pure = True
+                        break
+                    if excise is None or len(s) > len(excise):
+                        excise = s
+            if pure:
                 continue
+            if excise is not None:
+                try:
+                    pat = re.compile(r'[ \t\n{}]*'.join(map(re.escape, excise)))
+                    m = pat.search(p)
+                    if m and (m.end() - m.start()) <= 4 * len(excise) + 40:
+                        p = (p[:m.start()] + p[m.end():]).strip()
+                except re.error:
+                    pass
+                pn = nz(p)                                   # ★ 挖除后重算，供 difflib 层判定
             if len(pn) >= 40:
                 best, br = None, 0.0
                 for s in qsegs:
