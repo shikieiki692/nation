@@ -41,6 +41,12 @@
    "why": "学生版题目标题补题型名 13 处（源出铁证：答案版题名与源卡标题行题名完全相等）",
    "apply": "python xvi_titles_allvol.py --apply（数据源 _title_ok.json）",
    "added": "2026-10-12"
+  },
+  {
+   "script": "fix_fig3.py",
+   "why": "④-e 真缺陷修复：答案 6-2-2「$L_{Ph}$ 可能有以下两种结构」后**补回丢失图** `![[b820c9b2…]]`（源卡 QBY-11-06 该处为 HTML `<img src=images/b820c9b2…>`，旧版建卷器表内/段内 HTML 图未落卷 ⇒ `git log -S` 证构建期即丢）。⚠️ 该图源件带「清北营」灰字水印 ⇒ 已用 `xv_dewm` 口径**去水印后原地替换**（备份 `.workbuddy/tmp/dewm/b820c9b2.orig.jpg`；图在 `04-题库/**/images/` 属 gitignore，不入库）。",
+   "apply": "python .workbuddy/tmp/opt_pipe/fix_fig3.py",
+   "added": "2026-10-16"
   }
  ],
  "post_patches": [

@@ -35,6 +35,12 @@
    "why": "卷级分区标题编号错位修复：第二/第三 → 第一/第二（学生版 L23/L222 ＋ 答案版 L23/L591）。依据＝试点命令 `--quota \"结构化学=5,化学原理=5\"`（2026-10-07 报告）；现行生成器按 quota 列表序编号 ⇒ 结构化学＝第一部分、化学原理＝第二部分（与同构卷 XII 一致）。现值＝旧版生成器（模块→固定序号映射）的陈旧产物。",
    "apply": "python b1_fix_xip_parts.py --apply",
    "added": "2026-10-16"
+  },
+  {
+   "script": "fix_fig3.py",
+   "why": "④-e 真缺陷修复：答案 7-1 行 **`| 7-1 | |` 空单元格**补回分子玫瑰花结结构图 `![[490596bc…]]`（源卡 QBY-10-04 该处为 HTML `<td><img src=images/490596bc…>`）。⚠️ 源件带「清北营」灰字水印 ⇒ 已 `xv_dewm` 去水印后原地替换（备份 `.workbuddy/tmp/dewm/490596bc.orig.jpg`）。",
+   "apply": "python .workbuddy/tmp/opt_pipe/fix_fig3.py",
+   "added": "2026-10-16"
   }
  ],
  "post_patches": [
