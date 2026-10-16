@@ -12,5 +12,31 @@
   "化英社",
   "壹尖培优",
   "清北营"
+ ],
+ "md_patches": [
+  {
+   "script": "o2_subq_fix.py",
+   "why": "②-b 小问改号残留 3 处修正（源卷号 8-x 未随卷重编为 1-x／4-x）：答案版第1题「8-1~1-3」→「1-1~1-3」（原 8-1~8-3 只改了一半）、第4题「8-1-12021／8-32023」→「4-1-12021／4-32023」；两版同改。",
+   "apply": "python .workbuddy/tmp/opt_pipe/o2_subq_fix.py",
+   "added": "2026-10-16"
+  },
+  {
+   "script": "o2_titles_fix.py",
+   "why": "题名修补：答案版 2 处题名被自动截断（第3题「在药物分子中」、第8题「…不仅取」）⇒ 按源卡 `### 第 N 题 <题名>` 补全；**学生版整体缺题名** ⇒ 镜像补 10/10。",
+   "apply": "python .workbuddy/tmp/opt_pipe/o2_titles_fix.py",
+   "added": "2026-10-16"
+  },
+  {
+   "script": "o2_tblfix2.py",
+   "why": "**表结构缺陷修复（曾致丢图）**：① 第1题答案区尾行图案行仅 2 格而表头/分隔行为 3 列（`layout_figs.render_block` 未补齐，已修工具）⇒ 补 1 空格；② 第9题答案区「2 列表(GM-09-10 前两图)」与「4 列表(E/F/G/H…I/J/K)」之间**缺空行**⇒ pandoc 并成一表、以 2 列分隔行为准 ⇒ 后两列图 7ba55bf1／2894ff33／46f3da73 **落不了 docx**（原 md 176 ≠ media 172）⇒ 补空行分离。修后 图守恒 176/176。",
+   "apply": "python .workbuddy/tmp/opt_pipe/o2_tblfix2.py",
+   "added": "2026-10-16"
+  },
+  {
+   "script": "o2_q5_tblfix.py",
+   "why": "第5题答案区**残破 HTML 表碎片 → 3 列 md 管道表**（根因：源卡 `题-YJ-09-06` 的 答案表缺 `<table>` 开头 ⇒ 建卷期 `html_table_to_md()` 正则不匹配 ⇒ 字面 HTML 漏进卷 md，qa ④「字面 <table>」报 1）。**根因已同时修复源卡**（见 `yj0906_cardfix.py`）。本修补**零文字改动**：token 逐项断言（图 8/8、30 个 token 全保留、无 HTML 残留）。",
+   "apply": "python .workbuddy/tmp/opt_pipe/o2_q5_tblfix.py",
+   "added": "2026-10-16"
+  }
  ]
 }

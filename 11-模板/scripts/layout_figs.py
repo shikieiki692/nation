@@ -217,8 +217,11 @@ def render_block(imgs, toks):
         nt = notes[r0:r0 + cols] + [''] * (cols - k) if notes else None
         out.append('| ' + ' | '.join(h) + ' |')
         out.append('| ' + ' | '.join([':---:'] * cols) + ' |')
-        out.append('| ' + ' | '.join('![[%s\\|%d]]' % (x, fit_w(x, w))
-                                      for x in row) + ' |')
+        # 🔴 图案行**必须补齐到 cols**（与表头行、分隔行一致）。
+        #    旧版只 join 实际 row ⇒ 尾行图数 < cols 时该行格数短于表头 ⇒
+        #    pandoc 表结构不一致（曾致 O2 答案版 Q1 尾行 2/3 格、表内图落不了 docx）。
+        out.append('| ' + ' | '.join(
+            ['![[%s\\|%d]]' % (x, fit_w(x, w)) for x in row] + [''] * (cols - k)) + ' |')
         if nt and any(nt):
             out.append('| ' + ' | '.join(nt) + ' |')
         out.append('')
@@ -384,6 +387,52 @@ def selfcheck(new, path):
     return bad
 
 
+_CELLSEP = re.compile(r'^[ \t]*\|')
+
+
+def _ncell(l: str) -> int:
+    s = l.strip()
+    if not (s.startswith('|') and s.endswith('|')):
+        return -1
+    # ⛔ 只按 **未转义** 的 `|` 切分（`\|` 是单元格内的字面竖线，非分隔符）
+    return len(re.split(r'(?<!\\)\|', s)) - 2
+
+
+def _is_sep_row(l: str) -> bool:
+    s = l.strip()
+    if not (s.startswith('|') and s.endswith('|')):
+        return False
+    cs = [c.strip() for c in re.split(r'(?<!\\)\|', s)[1:-1]]
+    return bool(cs) and all(re.fullmatch(r':?-+:?', c) for c in cs)
+
+
+def selfcheck_cells(new, path):
+    """断言：同一表块内每行格数 == 分隔行列数。
+
+    防「尾行不补齐」类缺陷（图案行短于表头 ⇒ pandoc 表结构不一致 ⇒ 表内图
+    落不了 docx；2026-10-16 O2 答案版 Q1 实测）。
+    """
+    lines = new.split('\n')
+    bad = []
+    i = 0
+    while i < len(lines):
+        if _CELLSEP.match(lines[i]):
+            j = i
+            while j < len(lines) and _CELLSEP.match(lines[j]):
+                j += 1
+            block = lines[i:j]
+            seps = [k for k, l in enumerate(block) if _is_sep_row(l)]
+            if seps:
+                ncol = _ncell(block[seps[0]])
+                for k, l in enumerate(block):
+                    if not _is_sep_row(l) and _ncell(l) != ncol:
+                        bad.append((i + k + 1, '列数=%d' % ncol, l.strip()[:46]))
+            i = j
+        else:
+            i += 1
+    return bad
+
+
 def main():
     args = sys.argv[1:]
     go = '--go' in args
@@ -398,12 +447,13 @@ def main():
             print('  跳过（无变更）:', p)
             continue
         bad = selfcheck(new, p)
-        print('  %s → %d 个图组 / %d 图并排；表格前缺空行 = %d'
-              % (p.split('/')[-1], nb, nf, len(bad)))
-        for b in bad[:5]:
-            print('      ⚠️ 行%d 前两行: %r / %r' % b)
+        badc = selfcheck_cells(new, p)
+        print('  %s → %d 个图组 / %d 图并排；表格前缺空行 = %d；行格数不符 = %d'
+              % (p.split('/')[-1], nb, nf, len(bad), len(badc)))
+        for b in (bad + badc)[:5]:
+            print('      ⚠️ 行%d: %r / %r' % b)
         if go:
-            if bad:
+            if bad or badc:
                 print('      ⛔ 自检失败，拒绝写盘:', p)
                 continue
             open(p, 'w', encoding='utf-8', newline='\n').write(new)
