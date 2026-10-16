@@ -29,7 +29,9 @@ def hanzi(s):
 
 def section(txt, *names):
     for nm in names:
-        m = re.search(r"^##[ \t]*" + nm + r"[ \t]*\n(.*?)(?=^##[ \t]*\S|\Z)", txt, re.S | re.M)
+        # ★ 2026-10-16 修：结束前瞻原为 `^##[ \t]*\S`，**会匹配 `### 第 N 题`** ⇒「## 题目」段被瞬间截断为空
+        #   ⇒ 题面 8-gram 恒 0，造成**假「题面覆盖 0.00」**（O2 备料 10 卡实测）。改为「恰好两个 #」。
+        m = re.search(r"^##[ \t]*" + nm + r"[ \t]*\n(.*?)(?=^##(?!\#)[ \t]*\S|^##[ \t]*$|\Z)", txt, re.S | re.M)
         if m:
             return m.group(1)
     return txt
