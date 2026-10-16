@@ -3,7 +3,9 @@
 import os, sys, collections
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-sys.argv = [sys.argv[0], '--vol', 'O1', '--all-years', '--organic']
+sys.argv = [sys.argv[0], '--vol', 'O1', '--all-years', '--organic',
+            '--exclude', os.path.join(HERE, 'o1_exclude.txt'),
+            '--topic-map', os.path.join(HERE, 'o1_topic_map.json')]
 import build_org as BO
 
 pool = BO.build_pool()
@@ -17,6 +19,11 @@ for k, (mod, lbl, need) in enumerate(BO.QUOTA):
             c['src_dir'], c.get('otopic', -1), c.get('otopic_sc'),
             (c.get('title') or '')[:36]))
         print("        %s" % c['path'].replace('\\', '/'))
+with open(os.path.join(HERE, 'o1_cards.txt'), 'w', encoding='utf-8') as f:
+    for _, ps in picks:
+        for c in ps:
+            f.write(c['path'].replace('\\', '/') + '\n')
+print("\n卡清单已写 o1_cards.txt（%d 行）" % sum(len(ps) for _, ps in picks))
 print()
 tc = collections.Counter(c.get('otopic') for _, ps in picks for c in ps)
 print("主题分布:", dict(tc))

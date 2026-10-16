@@ -604,7 +604,9 @@ def titles_step(vol, cfg_path, apply_):
         # 标题行：`### 第 N 题（…分）<题名>`
         pat = re.compile(r"(?m)^(### 第 %s 题（[^）]*）)" % q)  # noqa: N806
         m = pat.search(txt)
-        if m and txt[m.end():].startswith(a):
+        # ★ 幂等护栏：若新题名已就位（或以旧名为前缀 ⇒ 如「氮杂环庚烷」→「氮杂环庚烷（…）」），
+        #   再replace 会**重复插入**（本工具首版踩此坑）；故先判「新名未就位」才动手。
+        if m and txt[m.end():].startswith(a) and not txt[m.end():].startswith(b):
             txt = txt[:m.end()] + b + txt[m.end() + len(a):]
             n += 1
         # 清单行：`| N | <题名> |`

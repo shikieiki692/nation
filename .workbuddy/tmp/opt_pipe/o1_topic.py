@@ -3,7 +3,8 @@
 import os, sys, re
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-sys.argv = [sys.argv[0], '--vol', 'O1', '--all-years', '--organic']
+sys.argv = [sys.argv[0], '--vol', 'O1', '--all-years', '--organic',
+            '--exclude', os.path.join(HERE, 'o1_exclude.txt')]
 import build_org as BO
 
 pool = BO.build_pool()

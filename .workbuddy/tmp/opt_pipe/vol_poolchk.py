@@ -24,6 +24,11 @@ ap.add_argument("--vol", required=True)
 A = ap.parse_args()
 
 BO.ALL_YEARS = True
+# 有机专题卷（O1、O2…）：池须同样开 --organic，否则主池不含「有机化学」模块
+# ⇒ 全卷十张卡都会被误判「掉池」（2026-10-16 实测）。
+if ('--organic' in sys.argv) or (A.vol[:1] == 'O' and A.vol[1:].isdigit()):
+    BO.ORG = True
+    BO._MOD_LABEL['有机化学'] = '有机化学'
 pool = BO.build_pool()
 inpool = set()
 for m in pool:
