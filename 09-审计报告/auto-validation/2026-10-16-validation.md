@@ -1,15 +1,15 @@
 # 自动验证报告 · 2026-10-16
 
-> **扫描模式**: changed: 8 files
-> **受检文件**: 0
-> **检出异常**: 0 error / 0 warning / 0 info
+> **扫描模式**: changed: 6 files
+> **受检文件**: 6
+> **检出异常**: 0 error / 0 warning / 6 info
 
 ## 摘要
 
 | 指标 | 值 |
 |:---|---:|
-| 受检文件 | 0 |
-| 有 frontmatter | 0 |
+| 受检文件 | 6 |
+| 有 frontmatter | 6 |
 | 断链 | 0 |
 | 图片缺失 | 0 |
 | 孤儿图片 | 0 |
@@ -19,7 +19,11 @@
 
 | Error | 0 |
 | Warning | 0 |
-| Info | 0 |
+| Info | 6 |
+
+## ℹ️ Info
+
+- **stage-建议**: 6 处
 
 ---
 *自动生成于 2026-10-16 · validate_kb.py v1*

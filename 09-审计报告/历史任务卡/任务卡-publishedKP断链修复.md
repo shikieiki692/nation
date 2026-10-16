@@ -10,7 +10,7 @@ created: 2026-08-04
 updated: 2026-08-10
 completed: 2026-08-10
 source_notes:
-  - "[[09-审计报告/auto-validation/2026-08-04-validation]]"
+  - "09-审计报告/auto-validation/2026-08-04-validation（该批 validation 报告未录入库）"
 related_notes:
   - "[[09-审计报告/历史任务卡/任务卡-validate_kb与published断链目录治理]]"
 evidence:

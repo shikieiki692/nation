@@ -13,9 +13,9 @@ description: >
   在 validate_kb 首轮高噪声治理后，继续按目录清理 published 页的 stage-门禁断链，
   优先处理 04-专题与题型/专题、03-知识点/有机化学、03-知识点/决赛要求/物理化学深化 三块。
 source_notes:
-  - "[[09-审计报告/auto-validation/2026-06-29-validation]]"
+  - "09-审计报告/auto-validation/2026-06-29-validation（该批 validation 报告未录入库）"
   - "[[00-首页/工作日志/2026-06-30]]"
-  - "[[11-模板/scripts/validate_kb.py]]"
+  - "11-模板/scripts/validate_kb.py（脚本，非 md 笔记）"
 related_notes:
   - "[[04-专题与题型/专题/专题-人名反应系统归类]]"
   - "[[04-专题与题型/题型/README]]"
