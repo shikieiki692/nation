@@ -30,6 +30,13 @@ r"""交付件「表格单元格文字越界/裁切」渲染级判据（advisory�
 import os, sys, glob, subprocess, json
 
 ROOT = r"C:\Obsidion\妙妙屋"
+# ★ 卷名中缀（有机/非有机）运行时解析：见 .workbuddy/scripts/volname.py
+try:
+    import volname as VN
+except Exception:
+    sys.path.insert(0, r'C:\Obsidion\妙妙屋\.workbuddy\scripts')
+    import volname as VN
+
 ZX = os.path.join(ROOT, "00-首页", "题组Word", "初赛模拟卷", "真题版式")
 SOFFICE = r"C:\Program Files\LibreOffice\program\soffice.exe"
 BASE = os.path.join(ROOT, ".workbuddy", "tmp", "opt_pipe", "cellcross_out")
@@ -111,7 +118,7 @@ kept = []
 total, nfiles = 0, 0
 for v in VOLS:
     for tag in ("学生版", "答案与解析版"):
-        fn = f"初赛模拟卷{v}（非有机·{tag}·真题版式）.docx"
+        fn = f"初赛模拟卷{v}（{VN.kind(v)}·{tag}·真题版式）.docx"
         src = os.path.join(ZX, fn)
         if not os.path.isfile(src):
             continue

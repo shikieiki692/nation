@@ -35,8 +35,15 @@ DOCX = os.path.join(ROOT, '00-首页', '题组Word', '初赛模拟卷', '真题�
 
 PY_SYS = r'C:\Users\蕾赛\AppData\Local\Programs\Python\Python312\python.exe'
 PY_VENV = r'C:\Users\蕾赛\.workbuddy\binaries\python\envs\default\Scripts\python.exe'
+# ★ 卷名中缀（有机/非有机）运行时解析：见 .workbuddy/scripts/volname.py
+try:
+    import volname as VN
+except Exception:
+    sys.path.insert(0, r'C:\Obsidion\妙妙屋\.workbuddy\scripts')
+    import volname as VN
 
-ALL_VOLS = ['X', 'XI', 'XIp', 'XII', 'XIII', 'XIV', 'XV', 'XVI', 'XVII']
+
+ALL_VOLS = ['X', 'XI', 'XIp', 'XII', 'XIII', 'XIV', 'XV', 'XVI', 'XVII', 'O1']
 
 VOLS = []
 for i, a in enumerate(sys.argv):
@@ -83,8 +90,8 @@ for V in VOLS:
     if not os.path.exists(st):
         st = os.path.join(O, '%s_consistency.py' % V.lower())
     step('⑤ 师/生题面一致', PY_SYS, [st], optional=True) if os.path.exists(st) else print('  SKIP ⑤ 师/生题面一致             （本卷无专用脚本）')
-    d_stu = os.path.join(DOCX, '初赛模拟卷%s（非有机·学生版·真题版式）.docx' % V)
-    d_ans = os.path.join(DOCX, '初赛模拟卷%s（非有机·答案与解析版·真题版式）.docx' % V)
+    d_stu = VN.docx_path(V, '学生版·真题版式')
+    d_ans = VN.docx_path(V, '答案与解析版·真题版式')
     if os.path.isfile(d_stu) and os.path.isfile(d_ans):
         res.append(step('⑥ 折行审计', PY_SYS, [os.path.join(S, 'table_wrap_audit.py'), d_stu, d_ans]))
     if WITH_RENDER:

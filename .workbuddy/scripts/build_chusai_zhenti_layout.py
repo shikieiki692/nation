@@ -41,6 +41,15 @@ QB = VAULT / "04-题库"
 MEDIA = VAULT / "媒体仓库"
 OUTDIR = VAULT / "00-首页" / "题组Word" / "初赛模拟卷" / "真题版式"
 TMP = VAULT / ".workbuddy" / "tmp" / "chusai_zhenti"
+
+
+def vol_kind(vol: str) -> str:
+    """★ 卷名中缀：主系列＝「非有机」，有机专题卷（O1…）＝「有机」。
+    判据＝**实际存在的 md 文件**（不按卷号硬猜），对既有 9 卷行为零变化。"""
+    for k in ("有机", "非有机"):
+        if (QB / f"初赛模拟卷{vol}（{k}·答案版）.md").exists():
+            return k
+    return "非有机"
 STAGE_IMG = TMP / "imgstage"          # 构建期图片暂存（自动 staging，见 img_index/resolve_images）
 REF = TMP / "reference-zhenti.docx"
 PANDOC = r"C:\Users\蕾赛\AppData\Local\Pandoc\pandoc.exe"
@@ -1268,7 +1277,7 @@ def _answer_lengths(vol: str):
     会被这类三级标题**提前截断**，导致卷VI 第2/7/11/15 题、卷IX 第6 题量到 0 字。
     现改为「只在遇到新题/分部/卷末附录时结束」，标题层级放宽到 3~6。
     """
-    md = (QB / f"初赛模拟卷{vol}（非有机·答案版）.md").read_text(encoding="utf-8")
+    md = (QB / f"初赛模拟卷{vol}（{vol_kind(vol)}·答案版）.md").read_text(encoding="utf-8")
     if md.startswith("---"):
         e = md.find("\n---", 3)
         md = md[e + 4:] if e > 0 else md
@@ -1381,7 +1390,7 @@ def build_answer_sheet(vol: str, ref: Path):
             p.alignment = align
         return p
 
-    para(f"初赛模拟卷 {vol}（非有机）· 答题卡", style="Heading 1")
+    para(f"初赛模拟卷 {vol}（{vol_kind(vol)}）· 答题卡", style="Heading 1")
 
     info = para()
     info.alignment = WD_ALIGN_PARAGRAPH.CENTER
@@ -1465,7 +1474,7 @@ def build_answer_sheet(vol: str, ref: Path):
         used += need
         first = False
 
-    stage = TMP / f"初赛模拟卷{vol}（非有机·答题卡）.docx"
+    stage = TMP / f"初赛模拟卷{vol}（{vol_kind(vol)}·答题卡）.docx"
     doc.save(str(stage))
 
     stat = {"img": 0, "subq": 0, "indent": 0, "tbl": 0, "color": 0, "formula": 0,
@@ -1493,7 +1502,7 @@ def build_answer_sheet(vol: str, ref: Path):
         entries["word/settings.xml"] = s2.encode("utf-8")
 
     OUTDIR.mkdir(parents=True, exist_ok=True)
-    target = OUTDIR / f"初赛模拟卷{vol}（非有机·答题卡）.docx"
+    target = OUTDIR / f"初赛模拟卷{vol}（{vol_kind(vol)}·答题卡）.docx"
     tmp_out = TMP / f"_w_kz_{vol}.docx"
     with zipfile.ZipFile(tmp_out, "w", zipfile.ZIP_DEFLATED) as zo:
         for n in names:
@@ -1514,24 +1523,33 @@ def build_answer_sheet(vol: str, ref: Path):
 #              卷末《附：选题清单（题卡溯源）》均为规范指定的答案版内容），仅换标题与卷面
 EDITIONS = {
     "student": {
-        "src": "初赛模拟卷{v}（非有机·学生版）.md",
-        "out": "初赛模拟卷{v}（非有机·学生版·真题版式）.docx",
-        "tmp": "初赛模拟卷{v}（非有机·真题版式）",
+        "src": "初赛模拟卷{v}（{k}·学生版）.md",
+        "out": "初赛模拟卷{v}（{k}·学生版·真题版式）.docx",
+        "tmp": "初赛模拟卷{v}（{k}·真题版式）",
         "drop_exam_note": True,
         "title_suffix": "",
     },
     "answer": {
-        "src": "初赛模拟卷{v}（非有机·答案版）.md",
-        "out": "初赛模拟卷{v}（非有机·答案与解析版·真题版式）.docx",
-        "tmp": "初赛模拟卷{v}（非有机·答案与解析·真题版式）",
+        "src": "初赛模拟卷{v}（{k}·答案版）.md",
+        "out": "初赛模拟卷{v}（{k}·答案与解析版·真题版式）.docx",
+        "tmp": "初赛模拟卷{v}（{k}·答案与解析·真题版式）",
         "drop_exam_note": False,
         "title_suffix": "· 答案与解析",
     },
 }
 
 
+def edition_cfg(vol: str, edition: str) -> dict:
+    """把 EDITIONS 里的 `{k}` 按 vol_kind 实例化（`k` 之外字段原样保留）。"""
+    k = vol_kind(vol)
+    cfg = dict(EDITIONS[edition])
+    for key in ("src", "out", "tmp"):
+        cfg[key] = cfg[key].format(v=vol, k=k)
+    return cfg
+
+
 def convert_one(vol: str, ref: Path, edition: str = "student"):
-    cfg = EDITIONS[edition]
+    cfg = edition_cfg(vol, edition)
     src = QB / cfg["src"].format(v=vol)
     if not src.exists():
         print(f"[SKIP] 源缺失 {src.name}")

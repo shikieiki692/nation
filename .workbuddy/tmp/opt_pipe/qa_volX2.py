@@ -20,6 +20,13 @@ sys.path.insert(0, os.path.join(ROOT, ".workbuddy", "tmp", "opt_pipe"))
 import build_org as BO          # noqa: E402  （BO.QUOTA / BO.VOL 由 sys.argv 决定）
 
 VOL = BO.VOL
+# ★ 卷名中缀（有机/非有机）运行时解析：见 .workbuddy/scripts/volname.py
+try:
+    import volname as VN
+except Exception:
+    sys.path.insert(0, r'C:\Obsidion\妙妙屋\.workbuddy\scripts')
+    import volname as VN
+
 # 题数优先取**固化计划**（vol_plan_<VOL>.json）；无计划才回退 QUOTA 求和
 _PLAN = os.path.join(ROOT, ".workbuddy", "tmp", "opt_pipe", "vol_plan_%s.json" % VOL)
 if os.path.exists(_PLAN):
@@ -30,10 +37,10 @@ else:
     N = sum(q for _, _, q in BO.QUOTA)
 if "--legacy" in sys.argv:
     OUTDIR = DESK
-    NAME = "初赛模拟卷%s（非有机·%s）.docx"
+    NAME = "初赛模拟卷%s（%s·%s）.docx"
 else:
     OUTDIR = os.path.join(DESK, "真题版式")
-    NAME = "初赛模拟卷%s（非有机·%s·真题版式）.docx"
+    NAME = "初赛模拟卷%s（%s·%s·真题版式）.docx"
 CMAP = {"答案版": ("答案与解析版" if "--legacy" not in sys.argv else "答案版"),
         "学生版": "学生版"}
 
@@ -51,9 +58,9 @@ def chk(cond, msg):
 for tag in ("答案版", "学生版"):
     print("=" * 78)
     print(tag)
-    mdp = os.path.join(QB, "初赛模拟卷%s（非有机·%s）.md" % (VOL, tag))
+    mdp = VN.md_path(VOL, tag)
     md = io.open(mdp, encoding="utf-8").read()
-    docxp = os.path.join(OUTDIR, NAME % (VOL, CMAP[tag]))
+    docxp = os.path.join(OUTDIR, NAME % (VOL, VN.kind(VOL), CMAP[tag]))
     if not os.path.exists(docxp):
         chk(False, "交付 docx 缺失：%s" % os.path.relpath(docxp, ROOT))
         continue

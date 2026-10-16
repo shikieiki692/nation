@@ -33,6 +33,13 @@ sys.stdout.reconfigure(encoding="utf-8")
 ROOT = r"C:\Obsidion\妙妙屋"
 QB = os.path.join(ROOT, "04-题库")
 DESK = os.path.join(ROOT, "00-首页", "题组Word", "初赛模拟卷", "真题版式")
+# ★ 卷名中缀（有机/非有机）运行时解析：见 .workbuddy/scripts/volname.py
+try:
+    import volname as VN
+except Exception:
+    sys.path.insert(0, r'C:\Obsidion\妙妙屋\.workbuddy\scripts')
+    import volname as VN
+
 PLANDIR = os.path.join(ROOT, ".workbuddy", "tmp", "opt_pipe")
 
 TITLE_RX = re.compile(r"^### 第 (\d+) 题（", re.M)
@@ -166,8 +173,8 @@ def check_vol(v):
     print("卷 %s" % v)
     plan = vol_plan(v)
     cards = [c["path"] for _m, lst in plan for c in lst] if plan else []
-    stu_p = os.path.join(QB, "初赛模拟卷%s（非有机·学生版）.md" % v)
-    ans_p = os.path.join(QB, "初赛模拟卷%s（非有机·答案版）.md" % v)
+    stu_p = VN.md_path(v, "学生版")
+    ans_p = VN.md_path(v, "答案版")
     stu = io.open(stu_p, encoding="utf-8-sig").read()
     ans = io.open(ans_p, encoding="utf-8-sig").read()
     stu_q = split_questions(stu)
@@ -188,9 +195,9 @@ def check_vol(v):
                            % (i + 1, len(miss), sorted(miss)[0][:16], sorted(want), sorted(got))))
 
     # B 空基底（答案版 docx）
-    for tag, fn in (("学生版", "初赛模拟卷%s（非有机·学生版·真题版式）.docx" % v),
-                    ("答案版", "初赛模拟卷%s（非有机·答案与解析版·真题版式）.docx" % v),
-                    ("答题卡", "初赛模拟卷%s（非有机·答题卡）.docx" % v)):
+    for tag, fn in (("学生版", VN.docx_name(v, "学生版·真题版式")),
+                    ("答案版", VN.docx_name(v, "答案与解析版·真题版式")),
+                    ("答题卡", VN.docx_name(v, "答题卡"))):
         p = os.path.join(DESK, fn)
         if not os.path.exists(p):
             issues.append(("B", "%s docx 缺失" % tag))
@@ -253,9 +260,9 @@ def check_vol(v):
 
     # I 图有效分辨率 ≥150dpi（构建期 apply_dpi_cap 的守门人；权威算法＝读 media 实际像素）
     dpi_info = []
-    for tag, fn in (("学生版", "初赛模拟卷%s（非有机·学生版·真题版式）.docx" % v),
-                    ("答案版", "初赛模拟卷%s（非有机·答案与解析版·真题版式）.docx" % v),
-                    ("答题卡", "初赛模拟卷%s（非有机·答题卡）.docx" % v)):
+    for tag, fn in (("学生版", VN.docx_name(v, "学生版·真题版式")),
+                    ("答案版", VN.docx_name(v, "答案与解析版·真题版式")),
+                    ("答题卡", VN.docx_name(v, "答题卡"))):
         p = os.path.join(DESK, fn)
         if not os.path.exists(p):
             continue

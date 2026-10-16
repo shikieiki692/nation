@@ -20,11 +20,21 @@ r"""卷级「图源覆盖」核验器：逐题比对**源卡图数** vs **卷内
 import io, os, re, sys, json, glob, hashlib
 
 ROOT = r"C:\Obsidion\妙妙屋"
+# ★ 卷名中缀（有机/非有机）运行时解析：见 .workbuddy/scripts/volname.py
+try:
+    import volname as VN
+except Exception:
+    sys.path.insert(0, r'C:\Obsidion\妙妙屋\.workbuddy\scripts')
+    import volname as VN
+
 O = os.path.join(ROOT, '.workbuddy', 'tmp', 'opt_pipe')
 IMG = re.compile(r'!\[\[([^\]]+)\]\]')
 # ★ 源卡（chemy 等）用的是**标准 markdown 图语法** `![](images/xxx.jpg)`，
 #   卷内用的是 Obsidian wikilink `![[xxx.jpg]]` ⇒ **必须两种都认**，否则源卡图数恒为 0（2026-10-14 实测踩过）
 IMG_MD = re.compile(r'!\[[^\]]*\]\(([^)]+)\)')
+# ★ 源卡表格内答案结构常用 **HTML `<img src="images/xxx.jpg"/>`**（如清北营/壹尖培优）⇒ 不认则
+#   源卡图数**恒少计**，卷内反而报「多」（2026-10-16 O1 实测：Q2 源卡 11 vs 卷内 32）。
+IMG_HTML = re.compile(r'<img[^>]*\bsrc\s*=\s*["\']([^"\']+)["\']', re.I)
 # 图片搜索目录（内容 sha 比对用）
 IMG_DIRS = glob.glob(os.path.join(ROOT, '04-题库', '**', 'images'), recursive=True)
 
@@ -50,18 +60,25 @@ def cards_of_plan(vol):
     return out
 
 
+def clean(name):
+    """★ 剥 Obsidian 尺寸/别名后缀：`hash.jpg\\|250`（并排图宽度，layout_figs 生成）或 `hash.jpg|250`
+    ⇒ `hash.jpg`。**不剥则 basename 找不到文件 ⇒ content_key 退化为文件名前缀，与源卡的内容-sha 键错位
+    ⇒ 并排图被误报「缺图」**（2026-10-16 O1 实测：14 处假缺图，源卡内容 sha a073e308.. vs 名字前缀 624e4a8e..）。"""
+    return re.split(r'\\?\|', name, maxsplit=1)[0].strip()
+
+
 def imgs_in_md(path):
-    """统计 md 的图引用（**两种语法都算**）：`![[hash.jpg]]` 与 `![](images/hash.jpg)`。"""
+    """统计 md 的图引用（**三种语法都算**）：`![[hash.jpg]]`、`![](images/hash.jpg)`、`<img src=...>`。"""
     try:
         t = io.open(path, encoding='utf-8-sig').read()
     except Exception:
         return None
-    return IMG.findall(t) + IMG_MD.findall(t)
+    return [clean(x) for x in IMG.findall(t) + IMG_MD.findall(t) + IMG_HTML.findall(t)]
 
 
 def norm_hash(name):
     """归一化：取文件名中的 hash 前缀（wikilink 只写 hash，md 语法带 images/ 前缀）。"""
-    b = os.path.basename(name)
+    b = os.path.basename(clean(name))
     m = re.match(r'^[0-9a-f]{8,}', b)
     return m.group(0)[:12] if m else b
 
@@ -69,7 +86,7 @@ def norm_hash(name):
 def content_key(name):
     """★ 以**图片内容 sha256** 作 key —— 库内存在「同图不同名」（如 f86442ad 与 ce154830 内容一致，
     系历史遗留命名）⇒ 只比文件名会误报「缺图」。找不到文件则退化为文件名前缀。"""
-    b = os.path.basename(name)
+    b = os.path.basename(clean(name))
     for d in IMG_DIRS:
         p = os.path.join(d, b)
         if os.path.isfile(p):
@@ -94,7 +111,7 @@ except Exception:
 def in_keep(name):
     """白名单匹配：**文件名前缀** 或 **内容 sha 前缀** 任一命中即算。
     （源卡里图名与内容 sha 常不同 ⇒ 只按文件名匹配会漏，2026-10-14 实测。）"""
-    b = os.path.basename(name)
+    b = os.path.basename(clean(name))
     if any(b.startswith(k[:len(k)]) and len(k) >= 8 for k in KEEP):
         return True
     ck = content_key(name)
@@ -103,7 +120,7 @@ def in_keep(name):
 
 def img_size(name):
     """返回 (w,h)；取不到返回 None。用于「同图不同 JPEG 编码」的等价判定。"""
-    b = os.path.basename(name)
+    b = os.path.basename(clean(name))
     for d in IMG_DIRS:
         p = os.path.join(d, b)
         if os.path.isfile(p):
@@ -123,7 +140,7 @@ def vol_images(vol):
     """
     merged, tags = {}, []
     for tag in ['学生版', '答案版']:
-        p = os.path.join(ROOT, '04-题库', '初赛模拟卷%s（非有机·%s）.md' % (vol, tag))
+        p = VN.md_path(vol, tag)
         if not os.path.isfile(p):
             continue
         tags.append(tag)
@@ -139,7 +156,7 @@ def vol_images(vol):
 
 
 def imgs_in_md_text(t):
-    return IMG.findall(t) + IMG_MD.findall(t)
+    return [clean(x) for x in IMG.findall(t) + IMG_MD.findall(t) + IMG_HTML.findall(t)]
 
 
 def check(vol):
