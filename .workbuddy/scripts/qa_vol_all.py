@@ -43,7 +43,7 @@ except Exception:
     import volname as VN
 
 
-ALL_VOLS = ['X', 'XI', 'XIp', 'XII', 'XIII', 'XIV', 'XV', 'XVI', 'XVII', 'O1']
+ALL_VOLS = ['X', 'XI', 'XIp', 'XII', 'XIII', 'XIV', 'XV', 'XVI', 'XVII', 'O1', 'O2']
 
 VOLS = []
 for i, a in enumerate(sys.argv):

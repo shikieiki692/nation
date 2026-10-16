@@ -16,5 +16,50 @@
  "023f35336b6db2d52e185a1347bf2d79c9134b8f19ff67540c9c049b6b8c0977.jpg": "书脊扫描宽灰带（已由形态学净化版替换，T=180 D=13）",
  "1ef6944ecb02edc345af1e7c799ec440f8b95a67be4dcbb9ca90c0581d0530c7.jpg": "Q10 题面区稳定性曲线图（2026-10-14 起卷内保留 96ea08d2 无水印原生版、有意去重删此图；与 10-13 方向相反——当时保留的是本图，10-14 视觉核验发现本图带大面积「清北」水印，故反转保留方向）",
  "0bc567c5248fd9e76a00b10700c3afb400ba3eb454581767c9a732f067983a10.jpg": "2026-10-14 XV：CH₃NH₃PbI₃ 钙钛矿图例图被错收进刚玉卡（HZ-01-04 卡级错图，内容实属汇智 mock7 第 5 题）⇒ 卷内 5-1 改引原卷刚玉图（53a1a492），本图有意不引",
- "f5817a1cedfd4d2b1652e2dcdf278148488e343b61ed1fe32241466e3b0a10ae.jpg": "2026-10-14 XV：彩色 MOF 框架图与刚玉题「晶胞结构如下图」文图不符（回源长沙冲刺综合1 p4 原卷仅一张 AlO₆ 图）⇒ 卷内 5-1 改引原卷刚玉图，本图有意不引"
+ "f5817a1cedfd4d2b1652e2dcdf278148488e343b61ed1fe32241466e3b0a10ae.jpg": "2026-10-14 XV：彩色 MOF 框架图与刚玉题「晶胞结构如下图」文图不符（回源长沙冲刺综合1 p4 原卷仅一张 AlO₆ 图）⇒ 卷内 5-1 改引原卷刚玉图，本图有意不引",
+ "1a019e6d5dae876f144f859d09644d779862a26840b198cb6061a4d71d95d4a8.jpg": {
+  "verdict": "keep",
+  "why": "O2 ⓪ 逐张目检（2026-10-16）：红笔线划图无近黑墨 ⇒ dark_ratio<0.005 被 noise_of() 误判 watermark；实为必需答案图",
+  "ts": "2026-10-16"
+ },
+ "2f1a81e1fc739787c05162679383890a0fe6b5f63b35b84eb9a80ba923fda6e3.jpg": {
+  "verdict": "keep",
+  "why": "O2 ⓪ 逐张目检（2026-10-16）：红笔线划图无近黑墨 ⇒ dark_ratio<0.005 被 noise_of() 误判 watermark；实为必需答案图",
+  "ts": "2026-10-16"
+ },
+ "3a3a22504a23ffcb26b3cb01c593f7b198f82a5ff0c9a614c7068447b307160a.jpg": {
+  "verdict": "keep",
+  "why": "O2 ⓪ 逐张目检（2026-10-16）：红笔线划图无近黑墨 ⇒ dark_ratio<0.005 被 noise_of() 误判 watermark；实为必需答案图",
+  "ts": "2026-10-16"
+ },
+ "4913da2ebc0d86c043378c8cf48745ec2e07c00e9b215c2abf472fb544e06896.jpg": {
+  "verdict": "keep",
+  "why": "O2 ⓪ 逐张目检（2026-10-16）：红笔线划图无近黑墨 ⇒ dark_ratio<0.005 被 noise_of() 误判 watermark；实为必需答案图",
+  "ts": "2026-10-16"
+ },
+ "685f13a317810c661c436d6fa9fa8ce53adcb269840c2ca5e402d0e87c4f5fbf.jpg": {
+  "verdict": "keep",
+  "why": "O2 ⓪ 逐张目检（2026-10-16）：红笔线划图无近黑墨 ⇒ dark_ratio<0.005 被 noise_of() 误判 watermark；实为必需答案图",
+  "ts": "2026-10-16"
+ },
+ "a7948ff966bcee986cf5b36d21153ca1f4960fae7792aac0d630fd118d5d2a1d.jpg": {
+  "verdict": "keep",
+  "why": "O2 ⓪ 逐张目检（2026-10-16）：红笔线划图无近黑墨 ⇒ dark_ratio<0.005 被 noise_of() 误判 watermark；实为必需答案图",
+  "ts": "2026-10-16"
+ },
+ "a8b34573e91bc47110652782707b19077db44b86f031f1c6a79b296662724770.jpg": {
+  "verdict": "keep",
+  "why": "O2 ⓪ 逐张目检（2026-10-16）：红笔线划图无近黑墨 ⇒ dark_ratio<0.005 被 noise_of() 误判 watermark；实为必需答案图",
+  "ts": "2026-10-16"
+ },
+ "b7b1422f1adc7e99561e4d72fe48a6da2b2b270c0b4ebcb24cc512e4a35683b7.jpg": {
+  "verdict": "keep",
+  "why": "O2 ⓪ 逐张目检（2026-10-16）：红笔线划图无近黑墨 ⇒ dark_ratio<0.005 被 noise_of() 误判 watermark；实为必需答案图",
+  "ts": "2026-10-16"
+ },
+ "ed0388fd5680139d2fa310713b71722e2e698286f0dd1f9443a2d288246b815b.jpg": {
+  "verdict": "keep",
+  "why": "O2 ⓪ 逐张目检（2026-10-16）：红笔线划图无近黑墨 ⇒ dark_ratio<0.005 被 noise_of() 误判 watermark；实为必需答案图",
+  "ts": "2026-10-16"
+ }
 }
