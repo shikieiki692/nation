@@ -86,10 +86,15 @@ for V in VOLS:
     res.append(step('④-e 图源覆盖核验', PY_SYS, [os.path.join(S, 'verify_fig_coverage.py'), '--vol', V, '--strict']))
     # ★ 2026-10-15 新增：④-f 渲染几何级单元格越界（补 ④-d 的「视觉裁切但文字仍在文字层」盲区）
     res.append(step('④-f 单元格越界扫描', PY_VENV, [os.path.join(S, 'scan_cell_cross.py'), '--vol', V, '--strict']))
+    # ★ 2026-10-16：⑤ 师/生题面一致 **通用化** —— 原仅 XVI/XVII 有专用脚本、其余卷恒 SKIP（A 线盲区）。
+    #   优先级：专用 gate_s_t_<V>.py → 旧 <vol>_consistency.py → **通用 scripts/gate_s_t.py --vol V**。
     st = os.path.join(O, 'gate_s_t_%s.py' % V)
     if not os.path.exists(st):
         st = os.path.join(O, '%s_consistency.py' % V.lower())
-    step('⑤ 师/生题面一致', PY_SYS, [st], optional=True) if os.path.exists(st) else print('  SKIP ⑤ 师/生题面一致             （本卷无专用脚本）')
+    if os.path.exists(st):
+        res.append(step('⑤ 师/生题面一致', PY_SYS, [st]))
+    else:
+        res.append(step('⑤ 师/生题面一致', PY_SYS, [os.path.join(S, 'gate_s_t.py'), '--vol', V]))
     d_stu = VN.docx_path(V, '学生版·真题版式')
     d_ans = VN.docx_path(V, '答案与解析版·真题版式')
     if os.path.isfile(d_stu) and os.path.isfile(d_ans):
