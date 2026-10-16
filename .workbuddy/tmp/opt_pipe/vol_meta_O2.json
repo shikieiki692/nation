@@ -12,5 +12,43 @@
   "化英社",
   "壹尖培优",
   "清北营"
+ ],
+ "md_patches": [
+  {
+   "script": "o2_subq_fix.py",
+   "why": "②-b 小问改号残留 3 处修正（源卷号 8-x 未随卷重编为 1-x／4-x）：答案版第1题「8-1~1-3」→「1-1~1-3」（原 8-1~8-3 只改了一半）、第4题「8-1-12021／8-32023」→「4-1-12021／4-32023」；两版同改。",
+   "apply": "python .workbuddy/tmp/opt_pipe/o2_subq_fix.py",
+   "added": "2026-10-16"
+  },
+  {
+   "script": "o2_titles_fix.py",
+   "why": "题名修补：答案版 2 处题名被自动截断（第3题「在药物分子中」、第8题「…不仅取」）⇒ 按源卡 `### 第 N 题 <题名>` 补全；**学生版整体缺题名** ⇒ 镜像补 10/10。",
+   "apply": "python .workbuddy/tmp/opt_pipe/o2_titles_fix.py",
+   "added": "2026-10-16"
+  },
+  {
+   "script": "o2_tblfix2.py",
+   "why": "**表结构缺陷修复（曾致丢图）**：① 第1题答案区尾行图案行仅 2 格而表头/分隔行为 3 列（`layout_figs.render_block` 未补齐，已修工具）⇒ 补 1 空格；② 第9题答案区「2 列表(GM-09-10 前两图)」与「4 列表(E/F/G/H…I/J/K)」之间**缺空行**⇒ pandoc 并成一表、以 2 列分隔行为准 ⇒ 后两列图 7ba55bf1／2894ff33／46f3da73 **落不了 docx**（原 md 176 ≠ media 172）⇒ 补空行分离。修后 图守恒 176/176。",
+   "apply": "python .workbuddy/tmp/opt_pipe/o2_tblfix2.py",
+   "added": "2026-10-16"
+  },
+  {
+   "script": "o2_q5_tblfix.py",
+   "why": "第5题答案区**残破 HTML 表碎片 → 3 列 md 管道表**（根因：源卡 `题-YJ-09-06` 的 答案表缺 `<table>` 开头 ⇒ 建卷期 `html_table_to_md()` 正则不匹配 ⇒ 字面 HTML 漏进卷 md，qa ④「字面 <table>」报 1）。**根因已同时修复源卡**（见 `yj0906_cardfix.py`）。本修补**零文字改动**：token 逐项断言（图 8/8、30 个 token 全保留、无 HTML 残留）。",
+   "apply": "python .workbuddy/tmp/opt_pipe/o2_q5_tblfix.py",
+   "added": "2026-10-16"
+  },
+  {
+   "script": "o2_fix3site.py",
+   "why": "**三处缺陷修补（卷两版＋3 张源卡同改）**：① **内容丢失（图代文）**——卡 CM-207-09 的 9-2-3 选项与 9-2-4 题干被 mineru **误判为图**（图 `66dd98d1` 目检＝**该段文字本身的扫描块**：`基酸残基主要位于何位置？` ＋ `a)…b)…c)…` ＋ `9-2-4 NNMT-36 不止可以…分别投入 EtI 和 n-`）⇒ 卡与卷 md 均只剩 `…研究人员更改的氨` ＋ 图 ＋ `PrI。将…`。修法＝用 **L0 逐字文字**替换该图引用行。② **OCR 页眉残渣误置 H2**：`## 奥林匹克` ＋ `'026年7`（源自 L0 页眉残渣）⇒ 整行删除（卷两版＋卡 CM-17-08）。③ **评分文字误置 H2**：`## (3 分, 结构 1 分, 手性位点一个 1 分)` ⇒ 去 `## ` 标记（照卷 X `md_patches` 先例；卷答案版＋卡 HYS-40-09）。",
+   "apply": "python .workbuddy/tmp/opt_pipe/o2_fix3site.py",
+   "added": "2026-10-16"
+  },
+  {
+   "script": "o2_q3_join.py",
+   "why": "把上项恢复出的 Q3 文字**并回完整段落**（L0 原段落为单行）：`**3-2-3** …研究人员更改的氨` ＋ `基酸残基主要位于何位置？` → 整句；`**3-2-4** …分别投入 EtI 和 n-` ＋ `PrI。将 …` → 整句（卷两版＋卡 CM-207-09）。",
+   "apply": "python .workbuddy/tmp/opt_pipe/o2_q3_join.py",
+   "added": "2026-10-16"
+  }
  ]
 }
