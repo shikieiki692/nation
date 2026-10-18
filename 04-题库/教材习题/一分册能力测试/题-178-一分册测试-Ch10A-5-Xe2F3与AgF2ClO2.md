@@ -80,5 +80,5 @@ $\mathrm{ClO_2F} + \mathrm{BF_3} = [\mathrm{ClO_2}]^+ [\mathrm{BF_4}]^-$
 | 稀有气体 | Xe 与 F₂ 在 AsF₅ 溶剂中生成 [Xe₂F₃]⁺ 配阳离子 | 直接 |
 | Lewis酸碱理论 | AsF₅ 为氟受体 Lewis 酸；BF₃ 接受 F⁻ 形成 [BF₄]⁻ | 直接 |
 | 卤素 | ClO₂ 与 AgF₂ 反应生成逆磁性 ClO₂F | 直接 |
-| 氧化还原反应基础 | Ag²⁺ → Ag⁺（还原剂）、Cl⁺⁴ → Cl⁺⁵（氧化剂） |  | 直接 |
+| 氧化还原反应基础 | Ag²⁺ → Ag⁺（还原剂）、Cl⁺⁴ → Cl⁺⁵（氧化剂） | 直接 |
 | 配位化合物 | [Xe₂F₃]⁺[AsF₆]⁻ 与 [ClO₂]⁺[BF₄]⁻ 配阳/配阴离子 | 直接 |
