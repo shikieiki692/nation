@@ -9,6 +9,7 @@ difficulty: 4
 teaching_level: 拓展
 knowledge_points: ["[[分子轨道理论]]", "[[晶体场理论]]"]
 status: 已补全答案
+question_image_status: 无需
 tags: [化竞, 无机化学, Weller, 晶体场理论]
 created: 2026-08-27
 updated: 2026-08-30

@@ -10,6 +10,7 @@ question_type: [简答]
 teaching_level: 巩固
 knowledge_points: ["[[Jahn-Teller效应]]", "[[晶体场理论]]"]
 status: 已填充
+question_image_status: 无需
 tags: [化竞, 无机化学, Weller, 晶体场理论]
 created: 2026-08-27
 updated: 2026-08-27
